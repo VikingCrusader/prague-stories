@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { LanguageProvider } from './context/LanguageContext';
 import Navbar from './components/shared/Navbar';
@@ -13,6 +13,7 @@ import DashboardPage from './pages/DashboardPage';
 
 function ProximityDetector() {
   const { user } = useAuth();
+  const navigate = useNavigate();
   const { discovery, dismiss, markCheckedIn } = useProximityDetection(!!user);
 
   if (!user) return null;
@@ -21,7 +22,11 @@ function ProximityDetector() {
     <ProximityPrompt
       discovery={discovery}
       onDismiss={dismiss}
-      onCheckIn={(slug, result) => markCheckedIn(slug)}
+      onCheckIn={(slug, result) => {
+        markCheckedIn(slug);
+        window.dispatchEvent(new CustomEvent('proximity-checkin', { detail: { slug } }));
+        navigate('/explore', { state: { openSlug: slug } });
+      }}
     />
   );
 }

@@ -1,4 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
+import { useLocation, useNavigate } from 'react-router-dom';
 import { locationAPI } from '../services/api';
 import { useT } from '../context/LanguageContext';
 import LocationGrid from '../components/locations/LocationGrid';
@@ -10,6 +11,8 @@ let toastId = 0;
 
 export default function ExplorePage() {
   const t = useT();
+  const { state } = useLocation();
+  const navigate = useNavigate();
   const [locations, setLocations]       = useState([]);
   const [selectedSlug, setSelectedSlug] = useState(null);
   const [showAdd, setShowAdd]           = useState(false);
@@ -21,6 +24,20 @@ export default function ExplorePage() {
       .then(res => setLocations(res.data))
       .finally(() => setLoading(false));
   }, []);
+
+  useEffect(() => {
+    const handler = (e) =>
+      setLocations(prev => prev.map(l => l.slug === e.detail.slug ? { ...l, unlocked: true } : l));
+    window.addEventListener('proximity-checkin', handler);
+    return () => window.removeEventListener('proximity-checkin', handler);
+  }, []);
+
+  useEffect(() => {
+    if (state?.openSlug) {
+      setSelectedSlug(state.openSlug);
+      navigate('.', { replace: true, state: null });
+    }
+  }, [state?.openSlug]);
 
   const addToast = useCallback((message, type = 'success') => {
     const id = ++toastId;

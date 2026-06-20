@@ -18,6 +18,13 @@ export default function MapPage() {
       .finally(() => setLoading(false));
   }, []);
 
+  useEffect(() => {
+    const handler = (e) =>
+      setLocations(prev => prev.map(l => l.slug === e.detail.slug ? { ...l, unlocked: true } : l));
+    window.addEventListener('proximity-checkin', handler);
+    return () => window.removeEventListener('proximity-checkin', handler);
+  }, []);
+
   const addToast = (message, type = 'success') => {
     const id = Date.now();
     setToasts(prev => [...prev, { id, message, type }]);

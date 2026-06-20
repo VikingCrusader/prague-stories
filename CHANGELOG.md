@@ -4,6 +4,24 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [0.9.2] — 2026-06-20
+
+**Navigate to location detail after proximity check-in**
+
+- After a successful proximity-prompt check-in, the app navigates to `/explore` and automatically opens the location detail modal for the checked-in location
+- Route state is cleared after the modal opens so back/forward navigation does not re-open it
+
+---
+
+## [0.9.1] — 2026-06-20
+
+**Fix: proximity check-in does not refresh the Explore grid**
+
+- After a successful proximity-prompt check-in, `ProximityDetector` now dispatches a `proximity-checkin` browser event with the location slug
+- `ExplorePage` and `MapPage` listen for this event and immediately flip the matching location to `unlocked: true` in their local state, updating the "N preset locations unlocked" counter and map markers without a full re-fetch
+
+---
+
 ## [0.9.0] — 2026-06-20
 
 **Check-in reliability and UX polish**
