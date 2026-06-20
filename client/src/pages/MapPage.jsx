@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { locationAPI, checkinAPI } from '../services/api';
 import { useLang, useT } from '../context/LanguageContext';
 import { getLocName } from '../utils/locName';
+import { getCurrentPosition } from '../utils/geolocation';
 import MapView from '../components/map/MapView';
 import { getArt } from '../utils/pixelArtMap';
 
@@ -107,9 +108,11 @@ function SidebarDetail({ slug, onCheckIn, onUndo }) {
   const [loc, setLoc]                   = useState(null);
   const [loading, setLoading]           = useState(true);
   const [actionLoading, setActionLoading] = useState(false);
+  const [checkInError, setCheckInError] = useState('');
 
   useEffect(() => {
     setLoading(true);
+    setCheckInError('');
     locationAPI.getOne(slug)
       .then(res => setLoc(res.data))
       .finally(() => setLoading(false));
@@ -128,9 +131,12 @@ function SidebarDetail({ slug, onCheckIn, onUndo }) {
   const doCheckIn = async () => {
     setActionLoading(true);
     try {
-      const res = await checkinAPI.checkIn(slug);
+      const coords = await getCurrentPosition();
+      const res = await checkinAPI.checkIn(slug, coords);
       setLoc(prev => ({ ...prev, unlocked: true }));
       onCheckIn(slug, res.data);
+    } catch (err) {
+      setCheckInError(err.response?.data?.message || err.message || 'Check-in failed');
     } finally { setActionLoading(false); }
   };
 
@@ -172,6 +178,9 @@ function SidebarDetail({ slug, onCheckIn, onUndo }) {
             </button>
           )}
         </div>
+        {checkInError && (
+          <p style={{ color: '#ff6b6b', fontSize: 13, marginTop: 8 }}>{checkInError}</p>
+        )}
       </div>
     </div>
   );

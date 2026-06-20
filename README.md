@@ -16,6 +16,7 @@ Unlock 106 real Prague landmarks, earn XP, collect achievements, and read AI-gen
 - Full UI localisation: English, Czech, and Chinese (ZH/EN/CZ toggle)
 - Localized place names — Czech and Chinese names for all 106 locations
 - Pixel art retro UI with [Ark Pixel Font](https://github.com/TakWolf/ark-pixel-font) in Chinese mode
+- Geolocation-based check-in — must be within 200m of the location to check in
 
 ## Stack
 
@@ -61,6 +62,8 @@ cd ../client && npm run dev
 ```
 
 Open `http://localhost:5173`, register an account, and start exploring.
+
+> **Note:** Check-in distance validation is skipped when `NODE_ENV=development`, so you can test locally without being in Prague.
 
 ## Project Structure
 
@@ -117,10 +120,24 @@ MONGO_URI=mongodb://localhost:27017/prague-stories
 JWT_SECRET=your_jwt_secret_here
 JWT_EXPIRES_IN=7d
 GEMINI_API_KEY=your_gemini_api_key_here
+CLIENT_ORIGIN=https://prague-stories.vercel.app
 PORT=5000
+NODE_ENV=development
 ```
 
 ## Changelog
+
+### [0.3.0] — 2026-06-20
+
+**Deployment and geolocation check-in**
+
+- Added geolocation-based check-in: browser requests GPS on check-in and backend validates user is within 200m using Haversine formula; returns `403` if too far
+- Distance check is bypassed when `NODE_ENV=development`
+- Frontend surfaces geolocation and backend errors inline below the check-in button
+- Production API URL (`https://prague-stories-api.onrender.com`) auto-selected via `import.meta.env.PROD`
+- CORS now allows `https://prague-stories.vercel.app` in addition to `localhost:5173`
+- Added `engines: { node: ">=18.0.0" }` to `server/package.json` for Render compatibility
+- Added `.catch()` on `connectDB()` so missing `MONGO_URI` prints a clear error and exits with code 1
 
 ### [0.2.0] — 2026-06-20
 

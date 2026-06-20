@@ -3,6 +3,7 @@ import { locationAPI, checkinAPI } from '../../services/api';
 import { useLang, useT } from '../../context/LanguageContext';
 import { getArt } from '../../utils/pixelArtMap';
 import { getLocName } from '../../utils/locName';
+import { getCurrentPosition } from '../../utils/geolocation';
 import LanguageSwitcher from '../shared/LanguageSwitcher';
 
 const CAT_COLORS = {
@@ -29,11 +30,12 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
   const handleCheckIn = async () => {
     setActionLoading(true); setError('');
     try {
-      const res = await checkinAPI.checkIn(slug);
+      const coords = await getCurrentPosition();
+      const res = await checkinAPI.checkIn(slug, coords);
       setLoc(prev => ({ ...prev, unlocked: true }));
       onCheckIn(slug, res.data);
     } catch (err) {
-      setError(err.response?.data?.message || 'Check-in failed');
+      setError(err.response?.data?.message || err.message || 'Check-in failed');
     } finally {
       setActionLoading(false);
     }

@@ -26,7 +26,7 @@ export const locationAPI = {
 
 export const checkinAPI = {
   getAll:  ()              => api.get('/checkins'),
-  checkIn: (slug, note)    => api.post(`/checkins/${slug}`, { note }),
+  checkIn: (slug, { note, lat, lng } = {}) => api.post(`/checkins/${slug}`, { note, lat, lng }),
   undo:    (slug)          => api.delete(`/checkins/${slug}`),
 };
 

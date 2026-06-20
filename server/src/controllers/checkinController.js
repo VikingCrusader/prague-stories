@@ -3,6 +3,19 @@ import Location from '../models/Location.js';
 import User from '../models/User.js';
 import { evaluateAchievements, calculateLevel } from '../services/gamification.js';
 
+const MAX_DISTANCE_METERS = 200;
+
+function haversineDistance(lat1, lon1, lat2, lon2) {
+  const R = 6371000; // Earth radius in metres
+  const toRad = d => (d * Math.PI) / 180;
+  const dLat = toRad(lat2 - lat1);
+  const dLon = toRad(lon2 - lon1);
+  const a =
+    Math.sin(dLat / 2) ** 2 +
+    Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) * Math.sin(dLon / 2) ** 2;
+  return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
+}
+
 export async function getUserCheckins(req, res, next) {
   try {
     const checkins = await CheckIn.find({ user: req.user._id })
@@ -23,7 +36,17 @@ export async function checkIn(req, res, next) {
     const existing = await CheckIn.findOne({ user: req.user._id, location: location._id });
     if (existing) return res.status(409).json({ message: 'Already checked in' });
 
-    const { note } = req.body;
+    const { note, lat, lng } = req.body;
+
+    if (process.env.NODE_ENV !== 'development') {
+      if (lat == null || lng == null) {
+        return res.status(400).json({ message: 'Location coordinates are required to check in' });
+      }
+      const distance = haversineDistance(lat, lng, location.coordinates.lat, location.coordinates.lng);
+      if (distance > MAX_DISTANCE_METERS) {
+        return res.status(403).json({ message: 'You need to be at the location to check in!' });
+      }
+    }
     await CheckIn.create({ user: req.user._id, location: location._id, note: note || '' });
 
     // Award XP
