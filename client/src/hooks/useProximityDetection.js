@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import { locationAPI } from '../services/api';
-import { haversineDistance } from '../utils/geolocation';
+import { haversineDistance, setCachedPosition } from '../utils/geolocation';
 
 const RADIUS = 100; // metres
 
@@ -22,6 +22,7 @@ export function useProximityDetection(enabled) {
     const watchId = navigator.geolocation.watchPosition(
       pos => {
         const { latitude: lat, longitude: lng } = pos.coords;
+        setCachedPosition(lat, lng);
 
         let nearest = null;
         let nearestDist = Infinity;

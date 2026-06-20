@@ -37,7 +37,6 @@ export default function ExplorePage() {
     result.newAchievements?.forEach(a =>
       addToast(`Achievement unlocked: ${a.id.replace(/_/g, ' ')}`, 'info')
     );
-    setSelectedSlug(null);
   };
 
   const handleUndo = (slug) => {

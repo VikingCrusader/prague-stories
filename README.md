@@ -20,6 +20,8 @@ Unlock 106 real Prague landmarks, earn XP, collect achievements, and read AI-gen
 - Google Maps navigation link on every location (opens turn-by-turn directions)
 - Custom locations support a cover photo, description, and Wikipedia URL
 - Automatic proximity detection: prompts check-in when within 100m of an unvisited location
+- Check-in success overlay: shows "CHECKED IN!", XP earned, and any unlocked achievements for 2.5 s before the modal auto-closes
+- Explore grid refreshes instantly after check-in without waiting for the modal to close
 
 ## Stack
 
@@ -129,6 +131,16 @@ NODE_ENV=development
 ```
 
 ## Changelog
+
+### [0.9.0] — 2026-06-20
+
+**Check-in reliability and UX polish**
+
+- Fixed repeated check-in failures ("Could not get your location"): `getCurrentPosition` now reuses the position already held by the background `watchPosition` (proximity detection) when it is less than 60 s old, making check-in from the location detail modal instant. Falls back to a fresh acquisition with a 15 s timeout and 30 s `maximumAge`
+- Added "Locating…" pixel-art status label while geolocation is running, so the button no longer appears frozen
+- Added check-in success overlay in the location detail modal — shows **CHECKED IN!** in green pixel font plus XP earned and any newly unlocked achievements for 2.5 s before the modal auto-closes
+- Fixed grid not refreshing after check-in: the Explore grid now marks the location as discovered the instant the API call succeeds, not after the 2.5 s overlay completes
+- Modal auto-close is handled by a `useEffect` with cleanup so a stale timer can never close a subsequently opened modal
 
 ### [0.8.0] — 2026-06-20
 

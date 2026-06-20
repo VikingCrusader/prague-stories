@@ -9,14 +9,31 @@ export function haversineDistance(lat1, lon1, lat2, lon2) {
   return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
 }
 
+// Shared position cache — populated by watchPosition in useProximityDetection
+let _cachedPos = null;
+
+export function setCachedPosition(lat, lng) {
+  _cachedPos = { lat, lng, ts: Date.now() };
+}
+
 export function getCurrentPosition() {
   return new Promise((resolve, reject) => {
+    // Use watchPosition's last result if it's less than 60 seconds old
+    if (_cachedPos && Date.now() - _cachedPos.ts < 60_000) {
+      resolve({ lat: _cachedPos.lat, lng: _cachedPos.lng });
+      return;
+    }
     if (!navigator.geolocation) {
       reject(new Error('Geolocation is not supported by your browser'));
       return;
     }
     navigator.geolocation.getCurrentPosition(
-      pos => resolve({ lat: pos.coords.latitude, lng: pos.coords.longitude }),
+      pos => {
+        const lat = pos.coords.latitude;
+        const lng = pos.coords.longitude;
+        _cachedPos = { lat, lng, ts: Date.now() };
+        resolve({ lat, lng });
+      },
       err => {
         if (err.code === err.PERMISSION_DENIED) {
           reject(new Error('Location permission denied'));
@@ -24,7 +41,7 @@ export function getCurrentPosition() {
           reject(new Error('Could not get your location'));
         }
       },
-      { enableHighAccuracy: true, timeout: 10000 }
+      { enableHighAccuracy: true, timeout: 15000, maximumAge: 30000 }
     );
   });
 }

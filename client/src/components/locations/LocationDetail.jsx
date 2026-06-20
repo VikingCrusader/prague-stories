@@ -19,6 +19,8 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
   const [actionLoading, setActionLoading] = useState(false);
   const [error, setError]         = useState('');
   const [imgFailed, setImgFailed] = useState(false);
+  const [checkInResult, setCheckInResult] = useState(null);
+  const [closing, setClosing] = useState(false);
 
   useEffect(() => {
     setLoading(true); setError('');
@@ -28,13 +30,22 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
       .finally(() => setLoading(false));
   }, [slug]);
 
+  // Close modal after success display; cancelled if user manually closes first
+  useEffect(() => {
+    if (!closing) return;
+    const timer = setTimeout(onClose, 2500);
+    return () => clearTimeout(timer);
+  }, [closing]);
+
   const handleCheckIn = async () => {
     setActionLoading(true); setError('');
     try {
       const coords = await getCurrentPosition();
       const res = await checkinAPI.checkIn(slug, coords);
       setLoc(prev => ({ ...prev, unlocked: true }));
-      onCheckIn(slug, res.data);
+      setCheckInResult(res.data);
+      onCheckIn(slug, res.data); // update grid immediately
+      setClosing(true);          // start 2.5s close timer
     } catch (err) {
       setError(err.response?.data?.message || err.message || 'Check-in failed');
     } finally {
@@ -145,7 +156,21 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
                   {t('common.googleMaps')}
                 </a>
                 <div style={{ marginLeft: 'auto', display: 'flex', gap: 8 }}>
-                  {loc.unlocked ? (
+                  {checkInResult ? (
+                    <div style={{ textAlign: 'center', minWidth: 160 }}>
+                      <p style={{ fontFamily: "'Press Start 2P'", fontSize: 9, color: '#8eff8e', marginBottom: 8, letterSpacing: 1 }}>
+                        CHECKED IN!
+                      </p>
+                      <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: 'var(--gold)' }}>
+                        +{checkInResult.xpEarned} XP
+                      </p>
+                      {checkInResult.newAchievements?.map(a => (
+                        <p key={a.id} style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: '#7ec8e3', marginTop: 6 }}>
+                          {a.id.replace(/_/g, ' ')}
+                        </p>
+                      ))}
+                    </div>
+                  ) : loc.unlocked ? (
                     <button
                       className="px-btn px-btn--danger px-btn--sm"
                       onClick={handleUndo}
@@ -164,6 +189,11 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
                   )}
                 </div>
               </div>
+              {actionLoading && !checkInResult && (
+                <p style={{ fontFamily: "'Press Start 2P'", fontSize: 7, color: 'var(--text-muted)', marginTop: 10 }}>
+                  Locating...
+                </p>
+              )}
               {error && <p style={{ color: '#ff6b6b', fontSize: 14, marginTop: 10 }}>{error}</p>}
             </div>
           </>
