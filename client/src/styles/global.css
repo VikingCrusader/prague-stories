@@ -1,0 +1,41 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg-primary:    #0d0f1e;
+  --bg-surface:    #141830;
+  --bg-card:       #111428;
+  --text-primary:  #f0e6c8;
+  --text-muted:    #7a6e5f;
+  --gold:          #ffd700;
+  --gold-dark:     #b89b00;
+  --gold-shadow:   #7a6600;
+  --border:        #252a4a;
+
+  --cat-historical:    #7a5210;
+  --cat-cultural:      #5a1480;
+  --cat-natural:       #145a20;
+  --cat-food:          #7a2000;
+  --cat-hidden-gem:    #0a3a7a;
+  --cat-entertainment: #7a0a40;
+}
+
+html, body { height: 100%; }
+
+body {
+  font-family: 'VT323', monospace;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+#root { min-height: 100vh; display: flex; flex-direction: column; }
+
+a { color: var(--gold); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button { cursor: pointer; font-family: inherit; }
+input, select, textarea { font-family: inherit; }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--bg-primary); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
