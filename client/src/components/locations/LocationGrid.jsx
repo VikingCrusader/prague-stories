@@ -1,10 +1,12 @@
 import { useState, useMemo } from 'react';
 import LocationCard from './LocationCard';
+import { useT } from '../../context/LanguageContext';
 import { CATEGORY_LABELS } from '../../utils/pixelArtMap';
 
 const ALL_CATS = ['all', ...Object.keys(CATEGORY_LABELS)];
 
 export default function LocationGrid({ locations, onCardClick }) {
+  const t = useT();
   const [cat, setCat]       = useState('all');
   const [search, setSearch] = useState('');
 
@@ -26,7 +28,7 @@ export default function LocationGrid({ locations, onCardClick }) {
       <div className="filter-bar">
         <input
           className="filter-bar__search"
-          placeholder="Search locations..."
+          placeholder={t('grid.searchPlaceholder')}
           value={search}
           onChange={e => setSearch(e.target.value)}
         />
@@ -36,14 +38,14 @@ export default function LocationGrid({ locations, onCardClick }) {
             className={`filter-btn${cat === c ? ' filter-btn--active' : ''}`}
             onClick={() => setCat(c)}
           >
-            {c === 'all' ? '★ All' : CATEGORY_LABELS[c]}
+            {c === 'all' ? t('grid.filterAll') : t(`cat.${c}`)}
           </button>
         ))}
       </div>
 
       <p className="explore-stats" style={{ marginBottom: 16 }}>
-        <span>{unlocked}</span> / <span>{total}</span> preset locations unlocked
-        &nbsp;·&nbsp; showing <span>{filtered.length}</span>
+        <span>{unlocked}</span> / <span>{total}</span> {t('explore.statsLabel')}
+        &nbsp;·&nbsp; {t('grid.showing')} <span>{filtered.length}</span>
       </p>
 
       <div className="location-grid">
@@ -52,7 +54,7 @@ export default function LocationGrid({ locations, onCardClick }) {
         ))}
         {filtered.length === 0 && (
           <p style={{ color: 'var(--text-muted)', gridColumn: '1/-1', padding: 24 }}>
-            No locations found.
+            {t('grid.noResults')}
           </p>
         )}
       </div>

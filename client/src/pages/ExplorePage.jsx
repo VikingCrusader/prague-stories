@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { locationAPI } from '../services/api';
+import { useT } from '../context/LanguageContext';
 import LocationGrid from '../components/locations/LocationGrid';
 import LocationDetail from '../components/locations/LocationDetail';
 import AddLocationForm from '../components/locations/AddLocationForm';
@@ -8,6 +9,7 @@ import ToastContainer from '../components/shared/Toast';
 let toastId = 0;
 
 export default function ExplorePage() {
+  const t = useT();
   const [locations, setLocations]       = useState([]);
   const [selectedSlug, setSelectedSlug] = useState(null);
   const [showAdd, setShowAdd]           = useState(false);
@@ -50,8 +52,6 @@ export default function ExplorePage() {
     addToast('Location added! Check it in on the map.');
   };
 
-  const unlocked = locations.filter(l => l.unlocked).length;
-
   if (loading) return (
     <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <div className="spinner" />
@@ -63,13 +63,10 @@ export default function ExplorePage() {
       <div className="explore-header">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: 12 }}>
           <div>
-            <h1 className="px-title" style={{ fontSize: 13 }}>Explore Prague</h1>
-            <p className="explore-stats" style={{ marginTop: 8 }}>
-              <span>{unlocked}</span> / <span>{locations.filter(l => l.isPreset).length}</span> preset locations unlocked
-            </p>
+            <h1 className="px-title" style={{ fontSize: 13 }}>{t('explore.title')}</h1>
           </div>
           <button className="px-btn px-btn--outline" onClick={() => setShowAdd(true)}>
-            + Add Location
+            {t('explore.addLocation')}
           </button>
         </div>
       </div>

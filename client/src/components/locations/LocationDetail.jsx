@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
 import { locationAPI, checkinAPI } from '../../services/api';
-import { useLang } from '../../context/LanguageContext';
+import { useLang, useT } from '../../context/LanguageContext';
 import { getArt } from '../../utils/pixelArtMap';
+import { getLocName } from '../../utils/locName';
 import LanguageSwitcher from '../shared/LanguageSwitcher';
 
 const CAT_COLORS = {
@@ -11,6 +12,7 @@ const CAT_COLORS = {
 
 export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
   const { lang } = useLang();
+  const t = useT();
   const [loc, setLoc]             = useState(null);
   const [loading, setLoading]     = useState(true);
   const [actionLoading, setActionLoading] = useState(false);
@@ -51,6 +53,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
   };
 
   const description = loc?.description?.[lang] || loc?.description?.en || '';
+  const locName = loc ? getLocName(loc, lang) : '';
   const art = loc ? getArt(loc.pixelArtKey, loc.category) : '📍';
   const bgColor = loc ? (CAT_COLORS[loc.category] || '#333') : '#333';
 
@@ -63,7 +66,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
           <div style={{ padding: 48, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 16 }}>
             <div className="spinner" />
             <span style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: 'var(--text-muted)' }}>
-              Generating description...
+              {t('common.loading')}
             </span>
           </div>
         ) : error ? (
@@ -73,11 +76,11 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
             <div className="px-modal__header" style={{ background: bgColor }}>
               <span className="detail-art">{art}</span>
               <div style={{ flex: 1 }}>
-                <h2 className="px-title" style={{ fontSize: 11, marginBottom: 10 }}>{loc.name}</h2>
-                <span className={`cat-badge cat-badge--${loc.category}`}>{loc.category.replace('-', ' ')}</span>
+                <h2 className="px-title" style={{ fontSize: 11, marginBottom: 10 }}>{locName}</h2>
+                <span className={`cat-badge cat-badge--${loc.category}`}>{t(`cat.${loc.category}`)}</span>
                 {loc.unlocked && (
                   <span style={{ marginLeft: 8, fontSize: 7, color: '#8eff8e', fontFamily: "'Press Start 2P'" }}>
-                    ✓ VISITED
+                    {t('common.visited')}
                   </span>
                 )}
               </div>
@@ -93,7 +96,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
                 <p className="detail-desc" style={{ marginBottom: 20 }}>{description}</p>
               ) : (
                 <p style={{ color: 'var(--text-muted)', fontSize: 16, marginBottom: 20 }}>
-                  Description not yet available.
+                  {t('common.noDesc')}
                 </p>
               )}
 
@@ -107,7 +110,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    📖 Wikipedia
+                    {t('common.wikipedia')}
                   </a>
                 )}
                 <div style={{ marginLeft: 'auto', display: 'flex', gap: 8 }}>
@@ -117,7 +120,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
                       onClick={handleUndo}
                       disabled={actionLoading}
                     >
-                      {actionLoading ? '...' : '✕ Undo Visit'}
+                      {actionLoading ? '...' : t('common.undoVisit')}
                     </button>
                   ) : (
                     <button
@@ -125,7 +128,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
                       onClick={handleCheckIn}
                       disabled={actionLoading}
                     >
-                      {actionLoading ? '...' : '★ Check In'}
+                      {actionLoading ? '...' : t('common.checkIn')}
                     </button>
                   )}
                 </div>

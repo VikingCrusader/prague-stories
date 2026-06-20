@@ -1,12 +1,13 @@
 import { useState, useEffect } from 'react';
 import { userAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
+import { useT } from '../context/LanguageContext';
 import ProgressRing from '../components/dashboard/ProgressRing';
 import AchievementBadge from '../components/dashboard/AchievementBadge';
-import { CATEGORY_LABELS } from '../utils/pixelArtMap';
 
 export default function DashboardPage() {
   const { user }         = useAuth();
+  const t                = useT();
   const [progress, setProgress] = useState(null);
   const [achData, setAchData]   = useState(null);
   const [loading, setLoading]   = useState(true);
@@ -30,7 +31,7 @@ export default function DashboardPage() {
   return (
     <div className="dashboard-page">
       <h1 className="px-title" style={{ fontSize: 13, marginBottom: 20 }}>
-        Explorer Dashboard
+        {t('dashboard.title')}
       </h1>
 
       {/* Level + XP */}
@@ -57,7 +58,7 @@ export default function DashboardPage() {
           </div>
           {levelInfo.nextLevelXP && (
             <div style={{ fontSize: 13, color: 'var(--text-muted)' }}>
-              {levelInfo.nextLevelXP - totalXP} XP to next level
+              {levelInfo.nextLevelXP - totalXP} {t('dashboard.xpToNext')}
             </div>
           )}
         </div>
@@ -68,21 +69,23 @@ export default function DashboardPage() {
         <div className="stat-card" style={{ display: 'flex', gap: 24, alignItems: 'center' }}>
           <ProgressRing percent={unlockPercent} size={140} />
           <div>
-            <div className="stat-card__label">Locations</div>
+            <div className="stat-card__label">{t('dashboard.locations')}</div>
             <div className="stat-card__value">{progress.presetCheckins}</div>
-            <div style={{ fontSize: 16, color: 'var(--text-muted)' }}>of {totalPreset} preset</div>
+            <div style={{ fontSize: 16, color: 'var(--text-muted)' }}>
+              {t('dashboard.ofPreset', { n: totalPreset })}
+            </div>
             <div style={{ fontSize: 16, color: 'var(--text-muted)', marginTop: 6 }}>
-              {totalCheckins} total visits
+              {totalCheckins} {t('dashboard.totalVisits')}
             </div>
           </div>
         </div>
 
         {/* Category Breakdown */}
         <div className="stat-card">
-          <div className="stat-card__label" style={{ marginBottom: 14 }}>Category Breakdown</div>
-          {Object.entries(CATEGORY_LABELS).map(([key, label]) => (
+          <div className="stat-card__label" style={{ marginBottom: 14 }}>{t('dashboard.categoryBreakdown')}</div>
+          {['historical', 'cultural', 'natural', 'food', 'hidden-gem', 'entertainment'].map(key => (
             <div key={key} style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8, fontSize: 16 }}>
-              <span>{label}</span>
+              <span>{t(`cat.${key}`)}</span>
               <span style={{ color: 'var(--gold)' }}>{categoryCount?.[key] || 0}</span>
             </div>
           ))}
@@ -90,19 +93,19 @@ export default function DashboardPage() {
 
         {/* Stats row */}
         <div className="stat-card">
-          <div className="stat-card__label">Total XP</div>
+          <div className="stat-card__label">{t('dashboard.totalXP')}</div>
           <div className="stat-card__value">{totalXP}</div>
         </div>
 
         <div className="stat-card">
-          <div className="stat-card__label">Achievements</div>
+          <div className="stat-card__label">{t('dashboard.achievements')}</div>
           <div className="stat-card__value">{unlockedAch} / {achievements.length}</div>
         </div>
       </div>
 
       {/* Level roadmap */}
       <div style={{ marginTop: 28, marginBottom: 24 }}>
-        <h2 className="px-title" style={{ fontSize: 10, marginBottom: 14 }}>Explorer Levels</h2>
+        <h2 className="px-title" style={{ fontSize: 10, marginBottom: 14 }}>{t('dashboard.explorerLevels')}</h2>
         <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
           {levels.map(lvl => (
             <div
@@ -127,7 +130,7 @@ export default function DashboardPage() {
       </div>
 
       {/* Achievements */}
-      <h2 className="px-title" style={{ fontSize: 10, marginBottom: 14 }}>Achievements</h2>
+      <h2 className="px-title" style={{ fontSize: 10, marginBottom: 14 }}>{t('dashboard.achievements')}</h2>
       <div className="achievements-grid">
         {achievements.map(ach => (
           <AchievementBadge key={ach.id} achievement={ach} />

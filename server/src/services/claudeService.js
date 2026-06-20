@@ -1,32 +1,36 @@
-import Anthropic from '@anthropic-ai/sdk';
+import { GoogleGenerativeAI } from '@google/generative-ai';
 
-const client = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
+const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
+const model = genAI.getGenerativeModel({ model: 'gemini-2.0-flash-lite' });
 
 export async function generateLocationDescription(locationName, category) {
-  const prompt = `You are a witty, atmospheric travel writer for a gamified city exploration app called "Prague Stories".
+  const prompt = `You are the narrator of "Prague Stories", a pixel-art RPG where players explore real Prague locations as if they were quest objectives.
 
-Write a vivid 100-120 word description of "${locationName}" (category: ${category}) in Prague, Czech Republic.
-Capture its history, unique atmosphere, and one surprising or little-known fact.
-Keep the tone adventurous and inviting — like a quest description.
+Write a quest description for the location "${locationName}" (category: ${category}) in Prague, Czech Republic.
+
+Rules:
+- Write exactly 100-120 words per language
+- Tone: adventurous, slightly humorous, like a dungeon master revealing a secret zone
+- Include ONE surprising hidden Easter egg fact — something most tourists never discover
+- Use RPG flavour: "brave explorer", "ancient secrets", "unlock", "legendary", etc.
+- Do NOT use generic travel brochure language
 
 Return ONLY valid JSON in exactly this format (no markdown, no extra text):
 {
-  "en": "English description here",
-  "cz": "Czech description here",
-  "zh": "Chinese (Simplified) description here"
+  "en": "English quest description here",
+  "cz": "Czech quest description here",
+  "zh": "Chinese (Simplified) quest description here"
 }`;
 
-  const message = await client.messages.create({
-    model: 'claude-haiku-4-5-20251001',
-    max_tokens: 1024,
-    messages: [{ role: 'user', content: prompt }],
-  });
+  const result = await model.generateContent(prompt);
+  const text = result.response.text().trim();
 
-  const text = message.content[0].text.trim();
-  const parsed = JSON.parse(text);
+  // Strip markdown code fences if the model wraps the JSON
+  const cleaned = text.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '').trim();
+  const parsed = JSON.parse(cleaned);
 
   if (!parsed.en || !parsed.cz || !parsed.zh) {
-    throw new Error('Claude response missing required language fields');
+    throw new Error('Gemini response missing required language fields');
   }
   return parsed;
 }

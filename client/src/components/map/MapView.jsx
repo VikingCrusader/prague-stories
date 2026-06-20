@@ -1,8 +1,12 @@
 import { MapContainer, TileLayer, CircleMarker, Tooltip } from 'react-leaflet';
+import { useLang } from '../../context/LanguageContext';
+import { getLocName } from '../../utils/locName';
 
 const PRAGUE_CENTER = [50.0755, 14.4378];
 
 export default function MapView({ locations, selectedSlug, onLocationClick }) {
+  const { lang } = useLang();
+
   return (
     <MapContainer
       center={PRAGUE_CENTER}
@@ -33,7 +37,7 @@ export default function MapView({ locations, selectedSlug, onLocationClick }) {
           >
             <Tooltip direction="top" offset={[0, -8]} opacity={0.95}>
               <span style={{ fontFamily: 'VT323, monospace', fontSize: 16 }}>
-                {loc.unlocked ? '★ ' : '🔒 '}{loc.name}
+                {loc.unlocked ? '★ ' : '🔒 '}{getLocName(loc, lang)}
               </span>
             </Tooltip>
           </CircleMarker>

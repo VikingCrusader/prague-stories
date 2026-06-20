@@ -5,10 +5,13 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "seed": "node src/data/seed.js"
+    "seed": "node src/data/seed.js",
+    "seed:descriptions": "node src/data/seedDescriptions.js",
+    "seed:static": "node src/data/seedDescriptionsStatic.js",
+    "seed:localnames": "node src/data/seedLocalizedNames.js"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.54.0",
+    "@google/generative-ai": "^0.21.0",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.5",
     "dotenv": "^16.4.5",

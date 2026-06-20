@@ -1,4 +1,7 @@
+import { useT } from '../../context/LanguageContext';
+
 export default function AchievementBadge({ achievement }) {
+  const t = useT();
   const { icon, name, description, unlocked, unlockedAt } = achievement;
 
   return (
@@ -16,7 +19,7 @@ export default function AchievementBadge({ achievement }) {
         )}
         {!unlocked && (
           <div style={{ fontSize: 6, color: '#555', marginTop: 4, fontFamily: "'Press Start 2P'" }}>
-            LOCKED
+            {t('common.locked')}
           </div>
         )}
       </div>

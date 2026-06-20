@@ -272,6 +272,34 @@ export const pragueLocations = [
     xpReward: 15, difficulty: 2,
   },
 
+  {
+    name: 'Dancing House',
+    slug: 'dancing-house',
+    category: 'historical',
+    coordinates: { lat: 50.0753, lng: 14.4136 },
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Dancing_House',
+    pixelArtKey: 'dancing-house',
+    xpReward: 25, difficulty: 1,
+  },
+  {
+    name: 'Nusle Bridge',
+    slug: 'nusle-bridge',
+    category: 'historical',
+    coordinates: { lat: 50.0606, lng: 14.4283 },
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Nusle_Bridge',
+    pixelArtKey: 'viaduct',
+    xpReward: 20, difficulty: 2,
+  },
+  {
+    name: 'Lobkowicz Palace',
+    slug: 'lobkowicz-palace',
+    category: 'historical',
+    coordinates: { lat: 50.0908, lng: 14.4042 },
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Lobkowicz_Palace,_Prague',
+    pixelArtKey: 'palace',
+    xpReward: 25, difficulty: 2,
+  },
+
   // ── CULTURAL (20) ────────────────────────────────────────────────────────────
   {
     name: 'National Museum',
@@ -591,6 +619,25 @@ export const pragueLocations = [
     xpReward: 10, difficulty: 2,
   },
 
+  {
+    name: 'Kampa Island',
+    slug: 'kampa-island',
+    category: 'natural',
+    coordinates: { lat: 50.0869, lng: 14.4058 },
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Kampa_Island',
+    pixelArtKey: 'river-island',
+    xpReward: 20, difficulty: 1,
+  },
+  {
+    name: 'Vyšehrad Rock',
+    slug: 'vysehrad-rock',
+    category: 'natural',
+    coordinates: { lat: 50.0639, lng: 14.4176 },
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Vyšehrad',
+    pixelArtKey: 'cliff',
+    xpReward: 20, difficulty: 2,
+  },
+
   // ── FOOD & DRINK (15) ────────────────────────────────────────────────────────
   {
     name: 'Lokál (Dlouhá)',
@@ -835,6 +882,16 @@ export const pragueLocations = [
     coordinates: { lat: 50.0885, lng: 14.4250 },
     wikipediaUrl: 'https://en.wikipedia.org/wiki/Kotva_(department_store)',
     pixelArtKey: 'brutalist',
+    xpReward: 15, difficulty: 2,
+  },
+
+  {
+    name: 'Žižkov Horse Statue',
+    slug: 'zizkov-horse-statue',
+    category: 'hidden-gem',
+    coordinates: { lat: 50.0872, lng: 14.4601 },
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Jan_Žižka_Monument',
+    pixelArtKey: 'equestrian',
     xpReward: 15, difficulty: 2,
   },
 

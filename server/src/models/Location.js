@@ -19,6 +19,11 @@ const locationSchema = new mongoose.Schema({
     lng: { type: Number, required: true },
   },
   description:  { type: descriptionSchema, default: () => ({}) },
+  localizedNames: {
+    cz: { type: String, default: '' },
+    zh: { type: String, default: '' },
+    _id: false,
+  },
   wikipediaUrl: { type: String, default: '' },
   pixelArtKey:  { type: String, default: '' }, // maps to frontend asset/CSS class
   isPreset:     { type: Boolean, default: false },

@@ -1,4 +1,7 @@
+import { useState } from 'react';
 import { getArt } from '../../utils/pixelArtMap';
+import { useLang } from '../../context/LanguageContext';
+import { getLocName } from '../../utils/locName';
 
 const CAT_COLORS = {
   historical:    '#7a5210',
@@ -10,18 +13,30 @@ const CAT_COLORS = {
 };
 
 export default function LocationCard({ location, onClick }) {
-  const { name, category, pixelArtKey, xpReward, unlocked } = location;
+  const { lang } = useLang();
+  const { category, pixelArtKey, xpReward, unlocked, slug } = location;
+  const name  = getLocName(location, lang);
   const art   = getArt(pixelArtKey, category);
   const color = CAT_COLORS[category] || '#333';
+  const [imgFailed, setImgFailed] = useState(false);
 
   return (
     <div
       className={`loc-card${unlocked ? '' : ' loc-card--locked'}`}
-      onClick={() => onClick(location.slug)}
+      onClick={() => onClick(slug)}
       title={unlocked ? name : '???'}
     >
       <div className="loc-card__banner" style={{ background: color }}>
-        <span style={{ fontSize: '2.8rem' }}>{art}</span>
+        {!imgFailed ? (
+          <img
+            src={`/pixel-art/${slug}.png`}
+            alt={name}
+            onError={() => setImgFailed(true)}
+            style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+          />
+        ) : (
+          <span style={{ fontSize: '2.8rem' }}>{art}</span>
+        )}
         {!unlocked && <span className="loc-card__lock">🔒</span>}
       </div>
       <div className="loc-card__body">
