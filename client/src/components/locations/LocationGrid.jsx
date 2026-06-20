@@ -3,7 +3,7 @@ import LocationCard from './LocationCard';
 import { useT } from '../../context/LanguageContext';
 import { CATEGORY_LABELS } from '../../utils/pixelArtMap';
 
-const ALL_CATS = ['all', ...Object.keys(CATEGORY_LABELS)];
+const ALL_FILTERS = ['all', 'discovered', ...Object.keys(CATEGORY_LABELS)];
 
 export default function LocationGrid({ locations, onCardClick }) {
   const t = useT();
@@ -12,7 +12,8 @@ export default function LocationGrid({ locations, onCardClick }) {
 
   const filtered = useMemo(() => {
     let list = locations;
-    if (cat !== 'all') list = list.filter(l => l.category === cat);
+    if (cat === 'discovered')   list = list.filter(l => l.unlocked);
+    else if (cat !== 'all')     list = list.filter(l => l.category === cat);
     if (search.trim()) {
       const q = search.toLowerCase();
       list = list.filter(l => l.name.toLowerCase().includes(q) || l.unlocked && l.slug.includes(q));
@@ -32,13 +33,13 @@ export default function LocationGrid({ locations, onCardClick }) {
           value={search}
           onChange={e => setSearch(e.target.value)}
         />
-        {ALL_CATS.map(c => (
+        {ALL_FILTERS.map(c => (
           <button
             key={c}
             className={`filter-btn${cat === c ? ' filter-btn--active' : ''}`}
             onClick={() => setCat(c)}
           >
-            {c === 'all' ? t('grid.filterAll') : t(`cat.${c}`)}
+            {c === 'all' ? t('grid.filterAll') : c === 'discovered' ? t('grid.filterDiscovered') : t(`cat.${c}`)}
           </button>
         ))}
       </div>

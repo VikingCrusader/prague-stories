@@ -130,6 +130,13 @@ NODE_ENV=development
 
 ## Changelog
 
+### [0.8.0] — 2026-06-20
+
+**Discovered filter**
+
+- Added a "✓ Discovered" filter button to the Explore grid showing only locations the current user has checked in to
+- Label localised in EN / CZ / ZH
+
 ### [0.7.0] — 2026-06-20
 
 **Location detail cover image**
