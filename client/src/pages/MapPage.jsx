@@ -167,6 +167,14 @@ function SidebarDetail({ slug, onCheckIn, onUndo }) {
             {t('common.wikipedia')}
           </a>
         )}
+        <a
+          className="detail-wiki"
+          href={`https://www.google.com/maps/dir/?api=1&destination=${loc.coordinates.lat},${loc.coordinates.lng}`}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {t('common.googleMaps')}
+        </a>
         <div style={{ display: 'flex', gap: 8, marginTop: 4 }}>
           {loc.unlocked ? (
             <button className="px-btn px-btn--danger px-btn--sm" onClick={doUndo} disabled={actionLoading}>

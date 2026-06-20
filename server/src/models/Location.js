@@ -25,6 +25,7 @@ const locationSchema = new mongoose.Schema({
     _id: false,
   },
   wikipediaUrl: { type: String, default: '' },
+  coverImage:   { type: String, default: '' }, // base64 data URL for user-uploaded images
   pixelArtKey:  { type: String, default: '' }, // maps to frontend asset/CSS class
   isPreset:     { type: Boolean, default: false },
   addedBy:      { type: mongoose.Schema.Types.ObjectId, ref: 'User', default: null },

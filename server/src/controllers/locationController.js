@@ -31,8 +31,8 @@ export async function getLocation(req, res, next) {
     const location = await Location.findOne({ slug: req.params.slug });
     if (!location) return res.status(404).json({ message: 'Location not found' });
 
-    // Lazy-generate AI description if any language is missing
-    if (!location.description.en || !location.description.cz || !location.description.zh) {
+    // Lazy-generate AI description only when English is missing
+    if (!location.description.en) {
       try {
         const desc = await generateLocationDescription(location.name, location.category);
         location.description = desc;
@@ -57,9 +57,13 @@ export async function getLocation(req, res, next) {
 
 export async function createLocation(req, res, next) {
   try {
-    const { name, category, coordinates, wikipediaUrl } = req.body;
+    const { name, category, coordinates, wikipediaUrl, description, coverImage } = req.body;
     if (!name || !category || !coordinates?.lat || !coordinates?.lng) {
       return res.status(400).json({ message: 'name, category, and coordinates are required' });
+    }
+
+    if (coverImage && Buffer.byteLength(coverImage, 'utf8') > 2 * 1024 * 1024) {
+      return res.status(400).json({ message: 'Cover image must be under 2 MB' });
     }
 
     const slug = name.toLowerCase()
@@ -74,6 +78,8 @@ export async function createLocation(req, res, next) {
       category,
       coordinates,
       wikipediaUrl: wikipediaUrl || '',
+      description:  description ? { en: description, cz: '', zh: '' } : undefined,
+      coverImage:   coverImage || '',
       isPreset: false,
       addedBy: req.user._id,
       xpReward: 20,

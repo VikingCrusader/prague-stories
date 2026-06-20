@@ -17,6 +17,8 @@ Unlock 106 real Prague landmarks, earn XP, collect achievements, and read AI-gen
 - Localized place names — Czech and Chinese names for all 106 locations
 - Pixel art retro UI with [Ark Pixel Font](https://github.com/TakWolf/ark-pixel-font) in Chinese mode
 - Geolocation-based check-in — must be within 200m of the location to check in
+- Google Maps navigation link on every location (opens turn-by-turn directions)
+- Custom locations support a cover photo, description, and Wikipedia URL
 
 ## Stack
 
@@ -126,6 +128,25 @@ NODE_ENV=development
 ```
 
 ## Changelog
+
+### [0.5.0] — 2026-06-20
+
+**Richer custom locations**
+
+- Add Location form now accepts a cover photo (JPG/PNG/WebP, max 1 MB), stored as a base64 data URL in MongoDB
+- Form now has a description textarea; user-provided description is stored as `description.en` and displayed immediately without waiting for AI generation
+- AI lazy-generation now only triggers when the English description is missing (previously required all three languages to be present)
+- Cover photo previews in the form header as soon as a file is selected
+- Cover photo shown on location cards and in the detail modal header (with gradient overlay); falls back to pixel art for preset locations
+- Google Maps navigation link is automatically included for all custom locations (generated from coordinates)
+
+### [0.4.0] — 2026-06-20
+
+**Google Maps navigation**
+
+- Added a "Navigate on Google Maps" link to every location detail modal and map sidebar
+- Link opens Google Maps directions to the location's coordinates (`/maps/dir/?api=1&destination=lat,lng`)
+- Link label is fully localised: EN / CZ / ZH
 
 ### [0.3.0] — 2026-06-20
 

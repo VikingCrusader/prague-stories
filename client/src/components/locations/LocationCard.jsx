@@ -27,7 +27,13 @@ export default function LocationCard({ location, onClick }) {
       title={unlocked ? name : '???'}
     >
       <div className="loc-card__banner" style={{ background: color }}>
-        {!imgFailed ? (
+        {location.coverImage ? (
+          <img
+            src={location.coverImage}
+            alt={name}
+            style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+          />
+        ) : !imgFailed ? (
           <img
             src={`/pixel-art/${slug}.png`}
             alt={name}

@@ -75,18 +75,37 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
           <div style={{ padding: 32, color: '#ff6b6b', fontSize: 16 }}>{error}</div>
         ) : loc ? (
           <>
-            <div className="px-modal__header" style={{ background: bgColor }}>
-              <span className="detail-art">{art}</span>
-              <div style={{ flex: 1 }}>
-                <h2 className="px-title" style={{ fontSize: 11, marginBottom: 10 }}>{locName}</h2>
-                <span className={`cat-badge cat-badge--${loc.category}`}>{t(`cat.${loc.category}`)}</span>
-                {loc.unlocked && (
-                  <span style={{ marginLeft: 8, fontSize: 7, color: '#8eff8e', fontFamily: "'Press Start 2P'" }}>
-                    {t('common.visited')}
-                  </span>
-                )}
+            {loc.coverImage ? (
+              <div style={{ position: 'relative' }}>
+                <img
+                  src={loc.coverImage}
+                  alt={locName}
+                  style={{ width: '100%', height: 180, objectFit: 'cover', display: 'block' }}
+                />
+                <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '12px 16px', background: 'linear-gradient(transparent, rgba(0,0,0,0.8))' }}>
+                  <h2 className="px-title" style={{ fontSize: 11, marginBottom: 6 }}>{locName}</h2>
+                  <span className={`cat-badge cat-badge--${loc.category}`}>{t(`cat.${loc.category}`)}</span>
+                  {loc.unlocked && (
+                    <span style={{ marginLeft: 8, fontSize: 7, color: '#8eff8e', fontFamily: "'Press Start 2P'" }}>
+                      {t('common.visited')}
+                    </span>
+                  )}
+                </div>
               </div>
-            </div>
+            ) : (
+              <div className="px-modal__header" style={{ background: bgColor }}>
+                <span className="detail-art">{art}</span>
+                <div style={{ flex: 1 }}>
+                  <h2 className="px-title" style={{ fontSize: 11, marginBottom: 10 }}>{locName}</h2>
+                  <span className={`cat-badge cat-badge--${loc.category}`}>{t(`cat.${loc.category}`)}</span>
+                  {loc.unlocked && (
+                    <span style={{ marginLeft: 8, fontSize: 7, color: '#8eff8e', fontFamily: "'Press Start 2P'" }}>
+                      {t('common.visited')}
+                    </span>
+                  )}
+                </div>
+              </div>
+            )}
 
             <div className="px-modal__body">
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 12 }}>
@@ -115,6 +134,14 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
                     {t('common.wikipedia')}
                   </a>
                 )}
+                <a
+                  className="detail-wiki"
+                  href={`https://www.google.com/maps/dir/?api=1&destination=${loc.coordinates.lat},${loc.coordinates.lng}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {t('common.googleMaps')}
+                </a>
                 <div style={{ marginLeft: 'auto', display: 'flex', gap: 8 }}>
                   {loc.unlocked ? (
                     <button
