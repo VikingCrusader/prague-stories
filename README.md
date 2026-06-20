@@ -130,6 +130,14 @@ NODE_ENV=development
 
 ## Changelog
 
+### [0.7.0] — 2026-06-20
+
+**Location detail cover image**
+
+- Location detail modal now shows the pixel art image (e.g. `dancing-house.png`) as a full-width hero above the description
+- Falls back to emoji + coloured header only when no image file exists
+- User-uploaded `coverImage` (base64) takes priority over the pixel art path
+
 ### [0.6.0] — 2026-06-20
 
 **Automatic proximity discovery**

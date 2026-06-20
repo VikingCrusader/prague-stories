@@ -18,6 +18,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
   const [loading, setLoading]     = useState(true);
   const [actionLoading, setActionLoading] = useState(false);
   const [error, setError]         = useState('');
+  const [imgFailed, setImgFailed] = useState(false);
 
   useEffect(() => {
     setLoading(true); setError('');
@@ -75,14 +76,15 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
           <div style={{ padding: 32, color: '#ff6b6b', fontSize: 16 }}>{error}</div>
         ) : loc ? (
           <>
-            {loc.coverImage ? (
+            {(loc.coverImage || !imgFailed) ? (
               <div style={{ position: 'relative' }}>
                 <img
-                  src={loc.coverImage}
+                  src={loc.coverImage || `/pixel-art/${loc.slug}.png`}
                   alt={locName}
-                  style={{ width: '100%', height: 180, objectFit: 'cover', display: 'block' }}
+                  onError={() => setImgFailed(true)}
+                  style={{ width: '100%', height: 220, objectFit: 'cover', display: 'block' }}
                 />
-                <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '12px 16px', background: 'linear-gradient(transparent, rgba(0,0,0,0.8))' }}>
+                <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '14px 18px', background: 'linear-gradient(transparent, rgba(0,0,0,0.85))' }}>
                   <h2 className="px-title" style={{ fontSize: 11, marginBottom: 6 }}>{locName}</h2>
                   <span className={`cat-badge cat-badge--${loc.category}`}>{t(`cat.${loc.category}`)}</span>
                   {loc.unlocked && (
