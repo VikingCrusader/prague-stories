@@ -1,13 +1,30 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
-import { AuthProvider } from './context/AuthContext';
+import { AuthProvider, useAuth } from './context/AuthContext';
 import { LanguageProvider } from './context/LanguageContext';
 import Navbar from './components/shared/Navbar';
 import ProtectedRoute from './components/shared/ProtectedRoute';
+import ProximityPrompt from './components/shared/ProximityPrompt';
+import { useProximityDetection } from './hooks/useProximityDetection';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import ExplorePage from './pages/ExplorePage';
 import MapPage from './pages/MapPage';
 import DashboardPage from './pages/DashboardPage';
+
+function ProximityDetector() {
+  const { user } = useAuth();
+  const { discovery, dismiss, markCheckedIn } = useProximityDetection(!!user);
+
+  if (!user) return null;
+
+  return (
+    <ProximityPrompt
+      discovery={discovery}
+      onDismiss={dismiss}
+      onCheckIn={(slug, result) => markCheckedIn(slug)}
+    />
+  );
+}
 
 export default function App() {
   return (
@@ -15,6 +32,7 @@ export default function App() {
       <AuthProvider>
         <LanguageProvider>
           <Navbar />
+          <ProximityDetector />
           <Routes>
             <Route path="/"          element={<Navigate to="/explore" replace />} />
             <Route path="/login"     element={<LoginPage />} />

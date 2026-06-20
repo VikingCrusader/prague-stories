@@ -19,6 +19,7 @@ Unlock 106 real Prague landmarks, earn XP, collect achievements, and read AI-gen
 - Geolocation-based check-in — must be within 200m of the location to check in
 - Google Maps navigation link on every location (opens turn-by-turn directions)
 - Custom locations support a cover photo, description, and Wikipedia URL
+- Automatic proximity detection: prompts check-in when within 100m of an unvisited location
 
 ## Stack
 
@@ -128,6 +129,17 @@ NODE_ENV=development
 ```
 
 ## Changelog
+
+### [0.6.0] — 2026-06-20
+
+**Automatic proximity discovery**
+
+- `watchPosition` runs in the background while the user is logged in (all pages)
+- When the user enters a 100m radius of an unvisited location, a gold banner prompts "You discovered {name}! Check in now?"
+- Check-in sends the already-captured GPS coords; server still validates within 200m
+- On success, shows "+XP ★" for 2.5 seconds then auto-dismisses
+- Each location is prompted at most once per session to avoid repeat notifications
+- Prompt label fully localised in EN / CZ / ZH
 
 ### [0.5.0] — 2026-06-20
 
