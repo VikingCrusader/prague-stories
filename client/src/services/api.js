@@ -1,6 +1,10 @@
 import axios from 'axios';
 
-const api = axios.create({ baseURL: '/api' });
+const BASE_URL = import.meta.env.PROD
+  ? 'https://prague-stories-api.onrender.com/api'
+  : 'http://localhost:5000/api';
+
+const api = axios.create({ baseURL: BASE_URL });
 
 api.interceptors.request.use(config => {
   const token = localStorage.getItem('token');
