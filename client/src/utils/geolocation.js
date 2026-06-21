@@ -11,9 +11,17 @@ export function haversineDistance(lat1, lon1, lat2, lon2) {
 
 // Shared position cache — populated by watchPosition in useProximityDetection
 let _cachedPos = null;
+const _subs = new Set();
 
 export function setCachedPosition(lat, lng) {
   _cachedPos = { lat, lng, ts: Date.now() };
+  _subs.forEach(cb => cb({ lat, lng }));
+}
+
+export function subscribeToPosition(cb) {
+  _subs.add(cb);
+  if (_cachedPos) cb({ lat: _cachedPos.lat, lng: _cachedPos.lng });
+  return () => _subs.delete(cb);
 }
 
 export function getCurrentPosition() {

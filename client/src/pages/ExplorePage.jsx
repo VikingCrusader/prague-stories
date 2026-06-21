@@ -1,7 +1,9 @@
-import { useState, useEffect, useCallback } from 'react';
+import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { locationAPI } from '../services/api';
 import { useT } from '../context/LanguageContext';
+import { useUserPosition } from '../hooks/useUserPosition';
+import { haversineDistance } from '../utils/geolocation';
 import LocationGrid from '../components/locations/LocationGrid';
 import LocationDetail from '../components/locations/LocationDetail';
 import AddLocationForm from '../components/locations/AddLocationForm';
@@ -13,6 +15,7 @@ export default function ExplorePage() {
   const t = useT();
   const { state } = useLocation();
   const navigate = useNavigate();
+  const userPos                          = useUserPosition();
   const [locations, setLocations]       = useState([]);
   const [selectedSlug, setSelectedSlug] = useState(null);
   const [showAdd, setShowAdd]           = useState(false);
@@ -78,6 +81,16 @@ export default function ExplorePage() {
     addToast('Location updated.', 'success');
   };
 
+  const sortedLocations = useMemo(() => {
+    if (!userPos) return locations;
+    return [...locations]
+      .map(l => ({
+        ...l,
+        _distance: haversineDistance(userPos.lat, userPos.lng, l.coordinates.lat, l.coordinates.lng),
+      }))
+      .sort((a, b) => a._distance - b._distance);
+  }, [locations, userPos]);
+
   if (loading) return (
     <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <div className="spinner" />
@@ -97,7 +110,7 @@ export default function ExplorePage() {
         </div>
       </div>
 
-      <LocationGrid locations={locations} onCardClick={setSelectedSlug} />
+      <LocationGrid locations={sortedLocations} onCardClick={setSelectedSlug} />
 
       {selectedSlug && (
         <LocationDetail

@@ -51,7 +51,7 @@ export default function LocationGrid({ locations, onCardClick }) {
 
       <div className="location-grid">
         {filtered.map(loc => (
-          <LocationCard key={loc._id} location={loc} onClick={onCardClick} />
+          <LocationCard key={loc._id} location={loc} onClick={onCardClick} distance={loc._distance} />
         ))}
         {filtered.length === 0 && (
           <p style={{ color: 'var(--text-muted)', gridColumn: '1/-1', padding: 24 }}>

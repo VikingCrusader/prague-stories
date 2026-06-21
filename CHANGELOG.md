@@ -4,6 +4,18 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.0.5] — 2026-06-21
+
+**Sort Explore grid by distance; show distance on every card**
+
+- Explore grid now sorts location cards closest-first based on the user's live GPS position
+- Each card displays the distance from the user's current location ("340 m", "1.2 km")
+- Distance updates reactively as `watchPosition` fires — no extra GPS watch started; the existing proximity-detection watch drives the sort via a shared subscriber pattern in `geolocation.js`
+- Distance badge hidden when GPS is unavailable or not yet acquired
+- Cards revert to server order while position is loading (no flash of unsorted state)
+
+---
+
 ## [1.0.4] — 2026-06-21
 
 **GPS corrections round 4 — cultural, natural, entertainment, hidden-gem re-audit via Google Maps / Wikidata**

@@ -22,6 +22,7 @@ Unlock 136 real Prague landmarks, earn XP, collect achievements, and read trilin
 - Automatic proximity detection: prompts check-in when within 100m of an unvisited location
 - Check-in success overlay: shows "CHECKED IN!", XP earned, and any unlocked achievements for 2.5 s before the modal auto-closes
 - Explore grid refreshes instantly after check-in without waiting for the modal to close
+- Explore grid sorts cards by proximity to the user's current GPS position (closest first), with live distance shown on each card ("340 m", "1.2 km")
 
 ## Stack
 
@@ -133,6 +134,14 @@ NODE_ENV=development
 ```
 
 ## Changelog
+
+### [1.0.5] — 2026-06-21
+
+**Sort Explore grid by distance; show distance on every card**
+
+- Explore grid now sorts location cards closest-first based on the user's live GPS position
+- Each card displays the distance from the user's current location ("340 m", "1.2 km")
+- Distance badge is hidden when GPS is unavailable; cards revert to server order until position is acquired
 
 ### [1.0.4] — 2026-06-21
 

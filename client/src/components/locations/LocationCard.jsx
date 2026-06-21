@@ -11,7 +11,11 @@ const CAT_COLORS = {
   entertainment: '#7a0a40',
 };
 
-export default function LocationCard({ location, onClick }) {
+function fmtDist(m) {
+  return m < 1000 ? `${Math.round(m)} m` : `${(m / 1000).toFixed(1)} km`;
+}
+
+export default function LocationCard({ location, onClick, distance }) {
   const { lang } = useLang();
   const { category, pixelArtKey, xpReward, unlocked, slug } = location;
   const name  = getLocName(location, lang);
@@ -47,7 +51,10 @@ export default function LocationCard({ location, onClick }) {
       <div className="loc-card__body">
         <div className="loc-card__name">{unlocked ? name : '???'}</div>
         <span className={`cat-badge cat-badge--${category}`}>{category.replace('-', ' ')}</span>
-        <div className="loc-card__xp">+{xpReward} XP</div>
+        <div className="loc-card__footer">
+          <div className="loc-card__xp">+{xpReward} XP</div>
+          {distance != null && <div className="loc-card__dist">{fmtDist(distance)}</div>}
+        </div>
       </div>
     </div>
   );
