@@ -114,12 +114,12 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onDel
         ) : loc ? (
           <>
             {(loc.coverImage || !imgFailed) ? (
-              <div style={{ position: 'relative' }}>
+              <div style={{ position: 'relative', aspectRatio: '1 / 1', width: '100%', overflow: 'hidden' }}>
                 <img
                   src={loc.coverImage || `/pixel-art/${loc.slug}.webp`}
                   alt={locName}
                   onError={() => setImgFailed(true)}
-                  style={{ width: '100%', height: 220, objectFit: 'cover', display: 'block' }}
+                  style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                 />
                 <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '14px 18px', background: 'linear-gradient(transparent, rgba(0,0,0,0.85))' }}>
                   <h2 className="px-title" style={{ fontSize: 11, marginBottom: 6 }}>{locName}</h2>

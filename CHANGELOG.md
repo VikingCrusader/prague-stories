@@ -4,6 +4,29 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.0.9] — 2026-06-21
+
+**Detail modal image now 1:1 square; batch-6 pixel art converted to WebP**
+
+- Location detail modal hero image changed from fixed 220 px height to `aspect-ratio: 1 / 1` — fully responsive square at any modal width
+- Converted all 6 new batch-6 pixel art images from PNG to WebP (quality 90): grand-hotel-prague-towers, muzeum-policie-cr, narodni-technicka-knihovna, staromestska-vodarenska-vez, strahov-stadium, vysehrad-railway-bridge
+
+---
+
+## [1.0.8] — 2026-06-21
+
+**Add 6 new preset locations (batch 6)**
+
+- Grand Hotel Prague Towers (entertainment) — twin-tower luxury hotel; Cold War intelligence anecdotes included
+- Muzeum Policie České republiky (cultural) — former Augustinian monastery turned police museum with intact communist-era interrogation rooms
+- Vyšehrad Railway Bridge (historical) — iron railway arch crossing the Vltava since 1872, the city's most stoic monument
+- Great Strahov Stadium (historical, 30 XP) — world's largest stadium by area; Spartakiad history with aerial human-pixel formations
+- Staroměstská vodárenská věž (historical) — Old Town Water Tower (1489): survived Swedish bombardment, ice floods, and gunpowder storage
+- Národní technická knihovna (cultural) — 2009 glass-cube NTK in Dejvice with underground campus tunnels
+- All 6 have full EN/CZ/ZH descriptions (gamified, humorous RPG style), localizedNames, coordinates, and pixelArtKey
+
+---
+
 ## [1.0.7] — 2026-06-21
 
 **Convert all pixel art to lossy WebP (quality 90)**

@@ -44,6 +44,13 @@ const newLocations = [
   // New batch 5
   { name: 'Bohnice', slug: 'bohnice', category: 'hidden-gem', coordinates: { lat: 50.1395, lng: 14.4247 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Bohnice', pixelArtKey: 'asylum-park', xpReward: 20, difficulty: 3 },
   { name: 'Letňany', slug: 'letňany', category: 'entertainment', coordinates: { lat: 50.1218, lng: 14.5083 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Letňany', pixelArtKey: 'exhibition-airfield', xpReward: 15, difficulty: 2 },
+  // New batch 6
+  { name: 'Grand Hotel Prague Towers', slug: 'grand-hotel-prague-towers', category: 'entertainment', coordinates: { lat: 50.0879, lng: 14.4279 }, wikipediaUrl: '', pixelArtKey: 'hotel-towers', xpReward: 20, difficulty: 1 },
+  { name: 'Muzeum Policie České republiky', slug: 'muzeum-policie-cr', category: 'cultural', coordinates: { lat: 50.0746, lng: 14.4291 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Muzeum_Policie_%C4%8Cesk%C3%A9_republiky', pixelArtKey: 'police-museum', xpReward: 20, difficulty: 2 },
+  { name: 'Vyšehrad Railway Bridge', slug: 'vysehrad-railway-bridge', category: 'historical', coordinates: { lat: 50.0644, lng: 14.4118 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Vy%C5%A1ehradsk%C3%BD_%C5%BEelezni%C4%8Dn%C3%AD_most', pixelArtKey: 'railway-bridge', xpReward: 25, difficulty: 2 },
+  { name: 'Great Strahov Stadium', slug: 'strahov-stadium', category: 'historical', coordinates: { lat: 50.0793, lng: 14.3820 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Strahov_Stadium', pixelArtKey: 'mega-stadium', xpReward: 30, difficulty: 2 },
+  { name: 'Staroměstská vodárenská věž', slug: 'staromestska-vodarenska-vez', category: 'historical', coordinates: { lat: 50.0864, lng: 14.4147 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Starom%C4%9Bstsk%C3%A1_vod%C3%A1rensk%C3%A1_v%C4%9B%C5%BE', pixelArtKey: 'water-tower-old', xpReward: 20, difficulty: 1 },
+  { name: 'Národní technická knihovna', slug: 'narodni-technicka-knihovna', category: 'cultural', coordinates: { lat: 50.1047, lng: 14.3893 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/National_Technical_Library_(Prague)', pixelArtKey: 'technical-library', xpReward: 15, difficulty: 1 },
 ];
 
 async function run() {

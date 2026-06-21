@@ -23,7 +23,8 @@ Unlock 136 real Prague landmarks, earn XP, collect achievements, and read trilin
 - Check-in success overlay: shows "CHECKED IN!", XP earned, and any unlocked achievements for 2.5 s before the modal auto-closes
 - Explore grid refreshes instantly after check-in without waiting for the modal to close
 - Explore grid sorts cards by proximity to the user's current GPS position (closest first), with live distance shown on each card ("340 m", "1.2 km")
-- 117 Gemini-generated pixel art images — every location card has a unique illustration, served as lossy WebP (quality 90)
+- 123 preset Prague locations across 5 categories (expanded in batch 6)
+- 117 Gemini-generated pixel art images — every original location card has a unique illustration, served as lossy WebP (quality 90)
 
 ## Stack
 
@@ -135,6 +136,20 @@ NODE_ENV=development
 ```
 
 ## Changelog
+
+### [1.0.9] — 2026-06-21
+
+**Detail modal 1:1 image; batch-6 pixel art WebP conversion**
+
+- Location detail modal hero image is now a responsive 1:1 square (was fixed 220 px)
+- All 6 batch-6 pixel art images converted from PNG to WebP (quality 90)
+
+### [1.0.8] — 2026-06-21
+
+**Add 6 new preset locations (batch 6)**
+
+- Grand Hotel Prague Towers, Muzeum Policie ČR, Vyšehrad Railway Bridge, Great Strahov Stadium, Staroměstská vodárenská věž, Národní technická knihovna
+- All 6 fully attributed: coordinates, categories, XP/difficulty, EN/CZ/ZH descriptions and localized names
 
 ### [1.0.7] — 2026-06-21
 

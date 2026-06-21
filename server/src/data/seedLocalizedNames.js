@@ -159,6 +159,14 @@ const names = {
   'andel':                      { cz: 'Anděl',                               zh: '天使广场' },
   'namesti-miru':               { cz: 'Náměstí Míru',                        zh: '和平广场' },
   'letňany':                    { cz: 'Letňany',                             zh: '列特尼亚内' },
+
+  // ── BATCH 6 ──────────────────────────────────────────────────────────────────
+  'grand-hotel-prague-towers':  { cz: 'Grand Hotel Praha Towers',            zh: '布拉格大酒店双塔' },
+  'muzeum-policie-cr':          { cz: 'Muzeum Policie České republiky',      zh: '捷克共和国警察博物馆' },
+  'vysehrad-railway-bridge':    { cz: 'Vyšehradský železniční most',         zh: '维谢赫拉德铁路桥' },
+  'strahov-stadium':            { cz: 'Velký strahovský stadion',            zh: '斯特拉霍夫大球场' },
+  'staromestska-vodarenska-vez':{ cz: 'Staroměstská vodárenská věž',         zh: '旧城水塔' },
+  'narodni-technicka-knihovna': { cz: 'Národní technická knihovna',          zh: '国家技术图书馆' },
 };
 
 async function seedLocalizedNames() {
