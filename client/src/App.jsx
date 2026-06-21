@@ -10,6 +10,7 @@ import RegisterPage from './pages/RegisterPage';
 import ExplorePage from './pages/ExplorePage';
 import MapPage from './pages/MapPage';
 import DashboardPage from './pages/DashboardPage';
+import GuidePage from './pages/GuidePage';
 
 function ProximityDetector() {
   const { user } = useAuth();
@@ -45,6 +46,7 @@ export default function App() {
             <Route path="/explore"   element={<ProtectedRoute><ExplorePage /></ProtectedRoute>} />
             <Route path="/map"       element={<ProtectedRoute><MapPage /></ProtectedRoute>} />
             <Route path="/dashboard" element={<ProtectedRoute><DashboardPage /></ProtectedRoute>} />
+            <Route path="/guide"     element={<ProtectedRoute><GuidePage /></ProtectedRoute>} />
             <Route path="*"          element={<Navigate to="/explore" replace />} />
           </Routes>
         </LanguageProvider>

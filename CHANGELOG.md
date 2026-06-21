@@ -4,6 +4,19 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.1.4] — 2026-06-21
+
+**In-app Guide page**
+
+- Added Guide page (`/guide`) reachable from the navbar between Map and Dashboard
+- Covers all game mechanics in compact, humorous RPG style: quick-start, screens, check-in flow, XP/levels, achievements, tips, FAQ
+- Styled with the full pixel art UI (gold step numbers, bordered tip cards, FAQ boxes)
+- Full trilingual content: EN / CZ / ZH, switches with the language toggle
+- "Explorer" branding throughout; challenge callout in each language
+- Nav label localised: "Guide" / "Průvodce" / "攻略"
+
+---
+
 ## [1.1.3] — 2026-06-21
 
 **Mobile responsiveness, Chinese navbar fix, and RPG register screen**

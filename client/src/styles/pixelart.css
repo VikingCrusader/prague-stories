@@ -470,6 +470,91 @@
 }
 .lang-tab--active { border-color: var(--gold); color: var(--gold); background: rgba(255,215,0,0.08); z-index: 1; }
 
+/* ── Guide Page ───────────────────────────────────────────── */
+.guide-page { flex: 1; padding: 24px; overflow-y: auto; }
+.guide-wrap { max-width: 780px; margin: 0 auto; width: 100%; }
+.guide-intro {
+  font-size: 18px;
+  color: var(--text-muted);
+  font-style: italic;
+  border-left: 3px solid var(--gold);
+  padding-left: 14px;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+.guide-challenge {
+  font-size: 20px;
+  color: var(--gold);
+  background: rgba(255,215,0,0.06);
+  border: 2px solid var(--gold);
+  border-left: 5px solid var(--gold);
+  padding: 12px 16px;
+  margin-bottom: 24px;
+  line-height: 1.5;
+}
+.guide-section { margin-bottom: 28px; }
+.guide-h2 {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 9px;
+  color: var(--gold);
+  margin-bottom: 14px;
+  letter-spacing: 1px;
+}
+.guide-h3 {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 7px;
+  color: var(--text-primary);
+  margin-bottom: 8px;
+}
+.guide-body { font-size: 18px; line-height: 1.55; color: var(--text-primary); margin-bottom: 8px; }
+.guide-step { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 8px; }
+.guide-step-num {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 7px;
+  color: var(--gold);
+  background: rgba(255,215,0,0.08);
+  border: 2px solid var(--gold);
+  min-width: 26px; height: 26px;
+  display: flex; align-items: center; justify-content: center;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+.guide-cats { display: flex; flex-direction: column; gap: 6px; margin: 10px 0; }
+.guide-cat {
+  display: flex; gap: 10px; align-items: flex-start;
+  font-size: 17px; line-height: 1.5; color: var(--text-primary);
+  padding: 8px 12px;
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-left: 3px solid var(--border);
+}
+.guide-cat__icon { font-size: 20px; flex-shrink: 0; margin-top: 1px; }
+.guide-tip {
+  display: flex; gap: 10px; align-items: flex-start;
+  padding: 10px 14px;
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  border-left: 4px solid var(--gold);
+  font-size: 17px; line-height: 1.5; color: var(--text-primary);
+  margin-bottom: 8px;
+}
+.guide-tip__icon { font-size: 20px; flex-shrink: 0; margin-top: 1px; }
+.guide-faq {
+  background: var(--bg-card);
+  border: 3px solid var(--border);
+  padding: 14px 16px;
+  margin-bottom: 10px;
+  box-shadow: 3px 3px 0 #000;
+}
+.guide-faq__q {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 7px;
+  color: var(--gold);
+  margin-bottom: 8px;
+  line-height: 1.8;
+}
+.guide-faq__a { font-size: 17px; color: var(--text-muted); line-height: 1.5; }
+
 /* ── Responsive ───────────────────────────────────────────── */
 @media (max-width: 900px) {
   .map-page { flex-direction: column; }
@@ -511,9 +596,12 @@
   .toast-container { bottom: 12px; right: 12px; left: 12px; }
   .toast { max-width: 100%; }
 
-  /* Auth + Dashboard */
+  /* Auth + Dashboard + Guide */
   .auth-box { padding: 24px 16px; }
   .dashboard-page { padding: 12px; }
+  .guide-page { padding: 12px 14px; }
+  .guide-h2 { font-size: 7.5px; }
+  .guide-faq__q { font-size: 6.5px; }
 }
 
 /* Chinese on mobile: override global 16px/20px sizes down to readable pixel sizes */
