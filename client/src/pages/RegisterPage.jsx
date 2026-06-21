@@ -4,14 +4,6 @@ import { authAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { useT } from '../context/LanguageContext';
 
-const SCENE = `  _     _              /\\   /\\
- | |   | |   O ⚔     /  \\_/  \\
- | |   | |   |       / CASTLE  \\
- |_|___|_|  / \\     /___________\\
- | |   | |      |  []  []  []  |
- |_|___|_|______|_______________|
-  TYN CHURCH        HRADCANY`;
-
 export default function RegisterPage() {
   const { login } = useAuth();
   const navigate = useNavigate();
@@ -38,21 +30,13 @@ export default function RegisterPage() {
 
   return (
     <div className="auth-page">
-      <div className="auth-box" style={{ maxWidth: 480 }}>
-        <pre style={{
-          fontFamily: "'VT323', monospace",
-          fontSize: 13,
-          lineHeight: 1.35,
-          color: 'var(--gold)',
-          textAlign: 'center',
-          marginBottom: 18,
-          opacity: 0.85,
-          overflow: 'hidden',
-        }}>{SCENE}</pre>
-
+      <div className="auth-box">
+        <p className="px-title" style={{ fontSize: 15, textAlign: 'center', marginBottom: 20 }}>
+          <span style={{ fontSize: 22 }}>⚔</span> {t('appName')}
+        </p>
         <h1 className="px-title">{t('auth.register')}</h1>
-        <p className="subtitle">{t('auth.registerSubtitle')}</p>
-        <p style={{ fontSize: 15, color: 'var(--text-muted)', marginBottom: 22, marginTop: 4 }}>
+        <p className="subtitle" style={{ marginBottom: 2, lineHeight: 1.25 }}>{t('auth.registerSubtitle')}</p>
+        <p style={{ fontSize: 15, color: 'var(--text-muted)', marginBottom: 20, marginTop: 2, lineHeight: 1.25 }}>
           {t('auth.registerFlavor')}
         </p>
 

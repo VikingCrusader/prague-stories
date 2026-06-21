@@ -13,7 +13,7 @@ All notable changes to Prague Stories are documented here.
 - Language tabs include a CJK font fallback so "中文" renders correctly in all language modes
 - Location grid fixed to 2 columns on mobile; modal switches to a full-width bottom-sheet layout
 - Toast, auth box, and dashboard padding tightened for small screens
-- Registration page gets an ASCII pixel art scene (Týn Church · adventurer · Hradčany castle) and RPG-style flavor text in all three languages
+- Registration page gets RPG/medieval flavor text in all three languages
 
 ---
 
