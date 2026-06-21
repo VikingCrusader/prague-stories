@@ -51,6 +51,14 @@ const newLocations = [
   { name: 'Great Strahov Stadium', slug: 'strahov-stadium', category: 'historical', coordinates: { lat: 50.0793, lng: 14.3820 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Strahov_Stadium', pixelArtKey: 'mega-stadium', xpReward: 30, difficulty: 2 },
   { name: 'Staroměstská vodárenská věž', slug: 'staromestska-vodarenska-vez', category: 'historical', coordinates: { lat: 50.0864, lng: 14.4147 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Starom%C4%9Bstsk%C3%A1_vod%C3%A1rensk%C3%A1_v%C4%9B%C5%BE', pixelArtKey: 'water-tower-old', xpReward: 20, difficulty: 1 },
   { name: 'Národní technická knihovna', slug: 'narodni-technicka-knihovna', category: 'cultural', coordinates: { lat: 50.1047, lng: 14.3893 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/National_Technical_Library_(Prague)', pixelArtKey: 'technical-library', xpReward: 15, difficulty: 1 },
+  // New batch 7
+  { name: 'Nemocnice Motol', slug: 'nemocnice-motol', category: 'hidden-gem', coordinates: { lat: 50.0741, lng: 14.3411 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Motol_University_Hospital', pixelArtKey: 'hospital-complex', xpReward: 20, difficulty: 2 },
+  { name: 'Atrium Flora', slug: 'oc-flora', category: 'entertainment', coordinates: { lat: 50.0776, lng: 14.4612 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Flora_(Prague_Metro)', pixelArtKey: 'glass-mall', xpReward: 15, difficulty: 1 },
+  { name: 'Café Louvre', slug: 'cafe-louvre', category: 'entertainment', coordinates: { lat: 50.0821, lng: 14.4186 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Caf%C3%A9_Louvre', pixelArtKey: 'grand-cafe', xpReward: 20, difficulty: 1 },
+  { name: 'Czech National Bank', slug: 'czech-national-bank', category: 'historical', coordinates: { lat: 50.0866, lng: 14.4285 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Czech_National_Bank', pixelArtKey: 'national-bank', xpReward: 20, difficulty: 2 },
+  { name: 'Palladium Prague', slug: 'palladium-prague', category: 'entertainment', coordinates: { lat: 50.0892, lng: 14.4286 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Palladium_(Prague)', pixelArtKey: 'grand-shopping-mall', xpReward: 15, difficulty: 1 },
+  { name: 'Charles University Faculty of Arts', slug: 'faculty-of-arts-uk', category: 'historical', coordinates: { lat: 50.0889, lng: 14.4158 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Faculty_of_Arts,_Charles_University', pixelArtKey: 'university-hall', xpReward: 30, difficulty: 3 },
+  { name: 'Lehká nejistota', slug: 'lehka-nejistota', category: 'hidden-gem', coordinates: { lat: 50.0737, lng: 14.4163 }, wikipediaUrl: 'https://www.michaltrpak.com/en/portfolio/slight-uncertainty-exterior/', pixelArtKey: 'umbrella-man', xpReward: 20, difficulty: 2 },
 ];
 
 async function run() {

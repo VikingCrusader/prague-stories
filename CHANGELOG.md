@@ -4,6 +4,34 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.1.1] — 2026-06-21
+
+**UI: rename check-in to collect; convert batch-7 pixel art to WebP**
+
+- "Check In" button renamed to "Collect" (EN), "Sbírat" (CZ), "打卡" (ZH — kept colloquial)
+- "Undo Visit" renamed to "Uncollect" (EN), "Odebrat" (CZ), "取消收藏？" (ZH)
+- "✓ Discovered" filter renamed to "✓ My Collections" / "✓ Moje sbírka" / "✓ 我的收藏"
+- "✓ VISITED" badge renamed to "✓ COLLECTED" / "✓ SESBÍRÁNO" / "✓ 已收藏"
+- "CHECKED IN!" success overlay renamed to "COLLECTED!"
+- Converted all 8 batch-7 pixel art images from PNG to WebP (quality 90): cafe-louvre, czech-national-bank, faculty-of-arts-uk, lehka-nejistota, nemocnice-motol, oc-flora, palladium-prague, rudolfinum
+
+---
+
+## [1.1.0] — 2026-06-21
+
+**Add 7 new preset locations (batch 7)**
+
+- Nemocnice Motol (hidden-gem, 20 XP) — Czech Republic's largest hospital; Praha 5, opened 1978; 2,300+ beds
+- Atrium Flora (entertainment, 15 XP) — glass-roofed mall above Flora metro A; next to Olšany Cemetery
+- Café Louvre (entertainment, 20 XP) — Prague institution since 1902; Kafka, Einstein, billiard room, communist closure 1948–1992
+- Czech National Bank (historical, 20 XP) — neoclassical palace on Na Příkopě; free Monetary Museum in basement
+- Palladium Prague (entertainment, 15 XP) — 2007 mall in former Josefov Barracks; medieval stonework visible through floor panel
+- Charles University Faculty of Arts (historical, 30 XP) — 1348 faculty on Náměstí Jana Palacha; 21 Dec 2023 shooting commemorated
+- Lehká nejistota (hidden-gem, 20 XP) — Michal Trpák's 2015 bronze businessman suspended by umbrella above Na Zbořenci, Praha 2
+- All 7 have full EN/CZ/ZH descriptions (gamified, humorous RPG style), localizedNames, coordinates, and pixelArtKey
+
+---
+
 ## [1.0.9] — 2026-06-21
 
 **Detail modal image now 1:1 square; batch-6 pixel art converted to WebP**

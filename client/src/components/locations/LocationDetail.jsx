@@ -185,7 +185,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onDel
                   {checkInResult ? (
                     <div style={{ textAlign: 'center', minWidth: 160 }}>
                       <p style={{ fontFamily: "'Press Start 2P'", fontSize: 9, color: '#8eff8e', marginBottom: 8, letterSpacing: 1 }}>
-                        CHECKED IN!
+                        COLLECTED!
                       </p>
                       <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: 'var(--gold)' }}>
                         +{checkInResult.xpEarned} XP

@@ -167,6 +167,15 @@ const names = {
   'strahov-stadium':            { cz: 'Velký strahovský stadion',            zh: '斯特拉霍夫大球场' },
   'staromestska-vodarenska-vez':{ cz: 'Staroměstská vodárenská věž',         zh: '旧城水塔' },
   'narodni-technicka-knihovna': { cz: 'Národní technická knihovna',          zh: '国家技术图书馆' },
+
+  // ── BATCH 7 ──────────────────────────────────────────────────────────────────
+  'nemocnice-motol':            { cz: 'Fakultní nemocnice Motol',            zh: '莫托尔大学医院' },
+  'oc-flora':                   { cz: 'Atrium Flora',                        zh: '弗洛拉购物中心' },
+  'cafe-louvre':                { cz: 'Café Louvre',                         zh: '卢浮宫咖啡馆' },
+  'czech-national-bank':        { cz: 'Česká národní banka',                 zh: '捷克国家银行' },
+  'palladium-prague':           { cz: 'Palladium Praha',                     zh: '布拉格帕拉迪乌姆' },
+  'faculty-of-arts-uk':         { cz: 'Filozofická fakulta UK',              zh: '查理大学哲学系' },
+  'lehka-nejistota':            { cz: 'Lehká nejistota',                     zh: '轻微的不确定性' },
 };
 
 async function seedLocalizedNames() {

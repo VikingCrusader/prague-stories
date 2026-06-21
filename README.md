@@ -2,19 +2,19 @@
 
 A gamified city exploration diary for Prague — built with the MERN stack.
 
-Unlock 136 real Prague landmarks, earn XP, collect achievements, and read trilingual descriptions in English, Czech, and Chinese.
+Unlock 129 real Prague landmarks, earn XP, collect achievements, and read trilingual descriptions in English, Czech, and Chinese.
 
 ## Features
 
 - JWT authentication (register / login)
-- 136 preset Prague landmarks across 5 categories
+- 129 preset Prague landmarks across 5 categories
 - Check in to locations to unlock them and earn XP
 - Add, edit, and delete custom locations
 - Gamified dashboard: explorer level, XP bar, unlock %, 10 achievements
 - Interactive Leaflet map with locked/unlocked markers
 - AI-generated descriptions via Gemini API (EN / CZ / ZH)
 - Full UI localisation: English, Czech, and Chinese (ZH/EN/CZ toggle)
-- Localized place names — Czech and Chinese names for all 136 locations
+- Localized place names — Czech and Chinese names for all 129 locations
 - Pixel art retro UI with [Ark Pixel Font](https://github.com/TakWolf/ark-pixel-font) in Chinese mode
 - Geolocation-based check-in — must be within 200m of the location to check in
 - Google Maps navigation link on every location (opens turn-by-turn directions)
@@ -23,7 +23,7 @@ Unlock 136 real Prague landmarks, earn XP, collect achievements, and read trilin
 - Check-in success overlay: shows "CHECKED IN!", XP earned, and any unlocked achievements for 2.5 s before the modal auto-closes
 - Explore grid refreshes instantly after check-in without waiting for the modal to close
 - Explore grid sorts cards by proximity to the user's current GPS position (closest first), with live distance shown on each card ("340 m", "1.2 km")
-- 123 preset Prague locations across 5 categories (expanded in batch 6)
+- 129 preset Prague locations across 5 categories (expanded through batch 7)
 - 117 Gemini-generated pixel art images — every original location card has a unique illustration, served as lossy WebP (quality 90)
 
 ## Stack
@@ -56,7 +56,7 @@ cp server/.env.example server/.env
 # Edit server/.env and fill in:
 #   MONGO_URI, JWT_SECRET, GEMINI_API_KEY
 
-# 3. Seed the 136 Prague locations
+# 3. Seed the 129 Prague locations
 cd server && npm run seed && npm run seed:new
 
 # 4. Seed trilingual descriptions and localized names
@@ -92,7 +92,7 @@ prague-stories/
         ├── routes/       # /api/auth, /api/locations, /api/checkins, /api/user
         ├── controllers/  # Business logic
         ├── services/     # geminiService, gamification
-        └── data/         # 136 preset locations, seed scripts
+        └── data/         # 129 preset locations, seed scripts
 ```
 
 ## API Overview
@@ -136,6 +136,20 @@ NODE_ENV=development
 ```
 
 ## Changelog
+
+### [1.1.1] — 2026-06-21
+
+**UI: rename check-in to collect; convert batch-7 pixel art to WebP**
+
+- "Check In" → "Collect" (EN), "Sbírat" (CZ), "打卡" (ZH); filter "Discovered" → "My Collections"
+- All 8 batch-7 pixel art images converted from PNG to WebP (quality 90)
+
+### [1.1.0] — 2026-06-21
+
+**Add 7 new preset locations (batch 7)**
+
+- Nemocnice Motol, Atrium Flora, Café Louvre, Czech National Bank, Palladium Prague, Charles University Faculty of Arts, Lehká nejistota (Michal Trpák sculpture)
+- All 7 fully attributed: coordinates, categories, XP/difficulty, EN/CZ/ZH descriptions and localized names
 
 ### [1.0.9] — 2026-06-21
 
