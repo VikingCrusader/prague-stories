@@ -3,7 +3,7 @@ import { useLang } from '../../context/LanguageContext';
 const LANGS = [
   { code: 'en', label: 'EN' },
   { code: 'cz', label: 'CZ' },
-  { code: 'zh', label: 'ZH' },
+  { code: 'zh', label: '中文' },
 ];
 
 export default function LanguageSwitcher() {

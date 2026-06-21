@@ -71,11 +71,6 @@ export default function ExplorePage() {
     addToast('Location added! Check it in on the map.');
   };
 
-  const handleDelete = (slug) => {
-    setLocations(prev => prev.filter(l => l.slug !== slug));
-    addToast('Location deleted.', 'info');
-  };
-
   const handleUpdate = (updatedLoc) => {
     setLocations(prev => prev.map(l => l.slug === updatedLoc.slug ? { ...l, ...updatedLoc } : l));
     addToast('Location updated.', 'success');
@@ -118,7 +113,6 @@ export default function ExplorePage() {
           onClose={() => setSelectedSlug(null)}
           onCheckIn={handleCheckIn}
           onUndo={handleUndo}
-          onDelete={handleDelete}
           onUpdate={handleUpdate}
         />
       )}

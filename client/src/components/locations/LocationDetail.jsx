@@ -13,7 +13,7 @@ const CAT_COLORS = {
   'hidden-gem': '#0a3a7a', entertainment: '#7a0a40',
 };
 
-export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onDelete, onUpdate }) {
+export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpdate }) {
   const { lang } = useLang();
   const t = useT();
   const { user } = useAuth();
@@ -24,7 +24,6 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onDel
   const [imgFailed, setImgFailed] = useState(false);
   const [checkInResult, setCheckInResult] = useState(null);
   const [closing, setClosing] = useState(false);
-  const [confirmDelete, setConfirmDelete] = useState(false);
   const [showEdit, setShowEdit]   = useState(false);
 
   useEffect(() => {
@@ -66,21 +65,6 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onDel
       onUndo(slug, res.data);
     } catch (err) {
       setError(err.response?.data?.message || 'Failed to undo');
-    } finally {
-      setActionLoading(false);
-    }
-  };
-
-  const handleDelete = async () => {
-    if (!confirmDelete) { setConfirmDelete(true); return; }
-    setActionLoading(true); setError('');
-    try {
-      await locationAPI.remove(slug);
-      onDelete(slug);
-      onClose();
-    } catch (err) {
-      setError(err.response?.data?.message || 'Failed to delete location');
-      setConfirmDelete(false);
     } finally {
       setActionLoading(false);
     }
@@ -223,21 +207,13 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onDel
               {error && <p style={{ color: '#ff6b6b', fontSize: 14, marginTop: 10 }}>{error}</p>}
 
               {user && !checkInResult && (
-                <div style={{ marginTop: 16, paddingTop: 12, borderTop: '1px solid #222', display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+                <div style={{ marginTop: 16, paddingTop: 12, borderTop: '1px solid #222' }}>
                   <button
                     className="px-btn px-btn--outline px-btn--sm"
                     onClick={() => setShowEdit(true)}
                     disabled={actionLoading}
                   >
                     Edit
-                  </button>
-                  <button
-                    className="px-btn px-btn--danger px-btn--sm"
-                    onClick={handleDelete}
-                    disabled={actionLoading}
-                    onBlur={() => setConfirmDelete(false)}
-                  >
-                    {confirmDelete ? 'Confirm delete?' : 'Delete'}
                   </button>
                 </div>
               )}

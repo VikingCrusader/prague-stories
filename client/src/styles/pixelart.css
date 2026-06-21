@@ -463,7 +463,7 @@
   border: 2px solid var(--border);
   background: var(--bg-card);
   color: var(--text-muted);
-  font-family: 'Press Start 2P', monospace;
+  font-family: 'Press Start 2P', 'Noto Sans SC', monospace;
   font-size: 7px;
   cursor: pointer;
   margin-right: -2px;
@@ -473,13 +473,55 @@
 /* ── Responsive ───────────────────────────────────────────── */
 @media (max-width: 900px) {
   .map-page { flex-direction: column; }
-  .map-sidebar { width: 100%; border-left: none; border-top: 3px solid var(--gold); height: 300px; }
+  .map-container { flex: none; height: 52vh; min-height: 260px; }
+  .map-sidebar { width: 100%; border-left: none; border-top: 3px solid var(--gold); flex: 1; overflow-y: auto; }
   .dashboard-grid { grid-template-columns: 1fr; }
 }
+
 @media (max-width: 600px) {
-  .navbar { padding: 0 12px; gap: 12px; }
-  .navbar__links { gap: 4px; }
-  .navbar__link { font-size: 6px; padding: 4px 6px; }
-  .explore-page { padding: 12px; }
-  .location-grid { grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; }
+  /* Navbar: logo + right on row 1, nav links full-width on row 2 */
+  .navbar { padding: 8px 14px; height: auto; flex-wrap: wrap; }
+  .navbar__logo { order: 1; font-size: 9px; }
+  .navbar__right { order: 2; margin-left: auto; gap: 8px; }
+  .navbar__links {
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+    gap: 4px;
+    border-top: 2px solid var(--border);
+    padding-top: 6px;
+    padding-bottom: 4px;
+    justify-content: center;
+  }
+  .navbar__link { font-size: 6px; padding: 5px 8px; }
+  .navbar__user { font-size: 11px; white-space: nowrap; }
+  .lang-tab { padding: 4px 9px; font-size: 5.5px; }
+
+  /* Explore */
+  .explore-page { padding: 12px 14px; }
+  .filter-btn { font-size: 6px; padding: 5px 8px; }
+  .location-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
+
+  /* Modal: bottom-sheet style on mobile */
+  .px-overlay { padding: 0; align-items: flex-end; }
+  .px-modal { max-width: 100%; max-height: 90vh; border-left: none; border-right: none; border-bottom: none; }
+  .px-modal__body { padding: 16px; }
+
+  /* Toast */
+  .toast-container { bottom: 12px; right: 12px; left: 12px; }
+  .toast { max-width: 100%; }
+
+  /* Auth + Dashboard */
+  .auth-box { padding: 24px 16px; }
+  .dashboard-page { padding: 12px; }
+}
+
+/* Chinese on mobile: override global 16px/20px sizes down to readable pixel sizes */
+@media (max-width: 600px) {
+  html[data-lang="zh"] .navbar__logo { font-size: 14px !important; }
+  html[data-lang="zh"] .navbar__link { font-size: 13px !important; }
+  html[data-lang="zh"] .lang-tab     { font-size: 12px !important; }
+  html[data-lang="zh"] .filter-btn   { font-size: 12px !important; }
+  html[data-lang="zh"] .px-btn       { font-size: 12px !important; }
+  html[data-lang="zh"] .px-btn--sm   { font-size: 11px !important; }
 }

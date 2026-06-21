@@ -9,7 +9,7 @@ Unlock 129 real Prague landmarks, earn XP, collect achievements, and read trilin
 - JWT authentication (register / login)
 - 129 preset Prague landmarks across 5 categories
 - Check in to locations to unlock them and earn XP
-- Add, edit, and delete custom locations
+- Add and edit custom locations
 - Gamified dashboard: explorer level, XP bar, unlock %, 10 achievements
 - Interactive Leaflet map with locked/unlocked markers
 - AI-generated descriptions via Gemini API (EN / CZ / ZH)
@@ -25,6 +25,7 @@ Unlock 129 real Prague landmarks, earn XP, collect achievements, and read trilin
 - Explore grid sorts cards by proximity to the user's current GPS position (closest first), with live distance shown on each card ("340 m", "1.2 km")
 - 129 preset Prague locations across 5 categories (expanded through batch 7)
 - 117 Gemini-generated pixel art images — every original location card has a unique illustration, served as lossy WebP (quality 90)
+- Fully responsive mobile layout: two-row navbar, 2-column grid, bottom-sheet modals
 
 ## Stack
 
@@ -136,6 +137,13 @@ NODE_ENV=development
 ```
 
 ## Changelog
+
+### [1.1.2] — 2026-06-21
+
+**Remove delete card from UI; perf fix for list endpoint**
+
+- Delete button removed from location detail modal
+- List endpoint payload reduced from ~1–2 MB to ~30 KB
 
 ### [1.1.1] — 2026-06-21
 

@@ -4,6 +4,28 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.1.3] — 2026-06-21
+
+**Mobile responsiveness, Chinese navbar fix, and RPG register screen**
+
+- Navbar wraps to two rows on small screens: logo + controls on row 1, nav links centred on row 2
+- Chinese mode (ZH) navbar and nav links scaled down to readable sizes on mobile (13px vs 16px desktop)
+- Language tabs include a CJK font fallback so "中文" renders correctly in all language modes
+- Location grid fixed to 2 columns on mobile; modal switches to a full-width bottom-sheet layout
+- Toast, auth box, and dashboard padding tightened for small screens
+- Registration page gets an ASCII pixel art scene (Týn Church · adventurer · Hradčany castle) and RPG-style flavor text in all three languages
+
+---
+
+## [1.1.2] — 2026-06-21
+
+**Remove delete card from UI; perf fix for list endpoint**
+
+- Delete button removed from location detail modal — locations can only be deleted directly in the database
+- `GET /api/locations` now excludes `description` and `localizedNames` fields, dropping payload from ~1–2 MB to ~30 KB and fixing 15 s load times after full description seeding
+
+---
+
 ## [1.1.1] — 2026-06-21
 
 **UI: rename check-in to collect; convert batch-7 pixel art to WebP**
