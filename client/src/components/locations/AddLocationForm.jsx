@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { locationAPI } from '../../services/api';
 import { useT } from '../../context/LanguageContext';
 
-const CATEGORIES = ['historical', 'cultural', 'natural', 'food', 'hidden-gem', 'entertainment'];
+const CATEGORIES = ['historical', 'cultural', 'natural', 'hidden-gem', 'entertainment'];
 const MAX_BYTES = 1 * 1024 * 1024; // 1 MB after base64 encoding
 
 export default function AddLocationForm({ onClose, onAdded }) {

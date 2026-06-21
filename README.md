@@ -7,9 +7,9 @@ Unlock 136 real Prague landmarks, earn XP, collect achievements, and read trilin
 ## Features
 
 - JWT authentication (register / login)
-- 136 preset Prague landmarks across 6 categories
+- 136 preset Prague landmarks across 5 categories
 - Check in to locations to unlock them and earn XP
-- Add and delete custom locations
+- Add, edit, and delete custom locations
 - Gamified dashboard: explorer level, XP bar, unlock %, 10 achievements
 - Interactive Leaflet map with locked/unlocked markers
 - AI-generated descriptions via Gemini API (EN / CZ / ZH)
@@ -89,7 +89,7 @@ prague-stories/
         ├── routes/       # /api/auth, /api/locations, /api/checkins, /api/user
         ├── controllers/  # Business logic
         ├── services/     # geminiService, gamification
-        └── data/         # 106 preset locations, seed scripts
+        └── data/         # 136 preset locations, seed scripts
 ```
 
 ## API Overview
@@ -101,7 +101,8 @@ prague-stories/
 | GET | `/api/locations` | optional | All locations (with unlock status if authed) |
 | GET | `/api/locations/:slug` | optional | Single location + lazy AI description |
 | POST | `/api/locations` | ✓ | Add custom location |
-| DELETE | `/api/locations/:slug` | ✓ | Delete own custom location (preset locations return 403) |
+| PUT | `/api/locations/:slug` | ✓ | Update location (name, coords, descriptions, category, cover photo, etc.) |
+| DELETE | `/api/locations/:slug` | ✓ | Delete location (cascades check-ins) |
 | GET | `/api/checkins` | ✓ | User's check-in history |
 | POST | `/api/checkins/:slug` | ✓ | Check in, award XP, evaluate achievements |
 | DELETE | `/api/checkins/:slug` | ✓ | Undo check-in |
@@ -112,7 +113,7 @@ prague-stories/
 
 **8 Explorer Levels:** Newcomer → Tourist → Wanderer → Explorer → Adventurer → Veteran → Master Explorer → Prague Legend
 
-**10 Achievements:** First Step, Urban Explorer, Adventurer, Half Century, Prague Century, History Buff, Food Pilgrim, Hidden Gem Hunter, Castle Conqueror, Cartographer
+**10 Achievements:** First Step, Urban Explorer, Adventurer, Half Century, Prague Century, History Buff, Night Out, Hidden Gem Hunter, Castle Conqueror, Cartographer
 
 ## Localisation
 
@@ -132,6 +133,22 @@ NODE_ENV=development
 ```
 
 ## Changelog
+
+### [1.0.2] — 2026-06-21
+
+**Remove Food category; second round of GPS corrections**
+
+- Removed `food` category — 16 locations merged into `entertainment`; `Food Pilgrim` achievement replaced by `Night Out`
+- Corrected 20 more GPS errors; largest: Sapa Praha ~2.4 km, Smíchovské nádraží ~890 m, Cross Club ~560 m, O2 Arena ~410 m
+
+### [1.0.1] — 2026-06-21
+
+**GPS coordinate corrections, in-app location editing, and dev-mode open permissions**
+
+- Corrected GPS coordinates for 19 preset locations (errors ranged from ~80 m to ~2 km)
+- Added `PUT /api/locations/:slug` and `EditLocationForm` — full in-modal editing of all location fields including EN/CZ/ZH names and descriptions
+- Edit and delete now available to any authenticated user (dev convenience)
+- Fixed Chinese modal title font size
 
 ### [1.0.0] — 2026-06-21
 

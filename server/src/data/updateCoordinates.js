@@ -3,6 +3,7 @@ import { connectDB } from '../config/db.js';
 import Location from '../models/Location.js';
 
 const corrections = [
+  // Round 1 — already applied; kept here for reference if re-running from scratch
   { slug: 'vysehrad',                   coordinates: { lat: 50.0642, lng: 14.4194 } },
   { slug: 'wallenstein-palace',         coordinates: { lat: 50.0900, lng: 14.4067 } },
   { slug: 'strahov-monastery',          coordinates: { lat: 50.0860, lng: 14.3900 } },
@@ -22,6 +23,27 @@ const corrections = [
   { slug: 'stromovka-park',             coordinates: { lat: 50.1064, lng: 14.4194 } },
   { slug: 'divoka-sarka',               coordinates: { lat: 50.1086, lng: 14.3508 } },
   { slug: 'troja-chateau-garden',       coordinates: { lat: 50.1164, lng: 14.4129 } },
+  // Round 2
+  { slug: 'josefov',                    coordinates: { lat: 50.0897, lng: 14.4186 } },
+  { slug: 'mala-strana',               coordinates: { lat: 50.0881, lng: 14.4039 } },
+  { slug: 'wenceslas-square',          coordinates: { lat: 50.0814, lng: 14.4275 } },
+  { slug: 'bethlehem-chapel',          coordinates: { lat: 50.0844, lng: 14.4175 } },
+  { slug: 'kampa-island',              coordinates: { lat: 50.0850, lng: 14.4083 } },
+  { slug: 'vysehrad-rock',             coordinates: { lat: 50.0642, lng: 14.4194 } },
+  { slug: 'sapa-praha',               coordinates: { lat: 50.0033, lng: 14.4703 } },
+  { slug: 'aquapalace',               coordinates: { lat: 50.0075, lng: 14.5711 } },
+  { slug: 'zizkov-tv-tower',          coordinates: { lat: 50.0808, lng: 14.4514 } },
+  { slug: 'certovka',                 coordinates: { lat: 50.0850, lng: 14.4075 } },
+  { slug: 'john-lennon-wall',         coordinates: { lat: 50.0862, lng: 14.4069 } },
+  { slug: 'kotva-department-store',   coordinates: { lat: 50.0889, lng: 14.4272 } },
+  { slug: 'pankrac-skyline',          coordinates: { lat: 50.0564, lng: 14.4349 } },
+  { slug: 'karlin',                   coordinates: { lat: 50.0919, lng: 14.4453 } },
+  { slug: 'cross-club',               coordinates: { lat: 50.1082, lng: 14.4432 } },
+  { slug: 'o2-arena',                 coordinates: { lat: 50.1048, lng: 14.4935 } },
+  { slug: 'smichovske-nadrazi',       coordinates: { lat: 50.0614, lng: 14.4089 } },
+  { slug: 'vaclav-havel-airport',     coordinates: { lat: 50.1018, lng: 14.2632 } },
+  { slug: 'namesti-miru',             coordinates: { lat: 50.0753, lng: 14.4377 } },
+  { slug: 'prague-zoo',               coordinates: { lat: 50.1169, lng: 14.4061 } },
 ];
 
 async function run() {

@@ -12,7 +12,7 @@ const locationSchema = new mongoose.Schema({
   category: {
     type: String,
     required: true,
-    enum: ['historical', 'cultural', 'natural', 'food', 'hidden-gem', 'entertainment'],
+    enum: ['historical', 'cultural', 'natural', 'hidden-gem', 'entertainment'],
   },
   coordinates: {
     lat: { type: Number, required: true },

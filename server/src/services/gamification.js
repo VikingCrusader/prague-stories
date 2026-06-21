@@ -53,11 +53,11 @@ export const ACHIEVEMENTS = [
     check: ({ categoryCount }) => (categoryCount['historical'] || 0) >= 10,
   },
   {
-    id: 'foodie',
-    name: 'Food Pilgrim',
-    description: 'Check in to 5 food & drink locations.',
-    icon: '🍺',
-    check: ({ categoryCount }) => (categoryCount['food'] || 0) >= 5,
+    id: 'night_out',
+    name: 'Night Out',
+    description: 'Check in to 10 entertainment locations.',
+    icon: '🎉',
+    check: ({ categoryCount }) => (categoryCount['entertainment'] || 0) >= 10,
   },
   {
     id: 'gem_hunter',

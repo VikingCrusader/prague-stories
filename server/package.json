@@ -10,7 +10,8 @@
     "seed:static": "node src/data/seedDescriptionsStatic.js",
     "seed:localnames": "node src/data/seedLocalizedNames.js",
     "seed:new": "node src/data/seedNewLocations.js",
-    "update:coords": "node src/data/updateCoordinates.js"
+    "update:coords": "node src/data/updateCoordinates.js",
+    "migrate:food": "node src/data/migrateFoodCategory.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",

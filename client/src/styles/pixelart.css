@@ -120,7 +120,6 @@
 .cat-badge--historical    { background: var(--cat-historical);    border-color: #c88a20; color: #ffe; }
 .cat-badge--cultural      { background: var(--cat-cultural);      border-color: #9b4abf; color: #ffe; }
 .cat-badge--natural       { background: var(--cat-natural);        border-color: #2a9b3a; color: #eff; }
-.cat-badge--food          { background: var(--cat-food);           border-color: #bf3500; color: #ffe; }
 .cat-badge--hidden-gem    { background: var(--cat-hidden-gem);     border-color: #1a6abf; color: #eff; }
 .cat-badge--entertainment { background: var(--cat-entertainment);  border-color: #bf1a6a; color: #fff; }
 

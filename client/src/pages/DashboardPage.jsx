@@ -83,7 +83,7 @@ export default function DashboardPage() {
         {/* Category Breakdown */}
         <div className="stat-card">
           <div className="stat-card__label" style={{ marginBottom: 14 }}>{t('dashboard.categoryBreakdown')}</div>
-          {['historical', 'cultural', 'natural', 'food', 'hidden-gem', 'entertainment'].map(key => (
+          {['historical', 'cultural', 'natural', 'hidden-gem', 'entertainment'].map(key => (
             <div key={key} style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8, fontSize: 16 }}>
               <span>{t(`cat.${key}`)}</span>
               <span style={{ color: 'var(--gold)' }}>{categoryCount?.[key] || 0}</span>

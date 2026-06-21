@@ -4,6 +4,33 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.0.2] — 2026-06-21
+
+**Remove Food & Drink category; second round of GPS corrections**
+
+- Removed the `food` category — all 16 food & drink locations (pubs, cafes, markets, breweries) merged into `entertainment`
+- Removed `food` from Location model enum, category selects, filter lists, dashboard breakdown, i18n keys, CSS variables, and badge styles
+- Replaced `Food Pilgrim` achievement with `Night Out` — check in to 10 entertainment locations
+- Corrected 20 more GPS coordinate errors (second audit pass):
+  - Critical: Sapa Praha longitude off by ~2.4 km; Aquapalace ~1 km; Smíchovské nádraží ~890 m; Cross Club ~560 m; O2 Arena ~410 m; Karlín ~680 m; Pankrác Skyline ~545 m
+  - Medium: Kotva, Žižkov TV Tower, Kampa Island, Čertovka, Malá Strana, Wenceslas Square, Bethlehem Chapel, John Lennon Wall, Náměstí Míru, Václav Havel Airport, Josefov, Vyšehrad Rock, Prague Zoo
+
+---
+
+## [1.0.1] — 2026-06-21
+
+**GPS coordinate corrections, in-app location editing, and dev-mode open permissions**
+
+- Audited all 136 preset location coordinates against Wikipedia/Google Maps; corrected 19 locations with errors ranging from ~80 m (National Museum) to ~2 km (Prague Planetarium longitude, Divoká Šárka)
+  - Largest fixes: Divoká Šárka (~1 km), Nusle Bridge (~600 m), Heydrich Assassination Site (~700 m), Prague Planetarium (~2 km lng shift into wrong district)
+- Added `PUT /api/locations/:slug` endpoint — accepts partial updates to name, localizedNames (CZ/ZH), category, coordinates, description (EN/CZ/ZH), wikipediaUrl, coverImage, xpReward, difficulty
+- Added `EditLocationForm` — full in-modal edit form pre-populated from existing location data; fields for EN/CZ/ZH names, coordinates, descriptions, category, XP/difficulty, Wikipedia URL, cover photo
+- Edit and delete actions are now available to any authenticated user (dev convenience; will be tightened before final release)
+- Fixed Chinese modal title font size rendering at 11px — added `font-size: 20px !important` override for `.px-title` in ZH mode
+- Added `updateCoordinates.js` migration script (`npm run update:coords`) for one-off coordinate patches
+
+---
+
 ## [1.0.0] — 2026-06-21
 
 **Delete custom locations, 136-location dataset, localized names backfill, and player guide**

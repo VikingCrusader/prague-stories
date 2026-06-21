@@ -7,7 +7,6 @@ const CAT_COLORS = {
   historical:    '#7a5210',
   cultural:      '#5a1480',
   natural:       '#145a20',
-  food:          '#7a2000',
   'hidden-gem':  '#0a3a7a',
   entertainment: '#7a0a40',
 };

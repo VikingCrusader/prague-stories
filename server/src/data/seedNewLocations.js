@@ -24,7 +24,7 @@ const newLocations = [
   { name: 'Václav Havel Airport Prague', slug: 'vaclav-havel-airport', category: 'entertainment', coordinates: { lat: 50.1008, lng: 14.2600 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Václav_Havel_Airport_Prague', pixelArtKey: 'airport', xpReward: 20, difficulty: 2 },
   // New batch 2
   { name: 'Praha hlavní nádraží', slug: 'praha-hlavni-nadrazi', category: 'historical', coordinates: { lat: 50.0831, lng: 14.4356 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Praha_hlavní_nádraží', pixelArtKey: 'grand-station', xpReward: 20, difficulty: 1 },
-  { name: 'Sapa Praha', slug: 'sapa-praha', category: 'food', coordinates: { lat: 50.0013, lng: 14.4356 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Sapa_(Prague)', pixelArtKey: 'vietnamese-market', xpReward: 25, difficulty: 3 },
+  { name: 'Sapa Praha', slug: 'sapa-praha', category: 'entertainment', coordinates: { lat: 50.0013, lng: 14.4356 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Sapa_(Prague)', pixelArtKey: 'vietnamese-market', xpReward: 25, difficulty: 3 },
   { name: 'Háje', slug: 'haje', category: 'hidden-gem', coordinates: { lat: 50.0315, lng: 14.4862 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Háje_(Praha)', pixelArtKey: 'metro-terminus', xpReward: 20, difficulty: 2 },
   { name: 'Pankrác Skyline', slug: 'pankrac-skyline', category: 'hidden-gem', coordinates: { lat: 50.0613, lng: 14.4285 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Pankrác', pixelArtKey: 'skyline', xpReward: 20, difficulty: 2 },
   { name: 'Anděl', slug: 'andel', category: 'entertainment', coordinates: { lat: 50.0712, lng: 14.4034 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Anděl_(Prague)', pixelArtKey: 'urban-hub', xpReward: 15, difficulty: 1 },

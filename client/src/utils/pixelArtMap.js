@@ -19,12 +19,12 @@ const map = {
   forest: '🌲', hill: '⛰️', river: '🌊', 'vineyard-park': '🍇', island: '🏝️',
   ponds: '💧', hilltop: '⛰️', 'chateau-garden': '🌹', 'deep-forest': '🌲',
   'rose-garden': '🌹',
-  // Food
+  // Food & Entertainment
   pub: '🍺', 'food-market': '🍔', 'grand-cafe': '☕', brewery: '🍺',
   market: '🛒', cafe: '☕', 'garden-pub': '🍺', butcher: '🥩',
   'modern-czech': '🍽️', festival: '🎪', 'pilsner-pub': '🍺',
   'local-market': '🛒', patisserie: '🧁', 'craft-brewery': '🍺',
-  'covered-market': '🛒',
+  'covered-market': '🛒', 'vietnamese-market': '🍜',
   // Hidden gems
   'tv-tower': '📡', 'street-art': '🎨', graffiti: '🎨', canal: '🌊',
   'secret-garden': '🌿', 'mystery-church': '🕯️', 'rotating-head': '🔮',
@@ -37,7 +37,7 @@ const map = {
 
 const categoryFallback = {
   historical: '🏰', cultural: '🎭', natural: '🌿',
-  food: '🍺', 'hidden-gem': '💎', entertainment: '🎯',
+  'hidden-gem': '💎', entertainment: '🎯',
 };
 
 export function getArt(pixelArtKey, category) {
@@ -48,7 +48,6 @@ export const CATEGORY_LABELS = {
   historical: '🏰 Historical',
   cultural: '🎭 Cultural',
   natural: '🌿 Natural',
-  food: '🍺 Food & Drink',
   'hidden-gem': '💎 Hidden Gems',
   entertainment: '🎯 Entertainment',
 };
