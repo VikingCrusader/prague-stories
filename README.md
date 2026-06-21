@@ -23,6 +23,7 @@ Unlock 136 real Prague landmarks, earn XP, collect achievements, and read trilin
 - Check-in success overlay: shows "CHECKED IN!", XP earned, and any unlocked achievements for 2.5 s before the modal auto-closes
 - Explore grid refreshes instantly after check-in without waiting for the modal to close
 - Explore grid sorts cards by proximity to the user's current GPS position (closest first), with live distance shown on each card ("340 m", "1.2 km")
+- 117 Gemini-generated pixel art images — every location card has a unique illustration
 
 ## Stack
 
@@ -134,6 +135,13 @@ NODE_ENV=development
 ```
 
 ## Changelog
+
+### [1.0.6] — 2026-06-21
+
+**Complete pixel art coverage — 117 Gemini-generated images**
+
+- Every location card now has a unique Gemini-generated pixel art illustration (117 images total, up from ~46)
+- Covers all 5 categories across all 118+ active locations
 
 ### [1.0.5] — 2026-06-21
 
@@ -271,7 +279,7 @@ NODE_ENV=development
 - Added `getLocName()` utility; location names on cards, modals, map tooltips, and sidebar now display in the active language
 - Integrated [Ark Pixel Font (方舟像素字体)](https://github.com/TakWolf/ark-pixel-font) for Chinese mode — self-hosted via two `unicode-range` `@font-face` declarations (Latin subset + Simplified Chinese subset) in `client/public/fonts/`
 - CSS overrides ensure all `Press Start 2P` elements (including inline-styled ones) switch to ArkPixel in ZH mode
-- Added pixel art images for 46 key landmarks
+- Added pixel art images for 46 key landmarks (expanded to 117 in v1.0.6)
 - Switched AI description backend from Claude (Anthropic) to Gemini (Google); env var renamed to `GEMINI_API_KEY`
 - Expanded location count from 100 to 106
 

@@ -4,6 +4,17 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.0.6] — 2026-06-21
+
+**Complete pixel art coverage — 117 Gemini-generated images across all location cards**
+
+- Added Gemini-generated pixel art for all remaining locations, bringing total coverage to 117 images (up from ~46)
+- Every card in the Explore grid now displays a unique pixel art illustration in the card banner
+- Covers all 5 categories: historical, cultural, natural, hidden-gem, entertainment
+- New images include: Císařský Ostrov, Kunratický Forest, Lake Džbán, Modřanská rokle, Průhonice Park, Žluté lázně, Hráz Hostivař, Soutok Berounky a Vltavy, Suchdol, Trojská lávka, Vinohrady Rose Garden, Centrální park Praha, and more
+
+---
+
 ## [1.0.5] — 2026-06-21
 
 **Sort Explore grid by distance; show distance on every card**
