@@ -4,6 +4,16 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.0.7] — 2026-06-21
+
+**Convert all pixel art to lossy WebP (quality 90)**
+
+- Converted all 117 pixel art images from PNG to WebP at quality 90 using `sharp`
+- Updated `LocationCard` and `LocationDetail` to load `.webp` instead of `.png`
+- Smaller file sizes with equivalent visual quality; all 117 images now served as WebP
+
+---
+
 ## [1.0.6] — 2026-06-21
 
 **Complete pixel art coverage — 117 Gemini-generated images across all location cards**

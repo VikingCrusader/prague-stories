@@ -116,7 +116,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onDel
             {(loc.coverImage || !imgFailed) ? (
               <div style={{ position: 'relative' }}>
                 <img
-                  src={loc.coverImage || `/pixel-art/${loc.slug}.png`}
+                  src={loc.coverImage || `/pixel-art/${loc.slug}.webp`}
                   alt={locName}
                   onError={() => setImgFailed(true)}
                   style={{ width: '100%', height: 220, objectFit: 'cover', display: 'block' }}

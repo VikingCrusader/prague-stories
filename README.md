@@ -23,7 +23,7 @@ Unlock 136 real Prague landmarks, earn XP, collect achievements, and read trilin
 - Check-in success overlay: shows "CHECKED IN!", XP earned, and any unlocked achievements for 2.5 s before the modal auto-closes
 - Explore grid refreshes instantly after check-in without waiting for the modal to close
 - Explore grid sorts cards by proximity to the user's current GPS position (closest first), with live distance shown on each card ("340 m", "1.2 km")
-- 117 Gemini-generated pixel art images — every location card has a unique illustration
+- 117 Gemini-generated pixel art images — every location card has a unique illustration, served as lossy WebP (quality 90)
 
 ## Stack
 
@@ -135,6 +135,12 @@ NODE_ENV=development
 ```
 
 ## Changelog
+
+### [1.0.7] — 2026-06-21
+
+**Convert all pixel art to lossy WebP (quality 90)**
+
+- All 117 pixel art images converted from PNG to WebP; `LocationCard` and `LocationDetail` updated accordingly
 
 ### [1.0.6] — 2026-06-21
 

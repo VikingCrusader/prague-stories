@@ -38,7 +38,7 @@ export default function LocationCard({ location, onClick, distance }) {
           />
         ) : !imgFailed ? (
           <img
-            src={`/pixel-art/${slug}.png`}
+            src={`/pixel-art/${slug}.webp`}
             alt={name}
             onError={() => setImgFailed(true)}
             style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
