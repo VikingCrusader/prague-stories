@@ -8,7 +8,9 @@ export async function getLocations(req, res, next) {
     const filter = {};
     if (category) filter.category = category;
 
-    const locations = await Location.find(filter).lean();
+    const locations = await Location.find(filter)
+      .select('-description -localizedNames')
+      .lean();
 
     // If user is authenticated, attach unlock status
     if (req.user) {
