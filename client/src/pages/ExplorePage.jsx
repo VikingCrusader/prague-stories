@@ -73,6 +73,11 @@ export default function ExplorePage() {
     addToast('Location deleted.', 'info');
   };
 
+  const handleUpdate = (updatedLoc) => {
+    setLocations(prev => prev.map(l => l.slug === updatedLoc.slug ? { ...l, ...updatedLoc } : l));
+    addToast('Location updated.', 'success');
+  };
+
   if (loading) return (
     <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <div className="spinner" />
@@ -101,6 +106,7 @@ export default function ExplorePage() {
           onCheckIn={handleCheckIn}
           onUndo={handleUndo}
           onDelete={handleDelete}
+          onUpdate={handleUpdate}
         />
       )}
 

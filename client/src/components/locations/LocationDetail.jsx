@@ -6,13 +6,14 @@ import { getArt } from '../../utils/pixelArtMap';
 import { getLocName } from '../../utils/locName';
 import { getCurrentPosition } from '../../utils/geolocation';
 import LanguageSwitcher from '../shared/LanguageSwitcher';
+import EditLocationForm from './EditLocationForm';
 
 const CAT_COLORS = {
   historical: '#7a5210', cultural: '#5a1480', natural: '#145a20',
   food: '#7a2000', 'hidden-gem': '#0a3a7a', entertainment: '#7a0a40',
 };
 
-export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onDelete }) {
+export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onDelete, onUpdate }) {
   const { lang } = useLang();
   const t = useT();
   const { user } = useAuth();
@@ -24,6 +25,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onDel
   const [checkInResult, setCheckInResult] = useState(null);
   const [closing, setClosing] = useState(false);
   const [confirmDelete, setConfirmDelete] = useState(false);
+  const [showEdit, setShowEdit]   = useState(false);
 
   useEffect(() => {
     setLoading(true); setError('');
@@ -84,11 +86,16 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onDel
     }
   };
 
+  const handleUpdated = (updatedLoc) => {
+    setLoc(prev => ({ ...prev, ...updatedLoc }));
+    setImgFailed(false);
+    onUpdate?.(updatedLoc);
+  };
+
   const description = loc?.description?.[lang] || loc?.description?.en || '';
   const locName = loc ? getLocName(loc, lang) : '';
   const art = loc ? getArt(loc.pixelArtKey, loc.category) : '📍';
   const bgColor = loc ? (CAT_COLORS[loc.category] || '#333') : '#333';
-  const isOwner = !loc?.isPreset && user && loc?.addedBy?.toString() === user._id?.toString();
 
   return (
     <div className="px-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
@@ -215,15 +222,22 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onDel
               )}
               {error && <p style={{ color: '#ff6b6b', fontSize: 14, marginTop: 10 }}>{error}</p>}
 
-              {isOwner && !checkInResult && (
-                <div style={{ marginTop: 16, paddingTop: 12, borderTop: '1px solid #222' }}>
+              {user && !checkInResult && (
+                <div style={{ marginTop: 16, paddingTop: 12, borderTop: '1px solid #222', display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+                  <button
+                    className="px-btn px-btn--outline px-btn--sm"
+                    onClick={() => setShowEdit(true)}
+                    disabled={actionLoading}
+                  >
+                    Edit
+                  </button>
                   <button
                     className="px-btn px-btn--danger px-btn--sm"
                     onClick={handleDelete}
                     disabled={actionLoading}
                     onBlur={() => setConfirmDelete(false)}
                   >
-                    {confirmDelete ? 'Confirm delete?' : 'Delete location'}
+                    {confirmDelete ? 'Confirm delete?' : 'Delete'}
                   </button>
                 </div>
               )}
@@ -231,6 +245,14 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onDel
           </>
         ) : null}
       </div>
+
+      {showEdit && loc && (
+        <EditLocationForm
+          location={loc}
+          onClose={() => setShowEdit(false)}
+          onUpdated={handleUpdated}
+        />
+      )}
     </div>
   );
 }

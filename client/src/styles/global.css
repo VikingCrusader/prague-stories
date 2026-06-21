@@ -81,6 +81,7 @@ html[data-lang="zh"] [style*="Press Start 2P"] {
   letter-spacing: 0 !important;
 }
 
+html[data-lang="zh"] .px-title    { font-size: 20px !important; }
 html[data-lang="zh"] .navbar__logo { font-size: 20px !important; }
 html[data-lang="zh"] .navbar__link { font-size: 16px !important; }
 html[data-lang="zh"] .px-btn { font-size: 14px !important; }

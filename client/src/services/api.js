@@ -19,10 +19,11 @@ export const authAPI = {
 };
 
 export const locationAPI = {
-  getAll:  (params) => api.get('/locations', { params }),
-  getOne:  (slug)   => api.get(`/locations/${slug}`),
-  create:  (data)   => api.post('/locations', data),
-  remove:  (slug)   => api.delete(`/locations/${slug}`),
+  getAll:  (params)       => api.get('/locations', { params }),
+  getOne:  (slug)         => api.get(`/locations/${slug}`),
+  create:  (data)         => api.post('/locations', data),
+  update:  (slug, data)   => api.put(`/locations/${slug}`, data),
+  remove:  (slug)         => api.delete(`/locations/${slug}`),
 };
 
 export const checkinAPI = {
