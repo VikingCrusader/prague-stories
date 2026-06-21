@@ -120,6 +120,45 @@ const names = {
   'aquapalace':            { cz: 'Aquapalace Praha',                   zh: '布拉格水宫水上乐园' },
   'vltava-boat-tour':      { cz: 'Plavba po Vltavě',                  zh: '伏尔塔瓦河游船' },
   'strelecky-ostrov':      { cz: 'Střelecký ostrov',                   zh: '射手岛' },
+
+  // ── RECENT BATCHES (historical) ──────────────────────────────────────────────
+  'o2-arena':                   { cz: 'O2 Arena Praha',                      zh: 'O2竞技场' },
+  'new-royal-palace':           { cz: 'Nový královský palác',                zh: '新皇宫' },
+  'vitkov-national-memorial':   { cz: 'Národní památník na Vítkově',         zh: '维特科夫国家纪念碑' },
+  'heydrich-assassination-site':{ cz: 'Místo atentátu na Heydricha',         zh: '海德里希暗杀地点' },
+  'cathedral-cyril-methodius':  { cz: 'Katedrála sv. Cyrila a Metoděje',    zh: '圣西里尔与美多德大教堂' },
+  'masarykovo-nadrazi':         { cz: 'Masarykovo nádraží',                  zh: '马萨里克火车站' },
+  'charles-university':         { cz: 'Karlova univerzita (Karolinum)',       zh: '查理大学（卡罗利努姆）' },
+  'praha-hlavni-nadrazi':       { cz: 'Praha hlavní nádraží',                zh: '布拉格主火车站' },
+
+  // ── RECENT BATCHES (natural) ─────────────────────────────────────────────────
+  'lake-dzban':                 { cz: 'Přírodní rezervace Džbán',            zh: '德班湖自然保护区' },
+  'modranska-rokle':            { cz: 'Modřanská rokle',                     zh: '莫德日安斯卡峡谷' },
+  'centralni-park-praha':       { cz: 'Centrální park Praha',                zh: '布拉格中央公园' },
+  'trojska-lavka':              { cz: 'Trojská lávka',                       zh: '特罗亚人行桥' },
+  'suchdol':                    { cz: 'Suchdol',                             zh: '苏赫多尔' },
+  'hraz-preharady-hostivar':    { cz: 'Hráz přehrady Hostivař',             zh: '霍斯提瓦日水库大坝' },
+  'soutok-berounky-vltavy':     { cz: 'Soutok Berounky a Vltavy',           zh: '贝罗温卡与伏尔塔瓦河交汇处' },
+  'pruhonice-park':             { cz: 'Park Průhonice',                      zh: '普鲁霍尼采公园' },
+  'zlute-lazne':                { cz: 'Žluté lázně',                         zh: '黄色浴场' },
+
+  // ── RECENT BATCHES (food) ────────────────────────────────────────────────────
+  'sapa-praha':                 { cz: 'Sapa Praha',                          zh: '萨帕布拉格越南市场' },
+
+  // ── RECENT BATCHES (hidden-gem) ──────────────────────────────────────────────
+  'haje':                       { cz: 'Háje',                                zh: '哈耶' },
+  'pankrac-skyline':            { cz: 'Panorama Pankráce',                   zh: '潘克拉茨天际线' },
+  'podbaba':                    { cz: 'Podbaba',                             zh: '波德巴巴' },
+  'karlin':                     { cz: 'Karlín',                              zh: '卡尔林区' },
+  'lihovar':                    { cz: 'Lihovar',                             zh: '利霍瓦尔酒厂' },
+  'bohnice':                    { cz: 'Bohnice',                             zh: '波赫尼采' },
+
+  // ── RECENT BATCHES (entertainment) ──────────────────────────────────────────
+  'smichovske-nadrazi':         { cz: 'Smíchovské nádraží',                  zh: '斯米霍夫站' },
+  'vaclav-havel-airport':       { cz: 'Letiště Václava Havla Praha',         zh: '瓦茨拉夫·哈维尔布拉格机场' },
+  'andel':                      { cz: 'Anděl',                               zh: '天使广场' },
+  'namesti-miru':               { cz: 'Náměstí Míru',                        zh: '和平广场' },
+  'letňany':                    { cz: 'Letňany',                             zh: '列特尼亚内' },
 };
 
 async function seedLocalizedNames() {

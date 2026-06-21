@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { locationAPI, checkinAPI } from '../../services/api';
 import { useLang, useT } from '../../context/LanguageContext';
+import { useAuth } from '../../context/AuthContext';
 import { getArt } from '../../utils/pixelArtMap';
 import { getLocName } from '../../utils/locName';
 import { getCurrentPosition } from '../../utils/geolocation';
@@ -11,9 +12,10 @@ const CAT_COLORS = {
   food: '#7a2000', 'hidden-gem': '#0a3a7a', entertainment: '#7a0a40',
 };
 
-export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
+export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onDelete }) {
   const { lang } = useLang();
   const t = useT();
+  const { user } = useAuth();
   const [loc, setLoc]             = useState(null);
   const [loading, setLoading]     = useState(true);
   const [actionLoading, setActionLoading] = useState(false);
@@ -21,6 +23,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
   const [imgFailed, setImgFailed] = useState(false);
   const [checkInResult, setCheckInResult] = useState(null);
   const [closing, setClosing] = useState(false);
+  const [confirmDelete, setConfirmDelete] = useState(false);
 
   useEffect(() => {
     setLoading(true); setError('');
@@ -66,10 +69,26 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
     }
   };
 
+  const handleDelete = async () => {
+    if (!confirmDelete) { setConfirmDelete(true); return; }
+    setActionLoading(true); setError('');
+    try {
+      await locationAPI.remove(slug);
+      onDelete(slug);
+      onClose();
+    } catch (err) {
+      setError(err.response?.data?.message || 'Failed to delete location');
+      setConfirmDelete(false);
+    } finally {
+      setActionLoading(false);
+    }
+  };
+
   const description = loc?.description?.[lang] || loc?.description?.en || '';
   const locName = loc ? getLocName(loc, lang) : '';
   const art = loc ? getArt(loc.pixelArtKey, loc.category) : '📍';
   const bgColor = loc ? (CAT_COLORS[loc.category] || '#333') : '#333';
+  const isOwner = !loc?.isPreset && user && loc?.addedBy?.toString() === user._id?.toString();
 
   return (
     <div className="px-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
@@ -195,6 +214,19 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo }) {
                 </p>
               )}
               {error && <p style={{ color: '#ff6b6b', fontSize: 14, marginTop: 10 }}>{error}</p>}
+
+              {isOwner && !checkInResult && (
+                <div style={{ marginTop: 16, paddingTop: 12, borderTop: '1px solid #222' }}>
+                  <button
+                    className="px-btn px-btn--danger px-btn--sm"
+                    onClick={handleDelete}
+                    disabled={actionLoading}
+                    onBlur={() => setConfirmDelete(false)}
+                  >
+                    {confirmDelete ? 'Confirm delete?' : 'Delete location'}
+                  </button>
+                </div>
+              )}
             </div>
           </>
         ) : null}

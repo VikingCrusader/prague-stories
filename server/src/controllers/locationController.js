@@ -55,6 +55,22 @@ export async function getLocation(req, res, next) {
   }
 }
 
+export async function deleteLocation(req, res, next) {
+  try {
+    const location = await Location.findOne({ slug: req.params.slug });
+    if (!location) return res.status(404).json({ message: 'Location not found' });
+    if (location.isPreset) return res.status(403).json({ message: 'Preset locations cannot be deleted' });
+    if (!location.addedBy || location.addedBy.toString() !== req.user._id.toString()) {
+      return res.status(403).json({ message: 'You can only delete locations you added' });
+    }
+    await CheckIn.deleteMany({ location: location._id });
+    await location.deleteOne();
+    res.json({ message: 'Location deleted', slug: req.params.slug });
+  } catch (err) {
+    next(err);
+  }
+}
+
 export async function createLocation(req, res, next) {
   try {
     const { name, category, coordinates, wikipediaUrl, description, coverImage } = req.body;

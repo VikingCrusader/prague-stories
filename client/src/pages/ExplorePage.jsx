@@ -68,6 +68,11 @@ export default function ExplorePage() {
     addToast('Location added! Check it in on the map.');
   };
 
+  const handleDelete = (slug) => {
+    setLocations(prev => prev.filter(l => l.slug !== slug));
+    addToast('Location deleted.', 'info');
+  };
+
   if (loading) return (
     <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <div className="spinner" />
@@ -95,6 +100,7 @@ export default function ExplorePage() {
           onClose={() => setSelectedSlug(null)}
           onCheckIn={handleCheckIn}
           onUndo={handleUndo}
+          onDelete={handleDelete}
         />
       )}
 

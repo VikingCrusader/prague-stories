@@ -4,6 +4,20 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.0.0] — 2026-06-21
+
+**Delete custom locations, 136-location dataset, localized names backfill, and player guide**
+
+- Added `DELETE /api/locations/:slug` endpoint — only the user who created a location can delete it; preset locations return `403`; all check-ins for the deleted location are also removed
+- Delete button in location detail modal renders only for the owner of a non-preset location; requires a two-step confirm to prevent accidental deletions; resets on blur
+- Grid and toast update immediately on deletion without a full re-fetch
+- Added Bohnice and Letňany to the preset dataset, bringing the total to 136 locations
+- Corrected Bohnice description: hospital built 1906–1911, Easter egg updated to the first Czech dynamite factory (1870) and the Polish-city street naming scheme (Czech-Polish friendship project)
+- Backfilled Czech and Chinese localized names for 30 locations added since the initial `seed:localnames` run (batches 2–6)
+- Added `GUIDE.md` — player-facing how-to in a humorous RPG tone covering all screens, mechanics, check-in flow, achievements, and tips; kept separate from the technical `README.md`
+
+---
+
 ## [0.9.2] — 2026-06-20
 
 **Navigate to location detail after proximity check-in**

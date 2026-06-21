@@ -2,19 +2,19 @@
 
 A gamified city exploration diary for Prague — built with the MERN stack.
 
-Unlock 106 real Prague landmarks, earn XP, collect achievements, and read AI-generated descriptions in English, Czech, and Chinese.
+Unlock 136 real Prague landmarks, earn XP, collect achievements, and read trilingual descriptions in English, Czech, and Chinese.
 
 ## Features
 
 - JWT authentication (register / login)
-- 106 preset Prague landmarks across 6 categories
+- 136 preset Prague landmarks across 6 categories
 - Check in to locations to unlock them and earn XP
-- Add custom locations to the map
+- Add and delete custom locations
 - Gamified dashboard: explorer level, XP bar, unlock %, 10 achievements
 - Interactive Leaflet map with locked/unlocked markers
 - AI-generated descriptions via Gemini API (EN / CZ / ZH)
 - Full UI localisation: English, Czech, and Chinese (ZH/EN/CZ toggle)
-- Localized place names — Czech and Chinese names for all 106 locations
+- Localized place names — Czech and Chinese names for all 136 locations
 - Pixel art retro UI with [Ark Pixel Font](https://github.com/TakWolf/ark-pixel-font) in Chinese mode
 - Geolocation-based check-in — must be within 200m of the location to check in
 - Google Maps navigation link on every location (opens turn-by-turn directions)
@@ -53,11 +53,11 @@ cp server/.env.example server/.env
 # Edit server/.env and fill in:
 #   MONGO_URI, JWT_SECRET, GEMINI_API_KEY
 
-# 3. Seed the 106 Prague locations
-cd server && npm run seed
+# 3. Seed the 136 Prague locations
+cd server && npm run seed && npm run seed:new
 
-# 4. Seed Czech and Chinese place names
-npm run seed:localnames
+# 4. Seed trilingual descriptions and localized names
+npm run seed:static && npm run seed:localnames
 
 # 5. Start the backend (port 5000)
 npm run dev
@@ -101,6 +101,7 @@ prague-stories/
 | GET | `/api/locations` | optional | All locations (with unlock status if authed) |
 | GET | `/api/locations/:slug` | optional | Single location + lazy AI description |
 | POST | `/api/locations` | ✓ | Add custom location |
+| DELETE | `/api/locations/:slug` | ✓ | Delete own custom location (preset locations return 403) |
 | GET | `/api/checkins` | ✓ | User's check-in history |
 | POST | `/api/checkins/:slug` | ✓ | Check in, award XP, evaluate achievements |
 | DELETE | `/api/checkins/:slug` | ✓ | Undo check-in |
@@ -131,6 +132,15 @@ NODE_ENV=development
 ```
 
 ## Changelog
+
+### [1.0.0] — 2026-06-21
+
+**Delete custom locations, 136-location dataset, localized names backfill, and player guide**
+
+- Added `DELETE /api/locations/:slug` — owner-only delete for custom locations; cascades to check-ins; preset locations return 403
+- Two-step confirm delete button in location detail modal (visible to owner only)
+- Expanded preset dataset to 136 locations; backfilled EN/CZ/ZH descriptions and localized names for all
+- Added `GUIDE.md` — player-facing how-to in a humorous RPG tone
 
 ### [0.9.2] — 2026-06-20
 
@@ -219,7 +229,7 @@ NODE_ENV=development
 
 - Rewrote `LanguageContext` with a ~60-key `T` translations object and `useT()` hook; all components and pages now use it instead of hardcoded English strings
 - Language switcher (EN / CZ / ZH) now switches the entire UI, not just location descriptions
-- Added `localizedNames` field to the `Location` model; seeded Czech and Chinese names for all 106 locations (`npm run seed:localnames`)
+- Added `localizedNames` field to the `Location` model; seeded Czech and Chinese names for all 136 locations (`npm run seed:localnames`)
 - Added `getLocName()` utility; location names on cards, modals, map tooltips, and sidebar now display in the active language
 - Integrated [Ark Pixel Font (方舟像素字体)](https://github.com/TakWolf/ark-pixel-font) for Chinese mode — self-hosted via two `unicode-range` `@font-face` declarations (Latin subset + Simplified Chinese subset) in `client/public/fonts/`
 - CSS overrides ensure all `Press Start 2P` elements (including inline-styled ones) switch to ArkPixel in ZH mode
