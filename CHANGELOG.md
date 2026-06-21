@@ -4,6 +4,33 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.0.4] — 2026-06-21
+
+**GPS corrections round 4 — cultural, natural, entertainment, hidden-gem re-audit via Google Maps / Wikidata**
+
+- 33 additional coordinate corrections across all remaining categories:
+  - Critical (>500 m): Technical Museum lng ~2.3 km off; Císařský Ostrov lng ~2.5 km off; Háje lng ~2.9 km off; Letňany lat ~1.8 km off; Prokopské Valley lat ~1.5 km off; Kunratický Forest combined ~1.4 km; Hvězda Game Reserve lat ~1.2 km off
+  - Large (200–600 m): Museum of Communism lat ~590 m (museum relocated to V Celnici); Vinohrady Rose Garden lat ~550 m; Žluté lázně ~545 m; Hráz Hostivař ~475 m; DOX Centre ~330 m; Petřín Hill/Tower/Mirror Maze each ~200–205 m; Riegrovy Sady lng ~360 m
+  - Medium (100–200 m): Mucha Museum lat ~178 m; Czech Museum of Music lng ~175 m; Anděl lat ~155 m; Střelecký Ostrov lng ~200 m; Kafka rotating head ~155 m; U Fleků ~230 m; Vojanovy Sady lat ~110 m; Nový Svět lng ~245 m
+
+---
+
+## [1.0.3] — 2026-06-21
+
+**GPS corrections round 3 — historical category re-audit via Google Maps / Wikidata**
+
+- Corrected 8 historical location coordinates (re-audited against Google Maps and Wikidata):
+  - Loreta Prague: longitude corrected ~200 m (14.3946 → 14.3918)
+  - Old Town Hall: latitude corrected ~190 m (50.0872 → 50.0855)
+  - Schwarzenberg Palace: ~250 m off in both axes (50.0910/14.3988 → 50.0889/14.3969)
+  - Dalibor Tower: ~110 m off (50.0916/14.4040 → 50.0923/14.4050)
+  - Lobkowicz Palace: ~100 m off (50.0908/14.4042 → 50.0916/14.4049)
+  - Vítkov National Memorial: ~480 m off (50.0862/14.4564 → 50.0887/14.4500)
+  - Charles University (Carolinum): ~310 m off in longitude (50.0852/14.4195 → 50.0865/14.4235)
+  - Olšanské hřbitovy: ~640 m off (50.0778/14.4644 → 50.0810/14.4722)
+
+---
+
 ## [1.0.2] — 2026-06-21
 
 **Remove Food & Drink category; second round of GPS corrections**

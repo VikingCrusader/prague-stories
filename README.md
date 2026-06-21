@@ -134,6 +134,18 @@ NODE_ENV=development
 
 ## Changelog
 
+### [1.0.4] — 2026-06-21
+
+**GPS corrections round 4 — 33 locations across cultural / natural / entertainment / hidden-gem**
+
+- Largest fixes: Technical Museum lng ~2.3 km, Císařský Ostrov lng ~2.5 km, Háje lng ~2.9 km, Letňany lat ~1.8 km, Prokopské Valley lat ~1.5 km, Museum of Communism lat ~590 m (relocated building), Hvězda Game Reserve lat ~1.2 km
+
+### [1.0.3] — 2026-06-21
+
+**GPS corrections round 3 — 8 historical locations re-audited via Google Maps / Wikidata**
+
+- Corrected Loreta (~200 m lng), Old Town Hall (~190 m lat), Schwarzenberg Palace (~250 m), Dalibor Tower (~110 m), Lobkowicz Palace (~100 m), Vítkov National Memorial (~480 m), Charles University Carolinum (~310 m lng), Olšanské hřbitovy (~640 m)
+
 ### [1.0.2] — 2026-06-21
 
 **Remove Food category; second round of GPS corrections**

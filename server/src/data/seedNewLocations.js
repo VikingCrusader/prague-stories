@@ -25,25 +25,25 @@ const newLocations = [
   // New batch 2
   { name: 'Praha hlavní nádraží', slug: 'praha-hlavni-nadrazi', category: 'historical', coordinates: { lat: 50.0831, lng: 14.4356 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Praha_hlavní_nádraží', pixelArtKey: 'grand-station', xpReward: 20, difficulty: 1 },
   { name: 'Sapa Praha', slug: 'sapa-praha', category: 'entertainment', coordinates: { lat: 50.0013, lng: 14.4356 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Sapa_(Prague)', pixelArtKey: 'vietnamese-market', xpReward: 25, difficulty: 3 },
-  { name: 'Háje', slug: 'haje', category: 'hidden-gem', coordinates: { lat: 50.0315, lng: 14.4862 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Háje_(Praha)', pixelArtKey: 'metro-terminus', xpReward: 20, difficulty: 2 },
+  { name: 'Háje', slug: 'haje', category: 'hidden-gem', coordinates: { lat: 50.0309, lng: 14.5272 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Háje_(Praha)', pixelArtKey: 'metro-terminus', xpReward: 20, difficulty: 2 },
   { name: 'Pankrác Skyline', slug: 'pankrac-skyline', category: 'hidden-gem', coordinates: { lat: 50.0613, lng: 14.4285 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Pankrác', pixelArtKey: 'skyline', xpReward: 20, difficulty: 2 },
-  { name: 'Anděl', slug: 'andel', category: 'entertainment', coordinates: { lat: 50.0712, lng: 14.4034 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Anděl_(Prague)', pixelArtKey: 'urban-hub', xpReward: 15, difficulty: 1 },
+  { name: 'Anděl', slug: 'andel', category: 'entertainment', coordinates: { lat: 50.0698, lng: 14.4023 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Anděl_(Prague)', pixelArtKey: 'urban-hub', xpReward: 15, difficulty: 1 },
   { name: 'Trojská lávka', slug: 'trojska-lavka', category: 'natural', coordinates: { lat: 50.1148, lng: 14.4148 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Trojská_lávka', pixelArtKey: 'footbridge', xpReward: 20, difficulty: 2 },
   { name: 'Podbaba', slug: 'podbaba', category: 'hidden-gem', coordinates: { lat: 50.1106, lng: 14.3980 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Podbaba', pixelArtKey: 'riverside-village', xpReward: 20, difficulty: 3 },
   // New batch 3
   { name: 'Olšanské hřbitovy', slug: 'olsanske-hrbitovy', category: 'historical', coordinates: { lat: 50.0778, lng: 14.4644 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Olšany_Cemeteries', pixelArtKey: 'grand-cemetery', xpReward: 20, difficulty: 2 },
   { name: 'Průhonice Park', slug: 'pruhonice-park', category: 'natural', coordinates: { lat: 49.9889, lng: 14.5514 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Průhonice_Park', pixelArtKey: 'castle-park', xpReward: 30, difficulty: 3 },
-  { name: 'Žluté lázně', slug: 'zlute-lazne', category: 'natural', coordinates: { lat: 50.0512, lng: 14.4073 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Žluté_lázně', pixelArtKey: 'riverside-beach', xpReward: 15, difficulty: 2 },
+  { name: 'Žluté lázně', slug: 'zlute-lazne', category: 'natural', coordinates: { lat: 50.0483, lng: 14.4136 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Žluté_lázně', pixelArtKey: 'riverside-beach', xpReward: 15, difficulty: 2 },
   { name: 'Karlín', slug: 'karlin', category: 'hidden-gem', coordinates: { lat: 50.0939, lng: 14.4546 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Karlín', pixelArtKey: 'revival-district', xpReward: 20, difficulty: 2 },
   { name: 'Náměstí Míru', slug: 'namesti-miru', category: 'entertainment', coordinates: { lat: 50.0751, lng: 14.4392 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Náměstí_Míru', pixelArtKey: 'peace-square', xpReward: 15, difficulty: 1 },
   // New batch 4
   { name: 'Suchdol', slug: 'suchdol', category: 'natural', coordinates: { lat: 50.1342, lng: 14.3737 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Suchdol_(Praha)', pixelArtKey: 'riverside-village2', xpReward: 20, difficulty: 3 },
   { name: 'Lihovar', slug: 'lihovar', category: 'hidden-gem', coordinates: { lat: 50.0617, lng: 14.4009 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Lihovar_(Praha)', pixelArtKey: 'distillery', xpReward: 20, difficulty: 2 },
-  { name: 'Hráz přehrady Hostivař', slug: 'hraz-preharady-hostivar', category: 'natural', coordinates: { lat: 50.0447, lng: 14.5242 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hostivařská_přehrada', pixelArtKey: 'reservoir-dam', xpReward: 20, difficulty: 2 },
+  { name: 'Hráz přehrady Hostivař', slug: 'hraz-preharady-hostivar', category: 'natural', coordinates: { lat: 50.0417, lng: 14.5292 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hostivařská_přehrada', pixelArtKey: 'reservoir-dam', xpReward: 20, difficulty: 2 },
   { name: 'Soutok Berounky a Vltavy', slug: 'soutok-berounky-vltavy', category: 'natural', coordinates: { lat: 49.9897, lng: 14.3569 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Soutok_Berounky_a_Vltavy', pixelArtKey: 'river-confluence', xpReward: 25, difficulty: 3 },
   // New batch 5
   { name: 'Bohnice', slug: 'bohnice', category: 'hidden-gem', coordinates: { lat: 50.1395, lng: 14.4247 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Bohnice', pixelArtKey: 'asylum-park', xpReward: 20, difficulty: 3 },
-  { name: 'Letňany', slug: 'letňany', category: 'entertainment', coordinates: { lat: 50.1381, lng: 14.5203 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Letňany', pixelArtKey: 'exhibition-airfield', xpReward: 15, difficulty: 2 },
+  { name: 'Letňany', slug: 'letňany', category: 'entertainment', coordinates: { lat: 50.1218, lng: 14.5083 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Letňany', pixelArtKey: 'exhibition-airfield', xpReward: 15, difficulty: 2 },
 ];
 
 async function run() {

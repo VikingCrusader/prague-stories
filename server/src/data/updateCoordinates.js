@@ -44,6 +44,44 @@ const corrections = [
   { slug: 'vaclav-havel-airport',     coordinates: { lat: 50.1018, lng: 14.2632 } },
   { slug: 'namesti-miru',             coordinates: { lat: 50.0753, lng: 14.4377 } },
   { slug: 'prague-zoo',               coordinates: { lat: 50.1169, lng: 14.4061 } },
+  // Round 3 — historical category re-audit via Google Maps / Wikidata
+  { slug: 'loreta-prague',            coordinates: { lat: 50.0893, lng: 14.3918 } },
+  { slug: 'old-town-hall',            coordinates: { lat: 50.0855, lng: 14.4192 } },
+  { slug: 'schwarzenberg-palace',     coordinates: { lat: 50.0889, lng: 14.3969 } },
+  { slug: 'dalibor-tower',            coordinates: { lat: 50.0923, lng: 14.4050 } },
+  { slug: 'lobkowicz-palace',         coordinates: { lat: 50.0916, lng: 14.4049 } },
+  { slug: 'vitkov-national-memorial', coordinates: { lat: 50.0887, lng: 14.4500 } },
+  { slug: 'charles-university',       coordinates: { lat: 50.0865, lng: 14.4235 } },
+  { slug: 'olsanske-hrbitovy',        coordinates: { lat: 50.0810, lng: 14.4722 } },
+  // Round 4 — cultural / natural / entertainment / hidden-gem re-audit
+  // Cultural
+  { slug: 'dox-centre',              coordinates: { lat: 50.1068, lng: 14.4476 } },
+  { slug: 'czech-museum-of-music',   coordinates: { lat: 50.0853, lng: 14.4046 } },
+  { slug: 'museum-of-communism',     coordinates: { lat: 50.0880, lng: 14.4303 } },
+  { slug: 'mucha-museum',            coordinates: { lat: 50.0842, lng: 14.4277 } },
+  { slug: 'kafka-rotating-head',     coordinates: { lat: 50.0816, lng: 14.4208 } },
+  { slug: 'technical-museum',        coordinates: { lat: 50.0973, lng: 14.4249 } },
+  // Natural
+  { slug: 'petrin-hill',             coordinates: { lat: 50.0835, lng: 14.3905 } },
+  { slug: 'hvezda-game-reserve',     coordinates: { lat: 50.0834, lng: 14.3263 } },
+  { slug: 'riegrovy-sady',           coordinates: { lat: 50.0803, lng: 14.4416 } },
+  { slug: 'cisarsky-ostrov',         coordinates: { lat: 50.1162, lng: 14.4118 } },
+  { slug: 'vojanovy-sady',           coordinates: { lat: 50.0887, lng: 14.4084 } },
+  { slug: 'vinohrady-rose-garden',   coordinates: { lat: 50.0693, lng: 14.4447 } },
+  { slug: 'kunraticky-forest',       coordinates: { lat: 50.0217, lng: 14.4700 } },
+  { slug: 'prokopske-valley',        coordinates: { lat: 50.0330, lng: 14.3670 } },
+  { slug: 'zlute-lazne',             coordinates: { lat: 50.0483, lng: 14.4136 } },
+  { slug: 'hraz-preharady-hostivar', coordinates: { lat: 50.0417, lng: 14.5292 } },
+  // Entertainment
+  { slug: 'petrin-tower',            coordinates: { lat: 50.0835, lng: 14.3904 } },
+  { slug: 'mirror-maze-petrin',      coordinates: { lat: 50.0836, lng: 14.3962 } },
+  { slug: 'strelecky-ostrov',        coordinates: { lat: 50.0816, lng: 14.4100 } },
+  { slug: 'andel',                   coordinates: { lat: 50.0698, lng: 14.4023 } },
+  { slug: 'letňany',                 coordinates: { lat: 50.1218, lng: 14.5083 } },
+  { slug: 'u-fleku-brewery',         coordinates: { lat: 50.0788, lng: 14.4172 } },
+  // Hidden gem
+  { slug: 'novy-svet',               coordinates: { lat: 50.0910, lng: 14.3915 } },
+  { slug: 'haje',                    coordinates: { lat: 50.0309, lng: 14.5272 } },
 ];
 
 async function run() {
