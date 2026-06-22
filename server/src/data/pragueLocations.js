@@ -182,15 +182,6 @@ export const pragueLocations = [
     xpReward: 20, difficulty: 1,
   },
   {
-    name: 'Rudolph II\'s Cabinet of Curiosities Site',
-    slug: 'rudolph-cabinet',
-    category: 'historical',
-    coordinates: { lat: 50.0908, lng: 14.4022 },
-    wikipediaUrl: 'https://en.wikipedia.org/wiki/Rudolf_II,_Holy_Roman_Emperor',
-    pixelArtKey: 'curiosity',
-    xpReward: 15, difficulty: 3,
-  },
-  {
     name: 'Vyšehrad Cemetery',
     slug: 'vysehrad-cemetery',
     category: 'historical',
@@ -736,15 +727,6 @@ export const pragueLocations = [
     wikipediaUrl: 'https://en.wikipedia.org/wiki/Kampa_Island',
     pixelArtKey: 'river-island',
     xpReward: 20, difficulty: 1,
-  },
-  {
-    name: 'Vyšehrad Rock',
-    slug: 'vysehrad-rock',
-    category: 'natural',
-    coordinates: { lat: 50.0642, lng: 14.4194 },
-    wikipediaUrl: 'https://en.wikipedia.org/wiki/Vyšehrad',
-    pixelArtKey: 'cliff',
-    xpReward: 20, difficulty: 2,
   },
   {
     name: 'Lake Džbán',

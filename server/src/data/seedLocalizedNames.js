@@ -24,7 +24,6 @@ const names = {
   'strahov-monastery':     { cz: 'Strahovský klášter',                 zh: '斯特拉霍夫修道院' },
   'nove-mesto':            { cz: 'Nové Město',                         zh: '新城区' },
   'wenceslas-square':      { cz: 'Václavské náměstí',                  zh: '瓦茨拉夫广场' },
-  'rudolph-cabinet':       { cz: 'Rudolfinův kabinet kuriozit',        zh: '鲁道夫二世珍宝柜' },
   'vysehrad-cemetery':     { cz: 'Vyšehradský hřbitov',               zh: '维谢赫拉德公墓' },
   'klementinum':           { cz: 'Klementinum',                        zh: '克莱门特学院' },
   'st-georges-basilica':   { cz: 'Bazilika sv. Jiří',                  zh: '圣乔治圣殿' },
@@ -77,7 +76,6 @@ const names = {
   'kunraticky-forest':     { cz: 'Kunratický les',                     zh: '孔拉提茨基森林' },
   'vinohrady-rose-garden': { cz: 'Havlíčkovy sady (Vinohrady)',       zh: '哈夫利切克花园' },
   'kampa-island':          { cz: 'Kampa',                              zh: '坎帕岛' },
-  'vysehrad-rock':         { cz: 'Vyšehradská skála',                 zh: '维谢赫拉德岩石' },
 
   // ── FOOD & DRINK ─────────────────────────────────────────────────────────────
   'lokal-dlouha':          { cz: 'Lokál (Dlouhá)',                     zh: '洛卡尔餐厅（龙哈街）' },

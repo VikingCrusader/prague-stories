@@ -10,8 +10,7 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
     nameCz:       location.localizedNames?.cz     || '',
     nameZh:       location.localizedNames?.zh     || '',
     category:     location.category               || 'historical',
-    lat:          location.coordinates?.lat?.toString() || '',
-    lng:          location.coordinates?.lng?.toString() || '',
+    coords:       `${location.coordinates?.lat ?? ''},${location.coordinates?.lng ?? ''}`,
     wikipediaUrl: location.wikipediaUrl           || '',
     xpReward:     location.xpReward?.toString()   || '15',
     difficulty:   location.difficulty?.toString() || '1',
@@ -37,9 +36,10 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
 
   const submit = async e => {
     e.preventDefault();
-    const lat = parseFloat(form.lat);
-    const lng = parseFloat(form.lng);
-    if (isNaN(lat) || isNaN(lng)) { setError('Latitude and longitude must be valid numbers.'); return; }
+    const [rawLat, rawLng] = form.coords.split(',').map(s => s.trim());
+    const lat = parseFloat(rawLat);
+    const lng = parseFloat(rawLng);
+    if (isNaN(lat) || isNaN(lng)) { setError('Enter coordinates as "Latitude, Longitude" e.g. 50.0755, 14.4378'); return; }
 
     setError(''); setLoading(true);
     try {
@@ -100,15 +100,10 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
               </select>
             </div>
 
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
-              <div className="form-group">
-                <label className="form-label">Latitude</label>
-                <input className="px-input" name="lat" value={form.lat} onChange={handle} required />
-              </div>
-              <div className="form-group">
-                <label className="form-label">Longitude</label>
-                <input className="px-input" name="lng" value={form.lng} onChange={handle} required />
-              </div>
+            <div className="form-group">
+              <label className="form-label">Coordinates</label>
+              <input className="px-input" name="coords" value={form.coords} onChange={handle} required placeholder="50.0755, 14.4378" />
+              <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>Latitude, Longitude</span>
             </div>
 
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
