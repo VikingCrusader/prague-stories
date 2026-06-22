@@ -70,13 +70,13 @@ html[data-lang="zh"] .cat-badge,
 html[data-lang="zh"] .ach-badge__name,
 html[data-lang="zh"] .form-label,
 html[data-lang="zh"] .toast {
-  font-family: 'ArkPixel', 'Microsoft YaHei', 'ZCOOL QingKe HuangYou', 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'SimHei', sans-serif !important;
+  font-family: 'ArkPixel', 'PingFang SC', 'Hiragino Sans GB', '-apple-system', 'Microsoft YaHei', 'Noto Sans SC', 'SimHei', sans-serif !important;
   letter-spacing: 0 !important;
   text-transform: none !important;
 }
 
 html[data-lang="zh"] [style*="Press Start 2P"] {
-  font-family: 'ArkPixel', 'Microsoft YaHei', 'ZCOOL QingKe HuangYou', 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'SimHei', sans-serif !important;
+  font-family: 'ArkPixel', 'PingFang SC', 'Hiragino Sans GB', '-apple-system', 'Microsoft YaHei', 'Noto Sans SC', 'SimHei', sans-serif !important;
   letter-spacing: 0 !important;
 }
 

@@ -4,6 +4,16 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.1.11] — 2026-06-23
+
+**UI polish: Czech name caption on grid cards, Apple font fallback for mobile Chinese**
+
+### UI
+- Grid cards now show the Czech original name as a small caption below the EN/ZH display name (hidden when language is already Czech or card is locked)
+- Reordered zh font-family fallback stack: `ArkPixel → PingFang SC → Hiragino Sans GB → -apple-system → …` — Apple devices now get their native Chinese font immediately if the pixel font fails to load, without waiting for network fonts
+
+---
+
 ## [1.1.10] — 2026-06-23
 
 **Bug fix: ProximityPrompt "+XP" auto-dismiss**
