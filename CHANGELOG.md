@@ -4,6 +4,22 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.1.5] — 2026-06-22
+
+**Add 5 new preset locations (batch 8); map sidebar pixel art + View Detail**
+
+- Most Legií (historical, 20 XP) — Legion Bridge, opened June 14 1901; named for the Czechoslovak Legions
+- Libeňský most (historical, 25 XP) — 780 m, longest bridge in Prague; completed 1928, Art Deco lamp posts
+- Náměstí Hrdinů (historical, 15 XP) — Square of Heroes; site of the last public execution in Bohemia, September 6 1945
+- Náměstí I. P. Pavlova (entertainment, 15 XP) — busiest metro interchange in Prague (~118 k daily); named after Ivan Petrovich Pavlov
+- Hotel International Prague (historical, 30 XP) — 88 m Stalinist-Gothic tower, completed 1956; cultural monument since July 2000
+- All 5 have full EN/CZ/ZH descriptions, localizedNames, coordinates, Wikipedia links, and pixel art
+- Map sidebar now shows a full-width square pixel art banner (objectFit: contain) when a location is selected
+- Added "View Detail" button in map sidebar — navigates to `/explore` and opens the location's full detail modal
+- CORS allowlist expanded to include `localhost:5174` (Vite dev fallback port)
+
+---
+
 ## [1.1.4] — 2026-06-21
 
 **In-app Guide page**

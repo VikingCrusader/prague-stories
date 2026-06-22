@@ -175,7 +175,14 @@ const names = {
   'czech-national-bank':        { cz: 'Česká národní banka',                 zh: '捷克国家银行' },
   'palladium-prague':           { cz: 'Palladium Praha',                     zh: '布拉格帕拉迪乌姆' },
   'faculty-of-arts-uk':         { cz: 'Filozofická fakulta UK',              zh: '查理大学哲学系' },
-  'lehka-nejistota':            { cz: 'Lehká nejistota',                     zh: '轻微的不确定性' },
+  'lehka-nejistota': { cz: 'Lehká nejistota', zh: '轻微的不确定性' },
+  
+  // ── BATCH 8 ──────────────────────────────────────────────────────────────────
+  'most-legii':                 { cz: 'Most Legií',                          zh: '军团桥' },
+  'libensky-most':              { cz: 'Libeňský most',                       zh: '利贝涅桥' },
+  'namesti-hrdinu':             { cz: 'Náměstí Hrdinů',                      zh: '英雄广场' },
+  'namesti-ip-pavlova':         { cz: 'Náměstí I. P. Pavlova',               zh: '巴甫洛夫广场' },
+  'hotel-international-prague': { cz: 'Grand Hotel International Praha',     zh: '布拉格国际大饭店' },
 };
 
 async function seedLocalizedNames() {
