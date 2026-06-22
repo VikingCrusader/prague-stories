@@ -4,6 +4,34 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.1.6] — 2026-06-22
+
+**Batch 9 locations, localized names in grid & detail, Chinese font fallback**
+
+### New locations (8)
+- Můstek (historical, 15 XP) — Gothic drawbridge foundations preserved under metro A; hinge point between Old Town and Nové Město
+- Novomlýnská vodárenská věž (historical, 20 XP) — 16th-century Renaissance water tower; pumped river water to city fountains before modern plumbing
+- Šítkovská vodárenská věž (historical, 20 XP) — 15th-century twin tower; base Renaissance, crown Neo-Gothic after 1890 flood rebuild; now a riverside cultural café
+- National Library of the Czech Republic (cultural, 20 XP) — Klementinum Baroque Library Hall: vaulted gold-and-fresco room with a 17th-century astronomical globe; 6.5 M documents
+- Czech Post Building — Jindřišská (historical, 15 XP) — Neo-Baroque postal HQ beside a 15th-century Gothic bell tower that has rung over the same corner for six hundred years
+- Chodovská Fortress (hidden-gem, 25 XP) — 14th-century fortified manor marooned inside a 1970s housing estate; saved from demolition by resident activism
+- Národní třída (historical, 20 XP) — bronze memorial at no. 20 marks where riot police beat students on 17 Nov 1989, triggering the Velvet Revolution
+- Charles Square / Karlovo náměstí (historical, 20 XP) — largest square in Prague (80,000 m²); medieval relic showground; site of Prague's first defenestration (1419); Faust House at south end
+- All 8 have full EN/CZ/ZH descriptions, `localizedNames` (CZ + ZH), coordinates, Wikipedia links, and WebP pixel art
+
+### UI: localized names in grid view
+- `GET /api/locations` now returns `localizedNames` (was previously stripped); grid cards display the correct CZ/ZH name in non-English interfaces
+
+### UI: Czech original name subtitle
+- Location detail modal and map sidebar now show the Czech original name as a dimmed subtitle below the primary localized title when the active language is EN or ZH
+
+### Chinese font fallback
+- Microsoft YaHei promoted to secondary font (immediately after ArkPixel) across all ZH font stacks
+- Full system-font fallback chain: ArkPixel → Microsoft YaHei → ZCOOL QingKe HuangYou → Noto Sans SC → PingFang SC → Hiragino Sans GB → SimHei → sans-serif
+- Ensures Chinese characters render correctly even when ArkPixel and Google Fonts both fail to load
+
+---
+
 ## [1.1.5] — 2026-06-22
 
 **Add 5 new preset locations (batch 8); map sidebar pixel art + View Detail**
