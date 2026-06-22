@@ -49,12 +49,14 @@ export default function LocationCard({ location, onClick, distance }) {
         {!unlocked && <span className="loc-card__lock">🔒</span>}
       </div>
       <div className="loc-card__body">
-        <div className="loc-card__name">{unlocked ? name : '???'}</div>
-        {unlocked && lang !== 'cz' && location.localizedNames?.cz && (
-          <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 2, lineHeight: 1.3 }}>
-            {location.localizedNames.cz}
-          </div>
-        )}
+        <div>
+          <div className="loc-card__name">{unlocked ? name : '???'}</div>
+          {unlocked && lang !== 'cz' && location.localizedNames?.cz && (
+            <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 0.5, lineHeight: 1.0 }}>
+              {location.localizedNames.cz}
+            </div>
+          )}
+        </div>
         <span className={`cat-badge cat-badge--${category}`}>{category.replace('-', ' ')}</span>
         <div className="loc-card__footer">
           <div className="loc-card__xp">+{xpReward} XP</div>

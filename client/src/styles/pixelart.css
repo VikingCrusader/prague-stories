@@ -99,7 +99,9 @@
   font-size: 7.5px;
   color: var(--text-primary);
   line-height: 1.6;
-  min-height: 36px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .loc-card__footer {
   display: flex;
