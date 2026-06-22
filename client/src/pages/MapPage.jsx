@@ -181,7 +181,10 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
       </div>
 
       <div style={{ padding: 20 }}>
-        <h3 className="px-title" style={{ fontSize: 9, marginBottom: 12 }}>{getLocName(loc, lang)}</h3>
+        <h3 className="px-title" style={{ fontSize: 9, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 4 : 12 }}>{getLocName(loc, lang)}</h3>
+        {lang !== 'cz' && loc.localizedNames?.cz && (
+          <p style={{ fontFamily: "'Press Start 2P'", fontSize: 7, color: 'var(--text-muted)', marginBottom: 12 }}>{loc.localizedNames.cz}</p>
+        )}
         <span className={`cat-badge cat-badge--${loc.category}`}>{t(`cat.${loc.category}`)}</span>
         {loc.unlocked && <span style={{ marginLeft: 8, color: '#8eff8e', fontFamily: "'Press Start 2P'", fontSize: 6 }}>{t('common.visited')}</span>}
 
