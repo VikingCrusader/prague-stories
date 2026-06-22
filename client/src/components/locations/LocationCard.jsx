@@ -52,7 +52,7 @@ export default function LocationCard({ location, onClick, distance }) {
         <div>
           <div className="loc-card__name">{unlocked ? name : '???'}</div>
           {unlocked && lang !== 'cz' && location.localizedNames?.cz && (
-            <div style={{ fontSize: 10, color: 'var(--text-muted)', marginTop: 0.5, lineHeight: 1.0 }}>
+            <div className="loc-card__cz-name">
               {location.localizedNames.cz}
             </div>
           )}
