@@ -4,6 +4,28 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.1.9] — 2026-06-22
+
+**English name audit, pixel art for batches 14–15, code cleanup**
+
+### English name localisation (35 cards)
+- Audited all 173 preset `name` fields — the sole English display field (`getLocName` returns `name` for `lang='en'`; no `localizedNames.en` exists)
+- 35 cards had Czech names where English was expected; all corrected via targeted `$set` update (not `$setOnInsert`)
+- Rule applied: generic building/infrastructure terms translate (kostel → Church of…, most → Bridge, lávka → Footbridge, nádraží → Station, knihovna → Library, muzeum → Museum, nemocnice → Hospital, náměstí → Square, letohrádek → Summer Palace, zámek → Chateau, hřbitov → Cemetery, rokle → Gorge); proper place/person names stay Czech (Kačerov, Pařížská, Na Příkopě, Národní třída, Anděl, Karlín…)
+- `localizedNames.cz` set for every card whose `name` was changed, preserving Czech subtitles
+- `seedNewLocations.js` names synced to match DB (source-of-truth alignment)
+- Selected corrections: "kostel Sv. archanděla Michaela" → "Church of the Archangel Michael"; "Most Legií" → "Legion Bridge"; "Olšanské hřbitovy" → "Olšany Cemeteries"; "Místodržitelský letohrádek" → "Viceroy's Summer Palace"; "ČVUT" → "Czech Technical University in Prague"; and 30 more
+
+### Assets
+- 9 new WebP pixel art files added for batches 14–15 cards + Týn Church (converted from PNG at quality 90, originals removed): `kacerov`, `parizska`, `kostel-sv-krize`, `na-prikope`, `kostel-sv-mikulase-stare-mesto`, `jizni-pol-prahy`, `kostel-sv-jindricha`, `kostel-panny-marie-snezne`, `tyn-church`
+- Trailing-space filename `jizni-pol-prahy .webp` corrected to `jizni-pol-prahy.webp`
+
+### Code cleanup
+- Removed `server/src/data/migrateFoodCategory.js` (one-shot migration, already applied)
+- Removed `migrate:food` npm script from `package.json`
+
+---
+
 ## [1.1.8] — 2026-06-22
 
 **Batches 12 & 13 — 10 new locations, coordinate sync, WebP conversions**

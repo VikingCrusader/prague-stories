@@ -23,8 +23,8 @@ Unlock 165 real Prague landmarks, earn XP, collect achievements, and read trilin
 - Check-in success overlay: shows "CHECKED IN!", XP earned, and any unlocked achievements for 2.5 s before the modal auto-closes
 - Explore grid refreshes instantly after check-in without waiting for the modal to close
 - Explore grid sorts cards by proximity to the user's current GPS position (closest first), with live distance shown on each card ("340 m", "1.2 km")
-- 165 preset Prague locations across 5 categories (expanded through batch 13)
-- 117 Gemini-generated pixel art images — every original location card has a unique illustration, served as lossy WebP (quality 90)
+- 165 preset Prague locations across 5 categories (expanded through batch 15)
+- 126 Gemini-generated pixel art images — every original location card has a unique illustration, served as lossy WebP (quality 90)
 - Fully responsive mobile layout: two-row navbar, 2-column grid, bottom-sheet modals
 - Map sidebar: square pixel art banner + "View Detail" button that opens the full location modal on the Explore page
 
