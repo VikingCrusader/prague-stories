@@ -16,7 +16,11 @@ export default function LocationGrid({ locations, onCardClick }) {
     else if (cat !== 'all')     list = list.filter(l => l.category === cat);
     if (search.trim()) {
       const q = search.toLowerCase();
-      list = list.filter(l => l.name.toLowerCase().includes(q) || l.unlocked && l.slug.includes(q));
+      list = list.filter(l =>
+        l.name.toLowerCase().includes(q) ||
+        l.localizedNames?.cz?.toLowerCase().includes(q) ||
+        l.localizedNames?.zh?.includes(search.trim())
+      );
     }
     return list;
   }, [locations, cat, search]);
