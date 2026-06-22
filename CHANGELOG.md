@@ -4,6 +4,16 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.1.10] — 2026-06-23
+
+**Bug fix: ProximityPrompt "+XP" auto-dismiss**
+
+### Bug fix
+- Fixed `ProximityPrompt` check-in flow: `onCheckIn` (which calls `markCheckedIn` → `setDiscovery(null)`) was called immediately after the API response, dismissing the prompt before "+XP ★" could render for its 2.5-second window
+- Fix: `onCheckIn` is now deferred inside `setTimeout(..., 2500)` so `discovery` stays non-null while "+XP ★" is displayed; `markCheckedIn` naturally dismisses the prompt after the delay
+
+---
+
 ## [1.1.9] — 2026-06-22
 
 **English name audit, pixel art for batches 14–15, code cleanup**

@@ -20,8 +20,9 @@ export default function ProximityPrompt({ discovery, onDismiss, onCheckIn }) {
     try {
       const res = await checkinAPI.checkIn(location.slug, coords);
       setXpEarned(res.data.xpEarned);
-      onCheckIn(location.slug, res.data);
-      setTimeout(onDismiss, 2500);
+      setTimeout(() => {
+        onCheckIn(location.slug, res.data);
+      }, 2500);
     } catch (err) {
       setError(err.response?.data?.message || err.message || 'Check-in failed');
       setLoading(false);
