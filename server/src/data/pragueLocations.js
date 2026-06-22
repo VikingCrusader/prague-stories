@@ -372,6 +372,43 @@ export const pragueLocations = [
     xpReward: 20, difficulty: 2,
   },
 
+  {
+    name: 'Most Legií',
+    slug: 'most-legii',
+    category: 'historical',
+    coordinates: { lat: 50.0827, lng: 14.4105 },
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Legion_Bridge',
+    pixelArtKey: 'stone-bridge',
+    xpReward: 20, difficulty: 1,
+  },
+  {
+    name: 'Libeňský most',
+    slug: 'libensky-most',
+    category: 'historical',
+    coordinates: { lat: 50.1039, lng: 14.4519 },
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Libeň_Bridge',
+    pixelArtKey: 'arc-bridge',
+    xpReward: 25, difficulty: 2,
+  },
+  {
+    name: 'Náměstí Hrdinů',
+    slug: 'namesti-hrdinu',
+    category: 'historical',
+    coordinates: { lat: 50.0617, lng: 14.4325 },
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Náměstí_Hrdinů_(Praha)',
+    pixelArtKey: 'memorial-square',
+    xpReward: 15, difficulty: 2,
+  },
+  {
+    name: 'Hotel International Prague',
+    slug: 'hotel-international-prague',
+    category: 'historical',
+    coordinates: { lat: 50.1039, lng: 14.3922 },
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Grand_Hotel_International_Prague',
+    pixelArtKey: 'stalinist-hotel',
+    xpReward: 30, difficulty: 2,
+  },
+
   // ── CULTURAL (20) ────────────────────────────────────────────────────────────
   {
     name: 'National Museum',
@@ -1218,6 +1255,15 @@ export const pragueLocations = [
     coordinates: { lat: 50.0712, lng: 14.4034 },
     wikipediaUrl: 'https://en.wikipedia.org/wiki/Anděl_(Prague)',
     pixelArtKey: 'urban-hub',
+    xpReward: 15, difficulty: 1,
+  },
+  {
+    name: 'Náměstí I. P. Pavlova',
+    slug: 'namesti-ip-pavlova',
+    category: 'entertainment',
+    coordinates: { lat: 50.0769, lng: 14.4336 },
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/I._P._Pavlova_(Prague_Metro)',
+    pixelArtKey: 'urban-square',
     xpReward: 15, difficulty: 1,
   },
   {

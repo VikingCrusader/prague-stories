@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { locationAPI, checkinAPI } from '../services/api';
 import { useLang, useT } from '../context/LanguageContext';
 import { getLocName } from '../utils/locName';
@@ -7,6 +8,7 @@ import MapView from '../components/map/MapView';
 import { getArt } from '../utils/pixelArtMap';
 
 export default function MapPage() {
+  const navigate = useNavigate();
   const [locations, setLocations]       = useState([]);
   const [selectedSlug, setSelectedSlug] = useState(null);
   const [loading, setLoading]           = useState(true);
@@ -78,6 +80,7 @@ export default function MapPage() {
               slug={selectedSlug}
               onCheckIn={handleCheckIn}
               onUndo={handleUndo}
+              onViewDetail={(slug) => navigate('/explore', { state: { openSlug: slug } })}
             />
           </div>
         ) : (
@@ -109,17 +112,19 @@ function MapSidebarEmpty() {
   );
 }
 
-function SidebarDetail({ slug, onCheckIn, onUndo }) {
+function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
   const { lang } = useLang();
   const t = useT();
-  const [loc, setLoc]                   = useState(null);
-  const [loading, setLoading]           = useState(true);
+  const [loc, setLoc]                     = useState(null);
+  const [loading, setLoading]             = useState(true);
   const [actionLoading, setActionLoading] = useState(false);
-  const [checkInError, setCheckInError] = useState('');
+  const [checkInError, setCheckInError]   = useState('');
+  const [imgFailed, setImgFailed]         = useState(false);
 
   useEffect(() => {
     setLoading(true);
     setCheckInError('');
+    setImgFailed(false);
     locationAPI.getOne(slug)
       .then(res => setLoc(res.data))
       .finally(() => setLoading(false));
@@ -156,47 +161,69 @@ function SidebarDetail({ slug, onCheckIn, onUndo }) {
     } finally { setActionLoading(false); }
   };
 
+  const art = getArt(loc.pixelArtKey, loc.category);
+
   return (
-    <div style={{ padding: 20 }}>
-      <h3 className="px-title" style={{ fontSize: 9, marginBottom: 12 }}>{getLocName(loc, lang)}</h3>
-      <span className={`cat-badge cat-badge--${loc.category}`}>{t(`cat.${loc.category}`)}</span>
-      {loc.unlocked && <span style={{ marginLeft: 8, color: '#8eff8e', fontFamily: "'Press Start 2P'", fontSize: 6 }}>{t('common.visited')}</span>}
-
-      {desc ? (
-        <p className="detail-desc" style={{ marginTop: 14, marginBottom: 16 }}>{desc}</p>
-      ) : (
-        <p style={{ color: 'var(--text-muted)', fontSize: 15, marginTop: 14, marginBottom: 16 }}>{t('common.noDesc')}</p>
-      )}
-
-      <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-        {loc.wikipediaUrl && (
-          <a className="detail-wiki" href={loc.wikipediaUrl} target="_blank" rel="noopener noreferrer">
-            {t('common.wikipedia')}
-          </a>
-        )}
-        <a
-          className="detail-wiki"
-          href={`https://www.google.com/maps/dir/?api=1&destination=${loc.coordinates.lat},${loc.coordinates.lng}`}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          {t('common.googleMaps')}
-        </a>
-        <div style={{ display: 'flex', gap: 8, marginTop: 4 }}>
-          {loc.unlocked ? (
-            <button className="px-btn px-btn--danger px-btn--sm" onClick={doUndo} disabled={actionLoading}>
-              {actionLoading ? '...' : t('common.undo')}
-            </button>
-          ) : (
-            <button className="px-btn px-btn--gold" onClick={doCheckIn} disabled={actionLoading}>
-              {actionLoading ? '...' : `${t('common.checkIn')} (+${loc.xpReward} XP)`}
-            </button>
-          )}
-        </div>
-        {checkInError && (
-          <p style={{ color: '#ff6b6b', fontSize: 13, marginTop: 8 }}>{checkInError}</p>
+    <>
+      <div style={{ width: '100%', aspectRatio: '1', background: 'var(--bg-secondary)', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+        {loc.coverImage ? (
+          <img src={loc.coverImage} alt={getLocName(loc, lang)} style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block' }} />
+        ) : !imgFailed ? (
+          <img
+            src={`/pixel-art/${loc.slug}.webp`}
+            alt={getLocName(loc, lang)}
+            onError={() => setImgFailed(true)}
+            style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block' }}
+          />
+        ) : (
+          <span style={{ fontSize: '4rem' }}>{art}</span>
         )}
       </div>
-    </div>
+
+      <div style={{ padding: 20 }}>
+        <h3 className="px-title" style={{ fontSize: 9, marginBottom: 12 }}>{getLocName(loc, lang)}</h3>
+        <span className={`cat-badge cat-badge--${loc.category}`}>{t(`cat.${loc.category}`)}</span>
+        {loc.unlocked && <span style={{ marginLeft: 8, color: '#8eff8e', fontFamily: "'Press Start 2P'", fontSize: 6 }}>{t('common.visited')}</span>}
+
+        {desc ? (
+          <p className="detail-desc" style={{ marginTop: 14, marginBottom: 16 }}>{desc}</p>
+        ) : (
+          <p style={{ color: 'var(--text-muted)', fontSize: 15, marginTop: 14, marginBottom: 16 }}>{t('common.noDesc')}</p>
+        )}
+
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+          {loc.wikipediaUrl && (
+            <a className="detail-wiki" href={loc.wikipediaUrl} target="_blank" rel="noopener noreferrer">
+              {t('common.wikipedia')}
+            </a>
+          )}
+          <a
+            className="detail-wiki"
+            href={`https://www.google.com/maps/dir/?api=1&destination=${loc.coordinates.lat},${loc.coordinates.lng}`}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t('common.googleMaps')}
+          </a>
+          <div style={{ display: 'flex', gap: 8, marginTop: 4, flexWrap: 'wrap' }}>
+            {loc.unlocked ? (
+              <button className="px-btn px-btn--danger px-btn--sm" onClick={doUndo} disabled={actionLoading}>
+                {actionLoading ? '...' : t('common.undo')}
+              </button>
+            ) : (
+              <button className="px-btn px-btn--gold" onClick={doCheckIn} disabled={actionLoading}>
+                {actionLoading ? '...' : `${t('common.checkIn')} (+${loc.xpReward} XP)`}
+              </button>
+            )}
+            <button className="px-btn px-btn--dark" onClick={() => onViewDetail(loc.slug)}>
+              View Detail
+            </button>
+          </div>
+          {checkInError && (
+            <p style={{ color: '#ff6b6b', fontSize: 13, marginTop: 8 }}>{checkInError}</p>
+          )}
+        </div>
+      </div>
+    </>
   );
 }

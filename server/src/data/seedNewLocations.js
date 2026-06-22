@@ -59,6 +59,12 @@ const newLocations = [
   { name: 'Palladium Prague', slug: 'palladium-prague', category: 'entertainment', coordinates: { lat: 50.0892, lng: 14.4286 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Palladium_(Prague)', pixelArtKey: 'grand-shopping-mall', xpReward: 15, difficulty: 1 },
   { name: 'Charles University Faculty of Arts', slug: 'faculty-of-arts-uk', category: 'historical', coordinates: { lat: 50.0889, lng: 14.4158 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Faculty_of_Arts,_Charles_University', pixelArtKey: 'university-hall', xpReward: 30, difficulty: 3 },
   { name: 'Lehká nejistota', slug: 'lehka-nejistota', category: 'hidden-gem', coordinates: { lat: 50.0737, lng: 14.4163 }, wikipediaUrl: 'https://www.michaltrpak.com/en/portfolio/slight-uncertainty-exterior/', pixelArtKey: 'umbrella-man', xpReward: 20, difficulty: 2 },
+  // New batch 8
+  { name: 'Most Legií', slug: 'most-legii', category: 'historical', coordinates: { lat: 50.0827, lng: 14.4105 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Legion_Bridge', pixelArtKey: 'stone-bridge', xpReward: 20, difficulty: 1 },
+  { name: 'Libeňský most', slug: 'libensky-most', category: 'historical', coordinates: { lat: 50.1039, lng: 14.4519 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Libeň_Bridge', pixelArtKey: 'arc-bridge', xpReward: 25, difficulty: 2 },
+  { name: 'Náměstí Hrdinů', slug: 'namesti-hrdinu', category: 'historical', coordinates: { lat: 50.0617, lng: 14.4325 }, wikipediaUrl: 'https://cs.wikipedia.org/wiki/Náměstí_Hrdinů_(Praha)', pixelArtKey: 'memorial-square', xpReward: 15, difficulty: 2 },
+  { name: 'Náměstí I. P. Pavlova', slug: 'namesti-ip-pavlova', category: 'entertainment', coordinates: { lat: 50.0769, lng: 14.4336 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/I._P._Pavlova_(Prague_Metro)', pixelArtKey: 'urban-square', xpReward: 15, difficulty: 1 },
+  { name: 'Hotel International Prague', slug: 'hotel-international-prague', category: 'historical', coordinates: { lat: 50.1039, lng: 14.3922 }, wikipediaUrl: 'https://en.wikipedia.org/wiki/Grand_Hotel_International_Prague', pixelArtKey: 'stalinist-hotel', xpReward: 30, difficulty: 2 },
 ];
 
 async function run() {
