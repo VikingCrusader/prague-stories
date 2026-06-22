@@ -4,6 +4,49 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.1.8] — 2026-06-22
+
+**Batches 12 & 13 — 10 new locations, coordinate sync, WebP conversions**
+
+### New locations — batch 12 (5)
+- Florenc Bus Terminal (entertainment, 15 XP) — Prague's main long-distance bus hub; Communist-era workers' depot now handling FlixBus to Berlin, Vienna, Warsaw; hear a dozen languages in three minutes
+- Westfield Chodov (entertainment, 15 XP) — Central Europe's largest mall grafted onto a 1970s Communist housing estate; built directly above Chodov metro so you exit the train into H&M without stepping outside
+- Místodržitelský letohrádek (historical, 20 XP) — 14th-century royal hunting lodge in Stromovka, rebuilt Baroque for Rudolf II; converted into a public newspaper reading room in the 19th century — one of the world's earliest public leisure libraries
+- Zličín (hidden-gem, 20 XP) — westernmost metro terminus of Line B; home of the first post-Communist Czech IKEA (1996); medieval church of Sts. Peter and Paul predates the metro by 800 years
+- Sluneční náměstí (hidden-gem, 15 XP) — "Sunny Square" in Nové Butovice; rare Communist-era integrated transport+retail+residential unit planned as one; sits on the plateau above Prokop Valley
+
+### New locations — batch 13 (5)
+- Řepy (hidden-gem, 15 XP) — western Prague frontier split between 1970s panel estate and surviving Baroque village core; independent municipality until 1968 absorption into Greater Prague
+- Lhotka (hidden-gem, 15 XP) — Prague 12 district on the Vltava valley escarpment; name derived from medieval Czech for tax-exempt settler grants; southern edge drops into wild ravines most Praguers have never walked
+- V Tower (hidden-gem, 20 XP) — sleek glass skyscraper on the Pankrác plateau; upper floors command unobstructed sightlines across the entire Prague basin to the Bohemian hills 30 km distant
+- Kostel sv. Václava — Vršovice (historical, 20 XP) — Josef Gočár's 1930 Functionalist masterpiece; stark concrete tower, modernist nave; a church built in the visual language of industry dedicated to Bohemia's most politically charged saint
+- ČVUT (cultural, 20 XP) — Czech Technical University, founded 1707 as the Prague Engineering School — one of the world's first technical universities outside Paris; alumni include Emil Kolben, who studied under Edison and founded the ČKD industrial conglomerate
+- All 10 have full EN/CZ/ZH descriptions, `localizedNames` (CZ + ZH), coordinates, and Wikipedia links
+
+### Seed maintenance
+- `seedNewLocations.js` coordinates patched to match live DB values for all 56 active entries via one-shot `patchSeedCoords.js`
+- `exportLocations.js` added — queries live DB and regenerates `pragueLocations.js`, `seedDescriptionsStatic.js`, `seedLocalizedNames.js`; run via `npm run export:locations`
+
+### Assets
+- All new pixel art PNG/JPG files converted to WebP (quality 90) and originals removed
+- No placeholder copies created for new cards — emoji category fallback used until real art is provided
+
+---
+
+## [1.1.7] — 2026-06-22
+
+**Batch 11 locations (5)**
+
+### New locations (5)
+- Lidice (historical, 30 XP) — village destroyed by Nazis on 10 June 1942; global defiance renamed dozens of towns after it; today a rose garden and sculpture of 82 children mark the emptied ground
+- Vítězné náměstí (historical, 15 XP) — Prague's grandest unfinished square; Antonín Engel's 1920s plan for a monumental civic centrepiece was never completed; the promised central column never built
+- Zbraslavský zámek (cultural, 25 XP) — Baroque chateau on the ruins of a 1292 Cistercian monastery that held Přemyslid royal tombs; now home to the National Gallery's Asian art collection at the Berounka–Vltava confluence
+- Praha-Bubny Station (historical, 25 XP) — from this platform 50,000+ Prague Jews were deported 1941–1945; the station is being converted into the Station of Memory Holocaust memorial complex
+- Náměstí Republiky (historical, 20 XP) — threshold between medieval and modern Prague; the Art Nouveau Municipal House (1912, where Czechoslovak independence was declared) stands on the exact site of the former Royal Court
+- All 5 have full EN/CZ/ZH descriptions, `localizedNames` (CZ + ZH), coordinates, Wikipedia links, and WebP pixel art
+
+---
+
 ## [1.1.6] — 2026-06-22
 
 **Batch 9 locations, localized names in grid & detail, Chinese font fallback**
