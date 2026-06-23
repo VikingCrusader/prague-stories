@@ -1,15 +1,7 @@
 import { useState } from 'react';
-import { getArt } from '../../utils/pixelArtMap';
+import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap';
 import { useLang } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
-
-const CAT_COLORS = {
-  historical:    '#7a5210',
-  cultural:      '#5a1480',
-  natural:       '#145a20',
-  'hidden-gem':  '#0a3a7a',
-  entertainment: '#7a0a40',
-};
 
 function fmtDist(m) {
   return m < 1000 ? `${Math.round(m)} m` : `${(m / 1000).toFixed(1)} km`;
@@ -17,10 +9,11 @@ function fmtDist(m) {
 
 export default function LocationCard({ location, onClick, distance }) {
   const { lang } = useLang();
-  const { category, pixelArtKey, xpReward, unlocked, slug } = location;
+  const { labels = [], pixelArtKey, xpReward, unlocked, slug } = location;
   const name  = getLocName(location, lang);
-  const art   = getArt(pixelArtKey, category);
-  const color = CAT_COLORS[category] || '#333';
+  const art   = getArt(pixelArtKey, labels);
+  const color = LABEL_COLORS[labels[0]] || '#1a2a5a';
+  const firstLabel = labels[0];
   const [imgFailed, setImgFailed] = useState(false);
 
   return (
@@ -57,7 +50,17 @@ export default function LocationCard({ location, onClick, distance }) {
             </div>
           )}
         </div>
-        <span className={`cat-badge cat-badge--${category}`}>{category.replace('-', ' ')}</span>
+        {firstLabel && (
+          <div className="loc-card__labels">
+            <span
+              className="label-pill-sm"
+              title={LABEL_DEFINITIONS[firstLabel]?.en}
+              style={{ backgroundColor: LABEL_COLORS[firstLabel] || 'rgba(255,255,255,0.07)' }}
+            >
+              {LABEL_DEFINITIONS[firstLabel]?.[lang] || LABEL_DEFINITIONS[firstLabel]?.en || firstLabel}
+            </span>
+          </div>
+        )}
         <div className="loc-card__footer">
           <div className="loc-card__xp">+{xpReward} XP</div>
           {distance != null && <div className="loc-card__dist">{fmtDist(distance)}</div>}

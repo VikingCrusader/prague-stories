@@ -1,15 +1,16 @@
 import { useState } from 'react';
 import { locationAPI } from '../../services/api';
+import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
+import { useLang } from '../../context/LanguageContext';
 
-const CATEGORIES = ['historical', 'cultural', 'natural', 'hidden-gem', 'entertainment'];
 const MAX_BYTES = 1 * 1024 * 1024;
 
 export default function EditLocationForm({ location, onClose, onUpdated }) {
+  const { lang } = useLang();
   const [form, setForm] = useState({
     name:         location.name                   || '',
     nameCz:       location.localizedNames?.cz     || '',
     nameZh:       location.localizedNames?.zh     || '',
-    category:     location.category               || 'historical',
     coords:       `${location.coordinates?.lat ?? ''},${location.coordinates?.lng ?? ''}`,
     wikipediaUrl: location.wikipediaUrl           || '',
     xpReward:     location.xpReward?.toString()   || '15',
@@ -18,12 +19,23 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
     descCz:       location.description?.cz        || '',
     descZh:       location.description?.zh        || '',
   });
+  const [selectedLabels, setSelectedLabels] = useState(location.labels || []);
   const [coverImage, setCoverImage] = useState(location.coverImage || '');
   const [preview, setPreview]       = useState(location.coverImage || '');
   const [error, setError]           = useState('');
   const [loading, setLoading]       = useState(false);
 
   const handle = e => setForm(p => ({ ...p, [e.target.name]: e.target.value }));
+
+  const toggleLabel = lb => {
+    setSelectedLabels(prev =>
+      prev.includes(lb) ? prev.filter(l => l !== lb) : [...prev, lb]
+    );
+  };
+
+  const getLabelName = (key, def) => {
+    return lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en;
+  };
 
   const handleImage = e => {
     const file = e.target.files?.[0];
@@ -46,7 +58,7 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
       const res = await locationAPI.update(location.slug, {
         name:           form.name,
         localizedNames: { cz: form.nameCz, zh: form.nameZh },
-        category:       form.category,
+        labels:         selectedLabels,
         coordinates:    { lat, lng },
         wikipediaUrl:   form.wikipediaUrl,
         xpReward:       parseInt(form.xpReward, 10),
@@ -94,10 +106,19 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
             </div>
 
             <div className="form-group">
-              <label className="form-label">Category</label>
-              <select className="px-input" name="category" value={form.category} onChange={handle}>
-                {CATEGORIES.map(c => <option key={c} value={c}>{c}</option>)}
-              </select>
+              <label className="form-label">Labels</label>
+              <div className="label-filter__panel label-filter__panel--inline">
+                {Object.entries(LABEL_DEFINITIONS).map(([key, def]) => (
+                  <button
+                    key={key}
+                    type="button"
+                    className={`label-pill${selectedLabels.includes(key) ? ' label-pill--active' : ''}`}
+                    onClick={() => toggleLabel(key)}
+                  >
+                    {getLabelName(key, def)}
+                  </button>
+                ))}
+              </div>
             </div>
 
             <div className="form-group">

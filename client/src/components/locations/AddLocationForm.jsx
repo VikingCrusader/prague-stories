@@ -1,21 +1,29 @@
 import { useState } from 'react';
 import { locationAPI } from '../../services/api';
-import { useT } from '../../context/LanguageContext';
+import { useT, useLang } from '../../context/LanguageContext';
+import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
 
-const CATEGORIES = ['historical', 'cultural', 'natural', 'hidden-gem', 'entertainment'];
-const MAX_BYTES = 1 * 1024 * 1024; // 1 MB after base64 encoding
+const MAX_BYTES = 1 * 1024 * 1024;
 
 export default function AddLocationForm({ onClose, onAdded }) {
   const t = useT();
+  const { lang } = useLang();
   const [form, setForm] = useState({
-    name: '', category: 'historical', lat: '', lng: '', wikipediaUrl: '', description: '',
+    name: '', lat: '', lng: '', wikipediaUrl: '', description: '',
   });
+  const [selectedLabels, setSelectedLabels] = useState([]);
   const [coverImage, setCoverImage] = useState('');
   const [preview, setPreview]       = useState('');
   const [error, setError]           = useState('');
   const [loading, setLoading]       = useState(false);
 
   const handle = e => setForm(p => ({ ...p, [e.target.name]: e.target.value }));
+
+  const toggleLabel = lb => {
+    setSelectedLabels(prev =>
+      prev.includes(lb) ? prev.filter(l => l !== lb) : [...prev, lb]
+    );
+  };
 
   const handleImage = e => {
     const file = e.target.files?.[0];
@@ -45,6 +53,7 @@ export default function AddLocationForm({ onClose, onAdded }) {
     try {
       const res = await locationAPI.create({
         ...form,
+        labels: selectedLabels,
         coordinates: { lat, lng },
         coverImage,
       });
@@ -77,10 +86,19 @@ export default function AddLocationForm({ onClose, onAdded }) {
               <input className="px-input" name="name" value={form.name} onChange={handle} required maxLength={100} />
             </div>
             <div className="form-group">
-              <label className="form-label">{t('add.category')}</label>
-              <select className="px-input" name="category" value={form.category} onChange={handle}>
-                {CATEGORIES.map(c => <option key={c} value={c}>{t(`cat.${c}`)}</option>)}
-              </select>
+              <label className="form-label">{t('add.labels')}</label>
+              <div className="label-filter__panel label-filter__panel--inline">
+                {Object.entries(LABEL_DEFINITIONS).map(([key, def]) => (
+                  <button
+                    key={key}
+                    type="button"
+                    className={`label-pill${selectedLabels.includes(key) ? ' label-pill--active' : ''}`}
+                    onClick={() => toggleLabel(key)}
+                  >
+                    {lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en}
+                  </button>
+                ))}
+              </div>
             </div>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
               <div className="form-group">

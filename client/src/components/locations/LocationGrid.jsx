@@ -1,19 +1,51 @@
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect, useRef } from 'react';
 import LocationCard from './LocationCard';
-import { useT } from '../../context/LanguageContext';
-import { CATEGORY_LABELS } from '../../utils/pixelArtMap';
-
-const ALL_FILTERS = ['all', 'discovered', ...Object.keys(CATEGORY_LABELS)];
+import { useT, useLang } from '../../context/LanguageContext';
+import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
 
 export default function LocationGrid({ locations, onCardClick }) {
   const t = useT();
-  const [cat, setCat]       = useState('all');
-  const [search, setSearch] = useState('');
+  const { lang } = useLang();
+  const [discovered, setDiscovered] = useState(false);
+  const [activeLabels, setActiveLabels] = useState(new Set());
+  const [labelsOpen, setLabelsOpen]     = useState(false);
+  const [search, setSearch]             = useState('');
+  const panelRef = useRef(null);
+
+  useEffect(() => {
+    if (!labelsOpen) return;
+    const handler = e => {
+      if (panelRef.current && !panelRef.current.contains(e.target)) {
+        setLabelsOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', handler);
+    return () => document.removeEventListener('mousedown', handler);
+  }, [labelsOpen]);
+
+  const toggleLabel = lb => {
+    setActiveLabels(prev => {
+      const next = new Set(prev);
+      if (next.has(lb)) next.delete(lb); else next.add(lb);
+      return next;
+    });
+  };
+
+  const clearAll = () => {
+    setDiscovered(false);
+    setActiveLabels(new Set());
+    setSearch('');
+  };
 
   const filtered = useMemo(() => {
     let list = locations;
-    if (cat === 'discovered')   list = list.filter(l => l.unlocked);
-    else if (cat !== 'all')     list = list.filter(l => l.category === cat);
+    if (discovered) list = list.filter(l => l.unlocked);
+    if (activeLabels.size > 0) {
+      list = list.filter(l => {
+        const locationLabels = l.labels || [];
+        return Array.from(activeLabels).every(lb => locationLabels.includes(lb));
+      });
+    }
     if (search.trim()) {
       const q = search.toLowerCase();
       list = list.filter(l =>
@@ -23,7 +55,7 @@ export default function LocationGrid({ locations, onCardClick }) {
       );
     }
     return list;
-  }, [locations, cat, search]);
+  }, [locations, discovered, activeLabels, search]);
 
   const unlocked = locations.filter(l => l.unlocked).length;
   const total    = locations.filter(l => l.isPreset).length;
@@ -37,15 +69,47 @@ export default function LocationGrid({ locations, onCardClick }) {
           value={search}
           onChange={e => setSearch(e.target.value)}
         />
-        {ALL_FILTERS.map(c => (
+        <button
+          className={`filter-btn${!discovered && activeLabels.size === 0 ? ' filter-btn--active' : ''}`}
+          onClick={clearAll}
+        >
+          {t('grid.filterAll')}
+        </button>
+        <button
+          className={`filter-btn${discovered ? ' filter-btn--active' : ''}`}
+          onClick={() => setDiscovered(d => !d)}
+        >
+          {t('grid.filterDiscovered')}
+        </button>
+        <div className="label-filter" ref={panelRef}>
           <button
-            key={c}
-            className={`filter-btn${cat === c ? ' filter-btn--active' : ''}`}
-            onClick={() => setCat(c)}
+            className={`filter-btn${labelsOpen || activeLabels.size > 0 ? ' filter-btn--active' : ''}`}
+            onClick={() => setLabelsOpen(o => !o)}
           >
-            {c === 'all' ? t('grid.filterAll') : c === 'discovered' ? t('grid.filterDiscovered') : t(`cat.${c}`)}
+            {t('grid.filterLabels')}{activeLabels.size > 0 ? ` (${activeLabels.size})` : ' ▼'}
           </button>
-        ))}
+          {labelsOpen && (
+            <div className="label-filter__panel">
+              {Object.entries(LABEL_DEFINITIONS).map(([key, def]) => (
+                <button
+                  key={key}
+                  className={`label-pill${activeLabels.has(key) ? ' label-pill--active' : ''}`}
+                  onClick={() => toggleLabel(key)}
+                >
+                  {lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en}
+                </button>
+              ))}
+              {activeLabels.size > 0 && (
+                <button
+                  className="label-pill label-pill--clear"
+                  onClick={() => setActiveLabels(new Set())}
+                >
+                  ✕ {t('grid.clearLabels')}
+                </button>
+              )}
+            </div>
+          )}
+        </div>
       </div>
 
       <p className="explore-stats" style={{ marginBottom: 16 }}>

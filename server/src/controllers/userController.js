@@ -11,7 +11,7 @@ export async function getProgress(req, res, next) {
     const totalPreset = await Location.countDocuments({ isPreset: true });
 
     const allCheckins = await CheckIn.find({ user: req.user._id })
-      .populate('location', 'isPreset category slug')
+      .populate('location', 'isPreset labels slug')
       .lean();
 
     const presetCheckins = allCheckins.filter(c => c.location?.isPreset).length;
@@ -19,11 +19,12 @@ export async function getProgress(req, res, next) {
       ? Math.round((presetCheckins / totalPreset) * 100)
       : 0;
 
-    const categoryCount = {};
+    const labelCount = {};
     for (const ci of allCheckins) {
       if (!ci.location) continue;
-      const cat = ci.location.category;
-      categoryCount[cat] = (categoryCount[cat] || 0) + 1;
+      for (const lb of (ci.location.labels || [])) {
+        labelCount[lb] = (labelCount[lb] || 0) + 1;
+      }
     }
 
     const levelInfo = calculateLevel(req.user.totalXP);
@@ -33,7 +34,7 @@ export async function getProgress(req, res, next) {
       presetCheckins,
       totalPreset,
       unlockPercent,
-      categoryCount,
+      labelCount,
       levelInfo,
       totalXP: req.user.totalXP,
     });

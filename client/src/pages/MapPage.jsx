@@ -1,18 +1,23 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { locationAPI, checkinAPI } from '../services/api';
 import { useLang, useT } from '../context/LanguageContext';
 import { getLocName } from '../utils/locName';
 import { getCurrentPosition } from '../utils/geolocation';
 import MapView from '../components/map/MapView';
-import { getArt } from '../utils/pixelArtMap';
+import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../utils/pixelArtMap';
 
 export default function MapPage() {
+  const { lang } = useLang();
+  const t = useT();
   const navigate = useNavigate();
   const [locations, setLocations]       = useState([]);
   const [selectedSlug, setSelectedSlug] = useState(null);
   const [loading, setLoading]           = useState(true);
   const [toasts, setToasts]             = useState([]);
+  const [activeLabels, setActiveLabels] = useState(new Set());
+  const [labelsOpen, setLabelsOpen]     = useState(false);
+  const filterPanelRef = useRef(null);
 
   useEffect(() => {
     locationAPI.getAll()
@@ -26,6 +31,40 @@ export default function MapPage() {
     window.addEventListener('proximity-checkin', handler);
     return () => window.removeEventListener('proximity-checkin', handler);
   }, []);
+
+  useEffect(() => {
+    if (!labelsOpen) return;
+    const closeOnOutside = (e) => {
+      if (filterPanelRef.current && !filterPanelRef.current.contains(e.target)) {
+        setLabelsOpen(false);
+      }
+    };
+    document.addEventListener('mousedown', closeOnOutside);
+    return () => document.removeEventListener('mousedown', closeOnOutside);
+  }, [labelsOpen]);
+
+  const filteredLocations = useMemo(() => {
+    if (activeLabels.size === 0) return locations;
+    return locations.filter(l => {
+      const locationLabels = l.labels || [];
+      return Array.from(activeLabels).every(lb => locationLabels.includes(lb));
+    });
+  }, [locations, activeLabels]);
+
+  useEffect(() => {
+    if (!selectedSlug) return;
+    const stillVisible = filteredLocations.some(l => l.slug === selectedSlug);
+    if (!stillVisible) setSelectedSlug(null);
+  }, [filteredLocations, selectedSlug]);
+
+  const toggleLabel = (lb) => {
+    setActiveLabels(prev => {
+      const next = new Set(prev);
+      if (next.has(lb)) next.delete(lb);
+      else next.add(lb);
+      return next;
+    });
+  };
 
   const addToast = (message, type = 'success') => {
     const id = Date.now();
@@ -52,25 +91,57 @@ export default function MapPage() {
     </div>
   );
 
-  const selected = selectedSlug ? locations.find(l => l.slug === selectedSlug) : null;
+  const selected = selectedSlug ? filteredLocations.find(l => l.slug === selectedSlug) : null;
 
   return (
     <div className="map-page">
       <div className="map-container">
         <MapView
-          locations={locations}
+          locations={filteredLocations}
           selectedSlug={selectedSlug}
           onLocationClick={setSelectedSlug}
         />
       </div>
 
       <div className="map-sidebar">
+        <div style={{ padding: '12px 16px', borderBottom: '3px solid var(--border)' }}>
+          <div className="label-filter" ref={filterPanelRef}>
+            <button
+              className={`filter-btn${labelsOpen || activeLabels.size > 0 ? ' filter-btn--active' : ''}`}
+              onClick={() => setLabelsOpen(o => !o)}
+            >
+              {t('grid.filterLabels')}{activeLabels.size > 0 ? ` (${activeLabels.size})` : ' ▼'}
+            </button>
+            {labelsOpen && (
+              <div className="label-filter__panel label-filter__panel--inline">
+                {Object.entries(LABEL_DEFINITIONS).map(([key, def]) => (
+                  <button
+                    key={key}
+                    className={`label-pill${activeLabels.has(key) ? ' label-pill--active' : ''}`}
+                    onClick={() => toggleLabel(key)}
+                  >
+                    {lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en}
+                  </button>
+                ))}
+                {activeLabels.size > 0 && (
+                  <button
+                    className="label-pill label-pill--clear"
+                    onClick={() => setActiveLabels(new Set())}
+                  >
+                    ✕ {t('grid.clearLabels')}
+                  </button>
+                )}
+              </div>
+            )}
+          </div>
+          <p style={{ marginTop: 10, fontFamily: "'Press Start 2P'", fontSize: 7, color: 'var(--text-muted)' }}>
+            {t('grid.showing')} {filteredLocations.length}
+          </p>
+        </div>
+
         {selected ? (
           <div style={{ padding: 0 }}>
-            <div style={{ padding: '12px 16px', borderBottom: '3px solid var(--border)', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-              <span style={{ fontFamily: "'Press Start 2P'", fontSize: 7, color: 'var(--text-muted)' }}>
-                {getArt(selected.pixelArtKey, selected.category)} {selected.category}
-              </span>
+            <div style={{ padding: '12px 16px', borderBottom: '3px solid var(--border)', display: 'flex', justifyContent: 'flex-end' }}>
               <button
                 style={{ background: 'none', border: 'none', color: 'var(--text-muted)', fontSize: 18, cursor: 'pointer' }}
                 onClick={() => setSelectedSlug(null)}
@@ -161,7 +232,7 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
     } finally { setActionLoading(false); }
   };
 
-  const art = getArt(loc.pixelArtKey, loc.category);
+  const art = getArt(loc.pixelArtKey, loc.labels);
 
   return (
     <>
@@ -181,11 +252,22 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
       </div>
 
       <div style={{ padding: 20 }}>
-        <h3 className="px-title" style={{ fontSize: 9, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 4 : 12 }}>{getLocName(loc, lang)}</h3>
+        <h3 className="px-title" style={{ fontSize: 10, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 4 : 12 }}>{getLocName(loc, lang)}</h3>
         {lang !== 'cz' && loc.localizedNames?.cz && (
-          <p style={{ fontFamily: "'Press Start 2P'", fontSize: 7, color: 'var(--text-muted)', marginBottom: 12 }}>{loc.localizedNames.cz}</p>
+          <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: 'var(--text-muted)', marginBottom: 12 }}>{loc.localizedNames.cz}</p>
         )}
-        <span className={`cat-badge cat-badge--${loc.category}`}>{t(`cat.${loc.category}`)}</span>
+        <div className="loc-card__labels" style={{ marginBottom: 4 }}>
+          {(loc.labels || []).slice(0, 3).map((lb, i) => (
+            <span
+              key={lb}
+              className={`detail-label-pill${i === 0 ? ' detail-label-pill--superior' : ''}`}
+              title={LABEL_DEFINITIONS[lb]?.en}
+              style={{ backgroundColor: LABEL_COLORS[lb] || 'rgba(255,255,255,0.07)' }}
+            >
+              {LABEL_DEFINITIONS[lb]?.[lang] || LABEL_DEFINITIONS[lb]?.en || lb}
+            </span>
+          ))}
+        </div>
         {loc.unlocked && <span style={{ marginLeft: 8, color: '#8eff8e', fontFamily: "'Press Start 2P'", fontSize: 6 }}>{t('common.visited')}</span>}
 
         {desc ? (

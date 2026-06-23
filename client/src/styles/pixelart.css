@@ -89,7 +89,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -70%);
-  font-size: 1.8rem;
+  font-size: 2.5rem;
+  line-height: 1;
   filter: saturate(1) brightness(1);
   z-index: 2;
 }
@@ -126,21 +127,95 @@
   white-space: nowrap;
 }
 
-/* ── Category Badge ──────────────────────────────────────── */
-.cat-badge {
-  display: inline-block;
-  padding: 3px 7px;
+/* ── Label Pills ─────────────────────────────────────────── */
+.label-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 10px;
   font-family: 'Press Start 2P', monospace;
-  font-size: 6.5px;
-  text-transform: uppercase;
-  border: 2px solid;
-  letter-spacing: 0.5px;
+  font-size: 7px;
+  border: 2px solid var(--border);
+  background: var(--bg-surface);
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: border-color 0.1s, color 0.1s, background 0.1s;
+  white-space: nowrap;
 }
-.cat-badge--historical    { background: var(--cat-historical);    border-color: #c88a20; color: #ffe; }
-.cat-badge--cultural      { background: var(--cat-cultural);      border-color: #9b4abf; color: #ffe; }
-.cat-badge--natural       { background: var(--cat-natural);        border-color: #2a9b3a; color: #eff; }
-.cat-badge--hidden-gem    { background: var(--cat-hidden-gem);     border-color: #1a6abf; color: #eff; }
-.cat-badge--entertainment { background: var(--cat-entertainment);  border-color: #bf1a6a; color: #fff; }
+.label-pill:hover { border-color: var(--gold); color: var(--text-primary); }
+.label-pill--active { border-color: var(--gold); color: var(--gold); background: rgba(255,215,0,0.1); }
+.label-pill--clear { border-color: #444; color: #888; }
+.label-pill--clear:hover { border-color: #f66; color: #f66; background: rgba(255,80,80,0.08); }
+
+.detail-label-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 14px;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 12px;
+  line-height: 1.5;
+  font-weight: 700;
+  border: 2px solid #000;
+  color: var(--text-primary);
+  white-space: normal;
+}
+
+.detail-label-pill--superior {
+  border-color: var(--gold) !important;
+  box-shadow: 0 0 0 2px rgba(255,215,0,0.06) inset;
+}
+
+.label-pill-sm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30px;
+  margin: 6px 0 0;
+  padding: 0 12px;
+  font-size: 15px;
+  line-height: 1.35;
+  font-weight: 700;
+  border: 1px solid rgba(255,255,255,0.15);
+  background: rgba(255,255,255,0.07);
+  text-align: center;
+  white-space: normal;
+}
+
+.loc-card__labels {
+  display: flex;
+  width: 100%;
+  gap: 4px;
+  flex-wrap: wrap;
+}
+
+/* ── Label Filter ─────────────────────────────────────────── */
+.label-filter {
+  position: relative;
+}
+.label-filter__panel {
+  position: absolute;
+  top: calc(100% + 6px);
+  right: 0;
+  background: var(--bg-surface);
+  border: 3px solid var(--gold);
+  box-shadow: 4px 4px 0 #000;
+  padding: 10px;
+  z-index: 50;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  min-width: 300px;
+  max-width: 500px;
+}
+.label-filter__panel--inline {
+  position: static;
+  border: 2px solid var(--border);
+  box-shadow: none;
+  margin-top: 8px;
+  max-width: 100%;
+}
 
 /* ── Pixel Title ────────────────────────────────────────── */
 .px-title {
@@ -621,6 +696,7 @@
   html[data-lang="zh"] .navbar__link { font-size: 13px !important; }
   html[data-lang="zh"] .lang-tab     { font-size: 12px !important; }
   html[data-lang="zh"] .filter-btn   { font-size: 12px !important; }
+  html[data-lang="zh"] .label-pill   { font-size: 11px !important; }
   html[data-lang="zh"] .px-btn       { font-size: 12px !important; }
   html[data-lang="zh"] .px-btn--sm   { font-size: 11px !important; }
 }

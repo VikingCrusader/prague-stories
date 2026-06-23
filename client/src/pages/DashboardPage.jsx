@@ -1,13 +1,15 @@
 import { useState, useEffect } from 'react';
 import { userAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
-import { useT } from '../context/LanguageContext';
+import { useT, useLang } from '../context/LanguageContext';
+import { LABEL_DEFINITIONS } from '../utils/pixelArtMap';
 import ProgressRing from '../components/dashboard/ProgressRing';
 import AchievementBadge from '../components/dashboard/AchievementBadge';
 
 export default function DashboardPage() {
   const { user }         = useAuth();
   const t                = useT();
+  const { lang }         = useLang();
   const [progress, setProgress] = useState(null);
   const [achData, setAchData]   = useState(null);
   const [loading, setLoading]   = useState(true);
@@ -24,7 +26,7 @@ export default function DashboardPage() {
     </div>
   );
 
-  const { levelInfo, totalXP, totalCheckins, unlockPercent, categoryCount, totalPreset } = progress;
+  const { levelInfo, totalXP, totalCheckins, unlockPercent, labelCount, totalPreset } = progress;
   const { achievements, levels } = achData;
   const unlockedAch = achievements.filter(a => a.unlocked).length;
 
@@ -80,15 +82,23 @@ export default function DashboardPage() {
           </div>
         </div>
 
-        {/* Category Breakdown */}
+        {/* Label Breakdown */}
         <div className="stat-card">
           <div className="stat-card__label" style={{ marginBottom: 14 }}>{t('dashboard.categoryBreakdown')}</div>
-          {['historical', 'cultural', 'natural', 'hidden-gem', 'entertainment'].map(key => (
-            <div key={key} style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8, fontSize: 16 }}>
-              <span>{t(`cat.${key}`)}</span>
-              <span style={{ color: 'var(--gold)' }}>{categoryCount?.[key] || 0}</span>
-            </div>
-          ))}
+          {Object.entries(LABEL_DEFINITIONS)
+            .filter(([key]) => (labelCount?.[key] || 0) > 0)
+            .sort(([, a], [, b]) => (labelCount?.[b.en] || 0) - (labelCount?.[a.en] || 0))
+            .slice(0, 8)
+            .map(([key, def]) => (
+              <div key={key} style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8, fontSize: 16 }}>
+                <span>{def.emoji} {lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en}</span>
+                <span style={{ color: 'var(--gold)' }}>{labelCount?.[key] || 0}</span>
+              </div>
+            ))
+          }
+          {Object.values(labelCount || {}).every(v => v === 0) && (
+            <div style={{ color: 'var(--text-muted)', fontSize: 15 }}>—</div>
+          )}
         </div>
 
         {/* Stats row */}

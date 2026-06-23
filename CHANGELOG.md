@@ -4,6 +4,60 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.1.14] — 2026-06-23
+
+**Municipal label, label editor modal, default label fix, description save bug fix**
+
+### New feature
+- Added `Municipal` classification label (`🏢`, EN: Municipal / CZ: Obecní / ZH: 市政, color `#2a4a2a`) — covers town halls, administrative buildings, municipal infrastructure
+- Added `LabelEditorModal` — lightweight dedicated modal for editing a location's labels without opening the full edit form; accessible via "Edit Labels" in the location detail panel; shows all labels as toggleable pills with emoji
+
+### Bug fixes
+- Fixed description edits not persisting: `updateLocation` was assigning a plain object to a Mongoose subdocument without calling `markModified`, so Mongoose silently skipped the field on `save()`; now sets fields individually and calls `markModified('description')` and `markModified('localizedNames')`
+- Fixed `hidden-gem` pre-selected by default in Add Location and Edit Location forms — default is now an empty selection; server-side `createLocation` fallback also changed from `['hidden-gem']` to `[]`
+
+---
+
+## [1.1.13] — 2026-06-23
+
+**Batches 17–19 — 20 new locations + pixel art WebPs**
+
+### New locations (20)
+- Basilica of Saints Peter and Paul (historical, 25 XP) — Neo-Gothic twin-spire landmark atop Vyšehrad; houses the Přemyslid royal tombs
+- Storch House (historical, 15 XP) — Art Nouveau facade on Old Town Square with a massive St. Wenceslas fresco
+- Staré Purkrabství (historical, 20 XP) — medieval Old Burgrave's house within Vyšehrad fortress
+- Church of St. Pancras (historical, 20 XP) — Romanesque-origin parish church in Praha 4; one of Prague's oldest continuous parishes
+- Kavčí Hory Television Centre (cultural, 20 XP) — Czech Television's main broadcast campus on the Pankrác plateau, built 1975
+- Centrotex Building (hidden-gem, 15 XP) — Brutalist 1970s foreign-trade headquarters on Václavské náměstí
+- Radio Free Europe (cultural, 20 XP) — former Federal Parliament building repurposed as RFE/RL HQ; symbol of Cold War information warfare
+- Petřín Rose Garden (natural, 15 XP) — terraced hilltop garden with hundreds of rose varieties above Malá Strana
+- Church of St. Wenceslas, Smíchov (historical, 15 XP) — Neo-Baroque church completed 1881; interior mosaics by František Sequens
+- Strahov Monastery Church (historical, 20 XP) — Baroque Church of the Assumption of the Virgin Mary within Strahov complex; 17th-century organ
+- Jan Hus Monument (historical, 20 XP) — Ladislav Šaloun's 1915 Art Nouveau sculpture anchoring Old Town Square; unveiled on the 500th anniversary of Hus's execution
+- Marian Column (historical, 20 XP) — 17th-century Baroque plague column re-erected 2020; destroyed 1918, rebuilt from original fragments
+- Narrowest Street in Prague (hidden-gem, 20 XP) — Vinárna Čertovka alley off Mostecká; has its own pedestrian traffic light
+- Malá Strana Bridge Tower (historical, 20 XP) — paired Gothic towers guarding the Malá Strana end of Charles Bridge; older tower dates to 12th century
+- Palacký Bridge (historical, 20 XP) — 1878 neo-Gothic bridge; allegorical sandstone groups at each corner by Myslbek
+- Palacký Square (historical, 20 XP) — Nové Město square anchored by Myslbek's 1912 equestrian monument to František Palacký, father of Czech historiography
+- Faust House (hidden-gem, 25 XP) — Renaissance mansion tied to alchemical legend; reputedly home to Edward Kelley; Baroque remodel conceals earlier laboratory rooms
+- Štvanice Island (entertainment, 20 XP) — Vltava island with a storied 1930s ice-hockey arena; first artificial ice rink in Czechoslovakia
+- Prague Public Transport Museum (cultural, 15 XP) — historic tram depot in Střešovice with 50+ vehicles spanning 1886 to modern day
+- Garden on the Ramparts (natural, 20 XP) — Renaissance terraced garden below Prague Castle's southern walls; UNESCO World Heritage views
+- All 20 have full EN/CZ/ZH descriptions, `localizedNames` (CZ + ZH), coordinates, Wikipedia links, and WebP pixel art
+
+---
+
+## [1.1.12] — 2026-06-23
+
+**Grid card sizing and typography polish**
+
+### UI
+- Desktop grid cards enlarged: taller image area, bigger location name font, increased padding for a more spacious feel; mobile layout unchanged
+- Czech caption below location names is now bolder and larger
+- Chinese name display scaled up for better readability in ZH mode
+
+---
+
 ## [1.1.11] — 2026-06-23
 
 **UI polish: Czech name caption on grid cards, Apple font fallback for mobile Chinese**

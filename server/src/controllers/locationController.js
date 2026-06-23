@@ -4,15 +4,17 @@ import { generateLocationDescription } from '../services/claudeService.js';
 
 export async function getLocations(req, res, next) {
   try {
-    const { category } = req.query;
+    const { labels } = req.query;
     const filter = {};
-    if (category) filter.category = category;
+    if (labels) {
+      const labelArr = labels.split(',').map(l => l.trim()).filter(Boolean);
+      if (labelArr.length > 0) filter.labels = { $in: labelArr };
+    }
 
     const locations = await Location.find(filter)
       .select('-description')
       .lean();
 
-    // If user is authenticated, attach unlock status
     if (req.user) {
       const checkins = await CheckIn.find({ user: req.user._id }).select('location').lean();
       const unlockedSet = new Set(checkins.map(c => c.location.toString()));
@@ -33,15 +35,13 @@ export async function getLocation(req, res, next) {
     const location = await Location.findOne({ slug: req.params.slug });
     if (!location) return res.status(404).json({ message: 'Location not found' });
 
-    // Lazy-generate AI description only when English is missing
     if (!location.description.en) {
       try {
-        const desc = await generateLocationDescription(location.name, location.category);
+        const desc = await generateLocationDescription(location.name, location.labels?.[0] || 'architecture');
         location.description = desc;
         await location.save();
       } catch (aiErr) {
         console.error('Claude description generation failed:', aiErr.message);
-        // Proceed without description rather than blocking the response
       }
     }
 
@@ -74,27 +74,25 @@ export async function updateLocation(req, res, next) {
     const location = await Location.findOne({ slug: req.params.slug });
     if (!location) return res.status(404).json({ message: 'Location not found' });
 
-    const { name, localizedNames, category, coordinates, wikipediaUrl, description, coverImage, xpReward, difficulty } = req.body;
+    const { name, localizedNames, labels, coordinates, wikipediaUrl, description, coverImage, xpReward, difficulty } = req.body;
 
     if (name)                             location.name        = name;
-    if (category)                         location.category    = category;
+    if (labels)                           location.labels      = Array.isArray(labels) ? labels : [labels];
     if (coordinates?.lat != null && coordinates?.lng != null) location.coordinates = coordinates;
     if (wikipediaUrl !== undefined)        location.wikipediaUrl = wikipediaUrl;
     if (coverImage   !== undefined)        location.coverImage  = coverImage;
     if (xpReward     != null)             location.xpReward    = xpReward;
     if (difficulty   != null)             location.difficulty  = difficulty;
     if (localizedNames) {
-      location.localizedNames = {
-        cz: localizedNames.cz ?? location.localizedNames?.cz ?? '',
-        zh: localizedNames.zh ?? location.localizedNames?.zh ?? '',
-      };
+      if (localizedNames.cz !== undefined) location.localizedNames.cz = localizedNames.cz;
+      if (localizedNames.zh !== undefined) location.localizedNames.zh = localizedNames.zh;
+      location.markModified('localizedNames');
     }
     if (description) {
-      location.description = {
-        en: description.en ?? location.description.en,
-        cz: description.cz ?? location.description.cz,
-        zh: description.zh ?? location.description.zh,
-      };
+      if (description.en !== undefined) location.description.en = description.en;
+      if (description.cz !== undefined) location.description.cz = description.cz;
+      if (description.zh !== undefined) location.description.zh = description.zh;
+      location.markModified('description');
     }
 
     await location.save();
@@ -106,9 +104,9 @@ export async function updateLocation(req, res, next) {
 
 export async function createLocation(req, res, next) {
   try {
-    const { name, category, coordinates, wikipediaUrl, description, coverImage } = req.body;
-    if (!name || !category || !coordinates?.lat || !coordinates?.lng) {
-      return res.status(400).json({ message: 'name, category, and coordinates are required' });
+    const { name, labels, coordinates, wikipediaUrl, description, coverImage } = req.body;
+    if (!name || !coordinates?.lat || !coordinates?.lng) {
+      return res.status(400).json({ message: 'name and coordinates are required' });
     }
 
     if (coverImage && Buffer.byteLength(coverImage, 'utf8') > 2 * 1024 * 1024) {
@@ -124,7 +122,7 @@ export async function createLocation(req, res, next) {
     const location = await Location.create({
       name,
       slug,
-      category,
+      labels: Array.isArray(labels) ? labels : [],
       coordinates,
       wikipediaUrl: wikipediaUrl || '',
       description:  description ? { en: description, cz: '', zh: '' } : undefined,

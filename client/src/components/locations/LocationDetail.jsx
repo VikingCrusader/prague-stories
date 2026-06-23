@@ -2,16 +2,12 @@ import { useState, useEffect } from 'react';
 import { locationAPI, checkinAPI } from '../../services/api';
 import { useLang, useT } from '../../context/LanguageContext';
 import { useAuth } from '../../context/AuthContext';
-import { getArt } from '../../utils/pixelArtMap';
+import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap';
 import { getLocName } from '../../utils/locName';
 import { getCurrentPosition } from '../../utils/geolocation';
 import LanguageSwitcher from '../shared/LanguageSwitcher';
 import EditLocationForm from './EditLocationForm';
 
-const CAT_COLORS = {
-  historical: '#7a5210', cultural: '#5a1480', natural: '#145a20',
-  'hidden-gem': '#0a3a7a', entertainment: '#7a0a40',
-};
 
 export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpdate }) {
   const { lang } = useLang();
@@ -78,8 +74,8 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
 
   const description = loc?.description?.[lang] || loc?.description?.en || '';
   const locName = loc ? getLocName(loc, lang) : '';
-  const art = loc ? getArt(loc.pixelArtKey, loc.category) : '📍';
-  const bgColor = loc ? (CAT_COLORS[loc.category] || '#333') : '#333';
+  const art = loc ? getArt(loc.pixelArtKey, loc.labels) : '📍';
+  const bgColor = loc ? (LABEL_COLORS[loc.labels?.[0]] || '#1a2a5a') : '#1a2a5a';
 
   return (
     <div className="px-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
@@ -106,11 +102,21 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
                   style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                 />
                 <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '14px 18px', background: 'linear-gradient(transparent, rgba(0,0,0,0.85))' }}>
-                  <h2 className="px-title" style={{ fontSize: 11, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 2 : 6 }}>{locName}</h2>
+                  <h2 className="px-title" style={{ fontSize: 12, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 2 : 6 }}>{locName}</h2>
                   {lang !== 'cz' && loc.localizedNames?.cz && (
-                    <p style={{ fontFamily: "'Press Start 2P'", fontSize: 7, color: 'rgba(255,255,255,0.6)', marginBottom: 6 }}>{loc.localizedNames.cz}</p>
+                    <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: 'rgba(255,255,255,0.6)', marginBottom: 6 }}>{loc.localizedNames.cz}</p>
                   )}
-                  <span className={`cat-badge cat-badge--${loc.category}`}>{t(`cat.${loc.category}`)}</span>
+                  <div className="loc-card__labels" style={{ marginBottom: 4 }}>
+                    {(loc.labels || []).map((lb, i) => (
+                      <span
+                        key={lb}
+                        className={`detail-label-pill${i === 0 ? ' detail-label-pill--superior' : ''}`}
+                        style={{ backgroundColor: LABEL_COLORS[lb] || 'rgba(255,255,255,0.07)' }}
+                      >
+                        {LABEL_DEFINITIONS[lb]?.[lang] || LABEL_DEFINITIONS[lb]?.en || lb}
+                      </span>
+                    ))}
+                  </div>
                   {loc.unlocked && (
                     <span style={{ marginLeft: 8, fontSize: 7, color: '#8eff8e', fontFamily: "'Press Start 2P'" }}>
                       {t('common.visited')}
@@ -122,11 +128,21 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
               <div className="px-modal__header" style={{ background: bgColor }}>
                 <span className="detail-art">{art}</span>
                 <div style={{ flex: 1 }}>
-                  <h2 className="px-title" style={{ fontSize: 11, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 2 : 10 }}>{locName}</h2>
+                  <h2 className="px-title" style={{ fontSize: 12, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 2 : 10 }}>{locName}</h2>
                   {lang !== 'cz' && loc.localizedNames?.cz && (
-                    <p style={{ fontFamily: "'Press Start 2P'", fontSize: 7, color: 'rgba(255,255,255,0.6)', marginBottom: 10 }}>{loc.localizedNames.cz}</p>
+                    <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: 'rgba(255,255,255,0.6)', marginBottom: 10 }}>{loc.localizedNames.cz}</p>
                   )}
-                  <span className={`cat-badge cat-badge--${loc.category}`}>{t(`cat.${loc.category}`)}</span>
+                  <div className="loc-card__labels" style={{ marginBottom: 4 }}>
+                    {(loc.labels || []).map((lb, i) => (
+                      <span
+                        key={lb}
+                        className={`detail-label-pill${i === 0 ? ' detail-label-pill--superior' : ''}`}
+                        style={{ backgroundColor: LABEL_COLORS[lb] || 'rgba(255,255,255,0.07)' }}
+                      >
+                        {LABEL_DEFINITIONS[lb]?.[lang] || LABEL_DEFINITIONS[lb]?.en || lb}
+                      </span>
+                    ))}
+                  </div>
                   {loc.unlocked && (
                     <span style={{ marginLeft: 8, fontSize: 7, color: '#8eff8e', fontFamily: "'Press Start 2P'" }}>
                       {t('common.visited')}
