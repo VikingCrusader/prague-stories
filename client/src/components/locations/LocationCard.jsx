@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useRef, useLayoutEffect } from 'react';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap';
 import { useLang } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
@@ -15,6 +15,19 @@ export default function LocationCard({ location, onClick, distance }) {
   const color = LABEL_COLORS[labels[0]] || '#1a2a5a';
   const firstLabel = labels[0];
   const [imgFailed, setImgFailed] = useState(false);
+  const labelRef = useRef(null);
+
+  useLayoutEffect(() => {
+    const el = labelRef.current;
+    if (!el || lang === 'zh') return;
+    el.style.fontSize = '';
+    const maxSize = parseFloat(getComputedStyle(el).fontSize);
+    let size = maxSize;
+    while (el.scrollWidth > el.offsetWidth && size > 9) {
+      size -= 0.5;
+      el.style.fontSize = `${size}px`;
+    }
+  }, [firstLabel, lang]);
 
   return (
     <div
@@ -53,6 +66,7 @@ export default function LocationCard({ location, onClick, distance }) {
         {firstLabel && (
           <div className="loc-card__labels">
             <span
+              ref={labelRef}
               className="label-pill-sm"
               title={LABEL_DEFINITIONS[firstLabel]?.en}
               style={{ backgroundColor: LABEL_COLORS[firstLabel] || 'rgba(255,255,255,0.07)' }}

@@ -183,7 +183,6 @@
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 .loc-card__labels {
@@ -645,13 +644,6 @@
 .guide-faq__a { font-size: 17px; color: var(--text-muted); line-height: 1.5; }
 
 /* ── Responsive ───────────────────────────────────────────── */
-.detail-labels--mobile { display: none; }
-
-@media (max-width: 600px) {
-  .detail-labels--desktop { display: none !important; }
-  .detail-labels--mobile  { display: flex; }
-}
-
 @media (max-width: 900px) {
   .map-page { flex-direction: column; }
   .map-container { flex: none; height: 52vh; min-height: 260px; }
