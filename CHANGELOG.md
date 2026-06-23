@@ -4,6 +4,21 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.1.15] — 2026-06-23
+
+**Mobile label fix, grid sizing, and typography tweaks**
+
+### UI
+- Detail modal labels on mobile: hidden from image header, shown below Wikipedia/Google Maps links instead; desktop layout unchanged
+- `label-pill-sm` (grid card superior label): forced single line (`white-space: nowrap`, `overflow: hidden`, `text-overflow: ellipsis`); `min-width: 0` added to `loc-card__body` and `loc-card__labels` to prevent flex overflow
+- EN/CZ grid card superior label: font size 15px → 18px, weight 700 → 500
+- Grid card min-width: 200px → 230px (all languages)
+- `loc-card__cz-name` now explicitly uses ArkPixel font so EN mode matches ZH rendering
+- Detail modal title: 12px → 14px
+- `detail-label-pill`: base font 12px → 9px; ZH override keeps 13px
+
+---
+
 ## [1.1.14] — 2026-06-23
 
 **Municipal label, label editor modal, default label fix, description save bug fix**

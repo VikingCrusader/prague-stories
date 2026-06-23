@@ -106,7 +106,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
                   {lang !== 'cz' && loc.localizedNames?.cz && (
                     <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: 'rgba(255,255,255,0.6)', marginBottom: 6 }}>{loc.localizedNames.cz}</p>
                   )}
-                  <div className="loc-card__labels" style={{ marginBottom: 4 }}>
+                  <div className="loc-card__labels detail-labels--desktop" style={{ marginBottom: 4 }}>
                     {(loc.labels || []).map((lb, i) => (
                       <span
                         key={lb}
@@ -132,7 +132,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
                   {lang !== 'cz' && loc.localizedNames?.cz && (
                     <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: 'rgba(255,255,255,0.6)', marginBottom: 10 }}>{loc.localizedNames.cz}</p>
                   )}
-                  <div className="loc-card__labels" style={{ marginBottom: 4 }}>
+                  <div className="loc-card__labels detail-labels--desktop" style={{ marginBottom: 4 }}>
                     {(loc.labels || []).map((lb, i) => (
                       <span
                         key={lb}
@@ -221,6 +221,19 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
                   )}
                 </div>
               </div>
+              {(loc.labels || []).length > 0 && (
+                <div className="loc-card__labels detail-labels--mobile" style={{ marginTop: 12 }}>
+                  {(loc.labels || []).map((lb, i) => (
+                    <span
+                      key={lb}
+                      className={`detail-label-pill${i === 0 ? ' detail-label-pill--superior' : ''}`}
+                      style={{ backgroundColor: LABEL_COLORS[lb] || 'rgba(255,255,255,0.07)' }}
+                    >
+                      {LABEL_DEFINITIONS[lb]?.[lang] || LABEL_DEFINITIONS[lb]?.en || lb}
+                    </span>
+                  ))}
+                </div>
+              )}
               {actionLoading && !checkInResult && (
                 <p style={{ fontFamily: "'Press Start 2P'", fontSize: 7, color: 'var(--text-muted)', marginTop: 10 }}>
                   Locating...
