@@ -105,6 +105,7 @@
   text-overflow: ellipsis;
 }
 .loc-card__cz-name {
+  font-family: 'ArkPixel', monospace;
   font-size: 13px;
   font-weight: 600;
   color: var(--text-muted);
@@ -153,7 +154,7 @@
   justify-content: center;
   padding: 8px 14px;
   font-family: 'Press Start 2P', monospace;
-  font-size: 12px;
+  font-size: 9px;
   line-height: 1.5;
   font-weight: 700;
   border: 2px solid #000;
@@ -442,7 +443,7 @@
 
 .location-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   gap: 16px;
 }
 

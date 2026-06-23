@@ -102,7 +102,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
                   style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                 />
                 <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '14px 18px', background: 'linear-gradient(transparent, rgba(0,0,0,0.85))' }}>
-                  <h2 className="px-title" style={{ fontSize: 12, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 2 : 6 }}>{locName}</h2>
+                  <h2 className="px-title" style={{ fontSize: 14, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 2 : 6 }}>{locName}</h2>
                   {lang !== 'cz' && loc.localizedNames?.cz && (
                     <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: 'rgba(255,255,255,0.6)', marginBottom: 6 }}>{loc.localizedNames.cz}</p>
                   )}
@@ -128,7 +128,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
               <div className="px-modal__header" style={{ background: bgColor }}>
                 <span className="detail-art">{art}</span>
                 <div style={{ flex: 1 }}>
-                  <h2 className="px-title" style={{ fontSize: 12, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 2 : 10 }}>{locName}</h2>
+                  <h2 className="px-title" style={{ fontSize: 14, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 2 : 10 }}>{locName}</h2>
                   {lang !== 'cz' && loc.localizedNames?.cz && (
                     <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: 'rgba(255,255,255,0.6)', marginBottom: 10 }}>{loc.localizedNames.cz}</p>
                   )}

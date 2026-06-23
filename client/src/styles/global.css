@@ -91,7 +91,10 @@ html[data-lang="zh"] .filter-btn { font-size: 14px !important; }
 html[data-lang="zh"] .stat-card__label { font-size: 14px !important; }
 html[data-lang="zh"] .loc-card__name { font-size: 16px !important; }
 html[data-lang="zh"] .label-pill { font-size: 13px !important; }
+html[data-lang="zh"] .detail-label-pill { font-size: 13px !important; font-weight: 700; }
 html[data-lang="zh"] .ach-badge__name { font-size: 13px !important; }
 html[data-lang="zh"] .form-label { font-size: 14px !important; }
 html[data-lang="zh"] .toast { font-size: 14px !important; }
 html[data-lang="zh"] [style*="Press Start 2P"] { font-size: 14px !important; }
+
+html:not([data-lang="zh"]) .label-pill-sm { font-size: 18px; font-weight: 500; }
