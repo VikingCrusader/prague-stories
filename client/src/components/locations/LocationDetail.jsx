@@ -151,7 +151,11 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
               )}
 
               {description ? (
-                <p className="detail-desc" style={{ marginBottom: 20 }}>{description}</p>
+                <div style={{ marginBottom: 20 }}>
+                  {description.split('\n').filter(l => l.trim()).map((para, i) => (
+                    <p key={i} className="detail-desc" style={{ marginBottom: 10 }}>{para}</p>
+                  ))}
+                </div>
               ) : (
                 <p style={{ color: 'var(--text-muted)', fontSize: 16, marginBottom: 20 }}>
                   {t('common.noDesc')}

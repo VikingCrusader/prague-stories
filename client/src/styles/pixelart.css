@@ -673,6 +673,10 @@
   /* Explore */
   .explore-page { padding: 12px 14px; }
   .filter-btn { font-size: 6px; padding: 5px 8px; }
+  .filter-bar__search { width: 100%; min-width: unset; }
+  .filter-bar > .filter-btn,
+  .filter-bar > .label-filter { flex: 1; min-width: 0; }
+  .filter-bar > .label-filter > .filter-btn { width: 100%; }
   .location-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
   .loc-card__name { font-size: 7.5px; }
   .loc-card__cz-name { font-size: 10px; }

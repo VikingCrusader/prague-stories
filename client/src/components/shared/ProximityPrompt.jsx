@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { checkinAPI } from '../../services/api';
 import { useLang, useT } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
@@ -9,6 +9,13 @@ export default function ProximityPrompt({ discovery, onDismiss, onCheckIn }) {
   const [loading, setLoading]   = useState(false);
   const [error, setError]       = useState('');
   const [xpEarned, setXpEarned] = useState(null);
+
+  // Reset state whenever a different location's discovery arrives
+  useEffect(() => {
+    setXpEarned(null);
+    setError('');
+    setLoading(false);
+  }, [discovery?.location?.slug]);
 
   if (!discovery) return null;
 

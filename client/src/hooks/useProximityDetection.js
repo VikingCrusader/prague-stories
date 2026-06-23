@@ -54,7 +54,9 @@ export function useProximityDetection(enabled) {
     locationsRef.current = locationsRef.current.map(l =>
       l.slug === slug ? { ...l, unlocked: true } : l
     );
-    setDiscovery(null);
+    // Only clear discovery if it's still for this slug — a new location may
+    // have already been detected while the 2.5s XP display was running
+    setDiscovery(prev => (prev?.location?.slug === slug ? null : prev));
   };
 
   return { discovery, dismiss, markCheckedIn };

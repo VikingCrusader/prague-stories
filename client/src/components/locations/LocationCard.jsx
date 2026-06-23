@@ -56,7 +56,9 @@ export default function LocationCard({ location, onClick, distance }) {
       </div>
       <div className="loc-card__body">
         <div>
-          <div className="loc-card__name">{unlocked ? name : '???'}</div>
+          <div className="loc-card__name" style={!unlocked ? { textAlign: 'center' } : undefined}>
+            {unlocked ? name : '???'}
+          </div>
           {unlocked && lang !== 'cz' && location.localizedNames?.cz && (
             <div className="loc-card__cz-name">
               {location.localizedNames.cz}
@@ -66,12 +68,14 @@ export default function LocationCard({ location, onClick, distance }) {
         {firstLabel && (
           <div className="loc-card__labels">
             <span
-              ref={labelRef}
+              ref={unlocked ? labelRef : null}
               className="label-pill-sm"
-              title={LABEL_DEFINITIONS[firstLabel]?.en}
-              style={{ backgroundColor: LABEL_COLORS[firstLabel] || 'rgba(255,255,255,0.07)' }}
+              title={unlocked ? LABEL_DEFINITIONS[firstLabel]?.en : undefined}
+              style={{ backgroundColor: unlocked ? (LABEL_COLORS[firstLabel] || 'rgba(255,255,255,0.07)') : 'rgba(255,255,255,0.05)' }}
             >
-              {LABEL_DEFINITIONS[firstLabel]?.[lang] || LABEL_DEFINITIONS[firstLabel]?.en || firstLabel}
+              {unlocked
+                ? (LABEL_DEFINITIONS[firstLabel]?.[lang] || LABEL_DEFINITIONS[firstLabel]?.en || firstLabel)
+                : '???'}
             </span>
           </div>
         )}
