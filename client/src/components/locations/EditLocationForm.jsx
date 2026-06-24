@@ -27,6 +27,41 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
 
   const handle = e => setForm(p => ({ ...p, [e.target.name]: e.target.value }));
 
+  function segmentDesc(text, lang) {
+    if (!text || text.includes('\n\n')) return text;
+    const keyword = lang === 'en' ? 'Unlock' : lang === 'cz' ? 'Odemkni' : '解锁';
+    const unlockIdx = text.indexOf(keyword);
+    if (unlockIdx === -1) return text;
+    const before = text.substring(0, unlockIdx);
+    const para3 = text.substring(unlockIdx).trim();
+    const ends = [];
+    if (lang === 'zh') {
+      const re = /[。！？]/g; let m;
+      while ((m = re.exec(before)) !== null) ends.push(m.index + 1);
+    } else {
+      const re = /[.!?]\s+/g; let m;
+      while ((m = re.exec(before)) !== null) ends.push(m.index + m[0].length);
+    }
+    if (ends.length < 2) return `${before.trim()}\n\n${para3}`;
+    const mid = before.length / 2;
+    const splitAt = ends.reduce((best, idx) =>
+      Math.abs(idx - mid) < Math.abs(best - mid) ? idx : best, ends[0]);
+    const para1 = before.substring(0, splitAt).trim();
+    const para2 = before.substring(splitAt).trim();
+    return para2 ? `${para1}\n\n${para2}\n\n${para3}` : `${para1}\n\n${para3}`;
+  }
+
+  const handleDescPaste = (fieldName, lang) => e => {
+    const pasted = e.clipboardData.getData('text');
+    if (!pasted.includes('\n\n')) {
+      const segmented = segmentDesc(pasted, lang);
+      if (segmented !== pasted) {
+        e.preventDefault();
+        setForm(p => ({ ...p, [fieldName]: segmented }));
+      }
+    }
+  };
+
   const toggleLabel = lb => {
     setSelectedLabels(prev =>
       prev.includes(lb) ? prev.filter(l => l !== lb) : [...prev, lb]
@@ -151,15 +186,15 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
 
             <div className="form-group">
               <label className="form-label">Description (EN)</label>
-              <textarea className="px-input" name="descEn" value={form.descEn} onChange={handle} rows={3} style={{ resize: 'vertical', minHeight: 72 }} />
+              <textarea className="px-input" name="descEn" value={form.descEn} onChange={handle} onPaste={handleDescPaste('descEn', 'en')} rows={3} style={{ resize: 'vertical', minHeight: 72 }} />
             </div>
             <div className="form-group">
               <label className="form-label">Description (CZ)</label>
-              <textarea className="px-input" name="descCz" value={form.descCz} onChange={handle} rows={3} style={{ resize: 'vertical', minHeight: 72 }} />
+              <textarea className="px-input" name="descCz" value={form.descCz} onChange={handle} onPaste={handleDescPaste('descCz', 'cz')} rows={3} style={{ resize: 'vertical', minHeight: 72 }} />
             </div>
             <div className="form-group">
               <label className="form-label">Description (ZH)</label>
-              <textarea className="px-input" name="descZh" value={form.descZh} onChange={handle} rows={3} style={{ resize: 'vertical', minHeight: 72 }} />
+              <textarea className="px-input" name="descZh" value={form.descZh} onChange={handle} onPaste={handleDescPaste('descZh', 'zh')} rows={3} style={{ resize: 'vertical', minHeight: 72 }} />
             </div>
 
             <div className="form-group">

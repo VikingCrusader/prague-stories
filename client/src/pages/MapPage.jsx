@@ -271,7 +271,11 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
         {loc.unlocked && <span style={{ marginLeft: 8, color: '#8eff8e', fontFamily: "'Press Start 2P'", fontSize: 6 }}>{t('common.visited')}</span>}
 
         {desc ? (
-          <p className="detail-desc" style={{ marginTop: 14, marginBottom: 16 }}>{desc}</p>
+          <div style={{ marginTop: 14, marginBottom: 16 }}>
+            {desc.split('\n').filter(l => l.trim()).map((para, i) => (
+              <p key={i} className="detail-desc" style={{ marginBottom: 10 }}>{para}</p>
+            ))}
+          </div>
         ) : (
           <p style={{ color: 'var(--text-muted)', fontSize: 15, marginTop: 14, marginBottom: 16 }}>{t('common.noDesc')}</p>
         )}
