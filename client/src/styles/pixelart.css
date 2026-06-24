@@ -670,8 +670,9 @@
     justify-content: center;
   }
   .navbar__link { font-size: 6px; padding: 5px 8px; }
-  .navbar__user { font-size: 11px; white-space: nowrap; }
-  .lang-tab { padding: 4px 9px; font-size: 5.5px; }
+  .navbar__user { display: none; }
+  .lang-tabs { margin-bottom: 0; }
+  .lang-tab { padding: 7px 9px; font-size: 5.5px; }
 
   /* Explore */
   .explore-page { padding: 12px 14px; }
