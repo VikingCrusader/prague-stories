@@ -679,7 +679,7 @@
   .explore-header__add { display: none; }
   .filter-btn { font-size: 6px; padding: 5px 8px; }
   .filter-bar { flex-direction: column; flex-wrap: nowrap; align-items: stretch; }
-  .filter-bar__top { display: flex; gap: 8px; align-items: center; }
+  .filter-bar__top { display: flex; gap: 8px; align-items: stretch; }
   .filter-bar__bottom { display: flex; gap: 8px; }
   .filter-bar__add-btn { display: inline-flex; padding: 5px 10px; font-size: 6px; }
   .filter-bar__search { min-width: 0; }
