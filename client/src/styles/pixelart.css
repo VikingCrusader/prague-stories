@@ -682,7 +682,7 @@
   .filter-bar__top { display: flex; gap: 8px; align-items: center; }
   .filter-bar__bottom { display: flex; gap: 8px; }
   .filter-bar__add-btn { display: inline-flex; padding: 5px 10px; font-size: 6px; }
-  .filter-bar__search { min-width: unset; }
+  .filter-bar__search { min-width: 0; }
   .filter-bar__bottom > .filter-btn,
   .filter-bar__bottom > .label-filter { flex: 1; min-width: 0; }
   .filter-bar__bottom > .label-filter > .filter-btn { width: 100%; }
@@ -716,4 +716,5 @@
   html[data-lang="zh"] .label-pill   { font-size: 11px !important; }
   html[data-lang="zh"] .px-btn       { font-size: 12px !important; }
   html[data-lang="zh"] .px-btn--sm   { font-size: 11px !important; }
+  html[data-lang="zh"] .filter-bar__add-btn { font-size: 9px !important; }
 }
