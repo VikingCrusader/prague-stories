@@ -2,26 +2,39 @@ import { useState, useMemo, useEffect, useRef } from 'react';
 import LocationCard from './LocationCard';
 import { useT, useLang } from '../../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
+import { RARITY_COLOR, RARITY_LABEL } from '../../utils/rarity';
+
+const RARITIES = ['common', 'rare', 'epic', 'legend'];
 
 export default function LocationGrid({ locations, onCardClick, onAddClick }) {
   const t = useT();
   const { lang } = useLang();
-  const [discovered, setDiscovered] = useState(false);
-  const [activeLabels, setActiveLabels] = useState(new Set());
-  const [labelsOpen, setLabelsOpen]     = useState(false);
-  const [search, setSearch]             = useState('');
-  const panelRef = useRef(null);
+  const [discovered, setDiscovered]         = useState(false);
+  const [activeLabels, setActiveLabels]     = useState(new Set());
+  const [activeRarities, setActiveRarities] = useState(new Set());
+  const [labelsOpen, setLabelsOpen]         = useState(false);
+  const [raritiesOpen, setRaritiesOpen]     = useState(false);
+  const [search, setSearch]                 = useState('');
+  const labelPanelRef  = useRef(null);
+  const rarityPanelRef = useRef(null);
 
   useEffect(() => {
     if (!labelsOpen) return;
     const handler = e => {
-      if (panelRef.current && !panelRef.current.contains(e.target)) {
-        setLabelsOpen(false);
-      }
+      if (labelPanelRef.current && !labelPanelRef.current.contains(e.target)) setLabelsOpen(false);
     };
     document.addEventListener('mousedown', handler);
     return () => document.removeEventListener('mousedown', handler);
   }, [labelsOpen]);
+
+  useEffect(() => {
+    if (!raritiesOpen) return;
+    const handler = e => {
+      if (rarityPanelRef.current && !rarityPanelRef.current.contains(e.target)) setRaritiesOpen(false);
+    };
+    document.addEventListener('mousedown', handler);
+    return () => document.removeEventListener('mousedown', handler);
+  }, [raritiesOpen]);
 
   const toggleLabel = lb => {
     setActiveLabels(prev => {
@@ -31,9 +44,18 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
     });
   };
 
+  const toggleRarity = r => {
+    setActiveRarities(prev => {
+      const next = new Set(prev);
+      if (next.has(r)) next.delete(r); else next.add(r);
+      return next;
+    });
+  };
+
   const clearAll = () => {
     setDiscovered(false);
     setActiveLabels(new Set());
+    setActiveRarities(new Set());
     setSearch('');
   };
 
@@ -41,10 +63,12 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
     let list = locations;
     if (discovered) list = list.filter(l => l.unlocked);
     if (activeLabels.size > 0) {
-      list = list.filter(l => {
-        const locationLabels = l.labels || [];
-        return Array.from(activeLabels).every(lb => locationLabels.includes(lb));
-      });
+      list = list.filter(l =>
+        Array.from(activeLabels).every(lb => (l.labels || []).includes(lb))
+      );
+    }
+    if (activeRarities.size > 0) {
+      list = list.filter(l => activeRarities.has(l.rarity ?? 'common'));
     }
     if (search.trim()) {
       const q = search.toLowerCase();
@@ -55,7 +79,7 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
       );
     }
     return list;
-  }, [locations, discovered, activeLabels, search]);
+  }, [locations, discovered, activeLabels, activeRarities, search]);
 
   const unlocked = locations.filter(l => l.unlocked).length;
   const total    = locations.filter(l => l.isPreset).length;
@@ -78,7 +102,7 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
         </div>
         <div className="filter-bar__bottom">
           <button
-            className={`filter-btn${!discovered && activeLabels.size === 0 ? ' filter-btn--active' : ''}`}
+            className={`filter-btn${!discovered && activeLabels.size === 0 && activeRarities.size === 0 ? ' filter-btn--active' : ''}`}
             onClick={clearAll}
           >
             {t('grid.filterAll')}
@@ -89,10 +113,10 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
           >
             {t('grid.filterDiscovered')}
           </button>
-          <div className="label-filter" ref={panelRef}>
+          <div className="label-filter" ref={labelPanelRef}>
             <button
               className={`filter-btn${labelsOpen || activeLabels.size > 0 ? ' filter-btn--active' : ''}`}
-              onClick={() => setLabelsOpen(o => !o)}
+              onClick={() => { setLabelsOpen(o => !o); setRaritiesOpen(false); }}
             >
               {t('grid.filterLabels')}{activeLabels.size > 0 ? ` (${activeLabels.size})` : ' ▼'}
             </button>
@@ -111,6 +135,40 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
                   <button
                     className="label-pill label-pill--clear"
                     onClick={() => setActiveLabels(new Set())}
+                  >
+                    ✕ {t('grid.clearLabels')}
+                  </button>
+                )}
+              </div>
+            )}
+          </div>
+          <div className="label-filter" ref={rarityPanelRef}>
+            <button
+              className={`filter-btn${raritiesOpen || activeRarities.size > 0 ? ' filter-btn--active' : ''}`}
+              onClick={() => { setRaritiesOpen(o => !o); setLabelsOpen(false); }}
+            >
+              {t('grid.filterRarity')}{activeRarities.size > 0 ? ` (${activeRarities.size})` : ' ▼'}
+            </button>
+            {raritiesOpen && (
+              <div className="label-filter__panel">
+                {RARITIES.map(r => (
+                  <button
+                    key={r}
+                    className={`label-pill${activeRarities.has(r) ? ' label-pill--active' : ''}`}
+                    onClick={() => toggleRarity(r)}
+                    style={activeRarities.has(r) ? {
+                      borderColor: RARITY_COLOR[r],
+                      color: RARITY_COLOR[r],
+                      background: `${RARITY_COLOR[r]}18`,
+                    } : undefined}
+                  >
+                    ◆ {RARITY_LABEL[lang]?.[r] ?? r}
+                  </button>
+                ))}
+                {activeRarities.size > 0 && (
+                  <button
+                    className="label-pill label-pill--clear"
+                    onClick={() => setActiveRarities(new Set())}
                   >
                     ✕ {t('grid.clearLabels')}
                   </button>

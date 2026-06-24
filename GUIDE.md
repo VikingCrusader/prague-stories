@@ -8,7 +8,7 @@
 
 Correct. Prague Stories is what happens when someone looks at a beautiful medieval city and thinks: *this would be better with a level-up sound effect.*
 
-The premise is simple. Prague has 136 locations waiting to be discovered — castles, cemeteries, dynamite factories, psychiatric hospitals that host music festivals, a confluence of two rivers that almost nobody visits. You go there. You stand there. The app notices you standing there. You get XP. Repeat until you are the most powerful tourist in Bohemia.
+The premise is simple. Prague has 240 locations waiting to be discovered — castles, cemeteries, dynamite factories, psychiatric hospitals that host music festivals, a confluence of two rivers that almost nobody visits. You go there. You stand there. The app notices you standing there. You get XP. Repeat until you are the most powerful tourist in Bohemia.
 
 There are no orcs. There is, however, a bridge that has had more people thrown off it than any reasonable bridge should. That counts.
 
@@ -53,14 +53,15 @@ Every location in the game, laid out in a grid. Filter by category:
 
 | Filter | What it contains |
 |---|---|
-| **All** | All 136 locations. Overwhelming. Glorious. |
+| **All** | All 240 locations. Overwhelming. Glorious. |
 | **Discovered** | Only the ones you've already visited. For the smug retrospective tour. |
 | **Historical** | Castles, bridges, assassination sites, former execution grounds. Prague has a lot. |
 | **Cultural** | Museums, galleries, theatres, concert halls. Culture, as a mechanic. |
 | **Natural** | Parks, rivers, gorges, reservoirs, the place where two rivers meet and nobody goes. |
-| **Food & Drink** | Restaurants, breweries, markets. These still require you to actually eat there, unfortunately. |
-| **Hidden Gem** | Locations that are technically in Prague but that tourists almost never find. High XP. High difficulty. Worth it. |
-| **Entertainment** | Arenas, airports, escape rooms. The grind locations. |
+| **Hidden Gem** | Locations that are technically in Prague but that tourists almost never find. High XP. Worth it. |
+| **Entertainment** | Arenas, malls, escape rooms. The grind locations. |
+
+You can also filter by **Rarity** — a separate dropdown that lets you show only Common, Rare, Epic, or Legendary locations (or any combination). Pair it with a category filter to find, for example, every Legendary historical site. Or just pick Legend and walk into the deep end immediately.
 
 You can also search by name if you know what you're looking for, which defeats some of the point but is still allowed.
 
@@ -109,12 +110,16 @@ Your character sheet. Contains:
 
 XP accumulates. Levels unlock. Titles change.
 
-Each location pays out between **10 and 30 XP** depending on how far it is from the tourist centre and how inconvenient it is to reach. A hidden natural reserve at the edge of the city pays more than the gift shop district. The game rewards commitment.
+Each location has a **rarity** — a Hearthstone-style card tier that tells you exactly how rare a find it is. Rarity determines the XP payout:
 
-Difficulty is rated 1–3:
-- **1** — You will trip over it walking out of your hotel
-- **2** — Requires a tram, some intention, and a vague idea of which direction north is
-- **3** — You are going here on purpose. You planned this. You brought snacks.
+| Rarity | XP | What it means |
+|---|---|---|
+| ◆ **Common** | +10 | Street-corner churches, main squares, the district your hotel is in. Prague has many. |
+| ◆ **Rare** | +20 | Worth seeking out. Smart tourists find them. First-timers mostly walk past. |
+| ◆ **Epic** | +30 | Hidden gems that locals know. Requires effort, curiosity, and occasionally two tram transfers. |
+| ◆ **Legend** | +50 | Either Prague's most iconic landmarks, or its remotest corners. Either unmissable, or unreachable. |
+
+The rarity is visible as a coloured diamond on every card (ivory → sky blue → purple → gold). The card border matches. The location name matches. Everything is colour-coded. The game wants you to feel things about a gold card.
 
 ---
 
@@ -144,7 +149,7 @@ Open the location detail. If you are the one who added it, a **Delete location**
 
 Deleting a location removes it from the grid immediately and also removes any check-ins you or others recorded for it. The XP those check-ins earned is not clawed back. The game is generous about the past.
 
-Preset locations (the 136 landmarks in the base game) cannot be deleted. The server will refuse. Prague Castle is non-negotiable.
+Preset locations (the 240 landmarks in the base game) cannot be deleted. The server will refuse. Prague Castle is non-negotiable.
 
 ---
 
@@ -154,9 +159,9 @@ Preset locations (the 136 landmarks in the base game) cannot be deleted. The ser
 
 - **Hidden Gems pay the most.** The Explore filter exists for a reason. Use it. Then go to those places before you go anywhere else.
 
-- **Difficulty 3 locations reward the journey.** Soutok Berounky a Vltavy is at the literal southwestern edge of the city. It takes effort to reach. Standing at the exact point where two rivers merge, with essentially no other tourists present, is its own reward. The 25 XP is almost a footnote.
+- **Epic and Legend locations pay the most.** Use the Rarity filter, select Epic or Legend, and go to those first. The XP is proportional to the effort — and the effort is usually proportional to how few other tourists are there.
 
-- **The Dashboard category breakdown is a conscience.** If you have zero Food & Drink check-ins, the game is gently suggesting you have been too focused on castles and should have lunch.
+- **The Dashboard category breakdown is a conscience.** If you have zero Entertainment check-ins, the game is gently suggesting you have been too focused on castles and should have lunch.
 
 - **Czech names on the filter tabs are not a bug.** The city is in Czech. The game leans into this. Pronouncing "Žižkovský televizní vysílač" correctly is an unofficial achievement.
 
@@ -171,7 +176,7 @@ No. The server knows. The server is always watching. The server cares about geog
 The check-in radius is 100 metres, which is generous enough to account for normal GPS drift without being generous enough to account for "I am in a different neighbourhood."
 
 **Is there an end?**
-136 locations. 100% completion. A progress ring filled entirely gold. Whether that constitutes an ending or a beginning is a philosophical question the app declines to answer.
+240 locations. 100% completion. A progress ring filled entirely gold. Whether that constitutes an ending or a beginning is a philosophical question the app declines to answer.
 
 **What language should I use?**
 All three are available. EN for convenience, CZ for immersion, ZH for the delight of reading about Bohnice's dynamite factory in Chinese.

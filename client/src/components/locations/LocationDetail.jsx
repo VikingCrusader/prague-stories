@@ -7,6 +7,7 @@ import { getLocName } from '../../utils/locName';
 import { getCurrentPosition } from '../../utils/geolocation';
 import LanguageSwitcher from '../shared/LanguageSwitcher';
 import EditLocationForm from './EditLocationForm';
+import { RARITY_COLOR, RARITY_LABEL } from '../../utils/rarity';
 
 
 export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpdate }) {
@@ -79,7 +80,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
 
   return (
     <div className="px-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
-      <div className="px-modal">
+      <div className="px-modal" style={loc ? { borderColor: RARITY_COLOR[loc.rarity ?? 'common'] } : undefined}>
         <button className="px-modal__close" onClick={onClose}>✕</button>
 
         {loading ? (
@@ -102,7 +103,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
                   style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                 />
                 <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '14px 18px', background: 'linear-gradient(transparent, rgba(0,0,0,0.85))' }}>
-                  <h2 className="px-title" style={{ fontSize: 14, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 2 : 6 }}>{locName}</h2>
+                  <h2 className="px-title" style={{ fontSize: 14, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 2 : 6, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>{locName}</h2>
                   {lang !== 'cz' && loc.localizedNames?.cz && (
                     <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: 'rgba(255,255,255,0.6)', marginBottom: 6 }}>{loc.localizedNames.cz}</p>
                   )}
@@ -117,7 +118,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
               <div className="px-modal__header" style={{ background: bgColor }}>
                 <span className="detail-art">{art}</span>
                 <div style={{ flex: 1 }}>
-                  <h2 className="px-title" style={{ fontSize: 14, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 2 : 10 }}>{locName}</h2>
+                  <h2 className="px-title" style={{ fontSize: 14, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 2 : 10, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>{locName}</h2>
                   {lang !== 'cz' && loc.localizedNames?.cz && (
                     <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: 'rgba(255,255,255,0.6)', marginBottom: 10 }}>{loc.localizedNames.cz}</p>
                   )}
@@ -133,7 +134,17 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
             <div className="px-modal__body">
               <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 12 }}>
                 <LanguageSwitcher />
-                <span style={{ fontSize: 16, color: 'var(--gold)' }}>+{loc.xpReward} XP</span>
+                <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
+                  <span style={{
+                    display: 'inline-block', width: 10, height: 10,
+                    background: RARITY_COLOR[loc.rarity ?? 'common'],
+                    clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',
+                  }} />
+                  <span style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>
+                    {RARITY_LABEL[lang]?.[loc.rarity ?? 'common']}
+                  </span>
+                  <span style={{ fontSize: 16, color: 'var(--gold)' }}>+{loc.xpReward} XP</span>
+                </div>
               </div>
 
               {(loc.labels || []).length > 0 && (

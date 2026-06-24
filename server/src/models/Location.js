@@ -25,8 +25,8 @@ const locationSchema = new mongoose.Schema({
   pixelArtKey:  { type: String, default: '' },
   isPreset:     { type: Boolean, default: false },
   addedBy:      { type: mongoose.Schema.Types.ObjectId, ref: 'User', default: null },
-  xpReward:     { type: Number, default: 15 },
-  difficulty:   { type: Number, default: 1, min: 1, max: 3 },
+  xpReward:     { type: Number, default: 10 },
+  rarity:       { type: String, enum: ['common', 'rare', 'epic', 'legend'], default: 'common' },
 }, { timestamps: true });
 
 locationSchema.index({ labels: 1 });

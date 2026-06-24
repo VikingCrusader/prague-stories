@@ -1,6 +1,7 @@
 import Location from '../models/Location.js';
 import CheckIn from '../models/CheckIn.js';
 import { generateLocationDescription } from '../services/claudeService.js';
+import { RARITY_XP } from '../data/rarityMap.js';
 
 export async function getLocations(req, res, next) {
   try {
@@ -74,15 +75,17 @@ export async function updateLocation(req, res, next) {
     const location = await Location.findOne({ slug: req.params.slug });
     if (!location) return res.status(404).json({ message: 'Location not found' });
 
-    const { name, localizedNames, labels, coordinates, wikipediaUrl, description, coverImage, xpReward, difficulty } = req.body;
+    const { name, localizedNames, labels, coordinates, wikipediaUrl, description, coverImage, rarity } = req.body;
 
     if (name)                             location.name        = name;
     if (labels)                           location.labels      = Array.isArray(labels) ? labels : [labels];
     if (coordinates?.lat != null && coordinates?.lng != null) location.coordinates = coordinates;
     if (wikipediaUrl !== undefined)        location.wikipediaUrl = wikipediaUrl;
     if (coverImage   !== undefined)        location.coverImage  = coverImage;
-    if (xpReward     != null)             location.xpReward    = xpReward;
-    if (difficulty   != null)             location.difficulty  = difficulty;
+    if (rarity && RARITY_XP[rarity]) {
+      location.rarity   = rarity;
+      location.xpReward = RARITY_XP[rarity];
+    }
     if (localizedNames) {
       if (localizedNames.cz !== undefined) location.localizedNames.cz = localizedNames.cz;
       if (localizedNames.zh !== undefined) location.localizedNames.zh = localizedNames.zh;
@@ -129,8 +132,8 @@ export async function createLocation(req, res, next) {
       coverImage:   coverImage || '',
       isPreset: false,
       addedBy: req.user._id,
-      xpReward: 20,
-      difficulty: 2,
+      xpReward: 10,
+      rarity: 'common',
     });
 
     res.status(201).json(location);

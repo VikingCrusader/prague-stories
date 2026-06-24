@@ -2,6 +2,7 @@ import { useState, useRef, useLayoutEffect } from 'react';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap';
 import { useLang } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
+import { RARITY_COLOR, RARITY_LABEL } from '../../utils/rarity';
 
 function fmtDist(m) {
   return m < 1000 ? `${Math.round(m)} m` : `${(m / 1000).toFixed(1)} km`;
@@ -9,7 +10,7 @@ function fmtDist(m) {
 
 export default function LocationCard({ location, onClick, distance }) {
   const { lang } = useLang();
-  const { labels = [], pixelArtKey, xpReward, unlocked, slug } = location;
+  const { labels = [], pixelArtKey, xpReward, rarity = 'common', unlocked, slug } = location;
   const name  = getLocName(location, lang);
   const art   = getArt(pixelArtKey, labels);
   const color = LABEL_COLORS[labels[0]] || '#1a2a5a';
@@ -34,6 +35,7 @@ export default function LocationCard({ location, onClick, distance }) {
       className={`loc-card${unlocked ? '' : ' loc-card--locked'}`}
       onClick={() => onClick(slug)}
       title={unlocked ? name : '???'}
+      style={{ border: `3px solid ${unlocked ? RARITY_COLOR[rarity] : 'transparent'}` }}
     >
       <div className="loc-card__banner" style={{ background: color }}>
         {location.coverImage ? (
@@ -56,7 +58,7 @@ export default function LocationCard({ location, onClick, distance }) {
       </div>
       <div className="loc-card__body">
         <div>
-          <div className="loc-card__name" style={!unlocked ? { textAlign: 'center' } : undefined}>
+          <div className="loc-card__name" style={!unlocked ? { textAlign: 'center' } : { color: RARITY_COLOR[rarity] }}>
             {unlocked ? name : '???'}
           </div>
           {unlocked && lang !== 'cz' && location.localizedNames?.cz && (
@@ -80,7 +82,17 @@ export default function LocationCard({ location, onClick, distance }) {
           </div>
         )}
         <div className="loc-card__footer">
-          <div className="loc-card__xp">+{xpReward} XP</div>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
+            <span style={{
+              display: 'inline-block', width: 8, height: 8,
+              background: unlocked ? RARITY_COLOR[rarity] : 'rgba(255,255,255,0.2)',
+              clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',
+              flexShrink: 0,
+            }} />
+            <div className="loc-card__xp" style={{ color: unlocked ? RARITY_COLOR[rarity] : undefined }}>
+              {unlocked ? RARITY_LABEL[lang]?.[rarity] ?? rarity : '???'}
+            </div>
+          </div>
           {distance != null && <div className="loc-card__dist">{fmtDist(distance)}</div>}
         </div>
       </div>

@@ -6,6 +6,9 @@ import { getLocName } from '../utils/locName';
 import { getCurrentPosition } from '../utils/geolocation';
 import MapView from '../components/map/MapView';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../utils/pixelArtMap';
+import { RARITY_COLOR, RARITY_LABEL } from '../utils/rarity';
+
+const RARITIES = ['common', 'rare', 'epic', 'legend'];
 
 export default function MapPage() {
   const { lang } = useLang();
@@ -15,9 +18,12 @@ export default function MapPage() {
   const [selectedSlug, setSelectedSlug] = useState(null);
   const [loading, setLoading]           = useState(true);
   const [toasts, setToasts]             = useState([]);
-  const [activeLabels, setActiveLabels] = useState(new Set());
-  const [labelsOpen, setLabelsOpen]     = useState(false);
-  const filterPanelRef = useRef(null);
+  const [activeLabels, setActiveLabels]     = useState(new Set());
+  const [activeRarities, setActiveRarities] = useState(new Set());
+  const [labelsOpen, setLabelsOpen]         = useState(false);
+  const [raritiesOpen, setRaritiesOpen]     = useState(false);
+  const filterPanelRef  = useRef(null);
+  const rarityPanelRef  = useRef(null);
 
   useEffect(() => {
     locationAPI.getAll()
@@ -35,21 +41,33 @@ export default function MapPage() {
   useEffect(() => {
     if (!labelsOpen) return;
     const closeOnOutside = (e) => {
-      if (filterPanelRef.current && !filterPanelRef.current.contains(e.target)) {
-        setLabelsOpen(false);
-      }
+      if (filterPanelRef.current && !filterPanelRef.current.contains(e.target)) setLabelsOpen(false);
     };
     document.addEventListener('mousedown', closeOnOutside);
     return () => document.removeEventListener('mousedown', closeOnOutside);
   }, [labelsOpen]);
 
+  useEffect(() => {
+    if (!raritiesOpen) return;
+    const closeOnOutside = (e) => {
+      if (rarityPanelRef.current && !rarityPanelRef.current.contains(e.target)) setRaritiesOpen(false);
+    };
+    document.addEventListener('mousedown', closeOnOutside);
+    return () => document.removeEventListener('mousedown', closeOnOutside);
+  }, [raritiesOpen]);
+
   const filteredLocations = useMemo(() => {
-    if (activeLabels.size === 0) return locations;
-    return locations.filter(l => {
-      const locationLabels = l.labels || [];
-      return Array.from(activeLabels).every(lb => locationLabels.includes(lb));
-    });
-  }, [locations, activeLabels]);
+    let list = locations;
+    if (activeLabels.size > 0) {
+      list = list.filter(l =>
+        Array.from(activeLabels).every(lb => (l.labels || []).includes(lb))
+      );
+    }
+    if (activeRarities.size > 0) {
+      list = list.filter(l => activeRarities.has(l.rarity ?? 'common'));
+    }
+    return list;
+  }, [locations, activeLabels, activeRarities]);
 
   useEffect(() => {
     if (!selectedSlug) return;
@@ -62,6 +80,15 @@ export default function MapPage() {
       const next = new Set(prev);
       if (next.has(lb)) next.delete(lb);
       else next.add(lb);
+      return next;
+    });
+  };
+
+  const toggleRarity = (r) => {
+    setActiveRarities(prev => {
+      const next = new Set(prev);
+      if (next.has(r)) next.delete(r);
+      else next.add(r);
       return next;
     });
   };
@@ -105,36 +132,74 @@ export default function MapPage() {
 
       <div className="map-sidebar">
         <div style={{ padding: '12px 16px', borderBottom: '3px solid var(--border)' }}>
-          <div className="label-filter" ref={filterPanelRef}>
-            <button
-              className={`filter-btn${labelsOpen || activeLabels.size > 0 ? ' filter-btn--active' : ''}`}
-              onClick={() => setLabelsOpen(o => !o)}
-            >
-              {t('grid.filterLabels')}{activeLabels.size > 0 ? ` (${activeLabels.size})` : ' ▼'}
-            </button>
-            {labelsOpen && (
-              <div className="label-filter__panel label-filter__panel--inline">
-                {Object.entries(LABEL_DEFINITIONS).map(([key, def]) => (
-                  <button
-                    key={key}
-                    className={`label-pill${activeLabels.has(key) ? ' label-pill--active' : ''}`}
-                    onClick={() => toggleLabel(key)}
-                  >
-                    {lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en}
-                  </button>
-                ))}
-                {activeLabels.size > 0 && (
-                  <button
-                    className="label-pill label-pill--clear"
-                    onClick={() => setActiveLabels(new Set())}
-                  >
-                    ✕ {t('grid.clearLabels')}
-                  </button>
-                )}
-              </div>
-            )}
+          <div style={{ display: 'flex', gap: 8 }}>
+            <div className="label-filter" ref={filterPanelRef} style={{ flex: 1, minWidth: 0 }}>
+              <button
+                className={`filter-btn${labelsOpen || activeLabels.size > 0 ? ' filter-btn--active' : ''}`}
+                style={{ width: '100%' }}
+                onClick={() => { setLabelsOpen(o => !o); setRaritiesOpen(false); }}
+              >
+                {t('grid.filterLabels')}{activeLabels.size > 0 ? ` (${activeLabels.size})` : ' ▼'}
+              </button>
+              {labelsOpen && (
+                <div className="label-filter__panel label-filter__panel--inline">
+                  {Object.entries(LABEL_DEFINITIONS).map(([key, def]) => (
+                    <button
+                      key={key}
+                      className={`label-pill${activeLabels.has(key) ? ' label-pill--active' : ''}`}
+                      onClick={() => toggleLabel(key)}
+                    >
+                      {lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en}
+                    </button>
+                  ))}
+                  {activeLabels.size > 0 && (
+                    <button
+                      className="label-pill label-pill--clear"
+                      onClick={() => setActiveLabels(new Set())}
+                    >
+                      ✕ {t('grid.clearLabels')}
+                    </button>
+                  )}
+                </div>
+              )}
+            </div>
+            <div className="label-filter" ref={rarityPanelRef} style={{ flex: 1, minWidth: 0 }}>
+              <button
+                className={`filter-btn${raritiesOpen || activeRarities.size > 0 ? ' filter-btn--active' : ''}`}
+                style={{ width: '100%' }}
+                onClick={() => { setRaritiesOpen(o => !o); setLabelsOpen(false); }}
+              >
+                {t('grid.filterRarity')}{activeRarities.size > 0 ? ` (${activeRarities.size})` : ' ▼'}
+              </button>
+              {raritiesOpen && (
+                <div className="label-filter__panel label-filter__panel--inline">
+                  {RARITIES.map(r => (
+                    <button
+                      key={r}
+                      className={`label-pill${activeRarities.has(r) ? ' label-pill--active' : ''}`}
+                      onClick={() => toggleRarity(r)}
+                      style={activeRarities.has(r) ? {
+                        borderColor: RARITY_COLOR[r],
+                        color: RARITY_COLOR[r],
+                        background: `${RARITY_COLOR[r]}18`,
+                      } : undefined}
+                    >
+                      ◆ {RARITY_LABEL[lang]?.[r] ?? r}
+                    </button>
+                  ))}
+                  {activeRarities.size > 0 && (
+                    <button
+                      className="label-pill label-pill--clear"
+                      onClick={() => setActiveRarities(new Set())}
+                    >
+                      ✕ {t('grid.clearLabels')}
+                    </button>
+                  )}
+                </div>
+              )}
+            </div>
           </div>
-          <p style={{ marginTop: 10, fontFamily: "'Press Start 2P'", fontSize: 7, color: 'var(--text-muted)' }}>
+          <p style={{ marginTop: 8, fontFamily: "'Press Start 2P'", fontSize: 7, color: 'var(--text-muted)' }}>
             {t('grid.showing')} {filteredLocations.length}
           </p>
         </div>
@@ -252,7 +317,7 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
       </div>
 
       <div style={{ padding: 20 }}>
-        <h3 className="px-title" style={{ fontSize: 10, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 4 : 12 }}>{getLocName(loc, lang)}</h3>
+        <h3 className="px-title" style={{ fontSize: 10, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 4 : 12, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>{getLocName(loc, lang)}</h3>
         {lang !== 'cz' && loc.localizedNames?.cz && (
           <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: 'var(--text-muted)', marginBottom: 12 }}>{loc.localizedNames.cz}</p>
         )}
@@ -268,7 +333,19 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
             </span>
           ))}
         </div>
-        {loc.unlocked && <span style={{ marginLeft: 8, color: '#8eff8e', fontFamily: "'Press Start 2P'", fontSize: 6 }}>{t('common.visited')}</span>}
+        <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 4 }}>
+          <span style={{
+            display: 'inline-block', width: 8, height: 8,
+            background: RARITY_COLOR[loc.rarity ?? 'common'],
+            clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',
+            flexShrink: 0,
+          }} />
+          <span style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>
+            {RARITY_LABEL[lang]?.[loc.rarity ?? 'common']}
+          </span>
+          <span style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: 'var(--gold)', marginLeft: 4 }}>+{loc.xpReward} XP</span>
+          {loc.unlocked && <span style={{ marginLeft: 4, color: '#8eff8e', fontFamily: "'Press Start 2P'", fontSize: 6 }}>{t('common.visited')}</span>}
+        </div>
 
         {desc ? (
           <div style={{ marginTop: 14, marginBottom: 16 }}>

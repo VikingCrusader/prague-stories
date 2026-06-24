@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { locationAPI } from '../../services/api';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
 import { useLang } from '../../context/LanguageContext';
+import { RARITY_XP, RARITY_COLOR, RARITY_LABEL } from '../../utils/rarity';
 
 const MAX_BYTES = 1 * 1024 * 1024;
 
@@ -13,8 +14,7 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
     nameZh:       location.localizedNames?.zh     || '',
     coords:       `${location.coordinates?.lat ?? ''},${location.coordinates?.lng ?? ''}`,
     wikipediaUrl: location.wikipediaUrl           || '',
-    xpReward:     location.xpReward?.toString()   || '15',
-    difficulty:   location.difficulty?.toString() || '1',
+    rarity:       location.rarity || 'common',
     descEn:       location.description?.en        || '',
     descCz:       location.description?.cz        || '',
     descZh:       location.description?.zh        || '',
@@ -96,8 +96,7 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
         labels:         selectedLabels,
         coordinates:    { lat, lng },
         wikipediaUrl:   form.wikipediaUrl,
-        xpReward:       parseInt(form.xpReward, 10),
-        difficulty:     parseInt(form.difficulty, 10),
+        rarity:         form.rarity,
         description:    { en: form.descEn, cz: form.descCz, zh: form.descZh },
         coverImage,
       });
@@ -162,21 +161,16 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
               <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>Latitude, Longitude</span>
             </div>
 
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
-              <div className="form-group">
-                <label className="form-label">XP Reward</label>
-                <select className="px-input" name="xpReward" value={form.xpReward} onChange={handle}>
-                  {[10, 15, 20, 25, 30].map(v => <option key={v} value={v}>{v}</option>)}
-                </select>
-              </div>
-              <div className="form-group">
-                <label className="form-label">Difficulty</label>
-                <select className="px-input" name="difficulty" value={form.difficulty} onChange={handle}>
-                  <option value="1">1 — Easy</option>
-                  <option value="2">2 — Medium</option>
-                  <option value="3">3 — Hard</option>
-                </select>
-              </div>
+            <div className="form-group">
+              <label className="form-label">Rarity</label>
+              <select className="px-input" name="rarity" value={form.rarity} onChange={handle}
+                style={{ color: RARITY_COLOR[form.rarity] }}>
+                {['common', 'rare', 'epic', 'legend'].map(r => (
+                  <option key={r} value={r} style={{ color: RARITY_COLOR[r] }}>
+                    {RARITY_LABEL.en[r]} — +{RARITY_XP[r]} XP
+                  </option>
+                ))}
+              </select>
             </div>
 
             <div className="form-group">

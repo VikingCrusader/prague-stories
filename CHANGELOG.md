@@ -4,6 +4,64 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.2.1] — 2026-06-24
+
+**Rarity UI: card borders, name colors, rarity filter, mobile alignment**
+
+### UI
+- Grid card border color driven by rarity: common `#EBE8D9`, rare `#87CEEB`, epic `#BA55D3`, legend `#FFD700`; locked cards get transparent border
+- Location name text color = rarity color on grid cards, detail modal, and map sidebar
+- Removed `+XP` from grid card footer; footer now shows only rarity diamond + label (left) and distance badge (right)
+- Detail modal (`px-modal`) border now overrides to rarity color
+- Added **Rarity** dropdown filter beside the existing **Labels** filter on both Explore grid and Map sidebar; opening one closes the other; OR-logic — multiple rarities can be active simultaneously; cleared by the **All** button
+- Grid filter bar on mobile wraps to 2×2 layout (All/Discovered row 1, Labels/Rarity row 2) instead of cramming 4 items into one row
+- Map sidebar filter buttons split container width equally (`flex: 1`, `width: 100%`)
+- Common rarity color adjusted `#FFFFF0` → `#EBE8D9`
+- Added `grid.filterRarity` i18n key: EN "Rarity" / CZ "Vzácnost" / ZH "稀有度"
+
+---
+
+## [1.2.0] — 2026-06-24
+
+**Rarity system — replaces difficulty entirely**
+
+### Breaking change
+- `difficulty` field removed from `Location` model and all UI; replaced by Hearthstone-style `rarity` enum
+
+### Backend
+- `Location.js`: removed `difficulty`; added `rarity: { type: String, enum: ['common','rare','epic','legend'], default: 'common' }`; `xpReward` default 15 → 10
+- `locationController.js`: `updateLocation` derives `xpReward` from `RARITY_XP[rarity]`; `createLocation` defaults to `common` / 10 XP
+- `server/src/data/rarityMap.js` (new) — authoritative slug→rarity map for all 240 locations with exported `SLUG_RARITY`, `RARITY_XP`, `getRarity(slug)`
+- `server/src/data/updateRarity.js` (new) — one-shot migration; ran successfully, all 240 DB locations updated
+
+### Rarity distribution (240 locations)
+- **Legend** (12, 5%) — Prague's great iconic landmarks and remotest outskirts (prague-castle, charles-bridge, astronomical-clock, vysehrad, dancing-house…)
+- **Epic** (38, 16%) — Hidden gems; specialist knowledge required (klementinum, novy-svet, lidice, sapa-praha, muzeum-studene-valky…)
+- **Rare** (90, 37%) — Worth seeking out; known to curious visitors (pinkas-synagogue, mucha-museum, john-lennon-wall, petrin-tower…)
+- **Common** (100, 42%) — Neighbourhood churches, everyday streets, quarter squares
+
+### Client
+- `client/src/utils/rarity.js` (new) — exports `RARITY_XP`, `RARITY_COLOR`, `RARITY_LABEL` (EN/CZ/ZH)
+- `EditLocationForm`: replaced difficulty + xpReward selects with a single colored rarity `<select>`
+- `LocationCard`: rarity diamond gem + colored label in card footer
+- `LocationDetail`: rarity gem + label + XP in modal header row
+- `MapPage` sidebar: rarity gem + label + XP in SidebarDetail
+
+---
+
+## [1.1.19] — 2026-06-24
+
+**Description segmentation: migration, paste detection, map sidebar fix**
+
+### Data migration
+- Ran `segmentDescriptions.js` — detected and re-segmented 200 DB descriptions stored as a single flat string; all descriptions now formatted as three paragraphs separated by `\n\n`
+
+### UI
+- `EditLocationForm`: added `segmentDesc()` + `handleDescPaste()` — auto-splits pasted flat descriptions into three paragraphs on paste using unlock-keyword detection (`Unlock` / `Odemkni` / `解锁`) and midpoint sentence boundary; only intercepts paste if no `\n\n` already present
+- `MapPage` SidebarDetail: fixed description rendering — was joining all paragraphs into one `<p>` block; now splits on `\n`, filters empty lines, and renders each paragraph as a separate `<p style={{ marginBottom: 10 }}`
+
+---
+
 ## [1.1.18] — 2026-06-24
 
 **4 new Josefov cards: ceremonial hall, two synagogues, Jewish Town Hall**
