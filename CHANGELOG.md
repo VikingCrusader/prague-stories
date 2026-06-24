@@ -4,6 +4,20 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.1.18] — 2026-06-24
+
+**4 new Josefov cards: ceremonial hall, two synagogues, Jewish Town Hall**
+
+### Data
+- Added 4 new Prague locations (Josefov / Jewish Quarter):
+  - **New Ceremonial Hall** (`nova-obradni-sin`) — 1906 Neo-Romanesque Chevra Kadisha building beside the Old Jewish Cemetery; exhibition on Jewish burial customs (Historical)
+  - **High Synagogue** (`vysoka-synagoga`) — 1568, prayer hall on the upper floor by design; Nazi inventory records became postwar restitution evidence (Historical)
+  - **Jerusalem Synagogue** (`jerusalem-synagogue`) — Prague's largest synagogue (1906), Moorish Revival + Art Nouveau; nicknamed Jubilee Synagogue for Franz Joseph's jubilee (Historical)
+  - **Jewish Town Hall** (`zidovska-radnice`) — Original 1577 Maisel commission, Baroque rebuild 1763; famous counter-clockwise Hebrew clock; Judenrat seat in WWII (Historical, Municipal)
+- Added EN/CZ/ZH RPG descriptions ("Brave explorer" voice) with easter eggs for all 4
+
+---
+
 ## [1.1.17] — 2026-06-24
 
 **PNG → WebP conversion (quality 90)**
