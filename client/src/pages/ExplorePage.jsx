@@ -95,7 +95,14 @@ export default function ExplorePage() {
   return (
     <div className="explore-page">
       <div className="explore-header">
-        <h1 className="px-title" style={{ fontSize: 13 }}>{t('explore.title')}</h1>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: 12 }}>
+          <div>
+            <h1 className="px-title" style={{ fontSize: 13 }}>{t('explore.title')}</h1>
+          </div>
+          <button className="px-btn px-btn--outline explore-header__add" onClick={() => setShowAdd(true)}>
+            {t('explore.addLocation')}
+          </button>
+        </div>
       </div>
 
       <LocationGrid locations={sortedLocations} onCardClick={setSelectedSlug} onAddClick={() => setShowAdd(true)} />

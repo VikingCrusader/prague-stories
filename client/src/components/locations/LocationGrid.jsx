@@ -71,7 +71,7 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
             onChange={e => setSearch(e.target.value)}
           />
           {onAddClick && (
-            <button className="px-btn px-btn--outline" onClick={onAddClick}>
+            <button className="px-btn px-btn--outline filter-bar__add-btn" onClick={onAddClick}>
               {t('explore.addLocation')}
             </button>
           )}
