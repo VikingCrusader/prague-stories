@@ -3,7 +3,7 @@ import LocationCard from './LocationCard';
 import { useT, useLang } from '../../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
 
-export default function LocationGrid({ locations, onCardClick }) {
+export default function LocationGrid({ locations, onCardClick, onAddClick }) {
   const t = useT();
   const { lang } = useLang();
   const [discovered, setDiscovered] = useState(false);
@@ -63,52 +63,61 @@ export default function LocationGrid({ locations, onCardClick }) {
   return (
     <>
       <div className="filter-bar">
-        <input
-          className="filter-bar__search"
-          placeholder={t('grid.searchPlaceholder')}
-          value={search}
-          onChange={e => setSearch(e.target.value)}
-        />
-        <button
-          className={`filter-btn${!discovered && activeLabels.size === 0 ? ' filter-btn--active' : ''}`}
-          onClick={clearAll}
-        >
-          {t('grid.filterAll')}
-        </button>
-        <button
-          className={`filter-btn${discovered ? ' filter-btn--active' : ''}`}
-          onClick={() => setDiscovered(d => !d)}
-        >
-          {t('grid.filterDiscovered')}
-        </button>
-        <div className="label-filter" ref={panelRef}>
-          <button
-            className={`filter-btn${labelsOpen || activeLabels.size > 0 ? ' filter-btn--active' : ''}`}
-            onClick={() => setLabelsOpen(o => !o)}
-          >
-            {t('grid.filterLabels')}{activeLabels.size > 0 ? ` (${activeLabels.size})` : ' ▼'}
-          </button>
-          {labelsOpen && (
-            <div className="label-filter__panel">
-              {Object.entries(LABEL_DEFINITIONS).map(([key, def]) => (
-                <button
-                  key={key}
-                  className={`label-pill${activeLabels.has(key) ? ' label-pill--active' : ''}`}
-                  onClick={() => toggleLabel(key)}
-                >
-                  {lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en}
-                </button>
-              ))}
-              {activeLabels.size > 0 && (
-                <button
-                  className="label-pill label-pill--clear"
-                  onClick={() => setActiveLabels(new Set())}
-                >
-                  ✕ {t('grid.clearLabels')}
-                </button>
-              )}
-            </div>
+        <div className="filter-bar__top">
+          <input
+            className="filter-bar__search"
+            placeholder={t('grid.searchPlaceholder')}
+            value={search}
+            onChange={e => setSearch(e.target.value)}
+          />
+          {onAddClick && (
+            <button className="px-btn px-btn--outline" onClick={onAddClick}>
+              {t('explore.addLocation')}
+            </button>
           )}
+        </div>
+        <div className="filter-bar__bottom">
+          <button
+            className={`filter-btn${!discovered && activeLabels.size === 0 ? ' filter-btn--active' : ''}`}
+            onClick={clearAll}
+          >
+            {t('grid.filterAll')}
+          </button>
+          <button
+            className={`filter-btn${discovered ? ' filter-btn--active' : ''}`}
+            onClick={() => setDiscovered(d => !d)}
+          >
+            {t('grid.filterDiscovered')}
+          </button>
+          <div className="label-filter" ref={panelRef}>
+            <button
+              className={`filter-btn${labelsOpen || activeLabels.size > 0 ? ' filter-btn--active' : ''}`}
+              onClick={() => setLabelsOpen(o => !o)}
+            >
+              {t('grid.filterLabels')}{activeLabels.size > 0 ? ` (${activeLabels.size})` : ' ▼'}
+            </button>
+            {labelsOpen && (
+              <div className="label-filter__panel">
+                {Object.entries(LABEL_DEFINITIONS).map(([key, def]) => (
+                  <button
+                    key={key}
+                    className={`label-pill${activeLabels.has(key) ? ' label-pill--active' : ''}`}
+                    onClick={() => toggleLabel(key)}
+                  >
+                    {lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en}
+                  </button>
+                ))}
+                {activeLabels.size > 0 && (
+                  <button
+                    className="label-pill label-pill--clear"
+                    onClick={() => setActiveLabels(new Set())}
+                  >
+                    ✕ {t('grid.clearLabels')}
+                  </button>
+                )}
+              </div>
+            )}
+          </div>
         </div>
       </div>
 
