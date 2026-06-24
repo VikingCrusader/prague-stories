@@ -4,6 +4,37 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.1.17] — 2026-06-24
+
+**PNG → WebP conversion (quality 90)**
+
+### Assets
+- Converted 17 PNG pixel-art images to WebP at quality 90 (ffmpeg): celetna, charles-bridge, klementinum, kostel-sv-frantiska-z-assisi, kostel-sv-hastala, kostel-sv-jakuba-stare-mesto, kostel-sv-jilji, kostel-sv-klimenta, kostel-sv-petra-na-porici, kostel-sv-salvatora, maiselova-synagoga, national-museum, nova-radnice-marianske-namesti, pinkas-synagogue, powder-tower, prague-castle, strahov-library
+
+---
+
+## [1.1.16] — 2026-06-24
+
+**11 new location cards: Old Town churches, Strahov Library, Celetná**
+
+### Data
+- Added 11 new Prague locations via `seedNewLocations.js`:
+  - **Celetná** — medieval Royal Route street with Cubist lamppost easter egg (Historical, Landmark)
+  - **Strahov Library** — Baroque library with cabinet of curiosities (Cultural, Academy, 25 XP)
+  - **Church of St. James the Greater** (Old Town) — Gothic/Baroque church famous for its mummified arm (Historical, Church, 25 XP)
+  - **New Town Hall** (Mariánské náměstí) — 1911 Art Nouveau building with Golem-creator Rabbi Loew and Iron Man statues (Historical, Municipal)
+  - **Maisel Synagogue** — 1590 Renaissance synagogue rebuilt Neo-Gothic; Maisel bankrolled Habsburgs, Habsburgs took everything (Historical, 20 XP)
+  - **Church of St. Giles** — 1371 Gothic, Dominican-run with Reiner frescoes; same order as the Inquisition (Historical, Church)
+  - **Church of St. Castulus** — Quiet 13th-century Gothic gem; martyr thrown into a pit; name is 700 years of Czech telephone (Hidden Gem, Church)
+  - **Church of St. Francis of Assisi** — Built by Knights of the Cross (only Bohemian Crusader order, still next door); Last Judgment dome (Historical, Church)
+  - **Church of the Holy Saviour** — 1578 Jesuit church built to stare down the Clementinum; one of Prague's first Baroque buildings (Historical, Church)
+  - **Church of St. Clement** (Klimentská) — Gothic church that served Catholics, Hussites, Catholics again; patron saint thrown into sea on an anchor (Historical, Church)
+  - **Church of St. Peter at Poříčí** — One of Prague's oldest churches (12th c.); still standing quietly as Na Poříčí became a shopping street (Historical, Church)
+- Added EN/CZ/ZH descriptions for all 11 locations via `seedDescriptionsStatic.js` — segmented paragraphs, humorous, gamified tone, historical context, easter eggs, Chinese description priority
+- Note: user listed item #9 (Kostel nejsv. Salvátora) without coordinates — approximate coordinates used (50.08621, 14.41395); items #3 and #10 were duplicate entries for the same church (Jakuba Většího) — added once
+
+---
+
 ## [1.1.15] — 2026-06-23
 
 **Mobile label fix, grid sizing, and typography tweaks**
