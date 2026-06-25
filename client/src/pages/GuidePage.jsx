@@ -18,14 +18,8 @@ const CONTENT = {
     ],
     screensTitle: "The Screens",
     exploreTitle: "Explore Grid",
-    explore: "Every location in the game. Filter by category or rarity, search by name (which defeats some of the mystery, but is allowed), or switch to My Collections to review past conquests smugly.",
-    cats: [
-      { icon: "🏛", label: "Historical", desc: "Castles, bridges, and more former execution grounds than you'd expect from a city this charming." },
-      { icon: "🎭", label: "Cultural", desc: "Museums, galleries, theatres. Culture, as a video game mechanic." },
-      { icon: "🌿", label: "Natural", desc: "Parks, gorges, reservoirs, and one river confluence that almost nobody visits. High XP. No crowds." },
-      { icon: "💎", label: "Hidden Gem", desc: "Tourist-free. High XP. High difficulty. The good stuff. Worth every tram transfer." },
-      { icon: "🎪", label: "Entertainment", desc: "Arenas, malls, escape rooms. The grind zones of the Prague XP economy." },
-    ],
+    explore: "Every location in the game. Filter by label or rarity, search by name (which defeats some of the mystery, but is allowed), or switch to My Collections to review past conquests smugly. Labels are granular and stackable — filter by Church, or by Hidden Gem, or by both at once.",
+    cats: [],
     mapTitle: "Map",
     map: "Your command centre. Gold markers = yours. Grey = unclaimed. Walk within 100 m of an unvisited location and a gold banner rises from the bottom of the screen like a treasure chest surfacing from the Vltava. Tap it. Get XP.",
     detailTitle: "Location Detail",
@@ -46,10 +40,11 @@ const CONTENT = {
     xpTitle: "XP & Levels",
     xpIntro: "Each location pays XP based on its rarity — a card-style tier that tells you how rare a find it actually is:",
     diff: [
-      "◆ Common — +10 XP. Street-corner churches, main squares, the district your hotel is in. Prague is generous with these.",
+      "◆ Common — +10 XP. Not ordinary — just Prague-ordinary. Any other city would put these on a postcard.",
       "◆ Rare — +20 XP. Worth seeking out. Smart tourists find them. First-timers mostly walk past.",
       "◆ Epic — +30 XP. Hidden gems locals know and tourists don't. Requires effort, curiosity, and occasionally two tram transfers.",
-      "◆ Legend — +50 XP. Either Prague's most iconic landmarks or its remotest corners. Either unmissable or unreachable. Both are worth it.",
+      "◆ Mythic — +40 XP. Extremely hard to find, rarely visited, yet historically or culturally significant. You will not stumble upon these.",
+      "◆ Legend — +50 XP. Prague's most magnificent and iconic landmarks. If you haven't been here, you haven't really been to Prague.",
     ],
     xpOutro: "8 levels total: from Lost Tourist to Prague Legend. The gold cards know where you need to go.",
     achTitle: "Achievements",
@@ -93,14 +88,8 @@ const CONTENT = {
     ],
     screensTitle: "Obrazovky",
     exploreTitle: "Průzkum",
-    explore: "Všechna místa ve hře. Filtruj podle kategorie nebo vzácnosti, hledej podle jména (což kazí část záhady, ale je to povoleno), nebo přepni na Moje sbírka pro sebechvalnou prohlídku minulých výbojů.",
-    cats: [
-      { icon: "🏛", label: "Historické", desc: "Hrady, mosty a více bývalých popravišť, než by tak půvabné město mělo mít." },
-      { icon: "🎭", label: "Kulturní", desc: "Muzea, galerie, divadla. Kultura jako herní mechanika." },
-      { icon: "🌿", label: "Přírodní", desc: "Parky, rokle, nádrže a jeden soutok řek, kam skoro nikdo nechce. Vysoké XP. Žádné davy." },
-      { icon: "💎", label: "Skrytý klenot", desc: "Bez turistů. Vysoké XP. Vysoká obtížnost. To pravé. Stojí za každý přestup." },
-      { icon: "🎪", label: "Zábava", desc: "Arény, obchodní centra, únikové hry. Grind zóny pražské XP ekonomiky." },
-    ],
+    explore: "Všechna místa ve hře. Filtruj podle štítku nebo vzácnosti, hledej podle jména (což kazí část záhady, ale je to povoleno), nebo přepni na Moje sbírka pro sebechvalnou prohlídku minulých výbojů. Štítky jsou detailní a kombinovatelné — filtruj podle Kostel, nebo podle Skrytý klenot, nebo obojí najednou.",
+    cats: [],
     mapTitle: "Mapa",
     map: "Tvoje velitelské centrum. Zlaté značky = tvoje. Šedé = nevyžádané. Přijď do 100 m od nenavštíveného místa a ze spodní části obrazovky stoupne zlatý banner jako truhla s pokladem vynořující se z Vltavy. Klikni. Získej XP.",
     detailTitle: "Detail místa",
@@ -121,10 +110,11 @@ const CONTENT = {
     xpTitle: "XP a úrovně",
     xpIntro: "Každé místo vyplácí XP podle své vzácnosti — systém karet, který přesně říká, jak vzácný je daný nález:",
     diff: [
-      "◆ Běžné — +10 XP. Rohové kostely, hlavní náměstí, čtvrť, ve které je tvůj hotel. Praha jich má spoustu.",
+      "◆ Běžné — +10 XP. Nic běžného — jen běžné na pražské poměry. Kdekoli jinde by z nich dělali pohlednice.",
       "◆ Vzácné — +20 XP. Stojí za to je hledat. Chytří turisté je najdou. Prvonávštěvníci většinou projdou kolem.",
       "◆ Epické — +30 XP. Skryté klenoty, které znají místní. Vyžaduje úsilí, zvědavost a občas dva přestupy tramvají.",
-      "◆ Legendární — +50 XP. Buď nejslavnější pražské památky, nebo nejodlehlejší kouty. Buď neodmyslitelné, nebo nedostupné. Obojí stojí za XP.",
+      "◆ Mýtické — +40 XP. Nesmírně těžko dosažitelná, málokdy navštívená, přesto historicky nebo kulturně zásadní. Na tato místa se náhodou nenarazí.",
+      "◆ Legendární — +50 XP. Nejvelkolepější a nejikoničtější pražské památky. Pokud jsi tu ještě nebyl, Prahu jsi vlastně neviděl.",
     ],
     xpOutro: "8 úrovní celkem: od Ztraceného Turisty po Pražskou Legendu. Zlaté karty ti ukážou, kam jít.",
     achTitle: "Úspěchy",
@@ -168,14 +158,8 @@ const CONTENT = {
     ],
     screensTitle: "各个页面",
     exploreTitle: "探索网格",
-    explore: "游戏中的所有地点。按类别或稀有度筛选、按名字搜索（这会破坏一些神秘感，但仍然允许），或切换到我的收藏，自我陶醉地回顾过去的战绩。",
-    cats: [
-      { icon: "🏛", label: "历史类", desc: "城堡、桥梁，以及比这座迷人城市应有的更多的前行刑场。" },
-      { icon: "🎭", label: "文化类", desc: "博物馆、画廊、剧院。文化，作为游戏机制。" },
-      { icon: "🌿", label: "自然类", desc: "公园、峡谷、水库，以及一个几乎无人光顾的两河交汇处。高经验，无人群。" },
-      { icon: "💎", label: "隐藏宝藏", desc: "无游客，高经验，高难度。真正的好东西。每次换乘都值得。" },
-      { icon: "🎪", label: "娱乐类", desc: "体育馆、购物中心、密室逃脱。布拉格经验值经济的刷怪区。" },
-    ],
+    explore: "游戏中的所有地点。按标签或稀有度筛选、按名字搜索（这会破坏一些神秘感，但仍然允许），或切换到我的收藏，自我陶醉地回顾过去的战绩。标签细致且可叠加——可以单选「教堂」，也可以同时选「教堂」和「小众景点」。",
+    cats: [],
     mapTitle: "地图",
     map: "你的指挥中心。金色标记=已解锁。灰色=待征服。走进未访问地点100米范围内，屏幕底部会升起一条金色横幅，如同宝箱从伏尔塔瓦河中浮现。点击，获得经验值。",
     detailTitle: "地点详情",
@@ -196,10 +180,11 @@ const CONTENT = {
     xpTitle: "经验值与等级",
     xpIntro: "每个地点根据其稀有度获得经验值——类似炉石传说的卡牌系统，直接告诉你这个地点有多稀有：",
     diff: [
-      "◆ 常见 — +10 XP。路边的小教堂、主要广场、你住的酒店附近的街区。布拉格有很多，这是有意为之的。",
+      "◆ 常见 — +10 XP。并非真的普通——只是布拉格标准下的普通。换个城市，这里的每一处都能上明信片。",
       "◆ 稀有 — +20 XP。值得专程前往。有经验的游客能找到，第一次来的人大多擦肩而过。",
       "◆ 史诗 — +30 XP。当地人才知道的隐藏宝藏。需要努力、好奇心，有时还要换两次电车。",
-      "◆ 传说 — +50 XP。要么是布拉格最标志性的地标，要么是最偏远的角落。要么绝对不能错过，要么几乎无法到达。无论哪种都值得。",
+      "◆ 神话 — +40 XP。极难寻觅，鲜有人至，却具有重要的历史或文化意义。你不会偶然发现这些地方。",
+      "◆ 传说 — +50 XP。布拉格最宏伟、最标志性的地标。没来过这里？那你其实还没真正到过布拉格。",
     ],
     xpOutro: "共8个等级：从迷路的游客到布拉格传奇。金色卡牌会告诉你该去哪里。",
     achTitle: "成就",
@@ -234,7 +219,7 @@ export default function GuidePage() {
   return (
     <div className="guide-page">
       <div className="guide-wrap">
-        <h1 className="px-title" style={{ fontSize: 13, marginBottom: 6 }}>⚔ {c.title}</h1>
+        <h1 className="px-title" style={{ fontSize: 13, marginBottom: 6 }}>{c.title}</h1>
         <p className="guide-intro">{c.tagline}</p>
 
         <div className="guide-challenge">
@@ -242,7 +227,6 @@ export default function GuidePage() {
         </div>
 
         <div className="guide-tip" style={{ borderLeftColor: 'var(--text-muted)', marginBottom: 24 }}>
-          <span className="guide-tip__icon">🏠</span>
           <span>{c.localChallenge}</span>
         </div>
 
@@ -277,14 +261,6 @@ export default function GuidePage() {
 
           <h3 className="guide-h3">{c.exploreTitle}</h3>
           <p className="guide-body">{c.explore}</p>
-          <div className="guide-cats">
-            {c.cats.map(cat => (
-              <div key={cat.label} className="guide-cat">
-                <span className="guide-cat__icon">{cat.icon}</span>
-                <span><strong>{cat.label}</strong> — {cat.desc}</span>
-              </div>
-            ))}
-          </div>
 
           <h3 className="guide-h3" style={{ marginTop: 16 }}>{c.mapTitle}</h3>
           <p className="guide-body">{c.map}</p>
@@ -336,7 +312,6 @@ export default function GuidePage() {
           <h2 className="guide-h2">{c.tipsTitle}</h2>
           {c.tips.map((tip, i) => (
             <div key={i} className="guide-tip">
-              <span className="guide-tip__icon">{tip.icon}</span>
               <span>{tip.text}</span>
             </div>
           ))}
@@ -345,7 +320,6 @@ export default function GuidePage() {
         <hr className="px-divider" />
 
         <div className="guide-tip" style={{ borderLeftColor: 'var(--text-muted)', marginBottom: 24 }}>
-          <span className="guide-tip__icon">🎨</span>
           <span>{c.pixelNote}</span>
         </div>
 

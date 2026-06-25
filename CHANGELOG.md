@@ -4,6 +4,49 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.2.3] — 2026-06-25
+
+**Mythic rarity tier, description/rarity revert fixes, Guide overhaul, batch21 pixel art**
+
+### New feature: Mythic rarity
+- Added `mythic` tier between Epic and Legend: color `#c40202` (crimson), XP: 40, EN: Mythic / CZ: Mýtické / ZH: 神话
+- `Location.js` model enum updated to `['common','rare','epic','mythic','legend']`
+- `rarityMap.js`: `RARITY_XP` updated to `{ common:10, rare:20, epic:30, mythic:40, legend:50 }`
+- `client/src/utils/rarity.js`: mythic added to `RARITY_XP`, `RARITY_COLOR`, `RARITY_LABEL`
+- Mythic added to rarity filter dropdowns on Explore grid and Map sidebar
+- `EditLocationForm`: was missing mythic from hardcoded rarity list — fixed
+- Guide page and GUIDE.md: mythic row added to XP table; Common/Legend tier descriptions updated to reflect their design philosophy
+
+### Bug fixes
+- **Rarity edits reverting**: deleted `updateRarity.js` — this one-shot script was bulk-overriding every location's rarity/xpReward from `rarityMap.js` whenever run, undoing all manual edits made via the Edit UI; rarity is now set exclusively through the Edit form
+- **Description edits reverting**: fixed race condition in `getLocation` controller — previously used `location.save()` which serialised the entire Mongoose document from fetch time; if Gemini took >5 s to generate, a concurrent user edit would be silently overwritten when `save()` completed; now uses `Location.updateOne({ $set: patch })` with dot-path keys and only writes languages whose description field is empty
+
+### Guide page
+- Removed emojis from category list and tips section
+- Explore section rewritten: replaced obsolete 5-category table with label-based filter description (labels are granular and stackable)
+- Fixed ZH syntax crash: unescaped ASCII double quotes inside a double-quoted string on line 161
+
+### Data & assets
+- `migrateDescGreeting.js` (new): prepends "Brave explorer, " / "Odvážný průzkumníku, " / "勇敢的探险家，" to all 17 batch21 location descriptions in the DB to match the style of every other preset location; idempotent (skips locations that already have the greeting)
+- 17 WebP pixel art files added for batch21 locations (converted from PNG at quality 90 via ffmpeg)
+
+---
+
+## [1.2.2] — 2026-06-25
+
+**Location set: −2 removed, +17 new locations added (255 total)**
+
+### Data
+- Removed `klementinum` (duplicate of National Library) and `prague-city-gallery` from DB and rarityMap; cascaded check-in deletion
+- Added 17 new Prague locations with full EN/CZ/ZH descriptions, coordinates, rarity, and localizedNames:
+  - Stone Bell House, Church of Sts. Simon and Jude, Čech Bridge (common)
+  - Church of Our Lady of Sorrows, Church of St. Apollinaris, Nusle Town Hall, Hussite Congregation Smíchov, Černý Most (common)
+  - Apolinář Maternity Hospital, Church of the Sacred Heart, Svatopluk Čech Gardens, Parukářka, Church of the Assumption (Modřany), City Tower, Kobylisy, Basilica of St. Margaret (rare)
+  - Hussite Congregation Vinohrady (epic)
+- `rarityMap.js` updated: klementinum → replaced with husuv-sbor-vinohrady (epic); 8 rare slugs added; prague-city-gallery removed
+
+---
+
 ## [1.2.1] — 2026-06-24
 
 **Rarity UI: card borders, name colors, rarity filter, mobile alignment**

@@ -8,7 +8,7 @@ import MapView from '../components/map/MapView';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../utils/pixelArtMap';
 import { RARITY_COLOR, RARITY_LABEL } from '../utils/rarity';
 
-const RARITIES = ['common', 'rare', 'epic', 'legend'];
+const RARITIES = ['common', 'rare', 'epic', 'mythic', 'legend'];
 
 export default function MapPage() {
   const { lang } = useLang();

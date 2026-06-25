@@ -2,13 +2,13 @@
 
 A gamified city exploration diary for Prague — built with the MERN stack.
 
-Unlock 240 real Prague landmarks, earn XP, collect achievements, and read trilingual descriptions in English, Czech, and Chinese.
+Unlock 255 real Prague landmarks, earn XP, collect achievements, and read trilingual descriptions in English, Czech, and Chinese.
 
 ## Features
 
 - JWT authentication (register / login)
-- 240 preset Prague landmarks across 5 categories
-- Hearthstone-style rarity system: common / rare / epic / legend — XP rewards 10 / 20 / 30 / 50
+- 255 preset Prague landmarks across 5 categories
+- Hearthstone-style rarity system: common / rare / epic / mythic / legend — XP rewards 10 / 20 / 30 / 40 / 50
 - Card border and name color driven by rarity; rarity filter dropdown on Explore grid and Map sidebar
 - Check in to locations to unlock them and earn XP
 - Add and edit custom locations
@@ -16,7 +16,7 @@ Unlock 240 real Prague landmarks, earn XP, collect achievements, and read trilin
 - Interactive Leaflet map with locked/unlocked markers
 - AI-generated descriptions via Gemini API (EN / CZ / ZH), stored as three paragraphs
 - Full UI localisation: English, Czech, and Chinese (ZH/EN/CZ toggle)
-- Localized place names — Czech and Chinese names for all 240 locations
+- Localized place names — Czech and Chinese names for all 255 locations
 - Pixel art retro UI with [Ark Pixel Font](https://github.com/TakWolf/ark-pixel-font) in Chinese mode
 - Geolocation-based check-in — must be within 200 m of the location to check in
 - Google Maps navigation link on every location (opens turn-by-turn directions)
@@ -61,7 +61,7 @@ cp server/.env.example server/.env
 # Edit server/.env and fill in:
 #   MONGO_URI, JWT_SECRET, GEMINI_API_KEY
 
-# 3. Seed the 240 Prague locations
+# 3. Seed the 255 Prague locations
 cd server && npm run seed && npm run seed:new
 
 # 4. Seed trilingual descriptions and localized names
@@ -97,7 +97,7 @@ prague-stories/
         ├── routes/       # /api/auth, /api/locations, /api/checkins, /api/user
         ├── controllers/  # Business logic
         ├── services/     # geminiService, gamification
-        └── data/         # 240 preset locations, seed scripts, rarityMap
+        └── data/         # 255 preset locations, seed scripts, rarityMap
 ```
 
 ## API Overview

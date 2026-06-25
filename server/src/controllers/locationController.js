@@ -36,13 +36,23 @@ export async function getLocation(req, res, next) {
     const location = await Location.findOne({ slug: req.params.slug });
     if (!location) return res.status(404).json({ message: 'Location not found' });
 
-    if (!location.description.en) {
+    if (!location.description.en || !location.description.cz || !location.description.zh) {
       try {
         const desc = await generateLocationDescription(location.name, location.labels?.[0] || 'architecture');
-        location.description = desc;
-        await location.save();
+        // Only fill languages that are still empty — never overwrite user-saved text.
+        // Use $set on dot-paths so a concurrent user edit can't be clobbered.
+        const patch = {};
+        if (!location.description.en && desc.en) patch['description.en'] = desc.en;
+        if (!location.description.cz && desc.cz) patch['description.cz'] = desc.cz;
+        if (!location.description.zh && desc.zh) patch['description.zh'] = desc.zh;
+        if (Object.keys(patch).length) {
+          await Location.updateOne({ _id: location._id }, { $set: patch });
+          if (patch['description.en']) location.description.en = patch['description.en'];
+          if (patch['description.cz']) location.description.cz = patch['description.cz'];
+          if (patch['description.zh']) location.description.zh = patch['description.zh'];
+        }
       } catch (aiErr) {
-        console.error('Claude description generation failed:', aiErr.message);
+        console.error('AI description generation failed:', aiErr.message);
       }
     }
 

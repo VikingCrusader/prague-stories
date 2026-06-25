@@ -49,21 +49,13 @@ If you dismiss the prompt and walk away, it will not judge you. It will just rem
 
 ### The Explore Grid
 
-Every location in the game, laid out in a grid. Filter by category:
+Every location in the game. Filter by category or rarity, search by name (which defeats some of the mystery, but is allowed), or switch to My Collections to review past conquests smugly.
 
-| Filter | What it contains |
-|---|---|
-| **All** | All 240 locations. Overwhelming. Glorious. |
-| **Discovered** | Only the ones you've already visited. For the smug retrospective tour. |
-| **Historical** | Castles, bridges, assassination sites, former execution grounds. Prague has a lot. |
-| **Cultural** | Museums, galleries, theatres, concert halls. Culture, as a mechanic. |
-| **Natural** | Parks, rivers, gorges, reservoirs, the place where two rivers meet and nobody goes. |
-| **Hidden Gem** | Locations that are technically in Prague but that tourists almost never find. High XP. Worth it. |
-| **Entertainment** | Arenas, malls, escape rooms. The grind locations. |
-
-You can also filter by **Rarity** — a separate dropdown that lets you show only Common, Rare, Epic, or Legendary locations (or any combination). Pair it with a category filter to find, for example, every Legendary historical site. Or just pick Legend and walk into the deep end immediately.
-
-You can also search by name if you know what you're looking for, which defeats some of the point but is still allowed.
+**Historical** — Castles, bridges, and more former execution grounds than you'd expect from a city this charming.
+**Cultural** — Museums, galleries, theatres. Culture, as a video game mechanic.
+**Natural** — Parks, gorges, reservoirs, and one river confluence that almost nobody visits. High XP. No crowds.
+**Hidden Gem** — Tourist-free. High XP. High difficulty. The good stuff. Worth every tram transfer.
+**Entertainment** — Arenas, malls, escape rooms. The grind zones of the Prague XP economy.
 
 ### The Location Detail
 
@@ -114,12 +106,13 @@ Each location has a **rarity** — a Hearthstone-style card tier that tells you 
 
 | Rarity | XP | What it means |
 |---|---|---|
-| ◆ **Common** | +10 | Street-corner churches, main squares, the district your hotel is in. Prague has many. |
+| ◆ **Common** | +10 | Not ordinary — just Prague-ordinary. Any other city would put these on a postcard. |
 | ◆ **Rare** | +20 | Worth seeking out. Smart tourists find them. First-timers mostly walk past. |
 | ◆ **Epic** | +30 | Hidden gems that locals know. Requires effort, curiosity, and occasionally two tram transfers. |
-| ◆ **Legend** | +50 | Either Prague's most iconic landmarks, or its remotest corners. Either unmissable, or unreachable. |
+| ◆ **Mythic** | +40 | Extremely hard to find, rarely visited, yet historically or culturally significant. You will not stumble upon these. |
+| ◆ **Legend** | +50 | Prague's most magnificent and iconic landmarks. If you haven't been here, you haven't really been to Prague. |
 
-The rarity is visible as a coloured diamond on every card (ivory → sky blue → purple → gold). The card border matches. The location name matches. Everything is colour-coded. The game wants you to feel things about a gold card.
+The rarity is visible as a coloured diamond on every card (ivory → sky blue → purple → crimson → gold). The card border matches. The location name matches. Everything is colour-coded. The game wants you to feel things about a gold card.
 
 ---
 
@@ -157,9 +150,9 @@ Preset locations (the 240 landmarks in the base game) cannot be deleted. The ser
 
 - **The map is your friend on public transit.** Watching your blue dot drift toward a pinned location while on a tram is, objectively, the correct way to experience Prague.
 
-- **Hidden Gems pay the most.** The Explore filter exists for a reason. Use it. Then go to those places before you go anywhere else.
+- **Hidden Gems pay the most XP.** Open the Explore filter, pick Hidden Gem, go to those places first. Thank yourself later.
 
-- **Epic and Legend locations pay the most.** Use the Rarity filter, select Epic or Legend, and go to those first. The XP is proportional to the effort — and the effort is usually proportional to how few other tourists are there.
+- **Epic and Legend locations pay the most XP.** Open the Rarity filter, select Epic or Legend, and go there first. The XP is proportional to the effort — and the effort is proportional to how few other tourists are present.
 
 - **The Dashboard category breakdown is a conscience.** If you have zero Entertainment check-ins, the game is gently suggesting you have been too focused on castles and should have lunch.
 
@@ -176,7 +169,7 @@ No. The server knows. The server is always watching. The server cares about geog
 The check-in radius is 100 metres, which is generous enough to account for normal GPS drift without being generous enough to account for "I am in a different neighbourhood."
 
 **Is there an end?**
-240 locations. 100% completion. A progress ring filled entirely gold. Whether that constitutes an ending or a beginning is a philosophical question the app declines to answer.
+255 locations. 100% completion. A progress ring filled entirely gold. Whether that constitutes an ending or a beginning is a philosophical question the app declines to answer.
 
 **What language should I use?**
 All three are available. EN for convenience, CZ for immersion, ZH for the delight of reading about Bohnice's dynamite factory in Chinese.

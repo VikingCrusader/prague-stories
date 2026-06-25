@@ -165,7 +165,7 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
               <label className="form-label">Rarity</label>
               <select className="px-input" name="rarity" value={form.rarity} onChange={handle}
                 style={{ color: RARITY_COLOR[form.rarity] }}>
-                {['common', 'rare', 'epic', 'legend'].map(r => (
+                {['common', 'rare', 'epic', 'mythic', 'legend'].map(r => (
                   <option key={r} value={r} style={{ color: RARITY_COLOR[r] }}>
                     {RARITY_LABEL.en[r]} — +{RARITY_XP[r]} XP
                   </option>

@@ -4,7 +4,7 @@ import { useT, useLang } from '../../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
 import { RARITY_COLOR, RARITY_LABEL } from '../../utils/rarity';
 
-const RARITIES = ['common', 'rare', 'epic', 'legend'];
+const RARITIES = ['common', 'rare', 'epic', 'mythic', 'legend'];
 
 export default function LocationGrid({ locations, onCardClick, onAddClick }) {
   const t = useT();

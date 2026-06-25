@@ -1,4 +1,4 @@
-export const RARITY_XP = { common: 10, rare: 20, epic: 30, legend: 50 };
+export const RARITY_XP = { common: 10, rare: 20, epic: 30, mythic: 40, legend: 50 };
 
 // Slugs absent from this map are treated as 'common'
 export const SLUG_RARITY = {
@@ -19,7 +19,7 @@ export const SLUG_RARITY = {
 
   // ── EPIC (37 · 15%) ──────────────────────────────────────────────────────
   // Hidden gems: locals with real Prague knowledge, off all tourist paths
-  'klementinum':                  'epic',  // baroque library — needs booking
+  'husuv-sbor-vinohrady':         'epic',  // interwar Hussite hall, easily missed
   'novy-svet':                    'epic',  // secret lane behind the castle
   'kafka-rotating-head':          'epic',  // easy to miss modern sculpture
   'st-michael-mystery-church':    'epic',  // very obscure relocated church
@@ -117,7 +117,14 @@ export const SLUG_RARITY = {
   'vysehrad-railway-bridge':      'rare',
   'podolska-vodarna':             'rare',
   'olsanske-hrbitovy':            'rare',
-  'prague-city-gallery':          'rare',
+  'porodnice-apolinar':           'rare',
+  'kostel-nejsvetejsiho-srdce-pane': 'rare',
+  'sady-svatopluka-cecha':        'rare',
+  'parukarka':                    'rare',
+  'kostel-panny-marie-modrany':   'rare',
+  'city-tower-prague':            'rare',
+  'kobylisy':                     'rare',  // WWII shooting range memorial
+  'bazilika-sv-margarety':        'rare',  // Břevnov monastery, oldest in Bohemia
   'anthony':                      'rare',
   'kostel-sv-jana-na-skalce':     'rare',
   'pamatnik-palacha-zajice':      'rare',
