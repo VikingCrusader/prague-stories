@@ -14,6 +14,7 @@ const RARITIES = ['common', 'rare', 'epic', 'mythic', 'legend'];
 export default function MapPage() {
   const { lang } = useLang();
   const t = useT();
+  const convert = useConvert();
   const navigate = useNavigate();
   const [locations, setLocations]       = useState([]);
   const [selectedSlug, setSelectedSlug] = useState(null);
@@ -150,7 +151,7 @@ export default function MapPage() {
                       className={`label-pill${activeLabels.has(key) ? ' label-pill--active' : ''}`}
                       onClick={() => toggleLabel(key)}
                     >
-                      {lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en}
+                      {convert(lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en)}
                     </button>
                   ))}
                   {activeLabels.size > 0 && (
@@ -185,7 +186,7 @@ export default function MapPage() {
                         background: `${RARITY_COLOR[r]}18`,
                       } : undefined}
                     >
-                      ◆ {RARITY_LABEL[lang]?.[r] ?? r}
+                      ◆ {convert(RARITY_LABEL[lang]?.[r] ?? r)}
                     </button>
                   ))}
                   {activeRarities.size > 0 && (
@@ -321,7 +322,7 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
       </div>
 
       <div style={{ padding: 20 }}>
-        <h3 className="px-title" style={{ fontSize: 10, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 4 : 12, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>{getLocName(loc, lang)}</h3>
+        <h3 className="px-title" style={{ fontSize: 10, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 4 : 12, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>{convert(getLocName(loc, lang))}</h3>
         {lang !== 'cz' && loc.localizedNames?.cz && (
           <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: 'var(--text-muted)', marginBottom: 12 }}>{loc.localizedNames.cz}</p>
         )}
@@ -333,7 +334,7 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
               title={LABEL_DEFINITIONS[lb]?.en}
               style={{ backgroundColor: LABEL_COLORS[lb] || 'rgba(255,255,255,0.07)' }}
             >
-              {LABEL_DEFINITIONS[lb]?.[lang] || LABEL_DEFINITIONS[lb]?.en || lb}
+              {convert(LABEL_DEFINITIONS[lb]?.[lang] || LABEL_DEFINITIONS[lb]?.en || lb)}
             </span>
           ))}
         </div>
@@ -345,7 +346,7 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
             flexShrink: 0,
           }} />
           <span style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>
-            {RARITY_LABEL[lang]?.[loc.rarity ?? 'common']}
+            {convert(RARITY_LABEL[lang]?.[loc.rarity ?? 'common'])}
           </span>
           <span style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: 'var(--gold)', marginLeft: 4 }}>+{loc.xpReward} XP</span>
           {loc.unlocked && <span style={{ marginLeft: 4, color: '#8eff8e', fontFamily: "'Press Start 2P'", fontSize: 6 }}>{t('common.visited')}</span>}

@@ -1,15 +1,17 @@
 import { useState, useEffect } from 'react';
+import { Navigate } from 'react-router-dom';
 import { userAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
-import { useT, useLang } from '../context/LanguageContext';
+import { useT, useLang, useConvert } from '../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../utils/pixelArtMap';
 import ProgressRing from '../components/dashboard/ProgressRing';
 import AchievementBadge from '../components/dashboard/AchievementBadge';
 
 export default function DashboardPage() {
-  const { user }         = useAuth();
+  const { user, guest }  = useAuth();
   const t                = useT();
   const { lang }         = useLang();
+  const convert          = useConvert();
   const [progress, setProgress] = useState(null);
   const [achData, setAchData]   = useState(null);
   const [loading, setLoading]   = useState(true);
@@ -20,6 +22,7 @@ export default function DashboardPage() {
       .finally(() => setLoading(false));
   }, []);
 
+  if (guest && !user) return <Navigate to="/login" replace />;
   if (loading) return (
     <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <div className="spinner" />
@@ -87,11 +90,10 @@ export default function DashboardPage() {
           <div className="stat-card__label" style={{ marginBottom: 14 }}>{t('dashboard.categoryBreakdown')}</div>
           {Object.entries(LABEL_DEFINITIONS)
             .filter(([key]) => (labelCount?.[key] || 0) > 0)
-            .sort(([, a], [, b]) => (labelCount?.[b.en] || 0) - (labelCount?.[a.en] || 0))
-            .slice(0, 8)
+            .sort(([keyA], [keyB]) => (labelCount?.[keyB] || 0) - (labelCount?.[keyA] || 0))
             .map(([key, def]) => (
               <div key={key} style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8, fontSize: 16 }}>
-                <span>{def.emoji} {lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en}</span>
+                <span>{def.emoji} {convert(lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en)}</span>
                 <span style={{ color: 'var(--gold)' }}>{labelCount?.[key] || 0}</span>
               </div>
             ))
