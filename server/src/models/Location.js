@@ -23,13 +23,12 @@ const locationSchema = new mongoose.Schema({
   wikipediaUrl: { type: String, default: '' },
   coverImage:   { type: String, default: '' },
   pixelArtKey:  { type: String, default: '' },
-  isPreset:     { type: Boolean, default: false },
   addedBy:      { type: mongoose.Schema.Types.ObjectId, ref: 'User', default: null },
   xpReward:     { type: Number, default: 10 },
   rarity:       { type: String, enum: ['common', 'rare', 'epic', 'mythic', 'legend'], default: 'common' },
 }, { timestamps: true });
 
 locationSchema.index({ labels: 1 });
-locationSchema.index({ isPreset: 1 });
+locationSchema.index({ addedBy: 1 });
 
 export default mongoose.model('Location', locationSchema);

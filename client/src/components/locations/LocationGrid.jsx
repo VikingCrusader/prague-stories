@@ -82,7 +82,7 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
   }, [locations, discovered, activeLabels, activeRarities, search]);
 
   const unlocked = locations.filter(l => l.unlocked).length;
-  const total    = locations.filter(l => l.isPreset).length;
+  const total    = locations.length;
 
   return (
     <>

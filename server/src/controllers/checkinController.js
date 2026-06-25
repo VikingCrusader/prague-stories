@@ -64,7 +64,7 @@ export async function checkIn(req, res, next) {
       const cat = ci.location.category;
       categoryCount[cat] = (categoryCount[cat] || 0) + 1;
       checkedSlugs.push(ci.location.slug);
-      if (ci.location.isPreset) presetCheckins++;
+      if (!ci.location.addedBy) presetCheckins++;
     }
 
     const customLocations = await Location.countDocuments({ addedBy: user._id });

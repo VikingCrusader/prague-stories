@@ -19,11 +19,16 @@ export const authAPI = {
 };
 
 export const locationAPI = {
-  getAll:  (params)       => api.get('/locations', { params }),
-  getOne:  (slug)         => api.get(`/locations/${slug}`),
-  create:  (data)         => api.post('/locations', data),
-  update:  (slug, data)   => api.put(`/locations/${slug}`, data),
-  remove:  (slug)         => api.delete(`/locations/${slug}`),
+  getAll:       (params)       => api.get('/locations', { params }),
+  getOne:       (slug)         => api.get(`/locations/${slug}`),
+  create:       (data)         => api.post('/locations', data),
+  update:       (slug, data)   => api.put(`/locations/${slug}`, data),
+  remove:       (slug)         => api.delete(`/locations/${slug}`),
+  uploadCover:  (slug, file)   => {
+    const fd = new FormData();
+    fd.append('cover', file);
+    return api.post(`/locations/${slug}/cover`, fd);
+  },
 };
 
 export const checkinAPI = {

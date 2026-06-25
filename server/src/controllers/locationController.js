@@ -1,7 +1,23 @@
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import multer from 'multer';
+import sharp from 'sharp';
 import Location from '../models/Location.js';
 import CheckIn from '../models/CheckIn.js';
 import { generateLocationDescription } from '../services/claudeService.js';
 import { RARITY_XP } from '../data/rarityMap.js';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const PIXEL_ART_DIR = path.resolve(__dirname, '../../../client/public/pixel-art');
+
+export const upload = multer({
+  storage: multer.memoryStorage(),
+  fileFilter: (_req, file, cb) => {
+    if (/^image\/(jpeg|png|webp)$/.test(file.mimetype)) cb(null, true);
+    else cb(new Error('Only JPEG, PNG, and WebP images are allowed'));
+  },
+});
 
 export async function getLocations(req, res, next) {
   try {
@@ -39,8 +55,6 @@ export async function getLocation(req, res, next) {
     if (!location.description.en || !location.description.cz || !location.description.zh) {
       try {
         const desc = await generateLocationDescription(location.name, location.labels?.[0] || 'architecture');
-        // Only fill languages that are still empty — never overwrite user-saved text.
-        // Use $set on dot-paths so a concurrent user edit can't be clobbered.
         const patch = {};
         if (!location.description.en && desc.en) patch['description.en'] = desc.en;
         if (!location.description.cz && desc.cz) patch['description.cz'] = desc.cz;
@@ -85,13 +99,12 @@ export async function updateLocation(req, res, next) {
     const location = await Location.findOne({ slug: req.params.slug });
     if (!location) return res.status(404).json({ message: 'Location not found' });
 
-    const { name, localizedNames, labels, coordinates, wikipediaUrl, description, coverImage, rarity } = req.body;
+    const { name, localizedNames, labels, coordinates, wikipediaUrl, description, rarity } = req.body;
 
     if (name)                             location.name        = name;
     if (labels)                           location.labels      = Array.isArray(labels) ? labels : [labels];
     if (coordinates?.lat != null && coordinates?.lng != null) location.coordinates = coordinates;
     if (wikipediaUrl !== undefined)        location.wikipediaUrl = wikipediaUrl;
-    if (coverImage   !== undefined)        location.coverImage  = coverImage;
     if (rarity && RARITY_XP[rarity]) {
       location.rarity   = rarity;
       location.xpReward = RARITY_XP[rarity];
@@ -117,13 +130,9 @@ export async function updateLocation(req, res, next) {
 
 export async function createLocation(req, res, next) {
   try {
-    const { name, labels, coordinates, wikipediaUrl, description, coverImage } = req.body;
+    const { name, localizedNames, labels, coordinates, wikipediaUrl, rarity, description } = req.body;
     if (!name || !coordinates?.lat || !coordinates?.lng) {
       return res.status(400).json({ message: 'name and coordinates are required' });
-    }
-
-    if (coverImage && Buffer.byteLength(coverImage, 'utf8') > 2 * 1024 * 1024) {
-      return res.status(400).json({ message: 'Cover image must be under 2 MB' });
     }
 
     const slug = name.toLowerCase()
@@ -132,21 +141,48 @@ export async function createLocation(req, res, next) {
       .replace(/-+/g, '-')
       .trim() + '-' + Date.now();
 
+    const resolvedRarity = rarity && RARITY_XP[rarity] ? rarity : 'common';
+
     const location = await Location.create({
       name,
       slug,
+      localizedNames: localizedNames || {},
       labels: Array.isArray(labels) ? labels : [],
       coordinates,
       wikipediaUrl: wikipediaUrl || '',
-      description:  description ? { en: description, cz: '', zh: '' } : undefined,
-      coverImage:   coverImage || '',
-      isPreset: false,
-      addedBy: req.user._id,
-      xpReward: 10,
-      rarity: 'common',
+      description: description && typeof description === 'object'
+        ? { en: description.en || '', cz: description.cz || '', zh: description.zh || '' }
+        : {},
+      addedBy:  req.user._id,
+      rarity:   resolvedRarity,
+      xpReward: RARITY_XP[resolvedRarity],
     });
 
     res.status(201).json(location);
+  } catch (err) {
+    next(err);
+  }
+}
+
+export async function uploadCoverImage(req, res, next) {
+  try {
+    if (!req.file) return res.status(400).json({ message: 'No image file provided' });
+
+    const location = await Location.findOne({ slug: req.params.slug });
+    if (!location) return res.status(404).json({ message: 'Location not found' });
+
+    // Delete previous cover file if it lived in the pixel-art folder
+    if (location.coverImage?.startsWith('/pixel-art/')) {
+      fs.unlink(path.join(PIXEL_ART_DIR, path.basename(location.coverImage)), () => {});
+    }
+
+    const destPath = path.join(PIXEL_ART_DIR, `${req.params.slug}.webp`);
+    await sharp(req.file.buffer).webp({ quality: 85 }).toFile(destPath);
+
+    location.coverImage = `/pixel-art/${req.params.slug}.webp`;
+    await location.save();
+
+    res.json(location.toObject());
   } catch (err) {
     next(err);
   }

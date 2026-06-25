@@ -4,8 +4,6 @@ import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
 import { useLang } from '../../context/LanguageContext';
 import { RARITY_XP, RARITY_COLOR, RARITY_LABEL } from '../../utils/rarity';
 
-const MAX_BYTES = 1 * 1024 * 1024;
-
 export default function EditLocationForm({ location, onClose, onUpdated }) {
   const { lang } = useLang();
   const [form, setForm] = useState({
@@ -20,8 +18,8 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
     descZh:       location.description?.zh        || '',
   });
   const [selectedLabels, setSelectedLabels] = useState(location.labels || []);
-  const [coverImage, setCoverImage] = useState(location.coverImage || '');
-  const [preview, setPreview]       = useState(location.coverImage || '');
+  const [coverFile, setCoverFile] = useState(null);
+  const [preview, setPreview]     = useState(location.coverImage || '');
   const [error, setError]           = useState('');
   const [loading, setLoading]       = useState(false);
 
@@ -75,10 +73,9 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
   const handleImage = e => {
     const file = e.target.files?.[0];
     if (!file) return;
-    if (file.size > MAX_BYTES) { setError('Image must be under 1 MB'); e.target.value = ''; return; }
-    const reader = new FileReader();
-    reader.onload = ev => { setCoverImage(ev.target.result); setPreview(ev.target.result); setError(''); };
-    reader.readAsDataURL(file);
+    setCoverFile(file);
+    setPreview(URL.createObjectURL(file));
+    setError('');
   };
 
   const submit = async e => {
@@ -98,9 +95,13 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
         wikipediaUrl:   form.wikipediaUrl,
         rarity:         form.rarity,
         description:    { en: form.descEn, cz: form.descCz, zh: form.descZh },
-        coverImage,
       });
-      onUpdated(res.data);
+      let updated = res.data;
+      if (coverFile) {
+        const coverRes = await locationAPI.uploadCover(location.slug, coverFile);
+        updated = coverRes.data;
+      }
+      onUpdated(updated);
       onClose();
     } catch (err) {
       setError(err.response?.data?.message || 'Failed to save changes');
@@ -194,7 +195,6 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
             <div className="form-group">
               <label className="form-label">Cover Photo</label>
               <input type="file" accept="image/jpeg,image/png,image/webp" onChange={handleImage} style={{ color: 'var(--text-primary)', fontSize: 14, width: '100%' }} />
-              <span style={{ fontSize: 12, color: 'var(--text-muted)' }}>Max 1 MB · replaces existing image</span>
             </div>
 
             {error && <p className="form-error">{error}</p>}

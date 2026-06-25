@@ -8,13 +8,13 @@ export async function getProfile(req, res) {
 
 export async function getProgress(req, res, next) {
   try {
-    const totalPreset = await Location.countDocuments({ isPreset: true });
+    const totalPreset = await Location.countDocuments({ addedBy: null });
 
     const allCheckins = await CheckIn.find({ user: req.user._id })
-      .populate('location', 'isPreset labels slug')
+      .populate('location', 'addedBy labels slug')
       .lean();
 
-    const presetCheckins = allCheckins.filter(c => c.location?.isPreset).length;
+    const presetCheckins = allCheckins.filter(c => !c.location?.addedBy).length;
     const unlockPercent = totalPreset > 0
       ? Math.round((presetCheckins / totalPreset) * 100)
       : 0;
