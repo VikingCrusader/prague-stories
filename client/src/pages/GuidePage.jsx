@@ -44,7 +44,7 @@ const CONTENT = {
       "◆ Rare — +20 XP. Worth seeking out. Smart tourists find them. First-timers mostly walk past.",
       "◆ Epic — +30 XP. Hidden gems locals know and tourists don't. Requires effort, curiosity, and occasionally two tram transfers.",
       "◆ Mythic — +40 XP. Extremely hard to find, rarely visited, yet historically or culturally significant. You will not stumble upon these.",
-      "◆ Legend — +50 XP. Prague's most magnificent and iconic landmarks. If you haven't been here, you haven't really been to Prague.",
+      "◆ Legendary — +50 XP. Prague's most magnificent and iconic landmarks. If you haven't been here, you haven't really been to Prague.",
     ],
     xpOutro: "8 levels total: from Lost Tourist to Prague Legend. The gold cards know where you need to go.",
     achTitle: "Achievements",

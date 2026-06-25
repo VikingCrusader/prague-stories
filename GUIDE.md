@@ -110,7 +110,7 @@ Each location has a **rarity** — a Hearthstone-style card tier that tells you 
 | ◆ **Rare** | +20 | Worth seeking out. Smart tourists find them. First-timers mostly walk past. |
 | ◆ **Epic** | +30 | Hidden gems that locals know. Requires effort, curiosity, and occasionally two tram transfers. |
 | ◆ **Mythic** | +40 | Extremely hard to find, rarely visited, yet historically or culturally significant. You will not stumble upon these. |
-| ◆ **Legend** | +50 | Prague's most magnificent and iconic landmarks. If you haven't been here, you haven't really been to Prague. |
+| ◆ **Legendary** | +50 | Prague's most magnificent and iconic landmarks. If you haven't been here, you haven't really been to Prague. |
 
 The rarity is visible as a coloured diamond on every card (ivory → sky blue → purple → crimson → gold). The card border matches. The location name matches. Everything is colour-coded. The game wants you to feel things about a gold card.
 
@@ -152,7 +152,7 @@ Preset locations (the 240 landmarks in the base game) cannot be deleted. The ser
 
 - **Hidden Gems pay the most XP.** Open the Explore filter, pick Hidden Gem, go to those places first. Thank yourself later.
 
-- **Epic and Legend locations pay the most XP.** Open the Rarity filter, select Epic or Legend, and go there first. The XP is proportional to the effort — and the effort is proportional to how few other tourists are present.
+- **Epic and Legend locations pay the most XP.** Open the Rarity filter, select Epic or Legendary, and go there first. The XP is proportional to the effort — and the effort is proportional to how few other tourists are present.
 
 - **The Dashboard category breakdown is a conscience.** If you have zero Entertainment check-ins, the game is gently suggesting you have been too focused on castles and should have lunch.
 

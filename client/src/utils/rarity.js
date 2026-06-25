@@ -9,7 +9,7 @@ export const RARITY_COLOR = {
 };
 
 export const RARITY_LABEL = {
-  en: { common: 'Common', rare: 'Rare', epic: 'Epic', mythic: 'Mythic',     legend: 'Legend' },
+  en: { common: 'Common', rare: 'Rare', epic: 'Epic', mythic: 'Mythic',     legend: 'Legendary' },
   cz: { common: 'Běžné',  rare: 'Vzácné', epic: 'Epické', mythic: 'Mýtické', legend: 'Legendární' },
   zh: { common: '常见',   rare: '稀有',   epic: '史诗',   mythic: '神话',     legend: '传说' },
 };

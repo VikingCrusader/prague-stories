@@ -5,15 +5,7 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "seed": "node src/data/seed.js",
-    "seed:descriptions": "node src/data/seedDescriptions.js",
-    "seed:static": "node src/data/seedDescriptionsStatic.js",
-    "seed:localnames": "node src/data/seedLocalizedNames.js",
-    "seed:new": "node src/data/seedNewLocations.js",
-    "update:coords": "node src/data/updateCoordinates.js",
-"export:locations": "node src/data/exportLocations.js",
-"seed:batch21": "node src/data/seedBatch21.js",
-"migrate:desc-greeting": "node src/data/migrateDescGreeting.js"
+    "export:locations": "node src/data/exportLocations.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
