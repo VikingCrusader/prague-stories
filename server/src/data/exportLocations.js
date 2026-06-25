@@ -23,7 +23,7 @@ function esc(str) {
 async function run() {
   await connectDB();
 
-  const locations = await Location.find({ addedBy: null })
+  const locations = await Location.find({})
     .sort({ createdAt: 1 })
     .lean();
 

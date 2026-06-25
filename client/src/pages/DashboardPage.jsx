@@ -3,11 +3,12 @@ import { userAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../utils/pixelArtMap';
+import { RARITY_COLOR, RARITY_LABEL } from '../utils/rarity';
 import ProgressRing from '../components/dashboard/ProgressRing';
 import AchievementBadge from '../components/dashboard/AchievementBadge';
 
 export default function DashboardPage() {
-  const { user }         = useAuth();
+  const { user, guest }  = useAuth();
   const t                = useT();
   const { lang }         = useLang();
   const convert          = useConvert();
@@ -27,14 +28,14 @@ export default function DashboardPage() {
     </div>
   );
 
-  const { levelInfo, totalXP, totalCheckins, unlockPercent, labelCount, totalPreset } = progress;
+  const { levelInfo, totalXP, totalCheckins, unlockPercent, labelCount, rarityCount, totalPreset } = progress;
   const { achievements, levels } = achData;
   const unlockedAch = achievements.filter(a => a.unlocked).length;
 
   return (
     <div className="dashboard-page">
-      <h1 className="px-title" style={{ fontSize: 13, marginBottom: 20 }}>
-        {t('dashboard.title')}
+      <h1 className="px-title" style={{ fontSize: guest ? 10 : 13, marginBottom: 20 }}>
+        {guest && !user ? t('dashboard.titleGuest') : t('dashboard.title')}
       </h1>
 
       {/* Level + XP */}
@@ -42,7 +43,9 @@ export default function DashboardPage() {
         <div className="level-badge">
           <span className="level-badge__num">LVL {levelInfo.level}</span>
           <div>
-            <div className="level-badge__title">{levelInfo.title}</div>
+            <div className="level-badge__title">
+              {convert(lang === 'zh' ? (levelInfo.title_zh ?? levelInfo.title) : lang === 'cz' ? (levelInfo.title_cz ?? levelInfo.title) : levelInfo.title)}
+            </div>
             <div style={{ fontSize: 14, color: 'var(--text-muted)' }}>
               {user?.username}
             </div>
@@ -85,20 +88,50 @@ export default function DashboardPage() {
 
         {/* Label Breakdown */}
         <div className="stat-card">
-          <div className="stat-card__label" style={{ marginBottom: 14 }}>{t('dashboard.categoryBreakdown')}</div>
-          {Object.entries(LABEL_DEFINITIONS)
-            .filter(([key]) => (labelCount?.[key] || 0) > 0)
-            .sort(([keyA], [keyB]) => (labelCount?.[keyB] || 0) - (labelCount?.[keyA] || 0))
-            .map(([key, def]) => (
-              <div key={key} style={{ display: 'flex', justifyContent: 'space-between', marginBottom: 8, fontSize: 16 }}>
-                <span>{def.emoji} {convert(lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en)}</span>
-                <span style={{ color: 'var(--gold)' }}>{labelCount?.[key] || 0}</span>
+          <div className="stat-card__label" style={{ marginBottom: 10 }}>{t('dashboard.categoryBreakdown')}</div>
+          {(() => {
+            const isGuest = guest && !user;
+            const entries = Object.entries(LABEL_DEFINITIONS)
+              .filter(([key]) => isGuest || (labelCount?.[key] || 0) > 0)
+              .sort(([keyA], [keyB]) => (labelCount?.[keyB] || 0) - (labelCount?.[keyA] || 0));
+            if (!isGuest && entries.length === 0) {
+              return <div style={{ color: 'var(--text-muted)', fontSize: 15 }}>—</div>;
+            }
+            return (
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: 6 }}>
+                {entries.map(([key, def]) => (
+                  <div key={key} style={{
+                    display: 'flex', alignItems: 'center', gap: 5,
+                    background: 'var(--bg-secondary, #1a1a1a)',
+                    border: '2px solid var(--border, #333)',
+                    padding: '4px 8px',
+                    fontSize: 13,
+                  }}>
+                    <span>{def.emoji} {convert(lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en)}</span>
+                    <span style={{ color: 'var(--gold)', fontFamily: "'Press Start 2P'", fontSize: 8 }}>
+                      {labelCount?.[key] || 0}
+                    </span>
+                  </div>
+                ))}
               </div>
-            ))
-          }
-          {Object.values(labelCount || {}).every(v => v === 0) && (
-            <div style={{ color: 'var(--text-muted)', fontSize: 15 }}>—</div>
-          )}
+            );
+          })()}
+        </div>
+
+        {/* Rarity Breakdown */}
+        <div className="stat-card" style={{ gridColumn: '1 / -1', padding: '12px 20px' }}>
+          <div className="stat-card__label" style={{ marginBottom: 10 }}>{t('dashboard.rarityBreakdown')}</div>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+            {['common', 'rare', 'epic', 'mythic', 'legend'].map(r => (
+              <div key={r} style={{ display: 'flex', alignItems: 'center', gap: 6, color: RARITY_COLOR[r] }}>
+                <span style={{ fontSize: 16 }}>◆</span>
+                <span style={{ fontSize: 16 }}>{convert(RARITY_LABEL[lang]?.[r] ?? RARITY_LABEL.en[r])}</span>
+                <span style={{ fontFamily: "'Press Start 2P'", fontSize: 11 }}>
+                  {rarityCount?.[r] ?? 0}
+                </span>
+              </div>
+            ))}
+          </div>
         </div>
 
         {/* Stats row */}
@@ -131,7 +164,7 @@ export default function DashboardPage() {
                 LVL {lvl.level}
               </div>
               <div style={{ fontSize: 14, color: levelInfo.level >= lvl.level ? 'var(--text-primary)' : '#555' }}>
-                {lvl.title}
+                {convert(lang === 'zh' ? (lvl.title_zh ?? lvl.title) : lang === 'cz' ? (lvl.title_cz ?? lvl.title) : lvl.title)}
               </div>
               <div style={{ fontSize: 12, color: '#555' }}>{lvl.xpRequired} XP</div>
             </div>
