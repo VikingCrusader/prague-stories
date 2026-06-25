@@ -55,24 +55,29 @@ export async function checkIn(req, res, next) {
 
     // Gather stats for achievement evaluation
     const allCheckins = await CheckIn.find({ user: user._id }).populate('location').lean();
-    const categoryCount = {};
+    const labelCount = {};
     const checkedSlugs = [];
     let presetCheckins = 0;
 
     for (const ci of allCheckins) {
       if (!ci.location) continue;
-      const cat = ci.location.category;
-      categoryCount[cat] = (categoryCount[cat] || 0) + 1;
+      for (const lb of (ci.location.labels || [])) {
+        labelCount[lb] = (labelCount[lb] || 0) + 1;
+      }
       checkedSlugs.push(ci.location.slug);
       if (!ci.location.addedBy) presetCheckins++;
     }
 
-    const customLocations = await Location.countDocuments({ addedBy: user._id });
+    const [customLocations, totalLocations] = await Promise.all([
+      Location.countDocuments({ addedBy: user._id }),
+      Location.countDocuments({}),
+    ]);
 
     const stats = {
       totalCheckins: allCheckins.length,
       presetCheckins,
-      categoryCount,
+      totalLocations,
+      labelCount,
       checkedSlugs,
       customLocations,
     };

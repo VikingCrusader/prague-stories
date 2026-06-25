@@ -1,61 +1,96 @@
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
 :root {
-  --bg-primary:    #0d0f1e;
-  --bg-surface:    #141830;
-  --bg-card:       #111428;
-  --text-primary:  #f0e6c8;
-  --text-muted:    #7a6e5f;
-  --gold:          #ffd700;
-  --gold-dark:     #b89b00;
-  --gold-shadow:   #7a6600;
-  --border:        #252a4a;
+  --bg-primary: #0d0f1e;
+  --bg-surface: #141830;
+  --bg-card: #111428;
+  --text-primary: #f0e6c8;
+  --text-muted: #7a6e5f;
+  --gold: #ffd700;
+  --gold-dark: #b89b00;
+  --gold-shadow: #7a6600;
+  --border: #252a4a;
 
-  --cat-historical:    #7a5210;
-  --cat-cultural:      #5a1480;
-  --cat-natural:       #145a20;
-  --cat-hidden-gem:    #0a3a7a;
+  --cat-historical: #7a5210;
+  --cat-cultural: #5a1480;
+  --cat-natural: #145a20;
+  --cat-hidden-gem: #0a3a7a;
   --cat-entertainment: #7a0a40;
 }
 
-html, body { height: 100%; }
+html,
+body {
+  height: 100%;
+}
 
 body {
-  font-family: 'VT323', monospace;
+  font-family: "VT323", monospace;
   background: var(--bg-primary);
   color: var(--text-primary);
   font-size: 20px;
   line-height: 1.5;
 }
 
-#root { min-height: 100vh; display: flex; flex-direction: column; }
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
 
-a { color: var(--gold); text-decoration: none; }
-a:hover { text-decoration: underline; }
-button { cursor: pointer; font-family: inherit; }
-input, select, textarea { font-family: inherit; }
+a {
+  color: var(--gold);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+button {
+  cursor: pointer;
+  font-family: inherit;
+}
+input,
+select,
+textarea {
+  font-family: inherit;
+}
 
-::-webkit-scrollbar { width: 6px; }
-::-webkit-scrollbar-track { background: var(--bg-primary); }
-::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--border);
+  border-radius: 3px;
+}
 
 /* ── Ark Pixel Font (方舟像素字体) — auto-downloaded to client/public/fonts/ ── */
 @font-face {
-  font-family: 'ArkPixel';
-  src: url('/fonts/ark-pixel-12px-zh.woff2') format('woff2');
+  font-family: "ArkPixel";
+  src: url("/fonts/ark-pixel-12px-zh.woff2") format("woff2");
   font-display: swap;
   unicode-range: U+3000-9FFF, U+F900-FAFF, U+FF00-FFEF, U+20000-2A6DF;
 }
 @font-face {
-  font-family: 'ArkPixel';
-  src: url('/fonts/ark-pixel-12px-latin.woff2') format('woff2');
+  font-family: "ArkPixel";
+  src: url("/fonts/ark-pixel-12px-latin.woff2") format("woff2");
   font-display: swap;
-  unicode-range: U+0000-024F, U+0250-02FF, U+2000-206F, U+20A0-20CF, U+2100-214F;
+  unicode-range:
+    U+0000-024F, U+0250-02FF, U+2000-206F, U+20A0-20CF, U+2100-214F;
 }
 
 /* ── Chinese font overrides ─────────────────────────────── */
 html[data-lang="zh"] body {
-  font-family: 'ArkPixel', 'Microsoft YaHei', 'ZCOOL QingKe HuangYou', 'Noto Sans SC', 'PingFang SC', 'Hiragino Sans GB', 'SimHei', sans-serif;
+  font-family:
+    "ArkPixel", "Microsoft YaHei", "ZCOOL QingKe HuangYou", "Noto Sans SC",
+    "PingFang SC", "Hiragino Sans GB", "SimHei", sans-serif;
 }
 
 html[data-lang="zh"] .px-title,
@@ -70,31 +105,71 @@ html[data-lang="zh"] .label-pill,
 html[data-lang="zh"] .ach-badge__name,
 html[data-lang="zh"] .form-label,
 html[data-lang="zh"] .toast {
-  font-family: 'ArkPixel', 'PingFang SC', 'Hiragino Sans GB', '-apple-system', 'Microsoft YaHei', 'Noto Sans SC', 'SimHei', sans-serif !important;
+  font-family:
+    "ArkPixel", "PingFang SC", "-apple-system", "Microsoft YaHei",
+    "Noto Sans SC", "SimHei", sans-serif !important;
   letter-spacing: 0 !important;
   text-transform: none !important;
 }
 
 html[data-lang="zh"] [style*="Press Start 2P"] {
-  font-family: 'ArkPixel', 'PingFang SC', 'Hiragino Sans GB', '-apple-system', 'Microsoft YaHei', 'Noto Sans SC', 'SimHei', sans-serif !important;
+  font-family:
+    "ArkPixel", "PingFang SC", "-apple-system", "Microsoft YaHei",
+    "Noto Sans SC", "SimHei", sans-serif !important;
   letter-spacing: 0 !important;
 }
 
-html[data-lang="zh"] .px-title    { font-size: 20px !important; }
-html[data-lang="zh"] .navbar__logo { font-size: 20px !important; }
-html[data-lang="zh"] .navbar__link { font-size: 16px !important; }
-html[data-lang="zh"] .px-btn { font-size: 14px !important; }
-html[data-lang="zh"] .px-btn--sm { font-size: 13px !important; }
-html[data-lang="zh"] .px-btn--lg { font-size: 16px !important; }
-html[data-lang="zh"] .lang-tab { font-size: 14px !important; }
-html[data-lang="zh"] .filter-btn { font-size: 14px !important; }
-html[data-lang="zh"] .stat-card__label { font-size: 14px !important; }
-html[data-lang="zh"] .loc-card__name { font-size: 16px !important; }
-html[data-lang="zh"] .label-pill { font-size: 13px !important; }
-html[data-lang="zh"] .detail-label-pill { font-size: 13px !important; font-weight: 700; }
-html[data-lang="zh"] .ach-badge__name { font-size: 13px !important; }
-html[data-lang="zh"] .form-label { font-size: 14px !important; }
-html[data-lang="zh"] .toast { font-size: 14px !important; }
-html[data-lang="zh"] [style*="Press Start 2P"] { font-size: 14px !important; }
+html[data-lang="zh"] .px-title {
+  font-size: 20px !important;
+}
+html[data-lang="zh"] .navbar__logo {
+  font-size: 20px !important;
+}
+html[data-lang="zh"] .navbar__link {
+  font-size: 16px !important;
+}
+html[data-lang="zh"] .px-btn {
+  font-size: 14px !important;
+}
+html[data-lang="zh"] .px-btn--sm {
+  font-size: 13px !important;
+}
+html[data-lang="zh"] .px-btn--lg {
+  font-size: 16px !important;
+}
+html[data-lang="zh"] .lang-tab {
+  font-size: 14px !important;
+}
+html[data-lang="zh"] .filter-btn {
+  font-size: 14px !important;
+}
+html[data-lang="zh"] .stat-card__label {
+  font-size: 14px !important;
+}
+html[data-lang="zh"] .loc-card__name {
+  font-size: 16px !important;
+}
+html[data-lang="zh"] .label-pill {
+  font-size: 13px !important;
+}
+html[data-lang="zh"] .detail-label-pill {
+  font-size: 13px !important;
+  font-weight: 700;
+}
+html[data-lang="zh"] .ach-badge__name {
+  font-size: 13px !important;
+}
+html[data-lang="zh"] .form-label {
+  font-size: 14px !important;
+}
+html[data-lang="zh"] .toast {
+  font-size: 14px !important;
+}
+html[data-lang="zh"] [style*="Press Start 2P"] {
+  font-size: 14px !important;
+}
 
-html:not([data-lang="zh"]) .label-pill-sm { font-size: 18px; font-weight: 500; }
+html:not([data-lang="zh"]) .label-pill-sm {
+  font-size: 18px;
+  font-weight: 500;
+}

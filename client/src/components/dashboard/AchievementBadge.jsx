@@ -1,6 +1,6 @@
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 
-export default function AchievementBadge({ achievement }) {
+export default function AchievementBadge({ achievement, onClick }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -16,11 +16,14 @@ export default function AchievementBadge({ achievement }) {
   );
 
   return (
-    <div className={`ach-badge${unlocked ? ' ach-badge--unlocked' : ' ach-badge--locked'}`}>
+    <div
+      className={`ach-badge${unlocked ? ' ach-badge--unlocked' : ' ach-badge--locked'}`}
+      onClick={onClick}
+    >
       <div className="ach-badge__icon" style={{ filter: unlocked ? 'none' : 'grayscale(1) brightness(0.4)' }}>
         {icon}
       </div>
-      <div>
+      <div className="ach-badge__text">
         <div className="ach-badge__name">{displayName}</div>
         <div className="ach-badge__desc">{displayDesc}</div>
         {unlocked && unlockedAt && (

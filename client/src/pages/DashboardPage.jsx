@@ -14,6 +14,7 @@ export default function DashboardPage() {
   const convert          = useConvert();
   const [progress, setProgress] = useState(null);
   const [achData, setAchData]   = useState(null);
+  const [selectedAch, setSelectedAch] = useState(null);
   const [loading, setLoading]   = useState(true);
 
   useEffect(() => {
@@ -176,9 +177,56 @@ export default function DashboardPage() {
       <h2 className="px-title" style={{ fontSize: 10, marginBottom: 14 }}>{t('dashboard.achievements')}</h2>
       <div className="achievements-grid">
         {achievements.map(ach => (
-          <AchievementBadge key={ach.id} achievement={ach} />
+          <AchievementBadge key={ach.id} achievement={ach} onClick={() => setSelectedAch(ach)} />
         ))}
       </div>
+
+      {/* Achievement detail modal */}
+      {selectedAch && (() => {
+        const ach = selectedAch;
+        const modalName = convert(
+          lang === 'zh' ? (ach.name_zh ?? ach.name) :
+          lang === 'cz' ? (ach.name_cz ?? ach.name) : ach.name
+        );
+        const modalDesc = convert(
+          lang === 'zh' ? (ach.description_zh ?? ach.description) :
+          lang === 'cz' ? (ach.description_cz ?? ach.description) : ach.description
+        );
+        return (
+          <div className="px-overlay" onClick={() => setSelectedAch(null)}>
+            <div
+              className="px-modal"
+              style={{ maxWidth: 420, borderColor: ach.unlocked ? 'var(--gold)' : 'var(--border)' }}
+              onClick={e => e.stopPropagation()}
+            >
+              <button className="px-modal__close" onClick={() => setSelectedAch(null)}>✕</button>
+              <div className="px-modal__header" style={{ gap: 20, alignItems: 'center' }}>
+                <span style={{ fontSize: 52, filter: ach.unlocked ? 'none' : 'grayscale(1) brightness(0.4)', flexShrink: 0 }}>
+                  {ach.icon}
+                </span>
+                <div>
+                  <div style={{ fontFamily: "'Press Start 2P'", fontSize: 9, color: ach.unlocked ? 'var(--gold)' : 'var(--text-muted)', lineHeight: 1.6, marginBottom: 8 }}>
+                    {modalName}
+                  </div>
+                  {ach.unlocked && ach.unlockedAt && (
+                    <div style={{ fontSize: 12, color: 'var(--gold)' }}>
+                      {new Date(ach.unlockedAt).toLocaleDateString()}
+                    </div>
+                  )}
+                  {!ach.unlocked && (
+                    <div style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: '#555' }}>
+                      {t('common.locked')}
+                    </div>
+                  )}
+                </div>
+              </div>
+              <div className="px-modal__body" style={{ fontSize: 15, color: 'var(--text-muted)', lineHeight: 1.7 }}>
+                {modalDesc}
+              </div>
+            </div>
+          </div>
+        );
+      })()}
     </div>
   );
 }

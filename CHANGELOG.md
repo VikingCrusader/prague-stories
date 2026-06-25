@@ -4,6 +4,63 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.5.0] — 2026-06-25
+
+**Dashboard overhaul, achievement i18n, achievement logic fixes**
+
+### Dashboard — guest access
+
+- Guests can now enter the Dashboard; server returns zeroed stats + full static achievement/level definitions via `optionalAuth` middleware
+- Guest title replaces "Explorer Dashboard" with a localized call-to-action in EN / CZ / ZH (`dashboard.titleGuest`)
+- Navbar now shows Dashboard link for guests
+
+### Dashboard — UI changes
+
+- Category breakdown replaced with a compact flex-wrap chip grid (multiple labels per row); guests see all labels with 0 counts
+- New **Rarity Breakdown** strip spanning full card width below the category grid — shows ◆ Common / Rare / Epic / Mythic / Legendary counts in each rarity's color
+- `rarityCount` added to both authenticated and guest `/api/user/progress` responses
+- `totalPreset` and `presetCheckins` now count all locations (not just `addedBy: null`) to reflect locations added via the admin flow
+- Translation fixes: `'of {n} preset'` → `'of {n} location cards'`; `'total visits'` / `'总访问次数'` → `'collected'` / `'次收集'`; `'预设'` → `'地点卡片'`
+
+### Achievement badges
+
+- Badges in the grid now clamp name to 2 lines and description to 2 lines (`-webkit-line-clamp`) with `…` overflow — consistent card height across the grid
+- All badges are clickable and open a full detail modal (icon, full name, full description, unlock date or LOCKED label)
+
+### Achievement & level i18n
+
+- All 8 explorer level titles now have `title_cz` / `title_zh` fields; `calculateLevel()` returns them; level badge and roadmap render in the active language
+- All achievements now have `name_cz` / `name_zh` / `description_cz` / `description_zh`; `getAchievements` API includes localized fields; `AchievementBadge` picks the right language with Traditional Chinese conversion applied
+
+### Achievement logic fixes (all previously non-functional)
+
+- `checkinController`: `categoryCount` (built from non-existent `location.category`) replaced with `labelCount` (built from `location.labels`); `totalLocations` added to stats via `Location.countDocuments({})`
+- `bridge_collector`: was missing `check` function entirely → crashed every check-in; fixed to `labelCount["bridge"] >= 10`
+- `artist`: was filtering `checkedSlugs` by substring match on slug strings → fixed to `labelCount["cultural"] >= 20`
+- `church_passionate`: same wrong approach → fixed to `labelCount["church"] >= 50`
+- `history_buff`, `gem_hunter`: used `categoryCount` → fixed to `labelCount["historical"]` / `labelCount["hidden-gem"]`
+- `leisure_seeker`: used `categoryCount["entertainment"]` (no such label) → fixed to `labelCount["restaurants-and-cafes"] + labelCount["park"] >= 30`
+- `veni_vidi_vici`: `labelCount` was not in stats → now available after controller fix
+- `king_of_prague`: `totalLocations` was not in stats → now available after controller fix
+- `subway_maniac`: `"letňany"` slug had Czech special char → corrected to `"letnany"`
+
+### New achievements
+
+- **I'm the King of Prague** — check in all locations
+- **Veni, Vidi, Vici** — check in 10 landmark locations
+- **Subway Maniac** — check in all 6 Prague metro terminal stations
+- **Why are there no penguins in southern pole?** — check in Jižní pól Prahy
+- **Bridge Collector** — check in 10 bridge locations
+- **Artist** — check in 20 cultural locations
+- **Church Passionate** — check in 50 church locations
+- **Leisure Seeker** — check in 30 restaurant/park locations
+
+### Traditional Chinese additions
+
+- `TW_OVERRIDES` expanded: `軟件 → 軟體`, `地鐵 → 捷運`
+
+---
+
 ## [1.4.0] — 2026-06-25
 
 **Guest mode, Traditional Chinese toggle, rarity always visible**

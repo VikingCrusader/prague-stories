@@ -3,6 +3,8 @@ import * as OpenCC from 'opencc-js';
 
 const TW_OVERRIDES = [
   ['服務器', '伺服器'],
+  ['軟件', '軟體'],
+  ['地鐵', '捷運'],
 ];
 
 let _toTW = null;
@@ -14,6 +16,7 @@ function toTW(str) {
 }
 
 const T = {
+  //english
   en: {
     appName: 'Prague Stories',
     'nav.explore': 'Explore',
@@ -113,6 +116,7 @@ const T = {
     'auth.loginToCollect': 'Log in to collect',
     'nav.login': 'Login',
   },
+  //czech
   cz: {
     appName: 'Pražské Příběhy',
     'nav.explore': 'Průzkum',
@@ -212,6 +216,7 @@ const T = {
     'auth.loginToCollect': 'Přihlaste se pro sbírání',
     'nav.login': 'Přihlásit',
   },
+  //chinese
   zh: {
     appName: '布拉格故事',
     'nav.explore': '探索',
@@ -310,6 +315,52 @@ const T = {
     'auth.continueAsGuest': '不登录继续浏览',
     'auth.loginToCollect': '登录后收藏',
     'nav.login': '登录',
+  },
+  //german
+  de: {
+    appName: 'Prager Geschichten',
+    'nav.explore': 'Erkunden',
+    'nav.map': 'Karte',
+    'nav.guide': 'Reiseführer',
+    'nav.dashboard': 'Dashboard',
+    'nav.logout': 'Abmelden',
+    'explore.title': 'Erkunde Prag',
+    'explore.titleGuest': 'Melde dich an, um Prag zu erkunden!',
+    'explore.statsLabel': 'gesammelte Standortkarten',
+    'explore.addLocation': '+ Standort hinzufügen',
+    'grid.searchPlaceholder': 'Standorte suchen...',
+    'grid.filterAll': 'Alle',
+    'grid.filterDiscovered': 'Meine Sammlungen',
+    'grid.filterLabels': 'Etiketten',
+    'grid.filterRarity': 'Seltenheit',
+    'grid.clearLabels': 'Löschen',
+    'grid.showing': 'anzeigen',
+    'grid.noResults': 'Keine Standorte gefunden.',
+    'label.historical': 'Historisch',
+    'label.modern': 'Modern',
+    'label.cultural': 'Kultur & Kunst',
+    'label.museum': 'Museum',
+    'label.monument': 'Denkmal & Statue',
+    'label.communism': 'Kommunismus (Brutalismus)',
+    'label.church': 'Kirche & Kathedrale',
+    'label.bridge': 'Brücke',
+    'label.academy': 'Akademie',
+    'label.architecture': 'Architektur',
+    'label.landmark': 'Wahrzeichen',
+    'label.palace': 'Palast',
+    'label.basilica': 'Basilika',
+    'label.monastery': 'Kloster',
+    'label.village-and-town': 'Dorf & Stadt',
+    'label.park': 'Park & Garten',
+    'label.nature': 'Natur und Landschaft',
+    'label.restaurants-and-cafes': 'Restaurants und Cafés',
+    'label.cafe': 'Café & Restaurant',
+    'label.hidden-gem': 'Verstecktes Juwel',
+    'label.square': 'Platz',
+    'label.transport': 'Transport',
+    'label.tower': 'Turm',
+    'label.street': 'Straße & Nachbarschaft',
+    'label.municipal': 'Kommunal',
   },
 };
 
