@@ -5,7 +5,7 @@ import { useAuth } from '../context/AuthContext';
 import { useT } from '../context/LanguageContext';
 
 export default function LoginPage() {
-  const { login } = useAuth();
+  const { login, continueAsGuest } = useAuth();
   const navigate = useNavigate();
   const t = useT();
   const [form, setForm]     = useState({ email: '', password: '' });
@@ -50,6 +50,13 @@ export default function LoginPage() {
         <p className="form-link">
           {t('auth.noAccount')} <Link to="/register">{t('auth.registerHere')}</Link>
         </p>
+        <button
+          className="px-btn px-btn--dark"
+          style={{ width: '100%', marginTop: 8 }}
+          onClick={() => { continueAsGuest(); navigate('/explore'); }}
+        >
+          {t('auth.continueAsGuest')}
+        </button>
       </div>
     </div>
   );

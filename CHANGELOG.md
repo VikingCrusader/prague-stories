@@ -4,6 +4,82 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.4.0] — 2026-06-25
+
+**Guest mode, Traditional Chinese toggle, rarity always visible**
+
+### Guest mode
+
+- Added "Continue without login" button on the login page
+- Guests can browse Explore, Map, and Guide; cannot collect, add/edit locations, or access Dashboard
+- `AuthContext`: added `guest` boolean state (persisted in `sessionStorage`) and `continueAsGuest()` action; `login()` clears guest state
+- `ProtectedRoute`: new `guestOk` prop — passes through when `guest && guestOk`; Dashboard route stays auth-only
+- `Navbar`: guests see Explore / Map / Guide links; Dashboard link hidden; gold "Login" button replaces logout; `navbar__right .lang-tabs { margin-bottom: 0 }` alignment fix
+- `LocationDetail`: "Log in to collect" button replaces the collect/undo buttons for guests
+- `ExplorePage`: Add Location header button and grid `onAddClick` both hidden for guests; page title changes to "Login to Explore Prague!" in guest mode
+- `MapPage` sidebar: "Log in to collect" button replaces collect/undo for guests
+- New i18n keys in EN / CZ / ZH: `auth.continueAsGuest`, `auth.loginToCollect`, `nav.login`, `explore.titleGuest`
+
+### Rarity visible on locked cards
+
+- Grid card border, rarity diamond, and rarity label now always show the rarity color regardless of locked state (was `transparent` / `rgba(255,255,255,0.2)` / `'???'` for locked)
+
+### Traditional / Simplified Chinese toggle
+
+- Installed `opencc-js` for Simplified → Traditional conversion
+- `LanguageContext`: added `zhVariant` state (`'cn'` | `'tw'`, persisted in `localStorage`); lazy `toTW` singleton initialized on first use; post-processing override table (`服務器 → 伺服器`)
+- New `useConvert()` hook — returns a function that converts a raw string to Traditional if `lang === 'zh' && zhVariant === 'tw'`; no-op for all other modes
+- `LanguageSwitcher`: 繁 / 简 toggle appears only when ZH is selected
+- `useT()`: applies `toTW` to every translated string in Traditional mode
+- `LocationCard`: `useConvert()` applied to card name (`getLocName`), label name, and rarity label
+- `LocationGrid`: `useConvert()` applied to label filter pills and rarity filter pills
+- `LocationDetail`: `useConvert()` applied to card name, rarity label, label pills, and DB description text
+- `MapPage` SidebarDetail: `useConvert()` applied to DB description text
+- `GuidePage`: `deepConvert()` recursively converts the entire `CONTENT` object (all strings, arrays, nested objects) — no per-string changes needed
+
+---
+
+## [1.3.0] — 2026-06-25
+
+**Custom location overhaul: file upload, isPreset removal, form parity, add-form fixes**
+
+### Cover image upload pipeline
+
+- Replaced base64 cover photo storage with a dedicated `POST /api/locations/:slug/cover` endpoint
+- Server uses `multer` (in-memory storage) + `sharp` to convert any JPEG/PNG/WebP upload to WebP at quality 85, saved to `client/public/pixel-art/{slug}.webp` alongside built-in cards
+- Previous cover file is deleted before writing the new one
+- Client: `locationAPI.uploadCover(slug, file)` sends `multipart/form-data`; raw `File` object used (no FileReader/base64); `URL.createObjectURL` for preview
+- Two-step create flow: JSON `POST /locations` creates the location, then a separate cover upload — nested `try/catch` ensures `onAdded` is called even if the cover upload fails, preventing duplicate location creation on retry
+- No file size limits on client or server
+
+### isPreset removal
+
+- `isPreset: Boolean` field removed from `Location` model; replaced by `addedBy: null` (built-in) vs. `addedBy: ObjectId` (custom) as the natural discriminator
+- All controllers, user stats, check-in stats, and export scripts updated: `{ isPreset: true }` → `{ addedBy: null }`, `location.isPreset` → `!location.addedBy`
+- Zero DB migration required
+
+### AddLocationForm parity with EditLocationForm
+
+- Rewritten to match EditLocationForm: Name EN / CZ / ZH, combined Latitude,Longitude coordinate field, Rarity select with XP preview, trilingual description textareas with paste-segmentation, label pills
+- `noValidate autoComplete="off"` on form; explicit React name validation runs before coordinates — fixes browser-native constraint validation triggering one field at a time and appearing to "lose" values
+- Cover photo field accepts JPEG / PNG / WebP; preview replaces the modal header on selection
+
+### Stats fix
+
+- `LocationGrid` `total` was `locations.filter(l => !l.addedBy).length` (255 built-ins only) while `filtered.length` counted all; both now use `locations.length` for consistency
+
+---
+
+## [1.2.4] — 2026-06-25
+
+**Legendary boss descriptions, guide and rarity label updates**
+
+- Added extended "boss" descriptions for all Legendary-tier locations
+- Guide page rarity table and label descriptions updated to reflect the 5-tier system including Mythic
+- Removed spent one-shot migration scripts from `server/src/data/`
+
+---
+
 ## [1.2.3] — 2026-06-25
 
 **Mythic rarity tier, description/rarity revert fixes, Guide overhaul, batch21 pixel art**

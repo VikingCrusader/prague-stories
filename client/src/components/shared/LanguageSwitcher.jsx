@@ -7,18 +7,36 @@ const LANGS = [
 ];
 
 export default function LanguageSwitcher() {
-  const { lang, changeLang } = useLang();
+  const { lang, changeLang, zhVariant, changeZhVariant } = useLang();
   return (
-    <div className="lang-tabs">
-      {LANGS.map(l => (
-        <button
-          key={l.code}
-          className={`lang-tab ${lang === l.code ? 'lang-tab--active' : ''}`}
-          onClick={() => changeLang(l.code)}
-        >
-          {l.label}
-        </button>
-      ))}
+    <div style={{ display: 'flex', alignItems: 'center', gap: 4 }}>
+      <div className="lang-tabs">
+        {LANGS.map(l => (
+          <button
+            key={l.code}
+            className={`lang-tab ${lang === l.code ? 'lang-tab--active' : ''}`}
+            onClick={() => changeLang(l.code)}
+          >
+            {l.label}
+          </button>
+        ))}
+      </div>
+      {lang === 'zh' && (
+        <div className="lang-tabs">
+          <button
+            className={`lang-tab ${zhVariant === 'cn' ? 'lang-tab--active' : ''}`}
+            onClick={() => changeZhVariant('cn')}
+          >
+            简
+          </button>
+          <button
+            className={`lang-tab ${zhVariant === 'tw' ? 'lang-tab--active' : ''}`}
+            onClick={() => changeZhVariant('tw')}
+          >
+            繁
+          </button>
+        </div>
+      )}
     </div>
   );
 }

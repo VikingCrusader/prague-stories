@@ -1,6 +1,6 @@
 import { useState, useRef, useLayoutEffect } from 'react';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap';
-import { useLang } from '../../context/LanguageContext';
+import { useLang, useConvert } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
 import { RARITY_COLOR, RARITY_LABEL } from '../../utils/rarity';
 
@@ -10,8 +10,9 @@ function fmtDist(m) {
 
 export default function LocationCard({ location, onClick, distance }) {
   const { lang } = useLang();
+  const convert = useConvert();
   const { labels = [], pixelArtKey, xpReward, rarity = 'common', unlocked, slug } = location;
-  const name  = getLocName(location, lang);
+  const name  = convert(getLocName(location, lang));
   const art   = getArt(pixelArtKey, labels);
   const color = LABEL_COLORS[labels[0]] || '#1a2a5a';
   const firstLabel = labels[0];
@@ -35,7 +36,7 @@ export default function LocationCard({ location, onClick, distance }) {
       className={`loc-card${unlocked ? '' : ' loc-card--locked'}`}
       onClick={() => onClick(slug)}
       title={unlocked ? name : '???'}
-      style={{ border: `3px solid ${unlocked ? RARITY_COLOR[rarity] : 'transparent'}` }}
+      style={{ border: `3px solid ${RARITY_COLOR[rarity]}` }}
     >
       <div className="loc-card__banner" style={{ background: color }}>
         {location.coverImage ? (
@@ -76,7 +77,7 @@ export default function LocationCard({ location, onClick, distance }) {
               style={{ backgroundColor: unlocked ? (LABEL_COLORS[firstLabel] || 'rgba(255,255,255,0.07)') : 'rgba(255,255,255,0.05)' }}
             >
               {unlocked
-                ? (LABEL_DEFINITIONS[firstLabel]?.[lang] || LABEL_DEFINITIONS[firstLabel]?.en || firstLabel)
+                ? convert(LABEL_DEFINITIONS[firstLabel]?.[lang] || LABEL_DEFINITIONS[firstLabel]?.en || firstLabel)
                 : '???'}
             </span>
           </div>
@@ -85,12 +86,12 @@ export default function LocationCard({ location, onClick, distance }) {
           <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
             <span style={{
               display: 'inline-block', width: 8, height: 8,
-              background: unlocked ? RARITY_COLOR[rarity] : 'rgba(255,255,255,0.2)',
+              background: RARITY_COLOR[rarity],
               clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',
               flexShrink: 0,
             }} />
-            <div className="loc-card__xp" style={{ color: unlocked ? RARITY_COLOR[rarity] : undefined }}>
-              {unlocked ? RARITY_LABEL[lang]?.[rarity] ?? rarity : '???'}
+            <div className="loc-card__xp" style={{ color: RARITY_COLOR[rarity] }}>
+              {convert(RARITY_LABEL[lang]?.[rarity] ?? rarity)}
             </div>
           </div>
           {distance != null && <div className="loc-card__dist">{fmtDist(distance)}</div>}

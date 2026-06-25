@@ -1,4 +1,13 @@
-import { useLang } from '../context/LanguageContext';
+import { useLang, useConvert } from '../context/LanguageContext';
+
+function deepConvert(obj, fn) {
+  if (typeof obj === 'string') return fn(obj);
+  if (Array.isArray(obj)) return obj.map(item => deepConvert(item, fn));
+  if (obj && typeof obj === 'object') {
+    return Object.fromEntries(Object.entries(obj).map(([k, v]) => [k, deepConvert(v, fn)]));
+  }
+  return obj;
+}
 
 const CONTENT = {
   en: {
@@ -214,7 +223,8 @@ const CONTENT = {
 
 export default function GuidePage() {
   const { lang } = useLang();
-  const c = CONTENT[lang] || CONTENT.en;
+  const convert = useConvert();
+  const c = deepConvert(CONTENT[lang] || CONTENT.en, convert);
 
   return (
     <div className="guide-page">

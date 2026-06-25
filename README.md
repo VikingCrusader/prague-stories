@@ -6,23 +6,23 @@ Unlock 255 real Prague landmarks, earn XP, collect achievements, and read trilin
 
 ## Features
 
-- JWT authentication (register / login)
+- JWT authentication (register / login) + **guest mode** (browse without an account — collect/add/edit require login)
 - 255 preset Prague landmarks across 5 categories
 - Hearthstone-style rarity system: common / rare / epic / mythic / legend — XP rewards 10 / 20 / 30 / 40 / 50
-- Card border and name color driven by rarity; rarity filter dropdown on Explore grid and Map sidebar
-- Check in to locations to unlock them and earn XP
-- Add and edit custom locations
+- Rarity color on card border, name, and diamond always visible — even for locked cards
+- Rarity filter dropdown on Explore grid and Map sidebar
+- Check in to locations to unlock them and earn XP; geolocation-based — must be within 200 m
+- Add and edit custom locations with cover photo upload (any JPEG/PNG/WebP → auto-converted to WebP via sharp, stored alongside built-in pixel art)
+- Custom locations discriminated from built-ins by `addedBy` field (`null` = preset, `ObjectId` = user)
 - Gamified dashboard: explorer level, XP bar, unlock %, 10 achievements
 - Interactive Leaflet map with locked/unlocked markers
 - AI-generated descriptions via Gemini API (EN / CZ / ZH), stored as three paragraphs
-- Full UI localisation: English, Czech, and Chinese (ZH/EN/CZ toggle)
+- Full UI localisation: English, Czech, and Chinese with **Simplified / Traditional toggle** (繁/简 powered by opencc-js)
 - Localized place names — Czech and Chinese names for all 255 locations
 - Pixel art retro UI with [Ark Pixel Font](https://github.com/TakWolf/ark-pixel-font) in Chinese mode
-- Geolocation-based check-in — must be within 200 m of the location to check in
 - Google Maps navigation link on every location (opens turn-by-turn directions)
-- Custom locations support a cover photo, description, and Wikipedia URL
 - Automatic proximity detection: prompts check-in when within 100 m of an unvisited location
-- Check-in success overlay: shows "CHECKED IN!", XP earned, and any unlocked achievements for 2.5 s before the modal auto-closes
+- Check-in success overlay: shows "COLLECTED!", XP earned, and any unlocked achievements for 2.5 s before the modal auto-closes
 - Explore grid refreshes instantly after check-in without waiting for the modal to close
 - Explore grid sorts cards by proximity to the user's current GPS position (closest first), with live distance shown on each card ("340 m", "1.2 km")
 - Gemini-generated pixel art images for every original location card, served as lossy WebP (quality 90)
@@ -109,7 +109,8 @@ prague-stories/
 | GET | `/api/locations` | optional | All locations (with unlock status if authed) |
 | GET | `/api/locations/:slug` | optional | Single location + lazy AI description |
 | POST | `/api/locations` | ✓ | Add custom location |
-| PUT | `/api/locations/:slug` | ✓ | Update location (name, coords, descriptions, rarity, cover photo, etc.) |
+| PUT | `/api/locations/:slug` | ✓ | Update location (name, coords, descriptions, rarity, etc.) |
+| POST | `/api/locations/:slug/cover` | ✓ | Upload cover photo (JPEG/PNG/WebP → saved as WebP via sharp) |
 | DELETE | `/api/locations/:slug` | ✓ | Delete location (cascades check-ins) |
 | GET | `/api/checkins` | ✓ | User's check-in history |
 | POST | `/api/checkins/:slug` | ✓ | Check in, award XP, evaluate achievements |
@@ -126,6 +127,8 @@ prague-stories/
 ## Localisation
 
 The UI supports three languages toggled via the EN / CZ / ZH buttons in the navbar. All interface text, category labels, and location names switch accordingly. In Chinese mode the pixel font switches to [Ark Pixel Font (方舟像素字体)](https://github.com/TakWolf/ark-pixel-font) — a CJK-compatible pixel typeface — loaded from self-hosted woff2 files in `client/public/fonts/`.
+
+When ZH is active a **繁/简** toggle appears, converting the entire UI (including DB description text) from Simplified to Traditional Chinese via [opencc-js](https://github.com/nk2028/opencc-js). The converter is lazily initialized on first use and the preference is persisted in `localStorage`.
 
 ## Environment Variables
 

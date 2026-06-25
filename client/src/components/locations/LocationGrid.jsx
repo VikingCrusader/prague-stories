@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect, useRef } from 'react';
 import LocationCard from './LocationCard';
-import { useT, useLang } from '../../context/LanguageContext';
+import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
 import { RARITY_COLOR, RARITY_LABEL } from '../../utils/rarity';
 
@@ -9,6 +9,7 @@ const RARITIES = ['common', 'rare', 'epic', 'mythic', 'legend'];
 export default function LocationGrid({ locations, onCardClick, onAddClick }) {
   const t = useT();
   const { lang } = useLang();
+  const convert = useConvert();
   const [discovered, setDiscovered]         = useState(false);
   const [activeLabels, setActiveLabels]     = useState(new Set());
   const [activeRarities, setActiveRarities] = useState(new Set());
@@ -128,7 +129,7 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
                     className={`label-pill${activeLabels.has(key) ? ' label-pill--active' : ''}`}
                     onClick={() => toggleLabel(key)}
                   >
-                    {lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en}
+                    {convert(lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en)}
                   </button>
                 ))}
                 {activeLabels.size > 0 && (
@@ -162,7 +163,7 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
                       background: `${RARITY_COLOR[r]}18`,
                     } : undefined}
                   >
-                    ◆ {RARITY_LABEL[lang]?.[r] ?? r}
+                    ◆ {convert(RARITY_LABEL[lang]?.[r] ?? r)}
                   </button>
                 ))}
                 {activeRarities.size > 0 && (

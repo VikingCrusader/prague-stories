@@ -1,7 +1,8 @@
 import { useState, useEffect, useMemo, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { locationAPI, checkinAPI } from '../services/api';
-import { useLang, useT } from '../context/LanguageContext';
+import { useLang, useT, useConvert } from '../context/LanguageContext';
+import { useAuth } from '../context/AuthContext';
 import { getLocName } from '../utils/locName';
 import { getCurrentPosition } from '../utils/geolocation';
 import MapView from '../components/map/MapView';
@@ -251,6 +252,9 @@ function MapSidebarEmpty() {
 function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
   const { lang } = useLang();
   const t = useT();
+  const convert = useConvert();
+  const { guest } = useAuth();
+  const navigate = useNavigate();
   const [loc, setLoc]                     = useState(null);
   const [loading, setLoading]             = useState(true);
   const [actionLoading, setActionLoading] = useState(false);
@@ -274,7 +278,7 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
   );
   if (!loc) return null;
 
-  const desc = loc.description?.[lang] || loc.description?.en || '';
+  const desc = convert(loc.description?.[lang] || loc.description?.en || '');
 
   const doCheckIn = async () => {
     setActionLoading(true);
@@ -372,7 +376,11 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
             {t('common.googleMaps')}
           </a>
           <div style={{ display: 'flex', gap: 8, marginTop: 4, flexWrap: 'wrap' }}>
-            {loc.unlocked ? (
+            {guest ? (
+              <button className="px-btn px-btn--gold" onClick={() => navigate('/login')}>
+                {t('auth.loginToCollect')}
+              </button>
+            ) : loc.unlocked ? (
               <button className="px-btn px-btn--danger px-btn--sm" onClick={doUndo} disabled={actionLoading}>
                 {actionLoading ? '...' : t('common.undo')}
               </button>

@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { locationAPI, checkinAPI } from '../../services/api';
-import { useLang, useT } from '../../context/LanguageContext';
+import { useLang, useT, useConvert } from '../../context/LanguageContext';
 import { useAuth } from '../../context/AuthContext';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap';
 import { getLocName } from '../../utils/locName';
@@ -13,7 +14,9 @@ import { RARITY_COLOR, RARITY_LABEL } from '../../utils/rarity';
 export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpdate }) {
   const { lang } = useLang();
   const t = useT();
-  const { user } = useAuth();
+  const convert = useConvert();
+  const { user, guest } = useAuth();
+  const navigate = useNavigate();
   const [loc, setLoc]             = useState(null);
   const [loading, setLoading]     = useState(true);
   const [actionLoading, setActionLoading] = useState(false);
@@ -73,8 +76,8 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
     onUpdate?.(updatedLoc);
   };
 
-  const description = loc?.description?.[lang] || loc?.description?.en || '';
-  const locName = loc ? getLocName(loc, lang) : '';
+  const description = convert(loc?.description?.[lang] || loc?.description?.en || '');
+  const locName = loc ? convert(getLocName(loc, lang)) : '';
   const art = loc ? getArt(loc.pixelArtKey, loc.labels) : '📍';
   const bgColor = loc ? (LABEL_COLORS[loc.labels?.[0]] || '#1a2a5a') : '#1a2a5a';
 
@@ -141,7 +144,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
                     clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',
                   }} />
                   <span style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>
-                    {RARITY_LABEL[lang]?.[loc.rarity ?? 'common']}
+                    {convert(RARITY_LABEL[lang]?.[loc.rarity ?? 'common'])}
                   </span>
                   <span style={{ fontSize: 16, color: 'var(--gold)' }}>+{loc.xpReward} XP</span>
                 </div>
@@ -155,7 +158,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
                       className={`detail-label-pill${i === 0 ? ' detail-label-pill--superior' : ''}`}
                       style={{ backgroundColor: LABEL_COLORS[lb] || 'rgba(255,255,255,0.07)' }}
                     >
-                      {LABEL_DEFINITIONS[lb]?.[lang] || LABEL_DEFINITIONS[lb]?.en || lb}
+                      {convert(LABEL_DEFINITIONS[lb]?.[lang] || LABEL_DEFINITIONS[lb]?.en || lb)}
                     </span>
                   ))}
                 </div>
@@ -195,7 +198,11 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
                   {t('common.googleMaps')}
                 </a>
                 <div style={{ marginLeft: 'auto', display: 'flex', gap: 8 }}>
-                  {checkInResult ? (
+                  {guest ? (
+                    <button className="px-btn px-btn--gold" onClick={() => navigate('/login')}>
+                      {t('auth.loginToCollect')}
+                    </button>
+                  ) : checkInResult ? (
                     <div style={{ textAlign: 'center', minWidth: 160 }}>
                       <p style={{ fontFamily: "'Press Start 2P'", fontSize: 9, color: '#8eff8e', marginBottom: 8, letterSpacing: 1 }}>
                         COLLECTED!

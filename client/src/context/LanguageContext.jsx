@@ -1,4 +1,17 @@
 import { createContext, useContext, useState } from 'react';
+import * as OpenCC from 'opencc-js';
+
+const TW_OVERRIDES = [
+  ['服務器', '伺服器'],
+];
+
+let _toTW = null;
+function toTW(str) {
+  if (!_toTW) _toTW = OpenCC.Converter({ from: 'cn', to: 'tw' });
+  let result = _toTW(str);
+  for (const [from, to] of TW_OVERRIDES) result = result.replaceAll(from, to);
+  return result;
+}
 
 const T = {
   en: {
@@ -9,6 +22,7 @@ const T = {
     'nav.dashboard': 'Dashboard',
     'nav.logout': 'Logout',
     'explore.title': 'Explore Prague',
+    'explore.titleGuest': 'Login to Explore Prague!',
     'explore.statsLabel': 'location cards collected',
     'explore.addLocation': '+ Add Location',
     'grid.searchPlaceholder': 'Search locations...',
@@ -93,6 +107,9 @@ const T = {
     'auth.startExploring': '▶ Start Exploring',
     'auth.haveAccount': 'Have an account?',
     'auth.loginHere': 'Login here',
+    'auth.continueAsGuest': 'Continue without login',
+    'auth.loginToCollect': 'Log in to collect',
+    'nav.login': 'Login',
   },
   cz: {
     appName: 'Pražské Příběhy',
@@ -102,6 +119,7 @@ const T = {
     'nav.dashboard': 'Přehled',
     'nav.logout': 'Odhlásit',
     'explore.title': 'Prozkoumej Prahu',
+    'explore.titleGuest': 'Přihlaste se a prozkoumejte Prahu!',
     'explore.statsLabel': 'míst sesbíráno',
     'explore.addLocation': '+ Přidat Místo',
     'grid.searchPlaceholder': 'Hledat místa...',
@@ -186,6 +204,9 @@ const T = {
     'auth.startExploring': '▶ Začít Prozkoumávat',
     'auth.haveAccount': 'Máš účet?',
     'auth.loginHere': 'Přihlásit se zde',
+    'auth.continueAsGuest': 'Pokračovat bez přihlášení',
+    'auth.loginToCollect': 'Přihlaste se pro sbírání',
+    'nav.login': 'Přihlásit',
   },
   zh: {
     appName: '布拉格故事',
@@ -195,6 +216,7 @@ const T = {
     'nav.dashboard': '仪表盘',
     'nav.logout': '退出',
     'explore.title': '探索布拉格',
+    'explore.titleGuest': '登录以探索布拉格！',
     'explore.statsLabel': '个地点卡片已收集',
     'explore.addLocation': '+ 添加地点',
     'grid.searchPlaceholder': '搜索地点...',
@@ -279,6 +301,9 @@ const T = {
     'auth.startExploring': '▶ 开始探索',
     'auth.haveAccount': '已有账号？',
     'auth.loginHere': '立即登录',
+    'auth.continueAsGuest': '不登录继续浏览',
+    'auth.loginToCollect': '登录后收藏',
+    'nav.login': '登录',
   },
 };
 
@@ -290,6 +315,7 @@ export function LanguageProvider({ children }) {
     document.documentElement.setAttribute('data-lang', saved);
     return saved;
   });
+  const [zhVariant, setZhVariant] = useState(() => localStorage.getItem('zhVariant') || 'cn');
 
   const changeLang = (l) => {
     setLang(l);
@@ -297,8 +323,13 @@ export function LanguageProvider({ children }) {
     document.documentElement.setAttribute('data-lang', l);
   };
 
+  const changeZhVariant = (v) => {
+    setZhVariant(v);
+    localStorage.setItem('zhVariant', v);
+  };
+
   return (
-    <LanguageContext.Provider value={{ lang, changeLang }}>
+    <LanguageContext.Provider value={{ lang, changeLang, zhVariant, changeZhVariant }}>
       {children}
     </LanguageContext.Provider>
   );
@@ -308,8 +339,16 @@ export function useLang() {
   return useContext(LanguageContext);
 }
 
+export function useConvert() {
+  const { lang, zhVariant } = useLang();
+  return (str) => {
+    if (lang === 'zh' && zhVariant === 'tw' && str) return toTW(str);
+    return str;
+  };
+}
+
 export function useT() {
-  const { lang } = useLang();
+  const { lang, zhVariant } = useLang();
   return (key, vars) => {
     let str = (T[lang] && T[lang][key] !== undefined ? T[lang][key] : T.en[key]) ?? key;
     if (vars) {
@@ -317,6 +356,7 @@ export function useT() {
         str = str.replace('{' + k + '}', v);
       });
     }
+    if (lang === 'zh' && zhVariant === 'tw') str = toTW(str);
     return str;
   };
 }

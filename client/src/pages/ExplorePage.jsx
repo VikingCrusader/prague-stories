@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { locationAPI } from '../services/api';
 import { useT } from '../context/LanguageContext';
+import { useAuth } from '../context/AuthContext';
 import { useUserPosition } from '../hooks/useUserPosition';
 import { haversineDistance } from '../utils/geolocation';
 import LocationGrid from '../components/locations/LocationGrid';
@@ -13,6 +14,7 @@ let toastId = 0;
 
 export default function ExplorePage() {
   const t = useT();
+  const { guest } = useAuth();
   const { state } = useLocation();
   const navigate = useNavigate();
   const userPos                          = useUserPosition();
@@ -97,15 +99,17 @@ export default function ExplorePage() {
       <div className="explore-header">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: 12 }}>
           <div>
-            <h1 className="px-title" style={{ fontSize: 13 }}>{t('explore.title')}</h1>
+            <h1 className="px-title" style={{ fontSize: 13 }}>{t(guest ? 'explore.titleGuest' : 'explore.title')}</h1>
           </div>
-          <button className="px-btn px-btn--outline explore-header__add" onClick={() => setShowAdd(true)}>
-            {t('explore.addLocation')}
-          </button>
+          {!guest && (
+            <button className="px-btn px-btn--outline explore-header__add" onClick={() => setShowAdd(true)}>
+              {t('explore.addLocation')}
+            </button>
+          )}
         </div>
       </div>
 
-      <LocationGrid locations={sortedLocations} onCardClick={setSelectedSlug} onAddClick={() => setShowAdd(true)} />
+      <LocationGrid locations={sortedLocations} onCardClick={setSelectedSlug} onAddClick={guest ? null : () => setShowAdd(true)} />
 
       {selectedSlug && (
         <LocationDetail

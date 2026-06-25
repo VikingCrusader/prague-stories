@@ -383,6 +383,7 @@
 .navbar__link:hover { color: var(--text-primary); text-decoration: none; }
 .navbar__link--active { color: var(--gold); border-color: var(--gold); }
 .navbar__right { margin-left: auto; display: flex; align-items: center; gap: 12px; }
+.navbar__right .lang-tabs { margin-bottom: 0; }
 .navbar__user { font-size: 14px; color: var(--text-muted); }
 
 /* ── Auth Page ───────────────────────────────────────────── */
