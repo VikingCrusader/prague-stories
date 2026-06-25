@@ -16,12 +16,10 @@ export default function Navbar() {
 
       {(user || guest) && (
         <div className="navbar__links">
-          <NavLink to="/explore" className={({ isActive }) => 'navbar__link' + (isActive ? ' navbar__link--active' : '')}>{t('nav.explore')}</NavLink>
-          <NavLink to="/map"     className={({ isActive }) => 'navbar__link' + (isActive ? ' navbar__link--active' : '')}>{t('nav.map')}</NavLink>
-          <NavLink to="/guide"   className={({ isActive }) => 'navbar__link' + (isActive ? ' navbar__link--active' : '')}>{t('nav.guide')}</NavLink>
-          {user && (
-            <NavLink to="/dashboard" className={({ isActive }) => 'navbar__link' + (isActive ? ' navbar__link--active' : '')}>{t('nav.dashboard')}</NavLink>
-          )}
+          <NavLink to="/explore"   className={({ isActive }) => 'navbar__link' + (isActive ? ' navbar__link--active' : '')}>{t('nav.explore')}</NavLink>
+          <NavLink to="/map"       className={({ isActive }) => 'navbar__link' + (isActive ? ' navbar__link--active' : '')}>{t('nav.map')}</NavLink>
+          <NavLink to="/guide"     className={({ isActive }) => 'navbar__link' + (isActive ? ' navbar__link--active' : '')}>{t('nav.guide')}</NavLink>
+          <NavLink to="/dashboard" className={({ isActive }) => 'navbar__link' + (isActive ? ' navbar__link--active' : '')}>{t('nav.dashboard')}</NavLink>
         </div>
       )}
 

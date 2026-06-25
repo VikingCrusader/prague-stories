@@ -45,7 +45,7 @@ export default function App() {
             <Route path="/register"  element={<RegisterPage />} />
             <Route path="/explore"   element={<ProtectedRoute guestOk><ExplorePage /></ProtectedRoute>} />
             <Route path="/map"       element={<ProtectedRoute guestOk><MapPage /></ProtectedRoute>} />
-            <Route path="/dashboard" element={<ProtectedRoute><DashboardPage /></ProtectedRoute>} />
+            <Route path="/dashboard" element={<ProtectedRoute guestOk><DashboardPage /></ProtectedRoute>} />
             <Route path="/guide"     element={<ProtectedRoute guestOk><GuidePage /></ProtectedRoute>} />
             <Route path="*"          element={<Navigate to="/explore" replace />} />
           </Routes>

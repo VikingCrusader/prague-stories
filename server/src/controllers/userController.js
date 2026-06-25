@@ -10,6 +10,18 @@ export async function getProgress(req, res, next) {
   try {
     const totalPreset = await Location.countDocuments({ addedBy: null });
 
+    if (!req.user) {
+      return res.json({
+        totalCheckins: 0,
+        presetCheckins: 0,
+        totalPreset,
+        unlockPercent: 0,
+        labelCount: {},
+        levelInfo: calculateLevel(0),
+        totalXP: 0,
+      });
+    }
+
     const allCheckins = await CheckIn.find({ user: req.user._id })
       .populate('location', 'addedBy labels slug')
       .lean();
@@ -44,14 +56,14 @@ export async function getProgress(req, res, next) {
 }
 
 export async function getAchievements(req, res) {
-  const earned = new Set(req.user.achievements.map(a => a.id));
+  const earned = req.user ? new Set(req.user.achievements.map(a => a.id)) : new Set();
   const all = ACHIEVEMENTS.map(ach => ({
     id:          ach.id,
     name:        ach.name,
     description: ach.description,
     icon:        ach.icon,
     unlocked:    earned.has(ach.id),
-    unlockedAt:  req.user.achievements.find(a => a.id === ach.id)?.unlockedAt ?? null,
+    unlockedAt:  req.user?.achievements.find(a => a.id === ach.id)?.unlockedAt ?? null,
   }));
   res.json({ achievements: all, levels: LEVELS });
 }

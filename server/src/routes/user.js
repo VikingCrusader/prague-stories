@@ -1,13 +1,11 @@
 import { Router } from 'express';
 import { getProfile, getProgress, getAchievements } from '../controllers/userController.js';
-import { protect } from '../middleware/auth.js';
+import { protect, optionalAuth } from '../middleware/auth.js';
 
 const router = Router();
 
-router.use(protect);
-
-router.get('/profile', getProfile);
-router.get('/progress', getProgress);
-router.get('/achievements', getAchievements);
+router.get('/profile',      protect,      getProfile);
+router.get('/progress',     optionalAuth, getProgress);
+router.get('/achievements', optionalAuth, getAchievements);
 
 export default router;

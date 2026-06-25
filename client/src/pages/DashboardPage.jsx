@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { Navigate } from 'react-router-dom';
 import { userAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
@@ -8,7 +7,7 @@ import ProgressRing from '../components/dashboard/ProgressRing';
 import AchievementBadge from '../components/dashboard/AchievementBadge';
 
 export default function DashboardPage() {
-  const { user, guest }  = useAuth();
+  const { user }         = useAuth();
   const t                = useT();
   const { lang }         = useLang();
   const convert          = useConvert();
@@ -22,7 +21,6 @@ export default function DashboardPage() {
       .finally(() => setLoading(false));
   }, []);
 
-  if (guest && !user) return <Navigate to="/login" replace />;
   if (loading) return (
     <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <div className="spinner" />
