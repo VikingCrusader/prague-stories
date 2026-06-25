@@ -35,7 +35,7 @@ export default function DashboardPage() {
 
   return (
     <div className="dashboard-page">
-      <h1 className="px-title" style={{ fontSize: guest ? 10 : 13, marginBottom: 20 }}>
+      <h1 className="px-title dashboard-title" style={{ fontSize: guest ? 10 : 13, marginBottom: 20 }}>
         {guest && !user ? t('dashboard.titleGuest') : t('dashboard.title')}
       </h1>
 
@@ -122,7 +122,7 @@ export default function DashboardPage() {
         {/* Rarity Breakdown */}
         <div className="stat-card" style={{ gridColumn: '1 / -1', padding: '12px 20px' }}>
           <div className="stat-card__label" style={{ marginBottom: 10 }}>{t('dashboard.rarityBreakdown')}</div>
-          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+          <div className="rarity-strip-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             {['common', 'rare', 'epic', 'mythic', 'legend'].map(r => (
               <div key={r} style={{ display: 'flex', alignItems: 'center', gap: 6, color: RARITY_COLOR[r] }}>
                 <span style={{ fontSize: 16 }}>◆</span>

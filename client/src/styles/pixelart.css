@@ -731,6 +731,9 @@
   /* Auth + Dashboard + Guide */
   .auth-box { padding: 24px 16px; }
   .dashboard-page { padding: 12px; }
+  .dashboard-title { font-size: 9px !important; word-break: break-word; }
+  .rarity-strip-row { flex-wrap: wrap !important; justify-content: flex-start !important; gap: 10px !important; }
+  .rarity-strip-row > div { font-size: 13px !important; }
   .guide-page { padding: 12px 14px; }
   .guide-h2 { font-size: 7.5px; }
   .guide-faq__q { font-size: 6.5px; }
