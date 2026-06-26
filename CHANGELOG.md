@@ -4,6 +4,15 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.5.1] — 2026-06-26
+
+**Fix: cover photo upload always applies on browser refresh**
+
+- `uploadCoverImage` now saves the uploaded file as `{slug}-v{timestamp}.webp` instead of `{slug}.webp`, ensuring the URL changes on every upload
+- Prevents browser cache from serving the old image when the filename was identical to an existing pixel-art file — previously made the save appear to fail even though the file was overwritten
+
+---
+
 ## [1.5.0] — 2026-06-25
 
 **Dashboard overhaul, achievement i18n, achievement logic fixes**

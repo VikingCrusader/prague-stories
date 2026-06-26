@@ -176,10 +176,11 @@ export async function uploadCoverImage(req, res, next) {
       fs.unlink(path.join(PIXEL_ART_DIR, path.basename(location.coverImage)), () => {});
     }
 
-    const destPath = path.join(PIXEL_ART_DIR, `${req.params.slug}.webp`);
+    const coverFilename = `${req.params.slug}-v${Date.now()}.webp`;
+    const destPath = path.join(PIXEL_ART_DIR, coverFilename);
     await sharp(req.file.buffer).webp({ quality: 85 }).toFile(destPath);
 
-    location.coverImage = `/pixel-art/${req.params.slug}.webp`;
+    location.coverImage = `/pixel-art/${coverFilename}`;
     await location.save();
 
     res.json(location.toObject());
