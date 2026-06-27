@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <a href="/explore" className="navbar__logo"><span style={{ fontSize: '1.6em', lineHeight: 1 }}>⚔</span> {t('appName')}</a>
+      <span className="navbar__logo" onClick={() => window.location.reload()} style={{ cursor: 'pointer' }}><span style={{ fontSize: '1.6em', lineHeight: 1 }}>⚔</span> {t('appName')}</span>
 
       {(user || guest) && (
         <div className="navbar__links">
