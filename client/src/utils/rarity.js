@@ -3,7 +3,7 @@ export const RARITY_XP = { common: 10, rare: 20, superior: 30, epic: 50, mythic:
 export const RARITY_COLOR = {
   common:   '#EBE8D9',
   rare:     '#87CEEB',
-  superior: '#013220',
+  superior: '#2c8c03',
   epic:     '#BA55D3',
   mythic:   '#c40202',
   legend:   '#FFD700',
