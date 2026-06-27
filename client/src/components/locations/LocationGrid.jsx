@@ -205,7 +205,7 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16 }}>
         <p className="explore-stats" style={{ margin: 0 }}>
           <span>{unlocked}</span> / <span>{total}</span> {t('explore.statsLabel')}
-          &nbsp;·&nbsp; {t('grid.showing')} <span>{filtered.length}</span>
+          <br />{t('grid.showing')} <span>{filtered.length}</span>
         </p>
         <div className="label-filter" ref={sortPanelRef}>
           <button
