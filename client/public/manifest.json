@@ -1,0 +1,18 @@
+{
+  "name": "Prague Stories",
+  "short_name": "Prague",
+  "description": "A gamified city exploration diary for Prague",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0a0f",
+  "theme_color": "#ffd700",
+  "icons": [
+    {
+      "src": "/pixel-art/prague-castle.webp",
+      "sizes": "any",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ]
+}
