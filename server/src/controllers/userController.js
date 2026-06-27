@@ -17,7 +17,7 @@ export async function getProgress(req, res, next) {
         totalPreset,
         unlockPercent: 0,
         labelCount: {},
-        rarityCount: { common: 0, rare: 0, epic: 0, mythic: 0, legend: 0 },
+        rarityCount: { common: 0, rare: 0, superior: 0, epic: 0, mythic: 0, legend: 0 },
         levelInfo: calculateLevel(0),
         totalXP: 0,
       });
@@ -33,7 +33,7 @@ export async function getProgress(req, res, next) {
       : 0;
 
     const labelCount = {};
-    const rarityCount = { common: 0, rare: 0, epic: 0, mythic: 0, legend: 0 };
+    const rarityCount = { common: 0, rare: 0, superior: 0, epic: 0, mythic: 0, legend: 0 };
     for (const ci of allCheckins) {
       if (!ci.location) continue;
       for (const lb of (ci.location.labels || [])) {

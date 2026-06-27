@@ -1,4 +1,4 @@
-export const RARITY_XP = { common: 10, rare: 20, epic: 30, mythic: 40, legend: 50 };
+export const RARITY_XP = { common: 10, rare: 20, superior: 30, epic: 50, mythic: 70, legend: 100 };
 
 // Slugs absent from this map are treated as 'common'
 export const SLUG_RARITY = {

@@ -123,7 +123,7 @@ export default function DashboardPage() {
         <div className="stat-card" style={{ gridColumn: '1 / -1', padding: '12px 20px' }}>
           <div className="stat-card__label" style={{ marginBottom: 10 }}>{t('dashboard.rarityBreakdown')}</div>
           <div className="rarity-strip-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            {['common', 'rare', 'epic', 'mythic', 'legend'].map(r => (
+            {['common', 'rare', 'superior', 'epic', 'mythic', 'legend'].map(r => (
               <div key={r} style={{ display: 'flex', alignItems: 'center', gap: 6, color: RARITY_COLOR[r] }}>
                 <span style={{ fontSize: 16 }}>◆</span>
                 <span style={{ fontSize: 16 }}>{convert(RARITY_LABEL[lang]?.[r] ?? RARITY_LABEL.en[r])}</span>

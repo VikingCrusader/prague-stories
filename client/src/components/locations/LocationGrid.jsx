@@ -4,8 +4,8 @@ import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
 import { RARITY_COLOR, RARITY_LABEL } from '../../utils/rarity';
 
-const RARITIES = ['common', 'rare', 'epic', 'mythic', 'legend'];
-const RARITY_ORDER = { legend: 0, mythic: 1, epic: 2, rare: 3, common: 4 };
+const RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
+const RARITY_ORDER = { legend: 0, mythic: 1, epic: 2, superior: 3, rare: 4, common: 5 };
 const SORT_MODES = ['distance', 'newest', 'rarity'];
 const SORT_KEY = { distance: 'grid.sortDistance', newest: 'grid.sortNewest', rarity: 'grid.sortRarity' };
 
