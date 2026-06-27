@@ -4,6 +4,24 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.5.6] — 2026-06-27
+
+**Feat: PWA — add to iPhone home screen**
+
+- `manifest.json` added with standalone display, gold theme color, and Prague Castle pixel art as home screen icon
+- iOS meta tags: `apple-mobile-web-app-capable`, `apple-mobile-web-app-title`, `apple-mobile-web-app-status-bar-style`, `apple-touch-icon`
+- Open in Safari → Share → Add to Home Screen — app launches full-screen with no browser UI
+
+---
+
+## [1.5.5] — 2026-06-27
+
+**Fix: Vercel 404 on page refresh / direct links**
+
+- Added `vercel.json` with a catch-all SPA rewrite rule — all paths now serve `index.html` so React Router handles routing client-side
+
+---
+
 ## [1.5.4] — 2026-06-27
 
 **Feat: sort cards by distance / newest / rarity**
