@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "export:locations": "node src/data/exportLocations.js"
+    "export:locations": "node src/data/exportLocations.js",
+    "sync:covers": "node src/data/syncCovers.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
