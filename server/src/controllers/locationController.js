@@ -198,16 +198,21 @@ export async function uploadCoverImage(req, res, next) {
     }
 
     const webpBuffer = await sharp(req.file.buffer).webp({ quality: 85 }).toBuffer();
-    const localFilename = `${req.params.slug}-v${Date.now()}.webp`;
 
-    const [result] = await Promise.all([
+    const uploads = [
       cloudinaryUpload(webpBuffer, {
         public_id: `prague-stories/covers/${req.params.slug}`,
         overwrite: true,
         format: 'webp',
       }),
-      fs.promises.writeFile(path.join(PIXEL_ART_DIR, localFilename), webpBuffer),
-    ]);
+    ];
+
+    if (process.env.NODE_ENV !== 'production') {
+      const localFilename = `${req.params.slug}-v${Date.now()}.webp`;
+      uploads.push(fs.promises.writeFile(path.join(PIXEL_ART_DIR, localFilename), webpBuffer));
+    }
+
+    const [result] = await Promise.all(uploads);
 
     location.coverImage = result.secure_url;
     await location.save();
