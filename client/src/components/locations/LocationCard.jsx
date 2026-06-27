@@ -16,7 +16,8 @@ export default function LocationCard({ location, onClick, distance }) {
   const art   = getArt(pixelArtKey, labels);
   const color = LABEL_COLORS[labels[0]] || '#1a2a5a';
   const firstLabel = labels[0];
-  const [imgFailed, setImgFailed] = useState(false);
+  const [coverFailed, setCoverFailed] = useState(false);
+  const [imgFailed,   setImgFailed]   = useState(false);
   const labelRef = useRef(null);
 
   useLayoutEffect(() => {
@@ -39,10 +40,11 @@ export default function LocationCard({ location, onClick, distance }) {
       style={{ border: `3px solid ${RARITY_COLOR[rarity]}` }}
     >
       <div className="loc-card__banner" style={{ background: color }}>
-        {location.coverImage ? (
+        {location.coverImage && !coverFailed ? (
           <img
             src={location.coverImage}
             alt={name}
+            onError={() => setCoverFailed(true)}
             style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
           />
         ) : !imgFailed ? (
