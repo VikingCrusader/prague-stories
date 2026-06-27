@@ -5,6 +5,9 @@ import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
 import { RARITY_COLOR, RARITY_LABEL } from '../../utils/rarity';
 
 const RARITIES = ['common', 'rare', 'epic', 'mythic', 'legend'];
+const RARITY_ORDER = { legend: 0, mythic: 1, epic: 2, rare: 3, common: 4 };
+const SORT_MODES = ['distance', 'newest', 'rarity'];
+const SORT_KEY = { distance: 'grid.sortDistance', newest: 'grid.sortNewest', rarity: 'grid.sortRarity' };
 
 export default function LocationGrid({ locations, onCardClick, onAddClick }) {
   const t = useT();
@@ -15,9 +18,12 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
   const [activeRarities, setActiveRarities] = useState(new Set());
   const [labelsOpen, setLabelsOpen]         = useState(false);
   const [raritiesOpen, setRaritiesOpen]     = useState(false);
+  const [sortOpen, setSortOpen]             = useState(false);
+  const [sort, setSort]                     = useState('distance');
   const [search, setSearch]                 = useState('');
   const labelPanelRef  = useRef(null);
   const rarityPanelRef = useRef(null);
+  const sortPanelRef   = useRef(null);
 
   useEffect(() => {
     if (!labelsOpen) return;
@@ -36,6 +42,15 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
     document.addEventListener('mousedown', handler);
     return () => document.removeEventListener('mousedown', handler);
   }, [raritiesOpen]);
+
+  useEffect(() => {
+    if (!sortOpen) return;
+    const handler = e => {
+      if (sortPanelRef.current && !sortPanelRef.current.contains(e.target)) setSortOpen(false);
+    };
+    document.addEventListener('mousedown', handler);
+    return () => document.removeEventListener('mousedown', handler);
+  }, [sortOpen]);
 
   const toggleLabel = lb => {
     setActiveLabels(prev => {
@@ -58,6 +73,7 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
     setActiveLabels(new Set());
     setActiveRarities(new Set());
     setSearch('');
+    setSort('distance');
   };
 
   const filtered = useMemo(() => {
@@ -79,8 +95,14 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
         l.localizedNames?.zh?.includes(search.trim())
       );
     }
+    list = [...list].sort((a, b) => {
+      if (sort === 'distance') return (a._distance ?? Infinity) - (b._distance ?? Infinity);
+      if (sort === 'newest')   return new Date(b.createdAt) - new Date(a.createdAt);
+      if (sort === 'rarity')   return (RARITY_ORDER[a.rarity] ?? 4) - (RARITY_ORDER[b.rarity] ?? 4);
+      return 0;
+    });
     return list;
-  }, [locations, discovered, activeLabels, activeRarities, search]);
+  }, [locations, discovered, activeLabels, activeRarities, search, sort]);
 
   const unlocked = locations.filter(l => l.unlocked).length;
   const total    = locations.length;
@@ -180,10 +202,33 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
         </div>
       </div>
 
-      <p className="explore-stats" style={{ marginBottom: 16 }}>
-        <span>{unlocked}</span> / <span>{total}</span> {t('explore.statsLabel')}
-        &nbsp;·&nbsp; {t('grid.showing')} <span>{filtered.length}</span>
-      </p>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16 }}>
+        <p className="explore-stats" style={{ margin: 0 }}>
+          <span>{unlocked}</span> / <span>{total}</span> {t('explore.statsLabel')}
+          &nbsp;·&nbsp; {t('grid.showing')} <span>{filtered.length}</span>
+        </p>
+        <div className="label-filter" ref={sortPanelRef}>
+          <button
+            className={`filter-btn${sortOpen || sort !== 'distance' ? ' filter-btn--active' : ''}`}
+            onClick={() => { setSortOpen(o => !o); setLabelsOpen(false); setRaritiesOpen(false); }}
+          >
+            {t(SORT_KEY[sort])} ▼
+          </button>
+          {sortOpen && (
+            <div className="label-filter__panel" style={{ minWidth: 160 }}>
+              {SORT_MODES.map(mode => (
+                <button
+                  key={mode}
+                  className={`label-pill${sort === mode ? ' label-pill--active' : ''}`}
+                  onClick={() => { setSort(mode); setSortOpen(false); }}
+                >
+                  {t(SORT_KEY[mode])}
+                </button>
+              ))}
+            </div>
+          )}
+        </div>
+      </div>
 
       <div className="location-grid">
         {filtered.map(loc => (
