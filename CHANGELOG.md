@@ -4,6 +4,26 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.5.3] — 2026-06-27
+
+**Fix: cover images now stored on Cloudinary**
+
+- Uploaded cover images are sent to Cloudinary (`prague-stories/covers/{slug}`) instead of being written to `client/public/pixel-art/` — files no longer need to be committed to git and are available permanently across all deployments
+- `coverImage` field now stores the Cloudinary `secure_url` (`https://res.cloudinary.com/…`); re-uploading overwrites the same `public_id` so no orphaned files accumulate
+- `deleteLocation` now deletes the corresponding Cloudinary asset when a location is removed
+- Backward compat: existing local `/pixel-art/` cover URLs continue to work and are cleaned up when replaced
+
+---
+
+## [1.5.2] — 2026-06-27
+
+**Fix: missing cover images on new cards + coverImage error fallback**
+
+- 11 cover images for recently added cards were untracked in git and therefore absent from the Vercel deployment, causing blank card banners in production; files are now committed
+- `LocationCard`: added `onError` handler to the `coverImage` `<img>` so a missing or broken cover URL degrades gracefully through slug-based webp then emoji, instead of showing nothing
+
+---
+
 ## [1.5.1] — 2026-06-26
 
 **Fix: cover photo upload always applies on browser refresh**
