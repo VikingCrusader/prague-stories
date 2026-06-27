@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import multer from 'multer';
+import sharp from 'sharp';
 import Location from '../models/Location.js';
 import CheckIn from '../models/CheckIn.js';
 import { generateLocationDescription } from '../services/claudeService.js';
@@ -191,12 +192,17 @@ export async function uploadCoverImage(req, res, next) {
       fs.unlink(path.join(PIXEL_ART_DIR, path.basename(location.coverImage)), () => {});
     }
 
-    const result = await cloudinaryUpload(req.file.buffer, {
-      public_id: `prague-stories/covers/${req.params.slug}`,
-      overwrite: true,
-      format: 'webp',
-      quality: 85,
-    });
+    const webpBuffer = await sharp(req.file.buffer).webp({ quality: 85 }).toBuffer();
+    const localFilename = `${req.params.slug}-v${Date.now()}.webp`;
+
+    const [result] = await Promise.all([
+      cloudinaryUpload(webpBuffer, {
+        public_id: `prague-stories/covers/${req.params.slug}`,
+        overwrite: true,
+        format: 'webp',
+      }),
+      fs.promises.writeFile(path.join(PIXEL_ART_DIR, localFilename), webpBuffer),
+    ]);
 
     location.coverImage = result.secure_url;
     await location.save();
