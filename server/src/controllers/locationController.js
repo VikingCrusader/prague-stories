@@ -2,14 +2,22 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import multer from 'multer';
-import sharp from 'sharp';
 import Location from '../models/Location.js';
 import CheckIn from '../models/CheckIn.js';
 import { generateLocationDescription } from '../services/claudeService.js';
 import { RARITY_XP } from '../data/rarityMap.js';
+import cloudinary from '../config/cloudinary.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PIXEL_ART_DIR = path.resolve(__dirname, '../../../client/public/pixel-art');
+
+function cloudinaryUpload(buffer, options) {
+  return new Promise((resolve, reject) => {
+    cloudinary.uploader.upload_stream(options, (err, result) => {
+      if (err) reject(err); else resolve(result);
+    }).end(buffer);
+  });
+}
 
 export const upload = multer({
   storage: multer.memoryStorage(),
@@ -86,6 +94,13 @@ export async function deleteLocation(req, res, next) {
   try {
     const location = await Location.findOne({ slug: req.params.slug });
     if (!location) return res.status(404).json({ message: 'Location not found' });
+
+    if (location.coverImage?.startsWith('/pixel-art/')) {
+      fs.unlink(path.join(PIXEL_ART_DIR, path.basename(location.coverImage)), () => {});
+    } else if (location.coverImage?.includes('cloudinary.com')) {
+      cloudinary.uploader.destroy(`prague-stories/covers/${req.params.slug}`).catch(() => {});
+    }
+
     await CheckIn.deleteMany({ location: location._id });
     await location.deleteOne();
     res.json({ message: 'Location deleted', slug: req.params.slug });
@@ -171,16 +186,19 @@ export async function uploadCoverImage(req, res, next) {
     const location = await Location.findOne({ slug: req.params.slug });
     if (!location) return res.status(404).json({ message: 'Location not found' });
 
-    // Delete previous cover file if it lived in the pixel-art folder
+    // Clean up old local file if it predates the Cloudinary migration
     if (location.coverImage?.startsWith('/pixel-art/')) {
       fs.unlink(path.join(PIXEL_ART_DIR, path.basename(location.coverImage)), () => {});
     }
 
-    const coverFilename = `${req.params.slug}-v${Date.now()}.webp`;
-    const destPath = path.join(PIXEL_ART_DIR, coverFilename);
-    await sharp(req.file.buffer).webp({ quality: 85 }).toFile(destPath);
+    const result = await cloudinaryUpload(req.file.buffer, {
+      public_id: `prague-stories/covers/${req.params.slug}`,
+      overwrite: true,
+      format: 'webp',
+      quality: 85,
+    });
 
-    location.coverImage = `/pixel-art/${coverFilename}`;
+    location.coverImage = result.secure_url;
     await location.save();
 
     res.json(location.toObject());
