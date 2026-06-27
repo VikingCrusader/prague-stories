@@ -4,6 +4,15 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.5.7] — 2026-06-27
+
+**Feat: tap logo to refresh — PWA home screen update trigger**
+
+- Tapping the ⚔ Prague Stories logo in the top-left navbar now reloads the page
+- Useful in the iOS/Android home screen app where there is no browser refresh button — ensures the latest version is loaded
+
+---
+
 ## [1.5.6] — 2026-06-27
 
 **Feat: PWA — add to iPhone home screen**
