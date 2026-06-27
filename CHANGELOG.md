@@ -4,6 +4,17 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.5.4] — 2026-06-27
+
+**Feat: sort cards by distance / newest / rarity**
+
+- Sort dropdown added to the right of the stats row ("63 / 306 location cards collected · showing 306")
+- Three modes: **Distance** (default, closest first), **Newest** (latest added first), **Top Rarity** (Legendary → Common)
+- Button highlights gold when a non-default sort is active; "All" filter resets sort back to Distance
+- Translations added for EN / CZ / ZH / DE
+
+---
+
 ## [1.5.3] — 2026-06-27
 
 **Fix: cover images now stored on Cloudinary**

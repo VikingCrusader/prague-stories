@@ -12,7 +12,7 @@ Unlock 255 real Prague landmarks, earn XP, collect achievements, and read trilin
 - Rarity color on card border, name, and diamond always visible — even for locked cards
 - Rarity filter dropdown on Explore grid and Map sidebar
 - Check in to locations to unlock them and earn XP; geolocation-based — must be within 200 m
-- Add and edit custom locations with cover photo upload (any JPEG/PNG/WebP → auto-converted to WebP via sharp, stored alongside built-in pixel art)
+- Add and edit custom locations with cover photo upload (any JPEG/PNG/WebP → auto-converted to WebP, stored on Cloudinary in production and locally in dev)
 - Custom locations discriminated from built-ins by `addedBy` field (`null` = preset, `ObjectId` = user)
 - Gamified dashboard: explorer level, XP bar, unlock %, 10 achievements
 - Interactive Leaflet map with locked/unlocked markers
@@ -24,7 +24,8 @@ Unlock 255 real Prague landmarks, earn XP, collect achievements, and read trilin
 - Automatic proximity detection: prompts check-in when within 100 m of an unvisited location
 - Check-in success overlay: shows "COLLECTED!", XP earned, and any unlocked achievements for 2.5 s before the modal auto-closes
 - Explore grid refreshes instantly after check-in without waiting for the modal to close
-- Explore grid sorts cards by proximity to the user's current GPS position (closest first), with live distance shown on each card ("340 m", "1.2 km")
+- Explore grid sort: **Distance** (default, closest first), **Newest** (latest added), or **Top Rarity** (Legendary → Common) — dropdown on the stats row, resets with Clear All
+- Live distance shown on each card ("340 m", "1.2 km")
 - Gemini-generated pixel art images for every original location card, served as lossy WebP (quality 90)
 - Fully responsive mobile layout: two-row navbar, 2-column grid, bottom-sheet modals
 - Map sidebar: square pixel art banner + "View Detail" button that opens the full location modal on the Explore page
@@ -110,7 +111,7 @@ prague-stories/
 | GET | `/api/locations/:slug` | optional | Single location + lazy AI description |
 | POST | `/api/locations` | ✓ | Add custom location |
 | PUT | `/api/locations/:slug` | ✓ | Update location (name, coords, descriptions, rarity, etc.) |
-| POST | `/api/locations/:slug/cover` | ✓ | Upload cover photo (JPEG/PNG/WebP → saved as WebP via sharp) |
+| POST | `/api/locations/:slug/cover` | ✓ | Upload cover photo (JPEG/PNG/WebP → WebP via sharp → stored on Cloudinary) |
 | DELETE | `/api/locations/:slug` | ✓ | Delete location (cascades check-ins) |
 | GET | `/api/checkins` | ✓ | User's check-in history |
 | POST | `/api/checkins/:slug` | ✓ | Check in, award XP, evaluate achievements |
@@ -138,6 +139,9 @@ MONGO_URI=mongodb://localhost:27017/prague-stories
 JWT_SECRET=your_jwt_secret_here
 JWT_EXPIRES_IN=7d
 GEMINI_API_KEY=your_gemini_api_key_here
+CLOUDINARY_CLOUD_NAME=your_cloud_name
+CLOUDINARY_API_KEY=your_cloudinary_api_key
+CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 CLIENT_ORIGIN=https://prague-stories.vercel.app
 PORT=5000
 NODE_ENV=development
