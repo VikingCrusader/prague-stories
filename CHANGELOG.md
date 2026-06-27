@@ -4,6 +4,15 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.5.8] — 2026-06-27
+
+**Fix: Vercel 404 on iOS PWA — moved `vercel.json` to correct project root**
+
+- `vercel.json` was at the repo root but Vercel's project root is `client/` — the SPA rewrite rule was never applied in production
+- Moved to `client/vercel.json`; all hard navigations (page refresh, direct links, logo tap) now resolve correctly on iOS PWA and web
+
+---
+
 ## [1.5.7] — 2026-06-27
 
 **Feat: tap logo to refresh — PWA home screen update trigger**
