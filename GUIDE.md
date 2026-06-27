@@ -22,7 +22,26 @@ Hit **Register**. Choose a username that you will not regret in six months. Ente
 
 You begin at **Level 1: Lost Tourist**. This is accurate. Embrace it.
 
-### Step 2 — Allow Location Access
+### Step 2 — Install as an App (Recommended)
+
+Prague Stories works as a full-screen app on your phone — no browser bar, no pasting the link every time.
+
+**iPhone (Safari):**
+1. Open Safari — must be Safari, not Chrome or any other browser.
+2. Navigate to the app URL.
+3. Tap the **Share** button (the box with an arrow pointing up) at the bottom of the screen.
+4. Scroll down and tap **Add to Home Screen**.
+5. Tap **Add**. The icon appears on your home screen.
+
+**Android (Chrome):**
+1. Open Chrome and navigate to the app URL.
+2. Tap the **three-dot menu (⋮)** in the top-right corner.
+3. Tap **Add to Home Screen** or **Install App**.
+4. Tap **Add**. The icon appears on your home screen.
+
+> Once installed, it opens full-screen like a native app — no address bar, no browser UI. Tap the icon and you're in Prague.
+
+### Step 3 — Allow Location Access
 
 The app will ask to use your location. Say yes. This is how it knows you are actually standing on Charles Bridge and not lying on your sofa in a different country claiming to have visited it. The system has seen this before. The system is not impressed.
 

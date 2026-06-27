@@ -25,6 +25,24 @@ const CONTENT = {
       { b: "Register", rest: " — choose a username you won't regret in six months. You begin at Level 1: Lost Tourist. This is accurate. Embrace it." },
       { b: "Allow location access", rest: " — this is how the app knows you're actually standing on Charles Bridge and not lying on your sofa in a different country claiming to have visited it. The system has seen this before. The system is not impressed." },
     ],
+    installTitle: "Install as an App",
+    installIntro: "Prague Stories runs full-screen on your phone with no browser bar and no pasting links every time. One-time setup.",
+    installIOSTitle: "iPhone (Safari)",
+    installIOS: [
+      "Open Safari — must be Safari, not Chrome or any other browser.",
+      "Go to the app URL.",
+      "Tap the Share button (the box with an arrow pointing up) at the bottom of the screen.",
+      'Scroll down and tap "Add to Home Screen".',
+      "Tap Add. The app icon appears on your home screen.",
+    ],
+    installAndroidTitle: "Android (Chrome)",
+    installAndroid: [
+      "Open Chrome and go to the app URL.",
+      'Tap the three-dot menu (⋮) in the top-right corner.',
+      'Tap "Add to Home Screen" or "Install App".',
+      "Tap Add. The app icon appears on your home screen.",
+    ],
+    installNote: "Once installed it opens full-screen like a native app — no address bar, no browser UI. Tap the icon and you are in Prague.",
     screensTitle: "The Screens",
     exploreTitle: "Explore Grid",
     explore: "Every location in the game. Filter by label or rarity, search by name (which defeats some of the mystery, but is allowed), or switch to My Collections to review past conquests smugly. Labels are granular and stackable — filter by Church, or by Hidden Gem, or by both at once.",
@@ -95,6 +113,24 @@ const CONTENT = {
       { b: "Registrace", rest: " — vyber si uživatelské jméno, kterého nebudeš litovat za šest měsíců. Začínáš na Úrovni 1: Ztracený Turista. Toto je přesné. Přijmi to." },
       { b: "Povol přístup k poloze", rest: " — takto aplikace ví, že skutečně stojíš na Karlově mostě a neležíš na pohovce v jiné zemi a netvrdíš, že jsi ho navštívil. Systém to viděl. Systém není ohromen." },
     ],
+    installTitle: "Nainstalovat jako aplikaci",
+    installIntro: "Prague Stories běží v celé obrazovce telefonu bez adresního řádku. Jednorázové nastavení.",
+    installIOSTitle: "iPhone (Safari)",
+    installIOS: [
+      "Otevři Safari — musí být Safari, ne Chrome ani jiný prohlížeč.",
+      "Přejdi na URL aplikace.",
+      "Klepni na tlačítko Sdílet (rámeček se šipkou nahoru) ve spodní části obrazovky.",
+      'Sjeď dolů a klepni na „Přidat na plochu".',
+      "Klepni na Přidat. Ikona aplikace se objeví na ploše.",
+    ],
+    installAndroidTitle: "Android (Chrome)",
+    installAndroid: [
+      "Otevři Chrome a přejdi na URL aplikace.",
+      'Klepni na tři tečky (⋮) v pravém horním rohu.',
+      'Klepni na „Přidat na plochu" nebo „Nainstalovat aplikaci".',
+      "Klepni na Přidat. Ikona aplikace se objeví na ploše.",
+    ],
+    installNote: "Po instalaci se aplikace otevírá na celou obrazovku jako nativní aplikace — žádný adresní řádek. Klepni na ikonu a jsi v Praze.",
     screensTitle: "Obrazovky",
     exploreTitle: "Průzkum",
     explore: "Všechna místa ve hře. Filtruj podle štítku nebo vzácnosti, hledej podle jména (což kazí část záhady, ale je to povoleno), nebo přepni na Moje sbírka pro sebechvalnou prohlídku minulých výbojů. Štítky jsou detailní a kombinovatelné — filtruj podle Kostel, nebo podle Skrytý klenot, nebo obojí najednou.",
@@ -165,6 +201,24 @@ const CONTENT = {
       { b: "注册", rest: "——选一个六个月后不会后悔的用户名。你从第1级：迷路的游客开始。这很准确，接受现实吧。" },
       { b: "允许位置权限", rest: "——这是应用确认你真的站在查理大桥上，而不是躺在另一个国家的沙发上声称自己去过的方式。系统见过这种情况，系统并不感动。" },
     ],
+    installTitle: "安装为应用",
+    installIntro: "Prague Stories 可以在手机上全屏运行，没有浏览器地址栏，无需每次粘贴链接。一次性设置。",
+    installIOSTitle: "iPhone（Safari）",
+    installIOS: [
+      "打开 Safari——必须是 Safari，不能是 Chrome 或其他浏览器。",
+      "前往应用的网址。",
+      "点击屏幕底部的分享按钮（带向上箭头的方框）。",
+      "向下滚动，点击「添加到主屏幕」。",
+      "点击「添加」，应用图标将出现在主屏幕上。",
+    ],
+    installAndroidTitle: "Android（Chrome）",
+    installAndroid: [
+      "打开 Chrome，前往应用网址。",
+      "点击右上角的三点菜单（⋮）。",
+      "点击「添加到主屏幕」或「安装应用」。",
+      "点击「添加」，应用图标将出现在主屏幕上。",
+    ],
+    installNote: "安装后，应用将像原生应用一样全屏启动——没有地址栏，没有浏览器界面。点击图标，即刻进入布拉格。",
     screensTitle: "各个页面",
     exploreTitle: "探索网格",
     explore: "游戏中的所有地点。按标签或稀有度筛选、按名字搜索（这会破坏一些神秘感，但仍然允许），或切换到我的收藏，自我陶醉地回顾过去的战绩。标签细致且可叠加——可以单选「教堂」，也可以同时选「教堂」和「小众景点」。",
@@ -262,6 +316,33 @@ export default function GuidePage() {
               <p className="guide-body"><strong>{s.b}</strong>{s.rest}</p>
             </div>
           ))}
+        </section>
+
+        <hr className="px-divider" />
+
+        <section className="guide-section">
+          <h2 className="guide-h2">{c.installTitle}</h2>
+          <p className="guide-body">{c.installIntro}</p>
+
+          <h3 className="guide-h3" style={{ marginTop: 16 }}>📱 {c.installIOSTitle}</h3>
+          {c.installIOS.map((step, i) => (
+            <div key={i} className="guide-step">
+              <span className="guide-step-num">{i + 1}</span>
+              <p className="guide-body">{step}</p>
+            </div>
+          ))}
+
+          <h3 className="guide-h3" style={{ marginTop: 16 }}>🤖 {c.installAndroidTitle}</h3>
+          {c.installAndroid.map((step, i) => (
+            <div key={i} className="guide-step">
+              <span className="guide-step-num">{i + 1}</span>
+              <p className="guide-body">{step}</p>
+            </div>
+          ))}
+
+          <div className="guide-tip" style={{ marginTop: 16 }}>
+            <span>{c.installNote}</span>
+          </div>
         </section>
 
         <hr className="px-divider" />
