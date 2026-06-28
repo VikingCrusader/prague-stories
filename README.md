@@ -20,6 +20,22 @@ Discover hundreds of Prague landmarks, earn XP, level up, unlock achievements, a
 
 ---
 
+## Screenshots
+
+| Explore Grid | Location Detail |
+|---|---|
+| ![Explore grid with rarity-bordered cards](docs/screenshots/explore-grid.png) | ![Location detail modal with pixel art and trilingual description](docs/screenshots/location-detail.png) |
+
+| Map View | Dashboard |
+|---|---|
+| ![Leaflet map with gold and grey markers](docs/screenshots/map-view.png) | ![XP progress ring and achievement badges](docs/screenshots/dashboard.png) |
+
+| Installed PWA | |
+|---|---|
+| ![App installed as standalone PWA on iPhone](docs/screenshots/mobile-pwa.png) | |
+
+---
+
 ## Key Features
 
 ### Exploration & Collection

@@ -260,6 +260,426 @@ Kostel sám je dobře proporcionálním příkladem novobarokní vojenské archi
 🥚 彩蛋：圣约翰·内波穆克的封圣过程有一个鲜为人知的转折，连大多数捷克人都没听说过。1719年，在他的遗体作为宣福调查的一部分被检查时，人们在他的颅骨内发现了一块保存异常完好的软组织。它被庄严地宣布为他的舌头——上帝神迹地保全了这位以守密之诺为代价丧命之人的言语器官。这一发现轰动了整个天主教欧洲，成为1729年封圣进程的决定性因素。然而，20世纪的科学分析——运用现代组织鉴定方法——揭示那块软组织根本不是舌头，而是一片大脑组织。守秘的奇迹是真实的。被供奉的器官搞错了。在布拉格，历史几乎永远比传说更加复杂。`,
     },
   },
+  {
+    name: 'Church of St. Joseph (Náměstí Republiky)',
+    slug: 'kostel-sv-josefa-namesti-republiky',
+    localizedNames: { cz: 'Kostel sv. Josefa (Náměstí Republiky)', zh: '圣约瑟夫教堂（共和国广场）' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.08873720936536, lng: 14.429058091414316 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Church of St. Joseph at Náměstí Republiky (Kostel sv. Josefa)!
+
+You are standing in one of the most improbable hiding places in all of Prague. Between the Municipal House — a magnificent Art Nouveau palace that took seventeen years to build and has been photographed roughly a billion times — and the Powder Tower, one of the city's most recognisable Gothic landmarks, someone managed to tuck a complete seventeenth-century Baroque church and have it go almost entirely unnoticed. The Church of St. Joseph was built by the Discalced Carmelites between 1636 and 1651, during the height of the Counter-Reformation push to recatholicise Bohemia. The Carmelites were a contemplative order — one that valued inner quiet over outward display. Building between two extremely loud architectural neighbours may, on reflection, have been their most meditative accomplishment.
+
+The interior rewards the visitor who actually stops to look. The proportions are calm and unhurried, the light through the windows falls exactly as Baroque architects intended it to fall, and the whole thing has an atmosphere of serious quiet that is hard to find anywhere in this quarter. Outside, tourists queue for the Municipal House café. In here, the seventeenth century continues without them.
+
+🥚 Easter Egg: St. Joseph is one of the most versatile patron saints in Catholicism — his portfolio includes carpenters, fathers, immigrants, workers, unborn children, house hunters, a happy death, and the Universal Church itself. This broad jurisdiction is largely the result of Pope Pius IX officially declaring him Patron of the Universal Church in 1870. Historically, Joseph gets relatively little narrative space in the Gospels — he says nothing at all in most accounts. For a saint who has accumulated this much institutional power in silence, the Carmelite church may be exactly the right setting.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kostele sv. Josefa na Náměstí Republiky!
+
+Stojíš na jednom z nejnepravděpodobnějších úkrytů v celé Praze. Mezi Obecním domem — nádherným secesním palácem, jehož stavba trvala sedmnáct let a byl vyfotografován přibližně miliardkrát — a Prašnou bránou, jednou z nejznámějších gotických dominant města, se někdo rozhodl vmáčknout celý barokní kostel ze sedmnáctého století a přimět ho, aby unikal téměř veškeré pozornosti. Kostel sv. Josefa byl postaven karmelitány bosými v letech 1636 až 1651, v době vrcholu protireformačního úsilí o rekatolizaci Čech. Karmelitáni byli kontemplativní řád — takový, který si cenil vnitřního klidu nad vnějšími projevy. Stavba mezi dvěma mimořádně hlučnými architektonickými sousedy mohla být, při zpětném zamyšlení, jejich nejmeditativnějším počinem.
+
+Interiér odmění návštěvníka, který se skutečně zastaví a podívá. Proporce jsou klidné a neuspěchané, světlo procházející okny dopadá přesně tak, jak to barokní architekti zamýšleli, a celý prostor má atmosféru vážného ticha, které je v této čtvrti těžko k nalezení. Venku turisté čekají ve frontě před kavárnou Obecního domu. Tady uvnitř sedmnácté století pokračuje bez nich.
+
+🥚 Velikonoční vajíčko: Sv. Josef je jedním z nejuniverzálnějších patronů v katolictví — jeho portfolio zahrnuje tesaře, otce, přistěhovalce, dělníky, nenarozené děti, hledače domovů, šťastnou smrt a Všeobecnou církev. Toto záštitnictví je z velké části výsledkem prohlášení papeže Pia IX., který ho v roce 1870 vyhlásil za Patrona Všeobecné církve. Historicky dostává Josef v evangeliích relativně málo prostoru — ve většině zpráv neříká vůbec nic. Pro světce, který si v mlčení nashromáždil tolik institucionální moci, může být karmelitánský kostel tím nejsprávnějším místem.`,
+
+      zh: `勇敢的冒险家，欢迎来到共和国广场的圣约瑟夫教堂（Kostel sv. Josefa）！
+
+你现在站在布拉格最不可思议的藏身之处之一。市政厅（Obecní dům）——那座建造历时17年、被拍摄过大约十亿次的壮丽新艺术风格宫殿——与火药塔（Prašná brána）这座城市最标志性的哥特式地标之间，有人硬生生塞进了一整座17世纪的巴洛克教堂，并让它几乎被所有人忽视。圣约瑟夫教堂由赤足加尔默罗会（Discalced Carmelites）于1636年至1651年间兴建，正值反宗教改革将波西米亚重新天主教化的高峰时期。加尔默罗会是一个沉思默想的修道会——重视内在宁静胜过外在展示。事后回想，把教堂建在两座极为喧嚣的建筑邻居之间，或许是他们最具冥想精神的成就。
+
+推开门走进去，对于真正停下脚步打量的游客来说是一种奖赏。比例平静而从容，阳光透过窗户投下巴洛克建筑师心中预想的光线，整个空间弥漫着一种严肃的寂静，在这个街区几乎难以寻觅。外面，游客们在市政厅咖啡馆门口排队。这里，17世纪继续运转，与他们无关。
+
+🥚 彩蛋：圣约瑟夫是天主教里职责最多元的主保圣人之一——他的保护范围涵盖木匠、父亲、移民、工人、未出生的孩子、找房子的人、善终，以及整个普世教会。这种宽泛的守护职责，很大程度上源于1870年教宗庇护九世正式宣布他为普世教会主保圣人。从历史上看，约瑟夫在《福音书》里出场机会相当有限——在大多数记载中他一言不发。对于这样一位在沉默中积累了如此之多机构权力的圣人来说，加尔默罗会的教堂或许正是最合适的归宿。`,
+    },
+  },
+  {
+    name: 'Cathedral of St. Catherine of Alexandria',
+    slug: 'chram-sv-kateriny',
+    localizedNames: { cz: 'Chrám sv. Kateřiny Alexandrijské', zh: '亚历山大的圣凯瑟琳大教堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.07364819042929, lng: 14.425415567982796 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Cathedral of St. Catherine of Alexandria (Chrám sv. Kateřiny Alexandrijské)!
+
+This church was founded in 1355 by Emperor Charles IV — the same king responsible for Charles Bridge, Charles University, and Charles Square, and who appears to have been constitutionally unable to name anything after anyone other than himself. The original foundation was an Augustinian monastery, and the distinctive octagonal tower that rises above the surrounding rooflines has been a navigational landmark in this part of the New Town for over six centuries. The Gothic interior was substantially reworked in the Baroque period, accumulating the layered atmosphere of a building continuously used and modified by different hands across seven hundred years.
+
+The church's patron saint deserves special attention. Catherine of Alexandria is among the most celebrated early Christian martyrs, despite the fact that historians have been unable to verify her existence with any certainty. According to tradition, she was a fourth-century philosopher and princess who converted fifty pagan scholars sent by Emperor Maxentius to argue her out of her faith. He condemned her to death by breaking wheel — but the wheel shattered on contact with her. They beheaded her instead. She became patron of philosophers, theologians, and wheelwrights.
+
+🥚 Easter Egg: The breaking wheel that failed to execute Catherine of Alexandria is the direct origin of the Catherine Wheel — the spinning firework that showers sparks in rotating spirals. The firework was named after the instrument of her failed martyrdom, which was subsequently adopted as her iconographic symbol. So every time a Catherine Wheel goes off at a fireworks display, it is commemorating a fourth-century torture device that broke against the will of a saint who probably did not exist. Fireworks tradition contains an unusual amount of martyrological content if you look closely enough.`,
+
+      cz: `Statečný dobrodruhu, vítej v Chrámu sv. Kateřiny Alexandrijské!
+
+Tento kostel byl v roce 1355 založen císařem Karlem IV. — tím samým králem, který stojí za Karlovým mostem, Karlovou univerzitou a Karlovým náměstím a který zřejmě nebyl schopen pojmenovat cokoli po komkoli jiném než po sobě. Původní základ byl augustiniánský klášter a výrazná osmiboká věž, tyčící se nad okolními střechami, slouží jako orientační bod v této části Nového Města déle než šest století. Gotický interiér byl výrazně přepracován v baroku a nashromáždil vrstvené ovzduší budovy, která byla nepřetržitě upravována různými rukama po sedm set let.
+
+Patronka kostela si zaslouží zvláštní pozornost. Kateřina Alexandrijská patří k nejslavnějším raněkřesťanským mučednicím, přestože historici nedokázali její existenci věrohodně ověřit. Podle tradice byla filozofkou a princeznou čtvrtého století, která obrátila padesát pohanských vzdělanců, jež k ní císař Maxentius poslal, aby ji přiměli vzdát se víry. Odsoudil ji k lámání kolem — ale kolo se při kontaktu s ní roztříštilo. Místo toho ji sťali. Stala se patronkou filozofů, teologů a kolářů.
+
+🥚 Velikonoční vajíčko: Lámací kolo, které nedokázalo popravit Kateřinu Alexandrijskou, je přímým původem "Kateřinského kola" — rotujícího ohňostroje, který rozstřikuje jiskry v točivých spirálách. Ohňostroj byl pojmenován přímo po nástroji jejího ztroskotaného mučednictví, který byl následně přijat jako její ikonografický symbol. Takže pokaždé, když Kateřinské kolo vzlétne na ohňostrojovém večírku, připomíná mučicí zařízení ze čtvrtého století, které se zlomilo vůlí světice, jež pravděpodobně neexistovala. Tradice ohňostrojů obsahuje překvapivě velké množství martyrologického obsahu, pokud se na ni podíváte dostatečně blízko.`,
+
+      zh: `勇敢的冒险家，欢迎来到亚历山大的圣凯瑟琳大教堂（Chrám sv. Kateřiny Alexandrijské）！
+
+这座教堂由皇帝卡尔四世（Karel IV.）于1355年建立——就是那位同时修建了查理大桥、创办了查理大学、设计了卡洛广场，并且似乎真的无法将任何东西以别人名字命名的国王。最初是奥斯定（Augustinian）修道院，催生了那座高耸于周围屋顶之上的独特八角形塔楼，六个多世纪以来一直是新城这片区域的地标。哥特式内部在巴洛克时期经历了大规模改建，积累了一种层叠复杂的氛围——这是一座被七百年间不同时代持续使用与改造的建筑所特有的气质。
+
+这座教堂的主保圣人值得特别介绍。亚历山大的圣凯瑟琳是最著名的早期基督教殉道者之一，尽管历史学家无法以任何历史确定性证实她的真实存在。根据传说，皇帝马克西米努斯派来劝她放弃信仰的50位异教学者，反被她全部说服改宗。皇帝随后判她以车轮刑处死——但那个轮子一接触到她就神奇地碎裂了。最终改为砍头。她成为哲学家、神学家和车轮匠的主保圣人。
+
+🥚 彩蛋：那个没能处死亚历山大的圣凯瑟琳的碾刑轮，正是"凯瑟琳轮"（Catherine Wheel）烟火的直接命名来源——那种在空中旋转、四处飞溅火花的螺旋形烟火。这种烟火直接以她未遂的殉道刑具命名，而那个刑具后来也成为了她的圣像标志。所以每当一支凯瑟琳轮在烟火秀上升空，它在纪念的是一件四世纪的刑讯器具——它被一位可能从未存在过的圣人的意志击碎了。仔细审视，烟火传统包含着相当多的殉道学内容。`,
+    },
+  },
+  {
+    name: 'Church of St. Lawrence (Malá Strana)',
+    slug: 'kostel-sv-vavrence-mala-strana',
+    localizedNames: { cz: 'Kostel sv. Vavřince (Malá Strana, Hellichova)', zh: '圣劳伦斯教堂（小城区）' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.0845052002624, lng: 14.403720971163557 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Church of St. Lawrence in Malá Strana (Kostel sv. Vavřince, Hellichova)!
+
+Malá Strana — the Lesser Town — sits beneath Prague Castle with the compact self-assurance of a neighbourhood that knows it is standing on prime real estate and has no intention of leaving. Baroque palaces share space with embassies, wine bars, and cobblestoned streets that have not substantially changed their course in five hundred years. Tucked into Hellichova Street, the Church of St. Lawrence is a smaller, quieter presence in a neighbourhood where most buildings are making considerably larger architectural statements. That modesty is part of its appeal. In a district of palaces, a modest church is its own kind of landmark.
+
+St. Lawrence — in Czech, sv. Vavřinec — was a deacon of the early church martyred in Rome in 258 AD under Emperor Valerian. He was executed by being roasted alive on a large iron gridiron over burning coals. According to a tradition that is either deeply moving or deeply improbable (possibly both), he reportedly said to his executioners, after some time on the grill: "Turn me over — I'm done on this side." He is patron of cooks, comedians, and brewers, on the basis that all three occupations require managing intense heat and maintaining composure under pressure.
+
+🥚 Easter Egg: St. Lawrence's gridiron became his standard iconographic attribute — he is almost always depicted carrying the instrument of his martyrdom, which in his case doubles as kitchen equipment. This means that in Baroque paintings across European museums, you will repeatedly encounter a composed, robed figure carrying what looks like a barbecue grill. His feast day, August 10th, coincides in Central Europe with meteor shower season. Medieval Christians called the August Perseids "the Tears of St. Lawrence," and the name has never entirely gone away.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kostele sv. Vavřince v Malé Straně (Hellichova)!
+
+Malá Strana leží pod Pražským hradem s kompaktní sebejistotou čtvrti, která ví, že stojí na prémiovém pozemku a nemá v úmyslu nikam odcházet. Barokní paláce sdílejí prostor s ambasádami, vinotékami a dlážděnými ulicemi, které svůj průběh nijak podstatně nezměnily za pět set let. Kostel sv. Vavřince ukrytý v Hellichově ulici je menší, tišší přítomností ve čtvrti, kde většina budov vydává architektonicky hlasitá prohlášení. Tato skromnost je součástí jeho kouzla. V okrese plném paláců je skromný kostel svým vlastním druhem dominanty.
+
+Sv. Vavřinec byl jáhnem rané církve umučeným v Římě v roce 258 po Kr. za císaře Valeriana. Byl popraven živým opékáním na velkém železném roštu nad hořícím uhlím. Podle tradice, která je buď hluboce dojemná, nebo hluboce nepravděpodobná (možná obojí), prý po nějaké době na roštu řekl svým popravčím: "Otočte mě — z té strany jsem hotový." Je patronem kuchařů, komiků a pivovarníků, neboť všechna tři povolání vyžadují zvládání intenzivního tepla a zachování klidu pod tlakem.
+
+🥚 Velikonoční vajíčko: Rošt sv. Vavřince se stal jeho standardním ikonografickým atributem — je téměř vždy zobrazován s nástrojem svého mučednictví, který v jeho případě slouží zároveň jako kuchyňské vybavení. To znamená, že v barokních obrazech napříč evropskými muzei budete opakovaně narazit na klidnou, zarobenou postavu nesoucí to, co vypadá jako grilovací rošt. Jeho svátek 10. srpna splývá ve střední Evropě se sezónou meteorického roje. Středověcí křesťané nazývali srpnový roj Perzeidy "Slzy sv. Vavřince" — název, který nikdy zcela nevymizel.`,
+
+      zh: `勇敢的冒险家，欢迎来到小城区的圣劳伦斯教堂（Kostel sv. Vavřince，赫利霍娃街）！
+
+小城区（Malá Strana）依傍在布拉格城堡脚下，带着一种紧凑的自信——这里的居民深知自己站在黄金地段，毫无搬走的念头。巴洛克宫殿与大使馆、葡萄酒吧并肩而立，鹅卵石铺就的街道五百年来几乎没有改变走向。这座位于赫利霍娃街（Hellichova）的圣劳伦斯教堂，在一个大多数建筑都在发出相当宏大建筑宣言的街区里，是一个更小巧、更安静的存在。这种谦逊恰恰构成了它的魅力。在一个到处都是宫殿的街区里，一座朴实的教堂本身就是一种地标。
+
+圣劳伦斯——捷克语称"sv. Vavřinec"——是早期教会的一位助祭，公元258年在罗马皇帝瓦勒良（Valerian）统治下殉道。他被活活烤在一个大铁格栅上，下面燃着炭火。根据一个或深刻或荒诞（也许两者兼而有之）的传说，他在烤架上烤了一段时间后，据说对行刑者说："把我翻个面——这一面熟了。"他是厨师、喜剧演员和啤酒酿造者的主保圣人，因为这三种职业都需要在极端高温下保持沉着冷静。
+
+🥚 彩蛋：圣劳伦斯的铁格栅成为他标准的圣像学标志——他几乎总是被描绘成手持殉道刑具的形象，而他的刑具恰好也兼具厨房设备功能。这意味着，在欧洲各地博物馆收藏的巴洛克油画里，你会反复看到一个神情平静的人物，手里提着看上去像烤架的东西。8月10日是他的瞻礼日，在中欧许多地方，这个日期恰逢流星雨季节。中世纪基督徒将八月的英仙座流星雨称为"圣劳伦斯之泪"，这个名字至今从未完全消失。`,
+    },
+  },
+  {
+    name: 'Church of St. Matthew',
+    slug: 'kostel-sv-mateje',
+    localizedNames: { cz: 'Kostel sv. Matěje', zh: '圣马太教堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.11324187497204, lng: 14.377497748200899 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Church of St. Matthew (Kostel sv. Matěje)!
+
+Dejvice is Prague's version of a well-ordered European residential district — wide avenues, embassies behind iron fences, a roundabout that causes traffic confusion roughly once per minute, and apartment blocks that carry themselves with the quiet dignity of the First Republic era. The Church of St. Matthew sits in this neighbourhood without architectural drama, serving a community that has been using it continuously since it was built. This is not Prague's most famous church. It does not need to be. Most of the world's churches were built for the people who actually live near them, and this one has been doing exactly that for a long time.
+
+St. Matthew has a professional history that makes him uniquely interesting among the apostles. Before his conversion, he was a tax collector — specifically, a collector of tolls and customs duties in Capernaum, working on behalf of the Roman occupation. In first-century Jewish society, this was among the most despised of occupations: collaboration with the occupying power, handled in cash, and almost universally assumed to involve creative accounting in one's own favour. Jesus invited Matthew to follow him directly from the tax table, which caused immediate scandal among everyone watching. Matthew did not need convincing twice.
+
+🥚 Easter Egg: The moment of Matthew's calling was the subject of one of Caravaggio's most celebrated paintings, "The Calling of Saint Matthew" (1600), now in Rome. Caravaggio painted the scene with extraordinary modernity: contemporary seventeenth-century clothing, naturalistic light, and Matthew's expression of genuine surprise — the look of someone who cannot quite believe this particular invitation is meant for him. Centuries later, tax collectors remain among St. Matthew's official patronage, alongside accountants and bankers. Whether this patronage has reduced the professional temptations of the occupation is a question history declines to answer definitively.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kostele sv. Matěje!
+
+Dejvice jsou pražskou verzí spořádané evropské rezidenční čtvrti — široké třídy, ambasády za železnými ploty, kruhový objezd, který způsobuje dopravní zmatky přibližně jednou za minutu, a bytové domy, které se nesou s tichým důstojností éry První republiky. Kostel sv. Matěje leží v této čtvrti bez architektonické dramatičnosti a slouží společenství, které ho nepřetržitě používá od doby, kdy byl postaven. Toto není nejslavnější pražský kostel. Nemusí být. Většina světových kostelů byla postavena pro lidi, kteří skutečně žijí v blízkosti, a tento to tak dělá hodně dlouho.
+
+Sv. Matěj má profesní historii, která ho mezi apoštoly činí jedinečně zajímavým. Před svým obrácením byl výběrčím daní — konkrétně výběrčím mýtného a cel v Kafarnaum, pracujícím jménem římské okupace. V židovské společnosti prvního století to bylo jedno z nejpohrdanějších zaměstnání: spolupráce s okupační mocí, prováděná v hotovosti a téměř všeobecně předpokládající kreativní účetnictví ve vlastní prospěch. Ježíš pozval Matěje, aby ho následoval, přímo od daňového stolu, což způsobilo okamžitý skandál u všech přihlížejících. Matěj nepotřeboval být přesvědčován dvakrát.
+
+🥚 Velikonoční vajíčko: Okamžik Matějova povolání byl předmětem jednoho z nejslavnějších Caravaggiových obrazů, "Povolání sv. Matěje" (1600), v Římě. Caravaggio maloval scénu s mimořádnou moderností: postavy v dobových sedmnáctistoleních šatech, přirozené světlo a Matějův výraz skutečného překvapení — pohledem někoho, kdo nemůže uvěřit, že toto pozvání je myšleno jemu. O staletí později zůstávají výběrčí daní mezi patrony sv. Matěje, společně s účetními a bankéři. Zda toto záštitnictví snížilo profesní pokušení daného povolání, je otázka, na kterou dějiny odmítají dát definitivní odpověď.`,
+
+      zh: `勇敢的冒险家，欢迎来到圣马太教堂（Kostel sv. Matěje）！
+
+德伊维采（Dejvice）是布拉格版本的井然有序的欧洲住宅区——宽阔的林荫大道、铁栅栏后的大使馆、每分钟大约造成一次交通混乱的环形交叉路，以及带着第一共和国时代安静尊严的公寓楼群。圣马太教堂坐落在这个街区，没有任何建筑戏剧感，默默服务着自它建成以来就一直使用它的社区。这不是布拉格最著名的教堂，也不需要是。世界上大多数教堂都是为真正住在附近的人建造的，而这座教堂长久以来一直做着这件事。
+
+圣马太有一段职业履历，使他在十二使徒中独具魅力。皈依之前，他是一位税吏——具体来说，是在迦百农（Capernaum）为罗马占领者征收通行税和关税的人。在一世纪的犹太社会里，这是最受鄙视的职业之一：为占领军服务，用现金交易，几乎所有人都默认你会从中做些"创意会计"。耶稣直接走到税摊前邀请马太跟从他——在场所有人都立刻感到震惊。马太没有犹豫第二次。
+
+🥚 彩蛋：马太蒙召的那一刻是卡拉瓦乔（Caravaggio）最著名画作《蒙召的圣马太》（1600年）的主题，现藏罗马。卡拉瓦乔以极具现代感的方式描绘了这个场景：当时的服装、自然的光线，以及马太那真实的惊讶表情——像是一个无法相信这个邀请真的是针对自己的人。几百年后，税吏依然在圣马太的官方庇护范围之内，同他们一起的还有会计师和银行家。这种庇护是否减少了这个职业的职业诱惑，历史拒绝给出明确答案。`,
+    },
+  },
+  {
+    name: 'Church of St. Anne (Žižkov)',
+    slug: 'kostel-sv-anny-zizkov',
+    localizedNames: { cz: 'Kostel sv. Anny (Žižkov)', zh: '圣安妮教堂（日什科夫）' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.087141885353454, lng: 14.461328104780444 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Church of St. Anne in Žižkov (Kostel sv. Anny)!
+
+You have arrived in Žižkov, which is simultaneously one of Prague's most beloved and most misunderstood districts. It is named after Jan Žižka, the fifteenth-century Hussite military commander who won every battle he ever fought — including, remarkably, several after he went blind in his second eye and was directing operations entirely by tactical memory and the reports of subordinates. His statue on Vítkov Hill nearby is the largest equestrian bronze statue in the world. Žižkov also has a television tower covered in giant crawling babies, more pubs per square kilometre than any other district in the city, and a reputation for independence that dates back centuries. Into this context, the Church of St. Anne provides the neighbourhood with a quiet Baroque counterweight to everything that surrounds it.
+
+St. Anne is the name given by tradition to the mother of the Virgin Mary — and consequently the grandmother of Jesus. She does not appear anywhere in the canonical Gospels. Her existence is attested only in apocryphal texts, most importantly the second-century Protoevangelium of James. The Catholic and Orthodox churches nonetheless honour her on July 26, and she has become the patron of grandmothers, miners, housewives, and lace-makers. Despite her non-canonical status, she has been a significant figure in European folk piety for centuries.
+
+🥚 Easter Egg: In Czech popular tradition, St. Anne's Day on July 26 marks the arrival of summer's second half, expressed in the folk saying "Anna chladí vodu" — Anne cools the water — meaning the rivers begin to lose their summer warmth from this date forward. This is not astronomically precise, but Czech folk meteorology has never aspired to the standards of the Czech Hydrometeorological Institute. In Žižkov, this tradition survives alongside the other district traditions — the summer festivals, the neighbourhood pubs, and the statue of the general on the hill after whom the whole district is named.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kostele sv. Anny v Žižkově!
+
+Přišel jsi do Žižkova, který je zároveň jednou z nejmilejších a nejnepochopenějších pražských čtvrtí. Je pojmenován po Janu Žižkovi, husitském vojenském veliteli z patnáctého století, který vyhrál každou bitvu, kterou kdy svedl — včetně, pozoruhodně, několika poté, co oslepl na druhé oko a vedl operace čistě z taktické paměti a zpráv podřízených. Jeho socha na nedalekém Vítkově je největší jezdeckou bronzovou sochou na světě. Žižkov má také televizní věž pokrytou obřími lezoucími mimulami, více hospod na čtvereční kilometr než kterákoli jiná čtvrť ve městě a pověst nezávislosti sahající staletí zpět. Do tohoto kontextu poskytuje Kostel sv. Anny čtvrti tiché barokní protizávaží ke všemu, co ho obklopuje.
+
+Sv. Anna je jméno, které tradice dává matce Panny Marie — a tedy babičce Ježíše. V kanonických evangeliích se nikde neobjevuje. Její existence je doložena pouze v apokryfních textech, nejdůležitěji ve druhostoleté Protoevangeliu Jakubovu. Katolická a pravoslavná církev ji nicméně uctívají 26. července a stala se patronkou babiček, horníků, hospodyní a krajkářek. Navzdory svému nekanonickému statusu je od staletí významnou postavou evropské lidové zbožnosti.
+
+🥚 Velikonoční vajíčko: V české lidové tradici označuje svátek sv. Anny 26. července příchod druhé poloviny léta, vyjádřený lidovým rčením "Anna chladí vodu" — tedy že řeky od tohoto data ztrácejí své letní teplo. Toto není astronomicky přesné, ale česká lidová meteorologie nikdy neusilovala o standardy Českého hydrometeorologického ústavu. V Žižkově tradice přežívá vedle ostatních čtvrtních tradic — letních festivalů, sousedských hospod a sochy generála na kopci, po němž je celá čtvrť pojmenována.`,
+
+      zh: `勇敢的冒险家，欢迎来到日什科夫（Žižkov）的圣安妮教堂（Kostel sv. Anny）！
+
+你已到达日什科夫——这是布拉格最受爱戴却也最被误解的街区之一。它得名于15世纪的胡斯派军事指挥官扬·日什卡（Jan Žižka），他打遍天下无敌手——令人惊叹的是，其中包括他失去第二只眼睛、完全凭借战术记忆和部下汇报来指挥作战时赢得的几场胜利。附近维特科夫山（Vítkov）上他的雕像，是世界上最大的骑马铜像。日什科夫还有一座覆盖着巨型爬行婴儿雕塑的电视塔、每平方公里酒吧密度全市最高的记录，以及一种可以追溯数个世纪的独立精神。在这样的背景之中，圣安妮教堂以一种安静的巴洛克气质，成为这个街区另一种平衡力量。
+
+圣安妮是传统上赋予圣母玛利亚之母——也就是耶稣的外祖母——的名字。她在任何一部正典福音书中都没有出现过。她的存在只能通过次经文献得到印证，最主要的来源是二世纪的《雅各伯原始福音》。尽管如此，天主教和东正教仍然在7月26日纪念她，她成为了祖母、矿工、家庭主妇和蕾丝编织者的守护圣人。尽管地位不在正典之列，几百年来她一直是欧洲民间信仰的重要人物。
+
+🥚 彩蛋：在捷克民间传统中，7月26日圣安妮节标志着夏季下半段的到来，有一句民谚说"Anna chladí vodu"（安娜使水降温），意思是从这天起河水开始失去夏日的温度。这在天文学上并不精确，但捷克民间气象学从来没有追求达到捷克水文气象研究所的标准。在日什科夫，这个传统与其他街区传统并存——夏日节庆、街坊酒吧，以及山顶上那位以其名字命名了整个街区的将军雕像。`,
+    },
+  },
+  {
+    name: 'Church of St. Norbert',
+    slug: 'kostel-sv-norberta',
+    localizedNames: { cz: 'Kostel sv. Norberta', zh: '圣诺伯特教堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.09157392579911, lng: 14.377693241731075 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Church of St. Norbert (Kostel sv. Norberta)!
+
+In the geography of medieval sanctity, St. Norbert of Xanten holds a specific and important position: he is the founder of the Premonstratensians — formally the Order of Canons Regular of Prémontré, informally the White Canons — whose most prominent Prague institution, Strahov Monastery, sits visible on the hillside not far from here. Norbert was born around 1080 into a noble German family near Cologne and was living as a comfortable, pleasantly dissolute canon at Xanten when, according to his biography, he was struck by lightning during a severe thunderstorm in 1115 and narrowly escaped death. He took this as a divine instruction to reconsider his priorities with some urgency.
+
+What followed was a dramatic reorientation. Norbert abandoned his comfortable position, gave away his possessions, and began travelling as an itinerant preacher. In 1120 he founded his religious community at Prémontré in northern France, establishing a rule combining monastic austerity with active ministry in the world. The White Canons came to Prague in 1143, founding Strahov Monastery on the heights above Malá Strana, where they have remained — with interruptions for Josephine dissolution and communist nationalisation — for over eight hundred years. Norbert was later appointed Archbishop of Magdeburg, which he regarded as considerably less interesting than running his order.
+
+🥚 Easter Egg: St. Norbert's remains had a complicated journey. He died in Magdeburg in 1134, where he was initially buried. His relics remained there until 1626, when they were transferred to Strahov Monastery — partially as a rescue operation to bring them safely behind Bohemian lines during the chaos of the Thirty Years' War, and partially because the Prague Premonstratensians were very interested in having their founder's relics on site. The bones of St. Norbert have been at Strahov ever since, resting in the Church of the Assumption there. The Archbishop of Magdeburg has been without his founding bishop's remains for four hundred years. Prague has a habit of holding onto things.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kostele sv. Norberta!
+
+V geografii středověké svatosti zaujímá sv. Norbert z Xantenu specifické a důležité místo: je zakladatelem premonstrátů — formálně Řádu kanovníků regulovaných z Prémontré, neformálně Bílých kanovníků — jejichž nejvýznamnější pražská instituce, Strahovský klášter, se viditelně tyčí na svahu nevelmi daleko odtud. Norbert se narodil okolo roku 1080 do urozené německé rodiny u Kolína nad Rýnem a žil jako pohodlný, příjemně rozmařilý kanovník v Xantenu, když ho podle jeho životopisu v roce 1115 zasáhl blesk při prudké bouřce a on jen o vlásek unikl smrti. Vzal to jako božský pokyn přehodnotit svůj životní postoj s určitou naléhavostí.
+
+Následovala dramatická přeměna. Norbert opustil své pohodlné postavení, rozdal svůj majetek a začal cestovat jako putující kazatel. V roce 1120 v Prémontré v severní Francii založil řeholní komunitu, která kombinovala klášterní askezi s aktivní službou ve světě. Bílí kanovníci přišli do Prahy v roce 1143 a na výšinách nad Malou Stranou založili Strahovský klášter, kde zůstali — s přestávkami pro josefínské zrušení a komunistickou nacionalizaci — přes osm set let. Norbert byl později jmenován arcibiskupem magdeburským, což považoval za podstatně méně zajímavé než řízení svého řádu.
+
+🥚 Velikonoční vajíčko: Pozůstatky sv. Norberta měly komplikovanou cestu. Zemřel v Magdeburku v roce 1134, kde byl zpočátku pohřben. Jeho relikvie tam zůstaly až do roku 1626, kdy byly přeneseny do Strahovského kláštera — částečně jako záchranná operace v chaosu Třicetileté války, částečně proto, že pražští premonstráti měli zájem mít ostatky zakladatele svého řádu na místě. Kosti sv. Norberta jsou od té doby na Strahově, uložené v tamějším kostele Nanebevzetí Panny Marie. Magdeburský arcibiskup se obejde bez ostatků svého zakladatele-biskupa čtyři sta let. Praha má zvyk věci udržet.`,
+
+      zh: `勇敢的冒险家，欢迎来到圣诺伯特教堂（Kostel sv. Norberta）！
+
+在中世纪圣洁的地理版图上，沙滕的圣诺伯特（Norbert of Xanten）占据着一个独特而重要的位置：他是普雷蒙特雷修会（Premonstratensians）的创始人——正式名称"普雷蒙特雷修会院司铎"，绰号"白衣修士"——他们在布拉格最著名的机构斯特拉霍夫修道院（Strahov Monastery）就矗立在距这里不远的山坡上清晰可见。诺伯特约于1080年出生在科隆附近的一个德国贵族家庭，在沙滕担任一名舒适、散漫的教士，直到据其传记记载，1115年一场猛烈雷雨中他被闪电击中，险些丧命。他把这视为需要紧迫地重新审视人生优先级的神圣指示。
+
+随之而来的是一场戏剧性转变。诺伯特放弃了舒适的职位，散尽财产，开始以游历传道者的身份四处游荡。1120年，他在法国北部的普雷蒙特雷建立了修道社区，将修道生活的苦修与积极社会服务相结合。白衣修士于1143年抵达布拉格，在小城区上方的山顶建立了斯特拉霍夫修道院，在那里延续至今——中间经历了约瑟夫时代的解散令和共产主义国有化时期的中断——已逾八百年。圣诺伯特后来被任命为马格德堡大主教，他认为这远不如管理自己的修会有趣。
+
+🥚 彩蛋：圣诺伯特的遗骸经历了一段曲折旅程。他于1134年在马格德堡去世，最初就葬于那里。他的遗物在那里保存至1626年，才被转移至布拉格的斯特拉霍夫修道院——部分原因是三十年战争混乱中将其安置在波西米亚防线之内的救援行动，另一部分原因是布拉格的普雷蒙特雷修士希望将修会创始人的遗物安置在自己的机构内。圣诺伯特的遗骸自那以后便一直留在斯特拉霍夫，安放在那里的圣母升天教堂内。马格德堡大主教已经与他创始主教的遗骸分离了四百年。布拉格有一种留住东西的习惯。`,
+    },
+  },
+  {
+    name: 'Church of St. Procopius (Sladkovského náměstí)',
+    slug: 'kostel-sv-prokopa-sladkovskeho',
+    localizedNames: { cz: 'Kostel sv. Prokopa (Sladkovského náměstí)', zh: '圣普罗科普教堂（斯拉德科夫斯凯广场）' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.084123311618775, lng: 14.450581857755662 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Church of St. Procopius on Sladkovského náměstí (Kostel sv. Prokopa)!
+
+Among the patron saints of Bohemia — a distinguished roster that includes Wenceslas, Adalbert, Ludmila, and Vitus — St. Procopius is perhaps the most specifically, distinctively Czech. The others have international profiles: Wenceslas appears in an English Christmas carol; Adalbert died on a missionary journey to the Prussians; Vitus was a Sicilian child martyr whose medieval cult spread from Hamburg to Prague. Procopius, however, is entirely a Bohemian product. He was born in Bohemia around 970, studied in Prague, became a hermit in the Sázava valley, founded a monastery there, and died in 1053 without ever straying very far from the forests and meadows of central Bohemia. He is intensely local. He belongs here.
+
+The legend of his hermitage includes a detail so good it deserves to be told plainly: at some point during his years in the forest, the devil appeared and began causing trouble. Procopius caught him, harnessed him to a plow, and made him till the fields. The devil was thus conscripted into agricultural labour and forced to break ground for the monastery. This is, by any measure, an extraordinarily satisfying resolution to a supernatural encounter, and it says something specific about the Bohemian folk imagination: the devil shows up, you put him to work, and the monastery gets its fields ploughed. Practical to the last.
+
+🥚 Easter Egg: The Sázava Monastery that Procopius founded is significant in Czech history for reasons beyond his personal sanctity. It was one of the last European monasteries to use the Old Church Slavonic liturgy rather than Latin — a tradition established by Saints Cyril and Methodius in the ninth century and sustained at Sázava until the Benedictines replaced it with Latin rites around 1097. For over a century, Sázava was a rare island of liturgical Slavonic in the Latin sea covering Western Christianity. When you honour St. Procopius, you are also honouring the fact that somewhere in the Bohemian forest, people were chanting the liturgy in something recognisably close to Czech for a hundred years before the Latin rite finally prevailed.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kostele sv. Prokopa na Sladkovského náměstí!
+
+Mezi patrony Čech — vynikajícím seznamem, který zahrnuje Václava, Vojtěcha, Ludmilu a Víta — je sv. Prokop snad nejspecifičtěji, nejdistinktivněji český. Ti ostatní mají mezinárodní profily: Václav se objevuje v anglické vánoční koledě; Vojtěch zemřel na misijní cestě k Prusům; Vít byl sicilský dětský mučedník, jehož středověký kult se rozšířil z Hamburku do Prahy. Prokop je však výlučně českým produktem. Narodil se v Čechách okolo roku 970, studoval v Praze, stal se poustevníkem v sázavském údolí, tam founded klášter a zemřel v roce 1053, aniž by se kdy vzdálil příliš daleko od lesů a luk středních Čech. Je hluboce místní. Patří sem.
+
+Legenda o jeho poustevnictví obsahuje detail tak dobrý, že si zaslouží být vyprávěn přímo: v jistém okamžiku během jeho let v lese se objevil ďábel a začal způsobovat problémy. Prokop ho chytil, zapřáhl ho do pluhu a přiměl ho orat pole. Ďábel byl takto odveden do zemědělských prací a donucen rozorávat půdu pro klášter. Je to za každých okolností mimořádně uspokojivé vyřešení nadpřirozeného setkání a říká to něco specifického o české lidové fantazii: ďábel se objeví, ty ho dáš do práce a klášter má zorané pole. Praktické až do konce.
+
+🥚 Velikonoční vajíčko: Sázavský klášter, který Prokop founded, je v české historii významný z důvodů přesahujících jeho osobní svatost. Byl jedním z posledních evropských klášterů používajících staroslověnskou liturgii namísto latiny — tradici zavedenou sv. Cyrilem a Metodějem v devátém století a udržovanou na Sázavě, dokud benediktini kolem roku 1097 slovanské obřady latinskými nezaměnili. Po více než sto let byl Sázavský klášter vzácným ostrovem liturgické staroslověnštiny v moři latiny pokrývajícím západní křesťanství. Když uctíváš sv. Prokopa, uctíváš také skutečnost, že někde v českém lese lidé po sto let zpívali liturgii v něčem rozpoznatelně blízkém češtině, než latinský ritus nakonec zvítězil.`,
+
+      zh: `勇敢的冒险家，欢迎来到斯拉德科夫斯凯广场的圣普罗科普教堂（Kostel sv. Prokopa）！
+
+在波西米亚的主保圣人中——一个由瓦茨拉夫、阿达尔伯特（Adalbert）、鲁德米拉和维特（Vitus）等人组成的杰出名单——圣普罗科普（sv. Prokop）或许是其中最独特、最纯粹捷克的一位。其他几位都有国际知名度：瓦茨拉夫出现在英语圣诞颂歌里；阿达尔伯特在前往普鲁士的传教途中殉道；维特是来自西西里的童年殉道者，他的中世纪崇拜从汉堡传播到了布拉格。而普罗科普完全是波西米亚本土的产物。他约于公元970年出生于波西米亚，在布拉格求学，后成为萨扎瓦（Sázava）河谷的隐士，在那里建立了修道院，并于1053年辞世，一生从未远离波西米亚中部的森林与牧场。他是彻底本地的——他属于这片土地。
+
+关于他隐居生活的传说中有一个细节好到值得直白地讲述：在他在森林中生活的某个时刻，魔鬼出现并开始制造麻烦。普罗科普抓住了他，把他套上犁，让他耕地。魔鬼就此被征召为农业劳动力，被迫为修道院开垦土地。这无论如何都是对一场超自然遭遇令人满意的处理方式，也道出了波西米亚民间想象力的某种特质：魔鬼出现了，你把他安排去干活，修道院的地就被耕好了。务实到底。
+
+🥚 彩蛋：普罗科普创立的萨扎瓦修道院在捷克历史上的意义远超他个人的圣洁。它是欧洲最后几座使用古教会斯拉夫语礼仪而非拉丁语的修道院之一——这一传统由圣西里尔和圣美多迪乌斯在九世纪建立，在萨扎瓦延续，直到约公元1097年本笃会修士用拉丁礼仪取而代之。在超过一百年的时间里，萨扎瓦修道院是西方基督教拉丁礼仪汪洋中一座罕见的斯拉夫礼仪之岛。当你向圣普罗科普致敬时，你也在以某种微小的方式，向这个事实致敬：在波西米亚的森林某处，有人用一种与捷克语可以辨认地接近的语言诵读了一百年的礼仪，然后拉丁礼仪才最终占据上风。`,
+    },
+  },
+  {
+    name: 'Church of the Holy Spirit',
+    slug: 'kostel-sv-ducha',
+    localizedNames: { cz: 'Kostel svatého Ducha', zh: '圣神教堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.09008160415207, lng: 14.420300127391638 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Church of the Holy Spirit (Kostel svatého Ducha)!
+
+In Czech, "Duch" means both "spirit" and "ghost." The word operates in both directions simultaneously — holy spirit, holy ghost, the same theological concept expressed through a single word that in other contexts means something rather more unsettling. This linguistic fact will not change your experience of the church, but it adds a certain atmospheric texture to standing in front of it in the Old Town, not far from the Jewish Quarter, in a part of Prague that has accumulated more layers of history than almost anywhere else in Central Europe. The Church of the Holy Spirit is a Gothic building from the fourteenth century, modified over subsequent centuries and now operating quietly as a Roman Catholic parish church in the shadow of more famous Old Town neighbours.
+
+The immediate surroundings are among Prague's most historically dense. Josefov — the Jewish Quarter — lies close at hand: the old cemetery, the synagogues that survived what many did not, the 1850 administrative reorganisation that gave the quarter its current name. This part of the city has been simultaneously Jewish, Christian, German, Czech, Habsburg, and everything in between, and the Church of the Holy Spirit has sat here through all of it without comment.
+
+🥚 Easter Egg: The Benedictine convent that originally surrounded this church was dissolved under Emperor Joseph II's massive anti-monastic campaign in the 1780s. Joseph II dissolved roughly half of all religious houses in the Bohemian lands during his tenure — a reform programme motivated by Enlightenment rationalism, fiscal pragmatism, and a genuine belief that contemplative monasticism was economically unproductive. The church survived the dissolution; the convent did not. Joseph II's reform programme is one of the more complicated legacies in Czech history: enlightened, often effective, frequently destructive of irreplaceable cultural heritage, and pursued with the characteristic determination of someone absolutely certain he knew what was best. Several Prague churches owe their current form — as concert halls, museums, or simply as survivors — entirely to which side of his particular calculation they ended up on.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kostele svatého Ducha!
+
+V češtině "duch" znamená jak "ducha", tak "strašidlo." Slovo funguje oběma směry současně — Duch svatý, svaté strašidlo, tentýž teologický pojem vyjádřený jediným slovem, které v jiných kontextech znamená něco poněkud znepokojivějšího. Tento jazykový fakt nezmění tvůj zážitek z kostela, ale přidává určitou atmosferickou texturu ke stání před ním ve Starém Městě, nevelmi daleko od Josefova, v části Prahy, která navrstvila více vrstev dějin než takřka kdekoli jinde ve střední Evropě. Kostel svatého Ducha je gotická stavba ze čtrnáctého století, upravená v průběhu dalších staletí a nyní tiše fungující jako římskokatolická farnost ve stínu slavnějších sousedů Starého Města.
+
+Bezprostřední okolí patří k historicky nejhustším v Praze. Josefov — Židovské Město — leží nedaleko: starý hřbitov, synagogy, které přežily to, co mnoho jiných nepřežilo, správní reorganizace z roku 1850, která čtvrti dala její současné jméno. Tato část města byla současně židovská, křesťanská, německá, česká, habsburská a vše mezi tím — a Kostel svatého Ducha tu po tom všem seděl mlčky.
+
+🥚 Velikonoční vajíčko: Benediktinský klášter, který původně obklopoval tento kostel, byl zrušen za rozsáhlé antimonastické kampaně císaře Josefa II. v 80. letech 18. století. Josef II. zrušil přibližně polovinu všech řeholních domů v Českých zemích — reformní program motivovaný osvíceneckým racionalismem, fiskálním pragmatismem a upřímným přesvědčením, že kontemplativní mnišství je ekonomicky neproduktivní. Kostel přežil zrušení; klášter ne. Reformní program Josefa II. je jedním ze složitějších odkazů v české historii: osvícený, often účinný, frequently destruktivní vůči nenahraditelnému kulturnímu dědictví a prováděný s charakteristickým odhodláním někoho zcela přesvědčeného, že ví, co je nejlepší. Několik pražských kostelů vděčí za svou dnešní podobu — jako koncertní sály, muzea nebo prostě přeživší — výhradně tomu, na které straně jeho konkrétní kalkulace skončily.`,
+
+      zh: `勇敢的冒险家，欢迎来到圣神教堂（Kostel svatého Ducha）！
+
+在捷克语里，"Duch"同时意味着"圣灵"和"鬼魂"。这个词在两个方向上同时运作——圣灵、鬼魂，同一个神学概念通过一个在其他语境中意味着更令人不安之物的单词来表达。这个语言学事实不会改变你在这座教堂里的体验，但它确实为你在老城区站在教堂前增添了某种氛围上的质感——不远处就是犹太区，这是布拉格历史层积最为厚重的地带之一。圣神教堂是一座14世纪的哥特式建筑，历经后续几个世纪的改建，如今在老城区那些更著名的邻居的阴影下，安静地作为一个罗马天主教堂区运营。
+
+教堂的周边环境是布拉格历史密度最高的区域之一。约瑟福夫（Josefov）犹太城近在咫尺：古老的公墓、在那些没能幸存的建筑中幸存下来的犹太会堂、1850年的行政重组给这片区域取了现在的名字。这片城区曾同时是犹太的、基督教的、德语的、捷克的、哈布斯堡的，以及所有这些之间的一切——而圣神教堂在这一切中始终沉默地坐落于此。
+
+🥚 彩蛋：最初环绕这座教堂而建的本笃会修道院，在18世纪80年代约瑟夫二世大规模反修道运动中被解散。约瑟夫二世在任期间解散了波西米亚地区约一半的修道院——这是一个以启蒙理性主义、财政实用主义以及对沉思式修道主义经济上不具生产力的真诚信念为动机的改革计划。教堂在解散中幸存下来，修道院则没有。约瑟夫二世的改革计划是捷克历史上最复杂的遗产之一：开明、往往有效，但频繁地摧毁了事后证明无可替代的文化遗产，且以一种完全确信自己知道什么是最好的人的典型坚定来推行。布拉格几座教堂现在的样貌——作为音乐厅、博物馆，或者仅仅作为幸存者——正取决于它们最终落在他那特定计算的哪一侧。`,
+    },
+  },
+  {
+    name: 'Church of the Immaculate Conception',
+    slug: 'kostel-neposkvrneneho-poceti',
+    localizedNames: { cz: 'Kostel Neposkvrněného početí Panny Marie', zh: '圣母无玷受孕教堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.068696940439516, lng: 14.494701153500596 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Church of the Immaculate Conception of the Virgin Mary (Kostel Neposkvrněného početí Panny Marie)!
+
+This church holds a dedication that is among the most frequently misunderstood concepts in Catholic theology — and not only by non-Catholics. The Immaculate Conception does not refer to the birth of Jesus. It refers to the conception of Mary — specifically, the doctrine that Mary herself was conceived in her mother's womb without inheriting original sin. This is a specific, technical theological claim about a privilege granted retroactively by God in anticipation of Mary's role as mother of Christ. It was defined as formal dogma by Pope Pius IX in 1854, making it one of the newer official doctrines in Catholic teaching — in place for approximately 170 years, which is a relatively short period by the standards of an institution making formal doctrinal declarations since the Council of Nicaea in 325 AD.
+
+The eastern districts of Prague where this church stands have their own unhurried character — working districts that developed in the nineteenth and early twentieth centuries as the city industrialised, and have settled into a pragmatic, unpretentious identity that has little to do with the castle-and-bridge Prague of the tourist brochures. The Church of the Immaculate Conception serves a community that lives and works here, as neighbourhood churches have always done.
+
+🥚 Easter Egg: The definition of the Immaculate Conception in 1854 was preceded by centuries of theological debate within the Catholic Church itself, with major figures on both sides. Thomas Aquinas — one of the greatest theologians in Catholic history — argued against it: his position was that Mary was sanctified after her conception but not at it. The Franciscans argued for it; the Dominicans (following Aquinas) argued against. The debate lasted several hundred years and was one of the most heated internal disputes in medieval Catholic theology. In the end, the dogmatic definition of 1854 settled the matter by papal authority — neatly illustrating how doctrinal questions in the Catholic Church can remain actively contested for centuries before receiving a definitive institutional answer.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kostele Neposkvrněného početí Panny Marie!
+
+Tento kostel nese zasvěcení, které patří mezi nejčastěji nepochopené pojmy v katolické teologii — a nejen nekatolíky. Neposkvrněné početí se nevztahuje na narození Ježíše. Vztahuje se na početí Marie — konkrétně na nauku, že Maria sama byla počata v lůně své matky bez dědičného prvotního hříchu. Jedná se o specifické, technické teologické tvrzení o privilegiu uděleném Bohem retroaktivně v předjímání Mariiny role jako matky Kristovy. Jako formální dogma bylo definováno papežem Piem IX. v roce 1854 — je tedy v platnosti přibližně 170 let, relativně krátká doba podle standardů instituce vydávající formální dogmatická prohlášení od Nicejského koncilu v roce 325 n. l.
+
+Východní čtvrti Prahy, kde tento kostel stojí, mají svůj vlastní klidný charakter — pracovní čtvrti, které se rozvíjely v devatenáctém a začátkem dvacátého století s industrializací města a usadily se do pragmatické, nenápadné identity. Kostel Neposkvrněného početí slouží komunitě, která tu žije a pracuje, jak sousedské kostely vždy dělaly.
+
+🥚 Velikonoční vajíčko: Definici Neposkvrněného početí v roce 1854 předcházela staletí teologické debaty uvnitř katolické církve samotné, s výraznými postavami na obou stranách. Tomáš Akvinský — jeden z největších teologů v katolické historii — se stavěl proti: jeho pozice byla, že Maria byla posvěcena po svém početí, nikoli při něm. Františkáni se stavěli pro; dominikáni (v souladu s Akvinským) proti. Debata trvala několik set let a patřila k nejheatovanějším interním sporům ve středověké katolické teologii. Nakonec dogmatická definice z roku 1854 věc papežskou autoritou oficálně uzavřela — přehledně ilustrujíc, jak naučné otázky v katolické církvi mohou zůstávat aktivně kontroverzní po staletí, než dostanou definitivní institucionální odpověď.`,
+
+      zh: `勇敢的冒险家，欢迎来到圣母无玷受孕教堂（Kostel Neposkvrněného početí Panny Marie）！
+
+这座教堂供奉着天主教神学中最常被误解的概念之一——不仅是非天主教徒，连天主教徒也经常搞混。"无玷受孕"（Immaculate Conception）指的不是耶稣的诞生。它指的是玛利亚的受孕——具体来说，是关于玛利亚本人在母亲子宫中受孕时便未沾染原罪的教义。这是一个具体的、技术性的神学主张，涉及上帝为预见玛利亚作为基督之母的角色而追溯性地赐予她的特权。它于1854年由教宗庇护九世正式定义为教义，使其成为天主教教导中较新的教义定义之一——大约只在170年内成为官方教会教义，对于一个自公元325年尼西亚公会议以来就在发表正式教义声明的机构来说，这是相当短暂的时间。
+
+这座教堂所在的布拉格东部街区有着自己不紧不慢的特质——这些工业区在19世纪至20世纪初随着城市工业化而发展起来，形成了务实、不矫揉造作的气质。圣母无玷受孕教堂服务着在这里生活和工作的社区，就像街区教堂一直以来所做的那样。
+
+🥚 彩蛋：1854年的无玷受孕教义定义之前，天主教会内部经历了数百年的神学辩论，双方都有重量级人物。托马斯·阿奎那——天主教历史上最伟大的神学家之一——持反对立场：他认为玛利亚是在受孕之后而非受孕之时得到圣化的。方济各会为此辩护；多明我会（遵循阿奎那的立场）则持反对意见。这场争论持续了数百年，是中世纪天主教神学中最激烈的内部神学争端之一。最终，1854年的教义定义以教宗权威正式解决了这一问题——清晰地说明了天主教会中教义问题在获得权威机构最终答案之前，可以持续争议数百年。`,
+    },
+  },
+  {
+    name: 'Church of Our Lady of the Angels',
+    slug: 'kostel-panny-marie-andelske',
+    localizedNames: { cz: 'Kostel Panny Marie Andělské', zh: '天使圣母教堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.08991302365088, lng: 14.3904806618152 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Church of Our Lady of the Angels (Kostel Panny Marie Andělské)!
+
+In the neighbourhood of Hradčany — the Castle District, perched above the city on its rocky promontory — the Capuchin monastery and its adjacent church have maintained a presence since 1600. The Capuchins are a branch of the Franciscan family: brown-robed, sandal-wearing, radically committed to poverty and simplicity in a tradition that runs directly back to St. Francis of Assisi. Their aesthetic choices are therefore the inverse of Baroque extravagance — plain walls, minimal decoration, a deliberate refusal of gold and ornament. Walking into this church from the theatrical excess of Prague's grander Baroque interiors is like switching from orchestral fortissimo to a single held note. The effect is disorienting in the best way.
+
+The dedication — Our Lady of the Angels — connects this church to a specific Franciscan devotion. The Porziuncola, a tiny chapel near Assisi in Italy, is the spiritual birthplace of the Franciscan movement: it was there that Francis heard the Gospel passage that changed his life, there that Clare of Assisi made her profession of vows, and there that Francis himself died in 1226. That little chapel is now enclosed within the massive Basilica of Santa Maria degli Angeli — "of the Angels" — and the dedication was carried across Europe by Capuchin communities establishing their own devotion to it.
+
+🥚 Easter Egg: The Capuchin monastery in Hradčany has a Christmas crib — a Nativity scene — that has been displayed in its church every Advent season since 1780. It is one of the most celebrated Nativity scenes in Central Europe: a large, elaborate composition with figures added and changed across the centuries, visited by Praguers for Christmas observance for over two hundred years. Capuchin Christmas cribs in the Central European tradition are a specific art form with detailed conventions about figures, scenery, and scale. In a city with many seasonal traditions, this is one that has survived Napoleon, the Habsburg dissolution of religious houses, two world wars, communist atheism, and the general turbulence of Czech history — entirely intact, still drawing crowds every December.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kostele Panny Marie Andělské!
+
+V Hradčanech — Hradčanské čtvrti, zasazené nad městem na skalnaté výspě — kapucínský klášter a přilehlý kostel udržují svou přítomnost od roku 1600. Kapucíni jsou větví františkánské rodiny: v hnědých hábitech, v sandálech, radikálně oddáni chudobě a jednoduchosti v tradici vedoucí přímo k sv. Františku z Assisi. Jejich estetické volby jsou tedy inverzí barokní okázalosti — holé zdi, minimální dekorace, záměrné odmítnutí zlata a ornamentů. Vstoupit do tohoto kostela z theatrálního přebytku grandiózních pražských barokních interiérů je jako přejít z orchestrálního fortissima na jediný prolongovaný tón. Efekt je dezorientující tím nejlepším způsobem.
+
+Zasvěcení — Panna Maria Andělská — spojuje tento kostel se specifickou františkánskou devokcí. Porziuncola, malá kaplička u Assisi v Itálii, je duchovním rodištěm františkánského hnutí: tam František uslyšel evangelní pasáž, která změnila jeho život, tam Klára z Assisi složila sliby a tam sám František zemřel v roce 1226. Tato malá kaplička je nyní uzavřena v rozlehlé Bazilice Santa Maria degli Angeli — "Andělské" — a zasvěcení bylo kapucínskými komunitami rozneseno po Evropě.
+
+🥚 Velikonoční vajíčko: Kapucínský klášter v Hradčanech má betlém — jesličkovou scénu — která je vystavena v kostele každou adventní sezónou od roku 1780. Je to jeden z nejslavnějších betlémů ve střední Evropě: velká, propracovaná kompozice s postavami přidávanými a měněnými v průběhu staletí, na níž Pražané přicházejí na vánoční pobožnost déle než dvě stě let. Kapucínské betlémy ve středoevropské tradici jsou specifickým uměleckým žánrem s podrobnými konvencemi. V městě s mnoha sezónními tradicemi je tato taková, která přežila Napoleona, habsburské zrušení klášterů, dvě světové války, komunistický ateismus a obecnou turbulenci české dějiny zcela neporušeně — a každý prosinec stále přitahuje davy.`,
+
+      zh: `勇敢的冒险家，欢迎来到天使圣母教堂（Kostel Panny Marie Andělské）！
+
+在城堡区（Hradčany）——那片矗立在城市上方岩石高台上的街区——自1600年起，嘉布遣（Capuchin）修道院及其毗邻的教堂便在这里扎根。嘉布遣会是方济各会大家庭的一个分支：身穿棕色会衣，脚踏凉鞋，在一种直接追溯至阿西西的圣方济各的传统中，彻底奉行贫穷与简朴的生活方式。因此，他们的审美选择与巴洛克豪华形成了鲜明对立——素白的墙壁、极少的装饰、刻意拒绝金饰与纹章。从布拉格那些宏大巴洛克内部装饰的戏剧性奢华中走进这座教堂，就像从管弦乐的强奏转换到一个延续的单音。那种效果令人迷失方向，以最好的方式。
+
+"天使圣母"这个献堂名称，将这座教堂与一种特定的方济各式虔诚联系在一起。波尔钦库拉（Porziuncola）是意大利阿西西附近的一座小礼拜堂，是方济各运动的精神发祥地：正是在那里，方济各聆听了改变他生命的福音段落；正是在那里，阿西西的嘉勒宣发了修道誓愿；也正是在那里，方济各本人于1226年辞世。这座小礼拜堂如今被宏大的"天使圣玛利亚大殿"（Santa Maria degli Angeli）所包裹，而这个献堂名称随着嘉布遣社区在欧洲各地传播开来。
+
+🥚 彩蛋：城堡区的嘉布遣修道院有一套圣诞马槽——耶稣诞生景——自1780年以来每年降临节期间都在教堂内展出。这是中欧最著名的圣诞马槽之一：一个大型、精细的构图，数百年来不断有人物被添加或更换，布拉格人已经连续超过两百年来这里进行圣诞礼拜。嘉布遣圣诞马槽是有着详细惯例的特定艺术形式。在一座有着众多季节性传统的城市里，这是其中一个完好无损地熬过了拿破仑时期、哈布斯堡解散修道院令、两次世界大战和共产主义无神论的传统——每年十二月仍然吸引大批人群前来。`,
+    },
+  },
+  {
+    name: 'Monastery Church of Our Lady — U Kajetánů',
+    slug: 'u-kajetanu',
+    localizedNames: { cz: 'Klášterní kostel Panny Marie — U Kajetánů', zh: '嘉耶当修道院圣母教堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.08860279566319, lng: 14.399775511178273 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Monastery Church of Our Lady — U Kajetánů (Klášterní kostel Panny Marie)!
+
+"U Kajetánů" — meaning "at the Theatines" — is the kind of Prague address that reveals its meaning only to those who know to ask. The Theatines are a religious order that time has treated somewhat unfairly. Founded in 1524 by Gaetano da Thiene — later canonised as St. Cajetan — and Gian Pietro Carafa — later elected Pope Paul IV — the Theatines were among the earliest and most serious Counter-Reformation reform movements in the Catholic Church. They arrived in Prague in the seventeenth century and built this Baroque church in Malá Strana, which remains one of the neighbourhood's more restrained and elegant ecclesiastical buildings.
+
+The Theatines never achieved the global profile of the Jesuits, despite being founded earlier and with similar aims. This is one of history's subtler ironies: two orders, similar missions, dramatically different outcomes in terms of institutional footprint. The Jesuits founded universities, ran global mission networks, and produced the Klementinum. The Theatines produced several popes, a handful of notable saints, and this church in Malá Strana that most people walk past without knowing who built it. History distributes institutional fame unevenly and often arbitrarily.
+
+🥚 Easter Egg: Gian Pietro Carafa, co-founder of the Theatines, was elected Pope Paul IV in 1555. His papacy is remembered for two things in particular: establishing the Roman Inquisition as a permanent institution, and publishing the first Index of Forbidden Books (Index Librorum Prohibitorum) in 1559 — a list of books Catholics were prohibited from reading, maintained and regularly updated until it was formally abolished in 1966. At its height, the Index contained the works of Copernicus, Galileo, Descartes, Kant, Locke, Voltaire, and Victor Hugo, among many others. The man who co-founded the quiet Baroque order whose Prague church you are now looking at also created the most comprehensive official reading prohibition list in Western history. Both accomplishments remain, in their different ways, historically notable.`,
+
+      cz: `Statečný dobrodruhu, vítej v Klášterním kostele Panny Marie — U Kajetánů!
+
+"U Kajetánů" — tedy "u teatínů" — je typ pražské adresy, která odhaluje svůj smysl jen těm, kteří vědí, na co se ptát. Teatíni jsou řeholní řád, s nímž se čas zachoval poněkud nespravedlivě. Byli v roce 1524 founded Gaetano da Thiene — pozdějším sv. Kajetánem — a Gian Pietro Carafou — pozdějším papežem Pavlem IV. — a patřili k nejranějším a nejzávažnějším protireformačním reformním hnutím v katolické církvi. Do Prahy přišli v sedmnáctém století a vystavěli tento barokní kostel na Malé Straně, který zůstává jednou ze zdrženlivějších a elegantnějších kostelních staveb v této čtvrti.
+
+Teatíni nikdy nedosáhli globálního profilu jezuitů, přestože byli founded dříve a s podobnými cíly. To je jedna z jemnějších historických ironií: dva řády, podobná mise, dramaticky odlišné výsledky z hlediska institucionální stopy. Jezuité zakládali univerzity, provozovali globální misijní sítě a vybudovali Klementinum. Teatíni vyprodukovali několik papežů, hrstku pozoruhodných světců a tento kostel na Malé Straně, kolem nějž většina lidí prochází, aniž by tušila, kdo ho postavil. Dějiny rozdělují institucionální slávu nerovnoměrně a often svévolně.
+
+🥚 Velikonoční vajíčko: Gian Pietro Carafa, spoluzakladatel teatínů, byl v roce 1555 zvolen papežem Pavlem IV. Jeho pontifikát je vzpomínán především ze dvou důvodů: za zřízení Římské inkvizice jako trvalé instituce a za vydání prvního Indexu zakázaných knih (Index Librorum Prohibitorum) v roce 1559 — seznamu knih, jejichž čtení bylo katolíkům zakázáno, který byl udržován a pravidelně aktualizován až do jeho formálního zrušení v roce 1966. Na vrcholu slávy obsahoval díla Koperníka, Galilea, Descarta, Kanta, Locka, Voltaira a Victora Huga. Muž, který spoluzaložil tichý barokní řád, jehož pražský kostel právě vidíte, také vytvořil nejkomplexnější úřední seznam zákazů čtení v dějinách Západu. Obě počiny zůstávají, každý svým způsobem, historicky pozoruhodné.`,
+
+      zh: `勇敢的冒险家，欢迎来到嘉耶当修道院圣母教堂——U Kajetánů（Klášterní kostel Panny Marie）！
+
+"U Kajetánů"——意为"在泰亚廷会修士处"——是那种在布拉格只对知道该问什么的人才会透露其含义的地址。泰亚廷会（Theatines，捷克语Kajetáni）是一个时代对之处理有些不公平的修道会。1524年，由加埃塔诺·达·迪耶纳（Gaetano da Thiene，后被封圣为圣嘉耶当）和詹·皮耶特罗·卡拉法（Gian Pietro Carafa，后当选为教宗保禄四世）共同创立，是天主教会中最早也最认真的反宗教改革运动之一。他们在17世纪来到布拉格，在小城区建造了这座巴洛克风格的教堂——这是这个街区最为克制而优雅的教会建筑之一。
+
+泰亚廷会从未获得与耶稣会同等的国际知名度，尽管前者成立更早、目标也相近。这是历史较为隐晦的讽刺之一：两个修会，使命相近，但在机构影响力方面结局却截然不同。耶稣会创建了大学，经营着全球传教网络，建造了克莱门汀图书馆；泰亚廷会则产出了几位教宗、少数几位著名圣人，以及小城区的这座教堂——大多数人从它旁边走过时根本不知道是谁建造了它。历史分配机构声望的方式往往不均，且常常出于偶然。
+
+🥚 彩蛋：詹·皮耶特罗·卡拉法——泰亚廷会的联合创始人——于1555年当选为教宗保禄四世。他的教宗生涯主要因两件事被人铭记：将罗马宗教裁判所确立为永久机构，以及1559年发布了第一份《禁书目录》（Index Librorum Prohibitorum）——一份禁止天主教徒阅读的书籍清单，由教会持续维护并定期更新，直至1966年正式废除。《禁书目录》在鼎盛时期收录了哥白尼、伽利略、笛卡尔、康德、洛克、伏尔泰和维克多·雨果等人的著作。那位共同创立了你现在正在看的这座安静巴洛克教堂所属修道会的人，同时也创建了西方历史上最全面的官方阅读禁令清单。这两项成就，各以其不同的方式，在历史上都留下了值得注目的印记。`,
+    },
+  },
+  {
+    name: 'Church of St. John of Nepomuk, Košíře',
+    slug: 'kostel-sv-jana-nepomuckeho-kosire',
+    localizedNames: { cz: 'Kostel sv. Jana Nepomuckého (Košíře)', zh: '圣约翰·内波穆克教堂（科希热）' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.068877171836036, lng: 14.366337600775292 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Church of St. John of Nepomuk in Košíře (Kostel sv. Jana Nepomuckého, Praha—Košíře)!
+
+Let us be transparent about something: Prague has a remarkable number of churches dedicated to St. John of Nepomuk. He appears on Charles Bridge (the most famous statue), in church dedications across the city, on roadside shrines, on building facades, at crossroads, and — now — in front of you in Košíře, the western district where the city begins its transition from the historic centre toward the suburban landscape beyond Motol. This is not a coincidence. The canonisation of St. John of Nepomuk in 1729 was a major event in Central European Catholic culture, and the following decades saw an explosion of shrines, churches, and statues across Bohemia that has never entirely abated.
+
+The church itself is a solid, unpretentious neighbourhood church that has served the Košíře community through Habsburg administration, the First Republic, the Nazi occupation, forty years of communism, and the post-1989 democratic period. It has outlasted every government that has ruled over it. Churches are very good at this.
+
+🥚 Easter Egg: The cult of St. John of Nepomuk crossed the Atlantic with Bohemian emigrants in the eighteenth and nineteenth centuries. He is honoured in churches across the United States, particularly in communities with Czech heritage — there is a statue of him in Nebraska, and a church named after him in Texas. The faithful Czech immigrant communities of the American Midwest, who left Bohemia in the nineteenth century for farming opportunities, built him shrines in a landscape that has never seen the Vltava, because they brought their saints with them the same way they brought their language, music, and recipes for kolache. Prague's most famous confessor watches over a rather larger geographical territory than Jan Nepomuk himself ever imagined.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kostele sv. Jana Nepomuckého v Košířích!
+
+Buďme upřímní ohledně jedné věci: Praha má pozoruhodné množství kostelů zasvěcených sv. Janu Nepomuckému. Objevuje se na Karlově mostě (nejslavnější socha), v kostelních zasvěceních po celém městě, na přícestných kapličkách, na fasádách budov, na křižovatkách a — nyní — před tebou v Košířích, v západní čtvrti, kde město začíná přechod z historického centra k předměstské krajině za Motolem. To není náhoda. Kanonizace sv. Jana Nepomuckého v roce 1729 byla velkou událostí ve středoevropské katolické kultuře a v následujících desetiletích došlo k explozi kaplí, kostelů a soch po celých Čechách, která nikdy zcela neutichla.
+
+Kostel sám je solidní, nenáročný sousedský kostel, který sloužil košířské komunitě přes habsburskou správu, První republiku, nacistickou okupaci, čtyřicet let komunismu a podemokratické období po roce 1989. Přežil každou vládu, která nad ním panovala. Kostely jsou v tom velmi dobré.
+
+🥚 Velikonoční vajíčko: Kult sv. Jana Nepomuckého překročil Atlantik s českými emigranty v osmnáctém a devatenáctém století. Je uctíván v kostelech po celých Spojených státech, zejména ve společenstvích s českou tradicí — v Nebrasce je jeho socha a v Texasu kostel pojmenovaný po něm. Věrné české emigrantské komunity středozápadní Ameriky, které opustily Čechy v devatenáctém století pro zemědělské příležitosti, mu budovaly svatyně v krajině, která nikdy neviděla Vltavu, protože si přinesly své světce stejně jako svůj jazyk, hudbu a recepty na koláče. Nejslavnější zpovědník Prahy střeží poněkud větší geografické území, než Jan Nepomuk sám kdy tušil.`,
+
+      zh: `勇敢的冒险家，欢迎来到科希热（Košíře）的圣约翰·内波穆克教堂（Kostel sv. Jana Nepomuckého）！
+
+让我们坦诚地承认一件事：布拉格供奉圣约翰·内波穆克的教堂数量相当可观。他出现在查理大桥上（那座最著名的雕像），出现在全市各地的教堂献堂中，出现在路边神龛里，出现在建筑外立面上，出现在十字路口——而现在，他出现在你眼前的科希热，这个城市西部开始从历史中心向摩托尔（Motol）以外郊区化景观过渡的地方。这不是巧合。1729年圣约翰·内波穆克封圣是中欧天主教文化的重大事件，随后数十年间，波西米亚各地出现了一场神龛、教堂和雕像的爆发式建造潮，至今从未真正平息。
+
+教堂本身是一座实在、朴素的街区教堂，在哈布斯堡王朝治下、第一共和国、纳粹占领、四十年共产主义，以及1989年后的民主时期，都一直默默服务着科希热社区。它熬过了每一个统治过它的政府。教堂在这方面非常擅长。
+
+🥚 彩蛋：圣约翰·内波穆克的崇拜在18至19世纪随着波西米亚移民跨越大西洋传入新世界。他在美国各地的教堂中受到供奉，尤其是在有捷克传统的社区里——内布拉斯加州有他的雕像，德克萨斯州有以他命名的教堂。这些19世纪为了农业机会而离开波西米亚的捷克移民社区，在一片从未见过伏尔塔瓦河的土地上为他建造神龛——因为他们把自己的圣人带来了，就像他们带来了自己的语言、音乐和科拉切（kolache）食谱一样。布拉格最著名的告解神父守护着一片远超扬·内波穆克生前所能想象的地理版图。`,
+    },
+  },
 ];
 
 async function run() {
