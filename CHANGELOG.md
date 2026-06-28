@@ -4,6 +4,22 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.6.2] — 2026-06-28
+
+**Content: 7 new church cards (common)**
+
+- Chapel of St. Ludmila (Kaple sv. Ludmily)
+- Chapel of St. Mary Magdalene (Kaple svaté Maří Magdaleny)
+- Church of Our Lady on the Lawn (Na trávníčku)
+- Prague Crossroads / St. Anne's Church (Pražská křižovatka)
+- Church of St. Cyril and St. Methodius — Karlín *(contains Easter egg linking to the famous Resslova Street crypt)*
+- Church of St. Ignatius (Kostel sv. Ignáce)
+- Military Church of St. John of Nepomuk (Vojenský kostel sv. Jana Nepomuckého)
+
+All cards: labels `church` + `history` + `architecture`, rarity Common, EN/CZ/ZH humorous descriptions with greetings.
+
+---
+
 ## [1.6.1] — 2026-06-28
 
 **Feat: guest auto-login — direct links no longer redirect to login**
