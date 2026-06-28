@@ -127,11 +127,12 @@ Each location has a **rarity** — a Hearthstone-style card tier that tells you 
 |---|---|---|
 | ◆ **Common** | +10 | Not ordinary — just Prague-ordinary. Any other city would put these on a postcard. |
 | ◆ **Rare** | +20 | Worth seeking out. Smart tourists find them. First-timers mostly walk past. |
-| ◆ **Epic** | +30 | Hidden gems that locals know. Requires effort, curiosity, and occasionally two tram transfers. |
-| ◆ **Mythic** | +40 | Extremely hard to find, rarely visited, yet historically or culturally significant. You will not stumble upon these. |
-| ◆ **Legendary** | +50 | Prague's most magnificent and iconic landmarks. If you haven't been here, you haven't really been to Prague. |
+| ◆ **Superior** | +30 | A step above rare. Not on the standard tourist radar, but rewarding for anyone willing to look just left of the obvious. |
+| ◆ **Epic** | +50 | Hidden gems that locals know. Requires effort, curiosity, and occasionally two tram transfers. |
+| ◆ **Mythic** | +70 | Extremely hard to find, rarely visited, yet historically or culturally significant. You will not stumble upon these. |
+| ◆ **Legendary** | +100 | Prague's most magnificent and iconic landmarks. If you haven't been here, you haven't really been to Prague. |
 
-The rarity is visible as a coloured diamond on every card (ivory → sky blue → purple → crimson → gold). The card border matches. The location name matches. Everything is colour-coded. The game wants you to feel things about a gold card.
+The rarity is visible as a coloured diamond on every card (ivory → sky blue → green → purple → crimson → gold). The card border matches. The location name matches. Everything is colour-coded. The game wants you to feel things about a gold card.
 
 ---
 

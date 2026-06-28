@@ -4,6 +4,34 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.6.1] — 2026-06-28
+
+**Feat: guest auto-login — direct links no longer redirect to login**
+
+- Unauthenticated visitors who follow a direct link now see the app in guest mode (English) instead of being redirected to `/login`
+- `ProtectedRoute` auto-calls `continueAsGuest()` via `useEffect` when a `guestOk` route is accessed without a session; shows a brief spinner during the transition
+
+---
+
+## [1.6.0] — 2026-06-28
+
+**Feat: Superior rarity tier + XP rebalance**
+
+- Added new rarity tier **Superior** (卓越 / Výjimečné) between Rare and Epic, colour `#2c8c03`
+- Rebalanced XP ladder: Common +10 / Rare +20 / Superior +30 / Epic +50 / Mythic +70 / Legendary +100
+- All existing location `xpReward` fields migrated to match new values
+- Updated rarity filter, sort order, Dashboard breakdown, and admin forms across the full stack
+
+---
+
+## [1.5.9] — 2026-06-28
+
+**Fix: stats label wraps onto two lines on small screens**
+
+- "显示 N" (showing count) now renders on its own line below the collected/total label instead of on the same line separated by ·
+
+---
+
 ## [1.5.8] — 2026-06-27
 
 **Fix: Vercel 404 on iOS PWA — moved `vercel.json` to correct project root**
