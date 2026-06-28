@@ -4,6 +4,30 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.6.3] — 2026-06-28
+
+**Tests: Jest unit test suite — 98 tests, 0 external dependencies**
+
+### Server (`cd server && npm test`)
+
+- `rarityMap.test.js` (9) — `RARITY_XP` all six tiers + ascending order; `getRarity()` legend / epic / rare slug lookups and unknown-slug default
+- `gamification.test.js` (33) — `calculateLevel()` for all 8 level thresholds, mid-level progress %, multilingual `title_cz`/`title_zh` fields, max-level clamping; `evaluateAchievements()` for every achievement predicate, deduplication against existing IDs, return shape (`id` + `Date`)
+
+### Client (`cd client && npm test`)
+
+- `locName.test.js` (8) — `getLocName()` null/undefined guard, English passthrough, CZ/ZH lookup from `localizedNames`, per-language fallback to `name`
+- `geolocation.test.js` (21) — `haversineDistance()` zero case, 1° degree known values, Prague coordinates, symmetry, triangle inequality, monotonicity; `setCachedPosition` subscriber fan-out, multi-subscriber, repeated calls; `subscribeToPosition` no-cache, immediate-cache, unsubscribe isolation; `getCurrentPosition` fresh-cache resolve, stale-cache (>60 s) bypass via `Date.now` spy, permission-denied rejection, generic error rejection, missing `navigator.geolocation`
+- `pixelArtMap.test.js` (19) — `getArt()` known-key hit, label string/array fallback, label priority order, `📍` default; `LABEL_DEFINITIONS` field shapes, no empty emoji; `LABEL_COLORS` hex format, full coverage against every `LABEL_DEFINITIONS` key
+- `rarity.test.js` (9) — `RARITY_XP` tier order and value parity with server; `RARITY_COLOR` hex format, superior `#2c8c03` and legend `#FFD700` spot-checks; `RARITY_LABEL` EN/CZ/ZH presence, all six tiers per language, no empty strings
+
+### Infrastructure
+
+- Server: native ESM via `node --experimental-vm-modules node_modules/jest/bin/jest.js`; `jest.config.cjs`; `jest` added to devDependencies
+- Client: Babel transform (`babel-jest` + `@babel/preset-env`); `jest.config.cjs`; `babel.config.cjs`; `jest`, `@babel/core`, `@babel/preset-env`, `babel-jest` added to devDependencies
+- Module-level state in `geolocation.js` isolated per test via `jest.resetModules()` + `require()` in `beforeEach`
+
+---
+
 ## [1.6.2] — 2026-06-28
 
 **Content: 7 new church cards (common)**

@@ -223,6 +223,31 @@ prague-stories/
 
 ---
 
+## Testing
+
+Jest unit tests cover all pure-logic utilities. 98 tests across 5 suites — no database, no HTTP server, no React rendering required.
+
+```bash
+# Server (42 tests)
+cd server && npm test
+
+# Client (56 tests)
+cd client && npm test
+```
+
+| Suite | What's covered |
+| --- | --- |
+| `rarityMap` | `RARITY_XP` constants, `getRarity()` slug lookup + unknown-slug default |
+| `gamification` | `calculateLevel()` all 8 level thresholds, progress %, multilingual titles; `evaluateAchievements()` every predicate, deduplication |
+| `locName` | `getLocName()` null safety, English passthrough, per-language fallback chain |
+| `geolocation` | `haversineDistance()` known distances, symmetry; position cache, subscriber fan-out, unsubscribe, stale-cache bypass, navigator error paths |
+| `pixelArtMap` | `getArt()` key hits, label fallback, array vs string, default; `LABEL_DEFINITIONS` shape; `LABEL_COLORS` hex format + coverage |
+| `rarity` | `RARITY_XP` parity with server, `RARITY_COLOR` hex + spot-checks, `RARITY_LABEL` multilingual coverage |
+
+Server tests use native ESM (`--experimental-vm-modules`). Client tests use Babel transform (`babel-jest`).
+
+---
+
 ## Environment Variables
 
 ```env
