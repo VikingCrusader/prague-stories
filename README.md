@@ -1,54 +1,137 @@
 # Prague Stories
 
-A gamified city exploration diary for Prague — built with the MERN stack.
+A gamified city-exploration app for Prague — built on the MERN stack and deployable as a PWA.
 
-Unlock 255 real Prague landmarks, earn XP, collect achievements, and read trilingual descriptions in English, Czech, and Chinese.
+Discover hundreds of Prague landmarks, earn XP, level up, unlock achievements, and read trilingual descriptions in English, Czech, and Chinese(CN/TW). Go there. Stand there. The app notices.
 
-## Features
-
-- JWT authentication (register / login) + **guest mode** (browse without an account — collect/add/edit require login)
-- 255 preset Prague landmarks across 5 categories
-- Hearthstone-style rarity system: common / rare / epic / mythic / legend — XP rewards 10 / 20 / 30 / 40 / 50
-- Rarity color on card border, name, and diamond always visible — even for locked cards
-- Rarity filter dropdown on Explore grid and Map sidebar
-- Check in to locations to unlock them and earn XP; geolocation-based — must be within 200 m
-- Add and edit custom locations with cover photo upload (any JPEG/PNG/WebP → auto-converted to WebP, stored on Cloudinary in production and locally in dev)
-- Custom locations discriminated from built-ins by `addedBy` field (`null` = preset, `ObjectId` = user)
-- Gamified dashboard: explorer level, XP bar, unlock %, 10 achievements
-- Interactive Leaflet map with locked/unlocked markers
-- AI-generated descriptions via Gemini API (EN / CZ / ZH), stored as three paragraphs
-- Full UI localisation: English, Czech, and Chinese with **Simplified / Traditional toggle** (繁/简 powered by opencc-js)
-- Localized place names — Czech and Chinese names for all 255 locations
-- Pixel art retro UI with [Ark Pixel Font](https://github.com/TakWolf/ark-pixel-font) in Chinese mode
-- Google Maps navigation link on every location (opens turn-by-turn directions)
-- Automatic proximity detection: prompts check-in when within 100 m of an unvisited location
-- Check-in success overlay: shows "COLLECTED!", XP earned, and any unlocked achievements for 2.5 s before the modal auto-closes
-- Explore grid refreshes instantly after check-in without waiting for the modal to close
-- Explore grid sort: **Distance** (default, closest first), **Newest** (latest added), or **Top Rarity** (Legendary → Common) — dropdown on the stats row, resets with Clear All
-- Live distance shown on each card ("340 m", "1.2 km")
-- Gemini-generated pixel art images for every original location card, served as lossy WebP (quality 90)
-- Fully responsive mobile layout: two-row navbar, 2-column grid, bottom-sheet modals
-- Map sidebar: square pixel art banner + "View Detail" button that opens the full location modal on the Explore page
-- Czech original name shown as a small caption below the EN/ZH card name on the explore grid
-- Apple system font (PingFang SC) as immediate fallback for Chinese text when the pixel font fails to load on mobile
+**Live Demo:** https://prague-stories.vercel.app
 
 ## Stack
 
-| Layer    | Tech |
-|----------|------|
+| Layer    | Tech                                                      |
+| -------- | --------------------------------------------------------- |
 | Frontend | React 18 + Vite, React Router v6, Leaflet / react-leaflet |
-| Backend  | Node.js + Express (ES modules) |
-| Database | MongoDB + Mongoose |
-| Auth     | JWT (jsonwebtoken + bcryptjs) |
-| AI       | Google Gemini API |
+| Backend  | Node.js + Express (ES modules)                            |
+| Database | MongoDB + Mongoose                                        |
+| Auth     | JWT (jsonwebtoken + bcryptjs)                             |
+| AI       | Google Gemini API (descriptions + pixel art)              |
+| Images   | Cloudinary (production) + local WebP (dev)                |
+| CSS      | Custom pixel-art design system, mobile-first              |
+
+---
+
+## Key Features
+
+### Exploration & Collection
+
+- **300+ preset Prague locations** spanning every district and era — castles, cemeteries, Baroque churches, Cold War bunkers, a psychiatric hospital that hosts music festivals, and a confluence of two rivers that almost nobody visits
+- **GPS-verified check-in** — the server validates you are within 200 m of the location (distance check skipped in `development` mode for local testing)
+- **Automatic proximity detection** — a gold banner rises from the bottom of the screen when you walk within 100 m of an unvisited location; tap to collect
+- **Instant grid refresh** after check-in; modal auto-closes after 2.5 s with XP and achievement summary
+- **Undo check-in** (Uncollect) available on any collected card
+
+### Guest Mode
+
+- Unauthenticated visitors who follow a direct link are **automatically placed into guest mode** — no redirect to `/login`
+- Guests can browse the full explore grid, map, guide, and read all location details
+- Collect, add, and edit require a registered account
+
+### Rarity System
+
+Six tiers modelled on trading-card games, visible on every card border and diamond — even for locked cards:
+
+| Tier      | Colour          | XP   | Who finds these                |
+| --------- | --------------- | ---- | ------------------------------ |
+| Common    | grey            | +10  | Anyone passing through         |
+| Rare      | blue            | +20  | Smart tourists                 |
+| Superior  | green `#2c8c03` | +30  | Curious visitors               |
+| Epic      | purple          | +50  | Locals and enthusiasts         |
+| Mythic    | orange          | +70  | Dedicated hunters              |
+| Legendary | gold            | +100 | Prague's most iconic landmarks |
+
+### Explore Grid
+
+- Filter by **label** (stackable — e.g. Church + Hidden Gem simultaneously) or **rarity tier**
+- Sort by **Distance** (closest first, default), **Newest** (recently added), or **Top Rarity**
+- Live distance shown on each card ("340 m", "1.2 km")
+- **My Collections** tab to review only unlocked cards
+- Czech original name shown as a subtitle under the EN/ZH display name
+
+### Interactive Map
+
+- Leaflet map with gold (collected) and grey (locked) markers
+- Sidebar shows square pixel art banner + "View Detail" button opening the full location modal
+- Rarity filter available in the sidebar
+
+### Gamification
+
+**8 Explorer Levels** (XP thresholds):
+
+| Level | Title         | XP    |
+| ----- | ------------- | ----- |
+| 1     | Newcomer      | 0     |
+| 2     | Tourist       | 100   |
+| 3     | Wanderer      | 300   |
+| 4     | Explorer      | 600   |
+| 5     | Adventurer    | 1 000 |
+| 6     | Veteran       | 1 500 |
+| 7     | Conqueror     | 3 000 |
+| 8     | Prague Legend | 6 000 |
+
+**15 Achievements** unlocked automatically at milestones:
+
+| Achievement                   | Condition                            |
+| ----------------------------- | ------------------------------------ |
+| First Step                    | First check-in                       |
+| Urban Explorer                | 10 check-ins                         |
+| Adventurer                    | 25 check-ins                         |
+| Prague Century                | 100 preset locations collected       |
+| I'm the King of Prague        | Every location collected             |
+| History Fan                   | 30 historical locations              |
+| Leisure Seeker                | 30 parks + restaurants/cafés         |
+| Hidden Gem Hunter             | 10 hidden gem locations              |
+| Castle Conqueror              | Check in to Prague Castle            |
+| Veni, Vidi, Vici              | All landmark locations               |
+| Subway Maniac                 | All 6 Prague metro terminal stations |
+| Why Are There No Penguins...? | Find Jižní pól Prahy                 |
+| Bridge Collector              | 10 bridge locations                  |
+| Artist                        | 20 cultural locations                |
+| Church Passionate             | 50 church locations                  |
+
+### Location Cards
+
+- **Trilingual descriptions** (EN / CZ / ZH) — handwritten long-form storytelling with historical depth, local humour, and 🥚 Easter eggs baked into selected cards
+- **AI-generated pixel art** (Gemini) served as lossy WebP — one illustration per location
+- **Lazy AI fallback** — if a description is missing, Gemini generates it on first detail view and saves it to the DB
+- Wikipedia link and Google Maps navigation on every card
+- Custom locations can be added by registered users with cover photo upload (JPEG/PNG/WebP → auto-converted to WebP via sharp → stored on Cloudinary)
+
+### Localisation
+
+Full UI in **English, Czech, and Chinese** — toggled via EN / CZ / ZH buttons in the navbar. All interface strings, label names, and location names switch accordingly.
+
+In Chinese mode the UI switches to **[Ark Pixel Font (方舟像素字体)](https://github.com/TakWolf/ark-pixel-font)** — a CJK-compatible pixel typeface loaded from self-hosted woff2 files. Apple PingFang SC is the immediate fallback for mobile.
+
+A **繁 / 简 toggle** appears when ZH is active, converting the entire UI (including DB description text) between Simplified and Traditional Chinese via [opencc-js](https://github.com/nk2028/opencc-js). The converter initialises lazily and the preference persists in `localStorage`.
+
+### PWA
+
+Installable as a standalone app on iOS and Android:
+
+- **iPhone** — Safari → Share → Add to Home Screen
+- **Android** — Chrome → ⋮ → Add to Home Screen
+- Runs full-screen with no browser UI; tap the logo to force a version refresh (useful when there's no browser refresh button)
+
+---
 
 ## Getting Started
 
 ### Prerequisites
 
 - Node.js 18+
-- MongoDB running locally (or a MongoDB Atlas URI)
-- A [Google Gemini API key](https://aistudio.google.com/)
+- MongoDB (local or Atlas URI)
+- [Google Gemini API key](https://aistudio.google.com/)
+- Cloudinary account (for cover photo uploads in production)
 
 ### Setup
 
@@ -59,77 +142,86 @@ cd ../client && npm install
 
 # 2. Configure environment
 cp server/.env.example server/.env
-# Edit server/.env and fill in:
-#   MONGO_URI, JWT_SECRET, GEMINI_API_KEY
+# Fill in MONGO_URI, JWT_SECRET, GEMINI_API_KEY, CLOUDINARY_* (see below)
 
-# 3. Seed the 255 Prague locations
-cd server && npm run seed && npm run seed:new
+# 3. Seed locations
+cd server && node src/data/seedLocations.js
 
-# 4. Seed trilingual descriptions and localized names
-npm run seed:static && npm run seed:localnames
-
-# 5. Start the backend (port 5000)
+# 4. Start the backend (port 5000)
 npm run dev
 
-# 6. Start the frontend (port 5173) — in a new terminal
+# 5. Start the frontend (port 5173) — new terminal
 cd ../client && npm run dev
 ```
 
 Open `http://localhost:5173`, register an account, and start exploring.
 
-> **Note:** Check-in distance validation is skipped when `NODE_ENV=development`, so you can test locally without being in Prague.
+> **Note:** GPS distance validation is skipped in `development` mode — you can test check-ins locally without being in Prague.
+
+---
 
 ## Project Structure
 
 ```
 prague-stories/
-├── client/          # React + Vite frontend
+├── client/                    # React + Vite frontend
 │   ├── public/
-│   │   └── fonts/        # Ark Pixel Font (self-hosted woff2 subsets)
+│   │   ├── fonts/             # Ark Pixel Font (woff2 subsets, self-hosted)
+│   │   └── pixel-art/         # Generated WebP illustrations
 │   └── src/
-│       ├── components/   # Navbar, LocationCard, MapView, Dashboard…
-│       ├── context/      # AuthContext, LanguageContext (i18n)
-│       ├── pages/        # Explore, Map, Dashboard, Login, Register
-│       ├── services/     # Axios API layer
-│       └── utils/        # pixelArtMap, locName (localized names)
-└── server/          # Express backend
+│       ├── components/
+│       │   ├── shared/        # Navbar, ProtectedRoute, ProximityPrompt, Toast
+│       │   ├── locations/     # LocationCard, LocationGrid, LocationDetail,
+│       │   │                  #   AddLocationForm, EditLocationForm, LabelEditorModal
+│       │   ├── map/           # MapView (Leaflet)
+│       │   └── dashboard/     # ProgressRing, AchievementBadge
+│       ├── context/           # AuthContext (JWT + guest mode), LanguageContext (i18n + opencc)
+│       ├── hooks/             # useProximityDetection, useUserPosition
+│       ├── pages/             # Explore, Map, Dashboard, Guide, Login, Register
+│       ├── services/          # Axios API layer
+│       └── utils/             # pixelArtMap, locName, rarity, geolocation
+└── server/                    # Express backend
     └── src/
-        ├── models/       # User, Location (+ localizedNames), CheckIn
-        ├── routes/       # /api/auth, /api/locations, /api/checkins, /api/user
-        ├── controllers/  # Business logic
-        ├── services/     # geminiService, gamification
-        └── data/         # 255 preset locations, seed scripts, rarityMap
+        ├── models/            # User, Location (localizedNames, description), CheckIn
+        ├── routes/            # /api/auth, /api/locations, /api/checkins, /api/user
+        ├── controllers/       # authController, locationController, checkinController, userController
+        ├── middleware/        # auth (JWT), errorHandler
+        ├── services/          # claudeService (Gemini), gamification (levels + achievements)
+        └── data/              # seedLocations.js, exportLocations.js, syncCovers.js, rarityMap.js
 ```
 
-## API Overview
+---
 
-| Method | Route | Auth | Description |
-|--------|-------|------|-------------|
-| POST | `/api/auth/register` | — | Create account |
-| POST | `/api/auth/login` | — | Returns JWT |
-| GET | `/api/locations` | optional | All locations (with unlock status if authed) |
-| GET | `/api/locations/:slug` | optional | Single location + lazy AI description |
-| POST | `/api/locations` | ✓ | Add custom location |
-| PUT | `/api/locations/:slug` | ✓ | Update location (name, coords, descriptions, rarity, etc.) |
-| POST | `/api/locations/:slug/cover` | ✓ | Upload cover photo (JPEG/PNG/WebP → WebP via sharp → stored on Cloudinary) |
-| DELETE | `/api/locations/:slug` | ✓ | Delete location (cascades check-ins) |
-| GET | `/api/checkins` | ✓ | User's check-in history |
-| POST | `/api/checkins/:slug` | ✓ | Check in, award XP, evaluate achievements |
-| DELETE | `/api/checkins/:slug` | ✓ | Undo check-in |
-| GET | `/api/user/progress` | ✓ | XP, level, unlock %, category stats |
-| GET | `/api/user/achievements` | ✓ | All 10 achievements with unlock status |
+## API Reference
 
-## Gamification
+| Method | Route                        | Auth     | Description                                                       |
+| ------ | ---------------------------- | -------- | ----------------------------------------------------------------- |
+| POST   | `/api/auth/register`         | —        | Create account                                                    |
+| POST   | `/api/auth/login`            | —        | Returns JWT                                                       |
+| GET    | `/api/auth/me`               | ✓        | Verify token, return user                                         |
+| GET    | `/api/locations`             | optional | All locations; includes unlock status when authenticated          |
+| GET    | `/api/locations/:slug`       | optional | Single location + lazy Gemini description generation              |
+| POST   | `/api/locations`             | ✓        | Add custom location                                               |
+| PUT    | `/api/locations/:slug`       | ✓        | Update name, coords, labels, descriptions, rarity, localizedNames |
+| POST   | `/api/locations/:slug/cover` | ✓        | Upload cover image (→ WebP via sharp → Cloudinary)                |
+| DELETE | `/api/locations/:slug`       | ✓        | Delete location (cascades check-ins)                              |
+| GET    | `/api/checkins`              | ✓        | User's full check-in history                                      |
+| POST   | `/api/checkins/:slug`        | ✓        | Check in: validates GPS, awards XP, evaluates achievements        |
+| DELETE | `/api/checkins/:slug`        | ✓        | Undo check-in                                                     |
+| GET    | `/api/user/progress`         | ✓        | XP, level, unlock %, category and rarity breakdown                |
+| GET    | `/api/user/achievements`     | ✓        | All 15 achievements with unlock status                            |
 
-**8 Explorer Levels:** Newcomer → Tourist → Wanderer → Explorer → Adventurer → Veteran → Master Explorer → Prague Legend
+---
 
-**10 Achievements:** First Step, Urban Explorer, Adventurer, Half Century, Prague Century, History Buff, Night Out, Hidden Gem Hunter, Castle Conqueror, Cartographer
+## Data Scripts
 
-## Localisation
+| Script               | Command                          | Purpose                                            |
+| -------------------- | -------------------------------- | -------------------------------------------------- |
+| `seedLocations.js`   | `node src/data/seedLocations.js` | Upsert all seeded location cards into the DB       |
+| `exportLocations.js` | `npm run export:locations`       | Export current DB state → static seed files        |
+| `syncCovers.js`      | `npm run sync:covers`            | Sync cover images between Cloudinary and local dev |
 
-The UI supports three languages toggled via the EN / CZ / ZH buttons in the navbar. All interface text, category labels, and location names switch accordingly. In Chinese mode the pixel font switches to [Ark Pixel Font (方舟像素字体)](https://github.com/TakWolf/ark-pixel-font) — a CJK-compatible pixel typeface — loaded from self-hosted woff2 files in `client/public/fonts/`.
-
-When ZH is active a **繁/简** toggle appears, converting the entire UI (including DB description text) from Simplified to Traditional Chinese via [opencc-js](https://github.com/nk2028/opencc-js). The converter is lazily initialized on first use and the preference is persisted in `localStorage`.
+---
 
 ## Environment Variables
 
@@ -142,10 +234,12 @@ GEMINI_API_KEY=your_gemini_api_key_here
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
-CLIENT_ORIGIN=https://prague-stories.vercel.app
+CLIENT_ORIGIN=https://your-frontend-domain.vercel.app
 PORT=5000
 NODE_ENV=development
 ```
+
+---
 
 ## License
 
