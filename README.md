@@ -30,9 +30,9 @@ Discover hundreds of Prague landmarks, earn XP, level up, unlock achievements, a
 |---|---|
 | ![Leaflet map with gold and grey markers](docs/screenshots/map-view.png) | ![XP progress ring and achievement badges](docs/screenshots/dashboard.png) |
 
-| Installed PWA | |
+| Guide | Installed PWA |
 |---|---|
-| ![App installed as standalone PWA on iPhone](docs/screenshots/mobile-pwa.png) | |
+| ![Multilingual city guide](docs/screenshots/guide.png) | ![App installed as standalone PWA on iPhone](docs/screenshots/mobile-pwa.png) |
 
 ---
 
