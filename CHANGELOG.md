@@ -4,6 +4,18 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.6.4] — 2026-06-29
+
+**Feat: PWA proximity notifications**
+
+- When a proximity detection fires and the user has granted notification permission, a native OS notification is sent via the Web Notifications API (`new Notification()`), appearing even when the browser tab is in the background or another app is in focus
+- `useNotificationPermission` hook — tracks permission state; shows the opt-in prompt once per install (persisted in `localStorage`); exposes `request()` and `dismiss()`
+- `NotificationOptIn` component — small banner below the navbar, dismissable, with "Enable" / "Cancel" buttons; only shown to logged-in users who haven't been asked yet
+- Notification text uses the English location name and a fixed icon (`/pixel-art/prague-castle.webp`); `tag: proximity-<slug>` deduplicates repeat alerts for the same location
+- Translation keys added for opt-in UI (`notif.optInTitle`, `notif.optInBody`, `notif.optInEnable`) in EN / CZ / ZH
+
+---
+
 ## [1.6.3] — 2026-06-28
 
 **Tests: Jest unit test suite — 98 tests, 0 external dependencies**

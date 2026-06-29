@@ -57,6 +57,8 @@ export const SLUG_RARITY = {
   'klanovsky-les':                'epic',  // ancient forest, far east suburb
   'kostel-panny-marie-snezne':    'epic',  // huge gothic church hidden in a courtyard
   'jizni-pol-prahy':              'epic',  // Prague's southernmost point, curiosity
+  'kryt-folimanka':               'epic',  // Cold War nuclear shelter under Folimanka Park
+  'hagibor':                      'epic',  // Jewish sports club turned Nazi forced labour camp
 
   // ── RARE (90 · 37.5%) ────────────────────────────────────────────────────
   // Smart tourist / experienced guide territory
@@ -151,6 +153,9 @@ export const SLUG_RARITY = {
   'strelecky-ostrov':             'rare',
   'cafe-louvre':                  'rare',
   'letna-park':                   'rare',
+  'goethe-institut-prag':         'rare',  // German cultural institute, Czech-German reconciliation
+  'palac-gromlingovsky':          'rare',  // Baroque palace in Malá Strana
+  'hanavsky-pavilon':             'rare',  // cast-iron neo-rococo pavilion, Letná Park
   'vyton':                        'rare',
   'kostel-sv-havla':              'rare',
   'celetna':                      'rare',

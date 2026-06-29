@@ -137,6 +137,7 @@ Installable as a standalone app on iOS and Android:
 - **iPhone** — Safari → Share → Add to Home Screen
 - **Android** — Chrome → ⋮ → Add to Home Screen
 - Runs full-screen with no browser UI; tap the logo to force a version refresh (useful when there's no browser refresh button)
+- **Proximity notifications** — on first login the app asks to enable alerts; when permission is granted, an OS notification fires whenever you enter the 100 m discovery radius of an unvisited location — visible even when the tab is backgrounded or another app is in focus
 
 ---
 
@@ -186,13 +187,13 @@ prague-stories/
 │   │   └── pixel-art/         # Generated WebP illustrations
 │   └── src/
 │       ├── components/
-│       │   ├── shared/        # Navbar, ProtectedRoute, ProximityPrompt, Toast
+│       │   ├── shared/        # Navbar, ProtectedRoute, ProximityPrompt, NotificationOptIn, Toast
 │       │   ├── locations/     # LocationCard, LocationGrid, LocationDetail,
 │       │   │                  #   AddLocationForm, EditLocationForm, LabelEditorModal
 │       │   ├── map/           # MapView (Leaflet)
 │       │   └── dashboard/     # ProgressRing, AchievementBadge
 │       ├── context/           # AuthContext (JWT + guest mode), LanguageContext (i18n + opencc)
-│       ├── hooks/             # useProximityDetection, useUserPosition
+│       ├── hooks/             # useProximityDetection, useUserPosition, useNotificationPermission
 │       ├── pages/             # Explore, Map, Dashboard, Guide, Login, Register
 │       ├── services/          # Axios API layer
 │       └── utils/             # pixelArtMap, locName, rarity, geolocation

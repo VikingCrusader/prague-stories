@@ -4,6 +4,17 @@ import { haversineDistance, setCachedPosition } from '../utils/geolocation';
 
 const RADIUS = 100; // metres
 
+function fireNotification(location) {
+  if (!('Notification' in window) || Notification.permission !== 'granted') return;
+  try {
+    new Notification('★ Discovery!', {
+      body: `You found ${location.name}! Open the app to collect.`,
+      icon: '/pixel-art/prague-castle.webp',
+      tag: `proximity-${location.slug}`,
+    });
+  } catch (_) {}
+}
+
 export function useProximityDetection(enabled) {
   const [discovery, setDiscovery] = useState(null); // { location, coords }
   const dismissedRef  = useRef(new Set());
@@ -39,6 +50,7 @@ export function useProximityDetection(enabled) {
         if (nearest) {
           dismissedRef.current.add(nearest.slug);
           setDiscovery({ location: nearest, coords: { lat, lng } });
+          fireNotification(nearest);
         }
       },
       () => {},

@@ -4,7 +4,9 @@ import { LanguageProvider } from './context/LanguageContext';
 import Navbar from './components/shared/Navbar';
 import ProtectedRoute from './components/shared/ProtectedRoute';
 import ProximityPrompt from './components/shared/ProximityPrompt';
+import NotificationOptIn from './components/shared/NotificationOptIn';
 import { useProximityDetection } from './hooks/useProximityDetection';
+import { useNotificationPermission } from './hooks/useNotificationPermission';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import ExplorePage from './pages/ExplorePage';
@@ -16,19 +18,25 @@ function ProximityDetector() {
   const { user } = useAuth();
   const navigate = useNavigate();
   const { discovery, dismiss, markCheckedIn } = useProximityDetection(!!user);
+  const { showPrompt, request, dismiss: dismissOptIn } = useNotificationPermission();
 
   if (!user) return null;
 
   return (
-    <ProximityPrompt
-      discovery={discovery}
-      onDismiss={dismiss}
-      onCheckIn={(slug, result) => {
-        markCheckedIn(slug);
-        window.dispatchEvent(new CustomEvent('proximity-checkin', { detail: { slug } }));
-        navigate('/explore', { state: { openSlug: slug } });
-      }}
-    />
+    <>
+      {showPrompt && (
+        <NotificationOptIn onEnable={request} onDismiss={dismissOptIn} />
+      )}
+      <ProximityPrompt
+        discovery={discovery}
+        onDismiss={dismiss}
+        onCheckIn={(slug, result) => {
+          markCheckedIn(slug);
+          window.dispatchEvent(new CustomEvent('proximity-checkin', { detail: { slug } }));
+          navigate('/explore', { state: { openSlug: slug } });
+        }}
+      />
+    </>
   );
 }
 
