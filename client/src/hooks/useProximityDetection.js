@@ -58,9 +58,11 @@ async function fireNotification(location) {
   } catch (_) {}
 }
 
-export function useProximityDetection(enabled) {
+export function useProximityDetection(enabled, { onNearby } = {}) {
   const dismissedRef = useRef(new Set());
   const locationsRef = useRef([]);
+  const onNearbyRef  = useRef(onNearby);
+  useEffect(() => { onNearbyRef.current = onNearby; }, [onNearby]);
 
   useEffect(() => {
     if (!enabled) return;
@@ -91,6 +93,7 @@ export function useProximityDetection(enabled) {
 
         if (nearest) {
           dismissedRef.current.add(nearest.slug);
+          onNearbyRef.current?.(nearest);
           fireNotification(nearest);
         }
       },

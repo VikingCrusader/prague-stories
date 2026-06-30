@@ -26,6 +26,14 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
   const [closing, setClosing] = useState(false);
   const [showEdit, setShowEdit]   = useState(false);
   const autoCheckedIn = useRef(false);
+  const prevUnlockedRef = useRef(null);
+  const [flipping, setFlipping] = useState(false);
+
+  useEffect(() => {
+    if (loc === null) return;
+    if (prevUnlockedRef.current === false && loc.unlocked === true) setFlipping(true);
+    prevUnlockedRef.current = loc.unlocked ?? null;
+  }, [loc?.unlocked]);
 
   useEffect(() => {
     setLoading(true); setError('');
@@ -106,12 +114,27 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
           <>
             {(loc.coverImage || !imgFailed) ? (
               <div style={{ position: 'relative', aspectRatio: '1 / 1', width: '100%', overflow: 'hidden' }}>
-                <img
-                  src={loc.coverImage || `/pixel-art/${loc.slug}.webp`}
-                  alt={locName}
-                  onError={() => setImgFailed(true)}
-                  style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
-                />
+                <div
+                  className={flipping ? 'detail-img-flip' : undefined}
+                  style={{ position: 'absolute', inset: 0 }}
+                  onAnimationEnd={e => { if (e.animationName === 'card-flip') setFlipping(false); }}
+                >
+                  <img
+                    src={loc.coverImage || `/pixel-art/${loc.slug}.webp`}
+                    alt={locName}
+                    onError={() => setImgFailed(true)}
+                    style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: loc.unlocked ? undefined : 'saturate(0.15)' }}
+                  />
+                  {flipping ? (
+                    <div className="loc-card__flip-overlay">
+                      <span className="loc-card__flip-lock">🔒</span>
+                      <span className="loc-card__flip-unlock">🔓</span>
+                      <div className="loc-card__flip-shine" />
+                    </div>
+                  ) : !loc.unlocked && (
+                    <span style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', fontSize: '3.5rem', lineHeight: 1, zIndex: 2 }}>🔒</span>
+                  )}
+                </div>
                 <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '14px 18px', background: 'linear-gradient(transparent, rgba(0,0,0,0.85))' }}>
                   <h2 className="px-title" style={{ fontSize: 14, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 2 : 6, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>{locName}</h2>
                   {lang !== 'cz' && loc.localizedNames?.cz && (
@@ -126,7 +149,24 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
               </div>
             ) : (
               <div className="px-modal__header" style={{ background: bgColor }}>
-                <span className="detail-art">{art}</span>
+                <div style={{ flexShrink: 0 }}>
+                  <div
+                    className={flipping ? 'detail-img-flip' : undefined}
+                    style={{ position: 'relative' }}
+                    onAnimationEnd={e => { if (e.animationName === 'card-flip') setFlipping(false); }}
+                  >
+                    <span className="detail-art" style={{ filter: (!flipping && !loc.unlocked) ? 'saturate(0.15)' : undefined, display: 'block' }}>{art}</span>
+                    {flipping ? (
+                      <div className="loc-card__flip-overlay">
+                        <span className="loc-card__flip-lock">🔒</span>
+                        <span className="loc-card__flip-unlock">🔓</span>
+                        <div className="loc-card__flip-shine" />
+                      </div>
+                    ) : !loc.unlocked && (
+                      <span style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', fontSize: '2rem', lineHeight: 1, zIndex: 2 }}>🔒</span>
+                    )}
+                  </div>
+                </div>
                 <div style={{ flex: 1 }}>
                   <h2 className="px-title" style={{ fontSize: 14, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 2 : 10, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>{locName}</h2>
                   {lang !== 'cz' && loc.localizedNames?.cz && (

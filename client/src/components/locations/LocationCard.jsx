@@ -1,4 +1,4 @@
-import { useState, useRef, useLayoutEffect } from 'react';
+import { useState, useRef, useLayoutEffect, useEffect } from 'react';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap';
 import { useLang, useConvert } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
@@ -18,7 +18,14 @@ export default function LocationCard({ location, onClick, distance }) {
   const firstLabel = labels[0];
   const [coverFailed, setCoverFailed] = useState(false);
   const [imgFailed,   setImgFailed]   = useState(false);
+  const [flipping,    setFlipping]    = useState(false);
+  const prevUnlockedRef = useRef(unlocked);
   const labelRef = useRef(null);
+
+  useEffect(() => {
+    if (!prevUnlockedRef.current && unlocked) setFlipping(true);
+    prevUnlockedRef.current = unlocked;
+  }, [unlocked]);
 
   useLayoutEffect(() => {
     const el = labelRef.current;
@@ -34,10 +41,11 @@ export default function LocationCard({ location, onClick, distance }) {
 
   return (
     <div
-      className={`loc-card${unlocked ? '' : ' loc-card--locked'}`}
+      className={`loc-card${(!unlocked || flipping) ? ' loc-card--locked' : ''}${flipping ? ' loc-card--flipping' : ''}`}
       onClick={() => onClick(slug)}
       title={unlocked ? name : '???'}
       style={{ border: `3px solid ${RARITY_COLOR[rarity]}` }}
+      onAnimationEnd={e => { if (e.animationName === 'card-flip') setFlipping(false); }}
     >
       <div className="loc-card__banner" style={{ background: color }}>
         {location.coverImage && !coverFailed ? (
@@ -57,7 +65,15 @@ export default function LocationCard({ location, onClick, distance }) {
         ) : (
           <span style={{ fontSize: '2.8rem' }}>{art}</span>
         )}
-        {!unlocked && <span className="loc-card__lock">🔒</span>}
+        {flipping ? (
+          <div className="loc-card__flip-overlay">
+            <span className="loc-card__flip-lock">🔒</span>
+            <span className="loc-card__flip-unlock">🔓</span>
+            <div className="loc-card__flip-shine" />
+          </div>
+        ) : (!unlocked && (
+          <span className="loc-card__lock">🔒</span>
+        ))}
       </div>
       <div className="loc-card__body">
         <div>

@@ -306,18 +306,21 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
 
   return (
     <>
-      <div style={{ width: '100%', aspectRatio: '1', background: 'var(--bg-secondary)', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+      <div style={{ position: 'relative', width: '100%', aspectRatio: '1', background: 'var(--bg-secondary)', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
         {loc.coverImage ? (
-          <img src={loc.coverImage} alt={getLocName(loc, lang)} style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block' }} />
+          <img src={loc.coverImage} alt={getLocName(loc, lang)} style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block', filter: loc.unlocked ? undefined : 'saturate(0.15)' }} />
         ) : !imgFailed ? (
           <img
             src={`/pixel-art/${loc.slug}.webp`}
             alt={getLocName(loc, lang)}
             onError={() => setImgFailed(true)}
-            style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block' }}
+            style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block', filter: loc.unlocked ? undefined : 'saturate(0.15)' }}
           />
         ) : (
-          <span style={{ fontSize: '4rem' }}>{art}</span>
+          <span style={{ fontSize: '4rem', filter: loc.unlocked ? undefined : 'saturate(0.15)' }}>{art}</span>
+        )}
+        {!loc.unlocked && (
+          <span style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', fontSize: '3rem', lineHeight: 1, zIndex: 2 }}>🔒</span>
         )}
       </div>
 

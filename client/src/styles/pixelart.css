@@ -72,9 +72,9 @@
 
 .loc-card--locked {
   border-color: #333;
-  filter: saturate(0.15) brightness(0.55);
+  filter: saturate(0.15);
 }
-.loc-card--locked:hover { filter: saturate(0.25) brightness(0.7); }
+.loc-card--locked:hover { filter: saturate(0.25); }
 
 .loc-card__banner {
   padding: 20px 12px 16px;
@@ -84,15 +84,98 @@
   font-size: 2.8rem;
   min-height: 90px;
 }
+.loc-card--locked .loc-card__banner {
+  position: relative;
+}
 .loc-card__lock {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -70%);
+  transform: translate(-50%, -50%);
   font-size: 2.5rem;
   line-height: 1;
-  filter: saturate(1) brightness(1);
   z-index: 2;
+}
+
+/* Card unlock flip animation */
+@keyframes card-flip {
+  0%   { transform: perspective(600px) rotateY(0deg);   filter: saturate(0.15); }
+  38%  { transform: perspective(600px) rotateY(-90deg); filter: saturate(0.15); }
+  42%  { transform: perspective(600px) rotateY(-90deg); filter: saturate(1.4)  brightness(1.15); }
+  65%  { transform: perspective(600px) rotateY(0deg);   filter: saturate(1.4)  brightness(1.15); }
+  78%  { transform: perspective(600px) rotateY(5deg);   filter: saturate(1)    brightness(1);    }
+  88%  { transform: perspective(600px) rotateY(-2deg);  filter: saturate(1)    brightness(1);    }
+  100% { transform: perspective(600px) rotateY(0deg);   filter: saturate(1)    brightness(1);    }
+}
+@keyframes flip-lock-out {
+  0%   { opacity: 1; transform: translate(-50%, -50%) scale(1);   }
+  25%  { opacity: 1; transform: translate(-50%, -50%) scale(1.4); }
+  38%  { opacity: 0; transform: translate(-50%, -50%) scale(0.5); }
+  100% { opacity: 0; }
+}
+@keyframes flip-unlock-in {
+  0%   { opacity: 0; transform: translate(-50%, -50%) scale(0.4); }
+  42%  { opacity: 0; transform: translate(-50%, -50%) scale(0.4); }
+  62%  { opacity: 1; transform: translate(-50%, -50%) scale(1.4); }
+  75%  { opacity: 1; transform: translate(-50%, -50%) scale(1);   }
+  88%  { opacity: 0.7; transform: translate(-50%, -50%) scale(1); }
+  100% { opacity: 0;   transform: translate(-50%, -50%) scale(1); }
+}
+@keyframes card-shine {
+  0%   { left: -70%; opacity: 0;   }
+  44%  { left: -70%; opacity: 0;   }
+  56%  { left: -70%; opacity: 0.6; }
+  71%  { left: 140%; opacity: 0.4; }
+  100% { left: 140%; opacity: 0;   }
+}
+.loc-card--flipping {
+  animation: card-flip 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  z-index: 10;
+  will-change: transform, filter;
+  pointer-events: none;
+}
+.loc-card--flipping .loc-card__body { visibility: hidden; }
+.loc-card__flip-overlay {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+  z-index: 3;
+}
+.loc-card__flip-lock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2.5rem;
+  line-height: 1;
+  animation: flip-lock-out 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+.loc-card__flip-unlock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2.5rem;
+  line-height: 1;
+  animation: flip-unlock-in 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+}
+.loc-card__flip-shine {
+  position: absolute;
+  top: -10%;
+  width: 30%;
+  height: 120%;
+  background: linear-gradient(
+    105deg,
+    transparent 30%,
+    rgba(255, 215, 0, 0.45) 50%,
+    rgba(255, 255, 255, 0.35) 60%,
+    transparent 70%
+  );
+  transform: skewX(-15deg);
+  animation: card-shine 0.8s ease-out forwards;
+}
+.detail-img-flip {
+  animation: card-flip 0.8s cubic-bezier(0.4, 0, 0.2, 1) forwards;
+  will-change: transform, filter;
 }
 .loc-card__body { padding: 10px 12px 12px; flex: 1; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
 .loc-card__name {

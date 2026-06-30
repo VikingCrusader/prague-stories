@@ -1,10 +1,11 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { LanguageProvider } from './context/LanguageContext';
 import Navbar from './components/shared/Navbar';
 import ProtectedRoute from './components/shared/ProtectedRoute';
 import NotificationOptIn from './components/shared/NotificationOptIn';
+import ProximityToast from './components/shared/ProximityToast';
 import { useProximityDetection } from './hooks/useProximityDetection';
 import { useNotificationPermission } from './hooks/useNotificationPermission';
 import LoginPage from './pages/LoginPage';
@@ -14,11 +15,17 @@ import MapPage from './pages/MapPage';
 import DashboardPage from './pages/DashboardPage';
 import GuidePage from './pages/GuidePage';
 
+const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
 function ProximityDetector() {
   const { user } = useAuth();
   const navigate = useNavigate();
-  useProximityDetection(!!user);
-  const { showPrompt, request, dismiss: dismissOptIn } = useNotificationPermission();
+  const { showPrompt, request, dismiss: dismissOptIn, permission } = useNotificationPermission();
+  const [nearbyLoc, setNearbyLoc] = useState(null);
+
+  // Show in-app toast on desktop always; on mobile only when push notifications not granted
+  const useInApp = !isMobile || permission !== 'granted';
+  useProximityDetection(!!user, { onNearby: useInApp ? setNearbyLoc : undefined });
 
   useEffect(() => {
     if (!navigator.serviceWorker) return;
@@ -32,6 +39,10 @@ function ProximityDetector() {
   }, [navigate]);
 
   if (!user) return null;
+
+  if (nearbyLoc) {
+    return <ProximityToast location={nearbyLoc} onDismiss={() => setNearbyLoc(null)} />;
+  }
 
   return showPrompt ? (
     <NotificationOptIn onEnable={request} onDismiss={dismissOptIn} />
