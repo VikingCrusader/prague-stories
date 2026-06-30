@@ -1,5 +1,7 @@
 import { useState, useEffect, useCallback, useRef } from 'react';
 
+const LS_KEY = 'wakeLockEnabled';
+
 export function useWakeLock() {
   const supported = 'wakeLock' in navigator;
   const [active, setActive] = useState(false);
@@ -19,13 +21,23 @@ export function useWakeLock() {
   const toggle = useCallback(async () => {
     if (wantedRef.current) {
       wantedRef.current = false;
+      localStorage.removeItem(LS_KEY);
       await sentinelRef.current?.release();
       sentinelRef.current = null;
     } else {
       wantedRef.current = true;
+      localStorage.setItem(LS_KEY, '1');
       await acquire();
     }
   }, [acquire]);
+
+  // Auto-acquire on mount if preference was saved
+  useEffect(() => {
+    if (supported && localStorage.getItem(LS_KEY)) {
+      wantedRef.current = true;
+      acquire();
+    }
+  }, [acquire, supported]);
 
   // Re-acquire when the page becomes visible again (lock is auto-released on hide)
   useEffect(() => {

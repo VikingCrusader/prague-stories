@@ -4,6 +4,38 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.7.3] — 2026-06-30
+
+**Fix: wake lock preference persists across sessions**
+
+- `useWakeLock` now reads `localStorage` on mount and auto-reacquires the lock if the user had it enabled in a previous session
+- Enabling the lock writes `wakeLockEnabled=1` to `localStorage`; disabling removes the key
+
+---
+
+## [1.7.2] — 2026-06-30
+
+**Feat: screen wake lock toggle; fix Traditional Chinese notifications; fix dashboard null crash**
+
+### Screen wake lock
+
+- Added `useWakeLock` hook using the Screen Wake Lock API (`navigator.wakeLock.request('screen')`)
+- Lock is automatically re-acquired when the page becomes visible again after being backgrounded
+- Toggle button added to Dashboard (bottom-right): ☀ gold border when active, 🌙 grey when inactive; trilingual labels in EN / CZ / ZH
+- On unsupported browsers a small grey note is shown instead of the button
+
+### Traditional Chinese notifications
+
+- Proximity notifications now show Traditional Chinese text when the 繁 variant is active
+- opencc-js converter lazy-loaded via dynamic `import()` inside `fireNotification` — only fetched the first time a TW notification fires; avoids double-initialising the WASM module alongside `LanguageContext`
+- Notification title (`★ 发现！` → `★ 發現！`) and location name converted; Czech name in parentheses remains unchanged
+
+### Bug fix
+
+- `DashboardPage`: added `|| !progress || !achData` guard to the loading check — previously crashed with a null destructuring error when API calls failed (server down, network error, or guest user without a JWT)
+
+---
+
 ## [1.7.1] — 2026-06-30
 
 **Feat: zoom-scaled map markers and user position dot**
