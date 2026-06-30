@@ -7,7 +7,8 @@ import { RARITY_COLOR, RARITY_LABEL } from '../../utils/rarity';
 const RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
 const RARITY_ORDER = { legend: 0, mythic: 1, epic: 2, superior: 3, rare: 4, common: 5 };
 const SORT_MODES = ['distance', 'newest', 'rarity'];
-const SORT_KEY = { distance: 'grid.sortDistance', newest: 'grid.sortNewest', rarity: 'grid.sortRarity' };
+const SORT_MODES_COLLECTED = ['distance', 'newest', 'rarity', 'checkin'];
+const SORT_KEY = { distance: 'grid.sortDistance', newest: 'grid.sortNewest', rarity: 'grid.sortRarity', checkin: 'grid.sortCheckin' };
 
 export default function LocationGrid({ locations, onCardClick, onAddClick }) {
   const t = useT();
@@ -99,6 +100,7 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
       if (sort === 'distance') return (a._distance ?? Infinity) - (b._distance ?? Infinity);
       if (sort === 'newest')   return new Date(b.createdAt) - new Date(a.createdAt);
       if (sort === 'rarity')   return (RARITY_ORDER[a.rarity] ?? 4) - (RARITY_ORDER[b.rarity] ?? 4);
+      if (sort === 'checkin')  return new Date(b._checkedInAt ?? 0) - new Date(a._checkedInAt ?? 0);
       return 0;
     });
     return list;
@@ -132,7 +134,10 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
           </button>
           <button
             className={`filter-btn${discovered ? ' filter-btn--active' : ''}`}
-            onClick={() => setDiscovered(d => !d)}
+            onClick={() => {
+              if (discovered && sort === 'checkin') setSort('distance');
+              setDiscovered(d => !d);
+            }}
           >
             {t('grid.filterDiscovered')}
           </button>
@@ -216,7 +221,7 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
           </button>
           {sortOpen && (
             <div className="label-filter__panel" style={{ minWidth: 160 }}>
-              {SORT_MODES.map(mode => (
+              {(discovered ? SORT_MODES_COLLECTED : SORT_MODES).map(mode => (
                 <button
                   key={mode}
                   className={`label-pill${sort === mode ? ' label-pill--active' : ''}`}

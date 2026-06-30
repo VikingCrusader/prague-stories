@@ -47,11 +47,12 @@ export async function getLocations(req, res, next) {
       .lean();
 
     if (req.user) {
-      const checkins = await CheckIn.find({ user: req.user._id }).select('location').lean();
-      const unlockedSet = new Set(checkins.map(c => c.location.toString()));
+      const checkins = await CheckIn.find({ user: req.user._id }).select('location checkedInAt').lean();
+      const checkinMap = new Map(checkins.map(c => [c.location.toString(), c.checkedInAt]));
       return res.json(locations.map(loc => ({
         ...loc,
-        unlocked: unlockedSet.has(loc._id.toString()),
+        unlocked: checkinMap.has(loc._id.toString()),
+        _checkedInAt: checkinMap.get(loc._id.toString()) ?? null,
       })));
     }
 
