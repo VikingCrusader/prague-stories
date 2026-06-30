@@ -1,23 +1,37 @@
 import { useEffect, useRef } from 'react';
 import { locationAPI } from '../services/api';
 import { haversineDistance, setCachedPosition } from '../utils/geolocation';
+import { getLocName } from '../utils/locName';
 
 const RADIUS = 100; // metres
+
+const NOTIF_STRINGS = {
+  en: { title: '★ Discovery!', body: (name) => `You found ${name}! Tap to collect.` },
+  cz: { title: '★ Objev!',    body: (name) => `Našli jste ${name}! Klepnutím sesbírejte.` },
+  zh: { title: '★ 发现！',     body: (name) => `你发现了${name}！点击打卡。` },
+};
 
 async function fireNotification(location) {
   if (!('Notification' in window) || Notification.permission !== 'granted') return;
   try {
+    const lang = localStorage.getItem('lang') || 'en';
+    const strings = NOTIF_STRINGS[lang] || NOTIF_STRINGS.en;
+    const zhName = location.localizedNames?.zh || location.name;
+    const czName = location.localizedNames?.cz || location.name;
+    const name = lang === 'zh'
+      ? `${zhName}（${czName}）`
+      : getLocName(location, lang);
     const reg = await navigator.serviceWorker?.ready;
     if (reg?.showNotification) {
-      await reg.showNotification('★ Discovery!', {
-        body: `You found ${location.name}! Tap to collect.`,
+      await reg.showNotification(strings.title, {
+        body: strings.body(name),
         icon: '/pixel-art/prague-castle.webp',
         tag: `proximity-${location.slug}`,
         data: { slug: location.slug },
       });
     } else {
-      new Notification('★ Discovery!', {
-        body: `You found ${location.name}! Open the app to collect.`,
+      new Notification(strings.title, {
+        body: strings.body(name),
         icon: '/pixel-art/prague-castle.webp',
         tag: `proximity-${location.slug}`,
       });
