@@ -855,6 +855,403 @@ Pavilon dnes funguje jako restaurace, což je nejlepší možný výsledek: budo
 🥚 彩蛋：1891年的百年纪念博览会有一座展馆是由一位名叫扬·科特拉（Jan Kotěra）的年轻建筑师设计的，他后来成为现代捷克建筑的奠基人。博览会还设有波西米亚最早的电气铁路之一，穿越展览场地运行。然而它对布拉格永久城市景观最具意义的贡献，几乎是偶然为之的：为博览会建造的临时基础设施包括一条通往彼得任山（Petřín）的缆车线路，而这条线路随后被永久保留了下来。哈纳夫斯基亭也被永久保留——作为哈纳夫斯卡王子（Prince Wilhelm of Hanau）的礼物，这位拥有工业利益的德国贵族将其捐赠给了布拉格市。正是一位德国亲王的慷慨大方，让布拉格最常被拍摄的景观之一，在前景中多了一座精巧的铸铁亭子。城市美学的历史，在很大程度上是一部关于馈赠遗产与再利用临时建筑的历史。`,
     },
   },
+  {
+    name: 'Havlíčkovo náměstí',
+    slug: 'havlickovo-namesti',
+    localizedNames: { cz: 'Havlíčkovo náměstí', zh: '哈夫利切科广场' },
+    labels: ['square', 'historical', 'architecture'],
+    coordinates: { lat: 50.08510268712071, lng: 14.454266101218957 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Havlíčkovo náměstí — Havlíček Square!
+
+In the elegant, leafy residential quarter of Vinohrady, this square bears the name of Karel Havlíček Borovský (1821–1856): Czech journalist, satirist, editor, and the man the Austrian Empire feared enough to exile. At a time when the Czech language was fighting to reclaim cultural and political space from German domination, Havlíček built three newspapers from scratch, used irony and satire as precision instruments of political resistance, and wrote with a clarity of purpose that made him genuinely dangerous to the authorities who preferred their subjects quietly compliant.
+
+In 1851, the Habsburg government had had enough. Austrian police escorted him to Brixen in the South Tyrol — today Bressanone in northern Italy — where he spent four years in enforced exile, separated from his wife and daughter, both of whom died before he returned. He came back to Bohemia a broken man in health but not in spirit. He died in 1856, aged thirty-four, of tuberculosis contracted during his exile. The Austrian press was forbidden from noting his death. Thousands of Czechs attended his funeral anyway.
+
+The square named after him in Vinohrady is a civilised urban space entirely in keeping with its subject: it does not shout. It does not need to. It simply stands here, in one of Prague's most liveable neighbourhoods, attached to the name of a man who spent his life fighting for the right to say things out loud.
+
+🥚 Easter Egg: Havlíček's most celebrated work is Tyrolian Elegies, a satirical cycle of poems he wrote about his own exile — using verse form to document the absurdity of being politely but coercively relocated to the Alps for the crime of journalism. He addressed the poems to the police official who had organised the deportation. They are among the finest political satire in Czech literary history, written with a lightness that makes the anger underneath all the more effective. Czechs have a particular gift for surviving official oppression through irony, and Havlíček is one of the founding fathers of that tradition.`,
+
+      cz: `Statečný dobrodruhu, vítej na Havlíčkově náměstí!
+
+Ve vznosných, zelených Vinohradech nese toto náměstí jméno Karla Havlíčka Borovského (1821–1856): českého novináře, satirika, redaktora a muže, kterého se Rakouské císářství bálo natolik, že ho raději vyhnalo. V době, kdy čeština bojovala o znovudobytí kulturního a politického prostoru z nadvlády němčiny, vybudoval Havlíček od nuly tři noviny, používal ironii a satiru jako přesné nástroje politického odporu a psal s takovou jasností úmyslu, že byl pro úřady, které preferovaly poslušné poddané, skutečně nebezpečný.
+
+V roce 1851 habsburské vládě došla trpělivost. Rakouská policie ho dopravila do Brixenu v Jižním Tyrolsku — dnešní Bressanone v severní Itálii — kde strávil čtyři roky nuceného exilu, oddělen od manželky a dcery, které obě zemřely dříve, než se vrátil. Vrátil se do Čech tělesně zlomený, avšak duchem ne. V roce 1856 zemřel na tuberkulózu, ve věku třiceti čtyř let, kontrahovanou v exilu. Rakouský tisk dostal zákaz jeho smrt zaznamenat. Přesto se jeho pohřbu zúčastnily tisíce Čechů.
+
+Náměstí, které nese jeho jméno na Vinohradech, je civilizovaný městský prostor zcela odpovídající svému nositeli: nekřičí. Nepotřebuje to. Prostě tu stojí, v jedné z nejpříjemnějších čtvrtí Prahy, nesoucí jméno muže, který zasvětil život boji za právo říkat věci nahlas.
+
+🥚 Velikonoční vajíčko: Nejslavnějším Havlíčkovým dílem jsou Tyrolské elegie — satirický cyklus básní, které napsal o vlastním vyhnanství a v nichž básnickým tvarem dokumentuje absurditu toho, že ho zdvořile, leč nátlakem přestěhovali do Alp za zločin novinářství. Básně adresoval policejnímu úředníkovi, který deportaci zorganizoval. Patří k nejlepší politické satiře v české literární historii, psané s lehkostí, která dělá hněv pod ní o to účinnějším. Češi mají zvláštní dar přežívat úřední útlak pomocí ironie, a Havlíček je jedním ze zakladatelů této tradice.`,
+
+      zh: `勇敢的冒险家，欢迎来到哈夫利切科广场（Havlíčkovo náměstí）！
+
+在维诺赫拉迪（Vinohrady）这片优雅葱郁的住宅区，这座广场以卡雷尔·哈夫利切克·博罗夫斯基（Karel Havlíček Borovský，1821—1856）的名字命名：捷克记者、讽刺作家、编辑，以及一个让奥地利帝国忌惮到足以将他驱逐出境的人。在捷克语正奋力从德语文化霸权中夺回文化和政治空间的年代，哈夫利切克从零开始创办了三份报纸，将讽刺与反语作为精准的政治抵抗工具，以一种让当局深感威胁的清晰姿态写作——那些当局更希望臣民保持顺从沉默。
+
+1851年，哈布斯堡政府终于忍无可忍。奥地利警察将他押送至南蒂罗尔的布里克森（Brixen，今意大利北部布雷萨诺内），在那里他度过了四年强制流亡的岁月，与妻子和女儿天各一方——她们在他归来之前双双离世。他回到波西米亚时，身体已被摧毁，但精神未曾折断。1856年，他因流亡期间染上的肺结核去世，年仅三十四岁。奥地利报纸被禁止报道他的死讯。但数千名捷克人依然前来参加他的葬礼。
+
+以他命名的维诺赫拉迪广场，是一个完全符合其命名者气质的文明城市空间：它不喧嚣。它不需要。它就这样静静地站在布拉格最宜居的街区之一，承载着一个用一生争取"大声说出来"这项权利的人的名字。
+
+🥚 彩蛋：哈夫利切克最著名的作品是《蒂罗尔哀歌》（Tyrolian Elegies）——他用一组讽刺性的诗篇记录了自己的流亡经历，以诗歌形式呈现了那种"因为从事新闻工作"而被礼貌而强制地迁往阿尔卑斯山的荒诞。他将这些诗直接献给了策划这次驱逐的警察官员。这些作品是捷克文学史上最优秀的政治讽刺之作，写得如此轻盈，以至于藏在文字之下的愤怒更加令人震动。捷克人有一种通过讽刺来抵御官方压迫的特殊天赋，而哈夫利切克是这一传统的奠基人之一。`,
+    },
+  },
+  {
+    name: 'Holešovice Docks',
+    slug: 'holesovice-docks',
+    localizedNames: { cz: 'Holešovické přístaviště', zh: '霍莱绍维采码头' },
+    labels: ['historical', 'landmark', 'architecture'],
+    coordinates: { lat: 50.10893022955608, lng: 14.454636010922222 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Holešovice Docks (Holešovické přístaviště)!
+
+You are standing at the edge of one of Prague's most significant industrial inheritances — a working river port that once made this stretch of the Vltava the commercial heartbeat of northern Prague. The Holešovice docks were developed in the late nineteenth century when Holešovice was still a separate municipality outside the city's boundaries, rapidly industrialising around textiles, gas production, and river trade. By the early twentieth century, this port was handling millions of tonnes of coal, timber, sand, and grain, serving the inland waterway trade that connected Prague to the Elbe and, via the Elbe, to Hamburg and the North Sea.
+
+The riverbank here tells a story of the industrial city that built modern Prague — not the city of Baroque churches and medieval towers that features on postcards, but the city of workers, factories, river barges, and unglamorous logistics without which none of the rest would have functioned. Holešovice spent the twentieth century as a working-class district of genuine character, absorbing waves of migration and hosting the enormous Výstaviště exhibition grounds and the National Gallery's modern art collection at the Veletržní Palác. The docks have recently become the focus of ambitious urban redevelopment plans that will reshape this riverfront over the coming decades.
+
+🥚 Easter Egg: The Vltava was once a far busier commercial artery than it appears today. Before rail dominated freight, river barges were the most efficient way to move heavy goods through Bohemia. Logs were floated downstream from the mountains in enormous rafts, guided by raftsmen — pltníci — who formed a distinct professional class with their own traditions, taverns, and patron saint. The patron saint of Czech raftsmen is St. John of Nepomuk, who was himself thrown into the Vltava and is therefore considered to have a certain professional solidarity with anyone whose livelihood depends on its currents. He is simultaneously Prague's most frequently depicted saint and history's most qualified river safety advocate.`,
+
+      cz: `Statečný dobrodruhu, vítej na Holešovickém přístavišti!
+
+Stojíš na okraji jednoho z nejvýznamnějších průmyslových dědictví Prahy — pracovního říčního přístavu, který kdysi z tohoto úseku Vltavy učinil obchodní tepnu severní Prahy. Holešovický přístav byl budován na konci devatenáctého století, kdy Holešovice byly ještě samostatnou obcí mimo hranice města, rychle se industrializující kolem textilní výroby, plynárenství a říčního obchodu. Na počátku dvacátého století přístav zpracovával miliony tun uhlí, dřeva, písku a obilí a sloužil vnitrozemské vodní dopravě, která spojovala Prahu s Labem a přes Labe s Hamburkem a Severním mořem.
+
+Nábřeží zde vypráví příběh průmyslového města, které vybudovalo moderní Prahu — ne města barokních kostelů a středověkých věží, které se objevují na pohlednicích, ale města dělníků, továren, říčních člunů a bezmocistické logistiky, bez níž by nic jiného nefungovalo. Holešovice strávily dvacáté století jako dělnická čtvrť autentického charakteru, vstřebávající vlny migrace a hostující obrovský výstaviště a sbírku moderního umění Národní galerie ve Veletržním paláci. Přístaviště se v posledních letech stalo předmětem ambiciózních plánů městské přestavby, které v nadcházejících desetiletích zásadně promění tento říční břeh.
+
+🥚 Velikonoční vajíčko: Vltava bývala daleko rušnější obchodní tepnou, než se dnes zdá. Předtím, než železnice ovládla nákladní dopravu, byly říční lodě nejefektivnějším způsobem přepravy těžkého zboží přes Čechy. Kmeny se z hor pluly po proudu v obrovských vorech, vedené vorníky — svébytnou profesní třídou s vlastními tradicemi, hospodami a patronem. Patronem českých vorníků je sv. Jan Nepomucký, který byl sám vhozen do Vltavy, a proto se má za to, že sdílí určitou profesní solidaritu s každým, jehož živobytí závisí na jejích proudech. Je zároveň nejčastěji zobrazovaným světcem Prahy i historicky nejkvalifikovanějším zastáncem bezpečnosti na řece.`,
+
+      zh: `勇敢的冒险家，欢迎来到霍莱绍维采码头（Holešovické přístaviště）！
+
+你站在布拉格最重要工业遗产之一的边缘——一个曾经让这段伏尔塔瓦河岸成为北布拉格商业命脉的工作河港。霍莱绍维采码头建于19世纪末，彼时霍莱绍维采（Holešovice）还是城市边界之外的一个独立市镇，正在纺织业、煤气生产和河运贸易的驱动下迅速工业化。到20世纪初，这个港口每年处理数百万吨煤炭、木材、沙石和谷物，服务于连接布拉格与易北河（Elbe），并经由易北河通向汉堡和北海的内陆水运贸易网络。
+
+这片河岸讲述的是建造现代布拉格的工业城市的故事——不是那座出现在明信片上、有巴洛克教堂和中世纪塔楼的城市，而是那座有工人、工厂、货运驳船和毫无光鲜感却不可或缺的物流系统的城市，没有那些，其他一切都无从运转。霍莱绍维采整个20世纪都是一个有着真实性格的工人阶级街区，接纳了一波波移民浪潮，坐拥巨大的Výstaviště展览场和位于维列什尼宫（Veletržní Palác）的国家现代艺术画廊。近年来，码头区已成为雄心勃勃的城市更新规划的核心地带，这些规划将在未来数十年里重塑这片河岸。
+
+🥚 彩蛋：伏尔塔瓦河曾经是一条比今天繁忙得多的商业动脉。在铁路主导货运之前，货运驳船是穿越波西米亚运输重型货物最有效的方式。圆木从山区顺流而下，被绑成巨大的木筏漂向下游，由筏工（pltníci）引导——他们形成了一个独特的职业群体，有着自己的传统、自己的酒馆和自己的主保圣人。捷克筏工的主保圣人，正是被投入伏尔塔瓦河的圣约翰·内波穆克——于是他被认为与所有靠这条河谋生之人共享着某种职业上的团结。他同时也是布拉格最常被雕绘的圣人，以及历史上资历最深的河流安全倡导者。`,
+    },
+  },
+  {
+    name: 'Holešovice Brewery',
+    slug: 'holesovicky-pivovar',
+    localizedNames: { cz: 'Holešovický pivovar', zh: '霍莱绍维采啤酒厂' },
+    labels: ['historical', 'hidden-gem', 'architecture'],
+    coordinates: { lat: 50.10561716147057, lng: 14.450072235434703 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Holešovický pivovar — the First Prague Citizens' Brewery (První pražský měšťanský pivovar)!
+
+In 1895, this brewery was founded with a distinction that mattered enormously to the people of Prague: it was the first brewery in the city built not by the nobility, not by a monastery, and not by a royal charter, but by ordinary citizens — měšťané, burghers — pooling capital through a cooperative shareholding structure to take ownership of their own beer production. In a city where the right to brew was historically a noble or ecclesiastical privilege, this represented a democratic act in a very specific and very Czech sense: the assertion that ordinary people should be able to make, own, and profit from the thing they loved most.
+
+The brewery complex, built in the late Victorian industrial style characteristic of Holešovice in this period, is a substantial piece of late nineteenth-century industrial architecture. The brick buildings with their characteristic chimney and storage halls reflect the serious ambition of its founders. Production continued here for most of the twentieth century, making it one of the longest-running breweries in the city. Today the complex has been repurposed as a cultural venue and event space — concerts, markets, festivals — keeping the sociable spirit of its origins intact, if not the beer.
+
+🥚 Easter Egg: The Czech cooperative brewery movement was part of a broader National Revival strategy. Control of economic institutions — banks, insurance companies, breweries — was understood by Czech intellectuals and business leaders as an essential component of national self-determination that did not require political independence to begin with. By building a Czech-owned, citizen-held brewery in 1895, the founders were not just making economic choices — they were making cultural ones. They were asserting that Czech Prague had the organisational capacity and the capital to compete with German-owned enterprises on equal terms. The beer was the product. The brewery was the argument.`,
+
+      cz: `Statečný dobrodruhu, vítej v Holešovickém pivovaru — Prvním pražském měšťanském pivovaru!
+
+V roce 1895 byl tento pivovar founded s výjimečností, která pro Pražany mnoho znamenala: byl prvním pivovarem ve městě postaveným nikoli šlechtou, nikoli klášterem, nikoli na základě královské listiny, ale obyčejnými měšťany, kteří sdružili kapitál prostřednictvím družstevního akciového systému, aby se zmocnili vlastní výroby piva. Ve městě, kde právo vařit pivo bylo historicky šlechtickým nebo církevním privilegiem, to byl demokratický čin ve velmi specifickém a velmi českém smyslu: prosazení, že obyčejní lidé by měli mít možnost vyrábět, vlastnit a těžit ze věci, kterou milují nejvíce.
+
+Pivovarský komplex, postavený v pozdně viktoriánském průmyslovém stylu charakteristickém pro Holešovice tohoto období, je podstatnou ukázkou průmyslové architektury konce devatenáctého století. Cihlové budovy s charakteristickým komínem a skladišti odrážejí seriózní ambice jeho zakladatelů. Výroba zde pokračovala po většinu dvacátého století, což z pivovaru učinilo jeden z nejdéle fungujících ve městě. Dnes byl komplex přeměněn na kulturní místo a prostor pro akce — koncerty, trhy, festivaly — přičemž společenský duch jeho počátků zůstal zachován, i když ne pivo.
+
+🥚 Velikonoční vajíčko: České družstevní pivovarnické hnutí bylo součástí širší strategie Národního obrození. Kontrola hospodářských institucí — bank, pojišťoven, pivovarů — byla chápána českými intelektuály a obchodními vůdci jako základní součást národní sebeurčení, která nevyžadovala politickou nezávislost od počátku. Vybudováním česky vlastněného, občany drženého pivovaru v roce 1895 nedělali jeho zakladatelé jen ekonomická rozhodnutí — dělali kulturní. Prosazovali, že česká Praha má organizační kapacitu a kapitál ke konkurenci německy vlastněných podniků za rovných podmínek. Pivo byl produkt. Pivovar byl argument.`,
+
+      zh: `勇敢的冒险家，欢迎来到霍莱绍维采啤酒厂（Holešovický pivovar）——布拉格第一家市民啤酒厂（První pražský měšťanský pivovar）！
+
+1895年，这家啤酒厂以一种对布拉格人意义重大的特别方式宣告成立：它是这座城市第一家由普通市民（měšťané，即市民阶层）共同出资兴建的啤酒厂——既不是贵族的，也不是修道院的，更不是依靠王室特许状的，而是通过合作制股份结构将资本汇聚起来，自主掌控啤酒生产。在一座"酿酒权"历来是贵族或教会特权的城市里，这是一种非常具体、非常捷克式的民主行动：普通人有权酿造、拥有并从自己最热爱的东西中受益。
+
+这座啤酒厂建筑群采用了彼时霍莱绍维采地区特有的维多利亚晚期工业风格，是19世纪末工业建筑的重要遗存。红砖建筑配以标志性的烟囱和仓储大厅，折射出创始人的宏大抱负。酿酒生产在这里持续了20世纪的大部分时间，使这家啤酒厂成为布拉格运营时间最长的酒厂之一。如今，整个建筑群已被改造为文化场所和活动空间——举办音乐会、集市、节庆——保留了其创始初衷中那种热爱聚会交流的精神，即便啤酒已不再生产。
+
+🥚 彩蛋：捷克合作制酿酒运动是更广泛的"民族复兴"策略的组成部分。对经济机构的控制——银行、保险公司、啤酒厂——被捷克知识分子和商界领袖视为民族自决不可或缺的组成部分，且不必等到政治独立才能开始。1895年建立这家由捷克人拥有、市民持股的啤酒厂，创始人们做出的不仅仅是经济选择——更是文化选择。他们在宣示：捷克布拉格拥有与德语企业在平等条件下竞争的组织能力和资本实力。啤酒是产品。啤酒厂是论点。`,
+    },
+  },
+  {
+    name: 'Hospital of the Sisters of Mercy of St. Charles Borromeo',
+    slug: 'nemocnice-milosrdnych-sester',
+    localizedNames: { cz: 'Nemocnice Milosrdných sester sv. Karla Boromejského', zh: '圣博罗梅乌仁慈姐妹医院' },
+    labels: ['historical', 'architecture', 'landmark'],
+    coordinates: { lat: 50.08706001995986, lng: 14.39599769480772 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Hospital of the Sisters of Mercy of St. Charles Borromeo in Prague (Nemocnice Milosrdných sester sv. Karla Boromejského)!
+
+This hospital has been providing medical care in Malá Strana continuously since 1837, when the Sisters of Mercy of St. Charles Borromeo — a religious nursing congregation founded in Strasbourg in 1652 — were invited to Prague by Archbishop Jan Chlumčanský. Their arrival brought professional nursing care to Prague at a moment when the city had no dedicated training for medical carers and hospitals were largely staffed by whoever happened to be available. The Sisters changed this with systematic rigour: they trained, organised, and worked in the most demanding conditions the nineteenth century could produce, including cholera epidemics and wartime medical care that required them to work far beyond the walls of this building.
+
+St. Charles Borromeo himself (1538–1584) was an Italian cardinal, Archbishop of Milan, and one of the central figures of the Counter-Reformation. His defining act was his response to the plague of 1576, when he personally ministered to the sick in Milan while most of the nobility and clergy fled the city. He sold his personal assets to fund food and medicine for plague victims. He stayed. He is the patron of plague victims, catechists, and seminarians — as well as, improbably, apple orchards. The apple orchard connection has never been satisfactorily explained to historians. The rest makes sense.
+
+🥚 Easter Egg: The Sisters of Mercy of St. Charles Borromeo have a second, much quieter claim to Prague's attention. During the Second World War, members of their congregation assisted in concealing Jewish residents and supported the Czech resistance network — a choice that put them at serious risk under Nazi occupation. This kind of institutional courage is rarely commemorated on plaques and, if recorded at all, exists only in the Order's own archives. The capacity of quiet organisations to do consequential things without requiring recognition is, in its own way, a form of spiritual practice that continues the logic of the man whose name they bear.`,
+
+      cz: `Statečný dobrodruhu, vítej v Nemocnici Milosrdných sester sv. Karla Boromejského v Praze!
+
+Tato nemocnice poskytuje lékařskou péči na Malé Straně nepřetržitě od roku 1837, kdy byly Milosrdné sestry sv. Karla Boromejského — kongregace sester zdravotnic founded v Štrasburku v roce 1652 — pozvány do Prahy arcibiskupem Janem Chlumčanským. Jejich příchod přinesl Praze profesionální ošetřovatelskou péči v době, kdy město nemělo žádné systematické vzdělávání pro zdravotní pracovníky a nemocnice byly z větší části obsazeny kýmkoli, kdo byl k dispozici. Sestry to změnily se systematickou přísností: vzdělávaly se, organizovaly a pracovaly v nejnáročnějších podmínkách, které devatenácté století mohlo přinést, včetně cholerovch epidemií a válečné péče, která je nutila pracovat daleko za zdmi této budovy.
+
+Sám sv. Karel Boromejský (1538–1584) byl italský kardinál, arcibiskup milánský a jedna z ústředních postav protireformace. Jeho určující čin byl jeho reakce na mor roku 1576, kdy osobně sloužil nemocným v Miláně, zatímco většina šlechty a kléru z města uprchla. Prodal svůj osobní majetek, aby financoval jídlo a léky pro oběti moru. Zůstal. Je patronem obětí moru, katechetů a seminářistů — a také, nepravděpodobně, jabloňových sadů. Spojení s jabloňovými sady zůstává historikům nevysvětlitelné. Zbytek dává smysl.
+
+🥚 Velikonoční vajíčko: Milosrdné sestry sv. Karla Boromejského mají druhý, mnohem tišší nárok na pražskou pozornost. Během druhé světové války příslušnice jejich kongregace pomáhaly skrývat žydovské obyvatele a podporovaly českou odbojovou síť — volba, která je za nacistické okupace vystavovala vážnému nebezpečí. Tento druh institucionální odvahy je zřídka připomínán pamětními deskami a pokud vůbec existuje záznam, pak jen v archivech samotného řádu. Schopnost tichých organizací dělat zásadní věci bez požadování uznání je svým způsobem formou duchovní praxe, která pokračuje v logice muže, jehož jméno nesou.`,
+
+      zh: `勇敢的冒险家，欢迎来到布拉格圣博罗梅乌仁慈姐妹医院（Nemocnice Milosrdných sester sv. Karla Boromejského）！
+
+自1837年以来，这家医院在小城区（Malá Strana）持续提供医疗服务——那一年，圣博罗梅乌仁慈姐妹会（Milosrdné sestry sv. Karla Boromejského）——一个1652年在斯特拉斯堡创立的护理修道女团体——应大主教扬·赫鲁姆昌斯基（Jan Chlumčanský）之邀来到布拉格。她们的到来，在布拉格尚无任何系统性医护培训、医院基本上靠临时凑人手运营的年代，带来了专业化的护理服务。修女们以严格的系统性彻底改变了这一局面：她们接受培训、自我组织，在19世纪所能提供的最艰难条件下工作，包括霍乱流行和战时护理，那些情境要求她们将工作延伸到这座建筑的围墙之外。
+
+圣博罗梅乌（Carlo Borromeo，1538—1584）本人是意大利枢机主教、米兰大主教，宗教改革反对运动的核心人物之一。他最具决定性意义的行动，是他对1576年米兰瘟疫的回应：在大多数贵族和神职人员逃离城市时，他亲自留在米兰为病人服务。他变卖个人财产为瘟疫受害者筹备食物和药品。他留了下来。他是瘟疫受害者、教义问答师和神学院学生的主保圣人——以及，出人意料地，苹果园的主保圣人。苹果园那条关联，历史学家至今未能找到令人满意的解释。其余的都说得通。
+
+🥚 彩蛋：圣博罗梅乌仁慈姐妹会还有另一项更为低调的历史功绩。二战期间，该修道女团体的成员协助藏匿犹太居民，并为捷克地下抵抗网络提供支持——在纳粹占领下，这是一个将她们置于严重危险中的选择。这类机构性的勇气鲜少被铭牌纪念，即便有记录，也只存于修道团体自己的档案之中。安静的组织在不寻求认可的情况下完成重要事情的能力，本身就是一种精神修行的方式，延续着她们所承载的那个名字背后的逻辑。`,
+    },
+  },
+  {
+    name: 'U Zlatého tygra',
+    slug: 'u-zlateho-tygra',
+    localizedNames: { cz: 'U Zlatého tygra', zh: '金虎酒馆' },
+    labels: ['restaurants-and-cafes', 'historical', 'hidden-gem'],
+    coordinates: { lat: 50.08585450344484, lng: 14.418034890162685 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to U Zlatého tygra — The Golden Tiger!
+
+This is not just a pub. This is a Czech institution of approximately the same cultural weight as a national library, approached with the same reverence and governed by rules just as impenetrable to the uninitiated. U Zlatého tygra has been serving beer in the Old Town since the seventeenth century, but its modern legend is inseparable from one man: Bohumil Hrabal, arguably the greatest Czech prose writer of the twentieth century, who drank here so regularly and for so long that a chair in the corner became permanently associated with his name.
+
+Hrabal was the author of Closely Watched Trains, I Served the King of England, and Too Loud a Solitude — a body of work that turned the everyday experience of ordinary Czechs (factory workers, pub philosophers, eccentric neighbours) into literature of startling precision and warmth. He came here to drink, to listen, and to talk, apparently without distinction between these activities. The beer was Pilsner Urquell, served properly, in a clean glass, at the correct temperature. These details mattered enormously to him.
+
+In 1994, United States President Bill Clinton visited Prague on a state visit. His host, Václav Havel — poet, dissident, and newly elected President of the Czech Republic — brought him here. Hrabal was also present. Three men — a world superpower's president, a former political prisoner turned head of state, and the greatest Czech writer of his generation — sat in this room and drank Pilsner Urquell together. This is documented fact. It is also possibly the most specifically Czech thing that has ever happened.
+
+🥚 Easter Egg: Bohumil Hrabal died in 1997 in circumstances that read like something out of his own fiction. He fell from the fifth-floor window of the hospital where he was recovering from an injury, reportedly while leaning out to feed the pigeons. He was eighty-two. He had been feeding pigeons for years. Nobody who knew him found this implausible. The pigeons presumably found it entirely expected. Prague has a gift for exits that are exactly as improbable as the lives that preceded them.`,
+
+      cz: `Statečný dobrodruhu, vítej U Zlatého tygra!
+
+Tohle není jen hospoda. Tohle je česká instituce přibližně stejné kulturní váhy jako národní knihovna, přistupovaná se stejnou úctou a řízená pravidly stejně neprostupnými pro nezasvěcené. U Zlatého tygra čepuje pivo na Starém Městě od sedmnáctého století, ale jeho moderní legenda je neoddělitelná od jednoho muže: Bohumila Hrabala, snad největšího českého prozaika dvacátého století, který sem chodil pít tak pravidelně a tak dlouho, že křeslo v rohu se natrvalo spojilo s jeho jménem.
+
+Hrabal byl autorem Ostře sledovaných vlaků, Obsluhoval jsem anglického krále a Příliš hlučné samoty — díla, které proměnilo každodenní zkušenost obyčejných Čechů (dělníků, hospodských filozofů, excentrických sousedů) v literaturu překvapivé přesnosti a vřelosti. Chodil sem pít, naslouchat a mluvit, zřejmě bez rozlišení mezi těmito aktivitami. Pivo bylo Pilsner Urquell, čepovaný správně, do čistého sklenice, při správné teplotě. Tyto detaily mu byly nesmírně důležité.
+
+V roce 1994 navštívil prezident Spojených států Bill Clinton Prahu na státní návštěvě. Jeho hostitel, Václav Havel — básník, disident a nově zvolený prezident České republiky — ho přivedl sem. Přítomen byl i Hrabal. Tři muži — prezident světové supervelmoci, bývalý politický vězeň, který se stal hlavou státu, a největší český spisovatel své generace — seděli v tomto pokoji a pili spolu Pilsner Urquell. Je to zdokumentovaný fakt. Je to také možná ta nejspecifičtěji česká věc, která se kdy stala.
+
+🥚 Velikonoční vajíčko: Bohumil Hrabal zemřel v roce 1997 za okolností, které působí jako něco z jeho vlastní fikce. Vypadl z okna v pátém patře nemocnice, kde se vzpamatovával ze zranění, prý když se nakláněl ven, aby nakrmil holuby. Bylo mu osmdesát dva let. Holubům krmil léta. Nikdo, kdo ho znal, to neshledal nepravděpodobným. Holubi to zřejmě považovali za naprosto předvídatelné. Praha má dar pro odchody, které jsou přesně tak nepravděpodobné jako životy, které jim předcházely.`,
+
+      zh: `勇敢的冒险家，欢迎来到金虎酒馆（U Zlatého tygra）！
+
+这不只是一家酒馆。这是一家捷克机构，其文化分量大约与国家图书馆相当，被以同等的虔诚对待，并被一套对外人同样难以穿透的规则所支配。金虎自17世纪起便在老城区供应啤酒，但它的现代传奇与一个人密不可分：波胡米尔·赫拉巴尔（Bohumil Hrabal）——可能是20世纪最伟大的捷克散文作家——他在这里喝酒的时间如此漫长、如此规律，以至于角落里的那把椅子最终永远与他的名字联系在了一起。
+
+赫拉巴尔是《严密监视的列车》《我曾服侍过英国国王》和《过于喧嚣的孤独》等作品的作者，他的文学世界将普通捷克人的日常生活（工厂工人、酒馆哲学家、古怪邻居）转化为令人惊叹的精准与温暖的文学。他来这里喝酒、聆听、闲谈，这几件事对他来说大概没有什么区别。他喝的是皮尔森乌奎尔（Pilsner Urquell），正确地倒进干净的杯子，温度恰到好处。这些细节对他极其重要。
+
+1994年，美国总统比尔·克林顿对布拉格进行国事访问。他的东道主，瓦茨拉夫·哈维尔（Václav Havel）——诗人、异见人士、捷克共和国新当选总统——把他带到了这里。赫拉巴尔也在场。三个男人——一个超级大国的总统、一个从政治犯变成国家元首的人、以及他那一代最伟大的捷克作家——坐在这个房间里，一起喝了皮尔森乌奎尔。这是有据可查的事实。这也可能是有史以来最纯粹捷克式的事情。
+
+🥚 彩蛋：波胡米尔·赫拉巴尔于1997年去世，死亡经过读来像他自己小说里的情节。他从医院五楼的窗口跌落，据说当时他正探身出去喂鸽子，彼时他正在医院养伤。他已八十二岁。他喂鸽子已经喂了很多年。认识他的人没有一个觉得这不可能。鸽子们大概觉得这完全在意料之中。布拉格有一种天赋，能让离场方式与走过的一生一样不可思议。`,
+    },
+  },
+  {
+    name: 'Castle Square Viewpoint',
+    slug: 'vyhlidka-hradcanske-namesti',
+    localizedNames: { cz: 'Vyhlídka na Hradčanském náměstí', zh: '城堡广场观景台' },
+    labels: ['landmark', 'historical', 'architecture'],
+    coordinates: { lat: 50.089342125363686, lng: 14.398764241981029 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Castle Square Viewpoint (Vyhlídka na Hradčanském náměstí)!
+
+Hradčanské náměstí — Castle Square — is the large, austere, and frequently underestimated square that forms the ceremonial forecourt of Prague Castle. While the castle itself pulls every camera lens in Bohemia, this square quietly earns its own distinction: it is one of the finest Baroque urban spaces in Central Europe, enclosed by the Schwarzenberg Palace, the Tuscany Palace (seat of the Czech Ministry of Foreign Affairs since 1918), and the Archbishop's Palace. In the centre stands a plague column, erected in thanksgiving after the city survived the epidemic of 1713.
+
+But the real reward is the view. At the southern edge of this square — where the plateau of Hradčany meets the steep slope that falls away toward Malá Strana — Prague opens up below you with extraordinary completeness. The red-roofed city stretches across both banks of the Vltava; the bridges are visible from here in sequence; the towers of the Old Town, the domes of the New Town churches, the hills of Žižkov and Vinohrady to the east, and on clear days the plateau of Bohemia dissolving into the horizon. This is the view that ambassadors, archbishops, and kings have walked out to inspect for three hundred years, each for their own reasons.
+
+🥚 Easter Egg: The Tuscany Palace (Toskánský palác) on the western side of the square was built for Michael Oswald, Prince of Tuscany, in the early eighteenth century and subsequently passed through various Habsburg aristocratic hands. What has not changed is its function: it has housed the Czech Ministry of Foreign Affairs since Czechoslovakia's founding in 1918, and continues to do so today. Diplomacy in Prague is conducted from a Baroque palace on the square in front of the castle, which seems about right. The building's stone face has watched over Hradčanské náměstí through the First Republic, the Nazi Protectorate, the Communist period, and the restoration of democracy — without appearing to have strong views on any of it.`,
+
+      cz: `Statečný dobrodruhu, vítej na Vyhlídce na Hradčanském náměstí!
+
+Hradčanské náměstí je velké, strohé a často podceňované náměstí tvořící slavnostní předpolí Pražského hradu. Zatímco hrad samotný přitahuje každý fotoaparát v Čechách, toto náměstí tiše získává vlastní rozlišení: je to jeden z nejkrásnějších barokních městských prostor ve střední Evropě, uzavřený Schwarzenberským palácem, Toskánským palácem (sídlem českého Ministerstva zahraničních věcí od roku 1918) a Arcibiskupským palácem. V centru stojí morový sloup, vztyčený jako poděkování poté, co město přežilo epidemii roku 1713.
+
+Ale skutečnou odměnou je výhled. Na jižním okraji tohoto náměstí — kde se planina Hradčan setkává se strmým svahem klesajícím k Malé Straně — se Praha otevírá pod vámi s mimořádnou úplností. Město s červenými střechami se rozkládá přes oba břehy Vltavy; odtud jsou mosty vidět v řadě za sebou; věže Starého Města, kopule novomětských kostelů, kopce Žižkova a Vinohrad na východě, a za jasných dnů planina Čech mizící na horizontu. To je výhled, který si velvyslanci, arcibiskupové a králové chodili prohlédnout tři sta let, každý z vlastních důvodů.
+
+🥚 Velikonoční vajíčko: Toskánský palác na západní straně náměstí byl postaven pro Michaela Osvalda, prince Toskánského, na počátku osmnáctého století a poté přecházel různými větvemi habsburské aristokracie. Co se nezměnilo, je jeho funkce: od vzniku Československa v roce 1918 sídlí v paláci české Ministerstvo zahraničních věcí a dělá to dodnes. Diplomacie v Praze je vedena z barokního paláce na náměstí před hradem, což se zdá celkem příhodné. Kamenná tvář budovy přihlížela Hradčanskému náměstí za První republiky, nacistického protektorátu, komunistické éry a obnovy demokracie — aniž by se zdálo, že k tomu má silné osobní názory.`,
+
+      zh: `勇敢的冒险家，欢迎来到城堡广场观景台（Vyhlídka na Hradčanském náměstí）！
+
+赫拉德恰内广场（Hradčanské náměstí）——城堡广场——是布拉格城堡正前方那座宽阔、肃穆、常常被低估的广场，构成了城堡的礼仪式前院。城堡本身吸引了波西米亚所有的相机镜头，而这座广场则低调地积累着自己的分量：它是中欧最优美的巴洛克式城市广场之一，由施瓦岑贝格宫（Schwarzenberg Palace）、托斯卡纳宫（Tuscany Palace，自1918年起即为捷克外交部所在地）和大主教宫（Archbishop's Palace）围合而成。广场中央矗立着一根瘟疫纪念柱，那是1713年疫情过后幸存者竖立的感恩之石。
+
+但真正的奖赏在于那个景色。在广场南缘——赫拉德恰内高地与向小城区陡然跌落的坡地相接之处——布拉格以一种令人惊叹的完整性在你脚下展开。红屋顶的城市绵延在伏尔塔瓦河两岸；从这里可以依次看清每一座桥；老城的塔楼、新城教堂的穹顶、东方日什科夫和维诺赫拉迪的山丘，在晴朗的日子里，波西米亚平原消融于远处的地平线。这是大使、大主教和国王们三百年来走出来眺望的景色，每个人都有着自己的理由。
+
+🥚 彩蛋：广场西侧的托斯卡纳宫（Toskánský palác）建于18世纪初，最初为托斯卡纳亲王迈克尔·奥斯瓦尔德（Michael Oswald）所建，此后辗转经过哈布斯堡贵族的各个支系。没有改变的是它的功能：自1918年捷克斯洛伐克建国以来，托斯卡纳宫便是捷克外交部的所在地，至今仍是如此。布拉格的外交事务，在城堡广场前的一座巴洛克宫殿里进行，这似乎颇为合理。这座建筑的石制外墙俯瞰赫拉德恰内广场，见证了第一共和国、纳粹保护国、共产主义时期和民主恢复——而它似乎对这一切都没有表现出强烈的个人立场。`,
+    },
+  },
+  {
+    name: 'Hrzán Palace',
+    slug: 'hrzansky-palac',
+    localizedNames: { cz: 'Hrzánský palác', zh: '赫尔赞斯基宫' },
+    labels: ['palace', 'historical', 'architecture'],
+    coordinates: { lat: 50.08851546538464, lng: 14.394201115373157 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Hrzán Palace (Hrzánský palác)!
+
+In the baroque competition that shaped Hradčany in the late seventeenth and early eighteenth centuries, the Hrzán Palace represents a well-calculated move in a very high-stakes real estate game. The Hrzán family of Harasova built their Prague residence here at a moment when every significant noble family in Bohemia understood the same principle: proximity to the castle was not merely architectural preference — it was political strategy. The palace that sat within walking distance of the Habsburg governor's office was the palace whose owner arrived at audiences first, briefed courtiers in corridors, and maintained the informal access that formal petitions could never guarantee. Baroque Hradčany was one long architectural argument about who mattered most.
+
+The palace is a characteristic example of the Czech Baroque residential tradition — restrained compared to the theatrical excess of Viennese court architecture, but deliberate in its proportions and placement. The street it occupies, Loretánská, runs between the Loreto pilgrimage church and the fortress of the Černín Palace, ensuring that even a walk to morning devotions required navigating the full cast of Hradčany society. The palace passed through a succession of owners across the centuries, as noble families rose, fell, and merged through the dynastic turbulence of Central European history. It now serves governmental functions — the latest in a long line of institutional occupants who have found the address as useful as its original builders did.
+
+🥚 Easter Egg: The Hrzán family name connects to a wider Bohemian aristocratic world that was almost entirely destroyed by one event: the Battle of White Mountain in 1620. After the Protestant Bohemian nobility was crushed by the Habsburgs, their estates were confiscated and redistributed to loyal Catholic families, many of them German-speaking newcomers. The Bohemian aristocracy that rebuilt Prague in the Baroque style — including the families that lined Loretánská and Hradčanské náměstí with palaces — was substantially a new class, installed by imperial patronage after the old one had been executed, exiled, or reduced to poverty. The grandeur of Baroque Prague is, in part, the architectural signature of a dispossession.`,
+
+      cz: `Statečný dobrodruhu, vítej v Hrzánském paláci!
+
+V barokní soutěži, která formovala Hradčany na konci sedmnáctého a počátku osmnáctého století, představuje Hrzánský palác dobře promyšlený tah ve velmi závažné hře o nemovitosti. Rod Hrzánů z Harasova si zde vybudoval svou pražskou rezidenci v době, kdy každý významný šlechtický rod v Čechách chápal touž zásadu: blízkost hradu nebyla jen architektonickou preferencí — byla politickou strategií. Palác na dochůdku od kanceláře habsburského místodržícího byl palác, jehož majitel přicházel na audience jako první, zpovídal dvořany v chodbách a udržoval neformální přístup, který formální žádosti nikdy nezaručovaly. Barokní Hradčany byly jednou dlouhou architektonickou polemiku o tom, kdo nejvíce záleží.
+
+Palác je charakteristickým příkladem české barokní rezidenční tradice — zdrženlivý ve srovnání s teatrálním přebytkem vídeňské dvorní architektury, ale záměrný v proporcích a poloze. Ulice, na níž stojí — Loretánská — vede mezi Loretánskou poutní kaplí a pevností Černínského paláce, takže i cesta na ranní pobožnost vyžadovala procházet celým osazením hradčanské společnosti. Palác přecházel přes staletí z rukou do rukou, jak šlechtické rody stoupaly, upadaly a splývaly v dynastické turbulenci středoevropských dějin. Dnes slouží vládním účelům — jako nejnovější v dlouhé řadě institucionálních nájemníků, kteří tuto adresu shledali stejně užitečnou jako její původní stavitelé.
+
+🥚 Velikonoční vajíčko: Jméno Hrzánů se váže k širšímu světu české šlechty, který byl téměř zcela zničen jednou událostí: bitvou na Bílé hoře roku 1620. Poté, co byla protestantská česká šlechta poražena Habsburky, byly její statky zkonfiskovány a rozděleny loajálním katolickým rodinám — z nichž mnohé byly německojazyčnými nováčky. Česká aristokracie, která přestavěla Prahu v barokním stylu — včetně rodin, které lemovaly Loretánskou a Hradčanské náměstí paláci — byla z podstatné části novou třídou, dosazenou císařskou přízní poté, co ta stará byla popravena, vyhnána nebo uvržena do chudoby. Nádhera barokní Prahy je zčásti architektonickým podpisem jednoho vyvlastnění.`,
+
+      zh: `勇敢的冒险家，欢迎来到赫尔赞斯基宫（Hrzánský palác）！
+
+在17世纪末至18世纪初那场塑造了赫拉德恰内（Hradčany）面貌的巴洛克式竞争中，赫尔赞斯基宫代表着一场极高风险的房地产博弈中的精准落子。赫尔赞（Hrzán）家族在这里建造布拉格宅邸的时机，恰好是波西米亚每一个重要贵族家族都领悟了同一条原则的时刻：靠近城堡不仅仅是建筑审美的偏好——那是政治策略。距哈布斯堡总督办公室步行可达的宫殿，才是其主人最先抵达觐见、在廊道间疏通关系、维系那种正式请愿永远无法保证的非正式渠道的宫殿。巴洛克时代的赫拉德恰内，是一场关于"谁最重要"的漫长建筑辩论。
+
+这座宫殿是捷克巴洛克住宅传统的典型案例——与维也纳宫廷建筑的戏剧性奢华相比显得克制，但在比例和位置上颇具匠心。宫殿所在的洛雷坦斯卡街（Loretánská）连接洛雷托朝圣教堂与切尔宁宫（Černín Palace）要塞，如此一来，哪怕只是走去参加晨祷，也需要穿越整个赫拉德恰内社交圈的全体成员。几个世纪以来，这座宫殿辗转易主，贵族家族在中欧历史的王朝动荡中起起落落、分分合合。如今它服务于政府职能——是漫长的机构居住者名单中最新的一位，而这些人发现这个地址和当初的建造者一样有用。
+
+🥚 彩蛋：赫尔赞家族的名字连接着一个更广阔的波西米亚贵族世界，而这个世界几乎在一场事件中被彻底摧毁：1620年的白山战役。新教波西米亚贵族被哈布斯堡王朝击败后，他们的庄园被没收，重新分配给忠诚的天主教家族——其中许多都是德语新移民。那些用巴洛克风格重建布拉格的波西米亚贵族——包括在洛雷坦斯卡街和赫拉德恰内广场两侧排列宫殿的家族——从根本上是一个由帝国庇护扶植的新阶级，替换了那个已被处决、流亡或沦为贫困的旧阶级。巴洛克布拉格的辉煌，在某种程度上，是一次剥夺的建筑签名。`,
+    },
+  },
+  {
+    name: 'Vršovice Hussite Hall',
+    slug: 'husuv-sbor-vrsovice',
+    localizedNames: { cz: 'Husův sbor ve Vršovicích', zh: '弗尔绍维采胡斯集会堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.06890911225685, lng: 14.453921707817928 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Hussite Congregation Hall in Vršovice (Husův sbor ve Vršovicích)!
+
+When Czechoslovakia gained independence in October 1918, one of the most urgent questions facing the new state was religious. For three centuries, the Habsburg dynasty had enforced Catholicism throughout Bohemia with a thoroughness that produced official statistics but concealed the actual state of Czech religious identity. When those constraints were removed, Czech society moved quickly. On January 8, 1920, a group of reformist Catholic priests broke from Rome and founded the Czechoslovak Hussite Church — a new denomination that claimed the legacy of Jan Hus, celebrated Mass in Czech rather than Latin, allowed priests to marry, and governed itself through democratic congregational structures rather than episcopal hierarchy. Within a year it had over a hundred thousand members. Within a decade, it had built congregation halls — sbory — across the republic.
+
+The Vršovice congregation hall is one of these purposefully built interwar structures, its architecture reflecting the confident modernism of the First Republic. Czech functionalism and national romanticism competed in the design of these buildings, which were not churches in the Catholic sense — they were sbory, "meeting places," a distinction that mattered very much to their congregations. The name on the building, Hus, was not merely a dedication. It was a statement: the memory of the fifteenth-century reformer who was burned for questioning Rome belonged to Czech Protestants, not to the institution that burned him.
+
+🥚 Easter Egg: Jan Hus died at the Council of Constance on July 6, 1415, burned as a heretic after the Holy Roman Emperor revoked his guaranteed safe conduct on the theological grounds that promises to heretics are not binding. The resulting Hussite Wars lasted from 1419 to 1434 and were, by the military standards of the time, extraordinary: the Hussites — a comparatively small kingdom of mostly peasant and townspeople fighters — defeated five consecutive papal-backed crusades. When Martin Luther stood before the Diet of Worms in 1521 refusing to recant, he explicitly cited Hus: "We are all Hussites," he said, "without knowing it." The Czech reforms that Rome had crushed had seeded the Reformation a century later. July 6, the day of Hus's death, is a public holiday in the Czech Republic to this day.`,
+
+      cz: `Statečný dobrodruhu, vítej v Husově sboru ve Vršovicích!
+
+Když Československo v říjnu 1918 získalo nezávislost, jednou z nejnaléhavějších otázek, které nový stát čelil, byla náboženská. Po tři staletí Habsburkové prosazovali katolictví v Čechách s důkladností, která produkovala oficiální statistiky, ale zastírala skutečný stav české náboženské identity. Jakmile tato omezení pominula, česká společnost se rychle pohnula. Dne 8. ledna 1920 skupina reformistických katolických kněží přerušila vztahy s Římem a founded Církev československou husitskou — novou denominaci, která si nárokovala odkaz Jana Husa, slavila mši v češtině místo latiny, dovolovala kněžím se ženit a spravovala se demokratickými kongregačními strukturami místo biskupské hierarchie. Během roku měla přes sto tisíc členů. Během desetiletí vybudovala sbory ve čtvrtích po celé republice.
+
+Vršovický sbor je jednou z těchto záměrně budovaných meziválečných staveb, jejíž architektura odráží sebejistý modernismus první republiky. Český funkcionalismus a národní romantismus soupeřily v návrzích těchto budov, které nebyly kostely v katolickém smyslu — byly to sbory, "shromažďovací místa", rozdíl, který pro jejich kongregace velmi záležel. Jméno na budově, Hus, nebylo pouhým věnováním. Bylo to prohlášení: paměť na reformatora z patnáctého století, upáleného za zpochybňování Říma, patřila českým protestantům, nikoli instituci, která ho upálila.
+
+🥚 Velikonoční vajíčko: Jan Hus zemřel na Kostnickém koncilu 6. července 1415, upálen jako kacíř poté, co mu císař Svaté říše římské odvolal zaručené bezpečné chování s teologickým odůvodněním, že sliby dané kacířům nejsou závazné. Výsledné husitské války trvaly od roku 1419 do roku 1434 a byly z vojenského hlediska tehdejší doby pozoruhodné: Husité — relativně malé království většinou rolnických a měšťanských bojovníků — porazili pět po sobě jdoucích papežem podpořených křížových výprav. Když Martin Luther stanul před Říšským sněmem ve Wormsu roku 1521 a odmítl odvolat, explicitně citoval Husa: "Jsme všichni husité," řekl, "aniž bychom to věděli." České reformy, které Řím potlačil, zasely reformaci o století později. 6. červenec, den Husovy smrti, je dodnes státním svátkem v České republice.`,
+
+      zh: `勇敢的冒险家，欢迎来到弗尔绍维采胡斯集会堂（Husův sbor ve Vršovicích）！
+
+1918年10月捷克斯洛伐克获得独立时，新国家面临的最紧迫问题之一是宗教问题。三个世纪以来，哈布斯堡王朝在波西米亚强制推行天主教，这种力度制造了官方统计数字，却遮掩了捷克人真实的宗教认同状态。当这些约束解除后，捷克社会迅速行动。1920年1月8日，一群改革派天主教神父与罗马决裂，创立了捷克斯洛伐克胡斯派教会（Církev československá husitská）——一个以扬·胡斯为精神源头的新教派，以捷克语而非拉丁语举行弥撒，允许神职人员结婚，并通过民主的会众制度而非主教层级进行治理。不到一年，教会就拥有了超过十万名成员。不到十年，它在共和国各地街区建起了集会堂（sbory）。
+
+弗尔绍维采集会堂是这批有意建造的两战之间建筑之一，其建筑风格体现了第一共和国时期充满自信的现代主义精神。捷克功能主义与民族浪漫主义在这些建筑的设计中相互竞争——它们在天主教意义上不是"教堂"，而是"sbory"（聚会场所），这个区分对会众来说意义重大。建筑上的名字"胡斯"不只是一个献名，那是一份声明：那位因质疑罗马而被烧死的15世纪改革者的记忆，属于捷克新教徒，而不属于烧死他的那个机构。
+
+🥚 彩蛋：扬·胡斯于1415年7月6日在康斯坦茨公会议上以异端罪名被火刑处死，此前神圣罗马皇帝以"对异端的承诺不具约束力"为由撤销了对他的安全通行保证。随之而来的胡斯战争（1419—1434年）在当时的军事标准下堪称非凡：胡斯派击败了罗马教廷组织的五次十字军东征。1521年马丁·路德在沃尔姆斯帝国议会上拒绝收回声明时，明确援引了胡斯："我们都是胡斯派，"他说，"只是自己不知道。"罗马曾压制的捷克改革，在一个世纪后埋下了宗教改革的种子。胡斯的忌日7月6日，至今仍是捷克共和国的法定假日。`,
+    },
+  },
+  {
+    name: 'Theatre Hybernia',
+    slug: 'divadlo-hybernia',
+    localizedNames: { cz: 'Divadlo Hybernia', zh: '希伯尼亚剧院' },
+    labels: ['historical', 'architecture', 'landmark'],
+    coordinates: { lat: 50.08734989308102, lng: 14.42909015672586 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Divadlo Hybernia — Theatre Hybernia!
+
+The name "Hybernia" is the Latin word for Ireland. The building you are standing in front of was originally a Baroque church and monastery built for Irish Franciscan friars — men who came to Prague in the early seventeenth century not as missionaries, but as refugees. Under English Protestant rule in Ireland, Catholic religious orders faced sustained persecution, dissolution, and the threat of extinction. Central European Catholic cities — Vienna, Prague, Louvain — became sanctuaries for Irish clergy seeking to preserve their orders and continue their theological training. The Irish Franciscans, known in Latin as the Fratres Minores Hiberniae, arrived in Prague in 1629. Emperor Ferdinand II, who had just won the Battle of White Mountain and was in the process of re-Catholicising Bohemia, received them warmly. He granted them a plot of land in the New Town, and on it they built the church that eventually became this theatre.
+
+The Baroque church, completed in stages across the seventeenth and early eighteenth centuries, served the Irish community in Prague until Emperor Joseph II dissolved the monasteries in 1786 as part of his Enlightenment-era ecclesiastical reforms. The building was converted into a customs house — the Celnice — which explains the proximity to the adjacent railway terminal. It served this prosaic function for most of the nineteenth and twentieth centuries before being renovated and reopened in 2006 as a musical theatre and events venue. The Irish friars would have found the transformation unexpected. Prague audiences find it excellent.
+
+🥚 Easter Egg: The Irish Franciscans in Prague were part of a phenomenon historians call the "Irish Colleges" — a network of institutions founded across Catholic Europe by Irish clergy and laypeople during the sixteenth through eighteenth centuries to preserve Irish Catholic education while it was suppressed at home. Colleges existed in Louvain, Salamanca, Rome, Paris, Prague, and elsewhere. These were not merely religious institutions; they trained the intellectual and ecclesiastical leadership that would eventually return to Ireland, carrying Scholastic philosophy, Counter-Reformation theology, and — crucially — the written preservation of Irish language, poetry, and history. The Four Masters, who compiled the Annals of the Kingdom of Ireland between 1632 and 1636, worked from one such college in Louvain. Prague's Irish church was part of the same network that saved a culture.`,
+
+      cz: `Statečný dobrodruhu, vítej v Divadle Hybernia!
+
+Název "Hybernia" je latinský výraz pro Irsko. Budova, před níž stojíš, byla původně barokní kostel a klášter postavený pro irské františkánské mnichy — muže, kteří přišli do Prahy na počátku sedmnáctého století nikoli jako misionáři, ale jako uprchlíci. Pod anglickou protestantskou nadvládou v Irsku čelily katolické řeholní řády soustavnému pronásledování, rozpuštění a hrozbě zániku. Středoevropská katolická města — Vídeň, Praha, Lovaň — se stala útočišti pro irský klérus hledající zachování svých řádů a pokračování v teologickém vzdělávání. Irští františkáni, latinsky známí jako Fratres Minores Hiberniae, přijeli do Prahy v roce 1629. Císař Ferdinand II., jenž právě zvítězil v bitvě na Bílé hoře a byl v procesu rekatolizace Čech, je přijal vřele. Poskytl jim pozemek a na něm postavili kostel, který se nakonec stal tímto divadlem.
+
+Barokní kostel, dokončený po etapách v průběhu sedmnáctého a počátku osmnáctého století, sloužil irské komunitě v Praze, dokud císař Josef II. v roce 1786 nerozpustil kláštery jako součást svých osvíceneckých reforem. Budova byla přeměněna na celnici, což vysvětluje blízkost k přilehlému vlakovému nádraží. Tuto funkci plnila po většinu devatenáctého a dvacátého století, než byla zrekonstruována a v roce 2006 znovu otevřena jako hudební divadlo a prostory pro akce. Irští mniši by tuto proměnu nečekali. Pražské publikum ji shledává vynikající.
+
+🥚 Velikonoční vajíčko: Irští františkáni v Praze byli součástí jevu, který historici nazývají "irskými kolejemi" — sítě institucí founded po celé katolické Evropě irskými duchovními a laiky v průběhu šestnáctého až osmnáctého století k zachování irského katolického vzdělání, zatímco bylo doma potlačováno. Koleje existovaly v Lovani, Salamance, Římě, Paříži, Praze a jinde. Nešlo jen o náboženské instituce; vzdělávaly intelektuální a církevní vedení, které se nakonec vrátilo do Irska, nesoucí scholastickou filozofii, protireformační teologii a — klíčově — písemné zachování irského jazyka, poezie a dějin. Čtyři páni, kteří mezi lety 1632 a 1636 sestavili Annály Irského království, pracovali z jedné takové koleje v Lovani. Pražský irský kostel byl součástí téže sítě, která zachránila kulturu.`,
+
+      zh: `勇敢的冒险家，欢迎来到希伯尼亚剧院（Divadlo Hybernia）！
+
+"Hybernia"是"爱尔兰"的拉丁语名称。你面前这座建筑，最初是为爱尔兰方济各会修士建造的巴洛克式教堂与修道院——这些人在17世纪初来到布拉格，不是作为传教士，而是作为难民。在英国新教统治下的爱尔兰，天主教修道团体面临持续的迫害、解散和灭亡的威胁。中欧的天主教城市——维也纳、布拉格、鲁汶——成为爱尔兰神职人员的庇护所，供他们保存教团、延续神学培训。爱尔兰方济各会（拉丁语称Fratres Minores Hiberniae）于1629年抵达布拉格。刚刚赢得白山战役、正在对波西米亚进行重新天主教化的皇帝斐迪南二世热情接待了他们，划拨了一块土地，他们在其上建起了最终成为这座剧院的教堂。
+
+这座巴洛克教堂在17世纪至18世纪初分阶段建成，服务于布拉格的爱尔兰社区，直至1786年皇帝约瑟夫二世作为启蒙改革的一部分解散了修道院。建筑随后被改造为海关大楼（Celnice）——这解释了它紧邻火车站的原因。整个19至20世纪的大部分时间，这座建筑都在执行这项平凡的职能，直到被翻新，并于2006年重新开放为音乐剧院和活动场馆。爱尔兰修士们大概没有预料到这番变故。布拉格观众则认为这极好。
+
+🥚 彩蛋：布拉格的爱尔兰方济各会，是历史学家所称的"爱尔兰学院"（Irish Colleges）现象的组成部分——这是16至18世纪爱尔兰神职人员和俗人在整个天主教欧洲建立的机构网络，目的是在国内教育受压制期间保护爱尔兰天主教教育。学院分布于鲁汶、萨拉曼卡、罗马、巴黎、布拉格等地。这些不仅是宗教机构；它们培养了最终回归爱尔兰的知识和教会领袖，带回了经院哲学、反宗教改革神学，以及——最重要的是——对爱尔兰语言、诗歌和历史的书面保存。"四位大师"在1632至1636年间编纂《爱尔兰王国编年史》时，就在鲁汶的一所此类学院工作。布拉格的爱尔兰教堂，是挽救了一种文化的那个网络的一部分。`,
+    },
+  },
+  {
+    name: 'Jan Palach Memorial — House of the Son and House of the Mother',
+    slug: 'pamatnik-jana-palacha-sousosi',
+    localizedNames: { cz: 'Památník Jana Palacha — sousoší Dům syna a Dům matky', zh: '扬·帕拉赫纪念碑——子之家与母之家' },
+    labels: ['monument', 'historical', 'landmark'],
+    coordinates: { lat: 50.08880631596714, lng: 14.414129818434814 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Jan Palach Memorial — the sculpture group "Dům syna a Dům matky" (House of the Son and House of the Mother)!
+
+On January 16, 1969 — three months and twenty-four days after Soviet tanks had entered Prague to end the Prague Spring — a twenty-year-old first-year student at Charles University's Faculty of Arts walked to Wenceslas Square and set himself on fire. Jan Palach had prepared the act deliberately. He died of his burns on January 19. His stated purpose was to shock Czechoslovak society out of what he feared was the beginning of passive acceptance — the slow psychological surrender to normalisation that would characterise the next two decades. His death shocked it. Whether it prevented the surrender is more complicated.
+
+The sculpture group by Olbram Zoubek — who had made Palach's death mask in 1969 and carried the memory of that act for the rest of his long life — consists of two house-shaped forms facing each other across a small space: the Dům syna (House of the Son) and the Dům matky (House of the Mother). The forms are simple and severe. They do not illustrate anything. They hold a space of grief and witness between them. Zoubek was one of the most significant Czech sculptors of the twentieth century, whose refusal to cooperate with the Communist regime cost him decades of official recognition; his memorial to Palach is among the most quietly powerful works of public art in the city.
+
+🥚 Easter Egg: The Communist authorities worked systematically to erase Palach's memory. In 1973, his body was exhumed without his family's consent and cremated; his remains were sent to his mother with instructions not to display them publicly. The square in front of his Faculty of Arts building — previously named Náměstí Krasnoarmejců (Red Army Square) — had been renamed Jan Palach Square in 1969, but the regime changed it back. It was renamed again in 1989. In August 1988, Palach's original grave in Všetaty became a site of pilgrimage; the authorities attempted to prevent commemoration there and failed. Memory, in Czechoslovakia, proved more durable than the state that tried to manage it.`,
+
+      cz: `Statečný dobrodruhu, vítej u Památníku Jana Palacha — sousoší Dům syna a Dům matky!
+
+Dne 16. ledna 1969 — tři měsíce a dvacet čtyři dní poté, co sovětské tanky vstoupily do Prahy, aby ukončily Pražské jaro — přešel dvacetiletý student prvního ročníku Filozofické fakulty Karlovy univerzity na Václavské náměstí a zapálil se. Jan Palach tento čin předem pečlivě připravil. Zemřel na popáleniny 19. ledna. Jeho deklarovaným záměrem bylo šokovat československou společnost z toho, co se obával jako počátek pasivního smíření — pomalého psychologického podléhání normalizaci, která charakterizovala příštích dvacet let. Jeho smrt společností otřásla. Zda zabránila oné kapitulaci, je složitější otázka.
+
+Sousoší Olbrama Zoubka — jenž v roce 1969 zhotovil Palachovu posmrtnou masku a nesl vzpomínku na ten čin po celý zbytek svého dlouhého života — sestává ze dvou domčekových tvarů obrácených k sobě přes malý prostor: Dům syna a Dům matky. Tvary jsou jednoduché a přísné. Nic nezobrazují. Drží mezi sebou prostor smutku a svědectví. Zoubek byl jedním z nejvýznamnějších českých sochařů dvacátého století, jehož odmítnutí spolupráce s komunistickým režimem ho stálo desítky let oficiálního uznání; jeho památník Palachovi patří k nejtiše silnějším dílům veřejného umění ve městě.
+
+🥚 Velikonoční vajíčko: Komunistické úřady systematicky pracovaly na vymazání Palachovy paměti. V roce 1973 bylo jeho tělo bez souhlasu rodiny exhumováno a zpopelněno; pozůstatky byly zaslány jeho matce s příkazem nevystavovat je veřejně. Náměstí před jeho Filozofickou fakultou — dříve pojmenované Náměstí Krasnoarmějců — bylo v roce 1969 přejmenováno na náměstí Jana Palacha, ale režim ho přejmenoval zpět. Bylo přejmenováno znovu v roce 1989. V srpnu 1988 se Palachův původní hrob ve Všetatech stal místem pouti; úřady se pokusily zamezit uctívání památky tam a nepodařilo se jim to. Paměť, v Československu, se ukázala jako odolnější než stát, který ji pokoušel řídit.`,
+
+      zh: `勇敢的冒险家，欢迎来到扬·帕拉赫纪念碑——"子之家与母之家"雕塑群（Památník Jana Palacha — sousoší Dům syna a Dům matky）！
+
+1969年1月16日——在苏联坦克进入布拉格终结布拉格之春后的第三个月零二十四天——查理大学哲学系一年级的二十岁学生走到瓦茨拉夫广场，点火自焚。扬·帕拉赫（Jan Palach）是经过深思熟虑之后实施这一行动的。他于1月19日因烧伤身亡。他声明的目的是震醒捷克斯洛伐克社会，将其从他所担忧的被动接受的开端中唤醒——那种将在未来二十年里主宰这个国家的、对"正常化"的缓慢心理屈服。他的死震撼了这个社会。它是否阻止了那场屈服，是个更为复杂的问题。
+
+雕塑群出自奥尔布拉姆·佐伯克（Olbram Zoubek）之手——他在1969年为帕拉赫制作了死亡面模，并将那一时刻的记忆携带了一生——由两个面对面、相隔一小段距离的房屋形态组成：子之家（Dům syna）与母之家（Dům matky）。造型简洁而庄严。它们不描绘任何东西。它们在彼此之间守护着一片悲恸与见证的空间。佐伯克是20世纪最重要的捷克雕塑家之一，他拒绝与共产党政权合作的立场使他付出了数十年官方认可的代价；他为帕拉赫创作的这件纪念作品，是这座城市中最安静有力的公共艺术作品之一。
+
+🥚 彩蛋：共产党当局系统性地致力于抹去帕拉赫的记忆。1973年，他的遗体在未经家属同意的情况下被秘密挖出并火化；骨灰被送交其母，并附带指示，不得公开展示。他所在的哲学系门前的广场——原名"红军战士广场"（Náměstí Krasnoarmejců）——曾在1969年被更名为扬·帕拉赫广场，但政权随后又改了回去。1989年，广场再次更名。1988年8月，帕拉赫在全塞塔蒂（Všetaty）的原墓地成为朝圣之所；当局试图阻止那里的纪念活动，并未成功。在捷克斯洛伐克，记忆被证明比试图管控它的国家更为持久。`,
+    },
+  },
+  {
+    name: 'Klausen Synagogue',
+    slug: 'klausova-synagoga',
+    localizedNames: { cz: 'Klausová synagoga', zh: '克劳斯犹太会堂' },
+    labels: ['church', 'historical', 'museum'],
+    coordinates: { lat: 50.08996153954905, lng: 14.417203828590779 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Klausová synagoga — the Klausen Synagogue!
+
+The name "Klausen" comes from the German word for small buildings — klause. The original klausen on this site were a cluster of small school buildings and a hospital founded in the mid-sixteenth century by Rabbi Jehuda Löw ben Bezalel, known as the Maharal of Prague, who ran a yeshiva here. After a catastrophic fire swept through the ghetto in 1689, the existing buildings were demolished and the current synagogue was built in 1694 — one of the largest and most elaborately decorated in the Jewish Quarter. It has remained in continuous use as a place of Jewish religious life and, since the mid-twentieth century, as an educational space within the Jewish Museum in Prague.
+
+Rabbi Löw (c. 1520–1609) is one of the most famous figures associated with Jewish Prague, though his fame rests largely on a story he would not have recognised. He is the Maharal — master, teacher, religious authority, writer of important works on Talmudic interpretation, and a genuinely significant figure in the intellectual history of Central European Judaism. He is also, by legend, the creator of the Golem: an animated figure of clay, brought to life with the word "emet" (truth) inscribed on its forehead, created to protect the Jews of the ghetto from persecution, and deactivated by removing the first letter to leave "met" — death. The legend has no historical basis. It grew in the telling across two centuries before being fully elaborated in the Romantic period. Prague adopted it with total commitment. The real Rabbi Löw, whose actual scholarship was extraordinary, sometimes seems to struggle for attention against his own golem.
+
+🥚 Easter Egg: The Jewish Museum in Prague, of which this synagogue is a part, was established in 1906 to preserve objects from synagogues being demolished during the controversial urban "sanitation" of Josefov (1893–1913), when the city razed most of the medieval Jewish Quarter and replaced it with new boulevards and Art Nouveau apartment buildings. During the Nazi occupation, the museum continued to operate — the Nazi administration intended it as a Museum of an Extinct Race. The Jewish curators who ran it under those conditions preserved not just objects, but the systematic record of a community the occupiers intended to destroy. The museum survived, as did its collections. Of the approximately 80,000 Czech Jews deported during the occupation, fewer than 10,000 survived. The museum now carries both the weight of that loss and the improbable fact of its own continuity.`,
+
+      cz: `Statečný dobrodruhu, vítej v Klausové synagoze!
+
+Název "Klausen" pochází z německého slova pro malé budovy — klause. Původní klausy na tomto místě byl soubor malých školních budov a nemocnice founded v polovině šestnáctého století rabínem Jehudou Löwem ben Bezalelem, známým jako Maharal pražský, který zde provozoval ješivu. Po katastrofickém požáru, který zachvátil ghetto v roce 1689, byly stávající budovy zbořeny a současná synagoga byla postavena v roce 1694 — jedna z největších a nejbohatěji zdobených v Židovském Městě. Sloužila nepřetržitě jako místo židovského náboženského života a od poloviny dvacátého století jako vzdělávací prostor v rámci Židovského muzea v Praze.
+
+Rabín Löw (cca 1520–1609) je jednou z nejslavnějších postav spojených s židovskou Prahou, ačkoli jeho sláva spočívá z velké části na příběhu, který by nerozpoznal. Je to Maharal — mistr, učitel, náboženská autorita, autor důležitých děl o talmudické interpretaci a skutečně významná postava v intelektuálních dějinách středoevropského judaismu. Je také podle legendy stvořitelem Golema: oživené hliněné postavy, přivedené k životu slovem "emet" (pravda) napsaným na čele, vytvořené k ochraně Židů ghetta před pronásledováním a deaktivované odstraněním prvního písmene, aby zbylo "met" — smrt. Legenda nemá historický základ. Rostla v převypravování přes dvě staletí, než byla plně zpracována v romantickém období. Praha ji přijala s naprostým odhodláním. Skutečný rabín Löw, jehož skutečná učenost byla mimořádná, někdy jako by zápasil o pozornost se svým vlastním Golemem.
+
+🥚 Velikonoční vajíčko: Židovské muzeum v Praze, jehož součástí je tato synagoga, bylo founded v roce 1906 k zachování předmětů ze synagog bourán­ých v průběhu kontroverzní "sanitace" Josefova (1893–1913), kdy město srovnalo se zemí většinu středověkého Židovského Města a nahradilo ho novými bulváry a secesními bytovými domy. Za nacistické okupace bylo muzeum udržováno v provozu — nacistická správa ho zamýšlela jako Muzeum vyhynulé rasy. Židovští kurátoři, kteří za těchto podmínek muzeum vedli, zachovávali nejen předměty, ale systematický záznam komunity, kterou okupanti zamýšleli zničit. Muzeum přežilo, stejně jako jeho sbírky. Z přibližně 80 000 českých Židů deportovaných za okupace přežilo méně než 10 000. Muzeum dnes nese jak tíhu té ztráty, tak nepravděpodobný fakt vlastní kontinuity.`,
+
+      zh: `勇敢的冒险家，欢迎来到克劳斯犹太会堂（Klausová synagoga）！
+
+"Klausen"这个名字来自德语中表示小建筑的词——klause。这里最初的"克劳斯"是一组小型学校建筑和一座医院，由布拉格的大拉比耶胡达·洛夫·本·别匝列尔（Jehuda Löw ben Bezalel）——即著名的"布拉格马哈拉尔"（Maharal）——在16世纪中期创立，他在这里开设犹太学院（yeshiva）。1689年，一场灾难性的大火席卷了犹太区，原有建筑被夷平，现存的会堂于1694年建成——是约瑟夫区规模最大、装饰最为精美的会堂之一。此后它持续作为犹太宗教生活的场所，并自20世纪中叶起成为布拉格犹太博物馆的组成部分，承担教育功能。
+
+拉比洛夫（约1520—1609年）是与犹太布拉格相关的最著名人物之一，尽管他的声誉在很大程度上建立在一个他本人根本不会认得的故事上。他是马哈拉尔——老师、宗教权威、塔木德解释的重要著作作者，以及中欧犹太思想史上真正举足轻重的人物。而根据传说，他也是哥连（Golem）的创造者：一个用泥土塑成的活物，以刻在额头上的"emet"（真理）一词获得生命，为保护犹太区居民免遭迫害而生，通过抹去第一个字母留下"met"（死亡）而被停止。这个传说毫无历史依据，在两个世纪的口耳相传中不断生长，直到浪漫主义时期才被完整成型。布拉格以全情投入的方式接纳了这个传说。真实的拉比洛夫——他的学问在当时真正令人叹为观止——有时似乎在与自己的哥连争夺人们的注意力。
+
+🥚 彩蛋：布拉格犹太博物馆于1906年创立，旨在保存约瑟夫区"卫生改造"（1893—1913年）期间被拆除会堂中的文物——那场改造将中世纪犹太区的大部分夷为平地，代之以新的林荫大道和新艺术风格公寓楼。纳粹占领期间，博物馆被维持运转——纳粹当局意图将其打造为"一个已灭绝种族的博物馆"。在这种情境下坚持运营博物馆的犹太策展人，保存的不只是物件，而是占领者意图摧毁的那个群体的系统性记录。博物馆幸存了，它的藏品也幸存了。占领期间被驱逐的约8万名捷克犹太人中，幸存者不足1万人。博物馆如今承载着那场失去的沉重，以及它自身延续这一令人难以置信的事实。`,
+    },
+  },
 ];
 
 async function run() {
@@ -865,12 +1262,12 @@ async function run() {
     try {
       const result = await Location.findOneAndUpdate(
         { slug: data.slug },
-        { $set: data },
+        { $setOnInsert: data },
         { upsert: true, new: true }
       );
       const wasNew = result.createdAt.getTime() === result.updatedAt.getTime();
       if (wasNew) { console.log(`ADD    ${data.slug}`); added++; }
-      else         { console.log(`UPDATE ${data.slug}`); updated++; }
+      else         { console.log(`SKIP   ${data.slug}`); }
     } catch (err) {
       console.log(`FAIL   ${data.slug} — ${err.message}`);
       failed++;

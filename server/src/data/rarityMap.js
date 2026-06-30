@@ -160,6 +160,13 @@ export const SLUG_RARITY = {
   'kostel-sv-havla':              'rare',
   'celetna':                      'rare',
   'strahov-monastery-church':     'rare',
+  'holesovicky-pivovar':          'rare',
+  'u-zlateho-tygra':              'rare',
+  'hrzansky-palac':               'rare',
+  'husuv-sbor-vrsovice':          'rare',
+  'divadlo-hybernia':             'rare',
+  'pamatnik-jana-palacha-sousosi':'rare',
+  'klausova-synagoga':            'rare',
 };
 
 export function getRarity(slug) {
