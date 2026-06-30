@@ -6,12 +6,14 @@ import { LABEL_DEFINITIONS } from '../utils/pixelArtMap';
 import { RARITY_COLOR, RARITY_LABEL } from '../utils/rarity';
 import ProgressRing from '../components/dashboard/ProgressRing';
 import AchievementBadge from '../components/dashboard/AchievementBadge';
+import { useWakeLock } from '../hooks/useWakeLock';
 
 export default function DashboardPage() {
   const { user, guest }  = useAuth();
   const t                = useT();
   const { lang }         = useLang();
   const convert          = useConvert();
+  const wakeLock         = useWakeLock();
   const [progress, setProgress] = useState(null);
   const [achData, setAchData]   = useState(null);
   const [selectedAch, setSelectedAch] = useState(null);
@@ -23,7 +25,7 @@ export default function DashboardPage() {
       .finally(() => setLoading(false));
   }, []);
 
-  if (loading) return (
+  if (loading || !progress || !achData) return (
     <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <div className="spinner" />
     </div>
@@ -179,6 +181,31 @@ export default function DashboardPage() {
         {achievements.map(ach => (
           <AchievementBadge key={ach.id} achievement={ach} onClick={() => setSelectedAch(ach)} />
         ))}
+      </div>
+
+      {/* Wake lock toggle */}
+      <div style={{ marginTop: 28, display: 'flex', justifyContent: 'flex-end' }}>
+        {wakeLock.supported ? (
+          <button
+            onClick={wakeLock.toggle}
+            style={{
+              display: 'flex', alignItems: 'center', gap: 8,
+              background: wakeLock.active ? 'rgba(255,215,0,0.12)' : 'var(--bg-card)',
+              border: `2px solid ${wakeLock.active ? 'var(--gold)' : '#444'}`,
+              color: wakeLock.active ? 'var(--gold)' : 'var(--text-muted)',
+              padding: '8px 14px',
+              cursor: 'pointer',
+              fontSize: 13,
+              fontFamily: 'inherit',
+              transition: 'all 0.15s',
+            }}
+          >
+            <span style={{ fontSize: 16 }}>{wakeLock.active ? '☀' : '🌙'}</span>
+            <span>{convert(wakeLock.active ? t('dashboard.wakeLockActive') : t('dashboard.wakeLockEnable'))}</span>
+          </button>
+        ) : (
+          <span style={{ fontSize: 12, color: '#555' }}>{convert(t('dashboard.wakeLockUnsupported'))}</span>
+        )}
       </div>
 
       {/* Achievement detail modal */}

@@ -3,6 +3,15 @@ import { locationAPI } from '../services/api';
 import { haversineDistance, setCachedPosition } from '../utils/geolocation';
 import { getLocName } from '../utils/locName';
 
+let _toTW = null;
+async function convertTW(str) {
+  if (!_toTW) {
+    const OpenCC = await import('opencc-js');
+    _toTW = OpenCC.Converter({ from: 'cn', to: 'tw' });
+  }
+  return _toTW(str);
+}
+
 const RADIUS = 100; // metres
 
 const NOTIF_STRINGS = {
@@ -15,22 +24,32 @@ async function fireNotification(location) {
   if (!('Notification' in window) || Notification.permission !== 'granted') return;
   try {
     const lang = localStorage.getItem('lang') || 'en';
+    const zhVariant = localStorage.getItem('zhVariant') || 'cn';
     const strings = NOTIF_STRINGS[lang] || NOTIF_STRINGS.en;
     const zhName = location.localizedNames?.zh || location.name;
     const czName = location.localizedNames?.cz || location.name;
-    const name = lang === 'zh'
-      ? `${zhName}（${czName}）`
-      : getLocName(location, lang);
+    let title = strings.title;
+    let name;
+    if (lang === 'zh') {
+      if (zhVariant === 'tw') {
+        title = await convertTW(title);
+        name = `${await convertTW(zhName)}（${czName}）`;
+      } else {
+        name = `${zhName}（${czName}）`;
+      }
+    } else {
+      name = getLocName(location, lang);
+    }
     const reg = await navigator.serviceWorker?.ready;
     if (reg?.showNotification) {
-      await reg.showNotification(strings.title, {
+      await reg.showNotification(title, {
         body: strings.body(name),
         icon: '/pixel-art/prague-castle.webp',
         tag: `proximity-${location.slug}`,
         data: { slug: location.slug },
       });
     } else {
-      new Notification(strings.title, {
+      new Notification(title, {
         body: strings.body(name),
         icon: '/pixel-art/prague-castle.webp',
         tag: `proximity-${location.slug}`,
