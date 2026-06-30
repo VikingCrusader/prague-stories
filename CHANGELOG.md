@@ -4,6 +4,16 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.7.1] — 2026-06-30
+
+**Feat: zoom-scaled map markers and user position dot**
+
+- `CircleMarker` radius scales with zoom via lookup table: zoom 11→1 px, 13→3 px, 15→6 px, 17→10 px; selected markers get +3 px
+- User's GPS position shown as a red dot (white border, base+4 px) on the map, scales with zoom; hidden when GPS is unavailable
+- Extracted `Markers` child component inside `MapContainer` to enable `useMapEvents` and `useUserPosition` hooks
+
+---
+
 ## [1.7.0] — 2026-06-30
 
 **Feat: notification tap-to-checkin; Google Cloud Translation; Recently Collected sort; 14 new cards**

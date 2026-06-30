@@ -75,7 +75,8 @@ Six tiers modelled on trading-card games, visible on every card border and diamo
 
 ### Interactive Map
 
-- Leaflet map with gold (collected) and grey (locked) markers
+- Leaflet map with gold (collected) and grey (locked) markers; marker radius scales with zoom (1–10 px)
+- User's GPS position shown as a red dot, scales with zoom
 - Sidebar shows square pixel art banner + "View Detail" button opening the full location modal
 - Rarity filter available in the sidebar
 

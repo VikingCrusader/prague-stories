@@ -53,18 +53,13 @@ The app will ask to use your location. Say yes. This is how it knows you are act
 
 ### The Map
 
-Your command centre. Every location in the city is pinned here.
+Your command centre. Every location in the city is pinned here. Your position is shown as a red dot. Marker circles scale with zoom — small at city level, larger as you drill in to street level.
 
-The map watches your position in real time. When you walk within **100 metres** of an unvisited location, a gold prompt rises from the bottom of the screen like a treasure chest surfacing from the Vltava:
+The map watches your position in real time. When you walk within **100 metres** of an unvisited location, an OS notification fires — visible even if you are in another app or have the screen off (Android; iOS requires the PWA to be open in the background).
 
-```
-NEARBY QUEST
-You are near [Location Name]. Check in?
-```
+Tap the notification. The app checks you in automatically and opens the location card. No further action required.
 
-Tap **Check In**. Collect your XP. Feel briefly like a hero. Continue walking.
-
-If you dismiss the prompt and walk away, it will not judge you. It will just remember.
+Each location is notified at most once per session.
 
 ### The Explore Grid
 
@@ -105,8 +100,14 @@ Your character sheet. Contains:
 
 ## How Check-In Actually Works
 
+**Via proximity notification (automatic):**
+1. Walk within 100 m of an unvisited location.
+2. Tap the OS notification.
+3. Done — the app checks you in and opens the card. XP lands. Achievements may trigger.
+
+**Via Explore grid (manual):**
 1. You go to the location. Physically. With your body.
-2. Open the location detail (from the map prompt, or from the Explore grid).
+2. Open the location detail from the Explore grid.
 3. Tap **Check In**.
 4. The app silently requests your GPS coordinates.
 5. The server checks whether you are actually within range of the location.
