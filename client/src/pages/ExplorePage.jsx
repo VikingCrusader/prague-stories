@@ -15,11 +15,12 @@ let toastId = 0;
 export default function ExplorePage() {
   const t = useT();
   const { guest } = useAuth();
-  const { state } = useLocation();
+  const { state, search } = useLocation();
   const navigate = useNavigate();
   const userPos                          = useUserPosition();
   const [locations, setLocations]       = useState([]);
   const [selectedSlug, setSelectedSlug] = useState(null);
+  const [autoCheckIn, setAutoCheckIn]   = useState(false);
   const [showAdd, setShowAdd]           = useState(false);
   const [loading, setLoading]           = useState(true);
   const [toasts, setToasts]             = useState([]);
@@ -31,18 +32,22 @@ export default function ExplorePage() {
   }, []);
 
   useEffect(() => {
-    const handler = (e) =>
-      setLocations(prev => prev.map(l => l.slug === e.detail.slug ? { ...l, unlocked: true } : l));
-    window.addEventListener('proximity-checkin', handler);
-    return () => window.removeEventListener('proximity-checkin', handler);
-  }, []);
-
-  useEffect(() => {
     if (state?.openSlug) {
       setSelectedSlug(state.openSlug);
+      setAutoCheckIn(!!state.autoCheckIn);
       navigate('.', { replace: true, state: null });
     }
   }, [state?.openSlug]);
+
+  useEffect(() => {
+    const params = new URLSearchParams(search);
+    const checkinSlug = params.get('checkin');
+    if (checkinSlug) {
+      setSelectedSlug(checkinSlug);
+      setAutoCheckIn(true);
+      navigate('.', { replace: true, search: '' });
+    }
+  }, []);
 
   const addToast = useCallback((message, type = 'success') => {
     const id = ++toastId;
@@ -114,10 +119,11 @@ export default function ExplorePage() {
       {selectedSlug && (
         <LocationDetail
           slug={selectedSlug}
-          onClose={() => setSelectedSlug(null)}
+          onClose={() => { setSelectedSlug(null); setAutoCheckIn(false); }}
           onCheckIn={handleCheckIn}
           onUndo={handleUndo}
           onUpdate={handleUpdate}
+          autoCheckIn={autoCheckIn}
         />
       )}
 

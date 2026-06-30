@@ -1,24 +1,33 @@
-import { useState, useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { locationAPI } from '../services/api';
 import { haversineDistance, setCachedPosition } from '../utils/geolocation';
 
 const RADIUS = 100; // metres
 
-function fireNotification(location) {
+async function fireNotification(location) {
   if (!('Notification' in window) || Notification.permission !== 'granted') return;
   try {
-    new Notification('★ Discovery!', {
-      body: `You found ${location.name}! Open the app to collect.`,
-      icon: '/pixel-art/prague-castle.webp',
-      tag: `proximity-${location.slug}`,
-    });
+    const reg = await navigator.serviceWorker?.ready;
+    if (reg?.showNotification) {
+      await reg.showNotification('★ Discovery!', {
+        body: `You found ${location.name}! Tap to collect.`,
+        icon: '/pixel-art/prague-castle.webp',
+        tag: `proximity-${location.slug}`,
+        data: { slug: location.slug },
+      });
+    } else {
+      new Notification('★ Discovery!', {
+        body: `You found ${location.name}! Open the app to collect.`,
+        icon: '/pixel-art/prague-castle.webp',
+        tag: `proximity-${location.slug}`,
+      });
+    }
   } catch (_) {}
 }
 
 export function useProximityDetection(enabled) {
-  const [discovery, setDiscovery] = useState(null); // { location, coords }
-  const dismissedRef  = useRef(new Set());
-  const locationsRef  = useRef([]);
+  const dismissedRef = useRef(new Set());
+  const locationsRef = useRef([]);
 
   useEffect(() => {
     if (!enabled) return;
@@ -49,7 +58,6 @@ export function useProximityDetection(enabled) {
 
         if (nearest) {
           dismissedRef.current.add(nearest.slug);
-          setDiscovery({ location: nearest, coords: { lat, lng } });
           fireNotification(nearest);
         }
       },
@@ -59,17 +67,4 @@ export function useProximityDetection(enabled) {
 
     return () => navigator.geolocation.clearWatch(watchId);
   }, [enabled]);
-
-  const dismiss = () => setDiscovery(null);
-
-  const markCheckedIn = (slug) => {
-    locationsRef.current = locationsRef.current.map(l =>
-      l.slug === slug ? { ...l, unlocked: true } : l
-    );
-    // Only clear discovery if it's still for this slug — a new location may
-    // have already been detected while the 2.5s XP display was running
-    setDiscovery(prev => (prev?.location?.slug === slug ? null : prev));
-  };
-
-  return { discovery, dismiss, markCheckedIn };
 }

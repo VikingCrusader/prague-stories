@@ -69,7 +69,11 @@ export async function getLocation(req, res, next) {
 
     if (!location.description.en || !location.description.cz || !location.description.zh) {
       try {
-        const desc = await generateLocationDescription(location.name, location.labels?.[0] || 'architecture');
+        const desc = await generateLocationDescription(
+          location.name,
+          location.labels?.[0] || 'architecture',
+          location.description.en || null
+        );
         const patch = {};
         if (!location.description.en && desc.en) patch['description.en'] = desc.en;
         if (!location.description.cz && desc.cz) patch['description.cz'] = desc.cz;

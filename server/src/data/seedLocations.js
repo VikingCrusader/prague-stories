@@ -1252,6 +1252,273 @@ Rabín Löw (cca 1520–1609) je jednou z nejslavnějších postav spojených s 
 🥚 彩蛋：布拉格犹太博物馆于1906年创立，旨在保存约瑟夫区"卫生改造"（1893—1913年）期间被拆除会堂中的文物——那场改造将中世纪犹太区的大部分夷为平地，代之以新的林荫大道和新艺术风格公寓楼。纳粹占领期间，博物馆被维持运转——纳粹当局意图将其打造为"一个已灭绝种族的博物馆"。在这种情境下坚持运营博物馆的犹太策展人，保存的不只是物件，而是占领者意图摧毁的那个群体的系统性记录。博物馆幸存了，它的藏品也幸存了。占领期间被驱逐的约8万名捷克犹太人中，幸存者不足1万人。博物馆如今承载着那场失去的沉重，以及它自身延续这一令人难以置信的事实。`,
     },
   },
+  {
+    name: 'Jindřišská Tower',
+    slug: 'jindrisska-vez',
+    localizedNames: { cz: 'Jindřišská věž', zh: '圣亨利钟楼' },
+    labels: ['tower', 'historical', 'architecture'],
+    coordinates: { lat: 50.08512498730844, lng: 14.430089087468694 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Jindřišská věž — the Tower of St. Henry!
+
+Standing 65 metres tall in the heart of the New Town, the Jindřišská Tower is one of Prague's most distinctive Gothic constructions and one of the few surviving free-standing bell towers in the country. It was built between 1455 and 1475 as the bell tower of the adjacent Church of St. Henry and St. Cunigunde — which explains the unusual spatial arrangement: tower and church stand apart from each other rather than integrated, a medieval decision that has given this corner of the New Town its particular vertical punctuation for over five centuries. The tower can be climbed, with a small museum occupying several of its twelve floors and a café with views over the New Town at the top.
+
+The tower has lived multiple lives since its construction. It has housed a watchman, a prison, and a mechanism for pumping water into the city. It was damaged by Prussian bombardment in 1757 during the Seven Years' War and by a catastrophic fire in 1879. Each time it was rebuilt. The bells — the original reason for its existence — have continued to mark the hours across the centuries, accompanying the New Town through its transformation from a medieval settlement to a nineteenth-century bourgeois neighbourhood to the commercial centre it is today.
+
+🥚 Easter Egg: The Church of St. Henry and St. Cunigunde, to which this tower belongs, was founded by Emperor Charles IV in 1348 as part of his comprehensive plan for the New Town — a district he designed from scratch at a scale and speed that has no real parallel in medieval urban history. Charles IV laid out the New Town with extraordinary geometric precision, positioning churches, squares, and streets according to an intentional plan. If Jindřišská Tower looks like it was placed deliberately, it is because it was — as a punctuation mark in a city that was being written from the top down by an emperor with unusually strong opinions about urban form.`,
+
+      cz: `Statečný dobrodruhu, vítej v Jindřišské věži!
+
+Jindřišská věž tyčící se 65 metrů do nebe v srdci Nového Města je jednou z nejcharakterističtějších gotických staveb Prahy a jednou z mála dochovaných volně stojících zvonic v zemi. Byla postavena v letech 1455 až 1475 jako zvonice přilehlého Kostela sv. Jindřicha a sv. Kunhuty — což vysvětluje neobvyklé prostorové uspořádání: věž a kostel stojí odděleně, nikoli integrovaně, středověké rozhodnutí, které dalo tomuto rohu Nového Města jeho charakteristickou vertikální interpunkci po více než pět staletí. Věž lze vylézt, přičemž malé muzeum obsazuje několik z jejích dvanácti podlaží a kavárna s výhledem nad střechy Nového Města vrcholí v jejím vršku.
+
+Věž od svého vzniku žila mnoha životy. Sloužila jako sídlo strážce, věznice a jako mechanismus pro čerpání vody do města. Byla poškozena pruským bombardováním roku 1757 za sedmileté války a katastrofickým požárem roku 1879. Pokaždé byla znovu vybudována. Zvony — původní důvod její existence — pokračovaly ve vyzvánění hodin po staletí, provázejíce Nové Město jeho proměnou z středověkého sídliště na měšťanskou čtvrť devatenáctého století a na dnešní obchodní centrum.
+
+🥚 Velikonoční vajíčko: Kostel sv. Jindřicha a sv. Kunhuty, k němuž tato věž patří, byl founded císařem Karlem IV. roku 1348 jako součást jeho komplexního plánu pro Nové Město — čtvrť, kterou navrhl od základu v měřítku a rychlosti, které nemají v středověkých dějinách urbanismu skutečnou paralelu. Karel IV. vytyčil Nové Město s mimořádnou geometrickou přesností, umísťující kostely, náměstí a ulice podle záměrného plánu. Pokud Jindřišská věž vypadá, jako by byla umístěna záměrně, je to proto, že tomu tak skutečně bylo — jako interpunkční znaménko ve městě, které bylo psáno shora dolů císařem s neobvykle silnými názory na urbanistickou formu.`,
+
+      zh: `勇敢的冒险家，欢迎来到英德日什斯卡塔——圣亨利钟楼（Jindřišská věž）！
+
+这座65米高的哥特式钟楼矗立于新城（Nové Město）中心，是布拉格最具特色的哥特式建筑之一，也是捷克境内为数不多保存完好的独立式钟楼之一。它建于1455至1475年间，最初是邻近的圣亨利与圣昆胡塔教堂的钟楼——这解释了其不同寻常的空间布局：钟楼与教堂分离而立而非融为一体，这一中世纪的空间决策在五百多年间为新城的这个角落提供了独特的竖向标点。塔内设有小型博物馆占据十二层中的数层，顶部咖啡厅可俯瞰新城屋顶。
+
+自建成以来，这座塔历经多种功能：曾作为守望人的居所、监狱，以及向城市泵水的机械装置。1757年七年战争期间遭到普鲁士炮击，1879年又经历了一场毁灭性大火，每次都得以重建。钟声——这座塔存在的原始理由——几个世纪来持续报时，陪伴着新城从中世纪聚落蜕变为19世纪的市民街区，再到今日的商业中心。
+
+🥚 彩蛋：钟楼所属的圣亨利与圣昆胡塔教堂，由查理四世皇帝于1348年作为他的新城综合规划的一部分而创立——这是一个他从零开始设计的城区，其规模和速度在中世纪城市史上无出其右。查理四世以非凡的几何精度规划新城，按照一套有意为之的方案安置教堂、广场和街道。圣亨利钟楼之所以看起来像是被刻意放置于此，正是因为它确实如此——作为一座城市的标点符号，这座城市是由一位对城市形态有着异常强烈主张的皇帝自上而下书写的。`,
+    },
+  },
+  {
+    name: "Kafka's House",
+    slug: 'kafkuv-dum',
+    localizedNames: { cz: 'Kafkův dům', zh: '卡夫卡故居' },
+    labels: ['historical', 'cultural', 'architecture'],
+    coordinates: { lat: 50.087975464664126, lng: 14.419165872675462 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Kafkův dům — the birthplace of Franz Kafka!
+
+Franz Kafka was born on July 3, 1883, in a house that no longer exists. The original building, which stood at the corner of Maiselova and Kaprova streets on the edge of the Jewish Quarter, was demolished during the "sanitation" of Josefov — the controversial urban renewal of 1893–1913 that razed most of the medieval Jewish Town and replaced it with new Art Nouveau boulevards. The current building at Náměstí Franze Kafky 3, marked by a small bust and plaque, dates from around 1902. The city did not keep the house where Kafka was born. The city kept the address.
+
+Kafka spent almost his entire life in Prague, moving through a sequence of apartments across the Old Town and Josefov. He studied law at Charles University, worked as a claims assessor at the Workers' Accident Insurance Institute, and wrote — in German, the language of Prague's Jewish intellectual class — the novels and stories that would make him one of the most read writers of the twentieth century. He published almost nothing in his lifetime. He left instructions for his friend and executor Max Brod to burn all his unpublished manuscripts after his death. Brod declined. This is possibly the most consequential act of literary disobedience in history.
+
+🥚 Easter Egg: "Prague doesn't let go," Kafka wrote to a friend in 1902. "This little mother has claws." He spent years considering departure — Jerusalem, Berlin, Vienna recur in his letters — and repeatedly did not leave. The city appears in his work not as a recognisable place but as atmosphere: a Castle unreachable across a valley, a Court operating by logic no one can identify, a Penal Colony running on rules no one questions. Scholars have argued for a century about whether these are political allegories, existential parables, or prophetic horror. The answer is probably all three simultaneously, and the city that produced them is probably the same.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kafkově domě — rodišti Franze Kafky!
+
+Franz Kafka se narodil 3. července 1883 v domě, který už neexistuje. Původní budova stojící na rohu Maiselovy a Kaprovy ulice na okraji Židovského Města byla zbořena během "sanace" Josefova — kontroverzní asanace z let 1893–1913, která srovnala se zemí většinu středověkého Židovského Města a nahradila ho novými secesními bulváry. Současná budova na náměstí Franze Kafky 3, označená malou bustou a pamětní deskou, pochází přibližně z roku 1902. Město si nedochovalo dům, kde se Kafka narodil. Město si uchovalo adresu.
+
+Kafka strávil téměř celý svůj život v Praze, přecházeje přes sled bytů po Starém Městě a Josefově. Studoval práva na Karlově univerzitě, pracoval jako likvidátor pojistných událostí v Dělnické úrazové pojišťovně a psal — německy, jazykem pražské židovské intelektuální třídy — romány a povídky, které z něj udělaly jednoho z nejčtenějších spisovatelů dvacátého století. Za svého života nepublikoval téměř nic. Svému příteli a vykonavateli závěti Maxu Brodovi zanechal pokyny, aby po jeho smrti spálil všechny nevydané rukopisy. Brod odmítl. Toto je možná nejzásadnější akt literární neposlušnosti v dějinách.
+
+🥚 Velikonoční vajíčko: "Praha nepouští," napsal Kafka příteli roku 1902. "Tato malá matička má drápy." Léta uvažoval o odchodu — Jeruzalém, Berlín, Vídeň se opakují v jeho dopisech — a opakovaně neodjel. Město se v jeho díle neobjevuje jako rozpoznatelné místo, ale jako atmosféra: Hrad nedosažitelný přes údolí, Soud fungující podle logiky, kterou nikdo nedokáže identifikovat, Trestanecká kolonie provozující pravidla, která nikdo nezpochybňuje. Badatelé se sto let přou o to, zda jde o politické alegorie, existenciální podobenství nebo prorocký horor. Odpověď je pravděpodobně všechno tři současně, a město, které je vyprodukovalo, je pravděpodobně stejné.`,
+
+      zh: `勇敢的冒险家，欢迎来到卡夫卡故居（Kafkův dům）——弗兰茨·卡夫卡的出生地！
+
+弗兰茨·卡夫卡（Franz Kafka）于1883年7月3日出生在一栋已不复存在的房子里。那栋原始建筑曾矗立在迈瑟洛娃街（Maiselova）和卡普洛娃街（Kaprova）的交角、犹太区边缘，在约瑟夫区"卫生改造"（1893—1913年）期间被夷为平地——那场争议不断的城市更新将中世纪犹太城的大部分推倒重建为新艺术风格的林荫大道。如今在弗兰茨·卡夫卡广场3号、以一座小铜像和铭牌标注的现有建筑，大约建于1902年。这座城市没有保留卡夫卡出生的房子，它保留的是地址。
+
+卡夫卡几乎一生都在布拉格度过，辗转于老城和约瑟夫区的一系列公寓之间。他在查理大学学习法律，在工人事故保险公司担任理赔员，用德语——布拉格犹太知识阶层的语言——写作小说和故事，这些作品使他成为20世纪阅读量最大的作家之一。他在世期间几乎没有发表任何作品。他留下指示，让他的朋友兼遗嘱执行人马克斯·布罗德（Max Brod）在他死后烧毁所有未发表的手稿。布罗德拒绝了。这或许是文学史上最具决定性意义的一次违抗。
+
+🥚 彩蛋："布拉格不放手，"卡夫卡1902年写信给一位朋友说，"这个小母亲有爪子。"他多年来一直考虑离开——耶路撒冷、柏林、维也纳在他的信件中反复出现——却一次次没有离开。这座城市在他的作品中不以可辨认的地名出现，而是作为一种氛围：跨越山谷却永远无法抵达的城堡，按照无人能识别的逻辑运转的法庭，按照无人质疑的规则运行的流刑地。学者们争论了一个世纪，这些是政治寓言、存在主义比喻还是预言性的恐怖。答案或许是三者同时成立，而孕育了这些作品的城市也或许如此。`,
+    },
+  },
+  {
+    name: 'Kajetánka Park',
+    slug: 'kajetanka-park',
+    localizedNames: { cz: 'Park Kajetánka a Nová Vila Kajetánka', zh: '卡耶坦卡公园' },
+    labels: ['park', 'historical', 'architecture'],
+    coordinates: { lat: 50.08792169526558, lng: 14.373537883595835 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Park Kajetánka and Nová Vila Kajetánka!
+
+Tucked into a hillside in Střešovice, west of Prague Castle and below the rim of the Hradčany plateau, Kajetánka is the kind of park that rewards navigation. It requires knowing it exists, finding the right entrance, and committing to the walk — after which it offers the thing that parks near the castle rarely provide: space, quiet, and a view of the city from an angle that most visitors never find. The park is built around the garden of a former Theatine monastery that once occupied this slope, and its terraced layout retains something of the formal garden geometry beneath the later informality of a public space.
+
+The Nová Vila Kajetánka — the New Kajetánka Villa — is the building at the park's centre that now operates as a restaurant and event space. The name "Kajetánka" comes from the founder of the Theatine order, Saint Cajetan (San Gaetano da Thiene, 1480–1547), whose monastery garden this originally was. The Theatines arrived in Prague in the seventeenth century as part of the Counter-Reformation, and their garden on the Střešovice slope became a place of cultivation and retreat. After Josef II dissolved the monasteries in 1786, the garden eventually opened to the public and has served the western residential districts of Prague ever since.
+
+🥚 Easter Egg: Saint Cajetan, for whom this park is ultimately named, was one of the more practically-minded Counter-Reformation saints. He did not primarily write mystical theology or accumulate documented miracles. What he did was found the Monte di Pietà — a network of charitable lending institutions designed to provide small loans to the poor at low or zero interest, competing directly with moneylenders whose usurious rates were devastating ordinary people across sixteenth-century Italy. The Monte di Pietà was, in structural terms, an early credit union. The saint whose name echoes through this quiet park in Střešovice was, among other things, a pioneer of ethical finance. Prague's saints contain multitudes.`,
+
+      cz: `Statečný dobrodruhu, vítej v Parku Kajetánka a Nové Vile Kajetánka!
+
+Zaklíněný do svahu ve Střešovicích, západně od Pražského hradu a pod okrajem hradčanské plošiny, je Kajetánka typem parku, který odměňuje navigaci. Vyžaduje vědět o jeho existenci, najít správný vstup a odhodlání se projít — poté nabízí to, co parky poblíž hradu jen zřídka poskytují: prostor, ticho a pohled na město z úhlu, který většina návštěvníků nikdy nenajde. Park je vybudován kolem zahrady bývalého theatinského kláštera, který kdysi obsazoval tento svah, a jeho terasovité uspořádání si zachovává něco z geometrie formální zahrady pod pozdější neformálností veřejného prostoru.
+
+Nová Vila Kajetánka — budova v centru parku — dnes slouží jako restaurace a prostory pro akce. Název "Kajetánka" pochází od zakladatele theatinského řádu, sv. Kajetána (San Gaetano da Thiene, 1480–1547), jehož klášterní zahrada to původně byla. Theatini přišli do Prahy v sedmnáctém století jako součást protireformace a jejich zahrada na střešovickém svahu se stala místem kultivace a ústraní. Poté, co Josef II. v roce 1786 rozpustil kláštery, se zahrada nakonec otevřela veřejnosti a od té doby slouží západním rezidenčním čtvrtím Prahy.
+
+🥚 Velikonoční vajíčko: Sv. Kajetán, po němž je tento park nakonec pojmenován, byl jedním z praktičtěji smýšlejících světců protireformace. Primárně nepsal mystickou teologii ani nehromadil zdokumentované zázraky. Co však udělal, bylo, že founded Monte di Pietà — síť charitativních úvěrových institucí navržených k poskytování malých půjček chudým s nízkým nebo nulovým úrokem, přímo konkurující lichvářům, jejichž úžernické sazby ničily obyčejné lidi po celé Itálii šestnáctého století. Monte di Pietà bylo strukturálně vzato ranou úvěrní unií. Světec, jehož jméno rezonuje v tomto tichém parku ve Střešovicích, byl mimo jiné průkopníkem etického financování. Pražští světci toho v sobě skrývají hodně.`,
+
+      zh: `勇敢的冒险家，欢迎来到卡耶坦卡公园和新卡耶坦卡别墅（Park Kajetánka a Nová Vila Kajetánka）！
+
+卡耶坦卡公园藏于斯特热绍维采（Střešovice）的山坡上，位于布拉格城堡以西、赫拉德恰内台地边缘以下，是那种需要主动寻找才能发现的公园。你需要先知道它的存在，找到正确的入口，然后坚持走进去——之后它会给你提供城堡附近的公园极少能给予的东西：空间、宁静，以及一个大多数游客从未发现的城市观察角度。公园依托昔日泰亚廷修道院（Theatine）的花园而建——那座修道院曾经占据这片山坡——其梯田式格局在后来的公共休闲空间改造之下，仍保留着部分规则式花园的几何感。
+
+公园中央的新卡耶坦卡别墅（Nová Vila Kajetánka）如今作为餐厅和活动场所运营。"卡耶坦卡"这个名字源于泰亚廷修道团创始人圣卡耶坦（San Gaetano da Thiene，1480—1547），这里最初正是他的修道院花园。泰亚廷修士在17世纪作为反宗教改革运动的一部分来到布拉格，他们在斯特热绍维采山坡上的花园成为修行与隐居之所。1786年约瑟夫二世解散修道院后，这片花园最终向公众开放，此后一直服务于布拉格西部住宅区的居民。
+
+🥚 彩蛋：这座公园最终以之命名的圣卡耶坦，是反宗教改革时期最具实践精神的圣人之一。他的主要贡献不在于撰写神秘主义神学或积累有据可查的神迹，而在于创立了"虔诚之山"（Monte di Pietà）——一个慈善借贷机构网络，旨在以低息或零息向穷人提供小额贷款，直接与那些以高利贷压榨16世纪意大利普通民众的放贷者竞争。从结构上看，Monte di Pietà就是早期的信用合作社。这位名字在斯特热绍维采这处幽静公园中回响的圣人，也是道德金融的先驱之一。布拉格的圣人们，各有其深藏的多面性。`,
+    },
+  },
+  {
+    name: 'Karolinum',
+    slug: 'karolinum',
+    localizedNames: { cz: 'Karolinum', zh: '卡罗利努姆' },
+    labels: ['academy', 'historical', 'architecture'],
+    coordinates: { lat: 50.08631952716103, lng: 14.423102082033886 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Karolinum — the historic heart of Charles University!
+
+Founded in 1348 by Emperor Charles IV, Charles University (Univerzita Karlova) is the oldest university in Central Europe and one of the oldest in the world. The Karolinum is the surviving medieval core of that institution: a complex of buildings centred around a Gothic bay window — the Wenceslas College oriel — which has become the most reproduced image of the university. Charles IV obtained a papal bull from Pope Clement VI authorising the foundation, making Prague's university the first in the Holy Roman Empire east of the Rhine. Within a generation, it was drawing scholars from across Central and Northern Europe, and the city around it had become one of the intellectual centres of the medieval world.
+
+The Karolinum has been at the centre of Czech intellectual and political history in ways that exceed what any single building can usually claim. Jan Hus served as rector here before his death at the Council of Constance in 1415. The Velvet Revolution of 1989 began in earnest when Prague's students marched — and when the faculty publicly declared solidarity. Between those two events: the Habsburg occupation, the Nazi Protectorate during which the university was forcibly closed and faculty members deported and executed, and forty years of Communist oversight over academic appointments and curricula. The building has witnessed the full arc of what it is possible to do to an institution of learning.
+
+🥚 Easter Egg: In 1409, a dispute over which of two rival popes to support triggered the Kutná Hora Decree, in which King Václav IV restructured the university's voting to give Czech scholars three votes against one for all foreign nations combined. The result was a mass exodus: several thousand German scholars and students departed Prague and co-founded Leipzig University. The rearrangement that made the Karolinum more Czech inadvertently created one of Germany's most distinguished universities. The decree also elevated Jan Hus to the rectorship. He was burned at the stake six years later. The chain of consequences from a university governance dispute is not always predictable.`,
+
+      cz: `Statečný dobrodruhu, vítej v Karolinu — historickém srdci Karlovy univerzity!
+
+Karlova univerzita, founded v roce 1348 císařem Karlem IV., je nejstarší univerzitou ve střední Evropě a jednou z nejstarších na světě. Karolinum je dochovaným středověkým jádrem této instituce: komplex budov soustředěný kolem gotického arkýře — arkýře Václavské koleje — který se stal nejrozšířenějším obrazem univerzity. Karel IV. získal papežskou bulu od papeže Klementa VI., která autorizovala její founded, čímž se pražská univerzita stala první v Říši německého národa východně od Rýna. Během generace přitahovala učence z celé střední a severní Evropy a město kolem ní se stalo jedním z intelektuálních center středověkého světa.
+
+Karolinum bylo centrem českých intelektuálních a politických dějin způsoby, které přesahují to, co může obvykle jedné budově nárokovat. Jan Hus sloužil jako rektor před svou smrtí na Kostnickém koncilu roku 1415. Sametová revoluce roku 1989 začala naplno, když pražští studenti pochodovali — a když fakulta veřejně prohlásila solidaritu. Mezi těmito dvěma událostmi: habsburská nadvláda, nacistický protektorát, během nějž byla univerzita násilně uzavřena a příslušníci fakulty deportováni a popraveni, a čtyřicet let komunistického dohledu nad akademickými jmenováními a osnovami. Budova byla svědkem celého oblouku toho, co je možné udělat s institucí vzdělanosti.
+
+🥚 Velikonoční vajíčko: V roce 1409 spor o to, kterého ze dvou soupeřících papežů podpořit, spustil Dekret kutnohorský, v němž král Václav IV. přestrukturoval hlasování na univerzitě tak, aby dával českým učencům tři hlasy oproti jednomu pro všechny cizí národy dohromady. Výsledkem byl masový exodus: několik tisíc německých učenců a studentů opustilo Prahu a spoluzaložilo Lipskou univerzitu. Přeskupení, které učinilo Karolinum více českým, nechtěně vytvořilo jednu z nejprestižnějších německých univerzit. Dekret také povýšil Jana Husa do rektorátu. Za šest let byl upálen na hranici. Řetěz důsledků ze sporu o správu univerzity není vždy předvídatelný.`,
+
+      zh: `勇敢的冒险家，欢迎来到卡罗利努姆（Karolinum）——查理大学的历史核心！
+
+查理大学（Univerzita Karlova）由皇帝查理四世于1348年创立，是中欧最古老的大学，也是世界上最古老的大学之一。卡罗利努姆是这所大学保存至今的中世纪核心建筑群：围绕一扇哥特式凸窗——瓦茨拉夫学院飘窗——构建而成，而这扇飘窗已成为这所大学最被广泛复制的形象。查理四世从教皇克莱蒙六世处获得教皇诏书授权创校，使布拉格大学成为莱茵河以东神圣罗马帝国境内的第一所大学。不到一代人的时间，它便吸引来自整个中欧和北欧的学者，使周围的城市成为中世纪知识世界的中心之一。
+
+卡罗利努姆在捷克知识史和政治史上的核心地位，远超通常一座建筑所能承载的分量。扬·胡斯在1415年康斯坦茨公会议遇难前曾在此担任校长。1989年天鹅绒革命在布拉格学生上街游行、大学教职人员公开声援时正式展开。在这两个事件之间：哈布斯堡统治、纳粹保护国期间大学被强制关闭、教职人员遭驱逐和处决，以及长达四十年的共产党对学术任命和课程设置的监控。这座建筑见证了对一所教育机构所能施加的一切的完整弧线。
+
+🥚 彩蛋：1409年，一场关于支持两位对立教皇之中的哪一位的争论，引发了库特纳霍拉诏令（Kutná Hora Decree）——瓦茨拉夫四世国王重组大学投票权，给予捷克学者三票，而所有外国群体合计仅得一票。结果是大规模出走：数千名德国学者和学生离开布拉格，共同创建了莱比锡大学。使卡罗利努姆变得更加捷克化的这一重组，无意间创造了德国最负盛名的大学之一。该诏令同时也将扬·胡斯提升至校长职位。六年后，他被烧死在火刑柱上。一场大学治理争议所引发的后果链条，并不总是可以预见的。`,
+    },
+  },
+  {
+    name: 'KodlContemporary',
+    slug: 'kodl-contemporary',
+    localizedNames: { cz: 'KodlContemporary', zh: '科德尔当代艺术空间' },
+    labels: ['cultural', 'museum', 'modern'],
+    coordinates: { lat: 50.09208300394867, lng: 14.418069631015314 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to KodlContemporary!
+
+The Kodl name has been central to the Czech fine art market for decades. KodlContemporary is their dedicated space for contemporary art — a gallery that sits at the intersection of the commercial art world and the broader cultural conversation about what Czech and Central European art means in the twenty-first century. The gallery occupies a position in Prague's Josefov-adjacent neighbourhood, in a part of the city that has quietly become one of its more concentrated pockets of cultural institution, drawing an audience of collectors, curators, artists, and people who simply want to see what is happening in Czech art right now.
+
+The context matters. Czechoslovakia spent forty years under a state that prescribed what art was permitted to look like, what subjects were acceptable, and which artists were allowed to exhibit at all. The result was a bifurcated art world: official art that followed socialist realist conventions, and unofficial art that circulated in apartments, samizdat publications, and the studios of artists who had been blacklisted. When 1989 arrived, these two worlds had to be reconciled, the unofficial work recognised and exhibited, the market rebuilt from scratch. The contemporary Czech art scene that exists today — including galleries like KodlContemporary — is the product of that thirty-five-year reconstruction.
+
+🥚 Easter Egg: The unofficial art of Communist Czechoslovakia developed its own distinctive visual languages partly because it had to — artists working outside the system could not exhibit publicly, which meant they had no reason to make work that communicated to a general audience. They could make work for themselves, for small circles, for the future. Some of the most formally adventurous Czech art of the twentieth century was made in this condition of enforced privacy. When it finally entered public galleries after 1989, it arrived already formed, already itself, already indifferent to whether it was immediately legible. That indifference is, in its own way, a kind of freedom.`,
+
+      cz: `Statečný dobrodruhu, vítej v KodlContemporary!
+
+Jméno Kodl je již desetiletí ústřední součástí českého trhu s výtvarným uměním. KodlContemporary je jejich dedikovaný prostor pro současné umění — galerie, která stojí na průsečíku komerčního světa umění a širší kulturní konverzace o tom, co české a středoevropské umění znamená v jednadvacátém století. Galerie zaujímá pozici v josefovském sousedství Prahy, v části města, která se tiše stala jednou z jeho koncentrovanějších kapes kulturních institucí, přitahující publikum sběratelů, kurátorů, umělců a lidí, kteří jednoduše chtějí vidět, co se v českém umění právě teď děje.
+
+Kontext je důležitý. Československo strávilo čtyřicet let pod státem, který předpisoval, jak umění smí vypadat, jaká témata jsou přijatelná a kteří umělci vůbec mohou vystavovat. Výsledkem byl bifurkovaný svět umění: oficiální umění sledující konvence socialistického realismu a neoficiální umění cirkulující v bytech, samizdatových publikacích a atelérech umělců, kteří byli zařazeni na černou listinu. Když přišel rok 1989, tyto dva světy musely být smířeny, neoficiální díla uznána a vystavena, trh přebudován od základu. Současná česká umělecká scéna, která dnes existuje — včetně galerií jako KodlContemporary — je produktem této třicetipětileté rekonstrukce.
+
+🥚 Velikonoční vajíčko: Neoficiální umění komunistického Československa si vyvinulo vlastní svébytné vizuální jazyky zčásti proto, že muselo — umělci pracující mimo systém nemohli veřejně vystavovat, což znamenalo, že neměli důvod tvořit díla, která komunikují s obecným publikem. Mohli tvořit pro sebe, pro malé kruhy, pro budoucnost. Některé formálně nejodvážnější české umění dvacátého století vzniklo v tomto stavu vynucené soukromosti. Když po roce 1989 konečně vstoupilo do veřejných galerií, přišlo již utvářené, již samo sebou, již lhostejné k tomu, zda je okamžitě srozumitelné. Tato lhostejnost je svým způsobem formou svobody.`,
+
+      zh: `勇敢的冒险家，欢迎来到科德尔当代艺术空间（KodlContemporary）！
+
+科德尔（Kodl）这个名字在捷克美术市场上举足轻重，已历经数十年。KodlContemporary是他们专注于当代艺术的画廊空间——一个处于商业艺术世界与更广泛的文化讨论交汇点的场所，探索捷克及中欧艺术在21世纪意味着什么。画廊位于布拉格约瑟夫区附近的街区，这一区域已悄然成为布拉格文化机构较为集中的地带之一，吸引着收藏家、策展人、艺术家以及那些只想了解捷克当代艺术动态的人。
+
+背景至关重要。捷克斯洛伐克在一个规定艺术必须长什么样、哪些主题可以接受、哪些艺术家被允许展览的国家体制下度过了四十年。结果是一个两极分化的艺术世界：遵循社会主义现实主义惯例的官方艺术，以及在公寓、地下出版物和被列入黑名单的艺术家工作室中流通的非官方艺术。1989年到来后，这两个世界必须和解，非官方作品得到认可和展出，市场从零重建。今天存在的捷克当代艺术场景——包括科德尔当代艺术空间这样的画廊——正是这三十五年重建的产物。
+
+🥚 彩蛋：共产主义捷克斯洛伐克的非官方艺术之所以发展出自己独特的视觉语言，部分原因正在于不得不如此——在体制外工作的艺术家无法公开展览，这意味着他们没有理由创作面向普通观众传播的作品。他们可以为自己创作，为小圈子创作，为未来创作。20世纪捷克在形式上最具探索精神的一些艺术，正是在这种被迫私密的状态下诞生的。当1989年后它们终于走进公共画廊，这些作品已然成型，已然是自己本身，已然对是否能被立即读懂漠然以待。这种漠然，以其特有的方式，是一种自由。`,
+    },
+  },
+  {
+    name: 'KOH-I-NOOR',
+    slug: 'koh-i-noor',
+    localizedNames: { cz: 'KOH-I-NOOR', zh: '光之山铅笔厂' },
+    labels: ['historical', 'hidden-gem', 'architecture'],
+    coordinates: { lat: 50.06792270539102, lng: 14.461515189971745 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to KOH-I-NOOR!
+
+The name means "Mountain of Light" in Persian. It was the name of a 105-carat diamond mined in India, owned successively by Mughal emperors, Persian conquerors, Afghan shahs, and Sikh maharajas before the British annexed Punjab in 1849 and the diamond eventually ended up in the British Crown Jewels. It was also, as of 1889, the name of a pencil. Joseph Hardtmuth, who founded the pencil company in Vienna in 1790, had introduced the hexagonal pencil and discovered that mixing graphite with clay produces a writing instrument of controllable hardness. His descendants launched the "KOH-I-NOOR" brand at the 1889 Paris World Exhibition, naming their finest pencil after the most famous diamond in the world. The marketing logic was either inspired or brazen, depending on your temperament. It worked.
+
+The company's Czech operations — centred in České Budějovice, with presence in Prague — became central to its identity after the First World War and the establishment of Czechoslovakia. Nationalised under communism and privatised again after 1989, KOH-I-NOOR Hardtmuth is one of the few brands from the nineteenth century that survived the full twentieth — empire, republic, occupation, communism, revolution — and emerged still manufacturing the same essential product with the same name. The pencil factory on the outskirts of Prague is part of that continuity: a place where the mundane act of making a writing instrument has been performed, with minimal fuss, for generations.
+
+🥚 Easter Egg: The Koh-i-Noor diamond's journey through history is one of the more operatically excessive stories in the annals of precious stones. It passed through the hands of the Mughal emperor who called it the "Mountain of Light," was seized by Nader Shah of Persia and taken to Tehran, changed hands through assassination and war, arrived in Lahore, and was surrendered to Queen Victoria after the British conquest of the Punjab. It has been set in the crowns of three British queens and is currently in the Tower of London. India, Pakistan, Iran, and Afghanistan have all at various points requested its return. The British government's position is that the diamond was acquired legitimately. The KOH-I-NOOR pencil, named after all of this, costs about forty crowns.`,
+
+      cz: `Statečný dobrodruhu, vítej v KOH-I-NOOR!
+
+Název znamená persky "Hora světla". Byl to název 105karátového diamantu těženého v Indii, vlastněného postupně mughalskými císaři, perskými dobyvateli, afghánskými šáhy a sikhskými maharadžy, než Britové v roce 1849 anektovali Paňdžáb a diamant nakonec skončil v britských korunovačních klenotech. Byl to také, od roku 1889, název tužky. Joseph Hardtmuth, který founded tužkovou společnost ve Vídni v roce 1790, zavedl šestihrannou tužku a zjistil, že míchání grafitu s jílem produkuje psací nástroj s kontrolovatelnou tvrdostí. Jeho potomci uvedli značku "KOH-I-NOOR" na Světové výstavě v Paříži roku 1889, pojmenujíce svou nejlepší tužku po nejslavnějším diamantu světa. Marketingová logika byla buď geniální, nebo bezostyšná, podle vašeho temperamentu. Fungovala.
+
+České operace společnosti — soustředěné v Českých Budějovicích, s přítomností v Praze — se po první světové válce a vzniku Československa staly ústředními pro její identitu. Znárodněna za komunismu a znovu zprivatizována po roce 1989, KOH-I-NOOR Hardtmuth je jednou z mála značek z devatenáctého století, které přežily celé dvacáté — říši, republiku, okupaci, komunismus, revoluci — a vyšly stále vyrábějící stejný základní produkt se stejným názvem. Tužkárna na okraji Prahy je součástí této kontinuity: místo, kde se banální akt výroby psacího nástroje provádí, bez velkého povyku, po generace.
+
+🥚 Velikonoční vajíčko: Cesta diamantu Koh-i-Noor dějinami je jedním z operně přehnaných příběhů v análech drahokamů. Prošel rukama mughalského císaře, který ho nazval "Hora světla", byl zmocněn Nádirem Šáhem Perským a převezen do Teheránu, přecházel z ruky do ruky vražedstvím a válkou, dorazil do Láhóru a byl odevzdán královně Viktorii po britském dobytí Paňdžábu. Byl zasazen do korun tří britských královen a v současnosti se nachází v Toweru of London. Indie, Pákistán, Írán a Afghánistán si v různých momentech vyžádaly jeho vrácení. Stanovisko britské vlády je, že diamant byl nabyt legitimně. Tužka KOH-I-NOOR, pojmenovaná po všem tomto, stojí asi čtyřicet korun.`,
+
+      zh: `勇敢的冒险家，欢迎来到光之山铅笔厂（KOH-I-NOOR）！
+
+这个名字在波斯语中的意思是"光之山"。它是一颗105克拉钻石的名称——那颗钻石在印度被开采出来，先后经过莫卧儿皇帝、波斯征服者、阿富汗沙阿和锡克族大君之手，直到1849年英国吞并旁遮普邦，钻石最终落入英国王室珠宝之中。从1889年起，它也是一支铅笔的名字。约瑟夫·哈特穆斯（Joseph Hardtmuth）于1790年在维也纳创立了这家铅笔公司，他发明了六角形铅笔，并发现将石墨与黏土混合可以制造出硬度可控的书写工具。他的后代在1889年巴黎世界博览会上推出"KOH-I-NOOR"品牌，以世界上最著名的钻石命名他们最优质的铅笔。这套营销逻辑或许是天才之举，或许是厚颜无耻，取决于你的性情。但它奏效了。
+
+第一次世界大战结束、捷克斯洛伐克建国后，公司的捷克业务——总部位于捷克布杰约维采（České Budějovice），在布拉格亦有布局——成为其身份认同的核心。经历了共产主义时代的国有化和1989年后的再度私有化，KOH-I-NOOR Hardtmuth是为数不多的在19世纪诞生、历经整个20世纪——帝国、共和国、占领、共产主义、革命——并以同样的名称继续生产同样基本产品的品牌之一。布拉格郊区的这处铅笔厂是这种延续性的一部分：一个几代人以来默默无闻地执行着制造书写工具这一平凡行为的地方。
+
+🥚 彩蛋：光之山钻石的历史旅程，是珍贵宝石编年史中最具歌剧式戏剧性的故事之一。它曾传经称它为"光之山"的莫卧儿皇帝之手，被波斯的纳迪尔·沙阿夺走带回德黑兰，在暗杀和战争中几经易手，最终抵达拉合尔，并在英国征服旁遮普后被献给维多利亚女王。它曾被镶嵌于三位英国王后的王冠之中，目前收藏在伦敦塔。印度、巴基斯坦、伊朗和阿富汗都曾在不同时期要求归还。英国政府的立场是，这颗钻石是以合法方式获得的。以这一切命名的KOH-I-NOOR铅笔，大约售价四十克朗。`,
+    },
+  },
+  {
+    name: 'Koruna Palace',
+    slug: 'palac-koruna',
+    localizedNames: { cz: 'Palác Koruna', zh: '科鲁纳宫' },
+    labels: ['architecture', 'historical', 'cultural'],
+    coordinates: { lat: 50.08420389441953, lng: 14.424021298431308 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Palác Koruna — the Koruna Palace!
+
+The Koruna Palace was built between 1911 and 1914 at what is arguably the most commercially significant intersection in Prague: the junction of Wenceslas Square and the luxury shopping street Na Příkopě. Architect Antonín Pfeiffer designed it as a deliberately theatrical building — the corner tower crowned with a glass-and-steel dome in the shape of a crown (koruna), visible from both streets simultaneously, announcing that whatever was happening inside was of the highest order. The building marked Prague's transition from the sinuous ornament of Art Nouveau toward the geometric confidence of early Modernism, and was among the first commercial structures in the city to use steel-reinforced concrete. The crown dome was designed to be electrically illuminated at night — one of the first commercially lit landmarks in Prague.
+
+The word koruna means both "crown" and the Czech currency. This double meaning, entirely intentional, made the palace's name a compact advertisement: the Crown building, at the top of Wenceslas Square, dealing in crowns. The building has housed shops, offices, a cinema, and a famous ground-floor arcade café across successive eras. The Koruna has survived Habsburg commerce, two occupations, Communist nationalisation, and post-1989 privatisation — its glass crown still catching light above the foot of the square where it has stood for over a century.
+
+🥚 Easter Egg: On November 17, 1989 — the day that would trigger the Velvet Revolution — student demonstrators were beaten by police on Národní třída, a few hundred metres from where you are standing. By the following day, Wenceslas Square was filling with crowds. The Koruna Palace stood at the foot of the square throughout the days of improvised speeches, jangling keys, and Václav Havel's voice coming from makeshift loudspeakers. Buildings do not participate in revolutions. But they are always present at them, and this one has been present at rather a lot.`,
+    },
+  },
+  {
+    name: 'Residence of the Mayor of Prague',
+    slug: 'rezidence-primatora',
+    localizedNames: { cz: 'Rezidence primátora hlavního města Prahy', zh: '布拉格市长官邸' },
+    labels: ['historical', 'architecture', 'municipal'],
+    coordinates: { lat: 50.08740291208507, lng: 14.417387194460145 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Rezidence primátora — the Official Residence of the Lord Mayor of Prague!
+
+The position of primátor — Lord Mayor of Prague — is one of the oldest continuously held civic offices in Central Europe, tracing its origins to the medieval municipal institutions that governed the Old Town, New Town, Malá Strana, and Hradčany as four legally separate towns before their administrative unification in 1784. The person who holds this office today is the elected head of a capital city of 1.3 million people, responsible for a budget of considerable scale and a position that places them at the intersection of national politics, European urban policy, and the daily administrative reality of running one of the most visited cities on the continent. The residence is embedded in the civic fabric of the Old Town — authority housed not in isolated grandeur but in the neighbourhood it governs.
+
+Prague's history of primátors is a compressed version of Czech history. The Habsburgs appointed compliant administrators. The First Republic produced mayors of genuine civic ambition who shaped the modern city. The Nazi Protectorate made the role a conduit for occupation. The Communist period transformed it into a party appointment. The post-1989 primátors have navigated rapid development, mass tourism, and European integration in a city rebuilding its civic identity from the ground up. The residence has housed representatives of all these eras — which is a way of saying it has housed both collaboration and courage, sometimes without distinguishing between them.
+
+🥚 Easter Egg: The administrative unification of Prague's four historic towns in 1784 was an act of Habsburg rationalisation, part of the same Josephine reforms that dissolved the monasteries and reorganised the Church. The four towns had coexisted as legally separate entities for over four centuries, with their own councils, laws, and occasionally their own conflicts. Unification made administrative sense. It also, for the first time, created a single "Prague" that required a single mayor — and that required someone to decide what Prague actually was. That question has been argued about ever since, and the person who holds this office is, among other things, the latest answer.`,
+    },
+  },
+  {
+    name: 'City Gallery Prague — Bílek Villa',
+    slug: 'bilkova-vila',
+    localizedNames: { cz: 'Galerie hlavního města Prahy – Bílkova vila', zh: '布拉格市立美术馆——比尔克别墅' },
+    labels: ['cultural', 'museum', 'architecture'],
+    coordinates: { lat: 50.09529126233349, lng: 14.408429963259787 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Bílkova vila — the Bílek Villa, now a gallery of the City of Prague!
+
+František Bílek (1872–1941) was a sculptor, draughtsman, architect, and visionary whose work defied every category his contemporaries tried to apply to it. He was associated with Czech Symbolism and Art Nouveau but answered primarily to a private spiritual theology that owed as much to his own mysticism as to any movement. He designed and built this villa in 1911 as his home, studio, and — there is no other word for it — temple. The low horizontal building, with its Egyptian-influenced columns, its facade decorated with sheaves of wheat (Bílek's recurring symbol of the cycle of life and death), and its proportions intended to evoke the human figure lying in the earth, is one of the most singular pieces of architecture in Prague. No one else would have built this. No one else did.
+
+Bílek worked in almost complete indifference to the art market, in genuine dialogue with the deeper currents of Czech Symbolist culture. He corresponded with Otokar Březina, the greatest poet of Czech Symbolism. He was preoccupied throughout his career with the figure of Jan Hus — producing multiple works depicting him as a prophetic martyr who spoke directly to Czech spiritual identity. The villa now belongs to the City of Prague and houses a permanent collection of his work: sculptures that feel carved from personal necessity, drawings of extraordinary graphic intensity, and decorative objects in which beauty and religious purpose are inseparable.
+
+🥚 Easter Egg: Bílek chose to build in Hradčany rather than in any of the fashionable artistic districts of the period — not Vinohrady, not the bourgeois New Town, but in the shadow of the castle, on the edge of the city's oldest and most symbolically loaded hill. This was deliberate. Bílek understood his work as belonging in the landscape of Czech spiritual history, not the commercial art market. He was also, by contemporary standards, extremely poor for most of his life, sustained by a small circle of admirers rather than sales. The villa is a monument to what it looks like when an artist builds their life entirely around vision and nothing else — including financial prudence. The result is extraordinary. The process was apparently quite hard.`,
+    },
+  },
 ];
 
 async function run() {

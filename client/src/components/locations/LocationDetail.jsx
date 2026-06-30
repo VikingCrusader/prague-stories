@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { locationAPI, checkinAPI } from '../../services/api';
 import { useLang, useT, useConvert } from '../../context/LanguageContext';
@@ -11,7 +11,7 @@ import EditLocationForm from './EditLocationForm';
 import { RARITY_COLOR, RARITY_LABEL } from '../../utils/rarity';
 
 
-export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpdate }) {
+export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpdate, autoCheckIn }) {
   const { lang } = useLang();
   const t = useT();
   const convert = useConvert();
@@ -25,6 +25,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
   const [checkInResult, setCheckInResult] = useState(null);
   const [closing, setClosing] = useState(false);
   const [showEdit, setShowEdit]   = useState(false);
+  const autoCheckedIn = useRef(false);
 
   useEffect(() => {
     setLoading(true); setError('');
@@ -33,6 +34,12 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
       .catch(() => setError('Failed to load location.'))
       .finally(() => setLoading(false));
   }, [slug]);
+
+  useEffect(() => {
+    if (!autoCheckIn || !loc || loc.unlocked || autoCheckedIn.current) return;
+    autoCheckedIn.current = true;
+    handleCheckIn();
+  }, [loc, autoCheckIn]);
 
   // Close modal after success display; cancelled if user manually closes first
   useEffect(() => {

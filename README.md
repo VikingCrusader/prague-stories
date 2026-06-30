@@ -42,7 +42,7 @@ Discover hundreds of Prague landmarks, earn XP, level up, unlock achievements, a
 
 - **300+ preset Prague locations** spanning every district and era — castles, cemeteries, Baroque churches, Cold War bunkers, a psychiatric hospital that hosts music festivals, and a confluence of two rivers that almost nobody visits
 - **GPS-verified check-in** — the server validates you are within 200 m of the location (distance check skipped in `development` mode for local testing)
-- **Automatic proximity detection** — a gold banner rises from the bottom of the screen when you walk within 100 m of an unvisited location; tap to collect
+- **Automatic proximity detection** — when you walk within 100 m of an unvisited location an OS notification fires; tapping it checks you in automatically and opens the card detail
 - **Instant grid refresh** after check-in; modal auto-closes after 2.5 s with XP and achievement summary
 - **Undo check-in** (Uncollect) available on any collected card
 
@@ -68,7 +68,7 @@ Six tiers modelled on trading-card games, visible on every card border and diamo
 ### Explore Grid
 
 - Filter by **label** (stackable — e.g. Church + Hidden Gem simultaneously) or **rarity tier**
-- Sort by **Distance** (closest first, default), **Newest** (recently added), or **Top Rarity**
+- Sort by **Distance** (closest first, default), **Newest** (recently added), or **Top Rarity**; My Collections adds **Recently Collected** (check-in timestamp, newest first)
 - Live distance shown on each card ("340 m", "1.2 km")
 - **My Collections** tab to review only unlocked cards
 - Czech original name shown as a subtitle under the EN/ZH display name
@@ -137,7 +137,7 @@ Installable as a standalone app on iOS and Android:
 - **iPhone** — Safari → Share → Add to Home Screen
 - **Android** — Chrome → ⋮ → Add to Home Screen
 - Runs full-screen with no browser UI; tap the logo to force a version refresh (useful when there's no browser refresh button)
-- **Proximity notifications** — on first login the app asks to enable alerts; when permission is granted, an OS notification fires whenever you enter the 100 m discovery radius of an unvisited location — visible even when the tab is backgrounded or another app is in focus
+- **Proximity notifications** — on first login the app asks to enable alerts; when permission is granted, an OS notification fires whenever you enter the 100 m discovery radius of an unvisited location; **tapping the notification checks you in automatically** and opens the card detail — works even when the app is backgrounded or killed
 
 ---
 
@@ -187,7 +187,7 @@ prague-stories/
 │   │   └── pixel-art/         # Generated WebP illustrations
 │   └── src/
 │       ├── components/
-│       │   ├── shared/        # Navbar, ProtectedRoute, ProximityPrompt, NotificationOptIn, Toast
+│       │   ├── shared/        # Navbar, ProtectedRoute, NotificationOptIn, Toast
 │       │   ├── locations/     # LocationCard, LocationGrid, LocationDetail,
 │       │   │                  #   AddLocationForm, EditLocationForm, LabelEditorModal
 │       │   ├── map/           # MapView (Leaflet)
@@ -273,6 +273,7 @@ MONGO_URI=mongodb://localhost:27017/prague-stories
 JWT_SECRET=your_jwt_secret_here
 JWT_EXPIRES_IN=7d
 GEMINI_API_KEY=your_gemini_api_key_here
+GOOGLE_TRANSLATE_API_KEY=your_google_translate_api_key_here
 CLOUDINARY_CLOUD_NAME=your_cloud_name
 CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret

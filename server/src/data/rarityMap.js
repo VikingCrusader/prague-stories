@@ -167,6 +167,14 @@ export const SLUG_RARITY = {
   'divadlo-hybernia':             'rare',
   'pamatnik-jana-palacha-sousosi':'rare',
   'klausova-synagoga':            'rare',
+  'jindrisska-vez':               'rare',
+  'kafkuv-dum':                   'rare',
+  'karolinum':                    'rare',
+  'kodl-contemporary':            'rare',
+  'koh-i-noor':                   'rare',
+  'palac-koruna':                 'rare',
+  'rezidence-primatora':          'rare',
+  'bilkova-vila':                 'rare',
 };
 
 export function getRarity(slug) {

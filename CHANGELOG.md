@@ -4,6 +4,42 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.7.0] — 2026-06-30
+
+**Feat: notification tap-to-checkin; Google Cloud Translation; Recently Collected sort; 14 new cards**
+
+### Notification tap-to-checkin
+
+- Tapping the OS proximity notification now **directly checks in and opens the card detail** — no interaction needed inside the app
+- Added `client/public/sw.js` Service Worker: handles `notificationclick`, posts `NOTIFICATION_CHECKIN` message to any open client or opens `/explore?checkin=<slug>` when the app is killed
+- `fireNotification` switched from `new Notification()` to `registration.showNotification()` so `data.slug` is available inside the SW click handler
+- `LocationDetail` accepts new `autoCheckIn` prop — auto-triggers `handleCheckIn()` once the location loads, guarded by a ref to prevent double-fire
+- `ProximityDetector` in `App.jsx` listens for SW messages and navigates to `/explore` with `state.autoCheckIn`
+- `ExplorePage` handles both state-based (app in background) and `?checkin=` URL param (app killed) to cover all launch scenarios
+- Removed `ProximityPrompt` component — the notification banner is now the sole proximity UX
+- `useProximityDetection` simplified to fire-and-forget: no longer returns `discovery`, `dismiss`, or `markCheckedIn`
+
+### Translation
+
+- Switched automatic CZ/ZH description translation from Gemini to **Google Cloud Translation API**
+- `translateWithGoogle(text, targetLang)` calls `translation.googleapis.com/language/translate/v2`
+- Translation is triggered lazily on first card open when `description.cz` or `description.zh` is empty; result saved to DB
+- Requires `GOOGLE_TRANSLATE_API_KEY` in `server/.env`
+
+### My Collections sort
+
+- Added **Recently Collected** sort option in the My Collections filter view (sorts by check-in timestamp, newest first)
+- "All" view keeps its existing three sort modes unchanged
+- Backend `GET /api/locations` now includes `_checkedInAt` per location for authenticated users
+- New i18n key `grid.sortCheckin`: EN "Recently Collected" / CZ "Naposledy navštíveno" / ZH "最近收藏"
+
+### Content
+
+- 14 new location cards seeded: Hrzanský palác, Husův sbor Vršovice, Divadlo Hybernia, Pamätník Jana Palacha (sousoší), Klausova synagoga, Jindřišská věž, Kafkův dům, Kajetánka park, Karolinum, Kodl Contemporary, Koh-i-Noor, Palác Koruna, Rezidence primátora, Bílkova vila
+- All cards: `rare` rarity (Kajetánka park: `common`), EN descriptions; CZ/ZH auto-generated on first open via Google Cloud Translation
+
+---
+
 ## [1.6.4] — 2026-06-29
 
 **Feat: PWA proximity notifications**

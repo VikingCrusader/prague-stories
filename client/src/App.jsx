@@ -1,9 +1,9 @@
+import { useEffect } from 'react';
 import { BrowserRouter, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { LanguageProvider } from './context/LanguageContext';
 import Navbar from './components/shared/Navbar';
 import ProtectedRoute from './components/shared/ProtectedRoute';
-import ProximityPrompt from './components/shared/ProximityPrompt';
 import NotificationOptIn from './components/shared/NotificationOptIn';
 import { useProximityDetection } from './hooks/useProximityDetection';
 import { useNotificationPermission } from './hooks/useNotificationPermission';
@@ -17,27 +17,25 @@ import GuidePage from './pages/GuidePage';
 function ProximityDetector() {
   const { user } = useAuth();
   const navigate = useNavigate();
-  const { discovery, dismiss, markCheckedIn } = useProximityDetection(!!user);
+  useProximityDetection(!!user);
   const { showPrompt, request, dismiss: dismissOptIn } = useNotificationPermission();
+
+  useEffect(() => {
+    if (!navigator.serviceWorker) return;
+    const handler = (event) => {
+      if (event.data?.type === 'NOTIFICATION_CHECKIN' && event.data.slug) {
+        navigate('/explore', { state: { openSlug: event.data.slug, autoCheckIn: true } });
+      }
+    };
+    navigator.serviceWorker.addEventListener('message', handler);
+    return () => navigator.serviceWorker.removeEventListener('message', handler);
+  }, [navigate]);
 
   if (!user) return null;
 
-  return (
-    <>
-      {showPrompt && (
-        <NotificationOptIn onEnable={request} onDismiss={dismissOptIn} />
-      )}
-      <ProximityPrompt
-        discovery={discovery}
-        onDismiss={dismiss}
-        onCheckIn={(slug, result) => {
-          markCheckedIn(slug);
-          window.dispatchEvent(new CustomEvent('proximity-checkin', { detail: { slug } }));
-          navigate('/explore', { state: { openSlug: slug } });
-        }}
-      />
-    </>
-  );
+  return showPrompt ? (
+    <NotificationOptIn onEnable={request} onDismiss={dismissOptIn} />
+  ) : null;
 }
 
 export default function App() {
