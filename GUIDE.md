@@ -83,6 +83,8 @@ Tap any card to open its full entry. This is where the lore lives.
 - **Wikipedia link** — for when you want the non-RPG version of the same facts
 - **Google Maps directions** — "Navigate to: Bohnice Psychiatric Hospital" is a sentence your phone will say without irony
 
+Locked cards do not leave you entirely in the dark. You get a taste of the lore — one or two paragraphs, enough to confirm that something interesting is in there — followed by an archive notice that politely declines to elaborate further until you show up in person. It is less a spoiler system and more a very effective extortion mechanism. The archive will be waiting.
+
 At the bottom: the **Check In** button. Gold. Prominent. Beckoning.
 
 ### The Dashboard

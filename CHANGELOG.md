@@ -4,6 +4,21 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.7.4] — 2026-07-01
+
+**Fix: location name no longer obscured by lock overlay in card detail; map sidebar description now shows teaser for locked cards**
+
+### Card detail view
+
+- Location name gradient bar (`zIndex: 3`) now renders above the lock icon (`zIndex: 2`), so the name is always readable even on locked cards
+
+### Map sidebar description
+
+- `SidebarDetail` now applies the same paragraph-truncation logic as `LocationDetail`: locked locations show 1 paragraph (or 2 if the first EN paragraph has ≤ 30 words and there are > 3 paragraphs total), followed by the trilingual teaser block
+- Unlocked locations still show the full description
+
+---
+
 ## [1.7.3] — 2026-06-30
 
 **Fix: wake lock preference persists across sessions**
