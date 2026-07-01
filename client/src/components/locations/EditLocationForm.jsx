@@ -18,6 +18,7 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
     descZh:       location.description?.zh        || '',
   });
   const [selectedLabels, setSelectedLabels] = useState(location.labels || []);
+  const [primaryLabel, setPrimaryLabel] = useState(location.labels?.[0] || '');
   const [coverFile, setCoverFile] = useState(null);
   const [preview, setPreview]     = useState(location.coverImage || '');
   const [error, setError]           = useState('');
@@ -61,9 +62,11 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
   };
 
   const toggleLabel = lb => {
-    setSelectedLabels(prev =>
-      prev.includes(lb) ? prev.filter(l => l !== lb) : [...prev, lb]
-    );
+    setSelectedLabels(prev => {
+      const next = prev.includes(lb) ? prev.filter(l => l !== lb) : [...prev, lb];
+      setPrimaryLabel(p => (next.includes(p) ? p : next[0] || ''));
+      return next;
+    });
   };
 
   const getLabelName = (key, def) => {
@@ -85,12 +88,16 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
     const lng = parseFloat(rawLng);
     if (isNaN(lat) || isNaN(lng)) { setError('Enter coordinates as "Latitude, Longitude" e.g. 50.0755, 14.4378'); return; }
 
+    const orderedLabels = primaryLabel && selectedLabels.includes(primaryLabel)
+      ? [primaryLabel, ...selectedLabels.filter(l => l !== primaryLabel)]
+      : selectedLabels;
+
     setError(''); setLoading(true);
     try {
       const res = await locationAPI.update(location.slug, {
         name:           form.name,
         localizedNames: { cz: form.nameCz, zh: form.nameZh },
-        labels:         selectedLabels,
+        labels:         orderedLabels,
         coordinates:    { lat, lng },
         wikipediaUrl:   form.wikipediaUrl,
         rarity:         form.rarity,
@@ -155,6 +162,24 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
                 ))}
               </div>
             </div>
+
+            {selectedLabels.length > 0 && (
+              <div className="form-group">
+                <label className="form-label">Primary Label (shown on card)</label>
+                <div className="label-filter__panel label-filter__panel--inline">
+                  {selectedLabels.map(key => (
+                    <button
+                      key={key}
+                      type="button"
+                      className={`label-pill${primaryLabel === key ? ' label-pill--active' : ''}`}
+                      onClick={() => setPrimaryLabel(key)}
+                    >
+                      {primaryLabel === key ? '★ ' : ''}{getLabelName(key, LABEL_DEFINITIONS[key])}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
 
             <div className="form-group">
               <label className="form-label">Coordinates</label>

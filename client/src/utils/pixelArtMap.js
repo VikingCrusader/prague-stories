@@ -141,6 +141,7 @@ export const LABEL_DEFINITIONS = {
   },
   landmark: { emoji: "📍", en: "Landmark", cz: "Dominanta", zh: "地标" },
   palace: { emoji: "🏯", en: "Palace", cz: "Palác", zh: "宫殿" },
+  villa: { emoji: "🏡", en: "Villa", cz: "Vila", zh: "别墅" },
   basilica: { emoji: "⛪", en: "Basilica", cz: "Bazilika", zh: "宗座圣殿" },
   monastery: { emoji: "🏯", en: "Monastery", cz: "Klášter", zh: "修道院" },
   park: {
@@ -174,6 +175,8 @@ export const LABEL_DEFINITIONS = {
     zh: "街区",
   },
   municipal: { emoji: "🏢", en: "Municipal", cz: "Obecní", zh: "市政" },
+  factory: { emoji: "🏭", en: "Factory", cz: "Továrna", zh: "工厂" },
+  embassy: { emoji: "🎌", en: "Embassy", cz: "Velvyslanectví", zh: "大使馆" },
   "castle and fortress": {
     emoji: "🏰",
     en: "Castle & Fortress",
@@ -195,6 +198,7 @@ export const LABEL_COLORS = {
   architecture: "#4a3a6a",
   landmark: "#8a3f3f",
   palace: "#5a2a1a",
+  villa: "#6a4a2a",
   basilica: "#7a4a10",
   monastery: "#5a2a1a",
   "village-and-town": "#3b7a5a",
@@ -208,6 +212,8 @@ export const LABEL_COLORS = {
   tower: "#3a3a3a",
   street: "#4a3020",
   municipal: "#2a4a2a",
+  factory: "#5a5a3a",
+  embassy: "#2a5a7a",
   "castle and fortress": "#5a2a1a",
 };
 

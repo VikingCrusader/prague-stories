@@ -1519,6 +1519,447 @@ Bílek worked in almost complete indifference to the art market, in genuine dial
 🥚 Easter Egg: Bílek chose to build in Hradčany rather than in any of the fashionable artistic districts of the period — not Vinohrady, not the bourgeois New Town, but in the shadow of the castle, on the edge of the city's oldest and most symbolically loaded hill. This was deliberate. Bílek understood his work as belonging in the landscape of Czech spiritual history, not the commercial art market. He was also, by contemporary standards, extremely poor for most of his life, sustained by a small circle of admirers rather than sales. The villa is a monument to what it looks like when an artist builds their life entirely around vision and nothing else — including financial prudence. The result is extraordinary. The process was apparently quite hard.`,
     },
   },
+  {
+    name: 'Strašnice Crematorium',
+    slug: 'strasnice-crematorium',
+    localizedNames: { cz: 'Krematorium Strašnice', zh: '斯特拉什尼采火葬场' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.07645747473891, lng: 14.48472152135038 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Krematorium Strašnice — Prague's most confidently designed farewell. Built in the shadow of Vinohrady Cemetery, this Constructivist giant does not whisper about death the way churches do. It states it plainly, in poured concrete, with a floor plan the size of a small airport terminal.
+
+Architect Alois Mezera designed it in the late 1920s as a showcase of pure Constructivist confidence — no crosses, no saints, no Gothic spires, just clean geometry and a crematory hall built to a scale unmatched anywhere else in Europe. Construction began in 1929, the opening ceremony was held on 23 January 1932, and the building has been protected as a cultural monument since 1988. It remains, by floor area, the largest crematorium on the continent — Prague's talent for architectural excess apparently applies to endings as much as beginnings.
+
+Its ledger of names is where the building stops being merely impressive and becomes genuinely heavy. Writer Vladislav Vančura was secretly disposed of here in 1942 after his execution during the Nazi reprisals following the assassination of Reinhard Heydrich. General Josef Mašín and Bishop Gorazd of Prague met the same fate under occupation. After the war, the Communist regime used it exactly the same way: politician Milada Horáková was cremated here after her 1950 show trial, and to this day nobody knows where her ashes ended up. Václav Havel, first president of a free Czechoslovakia, was cremated here too in 2011 — the building's final, quieter irony.
+
+🥚 Easter Egg: Two regimes, one furnace. Vančura and Horáková were both disposed of here specifically because a public grave would have given their names somewhere to be remembered — the whole point was erasure. Havel's ashes, by grim contrast, went straight from this same building to a marked family vault in nearby Vinohrady Cemetery, in the full glare of a country that could finally say his name out loud. Same address, opposite outcome — which is about as concise a lesson in twentieth-century Czech history as this city has to offer.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'Dolní Počernice Chateau',
+    slug: 'zamek-dolni-pocernice',
+    localizedNames: { cz: 'Zámek Dolní Počernice', zh: '多尔尼波切尔尼采城堡' },
+    labels: ['architecture', 'historical', 'nature'],
+    coordinates: { lat: 50.08847059482143, lng: 14.579071963760668 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Zámek Dolní Počernice — the chateau Prague forgot to put on postcards. Tucked into a quiet eastern suburb beside a fishpond and an English park, it has spent six centuries quietly changing owners, roofs, and purposes without ever once managing to become famous. Undersell, meet overachieve.
+
+The estate began as a medieval fortress, first recorded in 1401 in an inheritance document for one Jan z Cách — though exactly who built it and when remains genuinely unclear. It passed through Late Gothic and Renaissance rebuilds, reverted briefly to the crown in 1562, and was sold to Matěj Hůlka, a Prague burgher elevated to nobility as "of Počernice" for his trouble. After the Battle of White Mountain in 1620 it was confiscated and resold at a discount, then held by the Counts of Colloredo-Wallsee from 1664 to 1769 — a fairly typical Central European ownership history, meaning: violent, frequent, and mostly about money.
+
+What stands today is a composite: an "old chateau" from around 1780 nearer the church, and a "new chateau" added in the 19th century, joined together and wrapped in a Baroque character that somehow survived every renovation. The formal garden was eventually let loose into a free, English-style park around the Počernický fishpond — landscaping that swapped aristocratic control for public wandering long before that was fashionable.
+
+🥚 Easter Egg: After centuries of counts, confiscations, and crown reversions, the chateau's current occupant has nothing to do with nobility at all — it now houses a children's home. A building built to project the authority of Bohemian aristocracy spent its final chapter, so far, doing something considerably more useful.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: "Křižík's Fountain",
+    slug: 'krizikova-fontana',
+    localizedNames: { cz: 'Křižíkova fontána', zh: '克列谢克喷泉' },
+    labels: ['cultural', 'historical'],
+    coordinates: { lat: 50.10747559608483, lng: 14.42926302737521 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Křižíkova fontána — Prague's original son-et-lumière showpiece, dancing and glowing at Výstaviště since 1891. Long before Las Vegas made water-and-light shows a tourist industry, a Czech engineer nicknamed the "Czech Edison" beat them to it by roughly a century.
+
+František Křižík built the fountain for the 1891 Jubilee Exhibition, hiding 26 arc lamps of his own invention beneath a glass floor so that coloured electric light shone directly through the jets — a genuine engineering marvel for its era, powered by steam-driven pumps shifting 250 litres of water per second. Contemporary accounts claimed it outperformed comparable fountains in London and Paris, which, for a fairground attraction in provincial Bohemia, was not a small boast.
+
+The fountain was completely overhauled for the 1991 General Czechoslovak Exhibition and now runs on nearly 3,000 water jets, 49 pumps, and 1,300 lights choreographed to music — a full technological generation beyond Křižík's original, though it keeps his name and his instinct for spectacle intact.
+
+🥚 Easter Egg: 1891 was a remarkably busy year for Křižík — the same Jubilee Exhibition that unveiled his fountain also saw the opening of Prague's first electrified tram line, his own invention as well, running right past what is now Letenský zámeček across the river. One engineer, one exhibition, two pieces of infrastructure that are both still running well over a century later.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'epet ARENA',
+    slug: 'epet-arena',
+    localizedNames: { cz: 'epet ARENA', zh: 'epet竞技场' },
+    labels: ['landmark', 'modern'],
+    coordinates: { lat: 50.099849317609504, lng: 14.415966413789576 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to epet ARENA — Sparta Praha's home turf, currently sponsored by whoever paid for the sign this decade. The pitch has stayed put on Letná hill since 1917. The name bolted to the stadium roof has not stayed put for even one of those years.
+
+The first wooden stadium here dates to 1921. The stands were expanded in 1969 to a thunderous 35,880 capacity, then rebuilt entirely in 1994 down to 20,854 seats, and trimmed again to today's 18,887 since 2009 — a stadium that has spent a century getting smaller and considerably more comfortable. It remains Sparta Praha's home ground and regularly hosts the Czech national team, making it one of the country's genuine footballing centres of gravity.
+
+The naming rights, meanwhile, have had a far more eventful run: Toyota Arena (2003–2007), AXA Arena (2007–2009), Generali Arena (2009–2020), Generali Česká pojišťovna Arena (2020–2022), and epet ARENA since November 2022. Sparta supporters have, sensibly, never once adjusted what they actually call it.
+
+🥚 Easter Egg: epet, the sponsor currently attached to Sparta's name, is a Slovak online betting operator — meaning the stadium's identity is now underwritten by an industry built entirely on unpredictable outcomes, which is either extremely fitting or extremely on the nose for a football club.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'Letná Chateau',
+    slug: 'letensky-zamecek',
+    localizedNames: { cz: 'Letenský zámeček', zh: '莱特纳城堡' },
+    labels: ['architecture', 'cultural'],
+    coordinates: { lat: 50.096180911872, lng: 14.425734118175772 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Letenský zámeček — the "little chateau" that is not really a chateau, but a very good beer garden with the best view of Prague you can get for the price of a pilsner. It has been pouring drinks with that view since 1863.
+
+The neo-Renaissance building was designed by architect Vojtěch Ignác Ullmann in 1863 and has functioned as a restaurant ever since — over 160 years of continuous service, which is longer than most Prague governments have managed to hold together. In 1891, during the Jubilee Exhibition, Prague's first electrified tram line opened just below it, and three years later a carousel with hand-carved wooden horses was installed behind the building for fairgoers.
+
+Today the site splits neatly into three moods: a sprawling open-air biergarten for beer and grilled meat with a panoramic view over the Vltava and the Old Town skyline, the more formal Belcredi room for private functions, and the Ullman brasserie for something closer to an actual sit-down meal.
+
+🥚 Easter Egg: That 1894 carousel is still there, still turning, still carrying children on the same wooden horses that entertained visitors when Prague's first tram was still a novelty two hundred metres away. Order a beer, look downhill, and you're standing in one of the very few corners of the city where three different eras of entertainment technology have coexisted, more or less unbothered, for well over a century.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'Letná Water Tower',
+    slug: 'vodarenska-vez-letna',
+    localizedNames: { cz: 'Vodárenská věž na Letné', zh: '莱特纳水塔' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.10025326907724, lng: 14.419916890219522 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Vodárenská věž — Letná's very own water tower, a pseudo-Romanesque brick giant that spent barely a generation doing its actual job before Prague found something else for it to do. It has been reinventing itself ever since.
+
+Completed in 1888 to a design by Jindřich Fialka and built for the city of Prague by the Hübschmann & Schlaffer construction company, the tower pumped water uphill to serve the upper reaches of Holešovice and Bubeneč. Its career as actual infrastructure was strikingly short: the waterworks were decommissioned in 1913, after just twenty-five years, and the building was converted into flats for the water company's own employees.
+
+Standing 38.3 metres tall and crowned with a pyramidal roof and a small clock tower, it offers a viewing gallery at 20.5 metres, ringed by a neo-Renaissance arcade resting on stone cantilevers. Since 1978 it has served as a base for Prague 7's youth and Pioneer organisations, and a careful 2016–2018 restoration by Petr Hájek Architekti brought the building back into public use.
+
+🥚 Easter Egg: A tower built to move water uphill has now spent nearly six times longer as a youth centre and public landmark than it ever spent as working infrastructure. Prague has a habit of retiring its utilities into second careers — this one just happened to land on "clubhouse with a really good view" rather than "demolished."`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'Lilith (David Černý)',
+    slug: 'lilith-david-cerny',
+    localizedNames: { cz: 'Lilith (David Černý)', zh: '莉莉丝（大卫·切尔尼）' },
+    labels: ['cultural', 'monument', 'modern'],
+    coordinates: { lat: 50.09701996412785, lng: 14.461879164325273 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Lilith — the 24-metre stainless-steel woman David Černý bolted to the side of an apartment block in 2022, because a normal balcony apparently wasn't dramatic enough. She has been quietly hugging the building, and unsettling the neighbours, ever since.
+
+Forged from mirror-polished stainless steel and weighing 35 tonnes, Lilith wraps herself around the exterior wall of a modern residential building that is part of the Fragment development — 140 apartments given an entirely unasked-for landmark. She takes her name from Jewish mythology's Lilith, cast in some traditions as Adam's first wife and in others as a demon, a figure Černý reclaims here as an emblem of independence rather than menace.
+
+This is standard operating procedure for Černý, whose permanent Prague works already include a giant rotating Kafka head, crawling black babies on the Žižkov TV Tower, and a Trabant on legs — a body of work built entirely on the premise that public art should occasionally make people flinch.
+
+🥚 Easter Egg: Lilith is not actually static. Her head slowly rotates a full 180 degrees on a hidden motorised mechanism, so if you linger near the metro exit long enough, you can watch her turn to look directly at you — which is either the city's best piece of interactive art or its most effective way of making commuters walk faster.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'Lyčkovo Square (Intelligence Statue)',
+    slug: 'lyckovo-namesti-inteligence',
+    localizedNames: { cz: 'Lyčkovo náměstí (Socha Inteligence)', zh: '利奇科夫广场（智慧雕像）' },
+    labels: ['monument', 'historical', 'cultural'],
+    coordinates: { lat: 50.093729257186624, lng: 14.458052431154787 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Lyčkovo náměstí — a modest Karlín square that has changed its name four times and its centrepiece statue not once. Through empire, occupation, and communism, a bronze woman has stood here quietly holding a book, apparently above all the fuss.
+
+The sculpture, titled simply Inteligence, was created in 1910 by Josef Mařatka (1874–1937), a leading Czech sculptor of his generation. It depicts intelligence as an allegorical young woman in contrapposto, head gently tilted, robes flowing, a book held in her left hand — restrained, classical, entirely untroubled by the century of chaos about to unfold around her.
+
+The square itself has had a rougher time of it than its statue: originally named Rieglovo náměstí, renamed Erbenovo during the wartime occupation, restored to Rieglovo afterward, and finally renamed Lyčkovo náměstí in 1948 in honour of Dr. Břetislav Lyčka, a physician remembered for his assistance during the Second World War.
+
+🥚 Easter Egg: Four names, three regimes, one statue that never had to update her paperwork. While the square around her was being renamed by whoever currently held power in Prague, Inteligence simply kept holding her book — a fairly on-the-nose piece of civic irony for a sculpture literally named after the value of quietly outlasting nonsense.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'Museum of Literature',
+    slug: 'muzeum-literatury',
+    localizedNames: { cz: 'Muzeum literatury – Památník národního písemnictví', zh: '文学博物馆——国家文学纪念馆' },
+    labels: ['museum', 'cultural', 'historical'],
+    coordinates: { lat: 50.1022543150346, lng: 14.407830571336783 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Museum of Literature — home of the Památník národního písemnictví, an institution that spent seventy years locked inside a monastery before finally moving into a confiscated banker's villa. Even Czech literature, it turns out, needed a very long and complicated plot before reaching its happy ending.
+
+The institution was founded in 1952 after the Communist state seized Strahov Monastery and its library, folding in collections from other dissolved monasteries to build a state archive of Czech literary heritage. For nearly seventy years it operated out of Strahovské nádvoří, until the monastery was returned to the Premonstratensian order after 1989 and the collection was pushed into rented storage outside the city — a fairly undignified fate for the nation's literary memory.
+
+In 2022 it finally found a proper home: the third Petschkova vila in Bubeneč, an eclectic 1929–1930 villa built by architect Max Spielmann for Marianne Gellertová of the wealthy Petschek banking family. The Petscheks were forced to flee to England in 1938 as the Nazi occupation closed in, and their property was confiscated. The Chinese Embassy later used the building, before it sat empty and disputed for over a decade. A full 2017–2021 restoration finally turned it into what it is today: nearly 1,000 square metres of literary exhibition space.
+
+🥚 Easter Egg: The building's occupants form an almost absurd historical relay — a persecuted Jewish banking family, a communist-era foreign embassy, years of bureaucratic limbo, and finally a museum dedicated to preserving the written word. If the villa's walls could talk, they would need an entire library just to get through the twentieth century.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'Old Wastewater Treatment Plant (Bubeneč)',
+    slug: 'stara-cistirna-odpadnich-vod',
+    localizedNames: { cz: 'Stará čistírna odpadních vod v Bubenči', zh: '布本涅奇老污水处理厂' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.110125527069584, lng: 14.402159418986486 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Stará čistírna odpadních vod — Prague's beautifully preserved 1906 sewage plant, proof that even wastewater infrastructure can end up on a heritage list if you wait around in mint condition for over a century. Yes, this is a real tourist attraction. Yes, it is about sewage.
+
+Built between 1901 and 1906 as the final piece of Prague's first systematic sewer network, the plant was engineered by the British sanitation expert Sir William Heerlein Lindley, a man who spent his career making European cities considerably less disease-ridden. Steam engines, brick vaulted chambers, and settling tanks were all built to a standard so solid that the plant kept treating the city's waste continuously until 1967, when a modern facility on Císařský ostrov finally took over.
+
+Because almost nothing was demolished or modernised afterward, the site survives as a nearly complete snapshot of turn-of-the-century sanitary engineering — steam-powered pumping halls and Victorian ironwork intact. It has been a national cultural monument since 2010, an anchor point of the European Route of Industrial Heritage since 2016, and is currently on Czechia's UNESCO tentative list.
+
+🥚 Easter Egg: Sir William Lindley's family business of untangling European cities' sewage was practically hereditary — his father and sons all worked as sanitary engineers across the continent, quietly saving more lives through drainage than most generals ever did through battle. Prague's clean water and reduced cholera rates in the early twentieth century owe rather a lot to a family most visitors have never heard of.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'Academy of Fine Arts in Prague',
+    slug: 'akademie-vytvarnych-umeni',
+    localizedNames: { cz: 'Akademie výtvarných umění v Praze', zh: '布拉格美术学院' },
+    labels: ['academy', 'architecture', 'cultural'],
+    coordinates: { lat: 50.10269066434499, lng: 14.424561293270557 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Akademie výtvarných umění — the oldest art school in the country, founded in 1799 by imperial decree so that Czech students from Bohemia, Moravia, and Silesia no longer had to travel to Vienna or Munich just to learn how to properly hold a paintbrush.
+
+Founded by decree of Emperor Francis I on the initiative of the Society of Patriotic Friends of Art, the Academy began teaching in 1800 under its first director, the German engraver Joseph Bergler. It was nationalised in 1896 and formally recognised in 1922 as the country's first state institution of higher art education — a two-century journey from provincial workaround to the top of the Czech art establishment.
+
+The building you see today, in Bubeneč overlooking Stromovka park, was designed by architect Václav Roštlapil and built between 1898 and 1903 in a High Baroque volumetric style layered with Renaissance detail and early Art Nouveau flourishes. Its north-facing studios were deliberately glazed to catch the steady, even daylight painters actually want, rather than the dramatic light everyone else in Prague was busy building towards.
+
+🥚 Easter Egg: The Academy's neighbour on this stretch of Bubeneč riverbank is the small Church of St. Gothard — meaning generations of Czech art students have trained their eye for form and shadow within sight of a parish church whose own history includes being burned down by Hussite soldiers in 1420. Inspiration, it turns out, sits right next door to destruction.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'Church of St. Gothard',
+    slug: 'kostel-svateho-gotharda',
+    localizedNames: { cz: 'Kostel svatého Gotharda', zh: '圣哥达教堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.102695530385795, lng: 14.424576466136562 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Kostel svatého Gotharda — a small Bubeneč parish church with a genuinely eventful past, given that its medieval predecessor was burned to the ground by revolutionary soldiers and the parish itself was abolished for over 350 years before anyone got around to fixing it.
+
+Devotion to St. Gothard, an 11th-century Bavarian abbot, arrived in Bohemia with Benedictine monks from Niederaltaich who helped found nearby Břevnov Monastery. A medieval church stood here until May 1420, when Jan Žižka's Hussite forces defeated Royalist troops nearby and, in the chaos of that victory, burned and plundered the church along with most of the surrounding settlement. The parish was formally abolished in 1421 and the building sat ruined for over three and a half centuries.
+
+The parish was finally revived in 1786, and the current Classicist building on Baroque foundations went up between 1800 and 1801, consecrated that October by Prague's auxiliary bishop. Unstable ground forced repairs and modifications within a decade of construction, and the tower didn't get its clock faces until 1870, paid for by prominent builder Vojtěch Lanna the Younger. The interior sculpture came from the workshop of Ignác Michael Platzer, one of Bohemia's leading Baroque sculptors.
+
+🥚 Easter Egg: A parish abolished in 1421 and not revived until 1786 spent longer in administrative limbo — 365 years — than the entire history of the United States. Prague's patience with unfinished business is, by any reasonable standard, extraordinary.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'Ministry of Education, Youth and Sports',
+    slug: 'ministerstvo-skolstvi',
+    localizedNames: { cz: 'Ministerstvo školství, mládeže a tělovýchovy', zh: '捷克教育、青年和体育部' },
+    labels: ['historical', 'architecture', 'palace'],
+    coordinates: { lat: 50.08525281159678, lng: 14.404166318117742 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Ministry of Education, Youth and Sports — a stately Malá Strana palace that has quietly hosted actors, aristocrats, and bureaucrats in roughly that order, proving that Czech culture and Czech civil service have always shared surprisingly good real estate.
+
+The site originally held three separate houses, built around 1571 by the architect and stonemason Bonifác Wohlmut. One of them operated as a theatre hall between 1700 and 1713, staging German-language opera in a Malá Strana still very much under Habsburg cultural influence. By the 1790s the houses belonged to the Czernín family, who had them joined into a single palace in a 1796 reconstruction led by architect Josef Zobel.
+
+The palace's transformation into a government ministry came much later, once the modern Czechoslovak and then Czech state needed dignified premises for its education administration — the current Ministry of Education, Youth and Sports was established in 1969 and has occupied the building as its national headquarters ever since, turning a onetime opera house into the office that decides what the country's schoolchildren study.
+
+🥚 Easter Egg: A building that once staged imported German opera for the aristocracy now spends its days approving Czech school curricula — meaning the loudest performances in this palace shifted, over three centuries, from arias to budget meetings. Whether that counts as progress is left as an exercise for the visiting adventurer.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'Modřany Vineyard',
+    slug: 'modranska-vinice',
+    localizedNames: { cz: 'Modřanská vinice', zh: '摩德拉尼葡萄园' },
+    labels: ['nature', 'historical', 'restaurants-and-cafes'],
+    coordinates: { lat: 50.011415374482446, lng: 14.404002425560801 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Modřanská vinice — Prague's southernmost vineyard, a patch of hillside that has been growing grapes, on and off, since a medieval prince donated it to the church in 1178. Modern viticulture, it turns out, is just very old viticulture that occasionally took a nap.
+
+Prince Soběslav II gifted the vineyard to the Vyšehrad Chapter in 1178, beginning an ownership history split between church and crown for centuries. In 1715 it was formally named the Archbishop's Vineyard after passing to the Prague Archbishopric, which replanted and expanded it to roughly two hectares in the early 19th century. Its luck ran out in the 1920s: the vineyard was sold off, fell into neglect, and froze solid in the brutal winter of 1929, effectively ending centuries of continuous cultivation.
+
+It stayed dormant for nearly six decades until 1987, when members of the Czech Gardening Association revived it plot by plot — a genuinely grassroots restoration rather than a state or church project this time. Today it's a patchwork of individually tended parcels growing traditional varieties like Riesling, Pinot Noir, Traminer, and Blue Portugal, alongside an orchard and a restored vineyard house with its own restaurant and barn.
+
+🥚 Easter Egg: A vineyard founded by a 12th-century prince and revived by 20th-century garden-club hobbyists has effectively swapped one kind of nobility for another — the aristocracy of people willing to argue passionately about pruning technique. Eight centuries later, that turns out to be the more durable kind.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'Strahov Dormitories',
+    slug: 'koleje-strahov',
+    localizedNames: { cz: 'Koleje Strahov (ČVUT)', zh: '斯特拉霍夫学生宿舍（布拉格技术大学）' },
+    labels: ['historical', 'modern', 'landmark'],
+    coordinates: { lat: 50.080456283350465, lng: 14.393471080040232 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Koleje Strahov — a vast concrete hillside of student dormitories that looks, from a distance, like a small Brutalist city-state. Thousands of Czech Technical University students have called this home. In 1967, a few thousand of them got very, very angry about the lights going out.
+
+Built from the 1950s onward on the hill above Strahov Monastery, this is one of the largest student dormitory complexes in Europe — a sprawling grid of housing blocks designed to warehouse the growing ranks of Czechoslovakia's technical university students. It remains a working ČVUT dormitory today, largely unchanged in spirit: cramped rooms, long corridors, and generations of engineering students pulling all-nighters within the same grey concrete walls.
+
+On the night of 31 October 1967, one of Strahov's recurring electricity blackouts finally tipped students over the edge. Around 1,500 of them marched out of the dormitories toward the government seat in Malá Strana, chanting "We want light!" and "We want to study!" Riot police met them with tear gas and batons, reportedly sneering "here's your light" as they struck. It was meant to be a minor housing complaint. It did not stay that way.
+
+🥚 Easter Egg: The brutal police crackdown on this small student protest backfired spectacularly. Public outrage over Strahov helped force out hardline leader Antonín Novotný, clearing the way for Alexander Dubček's reformist rise and the Prague Spring of 1968. A blown fuse in a student dormitory helped set in motion one of the defining events of the Cold War — which is either a remarkable coincidence or proof that revolutions really can start with something as small as a light switch.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'House of the Black Madonna',
+    slug: 'dum-u-cerne-matky-bozi',
+    localizedNames: { cz: 'Dům U Černé Matky Boží', zh: '黑圣母之屋' },
+    labels: ['museum', 'architecture', 'cultural'],
+    coordinates: { lat: 50.086990387115286, lng: 14.425406917197128 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Dům U Černé Matky Boží — the House of the Black Madonna, proof that Cubism, an art movement mostly known for confusing paintings, briefly and gloriously escaped the canvas to build an entire functioning office block, complete with its own café.
+
+Architect Josef Gočár designed the building in 1911 at just thirty-one years old, for wholesale merchant František Josef Herbst, and completed it the following year as the first true work of Cubist architecture in Prague. A reinforced-concrete skeleton, borrowed from the Chicago School of engineering, let Gočár skip load-bearing walls entirely and cover the exterior in the angular, fractured geometry Cubist painters had, until then, kept safely on canvas. The building takes its name from a small Baroque statue of a black Madonna salvaged from an earlier structure on the same corner.
+
+The ground floor originally housed the Grand Café Orient — the only Cubist café ever built, with Cubist chairs, Cubist chandeliers, and a Cubist view over Celetná street. It lasted about a decade before closing in the 1920s, apparently because customers found the aggressively geometric furniture more interesting to look at than to sit in. The upper floors today house the Museum of Czech Cubism, the only style of architecture the Czech lands can genuinely claim to have made distinctly their own.
+
+🥚 Easter Egg: Grand Café Orient sat empty and forgotten for over eighty years before a meticulous restoration reopened it in the 2000s, angular chandeliers and all. You can still order a coffee there today, which makes it one of the very few places on earth where you can experience an entire early-twentieth-century art movement through the shape of your own chair.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'Josef Sudek Gallery',
+    slug: 'galerie-josefa-sudka',
+    localizedNames: { cz: 'Galerie Josefa Sudka', zh: '约瑟夫·苏德克画廊' },
+    labels: ['museum', 'cultural', 'hidden-gem'],
+    coordinates: { lat: 50.08829615085762, lng: 14.394736286187927 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Josef Sudek Gallery — a tiny 61-square-metre wooden garden studio that has spent over a century quietly proving you don't need a big building to produce great art, just excellent light and one fairly stubborn one-armed photographer.
+
+The studio itself predates its most famous tenant: this small glass-roofed garden pavilion was moved to Újezd from Královské Vinohrady in 1901, making it the last surviving nineteenth-century garden photo studio in Prague. Josef Sudek — who lost his right arm in the First World War and rebuilt his entire life around photography instead — began working here in 1927, eventually moving in to live alongside his sister and studio assistant, Božena Sudková.
+
+From this single room, Sudek produced some of the most quietly obsessive photographic series in Czech art history: The Window of My Studio, A Walk in My Garden, The Garden of My Studio, and Still Life on the Window of My Studio — decades spent photographing, essentially, the same window and the same small garden, over and over, until both became genuinely profound. The original studio burned down in 1985; the faithful replica standing today was rebuilt in 2000 and now runs as a contemporary photography gallery.
+
+🥚 Easter Egg: Sudek moved out of this studio in 1959 to a flat on Úvoz street — a five-minute walk from Rothmayerova vila, the home of his close friend, architect Otto Rothmayer, where Sudek was a frequent guest. A photographer who spent thirty years fixated on the same square metre of garden clearly still valued having somewhere interesting to walk to.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'Ctěnice Chateau',
+    slug: 'zamecky-areal-ctenice',
+    localizedNames: { cz: 'Zámecký areál Ctěnice', zh: '采特尼采城堡区' },
+    labels: ['architecture', 'historical', 'museum'],
+    coordinates: { lat: 50.1487150028989, lng: 14.563281599382933 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Zámecký areál Ctěnice — a genuine medieval fortress turned Renaissance manor turned Classicist chateau, sitting so far out in Prague's northeastern suburbs that most residents of the city centre have never once heard of it, let alone visited.
+
+First recorded in 1372, when a Prague burgher named Jan Cajzlmajstr bought the existing Gothic fortress, Ctěnice spent the 16th century in the hands of the Hrzán family of Harasov, who rebuilt it in Renaissance style. An 18th-century classicist reconstruction gave the chateau essentially the appearance it still has today — modest, symmetrical, and entirely unbothered by the grander architectural ambitions of Prague's city-centre palaces.
+
+The City of Prague took ownership of the whole estate — chateau, outbuildings, and park — in 1993, and spent over seven years on a thorough renovation before handing it to the Prague City Museum in 2012. It now hosts a permanent exhibition tracing Ctěnice's own eight-hundred-year history, alongside temporary shows and family programming, in a genuinely peaceful corner of the city that most tourist itineraries never come close to reaching.
+
+🥚 Easter Egg: Ctěnice has survived over 650 years of Bohemian history — plague, war, confiscation, nationalisation — mostly by being just obscure enough that nobody bothered fighting very hard over it. Sometimes the safest way for a building to last eight centuries is to stay quietly uninteresting to whoever currently holds power.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'Podskalí Customs House at Výtoň',
+    slug: 'podskalska-celnice-na-vytoni',
+    localizedNames: { cz: 'Podskalská celnice Na Výtoni', zh: '维托尼关税站' },
+    labels: ['museum', 'historical', 'hidden-gem'],
+    coordinates: { lat: 50.0678540469226, lng: 14.415367802235844 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Podskalská celnice Na Výtoni — the last building left standing from an entire riverside neighbourhood that Prague simply demolished, and the only place in the city where you can learn how much tax got charged on a raft full of logs.
+
+Podskalí — "below the rocks" — was a riverside settlement first recorded in 1199, home for centuries to the Vltava's timber rafters and boatmen, who held an exclusive royal right to the wood trade granted by John of Bohemia in the 14th century. This 16th-century building served simultaneously as an inn, a hostel for the rafters, and a customs post — collecting duty on the log rafts by literally cutting out a portion of the timber as payment before it entered the city.
+
+The rafting trade peaked in the second half of the 19th century, then declined sharply through the 1930s as dams reshaped the river; the very last raft floated down the Vltava in 1960, just ahead of the Orlík dam's completion. Podskalí itself did not survive to see it: the entire neighbourhood was demolished between 1905 and 1914 to build the Vyšehrad tunnel and embankment. This customs house is the sole survivor, now run as a small museum on the vanished settlement and its rafters, maintained partly through the Vltavan association founded by former rafters back in 1871.
+
+🥚 Easter Egg: An entire neighbourhood — houses, taverns, timber yards, generations of families — was flattened for a road tunnel, and the only thing Prague kept was the tax office. There may be no more honest metaphor for urban planning anywhere in the city.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'Villa Müller',
+    slug: 'mullerova-vila',
+    localizedNames: { cz: 'Müllerova vila', zh: '穆勒别墅' },
+    labels: ['villa', 'architecture', 'modern'],
+    coordinates: { lat: 50.09255283407858, lng: 14.378454204965962 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Müllerova vila — a plain white cube from the outside and an architectural labyrinth on the inside, built by a man whose entire philosophy could be summarized as: floor plans are for people with no imagination.
+
+Adolf Loos designed the villa in 1930 for construction magnate František Müller, and used it to build the definitive example of his Raumplan concept — a house organised not as flat stacked floors but as a continuous sequence of interlocking rooms set at different heights, each level pitched exactly to the importance and function of the room it holds. Loos infamously refused to draw conventional facades or floor plans at all, insisting he designed in "spaces," not blueprints — an approach that makes the Villa Müller notoriously difficult to draw and genuinely disorienting to walk through for the first time.
+
+The severe cubic white exterior, in line with Loos's 1908 essay "Ornament and Crime," hides an interior soaked in exactly the marble, dark wood, and silk luxury the exterior seems to renounce — a contradiction Loos considered entirely intentional. The Müllers lived here for eighteen years before the Communist regime seized the house in 1948; by 1968 its most significant furnishings had been sold off to Prague's museums, and the building spent decades as a state-owned oddity before a 1998 restoration and its reopening as a museum in 2000.
+
+🥚 Easter Egg: Loos's insistence on designing "spaces, not floor plans" turned out to be a genuine practical headache — the villa is famously difficult for visitors to mentally map, since a room can sit half a level above one neighbour and half a level below another, all reached via the same central staircase. Even architecture students touring the building today routinely lose track of which floor they're technically standing on.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'Villa Rothmayer',
+    slug: 'rothmayerova-vila',
+    localizedNames: { cz: 'Rothmayerova vila', zh: '罗特迈耶别墅' },
+    labels: ['villa', 'architecture', 'hidden-gem'],
+    coordinates: { lat: 50.09124147152592, lng: 14.364264580638425 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Rothmayerova vila — the Mediterranean-flavoured hideaway an architect built for himself once he got tired of designing extravagant details for other people's castles, namely the one on the hill just up the road.
+
+Otto Rothmayer spent his career as the closest collaborator of Josip Plečnik, the visionary Slovene architect responsible for reshaping much of Prague Castle in the interwar years — designing staircases, gates, and ornamental details under Plečnik's direction. In 1928–1929, Rothmayer built this villa for himself and his wife, textile artist Božena Rothmayerová, in Střešovice, working in a classicising modernist style that borrowed directly from the sun-washed Mediterranean sensibility Plečnik had brought to Bohemia.
+
+The house quickly became an informal gathering point for Prague's interwar and postwar creative circle — photographer Josef Sudek, sculptors Bedřich Stefan and Hana Wichterlová, and glassmaker René Roubíček were all regular guests, turning Rothmayer's private home into an unofficial salon for Czech modernism. Protected as a cultural monument since 2010, it opened to the public in 2015 as a Prague City Museum branch, its garden now free to wander even outside gallery hours.
+
+🥚 Easter Egg: The man who spent his professional life adding whimsical, almost fairy-tale details to Prague Castle's austere stonework — the Bull Staircase, ornamental gates, obelisks — went home every evening to a considerably smaller and stranger house of his own design. Even architects who spend their days working for kings apparently still want a weird little place that's entirely theirs.`,
+      cz: '',
+      zh: '',
+    },
+  },
 ];
 
 async function run() {
