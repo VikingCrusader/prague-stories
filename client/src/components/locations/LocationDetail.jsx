@@ -12,7 +12,12 @@ import { getLocName } from "../../utils/locName";
 import { getCurrentPosition } from "../../utils/geolocation";
 import LanguageSwitcher from "../shared/LanguageSwitcher";
 import EditLocationForm from "./EditLocationForm";
-import { RARITY_COLOR, RARITY_LABEL, lockClosedIcon, lockOpenIcon } from "../../utils/rarity";
+import {
+  RARITY_COLOR,
+  RARITY_LABEL,
+  lockClosedIcon,
+  lockOpenIcon,
+} from "../../utils/rarity";
 import { playUnlockSound } from "../../utils/sound";
 
 export default function LocationDetail({
@@ -465,7 +470,7 @@ export default function LocationDetail({
                   ? enParas[0].trim().split(/\s+/).length
                   : 0;
                 const showCount =
-                  paras.length <= 3 || firstEnWords > 30 ? 1 : 2;
+                  paras.length <= 3 || firstEnWords > 20 ? 1 : 2;
                 const visible = !loc.unlocked
                   ? paras.slice(0, showCount)
                   : paras;
