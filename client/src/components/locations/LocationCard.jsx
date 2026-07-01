@@ -2,7 +2,7 @@ import { useState, useRef, useLayoutEffect, useEffect } from 'react';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap';
 import { useLang, useConvert } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
-import { RARITY_COLOR, RARITY_LABEL } from '../../utils/rarity';
+import { RARITY_COLOR, RARITY_LABEL, lockClosedIcon, lockOpenIcon } from '../../utils/rarity';
 import { playUnlockSound } from '../../utils/sound';
 
 function fmtDist(m) {
@@ -68,12 +68,12 @@ export default function LocationCard({ location, onClick, distance }) {
         )}
         {flipping ? (
           <div className="loc-card__flip-overlay">
-            <img className="loc-card__flip-lock" src="/pixel-art/lock-closed.webp" alt="" />
-            <img className="loc-card__flip-unlock" src="/pixel-art/lock-open.webp" alt="" />
+            <img className="loc-card__flip-lock" src={lockClosedIcon(rarity)} alt="" />
+            <img className="loc-card__flip-unlock" src={lockOpenIcon(rarity)} alt="" />
             <div className="loc-card__flip-shine" />
           </div>
         ) : (!unlocked && (
-          <img className="loc-card__lock" src="/pixel-art/lock-closed.webp" alt="" />
+          <img className="loc-card__lock" src={lockClosedIcon(rarity)} alt="" />
         ))}
       </div>
       <div className="loc-card__body">

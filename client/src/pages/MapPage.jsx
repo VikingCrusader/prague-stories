@@ -7,7 +7,7 @@ import { getLocName } from '../utils/locName';
 import { getCurrentPosition } from '../utils/geolocation';
 import MapView from '../components/map/MapView';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../utils/pixelArtMap';
-import { RARITY_COLOR, RARITY_LABEL } from '../utils/rarity';
+import { RARITY_COLOR, RARITY_LABEL, lockClosedIcon } from '../utils/rarity';
 
 const RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
 
@@ -340,7 +340,7 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
           <span style={{ fontSize: '4rem', filter: loc.unlocked ? undefined : 'saturate(0.15)' }}>{art}</span>
         )}
         {!loc.unlocked && (
-          <img src="/pixel-art/lock-closed.webp" alt="" style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '80%', height: 'auto', imageRendering: 'pixelated', zIndex: 2 }} />
+          <img src={lockClosedIcon(loc.rarity)} alt="" style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '80%', height: 'auto', imageRendering: 'pixelated', zIndex: 2 }} />
         )}
       </div>
 

@@ -1,5 +1,10 @@
 export const RARITY_XP = { common: 10, rare: 20, superior: 30, epic: 50, mythic: 70, legend: 100 };
 
+export const KING_LOCK_RARITIES = ['epic', 'mythic', 'legend'];
+export const isKingLockRarity = (rarity) => KING_LOCK_RARITIES.includes(rarity);
+export const lockClosedIcon = (rarity) => isKingLockRarity(rarity) ? '/pixel-art/lock-closed-king.webp' : '/pixel-art/lock-closed.webp';
+export const lockOpenIcon = (rarity) => isKingLockRarity(rarity) ? '/pixel-art/lock-open-king.webp' : '/pixel-art/lock-open.webp';
+
 export const RARITY_COLOR = {
   common:   '#EBE8D9',
   rare:     '#87CEEB',

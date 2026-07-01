@@ -12,7 +12,7 @@ import { getLocName } from "../../utils/locName";
 import { getCurrentPosition } from "../../utils/geolocation";
 import LanguageSwitcher from "../shared/LanguageSwitcher";
 import EditLocationForm from "./EditLocationForm";
-import { RARITY_COLOR, RARITY_LABEL } from "../../utils/rarity";
+import { RARITY_COLOR, RARITY_LABEL, lockClosedIcon, lockOpenIcon } from "../../utils/rarity";
 import { playUnlockSound } from "../../utils/sound";
 
 export default function LocationDetail({
@@ -212,12 +212,12 @@ export default function LocationDetail({
                     <div className="loc-card__flip-overlay">
                       <img
                         className="loc-card__flip-lock"
-                        src="/pixel-art/lock-closed.webp"
+                        src={lockClosedIcon(loc.rarity)}
                         alt=""
                       />
                       <img
                         className="loc-card__flip-unlock"
-                        src="/pixel-art/lock-open.webp"
+                        src={lockOpenIcon(loc.rarity)}
                         alt=""
                       />
                       <div className="loc-card__flip-shine" />
@@ -225,7 +225,7 @@ export default function LocationDetail({
                   ) : (
                     !loc.unlocked && (
                       <img
-                        src="/pixel-art/lock-closed.webp"
+                        src={lockClosedIcon(loc.rarity)}
                         alt=""
                         style={{
                           position: "absolute",
@@ -316,12 +316,12 @@ export default function LocationDetail({
                       <div className="loc-card__flip-overlay">
                         <img
                           className="loc-card__flip-lock"
-                          src="/pixel-art/lock-closed.webp"
+                          src={lockClosedIcon(loc.rarity)}
                           alt=""
                         />
                         <img
                           className="loc-card__flip-unlock"
-                          src="/pixel-art/lock-open.webp"
+                          src={lockOpenIcon(loc.rarity)}
                           alt=""
                         />
                         <div className="loc-card__flip-shine" />
@@ -329,7 +329,7 @@ export default function LocationDetail({
                     ) : (
                       !loc.unlocked && (
                         <img
-                          src="/pixel-art/lock-closed.webp"
+                          src={lockClosedIcon(loc.rarity)}
                           alt=""
                           style={{
                             position: "absolute",
