@@ -15,17 +15,13 @@ import MapPage from './pages/MapPage';
 import DashboardPage from './pages/DashboardPage';
 import GuidePage from './pages/GuidePage';
 
-const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-
 function ProximityDetector() {
   const { user } = useAuth();
   const navigate = useNavigate();
-  const { showPrompt, request, dismiss: dismissOptIn, permission } = useNotificationPermission();
+  const { showPrompt, request, dismiss: dismissOptIn } = useNotificationPermission();
   const [nearbyLoc, setNearbyLoc] = useState(null);
 
-  // Show in-app toast on desktop always; on mobile only when push notifications not granted
-  const useInApp = !isMobile || permission !== 'granted';
-  useProximityDetection(!!user, { onNearby: useInApp ? setNearbyLoc : undefined });
+  useProximityDetection(!!user, { onNearby: setNearbyLoc });
 
   useEffect(() => {
     if (!navigator.serviceWorker) return;
