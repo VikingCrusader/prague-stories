@@ -280,6 +280,26 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
   if (!loc) return null;
 
   const desc = convert(loc.description?.[lang] || loc.description?.en || '');
+  const TEASER = {
+    zh: [
+      '......',
+      '🔒档案似乎被被锁住了...未完待续...',
+      '这个地方等着你亲自到场来解锁完整档案，暂时不予剧透。',
+      '“来吧，勇敢的探险家，我会一直等着你~”',
+    ],
+    en: [
+      '......',
+      '🔒The archive seems to be locked...To be continued...',
+      'This location is waiting for you to unlock its full archive in person. No spoilers — yet.',
+      '“Come on, brave adventurer, I will be waiting for you~”',
+    ],
+    cz: [
+      '......',
+      '🔒Soubor se zdá být uzamčený....Pokračování příště...',
+      'Tento archiv zůstává utajen, dokud sem osobně nedorazíš. Zatím žádné spoilery.',
+      '“Pojď, statečný dobrodruhu, budu na tebe čekat~”',
+    ],
+  };
 
   const doCheckIn = async () => {
     setActionLoading(true);
@@ -355,15 +375,28 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
           {loc.unlocked && <span style={{ marginLeft: 4, color: '#8eff8e', fontFamily: "'Press Start 2P'", fontSize: 6 }}>{t('common.visited')}</span>}
         </div>
 
-        {desc ? (
-          <div style={{ marginTop: 14, marginBottom: 16 }}>
-            {desc.split('\n').filter(l => l.trim()).map((para, i) => (
-              <p key={i} className="detail-desc" style={{ marginBottom: 10 }}>{para}</p>
-            ))}
-          </div>
-        ) : (
-          <p style={{ color: 'var(--text-muted)', fontSize: 15, marginTop: 14, marginBottom: 16 }}>{t('common.noDesc')}</p>
-        )}
+        {(() => {
+          const paras = desc ? desc.split('\n').filter(l => l.trim()) : [];
+          if (!paras.length) return (
+            <p style={{ color: 'var(--text-muted)', fontSize: 15, marginTop: 14, marginBottom: 16 }}>{t('common.noDesc')}</p>
+          );
+          const enParas = (loc.description?.en || '').split('\n').filter(l => l.trim());
+          const firstEnWords = enParas[0] ? enParas[0].trim().split(/\s+/).length : 0;
+          const showCount = paras.length <= 3 || firstEnWords > 30 ? 1 : 2;
+          const visible = loc.unlocked ? paras : paras.slice(0, showCount);
+          return (
+            <div style={{ marginTop: 14, marginBottom: 16 }}>
+              {visible.map((para, i) => (
+                <p key={i} className="detail-desc" style={{ marginBottom: 10 }}>{para}</p>
+              ))}
+              {!loc.unlocked && (TEASER[lang] || TEASER.en).map((line, i, arr) => (
+                <p key={i} className="detail-desc" style={{ marginBottom: i === arr.length - 1 ? 10 : 4, color: 'var(--text-muted)', fontStyle: 'italic' }}>
+                  {convert(line)}
+                </p>
+              ))}
+            </div>
+          );
+        })()}
 
         <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
           {loc.wikipediaUrl && (

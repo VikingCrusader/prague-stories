@@ -250,6 +250,7 @@ export default function LocationDetail({
                     padding: "14px 18px",
                     background:
                       "linear-gradient(transparent, rgba(0,0,0,0.85))",
+                    zIndex: 3,
                   }}
                 >
                   <h2
