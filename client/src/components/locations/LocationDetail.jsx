@@ -9,6 +9,7 @@ import { getCurrentPosition } from '../../utils/geolocation';
 import LanguageSwitcher from '../shared/LanguageSwitcher';
 import EditLocationForm from './EditLocationForm';
 import { RARITY_COLOR, RARITY_LABEL } from '../../utils/rarity';
+import { playUnlockSound } from '../../utils/sound';
 
 
 export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpdate, autoCheckIn }) {
@@ -31,7 +32,7 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
 
   useEffect(() => {
     if (loc === null) return;
-    if (prevUnlockedRef.current === false && loc.unlocked === true) setFlipping(true);
+    if (prevUnlockedRef.current === false && loc.unlocked === true) { setFlipping(true); playUnlockSound(loc.rarity); }
     prevUnlockedRef.current = loc.unlocked ?? null;
   }, [loc?.unlocked]);
 
@@ -127,12 +128,12 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
                   />
                   {flipping ? (
                     <div className="loc-card__flip-overlay">
-                      <span className="loc-card__flip-lock">🔒</span>
-                      <span className="loc-card__flip-unlock">🔓</span>
+                      <img className="loc-card__flip-lock" src="/pixel-art/lock-closed.webp" alt="" />
+                      <img className="loc-card__flip-unlock" src="/pixel-art/lock-open.webp" alt="" />
                       <div className="loc-card__flip-shine" />
                     </div>
                   ) : !loc.unlocked && (
-                    <span style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', fontSize: '3.5rem', lineHeight: 1, zIndex: 2 }}>🔒</span>
+                    <img src="/pixel-art/lock-closed.webp" alt="" style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '80%', height: 'auto', imageRendering: 'pixelated', zIndex: 2 }} />
                   )}
                 </div>
                 <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '14px 18px', background: 'linear-gradient(transparent, rgba(0,0,0,0.85))' }}>
@@ -158,12 +159,12 @@ export default function LocationDetail({ slug, onClose, onCheckIn, onUndo, onUpd
                     <span className="detail-art" style={{ filter: (!flipping && !loc.unlocked) ? 'saturate(0.15)' : undefined, display: 'block' }}>{art}</span>
                     {flipping ? (
                       <div className="loc-card__flip-overlay">
-                        <span className="loc-card__flip-lock">🔒</span>
-                        <span className="loc-card__flip-unlock">🔓</span>
+                        <img className="loc-card__flip-lock" src="/pixel-art/lock-closed.webp" alt="" />
+                        <img className="loc-card__flip-unlock" src="/pixel-art/lock-open.webp" alt="" />
                         <div className="loc-card__flip-shine" />
                       </div>
                     ) : !loc.unlocked && (
-                      <span style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', fontSize: '2rem', lineHeight: 1, zIndex: 2 }}>🔒</span>
+                      <img src="/pixel-art/lock-closed.webp" alt="" style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '80%', height: 'auto', imageRendering: 'pixelated', zIndex: 2 }} />
                     )}
                   </div>
                 </div>

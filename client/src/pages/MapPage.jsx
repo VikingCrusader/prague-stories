@@ -320,7 +320,7 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
           <span style={{ fontSize: '4rem', filter: loc.unlocked ? undefined : 'saturate(0.15)' }}>{art}</span>
         )}
         {!loc.unlocked && (
-          <span style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', fontSize: '3rem', lineHeight: 1, zIndex: 2 }}>🔒</span>
+          <img src="/pixel-art/lock-closed.webp" alt="" style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '80%', height: 'auto', imageRendering: 'pixelated', zIndex: 2 }} />
         )}
       </div>
 

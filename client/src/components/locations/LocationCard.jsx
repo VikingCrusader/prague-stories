@@ -3,6 +3,7 @@ import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap
 import { useLang, useConvert } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
 import { RARITY_COLOR, RARITY_LABEL } from '../../utils/rarity';
+import { playUnlockSound } from '../../utils/sound';
 
 function fmtDist(m) {
   return m < 1000 ? `${Math.round(m)} m` : `${(m / 1000).toFixed(1)} km`;
@@ -23,7 +24,7 @@ export default function LocationCard({ location, onClick, distance }) {
   const labelRef = useRef(null);
 
   useEffect(() => {
-    if (!prevUnlockedRef.current && unlocked) setFlipping(true);
+    if (!prevUnlockedRef.current && unlocked) { setFlipping(true); playUnlockSound(rarity); }
     prevUnlockedRef.current = unlocked;
   }, [unlocked]);
 
@@ -67,12 +68,12 @@ export default function LocationCard({ location, onClick, distance }) {
         )}
         {flipping ? (
           <div className="loc-card__flip-overlay">
-            <span className="loc-card__flip-lock">🔒</span>
-            <span className="loc-card__flip-unlock">🔓</span>
+            <img className="loc-card__flip-lock" src="/pixel-art/lock-closed.webp" alt="" />
+            <img className="loc-card__flip-unlock" src="/pixel-art/lock-open.webp" alt="" />
             <div className="loc-card__flip-shine" />
           </div>
         ) : (!unlocked && (
-          <span className="loc-card__lock">🔒</span>
+          <img className="loc-card__lock" src="/pixel-art/lock-closed.webp" alt="" />
         ))}
       </div>
       <div className="loc-card__body">
