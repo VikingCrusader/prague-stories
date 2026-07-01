@@ -5,7 +5,9 @@ A gamified city-exploration app for Prague — built on the MERN stack and deplo
 Discover hundreds of Prague landmarks, earn XP, level up, unlock achievements, and read trilingual descriptions in English, Czech, and Chinese(CN/TW). Go there. Stand there. The app notices.
 
 **Live Demo:**  https://prague-stories.vercel.app
+
 **User Guide:** https://github.com/VikingCrusader/prague-stories/blob/main/GUIDE.md
+
 **Changelog:**  https://github.com/VikingCrusader/prague-stories/blob/main/CHANGELOG.md
 
 ## Stack
