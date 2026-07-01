@@ -15,13 +15,15 @@ import MapPage from './pages/MapPage';
 import DashboardPage from './pages/DashboardPage';
 import GuidePage from './pages/GuidePage';
 
+const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+
 function ProximityDetector() {
   const { user } = useAuth();
   const navigate = useNavigate();
   const { showPrompt, request, dismiss: dismissOptIn } = useNotificationPermission();
   const [nearbyLoc, setNearbyLoc] = useState(null);
 
-  useProximityDetection(!!user, { onNearby: setNearbyLoc });
+  useProximityDetection(!!user, { onNearby: isMobile ? undefined : setNearbyLoc });
 
   useEffect(() => {
     if (!navigator.serviceWorker) return;
