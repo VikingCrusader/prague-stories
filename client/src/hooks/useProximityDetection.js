@@ -40,7 +40,9 @@ async function fireNotification(location) {
     } else {
       name = getLocName(location, lang);
     }
-    const reg = await navigator.serviceWorker?.ready;
+    const reg = navigator.serviceWorker
+      ? (await navigator.serviceWorker.getRegistration('/') ?? await navigator.serviceWorker.ready)
+      : null;
     if (reg?.showNotification) {
       await reg.showNotification(title, {
         body: strings.body(name),
