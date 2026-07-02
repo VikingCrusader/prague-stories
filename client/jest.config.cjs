@@ -1,5 +1,5 @@
 /** @type {import('jest').Config} */
 module.exports = {
-  testEnvironment: 'node',
-  testMatch: ['**/src/__tests__/**/*.test.js'],
+  testEnvironment: 'jsdom',
+  testMatch: ['**/src/__tests__/**/*.test.js', '**/src/__tests__/**/*.test.jsx'],
 };

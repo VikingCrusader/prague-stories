@@ -4,6 +4,34 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.7.8] — 2026-07-02
+
+**Test: add React Testing Library component tests for LocationCard and LanguageSwitcher**
+
+- Added `src/__tests__/LocationCard.test.jsx` — renders the card locked and asserts `.loc-card__name` shows `???` with the real name absent from the DOM, then renders it unlocked and asserts the real name is shown
+- Added `src/__tests__/LanguageSwitcher.test.jsx` — mounts `LanguageSwitcher` next to a harness component using `useT()`, clicks the `CZ` button via `@testing-library/user-event`, and asserts the displayed text switches from English to Czech
+- Both tests wrap components in the real `LanguageProvider` rather than mocking the context
+- Installed `@testing-library/react`, `@testing-library/jest-dom`, `@testing-library/user-event`, `jest-environment-jsdom`, `@babel/preset-react`
+- `client/jest.config.cjs`: `testEnvironment` switched from `node` to `jsdom`; `testMatch` now also picks up `*.test.jsx`
+- `client/babel.config.cjs`: added `@babel/preset-react` (automatic runtime) so JSX in test files transforms correctly
+
+---
+
+## [1.7.7] — 2026-07-02
+
+**Test: add Playwright E2E scenarios for the guest explore flow**
+
+- Added `client/e2e/explore.spec.js` with 3 scenarios, all mocking the backend via `page.route()` so they run without a live API/DB:
+  - guest lands on `/explore` and sees location cards, with locked cards showing `???` and unlocked cards showing their real name
+  - clicking an unlocked card opens its detail modal with the fetched description, and the close button dismisses it
+  - switching language (EN → CZ) updates the page header text and the choice persists across a reload
+- Added `client/playwright.config.js` — auto-starts the Vite dev server, targets Chromium
+- Installed `@playwright/test@1.61.0` as a devDependency
+- Added `npm run test:e2e` script in `client/package.json`
+- Ignored `test-results/` and `playwright-report/` in `.gitignore`
+
+---
+
 ## [1.7.6] — 2026-07-02
 
 **Chore: add CI workflow to run Jest tests on push/PR**
