@@ -4,6 +4,25 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.7.5] — 2026-07-02
+
+**Feat: six new location cards with full EN/CZ/ZH descriptions**
+
+### New locations
+
+- Nebozízek Restaurant (rare, 20 XP) — Petřín hillside restaurant reachable via funicular; medieval vineyard origins, burned down twice, demolished and rebuilt as a replica after the 1965 landslide
+- Negrelli Viaduct (rare, 20 XP) — 1850 railway viaduct over the Vltava, Prague's oldest railway bridge; engineer Alois Negrelli also drafted the original Suez Canal plans
+- Nikola Tesla Monument (rare, 20 XP) — Dejvice park sculpture, officially the largest Tesla monument in the world despite his one unfinished semester at university in Prague
+- Nová Spirála (rare, 20 XP) — Výstaviště multi-genre venue converted from a circular panoramic cinema in 1991, reopened October 2024 after flood damage and a multi-year reconstruction
+- Nusle Brewery (rare, 20 XP) — 330-year-old brewery that later spent decades producing wine under the Czech Wine Enterprise; protected cultural monument since 2003
+- Palác Akropolis (rare, 20 XP) — Žižkov apartment building turned theatre/club, revived in 1991 as one of Prague's defining alternative music venues
+
+### Dev tooling
+
+- Added `server/src/types/models.ts` — editor-only TypeScript interfaces mirroring the `Location` / `CheckIn` / `User` Mongoose schemas; no build step or compilation added
+
+---
+
 ## [1.7.4] — 2026-07-01
 
 **Fix: location name no longer obscured by lock overlay in card detail; map sidebar description now shows teaser for locked cards**
