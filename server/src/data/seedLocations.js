@@ -1960,6 +1960,468 @@ The house quickly became an informal gathering point for Prague's interwar and p
       zh: '',
     },
   },
+  {
+    name: 'Ministry of Industry and Trade',
+    slug: 'ministerstvo-prumyslu-a-obchodu',
+    localizedNames: { cz: 'Ministerstvo průmyslu a obchodu České republiky', zh: '捷克工业与贸易部' },
+    labels: ['landmark', 'architecture', 'historical'],
+    coordinates: { lat: 50.092791340514765, lng: 14.42585518643129 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Ministerstvo průmyslu a obchodu — a ministry building so ostentatiously decorated with 120 sculptures that you'd be forgiven for mistaking Czech bureaucracy for a Baroque cathedral. Somewhere in here, actual paperwork about industry and trade genuinely gets processed, apparently while surrounded by stone giants representing Industry and Navigation.
+
+Architect Josef Fanta — the same man behind Prague's main railway station — designed this riverside colossus in the late 1920s, and construction ran from 1928 to 1934, considerably over its original three-year schedule. The building runs 107 by 49 metres along the Vltava embankment between Štefánik Bridge and the Convent of St. Agnes, faced in granite and sandstone, with a glazed dome rising above a balustrade attic lined with over-life-sized figures personifying Industry, Trade, Crafts, and Navigation.
+
+Fourteen different artists contributed to the building's decoration, filling it with roughly 120 sculptures, extensive sgraffito, wrought-iron grilles, and ornamental detailing — sculptors Josef Paukert and Čeněk Vosmík among the most prominent names involved. The result is one of interwar Czechoslovakia's most lavishly decorated functional government buildings, now protected as a cultural monument. The Ministry of Industry and Trade has called it home since 1993.
+
+🥚 Easter Egg: Josef Fanta apparently believed a government ministry should look at least as impressive as a train station — reasonable, since he designed Prague's Hlavní nádraží too. Between the two buildings, Fanta is responsible for a fair share of the monumental Art Nouveau and neo-Baroque flourish visible along the Vltava, proving that one architect's aesthetic can quietly shape how an entire city greets both its trains and its trade regulations.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'Fourteen Hearts Memorial',
+    slug: 'pamatnik-ctrnact-srdci',
+    localizedNames: { cz: 'Památník Čtrnáct srdcí', zh: '十四颗心纪念碑' },
+    labels: ['monument', 'historical', 'square'],
+    coordinates: { lat: 50.08899476745673, lng: 14.415486338282555 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to the memorial on Jan Palach Square (Náměstí Jana Palacha), raised in memory of the fourteen students and staff of Charles University's Faculty of Arts who lost their lives on 21 December 2023 — a wound the university, and the city, are still learning to carry.
+
+On the afternoon of 21 December 2023, a 24-year-old student opened fire inside the Faculty of Arts' main building, a short walk from this square. Thirteen people were killed on the spot and a fourteenth victim died after falling while trying to escape; twenty-five others were wounded before the attacker was killed in an exchange with police. It remains the deadliest mass shooting in the country's modern history.
+
+The memorial itself is a deliberately unpolished, roughly hewn sandstone monolith, nearly three metres tall and weighing about eight tonnes, designed by sculptor Vojtěch Adamec Jr. and set in place by architect Vojtěch Králíček. It was unveiled on 20 June 2024, six months after the attack. In September 2025, a plaque bearing the names of all fourteen victims was added beside it, so that anyone passing through the square would know exactly whom the stone remembers.
+
+The gunman's motive has never been fully explained. What remains is this stone, the fourteen names beside it, and a square that Prague now shares between two histories — Jan Palach's protest against occupation in 1969, and, more than half a century later, another loss the city did not choose.`,
+      cz: '',
+      zh: '',
+    },
+  },
+  {
+    name: 'Convent of St. Agnes of Bohemia',
+    slug: 'klaster-sv-anezky-ceske',
+    localizedNames: { cz: 'Klášter sv. Anežky České', zh: '圣阿格尼丝修道院' },
+    labels: ['museum', 'monastery', 'historical'],
+    coordinates: { lat: 50.0920770404173, lng: 14.424059134352138 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Convent of St. Agnes of Bohemia (Klášter sv. Anežky České) — Prague's oldest Gothic building, founded by a princess who turned down at least two kings and an emperor to become a nun instead. If ambition were measured in declined marriage proposals, Agnes would be historically undefeated.
+
+Agnes of Bohemia (1211–1282) was the daughter of King Přemysl Otakar I, and by the standards of thirteenth-century royal matchmaking, extraordinarily eligible — proposed matches reportedly included the future Holy Roman Emperor Frederick II himself. She turned all of it down, chose the veil instead, and in 1231 founded this convent for the Poor Clares (the female order tied to St. Francis of Assisi), built in the then-radical Gothic style newly imported from France. It became the burial place of the Přemyslid dynasty and one of the most important religious institutions in Bohemia.
+
+After Emperor Joseph II dissolved the convent in 1782 as part of his sweeping monastic reforms, the complex slid into disrepair, was used as workshops and slums, and was very nearly demolished outright in the 19th century — saved only by an active preservation campaign. A slow, careful restoration eventually returned it to something like dignity, and today it houses the National Gallery's collection of medieval and early Renaissance art from Bohemia and Central Europe.
+
+🥚 Easter Egg: Agnes spent nearly seven centuries as merely "blessed," not a full saint, until Pope John Paul II finally canonized her in Rome on 12 November 1989 — exactly one week before the Velvet Revolution began. Czechs half-jokingly credit her sainthood with the fall of communism, citing an old prophecy that Bohemia would only find peace once Agnes was canonized. Coincidence, providence, or extremely good timing — you decide.`,
+
+      cz: `Statečný dobrodruhu, vítej v Klášteře sv. Anežky České — nejstarší gotické stavbě v Praze, kterou založila princezna, jež odmítla nejméně dva krále a jednoho císaře, aby se místo toho stala jeptiškou. Pokud se ambice měří počtem odmítnutých nabídek k sňatku, je Anežka historicky neporažená.
+
+Anežka Česká (1211–1282) byla dcerou krále Přemysla Otakara I. a podle měřítek dvorských sňatků třináctého století mimořádně žádanou nevěstou — mezi navrhovanými partiemi se prý objevil i budoucí římský císař Fridrich II. Všechny nabídky odmítla, zvolila si roli řeholnice a v roce 1231 založila tento klášter pro klarisky (ženský řád spojený se sv. Františkem z Assisi), postavený v tehdy revolučním gotickém slohu nově přejatém z Francie. Klášter se stal pohřebištěm přemyslovské dynastie a jednou z nejvýznamnějších náboženských institucí v Čechách.
+
+Poté, co císař Josef II. klášter v roce 1782 zrušil v rámci svých rozsáhlých církevních reforem, budova postupně chátrala, sloužila jako dílny a chudinské byty a v 19. století jí dokonce hrozila úplná demolice — zachránila ji až aktivní kampaň za záchranu památek. Pomalá a pečlivá obnova jí nakonec vrátila důstojnost a dnes v ní sídlí sbírka středověkého a raně renesančního umění Čech a střední Evropy patřící Národní galerii.
+
+🥚 Velikonoční vajíčko: Anežka zůstala téměř sedm set let pouze „blahoslavenou", nikoli plnohodnotnou svatou, dokud ji papež Jan Pavel II. 12. listopadu 1989 v Římě konečně nesvatořečil — přesně týden před začátkem sametové revoluce. Češi si napůl žertem připisují její svatořečení jako spouštěč pádu komunismu, s odkazem na staré proroctví, že Čechy najdou mír až po Anežčině svatořečení. Náhoda, prozřetelnost, nebo mimořádně dobré načasování — posuďte sami.`,
+
+      zh: `勇敢的冒险家，欢迎来到圣阿格尼丝修道院（Klášter sv. Anežky České）——布拉格最古老的哥特式建筑，由一位公主创建，她拒绝了至少两位国王和一位皇帝的求婚，转而选择出家为修女。如果雄心壮志能用拒绝的求婚数量来衡量，阿格尼丝在历史上堪称无人能敌。
+
+波希米亚的阿格尼丝（Anežka Česká，1211–1282）是波希米亚国王普热美斯·奥托卡一世之女，按十三世纪王室联姻的标准，她是极受追捧的新娘人选——据说提亲名单上甚至包括未来的神圣罗马帝国皇帝腓特烈二世。她一一拒绝了所有提亲，选择成为修女，并于1231年创立了这座修道院，供奉方济各会创始人圣方济各所创立的女修会——贫穷佳兰会。修道院采用了当时从法国新引入、尚属激进的哥特式风格建造，后来成为普热美斯王朝的墓葬地和波希米亚最重要的宗教机构之一。
+
+1782年，约瑟夫二世皇帝在其大规模修道院改革中解散了这座修道院，此后建筑逐渐荒废，先后被用作作坊和贫民住所，19世纪时甚至差点被彻底拆除——多亏了一场积极的文物保护运动才得以幸存。经过漫长而细致的修复，它终于重获尊严，如今收藏着国家美术馆的波希米亚及中欧中世纪与文艺复兴早期艺术藏品。
+
+🥚 彩蛋：阿格尼丝在近七百年间只被称为「真福者」，而非正式的圣徒，直到1989年11月12日，教皇若望·保禄二世才终于在罗马为她封圣——恰好是天鹅绒革命爆发前的一周。捷克人半开玩笑地把共产主义的垮台归功于她的封圣，引用一则古老预言：波希米亚只有在阿格尼丝封圣之后才能迎来和平。是巧合、天意，还是极其精准的时机——你来判断。`,
+    },
+  },
+  {
+    name: 'Wallenstein Riding School',
+    slug: 'valdstejnska-jizdarna',
+    localizedNames: { cz: 'Valdštejnská jízdárna', zh: '华伦斯坦骑术学校' },
+    labels: ['museum', 'architecture', 'historical'],
+    coordinates: { lat: 50.091209005900986, lng: 14.408739638423173 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Wallenstein Riding School (Valdštejnská jízdárna) — a Baroque horse gym built by a general so wildly ambitious he flattened twenty-three houses, three gardens, and a brickworks just to build himself a palace next door. The horses, presumably, appreciated the real estate more than the neighbours did.
+
+The riding school is part of the vast Wallenstein Palace complex, commissioned in the 1620s by Albrecht von Wallenstein (Valdštejn), a Bohemian nobleman and mercenary general who became fabulously wealthy commanding armies during the Thirty Years' War. Not content with a modest townhouse, he demolished an entire neighbourhood of Malá Strana — dozens of buildings — to build a palace grand enough to rival Prague Castle itself, complete with formal gardens, an aviary, a grotto wall, and this dedicated riding hall for his prized horses.
+
+Wallenstein's ambition eventually outpaced Emperor Ferdinand II's patience: suspected of secretly negotiating with the enemy to carve out his own kingdom, Wallenstein was assassinated by his own officers in 1634 on imperial orders, before he ever fully enjoyed his palace. The riding hall long outlived the drama — today it serves as an exhibition space for the National Gallery, hosting rotating shows of contemporary and historical art under its handsome vaulted ceiling.
+
+🥚 Easter Egg: Wallenstein was famously superstitious and consulted astrologers, including Johannes Kepler, before major decisions. Some historians argue his fatal overconfidence came partly from having his horoscope read a little too favourably. Moral of the story: even the most powerful general in Central Europe should probably get a second opinion before picking a fight with an emperor.`,
+
+      cz: `Statečný dobrodruhu, vítej ve Valdštejnské jízdárně — barokní jízdárně, kterou nechal postavit generál s tak nespoutanými ambicemi, že kvůli vlastnímu paláci srovnal se zemí třiadvacet domů, tři zahrady a cihelnu. Koně si tu nemovitost pravděpodobně užívali víc než sousedé.
+
+Jízdárna je součástí rozlehlého komplexu Valdštejnského paláce, který si ve 20. letech 17. století nechal postavit Albrecht z Valdštejna — český šlechtic a žoldnéřský generál, jenž během třicetileté války zbohatl velením armádám. Nespokojil se se skromným městským domem a zbořil celou čtvrť Malé Strany — desítky budov — aby vybudoval palác dostatečně velkolepý na to, aby konkuroval samotnému Pražskému hradu, včetně formálních zahrad, voliéry, umělé krápníkové stěny a této jízdárny určené jeho oblíbeným koním.
+
+Valdštejnovy ambice nakonec předčily trpělivost císaře Ferdinanda II.: podezřelý z tajných jednání s nepřítelem o vytvoření vlastního království byl v roce 1634 na císařův rozkaz zavražděn vlastními důstojníky, aniž by si svého paláce plně užil. Jízdárna dramata svého zakladatele dávno přežila — dnes slouží jako výstavní prostor Národní galerie a pod svým impozantním klenutým stropem hostí střídající se výstavy současného i historického umění.
+
+🥚 Velikonoční vajíčko: Valdštejn byl notoricky pověrčivý a před důležitými rozhodnutími se radil s astrology, mimo jiné i s Johannesem Keplerem. Někteří historici tvrdí, že jeho osudová sebejistota částečně pramenila z až příliš příznivě vyloženého horoskopu. Ponaučení z příběhu: i nejmocnější generál střední Evropy by si měl před rozmíškou s císařem raději vyžádat druhý názor.`,
+
+      zh: `勇敢的冒险家，欢迎来到华伦斯坦骑术学校（Valdštejnská jízdárna）——一座巴洛克式马术馆，由一位野心勃勃到为了给自己建宫殿，不惜夷平二十三栋房屋、三座花园和一座砖厂的将军所建。想必比起邻居，马匹更享受这片新地产。
+
+这座骑术学校是庞大的华伦斯坦宫殿建筑群的一部分，由波希米亚贵族兼雇佣军将领阿尔布雷希特·冯·华伦斯坦（Valdštejn）于1620年代下令建造——他在三十年战争期间靠统领军队积累了惊人的财富。他并不满足于一座朴素的宅邸，而是拆除了整个小城区（Malá Strana）的数十栋建筑，只为建造一座足以与布拉格城堡本身媲美的宏伟宫殿，附带正式花园、鸟舍、人工钟乳石墙，以及这座专为他心爱的马匹而建的骑术馆。
+
+华伦斯坦的野心最终超出了皇帝斐迪南二世的容忍限度：他被怀疑暗中与敌方谈判、图谋自立为王，于1634年在皇帝的命令下被自己的军官刺杀，还没来得及真正享受这座宫殿。骑术馆却远远地熬过了这场戏剧性事件——如今它是国家美术馆的展览空间，在其气派的拱顶天花板下，轮番举办当代与历史艺术展览。
+
+🥚 彩蛋：华伦斯坦是出了名的迷信，在做重大决定前总要请教占星师，其中就包括约翰内斯·开普勒。一些历史学家认为，他那致命的过度自信，部分正是源自一份过于乐观的占星预测。这个故事的教训是：即便是中欧最有权势的将军，在与皇帝翻脸之前，或许也该多听听第二意见。`,
+    },
+  },
+  {
+    name: 'Mánes Gallery',
+    slug: 'galerie-manes',
+    localizedNames: { cz: 'Galerie Mánes', zh: '马奈斯画廊' },
+    labels: ['museum', 'cultural', 'architecture'],
+    coordinates: { lat: 50.07750471148303, lng: 14.414115512853042 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Mánes Gallery (Galerie Mánes) — a functionalist glass box perched improbably on stilts over the Vltava River, wrapped affectionately around a five-hundred-year-old water tower like a very modern hug. Prague's early twentieth-century architects, it turns out, were not shy about mixing centuries.
+
+Built between 1927 and 1930 by architect Otakar Novotný for the Mánes Union of Fine Arts — named after the beloved nineteenth-century Czech painter Josef Mánes — the gallery is one of the finest examples of Czech functionalist architecture. Its most striking feature is the deliberate collision of old and new: the building incorporates the Šítkovská Water Tower, a Renaissance-era structure dating back to the 1500s, fusing it directly into a stark, glass-and-concrete modernist frame that spans the river on concrete piers.
+
+The gallery quickly became a hub for Prague's interwar avant-garde, hosting exhibitions that connected Czech artists to the wider European modernist movement. It survived floods, occupation, and decades of communist-era neglect, and continues to function as a contemporary art gallery today — a rare structure where you can watch the Vltava flow directly beneath the exhibition floor.
+
+🥚 Easter Egg: The 2002 Prague floods submerged the ground floor of the gallery almost entirely, a stark reminder that building directly over a river, however architecturally striking, comes with the occasional inconvenience of the river showing up uninvited. The gallery recovered and reopened, apparently undeterred by the occasional visit from the Vltava itself.`,
+
+      cz: `Statečný dobrodruhu, vítej v Galerii Mánes — funkcionalistické skleněné krabici posazené nepravděpodobně na pilotách nad Vltavou, něžně obtočené kolem pětisetleté vodárenské věže jako velmi moderní objetí. Pražští architekti počátku dvacátého století se očividně nebáli míchat staletí.
+
+Galerii postavil v letech 1927–1930 architekt Otakar Novotný pro Spolek výtvarných umělců Mánes — pojmenovaný po oblíbeném českém malíři devatenáctého století Josefu Mánesovi — a jde o jeden z nejlepších příkladů české funkcionalistické architektury. Nejnápadnějším rysem je záměrné setkání starého s novým: budova v sobě zahrnuje Šítkovskou vodárenskou věž, renesanční stavbu pocházející již ze 16. století, kterou spojuje s strohým, prosklenobetonovým modernistickým rámem klenoucím se přes řeku na betonových pilířích.
+
+Galerie se rychle stala centrem pražské meziválečné avantgardy a hostila výstavy propojující české umělce se širším evropským modernistickým hnutím. Přežila povodně, okupaci i desetiletí komunistického zanedbávání a dodnes funguje jako galerie současného umění — vzácná stavba, kde lze sledovat proudění Vltavy přímo pod výstavními sály.
+
+🥚 Velikonoční vajíčko: Povodně v roce 2002 zatopily přízemí galerie téměř celé — připomínka toho, že stavět přímo nad řekou, byť architektonicky působivě, s sebou nese občasnou nepříjemnost v podobě nezvané návštěvy samotné řeky. Galerie se z toho zotavila a znovu otevřela, zjevně nezastrašena občasnou návštěvou Vltavy.`,
+
+      zh: `勇敢的冒险家，欢迎来到马奈斯画廊（Galerie Mánes）——一座功能主义风格的玻璃盒子，不可思议地架在伏尔塔瓦河上的桩基之上，温柔地环抱着一座有五百年历史的水塔，像一个非常现代的拥抱。看来二十世纪初的布拉格建筑师们，一点也不介意把不同世纪混搭在一起。
+
+这座画廊由建筑师奥塔卡尔·诺沃特尼（Otakar Novotný）于1927至1930年间建造，为「马奈斯美术家协会」而建——协会以十九世纪深受喜爱的捷克画家约瑟夫·马奈斯命名——是捷克功能主义建筑的杰出范例之一。它最引人注目的特点，是新旧建筑之间刻意制造的碰撞：建筑将始建于十六世纪、文艺复兴时期的希特科夫斯卡水塔直接融入一个简洁的玻璃混凝土现代主义框架中，整座建筑靠混凝土桩基横跨河面而建。
+
+这座画廊很快成为布拉格两战之间前卫艺术运动的中心，举办的展览将捷克艺术家与更广泛的欧洲现代主义运动联系在一起。它熬过了洪水、占领和数十年共产主义时期的忽视，至今仍作为当代艺术画廊运营——一座罕见的建筑，你可以在展厅地板之下，直接看到伏尔塔瓦河缓缓流过。
+
+🥚 彩蛋：2002年布拉格大洪水几乎把画廊一楼全部淹没——这清楚地提醒人们，把建筑直接架在河流之上，无论建筑设计多么惊艳，偶尔也免不了迎来河流本身的「不速之客」。画廊后来完成修复并重新开放，显然并未被伏尔塔瓦河偶尔的造访吓退。`,
+    },
+  },
+  {
+    name: 'Sternberg Palace',
+    slug: 'sternbersky-palac',
+    localizedNames: { cz: 'Šternberský palác', zh: '什切尔恩贝格宫' },
+    labels: ['museum', 'palace', 'historical'],
+    coordinates: { lat: 50.09037281238459, lng: 14.396663102923888 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Sternberg Palace (Šternberský palác) — a Baroque palace so dedicated to Old Masters that it skipped straight past Czech art entirely and filled its halls with Rubens, Goya, and El Greco instead. Apparently even Bohemian counts occasionally preferred to shop abroad.
+
+Built in the early eighteenth century for Count Wenzel Adalbert Sternberg, the palace sits in a quiet courtyard just steps from Prague Castle's main gate — easy to walk right past if you're not looking for it. Its refined Baroque interiors, with frescoed ceilings and an elegant oval central hall, now house the National Gallery's collection of European art from antiquity through the Baroque period, including major works by Rubens, El Greco, Goya, Cranach, and Dürer.
+
+The collection was largely assembled through the efforts of the Society of Patriotic Friends of Art, founded in 1796 specifically to keep major European artworks from leaving Bohemia — an unusually forward-thinking act of cultural preservation for its time. Today the palace offers a genuinely startling contrast to Prague's Czech-heavy museum landscape: a chance to see Spanish, Italian, Flemish, and German masterpieces without ever needing to check a departures board.
+
+🥚 Easter Egg: Sternberg Palace sits so close to Prague Castle that most visitors walk directly past its unassuming entrance on their way to the castle's crowds, never realising a world-class collection of European Old Masters is sitting quietly a few metres away. It might be the most overlooked great museum in the entire city.`,
+
+      cz: `Statečný dobrodruhu, vítej ve Šternberském paláci — barokním paláci natolik oddaném starým mistrům, že rovnou přeskočil české umění a naplnil své sály Rubensem, Goyou a El Grecem. Zdá se, že i čeští hrabata občas raději nakupovali v zahraničí.
+
+Palác postavený na počátku 18. století pro hraběte Václava Vojtěcha ze Šternberka stojí v tichém nádvoří jen pár kroků od hlavní brány Pražského hradu — snadno ho minete, pokud ho záměrně nehledáte. Jeho vytříbené barokní interiéry se zdobenými stropy a elegantním oválným centrálním sálem dnes ukrývají sbírku evropského umění Národní galerie od antiky až po baroko, včetně zásadních děl Rubense, El Greca, Goyi, Cranacha a Dürera.
+
+Sbírka vznikla především díky úsilí Společnosti vlasteneckých přátel umění, založené v roce 1796 s cílem zabránit odchodu významných evropských uměleckých děl z Čech — pozoruhodně prozíravý čin kulturní ochrany na svou dobu. Palác dnes nabízí opravdu překvapivý kontrast k pražské, převážně české muzejní krajině: možnost vidět španělská, italská, vlámská a německá mistrovská díla, aniž byste museli kontrolovat odletovou tabuli.
+
+🥚 Velikonoční vajíčko: Šternberský palác leží tak blízko Pražského hradu, že většina návštěvníků projde přímo kolem jeho nenápadného vchodu cestou k hradnímu davu, aniž by tušili, že jen pár metrů od nich tiše sídlí světová sbírka evropských starých mistrů. Možná jde o nejpřehlíženější skvělé muzeum v celém městě.`,
+
+      zh: `勇敢的冒险家，欢迎来到什切尔恩贝格宫（Šternberský palác）——一座对古典大师作品情有独钟的巴洛克宫殿，干脆彻底跳过了捷克本土艺术，转而把展厅塞满了鲁本斯、戈雅和埃尔·格列柯的作品。看来就连波希米亚的伯爵，偶尔也更爱去国外「购物」。
+
+这座宫殿建于18世纪初，为瓦茨拉夫·沃伊捷赫·什切尔恩贝格伯爵所建，坐落在布拉格城堡正门旁一处安静的庭院内——如果不是特意寻找，很容易直接错过。其精致的巴洛克式内部装饰，包括绘有壁画的天花板和一间优雅的椭圆形中央大厅，如今收藏着国家美术馆从古典时期到巴洛克时期的欧洲艺术藏品，包括鲁本斯、埃尔·格列柯、戈雅、克拉纳赫和丢勒等大师的重要作品。
+
+这批藏品的形成，主要归功于1796年成立的「爱国艺术之友协会」，该协会的宗旨正是防止重要的欧洲艺术品流出波希米亚——就当时而言，这是一项异常有远见的文化保护举措。如今，这座宫殿为以捷克本土藏品为主的布拉格博物馆版图提供了一种真正令人惊喜的对比：不必查看航班信息屏，就能欣赏到西班牙、意大利、佛兰德斯和德国的艺术杰作。
+
+🥚 彩蛋：什切尔恩贝格宫离布拉格城堡如此之近，以至于大多数游客在赶往城堡人潮的路上，都会直接从它低调的入口旁经过，完全没意识到几米之外，正静静收藏着一批世界级的欧洲古典大师作品。它或许是整座城市里最被忽视的一座伟大博物馆。`,
+    },
+  },
+  {
+    name: 'Antonín Dvořák Museum',
+    slug: 'muzeum-antonina-dvoraka',
+    localizedNames: { cz: 'Muzeum Antonína Dvořáka', zh: '安东宁·德沃夏克博物馆' },
+    labels: ['museum', 'villa', 'historical'],
+    coordinates: { lat: 50.073722541803626, lng: 14.426925867136669 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Antonín Dvořák Museum (Muzeum Antonína Dvořáka) — a cheerful Baroque summer villa nicknamed "America," dedicated to a composer who wrote one of classical music's most famous symphonies about, somewhat confusingly, that exact same country.
+
+The museum occupies Villa Amerika, a small and exquisitely decorated Baroque villa built between 1717 and 1720 by Kilian Ignaz Dientzenhofer, one of Prague's most celebrated Baroque architects, for Count Michna of Vacínov. The villa's cheerful nickname comes from a nearby tavern once called "U Amerikánů," and the name simply stuck to the building over time — a very Prague way of naming things.
+
+Since 1932 the villa has been dedicated to Antonín Dvořák (1841–1904), the butcher's son from a small Bohemian village who became one of the most celebrated composers of the Romantic era, famous worldwide for his Symphony No. 9 "From the New World," the opera Rusalka, and the "American" String Quartet — all written, ironically, with a genuine fondness for the actual United States, where he spent several formative years directing a conservatory in New York.
+
+🥚 Easter Egg: Dvořák was reportedly obsessed with trains throughout his life, regularly visiting Prague's main railway station just to watch locomotives arrive and depart, and could apparently identify individual engines by sound alone. A world-famous composer with the enthusiasm of a trainspotting teenager — Prague's history rarely disappoints on charmingly odd personal details.`,
+
+      cz: `Statečný dobrodruhu, vítej v Muzeu Antonína Dvořáka — veselé barokní letní vile přezdívané „Amerika", věnované skladateli, který napsal jednu z nejslavnějších symfonií klasické hudby poněkud matoucím způsobem právě o téže zemi.
+
+Muzeum sídlí ve Vile Amerika, malé a nádherně zdobené barokní vile postavené v letech 1717–1720 Kiliánem Ignácem Dientzenhoferem, jedním z nejproslulejších pražských barokních architektů, pro hraběte Michnu z Vacínova. Veselá přezdívka vily pochází od nedaleké hospody kdysi zvané „U Amerikánů" a jméno se na budově prostě časem ujalo — velmi pražský způsob pojmenovávání věcí.
+
+Od roku 1932 je vila věnována Antonínu Dvořákovi (1841–1904), synovi řezníka z malé české vesnice, který se stal jedním z nejslavnějších skladatelů romantické éry, celosvětově proslulým díky Symfonii č. 9 „Z Nového světa", opeře Rusalka a smyčcovému kvartetu „Americkému" — vše napsáno, ironicky, s upřímnou náklonností ke Spojeným státům, kde strávil několik formativních let jako ředitel konzervatoře v New Yorku.
+
+🥚 Velikonoční vajíčko: Dvořák byl prý celoživotně posedlý vlaky, pravidelně navštěvoval pražské hlavní nádraží jen proto, aby sledoval příjezdy a odjezdy lokomotiv, a údajně dokázal jednotlivé stroje rozeznat podle zvuku. Světově proslulý skladatel s nadšením teenagera-vlakového nadšence — pražská historie málokdy zklame osobitými detaily.`,
+
+      zh: `勇敢的冒险家，欢迎来到安东宁·德沃夏克博物馆（Muzeum Antonína Dvořáka）——一座绰号「美利坚」的欢快巴洛克夏日别墅，纪念的作曲家，恰好写出了古典音乐史上最著名的交响曲之一，主题略带巧合地——正是关于那个国家。
+
+博物馆坐落于「美利坚别墅」（Vila Amerika）内，这是一座精美绝伦的小型巴洛克别墅，由布拉格最负盛名的巴洛克建筑师之一基利安·伊格纳茨·迪恩岑霍费尔（Kilian Ignaz Dientzenhofer）于1717至1720年间为瓦齐诺夫的米赫纳伯爵建造。别墅这个欢快的绰号，源自附近一家曾名为「美利坚人之家」的小酒馆，久而久之，这个名字就沿用到了建筑本身——非常「布拉格式」的命名方式。
+
+自1932年起，这座别墅便一直用于纪念安东宁·德沃夏克（1841–1904）——这位出身波希米亚小村庄屠夫之家的作曲家，后来成为浪漫主义时期最负盛名的作曲家之一，凭借《第九交响曲「自新大陆」》、歌剧《水仙女》以及「美国」弦乐四重奏而闻名世界。颇具讽刺意味的是，这些作品都饱含着他对美国的真挚情感——他曾在纽约担任音乐学院院长，在那里度过了几年至关重要的岁月。
+
+🥚 彩蛋：据说德沃夏克一生痴迷火车，经常前往布拉格总站，只为观看火车进站和出站，据说他甚至能仅凭声音辨认出不同的机车型号。一位世界闻名的作曲家，怀着少年铁道迷般的热情——布拉格的历史，总能在这些迷人的细节里给人惊喜。`,
+    },
+  },
+  {
+    name: 'National Museum Lapidarium',
+    slug: 'lapidarium-narodniho-muzea',
+    localizedNames: { cz: 'Lapidárium Národního muzea', zh: '国家博物馆石雕陈列馆' },
+    labels: ['museum', 'hidden-gem', 'historical'],
+    coordinates: { lat: 50.105597852732615, lng: 14.431546913775653 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the National Museum Lapidarium (Lapidárium Národního muzea) — a quiet warehouse of stone survivors, where Prague sends its outdoor statues into a sort of dignified witness-protection programme once pollution and weather get too aggressive.
+
+Founded in 1893, the Lapidarium exists for a very specific and slightly melancholy reason: many of Prague's finest outdoor stone sculptures — worn down over centuries by weather, industrial pollution, and simple old age — cannot survive indefinitely outside. So the originals are quietly retired here, in climate-controlled safety, while weatherproof replicas often take their place in the city's squares and bridges. The result is a strange and wonderful collection: genuine medieval and Renaissance stonework, original fragments of the Marian Column that once stood in Old Town Square, and several of the actual statues that used to line Charles Bridge before replicas took over.
+
+Tucked into the Výstaviště exhibition grounds in Holešovice, the museum sees a fraction of the visitors that flock to Charles Bridge daily, despite housing some of the very same statues those crowds are busy photographing outside — just older, more fragile, and considerably more honest about their true age.
+
+🥚 Easter Egg: Several statues currently standing on Charles Bridge are exact replicas; their weather-beaten originals live here in the Lapidarium, close enough to walk to but rarely visited. Next time you admire a saint on Charles Bridge, there's a real chance you are looking at a stunt double, while the original quietly rests in a museum a few kilometres away.`,
+
+      cz: `Statečný dobrodruhu, vítej v Lapidáriu Národního muzea — tiché skladiště kamenných přeživších, kam Praha posílá své venkovní sochy do jakéhosi důstojného programu ochrany svědků, jakmile na ně znečištění a počasí začnou být příliš agresivní.
+
+Lapidárium založené v roce 1893 existuje z velmi konkrétního a poněkud melancholického důvodu: mnoho z nejkrásnějších pražských venkovních kamenných soch — opotřebovaných staletími počasí, průmyslového znečištění a prostého stáří — nemůže venku přežít donekonečna. Originály jsou proto tiše přesunuty sem, do klimatizovaného bezpečí, zatímco na náměstích a mostech města je často nahrazují odolné repliky. Výsledkem je podivuhodná sbírka: pravé středověké a renesanční kamenické práce, originální fragmenty Mariánského sloupu, který kdysi stál na Staroměstském náměstí, a několik skutečných soch, jež dříve lemovaly Karlův most, než je nahradily kopie.
+
+Muzeum, ukryté v areálu Výstaviště v Holešovicích, navštíví jen zlomek lidí ve srovnání s davy, které denně proudí na Karlův most — přestože ukrývá některé z týchž soch, jež si tyto davy venku horlivě fotografují. Jen starší, křehčí a podstatně upřímnější ohledně svého skutečného věku.
+
+🥚 Velikonoční vajíčko: Několik soch aktuálně stojících na Karlově mostě jsou přesné kopie; jejich zvětralé originály žijí právě zde v Lapidáriu, na dosah pěšky, ale málokdy navštívené. Až příště obdivujete světce na Karlově mostě, existuje reálná šance, že se díváte na kaskadérského dvojníka, zatímco originál tiše odpočívá v muzeu pár kilometrů odsud.`,
+
+      zh: `勇敢的冒险家，欢迎来到国家博物馆石雕陈列馆（Lapidárium Národního muzea）——一座安静的石头「幸存者」仓库，每当污染和风化变得过于严酷，布拉格就会把户外雕像悄悄送到这里，接受某种颇有尊严的「证人保护计划」。
+
+石雕陈列馆创建于1893年，其存在的理由十分具体，也带着几分伤感：布拉格众多最精美的户外石雕作品，历经数百年的风吹雨打、工业污染和岁月侵蚀，已经无法在户外无限期地保存下去。于是，这些原作被悄悄「退役」，安放在这座气候受控的安全场馆内，而在城市的广场和桥梁上，往往由耐候的复制品接替它们的位置。由此形成了一批既奇特又精彩的收藏：真正的中世纪与文艺复兴石刻作品、曾矗立在老城广场的圣母柱原始残件，以及几尊曾经排列在查理大桥上、如今已被复制品取代的真迹雕像。
+
+这座博物馆隐藏在霍列绍维采的布拉格展览场（Výstaviště）内，与每天涌向查理大桥的人潮相比，来访者寥寥无几——尽管馆内收藏的，正是那些游客们正在桥上热情拍照的同一批雕像，只是它们更为古老、更加脆弱，也更诚实地展现着自己的真实年龄。
+
+🥚 彩蛋：如今矗立在查理大桥上的几尊雕像，其实都是精确复制品；它们那饱经风霜的原作，如今就安静地陈列在这座石雕陈列馆中——步行即可到达，却鲜少有人来访。下次当你在查理大桥上欣赏某位圣徒雕像时，很有可能你看到的只是一位「替身演员」，而真正的原作，正在几公里外的博物馆里静静休息。`,
+    },
+  },
+  {
+    name: 'Nebozízek Restaurant',
+    slug: 'restaurace-nebozizek',
+    localizedNames: { cz: 'Restaurace Nebozízek', zh: '内博济泽克餐厅' },
+    labels: ['restaurants-and-cafes', 'historical', 'landmark'],
+    coordinates: { lat: 50.08201127152429, lng: 14.398841256101818 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Nebozízek — a restaurant whose name literally translates to "little auger" (as in, drill), which feels almost too honest for a place you can only reach by grinding your way up Petřín Hill, either on foot or by leaning on the funicular's mercy.
+
+The name dates back to a medieval vineyard called Na Nebozezu, likely named after a zigzag path that spiralled up the hillside the way an auger bores into wood. In 1677, nobleman Karel Maxmilián Lažanský bought the vineyard and built a house with two wings and a raised central section. In 1809, the wholesaler and book printer Bohumil Haas took it over, renamed it Haasenburg, and opened Prague's first purpose-built sightseeing restaurant here — a place built specifically so people could eat while admiring the view, a genuinely novel idea at the time.
+
+Haasenburg burned down in 1843 and was rebuilt in detail. The City of Prague bought the property in 1882 and restored its original name, Nebozízek; the restaurant found its first official tenant, Gustav Fiedler, in 1883. It has survived rather more than a name change, too — a major landslide on the Petřín slope in 1965 forced it to close in 1967, and by the time Klub Za starou Prahu ("Club for Old Prague") took up its restoration in 1984, the building was in such poor shape it had to be demolished and rebuilt as a faithful replica. Only the original cellars and a fragment of a Baroque staircase survived the process.
+
+🥚 Easter Egg: Nebozízek sits at the halfway stop of the Petřín funicular, which means you can order dinner, watch the sun set over Prague Castle, and catch the next car down without ever having earned the view through actual auger-like effort. The path may be named after a drill, but the funicular has quietly made the whole ordeal optional.`,
+
+      cz: `Statečný dobrodruhu, vítej v Nebozízku — restauraci, jejíž název doslova znamená "malý nebozez" (tedy vrták), což působí až příliš upřímně pro místo, kam se lze dostat jen tím, že se prokoušete vzhůru na Petřín, ať už pěšky, nebo s pomocí lanovky.
+
+Název sahá až k středověké vinici zvané Na Nebozezu, pravděpodobně pojmenované podle klikaté stezky, která se vinula do svahu podobně, jako se nebozez zavrtává do dřeva. V roce 1677 vinici koupil šlechtic Karel Maxmilián Lažanský a postavil zde dům se dvěma křídly a vyvýšenou centrální částí. V roce 1809 objekt převzal velkoobchodník a knihtiskař Bohumil Haas, přejmenoval jej na Haasenburg a otevřel zde první pražskou vyhlídkovou restauraci postavenou přímo za účelem stolování s výhledem — v té době vskutku převratný nápad.
+
+Haasenburg v roce 1843 vyhořel a byl detailně obnoven. Město Praha objekt koupilo v roce 1882 a vrátilo mu původní jméno Nebozízek; prvním oficiálním nájemcem restaurace se v roce 1883 stal Gustav Fiedler. Přežila i více než jen změnu jména — rozsáhlý sesuv půdy na petřínském svahu v roce 1965 vedl k jejímu uzavření v roce 1967, a než se v roce 1984 její obnovy ujal Klub Za starou Prahu, byla budova ve stavu natolik špatném, že musela být zbořena a znovu postavena jako věrná replika. Z původní stavby se dochovaly jen sklepy a fragment barokního schodiště.
+
+🥚 Velikonoční vajíčko: Nebozízek stojí přesně u horní zastávky lanovky na půli cesty na Petřín, takže si můžete objednat večeři, sledovat západ slunce nad Pražským hradem a stihnout další vůz dolů, aniž byste si výhled museli vydřít skutečně nebozezovým úsilím. Stezka je sice pojmenovaná po vrtáku, ale lanovka celé to trápení tiše proměnila ve volitelné.`,
+
+      zh: `勇敢的冒险家，欢迎来到内博济泽克餐厅（Nebozízek）——这个名字直译过来就是"小螺旋钻"（也就是钻头的意思），对于一家只能靠双脚苦苦爬上佩特任山（Petřín），或者仰赖缆车"开恩"才能抵达的餐厅来说，这名字诚实得有点过分。
+
+这个名字可以追溯到一座中世纪葡萄园"Na Nebozezu"，得名大概是因为一条沿山坡盘旋而上的之字形小路，形状就像螺旋钻钻入木头的轨迹。1677年，贵族卡雷尔·马克西米利安·拉赞斯基（Karel Maxmilián Lažanský）买下了这座葡萄园，建造了一栋带两翼与凸起中央部分的房屋。1809年，批发商兼书商博胡米尔·哈斯（Bohumil Haas）接手了这里，将其更名为"哈森堡"（Haasenburg），并在此开设了布拉格第一家专门为观景而建的餐厅——在当时，这可是相当新潮的点子。
+
+哈森堡在1843年被大火烧毁，随后被细致地重建。布拉格市于1882年买下该地产，并恢复了它原本的名字"内博济泽克"；1883年，古斯塔夫·菲德勒（Gustav Fiedler）成为这家餐厅第一位正式的承租人。它经历的远不止改名这么简单——1965年佩特任山坡发生大规模山体滑坡，导致餐厅在1967年被迫关闭；直到1984年，"保护老布拉格俱乐部"（Klub Za starou Prahu）着手修复时，建筑状况已经差到必须整栋拆除、按原样重建的地步。只有原本的地窖和一段巴洛克风格楼梯的残迹保留了下来。
+
+🥚 彩蛋：内博济泽克正好坐落在佩特任缆车的半山腰站点旁，这意味着你可以一边享用晚餐，一边眺望夕阳洒落布拉格城堡，然后轻松赶上下一班缆车下山——完全不需要像"螺旋钻"那样费力钻上山才能换来这片风景。小路虽然是以钻头命名，但缆车早已悄悄把这份苦差事变成了可选项。`,
+    },
+  },
+  {
+    name: 'Negrelli Viaduct',
+    slug: 'negrelliho-viadukt',
+    localizedNames: { cz: 'Negrelliho viadukt', zh: '内格雷利高架桥' },
+    labels: ['bridge', 'historical', 'transport'],
+    coordinates: { lat: 50.097506568587356, lng: 14.440681968590335 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Negrelli Viaduct (Negrelliho viadukt) — Prague's second-oldest bridge over the Vltava, beaten to the title only by Charles Bridge, and somehow one of the least photographed large structures in the entire city despite being over a kilometre of solid brick and stone.
+
+Built between 1846 and 1850 as part of the Vienna–Prague–Dresden railway line, the viaduct opened for traffic on 1 June 1850, engineered by Alois Negrelli — an Austrian builder whose career didn't stop at Prague. Stretching 1,110 metres across the river and the Karlín flatlands, it originally rested on 87 stone arches, including eight granite spans over the river itself, and briefly held the title of longest bridge in Europe, a record it kept until 1910. It remains, to this day, the oldest railway bridge in the country.
+
+The viaduct has outlasted a great deal: two world wars, the fall of an empire, and the catastrophic floods of 2002, which swallowed much of surrounding Karlín while the bridge itself stood firm. A recent multi-year reconstruction, completed after nearly three years of work and roughly 1.9 billion crowns, restored the structure to its 1850 profile and — for the first time in its history — opened part of it to pedestrians and cyclists, so people can finally walk the length of a bridge that has spent 170-plus years exclusively serving trains.
+
+🥚 Easter Egg: Alois Negrelli's Prague viaduct is impressive, but it isn't even his most famous project. Decades before Ferdinand de Lesseps broke ground on the Suez Canal, Negrelli was the engineer who drew up its original plans. So the same mind responsible for hauling Prague commuters over the Vltava also quietly laid the groundwork for connecting the Mediterranean to the Red Sea — proof that unglamorous infrastructure and world-changing engineering sometimes come from the exact same drafting table.`,
+
+      cz: `Statečný dobrodruhu, vítej na Negrelliho viaduktu — druhém nejstarším mostě přes Vltavu v Praze, který v prvenství porazil jen Karlův most, a přesto jde o jednu z nejméně fotografovaných staveb podobného rozsahu v celém městě, přestože měří přes kilometr cihel a kamene.
+
+Viadukt byl postaven mezi lety 1846 a 1850 jako součást železniční trati Vídeň–Praha–Drážďany a pro dopravu byl otevřen 1. června 1850; jeho stavbu řídil inženýr Alois Negrelli — rakouský stavitel, jehož kariéra se Prahou zdaleka nekončila. Viadukt se táhne 1 110 metrů přes řeku a karlínskou rovinu, původně spočíval na 87 kamenných obloucích, včetně osmi žulových polí nad samotnou řekou, a na krátkou dobu držel titul nejdelšího mostu v Evropě — rekord, který si udržel až do roku 1910. Dodnes je nejstarším železničním mostem v zemi.
+
+Viadukt přečkal ledacos: dvě světové války, pád impéria i katastrofální povodně v roce 2002, které pohltily velkou část okolního Karlína, zatímco most samotný zůstal stát pevně. Nedávná několikaletá rekonstrukce, dokončená po téměř třech letech prací a s náklady kolem 1,9 miliardy korun, vrátila stavbě podobu z roku 1850 a poprvé v její historii otevřela část mostu chodcům a cyklistům — takže lidé se konečně mohou projít po délce mostu, který přes 170 let sloužil výhradně vlakům.
+
+🥚 Velikonoční vajíčko: Negrelliho pražský viadukt je impozantní stavba, ale zdaleka není jeho nejslavnějším projektem. Desítky let předtím, než Ferdinand de Lesseps zahájil stavbu Suezského průplavu, byl to právě Negrelli, kdo vypracoval jeho původní plány. Tatáž mysl, která má na svědomí přepravu pražských cestujících přes Vltavu, tak tiše položila základy propojení Středozemního a Rudého moře — důkaz, že nenápadná infrastruktura a inženýrství měnící svět občas vzejdou ze stejného rýsovacího prkna.`,
+
+      zh: `勇敢的冒险家，欢迎来到内格雷利高架桥（Negrelliho viadukt）——布拉格横跨伏尔塔瓦河的第二古老桥梁，仅次于查理大桥；尽管它长逾一公里、由砖石筑成，却是全城同等规模建筑中最少被拍照的一座。
+
+这座高架桥于1846年至1850年间建成，是维也纳—布拉格—德累斯顿铁路线的一部分，1850年6月1日正式通车，工程由奥地利建筑师阿洛伊斯·内格雷利（Alois Negrelli）主持——而他的职业生涯远不止于布拉格这一项工程。桥体全长1110米，横跨河流与卡尔林平原，最初由87个石拱构成，其中8个跨越河道的拱为花岗岩结构；它一度是欧洲最长的桥梁，这一纪录一直保持到1910年。时至今日，它仍是捷克最古老的铁路桥。
+
+这座高架桥经历过许多考验：两次世界大战、一个帝国的覆灭，还有2002年那场吞没了周边大片卡尔林地区的灾难性洪水——而桥体本身依然屹立不倒。近年来一项耗时近三年、耗资约19亿克朗的大规模修复工程，让桥梁恢复了1850年时的原貌，并首次在其历史上开放部分桥段供行人和骑行者通行——这座服役170多年、一直只为火车效力的桥，终于让人们可以徒步走完全程。
+
+🥚 彩蛋：内格雷利在布拉格的这座高架桥固然令人赞叹，但它甚至算不上他最著名的作品。早在费迪南·德·雷赛布（Ferdinand de Lesseps）动工建造苏伊士运河的几十年前，正是内格雷利绘制了运河的最初方案。也就是说，那个让布拉格通勤者跨越伏尔塔瓦河的头脑，也曾悄悄为连接地中海与红海奠定了基础——不起眼的基础设施与改变世界的工程，有时候出自同一张绘图桌。`,
+    },
+  },
+  {
+    name: 'Nikola Tesla Monument',
+    slug: 'pomnik-nikoly-tesly',
+    localizedNames: { cz: 'Pomník Nikoly Tesly', zh: '尼古拉·特斯拉纪念碑' },
+    labels: ['monument', 'modern'],
+    coordinates: { lat: 50.10561393683505, lng: 14.394193185786111 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Nikola Tesla Monument (Pomník Nikoly Tesly) — a six-metre bronze bolt of stylized electricity standing quietly in a small Dejvice park, commemorating a genius who spent roughly one semester in this city and, true to form for a man who rarely finished what he started on paper, never actually earned a degree here.
+
+Tesla arrived in Prague in 1880 at his uncle's urging and attended lectures at the Charles-Ferdinand University for a single semester. He was never formally enrolled — he lacked the required Greek examination — so he audited classes rather than pursued a diploma, then moved on to Budapest, Paris, and eventually the United States, where the ideas he'd been mulling over about alternating current would go on to power, quite literally, the modern world.
+
+The monument itself, unveiled in November 2006 to mark the 150th anniversary of Tesla's birth, was designed by sculptor Stefan Milkov and architect Jiří Trojan. Measuring six by three by three metres and costing over four million crowns, its form is a stylized electrical discharge — a nod to Tesla's lifelong obsession with high voltage and alternating current — and it glows from within after dark, casting light exactly the way its subject would have appreciated.
+
+🥚 Easter Egg: Despite Tesla's Prague résumé amounting to one unfinished semester with no diploma to show for it, this Dejvice sculpture is officially the largest Tesla monument anywhere in the world — outsizing tributes in Serbia, Croatia, and the United States, all countries with far stronger claims on the man. Sometimes cities build their biggest monuments not to what someone accomplished there, but to the tantalizing thought of what might have happened if they'd simply stayed a little longer.`,
+
+      cz: `Statečný dobrodruhu, vítej u Pomníku Nikoly Tesly — šestimetrového bronzového výboje stylizované elektřiny, tiše stojícího v malém dejvickém parku, na počest génia, který v tomto městě strávil zhruba jeden semestr a — v souladu se svou pověstí muže, který jen málokdy dotáhl na papíře cokoliv do konce — zde nikdy nezískal žádný titul.
+
+Tesla přijel do Prahy v roce 1880 na nátlak svého strýce a jeden semestr navštěvoval přednášky na Karlo-Ferdinandově univerzitě. Formálně nebyl nikdy zapsán — chyběla mu povinná zkouška z řečtiny —, a tak přednášky pouze poslouchal, aniž by usiloval o diplom. Poté pokračoval do Budapešti, Paříže a nakonec do Spojených států, kde myšlenky, které si tehdy v hlavě přebíral ohledně střídavého proudu, doslova poháněly moderní svět.
+
+Samotný pomník, odhalený v listopadu 2006 u příležitosti 150. výročí Teslova narození, navrhl sochař Stefan Milkov a architekt Jiří Trojan. Měří šest krát tři krát tři metry a stál přes čtyři miliony korun; jeho tvar představuje stylizovaný elektrický výboj — poklonu Teslově celoživotní posedlosti vysokým napětím a střídavým proudem — a po setmění se rozsvítí zevnitř, přesně tak, jak by si to jeho hlavní hrdina jistě přál.
+
+🥚 Velikonoční vajíčko: Ačkoliv Teslovo pražské CV sestává z jediného nedokončeného semestru bez jakéhokoliv diplomu, tato dejvická socha je oficiálně největším pomníkem Nikoly Tesly na celém světě — předčí i pocty v Srbsku, Chorvatsku a Spojených státech, tedy v zemích s mnohem silnějším nárokem na tohoto muže. Města někdy stavějí své největší pomníky ne tomu, co se u nich skutečně odehrálo, ale lákavé myšlence, co by se stalo, kdyby dotyčný zůstal jen o něco déle.`,
+
+      zh: `勇敢的冒险家，欢迎来到尼古拉·特斯拉纪念碑（Pomník Nikoly Tesly）——一座高达六米、造型宛如风格化闪电的青铜雕塑，静静矗立在戴维采（Dejvice）的一座小公园里，纪念这位在布拉格只待过短短一个学期、且一如既往地没有拿到任何学位的天才。
+
+1880年，特斯拉在叔叔的劝说下来到布拉格，在卡尔-斐迪南大学（Charles-Ferdinand University）旁听了一个学期的课程。他从未正式注册入学——因为他缺少必修的希腊语考试成绩——于是只能旁听，而没有真正攻读文凭。随后他辗转前往布达佩斯、巴黎，最终抵达美国。正是在那里，他当年反复琢磨的交流电构想，日后真正意义上点亮并驱动了整个现代世界。
+
+这座雕塑于2006年11月揭幕，恰逢特斯拉诞辰150周年，由雕塑家斯特凡·米尔科夫（Stefan Milkov）和建筑师伊日·特罗扬（Jiří Trojan）共同设计。雕塑高6米、宽3米、深3米，造价超过四百万克朗，其造型是一道风格化的电击闪光——向特斯拉毕生痴迷的高压电与交流电致敬——夜幕降临后，雕塑还会由内而外地发光，其效果想必正是它所纪念之人会欣赏的方式。
+
+🥚 彩蛋：尽管特斯拉在布拉格的"履历"只有未完成的一个学期、没有任何文凭，戴维采的这座雕像却是全世界最大的特斯拉纪念碑——规模超过塞尔维亚、克罗地亚乃至美国等与特斯拉渊源更深的国家所建的纪念物。有时候，一座城市建造最宏大的纪念碑，纪念的并不是某人真正做成了什么，而是那个诱人的假设：如果他当初多留一阵子，会发生什么。`,
+    },
+  },
+  {
+    name: 'Nová Spirála',
+    slug: 'nova-spirala',
+    localizedNames: { cz: 'Nová Spirála', zh: '新螺旋剧院' },
+    labels: ['cultural', 'modern'],
+    coordinates: { lat: 50.108385809335104, lng: 14.429945536139389 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Nová Spirála — a Výstaviště venue where you reach your seat by walking down actual spiral ramps, because apparently a regular staircase felt insufficiently dramatic for a hall that used to be a circular panoramic cinema.
+
+The building began life as the Kruhové kino, a circular cinema on the Výstaviště exhibition grounds, and was converted into a theatre for the 1991 Jubilee Exhibition by architects Jindřich Smetana, Jan Louda, Tomáš Kulík, and Zbyšek Stýblo. Its new name, Spirála, came directly from the spiral ramps that became the load-bearing structure of the whole interior, carrying audiences around the stage rather than straight toward it. The conversion earned an honorable mention at the 1991 Prague Quadrennial and the Grand Prix of the Association of Czech Architects in 1993 — and its very first production, once the exhibition ended, was Laterna Magika's Faust, which premiered on 15 July 1992.
+
+The devastating floods of August 2002 put the lower half of the Výstaviště grounds, Spirála included, entirely underwater, and the building spent years afterward in an uncertain state. A major reconstruction that began in 2021 finally brought it back, and the venue reopened on 3 October 2024 under its current name, Nová Spirála — now a multi-genre cultural space with a 360-degree auditorium, a revolving stage seating up to 800 people, and modern audiovisual technology built into a shell that started out screening panoramic newsreels.
+
+🥚 Easter Egg: The theatre's first-ever production, Laterna Magika's Faust, wasn't a random booking — Laterna Magika is the Czech multimedia theatre company that dazzled the world at Expo 58 in Brussels by blending live performance with film projection, decades before "multimedia" was a familiar word. A building shaped like a spiral hosting a company built around blending art forms feels less like coincidence and more like Prague matching form to function, as usual.`,
+
+      cz: `Statečný dobrodruhu, vítej v Nové Spirále — sále na Výstavišti, kam se ke svému místu dostanete po skutečných spirálových rampách, protože obyčejné schodiště zjevně nepůsobilo dost dramaticky pro halu, která bývala kruhovým panoramatickým kinem.
+
+Budova začínala jako Kruhové kino na pražském Výstavišti a na divadelní scénu byla přestavěna k příležitosti Jubilejní výstavy v roce 1991 architekty Jindřichem Smetanou, Janem Loudou, Tomášem Kulíkem a Zbyškem Stýblem. Nový název Spirála pochází přímo od spirálové rampy, která se stala nosným prvkem celého interiéru a vedla diváky kolem jeviště, místo aby je vedla přímo k němu. Přestavba získala čestné uznání na Pražském quadriennale 1991 a Grand Prix Obce architektů v roce 1993 — a jejím úplně prvním představením po skončení výstavy byl Faust Laterny magiky, který měl premiéru 15. července 1992.
+
+Ničivá povodeň v srpnu 2002 zaplavila celou spodní část areálu Výstaviště, Spirálu nevyjímaje, a budova pak řadu let zůstávala v nejisté situaci. Rozsáhlá rekonstrukce, která začala v roce 2021, ji nakonec vrátila k životu a prostor byl slavnostně znovuotevřen 3. října 2024 pod současným názvem Nová Spirála — dnes jde o multižánrový kulturní prostor s hledištěm do kruhu 360 stupňů, otočným jevištěm až pro 800 diváků a moderní audiovizuální technikou zabudovanou do pláště, který kdysi promítal panoramatické týdeníky.
+
+🥚 Velikonoční vajíčko: Úplně první inscenace divadla, Faust Laterny magiky, nebyla náhodnou volbou — Laterna magika je český multimediální divadelní soubor, který okouzlil svět na Expu 58 v Bruselu spojením živého představení s filmovou projekcí, desítky let předtím, než se slovo "multimediální" stalo běžným pojmem. Budova ve tvaru spirály, hostící soubor postavený na propojování uměleckých forem, tak působí méně jako náhoda a spíše jako Praha, jak ji známe — forma sedící přesně na funkci.`,
+
+      zh: `勇敢的冒险家，欢迎来到新螺旋剧院（Nová Spirála）——布拉格展览场（Výstaviště）内的一处场馆，你需要沿着真正的螺旋坡道走下去才能找到座位，因为对于一座曾经是环形全景电影院的大厅来说，普通楼梯显然不够有戏剧感。
+
+这栋建筑最初是布拉格展览场内的一座环形电影院（Kruhové kino），1991年为纪念展（Jubilejní výstava）而由建筑师伊日赫·斯梅塔纳（Jindřich Smetana）、扬·劳达（Jan Louda）、托马什·库利克（Tomáš Kulík）和兹比舍克·斯蒂布洛（Zbyšek Stýblo）改建为剧院。它的新名字"螺旋"（Spirála）正是来自那条成为整栋建筑承重结构的螺旋坡道——观众沿着坡道绕行至舞台四周，而非径直走向舞台。这次改建在1991年布拉格四年展（Prague Quadrennial）上获得荣誉提名，并在1993年荣获捷克建筑师协会大奖；展览结束后，剧院上演的第一部作品，正是拉特尔纳魔灯剧院（Laterna Magika）的《浮士德》，于1992年7月15日首演。
+
+2002年8月的那场灾难性洪水，淹没了整个布拉格展览场下半区，螺旋剧院也未能幸免，此后这栋建筑长年处于悬而未决的状态。直到2021年启动的大规模重建工程，才终于让它重获新生：2024年10月3日，场馆以现在的名字"新螺旋"（Nová Spirála）盛大重新开幕——如今这里是一处多类型文化空间，拥有360度环形观众席、可容纳多达800人的旋转舞台，以及嵌入在这座曾放映全景新闻片的建筑外壳中的现代视听技术。
+
+🥚 彩蛋：剧院开幕后的第一部作品——拉特尔纳魔灯剧院的《浮士德》——绝非随意之选。拉特尔纳魔灯是捷克的多媒体剧团，早在"多媒体"这个词还未被广泛使用的几十年前，就以融合现场表演与电影投影的方式，在1958年布鲁塞尔世博会上震惊了全世界。一座螺旋形状的建筑，容纳着一个致力于融合各种艺术形式的剧团——这与其说是巧合，不如说是布拉格一贯的作风：形式恰好服务于功能。`,
+    },
+  },
+  {
+    name: 'Nusle Brewery',
+    slug: 'nuselsky-pivovar',
+    localizedNames: { cz: 'Nuselský pivovar', zh: '努斯莱啤酒厂' },
+    labels: ['historical', 'hidden-gem', 'architecture'],
+    coordinates: { lat: 50.06585422571656, lng: 14.437567185956755 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Nusle Brewery (Nuselský pivovar) — a 330-year-old beer works that, partway through its career, quietly swapped hops for grapes and spent decades making wine instead, all while everyone kept calling it a brewery out of sheer habit.
+
+Founded in 1694 by Count Jan Josef Sezima of Vrtba in the Nusle valley, the brewery grew steadily over the centuries, with a major expansion completed in the second half of the 19th century. By the late 1930s, it ranked among the largest breweries in Central Europe, turning out roughly 90,000 hectolitres a year. Its light and dark ten-degree draft beers were well regarded, but the real star of the lineup was Prelát, a strong fourteen-degree dark beer that gave the brewery its local reputation.
+
+Beer production stopped for good in 1960, and the premises were handed over to the Czech Wine Enterprise, which spent decades producing wine here instead — including a label called Pražský výběr (Prague Selection). So for longer than it brewed beer in its final chapter, a building named "pivovar" was quietly bottling wine, a fact that seemed to bother almost nobody. The complex was declared a protected cultural monument in 2003, and since 2020, the site has been gradually reborn: some operational buildings were demolished to make way for housing, while the historically protected structures along Mnatova Street were restored for commercial, cultural, and community use — a new neighbourhood built carefully around what survived.
+
+🥚 Easter Egg: For decades, locals kept referring to a working winery as "the brewery" simply because the sign, and the name, never changed. It's a small, very Czech kind of stubbornness — the taste inside the building shifted entirely from beer to wine, but the identity etched into the neighbourhood's memory refused to budge an inch.`,
+
+      cz: `Statečný dobrodruhu, vítej u Nuselského pivovaru — 330 let starého pivovarského provozu, který v jistém bodě své kariéry potichu vyměnil chmel za hrozny a na desítky let se přeorientoval na výrobu vína, zatímco mu všichni ze setrvačnosti dál říkali pivovar.
+
+Pivovar založil v roce 1694 hrabě Jan Josef Sezima z Vrtby v nuselském údolí a v průběhu staletí se postupně rozrůstal, s velkým rozšířením dokončeným ve druhé polovině 19. století. Koncem třicátých let 20. století patřil mezi největší pivovary ve střední Evropě a produkoval zhruba 90 000 hektolitrů piva ročně. Jeho světlé a tmavé desítky měly dobrou pověst, ale skutečnou hvězdou sortimentu bylo silné čtrnáctistupňové tmavé pivo Prelát, které pivovaru vyneslo místní proslulost.
+
+Výroba piva definitivně skončila v roce 1960 a objekt převzal Český vinařský podnik, který zde po další desítky let vyráběl místo piva víno — mimo jiné pod značkou Pražský výběr. Budova nesoucí jméno "pivovar" tak déle tichě plnila lahve vínem, než v posledním úseku své existence vařila pivo — a zdálo se, že to nikomu příliš nevadí. Areál byl v roce 2003 prohlášen za chráněnou kulturní památku a od roku 2020 se postupně proměňuje: některé provozní budovy byly zbořeny a nahrazeny bydlením, zatímco památkově chráněné stavby v Mnatově ulici byly zrekonstruovány pro komerční, kulturní a komunitní využití — vzniká tak nová čtvrť, pečlivě vystavěná kolem toho, co se dochovalo.
+
+🥚 Velikonoční vajíčko: Místní po desítky let říkali fungující vinařství "pivovar" jen proto, že se název a cedule na budově nikdy nezměnily. Je to malá, velmi česká forma tvrdohlavosti — chuť uvnitř budovy se z piva zcela proměnila na víno, ale identita zapsaná do paměti čtvrti se nehnula ani o píď.`,
+
+      zh: `勇敢的冒险家，欢迎来到努斯莱啤酒厂（Nuselský pivovar）——一座已有330年历史的酿酒厂。在漫长的历史中，它一度悄悄把啤酒花换成了葡萄，转而酿起了葡萄酒，而周围的人却因为习惯，仍然一直叫它"啤酒厂"。
+
+这座啤酒厂由扬·约瑟夫·塞齐马·冯·弗尔特巴伯爵（Jan Josef Sezima of Vrtba）于1694年在努斯莱山谷创立，历经数百年稳步扩张，19世纪下半叶完成了一次大规模扩建。到20世纪30年代末，它已跻身中欧规模最大的啤酒厂之列，年产量约达9万百升。它的浅色与深色十度生啤颇受好评，但真正的招牌，是一款酒精度较高的十四度深色啤酒——"普雷拉特"（Prelát），正是这款啤酒为酒厂赢得了本地声誉。
+
+1960年，啤酒生产彻底停止，厂区随后被移交给捷克葡萄酒企业，此后数十年间这里一直在酿造葡萄酒，其中就包括名为"布拉格精选"（Pražský výběr）的品牌。也就是说，这座名叫"啤酒厂"的建筑，在其最后一段历史里，酿酒（葡萄酒）的时间远比酿啤酒更长——而这件事似乎几乎没人在意。2003年，整个建筑群被列为受保护的文化古迹；自2020年起，这里逐步获得新生：部分生产建筑被拆除，为住宅让路，而位于姆纳托娃街（Mnatova Street）沿线受保护的历史建筑，则被修复用于商业、文化和社区用途——一片围绕幸存建筑精心营造的新社区正在这里形成。
+
+🥚 彩蛋：几十年来，当地人一直把一家实际在酿葡萄酒的酒庄叫作"啤酒厂"，仅仅因为招牌和名字从未更换过。这是一种非常捷克式的、小小的固执——建筑内部的味道早已从啤酒彻底变成了葡萄酒，但刻在街区记忆里的身份，却分毫未曾改变。`,
+    },
+  },
+  {
+    name: 'Palác Akropolis',
+    slug: 'palac-akropolis',
+    localizedNames: { cz: 'Palác Akropolis', zh: '阿克罗波利斯宫' },
+    labels: ['cultural', 'landmark'],
+    coordinates: { lat: 50.08233526335989, lng: 14.448993369587882 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Palác Akropolis — a Žižkov apartment building that has, over one century, moonlighted as a theatre, a cinema, a workers' canteen, and one of Central Europe's most beloved alternative music venues, which is an unusually eventful résumé for a place that began life with a café on the ground floor.
+
+Construction started in March 1927, when architect Rudolf V. Svoboda began building on his own plot at the corner of Kubelíkova and Víta Nejedlého streets, on the border between Žižkov and Královské Vinohrady. The building combined spacious apartments with a ground-floor café and a basement theatre hall, its foyer decorated by painter Štroff with scenes from the founding of Czechoslovakia. The hall opened on 23 January 1928 with a production of Mahen's comedy Ulička odvahy — barely two weeks before Svoboda himself was still accepting congratulations at the building's official inspection.
+
+The good times didn't last. The economic crisis of the early 1930s buried Svoboda in debt, and the building was sold off at forced auction — to, of all buyers, a cremation company. During the Second World War it operated occasionally as a cinema, briefly returned to theatre after the war, and then closed for good as a stage following the communist coup of February 1948. For decades afterward it served as storage space, its once-lively restaurant reduced to a canteen for factory workers and pensioners.
+
+🥚 Easter Egg: The revival came in 1991, when the newly formed Žižkovská divadelní a hudební agentura bought the building with help from the Nadace Pražská pětka foundation, reopening the restaurant first and then rebuilding the hall entirely. It went on to win "Best Rock Club" from The Prague Post and "Interior of the Year" from the Union of Czech Architects, and in 1996 celebrated sculptor František Skála transformed the interior into a genuine work of art in its own right. Somewhere between the cremation company's ownership and today's packed concert nights, this building managed the rare trick of getting louder with age.`,
+
+      cz: `Statečný dobrodruhu, vítej v Paláci Akropolis — žižkovském činžovním domě, který si za jedno století přivydělal jako divadlo, kino, dělnická jídelna a jeden z nejoblíbenějších alternativních hudebních klubů střední Evropy, což je nezvykle bohaté curriculum vitae pro místo, které začínalo s kavárnou v přízemí.
+
+Stavba začala v březnu 1927, kdy architekt Rudolf V. Svoboda začal stavět na vlastním pozemku na rozhraní Žižkova a Královských Vinohrad, na nároží dnešních ulic Kubelíkovy a Víta Nejedlého. Budova spojovala prostorné byty s kavárnou v přízemí a divadelním sálem v suterénu, jehož foyer vyzdobil malíř Štroff výjevy z událostí spjatých se vznikem Československa. Sál byl slavnostně otevřen 23. ledna 1928 uvedením Mahenovy veselohry Ulička odvahy — necelé dva týdny poté, co Svoboda sám ještě přijímal gratulace při kolaudaci budovy.
+
+Dobré časy netrvaly dlouho. Hospodářská krize počátku třicátých let Svobodu zavalila dluhy a budova byla prodána v exekučním řízení — kupující byla, ironií osudu, společnost zabývající se pohřbíváním žehem. Za druhé světové války objekt občas fungoval jako kino, po válce se sem krátce vrátilo divadlo, aby definitivně skončilo po únorovém komunistickém převratu roku 1948. Po další desetiletí sloužila budova jako sklad a kdysi rušná restaurace se proměnila v jídelnu pro dělníky a důchodce.
+
+🥚 Velikonoční vajíčko: Znovuzrození přišlo v roce 1991, kdy nově vzniklá Žižkovská divadelní a hudební agentura budovu koupila s pomocí Nadace Pražská pětka, nejprve zprovoznila restauraci a poté kompletně přestavěla sál. Klub si následně vysloužil ocenění Nejlepší rockový klub od týdeníku The Prague Post a Interiér roku od Obce architektů, a v roce 1996 proslulý sochař František Skála proměnil interiér v samostatné umělecké dílo. Někde mezi vlastnictvím pohřební společnosti a dnešními nabitými koncertními večery se této budově podařil vzácný kousek — s věkem zesílila.`,
+
+      zh: `勇敢的冒险家，欢迎来到阿克罗波利斯宫（Palác Akropolis）——这座位于日什科夫（Žižkov）的公寓楼，在过去的一个世纪里先后兼职做过剧院、电影院、工人食堂，如今则是中欧最受欢迎的另类音乐场馆之一——对于一栋一楼最初只是间咖啡馆的建筑来说，这份履历相当丰富多彩。
+
+建筑工程始于1927年3月，建筑师鲁道夫·V·斯沃博达（Rudolf V. Svoboda）在自己的地块上动工，地点位于日什科夫与皇家维诺赫拉迪（Královské Vinohrady）交界处、如今库贝利科娃街与维塔·内耶德利街的转角处。整栋建筑将宽敞的公寓与一楼的咖啡馆、地下室的剧场大厅结合在一起，画家什特罗夫（Štroff）在门厅绘制了描绘捷克斯洛伐克建国场景的壁画。剧场大厅于1928年1月23日正式开幕，首演剧目是马亨（Mahen）的喜剧《勇气小巷》（Ulička odvahy）——就在两周前，斯沃博达本人还在建筑竣工验收仪式上接受众人的祝贺。
+
+然而好景不长。20世纪30年代初的经济危机让斯沃博达债台高筑，建筑最终被强制拍卖——而买家颇具讽刺意味，是一家火葬服务公司。第二次世界大战期间，这里偶尔作为电影院使用；战后剧院短暂恢复运营，却在1948年二月共产党政变后彻底关闭。此后数十年间，这里沦为仓库，曾经热闹的餐厅也变成了供工厂工人和退休人员用餐的食堂。
+
+🥚 彩蛋：转机出现在1991年，新成立的日什科夫戏剧与音乐机构（Žižkovská divadelní a hudební agentura）在"布拉格五号"基金会（Nadace Pražská pětka）的帮助下买下了这栋建筑，先恢复了餐厅营业，随后对剧场大厅进行了彻底重建。该场馆此后先后荣获《布拉格邮报》评选的"最佳摇滚俱乐部"，以及捷克建筑师协会颁发的"年度最佳室内设计"奖项；1996年，著名雕塑家弗朗蒂谢克·斯卡拉（František Skála）将内部空间改造成了一件真正的艺术品。从曾经归属火葬公司，到如今座无虚席的演出之夜，这栋建筑完成了一件罕见的事情——它随着年岁增长，反而变得更加喧闹。`,
+    },
+  },
 ];
 
 async function run() {
