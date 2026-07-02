@@ -4,6 +4,16 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.7.6] — 2026-07-02
+
+**Chore: add CI workflow to run Jest tests on push/PR**
+
+- Added `.github/workflows/test.yml` — two parallel jobs (`server`, `client`) triggered on push and pull request to `main`
+- Each job checks out the repo, sets up Node 20 with npm caching, runs `npm ci`, then `npm test` (Jest) in its respective directory
+- No new tests added; wires up the existing `server/__tests__` and `client/src/__tests__` suites (42 and 56 tests respectively) to run automatically
+
+---
+
 ## [1.7.5] — 2026-07-02
 
 **Feat: six new location cards with full EN/CZ/ZH descriptions**
