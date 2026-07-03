@@ -9,7 +9,7 @@
   "theme_color": "#ffd700",
   "icons": [
     {
-      "src": "/pixel-art/prague-castle.webp",
+      "src": "/pixel-art/app-logo.webp",
       "sizes": "any",
       "type": "image/webp",
       "purpose": "any maskable"

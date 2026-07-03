@@ -12,7 +12,10 @@ export default function Navbar() {
 
   return (
     <nav className="navbar">
-      <span className="navbar__logo" onClick={() => window.location.reload()} style={{ cursor: 'pointer' }}><span style={{ fontSize: '1.6em', lineHeight: 1 }}>⚔</span> {t('appName')}</span>
+      <span className="navbar__logo" onClick={() => window.location.reload()} style={{ cursor: 'pointer' }}>
+        <img className="navbar__logo-icon" src="/pixel-art/app-logo.webp" alt="" />
+        {t('appName')}
+      </span>
 
       {(user || guest) && (
         <div className="navbar__links">

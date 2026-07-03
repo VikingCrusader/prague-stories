@@ -448,6 +448,9 @@
   flex-shrink: 0;
 }
 .navbar__logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
   font-family: 'Press Start 2P', monospace;
   font-size: 11px;
   color: var(--gold);
@@ -456,6 +459,7 @@
   text-decoration: none;
 }
 .navbar__logo:hover { text-decoration: none; }
+.navbar__logo-icon { height: 2.1em; width: auto; flex-shrink: 0; }
 .navbar__links { display: flex; gap: 8px; margin-left: 16px; }
 .navbar__link {
   font-family: 'Press Start 2P', monospace;
