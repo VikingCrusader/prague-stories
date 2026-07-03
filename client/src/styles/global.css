@@ -104,6 +104,7 @@ html[data-lang="zh"] .loc-card__name,
 html[data-lang="zh"] .label-pill,
 html[data-lang="zh"] .ach-badge__name,
 html[data-lang="zh"] .form-label,
+html[data-lang="zh"] .navbar__user,
 html[data-lang="zh"] .toast {
   font-family:
     "ArkPixel", "PingFang SC", "-apple-system", "Microsoft YaHei",
@@ -132,6 +133,9 @@ html[data-lang="zh"] .px-btn {
   font-size: 14px !important;
 }
 html[data-lang="zh"] .px-btn--sm {
+  font-size: 13px !important;
+}
+html[data-lang="zh"] .navbar__user {
   font-size: 13px !important;
 }
 html[data-lang="zh"] .px-btn--lg {

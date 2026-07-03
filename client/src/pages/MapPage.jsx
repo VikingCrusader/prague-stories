@@ -10,6 +10,7 @@ import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../utils/pixelArtMap';
 import { RARITY_COLOR, RARITY_LABEL, lockClosedIcon } from '../utils/rarity';
 
 const RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
+const formatDate = (d) => new Date(d).toISOString().slice(0, 10);
 
 export default function MapPage() {
   const { lang } = useLang();
@@ -102,7 +103,7 @@ export default function MapPage() {
   };
 
   const handleCheckIn = (slug, result) => {
-    setLocations(prev => prev.map(l => l.slug === slug ? { ...l, unlocked: true } : l));
+    setLocations(prev => prev.map(l => l.slug === slug ? { ...l, unlocked: true, _checkedInAt: new Date().toISOString() } : l));
     addToast(`+${result.xpEarned} XP — ${result.levelInfo.title}!`);
     if (result.newAchievements?.length) {
       result.newAchievements.forEach(a => addToast(`Achievement: ${a.id.replace(/_/g, ' ')}`, 'info'));
@@ -110,7 +111,7 @@ export default function MapPage() {
   };
 
   const handleUndo = (slug) => {
-    setLocations(prev => prev.map(l => l.slug === slug ? { ...l, unlocked: false } : l));
+    setLocations(prev => prev.map(l => l.slug === slug ? { ...l, unlocked: false, _checkedInAt: null } : l));
     addToast('Visit removed', 'info');
   };
 
@@ -254,7 +255,7 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
   const { lang } = useLang();
   const t = useT();
   const convert = useConvert();
-  const { guest } = useAuth();
+  const { guest, updateUser } = useAuth();
   const navigate = useNavigate();
   const [loc, setLoc]                     = useState(null);
   const [loading, setLoading]             = useState(true);
@@ -306,7 +307,8 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
     try {
       const coords = await getCurrentPosition();
       const res = await checkinAPI.checkIn(slug, coords);
-      setLoc(prev => ({ ...prev, unlocked: true }));
+      setLoc(prev => ({ ...prev, unlocked: true, checkedInAt: new Date().toISOString() }));
+      updateUser({ totalXP: res.data.totalXP, explorerLevel: res.data.levelInfo.level });
       onCheckIn(slug, res.data);
     } catch (err) {
       setCheckInError(err.response?.data?.message || err.message || 'Check-in failed');
@@ -317,7 +319,8 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
     setActionLoading(true);
     try {
       const res = await checkinAPI.undo(slug);
-      setLoc(prev => ({ ...prev, unlocked: false }));
+      setLoc(prev => ({ ...prev, unlocked: false, checkedInAt: null }));
+      updateUser({ totalXP: res.data.totalXP, explorerLevel: res.data.levelInfo.level });
       onUndo(slug, res.data);
     } finally { setActionLoading(false); }
   };
@@ -349,18 +352,6 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
         {lang !== 'cz' && loc.localizedNames?.cz && (
           <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: 'var(--text-muted)', marginBottom: 12 }}>{loc.localizedNames.cz}</p>
         )}
-        <div className="loc-card__labels" style={{ marginBottom: 4 }}>
-          {(loc.labels || []).slice(0, 3).map((lb, i) => (
-            <span
-              key={lb}
-              className={`detail-label-pill${i === 0 ? ' detail-label-pill--superior' : ''}`}
-              title={LABEL_DEFINITIONS[lb]?.en}
-              style={{ backgroundColor: LABEL_COLORS[lb] || 'rgba(255,255,255,0.07)' }}
-            >
-              {convert(LABEL_DEFINITIONS[lb]?.[lang] || LABEL_DEFINITIONS[lb]?.en || lb)}
-            </span>
-          ))}
-        </div>
         <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 4 }}>
           <span style={{
             display: 'inline-block', width: 8, height: 8,
@@ -372,7 +363,26 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
             {convert(RARITY_LABEL[lang]?.[loc.rarity ?? 'common'])}
           </span>
           <span style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: 'var(--gold)', marginLeft: 4 }}>+{loc.xpReward} XP</span>
-          {loc.unlocked && <span style={{ marginLeft: 4, color: '#8eff8e', fontFamily: "'Press Start 2P'", fontSize: 6 }}>{t('common.visited')}</span>}
+        </div>
+        {loc.unlocked && loc.checkedInAt && (
+          <div style={{ marginBottom: 4 }}>
+            <span style={{ color: '#8eff8e', fontFamily: "'Press Start 2P'", fontSize: 6 }}>
+              {t('common.visited')}
+              {`${lang === 'zh' ? '' : ' '}${t('detail.at')}${lang === 'zh' ? '' : ' '}${formatDate(loc.checkedInAt)}`}
+            </span>
+          </div>
+        )}
+        <div className="loc-card__labels" style={{ marginBottom: 4 }}>
+          {(loc.labels || []).slice(0, 3).map((lb, i) => (
+            <span
+              key={lb}
+              className={`detail-label-pill${i === 0 ? ' detail-label-pill--superior' : ''}`}
+              title={LABEL_DEFINITIONS[lb]?.en}
+              style={{ backgroundColor: LABEL_COLORS[lb] || 'rgba(255,255,255,0.07)' }}
+            >
+              {convert(LABEL_DEFINITIONS[lb]?.[lang] || LABEL_DEFINITIONS[lb]?.en || lb)}
+            </span>
+          ))}
         </div>
 
         {(() => {
@@ -412,6 +422,13 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
           >
             {t('common.googleMaps')}
           </a>
+          {loc.createdAt && (
+            <div style={{ textAlign: 'right' }}>
+              <span style={{ fontSize: 7, color: 'var(--gold)', fontFamily: "'Press Start 2P'" }}>
+                {`${t('detail.added')}${lang === 'zh' ? '' : ' '}${t('detail.at')}${lang === 'zh' ? '' : ' '}${formatDate(loc.createdAt)}`}
+              </span>
+            </div>
+          )}
           <div style={{ display: 'flex', gap: 8, marginTop: 4, flexWrap: 'wrap' }}>
             {guest ? (
               <button className="px-btn px-btn--gold" onClick={() => navigate('/login')}>

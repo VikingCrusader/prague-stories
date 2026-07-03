@@ -14,7 +14,7 @@ export default function LanguageSwitcher() {
         {LANGS.map(l => (
           <button
             key={l.code}
-            className={`lang-tab ${lang === l.code ? 'lang-tab--active' : ''}`}
+            className={`lang-tab ${l.code === 'zh' ? 'lang-tab--zh' : ''} ${lang === l.code ? 'lang-tab--active' : ''}`}
             onClick={() => changeLang(l.code)}
           >
             {l.label}

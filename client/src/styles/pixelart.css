@@ -470,7 +470,9 @@
 .navbar__link--active { color: var(--gold); border-color: var(--gold); }
 .navbar__right { margin-left: auto; display: flex; align-items: center; gap: 12px; }
 .navbar__right .lang-tabs { margin-bottom: 0; }
-.navbar__user { font-size: 14px; color: var(--text-muted); }
+.navbar__user { font-family: 'Press Start 2P', monospace; font-size: 7px; color: var(--gold); }
+.navbar__github { display: flex; align-items: center; color: var(--gold); opacity: 0.85; transition: opacity 0.15s, transform 0.15s; }
+.navbar__github:hover { opacity: 1; transform: scale(1.1); }
 
 /* ── Auth Page ───────────────────────────────────────────── */
 .auth-page {
@@ -667,6 +669,11 @@
   margin-right: -2px;
 }
 .lang-tab--active { border-color: var(--gold); color: var(--gold); background: rgba(255,215,0,0.08); z-index: 1; }
+.lang-tab.lang-tab--zh {
+  font-family: 'ArkPixel', 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+}
 
 /* ── Guide Page ───────────────────────────────────────────── */
 .guide-page { flex: 1; padding: 24px; overflow-y: auto; }

@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
 import bcrypt from 'bcryptjs';
+import { calculateLevel } from '../services/gamification.js';
 
 const achievementSchema = new mongoose.Schema({
   id:         { type: String, required: true },
@@ -31,7 +32,7 @@ userSchema.methods.toPublicJSON = function () {
     username:      this.username,
     email:         this.email,
     totalXP:       this.totalXP,
-    explorerLevel: this.explorerLevel,
+    explorerLevel: calculateLevel(this.totalXP).level,
     achievements:  this.achievements,
     createdAt:     this.createdAt,
   };

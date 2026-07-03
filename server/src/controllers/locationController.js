@@ -90,12 +90,14 @@ export async function getLocation(req, res, next) {
     }
 
     let unlocked = false;
+    let checkedInAt = null;
     if (req.user) {
       const checkIn = await CheckIn.findOne({ user: req.user._id, location: location._id });
       unlocked = !!checkIn;
+      checkedInAt = checkIn?.checkedInAt ?? null;
     }
 
-    res.json({ ...location.toObject(), unlocked });
+    res.json({ ...location.toObject(), unlocked, checkedInAt });
   } catch (err) {
     next(err);
   }

@@ -20,6 +20,8 @@ import {
 } from "../../utils/rarity";
 import { playUnlockSound } from "../../utils/sound";
 
+const formatDate = (d) => new Date(d).toISOString().slice(0, 10);
+
 export default function LocationDetail({
   slug,
   onClose,
@@ -31,7 +33,7 @@ export default function LocationDetail({
   const { lang } = useLang();
   const t = useT();
   const convert = useConvert();
-  const { user, guest } = useAuth();
+  const { user, guest, updateUser } = useAuth();
   const navigate = useNavigate();
   const [loc, setLoc] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -83,8 +85,13 @@ export default function LocationDetail({
     try {
       const coords = await getCurrentPosition();
       const res = await checkinAPI.checkIn(slug, coords);
-      setLoc((prev) => ({ ...prev, unlocked: true }));
+      setLoc((prev) => ({
+        ...prev,
+        unlocked: true,
+        checkedInAt: new Date().toISOString(),
+      }));
       setCheckInResult(res.data);
+      updateUser({ totalXP: res.data.totalXP, explorerLevel: res.data.levelInfo.level });
       onCheckIn(slug, res.data); // update grid immediately
       setClosing(true); // start 2.5s close timer
     } catch (err) {
@@ -99,7 +106,8 @@ export default function LocationDetail({
     setError("");
     try {
       const res = await checkinAPI.undo(slug);
-      setLoc((prev) => ({ ...prev, unlocked: false }));
+      setLoc((prev) => ({ ...prev, unlocked: false, checkedInAt: null }));
+      updateUser({ totalXP: res.data.totalXP, explorerLevel: res.data.levelInfo.level });
       onUndo(slug, res.data);
     } catch (err) {
       setError(err.response?.data?.message || "Failed to undo");
@@ -291,6 +299,8 @@ export default function LocationDetail({
                       }}
                     >
                       {t("common.visited")}
+                      {loc.checkedInAt &&
+                        `${lang === "zh" ? "" : " "}${t("detail.at")}${lang === "zh" ? "" : " "}${formatDate(loc.checkedInAt)}`}
                     </span>
                   )}
                 </div>
@@ -385,6 +395,8 @@ export default function LocationDetail({
                       }}
                     >
                       {t("common.visited")}
+                      {loc.checkedInAt &&
+                        `${lang === "zh" ? "" : " "}${t("detail.at")}${lang === "zh" ? "" : " "}${formatDate(loc.checkedInAt)}`}
                     </span>
                   )}
                 </div>
@@ -615,6 +627,9 @@ export default function LocationDetail({
               {user && !checkInResult && (
                 <div
                   style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    alignItems: "center",
                     marginTop: 16,
                     paddingTop: 12,
                     borderTop: "1px solid #222",
@@ -627,6 +642,17 @@ export default function LocationDetail({
                   >
                     Edit
                   </button>
+                  {loc.createdAt && (
+                    <span
+                      style={{
+                        fontSize: 7,
+                        color: "var(--gold)",
+                        fontFamily: "'Press Start 2P'",
+                      }}
+                    >
+                      {`${t("detail.added")}${lang === "zh" ? "" : " "}${t("detail.at")}${lang === "zh" ? "" : " "}${formatDate(loc.createdAt)}`}
+                    </span>
+                  )}
                 </div>
               )}
             </div>
