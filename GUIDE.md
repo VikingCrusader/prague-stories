@@ -20,7 +20,7 @@ There are no orcs. There is, however, a bridge that has had more people thrown o
 
 Hit **Register**. Choose a username that you will not regret in six months. Enter your email and a password.
 
-You begin at **Level 1: Lost Tourist**. This is accurate. Embrace it.
+You begin at **Level 1: Newcomer**. This is accurate. Embrace it.
 
 ### Step 2 — Install as an App (Recommended)
 
@@ -136,6 +136,28 @@ Each location has a **rarity** — a Hearthstone-style card tier that tells you 
 | ◆ **Legendary** | +100 | Prague's most magnificent and iconic landmarks. If you haven't been here, you haven't really been to Prague. |
 
 The rarity is visible as a coloured diamond on every card (ivory → sky blue → green → purple → crimson → gold). The card border matches. The location name matches. Everything is colour-coded. The game wants you to feel things about a gold card.
+
+There are **30 levels**, running from 0 XP all the way to 15,000 XP. Early titles come cheap; the later ones make you work for it — the gap between levels grows the higher you climb, so the ladder stays climbable at the start and stays a genuine long-term goal at the top:
+
+| Lv | Title | XP | Lv | Title | XP |
+|---|---|---|---|---|---|
+| 1 | Newcomer | 0 | 16 | Bohemian Scholar | 5,400 |
+| 2 | Tourist | 80 | 17 | Alchemist's Apprentice | 5,970 |
+| 3 | Wanderer | 240 | 18 | Golem Tamer | 6,560 |
+| 4 | Explorer | 450 | 19 | Court Envoy | 7,160 |
+| 5 | Trailblazer | 700 | 20 | Royal Cartographer | 7,790 |
+| 6 | Adventurer | 980 | 21 | Keeper of Secrets | 8,430 |
+| 7 | Pathfinder | 1,310 | 22 | Guardian of the Bridge | 9,100 |
+| 8 | Urban Scout | 1,660 | 23 | Castle Sentinel | 9,780 |
+| 9 | Cartographer | 2,040 | 24 | Bohemian Noble | 10,470 |
+| 10 | Chronicler | 2,450 | 25 | Royal Chronicler | 11,190 |
+| 11 | City Sage | 2,880 | 26 | Sovereign of Prague | 11,920 |
+| 12 | Old Town Regular | 3,340 | 27 | Prague Champion | 12,660 |
+| 13 | Castle Apprentice | 3,820 | 28 | Guardian of the Realm | 13,430 |
+| 14 | Riverside Ranger | 4,330 | 29 | Immortal Wanderer | 14,210 |
+| 15 | Vltava Voyager | 4,850 | 30 | Prague Legend | 15,000 |
+
+Collecting every card in the base game today (432 locations, 12,620 XP) lands you around Level 26 — Sovereign of Prague. Level 30 is deliberately out of reach for now, on purpose, because the map keeps growing.
 
 ---
 

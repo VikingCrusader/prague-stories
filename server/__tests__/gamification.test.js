@@ -3,14 +3,36 @@ import { calculateLevel, evaluateAchievements, LEVELS } from '../src/services/ga
 describe('calculateLevel', () => {
   describe('level thresholds', () => {
     const cases = [
-      [0,    1, 'Newcomer',      100,  0],
-      [100,  2, 'Tourist',       300,  0],
-      [300,  3, 'Wanderer',      600,  0],
-      [600,  4, 'Explorer',     1000,  0],
-      [1000, 5, 'Adventurer',   1500,  0],
-      [1500, 6, 'Veteran',      3000,  0],
-      [3000, 7, 'Conqueror',    6000,  0],
-      [6000, 8, 'Prague Legend', null, 100],
+      [0,     1,  'Newcomer',               80,  0],
+      [80,    2,  'Tourist',                240, 0],
+      [240,   3,  'Wanderer',               450, 0],
+      [450,   4,  'Explorer',               700, 0],
+      [700,   5,  'Trailblazer',            980, 0],
+      [980,   6,  'Adventurer',            1310, 0],
+      [1310,  7,  'Pathfinder',            1660, 0],
+      [1660,  8,  'Urban Scout',           2040, 0],
+      [2040,  9,  'Cartographer',          2450, 0],
+      [2450,  10, 'Chronicler',            2880, 0],
+      [2880,  11, 'City Sage',             3340, 0],
+      [3340,  12, 'Old Town Regular',      3820, 0],
+      [3820,  13, 'Castle Apprentice',     4330, 0],
+      [4330,  14, 'Riverside Ranger',      4850, 0],
+      [4850,  15, 'Vltava Voyager',        5400, 0],
+      [5400,  16, 'Bohemian Scholar',      5970, 0],
+      [5970,  17, "Alchemist's Apprentice",6560, 0],
+      [6560,  18, 'Golem Tamer',           7160, 0],
+      [7160,  19, 'Court Envoy',           7790, 0],
+      [7790,  20, 'Royal Cartographer',    8430, 0],
+      [8430,  21, 'Keeper of Secrets',     9100, 0],
+      [9100,  22, 'Guardian of the Bridge',9780, 0],
+      [9780,  23, 'Castle Sentinel',      10470, 0],
+      [10470, 24, 'Bohemian Noble',       11190, 0],
+      [11190, 25, 'Royal Chronicler',     11920, 0],
+      [11920, 26, 'Sovereign of Prague',  12660, 0],
+      [12660, 27, 'Prague Champion',      13430, 0],
+      [13430, 28, 'Guardian of the Realm',14210, 0],
+      [14210, 29, 'Immortal Wanderer',    15000, 0],
+      [15000, 30, 'Prague Legend',          null, 100],
     ];
 
     test.each(cases)('xp=%i → level %i "%s"', (xp, level, title, nextLevelXP, progress) => {
@@ -23,20 +45,20 @@ describe('calculateLevel', () => {
   });
 
   describe('progress within a level', () => {
-    test('50 XP → 50% through level 1 (0–100)', () => {
-      expect(calculateLevel(50).progress).toBe(50);
+    test('40 XP → 50% through level 1 (0–80)', () => {
+      expect(calculateLevel(40).progress).toBe(50);
     });
 
-    test('99 XP → 99% through level 1', () => {
-      expect(calculateLevel(99).progress).toBe(99);
+    test('79 XP → 99% through level 1', () => {
+      expect(calculateLevel(79).progress).toBe(99);
     });
 
-    test('200 XP → 50% through level 2 (100–300)', () => {
-      expect(calculateLevel(200).progress).toBe(50);
+    test('160 XP → 50% through level 2 (80–240)', () => {
+      expect(calculateLevel(160).progress).toBe(50);
     });
 
-    test('800 XP → 50% through level 4 (600–1000)', () => {
-      expect(calculateLevel(800).progress).toBe(50);
+    test('575 XP → 50% through level 4 (450–700)', () => {
+      expect(calculateLevel(575).progress).toBe(50);
     });
   });
 
@@ -49,9 +71,9 @@ describe('calculateLevel', () => {
   });
 
   describe('max level', () => {
-    test('stays at level 8 above 6000 XP', () => {
+    test('stays at level 30 above 15000 XP', () => {
       const result = calculateLevel(99999);
-      expect(result.level).toBe(8);
+      expect(result.level).toBe(30);
       expect(result.progress).toBe(100);
       expect(result.nextLevelXP).toBeNull();
     });
@@ -64,8 +86,8 @@ describe('calculateLevel', () => {
       expect(result.title_zh).toBe('新来者');
     });
 
-    test('level 8 has correct multilingual titles', () => {
-      const result = calculateLevel(6000);
+    test('level 30 has correct multilingual titles', () => {
+      const result = calculateLevel(15000);
       expect(result.title_cz).toBe('Pražská legenda');
       expect(result.title_zh).toBe('布拉格传奇');
     });

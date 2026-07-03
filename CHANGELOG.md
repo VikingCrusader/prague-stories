@@ -4,6 +4,30 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.7.9] — 2026-07-03
+
+**Feat: Level system overhaul — 8 levels → 30, smooth XP curve to 15,000**
+
+### Gamification
+
+- `LEVELS` (`server/src/services/gamification.js`) rewritten from 8 levels (0 → 6,000 XP, doubling jumps at the top) to **30 levels spanning 0 → 15,000 XP**
+- New thresholds follow a smooth power curve (deltas grow from 80 XP at level 2 to 790 XP at level 30) instead of the old flat-then-doubling steps — leveling stays achievable early and becomes a genuine long-term goal at the top
+- All 30 levels have new EN/CZ/ZH titles (`Newcomer` → `Prague Legend`), replacing the old 8-title set
+- Headroom is intentional: collecting all 432 current location cards (12,620 XP) only reaches Level 26 — Sovereign of Prague — leaving room as the location catalog keeps growing
+- `calculateLevel()` logic unchanged; only the `LEVELS` data changed, so no other server code needed updates
+
+### Tests
+
+- `server/__tests__/gamification.test.js`: level-threshold test cases expanded from 8 to 30 (one per level, asserting `level`, `title`, `nextLevelXP`, `progress`); progress-within-a-level and max-level tests updated to the new ranges — server suite total 42 → 64 tests
+
+### Docs
+
+- `README.md`: level table expanded to all 30 levels (two-column layout); test suite counts updated (42 → 64 server, 98 → 120 total)
+- `GUIDE.md`: added full 30-level table to the "XP and Levels" section; fixed stale "Level 1: Lost Tourist" reference (actual level-1 title has been "Newcomer" since the original 8-level system) to "Level 1: Newcomer"
+- In-app Guide (`client/src/pages/GuidePage.jsx`, all 3 languages): "8 levels total: from Lost Tourist to Prague Legend" → "30 levels total: from Newcomer to Prague Legend"; same "Lost Tourist" → "Newcomer" fix in the registration step copy
+
+---
+
 ## [1.7.8] — 2026-07-02
 
 **Test: add React Testing Library component tests for LocationCard and LanguageSwitcher**

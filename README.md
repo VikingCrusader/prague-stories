@@ -86,18 +86,27 @@ Six tiers modelled on trading-card games, visible on every card border and diamo
 
 ### Gamification
 
-**8 Explorer Levels** (XP thresholds):
+**30 Explorer Levels** (XP thresholds, smooth power-curve progression from 0 to 15,000 XP):
 
-| Level | Title         | XP    |
-| ----- | ------------- | ----- |
-| 1     | Newcomer      | 0     |
-| 2     | Tourist       | 100   |
-| 3     | Wanderer      | 300   |
-| 4     | Explorer      | 600   |
-| 5     | Adventurer    | 1 000 |
-| 6     | Veteran       | 1 500 |
-| 7     | Conqueror     | 3 000 |
-| 8     | Prague Legend | 6 000 |
+| Level | Title                  | XP     | Level | Title                 | XP     |
+| ----- | ----------------------- | ------ | ----- | ---------------------- | ------ |
+| 1     | Newcomer                | 0      | 16    | Bohemian Scholar        | 5,400  |
+| 2     | Tourist                 | 80     | 17    | Alchemist's Apprentice  | 5,970  |
+| 3     | Wanderer                | 240    | 18    | Golem Tamer             | 6,560  |
+| 4     | Explorer                | 450    | 19    | Court Envoy             | 7,160  |
+| 5     | Trailblazer             | 700    | 20    | Royal Cartographer      | 7,790  |
+| 6     | Adventurer               | 980    | 21    | Keeper of Secrets       | 8,430  |
+| 7     | Pathfinder              | 1,310  | 22    | Guardian of the Bridge  | 9,100  |
+| 8     | Urban Scout             | 1,660  | 23    | Castle Sentinel         | 9,780  |
+| 9     | Cartographer            | 2,040  | 24    | Bohemian Noble          | 10,470 |
+| 10    | Chronicler              | 2,450  | 25    | Royal Chronicler        | 11,190 |
+| 11    | City Sage               | 2,880  | 26    | Sovereign of Prague     | 11,920 |
+| 12    | Old Town Regular        | 3,340  | 27    | Prague Champion         | 12,660 |
+| 13    | Castle Apprentice       | 3,820  | 28    | Guardian of the Realm   | 13,430 |
+| 14    | Riverside Ranger        | 4,330  | 29    | Immortal Wanderer       | 14,210 |
+| 15    | Vltava Voyager          | 4,850  | 30    | Prague Legend           | 15,000 |
+
+Deltas between levels grow progressively larger (80 → 160 → ... → 790 XP), so leveling stays achievable early on and becomes a longer-term goal at the top end — with headroom for the location catalog to keep growing (all 432 current cards total 12,620 XP, capping out around level 26).
 
 **15 Achievements** unlocked automatically at milestones:
 
@@ -247,10 +256,10 @@ prague-stories/
 
 ## Testing
 
-Jest unit tests cover all pure-logic utilities. 98 tests across 5 suites — no database, no HTTP server, no React rendering required.
+Jest unit tests cover all pure-logic utilities. 120 tests across 5 suites — no database, no HTTP server, no React rendering required.
 
 ```bash
-# Server (42 tests)
+# Server (64 tests)
 cd server && npm test
 
 # Client (56 tests)
@@ -260,7 +269,7 @@ cd client && npm test
 | Suite | What's covered |
 | --- | --- |
 | `rarityMap` | `RARITY_XP` constants, `getRarity()` slug lookup + unknown-slug default |
-| `gamification` | `calculateLevel()` all 8 level thresholds, progress %, multilingual titles; `evaluateAchievements()` every predicate, deduplication |
+| `gamification` | `calculateLevel()` all 30 level thresholds, progress %, multilingual titles; `evaluateAchievements()` every predicate, deduplication |
 | `locName` | `getLocName()` null safety, English passthrough, per-language fallback chain |
 | `geolocation` | `haversineDistance()` known distances, symmetry; position cache, subscriber fan-out, unsubscribe, stale-cache bypass, navigator error paths |
 | `pixelArtMap` | `getArt()` key hits, label fallback, array vs string, default; `LABEL_DEFINITIONS` shape; `LABEL_COLORS` hex format + coverage |
