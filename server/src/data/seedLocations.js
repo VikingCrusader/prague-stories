@@ -2388,6 +2388,216 @@ Výroba piva definitivně skončila v roce 1960 a objekt převzal Český vinař
     },
   },
   {
+    name: 'Mihulka Powder Tower',
+    slug: 'prasna-vez-mihulka',
+    localizedNames: { cz: 'Prašná věž Mihulka', zh: '米胡尔卡火药塔' },
+    labels: ['tower', 'historical', 'museum'],
+    coordinates: { lat: 50.09135709614391, lng: 14.40045799644936 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Mihulka Powder Tower! This chunky Renaissance cylinder tucked into Prague Castle's northern wall spent its working life storing gunpowder, casting bells, brewing alchemy for an emperor, and housing the cathedral sexton — proving that even a fortification tower in Prague cannot commit to just one career.
+
+Built at the very end of the 15th century as part of a sweeping new fortification project, the tower was designed by royal architect Benedikt Rejt on the orders of King Vladislav Jagiellon, who had just returned his court to Prague Castle after more than a century of royal absence. Standing 44 metres tall with a 20-metre diameter, Mihulka is one of three surviving towers from this late-medieval defensive line, perched above the steep slope of the Deer Moat on the Castle's northern flank — built to be the mightiest cannon tower in the whole fortification.
+
+Its interior led several separate lives. The Renaissance bell founder Tomáš Jaroš kept his workshop here, casting both the enormous Sigismund Bell for St. Vitus Cathedral and the Singing Fountain near the Royal Summer Palace. Later, under Emperor Rudolf II, part of the tower reportedly served as a laboratory for the court's alchemists, chasing gold and the philosopher's stone in the emperor's obsessive pursuit of hermetic knowledge. Afterward it settled into quieter work as a gunpowder magazine, then a dungeon, and — until the 20th century — as the modest home of the cathedral's sexton.
+
+🥚 Easter Egg: Prague's alchemist mythology usually gets pinned on the tiny houses of Golden Lane nearby, thanks to a very persistent tourist legend. Most historians agree that's mostly folklore — the real laboratory work, if it happened on this scale at all, was far more likely conducted right here in Mihulka's thick stone walls, with actual furnaces and proper ventilation, rather than in a cottage barely large enough to stand up in.`,
+
+      cz: `Statečný dobrodruhu, vítej v Prašné věži Mihulka! Tento podsaditý renesanční válec zasazený do severní hradby Pražského hradu si během své kariéry vyzkoušel snad všechno — skladování střelného prachu, odlévání zvonů, alchymistické pokusy pro císaře i bydlení kostelníka — což dokazuje, že ani hradební věž se v Praze nedokáže spokojit s jedinou profesí.
+
+Věž byla postavena na samém konci 15. století jako součást rozsáhlého opevňovacího programu podle návrhu královského stavitele Benedikta Rejta, na příkaz krále Vladislava Jagellonského, který se se svým dvorem právě vrátil na Pražský hrad po více než století panovnické nepřítomnosti. Se svými 44 metry výšky a průměrem 20 metrů je Mihulka jednou ze tří dochovaných věží tehdejší pozdně gotické obranné linie, tyčící se nad strmým svahem Jeleního příkopu na severní straně Hradu — postavená jako nejmohutnější dělová věž celého opevnění.
+
+Její vnitřek prožil hned několik samostatných životů. Renesanční zvonař Tomáš Jaroš zde měl svou dílnu a odlil zde jak mohutný Zikmundův zvon pro katedrálu sv. Víta, tak Zpívající fontánu u Královského letohrádku. Později, za vlády císaře Rudolfa II., prý část věže sloužila jako laboratoř dvorním alchymistům, kteří v císařově posedlosti hermetickým věděním hledali zlato a kámen mudrců. Poté se věž usadila v klidnějším provozu jako prachárna, posléze jako žalář a — až do 20. století — jako skromný byt kostelníka katedrály.
+
+🥚 Velikonoční vajíčko: Pražská alchymistická mytologie se obvykle připisuje malým domečkům nedaleké Zlaté uličky, díky velmi vytrvalé turistické legendě. Většina historiků se ale shoduje, že jde spíše o folklór — pokud se alchymistická práce v takovém rozsahu vůbec odehrávala, mnohem pravděpodobněji probíhala právě zde, v mohutných kamenných zdech Mihulky, se skutečnými pecemi a řádným větráním, než v chaloupce, kde se člověk sotva narovnal.`,
+
+      zh: `勇敢的冒险家，欢迎来到普拉纳塔（Prašná věž）——米胡尔卡火药塔！这座矮胖的文艺复兴风格圆形塔楼嵌在布拉格城堡北侧城墙中，一生干过储存火药、铸造钟铃、为皇帝炼金，还当过教堂司事的住所——证明就连一座城墙塔楼，在布拉格也无法只专精一份工作。
+
+这座塔楼建于15世纪末，是瓦迪斯拉夫二世·亚盖隆（Vladislav Jagellonský）国王大规模筑城计划的一部分，由王室建筑师本尼迪克特·雷特（Benedikt Rejt）设计——当时国王的宫廷刚刚结束了长达一个多世纪的缺席，重新迁回布拉格城堡。塔高44米，直径20米，是这条晚期哥特式防线中现存的三座塔楼之一，矗立在城堡北侧鹿壕沟（Jelení příkop）陡坡之上，当初的设计目标是成为整条防线中火力最强的炮塔。
+
+塔楼内部先后经历了好几段完全不同的"职业生涯"。文艺复兴时期的铸钟匠托马斯·雅罗什（Tomáš Jaroš）曾在此设有工坊，铸造了圣维特大教堂那口巨大的西吉斯蒙德钟（Zikmundův zvon），以及皇家夏宫附近的"会唱歌的喷泉"。后来，在鲁道夫二世皇帝在位期间，据说塔楼的一部分曾被用作宫廷炼金术士的实验室，皇帝对赫尔墨斯秘术的痴迷让这里一度弥漫着寻找黄金与贤者之石的气息。此后，塔楼归于平静，先后充当火药库、监狱，直到20世纪，还长期作为大教堂司事的简朴住所。
+
+🥚 彩蛋：布拉格的炼金术传说通常被安在附近黄金巷（Zlatá ulička）那些小房子头上，这多亏了一个非常顽固的旅游传说。但大多数历史学家认为，这更多是民间演绎——如果当年真的存在这种规模的炼金实验，更可能是在米胡尔卡这样厚实的石墙内进行，配有真正的熔炉和通风设施，而不是在一间连站直都困难的小屋里。`,
+    },
+  },
+  {
+    name: 'Church of the Most Holy Trinity',
+    slug: 'kostel-nejsvetejsi-trojice-spalena',
+    localizedNames: { cz: 'Kostel Nejsvětější Trojice', zh: '至圣三一堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.07066187908413, lng: 14.417908714870514 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Church of the Most Holy Trinity! Built for monks whose entire vocation was ransoming captives from slavery, nearly flattened by a runaway metro excavation, and rescued by furious parishioners twice over, this quiet Baroque survivor has packed in far more drama than its modest façade admits.
+
+The church and its adjoining monastery were built between 1708 and 1713 on the site of two demolished houses, designed by Octavian Broggio and raised under builders Kryštof Dientzenhofer and Jan Jiří Aichbauer the Younger. It was funded by Jan Ignác Putz z Adlersthurmu, the kingdom's chief mint master, for the Trinitarian Order — a religious order whose specific mission was collecting ransom money to free Christians held captive, often by pirates or in North Africa, which made a monastery of professional hostage negotiators a rather unusual next-door neighbour on a Prague street.
+
+Joseph II's sweeping monastic reforms dissolved the Trinitarian community in 1783 and shut the church along with it, but Prague's parishioners pushed back hard enough that it reopened just a year later, absorbing the parish of the recently closed Church of St. Martin in the Wall. Its troubles weren't over: 20th-century construction of Prague's metro system structurally damaged the building badly enough that demolition was seriously discussed. It survived, and still preserves interior wall paintings from 1779. Since February 2006 it has served Prague's Slovak Greek Catholic community.
+
+🥚 Easter Egg: The street it stands on, Spálená ("Burnt"), earned its name from a catastrophic fire on 3 June 1506 that destroyed twenty houses along it — meaning this church has spent three centuries facing a street named after a disaster, while quietly surviving disasters of its own.`,
+
+      cz: `Statečný dobrodruhu, vítej v kostele Nejsvětější Trojice! Postaven pro mnichy, jejichž celým posláním bylo vykupování zajatců z otroctví, málem srovnán se zemí uprostřed výstavby metra a dvakrát zachráněn rozhořčenými farníky — tento tichý barokní přeživší toho ve své historii zvládl mnohem víc, než by jeho skromná fasáda prozradila.
+
+Kostel spolu s přilehlým klášterem vznikl v letech 1708–1713 na místě dvou zbořených domů podle návrhu Octaviana Broggia a pod vedením stavitelů Kryštofa Dientzenhofera a Jana Jiřího Aichbauera mladšího. Financoval jej Jan Ignác Putz z Adlersthurmu, nejvyšší mincmistr Českého království, pro řád trinitářů — řeholi, jejímž konkrétním posláním bylo vybírat výkupné na osvobození křesťanů zajatých v otroctví, často piráty nebo v severní Africe, což z kláštera profesionálních vyjednavačů o rukojmích udělalo poněkud neobvyklého souseda na pražské ulici.
+
+Rozsáhlé josefínské klášterní reformy zrušily trinitářskou komunitu v roce 1783 a s ní i kostel, ale pražští farníci se ozvali natolik hlasitě, že se kostel už o rok později znovu otevřel a převzal farnost tehdy zrušeného kostela sv. Martina ve zdi. Jeho trápení tím ale neskončilo: výstavba pražského metra ve 20. století budovu staticky poškodila natolik, že se vážně uvažovalo o demolici. Kostel přežil a dodnes se v něm dochovaly nástěnné malby z roku 1779. Od února 2006 slouží pražské slovenské řeckokatolické farnosti.
+
+🥚 Velikonoční vajíčko: Ulice, na níž kostel stojí, Spálená, získala své jméno po ničivém požáru z 3. června 1506, který na ní zničil dvacet domů — tento kostel tak už tři století čelí ulici pojmenované po pohromě, zatímco tiše přežívá i své vlastní pohromy.`,
+
+      zh: `勇敢的冒险家，欢迎来到至圣三一堂！这座教堂最初是为专门赎回被掳基督徒的修会而建，后来又在地铁施工中险些被夷为平地，还两度被愤怒的教区居民从关闭边缘拯救回来——这座安静的巴洛克式"幸存者"，其经历远比朴素的外观所暗示的要跌宕起伏得多。
+
+教堂与附属修道院建于1708至1713年间，选址在两栋被拆除的房屋原址上，由奥克塔维安·布罗吉奥（Octavian Broggio）设计，建筑师克里什托夫·迪岑霍费尔（Kryštof Dientzenhofer）与小扬·伊日·艾希鲍尔（Jan Jiří Aichbauer）主持施工。出资人是波希米亚王国的铸币总管扬·伊格纳茨·普茨·冯·阿德勒斯图尔姆（Jan Ignác Putz z Adlersthurmu），建筑归属于三位一体会（Trinitarian Order）——这个修会的具体使命，是筹集赎金解救被掳为奴的基督徒，其中许多人被海盗掳走或被卖到北非，这让"专业人质谈判者"的修道院成了布拉格街头一个颇为特别的邻居。
+
+约瑟夫二世大规模的修道院改革，在1783年解散了三位一体会团体，教堂也随之关闭；但布拉格教区居民强烈抗议，仅仅一年后教堂便重新开放，并接收了当时刚关闭的圣马丁教堂（Kostel sv. Martina ve zdi）的教区事务。它的麻烦并未就此结束：20世纪布拉格地铁建设对建筑结构造成了严重损伤，一度认真讨论过将其拆除。教堂最终幸存下来，至今仍保留着1779年的室内壁画。自2006年2月起，这里成为布拉格斯洛伐克希腊礼天主教团体的教堂。
+
+🥚 彩蛋：教堂所在的斯帕莱纳街（Spálená，意为"被烧毁的"），其名字来自1506年6月3日的一场大火，那场火灾烧毁了街上二十栋房屋——这座教堂三百年来，一直面对着一条以灾难命名的街道，同时也悄悄挺过了属于自己的一场场灾难。`,
+    },
+  },
+  {
+    name: 'Prague Castle Riding School',
+    slug: 'jizdarna-prazskeho-hradu',
+    localizedNames: { cz: 'Jízdárna Pražského hradu', zh: '布拉格城堡马术学校' },
+    labels: ['architecture', 'cultural', 'historical'],
+    coordinates: { lat: 50.0923734915888, lng: 14.398389365530901 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Prague Castle Riding School! Built so Baroque nobles could show off their horsemanship in suitable grandeur, this hall survived a catastrophic fire, a stint as army storage, and a complete career change — today it exhibits paintings instead of ponies, with considerably less hay.
+
+The current building went up in 1694, replacing a smaller 1572 riding hall, designed by court architect Jean-Baptiste Mathey and built by Jakub Antonín Canevalle for Emperor Leopold I. It stands just across the Deer Moat from the main castle complex, next to the Royal Garden and the Renaissance Belvedere summer palace, and was purpose-built so the nobility could train horses, stage tournaments, and generally show off in front of each other in suitably grand surroundings.
+
+A fire gutted the hall in 1760, forcing a full reconstruction, and later the building was handed over to the military, which used it as storage — a considerable comedown for a hall once dedicated to aristocratic pageantry. In the mid-20th century it was converted for good into an exhibition space, and today, under the Prague Castle Administration, it hosts major art exhibitions in a barrel-vaulted hall that still looks entirely capable of holding a horse if the need ever arose again.
+
+🥚 Easter Egg: The building sits within sight of Golden Lane and Daliborka Tower, meaning a single walk along the Castle's northern edge takes you past a Renaissance dungeon, an alchemist's tower, and a Baroque riding academy — three completely different flavours of "showing off for the emperor" within about two hundred metres of each other.`,
+
+      cz: `Statečný dobrodruhu, vítej v Jízdárně Pražského hradu! Postavena proto, aby se barokní šlechta mohla náležitě honosně předvádět se svými koňmi, tato honosná hala přežila ničivý požár, éru vojenského skladu i úplnou změnu kariéry — dnes v ní visí obrazy místo koní, a sena je podstatně méně.
+
+Současná budova vznikla v roce 1694 jako náhrada za menší jízdárnu z roku 1572, podle návrhu dvorního architekta Jeana-Baptista Matheyho a v provedení stavitele Jakuba Antonína Canevalla, pro císaře Leopolda I. Stojí hned za Jelením příkopem naproti hlavnímu areálu Hradu, vedle Královské zahrady a renesančního letohrádku Belveder, a byla postavena přímo pro potřeby šlechty, aby zde mohla cvičit koně, pořádat turnaje a obecně se před sebou navzájem předvádět v odpovídajícím honosném prostředí.
+
+V roce 1760 halu zničil požár, který si vynutil kompletní přestavbu, a později byla budova zapůjčena armádě, jež ji využívala jako sklad — poměrně nevalný osud pro sál kdysi zasvěcený šlechtické parádě. V polovině 20. století byla natrvalo přeměněna na výstavní prostor a dnes zde Správa Pražského hradu pořádá velké umělecké výstavy v sálu s valenou klenbou, který stále vypadá, že by bez potíží pojal i koně, kdyby to bylo znovu potřeba.
+
+🥚 Velikonoční vajíčko: Budova stojí na dohled od Zlaté uličky a Daliborky, takže jediná procházka podél severního okraje Hradu vás provede kolem renesančního žaláře, alchymistické věže a barokní jezdecké akademie — tři naprosto odlišné podoby "předvádění se před císařem" na ploše necelých dvou set metrů.`,
+
+      zh: `勇敢的冒险家，欢迎来到布拉格城堡马术学校（Jízdárna Pražského hradu）！这座大厅本是为了让巴洛克贵族体面地炫耀自己的马匹而建，却先后经历了一场毁灭性大火、一段沦为军用仓库的岁月，以及一次彻底的"职业转型"——如今这里展出的是绘画而非骏马，干草也少了许多。
+
+现存建筑建于1694年，取代了1572年建成的一座较小的马术厅，由宫廷建筑师让-巴蒂斯特·马泰（Jean-Baptiste Mathey）设计，工匠雅库布·安托宁·卡内瓦莱（Jakub Antonín Canevalle）施工，为皇帝利奥波德一世（Leopold I）建造。建筑就位于鹿壕沟对面、紧邻主城堡建筑群，毗邻皇家花园与文艺复兴风格的贝尔维德尔夏宫（Belveder），当初专为贵族训练马匹、举办马术比武及各类炫耀性活动而设计。
+
+1760年一场大火几乎将大厅烧毁，迫使其进行全面重建；此后建筑一度被出借给军方用作仓库——对于一座曾经专属于贵族排场的大厅来说，这算是相当落魄的一段经历。20世纪中期，这里被彻底改造为展览空间，如今由布拉格城堡管理处运营，在这座至今看起来仍然完全能容纳一匹马的筒形拱顶大厅中，举办各类重要艺术展览。
+
+🥚 彩蛋：这座建筑与黄金巷、达利博尔卡塔（Daliborka）近在咫尺，因此沿着城堡北侧散步一圈，你就能依次路过一座文艺复兴式监狱、一座炼金术塔楼，以及一座巴洛克马术学院——三种截然不同的"向皇帝炫耀"的方式，全部挤在不到两百米的范围内。`,
+    },
+  },
+  {
+    name: 'Rosenberg Palace — Institute of Noblewomen',
+    slug: 'rozmbersky-palac-ustav-slechticen',
+    localizedNames: { cz: 'Rožmberský palác – Ústav šlechtičen', zh: '罗森堡宫——贵族女子学院' },
+    labels: ['historical', 'architecture', 'museum'],
+    coordinates: { lat: 50.091410502475746, lng: 14.403602298858065 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Rosenberg Palace, later reborn as the Institute of Noblewomen! One of Prague Castle's quietest corners, this Renaissance palace spent nearly two centuries turning impoverished aristocratic daughters into acceptably genteel ladies — proof that even a castle occasionally needs a finishing school.
+
+The original Renaissance palace was built between 1545 and 1574 for the powerful Rožmberk (Rosenberg) family, on ground cleared by a devastating fire in 1541. In 1600, the last of the line, Petr Vok of Rožmberk, sold it to Emperor Rudolf II, who had it connected to the Royal Palace by a covered wooden corridor so he wouldn't need to go outside to visit.
+
+In the mid-18th century Empress Maria Theresa had the palace radically rebuilt, founding the Institute of Noblewomen there in 1753 — a charitable institution that housed and educated around thirty impoverished aristocratic daughters (minimum age 24, or 18 for orphans) right up until Czechoslovak independence in 1918, after which the Ministry of the Interior took the building over instead. A lengthy restoration ran from 1996 to 2007, and the palace has been open to the public as part of the Castle's tour circuit since April 2010 — a stop plenty of visitors skip entirely after exhausting themselves at St. Vitus Cathedral next door.
+
+🥚 Easter Egg: The Institute's first abbess was Archduchess Maria Anna, Maria Theresa's own daughter, which meant the empress essentially put a member of her own family in charge of quality control for her new finishing school — a fairly on-brand move for a monarch famous for micromanaging practically everything, including her sixteen children's marriages.`,
+
+      cz: `Statečný dobrodruhu, vítej v Rožmberském paláci, později Ústavu šlechtičen! Jeden z klidnějších koutů Pražského hradu, tento renesanční palác strávil téměř dvě staletí proměňováním zchudlých šlechtických dcer v náležitě vybrané dámy — důkaz, že i hrad občas potřebuje ústav pro dokončovací vzdělání.
+
+Původní renesanční palác vznikl v letech 1545–1574 pro mocný rod Rožmberků, na pozemku uvolněném po ničivém požáru v roce 1541. V roce 1600 jej poslední mužský potomek rodu, Petr Vok z Rožmberka, prodal císaři Rudolfovi II., který si jej nechal propojit s Královským palácem krytou dřevěnou chodbou, aby při návštěvě nemusel vycházet ven.
+
+V polovině 18. století nechala císařovna Marie Terezie palác radikálně přestavět a v roce 1753 zde založila Ústav šlechtičen — charitativní instituci, která ubytovávala a vzdělávala kolem třiceti zchudlých šlechtických dcer (minimální věk 24 let, u sirotků 18 let) až do vzniku samostatného Československa v roce 1918, poté budovu převzalo ministerstvo vnitra. V letech 1996–2007 proběhla rozsáhlá rekonstrukce a od dubna 2010 je palác přístupný veřejnosti jako součást prohlídkového okruhu Hradu — zastávka, kterou řada návštěvníků po vyčerpávající prohlídce sousední katedrály sv. Víta úplně vynechá.
+
+🥚 Velikonoční vajíčko: První abatyší ústavu se stala arcivévodkyně Marie Anna, vlastní dcera Marie Terezie — císařovna tak v podstatě pověřila kontrolou kvality svého nového ústavu člena vlastní rodiny, což celkem odpovídá stylu panovnice proslulé mikromanagementem téměř všeho, včetně sňatků svých šestnácti dětí.`,
+
+      zh: `勇敢的冒险家，欢迎来到罗森堡宫，后来改称贵族女子学院！作为布拉格城堡里较为安静的一角，这座文艺复兴宫殿在近两个世纪里，一直致力于把家道中落的贵族之女培养成举止得体的淑女——证明就连城堡，有时也需要一所"淑女礼仪学校"。
+
+最初的文艺复兴风格宫殿建于1545年至1574年间，为势力强大的罗森堡家族（Rožmberk）而建，选址在1541年一场大火之后清理出的空地上。1600年，家族最后一位男丁彼得·沃克·冯·罗森堡（Petr Vok of Rožmberk）将其卖给了鲁道夫二世皇帝，皇帝下令用一条带顶的木质走廊将宫殿与王宫相连，以便自己造访时无需外出。
+
+18世纪中期，玛丽亚·特蕾西亚女皇下令对宫殿进行彻底改建，并于1753年在此创立了贵族女子学院——这是一所慈善机构，收容并教育约三十名家道中落的贵族之女（最低入学年龄24岁，孤儿则为18岁），一直运作到1918年捷克斯洛伐克独立，此后建筑改由内政部接管。1996年至2007年间，这里经历了一次漫长的修复工程；自2010年4月起，宫殿作为城堡游览路线的一部分对公众开放——不少游客在隔壁圣维特大教堂逛得筋疲力尽后，往往会直接跳过这一站。
+
+🥚 彩蛋：学院的第一任院长是玛丽亚·特蕾西亚女皇的亲生女儿——大公女玛丽亚·安娜（Maria Anna），也就是说，女皇实际上是让自家人来把关这所新"淑女学校"的质量——对于这位以事无巨细都要插手、甚至连十六个子女的婚事都要亲自安排而闻名的女皇来说，这一操作相当符合她的一贯风格。`,
+    },
+  },
+  {
+    name: 'Colloredo-Mansfeld Palace — Prague City Gallery',
+    slug: 'colloredo-mansfeldsky-palac',
+    localizedNames: { cz: 'Colloredo-Mansfeldský palác – Galerie hlavního města Prahy', zh: '科洛雷多-曼斯费尔德宫——布拉格市立美术馆' },
+    labels: ['cultural', 'architecture', 'historical'],
+    coordinates: { lat: 50.08596667057249, lng: 14.41439986032931 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Colloredo-Mansfeld Palace! This Baroque-Rococo showpiece on Karlova Street once hosted the last desperate council of a deposed "Winter King", whose host was beheaded for it soon after — and today it displays contemporary art instead of doomed monarchs and their advisors.
+
+The site originally held a Romanesque, then Gothic house, rebuilt in Late Renaissance style around 1600. On the night of 8–9 November 1620, right after the Bohemian defeat at the Battle of White Mountain, the deposed "Winter King" Frederick of the Palatinate held his very last council of war here — the house then belonged to Count Jáchym Ondřej Šlik, who was among the twenty-seven Bohemian nobles executed on Old Town Square the following year for their part in the revolt.
+
+The palace gained its present grand form over the following century, its design likely by Giovanni Battista Alliprandi, with a final Late Baroque phase completed after 1735 under architect Franz Ignatz Pree for owner Paul Vincent von Mansfeld-Fondi. In 1848, Princess Vilemína Josefína of Colloredo-Mansfeld acquired it as part of her dowry and had the façade reworked in Second Rococo style, with interiors updated to Viennese fashion in 1853. Since 2010 it has belonged to the Prague City Gallery, which opened its third-floor halls to contemporary art exhibitions in 2013.
+
+🥚 Easter Egg: The twenty-seven nobles executed in 1621 — including this palace's former owner — are commemorated with twenty-seven white crosses set into the paving of Old Town Square, just a few minutes' walk from the palace's front door, meaning you can trace the entire arc of this particular tragedy from council chamber to execution site in under ten minutes on foot.`,
+
+      cz: `Statečný dobrodruhu, vítej v Colloredo-Mansfeldském paláci! Tento barokně-rokokový skvost na Karlově ulici byl svědkem poslední zoufalé válečné rady sesazeného "zimního krále", jehož hostitel byl krátce nato za tuto pohostinnost popraven — a dnes tu místo odsouzených panovníků a jejich rádců visí současné umění.
+
+Na místě paláce stál původně románský, později gotický dům, přestavěný kolem roku 1600 v pozdně renesančním slohu. V noci z 8. na 9. listopadu 1620, hned po porážce českých stavů v bitvě na Bílé hoře, se zde konala poslední válečná rada sesazeného "zimního krále" Fridricha Falckého — dům tehdy patřil hraběti Jáchymu Ondřeji Šlikovi, který byl následující rok mezi sedmadvaceti českými pány popravenými na Staroměstském náměstí za účast na povstání.
+
+Palác získal svou dnešní honosnou podobu v průběhu následujícího století, pravděpodobně podle návrhu Giovanniho Battisty Alliprandiho, s pozdně barokní úpravou dokončenou po roce 1735 architektem Franzem Ignatzem Preem pro majitele Pavla Vincence z Mansfeldu-Fondi. V roce 1848 palác získala jako věno kněžna Vilemína Josefína Colloredo-Mansfeldová a nechala fasádu přestavět ve stylu druhého rokoka, interiéry pak byly v roce 1853 upraveny podle vídeňské módy. Od roku 2010 patří paláci Galerie hlavního města Prahy, která v roce 2013 otevřela sály ve třetím patře výstavám současného umění.
+
+🥚 Velikonoční vajíčko: Sedmadvacet pánů popravených v roce 1621 — včetně bývalého majitele tohoto paláce — připomíná sedmadvacet bílých křížů zasazených do dlažby Staroměstského náměstí, jen pár minut chůze od vchodu do paláce, takže celý oblouk této konkrétní tragédie — od válečné rady až po popraviště — lze pěšky projít za necelých deset minut.`,
+
+      zh: `勇敢的冒险家，欢迎来到科洛雷多-曼斯费尔德宫！这座位于卡罗瓦街（Karlova）的巴洛克-洛可可风格杰作，曾见证被废黜的"冬王"召开的最后一次绝望军事会议——而这场"款待"的主人不久后便为此付出了人头落地的代价，如今这里展出的是当代艺术，而非注定覆灭的君王与谋臣。
+
+这座宫殿的原址最初是一栋罗马式、后改建为哥特式的房屋，约1600年前后又被改建为晚期文艺复兴风格。1620年11月8日至9日夜间，就在波希米亚军队在白山战役中战败之后，被废黜的"冬王"腓特烈五世（Frederick of the Palatinate）在此召开了他最后一次军事会议——当时这栋房子的主人是雅希姆·昂德热·什利克伯爵（Jáchym Ondřej Šlik），他在次年因参与这场起义，与另外二十六位波希米亚贵族一同在老城广场被处决。
+
+此后的一个世纪里，宫殿逐渐形成如今的宏伟规模，设计者很可能是乔瓦尼·巴蒂斯塔·阿利普兰迪（Giovanni Battista Alliprandi），最后一次晚期巴洛克改建由建筑师弗朗茨·伊格纳茨·普雷（Franz Ignatz Pree）于1735年后为业主保罗·文森特·冯·曼斯费尔德-丰迪（Paul Vincent von Mansfeld-Fondi）完成。1848年，科洛雷多-曼斯费尔德家族的维莱米娜·约瑟菲娜公主（Vilemína Josefína）将其作为嫁妆继承，并将外立面改建为新洛可可风格，室内装饰也于1853年按照维也纳流行样式翻新。自2010年起，宫殿归属布拉格市立美术馆，该馆于2013年将三楼展厅向当代艺术展览开放。
+
+🥚 彩蛋：1621年被处决的二十七位贵族——其中就包括这座宫殿曾经的主人——如今被镶嵌在老城广场地面上的二十七个白色十字标记所纪念，那里距离宫殿大门只有几分钟步行路程，也就是说，你可以在不到十分钟的步行时间里，走完这段悲剧从"军事会议室"到"刑场"的完整轨迹。`,
+    },
+  },
+  {
+    name: 'Hlahol Choral Society Building',
+    slug: 'zpevacky-spolek-hlahol',
+    localizedNames: { cz: 'Spolkový dům Hlahol', zh: '赫拉霍尔合唱协会大楼' },
+    labels: ['cultural', 'architecture', 'historical'],
+    coordinates: { lat: 50.07797025324643, lng: 14.41443574726674 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Hlahol Choral Society building! This Art Nouveau riverside clubhouse was built for one purpose only — so Czech patriots could sing at each other in beautifully arranged four-part harmony — and, more than a century later, they still gather here to do exactly that.
+
+Hlahol — an Old Church Slavonic word roughly meaning "resounding sound" — is one of Prague's oldest choral societies, founded in 1861 during the Czech National Revival, a period when choral singing doubled as a quietly patriotic act under Habsburg rule: singing in Czech, in harmony, in public, was itself a small act of national self-assertion.
+
+After decades of renting rehearsal space around the city, the growing society finally bought its own riverside plot on the Vltava embankment, directly opposite the Mánes building, in 1903, and construction of a purpose-built clubhouse ran through 1904–1905. Building work began under builder Čeněk Gregor to initial plans by committee member František Schlaffer, before architect Josef Fanta — also responsible for Prague's main railway station — took over and completed the design as one of the era's few genuinely pure examples of Art Nouveau architecture. Painter Karel Ludvík Klusáček, sculptor Josef Pekárek, painter Alfons Mucha, and architect Karel Mottl all contributed decorative work, turning the façade into something close to a group portrait of Czech Art Nouveau talent. It has been a protected cultural monument since 1964.
+
+🥚 Easter Egg: Despite sitting directly across the river from the crowds around the National Theatre, most tourists walk straight past this one without a second glance — and Hlahol, as a society, is still active today, holding rehearsals and concerts in the very hall built for it more than a century ago, which makes it one of the few Prague landmarks that never actually stopped doing the thing it was built for.`,
+
+      cz: `Statečný dobrodruhu, vítej v domě Zpěváckého spolku Hlahol! Tento secesní spolkový dům na břehu Vltavy byl postaven kvůli jedinému účelu — aby si čeští vlastenci mohli krásně sladěně zazpívat vícehlasně jeden druhému — a víc než sto let později se tu k tomu stále scházejí.
+
+Hlahol — staroslověnské slovo přibližně znamenající "zvučný hlas" — patří mezi nejstarší pěvecké spolky v Praze, založený v roce 1861 v době národního obrození, kdy sborový zpěv fungoval jako tichý, ale výmluvný projev vlastenectví za habsburské nadvlády: zpívat česky, vícehlasně a veřejně bylo samo o sobě malým aktem národního sebeuvědomění.
+
+Po desetiletích, kdy si spolek pronajímal zkušební prostory po celém městě, rostoucí Hlahol konečně v roce 1903 koupil vlastní pozemek na nábřeží Vltavy, přímo naproti Mánesu, a stavba účelového spolkového domu probíhala v letech 1904–1905. Práce zahájil stavitel Čeněk Gregor podle prvotních plánů výborového člena Františka Schlaffera, než návrh převzal a dokončil architekt Josef Fanta — autor i pražského Hlavního nádraží — jako jednu z mála skutečně čistých ukázek secesní architektury své doby. Na výzdobě se podíleli malíř Karel Ludvík Klusáček, sochař Josef Pekárek, malíř Alfons Mucha a architekt Karel Mottl, díky čemuž se fasáda blíží skupinovému portrétu české secesní tvorby. Od roku 1964 je budova chráněnou kulturní památkou.
+
+🥚 Velikonoční vajíčko: Ačkoliv budova stojí přímo přes řeku naproti davům turistů kolem Národního divadla, většina návštěvníků kolem ní projde bez druhého pohledu — a Hlahol jako spolek je dodnes aktivní, zkouší a koncertuje ve stejném sále, který mu byl postaven před více než sto lety, což z něj dělá jednu z mála pražských památek, které nikdy nepřestaly dělat přesně to, k čemu byly postaveny.`,
+
+      zh: `勇敢的冒险家，欢迎来到赫拉霍尔合唱协会大楼！这座新艺术风格的河畔会所，建造的目的只有一个——让捷克爱国者们能够以优美的多声部合唱彼此歌唱——一百多年后的今天，他们依然在这里为此而聚会。
+
+"Hlahol"是古教会斯拉夫语，大意为"回响的声音"，是布拉格历史最悠久的合唱团体之一，创立于1861年捷克民族复兴运动期间。在哈布斯堡王朝统治下，合唱本身就是一种低调却有力的爱国表达方式——用捷克语、以多声部、在公开场合歌唱，本身就是一种小小的民族自我宣示。
+
+在城中辗转租用排练场地数十年后，日渐壮大的合唱协会终于在1903年买下了伏尔塔瓦河畔、正对马内斯馆（Mánes）的一块地皮，专属会所的建造工程于1904至1905年间进行。工程最初由建造商切涅克·格雷戈尔（Čeněk Gregor）依照协会委员弗兰季谢克·施拉费尔（František Schlaffer）的初步方案动工，其后由建筑师约瑟夫·凡塔（Josef Fanta，布拉格中央车站的设计者）接手完成，最终呈现出那个时代少有的、真正纯粹的新艺术风格建筑之一。画家卡雷尔·卢德维克·克卢萨切克（Karel Ludvík Klusáček）、雕塑家约瑟夫·佩卡雷克（Josef Pekárek）、画家阿尔丰斯·穆夏（Alfons Mucha）与建筑师卡雷尔·莫特尔（Karel Mottl）都参与了装饰设计，让整座建筑的立面几乎成了一幅捷克新艺术人才的"集体肖像"。自1964年起，该建筑被列为受保护的文化古迹。
+
+🥚 彩蛋：尽管这座建筑就坐落在河对岸、紧邻国家剧院周围熙攘的游客人群，大多数游客却对它视而不见、径直走过——而赫拉霍尔作为一个合唱团体至今仍然活跃，依然在这座为它建造的、已有百余年历史的大厅里排练与演出，这也让它成为布拉格少数几个从未停止实现其建造初衷的地标之一。`,
+    },
+  },
+  {
     name: 'Palác Akropolis',
     slug: 'palac-akropolis',
     localizedNames: { cz: 'Palác Akropolis', zh: '阿克罗波利斯宫' },
