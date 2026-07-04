@@ -437,10 +437,10 @@
 .navbar {
   background: var(--bg-surface);
   border-bottom: 3px solid var(--gold);
-  padding: 0 24px;
+  padding: 0 24px 8px;
   height: 60px;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   gap: 24px;
   position: sticky;
   top: 0;
@@ -449,17 +449,17 @@
 }
 .navbar__logo {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-end;
   gap: 8px;
   font-family: 'Press Start 2P', monospace;
-  font-size: 11px;
+  font-size: 17px;
   color: var(--gold);
   text-shadow: 2px 2px 0 #000;
   white-space: nowrap;
   text-decoration: none;
 }
 .navbar__logo:hover { text-decoration: none; }
-.navbar__logo-icon { height: 2.1em; width: auto; flex-shrink: 0; }
+.navbar__logo-icon { height: 48px; width: auto; flex-shrink: 0; }
 .navbar__links { display: flex; gap: 8px; margin-left: 16px; }
 .navbar__link {
   font-family: 'Press Start 2P', monospace;
@@ -775,7 +775,8 @@
 @media (max-width: 600px) {
   /* Navbar: logo + right on row 1, nav links full-width on row 2 */
   .navbar { padding: 8px 14px; height: auto; flex-wrap: wrap; }
-  .navbar__logo { order: 1; font-size: 9px; }
+  .navbar__logo { order: 1; font-size: 14px; }
+  .navbar__logo-icon { height: 28px; }
   .navbar__right { order: 2; margin-left: auto; gap: 8px; }
   .navbar__links {
     order: 3;

@@ -4,6 +4,54 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.8.2] — 2026-07-04
+
+**Feat: app-logo.webp replaces the navbar emoji and default PWA icon**
+
+- Navbar logo: ⚔ emoji → `<img src="/pixel-art/app-logo.webp">`, sized to `2.1em` so it matches the "Prague Stories" text height; scales correctly across desktop, mobile, and Chinese-mode breakpoints since sizing is relative to the inherited font-size
+- Set as the default icon everywhere `prague-castle.webp` was previously used: `manifest.json` (PWA home-screen icon), `index.html` `apple-touch-icon` (iOS home screen), and the OS proximity-notification icon (`useProximityDetection.js`)
+
+---
+
+## [1.8.1] — 2026-07-04
+
+**Feat: Added/Collected timestamps on location cards; GitHub repo link; navbar polish; fix stale level in navbar**
+
+### Card detail — Added / Collected dates
+- `GET /api/locations/:slug` now also returns `checkedInAt` alongside `unlocked` (`createdAt` was already present via Mongoose timestamps, just never surfaced)
+- `LocationDetail` modal: "✓ COLLECTED" badge now reads "✓ COLLECTED at YYYY-MM-DD"; "Added at YYYY-MM-DD" shown in gold, right-aligned, on the same line as the Edit button
+- Map sidebar (`MapPage`): "✓ COLLECTED at …" shown below the rarity/XP row and above the label pills; "Added at …" shown after the Google Maps link, above the collect/undo buttons
+- New i18n keys `detail.added` / `detail.at` (EN "at" / CZ "dne" / ZH "于") — Chinese renders with no surrounding spaces ("已收藏于2026-07-03"), EN/CZ keep normal spacing
+
+### GitHub link
+- Navbar now shows a gold GitHub icon (inlined `github-svgrepo-com.svg` path, `fill: currentColor`) linking to the repo, placed immediately left of the language switcher
+
+### Navbar polish
+- "中文" tab renders larger and bold (`lang-tab--zh` class) regardless of the currently active language — CJK glyphs were cramped at the 7px pixel-font size shared with EN/CZ
+- Navbar XP display: `⚡ {totalXP} XP` → `{totalXP}XP LV{level}`, matching the font size and gold color of the EN/CZ/LOGOUT controls instead of a muted gray
+
+### Bug fix: navbar showed a stale level after the 1.7.9 level-curve change
+- `User.explorerLevel` was a cached field, only recomputed and saved during check-in/undo. When the level thresholds changed in 1.7.9, every existing user's stored level went stale until their next check-in — the Dashboard was unaffected since it always computes the level live from `totalXP`, but the navbar read the stale cached field
+- `User.toPublicJSON()` now computes `explorerLevel` via `calculateLevel(this.totalXP).level` instead of returning the stored field, so it can't drift from `totalXP` again regardless of future level-curve changes
+- `AuthContext` gained `updateUser(patch)`; the check-in/undo handlers in `LocationDetail` and `MapPage` now push the fresh `totalXP` / `levelInfo.level` into it immediately, so the navbar updates live without needing a page reload
+
+---
+
+## [1.8.0] — 2026-07-04
+
+**Feat: 7 new location cards**
+
+- Villa Otto Petschka (superior, 30 XP) — U.S. Ambassador's residence in Bubeneč, built for the Petschek banking family
+- Petřín Funicular (common, 10 XP) — 1891 water-ballast funicular railway up Petřín Hill
+- Podolí Maternity Hospital (rare, 20 XP) — 1962 modernist riverside hospital on the Vltava embankment
+- Vyšehrad Tunnel (rare, 20 XP) — 1904 road tunnel through Vyšehrad hill, a favorite film and night-photography backdrop
+- Portheimka (superior, 30 XP) — 1725 Baroque garden villa in Smíchov with statues attributed to Matthias Bernard Braun's workshop
+- Ball Game Hall of Prague Castle (common, 10 XP) — 1568 Renaissance sgraffito hall in the Royal Garden
+- Great South Tower of St. Vitus Cathedral (epic, 50 XP) — 287-step climb to the cathedral's tallest tower, home to the Zikmund bell
+- All 7 have full EN/CZ/ZH descriptions (short humorous intro, lore, 🥚 Easter Egg bonus paragraph); none use the `landmark` label; total location count 425 → 432
+
+---
+
 ## [1.7.9] — 2026-07-03
 
 **Feat: Level system overhaul — 8 levels → 30, smooth XP curve to 15,000**
