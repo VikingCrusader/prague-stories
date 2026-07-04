@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <span className="navbar__logo" onClick={() => window.location.reload()} style={{ cursor: 'pointer' }}>
-        <img className="navbar__logo-icon" src="/pixel-art/app-logo.webp" alt="" />
+        <img className="navbar__logo-icon" src="/pixel-art/app-logo-transparent.webp" alt="" />
         {t('appName')}
       </span>
 
