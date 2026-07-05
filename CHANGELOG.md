@@ -4,6 +4,27 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.8.6] — 2026-07-05
+
+**Feat: 6 new location cards; feat: `ruin`/`jewish` labels; fix: wake-lock leak**
+
+### New locations
+- Ládví Geodetic Tower (epic, 50 XP) — 1936 brick triangulation tower in Ďáblický háj, one of nine survey towers built to anchor the S-JTSK coordinate system; fenced off and inaccessible
+- Admirál Botel (superior, 30 XP) — floating hotel-boat moored on the Vltava since 1971, last of three Prague "botels" from the communist era, still run by the same family firm since its 1993 privatization
+- Cibulka Lookout Tower (epic, 50 XP) — c. 1820 tower, the oldest purpose-built lookout in Prague, on a former Romantic-era estate now being converted into a children's hospice
+- Košíře-Motol Nature Park (epic, 50 XP) — Prague's smallest nature park, spanning trilobite fossils, a golf course, a greyhound track, and the city's oldest lookout tower
+- Velká Chuchle (epic, 50 XP) — riverside village that hosted the birth of Czech aviation (1911) and has run horse racing since 1906, twice flooded (2002, 2013)
+- Radotín Biotope (epic, 50 XP) — natural-filtration swimming lagoon opened 2014 on the site of a derelict, squatted wastewater treatment plant
+- All 6 have full EN/CZ/ZH descriptions (~50-word humorous EN intro, historical body paragraphs, 🥚 Easter Egg bonus) and pixel art; none use the `landmark` label; total location count 438 → 444, total XP pool 12,810 → 13,090
+
+### New labels
+- Added `ruin` 🏚️ and `jewish` ✡️ to `LABEL_DEFINITIONS`/`LABEL_COLORS` (`pixelArtMap.js`) and to `LanguageContext`'s `label.*` keys across all four UI languages (en/cz/zh/de)
+
+### Bug fix
+- `useWakeLock`: `acquire()` requested a fresh `WakeLockSentinel` unconditionally on every call and overwrote the previous ref without releasing it. A second call fired before the first settled — React 18 StrictMode double-invoking the mount effect (no cleanup was returned), or a fast double-tap on the toggle button — orphaned the earlier sentinel with no remaining reference to release it, keeping the screen awake indefinitely regardless of the toggle state. Fixed by guarding `acquire()` against concurrent/redundant calls, re-checking intent after the request resolves, clearing the ref on release, and adding the missing effect cleanup
+
+---
+
 ## [1.8.5] — 2026-07-04
 
 **Feat: browser tab favicon; Open Graph / Twitter Card meta tags for link previews**
