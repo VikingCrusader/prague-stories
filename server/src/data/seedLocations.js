@@ -2632,6 +2632,420 @@ Dobré časy netrvaly dlouho. Hospodářská krize počátku třicátých let Sv
 🥚 彩蛋：转机出现在1991年，新成立的日什科夫戏剧与音乐机构（Žižkovská divadelní a hudební agentura）在"布拉格五号"基金会（Nadace Pražská pětka）的帮助下买下了这栋建筑，先恢复了餐厅营业，随后对剧场大厅进行了彻底重建。该场馆此后先后荣获《布拉格邮报》评选的"最佳摇滚俱乐部"，以及捷克建筑师协会颁发的"年度最佳室内设计"奖项；1996年，著名雕塑家弗朗蒂谢克·斯卡拉（František Skála）将内部空间改造成了一件真正的艺术品。从曾经归属火葬公司，到如今座无虚席的演出之夜，这栋建筑完成了一件罕见的事情——它随着年岁增长，反而变得更加喧闹。`,
     },
   },
+  {
+    name: 'Radost Building',
+    slug: 'dum-radost',
+    localizedNames: { cz: 'Dům Radost', zh: '拉多斯特之家' },
+    labels: ['modern', 'architecture', 'historical', 'cafe'],
+    coordinates: { lat: 50.08418106214449, lng: 14.442571568859913 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/D%C5%AFm_Radost',
+    description: {
+      en: `Brave adventurer, welcome to the Radost Building (Dům Radost)! This Žižkov skyscraper spent seventy years as a grim communist trade-union headquarters nicknamed "the tilery," and only got its cheerful new name in 2019, once someone finally remembered to put a rooftop bar on top of it.
+
+Built in 1932–1934 by young architects Karel Honzík and Josef Havlíček on the site of the old Prague Municipal Gas Plant, this cruciform 52-metre tower — inspired by Le Corbusier's cross-shaped floor plans — was, for a while, the tallest office building in the country: Prague's first real skyscraper. Its facade was clad edge to edge in pale ceramic tiles from the RAKO factory, which is exactly why Praguers have never called it by its official name and instead nicknamed it "kachlíkárna" — roughly, "the tile factory."
+
+The building's own biography took a sharply less glamorous turn after 1948. From 1952 the Communist Party's Central Council of Trade Unions began absorbing it floor by floor, formally taking full ownership in 1957 and running it as the grey administrative engine room of state-controlled labour unions for the next four decades. It has been a protected cultural monument since 1964 — a rare case of a building being legally preserved specifically because of an era most Czechs would rather forget. Since new owners took over in 2019, it has been reborn under the name Radost Building, now packed with offices, apartments, a theatre, a cinema, a café, and a rooftop observation terrace open to the public.
+
+🥚 Easter Egg: The rooftop terrace, Střecha Radost, sits exactly where trade-union bureaucrats once had their offices, and it now ranks among the best sunset views over central Prague — meaning the single greyest building of the communist administrative apparatus has, improbably, become one of the city's more delightful hangout spots. Somewhere, an ex-union official is turning in their filing cabinet.`,
+
+      cz: `Statečný dobrodruhu, vítej v Domě Radost — žižkovském mrakodrapu, který sedmdesát let sloužil jako ponuré sídlo komunistických odborů s přezdívkou "kachlíkárna" a svého veselého jména se dočkal až v roce 2019, kdy si někdo konečně vzpomněl dát mu na střechu bar.
+
+Stavba z let 1932–1934 od mladých architektů Karla Honzíka a Josefa Havlíčka vyrostla na místě bývalé Pražské obecní plynárny. Křížový půdorys inspirovaný Le Corbusierem a výška 52 metrů z ní na čas udělaly nejvyšší kancelářskou budovu v zemi — první opravdový pražský mrakodrap. Fasáda byla obložena světlými keramickými deskami z továrny RAKO, a právě proto jí Pražané odjakživa říkají spíš "kachlíkárna" než jejím oficiálním jménem.
+
+Po roce 1948 se osud budovy prudce změnil k horšímu. Od roku 1952 ji postupně přebírala Ústřední rada odborů, v roce 1957 ji získala natrvalo a další čtyři desetiletí v ní fungovalo šedivé administrativní srdce státem řízených odborů. Od roku 1964 je chráněnou kulturní památkou — vzácný případ budovy, která je zákonem chráněná právě kvůli éře, na kterou by většina Čechů nejraději zapomněla. Od roku 2019, kdy dům získal nového majitele, ožil pod jménem Dům Radost a dnes v něm najdete kanceláře, byty, divadlo, kino, kavárnu a veřejně přístupnou vyhlídkovou terasu na střeše.
+
+🥚 Velikonoční vajíčko: Vyhlídková terasa Střecha Radost stojí přesně tam, kde kdysi sídlili odboroví byrokrati, a dnes patří mezi nejlepší místa ve městě na sledování západu slunce nad centrem Prahy — nejšedivější budova komunistického administrativního aparátu se tak nečekaně proměnila v jedno z nejpříjemnějších míst k posezení ve městě. Někde se jistě nějaký bývalý odborový funkcionář obrací ve své kartotéce.`,
+
+      zh: `勇敢的冒险家，欢迎来到拉多斯特之家（Dům Radost）——这座日什科夫的摩天大楼曾在七十年里一直是阴沉的共产党工会总部，被戏称为"瓷砖楼"，直到2019年才终于获得了这个欢快的新名字，因为终于有人想起该在楼顶开一间酒吧了。
+
+这栋建筑建于1932至1934年，由年轻建筑师卡雷尔·洪济克（Karel Honzík）和约瑟夫·哈夫利切克（Josef Havlíček）设计，选址就在旧布拉格市立煤气厂的原址上。它高52米，采用受勒·柯布西耶启发的十字形平面布局，一度是全国最高的办公楼——布拉格真正意义上的第一座摩天大楼。外立面通体贴满了RAKO工厂出产的浅色陶瓷砖，也正因如此，布拉格人几乎从不叫它的正式名字，而是直接称呼它"瓷砖楼"（kachlíkárna）。
+
+1948年之后，这栋建筑的命运急转直下。从1952年起，捷克斯洛伐克中央工会理事会开始逐层接管这栋大楼，并于1957年正式将其全部收归己有，此后近四十年里，它一直是国家管控下工会体系灰扑扑的行政中枢。自1964年起，它被列为受保护的文化古迹——这是一个相当罕见的案例：一栋建筑之所以受到法律保护，恰恰是因为它承载着大多数捷克人宁愿遗忘的那段历史。2019年，大楼迎来新的所有者，并以"拉多斯特之家"（意为"喜悦之家"）的新名字重获新生，如今这里汇聚了办公室、公寓、剧院、电影院、咖啡馆，还有一座向公众开放的屋顶观景平台。
+
+🥚 彩蛋：名为"Střecha Radost"的屋顶观景台，正好坐落在当年工会官僚们办公室的位置上，如今却是欣赏布拉格市中心日落的绝佳去处之一——共产主义行政机器里最灰暗乏味的一栋建筑，竟意外变成了这座城市最讨人喜欢的休闲角落之一。某位昔日的工会干部，恐怕正在自己当年的档案柜里辗转难安。`,
+    },
+  },
+  {
+    name: 'Rotunda of St. Longinus',
+    slug: 'rotunda-sv-longina',
+    localizedNames: { cz: 'Rotunda sv. Longina', zh: '圣朗基努斯圆形教堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.07651856385791, lng: 14.425631929011264 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: "https://en.wikipedia.org/wiki/St._Longin's_Rotunda",
+    description: {
+      en: `Brave adventurer, welcome to the Rotunda of St. Longinus (Rotunda sv. Longina)! This tiny Romanesque roundhouse started out honouring St. Stephen, then got quietly rebranded to a completely different saint in the 1350s — because Emperor Charles IV had just acquired a very trendy relic and everyone in Prague suddenly wanted a piece of the hype.
+
+One of only four Romanesque rotundas still standing in Prague, this one was built in the early twelfth century on Na Rybníčku street in what is now Prague 2, back when the area was an independent settlement called Rybníček, first recorded in the year 993. It served as the settlement's parish church, dedicated to St. Stephen. Everything changed after Charles IV founded the New Town in the mid-14th century: a much larger St. Stephen's Church went up right next door to handle the growing congregation, so the original rotunda needed a new identity entirely. Charles had recently acquired the Holy Lance — the relic said to have pierced Christ's side at the Crucifixion — which instantly made its wielder, the Roman centurion Longinus, the hottest saint in Bohemia. The little rotunda was rededicated in his honour, a Gothic window was cut into its apse, and by the 17th and 18th centuries it had picked up a Baroque lantern on top and a wooden altar retable balanced on its original Romanesque stone altar table.
+
+Its luck nearly ran out twice. In 1783, Emperor Joseph II's sweeping church closures shut it down and turned it into a storeroom. Then in the mid-19th century, city planners wanted to bulldoze it to make way for the new Na Rybníčku street — and it was saved only because the Society of the National Museum, led by historian František Palacký, intervened on its behalf. It reopened in 1844 and was thoroughly restored between 1929 and 1934.
+
+🥚 Easter Egg: The rebranding-by-relic story is a genuinely underrated piece of medieval PR strategy: Longinus wasn't even a well-known saint in Bohemia before Charles IV went shopping for holy hardware — the emperor collected relics the way modern billionaires collect art, and a soldier who barely gets a line in the Gospel of John ended up with his own dedicated rotunda purely because the boss brought home a really good souvenir from his travels.`,
+
+      cz: `Statečný dobrodruhu, vítej v Rotundě sv. Longina! Tato drobná románská stavbička byla původně zasvěcena sv. Štěpánovi, ale ve 14. století dostala tiše úplně nového patrona — protože císař Karel IV. si právě pořídil velmi módní relikvii a celá Praha najednou chtěla mít podíl na té slávě.
+
+Jde o jednu ze čtyř dochovaných románských rotund v Praze, postavenou na počátku 12. století v ulici Na Rybníčku na dnešním Novém Městě — tehdy tu ještě stávala samostatná osada Rybníček, poprvé zmíněná už roku 993. Rotunda sloužila jako farní kostelík osady a byla zasvěcena sv. Štěpánovi. Vše se změnilo po založení Nového Města Karlem IV. v polovině 14. století: hned vedle vyrostl mnohem větší kostel sv. Štěpána pro rostoucí farnost, a tak si původní rotunda musela najít úplně novou identitu. Karel IV. právě získal Svaté kopí — relikvii, jíž měl být proboden Kristův bok na kříži — což z jejího údajného držitele, římského setníka Longina, okamžitě udělalo nejžádanějšího světce v Čechách. Rotunda byla přesvěcena na jeho počest, do apsidy jí prolomili gotické okno a v 17. a 18. století přibyla barokní lucerna na vrcholu i dřevěný oltářní retábl posazený na původní románské kamenné meze.
+
+Štěstí jí dvakrát skoro došlo. V roce 1783 ji zavřel dekret Josefa II. o rušení kostelů a proměnil ji ve sklad. V polovině 19. století ji pak plánovali zbourat kvůli stavbě nové ulice Na Rybníčku — zachránila ji jen intervence Muzejní společnosti vedené historikem Františkem Palackým. Znovu byla otevřena v roce 1844 a důkladně opravena v letech 1929–1934.
+
+🥚 Velikonoční vajíčko: Toto přesvěcení na základě relikvie je podceňovaný kousek středověkého PR: Longinus nebyl v Čechách před nákupní horečkou Karla IV. skoro vůbec známý světec — císař sbíral relikvie podobně, jako dnešní miliardáři sbírají umění, a voják, který se v Janově evangeliu mihne sotva na jeden řádek, tak získal vlastní rotundu jen proto, že si šéf z cest přivezl opravdu povedený suvenýr.`,
+
+      zh: `勇敢的冒险家，欢迎来到圣朗基努斯圆形教堂（Rotunda sv. Longina）！这座小小的罗曼式圆形教堂最初供奉的是圣斯德望，但到了14世纪，它悄悄换了一位完全不同的主保圣人——因为查理四世皇帝刚刚"入手"了一件非常时髦的圣物，布拉格人也都想跟着沾点光。
+
+这是布拉格现存四座罗曼式圆形教堂之一，建于12世纪初，位于如今布拉格二区的"水塘街"（Na Rybníčku）——当时这里还是一个独立的小聚落"Rybníček"，早在公元993年就已见诸文献记载。圆形教堂最初是这个聚落的堂区教堂，供奉圣斯德望。查理四世在14世纪中叶建立布拉格新城后，一切都变了：紧挨着它，一座规模大得多的新圣斯德望教堂拔地而起，用来容纳日益增多的信众，于是这座老圆形教堂不得不重新寻找自己的身份。恰逢查理四世刚刚获得了"圣矛"——传说中曾刺穿耶稣肋旁的那件圣物——这立刻让圣矛的"持有者"、罗马百夫长朗基努斯，成为了波希米亚最炙手可热的圣人。这座圆形教堂随即改奉他为主保圣人，后堂被凿开一扇哥特式窗户，到17、18世纪，顶上又添了一座巴洛克风格的灯笼塔，原本的罗曼式石制祭坛桌上也摆上了一座木质祭坛屏。
+
+它的好运曾两度几乎耗尽。1783年，约瑟夫二世大规模关闭教堂的法令让它被迫关闭，沦为仓库。到了19世纪中叶，市政规划者又打算为修建新的"水塘街"而将它拆除——多亏国家博物馆学会在历史学家弗朗蒂谢克·帕拉茨基（František Palacký）的带领下出面干预，它才幸免于难。教堂于1844年重新开放，并在1929至1934年间经过彻底修缮。
+
+🥚 彩蛋：这次"因圣物而改朝换代"的故事，堪称一次被严重低估的中世纪公关操作：在查理四世开始"血拼"圣物之前，朗基努斯在波希米亚几乎默默无闻——这位皇帝收集圣物的热情，堪比今天的亿万富翁收藏艺术品，而《约翰福音》里几乎只被提了一句话的无名小兵，就这样单纯因为"老板"从外地带回一件绝佳纪念品，而拥有了属于自己的一整座圆形教堂。`,
+    },
+  },
+  {
+    name: 'Rotunda of St. Martin',
+    slug: 'rotunda-sv-martina',
+    localizedNames: { cz: 'Rotunda svatého Martina', zh: '圣马丁圆形教堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.06365060030585, lng: 14.42155430763051 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Rotunda_svat%C3%A9ho_Martina_(Vy%C5%A1ehrad)',
+    description: {
+      en: `Brave adventurer, welcome to the Rotunda of St. Martin (Rotunda sv. Martina)! This is officially the oldest building still standing in Prague — nearly a thousand years old — and it has survived fire, war, gunpowder storage, and two separate attempts by different emperors to get rid of it entirely.
+
+Built at the very end of the 11th century under Duke Vratislav II — the first Bohemian ruler to be crowned king — this small Romanesque rotunda predates Vyšehrad's more famous basilica and just about everything else on the hill. It was already showing its age by 1528, when a fire damaged it, and things got considerably stranger during the Thirty Years' War, when the sacred building was repurposed as a gunpowder magazine — not the safest storage decision anyone has ever made, but the rotunda survived it. A 1719 renovation swapped the old Romanesque entrance for a Baroque portal.
+
+The 18th century was unkind twice over. Prussian troops damaged it during their siege of Prague in 1757, and Emperor Joseph II — mid-way through his enthusiastic campaign of closing "unnecessary" churches across the empire — deconsecrated it outright. In 1841 it was slated for demolition to clear space for a new road, and was only spared thanks to the direct intervention of Count Karel Chotek. The Vyšehrad Chapter finally bought the building outright in 1875 for the price of 500 guilders, then had it carefully restored to its Romanesque appearance by architect Antonín Baum. It remains theirs today, and occasional Mass is still held inside.
+
+🥚 Easter Egg: Somewhere in the building's résumé is the detail that a nearly thousand-year-old sacred space spent part of the Thirty Years' War stacked with barrels of gunpowder — meaning Prague's oldest surviving building briefly doubled as one of its most flammable. It survived that, a fire, a Prussian siege, a bureaucratic deconsecration, and a scheduled demolition, which makes it one of the most improbable survivors in the entire city.`,
+
+      cz: `Statečný dobrodruhu, vítej v Rotundě sv. Martina! Jde oficiálně o nejstarší dochovanou stavbu v Praze — je jí skoro tisíc let — a přežila požár, válku, sklad střelného prachu i dva samostatné pokusy různých panovníků se jí úplně zbavit.
+
+Postavena byla na samém konci 11. století za vlády knížete Vratislava II., prvního českého panovníka korunovaného králem, a je tak starší než slavnější vyšehradská bazilika i téměř vše ostatní na kopci. Už v roce 1528 ji poznamenal požár, a ještě podivnější osud ji potkal za třicetileté války, kdy posvátná stavba sloužila jako sklad střelného prachu — rozhodně ne nejbezpečnější volba skladování, kterou kdy kdo učinil, ale rotunda to přežila. Při přestavbě roku 1719 nahradil původní románský vstup barokní portál.
+
+18. století k ní bylo nemilosrdné hned dvakrát. V roce 1757 ji poškodilo pruské vojsko během obléhání Prahy, a císař Josef II. ji uprostřed svého nadšeného tažení za rušení "zbytečných" kostelů po celé říši rovnou odsvětil. V roce 1841 měla ustoupit nové silnici a čekala ji demolice — zachránil ji jedině přímý zásah hraběte Karla Chotka. Vyšehradská kapitula budovu nakonec v roce 1875 odkoupila za 500 zlatých a nechala ji citlivě zrenovovat do románské podoby architektem Antonínem Baumem. Dodnes patří kapitule a příležitostně se v ní slouží mše.
+
+🥚 Velikonoční vajíčko: Ve stručném životopise budovy je i detail, že téměř tisíc let starý posvátný prostor strávil část třicetileté války obložený sudy se střelným prachem — nejstarší dochovaná pražská stavba tak na čas byla i jednou z těch nejhořlavějších. Přežila to, požár, pruské obléhání, byrokratické odsvěcení i naplánovanou demolici, což z ní dělá jednoho z nejnepravděpodobnějších přeživších v celém městě.`,
+
+      zh: `勇敢的冒险家，欢迎来到圣马丁圆形教堂（Rotunda sv. Martina）！它是布拉格现存最古老的建筑——将近一千年历史——并且先后挺过了火灾、战争、火药仓库的岁月，还两次被不同的皇帝下令想要彻底铲除它。
+
+这座小小的罗曼式圆形教堂建于11世纪末，由弗拉迪斯拉夫二世公爵（Vratislav II，波希米亚第一位加冕为国王的统治者）下令建造，比更负盛名的维谢赫拉德大殿以及山上几乎所有其他建筑都要古老。早在1528年，一场火灾就已让它元气大伤；而在三十年战争期间，它的命运变得更加离奇——这座神圣建筑一度被征用为火药库，绝对算不上什么明智的储存选择，但圆形教堂还是撑了过来。1719年的一次翻修中，原本的罗曼式入口被替换成了巴洛克式门廊。
+
+18世纪对它格外不友善，而且是接连两次。1757年，普鲁士军队在围攻布拉格期间将其损毁；随后，约瑟夫二世皇帝在其雄心勃勃地关闭全国"多余"教堂的行动中，直接将其废止圣职。1841年，它险些被拆除以为新道路让路，多亏卡雷尔·霍特克伯爵（Karel Chotek）的直接干预才幸免于难。维谢赫拉德教士团最终在1875年以500古尔登的价格将其买下，并委托建筑师安东宁·鲍姆（Antonín Baum）精心修复成罗曼式原貌。如今它仍归教士团所有，偶尔还会在此举行弥撒。
+
+🥚 彩蛋：这栋建筑的履历里藏着这样一个细节：一处近千年历史的神圣空间，曾在三十年战争期间的一段时间里被堆满火药桶——布拉格现存最古老的建筑，一度也是全城最易燃的建筑之一。它挺过了这一切，还有火灾、普鲁士围城、官僚式的废止圣职，以及一次已经排上日程的拆除计划，堪称全城最不可思议的"幸存者"之一。`,
+    },
+  },
+  {
+    name: 'Chapel of Our Lady of the Ramparts',
+    slug: 'kaple-panny-marie-sancovske',
+    localizedNames: { cz: 'Kaple Panny Marie Šancovské', zh: '壁垒圣母小教堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.06421577207715, lng: 14.421649973132942 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kaple_Panny_Marie_Na_hradb%C3%A1ch',
+    description: {
+      en: `Brave adventurer, welcome to the Chapel of Our Lady of the Ramparts (Kaple Panny Marie Šancovské)! This pocket-sized Vyšehrad chapel is named after a Madonna statue carved by an anonymous stonemason's apprentice in 1725 — proof that you don't need a famous sculptor to end up with your own miracle-working icon.
+
+The chapel takes its name from a statue of the Virgin Mary carved in 1725 by a journeyman mason named Michal Hoch, originally housed in the nearby Church of the Beheading of St. John the Baptist, which has since vanished entirely. The statue developed a reputation as miraculous and became known as the Virgin Mary Šancovská — "of the ramparts," a nod to the Vyšehrad fortification walls surrounding it. The current chapel was built for her in 1748 by the Vyšehrad canon and dean Jan Tomáš Berghauer, in the Baroque style still visible today, complete with a gilded "AVE MARIA" inscription above the entrance and an octagonal lantern topped with a copper dome.
+
+Like nearly every small chapel in the Habsburg lands, it ran straight into Joseph II's church closures: shut down in 1784 and seized for military use, fitting neatly with its location inside an active fortress. It sat in slow decline for almost a century until the Vyšehrad Chapter bought it back in 1882 and rebuilt it in the Neo-Baroque style it wears today. It is now a protected national cultural monument.
+
+🥚 Easter Egg: Look closely at the dome and you'll find one of Prague's stranger decorative combinations: a gilded cross, held up by an eagle carrying a scepter, standing next to a two-tailed lion — Bohemia's own heraldic beast casually sharing rooftop space with an entirely different set of symbols. Quite a lot of ornamentation for a chapel whose original claim to fame was a statue carved by someone whose name history barely bothered to record.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kapli Panny Marie Šancovské! Tato kapsa velikosti kapličky na Vyšehradě nese jméno po soše Panny Marie, kterou v roce 1725 vytesal bezejmenný tovaryš zednický — důkaz, že k vlastní zázračné soše nepotřebujete slavného sochaře.
+
+Kaple nese jméno po soše Panny Marie z roku 1725, dílu tovaryše Michala Hocha, původně umístěné v nedalekém kostele Stětí sv. Jana Křtitele, který mezitím zcela zanikl. Socha si vysloužila pověst zázračné a začalo se jí říkat Panna Marie Šancovská — podle šancí, tedy vyšehradských opevnění, která ji obklopovala. Současnou kapli pro ni nechal v roce 1748 postavit vyšehradský kanovník a děkan Jan Tomáš Berghauer v barokním slohu, který je patrný dodnes, včetně pozlaceného nápisu "AVE MARIA" nad vchodem a osmiboké lucerny s měděnou bání.
+
+Stejně jako téměř každá menší kaple v habsburských zemích narazila i tahle na rušení kostelů Josefem II.: v roce 1784 byla uzavřena a zabrána pro vojenské účely, což se vzhledem k umístění uvnitř aktivní pevnosti docela hodilo. Téměř sto let pak pomalu chátrala, než ji v roce 1882 odkoupila zpět Vyšehradská kapitula a přestavěla do novobarokní podoby, kterou nosí dodnes. Dnes je chráněnou národní kulturní památkou.
+
+🥚 Velikonoční vajíčko: Podívejte se pozorně na kopuli a najdete jednu z podivnějších dekorativních kombinací v Praze: pozlacený kříž, který drží orel se žezlem, stojící vedle dvouocasého lva — český heraldický šelma tu nenuceně sdílí střechu s úplně jinou sadou symbolů. Poměrně hodně výzdoby na kapli, jejíž původní sláva stála na soše vytesané někým, jehož jméno historie sotva zaznamenala.`,
+
+      zh: `勇敢的冒险家，欢迎来到壁垒圣母小教堂（Kaple Panny Marie Šancovské）！这座维谢赫拉德内的袖珍小教堂，因一尊1725年由一位无名石匠学徒雕刻的圣母像而得名——证明你根本不需要著名雕塑家，也能拥有属于自己的显灵圣像。
+
+小教堂的名字来自一尊1725年雕刻的圣母像，作者是一位名叫米哈尔·霍赫（Michal Hoch）的石匠学徒，圣像最初供奉在附近的"施洗约翰斩首堂"内——那座教堂如今已完全消失。这尊圣像后来被认为能显灵，人们称之为"壁垒圣母"（Šancovská），得名于环绕它的维谢赫拉德城防工事"šance"。现在这座小教堂由维谢赫拉德教士兼总铎扬·托马什·贝格豪尔（Jan Tomáš Berghauer）于1748年为她而建，至今仍保留着当时的巴洛克风格，入口上方镀金的"AVE MARIA"字样和顶部带铜穹顶的八角形灯笼塔都完好留存。
+
+和哈布斯堡治下几乎所有小教堂一样，它也没能逃过约瑟夫二世的教堂关闭令：1784年被关闭，并被军方征用——考虑到它就位于一座仍在使用的要塞内部，这倒也算合乎逻辑。此后近一个世纪，它一直缓慢破败，直到1882年被维谢赫拉德教士团买回，并按照今天所见的新巴洛克风格重建。如今它是受保护的国家文化古迹。
+
+🥚 彩蛋：仔细看看穹顶，你会发现布拉格最奇特的装饰组合之一：一只叼着权杖的鹰托举着一枚镀金十字架，旁边站着一头双尾狮——波希米亚自己的纹章猛兽，就这样随意地与另一套完全不同的象征符号共享屋顶空间。对于一座最初的名气仅仅来自一尊出自无名学徒之手的圣像的小教堂来说，这装饰未免也太隆重了一点。`,
+    },
+  },
+  {
+    name: "St. Charles Borromeo's Home",
+    slug: 'domov-sv-karla-boromejskeho',
+    localizedNames: { cz: 'Domov svatého Karla Boromejského', zh: '圣嘉禄·博罗梅奥之家' },
+    labels: ['historical', 'architecture', 'hidden-gem'],
+    coordinates: { lat: 50.069282024548386, lng: 14.295179751607341 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Domov_svat%C3%A9ho_Karla_Boromejsk%C3%A9ho_(%C5%98epy)',
+    description: {
+      en: `Brave adventurer, welcome to St. Charles Borromeo's Home (Domov svatého Karla Boromejského)! In its 160-plus years, this Řepy complex has been a farmstead, an orphanage, an epidemic ward, a women's prison run by nuns, and a care home — which is an unusually eventful résumé for a building most people walk past without a second glance.
+
+The Sisters of Mercy of St. Charles Borromeo arrived in Prague in 1837, and in 1858 they bought the old Taicman farmstead in the village of Řepy for 56,000 guilders, clearing the farm buildings to make room. Construction of a new two-storey building began in April 1859 under builder Jan Ripota, and by the summer of 1860 it was already finished enough to take in 188 orphans. Then, in 1864, a dangerous eye infection swept through the children living there, forcing many to be evacuated to the countryside for treatment; the remaining population shrank to just 25, who were relocated to a smaller home in Karlín.
+
+With the building suddenly empty, the state stepped in with an offer nobody saw coming: a 25-year lease to house convicted women prisoners. The sisters adapted the building in 1865–66, installing workshops for seamstresses and rope-makers, and ran what amounted to a convent-prison hybrid for the better part of a century, until the communist government shut the whole operation down in 1948 for political reasons. After 1989, the damaged cloister was slowly restored, and in 1996 the sisters finally returned to their original mission of caring for the sick, poor, and marginalized. Today the home treats roughly 500 patients a year and also runs a day centre for seniors — plus, remarkably, it still maintains a division for women serving sentences, keeping one thread of its unlikely history alive.
+
+🥚 Easter Egg: Somewhere in the paperwork of Czech religious history is the fact that a Catholic convent quietly ran a state-sanctioned women's prison for the better part of a century, with nuns supervising seamstress and rope-making workshops inside cells that had once housed orphaned children recovering from an eye epidemic. Few buildings in Prague can claim quite that specific a combination of occupants.`,
+
+      cz: `Statečný dobrodruhu, vítej v Domově svatého Karla Boromejského! Za víc než 160 let existence prošel tento komplex v Řepích proměnou od selského statku přes sirotčinec, epidemickou ošetřovnu a ženskou věznici pod dohledem sester až po dnešní domov s pečovatelskou péčí — neobvykle bohaté curriculum vitae na budovu, kolem které většina lidí projde bez povšimnutí.
+
+Kongregace Milosrdných sester sv. Karla Boromejského přišla do Prahy v roce 1837 a v roce 1858 koupila v obci Řepy starý statek Taicmanů za 56 000 zlatých, aby na jeho místě po zbourání hospodářských budov vznikla nová stavební parcela. Stavba nové dvoupatrové budovy začala v dubnu 1859 pod vedením stavitele Jana Ripoty a už v létě 1860 byla hotová natolik, že sem mohlo být přestěhováno 188 sirotků. V roce 1864 se ale mezi dětmi rozšířila nebezpečná oční nákaza, kvůli které musela být řada z nich převezena na venkov k léčení; zbylých pouhých 25 dětí bylo přemístěno do menšího domova v Karlíně.
+
+Náhle vyprázdněnou budovu si stát vzápětí vyžádal k účelu, jaký by nikdo nečekal: na 25 let si ji pronajal jako věznici pro odsouzené ženy. Sestry budovu v letech 1865–1866 upravily a zřídily v ní švadlenské a provaznické dílny, a téměř celé jedno století tak provozovaly svérázný hybrid kláštera a věznice — až do roku 1948, kdy komunistický režim celý provoz z politických důvodů uzavřel. Po roce 1989 se poškozený klášter pomalu obnovoval a v roce 1996 se sestry konečně vrátily ke svému původnímu poslání péče o nemocné, chudé a lidi na okraji společnosti. Dnes domov ročně ošetří kolem 500 pacientů, provozuje také denní stacionář pro seniory — a pozoruhodně stále udržuje i oddělení pro ženy ve výkonu trestu, čímž zachovává jednu nit své nepravděpodobné historie.
+
+🥚 Velikonoční vajíčko: Někde v análech české církevní historie je zapsáno, že katolický klášter téměř celé století tiše provozoval státem posvěcenou ženskou věznici, kde sestry dohlížely na švadlenské a provaznické dílny v celách, které kdysi obývaly sirotčí děti zotavující se z oční epidemie. Jen málo pražských budov se může pochlubit tak specifickou kombinací obyvatel.`,
+
+      zh: `勇敢的冒险家，欢迎来到圣嘉禄·博罗梅奥之家（Domov svatého Karla Boromejského）！在160多年的历史里，这座位于热比（Řepy）的建筑群先后做过农庄、孤儿院、传染病隔离所、由修女管理的女子监狱，最后变成了今天的养老照护中心——对于一栋大多数人路过都不会多看一眼的建筑来说，这份履历相当丰富曲折。
+
+圣嘉禄·博罗梅奥慈善修女会于1837年来到布拉格，1858年又以56,000古尔登的价格买下热比村的泰茨曼老农庄，拆除农舍后腾出了一大片建筑用地。新的两层建筑于1859年4月在建筑师扬·里波塔（Jan Ripota）的主持下动工，到1860年夏天时已完工到足以接纳188名孤儿入住的程度。然而到了1864年，一场危险的眼疾在孩子们之间蔓延开来，许多人不得不被送往乡下治疗；留下来的孩子只剩25人，随后被转移到卡林（Karlín）一处更小的住所。
+
+建筑突然空了下来，国家随即提出了一个谁也没料到的用途：租期25年，用作关押女性囚犯的监狱。修女们于1865至1866年对建筑进行改造，设立了缝纫和制绳的工坊，此后近一个世纪，这里实际上运作成了一种修道院与监狱的混合体——直到1948年，共产党政府出于政治原因将其彻底关闭。1989年后，受损的修道院逐渐得到修复，1996年，修女们终于重新回归她们最初的使命：照顾病人、穷人和社会边缘群体。如今，这座养老院每年治疗约500名病患，还开设了一处日间老年活动中心——而且颇为难得的是，这里至今仍保留着一个女性服刑人员的分部，让它那段不可思议的历史仍留有一线延续。
+
+🥚 彩蛋：捷克教会历史的档案里记着这样一笔：一座天主教修道院，近一个世纪里悄悄运营着一座得到国家认可的女子监狱，修女们在曾经住满从眼疾中康复的孤儿的牢房里，监督着缝纫和制绳工坊的运作。布拉格能有这么一份"住客名单"的建筑，恐怕找不出几栋。`,
+    },
+  },
+  {
+    name: 'Smíchov Synagogue',
+    slug: 'smichovska-synagoga',
+    localizedNames: { cz: 'Smíchovská synagoga', zh: '斯米霍夫犹太会堂' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.07179711864168, lng: 14.40292464947191 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Sm%C3%ADchov_Synagogue',
+    description: {
+      en: `Brave adventurer, welcome to the Smíchov Synagogue (Smíchovská synagoga)! Over 160 years this building has worn four completely different disguises — neo-Romanesque synagogue, Functionalist redesign, Nazi loot warehouse, and Tatra truck-factory storeroom — before finally settling down as a quiet archive, which counts as a remarkably calm retirement.
+
+The synagogue was completed on 30 August 1863, funded on land donated by the mayor of Smíchov himself, Franz Ringhoffer — a name Prague still recognizes today, since his family's factory went on to build much of the city's tram fleet. The original building paired a neo-Romanesque exterior with a Moorish-style interior, a combination fashionable for synagogues across 19th-century Central Europe. It didn't have an easy run: anti-Jewish riots in 1897 caused real damage to the building. By the 1920s the community was scouting new land for a replacement synagogue entirely, but ultimately chose instead to remodel the existing one — architect Leopold Ehrmann gave it a striking Functionalist exterior in 1931, the version still standing today.
+
+The building's darkest chapter came during the Nazi occupation, when in 1941 it was converted into a warehouse for confiscated Jewish property. Prague's Smíchov Jewish community was never reconstituted after the war, and by the 1950s the building had been repurposed once again — this time as storage for the nearby Tatra Smíchov truck factory. In 1986 the communist authorities scheduled it for demolition, a fate it escaped only by being placed on the heritage protection list. Ownership passed to the Prague Jewish Community after the 1990 revolution, and since 1998 it has been leased to the Jewish Museum in Prague, which spent five years fully restoring it before turning it into the archive and study room it remains today.
+
+🥚 Easter Egg: The full-circle detail worth savouring: the very same Ringhoffer family that donated the land for this synagogue in the 1860s built a factory empire that eventually merged into Tatra — and decades later, this synagogue itself ended up doing time as a storage annex for that very same Tatra Smíchov works. Prague's industrial and religious history occasionally loops back on itself in ways nobody could have planned.`,
+
+      cz: `Statečný dobrodruhu, vítej ve Smíchovské synagoze! Za posledních 160 let na sobě tato budova vystřídala čtyři naprosto odlišné podoby — novorománskou synagogu, funkcionalistickou přestavbu, nacistický sklad ukořistěného majetku a skladiště smíchovské Tatry — než se konečně usadila jako tichý archiv, což je docela klidný důchod.
+
+Synagoga byla dokončena 30. srpna 1863 na pozemku, který věnoval sám starosta Smíchova Franz Ringhoffer — jméno, které Praha zná dodnes, protože z jeho rodinné továrny nakonec vzešla velká část pražského tramvajového parku. Původní budova spojovala novorománský exteriér s maurským interiérem, což byla v 19. století oblíbená kombinace pro synagogy po celé střední Evropě. Snadný osud neměla: protižidovské nepokoje v roce 1897 ji reálně poškodily. Ve 20. letech obec dokonce hledala pozemek pro úplně novou synagogu, nakonec se ale rozhodla přestavět tu stávající — architekt Leopold Ehrmann jí v roce 1931 dal nápadný funkcionalistický vzhled, který nese dodnes.
+
+Nejtemnější kapitola budovy přišla za nacistické okupace, kdy z ní v roce 1941 udělali sklad zkonfiskovaného židovského majetku. Smíchovská židovská obec už po válce nebyla obnovena a budova v 50. letech znovu změnila účel — tentokrát jako sklad blízké továrny Tatra Smíchov. V roce 1986 ji komunistické úřady odsoudily k demolici, které unikla jen díky zapsání na seznam památek. Po revoluci roku 1990 přešla do majetku Židovské obce v Praze a od roku 1998 ji má v pronájmu Židovské muzeum v Praze, které ji během pěti let kompletně zrestaurovalo a od té doby ji využívá jako archiv a studovnu.
+
+🥚 Velikonoční vajíčko: Stojí za pozornost, jak se tu historie uzavírá do kruhu: stejná rodina Ringhofferů, která v 60. letech 19. století věnovala pozemek pro tuto synagogu, později vybudovala továrenské impérium, jež se nakonec spojilo s Tatrou — a o desítky let později synagoga sama sloužila jako skladovací přístavek přesně téhle smíchovské Tatrovky. Pražská průmyslová a náboženská historie se občas uzavírá do kruhů, které by nikdo neuměl naplánovat.`,
+
+      zh: `勇敢的冒险家，欢迎来到斯米霍夫犹太会堂（Smíchovská synagoga）！在160多年的历史中，这栋建筑先后换过四副完全不同的"面孔"——新罗曼式犹太会堂、功能主义风格改建、纳粹赃物仓库，以及塔特拉（Tatra）卡车厂的储藏室——最终才安顿下来，做起了一间安静的档案室，也算是相当平静的"退休生活"。
+
+这座会堂于1863年8月30日竣工，用地由斯米霍夫市长弗朗茨·林霍夫尔（Franz Ringhoffer）本人捐赠——这个名字布拉格人至今仍不陌生，因为他家族的工厂后来生产了这座城市大部分的有轨电车。最初的建筑外观为新罗曼式，内部则采用摩尔风格，这种组合在19世纪中欧的犹太会堂中相当流行。它的命运并不平顺：1897年的反犹骚乱曾对建筑造成实质性破坏。到了20世纪20年代，社区一度在寻找新地块，打算另建一座全新的会堂，但最终还是选择改建现有建筑——建筑师利奥波德·埃尔曼（Leopold Ehrmann）于1931年为其赋予了一副引人注目的功能主义外观，也就是今天所见的样貌。
+
+这栋建筑最黑暗的一章发生在纳粹占领时期：1941年，它被改作没收的犹太人财产的仓库。战后，斯米霍夫的犹太社区再未得到重建，到了20世纪50年代，这栋建筑又一次改变了用途——这次成了附近塔特拉·斯米霍夫（Tatra Smíchov）卡车厂的储藏室。1986年，共产党当局曾计划将其拆除，多亏被列入文物保护名录才幸免于难。1990年剧变后，其产权转归布拉格犹太社区所有，自1998年起由布拉格犹太博物馆租用，博物馆花费五年时间将其彻底修复，此后它便一直作为档案室和阅览室使用至今。
+
+🥚 彩蛋：这段历史里有个格外值得玩味的"闭环"细节：19世纪60年代为这座会堂捐地的林霍夫尔家族，后来打造出的工厂帝国最终并入了塔特拉——几十年后，这座会堂本身竟成了那家塔特拉·斯米霍夫工厂的储藏附楼。布拉格的工业史与宗教史，有时会以谁都无法预先设计的方式，兜转回到彼此身上。`,
+    },
+  },
+  {
+    name: 'Ládví Geodetic Tower',
+    slug: 'geodeticka-vez-ladvi',
+    localizedNames: { cz: 'Geodetická věž Ládví', zh: '拉德维测量塔' },
+    labels: ['tower', 'historical', 'hidden-gem'],
+    coordinates: { lat: 50.13598301593087, lng: 14.464383111569747 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Geodetick%C3%A1_v%C4%9B%C5%BE_L%C3%A1dv%C3%AD',
+    description: {
+      en: `Brave adventurer, welcome to the Ládví Geodetic Tower (Geodetická věž Ládví)! This fifteen-metre brick obelisk was built in 1936 for one job only — helping surveyors measure the exact shape of the Earth — and it does that job so seriously that even you, the visitor, are not allowed inside.
+
+Ládví Tower is one of nine measuring towers raised across Czech lands between 1936 and 1942 to fix trigonometric reference points with the precision beloved by generations of cartographers. It stands on a circular floor plan, a design it shares only with the very first of the nine, on Pecný hill — every tower built after that one switched to a star-shaped footprint instead. The tower's real job, however, predates it by seventy years: the ground beneath it has been anchoring measurements since 1862, when the original cadastral marker here fed into the Central European degree survey used to calculate the curvature of the planet. The current tower simply protects that legacy point, which today underpins the S-JTSK coordinate system — the standard every Czech land surveyor, and the builders of the Prague metro, are legally required to use.
+
+Ládví itself sits at 359 metres, the second-highest point in the Prague basin, hidden inside the quiet Ďáblický háj forest in Prague 8. The tower is fenced off and its door stays firmly locked, but the eastern edge of the hill opens onto a genuinely lovely view — on a clear day you can see all the way to Říp, the mythical hill where, according to legend, the first Czechs settled.
+
+🥚 Easter Egg: The plot of land the tower stands on wasn't donated by a government ministry or a surveying office — it was handed over by the Order of the Knights of the Cross with the Red Star, a Czech Catholic order founded in the 13th century, specifically so that this one precise dot on the map would never be built over. Eight hundred years of institutional history, all in service of a single very stubborn survey point.`,
+
+      cz: `Statečný dobrodruhu, vítej u Geodetické věže Ládví! Patnáctimetrový cihlový sloup byl postaven v roce 1936 kvůli jedinému úkolu — pomoci geodetům přesně změřit tvar Země — a bere to natolik vážně, že dovnitř nesmíte ani vy, návštěvníci.
+
+Věž Ládví je jednou z devíti měřických věží, které vznikly na českém území mezi lety 1936 a 1942, aby zafixovaly trigonometrické body s přesností, kterou by ocenila celá generace kartografů. Stojí na kruhovém půdorysu, což sdílí jen s vůbec první z devítky, na kopci Pecný — všechny další věže po ní už dostaly půdorys ve tvaru hvězdy. Skutečný úkol věže je ale o sedmdesát let starší: půda pod ní slouží k měření už od roku 1862, kdy tehdejší katastrální bod vstoupil do středoevropského stupňového měření používaného k výpočtu zakřivení planety. Dnešní věž jen chrání tento historický bod, který dnes tvoří základ souřadnicového systému S-JTSK — normy, kterou musí ze zákona používat každý český geodet i stavitelé pražského metra.
+
+Samotné Ládví leží ve výšce 359 metrů, což je druhý nejvyšší bod Pražské kotliny, ukrytý v tichém Ďáblickém háji v Praze 8. Věž je oplocená a dveře zůstávají pevně zamčené, ale východní okraj kopce nabízí opravdu pěkný výhled — za jasného počasí dohlédnete až k Řípu, bájné hoře, kde se podle legendy usadili první Češi.
+
+🥚 Velikonoční vajíčko: Pozemek, na kterém věž stojí, nevěnovalo žádné ministerstvo ani zeměměřický úřad — daroval ho Rytířský řád křižovníků s červenou hvězdou, český katolický řád založený ve 13. století, a to výhradně proto, aby se na tomto jednom přesném bodě na mapě nikdy nic nepostavilo. Osm set let institucionální historie, to vše ve službách jednoho velmi tvrdohlavého geodetického bodu.`,
+
+      zh: `勇敢的冒险家，欢迎来到拉德维地质测量塔（Geodetická věž Ládví）！这座15米高的砖砌尖塔建于1936年，只为了一个任务——帮助测量员精确测算地球的形状——而且它对这项工作认真到连你这位游客都不许进去参观。
+
+拉德维塔是1936年至1942年间在捷克境内建造的九座测量塔之一，用于以令历代制图师都为之着迷的精度确定三角测量基准点。它采用圆形平面设计，这一点只与九座塔中最早建成的那座（位于佩茨尼山）相同——在那之后建造的所有测量塔都改用了星形平面。不过，这座塔真正的使命其实要追溯到七十年前：早在1862年，这片土地下方的测量点就已投入使用，当年的地籍基准点曾被纳入中欧度量测量项目，用于计算地球的曲率。如今的这座塔，不过是在守护这一历史悠久的基准点——而它至今仍是S-JTSK坐标系统的根基，捷克每一位测量员，乃至布拉格地铁的建造者，依法都必须使用这套系统。
+
+拉德维山本身海拔359米，是布拉格盆地的第二高点，静静地藏在布拉格8区的达布利采森林（Ďáblický háj）之中。这座塔被围栏圈住，大门也一直紧锁，但山丘东侧确实能欣赏到一片相当迷人的风景——天气晴朗时，你甚至能一路望见传说中第一批捷克人定居的日普山（Říp）。
+
+🥚 彩蛋：这座塔所在的土地并非由某个政府部门或测绘机构捐赠，而是由创立于13世纪的捷克天主教修会"红星十字骑士团"（Rytířský řád křižovníků s červenou hvězdou）捐出——目的只有一个：确保地图上这个精确的点位永远不会被任何建筑占用。八百年的机构历史，最终都汇聚成了守护一个异常执着的测量基准点。`,
+    },
+  },
+  {
+    name: 'Admirál Botel',
+    slug: 'botel-admiral',
+    localizedNames: { cz: 'Botel Admirál', zh: '阿德米拉尔船屋酒店' },
+    labels: ['modern', 'hidden-gem', 'restaurants-and-cafes'],
+    coordinates: { lat: 50.07064807859895, lng: 14.411284638292758 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Botel Admirál — a genuine hotel-boat that has spent over fifty years moored on the Vltava without so much as untying its ropes. It's the boldest non-voyage in Prague: three steel decks, eighty-two cabins, one restaurant, and absolutely no intention of ever actually sailing anywhere.
+
+Admirál was the last of three "botels" built for Prague in the early 1970s, a curious piece of communist-era tourism infrastructure designed to squeeze extra hotel capacity out of the riverbank rather than the crowded city centre. Launched and towed into place in 1971, it dropped anchor on the Vltava's left bank between Palacký Bridge and the railway bridge, plugged itself into the city's gas and utility networks, and has stayed exactly there ever since — a fully self-contained three-storey steel hull doing hotel duty instead of harbour duty. After the 1989 revolution the state eventually let it go: in 1993 it was privatized and bought by Allvatours, a Czech family firm that still runs it today, restaurant, small nightclub, brass fittings and all.
+
+What makes it worth the walk along the embankment is the view money can't easily buy from a landlocked hotel room: from the deck and the cabin windows you get Prague Castle, the Emmaus Monastery, the National Theatre, and Vyšehrad all lined up along the water, with Palacký Bridge close enough to touch.
+
+🥚 Easter Egg: Two of Admirál's sister botels, Albatros and Racek, are still moored elsewhere on the same river — meaning Prague once operated an entire micro-fleet of hotels that share nothing with actual ships except the fact that they float.`,
+
+      cz: `Statečný dobrodruhu, vítej na Botelu Admirál — opravdové hotelové lodi, která už přes padesát let kotví na Vltavě, aniž by kdy odvázala lana. Je to ta nejodvážnější neplavba v Praze: tři ocelová paluby, osmdesát dva kajut, jedna restaurace a naprosto žádný úmysl kamkoliv skutečně vyplout.
+
+Admirál byl posledním ze tří "botelů" postavených pro Prahu na začátku 70. let — kuriózní kus turistické infrastruktury z komunistické éry, jehož smyslem bylo získat další hotelovou kapacitu z říčního břehu místo přeplněného centra. Loď byla spuštěna na vodu a v roce 1971 dotažena na místo, kde zakotvila na levém břehu Vltavy mezi Palackého mostem a železničním mostem, napojila se na městskou plynovou a inženýrskou síť a od té doby z místa nehnula — jde o plně soběstačný třípodlažní ocelový trup, který dělá hotelovou, nikoli přístavní službu. Po revoluci v roce 1989 se ho stát nakonec rozhodl pustit: v roce 1993 byl zprivatizován a koupila ho Allvatours, česká rodinná firma, která ho provozuje dodnes — s restaurací, malým nočním klubem i mosaznými detaily.
+
+Co stojí za tu procházku po nábřeží, je výhled, který si za peníze v běžném hotelovém pokoji na pevnině jen tak nekoupíte: z paluby a z oken kajut vidíte Pražský hrad, klášter Emauzy, Národní divadlo i Vyšehrad seřazené podél řeky, s Palackého mostem na dosah ruky.
+
+🥚 Velikonoční vajíčko: Dva sesterské botely Admirálu, Albatros a Racek, dodnes kotví jinde na téže řece — Praha tedy kdysi provozovala celou mikroflotilu hotelů, které se skutečným lodím podobají snad jen tím, že plavou.`,
+
+      zh: `勇敢的冒险家，欢迎来到阿德米拉尔船屋酒店（Botel Admirál）——一艘真正的船型酒店，五十多年来一直系泊在伏尔塔瓦河上，从未解开过缆绳。这大概是布拉格最"勇敢"的一次不出航：三层钢制甲板，八十二间客舱，一间餐厅，以及完全没有真正启航的打算。
+
+阿德米拉尔号是20世纪70年代初为布拉格建造的三艘"船屋酒店"（botel）中的最后一艘——这是共产主义时代一种颇为奇特的旅游基础设施：与其在拥挤的市中心新建酒店，不如干脆把河岸变成额外的客房。这艘船于1971年下水并被拖至指定位置，最终停泊在伏尔塔瓦河左岸、帕拉茨基桥与铁路桥之间，接入城市的燃气与市政管网后，便再也没有挪动过——它是一具完全自给自足的三层钢制船体，履行的是酒店职责，而非港口职责。1989年剧变之后，国家最终放手：1993年它被私有化，由捷克家族企业Allvatours买下并经营至今——餐厅、小型夜店、黄铜装饰一应俱全。
+
+真正值得沿着河堤走这一趟的，是那种住在陆地酒店房间里花钱也未必买得到的景观：从甲板和舱窗望出去，布拉格城堡、埃马乌斯修道院、国家剧院和维谢赫拉德依次沿河排开，帕拉茨基桥更是近在咫尺。
+
+🥚 彩蛋：阿德米拉尔号的两艘"姊妹船屋"——信天翁号（Albatros）和海鸥号（Racek）——至今仍停泊在同一条河的其他位置，这意味着布拉格曾经运营过一整支"迷你船队"酒店，而它们与真正的船只唯一的共同点，大概就是都能浮在水面上。`,
+    },
+  },
+  {
+    name: 'Cibulka Lookout Tower',
+    slug: 'rozhledna-cibulka',
+    localizedNames: { cz: 'Rozhledna Cibulka', zh: '齐布尔卡观景塔' },
+    labels: ['tower', 'historical', 'nature'],
+    coordinates: { lat: 50.06472972080001, lng: 14.355915322118458 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Cibulka_(Ko%C5%A1%C3%AD%C5%99e)',
+    description: {
+      en: `Brave adventurer, welcome to the Cibulka Lookout Tower (Rozhledna Cibulka) — at roughly two hundred years old, this modest thirteen-metre tower is the oldest purpose-built lookout tower in Prague, and it got that way by being built purely for fun.
+
+The land has been productive since at least the 14th century — Cibulka was a working vineyard estate for centuries, named after the 16th-century burgher Blažej Cibulka who once owned it. Everything changed in 1817, when Leopold Leonhard Raymund of Thun-Hohenstein, the last Prince-Bishop of Passau, bought the estate and threw money at it with genuine enthusiasm: within a few years he had transformed the vineyards into a sprawling Romantic English park, dotted with statues, follies, a pavilion, and — around 1820 — this tower, reachable by 76 external steps and built for no better reason than to admire his own new park from above. The good times didn't last. After Thun-Hohenstein's death the estate caught fire and slid slowly into disrepair for a century, passing through owners with steadily thinner wallets until the last private one, a farmer named Josef Hyross, sold it to the City of Prague in 1922 simply because he couldn't afford it anymore.
+
+The estate's story took its most surprising turn recently: in April 2021 it was purchased by a foundation backed by Avast co-founder Ondřej Vlček and his wife Katarina, who plan to restore Cibulka and turn it into a children's hospice and palliative care centre.
+
+🥚 Easter Egg: A tower built purely as a Romantic-era luxury — the 19th-century equivalent of building a folly just because you can — is now on track to become part of a hospice for children. Two centuries later, the same hilltop is finally being put to the most serious use it has ever had.`,
+
+      cz: `Statečný dobrodruhu, vítej u Rozhledny Cibulka — se svými zhruba dvěma sty lety je tato skromná třináctimetrová věž nejstarší účelově postavenou rozhlednou v Praze, a k tomuto prvenství přišla tak, že vznikla čistě pro radost.
+
+Pozemek byl hospodářsky využívaný přinejmenším od 14. století — Cibulka byla po staletí fungujícím vinařským statkem, pojmenovaným po měšťanovi Blažeji Cibulkovi z Veleslavína, který jej vlastnil v 16. století. Vše se změnilo v roce 1817, kdy statek koupil Leopold Leonard Raymund Thun-Hohenstein, poslední pasovský kníže-biskup, a vrhl se do jeho přestavby se skutečným nadšením: během několika let proměnil vinice v rozsáhlý romantický anglický park plný soch, drobných staveb, pavilonku a — kolem roku 1820 — právě této věže, na kterou vede 76 vnějších schodů a která nesloužila k ničemu jinému, než aby si mohl svůj nový park obdivovat shora. Dobré časy ale netrvaly dlouho. Po Thun-Hohensteinově smrti statek vyhořel a další století pomalu chátral, procházel majiteli s čím dál tenčí peněženkou, až ho poslední soukromý vlastník, sedlák Josef Hyross, v roce 1922 prodal pražské obci — jednoduše proto, že už si ho nemohl dovolit.
+
+Nejpřekvapivější zvrat přišel nedávno: v dubnu 2021 statek koupila nadace stojící za spoluzakladatelem Avastu Ondřejem Vlčkem a jeho ženou Katarinou, kteří plánují Cibulku zrekonstruovat a proměnit ji v dětský hospic a centrum paliativní péče.
+
+🥚 Velikonoční vajíčko: Věž postavená čistě jako romantický luxus — devatenáctistoletý ekvivalent stavby okrasné zříceniny jen proto, že to jde — má nyní namířeno k tomu, že se stane součástí hospice pro děti. Po dvou stech letech konečně tenhle kopec dostává tu nejvážnější úlohu, jakou kdy měl.`,
+
+      zh: `勇敢的冒险家，欢迎来到齐布尔卡观景塔（Rozhledna Cibulka）——这座仅13米高、朴素低调的小塔已有近两百年历史，是布拉格现存最古老的专门建造的观景塔，而它之所以能拿下这个"最古老"头衔，完全是因为它当初的建造理由只有一个：好玩。
+
+这片土地至少从14世纪起就一直被开垦利用——齐布尔卡数百年来都是一座正常运营的葡萄园庄园，其名字来自16世纪拥有它的市民布拉热伊·齐布尔卡（Blažej Cibulka）。一切在1817年发生了转变：帕绍最后一任采邑主教莱奥波尔德·莱昂哈德·雷蒙德·图恩-霍恩施泰因（Thun-Hohenstein）买下了这处庄园，并满怀热情地大笔投入改造——短短几年内，他就把葡萄园变成了一座广阔的浪漫主义英式园林，遍布雕像、装饰性小品建筑、一座亭阁，以及大约建于1820年的这座塔——塔上76级户外台阶，建造它的唯一理由，就是让主人能够站在高处欣赏自己的新园林。可惜好日子并不长久。图恩-霍恩施泰因去世后，庄园遭遇火灾，此后整整一个世纪都在缓慢败落，历经一任任家底越来越薄的业主，直到最后一位私人业主——农民约瑟夫·希罗斯（Josef Hyross）——在1922年因实在无力负担，将其卖给了布拉格市政府。
+
+这座庄园最出人意料的转折发生在近几年：2021年4月，由Avast联合创始人翁德热伊·弗尔切克（Ondřej Vlček）与妻子卡塔琳娜（Katarina）支持的一家基金会买下了它，计划将齐布尔卡修复后改建为儿童临终关怀与舒缓治疗中心。
+
+🥚 彩蛋：一座纯粹为了浪漫主义式的奢侈享受而建的高塔——19世纪版本的"就因为能建所以才建"的装饰性建筑——如今即将成为一家儿童关怀中心的一部分。两百年后，这座山丘终于迎来了它有史以来最庄重的使命。`,
+    },
+  },
+  {
+    name: 'Košíře-Motol Nature Park',
+    slug: 'prirodni-park-kosire-motol',
+    localizedNames: { cz: 'Přírodní park Košíře-Motol', zh: '科希热-摩托尔自然公园' },
+    labels: ['nature', 'park', 'hidden-gem'],
+    coordinates: { lat: 50.06229792938048, lng: 14.346014640269098 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/P%C5%99%C3%ADrodn%C3%AD_park_Ko%C5%A1%C3%AD%C5%99e-Motol',
+    description: {
+      en: `Brave adventurer, welcome to Košíře-Motol Nature Park (Přírodní park Košíře-Motol) — at 354 hectares, it's officially Prague's smallest nature park, and yet somehow it found room for 480-million-year-old fossils, a working golf course, a greyhound track, and its own crematorium.
+
+The park was set aside as a protected "quiet zone" in 1991 and formally reclassified as a nature park in 1992, once Czech law created that category specifically to bring places like this — too small and too suburban for grander protections, but worth saving anyway — under some kind of legal umbrella. Spread across Košíře, Motol, Jinonice, and Stodůlky, it contains three separate protected natural monuments: Vidoule, one of Prague's highest points at 372 metres; the Motolský ordovik, a geological outcrop where Ordovician-era trilobite fossils are still visible in the rock; and Kalvárie v Motole, a striking basalt formation. Red squirrels, hedgehogs, green frogs, and two protected species of swallowtail butterfly all share the woods with a greyhound racing track and a golf course, which is about as Prague a combination of land use as exists anywhere in the city.
+
+Tucked inside the park's Cibulka section are oak trees estimated at two hundred years old, standing guard over the very same romantic-era lookout tower — the oldest in Prague — described elsewhere in this app.
+
+🥚 Easter Egg: Not every corner of the park is romantic. The Motol crematorium once served as the final resting place — quite literally — for the ashes of political prisoners who died during the communist era, a grim footnote tucked into an otherwise pleasant patchwork of forest, fossils, and fairways.`,
+
+      cz: `Statečný dobrodruhu, vítej v Přírodním parku Košíře-Motol — s rozlohou 354 hektarů jde oficiálně o nejmenší pražský přírodní park, a přesto se do něj nějak vešly 480 milionů let staré zkameněliny, fungující golfové hřiště, dráha pro dostihy chrtů i vlastní krematorium.
+
+Území bylo v roce 1991 vyhlášeno chráněnou "oblastí klidu" a v roce 1992 formálně převedeno do kategorie přírodního parku poté, co český zákon tuto kategorii zavedl přímo kvůli místům, jako je toto — příliš malým a příliš předměstským na velkolepější ochranu, ale přesto stojícím za záchranu. Park se rozprostírá přes Košíře, Motol, Jinonice a Stodůlky a zahrnuje tři samostatné přírodní památky: Vidouli, jeden z nejvyšších bodů Prahy ve výšce 372 metrů; Motolský ordovik, geologický odkryv, kde jsou v hornině dodnes vidět zkameněliny trilobitů z prvohor; a Kalvárii v Motole, výraznou čedičovou skalní formaci. Veverky obecné, ježci, skokani zelení a dva chráněné druhy otakárků sdílejí les s dráhou pro dostihy chrtů a golfovým hřištěm — kombinace využití území, snad ta nejpražštější, jaká v celém městě existuje.
+
+V cibulské části parku rostou duby staré odhadem dvě stě let, které střeží úplně tutéž romantickou rozhlednu — nejstarší v Praze — popsanou jinde v této aplikaci.
+
+🥚 Velikonoční vajíčko: Ne každý kout parku je romantický. Motolské krematorium kdysi sloužilo jako poslední místo odpočinku — doslova — pro popel politických vězňů zemřelých v době komunismu, ponurá poznámka pod čarou uprostřed jinak příjemné mozaiky lesa, zkamenělin a golfových jamek.`,
+
+      zh: `勇敢的冒险家，欢迎来到科希热-摩托尔自然公园（Přírodní park Košíře-Motol）——占地354公顷，是布拉格官方认定最小的自然公园，可它却不知怎么塞进了4.8亿年前的化石、一座正常运营的高尔夫球场、一条灵缇犬赛道，甚至还有自己的火葬场。
+
+这片区域于1991年被划定为受保护的"安静区"，1992年捷克法律专门设立"自然公园"这一类别后，正式转为该类别——这个类别正是为了给这类地方一个法律保护伞：太小、太靠近郊区，够不上更高级别的保护，却依然值得保留。公园横跨科希热、摩托尔、伊尼奥尼采和斯托杜尔基几个区域，境内共有三处独立的自然保护地：维多乌莱（Vidoule），海拔372米，是布拉格最高点之一；摩托尔奥陶纪地层（Motolský ordovik），至今仍能在岩层中看到奥陶纪三叶虫化石；以及摩托尔各各他（Kalvárie v Motole），一处引人注目的玄武岩地貌。红松鼠、刺猬、绿蛙，以及两种受保护的凤蝶，都与灵缇犬赛道和高尔夫球场共享着同一片树林——这种土地用途组合，大概是全布拉格最具"布拉格特色"的搭配了。
+
+在公园的齐布尔卡区域里，生长着树龄估计达两百年的橡树，默默守护着同一座浪漫主义时期建造的观景塔——布拉格最古老的一座，本应用程序的其他条目中也有介绍。
+
+🥚 彩蛋：公园并非处处浪漫。摩托尔火葬场曾是共产主义时期死亡政治犯骨灰的最终安放之地——这是一段藏在森林、化石与高尔夫球道构成的宜人拼图之中的沉重注脚，字面意义上的"最终归宿"。`,
+    },
+  },
+  {
+    name: 'Velká Chuchle',
+    slug: 'velka-chuchle',
+    localizedNames: { cz: 'Velká Chuchle', zh: '大胡赫莱' },
+    labels: ['village-and-town', 'historical', 'nature'],
+    coordinates: { lat: 50.01133568478249, lng: 14.388908461803233 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Velk%C3%A1_Chuchle',
+    description: {
+      en: `Brave adventurer, welcome to Velká Chuchle — a quiet riverside village on the southern edge of Prague that has, against all odds, hosted the birth of Czech aviation, more than a century of horse racing, and at least two catastrophic floods.
+
+Chuchle only became an official part of Prague on 24 November 1990, and today it's home to a modest 603 houses and around 2,500 residents gathered around a Baroque church dedicated to St. John of Nepomuk, its adjoining cemetery, and a pair of late-Baroque manor houses on the central square. But the village punches well above its size in historical significance. In 1911, aviator Jan Kašpar landed his Blériot XI here after a 121-kilometre, 92-minute flight from Pardubice — a genuinely reckless feat for the time, and one still remembered as the symbolic starting point of Czech aviation. Five years earlier, in 1906, the Chuchle racecourse had opened for business, and it's been running horses ever since: the first Czechoslovak Derby galloped through in 1921, and the President of the Republic Prize, established in 1920 in honour of T. G. Masaryk, remains the oldest race still run there today — Masaryk himself showed up in person for the 1931 Derby.
+
+The river that gives Chuchle its charm has also, twice in living memory, tried to take it back: catastrophic floods in 2002 and 2013 fully submerged the racecourse both times, and both times it reopened anyway.
+
+🥚 Easter Egg: The original wooden Art Nouveau grandstands survived nearly eighty years of racing before being demolished in 1985 and replaced with the concrete structure still standing today — meaning the racecourse has now outlived its own original architecture by exactly the same margin it once took to build a reputation.`,
+
+      cz: `Statečný dobrodruhu, vítej ve Velké Chuchli — tiché vesnici na jižním okraji Prahy, která navzdory všem očekáváním hostila zrození českého letectví, více než století dostihů a přinejmenším dvě katastrofální povodně.
+
+Chuchle se stala oficiální součástí Prahy až 24. listopadu 1990 a dnes v ní najdete skromných 603 domů a zhruba 2 500 obyvatel, soustředěných kolem barokního kostela zasvěceného sv. Janu Nepomuckému, přilehlého hřbitova a dvojice pozdně barokních usedlostí na návsi. Přesto má vesnice historický význam, který zdaleka přesahuje její velikost. V roce 1911 zde letec Jan Kašpar přistál se svým Blériotem XI po 121kilometrovém, 92minutovém letu z Pardubic — na svou dobu vyloženě odvážný kousek, který se dodnes připomíná jako symbolický počátek českého letectví. O pět let dříve, v roce 1906, otevřelo chuchelské závodiště a dostihy se tu jezdí dodnes: v roce 1921 se tudy prohnalo první československé derby a Cena prezidenta republiky, založená v roce 1920 na počest T. G. Masaryka, zůstává nejstarším dodnes běhaným dostihem — sám Masaryk se osobně dostavil na derby v roce 1931.
+
+Řeka, která dává Chuchli její kouzlo, se ji v živé paměti dvakrát pokusila i vzít zpátky: katastrofální povodně v letech 2002 a 2013 obě dvakrát zcela zatopily závodiště, a obakrát se přesto znovu otevřelo.
+
+🥚 Velikonoční vajíčko: Původní dřevěné secesní tribuny přežily téměř osmdesát let dostihů, než byly v roce 1985 zbourány a nahrazeny betonovou stavbou, která stojí dodnes — závodiště tak dnes svou původní architekturu přežilo o stejně dlouhou dobu, jaká mu kdysi trvalo, než si vybudovalo pověst.`,
+
+      zh: `勇敢的冒险家，欢迎来到大胡赫莱（Velká Chuchle）——布拉格南郊一座安静的河畔村庄，却出人意料地见证了捷克航空的诞生、逾一个世纪的赛马传统，以及至少两次毁灭性的洪灾。
+
+胡赫莱直到1990年11月24日才正式并入布拉格，如今这里只有603栋房屋、约2500名居民，聚居在一座供奉圣约翰·内波穆克的巴洛克教堂周围，教堂旁是墓地，村中心广场上还立着两座晚期巴洛克风格的庄园宅邸。然而论历史分量，这座小村庄远远超出了它的体量。1911年，飞行员扬·卡什帕尔（Jan Kašpar）驾驶布莱里奥XI型飞机，从帕尔杜比采飞抵此地，全程121公里、耗时92分钟——在当时堪称一次极其冒险的壮举，至今仍被视为捷克航空史的象征性起点。而在五年前的1906年，胡赫莱赛马场已经开业，此后赛马活动从未间断：1921年，首届捷克斯洛伐克德比赛在此举行；1920年为纪念捷克斯洛伐克首任总统马萨里克而设立的"共和国总统奖"，至今仍是这里最古老、仍在延续的赛事——马萨里克本人还曾亲临1931年的德比赛现场。
+
+赋予胡赫莱魅力的这条河流，也曾两度试图将这份魅力收回：2002年和2013年的毁灭性洪灾都曾让赛马场完全被淹没，而两次它都重新开业。
+
+🥚 彩蛋：最初的木制新艺术风格看台在赛马场使用了近八十年，直到1985年才被拆除，换成了沿用至今的混凝土看台——如此算来，这座赛马场"活过"其原始建筑的年头，恰好和当年它花了多久才建立起自己声誉的时间一样长。`,
+    },
+  },
+  {
+    name: 'Radotín Biotope',
+    slug: 'biotop-radotin',
+    localizedNames: { cz: 'Biotop Radotín', zh: '拉多丁生态浴场' },
+    labels: ['nature', 'modern', 'hidden-gem'],
+    coordinates: { lat: 49.97921189727987, lng: 14.359023407547198 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Biotop_Radot%C3%ADn',
+    description: {
+      en: `Brave adventurer, welcome to Biotop Radotín — a swimming spot so clean it filters itself, built on the site of a wastewater treatment plant that spent the 2000s as an abandoned squat. Sometimes a location's biggest achievement is simply how far it has come.
+
+Before it was Prague's most photogenic swimming lagoon, this patch of land in Prague 16 was a working sewage treatment facility, decommissioned after the catastrophic 2002 floods and left to rot; by 2003 the crumbling buildings had become an informal shelter for the homeless. Local officials, apparently unimpressed by the status quo, went scouting for inspiration in 2009, visiting biotope-style swimming facilities in Moravia's Kovalovice and Bantice, and by 2010 had drawn up the first study for a Radotín version — a pool that uses plants and natural filtration instead of chlorine to keep the water clean. Construction under architect Jan Schlitz began in 2013, and the whole complex — swimming lagoons, a children's playground, two outdoor saunas, and enough parking to handle the crowds — opened to considerable local fanfare at the end of June 2014. A separate pool followed in 2019.
+
+🥚 Easter Egg: Biotop Radotín may be the only swimming spot in Prague whose full origin story runs sewage plant → flood ruin → homeless shelter → award-worthy eco lagoon, all within about a decade — proof that even a derelict treatment plant can eventually clean up rather nicely.`,
+
+      cz: `Statečný dobrodruhu, vítej v Biotopu Radotín — koupacím místě tak čistém, že se filtruje samo, postaveném na místě bývalé čistírny odpadních vod, která celé 2000 roky strávila jako opuštěný squat. Někdy je největším úspěchem místa prostě to, jak dlouhou cestu urazilo.
+
+Než se z tohoto kousku Prahy 16 stalo jedno z nejfotogeničtějších koupacích jezírek v Praze, stávala tu fungující čistírna odpadních vod, vyřazená z provozu po katastrofálních povodních v roce 2002 a ponechaná napospas chátrání; do roku 2003 se rozpadající se budovy proměnily v neoficiální útočiště pro bezdomovce. Místní zastupitelé, zjevně nespokojení se současným stavem, se v roce 2009 vydali hledat inspiraci na Moravu, kde navštívili biotopová koupaliště v Kovalovicích a Bantici, a do roku 2010 měli hotovou první studii radotínské verze — koupaliště, které místo chloru čistí vodu pomocí rostlin a přirozené filtrace. Výstavba pod vedením architekta Jana Schlitze začala v roce 2013 a celý areál — koupací jezírka, dětské hřiště, dvě venkovní sauny a dostatek parkovacích míst pro davy návštěvníků — se s velkou místní slávou otevřel na konci června 2014. V roce 2019 přibyl ještě samostatný bazén.
+
+🥚 Velikonoční vajíčko: Biotop Radotín je možná jediné koupací místo v Praze, jehož kompletní příběh vzniku zní: čistírna odpadních vod → povodňová zřícenina → útočiště bezdomovců → oceňovaná ekologická laguna, a to vše během zhruba jedné dekády — důkaz, že i zchátralá čistírna se nakonec dokáže docela hezky vyčistit.`,
+
+      zh: `勇敢的冒险家，欢迎来到拉多丁生态浴场（Biotop Radotín）——一处干净到能自我过滤的天然泳池，建在一座曾经沦为流浪者聚居地的废弃污水处理厂旧址之上。有时候，一个地方最大的成就，恰恰在于它走过了多远的路。
+
+在成为布拉格最上镜的天然泳池之前，布拉格16区的这片土地曾是一座正常运转的污水处理厂，在2002年那场毁灭性洪水后被废弃停用；到2003年，破败的厂房已经变成了流浪者的非正式栖身之所。当地官员显然对现状并不满意，于2009年前往摩拉维亚考察，参观了科瓦洛维采（Kovalovice）和班蒂采（Bantice）两地的生态浴场，并于2010年完成了拉多丁版本的首份规划——用植物和天然过滤系统而非氯来净化池水。在建筑师扬·施利茨（Jan Schlitz）的主持下，工程于2013年动工，整个园区——包括天然泳池、儿童游乐场、两座户外桑拿房，以及足以应付人潮的停车位——于2014年6月底在当地一片热烈反响中正式开放。2019年，园区又新增了一座独立泳池。
+
+🥚 彩蛋：拉多丁生态浴场大概是布拉格唯一一处身世如此曲折的泳池——从污水处理厂，到洪灾废墟，再到流浪者收容所，最终蜕变为备受赞誉的生态泻湖，前后不过十年光景——足以证明，就算是一座破败的污水处理厂，最终也能"洗心革面"洗得相当漂亮。`,
+    },
+  },
 ];
 
 async function run() {

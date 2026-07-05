@@ -106,7 +106,7 @@ Six tiers modelled on trading-card games, visible on every card border and diamo
 | 14    | Riverside Ranger        | 4,330  | 29    | Immortal Wanderer       | 14,210 |
 | 15    | Vltava Voyager          | 4,850  | 30    | Prague Legend           | 15,000 |
 
-Deltas between levels grow progressively larger (80 → 160 → ... → 790 XP), so leveling stays achievable early on and becomes a longer-term goal at the top end — with headroom for the location catalog to keep growing (all 432 current cards total 12,620 XP, capping out around level 26).
+Deltas between levels grow progressively larger (80 → 160 → ... → 790 XP), so leveling stays achievable early on and becomes a longer-term goal at the top end — with headroom for the location catalog to keep growing (all 438 current cards total 12,810 XP, capping out around level 27 — Prague Champion).
 
 **15 Achievements** unlocked automatically at milestones:
 
@@ -120,7 +120,7 @@ Deltas between levels grow progressively larger (80 → 160 → ... → 790 XP),
 | History Fan                   | 30 historical locations              |
 | Leisure Seeker                | 30 parks + restaurants/cafés         |
 | Hidden Gem Hunter             | 10 hidden gem locations              |
-| Castle Conqueror              | Check in to Prague Castle            |
+| Castle Conqueror              | Check in to St. Vitus Cathedral       |
 | Veni, Vidi, Vici              | All landmark locations               |
 | Subway Maniac                 | All 6 Prague metro terminal stations |
 | Why Are There No Penguins...? | Find Jižní pól Prahy                 |

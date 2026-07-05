@@ -4,6 +4,43 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.8.5] — 2026-07-04
+
+**Feat: browser tab favicon; Open Graph / Twitter Card meta tags for link previews**
+
+- Added `<link rel="icon" type="image/webp" href="/pixel-art/app-logo.webp">` to `index.html` — browser tab now shows the app logo instead of the Vite default
+- Added static Open Graph (`og:title`, `og:description`, `og:image`, `og:url`, `og:type`) and Twitter Card (`summary`) meta tags to `index.html` so shared links render a title, description, and preview image (`app-logo.webp`) on social platforms and messaging apps
+- Static tags used rather than per-route dynamic `<head>` management (e.g. react-helmet) because this is a client-rendered SPA — social-media link-preview crawlers don't execute JS, so only tags present in the initial HTML response are read
+
+---
+
+## [1.8.4] — 2026-07-04
+
+**Feat: navbar logo switched to transparent variant**
+
+- Navbar logo image switched from `app-logo.webp` (solid navy background) to `app-logo-transparent.webp`
+- PWA-facing icons — `manifest.json` home-screen icon, `index.html` `apple-touch-icon`, and the proximity-notification icon (`useProximityDetection.js`) — remain on `app-logo.webp`, since a transparent icon renders unpredictably against arbitrary home-screen/notification backgrounds
+
+---
+
+## [1.8.3] — 2026-07-04
+
+**Feat: 6 new location cards; fix: Castle Conqueror achievement condition text**
+
+### New locations
+- Mihulka Powder Tower (epic, 50 XP) — Renaissance cannon tower on Prague Castle's northern fortification; Rudolf II-era alchemist-laboratory lore, later a gunpowder store and the cathedral sexton's residence
+- Church of the Most Holy Trinity, Spálená (rare, 20 XP) — Baroque Trinitarian church and monastery, structurally damaged by Prague metro construction, now home to the city's Slovak Greek Catholic parish
+- Prague Castle Riding School (rare, 20 XP) — 1694 Baroque riding hall by court architect Jean-Baptiste Mathey, now an exhibition gallery run by the Castle Administration
+- Rosenberg Palace — Institute of Noblewomen (superior, 30 XP) — Renaissance palace radically rebuilt in 1753 as Maria Theresa's charitable school for impoverished aristocratic daughters
+- Colloredo-Mansfeld Palace — Prague City Gallery (rare, 20 XP) — Baroque-Rococo palace on Karlova Street tied to the Battle of White Mountain aftermath; now GHMP's contemporary art venue
+- Hlahol Choral Society Building (common, 10 XP) — 1905 Art Nouveau clubhouse by architect Josef Fanta, built for Prague's oldest choral society
+- All 6 have full EN/CZ/ZH descriptions (~50-word humorous EN intro, historical body paragraphs, 🥚 Easter Egg bonus); none use the `landmark` label; total location count 432 → 438, total XP pool 12,660 → 12,810
+
+### Achievement fix
+- `Castle Conqueror` achievement: displayed description changed from "Check in to Prague Castle" to "Check in to St. Vitus Cathedral" — the unlock condition itself (`checkedSlugs.includes("prague-castle")`) is unchanged
+
+---
+
 ## [1.8.2] — 2026-07-04
 
 **Feat: app-logo.webp replaces the navbar emoji and default PWA icon**
