@@ -177,3 +177,10 @@ html:not([data-lang="zh"]) .label-pill-sm {
   font-size: 18px;
   font-weight: 500;
 }
+
+html:not([data-lang="zh"]) .loc-card__xp {
+  font-size: 16px;
+}
+html:not([data-lang="zh"]) .loc-card__dist {
+  font-size: 12px;
+}

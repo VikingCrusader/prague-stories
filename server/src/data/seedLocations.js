@@ -3046,6 +3046,280 @@ Než se z tohoto kousku Prahy 16 stalo jedno z nejfotogeničtějších koupacíc
 🥚 彩蛋：拉多丁生态浴场大概是布拉格唯一一处身世如此曲折的泳池——从污水处理厂，到洪灾废墟，再到流浪者收容所，最终蜕变为备受赞誉的生态泻湖，前后不过十年光景——足以证明，就算是一座破败的污水处理厂，最终也能"洗心革面"洗得相当漂亮。`,
     },
   },
+  {
+    name: 'Golf Club Praha',
+    slug: 'golf-club-praha',
+    localizedNames: { cz: 'Golf Club Praha', zh: '布拉格高尔夫俱乐部' },
+    labels: ['nature', 'historical', 'hidden-gem'],
+    coordinates: { lat: 50.06194032443152, lng: 14.338377856283673 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Golf_Club_Praha',
+    description: {
+      en: `Brave adventurer, welcome to Golf Club Praha — the oldest golf club in the country, and quite possibly the only one that has survived having its own fairways deliberately ploughed under and turned into a forest by the state.
+
+Founded in 1926 with Jan Masaryk, son of the republic's first president, as its first honorary chairman, the club built a nine-hole course in the Motol basin that same year. The good times ended in dramatic fashion: after the 1948 communist coup golf was branded a bourgeois pastime, the club was forced into a merger with other organisations, the sport itself was banned outright in 1950, and between 1953 and 1960 the original greens were ploughed over and replanted as forest — about as thorough a course closure as exists in the sport's history anywhere. The club itself survived only as an idea, quietly waiting out two decades of communism.
+
+Golf Club Praha was revived under its original name in 1968, and in 1969 its members set to work building an entirely new nine-hole course nearby, on a plot known as Na hliníku; construction ran through the early 1970s, and the first tournament under the reborn club finally took place in the autumn of 1977. That same course, tucked inside Košíře-Motol Nature Park just a few tram stops from the historic centre, is still the one played today.
+
+🥚 Easter Egg: Somewhere under the trees of today's Košíře-Motol Nature Park lies the ghost of the original 1926 course — the forest planted deliberately to erase it from the map is now itself a protected natural landscape, which means the state's anti-golf forest ultimately became one of Prague's most cherished parks.`,
+
+      cz: `Statečný dobrodruhu, vítej v Golf Clubu Praha — nejstarším golfovém klubu v zemi, a možná jediném, který přežil to, že mu stát vlastní jamkoviště záměrně rozoral a osázel lesem.
+
+Klub byl založen v roce 1926 a jeho prvním čestným předsedou se stal Jan Masaryk, syn prvního československého prezidenta; už téhož roku vzniklo devítijamkové hřiště v motolské kotlině. Dobré časy skončily dramaticky: po komunistickém převratu v roce 1948 byl golf označen za buržoazní zábavu, klub byl donucen ke sloučení s jinými organizacemi, samotný sport byl v roce 1950 rovnou zakázán a mezi lety 1953 a 1960 byly původní greeny rozorány a osázeny lesem — asi tak důkladné zrušení hřiště, jaké tenhle sport kdekoli ve své historii zažil. Klub jako takový přežil jen jako myšlenka, tiše čekající, až dvacetiletí komunismu skončí.
+
+Golf Club Praha byl obnoven pod původním názvem v roce 1968 a v roce 1969 se jeho členové pustili do stavby zcela nového devítijamkového hřiště na pozemku zvaném Na hliníku; výstavba probíhala na začátku 70. let a první turnaj obnoveného klubu se konal na podzim roku 1977. Přesně to samé hřiště, ukryté v Přírodním parku Košíře-Motol jen pár tramvajových zastávek od historického centra, se hraje dodnes.
+
+🥚 Velikonoční vajíčko: Někde pod stromy dnešního Přírodního parku Košíře-Motol leží duch původního hřiště z roku 1926 — les, který měl jeho stopy vymazat z mapy, je dnes sám chráněnou přírodní krajinou, takže se ze státního protigolfového lesa nakonec stal jeden z nejoblíbenějších pražských parků.`,
+
+      zh: `勇敢的冒险家，欢迎来到布拉格高尔夫俱乐部（Golf Club Praha）——这个国家历史最悠久的高尔夫俱乐部，也可能是唯一一个曾被国家蓄意犁平球道、种上森林之后依然幸存下来的俱乐部。
+
+俱乐部成立于1926年，首任名誉主席是首任捷克斯洛伐克总统之子扬·马萨里克（Jan Masaryk）；同年，一座九洞球场就在摩托尔盆地建成。好日子在戏剧性的转折中戛然而止：1948年共产主义政变后，高尔夫被贴上"资产阶级消遣"的标签，俱乐部被迫与其他组织合并，这项运动本身也在1950年被彻底禁止，1953年至1960年间，原来的果岭被犁平并重新种上了森林——这大概是这项运动历史上关闭得最彻底的一座球场了。俱乐部本身只作为一个念想存活了下来，静静地熬过了二十年的共产主义时期。
+
+布拉格高尔夫俱乐部于1968年以原名恢复运营，1969年，会员们着手在附近一块名为"Na hliníku"的地块上重建了一座全新的九洞球场；建设工程持续到70年代初，复兴后俱乐部的首场比赛终于在1977年秋天举行。如今仍在使用的，正是同一座球场——就藏在距离历史中心仅几站电车之遥的科希热-摩托尔自然公园之中。
+
+🥚 彩蛋：如今科希热-摩托尔自然公园的树林之下，仍埋藏着1926年那座旧球场的"幽灵"——当初为了将它从地图上抹去而刻意栽种的森林，如今本身已成为一片受保护的自然景观，也就是说，当年那片"反高尔夫森林"，最终反倒变成了布拉格最受珍视的公园之一。`,
+    },
+  },
+  {
+    name: 'Prague Semmering (Hlubočepy Viaducts)',
+    slug: 'hlubocepske-viadukty',
+    localizedNames: { cz: 'Pražský Semmering (Hlubočepské viadukty)', zh: '布拉格塞默灵（赫卢博切皮高架桥）' },
+    labels: ['transport', 'historical', 'architecture'],
+    coordinates: { lat: 50.04124678798861, lng: 14.390603893433576 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hlubo%C4%8Depsk%C3%A9_viadukty',
+    description: {
+      en: `Brave adventurer, welcome to the Prague Semmering (Pražský Semmering) — a modest stretch of suburban railway that borrowed its nickname from a legendary Alpine mountain line, and never quite lived up to the comparison, but gets full credit for trying.
+
+Officially, this is the Hlubočepy Viaducts: two stone railway bridges built between 1870 and 1872 as part of a branch of the Buštěhrad Railway, engineered by Wilhelm Ast for the Klein brothers' firm. Freight trains began rattling across them on 3 July 1872, with passengers following that September. Because the line has to curve almost a full 180 degrees around Hlubočepy to manage the terrain, 19th-century railwaymen nicknamed the whole run the "Prague Semmering," after the far more dramatic Semmering railway that carried Habsburg trains from Vienna towards the Adriatic port of Trieste over a genuine Alpine pass. The southeastern viaduct here stretches 115 metres across seven arches up to 25 metres tall; its northwestern twin spans the Dalejský stream valley for 92 metres across five arches. Modest by Alpine standards, certainly — but a proper stone viaduct all the same.
+
+Both viaducts were fully overhauled in a 2018–2019 reconstruction and have been protected as cultural heritage since 2006.
+
+🥚 Easter Egg: The real Semmering railway in Austria is a UNESCO World Heritage Site, one of the first mountain railways ever built. Prague's version never got anywhere near that recognition — but it's kept its borrowed nickname for over 150 years regardless, which is either admirable persistence or a very long-running joke nobody bothered to correct.`,
+
+      cz: `Statečný dobrodruhu, vítej u Pražského Semmeringu — skromného úseku předměstské železnice, který si vypůjčil přezdívku od legendární alpské horské trati a nikdy jí úplně nedostál, ale za snahu si body rozhodně zaslouží.
+
+Oficiálně jde o Hlubočepské viadukty: dva kamenné železniční mosty postavené mezi lety 1870 a 1872 jako součást odbočky Buštěhradské dráhy, navržené Wilhelmem Astem pro firmu bratří Kleinů. Nákladní vlaky po nich poprvé projely 3. července 1872, cestující následovali téhož roku v září. Protože trať musí kvůli terénu opsat kolem Hlubočep téměř úplný půlkruh, dostal celý úsek už v 19. století přezdívku "Pražský Semmering" — podle mnohem dramatičtější rakouské tratě Semmering, která vozila habsburské vlaky z Vídně směrem k jadranskému přístavu v Terstu přes skutečný alpský průsmyk. Jihovýchodní viadukt zde měří 115 metrů a má sedm oblouků vysokých až 25 metrů; jeho severozápadní dvojče překlenuje údolí Dalejského potoka v délce 92 metrů pěti oblouky. Ve srovnání s Alpami skromné, to ano — ale pořádný kamenný viadukt to pořád je.
+
+Oba viadukty prošly kompletní rekonstrukcí v letech 2018–2019 a od roku 2006 jsou chráněny jako kulturní památka.
+
+🥚 Velikonoční vajíčko: Skutečná rakouská trať Semmering je zapsaná na seznamu UNESCO jako jedna z vůbec prvních horských železnic na světě. Ta pražská se takovému uznání ani zdaleka nepřiblížila — přesto si svou vypůjčenou přezdívku hrdě nese už přes 150 let, což je buď obdivuhodná vytrvalost, nebo velmi dlouhý vtip, který si nikdo nedal práci opravit.`,
+
+      zh: `勇敢的冒险家，欢迎来到布拉格塞默灵（Pražský Semmering）——一段朴素的市郊铁路，借用了阿尔卑斯山传奇山地铁路的绰号，虽然从未真正配得上这个称号，但这份"敢想敢用"的精神值得加分。
+
+官方名称是赫卢博切皮高架桥（Hlubočepské viadukty）：两座石造铁路桥，建于1870年至1872年间，是布什捷赫拉德铁路支线的一部分，由威廉·阿斯特（Wilhelm Ast）为克莱因兄弟公司设计。1872年7月3日，货运列车首次驶过这两座桥，同年9月客运服务也随之开通。由于地形所限，铁路线不得不绕着赫卢博切皮几乎转上整整180度的弯，19世纪的铁路工人便给这整段线路起了"布拉格塞默灵"的绰号——得名于更为壮观的奥地利塞默灵铁路，那条线路曾载着哈布斯堡王朝的列车穿越真正的阿尔卑斯山口，从维也纳一路开往亚得里亚海畔的的里雅斯特港。这里的东南高架桥全长115米，共有七座拱洞，最高达25米；与之相对的西北高架桥横跨达莱伊斯基溪谷，全长92米，共五座拱洞。和阿尔卑斯山的原版相比自然朴素得多——但终归也是一座正儿八经的石造高架桥。
+
+两座高架桥都在2018至2019年间经历了全面翻修，并自2006年起被列为文化保护遗产。
+
+🥚 彩蛋：奥地利那条真正的塞默灵铁路是联合国教科文组织世界遗产，也是世界上最早建成的山地铁路之一。布拉格这一段从未获得过任何类似的殊荣——但它依然骄傲地扛着这个"借来的"绰号走过了150多年，这究竟是令人钦佩的执着，还是一个没人愿意纠正的超长玩笑，就见仁见智了。`,
+    },
+  },
+  {
+    name: 'Hlubočepy Chateau',
+    slug: 'hlubocepsky-zamecek',
+    localizedNames: { cz: 'Hlubočepský zámeček', zh: '赫卢博切皮小城堡' },
+    labels: ['villa', 'historical', 'architecture'],
+    coordinates: { lat: 50.04260250014619, lng: 14.404065134318637 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hlubo%C4%8Depy_(z%C3%A1mek)',
+    description: {
+      en: `Brave adventurer, welcome to the Hlubočepy Chateau (Hlubočepský zámeček) — a fortified house that spent four centuries changing hands between noblemen, an imperial councillor, an actual mortgage to the Jesuits, and a state education fund before finally settling down as, of all things, a wedding venue.
+
+The story starts in 1571, when Jan Kutovec z Úrazu built a fortified manor house on this spot. It passed in 1623 to Pavel Michna z Vacínova, an imperial councillor, whose son later needed cash badly enough to mortgage the whole estate to the Jesuit order for 3,000 gulden. The Jesuits took the deal seriously: in 1669 they rebuilt the old fortification into a proper chateau and made it the administrative centre of their local estate. That arrangement lasted exactly a century, until the Jesuit order itself was dissolved in 1773 and the property was handed over to a state study fund. Its current neoclassical façade is generally credited to a later owner, Count František Antonín Desfours.
+
+Today the building carries the official heritage designation "tvrz Raudnitzův dům" and is privately owned, hosting weddings and cultural events in rooms that once housed Jesuit administrators.
+
+🥚 Easter Egg: A building mortgaged to a religious order to settle a nobleman's debts now earns its living hosting other people's wedding receptions — proving that whatever else changes over four hundred years, somebody is always trying to make rent on this particular hill.`,
+
+      cz: `Statečný dobrodruhu, vítej u Hlubočepského zámečku — tvrze, která během čtyř staletí prošla z rukou drobné šlechty přes císařského radu, skutečnou zástavu jezuitům a studijní fond, aby nakonec skončila coby svatební místo.
+
+Příběh začíná v roce 1571, kdy zde Jan Kutovec z Úrazu postavil opevněnou tvrz. V roce 1623 přešla do rukou císařského rady Pavla Michny z Vacínova, jehož syn později tak zoufale potřeboval peníze, že celé panství zastavil jezuitskému řádu za 3000 zlatých rýnských. Jezuité to vzali vážně: v roce 1669 přestavěli starou tvrz na pořádný zámek a udělali z něj správní centrum svého zdejšího statku. Toto uspořádání vydrželo přesně jedno století, dokud nebyl v roce 1773 zrušen samotný jezuitský řád a majetek nepřešel pod studijní fond. Za svou současnou klasicistní podobu zámeček vděčí pravděpodobně pozdějšímu majiteli, hraběti Františku Antonínu Desfoursovi.
+
+Dnes budova nese oficiální památkovou ochranu pod názvem "tvrz Raudnitzův dům" a je v soukromém vlastnictví — v sálech, kde kdysi sídlili jezuitští správci, se dnes konají svatby a společenské akce.
+
+🥚 Velikonoční vajíčko: Budova kdysi zastavená náboženskému řádu kvůli dluhům jednoho šlechtice si dnes vydělává na živobytí pořádáním cizích svatebních hostin — důkaz, že ať se za čtyři sta let změní cokoliv, na tomhle kopci se vždycky někdo snaží uhradit nájem.`,
+
+      zh: `勇敢的冒险家，欢迎来到赫卢博切皮小城堡（Hlubočepský zámeček）——这座堡垒式宅邸在四百年间辗转于贵族、一位皇室顾问、被真实抵押给耶稣会，最终归入国家教育基金之手，如今竟成了一处婚礼场地。
+
+故事始于1571年，扬·库托维茨·兹·乌拉祖（Jan Kutovec z Úrazu）在此建起了一座设防宅邸。1623年，宅邸转到了皇室顾问帕维尔·米赫纳·兹·瓦齐诺瓦（Pavel Michna z Vacínova）手中，他的儿子后来急需现金，索性把整片庄园以3000古尔登的价格抵押给了耶稣会。耶稣会对此十分认真：1669年，他们将旧堡垒改建成了一座真正的城堡，并将其作为当地庄园的管理中心。这一安排恰好维持了整整一个世纪，直到1773年耶稣会本身被解散，产业随即转归国家教育基金。如今这座建筑的新古典主义外观，通常被归功于后来的业主——弗朗蒂谢克·安东宁·德斯福尔伯爵（František Antonín Desfours）。
+
+如今，这座建筑正式列入文物保护名录，登记名称为"劳德尼茨之家"（tvrz Raudnitzův dům），归私人所有——曾经容纳耶稣会管理人员的厅堂，如今用来举办婚礼和社交活动。
+
+🥚 彩蛋：一座曾因贵族的债务被抵押给宗教修会的建筑，如今靠承办别人的婚宴维持生计——这证明无论四百年间世事如何变迁，这座山丘上总有人在想办法凑够"房租"。`,
+    },
+  },
+  {
+    name: 'Barrandov Bridge',
+    slug: 'barrandovsky-most',
+    localizedNames: { cz: 'Barrandovský most', zh: '巴兰多夫大桥' },
+    labels: ['bridge', 'communism', 'historical'],
+    coordinates: { lat: 50.03922406682129, lng: 14.407064052015377 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Barrandovsk%C3%BD_most',
+    description: {
+      en: `Brave adventurer, welcome to Barrandovský most — a concrete brutalist giant that took a full decade to build, spent its first two years honouring a communist president, and now carries more traffic every single day than the population of some entire Czech towns.
+
+People have crossed the Vltava here since at least the 18th century, originally via a simple pontoon bridge. Grander plans followed independence: after 1918, engineers dreamed up an ambitious pair of bridges at different heights to link Hlubočepy with Braník and Dívčí hrady with Kavčí hory. Nothing came of it for decades, until in August 1976 planners finally settled on a single cable-stayed design. Construction began in 1978 and dragged on for ten years: the southern half opened to traffic on 20 September 1983, with the northern half following only in 1988. For its first two years the bridge was officially named after communist president Antonín Zápotocký — a title quietly dropped in 1990. Architect Karel Filsak designed the interchange, built almost entirely from raw brutalist concrete, and huge sculptural reliefs by Josef Klimeš were added to the bridgeheads in 1989–1990, right as the political system that commissioned the bridge was collapsing around it.
+
+Today around 142,000 vehicles cross it daily, and a major 2022–2024 reconstruction — finished a year ahead of schedule, though nearly double the original budget — kept the whole structure standing for whatever comes next.
+
+🥚 Easter Egg: The bridge's decade-long construction timeline (1978–1988) almost exactly bookends the last decade of Czechoslovak communism itself — groundbreaking under one regime, finishing touches added just as the Velvet Revolution swept the whole system away.`,
+
+      cz: `Statečný dobrodruhu, vítej u Barrandovského mostu — brutalistického betonového obra, jehož stavba trvala celou dekádu, první dva roky nesl jméno komunistického prezidenta a dnes po něm denně projede víc aut, než kolik mají obyvatel některá celá česká města.
+
+Lidé tady přes Vltavu chodí přinejmenším od 18. století, původně po jednoduchém pontonovém mostě. Po vzniku republiky přišly velkorysejší plány: po roce 1918 inženýři vymysleli ambiciózní dvojici mostů v různých výškách, které měly spojit Hlubočepy s Braníkem a Dívčí hrady s Kavčími horami. Desítky let se nic nedělo, dokud se v srpnu 1976 projektanti konečně nerozhodli pro variantu jediného zavěšeného mostu. Stavba začala v roce 1978 a táhla se deset let: jižní polovina byla zprovozněna 20. září 1983, severní následovala až v roce 1988. První dva roky nesl most oficiálně jméno komunistického prezidenta Antonína Zápotockého — titul, který v roce 1990 tiše zmizel. Architektem dopravního uzlu byl Karel Filsak, celý postavený téměř výhradně z holého brutalistického betonu, a mohutné sochařské reliéfy Josefa Klimeše přibyly na předmostích v letech 1989–1990 — přesně ve chvíli, kdy se politický systém, který most zadal, kolem něj sám hroutil.
+
+Dnes po něm denně projede kolem 142 000 vozidel a velká rekonstrukce v letech 2022–2024 — dokončená o rok dříve, byť za skoro dvojnásobný rozpočet — udržela celou konstrukci ve stavu pro to, co přijde dál.
+
+🥚 Velikonoční vajíčko: Desetiletá stavba mostu (1978–1988) téměř přesně ohraničuje poslední dekádu československého komunismu — základní kámen byl položen za jednoho režimu, poslední detaily přibývaly přesně ve chvíli, kdy sametová revoluce celý systém smetla.`,
+
+      zh: `勇敢的冒险家，欢迎来到巴兰多夫大桥（Barrandovský most）——一座耗时整整十年建成的粗野主义混凝土巨构，头两年还顶着一位共产党总统的名字，如今每天承载的车流量比不少捷克小城镇的总人口还多。
+
+至少从18世纪起，人们就已经在这里跨越伏尔塔瓦河，最初靠的是一座简易浮桥。捷克斯洛伐克独立后，规划变得更加宏大：1918年后，工程师们构想出一对高度不同的桥梁，分别连接赫卢博切皮与布拉尼克、以及迪芙齐赫拉迪与卡夫奇霍雷。这个计划搁置了几十年，直到1976年8月，规划者才最终选定了单一斜拉桥的方案。工程于1978年动工，一拖就是十年：南半段于1983年9月20日通车，北半段直到1988年才完工。头两年，这座桥官方名称是以共产党总统安东宁·扎波托茨基（Antonín Zápotocký）命名的——这个称谓在1990年被悄然撤下。交通枢纽的设计者是建筑师卡雷尔·菲尔萨克（Karel Filsak），整座桥几乎全部由裸露的粗野主义混凝土建成；1989至1990年间，雕塑家约瑟夫·克利梅什（Josef Klimeš）为桥头增添了巨型雕塑浮雕——恰逢当初下令建桥的那个政治体制在它周围土崩瓦解之时。
+
+如今，每天约有14.2万辆车经过这座桥；2022至2024年间的一次大规模翻修——虽然预算几乎翻倍，却提前一年完工——让整座桥梁得以继续支撑接下来的岁月。
+
+🥚 彩蛋：这座桥长达十年的建设周期（1978-1988），几乎正好框住了捷克斯洛伐克共产主义统治的最后十年——奠基时是一个政权，而收尾的细节工程，恰好赶上天鹅绒革命席卷整个体制的那一刻。`,
+    },
+  },
+  {
+    name: 'Dvorecký Bridge',
+    slug: 'dvorecky-most',
+    localizedNames: { cz: 'Dvorecký most', zh: '德沃雷茨基大桥' },
+    labels: ['bridge', 'modern', 'architecture'],
+    coordinates: { lat: 50.05030900181062, lng: 14.413006251866154 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Dvoreck%C3%BD_most',
+    description: {
+      en: `Brave adventurer, welcome to Dvorecký most — Prague's newest bridge across the Vltava, opened in 2026 after a construction saga so expensive it nearly doubled its own budget, and so committed to trams and pedestrians that regular cars aren't allowed on it at all.
+
+This is the 21st bridge to cross the Vltava within Prague, linking Podolí and Smíchov with a striking 361-metre span of white high-strength concrete arranged into three Cubist-style arches — a nod to the distinctly Czech architectural movement that flourished a century earlier. The city approved the construction tender in June 2021 at an estimated 972 million crowns; ground was broken in September 2022, and complicated geology beneath the riverbed pushed the final bill all the way up to roughly 1.97 billion crowns. The bridge finally opened to the public on 18 April 2026, following a ceremonial opening the day before — and true to its transit-first design, it carries trams, buses, pedestrians, cyclists, and emergency vehicles, but deliberately excludes private cars.
+
+Underneath the deck, artist Krištof Kintera installed a genuinely unusual attraction: a "light garden" made from decommissioned street lamps gathered from more than eighty countries around the world.
+
+🥚 Easter Egg: Somewhere in that forest of lampposts under the bridge stands a streetlight from a country you've probably never associated with Prague at all — the light garden is essentially a tiny, glowing atlas of the world's street furniture, hiding in plain sight beneath one of the city's newest crossings.`,
+
+      cz: `Statečný dobrodruhu, vítej u Dvoreckého mostu — nejnovějšího pražského mostu přes Vltavu, otevřeného v roce 2026 po stavební anabázi tak nákladné, že si téměř zdvojnásobila vlastní rozpočet, a tak zaměřené na tramvaje a chodce, že běžná auta po ní vůbec nesmí.
+
+Jde o 21. most přes Vltavu v Praze, spojující Podolí se Smíchovem výrazným 361metrovým obloukem z bílého vysokopevnostního betonu, poskládaným do tří kubistických oblouků — poklona ryze české architektonické avantgardě, která vzkvétala o století dříve. Město schválilo tendr na stavbu v červnu 2021 s odhadovaným rozpočtem 972 milionů korun; základní kámen byl položen v září 2022 a komplikovaná geologie říčního dna nakonec vyhnala konečnou cenu až na zhruba 1,97 miliardy korun. Most byl veřejnosti otevřen 18. dubna 2026, po slavnostním otevření o den dříve — a věrný svému zaměření na hromadnou dopravu vozí tramvaje, autobusy, chodce, cyklisty a vozidla záchranných složek, ale osobní auta na něj záměrně nesmí.
+
+Pod mostovkou instaloval umělec Krištof Kintera opravdu neobvyklou atrakci: "světelnou zahradu" vytvořenou z vyřazených pouličních lamp sesbíraných z více než osmdesáti zemí světa.
+
+🥚 Velikonoční vajíčko: Někde v tom lese lampových sloupů pod mostem stojí i pouliční lampa ze země, kterou byste s Prahou asi vůbec nespojovali — světelná zahrada je v podstatě malý, zářící atlas pouličního mobiliáře celého světa, ukrytý na očích všem pod jedním z nejnovějších pražských mostů.`,
+
+      zh: `勇敢的冒险家，欢迎来到德沃雷茨基大桥（Dvorecký most）——布拉格横跨伏尔塔瓦河最新的一座桥梁，2026年建成通车，工程一路"烧钱"到预算几乎翻倍，而且对有轨电车和行人一片赤诚——普通私家车完全不准上桥。
+
+这是布拉格境内第21座跨越伏尔塔瓦河的桥梁，以一道引人注目的361米白色高强度混凝土桥身连接波多利与斯米霍夫，桥身由三座立体主义风格的拱券组成——向一个世纪前盛极一时的捷克本土建筑流派致敬。市政府于2021年6月批准了这项工程招标，预算约为9.72亿克朗；工程于2022年9月动工，河床下复杂的地质条件最终把总造价推高到约19.7亿克朗。这座桥于2026年4月18日正式向公众开放，此前一天已举行了落成典礼——而它也确实贯彻了"公交优先"的设计理念：只允许有轨电车、公交车、行人、骑行者和应急车辆通行，私家车则被特意排除在外。
+
+在桥面之下，艺术家克日什托夫·金泰拉（Krištof Kintera）打造了一处相当特别的装置：一座由来自全球八十多个国家、已退役的路灯组成的"光之花园"。
+
+🥚 彩蛋：在桥下那片路灯柱组成的"森林"里，藏着一盏来自某个你大概从未把它和布拉格联系在一起的国家的路灯——这座光之花园本质上就是一座微缩的、闪闪发光的全球街道家具图鉴，静静藏身于这座布拉格最新桥梁的桥面之下。`,
+    },
+  },
+  {
+    name: 'Barrandov Film Studios',
+    slug: 'filmove-ateliery-barrandov',
+    localizedNames: { cz: 'Filmové ateliéry Barrandov', zh: '巴兰多夫电影制片厂' },
+    labels: ['cultural', 'historical', 'architecture'],
+    coordinates: { lat: 50.03081931170479, lng: 14.39164133572945 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Barrandov_Studios',
+    description: {
+      en: `Brave adventurer, welcome to Barrandov Film Studios — founded by the father and uncle of a future Czech president, confiscated by the Nazis, nationalized by the communists, and now the address Hollywood calls when it needs a European backlot for its next blockbuster.
+
+The studios exist because of a real-estate sales pitch: in the early 1930s Václav Maria Havel planned a luxury housing development on a hill on Prague's outskirts, and his brother Miloš — already a prominent figure in Czechoslovak cinema — suggested adding a state-of-the-art film studio to the plan. Construction moved remarkably fast for something this ambitious: ground was broken on 23 November 1931, and the very first scene was shot on 25 January 1933, on what was, at the time, the most modern film studio complex in Europe. That speed and sophistication didn't survive the century intact. The 1939 Nazi occupation brought confiscation without so much as asking Miloš Havel or the board, and by 1940 he was forced to sell his majority stake outright; he later fled to Munich and never set foot in Czechoslovakia again. Liberation brought no relief for private ownership — President Edvard Beneš nationalized Czechoslovak film after the war, and the studios stayed in state hands until 1991, two years after the Velvet Revolution finally allowed them to be privatized.
+
+Today Barrandov is the largest film studio complex in the Czech Republic and one of the biggest in Europe, regularly hosting major international productions — including instalments of Mission: Impossible and Casino Royale — alongside Czech domestic film and television work.
+
+🥚 Easter Egg: The whole area is named after Joachim Barrande, a French geologist who spent decades studying the trilobite-rich fossil beds on this exact hillside — meaning one of the world's great film capitals is named not after a filmmaker at all, but after a 19th-century paleontologist who never saw a single frame shot there.`,
+
+      cz: `Statečný dobrodruhu, vítej ve Filmových ateliérech Barrandov — založených otcem a strýcem budoucího českého prezidenta, zabavených nacisty, znárodněných komunisty a dnes adresou, kterou si Hollywood vybírá, kdykoli potřebuje evropskou kulisu pro svůj další trhák.
+
+Ateliéry vznikly vlastně z realitního záměru: na začátku 30. let plánoval Václav M. Havel na kopci na okraji Prahy luxusní rezidenční čtvrť a jeho bratr Miloš — už tehdy významná osobnost československé kinematografie — navrhl do projektu přidat moderní filmový ateliér. Výstavba postupovala na svou dobu neuvěřitelně rychle: základní kámen byl položen 23. listopadu 1931 a úplně první scéna se natáčela už 25. ledna 1933, v tehdy nejmodernějším filmovém komplexu v Evropě. Tahle rychlost a vyspělost se ale nedochovaly celé století beze změny. Nacistická okupace v roce 1939 přinesla zabavení bez jakéhokoliv souhlasu Miloše Havla či správní rady a v roce 1940 byl donucen prodat svůj většinový podíl; později odešel do Mnichova a do Československa se už nikdy nevrátil. Osvobození nepřineslo úlevu soukromému vlastnictví — prezident Edvard Beneš po válce znárodnil československou kinematografii a ateliéry zůstaly v rukou státu až do roku 1991, dva roky po sametové revoluci, která konečně umožnila jejich privatizaci.
+
+Dnes je Barrandov největším filmovým ateliérovým komplexem v Česku a jedním z největších v Evropě, kde se pravidelně natáčí velké mezinárodní produkce — včetně dílů Mission: Impossible a Casino Royale — vedle českých domácích filmů a televizní tvorby.
+
+🥚 Velikonoční vajíčko: Celá oblast nese jméno po Joachimu Barrandovi, francouzském geologovi, který na tomto přesném kopci strávil desítky let studiem nalezišť zkamenělin bohatých na trilobity — takže jedna z filmových velmocí světa nese jméno vůbec ne po filmaři, ale po devatenáctistoletém paleontologovi, který tu nikdy neviděl natočit jediný záběr.`,
+
+      zh: `勇敢的冒险家，欢迎来到巴兰多夫电影制片厂（Filmové ateliéry Barrandov）——由一位未来捷克总统的父亲和伯父共同创立，曾被纳粹没收，又被共产党收归国有，如今则是好莱坞每次需要欧洲外景地拍摄大片时首先想到的地址。
+
+这座制片厂的诞生，其实源于一次房地产推销：20世纪30年代初，瓦茨拉夫·M·哈维尔（Václav M. Havel）计划在布拉格郊外的一座山丘上开发豪华住宅区，他的兄弟米洛什（Miloš）——当时已是捷克斯洛伐克电影界的重要人物——提议在项目中加入一座最先进的电影制片厂。以如此宏大的规模而言，工程进展快得惊人：1931年11月23日举行奠基仪式，1933年1月25日便拍摄了第一个镜头，而当时它已是欧洲最现代化的电影制片厂。然而，这份速度与先进并未完整地熬过整个世纪。1939年纳粹占领带来了强行没收，甚至没有征询米洛什·哈维尔或董事会的意见；到1940年，他被迫出售了自己的多数股权；此后他逃往慕尼黑，终生再未踏足捷克斯洛伐克。战后的解放也未能让私人所有权得以恢复——总统爱德华·贝奈斯（Edvard Beneš）战后将捷克斯洛伐克电影业收归国有，制片厂一直归国家所有，直到1991年——也就是天鹅绒革命之后两年，才终于得以私有化。
+
+如今，巴兰多夫是捷克最大的电影制片厂综合体，也是欧洲规模最大的制片厂之一，经常承接重量级国际制作——包括《碟中谍》系列和《007：大战皇家赌场》等——同时也持续拍摄捷克本土电影与电视作品。
+
+🥚 彩蛋：整个区域的名字来自法国地质学家约阿希姆·巴兰德（Joachim Barrande），他曾在这同一座山丘上花费数十年研究富含三叶虫化石的地层——这意味着，这座世界级的电影重镇，名字压根不是来自某位电影人，而是来自一位19世纪的古生物学家，他终其一生都没能在这里看过哪怕一个镜头的拍摄。`,
+    },
+  },
+  {
+    name: 'Chaplin – Silent Film Sculpture',
+    slug: 'plastika-chaplin-nemy-film',
+    localizedNames: { cz: 'Plastika Charlieho Chaplina a němého filmu', zh: '卓别林与默片雕塑' },
+    labels: ['monument', 'modern', 'hidden-gem'],
+    coordinates: { lat: 50.03669474737618, lng: 14.378528078724411 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Chaplin — Plastika němého filmu, a four-metre granite-and-aluminium tribute to the world's most famous silent-film tramp, standing watch over a Prague housing estate that, appropriately enough, is named entirely after him.
+
+Sculptor Vladimír Preclík won a design competition for the piece and unveiled it in 1988, using granite paired with hydronalium — an aluminium alloy that was, in its own quiet way, about as cutting-edge as materials got in late-communist Czechoslovakia. Rather than a single static statue, Preclík built six separate silhouettes capturing six phases of movement, so that walking past the sculpture reads like watching Charlie Chaplin's tramp character step, frame by frame, right out of the film screen and into the square that bears his name — Chaplinovo náměstí, the centrepiece of the wider Barrandov housing estate designed by architects Zdeněk Hölzel and Jan Kerel.
+
+🥚 Easter Egg: Chaplin never set foot in communist Czechoslovakia, let alone this particular Prague housing estate — yet somehow he ended up with a public square and a four-metre aluminium monument here decades after his death, which is a stranger outcome than most of his own film plots.`,
+
+      cz: `Statečný dobrodruhu, vítej u plastiky Chaplin — Plastika němého filmu, čtyřmetrové pocty žulou a hliníkem tomu nejslavnějšímu tulákovi z éry němého filmu, která hlídá pražské sídliště pojmenované celé po něm.
+
+Sochař Vladimír Preclík vyhrál na dílo soutěž a odhalil ho v roce 1988, přičemž použil žulu v kombinaci s hydronáliem — hliníkovou slitinou, která byla svým způsobem tak moderní, jak jen materiály v pozdně komunistickém Československu mohly být. Místo jediné statické sochy postavil Preclík šest samostatných siluet zachycujících šest fází pohybu, takže procházka kolem plastiky působí, jako by tulák Charlieho Chaplina vystupoval snímek po snímku přímo z filmového plátna na náměstí, které nese jeho jméno — Chaplinovo náměstí, střed rozsáhlejšího sídliště Barrandov navrženého architekty Zdeňkem Hölzelem a Janem Kerelem.
+
+🥚 Velikonoční vajíčko: Chaplin nikdy nevkročil do komunistického Československa, natož na tohle konkrétní pražské sídliště — a přesto tu desítky let po své smrti nějak skončil s vlastním náměstím a čtyřmetrovým hliníkovým pomníkem, což je podivnější zvrat, než většina zápletek jeho vlastních filmů.`,
+
+      zh: `勇敢的冒险家，欢迎来到"卓别林——默片雕塑"（Chaplin – Plastika němého filmu）——这座四米高的花岗岩与铝合金雕塑，向这位默片史上最著名的流浪汉致敬，静静守望着一整片以他名字命名的布拉格住宅区。
+
+雕塑家弗拉基米尔·普雷茨利克（Vladimír Preclík）赢得设计竞赛后，于1988年将作品揭幕，材料采用花岗岩搭配"海德罗纳留姆"（hydronalium，一种铝合金）——在后共产主义时代晚期的捷克斯洛伐克，这在某种意义上已经算得上相当"前沿"的材料了。普雷茨利克没有做成一尊静态雕像，而是塑造了六个独立的剪影，分别捕捉动作的六个阶段，于是从雕塑旁走过时，就仿佛看到卓别林扮演的流浪汉一格一格地从银幕上走了出来，踏入以他名字命名的这座广场——卓别林广场（Chaplinovo náměstí），也是由建筑师兹德涅克·赫尔泽尔（Zdeněk Hölzel）与扬·克雷尔（Jan Kerel）设计的更大规模的巴兰多夫住宅区的核心地带。
+
+🥚 彩蛋：卓别林从未踏足过共产主义时期的捷克斯洛伐克，更别提这片具体的布拉格住宅区了——可他去世几十年后，却不知怎么在这里拥有了一座以自己命名的广场和一尊四米高的铝制纪念雕塑，这个结局，恐怕比他自己电影里的大多数剧情还要离奇。`,
+    },
+  },
+  {
+    name: 'Barrandov Terraces',
+    slug: 'barrandovske-terasy',
+    localizedNames: { cz: 'Barrandovské terasy', zh: '巴兰多夫平台餐厅' },
+    labels: ['historical', 'architecture', 'restaurants-and-cafes'],
+    coordinates: { lat: 50.03754648787407, lng: 14.40240135975072 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Barrandovsk%C3%A9_terasy',
+    description: {
+      en: `Brave adventurer, welcome to the Barrandov Terraces (Barrandovské terasy) — a restaurant complex modelled on a San Francisco cliffside diner, so popular in its prime that it served up to 3,000 Sunday lunches at a time, and later ended up, entirely by inheritance, in the hands of a former Czech president's family.
+
+Construction began on 24 February 1928 at the initiative of entrepreneur Václav M. Havel, who had been struck by the Cliff House restaurant during a trip to San Francisco and brought photographs of it home for architect Max Urban to work from. The result opened on 4 October 1929 to roughly 50,000 visitors, and quickly became a magnet for Prague high society and ordinary weekend crowds alike — in peak summer season, the kitchen turned out up to 3,000 lunches on a single Sunday. In 1930 Havel doubled down, building what was then the most modern swimming pool in Europe directly beneath the Barrandov cliff: a 50-by-18-metre pool with 10-metre and 5-metre diving platforms, stands for 4,000 spectators, and food delivered straight from the terraces above via a dedicated dining lift.
+
+The good times ended with the February 1948 communist coup, which nationalized the whole complex; the pool itself limped on until 1966 before finally closing. Ownership only returned to the Havel family in 1992 through post-revolution restitution — Václav Havel later transferred his share to his second wife, Dagmar Havlová, who eventually bought out her sister-in-law's stake as well. Restoration work finally began in earnest in 2024, adding two new buildings with 61 apartments alongside the restored original terraces.
+
+🥚 Easter Egg: The entrepreneur who built this San Francisco-inspired clifftop pleasure palace in 1928 was the father of Miloš Havel, founder of the Barrandov Film Studios just up the same hill — meaning this one family managed to build both Prague's most glamorous restaurant terrace and one of Europe's biggest film studios within a few years of each other, on the very same outcrop of rock.`,
+
+      cz: `Statečný dobrodruhu, vítej na Barrandovských terasách — restauračním komplexu podle vzoru útesové restaurace v San Francisku, který byl ve své nejlepší době tak oblíbený, že dokázal v jeden den podávat až 3000 nedělních obědů, a později skončil čistě dědictvím v rukou rodiny bývalého českého prezidenta.
+
+Stavba začala 24. února 1928 z podnětu podnikatele Václava M. Havla, kterého při cestě do San Francisca uchvátila restaurace Cliff House a který si odtud domů přivezl fotografie, podle nichž pak pracoval architekt Max Urban. Výsledek byl slavnostně otevřen 4. října 1929 za účasti zhruba 50 000 návštěvníků a rychle se stal magnetem jak pro pražskou smetánku, tak pro obyčejné víkendové davy — v plné letní sezóně kuchyně dokázala v jednu neděli připravit až 3000 obědů. V roce 1930 Havel přidal na sázce ještě víc: přímo pod Barrandovskou skálou postavil tehdy nejmodernější plovárnu v Evropě — bazén o rozměrech 50 na 18 metrů s desetimetrovým a pětimetrovým skokanským můstkem, tribunami pro 4000 diváků a jídlem dováženým přímo z teras nahoře speciálním jídelním výtahem.
+
+Dobré časy skončily s únorovým komunistickým převratem 1948, který celý komplex znárodnil; samotný bazén ještě dojel až do roku 1966, než se konečně zavřel. Vlastnictví se do rukou rodiny Havlových vrátilo až v roce 1992 porevoluční restitucí — Václav Havel později převedl svůj podíl na svou druhou manželku Dagmar Havlovou, která si nakonec odkoupila i podíl své švagrové. Obnova naplno začala až v roce 2024, kdy k restaurovaným původním terasám přibyly dvě nové budovy s 61 byty.
+
+🥚 Velikonoční vajíčko: Podnikatel, který v roce 1928 postavil tenhle útesový palác rozkoše inspirovaný San Franciskem, byl otcem Miloše Havla, zakladatele Filmových ateliérů Barrandov kousek výš na témže kopci — jedna rodina tak během pár let dokázala na jediném skalním výběžku postavit jak nejhlamournější pražskou restaurační terasu, tak jedno z největších evropských filmových studií.`,
+
+      zh: `勇敢的冒险家，欢迎来到巴兰多夫平台餐厅（Barrandovské terasy）——一座仿照旧金山悬崖餐厅打造的餐饮建筑群，鼎盛时期曾一天供应多达3000份周日午餐，后来竟因单纯的家族继承，落入了一位前捷克总统家族的手中。
+
+工程始于1928年2月24日，由企业家瓦茨拉夫·M·哈维尔（Václav M. Havel）发起——他在旧金山旅行时被"悬崖之家"（Cliff House）餐厅深深打动，特意带回照片交给建筑师马克斯·乌尔班（Max Urban）作为设计参考。这座建筑于1929年10月4日隆重开幕，吸引了约五万名游客，很快便成了布拉格上流社会与普通周末人群共同的聚集地——在夏季旺季，厨房曾在一个周日之内做出多达3000份午餐。1930年，哈维尔再加码：直接在巴兰多夫悬崖脚下建起了当时欧洲最现代化的游泳池——一座50米长、18米宽的泳池，配有10米和5米高的跳水台，看台可容纳4000名观众，餐食则通过专用的送餐电梯直接从上方的平台送下来。
+
+好日子在1948年2月共产主义政变中戛然而止，整个建筑群随即被收归国有；游泳池本身又勉强维持到1966年才最终关闭。产权直到1992年革命后的财产归还程序才重新回到哈维尔家族手中——瓦茨拉夫·哈维尔后来将自己的份额转给了第二任妻子达格玛·哈维洛娃（Dagmar Havlová），她后来又买下了小姑子的那一份。真正的修复工程直到2024年才全面展开，在修复原有平台建筑的同时，又新增了两栋共61套公寓的建筑。
+
+🥚 彩蛋：1928年建造这座受旧金山启发的悬崖"欢乐宫殿"的企业家，正是巴兰多夫电影制片厂创始人米洛什·哈维尔的父亲——制片厂就在同一座山丘再往上一点。也就是说，同一个家族在短短几年间，在同一处岩壁上，先后建起了布拉格最奢华的餐饮平台，和欧洲最大的电影制片厂之一。`,
+    },
+  },
 ];
 
 async function run() {
