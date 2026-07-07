@@ -179,6 +179,7 @@ export const LABEL_DEFINITIONS = {
   embassy: { emoji: "🎌", en: "Embassy", cz: "Velvyslanectví", zh: "大使馆" },
   ruin: { emoji: "🏚️", en: "Ruin", cz: "Zřícenina", zh: "遗迹" },
   jewish: { emoji: "✡️", en: "Jewish", cz: "Židovské", zh: "犹太" },
+  waterbody: { emoji: "🌊", en: "Waterbody", cz: "Vodní plocha", zh: "水体" },
   "castle and fortress": {
     emoji: "🏰",
     en: "Castle & Fortress",
@@ -218,6 +219,7 @@ export const LABEL_COLORS = {
   embassy: "#2a5a7a",
   ruin: "#6a5a4a",
   jewish: "#4a3a8a",
+  waterbody: "#0b5566",
   "castle and fortress": "#5a2a1a",
 };
 

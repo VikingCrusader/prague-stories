@@ -70,6 +70,7 @@ const T = {
     'label.embassy': 'Embassy',
     'label.ruin': 'Ruin',
     'label.jewish': 'Jewish',
+    'label.waterbody': 'Waterbody',
     'dashboard.title': 'Explorer Dashboard',
     'dashboard.titleGuest': 'Log in to use the Explorer Dashboard and begin your Prague journey',
     'dashboard.xpToNext': 'XP to next level',
@@ -187,6 +188,7 @@ const T = {
     'label.embassy': 'Velvyslanectví',
     'label.ruin': 'Zřícenina',
     'label.jewish': 'Židovské',
+    'label.waterbody': 'Vodní plocha',
     'dashboard.title': 'Průzkumník',
     'dashboard.titleGuest': 'Přihlaste se a odemkněte Průzkumníkův přehled, abyste zahájili cestu Prahou',
     'dashboard.xpToNext': 'XP do další úrovně',
@@ -304,6 +306,7 @@ const T = {
     'label.embassy': '大使馆',
     'label.ruin': '遗迹',
     'label.jewish': '犹太',
+    'label.waterbody': '水体',
     'dashboard.title': '探索者仪表盘',
     'dashboard.titleGuest': '登录后使用探索者仪表盘，开启你的布拉格之旅',
     'dashboard.xpToNext': 'XP 到下一级',
@@ -421,6 +424,7 @@ const T = {
     'label.embassy': 'Botschaft',
     'label.ruin': 'Ruine',
     'label.jewish': 'Jüdisch',
+    'label.waterbody': 'Gewässer',
   },
 };
 
