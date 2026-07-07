@@ -55,7 +55,7 @@ The app will ask to use your location. Say yes. This is how it knows you are act
 
 Your command centre. Every location in the city is pinned here. Your position is shown as a red dot. Marker circles scale with zoom — small at city level, larger as you drill in to street level.
 
-The map watches your position in real time. When you walk within **100 metres** of an unvisited location, an OS notification fires — visible even if you are in another app or have the screen off (Android; iOS requires the PWA to be open in the background).
+The map watches your position in real time. When you walk within **50 metres** of an unvisited location, an OS notification fires — visible even if you are in another app or have the screen off (Android; iOS requires the PWA to be open in the background).
 
 Tap the notification. The app checks you in automatically and opens the location card. No further action required.
 
@@ -103,7 +103,7 @@ Your character sheet. Contains:
 ## How Check-In Actually Works
 
 **Via proximity notification (automatic):**
-1. Walk within 100 m of an unvisited location.
+1. Walk within 50 m of an unvisited location.
 2. Tap the OS notification.
 3. Done — the app checks you in and opens the card. XP lands. Achievements may trigger.
 

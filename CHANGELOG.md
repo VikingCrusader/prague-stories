@@ -4,6 +4,16 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.8.7] — 2026-07-07
+
+**Tune: check-in and proximity-detection radii**
+
+- Manual/automatic check-in GPS validation (`checkinController.js`, `MAX_DISTANCE_METERS`) tightened from 200 m to 100 m
+- Automatic proximity-detection notification radius (`useProximityDetection.js`, `RADIUS`) tightened from 100 m to 50 m — you now need to be closer to an unvisited location before the OS notification fires
+- Updated all references to these thresholds in `README.md`, `GUIDE.md`, and the in-app Guide page (`GuidePage.jsx`, all three languages)
+
+---
+
 ## [1.8.6] — 2026-07-05
 
 **Feat: 6 new location cards; feat: `ruin`/`jewish` labels; fix: wake-lock leak**

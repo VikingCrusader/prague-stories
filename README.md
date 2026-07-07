@@ -45,8 +45,8 @@ Discover hundreds of Prague landmarks, earn XP, level up, unlock achievements, a
 ### Exploration & Collection
 
 - **300+ preset Prague locations** spanning every district and era — castles, cemeteries, Baroque churches, Cold War bunkers, a psychiatric hospital that hosts music festivals, and a confluence of two rivers that almost nobody visits
-- **GPS-verified check-in** — the server validates you are within 200 m of the location (distance check skipped in `development` mode for local testing)
-- **Automatic proximity detection** — when you walk within 100 m of an unvisited location an OS notification fires; tapping it checks you in automatically and opens the card detail
+- **GPS-verified check-in** — the server validates you are within 100 m of the location (distance check skipped in `development` mode for local testing)
+- **Automatic proximity detection** — when you walk within 50 m of an unvisited location an OS notification fires; tapping it checks you in automatically and opens the card detail
 - **Instant grid refresh** after check-in; modal auto-closes after 2.5 s with XP and achievement summary
 - **Undo check-in** (Uncollect) available on any collected card
 
@@ -151,7 +151,7 @@ Installable as a standalone app on iOS and Android:
 - **iPhone** — Safari → Share → Add to Home Screen
 - **Android** — Chrome → ⋮ → Add to Home Screen
 - Runs full-screen with no browser UI; tap the logo to force a version refresh (useful when there's no browser refresh button)
-- **Proximity notifications** — on first login the app asks to enable alerts; when permission is granted, an OS notification fires whenever you enter the 100 m discovery radius of an unvisited location; **tapping the notification checks you in automatically** and opens the card detail — works even when the app is backgrounded or killed
+- **Proximity notifications** — on first login the app asks to enable alerts; when permission is granted, an OS notification fires whenever you enter the 50 m discovery radius of an unvisited location; **tapping the notification checks you in automatically** and opens the card detail — works even when the app is backgrounded or killed
 
 ---
 
