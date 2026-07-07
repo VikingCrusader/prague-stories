@@ -12,7 +12,7 @@ async function convertTW(str) {
   return _toTW(str);
 }
 
-const RADIUS = 100; // metres
+const RADIUS = 50; // metres
 
 const NOTIF_STRINGS = {
   en: { title: '★ Discovery!', body: (name) => `You found ${name}! Tap to collect.` },

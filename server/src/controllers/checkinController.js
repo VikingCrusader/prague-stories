@@ -3,7 +3,7 @@ import Location from '../models/Location.js';
 import User from '../models/User.js';
 import { evaluateAchievements, calculateLevel } from '../services/gamification.js';
 
-const MAX_DISTANCE_METERS = 200;
+const MAX_DISTANCE_METERS = 100;
 
 function haversineDistance(lat1, lon1, lat2, lon2) {
   const R = 6371000; // Earth radius in metres

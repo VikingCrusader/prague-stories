@@ -59,6 +59,8 @@ export const SLUG_RARITY = {
   'jizni-pol-prahy':              'epic',  // Prague's southernmost point, curiosity
   'kryt-folimanka':               'epic',  // Cold War nuclear shelter under Folimanka Park
   'hagibor':                      'epic',  // Jewish sports club turned Nazi forced labour camp
+  'dominikansky-dvur':            'epic',  // decaying baroque courtyard, brewery/cinema past, Braník
+  'branicke-ledarny':             'epic',  // Art Nouveau ice house ruin on the Vltava, Braník
 
   // ── RARE (90 · 37.5%) ────────────────────────────────────────────────────
   // Smart tourist / experienced guide territory
@@ -175,6 +177,9 @@ export const SLUG_RARITY = {
   'palac-koruna':                 'rare',
   'rezidence-primatora':          'rare',
   'bilkova-vila':                 'rare',
+  'evangelicky-kostel-branik':    'rare',
+  'kostel-sv-prokopa-branik':     'rare',
+  'branicke-divadlo':             'rare',
 };
 
 export function getRarity(slug) {

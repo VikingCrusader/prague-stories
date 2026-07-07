@@ -3320,6 +3320,181 @@ Dobré časy skončily s únorovým komunistickým převratem 1948, který celý
 🥚 彩蛋：1928年建造这座受旧金山启发的悬崖"欢乐宫殿"的企业家，正是巴兰多夫电影制片厂创始人米洛什·哈维尔的父亲——制片厂就在同一座山丘再往上一点。也就是说，同一个家族在短短几年间，在同一处岩壁上，先后建起了布拉格最奢华的餐饮平台，和欧洲最大的电影制片厂之一。`,
     },
   },
+  {
+    name: 'Evangelical Church (Braník)',
+    slug: 'evangelicky-kostel-branik',
+    localizedNames: { cz: 'Evangelický kostel (Braník)', zh: '布拉尼克福音教堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.040800005631766, lng: 14.410659603001825 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Evangelick%C3%BD_kostel_(Bran%C3%ADk)',
+    description: {
+      en: `Brave adventurer, welcome to the Evangelical Church in Braník — a spruce-wood chapel knocked together in 1948 as a strictly temporary fix, meant to last maybe twenty years until the congregation could afford a proper stone building. Nobody ever got around to it. Over seventy-five years on, "temporary" is still clocking in for Sunday service.
+
+Architect Pavel Bareš designed it in the depths of post-war material shortages, borrowing inspiration from the 18th-century "tolerance churches" — the modest, tower-less wooden chapels that Protestant congregations were legally restricted to building after Emperor Joseph II's 1781 Patent of Toleration finally let them worship, barely, in the open. Bareš specifically modelled his design on the tolerance church at Velká Lhota in Moravian Wallachia. Built between September 1947 and April 1948 and consecrated that May, the little wooden hall proved unexpectedly popular: by 1952 the congregation had swelled past 730 members, with around ninety people turning up for a typical service.
+
+The following decades were not entirely peaceful. Ecumenical services launched hopefully in November 1968 were banned outright from 1972 onward, and in 1969 the pastor, Timoteus Pokorný, was robbed at gunpoint by an intruder who climbed in through a window — he spent nearly two months recovering and unable to preach. The church finally got its promised upgrade in 1989/90, when a new pine apse was added, and a full interior renovation in 2022-23 restored the original 1948 ceiling paintings.
+
+🥚 Easter Egg: The architect behind that 1989/90 apse, David Vávra, is not primarily known as a church architect at all — he's one of Czech television's most recognisable faces, a founding member of the cult comedy troupe Sklep and the genial host of the long-running documentary series "Šumná města," which spent two decades touring Czech towns and gently mocking their ugliest buildings. Somewhere between sketch comedy and Wenceslas Square, he found time to design a church annex.`,
+
+      cz: `Statečný dobrodruhu, vítej v Evangelickém kostele v Braníku — dřevěné kapli, kterou v roce 1948 narychlo sbili jako čistě provizorní řešení, jež mělo vydržet tak dvacet let, než si sbor bude moct dovolit postavit pořádný kamenný kostel. Nikdo se k tomu nikdy nedostal. Přes sedmdesát pět let později "provizorium" pořád spolehlivě slouží nedělním bohoslužbám.
+
+Architekt Pavel Bareš jej navrhl v hlubinách poválečného nedostatku materiálu a inspiroval se osmnáctistoletými "tolerančními kostely" — skromnými, bezvěžovými dřevěnými stavbami, na které byly protestantské sbory zákonně omezeny poté, co jim toleranční patent císaře Josefa II. z roku 1781 konečně dovolil bohoslužby, byť jen stěží, na veřejnosti. Bareš se konkrétně inspiroval tolerančním kostelem ve Velké Lhotě na Valašsku. Kostel, postavený mezi zářím 1947 a dubnem 1948 a vysvěcený téhož května, se ukázal být nečekaně oblíbený: do roku 1952 sbor narostl na více než 730 členů, přičemž na běžnou bohoslužbu chodilo kolem devadesáti lidí.
+
+Následující desetiletí neplynula úplně poklidně. Ekumenické bohoslužby, nadějně zahájené v listopadu 1968, byly od roku 1972 zcela zakázány, a v roce 1969 byl farář Timoteus Pokorný přepaden a oloupen se zbraní v ruce vetřelcem, který vlezl oknem — ze zranění se zotavoval téměř dva měsíce a nemohl kázat. Slíbené vylepšení se kostel dočkal až v letech 1989/1990, kdy přibyla nová sosnová apsida, a při kompletní rekonstrukci interiéru v letech 2022–2023 byly obnoveny původní stropní malby z roku 1948.
+
+🥚 Velikonoční vajíčko: Architekt oné apsidy z let 1989/90, David Vávra, není v první řadě známý jako kostelní architekt — je to jedna z nejznámějších tváří české televize, zakládající člen kultovní komediální skupiny Sklep a laskavý moderátor dlouholetého dokumentárního cyklu "Šumná města", který dvě desetiletí objížděl česká města a s humorem se posmíval jejich nejošklivějším stavbám. Někde mezi scénkovou komedií a Václavským náměstím si našel čas navrhnout i přístavbu kostela.`,
+
+      zh: `勇敢的冒险家，欢迎来到布拉尼克福音教堂——这是一座1948年匆匆搭建起来的云杉木小教堂，本来只打算作为权宜之计撑个二十年，等教会攒够钱盖一座正经的石头教堂再说。结果没人真去盖。七十多年过去了，这座"临时建筑"依然稳稳当当地主持着每周日的礼拜。
+
+建筑师帕维尔·巴雷什（Pavel Bareš）在战后物资极度匮乏的年代设计了这座教堂，灵感来自十八世纪的"宽容教堂"（tolerance church）——那是约瑟夫二世皇帝1781年颁布《宽容专利令》后，新教教徒才勉强获准公开礼拜时，被法律限定只能建造的那种朴素、无塔楼的木结构小教堂。巴雷什具体参照的，是瓦拉几地区大勒霍塔（Velká Lhota）的一座宽容教堂。这座教堂于1947年9月至1948年4月间建成，同年5月举行祝圣仪式，人气出乎意料地旺：到1952年，会众已超过730人，一场普通礼拜也能吸引近九十人参加。
+
+接下来的岁月并不算太平。1968年11月满怀希望开启的普世教会联合礼拜，从1972年起被彻底禁止；1969年，牧师蒂莫特乌斯·波科尔尼（Timoteus Pokorný）还曾遭一名破窗而入的歹徒持枪抢劫，伤愈休养了近两个月，无法主持讲道。教堂期待已久的"升级"直到1989/1990年才姗姗来迟——增建了一座松木后殿，而2022至2023年的整体室内翻修，则修复了1948年留下的原始天顶壁画。
+
+🥚 彩蛋：负责1989/90年那座后殿设计的建筑师大卫·瓦弗拉（David Vávra），主业其实完全不是教堂建筑——他是捷克电视荧幕上最具辨识度的面孔之一，邪典喜剧团体Sklep的创团成员，也是长寿纪录片系列《美丽的城市》（Šumná města）里那位温和风趣的主持人，这档节目用了整整二十年时间跑遍捷克各城镇，笑呵呵地吐槽当地最丑的建筑。在小品喜剧和瓦茨拉夫广场之间，他居然还抽空设计了一座教堂的扩建部分。`,
+    },
+  },
+  {
+    name: 'Church of St. Prokop (Braník)',
+    slug: 'kostel-sv-prokopa-branik',
+    localizedNames: { cz: 'Kostel svatého Prokopa (Braník)', zh: '布拉尼克圣普罗科普教堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.03790847089915, lng: 14.41355239671184 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Prokopa_(Bran%C3%ADk)',
+    description: {
+      en: `Brave adventurer, welcome to the Church of St. Prokop in Braník — a solid red-brick Neo-Romanesque parish church that the neighbourhood built for itself, brick by brick, out of sheer stubbornness, at the turn of the twentieth century. No aristocrat commissioned it. No bishop funded it. The locals just decided they wanted a church and got on with it.
+
+In 1892, Braník residents founded an association with the delightfully bureaucratic name "Society for the Construction and Equipping of the House of the Lord in Braník," and spent the next eight years raising money before the cornerstone was finally consecrated on 1 July 1900. Architect Rudolf Vomáčka delivered a single-nave Neo-Romanesque building with an apse and a blocky western tower, and it was formally dedicated to St. Prokop on 22 September 1901, with finishing work continuing until 1904.
+
+The church's namesake, Prokop of Sázava, was an eleventh-century hermit-monk who reportedly did his soul-searching in a cave directly across the Vltava, in what is now Prokopské údolí — meaning his statue-worthy legend and his actual cave are separated by barely a couple of kilometres of river. The original bells were confiscated by the Nazis during WWII and only replaced at the start of this century, newly named Saint Anežka and Saint Vojtěch.
+
+🥚 Easter Egg: The sandstone statue of St. John of Nepomuk standing guard outside didn't start life here at all — carved in the 18th century by a sculptor from the workshop of František Ignác Platzer, it originally stood in the nearby Dominican Courtyard and was only relocated to its current spot in 1950, decades after the church itself was finished. If you've already ticked off Prokopské údolí on your map, you've technically already visited the site of this saint's day job.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kostele svatého Prokopa v Braníku — solidním novorománském farním kostele z režného zdiva, který si čtvrť na přelomu dvacátého století postavila sama, cihlu po cihle, čirou tvrdohlavostí. Žádný šlechtic ho neobjednal. Žádný biskup ho nezaplatil. Místní si prostě usmysleli, že chtějí kostel, a šli si za tím.
+
+V roce 1892 založili obyvatelé Braníku spolek s rozkošně byrokratickým názvem "Spolek pro vystavění a vyzdobení domu Páně v Braníku" a dalších osm let sháněli peníze, než byl 1. července 1900 konečně vysvěcen základní kámen. Architekt Rudolf Vomáčka navrhl jednolodní novorománskou stavbu s apsidou a hranatou věží na západním průčelí a slavnostně byla zasvěcena sv. Prokopu 22. září 1901, přičemž dokončovací práce pokračovaly až do roku 1904.
+
+Patron kostela, Prokop Sázavský, byl jedenáctistoletým poustevníkem-mnichem, který se svými démony údajně zápasil v jeskyni přímo na druhé straně Vltavy, v dnešním Prokopském údolí — jeho pověstný příběh a jeho skutečná jeskyně jsou tak od sebe vzdáleny sotva pár kilometrů řeky. Původní zvony zabavili za druhé světové války nacisté a nahrazeny byly až na počátku tohoto století, nově pojmenované svatá Anežka a svatý Vojtěch.
+
+🥚 Velikonoční vajíčko: Pískovcová socha svatého Jana Nepomuckého, která dnes hlídá před kostelem, tu vlastně vůbec nezačínala — vytesal ji v 18. století sochař z okruhu Františka Ignáce Platzera a původně stála v nedalekém Dominikánském dvoře, odkud byla na současné místo přemístěna až v roce 1950, celá desetiletí po dokončení samotného kostela. Pokud jsi na své mapě už odškrtl Prokopské údolí, technicky jsi tím pádem už navštívil i místo, kde tenhle světec "chodil do práce".`,
+
+      zh: `勇敢的冒险家，欢迎来到布拉尼克圣普罗科普教堂——一座扎实的红砖新罗马式堂区教堂，是这个社区在二十世纪之交，凭着一股倔劲儿，一砖一瓦自己盖起来的。没有贵族出资委托，也没有主教掏钱资助，纯粹是当地居民自己决定"我们想要一座教堂"，然后就真的动手了。
+
+1892年，布拉尼克的居民成立了一个名字格外官僚气十足的协会——"布拉尼克主之殿建造与装饰协会"，此后花了整整八年时间筹款，才终于在1900年7月1日举行了奠基石祝圣仪式。建筑师鲁道夫·沃马奇卡（Rudolf Vomáčka）设计了一座带后殿的单厅新罗马式建筑，西立面配有一座方形塔楼；教堂于1901年9月22日正式祝圣，献给圣普罗科普，而后续的收尾工程一直持续到1904年。
+
+这座教堂的主保圣人——萨扎瓦的普罗科普，是十一世纪的一位隐修士，据说他"面壁修行"的洞穴，就在伏尔塔瓦河对岸，也就是今天的普罗科普山谷（Prokopské údolí）——换句话说，他那段传奇故事的发生地，和这座供奉他的教堂之间，隔着的不过是几公里的河水。原来的钟在二战期间被纳粹征收熔毁，直到本世纪初才补齐，新钟分别命名为"圣阿格尼丝"和"圣沃伊捷赫"。
+
+🥚 彩蛋：如今守在教堂门前的那尊圣扬·内波穆茨基砂岩雕像，其实并不是"土生土长"于此——它由十八世纪雕塑家弗朗蒂谢克·伊格纳茨·普拉策（František Ignác Platzer）门下的匠人雕刻，原本立在附近的多明我修道院庭院里，直到1950年才被迁到现在的位置，那时距教堂本身竣工已经过去了几十年。如果你的地图上已经打过卡普罗科普山谷，那么严格来说，你其实早就"顺便"参观过这位圣人当年"上班"的地方了。`,
+    },
+  },
+  {
+    name: 'Dominican Courtyard',
+    slug: 'dominikansky-dvur',
+    localizedNames: { cz: 'Dominikánský dvůr', zh: '多明我修道院庭院' },
+    labels: ['historical', 'architecture', 'ruin'],
+    coordinates: { lat: 50.03686550478623, lng: 14.412232662516521 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Dominik%C3%A1nsk%C3%BD_dv%C5%AFr',
+    description: {
+      en: `Brave adventurer, welcome to the Dominican Courtyard — a crumbling Baroque estate that has, in its four-hundred-year career, been a monastery outpost, a brewery, a cinema, and a decaying pile of arcades that the city can't quite decide what to do with. Consider it Braník's answer to a fixer-upper, if the fixer-upper had once brewed beer for actual friars.
+
+The land came into Dominican hands in 1625, a direct spoil of the Battle of White Mountain: Emperor Ferdinand II handed part of Braník to the Dominican order as part of the sweeping re-Catholicization of Bohemia, and the friars wasted no time — by 1626 they had a working brewery on-site. The surviving complex, three of an original four arcaded wings, dates mostly from the third quarter of the 17th century, with a bell tower and stucco-decorated chapel added in 1761. The chapel kept its religious function until 1899, the same year Prague's brewers' guild bought the whole estate and kept the brewery running until 1907.
+
+After the beer stopped flowing, the courtyard reinvented itself yet again: from 1919 to 1969, its southern wing operated as Kino Eden, a neighbourhood cinema, before that section was demolished. Small craft workshops moved in after WWII, and since then the estate has mostly just sat there, owned by the City of Prague and slowly losing its fight against gravity — a 2019 proposal floated turning it into a Waldorf school, though nothing has come of it yet.
+
+🥚 Easter Egg: The sandstone statue of St. John of Nepomuk now standing outside the nearby Church of St. Prokop originally lived right here in this courtyard, before being moved to the church in 1950. So if a saint could get evicted for redevelopment, it happened first — decades before anyone started debating what to do with the rest of the building.`,
+
+      cz: `Statečný dobrodruhu, vítej v Dominikánském dvoře — chátrajícím barokním areálu, který za svou čtyřsetletou kariéru stihl být klášterní usedlostí, pivovarem, kinem i rozpadající se hromadou arkád, se kterou si město pořád neví rady. Ber to jako branickou odpověď na "dům k rekonstrukci", jen v tomto případě dům, kde se kdysi vařilo pivo skutečným mnichům.
+
+Pozemek přešel do rukou dominikánů v roce 1625 jako přímá kořist z bitvy na Bílé hoře: císař Ferdinand II. věnoval část Braníku dominikánskému řádu v rámci rozsáhlé rekatolizace Čech a mniši neztráceli čas — už v roce 1626 tu měli fungující pivovar. Dochovaný areál, tři ze čtyř původních arkádových křídel, pochází většinou ze třetí čtvrtiny 17. století, zvonice se štukovanou kaplí byla přistavěna v roce 1761. Kaple si zachovala náboženskou funkci až do roku 1899, kdy celou usedlost odkoupil spolek pražských sládků a provozoval tu pivovar až do roku 1907.
+
+Poté, co pivo přestalo téct, se dvůr znovu proměnil: od roku 1919 do roku 1969 fungovalo v jeho jižním křídle kino Eden, než bylo toto křídlo zbouráno. Po druhé válce se sem nastěhovaly drobné řemeslné dílny a od té doby areál většinou jen stojí, ve vlastnictví hlavního města Prahy, a pomalu prohrává boj s gravitací — v roce 2019 zazněl návrh přeměnit ho na waldorfskou školu, z čehož zatím nic nebylo.
+
+🥚 Velikonoční vajíčko: Pískovcová socha svatého Jana Nepomuckého, která dnes stojí před nedalekým kostelem svatého Prokopa, původně bydlela přímo tady, na tomto dvoře, než byla v roce 1950 přesunuta ke kostelu. Pokud tedy někdy nějakého světce vystěhovali kvůli přestavbě, stalo se to tady — celé desítky let předtím, než se vůbec začalo řešit, co s tím zbytkem budovy.`,
+
+      zh: `勇敢的冒险家，欢迎来到多明我修道院庭院——一座逐渐颓败的巴洛克庄园，在长达四百年的"职业生涯"里，它先后当过修道院产业、啤酒厂、电影院，如今则是一堆城市当局也不知该拿它怎么办的破败拱廊。不妨把它想象成布拉尼克版的"急待翻新的老宅"，只不过这座老宅，当年可是给真正的修士们酿过啤酒。
+
+这片土地在1625年落入多明我会手中，是白山战役后再天主教化运动的直接战利品：费迪南二世皇帝将布拉尼克的一部分赐给了多明我会，作为波希米亚全面再天主教化行动的一环，修士们也没浪费时间——1626年就在此地开起了一座正常运转的啤酒厂。如今保留下来的建筑群，是原本四翼拱廊中幸存的三翼，大部分建于17世纪下半叶第三个二十五年间；1761年又增建了一座带灰泥装饰礼拜堂的钟楼。礼拜堂一直保持宗教用途直到1899年——同一年，布拉格酿酒商协会买下了整座庄园，并将啤酒厂经营到1907年。
+
+啤酒停产之后，这座庭院又摇身一变：从1919年到1969年，它的南翼变成了社区电影院"伊甸园影院"（kino Eden），直到那部分建筑被拆除为止。二战之后，各种小手工作坊搬了进来，此后这座庄园大多数时候就只是静静地立在那里，产权归布拉格市政府所有，慢慢地输给了地心引力——2019年曾有人提议把它改造成一所华德福学校，但至今没有下文。
+
+🥚 彩蛋：如今立在附近圣普罗科普教堂门前的那尊圣扬·内波穆茨基砂岩雕像，其实最早就住在这座庭院里，直到1950年才被迁往教堂。所以要说哪位圣人曾因为"改造项目"被迫搬家，这里才是最早的案例——比人们真正开始讨论这栋建筑其余部分该怎么办，早了几十年。`,
+    },
+  },
+  {
+    name: 'Braník Ice Houses',
+    slug: 'branicke-ledarny',
+    localizedNames: { cz: 'Branické ledárny', zh: '布拉尼克冰库' },
+    labels: ['ruin', 'factory', 'historical'],
+    coordinates: { lat: 50.03258223280205, lng: 14.406085408872267 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Branick%C3%A9_led%C3%A1rny',
+    description: {
+      en: `Brave adventurer, welcome to the Braník Ice Houses — a hulking Art Nouveau fortress built in 1911 for one job only: keeping beer cold before anyone had heard of a refrigerator. It stored twenty thousand tons of frozen Vltava a year, and today it just stands there, magnificently useless, waiting for somebody to figure out what to do with it.
+
+A group of Prague pub and restaurant owners, tired of relying on the cramped older ice house at Štvanice Island, formed a joint-stock company and built this replacement between 1909 and 1911 to designs by architect Josef Kovařovič. It was structurally ahead of its time — one of the first buildings in Prague built on an iron-concrete skeleton, insulated with cork and threaded with elaborate ventilation and drainage systems. Every winter, workers cut blocks straight out of the frozen Vltava, floated them into a lagoon, hauled them up by paternoster elevator, and packed the whole hall solid over about 38 days — enough ice to keep Prague's pubs, hospitals, and butcher shops supplied through the following summer, delivered daily by horse-drawn cart.
+
+The operation ran until 1954, when the new Slapy Dam upstream stopped the Vltava from freezing properly even in hard winters, making the entire building obsolete overnight. It's been listed as a protected monument since 1964, but protection hasn't meant use: it briefly stored potatoes in the 1980s, and has sat empty and privately owned — inaccessible to the public — ever since.
+
+🥚 Easter Egg: Nobody could ever settle on what to do with this building once the ice ran out. A paleontology museum was floated in the mid-1980s and quietly dropped; in the 1990s, someone seriously proposed turning the isolated, windowless hall into a red-light district, on the logic that a building with no windows and few neighbours was, structurally speaking, perfectly suited to the job. Neither happened. It's still just an extremely handsome empty ice box.`,
+
+      cz: `Statečný dobrodruhu, vítej v Branických ledárnách — mohutné secesní pevnosti postavené v roce 1911 pro jediný účel: udržet pivo studené v době, kdy nikdo ještě neslyšel o lednici. Skladovaly dvacet tisíc tun zmrzlé Vltavy ročně a dnes tu jen stojí, velkolepě nepotřebné, a čekají, až někdo konečně vymyslí, co s nimi.
+
+Skupina pražských hostinských a restauratérů, unavená z tísnivé starší ledárny na Štvanici, založila akciovou společnost a mezi lety 1909 a 1911 postavila tuto náhradu podle návrhu architekta Josefa Kovařoviče. Konstrukčně to byla stavba doby daleko předbíhající — jedna z prvních pražských budov na železobetonové kostře, izolovaná korkem a protkaná složitým systémem větrání a odvodnění. Každou zimu dělníci vysekávali kry přímo ze zamrzlé Vltavy, splavovali je do laguny, vytahovali paternosterovými výtahy a celou halu tak během asi 38 dní naplnili do kompaktu — dost ledu na to, aby pražské hospody, nemocnice i řeznictví měly zásoby na celé následující léto, rozvážené denně koňskými povozy.
+
+Provoz běžel až do roku 1954, kdy nově postavená Slapská přehrada výše po proudu způsobila, že Vltava už pořádně nezamrzala ani za tuhých mrazů, a celá budova se tak přes noc stala zbytečnou. Od roku 1964 je vedená jako chráněná kulturní památka, ochrana ale neznamenala využití: v 80. letech tu krátce skladovali brambory a od té doby stojí prázdná a v soukromém vlastnictví — veřejnosti nepřístupná.
+
+🥚 Velikonoční vajíčko: Nikdo se nikdy pořádně nedohodl, co s budovou udělat, jakmile došel led. V polovině 80. let se zvažovalo paleontologické muzeum, ale nápad potichu zapadl; v 90. letech pak někdo vážně navrhoval proměnit izolovanou halu bez oken na červenou čtvrť, s logikou, že budova bez oken a bez sousedů je na to konstrukčně jako stvořená. Nestalo se ani jedno. Pořád je to jen mimořádně pohledná prázdná lednička.`,
+
+      zh: `勇敢的冒险家，欢迎来到布拉尼克冰库——一座建于1911年的庞大新艺术风格"堡垒"，它存在的理由只有一个：在没人听说过冰箱的年代，让啤酒保持冰凉。它每年能储存两万吨从伏尔塔瓦河凿下的冰块，而如今，它只是气派而毫无用处地立在原地，等着有人想出该拿它怎么办。
+
+一群厌倦了什托万卡岛（Štvanice）那座老旧狭小冰库的布拉格酒馆和餐厅老板，联合成立了一家股份公司，于1909年至1911年间按建筑师约瑟夫·科瓦若维奇（Josef Kovařovič）的设计，建起了这座替代设施。它在结构上远远领先于时代——是布拉格最早采用钢筋混凝土骨架的建筑之一，内部用软木隔热，并布有复杂的通风与排水系统。每年冬天，工人们直接从冰封的伏尔塔瓦河面上凿下冰块，用长杆推入前方的一处泻湖，再用三部"链斗式"提升机吊起，大约用38天的时间把整座大厅填得严严实实——足够供应布拉格的酒馆、医院和肉铺整整一个夏天，每天由马车按时送货。
+
+这项业务一直运转到1954年——上游新建的斯拉皮大坝（Slapy Dam）改变了水文，使得即便在严寒冬季，伏尔塔瓦河也几乎不再结冰，整栋建筑几乎一夜之间失去了存在的意义。它自1964年起被列为受保护的文化古迹，但"受保护"不等于"被使用"：上世纪80年代，这里曾短暂用来储存土豆，此后便一直空置，归私人所有——不对公众开放。
+
+🥚 彩蛋：自从冰块停产之后，人们始终没能就这栋建筑该派什么用场达成一致意见。上世纪80年代中期，曾有人提议把它改造成一座古生物博物馆，但这个想法后来悄悄不了了之；到了90年代，又有人一本正经地提议，把这座孤立、没有窗户的大厅改造成红灯区，理由是"一栋没有窗户、周围也没什么邻居的建筑，从结构上说简直是天生适合"。两个提议最后都没有成真。它至今仍然只是一只格外好看的、空荡荡的大冰箱。`,
+    },
+  },
+  {
+    name: 'Braník Theatre',
+    slug: 'branicke-divadlo',
+    localizedNames: { cz: 'Branické divadlo', zh: '布拉尼克剧院' },
+    labels: ['cultural', 'architecture', 'historical'],
+    coordinates: { lat: 50.03583712257063, lng: 14.413859361357183 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Branick%C3%A9_divadlo',
+    description: {
+      en: `Brave adventurer, welcome to the Braník Theatre — a neoclassical playhouse that the neighbourhood built with its own hands in the 1920s, lost to bureaucrats for most of the Cold War, and eventually handed over to a troupe of circus performers who renamed it something that sounds suspiciously like a cheer.
+
+The theatre's roots trace back to an 1868 gymnastics-and-firefighting-and-amateur-drama society — a very of-its-era combination — which eventually raised the money for a proper building through public collections modelled directly on the fundraising campaign for the National Theatre itself. Thousands of volunteer hours later, architect Václav Šindelář's neoclassical building, with its six-axis facade and a pair of masks glaring down from above the entrance, opened on 1 August 1925 with a production of "Naši furianti."
+
+The 20th century was not kind to it: during WWII the Germans used it as a furniture warehouse for evacuated schools, wrecking the parquet floor and backdrops in the process, and after the communist takeover the founding amateur society lost control of the building entirely, reduced to a mere 21 permitted days a year for rehearsals or performances. Things loosened up in the 1980s, when the programme turned toward pantomime and movement theatre under mime artist Boris Hybner. The theatre closed in 1992, sat through a three-year reconstruction, reopened in 2016, and since 2020 has operated as Divadlo BRAVO!, home to the neo-circus troupe Losers Cirque Company.
+
+🥚 Easter Egg: Before any of them were famous, a young Jiří Krampol — later one of Czechoslovakia's best-loved comic actors — cut his teeth performing on this very stage. A theatre founded by volunteer firefighters and gymnasts eventually produced a national comedy star and then, decades later, reinvented itself as a circus. Consistency was apparently never really the point.`,
+
+      cz: `Statečný dobrodruhu, vítej v Branickém divadle — klasicistním divadle, které si čtvrť ve 20. letech postavila vlastníma rukama, na většinu studené války ho ztratila ve prospěch úředníků a nakonec ho předala partě cirkusových umělců, kteří ho přejmenovali na něco, co zní podezřele jako povzbuzující pokřik.
+
+Kořeny divadla sahají k tělocvično-hasičsko-ochotnickému spolku založenému v roce 1868 — pro svou dobu velmi typická kombinace —, který si na pořádnou budovu nakonec vysbíral peníze veřejnou sbírkou podle vzoru té na Národní divadlo. Po tisících odpracovaných dobrovolnických hodinách se klasicistní budova architekta Václava Šindeláře, se svým šestiosým průčelím a dvojicí masek shlížejících ze štítu nad vchodem, otevřela 1. srpna 1925 hrou "Naši furianti."
+
+Dvacáté století s ní nezacházelo v rukavičkách: za druhé světové války ji Němci využívali jako sklad nábytku z evakuovaných škol, čímž zničili parkety i kulisy, a po komunistickém převratu zakládající ochotnický spolek o budovu zcela přišel a směl ji používat jen na 21 povolených dní v roce. Uvolnilo se to až v 80. letech, kdy se dramaturgie stočila k pantomimě a pohybovému divadlu pod vedením mima Borise Hybnera. Divadlo bylo zavřeno v roce 1992, přečkalo tříletou rekonstrukci, znovu otevřelo v roce 2016 a od roku 2020 funguje jako Divadlo BRAVO!, domovská scéna novocirkusového souboru Losers Cirque Company.
+
+🥚 Velikonoční vajíčko: Ještě než se stal slavným, si na tomto jevišti zahrál mladý Jiří Krampol — pozdější jeden z nejoblíbenějších československých komiků. Divadlo založené dobrovolnými hasiči a cvičenci nakonec vychovalo národní komediální hvězdu a o desítky let později se přerodilo v cirkus. Důslednost zjevně nikdy nebyla úplně cílem.`,
+
+      zh: `勇敢的冒险家，欢迎来到布拉尼克剧院——一座上世纪20年代由社区居民亲手建造的新古典主义剧院，冷战大部分时间里被官僚机构夺走，最终又被交到了一群马戏团表演者手中，他们还给它起了个听起来像是加油打气口号的新名字。
+
+这座剧院的渊源可以追溯到1868年成立的一个"体操—消防—业余戏剧"协会——放在那个年代，这种奇特的组合搭配倒也算合情合理——该协会最终仿照国家剧院当年的募捐模式，通过公开集资筹到了建造一座正式剧院的资金。在志愿者们贡献了成千上万个小时的劳动之后，建筑师瓦茨拉夫·辛德拉尔（Václav Šindelář）设计的这座新古典主义建筑，以六开间立面和入口上方两个俯视众生的面具浮雕为特色，于1925年8月1日以剧目《我们的自大狂》（Naši furianti）正式开幕。
+
+二十世纪对它并不算温柔：二战期间，德国占领当局把它当作从被疏散学校运来的家具仓库，过程中毁掉了地板和布景；共产党掌权后，创立这座剧院的业余剧团彻底失去了对它的控制权，一年之中只被允许使用21天用于排练或演出。直到上世纪80年代，情况才有所松动，剧院在哑剧演员鲍里斯·希布纳（Boris Hybner）带领下，将节目方向转向哑剧和形体剧场。剧院于1992年关闭，经历三年重建后于2016年重新开放，自2020年起以"BRAVO!剧院"（Divadlo BRAVO!）之名运营，成为新马戏团体Losers Cirque Company的驻地剧场。
+
+🥚 彩蛋：在成名之前，年轻的伊日·克兰波尔（Jiří Krampol）——后来成为捷克斯洛伐克最受喜爱的喜剧演员之一——就曾在这个舞台上磨练演技。一座由志愿消防员和体操爱好者创办的剧院，最终培养出了一位国民级喜剧明星，几十年后又摇身变成了马戏团的家。看来"一以贯之"从来都不是这里的追求。`,
+    },
+  },
 ];
 
 async function run() {
