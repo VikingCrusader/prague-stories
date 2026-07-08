@@ -61,6 +61,24 @@ export const SLUG_RARITY = {
   'hagibor':                      'epic',  // Jewish sports club turned Nazi forced labour camp
   'dominikansky-dvur':            'epic',  // decaying baroque courtyard, brewery/cinema past, Braník
   'branicke-ledarny':             'epic',  // Art Nouveau ice house ruin on the Vltava, Braník
+  'cirkev-lds-praha':             'epic',  // LDS Prague Stake Center, first purpose-built LDS building in CZ
+  'umelecka-zahrada-nusle':       'epic',  // hidden sculpture garden under the Nuselský most
+  'mlyn-a-cukrovar-mala-chuchle': 'epic',  // mill turned failed sugar factory turned gun works, Malá Chuchle
+  'chuchelske-lazne':             'epic',  // ruined 18th-century spa, Vrchlický connection
+  'zookoutek-mala-chuchle':       'epic',  // free forest mini-zoo / wildlife rescue outpost
+  'kaple-panny-marie-bolestne-zlichov': 'epic',  // gunpowder store turned decaying chapel, Zlíchov
+  'narodni-pamatnik-hrdinu-heydrichiady': 'epic', // Heydrich terror memorial museum, Resslova crypt
+  'salounuv-atelier':             'epic',  // sculptor Šaloun's Art Nouveau studio, Vinohrady
+  'kaple-svate-rodiny-praha':     'epic',  // obscure Old Catholic vineyard chapel, Vinohrady
+  'lumbeho-zahrada':              'epic',  // walled presidential garden, Slavic cemetery, off-limits
+  'dum-u-zlate-hrusky-a-u-zlateho-hroznu': 'epic', // Nový Svět artists' colony houses
+  'galerie-mnau':                 'epic',  // tiny cat-themed enamel/glass gallery, Pohořelec
+  'sidliste-velka-ohrada':        'epic',  // last socialist housing estate, far SW, built 1988-98
+  'panorama-hotel':               'epic',  // Brutalist StB-surveillance hotel highrise, Pankrác
+  'socha-jezise-krista-petrin':   'epic',  // obscure 1746 wayside statue, Great Strahov Garden
+  'kaple-jezulatka-petrin':       'epic',  // hidden Carmelite garden chapel, Seminářská zahrada
+  'chuchelsky-haj':               'epic',  // forest nature reserve deep in Chuchle, far south
+  'barrandovske-skaly':           'epic',  // Silurian-Devonian boundary geological monument, far SW
 
   // ── RARE (90 · 37.5%) ────────────────────────────────────────────────────
   // Smart tourist / experienced guide territory
@@ -180,6 +198,40 @@ export const SLUG_RARITY = {
   'evangelicky-kostel-branik':    'rare',
   'kostel-sv-prokopa-branik':     'rare',
   'branicke-divadlo':             'rare',
+  'staromestsky-jez':             'rare',
+  'branicky-most':                'rare',
+  'the-park-chodov':              'rare',
+  'budova-filadelfie':            'rare',
+  'divadlo-na-fidlovacce':        'rare',
+  'nuselske-udoli':               'rare',
+  'kostel-narozeni-panny-marie-mala-chuchle': 'rare',
+  'dostihove-zavodiste-velka-chuchle': 'rare',
+  'villa-lanna':                  'rare',
+  'skroupovo-namesti':            'rare',
+  'zpivajici-fontana':            'rare',
+  'toskansky-palac':              'rare',
+  'astronomicka-vez-klementina':  'rare',
+  'tynsky-dvur-ungelt':           'rare',
+  'klaster-kapucinu-hradcany':    'rare',
+  'kasarna-na-pohorelci':         'rare',
+  'film-legends-museum':          'rare',
+  'vysehrad-wall-walkway':        'rare',
+  'svatovaclavska-vinice':        'rare',
+  'dum-u-minuty':                 'rare',
+  'sousosi-premysl-a-libuse':     'rare',
+  'svatomikulasska-zvonice':      'rare',
+  'bastion-u-bozich-muk':         'rare',  // Vyšehrad fortification bastion
+  'kampus-albertov':              'rare',  // Charles University science campus, 1939/1989 demonstration site
+  'trmalova-vila':                'rare',  // Jan Kotěra Art Nouveau villa, Strašnice
+  'topicuv-salon':                'rare',  // historic art gallery, Národní třída
+  'kino-lucerna':                 'rare',  // historic cinema in Lucerna Palace
+  'palac-u-styblu':               'rare',  // functionalist 1927 building, Wenceslas Square
+  'dum-u-clovicku':               'rare',  // historic Old Town house
+  'dum-u-zlateho-andela':         'rare',  // historic Old Town house
+  'schieruv-dum':                 'rare',  // Art Nouveau building, Wenceslas Square
+  'prazska-mestska-pojistovna':   'rare',  // Osvald Polívka Art Nouveau building, Na Příkopě
+  'palac-goltz-kinskych':         'rare',  // Rococo palace, Old Town Square, 1948 balcony speech
+  'dum-u-bileho-jednorozce':      'rare',  // Old Town Square house, Berta Fanta's literary salon
 };
 
 export function getRarity(slug) {
