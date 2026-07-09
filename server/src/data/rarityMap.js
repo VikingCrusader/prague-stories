@@ -232,6 +232,59 @@ export const SLUG_RARITY = {
   'prazska-mestska-pojistovna':   'rare',  // Osvald Polívka Art Nouveau building, Na Příkopě
   'palac-goltz-kinskych':         'rare',  // Rococo palace, Old Town Square, 1948 balcony speech
   'dum-u-bileho-jednorozce':      'rare',  // Old Town Square house, Berta Fanta's literary salon
+
+  // ── Karlín / Smíchov batch (2026-07) ────────────────────────────────────
+  'danube-house':                 'epic',  // River City Prague office tower, LEED renovation
+  'main-point-karlin':            'epic',  // curved office building, first LEED Platinum in CEE
+  'karlinska-synagoga':           'epic',  // 1861 synagogue, now a Hussite church, off Jewish Quarter
+  'palac-ferra':                  'epic',  // 1928 functionalist iron-trade office palace, Na Florenci
+  'masarycka-building':           'epic',  // Zaha Hadid Architects, golden fins, above Masaryk station
+  'nile-house':                   'epic',  // River City Prague, first LEED Platinum in Czech Republic
+  'hilton-prague':                'rare',  // Karlín riverside hotel, opened 1991
+  'hudebni-divadlo-karlin':       'rare',  // 1881 circus-turned-musical theatre, Karlín
+  'zlaty-andel':                  'rare',  // Jean Nouvel glass complex above metro Anděl
+  'jiraskuv-most':                'rare',  // 1933 bridge, Smíchov to New Town
+  'manesuv-most':                 'rare',  // 1914 bridge, Old Town to Malá Strana
+
+  // ── Smíchov / Košíře batch (2026-07) ────────────────────────────────────
+  'musoleum-david-cerny':         'epic',  // David Černý gallery, former Zlíchov distillery
+  'malostransky-hrbitov':         'epic',  // National Revival cemetery, largely forgotten
+  'zdymadlo-smichov':             'epic',  // Vltava weir & navigation lock, 1241 origins
+  'park-sacre-coeur':             'rare',  // hidden convent-school park behind a shopping mall
+  'klaster-sacre-coeur':          'rare',  // 1880s Beuronese-art convent, now event venue
+  'letohradek-kinskych':          'rare',  // Kinský summer villa, Ethnographic Museum
+  'narodni-dum-na-smichove':      'rare',  // 1906-08 Art Nouveau civic hall, Smíchov
+  'svandovo-divadlo-smichov':     'rare',  // 1881 theatre, five name changes
+  'medvedi-kasna':                'rare',  // 1689 Baroque fountain, relocated repeatedly
+
+  // ── Karlín riverside / Libeň batch (2026-07) ────────────────────────────
+  'amazon-court':                 'epic',  // River City Prague, DGNB Platinum atrium
+  'river-city-praha':             'epic',  // umbrella riverside campus, ex-Karlín port
+  'rohansky-ostrov':              'epic',  // 1432 flood island, ex-Metrostav HQ, future park
+  'praha-liben-dolni-nadrazi':    'epic',  // 1873 single-track crossing station, restored 2023
+  'zamecek-rokoska':              'epic',  // vineyard-turned-sugar-factory-turned-hospital annex
+  'borislavka-centrum':           'rare',  // crystal-form Dejvice mall/office, 2017-2021
+  'karlinska-kasarna':            'rare',  // 1842 barracks, Švejk's fictional regiment
+  'hotel-olympik':                'rare',  // Brutalist hotel built for a Games that never came
+  'palac-karlin':                 'rare',  // former ČKD HQ, Ricardo Bofill reconstruction
+  'river-diamond':                'rare',  // residential U-block, River City, Japanese garden
+  'river-garden-office':          'rare',  // HB Reavis office cluster, Rohanské nábřeží
+  'rohan-business-center':        'rare',  // 2012 office tower named after Rohan Island
+  'libensky-zamek-radnice':       'rare',  // Renaissance chateau, 1608 Peace of Libeň, now town hall
+
+  // ── Smíchov / Libeň estates batch (2026-07) ─────────────────────────────
+  'budova-banky-stefanikova-smichov': 'epic', // Karel Prager's "Pragerův bunkr", 1977-1992
+  'palac-svet':                   'epic',  // Hrabal's cinema palace, failed privatisation
+  'grabova-vila':                 'epic',  // wax-cloth dynasty villa, Hitlerjugend, nursing school
+  'usedlost-hercovka':            'epic',  // decaying homestead, S. K. Neumann's final home
+  'usedlost-vila-mazanka':        'epic',  // Baroque estate reborn as café/non-alcoholic brewery
+  'palmovka-usedlost-liben':      'epic',  // vanished homestead, name origin of Palmovka itself
+  'arbesovo-namesti':             'rare',  // Jakub Arbes' birthplace square, three renamings
+  'staropramen-navstevnicke-centrum': 'rare', // 1869 brewery, WWII vat-smuggling story
+  'bily-dum-liben':               'rare',  // built for the Party, occupied post-revolution
+  'lowituv-mlyn':                 'rare',  // 1530 mill, bakery, potato store, reborn as café 2023
+  'thomayerovy-sady':             'rare',  // former Libeň chateau garden, park since 1898
+  'libenska-sokolovna':           'rare',  // 1910 Art Nouveau Sokol hall by Emil Králíček
 };
 
 export function getRarity(slug) {
