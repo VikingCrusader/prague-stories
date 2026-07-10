@@ -272,6 +272,68 @@ export const SLUG_RARITY = {
   'rohan-business-center':        'rare',  // 2012 office tower named after Rohan Island
   'libensky-zamek-radnice':       'rare',  // Renaissance chateau, 1608 Peace of Libeň, now town hall
 
+  // ── Holešovice / Letná batch (2026-07) ───────────────────────────────────
+  'kostel-sv-klimenta-bubny':     'epic',  // oldest surviving building in Holešovice, dates to 1234
+  'maly-berlin':                  'epic',  // "Little Berlin" housing block, dark WWII/communist history
+  'letensky-profil':              'epic',  // protected geological outcrop, ~460-million-year-old trilobite fossils
+  'k111-klarov':                  'epic',  // secret Cold War ghost metro station / government shelter
+  'pavilon-expo-58-vystaviste':   'epic',  // vanished Expo 58 Grand Prize pavilion, burned down 1991
+  'artwise-the-wall':             'epic',  // legal graffiti wall, ever-changing street art
+  'euspa-praha':                  'epic',  // EU Agency for the Space Programme HQ, runs Galileo/EGNOS
+  'wpp-praha-bubenska':           'epic',  // functionalist Elektrické podniky building, now WPP HQ
+  'rockopera-praha':              'rare',  // rock musical theatre in a converted 1890s slaughterhouse hall
+  'sportovni-hala-fortuna':       'rare',  // former HC Sparta Praha home arena, built 1962
+  'praha-holesovice-nadrazi':     'rare',  // first unified multimodal transit terminal in the country
+  'letenske-jezirko':             'rare',  // 2022 artificial lake, climate infrastructure on Letná plain
+  'kramarova-vila':               'rare',  // Czech PM's official residence, built 1911-1914
+  'delnicka-urazova-pojistovna':  'rare',  // 1920s Workers' Accident Insurance building, now tax office
+  'la-fabrika':                   'rare',  // multi-use cultural venue in converted early-1900s factory halls
+  'holesovicka-trznice':          'rare',  // former central slaughterhouse, now Prague's biggest market
+  'vnitroblock':                  'rare',  // deliberately unpolished creative hub, workshops/warehouses
+  'art-gen-holesovice':           'rare',  // twin office/gallery towers near Holešovice market
+  'industrialni-holesovice':      'rare',  // district-wide industrial-to-culture transformation
+  'delnicka-ulice':               'rare',  // 19th-century workers' colony street
+  'lighthouse-tower-holesovice':  'rare',  // twin office towers at the old Holešovice port
+  'chemistry-gallery':            'rare',  // contemporary art gallery, Holešovice market hall 40
+  'trafo-gallery':                'rare',  // gallery collective, third home in a former slaughterhouse hall
+  'policejni-prezidium-cr':       'rare',  // Czech national police command HQ
+  'moderni-galerie-avu':          'rare',  // 1891 exhibition building, art academy studios since 1945
+  'mama-shelter-praha':           'rare',  // 1967 Brutalist Parkhotel, reborn as a French design hotel
+
+  // ── Letná / Stromovka batch (2026-07) ────────────────────────────────────
+  'statni-bezpecnost-bartolomejska': 'epic', // real StB HQ, "kachlíkárna", Cold War political repression
+  'slechtova-restaurace':         'epic',  // Baroque imperial hunting lodge, twice burned, 2002-flooded ruin
+  'rudolfova-stola':               'epic',  // hand-dug 1589-93 tunnel, still functional after 400+ years
+  'holubi-dum-stromovka':          'epic',  // obscure, undocumented pigeon house in the old royal reserve
+  'ustredni-cistirna-odpadnich-vod': 'rare', // still-operating city sewage plant, walkable roof
+  'visionary-holesovice':          'rare',  // first office building in mainland Europe with rooftop running track
+  'letenske-sady':                 'rare',  // Letná's historic vineyard-turned-park, Wimmer/Thomayer
+  'bio-oko':                       'rare',  // 1940 functionalist neighbourhood cinema, bean-bag seating
+  'rudolfuv-rybnik':               'rare',  // Rudolf II's Stromovka pond, fed by Rudolfova štola
+  'novy-most-cisarsky-ostrov':     'rare',  // 2006 replacement bridge, sole road link to Imperial Island
+  'podchod-stromovka':             'common', // railway-embankment underpass splitting Stromovka in two
+  'psi-louka-stromovka':           'common', // off-leash dog meadow, Bubeneč side of Stromovka
+
+  // ── Holešovice industrial batch (2026-07) ────────────────────────────────
+  'teplarna-holesovice':          'epic',  // oldest still-operating power station in the Czech Republic
+  'akciove-parni-mlyny':          'epic',  // Art Nouveau steam mill by Hypšman (Otto Wagner student), now Classic 7
+  'cross-club':                   'rare',  // DIY steampunk industrial music venue, founded 2002
+
+  // ── Dejvice / Bubeneč batch (2026-07) ────────────────────────────────────
+  'zamecek-hanspaulka':           'epic',  // Baroque chateau, gave its name to the whole Hanspaulka district
+  'hadovka-usedlost':             'epic',  // mistranslated "snake" name, Gothic Revival castle, provosts' summer home
+  'zlatnice-usedlost':            'epic',  // goldsmith's farmstead, "Osman Pasha" German-student inn, now ruin
+  'stvanicka-lavka-holka':        'rare',  // 2023 footbridge, animal-head bronze railings, Holešovice-Karlín
+  'hlavkuv-most':                 'rare',  // widest bridge in Czech Republic, built for the 1895 slaughterhouse
+  'evropska-trida':               'rare',  // Dejvice boulevard renamed five times across the 20th century
+  'jugoslavskych-partyzanu':      'rare',  // street renamed five times, Yugoslav king to Tito's partisans
+  'pamatnik-ceskoslovenskym-vojakum-2-svetove-valky': 'rare', // WWII memorial, Vítězné náměstí, 2004
+  'victoria-palace':              'rare',  // first new building on Vítězné náměstí in 87 years
+  'urad-mestske-casti-praha-6':   'rare',  // 1920s hostel turned Prague 6 district hall, Alois Krofta
+  'puskinovo-namesti-park':       'rare',  // Bubeneč square renamed Uralské -> Marie Terezie -> Puškinovo
+  'usedlost-vlcovka':             'rare',  // 1855 homestead named after builder Jan Wiltsch
+  'strakovka-usedlost':           'rare',  // vineyard-turned-homestead named for a St. Vitus provost
+
   // ── Smíchov / Libeň estates batch (2026-07) ─────────────────────────────
   'budova-banky-stefanikova-smichov': 'epic', // Karel Prager's "Pragerův bunkr", 1977-1992
   'palac-svet':                   'epic',  // Hrabal's cinema palace, failed privatisation
@@ -285,6 +347,13 @@ export const SLUG_RARITY = {
   'lowituv-mlyn':                 'rare',  // 1530 mill, bakery, potato store, reborn as café 2023
   'thomayerovy-sady':             'rare',  // former Libeň chateau garden, park since 1898
   'libenska-sokolovna':           'rare',  // 1910 Art Nouveau Sokol hall by Emil Králíček
+
+  // ── Anděl / Smíchov shopping & offices batch (2026-07) ──────────────────
+  'zenske-domovy':                'epic',  // 1933 women-only housing, patron Alice Masaryková
+  'kralovstvi-zeleznic':          'rare',  // largest model railway in Czech Republic
+  'oc-novy-smichov':              'rare',  // built on former Ringhoffer railway-wagon works
+  'smichov-gate':                 'rare',  // 2006 Class A office tower by Strahov Tunnel exit
+  'green-point-smichov':          'rare',  // BREEAM Excellent office tower, Plzeňská
 };
 
 export function getRarity(slug) {

@@ -180,6 +180,8 @@ export const LABEL_DEFINITIONS = {
   ruin: { emoji: "🏚️", en: "Ruin", cz: "Zřícenina", zh: "遗迹" },
   jewish: { emoji: "✡️", en: "Jewish", cz: "Židovské", zh: "犹太" },
   waterbody: { emoji: "🌊", en: "Waterbody", cz: "Vodní plocha", zh: "水体" },
+  geology: { emoji: "🪨", en: "Geology", cz: "Geologie", zh: "地质学" },
+  homestead: { emoji: "🌾", en: "Homestead", cz: "Usedlost", zh: "庄园" },
   "castle and fortress": {
     emoji: "🏰",
     en: "Castle & Fortress",
@@ -220,6 +222,8 @@ export const LABEL_COLORS = {
   ruin: "#6a5a4a",
   jewish: "#4a3a8a",
   waterbody: "#0b5566",
+  geology: "#5a4a3a",
+  homestead: "#6a5a2a",
   "castle and fortress": "#5a2a1a",
 };
 
