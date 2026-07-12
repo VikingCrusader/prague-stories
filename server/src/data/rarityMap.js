@@ -354,6 +354,67 @@ export const SLUG_RARITY = {
   'oc-novy-smichov':              'rare',  // built on former Ringhoffer railway-wagon works
   'smichov-gate':                 'rare',  // 2006 Class A office tower by Strahov Tunnel exit
   'green-point-smichov':          'rare',  // BREEAM Excellent office tower, Plzeňská
+
+  // ── Troja / Bohnice batch (2026-07) ─────────────────────────────────────
+  'trojsky-kun':                  'epic',  // volunteer-built wooden Trojan horse gallery, Troja
+  'privoz-podbaba-podhori':       'epic',  // P2 ferry, closed 1974-2006, reopened crossing
+  'louka-velka-skala':            'epic',  // steppe meadow atop Proterozoic quartzite outcrop
+  'kaple-svate-klary-troja':      'rare',  // 1695 Baroque chapel, Troja vineyard hilltop
+  'vinice-svate-klary':           'rare',  // Prague's only continuously-worked vineyard, since 1228
+  'sklenik-fata-morgana':         'rare',  // S-shaped tropical greenhouse in a rock canyon, opened 2004
+  'japonska-zahrada-troja':       'rare',  // 1997 Japanese garden, largest maple cultivar collection in CZ
+  'bohnicka-vyhlidka':            'common', // meadow viewpoint over the Vltava bend
+  'labyrint-trojske-zahrady':     'common', // hornbeam-and-ditch maze, Troja Chateau garden
+
+  // ── Bohnice hospital district / Lidice batch (2026-07) ──────────────────
+  'psychiatricka-nemocnice-bohnice': 'epic', // 303ha pavilion "garden city" asylum, since 1903
+  'kostel-svateho-petra-a-pavla-bohnice': 'epic', // 1158 Romanesque church, lead-box foundation charter
+  'dynamitka-bohnice':            'epic',  // Alfred Nobel's only Bohemian dynamite factory, ruins
+  'divadlo-za-plotem':            'epic',  // only professional theatre inside a CZ psychiatric hospital
+  'muzeum-pamatniku-lidice':      'epic',  // Lidice massacre museum building, multimedia exhibition
+  'hromadny-hrob-lidice':         'epic',  // mass grave of 173 executed Lidice men, Horák farmstead
+  'statek-vranych':               'rare',  // folk-Baroque farmstead, Staré Bohnice, alleged Napoleon stay
+  'kostel-svateho-vaclava-bohnice': 'rare', // 1919 Art Nouveau hospital church, warehouse 1951-1990
+  'zamek-bohnice':                'rare',  // small Baroque manor, Staré Bohnice, Baron Osborne 1820
+  'hospic-strasburk':             'rare',  // palliative care hospice, name traces to 1820 farmstead nickname
+  'dum-zelenohorska':             'rare',  // longest panel apartment building in Czech Republic
+  'oc-krakov':                    'rare',  // Bohnice estate shopping/cultural centre, rebuilt 2012-13
+
+  // ── Petrovice / Milíčov batch (2026-07) ─────────────────────────────────
+  'prubeh-50-rovnobezky':         'epic',  // 50th-parallel marker curiosity, Písnice globe sculpture
+  'zamek-petrovice':              'superior', // Baroque manor, Sellier & Bellot co-founder, Gestapo-seized
+  'prirodni-park-botic-milicov':  'superior', // 824ha, tied-oldest nature park in Prague, since 1984
+  'kostel-svateho-jakuba-starsiho-petrovice': 'rare', // oldest monument in Petrovice, 13th-century church
+  'zoopark-milicov':              'rare',  // petting-farm minizoo, closed 2026 for unlicensed operation
+  'milicovsky-rybnik':            'rare',  // 18th-century pond system, city-owned only since 2016
+  'komunitni-centrum-matky-terezy': 'rare', // first CZ church dedicated to Mother Teresa, built 2005-07
+  'krtkuv-svet':                  'common', // Krtek-themed family entertainment park, Horní Měcholupy
+
+  // ── Old Hostivař batch (2026-07) ────────────────────────────────────────
+  'meandry-botice':               'epic',  // protected natural monument since 1968, kingfisher habitat
+  'kostel-steti-sv-jana-krtitele-hostivar': 'superior', // 11th/12th-c church, 13th-c wall paintings
+  'potok-botic':                  'superior', // Prague's longest stream, in the national anthem
+  'toulcuv-dvur':                 'superior', // 1362 monastery farmstead, now eco-education centre
+  'horejsi-a-dolejsi-mlyn-hostivar': 'superior', // Švehla family watermills, PM's father bought Upper Mill
+  'zvonice-kostela-jana-krtitele-hostivar': 'rare', // 16th-c wooden bell tower, among oldest in Bohemia
+  'vivo-hostivar':                'rare',  // shopping centre, built 1998-2000, renamed 2017
+  'hostivarsky-jez':              'common', // mill weir, Prague's first fish passage added 2006
+
+  // ── Měcholupy batch (2026-07) ───────────────────────────────────────────
+  'dolni-mecholupy':              'superior', // 1293 first record, "money-pouch robbers" etymology
+  'zvonicka-dacicka-horni-mecholupy': 'rare', // 1990 bell tower, bell salvaged from demolished Dolní Měcholupy
+
+  // ── Vršovice / Záběhlice / Cukrák batch (2026-07) ───────────────────────
+  'transgas':                     'epic',  // demolished 2019 brutalist Cold War gas-pipeline HQ, 90s underground club scene
+  'meteorologicka-vez-libus':     'superior', // Karel Hubáček (Ještěd architect) 1973-79 radar tower
+  'praha-eden-nadrazi':           'common', // opened 2020, first four-track rail corridor in the country
+  'kostel-narozeni-panny-marie-zabehlice': 'rare', // Romanesque origins, pseudo-Romanesque tower after 1874 lightning fire
+  'zabehlicky-zamek':             'superior', // neo-Baroque chateau, medieval fortress origins, White Lady legend
+  'tvrz-kralovice':                'epic',  // 1388 fortress tower, NPU-listed endangered monument
+  'stare-zabehlice':              'superior', // village annexed 1922, kept rural character in the Botič valley
+  'hamersky-rybnik':              'epic',  // sunken Václav IV water fortress found during 1960 dredging
+  'kulturni-dum-eden':            'superior', // 1987 Brutalist 1500-seat culture house, slated for demolition
+  'vysilac-cukrak':                'epic',  // TV tower, main Prague transmitter during Aug 1968 invasion broadcasts
 };
 
 export function getRarity(slug) {
