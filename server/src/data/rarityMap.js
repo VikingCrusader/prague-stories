@@ -415,6 +415,22 @@ export const SLUG_RARITY = {
   'hamersky-rybnik':              'epic',  // sunken Václav IV water fortress found during 1960 dredging
   'kulturni-dum-eden':            'superior', // 1987 Brutalist 1500-seat culture house, slated for demolition
   'vysilac-cukrak':                'epic',  // TV tower, main Prague transmitter during Aug 1968 invasion broadcasts
+
+  // ── Roztoky / Kladno batch (2026-07) ────────────────────────────────────
+  'levy-hradec':                   'epic',  // cradle of Bohemian Christianity, Bořivoj's church, Vojtěch elected bishop 982
+  'cesky-svaz-zpracovatelu-masa':  'common', // meat industry trade association HQ, deliberately mundane hidden gem
+  'roztoky-u-prahy':               'superior', // riverside town, 13th-c fortress turned Renaissance chateau, now regional museum
+  'kladensky-zamek':               'superior', // Gothic-to-Baroque chateau, Dientzenhofer reconstruction, now city museum/library
+  'kostel-nanebevzeti-panny-marie-kladno': 'rare', // 1897-99 basilica, ceiling collapse in the 70s/80s, reconsecrated 2000
+  'magistrat-mesta-kladna':        'rare',  // 1897-98 Neo-Renaissance town hall, Jan Vejrych, Liebscher murals
+  'mariansky-sloup-kladno':        'rare',  // 1739-41 Dientzenhofer Marian column, built over the old town pillory
+
+  // ── Roztoky / Budeč / Unhošť / Kladno batch (2026-07) ───────────────────
+  'zamek-stredoceskeho-muzea-roztoky': 'superior', // 550,000-object archaeology collection, Archevita multimedia exhibit
+  'budec':                         'epic',  // oldest standing building in Czech Republic, young Wenceslas learned to read here
+  'hrad-cerveny-ujezd':            'rare',  // 2001-02 replica knight's fortress over a genuine 10th-c fortified manor site
+  'kladno':                        'epic',  // Poldi steelworks rise (1889) and infamous 1996-97 post-privatisation collapse
+  'stare-mesto-unhost':            'superior', // 13th-c resettlement town, unique triangular main square, oldest CZ school (1379)
 };
 
 export function getRarity(slug) {

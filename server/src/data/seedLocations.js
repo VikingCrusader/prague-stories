@@ -10772,6 +10772,430 @@ Stavba začala v roce 1959 a věž byla uvedena do provozu 26. listopadu 1961; t
 🥚 彩蛋：随着全国主发射塔陷入沉默，各地电视工作人员拼命想办法，用能找到的任何临时演播室和东拼西凑的发射设备，在布拉格、布尔诺（Brno）、俄斯特拉发（Ostrava）和自由堡（Liberec）继续播送反入侵节目——那是真正意义上混乱而倔强的一周电视直播。而今天的楚克拉克，只是安静地向现代平板电视发送着DVB-T2信号，丝毫看不出当年的痕迹。`,
     },
   },
+
+  // ── Roztoky / Kladno batch (2026-07) ────────────────────────────────────
+  {
+    name: 'Levý Hradec Hillfort',
+    slug: 'levy-hradec',
+    localizedNames: { cz: 'Hradiště Levý Hradec', zh: '莱维赫拉德茨古城堡遗址' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.16906580766914, lng: 14.3739323106094 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Klementa_(Lev%C3%BD_Hradec)',
+    description: {
+      en: `Brave adventurer, welcome to Levý Hradec Hillfort!
+
+Bohemia's first Christian duke built a church here in the 880s, a bishop got elected on this exact hilltop in 982, and yet somehow this genuinely history-changing spot remains one of the most overlooked field trips in the entire country.
+
+Around 882–884, shortly after his baptism in Moravia, Duke Bořivoj I built the oldest Christian church on Bohemian soil right here, dedicating it to St. Clement — the fourth Bishop of Rome and an Apostolic Father, a fairly ambitious dedication for a duke who'd been Christian for roughly five minutes. The church you can visit today isn't quite that original building, though: while medieval chroniclers and centuries of local pride credited the surviving rotunda foundations under the floor to Bořivoj himself, modern archaeological analysis has since dated them to the eleventh century instead — a full lifetime after his death. Levý Hradec's real headline moment came on 19 February 982, when it hosted the election of St. Vojtěch (Adalbert) as the new Bishop of Prague, a role that would eventually make him one of Bohemia's most important — and most martyred — religious figures. Once the Přemyslid dynasty shifted its main seat to Prague Castle around the turn of the tenth century, Levý Hradec quietly faded from political relevance, but never quite lost its status as the place where Bohemian Christianity technically began.
+
+🥚 Easter Egg: So the "original" rotunda foundations you can peer at today are almost certainly two centuries younger than the church they're famous for representing — meaning Levý Hradec's claim to fame rests on a building that replaced the building that actually made it famous. Bohemia's oldest Christian site, it turns out, has been quietly rebuilding its own legend for over a thousand years.`,
+
+      cz: `Statečný dobrodruhu, vítej na hradišti Levý Hradec!
+
+První křesťanský kníže Čech tu v osmdesátých letech 9. století postavil kostel, na tomto přesném kopci byl v roce 982 zvolen biskup, a přesto zůstává tohle skutečně dějiny měnící místo jedním z nejpřehlíženějších výletních cílů v celé zemi.
+
+Kolem let 882–884, krátce po svém křtu na Moravě, tu kníže Bořivoj I. nechal postavit nejstarší křesťanský kostel na českém území a zasvětil ho svatému Klimentovi — čtvrtému římskému biskupovi a apoštolskému otci, což byl na knížete, který byl křesťanem sotva pár let, docela ambiciózní výběr patrona. Kostel, který dnes můžeš navštívit, ale není úplně tou původní stavbou: zatímco středověcí kronikáři i staletí místní hrdosti připisovaly dochované základy rotundy pod podlahou přímo Bořivojovi, moderní archeologický rozbor je od té doby datuje až do jedenáctého století — tedy o celý lidský život později, než kníže zemřel. Skutečně přelomový okamžik Levého Hradce přišel 19. února 982, kdy tu byl zvolen sv. Vojtěch novým pražským biskupem — role, která z něj později učinila jednu z nejvýznamnějších, a také nejumučenějších, náboženských postav Čech. Poté, co Přemyslovci přesunuli své hlavní sídlo na Pražský hrad na přelomu 9. a 10. století, politický význam Levého Hradce potichu vybledl, ale svého postavení místa, kde české křesťanství technicky vzato začalo, se nikdy úplně nevzdal.
+
+🥚 Velikonoční vajíčko: Takže "původní" základy rotundy, na které se dnes díváš, jsou téměř jistě o dvě staletí mladší než kostel, který proslavily — což znamená, že sláva Levého Hradce stojí na stavbě, která nahradila stavbu, jež ho vlastně proslavila. Nejstarší křesťanské místo v Čechách si tak už přes tisíc let potichu přestavuje vlastní legendu.`,
+
+      zh: `勇敢的冒险家，欢迎来到莱维赫拉德茨古城堡遗址（Levý Hradec）！
+
+波希米亚第一位信奉基督教的公爵在880年代于此建起一座教堂，公元982年，一位主教就在这座山丘上被正式选出——然而，这个真正意义上改写了历史的地方，至今仍是全国最容易被忽略的郊游目的地之一。
+
+大约在公元882年至884年间，博日沃伊一世公爵（Bořivoj I）在摩拉维亚受洗后不久，就在这里建起了波希米亚境内最古老的一座基督教堂，并将其献给圣克莱孟——第四任罗马主教、使徒教父之一。对一位信教才短短几年的公爵来说，选择这样一位主保圣人，野心着实不小。不过，你今天能参观到的教堂并不完全是那座最初的建筑：虽然中世纪编年史家和几个世纪以来当地人的自豪感，一直把地板下留存的圆形教堂地基归功于博日沃伊本人，但现代考古分析后来却将其年代测定为11世纪——比公爵去世晚了整整一代人的时间。莱维赫拉德茨真正载入史册的高光时刻，发生在982年2月19日：圣沃伊捷赫（St. Vojtěch，即阿达尔伯特）在这里被选为新任布拉格主教——这个身份日后让他成为波希米亚最重要、也是最"殉道"的宗教人物之一。9、10世纪之交，普热米斯尔王朝将主要据点迁往布拉格城堡之后，莱维赫拉德茨的政治地位便悄然淡出，但它作为"波希米亚基督教技术上诞生之地"的名号，却从未真正褪色。
+
+🥚 彩蛋：所以，你今天看到的那些"原始"圆形教堂地基，几乎可以肯定比它们所代表、并因此闻名的那座教堂晚了整整两个世纪——也就是说，莱维赫拉德茨的名声，建立在一座取代了"真正让它出名"的建筑之上。一千多年来，这处波希米亚最古老的基督教遗址，其实一直在悄悄地"重建"着属于自己的传说。`,
+    },
+  },
+  {
+    name: 'Czech Meat Processors Association',
+    slug: 'cesky-svaz-zpracovatelu-masa',
+    localizedNames: { cz: 'Český svaz zpracovatelů masa', zh: '捷克肉类加工者协会' },
+    labels: ['hidden-gem', 'modern'],
+    coordinates: { lat: 50.00150216706065, lng: 14.46728946477115 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the headquarters of the Czech Meat Processors Association!
+
+Somewhere in this unassuming Prague 4 office building, a small team quietly represents the collective interests of the nation's sausage-makers, butchers, and meat-processing plants — proving that not every Prague landmark needs a castle, a ghost, or a plaque to earn its place on the map.
+
+Founded in 1991, right as Czechoslovakia's centrally planned meat industry was being pried apart into private hands, the Český svaz zpracovatelů masa (Czech Meat Processors Association) is a voluntary trade body representing companies and individuals involved in buying, processing, and selling slaughtered animals, meat, and meat products. It operates out of a modest office on Libušská street in Písnice, a world away from Old Town crowds, quietly doing the unglamorous work that keeps an entire national industry functioning: setting standards, lobbying on regulation, and generally making sure Czech meat processing runs smoothly enough that most people never have to think about it at all.
+
+🥚 Easter Egg: The Czech Republic has a national association for meat processors, one for brewers, one for bakers, and dozens more besides — an entire invisible bureaucracy of trade groups quietly keeping the country fed. This building is a monument to none of them in particular, and to all of them at once: the unglamorous administrative backbone behind every klobása you've ever eaten in Prague.`,
+
+      cz: `Statečný dobrodruhu, vítej u sídla Českého svazu zpracovatelů masa!
+
+Někde v téhle nenápadné kancelářské budově na Praze 4 malý tým tiše zastupuje společné zájmy českých uzenářů, řezníků a masozpracujících podniků — důkaz, že ne každá pražská památka potřebuje hrad, strašidlo nebo pamětní desku, aby si zasloužila místo na mapě.
+
+Český svaz zpracovatelů masa vznikl v roce 1991, přesně v době, kdy se centrálně plánovaný masný průmysl Československa rozpadal do soukromých rukou, a je dobrovolným profesním svazem zastupujícím firmy i jednotlivce zabývající se nákupem, zpracováním a prodejem jatečných zvířat, masa a masných výrobků. Sídlí ve skromné kanceláři na Libušské ulici v Písnici, o světy dál od davů na Staroměstském náměstí, a tiše vykonává nenápadnou práci, díky které funguje celé odvětví: stanovuje standardy, prosazuje zájmy v legislativě a v podstatě dohlíží na to, aby zpracování masa v Česku běželo tak hladce, že o něm většina lidí nikdy nemusí přemýšlet.
+
+🥚 Velikonoční vajíčko: Česko má národní svaz zpracovatelů masa, jeden pro pivovarníky, jeden pro pekaře a desítky dalších navrch — celou neviditelnou byrokracii profesních svazů, která tiše stará o to, aby země měla co jíst. Tahle budova není pomníkem žádnému z nich konkrétně, a přitom je pomníkem jim všem najednou: nenápadnou administrativní páteří za každou klobásou, kterou jsi kdy v Praze snědl.`,
+
+      zh: `勇敢的冒险家，欢迎来到捷克肉类加工者协会总部！
+
+在布拉格4区这栋毫不起眼的办公楼里，一支小小的团队正悄悄代表着全国香肠制造商、屠夫和肉类加工企业的共同利益——这证明了，并非每一个布拉格"地标"都需要一座城堡、一个鬼故事或一块纪念牌匾才配得上出现在地图上。
+
+捷克肉类加工者协会（Český svaz zpracovatelů masa）成立于1991年，正值捷克斯洛伐克计划经济下的肉类工业逐步转入私营手中的关键时期，它是一个自愿性质的行业协会，代表着从事屠宰动物、肉类加工及销售业务的企业和个人。协会办公地点位于皮斯尼采（Písnice）的利布什斯卡街（Libušská），距离老城广场的人潮世界完全是另一个宇宙，日复一日默默做着让整个行业得以正常运转的、毫不光鲜的工作：制定标准、参与法规游说，基本上确保捷克的肉类加工行业运转得足够顺畅，以至于大多数人压根不用去想它的存在。
+
+🥚 彩蛋：捷克有全国性的肉类加工者协会，也有酿酒商协会、面包师协会，以及数十个类似的行业组织——一整套悄悄维系着全国人民"有得吃"的隐形官僚体系。这栋大楼并不是专门纪念哪一个协会的丰碑，却同时是它们所有协会共同的丰碑：是你在布拉格吃过的每一根香肠背后，那条毫不起眼却真实存在的行政脊梁。`,
+    },
+  },
+  {
+    name: 'Roztoky u Prahy',
+    slug: 'roztoky-u-prahy',
+    localizedNames: { cz: 'Roztoky u Prahy', zh: '罗兹托基（近布拉格）' },
+    labels: ['village-and-town', 'historical', 'architecture'],
+    coordinates: { lat: 50.159477177695074, lng: 14.398119321412423 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Roztoky_(z%C3%A1mek)',
+    description: {
+      en: `Brave adventurer, welcome to Roztoky u Prahy!
+
+A riverside town best known for a chateau that started life as a proper medieval fortress, spent a while as a Renaissance manor, and eventually became — in a plot twist nobody in the 1300s could have predicted — a regional history museum with a gift shop.
+
+The first fortress here, ringed by circular walls with a central square tower, went up on the bank of the Vltava around the turn of the thirteenth and fourteenth centuries; the town itself first appears in writing in 1233, tied to a certain Petr z Roztok. In 1565, an indebted owner named Antonín Carterius sold the property to David Boryně ze Lhoty, whose family had the old fortress rebuilt into a proper Renaissance chateau, complete with arcades running around the courtyard and a little turret perched above a bay window; further alterations in the eighteenth century gave the building the appearance it still carries today, alongside a partly surviving working farmyard with a malthouse, barn, and stables. By the mid-twentieth century the whole complex had fallen into disrepair, until a group of dedicated local history enthusiasts campaigned to save it — their efforts led to the founding of a museum in 1957, and the chateau finally opened its doors to the public in 1961. It now houses the Regional Museum of Central Bohemia, and the surrounding town includes Žalov, the district that quietly contains Bohemia's oldest Christian site, Levý Hradec, just up the hill.
+
+🥚 Easter Egg: Between the chateau's Renaissance arcades and Levý Hradec's ancient church foundations sitting practically next door, Roztoky manages to pack roughly a thousand years of Bohemian history into one small riverside town — most of it hiding quietly behind a very ordinary commuter-train stop just twenty minutes from central Prague.`,
+
+      cz: `Statečný dobrodruhu, vítej v Roztokách u Prahy!
+
+Město na břehu Vltavy, nejznámější díky zámku, který začínal jako opravdová středověká tvrz, na čas se proměnil v renesanční sídlo a nakonec se — v zápletce, kterou by ve 14. století nikdo nečekal — stal krajským muzeem s obchůdkem se suvenýry.
+
+První tvrz zde, obehnaná kruhovými hradbami s centrální hranolovou věží, vznikla na břehu Vltavy na přelomu třináctého a čtrnáctého století; samotné Roztoky se poprvé písemně připomínají v roce 1233 v souvislosti s jistým Petrem z Roztok. V roce 1565 prodal zadlužený majitel Antonín Carterius panství Davidu Boryňovi ze Lhoty, jehož rod nechal starou tvrz přestavět na skutečný renesanční zámek s arkádami po celém obvodu nádvoří a malou vížkou nad arkýřem; další úpravy v osmnáctém století daly budově podobu, kterou si drží dodnes, spolu s částečně dochovaným hospodářským dvorem se sladovnou, stodolou a stájemi. V polovině dvacátého století celý areál chátral, dokud se skupina zapálených vlastivědných nadšenců nerozhodla ho zachránit — jejich úsilí vyústilo v založení muzea v roce 1957 a zámek byl veřejnosti poprvé otevřen v roce 1961. Dnes v něm sídlí Středočeské muzeum, a součástí města je i Žalov, čtvrť, která v sobě tiše ukrývá nejstarší křesťanské místo v Čechách, hradiště Levý Hradec, kousek nad ním na kopci.
+
+🥚 Velikonoční vajíčko: Mezi renesančními arkádami zámku a starobylými základy kostela na Levém Hradci, které leží prakticky za rohem, se do jednoho malého města na řece vejde zhruba tisíc let českých dějin — a většina z nich se tiše skrývá hned za docela obyčejnou příměstskou vlakovou zastávkou, jen dvacet minut od centra Prahy.`,
+
+      zh: `勇敢的冒险家，欢迎来到罗兹托基（Roztoky u Prahy）！
+
+这座伏尔塔瓦河畔小镇，最出名的是一座城堡：它最初是一座正儿八经的中世纪要塞，后来一度变身文艺复兴风格的宅邸，最终——以一个14世纪的人绝对想不到的转折——变成了一座带纪念品商店的地区历史博物馆。
+
+这里最早的要塞建于13、14世纪之交，坐落在伏尔塔瓦河岸边，四周环绕着圆形城墙，中央矗立着一座方形塔楼；罗兹托基这个地名本身，最早出现在1233年的文字记载中，与一位名叫佩特尔·冯·罗兹托克（Petr z Roztok）的人物有关。1565年，负债累累的业主安东宁·卡尔特里乌斯（Antonín Carterius）将这处产业卖给了大卫·博里涅·冯·莱赫塔（David Boryně ze Lhoty），他的家族将旧要塞改建为一座真正的文艺复兴风格城堡，庭院四周建起了拱廊，还在一处凸窗上方加了一座小塔楼；18世纪的进一步改建，赋予了这座建筑今天依然保留的样貌，此外还留存下部分农庄建筑，包括麦芽作坊、谷仓和马厩。到了20世纪中叶，整个建筑群已破败不堪，直到一群热心的地方历史爱好者发起抢救行动——他们的努力促成了1957年博物馆的成立，城堡于1961年首次向公众开放。如今，这里是中波希米亚地区博物馆的所在地；小镇范围内还包括扎洛夫（Žalov）——一个悄悄藏着波希米亚最古老基督教遗址"莱维赫拉德茨古城堡"的街区，就在山坡上不远处。
+
+🥚 彩蛋：城堡的文艺复兴拱廊，与近在咫尺的莱维赫拉德茨古老教堂地基，让罗兹托基这座河畔小城，把波希米亚大约一千年的历史，浓缩进了一个不大的地方——而这一切，大多就悄悄藏在一个距离布拉格市中心仅二十分钟车程、看起来无比普通的通勤火车站背后。`,
+    },
+  },
+  {
+    name: 'Kladno Chateau',
+    slug: 'kladensky-zamek',
+    localizedNames: { cz: 'Kladenský zámek', zh: '克拉德诺城堡' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.14797153136797, lng: 14.101353485775638 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kladno_(z%C3%A1mek)',
+    description: {
+      en: `Brave adventurer, welcome to Kladno Chateau!
+
+A Gothic fortress that became a Renaissance manor, then a Baroque residence touched by one of Bohemia's most famous architectural dynasties, then a municipal library — proof that even a coal town's chateau can have more career changes than most people manage in a lifetime.
+
+The original Gothic fortress here dates back to the fourteenth century, built as the main seat of the Kladenský z Kladna family, and passed to the Žďárský ze Žďáru family once the Kladno line died out. Jiří Žďárský had it rebuilt into a proper Renaissance chateau between the 1540s and 1560s, finishing in 1566, but the building's current appearance comes from a Baroque reconstruction in the first half of the eighteenth century — one that involved Kilián Ignác Dientzenhofer, a member of the family behind some of Prague's most celebrated Baroque churches. The renovated chateau became the residence of Abbot Benno Löbl and the administrative centre of the Kladno estate, which the Benedictine monks of Břevnov Monastery held from 1705 onward. Estate administration kept operating out of the chateau even after serfdom was abolished, right up until 1933, when the city of Kladno bought the building outright and installed a library, archive, and museum inside — a role it has held, protected as a cultural monument since 1967, ever since.
+
+🥚 Easter Egg: The same Dientzenhofer name attached to Kladno Chateau's Baroque makeover also shows up on some of Prague's grandest churches — a reminder that Bohemia's most in-demand eighteenth-century architects didn't just work the capital's greatest hits, they also took commissions out in the provinces, one industrial mining town at a time.`,
+
+      cz: `Statečný dobrodruhu, vítej na Kladenském zámku!
+
+Gotická tvrz, která se stala renesančním sídlem, pak barokní rezidencí, na níž se podepsala jedna z nejslavnějších architektonických rodin v Čechách, a nakonec městskou knihovnou — důkaz, že i zámek v hornickém městě může za svou kariéru vystřídat víc rolí, než většina lidí zvládne za celý život.
+
+Původní gotická tvrz zde pochází ze čtrnáctého století, sloužila jako hlavní sídlo rodu Kladenských z Kladna a po vymření kladenské větve přešla na rod Žďárských ze Žďáru. Jiří Žďárský ji nechal v letech 1540 až 1560 přestavět na skutečný renesanční zámek, dokončený roku 1566, dnešní podobu ale budova získala díky barokní přestavbě v první polovině osmnáctého století — na níž se podílel Kilián Ignác Dientzenhofer, člen rodiny stojící za některými z nejobdivovanějších barokních kostelů v Praze. Přestavěný zámek se stal sídlem opata Benna Löbla a správním centrem kladenského panství, které od roku 1705 drželi benediktini z Břevnovského kláštera. Správa panství fungovala ze zámku i po zrušení nevolnictví, a to až do roku 1933, kdy budovu odkoupilo město Kladno a zřídilo v ní knihovnu, archiv a muzeum — funkci, kterou si drží dodnes a od roku 1967 je chráněna jako kulturní památka.
+
+🥚 Velikonoční vajíčko: Stejné jméno Dientzenhofer, které se pojí s barokní přestavbou kladenského zámku, najdeš i u některých z nejokázalejších pražských kostelů — připomínka toho, že nejžádanější architekti osmnáctého století v Čechách nepracovali jen na hlavních pražských hitech, ale brali zakázky i na venkově, jedno hornické město za druhým.`,
+
+      zh: `勇敢的冒险家，欢迎来到克拉德诺城堡（Kladenský zámek）！
+
+一座哥特式要塞，先是变成了文艺复兴宅邸，接着又变成了一座出自波希米亚最著名建筑世家之手的巴洛克官邸，最后成了一座市立图书馆——足以证明，即便是一座煤矿小城里的城堡，"转行"次数也能比大多数人一辈子经历的还要多。
+
+这座最初的哥特式要塞可追溯至14世纪，曾是克拉德诺家族（Kladenský z Kladna）的主要宅邸，该家族绝嗣后，产业转入日达尔斯基·冯·日达鲁家族（Žďárský ze Žďáru）手中。1540年代至1560年代间，伊日·日达尔斯基（Jiří Žďárský）将其改建为一座真正的文艺复兴城堡，1566年竣工；不过这座建筑今天的模样，其实来自18世纪上半叶的一次巴洛克式重建——参与其中的正是基利安·伊格纳茨·迪岑霍费尔（Kilián Ignác Dientzenhofer），他出身的家族打造了布拉格几座最负盛名的巴洛克教堂。改建后的城堡成为本诺·勒布尔（Benno Löbl）修道院院长的居所，以及克拉德诺庄园的行政中心，该庄园自1705年起归布热夫诺夫修道院（Břevnov）的本笃会修士所有。即便在农奴制废除之后，庄园管理机构仍继续在这座城堡里运作，直到1933年，克拉德诺市政府买下了整座建筑，将图书馆、档案馆和博物馆一并设立于此——这个角色它一直延续至今，并自1967年起被列为文物保护建筑。
+
+🥚 彩蛋：与克拉德诺城堡巴洛克式改建相关联的"迪岑霍费尔"这个姓氏，同样出现在布拉格几座最宏伟的教堂身上——这提醒着我们，18世纪波希米亚最炙手可热的建筑师们，并不只承接首都的"招牌项目"，他们同样接下外省的委托，一座矿业小城接着一座矿业小城地做下去。`,
+    },
+  },
+  {
+    name: 'Church of the Assumption of the Virgin Mary (Kladno)',
+    slug: 'kostel-nanebevzeti-panny-marie-kladno',
+    localizedNames: { cz: 'Kostel Nanebevzetí Panny Marie (Kladno)', zh: '克拉德诺圣母升天堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.14736864493904, lng: 14.102690730229256 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_Nanebevzet%C3%AD_Panny_Marie_(Kladno)',
+    description: {
+      en: `Brave adventurer, welcome to the Church of the Assumption of the Virgin Mary in Kladno!
+
+A church whose ceiling literally fell in during the 1970s, closed for safety, and still managed to bounce back with a cardinal's blessing twenty years later — a fairly on-brand comeback story for a town built on coal and stubbornness.
+
+A Gothic single-nave church stood on this spot as early as 1352, getting patched up again and again over the centuries — in the 1500s, then 1675, 1690, 1695, the 1730s, 1771, and 1842 — until Kladno's rapid nineteenth-century population growth finally made the old building too small to cope. A dedicated building society, chaired by builder-mayor Josef Hrabě and backed by his mayoral successor Dr. Jaroslav Hruška, pushed through construction of an entirely new church, designed by Ludvík Lábler and built between 1897 and 1899 on the site of the demolished Gothic original. The resulting three-nave basilica, consecrated on 7 June 1900, was significant enough that the parish was elevated to a deanery that same year and to an archdeanery in 1937 — but decades of neglect under a regime with other priorities eventually caught up with it, and by the 1970s and '80s part of the ceiling had actually collapsed, forcing the church to close for safety reasons. A late-1990s reconstruction brought it back, and Cardinal Miloslav Vlk reconsecrated the building on 3 June 2000.
+
+🥚 Easter Egg: The church has technically been listed as a protected cultural monument since 1978 — meaning that for a stretch of the 1970s and '80s, Kladno had an officially protected national monument that was, at the same time, structurally too dangerous to enter. Bureaucratic status and physical safety, it turns out, are not always the same thing.`,
+
+      cz: `Statečný dobrodruhu, vítej u kostela Nanebevzetí Panny Marie v Kladně!
+
+Kostel, kterému se v sedmdesátých letech doslova zřítil strop, byl kvůli tomu z bezpečnostních důvodů uzavřen, a přesto se o dvacet let později dokázal vrátit zpátky s požehnáním kardinála — což je pro město postavené na uhlí a tvrdohlavosti docela příznačný comeback.
+
+Na tomto místě stál gotický jednolodní kostel už v roce 1352 a v průběhu staletí byl znovu a znovu opravován — v 16. století, pak v letech 1675, 1690, 1695, 1739–1740, 1771 a 1842 — dokud prudký nárůst počtu obyvatel Kladna v devatenáctém století konečně neudělal ze staré stavby příliš malý prostor. Zapálený stavební spolek, jemuž předsedal stavitel a starosta Josef Hrabě a který podpořil i jeho nástupce ve funkci starosty MUDr. Jaroslav Hruška, prosadil stavbu úplně nového kostela podle projektu Ludvíka Láblera, postaveného v letech 1897–1899 na místě zbořené gotické stavby. Výsledná trojlodní bazilika, vysvěcená 7. června 1900, byla natolik významná, že farnost byla ještě téhož roku povýšena na děkanství a v roce 1937 na arciděkanství — desetiletí zanedbávání za režimu s jinými prioritami si ale nakonec vybrala svou daň, a v sedmdesátých a osmdesátých letech se dokonce zřítila část stropu, což vedlo k uzavření kostela z bezpečnostních důvodů. Rekonstrukce v druhé polovině devadesátých let ho vrátila zpátky do provozu a 3. června 2000 ho znovu vysvětil kardinál Miloslav Vlk.
+
+🥚 Velikonoční vajíčko: Kostel je formálně veden jako chráněná kulturní památka už od roku 1978 — což znamená, že po nějakou dobu v sedmdesátých a osmdesátých letech mělo Kladno oficiálně chráněnou národní památku, do které se zároveň z konstrukčních důvodů nesmělo vstupovat. Byrokratický status a fyzická bezpečnost prostě nejdou vždycky ruku v ruce.`,
+
+      zh: `勇敢的冒险家，欢迎来到克拉德诺圣母升天堂（Kostel Nanebevzetí Panny Marie）！
+
+这座教堂在1970年代天花板真的塌了下来，因安全问题被迫关闭，却在二十年后带着枢机主教的祝福重新归来——对一座建立在煤炭与倔强之上的城市来说，这样的"王者归来"剧情倒是相当应景。
+
+早在1352年，这里就矗立着一座哥特式单殿教堂，此后几个世纪里被反复修缮——16世纪、1675年、1690年、1695年、1739至1740年、1771年，还有1842年——直到19世纪克拉德诺人口的急速增长，终于让这座老教堂显得太小，容不下越来越多的信众。一个热心的建堂协会应运而生，由建筑师兼市长约瑟夫·赫拉贝（Josef Hrabě）担任主席，并得到继任市长雅罗斯拉夫·赫鲁什卡博士（MUDr. Jaroslav Hruška）的支持，推动兴建一座全新的教堂，由建筑师卢德维克·拉布勒尔（Ludvík Lábler）设计，于1897年至1899年间在被拆除的哥特式老教堂原址上建成。建成后的三殿式教堂于1900年6月7日举行祝圣仪式，意义重大到当年这座教区就被升格为总铎区，并在1937年进一步升格为总铎区首座教堂——但在一个有着其他优先事项的政权治下，数十年疏于维护的代价最终显现出来：1970至80年代间，部分天花板竟真的坍塌，教堂只能因安全原因被迫关闭。1990年代后半期的一次重建让它得以恢复，2000年6月3日，米洛斯拉夫·夫尔克枢机主教（Cardinal Miloslav Vlk）为其重新举行祝圣仪式。
+
+🥚 彩蛋：这座教堂自1978年起就被正式列为受保护的文物古迹——这意味着在1970至80年代的某段时间里，克拉德诺同时拥有一座官方认证的受保护国家级古迹，以及一座因结构隐患而不能进入的危险建筑。看来，官方认定的地位和实际的建筑安全，并不总是一回事。`,
+    },
+  },
+  {
+    name: 'Kladno Town Hall',
+    slug: 'magistrat-mesta-kladna',
+    localizedNames: { cz: 'Magistrát města Kladna', zh: '克拉德诺市政厅' },
+    labels: ['municipal', 'architecture', 'historical'],
+    coordinates: { lat: 50.14726815208992, lng: 14.103379903980919 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Radnice_v_Kladn%C4%9B',
+    description: {
+      en: `Brave adventurer, welcome to Kladno Town Hall!
+
+A Neo-Renaissance municipal building whose facade literally announces its own construction date in giant Latin-flavoured Czech, built by the same civic-minded mayor who was simultaneously bankrolling a brand-new church just around the corner — Kladno's late-nineteenth-century leadership clearly believed in doing two ambitious building projects at once.
+
+Designed by architect Jan Vejrych and built in 1897–1898 under builder-and-mayor Josef Hrabě, the town hall is a double-storey, three-wing structure arranged around a deliberately articulated floor plan, its main entrance marked by a tall prismatic clock tower and a pair of arcades running above a second-floor balcony. Running the full width of the facade beneath the roofline is an inscription that translates roughly as "In the Year of the Lord 1897–98, from the foundations, with God's help, I was raised" — a building literally signing its own construction certificate for posterity. Inside, painter Adolf Liebscher decorated both the facade and the ceremonial hall, including a triptych titled "Coal and Iron" dominated by an allegorical female figure representing Kladno itself, while sculptor Antonín Popp contributed a bronze knight standing guard over the town's coat of arms.
+
+🥚 Easter Egg: Josef Hrabě wasn't just the mayor who signed off on this town hall — he also chaired the society that got Kladno's new parish church built in almost exactly the same years, just off the same square. One nineteenth-century mayor, two major monuments, and apparently no shortage of stamina for ribbon-cuttings.`,
+
+      cz: `Statečný dobrodruhu, vítej u Magistrátu města Kladna!
+
+Novorenesanční budova radnice, jejíž fasáda doslova hlásá vlastní datum vzniku velkými literami, postavená stejným občansky uvědomělým starostou, který ve stejné době financoval i zbrusu nový kostel hned za rohem — kladenské vedení konce devatenáctého století zjevně věřilo v to, dělat dva ambiciózní stavební projekty najednou.
+
+Radnici navrhl architekt Jan Vejrych a postavena byla v letech 1897–1898 za stavitele a zároveň starosty Josefa Hraběte; jde o patrovou trojkřídlou stavbu na záměrně členitém půdorysu, jejíž hlavní vstup zdobí vysoká hranolová věž s hodinami a dvojice arkád nad balkonem v druhém patře. Přes celou šířku fasády pod střechou běží nápis, který v překladu zhruba znamená "Léta Páně 1897–98 ze základů s pomocí Boží vyzdvižen jsem" — budova si tak doslova sama podepisuje vlastní stavební osvědčení pro budoucí generace. Uvnitř vyzdobil fasádu i obřadní síň malíř Adolf Liebscher, mimo jiné triptychem nazvaným "Uhlí a železo" s dominantní alegorickou postavou ženy představující samotné Kladno, zatímco sochař Antonín Popp přispěl bronzovou sochou rytíře strážícího městský znak.
+
+🥚 Velikonoční vajíčko: Josef Hrabě nebyl jen starosta, který podepsal stavbu téhle radnice — ve stejných letech zároveň předsedal spolku, který prosadil stavbu nového kladenského farního kostela, jen kousek od téhož náměstí. Jeden starosta z devatenáctého století, dvě velké památky, a zjevně žádný nedostatek energie na slavnostní přestřihávání pásek.`,
+
+      zh: `勇敢的冒险家，欢迎来到克拉德诺市政厅（Magistrát města Kladna）！
+
+一座新文艺复兴风格的市政建筑，其立面上直接用醒目的文字"宣告"了自己的建成年份——而主持修建它的市长，恰好在同一时期，也在几步之外资助建造一座全新的教堂：19世纪末的克拉德诺市政领导层，显然笃信"一次同时干两件大工程"的哲学。
+
+这座市政厅由建筑师扬·维里赫（Jan Vejrych）设计，于1897年至1898年间在身兼建筑师与市长的约瑟夫·赫拉贝（Josef Hrabě）主持下建成；这是一座双层三翼建筑，平面布局刻意做得错落有致，正门处矗立着一座带钟面的高耸方形塔楼，二楼阳台上方还有一对拱廊。屋檐下方、贯穿整个立面的位置，刻着一行铭文，大意是"主历1897至98年，靠着上帝的帮助，我自地基之上被建起"——这栋建筑相当于亲手为自己签发了一份留给后世的"竣工证书"。室内部分，画家阿道夫·利布舍尔（Adolf Liebscher）负责装饰立面与礼堂，其中包括一幅名为《煤与铁》的三联画，画面中央是象征克拉德诺本身的女性寓言人物；雕塑家安东宁·波普（Antonín Popp）则贡献了一尊守护市徽的青铜骑士雕像。
+
+🥚 彩蛋：约瑟夫·赫拉贝不仅是签署了这座市政厅建设方案的市长——几乎在同一时期，他还担任着推动克拉德诺新教区教堂建设的协会主席，地点就在同一座广场旁边。一位19世纪的市长，两座重要地标，看来当年剪彩仪式的精力，怎么都用不完。`,
+    },
+  },
+  {
+    name: 'Marian Column (Kladno)',
+    slug: 'mariansky-sloup-kladno',
+    localizedNames: { cz: 'Mariánský sloup (Kladno)', zh: '克拉德诺圣母柱' },
+    labels: ['monument', 'historical', 'architecture'],
+    coordinates: { lat: 50.14683730935087, lng: 14.10279377059642 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Mari%C3%A1nsk%C3%A9_souso%C5%A1%C3%AD_(Kladno)',
+    description: {
+      en: `Brave adventurer, welcome to the Marian Column of Kladno!
+
+A ten-metre Baroque monument to the Virgin Mary standing on the exact spot where the town used to punish people in public — either an enormous coincidence or the eighteenth century's idea of a redemption-arc story.
+
+Built between 1739 and 1741 to a design by Kilián Ignác Dientzenhofer — the same architect responsible for reshaping nearby Kladno Chateau around the same period — the column was carved by sculptor J. Hiernle with stonework by Johann Baumgartner, all commissioned under the patronage of Břevnov abbot Benno Löbl, who by then more or less ran the town's affairs. It replaced Kladno's old pillory, the wooden post where offenders were once publicly punished, with something considerably more devotional: reliefs of saints line the lower portion, and right at the very top stands the Virgin Mary holding the infant Christ, balanced on a globe of the world. Consecrated in 1741, it has been restored twice since — once in 1861 and again in 1880 — and has held protected monument status since 1958.
+
+🥚 Easter Egg: Notice how several of Kladno's landmarks around this square all trace back to the same small circle of eighteenth-century power players — Abbot Benno Löbl commissioning both the chateau renovation and this column, with a Dientzenhofer's hand in the design of both. Small-town Baroque patronage networks, it turns out, moved just as fast as anything in Prague.`,
+
+      cz: `Statečný dobrodruhu, vítej u Mariánského sloupu v Kladně!
+
+Desetimetrový barokní pomník Panny Marie stojící přesně na místě, kde město kdysi veřejně trestalo provinilce — což je buď obrovská náhoda, nebo osmnáctistoletá představa o vyprávění příběhu vykoupení.
+
+Sloup vznikl v letech 1739 až 1741 podle návrhu Kiliána Ignáce Dientzenhofera — téhož architekta, který ve stejné době přestavoval nedaleký kladenský zámek — a vytesal ho sochař J. Hiernle spolu s kameníkem Johannem Baumgartnerem, vše pod patronací břevnovského opata Benna Löbla, jenž tou dobou v podstatě řídil chod celého města. Sloup nahradil starý kladenský pranýř, dřevěný kůl, u něhož byli kdysi veřejně trestáni provinilci, něčím podstatně zbožnějším: spodní část zdobí reliéfy svatých a na samotném vrcholu stojí Panna Marie s Ježíškem v náručí, balancující na zeměkouli. Vysvěcen byl v roce 1741, od té doby byl dvakrát restaurován — poprvé v roce 1861 a podruhé v roce 1880 — a od roku 1958 je chráněnou památkou.
+
+🥚 Velikonoční vajíčko: Všimni si, jak se hned několik kladenských památek kolem tohoto náměstí sbíhá ke stejnému úzkému kruhu osmnáctistoletých mocných lidí — opat Benno Löbl zadal jak přestavbu zámku, tak stavbu tohoto sloupu, a v obou případech měl prsty v designu jeden z Dientzenhoferů. Barokní sítě mecenášů se v malých městech zjevně točily stejně rychle jako v Praze.`,
+
+      zh: `勇敢的冒险家，欢迎来到克拉德诺圣母柱（Mariánský sloup）！
+
+一座高达十米的巴洛克式圣母纪念柱，竟然恰好矗立在这座城市曾经公开惩罚罪人的地方——这要么是个天大的巧合，要么就是18世纪版本的"救赎叙事"。
+
+这座纪念柱建于1739年至1741年间，由基利安·伊格纳茨·迪岑霍费尔（Kilián Ignác Dientzenhofer）设计——正是同一时期主持改建附近克拉德诺城堡的那位建筑师——由雕塑家J·希尔恩勒（J. Hiernle）与石匠约翰·鲍姆加特纳（Johann Baumgartner）负责雕刻施工，整个工程都是在布热夫诺夫修道院院长本诺·勒布尔（Benno Löbl）的资助下完成的，而这位院长当时基本上掌控着全城的事务。它取代了克拉德诺原来的耻辱柱——那根曾经用来公开惩罚罪犯的木柱——换上了一件宗教意味浓厚得多的作品：柱身下部环绕着圣徒浮雕，而在最顶端，圣母玛利亚怀抱圣婴，站立在一个地球仪之上。这座纪念柱于1741年祝圣完工，此后经历过两次修复——分别在1861年和1880年——并自1958年起被列为受保护古迹。
+
+🥚 彩蛋：仔细想想就会发现，这座广场周边好几处克拉德诺地标，其实都指向同一小撮18世纪的权力核心人物——本诺·勒布尔院长既委托了城堡的改建工程，也资助了这座纪念柱，而两项工程的设计中都有迪岑霍费尔家族的身影。看来，巴洛克时代小城镇里的赞助人网络，运转起来一点不比布拉格慢。`,
+    },
+  },
+
+  // ── Roztoky / Budeč / Unhošť / Kladno batch (2026-07) ───────────────────
+  {
+    name: 'Central Bohemian Museum Chateau',
+    slug: 'zamek-stredoceskeho-muzea-roztoky',
+    localizedNames: { cz: 'Zámek Středočeského muzea v Roztokách u Prahy', zh: '罗兹托基中波希米亚博物馆城堡' },
+    labels: ['museum', 'historical', 'architecture'],
+    coordinates: { lat: 50.1588829920239, lng: 14.39895640788395 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/St%C5%99edo%C4%8Desk%C3%A9_muzeum_v_Roztok%C3%A1ch_u_Prahy',
+    description: {
+      en: `Brave adventurer, welcome to the Central Bohemian Museum Chateau in Roztoky!
+
+Somewhere inside this Renaissance-turned-museum complex sits an old farm barn that now projects Stone Age holograms at unsuspecting visitors — proof that a building's second act can be considerably stranger than its first.
+
+The museum's archaeological collection has been growing since 1961 and now holds close to 550,000 catalogued objects, one of the largest such holdings in the country, drawn largely from the extraordinarily rich prehistoric and early medieval sites scattered around Roztoky itself. Rather than leaving all that material in storage drawers, the museum built Archevita – Stopami věků ("Archevita — Following the Ages"), a multimedia exhibition installed inside the chateau's original farmyard barn, walking visitors from the late Stone Age through to the early Middle Ages using full-scale reconstructions of prehistoric dwellings, recreated burial sites, and — genuinely — holographic projections layered over computer-generated period scenes. It is, by regional museum standards, a startlingly ambitious piece of storytelling for a building whose day job used to be storing hay.
+
+🥚 Easter Egg: A museum that started collecting archaeological finds in 1961 has, over six decades, quietly accumulated close to half a million objects — meaning that on any given day, the vast majority of Roztoky's excavated prehistoric past is sitting in storage rather than on display, patiently waiting for its turn under the hologram projector.`,
+
+      cz: `Statečný dobrodruhu, vítej v Zámku Středočeského muzea v Roztokách u Prahy!
+
+Někde v tomhle renesančním areálu, dnes proměněném v muzeum, se skrývá stará hospodářská stodola, která na nic netušící návštěvníky promítá hologramy z doby kamenné — důkaz, že druhé dějství budovy může být podstatně podivnější než to první.
+
+Archeologická sbírka muzea roste od roku 1961 a dnes čítá téměř 550 tisíc katalogizovaných předmětů, což z ní dělá jednu z největších sbírek svého druhu v zemi, získávaných převážně z mimořádně bohatých pravěkých a raně středověkých lokalit roztroušených po okolí samotných Roztok. Místo aby všechen ten materiál zůstal jen v depozitářích, vybudovalo muzeum expozici Archevita – Stopami věků, multimediální výstavu instalovanou přímo v původní hospodářské stodole zámku, která provede návštěvníky obdobím od pozdní doby kamenné až po raný středověk pomocí modelů pravěkých obydlí v životní velikosti, rekonstruovaných pohřebních celků a — opravdu — holografických projekcí vrstvených na počítačem generované dobové scény. Na poměry regionálního muzea jde o překvapivě ambiciózní kus vyprávění pro budovu, jejíž denní náplní bývalo skladování sena.
+
+🥚 Velikonoční vajíčko: Muzeum, které začalo sbírat archeologické nálezy v roce 1961, za šest desetiletí tiše nashromáždilo téměř půl milionu předmětů — což znamená, že naprostá většina vykopané pravěké minulosti Roztok v kterýkoli den leží v depozitáři, nikoli na výstavě, a trpělivě čeká, až na ni dojde řada pod hologramovým projektorem.`,
+
+      zh: `勇敢的冒险家，欢迎来到罗兹托基中波希米亚博物馆城堡！
+
+在这座由文艺复兴建筑改建而成的博物馆建筑群里，藏着一座老农庄谷仓，如今却会向毫无防备的游客投射出石器时代的全息投影——足以证明，一栋建筑的"第二人生"，往往比"第一人生"离奇得多。
+
+这座博物馆的考古藏品自1961年起持续积累，如今已拥有近55万件编目文物，是捷克境内规模最大的此类馆藏之一，主要来自罗兹托基周边极为丰富的史前及中世纪早期遗址。博物馆并没有把这些藏品都锁在库房里，而是打造了名为"Archevita——追寻时代足迹"的多媒体展览，就设在城堡原本的农庄谷仓内，用一比一还原的史前住所、重建的墓葬场景，以及——真的没开玩笑——叠加在电脑生成场景之上的全息投影，带领游客走过从新石器时代晚期到中世纪早期的漫长旅程。以地区博物馆的标准来看，这对一栋以前主业是"堆干草"的建筑来说，堪称一次雄心勃勃到令人意外的叙事尝试。
+
+🥚 彩蛋：一家从1961年就开始收集考古文物的博物馆，六十多年下来，悄悄积攒了将近五十万件藏品——这意味着，在任何一天，罗兹托基出土的史前历史，绝大部分其实都静静躺在库房里，而非陈列在展厅中，耐心等待着轮到自己被投上全息投影仪的那一刻。`,
+    },
+  },
+  {
+    name: 'Budeč Hillfort',
+    slug: 'budec',
+    localizedNames: { cz: 'Hradiště Budeč', zh: '布杰奇古城堡遗址' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.19127471563639, lng: 14.244832902928147 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Bude%C4%8D_(hradi%C5%A1t%C4%9B)',
+    description: {
+      en: `Brave adventurer, welcome to Budeč Hillfort!
+
+Somewhere inside this unassuming country church sits the oldest standing building in the entire Czech Republic — a claim to fame roughly one thousand one hundred years in the making, and one most visitors drive straight past without noticing.
+
+The Přemyslid dynasty built a hillfort here in the second half of the ninth century, one of the central strongholds of their Central Bohemian domain, on a hill that archaeological finds show had already been settled since the Bronze Age. Shortly after 895, Duke Spytihněv I had a rotunda dedicated to St. Peter built on the site — and according to the Wenceslas legends, this is where a young prince named Wenceslas, the future saint and patron of Bohemia, learned to read Latin. Later additions layered on around that original core: a Romanesque tower in the twelfth century (when the dedication was also expanded to include St. Paul), a rectangular presbytery around 1585, and a sacristy in the seventeenth century. But through every single one of those renovations, the original nave that Spytihněv commissioned survived completely intact — which is why it now holds the title of the oldest standing building in the country, protected as a National Cultural Monument since 1962.
+
+🥚 Easter Egg: Every 28 September, Budeč hosts its own St. Wenceslas celebrations, and the site draws organized pilgrimages twice a year — meaning the same rotunda where a real Bohemian prince once practiced his Latin alphabet is still, eleven centuries later, doing more or less the job it was built for.`,
+
+      cz: `Statečný dobrodruhu, vítej na hradišti Budeč!
+
+Někde uvnitř tohoto nenápadného venkovského kostela se skrývá nejstarší stojící stavba v celé České republice — sláva, která se budovala zhruba jedenáct set let, a kolem které většina návštěvníků prostě projede, aniž by si jí všimla.
+
+Přemyslovci si zde v druhé polovině devátého století vybudovali hradiště, jednu z centrálních pevností svého středočeského panství, na kopci, který podle archeologických nálezů byl osídlen už od doby bronzové. Krátce po roce 895 nechal kníže Spytihněv I. na tomto místě postavit rotundu zasvěcenou sv. Petru — a podle svatováclavských legend se právě tady mladý kněžic Václav, budoucí světec a patron české země, učil číst latinské knihy. Na tento původní základ se v pozdějších dobách nabalovaly další přístavby: románská věž ve dvanáctém století (kdy bylo zasvěcení rozšířeno i o sv. Pavla), obdélné kněžiště kolem roku 1585 a sakristie v sedmnáctém století. Přes všechny tyto úpravy se ale hlavní loď, kterou nechal postavit Spytihněv, zachovala zcela neporušená — a právě proto dnes nese titul nejstarší stojící stavby v zemi a od roku 1962 je chráněna jako národní kulturní památka.
+
+🥚 Velikonoční vajíčko: Každý 28. září se v Budči konají svatováclavské oslavy a místo dvakrát ročně přitahuje organizované poutě — takže stejná rotunda, ve které se kdysi skutečný český kníže učil latinskou abecedu, dělá jedenáct století později víceméně to samé, k čemu byla postavena.`,
+
+      zh: `勇敢的冒险家，欢迎来到布杰奇古城堡遗址（Budeč）！
+
+在这座毫不起眼的乡村教堂里，竟然藏着整个捷克共和国现存最古老的建筑——这份声名足足积累了大约一千一百年，而大多数游客开车经过时压根不会注意到它。
+
+普热米斯尔王朝在9世纪下半叶于此建起了一座城堡，是他们中波希米亚领地的核心据点之一；考古发现显示，这座山丘早在青铜时代就已有人居住。895年后不久，斯皮蒂赫涅夫一世公爵（Spytihněv I）下令在此建造一座供奉圣彼得的圆形教堂——根据瓦茨拉夫传说，正是在这里，年轻的王子瓦茨拉夫（后来的圣人与波希米亚主保圣人）学会了阅读拉丁文经书。此后的岁月里，人们不断在这座原始建筑核心的基础上加建：12世纪加建了一座罗马式塔楼（同时献堂对象也扩展为圣彼得与圣保罗），大约1585年加建了长方形圣坛，17世纪又加建了圣器室。但在这一系列改建中，斯皮蒂赫涅夫下令建造的主殿始终完好无损地保存了下来——这正是它如今被冠以"全国现存最古老建筑"称号的原因，并自1962年起被列为国家文化古迹。
+
+🥚 彩蛋：每年9月28日，布杰奇都会举行自己的圣瓦茨拉夫庆典，每年还有两次有组织的朝圣活动来到这里——也就是说，十一个世纪之后，当年那位真实的波希米亚王子练习拉丁字母的那座圆形教堂，如今依然在做着它最初被建造出来时该做的事情。`,
+    },
+  },
+  {
+    name: 'Červený Újezd Castle',
+    slug: 'hrad-cerveny-ujezd',
+    localizedNames: { cz: 'Hrad Červený Újezd', zh: '切尔韦尼乌耶兹德城堡' },
+    labels: ['museum', 'historical', 'architecture'],
+    coordinates: { lat: 50.07207404707788, lng: 14.165290306185387 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C4%8Cerven%C3%BD_%C3%9Ajezd_(hrad)',
+    description: {
+      en: `Brave adventurer, welcome to Červený Újezd Castle!
+
+The knight's fortress you're looking at was actually built in 2001–2002 — which makes it younger than most of the people visiting it — but the ground underneath has a genuinely medieval castle story that the theme-park version borrowed its swagger from.
+
+An original fortified manor stood here from roughly the tenth century onward, gradually reshaped over the centuries until 1570, when Gotthard Florian — the senior military commander of the Slaný region and an advisor to Emperor Rudolf II — rebuilt it into a properly prestigious Renaissance castle. He didn't stop there: in 1589 he laid out a noble hunting preserve nearby called Hájek, planted with pines and oaks, which supplied Bohemian nobility with recreational hunting grounds until the early 1620s. Then came the Thirty Years' War, which hit the castle hard — it was heavily damaged, looted, and burned, with looters even making off with valuable official estate records, before the Martinic counts eventually restored the ruins during their period of guardianship over the estate. Centuries later, in 2001, a new owner built the fortified manor complex you can visit today directly on and around the historic site, complete with its own private Museum of Czech Village Life.
+
+🥚 Easter Egg: So the "castle" at Červený Újezd is, structurally speaking, barely old enough to legally drink in most countries — but it's standing on top of roughly a thousand years of genuine fortification history, which makes it either the most honest replica in Central Bohemia or the most elaborate history-themed sequel ever built on a real medieval foundation.`,
+
+      cz: `Statečný dobrodruhu, vítej na Hradě Červený Újezd!
+
+Rytířská pevnost, na kterou se díváš, byla ve skutečnosti postavena v letech 2001–2002 — je tedy mladší než většina lidí, kteří ji navštěvují — ale půda pod ní skrývá opravdový středověký hradní příběh, ze kterého si tahle "skanzenová" verze vypůjčila svou parádu.
+
+Původní opevněné sídlo tu stálo přibližně od desátého století a v průběhu staletí se postupně proměňovalo, až do roku 1570, kdy Gotthard Florian — nejvyšší vojenský velitel slánského kraje a rádce císaře Rudolfa II. — nechal sídlo přestavět na skutečně honosný renesanční zámek. U toho nezůstal: v roce 1589 zde založil šlechtickou oboru zvanou Hájek, osázenou borovicemi a duby, která sloužila české šlechtě k lovu a odpočinku až do počátku dvacátých let sedmnáctého století. Pak přišla třicetiletá válka, která zámek pořádně zasáhla — byl těžce poškozen, vydrancován a vypálen, přičemž lupiči si odnesli i cenné panské listiny, než vyhořelé sídlo nakonec obnovili hrabata Martinicové během svého poručnictví nad panstvím. O staletí později, v roce 2001, tu nový majitel postavil opevněný areál, který dnes můžeš navštívit, přímo na místě a kolem historické lokality, včetně soukromého Muzea českého venkova.
+
+🥚 Velikonoční vajíčko: "Hrad" v Červeném Újezdu je tedy z konstrukčního hlediska sotva dost starý na to, aby si ve většině zemí mohl legálně dát pivo — přitom ale stojí na téměř tisíci letech opravdové historie opevnění, což z něj dělá buď nejpoctivější repliku ve středních Čechách, nebo nejpropracovanější historické pokračování, jaké kdy bylo postaveno na skutečných středověkých základech.`,
+
+      zh: `勇敢的冒险家，欢迎来到切尔韦尼乌耶兹德城堡（Hrad Červený Újezd）！
+
+你眼前这座"骑士要塞"，其实是在2001年至2002年间建成的——比大多数来参观它的游客都要年轻——但它脚下的这片土地，却有着一段货真价实的中世纪城堡历史，而这座"主题乐园版"城堡的派头，正是从那段历史里借来的。
+
+大约从10世纪起，这里就矗立着一座设防宅邸，历经数百年不断改建，直到1570年，戈特哈德·弗洛里安（Gotthard Florian）——斯拉尼地区的最高军事长官，同时也是鲁道夫二世皇帝的顾问——将其改建为一座真正气派的文艺复兴城堡。他并未止步于此：1589年，他还在附近开辟了一座名叫"哈耶克"（Hájek）的贵族狩猎苑，种满了松树与橡树，一直到1620年代初，都在为波希米亚贵族提供狩猎与休闲的场所。随后爆发的三十年战争给这座城堡带来了沉重打击——它遭到严重破坏、洗劫并被焚毁，就连珍贵的庄园官方文书也被劫掠者掠走，直到马蒂尼茨伯爵家族在监护该庄园期间，才将烧毁的宅邸重新修复。数百年后的2001年，新业主直接在这处历史遗址之上及周边，建起了你今天能参观到的这座设防庄园建筑群，其中还包括一座私人的"捷克乡村生活博物馆"。
+
+🥚 彩蛋：所以，从建筑结构上说，"切尔韦尼乌耶兹德城堡"在大多数国家甚至还不够年龄合法喝酒——但它却矗立在将近一千年真实设防历史的地基之上，这要么让它成为中波希米亚地区最诚实的复制品，要么就是史上建在真正中世纪地基之上、最精心打造的"历史主题续集"。`,
+    },
+  },
+  {
+    name: 'Kladno',
+    slug: 'kladno',
+    localizedNames: { cz: 'Kladno', zh: '克拉德诺市' },
+    labels: ['village-and-town', 'historical', 'factory'],
+    coordinates: { lat: 50.12814119998502, lng: 14.113724447997715 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kladno',
+    description: {
+      en: `Brave adventurer, welcome to Kladno!
+
+A sleepy farming town that spent the nineteenth century turning itself into one of Europe's great steel powers, then spent the late twentieth century watching that entire legacy collapse in one of the most notorious privatisation disasters in modern Czech history.
+
+Kladno's transformation began when local coal and iron ore deposits made it an obvious site for heavy industry: ironworks operator Vojtěch Lanna got things moving at mid-century, and then Vienna-based industrialist Karl Wittgenstein officially founded the Poldi steelworks on 18 May 1889, naming it after his wife Leopoldine, who was herself from Prague. Poldi grew into one of the world's leading producers of specialty steel, surviving both World Wars and, by the eve of World War II, running a network of branches and warehouses across thirty-nine countries. After the war it was nationalised and merged into the state combine Spojené ocelárny, and by the time communism fell in 1989 it still employed more than twenty thousand people. Then came privatisation in 1993 — widely remembered today as one of the worst-handled sell-offs in the entire country's post-1989 history — and Poldi's collapse in 1996–97 devastated the regional economy it had built over more than a century.
+
+🥚 Easter Egg: A company literally named after one man's wife grew into a steel empire spanning 39 countries, then vanished within a decade of being privatised — a corporate arc dramatic enough that Kladno's entire identity as "the steel town" is now, technically, a memorial to a business plan that no longer exists.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kladně!
+
+Ospalé zemědělské městečko, které si v devatenáctém století vybudovalo pověst jedné z velkých evropských ocelářských velmocí, a pak muselo v pozdním dvacátém století přihlížet, jak se celé toto dědictví zhroutilo v jedné z nejnechvalněji proslulých privatizačních katastrof moderní české historie.
+
+Kladenská proměna začala díky místním nalezištím uhlí a železné rudy, díky nimž bylo město přirozeným centrem těžkého průmyslu: hutník Vojtěch Lanna dal věcem do pohybu v polovině století a poté vídeňský podnikatel Karl Wittgenstein oficiálně založil ocelárnu Poldi 18. května 1889, pojmenovanou po jeho manželce Leopoldině, která sama pocházela z Prahy. Poldi se rozrostla v jednoho z předních světových výrobců ušlechtilé oceli, přežila obě světové války a krátce před druhou světovou válkou provozovala síť poboček a skladů v devětatřiceti zemích. Po válce byla znárodněna a sloučena do státního podniku Spojené ocelárny, a když v roce 1989 padl komunismus, zaměstnávala stále přes dvacet tisíc lidí. Pak přišla privatizace v roce 1993 — dodnes obecně vzpomínaná jako jedna z nejhůře zvládnutých privatizací v celých polistopadových dějinách země — a krach Poldi v letech 1996–97 zdevastoval regionální ekonomiku, kterou si sama vybudovala za více než století.
+
+🥚 Velikonoční vajíčko: Firma pojmenovaná doslova po manželce jednoho muže se rozrostla v ocelářské impérium působící ve 39 zemích, aby pak během jediné dekády po privatizaci zmizela — firemní příběh natolik dramatický, že celá kladenská identita "ocelového města" je dnes technicky vzato památníkem podnikatelského plánu, který už neexistuje.`,
+
+      zh: `勇敢的冒险家，欢迎来到克拉德诺（Kladno）！
+
+一座原本昏昏欲睡的农业小镇，在19世纪把自己打造成了欧洲数一数二的钢铁强镇，却又在20世纪末眼睁睁看着这份家业，在现代捷克历史上最臭名昭著的私有化灾难之一中彻底崩塌。
+
+克拉德诺的转型，始于当地丰富的煤炭与铁矿资源，这让它顺理成章地成为重工业的理想据点：炼铁厂主沃伊捷赫·兰纳（Vojtěch Lanna）在19世纪中叶率先启动了这一进程，随后维也纳实业家卡尔·维特根斯坦（Karl Wittgenstein）于1889年5月18日正式创立了波尔迪（Poldi）钢铁厂，并以自己那位出身布拉格的妻子利奥波蒂娜（Leopoldine）之名为其命名。波尔迪逐渐成长为全球领先的特种钢生产商之一，熬过了两次世界大战，到二战爆发前夕，其分支机构与仓库网络已遍布39个国家。战后，工厂被国有化，并入国营联合钢铁厂（Spojené ocelárny），到1989年共产主义政权倒台时，这里仍雇佣着两万多名员工。然而1993年的私有化改革接踵而至——如今普遍被认为是捷克1989年后处理得最糟糕的私有化案例之一——1996至97年间，波尔迪的崩溃，重创了这家企业花费一个多世纪一手打造起来的整个区域经济。
+
+🥚 彩蛋：一家名字直接来自某位丈夫对妻子命名的公司，一路成长为业务遍及39个国家的钢铁帝国，却在私有化之后不到十年间彻底消失——这段企业兴衰史足够戏剧化，以至于克拉德诺"钢铁之城"这个身份标签，如今严格说来，其实是在纪念一份早已不复存在的商业蓝图。`,
+    },
+  },
+  {
+    name: 'Old Town of Unhošť',
+    slug: 'stare-mesto-unhost',
+    localizedNames: { cz: 'Staré město Unhošť', zh: '翁霍什特老城' },
+    labels: ['village-and-town', 'historical', 'architecture'],
+    coordinates: { lat: 50.08486040297185, lng: 14.131907738173409 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Unho%C5%A1%C5%A5',
+    description: {
+      en: `Brave adventurer, welcome to the Old Town of Unhošť!
+
+A small town whose original residents were, technically, refugees from a Prague Castle construction project — evicted Praguers who got resettled onto land here in the thirteenth century, which may be the most Kafkaesque real-estate transaction in Czech history, and it predates Kafka by roughly six hundred years.
+
+The earliest written sources on Unhošť date to the second half of the thirteenth century, when King Přemysl Otakar II granted land in the village to residents of Prague's Old Town whose houses had been cleared to make way for the fortified New Town spreading out below Prague Castle. The settlement was elevated to town status in 1329, and a school was founded here in 1379 — one of the oldest documented schools anywhere in Bohemia. Unhošť only received its full royal town charter centuries later, between 1785 and 1790, but by then its historic centre had already taken the unusual shape it still has today: three connected town squares, the middle one — named after First Republic president T.G. Masaryk — laid out as a near-perfect equilateral triangle with a small circular park at its centre. The whole ensemble is now protected as an urban monument zone, anchored by the town's oldest surviving landmark, the Gothic Church of Saints Peter and Paul, first documented alongside the town itself in 1329.
+
+🥚 Easter Egg: A triangular town square is genuinely unusual in Central Europe, where rectangles and irregular medieval blobs dominate — meaning Unhošť's centrepiece geometry is, quite literally, one of a kind, built by people whose ancestors got displaced by a royal building project and apparently decided their new hometown should at least look deliberate.`,
+
+      cz: `Statečný dobrodruhu, vítej ve starém městě Unhošť!
+
+Malé město, jehož první obyvatelé byli technicky vzato uprchlíci ze stavebního projektu na Pražském hradě — vystěhovaní Pražané, kteří byli ve třináctém století přesídleni na pozemky právě sem, což je možná nejkafkovštější realitní transakce v českých dějinách, a předchází Kafkovi o zhruba šest set let.
+
+Nejstarší písemné prameny o Unhošti pocházejí z druhé poloviny třináctého století, kdy král Přemysl Otakar II. přidělil pozemky ve vsi obyvatelům pražského Starého Města, jejichž domy musely ustoupit opevněnému Novému Městu vznikajícímu pod Pražským hradem. Osada byla povýšena na město v roce 1329 a v roce 1379 zde byla založena škola — jedna z nejstarších doložených škol v celých Čechách. Plná královská městská výsada přišla do Unhoště až o staletí později, mezi lety 1785 a 1790, ale historické jádro města mělo do té doby už dávno svůj neobvyklý tvar, který si drží dodnes: tři propojená náměstí, přičemž prostřední z nich — pojmenované po prvorepublikovém prezidentovi T. G. Masarykovi — má tvar téměř dokonalého rovnostranného trojúhelníku s malým kruhovým parkem uprostřed. Celý soubor je dnes chráněn jako městská památková zóna, jejíž nejstarší dochovanou dominantou je gotický kostel svatých Petra a Pavla, poprvé doložený ve stejném roce jako samotné město, 1329.
+
+🥚 Velikonoční vajíčko: Trojúhelníkové náměstí je ve střední Evropě, kde vládnou obdélníky a nepravidelné středověké tvary, skutečně neobvyklý jev — geometrie unhošťského centra je tak doslova jedinečná, vybudovaná lidmi, jejichž předky kdysi vysídlil královský stavební projekt a kteří si zjevně řekli, že jejich nové domovské město by mělo aspoň vypadat promyšleně.`,
+
+      zh: `勇敢的冒险家，欢迎来到翁霍什特老城（Staré město Unhošť）！
+
+这座小镇最早的居民，严格来说，其实是一场布拉格城堡建设工程的"难民"——13世纪时，一批被迁走的布拉格人被重新安置到了这里，这大概是捷克历史上最"卡夫卡式"的一场地产交易，而它发生的时间，比卡夫卡本人早了大约六百年。
+
+关于翁霍什特最早的文字记载出现在13世纪下半叶，当时普热米斯尔·奥托卡二世国王将这座村庄的土地授予了一批布拉格老城居民，他们的房屋当年因给布拉格城堡下方正在扩建的设防新城让路而被拆除。这处聚落于1329年升格为城镇，1379年在此建立了一所学校——是波希米亚有记载以来最古老的学校之一。翁霍什特直到几个世纪后的1785年至1790年间，才正式获得完整的皇家城镇特许状，但在那之前，它的历史核心早已形成了如今依然保留的独特形状：三座相互连接的广场，其中中间那座——以第一共和国总统托马什·马萨里克（T. G. Masaryk）命名——被规划成一个近乎完美的等边三角形，中央还有一座圆形小公园。整个建筑群如今被列为城市历史保护区，区内现存最古老的地标，是哥特式的圣彼得与圣保罗教堂，与这座城镇本身一样，最早的文字记载同样出现在1329年。
+
+🥚 彩蛋：三角形广场在盛行矩形与不规则中世纪街区布局的中欧地区，实属罕见——这意味着翁霍什特市中心的几何造型，堪称独一无二，而建造它的人，祖辈曾因一项皇家建筑工程而被迫迁离故土，如今在新家园，显然铁了心要把广场修得看起来"有备而来"。`,
+    },
+  },
 ];
 
 async function run() {
