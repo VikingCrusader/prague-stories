@@ -8,10 +8,13 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 # Backend (run from server/)
 npm run dev          # nodemon on port 5000
 npm run start        # production start
+npm test              # Jest unit + controller integration tests (mongodb-memory-server)
 
 # Frontend (run from client/)
 npm run dev          # Vite dev server on port 5173
 npm run build        # production build
+npm test              # Jest unit/component tests
+npm run test:e2e      # Playwright e2e (client/e2e/), mocks the backend via page.route
 
 # Data scripts (run from server/)
 node src/data/seedLocations.js    # upsert seeded location cards (idempotent)
@@ -19,7 +22,14 @@ npm run export:locations          # export DB → static seed files
 npm run sync:covers               # sync Cloudinary cover images to local
 ```
 
-No test suite exists. There is no linter configured.
+There is no linter configured.
+
+### Testing
+
+- Server tests live in `server/__tests__/`. `rarityMap.test.js` and `gamification.test.js` are pure-function unit tests. `authController.test.js`, `locationController.test.js`, `checkinController.test.js`, and `userController.test.js` are integration tests that spin up an in-memory MongoDB (`mongodb-memory-server`) and drive the real Express app via `supertest` — they exercise actual Mongoose behavior (unique indexes, populate, lean) rather than mocking the models.
+- `server/src/app.js` exports the Express app with no `listen()` call; `server/src/index.js` is the thin entry point that connects to Mongo and starts listening. Tests import `app.js` directly so they never need a real `MONGO_URI` or open a port.
+- External calls (Cloudinary upload, Gemini description generation) are mocked in tests via `jest.unstable_mockModule`, not exercised for real.
+- Client tests: `client/src/__tests__/` (Jest + RTL) for units/components, `client/e2e/` (Playwright) for full-page flows with the backend mocked via `page.route`.
 
 ## Architecture
 
