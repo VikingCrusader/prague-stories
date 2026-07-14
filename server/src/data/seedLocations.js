@@ -1851,8 +1851,20 @@ Architect Josef Gočár designed the building in 1911 at just thirty-one years o
 The ground floor originally housed the Grand Café Orient — the only Cubist café ever built, with Cubist chairs, Cubist chandeliers, and a Cubist view over Celetná street. It lasted about a decade before closing in the 1920s, apparently because customers found the aggressively geometric furniture more interesting to look at than to sit in. The upper floors today house the Museum of Czech Cubism, the only style of architecture the Czech lands can genuinely claim to have made distinctly their own.
 
 🥚 Easter Egg: Grand Café Orient sat empty and forgotten for over eighty years before a meticulous restoration reopened it in the 2000s, angular chandeliers and all. You can still order a coffee there today, which makes it one of the very few places on earth where you can experience an entire early-twentieth-century art movement through the shape of your own chair.`,
-      cz: '',
-      zh: '',
+      cz: `Statečný dobrodruhu, vítej v Domě U Černé Matky Boží — důkazu, že kubismus, umělecký směr proslulý hlavně matoucími obrazy, si na chvíli krásně vyskočil z plátna a postavil celý funkční kancelářský dům, včetně vlastní kavárny.
+
+Architekt Josef Gočár budovu navrhl v roce 1911, ve svých pouhých jednatřiceti letech, pro velkoobchodníka Františka Josefa Herbsta, a o rok později ji dokončil jako první skutečné dílo kubistické architektury v Praze. Železobetonová konstrukce, vypůjčená od chicagské inženýrské školy, umožnila Gočárovi zcela vynechat nosné zdi a pokrýt fasádu ostrou, rozlomenou geometrií, kterou kubističtí malíři do té doby bezpečně drželi na plátně. Dům dostal jméno po drobné barokní sošce černé Madony, zachráněné z předchozí stavby na stejném rohu.
+
+V přízemí původně sídlila Grand Café Orient — jediná kubistická kavárna, jaká kdy vznikla, s kubistickými židlemi, kubistickými lustry a kubistickým výhledem na Celetnou ulici. Vydržela asi deset let, než ve 20. letech zavřela — zřejmě proto, že hosté shledali agresivně geometrický nábytek zajímavější na pohled než k sezení. Horní patra dnes hostí Muzeum českého kubismu, jediný architektonický styl, který si české země mohou skutečně nárokovat jako svůj vlastní.
+
+🥚 Velikonoční vajíčko: Grand Café Orient stála prázdná a zapomenutá přes osmdesát let, než ji na počátku 21. století znovu otevřela pečlivá rekonstrukce, se všemi hranatými lustry. Kávu si tam můžete dát dodnes, což z ní dělá jedno z mála míst na světě, kde lze celé umělecké hnutí z počátku dvacátého století zažít doslova na vlastní kůži — přes tvar židle, na které sedíte.`,
+      zh: `勇敢的冒险家，欢迎来到黑圣母之屋——这是立体主义证明自己不只是"让人看不懂的画"的绝佳例子：它曾短暂却辉煌地跳出画布，盖出了一整栋能正常运作的办公楼，甚至还自带一间咖啡馆。
+
+建筑师约瑟夫·戈恰尔（Josef Gočár）在1911年设计了这栋建筑，当时他年仅31岁，业主是批发商弗朗蒂谢克·约瑟夫·赫布斯特（František Josef Herbst），大楼于次年竣工，成为布拉格第一座真正的立体主义建筑作品。借鉴自芝加哥学派的钢筋混凝土骨架结构，让戈恰尔得以完全省去承重墙，转而在外立面上覆盖上此前只被立体派画家安全地留在画布上的、棱角分明、支离破碎的几何造型。这栋建筑的名字，来自一尊从同一街角旧建筑上抢救下来的小型巴洛克黑圣母像。
+
+一楼原本是东方大咖啡馆（Grand Café Orient）——史上唯一一间真正意义上的立体主义咖啡馆，配有立体主义风格的椅子、立体主义风格的吊灯，还有一扇望向采莱特纳街（Celetná）的立体主义风格窗景。它营业了大约十年，于1920年代关门——据说是因为顾客觉得那些棱角分明的家具"更适合看，不适合坐"。如今，楼上几层是捷克立体主义博物馆，这也是捷克土地上唯一一种可以真正宣称"完全属于自己"的建筑风格。
+
+🥚 彩蛋：东方大咖啡馆曾闲置荒废超过八十年，直到21世纪初才经过一次极为细致的修复重新开业，连那些棱角分明的吊灯都原样恢复。今天你依然可以在那里点一杯咖啡——这也让它成为地球上极少数几个地方之一，你可以透过自己所坐椅子的形状，亲身体验一整场二十世纪初的艺术运动。`,
     },
   },
   {
@@ -11194,6 +11206,3632 @@ Nejstarší písemné prameny o Unhošti pocházejí z druhé poloviny třináct
 关于翁霍什特最早的文字记载出现在13世纪下半叶，当时普热米斯尔·奥托卡二世国王将这座村庄的土地授予了一批布拉格老城居民，他们的房屋当年因给布拉格城堡下方正在扩建的设防新城让路而被拆除。这处聚落于1329年升格为城镇，1379年在此建立了一所学校——是波希米亚有记载以来最古老的学校之一。翁霍什特直到几个世纪后的1785年至1790年间，才正式获得完整的皇家城镇特许状，但在那之前，它的历史核心早已形成了如今依然保留的独特形状：三座相互连接的广场，其中中间那座——以第一共和国总统托马什·马萨里克（T. G. Masaryk）命名——被规划成一个近乎完美的等边三角形，中央还有一座圆形小公园。整个建筑群如今被列为城市历史保护区，区内现存最古老的地标，是哥特式的圣彼得与圣保罗教堂，与这座城镇本身一样，最早的文字记载同样出现在1329年。
 
 🥚 彩蛋：三角形广场在盛行矩形与不规则中世纪街区布局的中欧地区，实属罕见——这意味着翁霍什特市中心的几何造型，堪称独一无二，而建造它的人，祖辈曾因一项皇家建筑工程而被迫迁离故土，如今在新家园，显然铁了心要把广场修得看起来"有备而来"。`,
+    },
+  },
+  {
+    name: 'Melantrich',
+    slug: 'melantrich',
+    localizedNames: { cz: 'Palác Hvězda (Melantrich)', zh: '梅兰特里赫大楼（星辰宫）' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.081803526850784, lng: 14.426225649531194 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_Hv%C4%9Bzda_(Praha)',
+    description: {
+      en: `Brave adventurer, welcome to Melantrich! Officially it's Palác Hvězda — "Star Palace" — but Prague has called it Melantrich for over a century, after the printing house that once ran the place. One balcony here did more to end a regime than most armies manage in a decade.
+
+Built in 1911–1913 by architect Bedřich Bendelmayer in late Art Nouveau style, the building housed the Melantrich publishing house — named after Renaissance printer Jiří Melantrich of Aventinum — and the newspaper Svobodné slovo for over four decades. Then, on 21 November 1989, Václav Havel stepped onto its balcony and addressed roughly 200,000 people during the Velvet Revolution. Days later, Alexander Dubček spoke from the same balcony; Havel reportedly had Dubček's remarks running as the front-page editorial in Svobodné slovo by the next morning.
+
+🥚 Easter Egg: The balcony that helped narrate the fall of Czechoslovak communism to the nation now overlooks a Marks & Spencer with a gym on the upper floors — arguably the most understated retrofit of a revolutionary landmark anywhere in Europe.`,
+
+      cz: `Statečný dobrodruhu, vítej v paláci Melantrich! Oficiálně se jmenuje Palác Hvězda, ale Praha mu už přes sto let říká Melantrich — podle nakladatelství, které tu sídlilo. Jeden balkon tu udělal pro pád režimu víc, než dokáže většina armád za celou dekádu.
+
+Budovu postavil v letech 1911–1913 architekt Bedřich Bendelmayer v pozdně secesním stylu. Přes čtyřicet let zde sídlilo nakladatelství Melantrich — pojmenované po renesančním tiskaři Jiřím Melantrichovi z Aventina — a list Svobodné slovo. Pak, 21. listopadu 1989, vystoupil na balkon Václav Havel a promluvil k asi 200 000 lidem během sametové revoluce. O pár dní později z téhož balkonu promluvil Alexander Dubček; Havel prý zajistil, že Dubčekova slova vyšla hned druhý den jako titulní úvodník Svobodného slova.
+
+🥚 Velikonoční vajíčko: Balkon, který národu odvyprávěl pád komunismu, dnes shlíží na obchod Marks & Spencer s posilovnou v horních patrech — pravděpodobně nejnenápadnější přestavba revoluční památky v celé Evropě.`,
+
+      zh: `勇敢的冒险家，欢迎来到梅兰特里赫大楼！它的正式名称是"星辰宫"（Palác Hvězda），但布拉格人叫它"梅兰特里赫"已经叫了一百多年——这个名字来自曾在此经营的出版社。这里的一个阳台，为终结一个政权所做的贡献，比大多数军队十年做的还多。
+
+这栋建筑由建筑师贝德日赫·本德尔迈尔（Bedřich Bendelmayer）于1911至1913年间建造，风格为晚期新艺术运动。梅兰特里赫出版社（得名于文艺复兴时期印刷商吉日·梅兰特里赫）与《自由言论报》（Svobodné slovo）曾在此驻扎超过四十年。1989年11月21日，瓦茨拉夫·哈维尔（Václav Havel）在这座阳台上向约二十万人发表演说，正值天鹅绒革命期间。几天后，亚历山大·杜布切克（Alexander Dubček）也在同一阳台演讲；据说哈维尔当晚就把杜布切克的讲话安排成了《自由言论报》次日的头版社论。
+
+🥚 彩蛋：这座曾向全国讲述共产主义如何终结的阳台，如今楼下开着一家玛莎百货（Marks & Spencer），楼上还有一间健身房——大概是全欧洲最"低调"的革命地标改建案例。`,
+    },
+  },
+  {
+    name: 'Wiehl House',
+    slug: 'wiehluv-dum',
+    localizedNames: { cz: 'Wiehlův dům', zh: '维赫尔之家' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.082050913116646, lng: 14.425941813857891 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Wiehl%C5%AFv_d%C5%AFm_(Praha)',
+    description: {
+      en: `Brave adventurer, welcome to Wiehl House! Architect Antonín Wiehl built this as his own home in the 1890s and covered the facade in murals so elaborate that most passers-by never look past the ground-floor bookshop to notice them.
+
+Built in 1894–1896 in Neo-Renaissance style on a site that had held a brewery since 1396, the building's sgraffito facade was painted by Mikoláš Aleš with ornamental framing by Josef Fanta — two of the era's biggest names working on one house. The murals trace the "Ages of Man" and end with Morena, the Slavic goddess of death, under the motto "Against death there is no cure." Wiehl lived and worked here, then bequeathed the building to the Academy of Sciences in his will.
+
+🥚 Easter Egg: Damaged in the final days of the Second World War and fully restored only in 2016, the house's ground floor is now, fittingly, home to the Academia publishing house's bookstore — a building given away by its architect for the public good, still doing exactly that.`,
+
+      cz: `Statečný dobrodruhu, vítej ve Wiehlově domě! Architekt Antonín Wiehl si ho v 90. letech 19. století postavil jako vlastní dům a fasádu pokryl tak bohatou výzdobou, že kolemjdoucí dnes většinou nevzhlédnou od knihkupectví v přízemí, aby si jí vůbec všimli.
+
+Novorenesanční dům z let 1894–1896 stojí na místě, kde od roku 1396 fungoval pivovar. Sgrafitovou výzdobu fasády namaloval Mikoláš Aleš, ornamentální rám navrhl Josef Fanta — dvě největší jména doby na jednom domě. Malby zobrazují "věky člověka" a končí Morenou, slovanskou bohyní smrti, pod heslem "Proti smrti není léku". Wiehl v domě bydlel i pracoval a v závěti ho odkázal Akademii věd.
+
+🥚 Velikonoční vajíčko: Dům poškozený v posledních dnech druhé světové války byl kompletně opraven až v roce 2016, a jeho přízemí dnes příhodně obývá knihkupectví nakladatelství Academia — budova, kterou architekt odkázal veřejnosti, tak dělá přesně to samé dodnes.`,
+
+      zh: `勇敢的冒险家，欢迎来到维赫尔之家！建筑师安东宁·维赫尔（Antonín Wiehl）在19世纪90年代把这里建成了自己的住所，外墙上画满了极其精美的壁画——精美到大多数路人只顾着看一楼的书店，压根没抬头注意过它们。
+
+这栋新文艺复兴风格的建筑建于1894至1896年间，所在地自1396年起就是一座啤酒厂。外墙的刮涂壁画由米科拉什·阿莱什（Mikoláš Aleš）绘制，装饰边框则出自约瑟夫·凡塔（Josef Fanta）之手——两位当时最重要的艺术家共同装点了这一栋房子。壁画描绘了"人生的各个阶段"，最后以斯拉夫死亡女神莫雷娜（Morena）收尾，配文是"死亡无药可医"。维赫尔本人曾在此居住并工作，并在遗嘱中将这栋建筑捐赠给了科学院。
+
+🥚 彩蛋：这栋建筑在二战最后几天曾遭损毁，直到2016年才完成全面修复；如今一楼恰好开着Academia出版社的书店——一栋建筑师本人捐给公众的房子，至今仍在做着同一件事。`,
+    },
+  },
+  {
+    name: 'Euro Palace',
+    slug: 'palac-euro',
+    localizedNames: { cz: 'Palác Euro', zh: '欧罗宫' },
+    labels: ['modern', 'architecture'],
+    coordinates: { lat: 50.083851536514686, lng: 14.423523076937208 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_Euro',
+    description: {
+      en: `Brave adventurer, welcome to Euro Palace! For twenty years this corner of Wenceslas Square sat empty after a 1970s demolition, until an award-winning glass-and-gold building filled the gap in 2002 — proof that Prague can, occasionally, resist finishing a project for decades.
+
+Designed by DaM architekti and completed in 2002, the building's curved glass facade and gilded corner volume replaced a three-storey corner house torn down to make way for Můstek metro station, after which the lot stood vacant for roughly two decades. It won the Czech Architects' Association's Grand Prix for new construction, an honourable mention for the Piranesi Prize, and was a 2003 finalist for the EU Mies van der Rohe Award — genuinely serious recognition for a shopping arcade.
+
+🥚 Easter Egg: A public passage still cuts through the ground floor connecting Wenceslas Square to Jungmannovo náměstí, following almost exactly the same route pedestrians used to cut through the empty lot for two decades before anyone got around to building on it.`,
+
+      cz: `Statečný dobrodruhu, vítej v Paláci Euro! Tento roh Václavského náměstí zel po demolici v 70. letech dvacet let prázdnotou, než ho v roce 2002 zaplnila oceněná stavba ze skla a zlata — důkaz, že Praha si na dokončení projektu občas dokáže dát i pár desetiletí.
+
+Budovu navrhlo studio DaM architekti a dokončilo ji v roce 2002. Zakřivená skleněná fasáda a zlacený rohový objem nahradily třípatrový rohový dům, zbouraný kvůli stavbě stanice metra Můstek, po níž parcela zhruba dvacet let ležela ladem. Stavba získala Grand Prix Obce architektů za novostavbu, čestné uznání Ceny Piranesi a v roce 2003 se dostala mezi finalisty Ceny Miese van der Rohe Evropské unie — skutečně vážené ocenění pro obyčejné nákupní pasáže.
+
+🥚 Velikonoční vajíčko: Přízemím stále prochází veřejná pasáž spojující Václavské náměstí s Jungmannovým náměstím — vede téměř přesně po stejné trase, kudy si chodci zkracovali cestu přes prázdnou parcelu celá dvě desetiletí, než se ji někdo konečně rozhodl zastavět.`,
+
+      zh: `勇敢的冒险家，欢迎来到欧罗宫！瓦茨拉夫广场这个角落在20世纪70年代拆除旧楼后，足足空置了二十年，直到2002年这栋获奖的玻璃金色建筑填补了空缺——足以证明布拉格有时候完成一个项目真能拖上几十年。
+
+这栋建筑由DaM建筑事务所设计，2002年落成，弧形玻璃幕墙与镀金转角体量取代了此前为修建穆斯特克地铁站而拆除的一栋三层转角楼房，此后地块闲置了约二十年。它获得了捷克建筑师协会新建筑大奖，获得皮拉内西奖荣誉提名，并在2003年入围欧盟密斯·凡德罗奖决赛——对一座购物拱廊来说，这份认可分量不轻。
+
+🥚 彩蛋：一条公共通道至今仍穿过一楼，连接瓦茨拉夫广场与扬曼广场（Jungmannovo náměstí）——这条路线几乎与当年行人在空地上抄近路走了二十年的那条小道完全重合。`,
+    },
+  },
+  {
+    name: 'Generali Palace',
+    slug: 'palac-generali',
+    localizedNames: { cz: 'Palác Generali', zh: '忠利宫' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.08290407692014, lng: 14.426238700886346 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_Generali',
+    description: {
+      en: `Brave adventurer, welcome to Generali Palace! Franz Kafka spent nine unglamorous months here as an insurance clerk in 1907–08, which means the man who wrote about faceless bureaucracy was, for a while, actually part of it.
+
+Built in 1895–1898 for the insurer Assicurazioni Generali, the Parisian-style Art Nouveau facade was designed by Friedrich Ohmann, with Osvald Polívka contributing the fifth floor and interiors, and sculptural work by Stanislav Sucharda, Čeněk Vosmík, and Bohuslav Schnirch. It replaced an earlier Renaissance palace where Generali's Prague branch had operated since 1832 — whose sculptural window decorations were saved and moved to the National Museum's Lapidarium. A cinema ran in the basement until the early 1990s, and a beloved "Paris–Praha" delicatessen traded here from 1969 to 2010.
+
+🥚 Easter Egg: Kafka's day job here involved processing workplace-accident insurance claims for industrial labourers — a grim bureaucratic filing system that clearly left an impression on a writer who would go on to make institutional dread his life's work.`,
+
+      cz: `Statečný dobrodruhu, vítej v Paláci Generali! Franz Kafka tu v letech 1907–08 odpracoval devět nikterak slavných měsíců jako pojišťovací úředník — takže muž, který psal o bezejmenné byrokracii, byl chvíli přímo její součástí.
+
+Budova z let 1895–1898 vznikla pro pojišťovnu Assicurazioni Generali podle návrhu Friedricha Ohmanna v pařížsky laděné secesi; páté patro a interiéry navrhl Osvald Polívka, sochařskou výzdobu vytvořili Stanislav Sucharda, Čeněk Vosmík a Bohuslav Schnirch. Nahradila starší renesanční palác, kde generalská pražská pobočka sídlila už od roku 1832 — jeho okenní sochařská výzdoba byla zachráněna a přesunuta do lapidária Národního muzea. V suterénu fungovalo až do počátku 90. let kino a v letech 1969–2010 tu obchodovala oblíbená lahůdkářství "Paris–Praha".
+
+🥚 Velikonoční vajíčko: Kafkova denní práce tu spočívala ve vyřizování pojistných nároků za pracovní úrazy dělníků — ponurý byrokratický agendový systém, který zjevně zanechal stopu na spisovateli, jenž si z institucionální úzkosti udělal celoživotní téma.`,
+
+      zh: `勇敢的冒险家，欢迎来到忠利宫！1907至1908年间，弗兰茨·卡夫卡（Franz Kafka）曾在这里当了九个月毫不起眼的保险职员——也就是说，这位后来专写"面目模糊的官僚体系"的作家，曾亲身置身其中。
+
+这栋建筑建于1895至1898年间，由建筑师弗里德里希·奥曼（Friedrich Ohmann）为忠利保险公司（Assicurazioni Generali）设计，采用巴黎风格的新艺术运动风格；五楼与室内设计出自奥斯瓦尔德·波利夫卡（Osvald Polívka）之手，雕塑装饰则由斯坦尼斯拉夫·苏哈尔达（Stanislav Sucharda）、切涅克·沃斯米克（Čeněk Vosmík）与博胡斯拉夫·施尼尔希（Bohuslav Schnirch）完成。它取代了此前一座文艺复兴风格的宫殿——忠利保险自1832年起就在那里设有布拉格分部，其窗饰雕塑后来被保留下来，移至国家博物馆石雕陈列馆。地下室的电影院一直营业到90年代初，1969至2010年间，这里还开着一家深受欢迎的"巴黎-布拉格"熟食店。
+
+🥚 彩蛋：卡夫卡在这里的日常工作，是处理产业工人的工伤保险理赔——如此阴郁的官僚档案系统，显然给这位后来将"体制性恐惧"当作毕生主题的作家，留下了深刻印象。`,
+    },
+  },
+  {
+    name: 'Adam Pharmacy',
+    slug: 'adamova-lekarna',
+    localizedNames: { cz: 'Adamova lékárna', zh: '亚当药房' },
+    labels: ['historical', 'architecture', 'hidden-gem'],
+    coordinates: { lat: 50.08353136447465, lng: 14.424047896334093 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Adamova_l%C3%A9k%C3%A1rna',
+    description: {
+      en: `Brave adventurer, welcome to Adam Pharmacy! Most Art Nouveau buildings put a goddess above the door for good luck. This one has a pair of figures instead — a nod, presumably, to a pharmacy named after the very first man.
+
+Built in 1911–1913 with a facade by Emil Králíček over Gothic cellars from an earlier structure, the bay window is flanked by atlantes carved by sculptor Antonín Waigant, and the building carries a Sirin bird — a mythical woman-headed bird from Slavic legend — by sculptor Bohumil Kafka (no relation to the more famous Franz). Králíček also designed a small Cubist courtyard lamp that still stands today.
+
+🥚 Easter Egg: The pharmacy still operates on the ground floor with much of its original built-in shelving intact, making it one of the very few working Art Nouveau pharmacy interiors left anywhere in Prague — everything else on this list is a museum piece; this one still fills prescriptions.`,
+
+      cz: `Statečný dobrodruhu, vítej v Adamově lékárně! Většina secesních domů má nad vchodem pro štěstí bohyni. Tady jsou místo ní dvě postavy — patrně pocta lékárně pojmenované po úplně prvním muži.
+
+Dům z let 1911–1913 s fasádou od Emila Králíčka stojí na gotických sklepech starší stavby; arkýř lemují atlanti od sochaře Antonína Waiganta a budovu zdobí i pták Sirin — bájný pták se ženskou hlavou ze slovanské mytologie — od sochaře Bohumila Kafky (žádný příbuzný toho slavnějšího Franze). Králíček navrhl i drobnou kubistickou lampu na dvoře, která tam stojí dodnes.
+
+🥚 Velikonoční vajíčko: Lékárna v přízemí funguje dodnes a zachovala si většinu původního vestavěného nábytku — je tak jednou z mála skutečně provozovaných secesních lékáren v celé Praze. Zatímco všechno ostatní na tomto seznamu je muzejní kus, tahle pořád vydává recepty.`,
+
+      zh: `勇敢的冒险家，欢迎来到亚当药房！大多数新艺术风格建筑会在门上方雕一位女神保佑生意兴隆。这一栋却是一对人物雕像——大概是在向"药房以第一个男人命名"这件事致敬。
+
+这栋建筑建于1911至1913年间，外墙由埃米尔·克拉利切克（Emil Králíček）设计，建在早期建筑遗留下来的哥特式地窖之上；凸肚窗两侧是雕塑家安东宁·瓦伊甘特（Antonín Waigant）所刻的擎天力士像，建筑上还有一只出自雕塑家博胡米尔·卡夫卡（Bohumil Kafka，与更著名的弗兰茨·卡夫卡毫无关系）之手的"西琳鸟"（Sirin，斯拉夫神话中人首鸟身的神鸟）。克拉利切克还为庭院设计了一盏小巧的立体主义风格路灯，至今仍立在原处。
+
+🥚 彩蛋：这家药房至今仍在一楼营业，大部分原始的嵌入式陈列架都保存完好，是布拉格为数不多仍在正常营业的新艺术风格药房内饰之一——名单上其他地方大多已成了博物馆展品，这里却还在照常配药。`,
+    },
+  },
+  {
+    name: 'Department Store of the Czech Union of Production Cooperatives',
+    slug: 'obchodni-dum-ceskeho-svazu-vyrobnich-druzstev',
+    localizedNames: { cz: 'Obchodní dům Českého svazu výrobních družstev (Družba)', zh: '捷克生产合作社联盟百货公司（友谊商店）' },
+    labels: ['communism', 'architecture'],
+    coordinates: { lat: 50.08257, lng: 14.42685 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Obchodn%C3%AD_d%C5%AFm_%C4%8Cesk%C3%A9ho_svazu_v%C3%BDrobn%C3%ADch_dru%C5%BEstev',
+    description: {
+      en: `Brave adventurer, welcome to the Department Store of the Czech Union of Production Cooperatives! Nobody calls it that. Everyone just says "Družba" — Friendship — a name that has survived several owners, several facelifts, and one entire economic system.
+
+Built 1971–1976 to a design by Vratislav Růžička, Milan Vašek, and Vlastibor Klimeš, its steel-framed, restrained curtain-wall facade was deliberately scaled down to fit the historic square, sparing it the harsh criticism aimed at bolder Brutalist buildings elsewhere in Prague. Each floor was originally leased to a different craft cooperative selling glass, ceramics, and specialty goods, and the rooftop restaurant Rostov later became the Duplex nightclub. Since 1989 the retail tenant has changed repeatedly — Krone, Debenhams, and others — while the building plugs directly into Můstek metro station below.
+
+🥚 Easter Egg: A building literally named "Friendship" has changed corporate hands more often than almost anything else on the square — which either undercuts the name badly or proves that friendship, too, needs the occasional renegotiation.`,
+
+      cz: `Statečný dobrodruhu, vítej v Obchodním domě Českého svazu výrobních družstev! Tak mu nikdo neříká. Všichni říkají "Družba" — jméno, které přežilo několik majitelů, několik faceliftů a jeden celý ekonomický systém.
+
+Budova z let 1971–1976 podle návrhu Vratislava Růžičky, Milana Vaška a Vlastibora Klimeše má ocelovou konstrukci a zdrženlivou lehkou fasádu, záměrně zmenšenou tak, aby zapadla do historického náměstí — ušetřilo jí to ostrou kritiku, jaké se dočkaly odvážnější brutalistní stavby jinde v Praze. Každé patro bylo původně pronajato jinému výrobnímu družstvu prodávajícímu sklo, keramiku a speciální zboží, a střešní restaurace Rostov se později proměnila v noční klub Duplex. Od roku 1989 se nájemci v přízemí opakovaně střídali — Krone, Debenhams a další — zatímco budova se dole přímo napojuje na stanici metra Můstek.
+
+🥚 Velikonoční vajíčko: Budova doslova pojmenovaná "Přátelství" změnila majitele častěji než skoro cokoli jiného na náměstí — což buď dost podkopává její jméno, nebo dokazuje, že i přátelství si občas žádá renegociaci.`,
+
+      zh: `勇敢的冒险家，欢迎来到捷克生产合作社联盟百货公司！没有人真的这么称呼它，所有人都叫它"友谊"（Družba）——这个名字熬过了好几任业主、好几次翻新，还有整整一套经济体制的更迭。
+
+这栋建筑由弗拉季斯拉夫·鲁日奇卡（Vratislav Růžička）、米兰·瓦谢克（Milan Vašek）与弗拉斯季博尔·克利梅什（Vlastibor Klimeš）设计，建于1971至1976年间，采用钢结构与克制的幕墙立面，体量经过刻意压缩以融入历史广场——这也让它躲过了布拉格其他更张扬的粗野主义建筑所遭受的猛烈批评。每一层楼最初分别租给不同的手工业合作社，出售玻璃、陶瓷等特色商品，屋顶的罗斯托夫餐厅后来变成了Duplex夜店。1989年后，零售租户几经更迭——克罗内（Krone）、Debenhams等等——而大楼下方则直接与穆斯特克地铁站相连。
+
+🥚 彩蛋：一栋名字直译就是"友谊"的建筑，换东家的频率却几乎比广场上任何一栋楼都高——这要么是狠狠打了这个名字的脸，要么恰恰证明了，友谊有时候也需要重新谈一谈条件。`,
+    },
+  },
+  {
+    name: 'Diamant House',
+    slug: 'diamant-house',
+    localizedNames: { cz: 'Dům Diamant', zh: '钻石大厦' },
+    labels: ['modern', 'architecture'],
+    coordinates: { lat: 50.08392161870126, lng: 14.4245418122088694 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Diamant House! This isn't the famous Cubist "House of the Diamond" tourists usually mean — that one's half a kilometre away. This Diamant is a 2013 glass infill that quietly replaced an 1895 department store nobody fought very hard to save.
+
+Designed by Studio Acht and completed in 2013 on the "Golden Crossroads" where Wenceslas Square meets Na Příkopě, the nine-storey building is LEED Gold certified, one of the more energy-efficient buildings in the country, and stacks retail, offices, a hotel, and top-floor apartments with Prague Castle views into a single glass envelope. Its predecessor, an 1895 historicist department store, was demolished in 2007 with remarkably little public objection for a Wenceslas Square redevelopment.
+
+🥚 Easter Egg: Two completely unrelated buildings in Prague share the name "Diamant" a few streets apart from each other — one is a beloved 1913 Cubist icon, the other is this one. Tell them apart before you argue about which is more beautiful.`,
+
+      cz: `Statečný dobrodruhu, vítej v domě Diamant! Tohle není ten slavný kubistický "Dům U Diamantu", který turisté obvykle myslí — ten stojí půl kilometru odsud. Tenhle Diamant je skleněná novostavba z roku 2013, která tiše nahradila obchodní dům z roku 1895, o jehož záchranu nikdo příliš nebojoval.
+
+Budovu navrhlo studio Acht a dokončilo v roce 2013 na "Zlatém kříži", kde se Václavské náměstí stýká s Na Příkopě. Devítipodlažní stavba má certifikaci LEED Gold, patří k energeticky nejúspornějším budovám v zemi a skládá do jedné skleněné obálky obchody, kanceláře, hotel a byty v nejvyšším patře s výhledem na Pražský hrad. Její předchůdce, historizující obchodní dům z roku 1895, byl zbourán v roce 2007 s pozoruhodně malým veřejným odporem, na poměry přestaveb na Václavském náměstí.
+
+🥚 Velikonoční vajíčko: Dvě zcela nesouvisející budovy v Praze nesou název "Diamant", jen pár ulic od sebe — jedna je oblíbená kubistická ikona z roku 1913, druhá je tahle. Než se pustíte do hádky, která je hezčí, nejdřív si je pořádně rozlište.`,
+
+      zh: `勇敢的冒险家，欢迎来到钻石大厦！这可不是游客通常说的那栋著名的立体主义"钻石之家"——那一栋在半公里外。这一栋钻石大厦是2013年建成的玻璃新楼，悄悄取代了一座1895年的百货大楼，而当年几乎没人为保住那座老楼据理力争。
+
+这栋建筑由Studio Acht建筑事务所设计，2013年建成，坐落于瓦茨拉夫广场与"壕沟街"（Na Příkopě）交汇的"黄金十字路口"。这栋九层建筑获得LEED金级认证，是捷克境内节能表现较佳的建筑之一，将商铺、办公室、酒店以及顶层可眺望布拉格城堡的公寓，统统收纳进同一层玻璃外壳之中。它的前身，一座1895年的历史主义风格百货大楼，于2007年被拆除，而以瓦茨拉夫广场改建工程的标准来看，当时的公众反对声音出奇地小。
+
+🥚 彩蛋：布拉格有两栋毫不相干的建筑都叫"钻石"，彼此相距不过几条街——一栋是深受喜爱的1913年立体主义地标，另一栋就是眼前这座。在争论哪一栋更美之前，请先把它们认清楚。`,
+    },
+  },
+  {
+    name: 'Hotel Juliš',
+    slug: 'hotel-julis',
+    localizedNames: { cz: 'Hotel Juliš', zh: '尤利什酒店' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.082736, lng: 14.424941 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hotel_Juli%C5%A1',
+    description: {
+      en: `Brave adventurer, welcome to Hotel Juliš! A pastry maker named Karel Juliš spent over a decade fighting Prague's heritage office for the right to knock down a protected Baroque house — just so he could build this instead. He won.
+
+Designed by architect Pavel Janák, the building went up in 1929–1933 in pure Functionalist style, with a banded glass and white opaxite-glass facade and interior colour schemes by painter František Kysela. Its basement cinema ran soundproofed screenings for roughly 400 people until 1948, when the hotel was nationalised, stripped of the Juliš name, and rebranded "Tatran" for the rest of the communist era. It was returned to the Juliš family after 1989 and meticulously restored between 2000 and 2003.
+
+🥚 Easter Egg: Contemporaries in 1933 called this one of the most advanced hotel-and-department-store buildings in Europe — which means an obstinate confectioner's decade-long argument with the heritage office produced a building people were still admiring internationally before the decade was out.`,
+
+      cz: `Statečný dobrodruhu, vítej v Hotelu Juliš! Cukrář jménem Karel Juliš strávil přes deset let bojem s pražským památkovým úřadem o právo zbourat chráněný barokní dům — jen aby na jeho místě mohl postavit tohle. Vyhrál.
+
+Budovu navrhl architekt Pavel Janák a postavil ji v letech 1929–1933 v čistě funkcionalistickém stylu, s pásovou prosklenou a bílou opaxitovou fasádou a barevným interiérovým řešením od malíře Františka Kysely. V suterénu fungovalo do roku 1948 zvukotěsné kino pro asi 400 diváků; poté byl hotel znárodněn, přišel o jméno Juliš a po zbytek komunistické éry se jmenoval "Tatran". Rodině Julišových byl vrácen po roce 1989 a mezi lety 2000–2003 pečlivě zrekonstruován.
+
+🥚 Velikonoční vajíčko: Současníci v roce 1933 tuto stavbu označovali za jednu z nejpokrokovějších hotelovo-obchodních budov v Evropě — takže desetiletý spor tvrdohlavého cukráře s památkáři nakonec vyprodukoval budovu, kterou svět obdivoval ještě dřív, než desetiletí skončilo.`,
+
+      zh: `勇敢的冒险家，欢迎来到尤利什酒店！一位名叫卡雷尔·尤利什（Karel Juliš）的糕点师，花了十多年时间跟布拉格文物保护局较劲，只为争取拆除一座受保护的巴洛克老宅——就为了在原址盖这栋楼。他赢了。
+
+这栋建筑由建筑师帕维尔·雅纳克（Pavel Janák）设计，于1929至1933年间建成，风格纯粹属于功能主义，外墙采用带状玻璃与白色乳白玻璃（opaxite）饰面，室内配色方案出自画家弗兰季谢克·基塞拉（František Kysela）之手。地下室的隔音电影院可容纳约400名观众，一直营业到1948年——此后酒店被收归国有，"尤利什"之名被抹去，整个共产主义时期都改称"塔特兰"（Tatran）。1989年后，酒店归还给尤利什家族，并于2000至2003年间进行了细致的修复。
+
+🥚 彩蛋：1933年，同时代的人就称这里是欧洲最先进的酒店兼百货大楼之一——也就是说，一位固执糕点师与文物部门长达十年的拉锯战，最终换来了一栋不到十年就已享誉国际的建筑。`,
+    },
+  },
+  {
+    name: 'Darex',
+    slug: 'darex',
+    localizedNames: { cz: 'Darex', zh: '达雷克斯大楼' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.08337524175116, lng: 14.42530903365139 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Darex! This is a building where only the face is original — the Neo-Baroque facade dates to 1893, but everything behind it was demolished and rebuilt from scratch a century later. A perfectly legal, perfectly Prague kind of façade-ism.
+
+The 1893 Neo-Baroque front was preserved and reconstructed in 1994, when the entire structure behind it was rebuilt as a modern office building of roughly 5,500 square metres with ground-floor retail. During the 1994 works, archaeologists uncovered remains of medieval street paving beneath the site, since documented in a small basement display.
+
+🥚 Easter Egg: Wenceslas Square is full of "historic" facades that are, structurally speaking, entirely modern buildings wearing a nineteenth-century mask — Darex is simply one of the more honest examples, since almost nothing but the front wall survived the twentieth century.`,
+
+      cz: `Statečný dobrodruhu, vítej v domě Darex! Je to budova, kde je originální jen tvář — novobarokní fasáda pochází z roku 1893, ale všechno za ní bylo o sto let později zbouráno a postaveno úplně od základu. Naprosto legální a naprosto pražská forma "fasádismu".
+
+Novobarokní průčelí z roku 1893 bylo zachováno a rekonstruováno v roce 1994, kdy byla celá stavba za ním přestavěna na moderní kancelářskou budovu o rozloze zhruba 5 500 metrů čtverečních s obchody v přízemí. Během přestavby v roce 1994 archeologové pod objektem odkryli pozůstatky středověké uliční dlažby, dnes dokumentované v malé expozici v suterénu.
+
+🥚 Velikonoční vajíčko: Václavské náměstí je plné "historických" fasád, které jsou konstrukčně vzato zcela moderními budovami v devatenáctistoleté masce — Darex je jen jedním z poctivějších příkladů, protože z dvacátého století v podstatě přežila jen přední zeď.`,
+
+      zh: `勇敢的冒险家，欢迎来到达雷克斯大楼！这栋楼里，原汁原味的只有"脸面"——新巴洛克风格的外墙可以追溯到1893年，但外墙后面的一切，在一百年后被彻底拆除并从头重建。一种完全合法、也完全"布拉格式"的"保皮不保骨"。
+
+1893年的新巴洛克立面被完整保留并于1994年重新修复，与此同时，外墙后方的整栋建筑被重建为一栋约5500平方米的现代办公楼，一楼设有商铺。1994年施工期间，考古学家在地下发现了中世纪街道路面的遗迹，如今在地下室的小型展区内可以看到相关记录。
+
+🥚 彩蛋：瓦茨拉夫广场上到处都是这种"历史"外墙——从结构上说，它们其实是彻头彻尾的现代建筑，只是戴着一张19世纪的面具。达雷克斯大楼算是其中比较"诚实"的一个，因为它在整个20世纪里，几乎只留下了那面前墙。`,
+    },
+  },
+  {
+    name: 'Fénix Palace',
+    slug: 'palac-fenix',
+    localizedNames: { cz: 'Palác Fénix', zh: '凤凰宫' },
+    labels: ['historical', 'architecture', 'cultural'],
+    coordinates: { lat: 50.08022190349228, lng: 14.42848296134376 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_F%C3%A9nix',
+    description: {
+      en: `Brave adventurer, welcome to Fénix Palace! Despite what the name suggests, no dramatic fire ever rose from these ashes — Fénix was simply the name of the Viennese insurance company that built it. Sometimes a phoenix is just a logo.
+
+Built in 1928–1930 for Vienna's Fénix Life Insurance after two 1830s neoclassical houses were cleared from the site, the building's structure was designed by Bedřich Ehrmann, with the facade reworked by architect Josef Gočár after the city rejected Ehrmann's original version. Its basement cinema, opened in 1929 as "Blesk" and later renamed "Blaník," used pioneering Vierendeel-truss engineering to span a hall of over 1,000 seats with zero support columns — a genuine structural feat for 1929. The site has been continuously built upon since at least the fourteenth century.
+
+🥚 Easter Egg: Kino Blaník remained one of Prague's most popular cinemas into the 1980s; the same column-free hall has hosted the Studio DVA theatre since 2013, meaning Gočár's collaboration with an Austrian engineering professor is still, nearly a century later, filling seats in exactly the way it was built to.`,
+
+      cz: `Statečný dobrodruhu, vítej v Paláci Fénix! Navzdory tomu, co jméno napovídá, z žádného dramatického požáru tu žádný fénix nepovstal — Fénix bylo prostě jméno vídeňské pojišťovny, která budovu postavila. Někdy je fénix jen logo.
+
+Budova vznikla v letech 1928–1930 pro vídeňskou pojišťovnu Fénix Life Insurance poté, co z pozemku zmizely dva klasicistní domy z 30. let 19. století. Konstrukci navrhl Bedřich Ehrmann, fasádu po zamítnutí jeho původního návrhu předělal architekt Josef Gočár. Suterénní kino, otevřené v roce 1929 jako "Blesk" a později přejmenované na "Blaník", využilo průkopnickou vierendeelovu konstrukci a překlenulo sál pro přes 1000 diváků bez jediného podpěrného sloupu — v roce 1929 skutečný konstrukční husarský kousek. Pozemek je nepřetržitě zastavěný minimálně od čtrnáctého století.
+
+🥚 Velikonoční vajíčko: Kino Blaník patřilo k nejoblíbenějším pražským kinům ještě v 80. letech; tentýž bezsloupový sál od roku 2013 hostí Studio DVA — takže spolupráce Gočára s rakouským inženýrským profesorem plní sedadla přesně tak, jak měla, i skoro sto let po dokončení.`,
+
+      zh: `勇敢的冒险家，欢迎来到凤凰宫！尽管名字听起来像是"浴火重生"，这里其实从没发生过什么惊天动地的大火——"凤凰"（Fénix）不过是建造这栋楼的维也纳保险公司的名字。有时候，凤凰只是个商标而已。
+
+这栋建筑建于1928至1930年间，为维也纳凤凰人寿保险公司而建，建造前，地块上两座建于19世纪30年代的新古典主义房屋被拆除。整体结构由贝德日赫·埃尔曼（Bedřich Ehrmann）设计，其最初的外墙方案被市政府否决后，改由建筑师约瑟夫·戈恰尔（Josef Gočár）重新设计。地下室的电影院于1929年以"闪电"（Blesk）之名开业，后更名为"布拉尼克"（Blaník），采用了当时颇为前卫的Vierendeel桁架结构，让一个可容纳一千多人的大厅内没有一根支撑柱——这在1929年堪称结构工程上的壮举。这块地皮自至少14世纪起就一直有建筑存在，从未间断。
+
+🥚 彩蛋：布拉尼克电影院直到20世纪80年代都还是布拉格最受欢迎的电影院之一；同一个无柱大厅自2013年起成为Studio DVA剧院——也就是说，戈恰尔与一位奥地利工程学教授近百年前的这次合作，至今仍在按照最初的设计初衷，坐满一排排观众。`,
+    },
+  },
+  {
+    name: 'Josef Jungmann Monument',
+    slug: 'pomnik-josefa-jungmanna',
+    localizedNames: { cz: 'Pomník Josefa Jungmanna', zh: '约瑟夫·永曼纪念碑' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.082898826916484, lng: 14.422455089246863 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pomn%C3%ADk_Josefa_Jungmanna',
+    description: {
+      en: `Brave adventurer, welcome to the Josef Jungmann Monument! A seven-metre bronze tribute to a linguist who spent his life compiling dictionaries — proof that in Prague, even grammar nerds eventually get a statue on prime real estate just off Wenceslas Square.
+
+Sculpted by Ludvík Šimek and set on an architectural base by Antonín Barvitius, the monument was initiated in 1866 by historian František Palacký and his son-in-law František Ladislav Rieger, with the cornerstone laid by Palacký himself in 1873. It was ceremonially unveiled on 15 May 1878 before crowds of citizens and guild associations, some arriving in traditional folk costume. It honours Josef Jungmann (1773–1847), whose five-volume Czech–German dictionary was one of the foundational acts of the Czech National Revival — essentially proving Czech could still function as a modern literary language after centuries of German administrative dominance.
+
+🥚 Easter Egg: A few steps away on the same square stands one of Prague's few genuine Cubist street lamps, designed by Emil Králíček around 1912–13 — meaning this modest square quietly hosts both a monument to reviving the Czech language and one of the rarest architectural curiosities in the entire city.`,
+
+      cz: `Statečný dobrodruhu, vítej u Pomníku Josefa Jungmanna! Sedmimetrová bronzová pocta jazykovědci, který strávil život sestavováním slovníků — důkaz, že i gramatický nadšenec může v Praze dostat sochu na prvotřídním místě kousek od Václavského náměstí.
+
+Sochu vytvořil Ludvík Šimek, architektonický podstavec navrhl Antonín Barvitius. Vznik pomníku inicioval v roce 1866 historik František Palacký spolu se svým zetěm Františkem Ladislavem Riegerem, základní kámen položil sám Palacký v roce 1873. Slavnostně byl odhalen 15. května 1878 za účasti davů občanů a cechovních spolků, z nichž někteří přišli v lidových krojích. Pomník uctívá Josefa Jungmanna (1773–1847), jehož pětidílný česko-německý slovník byl jedním ze zakládajících činů národního obrození — v podstatě dokázal, že čeština dokáže fungovat jako moderní literární jazyk i po staletích německé administrativní nadvlády.
+
+🥚 Velikonoční vajíčko: Pár kroků odsud na stejném náměstí stojí jedna z mála skutečně kubistických pouličních lamp v Praze, navržená Emilem Králíčkem kolem let 1912–13 — takže toto skromné náměstí tiše hostí jak pomník obrození českého jazyka, tak jednu z nejvzácnějších architektonických kuriozit v celém městě.`,
+
+      zh: `勇敢的冒险家，欢迎来到约瑟夫·永曼纪念碑！这是一座七米高的青铜像，纪念一位穷尽一生编纂词典的语言学家——足以证明，在布拉格，就连"语法书呆子"最终也能在瓦茨拉夫广场附近的黄金地段拥有一座属于自己的雕像。
+
+这座雕像由卢德维克·希梅克（Ludvík Šimek）创作，建筑基座由安东宁·巴尔维提乌斯（Antonín Barvitius）设计。纪念碑的建造由历史学家弗兰季谢克·帕拉茨基（František Palacký）与其女婿弗兰季谢克·拉迪斯拉夫·里格尔（František Ladislav Rieger）于1866年发起，帕拉茨基本人于1873年亲自奠基。纪念碑于1878年5月15日隆重揭幕，市民与行会团体齐聚一堂，部分人还身着传统民族服饰。纪念碑纪念的是约瑟夫·永曼（Josef Jungmann，1773–1847）——他编纂的五卷本捷克语-德语词典，是捷克民族复兴运动的奠基性成就之一，几乎凭一己之力证明了：即便历经数百年德语行政统治，捷克语依然能够作为现代文学语言存在。
+
+🥚 彩蛋：距此几步之遥的同一广场上，矗立着布拉格为数不多的真正立体主义风格路灯之一，由埃米尔·克拉利切克（Emil Králíček）于1912至1913年间设计——也就是说，这座不起眼的小广场，同时低调地拥有一座捷克语复兴纪念碑，以及全城最罕见的建筑奇观之一。`,
+    },
+  },
+  {
+    name: 'Adria Palace',
+    slug: 'palac-adria',
+    localizedNames: { cz: 'Palác Adria', zh: '阿德里亚宫' },
+    labels: ['historical', 'architecture', 'cultural'],
+    coordinates: { lat: 50.08266937652298, lng: 14.421977807061449 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_Adria',
+    description: {
+      en: `Brave adventurer, welcome to Adria Palace! Built for an Italian insurance company in a style so aggressively geometric it needed its own name — rondocubism — this is the closest Prague gets to an architectural exclamation mark.
+
+Constructed 1922–1925 for Riunione Adriatica di Sicurtà, the palace was designed by Josef Zasche with facade and interiors by Pavel Janák, blending curved and angular forms in red and white — a deliberately national spin on modern architecture. Sculptors Otto Gutfreund, Jan Štursa, František Anýž, Karel Dvořák, and Bohumil Kafka contributed decoration, including Štursa's enormous galvanoplastic statue of Adria herself and a clock allegorising Day, Night, Sun, Moon, and the zodiac. A passage still cuts straight through the building from Jungmannova to Národní.
+
+🥚 Easter Egg: In November 1989, the dissident movement Civic Forum set up its headquarters in the Laterna Magika theatre in this building's basement — meaning the Velvet Revolution was partly run out of the cellar of an insurance company's Art Deco palace, which is either deeply ironic or exactly how Prague does things.`,
+
+      cz: `Statečný dobrodruhu, vítej v Paláci Adria! Postaven pro italskou pojišťovnu ve stylu tak agresivně geometrickém, že si vysloužil vlastní jméno — rondokubismus — je to nejblíž, kam se Praha kdy dostala k architektonickému vykřičníku.
+
+Palác z let 1922–1925 vznikl pro pojišťovnu Riunione Adriatica di Sicurtà podle návrhu Josefa Zascheho, fasádu a interiéry navrhl Pavel Janák, kombinující zaoblené a hranaté tvary v červené a bílé — záměrně národní pojetí moderní architektury. Sochařskou výzdobu vytvořili Otto Gutfreund, Jan Štursa, František Anýž, Karel Dvořák a Bohumil Kafka, včetně Štursovy obrovské galvanoplastické sochy Adrie a hodin s alegoriemi Dne, Noci, Slunce, Měsíce a zvěrokruhu. Pasáž stále prochází budovou přímo z Jungmannovy ulice na Národní třídu.
+
+🥚 Velikonoční vajíčko: V listopadu 1989 si disidentské hnutí Občanské fórum zřídilo své ústředí v divadle Laterna magika v suterénu této budovy — sametová revoluce se tak zčásti řídila ze sklepení pojišťovacího art deco paláce, což je buď hluboce ironické, nebo přesně to, jak se věci v Praze dělají.`,
+
+      zh: `勇敢的冒险家，欢迎来到阿德里亚宫！这是一栋为意大利保险公司建造的建筑，风格几何感强烈到需要单独命名——"圆形立体主义"（rondocubism）——堪称布拉格建筑中最接近"惊叹号"的存在。
+
+这座宫殿建于1922至1925年间，为里乌尼奥内·阿德里亚蒂卡保险公司（Riunione Adriatica di Sicurtà）而建，由约瑟夫·扎舍（Josef Zasche）设计，外墙与室内则出自帕维尔·雅纳克（Pavel Janák）之手，将弧形与棱角造型以红白配色巧妙融合——是一种刻意带有民族色彩的现代建筑表达。雕塑装饰由奥托·古特弗罗因德（Otto Gutfreund）、扬·什图尔萨（Jan Štursa）、弗兰季谢克·阿尼日（František Anýž）、卡雷尔·德沃扎克（Karel Dvořák）与博胡米尔·卡夫卡（Bohumil Kafka）共同完成，其中包括什图尔萨创作的巨型电铸"阿德里亚"女神像，以及一座寓意昼夜、日月与黄道十二宫的时钟。一条通道至今仍笔直穿过建筑，连接扬曼街与民族大街。
+
+🥚 彩蛋：1989年11月，异见运动"公民论坛"（Civic Forum）曾将总部设在这栋建筑地下室的"魔灯剧院"（Laterna Magika）——也就是说，天鹅绒革命有一部分，是在一家保险公司装饰艺术风格宫殿的地下室里指挥完成的，这要么极具讽刺意味，要么恰恰就是布拉格的行事方式。`,
+    },
+  },
+  {
+    name: 'Bata Palace',
+    slug: 'batuv-palac',
+    localizedNames: { cz: 'Baťův palác', zh: '巴塔宫' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.083585, lng: 14.423758 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Ba%C5%A5%C5%AFv_pal%C3%A1c',
+    description: {
+      en: `Brave adventurer, welcome to Bata Palace! A shoe company built Czechoslovakia's first high-speed elevator, a pneumatic mail system, and a glass curtain wall — all just to sell you shoes faster. Ambition has rarely looked this elegant.
+
+Opened on 4 December 1929 as the "Palace of Services," the seven-storey building replaced Baťa's original cramped shop in the nearby Štýbl Palace, which could no longer handle demand. Designed by architects Ludvík Kysela and František L. Gahura with Tomáš Baťa himself involved, the building drew directly on American commercial architecture: alternating bands of white opaxite glass and ribbon windows, three passenger lifts, four freight lifts, one super-fast express elevator, escalators, mechanical goods conveyors, and pneumatic mail for staff.
+
+🥚 Easter Egg: Kysela went on to remake much of Wenceslas Square in this glass-and-steel style within just a few years — meaning the boulevard's now-classic "shopping street" look is really the invention of one architect racing to keep up with one shoe company's ambitions.`,
+
+      cz: `Statečný dobrodruhu, vítej v Baťově paláci! Obuvnická firma tu postavila první rychlovýtah v Československu, pneumatickou poštu i skleněnou závěsovou fasádu — a to všechno jen proto, aby vám prodala boty rychleji. Ambice zřídkakdy vypadaly tak elegantně.
+
+Sedmipodlažní budova, otevřená 4. prosince 1929 jako "Palác služeb", nahradila Baťův původní stísněný obchod v nedalekém Paláci Štýbl, který už nestačil poptávce. Budovu navrhli architekti Ludvík Kysela a František L. Gahura za osobní účasti samotného Tomáše Bati a přímo se inspirovali americkou obchodní architekturou: střídající se pásy bílého opaxitového skla a prosklených oken, tři osobní výtahy, čtyři nákladní, jeden superrychlý expresní výtah, eskalátory, mechanické dopravníky zboží a pneumatická pošta pro zaměstnance.
+
+🥚 Velikonoční vajíčko: Kysela v tomto skleněno-ocelovém stylu během pár let přestavěl velkou část Václavského náměstí — dnešní ikonická "nákupní" tvář bulváru je tak vlastně dílem jednoho architekta, který se snažil držet krok s ambicemi jedné obuvnické firmy.`,
+
+      zh: `勇敢的冒险家，欢迎来到巴塔宫！一家鞋业公司在这里建起了捷克斯洛伐克第一部高速电梯、气动传送邮件系统，以及玻璃幕墙——所有这一切，只是为了能更快地把鞋卖给你。野心很少能表现得如此优雅。
+
+这栋七层建筑于1929年12月4日以"服务宫"（Palace of Services）之名开业，取代了巴塔原本在附近什蒂布尔宫（Štýbl Palace）里那间早已容不下庞大客流的狭小店铺。建筑由建筑师卢德维克·基塞拉（Ludvík Kysela）与弗兰季谢克·L·加胡拉（František L. Gahura）设计，托马什·巴塔（Tomáš Baťa）本人也亲自参与，设计上直接借鉴了美国商业建筑的手法：白色乳白玻璃条带与横向长窗交替排列，配有三部客用电梯、四部货梯、一部超高速直达电梯，还有自动扶梯、机械货物传送带，以及供员工使用的气动邮件系统。
+
+🥚 彩蛋：基塞拉此后短短几年内，用同样的玻璃钢结构风格重塑了瓦茨拉夫广场的大半面貌——如今这条大道那副经典的"购物街"模样，说到底其实是一位建筑师为了跟上一家鞋业公司的雄心壮志而一路狂奔的产物。`,
+    },
+  },
+  {
+    name: 'Mottl House',
+    slug: 'mottluv-dum',
+    localizedNames: { cz: 'Mottlův dům', zh: '莫特尔之家' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.08317055486492, lng: 14.42223486205682 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Mottl%C5%AFv_d%C5%AFm',
+    description: {
+      en: `Brave adventurer, welcome to Mottl House! Named after a hatter, designed by the hatter's own architect son, and left empty for years before its 2019 restoration — this building's history reads like a slow-motion family drama in stucco.
+
+The site once held a two-storey Baroque corner house, "At the Golden Wreath," home to a celebrated hat shop run by tailor and hatter Vendelín Mottl. His son Karel Mottl, a professor at Prague's School of Applied Arts, designed the current building in 1905–1906, later expanding it in 1908 and 1913 to add a spiral staircase connecting the floors. The result mixes rich Art Nouveau stucco and sgraffito with lingering Neo-Renaissance structure — three two-tract wings wrapped around a large skylight.
+
+🥚 Easter Egg: Nationalised in 1948 and returned to the Mottl family's successors after 1989, the building then sat unused for years before a careful restoration, completed in 2019, brought it back — a protected cultural monument since 1958 that took roughly seven decades to actually look cared for again.`,
+
+      cz: `Statečný dobrodruhu, vítej v Mottlově domě! Pojmenovaný po kloboučníkovi, navržený architektem — vlastním synem toho kloboučníka — a léta ponechaný prázdný až do obnovy v roce 2019: historie téhle budovy čte se jako pomalá rodinná sága ve štuku.
+
+Na tomto místě dřív stál dvoupatrový barokní nárožní dům "U Zlatého věnce", kde sídlil věhlasný obchod s klobouky krejčího a kloboučníka Vendelína Mottla. Jeho syn Karel Mottl, profesor pražské Uměleckoprůmyslové školy, navrhl současnou budovu v letech 1905–1906 a později ji v letech 1908 a 1913 rozšířil o točité schodiště propojující patra. Výsledkem je bohatá secesní štuková a sgrafitová výzdoba spojená s přetrvávajícími novorenesančními prvky — tři dvoutraktová křídla obepínající velký světlík.
+
+🥚 Velikonoční vajíčko: Znárodněná v roce 1948 a po roce 1989 vrácená potomkům rodiny Mottlových budova pak léta chátrala nevyužita, než ji pečlivá obnova dokončená v roce 2019 vrátila k životu — kulturní památka chráněná od roku 1958, které trvalo zhruba sedm desetiletí, než konečně zase vypadala, že se o ni někdo stará.`,
+
+      zh: `勇敢的冒险家，欢迎来到莫特尔之家！这栋建筑以一位帽商的名字命名，由这位帽商自己的建筑师儿子设计，此后又空置多年，直到2019年才完成修复——它的历史读起来就像一部用灰泥写成的慢镜头家族剧。
+
+这块地皮上原先坐落着一座两层的巴洛克转角建筑"金花环之家"，楼里曾开着一家由裁缝兼帽商文德林·莫特尔（Vendelín Mottl）经营的知名帽子店。他的儿子卡雷尔·莫特尔（Karel Mottl，布拉格工艺美术学校教授）于1905至1906年间设计了如今这栋建筑，并在1908年与1913年两度扩建，加建了连通各层的旋转楼梯。最终呈现的效果，是华丽的新艺术风格灰泥与刮涂装饰，与残留的新文艺复兴式结构相互交融——三翼双跨结构环绕着一个巨大的天窗。
+
+🥚 彩蛋：这栋建筑1948年被收归国有，1989年后归还给莫特尔家族后人，此后却又空置多年，直到2019年一次细致的修复才让它重获新生——这座自1958年起就被列为文物保护建筑的房子，足足花了近七十年，才总算再次显出"有人在乎它"的样子。`,
+    },
+  },
+  {
+    name: 'Flower House',
+    slug: 'kvetinovy-dum',
+    localizedNames: { cz: 'Květinový dům (The Flow Building)', zh: '花之屋（The Flow Building）' },
+    labels: ['modern', 'architecture'],
+    coordinates: { lat: 50.080881, lng: 14.428876 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/The_Flow_Building',
+    description: {
+      en: `Brave adventurer, welcome to Flower House! A three-year architecture competition, a demolished Neo-Renaissance building, and a public controversy over 1.2 billion crowns later, Prague ended up with a glass building whose lights change colour like a nightclub — and then quietly renamed it before anyone could get too attached to the flowery version.
+
+The site previously held "U Turků" ("At the Turks"), an 1880 Neo-Renaissance house raised by two floors and given a plainer facade in 1920 by architect Bohumír Kozák, before it was demolished in 2017 — a decision opposed by several heritage associations and contested through years of conflicting official rulings. The winning design, by British firm Chapman Taylor, was inspired by the lines of St. Vitus Cathedral, the light of a burning candle, and a flower in bloom, giving the nine-storey glass building its nickname before it officially became "The Flow Building": 15,000 square metres of offices and 6,000 square metres of retail.
+
+🥚 Easter Egg: With its colour-shifting facade lighting up the upper end of Wenceslas Square after dark, locals nicknamed the area's new nightlife glow "Las Vegas" — a nickname that has stuck rather more firmly than either "Flower House" or "Flow Building."`,
+
+      cz: `Statečný dobrodruhu, vítej v Květinovém domě! Po tříletém architektonickém výběrovém řízení, zbourání novorenesanční budovy a veřejné kontroverzi kolem 1,2 miliardy korun tu Praha nakonec získala skleněnou stavbu, jejíž nasvícení mění barvy jako v nočním klubu — a pak ji ještě tiše přejmenovala, než si na tu květinovou verzi jména kdokoli stihl zvyknout.
+
+Na místě dříve stál dům "U Turků" z roku 1880, novorenesanční stavba zvýšená o dvě patra a opatřená střízlivější fasádou v roce 1920 podle architekta Bohumíra Kozáka, než byla v roce 2017 zbourána — rozhodnutí, proti němuž vystoupilo několik památkových spolků a které bylo léta provázeno protichůdnými úředními rozhodnutími. Vítězný návrh britského studia Chapman Taylor se inspiroval liniemi katedrály svatého Víta, světlem hořící svíce a rozkvetlou květinou, což budově vyneslo přezdívku ještě předtím, než se oficiálně stala "The Flow Building": 15 000 metrů čtverečních kanceláří a 6 000 metrů čtverečních obchodních ploch.
+
+🥚 Velikonoční vajíčko: Díky barevně proměnlivému nasvícení fasády po setmění dostala horní část Václavského náměstí od místních přezdívku "Las Vegas" — přezdívka, která se nakonec ujala pevněji než "Květinový dům" i "The Flow Building" dohromady.`,
+
+      zh: `勇敢的冒险家，欢迎来到"花之屋"！经过长达三年的建筑设计竞赛、拆除一栋新文艺复兴风格老建筑，以及一场围绕12亿克朗预算的公众争议之后，布拉格最终得到了一栋灯光会像夜店一样变换颜色的玻璃大楼——随后又悄悄给它改了名字，都还没等大家习惯"花之屋"这个称呼。
+
+这块地皮此前坐落着1880年建成的新文艺复兴风格建筑"土耳其人之家"（U Turků），1920年由建筑师博胡米尔·科扎克（Bohumír Kozák）加盖两层并换上更朴素的立面，最终于2017年被拆除——这一决定遭到多个文物保护团体反对，并在多年间伴随着官方裁决的反复拉锯。中标方案出自英国建筑事务所查普曼·泰勒（Chapman Taylor），设计灵感来自圣维特大教堂的线条、烛火的光芒与盛开的花朵——这栋九层玻璃建筑也因此得名"花之屋"，随后才正式更名为"The Flow Building"：拥有1.5万平方米办公空间与6000平方米零售空间。
+
+🥚 彩蛋：入夜后，这栋建筑变幻色彩的外墙灯光，让瓦茨拉夫广场上段被当地人戏称为"拉斯维加斯"——这个绰号，如今比"花之屋"和"The Flow Building"加起来都更深入人心。`,
+    },
+  },
+  {
+    name: 'House of the Diamond',
+    slug: 'dum-diamant',
+    localizedNames: { cz: 'Dům Diamant', zh: '钻石之家' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.079335559660635, lng: 14.419919742887998 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/D%C5%AFm_Diamant',
+    description: {
+      en: `Brave adventurer, welcome to the House of the Diamond! Prague's most photographed Cubist apartment block started life as a conventional Art Nouveau design — until the architect scrapped it mid-construction and gave the city its sharpest-edged building instead.
+
+Built in 1912–1913 at the corner of Spálená, Lazarská, and Magdalény Rettigové streets, the building was originally designed by Friedrich Ohmann in a classicising Art Nouveau style; construction had already begun under his plan in 1912 before architect Emil Králíček reworked the entire project that same summer into full-blown Cubism. Contractor Matěj Blecha's firm carried out the build. Inside, the stairwell and corridors still preserve original Cubist chandeliers, lamps, railings, doors, and etched window glass.
+
+🥚 Easter Egg: A framed Cubist archway added in 1913 links the modern Diamant directly to the Baroque church next door — a stylistic collision so bold that Prague's conservation-minded Klub Za starou Prahu (Club for Old Prague) objected to it at the time. A century later, the "clash" is considered one of the building's best features.`,
+
+      cz: `Statečný dobrodruhu, vítej v Domě Diamant! Nejfotografovanější kubistický činžák v Praze začínal jako obyčejný secesní projekt — než ho architekt uprostřed stavby zahodil a dal městu místo toho jeho nejostřejší budovu.
+
+Dům na rohu ulic Spálená, Lazarská a Magdalény Rettigové vznikl v letech 1912–1913. Původní návrh Friedricha Ohmanna počítal s klasicizující secesí a stavba podle něj v roce 1912 skutečně začala — než ji ještě téhož léta architekt Emil Králíček celou přepracoval do ryzího kubismu. Stavbu provedla firma Matěje Blechy. V interiéru se na chodbě a schodišti dodnes dochovaly původní kubistické lustry, lampy, zábradlí, dveře i leptaná okenní skla.
+
+🥚 Velikonoční vajíčko: Rámovaný kubistický oblouk přidaný v roce 1913 propojuje moderní Diamant přímo s barokním kostelem vedle — tak odvážný stylový střet, že proti němu tehdy protestoval i Klub Za starou Prahu. O sto let později se tenhle "konflikt" považuje za jednu z nejlepších vlastností budovy.`,
+
+      zh: `勇敢的冒险家，欢迎来到钻石之家！布拉格最上镜的立体主义公寓楼，最初其实只是个普普通通的新艺术风格设计——直到建筑师在施工过程中半途推翻方案，才为这座城市留下了这栋棱角最分明的建筑。
+
+这栋位于斯帕莱纳街、拉扎尔斯卡街与马格达莱尼·雷蒂戈娃街交汇处的建筑，建于1912至1913年间。最初由弗里德里希·奥曼（Friedrich Ohmann）设计，风格为古典化的新艺术运动，1912年已按此方案动工——但就在同一年夏天，建筑师埃米尔·克拉利切克（Emil Králíček）将整个项目彻底改造成了纯粹的立体主义风格。工程由马捷伊·布莱哈（Matěj Blecha）的公司承建。楼内的走廊与楼梯间，至今仍保留着原始的立体主义风格吊灯、灯具、栏杆、门扇与蚀刻玻璃窗。
+
+🥚 彩蛋：1913年加建的一座立体主义风格拱门，将这栋现代感十足的钻石大楼与紧邻的巴洛克教堂直接相连——如此大胆的风格碰撞，在当年甚至招致了以保护老布拉格风貌著称的"老布拉格俱乐部"（Klub Za starou Prahu）的抗议。一百年后，这场"冲突"反倒被视为这栋建筑最出彩的地方之一。`,
+    },
+  },
+  {
+    name: 'Fountain with the Statue of St. Joseph',
+    slug: 'kasna-se-sochou-svateho-josefa',
+    localizedNames: { cz: 'Kašna se sochou svatého Josefa', zh: '圣约瑟夫喷泉' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.077911741413125, lng: 14.420998650332661 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Ka%C5%A1na_se_sochou_svat%C3%A9ho_Josefa',
+    description: {
+      en: `Brave adventurer, welcome to the Fountain with the Statue of St. Joseph! Built as a thank-you note to heaven after a plague killed roughly six thousand Praguers, this is the kind of gratitude that comes with its own zip code — ten metres of Baroque relief.
+
+Commissioned by the New Town magistrate in 1697–1698 from Lusatian sculptor Matěj Václav Jäckel, the statue of St. Joseph with the infant Jesus tops a column of four grouped half-columns with pseudo-Corinthian capitals, rising from a polygonal basin and flanked by four gilded-winged angels. It stands in front of the New Town Hall on Karlovo náměstí and has been a protected cultural monument since 1998.
+
+🥚 Easter Egg: The epidemic behind this fountain struck Prague between March and November 1680 — meaning the monument predates the far more famous plague column on Old Town Square by over a decade, quietly making it one of the earliest such thanksgiving columns in the entire city.`,
+
+      cz: `Statečný dobrodruhu, vítej u Kašny se sochou svatého Josefa! Postavena jako poděkování nebi poté, co mor zabil zhruba šest tisíc Pražanů — taková vděčnost si prostě žádá vlastní poštovní směrovací číslo: deset metrů barokní plastiky.
+
+Sochu svatého Josefa s malým Ježíškem vytvořil na objednávku novoměstského magistrátu v letech 1697–1698 lužický sochař Matěj Václav Jäckel. Vrcholí jí sloup ze čtyř sdružených polosloupů s pseudokorintskými hlavicemi, vyrůstající z mnohohranné nádrže a lemovaný čtyřmi anděly se zlacenými křídly. Kašna stojí před Novoměstskou radnicí na Karlově náměstí a od roku 1998 je chráněnou kulturní památkou.
+
+🥚 Velikonoční vajíčko: Epidemie, kvůli které kašna vznikla, zasáhla Prahu mezi březnem a listopadem 1680 — pomník je tak o víc než deset let starší než mnohem slavnější morový sloup na Staroměstském náměstí, čímž se tiše řadí mezi nejstarší podobné děkovné sloupy v celém městě.`,
+
+      zh: `勇敢的冒险家，欢迎来到圣约瑟夫喷泉！这是一场瘟疫夺走约六千名布拉格市民生命后，献给上天的一份"感谢信"——而这份感激之情，配得上属于自己的一整片街区：十米高的巴洛克雕塑群。
+
+这尊怀抱圣婴耶稣的圣约瑟夫雕像，由新城区市政厅于1697至1698年间委托卢萨蒂亚雕塑家马捷伊·瓦茨拉夫·耶克尔（Matěj Václav Jäckel）创作，矗立在由四根拟科林斯柱式半柱组成的柱身之上，柱身从一座多边形水池中拔地而起，四周环绕着四尊镀金羽翼的天使。喷泉位于卡罗维广场（Karlovo náměstí）新城区市政厅前，自1998年起被列为文物保护建筑。
+
+🥚 彩蛋：促成这座喷泉建造的那场瘟疫发生在1680年3月至11月之间——这意味着它比更为知名的老城广场瘟疫柱还要早上十多年，堪称全城最早的一批"瘟疫感恩柱"之一，只是名气小得多。`,
+    },
+  },
+  {
+    name: 'Masaryk Embankment',
+    slug: 'masarykovo-nabrezi',
+    localizedNames: { cz: 'Masarykovo nábřeží', zh: '马萨里克滨河大道' },
+    labels: ['street', 'historical'],
+    coordinates: { lat: 50.07642471000946, lng: 14.414261936638471 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Masarykovo_n%C3%A1b%C5%99e%C5%BE%C3%AD',
+    description: {
+      en: `Brave adventurer, welcome to Masaryk Embankment! A riverside boulevard that has been renamed so many times it practically needs a family tree — from an emperor, to a patriot, to a Communist president, to a Nazi executioner, and finally to the founder of Czechoslovakia himself.
+
+Before the nineteenth century this stretch along the Vltava's right bank, facing Slovanský ostrov, was unregulated riverfront lined with mills and tanneries. Once embanked, it was named Františkovo nábřeží after Emperor Francis I, then Riegrovo nábřeží from 1905. During the Nazi occupation it was briefly folded into "Vltavské nábřeží" before the entire riverside was renamed Reinhard Heydrich Ufer from 1942 to 1945. Postwar Czechoslovakia renamed it Gottwaldovo nábřeží in 1946, after the country's first Communist president, before it finally received its current name in 1990, honouring Tomáš Garrigue Masaryk.
+
+🥚 Easter Egg: Within one relatively short stretch of riverbank, Prague managed to commemorate a Habsburg emperor, a Czech patriot politician, one of the chief architects of the Holocaust, and a Stalinist president — before settling, three name changes and a century later, on the country's founding democrat. Few streets anywhere carry quite that much twentieth-century baggage in their signage alone.`,
+
+      cz: `Statečný dobrodruhu, vítej na Masarykově nábřeží! Nábřeží u řeky, které bylo tolikrát přejmenováno, že by si skoro zasloužilo vlastní rodokmen — od císaře přes vlastence a komunistického prezidenta až po nacistického kata, a nakonec po zakladatele Československa.
+
+Do devatenáctého století bylo toto místo na pravém břehu Vltavy naproti Slovanskému ostrovu neregulovaným nábřežím lemovaným mlýny a jirchárnami. Po zregulování se jmenovalo Františkovo nábřeží po císaři Františku I., od roku 1905 pak Riegrovo nábřeží. Za nacistické okupace bylo krátce součástí "Vltavského nábřeží", než bylo celé nábřeží v letech 1942–1945 přejmenováno na Reinhard Heydrich Ufer. Poválečné Československo je v roce 1946 přejmenovalo na Gottwaldovo nábřeží po prvním komunistickém prezidentovi, než konečně v roce 1990 dostalo současný název na počest Tomáše Garrigua Masaryka.
+
+🥚 Velikonoční vajíčko: Na jednom relativně krátkém úseku nábřeží tak Praha stihla uctít habsburského císaře, českého vlastence, jednoho z hlavních architektů holokaustu a stalinistického prezidenta — než se po třech přejmenováních a jednom století usadila u zakládajícího demokrata republiky. Málokterá ulice kdekoli nese už jen ve svém názvu tolik dvacátého století.`,
+
+      zh: `勇敢的冒险家，欢迎来到马萨里克滨河大道！这条沿河大道改名的次数多到几乎需要一张家谱来梳理——从一位皇帝，到一位爱国者，再到一位共产党总统，又到一位纳粹刽子手，最终才落在了捷克斯洛伐克的缔造者本人身上。
+
+19世纪之前，这段位于伏尔塔瓦河右岸、正对斯拉夫岛的河岸尚未整治，沿岸分布着磨坊与制革作坊。整治完成后，这里最初以弗朗茨一世皇帝之名被称为"弗朗茨滨河大道"，1905年起改称"里格尔滨河大道"。纳粹占领期间，它一度被并入"伏尔塔瓦河滨河大道"，随后在1942至1945年间，整条河岸干脆被改名为"莱因哈德·海德里希河岸"。战后的捷克斯洛伐克于1946年将其改名为"哥特瓦尔德滨河大道"，以纪念该国第一位共产党总统；直到1990年，它才最终获得现在的名字，用以纪念托马什·马萨里克（Tomáš Garrigue Masaryk）。
+
+🥚 彩蛋：在这段相对不长的河岸上，布拉格竟先后用来纪念了一位哈布斯堡皇帝、一位捷克爱国政治家、大屠杀的主要策划者之一，以及一位斯大林主义总统——历经三次改名、跨越近一个世纪，才最终定格在这个国家的建国民主先驱身上。恐怕没有几条街道，光是名字本身就承载了这么多20世纪的沉重历史。`,
+    },
+  },
+  {
+    name: 'Alois Jirásek Monument',
+    slug: 'pomnik-aloise-jiraska',
+    localizedNames: { cz: 'Pomník Aloise Jiráska', zh: '阿洛伊斯·伊拉塞克纪念碑' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.07587563072989, lng: 14.41486328620291 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pomn%C3%ADk_Aloise_Jir%C3%A1ska_(Praha)',
+    description: {
+      en: `Brave adventurer, welcome to the Alois Jirásek Monument! A bronze writer sits here forever mid-thought, pen raised, notebook on his knee — sculpted by an artist who finished the design in 1940 and then had to wait two decades before anyone let him actually put it up.
+
+Sculptor Karel Pokorný completed his design for the seated bronze figure of Jirásek in 1940, with architect Jaroslav Fragner designing the pedestal, but the monument wasn't unveiled until 1960, at the approach to Jirásek Bridge on Jiráskovo náměstí in Prague's New Town — directly in front of the house on Resslova Street where the writer lived and died. The pedestal carries a front plaque reading "Alois Jirásek 1851–1930," while two side reliefs quietly summarise his life's work: a halberd dated 1419, marking the Hussite Revolution he wrote about extensively, and a dog's head dated 1695, referencing his novel "Psohlavci" ("The Dog-Heads") about the doomed Chodové rebellion. The monument was restored in 2007–2009.
+
+🥚 Easter Egg: Pokorný designed this monument in 1940, under Nazi occupation, for a writer whose historical novels about Czech resistance and rebellion were exactly the kind of nationalist material the occupying regime wanted suppressed — meaning the statue's twenty-year wait for unveiling wasn't bureaucratic delay so much as a project that simply couldn't have existed under the government that was in power when it was designed.`,
+
+      cz: `Statečný dobrodruhu, vítej u Pomníku Aloise Jiráska! Bronzový spisovatel tu navěky sedí uprostřed myšlenky, s perem v ruce a notesem na koleni — vytesal ho sochař, který návrh dokončil v roce 1940 a pak musel dvacet let čekat, než mu ho vůbec dovolili postavit.
+
+Sochař Karel Pokorný dokončil návrh sedící bronzové postavy Jiráska v roce 1940, architekt Jaroslav Fragner navrhl podstavec, ale pomník byl odhalen až v roce 1960, u nájezdu na Jiráskův most na Jiráskově náměstí na pražském Novém Městě — přímo před domem v Resslově ulici, kde spisovatel žil a zemřel. Na přední straně podstavce je deska s nápisem "Alois Jirásek 1851–1930", zatímco dva boční reliéfy tiše shrnují jeho celoživotní dílo: halapartna s letopočtem 1419 připomíná husitskou revoluci, o které psal ve svých dílech, a psí hlava s letopočtem 1695 odkazuje na jeho román "Psohlavci" o nešťastném chodském povstání. Pomník prošel restaurováním v letech 2007–2009.
+
+🥚 Velikonoční vajíčko: Pokorný navrhl tento pomník v roce 1940, za nacistické okupace, pro spisovatele, jehož historické romány o českém odporu a povstáních byly přesně tím druhem národoveckého materiálu, který si okupační režim přál umlčet — dvacetiletá čekací doba na odhalení sochy tak nebyla byrokratickým zdržením, ale spíš projektem, který za vlády, jež byla u moci v době jeho návrhu, prostě nemohl vzniknout.`,
+
+      zh: `勇敢的冒险家，欢迎来到阿洛伊斯·伊拉塞克纪念碑！这位青铜作家永远定格在沉思的一瞬——手中执笔，膝上放着笔记本——雕塑家早在1940年就完成了设计，却整整等了二十年，才终于获准将它立起来。
+
+雕塑家卡雷尔·波科尔尼（Karel Pokorný）于1940年完成了这尊伊拉塞克坐姿青铜像的设计，建筑师雅罗斯拉夫·弗拉格纳（Jaroslav Fragner）负责基座设计，但纪念碑直到1960年才正式揭幕，地点位于布拉格新城区伊拉塞克桥（Jiráskův most）引桥处的伊拉塞克广场（Jiráskovo náměstí）——正对着作家生前居住并辞世的雷斯洛瓦街寓所。基座正面刻有铭牌"Alois Jirásek 1851–1930"，两侧浮雕则默默概括了他一生的创作：一侧是标注1419年的戟形浮雕，纪念他笔下多次描写的胡斯革命；另一侧是标注1695年的犬首浮雕，取材自他的小说《犬首党人》（Psohlavci），讲述了那场以失败告终的霍多夫起义。纪念碑于2007至2009年间进行了修复。
+
+🥚 彩蛋：波科尔尼是在1940年纳粹占领时期设计这座纪念碑的，而他所纪念的这位作家，笔下那些描写捷克反抗与起义的历史小说，恰恰正是占领政权最想压制的那类民族主义题材——这座雕像等了整整二十年才得以揭幕，与其说是官僚拖延，不如说这个项目在设计之初那个当权政府统治下，本就根本不可能被允许存在。`,
+    },
+  },
+  {
+    name: 'Sylva-Taroucca Palace',
+    slug: 'palac-sylva-taroucca',
+    localizedNames: { cz: 'Palác Sylva-Taroucca', zh: '西尔瓦-塔鲁卡宫' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.08492371431868, lng: 14.424991837282922 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_Sylva-Taroucca',
+    description: {
+      en: `Brave adventurer, welcome to Sylva-Taroucca Palace! This is the only palace in Prague that can be attributed, in its entirety, to Baroque master Kilián Ignác Dientzenhofer — a level of design credit most architects only dream about.
+
+Built between 1743 and 1752 for Prince Ottavio Piccolomini on a site that had housed several older buildings since the sixteenth century, the palace occupies a long plot with two square courtyards behind a monumental three-storey public facade of bold pilasters and columns. Dientzenhofer died in 1751 before completion, and his son-in-law Anselmo Lurago finished the job. Sculptor Ignác František Platzer contributed eleven statues for the exterior — including a Satyr, a Nymph, and a Swan — some standing nearly two metres tall and now considered valuable originals of Czech Baroque sculpture.
+
+🥚 Easter Egg: The building's more casual name today, "Palác Savarin," comes from a later restaurant tenant — meaning most people walking past now know this singularly attributable Dientzenhofer masterpiece by the name of a long-gone eatery rather than the aristocratic family who once owned it.`,
+
+      cz: `Statečný dobrodruhu, vítej v Paláci Sylva-Taroucca! Tohle je jediný pražský palác, který lze v celku připsat baroknímu mistru Kiliánu Ignáci Dientzenhoferovi — úroveň autorské jistoty, o jaké si většina architektů může nechat jen zdát.
+
+Palác vznikl v letech 1743–1752 pro knížete Ottavia Piccolominiho na místě, kde od 16. století stálo několik starších domů. Zabírá protáhlou parcelu se dvěma čtvercovými dvory za monumentálním třípodlažním veřejným průčelím s výraznými pilastry a sloupy. Dientzenhofer zemřel v roce 1751 ještě před dokončením stavby a dílo dokončil jeho zeť Anselmo Lurago. Sochař Ignác František Platzer vytvořil pro exteriér jedenáct soch — mimo jiné Satyra, Nymfu a Labuť — některé vysoké téměř dva metry, dnes považované za cenné originály českého barokního sochařství.
+
+🥚 Velikonoční vajíčko: Dnešní neformální jméno budovy, "Palác Savarin", pochází od pozdějšího nájemce — restaurace. Většina kolemjdoucích tak dnes zná toto jednoznačně přiřaditelné Dientzenhoferovo mistrovské dílo spíš podle jména dávno zaniklé restaurace než podle šlechtického rodu, který ho kdysi vlastnil.`,
+
+      zh: `勇敢的冒险家，欢迎来到西尔瓦-塔鲁卡宫！这是布拉格唯一一座可以完整归功于巴洛克大师基利安·伊格纳茨·丁岑霍费尔（Kilián Ignác Dientzenhofer）的宫殿——这种设计归属的确定性，是大多数建筑师梦寐以求的荣耀。
+
+这座宫殿建于1743至1752年间，为奥塔维奥·皮科洛米尼亲王（Ottavio Piccolomini）而建，所在地块自16世纪起就矗立着几座更古老的建筑。宫殿占据一块狭长地块，两座方形庭院坐落于一面气势恢宏的三层公共立面之后，立面上装饰着醒目的壁柱与立柱。丁岑霍费尔于1751年去世时工程尚未完工，最终由他的女婿安塞尔莫·卢拉戈（Anselmo Lurago）接手完成。雕塑家伊格纳茨·弗兰季谢克·普拉策（Ignác František Platzer）为外墙创作了十一尊雕像——包括萨堤尔、仙女与天鹅像——其中部分高近两米，如今被视为捷克巴洛克雕塑中珍贵的原作。
+
+🥚 彩蛋：这栋建筑如今更广为人知的名字"萨瓦兰宫"（Palác Savarin），其实来自后来入驻此地的一家餐厅——也就是说，如今大多数路过的人，记住这座"唯一可完整归属丁岑霍费尔"的杰作，靠的是一家早已不复存在的餐馆之名，而非当年拥有它的那个贵族家族。`,
+    },
+  },
+  {
+    name: 'Slavonic House',
+    slug: 'slovansky-dum',
+    localizedNames: { cz: 'Slovanský dům', zh: '斯拉夫大厦' },
+    labels: ['historical', 'cultural'],
+    coordinates: { lat: 50.08637737282104, lng: 14.427377317399852 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Slovansk%C3%BD_d%C5%AFm',
+    description: {
+      en: `Brave adventurer, welcome to Slavonic House! A Baroque palace that spent seventy years as the social clubhouse of Prague's German-speaking elite, then got renamed the moment the war ended — Prague's naming conventions rarely wasted any time making a political point.
+
+Originally built around 1697 as a Baroque palace for Jan Bartoloměj Vernier de Rougemont, the building received a Classicist makeover in 1797 for owner Jan V. Tuskany, designed by František Heger. From 1875 to 1945, it operated as the "Deutsches Kasino," a social and political venue for Prague's German-speaking community, complete with restaurant, gaming rooms, and billiards. It was renamed Slovanský dům in 1945 and has been a protected cultural monument since 1964. A major 1998–2001 reconstruction turned it into today's multiplex cinema, restaurants, cafés, and shops.
+
+🥚 Easter Egg: The building's current name — literally "Slavonic House" — was chosen deliberately to erase seventy years of German-language social history in one stroke, making it one of the more pointed renaming decisions to come out of postwar Prague.`,
+
+      cz: `Statečný dobrodruhu, vítej ve Slovanském domě! Barokní palác, který sedmdesát let sloužil jako společenský klub pražské německy mluvící elity, a jehož jméno se změnilo doslova ve chvíli, kdy válka skončila — pražské přejmenovávání si zřídkakdy dávalo na čas s politickým vzkazem.
+
+Budova vznikla kolem roku 1697 jako barokní palác pro Jana Bartoloměje Verniera z Rougemontu, v roce 1797 prošla klasicistní přestavbou pro majitele Jana V. Tuskanyho podle návrhu Františka Hegera. Od roku 1875 do roku 1945 sloužila jako "Deutsches Kasino" — společenské a politické centrum pražské německy mluvící komunity s restaurací, hernami a kulečníkem. V roce 1945 byla přejmenována na Slovanský dům a od roku 1964 je kulturní památkou. Rozsáhlá rekonstrukce v letech 1998–2001 z ní udělala dnešní multikino, restaurace, kavárny a obchody.
+
+🥚 Velikonoční vajíčko: Dnešní jméno budovy — doslova "Slovanský dům" — bylo zvoleno záměrně, aby jedním tahem smazalo sedmdesát let německy mluvené společenské historie, což z něj dělá jedno z výmluvnějších přejmenování poválečné Prahy.`,
+
+      zh: `勇敢的冒险家，欢迎来到斯拉夫大厦！这座巴洛克宫殿，曾整整七十年间充当布拉格德语精英阶层的社交俱乐部，却在战争结束的那一刻就被立即改名——布拉格的改名向来毫不拖泥带水地表明政治立场。
+
+这栋建筑大约建于1697年，最初是为扬·巴尔托洛梅·维尔涅（Jan Bartoloměj Vernier de Rougemont）而建的巴洛克宫殿，1797年由建筑师弗兰季谢克·赫格尔（František Heger）为业主扬·V·图斯卡尼（Jan V. Tuskany）进行了古典主义风格改造。1875年至1945年间，它一直作为"德意志赌场"（Deutsches Kasino）运营，是布拉格德语社群的社交与政治活动中心，内设餐厅、游戏室与台球室。1945年更名为"斯拉夫大厦"，自1964年起被列为文物保护建筑。1998至2001年间的一次大规模改建，将其打造成如今的多厅影院、餐厅、咖啡馆与商铺综合体。
+
+🥚 彩蛋：这栋建筑如今的名字——字面意思就是"斯拉夫之家"——是经过刻意选择的，意在一举抹去这里长达七十年的德语社交历史，堪称战后布拉格最意味深长的改名决定之一。`,
+    },
+  },
+  {
+    name: "Children's House",
+    slug: 'detsky-dum-praha',
+    localizedNames: { cz: 'Dětský dům', zh: '儿童之家' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.08536169107343, lng: 14.424776778262261 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/D%C4%9Btsk%C3%BD_d%C5%AFm_(Praha)',
+    description: {
+      en: `Brave adventurer, welcome to Children's House! A functionalist office building that started life insuring Prague against disaster, briefly sold perfume with interiors by Adolf Loos, and only became a children's store five years after the Second World War ended.
+
+Built 1927–1929 to a winning 1925 competition design by architect Ludvík Kysela, the building replaced two demolished Baroque and Classicist structures and originally housed the Palace of Mutual Insurance Prague along with the Pension Institute of Czechoslovak Banking. Its tenants also included a luxury perfumery by Josef Kammela — its interior designed by pioneering modernist architect Adolf Loos, complete with a sculpted rider — and the Grand Café Prague. After the war, the building was reconstructed and reopened as "Dětský dům" (Children's House) in May 1950.
+
+🥚 Easter Egg: A building that once housed an Adolf Loos-designed perfume boutique spent the following decades known primarily for children's clothing — meaning one of interwar Prague's most sophisticated interior designers unknowingly laid the groundwork for a store selling toddler shoes.`,
+
+      cz: `Statečný dobrodruhu, vítej v Dětském domě! Funkcionalistická administrativní budova, která začínala jako pojišťovna chránící Prahu před pohromami, krátce prodávala parfémy v interiéru od Adolfa Loose, a dětským obchodem se stala až pět let po konci druhé světové války.
+
+Budova z let 1927–1929 podle vítězného soutěžního návrhu architekta Ludvíka Kysely z roku 1925 nahradila dvě zbourané barokní a klasicistní stavby a původně v ní sídlil Palác vzájemné pojišťovny Praha spolu s Penzijním ústavem československého bankovnictví. Mezi nájemci byla i luxusní parfumerie Josefa Kammely — jejíž interiér navrhl průkopnický modernistický architekt Adolf Loos, včetně sochy jezdce — a Grand Café Prague. Po válce byla budova přestavěna a v květnu 1950 znovu otevřena jako "Dětský dům".
+
+🥚 Velikonoční vajíčko: Budova, ve které kdysi sídlila parfumerie navržená Adolfem Loosem, byla další desetiletí známá především prodejem dětského oblečení — jeden z nejsofistikovanějších interiérových architektů meziválečné Prahy tak nevědomky položil základ obchodu s dětskými botičkami.`,
+
+      zh: `勇敢的冒险家，欢迎来到儿童之家！这栋功能主义风格的办公楼，最初是为保护布拉格市民免受灾祸而设立的保险公司，后来短暂开过一家由阿道夫·路斯（Adolf Loos）设计室内的高级香水店，直到二战结束五年后，才真正变成一家儿童用品商店。
+
+这栋建筑建于1927至1929年间，出自建筑师卢德维克·基塞拉（Ludvík Kysela）1925年中标的竞赛方案，取代了此前拆除的两座巴洛克与古典主义风格建筑，最初是布拉格互助保险宫与捷克斯洛伐克银行养老基金会的所在地。楼内租户还包括约瑟夫·卡梅拉（Josef Kammela）经营的高级香水店——其室内设计出自现代主义先驱建筑师阿道夫·路斯之手，还配有一尊骑士雕像——以及"布拉格大咖啡馆"（Grand Café Prague）。战后，这栋建筑经过改建，于1950年5月重新开业，更名为"儿童之家"（Dětský dům）。
+
+🥚 彩蛋：这栋楼里曾经开着一家由阿道夫·路斯亲自设计室内的香水精品店，此后数十年却主要以贩卖儿童服饰闻名——两次世界大战之间布拉格最精致的室内设计大师之一，就这样不知不觉地为一家卖童鞋的商店打下了基础。`,
+    },
+  },
+  {
+    name: 'Vienna Banking Union',
+    slug: 'videnska-bankovni-jednota',
+    localizedNames: { cz: 'Vídeňská bankovní jednota', zh: '维也纳银行联盟大楼' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.084604369439774, lng: 14.423576260943054 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Vienna Banking Union building! A monumental Art Nouveau bank headquarters built by a Prague-based German architect for a Viennese financial institution — proof that early twentieth-century Na Příkopě was basically Central Europe's banking district with better facades.
+
+Constructed 1906–1908 to a design by Prague German architect Josef Zasche, the late Art Nouveau building presents a strictly ordered four-storey, thirteen-axis facade toward Na Příkopě, articulated with pilasters, geometric window frames, and balconies centred on the main entrance. It stands as one of several grand banking palaces that transformed Na Příkopě into Prague's financial showcase street in the decades before the First World War.
+
+🥚 Easter Egg: Na Příkopě's nickname among older Praguers was once "the street of banks" — and this building's discreetly rational Art Nouveau facade, built for a Viennese institution rather than a Czech one, is a quiet reminder that Prague's most famous shopping boulevard was, for a good half-century, mostly a strip of competing vaults.`,
+
+      cz: `Statečný dobrodruhu, vítej u budovy Vídeňské bankovní jednoty! Monumentální secesní bankovní centrála, kterou pro vídeňskou finanční instituci postavil pražský německý architekt — důkaz, že ulice Na Příkopě byla na počátku 20. století v podstatě středoevropskou bankovní čtvrtí, jen s hezčími fasádami.
+
+Budovu z let 1906–1908 navrhl pražský německý architekt Josef Zasche v pozdně secesním stylu; přísně uspořádaná čtyřpodlažní, třinácti osová fasáda do ulice Na Příkopě je členěná pilastry, geometrickými okenními rámy a balkony soustředěnými kolem hlavního vchodu. Patří mezi několik velkolepých bankovních paláců, které v desetiletích před první světovou válkou proměnily Na Příkopě v pražskou finanční výkladní skříň.
+
+🥚 Velikonoční vajíčko: Starší Pražané kdysi ulici Na Příkopě přezdívali "bankovní ulice" — a decentně racionální secesní fasáda této budovy, postavené pro vídeňskou instituci, a ne českou, je tichou připomínkou, že nejslavnější pražský nákupní bulvár byl dobrou půlku století především řadou soupeřících trezorů.`,
+
+      zh: `勇敢的冒险家，欢迎来到维也纳银行联盟大楼！这是一座宏伟的新艺术风格银行总部，由一位驻布拉格的德裔建筑师为一家维也纳金融机构建造——足以证明，20世纪初的Na Příkopě街，本质上就是一条中欧银行街，只是立面更漂亮一些。
+
+这栋建筑由驻布拉格的德裔建筑师约瑟夫·扎舍（Josef Zasche）设计，建于1906至1908年间，属于晚期新艺术风格，面向Na Příkopě街的立面共四层、十三个开间，布局严谨规整，以壁柱、几何形窗框以及围绕主入口分布的阳台加以点缀。它是第一次世界大战前几十年间，将Na Příkopě街打造成布拉格金融门面街的多座宏伟银行宫殿之一。
+
+🥚 彩蛋：年长的布拉格人过去常把Na Příkopě街称为"银行街"——而这栋为维也纳机构（而非捷克本地机构）建造的、克制而理性的新艺术风格立面，正悄悄提醒着人们：这条布拉格最著名的购物大道，曾有整整半个世纪，本质上更像是一排相互竞争的金库。`,
+    },
+  },
+  {
+    name: 'Mango Building',
+    slug: 'mango-building',
+    localizedNames: { cz: 'Mango Building', zh: '芒果大厦' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.08469449892647, lng: 14.42475972685428 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Mango Building! A Neo-Baroque office block guarded by two sculpted athletes holding up a balcony — presumably so nobody forgets that even banking and paperwork can look mythologically heroic if you hire the right sculptor.
+
+Built between 1894 and 1896, the facade is clad in Hořice sandstone and decorated with sculptural work by A. Popp, including the two athlete figures flanking the entrance and stucco reliefs throughout the entrance halls. An ornate three-armed staircase winds through the interior. The building underwent a full renovation in 2003 and now offers office and commercial space while retaining much of its original decorative detail.
+
+🥚 Easter Egg: The building's current nickname comes from a later retail tenant rather than anything mythological — meaning a facade guarded by two heroic stone athletes is now best known to most Praguers as, simply, "the Mango building."`,
+
+      cz: `Statečný dobrodruhu, vítej v budově Mango! Novobarokní administrativní blok střežený dvěma sochami atletů, kteří na svých ramenou nesou balkon — patrně proto, aby nikdo nezapomněl, že i bankovnictví a papírování mohou vypadat mýticky hrdinsky, když si najmete správného sochaře.
+
+Fasáda z let 1894–1896 je obložená hořickým pískovcem a zdobená sochařskou výzdobou od A. Poppa, včetně dvou postav atletů po stranách vchodu a štukových reliéfů ve vstupních halách. Interiérem se vine bohatě zdobené trojramenné schodiště. Budova prošla kompletní renovací v roce 2003 a dnes nabízí kancelářské a obchodní prostory při zachování většiny původní dekorativní výzdoby.
+
+🥚 Velikonoční vajíčko: Dnešní přezdívka budovy nepochází z ničeho mytologického, ale od pozdějšího maloobchodního nájemce — fasáda střežená dvěma hrdinskými kamennými atlety je tak dnes většině Pražanů známá prostě jako "budova Mango".`,
+
+      zh: `勇敢的冒险家，欢迎来到Mango大厦！这栋新巴洛克风格的办公楼，入口两侧站着两尊雕塑运动员，用肩膀撑起一座阳台——大概是为了提醒大家，只要请对了雕塑家，就连银行业务与文书工作也能显得神话般英勇。
+
+这栋建筑的立面建于1894至1896年间，外覆霍日采砂岩，饰有雕塑家A·波普（A. Popp）创作的装饰，包括入口两侧的运动员雕像，以及门厅内随处可见的灰泥浮雕。室内有一座华丽的三跑楼梯蜿蜒而上。这栋建筑于2003年完成全面翻修，如今提供办公与商业空间，同时保留了大部分原始装饰细节。
+
+🥚 彩蛋：这栋建筑如今的昵称，并非源自什么神话典故，而是来自后来入驻的一家零售品牌——于是，这座由两尊英勇石雕运动员守护的立面，如今在大多数布拉格人口中，就只是简简单单的"Mango大厦"。`,
+    },
+  },
+  {
+    name: 'Black Rose House',
+    slug: 'cerna-ruze',
+    localizedNames: { cz: 'Černá Růže (Dům U Černé růže)', zh: '黑玫瑰之家' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.085118867769324, lng: 14.425266168600404 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/D%C5%AFm_U_%C4%8Dern%C3%A9_r%C5%AF%C5%BEe',
+    description: {
+      en: `Brave adventurer, welcome to the House of the Black Rose! Prague's most delicate-looking passage is actually made of reinforced concrete — proof that in architecture, as in life, looking fragile and being fragile are two very different things.
+
+The building's history stretches back to 1377, though the current Classicist house dates to 1846–1847, designed by architect Johann Heinrich Frenzel. Its famous passage, however, is a 1929–1932 addition by Oldřich Tyl — one of Europe's leading Functionalist architects, also responsible for Prague's colossal Trade Fair Palace — linking through to Panská Street via airy, glass-concrete galleries. The passage's original two-storey staircase, once considered the finest of any Prague arcade, was replaced with a double spiral staircase during a 1960s "Brussels style" makeover, before a 1996–1998 restoration returned much of the space to something closer to its 1930s character.
+
+🥚 Easter Egg: A passage engineered from reinforced concrete by the architect of one of Europe's largest Functionalist buildings still manages to feel weightless inside — the glass-concrete galleries were specifically designed to create that illusion, meaning the "airiness" here is not an accident but a deliberate structural magic trick.`,
+
+      cz: `Statečný dobrodruhu, vítej v Domě U Černé růže! Nejvzdušněji vyhlížející pasáž v Praze je ve skutečnosti postavena ze železobetonu — důkaz, že v architektuře, stejně jako v životě, vypadat křehce a být křehký jsou dvě zcela odlišné věci.
+
+Historie budovy sahá až do roku 1377, dnešní klasicistní dům ale pochází z let 1846–1847 podle návrhu architekta Johanna Heinricha Frenzela. Slavná pasáž je však přístavbou z let 1929–1932 od Oldřicha Tyla — jednoho z předních evropských funkcionalistických architektů, autora i obřího pražského Veletržního paláce — propojující dům s Panskou ulicí vzdušnými galeriemi ze sklobetonu. Původní dvoupodlažní schodiště pasáže, kdysi považované za nejkrásnější ze všech pražských pasáží, nahradilo v 60. letech při přestavbě v tzv. bruselském stylu dvojité šnekové schodiště, než rekonstrukce v letech 1996–1998 vrátila prostoru podobu bližší té z 30. let.
+
+🥚 Velikonoční vajíčko: Pasáž postavená ze železobetonu architektem jedné z největších funkcionalistických staveb Evropy přesto uvnitř působí naprosto beztížně — galerie ze sklobetonu byly navrženy přímo za účelem vyvolat tento dojem, takže ona "vzdušnost" tu není náhoda, ale záměrný konstrukční trik.`,
+
+      zh: `勇敢的冒险家，欢迎来到"黑玫瑰之家"！这条看起来是布拉格最"轻盈通透"的商业拱廊，其实是用钢筋混凝土建造的——足以证明，在建筑（以及人生）中，"看起来脆弱"和"真的脆弱"，完全是两码事。
+
+这栋建筑的历史可追溯至1377年，不过如今这座古典主义风格的房子建于1846至1847年间，由建筑师约翰·海因里希·弗伦泽尔（Johann Heinrich Frenzel）设计。而它那条著名的拱廊，其实是1929至1932年间加建的，出自奥德日赫·蒂尔（Oldřich Tyl）之手——他是欧洲功能主义建筑的领军人物之一，布拉格那座庞大的贸易博览会宫（Veletržní palác）也是他的作品——拱廊经由轻盈的玻璃混凝土回廊，一路通向潘斯卡街（Panská）。拱廊原本的两层楼梯，曾被认为是布拉格所有拱廊中最美的一座，却在60年代一次"布鲁塞尔风格"的改造中，被替换成了双螺旋楼梯，直到1996至1998年的修复，才让这处空间大体恢复了接近1930年代的原貌。
+
+🥚 彩蛋：这条由一位设计过欧洲最大功能主义建筑之一的建筑师用钢筋混凝土打造的拱廊，内部却依然能给人一种毫无重量感的感觉——玻璃混凝土回廊正是特意设计出这种错觉的，所以这里的"轻盈感"，从来都不是意外，而是一场精心策划的结构魔术。`,
+    },
+  },
+  {
+    name: 'Myslbek Palace',
+    slug: 'palac-myslbek',
+    localizedNames: { cz: 'Palác Myslbek', zh: '米斯贝克宫' },
+    labels: ['modern', 'architecture'],
+    coordinates: { lat: 50.08582184752532, lng: 14.42535506994738 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_Myslbek',
+    description: {
+      en: `Brave adventurer, welcome to Myslbek Palace! Named after an art group's long-gone exhibition pavilion, standing on a gap in the streetscape that sat empty for nearly seventy years, this building proves that in Prague, even a vacant lot can end up with more historical baggage than most finished buildings.
+
+The site opened up after Česká banka Union was demolished in 1926, and from the 1930s to the 1950s a pavilion belonging to the Myslbek art group stood here, giving the empty lot its lasting name; the rest of the plot became a small park. Despite several proposals, nothing was built here before 1996. The winning design, by architects Zdeněk Hölzel and Jan Kerel, broke ground on 4 November 1994 and was completed on 15 October 1996, becoming one of the first major post-revolution commercial buildings in central Prague, connecting Na Příkopě directly through to Ovocný trh.
+
+🥚 Easter Egg: A building now defined by luxury shopfronts and glass architecture still carries the name of an early-twentieth-century art collective whose actual pavilion vanished decades before construction even began — meaning the name outlived the art group, the pavilion, and the empty lot combined.`,
+
+      cz: `Statečný dobrodruhu, vítej v Paláci Myslbek! Pojmenovaný po dávno zaniklém výstavním pavilonu jednoho uměleckého spolku, stojící na proluce, která zela prázdnotou skoro sedmdesát let — tahle budova dokazuje, že v Praze i prázdná parcela dokáže nashromáždit víc historické zátěže než leckterá hotová stavba.
+
+Proluka vznikla po demolici České banky Union v roce 1926, a od třicátých do padesátých let tu stál pavilon umělecké skupiny Myslbek, po kterém proluka získala své trvalé jméno; zbytek pozemku se proměnil v malý park. Přes několik návrhů se tu až do roku 1996 nic nepostavilo. Vítězný návrh architektů Zdeňka Hölzela a Jana Kerela byl zahájen 4. listopadu 1994 a dokončen 15. října 1996 — stal se jednou z prvních větších porevolučních komerčních staveb v centru Prahy, propojující Na Příkopě přímo s Ovocným trhem.
+
+🥚 Velikonoční vajíčko: Budova dnes definovaná luxusními výlohami a skleněnou architekturou stále nese jméno uměleckého spolku z počátku 20. století, jehož skutečný pavilon zmizel desítky let předtím, než stavba vůbec začala — jméno tak přežilo uměleckou skupinu, pavilon i prázdnou proluku dohromady.`,
+
+      zh: `勇敢的冒险家，欢迎来到米斯贝克宫！这栋建筑以一个艺术团体早已消失的展览馆命名，坐落在一块曾闲置近七十年的城市空地上——足以证明，在布拉格，就算是一块空地，也能积累出比许多建成建筑更厚重的历史。
+
+这块空地是在1926年拆除捷克联合银行大楼后腾出来的，从30年代到50年代，这里曾坐落着"米斯贝克"（Myslbek）艺术团体的展览馆，这块空地也因此得名并沿用至今；剩下的地块则被改造成一座小公园。尽管有过多个建设方案，但直到1996年，这里始终没有真正动工。最终中标的建筑师兹德涅克·赫尔泽尔（Zdeněk Hölzel）与扬·凯雷尔（Jan Kerel）的方案于1994年11月4日破土动工，1996年10月15日竣工——成为布拉格市中心革命后最早的一批大型商业建筑之一，将Na Příkopě街与果品市场广场（Ovocný trh）直接连通。
+
+🥚 彩蛋：这栋如今以奢侈品橱窗与玻璃建筑闻名的大厦，名字依然沿用着一个20世纪初艺术团体的名号，而那个团体真正的展览馆，早在这栋建筑动工的几十年前就已消失无踪——这个名字，就这样"活得"比艺术团体、展览馆，乃至那片空地本身都要长久。`,
+    },
+  },
+  {
+    name: 'Živnostenská Bank Palace (Nekázanka)',
+    slug: 'palac-zivnostenske-banky-nekazanka',
+    localizedNames: { cz: 'Palác Živnostenské banky (Nekázanka)', zh: '实业银行宫（内卡赞卡街）' },
+    labels: ['architecture', 'historical', 'cultural'],
+    coordinates: { lat: 50.0852186232653, lng: 14.427553002408692 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_%C5%BDivnostensk%C3%A9_banky_(Na_P%C5%99%C3%ADkop%C4%9B_20)',
+    description: {
+      en: `Brave adventurer, welcome to the Živnostenská Bank Palace! Home to the first bank in the entire Austro-Hungarian Empire financed purely by Czech capital — because sometimes the most radical act available to a nineteenth-century Czech patriot was simply opening a bank account somewhere Czech.
+
+The site's history traces back to 1621, when an earlier palace rose at the corner of Na Příkopě and Nekázanka streets; after repeated rebuilding, it briefly housed the Patriotic Museum from 1845. In 1868, the Živnostenská banka pro Čechy a Moravu was founded here. Both bank buildings on the site were designed by architect Osvald Polívka: the older, Neo-Renaissance one built 1894–1896, and a younger, Art Nouveau addition completed in 1912, the two linked by covered bridges in matching styles. The Nekázanka-facing side elevation incorporates an original portal from the Nostitz Palace, with eagle and urn sculptures from the workshop of Baroque master Matyáš Bernard Braun.
+
+🥚 Easter Egg: An eighteenth-century Baroque portal by one of Bohemia's greatest sculptors was salvaged and grafted onto a nineteenth-century bank facade — meaning the building's side entrance is technically a century older than the bank it was built to serve, quietly repurposed from Braun's workshop to Polívka's balance sheet.`,
+
+      cz: `Statečný dobrodruhu, vítej v Paláci Živnostenské banky! Sídlo první banky v celé rakousko-uherské monarchii financované výhradně českým kapitálem — protože nejradikálnějším činem, který si mohl v 19. století dovolit český vlastenec, bylo někdy prostě založit si účet v české bance.
+
+Historie místa sahá až do roku 1621, kdy na rohu ulic Na Příkopě a Nekázanka vyrostl starší palác; po opakovaných přestavbách zde od roku 1845 krátce sídlilo Vlastenecké muzeum. V roce 1868 zde byla založena Živnostenská banka pro Čechy a Moravu. Obě bankovní budovy na místě navrhl architekt Osvald Polívka: starší, novorenesanční, postavenou v letech 1894–1896, a mladší, secesní přístavbu dokončenou v roce 1912, propojené krytými mosty ve shodných stylech. Boční průčelí do Nekázanky zahrnuje původní portál z Nostického paláce se sochami orlů a váz z dílny barokního mistra Matyáše Bernarda Brauna.
+
+🥚 Velikonoční vajíčko: Barokní portál z 18. století od jednoho z nejvýznamnějších českých sochařů byl zachráněn a naroubován na fasádu devatenáctistoleté banky — boční vchod budovy je tak technicky o celé století starší než banka, které měl sloužit, tiše přesunutý z Braunovy dílny na Polívkovu bilanci.`,
+
+      zh: `勇敢的冒险家，欢迎来到实业银行宫！这里曾是整个奥匈帝国境内第一家完全由捷克资本出资的银行——因为在19世纪，一位捷克爱国者能做出的最激进之举，有时候不过是在一家"捷克人的银行"里开一个账户。
+
+这块地皮的历史可追溯至1621年，当时Na Příkopě街与内卡赞卡街（Nekázanka）交汇处曾建有一座更早的宫殿；历经多次改建后，这里自1845年起短暂成为祖国博物馆的所在地。1868年，"捷克与摩拉维亚实业银行"（Živnostenská banka pro Čechy a Moravu）在此成立。地块上的两栋银行建筑均出自建筑师奥斯瓦尔德·波利夫卡（Osvald Polívka）之手：较早的一栋为新文艺复兴风格，建于1894至1896年间；较新的一栋为新艺术风格扩建，1912年完工，两栋建筑由风格相配的天桥相连。面向内卡赞卡街的侧立面上，还嵌有一座取自诺斯提茨宫（Nostitz Palace）的原始门廊，饰有巴洛克大师马佳什·伯纳德·布劳恩（Matyáš Bernard Braun）工坊制作的鹰与瓮雕塑。
+
+🥚 彩蛋：一座出自捷克最伟大雕塑家之一之手的18世纪巴洛克门廊，被完整保留下来并"嫁接"到了一栋19世纪银行建筑的立面上——也就是说，这栋建筑的侧门，严格算起来比它所服务的银行本身还要早上整整一个世纪，悄悄地从布劳恩的工坊，转移到了波利夫卡的资产负债表上。`,
+    },
+  },
+  {
+    name: 'Fruit Market Square',
+    slug: 'ovocny-trh',
+    localizedNames: { cz: 'Ovocný trh', zh: '果品市场广场' },
+    labels: ['square', 'historical'],
+    coordinates: { lat: 50.08667686968571, lng: 14.4250759979213 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Ovocn%C3%BD_trh_(Praha)',
+    description: {
+      en: `Brave adventurer, welcome to Fruit Market Square! A marketplace documented since the thirteenth century that has been renamed almost as often as it's been resold — from New Market, to Meat Market, to Royal Avenue, before finally settling on the produce that made it famous.
+
+Originally established as "Nové tržiště" (New Marketplace) to supplement the main market on Old Town Square, the space became known as "Nový trh masný" (New Meat Market) from the fourteenth century, then "Královská třída" (Royal Avenue) from the seventeenth, before receiving its current name in 1870. Well into the early twentieth century, it remained the most fragrant corner of the Old Town — packed with fresh and dried fruit, nuts, vegetables, and live birds for sale. Today the long triangular square functions as a pedestrian zone, framed by some of Prague's most significant buildings: the Estates Theatre, the House at the Black Madonna, and the Carolinum.
+
+🥚 Easter Egg: A square that spent roughly three centuries being renamed after whatever was being sold there at the time — new goods, meat, then royalty — eventually landed on "fruit," the one product it was actually famous for. Sometimes the most obvious name really is the last one you try.`,
+
+      cz: `Statečný dobrodruhu, vítej na Ovocném trhu! Tržiště doložené už od 13. století, které bylo přejmenováváno skoro stejně často, jako se prodávalo — z Nového tržiště přes Masný trh a Královskou třídu, než se nakonec ustálilo u plodiny, díky které proslulo.
+
+Prostranství vzniklo jako "Nové tržiště" na doplnění hlavního trhu na Staroměstském náměstí, od 14. století se mu říkalo "Nový trh masný", od 17. století "Královská třída", a současné jméno dostalo v roce 1870. Ještě na počátku 20. století zůstávalo nejvoňavějším koutem Starého Města — plným čerstvého i sušeného ovoce, ořechů, zeleniny a živých ptáků k prodeji. Dnes slouží podlouhlé trojúhelníkové náměstí jako pěší zóna, lemovaná některými z nejvýznamnějších pražských budov: Stavovským divadlem, Domem U Černé Matky Boží a Karolinem.
+
+🥚 Velikonoční vajíčko: Náměstí, které bylo zhruba tři století přejmenováváno podle toho, co se na něm zrovna prodávalo — nejdřív zboží obecně, pak maso, pak "královské" zboží —, nakonec skončilo u "ovoce", tedy u toho jediného, čím bylo skutečně proslulé. Někdy je nejzřejmější jméno opravdu to poslední, které vyzkoušíte.`,
+
+      zh: `勇敢的冒险家，欢迎来到果品市场广场！这处市集的历史最早可追溯至13世纪，改名的次数几乎和交易一样频繁——从"新市场"到"肉市场"，再到"皇家大道"，最终才定格在了让它扬名的那样商品上。
+
+这片空地最初被称为"新市场"（Nové tržiště），用以补充老城广场上的主市场；14世纪起改称"新肉市场"（Nový trh masný），17世纪起又改称"皇家大道"（Královská třída），直到1870年才获得如今这个名字。直到20世纪初，这里依然是老城最"香气扑鼻"的一角——摆满了新鲜与风干水果、坚果、蔬菜，还有待售的活禽。如今，这座狭长的三角形广场已被规划为步行区，四周环绕着布拉格几座最重要的建筑：城邦剧院（Estates Theatre）、黑圣母之家（House at the Black Madonna）与卡罗林努姆学院（Carolinum）。
+
+🥚 彩蛋：这座广场在大约三个世纪的时间里，一直随着当时售卖的商品而更名——先是"新货"，然后是"肉"，接着是"皇家"——最终才落在了"水果"这个它真正闻名的品类上。有时候，最显而易见的名字，恰恰是最后才被尝试的那一个。`,
+    },
+  },
+  {
+    name: 'Haas Department Store',
+    slug: 'haasuv-obchodni-dum',
+    localizedNames: { cz: 'Haasův obchodní dům', zh: '哈斯百货公司' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.084486, lng: 14.424314 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Haas%C5%AFv_obchodn%C3%AD_d%C5%AFm',
+    description: {
+      en: `Brave adventurer, welcome to Haas Department Store! Built in 1871 as Prague's very first modern department store, it came equipped with roughly 200 gas lamps and a hydraulic-powered bench that could hoist customers from basement to attic — the nineteenth century's polite way of saying "we installed an elevator, but we're still a little nervous about it."
+
+An Austrian carpet and upholstery firm, Haas & Sons, bought a medieval house on this site in 1869 and built a grand new structure in the style of the late North Italian Renaissance, completed by 1871 and preserved largely unchanged ever since. Behind the historicist facade lies a technically advanced structure with cast-iron columns and steel beams. Allegorical statues of Science, Trade, Industry, and Art, sculpted by Josef Freund, decorate the cornice between the arched windows of the upper floor.
+
+🥚 Easter Egg: Contemporary advertising for the building's hydraulic lift described it, essentially, as a moving sofa for anyone who found stairs "difficult or unpleasant" — meaning Prague's first department store elevator was marketed less as cutting-edge technology and more as a very fancy piece of furniture that happened to travel vertically.`,
+
+      cz: `Statečný dobrodruhu, vítej v Haasově obchodním domě! Postaven v roce 1871 jako úplně první moderní obchodní dům v Praze, byl vybaven zhruba dvěma sty plynovými lampami a pohodlnou pohovkou poháněnou hydraulickým strojem, která dokázala vyvézt zákazníky ze sklepa až pod střechu — devatenácté století mělo svůj zdvořilý způsob, jak říct "nainstalovali jsme výtah, ale ještě mu tak úplně nevěříme."
+
+Rakouská firma na koberce a čalounické látky Haas a synové odkoupila v roce 1869 na tomto místě středověký dům a postavila zde honosnou novostavbu ve stylu pozdní severoitalské renesance, dokončenou do roku 1871 a od té doby zachovanou bez větších změn. Za historizující fasádou se skrývá technicky pokročilá konstrukce s litinovými sloupy a ocelovými nosníky. Alegorické sochy Vědy, Obchodu, Průmyslu a Umění od sochaře Josefa Freunda zdobí římsu mezi obloukovými okny vysokého patra.
+
+🥚 Velikonoční vajíčko: Dobová reklama na hydraulický výtah budovy ho v podstatě popisovala jako pojízdné křeslo pro každého, komu bylo "stoupání po schodech obtížné nebo nemilé" — první výtah v pražském obchodním domě byl tedy propagován méně jako špičková technologie a spíš jako velmi nóbl kus nábytku, který náhodou jezdil svisle.`,
+
+      zh: `勇敢的冒险家，欢迎来到哈斯百货公司！这座建于1871年的建筑，是布拉格历史上第一家现代百货公司，配备了约200盏煤气灯，还有一张由液压装置驱动的"沙发座椅"，能把顾客从地下室一路送到阁楼——这是19世纪那种颇为委婉的说法，翻译过来就是："我们装了电梯，但心里还是有点没底。"
+
+一家名为"哈斯父子"（Haas & Sons）的奥地利地毯与家具面料公司，于1869年买下了这块地皮上的一座中世纪老宅，并在此建起了一座气派的新楼，风格模仿意大利北部晚期文艺复兴，1871年建成，此后基本未做大改动，保存至今。华丽的历史主义外墙背后，其实藏着一套在当时颇为先进的结构体系——铸铁立柱与钢梁支撑。雕塑家约瑟夫·弗罗因德（Josef Freund）创作的"科学""贸易""工业"与"艺术"寓意雕像，装点着高层拱形窗户之间的檐口。
+
+🥚 彩蛋：当年为这座建筑液压电梯打的广告，本质上把它描述成一张"移动沙发"，专为那些觉得"爬楼梯又累又烦"的顾客准备——布拉格第一家百货公司里的这部电梯，与其说是被当作前沿科技来宣传，倒不如说更像是一件恰好能上下移动的高档家具。`,
+    },
+  },
+  {
+    name: 'Czech Discount Bank',
+    slug: 'ceska-eskomptni-banka',
+    localizedNames: { cz: 'Česká eskomptní banka (Budova Komerční banky)', zh: '捷克贴现银行（现捷克商业银行大楼）' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.08699027423121, lng: 14.427263392443923 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_eskomptn%C3%AD_banka',
+    description: {
+      en: `Brave adventurer, welcome to the Czech Discount Bank building! A stately travertine bank palace that has, over its lifetime, been Czech-owned, confiscated by the Nazis, folded into a German bank, nationalised by the Communists, and finally sold to a billionaire — a corporate biography with more plot twists than most novels.
+
+The Czech Discount Bank (Česká eskomptní banka) was founded on 1 July 1863 in Prague to support and develop domestic industry. This corner building, at the junction with Celetná Street, was constructed between 1930 and 1937 to designs by architects Karel Járay and Josef Sakař: a six-storey structure clad in travertine, protected as a heritage monument since 1958. When Nazi Germany occupied Czechoslovakia, the bank was seized by the Third Reich and partly merged into Dresdner Bank. After decades as the historic headquarters of Komerční banka, the building was sold to Trinity Bank, controlled by billionaire Radomír Lapčík.
+
+🥚 Easter Egg: A bank building that began its life financing Czech industry ended up, at various points, doing the Third Reich's banking and the Communist state's banking before returning to private Czech ownership nearly 160 years after it opened — arguably the most politically eventful travertine facade on the whole street.`,
+
+      cz: `Statečný dobrodruhu, vítej u budovy České eskomptní banky! Honosný travertinový bankovní palác, který za svou existenci stihl být v českých rukou, zabaven nacisty, začleněn do německé banky, znárodněn komunisty a nakonec prodán miliardáři — firemní životopis s víc zvraty než leckterý román.
+
+Česká eskomptní banka byla založena 1. července 1863 v Praze na podporu a rozvoj domácího průmyslu. Tato nárožní budova na styku s Celetnou ulicí vznikla v letech 1930–1937 podle návrhu architektů Karla Járaye a Josefa Sakaře: šestipodlažní stavba obložená travertinem, chráněná jako kulturní památka od roku 1958. Po okupaci Československa nacistickým Německem byla banka zabavena Třetí říší a částečně sloučena s Dresdner Bank. Po desetiletích, kdy sídlila jako historické centrum Komerční banky, byla budova prodána Trinity Bank, kterou ovládá miliardář Radomír Lapčík.
+
+🥚 Velikonoční vajíčko: Bankovní budova, která začínala financováním českého průmyslu, si v různých obdobích prošla i bankovnictvím pro Třetí říši a bankovnictvím pro komunistický stát, než se téměř 160 let po svém otevření vrátila do soukromých českých rukou — možná nejpolitičtěji pestrá travertinová fasáda na celé ulici.`,
+
+      zh: `勇敢的冒险家，欢迎来到捷克贴现银行大楼！这座气派的洞石饰面银行宫殿，一生辗转多方：曾归捷克人所有，后被纳粹没收，并入德国银行，又被共产党收归国有，最终卖给了一位亿万富翁——这段企业履历，情节转折比大多数小说还要跌宕。
+
+捷克贴现银行（Česká eskomptní banka）于1863年7月1日在布拉格成立，旨在支持与发展本国工业。这栋位于与采莱特纳街（Celetná）交汇处的转角建筑，由建筑师卡雷尔·亚拉伊（Karel Járay）与约瑟夫·萨卡日（Josef Sakař）设计，建于1930至1937年间：一栋六层洞石饰面建筑，自1958年起被列为文物保护建筑。纳粹德国占领捷克斯洛伐克后，这家银行被第三帝国没收，并部分并入德累斯顿银行。此后数十年间，这里曾是捷克商业银行（Komerční banka）的历史总部所在地，如今已被出售给由亿万富翁拉多米尔·拉普契克（Radomír Lapčík）掌控的Trinity Bank。
+
+🥚 彩蛋：这座银行大楼最初是为了给捷克本土工业提供融资而设立的，此后却在不同时期先后为第三帝国和共产主义国家"打理账目"，直到开业近160年后，才终于重新回到捷克私人资本手中——堪称整条街上，政治经历最跌宕起伏的一面洞石立面。`,
+    },
+  },
+  {
+    name: 'Broadway Theatre',
+    slug: 'divadlo-broadway',
+    localizedNames: { cz: 'Divadlo Broadway', zh: '百老汇剧院' },
+    labels: ['cultural', 'architecture'],
+    coordinates: { lat: 50.08667598079999, lng: 14.426928871289594 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Divadlo_Broadway',
+    description: {
+      en: `Brave adventurer, welcome to Broadway Theatre! A cinema that survived a Nazi occupation, a rename to "Sevastopol" under communism, and a full identity crisis before finally becoming one of Prague's biggest musical theatre stages — some buildings just take the scenic route to their final purpose.
+
+Built in 1936–1938 as one of the largest Functionalist new constructions in Prague's Old Town, the Broadway Palace was designed by architects Bohumír Kozák and Antonín Černý, connecting Na Příkopě and Celetná streets on the site of older demolished houses. Its basement cinema, opened in 1938 with then-cutting-edge projection and sound equipment, was renamed "Kino Sevastopol" after the war and only reverted to its original "Broadway" name after 1989. The cinema closed in 1998, and the space was rebuilt as a theatre, opening in December 2001 with the musical "Cleopatra" on 22 February 2002.
+
+🥚 Easter Egg: A cinema that spent the Communist era named after a Soviet city renowned for withstanding a brutal siege quietly returned to its original American showbiz name the moment the regime that renamed it collapsed — arguably one of the fastest political U-turns in Prague signage history.`,
+
+      cz: `Statečný dobrodruhu, vítej v Divadle Broadway! Kino, které přežilo nacistickou okupaci, přejmenování na "Sevastopol" za komunismu i pořádnou identitní krizi, než se z něj konečně stalo jedno z největších pražských muzikálových jevišť — některé budovy si ke svému konečnému určení prostě zvolí tu delší cestu.
+
+Palác Broadway, vystavěný v letech 1936–1938 jako jedna z největších funkcionalistických novostaveb na pražském Starém Městě, navrhli architekti Bohumír Kozák a Antonín Černý; spojuje ulice Na Příkopě a Celetná na místě starších zbouraných domů. V suterénu otevřené kino z roku 1938 s tehdy nejmodernější projekční a zvukovou technikou bylo po válce přejmenováno na "Kino Sevastopol" a ke svému původnímu jménu "Broadway" se vrátilo až po roce 1989. Kino ukončilo provoz v roce 1998 a prostor byl přestavěn na divadlo, otevřené v prosinci 2001; premiéra muzikálu "Kleopatra" se konala 22. února 2002.
+
+🥚 Velikonoční vajíčko: Kino, které celou komunistickou éru neslo jméno sovětského města proslulého odolávajícím obležením, se ke svému původnímu americkému showbyznysovému jménu tiše vrátilo v okamžiku, kdy padl režim, který ho přejmenoval — možná jeden z nejrychlejších politických obratů v historii pražských nápisů.`,
+
+      zh: `勇敢的冒险家，欢迎来到百老汇剧院！这座电影院熬过了纳粹占领，在共产主义时期被改名为"塞瓦斯托波尔"，还经历过一场彻底的身份危机，才最终变成布拉格最大的音乐剧舞台之一——有些建筑走向自己最终使命的路，就是要绕这么一大圈。
+
+百老汇宫（Broadway Palace）建于1936至1938年间，是布拉格老城区规模最大的功能主义新建筑之一，由建筑师博胡米尔·科扎克（Bohumír Kozák）与安东宁·切尔尼（Antonín Černý）设计，坐落在此前几座老房子被拆除后的地块上，连接Na Příkopě街与采莱特纳街（Celetná）。地下室的电影院于1938年开业，当时配备了最先进的放映与音响设备，战后被更名为"塞瓦斯托波尔电影院"（Kino Sevastopol），直到1989年后才恢复"百老汇"这个原名。电影院于1998年停止营业，随后这处空间被改建为剧院，2001年12月开业，2002年2月22日以音乐剧《埃及艳后》（Kleopatra）首演。
+
+🥚 彩蛋：这座电影院在整个共产主义时期，一直沿用着一座以顽强抵御围城战闻名的苏联城市之名，却在改名它的那个政权垮台的那一刻，就悄悄恢复了自己最初那个充满美式演艺气息的名字——大概是布拉格招牌史上最迅速的一次政治大转弯。`,
+    },
+  },
+  {
+    name: "Men's Passage",
+    slug: 'panska-pasaz',
+    localizedNames: { cz: 'Pánská pasáž', zh: '男士拱廊' },
+    labels: ['modern', 'architecture'],
+    coordinates: { lat: 50.08646678861761, lng: 14.425040502819368 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Men's Passage! A shopping arcade that spent over a century named after a camping-gear salesman before rebranding itself, in 2010, as the first retail zone in the entire Czech Republic built exclusively for men.
+
+The passage connecting Na Příkopě and Ovocný trh was built into an older commercial building, likely shortly after two houses on the site were sold in 1872. For most of the twentieth century it was known simply as "Rathova pasáž," after Mr. Rath, whose shop here sold sporting goods, camping equipment, and tramping gear. A 2011 renovation replaced the passage's original wooden-block flooring with its current elegant interior, following the 2010 rebrand to "Pánská pasáž" — Men's Passage — the country's first shopping gallery aimed squarely at a male clientele.
+
+🥚 Easter Egg: A century of Czech shoppers knew this arcade purely by the name of a man who sold tents and hiking boots — meaning the "men's shopping" branding of 2010 wasn't actually a new idea so much as a very late rediscovery of what the passage had quietly been doing the whole time.`,
+
+      cz: `Statečný dobrodruhu, vítej v Pánské pasáži! Nákupní pasáž, která přes sto let nesla jméno prodejce táborového vybavení, než se v roce 2010 přejmenovala na první obchodní zónu v celé České republice určenou výhradně mužům.
+
+Pasáž spojující Na Příkopě a Ovocný trh vznikla ve starší obchodní budově, nejspíš krátce po prodeji dvou domů na tomto místě v roce 1872. Po většinu dvacátého století se jí prostě říkalo "Rathova pasáž", podle pana Ratha, jehož obchod tu prodával sportovní potřeby, táborové a trampské vybavení. Rekonstrukce v roce 2011 nahradila původní dlažbu ze dřevěných kostek dnešním elegantním interiérem, po přejmenování v roce 2010 na "Pánskou pasáž" — první nákupní galerii v zemi zaměřenou přímo na mužskou klientelu.
+
+🥚 Velikonoční vajíčko: Sto let čeští zákazníci znali tuhle pasáž prostě podle jména muže, který prodával stany a turistické boty — takže "pánský" branding z roku 2010 nebyl ve skutečnosti žádný nový nápad, spíš jen hodně pozdní znovuobjevení toho, co pasáž tiše dělala celou dobu.`,
+
+      zh: `勇敢的冒险家，欢迎来到男士拱廊！这条购物拱廊曾以一位露营装备商人的名字命名了一个多世纪，直到2010年才改名重塑，成为整个捷克第一个专门面向男性顾客的购物区。
+
+这条连接Na Příkopě街与果品市场广场（Ovocný trh）的拱廊，建在一栋更古老的商业建筑内，很可能是在1872年该地块上的两栋房屋出售后不久建成的。整个20世纪的大部分时间里，它一直被简单地称为"拉特拱廊"（Rathova pasáž），得名于拉特先生（Mr. Rath），他在此经营的商店专卖运动用品、露营与徒步装备。2011年的一次翻修，将拱廊原本的木块地砖替换成了如今这般优雅的室内装饰，紧随其后的是2010年更名为"男士拱廊"（Pánská pasáž）——全国第一家专门面向男性客群的购物廊。
+
+🥚 彩蛋：整整一个世纪，捷克顾客一直只知道这条拱廊的名字来自一位卖帐篷和徒步靴的商人——也就是说，2010年那次"男士购物"的品牌重塑，与其说是全新创意，不如说是对这条拱廊一直以来悄悄从事的生意，做了一次迟到已久的"官方追认"。`,
+    },
+  },
+  {
+    name: 'House of the Two Golden Bears',
+    slug: 'dum-u-dvou-zlatych-medvedu',
+    localizedNames: { cz: 'Dům U Dvou zlatých medvědů (Muzeum hlavního města Prahy)', zh: '双金熊之家（布拉格城市博物馆分馆）' },
+    labels: ['museum', 'architecture', 'historical'],
+    coordinates: { lat: 50.08616726410845, lng: 14.420858941106852 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/D%C5%AFm_U_Dvou_zlat%C3%BDch_medv%C4%9Bd%C5%AF',
+    description: {
+      en: `Brave adventurer, welcome to the House of the Two Golden Bears! One of Prague's most celebrated Renaissance doorways guards a house that later produced a war correspondent so famous he has his own commemorative plaque bolted right above where he was born.
+
+Formed from two Gothic houses and a brewery first mentioned in records in 1403, the building was substantially rebuilt in the early fifteenth century and again in the first quarter of the sixteenth, before receiving its Renaissance makeover in two stages, before 1567 and before 1600. Its famous entrance portal — heraldic bears and two male figures perched above the cornice, Ionic capitals, and richly carved floral spandrels — is tentatively attributed to architect Bonifác Wolmut. The house underwent minor changes in 1940 and a major reconstruction in the 1970s that converted it into a branch of the Museum of the City of Prague.
+
+🥚 Easter Egg: Journalist and writer Egon Erwin Kisch — one of the most famous war correspondents of the twentieth century, nicknamed "the Raging Reporter" — was born in this house in 1885, when his family owned it. A 1956 portrait plaque by sculptor Břetislav Bendy still marks the spot above the entrance on Kožná Street, quietly outranking even the bears for local fame.`,
+
+      cz: `Statečný dobrodruhu, vítej v Domě U Dvou zlatých medvědů! Jeden z nejobdivovanějších renesančních portálů v Praze střeží dům, který později přivedl na svět válečného reportéra tak slavného, že má vlastní pamětní desku přišroubovanou přímo nad místem, kde se narodil.
+
+Dům vznikl spojením dvou gotických domů a pivovaru, poprvé zmíněných v pramenech v roce 1403; podstatně přestavěn byl na počátku 15. století a znovu v první čtvrtině 16. století, než prošel renesanční přeměnou ve dvou fázích — před rokem 1567 a před rokem 1600. Jeho proslulý vstupní portál — heraldičtí medvědi a dvě mužské postavy nad římsou, iónské hlavice a bohatě řezané rostlinné výplně — je s otazníkem připisován architektu Bonifáci Wolmutovi. Dům prošel drobnými úpravami v roce 1940 a rozsáhlou rekonstrukcí v 70. letech, při níž byl adaptován na pobočku Muzea hlavního města Prahy.
+
+🥚 Velikonoční vajíčko: Novinář a spisovatel Egon Erwin Kisch — jeden z nejslavnějších válečných reportérů dvacátého století, přezdívaný "zuřivý reportér" — se v tomto domě narodil v roce 1885, kdy ho vlastnila jeho rodina. Pamětní deska od sochaře Břetislava Bendy z roku 1956 dodnes označuje místo nad vchodem z Kožné ulice a tiše zastiňuje slávou i samotné medvědy.`,
+
+      zh: `勇敢的冒险家，欢迎来到双金熊之家！布拉格最负盛名的文艺复兴式门廊之一，守护着这样一栋房子——它后来诞生了一位声名远扬的战地记者，如今他出生的地方，正上方还嵌着一块专属纪念铭牌。
+
+这栋建筑由两座哥特式房屋与一座啤酒厂合并而成，最早见于1403年的记载；15世纪初经历大规模改建，16世纪前四分之一又再次翻修，随后又分两个阶段——1567年之前与1600年之前——完成了文艺复兴风格的改造。它那扇著名的入口门廊——檐口上方的纹章熊与两尊男性人像，配以爱奥尼柱头与雕刻繁复的花卉涡卷装饰——据推测（尚存争议）出自建筑师博尼法茨·沃尔穆特（Bonifác Wolmut）之手。这栋房子在1940年经历了小规模改动，70年代又进行了一次大规模重建，将其改造为布拉格城市博物馆的一处分馆。
+
+🥚 彩蛋：记者兼作家埃贡·埃尔温·基希（Egon Erwin Kisch）——20世纪最著名的战地记者之一，绰号"狂暴记者"——于1885年在这栋当时归他家族所有的房子里出生。雕塑家布热季斯拉夫·本达（Břetislav Bendy）于1956年创作的一块肖像纪念牌，至今仍嵌在科日纳街（Kožná）一侧的入口上方，其在当地的知名度，甚至悄悄盖过了门廊上那两只熊。`,
+    },
+  },
+  {
+    name: 'Melantrichova Street',
+    slug: 'melantrichova',
+    localizedNames: { cz: 'Melantrichova', zh: '梅兰特里霍娃街' },
+    labels: ['street', 'historical'],
+    coordinates: { lat: 50.08586019216398, lng: 14.420649701976705 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Melantrichova',
+    description: {
+      en: `Brave adventurer, welcome to Melantrichova Street! A busy corridor between the Old Town Square and Na Můstku that has carried four different names over seven centuries — a sulphur trader, two obscure medieval officials, and finally a Renaissance printer all took their turn on the street sign.
+
+Laid out in the fourteenth century, the street was first called "Junošova," after Jan Junoš, a bailiff who owned a house here in 1322. Between the fifteenth and seventeenth centuries it became "Kunšova," named for Kuneš z Bělovic, a successor to Hussite general Jan Žižka. By the eighteenth century it was known as "Schwefelgasse" or "Sirková" — Sulphur Street — because sulphur was sold there. It finally received its current name in 1894, honouring Jiří Melantrich z Aventina, the Renaissance printer who bought a Malá Strana printing press, moved it across the river, and lived on this very street — then still called Sirková — from 1567 onward.
+
+🥚 Easter Egg: Melantrich published a Czech-language Bible from this street's predecessor in 1549 and reissued it seven more times — meaning one of the most consequential print runs in early Czech publishing history happened on a street that, at the time, was still officially named after sulphur.`,
+
+      cz: `Statečný dobrodruhu, vítej v Melantrichově ulici! Rušná spojnice mezi Staroměstským náměstím a Na Můstku, která za sedm století nesla čtyři různá jména — obchodníka se sírou, dva téměř zapomenuté středověké úředníky a nakonec renesančního tiskaře.
+
+Ulice vznikla ve 14. století a nejprve se jmenovala "Junošova", podle Jana Junoše, rychtáře, který zde v roce 1322 vlastnil dům. Mezi 15. a 17. stoletím se jí říkalo "Kunšova", po Kunešovi z Bělovic, nástupci husitského vojevůdce Jana Žižky. V 18. století byla známá jako "Schwefelgasse" nebo "Sirková", protože se v ní prodávala síra. Současné jméno dostala až v roce 1894, na počest Jiřího Melantricha z Aventina, renesančního tiskaře, který koupil malostranskou tiskárnu, přenesl ji přes řeku a od roku 1567 bydlel právě v této ulici — tehdy ještě nazývané Sirková.
+
+🥚 Velikonoční vajíčko: Melantrich z předchůdkyně této ulice v roce 1549 vydal českou bibli a pak ji ještě sedmkrát znovu vytiskl — jeden z nejvýznamnějších tiskových počinů raného českého knihtisku se tak odehrál na ulici, která se v té době ještě oficiálně jmenovala po síře.`,
+
+      zh: `勇敢的冒险家，欢迎来到梅兰特里霍娃街！这条连接老城广场与"小桥街"（Na Můstku）的繁忙街道，七个世纪以来先后用过四个截然不同的名字——一位硫磺商人、两位名不见经传的中世纪官员，最终才轮到一位文艺复兴时期的印刷商。
+
+这条街开辟于14世纪，最初名为"尤诺绍娃街"（Junošova），得名于1322年在此拥有房产的镇长扬·尤诺什（Jan Junoš）。15世纪至17世纪间，它改称"库涅绍娃街"（Kunšova），纪念胡斯派将领扬·杰士卡的继任者库涅什·兹·贝洛维采（Kuneš z Bělovic）。到了18世纪，这里又被称作"硫磺街"（Schwefelgasse，捷克语Sirková），因为街上曾售卖硫磺。直到1894年，它才终于获得了如今的名字，用以纪念文艺复兴时期的印刷商吉日·梅兰特里赫·兹·阿文提努斯（Jiří Melantrich z Aventina）——他买下了小城区的一家印刷所，将其迁至河对岸，并自1567年起就住在这条街上——彼时它仍被称为"硫磺街"。
+
+🥚 彩蛋：1549年，梅兰特里赫在这条街的前身街道上出版了一部捷克语《圣经》，此后又七次再版——早期捷克出版史上最具影响力的印刷成果之一，就这样诞生在一条彼时官方名称还是"硫磺"的街道上。`,
+    },
+  },
+  {
+    name: 'House of the Five Crowns',
+    slug: 'dum-u-peti-korun',
+    localizedNames: { cz: 'Dům U Pěti Korun', zh: '五皇冠之家' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.085523013031676, lng: 14.420649814066639 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/D%C5%AFm_U_P%C4%9Bti_korun',
+    description: {
+      en: `Brave adventurer, welcome to the House of the Five Crowns! A house so committed to its own branding that it painted five crowns on its facade in the fourteenth century, got named after them by 1402, and has answered to nothing else for over six hundred years since.
+
+First documented on this site in 1364, the house already bore its painted emblem of five crowns by 1402, when records first refer to it in Latin as "Apud quinque coronas." Owners named Holterberg rebuilt it by 1615 into its current, distinctive late-Renaissance form, working in a German architectural style over the older Gothic core; Baroque modifications followed in the 1740s. In 1641, Italian merchant Giovanni Battista Raimondo bought the house together with his wife Anežka — sister of the celebrated Baroque painter Karel Škréta.
+
+🥚 Easter Egg: The house's late-Renaissance facade has technically outlasted the family who commissioned it, the merchant who bought it, and the painter's sister who once lived behind it — while the five painted crowns that gave the building its name have quietly outlasted every single one of them.`,
+
+      cz: `Statečný dobrodruhu, vítej v Domě U Pěti Korun! Dům natolik oddaný vlastní značce, že si ve 14. století namaloval na fasádu pět korun, do roku 1402 podle nich dostal jméno a od té doby si přes šest set let nenechal říkat jinak.
+
+Dům je na tomto místě poprvé doložen v roce 1364 a už v roce 1402 nesl malované znamení pěti korun, kdy se o něm v pramenech poprvé mluví latinsky jako "Apud quinque coronas". Majitelé jménem Holterbergovi ho do roku 1615 přestavěli do dnešní výjimečné pozdně renesanční podoby, v německém architektonickém stylu nad starším gotickým jádrem; ve 40. letech 18. století následovaly barokní úpravy. V roce 1641 dům koupil italský kupec Giovanni Battista Raimondo spolu se svou manželkou Anežkou — sestrou proslulého barokního malíře Karla Škréty.
+
+🥚 Velikonoční vajíčko: Pozdně renesanční fasáda domu technicky přežila rodinu, která si ji nechala postavit, kupce, jenž dům koupil, i malířovu sestru, která za ní kdysi bydlela — zatímco pět namalovaných korun, po nichž dům dostal jméno, tiše přežilo úplně všechny.`,
+
+      zh: `勇敢的冒险家，欢迎来到五皇冠之家！这栋房子对自己的"品牌形象"执着到了极致——14世纪就在外墙上画了五顶皇冠，1402年便据此得名，此后六百多年，从未回应过任何其他称呼。
+
+这栋房子最早于1364年在此地被记载在案，到1402年时，外墙上已绘有五顶皇冠的图案，当时的文献中首次以拉丁文"Apud quinque coronas"（意为"在五皇冠旁"）提及此处。业主霍尔特贝格家族（Holterberg）在1615年前将其改建成如今这般独具一格的晚期文艺复兴样式，在更早的哥特式核心结构之上，采用了德式建筑风格；18世纪40年代又追加了巴洛克式的改动。1641年，意大利商人乔瓦尼·巴蒂斯塔·雷蒙多（Giovanni Battista Raimondo）连同妻子阿涅什卡（Anežka）一同买下了这栋房子——阿涅什卡正是著名巴洛克画家卡雷尔·什克雷塔（Karel Škréta）的妹妹。
+
+🥚 彩蛋：这栋房子的晚期文艺复兴外墙，如今在时间上已经"熬过"了当年委托修建它的家族、买下它的商人，以及曾在其中生活的那位画家的妹妹——而那五顶让房子得名的画中皇冠，则悄悄比他们所有人都活得更久。`,
+    },
+  },
+  {
+    name: 'Sex Machines Museum',
+    slug: 'sex-machines-museum',
+    localizedNames: { cz: 'Sex Machines Museum', zh: '性爱机器博物馆' },
+    labels: ['museum', 'architecture'],
+    coordinates: { lat: 50.08633000665065, lng: 14.42075625182345 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Sex_Machines_Museum',
+    description: {
+      en: `Brave adventurer, welcome to the Sex Machines Museum! The only museum in the world entirely dedicated to mechanical devices designed for a very specific purpose, and the one attraction on this list that Prague's own city officials publicly complained about — which, naturally, only made it more popular.
+
+Founded in 2002 from the private collection of Italian businessman Oriano Bizzocchi, who first stumbled onto historical erotic artefacts while hunting for curiosities for an unrelated museum project in San Marino, the museum spans three floors of a historic building on Melantrichova Street. More than 300 exhibits are on display, some dating back to the sixteenth century, alongside a small screening room showing early twentieth-century black-and-white erotic films on a continuous loop.
+
+🥚 Easter Egg: Shortly after opening, Prague city officials publicly criticised the museum's content as "disagreeable" — a complaint that, rather than shutting anything down, turned into some of the best free advertising the museum ever received, and helped make it one of Melantrichova Street's most visited addresses.`,
+
+      cz: `Statečný dobrodruhu, vítej v Sex Machines Museum! Jediné muzeum na světě věnované výhradně mechanickým přístrojům navrženým za velmi konkrétním účelem — a jediná atrakce na tomto seznamu, na kterou si veřejně stěžovali samotní pražští úředníci, což jí přirozeně jen zvýšilo popularitu.
+
+Muzeum založené v roce 2002 ze soukromé sbírky italského podnikatele Oriana Bizzocchiho, který na historické erotické artefakty poprvé narazil při shánění kuriozit pro nesouvisející muzejní projekt v San Marinu, zabírá tři patra historické budovy v Melantrichově ulici. K vidění je přes 300 exponátů, některé staré až z 16. století, spolu s malým promítacím sálem, kde se ve smyčce promítají černobílé erotické filmy z počátku 20. století.
+
+🥚 Velikonoční vajíčko: Krátce po otevření pražští úředníci veřejně kritizovali obsah muzea jako "nevhodný" — stížnost, která namísto uzavření provozu spíš fungovala jako jedna z nejlepších bezplatných reklam, jaké kdy muzeum dostalo, a pomohla z něj udělat jednu z nejnavštěvovanějších adres v Melantrichově ulici.`,
+
+      zh: `勇敢的冒险家，欢迎来到性爱机器博物馆！这是世界上唯一一家完全致力于展示某种特定用途机械装置的博物馆，也是这份清单上唯一一个曾被布拉格市政官员公开抱怨过的景点——而这番抱怨，自然而然地，只让它变得更受欢迎。
+
+这家博物馆创立于2002年，藏品源自意大利商人奥里亚诺·比佐基（Oriano Bizzocchi）的私人收藏，他最初是在为圣马力诺一个毫不相干的博物馆项目寻找奇珍异品时，偶然发现了这些历史情色文物。博物馆占据了梅兰特里霍娃街上一栋历史建筑的三层楼面，展出藏品超过300件，部分可追溯至16世纪，此外还设有一间小型放映厅，循环播放20世纪初的黑白情色影片。
+
+🥚 彩蛋：博物馆开业不久后，布拉格市政官员公开批评其展出内容"令人不快"——然而这番批评非但没能让博物馆关门，反倒成了它有史以来收到的最好的一次免费广告，也帮助它跻身梅兰特里霍娃街上人气最旺的地址之一。`,
+    },
+  },
+  {
+    name: 'Museum of Torture',
+    slug: 'muzeum-utrpneho-prava-a-mucicich-nastroju',
+    localizedNames: { cz: 'Muzeum útrpného práva a mučících nástrojů', zh: '酷刑博物馆' },
+    labels: ['museum', 'historical'],
+    coordinates: { lat: 50.087151302145, lng: 14.42336001153178 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Museum of Torture! Four hundred square metres of genuine medieval cellar space, roughly a hundred artefacts, and two special effects specifically engineered to make you flinch — this is not a museum that believes in a gentle introduction.
+
+Housed in reconstructed Romanesque and Gothic basement spaces beneath Celetná Street, the museum documents the practice of judicial torture — a legally sanctioned method of extracting confessions across medieval and early modern Europe — through authentic pieces and detailed replicas of devices including the iron maiden, the Spanish boot, the thumbscrew, and the notorious "pear of anguish." Wax figures placed throughout the authentic vaulted spaces, period engravings, and ambient sound effects complete the atmosphere, alongside two dedicated audiovisual set pieces: a simulated witch burning and a sword execution.
+
+🥚 Easter Egg: The museum sits inside the very same category of Romanesque and Gothic cellar architecture that most of Prague's more upscale wine bars and restaurants have spent decades converting into cosy candlelit dining rooms — proof that the exact same medieval stonework can be marketed as either "romantic" or "terrifying," entirely depending on what you choose to put inside it.`,
+
+      cz: `Statečný dobrodruhu, vítej v Muzeu útrpného práva a mučících nástrojů! Čtyři sta metrů čtverečních skutečných středověkých sklepních prostor, zhruba sto exponátů a dva speciální efekty navržené přímo za účelem, abys sebou trhl — tohle není muzeum, které věří na jemný úvod.
+
+Muzeum sídlí v rekonstruovaných románských a gotických suterénních prostorách pod Celetnou ulicí a dokumentuje praxi útrpného práva — právně uznávané metody vynucování doznání ve středověké a raně novověké Evropě — pomocí autentických kusů i detailních replik nástrojů, včetně železné panny, španělské boty, palečnice a pověstné "hrušky nářku". Voskové figuríny rozmístěné po autentických klenutých prostorách, dobové rytiny a zvukové efekty dokreslují atmosféru, spolu se dvěma speciálními audiovizuálními scénami: simulovaným upálením čarodějnice a popravou mečem.
+
+🥚 Velikonoční vajíčko: Muzeum sídlí přesně v té samé kategorii románské a gotické sklepní architektury, kterou si většina lepších pražských vinoték a restaurací celá desetiletí přestavuje na útulné jídelny při svíčkách — důkaz, že úplně stejné středověké zdivo lze prodávat buď jako "romantické", nebo jako "děsivé", čistě podle toho, co si do něj dáte.`,
+
+      zh: `勇敢的冒险家，欢迎来到酷刑博物馆！四百平方米真正的中世纪地窖空间，约一百件展品，外加两组专门设计来让你倒吸一口凉气的特效——这可不是一家相信"温和开场"的博物馆。
+
+博物馆坐落于采莱特纳街（Celetná）地下经过修复的罗马式与哥特式地窖空间中，通过真品与精细复制的刑具——包括铁处女、西班牙靴、拇指夹以及臭名昭著的"痛苦之梨"——记录了"酷刑审讯"这一在中世纪与近代早期欧洲被法律认可的逼供手段。真实拱顶空间中随处可见的蜡像、时代版画与环境音效共同营造出阴森氛围，再配上两组专属视听场景：模拟的女巫火刑与斩首处决。
+
+🥚 彩蛋：这家博物馆所在的罗马式与哥特式地窖建筑类型，恰恰与布拉格许多高档葡萄酒吧和餐厅几十年来一直在改造的那种"烛光温馨餐厅"，属于同一个建筑门类——这足以证明，一模一样的中世纪石砌空间，既可以被包装成"浪漫"，也可以被包装成"惊悚"，全看你往里面摆的是什么。`,
+    },
+  },
+  {
+    name: 'House at the Lazarus',
+    slug: 'dum-u-lazara',
+    localizedNames: { cz: 'Dům U Lazara', zh: '拉扎尔之家' },
+    labels: ['historical', 'academy'],
+    coordinates: { lat: 50.08692900811859, lng: 14.421615699187397 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the House at the Lazarus! This unassuming address on Old Town Square was, for seventeen years in the fourteenth century, the very first home of Charles University's founding college — meaning one of Central Europe's oldest universities got its start in what is now just another handsome facade on a very crowded square.
+
+Built on Romanesque foundations dating to the twelfth century and later reworked in Gothic and then Renaissance style, the house takes its name not from a decorative sign but from a historical owner. In 1366, Emperor Charles IV donated the building to Charles College — the founding institution of Charles University — which used it as its seat until 1383, when the college relocated to the Rotlev House, the building now known as the Karolinum. After the move, the house on Old Town Square reverted to Jewish ownership. Its present facade, three storeys and three window-axes wide, is crowned with a volute gable spanning its full width.
+
+🥚 Easter Egg: A building most tourists walk straight past on their way to the Astronomical Clock was, technically, ground zero for one of the oldest universities in Central Europe — the Karolinum gets all the postcards today, but for its first seventeen years, this quieter address on the square was doing the actual job.`,
+
+      cz: `Statečný dobrodruhu, vítej v Domě U Lazara! Tahle nenápadná adresa na Staroměstském náměstí byla po sedmnáct let ve 14. století úplně prvním sídlem zakládající koleje Univerzity Karlovy — jedna z nejstarších univerzit střední Evropy tak začínala v domě, který je dnes jen další pěknou fasádou na hodně přeplněném náměstí.
+
+Dům stojí na románských základech z 12. století, později přestavěných goticky a poté renesančně, a své jméno nezískal podle domovního znamení, ale podle historického majitele. V roce 1366 ho císař Karel IV. daroval Karlově koleji — zakládající instituci Univerzity Karlovy —, která v něm sídlila až do roku 1383, kdy se kolej přestěhovala do domu Rotlevů, dnes známého jako Karolinum. Po přestěhování se dům na Staroměstském náměstí vrátil zpět do židovského vlastnictví. Jeho dnešní průčelí, třípodlažní a třiosé, korunuje volutový štít táhnoucí se přes celou šířku fasády.
+
+🥚 Velikonoční vajíčko: Dům, kolem kterého většina turistů jen projde cestou k orloji, byl technicky vzato nultým bodem jedné z nejstarších univerzit ve střední Evropě — Karolinum dnes sbírá všechny pohlednice, ale prvních sedmnáct let odváděl skutečnou práci právě tenhle tišší dům na náměstí.`,
+
+      zh: `勇敢的冒险家，欢迎来到拉扎尔之家！老城广场上这处毫不起眼的建筑，在14世纪曾有整整十七年，是查理大学创始学院的第一处校舍——中欧最古老的大学之一，就是从这栋如今在拥挤广场上毫不起眼的立面里起步的。
+
+这栋房子的地基可追溯至12世纪的罗马式建筑，此后历经哥特式与文艺复兴式的多次改建，其名字并非来自装饰性的门牌标志，而是源自一位历史上的业主。1366年，查理四世皇帝将这栋房子赠予了"查理学院"（Karlova kolej）——查理大学的创始机构——学院在此办公直至1383年，随后迁往罗特列夫之家（Rotlev House），也就是如今的卡罗林努姆学院（Karolinum）。学院迁出后，这栋位于老城广场上的房子重新回归犹太人所有。如今它的立面共三层、三个开间宽，顶部是一座横贯整面立面的涡卷式山墙。
+
+🥚 彩蛋：大多数游客在赶往天文钟的路上，只会径直从这栋建筑前走过，却不知道它严格来说正是中欧最古老大学之一的"起点"——如今卡罗林努姆学院承包了所有明信片的镜头，但在最初的十七年里，真正干活的，其实是广场上这栋低调得多的房子。`,
+    },
+  },
+  {
+    name: 'Havel Market',
+    slug: 'havelske-trziste',
+    localizedNames: { cz: 'Havelské tržiště', zh: '哈维尔市场' },
+    labels: ['square', 'historical'],
+    coordinates: { lat: 50.08477084387794, lng: 14.420967977787628 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Havelsk%C3%A1_(Praha)',
+    description: {
+      en: `Brave adventurer, welcome to Havel Market! Prague's last surviving medieval marketplace has been selling fruit and vegetables on more or less the same spot since 1232 — which makes your average corner grocery store look like a fairly recent invention.
+
+Founded in 1232 and known in the Middle Ages as "Nové tržiště" (New Market), the marketplace originally sprawled across roughly three hectares, covering not just today's Havelská street but Rytířská street and Uhelný trh as well. By the sixteenth century it was the most important marketplace in all of Prague. The construction of the Old Town Market Hall between 1894 and 1896 drew much of the general commerce away, but the fruit and vegetable trade stubbornly held on, and it's still what fills the stalls today, alongside souvenirs and handicrafts for the tourist crowds.
+
+🥚 Easter Egg: Nearly eight centuries of continuous trading makes this the only preserved medieval marketplace still functioning in the middle of old Prague — everything else that once surrounded it, the wider three-hectare sprawl across three streets, has long since been absorbed into ordinary city blocks, leaving this one stretch of stalls as the last visible fragment of a genuinely enormous medieval institution.`,
+
+      cz: `Statečný dobrodruhu, vítej na Havelském tržišti! Poslední dochované středověké tržiště v Praze prodává ovoce a zeleninu na víceméně stejném místě už od roku 1232 — díky čemuž vypadá běžný obchod na rohu jako celkem nedávný vynález.
+
+Tržiště založené v roce 1232 a ve středověku známé jako "Nové tržiště" se původně rozkládalo na ploše zhruba tří hektarů a zabíralo nejen dnešní Havelskou ulici, ale i Rytířskou ulici a Uhelný trh. V 16. století bylo nejvýznamnějším tržištěm v celé Praze. Stavba Staroměstské tržnice v letech 1894–1896 odlákala velkou část obecného obchodu jinam, ale prodej ovoce a zeleniny se tvrdohlavě udržel a plní stánky dodnes, spolu se suvenýry a řemeslnými výrobky pro turisty.
+
+🥚 Velikonoční vajíčko: Téměř osm století nepřetržitého obchodování dělá z tohoto místa jediné dochované a stále fungující středověké tržiště uprostřed staré Prahy — všechno ostatní, co ho kdysi obklopovalo, ona širší třihektarová plocha přes tři ulice, dávno splynulo s běžnou městskou zástavbou, takže tenhle jediný pruh stánků zůstal posledním viditelným zbytkem opravdu obřího středověkého institutu.`,
+
+      zh: `勇敢的冒险家，欢迎来到哈维尔市场！布拉格最后一处保存至今的中世纪市集，自1232年起就一直在大致相同的地点售卖水果蔬菜——这么一比，你家街角的杂货店简直就像是昨天才发明出来的新鲜事物。
+
+这处市集始建于1232年，中世纪时被称为"新市场"（Nové tržiště），最初占地约三公顷，范围不仅包括如今的哈维尔街，还涵盖了骑士街（Rytířská）与煤炭市场广场（Uhelný trh）。到16世纪时，它已是全布拉格最重要的市场。1894至1896年间修建的老城市场大厅（Staroměstská tržnice）分流走了大部分普通商贸活动，但果蔬交易却顽强地留了下来，至今仍是这里摊位上的主角，此外还有专为游客准备的纪念品与手工艺品。
+
+🥚 彩蛋：近八个世纪不间断的交易，让这里成为老布拉格市中心唯一保存下来、至今仍在运营的中世纪市集——曾经围绕着它的那片更广阔的三公顷区域、横跨三条街道，早已被寻常的城市街区所吞并，只留下这一排摊位，成为这个曾经庞大无比的中世纪机构，如今唯一还看得见的痕迹。`,
+    },
+  },
+  {
+    name: 'Wimmer Fountain',
+    slug: 'wimmerova-kasna',
+    localizedNames: { cz: 'Wimmerova kašna', zh: '维默尔喷泉' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.083935820174645, lng: 14.42042041409974 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Wimmerova_ka%C5%A1na',
+    description: {
+      en: `Brave adventurer, welcome to the Wimmer Fountain! A Neoclassical fountain that has been relocated so many times across Prague's Old Town it has practically earned frequent-flyer status — five different addresses in just over two centuries.
+
+Carved from grey sandstone in 1797 by sculptor František Xaver Lederer, the fountain was commissioned by Jakub Wimmer to stand in front of his own palace on Národní street. From there it went on tour: to Jungmann Square, then Bethlehem Square, then Vrchlický Gardens, before finally settling in the middle of Uhelný trh in 1951, where it remains today. Its central column takes the form of a palm trunk wrapped in grapevine, topped by a standing water bird spouting from its raised beak, all set above a roughly three-by-three-metre basin.
+
+🥚 Easter Egg: In 1974 vandals damaged the fountain's original allegorical figures of Viticulture and Agriculture, which had to be replaced with copies by sculptor F. Paš — meaning the fountain you see today has survived both repeated relocation and outright vandalism, and still hasn't stopped moving around the neighbourhood's collective memory as one of the most-travelled objects in the Old Town.`,
+
+      cz: `Statečný dobrodruhu, vítej u Wimmerovy kašny! Klasicistní kašna, která se po pražském Starém Městě stěhovala tolikrát, že by si už skoro zasloužila věrnostní kartu — pět různých adres za něco málo přes dvě století.
+
+Kašnu vytesal ze šedého pískovce v roce 1797 sochař František Xaver Lederer na objednávku Jakuba Wimmera, který si ji nechal postavit před vlastním palácem na Národní třídě. Odtud se vydala na cestu: na Jungmannovo náměstí, pak na Betlémské náměstí, pak do Vrchlického sadů, než se v roce 1951 konečně usadila uprostřed Uhelného trhu, kde stojí dodnes. Její středový sloup má podobu palmového kmene omotaného vinnou révou, zakončeného stojícím vodním ptákem, z jehož zdviženého zobáku tryská voda, to vše nad zhruba tři na tři metry velkou nádrží.
+
+🥚 Velikonoční vajíčko: V roce 1974 vandalové poškodili původní alegorické sochy Vinařství a Zemědělství, které musely být nahrazeny kopiemi od sochaře F. Paše — kašna, kterou vidíš dnes, tak přežila jak opakované stěhování, tak vyloženou vandalizaci, a v kolektivní paměti čtvrti se pořád stěhuje dál jako jeden z nejcestovatelštějších objektů celého Starého Města.`,
+
+      zh: `勇敢的冒险家，欢迎来到维默尔喷泉！这座新古典主义喷泉在布拉格老城搬了太多次家，几乎攒够了"常旅客"积分——短短两百多年间，先后落脚过五个不同的地址。
+
+这座喷泉由雕塑家弗兰季谢克·克萨韦尔·莱德雷尔（František Xaver Lederer）于1797年用灰砂岩雕刻而成，委托人是雅库布·维默尔（Jakub Wimmer），他最初把喷泉安放在自己位于民族大街（Národní）的宅邸门前。此后喷泉便开始了它的"巡游"：先到扬曼广场，再到伯利恒广场（Bethlehem Square），又搬到弗尔赫利茨基花园（Vrchlický Gardens），直到1951年才最终落户煤炭市场广场（Uhelný trh）中央，并一直保留至今。喷泉的中心立柱造型为一根缠绕着葡萄藤蔓的棕榈树干，顶端立着一只昂首喷水的水鸟雕像，整体矗立在一座约三米见方的水池之上。
+
+🥚 彩蛋：1974年，破坏者损毁了喷泉原本象征"葡萄种植"与"农业"的寓意雕像，后来不得不由雕塑家F·帕什（F. Paš）重新复制补上——如今你看到的这座喷泉，不仅熬过了一次又一次的搬迁，还挺过了赤裸裸的蓄意破坏，至今仍在老城居民的集体记忆里，稳坐"搬家次数最多的地标"之一的宝座，继续"游走"下去。`,
+    },
+  },
+  {
+    name: 'Church of St. Michael the Archangel',
+    slug: 'kostel-svateho-michaela-archandela-stare-mesto',
+    localizedNames: { cz: 'Kostel svatého Michaela archanděla', zh: '圣米迦勒天使长教堂（老城）' },
+    labels: ['church', 'historical'],
+    coordinates: { lat: 50.086250969294134, lng: 14.420255481843068 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Michaela_archand%C4%9Bla_(Praha,_Star%C3%A9_M%C4%9Bsto)',
+    description: {
+      en: `Brave adventurer, welcome to the Church of St. Michael the Archangel! A Romanesque church so old that historians can't even agree on who originally built it — foreign merchants or a German congregation both have equally plausible claims.
+
+Built between 1150 and 1200 as a stone, single-nave Romanesque church, it rose during the boom years of the neighbouring market that would eventually become Old Town Square, making it one of the largest Prague churches of its era. One theory holds it was founded at the centre of a settlement of Italian, likely Venetian, merchants; another points to a German community, noting that St. Michael was traditionally considered a patron saint of Germany. The church served as one of Old Town's parish churches until 1789, when it was closed under Emperor Joseph II's religious reforms, and underwent a controversial reconstruction between 1996 and 1998.
+
+🥚 Easter Egg: A building that spent over eight centuries as consecrated ground now goes by the far more mysterious nickname "Tajemství sv. Michala" — the Secret of St. Michael — a rebrand that turns a deconsecrated medieval parish church into something that sounds suspiciously like an escape room.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kostele svatého Michaela archanděla! Románský kostel tak starý, že se historikové ani neshodnou na tom, kdo ho vlastně postavil — zahraniční kupci i německá komunita mají stejně věrohodné nároky.
+
+Kamenný jednolodní románský kostel vznikl mezi lety 1150 a 1200 v době rozkvětu sousedního tržiště, z něhož se později stalo Staroměstské náměstí, a patřil tak k největším pražským kostelům své doby. Podle jedné teorie byl založen ve středu osady italských, pravděpodobně benátských, kupců; podle druhé jde o dílo německé komunity, protože svatý Michael byl tradičně považován za patrona Německa. Kostel sloužil jako jeden z farních kostelů Starého Města až do roku 1789, kdy byl uzavřen v rámci josefínských náboženských reforem, a v letech 1996–1998 prošel kontroverzní přestavbou.
+
+🥚 Velikonoční vajíčko: Budova, která přes osm století byla posvěcenou půdou, dnes nese mnohem záhadnější přezdívku "Tajemství sv. Michala" — rebranding, díky kterému desakralizovaný středověký farní kostel zní podezřele jako úniková hra.`,
+
+      zh: `勇敢的冒险家，欢迎来到圣米迦勒天使长教堂！这座罗马式教堂年代久远到连历史学家都无法达成一致——它究竟是外国商人建的，还是一个德意志社区建的，两种说法各有道理，难分伯仲。
+
+这座石砌单中殿罗马式教堂建于1150至1200年间，正值毗邻市场（后来发展成老城广场）的繁荣时期，是当时布拉格规模最大的教堂之一。一种理论认为，它是在一处意大利（很可能是威尼斯）商人聚居地的中心建立的；另一种理论则指向一个德意志社区，理由是圣米迦勒历来被视为德意志的主保圣人。这座教堂一直是老城的教区教堂之一，直到1789年才在约瑟夫二世的宗教改革中被关闭，并于1996至1998年间经历了一次颇具争议的重建。
+
+🥚 彩蛋：这座曾作为圣地长达八个多世纪的建筑，如今拥有一个更加神秘的绰号——"圣米迦勒之谜"（Tajemství sv. Michala）——这次品牌重塑，让一座已被解除圣化的中世纪教区教堂，听起来莫名有点像密室逃脱游戏。`,
+    },
+  },
+  {
+    name: 'Michalská Street',
+    slug: 'michalska',
+    localizedNames: { cz: 'Michalská', zh: '米哈尔斯卡街' },
+    labels: ['street', 'historical'],
+    coordinates: { lat: 50.08458752822552, lng: 14.420000438146586 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Michalsk%C3%A1_(Praha)',
+    description: {
+      en: `Brave adventurer, welcome to Michalská Street! A street once so thoroughly perforated with passages that Praguers used to say it had seven holes bored straight through it — which, for a medieval street, is an unusually specific complaint.
+
+Connecting Uhelný trh with Hlavsova ulička, the street was originally named "U svatého Michala" or "Za svatým Michalem," after the twelfth-century Church of St. Michael the Archangel that once stood nearby. It briefly went by "Melounová" in the 1760s, borrowing its name from the house U Zlatého melounu (At the Golden Melon) at number 12, before settling permanently on "Michalská." The street once continued all the way through to Old Town Square, but that exit was eventually built over by the Richter family's houses.
+
+🥚 Easter Egg: Locals nicknamed this street "provrtaná sedmi děrami" — riddled with seven holes — a reference to the sheer number of passages and arcades cutting through its buildings, meaning this unassuming Old Town lane has effectively been operating as a walkable Swiss cheese for centuries.`,
+
+      cz: `Statečný dobrodruhu, vítej v Michalské ulici! Ulice kdysi tak důkladně provrtaná průchody, že se o ní Pražané říkávalo, že má sedm děr — u středověké ulice dost specifická stížnost.
+
+Ulice spojující Uhelný trh a Hlavsovu uličku se původně jmenovala "U svatého Michala" nebo "Za svatým Michalem", podle kostela svatého Michaela archanděla ze 12. století, který kdysi stál poblíž. V 60. letech 18. století se krátce jmenovala "Melounová", podle domu U Zlatého melounu na čísle 12, než se natrvalo ustálila na "Michalské". Ulice kdysi vedla až na Staroměstské náměstí, ale toto vyústění bylo nakonec zastavěno domy rodiny Richterů.
+
+🥚 Velikonoční vajíčko: Místní této ulici přezdívali "provrtaná sedmi děrami" — narážka na množství průchodů a pasáží protínajících její domy —, takže tahle nenápadná staroměstská ulička v podstatě už celá staletí funguje jako procházitelný ementál.`,
+
+      zh: `勇敢的冒险家，欢迎来到米哈尔斯卡街！这条街过去被各种通道打得千疮百孔，布拉格人都说它身上有"七个洞"——对一条中世纪街道来说，这可算是个相当具体的抱怨。
+
+这条连接煤炭市场广场（Uhelný trh）与赫拉夫索娃小巷（Hlavsova ulička）的街道，最初名为"圣米迦勒旁"（U svatého Michala）或"圣米迦勒之后"（Za svatým Michalem），得名于附近曾经矗立的12世纪圣米迦勒天使长教堂。18世纪60年代，它曾短暂改称"梅隆街"（Melounová），借用了12号"金甜瓜之家"（U Zlatého melounu）的名字，此后才永久定名为"米哈尔斯卡"（Michalská）。这条街过去曾一直通到老城广场，但那个出口后来被里希特家族的房屋堵死了。
+
+🥚 彩蛋：当地人给这条街起了个绰号，叫"被七个洞打穿"（provrtaná sedmi děrami）——指的正是穿过沿街建筑的众多通道与拱廊数量之多——也就是说，这条不起眼的老城小巷，几个世纪以来其实一直是一块"可以走进去的瑞士奶酪"。`,
+    },
+  },
+  {
+    name: 'House of the Golden Melon',
+    slug: 'dum-u-zlateho-melounu',
+    localizedNames: { cz: 'Dům U Zlatého melounu', zh: '金甜瓜之家' },
+    labels: ['architecture', 'historical', 'cultural'],
+    coordinates: { lat: 50.085274409200935, lng: 14.420057301746617 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/D%C5%AFm_U_Zlat%C3%A9ho_melounu',
+    description: {
+      en: `Brave adventurer, welcome to the House of the Golden Melon! A house so beloved by its neighbourhood that an entire street briefly changed its name to match it — melons, it turns out, once carried more local prestige than you'd expect.
+
+The building actually began as two separate medieval houses: "U Melounu," first documented in 1401 on the northern side, and "U Kryštofora," recorded from 1407 on the southern side. Both had Gothic origins dating to around 1320, with "U Melounu" later remodelled in late Gothic and then Renaissance style, while "U Kryštofora" went through its own Renaissance and Baroque transformations. After Count Rudolf Chotek bought both houses, a late-Baroque reconstruction finally unified them into a single palace, which is why the building is sometimes also called "Chotkovský." From 1828 onward, the famous Linka dance school operated here, and a 1977–1982 restoration created the ground-floor hall and exhibition space that later housed the Gallery U Zlatého melounu.
+
+🥚 Easter Egg: This house's fame briefly reshaped the entire neighbourhood's geography — Michalská street itself was renamed "Melounová" (Melon Street) in the 1760s in its honour, meaning a single house once had enough local clout to temporarily rename the street it stood on.`,
+
+      cz: `Statečný dobrodruhu, vítej v Domě U Zlatého melounu! Dům tak oblíbený u sousedů, že po něm na chvíli přejmenovali celou ulici — melouny měly kdysi zjevně větší lokální prestiž, než by člověk čekal.
+
+Budova ve skutečnosti vznikla ze dvou samostatných středověkých domů: "U Melounu", poprvé doloženého v roce 1401 na severní straně, a "U Kryštofora", zaznamenaného od roku 1407 na straně jižní. Oba měly gotické kořeny sahající kolem roku 1320; "U Melounu" byl později přestavěn pozdně goticky a poté renesančně, zatímco "U Kryštofora" prošel vlastní renesanční a barokní proměnou. Poté, co oba domy koupil hrabě Rudolf Chotek, je pozdně barokní přestavba konečně sjednotila do jednoho paláce, proto se budově občas říká i "Chotkovský". Od roku 1828 zde sídlila proslulá taneční škola Linka a restaurování v letech 1977–1982 vytvořilo v přízemí sál a výstavní prostory, kde později fungovala Galerie U Zlatého melounu.
+
+🥚 Velikonoční vajíčko: Sláva tohoto domu na chvíli přetvořila geografii celé čtvrti — samotná Michalská ulice byla v 60. letech 18. století na jeho počest přejmenována na "Melounovou", takže jeden jediný dům měl kdysi dost lokálního vlivu na to, aby dočasně přejmenoval ulici, ve které stál.`,
+
+      zh: `勇敢的冒险家，欢迎来到金甜瓜之家！这栋房子曾深受街坊喜爱，以至于整条街一度改名向它致敬——看来在当年，甜瓜在当地享有的声望，比你想象的要高得多。
+
+这栋建筑最初其实是两座独立的中世纪房屋：北侧的"甜瓜之家"（U Melounu），最早见于1401年的记载；南侧的"克里斯托弗之家"（U Kryštofora），记载始于1407年。两座房屋都可追溯到约1320年的哥特式起源；"甜瓜之家"后来经历了晚期哥特式改建，随后又改为文艺复兴风格，而"克里斯托弗之家"则经历了自己的文艺复兴与巴洛克式改造。鲁道夫·霍特克伯爵（Rudolf Chotek）买下这两栋房子后，一次晚期巴洛克风格的改建终于将它们合并成了一座完整的宫殿，因此这栋建筑有时也被称为"霍特克宫"（Chotkovský）。自1828年起，著名的林卡舞蹈学校（Linka dance school）曾在此授课；1977至1982年间的一次修复，在一楼打造出了大厅与展览空间，后来"金甜瓜画廊"（Gallery U Zlatého melounu）便在此营业。
+
+🥚 彩蛋：这栋房子的名气，曾短暂重塑了整片街区的地理面貌——18世纪60年代，米哈尔斯卡街本身一度被改名为"甜瓜街"（Melounová），以此向它致敬——也就是说，曾经有那么一段时间，仅凭一栋房子的名气，就足以让它所在的整条街临时改名。`,
+    },
+  },
+  {
+    name: 'Church of St. Ursula',
+    slug: 'kostel-svate-vorsily',
+    localizedNames: { cz: 'Kostel svaté Voršily', zh: '圣吴尔苏拉教堂' },
+    labels: ['church', 'historical'],
+    coordinates: { lat: 50.08128723694933, lng: 14.415714240762181 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9_Vor%C5%A1ily_(Praha)',
+    description: {
+      en: `Brave adventurer, welcome to the Church of St. Ursula! A High Baroque church built for an order of nuns, decorated with frescoes about the Holy Trinity, and funded in part by a nobleman famous for one of the most scandalous personal lives in Baroque Bohemia.
+
+The Ursuline nuns acquired the plot on what is now Národní třída in 1664, and the church itself was founded in 1699 to a design by architect Marcantonio Canevalle — a design that has survived intact to this day. Construction ran from 1702 to 1704, and the church was solemnly consecrated on 6 July 1704. Painter Jan Jakub Stevens of Steinfels completed the ceiling frescoes by 1707, depicting the Trinity's activity in the world across three fields, while the stucco work is attributed to Tommaso Soldatti. Of the church's six altars, the main one features an Assumption of St. Ursula painted by Jan Kryštof Liška in 1704, donated by the nobleman František Antonín Špork, whose coat of arms appears beneath it.
+
+🥚 Easter Egg: František Antonín Špork, the church's generous donor, was also one of the most flamboyant and controversial aristocrats in Bohemian history — a compulsive builder, publisher of banned books, and lifelong thorn in the side of the Jesuits — meaning this quietly devout convent church was partly bankrolled by one of the least quiet men in the entire Habsburg monarchy.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kostele svaté Voršily! Vrcholně barokní kostel postavený pro řád jeptišek, vyzdobený freskami o Nejsvětější Trojici, a částečně financovaný šlechticem proslulým jedním z nejskandálnějších osobních životů barokních Čech.
+
+Voršilky získaly pozemek na dnešní Národní třídě v roce 1664 a samotný kostel byl založen v roce 1699 podle návrhu architekta Marcantonia Canevalla — návrhu, který se dochoval v nezměněné podobě dodnes. Stavba probíhala v letech 1702–1704 a kostel byl slavnostně vysvěcen 6. července 1704. Malíř Jan Jakub Stevens ze Steinfelsu dokončil do roku 1707 stropní fresky zobrazující ve třech polích působení Trojice ve světě, štukovou výzdobu se připisuje Tommasu Soldattimu. Z šesti kostelních oltářů nese hlavní obraz Nanebevzetí svaté Voršily od Jana Kryštofa Lišky z roku 1704, darovaný šlechticem Františkem Antonínem Šporkem, jehož erb je zobrazen pod obrazem.
+
+🥚 Velikonoční vajíčko: František Antonín Špork, štědrý donátor kostela, byl zároveň jedním z nejflamboyantnějších a nejkontroverznějších šlechticů v českých dějinách — posedlý stavitel, vydavatel zakázaných knih a celoživotní trn v oku jezuitů — takže tento tiše zbožný klášterní kostel byl zčásti financován jedním z vůbec nejméně tichých mužů celé habsburské monarchie.`,
+
+      zh: `勇敢的冒险家，欢迎来到圣吴尔苏拉教堂！这座盛期巴洛克风格的教堂，是为一个修女会而建，饰有描绘圣三位一体的天顶壁画，其部分建造经费，来自一位在巴洛克波希米亚以私生活丑闻著称的贵族。
+
+乌尔苏拉修女会于1664年在如今的民族大街（Národní třída）购得地块，教堂本身则于1699年奠基，由建筑师马坎托尼奥·卡内瓦莱（Marcantonio Canevalle）设计——这份设计图纸完好保存至今，从未改动。教堂建造工程始于1702年，1704年完工，并于1704年7月6日举行隆重的祝圣仪式。画家扬·雅库布·斯蒂文斯·冯·施泰因费尔斯（Jan Jakub Stevens of Steinfels）于1707年完成了天顶壁画，分三个画面描绘了三位一体在人间的作为；灰泥装饰则据推测出自托马索·索尔达蒂（Tommaso Soldatti）之手。教堂共设六座祭坛，其中主祭坛上悬挂着扬·克里什托夫·利什卡（Jan Kryštof Liška）于1704年创作的《圣吴尔苏拉升天图》，由贵族弗兰季谢克·安东尼·什波尔克（František Antonín Špork）捐赠，画作下方还绘有他的家族纹章。
+
+🥚 彩蛋：这座教堂慷慨的捐赠人弗兰季谢克·安东尼·什波尔克，同时也是波希米亚历史上最张扬、最具争议的贵族之一——他痴迷于大兴土木，出版过禁书，一生都是耶稣会的眼中钉——也就是说，这座外表宁静虔诚的修道院教堂，其部分建造经费，竟来自整个哈布斯堡王朝里最不"安静"的一位人物。`,
+    },
+  },
+  {
+    name: 'Hollar Palace',
+    slug: 'hollar',
+    localizedNames: { cz: 'Palác Hollar (Fakulta sociálních věd UK)', zh: '霍拉尔宫（查理大学社会科学学院）' },
+    labels: ['academy', 'historical'],
+    coordinates: { lat: 50.082330367266124, lng: 14.413550236694332 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hollar_(budova)',
+    description: {
+      en: `Brave adventurer, welcome to Hollar Palace! A single building has quietly hosted a banned printmakers' society, a Communist-era journalism school, and the founding faculty of a brand-new academic discipline — all without ever changing its street address.
+
+Built in 1846 to a design by architect Josef Kaury, with the conceptual design likely by Bernard Grueber, the palace between Smetanovo nábřeží and Divadelní street took its name from the Association of Czech Graphic Artists "Hollar," which operated here until the Communist regime shut the group down in the early 1970s. The building then passed to Charles University's Faculty of Journalism, and when that faculty was rapidly dissolved amid the political upheaval of 1989–90, it became the founding — and, for a time, only — home of the newly created Faculty of Social Sciences, established on 1 June 1990. Today the building houses the Institute of Communication Studies and Journalism along with several of the faculty's research and language centres.
+
+🥚 Easter Egg: Charles University's entire modern discipline of media and communication studies effectively started in one repurposed nineteenth-century palace that had spent the previous decades doubling as a banned artists' clubhouse — meaning the birthplace of Czech academic journalism studies is the same address the Communist Party once decided was too dangerous for a printmakers' society to occupy.`,
+
+      cz: `Statečný dobrodruhu, vítej v Paláci Hollar! Jedna jediná budova tiše hostila zakázaný grafický spolek, komunistickou žurnalistickou školu i zakládající fakultu úplně nového vysokoškolského oboru — a nikdy přitom nezměnila adresu.
+
+Palác mezi Smetanovým nábřežím a Divadelní ulicí postavili v roce 1846 podle návrhu architekta Josefa Kauryho, s koncepčním návrhem pravděpodobně od Bernarda Gruebera. Své jméno získal po Sdružení českých umělců grafiků "Hollar", které tu sídlilo až do doby, kdy komunistický režim spolek na počátku 70. let zakázal. Budova pak přešla pod Fakultu žurnalistiky Univerzity Karlovy, a když byla tato fakulta v rychlém sledu politických změn let 1989–90 zrušena, stala se zakládajícím — a na nějakou dobu i jediným — sídlem nově vzniklé Fakulty sociálních věd, založené 1. června 1990. Dnes v budově sídlí Institut komunikačních studií a žurnalistiky spolu s několika výzkumnými a jazykovými centry fakulty.
+
+🥚 Velikonoční vajíčko: Celý moderní obor mediálních a komunikačních studií na Univerzitě Karlově vlastně vznikl v jedné přestavěné devatenáctistoleté palácové budově, která předchozí desetiletí strávila jako klubovna zakázaného uměleckého spolku — kolébka českých akademických žurnalistických studií tak sídlí na přesně té samé adrese, kterou komunistická strana kdysi vyhodnotila jako příliš nebezpečnou pro grafický spolek.`,
+
+      zh: `勇敢的冒险家，欢迎来到霍拉尔宫！同一栋建筑，先后悄悄容纳过一个被查禁的版画家协会、一所共产主义时期的新闻学院，以及一个全新学科的创系学院——地址却从未变过。
+
+这座位于斯梅塔纳滨河大道（Smetanovo nábřeží）与剧院街（Divadelní）之间的宫殿建于1846年，由建筑师约瑟夫·考里（Josef Kaury）设计，概念构想据推测出自贝尔纳德·格鲁伯（Bernard Grueber）之手。它的名字来自"捷克版画艺术家协会"（Hollar），该协会曾在此办公，直到20世纪70年代初被共产主义政权取缔。此后，这栋建筑归属查理大学新闻学院；1989至1990年间政局剧变，新闻学院被迅速裁撤，这里便成了新成立的社会科学学院（Faculty of Social Sciences）的创系院址——一度还是唯一的院址——该学院于1990年6月1日正式成立。如今，这栋建筑内设有传播研究与新闻学研究所，以及该学院的多个研究与语言中心。
+
+🥚 彩蛋：查理大学如今整个现代媒体与传播研究学科，其实就诞生于这样一栋经过改造的19世纪宫殿建筑里——而这栋建筑此前几十年，一直是一个被查禁的艺术团体的活动据点。也就是说，捷克学术新闻学研究的发源地，与共产党当年认定"太危险、不能让版画家协会占用"的那栋建筑，其实是同一个地址。`,
+    },
+  },
+  {
+    name: 'Dlouhá Street',
+    slug: 'dlouha',
+    localizedNames: { cz: 'Dlouhá', zh: '德劳哈街' },
+    labels: ['street', 'historical'],
+    coordinates: { lat: 50.08948572429485, lng: 14.422538853845554 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Dlouh%C3%A1_(Praha)',
+    description: {
+      en: `Brave adventurer, welcome to Dlouhá Street! A street so committed to literal-mindedness that medieval Praguers just named it after its most obvious feature — it's long, so they called it "Dlouhá," meaning exactly that, and never bothered updating the branding in seven hundred years.
+
+Emerging around the tenth century and first documented by name in the fourteenth, Dlouhá once carried one of Prague's most important medieval trade routes, connecting the marketplace that became Old Town Square to a German merchant settlement in the Petrská quarter and onward to fords near Štvanice island, linking the city to the Pojizeří region and eastern Bohemia. Along its roughly 400 metres today stand the Renaissance House at the Golden Tree, with its arcaded courtyard, the Divadlo v Dlouhé theatre, and the club Roxy — originally a 1927 cinema founded by the Jewish association Beth Haam, later converted into a FAMU film production studio under communism, and reborn as a nightclub in 1992, where the very first concert was played by American band Fugazi.
+
+🥚 Easter Egg: Dlouhá runs one-way in opposite directions depending on which stretch you're on, which means it is currently, quietly, impossible to drive a car in a straight line from one end of the street to the other — a genuinely inconvenient parting gift from a thoroughfare that has otherwise been getting people from one place to another for over a thousand years.`,
+
+      cz: `Statečný dobrodruhu, vítej v Dlouhé ulici! Ulice natolik oddaná doslovnosti, že ji středověcí Pražané pojmenovali podle jejího nejnápadnějšího rysu — je dlouhá, tak se jí prostě začalo říkat Dlouhá, přesně to, a za sedm set let se nikdo neobtěžoval branding aktualizovat.
+
+Ulice vznikla přibližně v 10. století a jménem je poprvé doložena ve 14. století. Kdysi tudy vedla jedna z nejdůležitějších středověkých obchodních cest v Praze, spojující tržiště, z něhož se stalo Staroměstské náměstí, s německou kupeckou osadou v Petrské čtvrti a dál k brodům u Štvanice, čímž zajišťovala spojení města s Pojizeřím a východními Čechami. Na jejích zhruba 400 metrech dnes stojí renesanční Dům U Zlatého stromu s arkádovým nádvořím, Divadlo v Dlouhé a klub Roxy — původně kino z roku 1927, založené židovským spolkem Beth Haam, za komunismu přeměněné na produkční studio FAMU a v roce 1992 znovuzrozené jako noční klub, kde první koncert odehrála americká kapela Fugazi.
+
+🥚 Velikonoční vajíčko: Dlouhá je jednosměrná, ale v opačných směrech podle toho, na kterém úseku zrovna jsi — což v praxi znamená, že autem dnes není možné projet celou ulici rovně z jednoho konce na druhý. Skutečně nepraktický dárek na rozloučenou od tepny, která jinak lidi spolehlivě přepravuje z místa na místo už přes tisíc let.`,
+
+      zh: `勇敢的冒险家，欢迎来到德劳哈街！这条街对"直白"二字的坚持，堪称彻底——中世纪的布拉格人干脆用它最显眼的特点来命名：这条街很长，于是就叫它"Dlouhá"（意为"长"），字面意思，七百年来没人费心更新过这个"品牌名"。
+
+这条街大约形成于10世纪，14世纪首次以此名见诸文献。当年，它曾是布拉格最重要的中世纪商路之一，连接着后来发展成老城广场的那处集市，一路通往佩特尔斯卡区（Petrská）的德意志商人聚居地，再延伸至什特瓦尼采岛（Štvanice）附近的河渡口，将这座城市与波伊济日（Pojizeří）地区及捷克东部连接了起来。如今，在这条约400米长的街道上，坐落着带拱廊庭院的文艺复兴风格建筑"金树之家"（Dům U Zlatého stromu）、德劳哈剧院（Divadlo v Dlouhé），以及夜店Roxy——它最初是1927年由犹太协会"Beth Haam"创办的电影院，共产主义时期被改造成FAMU（表演艺术学院电影电视学院）的制片工作室，1992年又重生为一家夜店，首场演出由美国乐队Fugazi带来。
+
+🥚 彩蛋：德劳哈街如今按不同路段分别实行方向相反的单行道管制——也就是说，如今开车根本不可能从这条街的一端笔直开到另一端。对于一条一千多年来始终可靠地把人们从一处送到另一处的老街道来说，这份"临别礼物"，还真是相当不方便。`,
+    },
+  },
+  {
+    name: 'Church of St. Michael the Archangel (Podolí)',
+    slug: 'kostel-svateho-michaela-archandela-podoli',
+    localizedNames: { cz: 'Kostel svatého Michaela archanděla (Podolí)', zh: '圣米迦勒天使长教堂（波多利）' },
+    labels: ['church', 'historical'],
+    coordinates: { lat: 50.05989842436619, lng: 14.420848604125952 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Michaela_archand%C4%9Bla_(Podol%C3%AD)',
+    description: {
+      en: `Brave adventurer, welcome to the Church of St. Michael the Archangel in Podolí! A parish church first recorded in 1222 that later, after 1945, found itself with a rather unusual priest — an avant-garde architect whose sister happened to be one of Czechoslovakia's best-loved comic actresses.
+
+First documented in 1222 as property of the prestigious Vyšehrad chapter, the church has Romanesque origins from the early thirteenth century, was rebuilt as an early Gothic single-nave church around 1275, and was reworked again in the second half of the fourteenth century, before a thorough 1887 renovation gave it the Neo-Romanesque appearance it wears today. A separate Baroque wooden bell tower, topped with a shingled roof and gilded cross, holds a bell dedicated to the Virgin Mary and All Saints cast in 1482 — making it older than the church's current facade by four centuries — alongside two newer bells added in 1993. A mosaic by Bohumil Jaroš decorates the entrance, and inside, a Baroque altar painting depicts St. Michael doing battle with a fallen angel.
+
+🥚 Easter Egg: After 1945, the parish priest here was Jan Rosůlek, a trained architect and former member of the avant-garde Devětsil movement — and the brother of Marie Rosůlková, one of Czechoslovakia's most beloved comic actresses, who lived nearby in a genuine Cubist building on the Rašín Embankment. Not every neighbourhood parish can claim a priest with family ties to Cubist architecture and national comedy in the same breath.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kostele svatého Michaela archanděla v Podolí! Farní kostel poprvé doložený v roce 1222, který po roce 1945 získal poněkud neobvyklého faráře — vystudovaného architekta, jehož sestra byla jednou z nejoblíbenějších komických hereček Československa.
+
+Kostel je poprvé zmíněn v roce 1222 jako majetek prestižní vyšehradské kapituly, má románské kořeny z počátku 13. století, kolem roku 1275 byl přestavěn na raně gotický jednolodní kostel a znovu upraven ve druhé polovině 14. století, než mu důkladná renovace v roce 1887 vtiskla dnešní novorománský vzhled. Samostatně stojící barokní dřevěná zvonice se šindelovou střechou a pozlaceným křížem ukrývá zvon Panny Marie a Všech svatých, ulitý v roce 1482 — je tedy o čtyři století starší než dnešní fasáda kostela — vedle dvou novějších zvonů přidaných v roce 1993. Nad vchodem zdobí kostel mozaika od Bohumila Jaroše a uvnitř barokní oltářní obraz zobrazuje svatého Michaela v boji s padlým andělem.
+
+🥚 Velikonoční vajíčko: Po roce 1945 zde byl farářem Jan Rosůlek, vystudovaný architekt a bývalý člen avantgardního uskupení Devětsil — a bratr Marie Rosůlkové, jedné z nejoblíbenějších komických hereček Československa, která bydlela poblíž ve skutečně kubistickém domě na Rašínově nábřeží. Ne každá čtvrťová farnost se může pochlubit farářem, jehož rodina má na svědomí zároveň kubistickou architekturu i celonárodní komiku.`,
+
+      zh: `勇敢的冒险家，欢迎来到波多利圣米迦勒天使长教堂！这座教区教堂最早的文字记载可追溯至1222年，1945年后，这里迎来了一位相当特别的神父——一位受过专业训练的建筑师，他的姐姐还是捷克斯洛伐克最受喜爱的喜剧女演员之一。
+
+这座教堂最早于1222年被记载为声望卓著的维谢赫拉德教士团（Vyšehrad chapter）的产业，具有13世纪初的罗马式起源，约1275年被改建为早期哥特式单中殿教堂，14世纪下半叶又经历了一次改建，直到1887年的一次彻底翻修，才赋予了它如今这副新罗马式的外观。一座独立矗立的巴洛克式木质钟楼——木瓦屋顶、顶部镀金十字架——内悬一口铸造于1482年、献给圣母与诸圣的古钟，比如今教堂的立面还要早整整四个世纪，钟楼内还有1993年新添的两口钟。教堂入口上方装饰着博胡米尔·雅罗什（Bohumil Jaroš）创作的马赛克镶嵌画，内部的巴洛克祭坛画则描绘了圣米迦勒与堕落天使搏斗的场景。
+
+🥚 彩蛋：1945年后，这里的教区神父是扬·罗苏莱克（Jan Rosůlek）——一位受过专业训练的建筑师，也是先锋艺术团体"九月社"（Devětsil）的前成员——他还是玛丽·罗苏莱科娃（Marie Rosůlková）的哥哥，后者是捷克斯洛伐克最受欢迎的喜剧女演员之一，就住在附近拉辛河岸（Rašínovo nábřeží）上一栋货真价实的立体主义风格建筑里。并不是每个街区教堂，都能同时炫耀自己的神父家族，既跟立体主义建筑，又跟全国喜剧界扯上关系。`,
+    },
+  },
+  {
+    name: 'House of the Golden Tree',
+    slug: 'dum-u-zlateho-stromu',
+    localizedNames: { cz: 'Dům U Zlatého stromu', zh: '金树之家' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.090827966083026, lng: 14.426668719115646 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/D%C5%AFm_U_Zlat%C3%A9ho_stromu_(Dlouh%C3%A1)',
+    description: {
+      en: `Brave adventurer, welcome to the House of the Golden Tree! A Renaissance merchant's house that brewed its own beer, housed a banker, slept homeless workers, and later ran Cold War-era mainframe computers — all without ever leaving Dlouhá street.
+
+Formed from two older Gothic houses and extensively rebuilt in Renaissance style between 1586 and 1608, the building gained early Baroque touches after 1648 while keeping its Renaissance layout largely intact, including a courtyard ringed with arcades on the upper floor. Its rear section held a brewery, and the house carried its own brewing rights — a genuine mark of civic status in medieval and early modern Prague. By the late eighteenth century it belonged to the prominent Prague banker Karel Ballabene, before becoming a workers' dormitory in 1926 and undergoing substantial alterations in 1927–1928, when a second floor and attic were added, the original staircase removed, and the facade significantly reworked.
+
+🥚 Easter Egg: In the twentieth century, part of this Renaissance house with its own private brewery became a workplace of the Research Institute of Mathematical Machines — the institute behind Czechoslovakia's SAPO relay computer and the domestically built EC mainframe series that powered the country's computing right up until 1989. A building that once measured its status in barrels of beer ended up, a few centuries later, measuring it in kilobytes.`,
+
+      cz: `Statečný dobrodruhu, vítej v Domě U Zlatého stromu! Renesanční kupecký dům, který si vařil vlastní pivo, hostil bankéře, nocoval dělníky bez střechy nad hlavou a později provozoval sálové počítače studené války — a to všechno, aniž by kdy opustil Dlouhou ulici.
+
+Dům vznikl spojením dvou starších gotických domů a jejich rozsáhlou renesanční přestavbou v letech 1586–1608, po roce 1648 získal raně barokní úpravy při zachování v podstatě renesanční dispozice, včetně nádvoří lemovaného arkádami v patře. V zadní části domu byl pivovar a dům měl vlastní právo várečné — skutečnou známku občanského statusu ve středověké a raně novověké Praze. Koncem 18. století patřil význačnému pražskému bankéři Karlu Ballabenemu, než se v roce 1926 proměnil v dělnickou noclehárnu a v letech 1927–1928 prošel zásadními úpravami, při nichž přibylo druhé patro a podkroví, bylo odstraněno původní schodiště a výrazně přestavěna fasáda.
+
+🥚 Velikonoční vajíčko: Ve 20. století se část tohoto renesančního domu s vlastním pivovarem stala pracovištěm Výzkumného ústavu matematických strojů — instituce stojící za československým reléovým počítačem SAPO a domácí řadou sálových počítačů EC, které poháněly tuzemskou výpočetní techniku až do roku 1989. Dům, který svůj status kdysi měřil v sudech piva, tak o pár století později měřil status v kilobajtech.`,
+
+      zh: `勇敢的冒险家，欢迎来到金树之家！这是一栋文艺复兴风格的商人宅邸——自酿啤酒、接待过银行家、收留过无家可归的工人，后来还运营过冷战时期的大型计算机——而这一切，全都发生在德劳哈街这同一栋房子里，从未挪过窝。
+
+这栋建筑由两座更古老的哥特式房屋合并而成，并于1586至1608年间经历了大规模的文艺复兴风格改建；1648年后又添加了早期巴洛克元素，但基本保留了文艺复兴时期的格局，包括楼上一圈环绕着拱廊的庭院。房子后部曾设有一座啤酒厂，且这栋房子拥有自己的"酿造权"（právo várečné）——在中世纪与近代早期的布拉格，这可是实打实的市民身份象征。到18世纪末，房子归属布拉格著名银行家卡雷尔·巴拉贝内（Karel Ballabene）所有，1926年被改造成工人宿舍，1927至1928年间又经历了大规模改建：加盖了二层与阁楼，拆除了原有楼梯，外立面也被大幅改动。
+
+🥚 彩蛋：到了20世纪，这栋拥有自家啤酒厂的文艺复兴老宅，其中一部分竟成了"数学机器研究所"（Výzkumný ústav matematických strojů）的办公场所——正是这家机构研发出了捷克斯洛伐克的SAPO继电器计算机，以及国产EC系列大型机，一直支撑着捷克斯洛伐克的计算机产业直到1989年。一栋曾经用"啤酒桶数量"衡量身份地位的房子，几个世纪后，衡量单位变成了"千字节"。`,
+    },
+  },
+  {
+    name: 'House of the Golden Cross',
+    slug: 'dum-zlaty-kriz',
+    localizedNames: { cz: 'Dům Zlatý kříž', zh: '金十字之家' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.088356, lng: 14.421804 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/D%C5%AFm_Zlat%C3%BD_k%C5%99%C3%AD%C5%BE',
+    description: {
+      en: `Brave adventurer, welcome to the House of the Golden Cross! A building whose entire personality can be summed up by a single gilded sun-and-cross relief above its door — and whose twentieth-century renovation history reads suspiciously like a building that just could not stop remodeling itself.
+
+Standing on Old Town Square between the Goltz-Kinský Palace and the House of the Golden Elephant, the site originally held two Gothic houses, later reworked in Baroque style, before both were demolished in 1904 during a wave of Old Town redevelopment. The current building went up in 1906 to a design by architect Richard Klenka and builder Václav Romováček, its three-storey, three-axis facade decorated in Mannerist-revival style with cherubs, vines, and floral motifs, crowned by a triangular pediment bearing the gilded sun-and-cross relief that gives the house its name. It has since been altered in 1923, 1925, 1928, 1939, 1958, 1972, and 1993 — a genuinely restless renovation record for a building barely a century old.
+
+🥚 Easter Egg: One of those 1939 alterations converted part of the building into a funeral home — meaning that for a stretch of the twentieth century, this address and its next-door neighbour, the House of the Golden Elephant, were both quietly in the funeral business at the same time, on the single most photographed square in the country.`,
+
+      cz: `Statečný dobrodruhu, vítej v Domě Zlatý kříž! Budova, jejíž celou osobnost lze shrnout do jediného pozlaceného reliéfu slunce s křížem nad dveřmi — a jejíž dvacátostoletá rekonstrukční historie čte se podezřele jako příběh domu, který se prostě nedokázal přestat přestavovat.
+
+Dům stojí na Staroměstském náměstí mezi Palácem Goltz-Kinských a Domem U Zlatého slona. Na místě původně stály dva gotické domy, později přestavěné barokně, než byly v roce 1904 oba zbourány v rámci vlny přestaveb Starého Města. Současná budova vznikla v roce 1906 podle návrhu architekta Richarda Klenky a stavitele Václava Romováčka; její třípodlažní, třiosá fasáda je zdobená v manýristickém duchu putti, révou a rostlinnými motivy a korunována trojúhelníkovým štítem s pozlaceným reliéfem slunce s křížem, po němž dům dostal jméno. Od té doby byla budova upravována v letech 1923, 1925, 1928, 1939, 1958, 1972 a 1993 — skutečně neposedný rekonstrukční záznam na dům, kterému ještě není ani sto let.
+
+🥚 Velikonoční vajíčko: Jedna z úprav z roku 1939 proměnila část budovy v pohřební ústav — takže po nějakou dobu ve dvacátém století provozovaly tuto adresu i sousední Dům U Zlatého slona tiše pohřební služby zároveň, a to na nejfotografovanějším náměstí v celé zemi.`,
+
+      zh: `勇敢的冒险家，欢迎来到金十字之家！一栋建筑的全部"性格"，几乎可以用门楣上方那枚镀金"太阳与十字"浮雕来概括——而它20世纪的翻修史，读起来简直像是一栋停不下来的"改建成瘾"建筑的自白。
+
+这栋建筑坐落于老城广场，位于戈尔茨-金斯基宫（Goltz-Kinský Palace）与金象之家之间。这块地皮上原本矗立着两座哥特式房屋，后来改建为巴洛克风格，1904年在老城大规模改建浪潮中双双被拆除。如今的建筑建于1906年，由建筑师理查德·克伦卡（Richard Klenka）设计、建造商瓦茨拉夫·罗莫瓦切克（Václav Romováček）承建；其三层、三开间的立面以矫饰主义风格的小天使、藤蔓与花卉图案装饰，顶部是一座三角山墙，上面正是那枚让这栋房子得名的镀金"太阳与十字"浮雕。此后，这栋建筑又先后于1923年、1925年、1928年、1939年、1958年、1972年与1993年经历改建——对一栋还不到百岁的建筑来说，这份翻修记录堪称"闲不下来"。
+
+🥚 彩蛋：1939年的其中一次改建，把部分楼层改成了一家殡仪馆——也就是说，在20世纪的某段时间里，这栋房子和隔壁的金象之家，竟同时悄悄经营着殡葬生意，而地点还是全国被拍照次数最多的一座广场。`,
+    },
+  },
+  {
+    name: 'House of the Golden Elephant',
+    slug: 'dum-u-zlateho-slona',
+    localizedNames: { cz: 'Dům U Zlatého slona', zh: '金象之家' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.088457, lng: 14.421813 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/D%C5%AFm_U_Zlat%C3%A9ho_slona',
+    description: {
+      en: `Brave adventurer, welcome to the House of the Golden Elephant! A tavern that has stood on this corner since medieval times, once witnessed a man thrown to his death from its own windows, and later served as the secret nerve centre of an entire national uprising.
+
+Documented as far back as 1357 under owner Franca Rokczaner, the house takes its name from a neighbouring building at the corner of Týnská lane, first mentioned in a 1427 chronicle; the two were later joined into one. In 1428, Hussite captain Hynek z Kolštejna was found dead here after being thrown from a window — a grim local precedent to Prague's more famous defenestrations. Count Václav Josef Cukr z Tamfeldu gave the house a late-Baroque makeover around 1719, and after passing through Jewish ownership in the nineteenth century and then to the City of Prague in 1902, the medieval structure was controversially demolished in 1904 and rebuilt in 1905 by architect František Schlaffer in Neo-Baroque style, with sculpted details and historical frescoes.
+
+🥚 Easter Egg: On 5 May 1945, the Czech National Council issued the order to launch the Prague Uprising from inside this building, making it the secret command centre of the city's final rebellion against Nazi occupation — before intense street fighting forced the council to abandon the premises and relocate several times over the following two days. Decades later, under communism, the ground-floor tavern was nicknamed "U rakviček" ("At the Little Coffins"), after the Prague Funeral Service moved in next door, and quietly became an informal meeting spot for dissident intellectuals.`,
+
+      cz: `Statečný dobrodruhu, vítej v Domě U Zlatého slona! Hospoda, která na tomto rohu stojí už od středověku, kdysi byla svědkem muže vyhozeného k smrti z vlastních oken, a později sloužila jako tajné velitelské centrum celého národního povstání.
+
+Dům je doložen už od roku 1357, kdy ho vlastnil Franca Rokczaner, a své jméno získal po sousední budově na rohu Týnské uličky, poprvé zmíněné v kronice z roku 1427; obě budovy byly později spojeny v jednu. V roce 1428 tu byl nalezen mrtvý husitský hejtman Hynek z Kolštejna, vyhozený z okna — ponurý místní předchůdce mnohem slavnějších pražských defenestrací. Hrabě Václav Josef Cukr z Tamfeldu domu kolem roku 1719 vtiskl pozdně barokní podobu, a po devatenáctém století v židovském vlastnictví a přechodu do majetku města Prahy v roce 1902 byla středověká stavba v roce 1904 kontroverzně zbourána a v roce 1905 znovu postavena podle návrhu architekta Františka Schlaffera v novobarokním stylu, se sochařskou výzdobou a historickými freskami.
+
+🥚 Velikonoční vajíčko: 5. května 1945 vydala Česká národní rada právě z této budovy rozkaz k zahájení Pražského povstání — dům se tak stal tajným velitelským centrem posledního povstání města proti nacistické okupaci, než intenzivní pouliční boje radu donutily budovu opustit a v následujících dvou dnech se několikrát přesunout. O desetiletí později, za komunismu, dostala hostinská v přízemí přezdívku "U rakviček", poté co se vedle nastěhovala Pohřební služba hlavního města Prahy, a tiše se stala neformálním místem setkávání disidentských intelektuálů.`,
+
+      zh: `勇敢的冒险家，欢迎来到金象之家！这家小酒馆自中世纪起就一直矗立在这个街角，曾目睹一名男子被从自家窗口扔出致死，后来还成了一整场全国起义的秘密指挥中枢。
+
+这栋房子的记载最早可追溯至1357年，业主为弗兰卡·罗克扎内尔（Franca Rokczaner），其名字来自附近提恩巷（Týnská）拐角处的一栋邻楼，该楼最早见于1427年的编年史记载；两栋房屋后来合并为一体。1428年，胡斯派上尉希内克·兹·科尔什泰因（Hynek z Kolštejna）被人从窗口扔出后死于此地——比后来更著名的几次布拉格"掷出窗外事件"，还要早上不少，堪称一次阴森的"本地先例"。约1719年，瓦茨拉夫·约瑟夫·楚克尔·兹·坦费尔特伯爵（Václav Josef Cukr z Tamfeldu）将房子改造成了晚期巴洛克风格。19世纪归属犹太人所有，1902年转归布拉格市政府，这座中世纪建筑于1904年在争议声中被拆除，1905年由建筑师弗兰季谢克·施拉费尔（František Schlaffer）设计重建，采用新巴洛克风格，饰有雕塑细节与历史题材壁画。
+
+🥚 彩蛋：1945年5月5日，捷克民族委员会（Česká národní rada）正是在这栋建筑内下达了发动布拉格起义的命令——这里因此成了这座城市对抗纳粹占领的最后一场反抗行动的秘密指挥中枢，直到激烈的巷战迫使委员会撤离，并在接下来的两天里多次转移驻地。几十年后，在共产主义时期，一楼的小酒馆得了个绰号叫"棺材馆"（U rakviček），因为布拉格市殡葬服务处搬进了隔壁——这里也因此悄悄成了持不同政见知识分子的非正式聚会场所。`,
+    },
+  },
+  {
+    name: 'Merkur Trade Association House',
+    slug: 'dum-obchodnickeho-spolku-merkur',
+    localizedNames: { cz: 'Dům obchodnického spolku Merkur', zh: '墨丘利商会大楼' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.088778, lng: 14.419389 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/D%C5%AFm_obchodnick%C3%A9ho_spolku_Merkur',
+    description: {
+      en: `Brave adventurer, welcome to the Merkur Trade Association House! A building so committed to its patron deity that it put the Roman god of commerce's actual head on the corner of the facade, flanked by dragon gargoyles for good measure.
+
+Designed by architect Jan Vejrych in 1902 and built in 1903–1904 on Pařížská street in Josefov, the building served as the headquarters of the Merkur trade association, founded in 1862 to promote commercial education, mutual support, and social connections among Prague's merchants, and active until 1918. Its historicizing, Art Nouveau-inflected facade piles on the ornament: paired double windows, corbelled balconies, a corner bay window ringed with semicircular arcades, dormers, turrets, dragon-shaped gargoyles, and an onion dome on a gabled roof. Sculptor Antonín Popp carved the corner relief of Mercury's head, along with allegorical reliefs representing the four continents, tying the whole building's decoration back to trade and commerce.
+
+🥚 Easter Egg: Opera singer Otakar Mařák once lived in this building, and sculptor Jan Kavan carved his bust into a wall niche at the corner, where it remains today — meaning the god of commerce and merchants isn't the only face keeping watch over Pařížská street from this facade.`,
+
+      cz: `Statečný dobrodruhu, vítej v Domě obchodnického spolku Merkur! Budova natolik oddaná svému patronu, že si na roh fasády pověsila přímo hlavu římského boha obchodu, obklopenou pro jistotu ještě chrliči ve tvaru draků.
+
+Budovu navrhl architekt Jan Vejrych v roce 1902 a postavena byla v letech 1903–1904 v Pařížské ulici v Josefově jako sídlo obchodnického spolku Merkur, založeného v roce 1862 za účelem rozvoje obchodního vzdělávání, vzájemné podpory a společenských styků pražských obchodníků, a činného až do roku 1918. Historizující, secesí prostoupená fasáda hromadí ozdoby: sdružená dvojitá okna, balkony na krakorcích, rohový arkýř lemovaný půlkruhovými arkádami, vikýře, věžičky, chrliče ve tvaru draků a cibulovou báň na štítové střeše. Sochař Antonín Popp vytesal rohový reliéf Merkurovy hlavy spolu s alegorickými reliéfy zobrazujícími čtyři světadíly, čímž propojil celou výzdobu budovy s tématem obchodu.
+
+🥚 Velikonoční vajíčko: V této budově kdysi bydlel operní pěvec Otakar Mařák, jehož bystu vytesal sochař Jan Kavan do nikoly ve zdi na rohu domu, kde se nachází dodnes — takže bůh obchodu a obchodníků není jediná tvář, která z téhle fasády hlídá Pařížskou ulici.`,
+
+      zh: `勇敢的冒险家，欢迎来到墨丘利商会大楼！这栋建筑对自己的守护神真是"忠心耿耿"——干脆把罗马商业之神的头像直接嵌在了转角立面上，两侧还配了龙形滴水兽壮胆。
+
+这栋建筑由建筑师扬·维伊里赫（Jan Vejrych）于1902年设计，1903至1904年间建成于约瑟夫城区（Josefov）的巴黎街（Pařížská），最初是墨丘利商会（Merkur trade association）的总部所在地。该协会成立于1862年，旨在推动商业教育、互助合作与布拉格商人之间的社交往来，一直运作到1918年。这栋建筑历史主义与新艺术运动风格交融的立面，装饰堆叠得极为丰富：成对的双联窗、悬臂式阳台、饰有半圆形连拱的转角凸窗、老虎窗、小塔楼、龙形滴水兽，以及山墙屋顶上的洋葱形穹顶。雕塑家安东宁·波普（Antonín Popp）雕刻了转角处的墨丘利头像浮雕，还创作了象征"四大洲"的寓意浮雕，将整栋建筑的装饰主题都与贸易和商业紧密相连。
+
+🥚 彩蛋：歌剧歌唱家奥塔卡尔·马拉克（Otakar Mařák）曾在这栋楼里居住过，雕塑家扬·卡万（Jan Kavan）为他雕刻了一尊半身像，如今仍嵌在楼角的墙龛之中——也就是说，从这面立面上俯瞰巴黎街的，可不只有商业之神墨丘利这一张面孔。`,
+    },
+  },
+  {
+    name: 'Revoluční Street',
+    slug: 'revolucni',
+    localizedNames: { cz: 'Revoluční', zh: '雷沃卢奇尼街' },
+    labels: ['street', 'historical'],
+    coordinates: { lat: 50.09077530735142, lng: 14.427759146428857 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Revolu%C4%8Dn%C3%AD_(Praha)',
+    description: {
+      en: `Brave adventurer, welcome to Revoluční Street! A wide, busy thoroughfare that a 1617 inspection report memorably described as "a muddy ditch from the Powder Gate to the Vltava, piles of rubbish everywhere, silt and mud" — which is quite a starting point for a street that would later become one of Prague's main arteries.
+
+Running roughly north to south from Náměstí Republiky to Štefánikův most, Revoluční traces the line of Old Town's medieval fortifications, laid out along the same axis as today's Národní, 28. října, and Na Příkopě. It also happens to be a genuine administrative border: odd-numbered addresses on the western side belong to Old Town, while even-numbered addresses on the eastern side fall under New Town. The street only became a proper continuous boulevard after the demolition of the old Elišky Baths and the construction of Emperor Franz Joseph I's chain bridge between 1865 and 1868, which finally gave the muddy ditch somewhere worthwhile to lead.
+
+🥚 Easter Egg: A single street here quietly separates Prague's two oldest medieval towns, meaning you can stand on one side of Revoluční and be technically in a different, nine-hundred-year-old municipality than the person standing directly across the road — a border so understated most pedestrians cross it several times a day without ever noticing.`,
+
+      cz: `Statečný dobrodruhu, vítej v Revoluční ulici! Široká rušná třída, kterou komisařská zpráva z roku 1617 nezapomenutelně popsala jako "blátivou strouhu od Prašné brány až k Vltavě, všude haldy odpadků, nános a bláto" — dost nevalný začátek pro ulici, která se později stane jednou z hlavních pražských tepen.
+
+Revoluční vede zhruba severojižním směrem od Náměstí Republiky ke Štefánikovu mostu a kopíruje trasu středověkého opevnění Starého Města, vytyčenou ve stejné ose jako dnešní Národní, 28. října a Na Příkopě. Zároveň jde o skutečnou administrativní hranici: lichá čísla na západní straně patří Starému Městu, sudá na východní straně Novému Městu. Ulice se v souvislý bulvár proměnila až po zboření starých Eliščiných lázní a stavbě řetězového mostu císaře Františka Josefa I. v letech 1865–1868, díky čemuž bahnitá strouha konečně dostala smysluplný cíl.
+
+🥚 Velikonoční vajíčko: Jediná ulice tu tiše odděluje dvě nejstarší pražská středověká města — takže když stojíš na jedné straně Revoluční, technicky vzato stojíš v jiné, devět set let staré městské části, než člověk stojící přímo naproti přes ulici. Hranice tak nenápadná, že ji většina chodců několikrát denně přejde a vůbec si toho nevšimne.`,
+
+      zh: `勇敢的冒险家，欢迎来到雷沃卢奇尼街（Revoluční）！1617年一份市政视察报告，曾令人难忘地把这条如今宽阔繁忙的大道描述为"从火药塔一直到伏尔塔瓦河的一条泥泞水沟，到处是垃圾堆、淤泥与烂泥"——对一条日后将成为布拉格主干道之一的街道来说，这个起点着实不太体面。
+
+雷沃卢奇尼街大致呈南北走向，从共和国广场（Náměstí Republiky）一直延伸到斯特凡尼克桥（Štefánikův most），沿线正是老城中世纪城墙的走向，与如今的民族大街、十月二十八日街与Na Příkopě街处于同一轴线之上。它同时也是一条真正的行政分界线：西侧单号门牌属于老城，东侧双号门牌则属于新城。这条街直到1865至1868年间——伊丽莎白浴场（Eliščiny lázně）被拆除、弗朗茨·约瑟夫一世皇帝的铁链桥建成之后——才最终变成一条连贯的林荫大道，这条泥沟也总算有了一个像样的去处。
+
+🥚 彩蛋：一条街，悄悄分隔开了布拉格两座最古老的中世纪城区——也就是说，当你站在雷沃卢奇尼街的一侧时，从行政区划上讲，你其实身处一个与马路正对面那位行人所在城区截然不同、已有九百年历史的辖区。这条分界线低调到，大多数行人一天要跨越好几次，却从未察觉。`,
+    },
+  },
+  {
+    name: 'Batex Palace',
+    slug: 'palac-batex',
+    localizedNames: { cz: 'Palác Batex', zh: '巴泰克斯宫' },
+    labels: ['historical', 'cultural'],
+    coordinates: { lat: 50.089812364579124, lng: 14.427711670949977 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_Batex',
+    description: {
+      en: `Brave adventurer, welcome to Batex Palace! A functionalist office building that, tucked behind its unremarkable facade, once housed the single most important gathering place for Prague's gay and lesbian community during the entire First Czechoslovak Republic.
+
+Built in 1928–1929 to a design by architect Max Spielmann on land cleared by demolishing older residential buildings near Náměstí Republiky, the palace's most consequential tenant was a nightclub and theatrical hall called Batex. Run first by Stanislav Bartoš and later Antonín Steimar, it hosted evening parties and masquerade balls through the 1930s, including drag performances, and became the favoured venue for Prague's wealthier gay clientele. Lesbian rights activist Jana Mattuschová was also a regular, and editorial staff behind the magazine "Hlas sexuální menšiny" (Voice of the Sexual Minority) — published by Steimar and edited by brothers Vojtěch and František Černý — met there as well.
+
+🥚 Easter Egg: This building was, for over a decade, an openly functioning centre of LGBT social life and activism in the middle of interwar Prague — decades before such a thing was legally or socially conceivable across most of Europe. That freedom ended abruptly with the Second Republic and Nazi occupation, when persecution of sexual minorities intensified sharply, making Batex's brief run a genuine historical rarity rather than the norm.`,
+
+      cz: `Statečný dobrodruhu, vítej v Paláci Batex! Funkcionalistická administrativní budova, která za svou nenápadnou fasádou kdysi ukrývala zdaleka nejvýznamnější setkávací místo pražské gay a lesbické komunity za celé první republiky.
+
+Palác postavený v letech 1928–1929 podle návrhu architekta Maxe Spielmanna na pozemku uvolněném demolicí starších obytných domů poblíž Náměstí Republiky měl svého nejvýznamnějšího nájemce v podobě nočního klubu a divadelního sálu Batex. Provozovaný nejprve Stanislavem Bartošem a později Antonínem Steimarem hostil ve 30. letech večírky a maškarní plesy včetně dragových vystoupení a stal se oblíbeným místem pro movitější pražskou gay klientelu. Pravidelně sem docházela i aktivistka za lesbická práva Jana Mattuschová a scházela se tu i redakce časopisu "Hlas sexuální menšiny", který vydával Steimar a redigovali bratři Vojtěch a František Černý.
+
+🥚 Velikonoční vajíčko: Tato budova byla přes deset let otevřeně fungujícím centrem LGBT společenského života a aktivismu uprostřed meziválečné Prahy — o desítky let dřív, než bylo něco podobného právně nebo společensky myslitelné ve většině Evropy. Tato svoboda náhle skončila s druhou republikou a nacistickou okupací, kdy pronásledování sexuálních menšin prudce zesílilo, takže krátké fungování Batexu bylo spíš skutečnou historickou výjimkou než normou.`,
+
+      zh: `勇敢的冒险家，欢迎来到巴泰克斯宫！这栋功能主义风格的办公楼，外表毫不起眼，却在捷克斯洛伐克第一共和国整个时期，曾是布拉格男女同性恋群体最重要的聚集地。
+
+这栋宫殿建于1928至1929年间，由建筑师马克斯·施皮尔曼（Max Spielmann）设计，建在共和国广场附近拆除旧民宅后腾出的地块上，其中最具影响力的租户是一家名为"Batex"的夜总会兼剧场厅。这里最初由斯坦尼斯拉夫·巴尔托什（Stanislav Bartoš）经营，后来由安东宁·施泰马尔（Antonín Steimar）接手，整个30年代举办过无数晚会与化装舞会，其中不乏变装表演，也成为布拉格较为富裕的男同性恋群体最青睐的场所。女同性恋权益活动家雅娜·马图绍娃（Jana Mattuschová）也是这里的常客，杂志《性少数之声》（Hlas sexuální menšiny，由施泰马尔出版，沃伊捷赫与弗兰季谢克·切尔尼兄弟编辑）的编辑团队也常在此聚会。
+
+🥚 彩蛋：这栋建筑曾在长达十多年的时间里，公开充当着两次大战之间布拉格LGBT社交与维权活动的中心——比欧洲大多数地区在法律或社会层面能够想象这种事情，早了整整几十年。这份自由随着第二共和国与纳粹占领戛然而止，当时针对性少数群体的迫害急剧加剧——这也让Batex那段短暂的存在，成了名副其实的历史特例，而非常态。`,
+    },
+  },
+  {
+    name: 'Merkur Palace',
+    slug: 'palac-merkur',
+    localizedNames: { cz: 'Palác Merkur', zh: '墨丘利保险大楼' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.0922756301018, lng: 14.427202194021579 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_Merkur',
+    description: {
+      en: `Brave adventurer, welcome to Merkur Palace! A functionalist office block designed to have a twin — architect Jaroslav Fragner planned two matching buildings to flank Revoluční street symmetrically, but only got around to building one of them.
+
+Constructed in 1934–1936 on a site previously occupied by five nineteenth-century houses, the eight-storey building takes its name from the First Republic-era insurance company Merkur, who commissioned it — not to be confused with the unrelated nineteenth-century merchants' association building of the same name over in Josefov. Its construction only became possible thanks to the regulation of the Vltava riverbank carried out in the early 1930s, and its main facade faces Revoluční street at the southern end of Štefánikův most.
+
+🥚 Easter Egg: Fragner's original 1934 vision called for a mirror-image building on the opposite side of Revoluční, which would have framed the street with matching functionalist facades — but the second half of the plan was never realised, leaving this Merkur standing here alone, forever missing its architectural other half.`,
+
+      cz: `Statečný dobrodruhu, vítej v Paláci Merkur! Funkcionalistická administrativní budova navržená tak, aby měla dvojče — architekt Jaroslav Fragner plánoval dvě zrcadlově symetrické stavby lemující Revoluční ulici, ale k realizaci se dostal jen u jedné z nich.
+
+Osmipodlažní budova z let 1934–1936 vznikla na místě pěti devatenáctistoletých domů a své jméno nese po pojišťovně Merkur z období první republiky, která si ji objednala — nezaměňovat s nesouvisející devatenáctistoletou budovou obchodnického spolku stejného jména na druhém konci Josefova. Její výstavba byla možná až díky regulaci vltavského břehu provedené na počátku 30. let a hlavní fasáda hledí do Revoluční ulice na jižní straně Štefánikova mostu.
+
+🥚 Velikonoční vajíčko: Fragnerova původní vize z roku 1934 počítala se zrcadlovou stavbou na protější straně Revoluční, která by ulici lemovala shodnými funkcionalistickými fasádami z obou stran — druhá polovina plánu ale nikdy nevznikla, takže tenhle Merkur tu navěky stojí sám, s chybějící architektonickou druhou polovinou.`,
+
+      zh: `勇敢的冒险家，欢迎来到墨丘利保险大楼！这栋功能主义风格的办公楼，本该有一个"双胞胎"——建筑师雅罗斯拉夫·弗拉格纳（Jaroslav Fragner）原本计划在雷沃卢奇尼街两侧对称建造两栋一模一样的建筑，但最终只完成了其中一栋。
+
+这栋八层建筑建于1934至1936年间，原址曾坐落着五栋19世纪的房屋，其名字来自委托建造它的第一共和国时期保险公司"墨丘利"（Merkur）——切勿与约瑟夫城区那栋名字相同、却毫不相干的19世纪商人协会建筑混淆。这栋楼的建造，得益于20世纪30年代初对伏尔塔瓦河岸的整治工程，其主立面正对着雷沃卢奇尼街，位于斯特凡尼克桥南端桥头。
+
+🥚 彩蛋：弗拉格纳1934年的原始构想，是在雷沃卢奇尼街对面再造一栋镜像建筑，让整条街两侧都由对称的功能主义立面所环绕——然而这份规划的后半部分从未实现，于是这栋墨丘利保险大楼，就这样孤零零地矗立至今，永远缺了它那本该存在的建筑"另一半"。`,
+    },
+  },
+  {
+    name: 'Štefánik Bridge',
+    slug: 'stefanikuv-most',
+    localizedNames: { cz: 'Štefánikův most', zh: '斯特凡尼克桥' },
+    labels: ['bridge', 'historical'],
+    coordinates: { lat: 50.09431918123573, lng: 14.426967096374812 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C5%A0tef%C3%A1nik%C5%AFv_most',
+    description: {
+      en: `Brave adventurer, welcome to Štefánik Bridge! A crossing that has changed its name almost as often as its regime — from an emperor, to a Slovak independence hero, to a Czech composer, and back again, all within about eighty years.
+
+The first bridge here, an elegant chain suspension design by two young London engineers, Rordisch and Lefeuvre, opened on 13 May 1868 with Emperor Franz Joseph I himself in attendance, and was named in his honour. As motor traffic and trams outgrew it, the ageing structure was banned to trucks in the 1930s and finally dismantled starting in 1946. Its replacement — the reinforced-concrete, three-span bridge you cross today, 182 metres long and designed by Vlastislav Hofman and Otakar Širc — opened to road and tram traffic on 29 September 1951.
+
+🥚 Easter Egg: The bridge was renamed Štefánikův most in 1919 to honour Slovak astronomer, aviator, and independence-movement politician Milan Rastislav Štefánik, kept that name until 1940, spent five years as "most Leoše Janáčka" during the Nazi occupation, then reverted to Štefánikův most from 1945 to 1947 — a genuinely unusual case of a bridge's name tracking Czechoslovakia's twentieth-century political upheavals almost in real time.`,
+
+      cz: `Statečný dobrodruhu, vítej na Štefánikově mostě! Most, který měnil jméno skoro tak často jako režimy — od císaře přes slovenského hrdinu nezávislosti až po českého skladatele a zase zpátky, a to všechno během necelých osmdesáti let.
+
+První most na tomto místě, elegantní řetězová visutá konstrukce od dvou mladých londýnských inženýrů Rordische a Lefeuvra, byl otevřen 13. května 1868 za osobní účasti císaře Františka Josefa I., po němž dostal i jméno. Jak provoz aut a tramvají rostl nad jeho možnosti, stárnoucí konstrukce byla ve 30. letech uzavřena pro nákladní auta a od roku 1946 se začala demontovat. Jeho nástupce — dnešní železobetonový most o třech polích, 182 metrů dlouhý, navržený Vlastislavem Hofmanem a Otakarem Šircem — byl pro silniční i tramvajový provoz otevřen 29. září 1951.
+
+🥚 Velikonoční vajíčko: Most byl v roce 1919 přejmenován na Štefánikův na počest slovenského astronoma, letce a politika hnutí za nezávislost Milana Rastislava Štefánika, jméno si podržel do roku 1940, pět let za nacistické okupace se jmenoval "most Leoše Janáčka" a v letech 1945–1947 se vrátil zpět ke jménu Štefánikův — opravdu neobvyklý případ mostu, jehož jméno takřka v reálném čase kopírovalo dvacetistoletá politická otřesy Československa.`,
+
+      zh: `勇敢的冒险家，欢迎来到斯特凡尼克桥！这座桥梁改名的频率，几乎快赶上政权更迭的速度——从一位皇帝，到一位斯洛伐克独立英雄，再到一位捷克作曲家，最后又改回来，前后不到八十年。
+
+这里最早的一座桥，是由两位年轻的伦敦工程师罗迪什（Rordisch）与勒费夫尔（Lefeuvre）设计的优雅铁链悬索桥，于1868年5月13日正式开通，弗朗茨·约瑟夫一世皇帝亲自出席了开幕典礼，桥也因此以他的名字命名。随着汽车与有轨电车的通行量逐渐超出其承载能力，这座老化的桥梁在20世纪30年代被禁止卡车通行，并于1946年开始拆除。如今你所走过的这座桥——一座钢筋混凝土结构、三跨设计、全长182米、由弗拉斯季斯拉夫·霍夫曼（Vlastislav Hofman）与奥塔卡尔·希尔茨（Otakar Širc）设计——于1951年9月29日正式通车（含道路与有轨电车）。
+
+🥚 彩蛋：这座桥于1919年被更名为"斯特凡尼克桥"，以纪念斯洛伐克天文学家、飞行员兼独立运动政治家米兰·拉斯季斯拉夫·斯特凡尼克（Milan Rastislav Štefánik），这个名字一直沿用到1940年；纳粹占领期间，它又改名为"莱奥什·雅纳切克桥"（most Leoše Janáčka），持续了五年；1945至1947年间，桥名又改回"斯特凡尼克桥"——这座桥的名字几乎实时追随着捷克斯洛伐克20世纪的历次政治剧变，堪称一个相当罕见的案例。`,
+    },
+  },
+  {
+    name: 'Hotel Kings Court & Hilton Prague Old Town',
+    slug: 'hotel-kings-court-hilton-old-town',
+    localizedNames: { cz: 'Hotel Kings Court / Hilton Prague Old Town', zh: '国王庭院酒店（布拉格老城希尔顿）' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.088663383522146, lng: 14.428062769255765 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Hotel Kings Court, right next door to Hilton Prague Old Town! One of these buildings sits on the site of an actual medieval royal palace; the other is a 1990s glass-and-granite tower that shares only a neighbourhood and a name mix-up with its unrelated Karlín cousin, Hilton Prague.
+
+King Wenceslas IV commissioned a grand royal palace here as a modern alternative to Prague Castle, and it went on to serve as a residence for later rulers including Sigismund of Luxembourg and Jiří of Poděbrady, before falling into disrepair and being sold to nobility in the sixteenth century. The site later became a barracks and military academy, was bought by Živnostenská banka in 1900, and demolished to make way for the Neo-Renaissance Palace of the Chamber of Trade and Commerce. That palace was carefully restored into the five-star Hotel Kings Court, which opened in November 2009 with 139 rooms and a grand Franz Josef I Ballroom. Right beside it, the nine-storey Art Deco-style Hilton Prague Old Town, built in 1993 and renovated in 2007 and 2018, rises directly above Náměstí Republiky metro station.
+
+🥚 Easter Egg: Confused Hilton guests are not just imagining things — there really are two unrelated Hilton-branded hotels in Prague roughly twenty minutes apart, and this one, sitting practically on top of a six-hundred-year-old royal palace site, is the "Old Town" one. If your Prague hotel confirmation says simply "Hilton Prague" with a view of a business park in Karlín, you're at the wrong address entirely.`,
+
+      cz: `Statečný dobrodruhu, vítej v Hotelu Kings Court, hned vedle Hiltonu Prague Old Town! Jedna z těchto budov stojí na místě skutečného středověkého královského paláce; druhá je skleněná a žulová věž z 90. let, která se svým nesouvisejícím karlínským bratrancem Hilton Prague sdílí jen sousedství a matoucí podobnost jména.
+
+Král Václav IV. si zde nechal postavit velkolepý královský palác jako moderní alternativu k Pražskému hradu, který později sloužil jako sídlo i pozdějším panovníkům, včetně Zikmunda Lucemburského a Jiřího z Poděbrad, než zchátral a byl v 16. století prodán šlechtě. Místo se později stalo kasárnami a vojenskou akademií, v roce 1900 ho koupila Živnostenská banka a nechala zbourat, aby na jeho místě postavila novorenesanční Palác obchodní a živnostenské komory. Tento palác byl pečlivě zrekonstruován na pětihvězdičkový Hotel Kings Court, otevřený v listopadu 2009 se 139 pokoji a velkolepým sálem Franze Josefa I. Hned vedle se nad stanicí metra Náměstí Republiky tyčí devítipodlažní Hilton Prague Old Town v art deco stylu, postavený v roce 1993 a renovovaný v letech 2007 a 2018.
+
+🥚 Velikonoční vajíčko: Zmatení hosté Hiltonu si to nevymýšlejí — v Praze skutečně existují dva nesouvisející hotely značky Hilton, vzdálené od sebe zhruba dvacet minut chůze, a tenhle, stojící prakticky na místě šest set let starého královského paláce, je ten "Old Town". Pokud vaše pražská rezervace hotelu zní jen "Hilton Prague" a nabízí výhled na byznys park v Karlíně, jste na úplně jiné adrese.`,
+
+      zh: `勇敢的冒险家，欢迎来到国王庭院酒店，就在布拉格老城希尔顿酒店隔壁！这两栋建筑中，一栋坐落在一座真正的中世纪王宫遗址之上；另一栋则是一座建于1990年代的玻璃花岗岩高楼，与它那栋位于卡林（Karlín）、毫不相干的"表亲"——布拉格希尔顿（Hilton Prague）——除了名字容易搞混，彼此之间再无任何关系。
+
+瓦茨拉夫四世国王曾在此地下令建造一座宏伟的王宫，作为布拉格城堡的现代化替代方案；此后，这里又先后成为西吉斯蒙德（Sigismund of Luxembourg）与波杰布拉德的伊日（Jiří z Poděbrad）等后世统治者的居所，直至逐渐荒废，于16世纪被卖给了贵族。这块地皮后来先后变成兵营与军事学院，1900年被实业银行（Živnostenská banka）买下并拆除，在原址建起了新文艺复兴风格的"商业与工商会宫"。这座宫殿后来被精心修复，改建为五星级的国王庭院酒店，于2009年11月开业，设139间客房，还配有气派的"弗朗茨·约瑟夫一世宴会厅"。紧邻它的，是一栋九层的装饰艺术风格建筑——布拉格老城希尔顿，建于1993年，2007年与2018年两次翻修，就矗立在共和国广场地铁站正上方。
+
+🥚 彩蛋：那些订错希尔顿的困惑住客，并不是自己搞错了——布拉格确实有两家互不相干、却都挂着希尔顿招牌的酒店，两者相距大约二十分钟步行路程，而眼前这一家，几乎就建在一座有六百年历史的王宫遗址正上方，正是那家"老城"（Old Town）分店。如果你在布拉格订的酒店确认单上只写着"Hilton Prague"，窗外看到的却是卡林的商务园区，那你恐怕订错了地方。`,
+    },
+  },
+  {
+    name: 'ROXY Prague',
+    slug: 'roxy-prague',
+    localizedNames: { cz: 'Roxy', zh: '罗克西夜店（ROXY Prague）' },
+    labels: ['cultural', 'architecture'],
+    coordinates: { lat: 50.090716150551245, lng: 14.425883808460522 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Roxy_%28klub_v_Praze%29',
+    description: {
+      en: `Brave adventurer, welcome to ROXY Prague! Behind an unassuming Old Town facade, a modest 1920s cinema quietly reinvented itself in the 1990s into one of Central Europe's most stubbornly uncompromising nightclubs — proof that revolutions don't just topple governments, they occasionally topple perfectly good movie theatres too.
+
+The building opened as a neighbourhood cinema back in 1927 and, after decades of quieter use including stints hosting productions from Prague's famous film school FAMU, reopened in 1992 as Roxy — barely three years after the Velvet Revolution swept away four decades of state control over what Czechoslovaks were allowed to watch, hear, and dance to. Its first-ever concert, fittingly, was the American band Fugazi on 13 June 1992: a fiercely independent, anti-corporate hardcore group playing to a country that had just spent forty years being told what culture was allowed to look like.
+
+Roxy shares its building with NoD, an experimental café-gallery-theatre complex tucked upstairs, running its own strands of exhibitions, performance, and events under one roof. Downstairs, the club itself has hosted everyone from Róisín Murphy to John Cale to Napalm Death across three decades of electronic music, live acts, and determinedly weird programming that has occasionally gotten it into trouble with the neighbours — a 2011 closure over noise and safety complaints lasted only a matter of weeks before Roxy was back in business.
+
+🥚 Easter Egg: Fugazi is famous worldwide for refusing to sign with major labels, capping ticket prices at five dollars, and treating their own crowd control seriously enough to stop mid-song and call out anyone being violent in the pit. That a band built entirely around the principle of answering to no one chose to play their first-ever Prague show inside a freshly reopened cinema, in a freshly reopened country, just months after the fall of communism, is the kind of coincidence that writes its own headline.`,
+      cz: `Statečný dobrodruhu, vítej v klubu ROXY Prague! Za nenápadnou fasádou ve Starém Městě se skrývá bývalé kino, které se v 90. letech potichu proměnilo v jeden z nejumíněnějších a nejsvéráznějších nočních klubů střední Evropy — důkaz, že revoluce nesvrhávají jen vlády, občas svrhnou i naprosto funkční kina.
+
+Budova byla otevřena jako čtvrťové kino v roce 1927 a po desetiletích tišší existence — mimo jiné hostila i produkce pražské slavné filmové školy FAMU — se v roce 1992 znovuotevřela jako Roxy, necelé tři roky po sametové revoluci, která smetla čtyřicet let státní kontroly nad tím, co si Čechoslováci směli poslouchat, sledovat a při čem tančit. Jejím vůbec prvním koncertem byla, jak se sluší a patří, americká kapela Fugazi dne 13. června 1992 — nesmlouvavě nezávislá, protikorporátní hardcorová skupina hrající v zemi, která právě čtyřicet let poslouchala, jak má kultura vypadat.
+
+Roxy sdílí budovu s NoD, experimentálním komplexem kavárny, galerie a divadla o patro výš, který provozuje vlastní výstavní, divadelní a eventovou linku pod jednou střechou. V přízemí klub sám za tři desetiletí hostil od Róisín Murphy přes Johna Calea až po Napalm Death, spolu s nekonečnou řadou elektronické hudby a rozhodně podivného programu, který mu občas přinesl potíže se sousedy — uzavření kvůli stížnostem na hluk a bezpečnost v roce 2011 vydrželo jen pár týdnů, než se Roxy vrátilo do provozu.
+
+🥚 Velikonoční vajíčko: Fugazi jsou po celém světě proslulí odmítáním smluv s velkými labely, stropem pěti dolarů na vstupenky a tak vážně braným pořádkem v publiku, že uměli uprostřed písně přestat hrát a veřejně napomenout kohokoliv, kdo se v moshpitu choval násilně. Že si kapela postavená výhradně na principu neposlouchat nikoho vybrala pro svůj vůbec první pražský koncert čerstvě znovuotevřené kino v čerstvě znovuotevřené zemi, pár měsíců po pádu komunismu, je přesně ten druh náhody, která si sama píše titulek.`,
+      zh: `勇敢的冒险家，欢迎来到 ROXY 布拉格夜店！在老城区一处毫不起眼的立面背后，藏着一座曾经的电影院——它在1990年代悄悄蜕变成中欧最执拗、最特立独行的夜店之一，证明了革命推翻的不只是政府，偶尔也会顺手推翻一座本来运转良好的电影院。
+
+这栋建筑于1927年作为社区电影院开业，此后几十年里相对低调地运营，其中还包括为布拉格著名电影学院FAMU的作品放映提供场地。1992年，也就是天鹅绒革命扫除了捷克斯洛伐克人四十年来"该看什么、该听什么、该随什么起舞"的国家管控之后不到三年，这里以"Roxy"之名重新开业。它举办的第一场演出，恰如其分地，是美国乐队Fugazi于1992年6月13日的演出——一支坚决独立、反商业化的硬核朋克乐队，来到了一个刚刚结束四十年被规定"文化该长什么样"的国家。
+
+Roxy与楼上的NoD共用同一栋建筑——这是一个融合咖啡馆、画廊与剧场的实验性文化空间，在同一屋檐下运营着自己的展览、演出与活动项目。楼下的俱乐部本身，三十年来接待过从萝西恩·墨菲（Róisín Murphy）、约翰·凯尔（John Cale）到破坏公社（Napalm Death）等众多艺人，加上源源不断的电子音乐现场与坚定"古怪"的节目安排——这也偶尔给它招来邻居的投诉：2011年因噪音与安全问题被勒令停业，但仅仅几周后，Roxy便重新开门营业。
+
+🥚 彩蛋：Fugazi乐队在全球以拒绝签约大厂牌、把票价死死限制在五美元、以及极其认真对待观众安全而闻名——他们甚至会在演出中途停下来，公开点名制止在池区施暴的观众。一支完全建立在"不听命于任何人"这一原则之上的乐队，选择在一间刚刚重新开业的电影院里，在一个刚刚重新开放的国家，在共产主义倒台仅仅几个月后，举办自己在布拉格的第一场演出——这种巧合，简直是自带新闻标题的那种。`,
+    },
+  },
+  {
+    name: 'Theatre in Dlouhá Street',
+    slug: 'divadlo-v-dlouhe',
+    localizedNames: { cz: 'Divadlo v Dlouhé', zh: '德劳哈街剧院' },
+    labels: ['cultural', 'historical', 'architecture'],
+    coordinates: { lat: 50.09080142475883, lng: 14.427200595271369 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Divadlo_v_Dlouh%C3%A9',
+    description: {
+      en: `Brave adventurer, welcome to the Theatre in Dlouhá Street (Divadlo v Dlouhé)! This handsome 1929 playhouse has changed its name six times in under a century, survived a world war, a communist takeover, and a flood — and somehow still opens its doors every night as if none of that ever happened.
+
+The building began construction in 1927 to a design by engineer Emil Sušický and architect Paul Sydow, originally slated as just another Prague cinema — until theatrical entrepreneur Bedřich Jeřábek argued for a proper stage instead. It opened on 4 December 1929 as home to Prague's operetta scene, running through the 1943/44 season under Nazi occupation. What followed was six decades of near-constant rebranding: Divadlo 5. května in 1945, then a children's theatre under several names, before settling from 1953 to 1991 into its longest-running identity as Divadlo Jiřího Wolkera, one of communist Czechoslovakia's flagship youth and drama stages. A 1972–79 reconstruction by architect Miroslav Maxa gave it much of its current shape.
+
+The theatre found its present name and character only in 1996, when director Hana Burešová, dramaturg Štěpán Otčenášek, and director Daniela Šálková founded Divadlo v Dlouhé, building the new ensemble largely around actors trained at Prague's Dejvické divadlo. Three decades later it remains one of the city's most respected dramatic stages, prized by Czech theatregoers for consistently ambitious programming rather than for chasing tourist foot traffic.
+
+🥚 Easter Egg: The theatre sits close enough to the Vltava that when the catastrophic floods of August 2002 swept through Prague's Old Town, the building took on water along with much of the surrounding district — meaning a stage that had already survived a world war, a fascist occupation, and four decades of communist rebranding could add "flood" to its list of things it simply refused to be shut down by.`,
+      cz: `Statečný dobrodruhu, vítej v Divadle v Dlouhé! Tato pohledná scéna z roku 1929 změnila název šestkrát za necelé století, přežila světovou válku, komunistický převrat i povodeň — a přesto každý večer otevírá dveře, jako by se nic z toho nikdy nestalo.
+
+Stavba budovy začala v roce 1927 podle návrhu inženýra Emila Sušického a architekta Paula Sydowa a měla být původně jen dalším pražským kinem — dokud divadelní podnikatel Bedřich Jeřábek neprosadil místo toho skutečné jeviště. Otevřela se 4. prosince 1929 jako domov pražské operety a v provozu zůstala až do sezóny 1943/44 za nacistické okupace. Následovalo šest desetiletí téměř nepřetržitého přejmenovávání: Divadlo 5. května v roce 1945, poté dětské divadlo pod několika názvy, než se v letech 1953 až 1991 usadilo ve své nejdéle trvající identitě jako Divadlo Jiřího Wolkera, jedna z vlajkových mládežnických a činoherních scén komunistického Československa. Rekonstrukce v letech 1972–79 pod vedením architekta Miroslava Maxy jí dala velkou část dnešní podoby.
+
+Svůj současný název a charakter divadlo získalo teprve v roce 1996, kdy režisérka Hana Burešová, dramaturg Štěpán Otčenášek a režisérka Daniela Šálková založili Divadlo v Dlouhé a nový soubor postavili převážně na hercích vyškolených v pražském Dejvickém divadle. O tři desetiletí později zůstává jednou z nejuznávanějších dramatických scén města, oceňovanou českými diváky spíše za trvale ambiciózní dramaturgii než za honbu za turisty.
+
+🥚 Velikonoční vajíčko: Divadlo stojí dostatečně blízko Vltavy na to, že když v srpnu 2002 Prahu zasáhly katastrofální povodně, budova nabrala vodu spolu s velkou částí okolní čtvrti — takže scéna, která už přežila světovou válku, fašistickou okupaci a čtyři desetiletí komunistického přejmenovávání, si mohla ke svému seznamu věcí, které ji jednoduše neodradí od hraní, přidat i povodeň.`,
+      zh: `勇敢的冒险家，欢迎来到德劳哈街剧院（Divadlo v Dlouhé）！这座建于1929年的漂亮剧院，在不到一个世纪的时间里改了六次名字，熬过了一场世界大战、一次共产主义政变，还有一场大洪水——却依然每晚照常开门迎客，仿佛这一切都从未发生过。
+
+这栋建筑于1927年动工，由工程师埃米尔·苏西茨基（Emil Sušický）与建筑师保罗·西多夫（Paul Sydow）设计，本来只是打算再建一座普通的布拉格电影院——直到剧院经营者贝德日赫·耶拉贝克（Bedřich Jeřábek）力主改建成真正的剧院舞台。它于1929年12月4日开业，成为布拉格轻歌剧的据点，在纳粹占领期间一直运营到1943/44演出季。此后六十年间，它几乎不断更名：1945年改名"五月五日剧院"，随后以数个不同名字作为儿童剧院运营，直到1953年至1991年间，以"伊日·沃尔克尔剧院"（Divadlo Jiřího Wolkera）之名迎来其历史上持续时间最长的身份——它是共产主义捷克斯洛伐克最重要的青少年及话剧舞台之一。1972年至1979年间，建筑师米洛斯拉夫·马克萨（Miroslav Maxa）主持的重建工程，塑造了它如今的大部分样貌。
+
+这座剧院直到1996年才拥有了如今的名字与气质——导演汉娜·布雷绍娃（Hana Burešová）、戏剧顾问什捷潘·奥特切纳谢克（Štěpán Otčenášek）与导演达妮埃拉·沙尔科娃（Daniela Šálková）共同创立了"德劳哈街剧院"，新剧团的班底主要来自布拉格代伊维采剧院（Dejvické divadlo）培养出的演员。三十年后的今天，它依然是这座城市最受尊敬的话剧舞台之一，捷克观众看重的，是它始终如一的雄心勃勃的剧目选择，而非对游客客流的追逐。
+
+🥚 彩蛋：这座剧院离伏尔塔瓦河足够近，以至于2002年8月布拉格老城遭遇灾难性洪水时，这栋建筑也和周边大片街区一起进了水——这意味着，一座已经熬过了一场世界大战、一次法西斯占领和四十年共产主义更名的剧院，如今又可以把"洪水"加进那份"完全无法让我停止演出"的清单里。`,
+    },
+  },
+  {
+    name: 'Slavonic Island',
+    slug: 'slovansky-ostrov',
+    localizedNames: { cz: 'Slovanský ostrov (Žofín)', zh: '斯拉夫岛（若芬岛）' },
+    labels: ['park', 'historical', 'cultural'],
+    coordinates: { lat: 50.080377419623844, lng: 14.412417567959778 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Slovansk%C3%BD_ostrov',
+    description: {
+      en: `Brave adventurer, welcome to Slavonic Island (Slovanský ostrov), also known as Žofín! This unassuming river-island park has changed its name four times, hosted Richard Wagner conducting with his back to the audience, and witnessed the complete premiere of Smetana's Má vlast — all a short stroll from the National Theatre.
+
+The island didn't always exist in its current form — it slowly built up from Vltava silt through the seventeenth century, absent from maps as late as 1606, and was only properly reinforced with retaining walls after a catastrophic flood in 1784. Its name changed with its owners and its politics: first Barvířský ostrov (Dyers' Island) for the textile workers who used it, then Engelův or Andělský ostrov after the entrepreneur who developed it, then Žofínský ostrov from 1838 in honour of Archduchess Sophie of Bavaria. The name that stuck — Slovanský, meaning Slavonic — arrived only after the island hosted the 1848 Slavic Congress, a landmark gathering of Slavic intellectuals and revolutionaries during the Europe-wide revolutions of that year.
+
+At its centre stands Žofín Palace, built in 1836–37 by the island's owner, miller Václav Novotný, and expanded to two storeys in 1884 after the City of Prague bought the property. For over a century it has been one of the most important concert venues in Czech musical history: Berlioz, Liszt, Tchaikovsky, and Wagner all performed here, Antonín Dvořák gave his first public concert on the island in 1878, and on 5 November 1882 the palace hosted the complete premiere of Smetana's Má vlast, the six-tone-poem cycle that would go on to define Czech national music. Today the island functions as a quiet public park scattered with playgrounds and sculpture, while the palace still hosts events — including, since 2005, the annual Forum 2000 conference.
+
+🥚 Easter Egg: When Richard Wagner conducted a concert at Žofín in 1863, contemporary accounts singled out one detail as genuinely startling — he stood with his back fully turned to the audience the entire time, directing the orchestra as though the paying public in the hall behind him simply didn't exist. In an era when conductors were expected to at least acknowledge the room that had bought tickets to watch them, this was considered borderline scandalous. Wagner, characteristically, did not care.`,
+      cz: `Statečný dobrodruhu, vítej na Slovanském ostrově, známém také jako Žofín! Tento nenápadný říční ostrovní park čtyřikrát změnil jméno, hostil Richarda Wagnera dirigujícího zády k publiku a byl místem, kde zazněla kompletní premiéra Smetanovy Mé vlasti — a to jen coby kamenem dohodil od Národního divadla.
+
+Ostrov v současné podobě nevznikl odjakživa — pomalu se nanesl z vltavských naplavenin v průběhu 17. století, na mapě z roku 1606 ještě chybí, a pořádně zpevněné hráze dostal až po ničivé povodni v roce 1784. Jeho jméno se měnilo s majiteli i s politikou: nejprve Barvířský ostrov podle textilních dělníků, kteří ho využívali, poté Engelův či Andělský ostrov podle podnikatele, jenž jej zvelebil, a od roku 1838 Žofínský ostrov na počest arcivévodkyně Žofie Bavorské. Jméno, které se nakonec uchytilo — Slovanský — přišlo až poté, co ostrov v roce 1848 hostil Slovanský sjezd, přelomové setkání slovanských intelektuálů a revolucionářů během evropského revolučního roku.
+
+V jeho středu stojí Žofínský palác, postavený v letech 1836–37 majitelem ostrova, mlynářem Václavem Novotným, a rozšířený na dvě patra v roce 1884 poté, co ostrov koupilo pražské město. Přes sto let patřil k nejvýznamnějším koncertním sálům české hudební historie: vystupovali zde Berlioz, Liszt, Čajkovskij i Wagner, Antonín Dvořák tu v roce 1878 odehrál svůj vůbec první veřejný koncert a 5. listopadu 1882 tu zazněla kompletní premiéra Smetanovy Mé vlasti, cyklu šesti symfonických básní, který se měl stát definicí české národní hudby. Dnes slouží ostrov jako klidný veřejný park s dětskými hřišti a sochařskou výzdobou, zatímco palác nadále hostí akce — mimo jiné od roku 2005 každoroční konferenci Forum 2000.
+
+🥚 Velikonoční vajíčko: Když Richard Wagner v roce 1863 dirigoval koncert na Žofíně, dobové zprávy si všímaly jednoho skutečně šokujícího detailu — celou dobu stál zády naprosto obrácený k publiku, jako by platící posluchači v sále za ním prostě neexistovali. V době, kdy se od dirigentů alespoň očekávalo, že si všimnou publika, které si koupilo vstupenky, aby se na ně dívalo, to bylo považováno téměř za skandální. Wagnerovi to, jak jinak, bylo jedno.`,
+      zh: `勇敢的冒险家，欢迎来到斯拉夫岛（Slovanský ostrov），也叫若芬岛（Žofín）！这座看似平平无奇的河心岛公园，先后改过四次名字，见证过理查德·瓦格纳背对观众指挥乐队，也见证过斯美塔那《我的祖国》的完整首演——而这一切，都发生在距离国家剧院不过几步之遥的地方。
+
+这座岛并非自古就是如今的模样——它是17世纪期间由伏尔塔瓦河的泥沙缓慢淤积而成，1606年的地图上甚至还看不到它的踪影，直到1784年一场毁灭性的洪水之后，才真正修筑起加固堤坝。它的名字随着主人与政治局势不断变化：最初叫"染工岛"（Barvířský ostrov），因为在此工作的纺织工人而得名；随后又因开发它的企业家而改称"恩格尔岛"或"安杰尔岛"；1838年起，为纪念巴伐利亚的索菲亚大公妃，改名为"若芬岛"（Žofínský ostrov）。而最终沿用至今的名字——"斯拉夫岛"——则是在1848年这座岛举办了具有历史意义的"斯拉夫大会"（一场在那个欧洲革命年份中，斯拉夫知识分子与革命者的重要聚会）之后才确立的。
+
+岛的中心矗立着若芬宫，由岛屿所有者、磨坊主瓦茨拉夫·诺沃特尼（Václav Novotný）于1836至1837年间建造，并在1884年布拉格市政府买下该岛后扩建为两层楼。一个多世纪以来，它一直是捷克音乐史上最重要的音乐厅之一：柏辽兹、李斯特、柴可夫斯基与瓦格纳都曾在此演出，安东宁·德沃夏克1878年在此举办了他人生中第一场公开音乐会，而1882年11月5日，斯美塔那《我的祖国》——这套后来定义了捷克民族音乐的六首交响诗组曲——正是在这里迎来了完整版首演。如今，这座岛是一处安静的公共公园，点缀着儿童游乐设施与雕塑，而宫殿至今仍用于举办各种活动——包括自2005年起，每年一度的"2000年论坛"（Forum 2000）会议。
+
+🥚 彩蛋：1863年，理查德·瓦格纳在若芬宫指挥一场音乐会时，当时的记载特别提到了一个真正令人吃惊的细节——他全程完全背对观众站立，指挥乐队时仿佛身后那些买票入场的听众根本不存在。在那个年代，指挥家至少被期待要顾及一下购票前来观看自己的观众，这种做法几乎称得上离经叛道。而瓦格纳一如既往，毫不在意。`,
+    },
+  },
+  {
+    name: 'Church of St. Michael in Jircháře',
+    slug: 'kostel-sv-michala-v-jircharich',
+    localizedNames: { cz: 'Kostel svatého Michala v Jirchářích', zh: '吉尔哈日圣米迦勒教堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.080190812039255, lng: 14.418016140630558 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Michala_v_Jirch%C3%A1%C5%99%C3%ADch',
+    description: {
+      en: `Brave adventurer, welcome to the Church of St. Michael in Jircháře (Kostel svatého Michala v Jirchářích)! Founded by Benedictine monks in 1115, deconsecrated by imperial decree in 1787, and quietly handed to Prague's Evangelicals a few years later, this Gothic survivor has spent nine centuries being politely reassigned to whichever faith needed a church that particular century.
+
+A settlement here dates back to 1115, when Benedictine monks from Kladruby monastery founded it under a charter from Duke Vladislav, initially served by a Romanesque church. The building was rebuilt in Gothic style in 1369, gained a north aisle in 1387 and a south aisle before 1402, had its naves vaulted in 1511, and picked up Renaissance modifications during the sixteenth century before a fire forced a Baroque rebuild in 1717–22 and a later regothicization between 1914 and 1920. For much of its life it served Prague's Protestant congregations, until the Battle of White Mountain in 1620 handed religious control of Bohemia back to Catholic authorities the following year — the church lost its independent parish status and was subordinated to nearby St. Vojtěch.
+
+The building was formally deconsecrated in 1787 by decree of Emperor Joseph II, part of the same sweeping wave of monastery and church closures that emptied dozens of religious houses across the Habsburg lands. In 1791 it was sold to Prague's German-speaking Evangelicals of the Augsburg Confession — and it remains in Protestant hands to this day, serving as the seat of the Czech, Slovak, and English-language congregations of the Evangelical Church of the Augsburg Confession. It is, in other words, still a working house of prayer rather than a museum piece, its presbytery notable for a rare cross vault with unusual pear-shaped ribs rarely seen elsewhere in Prague's Gothic architecture.
+
+🥚 Easter Egg: The "Jircháře" in the church's name is not a place invented for the occasion — jirchář was the medieval Czech term for a leather-dresser, a craftsman who treated animal hides into soft, workable leather, and the church sat at the heart of Prague's tanning quarter. The leatherworkers, their smell, and their trade have long since vanished from this stretch of New Town. Their guild name, fossilized inside a church dedication, is the only thing that stayed.`,
+      cz: `Statečný dobrodruhu, vítej v Kostele svatého Michala v Jirchářích! Založený benediktinskými mnichy v roce 1115, odsvěcený císařským dekretem v roce 1787 a o pár let později tiše předaný pražským evangelíkům, tento gotický přeživší strávil devět století zdvořilým přeřazováním k té víře, kterou zrovna to které století potřebovalo.
+
+Osada zde vznikla už v roce 1115, kdy ji na základě listiny knížete Vladislava založili benediktinští mniši z kláštera v Kladrubech, a nejprve ji obsluhoval románský kostel. Budova byla přestavěna goticky roku 1369, v roce 1387 získala severní loď, před rokem 1402 jižní, roku 1511 byly zaklenuty lodě, v 16. století přišly renesanční úpravy, po požáru následovala barokní přestavba v letech 1717–22 a mezi lety 1914 a 1920 regotizace. Po velkou část své existence sloužil kostel pražským protestantským obcím, dokud bitva na Bílé hoře v roce 1620 nevrátila církevní správu Čech katolickým úřadům — kostel ztratil samostatnost farnosti a byl podřízen nedalekému kostelu sv. Vojtěcha.
+
+Budova byla formálně odsvěcena v roce 1787 dekretem císaře Josefa II. v rámci téže rozsáhlé vlny rušení klášterů a kostelů, která vyprázdnila desítky řeholních domů po celé habsburské monarchii. V roce 1791 byla prodána pražským německy mluvícím evangelíkům augsburského vyznání — a v protestantských rukou zůstává dodnes jako sídlo české, slovenské a anglické sborové obce Evangelické církve augsburského vyznání. Jinými slovy je stále funkčním modlitebním domem, nikoli muzejním exponátem, a jeho presbytář je pozoruhodný vzácnou křížovou klenbou s neobvyklými hruškovitými žebry, jaká se v pražské gotice jinde téměř nevyskytuje.
+
+🥚 Velikonoční vajíčko: "Jircháře" v názvu kostela nejsou vymyšlené místo — jirchář bylo středověké označení pro koželuha, řemeslníka zpracovávajícího zvířecí kůže na měkkou usňovou kůži, a kostel stál v samém srdci pražské koželužské čtvrti. Koželuhové, jejich zápach i jejich řemeslo z této části Nového Města dávno zmizeli. Jejich cechovní jméno, zkamenělé v zasvěcení kostela, je jediné, co zůstalo.`,
+      zh: `勇敢的冒险家，欢迎来到吉尔哈日圣米迦勒教堂（Kostel svatého Michala v Jirchářích）！它由本笃会修士于1115年创建，1787年被皇帝下令解除宗教用途，几年后又被悄悄移交给布拉格的新教徒——这座哥特式的"幸存者"九个世纪以来，一直被礼貌地转手给每个世纪最需要它的那个信仰。
+
+早在1115年，来自克拉德鲁比修道院的本笃会修士，依据弗拉季斯拉夫公爵颁布的特许状，在此建立了聚落，最初由一座罗曼式教堂提供服务。这栋建筑于1369年改建为哥特式风格，1387年增建了北侧翼廊，1402年之前又增建了南侧翼廊，1511年为中殿加装了拱顶，16世纪又经历了文艺复兴风格的改造，之后一场大火迫使教堂在1717至1722年间进行巴洛克式重建，1914至1920年间又进行了哥特式复原。在其历史的大部分时间里，这座教堂服务于布拉格的新教教区，直到1620年白山之战后，波希米亚的宗教管理权在次年重新回到天主教当局手中——教堂失去了独立堂区的地位，被并入附近的圣沃伊捷赫教堂管辖。
+
+1787年，约瑟夫二世皇帝下令正式解除这座建筑的宗教用途，这是哈布斯堡王朝境内一场大规模关闭修道院与教堂浪潮的一部分，当时有数十座宗教建筑因此被清空。1791年，它被卖给了布拉格讲德语的奥格斯堡信条新教徒——至今它仍掌握在新教徒手中，是捷克语、斯洛伐克语与英语堂区的奥格斯堡信条福音教会所在地。换句话说，它至今仍是一座正常运作的祈祷场所，而非博物馆展品，其内殿以一种罕见的、带有梨形肋条的十字拱顶而著称，这种细节在布拉格的哥特式建筑中几乎绝无仅有。
+
+🥚 彩蛋：教堂名字中的"Jircháře"并非临时杜撰的地名——jirchář 是中世纪捷克语中对"制革匠"的称呼，指那些把兽皮鞣制成柔软可用皮革的工匠，而这座教堂正坐落在布拉格制革匠聚居区的核心地带。如今，制革匠、他们的气味与他们的手艺早已从新城区的这一角消失得无影无踪。唯一留下的，是这个行会的名字，化石般凝固在教堂的献堂称号之中。`,
+    },
+  },
+  {
+    name: 'Velvet Revolution Memorial',
+    slug: 'pamatnik-sametove-revoluce',
+    localizedNames: { cz: 'Památník sametové revoluce 17. listopadu 1989', zh: '天鹅绒革命纪念碑（1989年11月17日）' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.08189351583879, lng: 14.417881104276724 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pam%C4%9Btn%C3%AD_deska_17._listopadu',
+    description: {
+      en: `Brave adventurer, welcome to the Velvet Revolution Memorial (Památník sametové revoluce 17. listopadu 1989)! A row of small bronze hands set into a wall on Národní třída, installed in secret one night in February 1990 — one of the few monuments in Prague built not by a government, but in spite of one.
+
+The events it marks began as a state-sanctioned commemoration — students marching to mark the fiftieth anniversary of the Nazi closure of Czech universities in 1939. By the time the march reached Národní třída on the evening of 17 November 1989, it had turned into an open protest against the communist regime, and riot police responded by sealing off the street and beating demonstrators as they were forced through a narrow cordon. Word of the crackdown spread within hours, protests multiplied by the day, and within weeks the entire communist government had resigned. The single police baton charge on this one street is generally reckoned the spark that set off the whole Velvet Revolution.
+
+The memorial itself — a row of eight bronze hands cast by sculptor Otakar Příhoda, some raised in the two-fingered victory sign, others held open in reference to the chant "Máme holé ruce" ("We have bare hands") — was installed without official permission on the night of 20 February 1990, barely three months after the crackdown it commemorates. It originally sat in the passage of the Kaňkův palace at the corner of Národní and Mikulandská, before being moved to its current position on the building's facade in 2016, after decades of visitors leaving lit candles underneath it raised fire-safety concerns.
+
+🥚 Easter Egg: In 2009, on the twentieth anniversary of the crackdown, artist Roman Týc briefly attached magnetic plaques to the memorial altering the raised hands into Nazi salutes and extended middle fingers — a provocation aimed, he said, at Czech politics rather than the revolution itself. Police removed the plaques and opened an investigation the very next day; it went nowhere, and the bronze hands have kept their original, more hopeful gesture ever since.`,
+      cz: `Statečný dobrodruhu, vítej u Památníku sametové revoluce 17. listopadu 1989! Řada drobných bronzových dlaní zasazených do zdi na Národní třídě, instalovaná tajně jedné únorové noci roku 1990 — jeden z mála pražských pomníků, který nepostavila vláda, ale postavili jej navzdory ní.
+
+Události, které památník připomíná, začaly jako státem schválená vzpomínková akce — studentský průvod ke padesátému výročí nacistického uzavření českých vysokých škol v roce 1939. Než průvod večer 17. listopadu 1989 dorazil na Národní třídu, změnil se v otevřený protest proti komunistickému režimu a pohotovostní jednotky reagovaly uzavřením ulice a bitím demonstrantů, kteří museli projít úzkým kordonem. Zpráva o zákroku se během hodin rozšířila, protesty se den ode dne množily a během několika týdnů celá komunistická vláda odstoupila. Právě tento jediný policejní zásah na jedné ulici bývá obecně pokládán za jiskru, která zažehla celou sametovou revoluci.
+
+Samotný památník — řada osmi bronzových dlaní od sochaře Otakara Příhody, některé zvednuté ve vítězném véčku, jiné otevřené na odkaz k heslu "Máme holé ruce" — byl bez úředního povolení instalován v noci 20. února 1990, necelé tři měsíce po zákroku, který připomíná. Původně stál v podloubí Kaňkova paláce na rohu Národní a Mikulandské, než byl v roce 2016 přesunut na dnešní místo na fasádě budovy poté, co desítky let hořících svíček pod ním vyvolaly obavy o požární bezpečnost.
+
+🥚 Velikonoční vajíčko: V roce 2009, u příležitosti dvacátého výročí zákroku, na památník krátce umístil magnetické destičky výtvarník Roman Týc, které zvednuté dlaně proměnily v nacistické pozdravy a vztyčené prostředníčky — provokace mířící, jak sám uvedl, spíše na českou politiku než na samotnou revoluci. Policie destičky odstranila a hned následující den zahájila vyšetřování; to nikam nevedlo a bronzové dlaně si od té doby podržely své původní, o poznání nadějnější gesto.`,
+      zh: `勇敢的冒险家，欢迎来到天鹅绒革命纪念碑（1989年11月17日纪念碑）！这是一排嵌在国民大街墙壁上的青铜小手浮雕，于1990年2月的一个夜晚被悄悄安装——布拉格少数几座并非由政府建造、而是"顶着"政府建成的纪念物之一。
+
+这座纪念碑所纪念的事件，最初只是一场获得官方批准的悼念活动——学生们游行，纪念1939年纳粹关闭捷克各大高校五十周年。可是到1989年11月17日晚游行队伍抵达国民大街时，它已经演变成一场对共产政权的公开抗议，防暴警察的回应是封锁街道，把示威者逼入狭窄的人墙夹道中殴打。镇压的消息几小时内便传遍全城，抗议活动一天比一天壮大，短短几周内，整个共产党政府便宣布集体辞职。这条街上的这一次警棍镇压，通常被认为是点燃整场天鹅绒革命的那颗火花。
+
+纪念碑本身——由雕塑家奥塔卡尔·普日霍达（Otakar Příhoda）铸造的八只青铜手掌，有的高举成"V"字胜利手势，有的张开手掌，呼应着当年的口号"我们赤手空拳"（Máme holé ruce）——在它所纪念的镇压事件发生仅仅不到三个月后，于1990年2月20日夜间未经官方许可被悄悄安装。它最初位于国民大街与米库兰茨卡街转角的坎科夫宫拱廊内，直到2016年，因为几十年来游客在下方点燃蜡烛引发的消防安全隐患，才被移至如今所在的建筑外立面上。
+
+🥚 彩蛋：2009年，在镇压事件二十周年之际，艺术家罗曼·蒂茨（Roman Týc）曾短暂在纪念碑上贴上磁性贴片，把那些高举的手掌改造成了纳粹礼与竖起的中指——据他本人所说，这是一场针对捷克当下政治，而非那场革命本身的挑衅。警方在第二天便撤下了贴片并展开调查，但调查最终不了了之；从那以后，这些青铜手掌，一直保持着它们原本、也更充满希望的姿态。`,
+    },
+  },
+  {
+    name: 'Dunaj Palace',
+    slug: 'palac-dunaj',
+    localizedNames: { cz: 'Palác Dunaj', zh: '多瑙宫（Palác Dunaj）' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.08149449691963, lng: 14.41688293456559 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_Dunaj',
+    description: {
+      en: `Brave adventurer, welcome to Dunaj Palace (Palác Dunaj)! Its name means "Danube" in Czech, despite sitting nowhere near that river, on a street nowhere near Austria, in a country the Danube barely touches — solved the moment you learn who its first tenant was.
+
+The building went up in 1930 on the site of a demolished classicist palace, designed by German-Czech architect Adolf Foehr — a student of the great Jan Kotěra — in what's widely considered his finest and most progressive work. Its five storeys are faced in warm yellowish travertine, with bands of white travertine marking out the upper floors, giving it a quietly confident presence on the corner of Národní třída. Its original tenant was the Austrian insurance company "Donau" — Donau being simply the German word for the river Danube — and the Czech translation of the company's name became, permanently, the building's own.
+
+Ownership and use have shifted repeatedly since — renovations in the 1970s and 1990s, and a major, carefully sensitive restoration between 2021 and 2023 by the studio Chapman Taylor. Recent tenants have included the Czech Bar Association and a representation office of the European Commission. Through all of it, one original fitting has survived intact and still runs today: a paternoster, the continuous-loop lift installed in 1936 by the Czech engineering firm ČKD, in which open cabins circle endlessly through the building on a conveyor-belt loop rather than stopping to wait for anyone.
+
+🥚 Easter Egg: The paternoster lift takes its name from the Lord's Prayer — "Pater Noster", Latin for "Our Father" — because its train of open compartments endlessly cycling past, one after another, was thought to resemble rosary beads sliding through a worshipper's fingers during recitation. Riding one means stepping onto a moving platform that never actually stops, which is exactly why most cities have banned them over safety concerns — and exactly why the handful still running, including this one, draw visitors who've never experienced anything like it.`,
+      cz: `Statečný dobrodruhu, vítej v Paláci Dunaj! Jeho jméno v češtině znamená "Dunaj", přestože nestojí ani poblíž této řeky, ani v ulici blízko Rakouska, v zemi, které se Dunaj sotva dotýká — záhada vyřešená ve chvíli, kdy zjistíte, kdo byl jeho prvním nájemcem.
+
+Budova vyrostla v roce 1930 na místě zbořeného klasicistního Walisova paláce na rohu Národní a Voršilské podle návrhu německo-českého architekta Adolfa Foehra — žáka velkého Jana Kotěry — v tom, co je obecně považováno za jeho nejlepší a nejprogresivnější dílo. Pět podlaží je obloženo teplým nažloutlým travertinem, s pásy bílého travertinu vyznačujícími horní patra, což budově dodává tiše sebejisté vystupování na rohu Národní třídy. Jejím prvním nájemcem byla rakouská pojišťovna "Donau" — Donau je prostě německé slovo pro řeku Dunaj — a český překlad jména společnosti se natrvalo stal jménem samotné budovy.
+
+Vlastnictví i využití se od té doby opakovaně měnily — rekonstrukce v 70. a 90. letech a rozsáhlá, velmi citlivá obnova v letech 2021 až 2023 pod vedením studia Chapman Taylor. Mezi nedávné nájemce patřila Česká advokátní komora a zastoupení Evropské komise. Přes to všechno se zachovalo jedno původní vybavení, které funguje dodnes: paternoster, nepřetržitě oběhový výtah instalovaný v roce 1936 českou strojírenskou firmou ČKD, jehož otevřené kabiny nekonečně obíhají budovou po dopravníkové smyčce, aniž by se kdy zastavily a na někoho počkaly.
+
+🥚 Velikonoční vajíčko: Výtah paternoster nese jméno po modlitbě Otčenáš — latinsky "Pater Noster" — protože jeho nekonečný vlak otevřených kabin, míjejících se jedna za druhou, měl připomínat korálky růžence klouzající mezi prsty modlícího se člověka. Jízda znamená vstoupit na pohyblivou plošinu, která se ve skutečnosti nikdy nezastaví, a přesně proto většina měst paternostery z bezpečnostních důvodů zakázala — a přesně proto hrstka stále fungujících, včetně tohoto, přitahuje návštěvníky, kteří nic podobného v životě nezažili.`,
+      zh: `勇敢的冒险家，欢迎来到多瑙宫（Palác Dunaj）！它的捷克语名字意思是"多瑙河"，可它既不靠近那条河，也不在什么靠近奥地利的街道上，甚至身处一个几乎与多瑙河沾不上边的国家——但只要知道它最初的租户是谁，这个谜团立刻就能解开。
+
+这栋建筑建于1930年，坐落在一座被拆除的古典主义风格瓦利斯宫（Walisův palác）原址上，位于国民大街与沃尔希尔斯卡街的转角，由德裔捷克建筑师阿道夫·福尔（Adolf Foehr）设计——他是建筑大师扬·科泰拉（Jan Kotěra）的学生，而这栋楼也被普遍认为是他本人最出色、最具前瞻性的作品。五层楼的外立面覆以温暖的浅黄色洞石，上层楼面则以白色洞石装饰带作为区隔，让这栋建筑在国民大街的转角处显得从容而自信。它最初的租户是一家奥地利保险公司"多瑙"（Donau）——Donau在德语里就是"多瑙河"的意思——而这家公司名字的捷克语译名，最终永久性地变成了这栋建筑自己的名字。
+
+此后，这栋楼的所有权与用途几经变迁——1970年代与1990年代两次翻新，2021至2023年间，又由Chapman Taylor设计工作室主持了一场极为谨慎细致的大规模修复。近年来的租户包括捷克律师公会与欧盟委员会驻地代表处。历经这一切变迁，一样原始设施却始终完好，运转至今：一部由捷克机械制造商ČKD于1936年安装的循环电梯"paternoster"（无门循环梯），它的敞开式轿厢沿着传送带式的循环轨道在楼内不间断地绕行，从不为任何人停下等候。
+
+🥚 彩蛋："paternoster"电梯的名字来自"主祷文"——拉丁语"Pater Noster"，意为"我们的父"——因为它那一节接一节、循环不止的敞开轿厢队列，被认为很像信徒祈祷时，手指间不断滑过的念珠。乘坐这种电梯，意味着踏上一个实际上从不停止的移动平台，这也正是大多数城市出于安全考虑而将其禁用的原因——同样也正因如此，包括这一部在内、如今仍在运行的少数几部paternoster电梯，才会吸引从未体验过这种感觉的游客专程前来。`,
+    },
+  },
+  {
+    name: 'Prague-Vršovice Railway Station',
+    slug: 'praha-vrsovice-nadrazi',
+    localizedNames: { cz: 'Praha-Vršovice (nádraží)', zh: '布拉格-弗尔绍维采火车站' },
+    labels: ['transport', 'historical', 'architecture'],
+    coordinates: { lat: 50.064855881275165, lng: 14.447911275523424 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Praha-Vr%C5%A1ovice_%28n%C3%A1dra%C5%BE%C3%AD%29',
+    description: {
+      en: `Brave adventurer, welcome to Prague-Vršovice Railway Station (Praha-Vršovice, nádraží)! Built in 1882 under the tongue-twisting name "Nusle-Wrschowitz," this Neo-Renaissance station has spent over a century quietly moving Prague commuters around while barely anyone outside the neighbourhood learns its name.
+
+The station was built between 1880 and 1882 along the Emperor Franz Joseph Railway and opened under the distinctly Austro-Hungarian name "Nusle-Wrschowitz," a label it carried until 1912. Architect Hartwig Fischel gave it a Neo-Renaissance design: a monumental single-storey facade built around a central three-axis risalit topped with a gable, flanked by taller corner wings, with a platform roof of cast iron worked into circular motifs. A 1899 expansion raised the side sections by an extra storey and added further single-storey wings as passenger numbers grew.
+
+During the Prague Uprising of May 1945, the resistance group Trávnice relocated its command post to the area around the station and ran improvised armoured trains cobbled together from captured German weapons — a brief, chaotic footnote in the station's otherwise steady century of commuter service. Registered as a protected cultural monument in 2002, the building underwent a full reconstruction between 2007 and 2008 and reopened that October. Today it is one of Prague's busier secondary hubs, with nine platform edges across four islands handling close to two million passengers a year on regional S-Bahn-style lines and long-distance connections toward Brno and České Budějovice.
+
+🥚 Easter Egg: The station's original name, "Nusle-Wrschowitz," quietly admitted a fact Prague's official district maps still like to gloss over — that the station sits right on the seam between two separate neighbourhoods, Nusle and Vršovice, and never fully belonged to either. Vršovice eventually won the naming rights, but the station's actual platforms remain, geographically, exactly where the original double-barrelled name always said they were: precisely in between.`,
+      cz: `Statečný dobrodruhu, vítej na nádraží Praha-Vršovice! Postavené v roce 1882 pod jazykolamným názvem "Nusle-Wrschowitz", toto novorenesanční nádraží už přes století tiše převáží pražské cestující, aniž by si jeho jméno pamatoval skoro kdokoliv mimo čtvrť.
+
+Nádraží vzniklo v letech 1880 až 1882 na trati Dráhy císaře Františka Josefa a otevřelo se pod výrazně rakousko-uherským názvem "Nusle-Wrschowitz", který si podrželo až do roku 1912. Architekt Hartwig Fischel mu dal novorenesanční podobu: monumentální jednopatrovou fasádu vystavěnou kolem centrálního třízónového rizalitu se štítem, po stranách doplněnou vyššími nárožními křídly, se zastřešením nástupiště z litiny zpracovaného do kruhových motivů. Rozšíření v roce 1899 zvýšilo boční části o další patro a přidalo další jednopatrová křídla, jak rostl počet cestujících.
+
+Během Pražského povstání v květnu 1945 přesunula odbojová skupina Trávnice svůj velitelský štáb do okolí nádraží a provozovala improvizované obrněné vlaky sestavené z ukořistěných německých zbraní — krátká, chaotická epizoda v jinak vyrovnaném století služby dojíždějícím cestujícím. V roce 2002 bylo nádraží zapsáno jako kulturní památka, v letech 2007–2008 prošlo kompletní rekonstrukcí a v říjnu téhož roku bylo znovu otevřeno. Dnes patří k rušnějším pražským uzlům druhého řádu s devíti nástupištními hranami na čtyřech ostrovech, kterými ročně projde téměř dva miliony cestujících na příměstských linkách typu S i na dálkových spojích směrem na Brno a České Budějovice.
+
+🥚 Velikonoční vajíčko: Původní název nádraží, "Nusle-Wrschowitz", potichu přiznával fakt, který oficiální pražské mapy čtvrtí dodnes raději přehlížejí — že nádraží stojí přesně na švu mezi dvěma samostatnými čtvrtěmi, Nuslemi a Vršovicemi, a nikdy zcela nepatřilo ani jedné z nich. Právo na jméno si nakonec vydobyly Vršovice, ale samotná nástupiště zůstávají zeměpisně přesně tam, kde je vždy umísťoval původní dvojitý název: přesně mezi nimi.`,
+      zh: `勇敢的冒险家，欢迎来到布拉格-弗尔绍维采火车站（Praha-Vršovice, nádraží）！这座建于1882年、曾顶着拗口名字"努斯莱-弗尔绍维采"（Nusle-Wrschowitz）的新文艺复兴风格车站，一个多世纪以来一直默默运送着布拉格的通勤者，而车站之外，几乎没什么人记得它的名字。
+
+车站建于1880年至1882年间，位于弗朗茨·约瑟夫皇帝铁路线上，开通时使用的是一个极具奥匈帝国色彩的名字"努斯莱-弗尔绍维采"，这个名字一直沿用到1912年。建筑师哈特维希·菲舍尔（Hartwig Fischel）为它设计了新文艺复兴风格的外观：一座恢弘的单层立面，围绕着中央三段式突出结构与山墙展开，两侧配有更高的转角侧翼，站台顶棚则采用铸铁打造，饰以圆形图案。1899年的一次扩建，为侧翼加建了一层楼，并新增了几处单层侧翼，以应对不断增长的客流。
+
+1945年5月布拉格起义期间，地下抵抗组织"特拉夫尼采"（Trávnice）将其指挥部迁至车站周边地区，并用缴获的德军武器拼凑出临时装甲列车投入使用——这是这座车站原本平稳运行了一个世纪的通勤历史中，一段短暂而混乱的插曲。2002年，车站被列为文物保护建筑，2007至2008年间进行了全面重建，并于同年10月重新开放。如今，它是布拉格较为繁忙的次级枢纽站之一，四座站台岛共九条股道，每年运送近两百万人次乘客，运营着S字头市郊铁路线路，也承担着通往布尔诺与南捷克布杰约维采方向的长途列车。
+
+🥚 彩蛋：车站最初的名字"努斯莱-弗尔绍维采"，其实悄悄承认了一个至今布拉格官方行政区地图仍不太愿意正视的事实——这座车站恰好坐落在努斯莱（Nusle）与弗尔绍维采（Vršovice）两个独立街区的接缝之上，从未完全属于其中任何一方。最终，"弗尔绍维采"赢得了命名权，但车站的实际站台，在地理位置上依然精准地停留在最初那个双重地名所标示的地方：正好在两者之间。`,
+    },
+  },
+  {
+    name: 'Vršovice Savings Union',
+    slug: 'vrsovicka-zalozna',
+    localizedNames: { cz: 'Vršovická záložna', zh: '弗尔绍维采信用社大楼' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.069611, lng: 14.451389 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Vr%C5%A1ovick%C3%A1_z%C3%A1lo%C5%BEna',
+    description: {
+      en: `Brave adventurer, welcome to the Vršovice Savings Union! A jewel-box of Art Nouveau ornament tucked into an unassuming corner of outer Prague, built by the same team of architects and sculptors who were simultaneously decorating the grandest civic building in the entire city centre.
+
+The building went up in 1911–1912 to a design directly commissioned from architect Antonín Balšánek, bypassing an architecture competition the credit union had originally announced, with Osvald Polívka also contributing to the project. Both men were, at that very moment, putting the finishing touches on Obecní dům, Prague's single most celebrated Art Nouveau landmark in the city centre — meaning this modest neighbourhood building shares its design DNA with one of the grandest civic structures downtown.
+
+Inside and out, the decoration reads like a smaller cousin of that same masterpiece: sculptors Ladislav Šaloun and Josef Pekárek contributed monumental figures, Antonín Pekárek carved the portal statues, and František Úprka added a spinner figure meant to embody diligence, honesty, and modesty — largely the same creative circle responsible for the sculptural programme at Obecní dům, working here on a neighbourhood scale rather than a national one. Neon signage was added in 1931, and the building served as a state bank branch through the 1970s and '80s, with the façade restored in 1993 and the skylight in 1999.
+
+🥚 Easter Egg: Despite the popular nickname "savings bank," the building's actual, official historic name was a credit union — a member-owned financial cooperative, a genuinely different kind of institution from a savings bank. Life eventually caught up with the nickname anyway: the building today houses a real, working bank branch, so more than a century later the popular name simply became true.`,
+      cz: `Statečný dobrodruhu, vítej ve Vršovické záložně! Secesní klenotnice ornamentu ukrytá v nenápadném koutě vnější Prahy, kterou postavil stejný tým architektů a sochařů, jenž ve stejné době zdobil nejokázalejší občanskou stavbu v celém centru města.
+
+Budova vznikla v letech 1911–1912 podle návrhu, který záložna zadala přímo architektu Antonínu Balšánkovi a obešla tak soutěž, kterou sama původně vypsala; na projektu se podílel i Osvald Polívka. Oba muži v té samé chvíli dokončovali Obecní dům, nejproslulejší secesní stavbu v celé Praze — takže tato skromná čtvrťová budova sdílí svou návrhářskou DNA s jednou z nejokázalejších občanských staveb v centru města.
+
+Uvnitř i navenek působí výzdoba jako menší sourozenec téhož mistrovského díla: sochaři Ladislav Šaloun a Josef Pekárek vytvořili monumentální postavy, Antonín Pekárek vytesal portálové sochy a František Úprka přidal postavu přadleny, ztělesňující píli, poctivost a skromnost — v podstatě tentýž tvůrčí okruh, který stál za sochařskou výzdobou Obecního domu, jen tentokrát pracoval v čtvrťovém, nikoli celonárodním měřítku. V roce 1931 přibyla neonová reklama, v 70. a 80. letech budova sloužila jako pobočka státní banky, fasáda byla obnovena v roce 1993 a světlík v roce 1999.
+
+🥚 Velikonoční vajíčko: Přestože se budově dnes lidově říká "spořitelna", jejím skutečným, oficiálním historickým jménem byla záložna — svépomocný družstevní peněžní ústav, tedy zcela jiný typ finanční instituce než spořitelna. Život nakonec přezdívce dal za pravdu sám: dnes v budově skutečně sídlí funkční bankovní pobočka, takže se lidové jméno po více než sto letech jednoduše stalo pravdou.`,
+      zh: `勇敢的冒险家，欢迎来到弗尔绍维采信用社大楼！这是一座藏在布拉格外围一个毫不起眼街角的新艺术风格珠宝盒式建筑，出自与同一时期正在装饰整个市中心最恢弘市政建筑的那批建筑师与雕塑家之手。
+
+这栋建筑建于1911至1912年间，信用合作社绕过了自己最初公开征集的建筑竞赛，直接把设计委托给了建筑师Antonín Balšánek，Osvald Polívka也参与了这个项目。就在同一时期，这两人正忙着为Obecní dům——整个布拉格最负盛名的新艺术风格地标建筑——做最后的收尾工作，这也意味着，这栋朴素的社区建筑，与市中心那座最恢弘的市政建筑，共享着同一套设计基因。
+
+无论是室内还是室外，这里的装饰读起来都像是那件杰作的缩小版兄弟篇：雕塑家Ladislav Šaloun与Josef Pekárek创作了纪念性人物雕塑，Antonín Pekárek雕刻了门廊雕像，František Úprka则加入了一尊象征勤劳、诚实与谦逊的纺织女工雕像——基本上正是为Obecní dům完成雕塑装饰工程的同一群创作者，这一次只是把舞台从全国规模换成了社区规模。1931年加装了霓虹灯招牌，20世纪70至80年代这里作为一家国家银行的分行使用，立面于1993年修复，天窗则于1999年修复。
+
+🥚 彩蛋：尽管这栋建筑今天常被俗称为"储蓄银行"，它真正的、官方的历史名称其实是信用合作社——一种由会员共同持有的金融合作机构，与储蓄银行其实是截然不同的机构类型。但生活最终还是让这个俗名弄假成真：如今这栋楼里确实开着一家真正营业中的银行分行，一百多年后，这个民间叫法，终于名副其实。`,
+    },
+  },
+  {
+    name: 'Church of St. Nicholas',
+    slug: 'kostel-sv-mikulase-vrsovice',
+    localizedNames: { cz: 'Kostel svatého Mikuláše (Vršovice)', zh: '弗尔绍维采圣米库拉什教堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.069318158180224, lng: 14.451813279671942 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Mikul%C3%A1%C5%A1e_%28Vr%C5%A1ovice%29',
+    description: {
+      en: `Brave adventurer, welcome to the Church of St. Nicholas! A quiet Baroque parish church with roots so old that its earliest predecessor chapel predates the Mongol invasions of Europe by two centuries, standing watch over a square that has changed almost beyond recognition around it.
+
+The parish's roots reach back a thousand years, when a Romanesque chapel dedicated to Mary Magdalene stood on this spot — two centuries before the first recorded mention of the settlement itself. That chapel was extended and rebuilt in Gothic style in the fourteenth century, rededicated to St. Nicholas, and raised to full parish status soon after, only to burn down during the Hussite wars. Reconstruction after the devastation of the Thirty Years' War followed in the seventeenth century, and the Baroque church standing today largely dates to a further rebuild in 1704: a single nave, a three-sided presbytery, and a roughly 28-metre tower topped with an onion dome.
+
+The church was significantly enlarged in 1896, when the nave was extended by eight metres and a new organ installed; it was reconsecrated that same September. Its clock, added in the 1860s, still shows lunar phases on its western dial, and the current set of bells dates to the 1920s, replacing an earlier set requisitioned for melting down during the First World War — except for one: the oldest surviving bell dates all the way back to 1511, meaning it has outlasted the very church it now hangs in by nearly two centuries.
+
+🥚 Easter Egg: A well-known Czech painter was married inside this church in the 1880s, and the building later found its way into fiction too — it appears in a scene of a famous Czech novel involving the retrieval of an altar, a small but fitting cameo for a story largely set in and around Prague's less glamorous corners.`,
+      cz: `Statečný dobrodruhu, vítej v kostele svatého Mikuláše! Tichý barokní farní kostel s kořeny tak starými, že jeho nejstarší předchůdkyně kaple předchází mongolské nájezdy do Evropy o dvě staletí — a stále bdí nad náměstím, které se kolem něj proměnilo k nepoznání.
+
+Kořeny farnosti sahají tisíc let nazpátek, kdy na tomto místě stála románská kaplička zasvěcená Máří Magdaléně — dvě století před první písemnou zmínkou o samotné osadě. Tato kaplička byla ve čtrnáctém století přestavěna goticky, přezasvěcena svatému Mikuláši a krátce poté povýšena na plnohodnotnou farnost, než za husitských válek vyhořela. Obnova po zpustošení třicetiletou válkou probíhala v sedmnáctém století a dnešní barokní kostel z velké části pochází z další přestavby roku 1704: jednolodní stavba s trojboce zakončeným presbytářem a přibližně 28 metrů vysokou věží zakončenou cibulovou bání.
+
+V roce 1896 byl kostel výrazně rozšířen — loď se prodloužila o osm metrů a instalovaly se nové varhany; téhož září jej znovu vysvětili. Hodiny, přidané v 60. letech 19. století, dodnes na západním ciferníku ukazují měsíční fáze, a dnešní zvony pocházejí z 20. let 20. století, kdy nahradily starší sadu zrekvírovanou k roztavení za první světové války — až na jeden: nejstarší dochovaný zvon pochází už z roku 1511, takže přežil samotný kostel, ve kterém dnes visí, o téměř dvě staletí.
+
+🥚 Velikonoční vajíčko: Známý český malíř se v tomto kostele oženil v 80. letech 19. století, a budova si později našla cestu i do beletrie — objevuje se ve scéně slavného českého románu, kde jde o navrácení oltáře, což je drobný, ale případný portrét pro příběh odehrávající se převážně v méně honosných koutech Prahy.`,
+      zh: `勇敢的冒险家，欢迎来到圣米库拉什教堂！这座安静的巴洛克式堂区教堂历史极其悠久，它最早的前身小礼拜堂，甚至比蒙古大军入侵欧洲还要早上整整两个世纪——如今它依然静静守望着一片早已面目全非的广场。
+
+这处堂区的历史可以追溯到一千年前，当时这里矗立着一座献给抹大拉的玛利亚的罗曼式小礼拜堂——比这片聚落本身第一次见诸文字记载还要早两个世纪。这座小礼拜堂于14世纪被改建为哥特式风格，重新献给圣尼古拉，不久后升格为正式堂区，随后却在胡斯战争中被焚毁。三十年战争的毁坏之后，重建工程在17世纪进行，而今天所见的这座巴洛克教堂，主要成型于1704年的又一次重建：单一中殿，三面式后殿，塔楼高约28米，顶部覆有洋葱形穹顶。
+
+1896年，教堂经历了一次重大扩建——中殿延长了8米，并安装了新的管风琴；同年9月，教堂重新举行了祝圣仪式。教堂的大钟安装于19世纪60年代，至今西面的钟面仍显示月相；如今悬挂的这套钟则是20世纪20年代的产物，替代了一战期间被征收熔化的旧钟——但其中有一口例外：现存最古老的一口钟铸于1511年，比它如今所悬挂的这座教堂本身还要早诞生近两个世纪。
+
+🥚 彩蛋：一位知名捷克画家于19世纪80年代在这座教堂举行了婚礼，而这栋建筑后来也走进了文学作品——它出现在一部捷克著名小说中一段与取回祭坛有关的情节里，对于一个故事大半发生在布拉格不那么光鲜角落的作品来说，这算得上一个恰如其分的小小客串。`,
+    },
+  },
+  {
+    name: 'Cuban Square',
+    slug: 'kubanske-namesti',
+    localizedNames: { cz: 'Kubánské náměstí', zh: '古巴广场' },
+    labels: ['square', 'historical'],
+    coordinates: { lat: 50.070621544164965, lng: 14.477271083297705 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kub%C3%A1nsk%C3%A9_n%C3%A1m%C4%9Bst%C3%AD',
+    description: {
+      en: `Brave adventurer, welcome to Cuban Square! A perfectly ordinary Prague neighbourhood square that spent thirty years carrying the full ideological weight of a Caribbean revolution in its official name, purely because a communist city council decided it should.
+
+The square was laid out in the 1930s at the end of Vršovická street, an irregular patch of land hemmed in by four different streets; for a while in the mid-1930s a tram line even ran across it on a five-metre-high embankment. It stayed officially unnamed until 1961, when the city christened it Cuban Revolution Square — a piece of textbook Cold War street-naming honouring an uprising roughly 8,800 kilometres away that few of the square's actual residents had ever given much thought to. A shorter, politically defanged version of the name replaced it in 1991.
+
+The square's most architecturally notable building, the former Mars community house on its north side, opened the same year the square got its revolutionary name — a sandstone façade and marble staircase that are currently being preserved through conversion into modern apartments. Today the square functions as a fairly unglamorous commercial hub: insurance offices, a hotel, a bank branch, a drugstore, and — somewhat more cheerfully — a regular farmers' market run by the district.
+
+🥚 Easter Egg: Locals had already shortened the unwieldy official mouthful down to a simple nickname decades before city hall got around to making it official in 1991 — proof that in this particular linguistic tug-of-war between bureaucracy and everyday speech, the street won the argument long before the paperwork agreed.`,
+      cz: `Statečný dobrodruhu, vítej na Kubánském náměstí! Naprosto obyčejné pražské čtvrťové náměstí, které třicet let v oficiálním názvu neslo plnou ideologickou váhu karibské revoluce jen proto, že si to tak usmyslela komunistická městská rada.
+
+Náměstí bylo vytyčeno ve 30. letech na konci Vršovické ulice jako nepravidelný pozemek sevřený čtyřmi ulicemi; v polovině 30. let přes něj dokonce vedla tramvajová trať na pětimetrovém náspu. Oficiálně zůstalo bezejmenné až do roku 1961, kdy jej město pokřtilo jako náměstí Kubánské revoluce — vzorový příklad studenoválečného přejmenovávání ulic na počest povstání vzdáleného zhruba 8 800 kilometrů, kterému skuteční obyvatelé náměstí většinou nikdy nevěnovali ani myšlenku. Kratší, politicky neutrální verze názvu jej nahradila v roce 1991.
+
+Architektonicky nejvýraznější budovou náměstí je bývalý společenský dům Mars na jeho severní straně, otevřený téhož roku, kdy náměstí dostalo své revoluční jméno — pískovcová fasáda a mramorové schodiště se dnes zachovávají v rámci přestavby na moderní byty. Dnes náměstí funguje jako poměrně nenápadné obchodní centrum: pojišťovací kanceláře, hotel, pobočka banky, drogerie — a k tomu, o něco veseleji, pravidelné farmářské trhy pořádané městskou částí.
+
+🥚 Velikonoční vajíčko: Místní si neohrabaný oficiální název zkrátili na jednoduchou přezdívku celá desetiletí předtím, než to radnice v roce 1991 stihla oficiálně potvrdit — důkaz, že v tomto konkrétním jazykovém přetahování mezi úřadem a běžnou mluvou ulice vyhrála dávno předtím, než se papíry vůbec shodly.`,
+      zh: `勇敢的冒险家，欢迎来到古巴广场！这是一座再普通不过的布拉格社区广场，却在长达三十年的时间里，因为共产党市议会的一个决定，在官方名称中背负着一场加勒比海革命的全部意识形态分量。
+
+这座广场于1930年代在Vršovická街尽头被规划出来，是一块被四条街道夹在中间的不规则地块；1930年代中期，甚至还有一条有轨电车线路沿着一段5米高的路堤穿过如今广场所在的位置。它一直没有正式名称，直到1961年才被官方命名为"古巴革命广场"，以纪念一场发生在大约8800公里之外、广场上真正的居民其实几乎从未真正关心过的起义——这是一次典型的冷战式街道命名操作。1991年，这个拗口的名字被更简短、政治色彩更淡的版本取代。
+
+广场上最具建筑价值的建筑，是位于北侧的前Mars社交会所，恰好在广场获得那个"革命"名字的同一年落成——它的砂岩立面与大理石楼梯，如今正在被改造成现代公寓的过程中得以保留。今天的广场则是一处颇为朴实无华的商业中心：保险公司、一家酒店、一家银行网点、一家药妆店——外加一个稍显轻松愉快的元素，由所在城区定期举办的农夫市集。
+
+🥚 彩蛋：早在1991年市政府正式把那个别扭的官方名字简化之前，当地居民其实早已私下把它简称成一个简单的小名——这也证明，在这场官僚体系与日常口语之间的语言拉锯战中，街头的说法，早在纸面文件追上之前，就已经赢了。`,
+    },
+  },
+  {
+    name: 'Míčánky Judicial Complex',
+    slug: 'justicni-areal-na-micankach',
+    localizedNames: { cz: 'Justiční areál Na Míčánkách', zh: 'Míčánky司法大楼' },
+    labels: ['municipal', 'historical', 'architecture'],
+    coordinates: { lat: 50.07144069182742, lng: 14.465422042906548 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Justi%C4%8Dn%C3%AD_are%C3%A1l_Na_M%C3%AD%C4%8D%C3%A1nk%C3%A1ch',
+    description: {
+      en: `Brave adventurer, welcome to the Míčánky Judicial Complex! The largest courthouse compound in the entire Czech Republic, built where nineteenth-century cavalry barracks once stood, on land still named after a noblewoman who died nearly five centuries ago.
+
+The unusual site name predates the courts by roughly five centuries — it derives from Dorota Míčanová, a noblewoman of the Míčan family of Klinštejn and Roztoky who died in 1542, and has stuck to this patch of land ever since, entirely unrelated to anything judicial. Before the courts arrived, the site held cavalry barracks named after the medieval Hussite commander Jan Roháč z Dubé, later home to the Czechoslovak army's 28th Infantry Regiment, founded in 1920 — the reason the adjacent street is still called "28. pluku" today.
+
+The transformation into a courts complex began with a design competition in 2000, followed by construction running from 2003 to 2006 at a cost of 2.5 billion crowns, commissioned by the Prague Municipal Court and financed by the Ministry of Justice. Architects Vladimír Kružík and Petr Olexa combined the restored neo-Renaissance barracks façades with a large modern addition built around two mirrored atria, creating what is billed as the largest judicial complex in the country: 98 courtrooms, 38 interrogation rooms, 30 holding cells, plus an auction hall and library, housing the District Courts for Prague 4, 6, 8, 9, and 10 along with their corresponding prosecutors' offices and the Probation and Mediation Service.
+
+🥚 Easter Egg: Almost nobody walking in for a hearing realises they are, technically, standing on ground still legally remembered under the name of a sixteenth-century noblewoman rather than any of the generals, regiments, or judges who later occupied the same patch of earth — Dorota Míčanová never saw a courtroom in her life, and yet five hundred years later, hers is still the only name that stuck.`,
+      cz: `Statečný dobrodruhu, vítej v Justičním areálu Na Míčánkách! Největší soudní komplex v celé České republice, postavený tam, kde dřív stály kavalerijské kasárny z 19. století, na pozemku dodnes pojmenovaném po šlechtičně, která zemřela před téměř pěti staletími.
+
+Neobvyklý název areálu předchází soudům o zhruba pět století — odvozuje se od Doroty Míčanové, šlechtičny z rodu Míčanů z Klinštejna a Roztok, která zemřela v roce 1542, a jméno na tomto kusu země od té doby zůstalo, aniž by mělo cokoliv společného se soudnictvím. Než sem přišly soudy, stála zde kasárna pojmenovaná po husitském vojevůdci Janu Roháčovi z Dubé, později domov 28. pěšího pluku československé armády, založeného v roce 1920 — proto se sousední ulice dodnes jmenuje "28. pluku".
+
+Přeměna v soudní areál začala výběrem projektu v roce 2000, poté následovala výstavba v letech 2003 až 2006 za 2,5 miliardy korun, kterou zadal Městský soud v Praze a financovalo Ministerstvo spravedlnosti. Architekti Vladimír Kružík a Petr Olexa spojili obnovené novorenesanční fasády kasáren s rozsáhlou moderní přístavbou postavenou kolem dvou zrcadlově souměrných atrií a vytvořili tak, co je označováno za největší justiční komplex v zemi: 98 jednacích síní, 38 výslechových místností, 30 cel, plus dražební síň a knihovnu, v nichž sídlí obvodní soudy pro Prahu 4, 6, 8, 9 a 10 spolu s příslušnými státními zastupitelstvími a Probační a mediační službou.
+
+🥚 Velikonoční vajíčko: Téměř nikdo, kdo sem přichází k soudnímu jednání, netuší, že technicky stojí na pozemku, který si právně dodnes nese jméno šlechtičny ze 16. století, a ne žádného z generálů, pluků či soudců, kteří se na stejném místě vystřídali později — Dorota Míčanová sama za svého života žádnou soudní síň nikdy neviděla, a přesto je po pěti stech letech stále jediné jméno, které tu zůstalo.`,
+      zh: `勇敢的冒险家，欢迎来到Míčánky司法大楼！这是整个捷克共和国规模最大的法院综合体，建在曾经的19世纪骑兵营地原址上，而这片土地至今仍以近五百年前去世的一位贵族女性的名字命名。
+
+这个不同寻常的地名，比法院本身早了大约五个世纪——它源自贵族Míčan家族（来自Klinštejn与Roztoky）的Dorota Míčanová，她于1542年去世，而她的名字从此就留在了这片土地上，与司法本身毫无关系。在法院建成之前，这里曾是一座以胡斯派军事领袖Jan Roháč z Dubé命名的兵营，后来又成为捷克斯洛伐克陆军第28步兵团（成立于1920年）的驻地——这也是为什么旁边的街道至今仍叫"28. pluku"。
+
+改建为司法综合体的工程始于2000年的方案征选，随后于2003年至2006年间施工，耗资25亿克朗，由布拉格市法院委托、捷克司法部出资建造。建筑师Vladimír Kružík与Petr Olexa将修复后的新文艺复兴风格兵营立面，与一座围绕两座镜像中庭建造的大型现代扩建部分结合在一起，建成了号称全国规模最大的司法综合体：98间法庭、38间审讯室、30间羁押室，外加一间拍卖厅和一座图书馆，容纳着布拉格4、6、8、9及10区的区法院，以及对应的地区检察院与缓刑及调解服务机构。
+
+🥚 彩蛋：几乎没有人在走进这里出庭时会意识到，自己脚下的这片土地，法律意义上至今仍以一位16世纪贵族女性的名字命名，而不是后来在同一片土地上驻扎过的任何一位将军、军团或法官——Dorota Míčanová本人一生从未踏入过任何一间法庭，可五百年后，留下来的唯一一个名字，依然是她的。`,
+    },
+  },
+  {
+    name: 'Vlasta Multifunctional Building',
+    slug: 'multifunkcni-budova-vlasta-praha-10',
+    localizedNames: { cz: 'Multifunkční budova Vlasta (Úřad městské části Praha 10)', zh: 'Vlasta多功能大楼（布拉格10区区政府）' },
+    labels: ['municipal', 'communism'],
+    coordinates: { lat: 50.07740047888982, lng: 14.488746225018112 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Vlasta building! For half a century this was the beating administrative heart of the district — and, as of very recently, it's also a building whose own local government has quietly given up on saving.
+
+Planning approval for the site was granted in 1971, and the three interlinked blocks that resulted — designed by the Regional Design Institute of Prague 7 under chief designer Vlastibor Klimeš — were completed and approved for use in 1976. It's textbook normalisation-era civic architecture: light cladding on the main façades, strip ceramic tiling on the gable walls and stairwell cores, built to house the district office alongside a police station, an employment office, and a restaurant under one roof.
+
+The building's popular name is usually traced back to a grocery wholesale store that was part of the original development rather than to its chief designer, though the coincidence that his own first name was also Vlastibor is hard to resist mentioning. After roughly fifty years without major investment, the structure deteriorated badly enough that the district office relocated to rented premises in Strašnice in 2023. Since then, city officials have approved selling the complex to a private developer for demolition and redevelopment into housing and offices — with no confirmed plan yet, at time of writing, for where the district's permanent town hall will eventually end up.
+
+🥚 Easter Egg: The building outlived the actual grocery store it was apparently nicknamed after by several decades — and now, as it heads toward demolition itself, it's simply continuing a pattern that's been playing out on this site for over fifty years: nothing here, it turns out, is quite as permanent as a district government building is supposed to feel.`,
+      cz: `Statečný dobrodruhu, vítej v budově Vlasta! Půl století to bylo administrativní srdce městské části — a teprve nedávno se z ní stala i budova, kterou se místní samospráva potichu vzdala zachránit.
+
+Územní souhlas pro tento pozemek byl vydán v roce 1971 a tři propojené bloky, které vznikly podle návrhu Krajského projektového ústavu Praha 7 pod vedením hlavního projektanta Vlastibora Klimeše, byly dokončeny a zkolaudovány v roce 1976. Jde o typickou normalizační občanskou architekturu: lehký obklad hlavních fasád, pásový keramický obklad na štítových stěnách a komunikačních jádrech, postavenou tak, aby pod jednou střechou pojala úřad městské části, policejní stanici, úřad práce i restauraci.
+
+Lidový název budovy se obvykle odvozuje od velkoprodejny potravin, která byla součástí původní zástavby, nikoli od jejího hlavního projektanta — byť je těžké nezmínit, že se náhodou jmenoval stejně, Vlastibor. Po zhruba padesáti letech bez větší investice budova natolik zchátrala, že se úřad městské části v roce 2023 přestěhoval do pronajatých prostor ve Strašnicích. Od té doby městští radní schválili prodej areálu soukromému developerovi k demolici a přestavbě na bydlení a kanceláře — zatím bez potvrzeného plánu, kde nakonec skončí trvalé sídlo radnice městské části.
+
+🥚 Velikonoční vajíčko: Budova přežila samotnou velkoprodejnu potravin, po níž je zřejmě pojmenovaná, o několik desetiletí — a nyní, když sama míří k demolici, jen pokračuje ve vzorci, který se na tomto místě opakuje už přes padesát let: nic tu, jak se ukazuje, není tak trvalé, jak by se od budovy úřadu městské části čekalo.`,
+      zh: `勇敢的冒险家，欢迎来到Vlasta大楼！半个世纪以来，这里一直是该城区行政管理的心脏地带——而就在不久前，这栋大楼也悄悄变成了一栋连当地政府自己都已经放弃挽救的建筑。
+
+这片土地的规划许可于1971年获批，由布拉格7区区域设计院在总设计师Vlastibor Klimeš带领下设计的三栋相互连接的楼体，于1976年建成并通过验收。这是典型的"正常化"时期市政建筑风格：主立面采用轻质外墙板，山墙与交通核心部位则铺设条形陶瓷贴面，整栋楼原本设计用来同时容纳区政府办公室、警察局、就业局与一家餐厅。
+
+这栋楼的俗称通常被追溯到当年作为整体开发一部分的一家食品批发商店，而非它的总设计师——尽管这位总设计师碰巧也叫Vlastibor，这个巧合实在很难不提一句。在大约五十年没有得到重大投资之后，这栋建筑已经破败到区政府不得不于2023年搬迁至Strašnice的租赁办公场所。此后，市议会已批准将整个建筑群出售给一家私人开发商，用于拆除并重新开发为住宅与办公用途——截至目前，这个区的常设区政府办公楼最终会落脚何处，仍然没有确定的方案。
+
+🥚 彩蛋：这栋楼似乎是以曾经的一家食品批发商店命名的，而它自己的寿命，居然比那家商店本身还多存活了好几十年——如今，当它自己也即将走向拆除时，不过是延续着这块土地上已经重复了五十多年的那个规律：这里的一切，看来都远没有一栋区政府大楼"该有"的那种永恒感。`,
+    },
+  },
+  {
+    name: 'Vlasta Housing Estate',
+    slug: 'sidliste-vlasta',
+    localizedNames: { cz: 'Sídliště Vlasta', zh: 'Vlasta住宅区' },
+    labels: ['communism', 'historical'],
+    coordinates: { lat: 50.06779740350476, lng: 14.463912847229212 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/S%C3%ADdli%C5%A1t%C4%9B_Vlasta',
+    description: {
+      en: `Brave adventurer, welcome to the Vlasta housing estate! Built to rehouse thousands of people evicted from their own town so the Soviet army could move in, its street names still quietly commemorate the Central Asian republics of a union that no longer exists.
+
+This panel-housing estate rose on the site of a large cavalry barracks complex built in the late nineteenth century and demolished in stages between the mid-1960s and early 1980s. Its residential blocks went up between 1968 and 1972, with administrative buildings following soon after, built as emergency housing for around 3,500 people evicted from a town that had just been requisitioned in its entirety to house the Soviet army garrison stationed in Czechoslovakia after the 1968 Warsaw Pact invasion.
+
+The estate's five north–south blocks sit along streets named after Central Asian Soviet republics, a naming scheme that quietly announces the estate's military origin to anyone who bothers to read the signs. Shops and services were built into the basements and raised ground floors, connected by a network of passages, terraces, and walkways, along with a kindergarten, a parking structure, and a grocery store that gave the whole estate its name. The estate is also home to one of Prague's richer concentrations of housing-era public sculpture, scattered among its courtyards and playgrounds.
+
+🥚 Easter Egg: The residents rehoused here in 1968 ended up, in a strange way, better off than the town they left — that town stayed a closed Soviet garrison for over two decades and had to essentially rebuild itself from an emptied ghost town after the army finally departed in 1991. Their new estate, meanwhile, simply carried on, quietly outlasting both the empire that displaced them and the six Soviet republics still spelled out on its street signs.`,
+      cz: `Statečný dobrodruhu, vítej na sídlišti Vlasta! Postaveném, aby přijalo tisíce lidí vystěhovaných z vlastního města kvůli sovětské armádě — a jehož názvy ulic dodnes tiše připomínají středoasijské republiky svazu, který už neexistuje.
+
+Toto panelové sídliště vyrostlo na místě rozsáhlého kavalerijního kasárenského komplexu postaveného na konci 19. století a postupně demolovaného od poloviny 60. do počátku 80. let. Obytné bloky vznikly v letech 1968–1972, správní budovy následovaly krátce poté, a to jako nouzové bydlení pro zhruba 3 500 lidí vystěhovaných z města, které bylo právě celé zabráno pro posádku sovětské armády v Československu po invazi vojsk Varšavské smlouvy v roce 1968.
+
+Pět severojižně orientovaných bloků sídliště leží podél ulic pojmenovaných po středoasijských sovětských republikách, což je pojmenování, které tichým způsobem prozrazuje vojenský původ sídliště každému, kdo si všimne názvů ulic. V suterénech a zvýšených přízemích byly zabudovány obchody a služby, propojené sítí pasáží, teras a lávek, doplněné mateřskou školkou, parkovacím domem a prodejnou potravin, po níž dostalo jméno celé sídliště. Sídliště je také domovem jedné z nejbohatších sbírek sídlištního sochařství v Praze, roztroušené po dvorech a hřištích.
+
+🥚 Velikonoční vajíčko: Lidé sem přestěhovaní v roce 1968 na tom nakonec byli zvláštním způsobem lépe než město, které opustili — to zůstalo uzavřeným sovětským posádkovým městem přes dvacet let a po konečném odchodu armády v roce 1991 se muselo v podstatě znovu postavit z vylidněného města duchů. Jejich nové sídliště zatím jednoduše fungovalo dál a tiše přežilo jak impérium, které je vystěhovalo, tak šest sovětských republik, jejichž jména dodnes nese na svých ulicích.`,
+      zh: `勇敢的冒险家，欢迎来到Vlasta住宅区！它的建造，是为了安置数千名因苏联军队进驻而被迫离开自己家乡的人们——而它的街道名字，至今仍在悄悄纪念着一个早已不复存在的联盟里的中亚加盟共和国。
+
+这片板式住宅区，建在一座建于19世纪末的大型骑兵营区旧址上，该营区于1960年代中期至1980年代初被分阶段拆除。住宅楼建于1968年至1972年间，行政楼紧随其后建成，其建造目的，是为大约3500名因1968年华沙条约组织入侵捷克斯洛伐克后、其所在城镇被完全征用为苏联驻军基地而被迫迁离的居民，提供紧急安置住房。
+
+住宅区的五栋南北朝向的楼群，沿着以中亚苏联加盟共和国命名的街道排列，这套命名方案，会不动声色地向任何留意路牌的人透露这片住宅区的军事出身。地下室与抬高的一层内嵌入了商店与各类服务设施，由一整套连廊、露台与天桥彼此相连，配有幼儿园、停车楼，还有一家食品店——正是整个住宅区名字的由来。这里也是布拉格公共雕塑最集中的住宅区之一，庭院与游乐场之间散布着大量雕塑作品。
+
+🥚 彩蛋：1968年被迁到这里的居民，从某种奇特的角度来看，最终反而比他们离开的那座城镇更"幸运"——那座城镇作为封闭的苏联驻军城镇整整存在了二十多年，直到1991年苏军最终撤离后，几乎要从一座被掏空的鬼城重新开始建设。而与此同时，他们在这里的新家，却一直平静地延续下去，悄悄地比那个曾经把他们赶走的帝国、也比至今仍写在街道路牌上的那六个苏联加盟共和国，都活得更久。`,
+    },
+  },
+  {
+    name: 'Ministry of the Environment of the Czech Republic',
+    slug: 'ministerstvo-zivotniho-prostredi',
+    localizedNames: { cz: 'Ministerstvo životního prostředí ČR', zh: '捷克共和国环境部' },
+    labels: ['municipal'],
+    coordinates: { lat: 50.069387776468005, lng: 14.467950179577988 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Ministerstvo_%C5%BEivotn%C3%ADho_prost%C5%99ed%C3%AD_%C4%8Cesk%C3%A9_republiky',
+    description: {
+      en: `Brave adventurer, welcome to the Ministry of the Environment of the Czech Republic! One of the very first brand-new government ministries created after the fall of communism, born from the simple realisation that no single office had ever been fully responsible for stopping the country from poisoning itself.
+
+The ministry was established on 1 January 1990, under legislation passed on 19 December 1989 — barely a month after the Velvet Revolution began, and while the old regime was still, technically, in the process of collapsing. Before this, environmental responsibility had been scattered piecemeal across several other ministries, an administrative patchwork that had left the country by the late 1980s with some of the worst air and water pollution in Europe, concentrated heavily in the industrial regions of northern Bohemia.
+
+A parallel federal environmental committee operated alongside it for the first few years, before the ministry became the sole central environmental authority of the independent Czech Republic from 1993 onward. It has set national policy on air and water quality, waste management, and nature conservation ever since, and in 2010 survived a political push to abolish it entirely and fold its responsibilities into other ministries — remaining, more than three decades later, one of the newest institutions in a government whose other ministries mostly trace their lineage back centuries further.
+
+🥚 Easter Egg: The ministry's creation is one of the more literal illustrations of just how fast the Velvet Revolution moved — an institution that did not exist in December 1989 was fully operational by New Year's Day, a bureaucratic turnaround measured in weeks rather than the years such overhauls usually take.`,
+      cz: `Statečný dobrodruhu, vítej na Ministerstvu životního prostředí České republiky! Jedno z vůbec prvních zcela nových ministerstev vzniklých po pádu komunismu, zrozené z prostého zjištění, že za to, aby země přestala sama sebe otravovat, dosud nikdy nebyl plně odpovědný jediný úřad.
+
+Ministerstvo vzniklo 1. ledna 1990 na základě zákona přijatého 19. prosince 1989 — necelý měsíc po začátku sametové revoluce, v době, kdy se starý režim technicky vzato stále teprve hroutil. Předtím byla odpovědnost za životní prostředí rozdrobena mezi několik dalších ministerstev — administrativní změť, která do konce 80. let zanechala zemi s jedním z nejhoršího znečištění ovzduší a vody v Evropě, soustředěného zejména v průmyslových oblastech severních Čech.
+
+Souběžně s ním fungoval prvních pár let federální výbor pro životní prostředí, než se ministerstvo od roku 1993 stalo jediným ústředním orgánem ochrany životního prostředí samostatné České republiky. Od té doby určuje celostátní politiku v oblasti kvality ovzduší a vody, nakládání s odpady i ochrany přírody a v roce 2010 přežilo politický pokus jej zcela zrušit a jeho agendu rozdělit mezi jiná ministerstva — a zůstává tak i po více než třiceti letech jednou z nejmladších institucí ve vládě, jejíž ostatní ministerstva sahají svými kořeny o staletí hlouběji.
+
+🥚 Velikonoční vajíčko: Vznik ministerstva je jednou z nejdoslovnějších ukázek toho, jak rychle se sametová revoluce hnula kupředu — instituce, která v prosinci 1989 ještě vůbec neexistovala, byla plně funkční už na Nový rok, tedy byrokratický obrat zvládnutý v týdnech místo let, které si podobné institucionální přestavby obvykle vyžadují.`,
+      zh: `勇敢的冒险家，欢迎来到捷克共和国环境部！这是共产主义倒台后诞生的最早一批全新政府部门之一，其成立的初衷很简单：此前从来没有一个单独的机构，真正全面负责阻止这个国家继续毒害自己。
+
+环境部成立于1990年1月1日，依据的是1989年12月19日通过的立法——距天鹅绒革命爆发还不到一个月，彼时旧政权在技术意义上其实都还没有彻底垮台。在此之前，环境相关职责被零散地分摊在其他几个部门之间——这种支离破碎的行政体系，让这个国家到1980年代末，成为欧洲空气与水污染最严重的国家之一，污染尤其集中在捷克北部的工业地区。
+
+与环境部平行存在的，还有成立最初几年运作的联邦环境委员会，此后，环境部自1993年起成为独立捷克共和国唯一的中央环境主管机关。此后，它一直负责制定全国范围内关于空气与水质、废弃物管理以及自然保护的政策，并在2010年挺过了一场试图将其彻底撤销、把职能并入其他部门的政治提案——三十多年后的今天，它依然是这个政府体系中最"年轻"的机构之一，而政府里的其他部门，大多可以把自己的渊源追溯到远早于此的几个世纪之前。
+
+🥚 彩蛋：环境部的诞生，或许是天鹅绒革命"速度"最直白的写照之一——一个在1989年12月还完全不存在的机构，到了元旦就已经全面运转，这种通常需要数年才能完成的机构改造，这一次只用了几个星期。`,
+    },
+  },
+  {
+    name: 'Malešice Housing Estate',
+    slug: 'byty-malesice',
+    localizedNames: { cz: 'Byty Malešice', zh: '马莱谢采住宅区' },
+    labels: ['historical', 'communism'],
+    coordinates: { lat: 50.0804399026077, lng: 14.49950867482242 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to the Malešice housing estate — Prague's very first taste of mass-produced tower-block living, finished in 1961 and, for a little while afterward, the largest such estate in the whole city. It looks like an ordinary panelák neighbourhood. It is actually the site of one of Czechoslovakia's strangest rooftop parties.
+
+In 1964, Soviet premier Nikita Khrushchev toured the estate's showpiece twelve-storey towers during a state visit to Prague. The builders, determined to impress, brought in musicians from a Prague cabaret and laid on beer, sausages, and Czech lager. Khrushchev inspected the building, chatted with the construction crew, and settled in for refreshments — but there was nowhere large enough for the full orchestra except one place: the roof. He gave the order himself. Up they went, and the celebration continued several storeys above the streets of Malešice, complete with Ukrainian folk songs.
+
+By the time the music was in full swing, the leader of the Soviet Union was dancing on top of a Czechoslovak apartment block, tapping his feet and — by most accounts — throwing in a passable Cossack kick or two, several storeys above a housing estate that had been standing for all of three years.
+
+🎁 Bonus: Nowhere in Khrushchev's official itinerary for the 1964 Prague trip was a rooftop dance number ever mentioned. It is, by all accounts, the only Cold War summit event on record where the fate of superpower relations took a back seat to a Soviet premier's footwork on a panelák roof.`,
+
+      cz: `Vítej na sídlišti Malešice — první pražské ochutnávce hromadného bydlení v panelácích, dokončené v roce 1961 a na chvíli i největší svého druhu v celém městě. Vypadá jako obyčejná paneláková čtvrť. Ve skutečnosti je to místo jedné z nejpodivnějších střešních oslav v dějinách Československa.
+
+V roce 1964 si sovětský premiér Nikita Chruščov během státní návštěvy Prahy prohlédl reprezentativní dvanáctipatrové věžáky sídliště. Stavbaři, odhodlaní udělat dojem, přizvali hudebníky z pražského kabaretu a připravili pivo, klobásy a český ležák. Chruščov si prohlédl budovu, popovídal si se stavební četou a usadil se k občerstvení — jenže pro celý orchestr nebylo dost místa nikde jinde než na střeše. Rozkaz vydal osobně sám. A tak šli všichni nahoru a oslava pokračovala o několik pater výš nad malešickými ulicemi, doplněná ukrajinskými lidovými písněmi.
+
+Když hudba naplno rozjela, vůdce Sovětského svazu tančil na střeše československého paneláku, podupával nohou a — podle většiny svědectví — předvedl i slušný kozáček, několik pater nad sídlištěm, které v tu chvíli stálo teprve tři roky.
+
+Bonus: V oficiálním programu Chruščovovy pražské cesty v roce 1964 se taneční číslo na střeše nikde neobjevuje. Podle všeho jde o jedinou zaznamenanou událost studené války, při níž osud vztahů mezi velmocemi ustoupil do pozadí před taneční kreativitou sovětského premiéra na střeše paneláku.`,
+
+      zh: `欢迎来到马莱谢采住宅区——布拉格第一批大规模板式住宅楼的试验田，1961年建成，落成时一度是全市规模最大的住宅区。它看起来就是一片普普通通的板楼社区。但这里其实发生过捷克斯洛伐克历史上最离奇的一场屋顶派对。
+
+1964年，苏联部长会议主席赫鲁晓夫在对布拉格的国事访问期间，参观了这片住宅区最具代表性的十二层塔楼。建设者们为了给贵宾留下深刻印象，特地请来了布拉格一家歌舞表演厅的乐队，并准备了啤酒、香肠和捷克拉格啤酒。赫鲁晓夫参观了大楼，与建筑工人们攀谈，随后坐下来享用茶点——可整个乐队实在找不到别的地方容纳，唯一够大的地方是屋顶。他亲自下令："上屋顶！"于是所有人都上去了，庆祝活动就这样在马莱谢采街道上方数层楼高的地方继续进行，还伴随着乌克兰民歌。
+
+音乐正酣之时，这位苏联最高领导人已经在一栋捷克斯洛伐克板楼的屋顶上跳起了舞，踏着节拍——据多数说法——还跳了几个像模像样的哥萨克踢腿动作，脚下是一片当时才建成三年的住宅区。
+
+彩蛋：赫鲁晓夫1964年布拉格之行的官方行程表里，压根没有提到过什么屋顶舞蹈节目。据现有记载，这大概是整个冷战时期唯一一次，超级大国关系的命运，甘愿给一位苏联最高领导人在板楼屋顶上的舞步让路的外交场合。`,
+    },
+  },
+  {
+    name: 'Penzion Malešice',
+    slug: 'penzion-malesice',
+    localizedNames: { cz: 'Penzion Malešice', zh: '马莱谢采招待所' },
+    labels: ['historical', 'communism'],
+    coordinates: { lat: 50.081538613081854, lng: 14.500592425999868 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Penzion_Male%C5%A1ice',
+    description: {
+      en: `Welcome to Penzion Malešice, a ten-storey concrete block that has spent half a century quietly failing to decide what kind of building it wants to be — dormitory, guesthouse, budget hotel, and soon, apartments for the very people who might otherwise never afford one.
+
+Built in 1971 alongside the rest of the Malešice housing estate, the building began life as a svobodárna — a communal dormitory for single employees of the Prague Communications transport company, and later a stopgap home for foreign workers. Only the ground and first floors were ever meant for anything but sleeping quarters, reserved from the start for shops and civic services.
+
+After 1990 it reinvented itself again, running as a proper guesthouse until it finally closed its doors on 30 June 2013. Since then it has sat waiting for its next act: a planned conversion into roughly 170 small flats, including dedicated units for people recovering from spinal cord injuries — proof that a building can spend fifty years housing strangers passing through and still end up, eventually, giving somebody an actual home.
+
+🎁 Bonus: Between the dormitory years and the guesthouse years and the apartment-conversion years still to come, this one unassuming tower has quietly cycled through nearly every category of temporary housing a person can occupy in a single lifetime — without ever technically becoming anyone's permanent address.`,
+
+      cz: `Vítej v Penzionu Malešice, desetipodlažní betonové budově, která už půl století nemůže úplně rozhodnout, jakou stavbou vlastně chce být — svobodárnou, penzionem, levným hotelem a brzy snad byty pro lidi, kteří by si jinak vlastní bydlení možná nikdy nepořídili.
+
+Budova vznikla v roce 1971 spolu se zbytkem sídliště Malešice a svůj život začala jako svobodárna — společné ubytování pro svobodné zaměstnance podniku Pražské komunikace, později provizorní domov pro zahraniční pracovníky. Jen přízemí a první patro byly od začátku určeny k něčemu jinému než ke spaní — obchodům a občanské vybavenosti.
+
+Po roce 1990 se budova znovu proměnila a fungovala jako skutečný penzion až do 30. června 2013, kdy definitivně zavřela. Od té doby čeká na svou další kapitolu: plánovanou přestavbu na zhruba 170 malých bytů, včetně jednotek určených lidem po poranění míchy — důkaz, že budova může půl století ubytovávat cizí lidi na cestách a nakonec přesto někomu poskytnout skutečný domov.
+
+Bonus: Mezi lety jako svobodárna, lety jako penzion a ještě nadcházející proměnou na byty prošla tahle nenápadná věž v podstatě téměř každou kategorií dočasného bydlení, jakou člověk může za jeden život zažít — aniž by se kdy technicky stala něčí trvalou adresou.`,
+
+      zh: `欢迎来到马莱谢采招待所，一座十层的混凝土建筑——半个世纪以来，它似乎一直没想好自己到底想成为什么：单身宿舍、招待所、廉价旅馆，如今又即将变成公寓，专门留给那些原本可能永远买不起房的人。
+
+这座建筑建于1971年，与马莱谢采住宅区其他建筑同期落成，最初是一座单身员工集体宿舍，供职于布拉格交通运输公司的单身员工居住，后来又一度成为外籍劳工的临时住所。从一开始，只有底层和二层被留作商店和公共服务设施，其余楼层全部用于居住。
+
+1990年后，这座建筑再次转型，作为正式的招待所一直营业到2013年6月30日才最终关闭。此后它便一直等待着自己的下一个身份：计划改建成大约170套小型公寓，其中还包括专门面向脊髓损伤康复人群的住房单元——证明一座建筑即便半个世纪里安置的都是来来往往的陌生人，最终依然可能，真正地，成为某个人的家。
+
+彩蛋：从宿舍岁月、招待所岁月，到即将到来的公寓岁月，这栋毫不起眼的高楼几乎经历了一个人一生中可能住过的每一种临时住房类型——却始终没有真正成为任何人的永久地址。`,
+    },
+  },
+  {
+    name: 'Malešice Waste-to-Energy Plant',
+    slug: 'spalovna-malesice',
+    localizedNames: { cz: 'Spalovna Malešice', zh: '马莱谢采垃圾焚烧发电厂' },
+    labels: ['factory'],
+    coordinates: { lat: 50.079874540015894, lng: 14.53832837549598 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Spalovna_Male%C5%A1ice',
+    description: {
+      en: `Welcome to the Malešice Waste-to-Energy Plant — the enormous machine that quietly turns a huge share of Prague's household rubbish into district heat and electricity for roughly 20,000 homes, working beneath one of the tallest chimneys anywhere in the Czech Republic.
+
+Prague has been burning its own waste for the better part of a century — the city's first incinerator went up in Vysočany between 1930 and 1933, processing more than 90,000 tonnes of rubbish a year even then. The Malešice plant is the modern successor: designed in 1987, under construction from 1988, and finally finished in 1998 after several interruptions along the way, under the deliberately unglamorous original name Spalovna tuhého komunálního odpadu Malešice — the Solid Municipal Waste Incinerator, Malešice.
+
+It has only gotten more capable since. A cogeneration unit added in 2010–2011 lets the plant convert waste heat directly into electricity, currently enough to power around 20,000 households. Then, between 2018 and 2023, a total overhaul nicknamed GOLEM re-equipped all four processing lines, letting the plant handle roughly 400,000 tonnes of waste a year — about a quarter more than the original 1990s technology ever could.
+
+🎁 Bonus: The renaming from the bluntly literal "Solid Municipal Waste Incinerator" to the more palatable "Waste-to-Energy Plant" (ZEVO) reflects a decades-long rebrand common to incinerators everywhere — the machine burning your rubbish didn't change nearly as much as the name did.`,
+
+      cz: `Vítej v pražském ZEVO Malešice — obřím zařízení, které tiše mění velkou část pražského domovního odpadu na teplo a elektřinu pro zhruba 20 000 domácností, a to pod jedním z nejvyšších komínů v celé České republice.
+
+Praha spaluje vlastní odpad už bezmála celé století — první spalovna ve Vysočanech vznikla v letech 1930 až 1933 a už tehdy zpracovávala přes 90 000 tun odpadu ročně. Malešická spalovna je jejím moderním nástupcem: projekt vznikl v roce 1987, stavba začala o rok později a s několika přerušeními se táhla až do roku 1998 — pod cíleně nenápadným původním názvem Spalovna tuhého komunálního odpadu Malešice.
+
+Od té doby jen přibývalo možností. Kogenerační jednotka přidaná v letech 2010–2011 umožňuje zařízení přeměňovat odpadní teplo přímo na elektřinu, dnes v množství, které pokryje spotřebu asi 20 000 domácností. A mezi lety 2018 a 2023 prošla spalovna kompletní přestavbou s přezdívkou GOLEM, která vybavila všechny čtyři linky novou technologií — zařízení tak dnes zvládne zpracovat přibližně 400 000 tun odpadu ročně, zhruba o čtvrtinu víc, než dokázala původní technologie z 90. let.
+
+Bonus: Přejmenování z tvrdě doslovného "Spalovna tuhého komunálního odpadu" na stravitelnější "Zařízení na energetické využití odpadu" (ZEVO) odráží desetiletí trvající rebranding, kterým prošly spalovny po celém světě — stroj, který spaluje váš odpad, se přitom změnil o poznání méně než jeho jméno.`,
+
+      zh: `欢迎来到布拉格垃圾焚烧发电厂——这台庞大的机器，默默地把布拉格家庭垃圾中的很大一部分，转化成供大约2万户家庭使用的热力和电力，而它工作的地方，就矗立着捷克全国数一数二的高耸烟囱。
+
+布拉格焚烧自家垃圾的历史，几乎已经持续了整整一个世纪——第一座焚烧厂于1930年至1933年间建成，那时每年就已经处理超过9万吨垃圾。这座工厂是它的现代继承者：项目于1987年设计，1988年动工，中间几经中断，直到1998年才最终完工，最初的名字刻意朴实无华——"城市固体废弃物焚烧厂"。
+
+此后，它的能力只增不减。2010至2011年间加装的热电联产机组，让这座工厂能够把废热直接转化为电力，如今产生的电量足以供应约2万户家庭。而在2018年到2023年间，工厂又经历了一场代号"GOLEM"的全面改造，为全部四条处理线更换了设备——如今这座工厂每年能处理约40万吨垃圾，比原来上世纪90年代的技术能力还多出大约四分之一。
+
+彩蛋：从生硬直白的"城市固体废弃物焚烧厂"，改名为更容易让人接受的"废弃物能源利用设施"，这其实反映了全球焚烧厂几十年来共同的"改名运动"——真正燃烧你家垃圾的那台机器，变化远没有它的名字变得那么大。`,
+    },
+  },
+  {
+    name: 'Malešice Park',
+    slug: 'malesicky-park',
+    localizedNames: { cz: 'Malešický park', zh: '马莱谢采公园' },
+    labels: ['park', 'nature'],
+    coordinates: { lat: 50.08500495706303, lng: 14.498375534216171 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Male%C5%A1ick%C3%BD_park',
+    description: {
+      en: `Welcome to Malešice Park, the largest public green space in Prague 10 — an 8.8-hectare stretch of hilltop parkland built in the late 1960s alongside the housing estate next door, and later rebuilt into one of the most wheelchair-accessible parks anywhere in the city.
+
+The park was designed and built between 1967 and 1968 by the city's own planning body, opening in 1970 in step with the sprawling new housing estate rising around it. It sits at 265 metres above sea level along the Malešice ridge, tucked between several residential streets.
+
+By the 2000s, decades of use had taken their toll, and the city began planning a full revitalisation — securing EU funding and territorial approval by 2010, then rebuilding the whole park between 2011 and 2013. The overhaul planted 366 new trees and added cascading water features, cycling paths, a promenade, and a children's playground specifically adapted for children with disabilities — work thorough enough that a significant share of the park became wheelchair-accessible, a distinction unusual enough in Prague to be considered genuinely unique here.
+
+🎁 Bonus: The 2011–2013 rebuild made this one of Prague's few genuinely disability-accessible green spaces at scale — meaning the same slopes and paths that let toddlers race their bicycles here also let wheelchair users cross the entire park end to end, a detail most other parks in the city still can't claim.`,
+
+      cz: `Vítej v Malešickém parku, největší veřejné zeleni v Praze 10 — 8,8hektarovém pásu parku na kopci, postaveném na konci 60. let spolu se sídlištěm hned vedle, a později přestavěném na jeden z nejpřístupnějších parků pro vozíčkáře v celém městě.
+
+Park navrhla a postavila v letech 1967–1968 pražská plánovací organizace a otevřel se v roce 1970, souběžně s rozrůstajícím se sídlištěm kolem něj. Leží ve výšce 265 metrů nad mořem na malešickém hřebeni, mezi několika okolními ulicemi.
+
+Do roku 2000 si desetiletí užívání vybraly svou daň a město začalo plánovat kompletní revitalizaci — do roku 2010 zajistilo dotace z EU i územní rozhodnutí a mezi lety 2011 a 2013 park zcela přestavělo. Při přestavbě bylo vysazeno 366 nových stromů a přibyly kaskádové vodní prvky, cyklostezky, promenáda a dětské hřiště uzpůsobené přímo pro děti s handicapem — práce natolik důkladná, že se výrazná část parku stala přístupnou pro vozíčkáře, což je v Praze natolik neobvyklé, že se to považuje za skutečnou místní zvláštnost.
+
+Bonus: Přestavba v letech 2011–2013 udělala z tohoto parku jeden z mála pražských parků skutečně přístupných lidem s handicapem ve velkém měřítku — tytéž svahy a cestičky, po kterých tu závodí děti na kolech, umožňují vozíčkářům projet celý park od kraje ke kraji, což si o sobě nemůže říct většina ostatních pražských parků.`,
+
+      zh: `欢迎来到马莱谢采公园，布拉格10区最大的公共绿地——这是一片建于1960年代末、面积达8.8公顷的山丘公园，与旁边的住宅区同期建成，后来又被改造成全市为数不多、对轮椅使用者格外友好的公园之一。
+
+公园由市属规划机构于1967至1968年设计建造，1970年正式开放，与周围不断扩张的住宅区同步成型。它坐落在海拔265米的山脊上，四周环绕着几条居民区街道。
+
+到21世纪初，几十年的使用让公园显出疲态，市政府于是启动了一次全面翻新计划——到2010年已经拿到欧盟资金和规划许可，翻新工程则在2011年至2013年间完成。这次翻新新种下了366棵树木，还增添了阶梯式水景、自行车道、林荫步道，以及一处专为残障儿童设计的游乐场——工程之彻底，让公园相当大的一部分区域变得对轮椅使用者友好，这在布拉格实属罕见，也因此被视为当地独有的一个特色。
+
+彩蛋：2011至2013年的这次翻新，让这座公园成为布拉格少数真正实现大规模无障碍通行的公园之一——同样的坡道和小径，既能让孩子们在这里骑车追逐，也能让轮椅使用者从公园一端畅行到另一端，这一点，布拉格大多数其他公园至今都做不到。`,
+    },
+  },
+  {
+    name: 'Jirásek Villa (Malešice Botanical Garden)',
+    slug: 'jiraskova-vila-malesice',
+    localizedNames: { cz: 'Jiráskova vila (Botanická zahrada Malešice)', zh: '伊拉斯科别墅（马莱谢采植物园）' },
+    labels: ['villa', 'park'],
+    coordinates: { lat: 50.089192162409404, lng: 14.515085821737395 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Jir%C3%A1skova_vila_(Male%C5%A1ice)',
+    description: {
+      en: `Welcome to Jirásek Villa, the ornamental heart of the Malešice Botanical Garden — a nineteenth-century farmstead that a wealthy industrialist eventually turned into his own private pseudo-Renaissance castle, only for the state to quietly hand the whole estate over to a horticultural school a few decades later.
+
+The property began in the mid-1800s as a modest farmstead, complete with a vegetable garden and orchard. Successive renovations gradually turned the farmhouse into a proper residence, and in 1889 the owner rebuilt it entirely into a representative Neo-Renaissance villa, complete with a terrace and a grand double staircase. The industrialist who acquired it next took things further still, remodelling the villa into a pseudo-Renaissance "castle" and, in 1920, hiring the renowned landscape architect František Thomayer to lay out the surrounding park in earnest.
+
+That ownership ended with the Second World War: the property was expropriated in 1946, passed to the City of Prague the following year, and in 1948 became home to a horticultural school relocated from another district. After 1990, the site returned to that same purpose, and today the villa's grounds live on as a working botanical garden and horticultural school facility.
+
+🎁 Bonus: The villa's transformation from farmhouse to industrialist's private castle to Communist-era horticultural school to present-day public botanical garden means a single plot of land has been, in barely more than a century and a half, a peasant's vegetable patch, a rich man's vanity project, and now — free and open to anyone who wanders in — a public garden again.`,
+
+      cz: `Vítej u Jiráskovy vily, okrasného srdce Botanické zahrady Malešice — usedlosti z 19. století, kterou si bohatý průmyslník proměnil ve vlastní soukromý pseudorenesanční zámeček, jen aby ho o pár desetiletí později stát tiše přepsal na zahradnickou školu.
+
+Pozemek začínal v polovině 19. století jako skromná usedlost se zeleninovou zahradou a sadem. Postupné přestavby proměnily statek v opravdové sídlo, a v roce 1889 jej majitel kompletně přebudoval na reprezentativní novorenesanční vilu s terasou a honosným dvojitým schodištěm. Průmyslník, který ji následně získal, zašel ještě dál — vilu přestavěl na pseudorenesanční "zámeček" a v roce 1920 najal proslulého zahradního architekta Františka Thomayera, aby kolem ní naplno navrhl park.
+
+Toto vlastnictví skončilo s druhou světovou válkou: majetek byl v roce 1946 vyvlastněn, o rok později přešel na hlavní město Prahu a v roce 1948 sem bylo přestěhováno zahradnické učiliště z jiné pražské čtvrti. Po roce 1990 se místo vrátilo ke stejnému účelu a dnes žije areál vily dál jako fungující botanická zahrada a provoz zahradnické školy.
+
+Bonus: Proměna vily ze statku na soukromý zámeček průmyslníka, pak na zahradnickou školu za komunismu a dnes na veřejnou botanickou zahradu znamená, že jeden jediný pozemek byl za necelých sto padesát let postupně zeleninovou zahrádkou poddaného, marnivým projektem bohatého muže a dnes — volně přístupný komukoliv, kdo sem zabloudí — je znovu veřejnou zahradou.`,
+
+      zh: `欢迎来到伊拉斯科别墅，马莱谢采植物园的核心景观——一座19世纪的庄园，先是被一位富有的实业家改造成自己的私人仿文艺复兴式城堡，几十年后又被政府悄悄转交给了一所园艺学校。
+
+这块地产最初可以追溯到19世纪中叶，是一处朴素的庄园，带着一片菜园和果园。经过几次改建，庄园逐渐变成了真正的宅邸，1889年，业主将其彻底重建为一座气派的新文艺复兴式别墅，配有露台和宏伟的双跑楼梯。后来的业主、一位实业家走得更远——把别墅改建成一座仿文艺复兴式的"城堡"，并在1920年聘请了著名的园林设计师弗朗齐歇克·托马耶尔，为其正式设计周边园林。
+
+这段所有权随二战结束而终结：这处地产于1946年被没收，次年转归布拉格市所有，1948年，一所从另一个区迁来的园艺学校在此落户。1990年后，这里恢复了同样的用途，如今别墅周边的园区仍以一座运作中的植物园兼园艺学校设施的身份延续着生命。
+
+彩蛋：这座别墅从庄园，到实业家的私人城堡，再到共产主义时期的园艺学校，最后成为今天的公共植物园——短短不到一个半世纪里，同一块土地先后做过农户的菜地、富人的虚荣工程，如今又重新变回了一座任何人都可以随意走进的公共花园。`,
+    },
+  },
+  {
+    name: 'Malešice Viaduct',
+    slug: 'malesicky-viadukt',
+    localizedNames: { cz: 'Malešický Viadukt', zh: '马莱谢采高架桥' },
+    labels: ['ruin', 'historical'],
+    coordinates: { lat: 50.08757638342891, lng: 14.516001369330118 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to the Malešice Viaduct, a handsome brick-and-stone railway bridge built in the 1930s purely to move freight trains — the kind of solidly built infrastructure nobody notices until, one day, the trains just stop coming and nobody quite bothers to explain why.
+
+Constructed between 1931 and 1936 as part of a freight-only branch line, the viaduct carries its tracks across the valley on a series of barrel-vaulted brick arches set on rectangular stone-clad pillars — solid, unfussy railway engineering built to last, with no pretensions to anything grander than moving goods wagons efficiently.
+
+It did exactly that for over eight decades, until a freight train accident nearby in 2019 gave the national railway authority the excuse to write the whole line off as not worth repairing. The line was subsequently shut down for good, leaving the viaduct standing over a valley it no longer needs to cross for anyone.
+
+🎁 Bonus: A structure engineered in the 1930s to shrug off decades of loaded freight trains was ultimately retired not by structural failure but by a single accident and a cost-benefit spreadsheet — proof that in railway economics, a bridge can outlive its purpose long before it outlives its own concrete.`,
+
+      cz: `Vítej u Malešického viaduktu, pěkného cihlovo-kamenného železničního mostu postaveného ve 30. letech čistě pro nákladní vlaky — přesně toho typu poctivě postavené infrastruktury, které si nikdo nevšímá, dokud jednoho dne vlaky prostě přestanou jezdit a nikdo se ani neobtěžuje vysvětlit proč.
+
+Viadukt vznikl v letech 1931 až 1936 jako součást ryze nákladní železniční vlečky a vede koleje přes údolí na řadě cihlových segmentových oblouků posazených na hranolových pilířích s kamenným obkladem — solidní, nenáročné železniční inženýrství postavené na dlouhé trvání, bez ambic na cokoliv okázalejšího než efektivní přesun nákladních vagonů.
+
+Přesně to dělal přes osmdesát let, dokud nedaleká nehoda nákladního vlaku v roce 2019 nedala Správě železnic záminku prohlásit celou trať za neopravitelnou. Trať byla následně definitivně uzavřena a viadukt tak zůstal stát nad údolím, které už pro nikoho nepotřebuje překonávat.
+
+Bonus: Konstrukce navržená ve 30. letech tak, aby snesla desetiletí naložených nákladních vlaků, nakonec neskončila kvůli statické poruše, ale kvůli jediné nehodě a kalkulačce nákladů a přínosů — důkaz, že v železniční ekonomice most může přežít svůj smysl dávno předtím, než přežije vlastní beton.`,
+
+      zh: `欢迎来到马莱谢采高架桥，一座建于1930年代、专门为货运列车而建的砖石铁路桥——正是那种扎实到没人会多看一眼的基础设施，直到某天，火车突然不再驶过，也没人特意解释原因。
+
+这座高架桥建于1931年至1936年间，是一条纯货运支线的一部分，靠一连串砌在方形石砌墩柱上的砖砌筒形拱券，把铁轨架设在山谷之上——扎实、不事张扬的铁路工程，为长久使用而建，没有比高效运送货运车厢更宏大的野心。
+
+它就这样兢兢业业地运行了八十多年，直到2019年附近发生一起货运列车事故，国家铁路管理部门借此宣布整条线路"不值得修复"。这条线路随后被彻底关闭，高架桥就此矗立在一座它再也不需要为任何人跨越的山谷之上。
+
+彩蛋：这座在1930年代设计、本应扛得住数十年满载货运列车碾压的建筑，最终却不是因为结构损坏而退役，而是败给了一次事故和一张成本效益核算表——这恰好证明，在铁路经济学的世界里，一座桥梁完全可能，在它自己的混凝土寿终正寝之前很久，就先失去了存在的意义。`,
+    },
+  },
+  {
+    name: "Milíč's Prayer House",
+    slug: 'milicova-modlitebna',
+    localizedNames: { cz: 'Milíčova modlitebna - kaple Českobratrské církve evangelické', zh: '米利奇祈祷堂' },
+    labels: ['church', 'historical'],
+    coordinates: { lat: 50.08719995868455, lng: 14.507582718382361 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Mil%C3%AD%C4%8Dova_modlitebna',
+    description: {
+      en: `Welcome to Milíč's Prayer House, a small evangelical chapel named after a fourteenth-century Czech reformist preacher — and a building whose actual construction took over a decade to get approved, because getting a fresh communist government to sign off on a brand-new church was never going to be fast.
+
+The prayer house had already been planned back in the 1940s, but approval from both the local people's administration and the state office for church affairs only came through in 1950 — by which point the communist regime was firmly in charge. The architect designed a deliberately austere, rectangular hall, built partly with volunteer labour between 1950 and 1952, and it opened, at last, on 18 May 1952.
+
+Its stripped-down, unornamented style was entirely intentional: evangelical tradition calls for sacred buildings without pomp, and the architect delivered exactly that, alongside several similar commissions elsewhere in Prague. Since the end of 2017, the building and the land around it belong to a Prague congregation of the Czech Brethren Evangelical Church, which still uses it as an active prayer house today.
+
+🎁 Bonus: Named for the 14th-century preacher whose fiery sermons against clerical corruption helped set the stage for the Hussite movement a generation later — this quiet mid-century hall carries the name of one of Bohemian reform theology's original troublemakers.`,
+
+      cz: `Vítej v Milíčově modlitebně, malé evangelické kapli pojmenované po českém reformním kazateli ze 14. století — a budově, jejíž samotná stavba se protáhla o víc než deset let jen proto, že získat od čerstvě nastoupivšího komunistického režimu povolení pro nový kostel nikdy nemohlo jít rychle.
+
+Modlitebna byla plánovaná už ve 40. letech, ale povolení jak od místní lidové správy, tak od státního úřadu pro věci církevní přišlo až v roce 1950 — kdy už byl komunistický režim pevně u moci. Architekt navrhl záměrně strohou obdélnou stavbu, budovanou částečně brigádnickou svépomocí v letech 1950 až 1952, a slavnostně otevřena byla 18. května 1952.
+
+Její strohý, neokázalý styl byl zcela záměrný: evangelická tradice žádá u sakrálních staveb nenáročnost bez okázalosti, a architekt přesně to dodal, podobně jako u několika dalších svých zakázek jinde v Praze. Od konce roku 2017 patří budova i pozemek kolem ní pražskému sboru Českobratrské církve evangelické, který ji dodnes používá jako aktivní modlitebnu.
+
+Bonus: Modlitebna nese jméno kazatele ze 14. století, jehož ohnivá kázání proti zkorumpovanému duchovenstvu o generaci později připravila půdu husitskému hnutí — tahle tichá síň z poloviny 20. století tak nese jméno jednoho z prvních skutečných rebelů české reformní teologie.`,
+
+      zh: `欢迎来到米利奇祈祷堂，一座以14世纪捷克改革派传教士命名的小型福音派教堂——而它本身的建造，却足足拖了十多年才获批，因为想让一个刚上台的共产党政权批准新建一座教堂，从来都不是件容易或迅速的事。
+
+这座祈祷堂早在1940年代就已有规划，但直到1950年——彼时共产政权已牢牢掌权——才同时获得地方人民行政机关和国家教务局的批准。建筑师设计了一座刻意朴素的长方形大厅，1950年至1952年间部分靠志愿劳动建成，最终于1952年5月18日正式开放。
+
+它那种极简、毫无装饰的风格完全是有意为之：福音派传统要求宗教建筑不事奢华，建筑师也确实做到了这一点，他在布拉格其他地方也承接过几处类似风格的委托项目。自2017年底起，这座建筑及周边土地归属布拉格一处捷克兄弟福音教会的教会会众，该教会至今仍将其用作一座正在使用中的祈祷堂。
+
+彩蛋：这座祈祷堂以14世纪一位传教士命名——他那些痛斥教士腐败的激烈布道，在一代人之后为胡斯运动埋下了伏笔。这座安静的20世纪中期礼堂，就这样承载着一位捷克改革神学"元老级麻烦制造者"的名字。`,
+    },
+  },
+  {
+    name: 'Chapel of St. Wenceslas (Malešice)',
+    slug: 'kaple-sv-vaclava-malesice',
+    localizedNames: { cz: 'Kaple sv. Václava Malešice', zh: '马莱谢采圣瓦茨拉夫小教堂' },
+    labels: ['church', 'historical'],
+    coordinates: { lat: 50.08495237173379, lng: 14.51154384316188 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to the Chapel of St. Wenceslas in Malešice, a modest 1765 Baroque chapel that survived looted furnishings, a botched 1970s repair job, and decades of neglect — only to end up, improbably, as an art gallery.
+
+Built in 1765 in the late-Baroque style and substantially reworked in the Classical taste during the early 19th century, the chapel is a small rectangular building with a segmented apse and a modest pyramidal bell tower, standing on what was once the village green — today's Malešice square — beside the site of the old manorial courtyard.
+
+The 20th century was not kind to it: its interior furnishings were stolen or destroyed, and a hasty, unprofessional repair in 1970–1971 stripped the façade of what decoration it had left, even as it likely kept the whole structure from collapsing outright. It has been formally protected as a cultural monument since 3 May 1958, and since 2018 the chapel has found new purpose as an exhibition space for a local gallery.
+
+🎁 Bonus: A repair job crude enough to strip a chapel's façade of its remaining ornamentation is not usually filed under "preservation success stories" — yet by most accounts, that same rough 1970s patch job is exactly what kept the building from falling down entirely before its heritage listing could actually protect it.`,
+
+      cz: `Vítej v Kapli sv. Václava v Malešicích, skromné barokní kapličce z roku 1765, která přežila vykradené vybavení, neodbornou opravu ze 70. let i desetiletí zanedbání — jen aby nakonec, dost nečekaně, skončila jako výstavní galerie.
+
+Kaple vznikla v roce 1765 v pozdně barokním slohu a v první třetině 19. století prošla zásadní klasicistní přestavbou. Jde o malou obdélnou stavbu se segmentovým závěrem a skromnou pyramidovou zvoničkou, stojící na místě bývalé návsi — dnešního Malešického náměstí — vedle bývalého panského dvora.
+
+20. století jí příliš nepřálo: vnitřní vybavení bylo ukradeno nebo zničeno a neodborná oprava v letech 1970–1971 zbavila fasádu zbylé výzdoby, přestože právě ona zřejmě zabránila úplnému zchátrání celé stavby. Od 3. května 1958 je kaple chráněna jako kulturní památka a od roku 2018 slouží jako výstavní prostor místní galerie.
+
+Bonus: Oprava natolik hrubá, že fasádě kapličky sebrala i poslední zbytky výzdoby, se obvykle neřadí mezi úspěšné případy památkové péče — přesto právě tahle neomalená záplata ze 70. let podle všeho zabránila tomu, aby stavba spadla úplně, ještě předtím, než ji mohla skutečně ochránit památková ochrana.`,
+
+      zh: `欢迎来到马莱谢采圣瓦茨拉夫小教堂，一座建于1765年的朴素巴洛克小教堂——它熬过了内部陈设被盗、1970年代一次粗糙的维修，以及数十年的疏于照管，最终却出人意料地，变成了一座艺术画廊。
+
+这座小教堂建于1765年，属晚期巴洛克风格，19世纪初又经历了一次颇为彻底的古典主义式改建。它是一座带弧形后堂的小型矩形建筑，配有一座朴素的金字塔形钟塔，坐落在昔日村庄绿地——也就是今天的马莱谢采广场——紧邻旧日庄园院落的旧址。
+
+20世纪对它并不算友好：内部陈设或被盗、或被毁，1970至1971年间一次仓促、不专业的维修，剥去了立面上仅存的装饰——尽管很可能正是这次维修，阻止了整座建筑彻底坍塌。自1958年5月3日起，这座小教堂被正式列为文化古迹，自2018年起，它又被赋予了新的用途，成为一家本地画廊的展览空间。
+
+彩蛋：一次粗糙到把小教堂立面仅剩装饰都剥光的维修，通常不会被归入"文物保护成功案例"之列——但据大多数说法，恰恰就是这次1970年代的糙活儿，让这座建筑在真正获得文物保护身份、免于彻底倒塌之前，多撑过了那关键的几年。`,
+    },
+  },
+  {
+    name: 'Baroque Niche Chapel (Battle of Štěrboholy Memorial)',
+    slug: 'vyklenkova-kaple-malesice',
+    localizedNames: { cz: 'Barokní výklenková kaple Malešice, na paměť bitvy u Štěrbohol', zh: '马莱谢采巴洛克壁龛小教堂（什捷尔博霍利战役纪念）' },
+    labels: ['church', 'historical', 'monument'],
+    coordinates: { lat: 50.08739638759267, lng: 14.507463795664602 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/V%C3%BDklenkov%C3%A1_kaple_(Male%C5%A1ice)',
+    description: {
+      en: `Welcome to the Baroque Niche Chapel of Malešice, built in exactly the same year — 1757 — as the ferocious battle it was raised to commemorate, by the very university that happened to own the village where all that fighting took place.
+
+Charles-Ferdinand University had owned Malešice as one of its estate villages since 1727, which is how it ended up commemorating, in stone, a battle fought practically on its own land. On 6 May 1757, the Battle of Štěrboholy — among the bloodiest engagements of the entire Seven Years' War — tore through the nearby hills as Frederick the Great's Prussian army routed the forces of Maria Theresa. That same year, the university raised this small niche chapel at one of the highest points in Malešice, decorated with a fresco of the Crucifixion and the Virgin Mary set within a quatrefoil frame.
+
+Architecturally, it is a study in Baroque restraint: a semicircular vaulted niche flanked by Tuscan pilasters, capped with a triangular pediment and cornice — modest scale for a monument to what was, at the time, one of the deadliest days Central Europe had seen in a generation. It stands today directly across from Milíč's Prayer House, a heritage-listed reminder of a battle whose casualties briefly turned the fields around Malešice into one of the war's grimmest killing grounds.
+
+🎁 Bonus: The chapel and the evangelical prayer house facing it were built exactly two centuries apart — 1757 and 1952 — meaning the same street corner in Malešice quietly holds two very different generations' answers to catastrophe: one memorialising an 18th-century battlefield, the other built by a 20th-century church that had just spent a decade fighting simply to exist.`,
+
+      cz: `Vítej u Barokní výklenkové kaple v Malešicích, postavené přesně ve stejném roce — 1757 — jako krvavá bitva, kterou měla připomínat, a to univerzitou, které tehdy patřila i vesnice, kde se celý ten boj odehrál.
+
+Karlo-Ferdinandova univerzita vlastnila Malešice jako jednu ze svých poddanských vesnic už od roku 1727, což vysvětluje, proč nakonec v kameni připomněla bitvu svedenou prakticky na vlastní půdě. 6. května 1757 se nedalekými kopci prohnala bitva u Štěrbohol — jedna z nejkrvavějších srážek celé sedmileté války —, při níž pruská armáda Fridricha Velikého na hlavu porazila vojska Marie Terezie. Téhož roku nechala univerzita na jednom z nejvyšších bodů Malešic postavit tuto malou výklenkovou kapličku, vyzdobenou freskou Ukřižování a Panny Marie v rámu čtyřlístku.
+
+Architektonicky jde o studii barokní zdrženlivosti: půlkruhově klenutý výklenek lemovaný toskánskými pilastry, zakončený trojúhelníkovým štítem s římsou — skromné měřítko na památník jednoho z nejkrvavějších dnů, jaké střední Evropa za celou generaci zažila. Dnes stojí přímo naproti Milíčově modlitebně, památkově chráněná připomínka bitvy, jejíž oběti proměnily okolí Malešic na krátký čas v jedno z nejtemnějších bojišť celé války.
+
+Bonus: Kaple a evangelická modlitebna naproti ní vznikly přesně dvě staletí od sebe — v letech 1757 a 1952 — takže stejný roh ulice v Malešicích tiše nese odpovědi dvou zcela odlišných generací na katastrofu: jedna připomíná bojiště 18. století, druhou postavila církev 20. století, která právě strávila deset let bojem o pouhé právo existovat.`,
+
+      zh: `欢迎来到马莱谢采巴洛克壁龛小教堂，它建成的年份——1757年——恰好与它所纪念的那场惨烈战役同年，而建造它的，正是当年拥有这座村庄的那所大学。
+
+查理-斐迪南大学自1727年起就将马莱谢采作为其领地村庄之一，这也解释了它为何最终会用石头，纪念一场几乎就发生在自家领地上的战役。1757年5月6日，什捷尔博霍利战役——整场七年战争中最血腥的战斗之一——席卷了附近的丘陵地带，普鲁士腓特烈大帝的军队在此重创了玛丽亚·特蕾莎的军队。同一年，大学便在马莱谢采地势最高的地点之一，建起了这座小小的壁龛式教堂，教堂内装饰着一幅"耶稣受难与圣母"的四叶形壁龛壁画。
+
+从建筑角度看，这是一次克制的巴洛克式演绎：半圆形拱顶壁龛两侧饰有托斯卡纳壁柱，顶部覆以带檐口的三角形山花——用如此内敛的规模，纪念中欧一代人以来最血腥的一天之一。它如今就矗立在米利奇祈祷堂正对面，是一处受文物保护的历史见证，提醒着人们，马莱谢采周边的田野曾在短短时间内，变成了这场战争最惨烈的杀戮场之一。
+
+彩蛋：这座小教堂与它对面的福音派祈祷堂，建造年份恰好相隔整整两个世纪——1757年与1952年——这意味着马莱谢采的同一个街角，悄然并存着两个截然不同时代对灾难的回应：一座纪念着18世纪的战场，另一座则由一个刚刚为自身"存在权"苦苦争取了十年的20世纪教会所建。`,
+    },
+  },
+  {
+    name: 'Homestead No. 11 (Hotel Baroko)',
+    slug: 'usedlost-cp-11-malesice',
+    localizedNames: { cz: 'Usedlost čp. 11 (dnes hotel Baroko)', zh: '11号庄园（巴洛克酒店）' },
+    labels: ['homestead', 'historical'],
+    coordinates: { lat: 50.085592683760595, lng: 14.513199968215144 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Male%C5%A1ick%C3%BD_statek',
+    description: {
+      en: `Welcome to Homestead No. 11, a working farm since at least 1687 that spent three centuries growing grain and, after 1990, quietly reinvented itself as Hotel Baroko — proof that a good barn never really goes out of business, it just changes its clientele.
+
+A gate plaque dates the property to 1689, though the farmstead itself is recorded as early as 1687 — a working early-Baroque homestead that grew steadily over the centuries: a granary added in 1716, a partial rebuild in 1761, and further farm buildings added along the north side of the courtyard as late as 1844. It survived, more or less intact, right through the collectivised farming era of Czechoslovak communism.
+
+The property was returned to the Hovorka family in 1990, restitution untangling decades of state ownership in one stroke, and the family began a careful conversion of the old granary and farm buildings into a guesthouse the following year. Hotel Baroko opened for business in December 1992, added further rooms in 1997, and eventually turned the former barn itself into a restaurant — transforming a three-century-old working farmstead into a functioning hotel without ever quite erasing the fact that it used to feed a village, not host one.
+
+🎁 Bonus: The 1689 date on the gate plaque and the 1687 date recorded for the farmstead itself disagree by two years — a minor discrepancy, but a fitting one for a property whose entire three-century existence has been a running argument between record-keeping and reality, patched, rebuilt, and repurposed roughly once a century since.`,
+
+      cz: `Vítej u Usedlosti čp. 11, hospodářství fungujícího minimálně od roku 1687, které tři století pěstovalo obilí a po roce 1990 se potichu proměnilo v hotel Baroko — důkaz, že dobrá stodola nikdy doopravdy nekončí s podnikáním, jen si najde jinou klientelu.
+
+Deska na bráně datuje usedlost do roku 1689, samotné hospodářství je ale doloženo už od roku 1687 — jde o funkční ranně barokní usedlost, která se v průběhu staletí postupně rozrůstala: sýpka přibyla v roce 1716, částečná přestavba proběhla v roce 1761 a další hospodářské budovy na severní straně dvora vznikly ještě v roce 1844. Éru zkolektivizovaného zemědělství za komunismu přečkala víceméně neporušená.
+
+Majetek byl v roce 1990 vrácen rodině Hovorkových — restituce tak jedním tahem rozmotala desetiletí státního vlastnictví — a rodina hned následující rok zahájila citlivou přestavbu staré sýpky a hospodářských budov na penzion. Hotel Baroko zahájil provoz v prosinci 1992, v roce 1997 přibyly další pokoje a z bývalé stodoly se nakonec stala restaurace — třísetletá funkční usedlost se tak proměnila ve fungující hotel, aniž by se úplně vytratil fakt, že kdysi neživila hosty, ale celou vesnici.
+
+Bonus: Rok 1689 na desce u brány a rok 1687 doložený pro samotné hospodářství se liší o dva roky — drobná nesrovnalost, ale docela příhodná pro usedlost, jejíž celá třísetletá existence je vlastně nepřetržitou hádkou mezi záznamy a realitou, opravovanou, přestavovanou a přeznačovanou zhruba jednou za století.`,
+
+      zh: `欢迎来到11号庄园，这是一处至少自1687年起就一直在运作的农庄，整整三个世纪都在种植谷物，1990年后又悄悄变身为巴洛克酒店——证明一间好谷仓从不会真正倒闭，它只是换了一批客人。
+
+大门上的铭牌把这处地产的年代定为1689年，而庄园本身的记录却早在1687年就已存在——这是一座仍在运作的早期巴洛克风格庄园，历经数百年逐步扩建：1716年加建了谷仓，1761年进行了部分重建，1844年又在庭院北侧新增了农业用房。它几乎完好无损地熬过了捷克斯洛伐克共产主义时期集体化农业的岁月。
+
+1990年，这处产业根据财产归还法规交还给了霍沃尔卡家族——一次性理清了几十年的国有产权问题——次年，这家人便开始对老谷仓和农用建筑进行细致的改造，将其变为一家招待所。巴洛克酒店于1992年12月正式开业，1997年又增建了客房，最终就连当年的旧牛棚也被改造成了一家餐厅——一座运作了三个世纪的农庄，就这样变成了一家实际运营的酒店，却始终没能完全抹去它当年供养的是整个村庄、而非住客的这段历史。
+
+彩蛋：大门铭牌上的1689年与庄园本身记录的1687年相差两年——这是个小小的出入，却也恰如其分地属于这样一处产业：它长达三个世纪的历史，本质上就是一场记录与现实之间从未停歇的争论，大约每隔一个世纪，就要被修补、重建、重新赋予用途一次。`,
+    },
+  },
+  {
+    name: 'Libuš Reservoir',
+    slug: 'libusska-prehrada',
+    localizedNames: { cz: 'Libušská přehrada', zh: '利布什水库' },
+    labels: ['waterbody', 'nature'],
+    coordinates: { lat: 50.002820625397916, lng: 14.452133634834373 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Libuš Reservoir (Libušská přehrada)!
+
+Built in the mid-1980s as an unglamorous companion piece to the brand-new Libuš housing estate rising around it, this retention reservoir exists for one very practical reason: taming the Libušský stream whenever it gets ideas above its station. An 11-metre-high, 97-metre-long earthen dam holds back a modest 9,155 cubic metres of standing water spread across a 5,800-square-metre surface — but when a real storm hits, the whole basin can swallow up to 142,700 cubic metres before it lets a drop cause trouble downstream. It is flood control at its most unglamorous and most quietly essential.
+
+What nobody quite planned for is how much the reservoir would come to matter as a wetland. Sitting inside the boundaries of the Modřanská rokle nature monument, its reedy shallows have logged 118 species of vascular plants, with reed canary grass and broad-leaved cattail crowding the waterline into a genuine little marsh. Carp and tench are farmed here too, hauled out once every two years each autumn — so the reservoir spends most of its life as a nature reserve and a fish pond, and only occasionally remembers that its actual job is holding back a flood.
+
+🥚 Easter Egg: The dam was engineered to absorb roughly fifteen times its everyday water volume in an emergency — a design margin so generous that most Libuš residents who jog past this pond every day have no idea they're passing a piece of serious flood-control infrastructure, rather than just a pretty pond with unusually ambitious ducks.`,
+
+      cz: `Statečný dobrodruhu, vítej u Libušské přehrady!
+
+Tahle retenční nádrž vznikla v polovině 80. let 20. století jako nenápadný doprovod k tehdy zbrusu novému sídlišti Libuš, které kolem ní rostlo. Existuje z jednoho velmi praktického důvodu: krotit Libušský potok, kdykoliv se rozhodne, že se rozvodní. Jedenáct metrů vysoká a devadesát sedm metrů dlouhá zemní hráz drží zpět skromných 9 155 metrů krychlových stojaté vody na ploše 5 800 metrů čtverečních — ale když udeří opravdová bouře, celá nádrž dokáže pojmout až 142 700 metrů krychlových vody, než by cokoliv způsobilo potíže po proudu. Je to protipovodňová ochrana v té nejnenápadnější a nejtišší podobě.
+
+Nikdo úplně neplánoval, jak moc bude nádrž nakonec důležitá jako mokřad. Leží v hranicích přírodní památky Modřanská rokle a v jejích rákosinách bylo napočítáno 118 druhů cévnatých rostlin, přičemž chrastice rákosovitá a orobinec širokolistý zahušťují břeh do podoby skutečné malé bažiny. Chová se tu i kapr a lín, kteří se jednou za dva roky na podzim loví — nádrž tak většinu svého života tráví jako přírodní rezervace a rybník a jen občas si vzpomene, že její skutečnou prací je zadržet povodeň.
+
+🥚 Velikonoční vajíčko: Hráz byla navržena tak, aby v nouzi pojala zhruba patnáctinásobek běžného objemu vody — natolik velkorysá rezerva, že většina obyvatel Libuše, kteří tu denně běhají kolem rybníka, netuší, že míjejí kus vážné protipovodňové infrastruktury, a ne jen hezký rybníček s nezvykle ambiciózními kachnami.`,
+
+      zh: `勇敢的冒险家，欢迎来到利布什水库（Libušská přehrada）！
+
+这座滞洪水库建于20世纪80年代中期，是当时刚刚拔地而起的利布什（Libuš）住宅区旁一项毫不起眼的配套工程。它存在的理由非常实际：每当利布什溪（Libušský potok）"心血来潮"暴涨时，把它管住。一道高11米、长97米的土坝，平时只拦着5800平方米水面上区区9155立方米的静水——但当真正的暴雨来袭，整个水库能够容纳多达142700立方米的洪水，然后才会让哪怕一滴水给下游添麻烦。这是防洪工程里最不起眼、却也最默默尽责的那一种。
+
+没人当初完全规划过它会作为湿地变得如此重要。它坐落在摩德拉尼峡谷（Modřanská rokle）自然保护区范围之内，芦苇丛生的浅水区里记录到118种维管植物，其中虉草和宽叶香蒲把水边挤成了一片名副其实的小沼泽。这里也养殖鲤鱼和丁鱥，每两年一次在秋天捕捞——于是这座水库大部分时间都以自然保护区和鱼塘的身份存在，只是偶尔才想起自己真正的工作是拦截洪水。
+
+🥚 彩蛋：这道堤坝的设计蓄水能力大约是日常水量的十五倍——如此慷慨的安全余量，以至于大多数每天沿着这个池塘慢跑的利布什居民，压根不知道自己经过的其实是一项认真的防洪基础设施，而不只是一个住着几只格外有野心的鸭子的漂亮池塘。`,
+    },
+  },
+  {
+    name: 'Strašnice Theatre',
+    slug: 'strasnicke-divadlo',
+    localizedNames: { cz: 'Strašnické divadlo', zh: '斯特拉什尼采剧院' },
+    labels: ['cultural', 'communism'],
+    coordinates: { lat: 50.075361807513005, lng: 14.499173187947143 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Stra%C5%A1nick%C3%A9_divadlo',
+    description: {
+      en: `Welcome to Strašnice Theatre, a modest 1961 cultural house on a housing estate that quietly became, for almost a decade, one of the hottest tickets in Prague — a 250-seat hall so permanently sold out that getting inside felt less like theatre-going and more like a small miracle.
+
+The building went up between 1958 and 1961 under architect Karel Poličanský, designed as an all-purpose cultural house for the Solidarita housing estate, complete with its own library and restaurant, and named after the estate itself. Above the entrance, sculptor Valerián Karoušek added a striking high-relief ceramic frieze of a factory worker, a young family, and a harpist — an odd but earnest trio for a socialist cultural centre to put on its face.
+
+Its golden age arrived from 1983 onward, when the legendary Jára Cimrman Theatre took up residence, and the hall's 250 seats became essentially impossible to book. That run ended in 1992 when the Cimrman company relocated, and the district's cultural house closed the following year, reborn under a new name. A civic association took over operations in 2004, and in 2006 the building settled on the name it carries today.
+
+🎁 Bonus: For most of the 1980s, this unassuming estate cultural house was, by ticket-scarcity alone, arguably a harder booking than Prague's grandest historic stages — living proof that a sold-out show doesn't need marble columns, just an audience that refuses to stay away.`,
+
+      cz: `Vítej ve Strašnickém divadle, skromném kulturním domě z roku 1961 na sídlišti, který se na necelou dekádu potichu stal jednou z nejžádanějších pražských vstupenek — sál pro 250 diváků byl natolik trvale vyprodaný, že dostat se dovnitř připomínalo spíš malý zázrak než návštěvu divadla.
+
+Budova vznikla v letech 1958 až 1961 podle projektu architekta Karla Poličanského jako víceúčelový kulturní dům sídliště, s vlastní knihovnou a restaurací, a dostala jméno právě po sídlišti. Nad vstupním portálem umístil sochař Valerián Karoušek výrazný vysoký keramický reliéf zobrazující technika, mladou rodinu a harfenistku — nezvyklé, ale upřímné trio na průčelí socialistického kulturního domu.
+
+Zlatá éra přišla od roku 1983, kdy se tu usadilo legendární Divadlo Járy Cimrmana a 250 míst v sále se stalo prakticky nesehnatelných. Toto období skončilo v roce 1992, kdy se cimrmanovský soubor přestěhoval jinam, a obvodní kulturní dům o rok později zanikl, aby se znovu narodil pod novým jménem. V roce 2004 převzalo provoz občanské sdružení a v roce 2006 se budova ustálila na jméně, které nese dodnes.
+
+Bonus: Po většinu 80. let byl tenhle nenápadný sídlištní kulturák — čistě podle nedostupnosti vstupenek — pravděpodobně těžší rezervací než ta nejvýstavnější pražská historická jeviště. Živý důkaz, že vyprodané představení nepotřebuje mramorové sloupy, jen publikum, které se sem odmítá přestat vracet.`,
+
+      zh: `欢迎来到斯特拉什尼采剧院，一座建于1961年、坐落在住宅区里的朴素文化馆——它曾在近十年间悄然变成布拉格最难抢到票的地方之一：250个座位的大厅长期一票难求，能挤进去看戏，感觉更像是中了个小奖，而不是单纯去看场演出。
+
+这座建筑由建筑师设计，建于1958年至1961年间，最初是住宅区的一座多功能文化馆，附设图书馆和餐厅，并以住宅区的名字命名。雕塑家在入口上方设计了一幅醒目的高浮雕陶瓷装饰，描绘了一位技术工人、一个年轻家庭和一位竖琴演奏者——对于一座社会主义文化馆的门面来说，这个组合虽然古怪，却也十分真诚。
+
+它的黄金时代始于1983年，一个传奇剧团入驻于此，剧场250个座位几乎成了抢不到的稀缺资源。这段辉煌在1992年画上句号——剧团迁往别处，次年，这座区属文化馆也随之关闭，之后又以新的名字重生。2004年，一个民间协会接手了运营，到2006年，这座建筑最终定名为如今这个名字。
+
+彩蛋：整个1980年代的大部分时间里，光凭"一票难求"这一点，这座毫不起眼的住宅区文化馆，恐怕比布拉格最恢弘的历史剧院都更难订到票——活生生地证明了，一场满座的演出，靠的不是大理石柱，而是一群怎么也不肯不来的观众。`,
+    },
+  },
+  {
+    name: 'Červenka Chapel',
+    slug: 'cervenkova-kaple',
+    localizedNames: { cz: 'Červenkova kaple', zh: '切尔文卡小教堂' },
+    labels: ['church', 'historical'],
+    coordinates: { lat: 50.07489658906097, lng: 14.510262249425406 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C4%8Cervenkova_kaple',
+    description: {
+      en: `Welcome to Červenka Chapel, a small Classicist shrine built by a grieving husband for a wife who died doing something genuinely heroic — nursing wounded soldiers during the chaos of 1848 — and then largely forgotten by history until a descendant tracked it down over a century and a half later.
+
+A local builder who went on to serve as mayor had this chapel raised in memory of his wife, who died after contracting an infection while nursing soldiers wounded during the revolutionary upheavals of 1848. A memorial plaque once inside recorded the dedication in full, naming him as the former owner of one homestead in Old Strašnice and owner of another in New Strašnice.
+
+The chapel itself is a study in restrained late-Classicism: a near-square footprint, a small prism-shaped bell turret over the rear section, a triangular pediment above the semicircular entrance, and paired Ionic pilasters framing the façade on either side. It sat quietly on its street for well over a century before finally being registered as a protected cultural monument in December 2012 — and the following year, a descendant of the family personally financed its restoration.
+
+🎁 Bonus: A chapel built as a private act of grief for one woman's wartime death ended up waiting roughly a hundred and sixty years for official heritage protection — and even then, its restoration came not from any state agency, but from a family member who simply decided the debt was still owed.`,
+
+      cz: `Vítej u Červenkovy kaple, malé klasicistní stavby, kterou dal zbožný manžel postavit na památku ženy, jež zemřela při skutečně hrdinském počínání — ošetřování raněných vojáků za zmatků roku 1848 — a na kterou pak dějiny skoro zapomněly, dokud ji o více než sto padesát let později nevypátral její potomek.
+
+Místní stavitel, který se později stal starostou, nechal kapli postavit na památku své ženy, jež zemřela na následky nákazy, kterou si přivodila při ošetřování raněných za revolučních bouří roku 1848. Pamětní deska, dříve umístěná uvnitř, zaznamenávala celé věnování a uváděla jej jako bývalého majitele jedné usedlosti ve Starých Strašnicích a majitele další v Nových Strašnicích.
+
+Kaple samotná je studií zdrženlivého pozdního klasicismu: téměř čtvercový půdorys, malá hranolová zvonička nad závěrovou částí, trojúhelníkový štít nad půlkruhově zakončeným vstupem a dvojice jónských pilastrů lemujících průčelí po obou stranách. Na své ulici tiše stála přes celé století, než byla v prosinci 2012 konečně zapsána jako chráněná kulturní památka — a hned následující rok ji na vlastní náklady nechal opravit potomek rodiny.
+
+Bonus: Kaple postavená jako soukromý akt zármutku nad válečnou smrtí jedné ženy čekala na oficiální památkovou ochranu zhruba sto šedesát let — a i tehdy nakonec její opravu nezajistil žádný státní úřad, ale rodinný příslušník, který se prostě rozhodl, že ten dluh je pořád splatný.`,
+
+      zh: `欢迎来到切尔文卡小教堂，一座朴素的古典主义式小神龛，由一位悲痛的丈夫为亡妻而建——她在1848年动荡中救护伤兵时染病去世，这本是真正意义上的英勇之举——此后却几乎被历史遗忘，直到一个半世纪多以后，才被她的一位后人重新发现。
+
+一位当地建筑商，后来还当上了市长，他为纪念亡妻而建造了这座小教堂——妻子在1848年革命动乱期间照料伤兵时染病，最终不治身亡。教堂内曾经陈列的一块纪念牌上，完整记录了这段献词，并写明他曾是一处庄园的前任业主，同时也是另一处庄园的业主。
+
+这座小教堂本身是一次克制的晚期古典主义演绎：近乎正方形的平面布局，后部一座小小的棱柱形钟塔，半圆形入口上方饰有三角形山花，立面两侧各有一对爱奥尼式壁柱作为装饰。它就这样在街边静静矗立了一个多世纪，直到2012年12月才终于被登记为受保护的文化古迹——第二年，家族的一位后人便自费出资，为它进行了修复。
+
+彩蛋：一座为悼念一位女性的战时死亡而建的私人小教堂，竟等了大约一百六十年才获得官方文物保护——而即便如此，最终出资修复它的也不是任何政府机构，而是一位家族后人，仅仅因为他觉得，那份亏欠至今仍未还清。`,
+    },
+  },
+  {
+    name: 'Bečvář Farmstead',
+    slug: 'becvaruv-dvur',
+    localizedNames: { cz: 'Bečvářův dvůr', zh: '贝奇瓦日庄园' },
+    labels: ['homestead', 'historical'],
+    coordinates: { lat: 50.07175948094378, lng: 14.491374084486184 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Be%C4%8Dv%C3%A1%C5%99%C5%AFv_dv%C5%AFr',
+    description: {
+      en: `Welcome to Bečvář Farmstead, the last surviving agricultural estate of old Strašnice — a tidy three-wing classicist courtyard that has outlived the village around it, the fortress it replaced, and, more recently, a genuinely messy modern lawsuit over who actually owns it.
+
+The site itself goes back further than the current buildings: it began as a medieval manorial court with its own fortification, before the estate was parcelled up in 1781 and acquired by a new owner. The present three-wing farmstead — a single-storey complex arranged around a central courtyard, built alongside a since-vanished companion villa — dates from around 1830, commissioned in a restrained late-Classicist style. It takes its current name from the family that bought the farm in 1862 and went on to hold fields stretching across several neighbouring districts.
+
+The estate has been a protected cultural monument since 1964, which hasn't stopped it from ending up, decades later, at the center of a genuine restitution dispute — a 2019 court case questioning whether an elderly heir was ever entitled to inherit the estate's now-valuable land in the first place.
+
+🎁 Bonus: A classicist farmstead built to manage crop fields ended up, roughly two centuries later, at the heart of a legal argument over some of the most lucrative real estate in the district — proof that in Prague, agricultural land has a way of becoming precious in exactly the generations that no longer farm it.`,
+
+      cz: `Vítej u Bečvářova dvora, posledního dochovaného hospodářského statku starých Strašnic — úhledného třídílného klasicistního dvorce, který přežil vesnici kolem sebe, tvrz, kterou nahradil, a v poslední době i pořádně spletitý moderní soudní spor o to, komu vlastně patří.
+
+Samotné místo sahá dál do minulosti než dnešní budovy: začalo jako středověký panský dvůr s vlastním opevněním, než byl statek v roce 1781 rozparcelován a získal jej nový majitel. Dnešní třídílný statek — jednopatrový komplex uspořádaný kolem centrálního nádvoří, postavený spolu s dnes již zaniklou vilou — pochází přibližně z roku 1830, kdy byl postaven ve zdrženlivém pozdně klasicistním slohu. Své dnešní jméno nese po rodině, která statek koupila v roce 1862 a posléze vlastnila pole rozprostírající se přes několik sousedních čtvrtí.
+
+Statek je chráněnou kulturní památkou od roku 1964, což mu o desetiletí později nezabránilo skončit ve středu skutečného restitučního sporu — soudní kauzy z roku 2019, která zpochybňovala, zda starší dědička vůbec měla nárok zdědit dnes velmi hodnotné pozemky statku.
+
+Bonus: Klasicistní statek postavený pro správu polí skončil zhruba o dvě staletí později ve středu právního sporu o jedny z nejlukrativnějších pozemků ve čtvrti — důkaz, že zemědělská půda má v Praze sklon zdražet zrovna v generaci, která už na ní nehospodaří.`,
+
+      zh: `欢迎来到贝奇瓦日庄园，老斯特拉什尼采唯一保存下来的农业庄园——一座整洁的三翼式古典主义庭院建筑，它熬过了周围的村庄，熬过了曾经取代它的城堡，最近甚至还熬过了一场相当棘手的现代产权官司。
+
+这片土地本身的历史，比现存建筑还要久远：它最初是一座带有防御工事的中世纪庄园，直到1781年庄园被分割出售，由新的业主购得。如今这座三翼式庄园——一座单层建筑，围绕中央庭院布局，与一座如今已不存在的别墅同期建造——大约建于1830年，以克制的晚期古典主义风格建成。它如今的名字来自1862年买下这座农庄的家族，此后这家人的田产一路延伸，横跨周边好几个区。
+
+这座庄园自1964年起就被列为受保护的文化古迹，但这并未妨碍它在几十年后卷入一场真正意义上的产权归还诉讼——2019年的一桩官司，质疑一位年长的继承人究竟是否真的有权继承这处如今地价不菲的庄园地产。
+
+彩蛋：一座为管理农田而建的古典主义庄园，大约两百年后，竟卷入了一场围绕该区最值钱地产之一的法律纠纷——这恰好证明，在布拉格，农业用地往往正是在不再有人耕种的那一代人手中，才变得真正"值钱"起来。`,
+    },
+  },
+  {
+    name: 'V Olšinách Elementary School',
+    slug: 'zakladni-skola-v-olsinach',
+    localizedNames: { cz: 'Základní škola V Olšinách', zh: '奥尔希纳赫小学' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.07277604745158, lng: 14.492422000946096 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Nov%C3%A1_stra%C5%A1nick%C3%A1_%C5%A1kola',
+    description: {
+      en: `Welcome to this Art Nouveau school building from 1909 that spent thirteen years standing empty and decaying before the city finally remembered it existed — and reopened it in 2025 carrying an inscription over its door that has, at various points, felt either sincerely optimistic or quietly ironic: "To Our Children."
+
+The original building was designed in 1909, decorating its façades with the full Art Nouveau vocabulary — vegetal and figural reliefs, ornamented window surrounds, a clock face, decorative balcony railings — while a purist extension followed in 1927–1929. Above the main entrance, under a glass-and-metal canopy, the building still carries its founding motto in an ornamental cartouche below it.
+
+The building's history is not only architectural: in May 1945, during the final days of the Second World War, it served as the headquarters for armed operations of the Prague Uprising. After the war it became a special school for children with behavioural difficulties, combined with a secondary school — until 2009, when it was simply vacated and left to decay for thirteen years. A full reconstruction finally began in May 2022, wrapped up in 2025, and in September that year children returned to its restored classrooms, for now just the youngest grades, with the rest of the school due to follow.
+
+🎁 Bonus: A building whose façade has literally promised "To Our Children" since 1909 spent thirteen straight years, from 2009 to 2022, with no children in it at all — which makes its 2025 reopening less a renovation than the building finally, belatedly, making good on its own century-old inscription.`,
+
+      cz: `Vítej v této secesní školní budově z roku 1909, která třináct let stála prázdná a chátrala, než si na ni město konečně vzpomnělo — a v roce 2025 ji znovu otevřelo pod nápisem nad vchodem, který v různých obdobích působil buď upřímně optimisticky, nebo tiše ironicky: „Našim dětem".
+
+Původní budova byla navržena v roce 1909 a její fasády zdobí celý secesní slovník — vegetabilní a figurální reliéfy, zdobené okenní šambrány, hodinový ciferník, ozdobné zábradlí balkonů —, zatímco v letech 1927–1929 přibyla puristická přístavba. Nad hlavním vstupem, pod kovovou prosklenou markýzou, nese budova dodnes svůj zakladatelský nápis, pod nímž je v ozdobné kartuši umístěn další.
+
+Historie budovy není jen architektonická: v květnu 1945, v posledních dnech druhé světové války, zde sídlil štáb ozbrojených akcí pražského povstání. Po válce zde fungovala speciální škola pro děti s poruchami chování, spojená se střední školou — až do roku 2009, kdy byla prostě vyklizena a na třináct let ponechána chátrání. Kompletní rekonstrukce konečně začala v květnu 2022, dokončena byla v roce 2025, a v září téhož roku se do obnovených tříd vrátily děti, prozatím jen ty nejmladší, se zbytkem školy, který má následovat.
+
+Bonus: Budova, jejíž fasáda doslova slibuje „Našim dětem" už od roku 1909, strávila celých třináct let, od 2009 do 2022, bez jediného dítěte uvnitř — což dělá její otevření v roce 2025 méně rekonstrukcí a spíš tím, že budova konečně, se zpožděním, dostála vlastnímu stoletému nápisu.`,
+
+      zh: `欢迎来到这座建于1909年的新艺术运动风格校舍——它曾整整十三年空置荒废，直到市政府终于想起它的存在，并于2025年重新开放，而校门上方那句校训，在不同的年代里，读起来时而真诚乐观，时而带着几分苦涩的讽刺："致我们的孩子"。
+
+最初的校舍设计于1909年，立面上装点着完整的新艺术运动语汇——植物与人物浮雕、装饰性窗框、时钟表盘、雕花阳台栏杆——1927年至1929年间又加建了一座纯粹主义风格的扩建部分。主入口上方、一座玻璃金属雨棚之下，建筑至今仍保留着最初的建校格言，下方的装饰性徽章内则刻着另一句题词。
+
+这座建筑的历史不止于建筑本身：1945年5月，二战最后的日子里，这里曾是布拉格起义武装行动的指挥部所在地。战后，这里成为一所专门招收行为障碍儿童的特殊学校，与一所中学合并使用——直到2009年，校舍被彻底清空，此后整整十三年任由其荒废。全面重建工程终于在2022年5月启动，2025年竣工，同年9月，孩子们重新回到修复一新的教室——目前仅开放最低年级，其余年级计划陆续跟进。
+
+彩蛋：这座校舍的立面自1909年起就一直写着"致我们的孩子"，可从2009年到2022年，整整十三年里，里面却一个孩子都没有——这样看来，2025年的重新开放，与其说是一次翻修，不如说是这座建筑终于姗姗来迟地，兑现了自己一个世纪前立下的承诺。`,
+    },
+  },
+  {
+    name: 'Strašnická Metro Station',
+    slug: 'strasnicka-stanice-metra',
+    localizedNames: { cz: 'Strašnická (stanice metra)', zh: '斯特拉什尼采地铁站' },
+    labels: ['transport'],
+    coordinates: { lat: 50.072823209099774, lng: 14.491193907620783 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Stra%C5%A1nick%C3%A1_(stanice_metra)',
+    description: {
+      en: `Welcome to this metro station, opened in 1987 as the temporary end of the line — and left, ever since, with two genuinely pointless features: a staircase that leads absolutely nowhere, and dead-end tunnel tracks too short to actually be useful for anything.
+
+The station opened on 11 July 1987 as part of an extension that pushed the line one stop further, making it the line's terminus at the time. An engineer gave the station its distinctive look, cladding the platform walls in dark brown glazed tiles, at a total construction cost of 241.4 million Kčs.
+
+Its two oddities have outlasted every subsequent extension of the line: a staircase that climbs to a dead end rather than any actual exit, and several stub tracks tucked into tunnels leading nowhere — built to a mere 80 metres, considerably shorter than the 100-metre trains that run the line, which means they've never actually been usable for the train-servicing purpose stub tracks are normally built for.
+
+🎁 Bonus: A metro station engineered with backup infrastructure that turned out to be too short to use is a very particular kind of Cold War-era planning souvenir — proof that even underground, someone can measure twice and still come up twenty metres short.`,
+
+      cz: `Vítej v této stanici metra, otevřené v roce 1987 jako dočasná konečná — a od té doby vybavené dvěma vyloženě nefunkčními prvky: schodištěm, které nikam nevede, a slepými kolejemi v tunelu příliš krátkými na to, aby byly k čemukoliv skutečně užitečné.
+
+Stanice byla otevřena 11. července 1987 jako součást prodloužení, kterým se trasa protáhla o jednu stanici dál, a tahle stanice se tak stala tehdejší konečnou. Inženýr dal stanici její osobitou tvář, stěny nástupiště obložil tmavě hnědými glazovanými tvárnicemi, a celá stavba přišla na 241,4 milionu Kčs.
+
+Obě její kuriozity přežily každé pozdější prodloužení trasy: schodiště, které vede ke slepé zdi místo ke skutečnému východu, a několik slepých kolejí zastrčených v tunelech vedoucích nikam — dlouhých pouhých osmdesát metrů, tedy podstatně kratších než stometrové soupravy jezdící po trase, což znamená, že se nikdy nedaly skutečně využít k obratu souprav, k čemuž slepé koleje normálně slouží.
+
+Bonus: Stanice metra vybavená záložní infrastrukturou, která se nakonec ukázala jako příliš krátká na to, aby se dala použít, je docela specifickým suvenýrem plánování z doby studené války — důkaz, že i pod zemí se dá dvakrát měřit a přesto uříznout o dvacet metrů méně, než bylo potřeba.`,
+
+      zh: `欢迎来到这座地铁站，它于1987年开通，当时是线路的临时终点站——从那以后，这里就一直保留着两个彻头彻尾"没什么用"的特征：一段通向死路、哪儿也去不了的楼梯，以及几条短到根本派不上用场的隧道尽头轨道。
+
+这座车站于1987年7月11日随一次线路延伸开通，把线路再延伸了一站，这里也一度成为当时线路的终点站。一位工程师为车站设计出了独特的外观，站台墙面贴上了深棕色的釉面砖，整个工程造价2.414亿克朗。
+
+它的两个怪癖，熬过了这条线路此后的每一次延伸：一段通向死墙而非真正出口的楼梯，以及藏在隧道深处、哪儿也通不到的几条尽头轨道——这些轨道只有短短80米，比线路上运行的100米长列车还要短得多，这意味着它们从来都没能真正派上尽头轨道本该承担的列车调度用途。
+
+彩蛋：一座建有备用基础设施、结果却发现这些设施短到根本用不上的地铁站，称得上是冷战时期规划留下的一件相当特别的"纪念品"——证明即便是在地底下，也有可能量了两遍尺寸，最后还是硬生生短了二十米。`,
+    },
+  },
+  {
+    name: 'Gutova Elementary School',
+    slug: 'zakladni-skola-gutova',
+    localizedNames: { cz: 'Základní škola Gutova', zh: '古托娃小学' },
+    labels: ['historical'],
+    coordinates: { lat: 50.07103066196856, lng: 14.492223349982284 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Z%C3%A1kladn%C3%AD_%C5%A1kola_Gutova',
+    description: {
+      en: `Welcome to this elementary school, a perfectly ordinary 1962 school building next to a popular local leisure park — ordinary, except for the one September morning in 2009 when the President of the Czech Republic showed up in person just to ring in the new school year.
+
+Founded in 1962, the school now operates as a teaching-affiliated faculty school of Charles University's Faculty of Education, and sits directly beside one of the neighbourhood's more popular green spaces. Behind its unremarkable façade is a genuinely well-equipped building: fourteen specialised classrooms including a ceramics workshop with its own kiln, an art studio, two computer labs, and dedicated chemistry and physics rooms, alongside twenty-two general classrooms fitted with interactive whiteboards, a library, a school club, two gymnasiums, a relaxation room, and its own canteen.
+
+In 2009, President Václav Klaus paid the school a personal visit, formally opening that year's school term on-site — a small but genuine mark of distinction for an otherwise unassuming neighbourhood elementary school.
+
+🎁 Bonus: Of the thousands of elementary schools across the Czech Republic, remarkably few can claim a sitting head of state showed up specifically to ring in September — making this ordinary school one of the rare ones with an actual presidential seal of approval on its own history.`,
+
+      cz: `Vítej v této základní škole, naprosto obyčejné školní budově z roku 1962 hned vedle oblíbeného místního areálu volného času — obyčejné až na jedno zářijové ráno v roce 2009, kdy se tu osobně objevil prezident republiky, jen aby slavnostně zahájil nový školní rok.
+
+Škola byla založena v roce 1962 a dnes funguje jako fakultní škola Pedagogické fakulty Univerzity Karlovy, sousedící přímo s jedním z oblíbenějších zdejších zelených prostranství. Za nenápadnou fasádou se skrývá skutečně dobře vybavená budova: čtrnáct odborných učeben včetně dílny s keramickou pecí, výtvarného ateliéru, dvou počítačových učeben a samostatné chemické a fyzikální pracovny, k tomu dvaadvacet kmenových tříd s interaktivními tabulemi, knihovna, školní klub, dvě tělocvičny, relaxační místnost a vlastní jídelna.
+
+V roce 2009 školu osobně navštívil prezident Václav Klaus a přímo na místě slavnostně zahájil školní rok — malé, ale opravdové vyznamenání pro jinak nenápadnou zdejší základní školu.
+
+Bonus: Z tisíců základních škol po celé České republice se jen málokterá může pochlubit tím, že se u ní úřadující hlava státu osobně objevila jen kvůli zahájení září — díky čemu patří tahle obyčejná škola mezi ty vzácné, které mají ve své historii doslova prezidentské razítko.`,
+
+      zh: `欢迎来到这所小学，一座建于1962年、外表毫不起眼的校舍，紧邻当地一处颇受欢迎的休闲公园——唯一不寻常的是，2009年9月的某个早晨，捷克共和国总统亲自到访，只为给新学年剪彩开学。
+
+这所学校创办于1962年，如今是查理大学教育学院的教学实习附属学校，紧挨着附近颇受欢迎的绿地之一。朴素的外表之下，其实藏着一座设备相当齐全的校舍：14间专业教室，包括配有陶艺窑的手工教室、美术工作室、两间计算机教室，以及专门的化学与物理实验室，此外还有22间配备互动白板的普通教室、图书馆、学生俱乐部、两座体育馆、一间放松室和自己的食堂。
+
+2009年，时任总统瓦茨拉夫·克劳斯亲自到访这所学校，并在现场正式为当年的开学典礼揭幕——对于这所原本毫不起眼的小学来说，这是一份不大却真实的殊荣。
+
+彩蛋：在捷克全国成千上万所小学当中，能让在任国家元首亲自到场、只为给九月开学剪彩的，实在寥寥无几——这让这所平平无奇的学校，成了历史上真正盖过"总统印章"的少数幸运儿之一。`,
+    },
+  },
+  {
+    name: 'Skalka Metro Station',
+    slug: 'skalka-stanice-metra',
+    localizedNames: { cz: 'Skalka (stanice metra)', zh: '斯卡尔卡地铁站' },
+    labels: ['transport'],
+    coordinates: { lat: 50.06805428176664, lng: 14.507529616504558 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Skalka_(stanice_metra)',
+    description: {
+      en: `Welcome to Skalka metro station, a stop that spent sixteen years as the end of the line and, even now that the line continues on, still quietly turns half its trains around anyway — proof that once a station gets used to being the terminus, it never fully lets the habit go.
+
+Skalka opened on 4 July 1990, added to the line after the fact and built under the working name "Zahradní" (Garden). Because it had to be constructed while the line was already running, engineers built it as a deep, open-pit excavation with a monolithic structure specifically adapted to ongoing operations, sitting 9.25 metres below street level — a three-year project, from 1987 to 1990, that cost 291 million Kčs. It served as the line's terminus for the next sixteen years, until an extension in 2006 finally pushed the line further out.
+
+Even today, Skalka hasn't fully given up its old job: the stretch onward to the depot has lower capacity than the rest of the line, so on weekdays outside the early morning and evening rush, half of all trains still terminate here rather than continuing further — a station that outgrew its original purpose without ever quite retiring from it.
+
+🎁 Bonus: A station built to be a permanent dead end still functions as a part-time one today — meaning that depending on the hour you board, this stop might be either just another point on the line or, unexpectedly, the actual end of your ride.`,
+
+      cz: `Vítej ve stanici metra Skalka, zastávce, která byla šestnáct let konečnou a i teď, kdy trasa pokračuje dál, tiše otáčí polovinu souprav zpátky — důkaz, že jakmile si stanice zvykne být konečnou, ten zvyk úplně neopustí.
+
+Skalka byla otevřena 4. července 1990, doplněna do trasy dodatečně a stavěná pod pracovním názvem „Zahradní". Protože se musela budovat za plného provozu trasy, postavili ji inženýři jako hloubenou stavbu v otevřené jámě s monolitickou konstrukcí přizpůsobenou provozu za jízdy, 9,25 metru pod povrchem — tříletý projekt z let 1987 až 1990, který stál 291 milionů Kčs. Dalších šestnáct let sloužila jako konečná stanice trasy, dokud prodloužení v roce 2006 trasu konečně neposunulo dál.
+
+Ani dnes se Skalka úplně nevzdala své staré role: úsek dál k depu má nižší propustnost než zbytek trasy, takže ve všední dny mimo časnou ranní a večerní špičku tu polovina souprav stále končí, místo aby pokračovala dál — stanice, která přerostla svůj původní účel, aniž by se ho kdy úplně vzdala.
+
+Bonus: Stanice postavená jako trvalá konečná dnes funguje i jako konečná na částečný úvazek — takže podle toho, v kterou hodinu nastoupíte, může být tahle zastávka buď jen dalším bodem na trase, nebo nečekaně opravdovým koncem vaší jízdy.`,
+
+      zh: `欢迎来到斯卡尔卡地铁站，这座车站曾整整十六年都是线路的终点，如今即便线路已经继续向前延伸，它却依然默默地让一半的列车在这里掉头——足以证明，一座车站一旦习惯了当终点站，这个习惯就很难彻底改掉。
+
+斯卡尔卡站于1990年7月4日开通，是后来才补建进线路的一站，施工时的临时代号是"花园站"。由于必须在线路已经运营的情况下动工，工程师们将其建造成一座深挖的明挖法车站，采用专为不停运施工而调整的整体式结构，站台深达地下9.25米——这项工程从1987年持续到1990年，历时三年，耗资2.91亿克朗。此后整整十六年里，它一直是线路的终点站，直到2006年的一次延伸，才把线路继续向前推进。
+
+即便到了今天，斯卡尔卡也没有完全放下当年的老本行：往车辆段方向的路段运力低于线路其他区段，因此工作日除了清晨和傍晚高峰时段，仍有一半的列车会在这里终止运行，而不再继续前行——这是一座早已超越了最初使命、却始终没能真正"退休"的车站。
+
+彩蛋：一座本该是永久终点站的车站，如今依然兼职扮演着终点站的角色——这意味着，你搭乘的时间不同，这一站可能只是线路上普通的一站，也可能，出乎意料地，正是你这趟旅程真正的终点。`,
+    },
+  },
+  {
+    name: 'Berlin Wall Fragment, Strašnice',
+    slug: 'fragment-berlinske-zdi-strasnice',
+    localizedNames: { cz: 'Fragment Berlínské zdi ve Strašnicích', zh: '斯特拉什尼采柏林墙残片' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.079924, lng: 14.499334 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Fragment_Berl%C3%ADnsk%C3%A9_zdi_ve_Stra%C5%A1nic%C3%ADch',
+    description: {
+      en: `Welcome to a genuine chunk of the Berlin Wall, standing — of all places — outside a Strašnice hostel, put there by a German hotel founder who simply wanted Prague to have a permanent, four-metre-tall reminder that freedom in this part of Europe used to be very much optional.
+
+The roughly four-metre-tall, one-metre-wide concrete segment was installed in October 2018 by the founder of a German hostel chain, himself a native of former East Germany, in front of his newly opened Prague hotel — making it, remarkably, the first fragment of the Berlin Wall ever displayed anywhere in the city. Berlin-based artists decorated both faces: one side carries a black-and-white portrait of former West German Foreign Minister Hans-Dietrich Genscher, his face overlaid with the Czech flag; the other depicts landmarks from Berlin's Alexanderplatz — the television tower, the red city hall, the World Clock.
+
+The Genscher connection is not decorative trivia. In 1989, it was Genscher who stepped onto the balcony of the West German embassy in Prague and told thousands of East German refugees sheltering in its garden that they were free to travel west — a single announcement that helped set off the chain of events leading directly to the Wall's collapse weeks later. Genscher went on to help negotiate German reunification, completed in October 1990.
+
+🎁 Bonus: Between 1961 and 1989, somewhere between 130 and 250 people died attempting to cross the barrier this fragment once belonged to — a sobering weight for a slab of concrete that now spends its days standing quietly outside a hostel, mostly photographed by guests checking in for the night.`,
+
+      cz: `Vítej u skutečného kusu Berlínské zdi, který stojí — ze všech míst zrovna — před strašnickým hostelem, kam ho umístil německý zakladatel hotelu jen proto, aby Praha měla trvalou, čtyřmetrovou připomínku toho, že svoboda v této části Evropy bývala velmi nejistá věc.
+
+Přibližně čtyřmetrový a metr široký betonový segment sem v říjnu 2018 umístil zakladatel německé hostelové sítě, sám rodák z bývalého východního Německa, před svůj nově otevřený pražský hotel — čímž se stal, ku podivu, prvním fragmentem Berlínské zdi vystaveným kdekoliv v Praze. Berlínští umělci vyzdobili obě strany: na jedné je černobílý portrét bývalého západoněmeckého ministra zahraničí Hanse-Dietricha Genschera s tváří překrytou českou vlajkou, na druhé jsou vyobrazeny památky berlínského Alexanderplatzu — televizní věž, červená radnice, Světové hodiny.
+
+Genscherovo spojení není jen okrasná drobnost. V roce 1989 to byl právě Genscher, kdo vystoupil na balkon západoněmeckého velvyslanectví v Praze a oznámil tisícům východoněmeckých uprchlíků ukrývajících se v jeho zahradě, že mohou svobodně odcestovat na Západ — jediné oznámení, které pomohlo rozpoutat řetězec událostí vedoucí přímo k pádu zdi o pár týdnů později. Genscher se pak podílel na vyjednávání znovusjednocení Německa, dokončeného v říjnu 1990.
+
+Bonus: Mezi lety 1961 a 1989 zemřelo při pokusu překonat bariéru, z níž tenhle fragment kdysi pocházel, zhruba 130 až 250 lidí — tíživá váha na kus betonu, který dnes tráví dny tichým postáváním před hostelem, většinou fotografovaný hosty přihlašujícími se na noc.`,
+
+      zh: `欢迎来到一段真正的柏林墙残片——它出人意料地矗立在斯特拉什尼采一家青年旅舍门前，由一位德国旅舍创始人放置于此，只为让布拉格拥有一座永久性的、高四米的提醒物：在欧洲的这个角落，自由曾经绝非理所当然。
+
+这段大约四米高、一米宽的混凝土墙体，于2018年10月由一家德国青年旅舍连锁的创始人——他本人正是前东德人——安放在自己刚开业的布拉格旅舍门前，这也让它出人意料地成为布拉格市内展出的第一段柏林墙残片。柏林艺术家为墙体两面都作了装饰：一面是前西德外交部长汉斯-迪特里希·根舍（Hans-Dietrich Genscher）的黑白肖像，脸上覆盖着一面捷克国旗；另一面则描绘着柏林亚历山大广场的地标——电视塔、红色市政厅、世界钟。
+
+根舍的这层关联绝非装饰性的花絮。1989年，正是根舍站上布拉格西德大使馆的阳台，向数千名躲藏在使馆花园里的东德难民宣布，他们可以自由前往西方——正是这一句宣告，引爆了一连串事件，并在几周后直接导致了柏林墙的倒塌。此后，根舍还参与了1990年10月最终完成的两德统一谈判。
+
+彩蛋：在1961年到1989年间，大约有130到250人在试图翻越这道墙体所属的那道边境屏障时丧生——对于如今大部分时间只是安静地立在一家青年旅舍门前、多半只被前来入住的客人拍照留念的这块混凝土而言，这是一段相当沉重的分量。`,
+    },
+  },
+  {
+    name: 'Českomoravská Metro Station',
+    slug: 'ceskomoravska-stanice-metra',
+    localizedNames: { cz: 'Českomoravská (stanice metra)', zh: '切斯科莫拉夫斯卡地铁站' },
+    labels: ['transport'],
+    coordinates: { lat: 50.106412171707994, lng: 14.492636699914401 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to Českomoravská metro station, reopened in 2026 after over a year underground with absolutely nothing to do — closed, stripped to its bare concrete skeleton, and rebuilt almost from scratch, all so a designer could cover its walls in glass panels shaped like bubbles.
+
+The station first opened on 22 November 1990 as part of an extension of Line B from Florenc, serving as the line's terminus until it was pushed further out to Černý Most in 1998. Its most dramatic chapter came far more recently: closed for reconstruction, the station was stripped down to its original structural skeleton so crews could repair extensive water seepage and reinforce the load-bearing pillars and beams supporting the platform — work serious enough that the closure ran three months longer than planned, lasting 439 days at a cost of roughly one billion Czech koruna.
+
+When it reopened on 20 March 2026, the station's original ceramic wall tiles were gone, replaced by glass panels patterned with bubbles, designed to evoke the air that makes underground travel possible in the first place. The modernisation also brought new escalators and fully wheelchair-accessible public toilets reachable from street level — a station now serving crowds heading to the nearby O2 arena, rebuilt for a very different era than the one it opened into.
+
+🎁 Bonus: A reconstruction meant to take just over a year ran three months over schedule purely because of water finding its way into the concrete — a reminder that however carefully you plan an underground renovation, the ground itself still gets a vote.`,
+
+      cz: `Vítej ve stanici metra Českomoravská, znovu otevřené v roce 2026 po víc než roce, kdy pod zemí neprobíhalo vůbec nic — stanice byla uzavřena, odstrojena až na holý betonový skelet a postavena téměř znovu, jen aby ji designér mohl obložit skleněnými panely ve tvaru bublin.
+
+Stanice byla poprvé otevřena 22. listopadu 1990 jako součást prodloužení linky B z Florence a sloužila jako konečná, dokud nebyla trasa v roce 1998 posunuta dál na Černý Most. Její nejdramatičtější kapitola přišla mnohem později: při rekonstrukci byla stanice odstrojena až na původní nosný skelet, aby čety mohly opravit rozsáhlé průsaky vody a zpevnit nosné pilíře a průvlaky podpírající nástupiště — práce natolik náročná, že výluka trvala o tři měsíce déle, než se plánovalo, celkem 439 dní za zhruba miliardu korun.
+
+Když se stanice 20. března 2026 znovu otevřela, původní keramické obklady stěn byly pryč, nahrazené skleněnými panely s motivem bublin, které mají symbolizovat vzduch, díky němuž je cestování pod zemí vůbec možné. Modernizace přinesla i nové eskalátory a plně bezbariérové veřejné toalety přístupné z uliční úrovně — stanice dnes slouží davům mířícím k nedaleké O2 areně, přestavěná pro dost jinou dobu, než do jaké se kdysi otevírala.
+
+Bonus: Rekonstrukce, která měla trvat něco přes rok, se protáhla o tři měsíce navíc čistě kvůli vodě, která si našla cestu do betonu — připomínka, že ať naplánujete podzemní rekonstrukci sebepečlivěji, samotná zem má pořád své slovo.`,
+
+      zh: `欢迎来到切斯科莫拉夫斯卡地铁站，它在2026年重新开放——此前整整一年多的时间里，地下什么都没发生：车站被关闭、拆到只剩下光秃秃的混凝土骨架，几乎从头重建，只为了让一位设计师能用气泡造型的玻璃面板重新装饰墙面。
+
+这座车站最初于1990年11月22日开通，是B线从弗洛伦茨延伸段的一部分，此后一直是线路终点站，直到1998年线路才继续延伸至černý most。它最戏剧性的一章其实发生在最近：为了整修，车站被拆解到只剩原始承重骨架，以便施工方修复严重的渗水问题，并加固支撑站台的承重立柱和横梁——工程之艰巨，使得停运时间比原计划多出三个月，总共持续439天，耗资约10亿克朗。
+
+当车站于2026年3月20日重新开放时，原有的陶瓷墙砖已被替换为带有气泡图案的玻璃面板，用以象征让地下出行得以实现的"空气"。这次现代化改造还带来了新的自动扶梯，以及可从地面层直接抵达的全无障碍公共卫生间——如今这座车站承接着前往附近O2体育馆的人流，为一个与它当年开通时截然不同的时代而重生。
+
+彩蛋：一次原本预计一年多一点就能完工的重建工程，仅仅因为渗入混凝土的水，就硬生生拖延了三个月——这提醒着人们，无论地下工程规划得多么周密，土地本身，永远都有最后的发言权。`,
+    },
+  },
+  {
+    name: 'Vysočany People’s House (6th KSČ Congress)',
+    slug: 'lidovy-dum-vysocany',
+    localizedNames: { cz: 'Lidový dům ve Vysočanech (VI. sjezd KSČ)', zh: '维索恰尼人民之家（捷共六大）' },
+    labels: ['historical', 'communism'],
+    coordinates: { lat: 50.106540, lng: 14.503289 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Lidov%C3%BD_d%C5%AFm_ve_Vyso%C4%8Danech',
+    description: {
+      en: `Welcome to the Vysočany People's House, a wooden-and-steel hall built by one political party that ended up, within months of its completion, belonging to an entirely different one — the direct result of a party split so clean it left the building behind like abandoned furniture.
+
+Built between 1919 and 1921 by the Czechoslovak Social Democratic Party as a club and meeting hall, the building was barely finished before the party itself splintered, its left wing breaking away to found the Communist Party of Czechoslovakia (KSČ) — which promptly inherited the Vysočany hall along with much of the old party's infrastructure.
+
+Its most consequential moment as Communist property came a decade later: from 7 to 11 March 1931, the KSČ held its Sixth Congress here, a meeting dominated by the onset of the Great Depression and bitter internal disputes following Klement Gottwald's rise to leadership. It was at this congress that party leadership formalised the doctrine of "social fascism" — the position that social democrats and other non-communist leftists posed a threat every bit as serious as actual fascists. The hall went on hosting cultural events for another two decades before finally closing that chapter in 1953.
+
+🎁 Bonus: A building constructed to serve one party's members ended up hosting, at its most politically significant congress, a doctrine that treated that very same party's ideological cousins as an enemy on par with fascism — proof that in interwar Czechoslovak politics, yesterday's comrades could become tomorrow's officially designated threat remarkably fast.`,
+
+      cz: `Vítej v Lidovém domě ve Vysočanech, dřevěné hale s ocelovou konstrukcí, kterou postavila jedna politická strana a která během pár měsíců od dokončení skončila v majetku strany úplně jiné — přímý důsledek stranického rozkolu tak čistého, že za sebou nechal budovu jako opuštěný nábytek.
+
+Budova, kterou v letech 1919 až 1921 postavila Československá sociálně demokratická strana jako klubovní a shromažďovací halu, byla sotva dokončena, když se strana sama rozštěpila — její levé křídlo se odtrhlo a založilo Komunistickou stranu Československa (KSČ), která si vysočanskou halu spolu s velkou částí staré stranické infrastruktury okamžitě přivlastnila.
+
+Její nejvýznamnější okamžik jako komunistický majetek přišel o dekádu později: od 7. do 11. března 1931 zde KSČ pořádala svůj VI. sjezd, jednání poznamenané nástupem velké hospodářské krize a hořkými vnitrostranickými spory po Gottwaldově nástupu k moci. Právě na tomto sjezdu stranické vedení formalizovalo doktrínu „sociálfašismu" — postoj, podle něhož sociální demokraté a další nekomunistická levice představují hrozbu naprosto stejně vážnou jako skutečný fašismus. Hala pak ještě dvě další desetiletí hostila kulturní akce, než tuto kapitolu v roce 1953 definitivně uzavřela.
+
+Bonus: Budova postavená pro členy jedné strany nakonec na svém politicky nejvýznamnějším sjezdu hostila doktrínu, která ideové bratrance téže strany označila za nepřítele na úrovni fašismu — důkaz, že v meziválečné československé politice se ze včerejších soudruhů mohl neuvěřitelně rychle stát oficiálně vyhlášený nepřítel.`,
+
+      zh: `欢迎来到维索恰尼人民之家，一座由一个政党建造的木结构钢骨大厅——可它刚落成没几个月，就归属了另一个截然不同的政党，这全是一次干净利落的政党分裂的直接结果，仿佛把建筑当成一件被遗弃的家具，直接留给了对方。
+
+这座建筑由捷克斯洛伐克社会民主党于1919年至1921年间建造，作为俱乐部兼集会大厅，可它刚刚落成，这个政党本身就分裂了——其左翼出走，另立捷克斯洛伐克共产党（KSČ），并随即连同老党的大部分基础设施，一并接管了这座维索恰尼大厅。
+
+它作为共产党财产最重要的时刻，出现在十年之后：1931年3月7日至11日，捷共在此召开第六次代表大会，这场会议笼罩在大萧条来临的阴影，以及哥特瓦尔德掌权后激烈的党内路线斗争之中。正是在这次大会上，党的领导层将"社会法西斯主义"这一教条正式确立下来——认定社会民主党人及其他非共产主义左翼力量，构成的威胁与真正的法西斯主义不相上下。此后，这座大厅又继续举办文化活动长达二十年，直到1953年才最终画上句号。
+
+彩蛋：一座为一个政党成员而建的建筑，最终在它政治意义最为重大的一次大会上，见证了一套将同一政党的思想同门定性为堪比法西斯主义的敌人的教条被正式确立——这恰好证明，在两次世界大战之间的捷克斯洛伐克政坛上，昨天的同志变成明天官方认定的敌人，速度可以快得惊人。`,
+    },
+  },
+  {
+    name: 'Vysočany Town Hall',
+    slug: 'vysocanska-radnice',
+    localizedNames: { cz: 'Vysočanská radnice', zh: '维索恰尼市政厅' },
+    labels: ['municipal', 'historical'],
+    coordinates: { lat: 50.11042268707991, lng: 14.500055298315406 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Vyso%C4%8Dansk%C3%A1_radnice',
+    description: {
+      en: `Welcome to Vysočany Town Hall, a grand 1911 building that took ninety years to actually finish — not due to war, budget cuts, or bureaucratic inertia, but because one stubborn neighbour simply refused to sell a strip of land the architects needed.
+
+Vysočany was elevated to town status in 1902, and its new town hall followed seven years later, designed in a stately Neo-Renaissance style, with a two-storey façade centred on a wide projecting risalit. The building opened for use on 17 January 1912 — except it wasn't actually finished, because the owner of an adjacent plot of land needed for the full design flatly refused to sell.
+
+That missing section simply stayed missing for the better part of a century, through the town's absorption into Greater Prague, the entire span of Czechoslovak communism, and the fall of that regime too — finally completed only in 2002, ninety years after the rest of the building opened its doors. Today the town hall serves as the seat of the Prague 9 district government and also houses a gallery space in its halls.
+
+🎁 Bonus: A single unwilling landowner in 1911 managed to leave his mark on Prague's built environment for ninety straight years — outlasting the Austro-Hungarian Empire, two world wars, and an entire communist regime, all because nobody after him ever quite got around to solving the same problem.`,
+
+      cz: `Vítej ve Vysočanské radnici, honosné budově z roku 1911, jejíž dostavba trvala devadesát let — ne kvůli válce, škrtům v rozpočtu nebo byrokratické liknavosti, ale proto, že jeden tvrdohlavý soused prostě odmítal prodat pruh pozemku, který architekti potřebovali.
+
+Vysočany byly povýšeny na město v roce 1902 a nová radnice následovala o sedm let později, navržená ve vznešeném novorenesančním slohu, s dvoupodlažním průčelím soustředěným kolem širokého vystupujícího rizalitu. Budova byla uvedena do provozu 17. ledna 1912 — jenže ve skutečnosti nebyla dokončená, protože majitel sousedního pozemku potřebného pro celý záměr rezolutně odmítal prodat.
+
+Chybějící část zůstala chybět po většinu celého století — přes připojení města k Velké Praze, přes celé období československého komunismu i přes jeho pád — a dokončena byla teprve v roce 2002, devadesát let poté, co zbytek budovy otevřel své dveře. Dnes radnice slouží jako sídlo úřadu městské části Praha 9 a v jejích prostorách sídlí i galerie.
+
+Bonus: Jediný neochotný majitel pozemku z roku 1911 se dokázal zapsat do pražské architektury na celých devadesát let — přežil rakousko-uherské mocnářství, dvě světové války i celý komunistický režim, jen proto, že se po něm už nikdo pořádně nedostal k tomu stejný problém vyřešit.`,
+
+      zh: `欢迎来到维索恰尼市政厅，一座建于1911年的气派建筑——它的完工足足拖了九十年，原因既不是战争，也不是预算削减或官僚拖延，而是一位固执的邻居，说什么都不肯卖出建筑师需要的那一小块地。
+
+维索恰尼于1902年升格为市镇，七年后新市政厅随之落成，采用庄重的新文艺复兴风格，两层楼高的立面以一处宽阔的凸出立面为中心。这座建筑于1912年1月17日投入使用——但严格来说并未真正完工，因为完整设计所需的一块相邻地皮，其业主坚决不肯出售。
+
+这块缺失的部分，此后近一个世纪都一直空缺——历经该镇并入大布拉格、整个捷克斯洛伐克共产主义时期，乃至该政权的垮台——直到2002年才最终完工，距离建筑其余部分开放已经过去了整整九十年。如今，这座市政厅是布拉格9区区政府的所在地，楼内还设有一处画廊空间。
+
+彩蛋：1911年一位不肯让步的地主，竟在布拉格的城市建筑史上留下了长达九十年的印记——他的坚持，熬过了奥匈帝国、两次世界大战，乃至整个共产主义政权，只因为在他之后，再没人真正着手解决这个同样的问题。`,
+    },
+  },
+  {
+    name: 'Vysočany Railway Station',
+    slug: 'praha-vysocany-nadrazi',
+    localizedNames: { cz: 'Vysočany nádraží', zh: '维索恰尼火车站' },
+    labels: ['transport', 'historical'],
+    coordinates: { lat: 50.11220559351866, lng: 14.497501473960085 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to Vysočany railway station, a stop that spent nearly a century and a half with a genuine historic station building standing awkwardly between its tracks — right up until 2021, when planners looked at the whole layout, decided the building simply didn't fit anymore, and knocked it down.
+
+Between 2020 and 2023, the entire rail line between Praha-Vysočany and Mstětice underwent a complete modernisation, reshaping not just the tracks but the station itself. The original station building, standing for almost 150 years, occupied an awkward spot directly between the rails — a position the new station design simply had no use for. Rather than work around it, engineers demolished the neglected old building in April 2021, clearing the way for a layout built entirely from scratch.
+
+What replaced it is a station with two island platforms and one additional side platform, reached by two brand-new underpasses, one of them fully wheelchair-accessible. New passenger facilities went up where the old underpass entrance from Podnádražní street used to be, standing in for the vanished station building. Since June 2023 the station hasn't even needed staff on-site to run it — it's controlled remotely from Prague's central dispatching workplace — and the whole reconstructed stretch of line was finished that December.
+
+🎁 Bonus: A station building can survive nearly 150 years of trains, wars, and regime changes, only to be demolished not for falling down, but simply for standing in the wrong place on a new blueprint — proof that in railway planning, being in the way is a more dangerous fate than being old.`,
+
+      cz: `Vítej na železniční stanici Vysočany, zastávce, která téměř sto padesát let žila s opravdovou historickou nádražní budovou stojící nešikovně přímo mezi kolejemi — až do roku 2021, kdy si projektanti prohlédli celé uspořádání, usoudili, že budova už prostě nikam nezapadá, a nechali ji zbourat.
+
+V letech 2020 až 2023 prošla celková modernizace tratí úsek mezi Prahou-Vysočany a Mstěticemi, která přetvořila nejen koleje, ale i samotné nádraží. Původní nádražní budova, stará téměř 150 let, stála na nešikovném místě přímo mezi kolejemi — poloze, pro kterou nový návrh stanice neměl žádné využití. Místo toho, aby ji projekt obcházel, inženýři zanedbanou starou budovu v dubnu 2021 zbourali a uvolnili tak místo pro uspořádání postavené od základu znovu.
+
+Na jejím místě dnes stojí stanice se dvěma ostrovními nástupišti a jedním dalším vnějším nástupištěm, ke kterým vedou dva zcela nové podchody, z nichž jeden je plně bezbariérový. Nové odbavovací prostory pro cestující vznikly v místě bývalého vstupu do podchodu z Podnádražní ulice, jako náhrada za zaniklou nádražní budovu. Od června 2023 stanice dokonce nepotřebuje k provozu žádnou obsluhu na místě — je řízena dálkově z centrálního dispečerského pracoviště Praha — a celý zrekonstruovaný úsek trati byl dokončen téhož roku v prosinci.
+
+Bonus: Nádražní budova dokáže přežít téměř 150 let vlaků, válek i změn režimů, jen aby byla nakonec zbourána ne proto, že by se hroutila, ale prostě proto, že stála na nesprávném místě podle nového plánu — důkaz, že v železničním plánování je stát v cestě mnohem nebezpečnější osud než být starý.`,
+
+      zh: `欢迎来到维索恰尼火车站，这座车站曾整整一个半世纪，都有一座货真价实的历史站房，尴尬地矗立在铁轨正中间——直到2021年，规划者审视了整个布局，认定这座建筑已经彻底不合时宜，于是把它拆除了。
+
+2020年至2023年间，布拉格维索恰尼至姆斯捷蒂采区间的铁路线进行了全面现代化改造，不仅重塑了铁轨本身，也重塑了车站整体布局。原有的站房已有近150年历史，尴尬地矗立在铁轨正中间——这个位置在新的车站设计中根本派不上任何用场。工程方没有选择绕开它，而是在2021年4月拆除了这座早已破败失修的老建筑，为一套完全从零开始的全新布局腾出了空间。
+
+取而代之的，是一座拥有两座岛式站台和一座侧式站台的车站，乘客通过两条全新的地下通道往来其间，其中一条完全实现了无障碍通行。新的乘客服务设施建在原先通往地下通道入口的旧址上，取代了已经消失的老站房。自2023年6月起，这座车站甚至不再需要现场工作人员运营——它由布拉格中央调度中心远程操控——整段重建工程也已于当年12月全部完工。
+
+彩蛋：一座站房，能够熬过近150年的列车运行、战争与政权更迭，最终却不是因为倒塌而被拆除，仅仅因为它在新的蓝图上站错了位置——这恰好证明，在铁路规划的世界里，"挡路"远比"年老"来得更危险。`,
+    },
+  },
+  {
+    name: 'Czech Telecommunication Office',
+    slug: 'cesky-telekomunikacni-urad',
+    localizedNames: { cz: 'Český telekomunikační úřad', zh: '捷克电信管理局' },
+    labels: ['municipal', 'historical'],
+    coordinates: { lat: 50.11065176562009, lng: 14.499666818876227 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%BD_telekomunika%C4%8Dn%C3%AD_%C3%BA%C5%99ad',
+    description: {
+      en: `Welcome to the Czech Telecommunication Office, the country's telecom regulator, quietly headquartered in a former administrative building of the sprawling ČKD industrial empire — its rounded glass corners and old cornices once overseeing turbines and locomotives, and now overseeing phone bills and radio spectrum instead.
+
+The office itself was established on 1 January 1993, initially operating as the sixth department of the Ministry of Economy, with responsibility for telecommunications policy. That arrangement lasted until late 1996, when authority shifted to the newly formed Ministry of Transport and Communications, before the office eventually evolved into the independent regulatory body it is today.
+
+Its headquarters occupy a heritage-listed former ČKD administrative building on Sokolovská street, deep in the district that Emil Kolben's factories once dominated. The building's rounded glazed corners and glass-cement panel cladding, dressed up with cornices and pilasters to blend into its 19th-century surroundings, were designed for an industrial conglomerate that no longer exists — repurposed, decades later, for the rather different business of regulating who gets to use which slice of the airwaves.
+
+🎁 Bonus: A building designed to project the institutional confidence of one of Czechoslovakia's largest industrial combines now spends its days adjudicating spectrum licences and consumer telecom complaints — proof that heritage-listed architecture doesn't retire, it just changes what kind of bureaucracy it houses.`,
+
+      cz: `Vítej u Českého telekomunikačního úřadu, státního regulátora telekomunikací, který tiše sídlí v bývalé administrativní budově průmyslového impéria ČKD — jejíž zaoblené skleněné rohy a staré římsy kdysi dohlížely na turbíny a lokomotivy, dnes dohlížejí na telefonní účty a rádiové spektrum.
+
+Samotný úřad vznikl 1. ledna 1993, zpočátku fungoval jako šesté oddělení ministerstva hospodářství s odpovědností za telekomunikační politiku. Toto uspořádání vydrželo do konce roku 1996, kdy pravomoc přešla na nově vzniklé ministerstvo dopravy a spojů, než se úřad postupně vyvinul v nezávislý regulační orgán, jakým je dnes.
+
+Jeho sídlo se nachází v památkově chráněné bývalé administrativní budově ČKD na Sokolovské ulici, hluboko ve čtvrti, kterou kdysi ovládaly továrny Emila Kolbena. Zaoblené prosklené rohy budovy a obklad ze sklocementových dílců, doplněné římsami a pilastry tak, aby zapadaly do okolní devatenáctistoleté zástavby, byly navrženy pro průmyslový konglomerát, který už dnes neexistuje — o desetiletí později znovu využité pro dost jiný obor: regulaci toho, kdo smí používat jakou část rádiových vln.
+
+Bonus: Budova navržená tak, aby vyzařovala institucionální sebejistotu jednoho z největších československých průmyslových koncernů, dnes tráví dny rozhodováním o kmitočtových licencích a stížnostech spotřebitelů na telekomunikační služby — důkaz, že památkově chráněná architektura neodchází do důchodu, jen si mění, jaký druh byrokracie ukrývá.`,
+
+      zh: `欢迎来到捷克电信管理局，捷克的电信监管机构——它悄然坐落在ČKD工业帝国旧时的一座行政办公楼里，那些圆弧形的玻璃转角和老式檐口，昔日俯瞰的是涡轮机与机车，如今俯瞰的却是电话账单和无线电频谱。
+
+这个监管机构本身成立于1993年1月1日，最初作为经济部下属的第六司，负责电信政策事务。这一安排一直持续到1996年底，此后职权转移到新成立的交通与通信部，再往后，这个机构才逐步演变为如今这个独立的监管机构。
+
+它的总部位于索科洛夫斯卡街一座被列为文物保护建筑的前ČKD行政办公楼内，深处曾经由科尔本旗下工厂主导的那片街区。这座建筑圆弧形的玻璃转角和玻璃水泥板饰面，配上檐口与壁柱，刻意与周围19世纪的街区融为一体——它最初是为一个如今已不复存在的工业集团设计的，几十年后，却被重新用于一项截然不同的业务：裁定谁能使用哪一段无线电波。
+
+彩蛋：一座本该彰显捷克斯洛伐克最大工业集团之一制度自信的建筑，如今每天忙着裁定频谱许可和电信消费者投诉——这恰好证明，被列为文物保护建筑并不意味着"退休"，它只是换了一种官僚机构继续住下去而已。`,
+    },
+  },
+  {
+    name: 'Prague Social Security Administration',
+    slug: 'prazska-sprava-socialniho-zabezpeceni',
+    localizedNames: { cz: 'Pražská správa sociálního zabezpečení', zh: '布拉格社会保障管理局' },
+    labels: ['municipal'],
+    coordinates: { lat: 50.110753094558234, lng: 14.500446704662183 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to the Prague Social Security Administration's Vysočany office, a thoroughly unglamorous government building that quietly processes the sick pay, pensions, and disability claims of an entire city — sitting on ground that, within living memory, was busy building locomotives and turbines instead of paperwork.
+
+As the regional office of the Czech Social Security Administration for the whole of Prague, this building handles an enormous share of the city's actual social safety net in practice — sick leave payments, pension applications, disability assessments — the unglamorous administrative machinery that keeps a modern welfare state functioning day to day. Two separate client entrances, one from Sokolovská street and one from a side street, and a fully barrier-free main entrance keep the queues moving for what is, functionally, one of the busiest bureaucratic counters in the district.
+
+Its location is itself a small footnote in Vysočany's history: an office built to process paperwork now stands in a neighbourhood that, for most of the 20th century, existed to process raw materials into cars, turbines, and machinery instead — one of many former industrial addresses in Prague 9 that quietly swapped assembly lines for filing systems.
+
+🎁 Bonus: A single Vysočany street can now hold the regional telecom regulator on one side and the social security office on the other — both occupying ground once dominated entirely by heavy industry, proof that a district doesn't stop being useful when its factories close, it just starts filing different kinds of paperwork.`,
+
+      cz: `Vítej v pobočce Pražské správy sociálního zabezpečení ve Vysočanech, naprosto nevzrušující státní budově, která tiše vyřizuje nemocenské dávky, důchody a posudky invalidity pro celé město — na pozemku, na kterém se v nedávné paměti ještě stavěly lokomotivy a turbíny místo papírování.
+
+Jako územní pracoviště České správy sociálního zabezpečení pro celou Prahu tato budova zpracovává obrovský podíl skutečné sociální sítě města v praxi — výplaty nemocenské, žádosti o důchod, posudky invalidity —, tedy nevzrušující administrativní stroj, který den co den udržuje moderní sociální stát v chodu. Dva samostatné vstupy pro klienty, jeden ze Sokolovské ulice a jeden z vedlejší ulice, spolu s plně bezbariérovým hlavním vchodem, udržují v pohybu fronty u toho, co je fakticky jedním z nejvytíženějších úředních přepážek ve čtvrti.
+
+Její poloha je sama o sobě drobnou poznámkou pod čarou k historii Vysočan: úřad postavený ke zpracování papírů dnes stojí ve čtvrti, která po většinu 20. století existovala k tomu, aby zpracovávala suroviny na auta, turbíny a strojní zařízení — jedna z mnoha bývalých průmyslových adres Prahy 9, která tiše vyměnila montážní linky za spisové agendy.
+
+Bonus: Jedna jediná vysočanská ulice dnes na jedné straně hostí regionálního telekomunikačního regulátora a na druhé straně úřad sociálního zabezpečení — obojí na půdě, kterou kdysi zcela ovládal těžký průmysl. Důkaz, že čtvrť nepřestává být užitečná, když zavřou továrny, jen začne vyřizovat jiný druh papírování.`,
+
+      zh: `欢迎来到布拉格社会保障管理局维索恰尼办事处，一座毫不起眼的政府大楼——它默默为整座城市处理病假津贴、养老金和残疾评估，而这片土地，在人们记忆犹新的年代里，本来还在建造机车和涡轮机，而不是处理文件。
+
+作为捷克社会保障管理局面向整个布拉格的地区办事处，这座建筑处理着这座城市实际社会安全网中相当可观的一部分——病假津贴发放、养老金申请、残疾评估——这些毫不光鲜却支撑着现代福利国家日常运转的行政机器。两个独立的客户入口，一个通向索科洛夫斯卡街，一个通向旁边的街道，再加上一个完全无障碍的主入口，共同维持着这里——事实上这里是整个街区最繁忙的政务窗口之一——人流的有序运转。
+
+它所在的位置本身，就是维索恰尼历史的一段小小注脚：一座为处理文件而建的办公楼，如今矗立在一个在整个20世纪大部分时间里，专门把原材料加工成汽车、涡轮机和机械设备的街区里——布拉格9区众多前工业地址之一，如今悄悄把装配线换成了归档系统。
+
+彩蛋：如今维索恰尼的同一条街上，一侧坐落着地区电信监管机构，另一侧则是社会保障办事处——两者所在的土地，都曾经完全被重工业占据。这恰好证明，一个街区并不会因为工厂关闭就变得毫无用处，它只是开始处理另一种文件而已。`,
+    },
+  },
+  {
+    name: 'Sokolovská Street',
+    slug: 'sokolovska',
+    localizedNames: { cz: 'Sokolovská (ulice v Praze)', zh: '索科洛夫斯卡街' },
+    labels: ['street', 'historical'],
+    coordinates: { lat: 50.104933076618394, lng: 14.483015498286294 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Sokolovsk%C3%A1_(ulice_v_Praze)',
+    description: {
+      en: `Welcome to Sokolovská Street, a long Prague thoroughfare that has been renamed twice in its life — first for a coronation procession, then for a Second World War battle — and now quietly stretches from Karlín all the way out to the factory districts of Vysočany without most people noticing it's the same road.
+
+The street began in 1817 as simply "Hlavní" (Main Street), the principal road of the newly founded Karlín district. In 1841 it was renamed "Královská" (Royal) to commemorate the coronation procession of Emperor Ferdinand I as King of Bohemia in 1836, which had passed along its length. It carried that name for over a century before receiving its current title in 1948, honouring the Ukrainian town of Sokolovo — site of a bloody 1943 battle where a Czechoslovak army unit fought alongside Soviet forces, the first major engagement of Czechoslovak troops on the Eastern Front.
+
+Today the street runs a genuinely long route: starting near Florenc and Těšnov, cutting through the heart of Karlín past Karlínské náměstí toward the Kaizlovy sady gardens by the old Invalidovna building, then continuing past Rustonka into Libeň at Palmovka and Balabenka, before finally reaching the former industrial heart of Vysočany.
+
+🎁 Bonus: A single street has now carried the name of a Habsburg coronation and, later, a Red Army battlefield — a fairly complete summary of twentieth-century Czechoslovakia's shifting loyalties, laid out end to end along one unbroken stretch of pavement.`,
+
+      cz: `Vítej na Sokolovské ulici, dlouhé pražské tepně, která byla ve svém životě dvakrát přejmenována — nejprve po korunovačním průvodu, později po bitvě druhé světové války — a dnes se tiše táhne od Karlína až k továrním čtvrtím Vysočan, aniž by si většina lidí všimla, že jde o tutéž ulici.
+
+Ulice začínala v roce 1817 jednoduše jako „Hlavní", hlavní komunikace nově založeného Karlína. V roce 1841 byla přejmenována na „Královskou" na počest korunovačního průvodu císaře Ferdinanda I. na českého krále v roce 1836, který touto ulicí procházel. Toto jméno nesla přes století, než v roce 1948 dostala svůj dnešní název na počest ukrajinského města Sokolovo — místa krvavé bitvy z roku 1943, kde po boku sovětských jednotek bojovala československá vojenská jednotka, první velké nasazení československých vojáků na východní frontě.
+
+Dnes vede ulice opravdu dlouhou trasou: začíná u Florence a Těšnova, protíná centrum Karlína kolem Karlínského náměstí směrem ke Kaizlovým sadům u staré Invalidovny, pak pokračuje kolem Rustonky do Libně na Palmovku a Balabenku, než konečně dorazí do bývalého průmyslového srdce Vysočan.
+
+Bonus: Jedna jediná ulice tak nesla jméno habsburské korunovace a později bitvy s účastí Rudé armády — poměrně úplné shrnutí proměnlivých loajalit dvacátého století Československa, rozložené na jednom nepřerušeném kusu chodníku.`,
+
+      zh: `欢迎来到索科洛夫斯卡街，一条漫长的布拉格干道——它一生中改过两次名字：先是为了纪念一场加冕游行，后来又为了纪念二战中的一场战役——如今它悄悄地从卡尔林一直延伸到维索恰尼的工业街区，大多数人甚至没意识到这其实是同一条街。
+
+这条街始于1817年，最初简单地叫做"主街"，是新建立的卡尔林区的主干道。1841年，为纪念1836年斐迪南一世加冕为波希米亚国王时途经此街的加冕游行，它被改名为"皇家街"。这个名字沿用了一个多世纪，直到1948年才改为如今的名字，以纪念乌克兰城镇索科洛沃——1943年一场血腥战役的发生地，捷克斯洛伐克军队在那里与苏联军队并肩作战，这是捷克斯洛伐克军队在东线的首次重大作战行动。
+
+如今这条街的路线相当漫长：从弗洛伦茨和杰什诺夫附近起步，穿过卡尔林中心、经过卡尔林广场，一直通向老荣军院旁的凯兹洛维花园，随后经过鲁斯通卡，进入利本区的帕尔莫夫卡和巴拉本卡，最终抵达曾经的维索恰尼工业中心地带。
+
+彩蛋：一条街如今先后承载过哈布斯堡王朝加冕典礼与红军战场的名字——这几乎完整浓缩了20世纪捷克斯洛伐克变幻不定的政治忠诚，全都铺陈在这同一条从未间断的人行道上。`,
+    },
+  },
+  {
+    name: 'Pragovka Art District',
+    slug: 'pragovka-art-district',
+    localizedNames: { cz: 'Pragovka Art District (ČKD Kolbenova)', zh: 'Pragovka艺术区（ČKD科尔本诺瓦）' },
+    labels: ['factory', 'cultural'],
+    coordinates: { lat: 50.109966315787716, lng: 14.510278944006036 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to Pragovka Art District, a former car factory that once employed as many as 50,000 people building trucks, engines, and heavy machinery — and now houses painters, sculptors, and ceramicists working quietly inside the very same mushroom-columned warehouse hall.
+
+The site's industrial story began in 1907 with the founding of the First Prague Automobile Factory, later renamed Praga, which built vehicles and components as part of the sprawling ČKD Kolbenova complex — itself descended from the company Emil Kolben founded in 1898 and which, after a 1921 merger, became the industrial giant Českomoravská-Kolben-Daněk. At its peak the combine employed some 50,000 people across Vysočany.
+
+Hall E, the building at the heart of today's art district, dates from 1931–1934, originally built as a central postal warehouse. Its columns — octagonal in cross-section and topped with distinctive mushroom-shaped capitals — were designed by architect Josef Kalous, a pupil of Jan Kotěra, and the hall has been protected as a heritage site since 2003. The Praga national enterprise ran the wider complex after the Second World War, but the loss of Eastern Bloc export markets after 1989, compounded by mismanagement through the 1990s, drove the company into bankruptcy in 1998. What survived is now a working artists' quarter, occupying a large share of Hall E with studios, exhibitions, and open days.
+
+🎁 Bonus: A warehouse built to store parcels for the postal service, inside a complex that once mass-produced trucks for half the Eastern Bloc, now hosts painters working in silence under the exact same mushroom-shaped columns — arguably the calmest career this particular building has ever had.`,
+
+      cz: `Vítej v Pragovka Art District, bývalé automobilce, která kdysi zaměstnávala až 50 000 lidí výrobou náklaďáků, motorů a těžkých strojů — a dnes v ní tiše pracují malíři, sochaři a keramici, a to přímo v té samé hale s hřibovitými sloupy.
+
+Průmyslový příběh místa začal v roce 1907 založením První pražské továrny na automobily, později přejmenované na Pragu, která vyráběla vozidla a jejich součásti v rámci rozlehlého komplexu ČKD Kolbenova — samotného potomka firmy, kterou v roce 1898 založil Emil Kolben a která se po sloučení v roce 1921 stala průmyslovým gigantem Českomoravská-Kolben-Daněk. Na svém vrcholu zaměstnával koncern ve Vysočanech na 50 000 lidí.
+
+Hala E, budova v srdci dnešního uměleckého areálu, pochází z let 1931–1934, kdy byla postavena jako ústřední poštovní sklad. Její sloupy — osmihranného průřezu a zakončené výraznými hřibovitými hlavicemi — navrhl architekt Josef Kalous, žák Jana Kotěry, a hala je od roku 2003 chráněna jako kulturní památka. Po druhé světové válce provozoval širší areál národní podnik Praga, ale ztráta exportních trhů východního bloku po roce 1989, umocněná špatným hospodařením v 90. letech, dohnala firmu v roce 1998 k bankrotu. Co přežilo, je dnes fungující umělecká čtvrť, která zabírá velkou část haly E ateliéry, výstavami a dny otevřených dveří.
+
+Bonus: Sklad postavený k uskladnění zásilek pro poštu, uvnitř komplexu, který kdysi hromadně vyráběl náklaďáky pro polovinu východního bloku, dnes hostí malíře pracující v tichu pod naprosto stejnými hřibovitými sloupy — možná nejklidnější kariéra, jakou tahle budova kdy měla.`,
+
+      zh: `欢迎来到Pragovka艺术区，这里曾是一座汽车工厂，鼎盛时期雇佣多达5万名工人，生产卡车、发动机和重型机械——如今，画家、雕塑家和陶艺家们却在同一座布满蘑菇形立柱的仓库大厅里静静地工作。
+
+这片场地的工业故事始于1907年，第一家布拉格汽车工厂在此创立，后来更名为Praga，作为庞大的ČKD科尔本诺瓦联合体的一部分，生产车辆及其零部件——而这一联合体本身，则源自埃米尔·科尔本于1898年创立的公司，1921年合并后，发展成为工业巨头"捷克摩拉维亚-科尔本-达内克"。在鼎盛时期，这个联合体在维索恰尼一带雇佣了约5万名工人。
+
+如今艺术区核心建筑的"E号大厅"，建于1931年至1934年间，最初是作为中央邮政仓库而建。它那些截面呈八边形、顶部饰有独特蘑菇状柱头的立柱，出自建筑师约瑟夫·卡卢斯之手，他是扬·科泰拉的学生，这座大厅自2003年起被列为文化古迹保护对象。二战后，国营企业Praga接管了整个厂区，但1989年后东欧集团出口市场的丧失，再加上1990年代的经营不善，最终让公司在1998年走向破产。幸存下来的部分，如今变成了一片充满生气的艺术区，占据了E号大厅的很大一部分空间，用作工作室、展览和开放日活动。
+
+彩蛋：一座本为邮政服务储存包裹而建的仓库，坐落在一座曾经为半个东欧集团大批量生产卡车的厂区之中，如今却容纳着在同样的蘑菇形立柱下安静创作的画家们——这大概是这座建筑有史以来最平静的一段"职业生涯"。`,
+    },
+  },
+  {
+    name: 'Kolbenova Street',
+    slug: 'kolbenova',
+    localizedNames: { cz: 'Kolbenova', zh: '科尔本诺瓦街' },
+    labels: ['street', 'historical'],
+    coordinates: { lat: 50.11036730948252, lng: 14.515269032836164 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kolbenova_(Praha)',
+    description: {
+      en: `Welcome to Kolbenova, a Prague street named after the Jewish engineer whose factories once employed tens of thousands — a man the Nazi occupiers kept working into the street's own name in German, even as they were simultaneously sending him to die in a concentration camp.
+
+The street honours Emil Kolben (1862–1943), the Czech electrical engineer who returned home in 1896 to found Kolben a spol. in Vysočany, the company that eventually grew, through a 1921 merger, into the industrial giant ČKD. Its middle section was first named "Pod Kolbenkou" in 1925, informally tying it to Kolben's factory even then.
+
+That connection took a dark turn during the Nazi occupation, when the street was renamed "Kolbenwerkstraße" — Kolben Factory Street — in German, continuing to reference the man's name and enterprise even as Kolben himself, who was Jewish, was deported and died in the Theresienstadt concentration camp in 1943. The street didn't receive its current Czech name, Kolbenova, until 1991. Since 2001, the metro station along its route has carried a bronze bust of Kolben in its vestibule, inscribed simply as a pioneer of Czech electrical engineering.
+
+🎁 Bonus: For several years under occupation, the Nazi administration kept a Jewish industrialist's name stamped onto a Prague street sign in German, purely because it was administratively convenient — even as the same regime was working to erase the man himself from existence entirely.`,
+
+      cz: `Vítej na Kolbenově ulici, pojmenované po židovském inženýrovi, jehož továrny kdysi zaměstnávaly desetitisíce lidí — muži, jehož jméno nacističtí okupanti dál používali v německé podobě názvu ulice, zatímco ho zároveň posílali na smrt do koncentračního tábora.
+
+Ulice nese jméno Emila Kolbena (1862–1943), českého elektrotechnického inženýra, který se v roce 1896 vrátil do vlasti a založil ve Vysočanech firmu Kolben a spol., z níž se po sloučení v roce 1921 stal průmyslový gigant ČKD. Její prostřední úsek dostal už v roce 1925 neoficiální jméno „Pod Kolbenkou", odkazující na Kolbenovu továrnu.
+
+Toto spojení nabralo temný směr za nacistické okupace, kdy byla ulice přejmenována na německé „Kolbenwerkstraße" — ulice Kolbenovy továrny —, což dál odkazovalo na jméno a podnik toho muže, zatímco samotný Kolben, jenž byl Žid, byl deportován a v roce 1943 zemřel v koncentračním táboře Terezín. Svého dnešního českého jména Kolbenova se ulice dočkala až v roce 1991. Od roku 2001 nese stanice metra na její trase ve vestibulu bronzovou bustu Kolbena s prostým nápisem označujícím jej za průkopníka české elektrotechniky.
+
+Bonus: Nacistická správa po několik let okupace ponechala jméno židovského průmyslníka vyryté v německé podobě na pražské ulici, prostě proto, že to bylo administrativně praktické — zatímco tentýž režim se současně snažil samotného muže zcela vymazat z existence.`,
+
+      zh: `欢迎来到科尔本诺瓦街，这条街以一位犹太工程师的名字命名——他的工厂曾雇佣数以万计的工人，可纳粹占领当局却一边继续在德语版街名里保留他的名字，一边把他本人送进集中营等死。
+
+这条街纪念的是埃米尔·科尔本（1862—1943），这位捷克电气工程师于1896年回国，在维索恰尼创办了"科尔本公司"，这家公司在1921年合并后，发展成了工业巨头ČKD。它的中段早在1925年就获得了一个非正式的名字"Pod Kolbenkou"，早早就把这条街与科尔本的工厂联系在了一起。
+
+这层联系在纳粹占领期间，转向了黑暗的一面：这条街被改成了德语名"Kolbenwerkstraße"（科尔本工厂街），这个名字仍然沿用着这位犹太实业家的姓氏与企业，而与此同时，身为犹太人的科尔本本人却遭到驱逐，于1943年死在特雷津集中营。这条街直到1991年才获得如今这个捷克语名字"科尔本诺瓦"。自2001年起，沿线的地铁站的站厅内，一直立着一座科尔本的青铜半身像，铭文只是简单地称他为"捷克电气工程的先驱"。
+
+彩蛋：在占领期间的好几年里，纳粹当局一直把一位犹太实业家的名字保留在布拉格街道的德语标牌上，纯粹只是因为这样做在行政上更方便——而与此同时，同一个政权，却在竭力把这个人本身，从这个世界上彻底抹去。`,
+    },
+  },
+  {
+    name: 'Vysočany Sugar Refinery',
+    slug: 'cukrovar-vysocany',
+    localizedNames: { cz: 'Cukrovar Vysočany', zh: '维索恰尼糖厂' },
+    labels: ['factory', 'historical'],
+    coordinates: { lat: 50.113284, lng: 14.507758 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Cukrovar_Vyso%C4%8Dany',
+    description: {
+      en: `Welcome to the former Vysočany Sugar Refinery, the very first factory this whole industrial district ever had — and, almost as an afterthought, the site of Prague's first telephone line, strung up decades before anyone else in the city had one.
+
+Founded in 1835 by Bedřich Frey the elder, the Empire-style refinery building was Vysočany's original industrial enterprise, predating the district's later transformation into a landscape of car factories and heavy engineering works by decades. In 1863, chemist Hugo Jelínek carried out the first-ever saturation of sugar juice here — a refining technique that would go on to define sugar processing more broadly.
+
+Its most surprising claim to fame, though, has nothing to do with sugar: on 21 July 1881, a roughly one-kilometre telephone line was installed connecting the refinery to the private residence of Bedřich Frey the younger, making it the very first telephone line ever strung anywhere in Prague. Sugar production wound down around the turn of the 20th century, and the site was rebuilt for new tenants in 1929 by builder Hejduk, going on to house a scattering of small firms — including, for a time, the fledgling Avia factory — before being absorbed into the Odkolek mills complex after the Second World War.
+
+🎁 Bonus: Long before anyone in Prague could pick up a phone to call a neighbour across town, the very first working telephone line in the entire city connected a sugar factory to one man's house — meaning Prague's telecommunications era effectively began, quite literally, in a boiling room full of beet juice.`,
+
+      cz: `Vítej v bývalém Cukrovaru Vysočany, úplně prvním závodě, jaký tahle průmyslová čtvrť kdy měla — a takřka mimochodem i místě první telefonní linky v Praze, zavedené o desetiletí dřív, než ji měl kdokoliv jiný ve městě.
+
+Empírová budova cukrovaru, založená v roce 1835 Bedřichem Freyem starším, byla prvním průmyslovým podnikem ve Vysočanech, o desetiletí předcházejícím pozdější proměnu čtvrti v krajinu automobilek a těžkého strojírenství. V roce 1863 zde chemik Hugo Jelínek provedl vůbec první saturaci cukerné šťávy — rafinační techniku, která později obecně definovala zpracování cukru.
+
+Její nejpřekvapivější zápis do dějin ale nemá s cukrem nic společného: 21. července 1881 sem byla zavedena přibližně kilometr dlouhá telefonní linka spojující cukrovar s soukromým bydlištěm Bedřicha Freye mladšího, čímž se stala vůbec první telefonní linkou v celé Praze. Výroba cukru koncem 19. a začátkem 20. století utlumila a areál v roce 1929 přestavěl stavitel Hejduk pro nové nájemce, kteří sem postupně přivedli řadu menších firem — včetně, na čas, rodící se automobilky Avia — než byl po druhé světové válce začleněn do komplexu Odkolkových mlýnů.
+
+Bonus: Dávno předtím, než si mohl kdokoliv v Praze zvednout telefon a zavolat sousedovi na druhý konec města, spojovala vůbec první fungující telefonní linka v celém městě cukrovar s domem jednoho jediného muže — pražská éra telekomunikací tak doslova začala ve vařírně plné řepné šťávy.`,
+
+      zh: `欢迎来到维索恰尼糖厂旧址，这是整个工业街区最早拥有的第一座工厂——而它几乎是顺带留下的另一项纪录，是布拉格第一条电话线的所在地，比这座城市里其他任何人拥有电话都要早上好几十年。
+
+这座帝国风格的糖厂建筑由老贝德日赫·弗雷于1835年创立，是维索恰尼最早的工业企业，比这个街区后来变成汽车工厂与重型机械工程重镇早了整整几十年。1863年，化学家胡戈·耶利内克在这里完成了世界上第一次"糖汁饱和法"操作——这项精炼技术后来广泛定义了整个制糖工艺。
+
+不过它最令人意外的历史纪录，却与制糖毫无关系：1881年7月21日，一条大约1公里长的电话线在这里架设完成，把糖厂与小贝德日赫·弗雷的私人住宅连接了起来，这也使它成为布拉格全城第一条真正投入使用的电话线路。制糖业务在19世纪末20世纪初逐渐停产，1929年，建筑师赫伊杜克对厂区进行了改建，引入了一批新租户——其中一度还包括初创的阿维亚汽车厂——直到二战后，厂区被并入奥德科莱克磨坊集团。
+
+彩蛋：早在布拉格城里任何人能拿起电话给住在城市另一头的邻居打电话之前很久，整座城市第一条真正投入使用的电话线路，连接的却是一座糖厂和一个人的住宅——布拉格的电信时代，说起来，几乎就是从一间飘着甜菜汁气味的煮糖车间里，真真切切地拉开序幕的。`,
+    },
+  },
+  {
+    name: 'AFI City Tower',
+    slug: 'afi-city-tower',
+    localizedNames: { cz: 'AFI CITY TOWER', zh: 'AFI城市塔' },
+    labels: ['modern', 'architecture'],
+    coordinates: { lat: 50.1111545650051, lng: 14.51733584744214 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/AFI_City',
+    description: {
+      en: `Welcome to AFI City Tower, a 75-metre glass office block standing on ground that spent over a century making castings and machinery for ČKD — proof that in Vysočany, even the view from the rooftop terrace, all the way to Prague Castle, had to wait its turn behind a foundry.
+
+The tower rises on the former site of ČKD Slévárny a Moury, an industrial operation with roots stretching back to 1896, as the centrepiece of the wider AFI City redevelopment — a project converting the old brownfield into some 110,000 square metres of office, retail, and accommodation space alongside another 40,000 square metres of housing. Designed by CMC Architects under David R. Chisholm, Tower 1 stands on a reinforced concrete frame with 8.1-metre column spacing, rising 19 storeys and roughly 75 metres above a rectangular footprint of about 24 by 44 metres.
+
+Inside, the tower offers more than 17,300 square metres of leasable office space and 338 parking spaces tucked into the basement, while its rooftop terrace — open to all tenants — gives an uninterrupted view stretching all the way to Prague Castle on the opposite side of the city.
+
+🎁 Bonus: A foundry that once poured molten metal for industrial machinery has been replaced, on the exact same ground, by a tower whose main product is a rooftop view — arguably the most complete inversion of purpose any single plot in Vysočany has undergone.`,
+
+      cz: `Vítej u AFI City Tower, pětasedmdesátimetrové skleněné administrativní budovy, stojící na pozemku, kde se přes sto let odlévaly součástky a strojní zařízení pro ČKD — důkaz, že i výhled ze střešní terasy až na Pražský hrad si ve Vysočanech musel počkat ve frontě za slévárnou.
+
+Věž stojí na místě bývalé ČKD Slévárny a Moury, průmyslového provozu s kořeny sahajícími až do roku 1896, jako centrální stavba širšího developerského projektu AFI City — přeměny starého brownfieldu na zhruba 110 000 metrů čtverečních kancelářských, obchodních a ubytovacích ploch spolu s dalšími 40 000 metry čtverečními bydlení. Věž 1, navržená ateliérem CMC Architects pod vedením architekta Davida R. Chisholma, stojí na železobetonovém skeletu s rozponem sloupů 8,1 metru, má devatenáct podlaží a dosahuje výšky zhruba 75 metrů nad obdélníkovým půdorysem o rozměrech přibližně 24 na 44 metrů.
+
+Uvnitř nabízí věž přes 17 300 metrů čtverečních pronajímatelných kancelářských ploch a 338 parkovacích míst v suterénu, zatímco její střešní terasa — přístupná všem nájemcům — nabízí nepřerušený výhled až na Pražský hrad na opačném konci města.
+
+Bonus: Slévárnu, která kdysi odlévala roztavený kov pro strojní zařízení, na naprosto stejné půdě nahradila věž, jejímž hlavním produktem je výhled ze střechy — pravděpodobně nejúplnější obrácení účelu, jakým kterýkoliv pozemek ve Vysočanech kdy prošel.`,
+
+      zh: `欢迎来到AFI City Tower，一座高75米的玻璃幕墙办公大楼——它矗立的这片土地，曾有一百多年时间专门为ČKD浇铸零件和机械设备，这也证明，就连屋顶露台一路望向布拉格城堡的视野，在维索恰尼也得先排在铸造车间后面等上好一阵子。
+
+这座大厦坐落在原ČKD铸造与磨坊厂旧址之上，这家工业企业的历史可追溯至1896年，如今它是更大规模的AFI City开发项目的核心建筑——该项目把这片老旧的工业废弃地，改造成约11万平方米的办公、商业与住宿空间，外加另外4万平方米的住宅。1号塔楼由CMC建筑事务所在建筑师大卫·R·奇泽姆主持下设计，采用钢筋混凝土框架结构，柱距8.1米，共19层，建筑高度约75米，矗立在一块约24米乘44米的矩形地基之上。
+
+大厦内部提供逾1.73万平方米的可租赁办公面积，地下室设有338个停车位，而向所有租户开放的屋顶露台，则可以毫无遮挡地一路望向布拉格城市另一端的布拉格城堡。
+
+彩蛋：一座曾经为机械设备浇铸熔融金属的铸造厂，如今在同一片土地上，被一座主要"产品"就是屋顶景观的高塔所取代——这大概是维索恰尼所有地块中，用途反转最彻底的一例。`,
+    },
+  },
+  {
+    name: 'ISCARE Clinical Centre',
+    slug: 'klinicke-centrum-iscare',
+    localizedNames: { cz: 'Klinické centrum ISCARE', zh: 'ISCARE临床中心' },
+    labels: ['modern'],
+    coordinates: { lat: 50.103101384947756, lng: 14.495439659132792 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Iscare',
+    description: {
+      en: `Welcome to ISCARE Clinical Centre, a private Prague clinic that started out in 1994 helping couples conceive — and then spent three decades quietly bolting on entirely unrelated specialities one at a time, until it somehow ended up treating everything from Crohn's disease to varicose veins under one roof.
+
+ISCARE opened its doors in 1994 as one of the Czech Republic's first private IVF centres, at a moment when non-state healthcare in the country was still a genuinely new idea. From there its scope simply kept expanding: a Centre for Obesity Treatment arrived in 2005, offering everything from conservative management to bariatric surgery, followed in 2007 by plastic surgery and a dedicated gastroenterology programme treating Crohn's disease and ulcerative colitis.
+
+The expansion never really stopped. A 2021 merger with another clinic folded gynaecology into the mix, and from 2022 the clinic added dermatology, urology, andrology, sexology, and vein surgery on top of everything else. Along the way, in 2020, the whole operation moved into a purpose-built new building in Prague 9 — a considerably more coherent home for what had, by then, become a rather eclectic medical portfolio.
+
+🎁 Bonus: A clinic that began its life focused entirely on one very specific fertility procedure has, three decades and roughly a dozen added specialities later, become the kind of place where a patient could plausibly walk in for a completely unrelated appointment and never learn how the whole thing actually started.`,
+
+      cz: `Vítej v Klinickém centru ISCARE, soukromé pražské klinice, která v roce 1994 začínala pomocí párům s početím — a pak si během tří desetiletí postupně přidávala jeden zcela nesouvisející obor za druhým, až nakonec nějak skončila léčbou všeho od Crohnovy choroby po křečové žíly pod jednou střechou.
+
+ISCARE otevřelo své dveře v roce 1994 jako jedno z prvních soukromých center asistované reprodukce v Česku, v době, kdy nestátní zdravotnictví v zemi bylo ještě opravdu novou myšlenkou. Odtud se záběr kliniky jen dál rozšiřoval: v roce 2005 přibylo Centrum pro léčbu obezity nabízející vše od konzervativní léčby po bariatrickou chirurgii, v roce 2007 následovala plastická chirurgie a specializovaný gastroenterologický program léčící Crohnovu chorobu a ulcerózní kolitidu.
+
+Rozšiřování se nikdy pořádně nezastavilo. Fúze s jinou klinikou v roce 2021 přidala do mixu gynekologii a od roku 2022 klinika přidala dermatologii, urologii, andrologii, sexuologii a žilní chirurgii ke všemu ostatnímu. V roce 2020 se celý provoz mezitím přestěhoval do nové účelové budovy v Praze 9 — podstatně soudržnějšího domova pro to, co se do té doby stalo docela eklektickým lékařským portfoliem.
+
+Bonus: Klinika, která svůj život začínala zaměřená výhradně na jeden velmi konkrétní postup léčby neplodnosti, se po třech desetiletích a zhruba tuctu přidaných oborů stala místem, kam by pacient klidně mohl přijít na naprosto nesouvisející vyšetření a nikdy se nedozvědět, jak to celé vlastně začalo.`,
+
+      zh: `欢迎来到ISCARE临床中心，一家1994年以帮助夫妇受孕起家的布拉格私立诊所——此后三十年间，它不断地一项接一项地添加着彼此毫不相干的专科，直到最终不知怎么就变成了一个从克罗恩病到静脉曲张什么都治的地方。
+
+ISCARE于1994年开业，是捷克最早的私立试管婴儿中心之一，当时非国有医疗在这个国家还是一个相当新颖的概念。此后诊所的业务范围只增不减：2005年增设了肥胖治疗中心，提供从保守治疗到减重手术的全套服务；2007年又加入了整形外科，以及专门治疗克罗恩病和溃疡性结肠炎的胃肠病科项目。
+
+这种扩张此后就没有真正停下来过：2021年与另一家诊所合并，把妇科也纳入了业务范围；自2022年起，诊所又相继增设了皮肤科、泌尿科、男科、性学与静脉外科。与此同时，整个诊所于2020年搬进了布拉格9区一座专门建造的新大楼——为这个此时已经相当"包罗万象"的医疗组合，提供了一个更加协调统一的新家。
+
+彩蛋：一家最初完全专注于一项非常具体的生育治疗手段而起家的诊所，在三十年间陆续增加了大约十几个专科之后，如今已经变成了这样一个地方——一位病人完全可能只是为了一个毫不相关的预约走进来，却从未意识到，这一切最初其实是从哪里开始的。`,
+    },
+  },
+  {
+    name: 'Army Museum Žižkov',
+    slug: 'armadni-muzeum-zizkov',
+    localizedNames: { cz: 'Armádní muzeum Žižkov', zh: '日什科夫军事博物馆' },
+    labels: ['museum', 'historical'],
+    coordinates: { lat: 50.08754521037309, lng: 14.444658294652788 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Arm%C3%A1dn%C3%AD_muzeum_%C5%BDi%C5%BEkov',
+    description: {
+      en: `Welcome to the Army Museum Žižkov, a building designed in the 1920s by a former Czechoslovak legionnaire specifically to house the memory of his own war — and one of the very few major Prague museums where walking through seven centuries of military history won't cost you a single crown.
+
+The complex at the foot of Vítkov hill was built between 1927 and 1929 as the Museum of the Liberation Memorial, designed by architect Jan Zázvorka, who had himself served as a Czechoslovak legionnaire in Russia. In 1929, several historical institutions founded after Czechoslovak independence in 1918 were merged into a single research body under the same name, and the museum opened to the public in 1932.
+
+Today the complex belongs to the Military History Institute Prague, and between 2018 and 2022 it underwent a complete reconstruction that rebuilt its exhibitions from the ground up. Across roughly 5,000 square metres on four floors, seven separate sections now trace the military history of the Czech lands from its earliest beginnings to the present day, alongside a substantial exhibition on Czech statehood itself — more than 7,000 objects displayed across nearly 300 cases in total.
+
+🎁 Bonus: The architect who designed this monument to Czechoslovak military memory had fought in that very war himself, as a legionnaire in Russia — meaning the building wasn't just built to commemorate a generation's war experience, it was built by someone who had actually lived it.`,
+
+      cz: `Vítej v Armádním muzeu Žižkov, budově navržené ve 20. letech bývalým československým legionářem přímo k tomu, aby uchovávala paměť jeho vlastní války — a jednom z mála velkých pražských muzeí, kde projít sedmi stoletími vojenských dějin nebude stát ani korunu.
+
+Areál na úpatí Vítkova vznikl v letech 1927 až 1929 jako Museum památníku osvobození, navržený architektem Janem Zázvorkou, který sám sloužil jako československý legionář v Rusku. V roce 1929 se do jednoho vědeckého ústavu téhož jména sloučilo několik historickovědných institucí založených po vzniku Československa v roce 1918, a muzeum bylo pro veřejnost otevřeno v roce 1932.
+
+Dnes areál patří Vojenskému historickému ústavu Praha a mezi lety 2018 a 2022 prošel kompletní rekonstrukcí, při níž byly expozice přebudovány úplně od základu. Na ploše zhruba 5 000 metrů čtverečních ve čtyřech patrech dnes sedm samostatných částí mapuje vojenské dějiny českých zemí od nejstarších počátků až po současnost, spolu s rozsáhlou expozicí věnovanou samotné české státnosti — přes 7 000 exponátů vystavených v téměř 300 vitrínách.
+
+Bonus: Architekt, který navrhl tento památník československé vojenské paměti, sám bojoval v té samé válce jako legionář v Rusku — budova tak nebyla postavena jen k připomenutí válečné zkušenosti jedné generace, ale postavil ji člověk, který ji sám doopravdy prožil.`,
+
+      zh: `欢迎来到日什科夫军事博物馆，这座建筑由一位前捷克斯洛伐克军团老兵，在1920年代亲自设计，专门用来保存他自己那场战争的记忆——它也是布拉格为数不多的大型博物馆之一，走过七个世纪的军事历史，却完全不花你一分钱。
+
+这座位于维特科夫山脚下的建筑群，建于1927年至1929年间，最初名为"解放纪念馆博物馆"，由建筑师扬·扎兹沃尔卡设计，他本人曾在俄国担任捷克斯洛伐克军团士兵。1929年，几家在1918年捷克斯洛伐克独立后成立的历史研究机构合并为同名的一个研究机构，博物馆于1932年正式对公众开放。
+
+如今这座建筑群隶属于布拉格军事历史研究所，2018年至2022年间经历了一次全面重建，展览内容从头到尾彻底翻新。在四层楼、约5000平方米的展览空间里，七个独立展区如今讲述着捷克土地上从最早时期直至今日的军事历史，此外还有相当大的篇幅专门献给捷克国家本身的历史——总共陈列着7000多件展品，分布在近300个展柜之中。
+
+彩蛋：设计这座捷克斯洛伐克军事记忆纪念建筑的建筑师，本人正是那场战争的亲历者——他曾在俄国担任军团士兵。这意味着，这座建筑不仅仅是为了纪念一代人的战争经历而建，它的设计者，本身就曾真正地经历过那一切。`,
+    },
+  },
+  {
+    name: 'Military Technical Museum, Lešany',
+    slug: 'vojenske-technicke-muzeum-lesany',
+    localizedNames: { cz: 'Vojenské technické muzeum Lešany', zh: '莱沙尼军事技术博物馆' },
+    labels: ['museum', 'historical'],
+    coordinates: { lat: 49.855174185659365, lng: 14.543895085853304 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Vojensk%C3%A9_technick%C3%A9_muzeum_Le%C5%A1any',
+    description: {
+      en: `Welcome to the Military Technical Museum, Lešany, a former artillery barracks in the countryside south of Prague that now holds more tanks, cannons, and armoured vehicles than most small countries' actual militaries — quietly proving that a decommissioned barracks can have a considerably more interesting second act than anyone expects.
+
+Founded in 1996 on the grounds of a former artillery barracks between the villages of Krhanice and Lešany, the museum operates as a branch of the Military History Institute Prague, dedicated specifically to military technology rather than the broader institutional history housed at the Army Museum in the capital. Its collection runs to more than 700 historical exhibits spanning from 1890 to the present day: tanks, artillery pieces, motorcycles, armoured vehicles, trucks, military passenger cars, rocket technology, and communications and engineering equipment, along with an assortment of logistical material.
+
+All of it is spread across ten exhibition halls, six open-sided shelters, and additional open-air display areas — a scale that makes it one of the largest collections of its kind in Central Europe, tucked away in a rural corner of the Benešov district that most Prague visitors never think to reach.
+
+🎁 Bonus: A barracks built to house soldiers and artillery in active service now houses the retired hardware of over a century of Czech and Czechoslovak military history instead — the same grounds, doing essentially the same job, just with everything on permanent, peaceful display rather than on standby.`,
+
+      cz: `Vítej ve Vojenském technickém muzeu Lešany, bývalých dělostřeleckých kasárnách na venkově jižně od Prahy, které dnes ukrývají víc tanků, děl a obrněných vozidel, než mají některé malé státy ve skutečné armádě — tichý důkaz, že zrušená kasárna mohou mít mnohem zajímavější druhé dějství, než by kdo čekal.
+
+Muzeum založené v roce 1996 v areálu bývalých dělostřeleckých kasáren mezi obcemi Krhanice a Lešany funguje jako pobočka Vojenského historického ústavu Praha, zaměřená konkrétně na vojenskou techniku, na rozdíl od širší institucionální historie prezentované v Armádním muzeu v hlavním městě. Jeho sbírka čítá přes 700 historických exponátů z let 1890 až po současnost: tanky, dělostřelecké kusy, motocykly, obrněná vozidla, nákladní automobily, vojenské osobní vozy, raketovou techniku i spojovací a ženijní vybavení, spolu s řadou logistického materiálu.
+
+To vše je rozmístěno v deseti výstavních halách, pod šesti přístřešky a na dalších venkovních výstavních plochách — rozsah, který z muzea dělá jednu z největších sbírek svého druhu ve střední Evropě, ukrytou ve venkovském koutě benešovského okresu, kam se většina pražských návštěvníků ani nenapadne vydat.
+
+Bonus: Kasárna postavená k ubytování vojáků a dělostřelectva ve službě dnes ukrývají vysloužilou techniku více než sto let české a československé vojenské historie — ta samá půda, v podstatě stejná práce, jen je teď všechno na trvalé a pokojné výstavě místo v pohotovosti.`,
+
+      zh: `欢迎来到莱沙尼军事技术博物馆，一座位于布拉格以南乡间的前炮兵营区，如今这里收藏的坦克、火炮和装甲车辆，比一些小国实际拥有的军队装备还要多——悄悄证明了一座退役营区完全可以拥有比任何人预期都精彩得多的"第二人生"。
+
+这座博物馆创立于1996年，位于克尔哈尼采与莱沙尼两村之间一处前炮兵营区内，是布拉格军事历史研究所的一处分支机构，专门聚焦于军事技术本身，有别于首都军事博物馆所呈现的更宏观的机构历史。馆藏包含700多件历史展品，年代跨越1890年至今：坦克、火炮、摩托车、装甲车辆、卡车、军用乘用车、火箭技术，以及通信与工程设备，此外还有大量后勤保障物资。
+
+所有展品分布在十座展厅、六座开敞式棚库以及多处露天展区之中——如此规模，让这里成为中欧同类收藏中规模最大的博物馆之一，静静地藏身于贝内绍夫区的一个乡间角落，大多数来布拉格旅游的人，压根想不到要专程跑这一趟。
+
+彩蛋：一座原本用来驻扎现役士兵与火炮的营区，如今驻扎的却是捷克与捷克斯洛伐克一个多世纪军事历史中退役下来的装备——同一片土地，本质上还在做着同样的"工作"，只是如今一切都变成了永久而和平的展示，而不再是随时待命。`,
+    },
+  },
+  {
+    name: 'Aviation Museum Kbely',
+    slug: 'letecke-muzeum-kbely',
+    localizedNames: { cz: 'Letecké muzeum Kbely', zh: '克贝利航空博物馆' },
+    labels: ['museum', 'historical'],
+    coordinates: { lat: 50.125349887556624, lng: 14.535194272513838 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Leteck%C3%A9_muzeum_Kbely',
+    description: {
+      en: `Welcome to the Aviation Museum Kbely, the largest aviation collection in the Czech Republic — a place holding 275 aircraft in total, though only a fraction are actually on display, meaning most of this museum's real treasures are quietly sitting in storage, waiting for their turn in the spotlight.
+
+Founded in 1968 on the grounds of Prague's historic Kbely airfield — Czechoslovakia's very first military airbase, built immediately after the country's founding in 1918 — the museum has grown into one of the most significant aviation collections in Europe. Its holdings run to 275 aircraft altogether: 85 on display across six covered exhibition halls, another 25 in open-air display areas, and a further 155 held in storage depots, unseen by most visitors. Ten of the aircraft remain fully airworthy and are still flown.
+
+The exhibitions trace the history of Czechoslovak and Czech aviation, particularly its military side, alongside selected internationally significant aircraft shown for comparison. Beyond the planes themselves, the collection extends to aircraft engines, airframe components, weaponry, uniforms, flags, decorations, and a wide range of other aviation memorabilia — several of the exhibits are, by any measure, genuinely unique in the world.
+
+🎁 Bonus: Of the museum's 275 aircraft, fewer than half are actually visible to a visiting public at any given time — meaning even the most dedicated aviation enthusiast walking through the halls today is still only seeing a minority of what the collection actually holds.`,
+
+      cz: `Vítej v Leteckém muzeu Kbely, největší letecké sbírce v České republice — místě, které ukrývá celkem 275 letadel, přestože je vystavena jen jejich část, takže většina skutečných pokladů tohoto muzea tiše čeká v depozitářích na svou chvíli na výsluní.
+
+Muzeum založené v roce 1968 v areálu historického kbelského letiště — první vojenské letecké základny Československa, postavené hned po vzniku státu v roce 1918 — se rozrostlo v jednu z nejvýznamnějších leteckých sbírek v Evropě. Jeho fond čítá celkem 275 letadel: 85 je vystaveno v šesti krytých výstavních halách, dalších 25 stojí na nekrytých výstavních plochách a zbývajících 155 je uloženo v depozitářích, mimo dohled většiny návštěvníků. Deset letounů zůstává plně letuschopných a stále se s nimi lítá.
+
+Expozice mapují historii československého a českého letectví, zejména jeho vojenské složky, spolu s vybranými světově významnými letouny vystavenými pro srovnání. Kromě samotných letadel sbírka zahrnuje i letecké motory, součásti draků letounů, výzbroj, stejnokroje, prapory, vyznamenání a řadu dalších leteckých památek — několik exponátů je podle všeho skutečně světovým unikátem.
+
+Bonus: Z 275 letadel muzea je v kterémkoliv okamžiku veřejnosti vidět méně než polovina — takže i ten nejzapálenější nadšenec do letectví, procházející dnes halami, vidí ve skutečnosti jen menšinu toho, co sbírka doopravdy obsahuje.`,
+
+      zh: `欢迎来到克贝利航空博物馆，捷克规模最大的航空收藏机构——馆藏总数达275架飞机，可实际展出的却只是其中一小部分，也就是说，这座博物馆真正的宝藏，大多都静静地躺在库房里，等待属于自己的高光时刻。
+
+这座博物馆创立于1968年，坐落在布拉格历史悠久的克贝利机场旧址——这是捷克斯洛伐克建国后（1918年）建成的第一座军用机场——此后逐渐发展成为欧洲最重要的航空收藏机构之一。馆藏总数达275架飞机：其中85架陈列在六座有顶展厅内，另有25架陈列在露天展区，剩下的155架则存放在库房中，大多数游客根本无缘得见。有10架飞机至今仍保持适航状态，仍能真正升空飞行。
+
+展览内容梳理了捷克斯洛伐克与捷克航空史，尤其是其军事航空的发展脉络，同时也陈列了一些具有世界意义的机型作为对照展示。除飞机本身外，馆藏还包括航空发动机、机身部件、武器装备、制服、旗帜、勋章，以及大量其他航空纪念物品——其中不少展品称得上是真正的世界孤品。
+
+彩蛋：在博物馆275架飞机当中，任何时候能被公众看到的都不到一半——这意味着，即便是今天走过展厅、最痴迷的航空爱好者，实际上看到的，也只是这批藏品中的一小部分而已。`,
+    },
+  },
+  {
+    name: 'Lofty Kolbenova',
+    slug: 'lofty-kolbenova',
+    localizedNames: { cz: 'Lofty Kolbenova', zh: '洛夫蒂·科尔本诺瓦' },
+    labels: ['modern', 'historical'],
+    coordinates: { lat: 50.11091964556694, lng: 14.510706380981931 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to Lofty Kolbenova, a former ČKD workshop that once turned out small machines, vacuum cleaners, and dental equipment — and now turns out something considerably calmer: 215 apartments, still wrapped in the same exposed brick and steel that used to house assembly lines instead of living rooms.
+
+The building originally belonged to ČKD, the industrial giant descended from Emil Kolben's electrical engineering works, and produced a genuinely odd cross-section of goods on Kolbenova street: small machinery, vacuum cleaners, and dental equipment, among other things. Decades later, with the wider ČKD complex in decline, architects from a studio with more than two decades of heritage-restoration work behind it took on its conversion into housing.
+
+Rather than erase the building's industrial character, the redesign deliberately kept it: exposed brick, generous factory-floor proportions, and structural details original to the workshop were retained and built around, rather than covered up, resulting in 215 apartments that trade on the very same industrial atmosphere the building's original workers would have found completely unremarkable.
+
+🎁 Bonus: A building that once mass-produced vacuum cleaners and dental drills is now marketed, quite openly, on the strength of its exposed brick and steel — proof that the same industrial features people were once eager to hide behind plaster are now precisely what gets a Vysočany apartment its premium price tag.`,
+
+      cz: `Vítej v Lofty Kolbenova, bývalé dílně ČKD, která kdysi vyráběla drobné stroje, vysavače a zubařské vybavení — a dnes produkuje mnohem klidnější věc: 215 bytů, stále zabalených ve stejné pohledové cihle a oceli, které dřív hostily montážní linky místo obývacích pokojů.
+
+Budova původně patřila ČKD, průmyslovému gigantu odvozenému z elektrotechnických závodů Emila Kolbena, a vyráběla na Kolbenově ulici skutečně pestrý sortiment: drobné stroje, vysavače i zubařské vybavení. O desetiletí později, když širší areál ČKD upadal, se jejího přerodu na bydlení ujali architekti ateliéru s víc než dvacetiletou praxí v obnově památkových a historických objektů.
+
+Místo aby přestavba industriální charakter budovy setřela, záměrně jej zachovala: pohledová cihla, velkorysé tovární proporce a konstrukční detaily původní dílny zůstaly zachovány a stavba se přizpůsobila kolem nich, místo aby je zakryla — výsledkem je 215 bytů, které těží přesně z té industriální atmosféry, kterou by původní dělníci budovy považovali za naprosto všední.
+
+Bonus: Budova, která kdysi hromadně vyráběla vysavače a zubařské vrtačky, se dnes docela otevřeně prodává na síle své pohledové cihly a oceli — důkaz, že tytéž industriální prvky, které se lidé kdysi snažili schovat pod omítku, dnes vysočanskému bytu zajišťují prémiovou cenovku.`,
+
+      zh: `欢迎来到Lofty Kolbenova，这里曾是ČKD的一座车间，生产过小型机械、吸尘器和牙科设备——如今它"生产"的东西平静得多：215套公寓，依然裹着当年那身砖裸墙与钢结构，只不过里面住的不再是流水线，而是客厅。
+
+这座建筑最初属于ČKD——脱胎于埃米尔·科尔本电气工程厂的工业巨头——在科尔本诺瓦街上生产着相当庞杂的产品线：小型机械、吸尘器，还有牙科设备。几十年后，随着更大范围的ČKD厂区逐渐衰落，来自一家拥有二十多年文物修复经验的建筑事务所接手了它的住宅化改造。
+
+设计并没有抹去这座建筑的工业气质，反而刻意保留了它：裸露的砖墙、宽敞的厂房式空间比例，以及原车间的结构细节都被完整保留下来，建筑围绕着这些元素进行改造，而不是把它们遮盖起来——最终成果是215套公寓，恰恰得益于当年建筑工人眼中稀松平常的那种工业氛围。
+
+彩蛋：一座曾经批量生产吸尘器和牙科电钻的建筑，如今却相当坦然地凭借裸露的砖墙与钢结构进行营销——这恰好证明，人们曾经急于用灰泥遮住的那些工业特征，如今正是维索恰尼公寓卖出高价的关键卖点。`,
+    },
+  },
+  {
+    name: 'Kolben Villa (Vinohrady)',
+    slug: 'kolbenova-vila-vinohrady',
+    localizedNames: { cz: 'Kolbenova vila na Vinohradech', zh: '科尔本别墅（维诺赫拉迪）' },
+    labels: ['villa', 'historical'],
+    coordinates: { lat: 50.07333772746932, lng: 14.450345620610614 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to Kolben Villa, the "Red Villa" in Vinohrady where one of Central Europe's most important electrical engineers raised his family, entertained business partners — and was finally carried out on a stretcher by the Gestapo, too sick and too old to walk, on his way to a concentration camp.
+
+Built in 1916 for Emil Kolben — the engineer whose name would eventually anchor an entire Vysočany street and an industrial empire built on it — the villa took its nickname from its distinctive façade: yellowish-brown plaster deliberately interrupted by bands of exposed red brick. Designed by architect Josef Svoboda and later reworked by Josef Hrabě and Max Spielmann, it served as a genuine family home for Kolben's large household as well as a representative space for meeting business partners and hosting social events.
+
+Kolben lived here until 1943, when the Nazi occupation authorities came for him despite his advanced age and failing health — he was carried out on a stretcher, and even protests from the Protectorate government citing his condition weren't enough to stop his deportation to the Theresienstadt concentration camp, where he died less than a month later at the age of 80. Since 2014 the villa has belonged to the Prague 10 district, which has been working to convert it into a cultural and educational centre housing Kolben's own archive and library.
+
+🎁 Bonus: The same year a Vysočany street was quietly renamed in German to keep referencing Kolben's factory, its actual namesake was being carried out of this very villa on a stretcher — the administrative convenience of his name and the fate of the man himself running on two completely separate, and grimly incompatible, tracks.`,
+
+      cz: `Vítej u Kolbenovy vily, „Červené vily" na Vinohradech, kde jeden z nejvýznamnějších elektrotechnických inženýrů střední Evropy vychovával rodinu, přijímal obchodní partnery — a nakonec byl gestapem odnesen na nosítkách, příliš nemocný a starý na to, aby šel sám, na cestu do koncentračního tábora.
+
+Vila postavená v roce 1916 pro Emila Kolbena — inženýra, jehož jméno nakonec dalo název celé vysočanské ulici i průmyslovému impériu na ní vybudovanému — dostala svou přezdívku podle nápadné fasády: žlutohnědou omítku záměrně přerušovanou pásy pohledového červeného zdiva. Navržena architektem Josefem Svobodou a později upravená Josefem Hrabětem a Maxem Spielmannem sloužila jako opravdový rodinný dům pro Kolbenovu početnou domácnost i jako reprezentativní prostor pro setkání s obchodními partnery a společenské akce.
+
+Kolben tu žil až do roku 1943, kdy si pro něj navzdory vysokému věku a chatrnému zdraví přišly nacistické okupační úřady — byl odnesen na nosítkách, a ani protesty protektorátní vlády poukazující na jeho stav nezabránily jeho deportaci do koncentračního tábora Terezín, kde o necelý měsíc později ve věku 80 let zemřel. Od roku 2014 vila patří městské části Praha 10, která pracuje na jejím přerodu v kulturní a vzdělávací centrum s Kolbenovým archivem a knihovnou.
+
+Bonus: V tom samém roce, kdy byla vysočanská ulice tiše přejmenována do němčiny tak, aby dál odkazovala na Kolbenovu továrnu, byl skutečný nositel toho jména odnesen na nosítkách právě z téhle vily — administrativní pohodlnost jeho jména a osud toho muže samotného tak běžely po dvou zcela oddělených a krutě neslučitelných kolejích.`,
+
+      zh: `欢迎来到科尔本别墅，这是维诺赫拉迪的"红色别墅"，中欧最重要的电气工程师之一曾在这里养育家人、接待商业伙伴——最终却被盖世太保用担架抬出家门，因为他病重年迈到已经无法自己走路，被送往集中营。
+
+这座别墅建于1916年，为埃米尔·科尔本而建——这位工程师的名字，最终成为了维索恰尼一整条街道以及在这条街上建立起来的工业帝国的名字。别墅的绰号来自它那独特的立面：黄褐色的灰泥被一道道裸露的红砖带故意打断。别墅由建筑师约瑟夫·斯沃博达设计，后来又经约瑟夫·赫拉贝和马克斯·施皮尔曼修改，既是科尔本大家庭真正的家，也是接待商业伙伴、举办社交活动的礼仪空间。
+
+科尔本在这里一直居住到1943年，纳粹占领当局不顾他年事已高、体弱多病，仍然找上门来——他被用担架抬出别墅，即便保护国政府以他的身体状况为由提出抗议，也未能阻止他被驱逐至特雷津集中营，不到一个月后，他在那里去世，享年80岁。自2014年起，这座别墅归布拉格10区所有，该区一直在推动将其改造为一座文化教育中心，内设科尔本本人的档案馆与图书馆。
+
+彩蛋：就在维索恰尼一条街道被悄悄改成德语名字、继续指涉科尔本工厂的同一年，这个名字真正的主人，却被人用担架从这座别墅里抬了出去——他名字的行政便利性，与他本人的命运，就这样沿着两条完全割裂、也令人痛心地互不相容的轨道各自前行。`,
+    },
+  },
+  {
+    name: 'Chapel of the Holy Cross (Letňany)',
+    slug: 'kaple-svateho-krize-letnany',
+    localizedNames: { cz: 'Kaple svatého Kříže (Letňany)', zh: '莱特尼十字圣架小教堂' },
+    labels: ['church', 'historical'],
+    coordinates: { lat: 50.13838358107271, lng: 14.515109886191254 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to the Chapel of the Holy Cross in Letňany, the one surviving piece of a farming village that Prague has otherwise completely swallowed — a small Classicist chapel fused onto a bell tower, standing exactly where a much older wooden belfry once rang out over fields that no longer exist.
+
+Letňany's earliest written record dates to 1347, when it appears as a farmstead belonging to a Prague burgher during the reign of Charles IV — a modest agricultural settlement that later became part of the Vinoř estate of the Counts Černín in 1651, before finally gaining independent municipal status in 1850. Almost nothing of that rural past survives above ground today.
+
+The chapel itself was built in 1865, replacing an older wooden belfry that had stood on the same spot until it was demolished in the mid-19th century. Its construction is genuinely unusual: a niche chapel decorated with a relief of a large cross with clover-shaped, quatrefoil-tipped arms, structurally fused to a prism-shaped bell tower rising above it — the tower's own belfry level opens on all four sides through semicircular arched windows. Restored in 1991, the same year it was formally declared a cultural monument, it now stands as the sole physical trace of the vanished agricultural village that gave the whole district its name.
+
+🎁 Bonus: Everything else about old farming Letňany — its fields, its farmsteads, its original village green — has been built over so thoroughly that this one small chapel-and-belfry hybrid is now the entire physical archive of a settlement first recorded nearly seven centuries ago.`,
+
+      cz: `Vítej u Kaple svatého Kříže v Letňanech, jediné dochované připomínce zemědělské vesnice, kterou Praha jinak zcela pohltila — malé klasicistní kapličky srostlé se zvonicí, stojící přesně tam, kde kdysi zněla mnohem starší dřevěná zvonička nad poli, která už dnes neexistují.
+
+První písemná zmínka o Letňanech pochází z roku 1347, kdy se objevují jako poplužní dvůr patřící pražskému měšťanovi za vlády Karla IV. — skromná zemědělská osada, která se v roce 1651 stala součástí vinořského panství hrabat Černínů, než v roce 1850 konečně získala samostatnost jako obec. Z té venkovské minulosti se dnes nad zemí nezachovalo prakticky nic.
+
+Kaple samotná byla postavena v roce 1865 na místě starší dřevěné zvoničky, která na stejném místě stála až do svého zboření v polovině 19. století. Její konstrukce je opravdu neobvyklá: výklenková kaplička zdobená reliéfem velkého kříže s jetelově zakončenými rameny je stavebně srostlá s hranolovou zvonicí, jež se nad ní tyčí — samotné zvonové patro věže se otevírá do všech čtyř stran půlkruhově zaklenutými okny. Opravena byla v roce 1991, ve stejném roce, kdy byla formálně prohlášena kulturní památkou, a dnes stojí jako jediná hmotná stopa po zaniklé zemědělské vesnici, která dala jméno celé čtvrti.
+
+Bonus: Všechno ostatní ze staré zemědělské vesnice Letňany — její pole, statky, původní náves — bylo zastavěno tak důkladně, že tahle jedna malá hybridní stavba kaple se zvonicí je dnes celým hmotným archivem osady poprvé zaznamenané před necelými sedmi stoletími.`,
+
+      zh: `欢迎来到莱特尼十字圣架小教堂，这是布拉格几乎已经彻底吞没的一座农业村庄，唯一留存下来的遗迹——一座与钟塔融为一体的古典主义小教堂，恰好矗立在当年一座更古老的木制钟楼曾经俯瞰着如今早已不复存在的田野的地方。
+
+关于莱特尼最早的文字记载可追溯至1347年，当时它作为查理四世统治时期一位布拉格市民名下的一处庄园出现——这是一个朴素的农业聚落，1651年成为切尔宁伯爵家族维诺日庄园的一部分，直到1850年才最终获得独立市镇地位。如今，那段乡村岁月的痕迹，在地表上几乎已荡然无存。
+
+这座小教堂本身建于1865年，取代了此前立在同一地点、直到19世纪中叶才被拆除的一座旧木制钟楼。它的结构相当特别：这座壁龛式小教堂装饰着一幅四叶形末端的巨大十字架浮雕，与其上耸立的一座棱柱形钟塔在结构上融为一体——钟塔自身的钟楼层四面均开有半圆拱窗。它于1991年得到修复，同年被正式列为文化古迹，如今，它是这座因这个已消失的农业村庄而得名的城区，留存下来的全部实体档案。
+
+彩蛋：老莱特尼农业村庄的一切——它的田野、庄园、原来的村庄绿地——都已经被彻底建成了别的东西，只留下这一座教堂与钟楼混合而成的小建筑，成了这个近七个世纪前才首次被记载的聚落，如今唯一的实物档案。`,
+    },
+  },
+  {
+    name: 'Church of St. Remigius (Čakovice)',
+    slug: 'kostel-svateho-remigia-cakovice',
+    localizedNames: { cz: 'Kostel svatého Remigia (Čakovice)', zh: '查科维采圣雷米吉乌斯教堂' },
+    labels: ['church', 'historical'],
+    coordinates: { lat: 50.151620694389365, lng: 14.524041250889326 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Remigia_(%C4%8Cakovice)',
+    description: {
+      en: `Welcome to the Church of St. Remigius in Čakovice, the only church in the entire Czech Republic dedicated to this particular French saint — and the unlikely final resting place of a relic that Emperor Charles IV personally imported from France in the fourteenth century.
+
+A church has stood on this site since at least 1352, when it appears in the register of papal tithes, though its dedication to St. Remigius isn't recorded until as late as 1604. The original Romanesque building fell into disrepair and was demolished in 1735 by the estate's owner, František Šlik, who replaced it with a Baroque church — which itself lasted until the 1870s, when Filip Schoeller, then owner of the Čakovice chateau and son of the sugar-factory founder Alexander Schoeller, commissioned yet another rebuild. The present neo-Romanesque, Latin-cross church was completed in 1875, consecrated in 1881, and gained a baptismal chapel designed by architect Kamil Hilbert in 1904.
+
+Its genuine claim to fame is the relic it houses: a relic of St. Remigius that Charles IV brought back from France in the fourteenth century, later passed to the Benedictines of the Emmaus Monastery sometime after 1409, and eventually made its way here — to what remains the only church in the whole country dedicated to this saint.
+
+🎁 Bonus: A relic personally imported by a Holy Roman Emperor from France in the 1300s spent centuries passing between monasteries before settling permanently in a modest suburban Prague church — proof that even imperial relics eventually end up somewhere considerably quieter than where they started.`,
+
+      cz: `Vítej u Kostela svatého Remigia v Čakovicích, jediného kostela v celé České republice zasvěceného právě tomuto francouzskému světci — a nepravděpodobného konečného útočiště relikvie, kterou si Karel IV. osobně dovezl z Francie ve čtrnáctém století.
+
+Kostel na tomto místě stojí přinejmenším od roku 1352, kdy se objevuje v registru papežských desátků, jeho zasvěcení svatému Remigiovi je ale doloženo až mnohem později, k roku 1604. Původní románská stavba zchátrala a byla v roce 1735 zbořena majitelem panství Františkem Šlikem, který ji nahradil kostelem v barokním slohu — ten vydržel až do 70. let 19. století, kdy si Filip Schoeller, tehdejší majitel čakovického zámku a syn zakladatele cukrovaru Alexandra Schoellera, objednal další přestavbu. Současný novorománský kostel s půdorysem latinského kříže byl dokončen v roce 1875, vysvěcen v roce 1881 a v roce 1904 získal křestní kapli podle návrhu architekta Kamila Hilberta.
+
+Jeho skutečnou raritou je relikvie, kterou ukrývá: relikvie svatého Remigia, kterou Karel IV. přivezl z Francie ve čtrnáctém století, později po roce 1409 přešla k benediktinům z kláštera Na Slovanech a nakonec se dostala právě sem — do kostela, který zůstává jediným v celé zemi zasvěceným tomuto světci.
+
+Bonus: Relikvie, kterou osobně dovezl římský císař z Francie ve 14. století, strávila staletí putováním mezi kláštery, než se natrvalo usadila ve skromném pražském předměstském kostele — důkaz, že i císařské relikvie nakonec skončí na místě podstatně tišším, než odkud vyrazily.`,
+
+      zh: `欢迎来到查科维采圣雷米吉乌斯教堂，整个捷克共和国唯一一座供奉这位法国圣人的教堂——也是14世纪查理四世亲自从法国带回的一件圣物，如今出人意料的最终归宿。
+
+至少从1352年起，这个地点就矗立着一座教堂——它出现在教皇什一税登记册中，但其供奉圣雷米吉乌斯的记载，直到晚得多的1604年才出现。最初的罗马式建筑年久失修，1735年被庄园主弗朗齐歇克·什利克拆除，代之以一座巴洛克式教堂——这座教堂一直使用到19世纪70年代，此后查科维采庄园的时任业主菲利普·舍勒（制糖厂创办人亚历山大·舍勒之子）委托进行了又一次重建。如今这座新罗马式、平面呈拉丁十字形的教堂于1875年建成，1881年祝圣，1904年又依照建筑师卡米尔·希尔伯特的设计，加建了一座洗礼堂。
+
+它真正的独特之处，在于它所珍藏的一件圣物：这件圣雷米吉乌斯圣物，由查理四世在14世纪从法国带回，1409年后传给了埃玛乌斯修道院的本笃会修士，最终辗转来到了这里——这座至今仍是全国唯一供奉这位圣人的教堂。
+
+彩蛋：一件由神圣罗马帝国皇帝在14世纪亲自从法国带回的圣物，辗转于各修道院之间流传了数百年，最终却永久落脚在布拉格一座朴素的郊区教堂里——这恰好证明，就连帝王的圣物，最终也可能安顿在一个比它出发地安静得多的地方。`,
+    },
+  },
+  {
+    name: 'Prague Fault',
+    slug: 'prazsky-zlom',
+    localizedNames: { cz: 'Pražský zlom', zh: '布拉格断层' },
+    labels: ['geology', 'nature'],
+    coordinates: { lat: 50.102739651770726, lng: 14.533221879057955 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pra%C5%BEsk%C3%BD_zlom',
+    description: {
+      en: `Welcome to the Prague Fault, a 60-kilometre crack in the Earth's crust running from Beroun all the way to Prague-Kyje — the kind of geological feature so quietly enormous that most people in Hloubětín walk directly over 900 metres of vertical rock displacement without ever noticing anything underfoot has moved.
+
+The fault is best exposed right here in Hloubětín, where a protected rocky outcrop lets visitors see something that normally stays hidden underground: rocks of two completely different ages sitting directly next to each other at the same surface level, because one side of the fault has shifted relative to the other by hundreds of metres over deep geological time. Here specifically, Skalec quartzites from the Zahořany Formation meet clayey shales of the Dobrotivá Formation, a juxtaposition that only makes sense once you know a fault runs directly between them.
+
+The fault itself was active during the Ordovician and Silurian periods, with a vertical displacement of some 900 metres accumulating along it during the Ordovician alone, and it played a genuinely important structural role in shaping the wider Prague Basin as a whole.
+
+🎁 Bonus: Standing at this outcrop means standing on two different geological eras at once, separated by 900 vertical metres of movement that took place hundreds of millions of years before Prague, Bohemia, or humans of any kind existed to name any of it.`,
+
+      cz: `Vítej u Pražského zlomu, šedesátikilometrové trhliny v zemské kůře táhnoucí se od Berouna až po pražské Kyje — geologického jevu tak tiše obřího, že většina obyvatel Hloubětína denně přechází přímo přes 900 metrů svislého posunu hornin, aniž by si čehokoliv pod nohama vůbec všimla.
+
+Zlom je nejlépe odkryt právě tady, v Hloubětíně, kde chráněný skalní útvar dovoluje návštěvníkům spatřit něco, co obvykle zůstává skryto pod zemí: horniny dvou naprosto odlišných stáří ležící přímo vedle sebe na stejné úrovni povrchu, protože se jedna strana zlomu vůči druhé v hlubokém geologickém čase posunula o stovky metrů. Právě zde se setkávají skalecké křemence zahořanského souvrství s jílovitými břidlicemi dobrotivského souvrství — sousedství, které dává smysl, teprve když víte, že mezi nimi vede zlom.
+
+Zlom samotný byl aktivní v ordoviku a siluru, přičemž jen během ordoviku se podél něj nahromadil svislý posun kolem 900 metrů, a sehrál skutečně důležitou strukturní roli při utváření celé pražské pánve.
+
+Bonus: Stát na tomto výchozu znamená stát na dvou různých geologických érách zároveň, oddělených 900 svislými metry posunu, k němuž došlo stovky milionů let předtím, než vůbec existovala Praha, Čechy nebo jakýkoliv člověk, který by cokoliv z toho pojmenoval.`,
+
+      zh: `欢迎来到布拉格断层，一道从贝劳恩一直延伸到布拉格基耶、长达60公里的地壳裂缝——这个地质构造安静得如此庞大，以至于大多数生活在赫罗贝京的居民每天径直踏过900米垂直位移的岩层，脚下的一切早已错动，却浑然不觉。
+
+这道断层在这里、赫罗贝京，得到了最好的地表暴露：一处受保护的岩石露头，让游客得以看见通常深埋地下、无缘得见的景象——两种年代截然不同的岩石，直接并排出现在同一地表高度上，因为断层的一侧相对另一侧，在漫长的地质年代里发生了数百米的错动。就在这里，扎霍拉尼组的斯卡莱茨石英岩与多布罗蒂瓦组的泥质页岩相遇——这种看似奇怪的相邻，只有在你知道它们之间贯穿着一道断层时，才真正说得通。
+
+这道断层本身活跃于奥陶纪和志留纪，仅在奥陶纪期间，沿断层就累积了大约900米的垂直位移，并在塑造整个布拉格盆地的构造格局中，发挥了真正重要的作用。
+
+彩蛋：站在这处露头上，就等于同时站在两个不同的地质时代之上，两者之间隔着900米的垂直错动——而这一切，都发生在布拉格、波希米亚，乃至任何能给它们命名的人类，出现之前的数亿年。`,
+    },
+  },
+  {
+    name: 'Slaný',
+    slug: 'slany',
+    localizedNames: { cz: 'Slaný', zh: '斯拉尼' },
+    labels: ['village-and-town', 'historical'],
+    coordinates: { lat: 50.230792006860035, lng: 14.087144508392937 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Slan%C3%BD',
+    description: {
+      en: `Welcome to Slaný, a royal Czech town whose very name means "salty" — because, according to legend, it was founded directly on top of a salt spring, which is either a wonderfully literal piece of medieval town planning or the single most on-the-nose place name in all of Bohemia.
+
+Archaeological finds confirm settlement here going back to the Old Stone Age, with a more substantial community established by the 8th and 9th centuries on the slopes of Slánská hora. Benedictine monks founded a hospital here in 1136 alongside a church dedicated to St. Gothard, and Slaný's first written record follows in 1262, when King Přemysl Otakar II listed it among the towns owing a ninth share of market fees to the Convent of St. George at Prague Castle.
+
+Full town status came sometime in the decade after 1295, when King Wenceslaus II granted Slaný a charter along with Magdeburg rights, formally founding it as a royal town at the very start of the 14th century — a status that, according to legend, traces all the way back to a single salt spring at the foot of the hill that gave the town both its water supply and its name.
+
+🎁 Bonus: A town whose entire founding legend rests on a spring of salty water has spent nearly nine centuries as a royal town, a market town, and a modern Czech city — arguably making Slaný one of the very few places in Bohemia whose name has never once needed explaining.`,
+
+      cz: `Vítej ve Slaném, českém královském městě, jehož název doslova znamená „slané" — protože podle pověsti bylo založeno přímo nad slaným pramenem, což je buď skvěle doslovný kus středověkého urbanismu, nebo nejnápadnější místní jméno v celých Čechách.
+
+Archeologické nálezy potvrzují osídlení tohoto místa už od starší doby kamenné, přičemž výraznější osada tu vznikla v 8. a 9. století na svazích Slánské hory. Benediktinští mniši zde v roce 1136 založili nemocnici spolu s kostelem zasvěceným svatému Gothardovi, a první písemná zmínka o Slaném následuje v roce 1262, kdy král Přemysl Otakar II. jmenuje město mezi těmi, které odvádějí devátý díl tržních poplatků kláštera svatého Jiří na Pražském hradě.
+
+Plný statut města přišel někdy v desetiletí po roce 1295, kdy král Václav II. udělil Slanému listinu spolu s magdeburským právem a formálně jej založil jako královské město na samém počátku 14. století — statut, který podle pověsti sahá až k jedinému slanému prameni pod horou, jenž městu dal jak zásobování vodou, tak jeho jméno.
+
+Bonus: Město, jehož celá zakladatelská pověst stojí na prameni slané vody, prošlo za necelých devět století fází královského města, tržního městečka i moderního českého města — díky čemuž je Slaný pravděpodobně jedním z mála míst v Čechách, jehož jméno nikdy nebylo třeba nikomu vysvětlovat.`,
+
+      zh: `欢迎来到斯拉尼，一座捷克皇家小镇，它的名字本身就是"咸"的意思——因为根据传说，这座城镇正是建在一处盐泉之上，这要么是中世纪城镇规划里一次极其直白的操作，要么是波希米亚境内最"名副其实"的地名。
+
+考古发现证实，这里的定居历史可以追溯到旧石器时代，到公元8、9世纪，斯兰斯卡山山坡上已经形成了规模更大的聚落。本笃会修士于1136年在这里建立了一座医院，并附设了一座供奉圣戈塔尔德的教堂，斯拉尼的首次文字记载随后出现在1262年，当时国王普热美斯尔·奥托卡二世将它列入向布拉格城堡圣乔治修道院缴纳九分之一市场税的城镇名单之中。
+
+完整的城镇地位则出现在1295年之后的那十年间，瓦茨拉夫二世国王授予斯拉尼特许状及马格德堡法权，正式将其确立为14世纪初的一座皇家城镇——而根据传说，这一切都可以追溯到山脚下的一处盐泉，正是它，既为城镇提供了水源，也赋予了它的名字。
+
+彩蛋：一座整个建城传说都建立在一处咸水泉之上的城镇，近九个世纪以来先后经历了皇家城镇、集市小镇，直到今天的现代捷克城市——这大概让斯拉尼成为波希米亚境内为数不多、从来都不需要向人解释自己名字由来的地方之一。`,
+    },
+  },
+  {
+    name: 'Ranger Prague Shooting Range',
+    slug: 'ranger-prague-shooting-range',
+    localizedNames: { cz: 'RANGER PRAGUE Shooting Range', zh: 'Ranger Prague射击场' },
+    labels: ['modern'],
+    coordinates: { lat: 50.07148582000265, lng: 14.432019165565881 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to Ranger Prague Shooting Range, a 70,000-square-metre outdoor complex run by former Czech Army and police veterans — the kind of place where a total beginner and someone with two decades of combat experience can, at least for one afternoon, stand at the same firing line.
+
+Founded by veterans of the Czech Army and police forces with more than twenty years of combined combat experience, tactical training, and personal-protection work, Ranger Prague has operated its facilities since 2019. The outdoor complex here is the largest shooting range in the entire Czech Republic, spread across 70,000 square metres with four separate open-air ranges spanning distances from 25 to 500 metres — enough room to accommodate essentially any type of firearm under realistic conditions.
+
+For the general public, the range runs introductory experience-shooting courses focused on safety, basic weapon handling, and the fundamentals of the sport — sessions designed as a first step for anyone considering further training toward an actual firearms licence, rather than a one-off novelty shoot.
+
+🎁 Bonus: A single afternoon here can take a complete first-timer from never having held a firearm to standing on the same 70,000-square-metre range used for professional tactical training — a considerably steeper on-ramp than most hobbies offer on day one.`,
+
+      cz: `Vítej v Ranger Prague Shooting Range, 70 000 metrů čtverečních velké venkovní střelnici provozované veterány české armády a policie — na místě, kde si na jedno odpoledne může stoupnout ke stejné palebné čáře úplný začátečník i člověk s dvacetiletou bojovou zkušeností.
+
+Ranger Prague založili veteráni české armády a policejních sborů s víc než dvacetiletou kombinovanou bojovou zkušeností, taktickým výcvikem a prací v osobní ochraně, a svá zařízení provozují od roku 2019. Venkovní areál je největší střelnicí v celé České republice, rozprostírá se na ploše 70 000 metrů čtverečních se čtyřmi samostatnými venkovními střelnicemi o vzdálenostech od 25 do 500 metrů — dost prostoru na to, aby pojal v podstatě jakýkoliv typ zbraně v realistických podmínkách.
+
+Pro širokou veřejnost areál pořádá úvodní zážitkové střelecké kurzy zaměřené na bezpečnost, základní manipulaci se zbraní a základy sportu — kurzy koncipované jako první krok pro každého, kdo uvažuje o dalším výcviku směřujícím ke skutečné zbrojní licenci, nikoliv jako jednorázová atrakce.
+
+Bonus: Jedno jediné odpoledne tu dokáže dostat úplného nováčka, který nikdy v ruce nedržel zbraň, na stejnou 70 000 metrů čtverečních velkou střelnici, jaká slouží profesionálnímu taktickému výcviku — podstatně strmější nástup, než nabízí většina koníčků hned první den.`,
+
+      zh: `欢迎来到Ranger Prague射击场，一座占地7万平方米的户外靶场综合体，由捷克陆军与警察部队的退役老兵运营——在这里，一个从没摸过枪的新手，和一位拥有二十年实战经验的老兵，至少在同一个下午，可以站在同一条射击线上。
+
+Ranger Prague由捷克陆军和警察部队的退役老兵创办，团队合计拥有二十多年的实战经验、战术训练与人身保护工作经历，自2019年起运营各项设施。这里的户外靶场综合体是整个捷克规模最大的射击场，占地7万平方米，设有四条独立的户外靶道，射击距离从25米到500米不等——足够容纳几乎任何类型的枪械，在贴近实战的条件下进行训练。
+
+面向普通公众，靶场开设体验式射击入门课程，聚焦安全操作、基本枪械操作和这项运动的基础知识——这些课程被设计为第一步，供任何考虑进一步接受训练、最终考取正式持枪证的人使用，而不是一次性的猎奇体验。
+
+彩蛋：在这里，短短一个下午，就足以让一个从未握过枪的完全新手，站上与专业战术训练同一片7万平方米的靶场——这样的入门"陡坡"，比大多数爱好第一天所能提供的，要陡峭得多。`,
+    },
+  },
+  {
+    name: 'Hloubětín Chateau',
+    slug: 'hloubetinsky-zamek',
+    localizedNames: { cz: 'Hloubětínský zámek', zh: '赫罗贝京城堡' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.10308003610778, lng: 14.534168811198361 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hloub%C4%9Bt%C3%ADn_(z%C3%A1mek)',
+    description: {
+      en: `Welcome to Hloubětín Chateau, a building that has been a Knights Hospitaller estate, a Swedish-torched medieval manor, a lawyer's villa, a neo-Gothic fantasy, a Communist youth club, and — since 2005 — the site of the very first baby box ever installed in the Czech Republic. It has, genuinely, done everything.
+
+An extensive estate belonging to the Knights Hospitaller stood on this site as early as 1480, built over an even older medieval fortified manor that Swedish troops burned down in 1648 during the Thirty Years' War. The site stayed quiet for centuries afterward, until the 1870s, when lawyer Václav Linhart bought the land and built himself a neo-Baroque family villa — a building later reworked by owner František Sedláček into something closer to a neo-Gothic castle, and further embellished by nobleman Vladimír Židlický, who added a self-designed coat of arms to the façade along with a gatehouse and battlemented defensive wall.
+
+Before the Second World War the chateau belonged to Prague's Jewish community, who lost it to expropriation during the Nazi occupation. After the war it cycled through a carpentry workshop, a warehouse, and, from 1969, a house of pioneers for Communist youth groups, before being restored to the Jewish community in 1990 and leased to a private gynaecological clinic. On 1 June 2005, that clinic installed the very first baby box in the Czech Republic here — a quiet, practical piece of history added to a building that had already collected several centuries' worth of it.
+
+🎁 Bonus: A building constructed to defend a medieval estate now houses, at its actual entrance, a small heated box designed to save a newborn's life anonymously and without a single question asked — arguably the single gentlest use this particular structure has ever been put to.`,
+
+      cz: `Vítej u Hloubětínského zámku, budovy, která byla řádovým panstvím johanitů, švédy vypáleným středověkým tvrzištěm, advokátovou vilou, novogotickou fantazií, domem pionýrů — a od roku 2005 místem, kde byl instalován úplně první babybox v České republice. Tahle budova skutečně zvládla úplně všechno.
+
+Na tomto místě stálo už v roce 1480 rozsáhlé panství řádu johanitů, vybudované nad ještě starší středověkou tvrzí, kterou za třicetileté války v roce 1648 vypálili švédští vojáci. Místo pak zůstalo po staletí v klidu, dokud v 70. letech 19. století advokát Václav Linhart nekoupil pozemek a nepostavil si tu novobarokní rodinnou vilu — budovu později přestavěl majitel František Sedláček do podoby bližší novogotickému zámku a dál ji ozdobil šlechtic Vladimír Židlický, který na fasádu přidal vlastnoručně navržený erb spolu s branskou věží a cimbuřovou hradbou.
+
+Před druhou světovou válkou zámek patřil pražské židovské obci, která o něj přišla vyvlastněním za nacistické okupace. Po válce prošel truhlářskou dílnou, skladem a od roku 1969 sloužil jako dům pionýrů, než byl v roce 1990 vrácen židovské obci a pronajat soukromé gynekologické klinice. 1. června 2005 tato klinika instalovala vůbec první babybox v České republice — tichý a praktický kus historie přidaný k budově, která jich už předtím nasbírala několik staletí.
+
+Bonus: Budova postavená k obraně středověkého panství dnes u svého vlastního vchodu ukrývá malou vyhřívanou schránku určenou k tomu, aby anonymně a bez jediné otázky zachránila život novorozence — pravděpodobně nejněžnější účel, jakému tahle konkrétní stavba kdy sloužila.`,
+
+      zh: `欢迎来到赫罗贝京城堡，这座建筑曾经是医院骑士团的领地、被瑞典人烧毁的中世纪要塞、一位律师的别墅、一场新哥特式的幻想、一座少先队活动中心——自2005年起，这里又成了捷克共和国第一个"婴儿保温箱"的安放地。这座建筑，几乎经历了一切。
+
+早在1480年，医院骑士团的一座庞大领地就矗立在这个地点，其地基之下，则是一座更古老的中世纪要塞，1648年三十年战争期间，被瑞典军队付之一炬。此后这里安静了几个世纪，直到19世纪70年代，律师瓦茨拉夫·林哈特买下这片土地，为自己建造了一座新巴洛克式家族别墅——后来的业主弗朗齐歇克·塞德拉切克，把它改建成更接近新哥特式城堡的样子，贵族弗拉基米尔·日德利茨基又为其增添了装饰：一面他亲自设计的纹章、一座门楼，以及一道带雉堞的防御墙。
+
+二战之前，这座城堡属于布拉格犹太社区，纳粹占领期间被没收充公。战后，它先后被用作木工作坊、仓库，自1969年起又成为一座供共产主义青年团体使用的"少先队之家"，直到1990年归还给犹太社区，随后出租给一家私立妇科诊所。2005年6月1日，这家诊所在此安装了捷克共和国历史上第一个"婴儿保温箱"——为这座早已积累了数百年历史的建筑，又添上了安静而实用的一笔。
+
+彩蛋：一座本为守卫中世纪领地而建的建筑，如今在自己的正门旁，安置着一个小小的恒温保温箱，专门用来匿名、无需回答任何问题地挽救一个新生儿的生命——这大概是这座建筑有史以来，被赋予过的最温柔的一项用途。`,
+    },
+  },
+  {
+    name: 'Čakovice District Office',
+    slug: 'urad-mc-praha-cakovice',
+    localizedNames: { cz: 'Úřad Městské Části Praha-Čakovice', zh: '布拉格查科维采区政府办公楼' },
+    labels: ['municipal', 'historical'],
+    coordinates: { lat: 50.15122398436812, lng: 14.52486163679657 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to the Čakovice District Office, a building that started life in 1887 looking after the children of sugar-factory workers — and has, over more than a century, quietly swapped one kind of civic duty for another, ending up as the place where the district's actual paperwork now gets done.
+
+The building was constructed in 1887 specifically as a shelter for the children of employees at the nearby Čakovice sugar factory, founded decades earlier by Baron Alexander Schoeller — a piece of genuine industrial-era welfare infrastructure, built by a factory owner to look after workers' families rather than just their labour.
+
+Over the following century, the building's purpose shifted entirely, moving from childcare to civic administration, and it now serves as the seat of the Prague-Čakovice district office, handling the day-to-day municipal business of the neighbourhood the sugar factory once dominated. The factory itself is long gone, but the small welfare building it left behind quietly outlasted it, still standing at the centre of the same community.
+
+🎁 Bonus: A building built to care for sugar-factory workers' children has ended up, a century later, filling out the paperwork for their descendants instead — arguably the most low-key possible continuity a single address can maintain across five generations.`,
+
+      cz: `Vítej u Úřadu městské části Praha-Čakovice, budovy, která v roce 1887 začínala péčí o děti zaměstnanců cukrovaru — a za víc než sto let potichu vyměnila jeden druh občanské služby za jiný, až skončila jako místo, kde se dnes vyřizuje skutečná úřední agenda čtvrti.
+
+Budova byla postavena v roce 1887 konkrétně jako útulek pro děti zaměstnanců nedalekého čakovického cukrovaru, založeného o desetiletí dříve baronem Alexandrem Schoellerem — skutečný kus sociální infrastruktury industriální éry, postavený majitelem továrny k péči o rodiny dělníků, ne jen o jejich práci.
+
+Během následujícího století se účel budovy zcela proměnil, od péče o děti k občanské správě, a dnes slouží jako sídlo úřadu městské části Praha-Čakovice, vyřizující každodenní úřední agendu čtvrti, které kdysi vévodil cukrovar. Samotný cukrovar je už dávno pryč, ale malá sociální budova, kterou po sobě zanechal, jej tiše přežila a dodnes stojí uprostřed té samé komunity.
+
+Bonus: Budova postavená k péči o děti zaměstnanců cukrovaru dnes o sto let později vyřizuje úřední papíry jejich potomkům — pravděpodobně nejtišší možná kontinuita, jakou může jedna jediná adresa udržet napříč pěti generacemi.`,
+
+      zh: `欢迎来到布拉格查科维采区政府办公楼，这座建筑始建于1887年，最初是照顾糖厂工人子女的场所——一百多年间，它悄悄把一种公共服务换成了另一种，最终变成了如今这个街区真正处理行政事务的地方。
+
+这座建筑建于1887年，最初专门作为附近查科维采糖厂员工子女的托管场所而建，而这家糖厂早在几十年前，就由亚历山大·舍勒男爵创办——这是工业时代真正意义上的一项福利基础设施，由工厂主出资建造，用来照顾工人的家庭，而不仅仅是他们的劳动力。
+
+在此后的一个世纪里，这座建筑的用途彻底转变，从儿童托管变成了行政管理，如今它是布拉格查科维采区政府的所在地，处理着这个曾经由糖厂主导的街区里，日常的市政事务。糖厂本身早已不复存在，但它留下的这座小小的福利建筑，却悄悄地比它活得更久，至今仍矗立在同一个社区的中心。
+
+彩蛋：一座本为照顾糖厂工人子女而建的建筑，一个世纪后，却转而为这些工人的后代处理各种行政文件——这大概是同一个地址，能够跨越五代人保持下来的最不动声色的一种延续。`,
+    },
+  },
+  {
+    name: 'Čakovice Chateau',
+    slug: 'zamek-cakovice',
+    localizedNames: { cz: 'Zámek Čakovice', zh: '查科维采城堡' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.15181238221646, lng: 14.521516988956265 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C4%8Cakovice_(z%C3%A1mek)',
+    description: {
+      en: `Welcome to Čakovice Chateau, a building whose floor plan literally spells out its own architectural history — a Baroque-then-Classicist "E" shape wrapped around a medieval core — and which now spends its days hosting art lessons, library patrons, and other people's weddings instead of Bohemian nobility.
+
+A fortified manor is first documented on this exact site in 1409, though it was devastated during the Thirty Years' War and had to be substantially rebuilt afterward. Between 1773 and 1785, owner Antonie z Klebelsberku expanded the older structure into a proper chateau with an adjoining park, and the building picked up High Baroque flourishes during the 17th century before settling into its present, Classicism-influenced form in the 18th — its floor plan reshaped, at some point, into a distinctive letter-E, with the central wing forming the structural core of the whole complex.
+
+The chateau took its definitive Classicist appearance after industrialist Alexander Schoeller bought both the building and the surrounding village in 1849, rebuilding it thoroughly and redesigning the park with a pond — today part of the local fishing preserve — and a pool with its own garden gazebo. That version of the building has essentially survived intact: today the chateau serves as the district's cultural centre, home to an elementary art school, the local public library, and a ceremonial hall used for weddings and civic ceremonies.
+
+🎁 Bonus: A building whose ground plan literally traces the letter E has, four centuries after its first fortified version was recorded, ended up hosting art classes and wedding vows in roughly the same rooms where an industrialist once entertained guests beside his own private pond and garden gazebo.`,
+
+      cz: `Vítej u Čakovického zámku, budovy, jejíž půdorys doslova vypráví vlastní architektonické dějiny — barokně-klasicistní písmeno „E" obalené kolem středověkého jádra — a která dnes tráví dny hostěním výtvarných kroužků, čtenářů knihovny a cizích svateb místo české šlechty.
+
+Tvrz je na tomto přesném místě poprvé doložena k roku 1409, i když byla za třicetileté války zpustošena a poté musela být zásadně přestavěna. Mezi lety 1773 a 1785 majitelka Antonie z Klebelsberku rozšířila starší stavbu na skutečný zámek s přilehlým parkem, a budova během 17. století získala prvky vrcholného baroka, než se v 18. století ustálila na dnešní podobě ovlivněné klasicismem — její půdorys se v určitém okamžiku proměnil na výraznou podobu písmene „E", přičemž prostřední trakt tvoří konstrukční jádro celého komplexu.
+
+Definitivní klasicistní podobu získal zámek poté, co jej i s celou vesnicí v roce 1849 koupil průmyslník Alexandr Schoeller, který jej důkladně přestavěl a znovu navrhl park s rybníkem — dnes součástí místního rybářského revíru — a bazénem s vlastním zahradním altánem. Tahle podoba budovy se v podstatě zachovala dodnes: zámek dnes slouží jako kulturní centrum městské části, sídlí v něm základní umělecká škola, místní veřejná knihovna a obřadní síň využívaná pro svatby a občanské obřady.
+
+Bonus: Budova, jejíž půdorys doslova opisuje písmeno E, dnes — čtyři století po první zaznamenané tvrzi na tomto místě — hostí výtvarné kroužky a svatební sliby zhruba ve stejných místnostech, kde kdysi průmyslník bavil hosty u vlastního soukromého rybníka a zahradního altánu.`,
+
+      zh: `欢迎来到查科维采城堡，这座建筑的平面布局本身，就写下了它自己的建筑史——一个巴洛克风格后来又变成古典主义的"E"字形，包裹着一座中世纪的核心——如今，它每天迎来的不再是波希米亚贵族，而是美术课、图书馆读者，以及别人的婚礼。
+
+1409年，这个确切的地点首次被记载为一座设防庄园，尽管它在三十年战争期间遭到严重破坏，此后不得不进行大规模重建。1773年至1785年间，业主安东尼·冯·克莱贝尔斯贝克将这座老建筑扩建为一座真正的城堡，并配有一座附属花园，17世纪，建筑又增添了盛期巴洛克风格元素，直到18世纪才最终定型为如今这种带有古典主义影响的样式——它的平面布局在某个时期，被改造成了鲜明的"E"字形，中央一翼构成了整个建筑群的结构核心。
+
+城堡获得如今这副最终的古典主义面貌，是在1849年实业家亚历山大·舍勒买下这座建筑连同整座村庄之后——他对城堡进行了彻底重建，并重新设计了花园，加入了一座池塘（如今属于当地渔业保护区的一部分），以及一座配有自家花园凉亭的泳池。这一版本的建筑，基本上完整保存至今：如今城堡是这个区的文化中心，馆内设有一所艺术小学、当地公共图书馆，以及一间用于举办婚礼与民事仪式的礼堂。
+
+彩蛋：一座平面布局字面意义上勾勒出字母"E"的建筑，在这里首次被记载为设防庄园的四百年后，如今在大致相同的房间里，迎接着美术课程与婚礼誓言——而在过去，这里迎接的，是一位实业家在自家私人池塘与花园凉亭旁款待宾客的场景。`,
     },
   },
 ];

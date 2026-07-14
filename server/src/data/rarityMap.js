@@ -431,6 +431,147 @@ export const SLUG_RARITY = {
   'hrad-cerveny-ujezd':            'rare',  // 2001-02 replica knight's fortress over a genuine 10th-c fortified manor site
   'kladno':                        'epic',  // Poldi steelworks rise (1889) and infamous 1996-97 post-privatisation collapse
   'stare-mesto-unhost':            'superior', // 13th-c resettlement town, unique triangular main square, oldest CZ school (1379)
+
+  // ── Václavské náměstí batch (2026-07) ───────────────────────────────────
+  'melantrich':                    'epic',  // Palác Hvězda, Havel/Dubček's Velvet Revolution balcony
+  'wiehluv-dum':                   'superior', // Neo-Renaissance, Mikoláš Aleš sgraffito murals
+  'palac-euro':                    'rare',  // 2002 award-winning glass infill, 20yr vacant lot
+  'palac-generali':                'superior', // 1898 Art Nouveau, Kafka worked here 1907-08
+  'adamova-lekarna':               'rare',  // working Art Nouveau pharmacy, Emil Králíček facade
+  'obchodni-dum-ceskeho-svazu-vyrobnich-druzstev': 'common', // Brutalist "Družba" department store, 1971-76
+  'diamant-house':                 'common', // 2013 LEED Gold glass infill, not the Cubist Diamant
+  'hotel-julis':                   'epic',  // 1933 Janák functionalist landmark, cinema in basement
+  'darex':                         'common', // 1893 facade over 1994 rebuild, medieval paving found
+  'palac-fenix':                   'epic',  // 1930 functionalist, columnless Vierendeel-truss cinema hall
+  'pomnik-josefa-jungmanna':       'rare',  // 1878 monument to Czech National Revival lexicographer
+  'palac-adria':                   'epic',  // 1925 rondocubist icon, Civic Forum HQ in basement 1989
+  'batuv-palac':                   'epic',  // 1929 Bata glass palace, first CZ high-speed elevator
+  'mottluv-dum':                   'rare',  // 1906 Art Nouveau house, vacant for years, restored 2019
+  'kvetinovy-dum':                 'common', // 2020s glass infill, aka The Flow Building, "Las Vegas" lighting
+
+  // ── Na Příkopě / New Town batch (2026-07) ───────────────────────────────
+  'dum-diamant':                   'epic',  // 1912-13, the genuine Cubist icon on Lazarská
+  'kasna-se-sochou-svateho-josefa': 'rare', // 1697-98 plague column, Karlovo náměstí
+  'masarykovo-nabrezi':            'superior', // riverside boulevard, renamed 5x incl. Heydrich Ufer
+  'pomnik-aloise-jiraska':         'rare',  // 1940-designed/1960-unveiled Pokorný statue, Jiráskovo nám.
+  'palac-sylva-taroucca':          'superior', // only palace wholly attributable to K.I. Dientzenhofer
+  'slovansky-dum':                 'superior', // Deutsches Kasino 1875-1945, renamed Slovanský dům
+  'detsky-dum-praha':              'rare',  // 1929 Kysela building, Adolf Loos perfumery interior
+  'videnska-bankovni-jednota':     'rare',  // 1906-08 Josef Zasche Art Nouveau bank, Na Příkopě
+  'mango-building':                'common', // 1894-96 Neo-Baroque, athlete-flanked entrance
+  'cerna-ruze':                    'superior', // 1929-32 Oldřich Tyl functionalist passage
+  'palac-myslbek':                 'common', // 1994-96 post-revolution commercial building
+  'palac-zivnostenske-banky-nekazanka': 'superior', // 1868 first Czech-capital bank, Braun portal
+  'ovocny-trh':                    'rare',  // 13th-c market square, renamed 3x before "fruit"
+  'haasuv-obchodni-dum':           'epic',  // 1871, Prague's first modern department store
+  'ceska-eskomptni-banka':         'rare',  // 1863 bank, Nazi-seized, later KB HQ, now Trinity Bank
+  'divadlo-broadway':              'common', // 1938 cinema, renamed Sevastopol under communism
+  // ── Old Town / Melantrichova batch (2026-07) ────────────────────────────
+  'panska-pasaz':                  'common', // ex-Rathova pasáž, renamed 2010, first CZ men's shopping zone
+  'dum-u-dvou-zlatych-medvedu':    'superior', // Renaissance portal, Museum of Prague branch, Kisch birthplace
+  'melantrichova':                 'rare',  // street renamed 4x, home of printer Melantrich since 1567
+  'dum-u-peti-korun':              'rare',  // 1364, late-Renaissance rebuild, Karel Škréta's sister owned it
+  'sex-machines-museum':           'rare',  // 2002, only museum of its kind, city officials complained
+  'muzeum-utrpneho-prava-a-mucicich-nastroju': 'rare', // Romanesque/Gothic cellars, Celetná St.
+  'dum-u-lazara':                  'epic',  // 1366-83 first seat of Charles University's founding college
+
+  // ── Havelské tržiště / Michalská batch (2026-07) ────────────────────────
+  'havelske-trziste':              'superior', // 1232, last surviving medieval marketplace in old Prague
+  'wimmerova-kasna':               'rare',  // 1797 fountain, relocated 5 times, settled at Uhelný trh 1951
+  'kostel-svateho-michaela-archandela-stare-mesto': 'superior', // 1150-1200 Romanesque, deconsecrated 1789
+  'michalska':                     'common', // "riddled with seven holes", named for St. Michael's church
+  'dum-u-zlateho-melounu':         'rare',  // 1401/1407 origins, Linka dance school from 1828
+  'kostel-svate-vorsily':          'superior', // 1702-04 High Baroque, funded partly by F.A. Špork
+  'hollar':                        'rare',  // Charles Univ. FSV building, ex-Hollar printmakers' society
+  'dlouha':                        'superior', // 10th-c trade route, name literally means "Long", Roxy club
+  'kostel-svateho-michaela-archandela-podoli': 'superior', // 1222 first mention, Vyšehrad chapter property
+  'dum-u-zlateho-stromu':          'rare',  // 1586-1608 Renaissance house, brewery, later VÚMS workplace
+  'dum-zlaty-kriz':                'rare',  // 1906 rebuild, Old Town Square, funeral home use from 1939
+  'dum-u-zlateho-slona':           'epic',  // 1945 Prague Uprising HQ, Czech National Council order issued here
+  'dum-obchodnickeho-spolku-merkur': 'superior', // 1903-04 Vejrych, Mercury head relief, Pařížská street
+
+  // ── Revoluční / Štefánikův most batch (2026-07) ─────────────────────────
+  'revolucni':                     'rare',  // Old Town/New Town boundary street, 1617 "muddy ditch"
+  'palac-batex':                   'epic',  // First Republic's leading LGBT venue, 1928-29
+  'palac-merkur':                  'rare',  // 1934-36 Fragner, unbuilt mirror-image twin
+  'stefanikuv-most':               'superior', // renamed 4x tracking 20th-c regime changes
+  'hotel-kings-court-hilton-old-town': 'superior', // Wenceslas IV royal palace site turned hotel
+
+  // ── Národní / Dlouhá batch (2026-07) ────────────────────────────────────
+  'roxy-prague':                   'rare',     // 1927 cinema turned legendary post-1989 nightclub, NoD upstairs
+  'divadlo-v-dlouhe':              'superior', // 1929 playhouse, six name changes, ex-Divadlo Jiřího Wolkera
+  'slovansky-ostrov':              'common',   // Žofín island park, Wagner/Smetana concert history, central and visited
+  'kostel-sv-michala-v-jircharich': 'epic',    // deconsecrated 1115 church, still active Evangelical prayer house
+  'pamatnik-sametove-revoluce':    'rare',     // bronze hands memorial, Národní třída, Velvet Revolution spark site
+  'palac-dunaj':                   'epic',     // 1930 Foehr palace, working 1936 paternoster lift
+  'praha-vrsovice-nadrazi':        'superior', // 1882 Neo-Renaissance station, Prague Uprising command post
+
+  // ── Vršovice / Prague 10 batch (2026-07) ────────────────────────────────
+  'vrsovicka-zalozna':             'superior', // 1911-12 Balšánek/Polívka Art Nouveau credit union, Obecní dům circle
+  'kostel-sv-mikulase-vrsovice':   'rare',     // parish roots to 1028, current Baroque church dates to 1704
+  'kubanske-namesti':              'common',   // 1930s square, named for Cuban Revolution 1961-1991
+  'justicni-areal-na-micankach':   'epic',     // largest CZ courts complex, ex-cavalry barracks, 16th-c noblewoman namesake
+  'multifunkcni-budova-vlasta-praha-10': 'rare', // 1976 Prague 10 town hall, vacated 2023, slated for demolition
+  'sidliste-vlasta':               'superior', // 1968-72 estate for Milovice evacuees, Central Asian republic street names
+  'ministerstvo-zivotniho-prostredi': 'common', // est. 1 Jan 1990, one of first new post-communist ministries
+
+  // ── Libuš batch (2026-07) ────────────────────────────────────────────────
+  'libusska-prehrada':             'common', // 1980s flood-control reservoir, Modřanská rokle nature monument
+
+  // ── Malešice batch (2026-07) ─────────────────────────────────────────────
+  'byty-malesice':                 'rare',     // 1961 estate, Khrushchev's 1964 rooftop dance visit
+  'penzion-malesice':              'common',   // 1971 svobodárna turned guesthouse, closed 2013, flats planned
+  'spalovna-malesice':             'rare',     // ZEVO waste-to-energy plant, GOLEM overhaul 2018-23
+  'malesicky-park':                'common',   // 8.8ha 1970 park, 2011-13 wheelchair-accessible rebuild
+  'jiraskova-vila-malesice':       'superior', // farmstead to industrialist's castle to botanical garden
+  'malesicky-viadukt':             'rare',     // 1931-36 freight viaduct, line closed after 2019 accident
+  'milicova-modlitebna':           'rare',     // 1950-52 evangelical prayer house, Bohumil Bareš
+  'kaple-sv-vaclava-malesice':     'rare',     // 1765 Baroque chapel, now Canevalle Gallery
+  'vyklenkova-kaple-malesice':     'superior', // 1757 niche chapel, same year as Battle of Štěrboholy
+  'usedlost-cp-11-malesice':       'rare',     // 1687 farmstead restituted 1990, now Hotel Baroko
+
+  // ── Strašnice batch (2026-07) ────────────────────────────────────────────
+  'strasnicke-divadlo':            'superior', // 1961 estate cultural house, home of Cimrman Theatre 1983-92
+  'cervenkova-kaple':              'rare',     // mid-19th-c chapel, mayor's memorial to wife who died nursing 1848 wounded
+  'becvaruv-dvur':                 'superior', // last surviving Strašnice farmstead, 2019 restitution lawsuit
+  'zakladni-skola-v-olsinach':     'superior', // 1909 Art Nouveau school, 1945 Uprising HQ, derelict 2009-2022
+  'strasnicka-stanice-metra':      'rare',     // 1987 line-A terminus, stairs to nowhere, undersized stub tracks
+  'zakladni-skola-gutova':         'common',   // 1962 school, Václav Klaus opened the 2009 school year here
+
+  // ── Skalka / Vysočany batch (2026-07) ────────────────────────────────────
+  'skalka-stanice-metra':          'rare',     // 1990 line-A terminus until 2006, half of trains still end here
+  'fragment-berlinske-zdi-strasnice': 'epic',  // Prague's only Berlin Wall fragment, Genscher balcony connection
+  'ceskomoravska-stanice-metra':   'rare',     // line-B station, 439-day 2026 rebuild, bubble-glass redesign
+  'lidovy-dum-vysocany':           'superior', // Social Democrat hall inherited by KSČ, 1931 6th Congress
+  'vysocanska-radnice':            'rare',     // 1911 town hall left unfinished 90 years by a holdout landowner
+  'praha-vysocany-nadrazi':        'rare',     // 150yo station building demolished 2021, remote-controlled since 2023
+
+  // ── Vysočany offices / Kolbenova batch (2026-07) ─────────────────────────
+  'cesky-telekomunikacni-urad':    'rare',     // telecom regulator in a heritage-listed former ČKD admin building
+  'prazska-sprava-socialniho-zabezpeceni': 'common', // Prague-wide social security office, ex-industrial Vysočany
+  'sokolovska':                    'rare',     // Karlín-to-Vysočany street, renamed for 1836 coronation, then 1943 battle
+  'pragovka-art-district':         'epic',     // ex-ČKD/Praga car works, 50,000 workers, now artists' studios in Hall E
+  'kolbenova':                     'superior', // Nazi-era "Kolbenwerkstraße", named for Kolben who died at Theresienstadt
+  'cukrovar-vysocany':             'superior', // 1835 first Vysočany factory, Prague's first telephone line 1881
+  'afi-city-tower':                'rare',     // 75m tower on former ČKD foundry site, rooftop view to the Castle
+
+  // ── Military museums batch (2026-07) ─────────────────────────────────────
+  'klinicke-centrum-iscare':       'common',   // 1994 IVF clinic, grew into a multi-specialty medical portfolio
+  'armadni-muzeum-zizkov':         'superior', // 1929-32 Liberation Memorial museum, free entry, VHÚ Prague
+  'vojenske-technicke-muzeum-lesany': 'superior', // 700+ vehicles/tanks, ex-artillery barracks, VHÚ branch
+  'letecke-muzeum-kbely':          'epic',     // 275 aircraft, largest aviation collection in Czech Republic
+
+  // ── Kolbenova / Čakovice / Letňany batch (2026-07) ───────────────────────
+  'lofty-kolbenova':               'rare',     // ex-ČKD small-machinery workshop turned 215 loft apartments
+  'kolbenova-vila-vinohrady':      'superior', // Emil Kolben's "Red Villa", he was taken on a stretcher in 1943
+  'kaple-svateho-krize-letnany':   'rare',     // 1865 chapel-belfry hybrid, sole trace of vanished farm village
+  'kostel-svateho-remigia-cakovice': 'superior', // only Czech church dedicated to St. Remigius, Charles IV relic
+  'prazsky-zlom':                  'epic',     // 60km fault, 900m Ordovician vertical displacement, Hloubětín outcrop
+  'slany':                         'superior', // royal town since ~1300s, legendary salt-spring founding
+  'ranger-prague-shooting-range':  'common',   // 70,000m² outdoor range, largest in Czech Republic, est. 2019
+  'hloubetinsky-zamek':            'superior', // Knights Hospitaller to neo-Gothic castle to first CZ baby box (2005)
+  'urad-mc-praha-cakovice':        'rare',     // 1887 sugar-factory workers' children's shelter, now district office
+  'zamek-cakovice':                'superior', // 1409 fortified manor to E-shaped Classicist chateau, Schoeller rebuild
 };
 
 export function getRarity(slug) {
