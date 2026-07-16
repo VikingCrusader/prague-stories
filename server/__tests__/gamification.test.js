@@ -13,26 +13,56 @@ describe('calculateLevel', () => {
       [1660,  8,  'Urban Scout',           2040, 0],
       [2040,  9,  'Cartographer',          2450, 0],
       [2450,  10, 'Chronicler',            2880, 0],
-      [2880,  11, 'City Sage',             3340, 0],
-      [3340,  12, 'Old Town Regular',      3820, 0],
-      [3820,  13, 'Castle Apprentice',     4330, 0],
+      [2880,  11, 'Journeyman Traveler',   3340, 0],
+      [3340,  12, 'City Sage',             3820, 0],
+      [3820,  13, 'Old Town Regular',      4330, 0],
       [4330,  14, 'Riverside Ranger',      4850, 0],
       [4850,  15, 'Vltava Voyager',        5400, 0],
       [5400,  16, 'Bohemian Scholar',      5970, 0],
-      [5970,  17, "Alchemist's Apprentice",6560, 0],
-      [6560,  18, 'Golem Tamer',           7160, 0],
-      [7160,  19, 'Court Envoy',           7790, 0],
-      [7790,  20, 'Royal Cartographer',    8430, 0],
-      [8430,  21, 'Keeper of Secrets',     9100, 0],
-      [9100,  22, 'Guardian of the Bridge',9780, 0],
-      [9780,  23, 'Castle Sentinel',      10470, 0],
-      [10470, 24, 'Bohemian Noble',       11190, 0],
-      [11190, 25, 'Royal Chronicler',     11920, 0],
-      [11920, 26, 'Sovereign of Prague',  12660, 0],
-      [12660, 27, 'Prague Champion',      13430, 0],
-      [13430, 28, 'Guardian of the Realm',14210, 0],
-      [14210, 29, 'Immortal Wanderer',    15000, 0],
-      [15000, 30, 'Prague Legend',          null, 100],
+      [5970,  17, 'Castle Page',           6560, 0],
+      [6560,  18, "Alchemist's Apprentice",7160, 0],
+      [7160,  19, 'Golem Tamer',           7790, 0],
+      [7790,  20, 'Court Herald',          8430, 0],
+      [8430,  21, 'Royal Cartographer',    9100, 0],
+      [9100,  22, 'Keeper of Secrets',     9780, 0],
+      [9780,  23, 'Bridge Sentinel',      10470, 0],
+      [10470, 24, "Castellan's Squire",   11190, 0],
+      [11190, 25, 'Hradčany Vanguard',    11920, 0],
+      [11920, 26, 'Master Alchemist',     12660, 0],
+      [12660, 27, 'Tournament Champion',  13430, 0],
+      [13430, 28, 'Medieval Duelist',     14210, 0],
+      [14210, 29, 'Conqueror of the Vltava', 15000, 0],
+      [15000, 30, 'Charles Bridge Watchman', 15750, 0],
+      [15750, 31, 'Silver Knight',        16510, 0],
+      [16510, 32, 'Prague Paladin',       17270, 0],
+      [17270, 33, 'Knight of the Golden Lane', 18040, 0],
+      [18040, 34, 'Castellan of Hradčany', 18810, 0],
+      [18810, 35, 'Seneschal of Vyšehrad', 19590, 0],
+      [19590, 36, 'Warden of the Old Town', 20370, 0],
+      [20370, 37, 'Reeve of Nové Město',  21160, 0],
+      [21160, 38, 'Bailiff of the Realm', 21960, 0],
+      [21960, 39, 'Court Chronicler',     22760, 0],
+      [22760, 40, 'Royal Chamberlain',    23570, 0],
+      [23570, 41, 'Baron of the Vltava',  24380, 0],
+      [24380, 42, 'Viscount of Malá Strana', 25200, 0],
+      [25200, 43, 'Count of Bohemia',     26020, 0],
+      [26020, 44, 'Count Palatine',       26850, 0],
+      [26850, 45, 'Marquess of Vyšehrad', 27690, 0],
+      [27690, 46, 'Margrave of Moravia',  28530, 0],
+      [28530, 47, 'Landgrave of Karlštejn', 29380, 0],
+      [29380, 48, 'Burgrave of the Castle', 30230, 0],
+      [30230, 49, 'Duke of Malá Strana',  31090, 0],
+      [31090, 50, 'Archduke of Prague',   31960, 0],
+      [31960, 51, 'Grand Elector',        32830, 0],
+      [32830, 52, 'Prince of Bohemia',    33710, 0],
+      [33710, 53, 'Crown Prince of the Realm', 34590, 0],
+      [34590, 54, 'King of the Vltava',   35480, 0],
+      [35480, 55, 'High King of Bohemia', 36370, 0],
+      [36370, 56, 'Holy Roman Emperor',   37270, 0],
+      [37270, 57, 'Immortal Wanderer',    38180, 0],
+      [38180, 58, 'Eternal Watchman of Prague', 39090, 0],
+      [39090, 59, 'Mythic Sovereign',     40000, 0],
+      [40000, 60, 'Prague Legend',          null, 100],
     ];
 
     test.each(cases)('xp=%i → level %i "%s"', (xp, level, title, nextLevelXP, progress) => {
@@ -71,9 +101,9 @@ describe('calculateLevel', () => {
   });
 
   describe('max level', () => {
-    test('stays at level 30 above 15000 XP', () => {
+    test('stays at level 60 above 40000 XP', () => {
       const result = calculateLevel(99999);
-      expect(result.level).toBe(30);
+      expect(result.level).toBe(60);
       expect(result.progress).toBe(100);
       expect(result.nextLevelXP).toBeNull();
     });
@@ -88,6 +118,12 @@ describe('calculateLevel', () => {
 
     test('level 30 has correct multilingual titles', () => {
       const result = calculateLevel(15000);
+      expect(result.title_cz).toBe('Strážce Karlova mostu');
+      expect(result.title_zh).toBe('查理大桥守望者');
+    });
+
+    test('level 60 has correct multilingual titles', () => {
+      const result = calculateLevel(40000);
       expect(result.title_cz).toBe('Pražská legenda');
       expect(result.title_zh).toBe('布拉格传奇');
     });

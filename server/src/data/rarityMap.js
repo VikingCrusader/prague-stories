@@ -572,6 +572,95 @@ export const SLUG_RARITY = {
   'hloubetinsky-zamek':            'superior', // Knights Hospitaller to neo-Gothic castle to first CZ baby box (2005)
   'urad-mc-praha-cakovice':        'rare',     // 1887 sugar-factory workers' children's shelter, now district office
   'zamek-cakovice':                'superior', // 1409 fortified manor to E-shaped Classicist chateau, Schoeller rebuild
+
+  // ── Hloubětín / Letňany / Kyje batch (2026-07) ───────────────────────────
+  'ao-rhea-hotel-prague':          'common',   // 1,000-bed hostel tower, Berlin Wall fragment out front
+  'kostel-svateho-jiri-hloubetin': 'superior', // 1207 papal charter, Agnes of Bohemia, Dientzenhofer facade 1695
+  'krizovnicky-dvur-hloubetin':    'superior', // Crusaders' farmyard, 216ha estate, returned to Order 2014
+  'mestska-cast-praha-18-letnany': 'common',   // 1347 farmstead to aviation hub to largest CZ shopping centre
+  'ubytovna-areal-hloubetin':      'rare',     // 1971-80 ČKD worker dormitory, 7 blocks, 1,640 beds today
+  'pva-expo-praha':                'rare',     // 105,000m² fairground on former aircraft-factory land
+  'letiste-letnany':               'superior', // 1924 aircraft-industry hub, WWII Allied bombing target
+  'lesopark-letnany':              'rare',     // ex-warehouse/metro-spoil site turned 36ha forest park, 2008-12
+  'cihelna-v-bazantnici':          'rare',     // ex-brickworks, Cretaceous fossil outcrop protected since 1988
+  'prirodni-park-smetanka':        'rare',     // 2010 park, afforested 1910-14, Hořejší pond first recorded 1544
+  'kyjsky-rybnik':                 'rare',     // 14th-c Rokytka pond, near-total silting, rebuilt 2007-2010
+  'kostel-svateho-bartolomeje-kyje': 'superior', // 13th-c Romanesque tribune church, Gothic frescoes whitewashed 1864
+  'praha-kyje-zeleznicni-zastavka': 'common',  // line since 1845, station only from 1892, still local-trains-only
+
+  // ── Žižkov / Harfa / Libeň batch (2026-07) ───────────────────────────────
+  'nakladove-nadrazi-zizkov':      'epic',     // 1930s freight depot saved by activist concerts, bought by city 2024
+  'galerie-harfa':                 'rare',     // Prague's largest mall, triangular plot, opened 2010
+  'harfa-design-residence':        'rare',     // ex-transformer-station site, yellow-frame facade, 2018-2020
+  'harfa-business-center-b':       'rare',     // LEED Gold office tower on ex-industrial brownfield, 2020-2022
+  'stages-hotel-prague':           'common',   // music-themed Marriott Tribute Portfolio hotel near O2 Arena
+  'park-krejcarek':                'rare',     // tax-exempt "emergency colony" turned 1970s Akce Z forest park
+  'praha-liben-nadrazi':           'superior', // 1877 station, bombed 1945, physically relocated east in 1978
+
+  // ── Kralupy / Klecany / Veltrusy batch (2026-07) ────────────────────────
+  'zamek-brnky':                   'epic',     // 1660s Jesuit-rebuilt ruin, 1-crown sale 2007, Orthodox Church bought it 2019
+  'kaple-sv-anny-panenske-brezany': 'epic',    // 1705-07 hexagonal chapel, Santini prototype for Zelená Hora
+  'kostel-nanebevzeti-p-marie-a-sv-vaclava-kralupy': 'rare', // 1894-95 brick church, survived 1945 bombing nearly untouched
+  'zamek-veltrusy':                'mythic',   // Alliprandi Baroque chateau, 1754 first trade fair, 19yr flood closure
+  'zamek-nelahozeves':             'mythic',   // 1553 Lobkowicz castello, Bruegel/Rubens collection, Dvořák's birth cottage
+  'libehrad':                      'superior', // 13th-14th c ruin, Libuše founding legend, wrecked twice by flood and rail
+  'zamek-klecany':                 'superior', // 1691 Šternberk chateau, Hitlerjugend 1942, army base 1950-90
+  'kostel-nanebevzeti-p-marie-klecany': 'rare', // 14th c church, Myslbek and Šaloun monuments to chaplain-writer
+
+  // ── Žižkov / Jarov / Štěrboholy batch (2026-07) ─────────────────────────
+  'ohrada-zizkov':                 'epic',     // vanished 15th-c vineyard, decisive 1945 Uprising skirmish
+  'koleje-vse-jarov':              'superior', // 1914 cooperative colony to 1959-63 panel estate, Palachova kolej
+  'sterboholy':                    'epic',     // 1757 Battle of Štěrboholy, ~27,000 casualties, Seven Years' War
+
+  // ── Bubeneč embassies batch (2026-07) ────────────────────────────────────
+  'velvyslanectvi-slovenske-republiky': 'rare',     // Bubeneč villa, Slovak embassy since Velvet Divorce 1993
+  'svedske-velvyslanectvi':        'epic',     // Růžička villa, 1,500 forged Panama visas, owner died in Mauthausen
+  'novogoticka-brana-do-stromovky': 'superior', // 1814 neo-Gothic gate marking 1804 opening of royal deer park
+  'velvyslanectvi-ruske-federace': 'epic',     // Popper villa, Gestapo HQ 1939, Beneš gift to USSR, renamed street 2022
+  'velvyslanectvi-cinske-lidove-republiky': 'superior', // PRC recognised 1949, longtime Falun Gong vigils outside
+
+  // ── Pankrác modern offices / retail batch (2026-07) ─────────────────────
+  'pankrac-house-sixty-house':     'rare',     // paired Class A office towers, BREEAM cert, near Pražského povstání metro
+  'pankrac-prime-office-building': 'rare',     // 2013-18 Mimolimit-designed tower, copper/travertine/wood cladding
+  'arkady-pankrac':                'rare',     // 2008 mall, 140 shops, first CZ mall to link two metro lines once Line D opens
+
+  // ── Lhotka / Vyšehrad batch (2026-07) ────────────────────────────────────
+  'novy-dvur-lhotka':              'epic',     // monastery-turned-poorhouse, site of František Mrázek's 2006 mob assassination
+  'vysehrad-stanice-metra':        'rare',     // 1974 surface metro station, ex-Gottwaldova, nowhere near Vyšehrad itself
+
+  // ── Hodkovičky / Braník batch (2026-07) ──────────────────────────────────
+  'stromoradi-dubu-letnich-hodkovicky': 'epic', // 12 protected oaks, planted ~1880 by Hans Erdmann Kropf, Zátiší
+  'tesla-vust-popova':             'epic',     // largest CZ electronics R&D institute, 1968 backup TV broadcast, dissolved 2008
+
+  // ── Točná / Cholupice batch (2026-07) ────────────────────────────────────
+  'tocna':                         'epic',     // southernmost/highest Prague village, Celtic oppidum Šance, private airstrip
+  'cholupicka-bazantnice':         'epic',     // archbishop's hunting ground turned pheasant preserve, protected 1982
+  'cholupice':                     'superior', // 1300 first mention, 1328-1650 fortress, biggest Walpurgis bonfire in Prague
+
+  // ── Šance / Závist / Zbraslav batch (2026-07) ────────────────────────────
+  'prirodni-rezervace-sance':      'epic',     // protected 1982, Jersey tiger moth habitat, sits atop the Závist oppidum
+  'keltske-oppidum-zavist':        'epic',     // largest Celtic oppidum in Czech lands, national cultural monument since 1989
+  'tocensky-havlickuv-orloj':      'epic',     // homemade astronomical clock, built 2020 in a private garden
+  'ohrobecke-udoli':               'epic',     // remote ford-crossed cottage valley split between Zvole and Ohrobec
+  'vrane-nad-vltavou':             'superior', // 993 founding charter, first stage of the Vltava cascade dam (1930-35)
+  'pomnik-neznamemu-padlemu-sance': 'rare',    // Prague Uprising memorial, later identified as Jiří Calta
+  'kaplicka-panny-marie-zbraslavske': 'epic',  // 19th-c niche chapel, officially Prague's southernmost cross
+  'lom-zbraslav':                  'rare',     // working quarry since ~1900, now KÁMEN Zbraslav
+  'pomnik-obetem-1-svetove-valky-zbraslav': 'rare', // 1921-1928 Zbraslav WWI memorial, J. F. Žák sculpture
+  'kostel-svateho-jakuba-vetsiho-zbraslav': 'epic', // pre-monastery chapel turned Přemyslid royal burial church
+  'ottova-vila-zbraslav':          'superior', // 1909-11 Art Nouveau villa, publisher Jan Otto, Nazi/socialist seizure
+  'karluv-stanek':                 'rare',     // 1870s pavilion commemorating a Charles IV legend, Havlín hill
+  'kostel-svateho-havla-zbraslav': 'superior', // Romanesque church, first mentioned 1115, now a cemetery chapel
+  'vila-vladislava-vancury':       'epic',     // 1927-29 functionalist villa, writer arrested here by Gestapo 1942
+
+  // ── Prosek / Dolní Břežany batch (2026-07) ───────────────────────────────
+  'kostel-svateho-vaclava-prosek': 'rare',     // oldest building in Prosek, founding legend a 13th-c forgery
+  'vinarsky-sloup-prosek':         'epic',     // 17th-c wine-boundary column, destroyed by a truck in 1965
+  'hrbitov-dolni-brezany':         'superior', // 2016 Celtic-cross-shaped cemetery, National Architecture Award 2017
+  'hilase':                        'epic',     // high-power pulsed laser research centre, opened 2014
+  'zamek-dolni-brezany':           'superior', // c.1600 Renaissance chateau, now Chateau Clara Futura hotel
+  'kaminek':                       'rare',     // artificial hill from 2009 ring-road spoil, ex-quarry swimming hole
+  'komorany':                      'superior', // first recorded 1088, merged with Modřany 1964, annexed to Prague 1968
 };
 
 export function getRarity(slug) {
