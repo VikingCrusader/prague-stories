@@ -10891,146 +10891,6 @@ První tvrz zde, obehnaná kruhovými hradbami s centrální hranolovou věží,
 🥚 彩蛋：城堡的文艺复兴拱廊，与近在咫尺的莱维赫拉德茨古老教堂地基，让罗兹托基这座河畔小城，把波希米亚大约一千年的历史，浓缩进了一个不大的地方——而这一切，大多就悄悄藏在一个距离布拉格市中心仅二十分钟车程、看起来无比普通的通勤火车站背后。`,
     },
   },
-  {
-    name: 'Kladno Chateau',
-    slug: 'kladensky-zamek',
-    localizedNames: { cz: 'Kladenský zámek', zh: '克拉德诺城堡' },
-    labels: ['historical', 'architecture'],
-    coordinates: { lat: 50.14797153136797, lng: 14.101353485775638 },
-    rarity: 'superior',
-    xpReward: 30,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kladno_(z%C3%A1mek)',
-    description: {
-      en: `Brave adventurer, welcome to Kladno Chateau!
-
-A Gothic fortress that became a Renaissance manor, then a Baroque residence touched by one of Bohemia's most famous architectural dynasties, then a municipal library — proof that even a coal town's chateau can have more career changes than most people manage in a lifetime.
-
-The original Gothic fortress here dates back to the fourteenth century, built as the main seat of the Kladenský z Kladna family, and passed to the Žďárský ze Žďáru family once the Kladno line died out. Jiří Žďárský had it rebuilt into a proper Renaissance chateau between the 1540s and 1560s, finishing in 1566, but the building's current appearance comes from a Baroque reconstruction in the first half of the eighteenth century — one that involved Kilián Ignác Dientzenhofer, a member of the family behind some of Prague's most celebrated Baroque churches. The renovated chateau became the residence of Abbot Benno Löbl and the administrative centre of the Kladno estate, which the Benedictine monks of Břevnov Monastery held from 1705 onward. Estate administration kept operating out of the chateau even after serfdom was abolished, right up until 1933, when the city of Kladno bought the building outright and installed a library, archive, and museum inside — a role it has held, protected as a cultural monument since 1967, ever since.
-
-🥚 Easter Egg: The same Dientzenhofer name attached to Kladno Chateau's Baroque makeover also shows up on some of Prague's grandest churches — a reminder that Bohemia's most in-demand eighteenth-century architects didn't just work the capital's greatest hits, they also took commissions out in the provinces, one industrial mining town at a time.`,
-
-      cz: `Statečný dobrodruhu, vítej na Kladenském zámku!
-
-Gotická tvrz, která se stala renesančním sídlem, pak barokní rezidencí, na níž se podepsala jedna z nejslavnějších architektonických rodin v Čechách, a nakonec městskou knihovnou — důkaz, že i zámek v hornickém městě může za svou kariéru vystřídat víc rolí, než většina lidí zvládne za celý život.
-
-Původní gotická tvrz zde pochází ze čtrnáctého století, sloužila jako hlavní sídlo rodu Kladenských z Kladna a po vymření kladenské větve přešla na rod Žďárských ze Žďáru. Jiří Žďárský ji nechal v letech 1540 až 1560 přestavět na skutečný renesanční zámek, dokončený roku 1566, dnešní podobu ale budova získala díky barokní přestavbě v první polovině osmnáctého století — na níž se podílel Kilián Ignác Dientzenhofer, člen rodiny stojící za některými z nejobdivovanějších barokních kostelů v Praze. Přestavěný zámek se stal sídlem opata Benna Löbla a správním centrem kladenského panství, které od roku 1705 drželi benediktini z Břevnovského kláštera. Správa panství fungovala ze zámku i po zrušení nevolnictví, a to až do roku 1933, kdy budovu odkoupilo město Kladno a zřídilo v ní knihovnu, archiv a muzeum — funkci, kterou si drží dodnes a od roku 1967 je chráněna jako kulturní památka.
-
-🥚 Velikonoční vajíčko: Stejné jméno Dientzenhofer, které se pojí s barokní přestavbou kladenského zámku, najdeš i u některých z nejokázalejších pražských kostelů — připomínka toho, že nejžádanější architekti osmnáctého století v Čechách nepracovali jen na hlavních pražských hitech, ale brali zakázky i na venkově, jedno hornické město za druhým.`,
-
-      zh: `勇敢的冒险家，欢迎来到克拉德诺城堡（Kladenský zámek）！
-
-一座哥特式要塞，先是变成了文艺复兴宅邸，接着又变成了一座出自波希米亚最著名建筑世家之手的巴洛克官邸，最后成了一座市立图书馆——足以证明，即便是一座煤矿小城里的城堡，"转行"次数也能比大多数人一辈子经历的还要多。
-
-这座最初的哥特式要塞可追溯至14世纪，曾是克拉德诺家族（Kladenský z Kladna）的主要宅邸，该家族绝嗣后，产业转入日达尔斯基·冯·日达鲁家族（Žďárský ze Žďáru）手中。1540年代至1560年代间，伊日·日达尔斯基（Jiří Žďárský）将其改建为一座真正的文艺复兴城堡，1566年竣工；不过这座建筑今天的模样，其实来自18世纪上半叶的一次巴洛克式重建——参与其中的正是基利安·伊格纳茨·迪岑霍费尔（Kilián Ignác Dientzenhofer），他出身的家族打造了布拉格几座最负盛名的巴洛克教堂。改建后的城堡成为本诺·勒布尔（Benno Löbl）修道院院长的居所，以及克拉德诺庄园的行政中心，该庄园自1705年起归布热夫诺夫修道院（Břevnov）的本笃会修士所有。即便在农奴制废除之后，庄园管理机构仍继续在这座城堡里运作，直到1933年，克拉德诺市政府买下了整座建筑，将图书馆、档案馆和博物馆一并设立于此——这个角色它一直延续至今，并自1967年起被列为文物保护建筑。
-
-🥚 彩蛋：与克拉德诺城堡巴洛克式改建相关联的"迪岑霍费尔"这个姓氏，同样出现在布拉格几座最宏伟的教堂身上——这提醒着我们，18世纪波希米亚最炙手可热的建筑师们，并不只承接首都的"招牌项目"，他们同样接下外省的委托，一座矿业小城接着一座矿业小城地做下去。`,
-    },
-  },
-  {
-    name: 'Church of the Assumption of the Virgin Mary (Kladno)',
-    slug: 'kostel-nanebevzeti-panny-marie-kladno',
-    localizedNames: { cz: 'Kostel Nanebevzetí Panny Marie (Kladno)', zh: '克拉德诺圣母升天堂' },
-    labels: ['church', 'historical', 'architecture'],
-    coordinates: { lat: 50.14736864493904, lng: 14.102690730229256 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_Nanebevzet%C3%AD_Panny_Marie_(Kladno)',
-    description: {
-      en: `Brave adventurer, welcome to the Church of the Assumption of the Virgin Mary in Kladno!
-
-A church whose ceiling literally fell in during the 1970s, closed for safety, and still managed to bounce back with a cardinal's blessing twenty years later — a fairly on-brand comeback story for a town built on coal and stubbornness.
-
-A Gothic single-nave church stood on this spot as early as 1352, getting patched up again and again over the centuries — in the 1500s, then 1675, 1690, 1695, the 1730s, 1771, and 1842 — until Kladno's rapid nineteenth-century population growth finally made the old building too small to cope. A dedicated building society, chaired by builder-mayor Josef Hrabě and backed by his mayoral successor Dr. Jaroslav Hruška, pushed through construction of an entirely new church, designed by Ludvík Lábler and built between 1897 and 1899 on the site of the demolished Gothic original. The resulting three-nave basilica, consecrated on 7 June 1900, was significant enough that the parish was elevated to a deanery that same year and to an archdeanery in 1937 — but decades of neglect under a regime with other priorities eventually caught up with it, and by the 1970s and '80s part of the ceiling had actually collapsed, forcing the church to close for safety reasons. A late-1990s reconstruction brought it back, and Cardinal Miloslav Vlk reconsecrated the building on 3 June 2000.
-
-🥚 Easter Egg: The church has technically been listed as a protected cultural monument since 1978 — meaning that for a stretch of the 1970s and '80s, Kladno had an officially protected national monument that was, at the same time, structurally too dangerous to enter. Bureaucratic status and physical safety, it turns out, are not always the same thing.`,
-
-      cz: `Statečný dobrodruhu, vítej u kostela Nanebevzetí Panny Marie v Kladně!
-
-Kostel, kterému se v sedmdesátých letech doslova zřítil strop, byl kvůli tomu z bezpečnostních důvodů uzavřen, a přesto se o dvacet let později dokázal vrátit zpátky s požehnáním kardinála — což je pro město postavené na uhlí a tvrdohlavosti docela příznačný comeback.
-
-Na tomto místě stál gotický jednolodní kostel už v roce 1352 a v průběhu staletí byl znovu a znovu opravován — v 16. století, pak v letech 1675, 1690, 1695, 1739–1740, 1771 a 1842 — dokud prudký nárůst počtu obyvatel Kladna v devatenáctém století konečně neudělal ze staré stavby příliš malý prostor. Zapálený stavební spolek, jemuž předsedal stavitel a starosta Josef Hrabě a který podpořil i jeho nástupce ve funkci starosty MUDr. Jaroslav Hruška, prosadil stavbu úplně nového kostela podle projektu Ludvíka Láblera, postaveného v letech 1897–1899 na místě zbořené gotické stavby. Výsledná trojlodní bazilika, vysvěcená 7. června 1900, byla natolik významná, že farnost byla ještě téhož roku povýšena na děkanství a v roce 1937 na arciděkanství — desetiletí zanedbávání za režimu s jinými prioritami si ale nakonec vybrala svou daň, a v sedmdesátých a osmdesátých letech se dokonce zřítila část stropu, což vedlo k uzavření kostela z bezpečnostních důvodů. Rekonstrukce v druhé polovině devadesátých let ho vrátila zpátky do provozu a 3. června 2000 ho znovu vysvětil kardinál Miloslav Vlk.
-
-🥚 Velikonoční vajíčko: Kostel je formálně veden jako chráněná kulturní památka už od roku 1978 — což znamená, že po nějakou dobu v sedmdesátých a osmdesátých letech mělo Kladno oficiálně chráněnou národní památku, do které se zároveň z konstrukčních důvodů nesmělo vstupovat. Byrokratický status a fyzická bezpečnost prostě nejdou vždycky ruku v ruce.`,
-
-      zh: `勇敢的冒险家，欢迎来到克拉德诺圣母升天堂（Kostel Nanebevzetí Panny Marie）！
-
-这座教堂在1970年代天花板真的塌了下来，因安全问题被迫关闭，却在二十年后带着枢机主教的祝福重新归来——对一座建立在煤炭与倔强之上的城市来说，这样的"王者归来"剧情倒是相当应景。
-
-早在1352年，这里就矗立着一座哥特式单殿教堂，此后几个世纪里被反复修缮——16世纪、1675年、1690年、1695年、1739至1740年、1771年，还有1842年——直到19世纪克拉德诺人口的急速增长，终于让这座老教堂显得太小，容不下越来越多的信众。一个热心的建堂协会应运而生，由建筑师兼市长约瑟夫·赫拉贝（Josef Hrabě）担任主席，并得到继任市长雅罗斯拉夫·赫鲁什卡博士（MUDr. Jaroslav Hruška）的支持，推动兴建一座全新的教堂，由建筑师卢德维克·拉布勒尔（Ludvík Lábler）设计，于1897年至1899年间在被拆除的哥特式老教堂原址上建成。建成后的三殿式教堂于1900年6月7日举行祝圣仪式，意义重大到当年这座教区就被升格为总铎区，并在1937年进一步升格为总铎区首座教堂——但在一个有着其他优先事项的政权治下，数十年疏于维护的代价最终显现出来：1970至80年代间，部分天花板竟真的坍塌，教堂只能因安全原因被迫关闭。1990年代后半期的一次重建让它得以恢复，2000年6月3日，米洛斯拉夫·夫尔克枢机主教（Cardinal Miloslav Vlk）为其重新举行祝圣仪式。
-
-🥚 彩蛋：这座教堂自1978年起就被正式列为受保护的文物古迹——这意味着在1970至80年代的某段时间里，克拉德诺同时拥有一座官方认证的受保护国家级古迹，以及一座因结构隐患而不能进入的危险建筑。看来，官方认定的地位和实际的建筑安全，并不总是一回事。`,
-    },
-  },
-  {
-    name: 'Kladno Town Hall',
-    slug: 'magistrat-mesta-kladna',
-    localizedNames: { cz: 'Magistrát města Kladna', zh: '克拉德诺市政厅' },
-    labels: ['municipal', 'architecture', 'historical'],
-    coordinates: { lat: 50.14726815208992, lng: 14.103379903980919 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Radnice_v_Kladn%C4%9B',
-    description: {
-      en: `Brave adventurer, welcome to Kladno Town Hall!
-
-A Neo-Renaissance municipal building whose facade literally announces its own construction date in giant Latin-flavoured Czech, built by the same civic-minded mayor who was simultaneously bankrolling a brand-new church just around the corner — Kladno's late-nineteenth-century leadership clearly believed in doing two ambitious building projects at once.
-
-Designed by architect Jan Vejrych and built in 1897–1898 under builder-and-mayor Josef Hrabě, the town hall is a double-storey, three-wing structure arranged around a deliberately articulated floor plan, its main entrance marked by a tall prismatic clock tower and a pair of arcades running above a second-floor balcony. Running the full width of the facade beneath the roofline is an inscription that translates roughly as "In the Year of the Lord 1897–98, from the foundations, with God's help, I was raised" — a building literally signing its own construction certificate for posterity. Inside, painter Adolf Liebscher decorated both the facade and the ceremonial hall, including a triptych titled "Coal and Iron" dominated by an allegorical female figure representing Kladno itself, while sculptor Antonín Popp contributed a bronze knight standing guard over the town's coat of arms.
-
-🥚 Easter Egg: Josef Hrabě wasn't just the mayor who signed off on this town hall — he also chaired the society that got Kladno's new parish church built in almost exactly the same years, just off the same square. One nineteenth-century mayor, two major monuments, and apparently no shortage of stamina for ribbon-cuttings.`,
-
-      cz: `Statečný dobrodruhu, vítej u Magistrátu města Kladna!
-
-Novorenesanční budova radnice, jejíž fasáda doslova hlásá vlastní datum vzniku velkými literami, postavená stejným občansky uvědomělým starostou, který ve stejné době financoval i zbrusu nový kostel hned za rohem — kladenské vedení konce devatenáctého století zjevně věřilo v to, dělat dva ambiciózní stavební projekty najednou.
-
-Radnici navrhl architekt Jan Vejrych a postavena byla v letech 1897–1898 za stavitele a zároveň starosty Josefa Hraběte; jde o patrovou trojkřídlou stavbu na záměrně členitém půdorysu, jejíž hlavní vstup zdobí vysoká hranolová věž s hodinami a dvojice arkád nad balkonem v druhém patře. Přes celou šířku fasády pod střechou běží nápis, který v překladu zhruba znamená "Léta Páně 1897–98 ze základů s pomocí Boží vyzdvižen jsem" — budova si tak doslova sama podepisuje vlastní stavební osvědčení pro budoucí generace. Uvnitř vyzdobil fasádu i obřadní síň malíř Adolf Liebscher, mimo jiné triptychem nazvaným "Uhlí a železo" s dominantní alegorickou postavou ženy představující samotné Kladno, zatímco sochař Antonín Popp přispěl bronzovou sochou rytíře strážícího městský znak.
-
-🥚 Velikonoční vajíčko: Josef Hrabě nebyl jen starosta, který podepsal stavbu téhle radnice — ve stejných letech zároveň předsedal spolku, který prosadil stavbu nového kladenského farního kostela, jen kousek od téhož náměstí. Jeden starosta z devatenáctého století, dvě velké památky, a zjevně žádný nedostatek energie na slavnostní přestřihávání pásek.`,
-
-      zh: `勇敢的冒险家，欢迎来到克拉德诺市政厅（Magistrát města Kladna）！
-
-一座新文艺复兴风格的市政建筑，其立面上直接用醒目的文字"宣告"了自己的建成年份——而主持修建它的市长，恰好在同一时期，也在几步之外资助建造一座全新的教堂：19世纪末的克拉德诺市政领导层，显然笃信"一次同时干两件大工程"的哲学。
-
-这座市政厅由建筑师扬·维里赫（Jan Vejrych）设计，于1897年至1898年间在身兼建筑师与市长的约瑟夫·赫拉贝（Josef Hrabě）主持下建成；这是一座双层三翼建筑，平面布局刻意做得错落有致，正门处矗立着一座带钟面的高耸方形塔楼，二楼阳台上方还有一对拱廊。屋檐下方、贯穿整个立面的位置，刻着一行铭文，大意是"主历1897至98年，靠着上帝的帮助，我自地基之上被建起"——这栋建筑相当于亲手为自己签发了一份留给后世的"竣工证书"。室内部分，画家阿道夫·利布舍尔（Adolf Liebscher）负责装饰立面与礼堂，其中包括一幅名为《煤与铁》的三联画，画面中央是象征克拉德诺本身的女性寓言人物；雕塑家安东宁·波普（Antonín Popp）则贡献了一尊守护市徽的青铜骑士雕像。
-
-🥚 彩蛋：约瑟夫·赫拉贝不仅是签署了这座市政厅建设方案的市长——几乎在同一时期，他还担任着推动克拉德诺新教区教堂建设的协会主席，地点就在同一座广场旁边。一位19世纪的市长，两座重要地标，看来当年剪彩仪式的精力，怎么都用不完。`,
-    },
-  },
-  {
-    name: 'Marian Column (Kladno)',
-    slug: 'mariansky-sloup-kladno',
-    localizedNames: { cz: 'Mariánský sloup (Kladno)', zh: '克拉德诺圣母柱' },
-    labels: ['monument', 'historical', 'architecture'],
-    coordinates: { lat: 50.14683730935087, lng: 14.10279377059642 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Mari%C3%A1nsk%C3%A9_souso%C5%A1%C3%AD_(Kladno)',
-    description: {
-      en: `Brave adventurer, welcome to the Marian Column of Kladno!
-
-A ten-metre Baroque monument to the Virgin Mary standing on the exact spot where the town used to punish people in public — either an enormous coincidence or the eighteenth century's idea of a redemption-arc story.
-
-Built between 1739 and 1741 to a design by Kilián Ignác Dientzenhofer — the same architect responsible for reshaping nearby Kladno Chateau around the same period — the column was carved by sculptor J. Hiernle with stonework by Johann Baumgartner, all commissioned under the patronage of Břevnov abbot Benno Löbl, who by then more or less ran the town's affairs. It replaced Kladno's old pillory, the wooden post where offenders were once publicly punished, with something considerably more devotional: reliefs of saints line the lower portion, and right at the very top stands the Virgin Mary holding the infant Christ, balanced on a globe of the world. Consecrated in 1741, it has been restored twice since — once in 1861 and again in 1880 — and has held protected monument status since 1958.
-
-🥚 Easter Egg: Notice how several of Kladno's landmarks around this square all trace back to the same small circle of eighteenth-century power players — Abbot Benno Löbl commissioning both the chateau renovation and this column, with a Dientzenhofer's hand in the design of both. Small-town Baroque patronage networks, it turns out, moved just as fast as anything in Prague.`,
-
-      cz: `Statečný dobrodruhu, vítej u Mariánského sloupu v Kladně!
-
-Desetimetrový barokní pomník Panny Marie stojící přesně na místě, kde město kdysi veřejně trestalo provinilce — což je buď obrovská náhoda, nebo osmnáctistoletá představa o vyprávění příběhu vykoupení.
-
-Sloup vznikl v letech 1739 až 1741 podle návrhu Kiliána Ignáce Dientzenhofera — téhož architekta, který ve stejné době přestavoval nedaleký kladenský zámek — a vytesal ho sochař J. Hiernle spolu s kameníkem Johannem Baumgartnerem, vše pod patronací břevnovského opata Benna Löbla, jenž tou dobou v podstatě řídil chod celého města. Sloup nahradil starý kladenský pranýř, dřevěný kůl, u něhož byli kdysi veřejně trestáni provinilci, něčím podstatně zbožnějším: spodní část zdobí reliéfy svatých a na samotném vrcholu stojí Panna Marie s Ježíškem v náručí, balancující na zeměkouli. Vysvěcen byl v roce 1741, od té doby byl dvakrát restaurován — poprvé v roce 1861 a podruhé v roce 1880 — a od roku 1958 je chráněnou památkou.
-
-🥚 Velikonoční vajíčko: Všimni si, jak se hned několik kladenských památek kolem tohoto náměstí sbíhá ke stejnému úzkému kruhu osmnáctistoletých mocných lidí — opat Benno Löbl zadal jak přestavbu zámku, tak stavbu tohoto sloupu, a v obou případech měl prsty v designu jeden z Dientzenhoferů. Barokní sítě mecenášů se v malých městech zjevně točily stejně rychle jako v Praze.`,
-
-      zh: `勇敢的冒险家，欢迎来到克拉德诺圣母柱（Mariánský sloup）！
-
-一座高达十米的巴洛克式圣母纪念柱，竟然恰好矗立在这座城市曾经公开惩罚罪人的地方——这要么是个天大的巧合，要么就是18世纪版本的"救赎叙事"。
-
-这座纪念柱建于1739年至1741年间，由基利安·伊格纳茨·迪岑霍费尔（Kilián Ignác Dientzenhofer）设计——正是同一时期主持改建附近克拉德诺城堡的那位建筑师——由雕塑家J·希尔恩勒（J. Hiernle）与石匠约翰·鲍姆加特纳（Johann Baumgartner）负责雕刻施工，整个工程都是在布热夫诺夫修道院院长本诺·勒布尔（Benno Löbl）的资助下完成的，而这位院长当时基本上掌控着全城的事务。它取代了克拉德诺原来的耻辱柱——那根曾经用来公开惩罚罪犯的木柱——换上了一件宗教意味浓厚得多的作品：柱身下部环绕着圣徒浮雕，而在最顶端，圣母玛利亚怀抱圣婴，站立在一个地球仪之上。这座纪念柱于1741年祝圣完工，此后经历过两次修复——分别在1861年和1880年——并自1958年起被列为受保护古迹。
-
-🥚 彩蛋：仔细想想就会发现，这座广场周边好几处克拉德诺地标，其实都指向同一小撮18世纪的权力核心人物——本诺·勒布尔院长既委托了城堡的改建工程，也资助了这座纪念柱，而两项工程的设计中都有迪岑霍费尔家族的身影。看来，巴洛克时代小城镇里的赞助人网络，运转起来一点不比布拉格慢。`,
-    },
-  },
 
   // ── Roztoky / Budeč / Unhošť / Kladno batch (2026-07) ───────────────────
   {
@@ -17003,6 +16863,913 @@ Vlastnictví se v následujících stoletích střídalo s téměř komickou pra
 在接下来的几个世纪里，它的归属几乎是以一种滑稽的规律不断易主：瓦茨拉夫二世国王持有它直到1304年，经院学者Dobeš持有到1332年，Zbraslav修道院持有到1436年，波杰布拉迪的乔治持有到1470年，此后归Václav Šturm z Hyršfeldu所有，他在1589年之后为村子添建了一座作为庄园宅邸的城堡。1638年，它重新回到Zbraslav修道院的管辖之下，一直持续到1785年修道院解散，此后Komořany转归世俗托管机构——大约四十年后，该机构将城堡、地产与羊圈一并卖给了Oettingen-Wallerstein亲王。它近代的行政历史同样忙碌：Komořany于1957年5月20日成为独立行政村，1964年6月14日与Modřany合并为一个镇，1968年1月1日并入布拉格4区，并在1994年布拉格行政区重组后，最终归入了如今的布拉格12区。
 
 🎁 彩蛋：一个名字来源不过是"庄园收入"这般毫无浪漫可言的村庄，九个世纪以来不断被国王、僧侣与行政改革买卖、合并、重新划分——足以证明，做一份"有用的财产"，有时候比做任何更风光的角色都更长久。`,
+    },
+  },
+  {
+    name: 'Veleslavín Chateau',
+    slug: 'zamek-veleslavin',
+    localizedNames: { cz: 'Zámek Veleslavín', zh: '韦莱斯拉温城堡' },
+    labels: ['palace', 'historical', 'architecture'],
+    coordinates: { lat: 50.09331438239688, lng: 14.350839623933892 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to Veleslavín Chateau, a Baroque country house in Prague 6 that quietly spent most of the twentieth century as a hospital — and only reopened its doors to ordinary visitors in 2024, after the city coaxed it out of decades of medical service and back into public hands.
+
+The current chateau went up sometime between 1730 and 1750, to plans drawn by the great Baroque architect Kilián Ignác Dientzenhofer. It has hosted at least one uninvited celebrity guest: during the Prussian siege of Prague in 1757, King Frederick II of Prussia took up lodging inside its walls. Around the turn of the twentieth century the building was substantially remodelled, gaining short Neo-Baroque side wings to accommodate its new role as a private sanatorium.
+
+That sanatorium chapter is the chateau's most remarkable one. In 1910, cousins Leo Kosák and Oskar Fischer acquired the property and opened a clinic for lung disease, whose patients over the years included journalist Milena Jesenská and Charlotta Garrigue Masaryková, wife of Czechoslovakia's first president. Working here independently of the German neurologist Alois Alzheimer, Oskar Fischer conducted his own parallel research into the same degenerative brain disease — research that history has largely filed under someone else's name. The building continued serving medical purposes from the 1950s all the way until 2018.
+
+🎁 Bonus: Two doctors, working independently on opposite sides of a border, both identified the same disease around the same time — and only one of their names ended up on it. Oskar Fischer did his half of that work right here, in a chateau most people walk past without a second glance.`,
+
+      cz: `Vítej u Zámku Veleslavín, barokního venkovského sídla v Praze 6, které většinu dvacátého století tiše sloužilo jako nemocnice — veřejnosti se znovu otevřelo teprve v roce 2024, poté co ho město po desetiletích zdravotnického provozu vylákalo zpět do civilního života.
+
+Současná podoba zámku vznikla někdy mezi lety 1730 a 1750 podle plánů významného barokního architekta Kiliána Ignáce Dientzenhofera. Zámek si odbyl i jednu nezvanou celebritní návštěvu: během pruského obléhání Prahy v roce 1757 zde bydlel pruský král Fridrich II. Na přelomu devatenáctého a dvacátého století prošla budova rozsáhlou přestavbou a získala krátká novobarokní boční křídla, aby vyhověla své nové roli soukromého sanatoria.
+
+Právě sanatorní kapitola je na zámku nejpozoruhodnější. V roce 1910 nemovitost získali bratranci Leo Kosák a Oskar Fischer a otevřeli zde plicní kliniku, mezi jejíž pacienty patřily i novinářka Milena Jesenská a Charlotta Garrigue Masaryková, manželka prvního československého prezidenta. Oskar Fischer zde nezávisle na německém neurologovi Aloisi Alzheimerovi prováděl vlastní paralelní výzkum téhož degenerativního onemocnění mozku — výzkum, který dějiny nakonec zapsaly pod cizí jméno. Budova sloužila zdravotnickým účelům nepřetržitě od padesátých let až do roku 2018.
+
+🎁 Bonus: Dva lékaři, kteří nezávisle na sobě na opačných stranách hranice zkoumali totéž onemocnění přibližně ve stejnou dobu — a nakonec po něm bylo pojmenováno jen jedno z jejich jmen. Oskar Fischer odvedl svou polovinu té práce přímo tady, v zámečku, kolem kterého většina lidí projde bez povšimnutí.`,
+
+      zh: `欢迎来到韦莱斯拉温城堡（Zámek Veleslavín），布拉格6区的一座巴洛克式乡间宅邸，在整个二十世纪的大部分时间里，它一直悄悄地充当着医院的角色——直到2024年，市政府才把它从数十年的医疗用途中"劝退"出来，重新向普通访客敞开大门。
+
+如今这座城堡的样貌大约建于1730至1750年间，出自著名巴洛克建筑师基利安·伊格纳茨·迪岑霍费尔（Kilián Ignác Dientzenhofer）之手。它甚至还接待过一位不速之客：1757年普鲁士围攻布拉格期间，普鲁士国王腓特烈二世曾在此下榻。到十九世纪末二十世纪初，建筑经历了一次大规模改建，两侧增建了短小的新巴洛克式厢房，以适应它作为私人疗养院的新角色。
+
+而这段疗养院历史，正是城堡最令人称奇的篇章。1910年，表兄弟利奥·科萨克（Leo Kosák）与奥斯卡·菲舍尔（Oskar Fischer）买下这处产业，在此开设了一家肺病诊所，历年病人中就包括记者米伦娜·耶森斯卡（Milena Jesenská）以及捷克斯洛伐克首任总统夫人夏洛特·加里格·马萨里科娃（Charlotta Garrigue Masaryková）。奥斯卡·菲舍尔在这里独立于德国神经学家阿洛伊斯·阿尔茨海默（Alois Alzheimer），对同一种脑部退行性疾病展开了平行研究——只是历史最终把这项研究记在了别人的名下。这栋建筑此后一直服务于医疗用途，从上世纪五十年代一直延续到2018年。
+
+🎁 彩蛋：两位医生，在边境两侧各自独立工作，几乎在同一时间辨识出了同一种疾病——但最终，这种病只用了其中一人的名字命名。奥斯卡·菲舍尔完成他那一半研究的地方，就是这座大多数人路过时都不会多看一眼的小城堡。`,
+    },
+  },
+  {
+    name: 'Hvížďalka Quarry',
+    slug: 'hvizdalka',
+    localizedNames: { cz: 'Lom Hvížďalka', zh: 'Hvížďalka采石场' },
+    labels: ['geology', 'nature'],
+    coordinates: { lat: 49.995962979467315, lng: 14.332586883111274 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hv%C3%AD%C5%BE%C4%8Falka_(p%C5%99%C3%ADrodn%C3%AD_pam%C3%A1tka)',
+    description: {
+      en: `Welcome to Lom Hvížďalka, a working limestone quarry on Radotín's edge so large — 58 hectares and counting — that it swallowed a small nature reserve of the same name inside its own boundaries and just kept quarrying around it.
+
+Founded in 1863 as a limestone quarry on the right bank of the Radotín stream, Hvížďalka grew dramatically after 1959 once the neighbouring Lochkov cement plant ramped up production. A dedicated 3.5-kilometre railway siding, built in 1873, once linked the quarry and its neighbours directly to the cement works, hauling stone until the line finally shut down in 1963.
+
+The quarry's real claim to fame, though, sits along the access road connecting it to that same cement plant, just east of the pit itself: a rock face exposing one of the finest geological profiles anywhere through the uppermost Kopanina Formation, spanning both the Ludlow–Přídolí boundary — a reference section for the international stratotype of that Silurian stage boundary — and the Přídolí–Lochkov boundary marking the Silurian–Devonian transition. Graptolites (Monograptus ultimus, M. pridolensis) and ancient bivalves turn up here in abundance, and the adjacent slope still holds the original nineteenth-century collecting pits dug by Joachim Barrande himself, part of his famous Kosoř fossil locality — a direct physical link to the pioneering fieldwork that gave the whole Prague Basin its nickname, "the Barrandian."
+
+That profile and its neighbouring slope have been protected since 1988 as the separate Hvížďalka Nature Monument, all 1.3 hectares of it, sitting quietly inside the much larger working quarry that surrounds it. Neither the quarry nor the nature monument inside it is open to the public.
+
+🎁 Bonus: One of the reference points geologists use to define a chapter boundary in Earth's 419-million-year-old Silurian period sits inside an active limestone quarry that nobody but geologists and quarry workers is allowed to visit — proof that some of the planet's most important addresses have famously restrictive door policies.`,
+
+      cz: `Vítej u lomu Hvížďalka, rozlehlého činného vápencového lomu na okraji Radotína — už na 58 hektarech a pořád roste — natolik velkého, že během své existence pohltil i stejnojmennou malou přírodní rezervaci přímo uvnitř svých vlastních hranic a v těžbě prostě pokračoval kolem ní.
+
+Lom byl založen v roce 1863 jako vápencový lom na pravém břehu Radotínského potoka a prudce se rozrostl po roce 1959, kdy naplno rozjela výrobu sousední lochkovská cementárna. Účelová 3,5kilometrová železniční vlečka, postavená v roce 1873, kdysi spojovala lom i jeho sousední lomy přímo s cementárnou a vozila kámen až do svého zrušení v roce 1963.
+
+Skutečná sláva lomu se ale skrývá podél přístupové cesty spojující ho s toutéž cementárnou, kousek východně od samotné těžební jámy: skalní stěna zde odkrývá jeden z nejlepších geologických profilů vůbec, procházející nejvyšší částí kopaninského souvrství a zachycující jak hranici ludlow–přídolí — referenční profil pro mezinárodní stratotyp této hranice siluru —, tak hranici přídolí–lochkov, označující přechod mezi silurem a devonem. Hojně se tu vyskytují graptoliti (Monograptus ultimus, M. pridolensis) i pravěcí mlži a na přilehlém svahu se dodnes dochovaly původní sběrné jámy z devatenáctého století, které vlastnoručně vykopal Joachim Barrande jako součást své proslulé lokality Kosoř — přímé fyzické spojení s průkopnickou terénní prací, díky níž si celá pražská pánev vysloužila přezdívku „Barrandien".
+
+Tento profil spolu s přilehlým svahem je od roku 1988 chráněn jako samostatná přírodní památka Hvížďalka, na celkové ploše 1,3 hektaru, tiše usazená uvnitř mnohem rozlehlejšího činného lomu, který ji ze všech stran obklopuje. Ani samotný lom, ani přírodní památka uvnitř něj nejsou veřejnosti přístupné.
+
+🎁 Bonus: Jeden z referenčních bodů, podle kterých geologové vymezují hranici kapitoly v 419 milionů let starém siluru, éře dějin Země, se nachází uvnitř činného vápencového lomu, kam smí jen geologové a zaměstnanci lomu — důkaz, že některé z nejdůležitějších adres na planetě mají pověstně přísnou vstupní politiku.`,
+
+      zh: `欢迎来到Hvížďalka采石场，位于拉多丁（Radotín）边缘的一座在产石灰岩采石场——占地已达58公顷，而且还在扩大——大到连一块与它同名的小型自然保护区，都被它整个"吞"进了自己的地界里，然后就这么围着它继续开采下去。
+
+这座采石场始建于1863年，最初是拉多丁河右岸的一处石灰岩采石场，1959年之后随着邻近的洛赫科夫（Lochkov）水泥厂全力投产而迅速扩张。一条专用的3.5公里铁路支线于1873年建成，曾把这座采石场及其相邻的几座采石场直接与水泥厂连接起来，运送石料，直到1963年最终停用。
+
+不过，这座采石场真正的"名声"，其实藏在通往同一家水泥厂的引道沿线，就在采石坑本身以东不远处：这里的岩壁揭示出全世界数一数二完整的地质剖面之一，贯穿科帕尼纳组（Kopanina Formation）最上部地层，同时横跨鲁德洛阶-普里多利阶（Ludlow–Přídolí）分界——这是志留纪该阶段分界国际标准层型的参考剖面——以及普里多利阶-洛赫科夫阶（Přídolí–Lochkov）分界，标志着志留纪与泥盆纪之间的过渡。这里盛产笔石化石（Monograptus ultimus、M. pridolensis）与远古双壳类化石，而相邻坡地至今仍保留着十九世纪由约阿希姆·巴兰德（Joachim Barrande）本人亲手挖掘的原始采集坑，是他著名的科索日（Kosoř）化石产地的一部分——与那段开创性田野调查工作有着直接的实物联系，正是那段工作让整个布拉格盆地赢得了"巴兰迪安"（Barrandien）的别名。
+
+这段剖面与相邻坡地自1988年起被单独列为受保护的Hvížďalka自然保护区，总面积仅1.3公顷，静静地"嵌"在包围着它的那座规模大得多的在产采石场内部。无论是采石场本身，还是其中的自然保护区，都不对公众开放。
+
+🎁 彩蛋：地质学家用来界定地球历史上那段4.19亿年前志留纪某个阶段分界的参考点之一，就藏在一座在产石灰岩采石场内部——除了地质学家和采石场工作人员，任何人都不得入内——足以证明，这颗星球上一些最重要的"地址"，门禁政策出了名地严格。`,
+    },
+  },
+  {
+    name: 'Radotín Rocks',
+    slug: 'radotinske-skaly',
+    localizedNames: { cz: 'Radotínské skály', zh: '拉多丁岩壁' },
+    labels: ['nature', 'geology'],
+    coordinates: { lat: 49.9948765277549, lng: 14.34498640144765 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Radot%C3%ADnsk%C3%A9_sk%C3%A1ly',
+    description: {
+      en: `Welcome to Radotínské skály, a limestone cliff reserve on Radotín's northwestern edge that spent much of the twentieth century getting dusted by the cement plant next door — and has spent the years since quietly proving that a rock face can hold a grudge and still bounce back.
+
+Protected since 1988 and covering 28.3 hectares within the Radotínsko–Chuchelský háj nature park, these cliffs sit on the steep left slope of the Radotín valley and expose one of the most complete geological profiles in the Prague area: layered rock spanning the highest Ordovician, through the Lower Silurian, and across the Silurian–Devonian boundary itself. Abandoned quarries scattered through the reserve knit together into an almost continuous record documenting how the Prague Basin, and the life within it, evolved across tens of millions of years.
+
+Above the exposed rock, oak woodland still clings to the upper slopes, while the treeless outcrops support rare rock-steppe plant communities — feather grass, pale thistle, and other specialists adapted to thin, sun-baked soil. For decades, dust drifting from the neighbouring cement works threatened that fragile vegetation directly, until the plant modernised its production, switched to alternative fuels, and began recultivating its own worked-out quarry land.
+
+🎁 Bonus: The reserve's biggest historical enemy eventually became one of its allies — the same cement plant that once dusted these slopes now helps restore them, proving that even an industrial neighbour can eventually clean up its act.`,
+
+      cz: `Vítej u Radotínských skal, přírodní rezervace vápencových útesů na severozápadním okraji Radotína, která velkou část dvacátého století čelila prachu z vedlejší cementárny — a od té doby si tiše dokazuje, že i skalní stěna umí chovat zášť a přesto se z ní vzpamatovat.
+
+Rezervace je chráněná od roku 1988, rozkládá se na 28,3 hektarech v rámci přírodního parku Radotínsko–Chuchelský háj a leží na příkrém levém svahu Radotínského údolí. Odkrývá jeden z nejucelenějších geologických profilů v okolí Prahy: vrstvy hornin sahající od nejvyššího ordoviku přes spodní silur až po samotnou hranici silur–devon. Opuštěné lomy roztroušené po celé rezervaci se skládají téměř do souvislého záznamu, který dokumentuje, jak se pražská pánev a život v ní vyvíjely po desítky milionů let.
+
+Nad odkrytou skálou se na horních svazích stále drží doubravy, zatímco bezlesé výchozy hostí vzácná společenstva skalní stepi — kavyl, chrpu a další druhy přizpůsobené tenké, sluncem vyprahlé půdě. Po desetiletí ohrožoval tuto křehkou vegetaci přímo prach unášený z vedlejší cementárny, dokud podnik nemodernizoval výrobu, nepřešel na alternativní paliva a nezačal rekultivovat vlastní vytěžené lomy.
+
+🎁 Bonus: Největší historický nepřítel rezervace se nakonec stal jedním z jejích spojenců — táž cementárna, která tyto svahy kdysi zaprašovala, jim dnes pomáhá se zotavit, což dokazuje, že se i průmyslový soused dokáže časem polepšit.`,
+
+      zh: `欢迎来到拉多丁岩壁（Radotínské skály），坐落在拉多丁（Radotín）西北边缘的一处石灰岩悬崖自然保护区。整个二十世纪的大部分时间里，它一直饱受隔壁水泥厂粉尘的侵扰——此后的岁月里，它却默默证明了一面岩壁也懂得记仇，同时依然能够慢慢恢复元气。
+
+这片保护区自1988年起受到保护，面积达28.3公顷，位于拉多丁-胡赫莱森林（Radotínsko–Chuchelský háj）自然公园范围内，坐落在拉多丁河谷陡峭的左岸坡地上。它揭示了布拉格地区最完整的地质剖面之一：地层从最晚期的奥陶纪，一路穿过早志留世，直至志留纪与泥盆纪的分界线本身。散布在保护区内的废弃采石场彼此相连，几乎构成一段连续的记录，记载着布拉格盆地及其中生命在数千万年间的演化历程。
+
+在裸露的岩壁之上，橡树林依然覆盖着上部坡地，而无林的裸岩地带则生长着珍稀的岩生草原群落——针茅、蓟类等适应了贫瘠、日晒充分土壤的特化植物。数十年间，来自邻近水泥厂的粉尘曾直接威胁这片脆弱的植被，直到该厂对生产工艺进行现代化改造、改用替代燃料，并开始对自己开采完毕的采石场进行生态修复。
+
+🎁 彩蛋：这片保护区历史上最大的"敌人"，最终变成了它的盟友之一——曾经给这些山坡蒙上粉尘的那家水泥厂，如今反倒在帮助它们恢复生机，证明就连工业邻居也终有"洗心革面"的一天。`,
+    },
+  },
+  {
+    name: 'Church of St. Cyril and Methodius (Nebušice)',
+    slug: 'kostel-svateho-cyrila-a-metodeje-nebusice',
+    localizedNames: { cz: 'Kostel svatého Cyrila a Metoděje', zh: '内布希采圣西里尔与美多德教堂' },
+    labels: ['church', 'historical'],
+    coordinates: { lat: 50.111600227937636, lng: 14.325225126016909 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Cyrila_a_Metod%C4%9Bje_(Nebu%C5%A1ice)',
+    description: {
+      en: `Welcome to the Church of St. Cyril and Methodius in Nebušice, built in the 1880s so villagers could finally stop trekking into the Šárka valley every Sunday just to attend Mass in somebody else's parish.
+
+Until the nineteenth century, Nebušice fell under the pastoral care of Strahov Monastery but had no church of its own — parishioners belonged instead to St. John Nepomuk's church in Šárka, over in Dejvice, with a smaller portion attached to nearby Liboc. As the local population grew, that arrangement stopped being practical, and Strahov's abbot Vojtěch Hron pushed to have a proper parish church built in the village itself. He died in 1879 before construction began, but the plan outlived him: builder Jaroslav Kuchta drew up the designs, and the cornerstone was laid on 6 April 1885 — deliberately chosen as the anniversary of St. Methodius's death — by Strahov's next abbot, Zikmund Antonín Starý. The single-nave, Neo-Romanesque church, with its polygonal chancel and square west tower holding two bells and a death knell, was completed and consecrated the following year.
+
+Its organ, installed in 1886, was built by the noted Prague organ-maker Karel Schiffner, whose instruments still fill churches across the city.
+
+🎁 Bonus: Choosing St. Methodius's death anniversary as the cornerstone-laying date wasn't a coincidence — it was Strahov's way of tying the new building to its patron saint before a single wall had even gone up.`,
+
+      cz: `Vítej u Kostela svatého Cyrila a Metoděje v Nebušicích, postaveného v osmdesátých letech devatenáctého století, aby vesničané konečně nemuseli každou neděli putovat do šáreckého údolí jen kvůli mši v cizí farnosti.
+
+Až do devatenáctého století spadaly Nebušice pod duchovní správu Strahovského kláštera, ale vlastní kostel neměly — farníci patřili ke kostelu svatého Jana Nepomuckého v Šárce v Dejvicích, menší část pak k blízké Liboci. S rostoucím počtem obyvatel přestalo toto uspořádání stačit a strahovský opat Vojtěch Hron prosazoval, aby se přímo ve vsi postavil pořádný farní kostel. Zemřel v roce 1879 ještě před zahájením stavby, jeho záměr ho ale přežil: plány vypracoval stavitel Jaroslav Kuchta a základní kámen položil 6. dubna 1885 — vědomě zvolený jako výroční den úmrtí svatého Metoděje — další strahovský opat Zikmund Antonín Starý. Jednolodní novorománský kostel s polygonálně ukončeným presbytářem a čtvercovou západní věží se dvěma zvony a umíráčkem byl dokončen a vysvěcen o rok později.
+
+Varhany, instalované v roce 1886, postavil uznávaný pražský varhanář Karel Schiffner, jehož nástroje dodnes zní v kostelích po celém městě.
+
+🎁 Bonus: Volba výročí úmrtí svatého Metoděje jako data pokládání základního kamene nebyla náhoda — byl to strahovský způsob, jak novou stavbu svázat s jejím patronem ještě dřív, než stála první zeď.`,
+
+      zh: `欢迎来到内布希采圣西里尔与美多德教堂（Kostel svatého Cyrila a Metoděje），建于十九世纪八十年代，从此村民们终于不必每个周日都跋涉到沙尔卡河谷（Šárka），去别的堂区望弥撒。
+
+直到十九世纪，内布希采（Nebušice）一直归斯特拉霍夫修道院（Strahov）管辖，却没有自己的教堂——教民隶属于代伊维采（Dejvice）沙尔卡的圣扬·内波穆茨基教堂，还有一小部分归属邻近的利博茨（Liboc）。随着当地人口增长，这种安排逐渐变得不切实际，斯特拉霍夫修道院院长沃伊捷赫·赫伦（Vojtěch Hron）力主在村里直接建一座正式的堂区教堂。他于1879年去世，工程尚未动工，但这个计划并未随他而终：建筑师雅罗斯拉夫·库赫塔（Jaroslav Kuchta）绘制了设计图，1885年4月6日——特意选定为圣美多德逝世纪念日——由下一任斯特拉霍夫院长齐格蒙德·安东宁·斯塔里（Zikmund Antonín Starý）奠基。这座单殿式新罗马风格教堂，配有多边形圣坛与方形西塔（内挂两口钟与一口丧钟），次年即告完工并举行祝圣。
+
+教堂内1886年安装的管风琴，出自布拉格知名管风琴制造师卡雷尔·希夫纳（Karel Schiffner）之手，他制作的乐器至今仍在全城多座教堂中回响。
+
+🎁 彩蛋：选择圣美多德的逝世纪念日作为奠基日期，绝非偶然——这是斯特拉霍夫修道院的方式，在教堂还没砌起第一面墙之前，就先把它和自己的主保圣人绑在了一起。`,
+    },
+  },
+  {
+    name: 'Nebušice Eye',
+    slug: 'nebusicke-oko',
+    localizedNames: { cz: 'Nebušické oko', zh: '内布希采之眼' },
+    labels: ['modern', 'nature'],
+    coordinates: { lat: 50.11333676250196, lng: 14.317386120905631 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to Nebušice Eye, a wooden viewing structure on Prague's northwestern edge that can't quite decide whether it's a lookout tower, a children's swing, or an oversized picture frame — so it simply does all three, and gently rocks while it's at it.
+
+Completed in the early 2020s, the structure was designed and built by architecture students from the Seho–Poláček studio at ČVUT, Prague's Faculty of Architecture, and installed on a hillside behind Koncová Street just northwest of the village centre, overlooking open fields. Its main arch is assembled from twenty curved glue-laminated beams — eighteen of spruce on the inside, four of larch forming the outer frame — and a hidden mechanism lets the entire structure sway gently from side to side, turning a simple viewpoint into something closer to a piece of playground equipment with a view.
+
+Locals use it for exactly what its makers intended: photographers frame the landscape through its wooden arc, children treat it as an oversized swing, and anyone scanning the surrounding fields for birds or deer gets a genuinely useful vantage point in the bargain.
+
+🎁 Bonus: Most Prague viewpoints just sit there and let you look — this one is the rare structure that looks back at you and moves while you're looking.`,
+
+      cz: `Vítej u Nebušického oka, dřevěné vyhlídkové stavby na severozápadním okraji Prahy, která se úplně nerozhodla, jestli je to rozhledna, dětská houpačka, nebo obří fotorámeček — takže je prostě vším najednou a k tomu se ještě jemně kolébá.
+
+Stavba, dokončená na začátku dvacátých let, vznikla podle návrhu studentů architektury z ateliéru Seho–Poláček na Fakultě architektury ČVUT a byla umístěna na svahu za ulicí Koncová, severozápadně od centra obce, s výhledem do otevřených polí. Hlavní oblouk je poskládaný z dvaceti prohnutých lepených lamelových nosníků — osmnácti smrkových zevnitř a čtyř modřínových, tvořících vnější rám — a skrytý mechanismus umožňuje, aby se celá konstrukce jemně kolébala ze strany na stranu, čímž se z prosté vyhlídky stává něco bližšího hřišti s výhledem.
+
+Místní ji používají přesně tak, jak si tvůrci přáli: fotografové skrz dřevěný oblouk rámují krajinu, děti ji berou jako obří houpačku a kdokoli, kdo pozoruje okolní pole kvůli ptákům nebo srnčí zvěři, k tomu navíc získá opravdu užitečné výhledové místo.
+
+🎁 Bonus: Většina pražských vyhlídek jen tiše stojí a nechá tě dívat se — tahle je ta vzácná stavba, která se dívá zpátky a přitom se hýbe.`,
+
+      zh: `欢迎来到内布希采之眼（Nebušické oko），布拉格西北边缘的一座木制观景装置，它似乎自己都没搞清楚到底是瞭望塔、儿童秋千，还是一个超大号取景框——于是干脆三者都当，还顺便轻轻摇晃起来。
+
+这座建于二十年代初的构筑物，出自布拉格捷克技术大学（ČVUT）建筑学院Seho–Poláček工作室学生之手，安装在康措娃街（Koncová）后方的坡地上，位于村中心西北方向，俯瞰着开阔的田野。主体拱形结构由二十根弯曲的胶合层压木梁组成——内侧十八根为云杉木，外侧四根为落叶松，构成外部框架；一套隐藏机关让整座结构能够左右轻轻摇摆，让一座单纯的观景台，变得更像一件带风景的游乐设施。
+
+当地人使用它的方式，正是设计者所期望的：摄影师透过木质拱形取景，孩子们把它当成超大秋千，而任何想在周围田野里观察飞鸟或鹿群的人，也顺带获得了一个真正实用的制高点。
+
+🎁 彩蛋：布拉格大多数观景台都只是静静地立在那里，任你眺望——而这一座是少见的例外：它一边被你看着，一边还回望着你，同时轻轻摇动。`,
+    },
+  },
+  {
+    name: 'Okoř Castle Ruins',
+    slug: 'zricenina-hradu-okor',
+    localizedNames: { cz: 'Zřícenina hradu Okoř', zh: '奥科日城堡遗迹' },
+    labels: ['ruin', 'historical', 'architecture'],
+    coordinates: { lat: 50.1641589451214, lng: 14.25557029959438 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Oko%C5%99_(hrad)',
+    description: {
+      en: `Welcome to the ruins of Okoř Castle, a thirteenth-century fortress about fifteen kilometres northwest of Prague that spent the late 1700s being quietly dismantled by its own neighbours, who found its stones and roof timber far too convenient to leave alone.
+
+Built in the second half of the thirteenth century, likely by a church dignitary, Okoř became from the mid-fourteenth century the seat of wealthy Prague burghers and lesser noble families rather than great lords. Its first major expansion came before 1359, when František Rokycanský — a rich Old Town burgher whose connections to Emperor Charles IV had propelled his fortunes — rebuilt it into a residence that rivalled the seats of the most prominent nobility. Ownership passed to the lords of Donín in 1470 and then, in the following century, to the Bořita family of Martinice, who gave the castle a Renaissance makeover in keeping with the fashions of the day.
+
+The Thirty Years' War left Okoř devastated, and in 1649 Jaroslav Bořita bequeathed it to a Jesuit college, whose members carried out Baroque repairs and reconsecrated its St. Wenceslas chapel on 21 July 1675. After the Jesuit order was dissolved, the castle fell to a study fund and began a long decline: from 1773, the estate's administrator allowed the surrounding villagers to strip its roofs and sell its timber and cut stone as ordinary building material, a slow dismantling that continued until the state took ownership in 1921 and began the first real repairs. Okoř has been protected as a cultural monument since 1965.
+
+🎁 Bonus: A castle built to rival the residences of Bohemia's greatest lords ended its working life as an unofficial hardware store for the very village beside it — proof that even the grandest fortunes can end up quarried for parts.`,
+
+      cz: `Vítej u zříceniny hradu Okoř, třináctého století staré pevnosti asi patnáct kilometrů severozápadně od Prahy, kterou koncem osmnáctého století tiše rozebírali vlastní sousedé — kamení a krovy jim totiž přišly příliš praktické na to, aby je nechali být.
+
+Hrad vznikl ve druhé polovině třináctého století, patrně z podnětu nějakého církevního hodnostáře, a od poloviny čtrnáctého století sloužil spíše jako sídlo bohatých pražských měšťanů a méně významných šlechtických rodů než velkých pánů. K první velké přestavbě došlo před rokem 1359, kdy František Rokycanský — bohatý měšťan Starého Města, jehož konexe s císařem Karlem IV. mu umožnily nevídaný vzestup — hrad přebudoval na sídlo srovnatelné s rezidencemi nejpřednějších pánů. V roce 1470 přešlo vlastnictví na pány z Donína a v následujícím století na rod Bořitů z Martinic, kteří hradu vtiskli renesanční podobu odpovídající dobovému vkusu.
+
+Třicetiletá válka zanechala Okoř zpustošený a v roce 1649 jej Jaroslav Bořita odkázal jezuitské koleji, jejíž členové provedli barokní opravy a 21. července 1675 znovu vysvětili kapli svatého Václava. Po zrušení jezuitského řádu hrad připadl studijnímu fondu a začal dlouhý úpadek: od roku 1773 správce panství dovolil okolním vesničanům strhávat střechy a prodávat dřevo i tesané kamení jako obyčejný stavební materiál — pomalé rozebírání, které pokračovalo až do roku 1921, kdy hrad převzal do vlastnictví stát a zahájil první skutečné opravy. Od roku 1965 je Okoř chráněn jako kulturní památka.
+
+🎁 Bonus: Hrad postavený tak, aby konkuroval sídlům nejvýznamnějších českých pánů, skončil svou pracovní kariéru jako neoficiální sklad stavebnin pro sousední vesnici — důkaz, že i ta nejokázalejší panství mohou nakonec skončit rozebraná na součástky.`,
+
+      zh: `欢迎来到奥科日城堡遗迹（Zřícenina hradu Okoř），一座位于布拉格西北约十五公里处的十三世纪要塞。十八世纪末，它曾被自己的邻居们悄悄"拆解"——因为城墙的石料和屋顶的木料实在太方便取用，让人难以抗拒。
+
+这座城堡建于十三世纪下半叶，据推测由某位教会显贵所建；从十四世纪中叶起，它更多是富裕的布拉格市民与地位较低的贵族家族的居所，而非大领主的府邸。第一次大规模扩建发生在1359年之前，当时老城富商弗朗季谢克·罗基坎斯基（František Rokycanský）——凭借与查理四世皇帝的关系飞黄腾达——将城堡改建为足以媲美最显赫贵族宅邸的居所。1470年，产权转入多宁家族（páni z Donína）手中，到了下个世纪又归属博日塔·兹·马尔季尼采家族（Bořita z Martinice），他们按照当时的风尚为城堡增添了文艺复兴式的外观。
+
+三十年战争让奥科日城堡遭受重创，1649年雅罗斯拉夫·博日塔将其遗赠给一所耶稣会学院，会士们进行了巴洛克式修缮，并于1675年7月21日为圣瓦茨拉夫小教堂重新举行祝圣礼。耶稣会解散后，城堡归入一个学习基金会名下，并开始漫长的衰败：自1773年起，庄园管理人允许周边村民拆除屋顶、出售木料与凿石作为普通建材，这场缓慢的"拆解"一直持续到1921年国家将其收归国有并开始首次真正的修复。自1965年起，奥科日被列为文化古迹加以保护。
+
+🎁 彩蛋：一座本欲媲美波希米亚最显赫贵族宅邸的城堡，最终却在自己身旁那座村庄眼中，沦为一座非正式的"建材仓库"——足以证明，即便最显赫的家业，最终也可能被拆得七零八落，物尽其用。`,
+    },
+  },
+  {
+    name: 'Eden Shopping Centre',
+    slug: 'nakupni-centrum-eden',
+    localizedNames: { cz: 'Nákupní centrum Eden', zh: '伊甸购物中心' },
+    labels: ['modern', 'historical'],
+    coordinates: { lat: 50.06819412663643, lng: 14.468442074469095 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/N%C3%A1kupn%C3%AD_centrum_Eden',
+    description: {
+      en: `Welcome to Eden Shopping Centre in Vršovice, built on the site of a 1920s amusement park that once boasted a roller coaster over five kilometres long — today the wildest ride on offer is finding a parking space on a Saturday.
+
+The original Sport and Entertainment Park Eden opened in 1922, shortly after the creation of Greater Prague, modelled loosely on Vienna's Prater. Its centrepiece was that extraordinary roller coaster, joined by a boating lagoon, dance halls, variety shows, restaurants, and promenades that drew crowds through the interwar years. The Great Depression of the 1930s hit the park hard: the roller coaster came down in 1935, and after a wartime ban on entertainment venues, Eden closed for good in 1946.
+
+The site sat quiet for decades before the current shopping centre opened in September 2005 under Carrefour, with Tesco taking over just two years later and establishing its Czech headquarters there. The building has been refreshed repeatedly since — the ground and first floors in 2010, the food court in 2020, and a full renovation in 2025 — and today covers roughly 30,800 square metres with more than a hundred shops and services.
+
+🎁 Bonus: A park called Eden, promising paradise through a five-kilometre roller coaster, was eventually replaced by a shopping centre still called Eden, promising paradise through retail therapy instead — same name, same neighbourhood, a century apart, a completely different definition of fun.`,
+
+      cz: `Vítej v Nákupním centru Eden ve Vršovicích, postaveném na místě zábavního parku z dvacátých let, který se kdysi mohl pochlubit horskou dráhou dlouhou přes pět kilometrů — dnes je tou nejdivočejší jízdou spíš hledání parkovacího místa v sobotu.
+
+Původní Sportovní a zábavní park Eden byl otevřen v roce 1922, krátce po vzniku Velké Prahy, a volně se inspiroval vídeňským Prátrem. Jeho hlavní atrakcí byla právě ona pozoruhodná horská dráha, doplněná jezírkem s loďkami, tanečními sály, varietními představeními, restauracemi a promenádami, které lákaly davy návštěvníků po celé meziválečné období. Velká hospodářská krize třicátých let park těžce zasáhla: horská dráha byla stržena v roce 1935 a po válečném zákazu zábavních podniků Eden v roce 1946 definitivně zavřel.
+
+Místo pak desítky let chátralo, než v září 2005 otevřelo současné nákupní centrum pod značkou Carrefour; o pouhé dva roky později jej převzalo Tesco, které zde zřídilo i své české sídlo. Budova od té doby prošla několika úpravami — přízemí a první patro v roce 2010, food court v roce 2020 a kompletní renovace v roce 2025 — a dnes zabírá zhruba 30 800 metrů čtverečních s více než stovkou obchodů a provozoven.
+
+🎁 Bonus: Park jménem Eden sliboval ráj skrze pětikilometrovou horskou dráhu; o století později ho na stejném místě nahradilo nákupní centrum, které pořád jmenuje Eden a slibuje ráj skrze nákupní terapii — stejné jméno, stejná čtvrť, o sto let jinak pojatá zábava.`,
+
+      zh: `欢迎来到弗尔绍维采（Vršovice）的伊甸购物中心（Nákupní centrum Eden），它建在一座二十年代游乐园的旧址之上，那座游乐园曾拥有一条长达五公里以上的过山车——如今这里最"惊险"的体验，大概就是周六来找个停车位。
+
+最初的"伊甸体育娱乐公园"于1922年开放，就在"大布拉格"成立后不久，其构想在一定程度上仿照了维也纳的普拉特公园（Prater）。它的招牌项目正是那条令人咋舌的超长过山车，此外还有划船湖、舞厅、歌舞表演、餐厅与散步大道，在两次世界大战之间吸引了大批游客。上世纪三十年代的大萧条给公园带来沉重打击：过山车于1935年被拆除，而在战时娱乐场所禁令之后，伊甸公园于1946年彻底关闭。
+
+此后这片场地沉寂了数十年，直到2005年9月，如今的购物中心才在家乐福（Carrefour）名下开业；仅仅两年后，乐购（Tesco）便接手了这里，并在此设立了其捷克总部。此后建筑经历了多次翻新——2010年翻新了一楼与二楼，2020年翻新了美食广场，2025年又进行了一次全面翻修——如今占地约30,800平方米，拥有超过一百家商铺与服务设施。
+
+🎁 彩蛋：一座名叫"伊甸"的乐园，曾用一条五公里长的过山车许诺天堂般的体验；一个世纪后，同一片土地上的购物中心依然叫"伊甸"，只不过换成了用购物来许诺天堂——同一个名字，同一个街区，一百年后对"乐趣"的定义已然天差地别。`,
+    },
+  },
+  {
+    name: 'Coypu and Ducks Spot',
+    slug: 'coypu-and-ducks-spot',
+    localizedNames: { cz: 'Místo s nutriemi a kachnami', zh: '海狸鼠与鸭子观赏点' },
+    labels: ['nature', 'hidden-gem'],
+    coordinates: { lat: 50.08864840216423, lng: 14.41111663219937 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to this quiet stretch of Vltava riverbank, unofficially known to locals as the spot where the coypu and the ducks show up for snacks — no plaque, no museum, just a reliable gathering of some of Prague's most enthusiastically fed wildlife.
+
+Coypu, sometimes called nutria, are large South American rodents originally brought to Europe for fur farming; escapees and their descendants have since thoroughly colonised the Vltava's banks throughout Prague. Officials keep warning people not to feed them, since they're an invasive species that can carry disease and don't need human bread to survive — and Praguers keep feeding them anyway, which is how semi-tame little colonies like this one have formed along the embankments. Mallard ducks share the same real estate and beg with just as much confidence, so the two species tend to show up together, floating and waddling around anyone who slows down near the water.
+
+A rarer, shier neighbour has also been reclaiming the river elsewhere in the city: the Eurasian beaver, absent from Prague for roughly 185 years, has been confirmed in nearby Libeň and Karlín since systematic monitoring began in 2019 — though it's considerably less likely than a coypu to swim over for bread.
+
+🎁 Bonus: Genetic studies have ruled out any wild population of Canadian beaver in the Czech Republic, so any "beaver" spotted anywhere along this river is guaranteed homegrown Eurasian stock — unlike its rodent neighbour the coypu, which is an import that never left.`,
+
+      cz: `Vítej na tomto klidném úseku vltavského břehu, který místní neoficiálně znají jako místo, kam si nutrie a kachny chodí pro svačinu — žádná cedule, žádné muzeum, jen spolehlivé srocení jedněch z nejhorlivěji krmených zvířat v Praze.
+
+Nutrie, velcí jihoameričtí hlodavci, byli do Evropy původně dovezeni kvůli kožešinovému chovu; uprchlíci a jejich potomci od té doby důkladně osídlili vltavské břehy po celé Praze. Úřady lidi opakovaně varují, aby je nekrmili, protože jde o invazivní druh, který může přenášet nemoci a lidský chleba k přežití vůbec nepotřebuje — Pražané je přesto krmí dál, a právě tak podél nábřeží vznikají poloochočené kolonie, jako je právě tahle. Stejné teritorium sdílejí kachny divoké, které žebrají se stejnou sebejistotou, takže se oba druhy obvykle objevují společně a obtěžkávají kolem kohokoli, kdo se u vody zastaví.
+
+Jinde ve městě si řeku znovu podmaňuje i vzácnější a plašší soused: bobr evropský, který v Praze chyběl asi 185 let, byl potvrzen v nedaleké Libni a Karlíně od té doby, co v roce 2019 začal systematický monitoring — připlavat si pro chleba je ale mnohem méně pravděpodobný než u nutrie.
+
+🎁 Bonus: Genetické studie vyloučily jakoukoli volně žijící populaci bobra kanadského na území Česka, takže jakýkoli "bobr" spatřený kdekoli podél této řeky je zaručeně domácí evropský rod — na rozdíl od svého hlodavčího souseda nutrie, což je dovezený druh, který tu prostě zůstal.`,
+
+      zh: `欢迎来到伏尔塔瓦河畔这一段安静的河岸，当地人私下称它为"海狸鼠和鸭子来吃点心的地方"——没有铭牌，没有博物馆，只有一群被喂得格外殷勤的布拉格野生动物，稳定地聚集在这里。
+
+海狸鼠（也叫河狸鼠、nutria）是一种体型较大的南美洲啮齿动物，最初是为了皮毛养殖而被引入欧洲；逃逸个体及其后代此后已经彻底"占领"了布拉格城内伏尔塔瓦河的两岸。官方一再警告市民不要投喂它们，因为这是一种可能携带疾病的入侵物种，而且它们本不需要人类的面包也能生存——可布拉格人还是忍不住喂，于是像这样的半驯化小群落，就在沿岸各处渐渐形成了。绿头鸭也占据着同一片"地盘"，讨食起来同样理直气壮，因此这两种动物往往结伴出现，只要有人在水边放慢脚步，就会被它们游着、摇摆着围上来。
+
+在城市的其他地方，一位更稀有、也更怕生的邻居也在重新"收复"河流：欧亚海狸（河狸）在布拉格消失了大约185年之后，自2019年系统监测启动以来，已在邻近的利本（Libeň）和卡尔林（Karlín）得到确认——不过比起海狸鼠，它游过来讨面包的可能性要低得多。
+
+🎁 彩蛋：基因研究已经排除了捷克境内存在野生加拿大海狸种群的可能，所以在这条河沿岸看到的任何"海狸"，保证都是土生土长的欧亚血统——不像它的啮齿类邻居海狸鼠，那可是一个从未离开过的"外来户"。`,
+    },
+  },
+  {
+    name: 'Terezín Concentration Camp',
+    slug: 'koncentracni-tabor-terezin',
+    localizedNames: { cz: 'Koncentrační tábor Terezín', zh: '特雷津集中营' },
+    labels: ['historical', 'monument'],
+    coordinates: { lat: 50.51377897536429, lng: 14.16441309262809 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Koncentra%C4%8Dn%C3%AD_t%C3%A1bor_Terez%C3%ADn',
+    description: {
+      en: `Welcome to the Terezín Memorial, preserved on the site of a Nazi concentration and transit camp where tens of thousands of prisoners were held between 1941 and 1945 — a place that asks for remembrance, not entertainment.
+
+In November 1941, Nazi authorities established a ghetto in the fortress town of Terezín as a collection and transit camp for Jews deported first from the Protectorate of Bohemia and Moravia, and later from across occupied Europe. Roughly 140,000 Jewish prisoners passed through its gates. More than 87,000 of them were deported onward to extermination sites, chiefly Auschwitz-Birkenau, and fewer than 3,800 of those lived to see liberation. Nearly 35,000 more died within Terezín itself, from starvation, disease epidemics, and the brutality of camp guards.
+
+In June 1944, the Nazis staged an elaborate deception for a visiting delegation of the International Red Cross, temporarily improving conditions and presenting a fabricated cultural program to hide the reality of mass death and deportation from outside observers — a falsification later extended into a propaganda film. The camp's separate Small Fortress operated as a Gestapo political prison throughout the occupation, and a National Cemetery now stands before its walls, holding the remains of victims from both institutions. The site has been preserved and administered as a memorial since 1947.
+
+🎁 Bonus: The Red Cross delegation's 1944 report on Terezín was accepted largely at face value — a reminder of how easily atrocity can be concealed behind a rehearsed performance, and part of why memorials like this one exist: to hold the fuller record that a single staged visit was designed to hide.`,
+
+      cz: `Vítej u Památníku Terezín, zachovaného na místě nacistického koncentračního a přestupního tábora, kde bylo mezi lety 1941 a 1945 vězněno desetitisíce lidí — místa, které si žádá vzpomínku, nikoli zábavu.
+
+V listopadu 1941 zřídily nacistické úřady v pevnostním městě Terezín ghetto jako sběrný a přestupní tábor pro Židy deportované nejprve z Protektorátu Čechy a Morava a později z celé okupované Evropy. Jeho branami prošlo přibližně 140 000 židovských vězňů. Více než 87 000 z nich bylo transportováno dál do vyhlazovacích táborů, především do Osvětimi-Birkenau, a osvobození se dožilo méně než 3 800 z nich. Přímo v Terezíně zemřelo dalších téměř 35 000 lidí — na následky hladu, epidemií nemocí a brutality dozorců.
+
+V červnu 1944 nacisté zinscenovali propracovaný podvod pro navštěvující delegaci Mezinárodního výboru Červeného kříže: dočasně vylepšili podmínky a předvedli zfalšovaný kulturní program, aby před vnějšími pozorovateli zakryli realitu hromadného umírání a deportací — lež, kterou později rozšířili i do propagandistického filmu. Samostatná Malá pevnost sloužila po celou dobu okupace jako gestapácké politické vězení a před jejími hradbami dnes stojí Národní hřbitov, kde odpočívají oběti obou zařízení. Místo je od roku 1947 zachováváno a spravováno jako památník.
+
+🎁 Bonus: Zpráva delegace Červeného kříže z roku 1944 o Terezíně byla z velké části přijata za bernou minci — připomínka toho, jak snadno lze zvěrstvo skrýt za nacvičeným představením, a jeden z důvodů, proč takové památníky jako tento existují: aby uchovaly úplnější záznam toho, co jedna zinscenovaná návštěva měla za úkol zakrýt.`,
+
+      zh: `欢迎来到特雷津纪念馆（Památník Terezín），它坐落在一座纳粹集中及转运营的旧址上，1941年至1945年间，数以万计的囚犯曾被关押于此——这是一个需要铭记、而非消遣的地方。
+
+1941年11月，纳粹当局在要塞小镇特雷津建立了一座犹太人隔都，作为集中转运营，用于关押先是从波希米亚和摩拉维亚保护国、后来从整个被占领欧洲各地遣送来的犹太人。约有14万名犹太囚犯曾经经过这里的大门。其中超过8.7万人被继续转运至灭绝营，主要是奥斯维辛-比克瑙集中营，而其中活到解放的人不足3,800人。另有近3.5万人死于特雷津营地本身——死于饥饿、疾病流行以及看守的暴行。
+
+1944年6月，纳粹为来访的国际红十字会代表团精心策划了一场骗局：暂时改善营地条件，并上演了一场伪造的文化节目，以此向外界观察者掩盖大规模死亡与遣送的真相——这场造假后来甚至被扩展拍成了一部宣传影片。营地另设的"小要塞"在整个占领期间被用作盖世太保的政治监狱；如今其城墙前立有一座国家公墓，安葬着来自这两处设施的遇难者遗骸。自1947年起，这处遗址便作为纪念地被保存和管理至今。
+
+🎁 彩蛋：1944年红十字会代表团关于特雷津的报告，在很大程度上被外界照单全收——这提醒着人们，一场精心排演的表演，足以轻易掩盖暴行；而这也正是为什么这样的纪念馆得以存在：为了保存那份更完整的记录，去弥补一次刻意安排的参观本想掩盖的真相。`,
+    },
+  },
+  {
+    name: 'Prague Towers (Stodůlky)',
+    slug: 'prague-towers-stodulky',
+    localizedNames: { cz: 'Prague Towers (Stodůlky)', zh: '布拉格塔楼（斯托杜尔基）' },
+    labels: ['modern', 'architecture'],
+    coordinates: { lat: 50.050278, lng: 14.325 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Prague_Towers',
+    description: {
+      en: `Welcome to Prague Towers, twin 21-storey residential highrises in the Stodůlky district that claimed the whole city's name for themselves despite sitting a solid twenty-minute metro ride from anything a tourist would recognise as central Prague.
+
+Built in 2011 by developer Central Group, the two towers — simply named A and B — each rise about 65 metres and hold roughly 300 apartments apiece, making them among the taller residential buildings outside Prague's historic centre. They stand near the mouths of the Prokopské and Dalejské valleys, two of the city's protected nature reserves, and sit about 600 metres from Lužiny metro station on Line B.
+
+For a pair of buildings bold enough to borrow the capital's own name, they lead a fairly ordinary life as apartment blocks — proof that in real estate marketing, confidence counts for more than modesty.
+
+🎁 Bonus: Step out from under two of Prague's taller residential towers and within minutes you can be walking through the Prokopské and Dalejské valleys, protected nature reserves carved by ancient streams — proof the city can stack twenty-one floors of concrete right next to genuine wilderness without either one noticing the other.`,
+
+      cz: `Vítej u Prague Towers, dvojice jednadvacetipatrových obytných výškových budov ve Stodůlkách, které si pro sebe přivlastnily jméno celého města, přestože leží dobrých dvacet minut metrem od čehokoli, co by turista považoval za centrum Prahy.
+
+Obě věže, jednoduše pojmenované A a B, postavil v roce 2011 developer Central Group; každá měří kolem 65 metrů a nabízí zhruba 300 bytů, čímž patří mezi vyšší obytné budovy mimo historické centrum Prahy. Stojí poblíž ústí Prokopského a Dalejského údolí, dvou chráněných přírodních rezervací města, a asi 600 metrů od stanice metra Lužiny na lince B.
+
+Na dvojici budov, která si troufla vypůjčit jméno celé metropole, vedou obě věže vcelku obyčejný život coby bytové domy — důkaz, že v realitním marketingu se sebevědomí cení víc než skromnost.
+
+🎁 Bonus: Stačí vyjít zpod dvou z vyšších pražských obytných věží a během pár minut se můžeš procházet Prokopským a Dalejským údolím, chráněnými přírodními rezervacemi vyhloubenými dávnými potoky — důkaz, že město dokáže postavit jednadvacet pater betonu hned vedle skutečné divočiny, aniž by si toho jedno od druhého vůbec všimlo.`,
+
+      zh: `欢迎来到布拉格塔楼（Prague Towers），斯托杜尔基（Stodůlky）区的一对21层住宅高楼，它们径直借用了整座城市的名字——尽管乘地铁到任何游客眼中"布拉格市中心"的地方，都要足足二十分钟。
+
+这两座塔楼，简单地被命名为A座和B座，由开发商Central Group于2011年建成；每座楼高约65米，各拥有大约300套公寓，是布拉格历史中心以外较高的住宅建筑之一。它们坐落在普罗科普谷（Prokopské údolí）与达莱伊谷（Dalejské údolí）两处布拉格市受保护自然保护区的入口附近，距离B线的卢日尼（Lužiny）地铁站约600米。
+
+对于一对胆敢借用整座首都之名的建筑而言，这两座塔楼过着相当平凡的公寓楼生活——足以证明在房地产营销中，自信远比谦逊更值钱。
+
+🎁 彩蛋：从这两座布拉格较高的住宅塔楼脚下走出，几分钟内你就能漫步进入普罗科普谷与达莱伊谷——由远古溪流侵蚀而成的受保护自然保护区，足以证明这座城市能把二十一层混凝土直接堆在真正的荒野旁边，而彼此却浑然不觉。`,
+    },
+  },
+  {
+    name: 'Břevnov Windmill',
+    slug: 'vetrny-mlyn-brevnov',
+    localizedNames: { cz: 'Větrný mlýn (Břevnov)', zh: '布热夫诺夫风车' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.08820572792138, lng: 14.351319440451682 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/V%C4%9Btrn%C3%BD_ml%C3%BDn_(B%C5%99evnov)',
+    description: {
+      en: `Welcome to the Větrný mlýn in Břevnov — Prague's only surviving windmill, tucked against the monastery wall, whose greatest career move wasn't grinding grain but lending its name to the legendary Větrník student dormitories that generations of Czech university students still swear allegiance to.
+
+The first pictorial evidence of a windmill on this exact spot dates to 1721, and the mill still carries 1722 carved into the plaster of its gable — a date that lines up neatly with the Dientzenhofer family's Baroque rebuilding of nearby Břevnov Monastery. It ground grain for the monastery until 1794, when miller Jakub Kohoutek bought it outright. A second, brick-built mill nicknamed the "Small Tower" went up alongside it in 1840 and kept turning until around 1900, when it was demolished; the Opatrný family that took over the property afterward converted the site into a residence, adding an Art Nouveau wing of their own.
+
+In 1899, well-known Prague restaurateur Jan Josef Černohorský bought the mill as a ruin, built an adjoining house the following year, and opened a summer restaurant in the courtyard that drew crowds successfully until around 1927. The building has been a protected cultural monument since 1958, and after a thorough post-1990 renovation, its old service wings now operate as a small guesthouse.
+
+🎁 Bonus: The mill gave its name to the surrounding Větrník neighbourhood — and, by extension, to the legendary Větrník student dormitories nearby, meaning generations of Czech university students have called a windmill's name "home" without ever actually seeing the windmill itself.`,
+
+      cz: `Vítej u Větrného mlýna v Břevnově — jediného dochovaného větrného mlýna v Praze, schovaného hned u klášterní zdi, jehož největším životním úspěchem nebylo mletí obilí, ale to, že propůjčil jméno legendárním studentským kolejím Větrník, ke kterým se generace českých vysokoškoláků dodnes hlásí.
+
+První obrazový doklad o mlýnu přesně na tomto místě pochází z roku 1721 a dodnes na omítce jeho štítu najdeš vytesaný letopočet 1722 — datum, které se pěkně shoduje s barokní přestavbou nedalekého Břevnovského kláštera rodinou Dientzenhoferů. Mlýn mlel obilí pro klášter až do roku 1794, kdy ho odkoupil mlynář Jakub Kohoutek. V roce 1840 vedle něj přibyl druhý, zděný mlýn přezdívaný „Věžička", který fungoval zhruba do roku 1900, než byl zbořen; rodina Opatrných, která pak nemovitost převzala, ji přeměnila na obytný dům a přistavěla vlastní secesní křídlo.
+
+V roce 1899 koupil mlýn jako ruinu známý pražský hostinský Jan Josef Černohorský, o rok později k němu přistavěl obytný dům a na dvoře otevřel letní restauraci, která úspěšně lákala hosty až do zhruba roku 1927. Budova je chráněnou kulturní památkou od roku 1958 a po důkladné rekonstrukci po roce 1990 dnes v bývalých hospodářských křídlech funguje malý penzion.
+
+🎁 Bonus: Mlýn propůjčil jméno okolní čtvrti Větrník — a tím pádem i legendárním studentským kolejím Větrník nedaleko odtud, takže generace českých vysokoškoláků nazývaly svým „domovem" jméno větrného mlýna, aniž by ten samotný mlýn kdy na vlastní oči viděly.`,
+
+      zh: `欢迎来到布热夫诺夫风车（Větrný mlýn v Břevnově）——布拉格唯一留存至今的风车，紧贴着修道院围墙而立。它人生中最"成功"的一步，并非磨面粉，而是把自己的名字借给了附近那片著名的"风车"（Větrník）学生宿舍区，几代捷克大学生至今仍对那里念念不忘。
+
+现存最早关于这座风车的图像资料可追溯到1721年，而它山墙的灰泥上至今仍刻着1722年的年份——这个时间点，恰好与迪岑霍费尔家族对附近布热夫诺夫修道院进行的巴洛克式改建相吻合。这座风车一直为修道院磨面，直到1794年被磨坊主雅库布·科豪特克（Jakub Kohoutek）买下。1840年，旁边又建起了第二座砖砌磨坊，昵称"小塔楼"（Věžička），一直运转到约1900年才被拆除；此后接手产业的奥帕特尔尼（Opatrný）家族，把这里改造成了住宅，还自行加建了一座新艺术风格的侧翼。
+
+1899年，布拉格知名餐馆老板扬·约瑟夫·切尔诺霍尔斯基（Jan Josef Černohorský）买下了这座已成废墟的风车，第二年在旁边加建了一栋住宅，并在庭院里开了一家夏季餐厅，一直红火经营到约1927年。这栋建筑自1958年起被列为受保护文物古迹，1990年后经过彻底翻修，如今旧日的附属用房已改造成一家小型民宿。
+
+🎁 彩蛋：这座风车把名字借给了周边的"风车"（Větrník）街区——进而也借给了附近那片传奇的"风车"学生宿舍，于是好几代捷克大学生把"风车"这个名字当作"家"来称呼，却从没真正见过那座风车本尊。`,
+    },
+  },
+  {
+    name: 'Libocká Gate',
+    slug: 'libocka-brana',
+    localizedNames: { cz: 'Libocká brána', zh: '利博茨门' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.08485061633346, lng: 14.336941837838138 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to Libocká brána, the oldest of the three historic gates leading into the Hvězda game reserve — and, depending on which architectural survey you trust, quite possibly the very entrance the whole Renaissance hunting park was originally built around.
+
+The reserve was first enclosed by nothing more than a wooden fence, gradually replaced by a proper stone wall starting in 1541. Libocká brána itself went up in 1557 as part of that rebuilding campaign, giving the park its northeastern gateway in an early Baroque style that has since become one of the reserve's most recognisable features. Architectural historians debate the finer points of dating — some evidence suggests all three main gates, Libocká, Bělohorská, and Břevnovská, may in fact have gone up together during the same Renaissance building campaign rather than Libocká being definitively first — but none of that argument changes what it still does today: mark the main approach into the park from the northeast.
+
+Step through it now and you're walking the same route Habsburg hunting parties once took toward the star-shaped Letohrádek Hvězda at the heart of the reserve.
+
+🎁 Bonus: Three gates were built to guard the same royal hunting ground, and thanks to centuries of stone-versus-timeline debate, historians still can't fully agree on which one gets bragging rights for being first — proof that even a 16th-century wall can start an argument that outlives everyone involved in building it.`,
+
+      cz: `Vítej u Libocké brány, nejstarší ze tří historických bran vedoucích do obory Hvězda — a možná, podle toho, kterému architektonickému rozboru dáš za pravdu, klidně té úplně první, kolem které vznikl celý renesanční lovecký park.
+
+Oboru zprvu obepínal jen dřevěný plot, který se od roku 1541 postupně nahrazoval pořádnou kamennou zdí. Libocká brána vznikla v roce 1557 přímo v rámci této přestavby a dala parku severovýchodní vstup v raně barokním provedení, který se od té doby stal jedním z nejrozpoznatelnějších prvků celé obory. Architektoničtí historici se dodnes přou o přesné datování — některé důkazy naznačují, že všechny tři hlavní brány, Libocká, Bělohorská i Břevnovská, možná vznikly společně v rámci jedné renesanční stavební akce, a Libocká tedy nemusí být jednoznačně nejstarší — nic z toho ale nemění na tom, co brána dělá dodnes: označuje hlavní přístup do parku od severovýchodu.
+
+Když jí dnes projdeš, jdeš přesně tou samou cestou, kterou kdysi habsburské lovecké výpravy mířily k hvězdicovému Letohrádku Hvězda uprostřed obory.
+
+🎁 Bonus: Tři brány vznikly, aby střežily tutéž královskou oboru, a díky staletí trvajícímu sporu o kámen versus časovou osu se historikové dodnes úplně neshodnou na tom, která z nich si zaslouží titul té nejstarší — důkaz, že i zeď ze šestnáctého století dokáže rozpoutat hádku, která přežije úplně všechny, kdo ji stavěli.`,
+
+      zh: `欢迎来到利博茨门（Libocká brána），通往赫维耶兹达狩猎苑（Hvězda，字面意为"星形苑"）的三座历史城门中最古老的一座——而且，如果你相信某些建筑学考据，它很可能正是当初整座文艺复兴风格狩猎苑围绕而建的那个原始入口。
+
+这片猎苑最初只用木栅栏围起，从1541年起逐步换成了真正的石墙。利博茨门本身建于1557年，正是那次改建工程的一部分，为猎苑增添了一座早期巴洛克风格的东北入口，此后一直是猎苑最具辨识度的特征之一。建筑史学家至今仍在争论确切的年代——有证据表明，利博茨门、别洛霍尔斯卡门（Bělohorská）与布热夫诺夫门（Břevnovská）这三座主要城门，或许其实是在同一次文艺复兴时期的建设工程中一并建成的，而利博茨门未必就一定是最古老的那一座——但这一切都不影响它至今仍在履行的职责：标示出从东北方向进入猎苑的主要通道。
+
+如今穿过这道门，你走的正是当年哈布斯堡王室狩猎队伍前往猎苑中央那座星形建筑"赫维耶兹达夏宫"（Letohrádek Hvězda）时所走的同一条路。
+
+🎁 彩蛋：三座城门本是为了守护同一片皇家猎苑而建，可几个世纪以来关于"石头与年代"的争论，至今仍让历史学家无法就谁是"元老"达成一致——足以证明，就连一堵十六世纪的墙，也能挑起一场比所有建造者都活得更久的争论。`,
+    },
+  },
+  {
+    name: 'Otto Wichterle Monument',
+    slug: 'pomnik-otto-wichterle',
+    localizedNames: { cz: 'Pomník profesora Otto Wichterleho', zh: '奥托·维赫特勒教授纪念碑' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.08632186791027, lng: 14.338786234107683 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Otto_Wichterle',
+    description: {
+      en: `Welcome to the Otto Wichterle Monument, a bronze tree in Petřiny whose branches don't grow leaves — they grow patent numbers, sixty-four of them, honouring the chemist who once built a working laboratory device out of a children's construction toy.
+
+Standing on Heyrovského náměstí in front of the Institute of Macromolecular Chemistry, which Otto Wichterle founded, the monument was designed by academic sculptor Michal Gabriel with architects Oleg Haman and Jana Podpěrová. Its cornerstone was ceremonially laid on 27 October 2003, marking the 90th anniversary of Wichterle's birth, and the finished piece was unveiled on 31 October 2005: a bronze plaque roughly 120 by 225 centimetres that gradually splits upward into a stylised tree crown, ending in sixty-four bronze prisms, each stamped with the number of one of his roughly two hundred patents.
+
+The monument's real story, though, happened decades earlier, in a rather less monumental setting. When the Ministry of Health halted official funding for his soft contact lens research, Wichterle simply built his own casting machine at home on Christmas Eve 1961, assembling it from a children's Merkur metal construction set and powering it with a bicycle-wheel dynamo wired through a doorbell transformer. That afternoon he cast his first four lenses with remarkably regular edges; over the following four months, he and his wife hand-produced roughly 5,500 more on the same home-built apparatus, quietly launching what became a global industry.
+
+🎁 Bonus: The Czech state briefly gave up on funding contact lens research — but a chemist, a children's toy, and a bicycle dynamo carried it forward anyway, on a kitchen table, one Christmas Eve.`,
+
+      cz: `Vítej u Pomníku profesora Otto Wichterleho, bronzového stromu na Petřinách, jehož větve nenesou listí — nesou čísla patentů, šedesát čtyři z nich, na počest chemika, který si kdysi doma postavil funkční laboratorní přístroj z dětské stavebnice.
+
+Pomník stojí na Heyrovského náměstí před budovou Ústavu makromolekulární chemie, který Otto Wichterle založil, a navrhl ho akademický sochař Michal Gabriel spolu s architekty Olegem Hamanem a Janou Podpěrovou. Základní kámen byl slavnostně položen 27. října 2003 u příležitosti devadesátého výročí Wichterleho narození a hotové dílo bylo odhaleno 31. října 2005: bronzová deska o rozměrech zhruba 120 na 225 centimetrů, která se směrem vzhůru postupně rozděluje do stylizované koruny stromu, jež končí šedesáti čtyřmi bronzovými hranoly — na každém z nich je vyraženo číslo jednoho z jeho zhruba dvou set patentů.
+
+Skutečný příběh pomníku se ale odehrál o desítky let dřív a v mnohem méně monumentálním prostředí. Když ministerstvo zdravotnictví zastavilo oficiální financování jeho výzkumu měkkých kontaktních čoček, Wichterle si na Štědrý den 1961 prostě postavil vlastní odlévací stroj doma — sestavil ho z dětské kovové stavebnice Merkur a poháněl ho dynamem z jízdního kola zapojeným přes transformátor od zvonku. Toho odpoledne odlil první čtyři čočky s pozoruhodně pravidelnými okraji; během následujících čtyř měsíců pak s manželkou na stejném domácím přístroji ručně vyrobili dalších zhruba 5 500 kusů, čímž tiše odstartovali celosvětový obor.
+
+🎁 Bonus: Československý stát na chvíli výzkum kontaktních čoček vzdal — chemik, dětská stavebnice a dynamo z jízdního kola ho ale i tak dotáhly dál, na kuchyňském stole, jeden Štědrý den.`,
+
+      zh: `欢迎来到奥托·维赫特勒教授纪念碑（Pomník profesora Otto Wichterleho），佩特日尼（Petřiny）的一棵青铜"树"，树枝上长的不是树叶——而是64个专利号，用以纪念这位曾在家里用儿童积木玩具搭出一台真正能用的实验装置的化学家。
+
+这座纪念碑矗立在海罗夫斯基广场（Heyrovského náměstí），正对着奥托·维赫特勒本人创立的大分子化学研究所（Ústav makromolekulární chemie）。它由学院派雕塑家米哈尔·加布里埃尔（Michal Gabriel）与建筑师奥列格·哈曼（Oleg Haman）、雅娜·波德皮耶罗娃（Jana Podpěrová）共同设计。奠基仪式于2003年10月27日举行，恰逢维赫特勒诞辰九十周年纪念日；成品于2005年10月31日正式揭幕：一块约120厘米宽、225厘米高的青铜牌匾，向上逐渐分裂成一顶风格化的树冠，最终化作六十四根青铜棱柱，每一根都刻着他大约两百项专利中的一个编号。
+
+不过，这座纪念碑真正的故事，其实发生在几十年前，一个远没有这般"纪念碑式"的场景里。当卫生部叫停了他软性隐形眼镜研究的官方经费时，维赫特勒索性在1961年平安夜那天，在家里自己搭起了一台铸造机——用儿童金属积木玩具"Merkur"组装而成，靠一只自行车轮上的发电机、通过一个门铃变压器供电驱动。就在那天下午，他浇铸出了边缘出奇规整的头四片镜片；接下来的四个月里，他和妻子在同一台"家庭作坊"设备上，又亲手做出了大约5,500片镜片，悄然催生出了一整个日后风靡全球的产业。
+
+🎁 彩蛋：捷克斯洛伐克政府一度放弃了对隐形眼镜研究的资助——但一位化学家、一套儿童积木和一台自行车发电机，还是在某个平安夜的厨房餐桌上，把这项研究继续推了下去。`,
+    },
+  },
+  {
+    name: 'Petřiny Housing Estate',
+    slug: 'sidliste-petriny',
+    localizedNames: { cz: 'Sídliště Petřiny', zh: '佩特日尼住宅区' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.08812830925501, lng: 14.345233063807239 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Pet%C5%99iny',
+    description: {
+      en: `Welcome to Sídliště Petřiny, the oldest panel housing estate in Prague — built to house roughly 15,000 people on what used to be an empty field, and proof that mass-produced concrete apartment blocks can occasionally turn out more thoughtfully designed than their reputation suggests.
+
+Constructed between 1959 and 1969 to designs by architects Evžen Benda and Vojtěch Mixa, the estate rose on open ground wedged between Prague's military hospital, the Obora Hvězda game reserve, and the Vypich crossroads in Břevnov, as part of the country's first wave of post-war mass residential construction carried out under the 1959 Detailed Urban Plan. Where many later panel estates became bywords for monotony, architectural historians generally treat Petřiny more kindly, citing its restrained, human-scaled first-generation layout, which drew compositional cues from First Republic-era urban planning rather than abandoning them outright.
+
+The estate's most unassuming resident, meanwhile, ended up being one of Czech science's most consequential: the Institute of Macromolecular Chemistry, where Otto Wichterle spent much of his career, sits right inside Petřiny's boundaries, marked today by the bronze tree-shaped monument on Heyrovského náměstí just a short walk from the flats.
+
+🎁 Bonus: A housing estate built to be functional and unremarkable ended up hosting one of the quietly world-changing addresses in Czech science — proof that groundbreaking research doesn't need a grand building, just a determined tenant and a nearby children's toy shop.`,
+
+      cz: `Vítej na Sídlišti Petřiny, nejstarším panelovém sídlišti v Praze — postaveném tak, aby pojalo zhruba 15 000 lidí na místě, kde dřív bylo prázdné pole, a důkazu, že i hromadně vyráběné betonové domy dokážou být místy promyšlenější, než by se podle jejich pověsti čekalo.
+
+Sídliště vzniklo v letech 1959 až 1969 podle návrhu architektů Evžena Bendy a Vojtěcha Mixy na volné ploše sevřené mezi pražskou vojenskou nemocnicí, oborou Hvězda a křižovatkou Vypich v Břevnově, jako součást první poválečné vlny hromadné bytové výstavby prováděné podle podrobného územního plánu z roku 1959. Zatímco mnohá pozdější sídliště se stala synonymem pro fádnost, architektoničtí historici hodnotí Petřiny obecně shovívavěji a oceňují jejich zdrženlivé, lidskému měřítku odpovídající řešení první generace panelové výstavby, které čerpalo kompoziční principy z prvorepublikového urbanismu, místo aby se od nich úplně odklonilo.
+
+Nejnenápadnějším obyvatelem sídliště se přitom stal jeden z nejvýznamnějších aktérů české vědy: Ústav makromolekulární chemie, kde Otto Wichterle strávil velkou část kariéry, stojí přímo uvnitř hranic Petřin a dnes ho na Heyrovského náměstí, jen kousek od okolních domů, připomíná bronzový pomník ve tvaru stromu.
+
+🎁 Bonus: Sídliště postavené tak, aby bylo funkční a nenápadné, nakonec hostilo jednu z tiše nejzásadnějších adres české vědy — důkaz, že na průlomový výzkum nepotřebuješ okázalou budovu, stačí odhodlaný nájemník a obchod s dětskými stavebnicemi opodál.`,
+
+      zh: `欢迎来到佩特日尼住宅区（Sídliště Petřiny），布拉格最古老的板式住宅小区——建来容纳约1.5万居民，选址原本只是一片空地，也证明了批量生产的混凝土住宅楼，有时候确实能比它的名声更用心地设计。
+
+这片小区由建筑师埃夫任·本达（Evžen Benda）与沃伊捷赫·米克萨（Vojtěch Mixa）设计，于1959年至1969年间建成，选址在布拉格军事医院、赫维耶兹达狩猎苑（Obora Hvězda）与布热夫诺夫维皮赫（Vypich）路口之间的一片空地上，是根据1959年详细城市规划、在战后第一波大规模住宅建设浪潮中兴建的项目。许多后来的板楼小区都成了"单调乏味"的代名词，但建筑史学家普遍对佩特日尼评价更宽容，认为它是收敛克制、尺度宜人的第一代板式住宅代表，其构图理念借鉴自第一共和国时期的城市规划传统，而非彻底与之决裂。
+
+而这片小区里最不起眼的一位"住户"，最终却成了捷克科学界最具分量的存在之一：奥托·维赫特勒大半生工作所在的大分子化学研究所，就坐落在佩特日尼的范围之内；如今，在距离周边住宅楼不远的海罗夫斯基广场（Heyrovského náměstí）上，一座青铜树形纪念碑，仍在静静地纪念着他。
+
+🎁 彩蛋：一片本该只求实用、毫不起眼的住宅小区，最终却容纳了捷克科学史上一处悄然改变世界的地址——足以证明，突破性的研究并不需要宏伟的大楼，需要的不过是一位执着的"租客"，和附近一家卖儿童积木玩具的商店。`,
+    },
+  },
+  // ── Šárka valley / Dolní Chabry / Čimice batch (2026-07) ─────────────────
+  {
+    name: 'Jenerálka Chateau',
+    slug: 'jeneralka-zamek',
+    localizedNames: { cz: 'Zámek Jenerálka', zh: '热内拉尔卡城堡' },
+    labels: ['palace', 'historical'],
+    coordinates: { lat: 50.1059710271481, lng: 14.352763614494053 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Jener%C3%A1lka_(z%C3%A1mek)',
+    description: {
+      en: `Brave adventurer, welcome to Jenerálka Chateau (Zámek Jenerálka)!
+
+Tucked into the Šárka valley on the edge of Dejvice, this unassuming country house has spent 250 years being everything at once — farmstead, painter's retreat, war invalids' home, orphanage, secret-police laboratory, and finally, a seminary. Prague rarely lets a building settle on just one identity.
+
+The estate began humbly in the late 18th century as a farmstead with gardens — nothing grand, and nowhere near royal. Its odd name comes from Austrian army generals reportedly billeted here in the 1700s; "generál" simply stuck. In 1826, Prague burgher Ignác Komm bought the property and had it rebuilt in 1828–29 into the neo-Baroque villa still standing today, complete with landscaped park. Landscape painter August Bedřich Piepenhagen lived out his final years here until his death in 1868, and in 1922 the Czechoslovak Legionnaires' office converted the chateau into a home for disabled veterans of the First World War.
+
+The building's darkest chapter came after Reinhard Heydrich's assassination in 1942, when it was converted into a strict-regime children's home holding 46 children whose parents had been executed or interned by the Nazi occupiers — in April 1944 the children themselves were deported to an internment camp in southern Moravia. The Prague Uprising of May 1945 freed political prisoners held here by Nazi official K.H. Frank, and under communism a Tesla research institute for vacuum technology moved in, leaving the building badly deteriorated by 1990. Purchased out of bankruptcy proceedings after the fall of communism, it was carefully restored by the Baptist Church and now houses an international theological seminary and small hotel.
+
+🎁 Bonus: A country house that hosted a landscape painter, disabled war veterans, orphaned children of executed resistance fighters, and a Cold War vacuum-technology lab has somehow landed, after 250 years of upheaval, on theology students discussing scripture over breakfast — Jenerálka's Šárka valley setting is as peaceful now as its history has been anything but.`,
+
+      cz: `Statečný dobrodruhu, vítej na Zámku Jenerálka!
+
+Ukryté v šáreckém údolí na okraji Dejvic, toto nenápadné venkovské sídlo za 250 let stihlo být snad úplně vším najednou — hospodářským statkem, malířským útočištěm, domovem válečných invalidů, sirotčincem, laboratoří tajné policie a nakonec seminářem. Praha zkrátka málokdy nechá budovu, aby si vystačila s jedinou identitou.
+
+Usedlost vznikla skromně na konci 18. století jako statek se zahradami — nic velkolepého, natož panského. Svůj neobvyklý název získala údajně po rakouských generálech, kteří tu byli v 18. století ubytováni; slovo "generál" prostě zůstalo viset. V roce 1826 koupil pozemek pražský měšťan Ignác Komm a nechal jej v letech 1828–29 přestavět na novobarokní vilu, jaká stojí dodnes, včetně upraveného parku. Krajinář August Bedřich Piepenhagen zde prožil poslední léta života až do své smrti v roce 1868 a v roce 1922 kancelář Čs. legií proměnila zámeček na domov pro invalidy z první světové války.
+
+Nejtemnější kapitola budovy přišla po atentátu na Reinharda Heydricha v roce 1942, kdy se z ní stal přísně režimový dětský domov pro 46 dětí, jejichž rodiče nacisté popravili nebo internovali — v dubnu 1944 byly tyto děti samy deportovány do internačního tábora na jižní Moravě. Pražské povstání v květnu 1945 osvobodilo politické vězně, které tu držel nacistický úředník K. H. Frank, a za komunismu se sem nastěhoval výzkumný ústav Tesla zaměřený na vakuovou techniku — budova do roku 1990 značně zchátrala. Po pádu komunismu ji z konkurzního řízení odkoupila baptistická církev a nechala pečlivě zrekonstruovat; dnes tu sídlí mezinárodní teologický seminář a malý hotel.
+
+🎁 Bonus: Venkovské sídlo, které hostilo krajináře, válečné invalidy, osiřelé děti popravených odbojářů i vakuovou laboratoř studené války, po 250 letech zvratů nakonec přistálo u studentů teologie diskutujících u snídaně o Písmu — šárecké údolí kolem Jenerálky je dnes stejně poklidné, jako jeho historie rozhodně nebyla.`,
+
+      zh: `勇敢的冒险家，欢迎来到热内拉尔卡城堡（Zámek Jenerálka）！
+
+这座低调的乡间宅邸坐落在杰维采（Dejvice）边缘的沙尔卡山谷里，250年来几乎把能当的角色都当了个遍——庄园农舍、画家隐居地、伤残老兵之家、孤儿院、秘密警察实验室，最后还成了神学院。布拉格似乎从不甘心让一栋建筑只有一个身份。
+
+这座庄园起初非常朴素，18世纪末只是一座带花园的农庄——毫不起眼，更谈不上什么王公贵族。它奇怪的名字据说来自18世纪曾在此驻扎的奥地利将军们，"将军"（generál）这个称呼就这样留了下来。1826年，布拉格市民伊格纳茨·科姆（Ignác Komm）买下了这处产业，并于1828至1829年间将其改建为如今仍矗立在此的新巴洛克式别墅，配有精心设计的园林。风景画家奥古斯特·贝德里赫·皮彭哈根（August Bedřich Piepenhagen）在此度过了人生的最后岁月，直至1868年去世；1922年，捷克斯洛伐克军团事务处将这座宅邸改建为一战伤残老兵之家。
+
+这栋建筑最黑暗的一章发生在1942年莱因哈德·海德里希遇刺之后：它被改造成一座管理严苛的儿童收容所，收留了46名父母被纳粹占领当局处决或关押的孩子——1944年4月，这些孩子本身也被驱逐到摩拉维亚南部的一处拘留营。1945年5月的布拉格起义解救了纳粹官员卡尔·赫尔曼·弗兰克（K. H. Frank）在此关押的政治犯；到了共产主义时期，一家研究真空技术的Tesla研究所又搬了进来，使建筑到1990年时已严重破败。共产主义垮台后，浸信会通过破产程序买下了这处产业，并悉心修复，如今这里是一所国际神学院，附带一间小型酒店。
+
+🎁 彩蛋：一座曾接待过风景画家、伤残老兵、被处决抵抗战士的孤儿，以及冷战真空技术实验室的乡间宅邸，在历经250年的动荡之后，最终迎来了在早餐桌上讨论经文的神学院学生——如今沙尔卡山谷里的热内拉尔卡一片静谧，与它跌宕起伏的历史形成鲜明对比。`,
+    },
+  },
+  {
+    name: 'Drahaň-Troja Nature Park',
+    slug: 'prirodni-park-drahan-troja',
+    localizedNames: { cz: 'Přírodní park Drahaň-Troja', zh: '德拉哈涅-特罗亚自然公园' },
+    labels: ['nature', 'park'],
+    coordinates: { lat: 50.143229274499916, lng: 14.405936592566583 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/P%C5%99%C3%ADrodn%C3%AD_park_Draha%C5%88-Troja',
+    description: {
+      en: `Brave adventurer, welcome to Drahaň-Troja Nature Park (Přírodní park Drahaň-Troja)!
+
+Spanning nearly 580 hectares along the Vltava's right bank between Holešovice and Dolní Chabry, this stitched-together patchwork of valleys, cliffs, and meadows quietly hosts two of Prague's biggest tourist draws — the zoo and botanical garden — without anyone much noticing the park itself.
+
+Declared a protected quiet zone in 1990 and formalized as a nature park in 1992, Drahaň-Troja sits on some of the oldest exposed rock in the Prague region — Upper Proterozoic shales and greywackes over half a billion years old, laced with rhyolite veins that support rare steppe plant communities you won't find growing anywhere else nearby. Elevation swings from 176 metres at the riverbank up to 314 metres at Velká skála, and three small streams — the Bohnický, Čimický, and Drahaňský — carve their own miniature valleys through the park on their way down to the river.
+
+Woven into the park are more than a dozen separately protected sites, including the Zámky hillfort, a fortified settlement dating to the 6th–8th century AD, and the Trojská basin, where Prague Zoo and the Botanical Garden now draw far more visitors than anyone realizes are technically standing inside a nature park boundary. Today the park faces a modern threat rather than a historical one: a planned section of Prague's outer ring road is routed to cut straight through it.
+
+🎁 Bonus: Millions of people visit Prague Zoo and the Botanical Garden here every year without registering that they've set foot inside one of the city's largest protected natural areas — proof that even a nature park can pull off a very convincing disappearing act.`,
+
+      cz: `Statečný dobrodruhu, vítej v Přírodním parku Drahaň-Troja!
+
+Tento pruh krajiny o rozloze téměř 580 hektarů se táhne podél pravého břehu Vltavy mezi Holešovicemi a Dolními Chabry a nenápadně v sobě ukrývá hned dva z největších pražských turistických magnetů — zoologickou i botanickou zahradu —, aniž by si toho kdokoli všiml jako součásti parku samotného.
+
+Vyhlášen jako chráněné klidové území byl v roce 1990 a formálně se stal přírodním parkem v roce 1992. Drahaň-Troja leží na jedněch z nejstarších obnažených hornin v pražské oblasti — svrchnoproterozoických břidlicích a drobách starých přes půl miliardy let, protkaných žilami ryolitu, které živí vzácná stepní rostlinná společenstva, jaká v okolí nikde jinde nenajdete. Nadmořská výška se pohybuje od 176 metrů u břehu řeky až po 314 metrů na Velké skále a parkem protékají tři drobné potoky — Bohnický, Čimický a Drahaňský —, které si na cestě k řece vyhloubily vlastní miniaturní údolíčka.
+
+Do parku je vetkáno více než tucet samostatně chráněných lokalit, včetně hradiště Zámky, opevněné osady z 6. až 8. století, a Trojské kotliny, kde dnes pražská zoo a botanická zahrada přitahují mnohem víc návštěvníků, než si kdo uvědomuje, že technicky vzato stojí uvnitř hranic přírodního parku. Dnes park čelí spíš moderní než historické hrozbě: plánovaný úsek pražského vnějšího silničního okruhu má vést přímo skrz něj.
+
+🎁 Bonus: Miliony lidí ročně navštíví zdejší zoo a botanickou zahradu, aniž by si všimly, že vstoupily na jedno z největších chráněných přírodních území v Praze — důkaz, že i přírodní park dokáže předvést velmi přesvědčivé mizející kouzlo.`,
+
+      zh: `勇敢的冒险家，欢迎来到德拉哈涅-特罗亚自然公园（Přírodní park Drahaň-Troja）！
+
+这片沿伏尔塔瓦河右岸、从霍列绍维采（Holešovice）一直延伸到下哈布里（Dolní Chabry）的拼接式绿地，占地将近580公顷，把布拉格两大最热门的旅游景点——动物园和植物园——悄悄地收进了自己的版图，却几乎没人注意到这座公园本身的存在。
+
+这片区域于1990年被划为受保护的"安静地带"，1992年正式确立为自然公园。德拉哈涅-特罗亚坐落在布拉格地区最古老的裸露岩层之上——上元古代的页岩与杂砂岩，历史超过五亿年，其间穿插着流纹岩岩脉，滋养着周边再也找不到的稀有草原植物群落。公园海拔从河边的176米一直攀升到大岩（Velká skála）的314米，三条小溪——博赫尼采（Bohnický）、奇米采（Čimický）与德拉哈涅（Drahaňský）——各自在流入大河的途中，切出了自己的迷你山谷。
+
+公园内还交织着十几处各自受保护的地点，其中包括扎姆基（Zámky）山寨遗址——一处可追溯至公元6至8世纪的设防聚落，以及特罗亚盆地——如今布拉格动物园与植物园正坐落于此，吸引的游客远比大多数人意识到的要多，而几乎没人察觉自己其实正站在一座自然公园的边界之内。如今，公园面临的与其说是历史威胁，不如说是现代难题：布拉格外环路的一段规划路线正好要从这里穿过。
+
+🎁 彩蛋：每年有数百万人来这里的动物园和植物园游玩，却完全没意识到自己正踏在布拉格最大的受保护自然区域之一——这证明，就连一座自然公园，也能表演一场非常令人信服的"隐身术"。`,
+    },
+  },
+  {
+    name: 'Jenštejn Castle Ruins',
+    slug: 'zricenina-hradu-jenstejn',
+    localizedNames: { cz: 'Zřícenina hradu Jenštejn', zh: '延什捷因城堡遗迹' },
+    labels: ['castle and fortress', 'ruin', 'historical'],
+    coordinates: { lat: 50.15346725210644, lng: 14.611011494840978 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Jen%C5%A1tejn_(hrad)',
+    description: {
+      en: `Brave adventurer, welcome to Jenštejn Castle Ruins (Zřícenina hradu Jenštejn)!
+
+Out on the eastern edge of the Prague region stands a 14th-century castle that briefly belonged to an archbishop, got confiscated by his own king, was torched by Swedish troops, and spent two centuries as an actual quarry for the locals before anyone bothered to protect it.
+
+First recorded in 1341 under Jenec z Janovic — whose name the castle likely took — Jenštejn changed hands in 1368 to Pavel z Vlašimi, a royal notary and finance minister under Charles IV, who adopted "z Jenštejna" as his own family name. His son, Archbishop Jan z Jenštejna, turned the castle into his favourite residence and added an unusually ambitious circular chapel with rib vaulting inside the keep — fitting for a man of his rank. That rank didn't protect him: a bitter feud with King Wenceslas IV ended with the king seizing the castle outright in 1390.
+
+The castle passed through several noble families over the following two centuries — including the Hrzáns and the Lobkowiczs — before being written off as "old and desolate" by 1608 and folded into the neighbouring Brandýs estate. Swedish troops burned what remained in 1640 during the Thirty Years' War, and by the 19th century the poorest local families were sheltering inside the ruined walls while everyone else quietly helped themselves to the stone. Only in 1966 was Jenštejn declared a cultural monument; excavation and repair through the 1970s finally opened the ruin to visitors in 1977, its 22-metre cylindrical keep now the tallest thing for miles.
+
+🎁 Bonus: An archbishop built a chapel here fit for his rank, his own king confiscated it for the insult, and two centuries later the peasantry moved into the rubble as free housing — Jenštejn may be the only Bohemian castle that managed to insult a king and shelter the poor within the same set of walls.`,
+
+      cz: `Statečný dobrodruhu, vítej u Zříceniny hradu Jenštejn!
+
+Na východním okraji pražského regionu stojí čtrnáctistoletý hrad, který krátce patřil arcibiskupovi, byl zabaven jeho vlastním králem, vypálen švédskými vojsky a dvě staletí sloužil místním obyvatelům jako doslova lom na stavební kámen, než si na něj vůbec někdo vzpomněl s myšlenkou na ochranu.
+
+Poprvé je hrad zmíněn v roce 1341 v souvislosti s Jencem z Janovic, po němž zřejmě dostal jméno. V roce 1368 jej koupil Pavel z Vlašimi, královský notář a finanční ministr Karla IV., který si podle hradu přijal přídomek "z Jenštejna". Jeho syn, arcibiskup Jan z Jenštejna, si z hradu udělal svou oblíbenou rezidenci a nechal do věže vestavět neobvykle honosnou kruhovou kapli se žebrovou klenbou, hodnou jeho postavení. To ho ale neochránilo: prudký spor s králem Václavem IV. skončil tím, že si král hrad v roce 1390 prostě zabral.
+
+Během následujících dvou staletí hrad prošel rukama několika šlechtických rodů — mimo jiné Hrzánů a Lobkowiczů —, než byl v roce 1608 popsán jako "starý a spustlý" a připojen k sousednímu brandýskému panství. Zbytky vypálila v roce 1640 švédská vojska za třicetileté války a v 19. století se v troskách hradeb ukrývaly nejchudší místní rodiny, zatímco ostatní si tiše odnášeli kámen na stavbu. Teprve v roce 1966 byl Jenštejn vyhlášen kulturní památkou; archeologický výzkum a opravy v 70. letech vedly k tomu, že se ruina v roce 1977 konečně otevřela veřejnosti — dnes je jeho 22metrová válcová věž nejvyšší stavbou v širokém okolí.
+
+🎁 Bonus: Arcibiskup si tu postavil kapli hodnou svého postavení, jeho vlastní král mu ji za tu drzost zabavil a o dvě staletí později se do sutin nastěhovali chudí jako do zdarma dostupného bydlení — Jenštejn je možná jediný český hrad, kterému se povedlo urazit krále i poskytnout útočiště chudině v týchž zdech.`,
+
+      zh: `勇敢的冒险家，欢迎来到延什捷因城堡遗迹（Zřícenina hradu Jenštejn）！
+
+在布拉格地区的最东边，矗立着一座14世纪的城堡，它曾短暂归属一位大主教，又被这位大主教自己效忠的国王没收，后来被瑞典军队付之一炬，此后整整两百年沦为当地人名副其实的采石场，直到很久以后才有人想起要保护它。
+
+城堡最早的文献记载出现在1341年，与耶内茨·兹·雅诺维采（Jenec z Janovic）有关——城堡的名字很可能就源自他。1368年，城堡被卖给了查理四世（Charles IV）手下的王室公证人兼财政大臣帕维尔·兹·弗拉希米（Pavel z Vlašimi），此人后来干脆以"兹·延什捷纳"（z Jenštejna）作为自己的家族姓氏。他的儿子——大主教扬·兹·延什捷纳（Jan z Jenštejna）——把这座城堡变成了自己最喜爱的居所，还在主塔内增建了一座与其身份相称、异常精致的圆形肋拱礼拜堂。然而，身份并没能保护他：他与瓦茨拉夫四世（Wenceslas IV）国王之间的激烈冲突，最终以国王在1390年直接没收城堡收场。
+
+在接下来的两个世纪里，城堡几经易主，先后落入赫尔詹（Hrzán）家族与洛布科维茨（Lobkowicz）家族等贵族之手，直到1608年被记载为"破败荒废"，并入邻近的布兰迪斯（Brandýs）庄园。1640年三十年战争期间，瑞典军队将残存的建筑付之一炬；到了19世纪，当地最贫困的家庭直接住进了残垣断壁之中，其余的人则悄悄把石料搬去盖了自己的房子。直到1966年，延什捷因才被列为文化古迹；经过20世纪70年代的考古发掘与修缮，遗迹终于在1977年对公众开放——如今，它那22米高的圆柱形主塔，仍是方圆数里之内最高的建筑。
+
+🎁 彩蛋：一位大主教在这里建造了一座与身份相称的礼拜堂，他效忠的国王却因这份"僭越"将城堡没收；两百年后，穷人又把这堆废墟当成免费住所搬了进来——延什捷因恐怕是捷克唯一一座，在同一片城墙之内，既得罪过国王、又收留过穷人的城堡。`,
+    },
+  },
+  {
+    name: 'Šárka Hillfort',
+    slug: 'hradiste-sarka',
+    localizedNames: { cz: 'Šárecké hradiště', zh: '沙尔卡古城堡遗址' },
+    labels: ['ruin', 'historical'],
+    coordinates: { lat: 50.096256303597755, lng: 14.320809927747371 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C5%A0%C3%A1reck%C3%A9_hradi%C5%A1t%C4%9B',
+    description: {
+      en: `Brave adventurer, welcome to Šárka Hillfort (Šárecké hradiště)!
+
+Long before Prague Castle existed, this fortified hilltop above the Šárka valley was already the region's power centre — occupied on and off since the Stone Age, and for a few centuries in the early Middle Ages, quite possibly the most important address in Bohemia.
+
+Humans have used this hilltop for an almost absurd stretch of time. Neolithic pottery found at nearby Šestákova skála was significant enough to give its name to an entire archaeological classification — the "Šárka type" of Linear Pottery Culture, a term still used by prehistorians across Central Europe. Later came Eneolithic, Bronze Age, and early Iron Age settlement layers, before the site's defining feature rose sometime around the 8th century AD: a massive tripartite hillfort covering some 25 hectares, its walls stretching 820 metres, protecting an acropolis and two baileys.
+
+Excavated grave goods and imports — Avar belt fittings, West Frankish coins, glass beads, silver S-shaped earrings — paint a picture of a well-connected, elite Slavic settlement trading across a wide swath of early medieval Europe, and it peaked in importance in the mid-9th century. Its decline tracks almost exactly with Prague Castle's rise a few kilometres away; by the 10th century Šárka's hillfort had faded into the background it occupies today. Protected as a cultural monument since 1964 and elevated to National Cultural Monument status in 1995, it now sits quietly above the Džbán reservoir, its earthworks the only visible clue to a settlement that once outranked the city growing up beside it.
+
+🎁 Bonus: For a few centuries, the hill above the Šárka valley was more important than the rock Prague Castle would later be built on — the region's original seat of power simply lost the argument to its downstream neighbour, and nobody's ever quite forgiven the reservoir view for stealing the spotlight.`,
+
+      cz: `Statečný dobrodruhu, vítej u Šáreckého hradiště!
+
+Dávno předtím, než vzniklo Pražský hrad, bylo toto opevněné návrší nad šáreckým údolím centrem moci celého regionu — osídlené s přestávkami už od doby kamenné a po několik staletí raného středověku možná nejdůležitější adresou v celých Čechách.
+
+Lidé toto návrší využívali po nezvykle dlouhou dobu. Neolitická keramika nalezená na nedaleké Šestákově skále byla natolik významná, že podle ní dostal jméno celý archeologický typ — "šárecký typ" kultury s lineární keramikou, termín, který dodnes používají prehistorici napříč střední Evropou. Následovaly vrstvy osídlení z eneolitu, doby bronzové i starší doby železné, než kolem 8. století n. l. vzniklo to, co lokalitu definuje dodnes: rozsáhlé trojdílné hradiště o rozloze asi 25 hektarů, s valy dlouhými 820 metrů, chránící akropoli a dvě předhradí.
+
+Nalezené hroby a importy — avarské kování opasků, západofranské mince, skleněné korálky, stříbrné náušnice esovitého tvaru — vykreslují obraz dobře propojeného, elitního slovanského osídlení, obchodujícího napříč velkou částí raně středověké Evropy; svého vrcholu dosáhlo v polovině 9. století. Jeho úpadek se téměř přesně kryje se vzestupem Pražského hradu jen pár kilometrů odtud; v 10. století už šárecké hradiště ustupovalo do pozadí, kde zůstává dodnes. Za kulturní památku bylo vyhlášeno v roce 1964 a v roce 1995 povýšeno na národní kulturní památku; dnes tiše leží nad přehradou Džbán a jeho valy jsou jediným viditelným svědectvím osídlení, které kdysi převyšovalo význam města, jež se rozrůstalo hned vedle.
+
+🎁 Bonus: Po několik staletí bylo návrší nad šáreckým údolím důležitější než skála, na které později vznikl Pražský hrad — původní mocenské centrum regionu prostě prohrálo souboj se sousedem po proudu řeky a výhledu na přehradu dodnes nikdo úplně neodpustil, že mu ukradl pozornost.`,
+
+      zh: `勇敢的冒险家，欢迎来到沙尔卡古城堡遗址（Šárecké hradiště）！
+
+早在布拉格城堡出现之前，沙尔卡山谷上方这座设防的山丘，就已经是整个地区的权力中心——自石器时代以来断断续续地被人居住，而在中世纪早期的几百年间，这里很可能是整个波希米亚最重要的地方。
+
+人类在这座山丘上活动的历史长得几乎有些荒谬。附近谢斯塔科娃岩（Šestákova skála）出土的新石器时代陶器意义重大，以至于整个考古学分类都以此命名——"沙尔卡类型"线纹陶文化，这个术语至今仍被中欧史前学者沿用。此后又相继叠加了铜石并用时代、青铜时代和早期铁器时代的居住层，直到公元8世纪前后，才出现了定义这个遗址的核心建筑：一座占地约25公顷的巨大三重山寨，城墙全长820米，护卫着一座卫城与两处外郭。
+
+出土的随葬品与舶来品——阿瓦尔人的腰带饰件、西法兰克钱币、玻璃珠、S形银耳环——描绘出一处人脉广泛、地位显赫的斯拉夫聚落，与整个中世纪早期欧洲的大片区域都有贸易往来，其鼎盛时期出现在9世纪中叶。它的衰落几乎与几公里外布拉格城堡的崛起同步；到了10世纪，沙尔卡的山寨已逐渐淡出历史舞台，一直延续至今。这里自1964年起被列为文化古迹，1995年升格为国家级文化古迹；如今它静静地俯瞰着日巴恩水库（Džbán），只有那些土垒残迹，还在无声诉说着一处曾经风头盖过身旁那座正在崛起的城市的聚落。
+
+🎁 彩蛋：曾有那么几个世纪，沙尔卡山谷上方这座山丘，比后来矗立布拉格城堡的那块岩石还要重要——这个地区最初的权力中心，最终还是在与下游邻居的较量中败下阵来，而水库那片风景，至今也没能完全被原谅抢走了这份风头。`,
+    },
+  },
+  {
+    name: 'Nebušice Viewpoint',
+    slug: 'nebusicka-vyhlidka',
+    localizedNames: { cz: 'Nebušická vyhlídka', zh: '内布希采观景台' },
+    labels: ['nature', 'hidden-gem'],
+    coordinates: { lat: 50.103600155063866, lng: 14.321437554749071 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Nebušice Viewpoint (Nebušická vyhlídka)!
+
+Perched on a rocky outcrop at the edge of Divoká Šárka, this viewpoint delivers sweeping panoramas over western Prague — and stares directly across the valley at the exact spot where a legendary warrior maiden allegedly leapt to her death rather than face capture.
+
+From here the view stretches across Prague 6, the Dědina housing estate, and the Hvězda game reserve with its star-shaped Renaissance hunting lodge, reaching left as far as the distant silhouette of the Žižkov TV Tower. Directly opposite, across the gorge, rises Dívčí skok — the "Maiden's Leap" — the highest point in the whole of Šárka and sometimes called its crown.
+
+According to the legend recorded in Alois Jirásek's Old Czech Legends, this is where Šárka — the doomed warrior-maiden of the semi-mythical "Maidens' War" — is said to have hurled herself from the cliff rather than be taken alive, giving the entire valley below its name. Whether or not you believe a word of it, the viewpoint sits inside the roughly 1,000-hectare Šárka Nature Park, declared in 1994, and the geography does its own convincing: a sheer, dramatic drop is exactly the kind of place a legend like that gets invented about.
+
+🎁 Bonus: Prague named an entire nature reserve, a valley, and one of its most scenic viewpoints after a legendary woman who — according to the story — would rather jump off a cliff than lose an argument. Somewhere, that feels entirely appropriate.`,
+
+      cz: `Statečný dobrodruhu, vítej na Nebušické vyhlídce!
+
+Usazená na skalním výběžku na okraji Divoké Šárky nabízí tato vyhlídka rozlehlý panorama na západní Prahu — a hledí přímo přes údolí na místo, odkud podle pověsti skočila do smrti legendární bojovná dívka, jen aby unikla zajetí.
+
+Odtud se otevírá výhled přes Prahu 6, sídliště Dědina a oboru Hvězda s jejím renesančním hvězdicovým letohrádkem, a dosahuje vlevo až k siluetě vzdálené žižkovské televizní věže. Přímo naproti, na druhé straně rokle, se zvedá Dívčí skok — nejvyšší bod celé Šárky, kterému se někdy říká její koruna.
+
+Podle pověsti zaznamenané v Jiráskových Starých pověstech českých se právě odtud měla vrhnout dolů Šárka, tragická bojovnice z polomytické "dívčí války", jen aby neupadla živá do zajetí — a dala tak jméno celému údolí pod sebou. Ať už tomu věříte, nebo ne, vyhlídka leží uvnitř zhruba tisícihektarového Přírodního parku Šárka, vyhlášeného v roce 1994, a samotný terén je dostatečně přesvědčivý: strmý, dramatický sráz je přesně to místo, kde se podobné pověsti rodí.
+
+🎁 Bonus: Praha pojmenovala celou přírodní rezervaci, údolí i jednu ze svých nejhezčích vyhlídek po legendární ženě, která se podle pověsti raději vrhla ze skály, než aby prohrála spor — a to k tomuto místu nějak dokonale sedí.`,
+
+      zh: `勇敢的冒险家，欢迎来到内布希采观景台（Nebušická vyhlídka）！
+
+这座观景台坐落在狂野沙尔卡（Divoká Šárka）边缘的一处岩石凸出处，将布拉格西部的壮阔全景尽收眼底——并且正对着峡谷对面那个地方：传说中一位传奇女战士为了不被俘获，从那里纵身跃下丧命。
+
+从这里望去，视野横跨布拉格6区、杰吉纳（Dědina）住宅区，以及带有文艺复兴风格星形猎苑的赫维耶兹达狩猎苑（Hvězda），一路向左延伸，直到远处日什科夫电视塔的轮廓依稀可见。而在峡谷正对面耸立的，是"少女之跃"（Dívčí skok）——整个沙尔卡地区的最高点，有时也被称为它的"王冠"。
+
+根据阿洛伊斯·伊拉塞克（Alois Jirásek）在《捷克古老传说》中记载的故事，正是在这里，那位在半神话色彩的"女子之战"中命运多舛的女战士沙尔卡，据说宁可从悬崖纵身跃下，也不愿被活捉——她也由此为脚下的整片山谷留下了自己的名字。不管你是否相信这个传说，这座观景台确实位于1994年设立、面积约1000公顷的沙尔卡自然公园之内，而当地的地形本身也足够有说服力：这样陡峭、戏剧性的断崖，正是最容易诞生这类传说的地方。
+
+🎁 彩蛋：布拉格用一整片自然保护区、一整条山谷，以及自己最美的观景台之一，去纪念一位据说宁愿跳崖也不愿输掉争论的传奇女子——不知为何，这莫名地非常应景。`,
+    },
+  },
+  {
+    name: 'Ruzyně Barracks',
+    slug: 'kasarna-ruzyne',
+    localizedNames: { cz: 'Kasárna Ruzyně', zh: '鲁济涅兵营' },
+    labels: ['historical', 'monument'],
+    coordinates: { lat: 50.08660915590424, lng: 14.308174370087482 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Ruzyně Barracks (Kasárna Ruzyně).
+
+This still-active army garrison holds one of the most solemn sites of Nazi terror in occupied Prague — a riding hall where hundreds of Czechs were shot or hanged during the Second World War, and where the bullet scars in the walls remain today as a permanent, unaltered memorial.
+
+Built in 1924 as artillery barracks, the garrison first saw its darkest use on 17 November 1939, when Nazi occupiers rounded up hundreds of Czech university students following anti-occupation protests in the wake of student Jan Opletal's death. The students were assembled in the barracks' riding hall before deportation to Sachsenhausen concentration camp; nine student leaders were executed there that same day, marking the first use of extrajudicial killing — "Sonderbehandlung" — in the Protectorate of Bohemia and Moravia. The date, 17 November, is still commemorated annually as International Students' Day.
+
+Worse followed after Reinhard Heydrich's arrival in autumn 1941 and the imposition of martial law: 247 people were shot or hanged in the same riding hall, among them leading figures of the Czech domestic resistance, including several generals and Colonel Josef Balabán, one of the legendary "Three Kings" resistance leaders. The barracks was renamed Kasárny 17. listopadu in 1947 in remembrance. The bullet marks left by the firing squads have been carefully preserved on the riding hall's walls, and since September 2021 the Military History Institute Prague has run a permanent exhibition there covering the years 1939–1942, open to visitors even though the rest of the garrison remains active Ministry of Defence property.
+
+🎁 Bonus: A single riding hall inside a working military barracks carries the memory of both the first act of extrajudicial killing in the occupied Protectorate and one of its final blows against the domestic resistance — the international student holiday marked every 17 November traces directly back to what began within these walls.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kasárnách Ruzyně.
+
+Tento dodnes aktivní vojenský objekt ukrývá jedno z nejtemnějších míst nacistického teroru v okupované Praze — jízdárnu, kde byly za druhé světové války zastřeleny nebo oběšeny stovky Čechů a kde stopy po kulkách dodnes zůstávají na zdech jako trvalá, nezměněná připomínka.
+
+Kasárna vznikla v roce 1924 jako dělostřelecká posádka a svého nejtemnějšího využití se poprvé dočkala 17. listopadu 1939, kdy nacističtí okupanti zatkli stovky českých vysokoškolských studentů po protiokupačních demonstracích, k nimž došlo po smrti studenta Jana Opletala. Studenti byli shromážděni v jízdárně kasáren, než byli deportováni do koncentračního tábora Sachsenhausen; devět studentských představitelů bylo téhož dne popraveno přímo zde — šlo o první případ takzvané Sonderbehandlung, mimosoudní popravy, v Protektorátu Čechy a Morava. Datum 17. listopadu se dodnes celosvětově připomíná jako Mezinárodní den studentstva.
+
+Ještě horší následovalo po příjezdu Reinharda Heydricha na podzim 1941 a vyhlášení stanného práva: ve stejné jízdárně bylo zastřeleno nebo oběšeno 247 lidí, mezi nimi přední představitelé českého domácího odboje, včetně několika generálů a plukovníka Josefa Balabána, jednoho z legendárních "Tří králů" odboje. Kasárna byla v roce 1947 na jejich památku přejmenována na Kasárny 17. listopadu. Stopy po kulkách popravčích čet jsou na zdech jízdárny pečlivě uchovány a od září 2021 zde Vojenský historický ústav Praha provozuje stálou expozici věnovanou letům 1939–1942, přístupnou návštěvníkům i přesto, že zbytek areálu zůstává aktivním majetkem Ministerstva obrany.
+
+🎁 Bonus: Jediná jízdárna uvnitř funkčního vojenského areálu v sobě nese vzpomínku jak na první mimosoudní popravu v okupovaném protektorátu, tak na jednu z posledních ran vedených proti domácímu odboji — mezinárodní svátek studentstva, připomínaný každoročně 17. listopadu, má svůj přímý původ právě v těchto zdech.`,
+
+      zh: `勇敢的冒险家，欢迎来到鲁济涅兵营（Kasárna Ruzyně）。
+
+这座至今仍在使用的军营，承载着被占领时期布拉格最沉重的纳粹恐怖记忆之一——一座马术训练厅，二战期间数百名捷克人曾在此被枪决或绞死，弹痕至今仍完好地留在墙壁上，成为一座未经修饰的永久纪念。
+
+这座兵营建于1924年，最初是炮兵营地。它最黑暗的用途始于1939年11月17日：在学生扬·奥普列塔尔（Jan Opletal）之死引发反占领抗议之后，纳粹占领当局搜捕并逮捕了数百名捷克大学生。这些学生被集中关押在兵营的马术训练厅内，随后被押往萨克森豪森集中营；就在同一天，九名学生领袖在此被处决——这是"波希米亚与摩拉维亚保护国"境内首次实施所谓的"特别处置"（Sonderbehandlung），即不经审判的处决。11月17日这个日期，至今仍作为"国际学生日"在全世界被纪念。
+
+更为惨烈的一幕发生在1941年秋莱因哈德·海德里希抵达布拉格、戒严令随之颁布之后：同一座马术训练厅里，共有247人被枪决或绞死，其中包括捷克国内抵抗运动的多位重要领导人物，几位将军以及传奇抵抗组织"三王"（Tři králové）成员之一——约瑟夫·巴拉班（Josef Balabán）上校。为纪念他们，这座兵营于1947年更名为"十一月十七日兵营"。行刑队留下的弹痕至今仍被小心保存在马术训练厅的墙壁上；自2021年9月起，布拉格军事历史研究所在此设立了一个常设展览，展示1939至1942年间的历史，即使兵营其余部分仍是国防部现役用地，这里依然对公众开放参观。
+
+🎁 彩蛋：在这座仍在服役的军营里，一间马术训练厅同时承载着两段历史——被占领保护国境内首次不经审判处决的记忆，以及针对国内抵抗运动的最后重击之一——而每年11月17日被全世界纪念的"国际学生日"，其源头正是这几面墙壁之内所发生的一切。`,
+    },
+  },
+  {
+    name: 'Ďáblice Observatory',
+    slug: 'hvezdarna-dablice',
+    localizedNames: { cz: 'Hvězdárna Ďáblice', zh: '达布利采天文台' },
+    labels: ['cultural', 'hidden-gem'],
+    coordinates: { lat: 50.14089997623915, lng: 14.476753600349149 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hv%C4%9Bzd%C3%A1rna_%C4%8E%C3%A1blice',
+    description: {
+      en: `Brave adventurer, welcome to Ďáblice Observatory (Hvězdárna Ďáblice)!
+
+Built almost entirely by volunteers out of leftover prefab panels bought for a symbolic one crown apiece, this small hilltop observatory proves you don't need state funding to look at the stars — just a local teacher, an enthusiastic astronomy club, and a lot of unpaid weekends.
+
+The story starts in May 1952, when a public lecture on the universe by local teacher Zdeněk Corn drew such a crowd that an amateur astronomy circle formed on the spot that same autumn. Rather than wait for anyone else to build them a proper facility, the group spent 1954 to 1956 constructing one themselves on Ládví hill — reusing recycled building panels originally intended for Czechoslovakia's very first prefabricated apartment block, purchased for one crown each. The observatory opened on 3 November 1956 with a dome, lecture hall, library, and its own photo darkroom.
+
+Growth continued steadily: a second dome arrived by the mid-1960s using equipment salvaged from a private observatory, and a third 3.5-metre dome relocated from Kolín followed in 1970. When Ďáblice was annexed into Prague in 1968, the observatory merged administratively with Štefánik's Observatory on Petřín, and by 1979 with the planetarium in Stromovka, forming the network that still runs Prague's public astronomy programme today. Since 2016, Ďáblice has offered wheelchair-accessible telescope viewing through a special Coudé optical system — one of only a handful of Czech observatories to do so.
+
+🎁 Bonus: A group of amateur stargazers built their own working observatory in the 1950s using scavenged panels meant for someone else's apartment block — and nearly seventy years later, it's still open most clear nights for anyone who wants to look up.`,
+
+      cz: `Statečný dobrodruhu, vítej na Hvězdárně Ďáblice!
+
+Tuto malou hvězdárnu na kopci postavili téměř výhradně dobrovolníci ze zbytkových panelů koupených symbolicky za korunu kus — důkaz, že ke sledování hvězd nepotřebujete státní dotace, stačí místní učitel, nadšený astronomický kroužek a spousta neplacených víkendů.
+
+Příběh začíná v květnu 1952, kdy veřejná přednáška o vesmíru místního učitele Zdeňka Corna přilákala tak velký zástup, že se hned na podzim téhož roku vytvořil amatérský astronomický kroužek. Místo aby čekali, až jim někdo postaví pořádné zařízení, postavili si jej členové kroužku sami v letech 1954 až 1956 na kopci Ládví — a to z recyklovaných panelů, původně určených pro vůbec první československou panelovou bytovku, koupených po koruně za kus. Hvězdárna byla otevřena 3. listopadu 1956, s kopulí, přednáškovým sálem, knihovnou a vlastní fotografickou temnou komorou.
+
+Růst pokračoval nepřetržitě: druhá kopule přibyla v polovině 60. let s vybavením zachráněným ze soukromé hvězdárny a třetí, 3,5metrová kopule přestěhovaná z Kolína následovala v roce 1970. Když byly Ďáblice v roce 1968 připojeny k Praze, hvězdárna se administrativně sloučila se Štefánikovou hvězdárnou na Petříně a v roce 1979 i s planetáriem ve Stromovce — čímž vznikla síť, která dodnes zajišťuje pražský program veřejné astronomie. Od roku 2016 nabízí Ďáblice pozorování dalekohledem přístupné i vozíčkářům díky speciální coudé optické soustavě — jedna z mála českých hvězdáren, které to dokážou.
+
+🎁 Bonus: Parta amatérských pozorovatelů hvězd si v 50. letech postavila vlastní funkční hvězdárnu z panelů zachráněných z cizí bytovky — a téměř sedmdesát let poté je stále otevřená většinu jasných nocí pro každého, kdo se chce podívat vzhůru.`,
+
+      zh: `勇敢的冒险家，欢迎来到达布利采天文台（Hvězdárna Ďáblice）！
+
+这座建在小山丘上的天文台，几乎完全由志愿者亲手搭建而成，用的还是象征性地以每块一克朗买来的废旧预制板——足以证明，仰望星空并不需要政府拨款，只需要一位本地老师、一群热情的天文爱好者，以及无数个不计报酬的周末。
+
+故事始于1952年5月，当地教师兹德涅克·科恩（Zdeněk Corn）的一场关于宇宙的公开讲座吸引了大批听众，以至于当年秋天，一个业余天文爱好者小组就此成立。他们没有坐等别人为自己建造一座像样的设施，而是在1954年至1956年间自己动手，在拉德维（Ládví）山上建起了这座天文台——所用的建材，正是原本为捷克斯洛伐克第一栋预制板公寓楼准备的回收板材，以每块一克朗的价格买下。天文台于1956年11月3日正式开放，配有一座圆顶观测室、一间讲座厅、一座图书室，以及自己的暗房。
+
+此后，天文台不断扩建：第二座圆顶观测室在60年代中期落成，使用的是从一座私人天文台抢救回来的设备；1970年，第三座直径3.5米、从科林（Kolín）迁移而来的圆顶观测室也加入进来。1968年达布利采并入布拉格市区后，这座天文台在行政上与佩特任山上的什捷法尼克天文台合并，到1979年又与斯特罗莫夫卡的天文馆合并，共同组成了如今仍在运作、负责布拉格公众天文项目的整个网络。自2016年起，达布利采还通过一套特殊的库德式光学系统，为轮椅使用者提供无障碍望远镜观测服务——这在捷克天文台中屈指可数。
+
+🎁 彩蛋：一群业余观星爱好者，在20世纪50年代用本该盖给别人住的公寓板材，硬是自己搭起了一座能正常运转的天文台——将近七十年过去了，只要是晴朗的夜晚，它依然向所有想要抬头仰望星空的人敞开大门。`,
+    },
+  },
+  {
+    name: 'Petrified Farmhand Menhir',
+    slug: 'zkamenely-slouha',
+    localizedNames: { cz: 'Zkamenělý slouha', zh: '石化长工巨石' },
+    labels: ['nature', 'hidden-gem'],
+    coordinates: { lat: 50.1431799364138, lng: 14.451869762807071 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Zkamen%C4%9Bl%C3%BD_slouha',
+    description: {
+      en: `Brave adventurer, welcome to the Petrified Farmhand Menhir (Zkamenělý slouha)!
+
+Wedged today into a garden fence in Dolní Chabry, this three-metre standing stone is the only menhir within Prague's city limits — and, according to local legend, used to be an actual person before making a very bad deal.
+
+The stone itself is an elongated block of dark-grey silicite roughly three metres tall, weighing about a ton, with a base circumference of nearly 2.75 metres. A 1914 photograph by writer and archaeologist Eduard Štorch confirms it has stood at this exact spot for well over a century, back when it rose alone in an open meadow at a crossroads of old paths — long before Prague's residential sprawl grew up around it and eventually swallowed the meadow whole, leaving the stone embedded in the boundary fence of a private house.
+
+Local legend has it that the stone was once a farmhand who, struggling to free a hay cart stuck fast on the path, cursed and called on an evil spirit for help — and then refused to pay the price once the cart was freed. The spirit's punishment, in the folk tradition typical of Czech menhir legends, was to turn him permanently to stone — his stooped, inclined silhouette said to still resemble the shape of a man bent under a heavy load. Excavations after 2006 uncovered two further stone boulders nearby, hinting the site may originally have been a small group of standing stones rather than a single isolated menhir.
+
+🎁 Bonus: Prague's one and only menhir is squeezed into a suburban garden fence between two houses — proof that even the city's oldest surviving monument to human folly couldn't escape a housing development eventually growing up right around it.`,
+
+      cz: `Statečný dobrodruhu, vítej u Zkamenělého slouhy!
+
+Dnes zaklíněný do plotu jedné zahrady v Dolních Chabrech, tento třímetrový menhir je jediným svého druhu na území Prahy — a podle pověsti měl být kdysi skutečným člověkem, než uzavřel velmi nevýhodnou dohodu.
+
+Samotný kámen je protáhlý blok tmavošedého buližníku, vysoký zhruba tři metry, vážící asi tunu, s obvodem u paty téměř 2,75 metru. Fotografie z roku 1914, kterou pořídil spisovatel a archeolog Eduard Štorch, potvrzuje, že na tomto přesném místě stál už tehdy — v době, kdy se tyčil osamocený na otevřené louce na křižovatce starých cest, dávno předtím, než jej pražská zástavba obklopila a nakonec pohltila celou louku, takže kámen dnes vězí zapuštěný v plotu soukromého domu.
+
+Podle místní pověsti byl kámen kdysi čeledínem, který se marně snažil uvolnit na cestě zapadlý vůz se senem, klel a přivolal si na pomoc zlého ducha — a když se vůz podařilo uvolnit, odmítl za pomoc zaplatit slíbenou cenu. Trest ducha byl v duchu lidových pověstí typických pro české menhiry jednoznačný: proměnit jej navždy v kámen — jeho sehnutá, nakloněná silueta prý dodnes připomíná postavu muže shrbeného pod těžkým břemenem. Vykopávky po roce 2006 odhalily v okolí ještě dva další kamenné balvany, což naznačuje, že místo mohlo být původně malou skupinou stojících kamenů, a ne jen osamoceným menhirem.
+
+🎁 Bonus: Jediný pražský menhir je dnes vmáčknutý do plotu jedné předměstské zahrady mezi dvěma domy — důkaz, že ani nejstarší dochovaný pomník lidské pošetilosti v Praze neunikl zástavbě, která se kolem něj časem stejně rozrostla.`,
+
+      zh: `勇敢的冒险家，欢迎来到"石化长工"巨石（Zkamenělý slouha）！
+
+这块高约三米的立石，如今被卡在下哈布里（Dolní Chabry）一户人家花园的围栏里，是布拉格市区范围内唯一的一块史前立石——据当地传说，它曾经是一个活生生的人，只因做了一笔非常糟糕的交易，才落得如此下场。
+
+这块石头本身是一整块细长的深灰色燧石（buližník），高约三米，重约一吨，底部周长将近2.75米。作家兼考古学家爱德华·施托赫（Eduard Štorch）在1914年拍摄的一张照片，证实这块石头早在那时就矗立在如今这个确切位置——当时它孤零零地立在一片开阔草地上，正好位于几条古道的交汇处，远早于布拉格的住宅区蔓延至此、最终把整片草地都吞没，只留下这块石头被嵌进了一户私宅的围栏之中。
+
+据当地传说，这块石头曾是一名长工，他在路上拼命想拉出一辆陷住的干草车，情急之下咒骂并召唤了一个邪恶的精灵来帮忙——可等车被拉出来后，他却拒绝支付承诺的报酬。按照捷克立石传说里常见的民间套路，那个精灵给他的惩罚干脆利落：把他永远变成了石头——据说它那弯腰倾斜的轮廓，至今仍像一个被沉重负担压弯了腰的人形。2006年之后的一次挖掘，在附近又发现了另外两块石头，这暗示着这里最初或许本是一小群立石，而非一块孤零零的巨石。
+
+🎁 彩蛋：布拉格独一无二的这块史前立石，如今被挤在两户人家之间的郊区花园围栏里——这证明就连这座城市现存最古老的"人类愚行纪念碑"，最终也没能逃过后来在它周围拔地而起的住宅区。`,
+    },
+  },
+  {
+    name: 'Church of the Beheading of St. John the Baptist (Dolní Chabry)',
+    slug: 'kostel-steti-sv-jana-krtitele-dolni-chabry',
+    localizedNames: { cz: 'Kostel Stětí svatého Jana Křtitele (Dolní Chabry)', zh: '施洗约翰斩首教堂（下哈布里）' },
+    labels: ['church', 'historical'],
+    coordinates: { lat: 50.14926760623109, lng: 14.442210174803224 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_St%C4%9Bt%C3%AD_svat%C3%A9ho_Jana_K%C5%99titele_(Doln%C3%AD_Chabry)',
+    description: {
+      en: `Brave adventurer, welcome to the Church of the Beheading of St. John the Baptist (Dolní Chabry)!
+
+Archaeologists digging beneath this modest parish church in the 1970s discovered it wasn't the first building on the site — it was the fourth, stacked one on top of another since the early 11th century.
+
+Excavations in 1973–74 traced the site's sequence: first a wooden chapel from the early 11th century, then a small masonry church built in the distinctive "herringbone" technique later that century, followed by a large rotunda raised around the turn of the 11th and 12th centuries — at roughly 12.5 metres across, the second-largest Romanesque rotunda ever found in Bohemia, outsized only by the one at Prague Castle. That rotunda's floor was paved with around twenty different types of relief tiles, decorated with geometric, botanical, animal, and figural motifs, including a depiction of Daniel in the lions' den. The present church, the fourth structure on this ground, dates to around 1180.
+
+In 1905, restoration work rediscovered rare Romanesque murals hidden in the apse — a "Christ in Mandorla" procession of apostles from around 1230–40, and Bohemia's oldest surviving painted Marian cycle, from roughly 1250–60. The church survived the Hussite Wars with a burned roof, was repaired in late-Gothic style afterward, and endured further damage during the Thirty Years' War — a conflict that also wiped out the independent Dolní Chabry parish itself, leaving the church a subsidiary of the parish in nearby Prosek ever since. A carved date of 1439 found in the attic still marks the post-Hussite repairs.
+
+🎁 Bonus: Beneath the floor of an unassuming Prague suburb parish church lie the buried remains of three earlier buildings, including a Romanesque rotunda that was, in its day, the second-biggest of its kind in the whole of Bohemia — proof that some of Prague's most significant medieval architecture is quite literally hiding underfoot.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kostele Stětí svatého Jana Křtitele v Dolních Chabrech!
+
+Archeologové, kteří v 70. letech kopali pod tímto skromným farním kostelem, zjistili, že nejde o první stavbu na tomto místě — je to už čtvrtá, postavená jedna na druhou od počátku 11. století.
+
+Vykopávky z let 1973–74 zrekonstruovaly celou posloupnost: nejprve dřevěná kaple z počátku 11. století, poté malý kamenný kostelík postavený později téhož století charakteristickou technikou kladeného zdiva, po něm velká rotunda vztyčená na přelomu 11. a 12. století — o průměru téměř 12,5 metru, druhá největší románská rotunda kdy nalezená v Čechách, překonaná jen tou na Pražském hradě. Podlaha rotundy byla vydlážděna asi dvaceti typy reliéfních dlaždic zdobených geometrickými, rostlinnými, zvířecími i figurálními motivy, včetně zobrazení Daniela ve lví jámě. Dnešní kostel, čtvrtá stavba na tomto místě, pochází přibližně z roku 1180.
+
+V roce 1905 restaurátorské práce znovu objevily vzácné románské malby ukryté v apsidě — průvod apoštolů kolem "Krista v mandorle" z let asi 1230–40 a nejstarší dochovaný malovaný mariánský cyklus v Čechách, z doby kolem 1250–60. Kostel přežil husitské války s vypálenou střechou, byla poté opravena v pozdně gotickém slohu, a další škody utrpěl za třicetileté války — konflikt, který zároveň zanikl samostatnou faru v Dolních Chabrech, takže kostel je od té doby filiálním kostelem farnosti v nedalekém Proseku. Vytesaný letopočet 1439 nalezený na půdě dodnes připomíná pohusitské opravy.
+
+🎁 Bonus: Pod podlahou nenápadného farního kostela na pražském předměstí leží ukryté pozůstatky tří starších staveb, včetně románské rotundy, která byla ve své době druhou největší svého druhu v celých Čechách — důkaz, že některé z nejvýznamnějších středověkých staveb v Praze se doslova skrývají pod nohama.`,
+
+      zh: `勇敢的冒险家，欢迎来到施洗约翰斩首教堂（下哈布里）！
+
+20世纪70年代，考古学家在这座朴素的教区教堂地下进行挖掘时发现，眼前这座建筑其实并非此地最早的建筑，而是自11世纪初以来，一座接一座叠建起来的第四代建筑。
+
+1973至1974年的考古发掘还原了完整的建造序列：最早是11世纪初的一座木制小礼拜堂，随后是同一世纪晚些时候用独特的"人字形"砌法建造的小型石砌教堂，接着是在11世纪末至12世纪初建起的一座大型圆形教堂（罗通达）——直径将近12.5米，是波希米亚地区发现的第二大罗马式圆形教堂，仅次于布拉格城堡内的那一座。这座圆形教堂的地面铺设着约二十种不同的浮雕地砖，装饰有几何、植物、动物与人物图案，其中就包括"但以理在狮子坑中"的场景。而如今矗立在这里的教堂，是这块土地上的第四代建筑，大约建于1180年。
+
+1905年的修复工程，在后殿重新发现了极为罕见的罗马式壁画——一幅描绘约公元1230至1240年间"曼多拉光轮中的基督"与使徒行列的壁画，以及波希米亚现存最古老的圣母题材壁画组图，绘于约1250至1260年间。这座教堂在胡斯战争中屋顶被焚毁，战后依照晚期哥特风格修复；三十年战争期间又遭受了进一步破坏——这场战争同时也终结了下哈布里独立教区的存在，此后这座教堂便一直作为附近普罗塞克（Prosek）教区的分堂存在至今。阁楼中发现的一处刻有1439年字样的标记，至今仍见证着那次胡斯战争之后的修复工程。
+
+🎁 彩蛋：在布拉格一处不起眼的郊区教区教堂地板之下，埋藏着三代更早建筑的遗迹，其中包括一座罗马式圆形教堂——它在当年，曾是整个波希米亚同类建筑中的第二大——这足以证明，布拉格一些最重要的中世纪建筑，其实就实实在在地藏在脚下。`,
+    },
+  },
+  {
+    name: 'Čimice Fortress',
+    slug: 'cimicka-tvrz',
+    localizedNames: { cz: 'Čimická tvrz', zh: '奇米采要塞' },
+    labels: ['ruin', 'historical'],
+    coordinates: { lat: 50.14298461445292, lng: 14.39941772922178 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C4%8Cimick%C3%A1_tvrz',
+    description: {
+      en: `Brave adventurer, welcome to Čimice Fortress (Čimická tvrz)!
+
+There's nothing standing above ground here anymore — just a quiet stretch of parkland by a village pond — but buried beneath the grass lies one of the earliest fortified stone residences known in the Prague area.
+
+The village of Čimice first appears in written records in 1334, held by Prague's cathedral provost, but archaeology tells an older story: a fortified stone house with dressed ashlar masonry already stood on this spot at the start of the 13th century, later rebuilt into a tower-like structure — a stone ground floor topped by a timber upper storey, an interior barely 6.8 by 4.4 metres, walls a full metre thick, ringed by a circular moat and palisade. It's a strong candidate for one of the oldest fortified residences of its kind in the whole region.
+
+That original fortress likely didn't survive the upheavals of 1420, when Prague's citizens seized Čimice during the Hussite Wars and later handed it to Bohuněk of Bohnice. A new fortified building rose on or near the same spot around the mid-16th century, passing through a rapid succession of owners — Adam ze Strašína, Zikmund Diviš z Hradešína, Jan Bryknar z Brukštejna — until Eliška Hofmannová transferred "the whole fortification and village" to her husband in 1609, the last time it's mentioned in any surviving document. Systematic excavation between 1975 and 1983 uncovered the rectangular stone foundations, the moat, and 16th-century ceramics, after which the remains were carefully reburied and the site landscaped into the parkland that covers it today.
+
+🎁 Bonus: Somewhere under a patch of ordinary-looking grass beside the Čimice pond sit the eight-hundred-year-old foundations of a fortified stone house — reburied on purpose after archaeologists finished studying it, so the ground you're standing on is protecting a monument you'll never actually see.`,
+
+      cz: `Statečný dobrodruhu, vítej u Čimické tvrze!
+
+Nad zemí už tu dnes nic nestojí — jen klidný pruh parku u návesního rybníka —, ale pod trávníkem se skrývají základy jednoho z nejstarších opevněných kamenných sídel v pražské oblasti.
+
+Vesnice Čimice se poprvé písemně zmiňuje v roce 1334, tehdy v držení pražského probošta, ale archeologie vypráví starší příběh: opevněný kamenný dům z opracovaných kvádrů zde stál už na počátku 13. století a byl později přestavěn na věžovitou stavbu — kamenné přízemí s dřevěným patrem, interiér o rozměrech pouhých 6,8 × 4,4 metru, zdi silné celý metr, obklopené kruhovým příkopem a palisádou. Jde o silného kandidáta na jedno z nejstarších opevněných sídel svého druhu v celém regionu.
+
+Původní tvrz zřejmě nepřežila zmatky roku 1420, kdy pražští měšťané za husitských válek Čimice zabrali a později je předali Bohuňkovi z Bohnic. Nová opevněná stavba vznikla na stejném nebo blízkém místě kolem poloviny 16. století a rychle střídala majitele — Adama ze Strašína, Zikmunda Diviše z Hradešína, Jana Bryknara z Brukštejna —, než Eliška Hofmannová v roce 1609 převedla "celou tvrz i s vesnicí" na svého manžela, což je poslední dochovaná zmínka o tvrzi vůbec. Systematický archeologický výzkum v letech 1975 až 1983 odkryl obdélné kamenné základy, příkop i keramiku ze 16. století; poté byly pozůstatky pečlivě znovu zasypány a plocha upravena na park, který místo pokrývá dodnes.
+
+🎁 Bonus: Někde pod obyčejně vyhlížejícím trávníkem u čimického rybníka leží osm set let staré základy opevněného kamenného domu — po skončení archeologického výzkumu úmyslně znovu zasypané, takže půda, na které stojíte, chrání památku, kterou nikdy na vlastní oči neuvidíte.`,
+
+      zh: `勇敢的冒险家，欢迎来到奇米采要塞（Čimická tvrz）！
+
+这里地面上如今已经空无一物——只剩下村塘边一片安静的绿地——但草皮之下，却埋藏着布拉格地区已知最早的设防石造居所之一。
+
+奇米采（Čimice）村最早见于1334年的文献记载，当时归布拉格教堂的教务长所有，但考古证据讲述了一个更早的故事：早在13世纪初，这里就已矗立着一座用琢石砌成的设防石屋，后来又被改建为塔楼式结构——石砌底层加木造上层，内部空间仅有6.8米乘4.4米，墙体厚达一整米，四周环绕着圆形壕沟与栅栏。它极有可能是整个地区同类设防居所中最古老的一座。
+
+这座最初的要塞很可能没能挺过1420年的动荡——胡斯战争期间，布拉格市民夺取了奇米采，后来又将其转交给博赫尼采（Bohnice）的博胡涅克（Bohuněk）。16世纪中叶前后，原址或附近又建起了一座新的设防建筑，此后业主更迭频繁——亚当·兹·斯特拉申（Adam ze Strašína）、齐格蒙德·迪维什·兹·赫拉德申（Zikmund Diviš z Hradešína）、扬·布里克纳尔·兹·布鲁克什泰因（Jan Bryknar z Brukštejna）相继易手——直到1609年，埃利什卡·霍夫曼诺娃（Eliška Hofmannová）将"整座要塞连同村庄"转交给了自己的丈夫，这是现存文献中关于这座要塞的最后一次记载。1975年至1983年间的系统考古发掘，出土了矩形石砌地基、壕沟以及16世纪的陶器；发掘结束后，遗迹被小心地重新掩埋，原址也被改造成了如今覆盖其上的这片公园绿地。
+
+🎁 彩蛋：在奇米采村塘边那片看似普通的草地之下，静静躺着一座已有八百年历史的设防石屋地基——考古学家研究完毕后特意将它重新掩埋，所以你脚下的这片土地，正守护着一处你永远无法亲眼看到的古迹。`,
     },
   },
 ];

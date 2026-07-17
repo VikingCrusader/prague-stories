@@ -420,10 +420,6 @@ export const SLUG_RARITY = {
   'levy-hradec':                   'epic',  // cradle of Bohemian Christianity, Bořivoj's church, Vojtěch elected bishop 982
   'cesky-svaz-zpracovatelu-masa':  'common', // meat industry trade association HQ, deliberately mundane hidden gem
   'roztoky-u-prahy':               'superior', // riverside town, 13th-c fortress turned Renaissance chateau, now regional museum
-  'kladensky-zamek':               'superior', // Gothic-to-Baroque chateau, Dientzenhofer reconstruction, now city museum/library
-  'kostel-nanebevzeti-panny-marie-kladno': 'rare', // 1897-99 basilica, ceiling collapse in the 70s/80s, reconsecrated 2000
-  'magistrat-mesta-kladna':        'rare',  // 1897-98 Neo-Renaissance town hall, Jan Vejrych, Liebscher murals
-  'mariansky-sloup-kladno':        'rare',  // 1739-41 Dientzenhofer Marian column, built over the old town pillory
 
   // ── Roztoky / Budeč / Unhošť / Kladno batch (2026-07) ───────────────────
   'zamek-stredoceskeho-muzea-roztoky': 'superior', // 550,000-object archaeology collection, Archevita multimedia exhibit
@@ -661,6 +657,36 @@ export const SLUG_RARITY = {
   'zamek-dolni-brezany':           'superior', // c.1600 Renaissance chateau, now Chateau Clara Futura hotel
   'kaminek':                       'rare',     // artificial hill from 2009 ring-road spoil, ex-quarry swimming hole
   'komorany':                      'superior', // first recorded 1088, merged with Modřany 1964, annexed to Prague 1968
+
+  // ── Břevnov / Petřiny batch (2026-07) ───────────────────────────────────
+  'vetrny-mlyn-brevnov':            'epic',     // Prague's only surviving windmill, 1722 gable date, gave name to Větrník dorms
+  'libocka-brana':                  'superior', // 1557 oldest gate into Obora Hvězda game reserve
+  'pomnik-otto-wichterle':          'rare',     // bronze patent-tree monument, ÚMCH founder, Merkur contact-lens story
+  'sidliste-petriny':               'superior', // 1959-69, oldest panel housing estate in Prague
+
+  // ── Veleslavín / Nebušice / Radotín / Okoř batch (2026-07) ─────────────
+  'zamek-veleslavin':               'epic',     // Dientzenhofer chateau, Prussian king lodged here 1757, Fischer's parallel Alzheimer's research
+  'hvizdalka':                      'epic',     // 58ha working limestone quarry containing 1.3ha Ludlow-Přídolí reference profile, Barrande's original pits
+  'radotinske-skaly':               'epic',     // 28.3ha Paleozoic cliff profile, Ordovician-Silurian-Devonian boundary
+  'kostel-svateho-cyrila-a-metodeje-nebusice': 'rare', // 1885-86 neo-Romanesque parish church, cornerstone laid on St. Methodius's death anniversary
+  'nebusicke-oko':                  'rare',     // 2021-22 ČVUT student-built swinging wooden viewpoint
+  'zricenina-hradu-okor':           'superior', // 13th-c castle ruin, Rokycanský rebuild, Jesuit-owned, villager-stripped from 1773
+  'nakupni-centrum-eden':           'rare',     // built on 1922 Sport and Entertainment Park Eden site, 5km+ roller coaster
+  'coypu-and-ducks-spot':           'common',   // informal Vltava riverbank wildlife-feeding spot, Karlín
+  'koncentracni-tabor-terezin':     'mythic',   // Nazi ghetto/transit camp 1941-45, ~140,000 deported, ~35,000 died on site
+  'prague-towers-stodulky':         'common',   // 2011 Central Group twin 21-storey residential highrises, Stodůlky
+
+  // ── Šárka valley / Dolní Chabry / Čimice batch (2026-07) ─────────────────
+  'jeneralka-zamek':                'epic',     // farmstead-turned-chateau, WWII orphanage for executed resisters' children, StB lab, now Baptist seminary
+  'prirodni-park-drahan-troja':     'superior', // 580ha nature park hiding the zoo and botanical garden inside its own boundary
+  'zricenina-hradu-jenstejn':       'epic',     // archbishop's confiscated 14th-c castle, Swedish-burned, later peasant shelter
+  'hradiste-sarka':                 'epic',     // National Cultural Monument, 25ha tripartite hillfort predating Prague Castle
+  'nebusicka-vyhlidka':             'rare',     // Šárka valley viewpoint facing Dívčí skok, Jirásek's Old Czech Legends site
+  'kasarna-ruzyne':                 'epic',     // active barracks riding hall, 1939 student executions, 247 shot under Heydrich terror
+  'hvezdarna-dablice':              'rare',     // volunteer-built 1956 observatory from recycled first-panelák panels
+  'zkamenely-slouha':               'epic',     // Prague's only menhir, "petrified farmhand" curse legend, Dolní Chabry
+  'kostel-steti-sv-jana-krtitele-dolni-chabry': 'superior', // 4th building on site, 2nd-largest Bohemian Romanesque rotunda beneath it
+  'cimicka-tvrz':                   'rare',     // 13th-c fortified house foundations, excavated then reburied under parkland
 };
 
 export function getRarity(slug) {
