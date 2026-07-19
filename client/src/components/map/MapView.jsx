@@ -5,7 +5,6 @@ import { getLocName } from '../../utils/locName';
 import { useUserPosition } from '../../hooks/useUserPosition';
 
 const PRAGUE_CENTER = [50.0755, 14.4378];
-const PRAGUE_BOUNDS = [[49.94, 14.22], [50.18, 14.71]];
 
 const ZOOM_RADIUS = { 10:5, 11:5, 12:5, 13:5, 14:5, 15:6, 16:8, 17:10, 18:10 };
 
@@ -18,8 +17,6 @@ function Markers({ locations, selectedSlug, onLocationClick, lang, convert }) {
   const map = useMap();
   const [zoom, setZoom] = useState(() => map.getZoom());
   useMapEvents({ zoomend: (e) => setZoom(e.target.getZoom()) });
-  map.setMinZoom(10);
-  map.setMaxBounds(PRAGUE_BOUNDS);
   const userPos = useUserPosition();
 
   return (
@@ -69,9 +66,6 @@ export default function MapView({ locations, selectedSlug, onLocationClick }) {
     <MapContainer
       center={PRAGUE_CENTER}
       zoom={13}
-      minZoom={10}
-      maxBounds={PRAGUE_BOUNDS}
-      maxBoundsViscosity={0.8}
       style={{ height: '100%', width: '100%' }}
       zoomControl={true}
     >
