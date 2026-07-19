@@ -18605,6 +18605,427 @@ Klášter byl založen roku 1032 z popudu knížete Oldřicha, biskupa Šebíře
 🎁 彩蛋：普罗科普封圣后声望日隆，最终成为波希米亚的守护圣人之一——这位曾在萨扎瓦河畔深林中创立一座简朴修道院的隐修士，最终与圣瓦茨拉夫（Wenceslas）、圣鲁德米拉（Ludmila）一同被供奉在捷克民族圣徒的殿堂之中。`,
     },
   },
+
+  // ── Prague-adjacent batch (2026-07): outlets, monuments, castles, gold towns ──
+  {
+    name: 'Fashion Arena Prague Outlet',
+    slug: 'fashion-arena-prague-outlet',
+    localizedNames: { cz: 'Fashion Arena Prague Outlet', zh: '布拉格时尚奥特莱斯' },
+    labels: ['modern'],
+    coordinates: { lat: 50.07389512926092, lng: 14.539283153071937 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Fashion Arena Prague Outlet, the biggest shrine to discounted shopping in the entire Czech Republic! No moats, no watchtowers here — just over two hundred international and Czech brands selling last season's finery at thirty to seventy percent off, tucked into a low-rise retail park on Prague's eastern edge.
+
+Fashion Arena opened its doors in the mid-2000s on Zamenhofova street, in the unglamorous industrial fringe of Prague 10, and has since grown into the country's largest outlet centre. Racks of clothing, footwear, and homeware from well-known fashion houses share the halls with Czech glass and porcelain makers, giving the place a split identity: half international bargain-hunting circuit, half showcase for domestic craft, all wrapped in the practical, no-frills architecture of a shopping centre built purely to move stock. It draws a very different crowd from the castle-and-cobblestone tourist trail — savvy locals stocking up before a season change, and visitors smart enough to realize that a thirty-minute tram-and-bus ride can save considerably more than the fare costs.
+
+🎁 Bonus: Unlike almost everything else in this app, Fashion Arena has no medieval siege, martyred saint, or brooding castellan behind it — just a straightforward economic proposition. Sometimes the most useful discovery in a city is not a legend, but a really good discount rack.`,
+
+      cz: `Statečný dobrodruhu, vítej ve Fashion Arena Prague Outlet, největší svatyni slevového nakupování v celé České republice! Žádné příkopy, žádné hlásky - jen přes dvě stě mezinárodních i českých značek, které tu prodávají loňskou kolekci se slevou třicet až sedmdesát procent, to vše v nízkopodlažním obchodním parku na východním okraji Prahy.
+
+Fashion Arena otevřela své brány kolem poloviny první dekády jednadvacátého století na ulici Zamenhofova, v nikterak okouzlujícím průmyslovém pásu Prahy 10, a od té doby se rozrostla na největší outletové centrum v zemi. Regály s oblečením, obuví a bytovými doplňky od známých módních domů tu sdílí prostor s výrobci českého skla a porcelánu, což dává místu rozpolcenou identitu: napůl mezinárodní honba za výhodnou cenou, napůl přehlídka domácího řemesla, to vše zabalené do praktické, nezdobené architektury obchodního centra postaveného čistě proto, aby prodávalo zboží. Přitahuje úplně jiné publikum než hradní a dlažební turistická trasa - místní, kteří tu zásobí šatník před změnou sezóny, a návštěvníky natolik chytré, aby pochopili, že třicetiminutová cesta tramvají a autobusem může ušetřit mnohem víc, než kolik stojí jízdenka.
+
+🎁 Bonus: Na rozdíl od téměř všeho ostatního v této aplikaci nemá Fashion Arena za sebou žádné středověké obležení, mučedníka ani zasmušilého purkrabího - jen přímočarou ekonomickou nabídku. Někdy tou nejužitečnější objevkou ve městě není legenda, ale opravdu dobrý slevový regál.`,
+
+      zh: `勇敢的冒险家，欢迎来到布拉格时尚奥特莱斯（Fashion Arena Prague Outlet）——整个捷克共和国规模最大的折扣购物圣地！这里没有护城河，也没有瞭望塔——只有两百多个国际与捷克品牌，以三折到七折的价格甩卖上一季的时装，全都集中在布拉格东郊一座低矮的零售园区里。
+
+Fashion Arena于21世纪头十年中期在扎缅霍福瓦街开业，坐落在布拉格10区毫不起眼的工业地带边缘，此后逐渐发展成全国规模最大的奥特莱斯购物中心。来自知名时装品牌的服装、鞋履与家居用品货架，与捷克本土的玻璃和瓷器制造商比邻而居，让这里呈现出一种双重身份：一半是国际折扣猎人的战场，一半是本土工艺的展示窗，全都包裹在一座纯粹为了清库存而建的、朴实无华的购物中心建筑里。它吸引的游客群体与那条城堡与石板路交织的传统观光路线截然不同——既有换季前来囤货的精明本地人，也有那些明白半小时的电车加公交车程能省下远超车票钱的聪明访客。
+
+🎁 彩蛋：与这款应用里几乎所有其他地方不同，Fashion Arena背后没有中世纪围城战，没有殉道圣徒，也没有阴沉的城堡总管——只有一个直白的经济提案。有时候，一座城市里最有用的发现，不是传说，而是一整排真正划算的折扣货架。`,
+    },
+  },
+
+  {
+    name: 'Max van der Stoel Monument',
+    slug: 'pomnik-maxe-van-der-stoela',
+    localizedNames: { cz: 'Pomník Maxe van der Stoela', zh: '马克斯·范德斯托尔纪念碑' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.09116518734352, lng: 14.387606147095292 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pomn%C3%ADk_Maxe_van_der_Stoela',
+    description: {
+      en: `Brave adventurer, welcome to the Max van der Stoel Monument, one of the strangest and most moving memorials in all of Prague — a monument that is, quite literally, almost invisible unless the sun is in exactly the right place.
+
+On March 1, 1977, the Dutch Foreign Minister Max van der Stoel met philosopher Jan Patočka, spokesman of the newly formed human-rights initiative Charter 77, becoming the first Western politician to openly meet with Czechoslovak dissidents. The meeting had brutal consequences: Patočka was hauled in for hours of secret-police interrogation shortly afterward and died less than two weeks later, on March 13, 1977, from the ordeal. Van der Stoel's willingness to meet him regardless of diplomatic consequence is remembered as one of the boldest acts of Western solidarity with Czechoslovak dissent during the entire Cold War. Forty years later, in 2017, sculptor Dominik Lang and architect Jakub Červenka commemorated the meeting in the most understated way imaginable: a concrete cast of the exact shadow a tree in this park cast on the fortieth anniversary of the encounter. There is no bronze bust, no plaque with a long inscription — just a frozen sliver of shade, poured into the ground, that most passers-by will walk straight past without noticing.
+
+🎁 Bonus: The park surrounding it was itself renamed Max van der Stoel Park at the Dutch embassy's initiative — meaning this quiet corner of Hradčany now carries the name of a Dutch diplomat twice over, once for the park and once for the monument hidden inside it.`,
+
+      cz: `Statečný dobrodruhu, vítej u Pomníku Maxe van der Stoela, jednoho z nejpodivnějších a nejdojemnějších památníků v celé Praze - památníku, který je doslova téměř neviditelný, pokud slunce nesvítí přesně ve správný úhel.
+
+1. března 1977 se nizozemský ministr zahraničí Max van der Stoel setkal s filozofem Janem Patočkou, mluvčím nově vzniklé iniciativy Charta 77, a stal se tak prvním západním politikem, který se otevřeně sešel s československými disidenty. Setkání mělo brutální následky: Patočka byl krátce poté předvolán k mnohahodinovému výslechu Státní bezpečnosti a necelé dva týdny nato, 13. března 1977, na jeho následky zemřel. Van der Stoelova ochota se s ním setkat bez ohledu na diplomatické důsledky je dodnes připomínána jako jeden z nejodvážnějších činů západní solidarity s československým disentem za celou studenou válku. O čtyřicet let později, v roce 2017, připomněli sochař Dominik Lang a architekt Jakub Červenka toto setkání tím nejskromnějším možným způsobem: betonovým odlitkem přesného stínu, který v parku v den čtyřicátého výročí setkání vrhal jeden ze zdejších stromů. Žádná bronzová busta, žádná deska s dlouhým nápisem - jen zamrzlý kousek stínu odlitý do země, kolem kterého většina kolemjdoucích projde bez povšimnutí.
+
+🎁 Bonus: Park, který pomník obklopuje, byl na popud nizozemské ambasády sám přejmenován na Park Maxe van der Stoela - tento tichý kout Hradčan tak dnes nese jméno nizozemského diplomata hned dvakrát, jednou kvůli parku a podruhé kvůli pomníku, který se v něm skrývá.`,
+
+      zh: `勇敢的冒险家，欢迎来到马克斯·范德斯托尔纪念碑——布拉格最奇特、也最令人动容的纪念物之一。除非阳光恰好照在正确的角度，否则你几乎注意不到它的存在。
+
+1977年3月1日，荷兰外交大臣马克斯·范德斯托尔与哲学家扬·帕托契卡会面——后者正是刚刚成立的人权倡议"七七宪章"的发言人，范德斯托尔也因此成为第一位公开会见捷克斯洛伐克异见人士的西方政治家。这次会面带来了残酷的后果：不久之后，帕托契卡被国家安全局传去接受长达数小时的审讯，不到两周后，也就是1977年3月13日，他因这场折磨而去世。范德斯托尔不顾外交后果坚持与他会面的勇气，至今仍被视为整个冷战期间西方对捷克斯洛伐克异见运动最勇敢的声援行动之一。四十年后的2017年，雕塑家多米尼克·朗与建筑师雅库布·切尔文卡用最低调的方式纪念了这次会面：将公园里一棵树在会面四十周年当天投下的真实树影，原样浇铸成一块混凝土。这里没有青铜半身像，没有长篇碑文——只有一片凝固在地面上的阴影，大多数路人经过时甚至不会察觉。
+
+🎁 彩蛋：纪念碑周围的这座公园，也应荷兰大使馆的提议而更名为"马克斯·范德斯托尔公园"——如今，赫拉德查尼这个安静的角落，因这位荷兰外交官的名字而被冠名了整整两次：一次是公园，一次是藏身其中的纪念碑。`,
+    },
+  },
+
+  {
+    name: 'Vrchlický Gardens',
+    slug: 'vrchlickeho-sady',
+    localizedNames: { cz: 'Vrchlického sady', zh: '弗尔赫利茨基公园' },
+    labels: ['park', 'historical'],
+    coordinates: { lat: 50.085393100613175, lng: 14.435091056241117 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Vrchlick%C3%A9ho_sady',
+    description: {
+      en: `Brave adventurer, welcome to Vrchlický Gardens, the leafy — and occasionally lawless — patch of green wedged behind Prague's main railway station, a park with a nickname its official name never quite earned: Sherwood.
+
+The gardens began in the 1830s as a promenade laid out on old Baroque ramparts at the initiative of Count Chotek, lined with poplars and dotted with small cafés among the shrubbery. When the grand Franz Joseph I railway station opened nearby in 1871, a larger "Great Park" grew up around it, expanded in 1884 under landscape architect František Josef Thomayer into something resembling the gardens you can walk through today. A year after the death of the poet Jaroslav Vrchlický in 1912, the city renamed the whole park in his honour. The socialist-era construction of the current station hall between 1972 and 1977, together with the north-south highway, metro entrances, and endless parking, then chewed away a significant share of the original green space — and the fragments that survived earned a rough reputation for drug dealing and rough sleeping that gave rise to the "Sherwood" nickname decades ago. Recent revitalization efforts have been chipping away at that reputation, restoring benches, lighting, and a measure of quiet dignity to Thomayer's nineteenth-century design.
+
+🎁 Bonus: Naming a park after a Romantic poet and then having it nicknamed after an English outlaw's forest hideout is, admittedly, one of Prague's more accidental pieces of irony — Vrchlický himself translated Dante and Victor Hugo into Czech and would probably have found the whole thing hilarious.`,
+
+      cz: `Statečný dobrodruhu, vítej ve Vrchlického sadech, zeleném - a místy poněkud bezprávném - kusu parku vklíněném hned za pražským Hlavním nádražím, parku, jehož neoficiální přezdívka "Sherwood" se do jeho oficiálního jména nikdy pořádně nedostala.
+
+Sady vznikly ve třicátých letech 19. století jako promenáda vysazená na starých barokních hradbách z podnětu hraběte Chotka, lemovaná topoly a s malými kavárnami mezi keři. Když v roce 1871 poblíž vyrostlo velkolepé nádraží císaře Františka Josefa I., kolem něj vznikl rozsáhlejší "Velký park", rozšířený v roce 1884 pod vedením zahradního architekta Františka Josefa Thomayera do podoby, která se dnešním sadům do jisté míry podobá. Rok po smrti básníka Jaroslava Vrchlického v roce 1912 přejmenovalo město celý park na jeho počest. Výstavba dnešní haly Hlavního nádraží v letech 1972-1977, spolu se severojižní magistrálou, vstupy do metra a nekonečnými parkovišti, pak ukously značnou část původní zeleně - a to, co zbylo, si vysloužilo drsnou pověst kvůli obchodu s drogami a bezdomovectví, z níž se zrodila přezdívka "Sherwood". Nedávné revitalizační snahy tuto pověst pomalu narušují a vrací Thomayerově devatenáctistoletému návrhu lavičky, osvětlení i kus tiché důstojnosti.
+
+🎁 Bonus: Pojmenovat park po romantickém básníkovi a pak mu nechat přezdívku po lese anglického psance je, přiznejme si, jedna z nechtěnějších ironií Prahy - sám Vrchlický překládal do češtiny Danta a Victora Huga a celou tu věc by nejspíš považoval za náramně vtipnou.`,
+
+      zh: `勇敢的冒险家，欢迎来到弗尔赫利茨基公园——这片夹在布拉格中央车站后面的绿地，郁郁葱葱，却也时常有些不太太平，人们私下给它起了个官方名字里从没提过的绰号："舍伍德"。
+
+这座公园始于19世纪30年代，最初是霍特克伯爵倡议下、沿着古老巴洛克城墙修建的一条林荫散步道，两旁种着白杨，灌木丛间点缀着几家小咖啡馆。1871年，宏伟的弗朗茨·约瑟夫一世火车站在附近建成后，周围逐渐形成了一座更大的"大公园"，1884年又在景观建筑师弗朗齐歇克·约瑟夫·托马耶尔的主持下加以扩建，逐渐接近今天你所看到的样子。诗人雅罗斯拉夫·弗尔赫利茨基于1912年去世后的次年，市政府将整座公园以他的名字重新命名。1972年至1977年间社会主义时期新建的中央车站大厅，连同南北高速干道、地铁出入口与无尽的停车场，蚕食掉了原有绿地的相当一部分——而幸存下来的那部分，几十年来因毒品交易与露宿者聚集而声名狼藉，"舍伍德"这个绰号也由此而来。近年来的改造工程正在一点点扭转这种印象，为托马耶尔十九世纪的设计重新添回长椅、照明，以及几分安静的尊严。
+
+🎁 彩蛋：用一位浪漫主义诗人的名字命名公园，结果却被冠上英国侠盗藏身森林的绰号，这大概是布拉格最阴差阳错的讽刺之一——弗尔赫利茨基本人曾将但丁与维克多·雨果的作品译成捷克语，若泉下有知，他大概只会觉得这事相当有趣。`,
+    },
+  },
+
+  {
+    name: 'Woodrow Wilson Statue',
+    slug: 'wilsonova-socha-vrchlickeho-sady',
+    localizedNames: { cz: 'Wilsonova socha ve Vrchlického sadech', zh: '威尔逊总统雕像' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.08388036950958, lng: 14.433117046954653 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Wilsonova_socha_ve_Vrchlick%C3%A9ho_sadech',
+    description: {
+      en: `Brave adventurer, welcome to the Woodrow Wilson Statue, a monument so politically inconvenient that Nazi Germany had it torn down within days of declaring war on its subject's home country.
+
+Sculpted by Albín Polášek, with the monument itself designed by architect Bohumil Hübschmann, the statue was unveiled on July 4, 1928 — American Independence Day, chosen deliberately — to mark ten years since the founding of Czechoslovakia and to honour the American president whose ideas about national self-determination had helped make that founding possible. It originally stood facing the grand railway station that was itself named after Wilson at the time, on roughly the spot where the modern station hall stands today. The statue's fall came fast: after Germany declared war on the United States in December 1941, occupying authorities ordered it torn down within days, on December 12, and it vanished for seventy years. Its return was a private, transatlantic effort rather than a government project — the organization American Friends of the Czech Republic pushed for a faithful replica, raised the funds together with the City of Prague and the Prague 1 district, and finally saw it unveiled again on October 5, 2011, with former presidents Václav Klaus and Václav Havel both in attendance.
+
+🎁 Bonus: Getting rid of a stone statue took the Nazi regime a matter of days; getting a new one built took the Czech Republic seventy years and an international fundraising campaign — a fairly reliable law of how destruction and restoration tend to move at very different speeds.`,
+
+      cz: `Statečný dobrodruhu, vítej u Wilsonovy sochy ve Vrchlického sadech, pomníku natolik politicky nepohodlného, že ho nacistické Německo nechalo strhnout během několika dní od vyhlášení války zemi, jejíhož prezidenta zpodobňoval.
+
+Sochu vytvořil Albín Polášek, samotný pomník navrhl architekt Bohumil Hübschmann a slavnostně byl odhalen 4. července 1928 - záměrně zvolený americký Den nezávislosti - u příležitosti desátého výročí založení Československa a na počest amerického prezidenta, jehož myšlenky o právu národů na sebeurčení k tomuto založení výrazně přispěly. Pomník původně stál naproti velkolepé nádražní budově, která tehdy sama nesla Wilsonovo jméno, zhruba v místech, kde dnes stojí moderní nádražní hala. Jeho pád přišel rychle: poté, co Německo v prosinci 1941 vyhlásilo válku Spojeným státům, nařídily okupační úřady sochu strhnout během několika dní, 12. prosince, a na sedmdesát let zmizela. Její návrat byl soukromou, transatlantickou záležitostí spíš než vládním projektem - organizace American Friends of the Czech Republic prosadila věrnou kopii, finance na ni získala společně s hlavním městem Prahou a městskou částí Praha 1, a 5. října 2011 byla socha znovu slavnostně odhalena za přítomnosti bývalých prezidentů Václava Klause a Václava Havla.
+
+🎁 Bonus: Zbavit se kamenné sochy zabralo nacistickému režimu pár dní; postavit novou stálo Českou republiku sedmdesát let a mezinárodní sbírku - poměrně spolehlivý zákon o tom, jak odlišnou rychlostí obvykle probíhá ničení a obnova.`,
+
+      zh: `勇敢的冒险家，欢迎来到威尔逊总统雕像——这座纪念碑在政治上曾如此"碍眼"，以至于纳粹德国在对其塑像人物的祖国宣战后短短几天内，就将它推倒拆除。
+
+雕像由阿尔宾·波拉舍克雕刻，纪念碑本身由建筑师博胡米尔·许布施曼设计，于1928年7月4日——特意选定的美国独立日——揭幕，用以纪念捷克斯洛伐克建国十周年，并向这位提出"民族自决"理念、间接促成了这个国家诞生的美国总统致敬。雕像最初面向的，正是当时同样以威尔逊命名的宏伟火车站，大致就在如今车站大厅所在的位置。它的倒塌来得很快：1941年12月德国对美国宣战后，占领当局在短短几天内的12月12日就下令将其拆毁，此后消失长达七十年。它的重生并非政府项目，而是一场民间的跨大西洋努力——"美国捷克之友"组织推动制作了一比一的复刻版，与布拉格市政府及布拉格1区共同筹措资金，最终于2011年10月5日重新揭幕，前总统瓦茨拉夫·克劳斯与瓦茨拉夫·哈维尔都出席了仪式。
+
+🎁 彩蛋：纳粹政权拆掉一座石像只花了几天，而捷克重新竖起一座却用了七十年和一场国际募款行动——这大概相当可靠地证明了，摧毁与重建从来都不是同一种速度。`,
+    },
+  },
+
+  {
+    name: 'Ministry of Culture Office',
+    slug: 'ministerstvo-kultury-kancelar',
+    localizedNames: { cz: 'Ministerstvo kultury (kancelář)', zh: '捷克文化部办公楼' },
+    labels: ['municipal', 'historical', 'architecture'],
+    coordinates: { lat: 50.094449070030116, lng: 14.392843956155668 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Ministerstvo_kultury_%C4%8Cesk%C3%A9_republiky',
+    description: {
+      en: `Brave adventurer, welcome to the Ministry of Culture office building, a stern early-modernist facade on Hradčany that spent its first eight decades looking after orphans rather than art funding applications.
+
+Designed by architect Josef Rosipal and completed in 1913, the building opened as Prague's Municipal Orphanage, formally consecrated on November 15 of that year. Its plain, austere facade — large windows, shallow pilasters running across both floors, and a flat roof supported by then-unusual reinforced concrete construction — reflects the strict, undecorated architectural language coming out of Vienna in the years just before the First World War, a deliberate rejection of the ornamental Art Nouveau that dominated the previous decade. The building continued its charitable function for decades under very different political systems before being repurposed at the close of the twentieth century: adapted for government use in 1999, it served as the Ministry of Culture's main headquarters until 2003, and several of the ministry's departments — legislative, legal, international relations, copyright — still operate out of it today.
+
+🎁 Bonus: A building designed to shelter children with no families ended up, a century later, deciding which theatres, museums, and film productions receive state funding — proof that Prague's bureaucratic geography can be every bit as layered as its castles.`,
+
+      cz: `Statečný dobrodruhu, vítej u budovy Ministerstva kultury, strohé raně moderní fasády na Hradčanech, která první čtyři desetiletí své existence pečovala spíš o sirotky než o žádosti o dotace na kulturu.
+
+Budovu navrhl architekt Josef Rosipal a dokončena byla v roce 1913, kdy byla slavnostně vysvěcena 15. listopadu téhož roku jako pražský Městský sirotčinec. Její strohá, nezdobená fasáda - velká okna, mělké pilastry táhnoucí se přes obě podlaží a plochá střecha nesená tehdy nezvyklou železobetonovou konstrukcí - odráží přísný, oproštěný architektonický jazyk, který v letech těsně před první světovou válkou přicházel z Vídně jako záměrné odmítnutí ornamentální secese předchozího desetiletí. Budova sloužila své charitativní funkci po desetiletí za velmi odlišných politických režimů, než byla na sklonku dvacátého století přeměněna k jinému účelu: v roce 1999 byla upravena pro potřeby státní správy a až do roku 2003 sloužila jako hlavní sídlo Ministerstva kultury; několik jeho odborů - legislativní a právní, mezinárodních vztahů, autorského práva - v ní sídlí dodnes.
+
+🎁 Bonus: Budova postavená k tomu, aby dala přístřeší dětem bez rodiny, o století později rozhoduje, která divadla, muzea a filmové produkce dostanou státní dotace - důkaz, že pražská úřednická geografie umí být stejně mnohovrstevnatá jako její hrady.`,
+
+      zh: `勇敢的冒险家，欢迎来到捷克文化部办公楼——这座矗立在赫拉德查尼的早期现代主义建筑，头八十年里照顾的其实是孤儿，而不是文化拨款申请。
+
+这座建筑由建筑师约瑟夫·罗西帕尔设计，于1913年竣工，同年11月15日以布拉格市立孤儿院的身份正式落成祝圣。它朴素克制的外观——大面积的窗户、贯穿两层楼的浅壁柱，以及由当时尚属罕见的钢筋混凝土结构支撑的平屋顶——体现的正是第一次世界大战爆发前几年从维也纳兴起的那种严谨、去装饰化的建筑语言，是对上一个十年盛行的装饰性新艺术风格的刻意背离。此后数十年间，无论政权如何更迭，这座建筑始终延续着它的慈善功能，直到二十世纪末才被改作他用：1999年，它被改建以供国家机关使用，并在此后一直到2003年担任捷克文化部的主要办公场所；部里的多个司局——立法与法律司、国际关系司、著作权司——至今仍在此办公。
+
+🎁 彩蛋：一座最初为无家可归的孩子提供庇护所而建的建筑，一个世纪后却成了决定哪些剧院、博物馆与电影项目能获得国家拨款的地方——足见布拉格的官僚地理，其层次感丝毫不亚于它的城堡。`,
+    },
+  },
+
+  {
+    name: 'Maria Theresa Statue',
+    slug: 'socha-marie-terezie',
+    localizedNames: { cz: 'Socha Marie Terezie', zh: '玛丽亚·特蕾莎雕像' },
+    labels: ['monument', 'modern'],
+    coordinates: { lat: 50.0943196288931, lng: 14.395349203811593 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pomn%C3%ADk_Marie_Terezie_(Praha)',
+    description: {
+      en: `Brave adventurer, welcome to the Maria Theresa Statue, the Czech Republic's very first monument to the Habsburg empress — and quite possibly its most argued-about sculpture of the last decade.
+
+Unveiled on October 20, 2020, exactly 280 years to the day since Maria Theresa's accession to the Bohemian throne in 1740, the five-and-a-half-metre monument by sculptor Jan Kovářík and architect Jan Proksa stands in a small park by the Powder Bridge in Hradčany, deliberately facing away from Prague Castle toward Bubeneč and Dejvice. Cast in artificial stone at a cost of roughly four million crowns, the statue makes no attempt at a realistic portrait: it renders the empress as a faceless white silhouette, an abstraction the artists compared to a chess piece — a ruler reduced to a single game token moved across the board of history. The design faced organized opposition even before construction, including two separate petitions against the project, and once unveiled it split public opinion further, with online commentary ranging from admiration for its restraint to comparisons with an alien or a giant pawn.
+
+🎁 Bonus: Maria Theresa ruled a sprawling multiethnic empire for forty years and reformed everything from schooling to taxation — and it still took the Czech Republic until 2020 to give her a monument of her own, and even then only a faceless one.`,
+
+      cz: `Statečný dobrodruhu, vítej u Sochy Marie Terezie, vůbec první českého pomníku habsburské panovnice - a možná také nejvíc rozporuplného sousoší posledního desetiletí.
+
+Pětapůlmetrový pomník od sochaře Jana Kováříka a architekta Jana Proksy byl odhalen 20. října 2020, přesně na den 280 let od nástupu Marie Terezie na český trůn v roce 1740, a stojí v malém parku u Prašného mostu na Hradčanech, záměrně otočen zády k Pražskému hradu, tváří směrem k Bubenči a Dejvicím. Odlitý z umělého kamene za zhruba čtyři miliony korun se pomník ani nesnaží o realistický portrét: zobrazuje panovnici jako bezpohlavní bílou siluetu, abstrakci, kterou sami autoři přirovnali k šachové figurce - vládkyni zredukované na jediný herní kámen posunovaný po šachovnici dějin. Návrh čelil organizovanému odporu ještě před samotnou realizací, včetně dvou samostatných petic proti projektu, a po odhalení dál rozděloval veřejné mínění, od obdivu k jeho strohosti až po srovnání s mimozemšťanem nebo obřím pěšcem.
+
+🎁 Bonus: Marie Terezie čtyřicet let vládla rozlehlé mnohonárodnostní říši a zreformovala takřka všechno od školství po daně - a přesto Česku trvalo až do roku 2020, než jí postavilo vlastní pomník, a i tak jen bez tváře.`,
+
+      zh: `勇敢的冒险家，欢迎来到玛丽亚·特蕾莎雕像——捷克共和国第一座献给这位哈布斯堡女皇的纪念碑，也可能是过去十年里争议最大的一件雕塑作品。
+
+这座高达5.5米的纪念碑由雕塑家扬·科瓦日克与建筑师扬·普罗克萨共同创作，于2020年10月20日揭幕——恰好是玛丽亚·特蕾莎于1740年登上波希米亚王位的280周年纪念日，坐落在赫拉德查尼火药桥旁的一座小公园里，刻意背对布拉格城堡，面朝布本尼奇与迪维采方向。雕像以人造石浇铸而成，造价约四百万克朗，却完全没有尝试写实肖像：它将女皇塑造成一个没有面孔的白色剪影，创作者本人将其比作一枚棋子——一位统治者被简化成历史棋盘上被人推动的一颗棋子。这个设计方案在动工之前就遭到了有组织的反对，包括两份分别提出的反对请愿书，揭幕之后更是进一步分裂了公众舆论，网络评论从赞赏其简约克制，到将其比作外星人或巨型兵卒，众说纷纭。
+
+🎁 彩蛋：玛丽亚·特蕾莎统治着一个庞大的多民族帝国长达四十年，从教育到税制几乎改革了一切——可捷克直到2020年才为她立起第一座属于自己的雕像，而且还是一座没有面孔的。`,
+    },
+  },
+
+  {
+    name: 'Jílové u Prahy',
+    slug: 'jilove-u-prahy',
+    localizedNames: { cz: 'Jílové u Prahy', zh: '伊洛韦（近布拉格）' },
+    labels: ['village-and-town', 'historical', 'museum'],
+    coordinates: { lat: 49.89513557343566, lng: 14.49303259850209 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/J%C3%ADlov%C3%A9_u_Prahy',
+    description: {
+      en: `Brave adventurer, welcome to Jílové u Prahy, a modest town southeast of the capital that spent roughly eight centuries sitting on quite a lot of actual, extractable gold.
+
+Deep mining here is confirmed by scattered historical sources going back at least to the twelfth century, but the real boom hit in the thirteenth century, peaking around its midpoint, when the Jílové mines briefly ranked among the most important gold deposits anywhere in Bohemia. Activity surged again in the sixteenth and eighteenth centuries, and mining continued in fits and starts all the way until 1968 — by which point an estimated eleven tons of gold had been pulled from the ground beneath and around the town. The Regional Museum, housed in a historic building known simply as "the Mint" on the lower end of Masaryk Square, traces its origins to 1891, when local-born collector Leopold Čihák donated his personal collection to the town and the council voted to found a museum around it that same December. Today the museum manages three of the old mining adits that visitors can actually walk into, along with an educational trail leading from the town centre out to the gold-bearing tunnels themselves — a rare case of a museum's most interesting exhibit being a hole in the ground you can enter.
+
+🎁 Bonus: The museum's newest permanent gold exhibition only opened in September 2024, meaning the eight-hundred-year story of Jílové's gold rush is still, quite literally, being freshly curated.`,
+
+      cz: `Statečný dobrodruhu, vítej v Jílovém u Prahy, skromném městě jihovýchodně od hlavního města, které zhruba osm století sedělo na nemalém množství skutečně vytěžitelného zlata.
+
+Hlubinné dolování je zde doloženo ojedinělými historickými prameny přinejmenším od 12. století, ale skutečný boom přišel ve 13. století s vrcholem kolem jeho poloviny, kdy jílovské doly na krátkou dobu patřily mezi nejvýznamnější zlaté doly v celých Čechách. Těžba se znovu vzedmula v 16. a 18. století a v menší míře pokračovala až do roku 1968 - do té doby se z podzemí pod městem a v jeho okolí odhadem vytěžilo jedenáct tun zlata. Regionální muzeum, umístěné v historické budově zvané prostě "Mince" v dolní části Masarykova náměstí, se datuje od roku 1891, kdy rodák Leopold Čihák věnoval městu svou soukromou sbírku a zastupitelstvo téhož prosince rozhodlo kolem ní založit muzeum. Dnes muzeum spravuje tři staré důlní štoly, do kterých se návštěvníci mohou skutečně vydat, spolu s naučnou stezkou vedoucí z centra města až ke zlatonosným štolám samotným - vzácný případ muzea, jehož nejzajímavějším exponátem je díra v zemi, do které lze vstoupit.
+
+🎁 Bonus: Nejnovější stálá expozice zlata se v muzeu otevřela teprve v září 2024 - osmisetletý příběh jílovské zlaté horečky se tedy doslova stále ještě čerstvě kurátoruje.`,
+
+      zh: `勇敢的冒险家，欢迎来到伊洛韦——这座位于首都东南方的朴素小镇，在大约八个世纪的时间里，脚下埋藏着相当可观的、真正可开采的黄金。
+
+零星的历史文献证实，这里的深井采矿活动至少可追溯到12世纪，但真正的淘金热潮出现在13世纪，并在世纪中叶达到顶峰，当时伊洛韦的矿区一度跻身波希米亚最重要的金矿之列。16世纪与18世纪，采矿活动再度兴盛，此后断断续续一直持续到1968年——到那时为止，据估计已从小镇地下及周边开采出约十一吨黄金。坐落在马萨里克广场下端一座名为"铸币所"的历史建筑内的地区博物馆，其历史可追溯至1891年，当年本地出身的收藏家利奥波德·契哈克将自己的私人藏品捐赠给小镇，市议会当年12月便决定以此为基础创办博物馆。如今，博物馆管理着三条游客可以实际步入参观的旧矿坑，还有一条从镇中心通往这些含金矿坑本身的教育步道——博物馆最有趣的"展品"竟是一个可以走进去的地洞，这样的例子并不多见。
+
+🎁 彩蛋：博物馆最新的黄金常设展直到2024年9月才正式开放，也就是说，伊洛韦这段长达八百年的淘金往事，至今仍在被"新鲜出炉"地重新策展。`,
+    },
+  },
+
+  {
+    name: 'Žampach Viaduct',
+    slug: 'zampassky-most',
+    localizedNames: { cz: 'Žampašský most', zh: '扎姆帕赫铁路高架桥' },
+    labels: ['bridge', 'historical', 'nature'],
+    coordinates: { lat: 49.872634172021996, lng: 14.487026706606542 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C5%BDampa%C5%A1sk%C3%BD_most',
+    description: {
+      en: `Brave adventurer, welcome to the Žampach Viaduct, the second-highest stone railway bridge anywhere in Central Europe — beaten only by Switzerland's celebrated Landwasser Viaduct, and quietly holding its own against that fame from a valley most Prague day-trippers have never heard of.
+
+Built between 1898 and 1899 to carry the Vrané nad Vltavou–Čerčany railway line across the Kocour valley and the Studený stream, between the Žampach and Studená districts of Jílové u Prahy, the granite bridge rises on seven arches, each spanning 12.5 metres, with its tallest arch reaching a full 41 metres above the valley floor. The first train crossed on May 1, 1900, and the bridge has been protected as a cultural monument since 1958. What makes it genuinely remarkable is what has not happened to it: despite roughly thirty trains a day rumbling across, the structure has never once needed major repair since it was built well over a century ago — a testament to the skill of the many Italian stonemasons who travelled to this quiet corner of Bohemia to build it.
+
+🎁 Bonus: Standing in the valley below and looking up at the arches, more than a few visitors have compared the scene to something out of Harry Potter — proving that a nineteenth-century Bohemian engineering project can accidentally look exactly like a twenty-first-century wizarding-world film set.`,
+
+      cz: `Statečný dobrodruhu, vítej u viaduktu Žampach, druhého nejvyššího kamenného železničního mostu ve střední Evropě - poráží ho jen švýcarský proslulý viadukt Landwasser, a i tak si tiše drží svou pověst v údolí, o kterém většina pražských výletníků nikdy neslyšela.
+
+Žampašský most byl postaven v letech 1898-1899 pro trať Vrané nad Vltavou-Čerčany, aby ji převedl přes údolí Kocour a Studený potok mezi částmi Žampach a Studená v Jílovém u Prahy. Žulový most se klene na sedmi obloucích, každý o rozpětí 12,5 metru, přičemž jeho nejvyšší oblouk dosahuje plných 41 metrů nad dnem údolí. První vlak jím projel 1. května 1900 a od roku 1958 je most chráněn jako kulturní památka. Co je na něm skutečně pozoruhodné, je to, co se s ním nestalo: přestože po něm denně projede zhruba třicet vlaků, konstrukce si za více než století své existence nikdy nevyžádala větší opravu - důkaz řemeslné zručnosti mnoha italských kameníků, kteří přijeli do tohoto tichého koutu Čech, aby ho postavili.
+
+🎁 Bonus: Ne málo návštěvníků, kteří stojí dole v údolí a hledí vzhůru na oblouky mostu, přirovnává tu scénu k něčemu z Harryho Pottera - důkaz, že devatenáctistoletý český inženýrský projekt může náhodou vypadat úplně stejně jako filmová kulisa kouzelnického světa jednadvacátého století.`,
+
+      zh: `勇敢的冒险家，欢迎来到扎姆帕赫铁路高架桥——中欧第二高的石造铁路桥梁，仅次于瑞士声名远扬的兰德瓦瑟高架桥，却在这条大多数布拉格一日游游客闻所未闻的山谷里，默默保有着自己的一席之地。
+
+这座桥建于1898至1899年间，为弗拉内－切尔恰尼铁路线服务，横跨伊洛韦扎姆帕赫与斯图德纳两个地区之间的科库尔山谷与斯图德尼溪。这座花岗岩桥梁由七座拱券支撑，每座跨度12.5米，最高的一座拱顶距谷底足有41米。首班列车于1900年5月1日通过此桥，自1958年起被列为文化古迹保护。真正令人称奇的是它"从未发生"的事：尽管每天约有三十趟列车驶过，这座桥自建成一个多世纪以来，从未经历过一次大修——这归功于当年远道而来、在波希米亚这个僻静角落施工的众多意大利石匠的精湛手艺。
+
+🎁 彩蛋：不少站在谷底仰望桥拱的游客，都觉得眼前的景象神似《哈利·波特》电影里的场景——证明一座十九世纪的波希米亚工程杰作，也能在无意间长得和二十一世纪魔法世界的电影布景一模一样。`,
+    },
+  },
+
+  {
+    name: 'Lobkovice Chateau',
+    slug: 'zamek-lobkovice',
+    localizedNames: { cz: 'Zámek Lobkovice', zh: '罗布科维茨城堡' },
+    labels: ['palace', 'historical', 'architecture'],
+    coordinates: { lat: 50.251732694670295, lng: 14.541370206790011 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Lobkovice_(z%C3%A1mek)',
+    description: {
+      en: `Brave adventurer, welcome to Lobkovice Chateau, a riverside estate that has been rebuilt so many times by so many different owners that its walls read almost like a layered history of Bohemia itself.
+
+A fortress here is first documented in 1403, in the hands of a Prague burgher named Prokop Krukner, but the site's fortunes changed in 1409 when it passed to Mikuláš z Újezda, founder of the Lobkowicz family, who rebuilt it into a larger Gothic tower-house anchored by a three-storey rubble-stone prismatic tower. King Jiří z Poděbrad captured the fortress in 1450, and the Sekerka family later converted it into a Renaissance chateau, first documented under that new form in 1610. The Thirty Years' War left the building repeatedly plundered and derelict, and it was only rebuilt into the shape you see today in 1679, under Prince Ferdinand August of Lobkowicz, following designs by the Italian architect Antonio della Porta. In 1829 the Lobkowicz family sold the estate to a Prague lawyer, Jan Měchura, who remodelled it again; his daughter Terezie inherited it in 1840 and, as the wife of the historian František Palacký, made the chateau one of his favourite retreats. The Lobkowicz family regained the property, held it until nationalization in 1948, and after decades of use by Charles University's Faculty of Arts as a study centre and library depository, it was returned in the 1991 restitution to a descendant of the Roudnice branch of the family — Alexandre de Ridder-Lobkowicz, great-grandson of the tenth Prince Ferdinand Zdeněk.
+
+🎁 Bonus: The Bohemian historian who all but invented the modern Czech national narrative spent some of his happiest working hours inside a chateau built by the very aristocratic family whose historical role he spent his career critically examining — a coincidence Palacký himself would surely have appreciated.`,
+
+      cz: `Statečný dobrodruhu, vítej na Zámku Lobkovice, panství na břehu Labe, které bylo tolika různými majiteli tolikrát přestavěno, že jeho zdi lze číst téměř jako vrstevnatou historii samotných Čech.
+
+Tvrz na tomto místě je poprvé doložena v roce 1403 v držení pražského měšťana Prokopa Kruknera, ale osud místa se změnil v roce 1409, kdy je získal Mikuláš z Újezda, zakladatel rodu Lobkoviců, který ji nechal přestavět na rozsáhlejší gotické věžovité sídlo s třípatrovou hranolovou věží z lomového kamene. Král Jiří z Poděbrad tvrz v roce 1450 dobyl a rod Sekerků ji později přestavěl na renesanční zámek, poprvé doložený v této nové podobě v roce 1610. Třicetiletá válka zanechala budovu opakovaně vydrancovanou a zpustlou a do podoby, kterou znáte dnes, byla přestavěna teprve v roce 1679 za knížete Ferdinanda Augusta z Lobkovic podle plánů italského architekta Antonia della Porty. V roce 1829 Lobkovicové panství prodali pražskému advokátovi Janu Měchurovi, který je znovu přestavěl; jeho dcera Terezie je zdědila v roce 1840 a jako manželka historika Františka Palackého udělala ze zámku jedno z jeho oblíbených útočišť. Lobkovicové panství později znovu získali, drželi je až do znárodnění v roce 1948, a po desetiletích, kdy zámek sloužil Filozofické fakultě Univerzity Karlovy jako studijní středisko a depozitář knihoven, byl v restituci v roce 1991 vrácen potomkovi roudnické větve rodu - Alexandru de Ridder-Lobkowiczovi, pravnukovi desátého knížete Ferdinanda Zdeňka.
+
+🎁 Bonus: Český historik, který svým dílem prakticky vytvořil moderní český národní příběh, strávil jedny z nejšťastnějších pracovních chvil na zámku postaveném právě tím šlechtickým rodem, jehož historickou roli po celou svou kariéru kriticky zkoumal - shoda okolností, kterou by sám Palacký jistě ocenil.`,
+
+      zh: `勇敢的冒险家，欢迎来到罗布科维茨城堡——这座易北河畔的庄园，历经太多不同主人的一再改建，以至于它的墙壁几乎就是一部波希米亚历史的层叠缩影。
+
+这里最早的堡垒记载可追溯至1403年，当时归布拉格市民普罗科普·克鲁克纳所有，但1409年，随着罗布科维茨家族的创始人米库拉什·兹·乌耶兹达获得此地，命运开始转变——他将其扩建为一座更宏大的哥特式塔楼宅邸，核心是一座三层的碎石棱柱形塔楼。1450年，国王伊日·兹·波杰布拉德攻占了这座堡垒，此后色克尔卡家族将其改建为文艺复兴式城堡，这一新形态最早记载于1610年。三十年战争令这座建筑屡遭洗劫、日渐荒废，直到1679年，在费迪南德·奥古斯特·冯·罗布科维茨亲王主持下，依照意大利建筑师安东尼奥·德拉·波尔塔的设计重建，才形成了你今天所见的样貌。1829年，罗布科维茨家族将庄园卖给布拉格律师扬·梅胡拉，后者再次对其加以改建；他的女儿特雷齐于1840年继承了城堡，作为历史学家弗朗齐歇克·帕拉茨基的妻子，她让这座城堡成了丈夫最钟爱的隐居之所。此后罗布科维茨家族重新收回庄园，一直持有到1948年被收归国有；此后数十年间，城堡曾作为查理大学哲学院的研究中心与图书馆书库，直到1991年才在财产归还中，交还给罗布科维茨家族劳德尼采分支的后裔——第十代亲王费迪南德·兹德涅克的曾孙亚历山大·德·里德尔－罗布科维茨。
+
+🎁 彩蛋：这位几乎凭一己之力塑造了现代捷克民族叙事的历史学家，一生中最惬意的工作时光，恰恰是在他毕生都在批判性审视其历史角色的贵族家族所建的城堡里度过的——这份巧合，帕拉茨基本人想必也会欣然会心一笑。`,
+    },
+  },
+
+  {
+    name: 'Český Brod',
+    slug: 'cesky-brod',
+    localizedNames: { cz: 'Český Brod', zh: '切斯基布罗德' },
+    labels: ['village-and-town', 'historical'],
+    coordinates: { lat: 50.07395268646448, lng: 14.858585020718106 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%BD_Brod',
+    description: {
+      en: `Brave adventurer, welcome to Český Brod, a Gothic market town whose entire reason for existing was, quite literally, a really good ford across a stream.
+
+The settlement most likely began in the twelfth century, founded by the Prague bishop Jan I as a trading post on the Trstenice trail, the medieval route linking Prague to southern and eastern Europe — the "brod" in its name simply means "ford," the shallow river crossing that made the whole settlement commercially useful in the first place. A marketplace and goods-transfer point grew up around it, guarded first by the bishop's court and later by a proper fortification. Sometime after 1260, Bishop Jan III of Dražice elevated the trading post to the status of "Bishop's Ford" and granted it substantial town privileges, including the right to build walls; by 1315 it was recorded under the name Český Brod, distinguishing it from other fords sharing the more generic title. An unknown town planner laid out the large rectangular square around an existing Romanesque church, and by the second half of the fourteenth century the square and its access roads had been paved. The town endured a devastating fire in 1512 and repeated military plundering during the Thirty Years' War in 1639 and 1643, before finally being elevated to a free royal town in 1786 as part of a broader reorganization of municipal administration.
+
+🎁 Bonus: A town whose entire founding premise boils down to "convenient river crossing" going on to survive fires, sieges, and eight centuries of shifting borders is a solid argument for never underestimating the strategic value of a shallow patch of water.`,
+
+      cz: `Statečný dobrodruhu, vítej v Českém Brodě, gotickém tržním městě, jehož celý důvod existence spočíval doslova v opravdu pohodlném brodu přes potok.
+
+Osada zde s největší pravděpodobností vznikla ve 12. století z podnětu pražského biskupa Jana I. jako obchodní stanice na Trstenické stezce, středověké cestě spojující Prahu s jihem a východem Evropy - "brod" v názvu prostě znamená mělké místo k přebrodění řeky, které celou osadu od počátku učinilo obchodně užitečnou. Kolem něj vznikla tržnice a přepravní bod pro zboží, chráněný nejprve biskupským dvorem a později skutečným opevněním. Někdy po roce 1260 povýšil biskup Jan III. z Dražic obchodní osadu na "Biskupský Brod" a udělil jí rozsáhlá městská práva, včetně práva stavět hradby; v roce 1315 je již zaznamenána pod jménem Český Brod, které ji odlišovalo od jiných brodů nesoucích obecnější název. Neznámý plánovač města vytyčil rozsáhlé obdélníkové náměstí kolem již existujícího románského kostela a ve druhé polovině 14. století bylo náměstí i přístupové cesty do města vydlážděno. Město přestálo ničivý požár v roce 1512 a opakované vojenské plenění za třicetileté války v letech 1639 a 1643, než bylo v roce 1786 v rámci širší reorganizace městské správy povýšeno na svobodné královské město.
+
+🎁 Bonus: Město, jehož celé založení stojí na jediném principu "pohodlný brod přes řeku", a které přesto přežilo požáry, obléhání a osm století posouvajících se hranic, je pádným argumentem pro to, nikdy nepodceňovat strategickou hodnotu mělkého kusu vody.`,
+
+      zh: `勇敢的冒险家，欢迎来到切斯基布罗德——这座哥特式集市小镇存在的全部理由，说白了，就是一处相当好用的河流浅滩渡口。
+
+这处聚落很可能始建于12世纪，由布拉格主教扬一世设立，作为特尔斯泰尼采古道上的贸易站——这条中世纪道路连接布拉格与欧洲南部和东部地区，而地名中的"Brod"一词本意就是"渡口"，正是这处浅滩渡河点让整个聚落从一开始就具备了商业价值。围绕渡口逐渐形成了集市与货物转运点，最初由主教法庭守护，后来又建起了真正的防御工事。1260年之后的某个时候，主教扬三世·兹·德拉日采将这处贸易聚落提升为"主教渡口"，并授予其相当可观的城镇特权，包括修筑城墙的权利；到1315年，它已被记录为"切斯基布罗德"这一名称，以区别于其他共用更通用名称的渡口。一位不知名的城镇规划者，围绕一座已经存在的罗曼式教堂，划出了一片宽阔的矩形广场，到14世纪下半叶，广场及其通往城镇的道路都已铺设完毕。这座小镇曾在1512年遭受一场毁灭性的大火，又在三十年战争期间的1639年与1643年反复遭到军队洗劫，直到1786年，随着市政管理体制的全面改革，才最终被提升为自由王室城镇。
+
+🎁 彩蛋：一座建镇初衷仅仅是"方便过河"的小镇，却挺过了大火、围城与八个世纪边界变迁的考验——这足以证明，永远不要低估一片浅浅河水的战略价值。`,
+    },
+  },
+
+  {
+    name: 'Kostelec nad Černými lesy Chateau',
+    slug: 'zamek-kostelec-nad-cernymi-lesy',
+    localizedNames: { cz: 'Zámek Kostelec nad Černými lesy', zh: '黑林科斯特莱茨城堡' },
+    labels: ['palace', 'historical', 'architecture'],
+    coordinates: { lat: 49.99551803564927, lng: 14.862735980676645 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostelec_nad_%C4%8Cern%C3%BDmi_lesy_(z%C3%A1mek)',
+    description: {
+      en: `Brave adventurer, welcome to Kostelec nad Černými lesy Chateau, a fortress-turned-palace that has spent the last century teaching forestry students rather than hosting dukes.
+
+The site began as an important royal fortress founded in the second half of the thirteenth century, most likely to help defend the nearby town of Kouřim; the oldest surviving written mention dates to 1348, confirming its transfer to a lord named Ješek z Náchoda. A new line took over in 1415 under Jan ze Smržova, whose descendants ruled until 1492 — most notably Jindřich ze Smržova, who freed the estate from feudal obligations in 1475 and secured town privileges for a neighbouring village in 1489. Financial trouble then forced a cession of the entire estate to a creditor, Slavata z Chlumu a Košumberka, for a modest sum, and a severe fire in the autumn of 1549 gutted the fortress entirely. Its Renaissance rebuilding, overseen by imperial builder Hans Tyrol, tore down the surviving Gothic palace and replaced it with the four-winged structure whose outline still defines the chateau today. Emperor Ferdinand I sold the unfinished project in 1558 to Jaroslav Smiřický ze Smiřic, and after the Smiřický line's confiscation following the Battle of White Mountain in 1621, the estate passed through Albrecht z Valdštejna before being sold two years later to Prince Karel z Lichtenštejna, under whom it grew into an enormous dominion of sixty-three villages and two market towns. Starting in 1759, the castle was rebuilt in Baroque style under Tyrolean builder Josef Jäger and became the seat of Duchess Maria Theresa of Savoy-Liechtenstein's own court. Expropriated from the Liechtenstein family during the land reform following Czechoslovak independence in 1918, the estate passed to the state, which handed it to the forestry faculty of the Czech Technical University — and it remains in the hands of its successor, the Czech University of Life Sciences, to this day.
+
+🎁 Bonus: A castle built to defend a medieval town, rebuilt for a Renaissance emperor, and remodelled for a Baroque duchess now spends its days teaching students how to manage a forest — arguably the least dramatic ending of any Bohemian noble estate, and possibly the most useful one.`,
+
+      cz: `Statečný dobrodruhu, vítej na Zámku Kostelec nad Černými lesy, pevnosti proměněné v zámek, který posledních sto let spíš vyučuje studenty lesnictví, než aby hostil vévody.
+
+Místo začínalo jako významná královská tvrz založená ve druhé polovině 13. století, nejspíš na obranu nedaleké Kouřimi; nejstarší dochovaná písemná zmínka pochází z roku 1348 a potvrzuje její převod na pána jménem Ješek z Náchoda. V roce 1415 se vlády ujal nový rod v čele s Janem ze Smržova, jehož potomci vládli až do roku 1492 - nejvýrazněji se zapsal Jindřich ze Smržova, který v roce 1475 osvobodil panství od léna a v roce 1489 získal pro sousední ves městská práva. Finanční potíže pak přinutily postoupit celé panství věřiteli Slavatovi z Chlumu a Košumberka za skromnou částku a ničivý požár na podzim roku 1549 tvrz zcela vypálil. Její renesanční přestavbu, kterou vedl císařský stavitel Hans Tyrol, provázelo zboření zachovalého gotického paláce a jeho nahrazení čtyřkřídlou stavbou, jejíž půdorys dodnes zámek definuje. Císař Ferdinand I. nedokončenou stavbu v roce 1558 prodal Jaroslavovi Smiřickému ze Smiřic a po konfiskaci smiřického dědictví po bitvě na Bílé hoře v roce 1621 přešlo panství přes Albrechta z Valdštejna k Karlu z Lichtenštejna, který ho o dva roky později koupil a za jehož vlády se rozrostlo v obrovské dominium s třiašedesáti vesnicemi a dvěma městečky. Od roku 1759 byl zámek přestavěn v barokním slohu pod vedením tyrolského stavitele Josefa Jägera a stal se sídlem vlastního dvora vévodkyně Marie Terezie Savojsko-Lichtenštejnské. Po vzniku Československa byl v roce 1918 v rámci pozemkové reformy Lichtenštejnům zabaven a přešel do rukou státu, který jej svěřil lesnické fakultě Českého vysokého učení technického - a v rukou její nástupkyně, České zemědělské univerzity, zůstává dodnes.
+
+🎁 Bonus: Hrad postavený na obranu středověkého města, přestavěný pro renesančního císaře a upravený pro barokní vévodkyni dnes tráví dny vyučováním studentů, jak spravovat les - snad nejméně dramatický konec, jaký kdy potkal české šlechtické panství, a možná i ten nejužitečnější.`,
+
+      zh: `勇敢的冒险家，欢迎来到科斯特莱茨城堡——这座由堡垒变身宫殿的建筑，过去一个世纪里教导的与其说是公爵贵胄，不如说是林业系的学生。
+
+这座建筑最初是13世纪下半叶建立的一座重要王室堡垒，很可能是为了协助防御附近的库日姆；现存最早的文字记载可追溯至1348年，确认了它转手给一位名叫耶谢克·兹·纳霍达的领主。1415年，扬·泽·斯姆尔若瓦家族接管此地，其后裔统治至1492年——其中最引人注目的是扬德日赫·泽·斯姆尔若瓦，他于1475年使庄园摆脱了封建义务，又在1489年为邻近村庄争取到了城镇特权。此后财务困境迫使庄园以微薄价格转让给债权人斯拉瓦塔·兹·赫卢穆－科舒姆贝尔卡，1549年秋天一场大火又将堡垒彻底烧毁。此后在皇家建筑师汉斯·蒂罗尔主持下进行的文艺复兴式重建，拆除了尚存的哥特式宫殿，代之以一座四翼建筑——这一格局至今仍定义着城堡的轮廓。1558年，皇帝斐迪南一世将这座未完工的建筑卖给雅罗斯拉夫·斯米日日茨基·泽·斯米日日茨，1621年白山战役后斯米日日茨基家族的遗产被没收，庄园辗转经阿尔布雷希特·冯·华伦斯坦之手，两年后被卖给卡雷尔·冯·列支敦士登亲王，在他治下庄园扩张成一个拥有六十三座村庄与两座集镇的庞大领地。自1759年起，城堡在蒂罗尔建筑师约瑟夫·耶格尔主持下按巴洛克风格重建，成为萨伏依－列支敦士登公爵夫人玛丽亚·特蕾莎自己宫廷的驻地。1918年捷克斯洛伐克独立后，庄园在土地改革中被没收，收归国有，随后交由捷克技术大学林学院管理——如今仍归其继承机构捷克生命科学大学所有。
+
+🎁 彩蛋：一座为保卫中世纪城镇而建、为文艺复兴皇帝重建、又为巴洛克公爵夫人翻修的城堡，如今每天的工作却是教学生如何管理森林——这大概是波希米亚贵族庄园里最不戏剧化的结局，却也可能是最实用的一个。`,
+    },
+  },
+
+  {
+    name: 'Mělník Old Town',
+    slug: 'melnik-stare-mesto',
+    localizedNames: { cz: 'Staré město Mělník', zh: '梅尔尼克老城' },
+    labels: ['village-and-town', 'historical'],
+    coordinates: { lat: 50.35256, lng: 14.474963 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/M%C4%9Bln%C3%ADk',
+    description: {
+      en: `Brave adventurer, welcome to the old town of Mělník, a fortified hilltop settlement so strategically placed above the meeting of two rivers that Czech queens fought to keep it as their personal property for centuries.
+
+People have lived on this bluff above the confluence of the Elbe and the Vltava since prehistoric times, with archaeological traces reaching back several millennia and gaining real significance under the Celts and the early Slavs. The first written mentions date to the tenth century, by which point Mělník was already a substantial stronghold of the early Přemyslid state; toward the century's end it became the seat of Princess Emma, with its own mint striking coins in her name. For centuries afterward, Mělník held the unusual status of a royal dower town, granted to Czech queens as their personal domain, from which they drew revenue and administered their own estate independent of the king. The old town's main square, náměstí Míru, still centres on the Renaissance and Neo-Renaissance town hall with its distinctive Baroque tower, and every autumn the town leans hard into its winemaking identity with the Mělník Vinobraní grape-harvest festival, drawing crowds who come as much for the view as for the wine. That view is genuinely one of a kind: from the terrace by the chateau, or from the church tower above the square, you can watch two rivers run side by side without mixing for a stretch, the Elbe darker and broader, the Vltava paler and narrower, before they finally, properly merge.
+
+🎁 Bonus: Ruling queens who administered their own dower town independently of their royal husbands were, in a quiet tenth-to-fourteenth-century way, running one of Bohemia's earliest experiments in a woman holding real, sustained political and economic power — centuries before anyone thought to write that down as a notable fact.`,
+
+      cz: `Statečný dobrodruhu, vítej ve starém městě Mělníku, opevněné výšinné osadě položené natolik strategicky nad soutokem dvou řek, že se o ni české královny po staletí přetahovaly jako o svůj osobní majetek.
+
+Lidé žijí na tomto ostrohu nad soutokem Labe a Vltavy už od pravěku, archeologické stopy sahají několik tisíciletí zpět a skutečného významu nabyly za Keltů a raných Slovanů. První písemné zmínky pocházejí z 10. století, kdy byl Mělník už významným hradištěm raného přemyslovského státu; ke konci století se stal sídlem kněžny Emmy, jejímž jménem tu razila mince vlastní mincovna. Po staletí poté měl Mělník neobvyklý status věnného města, propůjčovaného českým královnám jako jejich osobní doména, z níž čerpaly příjmy a spravovaly vlastní panství nezávisle na králi. Hlavní náměstí starého města, náměstí Míru, se dodnes soustředí kolem renesanční a novorenesanční radnice s výraznou barokní věží, a každý podzim se město naplno hlásí ke své vinařské identitě Mělnickým vinobraním, které láká davy stejnou měrou kvůli víno jako kvůli výhledu. A ten výhled je opravdu jedinečný: z terasy u zámku nebo z kostelní věže nad náměstím lze pozorovat dvě řeky, jak na určitém úseku tečou vedle sebe, aniž by se mísily - Labe tmavší a širší, Vltava světlejší a užší - než se konečně opravdu spojí.
+
+🎁 Bonus: Královny, které samostatně spravovaly vlastní věnné město nezávisle na svých královských manželích, tiše provozovaly už mezi 10. a 14. stoletím jeden z nejranějších českých experimentů s tím, aby žena držela skutečnou, dlouhodobou politickou a hospodářskou moc - staletí předtím, než to někoho napadlo zapsat jako pozoruhodný fakt.`,
+
+      zh: `勇敢的冒险家，欢迎来到梅尔尼克老城——这座建在山丘上的设防聚落，因扼守两河交汇之地的战略位置，让捷克历代王后为争夺它作为个人领地而角逐了数百年。
+
+自史前时代起，人们就在这片俯瞰易北河与伏尔塔瓦河交汇处的高地上定居，考古痕迹可追溯至数千年前，并在凯尔特人与早期斯拉夫人时期真正具备了重要意义。最早的文字记载出现在10世纪，彼时梅尔尼克已是早期普热米斯尔王朝一处颇具规模的城寨；接近世纪末时，它成为埃玛公主的驻地，当地还设有以她名义铸币的造币厂。此后数百年间，梅尔尼克拥有一种特殊的地位——"王后嫁妆城"，被赐予捷克历代王后作为个人领地，她们从中获取收入，并独立于国王管理自己的产业。老城的主广场"和平广场"，至今仍以文艺复兴与新文艺复兴风格的市政厅为中心，配有一座醒目的巴洛克式钟楼；每逢秋天，小镇都会全情投入自己的酿酒身份，举办梅尔尼克葡萄采收节，吸引来的人潮既冲着美酒，也冲着风景而来。而那道风景确实独一无二：从城堡旁的露台，或是广场上方的教堂钟楼望去，你能看到两条河流在一段距离内并肩流淌却互不相融——易北河颜色更深、河面更宽，伏尔塔瓦河则更浅、更窄——直到最终真正汇为一体。
+
+🎁 彩蛋：那些独立于自己君主丈夫、亲自管理自己嫁妆城的王后们，实际上早在10世纪到14世纪之间，就默默进行了一场波希米亚最早的实验——让女性握有真实且持续的政治与经济权力——比人们意识到该把这当作一件值得记录的大事，早了整整好几个世纪。`,
+    },
+  },
+
+  {
+    name: 'Mělník Chateau',
+    slug: 'zamek-melnik',
+    localizedNames: { cz: 'Zámek Mělník', zh: '梅尔尼克城堡' },
+    labels: ['palace', 'historical', 'architecture', 'museum'],
+    coordinates: { lat: 50.350800918134134, lng: 14.473692974762697 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/M%C4%9Bln%C3%ADk_(z%C3%A1mek)',
+    description: {
+      en: `Brave adventurer, welcome to Mělník Chateau, a building so old that describing it as merely "historic" barely covers it — parts of its cellars have been in continuous use since the eleventh century.
+
+The chateau's predecessor was an early medieval stronghold built around the turn of the ninth and tenth centuries, later becoming, at the close of the tenth century, the residence of Princess Emma, whose own mint struck coins here. After the devastation of the Thirty Years' War left the building derelict, it was pledged and then purchased in 1646 by the Czernin family, who carried out the Baroque renovation of 1685–1686 that largely defines its current appearance, layered over surviving Romanesque foundations, a late Gothic gate, and a Renaissance north wing whose sgraffito decoration from 1553 ranks among the oldest of its kind in Bohemia. In 1753, the estate passed to its present owners when Maria Ludmila, the last heiress of the Czernin family, married Augustus Antonín of Lobkowicz — a single marriage that quietly redirected an entire castle's future. The Lobkowicz family expanded the estate's already ancient winemaking tradition considerably, importing six thousand Burgundy vine cuttings from France in 1798 and adding eight further vineyard plots between 1729 and 1803; the cellars where the famous Mělník wine still ages today cover some fifteen hundred square metres and date, in parts, to the eleventh and fourteenth centuries. Confiscated under communism, the chateau was returned to the Lobkowicz family in restitution in 1992, and portions of it — including the family's art collections from the Mělník branch — remain open to the public today.
+
+🎁 Bonus: A wine cellar that has been continuously in use since roughly the fourteenth century means the building has, at various points, aged wine through the Hussite Wars, the Thirty Years' War, two world wars, and four decades of communism — arguably the most patient beverage-storage operation in the entire country.`,
+
+      cz: `Statečný dobrodruhu, vítej na Zámku Mělník, budově tak staré, že označení pouhé "historické" jí zdaleka nevystihuje - části jeho sklepů jsou nepřetržitě využívány už od 11. století.
+
+Předchůdcem zámku bylo raně středověké hradiště postavené na přelomu 9. a 10. století, které se na sklonku 10. století stalo sídlem kněžny Emmy, jejíž vlastní mincovna tu razila mince. Poté, co zpustošení třicetiletou válkou zanechalo budovu v troskách, byla v roce 1646 zastavena a posléze koupena rodem Černínů, kteří provedli barokní úpravu v letech 1685-1686, jež z velké části dodnes určuje jeho vzhled, vrstvenou na dochovaných románských základech, pozdně gotické bráně a renesančním severním křídle, jehož sgrafitová výzdoba z roku 1553 patří mezi nejstarší svého druhu v Čechách. V roce 1753 přešlo panství na dnešní majitele, když se Marie Ludmila, poslední dědička rodu Černínů, provdala za Augusta Antonína z Lobkovic - jediný sňatek, který tiše přesměroval budoucnost celého zámku. Lobkovicové výrazně rozšířili už tak starobylou vinařskou tradici panství, v roce 1798 dovezli z Francie šest tisíc sazenic burgundské révy a mezi lety 1729 a 1803 přidali dalších osm viničních pozemků; sklepy, kde dodnes zraje proslulé mělnické víno, mají rozlohu asi patnáct set metrů čtverečních a místy pocházejí z 11. a 14. století. Za komunismu byl zámek zabaven, v restituci v roce 1992 byl vrácen rodině Lobkoviců a jeho části - včetně uměleckých sbírek mělnické větve rodu - jsou dodnes přístupné veřejnosti.
+
+🎁 Bonus: Vinný sklep nepřetržitě používaný zhruba od 14. století znamená, že se v této budově víno zrálo přes husitské války, třicetiletou válku, dvě světové války i čtyři desetiletí komunismu - snad nejtrpělivější provoz na skladování nápojů v celé zemi.`,
+
+      zh: `勇敢的冒险家，欢迎来到梅尔尼克城堡——这座建筑之古老，用"历史悠久"来形容都显得远远不够：它的部分地窖自11世纪起便一直在连续使用。
+
+城堡的前身是一座建于9世纪末10世纪初的早期中世纪要塞，到10世纪末成为埃玛公主的驻地，她拥有自己的造币厂，在此铸造钱币。三十年战争造成的破坏令建筑一度荒废，1646年先被抵押、后被切尔宁家族买下，他们于1685至1686年间进行的巴洛克式改建，在很大程度上奠定了如今的外观——叠加在幸存的罗曼式地基、晚期哥特式大门以及文艺复兴风格北翼之上，北翼1553年的灰泥浮雕装饰更是波希米亚同类装饰中最古老的之一。1753年，随着切尔宁家族最后一位女继承人玛丽亚·卢德米拉嫁给奥古斯特·安东宁·冯·罗布科维茨，庄园易主至今天的所有者手中——一场婚姻，就这样悄然改写了整座城堡的命运。罗布科维茨家族大大拓展了庄园本已悠久的酿酒传统，1798年从法国引进六千株勃艮第葡萄苗，又在1729年至1803年间新增了八块葡萄园地块；如今仍在陈酿着著名梅尔尼克葡萄酒的地窖，总面积约一千五百平方米，部分可追溯至11世纪与14世纪。共产主义时期，城堡曾被没收，1992年经财产归还程序交还给罗布科维茨家族，其中一部分——包括罗布科维茨家族梅尔尼克分支的艺术藏品——至今仍对公众开放。
+
+🎁 彩蛋：一座自14世纪前后便持续使用至今的酒窖，意味着这座建筑曾先后见证葡萄酒在胡斯战争、三十年战争、两次世界大战以及长达四十年的共产主义时期中静静陈酿——这大概是全国最有耐心的饮品仓储作业了。`,
+    },
+  },
+
+  {
+    name: 'Český Šternberk Castle',
+    slug: 'hrad-cesky-sternberk',
+    localizedNames: { cz: 'Hrad Český Šternberk', zh: '切斯基什滕贝克城堡' },
+    labels: ['museum', 'historical', 'architecture'],
+    coordinates: { lat: 49.80830600511665, lng: 14.926386387134862 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%BD_%C5%A0ternberk_(hrad)',
+    description: {
+      en: `Brave adventurer, welcome to Český Šternberk Castle, a fortress so thoroughly owned by one family across nearly eight centuries that its history reads less like a chain of conquests and more like a single, very long family reunion.
+
+The castle was founded in 1241 by Zdeslav z Divišova, and its name commemorates the coat of arms his family carried into that founding — a golden eight-pointed star, "Stern" in German, mounted on a "Berg," a mountain, giving both the fortress and the family that built it the name Šternberk. Ownership shifted for the first time only in the fifteenth century, when the Holický branch of the Šternberk family took over, and the castle was conquered once, in 1467, by the army of King Jiří z Poděbrad. When the Holický line died out in 1712, the castle briefly left Šternberk hands entirely — until 1841, when Zdeněk ze Šternberka bought it back, restoring it to the family that had built it exactly six hundred years earlier. That ownership held until 1949, when the communist state confiscated the property; remarkably, the last pre-confiscation owner, Jiří Sternberg, managed to stay on as the castle's own administrator and castellan on his former estate, quietly compiling a full inventory and saving a great many original furnishings from being scattered or lost. Restitution in 1992 returned the castle to Zdeněk Sternberg, a direct descendant of the original 1241 founder, and it now stands in the hands of the twenty-first consecutive generation of that same family — making it one of the best-preserved, and most continuously inhabited, castle complexes anywhere in the Czech Republic.
+
+🥚 Easter Egg: Eight uninterrupted centuries in one family's hands is the kind of unbroken streak that deserves a proper milestone — and, entirely by coincidence, so does this card. Český Šternberk Castle is the 1,000th location added to this project. Twenty-one generations of Šternbergs held onto one castle; it took considerably fewer generations of one very determined developer to map a thousand corners of Prague and beyond. Both, in their own way, are acts of stubborn devotion to a single place.`,
+
+      cz: `Statečný dobrodruhu, vítej na Hradě Český Šternberk, pevnosti tak důkladně v držení jedné rodiny po téměř osm století, že se jeho dějiny čtou spíš jako jedno velmi dlouhé rodinné setkání než jako řetězec dobyvatelských výměn.
+
+Hrad založil v roce 1241 Zdeslav z Divišova a jeho jméno připomíná erb, který jeho rod nesl už při založení - zlatou osmicípou hvězdu, německy "Stern", umístěnou na "Bergu", hoře, díky čemuž dostal jméno Šternberk jak hrad, tak rod, který jej postavil. Vlastnictví se poprvé změnilo až v 15. století, kdy se novými majiteli stala holická větev rodu Šternberků, a hrad byl jednou dobyt, v roce 1467, vojskem krále Jiřího z Poděbrad. Když holická linie v roce 1712 vymřela, opustil hrad na čas ruce Šternberků úplně - až do roku 1841, kdy jej Zdeněk ze Šternberka odkoupil zpět a vrátil jej rodu, který ho postavil přesně o šest set let dříve. Toto vlastnictví vydrželo do roku 1949, kdy komunistický stát panství zabavil; poslednímu majiteli před zabavením, Jiřímu Sternbergovi, se pozoruhodně podařilo zůstat na svém bývalém panství jako správce a kastelán hradu, tiše sestavil kompletní inventář a zachránil mnoho původního vybavení před rozptýlením či ztrátou. Restituce v roce 1992 vrátila hrad Zdeňku Sternbergovi, přímému potomkovi zakladatele z roku 1241, a dnes je v rukou už jedenadvacáté nepřerušené generace téhož rodu - díky čemuž patří k nejlépe dochovaným a nejnepřetržitěji obývaným hradním komplexům v celé České republice.
+
+🥚 Velikonoční vajíčko: Osm nepřerušených století v držení jedné rodiny je druh nepřetržité série, která si zaslouží pořádný milník - a zcela náhodou si ho zaslouží i tato kartička. Hrad Český Šternberk je 1000. lokací přidanou do tohoto projektu. Jedenadvacet generací Šternberků drželo jeden hrad; k zmapování tisíce koutů Prahy a okolí stačilo podstatně méně generací jednoho velmi odhodlaného vývojáře. Obojí je svým způsobem tvrdohlavou oddaností jednomu jedinému místu.`,
+
+      zh: `勇敢的冒险家，欢迎来到切斯基什滕贝克城堡——这座堡垒近八个世纪以来始终归属同一个家族，其历史读起来与其说是一连串的征服更迭，不如说更像是一场极其漫长的家族团聚。
+
+城堡由兹德斯拉夫·兹·迪维绍瓦于1241年建立，其名称正是纪念他的家族在建城之初所使用的纹章——一颗金色八角星，德语称"Stern"（星），立于"Berg"（山）之上，因此无论是这座城堡，还是建造它的家族，都得名"什滕贝克"。所有权直到15世纪才第一次发生变化，什滕贝克家族的霍利茨基分支成为新的主人，城堡也曾于1467年被国王伊日·兹·波杰布拉德的军队攻陷过一次。1712年霍利茨基一脉绝嗣后，城堡一度完全脱离什滕贝克家族之手——直到1841年，兹德涅克·泽·什滕贝克将其买回，使城堡在建成整整六百年后重归建造者家族。这份产权一直延续到1949年，共产主义国家没收了这座庄园；值得一提的是，被没收前的最后一任主人伊日·斯滕贝格竟设法留在自己昔日的庄园里，担任城堡的管理员与堡主，默默编纂了一份完整的清单目录，抢救下了大量原始陈设，使其免于流散或遗失。1992年的财产归还，将城堡交还给了1241年建立者的直系后裔兹德涅克·斯滕贝格，如今城堡已传承至同一家族连续不间断的第二十一代手中——这也让它成为整个捷克共和国保存最完好、居住历史最连续的城堡建筑群之一。
+
+🥚 彩蛋：一个家族连续八个世纪不间断地持有同一座城堡，这样的纪录理应配得上一个正式的里程碑——而巧合的是，这张卡片本身也恰好配得上一个。切斯基什滕贝克城堡，正是这个项目收录的第1000个地点。什滕贝克家族用二十一代人守住了一座城堡；而绘制布拉格及周边一千个角落，一位极其执着的开发者所用的代数，却要少得多。两者都以各自的方式，诠释了对同一个地方近乎固执的忠诚。`,
+    },
+  },
 ];
 
 async function run() {

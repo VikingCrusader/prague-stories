@@ -687,6 +687,22 @@ export const SLUG_RARITY = {
   'zkamenely-slouha':               'epic',     // Prague's only menhir, "petrified farmhand" curse legend, Dolní Chabry
   'kostel-steti-sv-jana-krtitele-dolni-chabry': 'superior', // 4th building on site, 2nd-largest Bohemian Romanesque rotunda beneath it
   'cimicka-tvrz':                   'rare',     // 13th-c fortified house foundations, excavated then reburied under parkland
+
+  // ── Prague-adjacent batch (2026-07): outlets, monuments, castles, gold towns ─
+  'fashion-arena-prague-outlet':    'rare',     // largest outlet centre in Czech Republic, Prague 10 edge
+  'pomnik-maxe-van-der-stoela':     'epic',     // concrete-cast tree-shadow memorial, Patočka/van der Stoel meeting
+  'vrchlickeho-sady':               'rare',     // "Prague's Sherwood", park behind the main railway station
+  'wilsonova-socha-vrchlickeho-sady': 'epic',   // Nazi-destroyed 1928 statue, rebuilt 2011 after 70 years
+  'ministerstvo-kultury-kancelar':  'superior', // 1913 Rosipal-designed former Municipal Orphanage, Hradčany
+  'socha-marie-terezie':            'rare',     // 2020 faceless "chess piece" monument by Prašný most
+  'jilove-u-prahy':                 'superior', // royal gold-mining town, 11 tons extracted until 1968
+  'zampassky-most':                 'epic',     // 1898-99 granite viaduct, 2nd-highest stone rail bridge in Central Europe
+  'zamek-lobkovice':                'superior', // 1403 fortress, Palacký's favourite retreat, Lobkowicz restitution 1991
+  'cesky-brod':                     'superior', // Gothic bishop's ford-town, Trstenice trail, free royal town 1786
+  'zamek-kostelec-nad-cernymi-lesy': 'superior', // royal fortress since 13th c., now ČZU forestry faculty seat
+  'melnik-stare-mesto':             'superior', // royal dower town above the Elbe-Vltava confluence
+  'zamek-melnik':                   'mythic',   // 1100+ year chateau, Lobkowicz wine cellars since 11th/14th c.
+  'hrad-cesky-sternberk':           'mythic',   // founded 1241, 21 unbroken generations of the same family
 };
 
 export function getRarity(slug) {
