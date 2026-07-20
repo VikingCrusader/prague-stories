@@ -19026,6 +19026,318 @@ Hrad založil v roce 1241 Zdeslav z Divišova a jeho jméno připomíná erb, kt
 🥚 彩蛋：一个家族连续八个世纪不间断地持有同一座城堡，这样的纪录理应配得上一个正式的里程碑——而巧合的是，这张卡片本身也恰好配得上一个。切斯基什滕贝克城堡，正是这个项目收录的第1000个地点。什滕贝克家族用二十一代人守住了一座城堡；而绘制布拉格及周边一千个角落，一位极其执着的开发者所用的代数，却要少得多。两者都以各自的方式，诠释了对同一个地方近乎固执的忠诚。`,
     },
   },
+
+  {
+    name: 'Fraternization Monument',
+    slug: 'sbratreni-vrchlickeho-sady',
+    localizedNames: { cz: 'Sbratření (Vrchlického sady)', zh: '"兄弟情谊"纪念雕塑' },
+    labels: ['monument', 'communism', 'historical'],
+    coordinates: { lat: 50.085485385330486, lng: 14.435183149688795 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Sbrat%C5%99en%C3%AD_(Vrchlick%C3%A9ho_sady)',
+    description: {
+      en: `Brave adventurer, welcome to the Fraternization monument, a bronze embrace between a Soviet soldier and a Czech partisan that has spent decades quietly relocating around Prague's main railway station — and in 2024 briefly became a target in a war it had nothing to do with.
+
+Sculptor Karel Pokorný cast the group between 1947 and 1950, loosely basing it on a real photograph, "První setkání" ("First Meeting"), taken by Karel Ludwig during the Prague Uprising of May 1945. The original still stands in front of the station square in Česká Třebová, commissioned by a local citizen returning from a Nazi concentration camp; Prague's version is Pokorný's own copy, installed in 1960 in front of the Fanta Building at the main railway station. Construction of Metro Line C forced a temporary relocation to the Federal Assembly building, before the statue settled into its current spot in Vrchlického sady in 1988. The image proved durable enough to appear on a 1952 Czechoslovak postage stamp and on the 50-koruna banknote issued during the 1953 currency reform, and the piece remains a registered cultural monument today.
+
+On the night of April 6, 2024, unknown vandals doused the statue in red paint, widely read as a protest tied to Russia's invasion of Ukraine. It was carried off to a conservator's studio two weeks later — the paint-removal chemicals had stripped the original patina along with the vandalism, forcing a full restoration that cost roughly a quarter of a million crowns — and returned to its pedestal, patina and beeswax finish restored, on November 23, 2024.
+
+🎁 Bonus: A statue commissioned to commemorate one war's ending in 1945 spent 2024 quietly absorbing the fallout of an entirely different one — proof that a bronze handshake, once cast, doesn't get to opt out of whatever politics happen to walk past it next.`,
+
+      cz: `Statečný dobrodruhu, vítej u pomníku Sbratření, bronzového objetí sovětského vojáka a českého partyzána, které už desítky let tiše putuje po okolí pražského hlavního nádraží — a v roce 2024 se na pár týdnů stalo terčem války, se kterou nemělo vůbec nic společného.
+
+Sochař Karel Pokorný odlil skupinu v letech 1947 až 1950, volně podle skutečné fotografie "První setkání" Karla Ludwiga, pořízené během Pražského povstání v květnu 1945. Originál dodnes stojí před nádražním náměstím v České Třebové, kam ho nechal zhotovit místní občan vrácený z nacistického koncentračního tábora; pražská verze je Pokorného vlastní kopie, instalovaná v roce 1960 před Fantovou budovou hlavního nádraží. Stavba metra trasy C si vyžádala dočasné přestěhování k budově Federálního shromáždění, než se socha v roce 1988 usadila na svém současném místě ve Vrchlického sadech. Motiv se ukázal natolik životaschopný, že se objevil na československé poštovní známce z roku 1952 i na padesátikorunové bankovce vydané při měnové reformě roku 1953, a dodnes jde o registrovanou kulturní památku.
+
+V noci ze 6. na 7. dubna 2024 neznámí vandalové sochu polili červenou barvou, což bylo obecně vykládáno jako protest související s ruskou invazí na Ukrajinu. O dva týdny později ji odvezli do restaurátorského ateliéru — chemikálie na odstranění barvy totiž spolu s vandalismem setřely i původní patinu, což si vyžádalo kompletní obnovu za zhruba čtvrt milionu korun — a 23. listopadu 2024 se s obnovenou patinou a voskovým nátěrem vrátila zpět na svůj podstavec.
+
+🎁 Bonus: Socha, kterou nechali zhotovit na památku konce jedné války v roce 1945, strávila rok 2024 tichým vstřebáváním následků úplně jiné války — důkaz, že jednou odlitý bronzový stisk ruky si nemůže vybírat, jaká politika kolem něj zrovna prochází.`,
+
+      zh: `勇敢的冒险家，欢迎来到"兄弟情谊"纪念雕塑——一尊描绘苏联士兵与捷克游击队员相拥的青铜雕像，几十年来一直在布拉格主火车站附近悄悄搬来搬去，2024年还一度成了一场与它毫无关系的战争的出气筒。
+
+雕塑家卡雷尔·波科尔尼于1947年至1950年间铸造了这组作品，原型松散地取材于卡雷尔·路德维希在1945年5月布拉格起义期间拍摄的一张真实照片《初次相遇》。原作至今仍立于捷克特热比恰车站广场前，由一位刚从纳粹集中营归来的当地市民出资委托建造；布拉格的这一尊则是波科尔尼本人制作的复制品，1960年安放在主火车站的凡塔大楼前。地铁C线的施工迫使雕像暂时迁往联邦议会大楼，直到1988年才最终落脚于如今所在的弗尔赫利茨凯赫公园。这一形象的生命力之强，甚至登上了1952年的捷克斯洛伐克邮票，以及1953年货币改革时发行的五十克朗纸币，如今它仍是一座登记在册的文化古迹。
+
+2024年4月6日夜间，不明身份的破坏者将红漆泼满了整座雕像，普遍被解读为针对俄罗斯入侵乌克兰的抗议行为。两周后，雕像被送往文物修复工作室——去除油漆的化学药剂连同这次破坏行为一起，把原有的铜绿层也一并剥去，因此不得不进行一次彻底修复，花费约合四分之一百万克朗——2024年11月23日，恢复了铜绿与蜂蜡涂层的雕像重新回到了原来的基座上。
+
+🎁 彩蛋：这座为纪念1945年一场战争结束而委托建造的雕像，却在2024年默默承受了另一场完全不同战争的余波——证明一次已经铸成青铜的握手，没法选择接下来会有什么样的政治风波从它身边经过。`,
+    },
+  },
+
+  {
+    name: 'Europark Prague Shopping Centre',
+    slug: 'europark-praha',
+    localizedNames: { cz: 'Obchodní centrum Europark Praha', zh: '布拉格欧洲公园购物中心' },
+    labels: ['modern'],
+    coordinates: { lat: 50.07209525359056, lng: 14.542347263016334 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Obchodn%C3%AD_centrum_Europark_Praha',
+    description: {
+      en: `Brave adventurer, welcome to Europark Prague, a shopping centre so committed to the retail basics that it opened with a hypermarket and a hardware superstore as its anchor tenants — proof that sometimes an adventure just means a really big trolley.
+
+Developed by the Austrian group SPAR European Shopping Centers and modelled on similar centres the company had already built in Salzburg and Maribor, Europark opened in Štěrboholy on September 25, 2002, anchored by a Globus hypermarket and an OBI hobby-and-DIY market alongside roughly seventy smaller shops. An additional indoor gallery wing with 23 more shops was added in 2008, and the site now offers over 2,000 parking spaces split between surface lots and an underground garage. SPAR remained the majority owner for its first seventeen years, until Czech developer group DBK Praha bought the centre in 2019 for roughly two billion crowns, with SPAR retaining a minority stake.
+
+🎁 Bonus: Europark sits in the same general Štěrboholy district where Prussian and Austrian armies fought a bloody battle of the Seven Years' War back in 1757 — nobody's found a receipt proving the mall stands on the exact battle line, but it's a fair bet that whoever picked this spot for a hypermarket wasn't thinking about the 250-year-old artillery duel underfoot.`,
+
+      cz: `Statečný dobrodruhu, vítej v Obchodním centru Europark Praha, nákupním centru natolik oddaném základům maloobchodu, že jako své kotevní nájemce otevřelo hypermarket a hobbymarket — důkaz, že někdy dobrodružství znamená prostě jen opravdu velký nákupní vozík.
+
+Europark postavila rakouská skupina SPAR European Shopping Centers podle vzoru podobných center, která už dříve vybudovala v Salcburku a Mariboru, a ve Štěrboholích jej otevřela 25. září 2002 s hypermarketem Globus a hobbymarketem OBI jako hlavními nájemci, doplněnými zhruba sedmdesáti menšími obchody. V roce 2008 přibylo další křídlo krytého pasážového patra s 23 dalšími obchody a areál dnes nabízí přes 2 000 parkovacích míst rozdělených mezi povrchová stání a podzemní garáže. SPAR zůstal většinovým vlastníkem prvních sedmnáct let, než centrum v roce 2019 koupila česká developerská skupina DBK Praha za zhruba dvě miliardy korun, přičemž SPAR si ponechal menšinový podíl.
+
+🎁 Bonus: Europark stojí v téže obecné oblasti Štěrbohol, kde se v roce 1757 za sedmileté války odehrála krvavá bitva pruských a rakouských vojsk — nikdo sice nemá doklad o tom, že by centrum stálo přesně na bitevní linii, ale je docela dobrá sázka, že kdo vybíral toto místo pro hypermarket, na dělostřeleckou přestřelku starou čtvrt tisíciletí pod nohama zrovna nemyslel.`,
+
+      zh: `勇敢的冒险家，欢迎来到布拉格欧洲公园购物中心——这座购物中心对"零售基本功"的执着程度，甚至让一家大卖场和一家五金建材超市成为了它的主力店铺，证明有时候所谓的冒险，不过就是推一辆特别大的购物车。
+
+欧洲公园购物中心由奥地利SPAR欧洲购物中心集团开发，仿照该集团此前已在萨尔茨堡与马里博尔建成的同类项目，于2002年9月25日在什捷尔博霍利开业，主力店为家乐超市（Globus）与欧倍德（OBI）五金家居市场，另配有约七十家小型商铺。2008年新增了一座带23家商铺的室内商场翼楼，如今园区共提供两千余个停车位，分布在地面停车场与地下车库。SPAR在开业后的头十七年里始终是大股东，直到2019年，捷克开发商集团DBK Praha以约合二十亿克朗的价格收购了这座购物中心，SPAR则保留了少数股权。
+
+🎁 彩蛋：欧洲公园购物中心所在的什捷尔博霍利一带，正是1757年七年战争期间普鲁士与奥地利军队浴血交锋之地——虽然没人能拿出证据证明商场恰好建在当年的战线之上，但可以合理猜测，当初选中这块地建大卖场的人，脚下这段两百五十年前的炮火交锋，恐怕完全不在他们的考虑范围之内。`,
+    },
+  },
+
+  {
+    name: 'Šárka Quartzite Cave',
+    slug: 'sarecka-kremencova-jeskyne',
+    localizedNames: { cz: 'Šárecká Křemencová jeskyně', zh: '沙尔卡石英岩洞' },
+    labels: ['geology', 'nature'],
+    coordinates: { lat: 50.10434873107428, lng: 14.350674271749883 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Šárka Quartzite Cave, a nine-metre crack in a six-hundred-million-year-old rock face that proves you don't need a mountain range to have a genuine cave — a quiet gorge on the edge of a city will do just fine.
+
+Tucked into a former quarry within a rocky outcrop above the Šárka stream, the cave formed along natural fractures in buližník, a dense, mostly black Precambrian rock made of tightly packed quartz grains — commonly called quartzite locally, though geologists classify it separately. Its passages opened up through a slow dissolution process resembling karst formation, without the dripping, frost-carved shapes that define true limestone caves. The rock outcrop itself carries a much older story than the cave: it's a registered archaeological site with traces of settlement stretching from the Neolithic Linear Pottery culture through the Eneolithic, though nineteenth-century bone collectors digging here for a nearby sugar refinery disturbed much of that context before anyone thought to study it properly. The whole gorge sits inside Divoká Šárka, designated in 1964 as Prague's very first official nature reserve.
+
+🎁 Bonus: A rock formation that people were casually digging into for factory supplies in the 1800s turned out to be sitting on thousands of years of settlement history — a reminder that "just an old quarry" and "significant archaeological site" are not, in this valley at least, mutually exclusive descriptions.`,
+
+      cz: `Statečný dobrodruhu, vítej u Šárecké Křemencové jeskyně, devítimetrové pukliny v šestisetmilionů let staré skalní stěně, která dokazuje, že k opravdové jeskyni nepotřebuješ pohoří — klidná rokle na okraji města stačí docela dobře.
+
+Jeskyně, ukrytá v bývalém lomu na skalním výchozu nad Šáreckým potokem, vznikla podél přirozených puklin v buližníku, hutné, převážně černé prekambrické hornině tvořené hustě natěsnanými zrny křemene — místně se jí běžně říká křemenec, i když geologové ji řadí jinam. Její chodby se otevřely pomalým procesem rozpouštění podobným krasovění, bez okapových a mrazem vytvarovaných tvarů, které definují opravdové vápencové jeskyně. Samotný skalní výchoz nese mnohem starší příběh než jeskyně: je registrovanou archeologickou lokalitou se stopami osídlení sahajícími od neolitické kultury s lineární keramikou přes eneolit, i když sběratelé kostí v 19. století, kopající tu materiál pro nedalekou cukrovarnu, velkou část tohoto kontextu narušili dřív, než to někoho napadlo pořádně prozkoumat. Celá rokle leží uvnitř Divoké Šárky, vyhlášené v roce 1964 jako vůbec první oficiální pražská přírodní rezervace.
+
+🎁 Bonus: Skalní útvar, do kterého lidé v 19. století ledabyle kopali kvůli surovinám pro továrnu, se nakonec ukázal jako místo s tisíciletími osídlení pod povrchem — připomínka, že "jen starý lom" a "významná archeologická lokalita" se v tomhle údolí rozhodně nevylučují.`,
+
+      zh: `勇敢的冒险家，欢迎来到沙尔卡石英岩洞——一道藏身于六亿年古老岩壁中、长仅九米的裂隙，证明想拥有一处真正的洞穴，根本不需要一整条山脉，城市边缘一道安静的峡谷就绰绰有余。
+
+这座洞穴藏身于沙尔卡溪畔一处岩石露头内的旧采石场中，沿着"布利日尼克岩"（一种致密、多呈黑色的前寒武纪岩石，由紧密堆积的石英颗粒组成）中的天然裂缝形成——当地人常称其为石英岩，尽管地质学家将其另归一类。它的通道是通过一种类似喀斯特溶蚀的缓慢过程逐渐打开的，却没有真正石灰岩洞穴那种滴水与冰冻侵蚀塑造出的形态。这处岩石露头本身承载着比洞穴古老得多的故事：它是一处登记在册的考古遗址，留有从新石器时代线纹陶文化一直延续到铜石并用时代的定居痕迹，只不过19世纪曾有人在此为附近一家制糖厂挖掘骨料，在人们真正想到该好好研究它之前，就已经破坏了大量的原始遗存背景。整条峡谷都坐落在"狂野沙尔卡"自然保护区内，该保护区于1964年被列为布拉格历史上第一个正式的自然保护区。
+
+🎁 彩蛋：19世纪的人们随随便便在这处岩层里挖掘工厂原料，谁曾想它下面竟压着数千年的定居历史——这条山谷至少证明了一件事："不过是个旧采石场"和"重要考古遗址"完全可以是同一个地方。`,
+    },
+  },
+
+  {
+    name: 'Sídliště Červený Vrch',
+    slug: 'sidliste-cerveny-vrch',
+    localizedNames: { cz: 'Sídliště Červený Vrch', zh: '红山住宅区' },
+    labels: ['communism', 'architecture', 'street'],
+    coordinates: { lat: 50.09921537719896, lng: 14.361289524701258 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/S%C3%ADdli%C5%A1t%C4%9B_%C4%8Cerven%C3%BD_Vrch',
+    description: {
+      en: `Brave adventurer, welcome to Sídliště Červený Vrch, a Prague 6 housing estate where the street signs promise a trip through Africa and the Middle East — and then, for several of them, quietly fail to deliver an actual street.
+
+Built mainly between 1960 and 1972 under architect Milan Jarolím, with a second phase added from 1970 to 1973 under architect J. Samek, the estate was originally planned to house nearly 10,000 residents in its first stage alone, with over a thousand more added in the extension. In 1962, planners named the streets in the estate's southern half after African countries — Africká is the longest — and the streets in the northern half after Middle Eastern countries, with Arabská taking that title. Not every planned street was ever built, though: Marocká, Čadská, Libyjská, Maliská, and Guinejská never materialised as physical roads, and Somálská, added to the list in 1977, never did either. None of these unbuilt names has ever been officially revoked, so they remain, technically, on the books.
+
+🎁 Bonus: Somewhere in Prague's municipal records, Morocco, Chad, Libya, Mali, Guinea, and Somalia have each had an official street named after them for decades — streets that, as far as the pavement is concerned, simply do not exist.`,
+
+      cz: `Statečný dobrodruhu, vítej na Sídlišti Červený Vrch, pražském sídlišti v Praze 6, kde ti tabule se jmény ulic slibují výlet přes Afriku a Blízký východ — a u několika z nich pak potichu žádnou skutečnou ulici nedodají.
+
+Sídliště vzniklo především v letech 1960 až 1972 podle návrhu architekta Milana Jarolíma, s druhou etapou přidanou v letech 1970 až 1973 podle architekta J. Samka; jen v první etapě bylo plánováno bydlení pro téměř 10 000 obyvatel, v přístavbě přibylo přes tisíc dalších. V roce 1962 pojmenovali plánovači ulice v jižní části sídliště podle afrických států — nejdelší je Africká — a ulice v severní části podle států Blízkého východu, přičemž tento titul nese Arabská. Ne každá plánovaná ulice ale byla nakonec skutečně postavena: Marocká, Čadská, Libyjská, Maliská a Guinejská jako fyzické cesty nikdy nevznikly, a stejně tak nevznikla ani Somálská, přidaná na seznam v roce 1977. Žádný z těchto nikdy nepostavených názvů nebyl nikdy úředně zrušen, takže formálně zůstávají v evidenci dodnes.
+
+🎁 Bonus: Někde v pražské městské evidenci mají Maroko, Čad, Libye, Mali, Guinea a Somálsko už desítky let svou vlastní oficiálně pojmenovanou ulici — ulici, která z pohledu chodníku prostě neexistuje.`,
+
+      zh: `勇敢的冒险家，欢迎来到红山住宅区——布拉格6区的一座住宅小区，这里的路牌承诺带你走一趟非洲与中东之旅，可其中好几条街道，却悄悄地从未真正兑现过。
+
+小区主体建于1960年至1972年间，由建筑师米兰·雅罗利姆设计，1970年至1973年又在建筑师J·萨梅克主持下加建了第二期；仅第一期规划就要容纳近一万名居民，加建部分又新增逾千人。1962年，规划者将小区南部的街道以非洲国家命名——最长的一条叫"非洲街"（Africká）——北部的街道则以中东国家命名，"阿拉伯街"（Arabská）夺得同一头衔。但并非每一条规划中的街道最终都真正建成：摩洛哥街、乍得街、利比亚街、马里街与几内亚街从未化作实际的道路，1977年补入名单的索马里街同样如此。这些从未建成的街名，却从来没有被正式撤销，理论上至今仍登记在册。
+
+🎁 彩蛋：在布拉格的市政档案里，摩洛哥、乍得、利比亚、马里、几内亚和索马里，各自拥有一条以本国命名的正式街道，已经长达数十年——而这些街道，就人行道本身而言，压根不存在。`,
+    },
+  },
+
+  {
+    name: 'The Powder Bridge',
+    slug: 'prasny-most',
+    localizedNames: { cz: 'Prašný most', zh: '普拉什尼桥' },
+    labels: ['bridge', 'historical', 'architecture'],
+    coordinates: { lat: 50.09138444865054, lng: 14.398669418354707 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pra%C5%A1n%C3%BD_most',
+    description: {
+      en: `Brave adventurer, welcome to the Powder Bridge, a five-century-old royal crossing that survived two wars and a cannonball only to be quietly buried under a pile of dirt — and then, two hundred years later, dug back out and given an architecture award.
+
+Built between 1534 and 1538 on the order of Ferdinand I of Habsburg, the original structure was a wooden, roof-covered bridge on six stone pillars, connecting Prague Castle across the Deer Moat to the newly laid-out Royal Garden. It burned in the great Malá Strana fire of 1541 and was rebuilt soon after, only to take damage again from French artillery during the War of the Austrian Succession in 1742 and from a Prussian cannonball during the Seven Years' War in 1757. By 1769–1770, authorities gave up on maintaining a wooden bridge altogether and replaced it with a solid earthen causeway roughly ninety metres long, with a covered tunnel carrying the stream underneath — essentially burying the crossing rather than rebuilding it, and the fill has carried traffic across the moat ever since. Exactly why it's called "Prašný," or "Powder/Dusty," is genuinely disputed: some sources point to a gunpowder mill once operating beneath it, others to dust settling under its old covered roof, others still to the nearby Mihulka gunpowder tower.
+
+The buried Baroque-era tunnel got a second life between 1999 and 2002, when architect Josef Pleskot renovated it for pedestrian use — work that earned a nomination for the EU Prize for Contemporary Architecture (the Mies van der Rohe Award) and won the 2004 Brick Award. Today the causeway carries road traffic, tram tracks, and its own tram stop, still functioning as the only northern approach to Prague Castle's grounds.
+
+🎁 Bonus: The "bridge" you cross today isn't a bridge at all — it's an eighteenth-century dam wearing a road on top of it, with a genuine engineering tunnel buried underneath that had to wait two centuries to be reopened, and then picked up a modern architecture prize for the trouble.`,
+
+      cz: `Statečný dobrodruhu, vítej na Prašném mostě, pět století starém královském přechodu, který přežil dvě války a dělovou kouli jen proto, aby ho tiše zavalili hromadou hlíny — a o dvě stě let později ho zase vykopali a dali mu architektonickou cenu.
+
+Původní stavbu postavili v letech 1534 až 1538 na příkaz Ferdinanda I. Habsburského jako dřevěný, střechou krytý most na šesti kamenných pilířích, spojující Pražský hrad přes Jelení příkop s nově založenou Královskou zahradou. Vyhořel při velkém požáru Malé Strany v roce 1541 a byl brzy obnoven, jen aby byl znovu poškozen francouzským dělostřelectvem během války o rakouské dědictví v roce 1742 a pruskou dělovou koulí za sedmileté války v roce 1757. Kolem let 1769-1770 se úřady vzdaly udržování dřevěného mostu úplně a nahradily jej pevným zemním náspem dlouhým zhruba devadesát metrů, s krytým tunelem vedoucím potok pod ním — v podstatě přechod spíš zavalily, než znovu postavily, a násyp od té doby nese dopravu přes příkop dodnes. Proč se přesně jmenuje "Prašný", zůstává předmětem sporu: některé prameny poukazují na prachárnu, která pod ním kdysi fungovala, jiné na prach usazující se pod jeho starou krytou střechou, další ještě na nedalekou prachovou věž Mihulku.
+
+Zasypaný barokní tunel dostal druhý život mezi lety 1999 a 2002, kdy jej architekt Josef Pleskot obnovil pro pěší provoz — práce, která vynesla nominaci na Cenu Evropské unie za současnou architekturu (Cenu Miese van der Rohe) a v roce 2004 vyhrála Brick Award. Dnes násep nese silniční dopravu, tramvajové koleje i vlastní tramvajovou zastávku a stále slouží jako jediný severní přístup na pozemky Pražského hradu.
+
+🎁 Bonus: "Most", který dnes přecházíš, není žádný most — je to hráz z 18. století s cestou navrch, se skutečným inženýrským tunelem zasypaným pod ní, který musel čekat dvě staletí, než ho znovu otevřeli, a pak si za tu dobu čekání vysloužil moderní architektonickou cenu.`,
+
+      zh: `勇敢的冒险家，欢迎来到普拉什尼桥——一座历经五个世纪的皇家通道，扛过了两场战争与一发炮弹，最终却被悄悄埋进了一堆泥土之下，两百年后又被重新挖出来，还拿了一个建筑奖。
+
+这座桥最初建于1534年至1538年间，由哈布斯堡的斐迪南一世下令建造，最初是一座带顶棚的木桥，架在六根石柱上，横跨鹿苑壕沟，将布拉格城堡与新建的皇家花园连接起来。1541年小城区大火中被烧毁，随后不久便重建，却又在1742年奥地利王位继承战争期间被法军炮火击伤，1757年七年战争期间再度被普鲁士炮弹击中。到1769年至1770年间，当局索性放弃了维护木桥，改用一道长约九十米的实心土堤取而代之，堤下修有一条带顶的暗渠让溪水通过——与其说是重建，不如说是把这处通道彻底埋了起来，此后这道土堤便一直承载着跨越壕沟的交通，直至今日。至于它为何被称为"普拉什尼"（意为"灰尘"或"火药"），至今众说纷纭：有的说法指向曾在桥下运作的一座火药磨坊，有的归因于旧顶棚下长年积起的灰尘，还有的则联系到附近的米胡尔卡火药塔。
+
+这条被掩埋的巴洛克时代暗渠，在1999年至2002年间迎来了第二次生命——建筑师约瑟夫·普莱斯科特将其改造为行人通道，这项工程获得了欧盟当代建筑奖（密斯·凡德罗奖）提名，并在2004年赢得了Brick Award奖项。如今，这道堤道承载着车行道、有轨电车轨道，以及一座属于自己的电车站，至今仍是通往布拉格城堡区域的唯一北向通道。
+
+🎁 彩蛋：你今天跨过的这座"桥"其实根本不是桥——它是一道18世纪的堤坝，上面铺了条路，堤坝下方埋着一条货真价实的工程暗渠，苦等了两个世纪才重见天日，之后还因此收获了一座现代建筑奖，也算没白等。`,
+    },
+  },
+
+  {
+    name: 'Újezd nad Lesy',
+    slug: 'ujezd-nad-lesy',
+    localizedNames: { cz: 'Újezd nad Lesy', zh: '林畔乌耶日德' },
+    labels: ['village-and-town', 'historical'],
+    coordinates: { lat: 50.0761582390916, lng: 14.659162577447416 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C3%9Ajezd_nad_Lesy',
+    description: {
+      en: `Brave adventurer, welcome to Újezd nad Lesy, a village on Prague's eastern edge that got burned to the ground by Swedish troops, sat empty for roughly 140 years, and then had to borrow German settlers just to exist again.
+
+First recorded in 1309, when landowner Vítek ze Švábenic transferred the village to the Zderaz monastery, Újezd likely began as a street-village settlement in the second half of the thirteenth century. Its name comes from "újezd," an old Czech term for a land boundary traditionally marked by riding a horse around the claimed territory; "nad Lesy" ("above the forests") was only added in 1922, to tell it apart from the many other Újezds scattered across Bohemia. Things went badly in 1645, when Swedish troops burned the village during the Thirty Years' War, leaving it essentially uninhabited for close to a century and a half — it was only resettled in 1783, under Alois I of Liechtenstein, with ten German-speaking families brought in specifically to repopulate it. The village's own parish church, dedicated to St. Bartholomew, didn't survive the centuries either: it was demolished in 1806, its materials hauled off and reused to build the church in neighbouring Koloděje instead. A railway stop opened in 1883, Újezd became an independent municipality in 1921, and it was annexed into Prague in 1974 — finally becoming its own administrative district, Praha 21, in 2001.
+
+🎁 Bonus: A village can survive being torched, emptied for a century and a half, and repopulated with a different nationality entirely — but somehow it's the missing church that stings most, dismantled and rebuilt one village over, as if Újezd's own place of worship simply moved on without it.`,
+
+      cz: `Statečný dobrodruhu, vítej v Újezdě nad Lesy, obci na východním okraji Prahy, kterou švédská vojska vypálila do základů, která pak zůstala skoro sto čtyřicet let liduprázdná a k novému životu si nakonec musela vypůjčit německé osadníky.
+
+Poprvé zmíněný v roce 1309, kdy majitel pozemků Vítek ze Švábenic převedl ves na zderazský klášter, vznikl Újezd nejspíš jako ulicovka ve druhé polovině 13. století. Jméno pochází ze staročeského "újezd", označení pro pozemkovou hranici tradičně vytyčovanou objížděním nárokovaného území na koni; přívlastek "nad Lesy" přibyl až v roce 1922, aby jej odlišil od mnoha dalších Újezdů roztroušených po Čechách. Špatně se to zvrtlo v roce 1645, kdy švédská vojska ves během třicetileté války vypálila a nechala ji na téměř sto čtyřicet let prakticky bez obyvatel — znovu osídlena byla až v roce 1783 za Aloise I. z Lichtenštejna, kdy sem přivedli deset německy mluvících rodin výslovně kvůli jejímu znovuosídlení. Ani vlastní farní kostel sv. Bartoloměje staletí nepřežil: v roce 1806 byl zbořen a jeho materiál posloužil ke stavbě kostela v sousedních Kolodějích. V roce 1883 se otevřela železniční zastávka, v roce 1921 se Újezd stal samostatnou obcí a v roce 1974 byl připojen k Praze — a konečně v roce 2001 se stal vlastním správním obvodem, Prahou 21.
+
+🎁 Bonus: Vesnice dokáže přežít vypálení, sto čtyřicet let prázdnoty i znovuosídlení úplně jinou národností — ale nejvíc přesto mrzí ten chybějící kostel, rozebraný a znovu postavený o vesnici dál, jako by si Újezdovo vlastní místo bohoslužby prostě odešlo bez něj.`,
+
+      zh: `勇敢的冒险家，欢迎来到林畔乌耶日德——布拉格东部边缘的一座村庄，曾被瑞典军队夷为平地，之后荒废了将近一百四十年，最后不得不"借来"一批德意志移民，才重新有了人烟。
+
+该地最早的文字记载出现于1309年，当时地主维捷克·泽·什瓦本尼采将这座村庄转让给兹德拉兹修道院，乌耶日德很可能是在13世纪下半叶作为一座"街道式"村落建立的。它的名字源自古捷克语"újezd"，意指一片按传统方式（骑马绕地一圈）划定边界的领地；"林畔"（nad Lesy）这一后缀直到1922年才被加上，为的是与波希米亚各地众多同名的"乌耶日德"村庄相区分。1645年三十年战争期间，瑞典军队将村子付之一炬，此后近一个半世纪几乎无人居住——直到1783年，在列支敦士登的阿洛伊斯一世治下，特意招募了十户讲德语的家庭迁来，村庄才重新恢复人烟。就连村里自己的圣巴多罗买堂区教堂，也没能挺过这几个世纪：它于1806年被拆除，建材被运走，用于建造邻村科洛杰耶的教堂。1883年，一座火车站在此开通；1921年，乌耶日德成为一个独立的自治市镇；1974年并入布拉格；直至2001年，最终成为布拉格自己的第21行政区。
+
+🎁 彩蛋：一座村庄能扛过被焚毁、一个半世纪的荒芜，甚至由完全不同的族群重新定居——但最让人唏嘘的，或许还是那座消失的教堂：被拆散后运到邻村重建，仿佛乌耶日德自己的礼拜堂，头也不回地丢下它先走了一步。`,
+    },
+  },
+
+  {
+    name: 'Church of St. Wenceslas (Nehvizdy)',
+    slug: 'kostel-svateho-vaclava-nehvizdy',
+    localizedNames: { cz: 'Farní kostel svatého Václava (Nehvizdy)', zh: '内赫维兹迪圣瓦茨拉夫堂区教堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.13088476553646, lng: 14.729729231649973 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_V%C3%A1clava_(Nehvizdy)',
+    description: {
+      en: `Brave adventurer, welcome to the Church of St. Wenceslas in Nehvizdy, a village parish church so worried about its own safety that it built its bell tower with a secret hideout tucked right in.
+
+The church's Romanesque origins run deeper than its written record: a Romanesque capital surviving on a column in the crypt confirms the building predates its first documentary mention in 1350, and a Gothic remodelling at the end of the thirteenth century left behind some of its finest surviving features, including a rib-vaulted presbytery whose ribs converge on consoles carved with human and animal figures. In 1546, the parish added a Renaissance bell tower on the south side, purpose-built with a defensive function — a shelter space tucked into its upper floor, connected to the church by its own vestibule — at a time when a fortified bell tower attached to a modest village church was a genuinely unusual precaution. The tower's upper section was rebuilt in Baroque style in 1773, a sacristy followed in the nineteenth century, and the surrounding graveyard, abolished in 1874, has left behind only fragments of its old enclosing wall. Declared a protected cultural monument in 1958, the church still holds regular Sunday services today under the Čelákovice parish, with a new bell hung as recently as 2005.
+
+🎁 Bonus: Somewhere above the nave of this quiet village church sits a purpose-built hiding room from 1546 — a five-hundred-year-old panic room that nobody, hopefully, has ever actually had to use.`,
+
+      cz: `Statečný dobrodruhu, vítej u farního kostela svatého Václava v Nehvizdech, vesnického kostela, který se o svou bezpečnost bál natolik, že si do zvonice rovnou zabudoval skrýš.
+
+Románský původ kostela sahá hlouběji než jeho písemné doklady: dochovaná románská hlavice na sloupu v kryptě potvrzuje, že stavba je starší než první písemná zmínka o ní z roku 1350, a gotická přestavba na konci 13. století zanechala některé z jeho nejcennějších dochovaných prvků, včetně žebrově klenutého presbytáře, jehož žebra se sbíhají na konzolách vytesaných do lidských a zvířecích postav. V roce 1546 přibyla na jižní straně renesanční zvonice, postavená přímo s obrannou funkcí — s úkrytovým prostorem zabudovaným v jejím horním patře, propojeným s kostelem vlastní předsíní — v době, kdy opevněná zvonice připojená ke skromnému vesnickému kostelu byla opravdu neobvyklým opatřením. Horní část věže byla v roce 1773 přestavěna v barokním slohu, v 19. století přibyla sakristie, a z okolního hřbitova, zrušeného v roce 1874, se dochovaly už jen zbytky ohradní zdi. Kostel, vyhlášený kulturní památkou v roce 1958, dodnes pravidelně slouží nedělním bohoslužbám v rámci čelákovické farnosti a už v roce 2005 do něj zavěsili nový zvon.
+
+🎁 Bonus: Někde nad lodí tohoto tichého vesnického kostela sedí od roku 1546 účelově postavená úkrytová místnost — pětisetletá "panic room", kterou snad ještě nikdy nikdo doopravdy nepotřeboval použít.`,
+
+      zh: `勇敢的冒险家，欢迎来到内赫维兹迪圣瓦茨拉夫堂区教堂——这座乡村教堂对自身安全的担忧之深，竟直接在钟楼里建了一间秘密藏身室。
+
+这座教堂的罗曼式起源，比它的文字记载还要久远：地穴中一根石柱上保存至今的罗曼式柱头，证实了建筑本身早于1350年首次出现的文字记载；13世纪末的一次哥特式改建，则留下了它现存最精美的部分，包括一处肋拱式圣坛，其拱肋汇聚于雕刻着人形与动物图案的托座之上。1546年，教堂在南侧加建了一座文艺复兴式钟楼，专门设计有防御功能——楼上藏有一间避难室，并通过独立的门厅与教堂相连——在那个年代，一座为朴素乡村教堂加装的设防钟楼，实属相当罕见的防范措施。1773年，钟楼上部按巴洛克风格重建；19世纪又加建了圣器室；教堂周围的墓地已于1874年废止，如今只剩下围墙的残迹。这座教堂于1958年被列为受保护的文化古迹，如今仍隶属采拉科维采堂区，定期举行主日弥撒，2005年还新挂上了一口钟。
+
+🎁 彩蛋：在这座宁静乡村教堂的中殿上方某处，藏着一间建于1546年、专门用途的避难室——一间已有五百年历史的"安全屋"，但愿从没有人真的用上过它。`,
+    },
+  },
+
+  {
+    name: 'Kouřim',
+    slug: 'kourim',
+    localizedNames: { cz: 'Kouřim', zh: '库日姆' },
+    labels: ['village-and-town', 'historical', 'architecture'],
+    coordinates: { lat: 50.00350405860154, lng: 14.97675022583433 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kou%C5%99im',
+    description: {
+      en: `Brave adventurer, welcome to Kouřim, a town so old it had already peaked, declined, and rebuilt itself as something else entirely before most Bohemian castles had even laid their first stone.
+
+A kilometre east of today's town, the hillfort of Stará Kouřim was occupied as far back as the Eneolithic period, around 4800 BCE, but it hit its stride in the ninth century as a major regional power centre, defended by a double gateway, a moat twelve metres wide, and up to three concentric ramparts stretching over a kilometre in length. It was burned down around 900 CE, rebuilt, and then deliberately extinguished as a power centre in the mid-tenth century by Boleslav I, who built a replacement Přemyslid stronghold on a neighbouring hill instead. The medieval town that grew up nearby was founded as a royal settlement sometime between 1223 and 1250 and first documented in 1261; it became the seat of an entire administrative region, the Kouřim district, that lasted until 1848, and by the late sixteenth century it counted over 2,000 residents. The Thirty Years' War brought near-total destruction and repeated plundering by both Swedish and imperial troops, cutting the population by roughly three-quarters and costing the town its municipal privileges for over a century, and a major fire in 1811 tore through the square as well. Through all of it, the early Gothic Church of St. Stephen has survived in something close to its original form, and the town's early Gothic Prague Gate remains one of the best-preserved town gates of its kind in the country. A freestanding bell tower built in 1525 still rings its bells upside down, in a Dutch-style tradition shared with only one other Czech town, and the geographic reference point for Central European sunrise-and-sunset calculations — the intersection of 50 degrees north and 15 degrees east — happens to fall within Kouřim's own territory.
+
+🎁 Bonus: A town whose local hillfort traded with Greeks and Etruscans, whose bells have rung upside down since 1525, and whose exact coordinates quietly define sunrise across an entire continental time zone has, somehow, still not made it onto most people's map of Bohemia.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kouřimi, městě tak starém, že už dávno stihlo dosáhnout vrcholu, upadnout a přerodit se v něco úplně jiného, než většina českých hradů vůbec položila první kámen.
+
+Kilometr východně od dnešního města bylo hradiště Stará Kouřim osídleno už v eneolitu, kolem roku 4800 př. n. l., ale svého vrcholu dosáhlo v 9. století jako významné regionální mocenské centrum, chráněné dvojitou branou, dvanáct metrů širokým příkopem a až třemi soustřednými valy o délce přes kilometr. Kolem roku 900 bylo vypáleno, znovu postaveno a poté, v polovině 10. století, jej Boleslav I. jako mocenské centrum záměrně vyřadil z provozu a postavil místo něj náhradní přemyslovské hradiště na sousedním kopci. Středověké město, které vyrostlo poblíž, bylo založeno jako královské sídliště někdy mezi lety 1223 a 1250 a poprvé doloženo v roce 1261; stalo se sídlem celého správního kraje, kouřimského kraje, který trval až do roku 1848, a na konci 16. století čítalo přes 2 000 obyvatel. Třicetiletá válka přinesla téměř úplné zničení a opakované plenění švédskými i císařskými vojsky, což snížilo počet obyvatel zhruba o tři čtvrtiny a stálo město jeho městská privilegia na více než století, a velký požár v roce 1811 se prohnal i náměstím. Přes to všechno se raně gotický kostel svatého Štěpána dochoval téměř v původní podobě a raně gotická Pražská brána města zůstává jednou z nejlépe dochovaných městských bran svého druhu v zemi. Samostatně stojící zvonice postavená v roce 1525 dodnes zvoní svými zvony vzhůru nohama, v tradici sdílené po nizozemském vzoru jen s jedním dalším českým městem, a geografický referenční bod pro výpočty východu a západu slunce ve střední Evropě — průsečík 50. rovnoběžky a 15. poledníku — náhodou padá přímo na území Kouřimi.
+
+🎁 Bonus: Město, jehož místní hradiště obchodovalo s Řeky a Etrusky, jehož zvony zvoní vzhůru nohama už od roku 1525 a jehož přesné souřadnice tiše určují východ slunce pro celé kontinentální časové pásmo, se přesto nějak stále nedostalo na mapu Čech ve větším povědomí lidí.`,
+
+      zh: `勇敢的冒险家，欢迎来到库日姆——一座古老到早在多数波希米亚城堡还没打下第一块基石之前，就已经历过兴盛、衰落，并彻底转型成另一番模样的城镇。
+
+在如今城镇以东一公里处，"老库日姆"城寨早在公元前约4800年的铜石并用时代便已有人居住，但它真正的鼎盛期是在9世纪，彼时它是一处重要的区域权力中心，由双重城门、一道十二米宽的壕沟，以及最多三道总长逾一公里的同心壁垒共同守卫。约公元900年，城寨被焚毁，随后重建，但到10世纪中叶，博莱斯拉夫一世刻意让它的权力中心地位终结，转而在邻近山丘上建起了替代性的普热米斯尔城寨。在附近发展起来的中世纪城镇，大约建于1223年至1250年间，作为王室聚落而立，1261年首次见诸文献；它后来成为整个"库日姆州"这一行政区的驻地，一直延续到1848年，到16世纪末，城内居民已超过两千人。三十年战争给这座城镇带来了几近毁灭性的打击，瑞典与皇室军队反复劫掠，人口锐减约四分之三，城镇的自治特权也被剥夺长达一个多世纪；1811年的一场大火又席卷了城镇广场。尽管历经种种劫难，早期哥特式的圣斯特凡教堂几乎完好保存至今，城镇的早期哥特式"布拉格门"也仍是该国同类城门中保存最完好的之一。一座建于1525年的独立钟楼，至今仍以荷兰式的传统"倒挂"方式敲钟——这种做法在捷克境内仅有另一座城镇沿用；而中欧计算日出日落的地理参照点——北纬50度与东经15度的交汇处——恰好就落在库日姆的辖境之内。
+
+🎁 彩蛋：一座城寨曾与希腊人和伊特鲁里亚人通商、钟声自1525年起便"倒挂"长鸣、精确坐标又悄悄定义着整个大陆时区日出时刻的城镇，不知为何，至今仍未真正进入大多数人心目中的波希米亚地图。`,
+    },
+  },
+
+  {
+    name: 'Talmberk Castle',
+    slug: 'hrad-talmberk',
+    localizedNames: { cz: 'Hrad Talmberk', zh: '塔尔姆贝克城堡' },
+    labels: ['ruin', 'historical'],
+    coordinates: { lat: 49.86721074428375, lng: 14.956100221155907 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Talmberk_(hrad)',
+    description: {
+      en: `Brave adventurer, welcome to Talmberk Castle, a ruin named after a jackdaw that spent seven centuries changing hands before finally losing an argument with gravity in 1933.
+
+Founded around the turn of the thirteenth and fourteenth centuries — the earliest indirect evidence dates to 1297 — the castle's name comes from Middle High German "Tâhele," meaning jackdaw, giving it the fairly modest title of "Jackdaw Hill." Its founder is disputed between the Talmberk lords themselves and Hroznata z Úžic of the Kounic family, who may have built it as a seat for his holdings along the Sázava river. The Lords of Talmberk held it through the fourteenth century, with one memorable interruption: Diviš of Talmberk was captured by Havel and Vilém Medek of Valdek and held prisoner for around seven years before the family regained the castle in the mid-fifteenth century. Ownership passed through Bedřich Ojíř of Očedělice in 1473 and Bedřich of Šumburk in 1487 before settling with the Slavata family of Chlum, under whom the castle lost its residential function entirely in the second half of the fifteenth century; by 1533 it was officially recorded as abandoned. Villagers spent the following centuries quietly helping themselves to its stone for their own houses, and part of the main tower finally gave up and collapsed on June 24, 1933, prompting the remaining structure to be deliberately lowered for safety. Protected as a cultural monument since 1966 and stabilised in 2008, the ruin is freely accessible today via informal paths from the village below.
+
+🎁 Bonus: A castle named after a jackdaw, robbed of its own stones by the very villagers living in its shadow, has nonetheless found modern fame as a filming location in Kingdom Come: Deliverance — proof that even a fairly minor ruin can land a starring role if the right medieval-Bohemia video game comes looking.`,
+
+      cz: `Statečný dobrodruhu, vítej na Hradě Talmberk, zřícenině pojmenované po kavce, která si sedm století nechala kolovat mezi majiteli, než v roce 1933 definitivně prohrála souboj s gravitací.
+
+Hrad, založený na přelomu 13. a 14. století — nejstarší nepřímý doklad pochází z roku 1297 —, nese jméno odvozené ze středohornoněmeckého "Tâhele", tedy kavka, což mu dává poměrně skromný titul "Kavčí kopec". Jeho zakladatel je sporný mezi samotnými pány z Talmberka a Hroznatou z Úžic z rodu Kouniců, který jej možná postavil jako sídlo pro svá panství podél řeky Sázavy. Páni z Talmberka jej drželi po celé 14. století, s jedním pamětihodným přerušením: Diviše z Talmberka zajali Havel a Vilém Medkové z Valdeka a drželi jej v zajetí zhruba sedm let, než rod hrad v polovině 15. století opět získal zpět. Vlastnictví pak přešlo na Bedřicha Ojíře z Očedělic v roce 1473 a na Bedřicha ze Šumburka v roce 1487, než se usadilo u rodu Slavatů z Chlumu, za nichž hrad ve druhé polovině 15. století zcela ztratil obytnou funkci; v roce 1533 už byl úředně veden jako pustý. Vesničané si následující staletí potichu posluhovali jeho kamenem pro vlastní domy a část hlavní věže se konečně vzdala a zřítila 24. června 1933, což vedlo k tomu, že zbývající konstrukce byla z bezpečnostních důvodů záměrně snížena. Zřícenina, chráněná jako kulturní památka od roku 1966 a stabilizovaná v roce 2008, je dnes volně přístupná po neoficiálních cestách od vesnice pod ní.
+
+🎁 Bonus: Hrad pojmenovaný po kavce, oloupený o vlastní kameny přímo vesničany žijícími v jeho stínu, si přesto našel moderní slávu jako natáčecí lokace hry Kingdom Come: Deliverance — důkaz, že i docela nenápadná zřícenina může dostat hlavní roli, pokud si pro ni přijde ta správná videohra ze středověkých Čech.`,
+
+      zh: `勇敢的冒险家，欢迎来到塔尔姆贝克城堡——一座以寒鸦命名的废墟，历经七个世纪辗转易主，最终在1933年与地心引力的较量中败下阵来。
+
+这座城堡大约建于13世纪末14世纪初——现存最早的间接证据可追溯至1297年——其名称源自中古高地德语"Tâhele"，意为"寒鸦"，因此得名颇为朴素的"寒鸦山"。它的建造者身份存在争议，一说是塔尔姆贝克家族自己，另一说是库尼采家族的赫罗兹纳塔·兹·乌日采，他或许是为管理自己在萨扎瓦河沿岸的产业而建此城堡。塔尔姆贝克家族统治了整个14世纪，中间发生过一段颇值得一记的插曲：迪维什·兹·塔尔姆贝克曾被瓦尔德克家族的哈韦尔与维莱姆·梅德克俘虏，囚禁约七年之久，直到15世纪中叶家族才重新夺回城堡。此后所有权先后转手给1473年的贝德日赫·奥吉日·兹·奥采杰利采与1487年的贝德日赫·泽·舒姆布尔克，最终落入赫卢姆的斯拉瓦塔家族手中——在他们治下，城堡于15世纪下半叶彻底丧失了居住功能；到1533年，官方记录已将其列为荒废。此后数百年间，住在城堡阴影下的村民们悄悄取用其石料建造自家房屋，主塔的一部分终于在1933年6月24日不堪重负轰然倒塌，促使剩余结构因安全考虑而被人为降低。这座废墟自1966年起被列为文化古迹保护对象，2008年完成了加固工程，如今可通过山下村庄的非正式小径自由进入参观。
+
+🎁 彩蛋：一座以寒鸦命名、连石料都被自己脚下村民顺走的城堡，如今却因电子游戏《天国：拯救》的取景而在现代重获名气——证明就算是一座相当不起眼的废墟，只要遇上对的一款中世纪波希米亚题材游戏找上门来，也能捞到一个主角光环。`,
+    },
+  },
+
+  {
+    name: 'Stará Boleslav',
+    slug: 'stara-boleslav',
+    localizedNames: { cz: 'Stará Boleslav', zh: '旧博莱斯拉夫' },
+    labels: ['historical', 'church', 'village-and-town'],
+    coordinates: { lat: 50.19589798660309, lng: 14.67606064527887 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Star%C3%A1_Boleslav',
+    description: {
+      en: `Brave adventurer, welcome to Stará Boleslav, the town where a Czech duke was murdered by his own brother at a church door — and where, ever since, the country has been trying to decide whether that makes it a crime scene or a shrine.
+
+The Přemyslid stronghold on the Elbe emerged in the early tenth century, possibly under Duke Spytihněv I, and it was here, at the doors of a church dedicated to Saints Cosmas and Damian, that Duke Wenceslas was killed by his own brother Boleslav and his retinue on September 28 — the year is still debated between 929 and 935, though modern scholarship leans toward 935. One historian's reading of the story suggests the fight may have started as something less calculated than outright murder: Boleslav struck first with the flat of his sword, Wenceslas wrestled it away, and it was Boleslav's men who finished the job at the church door. Whatever the exact sequence, Boleslav needed a martyred, sainted brother more than he needed a live one — a canonised Wenceslas gave Bohemia's rulers the Christian credibility to negotiate a bishopric for Prague, and the murder scene became one of the most important religious sites in the country. After 1039, Duke Břetislav I commissioned a Romanesque basilica on the spot, and the early Baroque church standing there today, completed by 1613, still houses the Palladium of the Czech Lands: a small Gothic metal relief of the Madonna and Child, legend-linked all the way back to Saint Ludmila, though modern analysis actually dates its creation to the 1380s. The relic vanished for around 250 years before a farmer supposedly ploughed it back up around 1160, was formally declared the kingdom's protective Palladium in 1609, and was stolen by Saxon soldiers in 1632, who nailed it to the pillory on Prague's Old Town Square before it was ransomed back for 100,000 gold pieces in 1638 — a small dent in the Madonna's neck, left by that pillory nail, is still visible today. Pope Benedict XVI said Mass here before more than 50,000 pilgrims in 2009, and the town's National Pilgrimage, held every September 28 since 2003, has grown into the country's largest official celebration of Czech Statehood Day.
+
+🎁 Bonus: The relic at the centre of all this survived a 250-year disappearance, a kidnapping by Saxon soldiers, and a public nailing to a pillory in the middle of Prague — and it still carries a small scar from that exact incident, on the neck of the Madonna, seven hundred years and counting after it was made.`,
+
+      cz: `Statečný dobrodruhu, vítej ve Staré Boleslavi, městě, kde byl český kníže zavražděn vlastním bratrem přede dveřmi kostela — a kde se země od té doby nemůže rozhodnout, jestli jde spíš o místo činu, nebo o svatyni.
+
+Přemyslovské hradiště na Labi vzniklo na počátku 10. století, možná za knížete Spytihněva I., a právě tady, u dveří kostela zasvěceného svatým Kosmovi a Damiánovi, byl 28. září zavražděn kníže Václav vlastním bratrem Boleslavem a jeho družinou — rok se stále vede spor, mezi 929 a 935, i když se moderní bádání kloní spíš k roku 935. Podle výkladu jednoho historika mohl souboj začít jako něco méně vypočítavého než čistá vražda: Boleslav udeřil první plochou stranou meče, Václav mu meč vyrval, a byli to až Boleslavovi muži, kdo dílo dokonali přede dveřmi kostela. Ať už byl přesný sled událostí jakýkoli, Boleslav potřeboval umučeného, svatořečeného bratra víc než živého — kanonizovaný Václav dal českým panovníkům křesťanskou důvěryhodnost k vyjednání pražského biskupství, a místo vraždy se stalo jedním z nejvýznamnějších náboženských míst v zemi. Po roce 1039 nechal kníže Břetislav I. na tomto místě postavit románskou baziliku, a raně barokní kostel, který tu stojí dodnes, dokončený do roku 1613, dosud ukrývá Palladium země české: malý gotický kovový reliéf Madony s dítětem, pověstí spojovaný až se svatou Ludmilou, ačkoli moderní rozbor datuje jeho vznik spíš do 80. let 14. století. Relikvie na zhruba 250 let zmizela, než ji kolem roku 1160 údajně vyoral rolník, v roce 1609 byla formálně prohlášena ochranným Paladiem království a v roce 1632 ji ukradli saští vojáci, kteří ji přibili na pranýř na pražském Staroměstském náměstí, než ji v roce 1638 vykoupili zpět za 100 000 zlatých — drobný důlek v krku Madony, zanechaný oním hřebem z pranýře, je vidět dodnes. Papež Benedikt XVI. zde v roce 2009 sloužil mši před více než 50 000 poutníky, a Národní pouť města, konaná každý 28. září od roku 2003, se rozrostla v největší oficiální oslavu Dne české státnosti.
+
+🎁 Bonus: Relikvie v centru celého tohoto příběhu přežila 250 let zmizení, únos saskými vojáky i veřejné přibití na pranýř uprostřed Prahy — a dodnes na krku Madony nese drobnou jizvu z přesně té události, sedm set let po svém vzniku a stále přibývá.`,
+
+      zh: `勇敢的冒险家，欢迎来到旧博莱斯拉夫——一座公爵在教堂门口被自己亲兄弟杀害的城镇，此后这个国家便一直在纠结：这里到底该算作案发现场，还是圣地。
+
+这座位于易北河畔的普热米斯尔王朝城寨，兴起于10世纪初，可能是在斯皮季赫涅夫一世公爵治下建立的；正是在这里，在一座供奉圣科斯马斯与圣达米安的教堂门前，瓦茨拉夫公爵于9月28日被自己的弟弟博莱斯拉夫及其随从杀害——具体年份至今仍有争议，在929年与935年之间摇摆，不过现代学界更倾向于935年。据一位历史学家的解读，这场争斗最初或许并非蓄意谋杀那么简单：博莱斯拉夫先用剑背击打，瓦茨拉夫夺过了剑，最终是博莱斯拉夫的手下在教堂门前了结了这一切。无论确切经过如何，比起活着的兄弟，博莱斯拉夫更需要一位殉道封圣的兄弟——被封圣的瓦茨拉夫，为波希米亚的统治者赢得了足以为布拉格争取主教区的基督教声望，而这处凶案现场也由此成为全国最重要的宗教圣地之一。1039年后，布热季斯拉夫一世公爵下令在此建造一座罗曼式巴西利卡；如今矗立在原址、于1613年完工的早期巴洛克教堂，至今仍供奉着"波希米亚护国圣物"：一幅小小的哥特式圣母子金属浮雕，传说可一路追溯至圣露德米拉，尽管现代分析显示它实际制作于14世纪80年代。这件圣物曾一度失踪约250年，直到约1160年据说被一位农夫犁地时发现，1609年被正式宣布为王国的护国圣物，又在1632年被萨克森士兵盗走，钉在布拉格老城广场的耻辱柱上示众，直到1638年才以十万金币赎回——那枚耻辱柱钉子在圣母颈部留下的小小凹痕，至今仍清晰可见。2009年，教宗本笃十六世曾在此为逾五万名朝圣者主持弥撒；自2003年起，每年9月28日举行的全国朝圣活动，如今已发展成全国规模最大的"捷克国家日"官方庆典。
+
+🎁 彩蛋：这整段故事核心的圣物，曾经历250年的失踪、被萨克森士兵掳走，还在布拉格闹市被公开钉上耻辱柱示众——而圣母颈部那道来自那一事件的小小伤痕，历经七百多年岁月，至今依然清晰可辨。`,
+    },
+  },
 ];
 
 async function run() {
