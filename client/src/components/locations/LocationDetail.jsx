@@ -9,7 +9,8 @@ import {
   LABEL_COLORS,
 } from "../../utils/pixelArtMap";
 import { getLocName } from "../../utils/locName";
-import { getCurrentPosition } from "../../utils/geolocation";
+import { getCurrentPosition, haversineDistance, formatDistance } from "../../utils/geolocation";
+import { useUserPosition } from "../../hooks/useUserPosition";
 import LanguageSwitcher from "../shared/LanguageSwitcher";
 import EditLocationForm from "./EditLocationForm";
 import {
@@ -35,6 +36,7 @@ export default function LocationDetail({
   const convert = useConvert();
   const { user, guest, updateUser } = useAuth();
   const navigate = useNavigate();
+  const userPos = useUserPosition();
   const [loc, setLoc] = useState(null);
   const [loading, setLoading] = useState(true);
   const [actionLoading, setActionLoading] = useState(false);
@@ -148,6 +150,10 @@ export default function LocationDetail({
   const locName = loc ? convert(getLocName(loc, lang)) : "";
   const art = loc ? getArt(loc.pixelArtKey, loc.labels) : "📍";
   const bgColor = loc ? LABEL_COLORS[loc.labels?.[0]] || "#1a2a5a" : "#1a2a5a";
+  const distance =
+    loc && userPos
+      ? haversineDistance(userPos.lat, userPos.lng, loc.coordinates.lat, loc.coordinates.lng)
+      : null;
 
   return (
     <div
@@ -435,6 +441,17 @@ export default function LocationDetail({
                   <span style={{ fontSize: 16, color: "var(--gold)" }}>
                     +{loc.xpReward} XP
                   </span>
+                  {distance != null && (
+                    <span
+                      style={{
+                        fontFamily: "'Press Start 2P'",
+                        fontSize: 7,
+                        color: "var(--text-muted)",
+                      }}
+                    >
+                      {t("detail.distanceAway", { dist: formatDistance(distance) })}
+                    </span>
+                  )}
                 </div>
               </div>
 

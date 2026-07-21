@@ -1,3 +1,7 @@
+export function formatDistance(m) {
+  return m < 1000 ? `${Math.round(m)} m` : `${(m / 1000).toFixed(1)} km`;
+}
+
 export function haversineDistance(lat1, lon1, lat2, lon2) {
   const R = 6371000;
   const toRad = d => (d * Math.PI) / 180;

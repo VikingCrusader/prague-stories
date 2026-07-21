@@ -4,10 +4,7 @@ import { useLang, useConvert } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
 import { RARITY_COLOR, RARITY_LABEL, lockClosedIcon, lockOpenIcon } from '../../utils/rarity';
 import { playUnlockSound } from '../../utils/sound';
-
-function fmtDist(m) {
-  return m < 1000 ? `${Math.round(m)} m` : `${(m / 1000).toFixed(1)} km`;
-}
+import { formatDistance } from '../../utils/geolocation';
 
 export default function LocationCard({ location, onClick, distance }) {
   const { lang } = useLang();
@@ -113,7 +110,7 @@ export default function LocationCard({ location, onClick, distance }) {
               {convert(RARITY_LABEL[lang]?.[rarity] ?? rarity)}
             </div>
           </div>
-          {distance != null && <div className="loc-card__dist">{fmtDist(distance)}</div>}
+          {distance != null && <div className="loc-card__dist">{formatDistance(distance)}</div>}
         </div>
       </div>
     </div>

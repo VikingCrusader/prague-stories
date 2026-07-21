@@ -19338,6 +19338,356 @@ Přemyslovské hradiště na Labi vzniklo na počátku 10. století, možná za 
 🎁 彩蛋：这整段故事核心的圣物，曾经历250年的失踪、被萨克森士兵掳走，还在布拉格闹市被公开钉上耻辱柱示众——而圣母颈部那道来自那一事件的小小伤痕，历经七百多年岁月，至今依然清晰可辨。`,
     },
   },
+  {
+    name: 'Mladá Boleslav Castle',
+    slug: 'hrad-mlada-boleslav',
+    localizedNames: { cz: 'Hrad Mladá Boleslav', zh: '姆拉达-博莱斯拉夫城堡' },
+    labels: ['palace', 'historical', 'architecture', 'museum'],
+    coordinates: { lat: 50.40911775903585, lng: 14.900889112607716 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Mlad%C3%A1_Boleslav_(hrad)',
+    description: {
+      en: `Brave adventurer, welcome to Mladá Boleslav Castle (Hrad Mladá Boleslav)! This hilltop fortress started life as a Slavic stronghold, then worked its way through careers as a royal castle, a noble Renaissance residence, and an army barracks before finally retiring into today's much quieter job: regional museum.
+
+A fortified Slavic settlement stood here from the late 10th century, traditionally linked to Prince Boleslav II, giving the town — and later the castle — its name. By the mid-13th century a stone royal castle rose at the tip of the promontory, becoming the administrative seat of the Jizera region under Přemyslid rule. The Lords of Michalovice held it by 1334, when the town of Mladá Boleslav was formally founded on the site of the old hillfort, and from the early 16th century the Krajíř of Krajek family made the castle their main residence, commissioning a Gothic-Renaissance rebuild — including work attributed to court builder Matteo Borgorelli — that gave it the character of a proper Renaissance seat rather than a purely defensive fort.
+
+The castle suffered badly during the Thirty Years' War, changing hands between imperial and Swedish garrisons, and in the war's aftermath townspeople even carted off its stone to repair their own houses. In 1752 the state began converting the complex into military barracks, meant to anchor a defensive line between the fortresses of Terezín and Josefov. Between 1940 and 1943, under Nazi occupation, the barracks served as an internment site where Jewish residents of Mladá Boleslav and the surrounding area were held before deportation to concentration camps — a grim chapter the museum today addresses directly in its exhibits. Restoration began in earnest in 1972, and the castle now houses the Museum of the Mladá Boleslav Region and the State District Archive.
+
+🎁 Bonus: Archaeologists digging beneath the castle grounds found traces of an even older, prehistoric Lusatian-culture settlement — meaning people were choosing this same defensible hilltop for their homes long before Prince Boleslav ever arrived.`,
+
+      cz: `Statečný dobrodruhu, vítej na hradě Mladá Boleslav! Tato pevnost na kopci začínala jako slovanské hradiště, poté si prošla kariérou královského hradu, renesančního šlechtického sídla a vojenských kasáren, než se usadila v dnešní mnohem klidnější roli regionálního muzea.
+
+Opevněné slovanské sídliště zde stálo už od konce 10. století a tradičně bývá spojováno s knížetem Boleslavem II., po němž dostalo jméno jak město, tak později i hrad. V polovině 13. století vyrostl na špici ostrohu kamenný královský hrad, který se stal správním centrem Pojizeří v rámci přemyslovských Čech. Nejpozději v roce 1334, kdy bylo na místě starého hradiště formálně založeno město Mladá Boleslav, hrad patřil pánům z Michalovic, a od počátku 16. století si jej jako své hlavní sídlo zvolili Krajířové z Krajku, kteří nechali provést goticko-renesanční přestavbu — na níž se podílel i dvorní stavitel Matteo Borgorelli — a daly hradu podobu spíše reprezentativního renesančního sídla než čistě obranné pevnosti.
+
+Hrad těžce utrpěl za třicetileté války, kdy se střídavě stával sídlem císařské a švédské posádky, a po válce dokonce místní obyvatelé odnášeli jeho kamení na opravu vlastních domů. V roce 1752 začal stát areál přestavovat na vojenská kasárna, která měla tvořit vojenský opěrný bod mezi pevnostmi Terezín a Josefov. Mezi lety 1940 a 1943 sloužila kasárna za nacistické okupace jako internační středisko, kde byli drženi židovští obyvatelé Mladé Boleslavi a okolí před deportací do koncentračních táborů — této temné kapitole se dnes muzeum ve svých expozicích věnuje přímo. Skutečná obnova začala v roce 1972 a hrad dnes hostí Muzeum Mladoboleslavska a Státní okresní archiv.
+
+Bonus: Archeologové pod hradním areálem objevili stopy ještě staršího, pravěkého osídlení lužické kultury — lidé si tedy tento snadno hájitelný kopec vybírali za svůj domov už dávno předtím, než sem dorazil kníže Boleslav.`,
+
+      zh: `勇敢的冒险家，欢迎来到姆拉达-博莱斯拉夫城堡（Hrad Mladá Boleslav）！这座山丘要塞最初是斯拉夫人的堡寨，后来先后担任过王室城堡、文艺复兴贵族宅邸和军营，如今则安顿下来，从事一份平静得多的工作——地区博物馆。
+
+早在10世纪末，这里就矗立着一座设防的斯拉夫聚落，传统上与波列斯拉夫二世（Boleslav II）大公联系在一起，这座城市乃至后来的城堡都由此得名。到13世纪中叶，一座石造王室城堡在岬角尖端拔地而起，成为普热美斯王朝统治下伊泽拉河流域的行政中心。至迟到1334年——即姆拉达-博莱斯拉夫城正式在旧堡寨遗址上建立之时——这座城堡归米哈洛维采（Michalovice）家族所有；自16世纪初起，克拉伊日（Krajíř z Krajku）家族将其选为主要居所，委托进行哥特-文艺复兴式改建（据信宫廷建筑师马泰奥·博戈雷利也参与其中），使城堡呈现出更接近文艺复兴代表性宅邸、而非纯粹防御工事的面貌。
+
+三十年战争期间，城堡饱受摧残，先后成为帝国军队和瑞典军队的驻地，战后当地居民甚至把城堡的石料搬去修补自家房屋。1752年，国家开始将城堡建筑群改建为军营，意图使其成为特雷津（Terezín）与约瑟夫夫（Josefov）两座要塞之间的军事支撑点。1940年至1943年间，在纳粹占领时期，这处营房曾被用作拘留中心，姆拉达-博莱斯拉夫及周边地区的犹太居民在被押往集中营之前曾被关押于此——如今博物馆在展览中直面这段沉重的历史。真正的修复工程始于1972年，如今城堡里设有姆拉达-博莱斯拉夫地区博物馆和国家地区档案馆。
+
+🎁 彩蛋：考古学家在城堡地下发现了更为古老的史前卢日采文化（Lusatian culture）聚落遗迹——这说明早在波列斯拉夫大公到来之前很久，人们就已经看中了这座易守难攻的山丘，把它当作自己的家园。`,
+    },
+  },
+  {
+    name: 'Škoda Museum',
+    slug: 'skoda-museum',
+    localizedNames: { cz: 'Muzeum Škoda', zh: '斯柯达博物馆' },
+    labels: ['museum', 'historical', 'factory'],
+    coordinates: { lat: 50.418837196743084, lng: 14.913708439831735 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/%C5%A0koda_Museum',
+    description: {
+      en: `Brave adventurer, welcome to the Škoda Museum (Muzeum Škoda)! Housed in the very factory halls where the cars were once built, this museum proves a company can turn 130 years of bicycles, racing cars, and self-deprecating jokes about reliability into one seriously good afternoon out.
+
+Václav Laurin and Václav Klement founded their bicycle workshop in Mladá Boleslav in 1895 — the venture that eventually became Škoda Auto is one of only a handful of carmakers in the world with an unbroken history stretching back to the 19th century. The museum itself opened in 1995 to mark the company's centenary, and it occupies the original production halls where Laurin & Klement, and later Škoda, built cars until 1928. An earlier exhibition, the AZNP Museum of Technology, had already opened nearby in 1975, timed to coincide with both the company's 80th anniversary and the 1,000th anniversary of Mladá Boleslav itself.
+
+A major reconstruction reopened the museum in its current form in autumn 2012, expanding it to roughly 1,800 square metres organised into three sections — Evolution, Tradition, and Precision — tracing the marque from an 1899 Slavia bicycle through the first Laurin & Klement Voiturette A car to modern racing machines. Around 340 exhibits are on display, including about 46 historic automobiles, and the museum now draws roughly 120,000 visitors a year.
+
+🎁 Bonus: The museum offers a joint discounted ticket with the Ferdinand Porsche birthplace museum in Vratislavice nad Nisou (part of Liberec), tying two giants of Central European automotive history together on one ticket.`,
+
+      cz: `Statečný dobrodruhu, vítej v muzeu Škoda! Umístěné přímo v továrních halách, kde se kdysi vyráběla auta, toto muzeum dokazuje, že firma dokáže ze 130 let jízdních kol, závodních vozů a sebeironických vtipů o spolehlivosti udělat pořádně dobré odpoledne.
+
+Václav Laurin a Václav Klement založili svou dílnu na výrobu jízdních kol v Mladé Boleslavi v roce 1895 — podnik, z něhož se nakonec stala automobilka Škoda Auto, patří mezi hrstku výrobců aut na světě s nepřerušenou historií sahající až do 19. století. Samotné muzeum bylo otevřeno v roce 1995 u příležitosti stého výročí založení firmy a sídlí přímo v původních výrobních halách, kde se automobily Laurin & Klement a později Škoda vyráběly až do roku 1928. Dřívější expozice, Muzeum techniky AZNP, byla nedaleko otevřena už v roce 1975, u příležitosti 80. výročí založení firmy a zároveň 1000. výročí založení Mladé Boleslavi.
+
+Po rozsáhlé rekonstrukci se muzeum na podzim 2012 otevřelo v dnešní podobě, rozšířené na zhruba 1 800 metrů čtverečních rozdělených do tří sekcí — Evoluce, Tradice a Preciznost — které mapují značku od jízdního kola Slavia z roku 1899 přes první vůz Laurin & Klement Voiturette A až po moderní závodní vozy. K vidění je přibližně 340 exponátů včetně asi 46 historických automobilů a muzeum dnes ročně navštíví okolo 120 000 lidí.
+
+Bonus: Muzeum nabízí zvýhodněnou společnou vstupenku s rodným domem Ferdinanda Porsche ve Vratislavicích nad Nisou (dnes součást Liberce) — spojuje tak na jedné vstupence dvě velké kapitoly středoevropské automobilové historie.`,
+
+      zh: `勇敢的冒险家，欢迎来到斯柯达博物馆（Muzeum Škoda）！博物馆就设在当年真正生产汽车的厂房里，用130年的自行车、赛车和关于"可靠性"的自嘲笑话，证明一家公司完全可以把这些变成一个非常精彩的下午。
+
+瓦茨拉夫·劳林（Václav Laurin）和瓦茨拉夫·克莱门特（Václav Klement）于1895年在姆拉达-博莱斯拉夫创办了自行车作坊——这家企业最终发展成为斯柯达汽车（Škoda Auto），是世界上少数几家历史从19世纪延续至今、从未中断的汽车制造商之一。博物馆本身于1995年为纪念公司成立百年而开幕，就设在劳林与克莱门特公司（以及后来的斯柯达）一直生产汽车到1928年的原始厂房内。更早之前，一座名为"AZNP技术博物馆"的展馆已于1975年在附近开放，恰逢公司成立80周年与姆拉达-博莱斯拉夫建城1000周年。
+
+经过大规模改造，博物馆于2012年秋以现今的面貌重新开放，展区扩大到约1800平方米，分为"进化""传统""精密"三个部分，展示了从1899年的斯拉维亚（Slavia）自行车，到第一辆劳林与克莱门特Voiturette A型汽车，再到现代赛车的品牌历程。馆内共展出约340件展品，其中包括约46辆历史名车，如今每年吸引大约12万名参观者。
+
+🎁 彩蛋：博物馆与位于利贝雷茨（Liberec）弗拉季斯拉维采（Vratislavice nad Nisou）的费迪南德·保时捷（Ferdinand Porsche）故居博物馆推出联合优惠门票，把中欧汽车史上的两大传奇用一张票联系在了一起。`,
+    },
+  },
+  {
+    name: 'Stránov Chateau',
+    slug: 'zamek-stranov',
+    localizedNames: { cz: 'Zámek Stránov', zh: '斯特拉诺夫城堡' },
+    labels: ['palace', 'historical', 'architecture'],
+    coordinates: { lat: 50.3727213958518, lng: 14.855824466579948 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Str%C3%A1nov',
+    description: {
+      en: `Brave adventurer, welcome to Stránov Chateau (Zámek Stránov)! Nicknamed the "fairytale castle" for its turrets and towers, this privately owned Neo-Renaissance chateau spent half a century as a children's home before its own family finally got it back and threw open the doors.
+
+A wooden fortress here belonged to a lord named Bohuněk of Stránov as early as 1429; between 1463 and 1468 Jaroš of Sovojovice replaced it with a sturdy Gothic castle known as Nový Stránov, whose stone tower survives today as the oldest part of the complex. Ownership passed through the Berka of Dubá family in the second half of the 16th century and then to Karel of Biberštejn, whose family connections eventually brought the estate to the Slavata family, who converted the old fortress into a proper Renaissance residence. Later, in the Baroque era, a chateau garden and a sandstone fountain were added to the courtyard, and in 1767 the Church of St Wenceslaus was built in the forecourt.
+
+The chateau's present romantic, turreted look dates from a Neo-Renaissance rebuild carried out in 1890–1894, commissioned by Countess Marie of Valdštejn-Vartenberk and designed by the architect Josef Schulz — the same architect behind the National Museum building in Prague. In 1917 the estate was bought by Josef Šimonek, president of the Škoda Works and a member of parliament; his family lived there until the chateau was nationalised in 1950 and turned into a children's home. It returned to the Šimonek family in 2003 and, in 2004, opened to the public for the very first time in its history.
+
+🎁 Bonus: The architect of Stránov's 19th-century makeover, Josef Schulz, is far better known for a much bigger commission back in Prague — the grand building of the National Museum on Wenceslas Square, which he designed around the very same years.`,
+
+      cz: `Statečný dobrodruhu, vítej na zámku Stránov! Přezdívaný "pohádkový zámek" pro své věže a věžičky, tento soukromý novorenesanční zámek strávil půl století jako dětský domov, než se konečně vrátil do rukou vlastní rodiny a otevřel své brány veřejnosti.
+
+Dřevěná tvrz zde patřila pánu jménem Bohuněk ze Stránova už v roce 1429; mezi lety 1463 a 1468 ji Jaroš ze Sovojovic nahradil pevným gotickým hradem zvaným Nový Stránov, jehož kamenná věž se dodnes zachovala jako nejstarší část areálu. V druhé polovině 16. století přešlo panství do rukou Berků z Dubé a poté Karla z Biberštejna, jehož rodinné vazby nakonec přivedly panství ke Slavatům, kteří starou tvrz přestavěli na skutečné renesanční sídlo. Později, v barokní době, přibyla na nádvoří zámecká zahrada a pískovcová kašna a v roce 1767 byl v předzámčí postaven kostel svatého Václava.
+
+Dnešní romantickou podobu s věžičkami získal zámek při novorenesanční přestavbě v letech 1890–1894, kterou si objednala hraběnka Marie z Valdštejna-Vartenberka a navrhl architekt Josef Schulz — tentýž architekt, který stojí za budovou Národního muzea v Praze. V roce 1917 panství koupil Josef Šimonek, prezident Škodových závodů a poslanec; jeho rodina zde žila až do znárodnění zámku v roce 1950, kdy se z něj stal dětský domov. Zpět do rukou rodiny Šimonků se zámek vrátil v roce 2003 a v roce 2004 byl poprvé ve své historii otevřen veřejnosti.
+
+Bonus: Architekt Josef Schulz, autor stránovské přestavby z 19. století, je mnohem známější díky jedné mnohem větší pražské zakázce — budově Národního muzea na Václavském náměstí, kterou navrhoval prakticky ve stejných letech.`,
+
+      zh: `勇敢的冒险家，欢迎来到斯特拉诺夫城堡（Zámek Stránov）！这座私人拥有的新文艺复兴式城堡，因其塔楼与角楼而被昵称为"童话城堡"，它曾一度作为儿童之家使用长达半个世纪，直到原来的家族终于将它收回，重新向世人敞开大门。
+
+早在1429年，一座木造要塞就属于一位名叫博胡涅克（Bohuněk ze Stránova）的领主；1463年至1468年间，雅罗什（Jaroš ze Sovojovic）将其改建为一座坚固的哥特式城堡，名为"新斯特拉诺夫"（Nový Stránov），其石塔至今仍是整座建筑群中最古老的部分。16世纪下半叶，庄园先后归杜巴的贝尔卡（Berka z Dubé）家族与卡雷尔（Karel z Biberštejna）所有，后者的家族联姻最终将庄园带给了斯拉瓦塔（Slavata）家族，他们将旧要塞改建成了真正的文艺复兴式宅邸。此后进入巴洛克时期，庭院中新增了城堡花园和砂岩喷泉，1767年又在前院建起了圣瓦茨拉夫教堂。
+
+如今这座城堡浪漫的塔楼外观，来自1890年至1894年间的新文艺复兴式改建，由玛丽·冯·瓦尔德施泰因-瓦尔滕贝格伯爵夫人（Marie z Valdštejna-Vartenberka）委托、建筑师约瑟夫·舒尔茨（Josef Schulz）设计——正是他设计了布拉格的国家博物馆大楼。1917年，庄园被斯柯达工厂总裁兼国会议员约瑟夫·希莫内克（Josef Šimonek）买下；他的家族在此居住，直到1950年城堡被收归国有，改作儿童之家。2003年，城堡重新回到希莫内克家族手中，2004年，这座城堡历史上第一次向公众开放。
+
+🎁 彩蛋：为斯特拉诺夫城堡设计19世纪改建方案的建筑师约瑟夫·舒尔茨，其实更以布拉格的一项大得多的委托案而闻名——他几乎在同一时期设计了瓦茨拉夫广场上宏伟的国家博物馆大楼。`,
+    },
+  },
+  {
+    name: 'Benátky nad Jizerou Chateau',
+    slug: 'zamek-benatky-nad-jizerou',
+    localizedNames: { cz: 'Zámek Benátky nad Jizerou', zh: '伊泽拉河畔贝纳特基城堡' },
+    labels: ['palace', 'historical', 'museum'],
+    coordinates: { lat: 50.29056481297099, lng: 14.822684065296537 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Ben%C3%A1tky_nad_Jizerou_(z%C3%A1mek)',
+    description: {
+      en: `Brave adventurer, welcome to Benátky nad Jizerou Chateau (Zámek Benátky nad Jizerou)! This riverside chateau once housed an emperor's personal astronomer, hosted the historic first meeting between two of the greatest minds in the history of the night sky, and later gave a young Bedřich Smetana his start.
+
+The chateau grew out of an older fortress around 1525, remodelled by Bedřich of Donín into a proper residence; later owners including Jan z Wörthu, the Schütz family, the Lords of Klenová and Janovice, and eventually the Příchovský, Thun-Hohenstein, and Kinský families kept adding baroque wings, sculpted gardens, and rococo interiors over the following two centuries, until the town of Benátky itself bought the neglected estate in 1920.
+
+The chateau's most famous chapter came in 1599, when the Danish astronomer Tycho Brahe moved in with the backing of Holy Roman Emperor Rudolf II, bringing his library and much of his own custom-built instruments with him and setting up an observatory on-site. On 3 February 1600, the young Johannes Kepler arrived at Brahe's invitation — the start of a short, prickly, and enormously consequential collaboration that, after Brahe's death the following year, left Kepler with the observational data he needed to work out the laws of planetary motion. Two and a half centuries later, the composer Bedřich Smetana taught music at the chateau between 1844 and 1848 and wrote his first piano sonata during his time there.
+
+🎁 Bonus: The chateau today houses both the Benátky Regional Museum and, rather charmingly, a private toy museum — meaning a building once used to chart the movements of the planets now also displays a collection of old dolls and tin toys.`,
+
+      cz: `Statečný dobrodruhu, vítej na zámku Benátky nad Jizerou! Tento zámek nad řekou kdysi hostil osobního astronoma císaře, byl místem historicky prvního setkání dvou největších hvězdářských myslí své doby a později dal první příležitost mladému Bedřichu Smetanovi.
+
+Zámek vznikl kolem roku 1525 přestavbou starší tvrze, kterou nechal Bedřich z Donína přebudovat na reprezentativní sídlo; další majitelé — Jan z Wörthu, rod Schützů, páni z Klenové a Janovic a nakonec Příchovští, Thun-Hohensteinové a Kinští — v následujících dvou stoletích postupně přidávali barokní křídla, zahrady se sochařskou výzdobou i rokokové interiéry, než v roce 1920 zchátralé panství koupilo přímo město Benátky.
+
+Nejslavnější kapitola zámku se odehrála v roce 1599, kdy se sem s podporou císaře Rudolfa II. nastěhoval dánský astronom Tycho Brahe, s sebou přivezl svou knihovnu a velkou část vlastních, na míru postavených přístrojů a zřídil si zde observatoř. Dne 3. února 1600 na Brahovo pozvání dorazil mladý Jan Kepler — začátek krátké, ostré a nesmírně důležité spolupráce, která po Brahově smrti následujícího roku zanechala Keplerovi pozorovací data potřebná k odvození zákonů pohybu planet. O dvě a půl století později, mezi lety 1844 a 1848, na zámku vyučoval hudbu skladatel Bedřich Smetana a během svého pobytu zde napsal svou první klavírní sonátu.
+
+Bonus: Na zámku dnes sídlí jak Muzeum Benátecka, tak — poněkud kuriózně — soukromé muzeum hraček; budova, kde se kdysi mapovaly pohyby planet, tak dnes vystavuje sbírku starých panenek a plechových hraček.`,
+
+      zh: `勇敢的冒险家，欢迎来到伊泽拉河畔贝纳特基城堡（Zámek Benátky nad Jizerou）！这座河畔城堡曾是一位皇帝御用天文学家的居所，见证了夜空科学史上两位最伟大头脑之间历史性的首次会面，后来还曾是年轻的贝德日赫·斯美塔那（Bedřich Smetana）事业起步的地方。
+
+这座城堡由一座更古老的要塞改建而来，约建于1525年，由贝德日赫·冯·多宁（Bedřich z Donína）主持将其改建为一座体面的宅邸；此后两个世纪里，扬·冯·维尔特（Jan z Wörthu）、舒茨（Schütz）家族、克莱诺瓦-亚诺维采（Klenová a Janovice）领主，以及后来的普日霍夫斯基（Příchovský）、图恩-霍恩施泰因（Thun-Hohenstein）和金斯基（Kinský）等家族相继增建了巴洛克式侧翼、雕塑花园和洛可可风格的室内装饰，直到1920年，日渐荒废的庄园最终被贝纳特基镇自己买下。
+
+城堡历史上最著名的篇章发生在1599年：丹麦天文学家第谷·布拉赫（Tycho Brahe）在神圣罗马帝国皇帝鲁道夫二世的支持下搬入此地，随身带来了他的藏书和大部分自己定制的天文仪器，并在此建立了一座观测台。1600年2月3日，应第谷之邀，年轻的约翰内斯·开普勒（Johannes Kepler）抵达此地——这是一段短暂、摩擦不断却影响深远的合作的开端；次年第谷去世后，开普勒正是凭借这些观测数据，推导出了行星运动定律。两个半世纪后的1844年至1848年间，作曲家斯美塔那曾在城堡教授音乐，并在此期间写下了他的第一首钢琴奏鸣曲。
+
+🎁 彩蛋：如今城堡里既设有贝纳特基地区博物馆，也颇为有趣地开设了一家私人玩具博物馆——这座曾经用来测绘行星运行轨迹的建筑，如今也展出着一批古老的玩偶与铁皮玩具。`,
+    },
+  },
+  {
+    name: 'Mníšek pod Brdy Chateau',
+    slug: 'zamek-mnisek-pod-brdy',
+    localizedNames: { cz: 'Zámek Mníšek pod Brdy', zh: '布尔迪山下姆尼舍克城堡' },
+    labels: ['palace', 'historical', 'architecture'],
+    coordinates: { lat: 49.86792759342003, lng: 14.25868271667706 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Mn%C3%AD%C5%A1ek_pod_Brdy_(z%C3%A1mek)',
+    description: {
+      en: `Brave adventurer, welcome to Mníšek pod Brdy Chateau (Zámek Mníšek pod Brdy)! This three-towered Baroque chateau once guarded a medieval trade route, got torched by a Swedish general, and was rebuilt by a nobleman so grateful his family survived the plague that he also built an entire pilgrimage complex on the hill next door.
+
+Mníšek is first documented in 1355, in Emperor Charles IV's law code Majestas Carolina, and its original fortress guarded merchant caravans travelling the so-called Golden Road between Bavaria and Prague. The Vratislav of Mitrovice family acquired the estate in 1487 and held it through the 16th century, but the worst blow came in 1639, when troops under the Swedish general Johan Banér plundered and burned the castle, church, and rectory during the Thirty Years' War.
+
+In 1655 the wealthy nobleman Servác Ignác Engel of Engelsflussu bought the ruined estate and, between 1656 and 1672, rebuilt it into a proper aristocratic residence, also restoring its water system. Grateful that his family had survived a plague epidemic, Engel went on to commission the nearby Baroque pilgrimage complex of Skalka — a chapel, monastery, and hermitage built in 1692–1694 by the architect Kryštof Dientzenhofer and modelled on the cave chapel of La Sainte-Baume in Provence, where Mary Magdalene was said to have lived. Later owners included the Unwerth and Pachta of Rájov families, and finally, from 1909, Theodorich Kast of Ebelsberg, who carried out a major reconstruction in 1910–1911. The chateau was confiscated by the state in 1945 and later used to store government archives, before an extensive restoration between 2000 and 2006 — costing over 100 million crowns — brought it back to public life.
+
+🎁 Bonus: Since 2018, visitors have been able to climb the chateau's tower for a lookout over the surrounding Brdy countryside — roughly 55,000 people a year now make the trip, more than three centuries after General Banér's soldiers tried to burn the place down.`,
+
+      cz: `Statečný dobrodruhu, vítej na zámku Mníšek pod Brdy! Tento barokní zámek se třemi věžemi kdysi střežil středověkou obchodní cestu, byl vypálen švédským generálem a znovu postaven šlechticem tak vděčným za to, že jeho rodina přežila mor, že vedle zámku nechal navíc vybudovat celý poutní areál.
+
+Mníšek je poprvé písemně doložen v roce 1355 v zákoníku císaře Karla IV. Majestas Carolina a jeho původní tvrz střežila kupecké karavany putující po takzvané Zlaté stezce mezi Bavorskem a Prahou. Rod Vratislavů z Mitrovic panství získal v roce 1487 a držel je po celé 16. století, avšak nejtěžší ránu utrpělo v roce 1639, kdy vojska švédského generála Johana Banéra za třicetileté války vyplenila a vypálila hrad, kostel i faru.
+
+V roce 1655 zpustošené panství koupil zámožný šlechtic Servác Ignác Engel z Engelsflussu, který jej mezi lety 1656 a 1672 přestavěl na reprezentativní šlechtické sídlo a zároveň obnovil vodní systém panství. Vděčný za to, že jeho rodina přežila morovou epidemii, nechal Engel nedaleko postavit barokní poutní areál Skalka — kapli, klášter a poustevnu vybudované v letech 1692–1694 architektem Kryštofem Dientzenhoferem podle vzoru jeskynní kaple La Sainte-Baume v Provence, kde měla podle legendy žít svatá Máří Magdaléna. Mezi pozdější majitele patřili Unwerthové a Pachtové z Rájova a nakonec od roku 1909 Theodorich Kast z Ebelsberka, který v letech 1910–1911 provedl rozsáhlou přestavbu. V roce 1945 byl zámek zestátněn a později sloužil k uložení státních archivů, než jej rozsáhlá obnova v letech 2000–2006 — za více než 100 milionů korun — vrátila zpět veřejnosti.
+
+Bonus: Od roku 2018 mohou návštěvníci vystoupat na zámeckou věž a pokochat se výhledem na okolní Brdy — dnes se na zámek ročně vydá zhruba 55 000 lidí, více než tři století poté, co se jej vojáci generála Banéra pokusili vypálit.`,
+
+      zh: `勇敢的冒险家，欢迎来到布尔迪山下姆尼舍克城堡（Zámek Mníšek pod Brdy）！这座拥有三座塔楼的巴洛克城堡，曾守卫着一条中世纪商路，被瑞典将军付之一炬，后来又被一位贵族重建——他因家人在瘟疫中幸存而心怀感激，甚至在城堡旁的山上又建起了一整座朝圣建筑群。
+
+姆尼舍克最早见于1355年查理四世皇帝颁布的《卡罗利纳大宪章》（Majestas Carolina），其最初的要塞曾守护着往来于巴伐利亚与布拉格之间、被称为"黄金之路"商道上的商队。1487年，米特罗维采的弗拉季斯拉夫（Vratislav z Mitrovice）家族获得了这处庄园，并统治了整个16世纪；但最沉重的打击发生在1639年三十年战争期间，瑞典将领约翰·巴内尔（Johan Banér）率军劫掠并焚毁了城堡、教堂与教区长住所。
+
+1655年，富有的贵族塞尔瓦茨·伊格纳茨·恩格尔（Servác Ignác Engel z Engelsflussu）买下了这片废墟般的庄园，并于1656年至1672年间将其重建为一座体面的贵族宅邸，同时修复了庄园的供水系统。因家人在瘟疫中幸存而心怀感恩，恩格尔随后又在附近委托修建了巴洛克式朝圣建筑群"斯卡尔卡"（Skalka）——包括一座礼拜堂、一座修道院和一间隐修室，由建筑师克里什托夫·迪岑霍费尔（Kryštof Dientzenhofer）于1692年至1694年间建造，其原型是普罗旺斯的圣博姆山洞礼拜堂，传说抹大拉的玛利亚曾在那里生活。此后的业主包括翁韦特（Unwerth）家族和拉约夫的帕赫塔（Pachta z Rájova）家族，最后自1909年起由埃贝尔斯贝格的特奥多里希·卡斯特（Theodorich Kast z Ebelsberka）接手，他在1910年至1911年间进行了一次大规模重建。1945年，城堡被国家没收，后来一度用于存放政府档案，直到2000年至2006年间耗资逾一亿克朗的大规模修复工程，才让它重新向公众开放。
+
+🎁 彩蛋：自2018年起，游客可以登上城堡的塔楼，俯瞰周围布尔迪（Brdy）地区的乡野景色——如今每年约有5.5万人前来游览，距巴内尔将军的士兵试图将这座城堡付之一炬，已经过去了三个多世纪。`,
+    },
+  },
+  {
+    name: 'Kutná Hora',
+    slug: 'kutna-hora',
+    localizedNames: { cz: 'Kutná Hora', zh: '库特纳霍拉' },
+    labels: ['village-and-town', 'historical', 'architecture', 'church'],
+    coordinates: { lat: 49.949818406467344, lng: 15.265305843214952 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kutn%C3%A1_Hora',
+    description: {
+      en: `Brave adventurer, welcome to Kutná Hora! According to legend, a Cistercian monk named Antonín fell asleep here in the 13th century after a hard day's work and woke to find three silver ingots lying by his head — and just like that, medieval Europe's biggest silver rush began.
+
+Silver was struck here from the 1260s, and by 1300 King Wenceslaus II issued the Ius regale montanorum mining code and centralized coinage at the Vlašský dvůr (the "Italian Court"), named for the Florentine coin masters he brought in to strike the new Prague groschen. Wealth from the mines briefly made Kutná Hora a rival to Prague itself, hosting royal assemblies and financing a cathedral, St. Barbara's, begun in 1388 and dedicated to the patron saint of miners.
+
+The good times ended violently: in 1419 Utraquist reformers here were thrown down abandoned mine shafts by Catholic townsfolk, and Hussite general Jan Žižka sacked the town in 1424 during the wars that followed. Silver output collapsed after the 1530s as the deepest shafts flooded, and mining finally ceased for good in 1727. St. Barbara's Cathedral, meanwhile, sat half-finished for centuries before being completed only in 1905. Since 1995, the historic town center, St. Barbara's, and the nearby Church of Our Lady at Sedlec have together held UNESCO World Heritage status.
+
+🎁 Bonus: St. Barbara's Cathedral took 517 years from foundation stone to formal completion — begun in 1388, halted mid-build when the silver ran dry in the 1550s, and only finished off in 1905, making it one of the most patient construction projects in European history.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kutné Hoře! Podle legendy zde ve 13. století usnul cisterciácký mnich jménem Antonín po těžké práci a probudil se s nálezem tří stříbrných prutů ležících u jeho hlavy — a tak začala největší stříbrná horečka středověké Evropy.
+
+Stříbro se zde těžilo už od 60. let 13. století a v roce 1300 vydal král Václav II. horní zákoník Ius regale montanorum a soustředil ražbu mincí ve Vlašském dvoře, pojmenovaném po florentských mincmistrech, které si povolal k ražbě nového pražského groše. Bohatství z dolů na čas povýšilo Kutnou Horu na soka samotné Prahy — konaly se zde královské sněmy a financovala se stavba chrámu svaté Barbory, založeného roku 1388 a zasvěceného patronce havířů.
+
+Dobré časy skončily násilně: v roce 1419 zde katoličtí měšťané házeli utrakvistické reformátory do opuštěných důlních šachet a husitský vojevůdce Jan Žižka město roku 1424 vydrancoval. Po 30. letech 16. století produkce stříbra prudce klesla, protože se zatopily nejhlubší štoly, a těžba definitivně skončila roku 1727. Chrám svaté Barbory mezitím stál po staletí nedostavěný a dokončen byl až v roce 1905. Od roku 1995 jsou historické jádro města, chrám svaté Barbory a nedaleký kostel Nanebevzetí Panny Marie v Sedlci společně zapsány na Seznamu světového dědictví UNESCO.
+
+Bonus: Chrám svaté Barbory si na cestu od základního kamene po dokončení vyžádal 517 let — založen byl roku 1388, stavba se zastavila v polovině 16. století, když došlo stříbro, a dokončena byla až v roce 1905, což z něj dělá jeden z nejtrpělivějších stavebních projektů evropských dějin.`,
+
+      zh: `勇敢的冒险家，欢迎来到库特纳霍拉（Kutná Hora）！传说十三世纪时，一位名叫安东尼（Antonín）的西多会修士在这里辛勤劳作后睡着了，醒来时发现头边躺着三块银锭——就这样，中世纪欧洲最大的一场银矿热就此拉开序幕。
+
+早在13世纪60年代，这里就已经开始开采银矿；到1300年，瓦茨拉夫二世国王颁布了《矿业君权法》（Ius regale montanorum），并将铸币集中在意大利宫（Vlašský dvůr）——之所以叫这个名字，是因为他从佛罗伦萨招募了铸币大师来铸造全新的布拉格格罗申银币。矿产带来的财富一度让库特纳霍拉足以与布拉格分庭抗礼，这里曾召开王国议会，还出资建造了始建于1388年、供奉矿工主保圣人圣芭芭拉的圣芭芭拉大教堂。
+
+好日子并未持续太久：1419年，信奉圣杯派（胡斯派温和派）的改革者在这里被天主教市民扔进废弃的矿井；1424年，胡斯派军事领袖扬·杰士卡（Jan Žižka）更是洗劫了整座城镇。16世纪30年代后，最深的矿井被淹没，白银产量急剧下滑，采矿业最终于1727年彻底停止。与此同时，圣芭芭拉大教堂几百年来一直未能完工，直到1905年才最终竣工。自1995年起，库特纳霍拉历史城区、圣芭芭拉大教堂，以及附近塞德莱茨的圣母升天教堂，共同被列入联合国教科文组织世界遗产名录。
+
+🎁 彩蛋：从奠基到最终完工，圣芭芭拉大教堂足足花了517年——1388年动工，16世纪50年代因银矿枯竭而一度停工，直到1905年才最终落成，堪称欧洲建筑史上最有耐心的工程之一。`,
+    },
+  },
+  {
+    name: 'Belvedér Ruins & Chapel of St. John the Baptist',
+    slug: 'letohradek-belveder-kutna-hora',
+    localizedNames: { cz: 'Zřícenina letohrádku Belvedér a kaple sv. Jana Křtitele', zh: '贝尔维德尔夏宫遗址与施洗约翰礼拜堂' },
+    labels: ['ruin', 'church', 'historical'],
+    coordinates: { lat: 49.9424707404664, lng: 15.188340847538846 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Letohr%C3%A1dek_Belveder_s_kapl%C3%AD_sv._Jana_K%C5%99titele_na_Vysok%C3%A9',
+    description: {
+      en: `Brave adventurer, welcome to the Belvedér Ruins & Chapel of St. John the Baptist! Count František Antonín Špork reportedly paid for this hilltop summer lodge with 1,400 ducats he won playing cards against a Saxon elector at a spa — proof that gambling debts can, occasionally, build something beautiful.
+
+Built in 1695–1697 on the summit of Vysoká hill near the village of Vysoká (now part of Suchdol, in the Kutná Hora district), the complex combined a baroque summer house with an adjoining chapel dedicated to St. John the Baptist and a small hermitage — reportedly designed with input from architect Giovanni Battista Alliprandi, who worked extensively for Špork elsewhere in Bohemia. The chapel's consecration on 24 June 1697 was, by tradition, a lavish affair, with some 20,000 guests said to have been invited. A year later Špork added quarters for three resident hermits, though he sold the whole estate to Count František Antonín Halleweil already on 20 July 1699.
+
+The buildings survived intact for well over a century until lightning struck on 30 April 1834, sparking a fire that gutted the summer house and left it to decay into ruin. What remains today — walls and foundations preserved roughly up to cornice height — sits freely accessible in the forest, with a local civic association named "Belveder" carrying out preservation work since the early 21st century.
+
+🎁 Bonus: According to local tradition, Špork won the money to build Belvedér at the card table against Saxon Elector Frederick Augustus I during a stay at the spa town of Karlovy Vary — meaning this obscure forest ruin owes its existence to one very lucky night, far from the hill it was built on.`,
+
+      cz: `Statečný dobrodruhu, vítej u zříceniny letohrádku Belvedér a kaple sv. Jana Křtitele! Hrabě František Antonín Špork prý tento letohrádek na kopci zaplatil z 1400 dukátů, které vyhrál v kartách proti saskému kurfiřtovi na lázeňském pobytu — důkaz, že karetní dluhy mohou občas postavit i něco krásného.
+
+Komplex vznikl v letech 1695–1697 na vrcholu kopce Vysoká u stejnojmenné vesnice (dnes součást Suchdola v okrese Kutná Hora) a spojoval barokní letohrádek s přilehlou kaplí zasvěcenou sv. Janu Křtiteli a malou poustevnou — na návrhu se údajně podílel architekt Giovanni Battista Alliprandi, který pro Šporka pracoval i jinde v Čechách. Vysvěcení kaple 24. června 1697 bylo podle tradice velkolepou událostí, na kterou mělo být pozváno na 20 000 hostů. O rok později přidal Špork obydlí pro tři poustevníky, panství ale prodal hraběti Františku Antonínu Halleweilovi už 20. července 1699.
+
+Stavby zůstaly celé přes sto let, dokud 30. dubna 1834 neudeřil blesk, který způsobil požár zničující letohrádek a odsoudil ho k postupnému chátrání do dnešní zříceniny. To, co se dochovalo — zdi a základy zachované zhruba do výše římsy — je dnes volně přístupné v lese, přičemž od počátku 21. století se o zachování stará místní občanské sdružení Belveder.
+
+Bonus: Podle místní tradice Špork peníze na stavbu Belvedéru vyhrál v kartách proti saskému kurfiřtovi Fridrichu Augustovi I. při pobytu v lázeňském Karlových Varech — tato nenápadná lesní zřícenina tak vděčí za svou existenci jediné mimořádně šťastné noci, daleko od kopce, na kterém stojí.`,
+
+      zh: `勇敢的冒险家，欢迎来到贝尔维德尔夏宫遗址与施洗约翰礼拜堂（Zřícenina letohrádku Belvedér a kaple sv. Jana Křtitele）！据说，什波尔克伯爵（František Antonín Špork）用在牌桌上赢萨克森选帝侯的1400达克特金币，建起了这座山顶消夏别墅——证明赌债有时候也能盖出美丽的建筑。
+
+这座建筑群建于1695至1697年间，坐落在维索卡山（Vysoká）山顶，靠近同名村庄（如今属于库特纳霍拉地区的苏赫多尔），将巴洛克式消夏别墅与供奉施洗约翰的礼拜堂及一座小隐修所连为一体——设计据信有建筑师乔瓦尼·巴蒂斯塔·阿利普兰迪（Giovanni Battista Alliprandi）参与，他也曾在波希米亚各地为什波尔克效力。1697年6月24日礼拜堂举行祝圣仪式，传统上被形容为一场盛大典礼，据说邀请了多达两万名宾客。一年后，什波尔克又增建了供三位隐修士居住的房舍，但他早在1699年7月20日就将整个庄园卖给了弗朗蒂谢克·安东宁·哈勒魏尔伯爵（František Antonín Halleweil）。
+
+建筑群完好保存了一个多世纪，直到1834年4月30日一场雷击引发大火，烧毁了消夏别墅，此后便逐渐荒废成为废墟。如今遗留下来的——大致保存到檐口高度的墙壁与地基——如今坐落在森林中，可自由进入参观，21世纪初以来，当地一个名为"贝尔维德尔"（Belveder）的民间协会一直在进行保护修复工作。
+
+🎁 彩蛋：据当地传说，什波尔克建造贝尔维德尔的资金，正是他在卡罗维发利（Karlovy Vary）温泉小镇逗留期间，于牌桌上赢自萨克森选帝侯弗里德里希·奥古斯特一世（Frederick Augustus I）的——这座藏于林中、鲜为人知的废墟，竟要归功于远离此山的一个幸运夜晚。`,
+    },
+  },
+  {
+    name: 'Nymburk',
+    slug: 'nymburk',
+    localizedNames: { cz: 'Nymburk', zh: '尼姆堡' },
+    labels: ['village-and-town', 'historical', 'architecture'],
+    coordinates: { lat: 50.185828388212165, lng: 15.043491422317972 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Nymburk',
+    description: {
+      en: `Brave adventurer, welcome to Nymburk! Its very name is a fossilized joke on medieval Germans — "ze der Niuwen Burk," meaning "at the new castle" — for a walled river town whose ancient brick fortifications now look about as reassuringly permanent as anything in Bohemia gets.
+
+King Přemysl Otakar II ordered the town founded around 1275 at a strategic crossing of trade routes on the Elbe; the work was likely finished off under his son, Wenceslaus II. Settlers built two belts of brick fortifications studded with roughly fifty towers and four gates, fed by a water-filled moat drawn from the river — one of the best-preserved examples of medieval brick Gothic architecture in Bohemia, alongside the Church of St. Giles, built between 1280 and 1380.
+
+Nymburk's fortunes weren't always peaceful: in 1634, during the Thirty Years' War, Saxon troops set much of the town ablaze and killed more than 200 people who had taken shelter inside the church. Centuries later, the town found a gentler kind of fame: its brewery, founded in the late 1890s, became the childhood backdrop for writer Bohumil Hrabal, who lived there from 1919 to 1947 while his father managed the operation, later immortalizing its characters and rhythms in his novella Postřižiny (Cutting It Short).
+
+🎁 Bonus: In its first year of production, the Nymburk brewery turned out 21,075 hectoliters of beer — a respectable start for the institution that would go on to raise one of Czech literature's most beloved writers practically inside its walls.`,
+
+      cz: `Statečný dobrodruhu, vítej v Nymburce! Samotný název je zkamenělý vtip středověkých Němců — "ze der Niuwen Burk", tedy "u nového hradu" — pro město, jehož prastaré cihlové hradby dnes působí stejně uklidňujícím dojmem trvalosti jako málokterá jiná stavba v Čechách.
+
+Král Přemysl Otakar II. nechal město založit kolem roku 1275 na strategickém křížení obchodních cest u Labe; dílo pravděpodobně dokončil až jeho syn Václav II. Osadníci vybudovali dvojitý pás cihlových hradeb s přibližně padesáti věžemi a čtyřmi branami, napájený vodním příkopem z řeky — jeden z nejlépe dochovaných příkladů středověké cihlové gotiky v Čechách, spolu s kostelem sv. Jiljí, postaveným v letech 1280–1380.
+
+Osudy Nymburka nebyly vždy poklidné: v roce 1634 za třicetileté války saská vojska vypálila velkou část města a v kostele, kam se lidé uchýlili, zahynulo přes 200 lidí. O staletí později si město našlo jinou, mírumilovnější slávu: jeho pivovar, založený na konci 90. let 19. století, se stal dětskou kulisou pro spisovatele Bohumila Hrabala, který zde žil v letech 1919–1947, zatímco jeho otec pivovar řídil, a jeho postavy a atmosféru později zvěčnil v novele Postřižiny.
+
+Bonus: V prvním roce provozu vyprodukoval nymburský pivovar 21 075 hektolitrů piva — slušný začátek pro instituci, která později prakticky ve svých zdech vychovala jednoho z nejmilovanějších spisovatelů české literatury.`,
+
+      zh: `勇敢的冒险家，欢迎来到尼姆堡（Nymburk）！这座城镇的名字本身就是中世纪德意志人开的一个"石化"玩笑——"ze der Niuwen Burk"，意为"新城堡旁"——如今，它古老的砖砌城墙看起来，比波希米亚大多数建筑都更让人安心地"屹立不倒"。
+
+普热米斯尔·奥托卡二世（Přemysl Otakar II）国王大约于1275年下令，在易北河（拉贝河）畔一处重要商路交汇处建立此城；这项工程很可能是在他儿子瓦茨拉夫二世（Václav II）任内才最终完成的。定居者修建了双层砖砌城墙，配有约五十座塔楼和四座城门，并引易北河水注入护城河——连同建于1280至1380年间的圣吉利教堂（sv. Jiljí），这里堪称波希米亚保存最完好的中世纪砖砌哥特式建筑范例之一。
+
+尼姆堡的命运并非始终太平：1634年三十年战争期间，萨克森军队烧毁了城内大片区域，躲进教堂避难的两百多人因此丧生。几个世纪后，这座城镇迎来了另一种更为温和的声誉：始建于19世纪90年代末的当地啤酒厂，成了作家博胡米尔·赫拉巴尔（Bohumil Hrabal）的童年背景——他于1919年至1947年在此生活，其父正是酒厂的经理，后来他在小说《Postřižiny》（英译名《Cutting It Short》）中，将酒厂里的人物与生活节奏永远地留在了文字中。
+
+🎁 彩蛋：尼姆堡啤酒厂投产第一年，就产出了21075百升啤酒——对于这家日后几乎在自家厂区内"养大"了捷克文学最受爱戴作家之一的企业来说，这是一个相当不错的开端。`,
+    },
+  },
+  {
+    name: 'Poděbrady',
+    slug: 'podebrady',
+    localizedNames: { cz: 'Poděbrady', zh: '波杰布拉迪' },
+    labels: ['village-and-town', 'historical', 'palace'],
+    coordinates: { lat: 50.14225477282177, lng: 15.118249650333942 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pod%C4%9Bbrady',
+    description: {
+      en: `Brave adventurer, welcome to Poděbrady! Its unglamorous name literally means "by the ford," yet this modest river crossing managed to produce a king, host a five-century-early pitch for the European Union, and strike medicinal mineral water while drilling for something far more mundane.
+
+First recorded in 1223 under a local lord named Hroznata, the settlement passed to King Přemysl Otakar II after 1262, who built a stone water castle on a travertine bluff above the Elbe between 1262 and 1268 as part of a defensive chain protecting approaches to Prague. Tradition holds that George of Poděbrady — the only Bohemian king to rise from the ranks of the domestic nobility rather than a ruling dynasty — was born here on 23 April 1420. Elected king by the Czech estates in 1458, he ruled until his death in 1471, and between 1462 and 1464 sent embassies across Europe proposing a peaceful alliance of Christian rulers to settle disputes without war — a plan later regarded as an ideological forerunner of both the United Nations and the European Union.
+
+His sons elevated Poděbrady to full town status in 1472. The castle itself was rebuilt in Renaissance style under Emperor Ferdinand I between 1548 and 1582, then remodeled again in Baroque fashion under Empress Maria Theresa between 1754 and 1756. The town's modern identity, though, comes from an accident: in 1905, workers drilling a well in the castle courtyard struck carbonated, iron-rich mineral water, and by 1908 the formal spa — consecrated that June by Prince Hohenlohe — was treating patients, eventually specializing in cardiovascular disease.
+
+🎁 Bonus: George of Poděbrady's 1460s peace proposal called for a standing council of Christian rulers to arbitrate conflicts and even a shared military force to police the peace — an idea considered wildly premature in the 15th century and one historians now routinely cite as centuries ahead of its time.`,
+
+      cz: `Statečný dobrodruhu, vítej v Poděbradech! Jejich nenápadný název doslova znamená "u brodu" — skromné pojmenování pro lázeňské město, které nakonec dalo světu krále, o pět století předběhlo myšlenku Evropské unie a při vrtání studny narazilo na léčivou minerální vodu, zatímco hledalo něco mnohem obyčejnějšího.
+
+Poprvé je osada doložena v roce 1223 pod místním pánem jménem Hroznata, po roce 1262 přešla do rukou krále Přemysla Otakara II., který na opukovém návrší nad Labem vybudoval v letech 1262–1268 kamenný vodní hrad jako součást obranného řetězce chránícího přístupy k Praze. Podle tradice se zde 23. dubna 1420 narodil Jiří z Poděbrad — jediný český král, který nepocházel z panovnické dynastie, ale z řad domácí šlechty. České stavy jej zvolily králem v roce 1458, vládl až do své smrti v roce 1471 a mezi lety 1462 a 1464 vyslal do celé Evropy poselstva s návrhem mírového spolku křesťanských panovníků, který by řešil spory bez války — plán, který je dnes považován za ideového předchůdce jak OSN, tak Evropské unie.
+
+Jeho synové povýšili Poděbrady na město v roce 1472. Samotný hrad byl přestavěn v renesančním slohu za císaře Ferdinanda I. v letech 1548–1582 a poté znovu upraven v barokním duchu za vlády Marie Terezie mezi lety 1754 a 1756. Moderní identitu ale městu dala náhoda: v roce 1905 dělníci při vrtání studny na zámeckém nádvoří narazili na perlivou, na železo bohatou minerální vodu, a už v roce 1908 zahájily provoz oficiální lázně — vysvěcené v červnu téhož roku knížetem Hohenlohem — které se později specializovaly na léčbu srdečně-cévních chorob.
+
+Bonus: Mírový projekt Jiřího z Poděbrad z 60. let 15. století počítal se stálou radou křesťanských panovníků, jež by rozhodovala spory, a dokonce se společnou vojenskou silou k udržení míru — myšlenka to byla ve své době považovaná za naprosto předčasnou a historikové ji dodnes označují za staletí předběhlou dobu.`,
+
+      zh: `勇敢的冒险家，欢迎来到波杰布拉迪（Poděbrady）！这个朴实的名字字面意思就是"渡口旁"——谁能想到，这座不起眼的温泉小镇日后不仅诞生了一位国王，还提前五百年提出了堪比欧盟的和平构想，甚至在钻井时意外打出了矿泉水，而当初要找的其实是别的东西。
+
+该聚落于1223年首次见于文献，当时归当地领主赫罗兹纳塔（Hroznata）所有；1262年后，普热米斯尔·奥托卡二世（Přemysl Otakar II）国王将其收归己有，并于1262至1268年间在易北河畔的一处石灰岩高地上修建了一座石造水堡，作为保卫布拉格周边防御链的一环。相传，波希米亚历史上唯一一位出身本土贵族而非王室世系的国王——乔治（Jiří z Poděbrad，即"波杰布拉迪的乔治"）——于1420年4月23日在此出生。他于1458年被捷克三级会议选为国王，在位直至1471年去世，并在1462年至1464年间派遣使团出访欧洲各国，提议建立一个基督教君主间的和平联盟，以非战争方式解决争端——这一构想后来被视为联合国乃至欧盟的思想先驱。
+
+他的儿子们于1472年将波杰布拉迪正式提升为城镇。城堡本身在斐迪南一世皇帝统治期间（1548–1582年）改建为文艺复兴风格，随后又在玛丽亚·特蕾西亚女皇统治期间（1754–1756年）改为巴洛克风格。不过，这座小镇的现代身份，其实源于一次意外：1905年，工人在城堡庭院内钻井时，意外发现了富含碳酸与铁质的矿泉水；到1908年，由霍恩洛厄亲王于当年6月主持祝圣的正式温泉浴场便开始接待病人，后来逐渐专注于心血管疾病的治疗。
+
+🎁 彩蛋：乔治国王在15世纪60年代提出的和平方案，设想建立一个常设的基督教君主理事会来仲裁冲突，甚至还构想了一支共同维和的军事力量——这一想法在当时被认为极其超前，如今历史学家普遍认为它领先了时代好几个世纪。`,
+    },
+  },
+  {
+    name: 'Kolín',
+    slug: 'kolin',
+    localizedNames: { cz: 'Kolín', zh: '科林' },
+    labels: ['village-and-town', 'historical', 'jewish', 'church'],
+    coordinates: { lat: 50.02815207132286, lng: 15.201303198639373 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kol%C3%ADn',
+    description: {
+      en: `Brave adventurer, welcome to Kolín! This Elbe-side town was so worried about flooding that its 13th-century founders picked it up and moved it — rock foundations and all — to higher, drier ground, which turned out to be a very good long-term decision.
+
+The town began as a market settlement repeatedly flooded by the Elbe — today's Starý Kolín — until King Přemysl Otakar II, probably in the late 1250s, relocated it onto a rocky bluff above the river. The earliest dated document mentioning Kolín is from 8 September 1261, when Otakar granted the nearby town of Přelouč the same civic rights already enjoyed by Kolín and Kouřim. The Gothic Church of St. Bartholomew rose on the town's high point starting in the second half of the 13th century; late in the 14th century, the workshop of master architect Petr Parléř — famed for Prague's St. Vitus Cathedral — attempted a full Gothic remake, but the project was never finished, leaving the church with its striking mismatched silhouette: Parléř's tall, ambitious choir grafted onto the shorter original nave.
+
+Jewish settlers arrived by around the mid-14th century and built one of Bohemia's most significant Jewish communities; the old Jewish cemetery, founded in 1418, ranks as the second-oldest in the country after Prague's. Kolín's best-known moment came centuries later, on 18 June 1757, when Prussian King Frederick the Great — besieging Prague and confident of victory — was decisively defeated here by an Austrian army under Field Marshal Leopold von Daun, reinforced with Saxon cavalry. It was Frederick's first major defeat in the field, and it forced the Prussians to abandon the siege of Prague, reshaping the course of the Seven Years' War. The fighting was fierce and losses on both sides were heavy, a sober reminder of the real cost behind the battle's strategic drama.
+
+🎁 Bonus: Empress Maria Theresa was so pleased with the victory that she founded Austria's highest military honor, the Military Order of Maria Theresa, just four days later on 22 June 1757 — with the winning commander, Field Marshal Daun, becoming its first-ever recipient the following year.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kolíně! Toto město na Labi se tak bálo povodní, že je jeho zakladatelé ve 13. století raději i se skálou pod ním přenesli na vyšší a sušší místo — což se z dlouhodobého hlediska ukázalo jako velmi dobré rozhodnutí.
+
+Město začínalo jako tržní osada opakovaně zaplavovaná Labem — dnešní Starý Kolín — dokud jej král Přemysl Otakar II., pravděpodobně na konci 50. let 13. století, nepřenesl na skalnaté návrší nad řekou. Nejstarší datovaná zmínka o Kolíně pochází z listiny z 8. září 1261, kterou Otakar udělil nedaleké Přelouči stejná městská práva, jaká už měly Kolín a Kouřim. Gotický chrám svatého Bartoloměje vyrostl na nejvyšším místě města počínaje druhou polovinou 13. století; koncem 14. století se huť mistra Petra Parléře — proslulého stavitele pražské katedrály svatého Víta — pokusila o jeho úplnou gotickou přestavbu, ta ale nebyla nikdy dokončena, a chrám tak dodnes má nezaměnitelnou nesourodou siluetu: Parléřův vysoký, ambiciózní chór navazující na nižší původní loď.
+
+Židovští osadníci sem přišli přibližně v polovině 14. století a vybudovali jednu z nejvýznamnějších židovských obcí v Čechách; starý židovský hřbitov, založený roku 1418, je po pražském druhým nejstarším v zemi. Nejznámější okamžik zažil Kolín o staletí později, 18. června 1757, kdy pruský král Fridrich Veliký — obléhající Prahu a jistý si vítězstvím — zde utrpěl rozhodující porážku od rakouské armády polního maršála Leopolda Dauna, posílené saskou jízdou. Šlo o Fridrichovu první velkou porážku v poli, která přiměla Prusy ukončit obléhání Prahy a zásadně ovlivnila další průběh sedmileté války. Boje byly kruté a ztráty na obou stranách vysoké — střízlivá připomínka skutečné ceny za strategické drama bitvy.
+
+Bonus: Císařovna Marie Terezie byla vítězstvím natolik potěšena, že už o čtyři dny později, 22. června 1757, založila nejvyšší rakouské vojenské vyznamenání, Vojenský řád Marie Terezie — a vítězný velitel, polní maršál Daun, se o rok později stal jeho vůbec prvním nositelem.`,
+
+      zh: `勇敢的冒险家，欢迎来到科林（Kolín）！这座易北河畔的小镇实在太怕水患了，以至于13世纪的建城者干脆连脚下的岩石一起，把整座城镇搬到了更高、更干燥的地方——事实证明，这是一个非常明智的长远决定。
+
+科林最初只是一处屡遭易北河洪水侵袭的集市聚落——也就是今天的旧科林（Starý Kolín）——直到普热米斯尔·奥托卡二世（Přemysl Otakar II）国王大约在13世纪50年代末，将其迁移到河边一处岩石高地上。现存最早提及科林的确切纪年文献，是1261年9月8日的一份文书，奥托卡在其中授予附近的普热劳奇（Přelouč）与科林、库热姆（Kouřim）同等的城市权利。哥特式的圣巴多罗买大教堂自13世纪下半叶起便矗立在城镇制高点；14世纪末，以布拉格圣维特大教堂闻名的建筑大师彼得·帕尔莱勒（Petr Parléř）的工坊曾尝试对其进行一次彻底的哥特式改建，但工程始终未能完工，这也让教堂至今保留着独特而不协调的轮廓：帕尔莱勒那高耸、雄心勃勃的唱诗席，直接嫁接在较矮的原有中殿之上。
+
+犹太移民大约在14世纪中叶来到科林，并在此建立了波希米亚最重要的犹太社区之一；始建于1418年的老犹太墓地，是继布拉格之后全国第二古老的犹太墓地。科林最广为人知的一刻发生在几个世纪之后的1757年6月18日：当时正围攻布拉格、自信胜券在握的普鲁士国王腓特烈大帝，在此遭到由利奥波德·冯·道恩元帅统率、辅以萨克森骑兵增援的奥地利军队决定性击败。这是腓特烈在战场上的首次重大失利，迫使普军放弃对布拉格的围攻，深刻改变了七年战争的走向。此役战斗异常惨烈，双方伤亡都十分沉重——这也提醒着人们，这场战略戏剧性转折背后，是实实在在的沉重代价。
+
+🎁 彩蛋：玛丽亚·特蕾西亚女皇对这场胜利极为满意，以至于短短四天后，也就是1757年6月22日，她便下令创立奥地利最高军事荣誉——玛丽亚·特蕾西亚军事勋章；而这场战役的获胜统帅道恩元帅，则在次年成为该勋章的第一位获得者。`,
+    },
+  },
 ];
 
 async function run() {

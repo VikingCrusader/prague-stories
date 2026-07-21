@@ -703,6 +703,18 @@ export const SLUG_RARITY = {
   'melnik-stare-mesto':             'superior', // royal dower town above the Elbe-Vltava confluence
   'zamek-melnik':                   'mythic',   // 1100+ year chateau, Lobkowicz wine cellars since 11th/14th c.
   'hrad-cesky-sternberk':           'mythic',   // founded 1241, 21 unbroken generations of the same family
+
+  // ── Mladá Boleslav / Kutná Hora region batch (2026-07) ──────────────────
+  'hrad-mlada-boleslav':            'superior', // Slavic hillfort to royal castle to barracks, now regional museum
+  'skoda-museum':                   'rare',     // Škoda Auto's original 1895 factory halls, ~120k visitors/yr
+  'zamek-stranov':                  'rare',     // private "fairytale" Neo-Renaissance chateau, opened to public 2004
+  'zamek-benatky-nad-jizerou':      'epic',     // Tycho Brahe's observatory, first Brahe-Kepler meeting 1600
+  'zamek-mnisek-pod-brdy':          'superior', // Baroque chateau rebuilt after 1639 Swedish sack, Skalka pilgrimage site
+  'kutna-hora':                     'mythic',   // UNESCO medieval silver-mining capital, St. Barbara's Cathedral
+  'letohradek-belveder-kutna-hora': 'rare',     // obscure Špork summer-house ruin, burned by lightning 1834
+  'nymburk':                        'superior', // walled brick-Gothic Elbe town, Bohumil Hrabal's childhood home
+  'podebrady':                      'superior', // spa town, birthplace of King George of Poděbrady
+  'kolin':                          'superior', // 1757 Battle of Kolín, Parléř-workshop Gothic church, old Jewish quarter
 };
 
 export function getRarity(slug) {

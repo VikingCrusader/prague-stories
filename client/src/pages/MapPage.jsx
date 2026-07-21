@@ -4,7 +4,8 @@ import { locationAPI, checkinAPI } from '../services/api';
 import { useLang, useT, useConvert } from '../context/LanguageContext';
 import { useAuth } from '../context/AuthContext';
 import { getLocName } from '../utils/locName';
-import { getCurrentPosition } from '../utils/geolocation';
+import { getCurrentPosition, haversineDistance, formatDistance } from '../utils/geolocation';
+import { useUserPosition } from '../hooks/useUserPosition';
 import MapView from '../components/map/MapView';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../utils/pixelArtMap';
 import { RARITY_COLOR, RARITY_LABEL, lockClosedIcon } from '../utils/rarity';
@@ -257,6 +258,7 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
   const convert = useConvert();
   const { guest, updateUser } = useAuth();
   const navigate = useNavigate();
+  const userPos = useUserPosition();
   const [loc, setLoc]                     = useState(null);
   const [loading, setLoading]             = useState(true);
   const [actionLoading, setActionLoading] = useState(false);
@@ -363,6 +365,11 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
             {convert(RARITY_LABEL[lang]?.[loc.rarity ?? 'common'])}
           </span>
           <span style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: 'var(--gold)', marginLeft: 4 }}>+{loc.xpReward} XP</span>
+          {userPos && (
+            <span style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: 'var(--text-muted)', marginLeft: 4 }}>
+              {t('detail.distanceAway', { dist: formatDistance(haversineDistance(userPos.lat, userPos.lng, loc.coordinates.lat, loc.coordinates.lng)) })}
+            </span>
+          )}
         </div>
         {loc.unlocked && loc.checkedInAt && (
           <div style={{ marginBottom: 4 }}>
