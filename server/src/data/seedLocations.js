@@ -19688,6 +19688,76 @@ Bonus: Císařovna Marie Terezie byla vítězstvím natolik potěšena, že už 
 🎁 彩蛋：玛丽亚·特蕾西亚女皇对这场胜利极为满意，以至于短短四天后，也就是1757年6月22日，她便下令创立奥地利最高军事荣誉——玛丽亚·特蕾西亚军事勋章；而这场战役的获胜统帅道恩元帅，则在次年成为该勋章的第一位获得者。`,
     },
   },
+  {
+    name: 'Battle of Kolín Memorial',
+    slug: 'pamatnik-bitvy-u-kolina',
+    localizedNames: { cz: 'Památník bitvy u Kolína', zh: '科林战役纪念碑' },
+    labels: ['historical', 'monument', 'landmark'],
+    coordinates: { lat: 50.028794455659884, lng: 15.121826473658725 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Bitva_u_Kol%C3%ADna',
+    description: {
+      en: `Welcome to the Battle of Kolín Memorial (Památník bitvy u Kolína), raised on the fields where one of the eighteenth century's bloodiest single days played out.
+
+On 18 June 1757, the fields around the village of Křečhoř became the site of the largest pitched battle Bohemia had seen in generations. Frederick the Great of Prussia, besieging Prague and confident he had already won the war, marched roughly 32,000 men out to meet an Austrian army nearly 44,000 strong under Field Marshal Leopold von Daun. By the end of the day the Prussian line had broken, Frederick himself had fled the field, and the siege of Prague — which had seemed all but over — was abandoned within days.
+
+It was Frederick's first defeat in open battle, and it came at a staggering cost: roughly 14,000 Prussian casualties against some 8,000 Austrian, upwards of 22,000 men killed, wounded, or captured in a single day of fighting on ground you can now walk across in twenty minutes. The obelisk standing here today, raised in 1899 near the hill where the fighting was fiercest, marks the site with the same gravity as any battlefield memorial in Central Europe — a quiet field that briefly decided the direction of the Seven Years' War.
+
+🎁 Bonus: Every June, re-enactors in Prussian blue and Austrian white return to these same fields to restage the battle for visitors — cannon smoke, cavalry charges, and all — turning one of the eighteenth century's bloodiest afternoons into the region's best-known living-history weekend.`,
+
+      cz: `Vítej u Památníku bitvy u Kolína, vztyčeného na polích, kde se odehrál jeden z nejkrvavějších jediných dnů celého osmnáctého století.
+
+18. června 1757 se pole kolem vesnice Křečhoř stala dějištěm největší polní bitvy, jakou Čechy zažily po celé generace. Pruský král Fridrich Veliký, obléhající Prahu a jistý si už vítězstvím ve válce, vyvedl do pole zhruba 32 000 mužů proti rakouské armádě o síle téměř 44 000 vojáků pod velením polního maršála Leopolda von Dauna. Než den skončil, pruské řady se zhroutily, sám Fridrich z bojiště uprchl a obležení Prahy, které se zdálo být téměř u konce, bylo během pár dní vzdáno.
+
+Byla to Fridrichova první porážka v otevřené bitvě a přišla za otřesnou cenu: zhruba 14 000 pruských ztrát proti přibližně 8 000 rakouským, tedy přes 22 000 mužů mrtvých, raněných nebo zajatých během jediného dne bojů na ploše, kterou dnes projdete pěšky za dvacet minut. Obelisk, který zde dnes stojí, byl vztyčen roku 1899 poblíž kopce, kde se bojovalo nejtvrději, a označuje toto místo se stejnou vážností jako kterékoli jiné bojiště střední Evropy — tiché pole, jež na chvíli rozhodlo o směřování sedmileté války.
+
+🎁 Bonus: Každý červen se na tato stejná pole vracejí historičtí šermíři v pruské modři a rakouské bílé, aby pro diváky znovu sehráli bitvu — s dělostřeleckým dýmem, jezdeckými útoky a vším ostatním — a proměnili jedno z nejkrvavějších odpolední osmnáctého století v nejznámější víkend živé historie v regionu.`,
+
+      zh: `欢迎来到科林战役纪念碑（Památník bitvy u Kolína）——它矗立在十八世纪最血腥的单日战场之上。
+
+1757年6月18日，克热乔尔村（Křečhoř）周围的田野，成为波希米亚数代人以来最大规模野战的战场。普鲁士国王腓特烈大帝当时正围攻布拉格，自信胜局已定，率领约3.2万士兵出战，迎战利奥波德·冯·道恩元帅统率的近4.4万奥地利大军。战斗结束时，普军防线全面崩溃，腓特烈本人仓皇逃离战场，而原本看似胜券在握的布拉格围城战，也在数日内被彻底放弃。
+
+这是腓特烈在野战中的首次败绩，代价极其惨重：普军伤亡约1.4万人，奥军伤亡约8千人，短短一天之内，阵亡、受伤或被俘者合计超过2.2万人——而这片土地，你如今步行二十分钟便可走完全程。今天矗立于此的方尖碑，建于1899年，就立在战斗最惨烈的山丘附近，以不逊于中欧任何战场纪念碑的庄重，标记着这片曾在片刻之间左右七年战争走向的宁静田野。
+
+🎁 彩蛋：每年六月，身着普鲁士蓝与奥地利白军服的历史重演爱好者都会重返这片田野，在观众面前重现整场战役——炮火硝烟、骑兵冲锋，一应俱全——把十八世纪最血腥的一个下午之一，变成了这个地区最知名的活体历史周末活动。`,
+    },
+  },
+  {
+    name: 'Houska Castle',
+    slug: 'hrad-houska',
+    localizedNames: { cz: 'Hrad Houska', zh: '霍乌斯卡城堡' },
+    labels: ['castle and fortress', 'historical', 'architecture'],
+    coordinates: { lat: 50.49088051147091, lng: 14.623957913020746 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hrad_Houska',
+    description: {
+      en: `Brave adventurer, welcome to Houska Castle (Hrad Houska)!
+
+Most castles get built to guard a river crossing, a trade route, or a border. Houska guards none of these — it sits on a rocky outcrop with no water source beyond a rainwater cistern, no kitchen, painted-on fake windows, and no road worth defending anywhere nearby. According to legend, that was exactly the point: King Ottokar II of Bohemia supposedly ordered it raised sometime between 1253 and 1278 not to keep enemies out, but to seal something in — a bottomless pit in the rock beneath, said locally to be a direct opening into Hell itself, from which winged demons, ghosts, and a headless horse had reportedly been seen crawling out.
+
+Whatever the true reason for the site, the builders placed the castle's chapel directly over the hole and covered its walls with Gothic frescoes unlike anything else that survives in Bohemia — figures with human bodies and animal heads, animal bodies and human heads, including the only known depiction of a female centaur in medieval Bohemian religious art, drawing her bow left-handed, a detail medieval viewers would have read as a mark of the Devil. When the Nazis occupied Czechoslovakia in 1938, German soldiers requisitioned the castle and, according to local rumor at the time, went looking for the pit themselves.
+
+🥚 Easter Egg: Nobody in recorded history has ever actually found the famous bottomless pit. Restoration work over the centuries has turned up cellars, blocked passages, and false floors, but never the chasm itself — which either means the legend was always just a story dressed up as architecture, or that seven hundred years of builders have done a genuinely excellent job of keeping the gate to Hell closed.`,
+
+      cz: `Statečný dobrodruhu, vítej na hradě Houska!
+
+Většina hradů vznikla proto, aby střežila brod, obchodní stezku nebo hranici. Houska nestřeží nic z toho — stojí na skalním výběžku bez zdroje vody kromě dešťové jímky, bez kuchyně, s namalovanými falešnými okny a bez jediné cesty v okolí, kterou by stálo za to bránit. Podle pověsti to byl právě záměr: český král Přemysl Otakar II. jej měl nechat postavit někdy mezi lety 1253 a 1278 nikoli proto, aby udržel nepřátele venku, ale aby něco udržel uvnitř — bezednou propast ve skále pod hradem, o níž se místní tradovalo, že je přímým vstupem do pekla, z níž měli lidé spatřovat vylézat okřídlené démony, duchy a bezhlavého koně.
+
+Ať už byl skutečný důvod výběru místa jakýkoli, stavitelé umístili hradní kapli přímo nad onu díru a její stěny pokryli gotickými freskami, jaké se nikde jinde v Čechách nedochovaly — postavami s lidskými těly a zvířecími hlavami, zvířecími těly a lidskými hlavami, včetně jediné známé podoby ženského kentaura ve středověkém českém sakrálním umění, jak levou rukou napíná luk — detail, který středověcí diváci vnímali jako znamení ďábla. Když nacisté v roce 1938 obsadili Československo, němečtí vojáci hrad zabrali a podle dobových místních zvěstí prý sami po oné propasti pátrali.
+
+🥚 Velikonoční vajíčko: Onu proslulou bezednou propast dosud nikdo v zaznamenané historii skutečně nenašel. Opravy prováděné během staletí odhalily sklepení, zazděné chodby i falešné podlahy, ale nikdy samotnou trhlinu — což buď znamená, že pověst byla vždy jen příběhem oblečeným do architektury, nebo že sedm set let stavitelů odvedlo opravdu vynikající práci při udržování brány do pekla zavřené.`,
+
+      zh: `勇敢的冒险家，欢迎来到霍乌斯卡城堡（Hrad Houska）！
+
+大多数城堡建造的目的，是为了守卫渡口、商路或边境。而霍乌斯卡城堡什么都不守卫——它坐落在一处岩石高地上，除了一个收集雨水的蓄水池外没有任何水源，没有厨房，窗户是画上去的假窗，附近也没有任何值得守卫的道路。传说中，这恰恰就是建造它的目的：捷克国王普热米斯尔·奥托卡二世据说在1253年至1278年间下令建造此堡，目的不是把敌人挡在外面，而是要把某样东西封在里面——一个位于岩石深处、深不见底的洞穴，当地传说称它直通地狱本身，据说曾有人目睹带翅膀的恶魔、幽灵，甚至一匹无头马从中爬出。
+
+无论选址的真正原因是什么，建造者将城堡礼拜堂直接建在了这个洞口之上，堂内墙壁上绘满了哥特式壁画，其风格在整个波西米亚都独一无二——画中人物有的是人身兽首，有的是兽身人首，其中包括中世纪波西米亚宗教艺术中唯一已知的女性半人马形象：她左手持弓——这一细节在中世纪观者眼中正是恶魔的标志。1938年纳粹占领捷克斯洛伐克后，德军征用了这座城堡，据当时当地的传言，德国士兵还曾亲自寻找过那个传说中的洞穴。
+
+🥚 彩蛋：有记载以来，从没有人真正找到过那个著名的无底洞。数百年间的多次修复工程曾发现地窖、被封堵的通道和假地板，却始终未发现那道裂缝本身——这要么说明这个传说从始至终只是一段被包装成建筑的故事，要么说明七百年来的建造者们，确实出色地完成了把地狱之门牢牢关闭的任务。`,
+    },
+  },
 ];
 
 async function run() {
