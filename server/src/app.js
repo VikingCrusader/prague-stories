@@ -23,6 +23,7 @@ app.use('/api/locations', locationRoutes);
 app.use('/api/checkins',  checkinRoutes);
 app.use('/api/user',      userRoutes);
 
+app.get('/', (_, res) => res.status(200).json({ status: 'ok' }));
 app.get('/api/health', (_, res) => res.status(200).json({ status: 'ok' }));
 
 app.use(notFound);
