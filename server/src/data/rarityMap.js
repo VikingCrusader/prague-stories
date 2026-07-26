@@ -715,6 +715,32 @@ export const SLUG_RARITY = {
   'nymburk':                        'superior', // walled brick-Gothic Elbe town, Bohumil Hrabal's childhood home
   'podebrady':                      'superior', // spa town, birthplace of King George of Poděbrady
   'kolin':                          'superior', // 1757 Battle of Kolín, Parléř-workshop Gothic church, old Jewish quarter
+
+  // ── New additions (2026-07) ──────────────────────────────────────────────
+  'the-famous-log':                 'epic',     // mysterious Google Maps "landmark" above Prague Castle, unverified by anyone
+  'zamek-lochkov':                  'superior', // 1399 manor, namesake of the Lochkovian geological stage
+
+  // ── Berounka valley / Český kras batch (2026-07) ────────────────────────
+  'stredoveky-skanzen-repora':      'epic',     // replica medieval village, closed to public since fires, film-crew use only
+  'chrustenicka-sachta':            'superior', // 1861-1965 iron mine, 84 levels to 426m, museum since 1995
+  'u-tri-habru':                    'common',   // obscure Český kras trail junction, almost undocumented
+  'skanzen-solvayovy-lomy':         'superior', // Solvay limestone quarry since 1918, narrow-gauge museum since 1998
+  'zricenina-hradu-karlik':         'rare',     // Charles IV-era Gothic castle ruin, abandoned by 1422
+  'zamek-dobrichovice':             'superior', // Crusader order chateau, burned and rebuilt at least 3 times
+
+  // ── Nové Město / Vinohrady batch (2026-07) ───────────────────────────────
+  'botanicka-zahrada-prf-uk':       'epic',     // 1775 university garden, survived floods, WWII bombing, oldest Cycas in Europe
+  'pristaviste-u-cechova-mostu':    'common',   // active Vltava boat pier, 1865 Prague Steamship Company
+  'budova-byvale-ceske-polytechniky': 'superior', // Ullmann's 1875 Neo-Renaissance polytechnic, Myslbek sculptures
+  'budova-byvaleho-ck-trestniho-soudu': 'epic', // 1903 courthouse, Omladina trial, executions in the courtyard
+  'divadlo-na-vinohradech':         'superior', // 1907 Art Nouveau theatre, largest drama house in Czech Republic
+
+  // ── Nusle / Vinohrady / Vyšehrad batch (2026-07) ────────────────────────
+  'detska-nemocnice-karlov':        'superior', // 1901-02 state foundling home, outlived its demolished neighbour hospital
+  'vinohradsky-pavilon':            'rare',     // 1903 market hall turned design mall, twin-towered brick landmark
+  'ceskobratrska-cirkev-vinohrady': 'superior', // 1908 Neo-Gothic Czech Brethren church on Korunní
+  'cihelna-brana':                  'rare',     // 1841 Empire-style main gate into Vyšehrad's casemates
+  'altan-grebovka':                 'common',   // 1871-88 vineyard gazebo in Havlíčkovy sady, popular wine-bar terrace
 };
 
 export function getRarity(slug) {

@@ -19758,6 +19758,634 @@ Ať už byl skutečný důvod výběru místa jakýkoli, stavitelé umístili hr
 🥚 彩蛋：有记载以来，从没有人真正找到过那个著名的无底洞。数百年间的多次修复工程曾发现地窖、被封堵的通道和假地板，却始终未发现那道裂缝本身——这要么说明这个传说从始至终只是一段被包装成建筑的故事，要么说明七百年来的建造者们，确实出色地完成了把地狱之门牢牢关闭的任务。`,
     },
   },
+  {
+    name: 'The Famous Log',
+    slug: 'the-famous-log',
+    localizedNames: { cz: 'The Famous Log', zh: '著名圆木' },
+    labels: ['hidden-gem', 'nature'],
+    coordinates: { lat: 50.09529805878221, lng: 14.405286971366802 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to The Famous Log, Prague Castle's most mysterious landmark — and quite possibly its emptiest one. A pin sits on Google Maps somewhere in the gardens above the castle promising a genuine historic log. Remarkably, nobody who has gone looking for it seems to have actually found it.
+
+The pin drops you in Charlotty G. Masarykové Park, just downhill from the castle gates along Na baště sv. Jiří — an unremarkable stretch of grass and trees that Google Maps insists contains an officially catalogued "landmark." What separates this particular log from the hundreds of others scattered across Prague's parks has never been documented. No photograph, no date, no explanation of why this fallen trunk — and not any of its neighbours — earned a pin of its own.
+
+That hasn't stopped the internet's travel-content machine from filling in the silence. Tourism aggregator sites now describe the log as a site that "captures the essence of Prague's rich heritage" and has "witnessed centuries of change" — remarkably confident prose for an object nobody claims to have actually laid eyes on. On one travel forum, a longtime Prague visitor admitted they'd walked past the spot repeatedly and "can't ever recall seeing it," while another wondered aloud whether the whole thing was a hoax built to dupe credulous tourists.
+
+🎁 Bonus: You are now one of a very small number of people who have deliberately set out to find The Famous Log. The internet, so far, has come back empty-handed — good luck being the exception.`,
+
+      cz: `Vítej u The Famous Log, nejzáhadnější — a možná i nejprázdnější — památky pražského Hradu. Na Google Maps se někde v zahradách nad Hradem nachází špendlík slibující skutečnou historickou kládu. Nikdo, kdo ji kdy šel hledat, ji zjevně ještě nenašel.
+
+Špendlík vás zavede do parku Charlotty G. Masarykové, kousek z kopce od hradní brány podél ulice Na baště sv. Jiří — na nenápadný pruh trávy a stromů, o kterém Google Maps tvrdí, že obsahuje oficiálně zaevidovanou „památku". Co přesně odlišuje právě tuto kládu od stovek dalších roztroušených po pražských parcích, nikdy nikdo nezdokumentoval. Žádná fotografie, žádné datování, žádné vysvětlení, proč si špendlík vysloužil zrovna tento spadlý kmen, a ne kterýkoli jiný v okolí.
+
+To ovšem nezabránilo internetovému stroji na cestovatelský obsah, aby to mlčení nezaplnil. Agregátorské weby dnes o kládě píšou, že „zachycuje podstatu bohatého pražského dědictví" a že „byla svědkem staletí proměn" — pozoruhodně sebejisté věty o předmětu, který podle všeho nikdo naživo neviděl. Na jednom cestovatelském fóru přiznal dlouholetý návštěvník Prahy, že tudy chodil opakovaně a „nedokáže si vybavit, že by ji kdy viděl", zatímco jiný uživatel nahlas přemítal, jestli celá věc není jen podvod na důvěřivé turisty.
+
+🎁 Bonus: Právě ses zařadil mezi hrstku lidí, kteří se vydali The Famous Log záměrně hledat. Internetu se to zatím nepovedlo — přej si štěstí, abys byl výjimkou.`,
+
+      zh: `欢迎来到"The Famous Log"（著名圆木）——布拉格城堡最神秘、也可能是最空洞的一处"景点"。Google 地图在城堡上方的某处花园里标出了一个图钉，承诺那里有一根真正具有历史意义的圆木。不可思议的是，凡是专程去找过它的人，似乎都没能真正找到它。
+
+这个地图图钉把你带到夏洛特·加里格·马萨里科娃公园（Charlotty G. Masarykové Park），就在城堡大门顺坡而下、沿着Na baště sv. Jiří街的地方——一片毫不起眼的草地和树林，而 Google 地图坚称这里藏着一处被正式收录的"景点"。这根圆木究竟和散落在布拉格各个公园里的其他几百根木头有什么不同，至今无人说明。没有照片，没有年代，也没人解释过为什么偏偏是这一根倒下的树干——而不是它旁边的任何一根——获得了自己的地图图钉。
+
+这并没有阻止互联网的旅游内容生产机器为这份沉默"填空"。如今各类旅游聚合网站描述这根圆木"凝聚了布拉格丰厚遗产的精髓"，"见证了数个世纪的变迁"——对于一个似乎没人真正亲眼见过的物体，这样的措辞显得格外自信。在一个旅行论坛上，一位常去布拉格的游客坦言自己多次路过那个地点，却"完全想不起见过它"；另一位用户则公开怀疑，这整件事会不会只是一场用来忽悠轻信游客的骗局。
+
+🎁 彩蛋：你现在也加入了极少数专程去寻找"The Famous Log"的人的行列。截至目前，整个互联网都还是空手而归——祝你成为那个例外。`,
+    },
+  },
+  {
+    name: 'Zámek Lochkov',
+    slug: 'zamek-lochkov',
+    localizedNames: { cz: 'Zámek Lochkov', zh: '洛赫科夫城堡' },
+    labels: ['palace', 'historical', 'architecture'],
+    coordinates: { lat: 50.00184454129649, lng: 14.35329417448392 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Lochkov_(z%C3%A1mek)',
+    description: {
+      en: `Welcome to Zámek Lochkov, a modest 19th-century chateau on Prague's southwestern edge that now shares its front yard with a kindergarten. It looks like any small manor house — except its name is stamped onto roughly eight million years of Earth's geological history, whether the toddlers inside know it or not.
+
+The site's documented story begins in 1399, when a manor court belonging to local squires stood here; Bořivoj of Lochkov is recorded living on the property in 1435. Ownership drifted steadily through the centuries — from Prague townspeople to Václav Michna of Vacínov in 1620, then to Rafael Miškovský in 1637. In 1654 the estate was sold to the Zbraslav monastery for 6,000 gold coins, which held it until 1686, when it passed to the Wendlingen family and later the Nováks. Around 1800, owner Ferdinand Delorme opened the first chicory factory in the entire Austrian Empire on the grounds — a genuinely strange claim to fame for a small manor house on the edge of Prague.
+
+The manor was rebuilt into its current small-chateau form during the 19th century, gaining a slender tower, a front balcony, and a chapel dedicated to St. Anne. Between 1808 and 1862 it belonged to Josef Brzorád and his wife Marie, née Delorme, who once hosted Queen Caroline Amalia of Denmark as a guest. Today the chateau belongs to the Prague 16 district: its north wing houses a kindergarten, its west wing a municipal office, and the building itself is closed to the public.
+
+🎁 Bonus: Step outside the chateau gates and you're standing in the namesake locality for a slice of Earth's history — the Lochkovian Stage, the first 8.4 million years of the Devonian Period, roughly 419 to 411 million years ago, is named directly after this village. Somewhere between the kindergarten and the parish office, geologists worldwide agreed this corner of Prague deserved its own line on the geologic time scale.`,
+
+      cz: `Vítej u Zámku Lochkov, skromného zámečku z 19. století na jihozápadním okraji Prahy, který si dnes dvorek dělí se školkou. Vypadá jako kdejaké menší panské sídlo — jenže jeho jméno je vyryté do zhruba osmi milionů let dějin Země, ať už si to děti uvnitř uvědomují, nebo ne.
+
+Doložená historie místa začíná v roce 1399, kdy zde stál zemanský dvůr; v roce 1435 je na panství doložen Bořivoj z Lochkova. Vlastnictví se v dalších staletích plynule měnilo — od pražských měšťanů přes Václava Michnu z Vacínova roku 1620 až po Rafaela Miškovského roku 1637. V roce 1654 bylo panství prodáno zbraslavskému klášteru za 6 000 zlatých, který ho držel až do roku 1686, kdy přešlo na rodinu Wendlingenů a později Novákových. Kolem roku 1800 zde majitel Ferdinand Delorme založil první čekankovou továrnu v celém Rakouském císařství — vskutku neobvyklý titul slávy pro malé panské sídlo na okraji Prahy.
+
+Do dnešní podoby malého zámku byla budova přestavěna v průběhu 19. století, kdy získala štíhlou věžičku, balkon v průčelí a kapli zasvěcenou svaté Anně. V letech 1808 až 1862 patřila Josefu Brzorádovi a jeho ženě Marii, rozené Delormeové, kteří zde jako hosta přivítali i dánskou královnu Karolínu Amálii. Dnes zámek patří městské části Praha 16: v severním křídle sídlí mateřská škola, v západním křídle úřad městské části a samotná budova není veřejnosti přístupná.
+
+🎁 Bonus: Stačí vyjít ze zámecké brány a stojíš v lokalitě, po které je pojmenován celý úsek dějin Země — lochkovské stupně, prvních 8,4 milionu let devonského období, zhruba před 419 až 411 miliony let. Někde mezi školkou a úřadem městské části se geologové z celého světa shodli, že si tenhle kousek Prahy zaslouží vlastní řádek v geologické časové škále.`,
+
+      zh: `欢迎来到洛赫科夫城堡（Zámek Lochkov），布拉格西南边缘一座不起眼的19世纪小城堡，如今前院还与一所幼儿园共用。它看起来就像随便一座小庄园宅邸——只不过它的名字，被刻进了地球大约八百万年的地质历史里，无论里面的孩子们是否知道这一点。
+
+这处宅邸有记载的历史始于1399年，当时这里是一座属于当地乡绅的庄园宅院；1435年的记录显示，博日沃伊·兹·洛赫科瓦（Bořivoj z Lochkova）曾在此居住。此后数百年间，产权几经辗转——先是布拉格市民，1620年归瓦茨拉夫·米赫纳·兹·瓦齐诺瓦（Václav Michna z Vacínova）所有，1637年又转给拉法埃尔·米什科夫斯基（Rafael Miškovský）。1654年，庄园以6000枚金币的价格卖给兹布拉斯拉夫修道院（Zbraslav），该修道院一直持有到1686年，之后转手给文德林根（Wendlingen）家族，再后来又归诺瓦克（Novák）家族所有。大约1800年，业主费迪南德·德洛尔姆（Ferdinand Delorme）在这里开设了整个奥地利帝国第一家菊苣加工厂——对于布拉格边缘的一座小庄园来说，这实在是个相当奇特的"成名之作"。
+
+这座宅邸在19世纪被改建成如今这座小城堡的样子，增建了一座细高的塔楼、正面的阳台，以及一座供奉圣安妮的礼拜堂。1808年至1862年间，城堡属于约瑟夫·布尔佐拉德（Josef Brzorád）和他的妻子、娘家姓德洛尔姆的玛丽（Marie）所有，夫妇二人还曾在此接待过丹麦王后卡罗琳·阿玛莉（Caroline Amalia）。如今，城堡归布拉格16区所有：北翼是一所幼儿园，西翼是区政府办公室，建筑本身不对公众开放。
+
+🎁 彩蛋：只要走出城堡大门，你脚下这片土地正是地球历史某一整段时期的命名来源——洛赫科夫期（Lochkovian Stage），泥盆纪最早的840万年，大约在4.19亿至4.11亿年前。就在幼儿园和区政府办公室之间的某个地方，全世界的地质学家一致认定，布拉格的这个角落值得在地质年代表上拥有属于自己的一行。`,
+    },
+  },
+
+  // ── Berounka valley / Český kras batch (2026-07) ─────────────────────────
+  {
+    name: 'Řepora Medieval Open-Air Museum',
+    slug: 'stredoveky-skanzen-repora',
+    localizedNames: { cz: 'Středověký skanzen Řepora', zh: '雷波拉中世纪露天博物馆' },
+    labels: ['historical', 'ruin', 'village-and-town'],
+    coordinates: { lat: 50.040943929752096, lng: 14.306997186758007 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Skanzen_%C5%98epora',
+    description: {
+      en: `Welcome to the Medieval Open-Air Museum Řepora, a fake 14th-century village built inside a real 21st-century Prague neighborhood — and if the gate looks chained shut, that's because it is. This is one check-in where "look but don't touch" is enforced by an actual padlock.
+
+Built from 1999 by the Tuležim company on the site of a former clay quarry, Řepora reconstructed six full farmsteads, a church, a covered marketplace, a well, stocks, and palisade walls around a moated square — all using only tools and materials period-accurate to the 14th and 15th centuries. It opened to visitors in 2002 and for over a decade functioned as exactly what it looked like: a walkable medieval village a short metro ride from downtown Prague.
+
+Then the fires started. Blazes in 2003, 2004, 2019, and 2020 tore through the wood-and-thatch buildings one by one — a smithy, a granary, a potter's house, whole rows of cottages — until the site was closed to the public entirely and has stayed that way since, its burnt shells left standing behind a locked fence, visited now mostly by film crews rather than tourists.
+
+🎁 Bonus: The one group still allowed inside occasionally isn't tourists at all — it's location scouts. A pre-built medieval village nobody has to dress or construct from scratch is apparently too useful a set piece for Czech film and TV productions to pass up, even mid-decay.`,
+
+      cz: `Vítej u Středověkého skanzenu Řepora, falešné vesnice ze 14. století postavené uprostřed skutečné pražské čtvrti 21. století — a pokud ti připadá, že je brána zamčená na řetěz, je to proto, že skutečně je. Tohle je jeden z mála check-inů, kde „dívej se, ale nesahej" hlídá opravdový visací zámek.
+
+Skanzen od roku 1999 budovala společnost Tuležim na místě bývalé jílovny a vzniklo tu šest kompletních usedlostí, kostel, krytá tržnice, studna, pranýř a palisádové hradby kolem vodním příkopem obtékaného náměstí — vše postaveno výhradně nástroji a materiály odpovídajícími 14. a 15. století. Pro veřejnost se otevřel v roce 2002 a přes deset let fungoval přesně tak, jak vypadal: jako středověká vesnice, do které se dostaneš pár zastávek metrem z centra Prahy.
+
+Pak přišly požáry. Šarvátky ohně v letech 2003, 2004, 2019 a 2020 postupně strávily dřevěné a doškové stavby jednu po druhé — kovárnu, sýpku, hrnčířské stavení, celé řady chalup — až byl areál pro veřejnost úplně uzavřen a zůstává tak dodnes, se svými ohořelými kostrami stojícími za zamčeným plotem, kam dnes míří spíš filmové štáby než turisté.
+
+🎁 Bonus: Jediní, koho sem občas ještě pustí, nejsou turisté, ale scénáři a filmaři hledající lokace. Předpřipravená středověká vesnice, kterou nemusí nikdo stavět ani zdobit od nuly, je pro české filmové a televizní produkce zjevně příliš užitečná kulisa na to, aby ji přehlédly — i uprostřed chátrání.`,
+
+      zh: `欢迎来到雷波拉中世纪露天博物馆（Skanzen Řepora）——一座建在21世纪布拉格真实城区里的假14世纪村庄。如果你发现大门被链子锁着，那是因为它真的被锁着：这大概是少数几个"只能看、不能摸"由真正挂锁执行的打卡点。
+
+这座露天博物馆自1999年起由Tuležim公司在一处废弃的粘土矿场上建造，重建出六座完整的农庄、一座教堂、一座带顶棚的市场、一口水井、一座枷刑台，以及环绕护城河广场的木栅栏城墙——所有建筑仅使用14至15世纪的工具与材料建造而成。它于2002年对公众开放，此后十多年间，它的功能与外观完全一致：一座乘地铁离布拉格市中心不远、可以真正走进去的中世纪村庄。
+
+然后火灾接连而至。2003年、2004年、2019年和2020年的几场大火，把这些木结构、茅草顶的建筑一栋接一栋烧毁——铁匠铺、谷仓、陶匠的房子，整排的农舍——直到整个园区被彻底对公众关闭，此后一直如此：烧毁的建筑外壳仍矗立在上锁的围栏之后，如今造访者多是摄制组，而非游客。
+
+🎁 彩蛋：如今偶尔还能获准进入的，根本不是游客，而是选景人员。一座无需从零搭建或布置的现成中世纪村庄，对捷克的影视制作来说显然是块难以割舍的场景——哪怕它正在慢慢败落。`,
+    },
+  },
+  {
+    name: 'Chrustenice Mine Exposition',
+    slug: 'chrustenicka-sachta',
+    localizedNames: { cz: 'Důlní expozice Chrustenická šachta', zh: '赫鲁斯捷尼采矿井博物馆' },
+    labels: ['museum', 'historical'],
+    coordinates: { lat: 50.00430311780366, lng: 14.165170631406308 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Chrustenick%C3%A1_%C5%A1achta',
+    description: {
+      en: `Welcome to the Chrustenice Mine Exposition, where you can ride a genuine mine train 600 meters into a mountain that used to be one of Bohemia's biggest iron mines — no hard hat required, just a willingness to duck.
+
+Iron ore mining here began in 1861 and went full-scale deep underground from 1908, with the Prague Iron Company pulling siderite and chamosite ore — up to 40% pure iron — out of 84 separate underground levels reaching 426 meters down, well below sea level. At its 1929 peak the mine produced 281,000 tons of ore in a single year; by the time it closed for good on 23 June 1965, nearly 7.8 million tons had come out of the ground, hauled up two specially built inclined shafts stretching almost a kilometer underground.
+
+The mine sat flooded and forgotten for three decades until a preservation society reopened part of it as a museum in 1995. Today roughly 600 meters of the old 8th level are accessible, complete with narrow-gauge rails, a former stable for the mine's horses, engine rooms, and an underground rest area — most of it toured aboard the same kind of "Pullman" mine cars the miners themselves once rode to work.
+
+🎁 Bonus: The D5 motorway to Plzeň now runs almost directly overhead, and its construction actually flooded large sections of the historic mine — meaning the highway you might have driven in on is partly responsible for how little of Chrustenice you get to see today.`,
+
+      cz: `Vítej u Důlní expozice Chrustenická šachta, kde se svezeš opravdovým důlním vláčkem 600 metrů do hory, která bývala jedním z největších českých ložisek železné rudy — bez přilby se sice obejdeš, ale bez sehnutí ne.
+
+Těžba železné rudy tu začala už v roce 1861 a od roku 1908 přešla do plné hlubinné podoby, kdy Pražská železářská společnost dobývala siderit a chamosit s obsahem železa až 40 % z 84 samostatných pater dosahujících hloubky 426 metrů, tedy hluboko pod úrovní moře. Ve svém vrcholu roku 1929 vytěžil důl 281 000 tun rudy za jediný rok; než definitivně skončil 23. června 1965, vynesl na povrch téměř 7,8 milionu tun horniny, vytaženou dvěma speciálně vybudovanými skloněnými šachtami táhnoucími se skoro kilometr do podzemí.
+
+Důl pak tři desetiletí ležel zatopený a zapomenutý, dokud jej v roce 1995 spolek nadšenců částečně znovu neotevřel jako expozici. Dnes je přístupných zhruba 600 metrů bývalého 8. patra, s úzkokolejnými kolejemi, bývalou stájí pro důlní koně, strojovnami a podzemním odpočívadlem — většinu prohlídky přitom absolvuješ ve stejných „pullmanech", jakými se kdysi do práce vozili sami horníci.
+
+🎁 Bonus: Dálnice D5 na Plzeň dnes vede skoro přímo nad šachtou a její výstavba ve skutečnosti zatopila velké části historického dolu — takže dálnice, po které jsi sem možná přijel, nese svůj díl viny na tom, jak málo z Chrustenické šachty dnes vlastně uvidíš.`,
+
+      zh: `欢迎来到赫鲁斯捷尼采矿井博物馆（Chrustenická šachta）——在这里，你可以乘坐一列真正的矿用小火车，深入一座曾是波希米亚最大铁矿之一的山体，一路驶进600米——不需要安全帽，但你得会低头。
+
+这里的铁矿开采始于1861年，1908年起转入全面井下开采，布拉格钢铁公司在此开采菱铁矿与鲕绿泥石矿，含铁量最高达40%，矿井共分84个独立的地下巷道层，最深达到426米，远在海平面以下。1929年产量达到顶峰，单年产出铁矿石28.1万吨；直到1965年6月23日彻底停产为止，这里总共采出近780万吨矿石，靠两条专门修建、深入地下近一公里的斜井运送出井。
+
+此后矿井被淹没、遗忘了三十年，直到1995年一个保护协会重新开放了其中一部分，改建成如今的矿井博物馆。今天游客可以参观旧第8层约600米的巷道，沿途保留着窄轨铁轨、当年矿用马匹的马厩、机房和地下休息区——大部分行程都乘坐着与当年矿工上下班时同款的"普尔曼"矿车。
+
+🎁 彩蛋：如今通往皮尔森的D5高速公路几乎就正好从矿井正上方经过，而它的修建工程实际上淹没了这座历史矿井的大片区域——也就是说，你开车驶来时经过的那条高速公路，某种程度上正是今天赫鲁斯捷尼采矿井能参观的部分如此有限的原因之一。`,
+    },
+  },
+  {
+    name: 'U Tří Habrů',
+    slug: 'u-tri-habru',
+    localizedNames: { cz: 'U Tří Habrů', zh: '三棵鹅耳枥' },
+    labels: ['hidden-gem', 'nature'],
+    coordinates: { lat: 49.99407795380414, lng: 14.17961374071371 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to U Tří Habrů, a quiet trail junction deep in the Bohemian Karst that has almost nothing written about it online — which is either the most honest possible name for a spot in the woods, or the world's most understated place-name mystery.
+
+Czech place names have an old habit of marking a trail junction, hilltop, or forest clearing after whatever trees happened to be standing there when someone first needed to give directions, and this crossing follows exactly that pattern — the kind of landmark a local forester, not a marketing department, would come up with. It sits roughly midway between the Chrustenická šachta iron mine and the old Solvay limestone quarries, along the network of marked trails that cut through the Český kras Protected Landscape Area — one of Bohemia's oldest and largest karst regions, its slopes still thick with the same kind of woodland that presumably gave this junction its name centuries ago.
+
+🎁 Bonus: Search online and you'll mostly find nothing about this spot — no plaque, no tourist blurb, no photo essay. If you're reading this while standing there, you may genuinely know more about the place than the internet does.`,
+
+      cz: `Vítej u „U Tří Habrů" — tichého rozcestí hluboko v Českém krasu, o kterém na internetu nenajdeš skoro nic, což je buď nejupřímnější možné jméno pro místo uprostřed lesa, nebo nejnenápadnější toponymická záhada v zemi.
+
+Česká místní jména mají starý zvyk pojmenovávat rozcestí, kopec nebo lesní mýtinu podle stromů, které tam zrovna rostly, když bylo potřeba někomu poprvé popsat cestu, a tohle rozcestí se drží přesně téhle logiky — je to přesně ten typ orientačního bodu, se kterým přijde místní hajný, ne marketingové oddělení. Leží zhruba na půli cesty mezi Chrustenickou šachtou a starými Solvayovými vápencovými lomy, na síti značených cest, které protínají CHKO Český kras — jednu z nejstarších a největších krasových oblastí v Čechách, jejíž svahy dodnes pokrývají husté lesy, po nichž toto rozcestí zřejmě před staletími dostalo jméno.
+
+🎁 Bonus: Zkus si tohle místo vyhledat na internetu a najdeš vlastně skoro nic — žádnou tabuli, žádný turistický popisek, žádnou fotoreportáž. Pokud tohle čteš přímo na místě, možná o něm doopravdy víš víc než celý internet.`,
+
+      zh: `欢迎来到U Tří Habrů——捷克喀斯特地区深处一处安静的步道岔口，网络上几乎找不到关于它的任何资料。这要么是森林里一个地名能有的最诚实的名字，要么就是这个国家最低调的地名之谜。
+
+捷克的地名素来有个老习惯：以某处恰好长着的树木，为路口、山头或林间空地命名——这处岔路口正是遵循了这样的传统，是那种由当地护林员随口起出、而非出自营销部门之手的地标名字。它大致位于赫鲁斯捷尼采矿井（Chrustenická šachta）与旧索尔维石灰岩采石场之间，坐落在穿越捷克喀斯特保护景观区（CHKO Český kras）的标记步道网络之中——这是波希米亚最古老、最大的喀斯特地区之一，山坡上至今仍林木茂密，这处路口的名字大概正是数百年前由此而来。
+
+🎁 彩蛋：在网上搜索这个地方，你多半会一无所获——没有铭牌，没有旅游简介，也没有图文游记。如果你正站在这里读到这段文字，那你对这个地方的了解，或许真的已经超过了整个互联网。`,
+    },
+  },
+  {
+    name: 'Solvay Quarries Open-Air Museum',
+    slug: 'skanzen-solvayovy-lomy',
+    localizedNames: { cz: 'Skanzen Solvayovy lomy', zh: '索尔维采石场露天博物馆' },
+    labels: ['museum', 'historical'],
+    coordinates: { lat: 49.97652075007121, lng: 14.148287781784953 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Solvayovy_lomy',
+    description: {
+      en: `Welcome to the Solvay Quarries Open-Air Museum, where a Belgian chemical company's century-old limestone pit has been turned into a playground of narrow-gauge trains, rusty machinery, and roughly 150 vintage vehicles — proof that even industrial leftovers can become a proper museum if you wait long enough.
+
+The Belgian firm Solvay came to Bohemia in 1904 to supply its soda-ash factory in Ústí nad Labem, and after years of buying limestone piecemeal, decided in 1917 to just quarry it themselves — surveying the hills above Svatý Jan pod Skalou, buying the land for 50,000 crowns, and breaking ground on 27 June 1918. A 1.5-kilometer aerial ropeway hauled the stone down to the railway at Loděnice, while an on-site narrow-gauge network — hand-pushed at first, then locomotive-hauled from 1930 — moved rock between pits. A second quarry, opened later and linked by a 217-meter tunnel, kept the operation running through the Second World War.
+
+Solvay pulled out in 1956, though Prague's roads authority kept extracting stone by truck until 1964. The site then sat abandoned for nearly three decades until 1993, when a group of friends who shared an obsession with old machinery founded the Barbora Society and began digging the quarry railway back out of the undergrowth by hand. It opened to the public in 1998 and now holds one of the country's largest collections of narrow-gauge mining equipment on its original ground.
+
+🎁 Bonus: The ropeway that once hauled stone down to Loděnice ran for nearly 50 years, was rebuilt once in 1932 and converted for truck-loading in 1959 — outliving the quarry it served by almost a decade before finally shutting down in 1965.`,
+
+      cz: `Vítej u Skanzenu Solvayovy lomy, kde se ze stoleté vápencové jámy belgické chemické firmy stalo hřiště plné úzkokolejných vláčků, rezavějících strojů a asi 150 historických vozidel — důkaz, že i průmyslový pozůstatek se časem může proměnit v pořádné muzeum, když se počká dost dlouho.
+
+Belgická firma Solvay přišla do Čech v roce 1904, aby zásobovala svou továrnu na sodu v Ústí nad Labem, a poté co léta nakupovala vápenec po kouskách, rozhodla se v roce 1917 těžit si vlastní — vytipovala kopce nad Svatým Janem pod Skalou, koupila pozemek za 50 000 korun a 27. června 1918 zahájila těžbu. Lanovka dlouhá 1,5 kilometru svážela kámen dolů k železnici v Loděnici, zatímco síť úzkokolejek v lomu — zprvu ručně tlačená, od roku 1930 tažená lokomotivou — přemisťovala horninu mezi jámami. Druhý lom, otevřený později a propojený 217metrovým tunelem, udržel provoz v chodu i během druhé světové války.
+
+Solvay z těžby odešla v roce 1956, přesto Pražská správa silnic v těžbě pokračovala nákladními auty až do roku 1964. Areál pak téměř tři desetiletí ležel opuštěný, dokud v roce 1993 parta kamarádů se společnou vášní pro staré stroje nezaložila Společnost Barbora a nezačala vlastníma rukama vyhrabávat lomovou dráhu z náletové zeleně. Pro veřejnost se otevřel v roce 1998 a dnes na svém původním místě uchovává jednu z největších sbírek úzkorozchodné důlní techniky v zemi.
+
+🎁 Bonus: Lanovka, která kdysi svážela kámen dolů do Loděnice, jezdila skoro 50 let, v roce 1932 prošla přestavbou a v roce 1959 byla upravena pro nakládku na náklaďáky — lom, kterému sloužila, tak přežila o skoro deset let, než v roce 1965 definitivně skončila.`,
+
+      zh: `欢迎来到索尔维采石场露天博物馆（Skanzen Solvayovy lomy）——一座比利时化工企业留下的百年石灰岩采石坑，如今变成了一片窄轨小火车、锈迹斑斑的机械设备，以及约150辆古董车辆的游乐场——证明只要等得够久，就连工业遗留物也能变成一座正经的博物馆。
+
+比利时索尔维公司于1904年来到波希米亚，为其位于捷克乌斯季（Ústí nad Labem）的纯碱工厂供应原料；多年零散采购石灰岩之后，公司在1917年决定自己开采——在圣扬佩德斯卡洛（Svatý Jan pod Skalou）上方的山丘进行勘探，以5万克朗买下土地，并于1918年6月27日正式动工。一条长1.5公里的架空索道将石料运送到洛杰尼采（Loděnice）的铁路，而采石场内的窄轨铁路网——起初靠人力推动，1930年起改由机车牵引——则负责在各采石坑之间转运岩石。后来开辟的第二个采石坑通过一条217米长的隧道与主坑相连，使开采作业得以持续到第二次世界大战期间。
+
+索尔维公司于1956年撤出，但布拉格道路管理局用卡车继续开采，一直持续到1964年。此后场地荒废了近三十年，直到1993年，一群对老式机械有着共同热情的朋友成立了芭芭拉协会（Společnost Barbora），亲手把被灌木丛掩埋的采石铁路重新挖掘出来。该地于1998年对公众开放，如今在原址保存着捷克境内规模最大的窄轨矿业设备收藏之一。
+
+🎁 彩蛋：当年把石料运往洛杰尼采的那条索道，运行了将近50年，1932年经过一次重建，1959年又改造成可为卡车装料——比它所服务的采石场足足多"活"了近十年，直到1965年才最终停运。`,
+    },
+  },
+  {
+    name: 'Karlík Castle Ruins',
+    slug: 'zricenina-hradu-karlik',
+    localizedNames: { cz: 'Zřícenina hradu Karlík', zh: '卡尔利克城堡遗址' },
+    labels: ['ruin', 'historical'],
+    coordinates: { lat: 49.94458340331533, lng: 14.254999543940329 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Karl%C3%ADk_(hrad)',
+    description: {
+      en: `Welcome to the ruins of Karlík Castle, a small Gothic fortress on a promontory above the Karlické valley that may or may not have been built for a queen — nobody wrote down why it was there, so nobody's really sure.
+
+Historical sources on Karlík are almost suspiciously thin. The 16th-century chronicler Václav Hájek of Libočany claimed Emperor Charles IV built it as a residence for the empress and her court, since women were supposedly barred from staying overnight at nearby Karlštejn Castle — a colorful story that later historians have mostly debunked, pointing out Charles IV's restrictions applied only to the Great Tower and its relics, not the whole fortress. The only genuinely reliable written record dates to 1400, when King Václav IV pledged the castle to a private owner; some historians instead connect its construction to an old long-distance route running from Prague toward Dobříš, making it a waypoint fortress rather than a royal love nest.
+
+Whatever its real purpose, Karlík didn't last long. It's recorded as conquered and abandoned by 1422, and by the 16th century only its name survived, attached to a nearby mill. Today the promontory carries little more than fragments of perimeter walls and a dug neck-ditch with an earthen rampart — protected as a cultural monument, sitting inside the Karlické údolí nature reserve, and free to walk through any time.
+
+🎁 Bonus: If the legend is fiction, someone forgot to tell the tourist brochures — the "banished queen" story still gets repeated on hiking-trail signs and local history pages more often than the far duller, better-documented explanation involving a 1400 pawnbroking deal.`,
+
+      cz: `Vítej u zříceniny hradu Karlík, malé gotické pevnosti na ostrohu nad Karlickým údolím, o níž se možná — a možná ne — pečovalo kvůli královně. Nikdo si totiž nezapsal, proč tu vlastně stála, takže si tím dnes není jistý vůbec nikdo.
+
+Historické prameny o Karlíku jsou podezřele skoupé. Kronikář Václav Hájek z Libočan v 16. století tvrdil, že jej Karel IV. nechal postavit jako sídlo pro císařovnu a její dvůr, protože ženy prý nesměly přenocovat na nedalekém Karlštejně — barvitý příběh, který pozdější historici z velké části vyvrátili s tím, že se Karlova omezení týkala jen Velké věže s ostatky, ne celé pevnosti. Jediný skutečně spolehlivý písemný záznam pochází z roku 1400, kdy král Václav IV. hrad zastavil soukromému majiteli; jiní historici naopak spojují jeho vznik se starou dálkovou cestou vedoucí z Prahy směrem na Dobříš, což by z něj dělalo spíš strážní pevnost než královské útočiště pro milenky.
+
+Ať už byl skutečný účel jakýkoli, Karlík dlouho nevydržel. K roku 1422 je doložen jako dobytý a opuštěný a v 16. století po něm zbylo už jen jméno, které přešlo na nedaleký mlýn. Dnes na ostrohu najdeš už jen zbytky obvodových zdí a vykopaný šíjový příkop s valem — místo je chráněno jako kulturní památka a leží uvnitř přírodní rezervace Karlické údolí, volně přístupné kdykoliv.
+
+🎁 Bonus: Pokud je legenda smyšlená, nikdo to zapomněl říct turistickým letáčkům — příběh o „vyhnané královně" se na turistických cedulích a místních webech o historii opakuje dodnes mnohem častěji než ta mnohem nudnější, ale lépe doložená verze o zástavní smlouvě z roku 1400.`,
+
+      zh: `欢迎来到卡尔利克城堡遗址（Karlík）——一座坐落在卡尔利采山谷（Karlické údolí）之上、岬角地形上的小型哥特式要塞。它究竟是不是为一位王后而建，至今没人能说清楚，因为根本没有人留下记载。
+
+关于卡尔利克的史料少得可疑。16世纪的编年史家瓦茨拉夫·哈耶克·兹·利博昌（Václav Hájek z Libočan）曾声称，查理四世皇帝下令建造此堡，是为了让皇后与其随从居住，因为据说女性不得在附近的卡尔什特茵城堡（Karlštejn）过夜——这个绘声绘色的故事后来大多被历史学家推翻，他们指出查理四世的相关限制其实只针对存放圣物的大塔，而非整座城堡。唯一真正可靠的文字记载来自1400年，当时国王瓦茨拉夫四世将该城堡抵押给了一位私人业主；另有历史学家则认为，它的兴建与一条从布拉格通往多布日什（Dobříš）的古老长途要道有关，这样一来，它更像是一座途中要塞，而非专为王后打造的爱巢。
+
+无论其真实用途为何，卡尔利克城堡都没能存在太久。史料记载显示，它在1422年被攻陷并遭废弃；到16世纪，关于它的一切几乎只剩下名字，被留给了附近的一座磨坊。如今，岬角上只剩下断续的城墙残迹，以及一道挖掘出的颈壕与土垒——该地作为文化古迹受到保护，位于卡尔利采山谷自然保护区内，任何时候都可自由步行前往。
+
+🎁 彩蛋：就算这个传说纯属虚构，似乎也没人告诉过那些旅游手册——"被流放的王后"这个故事，如今仍比那个远没那么精彩、却有据可查得多的1400年抵押交易版本，更频繁地出现在徒步指示牌和地方历史网站上。`,
+    },
+  },
+  {
+    name: 'Dobřichovice Chateau',
+    slug: 'zamek-dobrichovice',
+    localizedNames: { cz: 'Zámek Dobřichovice', zh: '多布日霍维采城堡' },
+    labels: ['palace', 'historical', 'architecture'],
+    coordinates: { lat: 49.92592216109166, lng: 14.274498764853412 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Dob%C5%99ichovice_(z%C3%A1mek)',
+    description: {
+      en: `Welcome to Dobřichovice Chateau, a late-Baroque manor on the Berounka river that has burned down at least twice and been rebuilt every single time — making it either remarkably unlucky or remarkably stubborn, depending on how you look at it.
+
+King Václav I gave Dobřichovice to the Order of the Crusaders with the Red Star in 1253, though the order lost it during the Hussite Wars and only regained it for good in 1505. Grand Master Hynek Berka of Dubá then had a Renaissance summer residence built on the site of the older fortified manor, giving the order a proper country retreat outside Prague. That didn't stop the trouble: Swedish troops burned the place down during the Thirty Years' War in 1639, a 1659 fire wrecked much of it again, and after rebuilding and a new chapel in 1676, an even bigger fire in 1779 forced a full reconstruction — the one that finally gave the chateau its current late-Baroque look and its tower.
+
+The Crusaders held onto Dobřichovice until the Communist takeover in 1948, after which it served as not much more than a state-farm storage building for decades. It was returned to the order in 1994 in a badly deteriorated state, restored over the following decade, and since 2004 has been leased long-term to the town of Dobřichovice as a cultural and community center — its Renaissance sgraffito and Baroque statue of St. John of Nepomuk finally getting to be looked at again instead of just stored around.
+
+🎁 Bonus: Count the fires and you get at least three serious blazes across roughly 250 years — Swedish troops in 1639, an accidental fire in 1659, and another in 1779 — meaning the chateau standing here today is really the fourth or fifth version of itself, just wearing its Baroque face.`,
+
+      cz: `Vítej u Zámku Dobřichovice, pozdně barokního sídla na řece Berounce, které za svou historii vyhořelo minimálně dvakrát a pokaždé bylo znovu postaveno — což z něj dělá buď mimořádně smolařské, nebo mimořádně tvrdohlavé místo, záleží na úhlu pohledu.
+
+Král Václav I. daroval Dobřichovice řádu Křižovníků s červenou hvězdou v roce 1253, řád je však v husitských válkách ztratil a natrvalo je získal zpět až v roce 1505. Velmistr Hynek Berka z Dubé pak na místě starší tvrze nechal postavit renesanční letní sídlo, čímž řád konečně získal pořádné venkovské útočiště kousek od Prahy. Potíže tím ale neskončily: švédská vojska sídlo v roce 1639 během třicetileté války vypálila, požár z roku 1659 zpustošil velkou část budovy znovu, a poté co byl zámek opraven a v roce 1676 přibyla kaple, přišel v roce 1779 ještě ničivější požár, který si vynutil úplnou přestavbu — právě tu, díky které zámek dostal svou dnešní pozdně barokní podobu a věž.
+
+Křižovníci si Dobřichovice udrželi až do komunistického převratu v roce 1948, po němž budova desítky let sloužila v podstatě jen jako skladiště státního statku. Zpět řádu byl vrácen v roce 1994 ve velmi zchátralém stavu, během následující dekády prošel opravou a od roku 2004 jej dlouhodobě pronajímá město Dobřichovice, kde dnes slouží jako kulturní a společenské centrum — renesanční sgrafita i barokní socha svatého Jana Nepomuckého se tak konečně dočkaly toho, že se na ně zase někdo dívá, místo aby jen chátraly.
+
+🎁 Bonus: Když spočítáš požáry, vyjdou ti za zhruba 250 let minimálně tři vážné — švédská vojska v roce 1639, náhodný požár v roce 1659 a další v roce 1779 — takže zámek, který tu dnes stojí, je vlastně už čtvrtou nebo pátou verzí sebe sama, jen v barokním kabátě.`,
+
+      zh: `欢迎来到多布日霍维采城堡（Zámek Dobřichovice）——一座坐落在贝劳恩卡河（Berounka）畔的晚期巴洛克庄园，历史上至少遭遇过两次大火，却每一次都被重建了起来——这究竟算是格外倒霉，还是格外顽强，就见仁见智了。
+
+1253年，国王瓦茨拉夫一世将多布日霍维采赐予红星十字骑士团，但该修会在胡斯战争期间失去了这片土地，直到1505年才彻底夺回。此后，团长希内克·贝尔卡·兹·杜贝（Hynek Berka z Dubé）在原有防御性庄园的旧址上，建起了一座文艺复兴风格的夏日居所，让修会终于在布拉格城外拥有了一处像样的乡间静养地。然而麻烦并未就此结束：1639年三十年战争期间，瑞典军队将这里付之一炬；1659年的一场大火又再次摧毁了建筑的大部分；重建并于1676年增建礼拜堂之后，1779年一场更猛烈的大火再次迫使全面重建——正是这次重建，最终赋予了城堡如今这副晚期巴洛克风格的模样，以及那座塔楼。
+
+十字骑士团一直持有多布日霍维采，直到1948年共产党上台，此后数十年间，这座建筑基本上只被当作国营农场的仓库使用。1994年，修会重新收回这座已严重破败的城堡，在接下来的十年间对其进行了修复；自2004年起，多布日霍维采镇长期租用此地，将其用作文化与社区活动中心——文艺复兴风格的灰泥浮雕装饰与巴洛克风格的圣约翰内波穆克雕像，终于不再只是被闲置封存，而是重新有人驻足观看。
+
+🎁 彩蛋：算一算火灾次数，大约250年间至少发生过三次严重的大火——1639年的瑞典军队纵火、1659年的一场意外火灾，以及1779年的再一次——也就是说，如今矗立在这里的城堡，其实已经是它自己的第四或第五个版本，只不过穿着一身巴洛克的外衣。`,
+    },
+  },
+  {
+    name: 'Botanical Garden of Charles University',
+    slug: 'botanicka-zahrada-prf-uk',
+    localizedNames: { cz: 'Botanická zahrada Přírodovědecké fakulty UK', zh: '查理大学理学院植物园' },
+    labels: ['park', 'academy', 'historical'],
+    coordinates: { lat: 50.07135835034821, lng: 14.421538410576417 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Botanick%C3%A1_zahrada_Univerzity_Karlovy',
+    description: {
+      en: `Welcome to the Botanical Garden of Charles University, a 3.5-hectare hillside plot in Nové Město that has survived floods, wars, and one truly stubborn river for 250 years — making it either the university's most patient department or the one with the worst possible real estate luck, depending on how you look at it.
+
+The garden was founded in 1775 by botanist and physician Josef Bohumír Mikan, on a plot near the Dienzenhofer Gardens in Smíchov — and for over a century it was considered the finest botanical garden north of the Alps, eventually growing to 13,000 species under 19th-century director Vincenc Kosteletzký. The trouble was the location: this was one of the lowest points along the Vltava, and the river kept reminding everyone. Major floods hit in 1784, in 1824 — when staff waded in water up to their necks trying to save the plant collection — and finally, catastrophically, in 1890, which settled the question of whether the garden should stay by the river once and for all.
+
+The garden reopened at its current Nové Město address, on the slope known as Slupská stráň, on 23 October 1898, complete with a long orchid greenhouse. Because Prague's university had split into separate Czech and German institutions in 1882, two adjacent gardens operated side by side here for decades — until a bombing raid on 14 February 1945 destroyed the German section's greenhouses, and the postwar reunification handed the whole plot back to Charles University. Since 1978 it has run as an independent institution of the Faculty of Science, drawing around 100,000 visitors a year to see its cacti, South African succulents, and one of the world's largest collections of Oxalis.
+
+🎁 Bonus: When the garden moved from Smíchov to Slupy in 1898, its oldest residents made the trip too — including a Cycas indica now believed to be the oldest specimen of its kind in Europe, meaning some of the plants here have technically outlived every building around them, the original garden site, and quite possibly the flood that forced the move in the first place.`,
+
+      cz: `Vítej v Botanické zahradě Univerzity Karlovy, 3,5hektarovém svahu v Novém Městě, který přežil povodně, války a jednu opravdu tvrdohlavou řeku už 250 let — což z něj dělá buď nejtrpělivější katedru celé univerzity, nebo tu s vůbec nejhorší polohou, záleží na úhlu pohledu.
+
+Zahradu založil roku 1775 botanik a lékař Josef Bohumír Mikan na pozemku poblíž Dientzenhoferových sadů na Smíchově — a přes sto let platila za nejvýznamnější botanickou zahradu severně od Alp, když se v 19. století pod vedením ředitele Vincence Kosteleckého rozrostla až na 13 000 druhů. Problém byl v poloze: šlo o jedno z nejníže položených míst podél Vltavy a řeka to ráda připomínala. Velké povodně přišly v roce 1784, v roce 1824 — kdy se zaměstnanci brodili vodou až po krk, aby zachránili sbírku rostlin — a nakonec, zcela zničující, i v roce 1890, což jednou provždy rozhodlo otázku, zda má zahrada zůstat u řeky.
+
+Na dnešní adrese v Novém Městě, na svahu zvaném Slupská stráň, byla zahrada slavnostně otevřena 23. října 1898, včetně dlouhého skleníku pro orchideje. Protože se pražská univerzita v roce 1882 rozdělila na českou a německou část, fungovaly tu desítky let vedle sebe dvě sousední zahrady — dokud nálet 14. února 1945 nezničil skleníky německé sekce a poválečné sjednocení nevrátilo celý pozemek Univerzitě Karlově. Od roku 1978 funguje jako samostatná součást Přírodovědecké fakulty a láká ročně kolem 100 000 návštěvníků na kaktusy, jihoafrické sukulenty a jednu z největších světových sbírek šťavelů (Oxalis).
+
+🎁 Bonus: Když se zahrada v roce 1898 stěhovala ze Smíchova na Slupy, přestěhovali se s ní i její nejstarší obyvatelé — včetně cykasu Cycas indica, který je dnes považován za nejstarší exemplář svého druhu v Evropě. Některé rostliny tu tak technicky přežily všechny okolní budovy, původní pozemek zahrady a nejspíš i tu povodeň, kvůli které se sem musely přestěhovat.`,
+
+      zh: `欢迎来到查理大学植物园——这片位于新城区（Nové Město）山坡上的3.5公顷绿地，250年来挺过了洪水、战争，还有一条格外难缠的河流，这究竟算是全校最有耐心的一个系，还是运气最差的一块地皮，就看你怎么想了。
+
+这座植物园由植物学家兼医生约瑟夫·博胡米尔·米坎（Josef Bohumír Mikan）于1775年创立，最初选址在斯米霍夫（Smíchov）迪恩茨恩霍费尔花园（Dientzenhoferovy sady）附近——一个多世纪以来，它一直被认为是阿尔卑斯山以北最重要的植物园，19世纪在园长文采斯·科斯特莱茨基（Vincenc Kostelecký）的带领下，藏品扩展到多达1.3万个物种。问题出在选址：这里是伏尔塔瓦河沿岸地势最低的区域之一，而河水从不吝于提醒这一点。1784年、1824年（工作人员曾涉水没到脖子去抢救植物藏品）先后遭遇大洪水，直到1890年那场毁灭性的洪灾，才彻底终结了"要不要继续留在河边"这个问题。
+
+1898年10月23日，植物园在如今新城区的这片山坡——斯卢普斯卡山坡（Slupská stráň）——正式重新开放，还配备了一座长长的兰花温室。由于布拉格大学在1882年分裂为捷克语和德语两所独立机构，这里几十年间同时并存着两座相邻的植物园——直到1945年2月14日的一次轰炸摧毁了德语一方的温室，战后重新统一，整片土地才归还给查理大学。自1978年起，植物园作为理学院下属的独立机构运作至今，每年吸引约10万名访客前来观赏仙人掌、南非多肉植物，以及世界上规模最大的酢浆草（Oxalis）收藏之一。
+
+🎁 彩蛋：1898年植物园从斯米霍夫搬迁到斯卢普时，园里最年长的"居民"也一同搬了家——其中包括一株苏铁（Cycas indica），如今被认为是欧洲现存同类中最古老的一株。也就是说，这里有些植物严格算起来，比周围所有建筑、原来的园址，甚至比当年迫使它们搬家的那场洪水，都活得更久。`,
+    },
+  },
+  {
+    name: 'Čech Bridge Boat Landing',
+    slug: 'pristaviste-u-cechova-mostu',
+    localizedNames: { cz: 'Přístaviště u Čechova mostu', zh: '恰赫桥码头' },
+    labels: ['transport', 'waterbody', 'historical'],
+    coordinates: { lat: 50.09321483663827, lng: 14.42206250026426 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pra%C5%BEsk%C3%A1_paroplavebn%C3%AD_spole%C4%8Dnost',
+    description: {
+      en: `Welcome to the Čech Bridge Boat Landing, a working pier on the Vltava where sightseeing boats have been circling the same stretch of river since 1865 — proof that once Prague decided steamboats were a good idea, it never really stopped, not even for a moment, in a century and a half since.
+
+The Prague Steamship Company (Pražská paroplavební společnost) was founded in 1865, driven largely by František Dittrich — a future Prague mayor — together with then-mayor Václav Bělský and Vojtěch Lanna the Elder, a wealthy entrepreneur who had started out as an ordinary ferryman. After a test run on 15 August, regular passenger service began ten days later, on 25 August 1865, with the steamship Praha — built locally, at Prague's own Ruston works — running the route down to Zbraslav. A second steamship, Vyšehrad, joined the fleet the following year.
+
+That same company is still running boats today, a hundred and sixty years on, and this pier by Čech Bridge (Čechův most, named for the 19th-century writer Svatopluk Čech) is one of its busiest. Confusingly, it goes by three different names depending on which document you're reading: Přístaviště u Čechova mostu in the operating regulations, Dvořákovo nábřeží pier in the timetables, and simply Čechův most on the map — all pointing to the same stretch of dock where Prague Boats excursion boats and the floating restaurants Natal and Porto depart roughly every half hour, year-round.
+
+🎁 Bonus: One name, one pier, three official titles — a small bureaucratic monument to just how many different departments have had a say over this stretch of riverbank across the past century and a half.`,
+
+      cz: `Vítej u Přístaviště u Čechova mostu, funkčního mola na Vltavě, odkud vyjížděly vyhlídkové lodě na stejný úsek řeky už od roku 1865 — důkaz toho, že jakmile se Praha jednou rozhodla, že parníky jsou dobrý nápad, už s tím za posledních sto padesát let vlastně nikdy nepřestala.
+
+Pražskou paroplavební společnost založili v roce 1865 zejména František Dittrich — pozdější pražský primátor — společně s tehdejším primátorem Václavem Bělským a Vojtěchem Lannou starším, bohatým podnikatelem, který začínal jako obyčejný převozník. Po zkušební plavbě 15. srpna začala o deset dní později, 25. srpna 1865, pravidelná osobní doprava parníkem Praha — postaveným přímo v Praze, v Rustonově továrně — na trase směrem na Zbraslav. O rok později flotilu doplnil druhý parník, Vyšehrad.
+
+Táž společnost provozuje lodě dodnes, po sto šedesáti letech, a právě tohle molo u Čechova mostu (pojmenovaného po spisovateli 19. století Svatopluku Čechovi) patří k jejím nejrušnějším. Podle toho, který dokument zrovna čtete, nese matoucím způsobem hned tři různá jména: v provozním řádu Přístaviště u Čechova mostu, v jízdních řádech Přístaviště Dvořákovo nábřeží a na mapě prostě Čechův most — přitom všechny odkazují na stejný kousek nábřeží, odkud po celý rok zhruba každou půlhodinu vyplouvají vyhlídkové lodě Prague Boats i restaurační lodě Natal a Porto.
+
+🎁 Bonus: Jedno molo, jeden přístav, tři úřední názvy — malý byrokratický pomník tomu, kolika různým institucím za posledních sto padesát let na tomto kousku nábřeží záleželo.`,
+
+      zh: `欢迎来到恰赫桥码头（Přístaviště u Čechova mostu）——伏尔塔瓦河畔一座仍在运营的渡船码头，自1865年起，观光船就一直在同一段河道上兜圈子。这也证明了一件事：布拉格一旦认定蒸汽船是个好主意，接下来的一百五十年里，就几乎没有真正停下来过。
+
+布拉格蒸汽航运公司（Pražská paroplavební společnost）成立于1865年，主要推动者是后来出任布拉格市长的弗朗季谢克·迪特里希（František Dittrich），与他一同筹办的还有时任市长瓦茨拉夫·别尔斯基（Václav Bělský），以及从普通摆渡人白手起家的富商老沃伊捷赫·兰纳（Vojtěch Lanna）。1865年8月15日试航之后，仅仅十天，8月25日，"布拉格号"（Praha）汽船便开始了定期客运——这艘船就在布拉格本地的拉斯顿（Ruston）工厂建造完成，航线一路开往兹布拉斯拉夫（Zbraslav）。次年，第二艘汽船"维谢赫拉德号"（Vyšehrad）也加入了船队。
+
+一百六十年过去，同一家公司至今仍在运营船只，而恰赫桥（Čechův most，得名于19世纪作家斯瓦托普卢克·恰赫）旁的这座码头，正是其最繁忙的站点之一。让人有点摸不着头脑的是，根据你查阅的文件不同，它竟有三个官方名称：运营规程里叫"恰赫桥码头"（Přístaviště u Čechova mostu），时刻表里叫"德沃扎克河岸码头"（Dvořákovo nábřeží），地图上则干脆写着"恰赫桥"（Čechův most）——但指的都是同一段码头，这里全年几乎每半小时就有一班Prague Boats观光船，以及Natal号和Porto号水上餐厅船从此启航。
+
+🎁 彩蛋：一座码头，一个渡口，三个官方名称——这本身就是一座小小的"官僚纪念碑"，见证了过去一百五十年里，究竟有多少不同的部门都对这段河岸各执一词。`,
+    },
+  },
+  {
+    name: 'Building of the Former Czech Polytechnic',
+    slug: 'budova-byvale-ceske-polytechniky',
+    localizedNames: { cz: 'Budova bývalé České polytechniky', zh: '前捷克理工学院大楼' },
+    labels: ['academy', 'architecture', 'historical'],
+    coordinates: { lat: 50.076268114669446, lng: 14.419006449213205 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Karlovo_n%C3%A1m%C4%9Bst%C3%AD_(Praha)',
+    description: {
+      en: `Welcome to the Building of the Former Czech Polytechnic, a Neo-Renaissance giant on Karlovo náměstí modeled on a library in Venice — because apparently, if you're going to train nineteenth-century engineers, you might as well do it somewhere that looks like it belongs to a doge rather than a professor.
+
+The Regional Committee of the Kingdom of Bohemia bought the site in 1866, after bilingual instruction had split the polytechnic's Czech and German students a few years earlier. Architect Ignác Vojtěch Ullmann beat a single rival, Emanuel Ringhoffer, in the design competition, with his fifth submitted variant finally approved in 1871 — modeled on Jacopo Sansovino's Library of St. Mark in Venice. Construction ran from 1871 to 1875, producing a two-storey, fifteen-axis façade dominated by a central risalit, originally meant to connect to a neighbouring Baroque building so each language faculty could have its own wing while sharing a library and museum.
+
+The façade got its sculptural crown jewels in stages: ten allegorical figures called the Geniuses of Technical Sciences, carved in 1879 by Josef Václav Myslbek — the same sculptor behind the equestrian statue on Wenceslas Square — followed in 1894 by Antonín Popp's allegories of Science and Labor. Inside, an oval staircase rises through a vestibule ringed with Tuscan pillars. The building still belongs to the Czech Technical University, now housing its mechanical and electrical engineering faculties, and has been a protected national cultural monument since 1958.
+
+🎁 Bonus: Even national monuments aren't safe from the Prague Metro — the ground floor took damage during construction of the Metro Line B entrance nearby, meaning this 19th-century engineering showcase quite literally had a 20th-century engineering project drilled into it.`,
+
+      cz: `Vítej u Budovy bývalé České polytechniky, novorenesančního velikána na Karlově náměstí, který si vzal za vzor knihovnu v Benátkách — protože když už vzděláváte inženýry devatenáctého století, klidně to můžete dělat v budově, která vypadá, jako by patřila spíš benátskému dóžeti než profesorovi.
+
+Pozemek koupil v roce 1866 zemský výbor Království českého, poté co se o pár let dříve zavedením dvojjazyčné výuky rozdělili čeští a němečtí studenti polytechniky. Architekt Ignác Vojtěch Ullmann v soutěži porazil jediného soupeře, Emanuela Ringhoffera, a jeho pátá předložená varianta byla nakonec schválena v roce 1871 — inspirovaná Knihovnou svatého Marka v Benátkách od Jacopa Sansovina. Stavba probíhala v letech 1871 až 1875 a vznikla tak dvoupatrová, patnáctiosá fasáda s dominantním středním rizalitem, která měla být původně propojena se sousední barokní budovou tak, aby každá jazyková fakulta měla vlastní křídlo a společně sdílely knihovnu a muzeum.
+
+Sochařská výzdoba fasády přibývala postupně: v roce 1879 vytvořil deset alegorických soch nazvaných Geniové technických věd Josef Václav Myslbek — stejný sochař, který je autorem jezdecké sochy na Václavském náměstí — a v roce 1894 je doplnily alegorie Vědy a Práce od Antonína Poppa. Uvnitř budovy vede vestibulem oválné schodiště lemované toskánskými sloupy. Budova dodnes patří Českému vysokému učení technickému, dnes v ní sídlí strojní a elektrotechnická fakulta, a od roku 1958 je chráněna jako národní kulturní památka.
+
+🎁 Bonus: Ani národní kulturní památky nejsou před pražským metrem v bezpečí — přízemí budovy bylo poškozeno při stavbě nedalekého vstupu do stanice metra trasy B, takže se do tohoto inženýrského skvostu z 19. století doslova zavrtal jiný inženýrský projekt — tentokrát z 20. století.`,
+
+      zh: `欢迎来到"前捷克理工学院大楼"——卡尔洛沃广场（Karlovo náměstí）上一座以威尼斯图书馆为蓝本的新文艺复兴风格庞然大物。毕竟，如果要培养19世纪的工程师，那不如干脆把学校盖成一栋看起来像总督府、而不像教授办公室的建筑。
+
+1866年，波希米亚王国地方委员会买下了这块地皮——就在几年前，双语教学制度刚刚把理工学院的捷克语和德语学生分开。建筑师伊格纳茨·沃伊捷赫·乌尔曼（Ignác Vojtěch Ullmann）在设计竞赛中击败了唯一的对手埃马努埃尔·林格霍费尔（Emanuel Ringhoffer），他提交的第五版方案最终于1871年获批——设计灵感来自雅各布·桑索维诺（Jacopo Sansovino）在威尼斯设计的圣马可图书馆。建筑于1871年至1875年间施工完成，最终呈现出一座两层楼、十五开间的立面，中央有一处突出的壁柱构造；原本的构想是与相邻的一座巴洛克建筑相连，让捷克语与德语两个语言学部各自拥有独立的教学翼楼，同时共用图书馆和博物馆。
+
+立面上的雕塑装饰是分阶段完成的：1879年，约瑟夫·瓦茨拉夫·米斯尔贝克（Josef Václav Myslbek，瓦茨拉夫广场那座骑马雕像的作者）雕刻了十尊名为"技术科学天才"的寓意人物像；1894年，安东宁·波普（Antonín Popp）又添加了寓意"科学"与"劳动"的雕像。楼内，一道椭圆形楼梯穿过环绕着托斯卡纳式立柱的门厅拾级而上。这座建筑至今仍归属捷克技术大学（ČVUT），现设有机械工程与电机工程学院，并自1958年起被列为受保护的国家文化古迹。
+
+🎁 彩蛋：就连国家文化古迹也躲不过布拉格地铁的施工——附近B线地铁入口修建期间，这栋建筑的一楼曾遭受损坏，也就是说，这座19世纪的工程杰作，字面意义上被20世纪的另一项工程项目"钻"进了地基。`,
+    },
+  },
+  {
+    name: 'Former Imperial-Royal Criminal Court Building',
+    slug: 'budova-byvaleho-ck-trestniho-soudu',
+    localizedNames: { cz: 'Budova bývalého c. k. trestního soudu', zh: '前皇家刑事法院大楼' },
+    labels: ['historical', 'architecture', 'municipal'],
+    coordinates: { lat: 50.07870085061035, lng: 14.419757193689675 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Karlovo_n%C3%A1m%C4%9Bst%C3%AD_(Praha)',
+    description: {
+      en: `Welcome to the Former Imperial-Royal Criminal Court Building, a Neo-Renaissance courthouse on Karlovo náměstí decorated with stone lion masks, ornamental window moldings, and Art Nouveau female heads — an oddly elegant wrapper for a building whose day job was sentencing people, and whose courtyard occasionally hosted their executions instead.
+
+Prague's criminal court originally sat in the New Town Hall after Emperor Joseph II's judicial reforms of 1784, then got a Neoclassical facelift from builder Karl Schmidt between 1806 and 1811. By 1900, the court presidency wanted something grander and hired Viennese court architect Emil Förster, whose German-French Neo-Renaissance design — full of Mannerist flourishes borrowed from Sebastiano Serlio — went up between 1901 and 1903, built by Alfons Wertmüller on a plot that swallowed nine older houses, one of which had once been home to physicist Christian Doppler. The finished corner facing Karlovo náměstí still carries the completion date, MCMIII, under a ball mounted on an obelisk.
+
+The courtroom has hosted some of Bohemia's most theatrical trials: legendary robber Václav Babinský stood here in 1839, a string of publishers and writers were jailed in the 1850s "press trials," and in 1894 the mass Omladina trial convicted more than seventy young Czech nationalists — including future finance minister Alois Rašín and poet Stanislav Kostka Neumann — of subversion. Executions were carried out in the courtyard on more than one occasion, including under Nazi occupation.
+
+🎁 Bonus: The building is still a working courthouse today, home to the Prague Municipal Court — meaning a defendant sentenced here this year is, technically, standing in the same room where people were executed under two entirely different regimes, eight decades and one world war apart.`,
+
+      cz: `Vítej u Budovy bývalého c. k. trestního soudu, novorenesanční soudní budovy na Karlově náměstí zdobené kamennými lvími maskami, ozdobnými šambránami oken a secesními ženskými hlavami — podivně elegantním obalem budovy, jejíž hlavní náplní bylo odsuzovat lidi, a na jejímž nádvoří se čas od času konaly i popravy.
+
+Pražský trestní soud sídlil zpočátku v Novoměstské radnici po soudních reformách císaře Josefa II. z roku 1784, poté v letech 1806 až 1811 prošel klasicistní přestavbou fasády pod vedením stavitele Karla Schmidta. Kolem roku 1900 chtělo soudní předsednictvo něco honosnějšího a najalo vídeňského dvorního architekta Emila Förstera, jehož německo-francouzský novorenesanční návrh — plný manýristických prvků inspirovaných Sebastianem Serliem — vyrostl mezi lety 1901 a 1903 pod vedením stavitele Alfonse Wertmüllera na pozemku, kde předtím stálo devět starších domů; v jednom z nich kdysi bydlel fyzik Christian Doppler. Nároží obrácené ke Karlovu náměstí dodnes nese letopočet dokončení MCMIII pod koulí posazenou na obelisku.
+
+Soudní síň zažila některé z nejdramatičtějších procesů českých dějin: v roce 1839 tu stanul legendární loupežník Václav Babinský, v 50. letech 19. století sem putovali novináři a spisovatelé v takzvaných tiskových procesech, a v roce 1894 masový proces s Omladinou odsoudil více než sedmdesát mladých českých vlastenců — mimo jiné budoucího ministra financí Aloise Rašína a básníka Stanislava Kostku Neumanna — za podvratnou činnost. Na nádvoří se opakovaně konaly popravy, mimo jiné i za nacistické okupace.
+
+🎁 Bonus: Budova dodnes slouží jako funkční soud — sídlí v ní Městský soud v Praze — takže odsouzený, kterého tu letos pošlou k soudu, stojí technicky ve stejné místnosti, kde se popravovalo hned pod dvěma zcela odlišnými režimy, oddělenými osmi desetiletími a jednou světovou válkou.`,
+
+      zh: `欢迎来到"前皇家刑事法院大楼"——卡尔洛沃广场（Karlovo náměstí）上一座新文艺复兴风格的法院建筑，外墙装饰着石雕狮首、繁复的窗框线脚，以及新艺术风格的女性头像浮雕——这副异常优雅的外表，包裹的却是一栋主业是给人定罪、庭院里偶尔还要执行死刑的建筑。
+
+布拉格的刑事法院最初设在新城市政厅内，那是1784年约瑟夫二世司法改革之后的安排；1806年至1811年间，建筑师卡尔·施密特（Karl Schmidt）又为它换上了一副古典主义风格的立面。到了1900年前后，法院高层想要一栋更加气派的建筑，便聘请了维也纳宫廷建筑师埃米尔·福斯特（Emil Förster）——他设计的这座融合了塞巴斯蒂亚诺·塞利奥（Sebastiano Serlio）矫饰主义元素的德法式新文艺复兴建筑，于1901年至1903年间由建筑师阿方斯·韦特米勒（Alfons Wertmüller）主持建成，地基占用了原本九栋老宅的位置，其中一栋曾是物理学家克里斯蒂安·多普勒（Christian Doppler）的住所。如今，建筑面向卡尔洛沃广场的转角处，依然保留着刻有完工年份"MCMIII"（1903）字样、顶端立着方尖碑和圆球的山墙。
+
+这间法庭曾见证过波希米亚历史上一些最富戏剧性的审判：1839年，传奇大盗瓦茨拉夫·巴宾斯基（Václav Babinský）曾在此受审；19世纪50年代，一批出版商与作家在所谓的"新闻审判"中被投入监狱；1894年，针对"青年会"（Omladina）的大规模政治审判，以颠覆罪判处了七十多名捷克青年民族主义者，其中包括后来的财政部长阿洛伊斯·拉辛（Alois Rašín）和诗人斯坦尼斯拉夫·科斯特卡·诺伊曼（Stanislav Kostka Neumann）。庭院里也不止一次执行过死刑，纳粹占领时期同样如此。
+
+🎁 彩蛋：这栋建筑至今仍是一座实际运作中的法院，现为布拉格市法院（Městský soud v Praze）所在地——也就是说，今年在这里被判刑的被告，严格来说是站在同一个房间里，而这个房间，曾在两个截然不同的政权统治下，相隔八十年与一场世界大战，先后执行过死刑。`,
+    },
+  },
+  {
+    name: 'Vinohrady Theatre',
+    slug: 'divadlo-na-vinohradech',
+    localizedNames: { cz: 'Divadlo na Vinohradech', zh: '维诺赫拉迪剧院' },
+    labels: ['cultural', 'architecture', 'historical'],
+    coordinates: { lat: 50.07617420401304, lng: 14.43705667439254 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Divadlo_na_Vinohradech',
+    description: {
+      en: `Welcome to the Vinohrady Theatre, an Art Nouveau playhouse on náměstí Míru that the citizens of the once-independent town of Royal Vinohrady built and paid for entirely themselves — presumably so they'd never again have to take the tram all the way into Prague just to see a decent play.
+
+The theatre was built between 1905 and 1907, funded by the town of Royal Vinohrady — an independent municipality in its own right until Prague annexed it in 1922. Architect Alois Čenský won the 1902 design competition, but his original Neo-Renaissance plans were reworked after criticism from colleagues, and the revised, more Art Nouveau version he presented in 1904 is what actually got built. It opened in 1907 as the Municipal Theatre on Royal Vinohrady, and quickly became one of the most significant Art Nouveau buildings in the whole of Prague.
+
+The building's name has changed almost as often as the century's governments: J. K. Tyl Theatre from 1944 to 1945, Municipal Theatre on Vinohrady from 1945 to 1950, Czechoslovak Army Theatre through the early communist years from 1950 to 1966, and, since 1966, simply Divadlo na Vinohradech. Today it's the largest specialized drama house in the entire Czech Republic.
+
+🎁 Bonus: Count the renames and the building has worn four different identities in under sixty years — meaning anyone who watched it open its doors in 1907 would, if they lived long enough, have seen its name changed roughly once per generation of their own life, right along with the regime running the country outside.`,
+
+      cz: `Vítej v Divadle na Vinohradech, secesním divadle na náměstí Míru, které si na vlastní náklady postavili občané tehdy ještě samostatného města Královské Vinohrady — patrně proto, aby už nikdy nemuseli kvůli slušnému představení jezdit tramvají až do Prahy.
+
+Divadlo vzniklo v letech 1905 až 1907 z prostředků města Královské Vinohrady, které bylo až do připojení k Praze v roce 1922 samostatnou obcí. Soutěž na návrh v roce 1902 vyhrál architekt Alois Čenský, jeho původní novorenesanční plány však po kritice kolegů přepracoval, a nakonec se stavělo podle upravené, výrazně secesnější verze, kterou představil v roce 1904. Budova byla otevřena v roce 1907 jako Městské divadlo na Královských Vinohradech a rychle se stala jednou z nejvýznamnějších secesních staveb v celé Praze.
+
+Název budovy se v průběhu století měnil téměř stejně často jako vlády, které v zemi vládly: v letech 1944–1945 neslo jméno Divadlo J. K. Tyla, 1945–1950 Městské divadlo na Vinohradech, 1950–1966 Divadlo československé armády a od roku 1966 už jen Divadlo na Vinohradech. Dnes je největší specializovanou činoherní scénou v celé České republice.
+
+🎁 Bonus: Spočítej si přejmenování a vyjde ti, že budova nosila za necelých šedesát let čtyři různé identity — takže kdokoli sledoval její otevření v roce 1907, mohl při dostatečně dlouhém životě zažít změnu jejího jména zhruba jednou za generaci vlastního života, souběžně se změnami režimu za jejími dveřmi.`,
+
+      zh: `欢迎来到维诺赫拉迪剧院（Divadlo na Vinohradech）——坐落在米鲁广场（náměstí Míru）上的一座新艺术风格剧院，由当年尚为独立城镇的皇家维诺赫拉迪（Královské Vinohrady）的居民自掏腰包建造——想必是为了以后再也不用为了看一场像样的戏，专门坐电车跑到布拉格市区去。
+
+剧院建于1905年至1907年间，资金全部来自皇家维诺赫拉迪镇——该镇直到1922年才并入布拉格，此前一直是一个独立的自治市镇。1902年，建筑师阿洛伊斯·钦斯基（Alois Čenský）在设计竞赛中胜出，但他最初的新文艺复兴风格方案在同行批评后被大幅修改，最终建成的是他1904年提交的、风格更偏新艺术运动的修订版方案。剧院于1907年开幕，最初名为"皇家维诺赫拉迪市立剧院"，很快便成为布拉格最重要的新艺术风格建筑之一。
+
+这栋建筑更名的次数，几乎和这个世纪政权更迭的次数一样多：1944至1945年间叫"J·K·蒂尔剧院"（J. K. Tyl Theatre）；1945至1950年间叫"维诺赫拉迪市立剧院"；1950至1966年间，在共产主义统治初期，改名为"捷克斯洛伐克军队剧院"；直至1966年起，才固定为今天的名字——维诺赫拉迪剧院。如今，它是整个捷克共和国规模最大的专业话剧院。
+
+🎁 彩蛋：数一数这些更名次数就会发现，这栋建筑在不到六十年里换过四个不同的身份——也就是说，1907年目睹它开幕的人，如果活得够久，大概每过一代人的时间，就会见证它换一次名字，而这些更名，恰好与门外这个国家政权的更迭节奏同步。`,
+    },
+  },
+
+  // ── Nusle / Vinohrady / Vyšehrad batch (2026-07) ────────────────────────
+  {
+    name: 'Former Land Foundling House at Karlov',
+    slug: 'detska-nemocnice-karlov',
+    localizedNames: { cz: 'Dětská nemocnice Karlov - budova zemského nalezince', zh: '卡尔洛夫原邦立弃婴收容所' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.070086766914535, lng: 14.428672146005303 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Budovy_%C4%8Cesk%C3%A9_d%C4%9Btsk%C3%A9_nemocnice',
+    description: {
+      en: `Welcome to the Former Land Foundling House at Karlov, the one building on Ke Karlovu that quietly outlived its far grander next-door neighbour. Built to shelter babies nobody could keep, it has spent well over a century patching up Prague's smallest patients — while the "important" teaching hospital right beside it got flattened for a bridge.
+
+Construction began in 1896 to a design by architects Karel Stark and Čeněk Gregor, replacing an older, overcrowded foundling home elsewhere in the city. The new complex was planned on a generous scale: an administration building, two large pavilions for separate Czech and German departments, and a smaller isolation pavilion, all built for postpartum care of unmarried mothers and for abandoned children up to six years old. Parts of it opened within two years, and by 1901–1902 the whole institution was running, doubling as a clinical teaching site for two medical faculties treating diseases of young children.
+
+Its neighbour told a very different story. The Children's Hospital of Emperor Franz Joseph I, built next door in 1898–1902, was the first modern Czech pediatric clinic in the whole of Austria-Hungary — a genuine point of national pride. Yet in 1971 it was demolished outright to make way for the approach ramps of the new Nuselský most (Nusle Bridge). The comparatively modest foundling house at house number 455, finished the same years by the same architects, was left standing, and it still serves pediatric medicine today as part of Prague's children's hospital network.
+
+🎁 Bonus: The building that survived was never meant to be the star of the story — the foundling home was the support act to the "real" hospital next door. Somewhere in the demolition dust of 1971, Prague accidentally proved that the unglamorous building often outlasts the famous one.`,
+
+      cz: `Vítej u bývalého zemského nalezince na Karlově, jediné budovy na Ke Karlovu, která potichu přežila svého mnohem honosnějšího souseda. Postavena byla jako útočiště pro děti, o které se nikdo nemohl postarat, a už přes sto let se tu léčí ti nejmenší pražští pacienti — zatímco „důležitá" fakultní nemocnice hned vedle musela ustoupit stavbě mostu.
+
+Stavba začala v roce 1896 podle projektu architektů Karla Starka a Čeňka Gregora a nahradila starší, přeplněný nalezinec jinde ve městě. Nový komplex byl navržen velkoryse: správní budova, dva velké pavilony pro oddělené české a německé oddělení a menší izolační pavilon, to vše určené k poporodní péči o svobodné matky a opuštěné děti do šesti let věku. Část provozu byla spuštěna už během dvou let a v letech 1901–1902 fungovala celá instituce, která zároveň sloužila jako klinické pracoviště pro dvě lékařské fakulty zaměřené na nemoci malých dětí.
+
+Jeho soused měl úplně jiný osud. Dětská nemocnice císaře Františka Josefa I., postavená vedle v letech 1898–1902, byla první moderní českou dětskou klinikou v celém Rakousku-Uhersku — skutečný důvod k národní hrdosti. V roce 1971 ji ale bez milosti zbourali kvůli nájezdovým rampám nového Nuselského mostu. Poměrně skromný zemský nalezinec v domě čp. 455, dokončený ve stejných letech stejnými architekty, zůstal stát a dodnes slouží dětskému lékařství jako součást pražské sítě dětských nemocnic.
+
+🎁 Bonus: Budova, která přežila, nikdy neměla být hvězdou příběhu — nalezinec byl jen doprovodným aktem k té „opravdové" nemocnici vedle. Někde v demoliční prachu roku 1971 Praha nechtěně dokázala, že nenápadná budova občas přečká i tu slavnou.`,
+
+      zh: `欢迎来到卡尔洛夫的原邦立弃婴收容所（Zemský nalezinec），这是Ke Karlovu街上唯一一栋悄悄"熬"过了隔壁那位气派邻居的建筑。它当初是为无人抚养的婴儿而建的庇护所，一百多年来一直在这里救治布拉格最年幼的病人——而隔壁那家"更重要"的教学医院，却为了给一座桥让路而被夷为平地。
+
+建筑始于1896年，由建筑师卡雷尔·斯塔尔克（Karel Stark）和切涅克·格雷戈尔（Čeněk Gregor）设计，用以取代城中另一处已经人满为患的旧弃婴收容所。新建筑群规划得相当阔气：一栋行政楼、两栋分别用于捷克部门和德语部门的大型病房楼，以及一栋较小的隔离病房楼，专门用于未婚母亲的产后护理，以及收容六岁以下的弃婴。部分设施在两年内便投入使用，到1901至1902年，整个机构已全面运转，同时也是两所医学院教授儿童疾病临床课程的场所。
+
+它的邻居却是另一番命运。同样建于1898至1902年、紧挨着它的"弗朗茨·约瑟夫一世皇帝儿童医院"，是整个奥匈帝国第一家现代捷克儿科诊所——一项真正值得民族自豪的成就。然而到了1971年，它却因新建的努斯莱大桥（Nuselský most）引道工程而被彻底拆除。相比之下并不起眼、门牌号455、由同一批建筑师在同一时期建成的弃婴收容所却保留了下来，如今仍是布拉格儿童医院网络的一部分，继续服务于儿科医学。
+
+🎁 彩蛋：留下来的这栋建筑，从来都不是故事里的主角——弃婴收容所本只是隔壁那家"真正"医院的配角。可就在1971年的拆迁尘土里，布拉格无意中证明了一件事：不起眼的建筑，有时候反而比风光一时的建筑活得更久。`,
+    },
+  },
+  {
+    name: 'Vinohrady Pavilon',
+    slug: 'vinohradsky-pavilon',
+    localizedNames: { cz: 'Vinohradský Pavilon', zh: '维诺赫拉迪帕维隆' },
+    labels: ['architecture', 'cultural'],
+    coordinates: { lat: 50.07665159499861, lng: 14.442337286463204 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Vinohradsk%C3%A1_tr%C5%BEnice',
+    description: {
+      en: `Welcome to the Vinohrady Pavilon, the building that pulled off Prague's greatest glow-up: from a cabbage-and-potato market hall to a temple of Scandinavian lamps and overpriced armchairs. Same brick towers, same thermal window, wildly different price tags on whatever's sitting inside.
+
+It was built in 1901–1903 to a design by architect Antonín Turek as the Municipal Central Market Hall for the independent town of Královské Vinohrady, opening officially on 25 June 1903 on the site of a former mill-machinery factory. Turek gave it a historicizing, almost basilica-like form — a three-aisled hall with a large thermal window, a clock, and two flanking towers on the façade — while quietly using cutting-edge metal-and-glass construction underneath the ornament. A hundred market stalls once sold food to the rapidly growing suburb.
+
+The market hall function faded over the 20th century, and the building was eventually reborn as "Pavilon" — an interior-design and lifestyle shopping centre that, in 2013, picked up the Czech Grand Design "Shop of the Year" award. It has since drifted between renovations and new investors chasing the next chapter for the space, but the twin-towered brick shell built for turnips has never once been in danger of demolition.
+
+🎁 Bonus: Look closely at the façade and you'll realize the towers and thermal window were designed to make a food market look like a small basilica — Královské Vinohrady wanted its grocery shopping to feel like a minor religious experience, over a century before anyone coined the phrase "retail therapy."`,
+
+      cz: `Vítej ve Vinohradském Pavilonu, budově, která zvládla tu nejnápadnější proměnu image v celé Praze: ze zelinářské a bramborové tržnice se stal chrám skandinávských lamp a předražených křesel. Stejné cihlové věže, stejné termální okno, naprosto jiné cenovky na tom, co je uvnitř.
+
+Postavena byla v letech 1901–1903 podle projektu architekta Antonína Turka jako Městská ústřední tržnice samostatného města Královské Vinohrady a slavnostně otevřena 25. června 1903 na místě bývalé továrny na mlýnské stroje. Turek jí vtiskl historizující, téměř bazilikální tvar — trojlodní halu s velkým termálním oknem, hodinami a dvěma věžemi po stranách průčelí — přičemž pod ozdobnou fasádou potichu použil na svou dobu velmi moderní ocelovou a skleněnou konstrukci. Ve stovce tržních stánků se kdysi prodávalo jídlo rychle rostoucímu předměstí.
+
+Funkce tržnice v průběhu 20. století postupně vyprchala a budova se nakonec znovuzrodila jako „Pavilon" — obchodní centrum zaměřené na interiérový design a lifestyle, které v roce 2013 získalo ocenění Czech Grand Design „Obchod roku". Od té doby prošla různými rekonstrukcemi a střídáním investorů hledajících novou kapitolu pro tento prostor, ale dvouvěžová cihlová schránka postavená pro tuřín nikdy nebyla ani na okamžik v ohrožení demolicí.
+
+🎁 Bonus: Podívej se pozorně na fasádu a dojde ti, že věže i termální okno byly navrženy tak, aby potravinová tržnice vypadala jako malá bazilika — Královské Vinohrady chtěly, aby nákup zeleniny působil jako menší duchovní zážitek, a to víc než sto let předtím, než někdo vymyslel pojem „retail therapy".`,
+
+      zh: `欢迎来到维诺赫拉迪帕维隆（Vinohradský Pavilon），这栋建筑完成了布拉格最惊艳的"大变身"：从卖白菜土豆的市场大厅，摇身一变成了摆满北欧灯具和天价扶手椅的殿堂。砖砌的塔楼没变，圆窗没变，唯一变了的是里面商品的价签。
+
+这栋建筑由建筑师安东宁·图雷克（Antonín Turek）设计，建于1901至1903年间，最初是独立城镇"王室葡萄园区"（Královské Vinohrady）的市立中央市场大厅，于1903年6月25日在一座旧磨坊机械厂的原址上正式开业。图雷克赋予了它一种历史主义、近乎巴西利卡式的造型——一座三廊式大厅，配有巨大的圆形窗、时钟以及立面两侧的双塔——而在这套装饰外壳之下，他悄悄采用了当时极为前卫的钢铁与玻璃结构。曾经，这里的一百个摊位为迅速扩张的郊区居民供应各类食品。
+
+进入20世纪后，市场大厅的功能逐渐式微，这栋建筑最终以"帕维隆"（Pavilon）之名重生——一座主打室内设计与生活方式的购物中心，并于2013年荣获捷克设计大奖"年度商店"称号。此后它经历了多轮翻修，也换过好几任投资人，各自试图为这个空间开启新的篇章，但这座为了卖芜菁而建的双塔砖楼，却从未真正面临被拆除的危险。
+
+🎁 彩蛋：仔细看看这栋建筑的立面，你会发现塔楼和圆窗的设计初衷，就是要让一座菜市场看起来像一座小型巴西利卡——早在"零售疗法"这个词被发明的一百多年前，王室葡萄园区就已经希望，买菜也能带来几分宗教仪式般的体验。`,
+    },
+  },
+  {
+    name: 'Vinohrady Evangelical Church of the Czech Brethren',
+    slug: 'ceskobratrska-cirkev-vinohrady',
+    localizedNames: { cz: 'Českobratrská církev evangelická Vinohrady', zh: '维诺赫拉迪捷克兄弟福音教会' },
+    labels: ['church', 'architecture'],
+    coordinates: { lat: 50.07522386789458, lng: 14.446909130744075 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Farn%C3%AD_sbor_%C4%8Ceskobratrsk%C3%A9_c%C3%ADrkve_evangelick%C3%A9_v_Praze_2_%E2%80%93_Vinohrady',
+    description: {
+      en: `Welcome to the Vinohrady Evangelical Church of the Czech Brethren, proof that good things come to congregations who wait — in this case, roughly two decades in a borrowed schoolroom before anyone let them build their own roof.
+
+The Reformed parish in the booming suburb of Královské Vinohrady was formally established in 1889, initially meeting in the Na Smetance school building, and from 1892 in its own prayer hall. It took until 11 September 1904 for the congregation to purchase two building plots on the newly developing Korunní avenue, and construction — led by builder Antonín Dvořák, the parish's own curator, and carried out by builder Matěj Blecha — only began in earnest in 1906 after delays caused by a neighbouring property owner. The finished building, designed by architect Antonín Turek in a Neo-Gothic and Neo-Renaissance style with a modest tower, was ceremonially consecrated on 25 March 1908.
+
+More than a century on, the parish is still active at Korunní 60, holding services as one of Prague's oldest continuously operating Czech Brethren congregations, in the very neighbourhood it was built to serve.
+
+🎁 Bonus: The architect who eventually gave this congregation its Neo-Gothic tower, Antonín Turek, is the same man who a few years later designed the Vinohrady market hall you now know as the Pavilon — one architect, one neighbourhood, two completely different kinds of Sunday crowd.`,
+
+      cz: `Vítej u sboru Českobratrské církve evangelické na Vinohradech, důkazu, že dobré věci přijdou i na sbor, který umí čekat — v tomto případě zhruba dvacet let v půjčené školní třídě, než mu někdo dovolil postavit vlastní střechu.
+
+Reformovaný sbor v rychle rostoucích Královských Vinohradech byl formálně ustaven v roce 1889, zpočátku se scházel ve škole Na Smetance a od roku 1892 měl vlastní modlitebnu. Až 11. září 1904 se sboru podařilo koupit dva stavební pozemky na tehdy se teprve rozvíjející Korunní třídě a stavba — vedená stavitelem Antonínem Dvořákem, kurátorem sboru, a prováděná stavitelem Matějem Blechou — naplno začala až v roce 1906, po zdrženích způsobených sousedním majitelem pozemku. Hotová budova, navržená architektem Antonínem Turkem v novogotickém a novorenesančním stylu se skromnou věží, byla slavnostně vysvěcena 25. března 1908.
+
+Po více než sto letech je sbor stále aktivní na adrese Korunní 60 a koná bohoslužby jako jeden z nejstarších nepřetržitě fungujících sborů Českobratrské církve evangelické v Praze, přímo ve čtvrti, pro kterou byl postaven.
+
+🎁 Bonus: Architekt, který sboru nakonec dopřál novogotickou věž, Antonín Turek, je tentýž muž, jenž o pár let později navrhl vinohradskou tržnici, kterou dnes znáš jako Pavilon — jeden architekt, jedna čtvrť, dva naprosto odlišné druhy nedělního davu.`,
+
+      zh: `欢迎来到维诺赫拉迪捷克兄弟福音教会（Českobratrská církev evangelická Vinohrady），这是一个证明"好事多磨"的例子——具体来说，这个教会足足在借来的教室里等了将近二十年，才终于被允许盖起属于自己的屋顶。
+
+这个归正宗教会在迅速扩张的王室葡萄园区（Královské Vinohrady）郊区正式成立于1889年，最初在Na Smetance学校聚会，1892年起才有了自己的祈祷厅。直到1904年9月11日，教会才在当时刚刚开发的科伦尼大街（Korunní）购得两块建筑用地；由教会自己的教务主任、建筑师安东宁·德沃夏克（Antonín Dvořák）主持、建筑师马捷伊·布莱哈（Matěj Blecha）承建的工程，因邻近地块业主的阻挠而一再拖延，直到1906年才真正动工。这座由建筑师安东宁·图雷克（Antonín Turek）设计、采用新哥特式与新文艺复兴式风格、配有一座朴素塔楼的建筑最终于1908年3月25日举行了隆重的祝圣仪式。
+
+一百多年过去，这个教会至今仍活跃于科伦尼大街60号，在当初为之而建的这片街区里，作为布拉格历史最悠久、持续运作至今的捷克兄弟福音教会堂会之一，继续举行礼拜。
+
+🎁 彩蛋：最终为这座教堂设计出新哥特式塔楼的建筑师安东宁·图雷克，几年后又设计了如今被称为"帕维隆"的维诺赫拉迪市场大厅——同一位建筑师，同一个街区，却是两种截然不同的"周日人潮"。`,
+    },
+  },
+  {
+    name: 'Cihelná Gate',
+    slug: 'cihelna-brana',
+    localizedNames: { cz: 'Cihelná Brána', zh: '齐赫尔纳城门' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.065290931318664, lng: 14.419159963747807 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Ciheln%C3%A1_br%C3%A1na',
+    description: {
+      en: `Welcome to Cihelná Brána — literally the "Brick Gate" — the least glamorous name given to any entrance of Vyšehrad's legendary fortress, and yet the one most visitors actually walk through first.
+
+The gate was built in 1841 in the Empire style, commissioned on the initiative of Prague governor Karel Chotek as part of a new road cut through Vyšehrad toward Tábor. It was designed by military engineer Johann Weiss back in 1835 and ceremonially opened on 4 November 1841 alongside the new road itself. It sits in the northern stretch of the Vyšehrad fortifications, providing access to the citadel from the New Town side, roughly on the spot once occupied by one of the fortress's two medieval gates.
+
+Structurally, the gate consists of a central carriageway flanked by two pedestrian passages, with small guardroom spaces built into the sides. Today it houses Vyšehrad's information centre and serves as the main entrance to the casemates, including the multimedia exhibition and the Gorlice Hall hidden inside the ramparts.
+
+🎁 Bonus: Everything about Vyšehrad's founding legend — Libuše's prophecy, princes, dragons of Czech myth — is early medieval. This particular gate is not: it's a 19th-century traffic-improvement project that happens to sit on genuinely ancient ground, which makes it possibly the most bureaucratic thing about an otherwise mythical hill.`,
+
+      cz: `Vítej u Cihelné brány — doslova „brány z cihel" — nejméně okázalého jména ze všech vstupů do legendární pevnosti Vyšehrad, a přesto té, kterou většina návštěvníků projde jako první.
+
+Brána byla postavena v roce 1841 v empírovém stylu z iniciativy pražského místodržícího Karla Chotka jako součást nové silnice vedené přes Vyšehrad směrem na Tábor. Navrhl ji už v roce 1835 ženijní inženýr Johann Weiss a slavnostně byla otevřena 4. listopadu 1841 společně s novou silnicí. Stojí v severní části vyšehradského opevnění a zajišťuje vstup do citadely ze strany Nového Města, přibližně v místě, kde kdysi stávala jedna ze dvou středověkých bran pevnosti.
+
+Stavebně se brána skládá z centrálního průjezdu lemovaného dvěma průchody pro pěší, s menšími prostorami strážnic po stranách. Dnes v ní sídlí infocentrum Vyšehradu a slouží jako hlavní vstup do kasemat, včetně multimediální expozice a sálu Gorlice ukrytého v hradbách.
+
+🎁 Bonus: Všechno, co se váže k zakládající pověsti Vyšehradu — Libušino proroctví, knížata, draci české mytologie — pochází z raného středověku. Tahle konkrétní brána ne: je to dopravní stavba 19. století, která náhodou stojí na skutečně starobylé půdě, což z ní dělá možná tu nejúřednější věc na jinak bájemi opředeném kopci.`,
+
+      zh: `欢迎来到齐赫尔纳城门（Cihelná Brána）——字面意思就是"砖门"，是维谢赫拉德（Vyšehrad）传奇要塞所有入口里名字最不起眼的一个，却是大多数游客第一个走进去的那道门。
+
+这座城门建于1841年，采用帝政风格，是应布拉格总督卡雷尔·霍特克（Karel Chotek）的倡议，作为一条穿越维谢赫拉德通往塔博尔（Tábor）的新道路工程的一部分而修建的。它早在1835年就由军事工程师约翰·魏斯（Johann Weiss）完成设计，并于1841年11月4日与那条新路一同举行了落成典礼。城门位于维谢赫拉德防御工事的北段，从新城区一侧进入要塞，大致就在昔日要塞两座中世纪城门之一的旧址上。
+
+从结构上看，这座城门由中间的车行通道和两侧的行人通道组成，两旁还嵌有小型岗哨室。如今，这里设有维谢赫拉德的游客信息中心，也是通往地下暗堡（casemates）的主入口，里面藏有多媒体展览以及隐藏在城墙深处的戈尔利采厅（Gorlice Hall）。
+
+🎁 彩蛋：关于维谢赫拉德建城传说的一切——利布谢公主的预言、王公贵族、捷克神话中的巨龙——都属于中世纪早期。唯独这座城门不是：它其实是一项19世纪的交通改善工程，恰好落在一片真正古老的土地上，这也许是这座充满神话色彩的山丘上，最"官僚主义"的一处存在。`,
+    },
+  },
+  {
+    name: 'Grébovka Vineyard Pavilion',
+    slug: 'altan-grebovka',
+    localizedNames: { cz: 'Altán Grébovka', zh: '格雷波夫卡葡萄园凉亭' },
+    labels: ['park', 'architecture'],
+    coordinates: { lat: 50.068602382428026, lng: 14.444315528642875 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Havl%C3%AD%C4%8Dkovy_sady',
+    description: {
+      en: `Welcome to the Grébovka Vineyard Pavilion, where a 14th-century king's grapevines, a 19th-century industrialist's ego, and a 21st-century glass of wine all somehow ended up on the very same hillside.
+
+The slope had been planted with vineyards since the second half of the 14th century, founded under Charles IV. Centuries later, between 1871 and 1888, Prague industrialist Moritz Gröbe — a partner in the Lanna & Šebek firm — turned the site into the private grounds of his own villa, commissioning architects Antonín Barvitius and Josef Schulz to design an ornate wooden gazebo with carved structural details, set directly into the vineyard on its southern slope. After Gröbe's death, the Prague municipality acquired the whole property in the early 20th century and opened it to the public as Havlíčkovy sady.
+
+Of the park's roughly 11 hectares, about 1.7 remain working vineyard — one of the very few continuously cultivated vineyards left inside Prague. Between 2002 and 2004 the gazebo itself was restored, its wooden decorative elements faithfully recreated and its stonework repaired, and reopened as the café and wine bar it still is today.
+
+🎁 Bonus: You can now sit exactly where a Holy Roman Emperor's grapevines, a coal-and-iron magnate's private garden, and a public city park all overlap — order a glass of the house wine and you're technically drinking six and a half centuries of Prague real-estate history.`,
+
+      cz: `Vítej u viničního altánu v Grébovce, kde se na jednom jediném svahu nějakým způsobem sešla vinice krále ze 14. století, ego průmyslníka z 19. století a sklenka vína z 21. století.
+
+Svah byl osázen vinicí už od druhé poloviny 14. století, založenou za Karla IV. O staletí později, mezi lety 1871 a 1888, proměnil pražský průmyslník Moritz Gröbe — společník firmy Lanna & Šebek — pozemek v soukromou zahradu své vlastní vily a nechal architekty Antonína Barvitia a Josefa Schulze navrhnout zdobný dřevěný altán s vyřezávanými konstrukčními prvky, zasazený přímo do vinice na jižním svahu. Po Gröbeho smrti celý pozemek na počátku 20. století odkoupilo pražské město a otevřelo ho veřejnosti jako Havlíčkovy sady.
+
+Z přibližně 11 hektarů parku dodnes zůstává asi 1,7 hektaru činnou vinicí — jednou z mála nepřetržitě obdělávaných vinic, které v Praze zůstaly. Mezi lety 2002 a 2004 prošel samotný altán obnovou, při níž byly věrně obnoveny dřevěné ozdobné prvky a opraveno kamenné zdivo, a znovu otevřen jako kavárna a vinárna, kterou je dodnes.
+
+🎁 Bonus: Teď můžeš sedět přesně tam, kde se překrývá vinice římského císaře, soukromá zahrada uhelno-železného magnáta a veřejný městský park — objednej si skleničku domácího vína a technicky vzato pak piješ šest a půl století pražské realitní historie.`,
+
+      zh: `欢迎来到格雷波夫卡葡萄园凉亭（Altán Grébovka），在这同一片山坡上，14世纪国王种下的葡萄藤、19世纪实业家的自尊心，以及21世纪的一杯葡萄酒，不知怎么就全都凑到了一起。
+
+这片山坡自14世纪下半叶起便种有葡萄园，由查理四世下令栽种。数百年后，1871年至1888年间，布拉格实业家莫里茨·格雷伯（Moritz Gröbe）——兰纳与舍贝克公司（Lanna & Šebek）的合伙人——将这里改建为自己别墅的私家花园，并委托建筑师安东宁·巴尔维提乌斯（Antonín Barvitius）和约瑟夫·舒尔茨（Josef Schulz）设计了一座带有精雕细刻结构的华丽木质凉亭，直接嵌建在南坡的葡萄园之中。格雷伯去世后，20世纪初，布拉格市政府买下了整片地产，并将其作为哈维利奇科维公园（Havlíčkovy sady）向公众开放。
+
+在这座约11公顷的公园里，如今仍有约1.7公顷保留为实际耕作的葡萄园——这是布拉格城内为数不多至今持续耕种的葡萄园之一。2002年至2004年间，凉亭本身经过修复，木质装饰构件被忠实复原，石砌部分也得到修缮，之后重新开放，成为今天仍在营业的咖啡馆兼酒吧。
+
+🎁 彩蛋：现在你可以坐在这样一个地方——神圣罗马帝国皇帝的葡萄园、煤铁大亨的私家花园，以及一座公共城市公园，三者在此重叠。点一杯这里的自酿葡萄酒，严格说来，你喝下的是布拉格长达六个半世纪的地产变迁史。`,
+    },
+  },
 ];
 
 async function run() {

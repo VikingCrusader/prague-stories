@@ -11,7 +11,6 @@ import {
 import { getLocName } from "../../utils/locName";
 import { getCurrentPosition, haversineDistance, formatDistance } from "../../utils/geolocation";
 import { useUserPosition } from "../../hooks/useUserPosition";
-import LanguageSwitcher from "../shared/LanguageSwitcher";
 import EditLocationForm from "./EditLocationForm";
 import {
   RARITY_COLOR,
@@ -413,12 +412,11 @@ export default function LocationDetail({
               <div
                 style={{
                   display: "flex",
-                  justifyContent: "space-between",
+                  justifyContent: "flex-end",
                   alignItems: "center",
                   marginBottom: 12,
                 }}
               >
-                <LanguageSwitcher />
                 <div style={{ display: "flex", alignItems: "center", gap: 8 }}>
                   <span
                     style={{
