@@ -20386,6 +20386,76 @@ Z přibližně 11 hektarů parku dodnes zůstává asi 1,7 hektaru činnou vinic
 🎁 彩蛋：现在你可以坐在这样一个地方——神圣罗马帝国皇帝的葡萄园、煤铁大亨的私家花园，以及一座公共城市公园，三者在此重叠。点一杯这里的自酿葡萄酒，严格说来，你喝下的是布拉格长达六个半世纪的地产变迁史。`,
     },
   },
+  {
+    name: 'Grébovka Garden Pavilion',
+    slug: 'pavilon-grebovka',
+    localizedNames: { cz: 'Pavilon Grébovka', zh: '格雷波夫卡花园馆' },
+    labels: ['park', 'cafe', 'historical'],
+    coordinates: { lat: 50.06969815393027, lng: 14.445590980638453 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Havl%C3%AD%C4%8Dkovy_sady',
+    description: {
+      en: `Welcome to the Grébovka Garden Pavilion, a timber hall built in the 1870s so one wealthy industrialist's houseguests would never have to choose between wine, a shooting range, and a game of bowls. It has since been demoted to public café, which honestly sounds like a fairer arrangement for everyone else.
+
+The pavilion went up on the vineyard slope between the 1870s and 1888, part of the private estate that an industrialist carved out of the hillside — a partner in a coal-and-iron firm who apparently wanted his guests entertained on every possible axis. It was designed as a garden entertainment hall, fitted out with a shooting range, a bowling lane, and chess tables, tucked just downhill from the estate's more ornate vineyard gazebo. After the owner's death, the Prague municipality bought the whole estate in the early twentieth century and folded it into the public park now known by his name.
+
+The building fell into disrepair over the following decades, and it wasn't until a full restoration completed in 2009 that it reopened — this time with its original nineteenth-century bowling lane painstakingly rebuilt inside. Today it runs as a café and event space that can seat up to eight hundred guests, hosting everything from casual coffee stops to weddings, a considerably more democratic use of the room than its first owner ever intended.
+
+🎁 Bonus: The bowling lane inside is a faithful reconstruction of the one used by the estate's guests in the 1870s, which makes it a strong contender for the oldest bowling-alley lineage still standing in Prague — so if you roll a gutter ball here, know that you are continuing a century and a half of well-heeled Prague failure at the same sport.`,
+
+      cz: `Vítej v Pavilonu Grébovka, dřevěné hale postavené v 70. letech 19. století, aby hosté jednoho zámožného průmyslníka nikdy nemuseli volit mezi vínem, střelnicí a partií kuželek. Dnes byl pavilon degradován na veřejnou kavárnu, což je upřímně spravedlivější uspořádání pro všechny ostatní.
+
+Pavilon vyrostl na vinařském svahu mezi lety 1871 a 1888 jako součást soukromého panství, které si na kopci nechal vybudovat průmyslník Moritz Gröbe — společník firmy Lanna & Šebek zabývající se uhlím a železem, který zjevně chtěl své hosty bavit doslova ve všech směrech. Architekt Josef Schulz jej navrhl jako zahradní zábavní sál vybavený střelnicí, kuželnou a šachovými stolky, situovaný o kousek níž od Gröbeho zdobného viničního altánu. Po jeho smrti odkoupilo celé panství na počátku 20. století pražské město a začlenilo je do veřejného parku, který dodnes nese jeho jméno.
+
+Budova v následujících desetiletích značně zchátrala a znovu se otevřela až po kompletní rekonstrukci dokončené v roce 2009 — tentokrát s pečlivě obnovenou původní kuželnou z 19. století uvnitř. Dnes funguje jako kavárna a prostor pro akce s kapacitou až osm set hostů, od běžného posezení u kávy až po svatby, což je podstatně demokratičtější využití místnosti, než jaké měl na mysli její první majitel.
+
+🎁 Bonus: Kuželna uvnitř je věrnou rekonstrukcí té, kterou používali Gröbeho hosté v 70. letech 19. století, takže má silné nároky na titul nejstarší dochované kuželny v Praze — pokud si tu hodíte mimo dráhu, buďte si vědomi, že navazujete na půldruhého století honosného pražského neúspěchu ve stejném sportu.`,
+
+      zh: `欢迎来到格雷波夫卡花园馆——一座建于19世纪70年代的木结构大厅，当年是为了让一位富有实业家的客人不必在美酒、靶场和保龄球之间做选择。如今它已"沦为"一家对外开放的咖啡馆，老实说，对其他人来说这才公平多了。
+
+这座馆舍在1871年至1888年间建于一片葡萄园斜坡上，是一位实业家在山坡上打造的私人庄园的一部分——他是一家煤铁公司的合伙人，显然想让宾客在各个方面都得到款待。建筑师将其设计为花园娱乐厅，内设靶场、保龄球道和棋桌，就坐落在庄园里那座更为华丽的葡萄园凉亭下方不远处。庄园主人去世后，20世纪初，布拉格市政府买下了整片庄园，并将其并入如今仍以他名字命名的公共公园。
+
+此后数十年间，这座建筑逐渐破败，直到2009年一次全面修复完成后才重新开放——馆内那条19世纪的原始保龄球道也被精心复原。如今这里作为咖啡馆和活动场地运营，最多可容纳八百位宾客，从日常喝咖啡小憩到婚礼庆典无所不包，比起它最初主人的设想，如今的用途显然平民化了不少。
+
+🎁 彩蛋：馆内的保龄球道是对19世纪70年代庄园宾客所用球道的忠实复原，这大概让它有资格竞争布拉格现存历史最悠久的保龄球道。如果你在这里打了个"沟球"，那么恭喜——你正在延续一段长达一个半世纪、布拉格上流社会在这项运动上屡战屡败的悠久传统。`,
+    },
+  },
+  {
+    name: 'Gunpowder Store and Gothic Cellar',
+    slug: 'pracharna-goticky-sklep',
+    localizedNames: { cz: 'Prachárna a Gotický sklep', zh: '火药库与哥特式地窖' },
+    labels: ['historical', 'architecture', 'hidden-gem'],
+    coordinates: { lat: 50.06357220328339, lng: 14.416459316348245 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Seznam_kulturn%C3%ADch_pam%C3%A1tek_na_Vy%C5%A1ehrad%C4%9B',
+    description: {
+      en: `Welcome to the Gunpowder Store and Gothic Cellar, two adjoining relics that between them have stored a medieval king's provisions, several centuries of actual gunpowder, and, most recently, contemporary art — which is quite a career change for a pair of hilltop buildings.
+
+The Gothic cellar is the only substantial survivor of one of four palace buildings raised on this royal acropolis in the second half of the 14th century, under Charles IV. Below ground it stored provisions; above it, on a floor long since gone, sat a banqueting hall with its own bay chapel. The buildings were wrecked in 1420, and whatever still stood afterward was cleared away when Baroque fortifications went up centuries later — leaving only this cellar, carefully restored and now filled with an exhibition tracing the site's changing shape from the fourth millennium BC to the present day.
+
+A short walk away sits the gunpowder store, a building raised in the second half of the 17th century partly on the footprint of a medieval assembly hall and partly on the stump of an older guard tower, perched on a cliff above a legendary princess's bathing spot. Once the fortress passed into military hands, the building took on the least romantic job available to it and simply stored gunpowder. From 1990 to 2022 it swapped explosives for exhibitions entirely, running as a contemporary art gallery before returning to the historical circuit as part of the same underground route as the Gothic cellar.
+
+🎁 Bonus: Between the 14th-century larder, the 17th-century powder magazine, and the late-20th-century art gallery, this pair of buildings has quietly cycled through cellar, weapon store, and white cube — proof that on a hill this old, even the storage rooms have complicated résumés.`,
+
+      cz: `Vítej v Prachárně a Gotickém sklepě, dvou sousedících památkách uvnitř Vyšehradu, které toho dohromady stihly uskladnit zásoby středověkého krále, několik století opravdového střelného prachu a v poslední době i současné umění — na dvojici budov na kopci docela pestrá kariéra.
+
+Gotický sklep je jediným zachovalým pozůstatkem jedné ze čtyř palácových staveb vybudovaných na tomto královském návrší ve druhé polovině 14. století za vlády Karla IV. Pod zemí sloužil k uskladnění zásob, nad ním, v patře, které se dodnes nedochovalo, se nacházel hodovní sál s vlastní arkýřovou kaplí. Stavby byly zpustošeny v roce 1420 a vše, co tehdy ještě stálo, bylo odstraněno o staletí později při stavbě barokního opevnění — dochoval se jen tento sklep, citlivě obnovený a dnes naplněný expozicí, která sleduje proměny místa od čtvrtého tisíciletí před naším letopočtem až po současnost.
+
+Kousek odtud stojí Prachárna, budova z druhé poloviny 17. století postavená částečně na půdorysu středověkého sněmovního paláce a částečně na pahýlu starší strážní věže, tyčící se na skále nad koupacím místem bájné kněžny. Poté, co se pevnost dostala do rukou vojenské správy, dostala budova tu nejméně romantickou možnou roli a prostě sloužila jako sklad střelného prachu. Od roku 1990 do roku 2022 vyměnila výbušniny zcela za výstavy a fungovala jako galerie současného umění, než se vrátila do historického okruhu jako součást stejné podzemní trasy jako Gotický sklep.
+
+🎁 Bonus: Mezi středověkou spížnicí ze 14. století, prachárnou ze 17. století a galerií umění z konce 20. století si tahle dvojice budov potichu prošla rolí sklepa, skladu zbraní i bílé výstavní kostky — důkaz, že na tak starém kopci mají komplikovaný životopis i pouhé skladovací místnosti.`,
+
+      zh: `欢迎来到火药库与哥特式地窖——两处相邻的遗迹，它们加起来先后储存过一位中世纪国王的补给、长达数百年的真正火药，以及最近的当代艺术，对这对山顶建筑来说，这职业生涯转型幅度不小。
+
+哥特式地窖是14世纪下半叶查理四世在位期间，在这座王家山丘上建造的四座宫殿建筑中，唯一大致完整保存下来的遗迹。地下部分曾用于储存补给，地上一层——如今已不复存在——曾是设有独立凸窗小礼拜堂的宴会厅。1420年，这些建筑遭到摧毁，数百年后修建巴洛克式防御工事时，残存的部分又被进一步清除——最终只留下了这间地窖，经过精心修复后，如今陈列着一场展览，梳理这处遗址从公元前四千年一直到今天的形态变迁。
+
+不远处便是火药库，一座建于17世纪下半叶的建筑，部分建在中世纪议事宫殿的地基之上，部分建在一座更古老瞭望塔的残余之上，矗立在俯瞰一位传说中公主沐浴之地的悬崖边。要塞转由军方管理后，这座建筑接下了它所能担任的最不浪漫的角色——单纯用来存放火药。1990年至2022年间，它彻底告别了炸药，转型为当代艺术画廊，之后又重新并入与哥特式地窖相同的地下参观路线，回归历史展示。
+
+🎁 彩蛋：从14世纪的地下储藏室，到17世纪的火药库，再到20世纪末的艺术画廊，这两栋建筑悄悄轮换过地窖、军火库和白盒子展厅的身份——足以证明，在这样古老的山丘上，就连储藏室的"履历"也相当复杂。`,
+    },
+  },
 ];
 
 async function run() {

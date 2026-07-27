@@ -412,7 +412,7 @@ export default function LocationDetail({
               <div
                 style={{
                   display: "flex",
-                  justifyContent: "flex-end",
+                  justifyContent: "space-between",
                   alignItems: "center",
                   marginBottom: 12,
                 }}
@@ -439,18 +439,18 @@ export default function LocationDetail({
                   <span style={{ fontSize: 16, color: "var(--gold)" }}>
                     +{loc.xpReward} XP
                   </span>
-                  {distance != null && (
-                    <span
-                      style={{
-                        fontFamily: "'Press Start 2P'",
-                        fontSize: 7,
-                        color: "var(--text-muted)",
-                      }}
-                    >
-                      {t("detail.distanceAway", { dist: formatDistance(distance) })}
-                    </span>
-                  )}
                 </div>
+                {distance != null && (
+                  <span
+                    style={{
+                      fontFamily: "'Press Start 2P'",
+                      fontSize: 7,
+                      color: "var(--text-muted)",
+                    }}
+                  >
+                    {t("detail.distanceAway", { dist: formatDistance(distance) })}
+                  </span>
+                )}
               </div>
 
               {(loc.labels || []).length > 0 && (

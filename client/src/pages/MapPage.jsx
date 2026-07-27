@@ -354,19 +354,21 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
         {lang !== 'cz' && loc.localizedNames?.cz && (
           <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: 'var(--text-muted)', marginBottom: 12 }}>{loc.localizedNames.cz}</p>
         )}
-        <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 4 }}>
-          <span style={{
-            display: 'inline-block', width: 8, height: 8,
-            background: RARITY_COLOR[loc.rarity ?? 'common'],
-            clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',
-            flexShrink: 0,
-          }} />
-          <span style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>
-            {convert(RARITY_LABEL[lang]?.[loc.rarity ?? 'common'])}
-          </span>
-          <span style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: 'var(--gold)', marginLeft: 4 }}>+{loc.xpReward} XP</span>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 6, marginBottom: 4 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
+            <span style={{
+              display: 'inline-block', width: 8, height: 8,
+              background: RARITY_COLOR[loc.rarity ?? 'common'],
+              clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',
+              flexShrink: 0,
+            }} />
+            <span style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>
+              {convert(RARITY_LABEL[lang]?.[loc.rarity ?? 'common'])}
+            </span>
+            <span style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: 'var(--gold)', marginLeft: 4 }}>+{loc.xpReward} XP</span>
+          </div>
           {userPos && (
-            <span style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: 'var(--text-muted)', marginLeft: 4 }}>
+            <span style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: 'var(--text-muted)' }}>
               {t('detail.distanceAway', { dist: formatDistance(haversineDistance(userPos.lat, userPos.lng, loc.coordinates.lat, loc.coordinates.lng)) })}
             </span>
           )}

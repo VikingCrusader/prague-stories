@@ -741,6 +741,10 @@ export const SLUG_RARITY = {
   'ceskobratrska-cirkev-vinohrady': 'superior', // 1908 Neo-Gothic Czech Brethren church on Korunní
   'cihelna-brana':                  'rare',     // 1841 Empire-style main gate into Vyšehrad's casemates
   'altan-grebovka':                 'common',   // 1871-88 vineyard gazebo in Havlíčkovy sady, popular wine-bar terrace
+
+  // ── Grébovka / Vyšehrad underground batch (2026-07) ─────────────────────
+  'pavilon-grebovka':               'rare',     // 1870s Gröbe garden hall with reconstructed bowling lane, now café
+  'pracharna-goticky-sklep':        'epic',     // 14th-c. palace cellar + 17th-c. powder store, Vyšehrad underground exhibit
 };
 
 export function getRarity(slug) {
