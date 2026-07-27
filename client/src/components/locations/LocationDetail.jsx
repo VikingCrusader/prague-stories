@@ -199,12 +199,18 @@ export default function LocationDetail({
         ) : loc ? (
           <>
             {loc.coverImage || !imgFailed ? (
-              <div
+              <a
+                href={`https://www.google.com/maps/dir/?api=1&destination=${loc.coordinates.lat},${loc.coordinates.lng}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                title={t("common.googleMaps")}
                 style={{
                   position: "relative",
                   aspectRatio: "1 / 1",
                   width: "100%",
                   overflow: "hidden",
+                  display: "block",
+                  cursor: "pointer",
                 }}
               >
                 <div
@@ -310,10 +316,16 @@ export default function LocationDetail({
                     </span>
                   )}
                 </div>
-              </div>
+              </a>
             ) : (
               <div className="px-modal__header" style={{ background: bgColor }}>
-                <div style={{ flexShrink: 0 }}>
+                <a
+                  href={`https://www.google.com/maps/dir/?api=1&destination=${loc.coordinates.lat},${loc.coordinates.lng}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  title={t("common.googleMaps")}
+                  style={{ flexShrink: 0, display: "block", cursor: "pointer" }}
+                >
                   <div
                     className={flipping ? "detail-img-flip" : undefined}
                     style={{ position: "relative" }}
@@ -366,7 +378,7 @@ export default function LocationDetail({
                       )
                     )}
                   </div>
-                </div>
+                </a>
                 <div style={{ flex: 1 }}>
                   <h2
                     className="px-title"

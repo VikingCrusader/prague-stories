@@ -331,7 +331,13 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
 
   return (
     <>
-      <div style={{ position: 'relative', width: '100%', aspectRatio: '1', background: 'var(--bg-secondary)', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0 }}>
+      <a
+        href={`https://www.google.com/maps/dir/?api=1&destination=${loc.coordinates.lat},${loc.coordinates.lng}`}
+        target="_blank"
+        rel="noopener noreferrer"
+        title={t('common.googleMaps')}
+        style={{ position: 'relative', width: '100%', aspectRatio: '1', background: 'var(--bg-secondary)', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, cursor: 'pointer' }}
+      >
         {loc.coverImage ? (
           <img src={loc.coverImage} alt={getLocName(loc, lang)} style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block', filter: loc.unlocked ? undefined : 'saturate(0.15)' }} />
         ) : !imgFailed ? (
@@ -347,7 +353,7 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
         {!loc.unlocked && (
           <img src={lockClosedIcon(loc.rarity)} alt="" style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '80%', height: 'auto', imageRendering: 'pixelated', zIndex: 2 }} />
         )}
-      </div>
+      </a>
 
       <div style={{ padding: 20 }}>
         <h3 className="px-title" style={{ fontSize: 14, lineHeight: lang === 'zh' ? undefined : 2.4, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 4 : 12, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>{convert(getLocName(loc, lang))}</h3>
