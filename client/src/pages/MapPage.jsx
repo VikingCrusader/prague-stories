@@ -350,11 +350,11 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
       </div>
 
       <div style={{ padding: 20 }}>
-        <h3 className="px-title" style={{ fontSize: 10, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 4 : 12, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>{convert(getLocName(loc, lang))}</h3>
+        <h3 className="px-title" style={{ fontSize: 14, lineHeight: lang === 'zh' ? undefined : 2.4, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 4 : 12, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>{convert(getLocName(loc, lang))}</h3>
         {lang !== 'cz' && loc.localizedNames?.cz && (
           <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: 'var(--text-muted)', marginBottom: 12 }}>{loc.localizedNames.cz}</p>
         )}
-        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 6, marginBottom: 4 }}>
+        <div className="loc-meta-row" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 6, marginBottom: 4 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
             <span style={{
               display: 'inline-block', width: 8, height: 8,
@@ -362,13 +362,13 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
               clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',
               flexShrink: 0,
             }} />
-            <span style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>
+            <span className="loc-meta__rarity" style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>
               {convert(RARITY_LABEL[lang]?.[loc.rarity ?? 'common'])}
             </span>
-            <span style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: 'var(--gold)', marginLeft: 4 }}>+{loc.xpReward} XP</span>
+            <span className="loc-meta__xp" style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: 'var(--gold)', marginLeft: 4 }}>+{loc.xpReward} XP</span>
           </div>
           {userPos && (
-            <span style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: 'var(--text-muted)' }}>
+            <span className="loc-meta__distance" style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: 'var(--text-muted)' }}>
               {t('detail.distanceAway', { dist: formatDistance(haversineDistance(userPos.lat, userPos.lng, loc.coordinates.lat, loc.coordinates.lng)) })}
             </span>
           )}

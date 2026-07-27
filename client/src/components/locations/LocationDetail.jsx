@@ -275,6 +275,7 @@ export default function LocationDetail({
                     className="px-title"
                     style={{
                       fontSize: 14,
+                      lineHeight: lang === "zh" ? undefined : 2.4,
                       marginBottom:
                         lang !== "cz" && loc.localizedNames?.cz ? 2 : 6,
                       color: RARITY_COLOR[loc.rarity ?? "common"],
@@ -371,6 +372,7 @@ export default function LocationDetail({
                     className="px-title"
                     style={{
                       fontSize: 14,
+                      lineHeight: lang === "zh" ? undefined : 2.4,
                       marginBottom:
                         lang !== "cz" && loc.localizedNames?.cz ? 2 : 10,
                       color: RARITY_COLOR[loc.rarity ?? "common"],
@@ -410,6 +412,7 @@ export default function LocationDetail({
 
             <div className="px-modal__body">
               <div
+                className="loc-meta-row"
                 style={{
                   display: "flex",
                   justifyContent: "space-between",
@@ -428,6 +431,7 @@ export default function LocationDetail({
                     }}
                   />
                   <span
+                    className="loc-meta__rarity"
                     style={{
                       fontFamily: "'Press Start 2P'",
                       fontSize: 8,
@@ -442,6 +446,7 @@ export default function LocationDetail({
                 </div>
                 {distance != null && (
                   <span
+                    className="loc-meta__distance"
                     style={{
                       fontFamily: "'Press Start 2P'",
                       fontSize: 7,

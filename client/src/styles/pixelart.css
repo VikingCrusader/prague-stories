@@ -835,6 +835,16 @@
   .guide-page { padding: 12px 14px; }
   .guide-h2 { font-size: 7.5px; }
   .guide-faq__q { font-size: 6.5px; }
+
+  /* Rarity/distance meta row: EN/CZ only — ZH already sized comfortably */
+  html:not([data-lang="zh"]) .loc-meta-row {
+    margin-bottom: 10px !important;
+  }
+  html:not([data-lang="zh"]) .loc-meta__rarity,
+  html:not([data-lang="zh"]) .loc-meta__xp,
+  html:not([data-lang="zh"]) .loc-meta__distance {
+    font-size: 10px !important;
+  }
 }
 
 /* Chinese on mobile: override global 16px/20px sizes down to readable pixel sizes */
