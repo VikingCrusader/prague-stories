@@ -785,6 +785,9 @@ export const SLUG_RARITY = {
 
   // ── Old Town curiosities batch (2026-08-06) ──────────────────────────────
   'smallest-house-in-prague':       'rare',     // 1853 Liebel infill house, 2.25m wide, ex-brothel until 1922
+
+  // ── Staré Město riverside batch (2026-08-07) ─────────────────────────────
+  'nemocnice-na-frantisku':         'superior', // 1354-founded riverside hospital, first ether-anaesthesia op in Bohemia (1847)
 };
 
 export function getRarity(slug) {

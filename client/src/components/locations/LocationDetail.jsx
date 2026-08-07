@@ -667,24 +667,26 @@ export default function LocationDetail({
                 </p>
               )}
 
-              {user && !checkInResult && (
+              {!checkInResult && (user || loc.createdAt) && (
                 <div
                   style={{
                     display: "flex",
-                    justifyContent: "space-between",
+                    justifyContent: user ? "space-between" : "flex-end",
                     alignItems: "center",
                     marginTop: 16,
                     paddingTop: 12,
                     borderTop: "1px solid #222",
                   }}
                 >
-                  <button
-                    className="px-btn px-btn--outline px-btn--sm"
-                    onClick={() => setShowEdit(true)}
-                    disabled={actionLoading}
-                  >
-                    Edit
-                  </button>
+                  {user && (
+                    <button
+                      className="px-btn px-btn--outline px-btn--sm"
+                      onClick={() => setShowEdit(true)}
+                      disabled={actionLoading}
+                    >
+                      Edit
+                    </button>
+                  )}
                   {loc.createdAt && (
                     <span
                       style={{

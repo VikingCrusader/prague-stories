@@ -21263,6 +21263,41 @@ Zhruba čtyřicet let, až do roku 1922, prožíval dům čilejší druhou kari�
 🎁 彩蛋：尽管名声在外，这栋房子按占地面积算其实并不是布拉格最小的——它真正的头衔是"最窄"，宽度只有2.25米。它在"最窄"头衔上的头号对手，就藏在几条街外一家酒店的某个房间里，这场关于布拉格最局促居住空间的较量，已经在一间前妓院和一间酒店客房之间悄悄较劲了170多年。`,
     },
   },
+  {
+    name: 'Na Františku Hospital',
+    slug: 'nemocnice-na-frantisku',
+    localizedNames: { cz: 'Nemocnice Na Františku', zh: 'Na Františku医院' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.09275294443908, lng: 14.42141496478274 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Nemocnice_Na_Franti%C5%A1ku',
+    description: {
+      en: `Brave adventurer, welcome to Na Františku Hospital! Tucked along the Vltava embankment just north of the Old Town, this unassuming complex has been patching up Praguers since the 14th century — making it older than most of the empires that have since risen, squabbled, and collapsed around it.
+
+The story starts in 1354, when the wealthy burgher Bohuslav of Olbramovice funded a hospital and chapel on this stretch of riverbank, and Prague's first-ever archbishop, Arnošt of Pardubice, personally consecrated the finished Chapel of Sts. Simon and Jude that same year. Fourteen years later, Archbishop Jan drew up an endowment to keep the place running — one so important that Emperor Charles IV himself stepped in to guarantee it personally. For a medieval charity ward, that is about as strong a stamp of approval as one could hope for.
+
+The institution changed hands after the Battle of White Mountain: in 1620, Emperor Ferdinand II handed the founding charter to the Brothers of Mercy, who opened an on-site pharmacy and more than doubled the bed count from 24 to 55, then rebuilt the chapel into the Early Baroque Church of Sts. Simon and Jude that still stands on the site today. Centuries later, on 6 February 1847, a monk named Brother Celestýn Opitz performed the first operation under general ether anaesthesia ever carried out in Bohemia, right here — a genuinely significant milestone for regional medicine that barely rates a plaque.
+
+🎁 Bonus: The hospital did not have an easy 20th century. It closed during the Nazi occupation and its wards were requisitioned, first for the German army and later as a Luftwaffe military hospital, before being nationalised into state ownership in 1950. Through royal patronage, monastic administration, foreign military occupation, and communist bureaucracy, the same address has kept doing the same job — treating sick Praguers — for roughly 670 years. Few buildings in this city can claim that kind of unbroken résumé.`,
+
+      cz: `Statečný dobrodruhu, vítej v Nemocnici Na Františku! Schovaná na vltavském nábřeží kousek od Starého Města, tahle nenápadná budova léčí Pražany už od 14. století — je tak starší než většina impérií, která se od té doby kolem ní vystřídala, pohádala a zhroutila.
+
+Příběh začíná v roce 1354, kdy bohatý pražský měšťan Bohuslav z Olbramovic financoval špitál a kapli na tomto kousku nábřeží a první pražský arcibiskup Arnošt z Pardubic téhož roku osobně vysvětil hotovou kapli sv. Šimona a Judy. O čtrnáct let později arcibiskup Jan zřídil nadání, které mělo chod špitálu zajistit natrvalo — natolik důležité, že se za jeho garanci osobně postavil sám císař Karel IV. Na středověký chudobinec je to celkem výmluvné vysvědčení.
+
+Po bitvě na Bílé hoře instituce změnila majitele: v roce 1620 předal císař Ferdinand II. zakládací listinu Milosrdným bratřím, kteří v areálu zřídili lékárnu a více než zdvojnásobili počet lůžek z 24 na 55, a kapli přestavěli na ranně barokní kostel sv. Šimona a Judy, který na místě stojí dodnes. O staletí později, 6. února 1847, tu bratr Celestýn Opitz provedl vůbec první operaci v celých Čechách v celkové éterové anestezii — skutečně zásadní milník regionální medicíny, který si dodnes nese jen skromnou pamětní desku.
+
+🎁 Bonus: Dvacáté století nemocnici nedopřálo klidný průběh. Za nacistické okupace byla uzavřena a její oddělení sloužila nejprve německé armádě, později jako vojenská nemocnice Luftwaffe, než byla v roce 1950 znárodněna a převedena do rukou státu. Přes královské donace, řádovou správu, cizí vojenskou okupaci i komunistickou byrokracii vykonává tatáž adresa už zhruba 670 let pořád tu samou práci — léčí nemocné Pražany. Jen málo budov ve městě se může pochlubit tak nepřerušeným životopisem.`,
+
+      zh: `勇敢的冒险家，欢迎来到Na Františku医院！这栋低调的建筑藏在老城以北的伏尔塔瓦河畔，自14世纪起就一直在为布拉格人治病——这意味着它比此后在它周围兴起、争斗又崩溃的大多数帝国都要古老。
+
+故事始于1354年，富有的布拉格市民奥尔布拉莫维采的博胡斯拉夫（Bohuslav z Olbramovic）出资在这段河岸边建起了一座医院和一座小教堂，布拉格历史上第一位大主教帕尔杜比采的阿尔诺什特（Arnošt z Pardubic）当年就亲自为竣工的圣西门和圣犹达小教堂举行了祝圣仪式。十四年后，大主教扬（Jan）设立了一笔基金，用以长期维持医院运转——这笔基金意义重大，以至于皇帝查理四世本人都亲自出面为其做担保。对一座中世纪的济贫医院来说，这已经算是相当过硬的信用背书了。
+
+白山之战后，医院几经易主：1620年，皇帝斐迪南二世将创立特许状转交给仁慈兄弟会，后者在院内开设了药房，将床位数从24张增加到55张，翻了一倍还多，随后又把小教堂改建成了早期巴洛克风格的圣西门和圣犹达教堂——这座教堂至今仍矗立在原址。几个世纪后的1847年2月6日，修士策莱斯廷·奥皮茨（Celestýn Opitz）在这里完成了波希米亚历史上第一例全身乙醚麻醉手术——这是区域医学史上意义重大的一刻，如今却只配得上一块低调得不能再低调的纪念牌。
+
+🎁 彩蛋：这座医院的20世纪过得并不安稳。纳粹占领期间它一度关闭，院区先是被德国陆军征用，后来又变成了德国空军的军医院，直到1950年才被收归国有。历经王室资助、修会管理、外国军队占领和共产主义官僚体制的轮番更迭，同一个地址却在大约670年间始终做着同一件事——救治生病的布拉格人。这座城市里，能拿出这样一份从未间断履历的建筑并不多。`,
+    },
+  },
 ];
 
 async function run() {
