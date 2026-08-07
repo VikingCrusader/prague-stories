@@ -20456,6 +20456,813 @@ Kousek odtud stojí Prachárna, budova z druhé poloviny 17. století postavená
 🎁 彩蛋：从14世纪的地下储藏室，到17世纪的火药库，再到20世纪末的艺术画廊，这两栋建筑悄悄轮换过地窖、军火库和白盒子展厅的身份——足以证明，在这样古老的山丘上，就连储藏室的"履历"也相当复杂。`,
     },
   },
+  {
+    name: 'Ořechovka Central Building',
+    slug: 'ustredni-budova-orechovka',
+    localizedNames: { cz: 'Ústřední budova Ořechovka', zh: '奥热霍夫卡中央大楼' },
+    labels: ['architecture', 'historical', 'hidden-gem'],
+    coordinates: { lat: 50.0944, lng: 14.3806 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C3%9Ast%C5%99edn%C3%AD_d%C5%AFm_O%C5%99echovka',
+    description: {
+      en: `Welcome to the Ořechovka Central Building, the one-stop civic hub of a leafy 1920s garden suburb where you could buy groceries, catch a Charlie Chaplin picture, see a dentist, mail a letter, and round off the evening with wine and a waltz — all without once getting your shoes muddy.
+
+Built between 1920 and 1923 to a design by architect Jaroslav Vondrák, it was conceived as the beating civic heart of Ořechovka, a brand-new garden colony built on the idea that a proper neighbourhood needs more than houses — it needs somewhere to shop, gossip, and be entertained. Vondrák's façade facing Macharovo náměstí sits at an unusual crossroads of style, caught between the last gasp of Cubist architecture and the emerging geometry of Art Deco. Inside, the building packed in a market hall, shops, a restaurant, a café with its own wine bar, doctors' consulting rooms, a post office, a library, and a meeting hall — an entire small town's worth of infrastructure folded into a single address.
+
+The cinema opened in 1923 with a Charlie Chaplin picture, and by 1927 the building had grown a theatre and dance hall to match its ambitions. It survived a heavy-handed 1970s renovation with at least some of its original doors, door handles, and decorative ventilation grilles intact, and was formally declared a protected cultural monument in 2016. The cinema itself has had a harder time of it lately: closed for reconstruction in 2009, reopened in 2012 for a handful of Sunday matinees, then stalled again by a tangle of ownership disputes between the housing cooperative, a cultural association, and the local district, each with its own idea of who actually runs the place.
+
+🎁 Bonus: As of the building's last facade renovation in 2019, the cinema's electrical wiring reportedly still works perfectly fine — it's the paperwork, not the projector, that has kept the lights off.`,
+
+      cz: `Vítej v Ústřední budově Ořechovka, univerzálním občanském centru zelené zahradní čtvrti z 20. let, kde jste si mohli nakoupit potraviny, zajít na film s Charliem Chaplinem, nechat si prohlédnout zuby, podat dopis na poště a večer zakončit vínem a tancem — a to vše, aniž byste si od bláta ušpinili boty.
+
+Budova vznikla v letech 1920 až 1923 podle návrhu architekta Jaroslava Vondráka a byla zamýšlena jako tepající občanské srdce Ořechovky, zbrusu nové zahradní kolonie postavené na myšlence, že pořádná čtvrť potřebuje víc než jen domy — potřebuje i místo, kam si zajít nakoupit, poklábosit a pobavit se. Vondrákova fasáda směrem k Macharovu náměstí stojí na neobvyklém rozhraní stylů, mezi doznívajícím kubismem a nastupující geometrií art deca. Uvnitř tehdy fungovala tržnice, obchody, restaurace, kavárna s vlastní vinárnou, lékařské ordinace, pošta, knihovna a spolková místnost — infrastruktura celého menšího města, složená do jediné adresy.
+
+Kino zahájilo provoz v roce 1923 filmem s Charliem Chaplinem a do roku 1927 k němu přibyl ještě divadelní a taneční sál, odpovídající ambicím celé budovy. Přežila i necitlivou přestavbu ze 70. let, přičemž si zachovala alespoň část původních dveří, klik a dekorativních větracích mřížek, a v roce 2016 byla oficiálně prohlášena kulturní památkou. Samotnému kinu se v poslední době vedlo o něco hůř: v roce 2009 bylo kvůli rekonstrukci zavřeno, v roce 2012 se na chvíli otevřelo pro pár nedělních představení a poté opět uvízlo v klubku majetkových sporů mezi bytovým družstvem, kulturním spolkem a městskou částí, z nichž každý má svou vlastní představu o tom, kdo tu vlastně velí.
+
+🎁 Bonus: Podle poslední opravy fasády z roku 2019 elektrické rozvody v kině prý stále fungují bez problémů — světla tam nezhasla kvůli promítačce, ale kvůli papírování.`,
+
+      zh: `欢迎来到奥热霍夫卡中央大楼——这座建于1920年代、绿树成荫的花园式郊区里唯一的"一站式"公共生活中心，在这里你可以买菜、看一场卓别林电影、看牙医、寄一封信，再用美酒与华尔兹结束一晚，全程都不必让鞋子沾上一点泥巴。
+
+这座建筑由建筑师雅罗斯拉夫·翁德拉克设计，建于1920年至1923年间，被构想为奥热霍夫卡这座崭新花园社区的公共生活心脏——这一社区的建造理念是：一个像样的社区不能只有房子，还得有地方让人买东西、闲聊、找乐子。大楼朝向马哈罗夫广场的立面，恰好站在风格交界处，在渐渐落幕的立体主义与初露头角的装饰艺术几何形态之间摇摆。楼内当年容纳了市场大厅、商店、餐厅、带自己酒窖的咖啡馆、诊室、邮局、图书馆和社团活动室——整整一座小城镇的基础设施，被折叠进了同一个地址。
+
+电影院于1923年放映了一部卓别林影片正式开业，到1927年，大楼又新增了一座剧场兼舞厅，与整栋建筑的雄心相匹配。它挺过了20世纪70年代一次并不细致的翻修，至少还保留了部分原始的门、门把手和装饰性通风格栅，并于2016年被正式列为文物保护建筑。近年来，电影院本身的日子却难过得多：2009年因整修而关闭，2012年短暂重开、仅在周日放映几场，随后又因住房合作社、文化协会与地方区政府之间纠缠不清的产权纠纷而再度停摆——三方各执一词，都觉得这地方该由自己说了算。
+
+🎁 彩蛋：据2019年最近一次立面翻修所知，电影院内部的电线据说至今运作良好——让这里始终没能重新亮灯的，不是放映机，而是文件手续。`,
+    },
+  },
+  {
+    name: 'Micka Point',
+    slug: 'micka-point',
+    localizedNames: { cz: 'Micka Point', zh: '米卡打卡点' },
+    labels: ['hidden-gem', 'street'],
+    coordinates: { lat: 50.074870021293876, lng: 14.391610850300061 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Micka Point! This is not a monument, not a museum, and not technically an official attraction of any kind. It is a cat. A specific, individual, quietly judgmental cat named Micka, who lives behind a garden fence in Smíchov and has, entirely without trying, accumulated more devoted visitors than some genuine historic landmarks nearby.
+
+Micka's fame rests entirely on word of mouth — or, more precisely, on hundreds of online reviews written by people who made a special trip just to see her. Visitors report waiting patiently by the fence, comparing notes on whether she's in a mood to be petted, and occasionally getting hissed at and swatted for their trouble. One reviewer reportedly crossed international borders specifically to confirm she was still on duty. Reviews arrive in Czech, English, French, and German, and nearly all of them read less like a cat sighting and more like a pilgrimage report: was she there, was she gracious, was the visit worth the walk.
+
+The fence itself sits a few steps from a genuine 17th-century landmark — the Baroque Chapel of the Holy Trinity, quietly restored in 2009–2010 — which most visitors to this address walk straight past without a glance. Some recent reviews mention changes to the site, an uncertain caretaking situation, and a fence section that has since come down, suggesting Micka's reign may be entering a more precarious chapter. For now, though, she remains exactly what dozens of strangers have already declared her: unbothered, unpaid, and unmistakably in charge.
+
+🎁 Bonus: Google Maps reportedly lists a live "wait time" for this location — a feature normally reserved for restaurants and amusement park rides, here quietly repurposed to estimate how long you might have to loiter by a fence before a cat decides you're worth acknowledging.`,
+
+      cz: `Statečný dobrodruhu, vítej u Micka Point! Nejde o žádnou památku, muzeum ani oficiálně uznanou atrakci. Je to kočka. Konkrétní, jedinečná, tiše kritická kočka jménem Micka, která žije za plotem jedné zahrady na Smíchově a zcela bez vlastního přičinění si vysloužila víc oddaných návštěvníků než leckterá skutečná historická památka poblíž.
+
+Miččina sláva stojí čistě na ústním podání — přesněji na stovkách recenzí od lidí, kteří si k ní udělali speciální výlet. Návštěvníci popisují trpělivé čekání u plotu, dohady, jestli je zrovna v náladě na pomazlení, a občas i syčení a políček za svou snahu. Jeden recenzent prý kvůli ní přejel hranice, jen aby se ujistil, že je stále ve službě. Recenze chodí česky, anglicky, francouzsky i německy, a téměř všechny znějí míň jako záznam o spatření kočky a víc jako poutnická zpráva: byla tam, byla milostivá, stála ta cesta za to.
+
+Plot samotný stojí pár kroků od skutečné památky ze 17. století — barokní Kaple Nejsvětější Trojice, tiše zrenovované v letech 2009–2010 — kolem které většina návštěvníků na této adrese projde bez jediného pohledu. Některé nedávné recenze zmiňují změny na místě, nejasnou situaci kolem péče o Micku a část plotu, která od té doby zmizela, což naznačuje, že Miččina vláda možná vstupuje do nejistější kapitoly. Prozatím ale zůstává přesně tím, čím ji už desítky cizích lidí prohlásily: nerušená, neplacená a jednoznačně tady velí ona.
+
+🎁 Bonus: Google Mapy u tohoto místa prý zobrazují živou "dobu čekání" — funkci normálně vyhrazenou restauracím a atrakcím v zábavních parcích, tady potichu využitou k odhadu, jak dlouho budete muset postávat u plotu, než se kočka rozhodne, že si zasloužíte její pozornost.`,
+
+      zh: `勇敢的冒险家，欢迎来到米卡打卡点！这里不是什么古迹，不是博物馆，严格来说也算不上一个正式景点。这里有一只猫。一只具体的、独一无二的、态度略显挑剔的猫，名叫米卡，住在斯米霍夫一户人家的花园栅栏后面——她什么都没做，却在无意间收获了比附近不少真正历史古迹还要多的忠实访客。
+
+米卡的名气完全靠口口相传——更准确地说，是靠成百上千条专程为她而写的评论。访客们描述自己如何在栅栏边耐心等待，猜测她今天是否愿意让人抚摸，偶尔也会因此被她"嘶"一声再赏一巴掌。据说有位访客甚至专门跨越国境，只为确认她还"在岗"。评论用捷克语、英语、法语、德语写成，读起来几乎不像是"偶遇了一只猫"，倒更像是一份朝圣报告：她在不在，态度好不好，这趟路值不值。
+
+这道栅栏本身，距离一处真正的17世纪古迹只有几步之遥——那座巴洛克风格的圣三一小堂，曾在2009至2010年间悄悄完成修复——而大多数造访这个地址的人，压根不会多看它一眼。近期的一些评论提到了现场的变化、照顾者身份的不确定，以及后来被拆除的一段栅栏，这些都暗示米卡的"统治"或许正进入一个更不稳定的阶段。但就目前而言，她依然是几十位陌生人早已下过的定论：不受打扰、不拿薪水，而且毫无疑问，这里她说了算。
+
+🎁 彩蛋：据说Google地图为这个地点提供了实时"等待时间"——这项功能通常只用于餐厅和游乐设施，如今却被悄悄挪用来估算你得在栅栏边站多久，才能让一只猫决定你值得被她看一眼。`,
+    },
+  },
+  {
+    name: 'Strahov Tunnel Ventilation Towers',
+    slug: 'vetraci-veze-strahovskeho-tunelu',
+    localizedNames: { cz: 'Větrací věže strahovského tunelu', zh: '斯特拉霍夫隧道通风塔' },
+    labels: ['tower', 'modern', 'transport'],
+    coordinates: { lat: 50.07821367384322, lng: 14.389570150865293 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Strahovsk%C3%BD_tunel',
+    description: {
+      en: `Brave adventurer, welcome to the Ventilation Towers of the Strahov Tunnel! Two slender concrete chimneys, each rising 48 metres above the Strahov hillside, exist for one deeply unglamorous purpose: pulling exhaust fumes out of a two-kilometre road tunnel so the rest of Prague doesn't have to breathe them.
+
+The tunnel beneath these towers has a genuinely long backstory. The idea first surfaced in a 1937 urban-planning competition, then sat untouched for decades before the final project was drawn up in 1979. Ground preparation began in 1984, construction proper started in 1986, and the tunnel finally opened to traffic in the mid-1990s — running roughly two kilometres from Smíchov, tucked beneath Strahov Stadium, out to the boundary between Břevnov and Střešovice. At the time, it was the first and longest structure of its kind built in the country.
+
+The towers themselves are the visible tip of a much larger, mostly invisible machine. Below ground, a 130-metre-long engine room houses eleven turbines — some 2.24 metres across, others 2.8 — that only spin up when air-quality sensors inside the tunnel detect pollution crossing a set threshold, drawing the fouled air up and out through the twin chimneys. The whole tunnel complex, towers included, also doubles as part of Prague's civil-defence shelter network, ready to serve a far more serious purpose than commuter traffic if it's ever needed.
+
+🎁 Bonus: These two towers are visible from an improbable number of vantage points across the Prague skyline — poking up behind rooftops, framed between hills, catching the eye from across the river — and yet almost nobody who spots them could actually say what they are. Possibly the single most-seen, least-identified structure in the entire city.`,
+
+      cz: `Statečný dobrodruhu, vítej u Větracích věží strahovského tunelu! Dvě štíhlé betonové věže, každá vysoká 48 metrů, se tyčí nad strahovským svahem kvůli jednomu naprosto nezáživnému úkolu: odvádět výfukové plyny z dvoukilometrového silničního tunelu, aby je zbytek Prahy nemusel dýchat.
+
+Tunel pod těmito věžemi má opravdu dlouhou historii. Nápad se poprvé objevil v urbanistické soutěži už v roce 1937 a pak desítky let ležel ladem, než byl v roce 1979 vypracován finální projekt. Přípravné zemní práce začaly v roce 1984, samotná výstavba v roce 1986, a tunel byl nakonec zprovozněn v polovině devadesátých let — vede zhruba dva kilometry od Smíchova, pod Strahovským stadionem, až na hranici Břevnova a Střešovic. V době svého vzniku šlo o první a nejdelší stavbu svého druhu v zemi.
+
+Samotné věže jsou jen viditelnou špičkou mnohem většího, převážně neviditelného stroje. Pod zemí se nachází 130 metrů dlouhá strojovna s jedenácti turbínami — některé o průměru 2,24 metru, jiné 2,8 metru — které se roztočí pouze tehdy, když čidla kvality vzduchu v tunelu zaznamenají znečištění nad stanovenou hranicí, a vytáhnou znečištěný vzduch nahoru a ven skrz dvojici komínů. Celý tunelový komplex včetně věží je zároveň součástí pražského systému civilní ochrany, připraven v případě potřeby posloužit mnohem vážnějšímu účelu než dojíždění do práce.
+
+🎁 Bonus: Tyhle dvě věže jsou vidět z překvapivého množství míst po celé pražské panoramatu — vykukují zpoza střech, rámují se mezi kopci, zaujmou pohled i přes řeku — a přesto skoro nikdo, kdo si jich všimne, neví, co vlastně je. Možná jde o nejviditelnější a zároveň nejméně identifikovanou stavbu v celém městě.`,
+
+      zh: `勇敢的冒险家，欢迎来到斯特拉霍夫隧道通风塔！两座纤细的混凝土烟囱，各自高48米，矗立在斯特拉霍夫山坡上，只为了一个毫不光鲜的任务：把废气从一条两公里长的公路隧道里抽出来，好让布拉格其他地方的人不用跟着吸。
+
+这两座塔下方的隧道，其实有着相当漫长的前情提要。这个构想最早出现在1937年的一次城市规划竞赛中，之后被搁置了几十年，直到1979年才完成最终方案。地基整备工程始于1984年，正式施工始于1986年，隧道最终在1990年代中期通车——路线从斯米霍夫出发，穿过斯特拉霍夫体育场下方，一路延伸到布热夫诺夫与斯特雷绍维采两区的交界，全长约两公里。在建成当时，这是捷克境内同类工程中第一条，也是最长的一条。
+
+这两座塔只是一台更庞大、大部分深藏地下的机器露出的一角。地下有一间长达130米的机房，安装着十一台涡轮机——直径分别为2.24米和2.8米——只有当隧道内的空气质量传感器检测到污染超过设定阈值时，它们才会启动，把污浊空气经由这对烟囱抽出、排向高空。整个隧道系统，连同这两座塔在内，同时也是布拉格城市民防掩体网络的一部分，一旦真的需要，随时准备承担远比疏导车流更严肃的任务。
+
+🎁 彩蛋：这两座塔从布拉格天际线里数量惊人的观景点都能看见——在屋顶后探出头、被两山夹峙着入镜、甚至隔着河也能一眼看到——可几乎没有人在看到它们时，能说清楚这到底是什么。它们大概是这座城市里"被看见次数最多、却被认出次数最少"的建筑物。`,
+    },
+  },
+  {
+    name: 'Community Garden Suchdol',
+    slug: 'komunitni-zahrada-suchdol',
+    localizedNames: { cz: 'Komunitní zahrada Suchdol', zh: '苏赫多尔社区花园' },
+    labels: ['park', 'nature', 'cultural'],
+    coordinates: { lat: 50.1381118801281, lng: 14.381742175174194 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Community Garden Suchdol! This is not a garden in the manicured, do-not-touch sense — it is the kind of garden where children are actively encouraged to get muddy, climb through a willow tunnel, and bounce on a trampoline built directly into the earth. Bring a snack, because this one rewards lingering.
+
+The garden has been growing — literally and organizationally — since the autumn of 2014, built up patch by patch through the sustained effort of local residents rather than a single grand unveiling. It functions as a genuine community hub: there's a small fruit orchard, perennial flower beds, and a decorative pond, alongside play features that lean refreshingly analogue — a rope spider-web for testing balance, water troughs for splashing, and that already-mentioned earth trampoline, which is exactly what it sounds like: a trampoline surface set flush with the ground instead of perched on legs.
+
+It also does double duty as an outdoor classroom for the neighbouring Mikoláš Aleš Primary School, and its natural amphitheatre and communal fire pit regularly host picnics, open-air film screenings, and other gatherings that turn the garden from a quiet green patch into an actual social occasion.
+
+🎁 Bonus: An "earth trampoline" is a real category of playground equipment, not a description someone made up for this entry — the bouncing membrane is stretched across a sunken pit so the whole thing sits at ground level, which means no ladder, no fall height, and considerably less parental anxiety than the freestanding kind.`,
+
+      cz: `Statečný dobrodruhu, vítej v Komunitní zahradě Suchdol! Tohle není upravená zahrada, na kterou se nesmí sahat — je to přesně ten typ zahrady, kde jsou děti aktivně vybízeny, aby se zablátily, prolezly vrbovým tunelem a poskakovaly na trampolíně zapuštěné přímo do země. Vezmi si svačinu, protože tohle místo odměňuje ty, kdo se zdrží déle.
+
+Zahrada roste — doslova i organizačně — od podzimu 2014, budovaná záhon po záhonu díky dlouhodobému úsilí místních obyvatel, nikoli jedním velkým slavnostním otevřením. Funguje jako skutečné komunitní centrum: najdeš tu malý ovocný sad, trvalkové záhony a okrasný rybníček, k tomu herní prvky, které jsou příjemně neelektronické — lanovou pavučinu na trénování rovnováhy, vodní žlaby na cákání a už zmíněnou zemní trampolínu, což je přesně to, co to zní — trampolínová plocha zapuštěná do úrovně terénu místo trampolíny na nohách.
+
+Zahrada zároveň slouží jako venkovní učebna pro sousední Základní školu Mikoláše Alše a její přírodní amfiteátr i společné ohniště pravidelně hostí piknik, letní kino pod širým nebem a další setkání, díky nimž se z tichého kousku zeleně stává skutečná společenská událost.
+
+🎁 Bonus: "Zemní trampolína" je skutečná kategorie hřištního vybavení, ne popis, který si někdo vymyslel pro tento záznam — pružná plocha je natažená přes zapuštěnou jámu, takže celá konstrukce leží v úrovni země, což znamená žádný žebřík, žádnou pádovou výšku a podstatně méně rodičovské úzkosti než u volně stojící verze.`,
+
+      zh: `勇敢的冒险家，欢迎来到苏赫多尔社区花园！这可不是那种修剪整齐、不许乱碰的花园——恰恰相反，这里鼓励孩子们踩泥巴、钻柳条隧道、在嵌入地面的蹦床上蹦跳。记得带点零食来，因为这个地方值得你多待一会儿。
+
+这座花园从2014年秋天开始，一点点地——无论是空间上还是组织上——生长起来，靠的是当地居民持续不断的投入，而不是某一次盛大的开幕典礼。它承担着真正的社区中心功能：园内有一小片果园、多年生花卉花坛和一个装饰性水塘，再加上一些令人耳目一新的"低科技"游乐设施——用来练习平衡感的绳网蜘蛛网、供孩子玩水的水槽，还有前面提到的那种嵌入地面的蹦床，顾名思义，就是把蹦床表面直接铺在一个下沉的坑里，而不是架在支腿上。
+
+花园同时也是附近米科拉什·阿列什小学的户外教室，园内的自然圆形剧场和公共篝火区经常举办野餐、露天电影放映等活动，让这片安静的绿地变成真正热闹的社交场所。
+
+🎁 彩蛋：所谓"嵌入地面的蹦床"其实是一种真实存在的游乐设施类别，并不是为这篇介绍临时编出来的说法——有弹性的蹦床面被撑在一个下沉的坑洞上，整体和地面齐平，这意味着不需要梯子、几乎没有跌落高度，家长的焦虑也比那种架空式蹦床少得多。`,
+    },
+  },
+  {
+    name: 'Horoměřice Chateau',
+    slug: 'zamek-horomerice',
+    localizedNames: { cz: 'Zámek Horoměřice', zh: '霍罗梅日采城堡' },
+    labels: ['architecture', 'historical', 'palace'],
+    coordinates: { lat: 50.133227869114606, lng: 14.337667910775243 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Horoměřice Chateau! Don't let the word "chateau" set your expectations too high — this one started life as a humble farm building, got promoted to noble residence by some ambitious monks, and today sits quietly behind closed gates, waiting for a several-hundred-million-crown makeover it has been promised but not yet received.
+
+The village of Horoměřice first appears in the historical record in 1273, already under the ownership of Strahov Monastery — a relationship that, aside from one turbulent interruption during the Hussite wars, lasted nearly seven centuries. Prague's authorities seized the estate in 1421, and it took the Premonstratensian monks until 1598, under Abbot Jan Lohelius, to buy it back. They then held onto it right up until 1945. Somewhere in the first half of the eighteenth century, the monastery took its plain working farmstead here and rebuilt it into a modest two-storey chateau, complete with a rectangular footprint and a small lantern-topped tower on the roof — respectable, but never grand.
+
+The most interesting room isn't visible from outside: a square chapel on the upper floor, capped with a domed ceiling, painted by the Premonstratensian monk-artist Siard Nosecký with scenes of St. Anne and Joachim alongside Old Testament figures like Abraham and Isaac. After the monastery's ownership ended in 1945, the chateau's fortunes grew tangled — restitution claims, disputed land, a state land fund with its own opinions — and it eventually passed to the municipality of Horoměřice. The building survives in reasonably solid condition, but it remains closed to visitors while the town works out how to pay for repairs estimated at around 350 million crowns.
+
+🎁 Bonus: Horoměřice's deputy mayor has floated a genuinely nice idea for the finished chateau — not a museum behind velvet ropes, but a shared meeting place for people from both Prague and Central Bohemia, leaning into the fact that the village sits right on that administrative border. Whether that happens depends entirely on grant applications, so consider this location a long-term investment.`,
+
+      cz: `Statečný dobrodruhu, vítej u zámku Horoměřice! Slovo "zámek" ale moc nepřeceňuj — tahle stavba začínala jako obyčejné hospodářské stavení, k panskému sídlu ji povýšili ambiciózní mniši, a dnes tiše stojí za zavřenou branou a čeká na několikasetmilionovou opravu, kterou má slíbenou, ale zatím nedostala.
+
+Obec Horoměřice se poprvé objevuje v historických pramenech v roce 1273, už tehdy jako majetek strahovského kláštera — vztah, který kromě jednoho bouřlivého přerušení během husitských válek vydržel téměř sedm století. Pražané panství zabavili v roce 1421 a premonstrátským mnichům trvalo až do roku 1598, než ho pod vedením opata Jana Lohelia vykoupili zpět. Drželi ho pak až do roku 1945. Někdy v první polovině osmnáctého století klášter přestavěl prostý hospodářský dvůr na skromný dvoupatrový zámeček s obdélníkovým půdorysem a malou věžičkou s lucernou na střeše — solidní, ale nikdy okázalý.
+
+Nejzajímavější místnost zvenku vůbec nepoznáš: čtvercová kaple v prvním patře, zaklenutá kupolovitým stropem, který vymaloval premonstrátský malíř-mnich Siard Nosecký výjevy svaté Anny a Jáchyma spolu se starozákonními postavami jako Abraham a Izák. Po skončení klášterního vlastnictví v roce 1945 se osudy zámku značně zamotaly — restituční nároky, sporné pozemky, státní pozemkový fond se svým vlastním názorem — a nakonec zámek připadl obci Horoměřice. Budova se dochovala v poměrně slušném stavu, veřejnosti ale zůstává uzavřená, dokud obec neřeší, jak zaplatit opravy odhadované na zhruba 350 milionů korun.
+
+🎁 Bonus: Místostarosta Horoměřic přišel s vážně pěknou vizí, k čemu by hotový zámek mohl sloužit — ne muzeum za sametovou páskou, ale sdílené místo setkávání pro lidi z Prahy i ze středních Čech, s odkazem na to, že obec leží přesně na jejich hranici. Jestli se to podaří, závisí čistě na dotačních žádostech, takže tuhle lokaci ber jako dlouhodobou investici.`,
+
+      zh: `勇敢的冒险家，欢迎来到霍罗梅日采城堡！先别被"城堡"这个词吓到期望值太高——这座建筑最初只是一座普通的农庄建筑，后来被一群颇有野心的修士升级为贵族宅邸，如今则安静地待在紧闭的大门后面，等待一笔承诺已久却始终没到位的巨额翻修资金。
+
+霍罗梅日采村最早出现在1273年的历史记载中，当时已经归斯特拉霍夫修道院所有——这段关系除了在胡斯战争期间被一次动荡打断之外，一直延续了将近七个世纪。布拉格当局在1421年没收了这片领地，普雷蒙特雷修会的修士们直到1598年才在扬·罗赫利乌斯院长的带领下把它买回来，此后一直持有到1945年。大约在十八世纪上半叶，修道院把这里一座朴素的农庄改建成了一座低调的两层城堡，长方形平面，屋顶上还有一座带灯笼顶的小塔楼——体面，但从不张扬。
+
+这座城堡最有意思的房间从外面根本看不出来：二楼有一间方形小礼拜堂，圆顶天花板上绘有普雷蒙特雷修会的画僧西亚尔德·诺塞茨基创作的壁画，描绘圣安妮与圣若亚敬，以及亚伯拉罕、以撒等旧约人物。1945年修道院的所有权结束后，城堡的命运变得相当复杂——归还请求、有争议的土地、还有自有主张的国有土地基金——最终它归属于霍罗梅日采镇。这座建筑保存状况尚可，但在小镇想清楚该如何支付大约3.5亿克朗的修复费用之前，它对公众依然是关闭的。
+
+🎁 彩蛋：霍罗梅日采的副镇长为修复完成后的城堡提出了一个相当不错的构想——不是把它变成挂着天鹅绒围栏的博物馆，而是打造一个供布拉格居民与中波希米亚居民共同使用的会面场所，正好呼应这个村庄恰好坐落在两地行政边界上的事实。这个计划能否实现，完全取决于各类补助申请的结果，所以不妨把这个地点当作一项长期投资来看待。`,
+    },
+  },
+  {
+    name: 'Panská Garden',
+    slug: 'panska-zahrada',
+    localizedNames: { cz: 'Panská zahrada', zh: '潘斯卡花园' },
+    labels: ['park', 'nature', 'cultural'],
+    coordinates: { lat: 50.050607457050894, lng: 14.314968065172376 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Panská Garden! This modest neighbourhood park has quietly cycled through more identities than most — church garden, market garden, allotment colony — before settling into its current, far more relaxing job description: somewhere to sit by a pond, let the kids get soaked, and not think about any of that history at all.
+
+This patch of Stodůlky started out as the parish garden belonging to the local Church of St. James the Greater, then drifted through a stint as a horticultural plot before becoming, for a good while, a private allotment colony — the kind of green space visible from the street but off-limits to everyone without a plot of their own. A pair of ponds here dates back to the nineteenth century, quietly outlasting every change of purpose above ground.
+
+A 2009–2011 reconstruction opened the whole thing back up to the public, officially unveiled on 21 June 2011, and gave the park its current centrepiece: a stepped water feature that starts as shallow concrete pools with jets running down the slope, paired with built-in ceramic seating, and culminates at the top in colourful ceramic sculptures spraying water into small pebble-filled pools. It's the work of sculptor Alexandra Koláčková, whose public art favours exactly this mix of bold colour and unpretentious, curved shapes.
+
+🎁 Bonus: The whole redesign was explicitly built around a dual purpose — the sloped meadow around the fountain becomes a splash zone for local kids in summer and turns into an everyday sunbathing lawn once the water settles down, which is a more honest design brief than most public parks ever get.`,
+
+      cz: `Statečný dobrodruhu, vítej v Panské zahradě! Tenhle nenápadný sousedský park za sebou má víc identit než většina ostatních — farní zahradu, zahradnickou plochu, zahrádkářskou kolonii — než se usadil u své současné, mnohem klidnější náplně práce: být místem, kde si sednete k rybníčku, necháte děti pořádně zmoknout a na tu historii vůbec nemusíte myslet.
+
+Tento kousek Stodůlek začínal jako farní zahrada patřící místnímu kostelu sv. Jakuba Staršího, poté prošel obdobím zahradnické plochy a na dlouhou dobu se proměnil v zahrádkářskou kolonii — tedy zelenou plochu vidět z ulice, ale nepřístupnou nikomu bez vlastní parcely. Dvojice zdejších rybníčků sahá až do devatenáctého století a tiše přečkala každou změnu účelu nad zemí.
+
+Rekonstrukce v letech 2009–2011 park znovu otevřela veřejnosti, slavnostně 21. června 2011, a dala mu jeho dnešní dominantu: stupňovitou vodní hříčku, která začíná mělkými betonovými bazénky s tryskami vedoucími po svahu, doplněnými zabudovaným keramickým sezením, a nahoře vrcholí barevnými keramickými plastikami stříkajícími vodu do malých jezírek vysypaných oblázky. Je to dílo sochařky Alexandry Koláčkové, jejíž veřejné realizace sázejí přesně na tuhle kombinaci sytých barev a nenucených oblých tvarů.
+
+🎁 Bonus: Celá přestavba byla od začátku navržená se dvěma účely — svažitá louka kolem fontány se v létě mění v cákací zónu pro místní děti a jakmile voda vyschne, slouží jako běžná tráva na opalování, což je poctivější zadání, než jaké obvykle dostávají veřejné parky.`,
+
+      zh: `勇敢的冒险家，欢迎来到潘斯卡花园！这座低调的社区公园经历过的身份比大多数地方都多——教堂菜园、园艺用地、市民菜园——才最终安定成如今这份轻松得多的角色：一个可以坐在水塘边、任由孩子们玩水玩到浑身湿透、完全不用去想那段历史的地方。
+
+斯托杜尔基的这片地方最初是当地圣雅各伯堂区的教堂菜园，后来变成了园艺用地，又在很长一段时间里成了市民菜园——那种从街上能看见、却只有拥有地块的人才能进去的绿地。园内有两个水塘，历史可以追溯到十九世纪，静静地熬过了地面上每一次用途的变化。
+
+2009至2011年的一次改造重新向公众开放了整座公园，于2011年6月21日正式揭幕，也给公园留下了如今的核心亮点：一座阶梯式戏水设施，从顺着坡地而下、带喷头的浅水混凝土水池开始，配有嵌入式陶瓷座椅，一路向上，最终以喷水的彩色陶瓷雕塑收尾，雕塑安放在铺满鹅卵石的小水池中。这出自雕塑家亚历山德拉·科拉奇科娃之手，她的公共艺术作品一贯偏爱这种浓烈色彩与不做作的曲线造型的组合。
+
+🎁 彩蛋：整个改造方案从一开始就明确设定了双重用途——喷泉周围的斜坡草地在夏天是当地孩子们的戏水区，等水停下来之后，又变成了日常的晒太阳草坪，这比大多数公共公园得到的设计初衷都要坦诚得多。`,
+    },
+  },
+  {
+    name: 'Aviatica',
+    slug: 'aviatica',
+    localizedNames: { cz: 'Aviatica', zh: 'Aviatica（航空大厦）' },
+    labels: ['modern', 'architecture', 'factory'],
+    coordinates: { lat: 50.0563477085972, lng: 14.374504019753331 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Adventurer, welcome to Aviatica! This glassy office tower in the Waltrovka development looks like nothing more than another place where spreadsheets go to die — until you learn it stands on the exact ground where propeller engines once roared to life, which honestly explains a lot about the building's ambition.
+
+Aviatica occupies the former grounds of the Walter Motors factory, founded in 1911 by Josef Walter, which for decades built aircraft engines that powered Czechoslovak planes at home and abroad. When the site was redeveloped into the Waltrovka business quarter, the name Aviatica was chosen deliberately — Latin for "aviation" — so that a place which once manufactured propulsion for flight would keep some memory of what it used to do, even after the last engine left the assembly line.
+
+Completed in 2015 to a design by Jakub Cigler Architekti, the building sits on a squat glazed base with two ovoid tower volumes rising above it, their extra floors cantilevered out past the edges of the lower block on steel trusses — a shape that, if you squint, does something faintly aerodynamic. Each entrance lobby carries a small aviation-themed art installation as a nod to the site's past, and the whole complex earned LEED Gold certification for its environmental performance, presumably the sustainability equivalent of a smooth landing.
+
+🎁 Bonus: Walter Motors' engines weren't just a local curiosity — the company built engines that powered aircraft to genuine world records and equipped both civilian and military planes across interwar Czechoslovakia. The factory kept working under different owners and names for decades after the war before the site was finally handed over to redevelopment, meaning the ground under your feet at Aviatica has been humming with machinery, in one form or another, for well over a century.`,
+
+      cz: `Statečný dobrodruhu, vítej v Aviatice! Tahle prosklená kancelářská věž v developmentu Waltrovka na první pohled vypadá jako další místo, kde umírají excelové tabulky — dokud nezjistíte, že stojí přesně na pozemku, kde kdysi hlučely letecké motory, což leccos vysvětluje o ambicích téhle budovy.
+
+Aviatica stojí na bývalém pozemku továrny Walter, kterou v roce 1911 založil Josef Walter a která desítky let vyráběla letecké motory pohánějící československá letadla doma i v zahraničí. Když se areál proměnil ve čtvrť Waltrovka, název Aviatica — latinsky "letectví" — byl zvolen záměrně, aby si místo, které kdysi vyrábělo pohon pro let, uchovalo alespoň vzpomínku na to, čím kdysi bylo, i po odchodu posledního motoru z montážní linky.
+
+Budova dokončená v roce 2015 podle návrhu Jakuba Ciglera stojí na nízkém proskleném podstavci, z něhož vyrůstají dvě vejčité věže s vyššími patry vysunutými přes hranu spodní hmoty na ocelových výztuhách — tvar, který při troše fantazie skutečně působí trochu aerodynamicky. Každý vstupní vestibul nese drobnou uměleckou instalaci s leteckou tematikou jako připomínku historie místa a celý komplex získal certifikaci LEED Gold za svou environmentální výkonnost, což je asi udržitelnostní ekvivalent hladkého přistání.
+
+🎁 Bonus: Motory Waltrovky nebyly jen místní kuriozitou — firma vyráběla motory, které poháněly letadla se skutečnými světovými rekordy, a vybavovala jak civilní, tak vojenská letadla meziválečného Československa. Továrna fungovala pod různými vlastníky a názvy ještě desítky let po válce, než byl areál konečně předán k přestavbě — takže země pod vašima nohama v Aviatice hučí strojmi, v té či oné podobě, už přes sto let.`,
+
+      zh: `勇敢的冒险家，欢迎来到Aviatica！这栋位于Waltrovka园区的玻璃幕墙办公大楼乍看只是又一处让报表加班到深夜的地方——直到你发现它正好建在当年螺旋桨发动机轰鸣作响的土地上，这才多少解释了这栋建筑为何野心勃勃。
+
+Aviatica建在Walter汽车发动机厂的旧址上。这家工厂由约瑟夫·瓦尔特于1911年创立，几十年间生产的航空发动机曾为捷克斯洛伐克境内外的飞机提供动力。当整片厂区被改造成Waltrovka商务园区时，"Aviatica"这个名字——拉丁语意为"航空"——是特意选定的，为的是让这片曾经制造飞行动力的土地，在最后一台发动机离开装配线之后，依然留一点对过去身份的记忆。
+
+这栋楼由Jakub Cigler建筑事务所设计，2015年建成，低矮的玻璃基座之上耸立着两座椭圆形平面的塔楼，加建楼层借助钢桁架悬挑出下部体量的边缘——如果你眯着眼看，这个造型确实带着几分空气动力学的味道。每个入口大堂都设有一件小型航空主题艺术装置，向这片土地的过去致意，整个项目也因其环保表现获得了LEED金级认证，大概算是可持续发展版本的"平稳降落"。
+
+🎁 彩蛋：Walter工厂的发动机可不只是本地的小趣闻——这家公司生产的发动机曾创下真正的世界纪录，装备了两次大战之间捷克斯洛伐克的民用与军用飞机。工厂在战后又以不同的所有者和名字继续运转了几十年，才最终把厂区交给了改造项目——也就是说，你脚下Aviatica这片土地，已经以各种形式轰鸣运转了超过一个世纪。`,
+    },
+  },
+  {
+    name: 'Winternitz Villa',
+    slug: 'winternitzova-vila',
+    localizedNames: { cz: 'Winternitzova vila', zh: '温特尼茨别墅' },
+    labels: ['villa', 'architecture', 'historical'],
+    coordinates: { lat: 50.0673041445502, lng: 14.388511428538518 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Adventurer, welcome to Winternitz Villa! From the street it looks like an ordinary white cube on a Smíchov hillside, the kind of house you'd walk past without a second glance. Step inside, though, and the floor plan becomes a puzzle that took its architect the rest of his life to finish explaining.
+
+Built in 1931–32 for the lawyer Josef Winternitz and his family, the villa was one of the last houses architect Adolf Loos ever completed, working alongside Karel Lhota, who ended up overseeing most of the actual construction. Inside, Loos applied his Raumplan principle: instead of stacking uniform floors, each room gets exactly the ceiling height and volume its function calls for, so a soaring double-height living room sits beside deliberately low, cosy bedrooms, all linked by half-levels and interior cut-outs that let you glimpse one room from another. The materials are modest by design — brick, plaster, wood — proof that Loos's ideas about honest space needed no marble to make their point.
+
+The Winternitz family did not get to enjoy the house for long. Persecuted as Jews under the Nazi occupation, they were forced out in 1941 and deported to Terezín and then Auschwitz in 1943; Josef and his son Petr were murdered there, while his wife Jenny and daughter Suzana survived. After the war the city took over the building and ran it as a nursery school for half a century, an unglamorous second life that likely saved it from more damaging alterations. A careful renovation beginning in 1999 restored the interiors, and the villa now opens to visitors on a limited schedule.
+
+🎁 Bonus: Architects still argue about how much of Winternitz Villa is really "Loos" at all. He supervised only the earliest stages, then left Prague for good at the end of 1932 before dying the following year, leaving Karel Lhota to see the build through to completion. Whoever gets the final credit, the house is now treated as one of the clearest built examples of Raumplan anywhere in the world — a floor plan that reads more like a piece of music than a blueprint.`,
+
+      cz: `Statečný dobrodruhu, vítej ve Winternitzově vile! Z ulice vypadá jako naprosto obyčejná bílá kostka na svahu Smíchova — dům, kolem kterého byste bez povšimnutí prošli. Jakmile ale vejdete dovnitř, půdorys se změní v hádanku, kterou jeho architekt dovysvětloval prakticky do konce života.
+
+Vila postavená v letech 1931–32 pro advokáta Josefa Winternitze a jeho rodinu patří k posledním domům, které dokončil architekt Adolf Loos, spolu s Karlem Lhotou, jenž nakonec dohlížel na většinu vlastní stavby. Uvnitř Loos uplatnil svůj princip Raumplanu: místo stohu stejných podlaží dostane každá místnost přesně tu výšku a objem, jaký odpovídá jejímu účelu — impozantní obytný prostor s dvojnásobnou výškou stropu tak sousedí se záměrně nízkými, útulnými ložnicemi, propojenými mezipatry a průhledy mezi místnostmi. Materiály jsou záměrně skromné — cihla, omítka, dřevo — důkaz, že Loosovy představy o poctivém prostoru nepotřebovaly žádný mramor, aby dokázaly svou pravdu.
+
+Rodina Winternitzových si dům dlouho neužila. Jako Židé pronásledovaní za nacistické okupace museli v roce 1941 dům opustit a v roce 1943 byli deportováni do Terezína a poté do Osvětimi; Josef a jeho syn Petr tam byli zavražděni, zatímco manželka Jenny a dcera Suzana přežily. Po válce dům převzalo město a půl století v něm provozovalo mateřskou školku — nenápadný druhý život, který ho pravděpodobně zachránil před necitlivými úpravami. Citlivá rekonstrukce zahájená v roce 1999 obnovila interiéry a vila je dnes v omezeném rozsahu otevřena veřejnosti.
+
+🎁 Bonus: Architekti se dodnes přou, kolik z Winternitzovy vily je vlastně "Loosovo". Dohlížel jen na nejranější fáze stavby, pak koncem roku 1932 nadobro opustil Prahu a následující rok zemřel — dokončení stavby tak zůstalo na Karlu Lhotovi. Ať už jde zásluha komukoli, dům se dnes považuje za jeden z nejjasnějších realizovaných příkladů Raumplanu na světě — půdorys, který se čte spíš jako hudební skladba než jako stavební plán.`,
+
+      zh: `勇敢的冒险家，欢迎来到温特尼茨别墅！从街上看，它不过是斯米霍夫山坡上一座普普通通的白色方块建筑——那种你很可能毫不留意就走过去的房子。可一旦走进去，平面布局就变成了一道谜题，它的建筑师几乎用了后半生才把这道题解释清楚。
+
+这座别墅建于1931至1932年间，为律师约瑟夫·温特尼茨一家而建，是建筑师阿道夫·路斯生前完成的最后几栋房子之一，与他合作的卡尔·利霍塔最终承担了大部分实际施工监督工作。室内，路斯运用了他的"空间规划"理念：不再把楼层简单地一层层堆叠，而是让每个房间获得恰好符合其功能所需的层高与体积——挑高的起居室气势恢宏，紧邻着刻意压低、温馨的卧室，彼此以夹层和墙面镂空相连，让人从一个房间就能瞥见另一个房间。材料选择则刻意朴素——砖、灰泥、木材——证明路斯关于"诚实空间"的理念，根本不需要大理石来证明自己。
+
+温特尼茨一家并没能在这栋房子里享受多久。作为在纳粹占领期间遭受迫害的犹太人，他们于1941年被迫离开，并于1943年被驱逐至特雷津，随后送往奥斯维辛；约瑟夫和儿子彼得在那里遇害，妻子珍妮与女儿苏珊娜则幸存了下来。战后，市政府接管了这栋建筑，将其用作幼儿园长达半个世纪——这段不起眼的"第二人生"很可能反而让它逃过了更具破坏性的改建。1999年开始的一次细致修复重新恢复了室内原貌，如今别墅以有限的时段对公众开放。
+
+🎁 彩蛋：建筑师们至今仍在争论，温特尼茨别墅到底有多少成分真正算是"路斯的作品"。他只监督了施工最初的阶段，便于1932年底永远离开了布拉格，次年去世，剩下的建造工作全都落在了卡尔·利霍塔肩上。无论功劳该归于谁，这栋房子如今都被视为全世界"空间规划"理念最清晰的建成范例之一——它的平面图读起来更像一段乐曲，而不像一张施工图。`,
+    },
+  },
+  {
+    name: 'Řepy Forest Park',
+    slug: 'lesopark-repy',
+    localizedNames: { cz: 'Lesopark Řepy', zh: '热皮森林公园' },
+    labels: ['park', 'nature'],
+    coordinates: { lat: 50.06831603798902, lng: 14.322054998134073 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Adventurer, welcome to Řepy Forest Park! Fifty years ago this stretch of western Prague was just farmland waiting for something to happen to it. Something did: a patient, decades-long transformation into trees, trails, and a toboggan run, proving that even the least promising fields can eventually peer-pressure themselves into becoming a park.
+
+Until the second half of the twentieth century, this land on Prague's western edge was agricultural — flat fields feeding a district that hadn't yet sprawled out to meet them. As Řepy grew through the 1970s into a proper residential quarter, the fields were gradually planted over with young trees and shrubs, threaded with paths, and slowly built up into what's now called an "active forest park," a designation that basically means someone thought seriously about what people would actually do here once the trees grew in.
+
+That thinking shows: alongside the expected wooded walking trails and open meadows there's a lookout tower, a permanent toboggan run, and roughly three dozen play elements scattered through the park for children, making it as much an outdoor gym and playground as a patch of forest. Wetland pockets break up the tree cover, so the park cycles through a handful of distinct micro-habitats within a single, unhurried loop.
+
+🎁 Bonus: The "active" in the park's name isn't just marketing — unlike a lot of Prague's older, more contemplative parks, this one was designed from the start around movement: running, cycling, sledding, climbing. It's less a place to sit quietly with a book and more a place to arrive with a bicycle and leave slightly out of breath.`,
+
+      cz: `Statečný dobrodruhu, vítej v Lesoparku Řepy! Před padesáti lety byl tenhle kus západní Prahy jen polem čekajícím, až se s ním něco stane. A stalo se: trpělivá, desítky let trvající proměna ve stromy, cesty a skluzavku, důkaz, že i ta nejméně slibná pole si nakonec dokážou vynutit proměnu v park.
+
+Až do druhé poloviny dvacátého století bylo tohle území na západním okraji Prahy zemědělské — rovná pole zásobující čtvrť, která se k nim ještě nerozrostla. Jak se Řepy v 70. letech měnily v opravdovou obytnou čtvrť, pole se postupně osazovala mladými stromy a keři, protkávala cestami a pomalu budovala do podoby dnešního "aktivního lesoparku" — označení, které v podstatě znamená, že si někdo pořádně promyslel, co tu lidé budou dělat, až stromy vzrostou.
+
+To promýšlení je vidět: vedle očekávaných lesních stezek a otevřených luk tu najdete rozhlednu, stálou skluzavku a zhruba tři desítky herních prvků rozesetých po celém parku — takže je to stejnou měrou venkovní posilovna a hřiště jako kus lesa. Kapsy mokřadů narušují souvislý lesní porost, takže park při jedné neuspěchané procházce provede návštěvníka hned několika odlišnými mikroprostředími.
+
+🎁 Bonus: "Aktivní" v názvu parku není jen marketing — na rozdíl od mnoha starších, kontemplativnějších pražských parků byl tenhle od začátku navržen kolem pohybu: běhání, cyklistiky, sáňkování, lezení. Je to méně místo, kam si sednete v tichosti s knihou, a víc místo, kam přijedete na kole a odjedete mírně zadýchaní.`,
+
+      zh: `勇敢的冒险家，欢迎来到热皮森林公园！五十年前，布拉格西部的这片土地还只是一块等着被安排命运的农田。后来它真的等到了：经过几十年耐心的改造，慢慢长出了树木、步道，还添了一条滑梯道，证明再不起眼的农田，最终也能靠时间把自己"逼"成一座公园。
+
+直到二十世纪下半叶，布拉格西缘的这片土地还是农业用地——平坦的田野，供养着一个当时尚未扩张到这里的城区。随着这片区域在1970年代逐渐发展成真正的住宅区，田野被一点点种上了幼树和灌木，铺出了步道，慢慢建成了今天所说的"活力森林公园"——这个称呼基本上意味着，有人认真想过等树长起来之后，人们到底会在这里做些什么。
+
+这份用心处处可见：除了常见的林间步道和开阔草地，公园里还有一座瞭望塔、一条常设滑梯道，以及散布在各处的约三十种游乐设施——所以它既是一片树林，也同样是一座露天健身房和游乐场。几处湿地打破了连绵的林木覆盖，让人在一次不紧不慢的漫步中，就能穿过好几种截然不同的微型生态环境。
+
+🎁 彩蛋：公园名字里的"活力"二字并非营销噱头——与布拉格许多历史更久、气质更沉静的老公园不同，这座公园从设计之初就是围绕"动起来"展开的：跑步、骑行、滑雪橇、攀爬。它不太适合安静地坐下看书，更适合骑车而来，再带着微微的气喘离开。`,
+    },
+  },
+  {
+    name: 'Hanging Sigmund Freud Statue (Viselec)',
+    slug: 'viselec',
+    localizedNames: { cz: 'Socha zavěšeného Sigmunda Freuda „Viselec“', zh: '"缢死者"——弗洛伊德悬空雕像' },
+    labels: ['monument', 'modern', 'hidden-gem'],
+    coordinates: { lat: 50.08416512310257, lng: 14.41829954741853 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Adventurer, welcome to Viselec! High above a busy Old Town street hangs a bronze man in a suit, gripping a beam with one hand while his other hand stays casually in his pocket. Passersby occasionally call the fire department. The fire department, by now, mostly just sighs and explains that it's art.
+
+Installed in 1997 above the corner of Husova and Betlémská streets, the sculpture depicts a middle-aged man in a jacket suspended some twenty metres over the pavement, dangling from a horizontal beam by one hand. His face is unmistakably a caricature of Sigmund Freud — receding hairline, neat beard, the works — and its creator, David Černý, has said the figure was conceived as the twentieth century's defining intellectual caught at the precise moment of deciding whether to let go or hold on, right as that century was ending.
+
+The statue's realism is exactly the problem, or exactly the point, depending on your sense of humour. Because it looks disturbingly like an actual person mid-suicide-attempt rather than a stylised artwork, it has repeatedly triggered genuine emergency calls from alarmed onlookers, most famously when a touring cast of the piece was installed in Michigan and had to be "rescued" by real firefighters who arrived expecting a rescue and found a bronze cast instead.
+
+🎁 Bonus: Freud himself only fits loosely into Prague's own story — he was born in Moravia and made his career in Vienna — but Černý wasn't after biographical accuracy so much as a recognisable face for anxiety itself. Look straight up as you cross the street underneath and you'll likely catch at least one other person doing exactly the same thing, phone raised, slightly worried expression included at no extra charge.`,
+
+      cz: `Statečný dobrodruhu, vítej u Viselce! Vysoko nad rušnou ulicí Starého Města visí bronzový muž v obleku, jednou rukou svírá trám, druhou má ledabyle v kapse. Kolemjdoucí občas volají hasiče. Hasiči už si zvykli a jen povzdechnou, že je to umění.
+
+Socha instalovaná v roce 1997 nad křižovatkou ulic Husova a Betlémská zobrazuje muže středního věku v saku, visícího zhruba dvacet metrů nad chodníkem, zavěšeného jednou rukou za vodorovný trám. Jeho tvář je nezaměnitelnou karikaturou Sigmunda Freuda — ustupující vlasy, upravený plnovous, kompletní výbava — a její autor David Černý řekl, že postavu pojal jako zosobnění klíčového intelektuála dvacátého století, zachyceného přesně v okamžiku rozhodování, zda se pustit, nebo se držet, právě když se toto století chýlilo ke konci.
+
+Realističnost sochy je přesně ten problém, nebo přesně ta pointa, podle toho, jaký máte smysl pro humor. Protože vypadá znepokojivě jako skutečný člověk uprostřed pokusu o sebevraždu, a ne jako stylizované umělecké dílo, opakovaně vyvolala skutečné tísňové volání od vylekaných kolemjdoucích — nejslavněji ve chvíli, kdy putovní odlitek díla instalovali v americkém Michiganu a museli ho "zachraňovat" skuteční hasiči, kteří přijeli s očekáváním záchrany a našli bronzový odlitek.
+
+🎁 Bonus: Freud sám do pražského příběhu zapadá jen volně — narodil se na Moravě a kariéru budoval ve Vídni — ale Černému nešlo o životopisnou přesnost, spíš o rozpoznatelnou tvář samotné úzkosti. Podívejte se přímo nahoru, když budete procházet pod sochou, a nejspíš uvidíte aspoň jednoho dalšího člověka, jak dělá přesně totéž, s telefonem zvednutým a mírně ustaraným výrazem v ceně.`,
+
+      zh: `勇敢的冒险家，欢迎来到Viselec！在老城一条熙熙攘攘的街道上空，悬着一个穿西装的青铜男人，一只手抓着横梁，另一只手若无其事地插在口袋里。路人偶尔会因此报警叫消防队。消防队如今大概只会叹口气，解释说这是艺术品。
+
+这座雕塑于1997年安装在Husova街与Betlémská街的转角上空，描绘了一名穿西装的中年男子，被一只手悬挂在一根横梁上，垂在人行道上方大约二十米处。他的面孔毫无疑问是西格蒙德·弗洛伊德的漫画化肖像——后退的发际线、修剪整齐的胡须，一应俱全——作者大卫·切尔尼曾表示，他把这个形象设想成二十世纪最具代表性的知识分子，在那个世纪即将结束之际，被永远定格在决定"放手还是坚持"的那一瞬间。
+
+这座雕塑的问题——或者说亮点，取决于你的幽默感——恰恰在于它太逼真了。因为它看起来实在太像一个真人正在自杀，而不像一件风格化的艺术作品，所以多次引来惊慌的路人真的报警求助，其中最著名的一次是这件作品的巡展复制品在美国密歇根州展出时，真正的消防员赶来"营救"，本以为要出手相救，结果发现只是一尊青铜像。
+
+🎁 彩蛋：弗洛伊德本人与布拉格的渊源其实并不深——他出生在摩拉维亚，事业则是在维也纳成就的——但大卫·切尔尼追求的从来不是传记式的精确，而是想为"焦虑"本身找一张让人一眼就能认出的脸。下次从雕塑下方经过时抬头看看，你很可能会发现至少还有一个人正做着同样的事——举着手机，脸上带着几分同样担心的表情，完全免费附赠。`,
+    },
+  },
+  {
+    name: 'Two-Headed Animal Sculpture',
+    slug: 'dvouhlave-zvire',
+    localizedNames: { cz: 'Dvouhlavé zvíře', zh: '双头动物雕塑' },
+    labels: ['monument', 'cultural', 'hidden-gem'],
+    coordinates: { lat: 50.04997489828815, lng: 14.316730889429353 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Adventurer, welcome to the Two-Headed Animal! Tucked onto a quiet residential street in Stodůlky sits a squat, brightly glazed creature with two heads and zero interpretive signage, silently daring every passerby to decide for themselves whether it's a dog, a dragon, or simply an argument between two sculptors that neither one was willing to lose.
+
+This small ceramic-and-concrete sculpture is the work of Alexandra Koláčková, an artist known across the Czech Republic for exactly this kind of piece — bold colour, rounded and unpretentious forms, and public art meant to be touched rather than roped off. It dates from around 2010, when the neighbouring park underwent a full renewal that also gave it the now-famous stepped fountain and ceramic seating, both from the same hand. The Two-Headed Animal stands slightly apart from that ensemble, just off the park's edge on a residential street, greeting the neighbourhood before visitors even reach the main garden gate.
+
+Pieces like this rarely make it onto any tourist map — there's no plaque, no name carved into the base, and most search engines have never heard of it. It exists purely for the people who live here, which is arguably the most honest kind of public art there is: made for a neighbourhood rather than for visitors passing through.
+
+🎁 Bonus: Koláčková's public sculptures share a kind of house style — thick outlines, saturated glazes, and shapes soft enough that nobody would ever get hurt climbing on one, which is presumably by design. If this piece caught your eye, the fountain and ceramic benches a short walk away come from the very same artist and the very same 2009–2011 renewal, making this whole corner of Stodůlky a quiet, unofficial retrospective of her work.`,
+
+      cz: `Statečný dobrodruhu, vítej u Dvouhlavého zvířete! V klidné obytné ulici ve Stodůlkách sedí podsaditý, jasně glazovaný tvor se dvěma hlavami a bez jediné popisky, který tiše vyzývá každého kolemjdoucího, ať si sám rozhodne, jestli jde o psa, draka, nebo prostě o spor dvou sochařů, z nichž ani jeden nechtěl prohrát.
+
+Tato drobná plastika z keramiky a betonu je dílem Alexandry Koláčkové, sochařky známé po celé České republice přesně za tenhle typ díla — sytou barevnost, oblé a nenucené tvary a veřejné umění, na které se má sahat, ne ho obcházet za páskou. Vznikla kolem roku 2010, kdy sousední park prošel kompletní obnovou, jež mu přinesla i jeho dnes proslulou stupňovitou fontánu a keramické sezení — obojí od stejné autorky. Dvouhlavé zvíře stojí kousek stranou od tohoto souboru, těsně u okraje parku v obytné ulici, a vítá čtvrť dřív, než návštěvníci vůbec dojdou k hlavní bráně zahrady.
+
+Díla jako tohle se na turistické mapy skoro nikdy nedostanou — nemají cedulku, jméno vyryté do podstavce ani je většina vyhledávačů nikdy nezaregistrovala. Existují čistě pro lidi, kteří tu bydlí, což je možná ta nejupřímnější podoba veřejného umění, jaká existuje: vytvořená pro čtvrť, ne pro kolemjdoucí návštěvníky.
+
+🎁 Bonus: Veřejné plastiky Alexandry Koláčkové mají svůj rozpoznatelný rukopis — silné obrysy, sytou glazuru a tvary dost měkké na to, aby si na nich nikdo neublížil, i kdyby po nich lezl, což je zřejmě záměr. Pokud vás tahle plastika zaujala, fontána a keramické lavičky kousek odtud pocházejí od téže autorky a ze stejné obnovy v letech 2009–2011 — takže tenhle kout Stodůlek je tak trochu neoficiální retrospektivou její tvorby.`,
+
+      zh: `勇敢的冒险家，欢迎来到双头动物雕塑！在斯托杜尔基一条安静的居民街道上，蹲坐着一只矮壮、色彩鲜艳的釉面生物，长着两个脑袋，却没有任何说明牌，静静地邀请每一位路过的人自己判断：这到底是一只狗、一条龙，还是两位雕塑家谁都不肯让步的一场争论的产物。
+
+这件小型陶瓷混凝土雕塑出自艺术家亚历山德拉·科拉奇科娃之手，她在捷克全国以这类作品著称——浓烈的色彩、圆润不做作的造型，以及那种应该被触摸、而不是被围栏隔开的公共艺术。这件作品大约创作于2010年前后，当时相邻的公园正在进行一次全面翻新，也正是在那次翻新中，公园获得了如今著名的阶梯式喷泉和陶瓷座椅，两者都出自同一双手。双头动物雕塑与那组作品略有分离，立在公园边缘的一条居民街道旁，在游客抵达花园正门之前，就先向整个街区打了招呼。
+
+像这样的作品几乎从不会出现在任何旅游地图上——它没有说明牌，底座上也没有刻名字，大多数搜索引擎甚至从未收录过它。它的存在完全是为了住在这里的居民，而这或许正是公共艺术最诚实的一种形态：为一个街区而造，而不是为路过的游客而造。
+
+🎁 彩蛋：亚历山德拉·科拉奇科娃的公共雕塑有着鲜明的个人风格——粗重的轮廓线、饱和的釉色，以及柔和到即使有人爬上去也不会受伤的造型，这大概是刻意为之的设计。如果你喜欢这件作品，不远处的喷泉和陶瓷长椅同样出自这位艺术家之手，属于2009至2011年的同一次翻新工程——这让斯托杜尔基的这个角落，无意间变成了一场她作品的非官方回顾展。`,
+    },
+  },
+  {
+    name: 'Roubenka Villa',
+    slug: 'roubenka-vila',
+    localizedNames: { cz: 'Roubenka (Vila Pod Zvonařkou)', zh: '罗本卡别墅' },
+    labels: ['villa', 'historical', 'architecture'],
+    coordinates: { lat: 50.06905544113934, lng: 14.435616346851331 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Adventurer, welcome to Roubenka Villa! Beside a steep flight of public stairs stands a genuine mountain log cabin — the kind you'd expect halfway up a forested slope — looking thoroughly lost among the neighbourhood's stuccoed apartment blocks, as if it took one very wrong turn back in 1921 and simply never left.
+
+The villa was built in 1921–22 for Josef Janeček, a mining director from Kladno, to a design by engineer Maxmilián Duchoslav. The plot sat within the protective zone of a nearby railway tunnel, so state railway authorities would only approve a provisional structure with a twenty-year permit — and Duchoslav's solution was to build it as a genuine timber-framed log house, styled after Czech and Moravian mountain cabins, right down to decorative carved hearts worked into the woodwork inside and out. What emerged was no rustic cottage, though: three full storeys and roughly twenty rooms, built for a family with the budget of a mine director rather than a shepherd.
+
+Janeček sold the villa in 1922 to glassworks owner Richard Dubský, who lived there until emigrating to the United States in 1939. During the Nazi occupation it was requisitioned as accommodation for the Hitlerjugend; after the war it housed university students from Africa and the Arabian Peninsula, and later served Czechoslovakia's Prognostic Institute. It has been protected as a cultural monument since 2004, and while a private owner has held plans since 2018 to convert it into a medical clinic, the building was, as of 2026, still waiting for that work to begin.
+
+🎁 Bonus: That twenty-year provisional building permit from 1921 expired sometime around 1941 — and the railway restriction that forced the villa to be built out of wood in the first place has long since stopped mattering to anyone. A century later, the "temporary" log cabin is not only still standing, it's now legally protected, making it one of Prague's most successful examples of nothing being quite so permanent as a stopgap solution.`,
+
+      cz: `Statečný dobrodruhu, vítej v Roubence! Vedle strmého veřejného schodiště stojí opravdová horská roubenka — přesně taková, jakou byste čekali někde v půli zalesněného svahu — a mezi omítnutými činžáky sousedství vypadá naprosto ztraceně, jako by v roce 1921 jednou špatně odbočila a od té doby to tu prostě nikdy neopustila.
+
+Vila byla postavena v letech 1921–1922 pro kladenského důlního ředitele Josefa Janečka podle návrhu inženýra Maxmiliána Duchoslava. Pozemek ležel v ochranném pásmu blízkého železničního tunelu, a tak státní dráhy povolily jen provizorní stavbu s dvacetiletou platností povolení — Duchoslavovým řešením bylo postavit ji jako skutečnou roubenou stavbu ve stylu českých a moravských horských chalup, včetně vyřezávaných srdíček v dřevěné konstrukci uvnitř i venku. Výsledkem ale nebyla žádná pastýřská chaloupka: tři plná podlaží a zhruba dvacet pokojů, stavěné pro rodinu s rozpočtem důlního ředitele, ne pastevce.
+
+Janeček vilu v roce 1922 prodal majiteli sklářské firmy Richardu Dubskému, který v ní žil až do svého odchodu do USA v roce 1939. Za nacistické okupace byla zabavena a sloužila jako ubytovna Hitlerjugend; po válce v ní bydleli vysokoškolští studenti z Afriky a Arabského poloostrova a později sloužila Prognostickému ústavu. Od roku 2004 je chráněna jako kulturní památka, a i když má soukromý vlastník od roku 2018 plán přestavět ji na zdravotnickou kliniku, budova v roce 2026 na začátek těchto prací stále čekala.
+
+🎁 Bonus: Ono dvacetileté provizorní stavební povolení z roku 1921 vypršelo někdy kolem roku 1941 — a omezení kvůli železničnímu tunelu, které si vynutilo dřevěnou konstrukci vily, dávno přestalo komukoliv vadit. O sto let později „dočasná" roubenka nejenže pořád stojí, ale je navíc chráněná zákonem, což z ní dělá jeden z nejúspěšnějších pražských příkladů toho, že nic není tak trvalé jako provizorium.`,
+
+      zh: `勇敢的冒险家，欢迎来到罗本卡别墅！在一段陡峭的公共台阶旁，矗立着一座地地道道的山地小木屋——那种你会以为出现在树木繁茂的山坡半腰上的建筑——夹在四周抹灰的公寓楼之间，显得彻底迷了路，仿佛它在1921年拐错了一个弯，从此就再也没能走出去。
+
+这座别墅建于1921至1922年间，由工程师马克西米利安·杜霍斯拉夫设计，业主是来自克拉德诺的矿业主管约瑟夫·亚内切克。由于地块位于附近一条铁路隧道的保护区内，国家铁路当局只批准建造一座为期二十年的临时建筑——杜霍斯拉夫的解法是把它建成一座真正的木构小屋，仿照捷克与摩拉维亚山区的传统木屋样式，就连室内外木作上雕刻的心形装饰都一丝不苟。但最终建成的绝非牧羊人的简陋小屋：足足三层楼、约二十个房间，是按照矿业主管的预算、而非牧羊人的预算来建造的。
+
+1922年，亚内切克把别墅卖给了玻璃厂主理查德·杜布斯基，后者一直住到1939年移民美国为止。纳粹占领期间，别墅被征用作为希特勒青年团的宿舍；战后，这里又住进了来自非洲和阿拉伯半岛的大学交换生，后来还曾作为预测研究所的用房。自2004年起，它被列为受保护的文化古迹，尽管一家私人业主自2018年起就计划将其改造成一家医疗诊所，但截至2026年，这项工程仍未真正动工。
+
+🎁 彩蛋：那份1921年发放、为期二十年的临时建筑许可，大约在1941年前后就已过期——而当初迫使这座别墅不得不用木头建造的那条铁路限制，也早就没人再放在心上。一百年过去，这座"临时"小木屋不仅依然屹立，如今还受到法律保护，堪称布拉格最成功的例证之一，证明世上再没有什么比权宜之计更"持久"了。`,
+    },
+  },
+  {
+    name: 'Černý Vrch',
+    slug: 'cerny-vrch',
+    localizedNames: { cz: 'Černý vrch', zh: '黑山' },
+    labels: ['nature', 'park', 'hidden-gem'],
+    coordinates: { lat: 50.06665003170476, lng: 14.390716817410325 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Adventurer, welcome to Černý Vrch! Rising quietly above Malvazinky, this modest hill has spent decades being nothing more dramatic than a slope of First Republic villas, garden walls, and a children's playground — living proof that not every hill in Prague is hiding a legend, a battle, or a buried castle.
+
+The hill was formerly also known as Věneček, and today it forms its own official basic settlement unit, tucked into the Malvazinky district of Smíchov. Malvazinky itself is one of Prague's quieter villa quarters, laid out with elegant interwar houses and green gardens climbing the slope, and Černý Vrch sits right at the top of that pattern — reachable on foot from Vrchlického street through the switchbacked paths of Popelka park below.
+
+There's remarkably little written about Černý Vrch beyond its name and its former name — even Prague's own local encyclopedias mostly shrug and move on. What's left instead is simply the hill itself: quiet residential streets, mature trees between the villas, and a modest playground where the neighbourhood's actual business gets conducted, undocumented and mostly unbothered by anyone trying to write its history.
+
+🎁 Bonus: A name change with no clear record of when or why it happened is exactly the kind of loose thread Prague specializes in. Somewhere between old maps and current street signs, this hill quietly swapped identities — and nobody left behind so much as a plaque to explain it.`,
+
+      cz: `Statečný dobrodruhu, vítej na Černém vrchu! Tenhle nenápadný kopec nad Malvazinkami už desítky let nedělá nic dramatičtějšího, než že je svahem prvorepublikových vil, zahradních zídek a dětského hřiště — živý důkaz, že ne každý pražský kopec v sobě skrývá legendu, bitvu nebo zapomenutý hrad.
+
+Kopec se dříve nazýval také Věneček a dnes tvoří vlastní základní sídelní jednotku, součást smíchovské čtvrti Malvazinky. Samotné Malvazinky patří k tišším pražským vilovým čtvrtím s elegantními meziválečnými domy a zelenými zahradami stoupajícími do svahu, a Černý vrch stojí přímo na vrcholu tohoto vzorce — dostupný pěšky z ulice Vrchlického přes serpentiny parku Popelka, který leží pod ním.
+
+O Černém vrchu se toho kromě jeho jména a bývalého názvu píše překvapivě málo — i pražské místní encyklopedie u něj většinou jen mávnou rukou a jdou dál. Co zůstává, je prostě samotný kopec: klidné obytné ulice, vzrostlé stromy mezi vilami a skromné hřiště, kde se odehrává skutečný život čtvrti, nezdokumentovaný a víceméně nerušený nikým, kdo by se snažil sepsat jeho historii.
+
+🎁 Bonus: Změna jména, bez jasného záznamu kdy a proč k ní došlo, je přesně ten typ volného konce, ve kterém si Praha libuje. Někde mezi starými mapami a dnešními uličními cedulemi si tenhle kopec potichu vyměnil identitu — a nikdo po sobě nenechal ani cedulku, která by to vysvětlila.`,
+
+      zh: `勇敢的冒险家，欢迎来到黑山！这座静静耸立在马尔瓦季恩基上方的小山，几十年来做的事情不过是当一片坡地，上面是第一共和国时期的别墅、花园矮墙和一处儿童游乐场——活生生地证明了：并不是布拉格的每一座山都藏着传说、战役或者一座被遗忘的城堡。
+
+这座小山过去也曾用过另一个名字，如今则构成了自己独立的基本居住单元，隶属于斯米霍夫区的马尔瓦季恩基地段。马尔瓦季恩基本身是布拉格较为安静的别墅街区之一，两次大战之间的优雅住宅与绿意盎然的花园顺着坡地层层铺展，而黑山正好位于这片格局的最高处——从弗尔赫利茨凯霍街出发，穿过山脚下波佩尔卡公园的之字形小径，步行即可抵达。
+
+关于黑山，除了它的名字和曾用名之外，几乎没有留下什么文字记载——就连布拉格本地的百科全书，提到它时也大多一笔带过。留下来的，只是这座山本身：安静的居民街道，别墅之间高大的树木，还有一处朴素的儿童游乐场，街区真正的日常生活就在那里发生，未经记录，也几乎没有人试图为它写下历史。
+
+🎁 彩蛋：从旧名字改为黑山，却没有留下任何明确的时间或原因记录——这正是布拉格最擅长留下的那种悬而未决的线索。在旧地图与今天的路牌之间的某个时刻，这座山悄悄换了身份，却没有人留下哪怕一块说明牌来解释原委。`,
+    },
+  },
+  {
+    name: 'Museum of Bricks',
+    slug: 'museum-of-bricks',
+    localizedNames: { cz: 'Muzeum kostek', zh: '积木博物馆' },
+    labels: ['museum', 'cultural'],
+    coordinates: { lat: 50.08265351842148, lng: 14.419413757259772 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Museum of Bricks! Somewhere on a quiet stretch of Národní street, a former bank building traded its stacks of banknotes for stacks of tiny plastic bricks. The old vault downstairs still holds a fortune — it just happens to be built entirely out of LEGO instead of gold.
+
+The museum opened in 2016, the brainchild of Czech collector Miloš Křeček, and it now fills three floors and 420 square metres with more than twenty themed exhibitions. Over 3,000 individual models stand assembled from well over a million bricks, ranging from miniature recreations of Prague's own Charles Bridge and Prague Castle to full-scale global icons like Moscow's St. Basil's Cathedral and Rome's Trevi Fountain, rebuilt stud by stud.
+
+Křeček's collection doesn't stop here — this Prague location is the flagship of a small network of five brick museums, and together they hold roughly 9,000 exhibits built from an estimated 10 million pieces, enough to have earned a Guinness World Record for the largest private LEGO collection on the planet. Downstairs, a hands-on corner lets visiting kids — and honestly, plenty of adults — build their own creations, while the attached shop sells everything from boxed sets to loose bricks by the handful.
+
+🎁 Bonus: Part of the exhibition is genuinely housed inside the building's original bank vault — a room designed to protect gold and paper currency now spends its days guarding several tonnes of coloured plastic instead. Whoever poured that concrete in the early twentieth century almost certainly never imagined what kind of treasure it would eventually be asked to hold.`,
+
+      cz: `Statečný dobrodruhu, vítej v Muzeu kostek! Kdesi na klidném úseku Národní třídy vyměnila bývalá bankovní budova své svazky bankovek za hromady drobných plastových kostiček. Trezor v suterénu pořád ukrývá jmění — jenže tentokrát je celé postavené z LEGA, ne ze zlata.
+
+Muzeum otevřelo v roce 2016 jako nápad českého sběratele Miloše Křečka a dnes zabírá tři patra a 420 metrů čtverečních s více než dvaceti tematickými expozicemi. Přes 3 000 jednotlivých modelů je poskládáno z více než milionu kostiček — od zmenšenin pražského Karlova mostu a Pražského hradu až po skutečně velkolepé kopie světových ikon, jako je moskevský chrám Vasila Blaženého nebo římská Fontána di Trevi, postavené kostičku po kostičce.
+
+Křečkova sbírka tím ale nekončí — pražská pobočka je vlajkovou lodí malé sítě pěti muzeí kostek, které dohromady čítají zhruba 9 000 exponátů postavených z odhadovaných 10 milionů dílků, což jim vyneslo zápis do Guinnessovy knihy rekordů za největší soukromou sbírku LEGA na světě. V suterénu čeká interaktivní koutek, kde si děti — a upřímně i spousta dospělých — mohou postavit vlastní výtvory, a přilehlý obchod prodává vše od krabicových setů po volné kostičky na váhu.
+
+🎁 Bonus: Část expozice je doslova umístěna v původním bankovním trezoru budovy — místnost určená k ochraně zlata a bankovek dnes hlídá spíš několik tun barevného plastu. Ať už ten beton na počátku dvacátého století lil kdokoli, jen stěží tušil, jaký poklad v něm jednoho dne skončí.`,
+
+      zh: `勇敢的冒险家，欢迎来到积木博物馆！在民族大街一段安静的路段上，一栋曾经的银行大楼把成叠的钞票换成了成堆的小小塑料积木。楼下那间旧金库依然守护着一笔财富——只不过这一次，它是用乐高积木堆出来的，而不是黄金。
+
+这座博物馆于2016年由捷克收藏家米洛什·克热切克一手创办，如今占据三层楼、420平方米的空间，设有二十多个主题展区。超过3000件独立模型各自由上百万块积木拼砌而成，从布拉格自家查理大桥与布拉格城堡的微缩景观，到莫斯科圣瓦西里大教堂、罗马特雷维喷泉这样的世界级地标，全部一颗积木接一颗积木地重新搭建了出来。
+
+克热切克的收藏远不止于此——布拉格馆只是这个由五座积木博物馆组成的小型网络中的旗舰馆，五馆合计约有9000件展品，用掉了估计一千万块积木，也因此赢得了全球最大私人乐高收藏的吉尼斯世界纪录。楼下设有互动角，让来访的孩子——说实话，还有不少大人——可以动手拼出自己的作品，附设的商店里则从整盒套装到散装积木、迷你人偶一应俱全。
+
+🎁 彩蛋：部分展区确确实实设在大楼原本的银行金库里——一间本该守护黄金与纸币的房间，如今日复一日守护着好几吨彩色塑料。当年浇筑这块混凝土的人，恐怕怎么也想不到它有朝一日会被托付看守这样一种宝藏。`,
+    },
+  },
+  {
+    name: 'U Čeňku Park',
+    slug: 'park-u-cenku',
+    localizedNames: { cz: 'Park U Čeňku', zh: '切涅克公园' },
+    labels: ['park', 'nature', 'hidden-gem'],
+    coordinates: { lat: 50.10023285745445, lng: 14.57925726365432 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to U Čeňku Park! Picture a hundred hectares of ordinary Prague farmland, quietly deciding one day to stop growing wheat and start growing meadows, orchards, and playgrounds instead. No fireworks, no grand opening speech — just fields turning, slowly and stubbornly, into a park nobody outside the neighbourhood has heard of.
+
+The park stretches across the eastern edge of the city, threaded between Černý Most, Horní Počernice, Dolní Počernice, Hostavice, and Kyje, on land that was farmed right up until construction began in 2015. Its heart is a pond long known locally as Čeněk, or sometimes Martiňák, and by the time the main paths, two playgrounds, and a set of fitness stations were finished in 2018, the surrounding fields had already started filling in with avenue trees and young forest.
+
+Even now the project keeps expanding — narrow orchard strips of fruit trees have been planted between the paved paths and a protected sand-pit nature monument nearby, and the southern stretch is slated to grow wilder still, with flowering meadows, more orchards, and patches of forest thicket left deliberately unmanicured. Once fully finished, the park is meant to cover nearly 100 hectares, rivalling Stromovka in size — all a short tram ride from a shopping mall most Prague visitors never think to leave.
+
+🎁 Bonus: Nobody seems entirely sure why the pond and its neighbourhood ended up called Čeněk — the leading theory just points to a nearby hill called V Čeňku, itself named after someone lost to record. Even the water carries a second, unofficial name, Martiňák, and the two labels are used almost interchangeably today, a small everyday mystery hiding in plain sight on the edge of a housing estate.`,
+
+      cz: `Statečný dobrodruhu, vítej v Parku U Čeňku! Představ si sto hektarů obyčejné pražské zemědělské půdy, která se jednoho dne potichu rozhodne přestat pěstovat obilí a začít pěstovat louky, sady a dětská hřiště. Žádný ohňostroj, žádný slavnostní proslov — jen pole, která se pomalu a tvrdohlavě mění v park, o kterém mimo sousedství skoro nikdo neslyšel.
+
+Park se táhne podél východního okraje města, mezi Černým Mostem, Horními Počernicemi, Dolními Počernicemi, Hostavicemi a Kyjemi, na pozemcích, které se obdělávaly až do zahájení výstavby v roce 2015. Jeho srdcem je rybník, místními dlouho zvaný Čeněk, nebo také Martiňák, a než byly v roce 2018 dokončeny hlavní cesty, dvě dětská hřiště a sada fitness prvků, okolní pole už začínala zarůstat alejemi stromů a mladým lesíkem.
+
+Projekt se rozšiřuje dodnes — mezi zpevněnými cestami a nedalekou chráněnou přírodní památkou byly vysázeny úzké pásy ovocných sadů, a jižní část má být ještě divočejší, s kvetoucími loukami, dalšími sady a záměrně neupravenými remízky. Po dokončení by měl park zabírat téměř 100 hektarů a svou rozlohou se vyrovnat Stromovce — to vše kousek tramvají od nákupního centra, odkud většina návštěvníků Prahy nikdy nevyrazí dál.
+
+🎁 Bonus: Nikdo si není úplně jistý, proč se rybník i celé okolí jmenuje zrovna Čeněk — nejčastěji se to vysvětluje blízkým kopcem V Čeňku, pojmenovaným po někom, koho historie ztratila. Voda navíc nese ještě druhé, neoficiální jméno Martiňák, a obě označení se dnes používají téměř zaměnitelně — malé všední tajemství schované na kraji sídliště přímo před očima.`,
+
+      zh: `勇敢的冒险家，欢迎来到切涅克公园！想象一下：一百公顷普普通通的布拉格农田，有一天悄悄决定不再种小麦，转而种起草地、果园和儿童游乐场。没有烟花，没有盛大的开幕致辞——只有田野一点一点、执拗地变成一座几乎没人在街区之外听说过的公园。
+
+这座公园沿着城市东部边缘展开，穿插在黑桥、上波切尔尼采、下波切尔尼采、霍斯塔维采与基耶之间，这片土地一直被耕种到2015年动工为止。公园的核心是一处当地人长期称为"切涅克"、有时也叫"马尔季尼亚克"的池塘。到2018年，主要步道、两处儿童游乐场和一组健身器材陆续完工时，周围的田地已经开始长满行道树和幼林。
+
+如今这项工程仍在继续扩展——铺装步道与附近受保护的沙坑自然纪念地之间，已经种上了一条条狭长的果树带，而公园南段计划变得更加"野性"，规划有开花草甸、更多果园，以及刻意不加修剪的林间灌丛。全部建成后，这座公园面积将接近100公顷，规模可与斯特罗莫夫卡公园相媲美——而这一切，距离一座大多数布拉格游客压根不会想到要离开的购物中心，只有几站电车的距离。
+
+🎁 彩蛋：没人完全说得清池塘和这片街区为什么会叫"切涅克"——最主流的说法是它源自附近一座名叫"V Čeňku"的小山，而这座山的名字本身又来自某个已经无从考证的人。这片水域还有另一个非官方的名字"马尔季尼亚克"，两个名字如今几乎交替使用——一个藏在住宅区边缘、就摆在眼前的日常小谜团。`,
+    },
+  },
+  {
+    name: 'Hotel Pyramida Praha',
+    slug: 'hotel-pyramida-praha',
+    localizedNames: { cz: 'Hotel Pyramida Praha', zh: '金字塔酒店' },
+    labels: ['communism', 'architecture'],
+    coordinates: { lat: 50.0855745926002, lng: 14.38001189145039 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Hotel Pyramida! Stacked on a Břevnov hillside like three concrete wedges leaning toward the sky, this brutalist tower was built so factory workers could vacation in geometric splendor — an odd reward for a lifetime on the assembly line, courtesy of the Revolutionary Trade Union Movement.
+
+In 1967, Prague's city planners ran a competition for an exclusive new recreation house on a plot near Pohořelec, and the winning design came from a husband-and-wife team, architects Neda Cajthamlová and Miloslav Cajthaml. Their proposal was audaciously geometric: a floor plan built entirely from equilateral triangles, six metres to a side, arranged into three wings that narrow as they climb — a stepped, pyramid-like silhouette rendered almost entirely in raw concrete. Construction began in 1980 and dragged on for seven years, finally opening in 1987 as a 610-bed retreat for workers on trade-union-sponsored holidays.
+
+Today the building operates as the four-star OREA Hotel Pyramida, its interiors long since modernized, though the exterior still reads as a piece of unapologetic late-socialist ambition on the edge of one of Prague's most historic neighborhoods. Stand at the base and look up: the way the wings recede as they rise is the same trick used by actual pyramids, just executed in poured concrete instead of quarried stone, and built for trade unionists instead of pharaohs.
+
+🥚 Bonus: Despite the name, Hotel Pyramida isn't technically a pyramid at all — architecturally it's a frustum, a pyramid with its tip sliced off, which means the building is quite literally incomplete by definition. Somewhere, a strict geometry teacher is still holding a grudge.`,
+
+      cz: `Statečný dobrodruhu, vítej v hotelu Pyramida! Tři betonové klíny naskládané na sobě na kopci v Břevnově, mířící vzhůru k obloze — tahle brutalistická věž vznikla, aby si dělníci mohli užít dovolenou v geometrické nádheře, podivnou odměnu za celoživotní dřinu u pásu, kterou jim dopřálo Revoluční odborové hnutí.
+
+V roce 1967 vypsali pražští urbanisté soutěž na exkluzivní nový dům rekreace na pozemku poblíž Pohořelce a vítězný návrh přišel od manželské dvojice architektů — Nedy Cajthamlové a Miloslava Cajthamla. Jejich návrh byl odvážně geometrický: půdorys postavený výhradně z rovnostranných trojúhelníků o straně šest metrů, uspořádaných do tří křídel, která se směrem vzhůru zužují — stupňovitý, pyramidě podobný obrys provedený téměř výhradně v surovém betonu. Stavba začala v roce 1980 a táhla se sedm let, než se v roce 1987 konečně otevřela jako rekreační zařízení s 610 lůžky pro dělníky na odborářských dovolených.
+
+Dnes budova funguje jako čtyřhvězdičkový Hotel Pyramida sítě OREA, jeho interiéry jsou dávno zmodernizované, i když exteriér stále působí jako kus nezastřené pozdně socialistické ambice na okraji jedné z nejhistoričtějších pražských čtvrtí. Postav se u paty budovy a podívej se nahoru: způsob, jakým se křídla směrem vzhůru zužují, je stejný trik, jaký používají skutečné pyramidy — jen provedený v litém betonu místo lomeného kamene, a postavený pro odboráře místo faraonů.
+
+🥚 Bonus: Navzdory názvu není Hotel Pyramida technicky vzato vůbec pyramida — architektonicky jde o komolý jehlan, tedy pyramidu s useknutou špičkou, což znamená, že budova je doslova ze své podstaty nedokončená. Někde venku na to pořád vzteky bledne přísný učitel geometrie.`,
+
+      zh: `勇敢的冒险家，欢迎来到金字塔酒店！三块混凝土楔形体层层叠放在 Břevnov 的山坡上直指天空——这座粗野主义高塔建成的初衷，是让工人们也能在几何造型的奢华中度假，作为他们一辈子在流水线上辛勤工作换来的一份奇特奖励，由革命工会运动出资兴建。
+
+1967年，布拉格的城市规划者为 Pohořelec 附近一块地皮上的新建高级疗养所举办了设计竞赛，最终获胜的方案出自建筑师夫妇 Neda Cajthamlová 与 Miloslav Cajthaml 之手。他们的方案大胆而几何化：整栋建筑的平面完全由边长六米的等边三角形构成，排列成三翼，随着楼层升高逐渐收窄——呈现出阶梯状、近似金字塔的轮廓，几乎全部以裸露的混凝土建成。工程于1980年动工，历时七年才最终完工，于1987年开业，成为一座拥有610张床位的工会疗养院，专供参加工会资助假期的工人入住。
+
+如今这栋建筑已成为OREA旗下的四星级金字塔酒店，内部早已全面翻新，但外观依旧透着一股毫不掩饰的社会主义晚期雄心，矗立在布拉格最具历史底蕴的街区边缘。站在楼底抬头望去：三翼随着高度收窄的方式，与真正的金字塔如出一辙——只不过材料换成了浇筑混凝土而非开采石材，服务对象也从法老换成了工会会员。
+
+🎁 彩蛋：尽管名叫"金字塔"，这座建筑严格来说根本不是金字塔——从建筑学角度看，它其实是一个"平截头体"，也就是被削去顶端的金字塔，这意味着这栋建筑从定义上讲本身就是"未完成"的。某位严谨的几何老师，大概到现在都还耿耿于怀。`,
+    },
+  },
+  {
+    name: 'Rašínovo nábřeží',
+    slug: 'rasinovo-nabrezi',
+    localizedNames: { cz: 'Rašínovo nábřeží', zh: '拉辛滨河大道' },
+    labels: ['street', 'waterbody', 'cafe'],
+    coordinates: { lat: 50.069893298126544, lng: 14.414150482527212 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Ra%C5%A1%C3%ADnovo_n%C3%A1b%C5%99e%C5%BE%C3%AD',
+    description: {
+      en: `Brave adventurer, welcome to Rašínovo nábřeží! On paper this is just a road running along a river — the kind of infrastructure nobody puts on a postcard. And yet somewhere between the moored boats, the beer stands, and several hundred people dangling their legs over the water, it turned into one of Prague's favourite places to do absolutely nothing.
+
+The embankment was built in two bites: first from Palacký Square down to Jiráskovo Square alongside Palacký Bridge in the 1870s, then continued south to the Vyšehrad rock in 1905 with the opening of the Vyšehrad Tunnel. The two halves weren't formally joined under one name until 1990. Both stretches paved over Podskalí, a centuries-old riverside settlement of rafters and timber merchants who floated logs down the Vltava for a living — almost nothing survives of it today except an old customs house standing alone near Výtoň.
+
+What replaced the rafters is a permanent, low-effort party: houseboats tied along the bank now operate as bars and small clubs, a Saturday farmers' market draws crowds every week, and a run of old riverside storage vaults — instantly recognisable by their round, tunnel-like doorways — has been converted into cafés and galleries. Long before any of that, the same stretch served as Prague's main passenger harbour, launching steamship excursions upriver to Štěchovice.
+
+🎁 Bonus: Those circular vault doors weren't designed with photogenic city planning in mind — they're simply the cheapest, structurally soundest shape for punching an opening into a load-bearing arched cellar wall. Function over Instagram, and yet here visitors line up to photograph a doorway that was engineered purely to stop a ceiling from collapsing.`,
+
+      cz: `Statečný dobrodruhu, vítej na Rašínově nábřeží! Na papíře je to jen silnice podél řeky — přesně ten typ infrastruktury, který nikdo nedává na pohlednice. A přesto se to někde mezi zakotvenými loděmi, pivními stánky a několika sty lidmi klátícími nohama nad vodou proměnilo v jedno z nejoblíbenějších míst v Praze pro naprosté nicnedělání.
+
+Nábřeží vzniklo ve dvou etapách: nejprve v 70. letech 19. století úsek od Palackého náměstí k Jiráskovu náměstí souběžně s Palackého mostem, poté v roce 1905 pokračovalo na jih k Vyšehradské skále s otevřením Vyšehradského tunelu. Obě části byly pod jedním jménem formálně sjednoceny až v roce 1990. Stavba obou úseků zabrala místo Podskalí, staletí staré říční osady vorařů a dřevařů, kteří po Vltavě splavovali dřevo — z ní se dodnes prakticky nic nedochovalo, kromě osamělé staré celnice u Výtoně.
+
+Vory nahradila trvalá, bezstarostná zábava: lodě přivázané u břehu dnes fungují jako bary a malé kluby, každou sobotu sem táhnou davy na farmářské trhy a řada starých říčních skladišť — na první pohled poznatelná podle kulatých, tunelovitých vstupů — byla přestavěna na kavárny a galerie. Dávno předtím sloužil stejný úsek jako hlavní pražský osobní přístav, odkud vyplouvaly parníky na výlety proti proudu do Štěchovic.
+
+🎁 Bonus: Ty kruhové dveře do sklepení nevznikly kvůli fotogenickému urbanismu — jsou prostě nejlevnějším a staticky nejspolehlivějším tvarem pro proražení otvoru do klenuté nosné zdi. Funkce nad Instagramem, a přesto tu dnes stojí fronty návštěvníků, kteří fotí vchod navržený čistě proto, aby nespadl strop.`,
+
+      zh: `勇敢的冒险家，欢迎来到拉辛滨河大道！从纸面上看，这不过是一条沿河而建的普通道路——正是那种没人会印在明信片上的基础设施。可不知怎的，在停泊的船只、啤酒摊，以及数百个把双腿悬在水面上晃荡的人群之间，它变成了布拉格人最喜欢的"什么都不做"的地方之一。
+
+这段堤岸分两期建成：先是19世纪70年代，沿着帕拉茨基大桥修建了从帕拉茨基广场到伊拉塞克广场的一段；1905年随着维谢赫拉德隧道通车，堤岸又向南延伸至维谢赫拉德岩壁。两段直到1990年才正式统一冠以同一个名字。这两段工程都覆盖了曾经的波德斯卡利——一处存在了几百年、靠放排运木为生的筏工与木材商聚居地，如今几乎片瓦无存，只剩下维托尼附近一座孤零零的老海关楼作为见证。
+
+取代筏工的是一场永不散场、毫不费力的派对：沿岸系泊的船屋如今开成了酒吧和小型俱乐部，每逢周六都有农夫市集吸引大批人潮，而一排老式滨河仓库——凭那圆形的、像隧道一样的门洞一眼就能认出——也被改造成了咖啡馆和画廊。在这一切发生之前很久，同一段河岸曾是布拉格主要的客运码头，蒸汽船正是从这里出发，沿河而上前往什切霍维采游览。
+
+🎁 彩蛋：那些圆形的地窖门洞可不是为了上镜好看而设计的——它们只是在拱形承重墙上开洞时，最便宜、结构上也最稳妥的形状。功能压倒了"上镜感"，可如今游客们却排着队来拍这扇纯粹为了防止天花板塌陷而设计的门。`,
+    },
+  },
+  {
+    name: 'Richtrův dům',
+    slug: 'richtruv-dum',
+    localizedNames: { cz: 'Richtrův dům', zh: '里赫特之家' },
+    labels: ['architecture', 'historical', 'hidden-gem'],
+    coordinates: { lat: 50.08603712954119, lng: 14.420043548371025 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Richtr%C5%AFv_d%C5%AFm',
+    description: {
+      en: `Brave adventurer, welcome to Richtrův dům! It looks like nothing more than a shortcut — a dim, arched little corridor letting you cut from Malé náměstí through to Michalská without walking the long way around. Which is exactly what it is, except this particular shortcut happens to run straight through one of Prague's oldest surviving houses.
+
+Beneath the surface — quite literally — is a building with a Romanesque core dating to the first half of the 13th century, its Gothic masonry still standing up to the second and third floors. Renaissance work shows on the rear, Michalská-facing side, while the whole structure was unified into a single property between 1714 and 1716. The Rococo façade facing Malé náměstí dates from the third quarter of the 18th century, and a Classicist portico by Johann Ludwig Kranner was added in 1798 — five centuries of Prague architecture stacked into a building most people only glance at while cutting through.
+
+Despite appearances, the name has nothing to do with a judge or a bailiff: the house only became known as "Richtrův dům" after 1836, when it was bought by a goldsmith named Jan Richtr and his wife Johana. It had previously gone by "U Modrého jelena," and by "Martinický," after an earlier noble owner. In 1882 the building took on a very different kind of significance: it housed Prague's first telephone exchange, which operated here until 1902, and in 1887 it also served as the terminus of the city's first pneumatic mail line.
+
+🎁 Bonus: For twenty years, this exact spot connected more phone calls than probably anywhere else in the city — every early Prague telephone conversation was, in some sense, routed through the same corridor tourists now use just to avoid walking around the block.`,
+
+      cz: `Statečný dobrodruhu, vítej v Richtrově domě! Na první pohled to vypadá jako obyčejná zkratka — tmavá, klenutá chodbička, kterou se dá proklouznout z Malého náměstí na Michalskou, aniž bys musel obcházet celý blok. A přesně to taky je, jen se tahle konkrétní zkratka náhodou vede přímo skrz jeden z nejstarších dochovaných domů v Praze.
+
+Pod povrchem — doslova — se skrývá stavba s románským jádrem z první poloviny 13. století, jejíž gotické zdivo se dochovalo až do úrovně druhého a místy třetího patra. Renesanční úpravy jsou patrné na zadní straně směrem k Michalské, zatímco celá stavba byla sjednocena v jeden objekt v letech 1714–1716. Rokokové průčelí do Malého náměstí pochází ze třetí čtvrtiny 18. století a v roce 1798 k němu přibyl klasicistní portikus od Johanna Ludwiga Krannera — pět století pražské architektury naskládaných do jedné budovy, kterou většina lidí jen letmo mine cestou zkratkou.
+
+Navzdory jménu nemá dům nic společného s žádným rychtářem ani soudcem: jméno „Richtrův dům" získal až po roce 1836, kdy ho koupil zlatník Jan Richtr se svou ženou Johanou. Dříve se mu říkalo „U Modrého jelena" a také „Martinický", podle dřívějšího šlechtického majitele. V roce 1882 získala budova zcela jiný druh významu: sídlila v ní první pražská telefonní ústředna, která tu fungovala až do roku 1902, a v roce 1887 tu byla také koncová stanice první pražské pneumatické pošty.
+
+🎁 Bonus: Po dvacet let se přes toto přesné místo protočilo pravděpodobně víc telefonních hovorů než kdekoli jinde ve městě — každý raný pražský telefonát v jistém smyslu procházel stejnou chodbou, kterou dnes turisté používají, aby nemuseli obcházet blok.`,
+
+      zh: `勇敢的冒险家，欢迎来到里赫特之家！乍看之下，这不过是一条抄近路的小径——一条昏暗、带拱顶的窄廊，能让你从小广场径直穿到米哈尔斯卡街，省得绕一大圈。事实也确实如此，只不过这条抄近路恰好穿过布拉格现存最古老的房子之一。
+
+这栋建筑的表层之下——字面意义上的"之下"——藏着一处可追溯到13世纪上半叶的罗马式建筑核心，其哥特式砖石结构一直保留到二层甚至三层。朝向米哈尔斯卡街的后侧仍可见文艺复兴时期的痕迹，而整栋建筑则在1714至1716年间被合并为同一处产业。朝向小广场的洛可可式立面建于18世纪第三个二十五年间，1798年又加建了一座由 Johann Ludwig Kranner 设计的古典主义门廊——五个世纪的布拉格建筑层层叠加在这栋大多数人只是匆匆路过的房子里。
+
+尽管名字听起来像是某位法官或执法官，这栋房子其实与他们毫无关系：它是在1836年之后才被称为"Richtrův dům"的，那一年它被金匠 Jan Richtr 和妻子 Johana 买下。此前它曾叫作"U Modrého jelena"，也曾因更早的一位贵族业主而被称为"Martinický"。1882年，这栋建筑迎来了完全不同的重要意义：布拉格第一座电话交换局就设在这里，一直运营到1902年；1887年，它还曾是这座城市第一条气动邮政线路的终点站。
+
+🎁 彩蛋：在长达二十年的时间里，这个确切的地点接通的电话可能比城里任何地方都多——早期布拉格的每一通电话，从某种意义上说，都经过了这条如今游客们只是为了少绕一段路而走的通道。`,
+    },
+  },
+
+  // ── Old Town squares & embankments batch (2026-08-05) ───────────────────
+  {
+    name: 'Coal Market',
+    slug: 'uhelny-trh',
+    localizedNames: { cz: 'Uhelný trh', zh: '煤炭市场' },
+    labels: ['square', 'historical'],
+    coordinates: { lat: 50.0841848021213, lng: 14.420191146721175 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Uheln%C3%BD_trh',
+    description: {
+      en: `Brave adventurer, welcome to the Coal Market! Don't let the fuel-supply branding put you off — this snug triangular square tucked into Old Town was once one of medieval Prague's specialised trading grounds, the sort of place where an entire address existed for one purpose: selling you something to burn.
+
+The square began as part of a much larger New Market that once stretched half a kilometre northeast toward what's now Ovocný trh, all of it built up as Havelské Město from the 1230s onward. Sometime in the mid-14th century, the charcoal trade specifically was relocated here from the nearby Goat Square, and the new specialised name stuck — though popular tradition also offers a few competing origin stories, from a relocated coal seller to a blacksmith who ran a fuel business on the side. Whichever account you prefer, the trade held on for centuries: charcoal was sold here right up until the early 19th century, when hard coal finally took over.
+
+The square's most unexpected resident arrived in 1787: Wolfgang Amadeus Mozart lived in a corner house exactly where the Coal Market meets Skořepka street, the very same year Prague fell hopelessly in love with him and Don Giovanni had its world premiere across town at the Estates Theatre. The fountain in the corner, meanwhile, is a comparative newcomer — commissioned in 1797 by wealthy Prague merchant Jakub Wimmer, with sculpture by František Xaver Lederer, it wasn't actually installed here until 1951, after decades of being shuffled between entirely different locations.
+
+🎁 Bonus: Old Town Prague used to run almost entirely on this kind of literal branding — Ovocný trh sold fruit, Dobytčí trh sold cattle, and the Coal Market sold coal. It was less a city and more an enormous medieval shopping centre with unusually honest signage.`,
+
+      cz: `Statečný dobrodruhu, vítej na Uhelném trhu! Nenech se odradit tím nijak zvlášť vzletným názvem — tohle malé trojúhelníkové náměstíčko bylo ve středověké Praze jedním ze specializovaných tržišť, místem, které existovalo v podstatě jen proto, abys tu koupil palivo do krbu.
+
+Náměstí bylo původně součástí mnohem většího Nového trhu, který se táhl asi půl kilometru na severovýchod až k dnešnímu Ovocnému trhu, a to vše bylo zastavěno jako Havelské Město už od 30. let 13. století. Někdy v polovině 14. století se sem z blízkého Kozího náměstí přestěhoval obchod s dřevěným uhlím a nové specializované jméno se uchytilo — lidová tradice ovšem nabízí i jiné verze, od přestěhovaného uhlíře až po kováře, který si obchod s palivem přivydělával vedle výhně. Ať je pravdivá kterákoli z nich, obchod tu vydržel po staletí: uhlí se tu prodávalo až do počátku 19. století, kdy ho definitivně vytlačilo černé uhlí.
+
+Nejnečekanějším obyvatelem náměstí byl v roce 1787 Wolfgang Amadeus Mozart, který bydlel v rohovém domě přesně v místě, kde se Uhelný trh stýká se Skořepkou — ve stejném roce, kdy si ho Praha nadobro zamilovala a kdy měl na druhém konci města ve Stavovském divadle premiéru Don Giovanni. Kašna na náměstí je proti tomu poměrně nový přírůstek — objednal ji v roce 1797 bohatý pražský kupec Jakub Wimmer, sochu vytvořil František Xaver Lederer, ale na Uhelný trh se natrvalo usadila až v roce 1951, po desetiletích stěhování mezi úplně jinými místy.
+
+🎁 Bonus: Staroměstská Praha kdysi fungovala skoro výhradně na tomhle principu doslovného pojmenování — na Ovocném trhu se prodávalo ovoce, na Dobytčím trhu dobytek, na Uhelném trhu uhlí. Nebylo to tak úplně město, spíš obří středověké nákupní centrum s neobvykle poctivým značením.`,
+
+      zh: `勇敢的冒险家，欢迎来到煤炭市场！别被这个朴实无华的名字吓退——这座袖珍的三角形小广场，曾是中世纪布拉格专业化市场网络中的一环，一整片街区存在的理由，说白了就是卖给你壁炉用的燃料。
+
+这座广场最初是一片更大的"新市场"的一部分，那片区域一路向东北延伸约半公里，直到今天的果品市场；而这一整片地方，早在13世纪30年代起就被开发为圣加卢城区。大约在14世纪中叶，木炭交易从附近的"山羊广场"迁到了这里，这个专门化的新名字也就此固定下来——不过民间还流传着别的说法，有人说是某个卖炭商搬了过来，也有人说是某个铁匠顺带做起了燃料生意。不管哪种说法属实，这门生意都延续了好几个世纪：木炭一直卖到19世纪初，才终于被硬煤彻底取代。
+
+这座广场最意想不到的住客，是1787年住进来的沃尔夫冈·阿马德乌斯·莫扎特——他所住的那栋转角房子，正好位于这座广场与斯科热普卡街的交汇处。就在同一年，布拉格彻底爱上了他，他的歌剧《唐·乔万尼》也在城市另一端的城邦剧院举行了世界首演。相比之下，广场上的喷泉则是个"后来者"——它由富有的布拉格商人雅库布·维默尔于1797年委托建造，雕像出自弗兰蒂谢克·克萨韦尔·莱德雷尔之手，但直到1951年，在辗转搬迁数十年后，它才最终落户于此。
+
+🎁 彩蛋：老城区的布拉格曾几乎完全靠这种"名副其实"的方式运转——果品市场卖水果，牲畜市场卖牲口，煤炭市场卖煤。与其说这是一座城市，不如说是一座巨大的中世纪购物中心，只是指示牌格外诚实。`,
+    },
+  },
+  {
+    name: 'Luxor Book Palace',
+    slug: 'palac-knih-luxor',
+    localizedNames: { cz: 'Palác knih Luxor', zh: '卢克索书宫' },
+    labels: ['cultural', 'architecture', 'historical'],
+    coordinates: { lat: 50.081512192936835, lng: 14.42814454526795 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_Luxor',
+    description: {
+      en: `Brave adventurer, welcome to the Luxor Book Palace! On paper it's just a very large bookshop. In practice it's a 1920s functionalist pleasure palace that used to run a nightclub cinema, a shooting range, and two dance halls under one roof — and somehow, a century later, landed on paperbacks as the winning business model.
+
+The building went up between 1925 and 1927, designed by architects Bohumír Kozák and Nikola Dobrović, and opened its doors as Palác Avion. The ground floor held a grand café facing Wenceslas Square, while the basement packed in a 700-seat cinema of the same name, a shooting range, and not one but two dance halls — a genuine multi-storey entertainment complex decades before anyone had coined the word "multiplex."
+
+The cinema kept changing its name as the century rolled on: Avion became Letka, and by the 1950s, under a very different political climate, it was screening newsreels and documentaries under the name "Čas." The whole building drifted along in relative obscurity until August 2002, when the ground floor and above reopened as Palác knih Neoluxor — today simply the Luxor Book Palace, spread across four floors with roughly 75,000 titles, widely cited as the largest bookstore in Central Europe. A Ramada hotel now occupies the upper floors, and the Luxor Café carries on the building's century-old habit of serving coffee to browsing pedestrians.
+
+🎁 Bonus: Nothing about this building has ever had the faintest connection to Egypt — no Nile, no pharaohs, no ancient ruins. "Luxor" was simply chosen because it sounded suitably grand for a bookstore chain, which makes it a fitting match for a building that has spent a hundred years reinventing itself under whatever name sounded good at the time.`,
+
+      cz: `Statečný dobrodruhu, vítej v Paláci knih Luxor! Na papíře je to jen velké knihkupectví. Ve skutečnosti je to funkcionalistický zábavní palác z 20. let minulého století, který pod jednou střechou provozoval noční kino, střelnici a hned dvě taneční sály — a o sto let později skončil u prodeje knih jako svého vítězného byznysu.
+
+Budova vznikla v letech 1925–1927 podle projektu architektů Bohumíra Kozáka a Nikoly Dobroviće a otevřela se jako Palác Avion. V přízemí do Václavského náměstí sídlila velká kavárna, zatímco v podzemí se vešlo sedmisetmístné kino stejného jména, střelnice a rovnou dvě tančírny — opravdový vícepatrový zábavní komplex, o desítky let dřív, než někdo vůbec vymyslel slovo „multikino".
+
+Kino v průběhu století měnilo jméno: z Avionu se stala Letka a v 50. letech, v úplně jiné politické atmosféře, se tu pod názvem „Čas" promítaly týdeníky a dokumenty. Celá budova pak žila poněkud v ústraní až do srpna 2002, kdy se přízemí a patra nad ním otevřela jako Palác knih Neoluxor — dnešní Palác knih Luxor, rozprostřený na čtyřech podlažích s přibližně 75 000 tituly, běžně označovaný za největší knihkupectví ve střední Evropě. Horní patra dnes obsazuje hotel Ramada a kavárna Luxor navazuje na stoletou tradici budovy podávat kávu kolemjdoucím.
+
+🎁 Bonus: Tahle budova nikdy neměla sebemenší souvislost s Egyptem — žádný Nil, žádní faraoni, žádné starověké ruiny. Jméno „Luxor" bylo zvoleno prostě proto, že znělo dostatečně honosně pro knihkupeckou síť, což se docela hodí k budově, která už sto let mění jméno podle toho, co zrovna znělo dobře.`,
+
+      zh: `勇敢的冒险家，欢迎来到卢克索书宫！听名字，这不过是一家很大的书店。可实际上，这是一座上世纪20年代的功能主义娱乐宫殿，曾经在同一屋檐下经营着夜间电影院、射击场，外加两个舞厅——一百年后，兜兜转转，卖书竟成了它最终胜出的生意。
+
+这栋建筑由建筑师博胡米尔·科扎克和尼古拉·多布罗维奇设计，建于1925至1927年，开业时名为阿维翁宫。一楼面朝瓦茨拉夫广场，是一间气派的大咖啡馆；地下则塞进了一座同名的700座电影院、一处射击场，外加整整两个舞厅——早在"多厅影院"这个词被发明出来的几十年前，这里就已经是一座名副其实的多层娱乐综合体。
+
+这座电影院的名字在一个世纪里几经变化：从阿维翁改成了莱特卡，到了50年代，在截然不同的政治氛围下，又以"时代"为名放映新闻片和纪录片。此后整栋建筑一度归于沉寂，直到2002年8月，一楼及以上楼层重新开业，变成了Neoluxor书宫——也就是今天的卢克索书宫，四层楼铺开，藏书约7.5万种，常被称为中欧最大的书店。楼上如今是华美达酒店，卢克索咖啡馆则延续着这栋建筑上百年来为过路人端上咖啡的传统。
+
+🎁 彩蛋：这栋建筑其实从未跟埃及有过半点关联——没有尼罗河，没有法老，也没有古代遗迹。"卢克索"这个名字纯粹是因为听起来足够气派，才被这家连锁书店选中——倒也很配这栋一百年来不断改名、哪个名字顺耳就用哪个的建筑。`,
+    },
+  },
+  {
+    name: 'Fountain on Malé náměstí',
+    slug: 'kasna-na-malem-namesti',
+    localizedNames: { cz: 'Kašna na Malém náměstí', zh: '小广场喷泉' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.08662280637118, lng: 14.419522982606555 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the fountain on Malé náměstí! At first glance it looks like a slightly overdressed well sitting in the middle of a square — and that is, in fact, precisely what it is. It also happens to be the oldest fountain still standing anywhere in Prague, a fact that most people wandering past with a coffee in hand never bother to register.
+
+The centrepiece is a hand-forged Renaissance iron grille dated to 1560, though a few historians argue the metalwork more likely dates closer to 1590 — either way, it is old enough that its maker is remembered by name: court locksmith Jörg Schmidthammer, working out of a Prague workshop centuries before anyone thought to put "artisanal" on a business card. The grille is divided into eleven separate panels, each carrying its own distinct pattern, and the whole cage is topped with a set of small angel figures standing guard over the well shaft below.
+
+A finial bearing the Czech lion was bolted onto the top of the grille sometime in the 17th century, and the fountain's original, more austere Gothic form was reworked into its current decorative shape in 1877–78. Between 1979 and 1981 the entire structure went through a full restoration, during which the grille, its little cupola, and the angels were all regilded — so the gleam you see today is carefully maintained rather than original. Towering behind it is Rottův dům, a former ironmonger's showroom whose Neo-Renaissance façade is covered in painted scenes of crafts and agriculture designed by Mikoláš Aleš, which makes for a genuinely striking backdrop to something as modest as a well.
+
+🎁 Bonus: Eleven decorative panels on one grille is not a subtle choice — Schmidthammer was, by every indication, using this commission as a portfolio piece, cramming in as many different ironwork patterns as a single fountain could structurally support.`,
+
+      cz: `Statečný dobrodruhu, vítej u kašny na Malém náměstí! Na první pohled to vypadá jako trochu přezdobená studna uprostřed náměstí — a technicky vzato přesně to taky je. Je to zároveň nejstarší dochovaná kašna v celé Praze, což si většina kolemjdoucích s kávou v ruce nikdy nevšimne.
+
+Jádrem je ručně kovaná renesanční mříž datovaná do roku 1560, byť se část historiků přiklání spíš k roku 1590 — v obou případech je ale dost stará na to, aby se dochovalo i jméno jejího tvůrce: dvorský zámečník Jörg Schmidthammer, který pracoval v pražské dílně staletí předtím, než někoho napadlo psát na vizitky slovo „řemeslný". Mříž je rozdělená do jedenácti samostatných polí, každé s jiným vzorem, a celou klec nahoře uzavírají drobné postavy andělů střežící studniční šachtu pod sebou.
+
+Někdy v 17. století přibyla na vrchol mříže makovice s českým lvem a původní, střídmější gotická podoba kašny byla přestavěna do dnešní dekorativní formy v letech 1877–78. Mezi lety 1979 a 1981 pak celá stavba prošla kompletní obnovou, při níž se mříž, kopulka i andělé znovu pozlatili — takže lesk, který vidíš dnes, je pečlivě udržovaný, nikoli původní. Za kašnou se tyčí Rottův dům, bývalá prodejna železářství, jejíž novorenesanční fasáda je pokrytá malovanými výjevy řemesel a zemědělství podle návrhů Mikoláše Alše — díky čemuž má i tak skromná věc, jako je studna, mimořádně efektní kulisu.
+
+🎁 Bonus: Jedenáct různých polí na jedné mříži není náhoda — Schmidthammer tuhle zakázku podle všeho použil jako svoje portfolio a napěchoval do jedné kašny tolik různých kovářských vzorů, kolik se tam vešlo.`,
+
+      zh: `勇敢的冒险家，欢迎来到小广场喷泉！乍一看，这不过是广场中央一口打扮得稍微隆重了些的水井——严格说来，它确实就是。它同时也是布拉格现存最古老的一座喷泉，只是大多数端着咖啡匆匆走过的人，从来没留意过这一点。
+
+它的核心是一副手工锻造的文艺复兴风格铁栅栏，年代标注为1560年，不过也有部分历史学家认为，铁艺工艺更接近1590年。不管哪个年代，它都老到连锻造者的名字都被记录了下来：宫廷锁匠约尔格·施密特哈默，他在布拉格的一间作坊里工作，比任何人想到要在名片上印"手工制作"早了好几个世纪。栅栏分成十一个独立的区块，每一块都有各自不同的花纹，整副铁笼顶端还立着几尊小天使雕像，仿佛在守护下方的井筒。
+
+17世纪的某个时候，栅栏顶部又加上了一枚刻有捷克狮徽的顶饰；到了1877至1878年间，喷泉原本较为朴素的哥特式外观被改造成了如今这副装饰华丽的模样。1979至1981年间，整座喷泉经历了一次全面修复，栅栏、小圆顶和天使雕像都重新镀上了金——所以你今天看到的那层光泽，是精心维护的结果，而非原貌。喷泉背后耸立着罗特之家，一座曾经的五金店铺，其新文艺复兴风格的立面上，按米科拉什·阿莱什的设计绘满了描绘手工业与农业的图案——为这口看似朴素的水井，配上了一处格外壮观的背景。
+
+🎁 彩蛋：一副铁栅栏上分出十一个花纹各异的区块，绝非偶然——种种迹象表明，施密特哈默把这单委托当成了自己的作品集，把能塞进一座喷泉里的锻铁花样，几乎全塞了进去。`,
+    },
+  },
+  {
+    name: 'Dvořák Embankment',
+    slug: 'dvorakovo-nabrezi',
+    localizedNames: { cz: 'Dvořákovo nábřeží', zh: '德沃夏克滨河大道' },
+    labels: ['street', 'waterbody'],
+    coordinates: { lat: 50.09154483633834, lng: 14.416015845381862 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Dvo%C5%99%C3%A1kovo_n%C3%A1b%C5%99e%C5%BE%C3%AD',
+    description: {
+      en: `Brave adventurer, welcome to Dvořák Embankment! It reads like the most straightforward stretch of riverside real estate in Prague — a road next to a wall next to a river — but it's quietly the only embankment in the city that has never once been renamed, which in Prague's political history is basically a miracle.
+
+The embankment was built between 1899 and 1908 as part of Prague's sanitation and urban renewal programme: a sewer collector went in first, followed by a regulation wall, a riverside promenade, and a boat landing. Before all that, the site held public bathhouses, timber yards, and — least glamorously — a saltpetre works; one stretch was even locally known as "Sanytrová dolejší" ("Lower Saltpetre Street"), which tells you plenty about who wanted to live downwind of this part of the river.
+
+From 1904, the completed embankment took the name it still carries, honouring composer Antonín Dvořák, who died that same year. The neighbourhood itself has always gone by "Na Františku," but the engineering project running along its edge kept its own separate identity — and while nearly every other Prague embankment has been renamed at least once to match whichever regime happened to be in charge, this one never has. Walk its length today and you pass the Faculty of Law of Charles University (a 1928–29 building by Ladislav Machoň), the InterContinental and President hotels, and the Convent of St Agnes of Bohemia — Prague's oldest surviving Gothic building complex, now folded into the National Gallery.
+
+🎁 Bonus: During both the Nazi occupation and the decades of communist rule, authorities renamed practically every other prominent riverside address in the city — Masaryk Embankment alone wore at least five different names across the 20th century. Dvořák Embankment sailed through every regime change with the composer's name fully intact, which either says something about Dvořák's untouchable reputation, or about how little anyone in charge cared about a service road running next to a sewer collector.`,
+
+      cz: `Statečný dobrodruhu, vítej na Dvořákově nábřeží! Zní to jako naprosto nenápadný kus pražské nábřežní zástavby — silnice vedle zdi vedle řeky — ale je to jediné pražské nábřeží, které nikdy nezměnilo jméno, což je v kontextu zdejších politických dějin skoro zázrak.
+
+Nábřeží vzniklo v letech 1899–1908 v rámci pražské asanace: nejprve se vybudovala kanalizační stoka, poté regulační zeď, náplavka a přístaviště lodí. Předtím na stejném místě stávaly veřejné lázně, ohrady na dříví a — méně romanticky — výrobna sanytru; jeden úsek se dokonce lidově jmenoval „Sanytrová dolejší", což leccos napovídá o tom, kdo tu tehdy chtěl bydlet po větru.
+
+Od roku 1904 nese dokončené nábřeží jméno, které si drží dodnes — na počest skladatele Antonína Dvořáka, který právě toho roku zemřel. Čtvrť samotná se odjakživa jmenuje „Na Františku", ale technické dílo podél jejího okraje si udrželo vlastní identitu, a zatímco skoro každé jiné pražské nábřeží bylo aspoň jednou přejmenováno podle toho, kdo zrovna vládl, tohle ne. Dnes tudy projdeš kolem budovy Právnické fakulty Univerzity Karlovy (1928–29, architekt Ladislav Machoň), hotelů InterContinental a President a kolem kláštera svaté Anežky České — nejstaršího dochovaného gotického areálu v Praze, dnes součásti Národní galerie.
+
+🎁 Bonus: Za nacistické okupace i během desetiletí komunistické vlády úřady přejmenovaly prakticky každou další významnou nábřežní adresu ve městě — jen Masarykovo nábřeží neslo v průběhu 20. století nejmíň pět různých jmen. Dvořákovo nábřeží proplulo všemi režimními změnami se skladatelovým jménem netknutým, což buď něco vypovídá o Dvořákově nedotknutelné pověsti, nebo o tom, jak málo se tehdejší vládci zajímali o obslužnou komunikaci vedle kanalizační stoky.`,
+
+      zh: `勇敢的冒险家，欢迎来到德沃夏克滨河大道！听起来像是布拉格最平平无奇的一段河岸设施——一条紧挨着堤墙、堤墙紧挨着河流的马路——但它却是布拉格唯一一条从未改过名字的滨河大道，这在这座城市的政治历史里，几乎称得上一个奇迹。
+
+这条堤岸建于1899至1908年间，是布拉格城市卫生改造工程的一部分：先铺设了下水道干渠，随后才修起了防洪堤墙、河岸步道和船只停靠点。在此之前，同一片地段曾是公共浴场、木材堆场，还有——不那么浪漫地说——一座硝石作坊；其中一段甚至被当地人称作"下硝石街"，光听这个名字，就能猜出当年谁会愿意住在这一带的下风口。
+
+自1904年起，这条完工的堤岸便一直沿用至今的名字——纪念作曲家安东宁·德沃夏克，他正是在那一年去世的。这一带本身向来被称作"弗兰蒂谢克区"，但沿着它边缘修建的这项工程，始终保留着自己独立的身份。几乎布拉格所有其他滨河大道都至少因政权更替被改过一次名字，唯独这一条从未如此。如今沿着它走一趟，你会经过查理大学法学院大楼（1928–29年，建筑师拉迪斯拉夫·马霍尼设计）、洲际酒店和总统酒店，以及圣阿格尼丝女修道院——布拉格现存最古老的哥特式建筑群，如今已并入国家美术馆。
+
+🎁 彩蛋：无论是在纳粹占领时期，还是在此后数十年的共产主义统治下，当局几乎把这座城市里每一条重要的滨河大道都改过名——单是马萨里克滨河大道，在20世纪就至少用过五个不同的名字。德沃夏克滨河大道却一路平稳地穿过了每一次政权更迭，作曲家的名字始终未被触碰——这或许说明了德沃夏克的声望坚不可摧，又或许只是说明，当权者们从来没把一条紧挨着下水道干渠的服务道路放在心上。`,
+    },
+  },
+  {
+    name: 'Smallest House in Prague',
+    slug: 'smallest-house-in-prague',
+    localizedNames: { cz: 'Nejmenší dům v Praze', zh: '布拉格最小的房子' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.09176858100073, lng: 14.424292014694764 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/D%C5%AFm_%C4%8Dp._1043_(Praha,_Star%C3%A9_M%C4%9Bsto)',
+    description: {
+      en: `Brave adventurer, welcome to the Smallest House in Prague! Wedged onto a quiet Old Town street between two perfectly ordinary-sized neighbours, this entire building is only 2.25 metres wide — narrower than most hallways. Walk past a little too quickly and you'll miss Prague's most modest record holder completely.
+
+The house was built in 1853 by architect Josef Liebel, who used it to plug an awkward gap left by an old alley that used to run between a neighbouring townhouse and the grounds of a medieval convent. It originally held just two small rooms in a row; a third was squeezed in nine years later, in 1862 — apparently on the theory that if a building is going to be famous for being tiny, it might as well be properly furnished tiny.
+
+For roughly forty years, until 1922, the house had a livelier second career as a brothel — a fact the tourist plaques mention with a perfectly straight face. Today only the original street-facing wall survives; step through the narrow doorway and you're actually walking into a passage leading to an inhabited building behind it. It's still listed as a protected cultural monument all the same, official proof that size has never determined significance in this city.
+
+🎁 Bonus: Despite the famous nickname, the house isn't technically Prague's smallest by floor area — it's the narrowest, at 2.25 metres wide. Its closest rival for width is a room inside a hotel just a few streets away, which means Prague's tightest real-estate contest has quietly been running for over 170 years between a former brothel and a hotel closet.`,
+
+      cz: `Statečný dobrodruhu, vítej u Nejmenšího domu v Praze! Vmáčknutý mezi dva naprosto obyčejně velké sousedy v tiché uličce na Starém Městě měří tahle stavba na šířku pouhých 2,25 metru — je užší než leckterá chodba. Kdo jde kolem trochu rychleji, propásne pražského rekordmana v nejskromnější podlažní ploše úplně.
+
+Dům postavil v roce 1853 architekt Josef Liebel, který jím vyplnil nepříjemnou mezeru po staré uličce, jež kdysi vedla mezi sousedním domem a pozemky středověkého kláštera. Zpočátku měl jen dvě místnosti za sebou; třetí k nim přibyla o devět let později, v roce 1862 — zřejmě podle zásady, že když už má být budova pověstně maličká, ať je aspoň pořádně zařízená.
+
+Zhruba čtyřicet let, až do roku 1922, prožíval dům čilejší druhou kariéru jako nevěstinec — fakt, který turistické cedule zmiňují s naprosto vážnou tváří. Dnes se dochovalo jen původní pouliční průčelí; úzkými dveřmi ve skutečnosti vstoupíš do průchodu vedoucího k obydlenému domu za ním. Přesto je zapsaný jako chráněná kulturní památka — oficiální důkaz, že velikost v tomhle městě nikdy nerozhodovala o významu.
+
+🎁 Bonus: I přes proslulou přezdívku není tenhle dům pražským nejmenším podle podlažní plochy — je nejužší, se svými 2,25 metru šířky. Hlavní konkurent o tenhle titul stojí jen pár ulic odtud, v jednom pokoji nedalekého hotelu, takže se pražské klání o nejtěsnější bydlení táhne už přes 170 let mezi bývalým nevěstincem a hotelovým pokojíkem.`,
+
+      zh: `勇敢的冒险家，欢迎来到布拉格最小的房子！这栋建筑挤在老城一条安静街道上、两栋普普通通大小的邻居之间，整栋楼宽度只有2.25米——比大多数走廊还要窄。走得稍微快一点，你就会完全错过这位布拉格"占地面积最小纪录"的保持者。
+
+这栋房子建于1853年，由建筑师约瑟夫·利贝尔设计——他用它填补了一条老巷子留下的尴尬空隙，那条巷子曾经连接着旁边一栋民宅和一座中世纪修道院的院墙。房子最初只有前后相连的两个小房间；九年后的1862年又挤进了第三间，理由大概是：既然注定要以"小"闻名，那不如把家具配得齐齐全全。
+
+这栋房子还有过更热闹的第二段人生：从建成到1922年，将近四十年间它一直是一间妓院——旅游告示牌讲起这段历史时语气一本正经，毫不遮掩。如今只剩下临街的那面原始外墙保留了下来；走进那扇窄门，你其实是走进了通往身后一栋有人居住的建筑的过道。尽管如此，它依然被列为受保护的文化古迹——用官方的方式证明，在这座城市里，大小从来不能决定重要性。
+
+🎁 彩蛋：尽管名声在外，这栋房子按占地面积算其实并不是布拉格最小的——它真正的头衔是"最窄"，宽度只有2.25米。它在"最窄"头衔上的头号对手，就藏在几条街外一家酒店的某个房间里，这场关于布拉格最局促居住空间的较量，已经在一间前妓院和一间酒店客房之间悄悄较劲了170多年。`,
+    },
+  },
 ];
 
 async function run() {

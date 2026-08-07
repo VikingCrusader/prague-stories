@@ -8,6 +8,7 @@ import {
   LABEL_DEFINITIONS,
   LABEL_COLORS,
 } from "../../utils/pixelArtMap";
+import { getLocalCoverPath } from "../../utils/localCover";
 import { getLocName } from "../../utils/locName";
 import { getCurrentPosition, haversineDistance, formatDistance } from "../../utils/geolocation";
 import { useUserPosition } from "../../hooks/useUserPosition";
@@ -40,7 +41,8 @@ export default function LocationDetail({
   const [loading, setLoading] = useState(true);
   const [actionLoading, setActionLoading] = useState(false);
   const [error, setError] = useState("");
-  const [imgFailed, setImgFailed] = useState(false);
+  const [localFailed, setLocalFailed] = useState(false);
+  const [cloudFailed, setCloudFailed] = useState(false);
   const [checkInResult, setCheckInResult] = useState(null);
   const [closing, setClosing] = useState(false);
   const [showEdit, setShowEdit] = useState(false);
@@ -60,6 +62,8 @@ export default function LocationDetail({
   useEffect(() => {
     setLoading(true);
     setError("");
+    setLocalFailed(false);
+    setCloudFailed(false);
     locationAPI
       .getOne(slug)
       .then((res) => setLoc(res.data))
@@ -119,7 +123,8 @@ export default function LocationDetail({
 
   const handleUpdated = (updatedLoc) => {
     setLoc((prev) => ({ ...prev, ...updatedLoc }));
-    setImgFailed(false);
+    setLocalFailed(false);
+    setCloudFailed(false);
     onUpdate?.(updatedLoc);
   };
 
@@ -149,6 +154,10 @@ export default function LocationDetail({
   const locName = loc ? convert(getLocName(loc, lang)) : "";
   const art = loc ? getArt(loc.pixelArtKey, loc.labels) : "📍";
   const bgColor = loc ? LABEL_COLORS[loc.labels?.[0]] || "#1a2a5a" : "#1a2a5a";
+  const localCover = loc ? getLocalCoverPath(loc.slug) : null;
+  const useLocalCover = !!localCover && !localFailed;
+  const useCloudCover = !useLocalCover && !!loc?.coverImage && !cloudFailed;
+  const coverSrc = useLocalCover ? localCover : loc?.coverImage;
   const distance =
     loc && userPos
       ? haversineDistance(userPos.lat, userPos.lng, loc.coordinates.lat, loc.coordinates.lng)
@@ -198,7 +207,7 @@ export default function LocationDetail({
           </div>
         ) : loc ? (
           <>
-            {loc.coverImage || !imgFailed ? (
+            {useLocalCover || useCloudCover ? (
               <a
                 href={`https://www.google.com/maps/dir/?api=1&destination=${loc.coordinates.lat},${loc.coordinates.lng}`}
                 target="_blank"
@@ -221,9 +230,11 @@ export default function LocationDetail({
                   }}
                 >
                   <img
-                    src={loc.coverImage || `/pixel-art/${loc.slug}.webp`}
+                    src={coverSrc}
                     alt={locName}
-                    onError={() => setImgFailed(true)}
+                    onError={() =>
+                      useLocalCover ? setLocalFailed(true) : setCloudFailed(true)
+                    }
                     style={{
                       width: "100%",
                       height: "100%",

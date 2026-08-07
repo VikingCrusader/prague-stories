@@ -745,6 +745,46 @@ export const SLUG_RARITY = {
   // ── Grébovka / Vyšehrad underground batch (2026-07) ─────────────────────
   'pavilon-grebovka':               'rare',     // 1870s Gröbe garden hall with reconstructed bowling lane, now café
   'pracharna-goticky-sklep':        'epic',     // 14th-c. palace cellar + 17th-c. powder store, Vyšehrad underground exhibit
+
+  // ── Smíchov / Košíře extra batch (2026-07-29) ────────────────────────────
+  'micka-point':                    'rare',     // neighborhood cat, hundreds of pilgrimage-style Google reviews
+  'vetraci-veze-strahovskeho-tunelu': 'superior', // twin 48m Strahov Tunnel ventilation chimneys, built 1984-95
+
+  // ── Suchdol / Horoměřice / Stodůlky batch (2026-07-30) ──────────────────
+  'komunitni-zahrada-suchdol':      'common',   // volunteer-built 2014 community garden, earth trampoline, school outdoor classroom
+  'zamek-horomerice':               'superior', // Strahov Monastery farmstead-turned-Baroque chateau, Nosecký chapel frescoes, closed for restoration
+  'panska-zahrada':                 'rare',     // 2009-11 reconstructed park, ceramic fountain sculptures by Alexandra Koláčková, Stodůlky
+
+  // ── Jinonice / Smíchov / Řepy / Old Town batch (2026-07-31) ─────────────
+  'aviatica':                       'epic',     // Waltrovka office tower on the former Walter aircraft-engine works
+  'winternitzova-vila':             'epic',     // Adolf Loos's last completed house, Raumplan showcase, Smíchov
+  'lesopark-repy':                  'common',   // active forest park with toboggan run, western Prague
+  'viselec':                        'rare',     // David Černý's hanging Sigmund Freud sculpture, Husova street
+
+  // ── Stodůlky / Vinohrady / Malvazinky batch (2026-08) ────────────────────
+  'dvouhlave-zvire':                'common',   // Alexandra Koláčková ceramic sculpture, edge of Panská zahrada, Stodůlky
+  'roubenka-vila':                  'epic',     // 1921-22 mountain-style log villa, Hitlerjugend billet, cultural monument since 2004
+  'cerny-vrch':                     'rare',     // quiet Malvazinky hilltop, formerly Věneček, sparsely documented
+
+  // ── New Town / Černý Most batch (2026-08) ────────────────────────────────
+  'museum-of-bricks':               'rare',     // Guinness-record private LEGO museum, former bank vault, Národní street
+  'park-u-cenku':                   'epic',     // ~100ha recreational park on former farmland, far east Prague, little-known
+
+  // ── Břevnov batch (2026-08) ───────────────────────────────────────────────
+  'hotel-pyramida-praha':           'rare',     // 1980-87 Cajthaml-couple brutalist frustum, ex-ROH union recreation house
+
+  // ── Nové Město riverfront batch (2026-08-04) ─────────────────────────────
+  'rasinovo-nabrezi':               'rare',     // Náplavka embankment, ex-Podskalí rafters' quarter, houseboats & Sat. farmers market
+  'richtruv-dum':                   'epic',     // Malé nám./Michalská passage house, Romanesque core, 1st Prague telephone exchange 1882
+
+  // ── Old Town squares & embankments batch (2026-08-05) ───────────────────
+  'uhelny-trh':                     'rare',     // medieval charcoal-market square, Mozart lived on the corner in 1787
+  'palac-knih-luxor':               'rare',     // 1925-27 Avion pleasure palace, now Central Europe's largest bookstore
+  'kasna-na-malem-namesti':         'superior', // 1560 Renaissance ironwork grille, oldest surviving fountain in Prague
+  'dvorakovo-nabrezi':              'superior', // 1899-1908 embankment, only one never renamed across regime changes
+
+  // ── Old Town curiosities batch (2026-08-06) ──────────────────────────────
+  'smallest-house-in-prague':       'rare',     // 1853 Liebel infill house, 2.25m wide, ex-brothel until 1922
 };
 
 export function getRarity(slug) {

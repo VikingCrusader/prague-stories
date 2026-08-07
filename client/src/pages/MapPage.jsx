@@ -8,6 +8,7 @@ import { getCurrentPosition, haversineDistance, formatDistance } from '../utils/
 import { useUserPosition } from '../hooks/useUserPosition';
 import MapView from '../components/map/MapView';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../utils/pixelArtMap';
+import { getLocalCoverPath } from '../utils/localCover';
 import { RARITY_COLOR, RARITY_LABEL, lockClosedIcon } from '../utils/rarity';
 
 const RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
@@ -263,12 +264,14 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
   const [loading, setLoading]             = useState(true);
   const [actionLoading, setActionLoading] = useState(false);
   const [checkInError, setCheckInError]   = useState('');
-  const [imgFailed, setImgFailed]         = useState(false);
+  const [localFailed, setLocalFailed]     = useState(false);
+  const [cloudFailed, setCloudFailed]     = useState(false);
 
   useEffect(() => {
     setLoading(true);
     setCheckInError('');
-    setImgFailed(false);
+    setLocalFailed(false);
+    setCloudFailed(false);
     locationAPI.getOne(slug)
       .then(res => setLoc(res.data))
       .finally(() => setLoading(false));
@@ -328,6 +331,9 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
   };
 
   const art = getArt(loc.pixelArtKey, loc.labels);
+  const localCover = getLocalCoverPath(loc.slug);
+  const useLocalCover = !!localCover && !localFailed;
+  const useCloudCover = !useLocalCover && !!loc.coverImage && !cloudFailed;
 
   return (
     <>
@@ -338,13 +344,18 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
         title={t('common.googleMaps')}
         style={{ position: 'relative', width: '100%', aspectRatio: '1', background: 'var(--bg-secondary)', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, cursor: 'pointer' }}
       >
-        {loc.coverImage ? (
-          <img src={loc.coverImage} alt={getLocName(loc, lang)} style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block', filter: loc.unlocked ? undefined : 'saturate(0.15)' }} />
-        ) : !imgFailed ? (
+        {useLocalCover ? (
           <img
-            src={`/pixel-art/${loc.slug}.webp`}
+            src={localCover}
             alt={getLocName(loc, lang)}
-            onError={() => setImgFailed(true)}
+            onError={() => setLocalFailed(true)}
+            style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block', filter: loc.unlocked ? undefined : 'saturate(0.15)' }}
+          />
+        ) : useCloudCover ? (
+          <img
+            src={loc.coverImage}
+            alt={getLocName(loc, lang)}
+            onError={() => setCloudFailed(true)}
             style={{ width: '100%', height: '100%', objectFit: 'contain', display: 'block', filter: loc.unlocked ? undefined : 'saturate(0.15)' }}
           />
         ) : (

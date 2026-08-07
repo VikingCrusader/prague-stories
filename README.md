@@ -19,7 +19,7 @@ Discover hundreds of Prague landmarks, earn XP, level up, unlock achievements, a
 | Database | MongoDB + Mongoose                                        |
 | Auth     | JWT (jsonwebtoken + bcryptjs)                             |
 | AI       | Google Gemini API (descriptions + pixel art)              |
-| Images   | Cloudinary (production) + local WebP (dev)                |
+| Images   | Local WebP (served from `public/pixel-art/`), Cloudinary as upload backend/fallback |
 | CSS      | Custom pixel-art design system, mobile-first              |
 
 ---
@@ -251,6 +251,7 @@ prague-stories/
 | `seedLocations.js`   | `node src/data/seedLocations.js` | Upsert all seeded location cards into the DB       |
 | `exportLocations.js` | `npm run export:locations`       | Export current DB state → static seed files        |
 | `syncCovers.js`      | `npm run sync:covers`            | Sync cover images between Cloudinary and local dev |
+| `generateCoverManifest.mjs` (client) | `npm run generate:covers` | Rebuild the slug → local filename lookup the frontend reads covers from |
 
 ---
 

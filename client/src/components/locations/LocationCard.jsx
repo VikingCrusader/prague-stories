@@ -1,5 +1,6 @@
 import { useState, useRef, useLayoutEffect, useEffect } from 'react';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap';
+import { getLocalCoverPath } from '../../utils/localCover';
 import { useLang, useConvert } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
 import { RARITY_COLOR, RARITY_LABEL, lockClosedIcon, lockOpenIcon } from '../../utils/rarity';
@@ -14,8 +15,9 @@ export default function LocationCard({ location, onClick, distance }) {
   const art   = getArt(pixelArtKey, labels);
   const color = LABEL_COLORS[labels[0]] || '#1a2a5a';
   const firstLabel = labels[0];
+  const localCover = getLocalCoverPath(slug);
+  const [localFailed, setLocalFailed] = useState(false);
   const [coverFailed, setCoverFailed] = useState(false);
-  const [imgFailed,   setImgFailed]   = useState(false);
   const [flipping,    setFlipping]    = useState(false);
   const prevUnlockedRef = useRef(unlocked);
   const labelRef = useRef(null);
@@ -46,18 +48,18 @@ export default function LocationCard({ location, onClick, distance }) {
       onAnimationEnd={e => { if (e.animationName === 'card-flip') setFlipping(false); }}
     >
       <div className="loc-card__banner" style={{ background: color }}>
-        {location.coverImage && !coverFailed ? (
+        {localCover && !localFailed ? (
+          <img
+            src={localCover}
+            alt={name}
+            onError={() => setLocalFailed(true)}
+            style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+          />
+        ) : location.coverImage && !coverFailed ? (
           <img
             src={location.coverImage}
             alt={name}
             onError={() => setCoverFailed(true)}
-            style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
-          />
-        ) : !imgFailed ? (
-          <img
-            src={`/pixel-art/${slug}.webp`}
-            alt={name}
-            onError={() => setImgFailed(true)}
             style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
           />
         ) : (

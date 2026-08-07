@@ -11,6 +11,25 @@ import cloudinary from '../config/cloudinary.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PIXEL_ART_DIR = path.resolve(__dirname, '../../../client/public/pixel-art');
+const COVER_MANIFEST_PATH = path.resolve(__dirname, '../../../client/src/utils/coverManifest.json');
+
+// Keeps the frontend's slug -> local filename lookup (client/src/utils/coverManifest.json)
+// in sync when a dev-mode upload drops a new file into PIXEL_ART_DIR, so the local copy
+// is served on the next request instead of Cloudinary. Best-effort: never blocks the upload.
+function updateCoverManifest(slug, filename) {
+  try {
+    const manifest = fs.existsSync(COVER_MANIFEST_PATH)
+      ? JSON.parse(fs.readFileSync(COVER_MANIFEST_PATH, 'utf8'))
+      : {};
+    manifest[slug] = filename;
+    const sorted = Object.fromEntries(
+      Object.entries(manifest).sort(([a], [b]) => a.localeCompare(b))
+    );
+    fs.writeFileSync(COVER_MANIFEST_PATH, JSON.stringify(sorted, null, 2) + '\n', 'utf8');
+  } catch (err) {
+    console.error('Failed to update coverManifest.json:', err.message);
+  }
+}
 
 function cloudinaryUpload(buffer, options) {
   cloudinary.config({
@@ -214,12 +233,14 @@ export async function uploadCoverImage(req, res, next) {
       }),
     ];
 
+    let localFilename = null;
     if (process.env.NODE_ENV !== 'production') {
-      const localFilename = `${req.params.slug}-v${Date.now()}.webp`;
+      localFilename = `${req.params.slug}-v${Date.now()}.webp`;
       uploads.push(fs.promises.writeFile(path.join(PIXEL_ART_DIR, localFilename), webpBuffer));
     }
 
     const [result] = await Promise.all(uploads);
+    if (localFilename) updateCoverManifest(req.params.slug, localFilename);
 
     location.coverImage = result.secure_url;
     await location.save();
