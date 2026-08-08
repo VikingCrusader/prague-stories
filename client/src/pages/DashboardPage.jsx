@@ -110,7 +110,7 @@ export default function DashboardPage() {
                     padding: '4px 8px',
                     fontSize: 13,
                   }}>
-                    <span>{def.emoji} {convert(lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en)}</span>
+                    <span>{convert(lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en)}</span>
                     <span style={{ color: 'var(--gold)', fontFamily: "'Press Start 2P'", fontSize: 8 }}>
                       {labelCount?.[key] || 0}
                     </span>

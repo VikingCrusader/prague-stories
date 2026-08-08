@@ -788,6 +788,10 @@ export const SLUG_RARITY = {
 
   // ── Staré Město riverside batch (2026-08-07) ─────────────────────────────
   'nemocnice-na-frantisku':         'superior', // 1354-founded riverside hospital, first ether-anaesthesia op in Bohemia (1847)
+
+  // ── Karlín batch (2026-08-08) ─────────────────────────────────────────────
+  'afi-karlin-butterfly':           'epic',     // 2018 CMC Architects office complex, 40k-plant living facade
+  'zakladni-skola-lyckovo-namesti': 'superior', // 1906 Art Nouveau school, built on a former military cemetery
 };
 
 export function getRarity(slug) {

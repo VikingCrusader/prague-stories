@@ -258,7 +258,7 @@ function MapSidebarEmpty() {
   const t = useT();
   return (
     <div className="map-sidebar__empty">
-      <div style={{ fontSize: '3rem', marginBottom: 12 }}>🗺️</div>
+      <img src="/pixel-art/app-logo-transparent.webp" alt="" style={{ width: '75%', height: 'auto', marginBottom: 12 }} />
       <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, lineHeight: 2 }}>
         {t('map.clickMarker')}
       </p>

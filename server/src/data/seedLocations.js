@@ -21298,6 +21298,76 @@ Po bitvě na Bílé hoře instituce změnila majitele: v roce 1620 předal císa
 🎁 彩蛋：这座医院的20世纪过得并不安稳。纳粹占领期间它一度关闭，院区先是被德国陆军征用，后来又变成了德国空军的军医院，直到1950年才被收归国有。历经王室资助、修会管理、外国军队占领和共产主义官僚体制的轮番更迭，同一个地址却在大约670年间始终做着同一件事——救治生病的布拉格人。这座城市里，能拿出这样一份从未间断履历的建筑并不多。`,
     },
   },
+  {
+    name: 'AFI Karlín (Butterfly)',
+    slug: 'afi-karlin-butterfly',
+    localizedNames: { cz: 'Butterfly Karlín', zh: 'AFI Karlín Butterfly' },
+    labels: ['modern', 'architecture'],
+    coordinates: { lat: 50.091869805484485, lng: 14.458134057321246 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Butterfly_Karl%C3%ADn',
+    description: {
+      en: `Brave adventurer, welcome to AFI Karlín — the office complex the whole neighbourhood just nicknamed the Butterfly. From above, its two curved wings genuinely resemble the real thing; from the sidewalk, what actually grabs you is a wall growing thousands of living plants, an unusually literal way for a building to try to seem friendly.
+
+Completed in 2018 by CMC Architects, the complex is built from four connected ellipses forming two six-storey wings around a central atrium — a design the architects say references Karlín's industrial past, evoking the shape of pistons, alongside the organic curve of nearby Vítkov hill. The facade is genuinely alive: more than 40,000 plants are woven into a multi-layered wall of triple glazing, insulated panels and automatic irrigation, quietly producing oxygen and softening the traffic noise for the streets below. The atrium itself is planted as four small seasonal gardens — winter, spring, summer, autumn — and doubles as an event space whenever it isn't simply the calmest place to sit for several city blocks.
+
+None of this arrived without a fight. Before construction began, more than 2,500 locals signed a petition against the project, and a grassroots group naming itself Stop AFI Karlín Business Center formed specifically to block it, objecting to its scale, the added traffic, and a developer they accused of barely bothering to listen. The Butterfly got built anyway, earned a BREEAM Excellent sustainability rating, and today is simply part of the skyline — proof that in Prague a well-organised petition can slow a glass office block down, but rarely stops one.
+
+🎁 Bonus: The architects themselves never called it the Butterfly — their actual brief was about pistons and hillsides, not insects. The nickname was a purely crowd-sourced verdict, handed down the moment the first aerial photograph started circulating, and it stuck so completely that most locals have no idea the building was never designed to look like one at all.`,
+
+      cz: `Statečný dobrodruhu, vítej u AFI Karlín — kancelářského komplexu, kterému celá čtvrť jednoduše přezdívá Butterfly. Shora jeho dvě zaoblená křídla opravdu připomínají motýlí křídla; ze chodníku si ale nejvíc všimneš stěny, ze které rostou tisíce živých rostlin — dost doslovný způsob, jak se má budova tvářit přátelsky.
+
+Komplex dokončilo v roce 2018 studio CMC Architects a je poskládaný ze čtyř propojených elips, které tvoří dvě šestipodlažní křídla kolem centrálního atria — koncept, který má podle architektů odkazovat na karlínskou průmyslovou minulost, konkrétně na tvar pístů, a zároveň na organickou křivku nedalekého Vítkova. Fasáda je doslova živá: přes 40 000 rostlin je vpletených do vícevrstvého pláště z trojskla, zateplených panelů a automatického zavlažování, které tiše produkuje kyslík a tlumí hluk z dopravy pro ulice pod sebou. Samotné atrium je osázené jako čtyři malé sezónní zahrady — zimní, jarní, letní, podzimní — a zároveň slouží jako prostor pro akce, kdykoli zrovna není jen nejklidnějším místem v okolí několika ulic.
+
+Nic z toho nevzniklo bez boje. Než začala výstavba, víc než 2 500 místních podepsalo petici proti projektu a vznikla občanská iniciativa nazvaná Stop AFI Karlín Business Center, jejímž jediným cílem bylo stavbu zablokovat — kvůli jejímu rozsahu, zvýšené dopravě a developerovi, kterého obviňovala, že místní téměř neposlouchá. Butterfly se přesto postavil, získal certifikaci BREEAM Excellent a dnes je prostě součástí panoramatu — důkaz, že dobře zorganizovaná petice v Praze dokáže skleněnou kancelářskou budovu zpomalit, ale zřídkakdy ji úplně zastaví.
+
+🎁 Bonus: Sami architekti budovu Butterfly nikdy nenazývali — jejich skutečné zadání se týkalo pístů a kopců, ne hmyzu. Přezdívka vznikla čistě spontánně, v okamžiku, kdy začaly kolovat první letecké fotky, a uchytila se natolik, že většina místních netuší, že budova nikdy neměla vypadat jako motýl.`,
+
+      zh: `勇敢的冒险家，欢迎来到AFI Karlín——整个街区都直接叫它"蝴蝶"的办公综合体。从空中看，它那两片弧形的翼确实很像一对翅膀；可站在人行道上，你真正会注意到的，是一整面墙上密密麻麻长出的活体植物——这栋楼想显得友善的方式，未免也太直白了一点。
+
+这座建筑群由CMC Architects设计，2018年建成，由四个相连的椭圆体组成两片六层楼高的"翼"，环绕着中央中庭——据建筑师说，这个概念致敬了卡林的工业历史，形状取自活塞，同时也呼应了附近维特科夫山那道有机的曲线。外立面是真正意义上"活"的：超过四万株植物被编织进由三层玻璃、保温板和自动灌溉系统组成的多层墙体中，默默产生氧气，也为楼下街道减弱车流噪音。中庭本身被布置成四座小型主题花园——冬、春、夏、秋——平时是附近方圆几个街区里最安静的角落，需要时又能摇身一变成为活动场地。
+
+这一切都不是没有争议就落地的。动工之前，超过2500名居民联署反对该项目，一个名为"阻止AFI Karlín商务中心"的民间团体专门为了拦下这个项目而成立，反对理由包括建筑体量过大、交通压力增加，以及开发商被指几乎没有认真听取居民意见。尽管如此，蝴蝶大楼还是建了起来，还拿到了BREEAM Excellent可持续认证，如今已经彻底融入天际线——这也证明，在布拉格，一份组织得当的联署或许能拖慢一栋玻璃办公楼的进度，却很少能真正拦住它。
+
+🎁 彩蛋：建筑师自己从来没把它叫做"蝴蝶"——他们真正的设计出发点是活塞和山丘，跟昆虫毫无关系。这个昵称完全是"群众投票"的结果，第一张航拍照片一流传出去，大家立刻脱口而出，而且这个说法流传得如此彻底，以至于大多数本地人根本不知道，这栋楼从一开始压根就没打算长得像只蝴蝶。`,
+    },
+  },
+  {
+    name: 'Lyčkovo Square Elementary School',
+    slug: 'zakladni-skola-lyckovo-namesti',
+    localizedNames: { cz: 'Základní škola a mateřská škola Lyčkovo náměstí', zh: '利奇科夫广场小学' },
+    labels: ['academy', 'historical', 'architecture'],
+    coordinates: { lat: 50.093065951524835, lng: 14.458424755135875 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Z%C3%A1kladn%C3%AD_a_mate%C5%99sk%C3%A1_%C5%A1kola_Ly%C4%8Dkovo_n%C3%A1m%C4%9Bst%C3%AD',
+    description: {
+      en: `Brave adventurer, welcome to Lyčkovo Square Elementary School — a fully functioning primary school where actual children currently do actual homework, so kindly resist the urge to check in mid-lesson. It opened its doors in 1906 on ground that used to be a military cemetery, which is either poetic or mildly unsettling, depending on your mood.
+
+Architect Josef Sakař designed the building in the full Art Nouveau vocabulary — vegetal reliefs, ornamented window frames, a decorative clock face — and construction ran from 1904 to 1906 at a cost of 951,375 crowns and 50 hellers, a sum precise enough to suggest somebody really did not want to round it up. The finished school opened on 30 September 1906 with a blessing from Prague's archbishop, and Emperor Franz Joseph I himself paid a personal visit the following spring. The main façade still carries an equestrian statue of St. Wenceslas and a relief of the educator Jan Amos Comenius, while inside, boys and girls once used entirely separate entrances and staircases, the kindergarten ran four full classrooms of its own, and the building drew its own water from a private well — genuinely cutting-edge amenities for a Prague school in 1906.
+
+The 20th century did not go easy on it. During the First World War, the Red Cross ran a military hospital inside its walls, and Karlín itself only became part of Prague in 1922. On 19 November 1939, occupying Nazi forces seized the building, smashed its furniture, and converted the classrooms into a leather-processing workshop, scattering the students to schools across the city. It reopened after the war, later doubled as a testing ground for experimental communist-era maths curricula, and became an official training school for Charles University's Faculty of Education in 1994 — only to be devastated again by the catastrophic floods of August 2002, which flooded the basement and ground floor and destroyed roughly 40 million crowns' worth of archives, equipment and the entire kindergarten in one week.
+
+🎁 Bonus: Long before any child sat at a desk here, this exact plot had already served as a military cemetery and, by some accounts, a soldiers' rifle range for the nearby Invalidovna barracks. Add in the Nazi leather workshop years, and the site's CV before it settled down to teaching reading and arithmetic already included burials, target practice, and hide-tanning — probably the strangest résumé of any schoolyard in Karlín.`,
+
+      cz: `Statečný dobrodruhu, vítej v Základní škole Lyčkovo náměstí — plně funkční základní škole, kde právě teď skuteční žáci píší skutečné domácí úkoly, takže odolej pokušení hlásit se sem uprostřed vyučování. Otevřela své brány v roce 1906 na pozemku, kde předtím býval vojenský hřbitov — což je buď poetické, nebo mírně znepokojivé, podle nálady.
+
+Architekt Josef Sakař navrhl budovu v plném secesním slovníku — vegetabilní reliéfy, zdobené okenní rámy, ozdobný hodinový ciferník — a stavba probíhala v letech 1904 až 1906 za cenu 951 375 korun a 50 haléřů, částku natolik přesnou, že si ji zjevně nikdo nedovolil zaokrouhlit. Hotová škola byla slavnostně otevřena 30. září 1906 za požehnání pražského arcibiskupa a na jaře následujícího roku ji osobně navštívil sám císař František Josef I. Hlavní fasáda dodnes nese jezdeckou sochu sv. Václava a reliéf pedagoga Jana Amose Komenského, uvnitř měli chlapci a dívky kdysi zcela oddělené vchody i schodiště, mateřská škola měla vlastní čtyři třídy a budova čerpala vodu z vlastní studny — na pražskou školu roku 1906 skutečně na špičce techniky.
+
+Dvacáté století s ní nezacházelo v rukavičkách. Za první světové války v jejích zdech fungovala vojenská nemocnice Červeného kříže a samotný Karlín se stal součástí Prahy až v roce 1922. Dne 19. listopadu 1939 budovu zabrali nacisté, rozbili vybavení a třídy proměnili v koželužskou dílnu, žáky rozeslali po školách po celém městě. Po válce se znovu otevřela, později sloužila jako testovací škola pro experimentální matematickou výuku za komunismu a v roce 1994 se stala fakultní školou Pedagogické fakulty Univerzity Karlovy — jen aby ji o pár let později zdevastovaly katastrofální srpnové povodně roku 2002, které zaplavily suterén i přízemí a během jediného týdne zničily archiv, vybavení i celou mateřskou školu za zhruba 40 milionů korun.
+
+🎁 Bonus: Dlouho předtím, než tu jakékoli dítě usedlo do lavice, sloužil tenhle konkrétní pozemek jako vojenský hřbitov a podle některých pramenů i jako střelnice pro vojáky z nedaleké Invalidovny. Připočti nacistickou koželužnu, a životopis pozemku, než se usadil u čtení a počtů, zahrnoval pohřbívání, střelbu na terč i zpracování kůží — asi nejpodivnější résumé ze všech karlínských školních dvorů.`,
+
+      zh: `勇敢的冒险家，欢迎来到利奇科夫广场小学——一所如今仍在正常运作的小学，真正的孩子们此刻正在写真正的作业，所以请务必忍住不要在上课时间到访打卡。它于1906年开门迎接第一批学生，而这块地在此之前曾是一座军人墓地——听起来是诗意，还是有点毛骨悚然，全看你当天心情。
+
+建筑师约瑟夫·萨卡日（Josef Sakař）以完整的新艺术运动语汇设计了这栋校舍——植物纹样浮雕、雕花窗框、装饰性时钟表盘——工程历时1904年至1906年，耗资951375克朗又50赫勒，精确到这种程度，显然没人敢把它凑个整数。竣工后的学校于1906年9月30日在布拉格大主教的祝圣中开学，次年春天，皇帝弗朗茨·约瑟夫一世本人还亲自前来探访。主立面至今仍保留着一尊圣瓦茨拉夫骑马雕像和教育家夸美纽斯（Jan Amos Comenius）的浮雕；校舍内部曾经男女生分设完全独立的入口和楼梯，幼儿园单独占有四间教室，学校还从自家水井取水——放在1906年的布拉格学校里，这些配置堪称相当前卫。
+
+二十世纪对它并不宽容。第一次世界大战期间，红十字会曾在校舍内设立军医院；卡林本身直到1922年才正式并入布拉格市区。1939年11月19日，占领当局没收了这栋建筑，砸毁室内设施，把教室改造成皮革加工作坊，学生们被分散安置到全市各处学校。战后学校重新开放，后来一度成为共产主义时期实验性数学教学的试点学校，并于1994年成为查理大学教育学院的实习学校——却在几年后的2002年8月遭遇灾难性洪水，地下室与一楼全部被淹，短短一周内，价值约4000万克朗的档案、设备以及整个幼儿园全部损毁。
+
+🎁 彩蛋：早在任何一个孩子坐进教室之前，这块地皮就已经当过军人墓地，据部分史料记载，还曾是附近伤兵院（Invalidovna）士兵们的靶场。再加上纳粹时期的皮革作坊岁月，这块土地在安定下来教孩子们读书算数之前的"履历"，已经包括了埋葬死者、打靶练习和鞣制皮革——大概是卡林所有校园里最离奇的一份简历。`,
+    },
+  },
 ];
 
 async function run() {
