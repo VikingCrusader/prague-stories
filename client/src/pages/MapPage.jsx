@@ -27,6 +27,7 @@ export default function MapPage() {
   const [activeRarities, setActiveRarities] = useState(new Set());
   const [labelsOpen, setLabelsOpen]         = useState(false);
   const [raritiesOpen, setRaritiesOpen]     = useState(false);
+  const [search, setSearch]                 = useState('');
   const filterPanelRef  = useRef(null);
   const rarityPanelRef  = useRef(null);
 
@@ -71,8 +72,16 @@ export default function MapPage() {
     if (activeRarities.size > 0) {
       list = list.filter(l => activeRarities.has(l.rarity ?? 'common'));
     }
+    if (search.trim()) {
+      const q = search.toLowerCase();
+      list = list.filter(l =>
+        l.name.toLowerCase().includes(q) ||
+        l.localizedNames?.cz?.toLowerCase().includes(q) ||
+        l.localizedNames?.zh?.includes(search.trim())
+      );
+    }
     return list;
-  }, [locations, activeLabels, activeRarities]);
+  }, [locations, activeLabels, activeRarities, search]);
 
   useEffect(() => {
     if (!selectedSlug) return;
@@ -137,6 +146,13 @@ export default function MapPage() {
 
       <div className="map-sidebar">
         <div style={{ padding: '12px 16px', borderBottom: '3px solid var(--border)' }}>
+          <input
+            className="filter-bar__search"
+            style={{ width: '100%', minWidth: 0, marginBottom: 8 }}
+            placeholder={t('grid.searchPlaceholder')}
+            value={search}
+            onChange={e => setSearch(e.target.value)}
+          />
           <div style={{ display: 'flex', gap: 8 }}>
             <div className="label-filter" ref={filterPanelRef} style={{ flex: 1, minWidth: 0 }}>
               <button
