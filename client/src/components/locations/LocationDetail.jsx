@@ -158,6 +158,13 @@ export default function LocationDetail({
   const useLocalCover = !!localCover && !localFailed;
   const useCloudCover = !useLocalCover && !!loc?.coverImage && !cloudFailed;
   const coverSrc = useLocalCover ? localCover : loc?.coverImage;
+  const mapHref = loc
+    ? `https://www.google.com/maps/dir/?api=1&destination=${loc.coordinates.lat},${loc.coordinates.lng}`
+    : null;
+  // Unlocked cards keep the whole image clickable to Google Maps; locked
+  // cards only navigate via the lock icon (see the `!loc.unlocked` branch
+  // below), so the wrapper itself must not also be a link there.
+  const ImgWrap = loc?.unlocked ? "a" : "div";
   const distance =
     loc && userPos
       ? haversineDistance(userPos.lat, userPos.lng, loc.coordinates.lat, loc.coordinates.lng)
@@ -208,18 +215,22 @@ export default function LocationDetail({
         ) : loc ? (
           <>
             {useLocalCover || useCloudCover ? (
-              <a
-                href={`https://www.google.com/maps/dir/?api=1&destination=${loc.coordinates.lat},${loc.coordinates.lng}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                title={t("common.googleMaps")}
+              <ImgWrap
+                {...(loc.unlocked
+                  ? {
+                      href: mapHref,
+                      target: "_blank",
+                      rel: "noopener noreferrer",
+                      title: t("common.googleMaps"),
+                    }
+                  : {})}
                 style={{
                   position: "relative",
                   aspectRatio: "1 / 1",
                   width: "100%",
                   overflow: "hidden",
                   display: "block",
-                  cursor: "pointer",
+                  cursor: loc.unlocked ? "pointer" : undefined,
                 }}
               >
                 <div
@@ -259,20 +270,33 @@ export default function LocationDetail({
                     </div>
                   ) : (
                     !loc.unlocked && (
-                      <img
-                        src={lockClosedIcon(loc.rarity)}
-                        alt=""
+                      <a
+                        href={mapHref}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title={t("common.googleMaps")}
+                        onClick={(e) => e.stopPropagation()}
                         style={{
                           position: "absolute",
                           top: "50%",
                           left: "50%",
                           transform: "translate(-50%, -50%)",
                           width: "80%",
-                          height: "auto",
-                          imageRendering: "pixelated",
                           zIndex: 2,
+                          cursor: "pointer",
                         }}
-                      />
+                      >
+                        <img
+                          src={lockClosedIcon(loc.rarity)}
+                          alt=""
+                          style={{
+                            display: "block",
+                            width: "100%",
+                            height: "auto",
+                            imageRendering: "pixelated",
+                          }}
+                        />
+                      </a>
                     )
                   )}
                 </div>
@@ -327,15 +351,23 @@ export default function LocationDetail({
                     </span>
                   )}
                 </div>
-              </a>
+              </ImgWrap>
             ) : (
               <div className="px-modal__header" style={{ background: bgColor }}>
-                <a
-                  href={`https://www.google.com/maps/dir/?api=1&destination=${loc.coordinates.lat},${loc.coordinates.lng}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  title={t("common.googleMaps")}
-                  style={{ flexShrink: 0, display: "block", cursor: "pointer" }}
+                <ImgWrap
+                  {...(loc.unlocked
+                    ? {
+                        href: mapHref,
+                        target: "_blank",
+                        rel: "noopener noreferrer",
+                        title: t("common.googleMaps"),
+                      }
+                    : {})}
+                  style={{
+                    flexShrink: 0,
+                    display: "block",
+                    cursor: loc.unlocked ? "pointer" : undefined,
+                  }}
                 >
                   <div
                     className={flipping ? "detail-img-flip" : undefined}
@@ -372,24 +404,37 @@ export default function LocationDetail({
                       </div>
                     ) : (
                       !loc.unlocked && (
-                        <img
-                          src={lockClosedIcon(loc.rarity)}
-                          alt=""
+                        <a
+                          href={mapHref}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          title={t("common.googleMaps")}
+                          onClick={(e) => e.stopPropagation()}
                           style={{
                             position: "absolute",
                             top: "50%",
                             left: "50%",
                             transform: "translate(-50%, -50%)",
                             width: "80%",
-                            height: "auto",
-                            imageRendering: "pixelated",
                             zIndex: 2,
+                            cursor: "pointer",
                           }}
-                        />
+                        >
+                          <img
+                            src={lockClosedIcon(loc.rarity)}
+                            alt=""
+                            style={{
+                              display: "block",
+                              width: "100%",
+                              height: "auto",
+                              imageRendering: "pixelated",
+                            }}
+                          />
+                        </a>
                       )
                     )}
                   </div>
-                </a>
+                </ImgWrap>
                 <div style={{ flex: 1 }}>
                   <h2
                     className="px-title"

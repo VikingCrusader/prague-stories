@@ -21368,6 +21368,150 @@ Dvacáté století s ní nezacházelo v rukavičkách. Za první světové válk
 🎁 彩蛋：早在任何一个孩子坐进教室之前，这块地皮就已经当过军人墓地，据部分史料记载，还曾是附近伤兵院（Invalidovna）士兵们的靶场。再加上纳粹时期的皮革作坊岁月，这块土地在安定下来教孩子们读书算数之前的"履历"，已经包括了埋葬死者、打靶练习和鞣制皮革——大概是卡林所有校园里最离奇的一份简历。`,
     },
   },
+
+  // ── Lidice batch (2026-08) ───────────────────────────────────────────────
+  {
+    name: 'Memorial to the Child Victims of War',
+    slug: 'pamatnik-detskych-obeti-valky',
+    localizedNames: { cz: 'Památník dětských obětí války', zh: '战争儿童受难者纪念碑' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.14260938809003, lng: 14.199620127061664 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pomn%C3%ADk_d%C4%9Btsk%C3%BDch_ob%C4%9Bt%C3%AD_v%C3%A1lky',
+    description: {
+      en: `Brave adventurer, welcome to the Memorial to the Child Victims of War — 82 individual bronze children, cast life-size and scattered across an open meadow, each one standing for a real child from Lidice who was gassed at Chełmno extermination camp in the summer of 1942.
+
+Sculptor Marie Uchytilová first conceived the memorial in 1969 and spent the next two decades modelling each child individually, drawing on conversations with surviving mothers and old photographs, though she deliberately avoided making any single figure recognisable as a specific likeness. She finished the last plaster model in March 1989 and died of a heart attack that November — on the 16th, one day before the Velvet Revolution began, without ever seeing a single one of her figures cast in bronze or standing in this meadow.
+
+Her husband, Jiří Václav Hampl, spent the following decade finishing what she had started, founding an association in 1992 to fund the casting and installation. Some of the bronze poured into the children came from an unlikely source: several Czech towns donated their own toppled statues of Klement Gottwald, the country's first communist president, to be melted down as raw material once his regime had fallen. The first thirty children — 42 girls and 40 boys in total — were installed in 1995, with the final seven unveiled on 10 June 2000, the fifty-eighth anniversary of the massacre.
+
+🥚 Easter Egg: Uchytilová described her intention in her own words — to return the 82 children of the nation to their native meadow as a warning symbol of the millions of children murdered in humanity's senseless wars. Some of the bronze she never lived to see cast had a strange earlier life: for decades it stood in Czech town squares as statues of the communist leader who ruled long after Lidice's destruction — until 1989 toppled those statues too, and their metal was reforged into 82 murdered children instead of one deposed president.`,
+
+      cz: `Statečný dobrodruhu, vítej u Památníku dětských obětí války — 82 samostatných bronzových dětských postav v životní velikosti, rozptýlených po otevřené louce, z nichž každá zastupuje jedno skutečné lidické dítě, zavražděné v létě 1942 plynem ve vyhlazovacím táboře Chełmno.
+
+Sochařka Marie Uchytilová pomník poprvé pojala v roce 1969 a další dvě desetiletí strávila modelováním každého dítěte zvlášť, přičemž vycházela z rozhovorů s pozůstalými matkami i z dobových fotografií — záměrně se však vyhýbala tomu, aby kterákoli z postav byla rozpoznatelná jako konkrétní podobizna. Poslední sádrový model dokončila v březnu 1989 a v listopadu téhož roku zemřela na infarkt — 16. listopadu, jediný den předtím, než začala sametová revoluce, aniž by kdy spatřila jedinou ze svých postav odlitou v bronzu nebo stojící na této louce.
+
+Její manžel Jiří Václav Hampl strávil následující desetiletí dokončováním toho, co ona započala, a v roce 1992 založil sdružení pro financování odlévání a instalace soch. Část bronzu, ze kterého byly děti odlity, pocházela z nečekaného zdroje: několik českých měst darovalo své svržené sochy Klementa Gottwalda, prvního komunistického prezidenta země, aby posloužily jako surovina poté, co jeho režim padl. Prvních třicet dětí — celkem 42 dívek a 40 chlapců — bylo instalováno v roce 1995, posledních sedm bylo odhaleno 10. června 2000, v den osmapadesátého výročí masakru.
+
+🥚 Velikonoční vajíčko: Uchytilová svůj záměr popsala vlastními slovy — vrátit ve jménu míru 82 dětí národa na jejich rodnou pláň jako varující symbol milionů zavražděných dětí v nesmyslných válkách lidstva. Část bronzu, který se odlití nedožila, prošla podivnou dřívější existencí: desítky let stála na náměstích českých měst jako sochy komunistického vůdce, který vládl dlouho po zničení Lidic — dokud v roce 1989 nepadly i tyto sochy a jejich kov nebyl přetaven do podoby 82 zavražděných dětí místo jednoho svrženého prezidenta.`,
+
+      zh: `勇敢的冒险家，欢迎来到战争儿童受难者纪念碑——82尊等身大小的独立青铜儿童雕像，散布在一片开阔的草地上，每一尊都代表着一名真实的利迪策儿童，他们在1942年夏天于海乌姆诺（Chełmno）灭绝营中被毒气杀害。
+
+雕塑家玛丽·乌希蒂洛娃（Marie Uchytilová）于1969年首次构思了这座纪念碑，此后用了整整二十年时间，逐一为每个孩子塑像——她与幸存的母亲们交谈，参考当年的老照片，却又刻意避免让任何一尊雕像看起来像是某个具体孩子的真实肖像。她于1989年3月完成了最后一尊石膏模型，同年11月因心脏病发作去世——就在11月16日，天鹅绒革命爆发的前一天，未能亲眼见证任何一尊雕像被铸成青铜，或矗立在这片草地之上。
+
+她的丈夫伊日·瓦茨拉夫·汉普尔（Jiří Václav Hampl）用接下来的十年，完成了妻子未竟的事业，并于1992年成立协会，为雕像的铸造与安装筹集资金。用于铸造这些孩子的部分青铜，来自一个出人意料的来源：几座捷克城镇捐出了自己被推倒的克莱门特·哥特瓦尔德（Klement Gottwald，捷克第一位共产党总统）雕像，在其政权垮台之后，将其作为原料。头三十尊孩子的雕像——在总共42名女孩、40名男孩之中——于1995年安装完成，最后七尊则于2000年6月10日，也就是屠杀58周年纪念日当天揭幕。
+
+🥚 彩蛋：乌希蒂洛娃曾亲口描述自己的心愿——以和平之名，将民族的82个孩子送回他们出生的草地，作为对人类无数场荒谬战争中数百万遇难儿童的警示象征。她未能活着看到浇铸完成的那些青铜，还有过一段奇特的前世：数十年间，它们曾以雕像的身份，矗立在捷克各地的城镇广场上，塑造的正是那位在利迪策被毁很久之后才当政的共产党领导人——直到1989年，这些雕像本身也被推倒，其金属最终被重新熔铸，化作82个遇难的孩子，而不再是一位已被废黜的总统。`,
+    },
+  },
+  {
+    name: 'Memorial to the Lidice Women — Woman with a Rose',
+    slug: 'pamatnik-lidickych-zen-zena-s-ruzi',
+    localizedNames: { cz: 'Památník lidických žen - socha Žena s růží', zh: '利迪策妇女纪念碑——"持玫瑰的女人"雕像' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.14163865209327, lng: 14.2011335209834 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Memorial to the Lidice Women — a sandstone figure of a woman holding a single rose, standing near the mass grave of the Lidice men, raised for the 203 women of Lidice who were torn from their children and deported to a concentration camp on 12 June 1942.
+
+Two days after the men of Lidice were executed in the garden nearby, on 12 June 1942, the village's women were loaded onto trucks and separated from their children, most of whom would be sent on to their own deaths at Chełmno within weeks. The women were taken to Ravensbrück concentration camp; twelve more followed in the months after. Of the 203 women deported, 53 died in the camps and seven more were executed elsewhere — 143 survived to see the war's end and eventually return home.
+
+This sculpture, showing a woman with a rose in her hand, was created by sculptor Bedřich Stefan and placed here in 1960, carved from sandstone and standing just over two and a half metres tall. Positioned close to the resting place of the men, it gives the women — who were sent somewhere else entirely, and whose suffering unfolded far from Lidice itself — a fixed place within the memorial grounds where they too can be remembered by name and by number.
+
+🥚 Easter Egg: Of the roughly 88 Lidice children separated from these women on the same day, only 17 were ever found again after the war — meaning most of the survivors memorialised by this statue came home in 1945 to a village that no longer existed, in search of children who were already gone.`,
+
+      cz: `Statečný dobrodruhu, vítej u Památníku lidických žen — pískovcové sochy ženy s růží v ruce, stojící nedaleko hromadného hrobu lidických mužů, věnované 203 lidickým ženám, které byly 12. června 1942 odtrženy od svých dětí a odvezeny do koncentračního tábora.
+
+Dva dny poté, co byli muži z Lidic popraveni na nedaleké zahradě, byly 12. června 1942 ženy obce naloženy na náklaďáky a odděleny od svých dětí — většina z nich měla během několika týdnů zahynout v Chełmnu. Ženy byly odvezeny do koncentračního tábora Ravensbrück, kam jich v následujících měsících přibylo dalších dvanáct. Ze 203 deportovaných žen jich 53 zemřelo přímo v táborech a dalších sedm bylo popraveno jinde — 143 se dožilo konce války a nakonec se vrátilo domů.
+
+Tuto sochu ženy s růží v ruce vytvořil sochař Bedřich Stefan a v roce 1960 ji zde umístil — dílo z pískovce vysoké přes dva a půl metru. Umístěná blízko místa posledního odpočinku mužů dává ženám, které byly odvlečeny úplně jinam a jejichž utrpení se odehrálo daleko od Lidic, pevné místo na pietním území, kde mohou být i ony připomínány jménem i počtem.
+
+🥚 Velikonoční vajíčko: Z přibližně 88 lidických dětí, odtržených od těchto žen téhož dne, se po válce našlo znovu jen 17 — což znamená, že většina přeživších žen, které tato socha připomíná, se v roce 1945 vrátila domů do vesnice, jež už neexistovala, a hledala děti, které už dávno nebyly naživu.`,
+
+      zh: `勇敢的冒险家，欢迎来到利迪策妇女纪念碑——一尊手持一朵玫瑰的砂岩女性雕像，矗立在利迪策遇难男性集体墓附近，纪念1942年6月12日被迫与子女分离、随后被押往集中营的203名利迪策妇女。
+
+利迪策的男性在附近的花园中被处决两天后，1942年6月12日，村里的妇女被押上卡车，与子女强行分离——她们的大多数孩子将在数周内于海乌姆诺（Chełmno）遇害。这些妇女随后被押往拉文斯布吕克（Ravensbrück）集中营，此后数月又有十二人被陆续送往同一地点。在这203名被押送的妇女中，53人直接死于集中营，另有7人在别处被处决——143人活到了战争结束，最终得以返乡。
+
+这尊手持玫瑰的女性雕像，由雕塑家贝德日赫·斯特凡（Bedřich Stefan）创作，于1960年安放在此——作品以砂岩雕成，高逾两米半。它被安放在男性遇难者安息之地附近，为那些被押解到完全不同地方、苦难都发生在远离利迪策之处的妇女们，在这片纪念园区里留出了一处固定的位置，让她们同样能够被以姓名、以数字铭记。
+
+🥚 彩蛋：在同一天与这些妇女分离的约88名利迪策儿童中，战后仅有17人被重新找到——这意味着，这尊雕像所纪念的大多数幸存妇女，在1945年归来时，面对的是一座已经不复存在的村庄，以及她们要寻找的、早已不在人世的孩子。`,
+    },
+  },
+
+  // ── Staré Město / Střešovice batch (2026-08-10) ─────────────────────────
+  {
+    name: 'Park at Old Town Square',
+    slug: 'park-u-staromestskeho-namesti',
+    localizedNames: { cz: 'Park u Staroměstského náměstí', zh: '旧城广场公园' },
+    labels: ['park', 'historical'],
+    coordinates: { lat: 50.08744371285152, lng: 14.420255906771995 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Park at Old Town Square — a modest fenced lawn tucked directly behind the Old Town Hall, easy to walk straight past while everyone around you stares up at the Astronomical Clock instead. What looks like unremarkable municipal green space is actually the empty footprint of a building that used to stand right here.
+
+Until May 1945, this ground carried the Old Town Hall's Neo-Gothic east and north wing, built in 1848 to designs by Viennese architects Peter von Nobile and Paul Sprenger, housing the mayor's office and the town's administrative offices. During the Prague Uprising, German shelling and fire gutted the wing so completely that only its outer walls were left standing, along with catastrophic damage to the town hall tower, the Astronomical Clock, and the city's historical archive housed inside.
+
+Rather than rebuild, an architectural competition held in 1947 concluded that the burned-out shell should come down. Every part of the wing was demolished except for a single corner section, preserved only because it happens to be structurally load-bearing for the surviving clock tower next door. The cleared plot was left open, eventually grassed over and fenced into the unassuming little park you can walk into today.
+
+🥚 Easter Egg: Next time you're queuing for the Astronomical Clock's hourly show, glance a few metres to the side — the fenced lawn you're standing next to used to be an entire wing of the town hall, complete with the mayor's office, and its rubble was cleared away as deliberately as any historic building elsewhere on the square was carefully rebuilt.`,
+
+      cz: `Statečný dobrodruhu, vítej v Parku u Staroměstského náměstí — skromném oploceném trávníku schovaném přímo za Staroměstskou radnicí, kolem kterého snadno projdeš bez povšimnutí, zatímco všichni okolo civí nahoru na orloj. To, co vypadá jako nenápadná městská zeleň, je ve skutečnosti prázdné místo po budově, která tu kdysi stála.
+
+Až do května 1945 na tomto místě stálo novogotické východní a severní křídlo Staroměstské radnice, postavené v roce 1848 podle návrhu vídeňských architektů Petera von Nobile a Paula Sprengera, v němž sídlila starostova kancelář i městské úřady. Během Pražského povstání křídlo tak důkladně zničily německé ostřelování a požár, že z něj zůstaly stát jen obvodové zdi — vážně přitom byla poškozena i radniční věž, orloj a v budově uložený městský archiv.
+
+Namísto obnovy rozhodla architektonická soutěž konaná v roce 1947, že vyhořelou skořepinu je třeba strhnout. Z křídla bylo zbouráno vše kromě jednoho rohového úseku, zachovaného jen proto, že nese statickou zátěž sousední přežívající věže s orlojem. Vyklizený pozemek zůstal otevřený, později byl zatravněn a oplocen do dnešní nenápadné parkové plochy, do níž dnes můžeš vejít.
+
+🥚 Velikonoční vajíčko: Až budeš příště čekat ve frontě na hodinové představení orloje, mrkni o pár metrů vedle — oplocený trávník, u kterého stojíš, býval celým křídlem radnice i se starostovou kanceláří, a jeho sutiny byly odklizeny stejně cíleně, jako byly jinde na náměstí historické stavby pečlivě obnoveny.`,
+
+      zh: `勇敢的冒险家，欢迎来到旧城广场公园——一小片被围栏圈起的草坪，就藏在老城市政厅（Staroměstská radnice）的后面。当身边所有人都仰头盯着天文钟看时，你很容易就直接从这里走过，完全没留意到它。这片看似平平无奇的市政绿地，其实是一座曾经矗立在此的建筑物留下的空地。
+
+直到1945年5月，这块地上还立着老城市政厅的新哥特式东翼与北翼，由维也纳建筑师彼得·冯·诺比莱（Peter von Nobile）与保罗·施普伦格（Paul Sprenger）设计，建于1848年，内设市长办公室与市政办公机构。在布拉格起义期间，德军的炮击与随之而起的大火将这座侧翼几乎彻底摧毁，只剩下外墙勉强立着——市政厅塔楼、天文钟，以及馆藏其中的城市历史档案，也都遭受了严重损毁。
+
+战后，人们并未选择重建：1947年举行的一场建筑竞赛最终裁定，这具烧毁的空壳应当被拆除。除了一处转角结构外，整座侧翼几乎被夷为平地——之所以保留这一角，纯粹是因为它承担着旁边幸存的钟楼的结构荷载。清空后的地块被留作空地，后来铺上草坪、围上栅栏，变成了你今天可以走进去的这片不起眼的小公园。
+
+🥚 彩蛋：下次你排队等着看天文钟整点报时表演时，不妨往旁边瞥一眼——你身旁那片围栏内的草坪，曾经是市政厅完整的一翼，连市长办公室都在里面，它的残垣断壁被彻底清除得干干净净，而广场上其他地方的历史建筑，却是被小心翼翼地一砖一瓦修复回来的。`,
+    },
+  },
+  {
+    name: 'Monument to the Fallen of World War I, Střešovice',
+    slug: 'pomnik-padlym-prvni-svetove-valky-stresovice',
+    localizedNames: { cz: 'Pomník padlým v první světové válce (Střešovice)', zh: '什特雷绍维采第一次世界大战阵亡将士纪念碑' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.09400836817568, lng: 14.38095134290374 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Monument to the Fallen of the First World War in Střešovice — a bronze soldier caught mid-collapse on Macharovo náměstí, unveiled by his own neighbours a decade after the war that killed him ended.
+
+The statue was created in 1929 by sculptor Josef Franěk, a student of Bohumil Kafka — the same artist responsible for the colossal equestrian Jan Žižka monument towering over Vítkov across town — with architect Alois Dryák designing the stepped stone base it stands on. Franěk chose not to depict triumph or distant mourning, but the moment of death itself: a life-size infantryman falling backward, cartridge pouches and bayonet still at his belt, puttees wound around his boots, helmet already knocked loose beside his outstretched arm, head tilted back, eyes closed.
+
+The base carries a simple inscription — "Střešovice svým padlým 1914–1918" ("Střešovice to its fallen, 1914–1918") — funded and erected by the district's own residents rather than by any state authority, a small local square doing its own reckoning with a war fought in uniforms, trenches, and empires that had all vanished by the time the statue went up.
+
+🥚 Easter Egg: The sculptor's teacher, Bohumil Kafka, spent the same interwar decades on Prague's most famous military monument of all — the giant bronze horseman at Vítkov — while his student worked at the opposite end of scale, on a single fallen soldier collapsing quietly on a residential square that most tourists never reach.`,
+
+      cz: `Statečný dobrodruhu, vítej u Pomníku padlým v první světové válce ve Střešovicích — bronzového vojáka zachyceného uprostřed pádu na Macharově náměstí, kterého mu odhalili jeho vlastní sousedé deset let po válce, jež ho zabila.
+
+Sochu vytvořil v roce 1929 sochař Josef Franěk, žák Bohumila Kafky — téhož umělce, který je autorem kolosální jezdecké sochy Jana Žižky tyčící se nad Vítkovem na druhém konci města — zatímco architekt Alois Dryák navrhl stupňovitý kamenný podstavec, na němž socha stojí. Franěk se rozhodl nezobrazit triumf ani odstup smutku, ale samotný okamžik smrti: pěšáka v životní velikosti padajícího dozadu, s patronovými brašnami a bajonetem stále u pasu, s omotávkami kolem bot, s přilbou už sesunutou vedle napřažené paže, s hlavou zvrácenou vzad a zavřenýma očima.
+
+Podstavec nese prostý nápis — "Střešovice svým padlým 1914–1918" —, financovaný a vztyčený samotnými obyvateli čtvrti, nikoli žádným státním orgánem: malé místní náměstí si po svém vyřizuje účty s válkou vedenou v uniformách, zákopech a říších, které v době vztyčení sochy už dávno neexistovaly.
+
+🥚 Velikonoční vajíčko: Sochařův učitel Bohumil Kafka strávil tatáž meziválečná desetiletí prací na nejslavnějším pražském vojenském pomníku vůbec — obřím bronzovém jezdci na Vítkově — zatímco jeho žák pracoval na opačném konci měřítka, u jediného padlého vojáka tiše se hroutícího na obytném náměstí, kam se většina turistů nikdy nedostane.`,
+
+      zh: `勇敢的冒险家，欢迎来到什特雷绍维采第一次世界大战阵亡将士纪念碑——一尊定格在倒地瞬间的青铜士兵雕像，矗立在马哈尔广场（Macharovo náměstí）上，由他自己的邻里们在那场夺走他生命的战争结束十年后为他揭幕。
+
+这尊雕像由雕塑家约瑟夫·弗拉涅克（Josef Franěk）于1929年创作，他师从博胡米尔·卡夫卡（Bohumil Kafka）——正是那位在城市另一端的维特科夫山（Vítkov）上创作出巨型扬·杰式卡（Jan Žižka）骑马雕像的艺术家；建筑师阿洛伊斯·德里亚克（Alois Dryák）则设计了雕像脚下的阶梯式石座。弗拉涅克没有选择表现胜利，也没有选择远观式的哀悼，而是直接刻画了死亡降临的瞬间：一名等身大小的步兵向后倒下，腰间的弹药袋与刺刀仍未离身，绑腿仍缠在靴子上，头盔已从伸出的手臂旁滑落，头向后仰，双眼紧闭。
+
+底座上刻着一句朴素的铭文——"Střešovice svým padlým 1914–1918"（什特雷绍维采献给它的阵亡者，1914–1918）——由这个街区的居民自发出资建造，而非任何政府机构：一座小小的地方广场，以自己的方式，去清算一场早在雕像立起之时，其所属的制服、战壕与帝国便早已烟消云散的战争。
+
+🥚 彩蛋：这位雕塑家的老师博胡米尔·卡夫卡，在同样的两次大战之间的岁月里，倾尽心血打造着布拉格最著名的军事纪念碑——维特科夫山上那尊巨大的青铜骑士像；而他的学生，却在尺度的另一端默默耕耘——为一名士兵，在一座大多数游客从未踏足的居民广场上，静静倒下的瞬间，塑下永恒。`,
+    },
+  },
 ];
 
 async function run() {

@@ -350,15 +350,19 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
   const localCover = getLocalCoverPath(loc.slug);
   const useLocalCover = !!localCover && !localFailed;
   const useCloudCover = !useLocalCover && !!loc.coverImage && !cloudFailed;
+  const mapHref = `https://www.google.com/maps/dir/?api=1&destination=${loc.coordinates.lat},${loc.coordinates.lng}`;
+  // Unlocked cards keep the whole image clickable to Google Maps; locked
+  // cards only navigate via the lock icon, so the wrapper must not also be
+  // a link there.
+  const ImgWrap = loc.unlocked ? 'a' : 'div';
 
   return (
     <>
-      <a
-        href={`https://www.google.com/maps/dir/?api=1&destination=${loc.coordinates.lat},${loc.coordinates.lng}`}
-        target="_blank"
-        rel="noopener noreferrer"
-        title={t('common.googleMaps')}
-        style={{ position: 'relative', width: '100%', aspectRatio: '1', background: 'var(--bg-secondary)', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, cursor: 'pointer' }}
+      <ImgWrap
+        {...(loc.unlocked
+          ? { href: mapHref, target: '_blank', rel: 'noopener noreferrer', title: t('common.googleMaps') }
+          : {})}
+        style={{ position: 'relative', width: '100%', aspectRatio: '1', background: 'var(--bg-secondary)', overflow: 'hidden', display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, cursor: loc.unlocked ? 'pointer' : undefined }}
       >
         {useLocalCover ? (
           <img
@@ -378,9 +382,18 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
           <span style={{ fontSize: '4rem', filter: loc.unlocked ? undefined : 'saturate(0.15)' }}>{art}</span>
         )}
         {!loc.unlocked && (
-          <img src={lockClosedIcon(loc.rarity)} alt="" style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '80%', height: 'auto', imageRendering: 'pixelated', zIndex: 2 }} />
+          <a
+            href={mapHref}
+            target="_blank"
+            rel="noopener noreferrer"
+            title={t('common.googleMaps')}
+            onClick={(e) => e.stopPropagation()}
+            style={{ position: 'absolute', top: '50%', left: '50%', transform: 'translate(-50%, -50%)', width: '80%', zIndex: 2, cursor: 'pointer' }}
+          >
+            <img src={lockClosedIcon(loc.rarity)} alt="" style={{ display: 'block', width: '100%', height: 'auto', imageRendering: 'pixelated' }} />
+          </a>
         )}
-      </a>
+      </ImgWrap>
 
       <div style={{ padding: 20 }}>
         <h3 className="px-title" style={{ fontSize: 14, lineHeight: lang === 'zh' ? undefined : 2.4, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 4 : 12, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>{convert(getLocName(loc, lang))}</h3>

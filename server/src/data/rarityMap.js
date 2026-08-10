@@ -373,6 +373,8 @@ export const SLUG_RARITY = {
   'divadlo-za-plotem':            'epic',  // only professional theatre inside a CZ psychiatric hospital
   'muzeum-pamatniku-lidice':      'epic',  // Lidice massacre museum building, multimedia exhibition
   'hromadny-hrob-lidice':         'epic',  // mass grave of 173 executed Lidice men, Horák farmstead
+  'pamatnik-detskych-obeti-valky': 'epic',  // Uchytilová's 82 bronze children, cast partly from melted-down Gottwald statues
+  'pamatnik-lidickych-zen-zena-s-ruzi': 'epic', // Bedřich Stefan sandstone statue honouring the 203 deported Lidice women
   'statek-vranych':               'rare',  // folk-Baroque farmstead, Staré Bohnice, alleged Napoleon stay
   'kostel-svateho-vaclava-bohnice': 'rare', // 1919 Art Nouveau hospital church, warehouse 1951-1990
   'zamek-bohnice':                'rare',  // small Baroque manor, Staré Bohnice, Baron Osborne 1820
@@ -792,6 +794,10 @@ export const SLUG_RARITY = {
   // ── Karlín batch (2026-08-08) ─────────────────────────────────────────────
   'afi-karlin-butterfly':           'epic',     // 2018 CMC Architects office complex, 40k-plant living facade
   'zakladni-skola-lyckovo-namesti': 'superior', // 1906 Art Nouveau school, built on a former military cemetery
+
+  // ── Staré Město / Střešovice batch (2026-08-10) ──────────────────────────
+  'park-u-staromestskeho-namesti':  'rare', // empty footprint of the Old Town Hall wing burned in the 1945 Uprising
+  'pomnik-padlym-prvni-svetove-valky-stresovice': 'rare', // 1929 Josef Franěk statue of a falling soldier, Macharovo nám.
 };
 
 export function getRarity(slug) {
