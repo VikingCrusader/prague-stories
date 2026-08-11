@@ -56,3 +56,41 @@ export function playUnlockSound(rarity = 'common') {
     else      playSimpleArpeggio(ctx());
   } catch (_) {}
 }
+
+function playLevelUpFanfare(ac) {
+  // Two rising runs a fourth apart, then a bright sustained major-add-octave chord
+  const runs = [
+    [523, 659, 784, 1047],  // C5 E5 G5 C6
+    [698, 880, 1047, 1397], // F5 A5 C6 F6
+  ];
+  let i = 0;
+  for (const run of runs) {
+    for (const freq of run) {
+      const osc = ac.createOscillator(), gain = ac.createGain();
+      osc.connect(gain); gain.connect(ac.destination);
+      osc.type = 'square';
+      osc.frequency.value = freq;
+      const t = ac.currentTime + i * 0.11;
+      gain.gain.setValueAtTime(0.15, t);
+      gain.gain.exponentialRampToValueAtTime(0.001, t + 0.2);
+      osc.start(t); osc.stop(t + 0.22);
+      i++;
+    }
+  }
+  const chordStart = ac.currentTime + i * 0.11;
+  [1047, 1319, 1568, 2093].forEach((freq, ci) => {
+    const osc = ac.createOscillator(), gain = ac.createGain();
+    osc.connect(gain); gain.connect(ac.destination);
+    osc.type = 'triangle';
+    osc.frequency.value = freq;
+    const t = chordStart + ci * 0.02;
+    gain.gain.setValueAtTime(0.11, t);
+    gain.gain.exponentialRampToValueAtTime(0.001, t + 0.9);
+    osc.start(t); osc.stop(t + 0.95);
+  });
+}
+
+export function playLevelUpSound() {
+  navigator.vibrate?.([90, 50, 90, 50, 90, 50, 260]);
+  try { playLevelUpFanfare(ctx()); } catch (_) {}
+}

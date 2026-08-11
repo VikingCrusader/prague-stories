@@ -48,6 +48,7 @@ Discover hundreds of Prague landmarks, earn XP, level up, unlock achievements, a
 - **GPS-verified check-in** — the server validates you are within 100 m of the location (distance check skipped in `development` mode for local testing)
 - **Automatic proximity detection** — when you walk within 50 m of an unvisited location an OS notification fires; tapping it checks you in automatically and opens the card detail
 - **Instant grid refresh** after check-in; modal auto-closes after 2.5 s with XP and achievement summary
+- **Level-up celebration** — crossing a level threshold pops up a dedicated full-screen modal (confetti, fanfare sound, phone vibration, new title) layered on top of the regular check-in summary
 - **Undo check-in** (Uncollect) available on any collected card
 
 ### Guest Mode
@@ -106,7 +107,7 @@ Six tiers modelled on trading-card games, visible on every card border and diamo
 | 14    | Riverside Ranger        | 4,330  | 29    | Immortal Wanderer       | 14,210 |
 | 15    | Vltava Voyager          | 4,850  | 30    | Prague Legend           | 15,000 |
 
-Deltas between levels grow progressively larger (80 → 160 → ... → 790 XP), so leveling stays achievable early on and becomes a longer-term goal at the top end — with headroom for the location catalog to keep growing (all 444 current cards total 13,090 XP, capping out around level 27 — Prague Champion).
+Deltas between levels grow progressively larger (80 → 160 → ... → 790 XP), so leveling stays achievable early on and becomes a longer-term goal at the top end — with headroom for the location catalog to keep growing (all 446 current cards total 13,160 XP, capping out around level 27 — Prague Champion).
 
 **15 Achievements** unlocked automatically at milestones:
 
@@ -257,24 +258,57 @@ prague-stories/
 
 ## Testing
 
-Jest unit tests cover all pure-logic utilities. 120 tests across 5 suites — no database, no HTTP server, no React rendering required.
+Server tests mix pure-logic unit tests with integration tests (real Express app + in-memory MongoDB via `mongodb-memory-server` + `supertest`, external calls like Cloudinary/Gemini mocked). Client tests are Jest/React Testing Library unit and component tests, plus a Playwright e2e suite that mocks the backend entirely via `page.route()`.
 
 ```bash
-# Server (64 tests)
+# Server (150 tests, 6 suites)
 cd server && npm test
 
-# Client (56 tests)
+# Client unit/component (80 tests, 9 suites)
 cd client && npm test
+
+# Client end-to-end (Playwright)
+cd client && npm run test:e2e
 ```
+
+### Server suites (`server/__tests__/`)
 
 | Suite | What's covered |
 | --- | --- |
 | `rarityMap` | `RARITY_XP` constants, `getRarity()` slug lookup + unknown-slug default |
 | `gamification` | `calculateLevel()` all 30 level thresholds, progress %, multilingual titles; `evaluateAchievements()` every predicate, deduplication |
+| `authController` | register / login / `GET /me` against a real in-memory Mongo |
+| `locationController` | CRUD + cover upload; Gemini description generation and Cloudinary upload mocked |
+| `checkinController` | GPS distance validation, XP award, achievement evaluation |
+| `userController` | XP progress and achievement summary endpoints |
+
+### Client unit/component suites (`client/src/__tests__/`)
+
+| Suite | What's covered |
+| --- | --- |
 | `locName` | `getLocName()` null safety, English passthrough, per-language fallback chain |
 | `geolocation` | `haversineDistance()` known distances, symmetry; position cache, subscriber fan-out, unsubscribe, stale-cache bypass, navigator error paths |
 | `pixelArtMap` | `getArt()` key hits, label fallback, array vs string, default; `LABEL_DEFINITIONS` shape; `LABEL_COLORS` hex format + coverage |
 | `rarity` | `RARITY_XP` parity with server, `RARITY_COLOR` hex + spot-checks, `RARITY_LABEL` multilingual coverage |
+| `sound` | `playUnlockSound()` / `playLevelUpSound()` — vibration pattern per rarity tier, oscillator/note counts, silent no-op with no `AudioContext` or `navigator.vibrate` |
+| `AuthContext` | `applyProgress()` only queues a level-up event when `explorerLevel` actually increases (not on same-level XP gains, not before login); `clearLevelUpEvent()` |
+| `LevelUpModal` | renders only while a level-up is pending, fires the sound exactly once, dismiss via button or overlay click, localized title/headline in EN/CZ/ZH |
+| `LocationCard` | locked cards hide the real name behind `???` |
+| `LanguageSwitcher` | clicking a language button updates rendered UI text |
+
+### Client e2e suites (`client/e2e/`, Playwright)
+
+| Spec | What's covered |
+| --- | --- |
+| `auth` | login / register flows |
+| `checkin` | collecting/undoing a location; XP and achievement toasts |
+| `levelup` | level-up modal (and its distinct vibration pattern) fires when a check-in crosses a level boundary, on both the Explore detail modal and the map sidebar; stays hidden for same-level check-ins and for undo |
+| `dashboard` | XP/level/achievement display |
+| `explore` | guest grid browsing, card detail, language switching |
+| `filters` | label/rarity filter interactions |
+| `googleMapsNav` | cover-image click navigates to Google Maps directions |
+
+Server tests use native ESM (`--experimental-vm-modules`). Client unit tests use Babel transform (`babel-jest`). E2E tests run against a real dev server with the backend mocked, so no live API or database is needed for any of the three commands above.
 
 Server tests use native ESM (`--experimental-vm-modules`). Client tests use Babel transform (`babel-jest`).
 

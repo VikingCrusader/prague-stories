@@ -4,6 +4,54 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.8.10] — 2026-08-11
+
+**Test: unit + e2e coverage for the level-up celebration (1.8.9)**
+
+### Client unit/component tests
+
+- `src/__tests__/sound.test.js` (new, 10 tests) — `playUnlockSound()` vibration pattern per rarity tier and oscillator/note counts; `playLevelUpSound()` vibrates with its own pattern distinct from any unlock pattern and plays a bigger 12-note fanfare; both are no-ops (never throw) with no `AudioContext` or `navigator.vibrate` available. Isolates the module's cached `AudioContext` singleton per test via `jest.resetModules()` + `require()`, same pattern as `geolocation.test.js`
+- `src/__tests__/AuthContext.test.jsx` (new, 5 tests) — `applyProgress()` queues a `levelUpEvent` only when the incoming level exceeds the user's previously-known `explorerLevel`, stays silent on same-level XP gains and when called before login, and `clearLevelUpEvent()` resets it; `services/api.js` mocked out (`import.meta.env` isn't parseable under the CJS Babel transform Jest uses)
+- `src/__tests__/LevelUpModal.test.jsx` (new, 6 tests) — renders nothing with no pending event; shows the celebration and calls `playLevelUpSound()` exactly once on a real level-up; dismiss via the Continue button and via clicking the overlay; localized title/headline in CZ and ZH
+- Client suite total: 59 → 80 tests, 6 → 9 suites
+
+### E2E tests
+
+- `e2e/levelup.spec.js` (new, 4 scenarios) — a check-in crossing a level boundary shows `.levelup-modal` with the correct level/title and fires the distinct `[90,50,90,50,90,50,260]` vibration pattern (verified via a `navigator.vibrate` spy injected with `page.addInitScript`), dismissible via Continue; a same-level check-in shows no modal and doesn't fire that pattern; undo never shows the modal even though the server still returns `levelInfo`; the map sidebar's collect flow shows the same modal and fires both the base unlock vibration and the level-up vibration (parity fix from 1.8.9)
+- Fixed `checkin.spec.js`'s first check-in scenario: its mocked response happens to cross a level boundary (1 → 2), so `LevelUpModal` now renders on top and must be dismissed (Continue) before the test can reach the underlying `.px-modal__close` button
+- E2E suite total: 27 → 31 scenarios across 7 spec files
+
+### Docs
+
+- `README.md` Testing section rewritten with accurate current counts (server 150/6, client unit 80/9, e2e 31/7 — the previous "120 tests / 5 suites" figure predated the server's integration-test suites and was stale) and a new e2e table
+
+---
+
+## [1.8.9] — 2026-08-11
+
+**Feat: level-up celebration — popup modal, sound, vibration**
+
+- New `LevelUpModal` (`client/src/components/shared/LevelUpModal.jsx`) — full-screen pixel-art popup with spinning gold rays, falling confetti, the new level number, localized level title, and an XP progress bar toward the next level; mounted once at the app root (`App.jsx`) so it fires regardless of which screen the check-in happened on
+- `AuthContext` gained `applyProgress(levelInfo, totalXP)` — compares the incoming level against the user's previously-known `explorerLevel` and only queues the celebration (`levelUpEvent` state + `clearLevelUpEvent()`) when a level boundary is actually crossed, not on every XP gain or on undo
+- New `playLevelUpSound()` in `utils/sound.js` — a longer, brighter two-run fanfare plus a stronger `navigator.vibrate` pattern, distinct from the existing card-unlock chime (`playUnlockSound`)
+- Wired into both check-in surfaces — `LocationDetail` (Explore page detail modal) and `MapPage`'s `SidebarDetail` — replacing their direct `updateUser()` calls
+- Fixed a gap where the map sidebar's collect flow had no unlock sound/vibration at all (only the Explore page detail modal did); it now calls the existing `playUnlockSound()` too
+- New i18n keys `levelUp.title` / `levelUp.newLevel` / `levelUp.subtitle` / `levelUp.continue` in EN/CZ/ZH
+- New CSS in `pixelart.css`: `.levelup-modal` and its confetti/ray/bounce keyframes
+
+---
+
+## [1.8.8] — 2026-08-11
+
+**Feat: 2 new location cards — Chasm of Time Fountain, New Building of the National Museum**
+
+- Chasm of Time Fountain (`fontana-propadliste-casu`, rare, 20 XP) — náměstí Kinských, Smíchov; 2002 computer-programmed water/light fountain built on the site of a Soviet tank memorial David Černý famously painted pink in 1991; 🎁 Bonus ties in his 2018 half-buried "Torzo tanku" installation a few metres away
+- New Building of the National Museum (`nova-budova-narodniho-muzea`, epic, 50 XP) — 1938 Stock Exchange building topped in 1966–73 with Karel Prager's suspended modernist superstructure; seat of the Federal Assembly of Czechoslovakia until 1992, then Radio Free Europe/Radio Liberty's European HQ 1995–2009, now a National Museum wing linked to the historic building by an underground tunnel
+- Full EN/CZ/ZH descriptions (~50-word humorous EN intro, historical body paragraphs, 🎁 Bonus); neither uses the `landmark` label; total location count 444 → 446, total XP pool 13,090 → 13,160
+- Cover art supplied by the external pixel-art pipeline and picked up into `coverManifest.json` via `npm run generate:covers`
+
+---
+
 ## [1.8.7] — 2026-07-07
 
 **Tune: check-in and proximity-detection radii**

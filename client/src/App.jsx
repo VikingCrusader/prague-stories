@@ -6,6 +6,7 @@ import Navbar from './components/shared/Navbar';
 import ProtectedRoute from './components/shared/ProtectedRoute';
 import NotificationOptIn from './components/shared/NotificationOptIn';
 import ProximityToast from './components/shared/ProximityToast';
+import LevelUpModal from './components/shared/LevelUpModal';
 import { useProximityDetection } from './hooks/useProximityDetection';
 import { useNotificationPermission } from './hooks/useNotificationPermission';
 import LoginPage from './pages/LoginPage';
@@ -54,6 +55,7 @@ export default function App() {
         <LanguageProvider>
           <Navbar />
           <ProximityDetector />
+          <LevelUpModal />
           <Routes>
             <Route path="/"          element={<Navigate to="/explore" replace />} />
             <Route path="/login"     element={<LoginPage />} />

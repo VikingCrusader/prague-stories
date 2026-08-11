@@ -10,6 +10,7 @@ import MapView from '../components/map/MapView';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../utils/pixelArtMap';
 import { getLocalCoverPath } from '../utils/localCover';
 import { RARITY_COLOR, RARITY_LABEL, lockClosedIcon } from '../utils/rarity';
+import { playUnlockSound } from '../utils/sound';
 
 const RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
 const formatDate = (d) => new Date(d).toISOString().slice(0, 10);
@@ -273,7 +274,7 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
   const { lang } = useLang();
   const t = useT();
   const convert = useConvert();
-  const { guest, updateUser } = useAuth();
+  const { guest, applyProgress } = useAuth();
   const navigate = useNavigate();
   const userPos = useUserPosition();
   const [loc, setLoc]                     = useState(null);
@@ -329,7 +330,8 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
       const coords = await getCurrentPosition();
       const res = await checkinAPI.checkIn(slug, coords);
       setLoc(prev => ({ ...prev, unlocked: true, checkedInAt: new Date().toISOString() }));
-      updateUser({ totalXP: res.data.totalXP, explorerLevel: res.data.levelInfo.level });
+      playUnlockSound(loc.rarity);
+      applyProgress(res.data.levelInfo, res.data.totalXP);
       onCheckIn(slug, res.data);
     } catch (err) {
       setCheckInError(err.response?.data?.message || err.message || 'Check-in failed');
@@ -341,7 +343,7 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
     try {
       const res = await checkinAPI.undo(slug);
       setLoc(prev => ({ ...prev, unlocked: false, checkedInAt: null }));
-      updateUser({ totalXP: res.data.totalXP, explorerLevel: res.data.levelInfo.level });
+      applyProgress(res.data.levelInfo, res.data.totalXP);
       onUndo(slug, res.data);
     } finally { setActionLoading(false); }
   };

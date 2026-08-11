@@ -34,7 +34,7 @@ export default function LocationDetail({
   const { lang } = useLang();
   const t = useT();
   const convert = useConvert();
-  const { user, guest, updateUser } = useAuth();
+  const { user, guest, applyProgress } = useAuth();
   const navigate = useNavigate();
   const userPos = useUserPosition();
   const [loc, setLoc] = useState(null);
@@ -96,7 +96,7 @@ export default function LocationDetail({
         checkedInAt: new Date().toISOString(),
       }));
       setCheckInResult(res.data);
-      updateUser({ totalXP: res.data.totalXP, explorerLevel: res.data.levelInfo.level });
+      applyProgress(res.data.levelInfo, res.data.totalXP);
       onCheckIn(slug, res.data); // update grid immediately
       setClosing(true); // start 2.5s close timer
     } catch (err) {
@@ -112,7 +112,7 @@ export default function LocationDetail({
     try {
       const res = await checkinAPI.undo(slug);
       setLoc((prev) => ({ ...prev, unlocked: false, checkedInAt: null }));
-      updateUser({ totalXP: res.data.totalXP, explorerLevel: res.data.levelInfo.level });
+      applyProgress(res.data.levelInfo, res.data.totalXP);
       onUndo(slug, res.data);
     } catch (err) {
       setError(err.response?.data?.message || "Failed to undo");

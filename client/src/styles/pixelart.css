@@ -389,6 +389,96 @@
 .px-modal__close:hover { border-color: var(--gold); color: var(--gold); }
 .px-modal__body { padding: 20px 24px; }
 
+/* ── Level Up Modal ──────────────────────────────────────── */
+.levelup-modal {
+  position: relative;
+  width: 100%;
+  max-width: 380px;
+  background: var(--bg-surface);
+  border: 3px solid var(--gold);
+  box-shadow: 0 0 0 3px #000, 0 0 40px 6px rgba(255,215,0,0.45);
+  padding: 32px 24px 26px;
+  text-align: center;
+  overflow: hidden;
+  animation: levelup-pop 0.4s cubic-bezier(.2,1.4,.4,1);
+}
+.levelup-modal__rays {
+  position: absolute;
+  inset: -50%;
+  background: repeating-conic-gradient(
+    rgba(255,215,0,0.16) 0deg 8deg,
+    transparent 8deg 16deg
+  );
+  animation: levelup-spin 12s linear infinite;
+  pointer-events: none;
+}
+.levelup-modal__inner { position: relative; z-index: 1; }
+.levelup-modal__title {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: var(--gold);
+  text-shadow: 2px 2px 0 #000, 0 0 12px rgba(255,215,0,0.8);
+  animation: levelup-flicker 1.2s ease-in-out infinite;
+}
+.levelup-modal__num {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 40px;
+  color: #fff;
+  text-shadow: 3px 3px 0 #000, 0 0 20px rgba(255,215,0,0.9);
+  margin: 18px 0 10px;
+  animation: levelup-bounce 0.6s ease-out 0.1s both;
+}
+.levelup-modal__subtitle { font-size: 13px; color: var(--text-muted); margin-bottom: 4px; }
+.levelup-modal__jobtitle { font-size: 20px; color: var(--text-primary); margin-bottom: 22px; }
+.levelup-modal__close {
+  position: absolute;
+  top: 10px; right: 10px;
+  background: none;
+  border: 2px solid #444;
+  color: #fff;
+  width: 26px; height: 26px;
+  font-size: 14px;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; z-index: 2;
+}
+.levelup-modal__close:hover { border-color: var(--gold); color: var(--gold); }
+.levelup-confetti {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+.levelup-confetti span {
+  position: absolute;
+  top: -12px;
+  width: 8px; height: 8px;
+  animation-name: levelup-confetti-fall;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes levelup-pop {
+  0%   { transform: scale(0.6); opacity: 0; }
+  60%  { transform: scale(1.05); opacity: 1; }
+  100% { transform: scale(1); }
+}
+@keyframes levelup-bounce {
+  0%   { transform: scale(0.3); opacity: 0; }
+  60%  { transform: scale(1.15); opacity: 1; }
+  100% { transform: scale(1); }
+}
+@keyframes levelup-flicker {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.75; }
+}
+@keyframes levelup-spin {
+  to { transform: rotate(360deg); }
+}
+@keyframes levelup-confetti-fall {
+  0%   { transform: translateY(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(420px) rotate(360deg); opacity: 0; }
+}
+
 /* ── Toast ───────────────────────────────────────────────── */
 .toast-container {
   position: fixed;

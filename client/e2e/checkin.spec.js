@@ -55,6 +55,11 @@ test.describe('Check-in flow', () => {
     await expect(modal.locator('p', { hasText: '+100 XP' })).toBeVisible();
     await expect(page.getByText('+100 XP earned! Apprentice Explorer')).toBeVisible();
 
+    // This check-in also crosses a level boundary (1 → 2), so the level-up
+    // celebration layers on top and must be dismissed first — see
+    // levelup.spec.js for dedicated coverage of that modal itself.
+    await page.locator('.levelup-modal').getByRole('button', { name: 'Continue' }).click();
+
     await page.locator('.px-modal__close').click();
     await expect(page.locator('.loc-card--locked')).toHaveCount(0);
     await expect(page.locator('.loc-card__name')).toHaveText('Charles Bridge');

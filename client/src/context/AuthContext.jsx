@@ -7,6 +7,7 @@ export function AuthProvider({ children }) {
   const [user, setUser]       = useState(null);
   const [guest, setGuest]     = useState(() => sessionStorage.getItem('guest') === 'true');
   const [loading, setLoading] = useState(true);
+  const [levelUpEvent, setLevelUpEvent] = useState(null);
 
   useEffect(() => {
     const token = localStorage.getItem('token');
@@ -28,6 +29,18 @@ export function AuthProvider({ children }) {
     setUser(prev => (prev ? { ...prev, ...patch } : prev));
   };
 
+  // Apply the levelInfo/totalXP returned by a check-in (or undo). If it pushes
+  // the user past their previously-known level, queue a level-up celebration
+  // for <LevelUpModal> to pick up.
+  const applyProgress = (levelInfo, totalXP) => {
+    if (levelInfo && user && levelInfo.level > (user.explorerLevel ?? 1)) {
+      setLevelUpEvent(levelInfo);
+    }
+    updateUser({ totalXP, explorerLevel: levelInfo?.level });
+  };
+
+  const clearLevelUpEvent = () => setLevelUpEvent(null);
+
   const logout = () => {
     localStorage.removeItem('token');
     sessionStorage.removeItem('guest');
@@ -41,7 +54,7 @@ export function AuthProvider({ children }) {
   };
 
   return (
-    <AuthContext.Provider value={{ user, guest, loading, login, logout, continueAsGuest, updateUser }}>
+    <AuthContext.Provider value={{ user, guest, loading, login, logout, continueAsGuest, updateUser, applyProgress, levelUpEvent, clearLevelUpEvent }}>
       {children}
     </AuthContext.Provider>
   );

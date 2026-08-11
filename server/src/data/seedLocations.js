@@ -21512,6 +21512,76 @@ Podstavec nese prostý nápis — "Střešovice svým padlým 1914–1918" —, 
 🥚 彩蛋：这位雕塑家的老师博胡米尔·卡夫卡，在同样的两次大战之间的岁月里，倾尽心血打造着布拉格最著名的军事纪念碑——维特科夫山上那尊巨大的青铜骑士像；而他的学生，却在尺度的另一端默默耕耘——为一名士兵，在一座大多数游客从未踏足的居民广场上，静静倒下的瞬间，塑下永恒。`,
     },
   },
+  {
+    name: 'Chasm of Time Fountain',
+    slug: 'fontana-propadliste-casu',
+    localizedNames: { cz: 'Fontána Propadliště času', zh: '时间深渊喷泉' },
+    labels: ['monument', 'modern', 'historical'],
+    coordinates: { lat: 50.078842838670354, lng: 14.404591347607745 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Chasm of Time Fountain! Despite the ominous name, nobody actually falls through anything here — it is a perfectly civil, computer-programmed water feature on a quiet Smíchov square that pulses, glows, and occasionally soaks a passing toddler. The real drama on this exact patch of pavement happened decades before the water ever started flowing.
+
+Long before anyone programmed forty nozzles and a light show, this square carried the deeply unglamorous official name náměstí Sovětských tankistů, home to a five-metre pedestal holding a Soviet IS-2 tank, installed in 1945 to commemorate the Red Army's liberation of Prague. The tank sat on almost the exact spot where a Baroque bear fountain had stood since 1894, unceremoniously relocated to make room. In April 1991, an art student named David Černý climbed onto the tank overnight and painted it shocking pink, turning a solemn war memorial into one of the most argued-about artworks of the entire post-communist transition. He was briefly charged with hooliganism; a group of sympathetic members of parliament, shielded by parliamentary immunity, then repainted the tank pink themselves rather than let the authorities quietly restore it to green. The Russian embassy filed a formal protest. Within weeks the tank was removed from the square altogether and eventually installed at a military museum outside Prague.
+
+The pedestal then sat empty for more than a decade before the site got a very different kind of monument. Unveiled in October 2002 and designed by architects Jan Lauda and Petr Levý with the LILA studio, the fountain uses forty outer cascade nozzles and twenty-four aeration jets to punch water columns more than eight metres into the air, choreographed by computer alongside underwater lighting. Its name and design were conceived explicitly as a meditation on the transience of time and of the history layered beneath this square — bear, tank, pedestal, and now water, each occupying the same patch of ground in turn.
+
+🎁 Bonus: In August 2018, on the fiftieth anniversary of the 1968 Warsaw Pact invasion, David Černý returned to this same square and installed another tank — this one buried three-quarters into the ground nearby, as if the earth had finally swallowed it whole. Officially a temporary installation, it has lingered for years, which means an actual sinking, subsiding chasm of time now sits just a few metres from the fountain that only pretends to be one.`,
+
+      cz: `Statečný dobrodruhu, vítej u Fontány Propadliště času! Navzdory zlověstnému názvu se tu nikam nepropadá — je to naprosto civilizovaná, počítačem řízená vodní atrakce na klidném smíchovském náměstí, která pulzuje, svítí a občas osprchuje projíždějící batole. Skutečné drama se na tomto konkrétním kousku dlažby odehrálo celá desetiletí předtím, než tu vůbec potekla voda.
+
+Dlouho předtím, než někdo naprogramoval čtyřicet trysek a světelnou show, neslo toto náměstí krajně nepůvabný úřední název náměstí Sovětských tankistů a stál tu pětimetrový podstavec s tankem IS-2, umístěným v roce 1945 na památku osvobození Prahy Rudou armádou. Tank stál téměř přesně na místě, kde od roku 1894 stávala barokní Medvědí kašna, kterou kvůli němu museli bez okolků přestěhovat. V dubnu 1991 na tank přes noc vylezl umělecký student David Černý a natřel ho jasně růžovou barvou, čímž ze seriózního válečného památníku udělal jedno z nejrozporuplnějších uměleckých děl celé porevoluční doby. Byl krátce obviněn z výtržnictví; skupina nakloněných poslanců, chráněná poslaneckou imunitou, pak tank sama znovu natřela na růžovo, aby ho úřady nemohly v tichosti vrátit do zelené barvy. Ruská ambasáda podala oficiální protest. Během několika týdnů byl tank z náměstí odstraněn úplně a nakonec skončil ve vojenském muzeu za Prahou.
+
+Podstavec pak přes deset let zel prázdnotou, než místo dostalo zcela jiný druh památníku. Fontána byla slavnostně otevřena v říjnu 2002 podle návrhu architektů Jana Laudy a Petra Levého ve spolupráci s ateliérem LILA a pomocí čtyřiceti obvodových kaskádových trysek a čtyřiadvaceti provzdušňovacích trysek vytváří vodní sloupy vysoké přes osm metrů, řízené počítačem společně s podvodním osvětlením. Její název i koncept byly záměrně pojaty jako meditace o pomíjivosti času a dějin uložených pod tímto náměstím ve vrstvách — medvěd, tank, podstavec a teď voda, každý postupně na tom samém kousku země.
+
+🎁 Bonus: V srpnu 2018, u příležitosti padesátého výročí invaze vojsk Varšavské smlouvy z roku 1968, se David Černý na stejné náměstí vrátil a nedaleko odtud instaloval další tank — tentokrát ze tří čtvrtin zabořený do země, jako by ho země konečně pohltila celý. Oficiálně šlo o dočasnou instalaci, která tu ale vydržela roky, takže se skutečné, propadající se propadliště času nachází jen pár metrů od fontány, která si na něj jen hraje.`,
+
+      zh: `勇敢的冒险家，欢迎来到时间深渊喷泉！尽管名字听起来阴森恐怖，这里其实什么都不会塌陷——它只是斯米霍夫区一处安静广场上、由电脑程序控制的水景装置，会脉动、会发光，偶尔还会把路过的小朋友浇个正着。真正的戏剧性事件，早在这里喷出第一滴水之前的几十年，就已经在同一块地面上上演过了。
+
+早在有人为四十个喷嘴和灯光秀编写程序之前，这座广场曾顶着一个毫不浪漫的官方名字，广场中央矗立着一座五米高的基座，上面安放着一辆苏联IS-2坦克，于1945年设立，用以纪念红军解放布拉格。这辆坦克所占的位置，几乎正是自1894年起就矗立在此的巴洛克风格熊喷泉的原址——为了给坦克腾地方，那座喷泉被毫不客气地迁走了。1991年4月，一位艺术系学生大卫·切尔尼（David Černý）趁夜爬上坦克，把它漆成了鲜艳的粉红色，让一座庄重的战争纪念碑瞬间变成了后共产主义转型期间争议最大的艺术作品之一。他一度被以流氓罪起诉；一群同情他的议员随后动用自己的议员豁免权，亲自把坦克重新漆成粉红色，不让当局悄悄把它恢复成绿色。俄罗斯大使馆为此提出了正式抗议。几周之内，这辆坦克就被彻底移出了广场，最终被安置进布拉格郊外的一座军事博物馆。
+
+基座此后空置了十多年，这块地方才迎来了一种截然不同的纪念物。喷泉于2002年10月正式揭幕，由建筑师扬·劳达（Jan Lauda）与彼得·列维（Petr Levý）联手LILA工作室设计，利用四十个外圈瀑布喷嘴和二十四个曝气喷嘴，喷出高达八米以上的水柱，并由电脑统一调度水柱与水下灯光的节奏。它的名字与设计构思，从一开始就是对时间流逝、以及这块广场地下层层叠叠的历史的一种沉思——熊、坦克、基座，如今又是水，依次占据着同一块土地。
+
+🎁 彩蛋：2018年8月，正值1968年华沙条约组织入侵捷克斯洛伐克五十周年纪念，大卫·切尔尼又回到了这同一座广场，在附近安装了另一辆坦克——这一次，坦克车身四分之三都被埋进了地里，仿佛大地终于把它整个吞了下去。这原本只是一件临时装置，却在原地待了好几年，于是一处真正在下沉、真正在塌陷的"时间深渊"，如今就安放在这座只是假装塌陷的喷泉几米之外。`,
+    },
+  },
+  {
+    name: 'New Building of the National Museum',
+    slug: 'nova-budova-narodniho-muzea',
+    localizedNames: { cz: 'Nová budova Národního muzea', zh: '国家博物馆新馆' },
+    labels: ['museum', 'communism', 'architecture'],
+    coordinates: { lat: 50.080108087593985, lng: 14.432171241070078 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Nov%C3%A1_budova_N%C3%A1rodn%C3%ADho_muzea',
+    description: {
+      en: `Brave adventurer, welcome to the New Building of the National Museum! Few buildings on Wenceslas Square have held down as many wildly different jobs — stock exchange, communist parliament, Cold War radio station, museum wing — and this one somehow managed all four without ever changing its address.
+
+The building began life as the Prague Stock Exchange, designed by architect Jaroslav Rössler and ceremonially opened in 1938 — spectacularly poor timing, since German occupation arrived within the year and trading never really recovered before winding down for good by 1943. After the war the state seized the building outright, and in the mid-1960s the government ran an architecture competition for a radical expansion. Architects Karel Prager, Jiří Kadeřábek, and Jiří Albrecht won with a design that suspends an entirely new structure above and around the old exchange hall on a steel Vierendeel beam, its glass curtain wall reportedly the largest of its kind in the world at the time. Built between 1966 and 1973 while the legislature kept meeting inside around the construction work, it became the seat of the country's federal parliament from 1969 until Czechoslovakia dissolved at the end of 1992.
+
+After the split, the empty chamber found an oddly fitting second act: from 1995 to 2009 it housed the European headquarters of Radio Free Europe/Radio Liberty, the American-funded broadcaster that had spent the Cold War beaming uncensored news behind the Iron Curtain, now transmitting from the former seat of a communist legislature. Following the 2001 terrorist attacks in the United States, security around the building tightened sharply — soldiers and later police stood guard, nearby traffic lanes closed, and concrete blast barriers ringed the building for years, an unusually tense addition to a street corner otherwise dominated by tourists queueing for the museum next door.
+
+🎁 Bonus: When Radio Free Europe finally moved out in 2009, the National Museum inherited the building and spent a decade renovating it, including digging a tunnel beneath the busy road out front so visitors could walk straight from the museum's grand historic hall into the former parliament without ever crossing traffic. The permanent exhibition that eventually opened inside covers the twentieth century, which means visitors can now stand in the very chamber where Czechoslovak deputies once cast their votes, reading about the century that built, and then dismantled, the room they are standing in.`,
+
+      cz: `Statečný dobrodruhu, vítej v Nové budově Národního muzea! Málokterá budova na Václavském náměstí vystřídala tolik naprosto odlišných profesí — burza, komunistický parlament, stanice studené války, muzejní křídlo — a tahle to všechno zvládla, aniž by kdy změnila adresu.
+
+Budova začínala svou existenci jako Pražská burza, navržená architektem Jaroslavem Rösslerem a slavnostně otevřená v roce 1938 — s mimořádně špatným načasováním, protože do roka přišla německá okupace a obchodování se už nikdy pořádně nerozjelo, než definitivně utichlo do roku 1943. Po válce si budovu bez okolků přivlastnil stát a v polovině 60. let vypsala vláda architektonickou soutěž na její radikální přestavbu. Zvítězili architekti Karel Prager, Jiří Kadeřábek a Jiří Albrecht s návrhem, který nad starou burzovní halou a kolem ní zavěsil zcela novou konstrukci na ocelovém Vierendeelově nosníku, jejíž skleněná fasáda byla údajně v té době největší svého druhu na světě. Stavba probíhala v letech 1966 až 1973, zatímco uvnitř za chodu stále zasedal parlament, a budova se od roku 1969 stala sídlem federálního parlamentu, a to až do zániku Československa na konci roku 1992.
+
+Po rozdělení republiky čekala prázdný sál nečekaně vhodná druhá kapitola: v letech 1995 až 2009 tu sídlilo evropské ústředí Rádia Svobodná Evropa / Rádia Svoboda, americké stanice, která během studené války vysílala necenzurované zprávy za železnou oponu — nyní vysílala z bývalého sídla komunistického zákonodárného sboru. Po teroristických útocích v USA v roce 2001 bezpečnostní opatření kolem budovy prudce zpřísnila — hlídala ji nejprve armáda a později policie, uzavřely se přilehlé jízdní pruhy a budovu na dlouhé roky obklopily betonové zábrany proti výbuchu, nezvykle napjatý doplněk k rohu ulice, kde jinak dominují turisté stojící frontu do muzea vedle.
+
+🎁 Bonus: Když se Rádio Svobodná Evropa v roce 2009 konečně odstěhovalo, budovu zdědilo Národní muzeum a strávilo deset let její rekonstrukcí — mimo jiné vyhloubilo pod rušnou ulicí před budovou tunel, aby se návštěvníci mohli z velkého historického sálu muzea dostat rovnou do bývalého parlamentu, aniž by museli přecházet silnici. Stálá expozice, která tu nakonec vznikla, se věnuje dvacátému století, takže dnes můžete stát přímo v sále, kde kdysi čeští a slovenští poslanci hlasovali, a číst si o století, které tuto místnost nejprve postavilo a pak rozebralo.`,
+
+      zh: `勇敢的冒险家，欢迎来到国家博物馆新馆！在瓦茨拉夫广场周边的建筑里，很少有哪一栋像它这样，换过这么多截然不同的身份——证券交易所、共产主义政权的议会、冷战广播电台、如今的博物馆展馆——而且它做到这一切，居然从未换过地址。
+
+这栋建筑最初的身份是布拉格证券交易所，由建筑师雅罗斯拉夫·罗斯勒（Jaroslav Rössler）设计，于1938年举行了落成典礼——时机差到了极点，因为不到一年后德国占领便随之而来，交易活动始终没能真正恢复元气，到1943年彻底停摆。战后，这栋建筑被国家直接收归国有；到了六十年代中期，政府为其大规模扩建举办了一场建筑设计竞赛。最终由建筑师卡雷尔·普拉格尔（Karel Prager）、伊日·卡杰拉贝克（Jiří Kadeřábek）与伊日·阿尔布雷希特（Jiří Albrecht）胜出，他们的方案是在老交易所大厅之上及周围，用钢制维伦德尔桁架悬挑出一整座全新的建筑体量，其玻璃幕墙据称是当时全世界同类结构中规模最大的一座。工程从1966年持续到1973年，施工期间国会仍照常在楼内开会；自1969年起，这里成为了这个国家联邦议会的所在地，一直到1992年底捷克斯洛伐克解体为止。
+
+国家分裂之后，这间空出来的议事厅意外地迎来了一个同样合适的第二人生：从1995年到2009年，这里成了自由欧洲电台／自由电台的欧洲总部——这家由美国出资的广播机构，冷战期间一直向铁幕背后播送不受审查的新闻，如今却在一座前共产主义议会的旧址里继续发声。2001年美国遭受恐怖袭击之后，这栋建筑周围的安保骤然收紧——先是军队、后是警察在此驻守，附近的车道一度封闭，混凝土防爆护栏在建筑四周矗立了好几年，与街角另一侧排队参观博物馆的游客人潮形成了一种格格不入的紧张气氛。
+
+🎁 彩蛋：2009年自由欧洲电台终于搬走后，国家博物馆接手了这栋建筑，花了整整十年时间进行改造——其中包括在楼前那条车水马龙的大路底下挖出一条地下通道，让参观者可以直接从博物馆本馆的宏伟历史大厅走到这座曾经的议会大楼，而不必横穿马路。最终在这里落成的常设展览聚焦二十世纪历史，这意味着如今的参观者可以站在当年捷克斯洛伐克议员投票表决的那间大厅里，读着这一整个世纪——先是建造、后又拆解了这间屋子本身——的故事。`,
+    },
+  },
 ];
 
 async function run() {
