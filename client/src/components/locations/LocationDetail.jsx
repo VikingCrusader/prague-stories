@@ -661,6 +661,18 @@ export default function LocationDetail({
                       >
                         +{checkInResult.xpEarned} XP
                       </p>
+                      {checkInResult.bonusApplied && (
+                        <p
+                          style={{
+                            fontFamily: "'Press Start 2P'",
+                            fontSize: 6,
+                            color: "#ff8ed6",
+                            marginTop: 6,
+                          }}
+                        >
+                          {t("detail.bonusApplied")}
+                        </p>
+                      )}
                       {checkInResult.newAchievements?.map((a) => (
                         <p
                           key={a.id}

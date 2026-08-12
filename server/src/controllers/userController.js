@@ -1,6 +1,6 @@
 import CheckIn from '../models/CheckIn.js';
 import Location from '../models/Location.js';
-import { ACHIEVEMENTS, LEVELS, calculateLevel } from '../services/gamification.js';
+import { ACHIEVEMENTS, LEVELS, calculateLevel, RANDOM_DRAW_WINDOW_MS } from '../services/gamification.js';
 
 export async function getProfile(req, res) {
   res.json({ user: req.user.toPublicJSON() });
@@ -54,6 +54,79 @@ export async function getProgress(req, res, next) {
       rarityCount,
       levelInfo,
       totalXP: req.user.totalXP,
+    });
+  } catch (err) {
+    next(err);
+  }
+}
+
+// Builds the current random-draw status for a user: whether a draw is still
+// "active" (revealed, within the 24h window) or expired back to the mystery
+// state and free to draw again.
+async function buildDrawResponse(user) {
+  const draw = user.randomDraw || {};
+  const drawnAt = draw.drawnAt ? new Date(draw.drawnAt) : null;
+  const active = !!(drawnAt && Date.now() - drawnAt.getTime() < RANDOM_DRAW_WINDOW_MS);
+
+  if (!active) {
+    return { active: false, canDraw: true, location: null, drawnAt: null, expiresAt: null };
+  }
+
+  const location = draw.slug
+    ? await Location.findOne({ slug: draw.slug }).select('-description').lean()
+    : null;
+
+  return {
+    active: true,
+    canDraw: false,
+    location,
+    drawnAt: drawnAt.toISOString(),
+    expiresAt: new Date(drawnAt.getTime() + RANDOM_DRAW_WINDOW_MS).toISOString(),
+    bonusUsed: !!draw.bonusUsed,
+  };
+}
+
+export async function getRandomDraw(req, res, next) {
+  try {
+    res.json(await buildDrawResponse(req.user));
+  } catch (err) {
+    next(err);
+  }
+}
+
+export async function drawRandomLocation(req, res, next) {
+  try {
+    const user = req.user;
+
+    // Still within the 24h window — hand back the existing draw rather than
+    // re-rolling (guards against a double-click / repeated POST).
+    const existing = await buildDrawResponse(user);
+    if (existing.active) return res.json(existing);
+
+    const checkins = await CheckIn.find({ user: user._id }).select('location').lean();
+    const excludeIds = checkins.map(c => c.location);
+
+    const [picked] = await Location.aggregate([
+      { $match: { _id: { $nin: excludeIds } } },
+      { $sample: { size: 1 } },
+    ]);
+
+    if (!picked) {
+      // User has checked in everywhere — nothing left to draw.
+      return res.json({ active: false, canDraw: false, location: null, drawnAt: null, expiresAt: null, noneLeft: true });
+    }
+
+    user.randomDraw = { slug: picked.slug, drawnAt: new Date(), bonusUsed: false };
+    await user.save();
+
+    const location = await Location.findById(picked._id).select('-description').lean();
+    res.json({
+      active: true,
+      canDraw: false,
+      location,
+      drawnAt: user.randomDraw.drawnAt.toISOString(),
+      expiresAt: new Date(user.randomDraw.drawnAt.getTime() + RANDOM_DRAW_WINDOW_MS).toISOString(),
+      bonusUsed: false,
     });
   } catch (err) {
     next(err);

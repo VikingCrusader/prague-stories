@@ -21582,6 +21582,296 @@ Po rozdělení republiky čekala prázdný sál nečekaně vhodná druhá kapito
 🎁 彩蛋：2009年自由欧洲电台终于搬走后，国家博物馆接手了这栋建筑，花了整整十年时间进行改造——其中包括在楼前那条车水马龙的大路底下挖出一条地下通道，让参观者可以直接从博物馆本馆的宏伟历史大厅走到这座曾经的议会大楼，而不必横穿马路。最终在这里落成的常设展览聚焦二十世纪历史，这意味着如今的参观者可以站在当年捷克斯洛伐克议员投票表决的那间大厅里，读着这一整个世纪——先是建造、后又拆解了这间屋子本身——的故事。`,
     },
   },
+  {
+    name: 'Church of Saints Philip and James at Malvazinky',
+    slug: 'kostel-sv-filipa-a-jakuba-malvazinky',
+    localizedNames: { cz: 'Kostel svatého Filipa a Jakuba (Malvazinky)', zh: '马尔瓦济恩基圣斐理伯及圣雅各伯教堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.06200544422101, lng: 14.387870473762698 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Filipa_a_Jakuba_(Malvazinky)',
+    description: {
+      en: `Brave adventurer, welcome to the Church of Saints Philip and James, the quiet neo-Romanesque chapel standing watch over Malvazinky Cemetery in Smíchov! It has one job — funerals and requiem masses — and it has done that job, without fanfare or a single tourist queue, for over a century.
+
+The church you see today isn't the original — it's a replacement, built between 1894 and 1896 by architect Adolf Duchoň after the actual first Church of Saints Philip and James, standing where a different square is today, was torn down in 1891. Rather than start from scratch, the builders salvaged stone and brick from the demolished predecessor, along with three Baroque statues too good to lose: figures of St. Philip and St. James by sculptor Ferdinand Maxmilián Brokoff, and a blessing Christ attributed to Michael Leopold Willmann. The foundation stone went in on September 13, 1894, and a bishop consecrated the finished building on May 28, 1896.
+
+Around the chapel spreads the cemetery itself, founded in 1876 for the growing Smíchov district and now one of Prague's largest, at 7.58 hectares and roughly 13,000 burials. Both cemetery and church have been protected as cultural monuments since 1958, though the church itself only opens its doors for funerals and requiem masses — this was never built to be visited, only to be used.
+
+🎁 Bonus: This is a genuinely starry address for a cemetery — a singer known as the "Golden Voice of Prague" and the country's best-selling recording artist is buried here, alongside a former president, a novelist, a filmmaker, and a physician who classified the ABO blood groups years before anyone gave him credit for it. Near the entrance stands a six-metre Baroque column from 1675, originally a wayside shrine relocated here to save it from road construction — and it moonlights as a sundial, still quietly tracking the hour over everyone below.`,
+
+      cz: `Statečný dobrodruhu, vítej u kostela svatého Filipa a Jakuba, tiché novorománské kapličky střežící hřbitov Malvazinky na Smíchově! Má na starosti jedinou věc — pohřby a zádušní mše — a tuto práci už přes sto let vykonává bez velkého halasu a bez jediné turistické fronty.
+
+Kostel, který dnes vidíte, není ten původní — je to náhrada, postavená v letech 1894 až 1896 podle plánů architekta Adolfa Duchoně poté, co byl skutečně první kostel svatého Filipa a Jakuba, stojící kdysi na jiném dnešním náměstí, v roce 1891 zbořen. Stavitelé místo stavby od nuly použili kámen a cihly ze zbořeného předchůdce a zachránili i tři barokní sochy, o které nechtěli přijít: sochy sv. Filipa a sv. Jakuba od sochaře Ferdinanda Maxmiliána Brokoffa a žehnajícího Krista připisovaného Michaelu Leopoldu Willmannovi. Základní kámen byl položen 13. září 1894 a biskup hotovou stavbu vysvětil 28. května 1896.
+
+Kolem kaple se rozkládá samotný hřbitov, založený v roce 1876 pro rostoucí smíchovskou čtvrť a dnes patřící mezi největší pražské hřbitovy — má 7,58 hektaru a zhruba 13 000 pohřbených. Hřbitov i kostel jsou od roku 1958 chráněny jako kulturní památka, přestože kostel samotný otevírá dveře jen při pohřbech a zádušních mších — nikdy nebyl postaven k prohlížení, jen k použití.
+
+🎁 Bonus: Tento hřbitov je opravdu hvězdnou adresou — je tu pohřben zpěvák přezdívaný "zlatý hlas Prahy" a nejúspěšnější český zpěvák všech dob, spolu s bývalým prezidentem, spisovatelem, filmařem a lékařem, který klasifikoval krevní skupiny systému AB0 dřív, než za to stihl dostat uznání. Poblíž vchodu stojí šestimetrový barokní sloup z roku 1675, původně boží muka přenesená sem, aby je nezničila stavba silnice — a mimochodem funguje i jako sluneční hodiny, které dodnes tiše měří čas nad všemi, kdo leží pod nimi.`,
+
+      zh: `勇敢的冒险家，欢迎来到坐落于斯米霍夫马尔瓦济恩基公墓深处的圣斐理伯及圣雅各伯教堂！这座朴素的新罗马式小教堂只做一件事——主持葬礼与追思弥撒——而它默默无闻地做了这件事一百多年，从没排过一次游客队伍。
+
+你眼前这座教堂并非最初那座——它是一座替代建筑，由一位建筑师主持，在1894至1896年间建成，替代的是原本坐落于如今另一处广场、于1891年被拆除的第一座圣斐理伯及圣雅各伯教堂。建造者没有从零开始，而是利用了拆除旧教堂时留下的石料和砖块，还抢救出三尊舍不得丢弃的巴洛克雕像：一位雕塑家创作的圣斐理伯与圣雅各伯像，以及传为另一位艺术家所作的祝福基督像。奠基石于1894年9月13日安放，一位主教则于1896年5月28日为落成的教堂举行了祝圣礼。
+
+小教堂周围便是公墓本身，始建于1876年，是为不断扩张的斯米霍夫区而设，如今已是布拉格最大的公墓之一——占地7.58公顷，安葬着约1.3万人。公墓与教堂自1958年起共同被列为文化古迹，尽管教堂本身只在举行葬礼和追思弥撒时才开放——它从来就不是为了供人参观而建，而是为了被使用。
+
+🎁 彩蛋：作为一座公墓，这里的"星光度"相当可观——一位被誉为"金嗓子"、堪称本国史上最畅销的歌手就安葬于此，与他相伴的还有一位前总统、一位作家、一位导演，以及一位医生——他早在获得应有认可之前，就已经完成了ABO血型系统的分类工作。公墓入口附近还立着一根1675年的六米高巴洛克石柱，最初是一座路边圣龛，为了不被道路施工毁掉而迁移至此——而它还兼职当日晷，至今仍在悄悄为地下众人测算时辰。`,
+    },
+  },
+  {
+    name: 'Smallest Prague Lookout Tower',
+    slug: 'nejmensi-prazska-rozhledna',
+    localizedNames: { cz: 'Nejmenší pražská rozhledna', zh: '布拉格最小观景塔' },
+    labels: ['tower', 'nature'],
+    coordinates: { lat: 50.09212377532838, lng: 14.574301735447284 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the smallest lookout tower in Prague — seven sandstone steps and a wooden pyramid frame, built with just enough ambition to earn the word "tower" and not one ounce more. It won't test your fear of heights. It might test your ability to take a landmark seriously.
+
+This modest structure sits deep in eastern Prague, as the centrepiece of a small geological garden opened in 2014 on the site of a reclaimed landfill next to a nature reserve. Rather than dominate the skyline, the tower does the opposite: a sandstone platform, seven steps up, topped with a triangular wooden frame — barely enough elevation to see over the surrounding shrubs, let alone the city. Its purpose was never spectacle. It exists as a stop on an educational trail through the garden's geological exhibits, a small monument to the idea that not every lookout point needs a view worth a postcard.
+
+What little height it does offer is enough to take in a stream valley below, a developing recreational park, a protected patch of woodland, and — in the middle distance — one of Prague's largest housing estates. It's a modest panorama for a modest tower, and that consistency is oddly satisfying.
+
+🎁 Bonus: The tower is free to visit, sits about two hundred metres from the nearest parking, and is reachable by train — a nearby station sits on the line to Kolín, a rare case of an intercity railway depositing passengers within walking distance of a monument you could photograph in full from a single step back.`,
+
+      cz: `Statečný dobrodruhu, vítej u nejmenší pražské rozhledny — sedm pískovcových schodů a dřevěný jehlanový rám, postavené s ambicí přesně tak velkou, aby si vysloužily slovo "rozhledna", a ani o kousek větší. Netestuje strach z výšek. Spíš otestuje, jak vážně dokážete brát pražskou památku.
+
+Tato skromná stavba stojí hluboko na východním okraji Prahy jako centrální bod malé geologické zahrady otevřené v roce 2014 na místě rekultivované skládky vedle přírodní rezervace. Místo aby dominovala panoramatu, dělá rozhledna pravý opak: pískovcová plošina, sedm schodů nahoru, nahoře trojúhelníkový dřevěný rám — sotva dost výšky na to, aby bylo vidět přes okolní křoví, natož přes město. Jejím účelem nikdy nebyla podívaná. Existuje jako zastávka na naučné stezce mezi geologickými exponáty zahrady, malý pomník myšlence, že ne každý vyhlídkový bod potřebuje výhled hodný pohlednice.
+
+To málo výšky, které nabízí, přesto stačí na výhled na údolí potoka pod ní, na rozvíjející se rekreační park, na chráněný kus lesa a v dálce na jedno z největších pražských sídlišť. Skromný panorama pro skromnou rozhlednu — a ta důslednost má svým způsobem něco uspokojivého.
+
+🎁 Bonus: Vstup je zdarma, od nejbližšího parkoviště je to asi dvě stě metrů a dostanete se sem i vlakem — nedaleká zastávka leží na trati na Kolín, což je vzácný případ, kdy vás dálková železnice vysadí na dohled od památky, kterou vyfotíte celou z jediného kroku vzad.`,
+
+      zh: `勇敢的冒险家，欢迎来到布拉格最小的观景塔——七级砂岩台阶，加上一个三角形木架，建造它的野心刚好够格被称为"塔"，一分都不多。它考验不了你的恐高症，倒是很可能考验你把这座"地标"当回事的能力。
+
+这座朴素的小建筑坐落在布拉格东部深处，是2014年在一片经过修复的旧垃圾填埋场上开辟的小型地质花园的中心景点，紧邻一处自然保护区。它没有选择主宰天际线，而是反其道而行：一座砂岩平台，七级台阶而上，顶端是一个三角形木架——高度几乎刚好能看过周围的灌木丛，遑论俯瞰整座城市。它从来就不是为了制造视觉奇观而存在的，而是花园地质教育步道上的一站，用来提醒人们：不是每一个观景点都需要配得上一张明信片的风景。
+
+尽管高度有限，它足以让人望见脚下一条小溪的河谷、仍在建设中的休闲公园、一片受保护的林地，以及稍远处布拉格最大的住宅区之一。一座朴素的塔，配一份朴素的全景——这种前后一致，反倒有种说不出的满足感。
+
+🎁 彩蛋：参观完全免费，距离最近的停车场大约两百米，也可以坐火车抵达——附近车站就在通往科林的铁路线上，算是难得一见的情形：一条城际铁路把你放在一座"退一步就能整个拍进画面"的地标步行可达的地方。`,
+    },
+  },
+  {
+    name: 'Bulovka University Hospital',
+    slug: 'fakultni-nemocnice-bulovka',
+    localizedNames: { cz: 'Fakultní nemocnice Bulovka', zh: '布洛夫卡大学医院' },
+    labels: ['historical', 'municipal'],
+    coordinates: { lat: 50.11538066766353, lng: 14.46413347914732 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Fakultn%C3%AD_nemocnice_Bulovka',
+    description: {
+      en: `Brave adventurer, welcome to Bulovka University Hospital, the sprawling hilltop medical complex in Libeň that has spent nearly a century quietly proving that hospitals can end up holding as much history as any castle — just with considerably more disinfectant and considerably fewer gift shops.
+
+Prague's city council approved the site in 1908, though construction didn't get underway until the 1920s and the hospital only opened to patients in 1931 — with several of its pavilions, including a purpose-built dermatology block and an oncology pavilion, still being finished into 1934. Architecturally the complex is anchored, unexpectedly, by an 18th-century Rococo château and a neo-Rococo building known as the Vychovatelna, both swallowed up decades later by the growing hospital campus around them.
+
+The hospital's most consequential patient arrived on May 27, 1942: Reinhard Heydrich, the Nazi Reich Protector of Bohemia and Moravia, was brought here mortally wounded after being ambushed on a Prague street by Jozef Gabčík and Jan Kubiš, Czechoslovak paratroopers sent from London to kill him. He died of his injuries in a hospital bed on June 4, 1942, triggering the wave of brutal reprisals — including the destruction of an entire village — that followed. It is a strange thing for a working hospital to carry: the place where an operation meant to kill an occupier finally succeeded, days after the ambush itself.
+
+🎁 Bonus: Bulovka's other famous departure was considerably quieter and considerably sadder — celebrated Czech writer Bohumil Hrabal, author of Closely Watched Trains and I Served the King of England, died here in 1997 after falling from a fifth-floor window of the orthopedic clinic where he was being treated, aged 82. Whether it was an accident, as most accounts hold, or something more deliberate, has never been fully settled — a very Hrabal-esque ambiguity for a writer whose entire body of work balanced precariously between comedy and tragedy.`,
+
+      cz: `Statečný dobrodruhu, vítej ve Fakultní nemocnici Bulovka, rozlehlém nemocničním komplexu na kopci v Libni, který už skoro sto let potichu dokazuje, že i nemocnice může nést tolik historie jako leckterý hrad — jen s podstatně větším množstvím dezinfekce a podstatně menším počtem obchodů se suvenýry.
+
+Pražská obec schválila pozemek už v roce 1908, stavba se ale skutečně rozjela až ve dvacátých letech a nemocnice přijala první pacienty v roce 1931 — několik pavilonů, včetně účelově postaveného dermatologického pavilonu a onkologického pavilonu, se dokončovalo ještě v roce 1934. Architektonicky komplex nečekaně kotví osmnáctistoletý rokokový zámeček a novorokoková budova zvaná Vychovatelna, oba časem pohlcené rostoucím nemocničním areálem kolem sebe.
+
+Nejvýznamnější pacient nemocnice sem dorazil 27. května 1942: Reinhard Heydrich, nacistický zastupující říšský protektor Čech a Moravy, byl přivezen na Bulovku smrtelně zraněný poté, co jej na pražské ulici přepadli českoslovenští parašutisté Jozef Gabčík a Jan Kubiš, vyslaní z Londýna, aby ho zabili. Na následky zranění zemřel v nemocniční posteli 4. června 1942, což vyvolalo vlnu brutálních represálií — včetně vyhlazení celé vesnice —, která následovala. Je to zvláštní věc, kterou musí fungující nemocnice nosit ve svých zdech: místo, kde se operace zamýšlená zabít okupanta nakonec podařila, dny po samotném atentátu.
+
+🎁 Bonus: Druhý slavný odchod z Bulovky byl podstatně tišší a podstatně smutnější — oslavovaný český spisovatel Bohumil Hrabal, autor Ostře sledovaných vlaků a Obsluhoval jsem anglického krále, zde v roce 1997 zemřel ve věku 82 let poté, co spadl z okna pátého patra ortopedické kliniky, kde se léčil. Zda šlo o nehodu, jak tvrdí většina výkladů, nebo o něco záměrnějšího, se nikdy zcela nevyjasnilo — velmi hrabalovská nejednoznačnost pro spisovatele, jehož celé dílo balancovalo na hraně mezi komedií a tragédií.`,
+
+      zh: `勇敢的冒险家，欢迎来到布洛夫卡大学医院——这座坐落在利本（Libeň）山丘上的庞大医疗建筑群，近百年来一直在悄悄证明：一所医院承载的历史，也可以不输给任何一座城堡，只不过消毒水的味道要浓得多，纪念品商店要少得多。
+
+布拉格市议会早在1908年就批准了这块用地，但真正动工要等到1920年代，医院于1931年正式收治病人——其中包括专门建造的皮肤科大楼和肿瘤科病房在内的几栋建筑，直到1934年才彻底完工。整座建筑群在建筑风格上出人意料地围绕着一座18世纪的洛可可式城堡和一栋名为"Vychovatelna"的新洛可可式建筑而展开，二者后来都被逐渐扩张的医院园区所包围。
+
+这所医院最重要的一位病人于1942年5月27日被送到这里：纳粹波希米亚与摩拉维亚代理"帝国保护长官"莱因哈德·海德里希（Reinhard Heydrich），在布拉格街头遭到捷克斯洛伐克伞兵约瑟夫·加布契克（Jozef Gabčík）与扬·库比什（Jan Kubiš）伏击、身受重伤后被送入此地——两人都是奉命从伦敦空降回国、专程刺杀他的伞兵。他于1942年6月4日伤重不治，死在这里的病床上——这一死讯随即引发了一连串残酷的报复行动，其中就包括一整座村庄的血洗。对一所仍在正常运转的医院来说，这是一段颇为奇特的历史包袱：一场旨在除掉占领者的行动，最终是在袭击发生数日之后、在这里才真正宣告成功。
+
+🎁 彩蛋：布洛夫卡医院的另一次著名"离场"要安静得多，也悲伤得多——捷克著名作家博胡米尔·赫拉巴尔（Bohumil Hrabal），《严密监视的列车》与《我曾伺候过英国国王》的作者，1997年在这里接受骨科治疗期间，从五楼病房窗口坠落身亡，享年82岁。这究竟是一场意外——大多数说法如此认为——还是别有隐情，至今没有定论，倒也很符合赫拉巴尔本人的风格：他一生的作品，始终摇摆在喜剧与悲剧之间的那条细线上。`,
+    },
+  },
+  {
+    name: 'Castle Guard Barracks',
+    slug: 'kasarny-hradni-straze',
+    localizedNames: { cz: 'Kasárny Hradní stráže', zh: '城堡卫队营房' },
+    labels: ['historical', 'cultural'],
+    coordinates: { lat: 50.08909145628658, lng: 14.394390904746546 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl:
+      'https://cs.wikipedia.org/wiki/Martinick%C3%BD_pal%C3%A1c_(Loret%C3%A1nsk%C3%A1_ulice)',
+    description: {
+      en: `Brave adventurer, welcome to the Castle Guard Barracks, the handsome Baroque palace tucked into Loretánská street where Prague Castle's silent, statue-still guardsmen actually go home to eat, sleep, and — presumably — blink, because even soldiers whose entire job is standing still need somewhere to sit down afterward.
+
+The building started life as a grand aristocratic residence, not a barracks. Between 1629 and 1658, Maxmilián Valentin Bořita z Martinic quietly bought up the scattered plots on the site, and between 1701 and 1705 his descendants had it rebuilt as a proper Baroque palace to a design credited to Carlo Fontana, one of Rome's most sought-after architects, secured through the Martinic family's diplomatic connections in Italy. The result — a symmetrical two-story façade with a rusticated ground floor, a balcony held up by projecting columns, and a pediment flanked by dormer windows — served as the Martinics' main Prague home until the family's male line died out in 1789, after which the palace passed by marriage to the Clam-Martinic family.
+
+Aristocratic life ended in 1837, when the Clam-Martinics sold the palace to the military treasury, which gutted its grand halls, threw up partition walls, and turned it into a garrison hospital. After the Second World War it took a darker turn still, serving as a seat for the StB, communist Czechoslovakia's secret police, before finally settling into its present role from the 1950s onward as the working barracks of the Castle Guard — the same unit now known for the silent soldiers at the Castle gates. A 1997–98 renovation modernised living conditions and added training facilities for the soldiers actually billeted inside.
+
+🎁 Bonus: Next time you watch the changing of the guard at noon, remember the soldiers marching out didn't teleport in from nowhere — they walked over from this palace, whose grand Baroque halls have hosted a noble family, hospital patients, and secret policemen long before they ever housed the guards themselves.`,
+
+      cz: `Statečný dobrodruhu, vítej v Kasárnách Hradní stráže — v honosném barokním paláci v Loretánské ulici, kde skuteční, dokonale nehybní vojáci od Pražského hradu doopravdy bydlí, jedí a — patrně — i mrkají, protože i vojáci, jejichž jedinou pracovní náplní je nehnout se, si po směně potřebují někam sednout.
+
+Budova nezačínala jako kasárna, ale jako honosné šlechtické sídlo. Mezi lety 1629 a 1658 Maxmilián Valentin Bořita z Martinic postupně skoupil roztroušené pozemky na tomto místě a v letech 1701 až 1705 nechali jeho potomci vystavět reprezentativní barokní palác podle návrhu připisovaného Carlu Fontanovi, jednomu z nejžádanějších římských architektů své doby, jehož si rodina zajistila díky diplomatickým stykům v Itálii. Výsledná stavba — symetrická dvoupatrová fasáda s bosovaným přízemím, balkonem neseným vystupujícími sloupy a štítem lemovaným vikýři — sloužila Martinicům jako pražské sídlo až do roku 1789, kdy vymřel mužský rod rodu a palác sňatkem přešel na rod Clam-Martiniců.
+
+Šlechtický život v paláci skončil roku 1837, kdy jej Clam-Martinicové prodali vojenskému eráru — ten vyklidil honosné sály, vestavěl příčky a zřídil zde vojenský špitál. Po druhé světové válce nastala ještě temnější kapitola: budova sloužila jako sídlo StB, tajné policie komunistického Československa, než se od 50. let konečně ustálila ve své současné roli — jako skutečná kasárna Hradní stráže, tedy jednotky, kterou dnes známe podle nehybných vojáků u bran Hradu. Rekonstrukce v letech 1997–1998 modernizovala ubytovací podmínky a přidala sportoviště pro vojáky, kteří v paláci skutečně bydlí.
+
+🎁 Bonus: Až příště uvidíte v poledne střídání stráží, vzpomeňte si, že vojáci se tam neteleportovali odnikud — přišli pěšky z tohoto paláce, jehož honosné barokní sály hostily šlechtický rod, nemocniční pacienty i tajné policisty dávno předtím, než v nich bydleli sami strážní.`,
+
+      zh: `勇敢的冒险家，欢迎来到城堡卫队营房——坐落在洛雷坦大街（Loretánská）上的一座气派巴洛克宫殿，布拉格城堡那些纹丝不动的卫兵，其实就住在这里，在这里吃饭、睡觉，大概也在这里眨眼——毕竟，即便是整天工作内容就是站着不动的士兵，下岗后也得有个地方坐下来。
+
+这座建筑最初并非营房，而是一座显赫的贵族宅邸。1629年至1658年间，马克西米利安·瓦伦丁·博日塔·兹·马丁尼茨（Maxmilián Valentin Bořita z Martinic）陆续买下了这块地上零散的地块；1701年至1705年间，他的后人委托据信出自卡洛·丰塔纳（Carlo Fontana）之手的设计，将其重建为一座气派的巴洛克宫殿——丰塔纳是当时罗马炙手可热的建筑师之一，马丁尼茨家族凭借其在意大利的外交人脉才请动了他。建成后的宫殿——对称的两层立面、粗琢石砌的底层、由凸出立柱支撑的阳台，以及两侧饰有老虎窗的山墙——一直是马丁尼茨家族在布拉格的主要宅邸，直到1789年家族男系绝嗣，宫殿才因联姻转入克拉姆-马丁尼茨（Clam-Martinic）家族名下。
+
+宫殿里的贵族生活在1837年画上句点：克拉姆-马丁尼茨家族将其卖给了军方国库，军方随即清空了气派的大厅，砌起隔墙，把它改造成一座驻军医院。第二次世界大战后，这里迎来了更为阴暗的一章——曾一度成为捷克斯洛伐克共产政权秘密警察StB的驻地，直到1950年代起才最终定型为如今的角色：城堡卫队真正的营房，也就是如今我们在城堡大门口看到的那支纹丝不动部队的驻地。1997至1998年的一次翻修改善了住宿条件，也为真正住在宫殿里的士兵添置了训练设施。
+
+🎁 彩蛋：下次你在正午看到卫兵换岗仪式时，不妨记住——那些列队走出的士兵可不是凭空出现的，他们是从这座宫殿里走出来的；而这座宫殿气派的巴洛克大厅，早在容纳卫兵之前，就已先后接待过贵族世家、医院病患，还有秘密警察。`,
+    },
+  },
+  {
+    name: 'Genius Statues on Čech Bridge',
+    slug: 'sochy-geniu-cechuv-most',
+    localizedNames: { cz: 'Sloupy se sochami Géniů na Čechově mostě', zh: '切赫桥天才雕像柱' },
+    labels: ['bridge', 'architecture', 'monument'],
+    coordinates: { lat: 50.09226289354037, lng: 14.417437857940982 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C4%8Cech%C5%AFv_most',
+    description: {
+      en: `Brave adventurer, welcome to the four winged Genius statues perched atop Čech Bridge — three-metre bronze figures balanced on granite columns seventeen and a half metres above the Vltava, each one clutching a gilded branch and looking considerably more serene than anyone actually crossing the bridge below during rush hour traffic.
+
+Sculptor Antonín Popp created the figures for a bridge built between 1905 and 1908 as the only large-scale Art Nouveau bridge structure in the entire country — a status that earned it protection as a state technical monument. The Genii are just the beginning of the decoration: bronze female figures once meant to hold torches lit with real gas flame stand on the pillar heads, three-headed serpent-women with fish tails guard the downstream piers, and twelve candelabra along the length of the bridge are cast with ram's heads, water carriers, fish, and gilded suns. It is, by a wide margin, the most sculpturally over-engineered short bridge in Prague — at 169 metres, it's also the shortest one crossing the Vltava.
+
+None of that ornamentation was originally meant to be static. The plan called for water to spray from the serpents' mouths and gas flames to flicker from the torch-bearers' hands — genuine working special effects built into stone and bronze. Emperor Franz Joseph I laid the ceremonial final stone in April 1907 and then demanded the fastest possible opening, so the mechanical flourishes were quietly dropped before the bridge opened to the public on June 6, 1908, named for the poet Svatopluk Čech, who had died just months earlier.
+
+🎁 Bonus: In 2022, engineers investigating the statues for restoration work found that the internal gas piping built to feed those flaming torches is still there, buried inside the bronze more than a century later — dormant infrastructure for special effects nobody ever got to see, discovered purely by accident during a routine inspection.`,
+
+      cz: `Statečný dobrodruhu, vítej u čtyř okřídlených soch Géniů na vrcholu Čechova mostu — tří metry vysokých bronzových postav balancujících na žulových sloupech sedmnáct a půl metru nad Vltavou, každá s pozlacenou ratolestí v ruce a s výrazem podstatně klidnějším, než mívají lidé přecházející most pod nimi ve špičce.
+
+Sochař Antonín Popp vytvořil tyto postavy pro most postavený v letech 1905 až 1908 — jedinou rozsáhlou secesní mostní konstrukci v celé zemi, což mu vyneslo ochranu jako státní technické památce. Géniové jsou jen začátek výzdoby: na hlavách pilířů stojí bronzové ženské postavy, které měly původně držet pochodně se skutečným plynovým plamenem, tříhlavé hadí ženy s rybími ocasy hlídají spodní pilíře a dvanáct kandelábrů podél mostu je odlito s beraními hlavami, vodonoškami, rybami a pozlacenými slunci. Je to zdaleka nejpřezdobenější krátký most v Praze — se svými 169 metry je zároveň nejkratším mostem přes Vltavu.
+
+Nic z té výzdoby přitom nemělo být jen statické. Plán počítal s tím, že z tlam hadích žen bude stříkat voda a z rukou nosičů pochodní bude šlehat plyn — skutečné funkční efekty zabudované do kamene a bronzu. Císař František Josef I. položil slavnostní poslední kámen v dubnu 1907 a poté požadoval co nejrychlejší otevření, takže mechanické efekty byly potichu vypuštěny ještě před tím, než se most 6. června 1908 otevřel veřejnosti — pojmenovaný po básníku Svatoplukovi Čechovi, který zemřel jen několik měsíců předtím.
+
+🎁 Bonus: V roce 2022 inženýři zkoumající sochy kvůli restaurování zjistili, že vnitřní plynové potrubí postavené pro napájení hořících pochodní tam po více než sto letech pořád je, zazděné hluboko v bronzu — spící infrastruktura pro efekty, které nikdy nikdo neviděl, objevená čistě náhodou při rutinní prohlídce.`,
+
+      zh: `勇敢的冒险家，欢迎来到伫立于切赫桥（Čechův most）顶端的四尊带翼天才雕像——三米高的青铜人像，稳稳站在弗尔塔瓦河上方17.5米高的花岗岩石柱顶端，每一尊手里都握着一根镀金树枝，神情比桥下高峰时段过桥的行人淡定得多。
+
+雕塑家安托宁·波普（Antonín Popp）为这座建于1905至1908年间的大桥创作了这些雕像——这是全捷克唯一一座大规模的新艺术风格桥梁结构，也正因如此被列为国家技术古迹加以保护。这几尊天才像还只是装饰的开端：桥墩顶端还立着几尊青铜女性像，原本设计成手举火炬、燃烧真实的煤气火焰；下游桥墩上守着长着鱼尾的三头蛇发女妖；桥面沿途的十二座烛台则铸有公羊头、提水少女、鱼形和镀金太阳的浮雕。就装饰的繁复程度而言，这座桥在布拉格短桥中堪称"用力过猛"的第一名——它全长169米，同时也是横跨弗尔塔瓦河最短的一座桥。
+
+而这些装饰原本一件都不是静止的。设计方案里，蛇发女妖的口中本该喷水，持炬女像手中的煤气该点起真火——都是嵌入石头与青铜里的真实机关特效。1907年4月，奥皇弗朗茨·约瑟夫一世亲自主持了大桥的最后奠基仪式，随后又要求尽快通车，于是这些机关效果在1908年6月6日大桥正式向公众开放前被悄悄取消了——这座桥当时以刚刚在几个月前去世的诗人斯瓦托普鲁克·切赫（Svatopluk Čech）命名。
+
+🎁 彩蛋：2022年，工程师们在为雕像做修复检查时发现，当初为点燃火炬而铺设的内部煤气管道，历经一百多年后依然完好地埋藏在青铜像内部——一套从未被人见过特效的"沉睡"管线系统，纯属常规检查中的意外发现。`,
+    },
+  },
+  {
+    name: 'Vychovatelna (Pulmonology and Thoracic Surgery Clinic)',
+    slug: 'vychovatelna',
+    localizedNames: {
+      cz: 'Vychovatelna (Klinika pneumologie a hrudní chirurgie)',
+      zh: '沃霍瓦特尔纳楼（肺科与胸外科诊所）',
+    },
+    labels: ['historical', 'architecture', 'hidden-gem'],
+    coordinates: { lat: 50.1169, lng: 14.4655 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to Vychovatelna, the flamboyant Neo-Rococo building crowning the Bulovka hospital hill — a structure so ornately decorated with cornices and cupolas that you'd never guess its original job was straightening out troubled teenagers, long before it settled into its current, considerably calmer role treating lungs.
+
+City authorities broke ground on the building between 1905 and 1907, commissioning architect Jan Kříženecký — better known today as the man who shot the very first Czech film footage in 1898, a hobby he apparently picked up alongside his day job as an architect and photographer. The commission grew out of a youth-reform initiative launched in the 1880s by philanthropist Vojtěch Náprstek, aimed at turning delinquent boys into productive tradesmen through structured education and apprenticeship. The programme first operated out of the nearby Rococo-era Rokoska chateau after Prague purchased it in 1903, but demand outgrew the old building fast, so the city ordered something grander — modelled, somewhat improbably, on the modest eighteenth-century Rokoska farmstead next door, just scaled up to a size fit for dominating the skyline anyone sees approaching Prague from the north.
+
+The reform school kept training apprentices here for decades, but by the 1940s the surrounding vineyard hill had been entirely swallowed by the fast-expanding Bulovka Hospital, and the Vychovatelna went with it — folded into the medical campus as one more pavilion among many. It has stayed a working hospital building ever since: today it operates as Pavilion 4, home to the Pulmonology and Thoracic Surgery Clinic, a joint department of Bulovka and Prague's 3rd Faculty of Medicine, treating lungs instead of shaping character, in the same rooms that once housed reform-minded teenagers.
+
+🎁 Bonus: Architect Jan Kříženecký deserves more credit than a hospital pavilion typically earns him — in 1898, using a borrowed Lumière brothers camera, he shot a handful of short films now recognised as the very first movies ever made on Czech soil, years before he ever picked up this particular commission. Somewhere between the projection screen and the drafting table, Prague quietly produced one of Central Europe's more unlikely pioneers.`,
+
+      cz: `Statečný dobrodruhu, vítej ve Vychovatelně, honosné novorokokové budově korunující kopec bulovské nemocnice — stavbě tak bohatě zdobené římsami a kupolemi, že by vás ani nenapadlo, že její původní úlohou bylo napravovat neposedné teenagery, dávno předtím, než se usadila ve své současné, podstatně klidnější roli léčby plic.
+
+Město zahájilo stavbu mezi lety 1905 a 1907 a pověřilo jí architekta Jana Kříženeckého — dnes známějšího jako muže, který v roce 1898 natočil vůbec první české filmové záběry, což byl koníček, který si zjevně pěstoval vedle své denní práce architekta a fotografa. Zakázka vzešla z výchovné iniciativy, kterou v 80. letech 19. století rozjel filantrop Vojtěch Náprstek s cílem proměnit provinilé chlapce v produktivní řemeslníky prostřednictvím strukturovaného vzdělávání a učňovské přípravy. Program nejprve fungoval v nedalekém rokokovém zámečku Rokoska poté, co jej Praha koupila v roce 1903, ale poptávka starou budovu rychle přerostla, a tak město nechalo postavit něco velkolepějšího — vzorem se poněkud nečekaně stala skromná osmnáctistoletá usedlost Rokoska hned vedle, jen v měřítku, které mělo dominovat siluetě viditelné při příjezdu do Prahy od severu.
+
+Výchovný ústav tu školil učně po desetiletí, ale do 40. let 20. století už rychle se rozpínající nemocnice Bulovka pohltila celý vinohradnický kopec kolem a Vychovatelna s ním — stala se jedním z dalších pavilonů v rámci lékařského areálu. Od té doby zůstává funkční nemocniční budovou: dnes funguje jako pavilon 4, sídlo Kliniky pneumologie a hrudní chirurgie, společného pracoviště Bulovky a 3. lékařské fakulty Univerzity Karlovy, které dnes léčí plíce místo formování charakteru, ve stejných místnostech, kde kdysi bydleli polepšující se teenageři.
+
+🎁 Bonus: Architekt Jan Kříženecký si zaslouží víc uznání, než kolik mu obvykle přináší nemocniční pavilon — v roce 1898 s vypůjčenou kamerou bratří Lumièrů natočil hrstku krátkých filmů, které jsou dnes uznávány jako vůbec první filmy natočené na českém území, roky předtím, než se vůbec chopil téhle konkrétní zakázky. Někde mezi promítacím plátnem a rýsovacím prknem Praha potichu vyprodukovala jednoho z nejnepravděpodobnějších průkopníků střední Evropy.`,
+
+      zh: `勇敢的冒险家，欢迎来到沃霍瓦特尔纳楼——这座矗立在布洛夫卡医院山丘顶端的新洛可可风格建筑，装饰着华丽的檐口与穹顶，华丽到你绝对猜不出它最初的使命其实是矫正问题少年，而不是它如今这份平静得多的工作：治疗肺部疾病。
+
+布拉格市当局于1905年至1907年间动工兴建这座建筑，并委托建筑师扬·克日热内茨基（Jan Kříženecký）设计——他如今更广为人知的身份，其实是1898年拍摄了捷克史上第一批电影胶片的人，而这似乎只是他建筑师兼摄影师本职工作之外的一项业余爱好。这项委托案源自慈善家沃伊捷赫·纳普尔斯泰克（Vojtěch Náprstek）在19世纪80年代发起的青少年感化计划，旨在通过系统化的教育与学徒培训，把犯错的男孩们培养成有用的手艺人。该计划最初在1903年布拉格市政府购入的附近那座洛可可风格的罗科斯卡小城堡（Rokoska）里运作，但需求很快就超出了旧建筑的容量，于是市政府下令建造一座规模更宏大的新建筑——设计灵感颇为意外地来自紧邻的18世纪罗科斯卡农庄，只是把规模放大到足以主宰从北面进入布拉格时映入眼帘的天际线。
+
+这所感化学校在这里培训学徒长达数十年，但到了1940年代，迅速扩张的布洛夫卡医院已经吞并了周围整片曾经种满葡萄的山丘，沃霍瓦特尔纳楼也未能幸免——被并入医疗园区，成了众多病房大楼中的又一栋。自那以后，它便一直是一座在用的医院建筑：如今它是4号病房楼，是肺科与胸外科诊所的所在地，由布洛夫卡医院与查理大学第三医学院共同运作，如今在这里治疗的是肺部，而不是塑造品格——诊室还是当年那些，只是住在里面的人从待矫正的少年，换成了病人。
+
+🎁 彩蛋：建筑师扬·克日热内茨基应得的认可，远不止一座医院病房楼所能给予的——1898年，他借来一台卢米埃尔兄弟（Lumière brothers）的摄影机，拍摄了几段如今被公认为在捷克土地上拍摄的最早电影的短片，比他接下这项委托案还要早上好几年。就在放映银幕与制图板之间，布拉格悄悄孕育出了中欧历史上颇为出人意料的一位先驱人物。`,
+    },
+  },
+  {
+    name: 'Faculty of Law Library, Charles University',
+    slug: 'pravnicka-fakulta-uk-knihovna',
+    localizedNames: {
+      cz: 'Knihovna Právnické fakulty Univerzity Karlovy',
+      zh: '查理大学法学院图书馆',
+    },
+    labels: ['academy', 'architecture', 'historical'],
+    coordinates: { lat: 50.091568611321954, lng: 14.416802793888996 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Budova_Pr%C3%A1vnick%C3%A9_fakulty_Univerzity_Karlovy',
+    description: {
+      en: `Welcome to the Faculty of Law Library, tucked inside a monumental Neoclassical palace on the Vltava embankment — a building so imposing you'd assume it exists purely to intimidate first-year law students, which, handily, it also does rather well.
+
+Architect Jan Kotěra, the father of modern Czech architecture, first drew up plans for the building in the early 20th century, working the design through shifting decorative fashions — starting in a late Art Nouveau vein before settling into the grand, column-fronted Neoclassicism you see today. Kotěra died in 1923 before construction could properly begin, and his student and collaborator Ladislav Machoň took over the project, following his teacher's plans down to the smallest detail and adding only the interior furnishings himself. The building finally rose between 1924 and 1931 on náměstí Curieových, its three-storey brick-and-concrete façade fronted by a projecting bay wrapped in a first-floor terrace, positioned to be one of the first grand buildings anyone sees crossing the river on Čechův most.
+
+The building's darkest chapter came during the Nazi occupation, when it was requisitioned as an SS headquarters — officers carved the once-grand halls into smaller offices to suit their bureaucracy, and some of those partition walls are still standing today, quietly built into a law school. The faculty's Central Library took its current form only after the war, in 1949, and has since grown into one of the country's largest specialized law collections, with students now studying in reading rooms not far from where SS officers once kept their files.
+
+🎁 Bonus: The building's real celebrity, though, is its central atrium — nicknamed "Bazén" ("The Pool") for its resemblance to a drained swimming pool — which has shown up in more films and TV productions than most working actors, alongside a working 1930 paternoster lift that carries the brave (and the late-for-class) continuously between floors; it was shut down for repairs in 2005 and only reopened, after a 10-million-crown restoration, in March 2018.`,
+
+      cz: `Vítej v Knihovně Právnické fakulty Univerzity Karlovy, ukryté v monumentálním novoklasicistním paláci na nábřeží Vltavy — budově tak impozantní, že by člověk čekal, že existuje čistě proto, aby zastrašila prváky práv, což se jí ostatně mimochodem docela dobře daří.
+
+Architekt Jan Kotěra, otec moderní české architektury, navrhl budovu už na počátku 20. století a jeho plán procházel proměnami dobového vkusu — začínal v duchu pozdní secese, než se ustálil na velkolepé, sloupy zdobené novoklasicistní podobě, kterou znáte dnes. Kotěra zemřel v roce 1923 dřív, než mohla stavba pořádně začít, a projekt po něm převzal jeho žák a spolupracovník Ladislav Machoň, který dodržel učitelův návrh do posledního detailu a sám doplnil pouze vnitřní vybavení. Budova nakonec vyrostla mezi lety 1924 a 1931 na náměstí Curieových, s třípodlažní cihlovo-betonovou fasádou, z níž vystupuje rizalit lemovaný terasou v prvním patře — umístěná tak, aby byla jednou z prvních velkých budov, které uvidí každý, kdo přechází řeku po Čechově mostě.
+
+Nejtemnější kapitolu budovy představuje německá okupace, kdy sloužila jako sídlo SS — důstojníci rozdělili kdysi velkolepé sály na menší kanceláře, jak vyžadovala jejich byrokracie, a některé z těchto příček stojí dodnes, tiše zabudované do právnické fakulty. Ústřední knihovna fakulty získala svou dnešní podobu až po válce, v roce 1949, a od té doby se rozrostla v jednu z největších specializovaných právnických sbírek v zemi, kde dnes studenti sedí ve studovnách nedaleko míst, kde si kdysi důstojníci SS vedli spisy.
+
+🎁 Bonus: Skutečnou hvězdou budovy je ovšem centrální atrium přezdívané "Bazén" — kvůli podobě s vypuštěným plaveckým bazénem — které se objevilo ve víc filmech a seriálech než nejeden profesionální herec, spolu s funkčním páternosterem z roku 1930, jenž nepřetržitě veze odvážné (i ty, co jdou pozdě na přednášku) mezi patry; kvůli technickým problémům byl odstaven v roce 2005 a znovu spuštěn až po rekonstrukci za deset milionů korun v březnu 2018.`,
+
+      zh: `欢迎来到查理大学法学院图书馆，它坐落在伏尔塔瓦河畔一座气势恢宏的新古典主义宫殿式建筑内——这座建筑气派到让人怀疑它存在的唯一目的就是震慑法学院新生，顺带一提，它在这件事上确实相当称职。
+
+建筑师扬·科泰拉（Jan Kotěra）——现代捷克建筑之父——早在20世纪初就为这座建筑绘制了图纸，设计风格也随着当时流行趣味几经演变：最初带着晚期新艺术运动的味道，最终定型为如今这副立柱林立的宏伟新古典主义模样。科泰拉于1923年去世，那时工程尚未真正动工，项目由他的学生兼合作者拉迪斯拉夫·马霍尼（Ladislav Machoň）接手，他将老师的设计方案贯彻到底，只在室内陈设上加入了自己的想法。建筑最终于1924年至1931年间在居里夫人广场（náměstí Curieových）拔地而起：三层的砖石混凝土立面上突出一道外凸体量，一楼环绕着露台——其位置恰好让它成为每个走过切赫大桥（Čechův most）进入市区的人最先望见的宏伟建筑之一。
+
+这座建筑最黑暗的一章发生在纳粹占领时期，当时它被征用为党卫军（SS）总部——军官们把曾经气派的大厅隔成了一间间小办公室，以适应他们的官僚体系，其中一些隔断墙至今仍然矗立，悄然嵌在如今的法学院里。法学院的中央图书馆直到战后1949年才形成如今的规模，此后逐渐发展为全国最大的法律专业馆藏之一，如今学生们在阅览室里学习的地方，离当年党卫军军官存放档案的地方并不远。
+
+🎁 彩蛋：不过，这座建筑真正的明星是它的中央中庭——因外形酷似排干了水的游泳池而被昵称为"Bazén"（"泳池"）——它在电影和电视剧里的出镜率比不少职业演员还高，此外还有一台1930年安装、至今仍在运行的循环式电梯（páternoster），载着勇敢的（以及快要迟到的）师生在楼层间不停穿梭；它在2005年因技术故障而停用，直到花费一千万克朗完成修复后，才于2018年3月重新启用。`,
+    },
+  },
+  {
+    name: 'Speculum Alchemiae',
+    slug: 'speculum-alchemiae',
+    localizedNames: {
+      cz: 'Speculum Alchemiae (Alchymistická dílna)',
+      zh: '炼金术之镜（炼金术工坊博物馆）',
+    },
+    labels: ['museum', 'historical', 'hidden-gem'],
+    coordinates: { lat: 50.090834876263735, lng: 14.422503400602931 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to Speculum Alchemiae, a working alchemist's laboratory hidden beneath an Old Town house — one that stayed a complete secret for roughly four centuries until, in 2002, a flood did what generations of curious Praguers never quite managed and cracked the basement wide open.
+
+The house at Haštalská 1 had long been rumoured to have alchemical connections — legend ties it to court alchemists active under Emperor Rudolf II, the Habsburg ruler whose obsession with the occult sciences turned late-16th-century Prague into Europe's unofficial capital of alchemy. But rumour is one thing and a sealed cellar is another: when the catastrophic 2002 Vltava flood tore through the Old Town and a small courtyard nearby caved in, workers found a genuine underground laboratory below — furnaces, distillation apparatus, and workrooms sitting almost exactly as their last occupants left them, sealed off from daylight for hundreds of years.
+
+Excavation also turned up three separate tunnels branching from the cellar, reportedly heading toward Old Town Square, the city gates, and — most tantalizingly — Prague Castle itself, a route that would have let a court alchemist slip quietly between laboratory and emperor without ever crossing a public street. The site is now a small museum, its rooms rebuilt to look exactly as a Rudolfine-era workshop might have: furnaces glowing, glass vessels lined up mid-experiment, and a gift shop selling herbal "elixirs" brewed to centuries-old recipes for visitors who'd rather not wait around for the philosopher's stone.
+
+🎁 Bonus: Old Town folklore doesn't stop at Rudolf II — some local legends also link the house to Rabbi Loew, the 16th-century scholar credited with animating the Golem, claiming this very cellar is where the clay giant supposedly received the enchanted shem that brought it to life. Historians shrug; tour guides, understandably, do not.`,
+
+      cz: `Vítej ve Speculu Alchemiae, funkční alchymistické laboratoři ukryté pod domem na Starém Městě — takové, která zůstala naprosto utajená po zhruba čtyři století, dokud v roce 2002 povodeň nedokázala to, co se generacím zvědavých Pražanů nikdy úplně nepovedlo, a doslova neotevřela sklep dokořán.
+
+O domě na Haštalské 1 se už dlouho vyprávělo, že má alchymistické kořeny — pověst jej spojuje s dvorskými alchymisty působícími za vlády císaře Rudolfa II., habsburského panovníka, jehož posedlost okultními vědami udělala z Prahy konce 16. století neoficiální evropskou metropoli alchymie. Jenže pověst je jedna věc a zapečetěný sklep druhá: když ničivá povodeň v roce 2002 zasáhla Staré Město a nedaleké malé nádvoří se propadlo, dělníci pod ním objevili skutečnou podzemní laboratoř — pece, destilační přístroje a pracovní místnosti dochované téměř přesně tak, jak je zanechali poslední uživatelé, po staletí odříznuté od denního světla.
+
+Při průzkumu se také našly tři samostatné tunely vedoucí ze sklepa — údajně směrem ke Staroměstskému náměstí, k městským branám a, což je nejlákavější, přímo k Pražskému hradu — trasa, která by dvornímu alchymistovi umožnila nepozorovaně přecházet mezi laboratoří a císařem, aniž by kdy vkročil na veřejnou ulici. Dnes je v místě malé muzeum, jehož místnosti byly zrekonstruovány tak, aby vypadaly přesně jako dílna z doby Rudolfa II.: pece žhnou, skleněné nádoby stojí v řadě uprostřed pokusu a v obchůdku se prodávají bylinné "elixíry" vařené podle staletí starých receptů pro návštěvníky, kteří nechtějí čekat na kámen mudrců.
+
+🎁 Bonus: Staroměstský folklór se nezastavuje u Rudolfa II. — některé místní pověsti spojují dům i s rabim Löwem, učencem 16. století, jemuž se připisuje oživení Golema, a tvrdí, že právě v tomto sklepě dostal hliněný obr kouzelné šém, které jej přivedlo k životu. Historikové nad tím krčí rameny; průvodci pochopitelně ne.`,
+
+      zh: `欢迎来到"炼金术之镜"（Speculum Alchemiae），一间藏在旧城区某栋民宅地下的炼金术实验室——它整整保守了大约四百年的秘密，直到2002年一场洪水做到了几代好奇的布拉格人都没能做到的事：把地下室彻底冲开。
+
+哈什塔尔斯卡街1号（Haštalská 1）这栋房子长期以来就流传着与炼金术有关的传闻——传说它与鲁道夫二世宫廷的炼金术士有关，这位哈布斯堡皇帝对神秘学的痴迷，让16世纪末的布拉格一跃成为欧洲事实上的炼金术之都。但传闻是一回事，封死的地窖又是另一回事：2002年那场重创旧城区的伏尔塔瓦河洪水，冲垮了附近一个小庭院，工人们在下方发现了一间货真价实的地下实验室——炉灶、蒸馏设备与工作间几乎完好保留着最后使用者离开时的模样，被隔绝在暗无天日的地下长达数百年。
+
+发掘过程中还发现了三条从地窖分出的隧道，据说分别通向老城广场、城门，以及最引人遐想的——布拉格城堡本身，这条通道足以让宫廷炼金术士在实验室与皇帝之间悄然往返，无需踏上一步公共街道。如今这里是一座小型博物馆，各个房间都被重新布置成鲁道夫时代工坊可能有的样子：炉火仿佛仍在燃烧，玻璃器皿仿佛实验做到一半便摆在原处，纪念品店里还出售依照数百年前古方酿制的草本"灵药"，专为不想苦等贤者之石的游客准备。
+
+🎁 彩蛋：旧城区的民间传说可不止于鲁道夫二世——一些当地传说还把这栋房子和罗伊犹太教长（Rabbi Löw）联系在一起，这位16世纪的学者据说曾赋予泥人哥连姆（Golem）生命，传说正是在这间地窖里，那尊泥巨人获得了让它苏醒过来的魔法"shem"字符。历史学家对此只是耸耸肩；导游们自然不会。`,
+    },
+  },
 ];
 
 async function run() {

@@ -107,7 +107,16 @@ Six tiers modelled on trading-card games, visible on every card border and diamo
 | 14    | Riverside Ranger        | 4,330  | 29    | Immortal Wanderer       | 14,210 |
 | 15    | Vltava Voyager          | 4,850  | 30    | Prague Legend           | 15,000 |
 
-Deltas between levels grow progressively larger (80 → 160 → ... → 790 XP), so leveling stays achievable early on and becomes a longer-term goal at the top end — with headroom for the location catalog to keep growing (all 446 current cards total 13,160 XP, capping out around level 27 — Prague Champion).
+Deltas between levels grow progressively larger (80 → 160 → ... → 790 XP), so leveling stays achievable early on and becomes a longer-term goal at the top end — with headroom for the location catalog to keep growing (all 449 current cards total 13,240 XP, capping out around level 27 — Prague Champion).
+
+### Random Location Draw
+
+For anyone who stares at the Explore grid and still can't pick somewhere to go:
+
+- **The Blind Draw** page (nav link between Guide and Dashboard) deals one random undiscovered location once every 24 hours — face down, no re-rolls, no early peeking
+- Collect the drawn location within that 24-hour window and the check-in pays **3× XP**, enforced server-side (`User.randomDraw`, `checkinController`) — not something the client can spoof
+- Card resets to `???` automatically once the window closes, and a new draw becomes available; whether you went or not, XP is never clawed back
+- Guests see a login prompt instead — the draw state is tied to a persistent account
 
 **15 Achievements** unlocked automatically at milestones:
 
@@ -209,7 +218,7 @@ prague-stories/
 │       │   └── dashboard/     # ProgressRing, AchievementBadge
 │       ├── context/           # AuthContext (JWT + guest mode), LanguageContext (i18n + opencc)
 │       ├── hooks/             # useProximityDetection, useUserPosition, useNotificationPermission
-│       ├── pages/             # Explore, Map, Dashboard, Guide, Login, Register
+│       ├── pages/             # Explore, Map, Dashboard, Guide, RandomDraw, Login, Register
 │       ├── services/          # Axios API layer
 │       └── utils/             # pixelArtMap, locName, rarity, geolocation
 └── server/                    # Express backend
@@ -242,6 +251,8 @@ prague-stories/
 | DELETE | `/api/checkins/:slug`        | ✓        | Undo check-in                                                     |
 | GET    | `/api/user/progress`         | ✓        | XP, level, unlock %, category and rarity breakdown                |
 | GET    | `/api/user/achievements`     | ✓        | All 15 achievements with unlock status                            |
+| GET    | `/api/user/random-draw`      | ✓        | Current Blind Draw status (active location + expiry, or free-to-draw) |
+| POST   | `/api/user/random-draw`      | ✓        | Draw a random undiscovered location (once per 24h)                |
 
 ---
 

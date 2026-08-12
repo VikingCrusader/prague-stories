@@ -1,7 +1,7 @@
 import CheckIn from '../models/CheckIn.js';
 import Location from '../models/Location.js';
 import User from '../models/User.js';
-import { evaluateAchievements, calculateLevel } from '../services/gamification.js';
+import { evaluateAchievements, calculateLevel, RANDOM_DRAW_WINDOW_MS, RANDOM_DRAW_XP_MULTIPLIER } from '../services/gamification.js';
 
 const MAX_DISTANCE_METERS = 100;
 
@@ -47,11 +47,21 @@ export async function checkIn(req, res, next) {
         return res.status(403).json({ message: 'You need to be at the location to check in!' });
       }
     }
-    await CheckIn.create({ user: req.user._id, location: location._id, note: note || '' });
+    // Random-draw bonus: this location is the user's active draw, still
+    // within its 24h window, and the bonus hasn't been claimed yet.
+    const user = await User.findById(req.user._id);
+    const draw = user.randomDraw || {};
+    const drawActive = draw.slug === location.slug
+      && draw.drawnAt
+      && Date.now() - new Date(draw.drawnAt).getTime() < RANDOM_DRAW_WINDOW_MS
+      && !draw.bonusUsed;
+    const xpEarned = drawActive ? location.xpReward * RANDOM_DRAW_XP_MULTIPLIER : location.xpReward;
+
+    await CheckIn.create({ user: req.user._id, location: location._id, note: note || '', xpEarned });
 
     // Award XP
-    const user = await User.findById(req.user._id);
-    user.totalXP += location.xpReward;
+    user.totalXP += xpEarned;
+    if (drawActive) user.randomDraw.bonusUsed = true;
 
     // Gather stats for achievement evaluation
     const allCheckins = await CheckIn.find({ user: user._id }).populate('location').lean();
@@ -94,7 +104,8 @@ export async function checkIn(req, res, next) {
 
     res.status(201).json({
       message: 'Checked in!',
-      xpEarned: location.xpReward,
+      xpEarned,
+      bonusApplied: drawActive,
       totalXP: user.totalXP,
       levelInfo,
       newAchievements,
@@ -112,9 +123,12 @@ export async function undoCheckIn(req, res, next) {
     const deleted = await CheckIn.findOneAndDelete({ user: req.user._id, location: location._id });
     if (!deleted) return res.status(404).json({ message: 'Check-in not found' });
 
-    // Subtract XP
+    // Subtract XP — use the amount actually awarded (may have been tripled
+    // by a random-draw bonus); legacy check-ins predate xpEarned, fall back
+    // to the location's current base reward.
     const user = await User.findById(req.user._id);
-    user.totalXP = Math.max(0, user.totalXP - location.xpReward);
+    const xpToRemove = deleted.xpEarned ?? location.xpReward;
+    user.totalXP = Math.max(0, user.totalXP - xpToRemove);
     const levelInfo = calculateLevel(user.totalXP);
     user.explorerLevel = levelInfo.level;
     await user.save();

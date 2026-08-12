@@ -87,6 +87,14 @@ Locked cards do not leave you entirely in the dark. You get a taste of the lore 
 
 At the bottom: the **Check In** button. Gold. Prominent. Beckoning.
 
+### The Blind Draw
+
+For everyone who stares at the Explore grid for eleven minutes and still can't pick a location. Once every 24 hours, hit **Draw** and the app deals you one random card from everywhere in Prague you haven't found yet — face down, no peeking, no re-rolls.
+
+You have 24 hours to go stand on it. Do that, and the check-in pays **triple XP**. Let the clock run out instead, and the card politely flips back to **???**, no harm done, no XP lost — just a fresh mystery waiting whenever you're ready to try your luck again.
+
+This is not a strategy. This is what happens when you'd rather let a random-number generator make your evening plans than open a filter menu. No judgment. The XP is real either way.
+
 ### The Dashboard
 
 Your character sheet. Contains:
@@ -202,6 +210,8 @@ Preset locations (the 240 landmarks in the base game) cannot be deleted. The ser
 - **The Dashboard category breakdown is a conscience.** If you have zero Entertainment check-ins, the game is gently suggesting you have been too focused on castles and should have lunch.
 
 - **Czech names on the filter tabs are not a bug.** The city is in Czech. The game leans into this. Pronouncing "Žižkovský televizní vysílač" correctly is an unofficial achievement.
+
+- **Can't decide where to go? Let the Blind Draw decide.** Whatever it hands you pays triple XP if you collect it within 24 hours — the game's polite way of rewarding decisiveness over analysis paralysis.
 
 ---
 

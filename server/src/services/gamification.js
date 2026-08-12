@@ -1,3 +1,9 @@
+// Random Location Draw: one draw every 24h; check in on the drawn location
+// within that window for a tripled XP reward. See userController.getRandomDraw
+// / drawRandomLocation and checkinController.checkIn.
+export const RANDOM_DRAW_WINDOW_MS = 24 * 60 * 60 * 1000;
+export const RANDOM_DRAW_XP_MULTIPLIER = 3;
+
 export const LEVELS = [
   { level: 1, title: "Newcomer", title_cz: "Nováček", title_zh: "新来者", xpRequired: 0 },
   { level: 2, title: "Tourist", title_cz: "Turista", title_zh: "游客", xpRequired: 80 },

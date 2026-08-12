@@ -60,6 +60,15 @@ Express app with ES modules (`"type": "module"`). Entry point is `index.js` — 
 
 **Gamification** (`services/gamification.js`): `LEVELS` array and `ACHIEVEMENTS` array are the authoritative definitions for all level thresholds and achievement logic. `evaluateAchievements` runs on every check-in. Achievements fire once and are stored on the User document.
 
+**Adding new locations (`data/seedLocations.js`):**
+- Every entry needs a full `description: { en, cz, zh }` — all three languages, not just `en`.
+- English description structure: an opening paragraph of ~50 words that introduces the location simply and humorously, followed by one or two main-text paragraphs with the substantive detail, followed by a final Bonus paragraph. CZ and ZH mirror this structure.
+- Do not include Czech-name/place-name translations anywhere in the EN or ZH description text — in particular, no parenthetical Czech-translation note in the EN/ZH opening paragraph (e.g. no `Welcome to X (Český název)!` pattern).
+- Don't add a `landmark` label to any new entry.
+- `rarity` must be one of `common`, `rare`, `superior`, `epic`, `mythic` — never `legend` (reserved for the existing grand landmarks). `xpReward` stays in sync automatically via `RARITY_XP` in `data/rarityMap.js`.
+- `coordinates` are supplied by the user for each new location — don't look them up.
+- After writing the new entries, run `node src/data/seedLocations.js` (from `server/`) to upsert them into the database — just run it once the content is done, no need to ask first.
+
 ### Frontend (`client/src/`)
 
 React 18 + Vite SPA, deployed to Vercel. `vercel.json` lives in `client/` (not repo root) for SPA rewrite rules to apply.

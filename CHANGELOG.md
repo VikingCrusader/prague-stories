@@ -4,6 +4,32 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.8.12] — 2026-08-13
+
+**Feat: Random Location Draw ("The Blind Draw") — 3× XP bonus**
+
+- New page `RandomDrawPage.jsx`, linked in the navbar between Guide and Dashboard — once every 24 hours, deals the user one random undiscovered location, face down (`???`) until drawn
+- Backend: `User.randomDraw` (`slug`, `drawnAt`, `bonusUsed`) tracks the active draw; `CheckIn.xpEarned` records the actual XP a check-in awarded (needed because it may be tripled)
+- `GET /api/user/random-draw` returns the current draw status (active + location + expiry, or free-to-draw); `POST /api/user/random-draw` performs the draw itself (`Location.aggregate` with `$sample`, excluding already-checked-in locations), idempotent within the 24h window rather than re-rolling on a duplicate request
+- `checkinController.checkIn` awards 3× XP (`RANDOM_DRAW_XP_MULTIPLIER` in `gamification.js`) when the checked-in slug matches the user's active, unclaimed draw within its 24h window (`RANDOM_DRAW_WINDOW_MS`), and marks the bonus claimed so it can't be re-triggered by undo/redo; `undoCheckIn` now reverses the check-in's actual recorded `xpEarned` instead of always assuming the base rate, so undoing a tripled check-in refunds the correct amount
+- `LocationDetail`'s check-in success screen shows a "🎲 3× Random Draw Bonus!" badge when the bonus applied
+- Full EN/CZ/ZH copy in the guide's tone across the new page, navbar link, and bonus badge; in-app Guide page and root `GUIDE.md` both gained a matching "Blind Draw" section and tip
+- Guests (no persistent account) see a login prompt instead of the draw UI
+
+---
+
+## [1.8.11] — 2026-08-13
+
+**Feat: 3 new location cards — Vychovatelna, Faculty of Law Library, Speculum Alchemiae**
+
+- Vychovatelna (`vychovatelna`, superior, 30 XP) — 1905–07 Neo-Rococo reform school on the Bulovka hospital hill by Jan Kříženecký (who also shot the first Czech film footage in 1898), now Pavilion 4's Pulmonology and Thoracic Surgery Clinic
+- Faculty of Law Library, Charles University (`pravnicka-fakulta-uk-knihovna`, superior, 30 XP) — Jan Kotěra's Neoclassical embankment building, finished after his death by Ladislav Machoň (1924–31); WWII SS headquarters, the "Bazén" atrium, and a working 1930 paternoster lift
+- Speculum Alchemiae (`speculum-alchemiae`, rare, 20 XP) — the Haštalská 1 alchemist's laboratory sealed for ~400 years until the 2002 flood cracked open its cellar, with tunnels reportedly running toward Prague Castle
+- Full EN/CZ/ZH descriptions (~50-word humorous EN intro, historical body paragraphs, 🎁 Bonus); none use the `landmark` label; total location count 446 → 449, total XP pool 13,160 → 13,240
+- Cover art supplied by the external pixel-art pipeline and picked up into `coverManifest.json` via `npm run generate:covers`
+
+---
+
 ## [1.8.10] — 2026-08-11
 
 **Test: unit + e2e coverage for the level-up celebration (1.8.9)**

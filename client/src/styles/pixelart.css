@@ -854,6 +854,84 @@
 }
 .guide-faq__a { font-size: 17px; color: var(--text-muted); line-height: 1.5; }
 
+/* ── Random Draw Page ─────────────────────────────────────── */
+.draw-stage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  padding: 20px 0 30px;
+}
+.draw-card {
+  width: 220px;
+  background: var(--bg-card);
+  box-shadow: 5px 5px 0 #000;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.draw-card--mystery {
+  border: 3px dashed #444;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 260px;
+  padding: 20px;
+  background: repeating-linear-gradient(
+    135deg,
+    var(--bg-card),
+    var(--bg-card) 10px,
+    rgba(255,255,255,0.02) 10px,
+    rgba(255,255,255,0.02) 20px
+  );
+}
+.draw-card--empty { border-color: var(--gold); }
+.draw-card__mystery-mark { font-size: 3.4rem; filter: grayscale(1) brightness(0.9); }
+.draw-card__mystery-label {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 16px;
+  letter-spacing: 3px;
+  color: #555;
+}
+.draw-card--revealed { border: 3px solid var(--gold); cursor: pointer; transition: transform 80ms, box-shadow 80ms; }
+.draw-card--revealed:hover { transform: translate(-2px, -2px); box-shadow: 7px 7px 0 #000; }
+.draw-card__banner {
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.draw-card__body { padding: 12px 14px 16px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 6px; }
+.draw-card__name {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 11px;
+  line-height: 1.6;
+}
+.draw-card__meta { display: flex; align-items: center; gap: 6px; font-size: 13px; flex-wrap: wrap; justify-content: center; margin-top: 4px; }
+.draw-card__xp { color: var(--gold); font-size: 13px; margin-left: 4px; }
+.draw-bonus-tag {
+  margin-top: 8px;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 7px;
+  color: var(--gold);
+  border: 2px solid var(--gold);
+  background: rgba(255,215,0,0.08);
+  padding: 5px 9px;
+  letter-spacing: 0.5px;
+}
+.draw-countdown {
+  font-size: 15px;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.draw-countdown__time {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 12px;
+  color: var(--gold);
+}
+
 /* ── Responsive ───────────────────────────────────────────── */
 @media (max-width: 900px) {
   .map-page { flex-direction: column; }

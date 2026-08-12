@@ -51,6 +51,8 @@ const CONTENT = {
     map: "Your command centre. Gold markers = yours. Grey = unclaimed. Your position is shown as a red dot. Marker size scales with zoom. Walk within 50 m of an unvisited location and an OS notification fires — even when you're in another app. Tap it. The app checks you in automatically and opens the card.",
     detailTitle: "Location Detail",
     detail: "Tap any card. Pixel art, lore in three languages, XP value, Wikipedia link, Google Maps directions. At the bottom: the Collect button. Gold. Prominent. Beckoning. Locked cards show a taste of the lore — just enough paragraphs to confirm that something interesting is in there, followed by an archive notice that politely declines to say anything further until you show up in person. It is less a spoiler system and more a very effective extortion mechanism.",
+    drawTitle: "The Blind Draw",
+    draw: "Can't decide where to go? Once every 24 hours, hit Draw on the eponymous page and the app deals you one random location from everywhere you haven't found yet — face down, no peeking, no re-rolls. Collect it before the 24-hour window closes and that one visit pays triple XP. Let it expire and the card flips back to ??? — no penalty, just a fresh mystery waiting whenever you're ready to try your luck again.",
     dashTitle: "Dashboard",
     dash: "Your character sheet. Level badge, XP bar, progress ring, category breakdown, achievements, level roadmap. Very Skinner box. Very effective.",
     collectTitle: "How Collecting Works",
@@ -84,6 +86,7 @@ const CONTENT = {
       { icon: "◆", text: "Mythic and Legendary locations pay the most XP (+70/+100). Open the Rarity filter, select those tiers, and go there first. The XP is proportional to the effort — and the effort is proportional to how few other tourists are present." },
       { icon: "📊", text: "The Dashboard category breakdown is your conscience. Zero Food & Drink entries? The game is gently suggesting you eat something." },
       { icon: "🌐", text: '"Žižkovský televizní vysílač" — if you can pronounce this correctly, consider it an unofficial achievement.' },
+      { icon: "🎲", text: "Can't pick a location? Use the Draw page. Whatever fate hands you pays triple XP if you get there within 24 hours — the app's way of rewarding decisiveness over indecision." },
     ],
     faqTitle: "FAQ",
     faq: [
@@ -140,6 +143,8 @@ const CONTENT = {
     map: "Tvoje velitelské centrum. Zlaté značky = tvoje. Šedé = nevyžádané. Tvoje poloha je zobrazena jako červená tečka. Velikost značek se mění podle přiblížení. Přijď do 50 m od nenavštíveného místa a vyskočí ti systémové oznámení — i když máš otevřenou jinou aplikaci. Klepni na oznámení. Aplikace tě automaticky přihlásí a otevře kartu místa.",
     detailTitle: "Detail místa",
     detail: "Klikni na jakoukoli kartu. Pixel art, příběhy ve třech jazycích, hodnota XP, odkaz na Wikipedii, navigace v Mapách Google. Dole: tlačítko Sbírat. Zlaté. Výrazné. Lákající. Zamčené karty nabídnou ochutnávku příběhu — dost odstavců na to, abys věděl, že uvnitř je něco zajímavého — a pak oznámení, které slušně odmítne prozradit cokoli dalšího, dokud se osobně nedostavíš. Méně systém prevence spoilerů, více velmi efektivní vydírání.",
+    drawTitle: "Slepý los",
+    draw: "Nemůžeš se rozhodnout, kam jít? Jednou za 24 hodin stiskni Vytáhnout na stejnojmenné stránce a aplikace ti rozdá jedno náhodné místo ze všech, která jsi ještě nenašel — lícem dolů, žádné nakukování, žádné nové losování. Sesbírej ho, než vyprší 24hodinové okno, a tahle jedna návštěva vyplatí trojnásobné XP. Necháš ho vypršet a karta se otočí zpět na ??? — žádný postih, jen čerstvé tajemství čekající, až budeš chtít zkusit štěstí znovu.",
     dashTitle: "Přehled",
     dash: "Tvůj charakterový list. Odznak úrovně, lišta XP, kruh pokroku, přehled kategorií, úspěchy, mapa úrovní. Velmi Skinnerova klec. Velmi efektivní.",
     collectTitle: "Jak funguje sbírání",
@@ -173,6 +178,7 @@ const CONTENT = {
       { icon: "◆", text: "Mýtická a Legendární místa platí nejvíce XP (+70/+100). Otevři filtr Vzácnost, vyber tyto úrovně a jdi tam jako první. XP odpovídá úsilí — a úsilí odpovídá tomu, jak málo turistů tam bude." },
       { icon: "📊", text: "Přehled kategorií je tvědomí. Nula check-inů v Zábavě? Hra jemně naznačuje, že bys měl někde poobědvat." },
       { icon: "🌐", text: '"Žižkovský televizní vysílač" — pokud to dokážeš správně vyslovit, považuj to za neoficiální úspěch.' },
+      { icon: "🎲", text: "Nemůžeš se rozhodnout, kam jít? Použij stránku Slepý los. Cokoliv ti osud přidělí, vyplatí trojnásobné XP, pokud se tam dostaneš do 24 hodin — takhle aplikace odměňuje rozhodnost místo váhání." },
     ],
     faqTitle: "Časté dotazy",
     faq: [
@@ -229,6 +235,8 @@ const CONTENT = {
     map: "你的指挥中心。金色标记=已解锁。灰色=待征服。你的位置以红点显示，圆圈大小随缩放比例动态调整。走进未访问地点50米范围内，系统通知会自动弹出——即使你正在使用其他应用也没关系。点击通知，应用会自动为你打卡并打开地点卡片。",
     detailTitle: "地点详情",
     detail: "点击任意卡片。像素艺术、三语传说、经验值、维基百科链接、谷歌地图导航。底部：打卡按钮。金色，醒目，诱人。锁定的卡片会透露部分传说——刚好够你确认里面有些好东西，然后一条档案通知会礼貌地拒绝进一步透露，直到你亲自到场。这与其说是防剧透机制，不如说是一种非常有效的勒索手段。",
+    drawTitle: "盲抽",
+    draw: "不知道该去哪儿？每24小时可以到同名页面点一次「抽取」，应用会从你还没找到的所有地点里，随机扣着发给你一张——不能偷看，也不能重抽。赶在24小时窗口关闭前完成打卡，这一次的经验值会翻三倍。如果错过了窗口，卡片会自动翻回「？？？」——没有任何惩罚，只是等你下次想再试试手气的时候，会有一个全新的谜题在等你。",
     dashTitle: "仪表盘",
     dash: "你的角色档案。等级徽章、经验值条、进度环、类别分布、成就、等级路线图。非常巴甫洛夫式，非常有效。",
     collectTitle: "如何打卡",
@@ -262,6 +270,7 @@ const CONTENT = {
       { icon: "◆", text: "神话和传说地点经验最高（+70/+100）。打开稀有度筛选器，选择这两个等级，优先去那里。经验值与你付出的努力成正比——而努力程度通常与那里没有其他游客成正比。" },
       { icon: "📊", text: "仪表盘类别分布是你的良心。娱乐类零打卡？游戏在温柔地建议你该吃点东西了。" },
       { icon: "🌐", text: '"Žižkovský televizní vysílač"——如果你能正确发音，算作非官方成就。' },
+      { icon: "🎲", text: "不知道去哪好？用「盲抽」页面。不管命运发给你什么地点，只要在24小时内赶到就能获得三倍经验值——这是应用奖励果断而非犹豫的方式。" },
     ],
     faqTitle: "常见问题",
     faq: [
@@ -361,6 +370,9 @@ export default function GuidePage() {
 
           <h3 className="guide-h3" style={{ marginTop: 16 }}>{c.detailTitle}</h3>
           <p className="guide-body">{c.detail}</p>
+
+          <h3 className="guide-h3" style={{ marginTop: 16 }}>{c.drawTitle}</h3>
+          <p className="guide-body">{c.draw}</p>
 
           <h3 className="guide-h3" style={{ marginTop: 16 }}>{c.dashTitle}</h3>
           <p className="guide-body">{c.dash}</p>

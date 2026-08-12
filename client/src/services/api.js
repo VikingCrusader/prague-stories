@@ -38,6 +38,8 @@ export const checkinAPI = {
 };
 
 export const userAPI = {
-  getProgress:     () => api.get('/user/progress'),
-  getAchievements: () => api.get('/user/achievements'),
+  getProgress:      () => api.get('/user/progress'),
+  getAchievements:  () => api.get('/user/achievements'),
+  getRandomDraw:    () => api.get('/user/random-draw'),
+  drawRandomLocation: () => api.post('/user/random-draw'),
 };

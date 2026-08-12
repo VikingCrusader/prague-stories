@@ -14,6 +14,12 @@ const userSchema = new mongoose.Schema({
   totalXP:       { type: Number, default: 0 },
   explorerLevel: { type: Number, default: 1 },
   achievements:  { type: [achievementSchema], default: [] },
+  randomDraw: {
+    slug:      { type: String, default: null },
+    drawnAt:   { type: Date, default: null },
+    bonusUsed: { type: Boolean, default: false },
+    _id: false,
+  },
 }, { timestamps: true });
 
 userSchema.pre('save', async function (next) {

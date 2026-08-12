@@ -5,6 +5,7 @@ const checkInSchema = new mongoose.Schema({
   location:    { type: mongoose.Schema.Types.ObjectId, ref: 'Location', required: true },
   note:        { type: String, maxlength: 280, default: '' },
   checkedInAt: { type: Date, default: Date.now },
+  xpEarned:    { type: Number }, // actual XP awarded (may be tripled by a random-draw bonus); absent on legacy check-ins
 });
 
 // One check-in per user per location
