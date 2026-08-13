@@ -6,7 +6,10 @@ import { useT, useLang, useConvert } from '../context/LanguageContext';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../utils/pixelArtMap';
 import { getLocalCoverPath } from '../utils/localCover';
 import { getLocName } from '../utils/locName';
-import { RARITY_COLOR, RARITY_LABEL } from '../utils/rarity';
+import { haversineDistance, formatDistance } from '../utils/geolocation';
+import { useUserPosition } from '../hooks/useUserPosition';
+import { RARITY_COLOR, RARITY_LABEL, lockClosedIcon } from '../utils/rarity';
+import LocationCard from '../components/locations/LocationCard';
 import LocationDetail from '../components/locations/LocationDetail';
 
 function pad2(n) {
@@ -22,11 +25,16 @@ function formatCountdown(ms) {
   return `${pad2(hrs)}:${pad2(mins)}:${pad2(secs)}`;
 }
 
-function DrawnCard({ status, t, lang, convert, onOpen }) {
-  const loc = status.location;
-  const name = convert(getLocName(loc, lang));
+// The drawn-but-not-yet-collected card: same loc-card shell/lock treatment as
+// a locked Explore card (image desaturated, lock icon over the banner), but
+// the name is already revealed — the draw's whole point is telling you what
+// you got. The label slot inside the card is swapped for the rarity + 3x XP
+// callout; the real label and distance move below the card, outside the box.
+function DrawnCard({ loc, name, lang, convert, distance, onOpen }) {
+  const rarity = loc.rarity ?? 'common';
   const art = getArt(loc.pixelArtKey, loc.labels);
-  const color = LABEL_COLORS[loc.labels?.[0]] || '#1a2a5a';
+  const bannerColor = LABEL_COLORS[loc.labels?.[0]] || '#1a2a5a';
+  const firstLabel = loc.labels?.[0];
   const localCover = getLocalCoverPath(loc.slug);
   const [localFailed, setLocalFailed] = useState(false);
   const [cloudFailed, setCloudFailed] = useState(false);
@@ -34,52 +42,56 @@ function DrawnCard({ status, t, lang, convert, onOpen }) {
   const useCloudCover = !useLocalCover && !!loc.coverImage && !cloudFailed;
 
   return (
-    <div
-      className="draw-card draw-card--revealed"
-      style={{ borderColor: RARITY_COLOR[loc.rarity ?? 'common'] }}
-      onClick={onOpen}
-    >
-      <div className="draw-card__banner" style={{ background: color }}>
-        {useLocalCover ? (
-          <img src={localCover} alt={name} onError={() => setLocalFailed(true)}
-            style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
-        ) : useCloudCover ? (
-          <img src={loc.coverImage} alt={name} onError={() => setCloudFailed(true)}
-            style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }} />
-        ) : (
-          <span style={{ fontSize: '3.4rem' }}>{art}</span>
+    <>
+      <div className="loc-card" style={{ border: `3px solid ${RARITY_COLOR[rarity]}` }} onClick={onOpen}>
+        <div className="loc-card__banner" style={{ background: bannerColor, position: 'relative' }}>
+          {useLocalCover ? (
+            <img src={localCover} alt={name} onError={() => setLocalFailed(true)}
+              style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'saturate(0.15)' }} />
+          ) : useCloudCover ? (
+            <img src={loc.coverImage} alt={name} onError={() => setCloudFailed(true)}
+              style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block', filter: 'saturate(0.15)' }} />
+          ) : (
+            <span style={{ fontSize: '2.8rem', filter: 'saturate(0.15)' }}>{art}</span>
+          )}
+          <img className="loc-card__lock" src={lockClosedIcon(rarity)} alt="" />
+        </div>
+        <div className="loc-card__body">
+          <div>
+            <div className="loc-card__name" style={{ color: RARITY_COLOR[rarity] }}>{name}</div>
+            {lang !== 'cz' && loc.localizedNames?.cz && (
+              <div className="loc-card__cz-name">{loc.localizedNames.cz}</div>
+            )}
+          </div>
+          <div className="loc-card__labels">
+            <span
+              className="label-pill-sm draw-xp-pill"
+              style={{
+                backgroundColor: `${RARITY_COLOR[rarity]}22`,
+                borderColor: RARITY_COLOR[rarity],
+                color: RARITY_COLOR[rarity],
+              }}
+            >
+              {convert(RARITY_LABEL[lang]?.[rarity])}
+              <span className="draw-card__xp-old">{loc.xpReward} XP</span>
+              <strong>{loc.xpReward * 3} XP</strong>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div className="draw-card__meta-row">
+        {firstLabel && (
+          <span className="detail-label-pill" style={{ backgroundColor: LABEL_COLORS[firstLabel] || 'rgba(255,255,255,0.07)' }}>
+            {convert(LABEL_DEFINITIONS[firstLabel]?.[lang] || LABEL_DEFINITIONS[firstLabel]?.en || firstLabel)}
+          </span>
+        )}
+        {distance != null && (
+          <span className="detail-label-pill" style={{ backgroundColor: LABEL_COLORS[firstLabel] || 'rgba(255,255,255,0.07)' }}>
+            {formatDistance(distance)}
+          </span>
         )}
       </div>
-      <div className="draw-card__body">
-        <div className="draw-card__name" style={{ color: RARITY_COLOR[loc.rarity ?? 'common'] }}>{name}</div>
-        {lang !== 'cz' && loc.localizedNames?.cz && (
-          <div className="loc-card__cz-name">{loc.localizedNames.cz}</div>
-        )}
-        <div className="draw-card__meta">
-          <span style={{
-            display: 'inline-block', width: 8, height: 8,
-            background: RARITY_COLOR[loc.rarity ?? 'common'],
-            clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',
-            flexShrink: 0,
-          }} />
-          <span style={{ color: RARITY_COLOR[loc.rarity ?? 'common'] }}>
-            {convert(RARITY_LABEL[lang]?.[loc.rarity ?? 'common'])}
-          </span>
-          <span className="draw-card__xp">
-            {loc.xpReward} → <strong>{loc.xpReward * 3} XP</strong>
-          </span>
-        </div>
-        <div
-          className="draw-bonus-tag"
-          style={status.bonusUsed ? { color: '#8eff8e', borderColor: '#8eff8e' } : undefined}
-        >
-          {status.bonusUsed ? t('draw.alreadyCollected') : t('draw.bonusTag')}
-        </div>
-        <button className="px-btn px-btn--gold px-btn--sm" style={{ marginTop: 10 }} onClick={onOpen}>
-          {t('draw.viewButton')}
-        </button>
-      </div>
-    </div>
+    </>
   );
 }
 
@@ -89,6 +101,7 @@ export default function RandomDrawPage() {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
+  const userPos = useUserPosition();
 
   const [status, setStatus] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -117,6 +130,12 @@ export default function RandomDrawPage() {
 
   const expiresAt = status?.expiresAt ? new Date(status.expiresAt).getTime() : null;
   const msLeft = expiresAt ? expiresAt - now : 0;
+  const distance = status?.location && userPos
+    ? haversineDistance(userPos.lat, userPos.lng, status.location.coordinates.lat, status.location.coordinates.lng)
+    : null;
+  const mapHref = status?.location
+    ? `https://www.google.com/maps/dir/?api=1&destination=${status.location.coordinates.lat},${status.location.coordinates.lng}`
+    : null;
 
   useEffect(() => {
     if (status?.active && expiresAt && msLeft <= 0 && !refreshingOnExpiry.current) {
@@ -164,13 +183,6 @@ export default function RandomDrawPage() {
           </div>
         ) : (
           <>
-            <section className="guide-section">
-              <p className="guide-body">{t('draw.intro1')}</p>
-              <p className="guide-body">{t('draw.intro2')}</p>
-            </section>
-
-            <hr className="px-divider" />
-
             {loading ? (
               <div style={{ display: 'flex', justifyContent: 'center', padding: 40 }}>
                 <div className="spinner" />
@@ -187,14 +199,37 @@ export default function RandomDrawPage() {
                   </>
                 ) : status?.active && status.location ? (
                   <>
-                    <DrawnCard
-                      status={status}
-                      t={t}
-                      lang={lang}
-                      convert={convert}
-                      onOpen={() => setSelectedSlug(status.location.slug)}
-                    />
-                    <p className="guide-body" style={{ marginTop: 14, marginBottom: 4 }}>{t('draw.revealedHint')}</p>
+                    <div className="draw-stage__card">
+                      {status.bonusUsed ? (
+                        <LocationCard
+                          location={{ ...status.location, unlocked: true }}
+                          onClick={() => setSelectedSlug(status.location.slug)}
+                          distance={distance}
+                        />
+                      ) : (
+                        <DrawnCard
+                          loc={status.location}
+                          name={convert(getLocName(status.location, lang))}
+                          lang={lang}
+                          convert={convert}
+                          distance={distance}
+                          onOpen={() => setSelectedSlug(status.location.slug)}
+                        />
+                      )}
+                    </div>
+                    <p className="guide-body" style={{ marginTop: 14, marginBottom: 4 }}>
+                      {t('draw.revealedHintPre')}
+                      <a
+                        href={mapHref}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        title={t('common.googleMaps')}
+                        style={{ textDecoration: 'underline' }}
+                      >
+                        {t('draw.revealedHintLink')}
+                      </a>
+                      {t('draw.revealedHintPost')}
+                    </p>
                     <div className="draw-countdown">
                       {t('draw.cooldownLabel')} <span className="draw-countdown__time">{formatCountdown(msLeft)}</span>
                     </div>
@@ -219,6 +254,13 @@ export default function RandomDrawPage() {
                 )}
               </div>
             )}
+
+            <hr className="px-divider" />
+
+            <section className="guide-section">
+              <p className="guide-body">{t('draw.intro1')}</p>
+              <p className="guide-body">{t('draw.intro2')}</p>
+            </section>
 
             <hr className="px-divider" />
 

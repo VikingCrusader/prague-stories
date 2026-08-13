@@ -280,6 +280,25 @@
   overflow: hidden;
 }
 
+/* Drawn-card label slot: rarity + crossed-out/tripled XP instead of the
+   location's real label. */
+.draw-xp-pill {
+  gap: 6px;
+  font-size: 12px;
+  border-width: 2px;
+}
+.draw-card__xp-old { position: relative; opacity: 0.7; }
+.draw-card__xp-old::after {
+  content: '';
+  position: absolute;
+  left: -3px;
+  right: -3px;
+  top: 50%;
+  height: 2px;
+  background: #ff4d4d;
+  transform: rotate(-14deg);
+}
+
 /* ── Label Filter ─────────────────────────────────────────── */
 .label-filter {
   position: relative;
@@ -932,31 +951,25 @@
   letter-spacing: 3px;
   color: #555;
 }
-.draw-card--revealed { border: 3px solid var(--gold); cursor: pointer; transition: transform 80ms, box-shadow 80ms; }
-.draw-card--revealed:hover { transform: translate(-2px, -2px); box-shadow: 7px 7px 0 #000; }
-.draw-card__banner {
-  min-height: 120px;
+/* Revealed draw result reuses LocationCard once collected, or the custom
+   DrawnCard shell beforehand (see RandomDrawPage) — this pins either to the
+   same width as a grid card. */
+.draw-stage__card { width: 230px; }
+.draw-card__meta-row {
+  width: 230px;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: stretch;
+  gap: 8px;
+  margin-top: 10px;
 }
-.draw-card__body { padding: 12px 14px 16px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 6px; }
-.draw-card__name {
-  font-family: 'Press Start 2P', monospace;
-  font-size: 11px;
-  line-height: 1.6;
-}
-.draw-card__meta { display: flex; align-items: center; gap: 6px; font-size: 13px; flex-wrap: wrap; justify-content: center; margin-top: 4px; }
-.draw-card__xp { color: var(--gold); font-size: 13px; margin-left: 4px; }
-.draw-bonus-tag {
-  margin-top: 8px;
-  font-family: 'Press Start 2P', monospace;
-  font-size: 7px;
-  color: var(--gold);
-  border: 2px solid var(--gold);
-  background: rgba(255,215,0,0.08);
-  padding: 5px 9px;
-  letter-spacing: 0.5px;
+.draw-card__meta-row > .detail-label-pill {
+  flex: 1 1 0;
+  /* Match the font Explore's grid-card label pill (.label-pill-sm) uses —
+     .detail-label-pill defaults to the pixel 'Press Start 2P' face, which
+     reads inconsistently next to Explore's cards. */
+  font-family: inherit;
+  font-size: 15px;
+  line-height: 1.35;
 }
 .draw-countdown {
   font-size: 15px;

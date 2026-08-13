@@ -4,6 +4,30 @@ All notable changes to Prague Stories are documented here.
 
 ---
 
+## [1.8.14] — 2026-08-13
+
+**Feat: Random Draw card redesign — Explore-style shell, revealed name, rarity/XP badge, Google Maps link**
+
+- `RandomDrawPage.jsx`'s drawn-but-uncollected card now reuses the same `.loc-card` shell as an Explore grid card (desaturated cover image, lock icon overlay) instead of a bespoke layout — but the name is revealed instead of masked as `???`, since the whole point of the draw is telling you what you got
+- The in-card label slot is replaced with a rarity-colored badge showing the base XP crossed out with a red diagonal slash next to the tripled XP (e.g. "稀有 ~~20 XP~~ 60 XP"); the location's real label and distance move below the card as two identically-styled, same-color boxes matching Explore's `.label-pill-sm` font (previously reused `.detail-label-pill`'s pixel `Press Start 2P` face, which read inconsistently next to Explore's cards)
+- Removed the two elements that used to sit on the card ("View" button and the bonus-claimed tag) — the whole card is clickable, same as Explore
+- Once the bonus is actually claimed (`bonusUsed`), the card swaps to a genuine unlocked `LocationCard`, triggering the same flip-open animation as a normal check-in
+- `draw.revealedHint` split into `draw.revealedHintPre` / `draw.revealedHintLink` / `draw.revealedHintPost` so the action word ("explore" / "探索" / "prozkoumat") renders as an underlined link to Google Maps directions for the drawn location, in all three languages
+- `draw.intro2` copy: "eleven minutes" / "十一分钟" / "jedenáct minut" → "half an hour" / "半个小时" / "půl hodiny"
+- Page layout reordered: the card now sits directly under the tagline/challenge intro, with the "how it works" paragraphs moved below it instead of above
+
+---
+
+## [1.8.13] — 2026-08-13
+
+**Fix: location detail modal sizing on laptop/tablet viewports**
+
+- `LocationDetail`'s cover photo used a fixed `aspect-ratio: 1/1` driven purely by modal width, so on short-but-wide laptop windows (common with Windows display scaling) the square image alone could exceed the visible viewport height, pushing the name/labels/description below the fold — requiring a scroll just to see them
+- Added `.px-modal--detail` (scoped to the detail modal only — Add/Edit/Label modals untouched) with a `min-width: 601px` override: caps the cover image to `max-height: 44vh` and lets `.px-modal__body` scroll internally instead of the whole modal, so the card's info is visible without scrolling first
+- Mobile (`≤600px`) layout is unchanged
+
+---
+
 ## [1.8.12] — 2026-08-13
 
 **Feat: Random Location Draw ("The Blind Draw") — 3× XP bonus**
