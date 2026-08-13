@@ -21758,6 +21758,7 @@ Nic z té výzdoby přitom nemělo být jen statické. Plán počítal s tím, �
 🎁 彩蛋：2022年，工程师们在为雕像做修复检查时发现，当初为点燃火炬而铺设的内部煤气管道，历经一百多年后依然完好地埋藏在青铜像内部——一套从未被人见过特效的"沉睡"管线系统，纯属常规检查中的意外发现。`,
     },
   },
+<<<<<<< HEAD
   {
     name: 'Vychovatelna (Pulmonology and Thoracic Surgery Clinic)',
     slug: 'vychovatelna',
@@ -21872,6 +21873,8 @@ Při průzkumu se také našly tři samostatné tunely vedoucí ze sklepa — ú
 🎁 彩蛋：旧城区的民间传说可不止于鲁道夫二世——一些当地传说还把这栋房子和罗伊犹太教长（Rabbi Löw）联系在一起，这位16世纪的学者据说曾赋予泥人哥连姆（Golem）生命，传说正是在这间地窖里，那尊泥巨人获得了让它苏醒过来的魔法"shem"字符。历史学家对此只是耸耸肩；导游们自然不会。`,
     },
   },
+=======
+>>>>>>> 4c4e35334ed586b30d781fda1e67ba4af22f440a
 ];
 
 async function run() {
