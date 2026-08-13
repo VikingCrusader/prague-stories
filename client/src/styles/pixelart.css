@@ -389,6 +389,45 @@
 .px-modal__close:hover { border-color: var(--gold); color: var(--gold); }
 .px-modal__body { padding: 20px 24px; }
 
+/* Cover-photo wrapper on the detail modal — a plain square by default
+   (mobile keeps this untouched); see the >600px override below for the
+   viewport-height-aware cap that keeps laptops from having to scroll. */
+.detail-cover {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  display: block;
+}
+
+/* Tablet/laptop/desktop: the detail modal's square cover image scales with
+   modal width alone, so on short-but-wide laptop viewports it can grow
+   taller than the visible window, pushing the name/tags/description below
+   the fold. Cap the cover to a share of viewport height so it shrinks
+   (cropping to a landscape photo) before that happens, and let the body
+   scroll internally instead of the whole modal. Scoped to the detail
+   modal only — Add/Edit/Label modals are untouched. */
+@media (min-width: 601px) {
+  .px-modal--detail {
+    max-width: 560px;
+    max-height: 88vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .px-modal--detail .detail-cover {
+    flex-shrink: 0;
+    max-height: 44vh;
+  }
+  .px-modal--detail > .px-modal__header {
+    flex-shrink: 0;
+  }
+  .px-modal--detail .px-modal__body {
+    flex: 1 1 auto;
+    overflow-y: auto;
+  }
+}
+
 /* ── Level Up Modal ──────────────────────────────────────── */
 .levelup-modal {
   position: relative;

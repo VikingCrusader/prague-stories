@@ -176,7 +176,7 @@ export default function LocationDetail({
       onClick={(e) => e.target === e.currentTarget && onClose()}
     >
       <div
-        className="px-modal"
+        className="px-modal px-modal--detail"
         style={
           loc
             ? { borderColor: RARITY_COLOR[loc.rarity ?? "common"] }
@@ -224,12 +224,8 @@ export default function LocationDetail({
                       title: t("common.googleMaps"),
                     }
                   : {})}
+                className="detail-cover"
                 style={{
-                  position: "relative",
-                  aspectRatio: "1 / 1",
-                  width: "100%",
-                  overflow: "hidden",
-                  display: "block",
                   cursor: loc.unlocked ? "pointer" : undefined,
                 }}
               >
