@@ -196,58 +196,78 @@ export default function RandomDrawPage() {
                     <h2 className="guide-h2" style={{ marginTop: 18 }}>{t('draw.noneLeftTitle')}</h2>
                     <p className="guide-body" style={{ textAlign: 'center', maxWidth: 420 }}>{t('draw.noneLeft')}</p>
                   </>
-                ) : status?.active && status.location ? (
-                  <>
-                    <div className="draw-stage__card">
-                      {status.bonusUsed ? (
-                        <LocationCard
-                          location={{ ...status.location, unlocked: true }}
-                          onClick={() => setSelectedSlug(status.location.slug)}
-                          distance={distance}
-                        />
-                      ) : (
-                        <DrawnCard
-                          loc={status.location}
-                          name={convert(getLocName(status.location, lang))}
-                          lang={lang}
-                          convert={convert}
-                          distance={distance}
-                          onOpen={() => setSelectedSlug(status.location.slug)}
-                        />
-                      )}
-                    </div>
-                    <p className="guide-body" style={{ marginTop: 14, marginBottom: 4 }}>
-                      {t('draw.revealedHintPre')}
-                      <a
-                        href={mapHref}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        title={t('common.googleMaps')}
-                        style={{ textDecoration: 'underline' }}
-                      >
-                        {t('draw.revealedHintLink')}
-                      </a>
-                      {t('draw.revealedHintPost')}
-                    </p>
-                    <div className="draw-countdown">
-                      {t('draw.cooldownLabel')} <span className="draw-countdown__time">{formatCountdown(msLeft)}</span>
-                    </div>
-                  </>
                 ) : (
                   <>
-                    <div className="draw-card draw-card--mystery draw-card--mystery-img">
-                      <img className="draw-card__mystery-img" src="/pixel-art/cardback.webp" alt="???" />
+                    {/* Persistent 3D flip card: both faces stay mounted across
+                        the not-drawn <-> drawn transition, and .flip-card--revealed
+                        toggles the rotateY so the mystery back visually turns into
+                        the actual result instead of the two states swapping
+                        instantly. See .flip-card* in pixelart.css. */}
+                    <div className={`flip-card${status?.active && status.location ? ' flip-card--revealed' : ''}`}>
+                      <div className="flip-card__inner">
+                        <div className="flip-card__face flip-card__face--back">
+                          <div className="draw-card draw-card--mystery draw-card--mystery-img">
+                            <img className="draw-card__mystery-img" src="/pixel-art/cardback.webp" alt="???" />
+                          </div>
+                        </div>
+                        <div className="flip-card__face flip-card__face--front">
+                          {status?.location && (
+                            <div className="draw-stage__card">
+                              {status.bonusUsed ? (
+                                <LocationCard
+                                  location={{ ...status.location, unlocked: true }}
+                                  onClick={() => setSelectedSlug(status.location.slug)}
+                                  distance={distance}
+                                />
+                              ) : (
+                                <DrawnCard
+                                  loc={status.location}
+                                  name={convert(getLocName(status.location, lang))}
+                                  lang={lang}
+                                  convert={convert}
+                                  distance={distance}
+                                  onOpen={() => setSelectedSlug(status.location.slug)}
+                                />
+                              )}
+                            </div>
+                          )}
+                        </div>
+                      </div>
                     </div>
-                    <p className="guide-body" style={{ textAlign: 'center', maxWidth: 420, color: 'var(--text-muted)', fontStyle: 'italic' }}>
-                      {t('draw.mysteryHint')}
-                    </p>
-                    <button
-                      className="px-btn px-btn--gold px-btn--lg"
-                      onClick={handleDraw}
-                      disabled={drawing}
-                    >
-                      {drawing ? t('draw.buttonDrawing') : t('draw.buttonDraw')}
-                    </button>
+
+                    {status?.active && status.location ? (
+                      <>
+                        <p className="guide-body" style={{ marginTop: 14, marginBottom: 4 }}>
+                          {t('draw.revealedHintPre')}
+                          <a
+                            href={mapHref}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            title={t('common.googleMaps')}
+                            style={{ textDecoration: 'underline' }}
+                          >
+                            {t('draw.revealedHintLink')}
+                          </a>
+                          {t('draw.revealedHintPost')}
+                        </p>
+                        <div className="draw-countdown">
+                          {t('draw.cooldownLabel')} <span className="draw-countdown__time">{formatCountdown(msLeft)}</span>
+                        </div>
+                      </>
+                    ) : (
+                      <>
+                        <p className="guide-body" style={{ textAlign: 'center', maxWidth: 420, color: 'var(--text-muted)', fontStyle: 'italic' }}>
+                          {t('draw.mysteryHint')}
+                        </p>
+                        <button
+                          className="px-btn px-btn--gold px-btn--lg"
+                          onClick={handleDraw}
+                          disabled={drawing}
+                        >
+                          {drawing ? t('draw.buttonDrawing') : t('draw.buttonDraw')}
+                        </button>
+                      </>
+                    )}
                   </>
                 )}
               </div>

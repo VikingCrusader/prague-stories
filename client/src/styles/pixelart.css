@@ -1015,6 +1015,36 @@
   color: var(--gold);
 }
 
+/* Draw-reveal 3D flip: a persistent two-sided card (mystery back / actual
+   result front) that stays mounted across the not-drawn <-> drawn
+   transition — RandomDrawPage toggles .flip-card--revealed once the draw
+   API resolves, and the rotateY transition below does the rest. Both faces
+   share the same box (644:912, see .draw-stage__card .loc-card above) so
+   neither face jumps in size mid-flip. CSS transitions only play on a
+   value that actually changes on an already-mounted element, so loading
+   the page with a draw already active renders pre-flipped with no spurious
+   animation on mount — no extra JS bookkeeping needed for that case. */
+.flip-card {
+  width: 230px;
+  aspect-ratio: 644 / 912;
+  perspective: 1400px;
+}
+.flip-card__inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+  transform-style: preserve-3d;
+}
+.flip-card--revealed .flip-card__inner { transform: rotateY(180deg); }
+.flip-card__face {
+  position: absolute;
+  inset: 0;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+.flip-card__face--front { transform: rotateY(180deg); }
+
 /* ── Responsive ───────────────────────────────────────────── */
 @media (max-width: 900px) {
   .map-page { flex-direction: column; }
