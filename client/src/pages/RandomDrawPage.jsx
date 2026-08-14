@@ -171,9 +171,8 @@ export default function RandomDrawPage() {
 
         {guest && !user ? (
           <div className="draw-stage">
-            <div className="draw-card draw-card--mystery">
-              <div className="draw-card__mystery-mark">❓</div>
-              <div className="draw-card__mystery-label">？？？</div>
+            <div className="draw-card draw-card--mystery draw-card--mystery-img">
+              <img className="draw-card__mystery-img" src="/pixel-art/cardback.webp" alt="???" />
             </div>
             <h2 className="guide-h2" style={{ marginTop: 18 }}>{t('draw.loginTitle')}</h2>
             <p className="guide-body" style={{ textAlign: 'center', maxWidth: 420 }}>{t('draw.loginBody')}</p>
@@ -236,9 +235,8 @@ export default function RandomDrawPage() {
                   </>
                 ) : (
                   <>
-                    <div className="draw-card draw-card--mystery">
-                      <div className="draw-card__mystery-mark">❓</div>
-                      <div className="draw-card__mystery-label">？？？</div>
+                    <div className="draw-card draw-card--mystery draw-card--mystery-img">
+                      <img className="draw-card__mystery-img" src="/pixel-art/cardback.webp" alt="???" />
                     </div>
                     <p className="guide-body" style={{ textAlign: 'center', maxWidth: 420, color: 'var(--text-muted)', fontStyle: 'italic' }}>
                       {t('draw.mysteryHint')}

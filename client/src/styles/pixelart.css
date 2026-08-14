@@ -921,7 +921,9 @@
   padding: 20px 0 30px;
 }
 .draw-card {
-  width: 220px;
+  /* Matches .draw-stage__card's width so the mystery card-back is the same
+     width as the revealed loc-card it flips into (see RandomDrawPage). */
+  width: 230px;
   background: var(--bg-card);
   box-shadow: 5px 5px 0 #000;
   overflow: hidden;
@@ -951,10 +953,39 @@
   letter-spacing: 3px;
   color: #555;
 }
+/* Card-back artwork (pixel-art/cardback.webp) replaces the emoji + "？？？"
+   placeholder for the two actual face-down states (guest preview, not yet
+   drawn) — its own illustrated border makes the dashed border/stripe
+   background redundant, so this modifier strips them back to a plain frame.
+   The "all collected" trophy state keeps the original emoji treatment. */
+.draw-card--mystery-img {
+  border: none;
+  background: none;
+  padding: 0;
+  min-height: 0;
+}
+.draw-card__mystery-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 /* Revealed draw result reuses LocationCard once collected, or the custom
    DrawnCard shell beforehand (see RandomDrawPage) — this pins either to the
    same width as a grid card. */
 .draw-stage__card { width: 230px; }
+/* .loc-card__banner elsewhere (Explore grid, map sidebar) deliberately lets
+   each cover photo's own aspect ratio drive the card's height — see
+   CLAUDE.md. Scoped to the draw page only: pin the revealed .loc-card's
+   total box to the exact same ratio as pixel-art/cardback.webp (644:912,
+   see .draw-card--mystery-img) so the card body itself is pixel-identical
+   in size to the mystery card-back it replaces — update this ratio if
+   cardback.webp's dimensions ever change. .loc-card__body keeps its natural
+   (content-driven) height and the banner/cover-photo absorbs whatever's
+   left, cropped via the existing object-fit: cover, instead of the body and
+   banner competing for space as they do by default. */
+.draw-stage__card .loc-card { aspect-ratio: 644 / 912; }
+.draw-stage__card .loc-card__banner { flex: 1 1 auto; min-height: 0; }
+.draw-stage__card .loc-card__body { flex: 0 0 auto; }
 .draw-card__meta-row {
   width: 230px;
   display: flex;
