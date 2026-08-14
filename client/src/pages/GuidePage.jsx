@@ -65,7 +65,6 @@ const CONTENT = {
       "If yes: XP lands, achievements may trigger, modal closes itself in 2.5 s with the quiet dignity of a job well done.",
       "If no: you receive an error and the strong implication that you are not where you said you were.",
     ],
-    undoNote: "Changed your mind? The Uncollect button removes the check-in. The moral implications are yours to sit with.",
     xpTitle: "XP & Levels",
     xpIntro: "Each location pays XP based on its rarity — a card-style tier that tells you how rare a find it actually is:",
     diff: [
@@ -157,7 +156,6 @@ const CONTENT = {
       "Pokud ano: XP přibývá, mohou se odemknout úspěchy, okno se samo zavře za 2,5 s s důstojností dobře odvedené práce.",
       "Pokud ne: dostaneš chybu a silný náznak, že nejsi tam, kde říkáš.",
     ],
-    undoNote: "Změnil jsi názor? Tlačítko Odebrat odstraní check-in. Morální důsledky jsou tvoje.",
     xpTitle: "XP a úrovně",
     xpIntro: "Každé místo vyplácí XP podle své vzácnosti — systém karet, který přesně říká, jak vzácný je daný nález:",
     diff: [
@@ -249,7 +247,6 @@ const CONTENT = {
       "如果是：经验值到账，成就可能触发，弹窗在2.5秒后以完成任务的尊严自动关闭。",
       "如果不是：你会收到错误提示，以及你不在你所说位置的强烈暗示。",
     ],
-    undoNote: "改变主意了？取消收藏按钮可以撤销打卡。道德责任由你承担。",
     xpTitle: "经验值与等级",
     xpIntro: "每个地点根据其稀有度获得经验值——类似炉石传说的卡牌系统，直接告诉你这个地点有多稀有：",
     diff: [
@@ -388,7 +385,6 @@ export default function GuidePage() {
               <p className="guide-body">{step}</p>
             </div>
           ))}
-          <p className="guide-body" style={{ marginTop: 10 }}>{c.undoNote}</p>
         </section>
 
         <hr className="px-divider" />

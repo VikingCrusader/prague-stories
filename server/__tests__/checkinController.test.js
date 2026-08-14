@@ -2,7 +2,6 @@ import request from 'supertest';
 import app from '../src/app.js';
 import Location from '../src/models/Location.js';
 import CheckIn from '../src/models/CheckIn.js';
-import User from '../src/models/User.js';
 import { connectTestDB, closeTestDB, clearTestDB } from './testUtils/db.js';
 import { createAuthedUser } from './testUtils/auth.js';
 
@@ -152,51 +151,3 @@ describe('GET /api/checkins', () => {
   });
 });
 
-describe('DELETE /api/checkins/:slug', () => {
-  test('401s without auth', async () => {
-    await createLocation();
-    const res = await request(app).delete('/api/checkins/charles-bridge');
-    expect(res.status).toBe(401);
-  });
-
-  test('404s when there is no existing check-in', async () => {
-    await createLocation();
-    const { token } = await createAuthedUser();
-    const res = await request(app).delete('/api/checkins/charles-bridge').set('Authorization', `Bearer ${token}`);
-    expect(res.status).toBe(404);
-  });
-
-  test('removes the check-in and refunds XP', async () => {
-    const original = process.env.NODE_ENV;
-    process.env.NODE_ENV = 'development';
-    await createLocation();
-    const { token, user } = await createAuthedUser();
-    await request(app).post('/api/checkins/charles-bridge').set('Authorization', `Bearer ${token}`).send({});
-
-    const res = await request(app).delete('/api/checkins/charles-bridge').set('Authorization', `Bearer ${token}`);
-
-    expect(res.status).toBe(200);
-    expect(res.body.totalXP).toBe(0);
-    expect(res.body.levelInfo.level).toBe(1);
-
-    const remaining = await CheckIn.find({ user: user._id });
-    expect(remaining).toHaveLength(0);
-    process.env.NODE_ENV = original;
-  });
-
-  test('never lets XP go negative', async () => {
-    const original = process.env.NODE_ENV;
-    process.env.NODE_ENV = 'development';
-    await createLocation();
-    const { token, user } = await createAuthedUser();
-    await request(app).post('/api/checkins/charles-bridge').set('Authorization', `Bearer ${token}`).send({});
-
-    // Manually drop the user's XP below the location's reward, then undo.
-    await User.updateOne({ _id: user._id }, { $set: { totalXP: 20 } });
-
-    const res = await request(app).delete('/api/checkins/charles-bridge').set('Authorization', `Bearer ${token}`);
-
-    expect(res.body.totalXP).toBe(0);
-    process.env.NODE_ENV = original;
-  });
-});

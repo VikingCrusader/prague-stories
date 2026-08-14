@@ -122,28 +122,6 @@ test.describe('Level-up celebration — Explore page', () => {
     await expect(page.locator('.levelup-modal')).toHaveCount(0);
     expect(await vibrateCalls(page)).not.toContainEqual([90, 50, 90, 50, 90, 50, 260]);
   });
-
-  test('undoing a check-in never shows the level-up modal, even though the server returns levelInfo', async ({ page }) => {
-    await loginAsUser(page);
-    await spyOnVibrate(page);
-    const unlocked = { ...LOCKED_LOCATION, unlocked: true, checkedInAt: '2026-01-01T00:00:00.000Z' };
-    await page.route('**/api/locations', route => route.fulfill({ json: [unlocked] }));
-    await page.route('**/api/locations/charles-bridge', route =>
-      route.fulfill({ json: { ...unlocked, description: { en: 'A historic stone bridge.', cz: '', zh: '' } } })
-    );
-    await page.route('**/api/checkins/charles-bridge', route =>
-      route.fulfill({
-        json: { message: 'Check-in removed', totalXP: 0, levelInfo: { level: 1, title: 'Newcomer', progress: 0, nextLevelXP: 80 } },
-      })
-    );
-
-    await page.goto('/explore');
-    await page.locator('.loc-card', { hasText: 'Charles Bridge' }).click();
-    await page.locator('.px-modal').getByRole('button', { name: '✕ Uncollect' }).click();
-
-    await expect(page.locator('.px-modal')).not.toBeVisible();
-    await expect(page.locator('.levelup-modal')).toHaveCount(0);
-  });
 });
 
 test.describe('Level-up celebration — Map sidebar', () => {

@@ -66,12 +66,6 @@ export default function ExplorePage() {
     );
   };
 
-  const handleUndo = (slug) => {
-    setLocations(prev => prev.map(l => l.slug === slug ? { ...l, unlocked: false } : l));
-    addToast('Visit removed', 'info');
-    setSelectedSlug(null);
-  };
-
   const handleLocationAdded = (newLoc) => {
     setLocations(prev => [...prev, { ...newLoc, unlocked: false }]);
     setShowAdd(false);
@@ -121,7 +115,6 @@ export default function ExplorePage() {
           slug={selectedSlug}
           onClose={() => { setSelectedSlug(null); setAutoCheckIn(false); }}
           onCheckIn={handleCheckIn}
-          onUndo={handleUndo}
           onUpdate={handleUpdate}
           autoCheckIn={autoCheckIn}
         />

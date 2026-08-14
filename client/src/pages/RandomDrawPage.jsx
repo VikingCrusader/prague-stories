@@ -225,10 +225,6 @@ export default function RandomDrawPage() {
     fetchStatus();
   };
 
-  const handleUndo = () => {
-    fetchStatus();
-  };
-
   const rules = [t('draw.rule1'), t('draw.rule2'), t('draw.rule3'), t('draw.rule4')];
 
   return (
@@ -364,7 +360,6 @@ export default function RandomDrawPage() {
           slug={selectedSlug}
           onClose={() => { setSelectedSlug(null); fetchStatus(); }}
           onCheckIn={handleCheckIn}
-          onUndo={handleUndo}
         />
       )}
     </div>

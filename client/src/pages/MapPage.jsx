@@ -122,11 +122,6 @@ export default function MapPage() {
     }
   };
 
-  const handleUndo = (slug) => {
-    setLocations(prev => prev.map(l => l.slug === slug ? { ...l, unlocked: false, _checkedInAt: null } : l));
-    addToast('Visit removed', 'info');
-  };
-
   if (loading) return (
     <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <div className="spinner" />
@@ -237,7 +232,6 @@ export default function MapPage() {
             <SidebarDetail
               slug={selectedSlug}
               onCheckIn={handleCheckIn}
-              onUndo={handleUndo}
               onViewDetail={(slug) => navigate('/explore', { state: { openSlug: slug } })}
             />
           </div>
@@ -270,7 +264,7 @@ function MapSidebarEmpty() {
   );
 }
 
-function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
+function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
   const { lang } = useLang();
   const t = useT();
   const convert = useConvert();
@@ -335,16 +329,6 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
       onCheckIn(slug, res.data);
     } catch (err) {
       setCheckInError(err.response?.data?.message || err.message || 'Check-in failed');
-    } finally { setActionLoading(false); }
-  };
-
-  const doUndo = async () => {
-    setActionLoading(true);
-    try {
-      const res = await checkinAPI.undo(slug);
-      setLoc(prev => ({ ...prev, unlocked: false, checkedInAt: null }));
-      applyProgress(res.data.levelInfo, res.data.totalXP);
-      onUndo(slug, res.data);
     } finally { setActionLoading(false); }
   };
 
@@ -491,11 +475,7 @@ function SidebarDetail({ slug, onCheckIn, onUndo, onViewDetail }) {
               <button className="px-btn px-btn--gold" onClick={() => navigate('/login')}>
                 {t('auth.loginToCollect')}
               </button>
-            ) : loc.unlocked ? (
-              <button className="px-btn px-btn--danger px-btn--sm" onClick={doUndo} disabled={actionLoading}>
-                {actionLoading ? '...' : t('common.undo')}
-              </button>
-            ) : (
+            ) : loc.unlocked ? null : (
               <button className="px-btn px-btn--gold" onClick={doCheckIn} disabled={actionLoading}>
                 {actionLoading ? '...' : `${t('common.checkIn')} (+${loc.xpReward} XP)`}
               </button>

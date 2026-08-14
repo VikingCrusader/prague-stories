@@ -115,26 +115,3 @@ export async function checkIn(req, res, next) {
   }
 }
 
-export async function undoCheckIn(req, res, next) {
-  try {
-    const location = await Location.findOne({ slug: req.params.slug });
-    if (!location) return res.status(404).json({ message: 'Location not found' });
-
-    const deleted = await CheckIn.findOneAndDelete({ user: req.user._id, location: location._id });
-    if (!deleted) return res.status(404).json({ message: 'Check-in not found' });
-
-    // Subtract XP — use the amount actually awarded (may have been tripled
-    // by a random-draw bonus); legacy check-ins predate xpEarned, fall back
-    // to the location's current base reward.
-    const user = await User.findById(req.user._id);
-    const xpToRemove = deleted.xpEarned ?? location.xpReward;
-    user.totalXP = Math.max(0, user.totalXP - xpToRemove);
-    const levelInfo = calculateLevel(user.totalXP);
-    user.explorerLevel = levelInfo.level;
-    await user.save();
-
-    res.json({ message: 'Check-in removed', totalXP: user.totalXP, levelInfo });
-  } catch (err) {
-    next(err);
-  }
-}

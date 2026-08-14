@@ -93,28 +93,4 @@ test.describe('Check-in flow', () => {
     await expect(page.getByText('+100 XP earned! Apprentice Explorer')).toBeVisible();
     await expect(page.getByText('Achievement unlocked: first checkin')).toBeVisible();
   });
-
-  test('undoing a check-in relocks the card and shows a confirmation toast', async ({ page }) => {
-    await loginAsUser(page);
-    const unlocked = { ...LOCKED_LOCATION, unlocked: true, checkedInAt: '2026-01-01T00:00:00.000Z' };
-    await page.route('**/api/locations', route => route.fulfill({ json: [unlocked] }));
-    await page.route('**/api/locations/charles-bridge', route =>
-      route.fulfill({
-        json: { ...unlocked, description: { en: 'A historic stone bridge.', cz: '', zh: '' } },
-      })
-    );
-    await page.route('**/api/checkins/charles-bridge', route =>
-      route.fulfill({
-        json: { message: 'Check-in removed', totalXP: 40, levelInfo: { level: 1, title: 'Newcomer', progress: 40, nextLevelXP: 100 } },
-      })
-    );
-
-    await page.goto('/explore');
-    await page.locator('.loc-card', { hasText: 'Charles Bridge' }).click();
-    await page.locator('.px-modal').getByRole('button', { name: '✕ Uncollect' }).click();
-
-    await expect(page.getByText('Visit removed')).toBeVisible();
-    await expect(page.locator('.px-modal')).not.toBeVisible();
-    await expect(page.locator('.loc-card--locked')).toHaveCount(1);
-  });
 });

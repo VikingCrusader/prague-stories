@@ -29,7 +29,7 @@ export function AuthProvider({ children }) {
     setUser(prev => (prev ? { ...prev, ...patch } : prev));
   };
 
-  // Apply the levelInfo/totalXP returned by a check-in (or undo). If it pushes
+  // Apply the levelInfo/totalXP returned by a check-in. If it pushes
   // the user past their previously-known level, queue a level-up celebration
   // for <LevelUpModal> to pick up.
   const applyProgress = (levelInfo, totalXP) => {

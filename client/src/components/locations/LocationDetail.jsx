@@ -27,7 +27,6 @@ export default function LocationDetail({
   slug,
   onClose,
   onCheckIn,
-  onUndo,
   onUpdate,
   autoCheckIn,
 }) {
@@ -101,21 +100,6 @@ export default function LocationDetail({
       setClosing(true); // start 2.5s close timer
     } catch (err) {
       setError(err.response?.data?.message || err.message || "Check-in failed");
-    } finally {
-      setActionLoading(false);
-    }
-  };
-
-  const handleUndo = async () => {
-    setActionLoading(true);
-    setError("");
-    try {
-      const res = await checkinAPI.undo(slug);
-      setLoc((prev) => ({ ...prev, unlocked: false, checkedInAt: null }));
-      applyProgress(res.data.levelInfo, res.data.totalXP);
-      onUndo(slug, res.data);
-    } catch (err) {
-      setError(err.response?.data?.message || "Failed to undo");
     } finally {
       setActionLoading(false);
     }
@@ -683,15 +667,7 @@ export default function LocationDetail({
                         </p>
                       ))}
                     </div>
-                  ) : loc.unlocked ? (
-                    <button
-                      className="px-btn px-btn--danger px-btn--sm"
-                      onClick={handleUndo}
-                      disabled={actionLoading}
-                    >
-                      {actionLoading ? "..." : t("common.undoVisit")}
-                    </button>
-                  ) : (
+                  ) : loc.unlocked ? null : (
                     <button
                       className="px-btn px-btn--gold"
                       onClick={handleCheckIn}

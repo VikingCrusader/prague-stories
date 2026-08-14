@@ -44,7 +44,7 @@ Express app with ES modules (`"type": "module"`). Entry point is `index.js` — 
 
 - `/api/auth` — register, login, `GET /me`
 - `/api/locations` — CRUD + cover upload; GET routes use `optionalAuth` (populates `req.user` when a JWT is present but doesn't block unauthenticated requests); write routes use `protect`
-- `/api/checkins` — check-in, undo, history
+- `/api/checkins` — check-in, history (no undo — check-ins are permanent once made)
 - `/api/user` — XP progress, achievements
 
 **Key patterns:**
