@@ -21758,7 +21758,6 @@ Nic z té výzdoby přitom nemělo být jen statické. Plán počítal s tím, �
 🎁 彩蛋：2022年，工程师们在为雕像做修复检查时发现，当初为点燃火炬而铺设的内部煤气管道，历经一百多年后依然完好地埋藏在青铜像内部——一套从未被人见过特效的"沉睡"管线系统，纯属常规检查中的意外发现。`,
     },
   },
-<<<<<<< HEAD
   {
     name: 'Vychovatelna (Pulmonology and Thoracic Surgery Clinic)',
     slug: 'vychovatelna',
@@ -21873,8 +21872,85 @@ Při průzkumu se také našly tři samostatné tunely vedoucí ze sklepa — ú
 🎁 彩蛋：旧城区的民间传说可不止于鲁道夫二世——一些当地传说还把这栋房子和罗伊犹太教长（Rabbi Löw）联系在一起，这位16世纪的学者据说曾赋予泥人哥连姆（Golem）生命，传说正是在这间地窖里，那尊泥巨人获得了让它苏醒过来的魔法"shem"字符。历史学家对此只是耸耸肩；导游们自然不会。`,
     },
   },
-=======
->>>>>>> 4c4e35334ed586b30d781fda1e67ba4af22f440a
+
+  // ── Ztracenka / Průhonice batch (2026-08) ────────────────────────────────
+  {
+    name: 'Monument to the Victims of Two Totalitarian Regimes',
+    slug: 'pomnik-obetem-dvou-totalitnich-rezimu',
+    localizedNames: {
+      cz: 'Pomník obětem dvou totalitních režimů',
+      zh: '两个极权政权受难者纪念碑',
+    },
+    labels: ['monument', 'historical', 'park'],
+    coordinates: { lat: 50.06798712139561, lng: 14.426403608435832 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Brave adventurer, welcome to the Monument to the Victims of Two Totalitarian Regimes — two rough, unworked blocks of dark stone gripping a single white marble pebble, set into a quiet garden on the Albertov slope, raised for everyone crushed between Nazi and Communist rule in Czechoslovakia, and above all for one woman: JUDr. Milada Horáková.
+
+Unveiled on 1 October 2018, the monument was the winning entry in a public competition — fifteen proposals submitted, one chosen — from sculptor Ladislav Sorokáč and architect Ondřej Tuček, commissioned by the Klub dr. Milady Horákové with support from the City of Prague. Carving and assembling the stone took roughly nine months in total, three of them spent on the stonework alone: two rough-hewn, unworked boulders closing around a single polished white marble pebble, an allegory, in Sorokáč's own words, of "the battle between good and evil" — the raw menace of the dark stone against the trapped purity of the white one. Cut into the surface is a simple dedication: "K uctění památky obětí dvou totalitních režimů, jejichž symbolem je komunisty popravená JUDr. Milada Horáková" — in honour of the victims of two totalitarian regimes, symbolised by JUDr. Milada Horáková, executed by the communists.
+
+Horáková, a lawyer and politician, spent years in Nazi prisons and camps only to be arrested again in 1949, tried in a show trial staged for the regime's own propaganda, and hanged on 27 June 1950 — the only woman executed among Czechoslovakia's political prisoners of that era, and still the country's best-known symbol of resistance to both occupations. Her remains were never returned to her family; only a symbolic grave marks her memory at Ďáblice Cemetery. Ztracenka was chosen for exactly that reason — as club member Jana Titzlová put it at the unveiling, Horáková was herself a kind of "lost one," never recovered, never forgotten. The garden also sits close to places from her own life nearby in Vinohrady and Nové Město — she was baptised at the Church of St Ludmila, married on Korunní street, and later held at the women's prison inside the New Town Hall.
+
+🎁 Bonus: The park's own name gave the memorial its meaning almost by accident — Ztracenka means "the lost one" in Czech, a name the garden already carried long before anyone thought to place a monument inside it to a woman whose body was never found.`,
+
+      cz: `Statečný dobrodruhu, vítej u Pomníku obětem dvou totalitních režimů — dvou syrových, neopracovaných kamenných kvádrů, které svírají jediný bílý mramorový oblázek, umístěných v tichém parku na albertovském svahu, věnovaných všem rozdrceným mezi nacistickou a komunistickou vládou v Československu, a především jedné ženě: JUDr. Miladě Horákové.
+
+Pomník byl odhalen 1. října 2018 jako vítězný návrh veřejné soutěže — z patnácti přihlášených prací vybrali jednu — od sochaře Ladislava Sorokáče a architekta Ondřeje Tučka, zadaný Klubem dr. Milady Horákové s podporou hlavního města Prahy. Vytesání a sestavení kamene trvalo zhruba devět měsíců, z toho tři měsíce jen samotné práci s kamenem: dva hrubě opracované, neupravené balvany se zavírají kolem jediného vyleštěného bílého mramorového oblázku — alegorie, jak řekl sám Sorokáč, "boje dobra se zlem", syrové hrozby tmavého kamene proti uvězněné čistotě toho bílého. Do povrchu je vytesáno prosté věnování: "K uctění památky obětí dvou totalitních režimů, jejichž symbolem je komunisty popravená JUDr. Milada Horáková."
+
+Horáková, právnička a politička, přežila roky v nacistických věznicích a táborech, jen aby byla v roce 1949 znovu zatčena, souzena ve zinscenovaném procesu sloužícím režimní propagandě a 27. června 1950 popravena oběšením — jediná žena popravená mezi politickými vězni tehdejšího Československa a dodnes nejznámější symbol odporu proti oběma okupacím. Její tělo nebylo rodině nikdy vydáno; její památku dnes připomíná jen symbolický hrob na Ďáblickém hřbitově. Ztracenka byla vybrána přesně z tohoto důvodu — jak při odhalení řekla členka klubu Jana Titzlová, Horáková byla sama tak trochu "ztracenou", nikdy nenalezenou, ale nikdy nezapomenutou. Zahrada navíc leží nedaleko míst spjatých s jejím vlastním životem na Vinohradech a Novém Městě — byla pokřtěna v kostele svaté Ludmily, oddána na Korunní ulici a později vězněna v ženské věznici v Novoměstské radnici.
+
+🎁 Bonus: Jméno parku dalo památníku jeho smysl téměř náhodou — Ztracenka znamená doslova "ta ztracená" a zahrada toto jméno nosila dávno předtím, než někoho napadlo do ní umístit pomník ženě, jejíž tělo nebylo nikdy nalezeno.`,
+
+      zh: `勇敢的冒险家，欢迎来到"两个极权政权受难者纪念碑"——两块粗糙未经打磨的深色石块，紧紧夹住一颗洁白的大理石卵石，静静立在阿尔贝托夫山坡（Albertov）上的一座宁静花园里，纪念所有在捷克斯洛伐克纳粹与共产主义统治下被碾碎的人，尤其是纪念一位女性：米拉达·霍拉科娃博士（JUDr. Milada Horáková）。
+
+这座纪念碑于2018年10月1日揭幕，是一场公开竞赛的获胜作品——在十五件参赛方案中脱颖而出——由雕塑家拉迪斯拉夫·索罗卡奇（Ladislav Sorokáč）与建筑师翁德热伊·图切克（Ondřej Tuček）设计，由米拉达·霍拉科娃俱乐部（Klub dr. Milady Horákové）委托、并获布拉格市政府支持建造。雕刻与组装石料前后耗时约九个月，其中三个月专门用于石材本身的雕琢：两块粗粝、未经修饰的巨石合拢，夹住中间一颗打磨光滑的白色大理石卵石——用索罗卡奇本人的话说，这是"善与恶之战"的寓言：深色巨石粗野的威胁，对峙着被困其中的白色纯洁。碑面刻着一段简短的献词："谨此纪念两个极权政权的受难者，其象征是被共产党处决的米拉达·霍拉科娃博士。"
+
+霍拉科娃是一名律师与政治家，曾在纳粹监狱与集中营中度过数年，却在1949年再次被捕，并在一场专为政权宣传而设计的公审中受审，于1950年6月27日被绞刑处决——她是那个时代捷克斯洛伐克政治犯中唯一被处决的女性，至今仍是抵抗纳粹与共产两个占领政权最广为人知的象征。她的遗体从未归还家人；如今只有一座象征性的坟墓，立在佳布利采公墓（Ďáblice）纪念她。"茨特拉曾卡"（Ztracenka）之所以被选为纪念碑所在地，正是出于这个原因——正如俱乐部成员雅娜·蒂茨洛娃（Jana Titzlová）在揭幕式上所说，霍拉科娃本人就像是某种意义上"迷失的人"，遗体从未被寻回，却从未被遗忘。这座花园本身也毗邻她生命轨迹所及之处，就在维诺赫拉迪（Vinohrady）与新城区（Nové Město）附近——她曾在圣卢德米拉教堂（Church of St Ludmila）受洗，在科伦尼街（Korunní）完婚，后来又被关押在新城市政厅（New Town Hall）内的女子监狱中。
+
+🎁 彩蛋：这座花园的名字，几乎是无意间赋予了纪念碑其全部意涵——"Ztracenka"在捷克语里字面意思就是"迷失的女子"，而早在任何人想到要在这里为一位遗体从未被找到的女性立碑之前，这座花园就早已叫着这个名字了。`,
+    },
+  },
+
+  {
+    name: 'Stones — Stonehenge of Průhonice',
+    slug: 'kameny-pruhonicky-stonehenge',
+    localizedNames: {
+      cz: 'Kameny (Průhonický Stonehenge)',
+      zh: '石头（普鲁霍尼采巨石阵）',
+    },
+    labels: ['nature', 'park', 'hidden-gem'],
+    coordinates: { lat: 50.01219310276365, lng: 14.557900553957666 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to Kameny, Prague's own miniature Stonehenge — a modest ring of stones tucked into the greenery near Průhonice that borrows England's most famous prehistoric silhouette without any of the four thousand years of actual history, or, as far as anyone can tell, much history at all.
+
+Unlike its Wiltshire namesake, nobody quite agrees on who arranged these stones or when — even local tourism guides shrug at the question, treating it as one of the area's more low-key curiosities rather than a documented monument. What's certain is the shape: several larger and smaller stones set into a rough circle a few metres across, standing free and unticketed on the northern fringe of the grounds that made Průhonice famous — the sprawling, UNESCO-listed English-style landscape park that Count Arnošt Emanuel Silva-Tarouca began laying out in 1885, a short walk from the walled and ticketed Dendrological Garden itself.
+
+With no ancient astronomy to its name, the circle has settled into the informal role its English inspiration is best known for today: locals use it as a meeting point, a spot for quiet meditation, and — most fittingly — a gathering place for marking the summer solstice, greeting the turn of the season with a nod to the same stones-and-sky tradition Stonehenge is famous for, four thousand years and one very large sea removed from the original.
+
+🎁 Bonus: Prague already has a far more famous, far better-documented stone circle across town in the Troja Botanical Garden — complete with a named sculptor, a bronze cosmogram, and claimed healing powers — which makes this humble Průhonice version the rare monument that's actually more interesting for how little anyone has bothered to write about it.`,
+
+      cz: `Vítej u Kamenů, pražské miniaturní obdoby Stonehenge — skromného kruhu kamenů schovaného v zeleni poblíž Průhonic, který si vypůjčuje siluetu nejslavnější prehistorické památky Anglie, ovšem bez čtyř tisíc let skutečné historie, a jak se zdá, vůbec bez nějaké pořádné historie.
+
+Na rozdíl od svého vzoru z anglického Wiltshiru se nikdo pořádně neshodne na tom, kdo tyhle kameny uspořádal a kdy — i místní turistické průvodce nad touto otázkou jen krčí rameny a berou to spíš jako jednu z nenápadnějších kuriozit okolí než jako zdokumentovanou památku. Jisté je jen to, jak to vypadá: několik větších i menších kamenů uspořádaných do nepravidelného kruhu o průměru pár metrů, volně přístupného a bez vstupného, na severním okraji pozemků, díky nimž se Průhonice proslavily — rozlehlého, na seznamu UNESCO zapsaného anglického krajinářského parku, který hrabě Arnošt Emanuel Silva-Tarouca začal budovat v roce 1885, kousek od zdí a placené brány samotné Dendrologické zahrady.
+
+Bez jakékoli starověké astronomie na kontě si kruh nakonec osvojil neformální roli, kterou je jeho anglický vzor dnes proslulý především: místní ho využívají jako místo setkávání, prostor pro tiché zamyšlení a — nejpříhodněji — místo oslav letního slunovratu, kdy vítají obrat ročního období s poklonou téže tradici kamenů a oblohy, kterou je Stonehenge slavný, čtyři tisíce let a jedno pořádně velké moře od originálu.
+
+🎁 Bonus: Praha má na druhém konci města mnohem slavnější a mnohem lépe zdokumentovaný kamenný kruh v Botanické zahradě v Troji — se jmenovitým sochařem, bronzovým kosmogramem i tvrzenými léčivými účinky — díky čemuž je tahle skromná průhonická verze tou vzácnou památkou, která je vlastně zajímavější právě tím, jak málo o ní kdo kdy napsal.`,
+
+      zh: `欢迎来到"石头"（Kameny），布拉格自己的一座迷你版巨石阵——一圈朴素的石头，藏在普鲁霍尼采（Průhonice）附近的一片绿地里，借来了英格兰最著名史前遗迹的轮廓，却完全没有那四千年的真实历史——事实上，似乎连一点像样的历史都没有。
+
+与它在英格兰威尔特郡（Wiltshire）的原型不同，这里没人能说清究竟是谁在什么时候摆出了这些石头——就连本地旅游指南提到这个问题时也只是耸耸肩，把它当作当地众多低调小趣闻中的一个，而非一处有据可查的古迹。唯一确定的是它的样子：几块大小不一的石头，围成一个直径几米的不规则圆圈，免费开放、无需购票，坐落在让普鲁霍尼采声名远扬的那片庄园的北侧边缘——那座列入联合国教科文组织世界遗产名录的英式风景园林，由阿诺什特·埃马努埃尔·西尔瓦·塔鲁卡伯爵（Arnošt Emanuel Silva-Tarouca）始建于1885年，距离那座筑有围墙、需购票入内的植物园本部不过咫尺之遥。
+
+由于没有任何古老的天文学渊源，这个石圈渐渐承担起它英格兰原型如今最广为人知的那份角色：当地人把它当作聚会地点、静思冥想的场所，以及——最应景的——庆祝夏至的聚集地，用同一套"石头与天空"的传统，向季节的转换致意，与巨石阵本尊相隔着四千年光阴和一片相当辽阔的海洋。
+
+🎁 彩蛋：布拉格城的另一端早已有一座名气更响、记载也详尽得多的石圈——位于特罗亚植物园（Troja Botanical Garden）内，有名有姓的雕塑家、青铜宇宙图腾，甚至还号称具有疗愈功效——相比之下，这座朴素的普鲁霍尼采版本反倒成了少见的一种古迹：它的有趣之处，恰恰在于几乎没人认真写过它。`,
+    },
+  },
 ];
 
 async function run() {
