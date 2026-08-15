@@ -21,6 +21,7 @@ export const historyEvents = [
     era: "legends-origins",
     startYear: -500,
     year: "Prehistory – 6th century AD",
+    image: "/history/prehistory.webp",
     tone: "humorous",
     title: {
       en: "Before the Legend",

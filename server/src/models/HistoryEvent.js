@@ -22,6 +22,11 @@ const historyEventSchema = new mongoose.Schema({
   summary:   { type: localizedTextSchema, default: () => ({}) },
   relatedLandmarks: [relatedLandmarkSchema],
   wikipediaUrl: { type: String, default: '' },
+  // Optional static illustration for the section banner — a path under
+  // client/public (e.g. '/history/prehistory.webp'), same convention as
+  // pixel-art cover images. Most events won't have one; the frontend just
+  // skips the banner when it's empty.
+  image: { type: String, default: '' },
 }, { timestamps: true });
 
 historyEventSchema.index({ era: 1, startYear: 1 });

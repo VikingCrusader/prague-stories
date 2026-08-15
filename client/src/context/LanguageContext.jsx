@@ -169,7 +169,6 @@ const T = {
     'history.dragHint': 'Browse the eras on the left to travel through time',
     'history.comingSoon': 'This era is still being written. Check back soon.',
     'history.relatedLandmarksLabel': 'See it for yourself',
-    'history.pickEventHint': 'Pick an event on the left to read its story.',
   },
   //czech
   cz: {
@@ -324,7 +323,6 @@ const T = {
     'history.dragHint': 'Procházejte éry vlevo a cestujte časem',
     'history.comingSoon': 'Tahle éra se ještě píše. Zkuste to znovu brzy.',
     'history.relatedLandmarksLabel': 'Podívejte se tam sami',
-    'history.pickEventHint': 'Vyberte vlevo nějakou událost a přečtěte si její příběh.',
   },
   //chinese
   zh: {
@@ -479,7 +477,6 @@ const T = {
     'history.dragHint': '在左侧浏览各个时代，穿越布拉格历史',
     'history.comingSoon': '这个时代还在编写中，敬请期待。',
     'history.relatedLandmarksLabel': '亲自去看看',
-    'history.pickEventHint': '从左侧选择一个事件，阅读它的故事。',
   },
   //german
   de: {

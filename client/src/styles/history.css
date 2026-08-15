@@ -1,12 +1,28 @@
 /* ── History Timeline ──────────────────────────────────────────────────
-   Sidebar layout: a vertical, always-visible event list (grouped by era)
-   on the left; the selected event's full story renders in a detail pane
-   on the right. Era 1 (Legends & Origins) is the only era with real
-   content — the other five still list in the sidebar as muted, unclickable
-   headings so the full six-era roster is visible. See
-   server/src/data/historyEras.js for the era roster this reads from. */
+   A normal scrollable page: every event's full write-up stacks vertically
+   in `.history-feed`, grouped in the same era order the sidebar uses. The
+   sidebar itself is a persistent, sticky nav (not an independently
+   scrolling panel) — clicking an entry smooth-scrolls the feed to that
+   section, and scroll-spy (see HistoryPage's IntersectionObserver) keeps
+   the sidebar's highlight in sync while the user scrolls freely, the same
+   way a docs page's table-of-contents works. Era 1 (Legends & Origins) is
+   the only era with real content — the other five still list in the
+   sidebar as muted, unclickable headings so the full six-era roster is
+   visible. See server/src/data/historyEras.js for the era roster this
+   reads from. */
 
-.history-page { display: flex; flex-direction: column; }
+/* .guide-page (shared, pixelart.css) sets overflow-y: auto, which — even
+   though it never actually clips anything here, since #root only has
+   min-height, not height, so the real scrolling always happens at the
+   document/window level — still establishes .guide-page as a CSS "scroll
+   container" by virtue of that overflow value alone. That silently breaks
+   .history-sidebar's position: sticky below: sticky is computed relative to
+   the nearest scroll container, and .guide-page's own scrollTop never
+   moves, so the sidebar just scrolls away with the page instead of
+   sticking. Restoring `visible` here (scoped to History only, not the
+   shared rule other guide-page pages rely on) hands sticky positioning
+   back to the real, window-level scroll context. */
+.history-page { display: flex; flex-direction: column; overflow-y: visible; }
 
 .history-header { text-align: center; max-width: 640px; margin: 0 auto 18px; }
 .history-drag-hint {
@@ -26,9 +42,16 @@
 }
 
 /* ── Sidebar ─────────────────────────────────────────────────────────── */
+/* Sticks in place as `.history-feed` scrolls past it (76px clears the
+   app's own sticky 60px navbar). The max-height + overflow is just a
+   fallback for viewports too short to fit the whole era list — the common
+   case is the sidebar simply staying put in full while the page scrolls. */
 .history-sidebar {
   flex: 0 0 280px;
-  max-height: calc(100vh - 220px);
+  position: sticky;
+  top: 76px;
+  align-self: flex-start;
+  max-height: calc(100vh - 96px);
   overflow-y: auto;
   border: 3px solid var(--border);
   border-radius: 6px;
@@ -98,22 +121,33 @@
 .era-revival-independence   { --era-accent: #d94040; }
 .era-20th-century-upheaval  { --era-accent: #8a94a0; }
 
-/* ── Detail panel ────────────────────────────────────────────────────── */
-.history-detail-panel {
+/* ── Feed ────────────────────────────────────────────────────────────── */
+.history-feed {
   flex: 1;
   min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Each event's section — scroll-margin-top matches the sidebar's sticky
+   offset so scrollIntoView() (see HistoryPage) doesn't tuck a section's
+   top edge under the app's sticky navbar. */
+.history-detail-panel {
   background: var(--bg-card);
   border: 3px solid var(--border);
   border-radius: 6px;
   padding: 24px 28px;
-  min-height: 320px;
+  scroll-margin-top: 76px;
 }
-.history-detail-panel--empty {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-muted);
-  text-align: center;
+
+.history-event__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 2px solid var(--border);
+  border-radius: 4px;
+  margin-bottom: 16px;
 }
 
 .history-event__year {
@@ -179,7 +213,7 @@
   .history-sidebar {
     flex: none;
     width: 100%;
-    max-height: 260px;
+    max-height: 220px;
   }
   .history-detail-panel { width: 100%; padding: 18px 20px; }
   .history-event__title { font-size: 11px; }
