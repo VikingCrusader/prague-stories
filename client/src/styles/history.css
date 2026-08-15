@@ -45,11 +45,22 @@
 /* Sticks in place as `.history-feed` scrolls past it (76px clears the
    app's own sticky 60px navbar). The max-height + overflow is just a
    fallback for viewports too short to fit the whole era list — the common
-   case is the sidebar simply staying put in full while the page scrolls. */
+   case is the sidebar simply staying put in full while the page scrolls.
+   z-index is required, not decorative: `.loc-card` (inside the feed) is
+   `position: relative`, so once the sidebar and feed share the same
+   horizontal space — the mobile column layout below 820px, where the
+   sidebar is full-width above the feed instead of beside it — both are
+   `position` + `z-index: auto`, which stack by DOM order, and the feed's
+   cards come *after* the sidebar in the markup. Without an explicit
+   z-index here the scrolling cards paint over the sticky sidebar as they
+   pass underneath it instead of staying behind it. Keep this comfortably
+   below the navbar's z-index: 100 (pixelart.css) so the sidebar never
+   competes with it. */
 .history-sidebar {
   flex: 0 0 280px;
   position: sticky;
   top: 76px;
+  z-index: 10;
   align-self: flex-start;
   max-height: calc(100vh - 96px);
   overflow-y: auto;
