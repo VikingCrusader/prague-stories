@@ -36,6 +36,10 @@ export const checkinAPI = {
   checkIn: (slug, { note, lat, lng } = {}) => api.post(`/checkins/${slug}`, { note, lat, lng }),
 };
 
+export const historyAPI = {
+  getAll: () => api.get('/history'),
+};
+
 export const userAPI = {
   getProgress:      () => api.get('/user/progress'),
   getAchievements:  () => api.get('/user/achievements'),

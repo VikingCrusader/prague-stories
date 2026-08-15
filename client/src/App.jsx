@@ -16,6 +16,7 @@ import MapPage from './pages/MapPage';
 import DashboardPage from './pages/DashboardPage';
 import GuidePage from './pages/GuidePage';
 import RandomDrawPage from './pages/RandomDrawPage';
+import HistoryPage from './pages/HistoryPage';
 
 const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
@@ -66,6 +67,7 @@ export default function App() {
             <Route path="/dashboard" element={<ProtectedRoute guestOk><DashboardPage /></ProtectedRoute>} />
             <Route path="/guide"     element={<ProtectedRoute guestOk><GuidePage /></ProtectedRoute>} />
             <Route path="/random-draw" element={<ProtectedRoute guestOk><RandomDrawPage /></ProtectedRoute>} />
+            <Route path="/history"   element={<ProtectedRoute guestOk><HistoryPage /></ProtectedRoute>} />
             <Route path="*"          element={<Navigate to="/explore" replace />} />
           </Routes>
         </LanguageProvider>

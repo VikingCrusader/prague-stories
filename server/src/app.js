@@ -6,6 +6,7 @@ import authRoutes     from './routes/auth.js';
 import locationRoutes from './routes/locations.js';
 import checkinRoutes  from './routes/checkins.js';
 import userRoutes     from './routes/user.js';
+import historyRoutes  from './routes/history.js';
 
 const app = express();
 
@@ -22,6 +23,7 @@ app.use('/api/auth',      authRoutes);
 app.use('/api/locations', locationRoutes);
 app.use('/api/checkins',  checkinRoutes);
 app.use('/api/user',      userRoutes);
+app.use('/api/history',   historyRoutes);
 
 app.get('/', (_, res) => res.status(200).json({ status: 'ok' }));
 app.get('/api/health', (_, res) => res.status(200).json({ status: 'ok' }));

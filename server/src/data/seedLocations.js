@@ -21951,6 +21951,79 @@ Bez jakékoli starověké astronomie na kontě si kruh nakonec osvojil neformál
 🎁 彩蛋：布拉格城的另一端早已有一座名气更响、记载也详尽得多的石圈——位于特罗亚植物园（Troja Botanical Garden）内，有名有姓的雕塑家、青铜宇宙图腾，甚至还号称具有疗愈功效——相比之下，这座朴素的普鲁霍尼采版本反倒成了少见的一种古迹：它的有趣之处，恰恰在于几乎没人认真写过它。`,
     },
   },
+  {
+    name: "Václav Havel's Bench",
+    slug: 'lavicka-vaclava-havla',
+    localizedNames: {
+      cz: 'Lavička Václava Havla',
+      zh: '瓦茨拉夫·哈维尔长椅',
+    },
+    labels: ['monument', 'historical', 'hidden-gem'],
+    coordinates: { lat: 50.08571560042309, lng: 14.405272248185678 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Lavi%C4%8Dka_V%C3%A1clava_Havla',
+    description: {
+      en: `Welcome to Lavička Václava Havla, a Prague monument that dares to double as furniture: two wooden armchairs, one round table, and a linden tree growing straight up through the middle, all planted on quiet Maltézské náměstí so a president who's been dead since 2011 can still make you sit down and talk to a stranger.
+
+Unveiled on 1 May 2014 — the tenth anniversary of the Czech Republic's accession to the European Union — this was the first Havel bench built on Czech soil, even though the idea started abroad. Designer and architect Bořek Šípek gave it its unmistakable shape: two chairs face each other across a round table with a hole bored through its centre, through which a linden sapling — the Czech national tree — was planted to grow, slowly, into the furniture itself. Three more Prague versions have since appeared, in Suchdol, Horní Počernice, and on the Vltava embankment near Café Slavia, Havel's old haunt, but Maltézské náměstí, in the heart of Malá Strana, got there first.
+
+The whole thing began not in Prague but in Washington, D.C., where Czech ambassador Petr Gandalovič and Šípek unveiled the very first bench at Georgetown University in October 2013, less than two years after Havel's death. More followed in Dublin, Lisbon, Oxford, and Barcelona, each one built to the same brief: create a small public space where people might sit down, in Havel's spirit, and actually talk to one another instead of past each other — a modest civic ambition for what is, structurally speaking, two chairs and a tree.
+
+🎁 Bonus: In 2020, Malá Strana locals noticed the bench had simply vanished from Maltézské náměstí and speculated it had been stolen — until a local newspaper solved the case: it had been quietly removed for restoration and was sitting, perfectly safe, in a repair workshop the whole time. It returned to its square, tree and all, not long after.`,
+
+      cz: `Vítejte u Lavičky Václava Havla, pražského pomníku, který se nebojí být zároveň kusem nábytku: dvě dřevěná křesla, kulatý stůl a přímo jeho středem prorůstající lípa, to vše usazené na klidném Maltézském náměstí — aby prezident, který zemřel už v roce 2011, mohl i dnes přimět kolemjdoucí, aby se posadili a promluvili si s cizím člověkem.
+
+Lavička byla odhalena 1. května 2014 — v den desátého výročí vstupu České republiky do Evropské unie — a šlo o vůbec první Havlovu lavičku postavenou na českém území, ačkoli myšlenka se zrodila v zahraničí. Její nezaměnitelný tvar navrhl designér a architekt Bořek Šípek: dvě křesla stojí naproti sobě přes kulatý stůl s otvorem uprostřed, jímž byla zasazena mladá lípa — český národní strom —, aby postupně srostla se samotným nábytkem. Od té doby přibyly v Praze další tři lavičky, v Suchdole, v Horních Počernicích a na náplavce u Vltavy nedaleko Havlovy oblíbené kavárny Slavia, ale ta na Maltézském náměstí v srdci Malé Strany byla první.
+
+Celý projekt ale nezačal v Praze, nýbrž ve Washingtonu, kde velvyslanec Petr Gandalovič spolu s Bořkem Šípkem odhalili úplně první lavičku na Georgetownské univerzitě v říjnu 2013, necelé dva roky po Havlově smrti. Další následovaly v Dublinu, Lisabonu, Oxfordu a Barceloně, každá podle stejného zadání: vytvořit drobný veřejný prostor, kde si lidé mohou v duchu Havlových idejí sednout a skutečně si spolu promluvit, místo aby si jen navzájem skákali do řeči — skromná občanská ambice na to, co jsou stavebně vzato jen dvě křesla a strom.
+
+🎁 Bonus: V roce 2020 si obyvatelé Malé Strany všimli, že lavička z Maltézského náměstí prostě zmizela, a spekulovalo se o krádeži — dokud případ nevyřešil místní deník: lavička byla jen tiše odvezena na restaurování a celou dobu v naprostém bezpečí čekala v opravně. Na své náměstí, i se stromem, se pak brzy vrátila.`,
+
+      zh: `欢迎来到瓦茨拉夫·哈维尔长椅（Lavička Václava Havla），一座敢于身兼家具功能的布拉格纪念物：两把木椅、一张圆桌，还有一棵椴树从桌子正中央笔直长出——这一切都安放在宁静的马耳他广场（Maltézské náměstí）上，好让这位早在2011年就已辞世的总统，至今仍能让路人停下脚步，坐下来跟陌生人聊上几句。
+
+这张长椅于2014年5月1日揭幕——正值捷克加入欧盟十周年纪念日——是捷克境内第一张哈维尔长椅，尽管这个创意最初诞生于国外。它独特的造型出自设计师兼建筑师博热克·希佩克（Bořek Šípek）之手：两把椅子隔着一张圆桌相对而坐，桌子正中央凿有一个孔洞，一株椴树幼苗——捷克的国树——被种在其中，随着时间推移逐渐与这件家具本身融为一体。此后布拉格又陆续出现了三张同款长椅，分别位于苏赫多尔（Suchdol）、上波切尔尼采（Horní Počernice），以及哈维尔生前常去的斯拉维亚咖啡馆附近的伏尔塔瓦河畔，但地处小城区（Malá Strana）中心的马耳他广场这一张，才是最早的那一张。
+
+整个项目其实并非始于布拉格，而是始于华盛顿特区——捷克驻美大使彼得·甘达洛维奇（Petr Gandalovič）与希佩克于2013年10月在乔治城大学揭幕了全世界第一张长椅，那时距哈维尔逝世还不到两年。此后，都柏林、里斯本、牛津和巴塞罗那也相继出现了同款长椅，每一张都遵循同一个设计初衷：打造一处小小的公共空间，让人们能秉持哈维尔的精神坐下来，真正彼此交谈，而不是各说各话——就结构而言，不过是两把椅子加一棵树，却承载着这样一份朴素的公民理想。
+
+🎁 彩蛋：2020年，小城区的居民发现马耳他广场上的长椅竟然凭空消失了，一度传出被盗的说法——直到当地一家报纸揭开谜底：长椅其实只是被悄悄运走修复，一直安然无恙地待在一家修复工坊里。不久之后，它便连同那棵树一起，重新回到了属于自己的广场。`,
+    },
+  },
+  {
+    name: 'Černošice',
+    slug: 'cernosice',
+    localizedNames: { cz: 'Černošice', zh: '切尔诺希采' },
+    labels: ['village-and-town', 'historical', 'architecture'],
+    coordinates: { lat: 49.96353304288509, lng: 14.322628806434512 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C4%8Cerno%C5%A1ice',
+    description: {
+      en: `Welcome to Černošice, the riverside town where fin-de-siècle Prague went on holiday and largely never left — a hillside of turn-of-the-century villas built by professionals chasing fresh Berounka air, all still reachable by the very railway line whose opening in 1862 started the whole trend.
+
+The line from Prague to Plzeň — one of Bohemia's earliest — turned a scatter of farming villages into a fashionable resort almost overnight, and by the First Republic era Černošice had become one of the most sought-after villa suburbs around the capital, with a construction boom between 1925 and 1929 that carved up building plots as fast as prices could rise to meet them. Today's town is a fusion of three older settlements — Horní Černošice, first recorded in a Kladruby monastery charter in 1115; Dolní Mokropsy, mentioned even earlier, in the 1088 founding charter of the Vyšehrad chapter; and the hamlet of Vráž — merged into a single municipality only in 1950, an ancient patchwork the town's trefoil coat of arms still openly admits to.
+
+The oldest thing standing is the Church of the Assumption of the Virgin Mary, first taxed as a parish in 1352 and very likely raised by Cistercian monks from Zbraslav Monastery after King Wenceslas II granted them the village. What survives today is mostly its 18th-century Baroque rebuild, financed in 1774 by a local miller named Jiří Kotaška; restoration work in 2011–2012 turned up a hidden Baroque fresco of souls in purgatory behind the altar cross. Around it spreads the real draw — dozens of villas in styles running from Art Nouveau to strict functionalism, among them the sharp, terrace-and-winter-garden lines of the Ferdinand Hořejš villa, all built for Praguers who wanted the city's culture with a river view attached.
+
+🎁 Bonus: Until 1930, a broad old linden tree stood in the Vráž part of town, doing double duty as a signpost for travellers — and, according to local legend, as Charles IV's personal rest stop whenever the emperor passed through on his way somewhere more important.`,
+
+      cz: `Vítejte v Černošicích, městečku na řece, kam si Praha na přelomu století vyjela na dovolenou a z velké části se odtud už nikdy nevrátila — kopec plný vil z přelomu 19. a 20. století, postavených lidmi z povolání lákanými čerstvým vzduchem od Berounky, dodnes dostupný po stejné železniční trati, jejíž otevření v roce 1862 celý ten trend odstartovalo.
+
+Trať z Prahy do Plzně — jedna z nejstarších v Čechách — proměnila hrstku zemědělských vsí téměř přes noc v módní letovisko, a za první republiky patřily Černošice mezi nejvyhledávanější vilové čtvrti v okolí hlavního města: mezi lety 1925 a 1929 zažily stavební boom, při kterém se stavební parcely rozprodávaly stejně rychle, jako rostly jejich ceny. Dnešní město vzniklo spojením tří starších sídel — Horních Černošic, poprvé zmíněných v listině kladrubského kláštera z roku 1115; Dolních Mokropsů, doložených ještě dříve, v zakládací listině vyšehradské kapituly z roku 1088; a osady Vráž — v jedinou obec až v roce 1950, a tuto starobylou skládačku dodnes přiznává i městský znak s trojlístkem.
+
+Nejstarší dochovanou stavbou je kostel Nanebevzetí Panny Marie, poprvé doložený jako farní kostel v roce 1352 a nejspíš postavený cisterciáky ze zbraslavského kláštera poté, co jim ves daroval král Václav II. To, co stojí dnes, je z větší části barokní přestavba z 18. století, financovaná v roce 1774 místním mlynářem Jiřím Kotaškou; restaurátorský průzkum v letech 2011–2012 za oltářním křížem odhalil skrytou barokní fresku duší v očistci. Kolem kostela se pak rozkládá to, kvůli čemu se sem vlastně jezdí — desítky vil ve stylech od secese až po přísný funkcionalismus, mezi nimi i strohé linie vily Ferdinanda Hořejše s prostornou terasou a zimní zahradou, postavené pro Pražany, kteří chtěli mít městskou kulturu s výhledem na řeku.
+
+🎁 Bonus: Až do roku 1930 stála na Vráži stará košatá lípa, která sloužila jako cestovní ukazatel pro pocestné — a podle místní pověsti i jako oblíbené místo odpočinku Karla IV., kdykoli tudy císař projížděl za důležitějšími povinnostmi.`,
+
+      zh: `欢迎来到切尔诺希采（Černošice），一座河畔小城——世纪之交的布拉格人曾来这里度假，结果许多人干脆再也没有离开。山坡上密布着十九、二十世纪之交建造的别墅，都是被贝劳恩卡河（Berounka）畔清新空气吸引而来的专业人士所建，至今仍可乘坐那条1862年开通、正是它掀起整股风潮的铁路线抵达。
+
+这条从布拉格通往皮尔森（Plzeň）的铁路，是波希米亚最早的铁路线之一，几乎一夜之间就把一片零散的农业村落变成了时髦的度假胜地。到了捷克斯洛伐克第一共和国时期，切尔诺希采已成为首都周边最抢手的别墅郊区之一，1925年至1929年间更迎来一波建设热潮，地块被迅速分割出售，价格也随之水涨船高。今天的这座城镇，其实是由三个更古老的聚落合并而成：上切尔诺希采（Horní Černošice），最早见于1115年克拉德鲁比修道院（Kladruby Monastery）的一份文书；下莫克罗普西（Dolní Mokropsy），更早出现在1088年维谢赫拉德教士团（Vyšehrad chapter）的建立文书中；以及小村维拉日（Vráž）——这三处一直到1950年才合并为单一的市镇，而这段拼凑而成的古老历史，如今仍明明白白地写在城镇那枚三叶草徽章上。
+
+城中现存最古老的建筑，是圣母升天教堂（Church of the Assumption of the Virgin Mary），早在1352年就已作为教区教堂被征税记录在案，很可能是瓦茨拉夫二世（King Wenceslas II）将此地赐予兹布拉斯拉夫修道院（Zbraslav Monastery）后，由熙笃会修士（Cistercian monks）主持修建。如今所见的教堂主体，大部分来自18世纪的巴洛克式重建，由当地磨坊主伊日·科塔什卡（Jiří Kotaška）于1774年出资完成；2011至2012年的修复工程，还在祭坛十字架后方意外发现了一幅隐藏的巴洛克壁画，描绘的是炼狱中的灵魂。教堂周围铺展开的，才是这座小城真正的看点——数十栋风格各异的别墅，从新艺术风格一路延伸到严谨的功能主义，其中就包括线条硬朗、带露台与冬季花园的费迪南德·霍热什（Ferdinand Hořejš）别墅，全都是为那些既想拥有城市文化生活、又想坐拥河景的布拉格人而建。
+
+🎁 彩蛋：直到1930年，维拉日地区还立着一棵枝繁叶茂的老椴树，它既充当过往行人的路标，据当地传说，也是查理四世（Charles IV）每次途经此地、赶赴更重要公务时，最爱停下来歇脚的地方。`,
+    },
+  },
 ];
 
 async function run() {

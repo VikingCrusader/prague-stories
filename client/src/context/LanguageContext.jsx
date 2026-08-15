@@ -24,6 +24,7 @@ const T = {
     'nav.guide': 'Guide',
     'nav.randomDraw': 'Draw',
     'nav.dashboard': 'Dashboard',
+    'nav.history': 'History',
     'nav.logout': 'Logout',
     'explore.title': 'Explore Prague and Bohemia',
     'explore.titleGuest': 'Login to Explore Prague!',
@@ -163,6 +164,12 @@ const T = {
     'draw.alreadyCollected': '✓ Bonus Claimed',
     'draw.guestTrialNote': "You're trying this out as a guest — this draw won't be saved. Log in if you actually want to collect XP for it.",
     'detail.bonusApplied': '🎲 3× Random Draw Bonus!',
+    'history.title': 'History Timeline',
+    'history.tagline': "From a prophecy on a cliff to a nation's founding — drag through Prague's history and see where it actually happened.",
+    'history.dragHint': 'Browse the eras on the left to travel through time',
+    'history.comingSoon': 'This era is still being written. Check back soon.',
+    'history.relatedLandmarksLabel': 'See it for yourself',
+    'history.pickEventHint': 'Pick an event on the left to read its story.',
   },
   //czech
   cz: {
@@ -172,6 +179,7 @@ const T = {
     'nav.guide': 'Průvodce',
     'nav.randomDraw': 'Los',
     'nav.dashboard': 'Přehled',
+    'nav.history': 'Historie',
     'nav.logout': 'Odhlásit',
     'explore.title': 'Prozkoumej Prahu a Čechy',
     'explore.titleGuest': 'Přihlaste se a prozkoumejte Prahu!',
@@ -311,6 +319,12 @@ const T = {
     'draw.alreadyCollected': '✓ Bonus vybrán',
     'draw.guestTrialNote': 'Tohle zkoušíš jako host — tenhle los se nikam neuloží. Pokud za něj chceš opravdu sbírat XP, přihlas se.',
     'detail.bonusApplied': '🎲 3× Bonus ze slepého losu!',
+    'history.title': 'Osa dějin',
+    'history.tagline': 'Od proroctví na skále po vznik národa — projeďte se dějinami Prahy a podívejte se, kde se to všechno doopravdy odehrálo.',
+    'history.dragHint': 'Procházejte éry vlevo a cestujte časem',
+    'history.comingSoon': 'Tahle éra se ještě píše. Zkuste to znovu brzy.',
+    'history.relatedLandmarksLabel': 'Podívejte se tam sami',
+    'history.pickEventHint': 'Vyberte vlevo nějakou událost a přečtěte si její příběh.',
   },
   //chinese
   zh: {
@@ -320,6 +334,7 @@ const T = {
     'nav.guide': '攻略',
     'nav.randomDraw': '抽签',
     'nav.dashboard': '仪表盘',
+    'nav.history': '城史',
     'nav.logout': '退出',
     'explore.title': '探索布拉格与波希米亚',
     'explore.titleGuest': '登录以探索布拉格！',
@@ -459,6 +474,12 @@ const T = {
     'draw.alreadyCollected': '✓ 奖励已领取',
     'draw.guestTrialNote': '你现在是以游客身份试玩——这次抽到的地点不会被保存。如果真的想为它收集经验值，请先登录。',
     'detail.bonusApplied': '🎲 盲抽三倍经验奖励！',
+    'history.title': '城史时间轴',
+    'history.tagline': '从悬崖上的一则预言，到一个国家的诞生——拖动时间轴，看看这些故事究竟发生在哪里。',
+    'history.dragHint': '在左侧浏览各个时代，穿越布拉格历史',
+    'history.comingSoon': '这个时代还在编写中，敬请期待。',
+    'history.relatedLandmarksLabel': '亲自去看看',
+    'history.pickEventHint': '从左侧选择一个事件，阅读它的故事。',
   },
   //german
   de: {
