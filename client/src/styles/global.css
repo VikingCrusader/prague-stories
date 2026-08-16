@@ -94,6 +94,8 @@ html[data-lang="zh"] body {
 }
 
 html[data-lang="zh"] .px-title,
+html[data-lang="zh"] .history-event__title,
+html[data-lang="zh"] .history-sidebar__era-title,
 html[data-lang="zh"] .navbar__logo,
 html[data-lang="zh"] .navbar__link,
 html[data-lang="zh"] .px-btn,
@@ -122,6 +124,14 @@ html[data-lang="zh"] [style*="Press Start 2P"] {
 
 html[data-lang="zh"] .px-title {
   font-size: 20px !important;
+}
+html[data-lang="zh"] .history-event__title {
+  font-size: 22px !important;
+  font-weight: 700 !important;
+}
+html[data-lang="zh"] .history-sidebar__era-title {
+  font-size: 17px !important;
+  font-weight: 700 !important;
 }
 html[data-lang="zh"] .navbar__logo {
   font-size: 17px !important;

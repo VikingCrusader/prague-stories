@@ -22024,6 +22024,489 @@ Nejstarší dochovanou stavbou je kostel Nanebevzetí Panny Marie, poprvé dolo�
 🎁 彩蛋：直到1930年，维拉日地区还立着一棵枝繁叶茂的老椴树，它既充当过往行人的路标，据当地传说，也是查理四世（Charles IV）每次途经此地、赶赴更重要公务时，最爱停下来歇脚的地方。`,
     },
   },
+  {
+    name: 'Libušín Hillfort',
+    slug: 'hradiste-libusin',
+    localizedNames: { cz: 'Hradiště Libušín', zh: '利布申城寨' },
+    labels: ['historical', 'nature', 'ruin'],
+    coordinates: { lat: 50.161903282947414, lng: 14.037134295151168 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Libu%C5%A1%C3%ADn_(hradi%C5%A1t%C4%9B)',
+    description: {
+      en: `Welcome to Libušín Hillfort, the most significant Přemyslid stronghold in Bohemia — and, if you believe the chronicles, the exact spot where Princess Libuše once stood and predicted that a city whose glory would touch the stars was about to be built somewhere downstream.
+
+The fortification itself rose in the second third of the 10th century, most likely under Prince Boleslav I, and covered a hefty 12.3 hectares in four concentric parts — an acropolis plus inner and outer baileys, all ringed by timber-clay-and-stone ramparts built up in three distinct phases, with gated entrances and even a protected spring-house. It didn't last long as a going concern; by the second third of the 11th century the hillfort had already fallen out of use. Chronicler Kosmas, writing two centuries later, placed Libuše's prophecy and eventual burial here — though archaeologists digging since the 19th century (Matyáš Kalina in 1835, Josef Ladislav Píč around 1900, and Jaroslav Böhm across several campaigns from 1929 to 1956) have found only an unfortified settlement dating to the legend's supposed 6th–7th century timeframe, not the walled fortress Kosmas describes. History and legend, in other words, are standing on the same hill but not quite agreeing on the century. At the centre of the old acropolis stands the early Gothic Church of St. George, alongside a wooden Baroque bell tower and a small graveyard.
+
+These days the hillfort earns its keep as a nature reserve as much as a historical site: more than 200 plant species grow across its slopes, sheltering a correspondingly large cast of animals. Look for sprawling dogwood shrubs on the acropolis, the remains of old orchards on the southern slopes, and Libuše's Well tucked into the northern one. Just below that northern foot lies a former coal-mining site, now an odd but genuinely interesting open-air lesson in land recovery — some patches deliberately recultivated, others simply left to reclaim themselves.
+
+🎁 Bonus: Libušín is reachable on foot from the town square in about 1.5 km along the blue and then green tourist trail, or via the Důl Libušín bus stop and roughly 1 km of green trail — the stretch from the bus stop onward is stroller- and bike-friendly, in case you'd rather not test whether Libuše's prophecy covers modern mobility too.`,
+
+      cz: `Vítejte na Hradišti Libušín, nejvýznamnějším přemyslovském hradišti v Čechách — a pokud věříte kronikám, přesně na místě, kde kněžna Libuše kdysi stála a věštila, že o kousek dál po proudu vznikne město, jehož sláva se bude dotýkat hvězd.
+
+Samotné opevnění vzniklo ve druhé třetině 10. století, nejspíš za vlády knížete Boleslava I., a rozkládalo se na úctyhodných 12,3 hektarech ve čtyřech částech — akropoli a vnitřním i vnějším podhradí, obehnaných dřevohlinitými a kamennými valy budovanými ve třech fázích, s branami a dokonce chráněnou studánkou. Jako fungující sídlo ale dlouho nevydrželo: už ve druhé třetině 11. století hradiště zaniklo. Kronikář Kosmas o dvě století později tvrdil, že právě tady Libuše věštila i byla nakonec pohřbena — archeologové, kteří tu kopou od 19. století (Matyáš Kalina v roce 1835, Josef Ladislav Píč kolem roku 1900 a Jaroslav Böhm ve více etapách mezi lety 1929 a 1956), však z domnělé doby legendy, tedy 6.–7. století, našli jen nevelké neopevněné sídliště, žádnou hrazenou pevnost, jak ji popisuje Kosmas. Historie a pověst tak stojí na stejném kopci, jen se neshodnou na století. Uprostřed bývalé akropole stojí raně gotický kostel sv. Jiří, vedle něj barokní dřevěná zvonice a menší hřbitov.
+
+Dnes je hradiště stejnou měrou přírodní rezervací jako historickou lokalitou: na jeho svazích roste přes 200 druhů rostlin, které živí odpovídajícně pestrou faunu. Na akropoli hledejte mohutné keře dřínu, na jižních svazích pozůstatky starých sadů a na severním svahu Libušinu studánku. Hned pod ním leží bývalé uhelné doly — dnes svérázná, ale opravdu zajímavá ukázka nápravy krajiny, kde se místy rekultivovalo cíleně a jinde se příroda nechala zarůst sama.
+
+🎁 Bonus: K hradišti se z náměstí v Libušíně dostanete pěšky asi 1,5 km po modré a poté zelené turistické značce, nebo od zastávky MHD Důl Libušín po necelém 1 km zelené značky — úsek od zastávky dál je sjízdný i pro kočárek a kolo, kdyby vás zajímalo, jestli se Libušina věštba vztahuje i na moderní mobilitu.`,
+
+      zh: `欢迎来到利布申城寨，波希米亚最重要的普热美斯尔王朝城寨——如果你相信编年史的记载，莉布谢公主当年正是站在这里，预言下游不远处将崛起一座荣耀直抵星辰的城市。
+
+这座防御工事本身建于10世纪中叶，很可能是波列斯拉夫一世在位期间所建，占地多达12.3公顷，分为四个部分——卫城以及内外两重外郭，四周环绕着分三个阶段筑成的木土石结构城墙，设有城门，甚至还有一处受保护的水泉。可惜它作为实际据点的寿命并不长：到11世纪中叶，城寨便已废弃。两个世纪之后，编年史作者科斯马斯声称莉布谢正是在此地作出预言，最终也葬于此处——然而自19世纪以来在此挖掘的考古学家们（1835年的马佳什·卡利纳、约1900年的约瑟夫·拉迪斯拉夫·皮奇，以及1929年至1956年间多次考察的雅罗斯拉夫·伯姆）在传说所指的六至七世纪年代层中，只找到一处未设防的聚落遗迹，并非科斯马斯笔下那座筑有城墙的要塞。换句话说，历史与传说站在同一座山丘上，却对世纪对不上号。旧日卫城的中央，矗立着一座早期哥特式的圣乔治教堂，旁边还有一座巴洛克式木质钟楼和一小片墓地。
+
+如今，这座城寨既是历史遗址，也同样是一处自然保护区：山坡上生长着超过200种植物，养育着同样丰富多样的动物群落。在卫城可以找到成片茂密的山茱萸灌木丛，南坡上留存着老果园的痕迹，北坡则藏着莉布谢之泉。紧挨着北坡脚下的，是一片昔日的煤矿旧址，如今成了一堂别具一格却相当有意思的土地修复公开课——有些地块经过人工刻意修复，有些则干脆任由自然自行接管。
+
+🎁 彩蛋：从利布申镇的广场步行前往城寨，沿蓝色再转绿色徒步路标走约1.5公里即可到达；也可以先坐车到Důl Libušín站，再沿绿色路标走约1公里——从公交站开始的这段路，婴儿车和自行车都能顺利通过，倒是给"莉布谢的预言是否也管得到现代交通"这个问题留了个悬念。`,
+    },
+  },
+  {
+    name: 'Battle of White Mountain Memorial Mound',
+    slug: 'mohyla-bile-hory',
+    localizedNames: { cz: 'Mohyla bitvy na Bílé Hoře', zh: '白山之战纪念冢' },
+    labels: ['historical', 'monument'],
+    coordinates: { lat: 50.07822181654289, lng: 14.319256881774328 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Mohyla_na_B%C3%ADl%C3%A9_ho%C5%99e',
+    description: {
+      en: `Brave adventurer, welcome to the Battle of White Mountain Memorial Mound — a quiet grassy rise near Prague's Hvězda game reserve, marking the exact field where a single November afternoon in 1620 reshaped Czech history for the next three centuries.
+
+On 8 November 1620, the combined armies of Emperor Ferdinand II and the Catholic League crushed the forces of the Bohemian Estates here in barely two hours, ending the Bohemian Revolt that had opened the wider Thirty Years' War two years earlier. The defeat triggered a sweeping re-Catholicization of the Bohemian lands and a marked strengthening of Habsburg central authority; the following June, twenty-seven of the revolt's leading nobles and burghers were publicly executed on Old Town Square, and much of the confiscated Protestant nobility's land and wealth was redistributed to a new, loyal Catholic aristocracy — a single afternoon whose consequences kept unfolding for generations.
+
+The mound standing here today only arrived much later. A monument was first proposed in 1902 for the battle's approaching 300th anniversary, and the Sokol gymnastics organization formed a committee to see it built the following year; the land near Ruzyně wasn't actually purchased until 1918, once Czechoslovak independence made the project politically possible. Grander plans by sculptors including František Bílek gave way, for budget reasons, to a simpler earthwork: a square base topped with red stone meant to symbolize spilled blood, flowering plants standing in for "freedom's sun," twenty-seven poplar trees for the executed nobles, and a thorn hedge tracing out the three hundred years of subjugation between the defeat and Czechoslovakia's 1918 independence. It was unveiled, still unfinished, on 7 November 1920 and completed the following year. Little of that original symbolic planting survives intact today — mostly a memorial plaque naming the Sokol committee that built it.
+
+🥚 Easter Egg: In 1962, the entire White Mountain battlefield — mound included — was declared a national cultural monument together with the nearby Hvězda hunting lodge and game reserve, protecting the ground where a two-hour battle once decided three centuries of Czech history from ever being built over.`,
+
+      cz: `Statečný dobrodruhu, vítej u Mohyly bitvy na Bílé Hoře — klidného travnatého pahorku poblíž pražské obory Hvězda, který označuje přesně to místo, kde jediné listopadové odpoledne roku 1620 změnilo směr českých dějin na další tři století.
+
+8. listopadu 1620 tu spojená vojska císaře Ferdinanda II. a Katolické ligy během necelých dvou hodin rozdrtila stavovské vojsko a ukončila české stavovské povstání, které o dva roky dříve odstartovalo mnohem širší třicetiletou válku. Porážka spustila rozsáhlou rekatolizaci českých zemí a výrazné posílení habsburské centralizované moci; následující červen bylo sedmadvacet předních šlechticů a měšťanů podílejících se na povstání veřejně popraveno na Staroměstském náměstí a velká část majetku zkonfiskovaného protestantské šlechtě přešla na novou, loajální katolickou aristokracii — jediné odpoledne, jehož důsledky se rozvíjely ještě celé generace.
+
+Mohyla, která tu stojí dnes, přišla mnohem později. Pomník byl poprvé navržen v roce 1902 u příležitosti blížícího se 300. výročí bitvy a Sokol následující rok ustavil výbor, který měl jeho stavbu prosadit; pozemek u Ruzyně se ale skutečně koupil až v roce 1918, kdy vznik samostatného Československa projekt politicky umožnil. Velkorysejší návrhy sochařů, mezi nimi Františka Bílka, musely z finančních důvodů ustoupit skromnější zemní stavbě: čtvercový základ s červeným kamenem symbolizujícím prolitou krev, kvetoucími rostlinami zastupujícími „slunce svobody", sedmadvaceti topoly za popravené šlechtice a trnitým živým plotem, který lemoval tři sta let poroby mezi porážkou a vznikem Československa v roce 1918. Mohyla byla odhalena, ještě nedokončená, 7. listopadu 1920 a stavba se dokončila následující rok. Z původní symbolické výsadby se dnes v nezměněné podobě zachovalo jen málo — hlavně pamětní deska připomínající sokolský výbor, který mohylu postavil.
+
+🥚 Easter Egg: V roce 1962 bylo celé bojiště Bílé Hory — mohylu nevyjímaje — spolu s nedalekým Letohrádkem Hvězda a oborou prohlášeno národní kulturní památkou, čímž se místo, kde dvouhodinová bitva rozhodla o třech stoletích českých dějin, navždy uchránilo před zástavbou.`,
+
+      zh: `勇敢的冒险家，欢迎来到白山之战纪念冢——布拉格赫维耶兹达狩猎苑附近一处安静的草坡，标记着1620年11月的一个下午，在此彻底改变了此后三百年捷克历史走向的那片战场。
+
+1620年11月8日，斐迪南二世皇帝与天主教联盟的联军在不到两个小时内，于此彻底击溃了波希米亚贵族等级的军队，终结了两年前引燃更大规模三十年战争的波希米亚起义。这场惨败随即引发了波希米亚各地大规模的再天主教化运动，也让哈布斯堡王朝的中央集权明显加强；次年六月，二十七位参与起义的贵族与市民领袖在老城广场被公开处决，被没收的新教贵族地产与财富，大部分转手给了新崛起、效忠皇室的天主教贵族——短短一个下午所带来的后果，却延续了好几代人。
+
+如今矗立在此的纪念冢，其实晚了很久才出现。1902年，为迎接即将到来的战役三百周年，人们首次提议建立纪念碑，次年"鹰"体育组织（Sokol）便成立了筹建委员会；但鲁齐涅（Ruzyně）附近的这块土地，直到1918年捷克斯洛伐克独立、项目在政治上终于具备可行性之后，才真正被购下。包括弗朗蒂谢克·比莱克（František Bílek）在内的雕塑家原本提出了更宏大的设计方案，却因经费不足而让位于一座更朴素的土冢：方形基座上覆盖着象征鲜血的红色石材，用盛开的花卉代表"自由的太阳"，二十七棵白杨树纪念被处决的贵族，还有一圈荆棘篱笆，勾勒出从战败到1918年捷克斯洛伐克独立之间那三百年的屈辱岁月。纪念冢于1920年11月7日揭幕，当时尚未完工，直到次年才真正竣工。如今，当年那些具有象征意义的种植大多已不复原貌——留下的主要是一块纪念牌匾，记述着当年建造它的"鹰"体育组织委员会。
+
+🥚 彩蛋：1962年，整个白山战场——纪念冢也包括在内——连同附近的赫维耶兹达夏宫（Letohrádek Hvězda）与狩猎苑，一同被列为国家文化古迹，从此让这片曾在两小时内决定捷克三百年命运的战场，永远免于被开发建设。`,
+    },
+  },
+
+  // ── Tetín / St. Ludmila batch (2026-08) ─────────────────────────────────
+  {
+    name: 'Tetín Castle Ruins',
+    slug: 'zricenina-hradu-tetin',
+    localizedNames: { cz: 'Pozůstatky hradu Tetína', zh: '泰钦城堡遗迹' },
+    labels: ['historical', 'ruin'],
+    coordinates: { lat: 49.949956692007355, lng: 14.106056016047125 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Tet%C3%ADn_(hrad)',
+    description: {
+      en: `Brave adventurer, welcome to the ruins of Tetín Castle — a lonely square gate tower and a few wall fragments standing on the same rocky promontory where, three centuries earlier, Bohemia's first native saint was murdered on her own daughter-in-law's orders.
+
+The stone castle here dates only from the mid-13th century, probably built under King Přemysl Otakar II, on top of a much older early medieval hillfort — the very stronghold where Princess Ludmila, widow of Duke Bořivoj I, lived and was strangled in 921. First documented in writing in 1288, when its commandant Hynek z Lichtenburka was busy raiding church land alongside an accomplice, the castle later took on a quieter role: under King Wenceslas II it became a residence for the Přemyslid dynasty's illegitimate children. Emperor Charles IV eventually folded the estate into the domain of nearby Karlštejn Castle, and by the second half of the 14th century Tetín had already slid into ruin. What still stands is a squat quadrangular gate tower and fragments of a later palace wing — the rest of the site was quarried away for limestone in the 19th century, a fate distinctly less dramatic than the one that made the place famous in the first place.
+
+🎁 Bonus: Archaeological digs on the surrounding hillfort have turned up dozens of early medieval graves, including several richly furnished female burials — none confirmed as Ludmila's own, since her remains were moved to Prague Castle's St. George's Basilica just four years after her death, but a reminder that this quiet hilltop above the Berounka was, for a while, a genuinely important place to be buried.`,
+
+      cz: `Statečný dobrodruhu, vítej u zříceniny hradu Tetín — osamělé čtverhranné branské věže a několika zbytků zdiva stojících na téže skalní ostrožně, kde byla o tři století dříve zavražděna z rozkazu vlastní snachy první domácí česká světice.
+
+Kamenný hrad tu vznikl až v polovině 13. století, nejspíš za krále Přemysla Otakara II., na místě mnohem staršího raně středověkého hradiště — přesně toho, kde žila a v roce 921 byla uškrcena kněžna Ludmila, vdova po knížeti Bořivojovi I. Písemně je hrad poprvé doložen roku 1288, kdy jeho purkrabí Hynek z Lichtenburka spolu s komplicem podnikal loupeživé výpravy na církevní pozemky. Později dostal hrad klidnější roli: za vlády Václava II. sloužil jako sídlo nemanželských dětí přemyslovského rodu. Karel IV. panství nakonec připojil k nedalekému Karlštejnu a už ve druhé polovině 14. století Tetín upadl v zříceninu. Dodnes stojí jen podsaditá čtverhranná branská věž a fragmenty mladšího palácového křídla — zbytek areálu zmizel v 19. století v lomu na vápenec, což je konec citelně méně dramatický než ten, kvůli kterému místo vlastně proslulo.
+
+🎁 Bonus: Archeologické výzkumy na okolním hradišti odkryly desítky raně středověkých hrobů, včetně několika bohatě vybavených ženských pohřbů — žádný z nich sice není potvrzeně Ludmilin, protože její ostatky byly přeneseny do baziliky sv. Jiří na Pražském hradě už čtyři roky po smrti, ale i tak jde o připomínku, že tenhle klidný kopec nad Berounkou byl svého času skutečně důležitým místem k pohřbení.`,
+
+      zh: `勇敢的冒险家，欢迎来到泰钦城堡遗迹——一座孤零零的方形城门塔与几段残墙，矗立在同一处岩石岬角上，三百年前，波希米亚第一位本土圣徒正是在此地被自己的儿媳下令勒死。
+
+这座石造城堡直到13世纪中叶才建成，据推测是普热米斯尔·奥托卡二世下令兴建，选址正是一处年代更早的早期中世纪城寨遗址之上——而那座城寨，正是鲍日沃伊一世公爵的遗孀鲁德米拉公主居住、并于921年被勒死的地方。城堡最早的文献记载出现在1288年，当时的城堡指挥官希内克·兹·利希滕堡正伙同同党袭击教会领地。后来，城堡担起了较为平静的角色：瓦茨拉夫二世在位期间，这里成了普热米斯尔王朝私生子女的居所。查理四世后来将这处领地并入邻近的卡尔什特因城堡名下，到14世纪下半叶，泰钦已然沦为废墟。如今仅存一座敦实的方形城门塔与晚期宫殿翼楼的残迹——其余部分在19世纪的石灰岩采石作业中被彻底铲平，这个结局，比起当初让这座城堡声名远扬的那桩往事，实在平淡得多。
+
+🎁 彩蛋：围绕这座城寨遗址进行的考古发掘，出土了数十座早期中世纪墓葬，其中包括几座随葬品丰富的女性墓——虽然没有一座能确证属于鲁德米拉本人，因为她的遗骸在去世仅四年后便被迁往布拉格城堡的圣乔治圣殿安葬，但这依然提醒着人们：贝劳恩卡河（伏尔塔瓦河的支流）畔这座宁静的山丘，曾一度是一处真正举足轻重的安葬之地。`,
+    },
+  },
+  {
+    name: "St. Ludmila's Cross",
+    slug: 'kriz-svate-ludmily-tetin',
+    localizedNames: { cz: 'Kříž svaté Ludmily', zh: '圣鲁德米拉十字架' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 49.94866271405735, lng: 14.112831280417199 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://www.drobnepamatky.cz/node/70143',
+    description: {
+      en: `Welcome to St. Ludmila's Cross, a plain stone marker on the meadow east of Tetín — small enough to miss entirely if you didn't know that, according to local tradition, this is where the men sent to kill a princess supposedly hid before doing it.
+
+Local tradition places the murder plot's final staging point right here, on the open ground outside the walls of the old Tetín stronghold, before Ludmila's assassins moved in on the night of 15 September 921. The cross itself carries no dated inscription and little documented construction history — it belongs to the quieter, undocumented layer of devotional markers that dot the Bohemian countryside, kept alive less by archives than by continuous local memory and use. That use is still active today: the cross serves as a stop on the annual Ludmila pilgrimage route that links Tetín to the hermitage of St. Ivan at nearby Svatý Jan pod Skalou, and pilgrims still gather here for a short prayer as the procession passes through.
+
+🎁 Bonus: The pilgrimage route's pairing of Ludmila with St. Ivan isn't random — legend holds the two were contemporaries, with Ivan supposedly living out his hermit's life in a nearby cave around the same decades Ludmila ruled and died just a few kilometres away.`,
+
+      cz: `Vítej u Kříže svaté Ludmily, prostého kamenného památníku na louce východně od Tetína — tak nenápadného, že by ho bylo snadné úplně přehlédnout, kdyby se podle místní tradice právě tady prý neschovávali muži poslaní zabít kněžnu, než to udělali.
+
+Místní tradice klade poslední zastávku vražedného spiknutí přesně sem, na volné prostranství za hradbami starého tetínského hradiště, těsně předtím, než Ludmilini vrazi v noci 15. září roku 921 udeřili. Samotný kříž nenese žádný datovaný nápis a jeho stavební historie není příliš zdokumentovaná — patří k té tišší, archivně málo podchycené vrstvě drobných zbožných památek, které jsou roztroušené po celých Čechách a udržují se při životě spíš díky nepřerušené místní paměti a užívání než díky pramenům. To užívání trvá dodnes: kříž je jednou ze zastávek na výroční Svatoludmilské pouti, která spojuje Tetín s poustevnou svatého Ivana v nedalekém Svatém Janu pod Skalou, a poutníci se tu při průchodu procesí stále zastavují na krátkou modlitbu.
+
+🎁 Bonus: Spojení Ludmily se svatým Ivanem na trase poutě není náhodné — podle pověsti byli oba současníky, přičemž Ivan prý žil poustevnickým životem v nedaleké jeskyni zhruba ve stejných desetiletích, kdy Ludmila vládla a zemřela jen pár kilometrů odtud.`,
+
+      zh: `欢迎来到圣鲁德米拉十字架，一座立于泰钦以东草地上的朴素石制标记——它实在不起眼，如果不是当地传说称，受命前来杀害这位公主的凶手，据说正是躲藏在这里等候动手，很容易就会被人完全忽略。
+
+当地传说把这场刺杀阴谋的最后埋伏点，正好定在这里——古泰钦城寨城墙外的这片空地，就在921年9月15日夜里鲁德米拉的刺客动手行凶之前。十字架本身没有任何标注年代的铭文，建造历史也鲜有文献记载——它属于波希米亚乡间那类默默无闻、档案记载稀少的信仰标记，能留存至今，靠的与其说是史料，不如说是当地人从未间断的记忆与使用。这份使用至今仍在延续：十字架是每年圣鲁德米拉朝圣路线上的一站，这条路线将泰钦与附近圣扬佩斯卡拉的圣伊万隐修地连接起来，每当巡游队伍经过，朝圣者仍会在此稍作停留，进行简短祷告。
+
+🎁 彩蛋：朝圣路线把鲁德米拉与圣伊万联系在一起，并非随意为之——传说两人是同时代人，圣伊万据说就在附近一处洞穴中过着隐修生活，年代恰与鲁德米拉在几公里外统治、辞世的岁月大致重合。`,
+    },
+  },
+  {
+    name: 'Church of St. John of Nepomuk (Tetín)',
+    slug: 'kostel-sv-jana-nepomuckeho-tetin',
+    localizedNames: { cz: 'Kostel svatého Jana Nepomuckého', zh: '泰钦圣约翰·内波穆克教堂' },
+    labels: ['church', 'historical'],
+    coordinates: { lat: 49.95003975233794, lng: 14.103879793312684 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Jana_Nepomuck%C3%A9ho_(Tet%C3%ADn)',
+    description: {
+      en: `Brave adventurer, welcome to the Church of St. John of Nepomuk in Tetín — a modest building with a very quiet claim to being one of the oldest Christian sites in Bohemia, hiding behind a name it's only worn since 1836.
+
+The church didn't start out dedicated to St. John of Nepomuk at all: for most of its documented life it was the Church of St. Michael the Archangel, first recorded under that name in 1357, and local tradition traces its origins further back still — to a wooden funeral chapel supposedly raised over Princess Ludmila's own grave shortly after her murder in 921. What stands today shows genuine Romanesque masonry from the 12th and 13th centuries, incorporated into a building substantially reworked in the Baroque style in the 17th century — evidence, at least, that whatever stood here first was old enough to matter. In the 16th century its parish priest was Václav Hájek z Libočan, the chronicler whose colourful (and none-too-reliable) history of Bohemia shaped how generations of Czechs pictured their own legendary past — including, fittingly, the very story this church is tied to. Closed under the Josephine church reforms of the 1780s once the newer Church of St. Ludmila took over parish duties, it sat derelict until the owner of Tetín's chateau funded its restoration in the 19th century; reconsecrated in 1836, it took its current dedication to St. John of Nepomuk at that point.
+
+🎁 Bonus: These days the church is deconsecrated again and does duty as a small gallery — which means Bohemia's possible original Ludmila memorial has spent the last two centuries changing patron saints, changing purposes, and generally refusing to sit still, even in retirement.`,
+
+      cz: `Statečný dobrodruhu, vítej u kostela svatého Jana Nepomuckého na Tetíně — skromné stavby, která si potichu nárokuje místo mezi nejstaršími křesťanskými lokalitami v Čechách, schovaná za jménem, které nosí teprve od roku 1836.
+
+Kostel přitom vůbec nezačínal jako zasvěcený svatému Janu Nepomuckému: po většinu své doložené existence to byl kostel svatého Michaela archanděla, poprvé pod tímto jménem zmíněný v roce 1357, a místní tradice jeho počátky klade ještě dál do minulosti — k dřevěné pohřební kapli, kterou měli krátce po vraždě v roce 921 postavit přímo nad hrobem kněžny Ludmily. To, co stojí dnes, obsahuje skutečné románské zdivo z 12. a 13. století, zapracované do stavby, kterou v 17. století výrazně přestavěli barokně — přinejmenším důkaz, že cokoli tu stálo původně, muselo být dost staré na to, aby na tom záleželo. V 16. století tu byl farářem Václav Hájek z Libočan, kronikář, jehož barvitá (a ne zrovna spolehlivá) historie Čech na generace utvářela to, jak si Češi představovali vlastní legendární minulost — a to i onen konkrétní příběh, ke kterému se tento kostel váže. Za josefínských reforem v 80. letech 18. století byl uzavřen, jakmile farní službu převzal novější kostel svaté Ludmily, a chátral, dokud jeho opravu v 19. století nezafinancoval majitel tetínského zámku. Znovu vysvěcen byl v roce 1836, kdy dostal i své dnešní zasvěcení svatému Janu Nepomuckému.
+
+🎁 Bonus: Dnes je kostel opět odsvěcený a slouží jako malá galerie — což znamená, že možná původní tetínská památka na Ludmilu strávila poslední dvě staletí střídáním patronů, střídáním funkcí a celkově odmítáním v klidu posedět, dokonce i v důchodu.`,
+
+      zh: `勇敢的冒险家，欢迎来到泰钦的圣约翰·内波穆克教堂——一座外表朴素的建筑，却悄悄自称是波希米亚最古老的基督教遗址之一，只是这个名字直到1836年才真正属于它。
+
+这座教堂最初其实根本不是献给圣约翰·内波穆克的：在其有据可查的历史大部分时间里，它一直是圣弥额尔总领天使教堂，最早以此名见于1357年的记载，而当地传说更把它的渊源追溯得更早——据说是一座木造殡葬礼拜堂，在921年鲁德米拉公主遇害后不久，就建在了她的坟墓正上方。如今矗立于此的建筑，保留着真正来自12至13世纪的罗马式砌石结构，融入了17世纪一次大规模巴洛克式改建之中——至少可以证明，最初立在这里的东西，年代确实古老到值得一提。16世纪时，这里的本堂神父是编年史作者瓦茨拉夫·哈耶克·兹·利博昌，他笔下那部生动却不太可靠的波希米亚史书，塑造了此后几代捷克人对自己传说历史的想象——而这座教堂所联系的故事，恰恰也在其中。18世纪80年代约瑟夫改革期间，随着更新的圣鲁德米拉教堂接手教区事务，这座教堂被关闭，此后一直荒废，直到19世纪泰钦庄园的主人出资修复。教堂于1836年重新祝圣，并在那时改奉现在的主保圣人——圣约翰·内波穆克。
+
+🎁 彩蛋：如今这座教堂再度被解除祝圣，成了一座小型美术馆——也就是说，这处很可能是波希米亚最早纪念鲁德米拉之地的建筑，过去两百年里换了主保圣人、换了用途，即便到了"退休"阶段，依旧闲不下来。`,
+    },
+  },
+  {
+    name: 'Church of St. Ludmila (Tetín)',
+    slug: 'kostel-svate-ludmily-tetin',
+    localizedNames: { cz: 'Kostel svaté Ludmily', zh: '泰钦圣鲁德米拉教堂' },
+    labels: ['church', 'historical'],
+    coordinates: { lat: 49.94896520748018, lng: 14.102703935310362 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9_Ludmily_(Tet%C3%ADn)',
+    description: {
+      en: `Brave adventurer, welcome to the Church of St. Ludmila in Tetín — the youngest of the village's three churches, and the one that keeps, sealed under glass on its altar, the actual stone locals say she was murdered on.
+
+Built in the 1680s, this single-nave Baroque church is a comparatively recent addition to Tetín's long relationship with its murdered patroness, but it quickly became the important one: when Emperor Joseph II's church reforms of the 1780s threatened to shut down redundant parish churches across Bohemia, it was this church, not the older St. Michael's, that Tetín's residents petitioned to keep as their parish seat — and won. Its Baroque high altar depicts Ludmila alongside the priest Paul, shown instructing her young grandson, the future Duke (and later Saint) Wenceslas — a quiet reminder that whatever else she was, Ludmila was remembered here first as a grandmother who raised a king. The altar's clear glass mensa holding the stone said to mark her actual death has made the church the natural centre of gravity for Tetín's continuing devotional life, now formally recognised: since 2008 it has held the status of an official Prague Archdiocese pilgrimage site.
+
+🎁 Bonus: Every September, the Ludmila pilgrimage draws crowds back to this small village for the anniversary of her death — in 2021, the 1,100th, a direct descendant of the saint returned to hold Mass on the very ground where his ancestor was killed.`,
+
+      cz: `Statečný dobrodruhu, vítej u kostela svaté Ludmily na Tetíně — nejmladšího ze tří tetínských kostelů, a přitom toho, který na svém oltáři pod sklem uchovává kámen, na němž byla podle místní tradice Ludmila skutečně zavražděna.
+
+Tento jednolodní barokní kostel postavený v 80. letech 17. století je v porovnání s dlouhým vztahem Tetína k jeho zavražděné patronce poměrně nedávným přírůstkem, přesto se rychle stal tím důležitým: když v 80. letech 18. století josefínské církevní reformy hrozily zrušením nadbytečných farních kostelů po celých Čechách, byl to právě tento kostel, ne starší kostel svatého Michaela, o jehož zachování jako farního tetínští obyvatelé žádali — a uspěli. Barokní hlavní oltář zobrazuje Ludmilu po boku kněze Pavla, jak vyučují jejího mladého vnuka, budoucího knížete (a pozdějšího světce) Václava — tichá připomínka, že ať už byla čímkoli jiným, byla tu Ludmila zapamatována především jako babička, která vychovala krále. Skleněná mensa oltáře s kamenem, na němž prý skutečně zemřela, udělala z kostela přirozené těžiště pokračujícího tetínského zbožného života, dnes už i formálně uznané: od roku 2008 má kostel status oficiálního poutního místa pražské arcidiecéze.
+
+🎁 Bonus: Každé září přivádí Svatoludmilská pouť do této malé vesnice davy lidí k výročí její smrti — v roce 2021, u příležitosti 1100. výročí, se sem k mši na místě, kde byla zavražděna jeho předkyně, vrátil přímo její potomek.`,
+
+      zh: `勇敢的冒险家，欢迎来到泰钦的圣鲁德米拉教堂——这座村子三座教堂中最年轻的一座，教堂祭坛上，用玻璃罩着的，正是当地人相传她真正遇害时所倒卧的那块石头。
+
+这座单厅式巴洛克教堂建于17世纪80年代，相较于泰钦与这位遇害主保圣人之间源远流长的关系而言，算是相当晚近的产物，却很快成了其中最重要的一座：18世纪80年代，约瑟夫二世的教会改革一度威胁要关闭波希米亚各地多余的堂区教堂，而泰钦居民请愿保留、并最终争取到作为堂区教堂的，正是这座教堂，而不是更古老的圣弥额尔教堂。教堂的巴洛克主祭坛描绘着鲁德米拉与神父保罗一同教导她年幼的孙子——未来的公爵（后来的圣徒）瓦茨拉夫——这幅画面静静提醒着人们：不论她还有着怎样的身份，在这里，人们首先记得的鲁德米拉，是一位养育出一位国王的祖母。祭坛上那块用透明玻璃罩住、据说标记着她真正死亡地点的石头，让这座教堂自然而然地成为泰钦持续至今的信仰生活中心——如今这一地位也已获得正式承认：自2008年起，教堂被列为布拉格总教区官方朝圣地。
+
+🎁 彩蛋：每年九月，圣鲁德米拉朝圣活动都会为纪念她的忌日，把人群重新带回这座小村庄——2021年适逢她逝世1100周年，据报道，这位圣徒的一位直系后裔亲自回到这片先祖遇害的土地上，主持了弥撒。`,
+    },
+  },
+  {
+    name: 'Statue of St. Ludmila (Charles Bridge)',
+    slug: 'socha-sv-ludmily-karluv-most',
+    localizedNames: { cz: 'Socha svaté Ludmily na Karlově mostě', zh: '查理大桥圣鲁德米拉像' },
+    labels: ['monument', 'bridge'],
+    coordinates: { lat: 50.086596006555546, lng: 14.410227467424823 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Sochy_na_Karlov%C4%9B_most%C4%9B',
+    description: {
+      en: `Brave adventurer, welcome to the Statue of St. Ludmila on Charles Bridge — one of thirty saints lining the crossing, and the only one holding, in her own carved hand, the exact object that killed her.
+
+Carved sometime after 1720, probably out of the workshop of Matyáš Bernard Braun, the statue didn't actually start out on the bridge at all: it originally stood up at Prague Castle, near the since-demolished Einsiedeln Chapel. It only moved down to Charles Bridge after the catastrophic flood of 1784 badly damaged one of the bridge's original statues — a knightly St. Wenceslas by Ottavio Mosto — leaving an empty spot that Ludmila's statue was brought in to fill. The composition is unusually specific for a saint statue: Ludmila holds the veil she was strangled with in one hand, while her other hand points into an open book, where her young grandson — the future Duke and Saint Wenceslas — is learning to read. Crowns mark both figures' royal blood, a shield behind Wenceslas carries the Přemyslid eagle, and a relief on the pedestal depicts the murder Wenceslas himself wouldn't escape either, decades later.
+
+What you're actually looking at today isn't the 18th-century original, though — that was moved for safekeeping to the Gorlice hall at Vyšehrad, and the bridge now displays a 1999 copy by sculptors J. Kačer and M. Kačerová, standing in for a woman who, by this point, has been substituted, relocated, and replaced almost as many times in stone as she was in the history books.
+
+🎁 Bonus: Look closely and you'll notice Ludmila teaching Wenceslas to read, not to fight or rule — a small but pointed reminder of what actually got remembered about her: not political power, but the education of the boy who'd grow up to become Bohemia's patron saint.`,
+
+      cz: `Statečný dobrodruhu, vítej u sochy svaté Ludmily na Karlově mostě — jedné ze třiceti soch světců lemujících přechod, a jediné, která ve vlastní vytesané ruce drží přesně ten předmět, jímž byla zavražděna.
+
+Socha vznikla někdy po roce 1720, nejspíš v dílně Matyáše Bernarda Brauna, a na mostě přitom vůbec nezačínala: původně stála nahoře na Pražském hradě, poblíž dnes zbořené Einsiedelnské kapličky. Na Karlův most se přesunula až poté, co ničivá povodeň roku 1784 vážně poškodila jednu z původních mostních soch — rytířského svatého Václava od Ottavia Mosta — a uvolnila tak místo, které měla zaplnit právě Ludmila. Kompozice je na sochu světice nezvykle konkrétní: Ludmila v jedné ruce drží závoj, jímž byla uškrcena, druhou rukou ukazuje do otevřené knihy, v níž se její mladý vnuk — budoucí kníže a světec Václav — učí číst. Koruny u obou postav značí královský původ, štít za Václavem nese přemyslovskou orlici a reliéf na podstavci zobrazuje vraždu, které se ani sám Václav o pár desetiletí později nevyhnul.
+
+To, na co se dnes díváš, ale není originál z 18. století — ten byl kvůli ochraně přemístěn do vyšehradské Gorlice, a na mostě dnes stojí kopie z roku 1999 od sochařů J. Kačera a M. Kačerové, zastupující ženu, která byla v kameni k tomuto bodu nahrazena a přemístěna už skoro tolikrát, kolikrát v dějepisných knihách.
+
+🎁 Bonus: Podívej se pozorně a všimneš si, že Ludmila Václava učí číst, ne bojovat nebo vládnout — malá, ale výmluvná připomínka toho, co si o ní lidé skutečně pamatují: ne politickou moc, ale vzdělání chlapce, z něhož vyroste patron české země.`,
+
+      zh: `勇敢的冒险家，欢迎来到查理大桥上的圣鲁德米拉像——桥上三十座圣徒雕像之一，也是唯一一座亲手握着杀死自己那件凶器的雕像。
+
+这座雕像大约完成于1720年之后，很可能出自马蒂亚什·伯纳德·布劳恩的工作坊，但它最初其实根本不在这座桥上：起初它立于布拉格城堡之上，靠近后来被拆除的艾因西德伦礼拜堂。直到1784年那场灾难性的洪水严重损毁了大桥上最早的雕像之一——奥塔维奥·莫斯托所作的骑士圣瓦茨拉夫像——留下的空缺才由鲁德米拉像补上，迁移至此。这组雕像的构图对一尊圣徒像来说异常具体：鲁德米拉一手握着当年勒死她的那条头纱，另一只手指向一本摊开的书——她年幼的孙子，未来的公爵与圣徒瓦茨拉夫，正在书前学习认字。两人头顶的王冠标示着各自的王室血统，瓦茨拉夫身后的盾牌上刻着普热米斯尔王朝的鹰徽，基座上的浮雕则描绘着几十年后瓦茨拉夫自己也未能逃过的那场谋杀。
+
+不过，你今天所看到的其实并非18世纪的原作——原作出于保护目的，已被迁往维谢赫拉德的戈利采厅，如今立在桥上的，是雕塑家J·卡切尔与M·卡切洛娃于1999年制作的复制品——继续代表着这位女子，而她本人，无论是在石雕中还是在史书里，都已经被替换、迁移了太多次。
+
+🎁 彩蛋：仔细看看就会发现，鲁德米拉教的是瓦茨拉夫认字，而不是打仗或治国——这个小细节恰恰点出了后人真正记住她的原因：不是政治权力，而是她教育出了那个后来成为波希米亚守护圣人的男孩。`,
+    },
+  },
+  {
+    name: 'Basilica of St. Ludmila',
+    slug: 'namesti-miru',
+    localizedNames: { cz: 'Bazilika sv. Ludmily', zh: '圣鲁德米拉圣殿' },
+    labels: ['basilica', 'church', 'architecture'],
+    coordinates: { lat: 50.075354074325865, lng: 14.436368818058986 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Basilica_of_St._Ludmila',
+    description: {
+      en: `Brave adventurer, welcome to the Basilica of St. Ludmila — twin 60-metre neo-Gothic towers commanding Náměstí Míru (Peace Square) from five converging streets, and, as of 2022, the only church on Earth carrying basilica minor status in her name.
+
+Architect Josef Mocker laid the foundation stone on 25 November 1888, and construction wrapped in 1892; Cardinal František Schönborn consecrated the finished building on 8 October 1893. It's a proper three-aisled pseudo-basilica with a transept and four diagonal portal entrances, built from brick with sandstone trim — squarely in the same 19th-century neo-Gothic revival that gave Prague St. Vitus Cathedral its completed towers and half the city its historicist skyline. Inside, vaulted ceilings and murals of Czech patron saints surround a set of period stained glass, while a 1898 organ by Emanuel Štěpán Petr, opus 117 in its own carved oak case, still plays from the choir loft.
+
+In August 2022, Pope Francis elevated the church to basilica minor — making it the fifth basilica in Prague, and, more specifically, the only Basilica of St. Ludmila in the entire world, a title this one modest Vinohrady parish church now holds all on its own.
+
+🎁 Bonus: The whole building is a 19th-century tribute to a woman murdered nearly a thousand years earlier — proof that in Bohemia, a really good grudge against your daughter-in-law's assassins can echo for a very long time.`,
+
+      cz: `Statečný dobrodruhu, vítej u Baziliky svaté Ludmily — dvou šedesátimetrových novogotických věží, které ovládají Náměstí Míru z pěti sbíhajících se ulic, a od roku 2022 jediného kostela na světě, který nese titul bazilika minor v jejím jméně.
+
+Architekt Josef Mocker položil základní kámen 25. listopadu 1888 a stavba byla dokončena v roce 1892; kardinál František Schönborn hotovou budovu vysvětil 8. října 1893. Jde o pravou trojlodní pseudobaziliku s transeptem a čtyřmi diagonálně umístěnými portálovými vstupy, postavenou z cihel s pískovcovými detaily — přímo v duchu téhož novogotického obrození 19. století, které Praze dalo i dokončené věže katedrály svatého Víta a polovinu jejího historizujícího panoramatu. Uvnitř obklopují klenuté stropy a nástěnné malby českých zemských patronů dobové vitráže, a z kruchty stále hraje varhany od Emanuela Štěpána Petra z roku 1898, opus 117, ve vlastní vyřezávané dubové skříni.
+
+V srpnu 2022 papež František kostel povýšil na baziliku minor — pátou v Praze, a konkrétněji jedinou baziliku svaté Ludmily na celém světě, titul, který si tento skromný vinohradský farní kostel drží úplně sám.
+
+🎁 Bonus: Celá stavba je devatenáctistoletým holdem ženě zavražděné skoro tisíc let předtím — důkaz, že v Čechách umí opravdu pořádná zášť vůči vrahům vlastní snachy doznívat pěkně dlouho.`,
+
+      zh: `勇敢的冒险家，欢迎来到圣鲁德米拉圣殿——两座六十米高的新哥特式尖塔，从五条汇聚而来的街道上俯瞰着和平广场，而且自2022年起，这里成了全世界唯一一座以她之名获得“宗座圣殿”称号的教堂。
+
+建筑师约瑟夫·莫克尔于1888年11月25日奠基，工程于1892年完工；红衣主教弗朗蒂谢克·舍恩博恩于1893年10月8日为落成的教堂举行祝圣仪式。这是一座名副其实的三廊式伪巴西利卡式建筑，带有耳堂与四个呈对角布局的门廊入口，由砖砌成、饰以砂岩细部——恰好属于19世纪那场新哥特复兴运动的一部分，正是这场运动为布拉格带来了圣维特大教堂那两座最终落成的尖塔，以及这座城市历史主义天际线的半壁江山。教堂内部，拱顶与描绘捷克守护圣人的壁画环绕着一组年代考究的彩绘玻璃，唱诗席上那台1898年由埃马努埃尔·什捷潘·佩特尔制作、编号第117号、装在自制雕花橡木箱中的管风琴，至今仍能演奏。
+
+2022年8月，教宗方济各将这座教堂晋升为宗座圣殿——布拉格的第五座宗座圣殿，更确切地说，是全世界唯一一座圣鲁德米拉宗座圣殿，这个头衔，如今由这座维诺赫拉迪区并不起眼的堂区教堂独自一人扛着。
+
+🎁 彩蛋：整座建筑，其实是19世纪的人们献给一位近千年前遇害的女性的致敬之作——这也证明了，在波希米亚，只要对儿媳的凶手记恨得够彻底，这份怨念是真的能回响将近一千年的。`,
+    },
+  },
+
+  // ── Seven Legendary Dukes batch (2026-08) ───────────────────────────────
+  {
+    name: 'Cubist House on Neklanova Street',
+    slug: 'kubisticky-dum-neklanova',
+    localizedNames: { cz: 'Kubistický dům v Neklanově ulici', zh: '涅克兰诺娃街立体主义公寓楼' },
+    labels: ['architecture', 'historical'],
+    coordinates: { lat: 50.066401704020905, lng: 14.421070999750736 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kubistick%C3%BD_d%C5%AFm_v_Neklanov%C4%9B_ulici',
+    description: {
+      en: `Brave adventurer, welcome to the Cubist House on Neklanova Street — a five-storey apartment building so architecturally daring it's been called unique on a global scale, standing on a street named after one of Bohemia's shakiest legendary dukes.
+
+Built in 1913–14 by architect Josef Chochol for builder František Hodek, the building occupies an awkward trapezoidal corner lot where Neklanova meets Přemyslova — and Chochol turned that awkwardness into the whole point. Rather than softening the sharp street corner, he sharpened it further: parapets, cornices, and window frames all break into faceted, crystalline planes, in the same angular idiom Cubist painters were applying to canvas at exactly the same moment, only here poured into brick, plaster, and stone. The acute corner angle is the building's real showpiece, emphasized by a run of balconies wrapped around an octagonal corner pillar — a detail architectural historians still single out as having no real equivalent anywhere else in the world. Protected as a cultural monument since 1964, the building has kept its original cubist doors, handles, and stair railings intact, making it one of the most complete surviving interiors from Prague's short, strange, and thoroughly unrepeated flirtation with Cubist architecture.
+
+🎁 Bonus: The street this masterpiece stands on is named for Neklan, one of the seven half-remembered legendary dukes historians suspect may just be padding invented to stretch out the royal family tree. Bohemia's most internationally admired piece of early 20th-century architecture, in other words, has a street address that quietly commemorates a man who might never have existed.`,
+
+      cz: `Statečný dobrodruhu, vítej u Kubistického domu v Neklanově ulici — pětipatrového činžovního domu tak architektonicky odvážného, že bývá označován za jedinečný v celosvětovém měřítku, stojícího na ulici pojmenované po jednom z nejméně jistých legendárních knížat českých dějin.
+
+Dům postavil v letech 1913–14 architekt Josef Chochol pro stavitele Františka Hodka, a stojí na nepříjemně lichoběžníkovém rohovém pozemku tam, kde se Neklanova stýká s Přemyslovou — a Chochol z té nepříjemnosti udělal hlavní téma stavby. Místo aby ostrý roh ulice zjemnil, ještě ho zaostřil: parapety, římsy i okenní rámy se lámou do fasetovaných, krystalických ploch, ve stejné hranaté řeči, jakou ve stejné chvíli používali kubističtí malíři na plátně — jen tady je odlitá do cihel, omítky a kamene. Skutečným klenotem stavby je právě ostrý roh, zdůrazněný řadou balkonů obtočených kolem osmibokého rohového pilíře — detail, který dějiny architektury dodnes vyzdvihují jako něco, co nemá nikde jinde na světě obdoby. Od roku 1964 je dům chráněnou kulturní památkou a dochoval si původní kubistické dveře, kliky i schodišťová zábradlí, díky čemuž patří k nejúplnějším dochovaným interiérům z krátkého, podivného a nikdy nezopakovaného pražského flirtu s kubistickou architekturou.
+
+🎁 Bonus: Ulice, na které tenhle skvost stojí, nese jméno Neklana, jednoho ze sedmi napůl zapomenutých legendárních knížat, u nichž historikové podezírají, že šlo možná jen o výplň vymyšlenou k natažení rodokmenu. Mezinárodně nejobdivovanější kus rané dvacátostoletí architektury v Čechách má tak adresu tiše připomínající muže, který možná nikdy neexistoval.`,
+
+      zh: `勇敢的冒险家，欢迎来到内克拉诺娃街立体主义公寓楼——一座五层公寓楼，建筑手法之大胆，常被认为在全世界范围内都独一无二，而它所在的街道，恰恰以波希米亚历史上最难以确证的传说公爵之一命名。
+
+这栋建筑由建筑师约瑟夫·霍霍尔于1913至1914年间为建筑商弗兰蒂谢克·霍德克设计建造，坐落在内克拉诺娃街与普热米斯洛娃街交汇处一块形状别扭的梯形转角地块上——而霍霍尔干脆把这份别扭变成了整栋建筑的核心构思。他没有把街角的尖锐角度磨圆，反而把它进一步"磨尖"：女儿墙、檐口与窗框全都折射成棱角分明的水晶般平面，与同一时期立体主义画家在画布上使用的语言如出一辙，只不过这里换成了砖石、灰泥与石材浇筑而成。整栋建筑真正的看点正是那个锐角转角，由一圈环绕八边形转角柱的阳台层层强调——建筑史学家至今仍认为，这个细节在全世界都找不到真正的同类。这栋建筑自1964年起被列为文化古迹保护对象，至今保留着原始的立体主义风格门扇、把手与楼梯扶手，是布拉格那段短暂、古怪、且再未重演的立体主义建筑试验中，保存最完整的室内空间之一。
+
+🎁 彩蛋：这座杰作所在的街道，正是以涅克兰命名——七位记忆模糊的传说公爵之一，历史学家甚至怀疑，他可能只是为了拉长王室家谱而虚构出来的凑数人物。换句话说，波希米亚在20世纪初最受国际赞誉的这栋建筑作品，门牌地址上悄悄纪念的，却是一位或许根本不曾存在过的人。`,
+    },
+  },
+  {
+    name: 'Krliš Hill',
+    slug: 'pahorek-krlis',
+    localizedNames: { cz: 'Pahorek Krliš', zh: '克尔利什山丘' },
+    labels: ['historical', 'nature'],
+    coordinates: { lat: 50.187322538079606, lng: 14.327591476392469 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Krli%C5%A1',
+    description: {
+      en: `Welcome to Krliš, a quiet forested hill above the village of Tursko, where Czech legend insists a decisive medieval battle turned the tide against an invading tribe — and where actual archaeology tells a considerably older, less dramatic story.
+
+Local tradition ties this modest 308-metre rise to the Lucká válka, the legendary war between Duke Neklan's Bohemians and the neighbouring Lučané under their own duke, Vlastislav. As the story goes, a warrior named Čestmír killed Vlastislav in single combat on the nearby Turské pole before falling himself, and the emboldened Czechs went on to win the battle — burying their fallen champion, so the legend says, right here on Krliš. The name Čestmírova mohyla, "Čestmír's mound," even shows up in the Rukopis královédvorský, a supposedly medieval manuscript "discovered" in 1817 — except that manuscript was itself later shown, by forensic analysis, to almost certainly be a 19th-century forgery, quite possibly written by the very man who "found" it. So the legend of Krliš turns out to rest on a forged source citing an already-uncertain older legend, which is, even by this era's standards, an impressively wobbly foundation.
+
+Excavations on the hill in the 20th century found a genuine Slavic-period cemetery, but the mound itself is far older than any ninth-century war: it dates to the Bronze Age Únětice culture, with further burial activity added in the early La Tène period — meaning whatever actually happened to Čestmír, real people were already building funeral mounds on this hill roughly two thousand years before he supposedly needed one.
+
+🎁 Bonus: A forged 19th-century manuscript naming a mound after a legendary warrior, sitting on top of a genuinely ancient Bronze Age burial site — Krliš is less a monument to one story than a small hill with several unrelated layers of the dead, only one of which anybody actually invented on purpose.`,
+
+      cz: `Vítej na Krliši, klidném zalesněném pahorku nad vsí Tursko, kde podle české pověsti kdysi padlo rozhodnutí bitvy, jež zvrátila osud vpadlého kmene — a kde skutečná archeologie vypráví o dost starší a méně dramatický příběh.
+
+Místní tradice spojuje tenhle nenápadný 308metrový vrch s Luckou válkou, legendární válkou mezi Čechy knížete Neklana a sousedními Lučany pod jejich vlastním vévodou Vlastislavem. Podle pověsti zabil bojovník jménem Čestmír Vlastislava v osobním souboji na nedalekém Turském poli, než sám padl, a povzbuzení Češi bitvu vyhráli — svého padlého hrdinu prý pohřbili přímo tady, na Krliši. Jméno Čestmírova mohyla se dokonce objevuje v Rukopisu královédvorském, údajně středověkém rukopise „objeveném" v roce 1817 — jenže tenhle rukopis byl později forenzní analýzou téměř jistě usvědčen z toho, že jde o falzum z 19. století, klidně možná z pera samotného muže, který ho „našel". Pověst o Krliši tak nakonec stojí na zfalšovaném prameni, který cituje už tak nejistou starší pověst — což je i na poměry téhle éry pozoruhodně vratký základ.
+
+Výzkumy na pahorku ve 20. století odhalily skutečné pohřebiště ze slovanského období, jenže samotná mohyla je mnohem starší než jakákoli válka z 9. století: pochází z doby bronzové, z únětické kultury, a další pohřby k ní přibyly v raném laténském období — takže ať se s Čestmírem ve skutečnosti stalo cokoli, lidé na tomhle kopci stavěli pohřební mohyly zhruba dva tisíce let předtím, než ji údajně potřeboval on.
+
+🎁 Bonus: Zfalšovaný rukopis z 19. století pojmenovávající mohylu po legendárním bojovníkovi, sedící navrch skutečně starobylého pohřebiště z doby bronzové — Krliš je tak spíš než pomník jednoho příběhu malý kopec s několika nesouvisejícími vrstvami mrtvých, z nichž jen jednu si někdo záměrně vymyslel.`,
+
+      zh: `欢迎来到克尔利什山丘——图尔斯科村上方一座安静的林木覆盖的小山，捷克传说坚称一场决定性的中世纪战役曾在此扭转局势、击退入侵部族，而真正的考古发现，讲述的却是一个古老得多、也平淡得多的故事。
+
+当地传说把这座海拔仅308米的小山，与"卢茨基之战"联系在一起——这场传说中的战争，发生在涅克兰公爵率领的波希米亚人与邻近卢查内人及其首领弗拉斯提斯拉夫之间。据传说，一位名叫切斯特米尔的战士在附近的图尔斯克平原与弗拉斯提斯拉夫单挑并将其杀死，自己也随后阵亡，士气大振的捷克人由此赢得了这场战役——据说他们就把这位阵亡的英雄，葬在了克尔利什山上。"切斯特米尔之冢"这个名字，甚至出现在《克拉洛韦德沃尔手稿》中——一份据称是中世纪手稿、于1817年被"发现"的文献——只不过后来的司法鉴定几乎可以确定，这份手稿本身就是19世纪的一份伪作，甚至很可能正是出自"发现"它的那个人自己之手。克尔利什的传说，最终竟建立在一份伪造文献之上，而那份伪造文献引用的，还是一个本就存疑的更古老传说——即便以这个时代的标准衡量，这地基也松动得令人叹为观止。
+
+20世纪在此进行的考古发掘，确实找到了一处斯拉夫时期的真实墓地，但这座土冢本身，其实比任何9世纪的战争都要古老得多：它最早可追溯至青铜时代的乌涅蒂采文化，到了拉坦诺文化早期又追加了新的墓葬——也就是说，不管切斯特米尔当年究竟经历了什么，早在他"需要"这座坟冢的大约两千年前，就已经有人在这座山上修建墓冢了。
+
+🎁 彩蛋：一份19世纪的伪造手稿，把一座土冢以传说中的战士之名命名，而这座土冢底下，压着的却是一处货真价实的青铜时代古墓——与其说克尔利什纪念着某一个故事，不如说它是一座小山丘，叠压着好几层互不相干的死者，其中只有一层，是真的有人故意编造出来的。`,
+    },
+  },
+
+  // ── Before the Legend batch (2026-08) ───────────────────────────────────
+  {
+    name: 'Pičhora Cremation Cemetery',
+    slug: 'zarove-pohrebiste-pichora',
+    localizedNames: { cz: 'Žárové pohřebiště Pičhora', zh: '皮赫拉火葬墓地' },
+    labels: ['historical', 'nature'],
+    coordinates: { lat: 50.07391642590366, lng: 15.029879825289628 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pi%C4%8Dhora',
+    description: {
+      en: `Welcome to the Pičhora Cremation Cemetery, a modest hilltop above the village of Dobřichov where, in April 1896, gravel workers accidentally dug straight into the burial ground of a Germanic warrior elite — the men who served under Marobud, the closest thing early Bohemia had to an empire.
+
+Marobud was king of the Marcomanni, the Germanic tribe that moved into Bohemia after the Celtic Boii cleared out, and built a short-lived but genuinely formidable confederation stretching well beyond the region's own borders in the decades around the turn of the first millennium. Pičhora is where his retinue was buried: archaeologist Josef Ladislav Píč and his assistant Jan Waněk excavated 160 cremation graves here by 1906, roughly half of them urn burials, spanning from the early Roman period through the brutal Marcomannic Wars of 166–180 AD — one of the largest cemeteries of its kind ever found in the country. Among the finds, now held by the National Museum in Prague, was a strikingly crafted bronze bucket topped with a maenad's head, evidence that whoever these warriors were, somebody back home had access to genuinely fine imported metalwork.
+
+Today the hilltop is part of the Stezka Markomanů (Marcomanni Trail), with interpretive panels, a reconstructed Germanic dwelling, and a wooden warrior statue standing watch — plus a small monument raised in 1911 by Jan Waněk himself, in memory of Píč, who didn't live to see how much attention his gravel-pit discovery would eventually receive.
+
+🎁 Bonus: The Germanic tribes who displaced the Boii, only to pack up a few centuries later and move south — the vague, faceless part of Bohemia's population history mentioned in passing before the Slavic settlers even show up — turn out to have left behind actual names, actual burials, and an actual king. Marobud just needed someone to dig a gravel pit in the right place first.`,
+
+      cz: `Vítej u Žárového pohřebiště Pičhora, nenápadného návrší nad vsí Dobřichov, kde v dubnu 1896 dělníci při těžbě štěrku náhodou narazili přímo na pohřebiště germánské válečnické elity — mužů ve službách Marobuda, nejbližší věci, jakou měly rané Čechy k něčemu jako impérium.
+
+Marobud byl králem Marokomanů, germánského kmene, který se do Čech přesunul poté, co odsud odešli keltští Bójové, a v desetiletích kolem přelomu letopočtu vybudoval krátkodobou, ale skutečně respektovanou konfederaci sahající daleko za hranice samotného regionu. Právě na Pičhoře byla pohřbívána jeho družina: archeolog Josef Ladislav Píč a jeho asistent Jan Waněk tu do roku 1906 prozkoumali 160 žárových hrobů, zhruba polovinu z nich v urnách, z období od raně římské doby až po brutální markomanské války let 166–180 n. l. — jedno z největších pohřebišť svého druhu, jaké kdy bylo v zemi nalezeno. Mezi nálezy, dnes uloženými v pražském Národním muzeu, byl i pozoruhodně zdobený bronzový kotlík zakončený hlavou mainady — důkaz, že ať už byli tihle válečníci kdokoli, někdo doma měl přístup ke skutečně kvalitnímu dováženému kovářskému umění.
+
+Dnes je návrší součástí Stezky Markomanů, s naučnými panely, rekonstrukcí germánského obydlí a dřevěnou sochou válečníka, která tu drží stráž — a k tomu malým pomníkem, který v roce 1911 vztyčil sám Jan Waněk na památku Píče, jenž se nedožil toho, kolik pozornosti jeho objev ve štěrkovně nakonec sklidí.
+
+🎁 Bonus: Germánské kmeny, které vytlačily Bóje, jen aby se o pár století později samy sbalily a vydaly se na jih — ta neurčitá, bezejmenná část dějin osídlení Čech, zmíněná jen tak mimochodem předtím, než se vůbec objeví slovanští osadníci — se nakonec ukázaly mít skutečná jména, skutečné hroby a skutečného krále. Marobud jen potřeboval, aby někdo na správném místě začal těžit štěrk.`,
+
+      zh: `欢迎来到皮赫拉火葬墓地——多布日霍夫村上方一座不起眼的小山丘，1896年4月，工人们在这里采挖砾石时，意外挖到了一处日耳曼战士精英的墓地——这些人正是马罗博杜麾下的部众，早期波希米亚境内最接近"帝国"的一段历史。
+
+马罗博杜是马科曼尼人的国王，这支日耳曼部落在凯尔特波伊人离开后迁入波希米亚，并在公元纪年前后的几十年间，建立起一个存续时间不长、却货真价实令人忌惮的联盟，势力范围远远超出了这一地区本身的边界。皮赫拉正是他麾下亲兵的埋骨之地：考古学家约瑟夫·拉迪斯拉夫·皮奇与助手扬·瓦涅克在此发掘，到1906年已清理出160座火葬墓，其中约半数为瓮葬，年代从罗马早期一直延续到166至180年间那场残酷的马科曼尼战争——是全国已知同类墓地中规模最大的一处。出土文物如今收藏于布拉格国家博物馆，其中一件造型精美的青铜提桶尤为引人注目，桶身饰有酒神女祭司头像——足以说明，不管这些战士究竟是什么身份，他们的家乡确实能获得真正精良的进口金属工艺品。
+
+如今，这座小山已成为"马科曼尼人步道"的一部分，设有讲解展板、一座复原的日耳曼民居，还有一尊木雕战士像在此守望——此外还有一座1911年由扬·瓦涅克本人所立的小型纪念碑，用以纪念皮奇——他没能活着看到，自己在砾石坑里的这次发现，日后会引来多大的关注。
+
+🎁 彩蛋：那些赶走了波伊人、又在几个世纪后自己收拾行装南迁的日耳曼部落——在斯拉夫定居者出现之前，波希米亚人口史上那段模糊不清、连名字都懒得一提的过渡阶段——到头来却留下了真实的姓名、真实的墓葬，还有一位真实存在的国王。马罗博杜所欠缺的，不过是有人恰好在正确的地方挖了一个砾石坑。`,
+    },
+  },
+  {
+    name: 'Vinoř Rondel',
+    slug: 'vinorsky-rondel',
+    localizedNames: { cz: 'Vinořský rondel', zh: '维诺日环形建筑' },
+    labels: ['historical', 'nature'],
+    coordinates: { lat: 50.14200240257643, lng: 14.575063381591438 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://isad.npu.cz/neoliticky-rondel-praha-vinor-7087',
+    description: {
+      en: `Welcome to the Vinoř Rondel, a vast circular earthwork buried beneath the fields on Prague's northeastern edge — built roughly 7,000 years ago, which makes it a good 1,500 years older than Stonehenge, and nobody has ever fully agreed on what it was actually for.
+
+First stumbled upon during utility works in the 1980s, the rondel wasn't properly investigated until systematic excavation began in 2022, combining geophysical survey with old-fashioned digging. What emerged was a circular enclosure 55 metres across, ringed by ditches and a timber palisade whose foundation trenches survived in exceptional condition — and, unusually even among the roughly 35 known rondels in the Czech Republic, one built with three separate entrances rather than the more typical two or four. A Neolithic settlement occupied nearby for three to four centuries, one of several comparably dated communities within a five-kilometre radius, suggesting the rondel wasn't an isolated project but a shared undertaking serving a whole cluster of farming villages. Archaeologists estimate they'll eventually be able to map roughly 90% of its full layout — a level of completeness only a handful of Europe's roughly 200 known rondels have ever achieved.
+
+What these structures were actually built for remains genuinely unresolved: calendar, ritual site, meeting ground, and simple show of communal labour have all been proposed, and none has been proven. Whatever the reason, Neolithic farmers with only stone and wooden tools dug ditches, raised a palisade, and left three deliberate gaps in it — a full one and a half millennia before anyone in Britain thought to start hauling stones to Salisbury Plain.
+
+🎁 Bonus: Prague likes to date its own story from Libuše's 8th-century prophecy — but the ground under Vinoř was already the site of monumental, multi-village construction projects a full six thousand years before she supposedly stood on any cliff at all.`,
+
+      cz: `Vítej u Vinořského rondelu, rozlehlého kruhového zemního díla ukrytého pod poli na severovýchodním okraji Prahy — postaveného zhruba před 7000 lety, což ho činí o dobrých 1500 let starším než Stonehenge, a na to, k čemu vlastně sloužil, se dodnes nikdo úplně neshodl.
+
+Poprvé na něj narazili náhodou při inženýrských pracích v 80. letech 20. století, ale pořádně se prozkoumal až od roku 2022, kdy systematická výzkumná kampaň spojila geofyzikální průzkum s klasickým kopáním. Vynořil se z toho kruhový areál o průměru 55 metrů, obehnaný příkopy a dřevěnou palisádou, jejíž základové žlaby se dochovaly v mimořádném stavu — a nezvykle i v porovnání s ostatními zhruba pětatřiceti známými rondely v Čechách měl hned tři samostatné vstupy místo obvyklejších dvou nebo čtyř. Nedaleko po tři až čtyři století stávalo neolitické sídliště, jedno z několika podobně datovaných osad v okruhu pěti kilometrů, což naznačuje, že rondel nebyl izolovaným projektem, ale společným dílem sloužícím celému shluku zemědělských vesnic. Archeologové odhadují, že se jim postupně podaří zmapovat zhruba 90 % jeho půdorysu — úplnost, jaké dosáhla jen hrstka z asi dvou set známých evropských rondelů.
+
+K čemu tyhle stavby skutečně sloužily, zůstává vážně nevyřešené: navrhovaly se kalendář, obřadní místo, shromaždiště i prostá demonstrace společné pracovní síly, a nic z toho nebylo prokázáno. Ať už byl důvod jakýkoli, neolitičtí zemědělci s pouze kamennými a dřevěnými nástroji vykopali příkopy, postavili palisádu a záměrně v ní nechali tři mezery — celé půldruhého tisíciletí předtím, než někoho v Británii vůbec napadlo začít vozit kameny na planinu Salisbury.
+
+🎁 Bonus: Praha ráda datuje svůj vlastní příběh od Libušina proroctví z 8. století — jenže půda pod Vinoří byla dějištěm monumentálních, více vesnic zapojujících stavebních projektů celých šest tisíc let předtím, než údajně vůbec stála na nějaké skále.`,
+
+      zh: `欢迎来到维诺日环形建筑遗址——一座巨大的环形土木结构，深埋在布拉格东北边缘的田野之下，建造于约7000年前，比英国的巨石阵还要早上足足1500年，而它究竟是做什么用的，至今没人能给出一个大家都认同的答案。
+
+这处遗址最早是在20世纪80年代的市政工程中被偶然发现的，但直到2022年才开始系统性发掘，将地球物理勘探与传统考古挖掘结合起来。发掘揭示出一座直径55米的环形围场，四周环绕着壕沟与木栅栏，其基槽保存状态异常完好——而且即便放在捷克境内约三十五座已知的同类环形建筑中，它也颇为特殊：拥有三个独立入口，而不是更常见的两个或四个。附近曾有一处新石器时代聚落，存续了三四百年，是方圆五公里内数处年代相近的聚落之一，这说明这座环形建筑并非孤立的工程，而是服务于整片农业村落群的共同事业。考古学家估计，最终能够复原其约90%的完整平面布局——在全欧洲约两百座已知环形建筑中，能达到这种完整程度的，也只有寥寥数座。
+
+这类建筑究竟是用来做什么的，至今仍是一个真正悬而未决的问题：历法、祭祀场所、集会地点，乃至纯粹展示集体劳动力的说法都曾被提出，却没有一种能被证实。但无论出于什么原因，只用石器与木制工具的新石器时代农人，硬是挖出了壕沟、竖起了栅栏，还特意在其中留出三处缺口——比英国人想到要往索尔兹伯里平原搬运石头，早了整整一千五百年。
+
+🎁 彩蛋：布拉格喜欢把自己的故事，追溯到8世纪莉布谢的那则预言——可维诺日脚下的这片土地，早在她据说站上任何一处悬崖的整整六千年之前，就已经是多个村落共同参与的宏大建筑工程的现场了。`,
+    },
+  },
+  {
+    name: "Libuše's Bath",
+    slug: 'libusina-lazen',
+    localizedNames: { cz: 'Libušina lázeň', zh: '莉布谢浴池' },
+    labels: ['ruin', 'historical'],
+    coordinates: { lat: 50.06341152700302, lng: 14.41602961667346 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://vysehradskej.cz/libusina-lazen/',
+    description: {
+      en: `Welcome to Libuše's Bath, a crumbling five-sided ruin clinging to the cliff face above the Vltava at Vyšehrad — named for a scandal its own princess almost certainly never had time to commit.
+
+Local legend insists Libuše used this spot to bathe with her lovers, and, once she'd tired of them, to fling the unlucky men straight off the cliff into the Vltava's Vyšehradská tůň below — reputedly the river's deepest pool, some nine metres down. It's a vivid story, and almost entirely fictional: the ruin itself dates to the 14th-century Luxembourg era at the earliest, possibly even as late as the 1550s–1600s, making it many centuries too young to have hosted a princess from the 700s. What it actually was is far less scandalous — most likely a watchtower for controlling river traffic, or a mechanism for hauling cargo and water up from the Vltava, part of the wider fortifications Charles IV raised around Vyšehrad. The structure was never even finished; it still has no roof today, and the site is closed off for safety, though archaeologists occasionally get inside to have a look. A wide arched opening, well over three metres across, still faces the river, with a shallow rocky channel running down toward the water below it — evocative enough, even empty, that the murder legend stuck regardless of the timeline problem.
+
+🎁 Bonus: The story of Libuše drowning her discarded lovers reads like character assassination because it may well have been exactly that — a 19th-century tale that took root partly to cast the legendary mother of the Přemyslid dynasty in the worst possible light, centuries after she'd stopped being able to object.`,
+
+      cz: `Vítej u Libušiny lázně, rozpadající se pětiboké zříceniny přimknuté ke skalní stěně nad Vltavou na Vyšehradě — pojmenované po skandálu, který si její vlastní kněžna téměř jistě nikdy nestihla užít.
+
+Místní pověst tvrdí, že se tu Libuše koupala se svými milenci a jakmile se jí omrzeli, nešťastníky rovnou svrhla ze skály do Vyšehradské tůně pod sebou — údajně nejhlubšího místa na celé Vltavě, hlubokého až devět metrů. Je to živý příběh a téměř úplně smyšlený: samotná zřícenina pochází nejdříve z lucemburské doby 14. století, možná dokonce až z let 1550–1600, takže je o celá staletí příliš mladá na to, aby tu mohla hostit kněžnu z 8. století. To, čím stavba skutečně byla, je mnohem méně skandální — nejspíš strážní věž určená ke kontrole říčního provozu, nebo zařízení na vytahování nákladu a vody z Vltavy, součást širšího opevnění, které kolem Vyšehradu vybudoval Karel IV. Stavba navíc nikdy nebyla dokončena; dodnes nemá střechu a lokalita je z bezpečnostních důvodů uzavřená, byť se archeologové čas od času dovnitř podívají. Široký oblouk, přes tři metry v průměru, dodnes hledí k řece, s mělkou skalní rýhou stékající dolů k vodě — dost sugestivní i tak prázdný na to, aby se vražedná pověst udržela navzdory problému s časovou osou.
+
+🎁 Bonus: Příběh o Libuši topící své odložené milence působí jako pomluva, protože to možná přesně pomluva byla — pověst z 19. století, která se ujala mimo jiné proto, aby legendární matku přemyslovské dynastie vykreslila v co nejhorším světle, celá staletí poté, co se proti tomu už nemohla bránit.`,
+
+      zh: `欢迎来到莉布谢浴池——一座紧贴维谢赫拉德悬崖峭壁、俯瞰伏尔塔瓦河的五边形残迹废墟，名字来自一桩这位公爵夫人本人几乎肯定从未来得及犯下的丑闻。
+
+当地传说坚称，莉布谢曾在此与情人们沐浴，一旦对他们厌倦，便直接把这些倒霉的男人从悬崖推入下方的伏尔塔瓦河维谢赫拉德深潭——据说是整条伏尔塔瓦河最深的水域，深达九米。这是个生动的故事，却也几乎完全是虚构的：这座废墟本身最早可追溯至14世纪卢森堡王朝时期，甚至可能晚至1550至1600年间才建成，年代比传说中8世纪的公爵夫人足足晚了好几百年。它真正的用途远没有那么香艳——最可能是用来控制河道交通的瞭望塔，或是从伏尔塔瓦河中提运货物与河水的设施，属于查理四世在维谢赫拉德周边修建的更大规模防御工事的一部分。这座建筑甚至从未真正完工，至今仍没有屋顶，出于安全考虑该地点已被封闭，只有考古学家偶尔获准进入察看。一道宽阔的拱形开口，直径超过三米，至今仍面朝河面，下方一道浅浅的岩石沟槽一路延伸至水边——即便空无一物，也足够引人遐想，让这则谋杀传说不顾时间线上的破绽依然流传至今。
+
+🎁 彩蛋：莉布谢溺毙被抛弃情人的故事读起来像一场蓄意的名誉抹黑，因为它很可能正是如此——这则19世纪的传说之所以流传开来，部分原因正是要把普热米斯尔王朝这位传说中的开国母亲，塑造成尽可能负面的形象，而这一切都发生在她早已无从辩驳的数百年之后。`,
+    },
+  },
+  {
+    name: 'Špička Gate',
+    slug: 'brana-spicka',
+    localizedNames: { cz: 'Brána Špička', zh: '施皮奇卡门' },
+    labels: ['ruin', 'historical'],
+    coordinates: { lat: 50.062222623824375, lng: 14.423082283983915 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C5%A0pi%C4%8Dka_(br%C3%A1na)',
+    description: {
+      en: `Brave adventurer, welcome to Špička Gate, the shattered remains of what was once the single most imposing fortification at Vyšehrad — a two-storey passable stronghold with nine slender turrets, which is exactly where it got its name.
+
+Built under Charles IV between 1348 and 1350, Špička guarded the one side of the Vyšehrad promontory that nature hadn't already fortified for free — the more exposed southeastern approach — and it did so with real conviction: a fortress-gate over 27 metres wide, equipped with a gallery, loopholes, timber-framed defences, and corner barbican towers, considered by architectural historians a genuine symbol of pre-Hussite Bohemian fortification at its most ambitious. It didn't survive the centuries that followed intact. By the mid-17th century the gate had been demolished, leaving only the northern third of its ground floor and the vault ribs of its central passage — which today houses, with a certain quiet irony, a visitor information centre instead of an armed garrison.
+
+🎁 Bonus: If you want a sense of what Špička actually looked like at full height, you'll have to leave Vyšehrad entirely — architect Quido Bělský built a scaled-down replica of the gate for the 1891 Jubilee Exhibition, which still stands near the Petřín Tower today, having spent the last century-plus not as a fortification but as the entrance to Petřín's mirror maze.`,
+
+      cz: `Statečný dobrodruhu, vítej u Brány Špička, roztříštěných pozůstatků toho, co bývalo zdaleka nejimpozantnějším opevněním na Vyšehradě — dvoupatrovou průjezdnou pevností s devíti štíhlými věžičkami, po nichž dostala své jméno.
+
+Postavena byla za Karla IV. v letech 1348 až 1350 a bránila přesně tu stranu vyšehradského ostrohu, kterou příroda sama neopevnila zdarma — exponovanější jihovýchodní přístup — a dělala to se vší vážností: brána-pevnost přes 27 metrů široká, vybavená ochozem, střílnami, dřevěnou hrázděnou obranou a nárožními barbakány, kterou dějiny architektury dodnes považují za skutečný symbol předhusitského opevňování v jeho nejambicióznější podobě. Následující staletí ale nepřežila neporušená: v polovině 17. století byla brána zbořena a dochovala se jen severní třetina jejího přízemí s žebry klenby centrálního průjezdu — dnes v ní s jistou tichou ironií sídlí turistické informační centrum místo ozbrojené posádky.
+
+🎁 Bonus: Chceš-li si udělat představu, jak Špička skutečně vypadala v plné výšce, budeš muset opustit Vyšehrad úplně — architekt Quido Bělský postavil zmenšenou repliku brány pro jubilejní výstavu roku 1891, která dodnes stojí u Petřínské rozhledny, kde poslední přes sto let neslouží jako opevnění, ale jako vstup do petřínského zrcadlového bludiště.`,
+
+      zh: `勇敢的冒险家，欢迎来到施皮奇卡门——曾经维谢赫拉德最雄伟壮观的一座防御工事，如今只剩下断壁残垣。这是一座双层可通行的堡垒式城门，配有九座纤细的角塔，它的名字"Špička"（意为"尖顶"）正是由此而来。
+
+这座城门建于查理四世统治时期的1348至1350年间，扼守着维谢赫拉德岬角唯一没有天然地势屏障的一侧——防御较为薄弱的东南方向入口——而且防御手段绝不含糊：这座堡垒式城门宽逾27米，配有回廊、箭孔、木构防御工事与转角碉楼，建筑史学家至今仍将其视为胡斯战争前波希米亚要塞建筑野心勃勃的真正代表作。然而它并没能完好无损地熬过随后的几个世纪：17世纪中叶，这座城门被拆毁，如今只留下底层北侧三分之一，以及中央通道拱顶的肋券——如今这里以一种颇为静默的讽刺意味，安置了一处游客咨询中心，而非当年的武装驻军。
+
+🎁 彩蛋：如果你想知道施皮奇卡门全盛时期的真实模样，恐怕得彻底离开维谢赫拉德才行——建筑师奎多·贝尔斯基为1891年的纪念博览会建造了一座缩小版复制品，至今仍矗立在佩特任瞭望塔附近，只不过在过去一百多年里，它的身份早已从一座防御工事，变成了佩特任镜宫迷宫的入口。`,
+    },
+  },
+  {
+    name: 'Romanesque Bridge at Vyšehrad',
+    slug: 'romansky-most-vysehrad',
+    localizedNames: { cz: 'Románský most na Vyšehradě', zh: '维谢赫拉德罗马式桥' },
+    labels: ['ruin', 'historical'],
+    coordinates: { lat: 50.064238075042574, lng: 14.418354534264694 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://www.hrady.cz/most-romansky-most',
+    description: {
+      en: `Welcome to the Romanesque Bridge at Vyšehrad, a short stone crossing built at the end of the 11th century under King Vratislav I — and, once archaeologists finished dating it properly, revealed as one of the oldest surviving stone bridges anywhere in Central Europe, older than Prague's own Judith Bridge and the famous stone bridge at Regensburg alike.
+
+Roughly 23 metres long and just over 5 metres wide, the bridge was built to carry traffic over a shallow moat between the princely and royal quarter of Vyšehrad and the Basilica of St. Lawrence, using opuka stone laid diagonally as flat, hammer-dressed blocks. Its single surviving arch is a slightly flattened barrel vault spanning 280 centimetres, resting on metre-thick foundation courses — modest by any measure, and, contrary to what earlier historians assumed, apparently never built for defence at all; it was simply a working crossing in daily use from the 11th century right through to the 15th. Buried and forgotten for centuries, it was first uncovered during excavations in 1931–32 under Karel Guth, investigated further in 1978, and has been the subject of repeated, more systematic digs since — most recently in 2011–2014, which have collectively exposed around 17 metres of the original structure.
+
+🎁 Bonus: The bridge you can glimpse today isn't standing in the open air — it's sealed beneath a reinforced concrete slab under the northern edge of the Vyšehrad Gardens, visible only through a barred window or on the rare guided tour, quietly holding the title of Central Europe's oldest known stone bridge from underneath a modern lawn most visitors walk straight over without a second thought.`,
+
+      cz: `Vítej u Románského mostu na Vyšehradě, krátkého kamenného přechodu postaveného na konci 11. století za vlády krále Vratislava I. — a poté, co ho archeologové řádně datovali, se ukázalo, že jde o jeden z nejstarších dochovaných kamenných mostů ve střední Evropě, starší než pražský Juditin most i proslulý kamenný most v Řezně.
+
+Zhruba 23 metrů dlouhý a něco přes 5 metrů široký most sloužil k překonání mělkého příkopu mezi knížecím a královským okrskem Vyšehradu a bazilikou svatého Vavřince, postavený z opukových kvádrů kladených diagonálně jako ploché, kladivem opracované kameny. Jeho jediný dochovaný oblouk je mírně zploštělá valená klenba o rozpětí 280 centimetrů, spočívající na metr širokých základových pásech — na dnešní poměry skromný rozměr, a navzdory dřívějším domněnkám historiků zřejmě nikdy nesloužil obranným účelům: byl to prostě běžně používaný přechod, provozovaný od 11. až do 15. století. Po staletí zasypaný a zapomenutý byl poprvé odkryt při vykopávkách v letech 1931–32 pod vedením Karla Gutha, dále zkoumán v roce 1978 a od té doby byl předmětem opakovaných, systematičtějších výzkumů — naposledy v letech 2011–2014, které dohromady odhalily asi 17 metrů původní konstrukce.
+
+🎁 Bonus: Most, který dnes můžeš alespoň zahlédnout, nestojí na volném prostranství — je uzavřen pod železobetonovou deskou na severním okraji Vyšehradských sadů, viditelný jen mřížovaným okénkem nebo při vzácné prohlídce s průvodcem, a tiše si drží titul nejstaršího známého kamenného mostu ve střední Evropě zpod moderního trávníku, přes který většina návštěvníků přejde bez druhého pohledu.`,
+
+      zh: `欢迎来到维谢赫拉德罗马式桥——一座建于11世纪末、弗拉季斯拉夫一世（Vratislav I）国王统治时期的短小石桥。经考古学家精确断代后，它被证实是中欧现存最古老的石桥之一，甚至比布拉格自己的朱迪特桥（Judith Bridge）以及雷根斯堡那座著名石桥还要古老。
+
+这座桥全长约23米，宽仅5米出头，最初用于跨越维谢赫拉德王公与王室辖区同圣劳伦斯大殿之间的一道浅护城河，桥体以斜向铺砌的锤凿平整欧珀卡石块砌成。如今唯一留存的一道拱券，是一个略微压扁的筒形拱，跨度280厘米，架在一米厚的基础石层之上——无论怎么看都算不上宏伟，而且与早期历史学家的推测相反，它很可能从来都不具备防御功能：它不过是一座11至15世纪间日常使用的普通桥梁。这座桥被掩埋、遗忘了数百年，直到1931至1932年间在卡雷尔·古特主持下的发掘中才首次重见天日，1978年又经过进一步调查，此后又经历多次更为系统的考古发掘——最近一次是在2011至2014年间，累计发掘出约17米的原始结构。
+
+🎁 彩蛋：你今天能瞥见的这座桥，并没有暴露在露天之下——它被密封在维谢赫拉德花园北侧地下的一块钢筋混凝土板之下，只能透过一扇带栅栏的小窗查看，或是在难得一次的导览行程中一探究竟——它就这样静静地，从大多数游客毫不在意、径直踏过的一片现代草坪之下，守着"中欧已知最古老石桥"这个头衔。`,
+    },
+  },
 ];
 
 async function run() {

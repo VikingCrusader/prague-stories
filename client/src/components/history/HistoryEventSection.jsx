@@ -11,19 +11,22 @@ import LocationCard from '../locations/LocationCard';
 // past it (see HistoryPage's IntersectionObserver). `sectionRef` is how
 // HistoryPage gets a DOM node per event to observe/scrollIntoView.
 //
-// Related landmarks render in the exact same `.location-grid` + LocationCard
-// markup Explore uses — same class, same card, nothing wrapped around it —
-// so card sizing/spacing/equal-row-height behaviour matches Explore pixel
-// for pixel instead of drifting whenever an extra wrapper or caption
-// changes a card's natural height (an earlier version put the caption
-// directly inside each card's own box and that's exactly what broke it).
-// The relation captions still need to sit under their own card though, so
-// they render in a *second*, separate `.location-grid` right below the
-// card grid, using the identical grid-template-columns. Two grids of equal
-// width with the same auto-fill track always resolve to the same column
-// boundaries, so the Nth caption lines up under the Nth card — including
-// whichever row it wrapped to — without the captions ever touching the
-// card grid's own height math.
+// Related landmarks render inside the shared `.location-grid` class from
+// Explore, so column widths/gaps still match Explore's grid — but each
+// LocationCard is now paired with its relation caption in a single
+// `.history-landmark-item` wrapper (flex column: card, then caption right
+// underneath it), and it's that wrapper, not the bare card, that's the
+// grid item. An earlier version kept the cards as direct, unwrapped grid
+// children (with captions rendered in a wholly separate second grid below)
+// specifically to preserve CSS Grid's default `align-items: stretch`,
+// which made every card in a row exactly the row's height. Wrapping broke
+// that — `.loc-card` no longer sits directly in the grid, so it stretches
+// along the wrapper's cross axis (width) rather than its main axis
+// (height), and reverts to its natural content height instead. That's an
+// accepted, deliberate trade-off here: the point of this section is each
+// landmark read as one card+caption unit, not a uniform card row, so a
+// little natural height variance between cards is fine — pairing them
+// correctly is the actual requirement.
 //
 // Unlike Explore, though, this isn't a discovery/gamification context: the
 // event text already names the place, so `unlocked` is forced on for
@@ -45,7 +48,21 @@ export default function HistoryEventSection({ event, onOpenLandmark, sectionRef 
       className={`history-detail-panel history-detail-panel--${event.tone}`}
     >
       <div className="history-event__year">{convert(event.year[lang] || event.year.en)}</div>
-      <h2 className="history-event__title">{convert(event.title[lang] || event.title.en)}</h2>
+      <h2 className="history-event__title">
+        {event.wikipediaUrl ? (
+          <a
+            className="history-event__title-link"
+            href={event.wikipediaUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            title={t('common.wikipedia')}
+          >
+            {convert(event.title[lang] || event.title.en)}
+          </a>
+        ) : (
+          convert(event.title[lang] || event.title.en)
+        )}
+      </h2>
       <p className="history-event__hook">{convert(event.hookLine[lang] || event.hookLine.en)}</p>
       <p className="history-event__summary">{convert(event.summary[lang] || event.summary.en)}</p>
 
@@ -53,38 +70,28 @@ export default function HistoryEventSection({ event, onOpenLandmark, sectionRef 
         <img className="history-event__image" src={event.image} alt="" />
       )}
 
-      {event.wikipediaUrl && (
-        <a className="history-event__wiki" href={event.wikipediaUrl} target="_blank" rel="noopener noreferrer">
-          {t('common.wikipedia')}
-        </a>
-      )}
-
       {event.relatedLandmarks.length > 0 && (
         <div className="history-event__landmarks">
           <div className="history-event__landmarks-label">{t('history.relatedLandmarksLabel')}</div>
 
           <div className="location-grid">
-            {event.relatedLandmarks.map(({ landmark }) => {
+            {event.relatedLandmarks.map(({ landmark, relation }) => {
               const distance = userPos
                 ? haversineDistance(userPos.lat, userPos.lng, landmark.coordinates.lat, landmark.coordinates.lng)
                 : null;
               return (
-                <LocationCard
-                  key={landmark.slug}
-                  location={{ ...landmark, unlocked: true }}
-                  distance={distance}
-                  onClick={() => onOpenLandmark(landmark.slug)}
-                />
+                <div key={landmark.slug} className="history-landmark-item">
+                  <LocationCard
+                    location={{ ...landmark, unlocked: true }}
+                    distance={distance}
+                    onClick={() => onOpenLandmark(landmark.slug)}
+                  />
+                  <p className="history-landmark-caption">
+                    {convert(relation[lang] || relation.en)}
+                  </p>
+                </div>
               );
             })}
-          </div>
-
-          <div className="location-grid history-landmarks-captions">
-            {event.relatedLandmarks.map(({ landmark, relation }) => (
-              <p key={landmark.slug} className="history-landmark-caption">
-                {convert(relation[lang] || relation.en)}
-              </p>
-            ))}
           </div>
         </div>
       )}
