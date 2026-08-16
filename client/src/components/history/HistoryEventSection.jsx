@@ -44,7 +44,7 @@ export default function HistoryEventSection({ event, onOpenLandmark, sectionRef 
       data-slug={event.slug}
       className={`history-detail-panel history-detail-panel--${event.tone}`}
     >
-      <div className="history-event__year">{event.year}</div>
+      <div className="history-event__year">{convert(event.year[lang] || event.year.en)}</div>
       <h2 className="history-event__title">{convert(event.title[lang] || event.title.en)}</h2>
       <p className="history-event__hook">{convert(event.hookLine[lang] || event.hookLine.en)}</p>
       <p className="history-event__summary">{convert(event.summary[lang] || event.summary.en)}</p>

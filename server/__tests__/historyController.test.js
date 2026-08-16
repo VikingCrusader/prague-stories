@@ -16,7 +16,7 @@ async function createEvent(overrides = {}) {
     slug: 'libuse-prophecy',
     era: 'legends-origins',
     startYear: 720,
-    year: '8th century (legendary)',
+    year: { en: '8th century (legendary)', cz: '8. století (legenda)', zh: '8世纪（传说）' },
     title: { en: "Libuše's Prophecy", cz: 'Libušino proroctví', zh: '莉布谢的预言' },
     hookLine: { en: 'hook', cz: 'hook', zh: 'hook' },
     summary: { en: 'summary', cz: 'summary', zh: 'summary' },

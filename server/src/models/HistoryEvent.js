@@ -15,7 +15,7 @@ const historyEventSchema = new mongoose.Schema({
   slug:      { type: String, required: true, unique: true, lowercase: true, trim: true },
   era:       { type: String, required: true }, // key into data/historyEras.js
   startYear: { type: Number, required: true }, // numeric anchor for timeline position/sort; negative = BCE
-  year:      { type: String, required: true }, // display string, e.g. "935", "8th century (legendary)"
+  year:      { type: localizedTextSchema, default: () => ({}) }, // display string per language, e.g. "935", "8th century (legendary)"
   title:     { type: localizedTextSchema, default: () => ({}) },
   tone:      { type: String, enum: ['humorous', 'serious'], default: 'humorous' },
   hookLine:  { type: localizedTextSchema, default: () => ({}) },
