@@ -224,6 +224,16 @@
 .history-landmark-item {
   display: flex;
   flex-direction: column;
+  /* Grid items default to an automatic minimum width based on their
+     content's min-content size — that only zeroes out for boxes with a
+     non-visible `overflow` of their own. `.loc-card` inside here does
+     have `overflow: hidden`, but this wrapper (the actual grid item,
+     since it — not the bare card — sits directly in .location-grid) does
+     not, so long location names/labels could still force this item's
+     track wider than the grid's own `1fr` sizing intends, inflating
+     .location-grid (and everything above it) past the viewport on
+     narrow screens. min-width: 0 removes that floor. */
+  min-width: 0;
 }
 .history-landmark-caption {
   font-size: 13px;
@@ -233,11 +243,41 @@
 }
 
 @media (max-width: 820px) {
-  .history-layout { flex-direction: column; }
+  .history-layout {
+    flex-direction: column;
+    /* .history-layout's base rule sets align-items: flex-start — needed
+       on desktop's row layout so the sidebar and feed can each have
+       independent heights (the sidebar is shorter and sticky). Once this
+       switches to flex-direction: column, the cross axis becomes
+       horizontal instead of vertical, and flex-start along that axis
+       means children shrink-to-fit their own content's preferred width
+       instead of stretching to the container's full width. .history-feed
+       has no explicit width of its own, so it was sizing itself to the
+       widest content inside it — in practice the 2-column .location-grid
+       inside related-landmark sections, which wants ~630-680px — and
+       that inflated width was overflowing the actual ~350-400px mobile
+       viewport, dragging the whole page (including the navbar) into
+       horizontal scroll. Overriding back to stretch here is the actual
+       fix; .history-sidebar's explicit width: 100% below happened to
+       mask the same underlying problem for itself only. */
+    align-items: stretch;
+  }
   .history-sidebar {
+    /* Was max-height: 220px with the desktop overflow-y/position: sticky
+       still inherited — meant as a "too-short-viewport" fallback for the
+       side-by-side desktop layout, but on mobile .history-layout stacks
+       to a column instead, so the sidebar is a full-width block above the
+       feed, not competing for vertical space next to it. Left in place,
+       that combination clipped the era/event list into a tiny internally
+       -scrolling box that cut names off mid-list. Mobile doesn't need the
+       height cap or the scroll container, and sticky stops making sense
+       once this block is tall and full-width — it would just pin itself
+       over the feed instead of scrolling away normally. */
     flex: none;
     width: 100%;
-    max-height: 220px;
+    max-height: none;
+    overflow-y: visible;
+    position: static;
   }
   .history-detail-panel { width: 100%; padding: 18px 20px; }
   .history-event__title { font-size: 11px; }
