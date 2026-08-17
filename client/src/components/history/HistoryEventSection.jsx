@@ -64,7 +64,17 @@ export default function HistoryEventSection({ event, onOpenLandmark, sectionRef 
         )}
       </h2>
       <p className="history-event__hook">{convert(event.hookLine[lang] || event.hookLine.en)}</p>
-      <p className="history-event__summary">{convert(event.summary[lang] || event.summary.en)}</p>
+      {/* summary supports multi-paragraph text: split on \n and filter blank
+          lines, same convention LocationDetail uses for `description`, so a
+          '\n\n' in the source data renders as a paragraph break instead of
+          collapsing into one dense block. Falls back to a single <p> for
+          the (still-common) one-paragraph summaries. */}
+      {convert(event.summary[lang] || event.summary.en)
+        .split("\n")
+        .filter((p) => p.trim())
+        .map((para, i) => (
+          <p key={i} className="history-event__summary">{para}</p>
+        ))}
 
       {event.image && (
         <img className="history-event__image" src={event.image} alt="" />

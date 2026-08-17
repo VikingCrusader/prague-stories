@@ -22507,6 +22507,181 @@ Zhruba 23 metrů dlouhý a něco přes 5 metrů široký most sloužil k překon
 🎁 彩蛋：你今天能瞥见的这座桥，并没有暴露在露天之下——它被密封在维谢赫拉德花园北侧地下的一块钢筋混凝土板之下，只能透过一扇带栅栏的小窗查看，或是在难得一次的导览行程中一探究竟——它就这样静静地，从大多数游客毫不在意、径直踏过的一片现代草坪之下，守着"中欧已知最古老石桥"这个头衔。`,
     },
   },
+  {
+    name: 'Church of Our Lady (Prague Castle)',
+    slug: 'church-of-our-lady-prague-castle',
+    localizedNames: { cz: 'Kostel Panny Marie (Pražský hrad)', zh: '圣母教堂（布拉格城堡）' },
+    labels: ['ruin', 'church', 'historical'],
+    coordinates: { lat: 50.090556, lng: 14.399444 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Church_of_the_Virgin_Mary_(Prague_Castle)',
+    description: {
+      en: `Brave adventurer, welcome to the Church of Our Lady at Prague Castle — Prague's oldest church, founded in the 880s, gone by the 13th century, forgotten for seven hundred years, and finally rediscovered only because archaeologists decided to dig underneath the Castle's own paperwork.
+
+Bořivoj I built it himself, around 882–884, shortly after moving his seat from the old hillfort at Levý Hradec to the rocky ridge that would become Prague Castle — making this modest rectangular nave with a semicircular apse both the very first building on Castle grounds and the second-oldest church in all of Bohemia, beaten only by the one Bořivoj had already built at Levý Hradec. It didn't last: by the 13th century the church was gone, its foundations buried and its story lost to everyone but the archives.
+
+Archaeologist Ivan Borkovský rediscovered it in 1950–51, digging beneath what is now the Castle's own administrative wing, and turned up more than just a floor plan: a grave holding Duke Spytihněv I — Bořivoj's own son, and the man credited with actually moving the Přemyslid seat here — buried alongside his wife around 915. Father built the church; son ended up resting inside it. Today the excavated outline sits underground beneath the Castle offices: you can glimpse the well-preserved 11th-century portion for free through the glass wall in the passage between the Fourth and Second Courtyards, or pay to see the fuller dig site directly, typically open 9:00–17:00 in summer (shorter hours in winter).
+
+🎁 Bonus: If you've already met Bořivoj — the vassal duke humiliated at a Moravian banquet, baptized, exiled, restored — this is where the rest of his story quietly continues underground. He built the first church on this hill. His son is buried in it. And their descendants never left.`,
+
+      cz: `Statečný dobrodruhu, vítej u Kostela Panny Marie na Pražském hradě — nejstaršího pražského kostela, založeného v 80. letech 9. století, zaniklého už ve 13. století, na sedm set let zapomenutého, a nakonec znovuobjeveného jen proto, že se archeologové rozhodli prokopat se pod hradní papírování.
+
+Bořivoj I. ho postavil sám, kolem let 882–884, krátce poté, co přesunul své sídlo ze starého hradiště na Levém Hradci na skalnatý hřeben, z něhož se stal Pražský hrad — díky čemuž je tahle skromná stavba s obdélníkovou lodí a půlkruhovou apsidou zároveň úplně první stavbou na hradním nádvoří i druhým nejstarším kostelem v celých Čechách, poražená jen tím, který Bořivoj postavil dřív na Levém Hradci. Dlouho nevydržela: do 13. století kostel zanikl, jeho základy zůstaly pohřbené a jeho příběh upadl v zapomnění — s výjimkou archivů.
+
+Archeolog Ivan Borkovský ho znovu objevil v letech 1950–51 při vykopávkách pod dnešním správním křídlem Hradu a nenašel jen půdorys: hrob s ostatky knížete Spytihněva I. — Bořivojova vlastního syna, muže, kterému se připisuje samotné přesídlení přemyslovského dvora sem — pohřbeného kolem roku 915 po boku své manželky. Otec kostel postavil; syn v něm nakonec skončil pohřben. Dnes leží vykopaný půdorys pod hradními kancelářemi: dobře dochovanou část z 11. století lze zdarma zahlédnout skrze skleněnou stěnu v chodbě mezi Čtvrtým a Druhým nádvořím, nebo si za poplatek prohlédnout přímo celé nalezisko, obvykle otevřené v létě 9:00–17:00 (v zimě kratší dobu).
+
+🎁 Bonus: Pokud jsi už potkal Bořivoje — vazalského knížete ponížené na moravské hostině, pokřtěného, vyhnaného a navráceného — tady jeho příběh potichu pokračuje pod zemí. Postavil první kostel na tomhle kopci. Jeho syn je v něm pohřbený. A jejich potomci už odsud nikdy neodešli.`,
+
+      zh: `勇敢的冒险家，欢迎来到布拉格城堡内的圣母教堂——布拉格最古老的教堂，建于9世纪80年代，13世纪便已消失，湮没无闻长达七百年，直到考古学家决定挖开城堡自己的行政楼地基，它才重见天日。
+
+这座教堂由博日沃伊一世亲自下令建造，大约在882至884年间——就在他把统治据点从利维赫拉德茨的旧要塞迁往那道后来成为布拉格城堡的岩石山脊之后不久。这座朴素的长方形中殿加半圆形后殿的建筑，因此既是城堡范围内最早的建筑，也是整个波希米亚第二古老的教堂——仅次于博日沃伊更早在利维赫拉德茨建造的那一座。它没能撑太久：到13世纪，教堂已然消失，地基被掩埋，故事也被人遗忘，只留在档案里。
+
+考古学家伊万·博尔科夫斯基于1950至1951年间，在如今城堡行政楼的地下重新发掘出了它——出土的不只是一份平面图：还有一座墓穴，安葬着公爵斯皮蒂赫涅夫一世——博日沃伊的亲生儿子，正是他被认为真正把普热米斯尔王朝的统治中心迁到了这里——约在915年与妻子合葬于此。父亲建了这座教堂；儿子最终长眠其中。如今，这片发掘出的遗址就位于城堡办公楼地下：从第四庭院通往第二庭院的通道里，透过一面玻璃墙，你可以免费看到保存完好的11世纪部分；也可以购票直接参观更完整的发掘现场，通常夏季开放时间为9:00至17:00（冬季时间较短）。
+
+🎁 彩蛋：如果你已经认识过博日沃伊——那位在摩拉维亚宫廷宴会上受辱、随后受洗、被逐、又复位的附庸公爵——那么他的故事在这里悄然续写着下一章，只不过是在地下。他在这座山丘上建起了第一座教堂。他的儿子最终安葬其中。而他们的后代，再也没有离开过这里。`,
+    },
+  },
+  {
+    name: 'Obelisk at Prague Castle',
+    slug: 'obelisk-prague-castle',
+    localizedNames: { cz: 'Obelisk na Pražském hradě (Vrcholek Žiži)', zh: '布拉格城堡方尖碑（日日丘遗址）' },
+    labels: ['monument', 'historical', 'architecture'],
+    coordinates: { lat: 50.090239697763536, lng: 14.400089270022935 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Obelisk_(Prague_Castle)',
+    description: {
+      en: `Brave adventurer, welcome to the Obelisk at Prague Castle — a sixteen-metre granite monolith that reads as a tidy modern war memorial, standing on ground that was doing something considerably stranger a thousand years before anyone thought to put a monument on it.
+
+Architect Jože Plečnik designed it, and it went up in the Third Courtyard in late 1928, commissioned by President Tomáš Garrigue Masaryk to mark the tenth anniversary of Czechoslovak independence and to honour the dead of the First World War. It was meant to stand taller still — but during transport to the Castle in 1928, the granite shaft cracked clean in two, and only the surviving fragment could be salvaged and raised. What you're looking at, in other words, is Plečnik's second-best option, permanently.
+
+Long before Plečnik, before Masaryk, before Czechoslovakia itself, Cosmas's chronicle places a very different landmark on this same high point of the Castle hill: Žiži, a pagan sacrificial site where offerings were burned to the old gods, with a plain stone seat beside it where each newly chosen duke was ceremonially enthroned. It stayed in use right up until Bořivoj I clawed his dukedom back in 885 — at which point he moved on it directly, filling in the ritual ditch that ringed the sacred ground and raising Prague's very first Christian church nearby, on this same hilltop, to replace it.
+
+🎁 Bonus: Pagan altar, coronation stone, Marian church, war memorial — this small patch of high ground has been marked by something tall and meaningful for well over a thousand years, and nobody involved in any one phase seems to have known about the last.`,
+
+      cz: `Statečný dobrodruhu, vítej u Obelisku na Pražském hradě — šestnáctimetrového žulového monolitu, který na první pohled působí jako upravený moderní válečný pomník, a přitom stojí na místě, kde se dělo něco mnohem podivnějšího celé tisíciletí předtím, než tu někoho napadlo postavit pomník.
+
+Navrhl ho architekt Jože Plečnik a vztyčen byl na Třetím nádvoří koncem roku 1928, na objednávku prezidenta Tomáše Garrigua Masaryka, aby připomínal desáté výročí československé nezávislosti a uctil padlé první světové války. Měl být ještě vyšší — jenže při dopravě na Hrad v roce 1928 se žulový sloup rozlomil vedví a podařilo se zachránit a vztyčit jen dochovanou část. To, na co se díváš, je tedy natrvalo Plečnikova druhá nejlepší varianta.
+
+Dlouho před Plečnikem, před Masarykem, před samotným Československem klade Kosmova kronika na totéž vyvýšené místo hradního kopce docela jinou dominantu: Žiži, pohanské obětiště, kde se pálily oběti starým bohům, a vedle něj prostou kamennou stolici, na niž byl slavnostně dosazován každý nově zvolený kníže. V provozu zůstalo až do chvíle, kdy si Bořivoj I. v roce 885 vydobyl zpět své knížectví — a poté proti němu zakročil přímo: nechal zasypat obřadní příkop kolem posvátného místa a nedaleko, na témže návrší, vztyčil úplně první pražský křesťanský kostel, který ho měl nahradit.
+
+🎁 Bonus: Pohanský oltář, korunovační kámen, mariánský kostel, válečný pomník — tenhle kousek vyvýšené půdy je už přes tisíc let označován něčím vysokým a významným, a nikdo z žádné fáze o té předchozí zřejmě netušil.`,
+
+      zh: `勇敢的冒险家，欢迎来到布拉格城堡方尖碑——一根16米高的花岗岩独石，乍看不过是一座整洁的现代战争纪念碑，可它脚下这块地方，在一千年前有过一段远比这更离奇的过去。
+
+设计者是建筑师约热·普列奇尼克（Jože Plečnik），纪念碑于1928年末在第三庭院落成，由总统托马斯·加里格·马萨里克下令建造，用以纪念捷克斯洛伐克独立十周年，同时悼念第一次世界大战的阵亡者。它本该立得更高——可就在1928年运往城堡的途中，这根花岗岩石柱整个断成了两截，最后只抢救出了其中能用的那一段并竖立起来。也就是说，你现在看到的，永远只是普列奇尼克设计方案的"退而求其次"版本。
+
+而在普列奇尼克、马萨里克，乃至捷克斯洛伐克这个国家本身都还不存在的年代，据科斯马斯的编年史记载，城堡山丘的这同一处高地上，曾矗立过一处截然不同的地标：日日丘（Žiži）——一处焚烧祭品献给旧神的异教祭坛，旁边还有一块朴素的石座，每一位新即位的公爵都要被郑重地安置其上，正式就位。这一切一直延续到885年博日沃伊一世夺回公爵之位——他随即直接对此出手：填平了环绕圣地的祭祀壕沟，并在同一座山丘的附近，竖起了布拉格第一座基督教教堂来取而代之。
+
+🎁 彩蛋：异教祭坛、加冕石座、圣母教堂、战争纪念碑——这一小块高地，一千多年来始终被某样高耸而意味深长的东西标记着，而每一代人，大概都不知道自己脚下埋着上一代人的故事。`,
+    },
+  },
+  {
+    name: 'Basilica of St. Wenceslas (Stará Boleslav)',
+    slug: 'bazilika-sv-vaclava-stara-boleslav',
+    localizedNames: { cz: 'Bazilika svatého Václava', zh: '圣瓦茨拉夫圣殿（旧博莱斯拉夫）' },
+    labels: ['basilica', 'historical', 'architecture'],
+    coordinates: { lat: 50.19456732790267, lng: 14.672733725776945 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Bazilika_svat%C3%A9ho_V%C3%A1clava',
+    description: {
+      en: `Brave adventurer, welcome to the Basilica of St. Wenceslas in Stará Boleslav — a Romanesque church built directly on top of the actual murder scene, which is either the most literal way to memorialize a saint or the most dedicated, depending on how you look at it.
+
+The original building on this spot was the Church of Saints Cosmas and Damian, at whose doors Duke Wenceslas was killed by his own brother's men in 935. A little over a century later, Duke Břetislav I founded a proper basilica here, consecrated in 1046 by the Bishop of Prague — and rather than demolish the old murder-site church, the builders folded it whole into the new structure as a crypt beneath the raised chancel. That crypt is still there today, holding the traditional site of Wenceslas's original grave and functioning as the literal martyrium of Bohemia's patron saint.
+
+The basilica has been rebuilt and restored repeatedly since — Renaissance and Baroque work layered onto the Romanesque core, and a full modern renovation completed and reopened on 28 September 2021, deliberately timed to the saint's own feast day. It remains one of the country's most important pilgrimage sites, hosting the annual national St. Wenceslas pilgrimage every September.
+
+🎁 Bonus: Most murder sites get quietly paved over or forgotten. This one got a crypt built directly beneath the altar, on purpose, so that eleven centuries later pilgrims still walk in through doors practically identical to the ones Wenceslas never made it past.`,
+
+      cz: `Statečný dobrodruhu, vítej u Baziliky svatého Václava ve Staré Boleslavi — románského kostela postaveného přímo na místě skutečné vraždy, což lze číst buď jako nejdoslovnější možnou připomínku světce, nebo jako tu nejdůkladnější.
+
+Původní stavbou na tomto místě byl kostel svatých Kosmy a Damiána, u jehož dveří byl v roce 935 zavražděn kníže Václav muži vlastního bratra. O něco přes sto let později tu kníže Břetislav I. založil skutečnou baziliku, vysvěcenou v roce 1046 pražským biskupem — a stavitelé starý kostel na místě vraždy nezbořili, ale vcelku ho zakomponovali do nové stavby jako kryptu pod vyvýšeným kněžištěm. Tahle krypta tu stojí dodnes, uchovává tradiční místo Václavova prvního hrobu a slouží jako doslovné martyrium českého zemského patrona.
+
+Bazilika byla od té doby mnohokrát přestavována a obnovována — renesanční a barokní úpravy se navrstvily na románské jádro, a kompletní moderní rekonstrukce byla dokončena a slavnostně otevřena 28. září 2021, záměrně na svátek samotného světce. Zůstává jedním z nejvýznamnějších poutních míst v zemi a každoročně v září hostí celostátní svatováclavskou pouť.
+
+🎁 Bonus: Většina míst vraždy skončí tiše vydlážděná nebo zapomenutá. Tohle dostalo kryptu postavenou přímo pod oltářem, úmyslně — takže i po jedenácti stoletích poutníci stále procházejí dveřmi téměř totožnými s těmi, kterými se Václav už nikdy nedostal dovnitř.`,
+
+      zh: `勇敢的冒险家，欢迎来到旧博莱斯拉夫的圣瓦茨拉夫圣殿——一座直接建在真实谋杀现场之上的罗马式教堂，这既可以说是对一位圣人最直白的纪念方式，也可以说是最不遗余力的那一种。
+
+这个地点最初的建筑，是圣科斯马斯与达米安教堂——935年，公爵瓦茨拉夫正是在这座教堂门前，被自己弟弟派来的人杀害。一个多世纪之后，布热季斯拉夫一世公爵在此奠基了一座正式的圣殿，于1046年由布拉格主教主持祝圣——建造者并没有拆掉那座案发地教堂，而是把它整体保留下来，作为高高的主祭坛下方的一座地下墓室，融入了新建筑之中。这座地下墓室至今仍在，保存着传统认定的瓦茨拉夫最初的墓穴所在，如今是这位波希米亚守护圣人名副其实的殉道纪念地。
+
+此后，圣殿经历了多次重建与修复——罗马式核心之上，先后叠加了文艺复兴与巴洛克风格的改建，而最近一次的全面现代化整修，则特意选在2021年9月28日、这位圣人自己的瞻礼日当天完工并重新开放。它至今仍是全国最重要的朝圣地之一，每年9月都会举行全国性的圣瓦茨拉夫朝圣活动。
+
+🎁 彩蛋：大多数谋杀现场最终都会被悄悄铺平或彻底遗忘。这一处却被人特意在祭坛正下方建了一座地下墓室——于是十一个世纪之后，朝圣者们走进的这道门，依然和当年瓦茨拉夫没能走过去的那道门，几乎一模一样。`,
+    },
+  },
+  {
+    name: 'Libice Hillfort (Slavník Stronghold)',
+    slug: 'hradiste-libice',
+    localizedNames: { cz: 'Hradiště Libice', zh: '利比采要塞遗址' },
+    labels: ['ruin', 'historical', 'castle and fortress'],
+    coordinates: { lat: 50.12713, lng: 15.174 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Libice_nad_Cidlinou_(hradi%C5%A1t%C4%9B)',
+    description: {
+      en: `Brave adventurer, welcome to Libice Hillfort — an archaeological reserve about fifty kilometres east of Prague marking the site of the only medieval Bohemian stronghold that could genuinely rival Prague Castle, right up until the night its rivalry got it wiped out.
+
+This was the seat of the Slavník dynasty, the one noble house with enough independent standing to mint its own coins and maintain its own foreign relations alongside the ruling Přemyslids — and, as it happens, the birthplace of Vojtěch, later known as St. Adalbert, born here around 955. On 28 September 995, Duke Boleslav II's forces stormed the fortress and killed nearly the entire family, ending the rivalry permanently. Vojtěch survived only because he was in Rome at the time.
+
+What survives today isn't much to look at by design: a national cultural monument protected since 1989, the site shows the marked-out ground plan of the original palace, church, and gate rather than standing walls — foundations rediscovered through systematic excavation rather than a building anyone can walk into.
+
+🎁 Bonus: Prague Castle has St. Vitus. Libice has outlines in the grass. History remembers which side won.`,
+
+      cz: `Statečný dobrodruhu, vítej u hradiště Libice — archeologické rezervace zhruba padesát kilometrů východně od Prahy, označující místo jediného raně středověkého českého hradiska, které mohlo Pražskému hradu skutečně konkurovat — až do noci, kdy ho tahle konkurence stála úplně všechno.
+
+Bylo to sídlo rodu Slavníkovců, jediného šlechtického rodu s natolik samostatným postavením, že razil vlastní mince a udržoval vlastní zahraniční styky vedle vládnoucích Přemyslovců — a mimochodem i rodiště Vojtěcha, později známého jako svatý Vojtěch, narozeného tu kolem roku 955. 28. září 995 vpadly na hradiště oddíly knížete Boleslava II. a zabily téměř celý rod, čímž konkurenci natrvalo ukončily. Vojtěch přežil jen proto, že byl v tu dobu v Římě.
+
+To, co se dochovalo do dneška, není záměrně nijak velkolepé: národní kulturní památka chráněná od roku 1989 ukazuje vyznačený půdorys původního paláce, kostela a brány, ne stojící zdi — základy znovuobjevené systematickým výzkumem, ne stavbu, do které by šlo vejít.
+
+🎁 Bonus: Pražský hrad má svatého Víta. Libice má obrysy v trávě. Dějiny si pamatují, která strana zvítězila.`,
+
+      zh: `勇敢的冒险家，欢迎来到利比采要塞遗址——一处位于布拉格以东约五十公里的考古保护区，标记着中世纪波希米亚唯一真正能与布拉格城堡分庭抗礼的据点所在地——直到那个晚上，这份“分庭抗礼”让它付出了全部代价。
+
+这里曾是斯拉夫尼克家族的驻地——当时唯一有足够独立地位、能与统治家族普热美斯尔并肩铸造自己货币、维持自己对外关系的贵族家族——顺带一提，这里也是沃伊捷赫（后来的圣阿达尔伯特）大约955年出生的地方。995年9月28日，公爵博莱斯拉夫二世的军队突袭了这座要塞，几乎屠尽了整个家族，从此永久终结了这份竞争。沃伊捷赫之所以幸存，仅仅是因为他当时正身在罗马。
+
+如今留存下来的东西，按设计本就不算壮观：这里自1989年起被列为国家文化古迹，展示的是原本宫殿、教堂与城门的标记轮廓，而非矗立的城墙——是经系统考古发掘重新找到的地基，而不是一座能走进去的建筑。
+
+🎁 彩蛋：布拉格城堡有圣维特。利比采只有草地上的轮廓线。历史记住的，是哪一方赢了。`,
+    },
+  },
+  {
+    name: 'Rotunda of St. George on Říp',
+    slug: 'rotunda-svateho-jiri-rip',
+    localizedNames: { cz: 'Rotunda svatého Jiří na Řípu', zh: '日普山圣乔治圆形教堂' },
+    labels: ['church', 'historical', 'nature'],
+    coordinates: { lat: 50.38639, lng: 14.28833 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/%C5%98%C3%ADp',
+    description: {
+      en: `Brave adventurer, welcome to the Rotunda of St. George on Říp — a small Romanesque chapel crowning a solitary volcanic hill that Czech legend already considered sacred ground centuries before anyone thought to build on it.
+
+Long before this rotunda existed, Czech legend held that Říp was where Forefather Čech and his people first laid eyes on the promised land and settled it — making this isolated 461-metre peak, visible for miles across the flat Elbe lowlands, one of the most mythologically loaded hilltops in the country. The rotunda itself first enters the historical record in 1126, when Duke Soběslav I had it repaired and enlarged with a round western tower to commemorate his victory over Holy Roman Emperor Lothar III at the nearby Battle of Chlumec — meaning even the chapel's own expansion was itself a war memorial before anyone called it one.
+
+Today the rotunda is jointly dedicated to St. George and St. Adalbert, protected as a national cultural monument, and still draws hikers willing to make the short, steep climb for a panoramic view over the Bohemian plain in every direction.
+
+🎁 Bonus: A mountain sacred to the legendary founding of the Czech people, topped by a church rebuilt to celebrate beating the Holy Roman Empire in battle — Říp has spent over a thousand years being asked to symbolise Czech identity, and has never once said no.`,
+
+      cz: `Statečný dobrodruhu, vítej u rotundy svatého Jiří na Řípu — malé románské kapličky korunující osamělý sopečný vrch, který česká pověst považovala za posvátnou půdu celá staletí předtím, než na něm někdo cokoli postavil.
+
+Dlouho předtím, než tahle rotunda vznikla, praví česká pověst, že právě na Řípu praotec Čech se svým lidem poprvé spatřil zaslíbenou zemi a usadil se v ní — což z tohoto osamoceného 461metrového vrchu, viditelného na míle daleko přes rovinatou Polabskou nížinu, dělá jeden z mytologicky nejnabitějších kopců v zemi. Samotná rotunda se do historických pramenů poprvé zapisuje v roce 1126, kdy ji kníže Soběslav I. nechal opravit a rozšířit o kruhovou západní věž na oslavu svého vítězství nad římským králem Lotharem III. v nedaleké bitvě u Chlumce — takže i samotné rozšíření kapličky bylo válečným pomníkem dřív, než mu tak kdokoli začal říkat.
+
+Dnes je rotunda zasvěcena společně svatému Jiří a svatému Vojtěchovi, chráněna jako národní kulturní památka, a stále láká turisty ochotné podniknout krátký, strmý výstup za panoramatickým výhledem na české roviny na všechny strany.
+
+🎁 Bonus: Hora posvátná pro legendární založení českého národa, korunovaná kostelem přestavěným na oslavu vítězství nad Svatou říší římskou — Říp žádá už přes tisíc let, aby symbolizoval českou identitu, a nikdy neřekl ne.`,
+
+      zh: `勇敢的冒险家，欢迎来到日普山圣乔治圆形教堂——一座矗立在孤峰之上的小型罗马式礼拜堂，早在有人想到要在这里建造任何东西之前，捷克传说就已经把这座山视为圣地。
+
+早在这座圆形教堂出现之前，捷克传说就认定，正是在日普山上，祖先捷赫带领族人第一次望见了这片"应许之地"并在此定居——这让这座孤零零、海拔461米、在易北河沿岸平原上数英里外都能望见的山峰，成为全国神话色彩最浓厚的山头之一。这座圆形教堂本身，最早出现在史料记载中要到1126年——公爵索别斯拉夫一世下令对其进行修缮，并加建了一座圆形西塔，用以纪念他在附近的赫卢梅茨战役中击败神圣罗马帝国皇帝洛泰尔三世——也就是说，这座小教堂的扩建本身，在被称作战争纪念碑之前，其实早就是一座战争纪念碑了。
+
+如今，这座圆形教堂同时供奉圣乔治与圣阿达尔伯特，被列为国家文化古迹，至今仍吸引着愿意做一段短而陡峭的攀登、以换取360度波希米亚平原全景的徒步者。
+
+🎁 彩蛋：一座因捷克民族传说建国而被视为圣地的山，山顶又矗立着一座为庆祝击败神圣罗马帝国而重建的教堂——一千多年来，日普山一直被要求象征捷克民族身份，而它从未拒绝过。`,
+    },
+  },
 ];
 
 async function run() {

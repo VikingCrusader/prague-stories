@@ -1,8 +1,9 @@
-import { useEffect, useRef, useState } from 'react';
+import { Fragment, useEffect, useRef, useState } from 'react';
 import { historyAPI } from '../services/api';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
 import HistorySidebar from '../components/history/HistorySidebar';
 import HistoryEventSection from '../components/history/HistoryEventSection';
+import HistoryEraDivider from '../components/history/HistoryEraDivider';
 import LocationDetail from '../components/locations/LocationDetail';
 
 export default function HistoryPage() {
@@ -101,17 +102,30 @@ export default function HistoryPage() {
             t={t}
           />
           <div className="history-feed">
-            {data.events.map(event => (
-              <HistoryEventSection
-                key={event.slug}
-                event={event}
-                onOpenLandmark={setOpenLandmarkSlug}
-                sectionRef={el => {
-                  if (el) sectionEls.current.set(event.slug, el);
-                  else sectionEls.current.delete(event.slug);
-                }}
-              />
-            ))}
+            {data.events.map((event, i) => {
+              // Only the sidebar shows era groupings by default — the feed
+              // itself is one continuous scroll with no visual break, so a
+              // reader would otherwise sail from one era's last event
+              // straight into the next era's first with no signal anything
+              // changed. Render the divider whenever this event's era
+              // differs from the previous event's (or it's the very first
+              // event, era === null).
+              const eraChanged = i === 0 || event.era !== data.events[i - 1].era;
+              const era = eraChanged ? data.eras.find(e => e.key === event.era) : null;
+              return (
+                <Fragment key={event.slug}>
+                  {era && <HistoryEraDivider era={era} lang={lang} convert={convert} />}
+                  <HistoryEventSection
+                    event={event}
+                    onOpenLandmark={setOpenLandmarkSlug}
+                    sectionRef={el => {
+                      if (el) sectionEls.current.set(event.slug, el);
+                      else sectionEls.current.delete(event.slug);
+                    }}
+                  />
+                </Fragment>
+              );
+            })}
           </div>
         </div>
       ) : null}

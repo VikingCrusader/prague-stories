@@ -90,6 +90,39 @@
   flex-direction: column;
   gap: 4px;
 }
+/* Applied alongside .history-sidebar__era-title (not instead of it) on the
+   content eras' <button> — only overrides what needs to change to turn a
+   static heading into a horizontal, clickable toggle row; font/color/
+   text-shadow/padding all still come from the base rule above since both
+   classes land on the same element. */
+.history-sidebar__era-title--toggle {
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  min-width: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+}
+.history-sidebar__era-chevron {
+  display: inline-block;
+  flex: 0 0 auto;
+  transition: transform 0.15s ease;
+}
+.history-sidebar__era-chevron--open { transform: rotate(90deg); }
+/* Same fix as .history-landmark-item's min-width: 0 (see that comment) —
+   a flex item's default auto min-width refuses to shrink below its
+   content's own natural (unwrapped) width, which for a long Chinese era
+   title in the pixel font is wide enough to force this row past a narrow
+   mobile sidebar's bounds instead of wrapping. flex: 1 lets it actually
+   take the row's remaining space instead of just sizing to content. */
+.history-sidebar__era-title-text {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: break-word;
+}
 .history-sidebar__era-tag {
   font-family: inherit;
   font-size: 8px;
@@ -135,11 +168,57 @@
    Kept defined here in case per-era theming (e.g. on .history-detail-panel)
    comes back later; not dead code to delete casually. */
 .era-legends-origins        { --era-accent: #d4a94a; }
+.era-bohemian-duchy         { --era-accent: #c08a3e; }
 .era-medieval-golden-age    { --era-accent: #ffd700; }
 .era-religious-turmoil      { --era-accent: #b83030; }
 .era-renaissance-baroque    { --era-accent: #a070d0; }
 .era-revival-independence   { --era-accent: #d94040; }
 .era-20th-century-upheaval  { --era-accent: #8a94a0; }
+
+/* ── Era divider ─────────────────────────────────────────────────────── */
+/* Rendered by HistoryPage in-feed whenever the era changes between one
+   event and the next (see HistoryEraDivider.jsx) — the one place in the app
+   the per-era --era-accent palette above still actually renders; the
+   sidebar deliberately stays flat gold instead (see its own comment). */
+.history-era-divider {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  margin: 4px 0 8px;
+}
+.history-era-divider__line {
+  flex: 1;
+  height: 3px;
+  background: linear-gradient(90deg, transparent, var(--era-accent, var(--gold)), transparent);
+}
+.history-era-divider__body {
+  /* flex-shrink was 0 (via the 0 0 auto shorthand) — same class of bug as
+     .history-sidebar__era-title-text below: with shrink disabled, this
+     block insisted on its content's natural unwrapped width on narrow
+     mobile screens instead of shrinking to fit and letting its text wrap,
+     pushing the whole divider row past the viewport. 0 1 auto keeps the
+     "don't grow past 640px" intent but actually allows shrinking now. */
+  flex: 0 1 auto;
+  min-width: 0;
+  max-width: 640px;
+  text-align: center;
+  padding: 0 4px;
+}
+.history-era-divider__title {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 20px;
+  line-height: 1.6;
+  color: var(--era-accent, var(--gold));
+  text-shadow: 2px 2px 0 #000;
+  letter-spacing: 1px;
+  margin-bottom: 8px;
+}
+.history-era-divider__tagline {
+  font-size: 15px;
+  font-style: italic;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
 
 /* ── Feed ────────────────────────────────────────────────────────────── */
 .history-feed {
@@ -281,4 +360,7 @@
   }
   .history-detail-panel { width: 100%; padding: 18px 20px; }
   .history-event__title { font-size: 11px; }
+  .history-era-divider { gap: 10px; }
+  .history-era-divider__title { font-size: 14px; }
+  .history-era-divider__tagline { font-size: 13px; }
 }
