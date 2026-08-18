@@ -285,6 +285,56 @@
   color: var(--text-primary);
   margin-bottom: 14px;
 }
+.history-event__reference-maps {
+  margin-bottom: 14px;
+}
+.history-event__reference-maps-label {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+.history-event__reference-maps-caption {
+  font-size: 14px;
+  line-height: 1.5;
+  color: var(--text-muted);
+  margin-bottom: 10px;
+}
+.history-event__reference-maps-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.history-event__reference-maps-link {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-size: 14px;
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  padding: 6px 12px;
+  text-decoration: none;
+  transition: border-color 0.15s, color 0.15s;
+}
+.history-event__reference-maps-link:hover {
+  border-color: var(--gold);
+  color: var(--gold);
+}
+.history-event__reference-maps-year {
+  font-weight: 700;
+  color: var(--gold);
+  flex-shrink: 0;
+}
+.history-event__reference-maps-desc {
+  color: inherit;
+}
 .history-event__landmarks-label {
   font-size: 16px;
   font-weight: 700;

@@ -22682,6 +22682,41 @@ Dnes je rotunda zasvěcena společně svatému Jiří a svatému Vojtěchovi, ch
 🎁 彩蛋：一座因捷克民族传说建国而被视为圣地的山，山顶又矗立着一座为庆祝击败神圣罗马帝国而重建的教堂——一千多年来，日普山一直被要求象征捷克民族身份，而它从未拒绝过。`,
     },
   },
+  {
+    name: 'Former Vyšehrad Town Hall',
+    slug: 'byvala-vysehradska-radnice',
+    localizedNames: { cz: 'Bývalá vyšehradská radnice', zh: '维谢赫拉德旧市政厅' },
+    labels: ['municipal', 'historical', 'architecture'],
+    coordinates: { lat: 50.066950564758315, lng: 14.417189064099565 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Odborn%C3%A9_u%C4%8Dili%C5%A1t%C4%9B_Vy%C5%A1ehrad',
+    description: {
+      en: `Brave adventurer, welcome to the Former Vyšehrad Town Hall! This modest neo-Renaissance building on Vratislavova street has worn an unusual number of hats over two and a half centuries — chapter-owned cottage, self-governing town hall, public shortcut through the fortress wall, and today, a working vocational school.
+
+The story starts small: a single-storey house belonging to the Vyšehrad Chapter, bought by the local community in 1765 and topped with a modest little tower to make it look properly official. It served as Vyšehrad's own town hall after the district won self-government independent of the Chapter in 1850 — a run that lasted only until 1883, when Vyšehrad was formally annexed into Prague and its town hall promptly lost its job. Between 1867 and 1871, just before that annexation, builder Josef Horký gave the building its current neo-Renaissance look, with a façade by engineer Jan Schwarz that still carries a Czech coat of arms, a working clock, and the proud date "1871" above the door.
+
+With no more council left to house, the building quietly slid into education instead — part of it was already used for teaching by the late 1860s, and from 1886 onward the whole building was handed over to schooling, reportedly including Prague's first shelter for school-age children. A courtyard wing still bears an inscription naming the old municipal school that once operated there. In 1949, after wartime relocations that took it from Žižkov through Vinohrady, a specialized vocational apprenticeship school founded in 1943 for graduates of auxiliary schools finally settled here for good — Odborné učiliště Vyšehrad has called the old town hall home ever since, training students in trades from cooking to hairdressing to retail.
+
+🎁 Bonus: Long after it stopped governing anyone, the old town hall kept doing one more quiet public service — its stairwell doubled as an actual shortcut up to the Vyšehrad fortress above, openly used by locals as a pedestrian cut-through all the way into the 1960s, decades after the mayor's office inside had already been replaced by classrooms.`,
+
+      cz: `Statečný dobrodruhu, vítej u Bývalé vyšehradské radnice! Tahle skromná novorenesanční budova na Vratislavově ulici si za dva a půl století vyzkoušela nezvykle mnoho rolí — kapitulní domek, samosprávnou radnici, veřejnou zkratku skrz hradbu pevnosti, a dnes fungující odborné učiliště.
+
+Příběh začíná skromně: jednopatrový domek patřící Vyšehradské kapitule, který v roce 1765 odkoupila místní obec a ozdobila malou věžičkou, aby vypadal patřičně úředně. Sloužil jako vlastní vyšehradská radnice poté, co čtvrť v roce 1850 získala samosprávu nezávislou na kapitule — ta ale vydržela jen do roku 1883, kdy byl Vyšehrad formálně připojen k Praze a jeho radnice tak rázem přišla o práci. V letech 1867–1871, ještě před tímto připojením, dal budově stavitel Josef Horký její dnešní novorenesanční podobu, s průčelím od inženýra Jana Schwarze, které dodnes nese český znak, funkční hodiny a hrdý letopočet „1871" nad vchodem.
+
+Bez zastupitelstva, které by bylo potřeba ubytovat, se budova tiše přesunula ke školství — část prostor sloužila k výuce už od konce 60. let 19. století, a od roku 1886 byla celá budova věnována škole, údajně včetně první pražské útulny pro školou povinné děti. Na dvorním křídle dodnes zůstal nápis připomínající starou městskou školu, která tu tehdy fungovala. V roce 1949, po válečných přesunech ze Žižkova přes Vinohrady, se tu konečně natrvalo usadila specializovaná učňovská škola založená roku 1943 pro absolventy pomocných škol — Odborné učiliště Vyšehrad sídlí ve staré radnici dodnes a školí studenty v oborech od vaření přes kadeřnictví po prodej.
+
+Bonus: I dlouho poté, co přestala komukoliv vládnout, poskytovala stará radnice ještě jednu tichou veřejnou službu — její schodiště fungovalo jako opravdová zkratka nahoru k vyšehradské pevnosti a místní ho běžně používali jako průchod až do 60. let 20. století, celé desítky let poté, co starostovu kancelář uvnitř dávno nahradily třídy.`,
+
+      zh: `勇敢的冒险家，欢迎来到维谢赫拉德旧市政厅！这座位于Vratislavova街上、外观朴素的新文艺复兴风格建筑，在两个半世纪里换过不少身份——教务会名下的小屋、自治市政厅、穿过城墙的公共近路，如今则是一所仍在运营的职业学校。
+
+故事的开端很朴素：这原本只是一座隶属维谢赫拉德教务会的单层小屋，1765年被当地社区买下，还加盖了一座小塔楼，让它看起来更像样一点。1850年，维谢赫拉德脱离教务会获得自治权后，这里便成了自己的市政厅——但这份自治只维持到1883年，维谢赫拉德正式并入布拉格，市政厅的职能也随之消失。就在并入之前的1867年至1871年间，建筑师约瑟夫·霍尔基赋予了这座建筑如今的新文艺复兴外观，扬·施瓦茨设计的立面上至今仍保留着捷克国徽、一座仍在运转的时钟，以及大门上方骄傲地刻着的"1871"字样。
+
+既然不再需要容纳市议会，这座建筑便悄然转向了教育用途——早在19世纪60年代末，部分空间就已用于教学，而从1886年起，整座建筑都改作学校使用，据说还曾设有布拉格第一所学龄儿童收容所。庭院一侧的翼楼至今仍留有一处刻字，纪念着当年在此办学的市立学校。1949年，在经历了从日什科夫到维诺赫拉迪的多次战时搬迁之后，一所1943年为特殊教育学校毕业生创办的专门职业学校终于在此永久落户——维谢赫拉德职业学校至今仍在这座旧市政厅里办学，教授从烹饪、美发到零售等各类实用技能。
+
+🎁 彩蛋：早在它不再管理任何人之后，这座旧市政厅还悄悄提供了另一项公共服务——它的楼梯间兼作一条通往维谢赫拉德要塞的实际近路，当地居民公开把它当作步行捷径使用，一直延续到20世纪60年代，比市长办公室被教室取代还要晚上好几十年。`,
+    },
+  },
 ];
 
 async function run() {

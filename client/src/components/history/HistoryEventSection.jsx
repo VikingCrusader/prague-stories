@@ -80,6 +80,36 @@ export default function HistoryEventSection({ event, onOpenLandmark, sectionRef 
         <img className="history-event__image" src={event.image} alt="" />
       )}
 
+      {event.referenceMaps?.links?.length > 0 && (
+        <div className="history-event__reference-maps">
+          <span className="history-event__reference-maps-label">{t('history.referenceMapsLabel')}</span>
+          {(event.referenceMaps.caption?.[lang] || event.referenceMaps.caption?.en) && (
+            <p className="history-event__reference-maps-caption">
+              {convert(event.referenceMaps.caption[lang] || event.referenceMaps.caption.en)}
+            </p>
+          )}
+          <ul className="history-event__reference-maps-list">
+            {event.referenceMaps.links.map((map) => (
+              <li key={map.url}>
+                <a
+                  className="history-event__reference-maps-link"
+                  href={map.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <span className="history-event__reference-maps-year">{map.label}</span>
+                  {(map.description?.[lang] || map.description?.en) && (
+                    <span className="history-event__reference-maps-desc">
+                      {convert(map.description[lang] || map.description.en)}
+                    </span>
+                  )}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
       {event.relatedLandmarks.length > 0 && (
         <div className="history-event__landmarks">
           <div className="history-event__landmarks-label">{t('history.relatedLandmarksLabel')}</div>

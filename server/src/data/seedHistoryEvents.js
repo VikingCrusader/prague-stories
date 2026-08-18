@@ -760,6 +760,7 @@ export const historyEvents = [
       cz: "955",
       zh: "955年",
     },
+    image: "/history/lechfeld-955.webp",
     tone: "humorous",
     title: {
       en: "The Fratricide's Other Legacy",
@@ -772,12 +773,103 @@ export const historyEvents = [
       zh: "杀害兄长并没有让博莱斯拉夫丢掉王位——他又统治了三十七年，而955年，正是能看清他到底用这份权力做了什么的一年。",
     },
     summary: {
-      en: "By 955, Boleslav had spent two decades expanding Bohemia into something close to a regional power, pushing its borders outward while fending off Otto I's own campaigns to bring him to heel.\n\nThat August, the two former enemies fought on the same side: Boleslav's troops joined Otto's coalition at the Battle of Lechfeld, where allied Christian forces broke the Magyar raiding armies that had been terrorising Central Europe for half a century — a battle historians still treat as one of the decisive turning points of the era. Boleslav didn't stop there; when the retreating Magyar remnant fled into Bohemian territory afterward, his own forces hunted them down and finished the job. None of this erased what he'd done to Wenceslas — Bohemian chroniclers never let him forget it — but it left behind an uncomfortable historical fact all the same: the man who murdered his own brother also built the country his brother never got the chance to.",
-      cz: "Do roku 955 Boleslav strávil dvě desetiletí rozšiřováním Čech v cosi blízkého regionální mocnosti, posouval hranice směrem ven a přitom odrážel Otova I. vlastní tažení, jimiž ho chtěl přinutit k poslušnosti.\n\nToho srpna stáli bývalí nepřátelé poprvé na stejné straně: Boleslavovy oddíly se přidaly k Otově koalici v bitvě na Lechu, kde spojené křesťanské síly zlomily maďarské nájezdnické vojsko, které půl století terorizovalo střední Evropu — bitvě, kterou historici dodnes řadí mezi rozhodující momenty tehdejší doby. Boleslav u toho nezůstal: když se ustupující zbytky maďarského vojska stáhly na české území, jeho vlastní síly je dostihly a dorazily. Nic z toho nesmazalo, co udělal Václavovi — čeští kronikáři mu to nikdy nezapomněli — ale zůstává tu i tak nepohodlný historický fakt: muž, který zavraždil vlastního bratra, také vybudoval zemi, kterou jeho bratr nikdy nedostal šanci vybudovat sám.",
-      zh: "到955年，博莱斯拉夫已经花了二十年时间，把波希米亚扩张成了一个接近地区强权的存在，一边向外拓展疆域，一边还要抵御奥托一世试图迫使他臣服的多次征讨。\n\n那年8月，这对昔日的敌人首次站到了同一边：博莱斯拉夫的部队加入了奥托的联军，参加了莱希费尔德战役——联合的基督教军队在此役中彻底击溃了半个世纪以来一直在中欧四处劫掠的马扎尔骑兵，这场战役至今仍被史学界视为那个时代最具决定性的转折点之一。博莱斯拉夫没有就此收手：当溃退的马扎尔残部逃入波希米亚境内时，他自己的军队追上去，将其彻底肃清。这一切都无法抹去他对瓦茨拉夫做过的事——波希米亚的编年史家从未让他忘记这一点——但它同时也留下了一个令人不太舒服的历史事实：那个亲手杀害了自己兄长的人，最终建起了他兄长本该有机会、却从未得到机会去建立的那个国家。",
+      en: "By 955, Boleslav had spent two decades expanding Bohemia into something close to a regional power, pushing its borders outward while fending off Otto I's own campaigns to bring him to heel.\n\nThat August, the two former enemies fought on the same side: Boleslav's troops joined Otto's coalition at the Battle of Lechfeld, where allied Christian forces broke the Magyar raiding armies that had been terrorising Central Europe for half a century — a battle historians still treat as one of the decisive turning points of the era, and one that did Otto's own reputation no harm either: the prestige it earned him helped carry him to Rome seven years later, where the pope crowned him Holy Roman Emperor. Boleslav didn't stop there; when the retreating Magyar remnant fled into Bohemian territory afterward, his own forces hunted them down and finished the job. By the time he died in 972, that same outward push had carried Bohemia's border east as far as Kraków — a stretch of what's now southern Poland that briefly answered to Prague before slipping away to the rising Piast dynasty a generation later.\n\nHe backed all that expansion with an equally telling first: Bohemia's own native coinage, the Prague denarius, meaning the country no longer had to run its economy on borrowed foreign coin. Some of the earliest surviving examples even carry his wife Biagota's name alongside his own, stamped right into the silver.\n\nBut none of this erased what he'd done to Wenceslas — Bohemian chroniclers never let him forget it — it left behind an uncomfortable historical fact all the same: the man who murdered his own brother also built the country his brother never got the chance to.",
+      cz: "Do roku 955 Boleslav strávil dvě desetiletí rozšiřováním Čech v cosi blízkého regionální mocnosti, posouval hranice směrem ven a přitom odrážel Otova I. vlastní tažení, jimiž ho chtěl přinutit k poslušnosti.\n\nToho srpna stáli bývalí nepřátelé poprvé na stejné straně: Boleslavovy oddíly se přidaly k Otově koalici v bitvě na Lechu, kde spojené křesťanské síly zlomily maďarské nájezdnické vojsko, které půl století terorizovalo střední Evropu — bitvě, kterou historici dodnes řadí mezi rozhodující momenty tehdejší doby, a která neuškodila ani Otově vlastní pověsti: prestiž, kterou si tu vysloužil, mu o sedm let později pomohla až do Říma, kde ho papež korunoval římským císařem. Boleslav u toho nezůstal: když se ustupující zbytky maďarského vojska stáhly na české území, jeho vlastní síly je dostihly a dorazily. Než v roce 972 zemřel, stejná výbojná politika posunula českou hranici na východě až ke Krakovu — pás území v dnešním jižním Polsku, který na čas podléhal Praze, než o generaci později připadl vzmáhající se piastovské dynastii.\n\nTuto expanzi podepřel i stejně výmluvným prvenstvím: vlastní domácí ražbou, pražským denárem — země si tak už nemusela vypůjčovat cizí minci, aby vůbec mohla fungovat její vlastní hospodářství. Na některých z nejstarších dochovaných kusů je vedle jeho jména vyraženo přímo do stříbra i jméno jeho manželky Biagoty.\n\nAle nic z toho nesmazalo, co udělal Václavovi — čeští kronikáři mu to nikdy nezapomněli — zůstává tu i tak nepohodlný historický fakt: muž, který zavraždil vlastního bratra, také vybudoval zemi, kterou jeho bratr nikdy nedostal šanci vybudovat sám.",
+      zh: "到955年，博莱斯拉夫已经花了二十年时间，把波希米亚扩张成了一个接近地区强权的存在，一边向外拓展疆域，一边还要抵御奥托一世试图迫使他臣服的多次征讨。\n\n那年8月，这对昔日的敌人首次站到了同一边：博莱斯拉夫的部队加入了奥托的联军，参加了莱希费尔德战役——联合的基督教军队在此役中彻底击溃了半个世纪以来一直在中欧四处劫掠的马扎尔骑兵（匈牙利人的祖先部族），这场战役至今仍被史学界视为那个时代最具决定性的转折点之一，也为奥托本人攒下了不少政治资本：正是这份声望，帮他在七年后走进罗马，接受教皇加冕为神圣罗马帝国皇帝。博莱斯拉夫没有就此收手：当溃退的马扎尔残部逃入波希米亚境内时，他自己的军队追上去，将其彻底肃清。到972年他去世时，同样这股扩张势头已经把波希米亚的东部疆界一路推到了克拉科夫附近——如今波兰南部的这片土地，曾一度归布拉格管辖，直到一代人之后才落入崛起中的皮亚斯特王朝手中。\n\n支撑这场扩张的，还有一项同样能说明问题的“第一次”：波希米亚本土货币——布拉格第纳尔的铸造，从此这个国家再也不用依赖外来货币来维持自己的经济运转。现存最早的一批银币上，甚至直接把他妻子比亚戈塔的名字，和他自己的名字一起刻进了银币里。\n\n但这一切都无法抹去他对瓦茨拉夫做过的事——波希米亚的编年史家从未让他忘记这一点——它同时也留下了一个令人不太舒服的历史事实：那个亲手杀害了自己兄长的人，最终建起了他兄长本该有机会、却从未得到机会去建立的那个国家。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "kourim",
+        relation: {
+          en: "One of the rival power centers Boleslav snuffed out along the way — around the same years he was turning Bohemia into a force even Otto had to reckon with, he had this once-thriving hillfort deliberately extinguished and replaced with a stronghold answering directly to Prague.",
+          cz: "Jedno z konkurenčních mocenských center, které Boleslav cestou vyhasil — zhruba ve stejných letech, kdy z Čech dělal sílu, se kterou musel počítat i sám Ota, nechal toto kdysi vzkvétající hradiště záměrně zaniknout a nahradil ho pevností podléhající přímo Praze.",
+          zh: "这是博莱斯拉夫一路扫除的对手权力中心之一——就在他把波希米亚打造成连奥托本人都不得不认真对待的势力的同一段岁月里，他下令让这座曾经繁荣一时的堡寨彻底废弃，取而代之的是一座直接听命于布拉格的要塞。",
+        },
+      },
+      {
+        slug: "hradiste-libusin",
+        relation: {
+          en: "The same hillfort tied to Libuše's own prophecy, centuries before Vyšehrad claimed that legend for itself — but the fortress you'd have found here in Boleslav's day had nothing to do with her. Raised during these same expansion years, most likely on his own orders, it was one of the strongholds that turned scattered Přemyslid territory into an actual, governable state.",
+          cz: "Totéž hradiště, které je spjaté s Libušiným věštěním — staletí předtím, než si tuto legendu pro sebe přivlastnil Vyšehrad. Pevnost, kterou byste tu ale našli za Boleslavovy vlády, s ní už neměla nic společného: vznikla v týchž letech expanze, nejspíš přímo z jeho příkazu, jako jedna z pevností, díky nimž se z roztroušeného přemyslovského území stal skutečný, spravovatelný stát.",
+          zh: "这正是与莉布谢预言相连的那座城寨——早在维谢赫拉德在几个世纪后把这个传说据为己有之前。但博莱斯拉夫年代你在这里会看到的要塞，跟她已经没有任何关系了：它建于同一段扩张岁月，很可能出自博莱斯拉夫本人的命令，是把分散的普热美斯家族领地真正变成可治理国家的要塞之一。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Battle_of_Lechfeld",
+    referenceMaps: {
+      caption: {
+        en: "See Bohemia's borders right before and right after the Battle of Lechfeld.",
+        cz: "Podívejte se na hranice Čech těsně před bitvou na Lechu a těsně po ní.",
+        zh: "查看波希米亚在莱希费尔德战役前后的疆域变化。",
+      },
+      links: [
+        {
+          label: "954",
+          description: {
+            en: "Duchy of Bohemia's territory before the Battle of Lechfeld",
+            cz: "Území Českého knížectví před bitvou na Lechu",
+            zh: "莱希费尔德战役之前，波希米亚公国的疆域",
+          },
+          url: "https://www.oldmapsonline.org/en/history/regions/Duchy_of_Bohemia?region_id=862#position=5.6207/48.69/18.96&year=954",
+        },
+        {
+          label: "955",
+          description: {
+            en: "Duchy of Bohemia's territory right after the Battle of Lechfeld",
+            cz: "Území Českého knížectví hned po bitvě na Lechu",
+            zh: "莱希费尔德战役刚结束时，波希米亚公国的疆域",
+          },
+          url: "https://www.oldmapsonline.org/en/history/regions/Duchy_of_Bohemia?region_id=862#position=5.4868/49.79/23.07&goog_rewarded=&year=955",
+        },
+      ],
+    },
+  },
+  {
+    slug: "bohemia-poland-alliance-965",
+    era: "bohemian-duchy",
+    startYear: 965,
+    year: {
+      en: "965",
+      cz: "965",
+      zh: "965年",
+    },
+    image: "/history/bohemia-poland-alliance-965.webp",
+    tone: "humorous",
+    title: {
+      en: "A Seat at the Table",
+      cz: "Místo u stolu",
+      zh: "谈判桌上的公主",
+    },
+    hookLine: {
+      en: "The Magyars' collapse didn't just clear Bohemia's own borders — it opened up a reshuffling table across the whole of Central Europe, and Boleslav made sure one of his own daughters had a seat at it.",
+      cz: "Pád Maďarů nezbavil hranic jen Čechy — otevřel přerozdělovací stůl napříč celou střední Evropou, a Boleslav se postaral, aby u něj měla místo i jedna z jeho dcer.",
+      zh: "马扎尔人的溃败，清空的可不只是波希米亚自己的边境——它给整个中欧腾出了一张重新洗牌的桌子，而博莱斯拉夫确保了自己的一个女儿，也在这张桌子旁占了一席之地。",
+    },
+    summary: {
+      en: "Poland's own Piast dynasty began consolidating its territory and converting to Christianity at almost exactly the same moment Boleslav was doing the same thing at home. In 965 he married his daughter Doubravka off to Mieszko I, ruler of that same rising Piast dynasty that would later reclaim Kraków from Bohemia, sealing an alliance between the two states.\n\nDoubravka's Christian marriage is traditionally credited with nudging Mieszko toward his own baptism the following year — modern historians think the conversion was probably already part of the alliance's terms, but either way, one of Boleslav's own daughters helped set an entire neighboring nation on the road to Christianity.\n\nFair warning: this chapter doesn't have a landmark waiting for you back in Prague — the whole thing happened somewhere else entirely. If that's a problem, there's a train to Kraków.",
+      cz: "Polská piastovská dynastie začala téměř ve stejné době slučovat své území a přecházet ke křesťanství jako Boleslav doma. V roce 965 provdal svou dceru Doubravku za Měška I., vládce téže vzmáhající se piastovské dynastie, která později Čechám zase odebere Krakov, a zpečetil tím spojenectví mezi oběma státy.\n\nDoubravčin křesťanský sňatek bývá tradičně spojován s tím, že o rok později přiměla Měška k vlastnímu křtu — dnešní historici se spíš přiklánějí k názoru, že obrácení na víru bylo pravděpodobně součástí samotné spojenecké dohody, ale tak či onak, jedna z Boleslavových dcer pomohla nasměrovat celý sousední národ k christianizaci.\n\nUpozornění: tahle kapitola na tebe v Praze nečeká s žádnou památkou — celý příběh se odehrál jinde. Pokud ti to vadí, do Krakova jezdí vlak.",
+      zh: "波兰的皮亚斯特王朝，几乎在博莱斯拉夫忙着在国内做同样的事情的同一时期，也开始整合领土、皈依基督教。965年，他把女儿多布拉瓦嫁给了梅什科一世——正是那个后来又从波希米亚手里夺回克拉科夫的、同一支崛起中的皮亚斯特王朝的统治者——借此巩固了两国间的联盟。\n\n传统说法认为，正是多布拉瓦这桩基督徒婚姻，促成了梅什科次年的受洗；不过今天的历史学家更倾向于认为，皈依很可能早就是联盟条款本身的一部分，未必全是她个人游说的结果——但无论如何，博莱斯拉夫的一个女儿，确实把整个邻国推上了基督教化的道路。\n\n提醒一句：这一节在布拉格没有等着你去打卡的地标——整件事从头到尾都发生在别处。如果你不甘心，现在就去买一张去克拉科夫的车票吧。",
     },
     relatedLandmarks: [],
-    wikipediaUrl: "https://en.wikipedia.org/wiki/Battle_of_Lechfeld",
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Doubravka_of_Bohemia",
+    referenceMaps: {
+      caption: {
+        en: "See Bohemia's territory the year this marriage was made.",
+        cz: "Podívejte se na české území v roce, kdy byl tento sňatek uzavřen.",
+        zh: "查看这桩联姻缔结那一年，波希米亚的疆域。",
+      },
+      links: [
+        {
+          label: "965",
+          description: {
+            en: "Territory the year Boleslav married his daughter Doubravka to Mieszko I of Poland",
+            cz: "Území v roce, kdy Boleslav provdal svou dceru Doubravku za Měška I. Polského",
+            zh: "博莱斯拉夫将女儿多布拉瓦嫁给波兰梅什科一世那一年的疆域",
+          },
+          url: "https://www.oldmapsonline.org/en/history/regions/Duchy_of_Bohemia?region_id=862#position=5.6207/48.69/18.96&year=965",
+        },
+      ],
+    },
   },
   {
     slug: "prague-bishopric-973",
@@ -800,9 +892,9 @@ export const historyEvents = [
       zh: "打退马扎尔人是他留下的一份遗产。另一份更安静的遗产，则花了更久才真正完成——最终是他的儿子把它收尾的。",
     },
     summary: {
-      en: "For nearly a century, Bohemia's church affairs weren't even run from Bohemia: since the collapse of Great Moravia, the territory had answered to the bishopric of Regensburg, over the border in Bavaria. Boleslav — yes, that Boleslav, Wenceslas's own killer — spent part of his long reign trying to fix that, opening negotiations with Pope John XII around 968 for a bishopric of Bohemia's own. He died in 972 with the deal unfinished; his son Boleslav II closed it out in 973, working with Emperor Otto I and Otto II to establish the Diocese of Prague, seated at St. Vitus.\n\nIt still answered to the Archbishop of Mainz rather than standing fully alone, and its first bishop, a Saxon monk named Dětmar, wasn't even Czech — but for the first time, Bohemia's religious life was governed from inside its own borders instead of somebody else's. Small print aside, it was the moment Bohemia stopped being administered as somebody else's back office and started looking, on paper at least, like a proper member of Christian Europe.",
-      cz: "Téměř sto let se církevní záležitosti Čech neřídily ani z Čech: po rozpadu Velké Moravy spadalo území pod biskupství v Řezně, za hranicemi v Bavorsku. Boleslav — ano, přesně ten Boleslav, bratrovrah svého vlastního bratra Václava — strávil část své dlouhé vlády snahou to napravit a kolem roku 968 zahájil s papežem Janem XII. jednání o vlastním českém biskupství. Zemřel v roce 972, aniž by dohodu dotáhl do konce; dokončil ji až jeho syn Boleslav II. v roce 973, ve spolupráci s císařem Otou I. a Otou II., čímž vzniklo pražské biskupství se sídlem u svatého Víta.\n\nStále podléhalo mohučskému arcibiskupovi, takže o úplné samostatnosti řeč ještě nebyla, a jeho první biskup, saský mnich jménem Dětmar, dokonce nebyl ani Čech — ale poprvé se náboženský život Čech řídil z jejich vlastního území, ne odjinud. Nehledě na drobná ale — to byl okamžik, kdy Čechy přestaly být administrativně cizí přílohou a začaly, aspoň na papíře, vypadat jako řádný člen křesťanské Evropy.",
-      zh: "在将近一个世纪的时间里，波希米亚的教会事务甚至都不是在波希米亚境内管理的：自大摩拉维亚崩溃以来，这片土地一直隶属于巴伐利亚境外的雷根斯堡主教区。博莱斯拉夫——没错，就是那位杀害了兄长瓦茨拉夫的博莱斯拉夫——在他漫长的统治生涯中，曾花了一部分精力想要纠正这一点，大约在968年，他开始与教皇约翰十二世就波希米亚自设主教区一事展开谈判。972年他去世时，这笔交易尚未谈成；直到973年，他的儿子博莱斯拉夫二世才最终促成此事，联合奥托一世和奥托二世皇帝，正式建立了以圣维特为驻地的布拉格主教区。\n\n这个主教区仍隶属于美因茨大主教，算不上真正独立，而它的第一任主教德特马尔（Dětmar），还是位撒克逊修士，甚至都不是捷克人——但这是波希米亚的宗教生活第一次，是由自己境内、而非别处，来治理的。撇开这些小小的但书不谈，这一刻，波希米亚终于不再是别人教务体系里一个挂靠的边区，至少在纸面上，开始看起来像基督教欧洲一个像样的正式成员了。",
+      en: "For nearly a century, Bohemia's church affairs weren't even run from Bohemia: since the collapse of Great Moravia, the territory had answered to the bishopric of Regensburg, over the border in Bavaria. Boleslav — yes, that Boleslav, Wenceslas's own killer — spent part of his long reign trying to fix that, opening negotiations with Pope John XIII around 968 for a bishopric of Bohemia's own. He died in 972 with the deal unfinished; his son Boleslav II closed it out in 973, working with Otto I — by then Holy Roman Emperor, crowned in Rome back in 962 — and his son Otto II to establish the Diocese of Prague, seated at St. Vitus.\n\nIt still answered to the Archbishop of Mainz rather than standing fully alone, and its first bishop, a Saxon monk named Dětmar, wasn't even Czech — but for the first time, Bohemia's religious life was governed from inside its own borders instead of somebody else's. Small print aside, it was the moment Bohemia stopped being administered as somebody else's back office and started looking, on paper at least, like a proper member of Christian Europe.",
+      cz: "Téměř sto let se církevní záležitosti Čech neřídily ani z Čech: po rozpadu Velké Moravy spadalo území pod biskupství v Řezně, za hranicemi v Bavorsku. Boleslav — ano, přesně ten Boleslav, bratrovrah svého vlastního bratra Václava — strávil část své dlouhé vlády snahou to napravit a kolem roku 968 zahájil s papežem Janem XIII. jednání o vlastním českém biskupství. Zemřel v roce 972, aniž by dohodu dotáhl do konce; dokončil ji až jeho syn Boleslav II. v roce 973, ve spolupráci s Otou I. — od roku 962, kdy ho v Římě korunoval papež, už římským císařem — a jeho synem Otou II., čímž vzniklo pražské biskupství se sídlem u svatého Víta.\n\nStále podléhalo mohučskému arcibiskupovi, takže o úplné samostatnosti řeč ještě nebyla, a jeho první biskup, saský mnich jménem Dětmar, dokonce nebyl ani Čech — ale poprvé se náboženský život Čech řídil z jejich vlastního území, ne odjinud. Nehledě na drobná ale — to byl okamžik, kdy Čechy přestaly být administrativně cizí přílohou a začaly, aspoň na papíře, vypadat jako řádný člen křesťanské Evropy.",
+      zh: "在将近一个世纪的时间里，波希米亚的教会事务甚至都不是在波希米亚境内管理的：自大摩拉维亚崩溃以来，这片土地一直隶属于巴伐利亚境外的雷根斯堡主教区。博莱斯拉夫——没错，就是那位杀害了兄长瓦茨拉夫的博莱斯拉夫——在他漫长的统治生涯中，曾花了一部分精力想要纠正这一点，大约在968年，他开始与教皇约翰十三世就波希米亚自设主教区一事展开谈判。972年他去世时，这笔交易尚未谈成；直到973年，他的儿子博莱斯拉夫二世才最终促成此事，联合奥托一世——自962年在罗马接受教皇加冕、此时已是神圣罗马帝国皇帝——及其子奥托二世，正式建立了以圣维特为驻地的布拉格主教区。\n\n这个主教区仍隶属于美因茨大主教，算不上真正独立，而它的第一任主教德特马尔，还是位撒克逊修士，甚至都不是捷克人——但这是波希米亚的宗教生活第一次，是由自己境内、而非别处，来治理的。撇开这些小小的但书不谈，这一刻，波希米亚终于不再是别人教务体系里一个挂靠的边区，至少在纸面上，开始看起来像基督教欧洲一个像样的正式成员了。",
     },
     relatedLandmarks: [
       {
@@ -815,6 +907,34 @@ export const historyEvents = [
       },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Bishopric_of_Prague",
+  },
+  {
+    slug: "polish-bohemian-war-990",
+    era: "bohemian-duchy",
+    startYear: 990,
+    year: {
+      en: "990",
+      cz: "990",
+      zh: "990年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Picking the Wrong Side",
+      cz: "Špatná volba strany",
+      zh: "站错了队",
+    },
+    hookLine: {
+      en: "A marriage can buy an alliance a decade or two — but not enough to survive someone else's succession crisis.",
+      cz: "Sňatek dokáže koupit spojenectví na deset, možná patnáct let — ale ne dost na to, aby přežilo cizí nástupnickou krizi.",
+      zh: "一桩联姻能买来十几年的和平——但买不来一场别人家皇位继承危机之后仍旧屹立不倒的同盟。",
+    },
+    summary: {
+      en: "The alliance sealed by Doubravka's marriage held for about a dozen years, but it was really only ever as strong as the people who'd made it. She died in 977, and without her, the personal tie between the two courts started to fray; by around 980, Bohemian-Polish relations were visibly cooling.\n\nThe real break came from somewhere else entirely. When Emperor Otto II died in 983, leaving the throne to his toddler son Otto III, the whole Holy Roman Empire tipped into a regency crisis — and Bohemia and Poland ended up on opposite sides of it almost by accident. Boleslav II threw his support behind the rebellious Duke Henry the Quarrelsome of Bavaria, who was trying to seize the regency for himself; Mieszko I backed the boy-emperor and his regents instead. It wasn't a fight about Bohemia and Poland at all — but it left the two former in-laws facing each other from opposite camps.\n\nBy 990, that political split had hardened into open war. Boleslav II and Mieszko I fought over Silesia and Lesser Poland — the same stretch of borderland, Kraków included, that had briefly answered to Prague a generation earlier. Bohemia lost, and Silesia went to Poland for good; whether Kraków itself had already slipped away before the fighting even started is something historians still argue about. Either way, the marriage that once tied the two dynasties together now marked the border between two rivals — a reminder that no alliance outlives the people who agreed to it, once someone else's crisis forces everyone to pick a side.\n\nNo Prague landmark for this one either — but if you still have that ticket to Kraków from the last chapter, this is more or less where that story ends.",
+      cz: "Spojenectví zpečetěné Doubravčiným sňatkem vydrželo asi tucet let, ale ve skutečnosti bylo silné jen tak, jak silní byli lidé, kteří ho uzavřeli. Doubravka zemřela v roce 977, a bez ní se osobní pouto mezi oběma dvory začalo trhat; kolem roku 980 už bylo česko-polské ochlazení vztahů zjevné.\n\nSkutečný zlom přišel odjinud. Když v roce 983 zemřel císař Ota II. a trůn zanechal svému batolecímu synovi Otovi III., celá Svatá říše římská upadla do krize regentství — a Čechy s Polskem se ocitly na opačných stranách takřka náhodou. Boleslav II. podpořil vzbouřeného bavorského vévodu Jindřicha Svárlivého, který se pokoušel uchvátit regentství pro sebe; Měšek I. se naopak postavil za dětského císaře a jeho regenty. Vůbec nešlo o spor mezi Čechami a Polskem — ale postavil to bývalé švagry do opačných táborů.\n\nDo roku 990 se tento politický rozkol proměnil v otevřenou válku. Boleslav II. a Měšek I. bojovali o Slezsko a Malopolsko — tentýž pás pohraničí, včetně Krakova, který o generaci dříve na čas podléhal Praze. Čechy prohrály a Slezsko připadlo Polsku natrvalo; zda samotný Krakov nepřipadl Polsku už dřív, ještě před vypuknutím bojů, o tom se historici dodnes přou. Ať tak či onak, sňatek, který kdysi spojoval obě dynastie, teď vyznačoval hranici mezi dvěma soupeři — připomínka, že žádné spojenectví nepřežije lidi, kteří ho uzavřeli, jakmile je cizí krize donutí vybrat si stranu.\n\nAni tady na tebe v Praze nečeká žádná památka — ale pokud ti ještě zbyla ta jízdenka do Krakova z minulé kapitoly, tady ten příběh víceméně končí.",
+      zh: "多布拉瓦这桩婚姻缔结的同盟维持了大约十几年，但说到底，它的牢固程度取决于当初缔结它的那两个人。977年她去世后，两国宫廷之间的这条私人纽带便开始松动；到980年前后，波希米亚和波兰的关系已经明显转冷。\n\n真正的裂痕来自完全另一个方向。983年，皇帝奥托二世驾崩，把皇位留给了还是幼童的儿子奥托三世，整个神圣罗马帝国因此陷入摄政危机——波希米亚和波兰几乎是被动地被推到了对立的两个阵营。博莱斯拉夫二世支持了起兵造反、企图夺取摄政权的巴伐利亚公爵“吵闹者”海因里希二世；梅什科一世则选择支持这位幼年皇帝及其摄政团。这场纷争压根跟波希米亚、波兰无关——却让这对昔日的姻亲被摆到了彼此对立的阵营里。\n\n到990年，这场政治分裂彻底演变成了公开战争。博莱斯拉夫二世和梅什科一世为了西里西亚和小波兰开战——正是同一片边境地带，包括克拉科夫，一代人之前曾一度归布拉格管辖。波希米亚战败，西里西亚从此归了波兰；至于克拉科夫本身是不是在开战之前就已经易主，史学界至今仍有争论。但无论如何，那桩曾经把两大家族联系在一起的婚姻，如今标记的却是两个对手之间的边界——这提醒着人们：一旦别人的危机逼着所有人选边站队，再牢固的同盟，也活不过缔结它的那代人。\n\n这一节同样没有布拉格地标——不过如果上一节买的那张去克拉科夫的车票还没用掉，这里差不多就是那个故事的终点了。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Polish%E2%80%93Bohemian_War_(990)",
   },
   {
     slug: "libice-massacre-995",

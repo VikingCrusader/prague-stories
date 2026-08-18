@@ -169,6 +169,7 @@ const T = {
     'history.dragHint': 'Browse the eras to travel through time',
     'history.comingSoon': 'This era is still being written. Check back soon.',
     'history.relatedLandmarksLabel': 'See it for yourself',
+    'history.referenceMapsLabel': 'Compare on a historical map:',
   },
   //czech
   cz: {
@@ -323,6 +324,7 @@ const T = {
     'history.dragHint': 'Procházejte éry a cestujte časem',
     'history.comingSoon': 'Tahle éra se ještě píše. Zkuste to znovu brzy.',
     'history.relatedLandmarksLabel': 'Podívejte se tam sami',
+    'history.referenceMapsLabel': 'Porovnat na historické mapě:',
   },
   //chinese
   zh: {
@@ -477,6 +479,7 @@ const T = {
     'history.dragHint': '浏览各个时代，穿越布拉格历史',
     'history.comingSoon': '这个时代还在编写中，敬请期待。',
     'history.relatedLandmarksLabel': '亲自去看看',
+    'history.referenceMapsLabel': '查看历史地图：',
   },
   //german
   de: {
