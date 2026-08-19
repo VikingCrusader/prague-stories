@@ -22775,6 +22775,144 @@ Vytesali ji roku 1709 bratři Ferdinand a Michal Jan Josef Brokoffové, dva z ne
 🎁 彩蛋：阿达尔伯特拥有桥上的雕像、大教堂的地下墓室，以及一整支纪念雕像"军团"——却唯独没有自己的遗骨。别忘了，他真正的骸骨至今还留在格涅兹诺。布拉格能给他的，只有一座又一座的纪念碑。`,
     },
   },
+
+  {
+    name: 'Peruc',
+    slug: 'peruc',
+    localizedNames: { cz: 'Peruc', zh: '佩鲁茨' },
+    labels: ['village-and-town', 'historical', 'nature'],
+    coordinates: { lat: 50.34431978473373, lng: 13.962220515153717 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Peruc',
+    description: {
+      en: `Brave adventurer, welcome to Peruc — a modest market town whose entire claim to fame rests on one duke's inability to walk past a woman doing laundry. It's a flimsy premise for founding a dynasty, but Bohemia has gotten by on shakier stories than this one.
+
+According to the sixteenth-century chronicler Václav Hájek z Libočan — the same storyteller responsible for much of Bohemia's more colorful, less verifiable early history — Duke Oldřich was out hunting near Peruc around 1002 when he spotted a peasant girl named Božena washing clothes by a stream and lost his head completely. He tethered his horse to a nearby oak, still standing today and known as Oldřichův dub, and made his approach at the spring where she worked, now marked by a small monument called Boženina studánka. Whatever actually happened at that stream, the marriage that followed mattered enormously: their son, Břetislav I, kept the Přemyslid male line alive at a moment when it had nearly run out, and every Bohemian duke after him traced his descent back to a washerwoman by a well.
+
+Peruc itself first appears in written records in 1170, held by the knight-brothers Měšek and Hroznata, sons of a royal chamberlain, both of whom made pilgrimages to Palestine. Ownership passed through a succession of noble families over the following centuries — the Pětipeští of Chýš, the Hruškové of Března — before the Ledeburg family bought the estate in 1673 and commissioned architects Antonio della Porta and Petr Pavel Columbani to rebuild the old fortification into a Baroque chateau, completed by 1724 and later softened into rococo style. Columbani also built the town's Church of Saints Peter and Paul that same decade. The Thun-Hohenstein family took over in 1814, and Peruc didn't formally reclaim market-town status until 2006 — a very long wait for a place that supposedly changed the course of Czech history.
+
+🎁 Bonus: Oldřichův dub is reckoned to be around a thousand years old, has survived several fires, and was voted Czech Tree of the Year in 2025 — meaning the oak Oldřich allegedly tied his horse to has outlasted his entire dynasty and is still, technically, winning awards.`,
+
+      cz: `Statečný dobrodruhu, vítej v Peruci — v nenápadném městysi, jehož celá sláva stojí na tom, že jeden kníže nedokázal projít kolem ženy peroucí prádlo. Je to vratký základ pro založení dynastie, ale Čechy si vystačily i s vratšími příběhy.
+
+Podle kronikáře Václava Hájka z Libočan ze 16. století — téhož vypravěče, kterému vděčíme za většinu barvitější, hůř doložitelné rané české historie — byl kníže Oldřich kolem roku 1002 na lovu poblíž Peruce, když si všiml venkovské dívky jménem Božena, jak peře prádlo u potoka, a úplně z toho ztratil hlavu. Koně přivázal k blízkému dubu, který stojí dodnes a je znám jako Oldřichův dub, a vydal se k ní ke studánce, kde pracovala — dnes ji připomíná drobný pomníček nazvaný Boženina studánka. Ať se u toho potoka odehrálo cokoli skutečně, sňatek, který následoval, měl obrovský význam: jejich syn Břetislav I. udržel přemyslovskou mužskou linii naživu v okamžiku, kdy jí už skoro došly síly, a každý další český kníže po něm odvozoval svůj rod od pradleny od studánky.
+
+Peruc samotná se poprvé objevuje v písemných pramenech roku 1170, v držení bratrů-rytířů Měška a Hroznaty, synů královského komorníka, z nichž oba podnikli pouť do Palestiny. V následujících staletích panství procházelo rukama řady šlechtických rodů — Pětipeských z Chýš, Hruškových z Března — než jej roku 1673 koupil rod Ledeburgů a nechal staré opevnění přestavět architekty Antoniem della Portou a Petrem Pavlem Columbanim na barokní zámek, dokončený do roku 1724 a později zjemněný do rokokové podoby. Columbani ve stejném desetiletí postavil i městský kostel svatých Petra a Pavla. V roce 1814 panství převzal rod Thun-Hohensteinů a Peruc formálně získala zpět status městyse až v roce 2006 — poměrně dlouhé čekání na místo, které údajně změnilo směr českých dějin.
+
+🎁 Bonus: Oldřichův dub je odhadován na zhruba tisíc let, přežil několik požárů a v roce 2025 byl zvolen Stromem roku — takže dub, ke kterému měl Oldřich údajně přivázat koně, přežil celou svou dynastii a stále, technicky vzato, sbírá ocenění.`,
+
+      zh: `勇敢的冒险家，欢迎来到佩鲁茨——一座毫不起眼的小城镇，它全部的名气都建立在一件事上：一位公爵没能管住自己，路过一个正在河边洗衣服的女子时挪不开眼。用这种事当作一个王朝的起点，听起来有点站不住脚，但波希米亚靠着比这更站不住脚的故事撑过来的事，也不是没有过。
+
+根据16世纪编年史家瓦茨拉夫·哈耶克的记载——波希米亚早期历史里那些精彩却难以考证的部分，多半都出自他之手——大约1002年前后，奥尔德日赫公爵在佩鲁茨附近打猎时，看见一位名叫博热娜的农家女子正在溪边洗衣，一下子彻底失了神。他把马拴在附近一棵橡树上，那棵树至今仍立在原地，人称"奥尔德日赫橡树"；随后他走向她所在的泉边搭话，如今那里立着一处小小的纪念地，名叫"博热娜泉"。不论那条溪边究竟发生了什么，后来的这桩婚姻意义重大：他们的儿子布热季斯拉夫一世，在普热美斯家族男系血脉几乎断绝的关头，把它延续了下去，此后每一位波希米亚公爵，都可以把自己的世系一路追溯到一位泉边洗衣的农家女子身上。
+
+佩鲁茨本身最早出现在文字记载中是1170年，当时由王室内侍之子、骑士兄弟梅谢克与赫罗兹纳塔共同持有，二人都曾前往巴勒斯坦朝圣。此后数百年间，庄园几经易主，先后归于佩蒂佩斯基、赫鲁什科维等贵族家族之手，直到1673年由莱德堡家族购得，并委托建筑师安东尼奥·德拉·波尔塔与彼得·帕维尔·科伦巴尼，将旧日的防御工事改建为巴洛克风格城堡，1724年建成，后来又改造成更柔和的洛可可风格。科伦巴尼同一个十年间还在镇上建起了圣彼得与圣保罗教堂。1814年，图恩-霍恩斯坦家族接手庄园，而佩鲁茨直到2006年才正式重新获得城镇地位——对于一个据说曾经改变过捷克历史走向的地方来说，这个等待未免有点漫长。
+
+🎁 彩蛋：奥尔德日赫橡树据估计树龄已近千年，历经数场火灾仍屹立不倒，还在2025年被评选为"年度树木"——也就是说，这棵传说中拴过奥尔德日赫坐骑的橡树，活得比他整个王朝都久，如今照样还在拿奖。`,
+    },
+  },
+
+  {
+    name: 'Lysá nad Labem',
+    slug: 'lysa-nad-labem',
+    localizedNames: { cz: 'Lysá nad Labem', zh: '拉贝河畔利萨' },
+    labels: ['historical', 'palace'],
+    coordinates: { lat: 50.201815943641925, lng: 14.842028615245265 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Lys%C3%A1_nad_Labem',
+    description: {
+      en: `Brave adventurer, welcome to Lysá nad Labem — a pleasant riverside town today, and, a thousand years ago, the place a blind, twice-mutilated duke was sent to be quietly forgotten. It did not stay quiet forever.
+
+A fortified settlement stood here from at least the early eleventh century, built up by the Prague dukes on land seized from the destroyed Slavníkovci family, and by the 1030s it was serving as a holding pen for a very particular kind of prisoner. After Duke Oldřich blinded and deposed his own brother Jaromír in 1012, Jaromír spent roughly two decades in exile and imperial custody before briefly returning to power — only to be blinded a second time and locked away here at Lysá, this time for good. He lingered for the rest of his life, sightless and politically irrelevant, until the night of 4 November 1035, when an assassin sent by the Vršovci clan found him in the outhouse and killed him with a spear — an ending the chronicler Cosmas recorded in enough graphic detail that it's remembered as one of the strangest political murders in Bohemian history.
+
+The stronghold that held him gradually grew into a proper Gothic castle under later Přemyslid rule, and after passing through the Smiřický family and surviving the Hussite Wars, it was elevated to royal status in 1548 and rebuilt as a Renaissance hunting lodge for the Habsburgs. Count František Antonín Špork gave it a Baroque facelift in the early eighteenth century, and the building standing on the site today — much altered, much gentler than its original job — currently serves as a retirement home, a peaceful final chapter for a place that once specialized in unhappy ones.
+
+🎁 Bonus: Jaromír had already been castrated once, by his own eldest brother, before Oldřich blinded him a second time — making him, by even the generous standards of early Přemyslid sibling rivalry, the single unluckiest duke this dynasty ever produced.`,
+
+      cz: `Statečný dobrodruhu, vítej v Lysé nad Labem — dnes příjemném městě na řece, před tisícem let ale místě, kam byl poslán slepý, dvakrát zmrzačený kníže, aby na něj tiše zapomněli. Ticho ale nevydrželo navěky.
+
+Opevněné sídliště zde stálo nejpozději od počátku 11. století, vybudované pražskými knížaty na půdě zabrané po vyhlazeném rodu Slavníkovců, a ve 30. letech 11. století sloužilo jako místo pro velmi specifický druh vězně. Poté co kníže Oldřich v roce 1012 nechal svého bratra Jaromíra oslepit a sesadit, strávil Jaromír zhruba dvě desetiletí ve vyhnanství a v říšském zajetí, než se nakrátko vrátil k moci — jen aby byl podruhé oslepen a tentokrát nadobro uvězněn právě zde, v Lysé. Zbytek života dožil slepý a politicky bezvýznamný, až do noci 4. listopadu 1035, kdy ho na příkaz rodu Vršovců našel na latríně nájemný vrah a probodl ho kopím — konec, který kronikář Kosmas zaznamenal v natolik názorných detailech, že se dodnes pamatuje jako jedna z nejpodivnějších politických vražd české historie.
+
+Opevnění, které ho drželo v zajetí, se za pozdějších přemyslovských vládců postupně rozrostlo v pořádný gotický hrad, a po přechodu do rukou Smiřických a přežití husitských válek bylo v roce 1548 povýšeno na královský majetek a přestavěno na renesanční lovecký zámeček Habsburků. Hrabě František Antonín Špork mu na počátku 18. století vtiskl barokní tvář, a budova, která na místě stojí dnes — mnohokrát přestavěná a mnohem mírnější, než byla její původní úloha — dnes slouží jako domov pro seniory, klidná poslední kapitola místa, které se kdysi specializovalo na kapitoly zdaleka ne tak klidné.
+
+🎁 Bonus: Jaromír byl už jednou vykastrován vlastním nejstarším bratrem, než ho Oldřich podruhé nechal oslepit — což z něj i podle velkorysých měřítek raně přemyslovské sourozenecké rivality dělá zdaleka nejnešťastnějšího knížete, jakého tahle dynastie kdy vyprodukovala.`,
+
+      zh: `勇敢的冒险家，欢迎来到拉贝河畔利萨——如今是一座宜人的河畔小城，一千年前，这里却是一位双目失明、两度被摧残的公爵被送来悄悄"遗忘"的地方。只是这份安静，并没能一直持续下去。
+
+至迟从11世纪初起，这里就矗立着一处设防聚落，由布拉格的公爵们在被灭族的斯拉夫尼克家族旧地上建立；到1030年代，它开始用来关押一种非常特殊的囚犯。1012年，奥尔德日赫公爵下令弄瞎并废黜了自己的兄长雅罗米尔；此后雅罗米尔在流亡与帝国的看管下度过了大约二十年，才短暂重返权力中心——结果又被第二次弄瞎双眼，这一次被永久囚禁在了利萨。他在失明和彻底失势中度过余生，直到1035年11月4日夜里，一名受维尔绍夫奇家族指使的刺客在茅厕中找到了他，用长矛将他刺死——编年史家科斯马斯记录下的细节之详尽，让这起事件至今仍被视为波希米亚历史上最离奇的政治谋杀案之一。
+
+囚禁过他的这处堡寨，在此后历代普热美斯家族统治者手中逐渐扩建成一座正式的哥特式城堡；辗转落入斯米日茨基家族之手、又挺过胡斯战争之后，它于1548年被提升为王室产业，并被改建为哈布斯堡家族的文艺复兴式狩猎行宫。18世纪初，弗兰蒂谢克·安东宁·什波尔克伯爵又为它添上了一层巴洛克外观；如今矗立在原址上的这栋建筑——历经多次改建，性情也比它最初的差事温和得多——目前是一处养老院，为这个曾经专门制造不安宁结局的地方，写下了一个平静的最后篇章。
+
+🎁 彩蛋：雅罗米尔早在被奥尔德日赫第二次弄瞎之前，就已经被自己的长兄阉割过一次——哪怕按早期普热美斯家族兄弟阋墙的"宽松"标准来衡量，他也称得上是这个王朝历史上运气最差的一位公爵，没有之一。`,
+    },
+  },
+
+  {
+    name: 'Chrudim',
+    slug: 'chrudim',
+    localizedNames: { cz: 'Chrudim', zh: '赫鲁季姆' },
+    labels: ['historical', 'village-and-town'],
+    coordinates: { lat: 49.95125250185877, lng: 15.794879162864053 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Chrudim',
+    description: {
+      en: `Welcome to Chrudim — a pleasant East Bohemian town whose entire written history begins, rather bleakly, with a duke dying in it. Every town has to start somewhere; this one just happened to start at a funeral.
+
+Chrudim's earliest written mention comes from early 1055, and it's not a flattering one: Duke Břetislav I had gathered here to muster troops for what would have been his third campaign against Hungary when he fell suddenly and gravely ill. Knowing the end was near, he summoned his sons to his sickbed and, instead of dying quietly, used his last hours to reorganize the entire Bohemian state — proclaiming the decree that would govern who inherited the ducal throne for the next century and a half: not the eldest son, but the eldest surviving male of the whole Přemyslid line. He died at Chrudim within days, on 10 January 1055, having planned one more war and delivered, almost as an afterthought, the single most consequential piece of legislation his dynasty ever produced.
+
+The town itself took another two centuries to properly exist: King Přemysl Otakar II elevated it to royal-town status in 1276, capitalizing on its position along the trade road linking Prague to Moravia, and from 1307 it served as a dowry town supporting the households of Bohemian queens. Chrudim sided with the anti-Catholic cause during the Hussite Wars, which drove out most of its German-speaking population and left it a thoroughly Czech town from then on — a stance it doubled down on by joining both the 1547 Estates Revolt and the 1618–1620 Bohemian Revolt against Habsburg rule, and paying for it with heavy losses during the Thirty Years' War and the forced exodus of its Protestant residents. Quieter centuries followed: an 18th- and 19th-century reputation as the 'Athens of Eastern Bohemia' for its cultural life, and a modern economic revival once the railway arrived in 1871.
+
+🎁 Bonus: These days Chrudim is best known for something considerably gentler than dying dukes — puppets. It hosts Loutkářská Chrudim, one of the oldest and most respected puppet theatre festivals in the country, a fitting second act for a town whose first act opened with a duke's final act of statecraft.`,
+
+      cz: `Vítej v Chrudimi — příjemném východočeském městě, jehož celé písemné dějiny začínají poněkud pochmurně: umírajícím knížetem. Každé město musí někde začít; tohle prostě začalo na pohřbu.
+
+První písemná zmínka o Chrudimi pochází z počátku roku 1055, a není zrovna lichotivá: kníže Břetislav I. se zde shromáždil s vojskem, aby vytáhl na svou už třetí výpravu proti Uhrám, když náhle těžce onemocněl. Věda, že se blíží konec, svolal k svému lůžku syny a místo tichého umírání využil posledních hodin k tomu, aby přeuspořádal celý český stát — vyhlásil výnos, který měl určovat, kdo zdědí knížecí trůn po dalších sto padesát let: ne nejstarší syn, ale nejstarší žijící muž z celé přemyslovské linie. V Chrudimi během několika dní, 10. ledna 1055, zemřel — naplánoval si ještě jednu válku a téměř mimochodem odevzdal jediný nejvýznamnější právní akt, jaký kdy jeho dynastie vytvořila.
+
+Samotné město muselo na svou skutečnou existenci počkat ještě dvě staletí: král Přemysl Otakar II. je v roce 1276 povýšil na královské město, těžíc z jeho polohy na obchodní cestě spojující Prahu s Moravou, a od roku 1307 sloužilo jako věnné město, vydržující domácnosti českých královen. Chrudim se za husitských válek přiklonila k protikatolické straně, což vyhnalo většinu jejího německy mluvícího obyvatelstva a od té doby z ní udělalo důkladně české město — postoj, který ještě prohloubila účastí jak na stavovském povstání roku 1547, tak na českém stavovském povstání 1618–1620 proti habsburské nadvládě, což ji stálo těžké ztráty za třicetileté války a nucený odchod jejích protestantských obyvatel. Následovala klidnější staletí: v 18. a 19. století si vysloužila pověst „Athén východních Čech" díky svému kulturnímu životu, a moderní hospodářské oživení přišlo s příjezdem železnice v roce 1871.
+
+🎁 Bonus: Dnes je Chrudim známá spíš něčím podstatně mírnějším než umírajícími knížaty — loutkami. Hostí Loutkářskou Chrudim, jeden z nejstarších a nejuznávanějších loutkářských festivalů v zemi — vhodné druhé dějství pro město, jehož první dějství se otevřelo posledním státnickým činem jednoho knížete.`,
+
+      zh: `欢迎来到赫鲁季姆——一座宜人的东波希米亚小城，它整部文字记载的历史，开篇却相当阴郁：始于一位公爵的死亡。每座城镇总得有个起点；这座恰好是从一场葬礼开始的。
+
+赫鲁季姆最早的文字记载出现在1055年初，而且开篇并不光彩：布热季斯拉夫一世公爵在此集结军队，准备发动他此生第三次对匈牙利的远征，却突然身染重病。自知大限将至，他把儿子们召到病榻前，没有静静等死，而是用生命最后的时间重新安排了整个波希米亚国家的未来——颁布了那道此后一个半世纪都将决定谁能继承公爵之位的法令：不是长子，而是整个普热美斯家族里在世的最年长男性。数日之内，他于1055年1月10日在赫鲁季姆去世——原本计划着再打一仗，最后却近乎随手交出了他这个王朝有史以来影响最深远的一部法令。
+
+这座城镇本身，又过了两个世纪才真正成形：1276年，普热米斯尔·奥托卡二世国王凭借它位于连接布拉格与摩拉维亚商路上的地理位置，将其提升为王室城镇；从1307年起，它又成为供养波希米亚王后们家计的"嫁妆城镇"。胡斯战争期间，赫鲁季姆倒向了反天主教一方，这赶走了城中大部分讲德语的居民，从此城镇彻底捷克化——这一立场此后又在1547年三级会议起义和1618年至1620年波希米亚三级会议起义中进一步加深，两次都是反抗哈布斯堡统治，也都让这座城镇在三十年战争中付出了惨重代价，新教居民被迫背井离乡。此后是相对平静的几个世纪：18、19世纪，它凭借活跃的文化生活赢得了"东波希米亚的雅典"这个美誉；1871年铁路通车后，又迎来了一次现代经济复苏。
+
+🎁 彩蛋：如今的赫鲁季姆，最出名的东西比"公爵驾崩"要温和得多——木偶。这里举办着"赫鲁季姆木偶节"，是捷克历史最悠久、最受尊崇的木偶戏节之一——对于一座第一幕开场就是一位公爵最后国务举措的城镇来说，这算是个恰如其分的第二幕。`,
+    },
+  },
+
+  {
+    name: 'Přemysl the Ploughman Monument',
+    slug: 'pomnik-premysla-orace',
+    localizedNames: { cz: 'Pomník Přemysla Oráče', zh: '犁田者普热米斯尔纪念碑' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.61460459444836, lng: 13.963234552261746 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kr%C3%A1lovsk%C3%A9_pole_s_pomn%C3%ADkem_P%C5%99emysla_Or%C3%A1%C4%8De',
+    description: {
+      en: `Welcome to the Monument to Přemysl the Ploughman — a chunk of 19th-century iron and stone marking the exact field where, according to legend, a farmer's entire life got rearranged by one very determined horse.
+
+This stretch of farmland outside the village of Stadice is traditionally identified as the 'Royal Field' where Libuše's envoys found Přemysl mid-plough and led him off to become duke — the same story told elsewhere on this timeline. In 1841, Count Erwein Nostitz-Rieneck had a monument raised here to mark the spot: a heavy stone plinth topped with a cast-iron plough, decorated on both faces with iron relief panels cast the year before at Count Vrbna's foundry near Hořovice, from designs by sculptor Josef Max. One relief shows Přemysl meeting Libuše's messengers in the field; the other shows him arriving at Vyšehrad, received by Krok's three daughters. The base originally carried matching Czech and German inscriptions reading, in the archaic spelling of the day, roughly 'Here from the plough Přemysl was called to the dukedom. Erected 1841.' The German half didn't survive the 20th century: in 1945 it was ground off and replaced with a new Czech line marking a different homecoming — 'Rule has returned into your hands, O Czech people.'
+
+🎁 Bonus: Legend adds one more detail the monument doesn't mention — before leaving for Prague, Přemysl is said to have driven a stake into the ground nearby, which took root and grew into a hazel tree. Its nuts were delivered to the royal table as a matter of ceremony for centuries: Emperor Charles IV freed three local farmsteads from serfdom specifically in exchange for tending the tree, a custom that held on until 1701 and was still remembered, at least once more, at Charles VI's coronation feast in 1723.`,
+
+      cz: `Vítej u pomníku Přemysla Oráče — kusu devatenáctého století, odlitého ze železa a kamene, který označuje přesně to pole, kde se podle pověsti obrátil vzhůru nohama celý život jednoho sedláka, a to díky jednomu velmi cílevědomému koni.
+
+Tenhle kus polí u vesnice Stadice je tradičně ztotožňován s „Královským polem", kde Libušini poslové našli Přemysla uprostřed orání a odvedli ho, aby se stal knížetem — tentýž příběh, který je jinde na téhle časové ose vyprávěný podrobněji. V roce 1841 nechal hrabě Ervín Nostic z Rienecku na tomto místě postavit pomník: mohutný kamenný podstavec, na němž spočívá litinový pluh, po obou stranách zdobený železnými reliéfy, odlitými o rok dřív ve slévárně hraběte Vrbny u Hořovic podle návrhu sochaře Josefa Maxe. Jeden reliéf zachycuje Přemysla, jak se v poli setkává s Libušinými posly; druhý jeho příchod na Vyšehrad, kde ho přivítaly tři dcery knížete Kroka. Podstavec původně nesl souběžný český a německý nápis, který v dobovém archaickém pravopisu zněl přibližně: „ZDE OD PLUHU PŘEMYSL K WÉWODSTWJ POWOLÁN. WZDĚLANY MDCCCXLI." Německá polovina se dvacátého století nedožila: v roce 1945 byla sbroušena a nahrazena novým českým nápisem, který připomínal jiný návrat domů — „VLÁDA VRÁTILA SE DO RUKOU TVÝCH, Ó LIDE ČESKÝ."
+
+🎁 Bonus: Pověst přidává ještě jeden detail, který pomník sám nezmiňuje — než se Přemysl vydal do Prahy, měl prý poblíž zarazit do země kůl, z něhož vyrostla líska. Její oříšky se po staletí obřadně dodávaly na královský stůl: císař Karel IV. kvůli tomu osvobodil tři místní usedlosti z poddanství výměnou za péči o strom, zvyk vydržel až do roku 1701 a naposledy si ho ještě připomněli při korunovační hostině Karla VI. v roce 1723.`,
+
+      zh: `欢迎来到"犁田者普热米斯尔纪念碑"——一座19世纪的铁石构筑物，标记着传说中一匹格外有主见的马，把一位农夫的整个人生彻底改写的那片田地。
+
+斯塔迪采村外的这片农田，传统上被认定为传说中的"王田"（Královské pole）——莉布谢的使团正是在这里找到正在犁地的普热米斯尔，并把他带走继位——同一个故事在本时间线的另一节里有更完整的讲述。1841年，埃尔文·诺斯蒂茨-里内克伯爵在此立下一座纪念碑：一座厚重的石质基座，上面立着一具铸铁犁；基座两面都装饰着铁质浮雕，浮雕于前一年在霍热维采附近弗尔布纳伯爵的铸造厂铸成，出自雕塑家约瑟夫·马克斯的设计。一面浮雕描绘普热米斯尔在田间遇见莉布谢使者的场景，另一面则是他抵达维舍赫拉德、被克罗克公爵的三位女儿迎接的场景。基座上原本刻有并列的捷克文与德文铭文，用当时的古体拼写大致写着："普热米斯尔于此从犁头受命统治，1841年立"。德文那一面没能挺过20世纪：1945年被磨去，换上了一句纪念另一种"归来"的新捷克文题词——"权柄已归还于你，噢，捷克人民。"
+
+🎁 彩蛋：传说还补充了纪念碑本身没提到的一个细节——据说普热米斯尔在动身前往布拉格之前，曾在附近的地里插下一根木桩，后来它生根发芽，长成了一棵榛树。这棵树结出的榛子，此后数百年间都要按惯例进献给王室餐桌：神圣罗马皇帝查理四世曾特地免除当地三户农庄的农奴身份，条件是让他们负责照料这棵树，这个习俗一直延续到1701年，甚至在1723年查理六世的加冕宴上，据说还有人记得再度端出斯塔迪采的榛子。`,
+    },
+  },
 ];
 
 async function run() {

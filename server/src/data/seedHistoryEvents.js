@@ -160,19 +160,11 @@ export const historyEvents = [
     },
     relatedLandmarks: [
       {
-        slug: "sousosi-premysl-a-libuse",
+        slug: "pomnik-premysla-orace",
         relation: {
-          en: "The same statue pair — this half shows the ploughman mid-story, still being fetched from his field to become a duke.",
-          cz: "Stejné sousoší — tato polovina zachycuje oráče uprostřed příběhu, ještě než byl odveden z pole, aby se stal knížetem.",
-          zh: "同一座雕像群——这一侧描绘的正是犁田者本人，尚未被从田间接走、成为一方之主前的那一刻。",
-        },
-      },
-      {
-        slug: "levy-hradec",
-        relation: {
-          en: "The dynasty Přemysl founded needed a seat before Prague Castle existed — this hillfort was it, hosting the Přemyslids two centuries before his descendants moved on to grander things.",
-          cz: "Dynastie, kterou Přemysl založil, potřebovala sídlo dřív, než vůbec existoval Pražský hrad — a tímhle hradištěm bylo právě tohle, dvě staletí předtím, než se jeho potomci přesunuli za něčím honosnějším.",
-          zh: "普热米斯尔一手创立的这个王朝，在布拉格城堡出现之前就需要一处根据地——而这座古城堡遗址正是普热米斯尔王朝早年的驻地，足足早了两个世纪，后来他的后代才迁往更宏伟的地方。",
+          en: "The actual field, according to legend — where Přemysl was found mid-plough by Libuše's envoys, marked since 1841 by a monument built on the spot.",
+          cz: "Skutečné pole, alespoň podle pověsti — kde Libušini poslové našli Přemysla uprostřed orání, od roku 1841 označené pomníkem postaveným přímo na místě.",
+          zh: "传说中真正的那片田地——莉布谢的使团正是在这里找到正在犁地的普热米斯尔，自1841年起，此地立有一座纪念碑加以标记。",
         },
       },
     ],
@@ -1207,6 +1199,22 @@ export const historyEvents = [
           zh: "1032年由奥尔德日赫本人倡议创立，就在他统治末期——是唯一一处完全属于他自己的功绩，不用跟兄弟、波兰人或儿子分享。",
         },
       },
+      {
+        slug: "peruc",
+        relation: {
+          en: "Where Oldřich, still just a prince, is said to have met the peasant girl Božena by a well — the encounter that produced Břetislav, the illegitimate son growing up in the background of this very story.",
+          cz: "Místo, kde se Oldřich, tehdy ještě jen kníže bez trůnu, měl u studánky setkat s venkovskou dívkou Boženou — setkání, z něhož vzešel Břetislav, nemanželský syn vyrůstající v pozadí právě tohoto příběhu.",
+          zh: "传说中，尚未继位的奥尔德日赫正是在这里，于一口水井边邂逅了农家女子博热娜——这场相遇，生下了正在这个故事背景里悄悄长大的私生子布热季斯拉夫。",
+        },
+      },
+      {
+        slug: "lysa-nad-labem",
+        relation: {
+          en: "Where Jaromír was held after Oldřich had him blinded, and where he was murdered on the toilet in 1035 by an assassin sent by the Vršovci — the actual end of the story this event's title gestures at.",
+          cz: "Místo, kde byl Jaromír vězněn poté, co ho Oldřich nechal oslepit, a kde ho v roce 1035 na záchodě zavraždil nájemný vrah vyslaný Vršovci — skutečný konec příběhu, na který název této události naráží.",
+          zh: "雅罗米尔被奥尔德日赫弄瞎之后被囚禁于此，1035年也正是在这里，他在如厕时被维尔绍夫奇家族派来的刺客杀害——这才是本词条标题所暗指的那个故事的真正结局。",
+        },
+      },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Old%C5%99ich,_Duke_of_Bohemia",
   },
@@ -1219,6 +1227,7 @@ export const historyEvents = [
       cz: "kolem 1019–1021",
       zh: "约1019年－1021年",
     },
+    images: ["/history/kidnapped-duchess-1019.webp"],
     tone: "humorous",
     title: {
       en: "The Kidnapped Duchess",
@@ -1231,12 +1240,50 @@ export const historyEvents = [
       zh: "一代人之后，就在波希米亚刚刚差点把自己弄丢给邻国不久，一位没有资格靠正当途径娶到好人家的年轻贵族，决定干脆自己动手，抢来规矩不肯给他的东西。",
     },
     summary: {
-      en: "Břetislav — decades before anyone called him the 'Bohemian Achilles,' let alone before he wrote the rulebook Bohemia's succession would follow for the next century and a half — had a problem: he was the illegitimate son of Duke Oldřich, which made marrying into a family as well-connected as he needed both socially awkward and practically impossible through normal channels.\n\nSo, around 1019, he simply skipped the normal channels. He rode into Schweinfurt in Bavaria, entered the convent where Judith, daughter of the local margrave, was staying, and carried her off to marry her himself — an abduction chroniclers recorded without recording any punishment for it. It worked. Bohemia got a duchess, Břetislav got the connections his birth alone couldn't buy him, and the same man who'd later spend his final years imposing a rigid, orderly rule for who gets to inherit power began his own adult life by simply deciding the rules didn't apply to him.",
-      cz: "Břetislav — desítky let předtím, než mu kdokoli začal říkat „český Achilles\", natož než sepsal pravidlo, podle kterého se české nástupnictví řídilo dalších sto padesát let — měl jeden problém: byl nemanželským synem knížete Oldřicha, což sňatek s natolik dobře napojenou rodinou, jakou potřeboval, dělalo společensky trapným i prakticky nemožným běžnou cestou.\n\nKolem roku 1019 tedy tu běžnou cestu jednoduše přeskočil. Přijel do bavorského Schweinfurtu, vstoupil do kláštera, kde pobývala Jitka, dcera tamního markraběte, a odvezl si ji s sebou, aby si ji vzal za ženu — únos, který kronikáři zaznamenali, aniž by zaznamenali za něj jakýkoli trest. Fungovalo to. Čechy získaly kněžnu, Břetislav získal spojenectví, které mu samotný jeho původ nikdy nemohl zajistit — a tentýž muž, který na sklonku života prosadil přísné, uspořádané pravidlo, kdo smí zdědit moc, začal svůj dospělý život prostým rozhodnutím, že pravidla se ho netýkají.",
-      zh: "布热季斯拉夫——在任何人称他为“捷克的阿基里斯”之前几十年，更早于他后来立下那条支配波希米亚继承制度长达一个半世纪的规矩之前——曾面对一个难题：他是奥尔德里希公爵的私生子，这个出身让他想通过正常途径迎娶一位门当户对、家世显赫的女子，既尴尬又几乎不可能。\n\n于是大约在1019年，他索性绕开了正常途径。他策马赶到巴伐利亚的施瓦因富特，闯入当地边区伯爵之女尤迪特所在的修道院，把她带走，强行娶她为妻——编年史家记下了这场绑架，却没有记下任何惩罚。这招奏效了。波希米亚由此有了一位公爵夫人，布热季斯拉夫也因此得到了单凭出身永远换不来的人脉与联姻关系——而正是这个人，日后在生命的最后阶段确立了一套严格有序、规定谁有权继承权力的规矩，他自己的成年生活，却是从“规矩管不着我”这个决定开始的。",
+      en: "Břetislav — decades before anyone called him the 'Bohemian Achilles,' let alone before he wrote the rulebook Bohemia's succession would follow for the next century and a half — had a problem: he was the illegitimate son of Duke Oldřich, which made marrying into a family as well-connected as he needed both socially awkward and practically impossible through normal channels.\n\nSo, around 1019, he simply skipped the normal channels. He rode into Schweinfurt in Bavaria, entered the convent where Judith, daughter of the local margrave, was staying, and carried her off to marry her himself — an abduction chroniclers recorded without recording any punishment for it. It worked. Bohemia got a duchess, Břetislav got the connections his birth alone couldn't buy him, and the same man who'd later spend his final years imposing a rigid, orderly rule for who gets to inherit power began his own adult life by simply deciding the rules didn't apply to him.\n\nFair warning: none of this happened anywhere near Prague either — the abduction itself took place in Schweinfurt, deep in Germany. Břetislav and Judith didn't settle in Prague afterward, either; they set up house in Olomouc, Moravia, where he governed as the deputy of his father Oldřich — still very much alive and still Duke of Bohemia — and it was from Olomouc, in 1029, that he'd launch the campaign to win Moravia back for good. Olomouc sits a good 250 kilometres from Prague, well outside this app's day-trip radius, so this chapter goes landmark-free too.",
+      cz: "Břetislav — desítky let předtím, než mu kdokoli začal říkat „český Achilles\", natož než sepsal pravidlo, podle kterého se české nástupnictví řídilo dalších sto padesát let — měl jeden problém: byl nemanželským synem knížete Oldřicha, což sňatek s natolik dobře napojenou rodinou, jakou potřeboval, dělalo společensky trapným i prakticky nemožným běžnou cestou.\n\nKolem roku 1019 tedy tu běžnou cestu jednoduše přeskočil. Přijel do bavorského Schweinfurtu, vstoupil do kláštera, kde pobývala Jitka, dcera tamního markraběte, a odvezl si ji s sebou, aby si ji vzal za ženu — únos, který kronikáři zaznamenali, aniž by zaznamenali za něj jakýkoli trest. Fungovalo to. Čechy získaly kněžnu, Břetislav získal spojenectví, které mu samotný jeho původ nikdy nemohl zajistit — a tentýž muž, který na sklonku života prosadil přísné, uspořádané pravidlo, kdo smí zdědit moc, začal svůj dospělý život prostým rozhodnutím, že pravidla se ho netýkají.\n\nUpozornění: ani tohle se neodehrálo nikde poblíž Prahy — samotný únos proběhl v bavorském Schweinfurtu, hluboko v Německu. Břetislav s Jitkou se navíc po návratu neusadili v Praze, ale na Moravě v Olomouci, kde vládl jako zástupce svého otce Oldřicha — tehdy ještě živého a stále vládnoucího knížete — a právě odtud v roce 1029 vytáhl na tažení, které mu mělo Moravu vrátit nadobro. Olomouc leží dobrých 250 kilometrů od Prahy, daleko za hranicí jednodenního výletu, takže ani tahle kapitola nemá svou památku.",
+      zh: "布热季斯拉夫——在任何人称他为“波希米亚的阿喀琉斯”之前几十年，更早于他后来立下那条支配波希米亚继承制度长达一个半世纪的规矩之前——曾面对一个难题：他是奥尔德里希公爵的私生子，这个出身让他想通过正常途径迎娶一位门当户对、家世显赫的女子，既尴尬又几乎不可能。\n\n于是大约在1019年，他索性绕开了正常途径。他策马赶到巴伐利亚的施瓦因富特，闯入当地边区伯爵之女尤迪特所在的修道院，把她带走，强行娶她为妻——编年史家记下了这场绑架，却没有记下任何惩罚。这招奏效了。波希米亚由此有了一位公爵夫人，布热季斯拉夫也因此得到了单凭出身永远换不来的人脉与联姻关系——而正是这个人，日后在生命的最后阶段确立了一套严格有序、规定谁有权继承权力的规矩，他自己的成年生活，却是从“规矩管不着我”这个决定开始的。\n\n提醒一句：这件事从头到尾也没发生在布拉格附近——绑亲本身发生在德国腹地的施瓦因富特。布热季斯拉夫和尤迪特回国后，也没有留在布拉格，而是定居在摩拉维亚的奥洛穆茨，他在那里以父亲奥尔德日赫（当时依然在世、仍是波希米亚公爵本人）代理人的身份统治摩拉维亚，1029年正是从奥洛穆茨出发，发起了收复摩拉维亚的军事行动。奥洛穆茨距布拉格足有250公里，远超本应用“一日游”范围，所以这一节同样没有配套地标。",
     },
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Judith_of_Schweinfurt",
+  },
+  {
+    slug: "bohemian-achilles-1029",
+    era: "bohemian-duchy",
+    startYear: 1029,
+    year: {
+      en: "1029–1041 (his campaigns)",
+      cz: "1029–1041 (jeho tažení)",
+      zh: "1029年－1041年（军事生涯）",
+    },
+    images: ["/history/bohemian-achilles-1029.webp"],
+    tone: "serious",
+    title: {
+      en: "The Bohemian Achilles",
+      cz: "Český Achilles",
+      zh: "波希米亚的阿喀琉斯",
+    },
+    hookLine: {
+      en: "For a dozen years, Duke Břetislav I did what almost no Přemyslid before him had managed: he kept winning. It would not, in the end, be enough.",
+      cz: "Kníže Břetislav I. po dvanáct let dokazoval to, co se skoro žádnému přemyslovci před ním nepodařilo: prostě vyhrával. Nakonec to ale nestačilo.",
+      zh: "在长达十二年的时间里，布热季斯拉夫一世公爵做到了几乎没有一位普热美斯家族先辈能做到的事——他一直在赢。可到头来，这还是不够。",
+    },
+    summary: {
+      en: "Břetislav's first taste of independent command came in 1029, while still just a prince stationed in Olomouc as his father's man in Moravia: backed by Holy Roman Emperor Conrad II, he drove the Poles out of Moravia and brought it back under Bohemian control — a rare piece of good news after years of watching Poland carve the country up. The following year, still under Conrad's banner, he marched into Hungary alongside the emperor to check King Stephen I's ambitions — Bohemia's first real taste of playing offense on that frontier rather than defense.\n\nIn 1034, with his father Oldřich dead and his blinded uncle Jaromír declining a second turn at a throne that had already cost him both his eyes, Břetislav finally became Duke of Bohemia in his own right — not by conquest or intrigue this time, simply by outliving the alternatives.\n\nHis defining campaign came five years later. In 1039, Břetislav invaded Greater and Lesser Poland, captured the Polish capital at Poznań, sacked Gniezno itself, and seized the relics of St. Adalbert, his companion Radim Gaudentius, and the so-called Five Brothers, carrying them home to Bohemia — picking up part of Silesia on the way back. For one brief moment Bohemian authority reached deep into Poland, Kraków included, territory no Přemyslid duke had held before or would hold so completely again. It's the raid that earned Břetislav his lasting epithet, 'the Bohemian Achilles,' from Cosmas of Prague, writing his chronicle a century later — the single line he's still best remembered by.\n\nEmperor Henry III did not share the enthusiasm — an unauthorized Bohemian reach stretching to Kraków was not the obedient client duchy the Empire had signed up for. His first invasion was ambushed and turned back at Brůdek in 1040, but a second attempt the next year succeeded, helped along by a mutiny among Břetislav's own nobles and, by one account, an outright betrayal from Bishop Šebíř of Prague. Břetislav submitted, swore fealty to Henry III, and handed back nearly everything he'd taken: Poland in full, and even the sliver of Silesia he was allowed to keep as a fief rather than a conquest slipped back within a few years. Only Moravia, and the relics, stayed Bohemian for good — the pattern this whole era keeps circling back to: winning the war, and somehow still losing the peace.",
+      cz: "Břetislavovo první samostatné vojenské velení přišlo v roce 1029, kdy byl ještě jen knížecím synem sídlícím v Olomouci jako otcův zástupce na Moravě: s podporou císaře Konráda II. vytlačil Poláky z Moravy a vrátil ji pod českou správu — vzácná dobrá zpráva po letech, kdy Čechy sledovaly, jak jim Polsko odkrajuje kus po kuse. O rok později, stále po boku Konráda, táhl s císařem do Uher zarazit ambice krále Štěpána I. — poprvé si Čechy na téhle hranici vyzkoušely roli útočníka, ne jen obránce.\n\nV roce 1034, po smrti otce Oldřicha a poté, co se oslepený strýc Jaromír vzdal druhé šance na trůn, který ho už jednou stál obě oči, se Břetislav konečně stal knížetem sám za sebe — tentokrát ne dobytím ani intrikou, ale prostým přežitím všech ostatních možností.\n\nJeho rozhodující tažení přišlo o pět let později. V roce 1039 vpadl Břetislav do Velkopolska i Malopolska, dobyl polské hlavní město Poznaň, vyplenil samotné Hnězdno a uchvátil ostatky svatého Vojtěcha, jeho druha Radima Gaudentia a takzvaných Pěti bratří, které odvezl domů do Čech — cestou zpátky si ještě přidal část Slezska. Na jeden krátký okamžik sahala česká moc hluboko do Polska, včetně Krakova, na území, jaké před ním žádný přemyslovský kníže nedržel a jaké už žádný jiný nikdy tak úplně neudrží znovu. Právě tohle tažení mu o století později vyneslo od kronikáře Kosmy trvalou přezdívku „český Achilles\" — jedinou větu, podle které si ho dodnes nejvíc pamatujeme.\n\nCísař Jindřich III. z toho nadšený nebyl — neschválené české panství sahající až ke Krakovu nebylo tou poslušnou provincií, na jakou byla Říše zvyklá. Jeho první invaze skončila přepadením a porážkou u Brůdku v roce 1040, ale druhý pokus o rok později uspěl, k čemuž napomohla vzpoura mezi Břetislavovými vlastními šlechtici a podle jednoho podání i vyložená zrada pražského biskupa Šebíře. Břetislav se podrobil, přísahal Jindřichovi III. věrnost a vrátil téměř všechno, co dobyl: Polsko úplně celé, a i ten kousek Slezska, který si směl ponechat jako léno místo dobytí, se během několika let opět sesul zpátky k Polsku. Natrvalo Čechám zůstala jen Morava a ostatky — přesně ten vzorec, ke kterému se celá tahle éra pořád vrací: vyhrát válku, a přesto nějak prohrát mír.",
+      zh: "布热季斯拉夫第一次独立领兵，是在1029年——那时他还只是驻守奥洛穆茨、替父亲管理摩拉维亚的公子。在神圣罗马皇帝康拉德二世的支持下，他把波兰人赶出摩拉维亚，重新收归波希米亚——在波希米亚眼睁睁看着波兰蚕食国土多年之后，这是难得的好消息。次年，他仍在康拉德麾下，随皇帝一同出兵匈牙利，遏制国王伊什特万一世的扩张势头——这是波希米亚第一次在这条边境线上尝到进攻、而非防守的滋味。\n\n1034年，父亲奥尔德日赫去世后，双目失明的叔父雅罗米尔放弃了再次登上那个已经让他失去双眼的宝座的机会，布热季斯拉夫终于正式成为公爵——这一次，靠的既不是征服，也不是阴谋，只是熬到了所有其他人选都不在场。\n\n他真正决定性的一战，出现在五年之后。1039年，布热季斯拉夫挥师入侵大波兰与小波兰，攻陷了波兰都城波兹南，血洗格涅兹诺本城，夺走了圣阿达尔伯特及其同伴拉迪姆·高登提乌斯，还有所谓“五兄弟”的遗骨，带回波希米亚——回师途中，又顺手拿下了部分西里西亚。就在这短暂的一瞬间，波希米亚的势力一路深入波兰腹地，克拉科夫也不例外，这片疆域此前从没有哪位普热美斯公爵真正握有过，此后也再没有人能如此彻底地把它握在手里。正是这场远征，让一个世纪后写下编年史的科斯马斯，给他冠上了“波希米亚的阿喀琉斯”这个流传至今的称号——人们记住他，多半也就靠这一句。\n\n神圣罗马皇帝亨利三世可完全高兴不起来——一个未经批准、势力延伸到克拉科夫的波希米亚，根本不是帝国想要的那种听话附庸。1040年，他第一次入侵就在布鲁德克遭遇伏击、铩羽而归；第二年再度出兵，这次成功了，布热季斯拉夫自己的贵族发生哗变，据说布拉格主教舍比日也彻底倒戈，都帮了忙。布热季斯拉夫最终屈服，向亨利三世宣誓效忠，几乎交还了打下的一切：波兰领土悉数归还，就连获准以封地名义保留的那一小片西里西亚，也在数年后重新滑回波兰手中。波希米亚永久留住的，只有摩拉维亚和那批遗骨——这也正是这整段历史反复兜回的同一个模式：赢下了战争，却不知怎的，还是输掉了和平。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "chrudim",
+        relation: {
+          en: "Where Břetislav's military career actually ended — not in battle, but mid-muster, as he assembled troops here in January 1055 for a planned third invasion of Hungary and died before he could lead it.",
+          cz: "Místo, kde Břetislavova vojenská kariéra doopravdy skončila — ne v boji, ale uprostřed shromažďování vojska, když zde v lednu 1055 sbíral síly na plánovanou třetí výpravu proti Uhrám a zemřel dřív, než ji stihl vést.",
+          zh: "布热季斯拉夫的军事生涯真正落幕之处——不是死于战场，而是死在集结军队的途中：1055年1月，他正在这里为计划中的第三次匈牙利远征招兵备战，却在出征之前就已去世。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Bretislav_I",
   },
   {
     slug: "bretislav-succession-law-1055",
@@ -1256,12 +1303,12 @@ export const historyEvents = [
     hookLine: {
       en: "Nicknamed the 'Bohemian Achilles' for his military record, Duke Břetislav I left Bohemia one more thing on his deathbed: the reason its royal crowns kept slipping off.",
       cz: "Kníže Břetislav I., přezdívaný pro své vojenské úspěchy „český Achilles\", zanechal Čechám na smrtelné posteli ještě jednu věc: důvod, proč jim ty královské koruny pořád sklouzávaly z hlavy.",
-      zh: "布热季斯拉夫一世公爵，因战功显赫而被称为“捷克的阿基里斯”，在临终前还给波希米亚留下了另一样东西：解释了此后王冠为何总是戴不稳的那条规矩。",
+      zh: "布热季斯拉夫一世公爵，因战功显赫而被称为“波希米亚的阿喀琉斯”，在临终前还给波希米亚留下了另一样东西：解释了此后王冠为何总是戴不稳的那条规矩。",
     },
     summary: {
-      en: "Břetislav I earned his 'Bohemian Achilles' nickname the hard way: raiding into Poland in 1039, sacking Gniezno, and bringing home the relics of St. Adalbert — the same bishop killed in Prussia four decades earlier — to install at St. Vitus.\n\nBut his more consequential legacy came right at the end of his life, in a decree issued around 1055 that set the rule for who got to be duke next: not the eldest son, but the eldest surviving male of the entire Přemyslid line, with the duchy kept whole rather than divided among heirs. The idea was to spare Bohemia from being ruled by children and to hold the dynasty together as one house. What it actually produced was three-quarters of a century of cousins, uncles, and nephews jockeying for a title that could land on almost any of them — which is exactly the unstable backdrop against which Vratislaus II and Vladislaus II later had to go begging emperors for personal, one-generation crowns instead of anything more permanent. Bohemia wouldn't get a succession an emperor could safely make hereditary until Otakar I broke the pattern in 1198.",
-      cz: "Břetislav I. si přezdívku „český Achilles\" vysloužil tvrdě: v roce 1039 vpadl do Polska, vyplenil Hnězdno a přivezl domů ostatky svatého Vojtěcha — téhož biskupa, který byl o čtyři desetiletí dřív zabit v Prusku — aby je uložil u svatého Víta.\n\nJeho důležitější odkaz ale přišel až na samém konci jeho života, ve výnosu vydaném kolem roku 1055, který stanovil pravidlo, kdo se dál stane knížetem: ne nejstarší syn, ale nejstarší žijící muž z celé přemyslovské linie, přičemž knížectví mělo zůstat celistvé, ne rozdělené mezi dědice. Myšlenka byla ušetřit Čechy vlády dětí a udržet dynastii pohromadě jako jeden rod. Co to skutečně přineslo, byly tři čtvrtiny století bratranců, strýců a synovců, kteří se přetahovali o titul, jenž mohl připadnout téměř komukoli z nich — a přesně na tomhle nestabilním pozadí museli Vratislav II. a Vladislav II. později prosit císaře o osobní, jednogenerační koruny místo čehokoli trvalejšího. Nástupnictví, které by si císař mohl bezpečně dovolit učinit dědičným, Čechy nedostaly, dokud Otakar I. v roce 1198 tenhle vzorec neprolomil.",
-      zh: "布热季斯拉夫一世靠的是实打实的战功，才赢得了“捷克的阿基里斯”这个绰号：1039年他挥师波兰，攻陷格涅兹诺，并把圣阿达尔伯特的遗骨——正是四十年前在普鲁士遇害的那位主教——带回布拉格，安放在圣维特。\n\n但他真正影响更深远的遗产，是在他生命的最后阶段颁布的一道法令，大约在1055年，确立了此后由谁继任公爵的规矩：不是长子继承，而是由整个普热美斯尔家族里在世的最年长男性继承，公国要保持完整，不再在诸子间分割。这个想法的初衷，是让波希米亚免于由孩童执政，并把整个家族维系为一体。但它实际造成的结果，是接下来四分之三个世纪里，堂表兄弟、叔伯侄甥为一个几乎人人都有资格染指的头衔明争暗斗——而正是在这样一片动荡不安的背景之下，弗拉季斯拉夫二世和弗拉迪斯拉夫二世后来才不得不向皇帝乞求那种仅限个人、只管一代的王冠，而非任何更持久的东西。直到1198年奥托卡一世打破了这个循环之前，波希米亚始终没能等来一套让皇帝敢于放心确立为世袭的继承制度。",
+      en: "By the time Břetislav I issued his final and most consequential decree, he'd already earned his 'Bohemian Achilles' nickname on the battlefield — the full story of how has its own chapter earlier on this timeline. What mattered for Bohemia's future was where he chose to issue it: from the ruins of Gniezno in 1039, in front of St. Adalbert's own tomb, he proclaimed a decree that would outlive every one of his conquests.\n\nThe rule it set was simple to state and brutal to live under: not the eldest son, but the eldest surviving male of the entire Přemyslid line would become duke next, with the duchy kept whole rather than divided among heirs. The idea was to spare Bohemia from being ruled by children and to hold the dynasty together as one house. What it actually produced was three-quarters of a century of cousins, uncles, and nephews jockeying for a title that could land on almost any of them — which is exactly the unstable backdrop against which Vratislaus II and Vladislaus II later had to go begging emperors for personal, one-generation crowns instead of anything more permanent. Bohemia wouldn't get a succession an emperor could safely make hereditary until Otakar I broke the pattern in 1198.",
+      cz: "V době, kdy Břetislav I. vydal svůj poslední a nejzávažnější výnos, si už dávno vysloužil přezdívku „český Achilles\" na bojišti — celý příběh, jak k tomu došlo, má na téhle časové ose vlastní, dřívější kapitolu. Pro budoucnost Čech bylo důležité hlavně to, kde se rozhodl výnos vyhlásit: z trosek Hnězdna v roce 1039, přímo před hrobem svatého Vojtěcha, vyhlásil pravidlo, které mělo přežít úplně všechna jeho dobytá území.\n\nPravidlo samo bylo snadné vyslovit a kruté žít pod ním: knížetem se dál nestane nejstarší syn, ale nejstarší žijící muž z celé přemyslovské linie, přičemž knížectví mělo zůstat celistvé, ne rozdělené mezi dědice. Myšlenka byla ušetřit Čechy vlády dětí a udržet dynastii pohromadě jako jeden rod. Co to skutečně přineslo, byly tři čtvrtiny století bratranců, strýců a synovců, kteří se přetahovali o titul, jenž mohl připadnout téměř komukoli z nich — a přesně na tomhle nestabilním pozadí museli Vratislav II. a Vladislav II. později prosit císaře o osobní, jednogenerační koruny místo čehokoli trvalejšího. Nástupnictví, které by si císař mohl bezpečně dovolit učinit dědičným, Čechy nedostaly, dokud Otakar I. v roce 1198 tenhle vzorec neprolomil.",
+      zh: "到布热季斯拉夫一世颁布他最后、也是影响最深远的这道法令时，他早已凭战功赢得了“波希米亚的阿喀琉斯”这个绰号——完整的故事，本时间线更早的一节里已经讲过。真正关系到波希米亚未来的，是他选择在哪里宣布这道法令：1039年，就在格涅兹诺的废墟中，圣阿达尔伯特墓前，他颁布了一条注定比他所有战果都活得更久的规矩。\n\n这条规矩说起来简单，活在其中却很残酷：此后继任公爵的，不是长子，而是整个普热美斯家族里在世的最年长男性，公国要保持完整，不再在诸子间分割。这个想法的初衷，是让波希米亚免于由孩童执政，并把整个家族维系为一体。但它实际造成的结果，是接下来四分之三个世纪里，堂表兄弟、叔伯侄甥为一个几乎人人都有资格染指的头衔明争暗斗——而正是在这样一片动荡不安的背景之下，弗拉季斯拉夫二世和弗拉迪斯拉夫二世后来才不得不向皇帝乞求那种仅限个人、只管一代的王冠，而非任何更持久的东西。直到1198年奥托卡一世打破了这个循环之前，波希米亚始终没能等来一套让皇帝敢于放心确立为世袭的继承制度。",
     },
     relatedLandmarks: [
       {
