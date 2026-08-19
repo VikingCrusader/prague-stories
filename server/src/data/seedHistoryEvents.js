@@ -60,14 +60,6 @@ export const historyEvents = [
         },
       },
       {
-        slug: "hradiste-sarka",
-        relation: {
-          en: "Occupied on and off since the Stone Age, and — for a stretch right up until Prague Castle's rise — the most important address in the region.",
-          cz: "Osídlené s přestávkami už od doby kamenné a — po jistou dobu, než se vzedmul Pražský hrad — nejdůležitější adresa v regionu.",
-          zh: "自石器时代起便断断续续有人居住——在布拉格城堡崛起之前的一段时期，这里曾是整个地区最重要的据点。",
-        },
-      },
-      {
         slug: "zarove-pohrebiste-pichora",
         relation: {
           en: "Where the Germanic tribes who displaced the Boii finally get a name and a face: the burial ground of Marobud's Marcomanni warrior retinue.",
@@ -251,48 +243,7 @@ export const historyEvents = [
       cz: "Kde přesně se tedy všechno to vládnutí odehrávalo? Zeptejte se devatenáctého století a čeští vypravěči s jistotou ukážou na Vyšehrad, dramatický skalní ostroh na druhém břehu řeky naproti Pražskému hradu, a budou tvrdit, že to bylo Libušino původní sídlo — starší, velkolepější a celkově působivější než hrad, který její proroctví údajně založilo později. Je to skvělý příběh.\n\nJen není moc dobře doložený: skutečné doklady o Vyšehradu se objevují až o staletí později, kdy tam kolem roku 995 kníže razil mince, a jeho nejstarší dochovaná stavba vznikla teprve kolem roku 1080. Berte tedy legendu s rezervou — ale samotný ten kopec je skutečný, dramatický a evidentně stál za dvě stě let hádek.",
       zh: "那么，这一切统治究竟发生在哪里呢？如果你去问19世纪的捷克说书人，他们会一脸笃定地指向维谢赫拉德——一处隔河与布拉格城堡相望、地势险峻的岩岬，并坚称这里才是莉布谢最初的居所，比她预言中后来建立的城堡更古老、更宏伟、也更气派。这是个精彩的故事。\n\n只可惜证据不太站得住脚：关于维谢赫拉德真正确凿的记录，要晚上好几个世纪才出现——公爵约在995年在此铸造钱币，而现存最古老的建筑，也要到约1080年才建成。所以这个传说不妨打个折扣来听——但这座山岬本身是真实存在的，地势险峻，也确实值得让人争论上整整两百年。",
     },
-    relatedLandmarks: [
-      {
-        slug: "rotunda-sv-martina",
-        relation: {
-          en: "The oldest building still standing in Prague, raised around 1080 — the first Vyšehrad structure that doesn't need a legend to prove its age.",
-          cz: "Nejstarší dodnes stojící stavba v Praze, vztyčená kolem roku 1080 — první vyšehradská stavba, která k prokázání svého stáří legendu nepotřebuje.",
-          zh: "布拉格现存最古老的建筑，建于约1080年——维谢赫拉德第一座无需借助传说、便能自证年代的建筑。",
-        },
-      },
-      {
-        slug: "basilika-sv-petra-pavla",
-        relation: {
-          en: "Founded in 1070 alongside the Vyšehrad chapter, one of the oldest institutions on the hill — though the twin-spired silhouette you actually see today is a 19th-century Neo-Gothic remake, not the original Romanesque building.",
-          cz: "Založena roku 1070 spolu s vyšehradskou kapitulou, jednou z nejstarších institucí na kopci — ačkoli dvouvěžová silueta, kterou dnes vidíš, je novogotickou přestavbou z 19. století, ne původní románskou stavbou.",
-          zh: "1070年与维谢赫拉德教士团一同创建——教士团是这座山丘上最古老的机构之一——不过你今天看到的那对双塔剪影，其实是19世纪新哥特式重建的结果，并非最初的罗马式建筑。",
-        },
-      },
-      {
-        slug: "romansky-most-vysehrad",
-        relation: {
-          en: "Older than the rotunda by a full generation — an 11th-century stone bridge quietly holding a strong claim to oldest of its kind in Central Europe.",
-          cz: "O celou generaci starší než rotunda — kamenný most z 11. století, který si tiše drží silný nárok na titul nejstaršího svého druhu ve střední Evropě.",
-          zh: "比圆形教堂还要早整整一代人——一座11世纪的石桥，静静地握着“中欧同类建筑中最古老”这一有力头衔。",
-        },
-      },
-      {
-        slug: "brana-spicka",
-        relation: {
-          en: "Vyšehrad's real fortifications, centuries after the legend — a 14th-century gate-fortress guarding the one side the cliffs didn't defend for free.",
-          cz: "Skutečné vyšehradské opevnění, staletí po legendě — brána-pevnost ze 14. století, střežící tu jedinou stranu, kterou skály samy neubránily zdarma.",
-          zh: "在传说过去几百年之后，维谢赫拉德真正拥有的防御工事——一座14世纪的堡垒式城门，守卫着唯一一处悬崖没有免费提供防护的方向。",
-        },
-      },
-      {
-        slug: "v-pevnosti-street-in-the-fortness-1783208618265",
-        relation: {
-          en: "The street tying the whole fortress together, running past its grandest surviving gates — a good reminder that Vyšehrad's real history is mostly Baroque, not legendary.",
-          cz: "Ulice spojující celou pevnost dohromady, vedoucí kolem jejích nejokázalejších dochovaných bran — dobrá připomínka, že skutečná historie Vyšehradu je většinou barokní, ne legendární.",
-          zh: "把整座要塞串联在一起的街道，沿途经过维谢赫拉德现存最壮观的几座城门——提醒着人们，这座要塞真正的历史大多来自巴洛克时期，而非传说。",
-        },
-      },
-    ],
+    relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Vy%C5%A1ehrad",
   },
   {
@@ -1290,10 +1241,11 @@ export const historyEvents = [
     era: "bohemian-duchy",
     startYear: 1055,
     year: {
-      en: "1039–1055",
-      cz: "1039–1055",
-      zh: "1039年－1055年",
+      en: "1054–1055",
+      cz: "1054–1055",
+      zh: "1054年－1055年",
     },
+    images: ["/history/bretislav-succession-law-1055.webp"],
     tone: "humorous",
     title: {
       en: "The Rule That Explains Everything After",
@@ -1306,17 +1258,25 @@ export const historyEvents = [
       zh: "布热季斯拉夫一世公爵，因战功显赫而被称为“波希米亚的阿喀琉斯”，在临终前还给波希米亚留下了另一样东西：解释了此后王冠为何总是戴不稳的那条规矩。",
     },
     summary: {
-      en: "By the time Břetislav I issued his final and most consequential decree, he'd already earned his 'Bohemian Achilles' nickname on the battlefield — the full story of how has its own chapter earlier on this timeline. What mattered for Bohemia's future was where he chose to issue it: from the ruins of Gniezno in 1039, in front of St. Adalbert's own tomb, he proclaimed a decree that would outlive every one of his conquests.\n\nThe rule it set was simple to state and brutal to live under: not the eldest son, but the eldest surviving male of the entire Přemyslid line would become duke next, with the duchy kept whole rather than divided among heirs. The idea was to spare Bohemia from being ruled by children and to hold the dynasty together as one house. What it actually produced was three-quarters of a century of cousins, uncles, and nephews jockeying for a title that could land on almost any of them — which is exactly the unstable backdrop against which Vratislaus II and Vladislaus II later had to go begging emperors for personal, one-generation crowns instead of anything more permanent. Bohemia wouldn't get a succession an emperor could safely make hereditary until Otakar I broke the pattern in 1198.",
-      cz: "V době, kdy Břetislav I. vydal svůj poslední a nejzávažnější výnos, si už dávno vysloužil přezdívku „český Achilles\" na bojišti — celý příběh, jak k tomu došlo, má na téhle časové ose vlastní, dřívější kapitolu. Pro budoucnost Čech bylo důležité hlavně to, kde se rozhodl výnos vyhlásit: z trosek Hnězdna v roce 1039, přímo před hrobem svatého Vojtěcha, vyhlásil pravidlo, které mělo přežít úplně všechna jeho dobytá území.\n\nPravidlo samo bylo snadné vyslovit a kruté žít pod ním: knížetem se dál nestane nejstarší syn, ale nejstarší žijící muž z celé přemyslovské linie, přičemž knížectví mělo zůstat celistvé, ne rozdělené mezi dědice. Myšlenka byla ušetřit Čechy vlády dětí a udržet dynastii pohromadě jako jeden rod. Co to skutečně přineslo, byly tři čtvrtiny století bratranců, strýců a synovců, kteří se přetahovali o titul, jenž mohl připadnout téměř komukoli z nich — a přesně na tomhle nestabilním pozadí museli Vratislav II. a Vladislav II. později prosit císaře o osobní, jednogenerační koruny místo čehokoli trvalejšího. Nástupnictví, které by si císař mohl bezpečně dovolit učinit dědičným, Čechy nedostaly, dokud Otakar I. v roce 1198 tenhle vzorec neprolomil.",
-      zh: "到布热季斯拉夫一世颁布他最后、也是影响最深远的这道法令时，他早已凭战功赢得了“波希米亚的阿喀琉斯”这个绰号——完整的故事，本时间线更早的一节里已经讲过。真正关系到波希米亚未来的，是他选择在哪里宣布这道法令：1039年，就在格涅兹诺的废墟中，圣阿达尔伯特墓前，他颁布了一条注定比他所有战果都活得更久的规矩。\n\n这条规矩说起来简单，活在其中却很残酷：此后继任公爵的，不是长子，而是整个普热美斯家族里在世的最年长男性，公国要保持完整，不再在诸子间分割。这个想法的初衷，是让波希米亚免于由孩童执政，并把整个家族维系为一体。但它实际造成的结果，是接下来四分之三个世纪里，堂表兄弟、叔伯侄甥为一个几乎人人都有资格染指的头衔明争暗斗——而正是在这样一片动荡不安的背景之下，弗拉季斯拉夫二世和弗拉迪斯拉夫二世后来才不得不向皇帝乞求那种仅限个人、只管一代的王冠，而非任何更持久的东西。直到1198年奥托卡一世打破了这个循环之前，波希米亚始终没能等来一套让皇帝敢于放心确立为世袭的继承制度。",
+      en: "By the time Břetislav I turned to his final and most consequential piece of statecraft, he'd already earned his 'Bohemian Achilles' nickname on the battlefield — the full story of how has its own chapter earlier on this timeline. That reputation wasn't what secured Bohemia's future, though. In 1054, near the end of his life, he turned from conquest to a much quieter kind of threat: the throne itself, and what would happen to it once he was gone. He bound his own sons and the kingdom's nobles to a single rule for who ruled next — a decree he confirmed once more from his deathbed, dying at Chrudim on 10 January 1055 while readying yet another campaign, this one against Hungary, that he never lived to lead.\n\nThe rule it set was simple to state and brutal to live under: not the eldest son, but the eldest surviving male of the entire Přemyslid line would become duke next, with the duchy kept whole rather than divided among heirs. The idea was to spare Bohemia from being ruled by children and to hold the dynasty together as one house. What it actually produced was three-quarters of a century of cousins, uncles, and nephews jockeying for a title that could land on almost any of them — which is exactly the unstable backdrop against which Vratislaus II and Vladislaus II later had to go begging emperors for personal, one-generation crowns instead of anything more permanent. Bohemia wouldn't get a succession an emperor could safely make hereditary until Otakar I broke the pattern in 1198.",
+      cz: "V době, kdy se Břetislav I. pustil do svého posledního a nejzávažnějšího státnického kroku, si už dávno vysloužil přezdívku „český Achilles\" na bojišti — celý příběh, jak k tomu došlo, má na téhle časové ose vlastní, dřívější kapitolu. Tahle pověst ale nebyla tím, co zajistilo budoucnost Čech. V roce 1054, ke konci svého života, se od dobývání obrátil k mnohem tišší hrozbě: k samotnému trůnu a k tomu, co se s ním stane, až tu nebude. Zavázal vlastní syny i šlechtu království jediným pravidlem, kdo bude vládnout dál — výnos, který ještě jednou potvrdil na smrtelné posteli, když 10. ledna 1055 umíral v Chrudimi, kde se právě chystal na další tažení, tentokrát proti Uhrám, jež už nikdy nevedl.\n\nPravidlo samo bylo snadné vyslovit a kruté žít pod ním: knížetem se dál nestane nejstarší syn, ale nejstarší žijící muž z celé přemyslovské linie, přičemž knížectví mělo zůstat celistvé, ne rozdělené mezi dědice. Myšlenka byla ušetřit Čechy vlády dětí a udržet dynastii pohromadě jako jeden rod. Co to skutečně přineslo, byly tři čtvrtiny století bratranců, strýců a synovců, kteří se přetahovali o titul, jenž mohl připadnout téměř komukoli z nich — a přesně na tomhle nestabilním pozadí museli Vratislav II. a Vladislav II. později prosit císaře o osobní, jednogenerační koruny místo čehokoli trvalejšího. Nástupnictví, které by si císař mohl bezpečně dovolit učinit dědičným, Čechy nedostaly, dokud Otakar I. v roce 1198 tenhle vzorec neprolomil.",
+      zh: "到布热季斯拉夫一世着手他这一生最后、也是最重要的一次治国举措时，他早已凭战功赢得了“波希米亚的阿喀琉斯”这个绰号——完整的故事，本时间线更早的一节里已经讲过。但真正关系到波希米亚未来的，并不是这份战功。1054年，临近生命尽头，他把注意力从征服转向了一种安静得多的威胁：公位本身，以及他百年之后它将何去何从。他让自己的儿子们和王国的贵族们，都立誓遵守同一条继位规矩——这道法令，他在临终之际又再一次确认：1055年1月10日，他病逝于赫鲁季姆，当时正准备着又一次远征——这次目标是匈牙利，只是他再也没能亲自领军出征。\n\n这条规矩说起来简单，活在其中却很残酷：此后继任公爵的，不是长子，而是整个普热美斯家族里在世的最年长男性，公国要保持完整，不再在诸子间分割。这个想法的初衷，是让波希米亚免于由孩童执政，并把整个家族维系为一体。但它实际造成的结果，是接下来四分之三个世纪里，堂表兄弟、叔伯侄甥为一个几乎人人都有资格染指的头衔明争暗斗——而正是在这样一片动荡不安的背景之下，弗拉季斯拉夫二世和弗拉迪斯拉夫二世后来才不得不向皇帝乞求那种仅限个人、只管一代的王冠，而非任何更持久的东西。直到1198年奥托卡一世打破了这个循环之前，波希米亚始终没能等来一套让皇帝敢于放心确立为世袭的继承制度。",
     },
     relatedLandmarks: [
       {
+        slug: "chrudim",
+        relation: {
+          en: "Where the decree was confirmed for the last time — Břetislav summoned his sons to his deathbed here and died days later, on 10 January 1055, having settled who would rule after him.",
+          cz: "Místo, kde byl výnos naposledy potvrzen — Břetislav sem k svému smrtelnému loži svolal syny a o pár dní později, 10. ledna 1055, zemřel, poté co vyřešil, kdo bude vládnout po něm.",
+          zh: "这道法令最后一次被确认之地——布热季斯拉夫把儿子们召到病榻前，几天后，1055年1月10日，在解决了身后由谁继位的问题之后，他在此去世。",
+        },
+      },
+      {
         slug: "prague-castle",
         relation: {
-          en: "Where Břetislav installed St. Adalbert's recovered relics in 1039 — the same cathedral site that, by now, had already anchored a bishopric and would go on to anchor a kingdom.",
-          cz: "Kam Břetislav v roce 1039 uložil znovuzískané ostatky svatého Vojtěcha — totéž katedrální místo, které v tu dobu už neslo biskupství a časem poneslo i království.",
-          zh: "布热季斯拉夫在1039年将寻回的圣阿达尔伯特遗骨安放于此——同一处大教堂所在地，此时已经承载过一个主教区，日后还将承载起一个王国。",
+          en: "Where Břetislav I and his wife Judith of Schweinfurt were ultimately laid to rest together, and where the relics of St. Adalbert he had recovered at Gniezno had already been resting for sixteen years by the time he joined them.",
+          cz: "Kde byli Břetislav I. a jeho žena Jitka ze Svinibrodu nakonec společně pohřbeni, a kam už šestnáct let před jeho vlastním pohřbem doputovaly ostatky svatého Vojtěcha, které sám dobyl zpět v Hnězdně.",
+          zh: "布热季斯拉夫一世与妻子施瓦因富特的尤迪特最终合葬于此，而他当年在格涅兹诺夺回的圣阿达尔伯特遗骨，早在他本人安葬于此的十六年前，就已经先一步安放在这里。",
         },
       },
     ],
@@ -1331,11 +1291,12 @@ export const historyEvents = [
       cz: "1070",
       zh: "1070年",
     },
+    images: ["/history/vysehrad-revival-1070.webp"],
     tone: "humorous",
     title: {
-      en: "Vyšehrad's Second Act, Courtesy of a Feuding Brother",
-      cz: "Druhé dějství Vyšehradu, díky sourozenecké při",
-      zh: "维谢赫拉德的复兴，缘于兄弟阋墙",
+      en: "Brother Rivalry",
+      cz: "Bratrská rivalita",
+      zh: "兄弟争宠",
     },
     hookLine: {
       en: "Břetislav's tidy succession rule didn't stop his own sons from fighting — it just gave the fighting a slightly more formal shape.",
@@ -1343,17 +1304,33 @@ export const historyEvents = [
       zh: "布热季斯拉夫那套整整齐齐的继承规矩，并没能阻止他自己的儿子们互相争斗——只是让这场争斗多了几分表面上的规矩。",
     },
     summary: {
-      en: "Vratislaus, the future king of 1085, spent years locked in a very personal feud with his own younger brother — Jaromír, who'd become Bishop of Prague. The two needled each other constantly: Vratislaus reportedly wore bishop's vestments around Jaromír just to provoke him; Jaromír retaliated by ignoring the new Moravian diocese Vratislaus had created, and at one point even seized church relics by force to make his point.\n\nIn 1070, Vratislaus found a more permanent way to win the argument: he richly endowed the Vyšehrad Chapter, based at the Basilica of Saints Peter and Paul — the same hilltop stronghold whose founding this timeline covered generations earlier — and had it placed under the direct authority of Rome, answerable to the Pope rather than to his own brother. It was, in effect, a second act for Vyšehrad: no longer just the legendary seat from Bohemia's earliest days, but now a genuine rival religious power centre, deliberately built to outflank the one institution in Prague his brother actually controlled.",
-      cz: "Vratislav, budoucí král z roku 1085, strávil léta ve velmi osobním sporu s vlastním mladším bratrem — Jaromírem, který se stal pražským biskupem. Oba se soustavně škádlili: Vratislav prý kolem Jaromíra chodil v biskupském rouchu, jen aby ho popíchl; Jaromír mu to oplácel ignorováním nové moravské diecéze, kterou Vratislav založil, a jednou dokonce z principu násilím zabavil církevní ostatky.\n\nV roce 1070 našel Vratislav trvalejší způsob, jak spor vyhrát: bohatě obdaroval vyšehradskou kapitulu, sídlící při bazilice svatého Petra a Pavla — na témže návrší, jehož založení tato časová osa popsala už o generace dřív — a podřídil ji přímo Římu, tedy papeži, nikoli vlastnímu bratrovi. Byl to fakticky druhý akt Vyšehradu: už nejen legendární sídlo z nejranějších českých dějin, ale teď i skutečné konkurenční církevní mocenské centrum, záměrně vybudované tak, aby obešlo tu jedinou pražskou instituci, kterou jeho bratr skutečně ovládal.",
-      zh: "未来1085年的国王弗拉季斯拉夫，曾多年陷于一场与自己弟弟——后来成为布拉格主教的亚罗米尔——之间十分私人的恩怨。两人不断互相刁难：据记载，弗拉季斯拉夫会特意穿上主教礼服在亚罗米尔面前晃悠，就为了惹恼他；亚罗米尔的回击，则是无视弗拉季斯拉夫新设立的摩拉维亚教区，甚至有一次直接动用武力夺走教会圣物，以示不满。\n\n1070年，弗拉季斯拉夫找到了一个更持久的方式来赢下这场较量：他大手笔资助了维谢赫拉德教士团——驻地正是圣彼得保罗教堂，也就是这条时间轴早在几代人之前就已经讲过其奠基故事的那座山丘据点——并让这个教士团直接隶属于罗马教廷，只听命于教皇，而不是自己的亲弟弟。这实质上是维谢赫拉德的“第二幕”：它不再只是波希米亚最早岁月里那个传说中的据点，如今更成了一个真正的、与布拉格分庭抗礼的宗教权力中心，专为绕开弟弟真正掌控的那个机构而精心打造。",
+      en: "Břetislav's succession law worked fine the first time it was used. He died in 1055, and his eldest son, Spytihněv II, simply became duke — no dispute, no drama. Spytihněv held the job for six years, until his own death in 1061.\n\nNext came Vratislaus II — the same man who'd become Bohemia's first king in 1085. Quick warning: that's Vratislaus (with a T), not Vladislaus (with a D) — the guy who'd build that bridge a century later. The Přemyslid family's imagination for names, it turns out, aged about as well as their succession law.\n\nHis reign was a lot less peaceful than his brother's. For years, he was locked in a bitter feud with his own younger brother, Jaromír, who'd become Bishop of Prague. The two needled each other constantly — Vratislaus reportedly wore bishop's vestments around Jaromír, just to provoke him. The real blow came in 1063, when Vratislaus carved a new Moravian diocese out of Olomouc, stripping the Prague bishopric of a large chunk of territory and income. Jaromír never let it go. He once marched in with armed men and seized church relics by force, just to make his point.\n\nIn 1070, Vratislaus found a more permanent way to win. He richly endowed the Vyšehrad Chapter and placed it directly under Rome's authority — answerable to the Pope, not to his own brother the bishop. It gave Vyšehrad a genuine second act: no longer just a legendary seat from Bohemia's earliest days, but a real rival religious power centre, built specifically to outflank his brother.\n\nThe brothers kept one-upping each other for years after that, too. In 1075, Vratislaus personally led Bohemian troops to victory alongside Emperor Henry IV at the Battle of Langensalza, crushing a Saxon revolt and banking a serious favour with the emperor. Jaromír, not to be outdone, found his own way into Henry's good graces two years later: in 1077 he became the emperor's chancellor and rebranded himself with a brand-new, thoroughly German name — Gebhard. Somewhere along the way, apparently, 'annoy your sibling by any means available' became the family's real inheritance rule.\n\nThe investment paid off in one more way, too: when Vratislaus himself died in 1092, he was buried in that same basilica he'd built up — Vyšehrad's second act became his own final resting place.",
+      cz: "Břetislavovo nástupnické pravidlo fungovalo hned napoprvé bez problémů. Zemřel v roce 1055 a jeho nejstarší syn Spytihněv II. se prostě stal knížetem — žádný spor, žádné drama. Spytihněv vydržel v úřadu šest let, až do vlastní smrti v roce 1061.\n\nNa řadě byl Vratislav II. — tentýž muž, který se v roce 1085 stane prvním českým králem. Malé upozornění: je to Vratislav (s T), ne Vladislav (s D) — ten, co o sto let později postaví ten most. Fantazie přemyslovského rodu na jména očividně zestárla stejně dobře jako jejich nástupnický řád.\n\nJeho vláda byla o poznání méně klidná než bratrova. Léta byl ve vleklém sporu s vlastním mladším bratrem Jaromírem, který se stal pražským biskupem. Oba se soustavně škádlili — Vratislav prý kolem Jaromíra chodil v biskupském rouchu, jen aby ho popíchl. Skutečná rána přišla v roce 1063, kdy Vratislav vyčlenil z Olomouce novou moravskou diecézi a připravil pražské biskupství o velký kus území i příjmů. Jaromír to nikdy nespolkl. Jednou dokonce přitáhl s ozbrojenci a násilím zabavil církevní ostatky, jen aby dal najevo svůj postoj.\n\nV roce 1070 našel Vratislav trvalejší způsob, jak vyhrát. Bohatě obdaroval vyšehradskou kapitulu a podřídil ji přímo Římu — tedy papeži, ne vlastnímu bratrovi biskupovi. Dal tím Vyšehradu skutečné druhé dějství: už ne jen legendární sídlo z nejranějších českých dějin, ale opravdové konkurenční církevní mocenské centrum, postavené přímo proto, aby obešlo jeho bratra.\n\nBratři se pak ještě léta předháněli dál. V roce 1075 vedl Vratislav osobně české oddíly po boku císaře Jindřicha IV. k vítězství v bitvě u Langensalzy, kde rozdrtili saské povstání, a vysloužil si tím u císaře pořádný vděk. Jaromír si nenechal ujít příležitost a o dva roky později, v roce 1077, si u Jindřicha vysloužil vlastní přízeň — stal se jeho kancléřem a přijal zbrusu nové, důkladně německé jméno: Gebhard. Zdá se, že „otravovat sourozence jakýmkoli dostupným způsobem\" se v té rodině nakonec stalo skutečným dědičným pravidlem.\n\nInvestice se vyplatila ještě jinak: když Vratislav sám v roce 1092 zemřel, byl pohřben přímo v té bazilice, kterou sám pozvedl — druhé dějství Vyšehradu se stalo i jeho vlastním posledním odpočinkem.",
+      zh: "布热季斯拉夫的继承规矩，第一次用起来还算顺利：1055年他一去世，长子斯皮蒂赫涅夫二世就顺顺当当当上了公爵，没有争议，没有波折，一坐就是六年，直到1061年自己也去世。\n\n接下来继位的是弗拉季斯拉夫二世——也就是1085年将成为波希米亚第一位“国王”的那位。提醒一句：是弗拉季斯拉夫二世（“季”字那个），不是一百年后建了那座桥的弗拉迪斯拉夫二世（“迪”字那个）——普热美斯尔家族取名的想象力，显然和他们家的继承制度一样，都没能与时俱进。\n\n他的日子可比哥哥太平不了多少：多年来，他一直和亲弟弟——后来当上布拉格主教的亚罗米尔——闹得很僵。两人互相较劲：弗拉季斯拉夫会故意穿上主教的礼服，跑到亚罗米尔面前晃来晃去，就为了气他。真正的重手是1063年：弗拉季斯拉夫在奥洛穆茨另立了一个摩拉维亚教区，一下子削掉了布拉格主教辖区一大块地盘和收入。亚罗米尔咽不下这口气，甚至有一次带着人马冲过去，硬生生把教会的圣物抢了回来，就为了表明态度。\n\n1070年，弗拉季斯拉夫想出了一招更持久的：他大手笔资助维谢赫拉德教士团，把这个据点直接挂靠到罗马教廷名下，只听教皇的，不归弟弟这位布拉格主教管。这一招等于是给维谢赫拉德开了“第二春”——它不再只是波希米亚早年传说里那个古老据点，而是变成了一个真正能跟布拉格分庭抗礼的宗教权力中心，专门用来架空弟弟。\n\n这对兄弟此后还较了好几年劲。1075年，弗拉季斯拉夫亲自率领波希米亚军队，跟随亨利四世皇帝在兰根萨察战役中获胜，镇压了一场萨克森叛乱，狠狠在皇帝那儿刷了一波好感。亚罗米尔当然不甘落后：两年后，1077年，他也找到了讨好亨利四世的门路——当上了皇帝的大法官，还给自己改了个彻头彻尾的德语名字：“格布哈特”。看来“想方设法气对方”这条家规，才是这家人真正代代相传的东西。\n\n这笔投资后来还多了一层意义：1092年弗拉季斯拉夫自己去世时，也安葬在了这座他一手扶植起来的教堂里——维谢赫拉德的“第二春”，最终成了他自己的长眠之地。",
     },
     relatedLandmarks: [
       {
         slug: "basilika-sv-petra-pavla",
         relation: {
-          en: "The very hilltop this timeline first introduced generations ago, in the legendary founding of Vyšehrad — this 1070 chapter is its real second act: no longer myth, but genuine institutional power, deliberately built to answer to Rome instead of Vratislaus's own brother.",
-          cz: "Totéž návrší, které tato časová osa poprvé představila o generace dřív, při legendárním založení Vyšehradu — kapitula z roku 1070 je jeho skutečným druhým dějstvím: už ne mýtus, ale opravdová institucionální moc, záměrně podřízená Římu místo Vratislavova vlastního bratra.",
-          zh: "就是这条时间轴几代人之前、在维谢赫拉德的传说建立之节中最早介绍过的那座山丘——1070年的这个教士团，是它真正的“第二幕”：不再只是传说，而是货真价实的建制权力，专门设计成只听命于罗马、而非弗拉季斯拉夫自己的弟弟。",
+          en: "Vratislaus didn't just fund this basilica to spite his brother — he was buried here himself in 1092, making it both the direct beneficiary of his 1070 power play and, in the end, his own final resting place.",
+          cz: "Vratislav tuto baziliku nefinancoval jen proto, aby naštval bratra — sám tu byl v roce 1092 pohřben, takže je to zároveň přímý příjemce jeho mocenského tahu z roku 1070 i jeho vlastní poslední místo odpočinku.",
+          zh: "弗拉季斯拉夫资助这座教堂，可不只是为了气弟弟——他本人1092年也安葬于此，使这里既是他1070年这场权力布局的直接受益者，最终也成了他自己的长眠之地。",
+        },
+      },
+      {
+        slug: "rotunda-sv-martina",
+        relation: {
+          en: "Also raised under Vratislaus at the very end of the 11th century — smaller and humbler than the basilica, but Prague's oldest still-standing building, and proof he was building up the whole hill, not just the chapter he'd set against his brother.",
+          cz: "Také postavena za Vratislava, na samém konci 11. století — menší a skromnější než bazilika, ale nejstarší dodnes stojící budova v Praze, a důkaz, že budoval celý kopec, ne jen kapitulu, kterou postavil proti svému bratrovi.",
+          zh: "同样建于弗拉季斯拉夫治下、11世纪末——比大教堂小得多、朴素得多，却是布拉格现存最古老的建筑，证明他经营的是整座山丘，而不只是那个用来对抗弟弟的教士团。",
+        },
+      },
+      {
+        slug: "romansky-most-vysehrad",
+        relation: {
+          en: "The bridge King Vratislaus had built to connect his princely and royal quarter to the basilica he'd just endowed — infrastructure for the very power centre he was assembling to outflank his brother.",
+          cz: "Most, který nechal král Vratislav postavit, aby propojil svůj knížecí a královský okrsek s bazilikou, kterou právě obdaroval — infrastruktura pro totéž mocenské centrum, jež budoval, aby obešel svého bratra.",
+          zh: "国王弗拉季斯拉夫下令建造的这座桥，连接着他的王公与王室辖区和他刚刚资助的那座大教堂——正是他用来架空弟弟而打造的这整套权力中心的配套基础设施。",
         },
       },
     ],

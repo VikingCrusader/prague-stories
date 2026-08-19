@@ -2742,7 +2742,7 @@ Postavena byla na samém konci 11. století za vlády knížete Vratislava II., 
 
       zh: `勇敢的冒险家，欢迎来到圣马丁圆形教堂（Rotunda sv. Martina）！它是布拉格现存最古老的建筑——将近一千年历史——并且先后挺过了火灾、战争、火药仓库的岁月，还两次被不同的皇帝下令想要彻底铲除它。
 
-这座小小的罗曼式圆形教堂建于11世纪末，由弗拉迪斯拉夫二世公爵（Vratislav II，波希米亚第一位加冕为国王的统治者）下令建造，比更负盛名的维谢赫拉德大殿以及山上几乎所有其他建筑都要古老。早在1528年，一场火灾就已让它元气大伤；而在三十年战争期间，它的命运变得更加离奇——这座神圣建筑一度被征用为火药库，绝对算不上什么明智的储存选择，但圆形教堂还是撑了过来。1719年的一次翻修中，原本的罗曼式入口被替换成了巴洛克式门廊。
+这座小小的罗曼式圆形教堂建于11世纪末，由弗拉季斯拉夫二世公爵（Vratislav II，波希米亚第一位加冕为国王的统治者）下令建造，比更负盛名的维谢赫拉德大殿以及山上几乎所有其他建筑都要古老。早在1528年，一场火灾就已让它元气大伤；而在三十年战争期间，它的命运变得更加离奇——这座神圣建筑一度被征用为火药库，绝对算不上什么明智的储存选择，但圆形教堂还是撑了过来。1719年的一次翻修中，原本的罗曼式入口被替换成了巴洛克式门廊。
 
 18世纪对它格外不友善，而且是接连两次。1757年，普鲁士军队在围攻布拉格期间将其损毁；随后，约瑟夫二世皇帝在其雄心勃勃地关闭全国"多余"教堂的行动中，直接将其废止圣职。1841年，它险些被拆除以为新道路让路，多亏卡雷尔·霍特克伯爵（Karel Chotek）的直接干预才幸免于难。维谢赫拉德教士团最终在1875年以500古尔登的价格将其买下，并委托建筑师安东宁·鲍姆（Antonín Baum）精心修复成罗曼式原貌。如今它仍归教士团所有，偶尔还会在此举行弥撒。
 
@@ -22488,19 +22488,19 @@ Postavena byla za Karla IV. v letech 1348 až 1350 a bránila přesně tu stranu
     xpReward: 50,
     wikipediaUrl: 'https://www.hrady.cz/most-romansky-most',
     description: {
-      en: `Welcome to the Romanesque Bridge at Vyšehrad, a short stone crossing built at the end of the 11th century under King Vratislav I — and, once archaeologists finished dating it properly, revealed as one of the oldest surviving stone bridges anywhere in Central Europe, older than Prague's own Judith Bridge and the famous stone bridge at Regensburg alike.
+      en: `Welcome to the Romanesque Bridge at Vyšehrad, a short stone crossing built at the end of the 11th century under King Vratislav II — and, once archaeologists finished dating it properly, revealed as one of the oldest surviving stone bridges anywhere in Central Europe, older than Prague's own Judith Bridge and the famous stone bridge at Regensburg alike.
 
 Roughly 23 metres long and just over 5 metres wide, the bridge was built to carry traffic over a shallow moat between the princely and royal quarter of Vyšehrad and the Basilica of St. Lawrence, using opuka stone laid diagonally as flat, hammer-dressed blocks. Its single surviving arch is a slightly flattened barrel vault spanning 280 centimetres, resting on metre-thick foundation courses — modest by any measure, and, contrary to what earlier historians assumed, apparently never built for defence at all; it was simply a working crossing in daily use from the 11th century right through to the 15th. Buried and forgotten for centuries, it was first uncovered during excavations in 1931–32 under Karel Guth, investigated further in 1978, and has been the subject of repeated, more systematic digs since — most recently in 2011–2014, which have collectively exposed around 17 metres of the original structure.
 
 🎁 Bonus: The bridge you can glimpse today isn't standing in the open air — it's sealed beneath a reinforced concrete slab under the northern edge of the Vyšehrad Gardens, visible only through a barred window or on the rare guided tour, quietly holding the title of Central Europe's oldest known stone bridge from underneath a modern lawn most visitors walk straight over without a second thought.`,
 
-      cz: `Vítej u Románského mostu na Vyšehradě, krátkého kamenného přechodu postaveného na konci 11. století za vlády krále Vratislava I. — a poté, co ho archeologové řádně datovali, se ukázalo, že jde o jeden z nejstarších dochovaných kamenných mostů ve střední Evropě, starší než pražský Juditin most i proslulý kamenný most v Řezně.
+      cz: `Vítej u Románského mostu na Vyšehradě, krátkého kamenného přechodu postaveného na konci 11. století za vlády krále Vratislava II. — a poté, co ho archeologové řádně datovali, se ukázalo, že jde o jeden z nejstarších dochovaných kamenných mostů ve střední Evropě, starší než pražský Juditin most i proslulý kamenný most v Řezně.
 
 Zhruba 23 metrů dlouhý a něco přes 5 metrů široký most sloužil k překonání mělkého příkopu mezi knížecím a královským okrskem Vyšehradu a bazilikou svatého Vavřince, postavený z opukových kvádrů kladených diagonálně jako ploché, kladivem opracované kameny. Jeho jediný dochovaný oblouk je mírně zploštělá valená klenba o rozpětí 280 centimetrů, spočívající na metr širokých základových pásech — na dnešní poměry skromný rozměr, a navzdory dřívějším domněnkám historiků zřejmě nikdy nesloužil obranným účelům: byl to prostě běžně používaný přechod, provozovaný od 11. až do 15. století. Po staletí zasypaný a zapomenutý byl poprvé odkryt při vykopávkách v letech 1931–32 pod vedením Karla Gutha, dále zkoumán v roce 1978 a od té doby byl předmětem opakovaných, systematičtějších výzkumů — naposledy v letech 2011–2014, které dohromady odhalily asi 17 metrů původní konstrukce.
 
 🎁 Bonus: Most, který dnes můžeš alespoň zahlédnout, nestojí na volném prostranství — je uzavřen pod železobetonovou deskou na severním okraji Vyšehradských sadů, viditelný jen mřížovaným okénkem nebo při vzácné prohlídce s průvodcem, a tiše si drží titul nejstaršího známého kamenného mostu ve střední Evropě zpod moderního trávníku, přes který většina návštěvníků přejde bez druhého pohledu.`,
 
-      zh: `欢迎来到维谢赫拉德罗马式桥——一座建于11世纪末、弗拉季斯拉夫一世（Vratislav I）国王统治时期的短小石桥。经考古学家精确断代后，它被证实是中欧现存最古老的石桥之一，甚至比布拉格自己的朱迪特桥（Judith Bridge）以及雷根斯堡那座著名石桥还要古老。
+      zh: `欢迎来到维谢赫拉德罗马式桥——一座建于11世纪末、弗拉季斯拉夫二世（Vratislav II）国王统治时期的短小石桥。经考古学家精确断代后，它被证实是中欧现存最古老的石桥之一，甚至比布拉格自己的朱迪特桥（Judith Bridge）以及雷根斯堡那座著名石桥还要古老。
 
 这座桥全长约23米，宽仅5米出头，最初用于跨越维谢赫拉德王公与王室辖区同圣劳伦斯大殿之间的一道浅护城河，桥体以斜向铺砌的锤凿平整欧珀卡石块砌成。如今唯一留存的一道拱券，是一个略微压扁的筒形拱，跨度280厘米，架在一米厚的基础石层之上——无论怎么看都算不上宏伟，而且与早期历史学家的推测相反，它很可能从来都不具备防御功能：它不过是一座11至15世纪间日常使用的普通桥梁。这座桥被掩埋、遗忘了数百年，直到1931至1932年间在卡雷尔·古特主持下的发掘中才首次重见天日，1978年又经过进一步调查，此后又经历多次更为系统的考古发掘——最近一次是在2011至2014年间，累计发掘出约17米的原始结构。
 
