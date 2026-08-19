@@ -25,7 +25,7 @@ export const historyEvents = [
       cz: "Pravěk – 6. století n. l.",
       zh: "史前时代至公元6世纪",
     },
-    image: "/history/prehistory.webp",
+    images: ["/history/prehistory.webp"],
     tone: "humorous",
     title: {
       en: "Before the Legend",
@@ -87,7 +87,7 @@ export const historyEvents = [
       cz: "8. století (legenda)",
       zh: "8世纪（传说）",
     },
-    image: "/history/libuse.webp",
+    images: ["/history/libuse.webp"],
     tone: "humorous",
     title: {
       en: "Libuše's Prophecy",
@@ -141,7 +141,7 @@ export const historyEvents = [
       cz: "8. století (legenda)",
       zh: "8世纪（传说）",
     },
-    image: "/history/premysl.webp",
+    images: ["/history/premysl.webp"],
     tone: "humorous",
     title: {
       en: "Přemysl the Ploughman",
@@ -187,7 +187,7 @@ export const historyEvents = [
       cz: "8. století (legenda)",
       zh: "8世纪（传说）",
     },
-    image: "/history/sarka.webp",
+    images: ["/history/sarka.webp"],
     tone: "humorous",
     title: {
       en: "The Girls' War",
@@ -242,7 +242,7 @@ export const historyEvents = [
       cz: "8. století podle legendy; 10. století podle záznamů",
       zh: "传说为8世纪；有据可查的历史为10世纪",
     },
-    image: "/history/vysehrad.webp",
+    images: ["/history/vysehrad.webp"],
     tone: "humorous",
     title: {
       en: "The Founding of Vyšehrad",
@@ -312,7 +312,7 @@ export const historyEvents = [
       cz: "asi 730–867 (sedm bájných knížat)",
       zh: "约730年－867年（七位传说公爵）",
     },
-    image: "/history/seven-dukes.webp",
+    images: ["/history/seven-dukes.webp"],
     tone: "humorous",
     title: {
       en: "Seven Dukes and One Good Story",
@@ -366,7 +366,7 @@ export const historyEvents = [
       cz: "kolem roku 870 (začátek doložených dějin)",
       zh: "约870年（信史的开端）",
     },
-    image: "/history/borivoj-first-duke.webp",
+    images: ["/history/borivoj-first-duke.webp"],
     tone: "humorous",
     title: {
       en: "Where the Legend Ends",
@@ -404,7 +404,7 @@ export const historyEvents = [
       cz: "883–885",
       zh: "883年－885年",
     },
-    image: "/history/borivoj-conversion-and-exile.webp",
+    images: ["/history/borivoj-conversion-and-exile.webp"],
     tone: "humorous",
     title: {
       en: "Baptized, Deposed, Restored",
@@ -450,7 +450,7 @@ export const historyEvents = [
       cz: "80. léta 9. století (přesné datum sporné)",
       zh: "9世纪80年代（确切年份尚有争议）",
     },
-    image: "/history/founding-of-prague-castle.webp",
+    images: ["/history/founding-of-prague-castle.webp"],
     tone: "humorous",
     title: {
       en: "The Birth of Prague Castle",
@@ -504,7 +504,7 @@ export const historyEvents = [
       cz: "895 (definitivní odtržení dokončeno do roku 898)",
       zh: "895年（正式脱离于898年完成）",
     },
-    image: "/history/bohemia-independence-895.webp",
+    images: ["/history/bohemia-independence-895.webp"],
     tone: "humorous",
     title: {
       en: "Cutting Loose from Great Moravia",
@@ -542,7 +542,7 @@ export const historyEvents = [
       cz: "883 (křest) – 921 (mučednická smrt)",
       zh: "883年（受洗）－921年（殉道）",
     },
-    image: "/history/ludmila.webp",
+    images: ["/history/ludmila.webp"],
     tone: "humorous",
     title: {
       en: "St. Ludmila — Christianization & Martyrdom",
@@ -644,7 +644,7 @@ export const historyEvents = [
       cz: "924–935 (jeho vláda)",
       zh: "924年－935年（在位期间）",
     },
-    image: "/history/wenceslas-life-and-reign.webp",
+    images: ["/history/wenceslas-life-and-reign.webp"],
     tone: "humorous",
     title: {
       en: "Wenceslas, the Good Duke",
@@ -706,7 +706,7 @@ export const historyEvents = [
       cz: "935 (tradičně uváděný rok)",
       zh: "935年（传统纪年）",
     },
-    image: "/history/st-wenceslas-murder.webp",
+    images: ["/history/st-wenceslas-murder.webp"],
     tone: "humorous",
     title: {
       en: "Brother Against Brother",
@@ -760,7 +760,7 @@ export const historyEvents = [
       cz: "955",
       zh: "955年",
     },
-    image: "/history/lechfeld-955.webp",
+    images: ["/history/lechfeld-955.webp"],
     tone: "humorous",
     title: {
       en: "The Fratricide's Other Legacy",
@@ -833,7 +833,7 @@ export const historyEvents = [
       cz: "965",
       zh: "965年",
     },
-    image: "/history/bohemia-poland-alliance-965.webp",
+    images: ["/history/bohemia-poland-alliance-965.webp"],
     tone: "humorous",
     title: {
       en: "A Seat at the Table",
@@ -880,21 +880,22 @@ export const historyEvents = [
       cz: "973",
       zh: "973年",
     },
+    images: ["/history/prague-bishopric-973.webp"],
     tone: "humorous",
     title: {
-      en: "Prague Gets Its Own Bishop",
-      cz: "Praha dostává vlastního biskupa",
-      zh: "布拉格拥有了自己的主教区",
+      en: "The Princess Who Went to Rome",
+      cz: "Princezna, která odjela do Říma",
+      zh: "远赴罗马的公主",
     },
     hookLine: {
-      en: "Fighting off Magyars was one legacy. The other, quieter one took longer to finish — and it was his son who closed it out.",
-      cz: "Boj s Maďary byl jedno dědictví. To druhé, tišší, trvalo déle, než ho někdo dotáhl do konce — a udělal to až jeho syn.",
-      zh: "打退马扎尔人是他留下的一份遗产。另一份更安静的遗产，则花了更久才真正完成——最终是他的儿子把它收尾的。",
+      en: "Fighting off the Magyars and marrying his daughter off to Poland — one legacy built with his fists, the other across a negotiating table — Boleslav pulled off both himself. But there was a third legacy he spent most of his life chasing and never lived to see finished — it was his son who closed out that last piece of unfinished business.",
+      cz: "Odražení Maďarů a provdání dcery do Polska — jedno dědictví vydobyté pěstmi, druhé u vyjednávacího stolu — to obojí Boleslav zvládl sám. Ale bylo tu i třetí dědictví, o které usiloval většinu života a nikdy se nedožil jeho dokončení — poslední nedodělaný účet za něj nakonec vyrovnal až jeho syn.",
+      zh: "打退马扎尔人、把女儿嫁去波兰——这两份遗产，一份靠拳头，一份靠谈判桌，博莱斯拉夫都在自己手上办成了。但还有第三份遗产，他花了大半辈子去争取，却没能亲眼看到它完成——最终是他的儿子，替他把这最后一笔账收了尾。",
     },
     summary: {
-      en: "For nearly a century, Bohemia's church affairs weren't even run from Bohemia: since the collapse of Great Moravia, the territory had answered to the bishopric of Regensburg, over the border in Bavaria. Boleslav — yes, that Boleslav, Wenceslas's own killer — spent part of his long reign trying to fix that, opening negotiations with Pope John XIII around 968 for a bishopric of Bohemia's own. He died in 972 with the deal unfinished; his son Boleslav II closed it out in 973, working with Otto I — by then Holy Roman Emperor, crowned in Rome back in 962 — and his son Otto II to establish the Diocese of Prague, seated at St. Vitus.\n\nIt still answered to the Archbishop of Mainz rather than standing fully alone, and its first bishop, a Saxon monk named Dětmar, wasn't even Czech — but for the first time, Bohemia's religious life was governed from inside its own borders instead of somebody else's. Small print aside, it was the moment Bohemia stopped being administered as somebody else's back office and started looking, on paper at least, like a proper member of Christian Europe.",
-      cz: "Téměř sto let se církevní záležitosti Čech neřídily ani z Čech: po rozpadu Velké Moravy spadalo území pod biskupství v Řezně, za hranicemi v Bavorsku. Boleslav — ano, přesně ten Boleslav, bratrovrah svého vlastního bratra Václava — strávil část své dlouhé vlády snahou to napravit a kolem roku 968 zahájil s papežem Janem XIII. jednání o vlastním českém biskupství. Zemřel v roce 972, aniž by dohodu dotáhl do konce; dokončil ji až jeho syn Boleslav II. v roce 973, ve spolupráci s Otou I. — od roku 962, kdy ho v Římě korunoval papež, už římským císařem — a jeho synem Otou II., čímž vzniklo pražské biskupství se sídlem u svatého Víta.\n\nStále podléhalo mohučskému arcibiskupovi, takže o úplné samostatnosti řeč ještě nebyla, a jeho první biskup, saský mnich jménem Dětmar, dokonce nebyl ani Čech — ale poprvé se náboženský život Čech řídil z jejich vlastního území, ne odjinud. Nehledě na drobná ale — to byl okamžik, kdy Čechy přestaly být administrativně cizí přílohou a začaly, aspoň na papíře, vypadat jako řádný člen křesťanské Evropy.",
-      zh: "在将近一个世纪的时间里，波希米亚的教会事务甚至都不是在波希米亚境内管理的：自大摩拉维亚崩溃以来，这片土地一直隶属于巴伐利亚境外的雷根斯堡主教区。博莱斯拉夫——没错，就是那位杀害了兄长瓦茨拉夫的博莱斯拉夫——在他漫长的统治生涯中，曾花了一部分精力想要纠正这一点，大约在968年，他开始与教皇约翰十三世就波希米亚自设主教区一事展开谈判。972年他去世时，这笔交易尚未谈成；直到973年，他的儿子博莱斯拉夫二世才最终促成此事，联合奥托一世——自962年在罗马接受教皇加冕、此时已是神圣罗马帝国皇帝——及其子奥托二世，正式建立了以圣维特为驻地的布拉格主教区。\n\n这个主教区仍隶属于美因茨大主教，算不上真正独立，而它的第一任主教德特马尔，还是位撒克逊修士，甚至都不是捷克人——但这是波希米亚的宗教生活第一次，是由自己境内、而非别处，来治理的。撇开这些小小的但书不谈，这一刻，波希米亚终于不再是别人教务体系里一个挂靠的边区，至少在纸面上，开始看起来像基督教欧洲一个像样的正式成员了。",
+      en: "Behind the two dukes usually credited with this stood someone who actually did the legwork: Mlada, Boleslav I's youngest daughter. Around 965 — the same year her sister Doubravka was married off to seal the Polish alliance, as if the family had simply split its diplomacy in two directions at once — her father sent her to Rome to petition Pope John XIII directly for a bishopric of Bohemia's own.\n\nShe stayed for years and came home with two prizes instead of one. While in Rome, she personally joined the Benedictine order, took the name Maria, and was ordained an abbess by the pope himself — and alongside the diocese, she secured papal approval to found Bohemia's very first convent. She left Rome in the winter of 972, the same year her father died with the diocese still formally unconfirmed. Confirmation came a few months later, in March 973, at an imperial council at Quedlinburg — Otto I, by then Holy Roman Emperor, presided just two months before his own death, with his son and successor Otto II picking up where he left off. It took until 976 for the diocese's first bishop, a Saxon monk named Dětmar, to actually be ordained and take up the seat at St. Vitus.\n\nBack in Prague, Mlada became the founding abbess of St. George's Convent at the castle, meaning the same trip to Rome produced both institutions Bohemia had been missing: a bishopric that finally answered to itself instead of Regensburg, and the country's first religious house for women. It still answered to the Archbishop of Mainz rather than standing fully independent — small print aside, this was the moment Bohemia's religious life started looking, on paper at least, like a proper member of Christian Europe. And credit for actually making the trip belongs less to either of the two dukes whose names get attached to the story than to the sister standing between them.",
+      cz: "Za oběma vévody, kterým se tahle zásluha obvykle připisuje, stála osoba, která tu skutečnou dřinu odvedla sama: Mlada, nejmladší dcera Boleslava I. Kolem roku 965 — téhož roku, kdy byla její sestra Doubravka provdána, aby zpečetila polské spojenectví, jako by si rodina prostě rozdělila diplomacii na dva směry najednou — ji otec vyslal do Říma, aby přímo u papeže Jana XIII. vyjednala vlastní české biskupství.\n\nZůstala tam léta a vrátila se ne s jedním, ale se dvěma úlovky. V Římě osobně vstoupila do benediktinského řádu, přijala jméno Marie a byla samotným papežem vysvěcena na abatyši — a vedle biskupství si vyjednala i papežské svolení založit v Čechách vůbec první klášter. Řím opustila v zimě roku 972, téhož roku, kdy zemřel její otec, aniž by bylo biskupství formálně potvrzeno. Potvrzení přišlo o pár měsíců později, v březnu 973, na říšském sněmu v Quedlinburku — předsedal mu Ota I., tou dobou už římský císař, jen dva měsíce před vlastní smrtí, a tam, kde skončil, pokračoval jeho syn a nástupce Ota II. Prvního pražského biskupa, saského mnicha jménem Dětmar, se podařilo skutečně vysvětit a dosadit u svatého Víta až v roce 976.\n\nZpátky v Praze se Mlada stala zakládající abatyší kláštera svatého Jiří na Hradě — táž cesta do Říma tak přinesla obě instituce, které Čechám dosud chyběly: biskupství, jež konečně podléhalo samo sobě místo Řezna, a první ženský řeholní dům v zemi. Stále podléhalo mohučskému arcibiskupovi, takže o úplné samostatnosti řeč ještě nebyla — nehledě na tohle drobné ale, byl to okamžik, kdy náboženský život Čech začal, aspoň na papíře, vypadat jako řádný člen křesťanské Evropy. A zásluha za to, že se ta cesta vůbec uskutečnila, patří méně oběma vévodům, jejichž jména se k tomuhle příběhu obvykle připojují, než sestře stojící mezi nimi.",
+      zh: "在通常被归功的这两位公爵背后，真正跑腿办成这件事的，其实是另有其人：姆拉达，博莱斯拉夫一世最小的女儿。大约965年——正是她姐姐多布拉瓦出嫁、巩固波兰联盟的同一年，仿佛这个家族干脆把外交分成了两个方向同时展开——她的父亲派她远赴罗马，亲自向教皇约翰十三世请求为波希米亚设立独立主教区。\n\n她在罗马一待就是好几年，回来时带回的不是一份，而是两份成果。在罗马期间，她本人正式加入本笃会，改名玛丽亚，并由教皇亲自册封为修道院院长——除了主教区之外，她还获准在波希米亚建立第一座修道院。972年冬天她离开罗马，同一年，她的父亲去世了，主教区当时仍未正式获批。几个月后，973年3月，教廷在奎德林堡帝国议会上正式确认——主持会议的正是此时已是神圣罗马帝国皇帝的奥托一世，就在他自己去世前两个月，而他儿子兼继承人奥托二世则接过了后续事务。直到976年，第一任布拉格主教、撒克逊修士德特马尔，才真正获得册封、正式就任圣维特教区。\n\n回到布拉格后，姆拉达成为了城堡内圣乔治修道院的首任院长——同一趟罗马之行，就此为波希米亚补上了两个一直缺失的建制：一个终于不再隶属雷根斯堡、而是自己管自己的主教区，以及这个国家第一座供女性修行的宗教场所。它仍然隶属于美因茨大主教，算不上真正独立——撇开这个小小的但书，这一刻，波希米亚的宗教生活终于开始，至少在纸面上，看起来像基督教欧洲一个像样的正式成员了。而真正促成这一切成行的功劳，与其说属于这个故事里通常挂名的那两位公爵，不如说属于站在他们中间的那位公主。",
     },
     relatedLandmarks: [
       {
@@ -903,6 +904,14 @@ export const historyEvents = [
           en: "The seat of this new bishopric — though what stood here in 973 was a modest stone rotunda, not the soaring Gothic cathedral you're looking at now, which wouldn't even begin for another three and a half centuries.",
           cz: "Sídlo tohoto nového biskupství — i když v roce 973 tu stála skromná kamenná rotunda, ne ta vzdušná gotická katedrála, na kterou se díváš teď a jejíž stavba začala až o tři a půl století později.",
           zh: "这个新设主教区的驻地——不过973年这里矗立着的，还只是一座朴素的石造罗通达，而不是你现在眼前这座高耸的哥特式大教堂，后者的建造要再等三个半世纪才会开始。",
+        },
+      },
+      {
+        slug: "st-georges-basilica",
+        relation: {
+          en: "Mlada became the founding abbess here in 973 — the same Rome trip that won Prague its own bishopric also won Bohemia its first convent, and this is where she ran it.",
+          cz: "Zde se Mlada v roce 973 stala zakládající abatyší — táž cesta do Říma, která Praze vydobyla vlastní biskupství, vydobyla Čechám i první klášter, a právě tady ho vedla.",
+          zh: "973年，姆拉达在这里成为了首任院长——同一趟罗马之行，既为布拉格争取到了独立主教区，也为波希米亚带回了第一座修道院，而她就在这里主持修道院事务。",
         },
       },
     ],
@@ -917,6 +926,7 @@ export const historyEvents = [
       cz: "990",
       zh: "990年",
     },
+    images: ["/history/polish-bohemian-war-990.webp"],
     tone: "humorous",
     title: {
       en: "Picking the Wrong Side",
@@ -929,12 +939,55 @@ export const historyEvents = [
       zh: "一桩联姻能买来十几年的和平——但买不来一场别人家皇位继承危机之后仍旧屹立不倒的同盟。",
     },
     summary: {
-      en: "The alliance sealed by Doubravka's marriage held for about a dozen years, but it was really only ever as strong as the people who'd made it. She died in 977, and without her, the personal tie between the two courts started to fray; by around 980, Bohemian-Polish relations were visibly cooling.\n\nThe real break came from somewhere else entirely. When Emperor Otto II died in 983, leaving the throne to his toddler son Otto III, the whole Holy Roman Empire tipped into a regency crisis — and Bohemia and Poland ended up on opposite sides of it almost by accident. Boleslav II threw his support behind the rebellious Duke Henry the Quarrelsome of Bavaria, who was trying to seize the regency for himself; Mieszko I backed the boy-emperor and his regents instead. It wasn't a fight about Bohemia and Poland at all — but it left the two former in-laws facing each other from opposite camps.\n\nBy 990, that political split had hardened into open war. Boleslav II and Mieszko I fought over Silesia and Lesser Poland — the same stretch of borderland, Kraków included, that had briefly answered to Prague a generation earlier. Bohemia lost, and Silesia went to Poland for good; whether Kraków itself had already slipped away before the fighting even started is something historians still argue about. Either way, the marriage that once tied the two dynasties together now marked the border between two rivals — a reminder that no alliance outlives the people who agreed to it, once someone else's crisis forces everyone to pick a side.\n\nNo Prague landmark for this one either — but if you still have that ticket to Kraków from the last chapter, this is more or less where that story ends.",
-      cz: "Spojenectví zpečetěné Doubravčiným sňatkem vydrželo asi tucet let, ale ve skutečnosti bylo silné jen tak, jak silní byli lidé, kteří ho uzavřeli. Doubravka zemřela v roce 977, a bez ní se osobní pouto mezi oběma dvory začalo trhat; kolem roku 980 už bylo česko-polské ochlazení vztahů zjevné.\n\nSkutečný zlom přišel odjinud. Když v roce 983 zemřel císař Ota II. a trůn zanechal svému batolecímu synovi Otovi III., celá Svatá říše římská upadla do krize regentství — a Čechy s Polskem se ocitly na opačných stranách takřka náhodou. Boleslav II. podpořil vzbouřeného bavorského vévodu Jindřicha Svárlivého, který se pokoušel uchvátit regentství pro sebe; Měšek I. se naopak postavil za dětského císaře a jeho regenty. Vůbec nešlo o spor mezi Čechami a Polskem — ale postavil to bývalé švagry do opačných táborů.\n\nDo roku 990 se tento politický rozkol proměnil v otevřenou válku. Boleslav II. a Měšek I. bojovali o Slezsko a Malopolsko — tentýž pás pohraničí, včetně Krakova, který o generaci dříve na čas podléhal Praze. Čechy prohrály a Slezsko připadlo Polsku natrvalo; zda samotný Krakov nepřipadl Polsku už dřív, ještě před vypuknutím bojů, o tom se historici dodnes přou. Ať tak či onak, sňatek, který kdysi spojoval obě dynastie, teď vyznačoval hranici mezi dvěma soupeři — připomínka, že žádné spojenectví nepřežije lidi, kteří ho uzavřeli, jakmile je cizí krize donutí vybrat si stranu.\n\nAni tady na tebe v Praze nečeká žádná památka — ale pokud ti ještě zbyla ta jízdenka do Krakova z minulé kapitoly, tady ten příběh víceméně končí.",
-      zh: "多布拉瓦这桩婚姻缔结的同盟维持了大约十几年，但说到底，它的牢固程度取决于当初缔结它的那两个人。977年她去世后，两国宫廷之间的这条私人纽带便开始松动；到980年前后，波希米亚和波兰的关系已经明显转冷。\n\n真正的裂痕来自完全另一个方向。983年，皇帝奥托二世驾崩，把皇位留给了还是幼童的儿子奥托三世，整个神圣罗马帝国因此陷入摄政危机——波希米亚和波兰几乎是被动地被推到了对立的两个阵营。博莱斯拉夫二世支持了起兵造反、企图夺取摄政权的巴伐利亚公爵“吵闹者”海因里希二世；梅什科一世则选择支持这位幼年皇帝及其摄政团。这场纷争压根跟波希米亚、波兰无关——却让这对昔日的姻亲被摆到了彼此对立的阵营里。\n\n到990年，这场政治分裂彻底演变成了公开战争。博莱斯拉夫二世和梅什科一世为了西里西亚和小波兰开战——正是同一片边境地带，包括克拉科夫，一代人之前曾一度归布拉格管辖。波希米亚战败，西里西亚从此归了波兰；至于克拉科夫本身是不是在开战之前就已经易主，史学界至今仍有争论。但无论如何，那桩曾经把两大家族联系在一起的婚姻，如今标记的却是两个对手之间的边界——这提醒着人们：一旦别人的危机逼着所有人选边站队，再牢固的同盟，也活不过缔结它的那代人。\n\n这一节同样没有布拉格地标——不过如果上一节买的那张去克拉科夫的车票还没用掉，这里差不多就是那个故事的终点了。",
+      en: "The alliance sealed by Doubravka's marriage held for about a dozen years, but it was really only ever as strong as the people who'd made it. She died in 977, and without her, the personal tie between the two courts started to fray; by around 980, Bohemian-Polish relations were visibly cooling.\n\nThe real break came from somewhere else entirely. When Emperor Otto II died in 983, leaving the throne to his toddler son Otto III, the whole Holy Roman Empire tipped into a regency crisis — and Bohemia and Poland ended up on opposite sides of it almost by accident. Boleslav II threw his support behind the rebellious Duke Henry the Quarrelsome of Bavaria, who was trying to seize the regency for himself; Mieszko I backed the boy-emperor and his regents instead. It wasn't a fight about Bohemia and Poland at all — but it left the two former in-laws facing each other from opposite camps.\n\nBy 990, that political split had hardened into open war. Boleslav II and Mieszko I fought over Silesia and Lesser Poland — the same stretch of borderland, Kraków included, that had briefly answered to Prague a generation earlier. Bohemia lost, and Silesia went to Poland for good; whether Kraków itself had already slipped away before the fighting even started is something historians still argue about. Either way, the marriage that once tied the two dynasties together now marked the border between two rivals — a reminder that no alliance outlives the people who agreed to it, once someone else's crisis forces everyone to pick a side.",
+      cz: "Spojenectví zpečetěné Doubravčiným sňatkem vydrželo asi tucet let, ale ve skutečnosti bylo silné jen tak, jak silní byli lidé, kteří ho uzavřeli. Doubravka zemřela v roce 977, a bez ní se osobní pouto mezi oběma dvory začalo trhat; kolem roku 980 už bylo česko-polské ochlazení vztahů zjevné.\n\nSkutečný zlom přišel odjinud. Když v roce 983 zemřel císař Ota II. a trůn zanechal svému batolecímu synovi Otovi III., celá Svatá říše římská upadla do krize regentství — a Čechy s Polskem se ocitly na opačných stranách takřka náhodou. Boleslav II. podpořil vzbouřeného bavorského vévodu Jindřicha Svárlivého, který se pokoušel uchvátit regentství pro sebe; Měšek I. se naopak postavil za dětského císaře a jeho regenty. Vůbec nešlo o spor mezi Čechami a Polskem — ale postavil to bývalé švagry do opačných táborů.\n\nDo roku 990 se tento politický rozkol proměnil v otevřenou válku. Boleslav II. a Měšek I. bojovali o Slezsko a Malopolsko — tentýž pás pohraničí, včetně Krakova, který o generaci dříve na čas podléhal Praze. Čechy prohrály a Slezsko připadlo Polsku natrvalo; zda samotný Krakov nepřipadl Polsku už dřív, ještě před vypuknutím bojů, o tom se historici dodnes přou. Ať tak či onak, sňatek, který kdysi spojoval obě dynastie, teď vyznačoval hranici mezi dvěma soupeři — připomínka, že žádné spojenectví nepřežije lidi, kteří ho uzavřeli, jakmile je cizí krize donutí vybrat si stranu.",
+      zh: "多布拉瓦这桩婚姻缔结的同盟维持了大约十几年，但说到底，它的牢固程度取决于当初缔结它的那两个人。977年她去世后，两国宫廷之间的这条私人纽带便开始松动；到980年前后，波希米亚和波兰的关系已经明显转冷。\n\n真正的裂痕来自完全另一个方向。983年，皇帝奥托二世驾崩，把皇位留给了还是幼童的儿子奥托三世，整个神圣罗马帝国因此陷入摄政危机——波希米亚和波兰几乎是被动地被推到了对立的两个阵营。博莱斯拉夫二世支持了起兵造反、企图夺取摄政权的巴伐利亚公爵“吵闹者”海因里希二世；梅什科一世则选择支持这位幼年皇帝及其摄政团。这场纷争压根跟波希米亚、波兰无关——却让这对昔日的姻亲被摆到了彼此对立的阵营里。\n\n到990年，这场政治分裂彻底演变成了公开战争。博莱斯拉夫二世和梅什科一世为了西里西亚和小波兰开战——正是同一片边境地带，包括克拉科夫，一代人之前曾一度归布拉格管辖。波希米亚战败，西里西亚从此归了波兰；至于克拉科夫本身是不是在开战之前就已经易主，史学界至今仍有争论。但无论如何，那桩曾经把两大家族联系在一起的婚姻，如今标记的却是两个对手之间的边界——这提醒着人们：一旦别人的危机逼着所有人选边站队，再牢固的同盟，也活不过缔结它的那代人。",
     },
-    relatedLandmarks: [],
+    relatedLandmarks: [
+      {
+        slug: "hrad-mlada-boleslav",
+        relation: {
+          en: "Traditionally linked to Boleslav II himself — a fortified settlement here from the late 10th century took his name, and the town of Mladá Boleslav ('Boleslav the Younger,' as opposed to Stará Boleslav, tied to his own father) eventually grew up around it.",
+          cz: "Tradičně spojováno se samotným Boleslavem II. — opevněné sídliště zde z konce 10. století neslo jeho jméno, a kolem něj později vyrostlo město Mladá Boleslav (na rozdíl od Staré Boleslavi, spojené s jeho vlastním otcem).",
+          zh: "传统上与博莱斯拉夫二世本人有关——10世纪末，这里有一座设防聚落以他命名，“姆拉达·博莱斯拉夫”（意为“年轻的博莱斯拉夫”，与他父亲那座“老博莱斯拉夫”相对）这座集镇后来便在此基础上发展起来。",
+        },
+      },
+      {
+        slug: "kostel-svateho-fabiana-a-sebestiana-liboc",
+        relation: {
+          en: "Legend — via the notoriously unreliable 16th-century chronicler Václav Hájek — credits Boleslav II with founding a church here around 992, marking the spot where a missionary priest was killed for preaching too effectively. Reliable history only picks the site up centuries later, but it's one more claim on his religious-building resume, the year before Bohemia's first monastery went up.",
+          cz: "Legenda — podle notoricky nespolehlivého kronikáře ze 16. století Václava Hájka z Libočan — připisuje Boleslavu II. založení kostela zde kolem roku 992, na místě, kde byl zabit misijní kněz za příliš úspěšné kázání. Spolehlivá historie se k místu vrací až o staletí později, ale je to další nárok na jeho stavitelské renomé v církevních věcech — rok předtím, než v zemi vyrostl první klášter.",
+          zh: "传说——出自那位出了名不靠谱的16世纪编年史家瓦茨拉夫·哈耶克——将这里的一座教堂归功于博莱斯拉夫二世，约建于992年，纪念一位因传教过于成功而遇害的传教士。可靠的史料要到几个世纪后才提到这个地方，但这仍算得上是他宗教建筑履历上又一笔记录——就在波希米亚第一座修道院落成的前一年。",
+        },
+      },
+      {
+        slug: "bevnov-monastery-1782583396582",
+        relation: {
+          en: "The monastery the Liboc church's founding legend was warming up for — Boleslav II and Bishop Adalbert co-founded this Benedictine house together in 993, Bohemia's first monastery and, unlike the Liboc story, solidly documented rather than legendary.",
+          cz: "Klášter, na který se legenda o založení kostela v Liboci teprve chystala — Boleslav II. a biskup Vojtěch tento benediktinský dům společně založili v roce 993, první klášter v Čechách, a na rozdíl od liboceckého příběhu jde o spolehlivě doloženou událost, ne legendu.",
+          zh: "利博茨那座教堂的创立传说，其实是在为这座修道院“热身”——博莱斯拉夫二世与主教阿达尔伯特于993年共同创立了这座本笃会修道院，是波希米亚第一座修道院，而且跟利博茨那个传说不同，这件事有可靠史料确凿记载，不是传说。",
+        },
+      },
+    ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Polish%E2%80%93Bohemian_War_(990)",
+    referenceMaps: {
+      caption: {
+        en: "See Bohemia's territory after this war with Poland.",
+        cz: "Podívejte se na české území po této válce s Polskem.",
+        zh: "查看这场对波兰战争之后，波希米亚的疆域。",
+      },
+      links: [
+        {
+          label: "990",
+          description: {
+            en: "Duchy of Bohemia's territory after the war — Silesia now gone to Poland",
+            cz: "Území Českého knížectví po válce — Slezsko už připadlo Polsku",
+            zh: "战争结束后，波希米亚公国的疆域——西里西亚已经归了波兰",
+          },
+          url: "https://www.oldmapsonline.org/en/history/regions/Duchy_of_Bohemia?region_id=862#position=5.4868/49.79/23.07&goog_rewarded=&year=990",
+        },
+      ],
+    },
   },
   {
     slug: "libice-massacre-995",
@@ -945,6 +998,7 @@ export const historyEvents = [
       cz: "995 (28. září)",
       zh: "995年（9月28日）",
     },
+    images: ["/history/libice-massacre-995.webp"],
     tone: "humorous",
     title: {
       en: "The Same Date, Again",
@@ -982,6 +1036,7 @@ export const historyEvents = [
       cz: "983–997 (biskupem až po mučednickou smrt)",
       zh: "983年－997年（任主教至殉道）",
     },
+    images: ["/history/st-adalbert-martyrdom-997.webp"],
     tone: "humorous",
     title: {
       en: "St. Adalbert — The Bishop Who Kept Leaving",
@@ -994,17 +1049,25 @@ export const historyEvents = [
       zh: "利比采唯一的幸存者，后来成了波希米亚的第二任主教——而他大半个任期，都在试图离开这个职位。",
     },
     summary: {
-      en: "Vojtěch — better known by his confirmation name Adalbert — became Bohemia's second bishop in 983, the first native Czech to hold the post, and spent much of the job locked in conflict with a Bohemian nobility that had no interest in reforming polygamy, clerical marriage, or fasting discipline. He walked out on Prague twice, fleeing to Rome each time rather than fight it out at home; between the two trips, he founded Břevnov Monastery in 993, the first monastery on Bohemian soil. He was in Rome for the second time when his own family was slaughtered at Libice in 995, and he never really came back to run the diocese again — instead he headed north to preach to the pagan Prussians, who killed him for it in 997.\n\nHis relics eventually made their way home. So, in a sense, did his face: centuries later, sculptor Josef Václav Myslbek placed him at the base of the Wenceslas statue in Wenceslas Square, standing alongside Ludmila, Procopius, and Agnes — the same four saints already introduced back in Wenceslas's own chapter. The bishop who could never stay in Prague for long ended up permanently fixed there in bronze.",
-      cz: "Vojtěch — lépe známý pod biřmovacím jménem Adalbert — se stal roku 983 druhým pražským biskupem, prvním rodilým Čechem v této funkci, a většinu úřadu strávil v neustálém sporu s českou šlechtou, která neměla nejmenší zájem reformovat mnohoženství, kněžské sňatky ani postní kázeň. Z Prahy dvakrát odešel a pokaždé uprchl do Říma, místo aby to doma dovedl do konce; mezi oběma cestami založil roku 993 Břevnovský klášter, první klášter na českém území. Byl v Římě podruhé, když byla roku 995 v Libici vyvražděna jeho vlastní rodina, a k vedení diecéze se už nikdy pořádně nevrátil — místo toho odešel na sever kázat pohanským Prusům, kteří ho za to roku 997 zabili.\n\nJeho ostatky se nakonec vrátily domů. V jistém smyslu i jeho tvář: o staletí později umístil sochař Josef Václav Myslbek jeho postavu k patě sochy svatého Václava na Václavském náměstí, vedle Ludmily, Prokopa a Anežky — stejné čtveřice světců, která už byla představena v kapitole o Václavovi samotném. Biskup, který v Praze nikdy dlouho nevydržel, tam nakonec zůstal navždy — v bronzu.",
-      zh: "沃伊捷赫——更为人熟知的坚振教名是阿达尔伯特——于983年成为波希米亚第二任主教，也是首位土生土长的捷克裔主教，他大半个任期都陷在与波希米亚贵族的持续冲突之中——一夫多妻、教士婚姻、斋戒纪律，这些他想改革的事，贵族们根本没兴趣配合。他两次出走布拉格，每次都逃往罗马，而不是留在国内把事情争到底；两次出走之间，他于993年创立了布热夫诺夫修道院，是波希米亚土地上的第一座修道院。995年利比采屠杀发生时，他正第二次身在罗马，此后他再也没有真正回来主持教区事务——而是北上向异教普鲁士人传教，997年，他们为此杀害了他。\n\n他的遗骨最终被带回了故土。从某种意义上说，他的容貌也一样：几个世纪后，雕塑家约瑟夫·瓦茨拉夫·米斯尔贝克把他的雕像立在了瓦茨拉夫广场骑马像的基座上，与鲁德米拉、普罗科普、阿格尼丝并列——正是在瓦茨拉夫那一章里已经介绍过的同一组四位圣人。这位在布拉格从未久留的主教，最终却在那里永远留了下来——以青铜的形式。",
+      en: "Vojtěch — better known by his confirmation name Adalbert — became Bohemia's second bishop in 983, the first native Czech to hold the post, and spent much of the job locked in conflict with a Bohemian nobility that had no interest in reforming polygamy, clerical marriage, or fasting discipline. He walked out on Prague twice, fleeing to Rome each time rather than fight it out at home; between the two trips, he founded Břevnov Monastery in 993, the first monastery on Bohemian soil. He was in Rome for the second time when his own family was slaughtered at Libice in 995, and he never really came back to run the diocese again — instead he headed north to preach to the pagan Prussians, who killed him for it in 997.\n\nNone of that domestic record made him a saint — what did was dying for it, and dying with the right people paying attention. Emperor Otto III, who'd been Adalbert's close friend and advisor, had him canonized within two years of his death — a startlingly fast turnaround for the era — and made a personal pilgrimage on foot to his tomb in 1000. Poland moved just as fast in the other direction: Duke Bolesław the Brave ransomed the body back from the Prussians for its own weight in gold and enshrined it at Gniezno, instantly turning the town into Poland's own ecclesiastical capital. Bohemia, in other words, mostly inherited a finished cult rather than building one — the empire and Poland did the canonizing; Bohemia just got to claim the man as its own native son.\n\nHis relics eventually made their way home. So, in a sense, did his face: centuries later, sculptor Josef Václav Myslbek placed him at the base of the Wenceslas statue in Wenceslas Square, standing alongside Ludmila, Procopius, and Agnes — the same four saints already introduced back in Wenceslas's own chapter. The bishop who could never stay in Prague for long ended up permanently fixed there in bronze.",
+      cz: "Vojtěch — lépe známý pod biřmovacím jménem Adalbert — se stal roku 983 druhým pražským biskupem, prvním rodilým Čechem v této funkci, a většinu úřadu strávil v neustálém sporu s českou šlechtou, která neměla nejmenší zájem reformovat mnohoženství, kněžské sňatky ani postní kázeň. Z Prahy dvakrát odešel a pokaždé uprchl do Říma, místo aby to doma dovedl do konce; mezi oběma cestami založil roku 993 Břevnovský klášter, první klášter na českém území. Byl v Římě podruhé, když byla roku 995 v Libici vyvražděna jeho vlastní rodina, a k vedení diecéze se už nikdy pořádně nevrátil — místo toho odešel na sever kázat pohanským Prusům, kteří ho za to roku 997 zabili.\n\nNic z toho, co dokázal doma, ho světcem neudělalo — udělalo ho jím to, že za to zemřel, a že si toho všimli ti správní lidé. Císař Ota III., Vojtěchův blízký přítel a rádce, ho nechal svatořečit do dvou let od jeho smrti — na tehdejší dobu překvapivě rychle — a v roce 1000 osobně pěšky putoval k jeho hrobu. Polsko si počínalo neméně rychle opačným směrem: kníže Boleslav Chrabrý vykoupil tělo od Prusů za jeho váhu ve zlatě a uložil ho v Hnězdně, čímž z města okamžitě udělal církevní centrum Polska. Čechy tak víceméně zdědily hotový kult, místo aby si ho samy vybudovaly — svatořečení odvedla říše a Polsko, Čechy si jen mohly nárokovat, že je to jejich rodák.\n\nJeho ostatky se nakonec vrátily domů. V jistém smyslu i jeho tvář: o staletí později umístil sochař Josef Václav Myslbek jeho postavu k patě sochy svatého Václava na Václavském náměstí, vedle Ludmily, Prokopa a Anežky — stejné čtveřice světců, která už byla představena v kapitole o Václavovi samotném. Biskup, který v Praze nikdy dlouho nevydržel, tam nakonec zůstal navždy — v bronzu.",
+      zh: "沃伊捷赫——更为人熟知的坚振教名是阿达尔伯特——于983年成为波希米亚第二任主教，也是首位土生土长的捷克裔主教，他大半个任期都陷在与波希米亚贵族的持续冲突之中——一夫多妻、教士婚姻、斋戒纪律，这些他想改革的事，贵族们根本没兴趣配合。他两次出走布拉格，每次都逃往罗马，而不是留在国内把事情争到底；两次出走之间，他于993年创立了布热夫诺夫修道院，是波希米亚土地上的第一座修道院。995年利比采屠杀发生时，他正第二次身在罗马，此后他再也没有真正回来主持教区事务——而是北上向异教普鲁士人传教，997年，他们为此杀害了他。\n\n他生前在国内的这些政绩，没有一样真正让他成为圣人——真正让他封圣的，是他为此而死，而且死后正好被对的人注意到了。皇帝奥托三世生前是阿达尔伯特的密友兼顾问，他去世后不到两年就推动教廷将其封圣——在那个年代快得反常——1000年，奥托三世还亲自徒步朝圣，走到他的墓前。波兰的动作也毫不逊色：“勇敢者”博莱斯瓦夫公爵用与遗体等重的黄金，把遗体从普鲁士人手中赎了回来，供奉在格涅兹诺，一举把这座小城变成了波兰的教会中心。换句话说，波希米亚基本上是继承了一个现成的圣徒崇拜，而不是自己一手打造出来的——真正操办封圣的是帝国和波兰，波希米亚能做的，只是宣称这位圣人是自己的儿子。\n\n他的遗骨最终被带回了故土。从某种意义上说，他的容貌也一样：几个世纪后，雕塑家约瑟夫·瓦茨拉夫·米斯尔贝克把他的雕像立在了瓦茨拉夫广场骑马像的基座上，与鲁德米拉、普罗科普、阿格尼丝并列——正是在瓦茨拉夫那一章里已经介绍过的同一组四位圣人。这位在布拉格从未久留的主教，最终却在那里永远留了下来——以青铜的形式。",
     },
     relatedLandmarks: [
       {
+        slug: "bevnov-monastery-1782583396582",
+        relation: {
+          en: "The one thing Adalbert built that didn't move — founded jointly with Boleslav II in 993, in the brief calm between his two departures, it's still an active Benedictine community today, brewing beer under the same rule he brought back from Rome.",
+          cz: "Jediná věc, kterou Vojtěch vybudoval a která se nikam nehnula — založena společně s Boleslavem II. v roce 993, v krátkém klidu mezi jeho dvěma odchody, dodnes je aktivní benediktinskou komunitou, vařící pivo podle téhož řádu, který přivezl z Říma.",
+          zh: "这是阿达尔伯特唯一一件“没有离开”的作品——993年，在他两次出走之间那段短暂的平静期，他与博莱斯拉夫二世共同创立了这里，至今仍是一个活跃的本笃会团体，酿的啤酒依旧遵循着他从罗马带回的那套会规。",
+        },
+      },
+      {
         slug: "bazilika-sv-margarety",
         relation: {
-          en: "Adalbert founded this monastery in 993, between his two exiles to Rome — the oldest monastery in Bohemia, though what stands today is an 18th-century Baroque rebuild by Christoph Dientzenhofer, with only a Romanesque crypt surviving from his own time.",
-          cz: "Vojtěch tento klášter založil v roce 993, mezi svými dvěma útěky do Říma — nejstarší klášter v Čechách, ačkoli to, co tu stojí dnes, je barokní přestavba Christopha Dientzenhofera z 18. století, z jeho vlastní doby se dochovala jen románská krypta.",
-          zh: "阿达尔伯特于993年、在他两次流亡罗马之间创立了这座修道院——波希米亚最古老的修道院，不过如今矗立的建筑，是18世纪克里斯托夫·迪岑霍费尔主持的巴洛克式重建，只有一座罗马式地下墓室，是他自己那个年代留下的原物。",
+          en: "The basilica itself — a soaring 18th-century Baroque hall by Christoph Dientzenhofer, replacing the original church Adalbert consecrated here in 993. Only the Romanesque crypt below survives from his own lifetime; everything above it is centuries younger than the man it's named for.",
+          cz: "Samotná bazilika — vzdušná barokní stavba Christopha Dientzenhofera z 18. století, která nahradila původní kostel, jenž tu Vojtěch vysvětil v roce 993. Z jeho vlastní doby se dochovala jen románská krypta pod ní; všechno nad ní je o staletí mladší než muž, po němž je pojmenována.",
+          zh: "圣殿建筑本身——克里斯托夫·迪岑霍费尔18世纪设计的宏伟巴洛克式大殿，取代了阿达尔伯特993年在此祝圣的那座原始教堂。只有殿下的罗马式地下墓室，是他自己那个年代留下的原物；地面以上的一切，都比这座教堂所纪念的这个人晚了好几个世纪。",
         },
       },
       {
@@ -1015,8 +1078,61 @@ export const historyEvents = [
           zh: "就是“好公爵瓦茨拉夫”那一节里介绍过的同一座雕像——阿达尔伯特正是站在基座上的四位圣人之一，与鲁德米拉、普罗科普、阿格尼丝并列。",
         },
       },
+      {
+        slug: "kostel-sv-vojtecha",
+        relation: {
+          en: "A church that only exists because Charles IV filled his new 14th-century district with a parish for every neighbourhood — this one just happens to carry Adalbert's name. Its own Easter egg makes the same point as above: his actual bones never came back from Gniezno, so Prague's patron saint doesn't rest in Prague.",
+          cz: "Kostel, který vznikl jen proto, že Karel IV. naplnil svou novou čtvrť ze 14. století farním kostelem pro každé sousedství — tenhle prostě nese Vojtěchovo jméno. Jeho vlastní easter egg říká totéž, co výše: jeho skutečné ostatky se z Hnězdna nikdy nevrátily, takže patron Prahy v Praze vlastně neodpočívá.",
+          zh: "这座教堂之所以存在，纯粹是因为查理四世14世纪扩建新城时，给每个街区都配了一座堂区教堂——这一座恰好用了阿达尔伯特的名字。它自己的彩蛋说的其实跟上面是同一件事：他真正的遗骨从未从格涅兹诺回归，布拉格的这位守护圣人，骸骨其实并不在布拉格。",
+        },
+      },
+      {
+        slug: "sousosi-sv-vojtecha-a-radima-libice",
+        relation: {
+          en: "Back where it all started: this statue at Libice pairs Adalbert with his half-brother Radim, the other family member who made it out of 995 alive — and who was standing right beside Adalbert two years later when the spears came, escaping to become the first Archbishop of Gniezno himself.",
+          cz: "Zpátky tam, kde to všechno začalo: sousoší v Libici staví Vojtěcha vedle jeho nevlastního bratra Radima, dalšího člena rodiny, který přežil rok 995 — a který stál po Vojtěchově boku i o dva roky později, když přišly kopí, aby sám vyvázl a stal se prvním hnězdenským arcibiskupem.",
+          zh: "回到一切开始的地方：利比采的这组雕像把阿达尔伯特和他的异母弟弟拉迪姆并列在一起——拉迪姆是995年那场屠杀中另一位幸存的家族成员，两年后长矛袭来时他就站在阿达尔伯特身边，最终逃过一劫，后来还成为了格涅兹诺的首任大主教。",
+        },
+      },
+      {
+        slug: "socha-sv-vojtecha-karluv-most",
+        relation: {
+          en: "One of thirty saints lining Charles Bridge, carved in 1709 — proof that whatever Prague failed to give Adalbert while he was alive, it's spent the centuries since making up for in statues.",
+          cz: "Jedna ze třiceti soch světců lemujících Karlův most, vytesaná roku 1709 — důkaz, že cokoliv mu Praha za jeho života odpírala, snaží se to od té doby vynahradit alespoň v sochách.",
+          zh: "查理大桥上排列的三十尊圣人像之一，1709年雕刻——证明了布拉格生前没能给阿达尔伯特的东西，这几个世纪以来都在靠一尊又一尊雕像来补偿。",
+        },
+      },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Adalbert_of_Prague",
+  },
+  {
+    slug: "vladivoj-imperial-fief-1002",
+    era: "bohemian-duchy",
+    startYear: 1002,
+    year: {
+      en: "1002",
+      cz: "1002",
+      zh: "1002年",
+    },
+    images: ["/history/vladivoj-imperial-fief-1002.webp"],
+    tone: "humorous",
+    title: {
+      en: "The Drunkard Who Outlasted Himself",
+      cz: "Opilec, který přežil sám sebe",
+      zh: "醉鬼公爵不朽的一笔",
+    },
+    hookLine: {
+      en: "He ruled for less than a year and is remembered, if at all, for drinking himself into an early grave — and yet the one thing he actually did outlived every duke who came after him for the next two centuries.",
+      cz: "Vládl necelý rok a pamatuje se na něj, pokud vůbec, hlavně to, že se doslova upil k smrti — a přece to jediné, co skutečně udělal, přežilo každého vévodu, který po něm ještě dvě století nastoupil.",
+      zh: "他在位不到一年，如果历史还记得他，记住的多半也只是“喝酒喝死了自己”这一件事——可他真正做成的那件事，却比接下来两个世纪里的每一位公爵都活得更久。",
+    },
+    summary: {
+      en: "Duke Boleslaus II died in 999, and what followed was one of the messiest successions Bohemia ever produced. His son Boleslaus III — remembered, not fondly, as 'the Red' — proved so violent and erratic a ruler that a revolt led by the Vršovci clan drove him out in May 1002. With Polish backing from Bolesław the Brave, the Bohemian nobles put a kinsman named Vladivoj on the throne instead — a man so thinly recorded that almost the only thing chroniclers bothered to note about him was his fondness for drink.\n\nAnd yet Vladivoj is the reason Bohemia's constitutional status actually changed. That November, he traveled to swear fealty to King Henry II of Germany and formally received Bohemia as an imperial fief — a different kind of act than Spytihněv's more personal homage back in 895, and one that made Bohemia, for the first time in clear legal terms, a proper Imperial State within the structure of the Holy Roman Empire. It's a status that would hold, in one form or another, until Bohemia was elevated to a full kingdom two centuries later.\n\nVladivoj never got to see any of it matter. He died within the year, in January 1003, reportedly drinking himself into the grave before he turned twenty-three. With the throne empty again, the same Poles who'd installed him simply reversed course and put the man they'd just watched Bohemia's own nobles throw out back in charge: Boleslaus III. It would not go well for anyone.\n\nNo landmark for this one in Prague either — not even the exact spot where Vladivoj knelt survives in the record. If you want to stand somewhere Henry II actually was that same year, try Mainz: he'd been crowned King of Germany there five months earlier.",
+      cz: "Kníže Boleslav II. zemřel roku 999 a to, co následovalo, patří k nejzmatenějším nástupnictvím, jaké kdy Čechy zažily. Jeho syn Boleslav III. — v paměti přezdívaný, nikoli z lásky, „Ryšavý\" — se ukázal jako natolik násilnický a nevyzpytatelný vládce, že ho v květnu 1002 vyhnalo povstání vedené rodem Vršovců. S polskou podporou Boleslava Chrabrého dosadila česká šlechta na trůn místo něj příbuzného jménem Vladivoj — muže, o němž se dochovalo tak málo, že kronikáři si o něm skoro jediné, co považovali za hodné zaznamenat, byla jeho záliba v pití.\n\nA přesto je to právě Vladivoj, kdo skutečně změnil ústavní postavení Čech. Téhož listopadu se vydal přísahat věrnost německému králi Jindřichovi II. a formálně přijal Čechy jako říšské léno — jiný druh aktu než Spytihněvova osobnější poklona z roku 895, a takový, který z Čech poprvé v jasných právních pojmech udělal řádný stav Svaté říše římské. Tohle postavení, v té či oné podobě, vydrželo až do doby, kdy byly Čechy o dvě staletí později povýšeny na plnohodnotné království.\n\nVladivoj se ničeho z toho nedožil. Zemřel do roka, v lednu 1003, údajně se doslova upil k smrti, ještě než mu bylo třiadvacet. Trůn byl znovu prázdný, a titíž Poláci, kteří ho tam dosadili, prostě otočili kurz a vrátili k moci muže, kterého sami před chvílí sledovali, jak ho čeští šlechtici vyhnali: Boleslava III. Nikomu z toho nakonec nevzešlo nic dobrého.\n\nAni tady na tebe v Praze nečeká žádná památka — nedochovalo se dokonce ani přesné místo, kde Vladivoj klečel. Pokud chceš stát někde, kde Jindřich II. skutečně téhož roku byl, zkus Mohuč: o pět měsíců dřív tam byl korunován německým králem.",
+      zh: "公爵博莱斯拉夫二世于999年去世，随之而来的，是波希米亚历史上最混乱的一次继承。他的儿子博莱斯拉夫三世——史书上并不友善地称他为“赤发王”——统治残暴失序，1002年5月，一场由维尔绍夫奇家族发起的叛乱把他赶下了台。在波兰“勇敢者”博莱斯瓦夫的支持下，波希米亚贵族转而扶植了他的一位亲戚瓦拉迪沃伊登上公位——此人留下的史料极其稀少，编年史家几乎唯一觉得值得记上一笔的，就是他嗜酒的毛病。\n\n然而，真正让波希米亚的宪制地位发生改变的，正是这位瓦拉迪沃伊。同年11月，他亲自前往向德意志国王亨利二世宣誓效忠，正式接受波希米亚作为封地——这跟895年斯皮蒂赫涅夫那次更偏向个人化的朝觐性质不同，这一次，波希米亚第一次在明确的法律意义上，成为了神圣罗马帝国名副其实的一个邦国。这个法理地位，此后以各种形式一直延续，直到两个世纪后波希米亚正式升格为王国。\n\n瓦拉迪沃伊没能活着看到这一切真正发挥作用。不到一年，1003年1月，他便离世了，据说是在还不到二十三岁时就把自己喝死了。王位再度空悬，而当初扶植他上位的那些波兰人，索性调转方向，把波希米亚贵族刚刚亲手赶下台的那个人——博莱斯拉夫三世——重新扶了回去。这对谁都没什么好下场。\n\n这一节同样没有布拉格的相关地标——甚至连瓦拉迪沃伊当年下跪的确切地点，史料都没记录下来。如果你想站在亨利二世同一年真正去过的地方，可以去美因茨——五个月前，他正是在那里加冕为德意志国王的。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Vladivoj,_Duke_of_Bohemia",
   },
   {
     slug: "poles-take-prague-1003",
@@ -1027,11 +1143,12 @@ export const historyEvents = [
       cz: "1003–1004",
       zh: "1003年－1004年",
     },
+    images: ["/history/vysehrad-massacre-1003.webp", "/history/poles-take-prague-1003.webp"],
     tone: "humorous",
     title: {
-      en: "The Poles Are Here",
-      cz: "Poláci jsou tu",
-      zh: "波兰人来了",
+      en: "The Duke Who Misplaced a Country",
+      cz: "Kníže, který zemi jaksi ztratil",
+      zh: "弄丢国家的昏君",
     },
     hookLine: {
       en: "Six years after Adalbert died trying to convert the Prussians, Bohemia's own ruling family managed to lose the country to its neighbours without a single battle.",
@@ -1039,9 +1156,9 @@ export const historyEvents = [
       zh: "阿达尔伯特为感化普鲁士人而殉道六年后，波希米亚自己的统治家族，竟然在没打一仗的情况下，就把国家拱手让给了邻居。",
     },
     summary: {
-      en: "Duke Boleslaus II died in 999, and what followed was one of the messiest successions Bohemia ever produced. His son Boleslaus III — remembered, not fondly, as 'the Red' — proved so violent and erratic a ruler that he was deposed within three years, restored in 1003 with Polish military backing, and then immediately undermined himself by massacring the Vršovci noble clan at Vyšehrad.\n\nThe survivors fled straight to the same Polish duke who'd just helped restore him, Bolesław the Brave, begging for rescue instead. Bolesław obliged — by invading Bohemia himself, walking into Prague without a fight, trapping Boleslaus III, blinding him, and locking him away for the rest of his life (he never set foot in Bohemia again, dying in captivity some thirty years later). For over a year, Bohemia was, in every practical sense, a Polish possession, with Bolesław ruling from Prague as its duke. It took the German king Henry II stepping in on Boleslaus III's brother's behalf to reverse it: in 1004, Jaromír retook Prague with Henry's backing and received the duchy back as an imperial fief. Bohemia's own royal family, in other words, briefly managed to lose the country to a neighbour — through nothing more than sheer incompetence.",
-      cz: "Kníže Boleslav II. zemřel roku 999 a to, co následovalo, patří k nejzmatenějším nástupnictvím, jaké kdy Čechy zažily. Jeho syn Boleslav III. — v paměti přezdívaný, nikoli z lásky, „Ryšavý\" — se ukázal jako natolik násilnický a nevyzpytatelný vládce, že byl do tří let sesazen, roku 1003 obnoven na trůně s pomocí polského vojska, a vzápětí se sám podkopal masakrem rodu Vršovců na Vyšehradě.\n\nPřeživší uprchli rovnou za tím samým polským knížetem, který ho právě předtím pomohl dosadit zpět — Boleslavem Chrabrým — a prosili tentokrát o záchranu před ním. Boleslav Chrabrý vyhověl — vpádem do Čech na vlastní pěst, vstupem do Prahy bez jediné bitvy, zajetím Boleslava III., jeho oslepením a doživotním uvězněním (do Čech se už nikdy nevrátil a zemřel v zajetí asi o třicet let později). Přes rok byly Čechy prakticky polským majetkem, s Boleslavem vládnoucím z Prahy jako jejich kníže. Zvrátit to dokázal až německý král Jindřich II., který se postavil na stranu bratra Boleslava III.: roku 1004 dobyl Jaromír s Jindřichovou podporou zpět Prahu a přijal knížectví zpátky jako říšské léno. Vlastní česká panovnická rodina tak na čas dokázala přijít o zemi ve prospěch souseda — a to čirou neschopností.",
-      zh: "公爵博莱斯拉夫二世于999年去世，随之而来的，是波希米亚历史上最混乱的一次继承。他的儿子博莱斯拉夫三世——史书上并不友善地称他为“赤发王”——统治残暴失序，不到三年就被赶下台，1003年靠波兰军队协助复位，却又立刻在维谢赫拉德屠杀维尔绍夫奇贵族家族，把自己彻底作死。\n\n幸存者径直逃去投奔那位刚刚帮他复位的波兰公爵——“勇敢者”博莱斯瓦夫一世——这次是求他来“解救”波希米亚。博莱斯瓦夫一世倒也没推辞——他索性亲自出兵波希米亚，不费一兵一卒就进了布拉格，将博莱斯拉夫三世擒获、弄瞎双眼、终身囚禁（此后他再未踏上波希米亚的土地，约三十年后死于囚禁之中）。此后一年多的时间里，波希米亚实质上成了波兰的属地，博莱斯瓦夫一世本人坐镇布拉格，以公爵身份统治。最终是德意志国王亨利二世介入，站在博莱斯拉夫三世的兄弟一边，才扭转了局面：1004年，雅罗米尔在亨利二世的支持下夺回布拉格，重新以帝国封臣的身份获得公国。换句话说，波希米亚自己的王室，曾一度靠着纯粹的无能，把国家白白让给了邻居。",
+      en: "After the drunkard duke who'd briefly replaced him drank himself into an early grave, Boleslaus III — remembered, not fondly, as 'the Red' — got his throne back on 9 February 1003, restored with Polish military backing from Bolesław the Brave. It was a decision Bolesław would come to regret almost immediately.\n\nBoleslaus knew exactly who to blame: the Vršovci were the same clan behind the revolt that had deposed him back in 1002, and historians read what came next less as random cruelty than as him settling that score. That same Lent, he had the clan massacred at Vyšehrad — personally cutting down his own son-in-law with his sword, a man some accounts place among the rebels who'd driven him out the year before. It wasn't the last time this particular family would end up on the wrong side of a Bohemian purge — they'd helped carry one out in 995, and would be on the receiving end of a far larger one in 1108.\n\nThe survivors who lived through it fled straight to the same Polish duke who'd just put Boleslaus back on the throne, begging him to save them from the man he'd restored. Bolesław obliged — not by marching on Prague, but by inviting his Czech namesake to visit him at his own castle, probably in Kraków, where he trapped him, blinded him, and locked him away for the rest of his life (he never set foot in Bohemia again, dying in captivity some thirty years later). Bolesław then simply took Bohemia for himself, ruling from Prague as its duke for a little over a year, until the German king Henry II stepped in on behalf of Boleslaus's brother: in 1004, Jaromír retook Prague with Henry's backing and received the duchy back as an imperial fief. Bohemia's own royal family, in other words, briefly managed to lose the country to a neighbour — through nothing more than sheer incompetence.",
+      cz: "Poté, co se opilecký kníže, který ho na čas nahradil, sám upil k smrti, získal Boleslav III. — v paměti přezdívaný, nikoli z lásky, „Ryšavý\" — zpět svůj trůn 9. února 1003, obnoven s vojenskou podporou Boleslava Chrabrého z Polska. Bylo to rozhodnutí, kterého Boleslav Chrabrý začal litovat téměř okamžitě.\n\nBoleslav přesně věděl, koho vinit: Vršovci byli tentýž rod, který stál za povstáním, jež ho v roce 1002 sesadilo, a historici to, co následovalo, čtou spíš jako vyrovnání účtů než jako bezdůvodnou krutost. Téhož postního období nechal rod na Vyšehradě vyvraždit — vlastního zetě zabil vlastnoručně mečem, muže, kterého některé prameny řadí mezi rebely, kteří ho o rok dřív vyhnali. Nebylo to naposledy, co se tento rod ocitl na špatné straně české čistky — v roce 995 se na jedné sami podíleli, a v roce 1108 na sebe schytali mnohem větší.\n\nPřeživší, kteří to přežili, uprchli rovnou za tím samým polským knížetem, který Boleslava právě dosadil zpět na trůn, a prosili ho, aby je zachránil před mužem, jehož sám obnovil. Boleslav Chrabrý vyhověl — ne tažením na Prahu, ale pozváním svého českého jmenovce na návštěvu svého vlastního hradu, nejspíš v Krakově, kde ho zajal, oslepil a doživotně uvěznil (do Čech se už nikdy nevrátil a zemřel v zajetí asi o třicet let později). Boleslav si pak Čechy jednoduše vzal pro sebe a vládl z Prahy jako jejich kníže přes rok, dokud nezasáhl německý král Jindřich II. ve prospěch Boleslavova bratra: roku 1004 dobyl Jaromír s Jindřichovou podporou zpět Prahu a přijal knížectví zpátky jako říšské léno. Vlastní česká panovnická rodina tak na čas dokázala přijít o zemi ve prospěch souseda — a to čirou neschopností.",
+      zh: "在那位短暂取代他的醉鬼公爵把自己喝死之后，博莱斯拉夫三世——史书上并不友善地称他为“赤发王”——于1003年2月9日，在波兰“勇敢者”博莱斯瓦夫的军事支持下重新夺回了王位。这是一个博莱斯瓦夫几乎立刻就开始后悔的决定。\n\n博莱斯拉夫三世很清楚该找谁算账：维尔绍夫奇正是1002年那场把他赶下台的叛乱背后的那个家族，历史学家倾向于把接下来发生的事，读作一次清算旧账，而不是无缘无故的残暴。同一个大斋期，他下令在维谢赫拉德将这个家族屠戮殆尽——亲手用剑砍死了自己的女婿，据部分史料记载，这位女婿正是一年前把他赶下台的叛乱者之一。这已经不是这个家族第一次栽在波希米亚的清洗上——995年，他们曾是那场屠杀的帮凶；而到了1108年，他们自己也会遭遇一场规模大得多的清洗。\n\n侥幸活下来的人径直逃去投奔那位刚刚帮博莱斯拉夫三世复位的波兰公爵，求他解救自己，躲开这个他亲手扶上位的人。“勇敢者”博莱斯瓦夫一世倒也没推辞——但他没有出兵直捣布拉格，而是邀请这位波希米亚同名者前来做客，地点大概率是他自己的城堡（多半在克拉科夫），一到那里，就将他擒获、弄瞎双眼、终身囚禁（此后他再未踏上波希米亚的土地，约三十年后死于囚禁之中）。博莱斯瓦夫一世随后干脆自己接管了波希米亚，坐镇布拉格以公爵身份统治了一年多，直到德意志国王亨利二世出手，站在博莱斯拉夫三世的兄弟一边：1004年，雅罗米尔在亨利二世的支持下夺回布拉格，重新以帝国封臣的身份获得公国。换句话说，波希米亚自己的王室，曾一度靠着纯粹的无能，把国家白白让给了邻居。",
     },
     relatedLandmarks: [
       {
@@ -1054,6 +1171,44 @@ export const historyEvents = [
       },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Boleslaus_III,_Duke_of_Bohemia",
+  },
+  {
+    slug: "oldrich-blinds-jaromir-1012",
+    era: "bohemian-duchy",
+    startYear: 1012,
+    year: {
+      en: "1004–1018",
+      cz: "1004–1018",
+      zh: "1004年－1018年",
+    },
+    images: ["/history/oldrich-blinds-jaromir-1012.webp"],
+    tone: "humorous",
+    title: {
+      en: "Family Tradition?",
+      cz: "Rodinná tradice?",
+      zh: "这是家族传统吗？",
+    },
+    hookLine: {
+      en: "Jaromír got Prague back in 1004, but not much else — Moravia, Silesia, and Lusatia stayed Polish, and within a decade his own brother would take even that smaller prize away from him, the same way their family always seems to settle these things.",
+      cz: "Jaromír v roce 1004 sice dostal zpět Prahu, ale skoro nic víc — Morava, Slezsko i Lužice zůstaly polské, a během deseti let mu i tenhle zmenšený zbytek sebral vlastní bratr, přesně tím způsobem, jakým to tahle rodina odjakživa řeší.",
+      zh: "1004年，雅罗米尔虽然夺回了布拉格，却几乎没夺回别的什么——摩拉维亚、西里西亚、卢萨蒂亚仍然是波兰的地盘，而不出十年，连这个缩水的公国，都被自己的亲弟弟夺走了，用的还是这个家族一贯的解决方式。",
+    },
+    summary: {
+      en: "Jaromír got Prague back in 1004 with German troops, formally swearing loyalty to Henry II and folding Bohemia into the Holy Roman Empire as a vassal duchy — but the country he actually got back was smaller than the one he'd lost. Moravia, Silesia, and Lusatia all stayed in Polish hands, held by Bolesław the Brave, and for the next decade and a half Bohemia served as the Empire's most reliable ally in an on-and-off war against him. That war finally ground to a halt with the Peace of Bautzen in 1018 — Lusatia stayed Polish, held as an imperial fief, while Bohemia's own status as a duchy of the Empire was confirmed for good.\n\nNone of that outside pressure was what actually cost Jaromír his throne, though. In 1012, his own younger brother Oldřich — the same brother he'd once fled into exile with, both of them driven out of Prague in 1001 after their eldest brother Boleslaus III had Jaromír castrated — turned on him too, deposed him, and had him blinded. It's a move this family keeps making: Wenceslas killed by his brother in 935, Boleslav II slaughtering a rival clan in 995, Boleslaus III blinded by a foreign rival just eight years earlier — and now one Přemyslid duke blinding another, this time for no reason grander than the throne itself. Jaromír, maimed twice over now by his own family, never really recovered political relevance; he lived on, blind, until his death around 1035, reportedly murdered by a member of the Vršovci clan.\n\nOldřich spent the rest of his reign chasing the one thing Jaromír never got back: Moravia. He never quite managed it himself. Years before any of that, back when he was still just a prince and not yet duke, legend has it he'd already fallen for a peasant girl named Božena, met by a well while out hunting — the kind of story Bohemia had already told once before, about a plowman named Přemysl. The son she gave him, an illegitimate boy named Břetislav, was already growing up by the time his father took the throne — in a duchy still missing a third of what it used to be. Nobody called him anything special yet. That would take a while longer.",
+      cz: "Jaromír získal Prahu zpět v roce 1004 s pomocí německých vojsk, formálně přísahal věrnost Jindřichovi II. a začlenil Čechy do Svaté říše římské jako vazalské knížectví — jenže země, kterou tím získal zpět, byla menší než ta, o kterou přišel. Morava, Slezsko i Lužice zůstaly v polských rukou, v držení Boleslava Chrabrého, a Čechy dalších patnáct let sloužily jako nejspolehlivější říšský spojenec v přerušovaně vedené válce proti němu. Ta válka se nakonec zastavila mírem v Budyšíně roku 1018 — Lužice zůstala polská, držená jako říšské léno, zatímco postavení Čech jako knížectví Svaté říše římské bylo natrvalo potvrzeno.\n\nTrůn ale Jaromírovi nakonec nesebral žádný vnější tlak. V roce 1012 se proti němu obrátil i jeho vlastní mladší bratr Oldřich — tentýž bratr, se kterým kdysi společně uprchl do vyhnanství, oba vyhnaní z Prahy v roce 1001 poté, co jejich nejstarší bratr Boleslav III. nechal Jaromíra vykastrovat — sesadil ho a nechal oslepit. Je to tah, který tahle rodina opakuje pořád dokola: Václav zabitý vlastním bratrem v roce 935, Boleslav II. vyvražďující konkurenční rod v roce 995, Boleslav III. oslepený cizím soupeřem jen o osm let dřív — a teď jeden přemyslovský kníže oslepuje druhého, tentokrát kvůli ničemu vznešenějšímu než samotnému trůnu. Jaromír, teď už dvakrát zmrzačený vlastní rodinou, se ke skutečné moci už nikdy nevrátil; dožil, slepý, až do své smrti kolem roku 1035, údajně zavražděn příslušníkem rodu Vršovců.\n\nOldřich strávil zbytek své vlády honbou za jedinou věcí, kterou Jaromír nikdy nedostal zpět: Moravou. Sám se to nikdy docela nepovedlo. Léta předtím, ještě když byl pouhým knížecím synem a ne vévodou, se podle pověsti stihl zamilovat do venkovské dívky jménem Božena, kterou potkal u studny při lovu — příběh, jaký Čechy vyprávěly už jednou, o oráči jménem Přemysl. Syn, kterého mu porodila, nemanželský chlapec jménem Břetislav, už v době, kdy jeho otec usedl na trůn, vyrůstal — v knížectví, kterému stále chybí třetina toho, co kdysi mělo. Nikdo mu zatím neříkal nic zvláštního. To mělo přijít až později.",
+      zh: "1004年，雅罗米尔靠着德意志军队夺回了布拉格，正式向亨利二世宣誓效忠，把波希米亚正式纳入神圣罗马帝国、成为一个附庸公国——但他实际收回的这个国家，比他失去的那个要小得多。摩拉维亚、西里西亚、卢萨蒂亚仍然掌握在波兰“勇敢者”博莱斯瓦夫手中，此后十五年间，波希米亚一直是帝国对抗他最可靠的盟友，双方断断续续交战不休。这场战争最终在1018年的《布迪申和约》中告一段落——卢萨蒂亚仍归波兰，作为帝国的封地，而波希米亚作为帝国一个公国的地位则从此被永久确认下来。\n\n然而真正让雅罗米尔丢掉王位的，并不是这些外部压力。1012年，他自己的弟弟奥尔德日赫——正是那位曾与他一同流亡的弟弟，两人1001年一同被赶出布拉格，起因正是他们的长兄博莱斯拉夫三世曾下令阉割雅罗米尔——如今也转而对付他，将他废黜，还弄瞎了他的双眼。这个家族似乎总在重演同一种戏码：935年瓦茨拉夫被亲弟弟杀害，995年博莱斯拉夫二世血洗竞争家族，就在八年前，博莱斯拉夫三世还被一位外族对手弄瞎——如今，轮到了一位普热美斯家族的公爵弄瞎另一位公爵，而这一次，起因不过是王位本身，没有别的更宏大的理由。雅罗米尔如今已经被自己的家人伤害了两次，此后再也没能真正重返权力核心；他带着失明一直活到约1035年去世，据说是被一名维尔绍夫奇家族成员刺杀身亡。\n\n奥尔德日赫用他余下的统治岁月，一直在追逐雅罗米尔始终没能夺回的那样东西：摩拉维亚。他自己始终没能真正做到。而在这一切发生的许多年前，那时他还只是个尚未继位的公子，据传说，他就已经爱上了一位在打猎时于水井边邂逅的农家女子博热娜——这个故事波希米亚早就讲过一次，主角是那位犁地的普热米斯尔。她为他生下的儿子，一个私生子，名叫布热季斯拉夫，等他父亲真正登上公位时，已经在这个仍然缺了三分之一疆域的公国里长大了。此时还没有人叫他什么特别的称号。那要等到更晚以后了。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "klaster-sazava",
+        relation: {
+          en: "Founded in 1032 at Oldřich's own initiative, near the end of his reign — the one monument that's unambiguously his, rather than shared credit with a brother, a Pole, or a son.",
+          cz: "Založen roku 1032 z Oldřichovy vlastní iniciativy, ke konci jeho vlády — jediná památka, která je jednoznačně jeho vlastní, a ne sdílená se sourozencem, Polákem nebo synem.",
+          zh: "1032年由奥尔德日赫本人倡议创立，就在他统治末期——是唯一一处完全属于他自己的功绩，不用跟兄弟、波兰人或儿子分享。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Old%C5%99ich,_Duke_of_Bohemia",
   },
   {
     slug: "kidnapped-duchess-1019",

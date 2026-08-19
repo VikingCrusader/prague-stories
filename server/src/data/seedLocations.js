@@ -22717,6 +22717,64 @@ Bonus: I dlouho poté, co přestala komukoliv vládnout, poskytovala stará radn
 🎁 彩蛋：早在它不再管理任何人之后，这座旧市政厅还悄悄提供了另一项公共服务——它的楼梯间兼作一条通往维谢赫拉德要塞的实际近路，当地居民公开把它当作步行捷径使用，一直延续到20世纪60年代，比市长办公室被教室取代还要晚上好几十年。`,
     },
   },
+  {
+    name: 'Statue of Saints Adalbert and Radim',
+    slug: 'sousosi-sv-vojtecha-a-radima-libice',
+    localizedNames: { cz: 'Sousoší sv. Vojtěcha a sv. Radima z rodu Slavníkovců', zh: '阿达尔伯特与拉迪姆圣人雕像组' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.127122528201184, lng: 15.172851205680642 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Radim_Gaudentius',
+    description: {
+      en: `Brave explorer, welcome to the statue of Saints Adalbert and Radim — two half-brothers from the same wiped-out family, standing together at the exact spot where almost everyone else they grew up with was killed.
+
+This is Libice, birthplace of both men and home turf of the Slavník dynasty until Duke Boleslav II's forces destroyed it on 28 September 995. Adalbert and Radim were the lucky ones — Adalbert was in Rome that day, and Radim, his younger half-brother, later joined him there too. Two years later the two of them were together again, on a missionary trip into pagan Prussian territory: Radim watched Adalbert get speared to death for it in 997, then escaped with his life. He went on to become the first Archbishop of Gniezno in Poland in the year 1000, seated at the same church where his brother's ransomed relics were enshrined — the surviving brother ending up, in his own quieter way, just as central to the Christianization of the region as the one who died for it.
+
+🎁 Bonus: history remembers Adalbert as the martyr and Radim as a footnote to his story — but Radim outlived the massacre, outlived the mission that killed his brother, and ran an archbishopric for two decades after. Surviving well is its own kind of achievement, even if it doesn't get you a feast day.`,
+
+      cz: `Statečný dobrodruhu, vítej u sousoší svatého Vojtěcha a svatého Radima — dvou nevlastních bratrů ze stejné vyvražděné rodiny, stojících bok po boku přesně na místě, kde byla zabita téměř celá rodina, s níž vyrůstali.
+
+Tohle je Libice, rodiště obou mužů a domovská půda rodu Slavníkovců až do 28. září 995, kdy ji vojska knížete Boleslava II. srovnala se zemí. Vojtěch a Radim měli štěstí — Vojtěch byl toho dne v Římě a jeho mladší nevlastní bratr Radim se k němu později přidal. O dva roky později byli spolu znovu, na misijní výpravě do pohanského pruského území: Radim přihlížel, jak Vojtěcha roku 997 ubodali kopím k smrti, a sám vyvázl živý. Roku 1000 se pak stal prvním hnězdenským arcibiskupem v Polsku, se sídlem v témže kostele, kde byly uloženy vykoupené ostatky jeho bratra — přeživší bratr se tak, jen tišeji, stal pro christianizaci regionu stejně důležitým jako ten, který za ni zemřel.
+
+🎁 Bonus: dějiny si pamatují Vojtěcha jako mučedníka a Radima spíš jako poznámku pod čarou k jeho příběhu — ale Radim přežil masakr, přežil i výpravu, která zabila jeho bratra, a další dvě desetiletí pak vedl arcibiskupství. Dobře přežít je svým způsobem taky výkon, i když za něj nedostanete svátek v kalendáři.`,
+
+      zh: `勇敢的冒险家，欢迎来到圣阿达尔伯特与圣拉迪姆雕像组——这是一对同父异母的兄弟，来自同一个被灭门的家族，如今并肩伫立在几乎所有跟他们一起长大的亲人惨遭杀害的这片土地上。
+
+这里正是利比采——两兄弟的出生地，也是斯拉夫尼克家族的老家，直到995年9月28日被博莱斯拉夫二世公爵的军队夷为平地。阿达尔伯特和拉迪姆算是幸运儿——事发当天阿达尔伯特正身在罗马，而他年幼的异母弟弟拉迪姆后来也投奔了他。两年后，两人再度同行，一起踏上前往异教普鲁士地区传教的旅程：997年，拉迪姆亲眼目睹阿达尔伯特被长矛刺死，自己却侥幸逃过一劫。1000年，他成为了波兰格涅兹诺的首任大主教，驻地正是供奉着他哥哥赎回遗骨的那座教堂——这位活下来的弟弟，虽然低调得多，却在这片土地的基督教化进程中，扮演了不亚于那位殉道兄长的角色。
+
+🎁 彩蛋：历史记住了阿达尔伯特这位殉道者，却把拉迪姆当成了他故事里的一个小小注脚——但拉迪姆活过了那场屠杀，活过了那场夺去兄长性命的传教之旅，此后又执掌大主教区长达二十年之久。好好活下来，本身也是一种成就，哪怕它换不来一个属于自己的圣徒瞻礼日。`,
+    },
+  },
+  {
+    name: 'Statue of St. Adalbert (Charles Bridge)',
+    slug: 'socha-sv-vojtecha-karluv-most',
+    localizedNames: { cz: 'Socha svatého Vojtěcha (Karlův most)', zh: '圣沃伊切赫雕像（查理大桥）' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.086932074420524, lng: 14.408117327741262 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Statue_of_Adalbert_of_Prague,_Charles_Bridge',
+    description: {
+      en: `Brave explorer, welcome to the statue of St. Adalbert on Charles Bridge — one of thirty saints lining the crossing, and the only one on this bridge with a matching statue back at his own birthplace fifty kilometres away.
+
+Carved in 1709 by brothers Ferdinand and Michal Jan Josef Brokoff, two of the Baroque era's busiest bridge sculptors, this one stands out for who paid for it: not a monastery or a noble family, but Markus Bernard Joanelli, a councilor of the Old Town, commissioning a private act of devotion rather than an institutional one. Like several of the bridge's original statues, weather and time eventually took their toll, and what stands here today is a later copy — the original now kept elsewhere, out of the rain.
+
+🎁 Bonus: Adalbert gets bridge statues, cathedral crypts, and a whole squad of monuments — but no relics. His actual bones, remember, are still in Gniezno. Prague built him monuments instead.`,
+
+      cz: `Statečný dobrodruhu, vítej u sochy svatého Vojtěcha na Karlově mostě — jedné z třiceti soch světců lemujících most, a jediné z nich, která má svůj protějšek přímo v rodišti daného světce, padesát kilometrů odtud.
+
+Vytesali ji roku 1709 bratři Ferdinand a Michal Jan Josef Brokoffové, dva z nejvytíženějších barokních sochařů, kteří most zdobili. Tahle socha se ale liší tím, kdo za ni zaplatil: ne klášter ani šlechtický rod, ale Markus Bernard Joanelli, konšel Starého Města — soukromý akt zbožnosti, ne institucionální zakázka. Jako u řady dalších původních mostních soch si čas a počasí vybraly svou daň, a to, co tu stojí dnes, je pozdější kopie — originál je dnes uložen jinde, mimo dosah deště.
+
+🎁 Bonus: Vojtěch má mostní sochy, katedrální krypty a celou sbírku pomníků — ale žádné ostatky. Jeho skutečné kosti, jak už víš, dodnes zůstávají v Hnězdně. Praha mu místo toho postavila pomníky.`,
+
+      zh: `勇敢的冒险家，欢迎来到查理大桥上的圣沃伊切赫雕像——桥上排列的三十尊圣人像之一，也是唯一一尊在这位圣人自己出生地（五十公里外）也有对应雕像的作品。
+
+这尊雕像由费迪南德和米哈尔·扬·约瑟夫·布罗科夫兄弟于1709年雕刻而成，这对兄弟是巴洛克时代最繁忙的桥梁雕塑师之一。但这尊雕像的特别之处在于出资人——不是修道院，也不是贵族家族，而是老城参事马库斯·伯纳德·约阿内利，是一次私人的虔诚之举，而非机构委托。跟桥上其他好几尊原作一样，风吹雨打最终还是留下了痕迹，如今矗立在此的是后来的复制品——原作现存于别处，躲开了雨水。
+
+🎁 彩蛋：阿达尔伯特拥有桥上的雕像、大教堂的地下墓室，以及一整支纪念雕像"军团"——却唯独没有自己的遗骨。别忘了，他真正的骸骨至今还留在格涅兹诺。布拉格能给他的，只有一座又一座的纪念碑。`,
+    },
+  },
 ];
 
 async function run() {

@@ -76,9 +76,9 @@ export default function HistoryEventSection({ event, onOpenLandmark, sectionRef 
           <p key={i} className="history-event__summary">{para}</p>
         ))}
 
-      {event.image && (
-        <img className="history-event__image" src={event.image} alt="" />
-      )}
+      {event.images?.map((src) => (
+        <img key={src} className="history-event__image" src={src} alt="" />
+      ))}
 
       {event.referenceMaps?.links?.length > 0 && (
         <div className="history-event__reference-maps">

@@ -41,11 +41,13 @@ const historyEventSchema = new mongoose.Schema({
   // event — lets a territorial-change event point at real cartographic
   // sources instead of (or until) a custom illustrated map exists.
   referenceMaps: { type: referenceMapsSchema, default: () => ({}) },
-  // Optional static illustration for the section banner — a path under
+  // Optional static illustration(s) for the section banner — path(s) under
   // client/public (e.g. '/history/prehistory.webp'), same convention as
-  // pixel-art cover images. Most events won't have one; the frontend just
-  // skips the banner when it's empty.
-  image: { type: String, default: '' },
+  // pixel-art cover images. Most events have zero or one; a few multi-beat
+  // events (e.g. a massacre scene followed by its political aftermath) use
+  // two or more, rendered in array order. The frontend just skips the
+  // banner block entirely when this is empty.
+  images: { type: [String], default: [] },
 }, { timestamps: true });
 
 historyEventSchema.index({ era: 1, startYear: 1 });
