@@ -56,9 +56,9 @@ export default function DashboardPage() {
         </div>
 
         <div style={{ flex: 1, minWidth: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: 8 }}>
-          <div style={{ display: 'flex', justifyContent: 'space-between', fontFamily: "'Press Start 2P'", fontSize: 7 }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 16 }}>
             <span style={{ color: 'var(--text-muted)' }}>XP</span>
-            <span style={{ color: 'var(--gold)' }}>
+            <span style={{ color: 'var(--gold)', fontWeight: 700 }}>
               {totalXP} {levelInfo.nextLevelXP ? `/ ${levelInfo.nextLevelXP}` : '(MAX)'}
             </span>
           </div>
@@ -111,7 +111,7 @@ export default function DashboardPage() {
                     fontSize: 13,
                   }}>
                     <span>{convert(lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en)}</span>
-                    <span style={{ color: 'var(--gold)', fontFamily: "'Press Start 2P'", fontSize: 8 }}>
+                    <span style={{ color: 'var(--gold)', fontSize: 13, fontWeight: 700 }}>
                       {labelCount?.[key] || 0}
                     </span>
                   </div>
@@ -129,7 +129,7 @@ export default function DashboardPage() {
               <div key={r} style={{ display: 'flex', alignItems: 'center', gap: 6, color: RARITY_COLOR[r] }}>
                 <span style={{ fontSize: 16 }}>◆</span>
                 <span style={{ fontSize: 16 }}>{convert(RARITY_LABEL[lang]?.[r] ?? RARITY_LABEL.en[r])}</span>
-                <span style={{ fontFamily: "'Press Start 2P'", fontSize: 11 }}>
+                <span style={{ fontSize: 18, fontWeight: 700 }}>
                   {rarityCount?.[r] ?? 0}
                 </span>
               </div>

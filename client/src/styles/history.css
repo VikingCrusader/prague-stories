@@ -151,7 +151,8 @@
 .history-sidebar__item-year {
   flex: 0 0 auto;
   font-size: 12px;
-  color: var(--text-muted);
+  color: var(--text-primary);
+  font-weight: 700;
   min-width: 32px;
 }
 .history-sidebar__item--active .history-sidebar__item-year { color: var(--gold); }

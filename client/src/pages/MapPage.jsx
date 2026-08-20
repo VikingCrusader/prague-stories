@@ -216,7 +216,7 @@ export default function MapPage() {
               )}
             </div>
           </div>
-          <p style={{ marginTop: 8, fontFamily: "'Press Start 2P'", fontSize: 7, color: 'var(--text-muted)' }}>
+          <p className="map-sidebar__count" style={{ marginTop: 8, color: 'var(--text-muted)' }}>
             {t('grid.showing')} {filteredLocations.length}
           </p>
         </div>
@@ -254,10 +254,10 @@ function MapSidebarEmpty() {
   return (
     <div className="map-sidebar__empty">
       <img src="/pixel-art/app-logo-transparent.webp" alt="" style={{ width: '75%', height: 'auto', marginBottom: 12 }} />
-      <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, lineHeight: 2 }}>
+      <p className="map-sidebar__hint" style={{ lineHeight: 2 }}>
         {t('map.clickMarker')}
       </p>
-      <p style={{ marginTop: 12, color: 'var(--text-muted)' }}>
+      <p className="map-sidebar__legend" style={{ marginTop: 12, color: 'var(--text-muted)' }}>
         {t('map.legend')}
       </p>
     </div>
@@ -394,13 +394,13 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
               clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',
               flexShrink: 0,
             }} />
-            <span className="loc-meta__rarity" style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>
+            <span className="loc-meta__rarity" style={{ color: RARITY_COLOR[loc.rarity ?? 'common'] }}>
               {convert(RARITY_LABEL[lang]?.[loc.rarity ?? 'common'])}
             </span>
-            <span className="loc-meta__xp" style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: 'var(--gold)', marginLeft: 4 }}>+{loc.xpReward} XP</span>
+            <span className="loc-meta__xp" style={{ color: 'var(--gold)', marginLeft: 4 }}>+{loc.xpReward} XP</span>
           </div>
           {userPos && (
-            <span className="loc-meta__distance" style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: 'var(--text-muted)' }}>
+            <span className="loc-meta__distance" style={{ color: RARITY_COLOR[loc.rarity ?? 'common'] }}>
               {t('detail.distanceAway', { dist: formatDistance(haversineDistance(userPos.lat, userPos.lng, loc.coordinates.lat, loc.coordinates.lng)) })}
             </span>
           )}

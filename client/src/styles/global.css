@@ -108,6 +108,8 @@ html[data-lang="zh"] .label-pill,
 html[data-lang="zh"] .ach-badge__name,
 html[data-lang="zh"] .form-label,
 html[data-lang="zh"] .navbar__user,
+html[data-lang="zh"] .guide-h3,
+html[data-lang="zh"] .guide-faq__q,
 html[data-lang="zh"] .toast {
   font-family:
     "ArkPixel", "PingFang SC", "-apple-system", "Microsoft YaHei",
@@ -191,6 +193,14 @@ html[data-lang="zh"] .form-label {
 html[data-lang="zh"] .toast {
   font-size: 14px !important;
 }
+html[data-lang="zh"] .guide-h3 {
+  font-size: 18px !important;
+  font-weight: 700;
+}
+html[data-lang="zh"] .guide-faq__q {
+  font-size: 15px !important;
+  font-weight: 700;
+}
 html[data-lang="zh"] [style*="Press Start 2P"] {
   font-size: 14px !important;
 }
@@ -218,6 +228,28 @@ html:not([data-lang="zh"]) .guide-intro,
 html:not([data-lang="zh"]) .history-drag-hint,
 html:not([data-lang="zh"]) .history-era-divider__tagline,
 html:not([data-lang="zh"]) .history-sidebar__item-title,
+html:not([data-lang="zh"]) .history-sidebar__item-year,
+html:not([data-lang="zh"]) .history-event__year,
+html:not([data-lang="zh"]) .loc-card__xp,
+html:not([data-lang="zh"]) .loc-card__dist,
+html:not([data-lang="zh"]) .loc-meta__rarity,
+html:not([data-lang="zh"]) .loc-meta__distance,
+html:not([data-lang="zh"]) .loc-meta__xp,
+html:not([data-lang="zh"]) .label-pill-sm,
+html:not([data-lang="zh"]) .filter-bar__search,
+html:not([data-lang="zh"]) .filter-btn,
+html:not([data-lang="zh"]) .explore-stats,
+html:not([data-lang="zh"]) .map-sidebar__count,
+html:not([data-lang="zh"]) .map-sidebar__hint,
+html:not([data-lang="zh"]) .map-sidebar__legend,
+html:not([data-lang="zh"]) .guide-challenge,
+html:not([data-lang="zh"]) .guide-h2,
+html:not([data-lang="zh"]) .guide-h3,
+/* Draw page's label + distance chips reuse .detail-label-pill (see
+   DrawnCardMeta in RandomDrawPage.jsx) — the same class LocationDetail's
+   "Ruin"/"Historical" tags use, which stays untouched. Scoped to
+   .draw-card__meta-row so only the Draw-page instances switch to Cinzel. */
+html:not([data-lang="zh"]) .draw-card__meta-row .detail-label-pill,
 /* .detail-desc.detail-desc--teaser (not just .detail-desc--teaser alone):
    the teaser <p> always carries both classes together, and .detail-desc
    below is styled Crimson Pro — an equal-specificity single-class
@@ -236,7 +268,6 @@ html:not([data-lang="zh"]) .detail-desc.detail-desc--teaser {
 }
 
 html:not([data-lang="zh"]) .detail-desc,
-html:not([data-lang="zh"]) .guide-challenge,
 html:not([data-lang="zh"]) .guide-body,
 html:not([data-lang="zh"]) .guide-cat,
 html:not([data-lang="zh"]) .guide-tip,
@@ -246,14 +277,102 @@ html:not([data-lang="zh"]) .history-event__reference-maps-caption {
   font-family: "Crimson Pro", serif;
 }
 
+/* The Cinzel block above pins every selector in its list to font-weight:
+   400 (see its comment — Cinzel's synthetic-bold path looked worse, not
+   better). .history-sidebar__item-year deliberately wants real bold here
+   (too faint against .history-sidebar__item-title otherwise) — same
+   selector, later in the cascade, so this wins over that 400. */
+html:not([data-lang="zh"]) .history-sidebar__item-year {
+  font-weight: 700;
+}
+
+/* Explore/Map's filter toolbar (search box, filter buttons, results
+   count) was explicitly asked for bold Cinzel — same override pattern
+   as .history-sidebar__item-year above, beating the shared 400 pin. */
+html:not([data-lang="zh"]) .filter-bar__search,
+html:not([data-lang="zh"]) .filter-btn,
+html:not([data-lang="zh"]) .explore-stats,
+html:not([data-lang="zh"]) .map-sidebar__count,
+html:not([data-lang="zh"]) .guide-h2 {
+  font-weight: 700;
+}
+/* .guide-h2's 9px (pixelart.css) was tuned for Press Start 2P's blocky
+   glyphs — Cinzel at the same size reads noticeably thinner/smaller. */
+html:not([data-lang="zh"]) .guide-h2 {
+  font-size: 17px;
+}
+/* .filter-btn's 7px (pixelart.css) was tuned for Press Start 2P's blocky
+   glyphs — Cinzel at the same size reads noticeably thinner/smaller. */
+html:not([data-lang="zh"]) .filter-btn {
+  font-size: 14px;
+  padding: 9px 16px;
+}
+
+/* .guide-h3's 7px (pixelart.css) was tuned for Press Start 2P — too small
+   next to Cinzel body text (.guide-body is 18px). Bumped to read as a
+   subheading a step above body copy, not below it. */
+html:not([data-lang="zh"]) .guide-h3 {
+  font-size: 20px;
+}
+
+html:not([data-lang="zh"]) .guide-faq__q {
+  font-family: "Cinzel", serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* Dashboard: Cinzel for everything except the bold pixel titles/labels.
+   Rather than listing every stat value, level-roadmap row, and
+   achievement description individually, this sets Cinzel once at the
+   page root and lets normal CSS inheritance carry it to every descendant
+   that doesn't declare its own font-family. Every "bold title" element
+   on this page already pins its own font-family — either via a CSS class
+   (.px-title, .stat-card__label, .level-badge__num, .ach-badge__name —
+   all 'Press Start 2P') or an inline style on the element itself
+   (DashboardPage.jsx's XP counter, rarity/label counts, level-roadmap
+   "LVL n" badges, the achievement modal's name/locked tag) — and an
+   element's own declared font-family always wins over an inherited one
+   regardless of specificity, so those stay untouched automatically. */
+html:not([data-lang="zh"]) .dashboard-page {
+  font-family: "Cinzel", serif;
+}
+
+/* Draw page: all text except the titles goes Cinzel — scoped to
+   .draw-page (the extra class RandomDrawPage.jsx's root carries
+   alongside .guide-page) so this doesn't leak onto Guide's own instances
+   of the same shared classes (.guide-body is Crimson Pro there; Draw's
+   copy is short hints/notes rather than long paragraphs, so a uniform
+   Cinzel treatment reads better here than splitting it by length like
+   Guide does). The .draw-page rule alone only reaches text with no
+   font-family of its own (e.g. .draw-countdown); .guide-body and
+   .draw-countdown__time each already have an explicit class-level
+   font-family elsewhere, which inheritance can't override, hence the
+   two direct compound overrides below. .px-title (h1) and .guide-h2
+   (h2 sub-titles) are the "titles" this excludes — both already pin
+   their own font-family and are left alone. */
+html:not([data-lang="zh"]) .draw-page {
+  font-family: "Cinzel", serif;
+}
+html:not([data-lang="zh"]) .draw-page .guide-body {
+  font-family: "Cinzel", serif;
+}
+html:not([data-lang="zh"]) .draw-page .draw-countdown__time {
+  font-family: "Cinzel", serif;
+  font-weight: 700;
+  font-size: 15px;
+}
+
 html:not([data-lang="zh"]) .label-pill-sm {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 html:not([data-lang="zh"]) .loc-card__xp {
   font-size: 16px;
 }
-html:not([data-lang="zh"]) .loc-card__dist {
-  font-size: 12px;
+html:not([data-lang="zh"]) .loc-card__dist,
+html:not([data-lang="zh"]) .loc-meta__rarity,
+html:not([data-lang="zh"]) .loc-meta__distance,
+html:not([data-lang="zh"]) .loc-meta__xp {
+  font-size: 16px;
 }

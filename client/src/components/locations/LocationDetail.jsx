@@ -293,7 +293,7 @@ export default function LocationDetail({
                   }}
                 >
                   <h2
-                    className="px-title"
+                    className="px-title detail-title-name"
                     style={{
                       fontSize: 14,
                       lineHeight: lang === "zh" ? undefined : 2.4,
@@ -306,6 +306,7 @@ export default function LocationDetail({
                   </h2>
                   {lang !== "cz" && loc.localizedNames?.cz && (
                     <p
+                      className="detail-title-czname"
                       style={{
                         fontFamily: "'Press Start 2P'",
                         fontSize: 8,
@@ -417,7 +418,7 @@ export default function LocationDetail({
                 </ImgWrap>
                 <div style={{ flex: 1 }}>
                   <h2
-                    className="px-title"
+                    className="px-title detail-title-name"
                     style={{
                       fontSize: 14,
                       lineHeight: lang === "zh" ? undefined : 2.4,
@@ -430,6 +431,7 @@ export default function LocationDetail({
                   </h2>
                   {lang !== "cz" && loc.localizedNames?.cz && (
                     <p
+                      className="detail-title-czname"
                       style={{
                         fontFamily: "'Press Start 2P'",
                         fontSize: 8,
@@ -480,26 +482,18 @@ export default function LocationDetail({
                   />
                   <span
                     className="loc-meta__rarity"
-                    style={{
-                      fontFamily: "'Press Start 2P'",
-                      fontSize: 8,
-                      color: RARITY_COLOR[loc.rarity ?? "common"],
-                    }}
+                    style={{ color: RARITY_COLOR[loc.rarity ?? "common"] }}
                   >
                     {convert(RARITY_LABEL[lang]?.[loc.rarity ?? "common"])}
                   </span>
-                  <span style={{ fontSize: 16, color: "var(--gold)" }}>
+                  <span className="loc-meta__xp" style={{ color: "var(--gold)" }}>
                     +{loc.xpReward} XP
                   </span>
                 </div>
                 {distance != null && (
                   <span
                     className="loc-meta__distance"
-                    style={{
-                      fontFamily: "'Press Start 2P'",
-                      fontSize: 7,
-                      color: "var(--text-muted)",
-                    }}
+                    style={{ color: RARITY_COLOR[loc.rarity ?? "common"] }}
                   >
                     {t("detail.distanceAway", { dist: formatDistance(distance) })}
                   </span>

@@ -189,6 +189,13 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  /* Taller glyphs without widening them — font-size scales both axes
+     together on a monospace pixel font, so there's no size number that
+     does this alone. scaleY stretches the rendered glyphs vertically
+     only; horizontal metrics (character width, nowrap/ellipsis
+     truncation, which are computed pre-transform) are untouched. */
+  transform: scaleY(1.4);
+  transform-origin: left center;
 }
 .loc-card__cz-name {
   font-family: 'ArkPixel', monospace;
@@ -209,9 +216,22 @@
   color: var(--gold);
 }
 .loc-card__dist {
-  font-size: 10px;
-  color: var(--text-muted);
+  /* Matches .loc-card__xp's size — the two sit side by side in the card
+     footer and read as one line now that distance also takes the rarity
+     color (see LocationCard.jsx) instead of a separate muted gray. */
+  font-size: 13px;
   white-space: nowrap;
+}
+
+/* Detail views' rarity/distance meta row (LocationDetail modal + MapPage's
+   sidebar) — sized to match .loc-card__xp/.loc-card__dist above (the
+   inline Press Start 2P + tiny fontSize these carried previously is gone
+   from both call sites; this is the actual size now, for zh). Non-zh gets
+   the bigger 16px + Cinzel treatment alongside the card in global.css. */
+.loc-meta__rarity,
+.loc-meta__distance,
+.loc-meta__xp {
+  font-size: 13px;
 }
 
 /* ── Label Pills ─────────────────────────────────────────── */
@@ -739,6 +759,11 @@
   font-size: 17px;
   text-align: center;
 }
+/* Was inline 'Press Start 2P' at 7px, tuned for the pixel font — matches
+   .filter-btn's size just above it now that both are Cinzel. */
+.map-sidebar__count {
+  font-size: 14px;
+}
 
 /* ── Dashboard ────────────────────────────────────────────── */
 .dashboard-page { flex: 1; padding: 24px; max-width: 1200px; margin: 0 auto; width: 100%; }
@@ -824,6 +849,18 @@
 
 /* ── Detail Panel (shared by modal + sidebar) ─────────────── */
 .detail-art { font-size: 5rem; line-height: 1; }
+/* Same scaleY treatment as .loc-card__name (see that rule's comment) —
+   taller glyphs, same character width, applied to both LocationDetail
+   layouts (cover-image overlay + no-cover-image fallback, which is why
+   this class shows up on two separate <h2>/<p> pairs in the JSX). */
+.detail-title-name {
+  transform: scaleY(1.4);
+  transform-origin: left center;
+}
+.detail-title-czname {
+  transform: scaleY(1.4);
+  transform-origin: left center;
+}
 .detail-desc { font-size: 18px; line-height: 1.7; color: var(--text-primary); }
 /* The locked-card teaser lines ("🔒The archive seems to be locked...")
    appended after .detail-desc — italic by default, same as the inline

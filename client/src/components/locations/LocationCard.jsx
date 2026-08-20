@@ -112,7 +112,7 @@ export default function LocationCard({ location, onClick, distance }) {
               {convert(RARITY_LABEL[lang]?.[rarity] ?? rarity)}
             </div>
           </div>
-          {distance != null && <div className="loc-card__dist">{formatDistance(distance)}</div>}
+          {distance != null && <div className="loc-card__dist" style={{ color: RARITY_COLOR[rarity] }}>{formatDistance(distance)}</div>}
         </div>
       </div>
     </div>

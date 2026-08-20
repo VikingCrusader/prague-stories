@@ -235,7 +235,7 @@ export default function RandomDrawPage() {
         <div className="guide-challenge">{t('draw.challenge')}</div>
 
         {isGuestMode && (
-          <p className="guide-body" style={{ textAlign: 'center', maxWidth: 480, margin: '0 auto 14px', color: 'var(--text-muted)', fontStyle: 'italic' }}>
+          <p className="guide-body" style={{ textAlign: 'center', maxWidth: 480, margin: '0 auto 14px', color: 'var(--text-muted)' }}>
             {t('draw.guestTrialNote')}
           </p>
         )}
@@ -317,7 +317,7 @@ export default function RandomDrawPage() {
                       </>
                     ) : (
                       <>
-                        <p className="guide-body" style={{ textAlign: 'center', maxWidth: 420, color: 'var(--text-muted)', fontStyle: 'italic' }}>
+                        <p className="guide-body" style={{ textAlign: 'center', maxWidth: 420, color: 'var(--text-muted)' }}>
                           {t('draw.mysteryHint')}
                         </p>
                         <button

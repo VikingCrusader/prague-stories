@@ -1,4 +1,7 @@
 import { useLang, useConvert } from '../context/LanguageContext';
+import { RARITY_COLOR } from '../utils/rarity';
+
+const DIFF_RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
 
 function deepConvert(obj, fn) {
   if (typeof obj === 'string') return fn(obj);
@@ -333,7 +336,7 @@ export default function GuidePage() {
           <h2 className="guide-h2">{c.installTitle}</h2>
           <p className="guide-body">{c.installIntro}</p>
 
-          <h3 className="guide-h3" style={{ marginTop: 16 }}>📱 {c.installIOSTitle}</h3>
+          <h3 className="guide-h3" style={{ marginTop: 16 }}>{c.installIOSTitle}</h3>
           {c.installIOS.map((step, i) => (
             <div key={i} className="guide-step">
               <span className="guide-step-num">{i + 1}</span>
@@ -341,7 +344,7 @@ export default function GuidePage() {
             </div>
           ))}
 
-          <h3 className="guide-h3" style={{ marginTop: 16 }}>🤖 {c.installAndroidTitle}</h3>
+          <h3 className="guide-h3" style={{ marginTop: 16 }}>{c.installAndroidTitle}</h3>
           {c.installAndroid.map((step, i) => (
             <div key={i} className="guide-step">
               <span className="guide-step-num">{i + 1}</span>
@@ -395,7 +398,7 @@ export default function GuidePage() {
           {c.diff.map((d, i) => (
             <div key={i} className="guide-step">
               <span className="guide-step-num">{i + 1}</span>
-              <p className="guide-body">{d}</p>
+              <p className="guide-body" style={{ color: RARITY_COLOR[DIFF_RARITIES[i]] }}>{d}</p>
             </div>
           ))}
           <p className="guide-body" style={{ marginTop: 10 }}>{c.xpOutro}</p>
