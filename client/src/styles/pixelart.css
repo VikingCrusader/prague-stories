@@ -189,11 +189,16 @@
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  /* Taller glyphs without widening them — font-size scales both axes
-     together on a monospace pixel font, so there's no size number that
-     does this alone. scaleY stretches the rendered glyphs vertically
-     only; horizontal metrics (character width, nowrap/ellipsis
-     truncation, which are computed pre-transform) are untouched. */
+}
+/* Taller glyphs without widening them — font-size scales both axes
+   together on a monospace pixel font, so there's no size number that
+   does this alone. scaleY stretches the rendered glyphs vertically only;
+   horizontal metrics (character width, nowrap/ellipsis truncation, which
+   are computed pre-transform) are untouched. EN/CZ only: .loc-card__name
+   shows the localized name in zh mode too, and stretching CJK glyphs
+   this way visibly distorts them (reported as "拉的那么长") in a way it
+   doesn't for Latin text. */
+html:not([data-lang="zh"]) .loc-card__name {
   transform: scaleY(1.4);
   transform-origin: left center;
 }
@@ -866,8 +871,13 @@
 /* Same scaleY treatment as .loc-card__name (see that rule's comment) —
    taller glyphs, same character width, applied to both LocationDetail
    layouts (cover-image overlay + no-cover-image fallback, which is why
-   this class shows up on two separate <h2>/<p> pairs in the JSX). */
-.detail-title-name {
+   this class shows up on two separate <h2>/<p> pairs in the JSX).
+   .detail-title-name is EN/CZ only, same reason as .loc-card__name — it
+   renders the localized (Chinese, in zh mode) name and stretching CJK
+   glyphs distorts them. .detail-title-czname always renders
+   loc.localizedNames.cz literally regardless of UI language, so it's
+   never Chinese text and doesn't need the same guard. */
+html:not([data-lang="zh"]) .detail-title-name {
   transform: scaleY(1.4);
   transform-origin: left center;
 }
@@ -1189,6 +1199,14 @@
   .location-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
   .loc-card__name { font-size: 7.5px; }
   .loc-card__cz-name { font-size: 10px; }
+  /* Desktop's 16px (global.css, EN/CZ) was overflowing/getting cut off
+     on the ~2-column mobile grid's narrower cards — "SUPERIOR 12.4 KM"
+     was truncating to "12.4 K". Shared .location-grid/.loc-card markup
+     means this covers both Explore and History's mobile cards. */
+  html:not([data-lang="zh"]) .loc-card__xp,
+  html:not([data-lang="zh"]) .loc-card__dist {
+    font-size: 12px;
+  }
 
   /* Modal: bottom-sheet style on mobile */
   .px-overlay { padding: 0; align-items: flex-end; }
