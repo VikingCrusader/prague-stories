@@ -170,6 +170,9 @@ const T = {
     'history.comingSoon': 'This era is still being written. Check back soon.',
     'history.relatedLandmarksLabel': 'See it for yourself',
     'history.referenceMapsLabel': 'Compare on a historical map:',
+    'history.backgroundLabel': 'Background',
+    'history.collapseCard': 'Collapse',
+    'history.expandCard': 'Expand',
   },
   //czech
   cz: {
@@ -325,6 +328,9 @@ const T = {
     'history.comingSoon': 'Tahle éra se ještě píše. Zkuste to znovu brzy.',
     'history.relatedLandmarksLabel': 'Podívejte se tam sami',
     'history.referenceMapsLabel': 'Porovnat na historické mapě:',
+    'history.backgroundLabel': 'Souvislosti',
+    'history.collapseCard': 'Sbalit',
+    'history.expandCard': 'Rozbalit',
   },
   //chinese
   zh: {
@@ -480,6 +486,9 @@ const T = {
     'history.comingSoon': '这个时代还在编写中，敬请期待。',
     'history.relatedLandmarksLabel': '亲自去看看',
     'history.referenceMapsLabel': '查看历史地图：',
+    'history.backgroundLabel': '背景知识',
+    'history.collapseCard': '收起',
+    'history.expandCard': '展开',
   },
   //german
   de: {

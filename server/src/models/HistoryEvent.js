@@ -32,6 +32,16 @@ const historyEventSchema = new mongoose.Schema({
   year:      { type: localizedTextSchema, default: () => ({}) }, // display string per language, e.g. "935", "8th century (legendary)"
   title:     { type: localizedTextSchema, default: () => ({}) },
   tone:      { type: String, enum: ['humorous', 'serious'], default: 'humorous' },
+  // 'event' (default) is a normal dated timeline entry. 'background' is a
+  // non-narrative explainer card — context the reader needs at this point
+  // in the feed but that isn't itself a dated happening (e.g. "Bohemia
+  // wasn't a one-city story yet" between duke-go-round-1092 and
+  // battle-of-chlumec-1126). Sorts into the feed by startYear like any
+  // other event, but HistorySidebar excludes it from the era event lists
+  // (see that component) so it doesn't claim a year slot in the nav, and
+  // HistoryEventSection renders it with a distinct, collapsible treatment
+  // instead of the normal year/title/wiki-link header.
+  cardType:  { type: String, enum: ['event', 'background'], default: 'event' },
   hookLine:  { type: localizedTextSchema, default: () => ({}) },
   summary:   { type: localizedTextSchema, default: () => ({}) },
   relatedLandmarks: [relatedLandmarkSchema],

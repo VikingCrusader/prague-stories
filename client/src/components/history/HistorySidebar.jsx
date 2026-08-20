@@ -19,6 +19,11 @@ import { useEffect, useState } from 'react';
 export default function HistorySidebar({ eras, events, selectedSlug, onSelectEvent, lang, convert, t }) {
   const eventsByEra = new Map();
   for (const ev of events) {
+    // 'background' cards (see HistoryEvent model) are non-dated explainer
+    // asides slotted into the feed at a specific point, not events in their
+    // own right — they don't get a nav entry/year slot here, only a place
+    // in the scrollable feed (see HistoryPage).
+    if (ev.cardType === 'background') continue;
     if (!eventsByEra.has(ev.era)) eventsByEra.set(ev.era, []);
     eventsByEra.get(ev.era).push(ev);
   }

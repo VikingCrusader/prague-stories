@@ -240,6 +240,42 @@
   scroll-margin-top: 76px;
 }
 
+/* Background-knowledge cards (see HistoryEvent.cardType) are explainer
+   asides, not narrative events, and need to read as visually distinct from
+   the surrounding feed at a glance — a dashed gold border and a slightly
+   tinted background instead of the flat .history-detail-panel look, plus
+   the icon+label tag and collapse toggle rendered in HistoryEventSection.
+   Deliberately not tied to --era-accent (unlike the divider) since this is
+   a structural difference (aside vs. event), not a per-era theme. */
+.history-detail-panel--background {
+  background: rgba(255, 215, 0, 0.05);
+  border: 3px dashed var(--gold);
+}
+.history-event__background-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--gold);
+  margin-bottom: 6px;
+}
+.history-event__background-toggle {
+  display: inline-block;
+  background: none;
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+  color: var(--gold);
+  font-size: 12px;
+  padding: 4px 10px;
+  margin-bottom: 14px;
+  cursor: pointer;
+  transition: background 0.12s ease;
+}
+.history-event__background-toggle:hover { background: rgba(255, 215, 0, 0.1); }
+
 .history-event__image {
   display: block;
   width: 100%;

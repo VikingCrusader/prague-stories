@@ -30,7 +30,11 @@ export default function HistoryPage() {
     historyAPI.getAll()
       .then(res => {
         setData(res.data);
-        if (res.data.events.length > 0) setActiveSlug(res.data.events[0].slug);
+        // Background cards (see HistoryEvent model) don't have a sidebar
+        // entry to highlight, so the initial active slug should skip past
+        // any leading one straight to the first real, dated event.
+        const firstReal = res.data.events.find(e => e.cardType !== 'background');
+        if (firstReal) setActiveSlug(firstReal.slug);
       })
       .finally(() => setLoading(false));
   }, []);
@@ -53,12 +57,17 @@ export default function HistoryPage() {
 
     const recompute = () => {
       raf = null;
-      let current = data.events[0]?.slug ?? null;
+      let current = data.events.find(e => e.cardType !== 'background')?.slug ?? null;
       for (const event of data.events) {
         const el = sectionEls.current.get(event.slug);
         if (!el) continue;
-        if (el.getBoundingClientRect().top <= TRIGGER_Y) current = event.slug;
-        else break; // sections are in document order, so once one is below the line, all later ones are too
+        if (el.getBoundingClientRect().top <= TRIGGER_Y) {
+          // Background cards have no sidebar entry (see HistorySidebar) —
+          // skip past one here rather than making it the "current"
+          // highlight, so the sidebar keeps showing whichever real event
+          // came before it until the next real event's turn arrives.
+          if (event.cardType !== 'background') current = event.slug;
+        } else break; // sections are in document order, so once one is below the line, all later ones are too
       }
       if (current) setActiveSlug(current);
     };
