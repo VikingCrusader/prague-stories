@@ -1078,6 +1078,40 @@ export const historyEvents = [
     wikipediaUrl: "https://en.wikipedia.org/wiki/Vladivoj,_Duke_of_Bohemia",
   },
   {
+    // Background-knowledge card. startYear is deliberately non-integer
+    // (1002.5) purely as a sort anchor to slot this between
+    // vladivoj-imperial-fief-1002 and poles-take-prague-1003 in the feed —
+    // background cards don't claim a sidebar year slot (filtered out in
+    // HistorySidebar/HistoryPage) so this never renders anywhere.
+    slug: "what-was-the-holy-roman-empire-1002",
+    era: "bohemian-duchy",
+    startYear: 1002.5,
+    cardType: "background",
+    year: {
+      en: "962–1806",
+      cz: "962–1806",
+      zh: "962年－1806年",
+    },
+    tone: "humorous",
+    title: {
+      en: "What, Exactly, Was the Holy Roman Empire?",
+      cz: "Co vlastně byla Svatá říše římská?",
+      zh: "神圣罗马帝国，到底是个什么东西？",
+    },
+    hookLine: {
+      en: "Vladivoj just made Bohemia a fief of something called the Holy Roman Empire — which raises an obvious question this timeline should probably answer before it comes up another two hundred times.",
+      cz: "Vladivoj právě udělal z Čech léno něčeho, čemu se říkalo Svatá říše římská — což vyvolává zjevnou otázku, kterou by tahle časová osa měla nejspíš zodpovědět dřív, než se objeví ještě dalších dvě stě krát.",
+      zh: "瓦拉迪沃伊刚刚把波希米亚变成了一个叫“神圣罗马帝国”的东西的封地——这理应引出一个明摆着的问题，这条时间线最好趁早讲清楚，不然接下来两百年它还要反复出现。",
+    },
+    summary: {
+      en: "The 18th-century French writer Voltaire wrote the single most quoted line about this institution, and it's worth starting there because it's essentially correct: the Holy Roman Empire, he said, was 'neither Holy, nor Roman, nor an Empire.' Bohemia's rulers are about to spend the next thousand years managing their relationship with this thing, so it's worth knowing upfront what it actually was — not a country in any sense we'd recognize today, but a sprawling patchwork of several hundred practically independent duchies, prince-bishoprics, free cities, and margraviates, Bohemia now among them, all nominally answering to one shared emperor while each ran its own government, army, coinage, and laws. Picture the EU with a king glued on top, and you're closer than you'd expect.\n\nThe 'Roman' part traces back to Christmas Day, 800, when Pope Leo III crowned the Frankish king Charlemagne 'Emperor of the Romans' in Rome — over three centuries after the actual Western Roman Empire had collapsed. It wasn't a literal continuation; it was medieval Europe's favorite move, borrowing Rome's old prestige and pinning it on whoever currently held the most swords. Charlemagne's own empire didn't survive him intact, but the title did, and in 962 the German king Otto I revived it for good — the year most historians mark as the Empire's real starting point. ('Holy' got tacked onto the name later, in the 12th century, mostly to needle the Pope right back.)\n\nThe emperor wasn't born into the job — he was elected, by a handful of the Empire's most powerful nobles and archbishops, seven of them for most of its history. Winning that vote made you King of the Germans, crowned at Aachen; only a separate trip south to be crowned again by the Pope made you Emperor. In practice, the same wealthy families kept winning re-election generation after generation — the Ottonians, then the Salians, then the Hohenstaufens, and for the last few centuries almost nobody but the Habsburgs — so 'elective' monarchy ended up looking a lot like a hereditary one that just had to keep reapplying for the job.\n\nNone of this had anything to do with ethnicity. Membership was a matter of feudal law and political geography, not language or bloodline — by the time Vladivoj knelt before Henry II, the Empire already held Italian-speaking regions and French-speaking Burgundy, and now a Slavic-speaking Bohemia joined the same web of oaths and obligations. What his 1002 fealty actually won Bohemia was the rank of a fully-fledged Imperial State, answering straight to the emperor rather than to some lesser lord in between — the medieval equivalent of reporting directly to the CEO instead of a regional manager. Bohemia would eventually climb even higher inside the club: by the 13th century its king was one of the seven electors himself, with a personal vote in choosing the very emperor his ancestors had once knelt to.\n\nThere's one wrinkle Voltaire's joke doesn't quite cover: the actual, unbroken continuation of the Roman Empire was still very much alive in 1002, in Constantinople, where what modern historians call the Byzantine Empire had never stopped calling itself simply the Roman Empire the whole time. From Constantinople's point of view, Charlemagne's coronation in 800 wasn't reviving anything; it was a German warlord shoplifting a brand name that already had a legitimate owner behind the counter. The two empires spent centuries arguing, occasionally through actual war, over who got to use the label 'Roman' — a trademark dispute that outlasted both companies.\n\nSo: not holy (the Pope and the Emperor spent as much time excommunicating each other as cooperating), not Roman (its capital was never Rome, and most of its subjects spoke German), and not really an empire (no central government worth the name, just several hundred quarrelling shareholders sharing one letterhead). It nonetheless outlasted almost every tidier, better-run kingdom in Europe, limping on until Napoleon finally put it out of its misery in 1806 — which, if nothing else, suggests running a coherent state was never really the point.",
+      cz: "Francouzský spisovatel Voltaire z 18. století je autorem nejcitovanější věty o téhle instituci, a stojí za to od ní začít, protože je v podstatě přesná: Svatá říše římská prý nebyla „ani svatá, ani římská, ani říše\". Čeští panovníci se s tímhle útvarem chystají udržovat vztahy po další celé tisíciletí, takže se vyplatí hned na začátku vědět, co to vlastně bylo — v žádném smyslu, který bychom dnes uznali, to nebyla země, ale rozlehlá mozaika několika stovek prakticky nezávislých knížectví, biskupství, svobodných měst a markrabství — Čechy teď mezi nimi — z nichž každé formálně odpovídalo jedinému společnému císaři, ale samo si vedlo vlastní vládu, vojsko, měnu i zákony. Představ si Evropskou unii s králem přilepeným navrch, a jsi blíž pravdě, než bys čekal.\n\nSlovo „římská\" sahá zpátky ke Štědrému dni roku 800, kdy papež Lev III. v Římě korunoval franského krále Karla Velikého na „císaře Římanů\" — přes tři století poté, co skutečná Západořímská říše zanikla. Nešlo o doslovné pokračování; byl to oblíbený tah středověké Evropy, půjčit si starou římskou prestiž a připnout ji na toho, kdo zrovna velel nejvíc mečům. Karlova říše ho samotného nepřežila vcelku, ale titul ano, a roku 962 ho německý král Ota I. natrvalo obnovil — rok, který většina historiků označuje za skutečný počátek Říše. („Svatá\" se k názvu přidalo až později, ve 12. století, hlavně aby to popíchlo papeže zpátky.)\n\nCísař se do funkce nerodil — byl volen, hrstkou nejmocnějších říšských knížat a arcibiskupů, po většinu dějin Říše sedmi kurfiřty. Vítězství v té volbě z tebe udělalo německého krále, korunovaného v Cáchách; teprve samostatná cesta na jih, ke druhé korunovaci papežem, z tebe udělala císaře. V praxi ve volbách znovu a znovu vyhrávaly tytéž bohaté rody — nejdřív Otonové, pak Sálci, pak Štaufové, a posledních pár století skoro nikdo jiný než Habsburkové — takže „volitelná\" monarchie nakonec vypadala skoro jako dědičná, jen si musela pořád znovu podávat žádost.\n\nS etnickým původem to nemělo nic společného. Členství bylo věcí lenního práva a politické zeměpisy, ne jazyka nebo krve — v době, kdy Vladivoj klečel před Jindřichem II., Říše už zahrnovala italsky mluvící oblasti i francouzsky mluvící Burgundsko, a teď se do stejné sítě přísah a povinností zapojily i slovansky mluvící Čechy. Co mu jeho léno z roku 1002 skutečně vydobylo, bylo postavení plnohodnotného říšského stavu, odpovídajícího přímo císaři, ne nějakému nižšímu pánovi mezi tím — středověký ekvivalent hlášení přímo generálnímu řediteli místo oblastnímu manažerovi. Čechy se v tomhle klubu časem vyšplhaly ještě výš: ve 13. století byl český král sám jedním ze sedmi kurfiřtů, s vlastním hlasem při volbě téhož císaře, před kterým kdysi klečeli jeho předkové.\n\nJe tu ještě jedna vráska, kterou Voltairův vtip úplně nepokrývá: skutečné, nepřerušené pokračování Římské říše bylo v roce 1002 stále naživu — v Konstantinopoli, kde si to, čemu dnešní historici říkají Byzantská říše, po celou dobu samo pořád říkalo prostě Římská říše. Z pohledu Konstantinopole korunovace Karla Velikého v roce 800 nic neobnovovala; byl to germánský válečník na Západě, který ukradl obchodní značku, jež už měla legitimního majitele za pultem. Obě říše strávily staletí hádkami, občas i skutečnou válkou, o to, kdo smí používat označení „římská\" — spor o ochrannou známku, který přežil obě firmy.\n\nTakže: ani svatá (papež a císař strávili exkomunikováním jeden druhého skoro tolik času jako spoluprací), ani římská (hlavním městem nikdy nebyl Řím a většina poddaných mluvila německy), ani doopravdy říše (žádná ústřední vláda hodná toho jména, jen několik set hašteřících se akcionářů se společnou hlavičkou dopisu). Přesto přežila skoro každé úhlednější a lépe fungující království v Evropě a belhala se dál, dokud ji roku 1806 konečně nevysvobodil Napoleon — což, pokud nic jiného, naznačuje, že vést soudržný stát nikdy nebylo tak úplně to hlavní.",
+      zh: "18世纪的法国作家伏尔泰留下了关于这个机构最广为流传的一句吐槽，值得从这里开场，因为这句话其实说得相当准确：神圣罗马帝国，他说，“既不神圣，也不罗马，更不是一个帝国”。波希米亚的统治者接下来整整一千年都要跟这个东西打交道，所以最好先弄清楚它到底是个什么玩意儿——它完全不是我们今天理解意义上的“一个国家”，而是由几百个实际上各自独立的公国、采邑主教区、自由城市和藩侯国拼凑而成的大杂烩——如今波希米亚也在其中——名义上都听命于同一位皇帝，但各自管着自己的政府、军队、货币和法律。可以想象成一个欧盟，上面再粘一顶王冠，这个比喻比听上去要贴切得多。\n\n“罗马”这个词，要追溯到公元800年的圣诞节，教皇利奥三世在罗马为法兰克国王查理曼加冕，封他为“罗马人的皇帝”——那时距离真正的西罗马帝国灭亡，已经过去了三百多年。这并不是什么名副其实的“延续”，而是中世纪欧洲最爱玩的一手：把古罗马的旧招牌借来，随手挂在当下手握最多刀剑的人身上。查理曼的帝国没能在他死后完整保留下来，但这个头衔留了下来，962年，德意志国王奥托一世把它彻底复活——大多数历史学家把这一年当作神圣罗马帝国真正的起点。（“神圣”这个字是后来才加上去的，12世纪的事，主要是为了反过来膈应教皇一下。）\n\n皇帝这个位子不是生来就有的——它是选出来的，由帝国境内最有权势的一小撮诸侯和大主教投票产生，帝国历史上的大多数时间里，这个投票团只有七个人，也就是所谓的“选帝侯”。赢得这场选举，只能让你当上“德意志人的国王”，在亚琛加冕；只有再单独跑一趟罗马，让教皇给你二次加冕，你才算真正的皇帝。实际操作中，赢得连任的往往是同一批富有家族——先是奥托王朝，然后是萨利安王朝，接着是霍亨斯陶芬王朝，最后几个世纪几乎清一色是哈布斯堡家族——所以这套“选举制”君主，到头来看起来跟世袭制没什么两样，只不过每一代都得重新“竞选连任”一次。\n\n这些事跟民族血统完全没关系。加入这个帝国靠的是封建法律和政治地理，不是语言或血缘——瓦拉迪沃伊跪在亨利二世面前的时候，帝国境内早就已经有讲意大利语的地区，还有讲法语的勃艮第，如今又轮到讲斯拉夫语的波希米亚加入这张由誓约和义务织成的大网。他在1002年那次效忠真正为波希米亚换来的，是一个正式“帝国直属邦国”的等级——直接向皇帝本人负责，而不是隔着某个中间层级的领主打交道，用今天的话说，相当于直接向CEO汇报，而不是向某个区域经理汇报。波希米亚在这个圈子里后来还爬得更高：到了13世纪，波希米亚国王本人就成了那七位选帝侯之一，亲自握有一票，去挑选那个自己祖先曾经跪拜过的皇帝人选。\n\n伏尔泰那句吐槽还漏掉了一层更绕的关系：真正一脉相承、从未中断的罗马帝国，在1002年其实还活得好好的——就在君士坦丁堡，也就是今天的历史学家习惯称之为“拜占庭帝国”的那个政权，它自己从头到尾都只管自称“罗马帝国”，从没换过名字。站在君士坦丁堡的角度看，公元800年查理曼那场加冕根本谈不上什么“复兴”，那不过是西边一个日耳曼军阀，把一块早就有正牌老板守在柜台后面的招牌顺手偷走挂了出去。这两个帝国为了谁才有资格用“罗马”这个名号，吵了好几个世纪，偶尔还真刀真枪打了起来——一场比这两家公司本身都活得更久的商标官司。\n\n所以：不神圣（教皇和皇帝互相开除对方教籍的时间，跟他们合作的时间差不多长），不罗马（首都从来都不是罗马，大多数臣民说的也是德语），更算不上一个真正的帝国（没有一个像样的中央政府，只有几百个整天互相拌嘴、却共用同一份公司抬头信纸的“股东”）。可它偏偏比欧洲大多数组织得更整齐、治理得更像样的王国都活得长久，一路苟延残喘，直到1806年才被拿破仑彻底送终——这如果能说明什么，那大概就是：把一个国家治理得井井有条，从来都不是这个帝国真正在乎的事。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Holy_Roman_Empire",
+  },
+  {
     slug: "poles-take-prague-1003",
     era: "bohemian-duchy",
     startYear: 1003,
@@ -1231,6 +1265,14 @@ export const historyEvents = [
           en: "Where Břetislav's military career actually ended — not in battle, but mid-muster, as he assembled troops here in January 1055 for a planned third invasion of Hungary and died before he could lead it.",
           cz: "Místo, kde Břetislavova vojenská kariéra doopravdy skončila — ne v boji, ale uprostřed shromažďování vojska, když zde v lednu 1055 sbíral síly na plánovanou třetí výpravu proti Uhrám a zemřel dřív, než ji stihl vést.",
           zh: "布热季斯拉夫的军事生涯真正落幕之处——不是死于战场，而是死在集结军队的途中：1055年1月，他正在这里为计划中的第三次匈牙利远征招兵备战，却在出征之前就已去世。",
+        },
+      },
+      {
+        slug: "chlumec",
+        relation: {
+          en: "A quieter footnote to the same 1029–1041 campaign years: in September 1040, weeks after Henry III's main army was routed at Brůdek, a second Saxon column advancing near here under Eckard II of Meissen chose to negotiate a withdrawal rather than fight — Chlumec's own name wouldn't get attached to a real battle for another 86 years.",
+          cz: "Tišší poznámka pod čarou ke stejným letům 1029–1041: v září 1040, pár týdnů po tom, co bylo Jindřichovo hlavní vojsko rozprášeno u Brůdku, se druhá saská kolona postupující poblíž pod velením Ekkeharda Míšeňského raději dohodla na ústupu, než aby bojovala — jméno Chlumec si na skutečnou bitvu počkalo ještě dalších 86 let.",
+          zh: "同属1029–1041年这段征战岁月里一个更安静的小注脚：1040年9月，就在亨利三世主力在布鲁德克溃败几周之后，由迈森的埃克哈德二世率领的另一支萨克森偏师推进到此附近，最终选择谈判撤军，而没有真正开战——“赫卢梅茨”这个名字要跟一场真正打起来的战役挂上钩，还得再等86年。",
         },
       },
     ],
@@ -1459,7 +1501,11 @@ export const historyEvents = [
       cz: "11.–12. století",
       zh: "11至12世纪",
     },
-    images: ["/history/bohemia-not-one-city-1101.webp"],
+    // Image deliberately removed from display (2026-08) per user call: this
+    // and future background-knowledge cards default to pure text, witty
+    // tone, no illustration — matches what-was-moravia-1127 and
+    // what-was-the-holy-roman-empire-1002. The file itself is left in place
+    // at client/public/history/bohemia-not-one-city-1101.webp, just unused.
     tone: "serious",
     title: {
       en: "Bohemia Wasn't a One-City Story (Yet)",
@@ -1488,6 +1534,7 @@ export const historyEvents = [
       cz: "1126 (18. února)",
       zh: "1126年（2月18日）",
     },
+    images: ["/history/chlumec.webp"],
     tone: "humorous",
     title: {
       en: "The Bohemian War of Succession",
@@ -1500,17 +1547,33 @@ export const historyEvents = [
       zh: "到1126年，波希米亚还剩最后一场继承权之争——而这一次，真正有分量。",
     },
     summary: {
-      en: "By 1125, the pattern this timeline just spent a whole chapter cataloguing was still running. When Duke Vladislaus I died that year, his brother Soběslav I claimed the succession — not Vladislaus's own son, the future king Vladislaus II, still a generation away. A rival cousin, Otto II of Olomouc, contested the claim, appealing to the same seniority principle from the opposite direction, and found a useful ally: Holy Roman Emperor Lothair III, freshly elected and owing Bohemia nothing, who according to one chronicler took a substantial bribe from Otto before marching an invading army into Bohemia to install him instead — officially because Soběslav had never properly sought imperial confirmation of his claim.\n\nSoběslav met the threat with more than soldiers. According to legend, he'd dreamed that the lost banner of St. Adalbert lay hidden in the village of Vrbčany — and when his men searched a walled-up niche behind the church altar there, they found an old banner exactly where the dream had said. Soběslav had it mounted on the spear of St. Wenceslas himself and carried into battle, and chroniclers later swore Wenceslas rode with the Bohemian ranks that day, in white robes on a white horse.\n\nOn 18 February 1126, near the village of Chlumec, Soběslav sprang the trap: his forces ambushed Lothair's advance guard in a narrow mountain pass, then closed on the main imperial army with no room left to retreat. Otto was killed in the fighting; Lothair himself, along with several of his leading nobles, was taken prisoner.\n\nSoběslav released the emperor in exchange for formal investiture as duke — a face-saving technicality that let Lothair go home without admitting the obvious: Bohemia had just beaten the Holy Roman Empire on its own soil, and the bribe hadn't even worked.\n\nSoběslav commemorated the win by rebuilding and enlarging an existing rotunda on the summit of Říp — the same hill Czech legend already credited as the mythical resting place of the first Czechs to settle the land — one of the oldest monuments the country still has. It was, for once, a Bohemian ruler securing his position through outright victory rather than a borrowed crown or a lucky marriage, and it bought Soběslav an untroubled fifteen years on the throne.",
-      cz: "V roce 1125 pořád běžel ten stejný vzorec, který tahle časová osa právě probrala v celé jedné kapitole. Když toho roku zemřel kníže Vladislav I., nárokoval si nástupnictví jeho bratr Soběslav I. — ne jeho vlastní syn, budoucí král Vladislav II., na kterého ještě čekala celá generace. Soupeřící bratranec, Ota II. Olomoucký, nárok napadl — odvolával se na tentýž seniorátní princip, jen z opačné strany — a našel si užitečného spojence: čerstvě zvoleného římského krále Lothara III., který Čechám nic nedlužil a podle jednoho kronikáře od Oty přijal značný úplatek, než vtáhl s vojskem do Čech, aby na trůn dosadil jeho místo Soběslava — oficiálně proto, že si Soběslav nikdy řádně nevyžádal císařské potvrzení svého nároku.\n\nSoběslav se hrozbě nepostavil jen s vojáky. Podle pověsti se mu zdálo, že ztracená korouhev svatého Vojtěcha leží ukrytá ve vsi Vrbčany — a když jeho muži prohledali zazděnou výklenku za tamním kostelním oltářem, skutečně tam našli starou korouhev, přesně tam, kde ji sen sliboval. Soběslav ji nechal upevnit na kopí samotného svatého Václava a nést do bitvy, a kronikáři později přísahali, že sám Václav toho dne jel v bílém rouchu na bílém koni po boku českých šiků.\n\n18. února 1126, poblíž vesnice Chlumec, Soběslav past sklapl: jeho oddíly přepadly Lotarův předvoj v úzkém horském průsmyku a poté sevřely hlavní císařské vojsko, kterému už nezbylo kam ustoupit. Ota v boji padl; samotný Lothar, spolu s několika svými předními velmoži, byl zajat.\n\nSoběslav propustil krále výměnou za formální investituru coby kníže — tvářnost zachraňující formalitu, díky které se Lothar mohl vrátit domů, aniž by musel přiznat to zjevné: Čechy právě porazily Svatou říši římskou na jejím vlastním území, a její vlastní úplatek k ničemu nebyl.\n\nSoběslav vítězství oslavil přestavbou a rozšířením už existující rotundy na vrcholu Řípu — téže hory, kterou česká pověst už dřív spojovala s legendárním místem odpočinku prvních Čechů, kteří tuto zemi osídlili — jedné z nejstarších dochovaných památek v zemi. Byl to, tentokrát výjimečně, český panovník, který si upevnil postavení skutečným vítězstvím, ne vypůjčenou korunou nebo šťastným sňatkem — a vykoupilo mu to patnáct klidných let na trůně.",
-      zh: "1125年，本时间线刚刚用整整一节讲过的那个模式，依然在继续上演。这一年公爵弗拉迪斯拉夫一世去世，他的弟弟索别斯拉夫一世宣称继承权——并非他本人的儿子、日后的国王弗拉迪斯拉夫二世，后者还要再等一代人才轮到自己。竞争对手、堂兄弟奥洛穆茨的奥托二世对此提出异议——援引的还是同一条长者继承原则，只是从另一个方向解读——并找到了一位有用的盟友：刚刚当选、对波希米亚毫无亏欠的洛泰尔三世皇帝，据一位编年史家记载，他收了奥托一笔可观的贿赂，随后亲率大军入侵波希米亚，打算改立奥托——官方理由是索别斯拉夫从未正式向皇帝申请对其继承权的确认。\n\n索别斯拉夫应对这场威胁靠的不只是军队。传说他梦见圣阿达尔伯特那面失落已久的旗帜，藏在弗尔布恰尼村；他的部下搜查了当地教堂祭坛后面一处被封死的壁龛，果然在梦里指明的地方找到了一面古旧的旗帜。索别斯拉夫把它绑在圣瓦茨拉夫本人的长矛上，带上了战场——后来的编年史家信誓旦旦地说，那一天，瓦茨拉夫本人身披白袍、骑着白马，就在波希米亚的军阵之中并肩作战。\n\n1126年2月18日，在赫卢梅茨村附近，索别斯拉夫的陷阱收网：他的部队在一处狭窄的山口伏击了洛泰尔的先锋部队，随后合围了已经无路可退的帝国主力。奥托二世战死沙场；洛泰尔本人与几位重臣一同被俘。\n\n索别斯拉夫最终释放了这位皇帝，条件是换取一份正式的册封仪式——这是一个给足了皇帝面子的形式，让洛泰尔得以体面回国，而不必承认那个明摆着的事实：波希米亚刚刚在自己的国土上，打赢了神圣罗马帝国，而对方那笔贿赂，压根没起作用。\n\n索别斯拉夫用重建并扩建日普山顶上一座既有的圆形教堂来纪念这场胜利——而这座山，早已被捷克传说认定为最早定居这片土地的捷克人的传说安息之地——如今仍是这个国家现存最古老的古迹之一。这一次，难得地，是一位波希米亚统治者靠着堂堂正正的军事胜利、而非借来的王冠或幸运的联姻，稳固了自己的地位——也换来了他此后十五年安稳的统治。",
+      en: "By 1125, the pattern this timeline just spent a whole chapter cataloguing was still running. When Duke Vladislaus I died that year, his brother Soběslav I claimed the succession — not Vladislaus's own son, the future king Vladislaus II, still a generation away. A rival cousin, Otto II of Olomouc, contested the claim, appealing to the same seniority principle from the opposite direction, and found a useful ally: Holy Roman Emperor Lothair III, freshly elected, owing Bohemia nothing, and until the year before simply Duke of Saxony — the same neighboring duchy whose rebellious nobles Bohemian troops had spent 1075 and 1080 helping the previous emperor put down. This time, Saxony was the one making trouble for Bohemia. According to one chronicler, Lothair took a substantial bribe from Otto before marching an invading army into Bohemia to install him instead — officially because Soběslav had never properly sought imperial confirmation of his claim.\n\nSoběslav met the threat with more than soldiers. According to legend, he'd dreamed that the lost banner of St. Adalbert lay hidden in the village of Vrbčany — and when his men searched a walled-up niche behind the church altar there, they found an old banner exactly where the dream had said. Soběslav had it mounted on the spear of St. Wenceslas himself and carried into battle, and chroniclers later swore Wenceslas rode with the Bohemian ranks that day, in white robes on a white horse.\n\nOn 18 February 1126, near the village of Chlumec, Soběslav sprang the trap: his forces ambushed Lothair's advance guard in a narrow mountain pass, then closed on the main imperial army with no room left to retreat. Otto was killed in the fighting; Lothair himself, along with several of his leading nobles, was taken prisoner.\n\nSoběslav released the emperor in exchange for formal investiture as duke — a face-saving technicality that let Lothair go home without admitting the obvious: Bohemia had just beaten the Holy Roman Empire on its own soil, and the bribe hadn't even worked.\n\nSoběslav commemorated the win by rebuilding and enlarging an existing rotunda on the summit of Říp — the same hill Czech legend already credited as the mythical resting place of the first Czechs to settle the land — one of the oldest monuments the country still has. It was, for once, a Bohemian ruler securing his position through outright victory rather than a borrowed crown or a lucky marriage, and it bought Soběslav an untroubled fifteen years on the throne.",
+      cz: "V roce 1125 pořád běžel ten stejný vzorec, který tahle časová osa právě probrala v celé jedné kapitole. Když toho roku zemřel kníže Vladislav I., nárokoval si nástupnictví jeho bratr Soběslav I. — ne jeho vlastní syn, budoucí král Vladislav II., na kterého ještě čekala celá generace. Soupeřící bratranec, Ota II. Olomoucký, nárok napadl — odvolával se na tentýž seniorátní princip, jen z opačné strany — a našel si užitečného spojence: čerstvě zvoleného římského krále Lothara III., který Čechám nic nedlužil a ještě rok předtím byl prostě saským vévodou — téhož sousedního vévodství, jehož vzbouřené šlechtice čeští vojáci v letech 1075 a 1080 pomáhali dřívějšímu císaři potlačit. Tentokrát bylo Sasko tím, kdo dělal potíže Čechám. Podle jednoho kronikáře od Oty přijal značný úplatek, než vtáhl s vojskem do Čech, aby na trůn dosadil jeho místo Soběslava — oficiálně proto, že si Soběslav nikdy řádně nevyžádal císařské potvrzení svého nároku.\n\nSoběslav se hrozbě nepostavil jen s vojáky. Podle pověsti se mu zdálo, že ztracená korouhev svatého Vojtěcha leží ukrytá ve vsi Vrbčany — a když jeho muži prohledali zazděnou výklenku za tamním kostelním oltářem, skutečně tam našli starou korouhev, přesně tam, kde ji sen sliboval. Soběslav ji nechal upevnit na kopí samotného svatého Václava a nést do bitvy, a kronikáři později přísahali, že sám Václav toho dne jel v bílém rouchu na bílém koni po boku českých šiků.\n\n18. února 1126, poblíž vesnice Chlumec, Soběslav past sklapl: jeho oddíly přepadly Lotarův předvoj v úzkém horském průsmyku a poté sevřely hlavní císařské vojsko, kterému už nezbylo kam ustoupit. Ota v boji padl; samotný Lothar, spolu s několika svými předními velmoži, byl zajat.\n\nSoběslav propustil krále výměnou za formální investituru coby kníže — tvářnost zachraňující formalitu, díky které se Lothar mohl vrátit domů, aniž by musel přiznat to zjevné: Čechy právě porazily Svatou říši římskou na jejím vlastním území, a její vlastní úplatek k ničemu nebyl.\n\nSoběslav vítězství oslavil přestavbou a rozšířením už existující rotundy na vrcholu Řípu — téže hory, kterou česká pověst už dřív spojovala s legendárním místem odpočinku prvních Čechů, kteří tuto zemi osídlili — jedné z nejstarších dochovaných památek v zemi. Byl to, tentokrát výjimečně, český panovník, který si upevnil postavení skutečným vítězstvím, ne vypůjčenou korunou nebo šťastným sňatkem — a vykoupilo mu to patnáct klidných let na trůně.",
+      zh: "1125年，本时间线刚刚用整整一节讲过的那个模式，依然在继续上演。这一年公爵弗拉迪斯拉夫一世去世，他的弟弟索别斯拉夫一世宣称继承权——并非他本人的儿子、日后的国王弗拉迪斯拉夫二世，后者还要再等一代人才轮到自己。竞争对手、堂兄弟奥洛穆茨的奥托二世对此提出异议——援引的还是同一条长者继承原则，只是从另一个方向解读——并找到了一位有用的盟友：刚刚当选、对波希米亚毫无亏欠的神圣罗马帝国皇帝洛泰尔三世——就在前一年，他还只是萨克森公爵，而这个邻近的公国，波希米亚军队在1075年和1080年可没少替上一任皇帝出力，帮着镇压过它境内叛乱的贵族。这一次，轮到萨克森来给波希米亚找麻烦了。据一位编年史家记载，他收了奥托一笔可观的贿赂，随后亲率大军入侵波希米亚，打算改立奥托——官方理由是索别斯拉夫从未正式向皇帝申请对其继承权的确认。\n\n索别斯拉夫应对这场威胁靠的不只是军队。传说他梦见圣阿达尔伯特那面失落已久的旗帜，藏在弗尔布恰尼村；他的部下搜查了当地教堂祭坛后面一处被封死的壁龛，果然在梦里指明的地方找到了一面古旧的旗帜。索别斯拉夫把它绑在圣瓦茨拉夫本人的长矛上，带上了战场——后来的编年史家信誓旦旦地说，那一天，瓦茨拉夫本人身披白袍、骑着白马，就在波希米亚的军阵之中并肩作战。\n\n1126年2月18日，在赫卢梅茨村附近，索别斯拉夫的陷阱收网：他的部队在一处狭窄的山口伏击了洛泰尔的先锋部队，随后合围了已经无路可退的帝国主力。奥托二世战死沙场；洛泰尔本人与几位重臣一同被俘。\n\n索别斯拉夫最终释放了这位皇帝，条件是换取一份正式的册封仪式——这是一个给足了皇帝面子的形式，让洛泰尔得以体面回国，而不必承认那个明摆着的事实：波希米亚刚刚在自己的国土上，打赢了神圣罗马帝国，而对方那笔贿赂，压根没起作用。\n\n索别斯拉夫用重建并扩建日普山顶上一座既有的圆形教堂来纪念这场胜利——而这座山，早已被捷克传说认定为最早定居这片土地的捷克人的传说安息之地——如今仍是这个国家现存最古老的古迹之一。这一次，难得地，是一位波希米亚统治者靠着堂堂正正的军事胜利、而非借来的王冠或幸运的联姻，稳固了自己的地位——也换来了他此后十五年安稳的统治。",
     },
     relatedLandmarks: [
+      {
+        slug: "chlumec",
+        relation: {
+          en: "The village and pass this whole battle is named for — a strategic gap between Saxony and Bohemia that saw fighting across eight centuries, from Přemyslid-era skirmishes to this decisive 1126 victory to Napoleon's bloodiest Bohemian battle here in 1813.",
+          cz: "Vesnice a průsmyk, po kterých je celá tahle bitva pojmenovaná — strategická brána mezi Saskem a Čechami, kde se bojovalo napříč osmi stoletími, od přemyslovských potyček přes toto rozhodující vítězství z roku 1126 až po Napoleonovu nejkrvavější bitvu na českém území, svedenou tady v roce 1813.",
+          zh: "整场战役得名的那座村庄和山口——萨克森与波希米亚之间的战略要冲，八个世纪里在此断断续续打了好几仗：从普热美斯尔王朝时期的零星冲突，到这场1126年的决定性胜利，再到1813年拿破仑在波希米亚境内打得最血腥的一战，都发生在这里。",
+        },
+      },
       {
         slug: "rotunda-svateho-jiri-rip",
         relation: {
           en: "Soběslav had this rotunda enlarged right after Chlumec to commemorate the win — on a hill Czech legend already considered sacred ground long before any battle was fought here.",
           cz: "Soběslav nechal tuto rotundu rozšířit hned po Chlumci na oslavu vítězství — na kopci, který česká pověst považovala za posvátnou půdu dávno předtím, než se tu odehrála jakákoli bitva.",
           zh: "索别斯拉夫在赫卢梅茨战役后立刻下令扩建了这座圆形教堂，以纪念这场胜利——而这座山，早在这里发生任何战役之前，就已经被捷克传说视为圣地。",
+        },
+      },
+      {
+        slug: "old-royal-palace",
+        relation: {
+          en: "Soběslav had this Romanesque palace built around 1135, not long after Chlumec — its foundations still survive underground and are among the oldest surviving structures on this whole site, laid down by a duke who'd just proven he could actually hold onto power.",
+          cz: "Soběslav si nechal kolem roku 1135, nedlouho po Chlumci, postavit tento románský palác — jeho základy se dochovaly v podzemí dodnes a patří k nejstarším dochovaným stavbám na celém tomto místě, položeným knížetem, který právě dokázal, že si moc dokáže i skutečně udržet.",
+          zh: "索别斯拉夫在赫卢梅茨战役后不久、约1135年，下令建造了这座罗曼式宫殿——它的地基至今仍保存在地下，是整个城堡遗址现存最古老的建筑之一，由一位刚刚证明自己真能守住权力的公爵下令建造。",
         },
       },
     ],
@@ -1546,6 +1609,69 @@ export const historyEvents = [
     wikipediaUrl: "https://en.wikipedia.org/wiki/Margraviate_of_Moravia",
   },
   {
+    slug: "vladislaus-ii-crusade-1147",
+    era: "bohemian-duchy",
+    startYear: 1147,
+    year: {
+      en: "1147–1148",
+      cz: "1147–1148",
+      zh: "1147年－1148年",
+    },
+    images: ["/history/vladislaus-ii-crusade-1147.webp"],
+    tone: "humorous",
+    title: {
+      en: "The Crusade He Didn't Finish",
+      cz: "Křížová výprava, kterou nedokončil",
+      zh: "他没走完的十字军之路",
+    },
+    hookLine: {
+      en: "In 1147, Duke Vladislaus II went on crusade — less out of conviction than calculation, and, true to form, he wouldn't even see the whole thing through himself.",
+      cz: "V roce 1147 se kníže Vladislav II. vydal na křížovou výpravu — méně z přesvědčení, více z vypočítavosti, a jak už to u něj bývalo zvykem, sám ji nakonec ani nedotáhl do konce.",
+      zh: "1147年，弗拉迪斯拉夫二世公爵踏上了十字军之路——与其说是出于信仰，不如说是出于算计，而且一如既往，他自己连这趟东征都没走完。",
+    },
+    summary: {
+      en: "Vladislaus II — nephew of Soběslav I, whose victory at Chlumec he inherited the benefits of — became duke in 1140. That wasn't exactly the plan Soběslav had spent his final years arranging: in 1138, he'd gotten the newly elected King Conrad III to formally confirm the succession for his own son at the Diet of Bamberg — a son who, confusingly, was also named Vladislav, sharing a name with the cousin who'd eventually get the job instead. It didn't settle anything. After Soběslav died in February 1140, that same confirmation got reaffirmed all over again, and the Bohemian nobility still elected the nephew, with Conrad III's backing. The son didn't just step aside quietly, either — Vladislaus II had to beat back his cousin's rival claim through continued fighting, with his marriage to Gertrude of Babenberg, Conrad III's own half-sister, helping cement the emperor's support before the succession was truly settled.\n\nBy the mid-1140s, with the throne secured, Vladislaus had spent years leaning on Bishop Henry Zdík of Olomouc as a political partner, using the alliance to outmaneuver rival branches of his own Přemyslid family. When Pope Eugene III called for a new crusade to the Holy Land in 1145 and Conrad III of Germany — Vladislaus's own overlord, and by now his brother-in-law as well — signed on, Zdík saw an opening: crusading, he argued, could do double duty as a show of piety and a way to rally domestic support around the duke. Vladislaus organized a Bohemian contingent and set out with Conrad's army in May 1147, alongside his brother Henry and his cousin Spytihněv.\n\nThe march did not go smoothly. That September, tension between the Germans and their Byzantine hosts boiled over into the Battle of Constantinople, a real clash fought right outside Emperor Manuel I's own capital, before the crusaders were hastily ferried across the Bosporus into Asia Minor. Vladislaus himself went no further: citing logistics and a reassessment of the campaign, he turned back at Constantinople, having technically discharged his feudal obligation to Conrad and banked the political credit at home either way. His retinue kept going without him — and paid for it. In the fighting around Dorylaeum that October, part of the broader collapse of Conrad's army in Anatolia, Vladislaus's own marshal, Jurik, was killed, and his chancellor, Bartholomew, was taken prisoner. The duke got the credit; his household got the casualty list.\n\nVladislaus made his own way home along a much older road — through Kiev and Kraków, a trade route linking Bohemia to the Black Sea that had already been in use for two or three centuries, running roughly parallel to the Danube-Balkans road that carried Western pilgrims and crusaders toward Constantinople in the other direction. Back home, his brother Děpolt I had been governing Bohemia as regent in his absence, and governing firmly: when the young Soběslav — son of the elder Soběslav I, the same cousin the nobility had passed over for the throne back in 1140 — tried to seize the moment, Děpolt shut it down before it went anywhere. Between a dead marshal, a captured chancellor, and a coup attempt back home, crusading by proxy turned out to be the safer half of the plan — for the duke, anyway. Everyone he brought with him got the real war.",
+      cz: "Vladislav II. — synovec Soběslava I., jehož vítězství u Chlumce po něm zdědil výhody — se stal knížetem v roce 1140. Nebyl to tak úplně ten plán, který si Soběslav poslední léta svého života pečlivě chystal: v roce 1138 si na nově zvoleném králi Konrádu III. na sněmu v Bamberku vymohl formální potvrzení nástupnictví pro vlastního syna — syna, který se matoucím způsobem jmenoval stejně jako bratranec, jenž nakonec místo něj usedl na trůn: Vladislav. Nic to nevyřešilo. Po Soběslavově smrti v únoru 1140 bylo totéž potvrzení znovu stvrzeno — a čeští velmoži přesto zvolili synovce, s podporou Konráda III. Syn se ale tiše nestáhl: Vladislav II. musel bratrancův soupeřící nárok srazit pokračujícími boji, přičemž jeho sňatek s Gertrudou Babenberskou, vlastní nevlastní sestrou Konráda III., pomohl utužit císařovu podporu, než bylo nástupnictví doopravdy uzavřeno.\n\nV polovině 40. let 12. století, s trůnem už zajištěným, se Vladislav léta opíral o olomouckého biskupa Jindřicha Zdíka jako o politického spojence, s jehož pomocí přehrával soupeřící větve vlastní přemyslovské rodiny. Když papež Evžen III. v roce 1145 vyhlásil novou křížovou výpravu do Svaté země a k výpravě se připojil Vladislavův vlastní lenní pán, německý král Konrád III. — teď už i jeho švagr —, uviděl v tom Zdík příležitost: účast na výpravě podle něj mohla posloužit dvěma věcem najednou — jako projev zbožnosti a jako způsob, jak kolem knížete stmelit domácí podporu. Vladislav sestavil český oddíl a v květnu 1147 vyrazil s Konrádovým vojskem, po boku bratra Jindřicha a bratrance Spytihněva.\n\nTažení neproběhlo hladce. Toho září vyvrcholilo napětí mezi Němci a jejich byzantskými hostiteli bitvou u Konstantinopole, opravdovým střetem přímo před hlavním městem císaře Manuela I., než byli křižáci narychlo přepraveni přes Bospor do Malé Asie. Sám Vladislav dál nešel: s odkazem na logistiku a přehodnocení tažení se vrátil od Konstantinopole zpět, čímž technicky splnil svou lenní povinnost vůči Konrádovi a zároveň si doma zajistil politický zisk. Jeho doprovod pokračoval dál bez něj — a zaplatil za to. V bojích kolem Dorylaea toho října, součásti širšího zhroucení Konrádova vojska v Malé Asii, padl Vladislavův vlastní maršálek Jiljí a jeho kancléř Bartoloměj upadl do zajetí. Kníže si odnesl zásluhy; jeho družina odnesla ztráty.\n\nVladislav se domů vydal po mnohem starší cestě — přes Kyjev a Krakov, obchodní trase spojující Čechy s Černým mořem, která byla v provozu už dvě nebo tři století a vedla zhruba souběžně s dunajsko-balkánskou cestou, jež naopak vedla západní poutníky a křižáky ke Konstantinopoli. Doma zatím Čechy v jeho nepřítomnosti spravoval jako regent bratr Děpolt I. — a spravoval je pevnou rukou: když se mladý Soběslav, syn staršího Soběslava I., týž bratranec, kterého šlechta v roce 1140 přeskočila při volbě knížete, pokusil využít knížecí nepřítomnosti, Děpolt to zarazil dřív, než se to k něčemu rozvinulo. Mezi mrtvým maršálkem, zajatým kancléřem a pokusem o převrat doma vyšlo najevo, že křižáctví na dálku bylo pro knížete tou bezpečnější polovinou plánu — přinejmenším pro něj samotného. Skutečnou válku si odnesl každý, koho si s sebou vzal.",
+      zh: "弗拉迪斯拉夫二世——索别斯拉夫一世的侄子，承袭了叔叔在赫卢梅茨战役中赢得的政治红利——于1140年成为公爵。但这并不是索别斯拉夫本人临终前精心安排的结果：他生前还在担心自己的安排能不能算数。1138年，他让新当选的康拉德三世在班贝格议会上正式确认了自己儿子（巧合的是也叫弗拉迪斯拉夫，跟后来继位的这位堂兄弟同名）的继承权。可情况并没因此定案——1140年2月索别斯拉夫去世后，这份批准居然还被又确认了一次，但最终坐上公爵之位的，还是他的侄子。儿子那边也没就此乖乖让步：弗拉迪斯拉夫二世靠着持续的军事冲突压下了堂兄弟的挑战，他与康拉德三世异母妹妹格特鲁德·冯·巴本贝格的联姻，也帮着稳住了皇帝这边的支持，继承权才算真正尘埃落定。\n\n12世纪40年代中期，公爵之位已经坐稳，弗拉迪斯拉夫这些年一直和奥洛穆茨主教亨利·兹迪克合作，靠着这层政治同盟来压制普热美斯尔家族内部的对手分支。1145年，教皇尤金三世号召发起新一轮十字军东征，而弗拉迪斯拉夫的宗主、德意志国王康拉德三世——如今也是他的姻亲——也随即响应：兹迪克从中看到了机会，他劝说弗拉迪斯拉夫，参与东征可以一举两得，既是虔诚的表态，也是一次凝聚国内支持、巩固公爵地位的政治操作。1147年5月，弗拉迪斯拉夫组织了一支波希米亚部队，与弟弟亨利、堂兄斯皮蒂赫涅夫一同随康拉德的大军出发。\n\n这趟行军并不顺利。同年9月，德意志人和拜占庭东道主之间的紧张关系彻底爆发，双方在皇帝曼努埃尔一世的都城君士坦丁堡城下真刀真枪打了一仗——史称“1147年君士坦丁堡之战”，之后十字军才匆匆渡过博斯普鲁斯海峡进入小亚细亚。弗拉迪斯拉夫本人没有再往前走：他以后勤压力和战略重新评估为由，就此在君士坦丁堡止步返程——名义上，他已经完成了对康拉德的封建义务，国内的政治红利也已稳稳收入囊中。他的随从却没有跟他一起回去，继续跟着大军前进——而代价随之而来。同年10月，在多利来姆一带的战事中——那场德意志十字军在小亚细亚全面崩溃的一部分——弗拉迪斯拉夫麾下的元帅尤里克战死，他的大法官巴塞洛缪则被俘虏。荣耀归了公爵，代价却由他的随从来扛。\n\n弗拉迪斯拉夫自己走的，是一条古老得多的路——经基辅、克拉科夫返回波希米亚，这是一条连接波希米亚与黑海、已经通行了两三个世纪的传统商路，大致与另一条经多瑙河、穿越巴尔干、通往君士坦丁堡的道路平行——后者正是西方朝圣者和十字军惯常前往圣地的路线。与此同时，波希米亚国内由他的弟弟德波尔德一世代为监国，而且手腕强硬：当年轻的索别斯拉夫——老索别斯拉夫一世之子，也就是1140年被贵族绕过、没能继位的那位堂兄弟——试图趁公爵不在国内夺权时，德波尔德在事情闹大之前就将其压了下去。元帅战死、大法官被俘，家里还差点被人夺了权——算下来，这趟“假手于人”的十字军，对公爵本人而言反倒是相对安全的那一半——真正上了战场的，是他带去的那些人。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Second_Crusade",
+  },
+  {
+    // Background-knowledge card. startYear is deliberately non-integer
+    // (1147.5) purely as a sort anchor to slot this right after
+    // vladislaus-ii-crusade-1147 and before vladislaus-ii-second-crown-1158
+    // — background cards don't claim a sidebar year slot (filtered out in
+    // HistorySidebar/HistoryPage) so this never renders anywhere.
+    slug: "what-were-the-crusades-1147",
+    era: "bohemian-duchy",
+    startYear: 1147.5,
+    cardType: "background",
+    year: {
+      en: "1095–1291",
+      cz: "1095–1291",
+      zh: "1095年－1291年",
+    },
+    tone: "humorous",
+    title: {
+      en: "What, Exactly, Were the Crusades?",
+      cz: "Co vlastně byly křížové výpravy?",
+      zh: "十字军东征，到底是怎么回事？",
+    },
+    hookLine: {
+      en: "Vladislaus just crusaded halfway and sent his household the rest of the way — which raises the obvious question of what a 'crusade' actually was, and why medieval Europe kept launching them for two centuries.",
+      cz: "Vladislav se právě vydal na křížovou výpravu jen do půli cesty a zbytek poslal svou družinu — což vyvolává zjevnou otázku, co „křížová výprava\" vlastně byla a proč je středověká Evropa dvě stě let pořád znovu vyhlašovala.",
+      zh: "弗拉迪斯拉夫刚刚只走了半程十字军之路，剩下的路让自己的随从替他走完——这理应引出一个明摆着的问题：“十字军东征”到底是怎么回事，中世纪欧洲又为什么一连折腾了两百年。",
+    },
+    summary: {
+      en: "Pope Urban II kicked the whole thing off in 1095, at the Council of Clermont in France, with a speech calling on Western Christians to march east and reclaim Jerusalem and the Holy Land from Muslim rule. The pitch came with a genuinely revolutionary sales pitch attached: anyone who took up the cross and fought would receive a plenary indulgence, wiping out the temporal punishment for all their confessed sins. For a medieval Christian who took the afterlife seriously, that was an extraordinary offer — a battlefield that doubled as a shortcut through purgatory.\n\nThe immediate trigger was a request from the other direction. Byzantine Emperor Alexios I Komnenos, watching the Seljuk Turks overrun most of Anatolia in the decades after their crushing 1071 victory at Manzikert, had asked Urban for a modest favor: some Western mercenaries to help shore up his eastern frontier. What he got instead was tens of thousands of independent nobles, knights, and commoners marching east under their own banners, with their own agendas, largely uninterested in taking orders from Constantinople. Alexios had asked for a plumber and gotten an entire construction crew that immediately started renovating rooms he hadn't opened yet.\n\nThat First Crusade (1096–1099) was brutal and chaotic, but it worked, at least by its own violent standard: the crusaders captured Jerusalem in 1099, massacring much of its population in the process, and carved out a cluster of Western-ruled statelets along the eastern Mediterranean coast — the Kingdom of Jerusalem, the County of Edessa, the Principality of Antioch, the County of Tripoli — collectively known as the Crusader States, a patchwork of European rule stranded deep in hostile territory and permanently dependent on reinforcements from home.\n\nThose reinforcements are exactly what brought Vladislaus II into the story. When Edessa, the northernmost and most exposed of the Crusader States, fell to the Muslim ruler Zengi in 1144, Bernard of Clairvaux and Pope Eugene III called for a Second Crusade (1147–1149) to shore things up — the first crusade led by reigning kings, Conrad III of Germany and Louis VII of France, rather than assorted nobles. It was, by any measure, a disaster: Conrad's army collapsed in Anatolia before it even reached the Holy Land, as this timeline just covered, and the combined Western force went on to fail spectacularly at besieging Damascus in 1148 — a siege abandoned after four days. It was the first time a crusade had visibly, undeniably failed, and it wouldn't be the last.\n\nAltogether, historians conventionally count about eight numbered Crusades to the Holy Land, running until the fall of Acre in 1291 finally wiped out the last mainland Crusader territory. But 'crusade' didn't stay confined to the Holy Land for long — the Church stamped the same label, complete with the same indulgences, on wars against pagans in the Baltic, heretics in southern France, and even political rivals in Italy. In that sense, the Church did to the word 'crusade' roughly what the Holy Roman Empire did to the word 'Roman': borrowed a name with real prestige attached and applied it to whatever war needed extra legitimacy that decade.\n\nFor the rulers who signed up — Vladislaus II very much included — genuine faith was rarely the whole story. It came bundled with feudal obligation, a shot at glory and papal goodwill, and, as this timeline's own version just demonstrated, a useful excuse to consolidate power back home. The people who actually paid crusading's steepest price, then and generally, were the soldiers who did the marching and dying — not the kings who did the calling.",
+      cz: "Papež Urban II. celou věc odstartoval v roce 1095 na koncilu v Clermontu ve Francii proslovem, který vyzýval západní křesťany, aby vytáhli na východ a vydobyli Jeruzalém a Svatou zemi zpět z muslimské nadvlády. K nabídce se pojila skutečně revoluční pobídka: kdokoli vzal na sebe kříž a bojoval, měl získat plnomocné odpustky, jež mazaly časný trest za všechny vyznané hříchy. Pro středověkého křesťana, který bral posmrtný život vážně, to byla mimořádná nabídka — bojiště, které zároveň fungovalo jako zkratka skrz očistec.\n\nBezprostředním podnětem byla žádost z opačné strany. Byzantský císař Alexios I. Komnenos, sledující, jak seldžučtí Turci po svém drtivém vítězství u Mantzikertu roku 1071 v následujících desetiletích ovládli většinu Malé Asie, požádal Urbana o skromnou laskavost: pár západních žoldnéřů na posílení východní hranice. Místo toho dostal desetitisíce nezávislých šlechticů, rytířů a prostých lidí, táhnoucích na východ pod vlastními korouhvemi a s vlastními zájmy, kteří se od Konstantinopole nechtěli nechat příliš poroučet. Alexios si objednal instalatéra a dostal celou stavební četu, která se rovnou pustila do přestavby pokojů, o které vůbec nepožádal.\n\nPrvní křížová výprava (1096–1099) byla brutální a chaotická, ale podle svého vlastního, násilného měřítka fungovala: křižáci roku 1099 dobyli Jeruzalém, přičemž při tom povraždili velkou část jeho obyvatel, a podél východního pobřeží Středozemního moře vyřezali shluk západních panství — Jeruzalémské království, hrabství Edessa, knížectví Antiochie, hrabství Tripolis — souhrnně zvaných křižácké státy, mozaiku evropské vlády uvízlou hluboko v nepřátelském území a natrvalo závislou na posilách z domova.\n\nPřesně tyhle posily přivedly do příběhu Vladislava II. Když roku 1144 padla Edessa, nejsevernější a nejzranitelnější z křižáckých států, do rukou muslimského vládce Zengího, vyzvali Bernard z Clairvaux a papež Evžen III. k druhé křížové výpravě (1147–1149) — první, kterou vedli přímo vládnoucí králové, německý Konrád III. a francouzský Ludvík VII., ne jen sebraní šlechtici. Podle jakéhokoli měřítka to byla katastrofa: Konrádovo vojsko se zhroutilo v Malé Asii ještě dřív, než dorazilo do Svaté země, jak tahle časová osa právě popsala, a spojené západní síly pak efektně selhaly při obléhání Damašku roku 1148 — obléhání, které vzdaly po čtyřech dnech. Byla to poprvé, co křížová výprava viditelně a nepopiratelně selhala, a nebylo to naposledy.\n\nHistorikové obvykle napočítají celkem osm číslovaných křížových výprav do Svaté země, táhnoucích se až do pádu Akkonu roku 1291, který definitivně vymazal poslední pevninské křižácké území. Ale slovo „křížová výprava\" dlouho nezůstalo omezené jen na Svatou zemi — církev stejným označením, se stejnými odpustky, opatřila i války proti pohanům v Pobaltí, kacířům na jihu Francie a dokonce politickým soupeřům v Itálii. V tomhle smyslu udělala církev se slovem „křížová výprava\" zhruba to samé, co Svatá říše římská se slovem „římská\": vypůjčila si jméno se skutečnou prestiží a nalepila ho na jakoukoli válku, která zrovna potřebovala víc legitimity.\n\nU vládců, kteří se přihlásili — Vladislava II. rozhodně nevyjímaje — jen zřídkakdy šlo výhradně o víru. Přidávala se k ní lenní povinnost, šance na slávu a papežskou přízeň a, jak právě předvedla tahle časová osa ve své vlastní verzi, i užitečná záminka k upevnění moci doma. Ti, kdo za křížové výpravy platili nejvyšší cenu, tehdy i obecně, byli vojáci, kteří táhli a umírali — ne králové, kteří k tomu vyzývali.",
+      zh: "教皇乌尔班二世在1095年法国克莱蒙宗教会议上发表演说，正式拉开了这一切的序幕：他号召西方基督徒东征，从穆斯林手中夺回耶路撒冷和圣地。这个号召还附带了一项真正意义上颠覆性的许诺——任何背上十字、参与作战的人，都能获得全大赦，抵消他们已忏悔罪行应受的现世惩罚。对一个真心相信来世的中世纪基督徒来说，这是个极具诱惑力的条件——一片战场，同时也是一条穿越炼狱的捷径。\n\n直接的导火索，其实来自对面阵营的一次求助。拜占庭皇帝阿莱克修斯一世眼看塞尔柱突厥人自1071年曼齐刻尔特战役大获全胜以来，几十年间不断蚕食小亚细亚，便向乌尔班提出了一个不大的请求：派些西方雇佣兵来，帮忙巩固一下东部边境。结果他等来的却是几万名各自为战的贵族、骑士和平民，打着自己的旗号、怀着自己的盘算浩浩荡荡东进，压根不太把君士坦丁堡的号令当回事。阿莱克修斯本想找个水管工来修修管子，结果来了一整支施工队，二话不说就开始装修他根本没让他们碰的房间。\n\n第一次十字军东征（1096年－1099年）过程血腥混乱，但按它自己那套残酷的标准来说，确实达成了目的：十字军1099年攻陷耶路撒冷，屠杀了城中大批居民，并沿着地中海东岸切割出了一片西方统治的小邦国——耶路撒冷王国、埃德萨伯国、安条克公国、的黎波里伯国——统称“十字军国家”，一块深陷敌境、永远指望本土增援的欧式统治拼图。\n\n而正是这份“增援”，把弗拉迪斯拉夫二世也拉进了这段故事。1144年，十字军国家里位置最靠北、也最暴露在外的埃德萨伯国，落入了穆斯林统治者赞吉之手，圣伯尔纳和教皇尤金三世随即号召发起第二次十字军东征（1147年－1149年）——这是第一次由在位国王亲自领军的十字军，德意志的康拉德三世和法兰西的路易七世，而非零散贵族凑起来的队伍。可无论怎么看，这都是一场灾难：正如这条时间线刚讲过的，康拉德的军队还没抵达圣地，就已经在小亚细亚土崩瓦解；东西方联军随后又在1148年围攻大马士革一役上惨遭失败——围城仅仅四天就被迫放弃。这是十字军史上第一次如此明显、无可争辩的失败，而且远不是最后一次。\n\n历史学家通常把前往圣地的十字军东征算作八次，一路延续到1291年阿卡陷落，彻底抹去了十字军在陆上最后的据点。可“十字军”这个名号并没有长期局限于圣地——教会很快把同一个标签、同一套大赦承诺，套用到了波罗的海对异教徒的战争、法国南部对异端的战争，甚至意大利境内针对政治对手的战争上。从这个角度看，教会对“十字军”这个词干的事，跟神圣罗马帝国对“罗马”这个词干的事其实差不多：借来一个自带光环的名号，哪场战争当年需要多一点合法性，就往哪场战争身上一贴。\n\n对那些报名参加的统治者来说——弗拉迪斯拉夫二世当然也不例外——信仰很少是全部的理由。跟信仰捆绑在一起的，往往还有封建义务、博取荣耀和教皇好感的机会，以及——正如这条时间线自己这版故事刚刚展示的——巩固国内权力的一个好借口。而真正为十字军东征付出最惨重代价的，无论是这一次还是别的哪一次，从来都是那些真正远征、真正战死的士兵——不是那些振臂一呼、发号施令的国王。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Crusades",
+  },
+  {
     slug: "vladislaus-ii-second-crown-1158",
     era: "bohemian-duchy",
     startYear: 1158,
@@ -1554,6 +1680,7 @@ export const historyEvents = [
       cz: "1158–1173",
       zh: "1158年－1173年",
     },
+    images: ["/history/vladislaus-ii-second-crown-1158.webp"],
     tone: "humorous",
     title: {
       en: "Bohemia's Second Borrowed Crown",
@@ -1566,18 +1693,43 @@ export const historyEvents = [
       zh: "索别斯拉夫自己的侄子于1140年继承了公国——并且延续了他父亲和叔叔未竟的事业，追逐着同一份并不那么持久的荣耀。",
     },
     summary: {
-      en: "Vladislaus II — son of the Vladislav I who'd died in 1125, and nephew of Soběslav I, whose victory at Chlumec he inherited the benefits of — became duke in 1140 and spent nearly two decades looking for the same prize his uncle Vratislaus had briefly held seventy years earlier. He got it in 1158, when Holy Roman Emperor Frederick Barbarossa crowned him king in gratitude for Bohemian troops backing his campaigns in Lombardy.\n\nVladislaus wore the crown for fifteen years before abdicating in 1173 in favour of his own son — at which point, exactly like his uncle before him, the title reverted to plain duke for whoever came next. Twice now, Bohemia had tried on a crown that fit for exactly one lifetime and no longer.",
-      cz: "Vladislav II. — syn Vladislava I., který zemřel v roce 1125, a synovec Soběslava I., jehož vítězství u Chlumce po něm zdědil výhody — se stal knížetem roku 1140 a téměř dvě desetiletí hledal stejnou trofej, kterou jeho strýc Vratislav krátce držel o sedmdesát let dřív. Dočkal se jí roku 1158, kdy ho římský král Fridrich Barbarossa korunoval králem jako vděk za české oddíly podporující jeho tažení v Lombardii.\n\nVladislav nosil korunu patnáct let, než v roce 1173 abdikoval ve prospěch vlastního syna — a přesně jako u jeho strýce před ním se titul vrátil zpátky ke knížecímu, ať už po něm nastoupil kdokoli. Čechy si tak podruhé vyzkoušely korunu, která padla přesně na jeden život a ani o den déle.",
-      zh: "弗拉迪斯拉夫二世——1125年去世的弗拉迪斯拉夫一世之子，也是索别斯拉夫一世的侄子，承袭了叔叔在赫卢梅茨战役中赢得的政治红利——于1140年成为公爵，并花了将近二十年时间，追寻着他叔叔弗拉季斯拉夫七十年前曾短暂拥有过的那份荣耀。1158年，他终于如愿：神圣罗马帝国皇帝“红胡子”腓特烈一世，为答谢波希米亚军队支援他在伦巴第的战事，加冕他为国王。\n\n弗拉迪斯拉夫戴着这顶王冠十五年，直到1173年主动退位、传给自己的儿子——而就像他叔叔当年一样，这个头衔随即又降回了公爵，无论接下来是谁继位。波希米亚由此第二次尝到了一顶只合身一辈子、绝不多留一天的王冠。",
+      en: "Once his position as duke was secure, Vladislaus spent nearly two decades chasing the same prize his uncle Vratislaus had briefly held seventy years earlier. He got it in 1158, when Holy Roman Emperor Frederick I crowned him king in gratitude for Bohemian troops backing his campaigns in Lombardy. Frederick is better known today by his nickname, Barbarossa — Italian for 'red beard,' reportedly coined by the famously unruly Italians he spent his reign trying to govern. It's the same nickname either way, not two different men, in case that's ever confusing; players of a certain strategy game might also recognize him as Civilization VI's German leader since the game's 2016 launch, bonus combat strength against city-states included. The name got borrowed once more, far more gravely, eight centuries later: Nazi Germany's 1941 invasion of the Soviet Union was originally codenamed Operation Fritz, until Hitler personally renamed it Operation Barbarossa, invoking the old German legend that the emperor never really died — just slept beneath the Kyffhäuser mountains, waiting to wake and restore Germany to greatness.\n\nVladislaus wore his own, far less mythologized crown for fifteen years before abdicating in 1173 in favour of his own son — at which point, exactly like his uncle before him, the title reverted to plain duke for whoever came next. His reign left a deeper mark in stone than in politics: alongside Strahov and Plasy, his years on the throne saw a wave of new Premonstratensian and Cistercian monasteries founded across Bohemia. Vladislaus himself retired to the Thuringian estates of his second wife, Judith of Thuringia, after abdicating, and died there in January 1174 — buried first at Meissen Cathedral, before his remains were eventually brought home to rest at Strahov, the monastery he'd founded three decades earlier. Twice now, Bohemia had tried on a crown that fit for exactly one lifetime and no longer.",
+      cz: "Jakmile měl své postavení knížete zajištěné, Vladislav téměř dvě desetiletí honil stejnou trofej, kterou jeho strýc Vratislav krátce držel o sedmdesát let dřív. Dočkal se jí roku 1158, kdy ho římský císař Fridrich I. korunoval králem jako vděk za české oddíly podporující jeho tažení v Lombardii. Fridrich je dnes známější pod svou přezdívkou Barbarossa — italsky „ryšavý vous\", kterou mu prý vymysleli právě ti pověstně neposlušní Italové, jimž se celou vládu snažil podřídit. Je to pořád jedna a tatáž přezdívka, ne dva různí muži, kdyby to bylo někdy matoucí; hráči jisté strategické hry ho možná poznají i jako německého vůdce v Civilization VI, kde je od vydání hry v roce 2016 — bonus za útok na městské státy nevyjímaje. Jméno si o osm století později vypůjčil ještě jednou, mnohem těžším způsobem: nacistické Německo v roce 1941 pojmenovalo invazi do Sovětského svazu původně jako operaci Fritz, než ji Hitler osobně přejmenoval na operaci Barbarossa — s odkazem na starou německou pověst, že císař ve skutečnosti nezemřel, jen usnul pod horou Kyffhäuser a čeká, až se probudí a vrátí Německu jeho slávu.\n\nVladislav nosil svou vlastní, o poznání méně opředenou korunu patnáct let, než v roce 1173 abdikoval ve prospěch vlastního syna — a přesně jako u jeho strýce před ním se titul vrátil zpátky ke knížecímu, ať už po něm nastoupil kdokoli. Jeho vláda zanechala hlubší stopu v kamení než v politice: vedle Strahova a Plasů se za jeho let na trůně po Čechách rozšířila celá vlna nových premonstrátských a cisterciáckých klášterů. Sám Vladislav se po abdikaci odebral na duryňská panství své druhé manželky, Judity Durynské, a zemřel tam v lednu 1174 — pohřben nejprve v míšeňské katedrále, než byly jeho ostatky nakonec převezeny domů na Strahov, do kláštera, který sám před třiceti lety založil. Čechy si tak podruhé vyzkoušely korunu, která padla přesně na jeden život a ani o den déle.",
+      zh: "弗拉迪斯拉夫坐稳公爵之位后，又花了将近二十年追寻他叔叔弗拉季斯拉夫七十年前曾短暂拥有过的那份荣耀。1158年，他终于如愿：神圣罗马帝国皇帝腓特烈一世，为答谢波希米亚军队支援他在伦巴第的战事，加冕他为国王。腓特烈一世今天更广为人知的称呼是他的绰号“巴巴罗萨”——意大利语“红胡子”的音译，据说正是他试图统治的那些出了名桀骜不驯的意大利臣民给他起的。“红胡子”和“巴巴罗萨”其实是同一个绰号，一个意译、一个音译，指的是同一个人，不是两个人，以免读者混淆；对某款策略游戏有印象的玩家，可能还认得他——自2016年发售起，他就一直是《文明6》里德意志文明的领袖，攻击城邦还能拿到额外加成。这个名字后来还被借用过一次，而且这次的分量重得多：八百年后，纳粹德国1941年入侵苏联的行动，最初代号叫“弗里茨行动”，后来希特勒亲自下令改名为“巴巴罗萨行动”——借用的正是德国民间流传的那个传说：这位皇帝并没有真正死去，只是沉睡在基夫霍伊泽山中，等待有朝一日苏醒，带领德国重返辉煌。\n\n弗拉迪斯拉夫戴着这顶远没那么多传说加身的王冠十五年，直到1173年主动退位、传给自己的儿子——而就像他叔叔当年一样，这个头衔随即又降回了公爵，无论接下来是谁继位。他这一朝，在石头上留下的印记，比在政治上留下的更深远：除了斯特拉霍夫和普拉西，他在位期间波希米亚各地还兴建了一整批新的普雷蒙特雷会和熙笃会修道院。退位后，弗拉迪斯拉夫本人回到了第二任妻子、图林根的朱迪思家族的领地，1174年1月在那里去世——先安葬于迈森大教堂，遗骨后来才被迁回斯特拉霍夫，回到他三十年前亲手创建的那座修道院。波希米亚由此第二次尝到了一顶只合身一辈子、绝不多留一天的王冠。",
     },
-    relatedLandmarks: [],
+    relatedLandmarks: [
+      {
+        slug: "strahov-monastery",
+        relation: {
+          en: "Vladislaus founded this Premonstratensian monastery in 1143 — the grandest building project of his reign, and the mother house of a whole monastic network, spinning off daughter foundations at Litomyšl (1145) and Hradisko (1150) within just a few years. He died far from home in Thuringia in 1174 and was buried first at Meissen Cathedral — but his remains eventually made their way back here, to rest permanently in the monastery he'd founded three decades before.",
+          cz: "Vladislav založil tento premonstrátský klášter v roce 1143 — nejvýstavnější stavební počin svého panování, a zároveň mateřský dům celé klášterní sítě, z níž během pár let vzešly dceřiné kláštery v Litomyšli (1145) a na Hradisku (1150). Zemřel daleko od domova, v Duryňsku, roku 1174, a byl nejprve pohřben v míšeňské katedrále — jeho ostatky ale nakonec našly cestu zpátky sem, aby natrvalo spočinuly v klášteře, který sám před třiceti lety založil.",
+          zh: "弗拉迪斯拉夫1143年创建了这座普雷蒙特雷修道院——他在位期间布拉格最宏伟的建筑工程，也是一整套修道院网络的“母院”，短短几年内就分支出了利托米什尔（1145年）和赫拉迪斯科（1150年）两座子修道院。1174年，他客死于远在图林根的异乡，最初安葬在迈森大教堂——但他的遗骨最终还是被迁回了这里，永远安息在这座他三十年前亲手创建的修道院中。",
+        },
+      },
+      {
+        slug: "klaster-plasy",
+        relation: {
+          en: "A year after Strahov, Vladislaus founded this Cistercian monastery too — a different order entirely, but the same pattern of a duke using new monastic foundations to shore up his legitimacy and piety at once.",
+          cz: "Rok po Strahovu založil Vladislav i tento cisterciácký klášter — úplně jiný řád, ale stejný vzorec: kníže si novými klášterními fundacemi budoval zbožnost i legitimitu zároveň.",
+          zh: "在斯特拉霍夫修道院之后一年，弗拉迪斯拉夫又创建了这座熙笃会修道院——完全不同的修会，却是同一个套路：公爵靠着不断新建修道院，同时给自己攒虔诚人设和政治合法性。",
+        },
+      },
+      {
+        slug: "sedlecky-klaster",
+        relation: {
+          en: "Not Vladislaus's own project — this one predates his reign's monastery-building spree by a few years and was founded by a Bohemian nobleman instead — but it's the actual first Cistercian house in Bohemia, arriving two years before his own Plasy foundation.",
+          cz: "Tohle nebyl Vladislavův vlastní projekt — vznikl o pár let dřív, než se pustil do zakládání klášterů, a založil ho místo toho český šlechtic — ale je to skutečně první cisterciácký dům v Čechách, o dva roky starší než jeho vlastní Plasy.",
+          zh: "这个不是弗拉迪斯拉夫本人的项目——它比他开始大兴修道院早了几年，出资的是一位波希米亚贵族——但它确确实实是波希米亚第一座熙笃会修道院，比他自己那座普拉西修道院还早两年。",
+        },
+      },
+    ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Vladislaus_II,_Duke_and_King_of_Bohemia",
   },
   {
     // Deliberate cross-chapter foreshadowing (2026-08): the Judith Bridge is
     // Prague's first stone crossing, destroyed in the 1342 flood and rebuilt
     // on nearly the same site as Charles Bridge under Charles IV. That
-    // future event — expected in Era 3 (medieval-golden-age), not yet
+    // future event — expected in Era 3 (kingdom-golden-age), not yet
     // seeded — should explicitly reference this one back (Charles Bridge
     // exists because this bridge didn't survive) rather than introducing
     // Charles Bridge as if the Vltava had no crossing before it.
@@ -1589,6 +1741,7 @@ export const historyEvents = [
       cz: "kolem 1170",
       zh: "约1170年",
     },
+    images: ["/history/judith-bridge-1170.webp"],
     tone: "humorous",
     title: {
       en: "The River's First Bridge",
@@ -1601,9 +1754,9 @@ export const historyEvents = [
       zh: "在他十五年的国王任期里，弗拉迪斯拉夫还抽出时间，给布拉格留下了一样比他终将失去的王冠有用得多的东西。",
     },
     summary: {
-      en: "Sometime around 1170, Vladislaus had Prague's first stone bridge built across the Vltava, linking the Old Town to the settlements below Prague Castle — one of the earliest stone bridges anywhere in Central Europe, named the Judith Bridge after his wife. Before it, crossing the river meant a ford or a ferry; after it, Prague had a permanent stone spine holding its two halves together, over a century and a half before anyone had heard of Charles IV.\n\nThe bridge stood for roughly 170 years, until a catastrophic flood in 1342 swept most of it away — and its replacement, commissioned a few years later by Charles IV on almost the same site, is the one every visitor photographs today. Before there was a Charles Bridge, in other words, there was this one, and Charles Bridge exists more or less because this one didn't survive.",
-      cz: "Někdy kolem roku 1170 nechal Vladislav postavit první kamenný most v Praze přes Vltavu, spojující Staré Město s osadami pod Pražským hradem — jeden z nejstarších kamenných mostů kdekoli ve střední Evropě, pojmenovaný Juditin most po jeho manželce. Před ním se řeka překonávala brodem nebo převozem; po něm měla Praha trvalou kamennou páteř držící obě její poloviny pohromadě, a to víc než století a půl předtím, než kdokoli slyšel o Karlu IV.\n\nMost stál zhruba sto sedmdesát let, dokud ho ničivá povodeň v roce 1342 z velké části nestrhla — a jeho náhradu, kterou o pár let později nechal na téměř stejném místě postavit Karel IV., dnes fotí každý návštěvník. Jinými slovy: než byl Karlův most, byl tenhle — a Karlův most vlastně existuje hlavně proto, že tenhle nepřežil.",
-      zh: "大约在1170年前后，弗拉迪斯拉夫下令在伏尔塔瓦河上建起了布拉格第一座石桥，将老城与布拉格城堡脚下的聚落连接起来——这是中欧现存最早的石桥之一，以他的妻子尤蒂特命名，即“尤蒂特桥”。在它建成之前，过河只能靠涉水或摆渡；有了它之后，布拉格终于有了一条永久性的石造脊梁，把这座城市的两半连在了一起——比任何人听说过查理四世都要早上一个半世纪还多。\n\n这座桥矗立了大约一百七十年，直到1342年一场毁灭性的洪水将其大部分冲毁——几年后，查理四世下令几乎在同一位置建起了它的替代者，也就是今天每一位游客都会拍照留念的那座桥。换句话说：在有查理大桥之前，先有的是这座桥——而查理大桥之所以存在，很大程度上正是因为这座桥没能撑下来。",
+      en: "Sometime around 1170, Vladislaus had Prague's first stone bridge built across the Vltava, linking the Old Town to the settlements below Prague Castle — one of the earliest stone bridges anywhere in Central Europe, named the Judith Bridge after his second wife, Judith of Thuringia. Before it, crossing the river meant a ford or a ferry; after it, Prague had a permanent stone spine holding its two halves together, over a century and a half before anyone had heard of Charles IV.\n\nThe bridge stood for roughly 170 years, until a catastrophic flood in 1342 swept most of it away — and its replacement, commissioned a few years later by Charles IV on almost the same site, is the one every visitor photographs today. Before there was a Charles Bridge, in other words, there was this one, and Charles Bridge exists more or less because this one didn't survive.",
+      cz: "Někdy kolem roku 1170 nechal Vladislav postavit první kamenný most v Praze přes Vltavu, spojující Staré Město s osadami pod Pražským hradem — jeden z nejstarších kamenných mostů kdekoli ve střední Evropě, pojmenovaný Juditin most po jeho druhé manželce, Juditě Durynské. Před ním se řeka překonávala brodem nebo převozem; po něm měla Praha trvalou kamennou páteř držící obě její poloviny pohromadě, a to víc než století a půl předtím, než kdokoli slyšel o Karlu IV.\n\nMost stál zhruba sto sedmdesát let, dokud ho ničivá povodeň v roce 1342 z velké části nestrhla — a jeho náhradu, kterou o pár let později nechal na téměř stejném místě postavit Karel IV., dnes fotí každý návštěvník. Jinými slovy: než byl Karlův most, byl tenhle — a Karlův most vlastně existuje hlavně proto, že tenhle nepřežil.",
+      zh: "大约在1170年前后，弗拉迪斯拉夫下令在伏尔塔瓦河上建起了布拉格第一座石桥，将老城与布拉格城堡脚下的聚落连接起来——这是中欧现存最早的石桥之一，以他的第二任妻子、图林根的尤蒂特命名，即“尤蒂特桥”。在它建成之前，过河只能靠涉水或摆渡；有了它之后，布拉格终于有了一条永久性的石造脊梁，把这座城市的两半连在了一起——比任何人听说过查理四世都要早上一个半世纪还多。\n\n这座桥矗立了大约一百七十年，直到1342年一场毁灭性的洪水将其大部分冲毁——几年后，查理四世下令几乎在同一位置建起了它的替代者，也就是今天每一位游客都会拍照留念的那座桥。换句话说：在有查理大桥之前，先有的是这座桥——而查理大桥之所以存在，很大程度上正是因为这座桥没能撑下来。",
     },
     relatedLandmarks: [
       {
@@ -1618,6 +1771,47 @@ export const historyEvents = [
     wikipediaUrl: "https://en.wikipedia.org/wiki/Judith_Bridge",
   },
   {
+    slug: "quarter-century-of-dukes-1173",
+    era: "bohemian-duchy",
+    startYear: 1173,
+    year: {
+      en: "1173–1198",
+      cz: "1173–1198",
+      zh: "1173年－1198年",
+    },
+    images: [
+      "/history/quarter-century-of-dukes-1173-frederick.webp",
+      "/history/quarter-century-of-dukes-1173-otakar.webp",
+    ],
+    tone: "humorous",
+    title: {
+      en: "The Most Calculating Přemyslid",
+      cz: "Nejvypočítavější z Přemyslovců",
+      zh: "最擅长权衡的那个普热美斯尔人",
+    },
+    hookLine: {
+      en: "If this succession chaos looks familiar, it should — Bohemia is about to run through five more rulers in twenty-five years, same as it did the last time.",
+      cz: "Pokud ti tenhle nástupnický chaos připadá povědomý, není divu — Čechy se chystají za pětadvacet let vystřídat dalších pět panovníků, stejně jako minule.",
+      zh: "如果这场继承混乱看着眼熟，那很正常——波希米亚又要在二十五年里换掉五位统治者，跟上次一模一样。",
+    },
+    summary: {
+      en: "If this feels familiar, that's the idea: Bohemia is about to run almost the same play it ran between 1092 and 1125, just with a new cast. When Vladislaus II abdicated in 1173, he arranged the succession for Frederick, his son by his first wife Gertrude — without bothering to clear it with Emperor Frederick Barbarossa first. That omission alone was enough: an imperial diet formally deposed both Vladislaus and Frederick within the year. Next came Soběslav II, remembered as 'the Peasant Prince' for his sympathy toward the common farmers, though he had far less patience for anyone with actual power: he dodged Barbarossa's summons to Italy and picked a fight with Austria's Babenberg dukes that got an imperial relative killed.\n\nFrederick's comeback, starting in 1178 with Austrian and Moravian allies, didn't go smoothly either: on 23 January 1179, Soběslav's army routed him outright at the village of Loděnice, southwest of Prague, and Frederick was forced to flee. Four days later, on 27 January, he regrouped and won a decisive battle outside Prague's own walls, finally driving Soběslav from power for good — and this time held on until his death in 1189. His second reign wasn't calm either: in 1174, Conrad II Otto of Znojmo reunited all of Moravia's scattered appanages under himself, and in 1182 Emperor Frederick Barbarossa — looking for a way to weaken the Bohemian duke — formally elevated Moravia into its own independent margraviate, answering directly to the emperor instead of Prague. The two rival Přemyslid branches collided head-on in 1185 at a different village that just happened to share the same name — this one down in Moravia — the Bohemian side commanded by Frederick's own much younger brother, years before that brother got a turn on the throne himself. Conrad Otto inherited the Bohemian job next in 1189, followed by Wenceslas II, who lasted three months before being deposed by his own predecessor's rival: a half-brother about to become the main character of this entire era.\n\nThat half-brother was Otakar I — son of Vladislaus II and his second wife, Judith of Thuringia, the same queen this timeline just watched get a bridge named after her — and his own rise wasn't any smoother. He seized the duchy the moment Wenceslas fell in 1192, then lost it barely a year later for conspiring with German princes against the very Hohenstaufen dynasty he'd eventually need on his side. Bohemia spent the next four years, extraordinarily, under the rule of the Bishop of Prague — installed by imperial decree after neither rival claimant could produce the payment the emperor wanted. Otakar's real second chance, in 1197, came at his own family's expense: he pushed his younger brother, Vladislaus III, out of Bohemia entirely, compensating him with permanent, hereditary rule over Moravia instead. It wasn't a hostile takeover by this family's usual standards — the brothers negotiated the handover and stayed close for the rest of their lives — but it was still one more Přemyslid claiming the throne by removing a relative from it.\n\nWhoever finally held on this time was about to do something none of the previous five managed.",
+      cz: "Pokud ti tohle připadá povědomé, tak právě proto: Čechy se chystají zopakovat skoro tu samou hru, kterou hrály mezi lety 1092 a 1125, jen s novým obsazením. Když Vladislav II. v roce 1173 abdikoval, zařídil nástupnictví pro Fridricha, svého syna z prvního manželství s Gertrudou — aniž by se obtěžoval to napřed projednat s císařem Fridrichem Barbarossou. Samotné tohle opomenutí stačilo: říšský sněm do roka formálně sesadil Vladislava i Fridricha. Dalším na řadě byl Soběslav II., v paměti zapsaný jako „kníže sedláků\" pro svou náklonnost k prostým rolníkům, i když s kýmkoli, kdo měl skutečnou moc, měl trpělivosti podstatně méně: vyhýbal se Barbarossovu předvolání do Itálie a vyvolal spor s rakouskými Babenberky, který stál život jednoho z císařových příbuzných.\n\nFridrichův návrat, který začal v roce 1178 s rakouskou a moravskou pomocí, taky neproběhl hladce: 23. ledna 1179 ho Soběslavovo vojsko rovnou rozdrtilo u vesnice Loděnice jihozápadně od Prahy, a Fridrich musel uprchnout. O čtyři dny později, 27. ledna, se přeskupil a vybojoval rozhodující vítězství přímo pod pražskými hradbami, čímž Soběslava definitivně zbavil moci — a tentokrát se udržel až do své smrti v roce 1189. Ani jeho druhá vláda nebyla klidná: v roce 1174 Konrád Ota Znojemský znovu sjednotil všechny roztříštěné moravské úděly pod sebou, a v roce 1182 císař Fridrich Barbarossa — hledající způsob, jak oslabit českého knížete — formálně povýšil Moravu na samostatné markrabství, odpovídající přímo císaři místo Praze. Obě soupeřící přemyslovské větve se přímo srazily v roce 1185 u jiné vesnice, která náhodou nesla stejné jméno — tahle ležela dole na Moravě — na české straně velel Fridrichův vlastní, o mnoho mladší bratr, ještě léta předtím, než se on sám dostal na trůn. Konrád Ota po Fridrichovi úřad zdědil v roce 1189, následován Václavem II., který vydržel tři měsíce, než ho sesadil soupeř jeho vlastního předchůdce: nevlastní bratr, který se za chvíli stane hlavní postavou celé téhle éry.\n\nTím nevlastním bratrem byl Otakar I. — syn Vladislava II. a jeho druhé manželky Judity Durynské, téže královny, které tahle časová osa právě sledovala pojmenovat po ní most — a jeho vlastní vzestup nebyl o nic hladší. Knížectví se zmocnil ve chvíli, kdy padl Václav, v roce 1192, a sotva o rok později o něj zase přišel — za spiknutí s německými knížaty proti štaufské dynastii, kterou by nakonec potřeboval na své straně. Čechy pak neobvykle další čtyři roky spravoval pražský biskup — dosazený císařským nařízením poté, co ani jeden ze soupeřících uchazečů nedokázal zaplatit, co po nich císař žádal. Otakarova skutečná druhá šance, v roce 1197, přišla na úkor vlastní rodiny: přinutil svého mladšího bratra Vladislava III., aby se Čech úplně vzdal, výměnou za trvalou, dědičnou vládu nad Moravou. Podle standardů téhle rodiny to nebyl násilný převrat — bratři si předání moci vyjednali a zůstali si blízcí až do konce života — ale pořád to byl další přemyslovec, který se dostal k trůnu tím, že z něj odstranil příbuzného.\n\nKdokoli tentokrát nakonec udrží trůn, chystá se udělat něco, co se nepovedlo žádnému z předchozích pěti.",
+      zh: "如果这一幕让你有种似曾相识的感觉，那就是故意的：波希米亚又要把1092年到1125年那出戏几乎原样重演一遍，只是换了一批演员。1173年，弗拉迪斯拉夫二世宣布退位，把继承人定为他与第一任妻子格特鲁德所生的儿子弗雷德里克——却压根没先跟皇帝腓特烈·巴巴罗萨打招呼商量这件事。光是这个“没请示”，就足以把皇帝惹恼：帝国议会不到一年，就把弗拉迪斯拉夫二世和弗雷德里克父子俩一起正式废黜了。接下来轮到索别斯拉夫二世，史书上称他“农民王子”，因为他同情普通农民——可对任何真正握有权力的人，他的耐心就少得多：他躲开了巴巴罗萨征意大利的征召令，还跟奥地利的巴本贝格家族结了梁子，闹出了一位皇室近亲丧命的事故。\n\n弗雷德里克1178年靠着奥地利和摩拉维亚的援手杀了回来，可这次复位同样不顺：1179年1月23日，索别斯拉夫的军队在布拉格西南方的洛杰尼采村把他彻底打垮，弗雷德里克被迫仓皇撤退。四天后，1月27日，他重整旗鼓，在布拉格城墙外打赢了一场决定性的胜仗，彻底把索别斯拉夫赶下了台——这一次，他一直坐到1189年去世为止。他的第二次在位同样不太平：1174年，兹诺伊莫的康拉德·奥托重新统一了摩拉维亚原本分散的几块封地；1182年，皇帝腓特烈·巴巴罗萨——正想办法削弱波希米亚公爵的势力——正式把摩拉维亚提升为独立藩侯国，直接效忠皇帝本人，不再从属于布拉格。两支互相竞争的普热美斯尔家族分支，最终在1185年正面碰撞——地点是另一座碰巧同名的村庄，这座在摩拉维亚境内——波希米亚一方的指挥官，正是弗雷德里克那位年纪小得多的弟弟——这时候离他自己登上王位，还有好几年呢。1189年，康拉德·奥托接下了公爵之位。再往后是瓦茨拉夫二世，可他只坐了三个月，就被人赶下了台——动手的正是刚才提到的那位异母兄弟，很快就会成为这整个时代的主角。\n\n这位异母兄弟就是奥托卡一世——弗拉迪斯拉夫二世与第二任妻子、图林根的尤蒂特之子，正是这条时间线刚刚讲过、那座以她之名命名石桥的王后——他自己的崛起同样一波三折。1192年瓦茨拉夫倒台的那一刻，他就夺过了公国，可不到一年又因为参与德意志诸侯反霍亨斯陶芬王朝的密谋而丢了位子——而这个王朝，他日后偏偏还得靠拢才能真正坐稳王位。接下来极不寻常的四年里，波希米亚居然是由布拉格主教统治的——两位竞争对手都拿不出皇帝索要的那笔钱，皇帝索性下令让主教兼任公爵。奥托卡真正的第二次机会，出现在1197年，而且是以牺牲自家人为代价换来的：他逼迫弟弟弗拉迪斯拉夫三世彻底放弃波希米亚，作为交换，让他永久世袭统治摩拉维亚。按这个家族一贯的标准，这算不上一场血腥夺权——兄弟俩协商完成了交接，此后余生也一直关系密切——但归根结底，这仍然是又一位普热美斯尔家的人，靠把亲戚挤下台才登上了王位。\n\n这一次，最后能站稳脚跟的人，会做一件之前五位统治者谁都没做成的事。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "lodenice-beroun",
+        relation: {
+          en: "This is where Frederick's forces were routed on 23 January 1179, four days before he turned it around outside Prague — the one battle from this whole chaotic quarter-century with an actual place-name attached.",
+          cz: "Právě tady bylo 23. ledna 1179 rozprášeno Fridrichovo vojsko, čtyři dny předtím, než to u Prahy obrátil ve svůj prospěch — jediná bitva z celého tohohle chaotického čtvrtstoletí, ke které se váže konkrétní místní jméno.",
+          zh: "1179年1月23日，弗雷德里克的军队正是在这里被彻底击溃，四天后他才在布拉格城外扳回一局——这整整二十五年的混乱期里，唯一一场能对应上具体地名的战役。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/List_of_Bohemian_monarchs",
+  },
+  {
     slug: "otakar-hereditary-kingdom-1198",
     era: "bohemian-duchy",
     startYear: 1198,
@@ -1626,6 +1820,7 @@ export const historyEvents = [
       cz: "1198 (korunovace), dědičnost potvrzena 1212",
       zh: "1198年（加冕），1212年（确立世袭）",
     },
+    images: ["/history/otakar-hereditary-kingdom-1198.webp"],
     tone: "humorous",
     title: {
       en: "A Crown That Finally Stuck",
@@ -1638,9 +1833,9 @@ export const historyEvents = [
       zh: "事不过三：这一次，没有人再把王冠收回去。",
     },
     summary: {
-      en: "Přemysl Otakar I got his royal title the same way Vratislaus and Vladislaus had — as a reward for backing the right side in someone else's war, this time picking Philip of Swabia's claim to the German throne in 1198.\n\nWhat made this one different only became clear over the following years: rival claimant Otto IV recognised the title too in 1204, so did Pope Innocent III, and by the time Frederick II issued the Golden Bull of Sicily in 1212, the crown wasn't a personal favour anymore — it was made explicitly hereditary, binding on every future ruler of Bohemia. No one ever handed it back. The Duchy of Bohemia that had spent three centuries answering to Great Moravia, then Regensburg, then a rotating cast of emperors who lent out royal titles like library books, became the Kingdom of Bohemia and simply stayed that way.",
-      cz: "Přemysl Otakar I. získal královský titul stejnou cestou jako předtím Vratislav a Vladislav — jako odměnu za podporu té správné strany v cizí válce, tentokrát tím, že se v roce 1198 postavil za nárok Filipa Švábského na německý trůn.\n\nCo bylo na tomhle případě jiné, se ukázalo až v následujících letech: soupeřící uchazeč Ota IV. titul v roce 1204 uznal také, stejně jako papež Inocenc III., a když v roce 1212 vydal Fridrich II. Zlatou bulu sicilskou, koruna už nebyla osobní laskavostí — byla výslovně prohlášena za dědičnou, závaznou pro každého budoucího panovníka Čech. Nikdo ji už nikdy nevrátil. České knížectví, které tři století odpovídalo nejdřív Velké Moravě, pak Řeznu, pak celé řadě císařů, kteří si královské tituly půjčovali jako knihy z knihovny, se stalo Českým královstvím — a prostě jím zůstalo.",
-      zh: "普热米斯尔·奥托卡一世获得国王头衔的方式，跟弗拉季斯拉夫和弗拉迪斯拉夫如出一辙——都是靠在别人的战争里站对了队而换来的奖赏，这一次，他在1198年选择支持施瓦本的腓力争夺德意志王位。\n\n这一次真正不同之处，要到接下来的几年里才显现出来：竞争对手奥托四世在1204年也承认了他的王位，教皇英诺森三世同样如此，而当腓特烈二世于1212年颁布《西西里金玺诏书》时，这顶王冠已经不再是一份个人的恩惠——它被明确宣布为世袭，对波希米亚此后每一位统治者都具有约束力。此后再也没有人把它收回去。这个曾三百年来先后依附于大摩拉维亚、雷根斯堡、以及一连串像图书馆借书一样把国王头衔借来借去的历代皇帝的波希米亚公国，就此变成了波希米亚王国——并且，就这样一直是王国了。",
+      en: "This is the same bloodline this era has been tracking for three generations now, finally reaching the part of the story it was building toward. What Otakar was about to do, none of the five rulers before him had managed.\n\nPřemysl Otakar I got his royal title the same way Vratislaus and Vladislaus had — as a reward for backing the right side in someone else's war, this time picking Philip of Swabia's claim to the German throne in 1198.\n\nWhat made this one different only became clear over the following years: Otto IV — Philip's own rival for the German throne — recognised Otakar's Bohemian title too in 1204, so did Pope Innocent III, and by the time Frederick II issued the Golden Bull of Sicily in 1212, the crown wasn't a personal favour anymore — it was made explicitly hereditary, binding on every future ruler of Bohemia. No one ever handed it back. The Duchy of Bohemia that had spent three centuries answering to Great Moravia, then Regensburg, then a rotating cast of emperors who lent out royal titles like library books, became the Kingdom of Bohemia and simply stayed that way.",
+      cz: "Je to přesně ta krev, kterou tahle éra sleduje už tři generace, a právě teď konečně dochází k té části příběhu, ke které celou dobu směřovala. To, co se Otakar chystal udělat, se nepovedlo žádnému z pěti panovníků před ním.\n\nPřemysl Otakar I. získal královský titul stejnou cestou jako předtím Vratislav a Vladislav — jako odměnu za podporu té správné strany v cizí válce, tentokrát tím, že se v roce 1198 postavil za nárok Filipa Švábského na německý trůn.\n\nCo bylo na tomhle případě jiné, se ukázalo až v následujících letech: Ota IV. — Filipův vlastní soupeř o německý trůn — Otakarův český titul v roce 1204 uznal také, stejně jako papež Inocenc III., a když v roce 1212 vydal Fridrich II. Zlatou bulu sicilskou, koruna už nebyla osobní laskavostí — byla výslovně prohlášena za dědičnou, závaznou pro každého budoucího panovníka Čech. Nikdo ji už nikdy nevrátil. České knížectví, které tři století odpovídalo nejdřív Velké Moravě, pak Řeznu, pak celé řadě císařů, kteří si královské tituly půjčovali jako knihy z knihovny, se stalo Českým královstvím — a prostě jím zůstalo.",
+      zh: "这正是这个时代已经追踪了三代人的同一条血脉，如今终于走到了这个故事一直在铺垫的这个结局。奥托卡接下来要做的这件事，之前那五位统治者，谁都没能做成。\n\n普热米斯尔·奥托卡一世获得国王头衔的方式，跟弗拉季斯拉夫和弗拉迪斯拉夫如出一辙——都是靠在别人的战争里站对了队而换来的奖赏，这一次，他在1198年选择支持施瓦本的腓力争夺德意志王位。\n\n这一次真正不同之处，要到接下来的几年里才显现出来：奥托四世——腓力争夺德意志王位的竞争对手——1204年也承认了奥托卡的波希米亚王位，教皇英诺森三世同样如此，而当腓特烈二世于1212年颁布《西西里金玺诏书》时，这顶王冠已经不再是一份个人的恩惠——它被明确宣布为世袭，对波希米亚此后每一位统治者都具有约束力。此后再也没有人把它收回去。这个曾三百年来先后依附于大摩拉维亚、雷根斯堡、以及一连串像图书馆借书一样把国王头衔借来借去的历代皇帝的波希米亚公国，就此变成了波希米亚王国——并且，就这样一直是王国了。",
     },
     relatedLandmarks: [
       {
@@ -1651,8 +1846,254 @@ export const historyEvents = [
           zh: "到1212年奥托卡一世的王冠正式确立为世袭之时，这座宫殿早已是与这顶王冠相配的所在——距博日沃伊那座朴素的第一座教堂已过去了三个世纪，同一座山丘上的同一个机构，终于成长为一个真正、永久的王国的所在地。",
         },
       },
+      {
+        slug: "narodni-archiv",
+        relation: {
+          en: "The original 1212 document itself — the Golden Bull of Sicily — now sits in a climate-controlled vault at the National Archives, rarely displayed and kept far from the palace it made permanent.",
+          cz: "Samotný originál listiny z roku 1212 — Zlatá bula sicilská — dnes leží v klimatizovaném trezoru Národního archivu, jen zřídka vystavovaný a bezpečně daleko od paláce, který natrvalo zajistil.",
+          zh: "1212年那份文件的真正原件——《西西里金玺诏书》——如今就保存在国家档案馆恒温恒湿的保险库里，极少公开展示，远离它曾经永久保住的那座王宫。",
+        },
+      },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Ottokar_I_of_Bohemia",
+  },
+  // ─────────────────────────────────────────────────────────────────────
+  // Era 3: kingdom-golden-age (1212–1378). First batch, 2026-08-21,
+  // covering 1199–1253 (Otakar I's family maneuvering through Wenceslas
+  // I's death). See project memory for the Era 3/Era 4 boundary decision
+  // (Wenceslas IV's 1378–1419 reign belongs to Era 4, not this one).
+  // ─────────────────────────────────────────────────────────────────────
+  {
+    slug: "otakar-i-family-purge-1199",
+    era: "kingdom-golden-age",
+    startYear: 1199,
+    year: {
+      en: "1199–1230",
+      cz: "1199–1230",
+      zh: "1199年－1230年",
+    },
+    images: ["/history/otakar-i-family-purge-1199.webp"],
+    tone: "humorous",
+    title: {
+      en: "The Second Thing He Made Permanent",
+      cz: "Druhá věc, kterou udělal natrvalo",
+      zh: "他做的第二件“永久”的事",
+    },
+    hookLine: {
+      en: "Otakar I had just spent his whole reign making sure Bohemia's crown could never be taken back. The next thing he made permanent was considerably more personal.",
+      cz: "Otakar I. právě strávil celou svou vládu tím, že zajistil, aby se česká koruna už nikdy nedala vzít zpátky. Další věc, kterou udělal natrvalo, byla podstatně osobnější.",
+      zh: "奥托卡一世刚刚用整个统治生涯，确保了波希米亚的王冠再也不会被收回去。他接下来要把“永久”这两个字用在的下一件事，可就私人多了。",
+    },
+    summary: {
+      en: "In 1199, freshly styling himself duke (still years before the Golden Bull made it official), Otakar divorced his first wife, Adelaide of Meissen, on grounds of consanguinity — the two were distant cousins, a technicality convenient enough when a marriage stops being useful. He remarried within the year, to Constance of Hungary. Adelaide refused to go quietly: she spent the next decade fighting the annulment through the papal courts, and didn't definitively lose until 1210.\n\nThe real complication wasn't Adelaide — it was her son, Vratislav, Otakar's own firstborn. (Yes, another Vratislav; this family has now recycled the name often enough that it's worth double-checking every time.) When Constance produced a son of her own in 1205 — the future Wenceslas I — Otakar spent the following decade quietly working to make sure Vratislav would never sit on the throne he himself had just made hereditary. It came to a head around 1215–1217: a related falling-out with the Děpoltici, descendants of Duke Vladislaus II's own capable regent brother Děpolt I, ended with that branch of the family driven out, clearing the way. On 8 June 1216, a general assembly of Bohemian nobles elected Wenceslas king outright; on 26 July, Emperor Frederick II formally granted Bohemia to him as an imperial fief, making it stick. Vratislav lived on for years afterward, still with in-laws willing to back him, but never got anywhere near the crown.\n\nOtakar I died on 15 December 1230, in his mid-to-late seventies, and was buried at St. Vitus Cathedral. The succession he'd spent two decades rigging held without a hitch — Wenceslas I simply became king, no drama required, which for this family counted as a genuine achievement.",
+      cz: "V roce 1199, ještě coby čerstvě titulovaný kníže (roky předtím, než to Zlatá bula sicilská učinila oficiálním), se Otakar rozvedl se svou první manželkou Adlétou Míšeňskou z důvodu příbuzenství — byli vzdálení bratranci, technikálie dost pohodlná ve chvíli, kdy manželství přestane být užitečné. Do roka se oženil znovu, s Konstancií Uherskou. Adléta se nehodlala smířit potichu: dalších deset let bojovala proti anulaci u papežských soudů a definitivně prohrála až v roce 1210.\n\nSkutečnou komplikací nebyla Adléta — byl jím její syn Vratislav, Otakarův vlastní prvorozený. (Ano, další Vratislav; tahle rodina už tohle jméno recyklovala natolik často, že se pokaždé vyplatí dvakrát zkontrolovat, o koho jde.) Když Konstancie roku 1205 porodila vlastního syna — budoucího Václava I. — strávil Otakar následující desetiletí tichou prací na tom, aby Vratislav nikdy neusedl na trůn, který sám právě učinil dědičným. Vyvrcholilo to kolem let 1215–1217: související roztržka s Děpoltici, potomky schopného regenta a bratra knížete Vladislava II., Děpolta I., skončila vyhnáním této rodové větve a uvolněním cesty. 8. června 1216 zvolilo obecné shromáždění českých velmožů Václava přímo králem; 26. července mu císař Fridrich II. formálně udělil Čechy jako říšské léno, čímž to zpečetil. Vratislav žil ještě léta poté, stále s tchány ochotnými ho podpořit, ale ke koruně se už nikdy ani nepřiblížil.\n\nOtakar I. zemřel 15. prosince 1230, v pokročilých sedmdesátkách, a byl pohřben ve svatovítské katedrále. Nástupnictví, které dvě desetiletí pečlivě chystal, proběhlo bez zaškobrtnutí — Václav I. se prostě stal králem, bez jakéhokoli dramatu, což se u téhle rodiny počítalo za opravdový úspěch.",
+      zh: "1199年，还只是刚刚自称公爵的时候（离《金玺诏书》正式确立王位还有好几年），奥托卡以“血缘过近”为由，跟第一任妻子阿德莱德·冯·梅森离了婚——两人是远房表亲，这个说辞在婚姻不再有用的时候，正好方便得很。不到一年，他就迎娶了匈牙利的康斯坦丝。阿德莱德可不打算就这么算了：接下来整整十年，她都在教廷法庭上为这桩婚姻的效力据理力争，直到1210年才彻底败诉。\n\n真正的麻烦不是阿德莱德，而是她的儿子弗拉季斯拉夫——奥托卡自己的长子。（没错，又一个弗拉季斯拉夫；这个家族用这个名字用得实在太频繁，每次出现都得留个心眼确认到底是哪一位。）1205年，康斯坦丝也生下了自己的儿子——也就是日后的瓦茨拉夫一世——奥托卡此后花了将近十年，悄悄铺路，确保弗拉季斯拉夫永远坐不上这顶他自己刚刚才变成世袭的王冠。这件事在1215-1217年间迎来了收尾：一场跟“德波尔德家族”（弗拉迪斯拉夫二世那位能干的摄政弟弟德波尔德一世的后代）的相关冲突，以这支旁系被逐出而告终，扫清了道路。1216年6月8日，波希米亚贵族大会直接选举瓦茨拉夫为王；同年7月26日，皇帝腓特烈二世正式将波希米亚册封给他作为帝国封地，让这一切板上钉钉。弗拉季斯拉夫此后又活了许多年，身后依然有姻亲愿意支持他，却始终没能再靠近王位一步。\n\n奥托卡一世1230年12月15日去世，享年七十好几，安葬于圣维特大教堂。他花了整整二十年精心设计的继承安排，最终顺顺当当地兑现——瓦茨拉夫一世就这么平静地当上了国王，没有任何戏剧性——对这个家族来说，这本身就已经算得上是一项真正的成就。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Ottokar_I_of_Bohemia",
+  },
+  {
+    slug: "st-agnes-of-bohemia-1211",
+    era: "kingdom-golden-age",
+    startYear: 1211,
+    year: {
+      en: "1211–1282",
+      cz: "1211–1282",
+      zh: "1211年－1282年",
+    },
+    images: ["/history/st-agnes-of-bohemia-1211.webp"],
+    tone: "humorous",
+    title: {
+      en: "The Bohemian Princess Who Refused the Emperor",
+      cz: "Česká princezna, která odmítla císaře",
+      zh: "拒绝皇帝求婚的那个波希米亚公主",
+    },
+    hookLine: {
+      en: "Every royal marriage this timeline has covered so far was decided by someone other than the bride. Agnes of Bohemia was the exception — and she turned down an emperor to prove it.",
+      cz: "Každý královský sňatek, který tahle časová osa dosud probrala, rozhodoval někdo jiný než nevěsta. Anežka Česká byla výjimkou — a na důkaz odmítla samotného císaře.",
+      zh: "这条时间线迄今讲过的每一桩王室婚姻，拍板的都是新娘以外的其他人。阿格尼丝是唯一的例外——为了证明这一点，她连皇帝的求婚都拒绝了。",
+    },
+    summary: {
+      en: "Every royal marriage this timeline has covered so far was arranged, cancelled, or renegotiated by someone other than the bride. Agnes of Bohemia — born 20 January 1211, the daughter of Otakar I and Constance of Hungary — is the one clear exception, and she spent much of her early life proving it, one collapsed engagement at a time.\n\nThe politics started before she could plausibly consent to any of it. At three, she was betrothed to a Silesian duke's son, who died before the marriage could happen. At nine, she was engaged to Henry, son of Holy Roman Emperor Frederick II himself — a match that dragged on for six years and still came to nothing. When a proposed marriage to King Henry III of England came up next, Frederick II personally vetoed it: he'd decided, by then, that he wanted her for himself.\n\nThat proposal — from a widowed emperor, arranged through her own brother Wenceslas I in 1235 — was, on paper, one of the most prestigious offers a medieval European woman could receive. Agnes turned it down anyway. She petitioned Pope Gregory IX directly, the pope interceded, and Frederick released her from the engagement. According to the chroniclers, when the emperor's anger eventually cooled, he put it more gracefully than most jilted suitors manage: 'If she had left me for a mortal man, I would have taken vengeance with the sword, but I cannot take offense, because in preference to me she has chosen the King of Heaven.'\n\nShe'd already been building her actual future before that refusal was even final. With her brother's backing, Agnes founded a monastery and convent complex in Prague in the early 1230s, attached to a hospital — a combined house of Franciscan friars and Poor Clare nuns, the first of its kind anywhere north of the Alps, and one of the earliest Gothic buildings in the city. She joined the community herself in 1234, and the following year became abbess of the Prague Clares — the same year she donated the Bohemian property of the Teutonic Knights to the hospital outright. Abbess or not, she kept doing the actual work herself: cooking for lepers and paupers and mending their clothes with her own hands, a habit she never gave up across the forty-seven years she held the post, right until her death. The complex doubled as more than a convent: it became the Přemyslid family's own necropolis and, on at least one occasion, a coronation site — and decades later, her own brother Wenceslas I would be buried there among the rest of the family. Separately, she maintained a correspondence with Clare of Assisi herself that lasted more than twenty years — written, on Clare's side, with real maternal warmth — even though the two women never once met in person.\n\nAgnes wasn't finished founding things. Sometime in the 1230s, she organized the lay staff running her hospital into a proper military order — the Knights of the Cross with the Red Star, dedicated specifically to nursing and hospital work, recognized by Pope Gregory IX in the process. It remains, to this day, the only military order ever founded on Bohemian soil, and it's still active now.\n\nShe wasn't formally declared a saint for a remarkably long time — Pope John Paul II finally canonized her on 12 November 1989. That date landed just five days before the Velvet Revolution began. Nobody planned that timing, but plenty of people afterward decided it meant something, and Agnes picked up a nickname for it: the saint who brought down communism. This timeline isn't finished with 1989 yet — we'll be back there, and so will she.",
+      cz: "Každý královský sňatek, který tahle časová osa dosud probrala, domlouval, rušil nebo předělával někdo jiný než nevěsta. Anežka Česká — narozená 20. ledna 1211 jako dcera Otakara I. a Konstancie Uherské — je tím jasným výjimkou, a velkou část svého mládí strávila tím, že to dokazovala, jedno zmařené zasnoubení za druhým.\n\nPolitika kolem ní začala dřív, než mohla k čemukoli věrohodně dát souhlas. Ve třech letech byla zasnoubena se synem slezského vévody, který zemřel dřív, než se sňatek mohl uskutečnit. V devíti byla zasnoubena s Jindřichem, synem samotného císaře Fridricha II. — zásnuby se táhly šest let a stejně z nich nakonec nic nebylo. Když přišla na řadu nabídka sňatku s anglickým králem Jindřichem III., Fridrich II. ji osobně vetoval: mezitím se rozhodl, že ji chce pro sebe.\n\nTahle nabídka — od ovdovělého císaře, dojednaná v roce 1235 prostřednictvím jejího vlastního bratra Václava I. — byla na papíře jednou z nejprestižnějších nabídek, jakou mohla středověká Evropanka dostat. Anežka ji přesto odmítla. Obrátila se přímo na papeže Řehoře IX., papež zasáhl a Fridrich ji ze zasnoubení propustil. Podle kronikářů to císař, když jeho hněv nakonec vychladl, vyjádřil s větší grácií, než dokáže většina odmítnutých nápadníků: „Kdyby mě opustila pro smrtelníka, pomstil bych se mečem, ale nemohu se urazit, protože přede mnou dala přednost Králi nebeskému.\"\n\nSvou skutečnou budoucnost si přitom začala stavět ještě dřív, než bylo tohle odmítnutí definitivní. S bratrovou podporou založila Anežka na počátku 30. let 13. století v Praze klášterní komplex při špitálu — společný dům františkánských bratří a klarisek, první svého druhu kdekoli severně od Alp, a jednu z nejstarších gotických staveb ve městě. Sama do komunity vstoupila v roce 1234 a rok nato se stala abatyší pražských klarisek — téhož roku, kdy věnovala špitálu bez výhrad české statky řádu německých rytířů. Abatyší nebo ne, dál dělala tu skutečnou práci sama: vařila malomocným a chudým a vlastníma rukama jim spravovala šaty, což nepřestala dělat po celých sedmačtyřicet let, co funkci zastávala, až do své smrti. Komplex byl víc než jen klášter: stal se přemyslovskou rodovou nekropolí a přinejmenším jednou i místem korunovace — a o desetiletí později tam bude pohřben i její vlastní bratr Václav I., spolu se zbytkem rodiny. Zvlášť si udržovala i korespondenci se samotnou Klárou z Assisi, trvající přes dvacet let — psanou z Klářiny strany se skutečně mateřskou vřelostí — ačkoli se ty dvě ženy nikdy osobně nesetkaly.\n\nAnežka nebyla se zakládáním u konce. Někdy ve 30. letech 13. století zorganizovala laické zaměstnance svého špitálu do řádného rytířského řádu — Křižovníků s červenou hvězdou, zaměřeného výslovně na ošetřovatelství a špitální práci, uznaného v tomto procesu papežem Řehořem IX. Zůstává dodnes jediným rytířským řádem, jaký kdy vznikl na české půdě, a stále funguje.\n\nZa svatou nebyla oficiálně prohlášena pozoruhodně dlouho — papež Jan Pavel II. ji nakonec svatořečil 12. listopadu 1989. To datum padlo pouhých pět dní před začátkem sametové revoluce. To načasování nikdo neplánoval, ale spousta lidí si po tom myslela, že něco znamená, a Anežka si za to vysloužila přezdívku: světice, která svrhla komunismus. Tahle časová osa s rokem 1989 ještě nekončí — vrátíme se k němu, a ona s námi.",
+      zh: "这条时间线迄今讲过的每一桩王室婚姻，拍板、取消或重新谈判的，都是新娘以外的其他人。阿格尼丝——1211年1月20日出生，奥托卡一世与匈牙利的康斯坦丝之女——是其中唯一一个明确的例外，而她大半个青年时期，都在用一次又一次告吹的婚约，反复证明这一点。\n\n这些政治操作，早在她还没资格对任何事表示同意之前就已经开始了。三岁时，她被许配给一位西里西亚公爵的儿子，对方还没等到婚礼就去世了。九岁时，她被许配给神圣罗马皇帝腓特烈二世本人的儿子亨利——这桩婚约拖了整整六年，最终还是没有结果。接下来轮到跟英格兰国王亨利三世的联姻提议，腓特烈二世亲自否决了它：这时他已经打定主意，要把她留给自己。\n\n而这份来自一位丧偶皇帝的求婚——1235年经由她自己的兄长瓦茨拉夫一世牵线——在纸面上，正是当时一位中世纪欧洲女性能拿到的最显赫的婚约之一。阿格尼丝还是拒绝了。她直接向教皇格里高利九世提出申诉，教皇出面调解，腓特烈也就此解除了这桩婚约。据编年史家记载，皇帝的怒气最终平息之后，说出的这句话，比大多数被拒的求婚者能说出来的都要体面得多：“若她是为了一个凡人而离开我，我定会拔剑复仇；可我无法动怒，因为比起我，她选择了天堂之王。”\n\n其实早在这桩婚约正式解除之前，她就已经在为自己真正的未来铺路了。在兄长的支持下，阿格尼丝于13世纪30年代初在布拉格创建了一座紧邻医院的修道院建筑群——方济各会修士与克拉利斯修女合一的院舍，是阿尔卑斯山以北地区第一座这样的建筑，也是布拉格现存最早的哥特式建筑之一。她本人于1234年入院，次年就成为布拉格克拉利斯修女会的院长——同一年，她还把条顿骑士团在波希米亚境内的全部产业，毫无保留地捐给了这所医院。不管当没当院长，她始终亲力亲为：为麻风病人和穷人做饭，亲手为他们缝补衣服，这个习惯她一直保持了下来，从未间断，直到1282年去世，前后长达四十七年。这座建筑群远不止是一座修道院：它后来成了普热美斯尔家族的墓地，至少有一次还充当过加冕地点——几十年后，她的亲哥哥瓦茨拉夫一世本人也将与家族其他成员一同安葬于此。此外，她还与阿西西的圣克拉拉本人保持了长达二十多年的书信往来——从克拉拉这一方的信件看，字里行间满是真切的母性温情——尽管两人终生未曾谋面。\n\n阿格尼丝创立事业的脚步并未就此停下。13世纪30年代的某个时候，她把自己医院里的世俗工作人员组织成了一支正式的骑士团——红星十字骑士团，专门致力于护理和医院工作，并在这个过程中获得了教皇格里高利九世的正式认可。它至今仍是波希米亚土地上唯一诞生过的骑士团，而且如今依然存续。\n\n她被正式册封为圣徒，等待的时间长得出奇——教皇约翰·保罗二世最终于1989年11月12日为她封圣。这个日期距离天鹅绒革命爆发，只差五天。没有人刻意安排过这个时间点，但事后很多人都觉得这里面藏着某种意味，阿格尼丝也因此得到了一个称号：那位推翻了共产主义的圣徒。这条时间线跟1989年的故事，还远没讲完——我们后面还会回到这里，她也会。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "klaster-sv-anezky-ceske",
+        relation: {
+          en: "This is the convent Agnes founded and personally led as abbess for forty-seven years — Prague's oldest Gothic building, doubling as the Přemyslid family's own burial ground, and eventually her own brother Wenceslas I's final resting place too.",
+          cz: "Právě tento klášter Anežka založila a osobně vedla jako abatyše čtyřicet sedm let — nejstarší gotickou stavbu v Praze, sloužící zároveň jako pohřebiště přemyslovské rodiny, kam byl nakonec uložen i její vlastní bratr Václav I.",
+          zh: "这正是阿格尼丝亲手创立、并亲自担任院长长达四十七年的修道院——布拉格现存最古老的哥特式建筑，同时也是普热美斯尔家族自己的墓地，最终连她的亲哥哥瓦茨拉夫一世，也安葬于此。",
+        },
+      },
+      {
+        slug: "kostel-sv-frantiska-z-assisi",
+        relation: {
+          en: "This is the headquarters church of the Knights of the Cross with the Red Star, Agnes's own order — founded on this exact spot in 1252, its original Gothic building since buried beneath a Baroque replacement, sitting noticeably below today's square but never actually torn down.",
+          cz: "Tohle je sídelní kostel Křižovníků s červenou hvězdou, Anežčina vlastního řádu — založeného přesně na tomhle místě roku 1252, jehož původní gotická stavba je dnes pohřbená pod barokní náhradou, citelně pod úrovní dnešního náměstí, ale nikdy skutečně zbouraná.",
+          zh: "这里正是红星十字骑士团——阿格尼丝亲手创立的骑士团——的总部教堂，1252年就建在这个确切地点，它最初的哥特式建筑如今埋在一座巴洛克替代建筑之下，明显低于今天广场的地面，却从未真正被拆除。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Agnes_of_Bohemia",
+  },
+  {
+    slug: "stone-prague-1230",
+    era: "kingdom-golden-age",
+    startYear: 1230,
+    year: {
+      en: "1230s–1250s",
+      cz: "30.–50. léta 13. století",
+      zh: "13世纪30年代－50年代",
+    },
+    tone: "humorous",
+    title: {
+      en: "Bohemia Goes Stone",
+      cz: "Čechy se dávají do kamene",
+      zh: "波希米亚，从木头到石头",
+    },
+    hookLine: {
+      en: "Wenceslas I inherited a kingdom built mostly of wood. He spent his reign quietly turning it into one built of stone.",
+      cz: "Václav I. zdědil království postavené hlavně ze dřeva. Vlastní vládu strávil tichou proměnou v království postavené z kamene.",
+      zh: "瓦茨拉夫一世继承了一个大部分靠木头搭起来的王国。他用自己的统治，悄悄把它变成了一个用石头砌起来的王国。",
+    },
+    summary: {
+      en: "While his father spent two decades rigging a succession fight, Wenceslas I spent his own reign on something considerably less dramatic and, in the long run, probably more important: turning Bohemia from a country built largely out of wood into one built out of stone.\n\nThe mechanism was colonization. Wenceslas actively invited German settlers — miners, craftsmen, merchants — into Bohemia and Moravia, offering them town charters modeled on German municipal law that granted real self-governance: their own courts, their own councils, protection from arbitrary noble interference. A wave of towns took shape or formalized their status this way through the 1230s and 1240s — Olomouc around 1240, Žatec, Jihlava (whose silver deposits would matter enormously within a few decades), Loket around 1250, among others.\n\nPrague itself changed under the same logic. What would become the Old Town received formal borough status around 1230, complete with a defensive wall circuit — and with German master builders and their techniques now settled locally in numbers, the city's wooden buildings began giving way to stone ones at a pace nothing before it had managed.\n\nNone of this made for the kind of story chroniclers liked to tell — no battles, no betrayals, nobody thrown out of a castle. But three-quarters of a century later, when a much more famous king starts laying out an entirely new town of his own, he'll be building on top of exactly this kind of unglamorous groundwork.",
+      cz: "Zatímco jeho otec strávil dvě desetiletí vychytráváním nástupnického sporu, Václav I. věnoval vlastní vládu něčemu podstatně méně dramatickému a z dlouhodobého hlediska pravděpodobně důležitějšímu: proměně Čech ze země postavené převážně ze dřeva v zemi postavenou z kamene.\n\nNástrojem byla kolonizace. Václav aktivně zval německé osadníky — havíře, řemeslníky, kupce — do Čech a na Moravu a nabízel jim městská práva podle vzoru německého obecního práva, která zaručovala skutečnou samosprávu: vlastní soudy, vlastní radu, ochranu před svévolným zásahem šlechty. Ve 30. a 40. letech 13. století se touto cestou zformovala nebo formalizovala celá vlna měst — Olomouc kolem roku 1240, Žatec, Jihlava (jejíž stříbrná ložiska budou během pár desetiletí mít obrovský význam), Loket kolem roku 1250, a další.\n\nStejnou logikou se proměnila i samotná Praha. To, co se stane Starým Městem, získalo kolem roku 1230 formální status městyse, včetně opevnění hradbami — a s německými staviteli a jejich technikami, kteří se teď usazovali v Čechách ve větším počtu, začaly dřevěné stavby ustupovat kamenným tempem, jaké tu předtím nikdo nezvládl.\n\nNic z tohohle nebyl ten typ příběhu, který by kronikáři rádi vyprávěli — žádné bitvy, žádné zrady, nikoho nevyhodili z hradu. Ale o tři čtvrtě století později, když jeden mnohem slavnější král začne zakládat úplně nové město vlastní, bude stavět přímo na takovéhle nepříliš okázalé přípravné práci.",
+      zh: "他父亲花了二十年精心设计一场继承权的算计，瓦茨拉夫一世却把自己的统治，投入到了一件远没那么戏剧化、但从长远来看很可能更重要的事情上：把波希米亚，从一个大部分靠木头搭起来的国家，变成一个用石头砌起来的国家。\n\n具体手段是移民殖民。瓦茨拉夫主动招揽德意志移民——矿工、工匠、商人——前来波希米亚和摩拉维亚定居，给他们授予仿照德意志市镇法制定的城市特许权，赋予真正的自治：自己的法庭、自己的议会，还能免受贵族的任意干预。整个1230年代到1240年代，一大批城镇借此成型或正式确立地位——大约1240年的奥洛穆茨、扎泰茨、伊赫拉瓦（它的银矿几十年后将变得举足轻重）、大约1250年的洛凯特，等等。\n\n布拉格本身也在同一套逻辑下发生了改变。日后成为“老城”的这片区域，大约在1230年获得了正式的市镇地位，还修起了防御城墙——随着德意志的能工巧匠成批定居下来，木造建筑开始以前所未有的速度被石造建筑取代。\n\n这些事没有一件是编年史家爱讲的那种故事——没有战役，没有背叛，没人被从城堡里扔出去。可四分之三个世纪之后，当一位更加声名显赫的国王开始规划自己那座崭新的城区时，他脚下踩的，正是这样一片毫不起眼、却打得扎扎实实的地基。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Wenceslaus_I_of_Bohemia",
+  },
+  {
+    slug: "mongol-invasion-1241",
+    era: "kingdom-golden-age",
+    startYear: 1241,
+    year: {
+      en: "1241",
+      cz: "1241",
+      zh: "1241年",
+    },
+    tone: "serious",
+    title: {
+      en: "The Storm That Passed Bohemia By",
+      cz: "Bouře, která se Čechám vyhnula",
+      zh: "掠过波希米亚的风暴",
+    },
+    hookLine: {
+      en: "In 1241, the Mongol Empire tore through Poland and Silesia in weeks. Bohemia survived largely by not being where the fighting was.",
+      cz: "V roce 1241 mongolská říše během týdnů prošla Polskem a Slezskem jako nůž máslem. Čechy přežily hlavně tím, že nebyly tam, kde se bojovalo.",
+      zh: "1241年，蒙古帝国仅用数周便横扫了波兰和西里西亚。波希米亚之所以能幸存，很大程度上是因为它不在战火中心。",
+    },
+    summary: {
+      en: "By 1241, the Mongol Empire had already conquered more territory in a generation than Rome had in centuries, and that spring its westernmost army turned its full attention on Poland and Silesia. Duchies fell in weeks. Kraków was burned in March. What happened next in Bohemia says less about heroism than about geography and timing — and Bohemia, unusually for this era, came out of it relatively intact.\n\nKing Wenceslas I marched north with an army reportedly twice the size of what Duke Henry II the Pious of Silesia could field, hoping to combine forces before meeting the Mongols in open battle. He never got the chance. Still two days away, Wenceslas learned that Henry — either out of overconfidence or simple impatience — had already engaged the Mongol army near Legnica on 9 April 1241, without waiting for Bohemian reinforcements. The result was a massacre: Henry's army was annihilated and the duke himself was killed, his head reportedly displayed on a spear outside the besieged town of Legnica.\n\nWenceslas did not press forward to avenge him. He pulled his army back into Bohemia's mountainous frontier, gathered further reinforcements from Thuringia and Saxony, and settled into terrain that would badly hamper Mongol cavalry rather than risk a second Legnica. It worked, though not entirely for the reasons he might have hoped: the Mongol commanders had never actually intended to push deep into Bohemia. Their assignment was to neutralize the northern flank before the invasion's main body regrouped in Hungary, and Henry's destruction had already accomplished that. Moravia, less defensible and directly in their path south, was not so lucky — its countryside was thoroughly devastated before the Mongol army moved on.\n\nBohemia's core territory survived the single most destructive military campaign to hit medieval Central Europe largely intact — a genuinely rare outcome that year, and one owed about equally to Wenceslas's caution, Bohemia's mountain ring, and an enemy that was already looking past it toward Hungary.",
+      cz: "Do roku 1241 už Mongolská říše za jednu generaci dobyla víc území, než Řím za celá staletí, a na jaře toho roku obrátila svá nejzápadnější vojska naplno na Polsko a Slezsko. Knížectví padala během týdnů. Krakov byl v březnu vypálen. To, co se pak stalo v Čechách, vypovídá míň o hrdinství a víc o zeměpisu a načasování — a Čechy z toho, neobvykle na tuhle dobu, vyšly poměrně nedotčené.\n\nKrál Václav I. táhl na sever s vojskem údajně dvakrát tak velkým, jaké dokázal postavit slezský kníže Jindřich II. Pobožný, v naději, že se jejich síly spojí ještě před střetem s mongolskou armádou. Tu příležitost nikdy nedostal. Byl ještě dva dny cesty daleko, když se dozvěděl, že Jindřich — buď z přílišné sebedůvěry, nebo z prosté netrpělivosti — se s mongolským vojskem už střetl u Lehnice 9. dubna 1241, aniž by počkal na české posily. Výsledkem byl masakr: Jindřichovo vojsko bylo zničeno a sám kníže padl, jeho hlava byla údajně vystavena na kopí před obleženým městem.\n\nVáclav se za ním nevydal pomstít ho. Stáhl své vojsko zpátky do hornatého českého pohraničí, sehnal další posily z Duryňska a Saska a usadil se v terénu, který by mongolské jízdě citelně znesnadnil pohyb, místo aby riskoval druhou Lehnici. Fungovalo to, i když ne úplně z důvodů, v jaké možná doufal: mongolští velitelé nikdy vlastně neměli v úmyslu tlačit hluboko do Čech. Jejich úkolem bylo zneškodnit severní křídlo ještě předtím, než se hlavní síly invaze přeskupí v Uhrách, a Jindřichovo zničení tenhle úkol už splnilo. Morava, méně bránitelná a přímo na jejich cestě na jih, takové štěstí neměla — její venkov byl důkladně zpustošen, než mongolské vojsko táhlo dál.\n\nJádro českého území přežilo jedinou nejničivější vojenskou kampaň, jaká kdy zasáhla středověkou střední Evropu, do značné míry nedotčené — toho roku opravdu vzácný výsledek, a to zhruba stejnou měrou díky Václavově opatrnosti, českému horskému prstenci a nepříteli, který se už tak jako tak díval dál, směrem k Uhrám.",
+      zh: "到1241年，蒙古帝国用一代人的时间征服的领土，已经超过了罗马几个世纪的成果。那年春天，蒙古最西端的一支大军把矛头彻底转向了波兰和西里西亚。各公国接连在几周内沦陷，克拉科夫3月就被焚毁。接下来在波希米亚发生的事情，与其说是英雄壮举，不如说是地理和时机使然——而波希米亚，在那一年算是个罕见的例外，核心领土基本保全了下来。\n\n瓦茨拉夫一世率军北上，据说兵力是西里西亚公爵“虔诚者”亨利二世所能集结兵力的两倍，希望能在与蒙古军队正面交锋前完成会师。可他从没等到这个机会。就在还差两天路程的时候，瓦茨拉夫得知亨利——要么是过于自信，要么纯粹是等不及了——已经在1241年4月9日于莱格尼察与蒙古军队交战，没有等波希米亚援军赶到。结果是一场屠杀：亨利的军队全军覆没，公爵本人阵亡，据说他的首级还被挑在长矛上，示众于被围困的莱格尼察城外。\n\n瓦茨拉夫没有继续北上为他复仇。他把军队撤回波希米亚多山的边境地带，又从图林根和萨克森招募了增援，选择在这种会大大限制蒙古骑兵机动性的地形里驻扎下来，而不是冒险再打一场莱格尼察。这一招奏效了——虽然原因未必完全如他所愿：蒙古指挥官本来就从没打算深入波希米亚境内。他们的任务是在主力大军于匈牙利重新集结之前扫平北翼威胁，而亨利的覆灭已经达成了这个目标。摩拉维亚就没这么幸运了——地形更难防守，又正好挡在蒙古军队南下的必经之路上，境内乡村在蒙古大军继续前进之前，遭到了彻底的蹂躏。\n\n波希米亚的核心领土，就这样在中世纪中欧遭受过的破坏力最强的一场军事行动中，基本保全了下来——这在那一年堪称罕见的结局，而这份幸运，大致要归功于瓦茨拉夫的谨慎、波希米亚天然的山地屏障，以及一个早已把目光投向匈牙利、心思根本不在这里的对手。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Battle_of_Legnica",
+  },
+  {
+    slug: "the-boy-king-1246",
+    era: "kingdom-golden-age",
+    startYear: 1246,
+    year: {
+      en: "1246–1249",
+      cz: "1246–1249",
+      zh: "1246年－1249年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Boy King",
+      cz: "Mladší král",
+      zh: "少年王",
+    },
+    hookLine: {
+      en: "Before he became the 'King of Iron and Gold,' Otakar II's first real political act was throwing his own father out of Prague Castle.",
+      cz: "Než se stal „Králem železným a zlatým\", byl Otakarův první opravdový politický čin ten, že vyhnal vlastního otce z Pražského hradu.",
+      zh: "在成为“铁与金之王”之前，奥托卡二世第一次真正意义上的政治行动，是把自己的父亲从布拉格城堡里赶了出去。",
+    },
+    summary: {
+      en: "Austria's five-generation Babenberg dynasty ended abruptly on 15 June 1246, when Duke Frederick II — 'the Quarrelsome,' a nickname he'd earned honestly — was killed fighting Hungary at the Battle of the Leitha River, leaving no son behind. King Wenceslas I moved fast: he arranged a marriage between his own eldest son, Vladislaus, Margrave of Moravia, and Gertrude of Babenberg, Frederick's niece and closest surviving heir, hoping to fold Austria into Bohemia's orbit through simple family connection. (Yes, another Vladislaus — this family's naming conventions remain relentlessly unhelpful.) The wedding went ahead. Vladislaus did not: he died on 3 January 1247, before ever taking possession of the duchy his marriage was supposed to secure.\n\nThat left the succession, and the Austrian question, to Wenceslas's next son — the boy who would eventually be remembered as Otakar II, 'the King of Iron and Gold.' He was made Margrave of Moravia in his dead brother's place and sent to Brno, where his actual job was considerably less glamorous than his future epithet: overseeing the reconstruction of a region the Mongols had devastated only a few years earlier.\n\nHis first real appearance in Bohemian politics, though, wasn't heroic. In 1248, a group of nobles dissatisfied with Wenceslas — reportedly encouraged by supporters of Emperor Frederick II, who had his own reasons to want Bohemia destabilized — talked the young margrave into open rebellion against his own father. On 31 July 1248, Otakar was proclaimed 'the younger king' and drove Wenceslas bodily out of Prague Castle, holding the throne himself for the next fourteen months. Pope Innocent IV excommunicated him for it. It took until November 1249 for Wenceslas to finally crush the revolt and imprison his son at Přimda — Bohemia's oldest surviving stone castle, and, for a while, his son's own personal cell.\n\nThe man who would go on to build the largest domain any Přemyslid ever controlled started his political career, in other words, by throwing his own father out of the family castle.",
+      cz: "Pětigenerační babenberská dynastie v Rakousku náhle skončila 15. června 1246, když vévoda Fridrich II. — přezdívaný „Svárlivý\", a to zaslouženě — padl v boji s Uhrami v bitvě na řece Litavě, aniž by zanechal syna. Král Václav I. jednal rychle: zařídil sňatek svého vlastního nejstaršího syna, moravského markraběte Vladislava, s Gertrudou Babenberskou, Fridrichovou neteří a nejbližší žijící dědičkou, v naději, že tím Rakousko prostou rodinnou vazbou vtáhne do české orbity. (Ano, další Vladislav — pojmenovací zvyklosti téhle rodiny zůstávají neúprosně nešikovné.) Svatba se konala. Vladislav ne dlouho: zemřel 3. ledna 1247, ještě než stihl převzít vévodství, které měl jeho sňatek zajistit.\n\nNástupnictví, a s ním i rakouská otázka, tak připadly dalšímu Václavovu synovi — chlapci, který bude jednou vzpomínán jako Otakar II., „Král železný a zlatý\". Na místě mrtvého bratra se stal moravským markrabětem a byl poslán do Brna, kde ho čekal úkol podstatně méně okázalý než jeho budoucí přídomek: dohlížet na obnovu kraje, který jen o pár let dřív zpustošili Mongolové.\n\nJeho skutečně první vystoupení v české politice ale hrdinské nebylo. V roce 1248 skupina šlechticů nespokojených s Václavem — údajně podněcovaná stoupenci císaře Fridricha II., který měl svoje vlastní důvody chtít Čechy destabilizovat — přemluvila mladého markraběte k otevřené vzpouře proti vlastnímu otci. 31. července 1248 byl Otakar prohlášen „mladším králem\" a svého otce doslova vyhnal z Pražského hradu, přičemž trůn sám držel dalších čtrnáct měsíců. Papež Inocenc IV. ho za to exkomunikoval. Trvalo až do listopadu 1249, než Václav vzpouru konečně potlačil a syna uvěznil na Přimdě — nejstarším dochovaném kamenném hradu v Čechách, a na čas i jeho vlastní osobní celou.\n\nMuž, který jednou vybuduje největší panství, jaké kdy měl jakýkoli přemyslovec pod kontrolou, tak svou politickou kariéru zahájil tím, že vlastního otce vyhodil z rodinného hradu.",
+      zh: "奥地利延续了五代人的巴本贝格王朝，1246年6月15日戛然而止——公爵腓特烈二世，绰号“好斗者”（这个绰号可谓实至名归），在莱塔河战役中与匈牙利交战阵亡，身后没有留下儿子。瓦茨拉夫一世动作很快：他安排自己的长子、摩拉维亚藩侯瓦拉迪斯拉夫，迎娶腓特烈的侄女、也是最近的在世继承人格特鲁德·冯·巴本贝格，指望靠这层姻亲关系把奥地利拉进波希米亚的势力范围。（没错，又一个瓦拉迪斯拉夫——这个家族取名的习惯，始终是一如既往地添乱。）婚礼如期举行了。瓦拉迪斯拉夫却没能撑太久：1247年1月3日，他就去世了，还没来得及真正接管这场婚姻本该为他换来的那个公国。\n\n继承权和奥地利这道难题，就这样落到了瓦茨拉夫的下一个儿子头上——这个男孩日后会被人记住的名字，是“铁与金之王”奥托卡二世。他接替亡兄成为摩拉维亚藩侯，被派往布尔诺，等着他的差事，跟日后那个响亮的称号比起来朴素得多：监督重建几年前刚被蒙古人蹂躏过的这片地区。\n\n不过，他在波希米亚政坛上真正意义上的首秀，可一点也不英雄。1248年，一批对瓦茨拉夫不满的贵族——据说背后还有皇帝腓特烈二世的支持者煽风点火，毕竟皇帝自己也有理由希望波希米亚陷入不稳——说动了这位年轻的藩侯公开造反，反对自己的亲生父亲。1248年7月31日，奥托卡被拥立为“少年王”，直接把父亲从布拉格城堡赶了出去，自己坐上王位长达十四个月。教皇英诺森四世为此将他处以绝罚。直到1249年11月，瓦茨拉夫才终于平定叛乱，把儿子囚禁在了普日姆达——波希米亚现存最古老的石造城堡，也在那段日子里，成了他自己儿子的私人牢房。\n\n换句话说，这位日后将建立起普热美斯尔家族有史以来最大版图的国王，他的政治生涯的第一步，是把自己的父亲从家族城堡里赶了出去。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "primda",
+        relation: {
+          en: "This is where Wenceslas I locked up his own son after finally crushing the 1248–49 revolt — Bohemia's oldest surviving stone castle, repurposed for a while as a prison for the future 'King of Iron and Gold.'",
+          cz: "Právě sem Václav I. zavřel vlastního syna poté, co konečně potlačil vzpouru z let 1248–49 — nejstarší dochovaný kamenný hrad v Čechách, na čas přeměněný na vězení pro budoucího „Krále železného a zlatého\".",
+          zh: "瓦茨拉夫一世正是把儿子囚禁在了这里，就在他终于平定1248-49年那场叛乱之后——这是波希米亚现存最古老的石造城堡，一度被改造成了日后“铁与金之王”的监狱。",
+        },
+      },
+      {
+        slug: "old-royal-palace",
+        relation: {
+          en: "This is the palace Otakar drove his own father out of in 1248 — not the last time this hilltop institution changed hands within a single family, but the only time it happened between father and son.",
+          cz: "Právě z tohoto paláce vyhnal Otakar v roce 1248 vlastního otce — nebylo to naposledy, co tahle instituce na kopci změnila majitele v rámci jedné rodiny, ale bylo to jedinkrát, kdy se to stalo mezi otcem a synem.",
+          zh: "1248年，奥托卡正是把自己的父亲从这座宫殿里赶了出去——这座山丘上的机构在同一个家族内部易主，这不是第一次，但发生在父子之间，这却是唯一一次。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Ottokar_II_of_Bohemia",
+  },
+  {
+    slug: "otakar-gets-austria-1251",
+    era: "kingdom-golden-age",
+    startYear: 1251,
+    year: {
+      en: "1250–1252",
+      cz: "1250–1252",
+      zh: "1250年－1252年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Father, Son, and Austria",
+      cz: "Otec, syn a Rakousko",
+      zh: "父子与奥地利",
+    },
+    hookLine: {
+      en: "Reconciliation, for this family, usually came with a territorial reward attached.",
+      cz: "Smíření v téhle rodině mělo obvykle v zápětí nějakou územní odměnu.",
+      zh: "在这个家族里，和解通常都伴随着一块领地作为奖赏。",
+    },
+    summary: {
+      en: "Reconciliation, in this family, tended to come with a territorial reward attached. After fourteen months in prison, Otakar and his father found their way back to something workable — helped enormously by the fact that they both still wanted the same thing: Austria, still sitting there without a ruler since Frederick the Quarrelsome's death five years earlier. Wenceslas released his son, restored him as Margrave of Moravia, and in 1251 backed him in person as he marched into Austria itself. The Austrian estates, worn down by years without a duke, acclaimed Otakar as their ruler on arrival.\n\nAcclamation wasn't quite the same as a settled claim, so Otakar did what his own father had once done to a marriage: he made it explicitly political. On 11 February 1252, he married Margaret of Babenberg — Frederick the Quarrelsome's own sister, already once widowed as the wife of a German king, and thirty years his senior. She was around forty-eight; he was not yet twenty. The marriage did exactly what it was built to do, legally cementing his hold on the duchy — and exactly what a thirty-year gap tends to do as well: Margaret could no longer bear children, a complication Otakar would spend the rest of the decade quietly working around.\n\nFor now, though, the arrangement held. Bohemia had a king, an Austrian duchy attached to it, and, for the moment, a father and son who'd stopped trying to throw each other out of buildings.",
+      cz: "Smíření v téhle rodině mělo obvykle v zápětí nějakou územní odměnu. Po čtrnácti měsících vězení našli Otakar a jeho otec cestu k něčemu funkčnímu — nemalou měrou díky tomu, že oba pořád chtěli totéž: Rakousko, které tam už pět let, od smrti Fridricha Svárlivého, sedělo bez vládce. Václav syna propustil, znovu ho dosadil jako moravského markraběte a v roce 1251 ho osobně podpořil, když vytáhl přímo do Rakouska. Rakouské stavy, unavené lety bez vévody, Otakara po jeho příjezdu okamžitě přijaly za svého vládce.\n\nAklamace ale nebyla totéž co ustálený nárok, a tak Otakar udělal to, co kdysi jeho vlastní otec udělal s manželstvím: vysloveně z něj udělal politický nástroj. 11. února 1252 se oženil s Markétou Babenberskou — vlastní sestrou Fridricha Svárlivého, už jednou ovdovělou po německém králi, a o třicet let starší než on sám. Bylo jí kolem osmačtyřiceti; jemu ještě nebylo dvacet. Sňatek udělal přesně to, k čemu byl určen — právně upevnil jeho držení vévodství — a taky přesně to, co třicetiletý rozdíl obvykle dělá: Markéta už nemohla mít děti, komplikace, s níž se Otakar potichu potýkal celý zbytek desetiletí.\n\nProzatím ale dohoda držela. Čechy měly krále, k němu připojené rakouské vévodství, a na chvíli i otce a syna, kteří se přestali navzájem vyhazovat z budov.",
+      zh: "在这个家族里，和解通常都伴随着一块领地作为奖赏。囚禁十四个月后，奥托卡和父亲总算找回了某种可以运作的关系——很大程度上是因为两人这时候要的其实是同一样东西：奥地利，自五年前“好斗者”腓特烈去世以来，那个位子一直空着。瓦茨拉夫释放了儿子，重新任命他为摩拉维亚藩侯，1251年还亲自出面撑腰，看着他率军开进奥地利。奥地利各邦，早已被这几年群龙无首的日子拖得疲惫不堪，一见奥托卡到来，当即拥立他为统治者。\n\n不过，被拥立不等于名分坐实，于是奥托卡照搬了他父亲当年对待婚姻的那一套：把这件事彻底变成了一场政治操作。1252年2月11日，他迎娶了玛格丽特·冯·巴本贝格——“好斗者”腓特烈的亲妹妹，此前已经嫁过一位德意志国王、守寡在身，年纪比奥托卡整整大三十岁。她当时大约四十八岁，他还不到二十岁。这桩婚姻确实达成了它的既定目的，从法律上坐实了他对公国的统治——但也顺带带来了三十岁年龄差通常会带来的那个后果：玛格丽特已经无法生育，这个麻烦，奥托卡此后接下来整整十年都得悄悄想办法应付。\n\n不过眼下，这套安排总算维持住了。波希米亚有了国王，国王名下多了一个奥地利公国，而这对父子，也总算暂时不再把彼此互相扔出建筑物了。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Margaret_of_Austria,_Queen_of_Bohemia",
+  },
+  {
+    slug: "wenceslas-i-death-1253",
+    era: "kingdom-golden-age",
+    startYear: 1253,
+    year: {
+      en: "1253",
+      cz: "1253",
+      zh: "1253年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Baton Passes",
+      cz: "Štafeta se předává",
+      zh: "接力棒传下去",
+    },
+    hookLine: {
+      en: "Wenceslas I died having done the one thing almost none of his predecessors managed: leave behind an orderly transition.",
+      cz: "Václav I. zemřel poté, co dokázal jednu věc, kterou skoro žádný z jeho předchůdců nezvládl: zanechat po sobě klidné předání moci.",
+      zh: "瓦茨拉夫一世去世时，做成了几乎没有哪位前任做到过的一件事：留下了一次平稳的权力交接。",
+    },
+    summary: {
+      en: "Wenceslas I died on 23 September 1253, twenty-three years into a reign that had, on the whole, gone remarkably smoothly for this family — stone towns instead of wooden ones, a functioning kingdom, and an heir already tested, imprisoned, forgiven, and married into an entire second duchy. Otakar wasn't crowned immediately; it took three months, until 23 December, for the formalities to catch up with the reality that had been obvious since the reconciliation in Austria. When they did, Bohemia had its next king — the one who would spend the following quarter-century turning everything his father and grandfather had quietly built into the largest domain any Přemyslid ever controlled.",
+      cz: "Václav I. zemřel 23. září 1253, po třiadvaceti letech vlády, která pro tuhle rodinu proběhla celkem vzato pozoruhodně hladce — kamenná města místo dřevěných, fungující království a následník, který už měl za sebou vlastní zkoušku, vězení, odpuštění i sňatek, jenž mu přinesl celé druhé vévodství. Otakar nebyl korunován hned; formalitám trvalo tři měsíce, až do 23. prosince, než dohnaly realitu, která byla zřejmá už od smíření v otázce Rakouska. Když se tak stalo, měly Čechy svého dalšího krále — toho, kdo příští čtvrtstoletí promění všechno, co jeho otec a děd tiše vybudovali, v největší panství, jaké kdy měl jakýkoli přemyslovec pod kontrolou.",
+      zh: "瓦茨拉夫一世1253年9月23日去世，结束了长达二十三年的统治——对这个家族来说，这段统治总体上算得上格外平顺：石头砌成的城镇取代了木头搭的，一个运转正常的王国，还有一位继承人——已经经历过造反、囚禁、被原谅，甚至靠联姻拿下了整整第二个公国。奥托卡并没有立刻加冕；正式手续又拖了三个月，直到12月23日，才追上了自奥地利和解以来早已明摆着的现实。等一切尘埃落定，波希米亚迎来了自己的下一位国王——接下来的四分之一个世纪里，他将把父亲和祖父悄悄积攒下来的一切，变成普热美斯尔家族有史以来控制过的最大版图。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Wenceslaus_I_of_Bohemia",
   },
 ];
 

@@ -876,7 +876,10 @@ html:not([data-lang="zh"]) .loc-card__name {
    renders the localized (Chinese, in zh mode) name and stretching CJK
    glyphs distorts them. .detail-title-czname always renders
    loc.localizedNames.cz literally regardless of UI language, so it's
-   never Chinese text and doesn't need the same guard. */
+   never Chinese text and doesn't need that same guard — but in zh mode
+   it's still scaled back down to 1.0 (below), a separate ask unrelated
+   to the CJK-distortion reason: at 1.4 it read too large sitting under
+   the Chinese name. */
 html:not([data-lang="zh"]) .detail-title-name {
   transform: scaleY(1.4);
   transform-origin: left center;
@@ -884,6 +887,9 @@ html:not([data-lang="zh"]) .detail-title-name {
 .detail-title-czname {
   transform: scaleY(1.4);
   transform-origin: left center;
+}
+html[data-lang="zh"] .detail-title-czname {
+  transform: scaleY(1);
 }
 .detail-desc { font-size: 18px; line-height: 1.7; color: var(--text-primary); }
 /* The locked-card teaser lines ("🔒The archive seems to be locked...")

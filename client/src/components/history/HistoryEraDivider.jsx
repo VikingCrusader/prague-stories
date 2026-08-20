@@ -7,8 +7,9 @@
 // anything changed. `era.themeClass` sets --era-accent (see history.css) so
 // each divider picks up its own colour — the one place in the app that
 // per-era palette still actually renders; the sidebar deliberately doesn't
-// (see HistorySidebar's comment). `tagline` is optional on older/incomplete
-// era data, so this renders fine without it.
+// (see HistorySidebar's comment). `tagline` and `yearRange` are both
+// optional on older/incomplete era data, so this renders fine without
+// either.
 export default function HistoryEraDivider({ era, lang, convert }) {
   return (
     <div className={`history-era-divider ${era.themeClass}`}>
@@ -17,6 +18,11 @@ export default function HistoryEraDivider({ era, lang, convert }) {
         <h2 className="history-era-divider__title">
           {convert(era.title[lang] || era.title.en)}
         </h2>
+        {era.yearRange && (
+          <p className="history-era-divider__years">
+            {convert(era.yearRange[lang] || era.yearRange.en)}
+          </p>
+        )}
         {era.tagline && (
           <p className="history-era-divider__tagline">
             {convert(era.tagline[lang] || era.tagline.en)}

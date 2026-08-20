@@ -170,7 +170,7 @@
    comes back later; not dead code to delete casually. */
 .era-legends-origins        { --era-accent: #d4a94a; }
 .era-bohemian-duchy         { --era-accent: #c08a3e; }
-.era-medieval-golden-age    { --era-accent: #ffd700; }
+.era-kingdom-golden-age     { --era-accent: #ffd700; }
 .era-religious-turmoil      { --era-accent: #b83030; }
 .era-renaissance-baroque    { --era-accent: #a070d0; }
 .era-revival-independence   { --era-accent: #d94040; }
@@ -213,6 +213,14 @@
   text-shadow: 2px 2px 0 #000;
   letter-spacing: 1px;
   margin-bottom: 8px;
+}
+.history-era-divider__years {
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  color: var(--era-accent, var(--gold));
+  opacity: 0.75;
+  margin-bottom: 6px;
 }
 .history-era-divider__tagline {
   font-size: 15px;
@@ -449,5 +457,6 @@
   .history-event__title { font-size: 11px; }
   .history-era-divider { gap: 10px; }
   .history-era-divider__title { font-size: 14px; }
+  .history-era-divider__years { font-size: 12px; }
   .history-era-divider__tagline { font-size: 13px; }
 }

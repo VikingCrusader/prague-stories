@@ -36,6 +36,11 @@ export const HISTORY_ERAS = [
       cz: 'Legendy a počátky',
       zh: '传说与起源',
     },
+    yearRange: {
+      en: 'Prehistory – 800',
+      cz: 'Pravěk – 800',
+      zh: '史前 – 800年',
+    },
     tagline: {
       en: "Where the sourcing is shaky, the drama is not — and at least one of these dukes may never have existed at all.",
       cz: "Kde jsou prameny vratké, drama rozhodně ne — a přinejmenším jedno z těchhle knížat možná nikdy neexistovalo.",
@@ -52,6 +57,11 @@ export const HISTORY_ERAS = [
       cz: 'České knížectví',
       zh: '波希米亚公国',
     },
+    yearRange: {
+      en: '870–1198',
+      cz: '870–1198',
+      zh: '870年－1198年',
+    },
     tagline: {
       en: "Real names, real dates, and remarkably little improvement in how this family settles an argument.",
       cz: "Skutečná jména, skutečná data — a překvapivě žádné zlepšení v tom, jak si tahle rodina řeší spory.",
@@ -59,14 +69,19 @@ export const HISTORY_ERAS = [
     },
   },
   {
-    key: 'medieval-golden-age',
+    key: 'kingdom-golden-age',
     order: 3,
-    themeClass: 'era-medieval-golden-age',
-    hasContent: false,
+    themeClass: 'era-kingdom-golden-age',
+    hasContent: true,
     title: {
-      en: 'Medieval Golden Age',
-      cz: 'Středověký zlatý věk',
-      zh: '中世纪黄金时代',
+      en: "The Kingdom's Golden Age",
+      cz: 'Zlatý věk království',
+      zh: '王国的黄金时代',
+    },
+    yearRange: {
+      en: '1199–1378',
+      cz: '1199–1378',
+      zh: '1199年－1378年',
     },
     tagline: {
       en: "The one stretch where nearly everything Bohemia built is still standing — try not to get used to it.",
