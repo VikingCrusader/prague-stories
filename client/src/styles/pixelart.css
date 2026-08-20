@@ -611,9 +611,9 @@
 .navbar__links { display: flex; gap: 8px; margin-left: 16px; }
 .navbar__link {
   font-family: 'Press Start 2P', monospace;
-  font-size: 8px;
+  font-size: 11px;
   color: var(--text-muted);
-  padding: 6px 10px;
+  padding: 7px 12px;
   border: 2px solid transparent;
   transition: color 0.15s, border-color 0.15s;
   text-decoration: none;
@@ -625,6 +625,32 @@
 .navbar__user { font-family: 'Press Start 2P', monospace; font-size: 7px; color: var(--gold); }
 .navbar__github { display: flex; align-items: center; color: var(--gold); opacity: 0.85; transition: opacity 0.15s, transform 0.15s; }
 .navbar__github:hover { opacity: 1; transform: scale(1.1); }
+
+/* Desktop-only: bring the right-hand nav cluster (GitHub icon, lang tabs,
+   XP/level badge, logout button) up to the same fuller scale as
+   .navbar__link (bumped 8px -> 11px) so the two ends of the navbar read
+   as one consistent size, not a big left side next to a tiny right side.
+   Scoped to min-width: 601px (the inverse of the navbar's own mobile
+   breakpoint below) so mobile — which already hides .navbar__user and
+   shrinks .navbar__link separately — is untouched. Chinese is excluded:
+   its lang-tab/navbar__user/px-btn sizes are already tuned larger
+   (global.css's zh override block) and win via !important regardless,
+   but scoping here too keeps the intent explicit. */
+@media (min-width: 601px) {
+  html:not([data-lang="zh"]) .navbar__right .lang-tab:not(.lang-tab--zh) {
+    font-size: 10px;
+    padding: 6px 16px;
+  }
+  html:not([data-lang="zh"]) .navbar__user {
+    font-size: 11px;
+  }
+  html:not([data-lang="zh"]) .navbar__right .px-btn--sm {
+    font-size: 10px;
+    padding: 8px 16px;
+  }
+  .navbar__right { gap: 14px; }
+  .navbar__github svg { width: 34px; height: 34px; }
+}
 
 /* ── Auth Page ───────────────────────────────────────────── */
 .auth-page {
@@ -799,6 +825,11 @@
 /* ── Detail Panel (shared by modal + sidebar) ─────────────── */
 .detail-art { font-size: 5rem; line-height: 1; }
 .detail-desc { font-size: 18px; line-height: 1.7; color: var(--text-primary); }
+/* The locked-card teaser lines ("🔒The archive seems to be locked...")
+   appended after .detail-desc — italic by default, same as the inline
+   style this replaced; overridden back to upright for the Cinzel swap
+   in global.css (Cinzel has no true italic, see that rule's comment). */
+.detail-desc--teaser { font-style: italic; }
 .detail-wiki {
   display: inline-flex;
   align-items: center;

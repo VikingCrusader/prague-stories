@@ -90,7 +90,7 @@ export default function HistoryPage() {
   return (
     <div className="guide-page history-page">
       <div className="history-header">
-        <h1 className="px-title" style={{ fontSize: 13, marginBottom: 6 }}>{t('history.title')}</h1>
+        <h1 className="px-title" style={{ fontSize: 22, marginBottom: 6 }}>{t('history.title')}</h1>
         <p className="guide-intro">{t('history.tagline')}</p>
         <p className="history-drag-hint">{t('history.dragHint')}</p>
       </div>

@@ -441,7 +441,7 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
                 <p key={i} className="detail-desc" style={{ marginBottom: 10 }}>{para}</p>
               ))}
               {!loc.unlocked && (TEASER[lang] || TEASER.en).map((line, i, arr) => (
-                <p key={i} className="detail-desc" style={{ marginBottom: i === arr.length - 1 ? 10 : 4, color: 'var(--text-muted)', fontStyle: 'italic' }}>
+                <p key={i} className="detail-desc detail-desc--teaser" style={{ marginBottom: i === arr.length - 1 ? 10 : 4, color: 'var(--text-muted)' }}>
                   {convert(line)}
                 </p>
               ))}

@@ -569,11 +569,10 @@ export default function LocationDetail({
                       (TEASER[lang] || TEASER.en).map((line, i, arr) => (
                         <p
                           key={i}
-                          className="detail-desc"
+                          className="detail-desc detail-desc--teaser"
                           style={{
                             marginBottom: i === arr.length - 1 ? 10 : 4,
                             color: "var(--text-muted)",
-                            fontStyle: "italic",
                           }}
                         >
                           {convert(line)}
