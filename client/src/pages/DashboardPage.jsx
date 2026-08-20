@@ -49,7 +49,7 @@ export default function DashboardPage() {
             <div className="level-badge__title">
               {convert(lang === 'zh' ? (levelInfo.title_zh ?? levelInfo.title) : lang === 'cz' ? (levelInfo.title_cz ?? levelInfo.title) : levelInfo.title)}
             </div>
-            <div style={{ fontSize: 14, color: 'var(--text-muted)' }}>
+            <div style={{ fontSize: 14, color: 'var(--text-muted)', fontWeight: 700 }}>
               {user?.username}
             </div>
           </div>
@@ -57,7 +57,7 @@ export default function DashboardPage() {
 
         <div style={{ flex: 1, minWidth: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: 8 }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 16 }}>
-            <span style={{ color: 'var(--text-muted)' }}>XP</span>
+            <span style={{ color: 'var(--text-muted)', fontWeight: 700 }}>XP</span>
             <span style={{ color: 'var(--gold)', fontWeight: 700 }}>
               {totalXP} {levelInfo.nextLevelXP ? `/ ${levelInfo.nextLevelXP}` : '(MAX)'}
             </span>
@@ -66,7 +66,7 @@ export default function DashboardPage() {
             <div className="xp-bar__fill" style={{ width: `${levelInfo.progress}%` }} />
           </div>
           {levelInfo.nextLevelXP && (
-            <div style={{ fontSize: 13, color: 'var(--text-muted)' }}>
+            <div style={{ fontSize: 13, color: 'var(--text-muted)', fontWeight: 700 }}>
               {levelInfo.nextLevelXP - totalXP} {t('dashboard.xpToNext')}
             </div>
           )}
@@ -75,15 +75,14 @@ export default function DashboardPage() {
 
       <div className="dashboard-grid">
         {/* Progress Ring */}
-        <div className="stat-card" style={{ display: 'flex', gap: 24, alignItems: 'center' }}>
+        <div className="stat-card stat-card--ring" style={{ display: 'flex', gap: 24, alignItems: 'center' }}>
           <ProgressRing percent={unlockPercent} size={140} />
           <div>
-            <div className="stat-card__label">{t('dashboard.locations')}</div>
             <div className="stat-card__value">{progress.presetCheckins}</div>
-            <div style={{ fontSize: 16, color: 'var(--text-muted)' }}>
+            <div style={{ fontSize: 16, color: 'var(--text-muted)', fontWeight: 700 }}>
               {t('dashboard.ofPreset', { n: totalPreset })}
             </div>
-            <div style={{ fontSize: 16, color: 'var(--text-muted)', marginTop: 6 }}>
+            <div style={{ fontSize: 16, color: 'var(--text-muted)', fontWeight: 700, marginTop: 6 }}>
               {totalCheckins} {t('dashboard.totalVisits')}
             </div>
           </div>

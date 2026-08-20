@@ -210,12 +210,19 @@
   justify-content: space-between;
   align-items: center;
   margin-top: auto;
+  /* Without an explicit gap, space-between only spreads the two children
+     apart when there's slack left over — for the longest rarity word
+     ("Legendary"), the label's own width already fills the row, so the
+     distance ends up flush against it with zero space. This guarantees
+     a minimum gap regardless of how wide the label gets. */
+  gap: 6px;
 }
 .loc-card__xp {
   font-size: 13px;
   color: var(--gold);
 }
 .loc-card__dist {
+  flex-shrink: 0;
   /* Matches .loc-card__xp's size — the two sit side by side in the card
      footer and read as one line now that distance also takes the rarity
      color (see LocationCard.jsx) instead of a separate muted gray. */
@@ -844,6 +851,13 @@
   font-size: 22px;
   color: var(--gold);
   text-shadow: 2px 2px 0 #000;
+  /* .level-badge is a flex item on narrow/mobile widths (its parent row
+     wraps, but .level-badge itself doesn't get its own width) — without
+     this, the space in "LVL 18" is a valid break point, and a squeezed
+     layout was wrapping it to "LVL" / "18" on two lines instead of
+     shrinking the title/username text next to it. */
+  white-space: nowrap;
+  flex-shrink: 0;
 }
 .level-badge__title { font-size: 18px; color: var(--text-primary); }
 
@@ -1138,6 +1152,16 @@
     justify-content: center;
   }
   .navbar__link { font-size: 6px; padding: 5px 8px; }
+  /* Mobile-only Cinzel swap for the nav links — desktop's .navbar__link
+     (pixelart.css, outside this media query) stays on Press Start 2P.
+     zh excluded, matching every other Cinzel rule in this project. 6px
+     (the plain rule right above, tuned for Press Start 2P) read too
+     small/thin in Cinzel, hence the bump here too. */
+  html:not([data-lang="zh"]) .navbar__link {
+    font-family: "Cinzel", serif;
+    font-size: 9px;
+    font-weight: 700;
+  }
   .navbar__user { display: none; }
   .lang-tabs { margin-bottom: 0; }
   .lang-tab { padding: 7px 9px; font-size: 5.5px; }
@@ -1179,6 +1203,13 @@
   .auth-box { padding: 24px 16px; }
   .dashboard-page { padding: 12px; }
   .dashboard-title { font-size: 9px !important; word-break: break-word; }
+  /* The Locations stat card packs a 140px ring beside its text at
+     alignItems: center (see DashboardPage.jsx's inline style) — on a
+     narrow phone there isn't enough room left for the text to read
+     comfortably ("OF 1112 LOCATION CARDS" was breaking mid-phrase).
+     Stacking the ring above the text instead gives the text the full
+     card width. */
+  .stat-card--ring { flex-direction: column; align-items: flex-start !important; }
   .rarity-strip-row { flex-wrap: wrap !important; justify-content: flex-start !important; gap: 10px !important; }
   .rarity-strip-row > div { font-size: 13px !important; }
   .guide-page { padding: 12px 14px; }
