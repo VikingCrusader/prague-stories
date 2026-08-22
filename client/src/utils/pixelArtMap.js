@@ -152,6 +152,7 @@ export const LABEL_DEFINITIONS = {
   },
   nature: { emoji: "🌿", en: "Nature and Landscape", cz: "Příroda a krajina", zh: "自然与风景" },
   "village-and-town": { emoji: "🏘️", en: "Village & Town", cz: "Vesnice & Město", zh: "村庄与城镇" },
+  city: { emoji: "🏙️", en: "City", cz: "Velké město", zh: "城市" },
   "restaurants-and-cafes": {
     emoji: "🍽️",
     en: "Restaurants and cafes",
@@ -207,6 +208,7 @@ export const LABEL_COLORS = {
   basilica: "#7a4a10",
   monastery: "#5a2a1a",
   "village-and-town": "#3b7a5a",
+  city: "#2a5a7a",
   park: "#145a20",
   nature: "#2f7d32",
   "restaurants-and-cafes": "#7a4e1d",

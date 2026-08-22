@@ -218,16 +218,21 @@ html[data-lang="zh"] [style*="Press Start 2P"] {
    height, lowercase glyphs drawn like small caps) is reserved for short
    quote/callout/subtitle-style text sitting directly under a heading —
    the hook line's yellow pull-quote, a related-landmark's one-line
-   caption, a page/era's italic tagline right under its title, and the
-   drag-hint. Crimson Pro (true lowercase, built for paragraphs) carries
-   the actual long-form reading text: event summaries, reference-map
-   captions, guide body copy, and location descriptions. */
+   caption, a page/era's italic tagline right under its title, the
+   drag-hint, and (moved here 2026-08-22 per explicit request, overriding
+   this split's original call) the reference-map block's label/caption/
+   link text. Crimson Pro (true lowercase, built for paragraphs) carries
+   the actual long-form reading text: event summaries, guide body copy,
+   and location descriptions. */
 html:not([data-lang="zh"]) .history-event__hook,
 html:not([data-lang="zh"]) .history-landmark-caption,
 html:not([data-lang="zh"]) .guide-intro,
 html:not([data-lang="zh"]) .history-drag-hint,
 html:not([data-lang="zh"]) .history-era-divider__tagline,
 html:not([data-lang="zh"]) .history-era-divider__years,
+html:not([data-lang="zh"]) .history-event__reference-maps-label,
+html:not([data-lang="zh"]) .history-event__reference-maps-caption,
+html:not([data-lang="zh"]) .history-event__reference-maps-link,
 html:not([data-lang="zh"]) .history-sidebar__item-title,
 html:not([data-lang="zh"]) .history-sidebar__item-year,
 html:not([data-lang="zh"]) .history-event__year,
@@ -298,13 +303,29 @@ html:not([data-lang="zh"]) .history-era-divider__years {
   font-weight: 700;
 }
 
+/* .history-event__reference-maps-* (the "Compare on a historical map"
+   block: its gold uppercase label, its one-line caption, and the year
+   chips/descriptions inside each link) — switched to Cinzel above and
+   sized up here, per explicit request 2026-08-22: history.css's original
+   13/14px sizing read too small and cramped once off the page's default
+   pixel/mono faces. EN/CZ only. -year and -desc take this by inheritance
+   (neither sets its own font-size in history.css). */
+html:not([data-lang="zh"]) .history-event__reference-maps-label {
+  font-size: 16px;
+}
+html:not([data-lang="zh"]) .history-event__reference-maps-caption {
+  font-size: 18px;
+}
+html:not([data-lang="zh"]) .history-event__reference-maps-link {
+  font-size: 17px;
+}
+
 html:not([data-lang="zh"]) .detail-desc,
 html:not([data-lang="zh"]) .guide-body,
 html:not([data-lang="zh"]) .guide-cat,
 html:not([data-lang="zh"]) .guide-tip,
 html:not([data-lang="zh"]) .guide-faq__a,
-html:not([data-lang="zh"]) .history-event__summary,
-html:not([data-lang="zh"]) .history-event__reference-maps-caption {
+html:not([data-lang="zh"]) .history-event__summary {
   font-family: "Crimson Pro", serif;
 }
 

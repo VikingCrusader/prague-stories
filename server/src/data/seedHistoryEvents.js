@@ -2035,6 +2035,45 @@ export const historyEvents = [
     wikipediaUrl: "https://en.wikipedia.org/wiki/Agnes_of_Bohemia",
   },
   {
+    // Background-knowledge card, inserted right after st-agnes-of-bohemia-1211
+    // and before stone-prague-1230 — prompted directly by that event's own
+    // mention of Agnes's convent (Gothic, founded 1231). Explains what "Gothic"
+    // actually means architecturally and clarifies scope on the project's own
+    // established "no Gothic before 1344" illustration rule: that rule is
+    // specific to St. Vitus Cathedral's own silhouette, not a blanket ban on
+    // any Gothic building anywhere in Prague before 1344 — Gothic arrived via
+    // Agnes's convent over a century earlier. See the memory note on this
+    // (project_kingdom_golden_age_content_pass.md, 2026-08-22) for the
+    // illustration-prompt implications.
+    slug: "gothic-architecture-arrives-1231",
+    era: "kingdom-golden-age",
+    startYear: 1211.5,
+    cardType: "background",
+    year: {
+      en: "1140s–1344",
+      cz: "40. léta 12. století – 1344",
+      zh: "12世纪40年代－1344年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Gothic Architecture Arrives in Prague",
+      cz: "Gotická architektura přichází do Prahy",
+      zh: "哥特式建筑，何时传入布拉格？",
+    },
+    hookLine: {
+      en: "This timeline is about to spend the next several centuries insisting on squat towers and round arches instead of the pointy spires most people picture when they hear 'medieval Prague.' Here's exactly when that finally starts to change — and it's earlier, and messier, than you'd think.",
+      cz: "Tahle časová osa se chystá příštích několik století trvat na podsaditých věžích a kulatých obloucích místo špičatých věží, které si většina lidí představí, když se řekne „středověká Praha“. Tady je přesně to, kdy se to konečně začíná měnit — a je to dřív a nepřehledněji, než by člověk čekal.",
+      zh: "这条时间线接下来还要用上好几个世纪，坚持画那些低矮方正的塔楼和圆拱，而不是大多数人一听到“中世纪布拉格”就会脑补的那种尖塔。这里要讲的，正是这一切究竟从什么时候开始改变——答案比想象中更早，也更混乱。",
+    },
+    summary: {
+      en: "Every building this timeline has described so far — Prague Castle's original basilica, the Romanesque rotunda at Vyšehrad, the fortress walls of a dozen dukes — belongs to one broad architectural family: thick walls, round arches, small windows, squat towers capped with simple pyramids or cones. Solid, low, built to bear weight straight down into the ground. Gothic architecture, when it eventually arrives, is a genuinely different engineering idea, not just a different decoration: pointed arches and ribbed vaults redirect weight sideways instead of straight down, caught by external flying buttresses — which frees the walls themselves from having to hold the building up, meaning they can be thinner, taller, and full of glass instead of stone. The whole aesthetic goal flips too: Romanesque architecture wants to look solid and permanent; Gothic architecture wants to look like it's barely touching the ground at all.\n\nThe style originated in France in the 1140s, at the royal abbey church of Saint-Denis outside Paris, and spent the following century spreading east across Europe. It reached Bohemia specifically in 1231, and by an unusually well-documented route: Agnes of Bohemia — the same princess this timeline just watched turn down an emperor — had grown up partly at the Babenberg court in Vienna, where she'd seen the new style firsthand, and brought it home with her when she founded her own convent on the Vltava's right bank. The convent's Church of St. Francis, with its pointed Gothic windows, is credited as the earliest Gothic building not just in Prague, but anywhere in Central Europe. A teenage princess's convent, not a king's cathedral, gets to be the actual starting point.\n\nWhat this doesn't mean is that Prague suddenly became a Gothic city overnight. For the next century-plus, the two styles simply coexisted: a handful of cutting-edge Gothic monasteries and churches went up alongside a skyline that was still, for the most part, thoroughly Romanesque — including, notably, Prague Castle's own cathedral, which wouldn't get its now-iconic Gothic rebuild until 1344, more than a hundred years after Agnes's convent. Anyone picturing 13th-century Prague as a city of spires is picturing the wrong century; anyone picturing it as uniformly squat Romanesque towers is missing the one convent already quietly building something else entirely.",
+      cz: "Každá budova, kterou tahle časová osa dosud popsala — původní bazilika Pražského hradu, románská rotunda na Vyšehradě, hradby tuctu knížat — patří do jedné široké architektonické rodiny: tlusté zdi, kulaté oblouky, malá okna, podsadité věže s prostými jehlanovými nebo kuželovými střechami. Pevné, nízké, stavěné tak, aby váhu nesly rovnou dolů do země. Gotická architektura, až nakonec dorazí, je opravdu jiná inženýrská myšlenka, ne jen jiná výzdoba: lomené oblouky a žebrové klenby přesměrovávají váhu do stran místo rovnou dolů, kterou pak zvenčí zachycují opěrné oblouky — díky čemuž se samotné zdi nemusí starat o to, aby budovu udržely, takže mohou být tenčí, vyšší a plné skla místo kamene. Otočí se i celý estetický cíl: románská architektura chce vypadat pevně a trvale; gotická architektura chce vypadat, jako by se země sotva dotýkala.\n\nStyl vznikl ve Francii ve 40. letech 12. století, v královském opatském kostele Saint-Denis u Paříže, a další století se šířil na východ napříč Evropou. Do Čech dorazil konkrétně v roce 1231, a to nezvykle dobře doloženou cestou: Anežka Česká — tatáž princezna, kterou tahle časová osa právě sledovala odmítnout císaře — vyrůstala částečně na babenberském dvoře ve Vídni, kde nový styl viděla na vlastní oči, a přivezla si ho domů, když založila vlastní klášter na pravém břehu Vltavy. Klášterní kostel svatého Františka, s jeho lomenými gotickými okny, je uváděn jako nejstarší gotická stavba nejen v Praze, ale kdekoli ve střední Evropě. Skutečným výchozím bodem se tak stává klášter teenagerské princezny, ne katedrála krále.\n\nTo ale neznamená, že se Praha přes noc proměnila v gotické město. Příští století a něco navíc oba styly prostě existovaly vedle sebe: hrstka nejmodernějších gotických klášterů a kostelů rostla vedle panoramatu, které bylo z velké části pořád důkladně románské — včetně, pozoruhodně, katedrály samotného Pražského hradu, která se dočká své dnes ikonické gotické přestavby až v roce 1344, přes sto let po Anežčině klášteře. Kdokoli si představuje třinácté století jako město věží, představuje si špatné století; kdokoli si ho představuje jako samé podsadité románské věže, přehlíží ten jeden klášter, který už potichu stavěl něco úplně jiného.",
+      zh: "这条时间线目前为止描述过的每一栋建筑——布拉格城堡最初那座巴西利卡、维谢赫拉德的罗马式圆形教堂、一代代公爵修筑的城墙——都属于同一个大的建筑门类：厚墙、圆拱、小窗户、顶着简单锥形或金字塔形屋顶的矮胖塔楼。结实、低矮，靠把重量笔直压向地面来站稳。而哥特式建筑一旦真正传入，带来的是一套完全不同的工程思路，而不只是换了个装饰风格：尖拱和肋拱把重量导向两侧而不是笔直向下，再由外部的飞扶壁在墙体之外把这份侧向的力接住——这样一来，墙壁本身就不必再承担撑起整栋建筑的任务，可以造得更薄、更高，装满玻璃而不是石头。连审美目标都彻底反过来了：罗马式建筑想要看起来结实、永恒；哥特式建筑却想让人觉得它几乎没怎么碰到地面。\n\n这种风格起源于12世纪40年代的法国，就在巴黎郊外那座王室修道院教堂——圣但尼教堂，此后一个世纪里逐渐向东传遍欧洲。它传入波希米亚的具体年份是1231年，而且这条传播路径记载得相当清楚：波希米亚的阿格尼丝——这条时间线刚讲过她拒绝皇帝求婚的那位公主——年少时曾在维也纳的巴本贝格宫廷生活过一段时间，亲眼见过这种新风格，后来她在伏尔塔瓦河右岸创立自己的修道院时，就把这套风格一并带回了家。修道院里的圣方济各教堂，配着它那些哥特式尖窗，被公认为不仅是布拉格、更是整个中欧最早的一座哥特式建筑。真正的起点，是一位少女公主的修道院，而不是国王的大教堂。\n\n但这并不意味着布拉格一夜之间就变成了一座哥特式城市。在接下来一个多世纪里，两种风格其实是并存的：一小批最前沿的哥特式修道院和教堂拔地而起，而城市的整体天际线，在很大程度上依然彻头彻尾是罗马式的——其中最值得一提的是布拉格城堡自己的那座主教座堂，它那座如今标志性的哥特式建筑，要等到1344年才动工重建，比阿格尼丝的修道院晚了一百多年。谁要是把13世纪的布拉格想象成一座尖塔林立的城市，那是想错了世纪；可谁要是把它想象成清一色矮胖的罗马式塔楼，也漏掉了那座正悄悄建着完全不同东西的修道院。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Gothic_architecture",
+  },
+  {
     slug: "stone-prague-1230",
     era: "kingdom-golden-age",
     startYear: 1230,
@@ -2298,6 +2337,33 @@ export const historyEvents = [
     },
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Margaret_of_Austria,_Queen_of_Bohemia",
+    referenceMaps: {
+      caption: {
+        en: "See Austria join Bohemia's territory on the map, right as Otakar's marriage to Margaret made it official.",
+        cz: "Podívejte se na mapě, jak se Rakousko připojuje k českému území přesně ve chvíli, kdy to Otakarův sňatek s Markétou stvrdil.",
+        zh: "看看奥地利是怎么在地图上并入波希米亚版图的——正是奥托卡迎娶玛格丽特、把这件事坐实的那一刻。",
+      },
+      links: [
+        {
+          label: "1252",
+          description: {
+            en: "Bohemia's realm the year Otakar married Margaret of Babenberg and secured his hold on Austria",
+            cz: "České panství v roce, kdy se Otakar oženil s Markétou Babenberskou a upevnil své postavení v Rakousku",
+            zh: "奥托卡迎娶巴本贝格的玛格丽特、坐实对奥地利统治那一年的波希米亚版图",
+          },
+          url: "https://www.oldmapsonline.org/en/history/regions/Kingdom_of_Bohemia?region_id=863#position=5.1364/49.91/14.51&year=1252",
+        },
+        {
+          label: "1253",
+          description: {
+            en: "Bohemia's realm the following year, with Austria now a settled part of it",
+            cz: "České panství o rok později, kdy už je Rakousko jeho ustálenou součástí",
+            zh: "一年后的波希米亚版图，奥地利此时已经稳稳并入其中",
+          },
+          url: "https://www.oldmapsonline.org/en/history/regions/Kingdom_of_Bohemia?region_id=863#position=5.1364/49.91/14.51&year=1253",
+        },
+      ],
+    },
   },
   {
     slug: "wenceslas-i-death-1253",
@@ -2354,6 +2420,7 @@ export const historyEvents = [
       cz: "1254",
       zh: "1254年",
     },
+    images: ["/history/the-crown-he-didnt-win-1254.webp"],
     tone: "humorous",
     title: {
       en: "The King Who Wanted a Bigger Crown",
@@ -2382,6 +2449,10 @@ export const historyEvents = [
       cz: "1254",
       zh: "1254年",
     },
+    images: [
+      "/history/jewish-community-charter-1254.webp",
+      "/history/jewish-community-charter-1254-celebration.webp",
+    ],
     tone: "serious",
     title: {
       en: "The Jews of Prague: From Market Stalls to a Royal Contract",
@@ -2444,6 +2515,42 @@ export const historyEvents = [
     wikipediaUrl: "https://en.wikipedia.org/wiki/Jewish_diaspora",
   },
   {
+    // Background-knowledge card, inserted right after
+    // jewish-diaspora-to-central-europe-1254 and before
+    // peace-with-cousin-bela-1254 — companion piece to that card (which covers
+    // how Jewish communities got to Central Europe at all) and to
+    // jewish-community-charter-1254 (which covers legal status): this one
+    // covers Josefov as a physical place, answering "why does only the
+    // Old-New Synagogue survive from before 1689, let alone before 1254?"
+    slug: "josefov-asanace-1893",
+    era: "kingdom-golden-age",
+    startYear: 1254.25,
+    cardType: "background",
+    year: {
+      en: "1142–1913",
+      cz: "1142–1913",
+      zh: "1142年－1913年",
+    },
+    tone: "serious",
+    title: {
+      en: "Prague's City Within a City: Josefov",
+      cz: "Pražské město ve městě: Josefov",
+      zh: "布拉格的城中之城：约瑟夫城",
+    },
+    hookLine: {
+      en: "This timeline just named the one building left standing from Josefov's medieval past. Here's how — and specifically why — almost nothing else from the quarter's first six centuries survived to keep it company.",
+      cz: "Tahle časová osa právě pojmenovala jedinou dochovanou stavbu ze středověké minulosti Josefova. Tady je, jak — a hlavně proč — z prvních šesti staletí čtvrti nepřežilo skoro nic dalšího, co by jí dělalo společnost.",
+      zh: "这条时间线刚刚点出了约瑟夫城中世纪历史里唯一活下来的那栋建筑。这里要讲的是——这个街区最初六百年的岁月里，其他几乎所有东西，究竟是怎么、又究竟为什么，都没能活下来陪着它。",
+    },
+    summary: {
+      en: "The Old-New Synagogue's survival as Josefov's only genuine medieval building isn't an accident of luck — it's the outcome of a specific, very late decision about what a neighborhood was allowed to keep of its own past.\n\nAfter the 1142 fire pushed Prague's Jewish community across the river, and decades of tightening restrictions narrowed a once-open settlement into a walled, gated quarter, most of whatever the district originally looked like burned again on 21 June 1689 — a fire deliberately set near a nearby church, blamed at the time on French agents, that swept through the entire ghetto within two hours, gutting most of its synagogues and burning some 319 houses. Prague's authorities allowed it to be rebuilt, but only on their own terms: stone construction only, straightened streets, and a fixed cap on how many Jewish families were permitted to live there. Almost every building a visitor to Josefov walks past today dates, at the very earliest, from that post-1689 rebuild — not from any earlier century.\n\nConfinement only started loosening in 1781, when Emperor Joseph II's Patent of Toleration ordered the ghetto's gates torn down, lifted its curfew, and abolished the centuries-old requirement that Jews wear a distinguishing cap or badge in public. In 1850, the quarter was folded into the city of Prague as an ordinary municipal district and renamed Josefov, after that same emperor, in gratitude. Freed of the wall, wealthier Jewish families spent the following decades moving out to better parts of the city — leaving the old quarter behind to fill instead with Prague's poorest residents generally, Jewish and gentile alike, packed into buildings that had barely been maintained since the 17th century.\n\nBy the 1880s, city planners had a label for that: a slum, and a public-health hazard in need of 'sanitation' — asanace. The clearance program approved in 1893 ran for two full decades and took down nearly the entire district, replacing its cramped medieval street plan with wide Art Nouveau apartment blocks and one grand new boulevard, Pařížská, cut straight from Old Town Square down to the river. Of Josefov's nine synagogues, six had already been declared protected historical monuments and were spared; the other three — the New Synagogue, the Great Court Synagogue, and the Cikán Synagogue — were torn down between 1898 and 1906. The Old Jewish Cemetery and the Jewish Town Hall survived the same way the six synagogues did: already on the protected list before the demolition crews arrived.\n\nThe people watching this happen didn't just accept the loss. In 1906, several of them — drawn partly from the boards of the very synagogues just torn down — founded what's now the Jewish Museum in Prague, specifically to catalogue and preserve whatever the demolition hadn't already taken: ritual silver, salvaged synagogue fittings, entire community records. That museum still exists, and now holds one of the largest collections of Judaica in the world. What's left of Josefov, in other words, survived mostly because someone decided, at the exact moment it was being erased, that it was worth keeping as a museum piece — not because the neighborhood itself was allowed to keep living.",
+      cz: "To, že Staronová synagoga je jedinou opravdu středověkou stavbou Josefova, není náhoda — je to výsledek konkrétního, velmi pozdního rozhodnutí o tom, co si čtvrť směla ponechat z vlastní minulosti.\n\nPoté, co požár v roce 1142 vytlačil pražskou židovskou obec za řeku, a desetiletí postupně se zpřísňujících omezení zúžila kdysi otevřenou osadu do hrazené, uzavřené čtvrti, shořelo skoro všechno, co čtvrť původně tvořilo, znovu — 21. června 1689. Požár, úmyslně založený poblíž nedalekého kostela a tehdy přisuzovaný francouzským agentům, se během dvou hodin rozšířil přes celé ghetto, zničil většinu jeho synagog a spálil kolem 319 domů. Pražské úřady povolily obnovu, ale jen za vlastních podmínek: výhradně z kamene, podél narovnaných ulic, a s pevně stanoveným stropem na počet židovských rodin, které tam směly bydlet. Skoro každá budova, kolem níž dnešní návštěvník v Josefově projde, pochází v nejlepším případě z téhle obnovy po roce 1689 — ne z žádného staršího století.\n\nUvolňování začalo až v roce 1781, kdy Tolerační patent císaře Josefa II. nařídil strhnout brány ghetta, zrušil zákaz vycházení a zrušil staletí starou povinnost, aby Židé na veřejnosti nosili rozlišovací čepici nebo odznak. V roce 1850 byla čtvrť začleněna do Prahy jako běžný městský obvod a na počest téhož císaře přejmenována na Josefov. Zbaveny zdi, zámožnější židovské rodiny se v následujících desetiletích postupně stěhovaly do lepších částí města — a starou čtvrť za sebou nechávaly zaplňovat vůbec nejchudšími pražskými obyvateli, židovskými i nežidovskými, namačkanými do budov, které od 17. století nikdo pořádně neudržoval.\n\nDo 80. let 19. století už na to měli městští plánovači nálepku: slum, zdravotní riziko vyžadující „asanaci“. Sanační program schválený v roce 1893 běžel celé dvě desetiletí a strhl téměř celou čtvrť, přičemž její stísněný středověký půdorys nahradily široké secesní činžovní domy a jeden velký nový bulvár, Pařížská, protažený rovnou od Staroměstského náměstí až k řece. Z devíti josefovských synagog byly už dřív prohlášeny za chráněné památky a ušetřeny šest z nich; zbylé tři — Nová synagoga, Velkodvorská synagoga a Cikánská synagoga — byly zbořeny mezi lety 1898 a 1906. Starý židovský hřbitov a Židovská radnice přežily stejně jako těch šest synagog: byly na seznamu chráněných památek dřív, než dorazily bourací čety.\n\nLidé, kteří to sledovali, tu ztrátu jen tak nepřijali. V roce 1906 několik z nich — částečně z výborů právě zbořených synagog — založilo instituci, která je dnes Židovským muzeem v Praze, konkrétně za účelem katalogizace a záchrany všeho, co demolice ještě nestihla vzít: rituální stříbro, zachráněné vybavení synagog, celé obecní archivy. Tohle muzeum existuje dodnes a dnes drží jednu z největších sbírek judaik na světě. To, co z Josefova zbylo, tedy přežilo hlavně proto, že se přesně ve chvíli, kdy byl mazán z mapy, někdo rozhodl, že to stojí za uchování jako muzejní exponát — ne proto, že by čtvrti samotné bylo dovoleno dál žít.",
+      zh: "旧新会堂能成为约瑟夫城唯一一座真正的中世纪建筑，并不是运气使然——这是一个非常晚近、也非常具体的决定的结果：这个街区到底被允许保留自己历史的哪一部分。\n\n1142年那场大火把布拉格的犹太社群赶到了河对岸，此后数十年间不断收紧的限制，又把一片原本相对开放的聚居地，压缩成了一个筑墙设门、封闭隔绝的街区。这个街区最初的模样，几乎全部在1689年6月21日的一场大火中再次化为灰烬——这场火是有人蓄意在附近一座教堂旁点燃的，当时被归咎于法国特工，短短两小时内就席卷了整个隔都，烧毁了大部分犹太会堂，烧掉了大约319栋房屋。布拉格当局批准重建，但条件全由自己开：只准用石头造，街道必须取直，能住在这里的犹太家庭数量还设了硬性上限。今天游客在约瑟夫城走过的几乎每一栋建筑，往早了追溯，也只能追溯到这次1689年之后的重建——而不是更早的任何一个世纪。\n\n封闭状态一直到1781年才开始松动——皇帝约瑟夫二世的《宽容法令》下令拆除隔都的大门，废止了宵禁，也废除了那条要求犹太人在公共场合佩戴专属尖帽或标志的、施行了几个世纪的规定。1850年，这个街区正式并入布拉格市，成为一个普通的市辖区，并为了感念这位皇帝而改名为“约瑟夫城”。摆脱了围墙之后，家境较富裕的犹太家庭在接下来的几十年里陆续搬去了城里条件更好的地段——而被留在身后的老街区，则渐渐住满了布拉格最贫困的居民，犹太人和非犹太人都有，挤在那些自17世纪起就几乎没怎么维护过的房子里。\n\n到19世纪80年代，城市规划者已经给这里贴上了标签：贫民窟，一处急需“整顿”（asanace）的公共卫生隐患。1893年获批的这项清拆计划，前后整整跑了二十年，几乎推平了整个街区，把它那套局促的中世纪街道格局，换成了宽敞的新艺术风格公寓楼，以及一整条崭新的林荫大道——巴黎街（Pařížská），笔直地从老城广场一路开到河边。约瑟夫城原本的九座犹太会堂里，有六座此前已经被列为受保护的历史古迹，因而躲过一劫；剩下三座——新会堂、大院会堂和茨冈会堂——在1898年到1906年间陆续被拆除。老犹太公墓和犹太市政厅，也和那六座会堂一样，靠着“拆迁队到来之前，就已经上了保护名单”这一点保住了自己。\n\n眼看着这一切发生的人，并没有就此接受这份损失。1906年，其中几位——部分来自那几座刚被拆掉的会堂的理事会——创立了如今的布拉格犹太博物馆，目的就是要把拆迁队还没来得及拿走的东西一一编目、保存下来：礼仪银器、从会堂里抢救出来的陈设、整份整份的社群档案。这座博物馆至今仍在，如今拥有全世界最大的犹太文物收藏之一。换句话说，约瑟夫城剩下的这些东西，之所以能活下来，主要是因为在它被从地图上抹去的那一刻，恰好有人认定它值得作为博物馆藏品保存下来——而不是因为这个街区本身，被允许继续活下去。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Josefov,_Prague",
+  },
+  {
     slug: "peace-with-cousin-bela-1254",
     era: "kingdom-golden-age",
     startYear: 1254.3,
@@ -2452,11 +2559,12 @@ export const historyEvents = [
       cz: "1254",
       zh: "1254年",
     },
+    images: ["/history/peace-with-cousin-bela-1254.webp"],
     tone: "humorous",
     title: {
-      en: "Peace With His Cousin (Sort Of)",
-      cz: "Mír s bratrancem (víceméně)",
-      zh: "与堂兄的和解",
+      en: "Six Years of Peace With Hungary",
+      cz: "Šest let míru s Uhrami",
+      zh: "与匈牙利六年的和平",
     },
     hookLine: {
       en: "Otakar's growing power east of the Leitha was enough to make his own cousin in Hungary pick a fight over it.",
@@ -2464,9 +2572,9 @@ export const historyEvents = [
       zh: "奥托卡在莱塔河以东日益扩张的势力，已经足以让他自己在匈牙利的堂兄为此挑起争端。",
     },
     summary: {
-      en: "Otakar's growing power east of the Leitha River worried his cousin, King Béla IV of Hungary, enough to pick a fight over it. Béla found a loose ally in Duke Otto II of Bavaria and pushed his own son Stephen forward as a candidate for Duke of Styria — a title that had been bound to Austria in personal union since 1192, under an inheritance treaty signed in 1186 at Georgenberg. (That treaty's other signatory, incidentally, was a duke also named Ottokar — Ottokar IV of Styria, no relation whatsoever to the Bohemian king of the same name a century later; this family tree really does recycle names for sport.)\n\nPapal mediation settled the argument before it turned into a real war: Otakar agreed to hand over the bulk of Styria to Béla, in exchange for Béla formally recognizing his own rule over the rest of Austria. It held for six years — which, by this family's usual standards, counted as a genuine success.",
-      cz: "Otakarova rostoucí moc na východ od řeky Litavy znepokojila jeho bratrance, uherského krále Bélu IV., natolik, že si kvůli tomu vybral spor. Béla si našel volného spojence v bavorském vévodovi Otovi II. a prosazoval vlastního syna Štěpána jako kandidáta na vévodu štýrského — titul, který byl s Rakouskem svázán osobní unií od roku 1192, na základě dědické smlouvy podepsané roku 1186 na Georgenbergu. (Druhým signatářem té smlouvy byl mimochodem také vévoda jménem Otakar — Otakar IV. Štýrský, s českým králem stejného jména o století později naprosto nepříbuzný; tahle rodina si se jmény opravdu užívá.)\n\nPapežské zprostředkování vyřešilo spor dřív, než se z něj stala skutečná válka: Otakar souhlasil, že Bélovi předá většinu Štýrska, výměnou za to, že Béla formálně uzná jeho vlastní vládu nad zbytkem Rakouska. Vydrželo to šest let — což se podle standardů téhle rodiny počítalo za opravdový úspěch.",
-      zh: "奥托卡在莱塔河以东日益扩张的势力，让他的表兄、匈牙利国王贝拉四世感到足够不安，不安到要为此挑起争端。贝拉找了巴伐利亚公爵奥托二世当松散盟友，并推自己的儿子斯蒂芬去竞争施蒂里亚公爵之位——这个头衔自1186年在格奥尔根贝格签订的一份继承条约起，就已经和奥地利绑定在同一个共主邦联之下，从1192年生效。（顺带一提，那份条约的另一位签署人，恰好也是一位名叫奥托卡的公爵——施蒂里亚的奥托卡四世，跟一个世纪后这位同名的波希米亚国王毫无血缘关系；这个家族取名字，属实是不嫌麻烦。）\n\n教皇的调解在事情演变成真正的战争之前把争端压了下去：奥托卡同意把施蒂里亚的大部分割让给贝拉，换取贝拉正式承认他对奥地利其余部分的统治权。这份和平维持了六年——按这个家族一贯的标准，这已经算得上是真正的成功了。",
+      en: "Austria hadn't come to Otakar alone: since 1192, the duchy had been bound in personal union with its southern neighbor Styria, under an inheritance treaty signed in 1186 at Georgenberg — so his hold on Austria from 1251 carried an implicit claim on Styria too, extending his effective reach all the way to the Leitha River, the traditional border with Hungary. (That 1186 treaty's other signatory, incidentally, was a duke also named Ottokar — Ottokar IV of Styria, no relation whatsoever to the Bohemian king of the same name a century later; this family tree really does recycle names for sport.) That reach worried his cousin, King Béla IV of Hungary, enough to pick a fight over it. (Cousin is doing some generational rounding here: Béla was really a first cousin of Otakar's own father, Wenceslas I, making Otakar himself more precisely a cousin once removed — but every source calls it 'cousin' anyway, and this timeline isn't about to be the first to complicate that.) Béla found a loose ally in Duke Otto II of Bavaria and pushed his own son Stephen forward as a rival candidate for Duke of Styria himself.\n\nPapal mediation settled the argument before it turned into a real war: Otakar agreed to hand over the bulk of Styria to Béla, in exchange for Béla formally recognizing his own rule over the rest of Austria. It held for six years — which, by this family's usual standards, counted as a genuine success.",
+      cz: "Rakousko k Otakarovi nepřišlo samo: od roku 1192 bylo vévodství svázáno osobní unií se svým jižním sousedem, Štýrskem, na základě dědické smlouvy podepsané roku 1186 na Georgenbergu — takže jeho držení Rakouska od roku 1251 s sebou neslo i implicitní nárok na Štýrsko, čímž se jeho reálný dosah roztáhl až k řece Litavě, tradiční hranici s Uhrami. (Druhým signatářem té smlouvy z roku 1186 byl mimochodem také vévoda jménem Otakar — Otakar IV. Štýrský, s českým králem stejného jména o století později naprosto nepříbuzný; tahle rodina si se jmény opravdu užívá.) Tenhle dosah znepokojil jeho bratrance, uherského krále Bélu IV., natolik, že si kvůli tomu vybral spor. (Slovo „bratranec“ tu trochu zaokrouhluje generace: Béla byl ve skutečnosti bratrancem Otakarova otce Václava I., takže sám Otakar byl přesněji bratranec z druhého kolena — ale všechny prameny tomu prostě říkají „bratranec“, a tahle časová osa nebude ta první, kdo to bude komplikovat.) Béla si našel volného spojence v bavorském vévodovi Otovi II. a prosazoval vlastního syna Štěpána jako soupeřícího kandidáta na vévodu štýrského.\n\nPapežské zprostředkování vyřešilo spor dřív, než se z něj stala skutečná válka: Otakar souhlasil, že Bélovi předá většinu Štýrska, výměnou za to, že Béla formálně uzná jeho vlastní vládu nad zbytkem Rakouska. Vydrželo to šest let — což se podle standardů téhle rodiny počítalo za opravdový úspěch.",
+      zh: "奥托卡娶回来的，可不仅仅是奥地利：自1192年起，这个公国就已经和它南边的邻居施蒂里亚绑定在同一个共主邦联之下——依据的是1186年在格奥尔根贝格签订的一份继承条约。也就是说，奥托卡1251年拿下奥地利的同时，也顺带背上了对施蒂里亚的隐含主张，他的实际势力范围也因此一路延伸到了莱塔河——这条与匈牙利之间的传统边界。（顺带一提，那份1186年条约的另一位签署人，恰好也是一位名叫奥托卡的公爵——施蒂里亚的奥托卡四世，跟一个世纪后这位同名的波希米亚国王毫无血缘关系；这个家族取名字，属实是不嫌麻烦。）这份延伸出去的势力，让他的表兄、匈牙利国王贝拉四世感到足够不安，不安到要为此挑起争端。（这里的“表兄”其实打了个折扣：贝拉四世严格说是奥托卡父亲瓦茨拉夫一世的表兄弟，轮到奥托卡自己，其实该算表叔——但史料一向都简单地叫他“表兄”，这条时间线也不打算做第一个较真的。）贝拉找了巴伐利亚公爵奥托二世当松散盟友，推自己的儿子斯蒂芬去竞争施蒂里亚公爵之位，跟奥托卡打擂台。\n\n教皇的调解在事情演变成真正的战争之前把争端压了下去：奥托卡同意把施蒂里亚的大部分割让给贝拉，换取贝拉正式承认他对奥地利其余部分的统治权。这份和平维持了六年——按这个家族一贯的标准，这已经算得上是真正的成功了。",
     },
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/B%C3%A9la_IV_of_Hungary",
@@ -2480,6 +2588,10 @@ export const historyEvents = [
       cz: "1254–1268",
       zh: "1254年－1268年",
     },
+    images: [
+      "/history/konigsberg-1255-battle.webp",
+      "/history/konigsberg-1255.webp",
+    ],
     tone: "humorous",
     title: {
       en: "A Slav Named Prussia's Capital",
@@ -2492,9 +2604,9 @@ export const historyEvents = [
       zh: "奥托卡的整个政治生涯，几乎都在一份份条约里收割讲德语的公国。可最终永久留下他名字的那个地方，却不在其中任何一处——它在波罗的海边上。",
     },
     summary: {
-      en: "Between his diplomatic maneuvering over Austria and Styria, Otakar found time for something considerably further from home: in 1254–1255, and again in 1268, he led armed expeditions alongside the Teutonic Knights against the pagan Old Prussians on the Baltic coast, part of the long-running Northern Crusades that had already been grinding on for decades before he showed up.\n\nThe 1255 campaign left a mark that outlasted almost everything else he ever did. The Teutonic Knights founded a new fortress on the site and named it in his honor: Königsberg, 'King's Mountain.' It grew over the following centuries into the capital of the Duchy of Prussia and later East Prussia — a Baltic city carrying a Bohemian king's name for nearly 700 years, in a language he may not have even needed for the rest of his own career.\n\nThe name didn't survive the 20th century. After the Soviet Union annexed the city following the Second World War, it was renamed Kaliningrad — and remains, to this day, a Russian exclave wedged between Poland and Lithuania, still quietly carrying the ghost of a 13th-century Bohemian crusade in its bones, if not in its name.",
-      cz: "Mezi diplomatickým manévrováním kolem Rakouska a Štýrska si Otakar našel čas i na něco podstatně vzdálenějšího od domova: v letech 1254–1255, a znovu v roce 1268, vedl po boku řádu německých rytířů ozbrojené výpravy proti pohanským starým Prusům na pobřeží Baltu, součást dlouhotrvajících severních křížových výprav, které se táhly už celá desetiletí předtím, než se do nich zapojil.\n\nTažení z roku 1255 zanechalo stopu, která přežila téměř všechno ostatní, co kdy udělal. Řádoví rytíři na tom místě založili novou pevnost a pojmenovali ji na jeho počest: Königsberg, „Královská hora\". Ta se v následujících staletích rozrostla v hlavní město pruského vévodství a později Východního Pruska — baltské město nesoucí jméno českého krále téměř 700 let, v jazyce, který sám možná ani nepotřeboval po zbytek vlastní kariéry.\n\nJméno nepřežilo 20. století. Poté, co Sovětský svaz město po druhé světové válce anektoval, bylo přejmenováno na Kaliningrad — a dodnes zůstává ruskou exklávou vklíněnou mezi Polsko a Litvu, stále tiše nesoucí duch třináctého-století české křížové výpravy ve svých kostech, i když ne ve svém jméně.",
-      zh: "在为奥地利和施蒂里亚忙于外交周旋的同时，奥托卡还抽空干了一件离家远得多的事：1254年到1255年间，以及后来1268年，他跟随条顿骑士团，对波罗的海沿岸信奉异教的古普鲁士人发动了武装远征——这只是那场旷日持久的“北方十字军”运动的一部分，在他加入之前，这场远征其实已经打了好几十年。\n\n1255年的这次远征，留下的痕迹比他这辈子做过的几乎任何事都更长久。条顿骑士团在当地建起了一座新要塞，并以他的名字命名：柯尼斯堡，意为“国王山”。此后数百年间，这座城市逐渐发展成了普鲁士公国、后来又是东普鲁士的首府——一座波罗的海城市，用一位波希米亚国王的名字命名，前后延续了将近700年，尽管他自己此后的政治生涯，可能压根用不上这门语言。\n\n这个名字没能撑过20世纪。二战之后苏联吞并了这座城市，将它改名为加里宁格勒——如今仍然是俄罗斯夹在波兰和立陶宛之间的一块飞地，骨子里依然悄悄留着这场13世纪波希米亚十字军远征的痕迹，尽管名字上已经看不出来了。",
+      en: "Between his diplomatic maneuvering over Austria and Styria, Otakar found time for something considerably further from home: in 1254–1255, and again in 1268, he led armed expeditions alongside the Teutonic Knights against the pagan Old Prussians on the Baltic coast, part of the long-running Northern Crusades that had already been grinding on for decades before he showed up. (Worth flagging for later: this was a thoroughly devout Catholic Bohemia, marching off to fight the Church's own wars on foreign soil — a description this kingdom would spend the next couple of centuries busily undoing.)\n\nThe 1255 campaign left a mark that outlasted almost everything else he ever did. The Teutonic Knights founded a new fortress on the site and named it in his honor: Königsberg, 'King's Mountain.' (A small linguistic point worth being precise about: 'König' simply means 'king' — the honor was for his title, not his actual name. Nobody was about to found a city called 'Ottokarsberg'.) It grew over the following centuries into the capital of the Duchy of Prussia and later East Prussia — a Baltic city quietly honoring a Bohemian king for nearly 700 years, in a language he may not have even needed for the rest of his own career.\n\nIt's worth sitting with how far that chain actually runs, purely because it's absurd: the Teutonic Knights' Baltic conquests eventually secularized into the Duchy of Prussia, merged with Brandenburg, and by the 18th century had grown into the single most militarized state in Germany. In 1871, it was Prussia — not Austria, not Bavaria, not any of the dozens of other German-speaking territories this timeline has already wandered through — that did the actual unifying, dragging the rest of Germany into a single empire behind it. That empire went on to start one world war and lose a second, considerably worse one. None of which is remotely Otakar's fault, to be entirely fair to him — a three-month winter campaign alongside two brothers-in-law is a thin thread to hang two world wars on. Or, if the drama is more fun: without those extra troops that winter, maybe Sambia holds, the fortress never goes up, and this entire absurd chain — Prussia, unification, two world wars — quietly fails to happen. Historians would call that wildly overselling one twenty-two-year-old's share of a crusade the Teutonic Knights were already winning without him. This paragraph is having too much fun to care: pull on this one loose stitch hard enough, and you can just about convince yourself that a 22-year-old king's Baltic side quest in 1255 is tangled up, several centuries and many, many intervening decisions later, in the reason the twentieth century went the way it did.\n\nThe name didn't survive the 20th century. After the Soviet Union annexed the city following the Second World War, it was renamed Kaliningrad — and remains, to this day, a Russian exclave wedged between Poland and Lithuania, still quietly carrying the ghost of a 13th-century Bohemian crusade in its bones, if not in its name.",
+      cz: "Mezi diplomatickým manévrováním kolem Rakouska a Štýrska si Otakar našel čas i na něco podstatně vzdálenějšího od domova: v letech 1254–1255, a znovu v roce 1268, vedl po boku řádu německých rytířů ozbrojené výpravy proti pohanským starým Prusům na pobřeží Baltu, součást dlouhotrvajících severních křížových výprav, které se táhly už celá desetiletí předtím, než se do nich zapojil. (Stojí za to si to zapamatovat na později: tohle byly Čechy jakožto důkladně zbožné katolické království, táhnoucí bojovat církevní války v cizině — popis, který si tahle země v příštích pár stoletích pilně vzala za úkol vyvrátit.)\n\nTažení z roku 1255 zanechalo stopu, která přežila téměř všechno ostatní, co kdy udělal. Řádoví rytíři na tom místě založili novou pevnost a pojmenovali ji na jeho počest: Königsberg, „Královská hora\". (Stojí za to upřesnit jednu jazykovou drobnost: „König“ znamená prostě „král“ — pocta platila jeho titulu, ne jeho vlastnímu jménu. Nikdo neplánoval založit město jménem „Otakarsberg“.) Ta se v následujících staletích rozrostla v hlavní město pruského vévodství a později Východního Pruska — baltské město tiše vzdávající hold českému králi téměř 700 let, v jazyce, který sám možná ani nepotřeboval po zbytek vlastní kariéry.\n\nStojí za to na chvíli se zastavit u toho, jak daleko ten řetězec vlastně sahá — čistě proto, že je to absurdní: baltské výboje řádu německých rytířů se nakonec sekularizovaly do Pruského vévodství, spojily se s Braniborskem a do 18. století z toho vyrostl nejmilitarizovanější stát v Německu. V roce 1871 to bylo právě Prusko — ne Rakousko, ne Bavorsko, ani žádné z těch mnoha dalších německy mluvících území, kterými se tahle časová osa už proplétala — kdo skutečně provedl sjednocení, a vtáhl zbytek Německa do jednoho císařství za sebou. Tohle císařství pak rozpoutalo jednu světovou válku a prohrálo druhou, podstatně horší. Nic z toho není ani vzdáleně Otakarova vina, aby se mu dostalo spravedlnosti — třiměsíční zimní tažení po boku dvou švagrů je dost tenká nit na to, aby se na ni pověsily dvě světové války. Anebo, pokud má drama vyhrát: bez těch dodatečných vojáků tu zimu možná Sambie vydrží, pevnost nikdy nevznikne, a celý tenhle absurdní řetězec — Prusko, sjednocení, dvě světové války — potichu k ničemu z toho nedojde. Historikové by tomu řekli, že se tu bere šíleně přehnaně jeden dvaadvacetiletý král a jeho podíl na křížové výpravě, kterou řádoví rytíři vyhrávali i bez něj. Tenhle odstavec se ale baví až moc na to, aby si s tím dělal starosti: zatáhni za tuhle jednu uvolněnou nit dost silně, a skoro se ti podaří přesvědčit sám sebe, že vedlejší baltská výprava dvaadvacetiletého krále v roce 1255 je — o několik století a spoustu dalších rozhodnutí později — zapletená do důvodu, proč se dvacáté století vyvinulo tak, jak se vyvinulo.\n\nJméno nepřežilo 20. století. Poté, co Sovětský svaz město po druhé světové válce anektoval, bylo přejmenováno na Kaliningrad — a dodnes zůstává ruskou exklávou vklíněnou mezi Polsko a Litvu, stále tiše nesoucí duch třináctého-století české křížové výpravy ve svých kostech, i když ne ve svém jméně.",
+      zh: "在为奥地利和施蒂里亚忙于外交周旋的同时，奥托卡还抽空干了一件离家远得多的事：1254年到1255年间，以及后来1268年，他跟随条顿骑士团，对波罗的海沿岸信奉异教的古普鲁士人发动了武装远征——这只是那场旷日持久的“北方十字军”运动的一部分，在他加入之前，这场远征其实已经打了好几十年。（这一点值得先记下来，以后有用：这时候的波希米亚，还是个不折不扣的虔诚天主教王国，专程跑到国外替教会打仗——而接下来这个国家会用足足好几个世纪的功夫，把这个说法彻底推翻。）\n\n1255年的这次远征，留下的痕迹比他这辈子做过的几乎任何事都更长久。条顿骑士团在当地建起了一座新要塞，并以他的名义命名：柯尼斯堡，意为“国王山”。（这里有个语言上的小细节值得说清楚：“König”单纯就是“国王”的意思——这份荣誉致敬的是他的头衔，不是他本人的名字。可没人真打算建一座叫“奥托卡堡”的城市。）此后数百年间，这座城市逐渐发展成了普鲁士公国、后来又是东普鲁士的首府——一座波罗的海城市，静静地向一位波希米亚国王致敬，前后延续了将近700年，尽管他自己此后的政治生涯，可能压根用不上这门语言。\n\n值得花一段篇幅认真琢磨一下这条因果链到底能拉多长——纯粹因为这事本身够荒谬：条顿骑士团在波罗的海的这些征服，后来世俗化成了普鲁士公国，又和勃兰登堡合并，到18世纪已经长成了德意志境内军事化程度最高的一个邦。1871年，真正完成统一大业、把德意志其他邦国一并拖进同一个帝国的，正是普鲁士——不是奥地利，不是巴伐利亚，也不是这条时间线之前提到过的那一大堆讲德语的邦国。而这个帝国后来挑起了一场世界大战，又打输了一场更糟糕的。平心而论，这些事跟奥托卡半点关系都扯不上——一场三个月的冬季远征，带着两位姻亲，实在是一根太细的线，撑不起两场世界大战。不过，如果要图个戏剧效果：要是少了那年冬天那批援军，桑比亚说不定就守住了，那座要塞压根建不起来，后面这整条荒谬的链条——普鲁士、统一、两场世界大战——也就悄悄地不会发生了。历史学家大概会说，这是把一位22岁国王在这场条顿骑士团本来不靠他也能打赢的十字军东征里的那点分量，夸张到离谱。可这一段写得太尽兴了，没工夫在意这个：只要使劲拽这根松脱的线头，几乎就能说服自己相信——一位22岁国王1255年那次波罗的海“支线任务”，几个世纪、无数个后续决定之后，竟然和20世纪为什么会走成那样，纠缠在了一起。\n\n这个名字没能撑过20世纪。二战之后苏联吞并了这座城市，将它改名为加里宁格勒——如今仍然是俄罗斯夹在波兰和立陶宛之间的一块飞地，骨子里依然悄悄留着这场13世纪波希米亚十字军远征的痕迹，尽管名字上已经看不出来了。",
     },
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/K%C3%B6nigsberg",
@@ -2515,6 +2627,7 @@ export const historyEvents = [
       cz: "1257",
       zh: "1257年",
     },
+    images: ["/history/founding-of-mala-strana-1257.webp"],
     tone: "humorous",
     title: {
       en: "The New Town Below Prague Castle",
@@ -2531,7 +2644,16 @@ export const historyEvents = [
       cz: "V roce 1257 založil Otakar II. přímo pod Pražským hradem, na levém břehu řeky, novou osadu a dal jí formální latinský název: Nova Civitas sub castro Pragensi — „Nové Město pod Pražským hradem\", obvykle zkracované na prosté Nova Civitas. Pozemek nebyl zprvu prázdný: podle jednoho podání Otakarovi muži násilím vyhnali ty, kdo tam už bydleli, aby uvolnili místo právě pro německé osadníky — podstatně drsnější zahájení, než jaké o generaci dřív zvolil jeho otec Václav I., kdy Staré Město na druhém břehu dostalo vlastní německou listinu, aniž by zjevně bylo třeba někoho napřed vyhánět. Tahle nová osada se navíc řídila jiným konkrétním právním kodexem. Staré Město fungovalo podle norimberského práva; Otakarova nová osada pod hradem použila místo toho právo magdeburské. Dvě sousední středověké čtvrti téhož města, dvě oddělené německé městské právní tradice, dovezené vcelku a fungující bok po boku.\n\nTady je ta část, kterou stojí za to jasně zdůraznit: „Nova Civitas\" se překládá přímo jako „Nové Město\". Není to to Nové Město, které má většina lidí na mysli, když se o Praze mluví. To je úplně jiná, pozdější stavba — Nové Město, založené skoro o století později, v roce 1348, Karlem IV., na opačné straně od Starého Města. Tahle časová osa už musela rozmotávat spoustu podobných jmenných zmatků mezi vévody a králi téhle dynastie — dva Václavové, dva Vratislavové/Vladislavové, dva Otakarové. Tohle je čtvrťová verze úplně stejné pasti: dvě různé části téhož města, o století od sebe, obě kdysi odpovídající na „Nové Město\".\n\nZmatek se vyřešil praktickým způsobem: jakmile existovalo skutečné Karlovo Nové Město, Otakarova starší osada se jména vzdala úplně a přejmenovala se na Menší Město pražské — a nakonec se ustálila na jméně, které nese dodnes, Malá Strana. Praha si, jak se ukazuje, recykluje jména pro vlastní čtvrti stejně nadšeně, jako to tahle rodina vždycky dělala pro vlastní děti.\n\nJméno, na kterém se nakonec ustálila, znamená prostě „Malá strana\" — obyčejný popis její polohy na druhé straně řeky, naproti většímu a rušnějšímu břehu, s nímž ji nakonec spojil Karlův most. Po většinu středověku fungovala tahle „malá strana\" jako hlavní pražská čtvrť německých obyvatel (od 16. století se k nim přidávala i rostoucí italská komunita), poseta šlechtickými paláci a měšťanskými domy — s výrazně aristokratičtějším rázem než pravobřežní města, která zůstávala poměrně měšťanštější a poměrně více česká.",
       zh: "1257年，奥托卡二世在布拉格城堡正下方、伏尔塔瓦河左岸，建立了一处新聚落，并给它起了一个正式的拉丁语名称：Nova Civitas sub castro Pragensi——“布拉格城堡下的新城”，通常简称为 Nova Civitas。这块地一开始并不是空地：据一种说法，奥托卡的人马强行驱逐了当时已经住在那里的原住民，专门腾出地方来安置德意志移民——比他父亲瓦茨拉夫一世一代人之前的做法粗暴得多，当年河对岸的老城获得自己的德意志特许状时，似乎并不需要先把谁赶走。这处新聚落用的还是另一套具体的法律体系：老城施行的是纽伦堡法，而奥托卡这处城堡脚下的新聚落，用的却是马格德堡法。同一座城市里两个相邻的中世纪街区，各自整体照搬了不同的德意志市镇法律传统，并肩运作。\n\n这里有一点必须挑明说清楚：“Nova Civitas”直译过来就是“新城”。可它并不是大多数人一提起布拉格“新城”时想到的那一个。那是完全另一处、年代晚得多的建置——查理四世将近一个世纪之后、1348年建立的“新城”（Nové Město），位于老城的另一侧。这条时间线此前已经不止一次替这个家族的公爵和国王们理清过同名混淆——两位瓦茨拉夫、弗拉季斯拉夫和弗拉迪斯拉夫、两位奥托卡。这一次，撞名的不是两个人，而是同一座城市里的两片街区，相隔整整一个世纪，却都曾被称作“新城”。\n\n这个混乱最终以最实际的方式解决了：等到查理四世真正的“新城”建起来之后，奥托卡这片更古老的聚落干脆彻底放弃了这个名字，改称“小布拉格城”（Menší Město pražské）——最终定型为它今天沿用的名字，小城（Malá Strana）。看来布拉格给自己的街区起名字，跟这个家族给自己孩子起名字一样，都爱“循环利用”。\n\n它最终定型的这个名字，字面意思就是“小边”——单纯描述它位于河对岸、跟更大更热闹的那一岸相对的位置，后来两岸由查理大桥连接了起来。中世纪大部分时期，这片“小边”一直是布拉格德意志居民的主要聚居区（16世纪起，还加入了日益壮大的意大利人社群），布满贵族宫殿和市民宅邸——性格上明显比右岸城区更贵族化，而右岸城镇则相对更市民阶层化、更偏波希米亚捷克人。",
     },
-    relatedLandmarks: [],
+    relatedLandmarks: [
+      {
+        slug: "st-nicholas-mala-strana",
+        relation: {
+          en: "A church has stood on this exact spot since 1283 — one of the new settlement's own parish churches, built a generation after Otakar's 1257 founding. What's visible today is not that building, though: this is Prague's most celebrated Baroque church, built 1704–1755 after the original Gothic church was demolished to make way for it. The site is 13th-century; the building standing on it is 18th.",
+          cz: "Kostel na tomhle přesném místě stojí už od roku 1283 — jeden z vlastních farních kostelů nové osady, postavený o generaci po Otakarově založení roku 1257. To, co je tu k vidění dnes, ale není ta stavba: jde o nejslavnější pražský barokní kostel, postavený 1704–1755 poté, co původní gotický kostel ustoupil bourání, aby uvolnil místo právě jemu. Místo je ze 13. století; budova, která na něm stojí, je z 18.",
+          zh: "这个确切位置上从1283年起就有一座教堂——是这处新聚落自己的堂区教堂之一，比奥托卡1257年建镇晚了一代人。不过今天能看到的并不是那座建筑：这是布拉格最负盛名的巴洛克教堂，建于1704–1755年，是拆掉了原来那座哥特式教堂之后才盖起来的。选址是13世纪的，但现存的建筑本体是18世纪的。",
+        },
+      },
+    ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Mal%C3%A1_Strana",
   },
   {
@@ -2543,6 +2665,7 @@ export const historyEvents = [
       cz: "1260",
       zh: "1260年",
     },
+    images: ["/history/battle-of-kressenbrunn-1260.webp"],
     tone: "humorous",
     title: {
       en: "Taking Styria Back",
@@ -2555,12 +2678,30 @@ export const historyEvents = [
       zh: "跟匈牙利的和平维持了六年——直到施蒂里亚本地贵族自己起兵反抗，奥托卡瞅准了机会，要把这场争端一劳永逸地了结掉。",
     },
     summary: {
-      en: "The peace held for six years, until 1260, when Styria's own nobility rose up against Hungarian rule and Otakar saw his chance to move. In July 1260, near Groissenbrunn on the March River, his army met Béla's in open battle — and this time there was no ambiguity about the result. The Hungarians broke, many drowning in the river as they fled, and Béla formally renounced his claim to Styria on the spot.\n\nOtakar's ownership of the whole duchy got a formal rubber stamp soon after, from Richard of Cornwall — nominally King of the Romans during the long Interregnum that followed the Hohenstaufen collapse, though 'nominally' is doing most of the work in that sentence: Richard barely set foot in German territory during his own reign, and his 'confirmation' of Otakar's conquests cost the English earl nothing and Otakar everything he'd actually already taken by force.",
-      cz: "Mír vydržel šest let, až do roku 1260, kdy se štýrská šlechta sama vzbouřila proti uherské nadvládě a Otakar viděl svou příležitost jednat. V červenci 1260, poblíž Grossenbrunnu na řece Moravě, se jeho vojsko střetlo s Bélovým v otevřené bitvě — a tentokrát o výsledku nebylo pochyb. Uherské vojsko se zhroutilo, mnozí se při útěku utopili v řece, a Béla na místě formálně vzdal svůj nárok na Štýrsko.\n\nOtakarovo vlastnictví celého vévodství si krátce poté vysloužilo formální razítko od Richarda Kornwallského — nominálně římského krále během dlouhého interregna, které následovalo po zhroucení štaufské dynastie, i když slovo „nominálně\" tu odvádí většinu práce: Richard za celou svou vládu sotva vkročil na německé území, a jeho „potvrzení\" Otakarových výbojů anglického hraběte nestálo vůbec nic — Otakara to zase stálo všechno, co si už beztak vydobyl silou.",
-      zh: "这份和平维持了六年，直到1260年，施蒂里亚本地贵族起兵反抗匈牙利统治，奥托卡瞅准机会出手了。1260年7月，在摩拉瓦河畔的格罗森布伦附近，他的军队与贝拉的军队正面交锋——这一次结果毫无悬念。匈牙利军队全线崩溃，不少人在逃跑途中溺死河中，贝拉当场正式放弃了对施蒂里亚的主张。\n\n不久后，奥托卡对整个公国的所有权，又得到了理查德·康沃尔的正式盖章确认——此人名义上是霍亨斯陶芬王朝崩溃后那段漫长“空位期”里的“罗马人的国王”，不过“名义上”这三个字才是这句话的重点：理查德在自己的任内几乎从没踏上过德意志的土地，而他对奥托卡战果的这份“确认”，对这位英格兰伯爵来说毫无成本——对奥托卡而言，不过是给他早就靠武力拿到手的东西，补了一张纸。",
+      en: "Back in 1254, Otakar had traded away most of Styria to his cousin Béla IV of Hungary in exchange for a formal Hungarian recognition of his own rule over Austria — the peace this timeline covered two cards ago, right before wandering off to found a Baltic fortress and a new town under Prague Castle. That peace held for six years, until 1260, when Styria's own nobility rose up against Hungarian rule and Otakar saw his chance to move. In July 1260, near Groissenbrunn on the March River, his army met Béla's in open battle — and by most counts, it ranks among the largest pitched battles fought anywhere in medieval Central Europe, though the eye-popping troop totals some chroniclers cite (upward of 100,000 combined) are treated with real skepticism by modern historians, who doubt medieval logistics could actually supply an army that size. What's not in doubt is how far both sides reached for allies: Otakar's own ranks drew on Bohemian and Moravian troops alongside German, Polish, Carinthian, Carniolan, and Styrian contingents, while Béla assembled a genuinely sprawling coalition — Hungarians, Cumans, Rus', Poles, Bulgarians, and Croatians among them, with still more peoples represented besides. This time there was no ambiguity about the result: the Hungarians broke, many drowning in the river as they fled, and Béla formally renounced his claim to Styria on the spot.\n\nThat sprawling Hungarian coalition is worth pausing on, because it's really a symptom of weakness rather than strength. The Kingdom of Hungary had never fully recovered from the Mongol invasion of 1240–1241 — this timeline already covered Bohemia's own narrower brush with that same invasion — which cost Hungary much of its earlier political and military standing. Estimates of the human toll vary widely: an older figure still widely quoted puts it as high as half of Hungary's roughly two million people, dead directly or indirectly because of the invasion and the famine that followed it; more recent, more careful reconstructions put the real number meaningfully lower, likely somewhere in the 15–40 percent range. Either way, a kingdom still that hollowed out two decades later had to lean on whatever allied and vassal contingents it could gather, precisely because it could no longer field a comparably large army from its own population alone.\n\nOtakar's ownership of the whole duchy got a formal rubber stamp soon after, from Richard of Cornwall — nominally King of the Romans during the long Interregnum that followed the Hohenstaufen collapse, though 'nominally' is doing most of the work in that sentence: Richard barely set foot in German territory during his own reign, and his 'confirmation' of Otakar's conquests cost the English earl nothing and Otakar everything he'd actually already taken by force.\n\nBéla sealed the peace the same way this family always sealed things: with a marriage. In 1261, he arranged for his own granddaughter, Kunigunda of Slavonia, to marry the Bohemian king — a match this timeline picks up in full next.",
+      cz: "Ještě v roce 1254 Otakar vyměnil většinu Štýrska za formální uherské uznání své vlastní vlády nad Rakouskem — mír, který tahle časová osa probrala o dvě karty zpátky, těsně předtím, než na chvíli odbočila založit baltskou pevnost a nové město pod Pražským hradem. Tenhle mír vydržel šest let, až do roku 1260, kdy se štýrská šlechta sama vzbouřila proti uherské nadvládě a Otakar viděl svou příležitost jednat. V červenci 1260, poblíž Grossenbrunnu na řece Moravě, se jeho vojsko střetlo s Bélovým v otevřené bitvě — a podle většiny odhadů patří mezi největší polní bitvy, jaké se kdy ve středověké střední Evropě odehrály, i když ohromující počty vojáků, které uvádějí někteří kronikáři (přes 100 000 dohromady), berou dnešní historici s velkou skepsí — pochybují, že by středověká logistika dokázala takovou armádu vůbec zásobit. O čem se ale nepochybuje, je to, jak daleko obě strany sáhly pro spojence: Otakarovy vlastní řady tvořily české a moravské oddíly po boku německých, polských, korutanských, kraňských a štýrských kontingentů, zatímco Béla sestavil opravdu rozsáhlou koalici — Uhrů, Kumánů, Rusů, Poláků, Bulharů a Chorvatů, a k tomu ještě dalších národů navrch. Tentokrát o výsledku nebylo pochyb: Uherské vojsko se zhroutilo, mnozí se při útěku utopili v řece, a Béla na místě formálně vzdal svůj nárok na Štýrsko.\n\nU té rozlehlé uherské koalice stojí za to se zastavit, protože je to spíš příznak slabosti než síly. Uherské království se nikdy zcela nevzpamatovalo z mongolské invaze let 1240–1241 — tahle časová osa už probrala český, o poznání užší, střet se stejnou invazí — která Uhry stála velkou část jejich dřívějšího politického a vojenského postavení. Odhady lidských ztrát se hodně liší: starší, dodnes často citovaný údaj mluví o polovině asi dvoumilionového obyvatelstva Uher, mrtvých přímo či nepřímo kvůli invazi a hladomoru, který po ní následoval; novější a pečlivější rekonstrukce kladou skutečné číslo podstatně níž, pravděpodobně někam mezi 15 a 40 procent. Ať tak či onak, království takhle vyhublé ještě o dvacet let později se muselo spolehnout na jakékoli spojenecké a vazalské oddíly, které dokázalo sehnat, přesně proto, že už nedokázalo postavit srovnatelně velkou armádu jen z vlastního obyvatelstva.\n\nOtakarovo vlastnictví celého vévodství si krátce poté vysloužilo formální razítko od Richarda Kornwallského — nominálně římského krále během dlouhého interregna, které následovalo po zhroucení štaufské dynastie, i když slovo „nominálně\" tu odvádí většinu práce: Richard za celou svou vládu sotva vkročil na německé území, a jeho „potvrzení\" Otakarových výbojů anglického hraběte nestálo vůbec nic — Otakara to zase stálo všechno, co si už beztak vydobyl silou.\n\nBéla mír zpečetil stejně, jako tahle rodina pečetila všechno: sňatkem. V roce 1261 zařídil, aby se jeho vlastní vnučka, Kunhuta Slavonská, provdala za českého krále — sňatek, ke kterému se tahle časová osa hned dostane naplno.",
+      zh: "早在1254年，奥托卡就已经把施蒂里亚的大部分割让给了他的表兄贝拉四世，换来匈牙利正式承认他对奥地利的统治权——这份和平，这条时间线在两张卡片之前讲过，讲完之后还顺道拐去建了一座波罗的海要塞、又在布拉格城堡下建了一座新城。这份和平维持了六年，直到1260年，施蒂里亚本地贵族起兵反抗匈牙利统治，奥托卡瞅准机会出手了。1260年7月，在摩拉瓦河畔的格罗森布伦附近，他的军队与贝拉的军队正面交锋——按大多数估算，这是中世纪中欧规模最大的几场会战之一，尽管一些编年史家给出的那些惊人兵力总数（合计超过10万）如今被史学界普遍持怀疑态度——他们怀疑中世纪的后勤根本供应不起这么庞大的军队。但毫无疑问的是，双方为了拉拢盟友究竟下了多大功夫：奥托卡自己的部队里，波希米亚-摩拉维亚的军队之外，还有德意志、波兰、克恩顿、卡尼奥拉和施蒂里亚的部队；而贝拉那边则拼凑出了一支真正五花八门的联军——匈牙利人、库曼人、罗斯人、波兰人、保加利亚人、克罗地亚人尽在其中，此外还有更多族群也有参与。这一次结果毫无悬念：匈牙利军队全线崩溃，不少人在逃跑途中溺死河中，贝拉当场正式放弃了对施蒂里亚的主张。\n\n贝拉这支庞杂的联军，其实值得多琢磨一下——因为它与其说是实力的体现，不如说是虚弱的征兆。匈牙利王国始终没能从1240年到1241年的蒙古入侵中真正恢复过来——这条时间线已经讲过波希米亚这边跟同一场入侵擦肩而过、影响小得多的那次遭遇——那场入侵让匈牙利丢掉了此前很大一部分政治和军事地位。关于人口损失的估算差异很大：一个至今仍常被引用的老数字认为，匈牙利当时大约200万人口中，多达一半的人因为这场入侵及随之而来的饥荒而直接或间接死亡；更晚近、也更审慎的研究则把真实数字大幅调低，估计大概落在15%到40%之间。不管哪个数字更准确，一个二十年后依然这么元气大伤的王国，只能靠东拼西凑能召集到的盟友和附庸部队撑场面——正因为它已经没法单靠自己的人口拉出一支规模相当的军队了。\n\n不久后，奥托卡对整个公国的所有权，又得到了理查德·康沃尔的正式盖章确认——此人名义上是霍亨斯陶芬王朝崩溃后那段漫长“空位期”里的“罗马人的国王”，不过“名义上”这三个字才是这句话的重点：理查德在自己的任内几乎从没踏上过德意志的土地，而他对奥托卡战果的这份“确认”，对这位英格兰伯爵来说毫无成本——对奥托卡而言，不过是给他早就靠武力拿到手的东西，补了一张纸。\n\n贝拉最终把这份和平盖了章，用的是这个家族一贯的办法：联姻。1261年，他安排自己的孙女——斯拉沃尼亚的库尼贡达——嫁给了波希米亚国王——这桩婚事，这条时间线接下来就会完整讲到。",
     },
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Battle_of_Kressenbrunn",
+    referenceMaps: {
+      caption: {
+        en: "See Bohemia's realm on the map the year Styria came back under Otakar's control for good.",
+        cz: "Podívejte se na mapě na české panství v roce, kdy se Štýrsko natrvalo vrátilo pod Otakarovu vládu.",
+        zh: "看看施蒂里亚彻底重归奥托卡治下那一年，波希米亚在地图上的版图。",
+      },
+      links: [
+        {
+          label: "1260",
+          description: {
+            en: "Bohemia's realm the year of Kressenbrunn, with Styria back under Otakar's control",
+            cz: "České panství v roce bitvy u Kressenbrunnu, kdy je Štýrsko zpět pod Otakarovou kontrolou",
+            zh: "克雷森布伦之战那一年的波希米亚版图，施蒂里亚重新回到奥托卡治下",
+          },
+          url: "https://www.oldmapsonline.org/en/history/regions/Kingdom_of_Bohemia?region_id=863#position=5.1364/49.91/14.51&year=1260",
+        },
+      ],
+    },
   },
   {
     slug: "marrying-kunigunda-1261",
@@ -2571,11 +2712,12 @@ export const historyEvents = [
       cz: "1260–1261",
       zh: "1260年－1261年",
     },
+    images: ["/history/marrying-kunigunda-1261.webp"],
     tone: "humorous",
     title: {
-      en: "Another Marriage, Another Tool",
-      cz: "Další sňatek, další nástroj",
-      zh: "波希米亚人的婚姻，只是政治的工具",
+      en: "Yesterday's Enemy, Today's In-Law",
+      cz: "Včerejší nepřítel, dnešní příbuzný",
+      zh: "昨日敌人，今日姻家",
     },
     hookLine: {
       en: "The peace with Hungary got sealed the same way this family always sealed things: with a marriage — or in this case, the annulment of one first.",
@@ -2583,9 +2725,9 @@ export const historyEvents = [
       zh: "跟匈牙利的和平，最终以这个家族一贯的方式盖了章：靠联姻——只不过这次得先废掉上一桩婚姻。",
     },
     summary: {
-      en: "The peace with Hungary got sealed the same way this family always sealed things: with a marriage, or in this case, the annulment of one first. In 1260, Otakar's marriage to Margaret — Frederick the Quarrelsome's own sister, who'd secured his hold on Austria back in 1252 — was formally annulled. She was by then approaching sixty, had borne him no children in eight years of marriage, and had, in short, finished doing the one job the marriage had ever really been for. It was the exact same tool his own grandfather, Otakar I, had used two generations earlier to clear the way for an heir: an annulment, not a battle.\n\nOn 25 October 1261, Otakar married again — to Kunigunda, granddaughter of the very King Béla IV he'd just routed at Kressenbrunn the year before. The two men who'd been trying to kill each other's armies a season earlier were now, on paper, family. Otakar and Kunigunda were crowned together two months later at St. Vitus Cathedral in Prague. She went on to bear him several children, the youngest of whom, Wenceslas II, would turn out to be his only legitimate son — and the one who'd actually inherit the throne.",
-      cz: "Mír s Uhrami byl zpečetěn stejně, jako tahle rodina pečetila všechno: sňatkem — v tomto případě až po zrušení toho předchozího. V roce 1260 bylo Otakarovo manželství s Markétou — vlastní sestrou Fridricha Svárlivého, která mu v roce 1252 pomohla upevnit vládu nad Rakouskem — formálně zrušeno. Blížila se tou dobou k šedesátce, za osm let manželství mu nedala žádné dítě, a zkrátka už dokončila tu jedinou práci, kvůli které to manželství vlastně kdy bylo. Byl to úplně stejný nástroj, jaký o generaci dřív použil jeho vlastní děd Otakar I., aby uvolnil cestu dědici: anulování, ne bitva.\n\n25. října 1261 se Otakar oženil znovu — s Kunhutou, vnučkou samotného krále Bély IV., kterého o rok dřív rozdrtil u Kressenbrunnu. Dva muži, kteří se ještě před rokem snažili navzájem zničit svá vojska, byli na papíře najednou rodina. Otakar a Kunhuta byli o dva měsíce později společně korunováni v katedrále svatého Víta v Praze. Kunhuta mu porodila několik dětí, z nichž nejmladší, Václav II., se nakonec ukázal být jeho jediným legitimním synem — a tím, kdo trůn skutečně zdědil.",
-      zh: "跟匈牙利的和平，最终以这个家族一贯的方式盖了章：靠联姻——只不过这次得先废掉上一桩婚姻。1260年，奥托卡跟玛格丽特——“好斗者”腓特烈的亲妹妹，1252年正是这桩婚姻帮他坐稳了奥地利——的婚姻被正式废止。那时她已经年近六旬，八年婚姻里也没能为他诞下一儿半女，说白了，这桩婚姻本该完成的唯一任务，她已经完成了。这跟他祖父奥托卡一世上一代人用过的手法一模一样：靠废婚，而不是靠打仗，给继承人腾地方。\n\n1261年10月25日，奥托卡再婚——迎娶了库尼贡达，正是他一年前刚在克雷森布伦战役中击溃的那位贝拉四世国王的孙女。一年前还想着把对方军队往死里打的两个人，如今在纸面上成了一家人。两个月后，奥托卡和库尼贡达在布拉格圣维特大教堂一同加冕。库尼贡达后来为他生下了几个孩子，其中最小的一个，瓦茨拉夫二世，日后成了他唯一的合法儿子——也正是最终继承王位的那一位。",
+      en: "The peace with Hungary got sealed the same way this family always sealed things: with a marriage, or in this case, the annulment of one first. In 1260, Otakar's marriage to Margaret — Frederick the Quarrelsome's own sister, who'd secured his hold on Austria back in 1252 — was formally annulled. She was by then approaching sixty, had borne him no children in eight years of marriage, and had, in short, finished doing the one job the marriage had ever really been for. It was the exact same tool his own grandfather, Otakar I, had used two generations earlier to clear the way for an heir: an annulment, not a battle.\n\nOn 25 October 1261, Otakar married again — in Pressburg (today's Bratislava) — to Kunigunda, granddaughter of the very King Béla IV he'd just routed at Kressenbrunn the year before. The two men who'd been trying to kill each other's armies a season earlier were now, on paper, family. Otakar and Kunigunda were crowned together two months later, in a separate ceremony at St. Vitus Cathedral in Prague. She went on to bear him several children, the youngest of whom, Wenceslas II, would turn out to be his only legitimate son — and the one who'd actually inherit the throne. That son would go on to matter far more, in time, than this marriage itself — or any territory Otakar ever won.\n\nThat peace lasted almost exactly ten years. Béla IV died in 1270, and the Hungarian throne passed to his son Stephen V — Kunigunda's own uncle, and a rather less accommodating in-law than the one he replaced.\n\nTurning enemies into family works out fine for this dynasty, right up until someone in the family dies.",
+      cz: "Mír s Uhrami byl zpečetěn stejně, jako tahle rodina pečetila všechno: sňatkem — v tomto případě až po zrušení toho předchozího. V roce 1260 bylo Otakarovo manželství s Markétou — vlastní sestrou Fridricha Svárlivého, která mu v roce 1252 pomohla upevnit vládu nad Rakouskem — formálně zrušeno. Blížila se tou dobou k šedesátce, za osm let manželství mu nedala žádné dítě, a zkrátka už dokončila tu jedinou práci, kvůli které to manželství vlastně kdy bylo. Byl to úplně stejný nástroj, jaký o generaci dřív použil jeho vlastní děd Otakar I., aby uvolnil cestu dědici: anulování, ne bitva.\n\n25. října 1261 se Otakar oženil znovu — v Prešpurku (dnešní Bratislavě) — s Kunhutou, vnučkou samotného krále Bély IV., kterého o rok dřív rozdrtil u Kressenbrunnu. Dva muži, kteří se ještě před rokem snažili navzájem zničit svá vojska, byli na papíře najednou rodina. Otakar a Kunhuta byli o dva měsíce později, při samostatném obřadu, společně korunováni v katedrále svatého Víta v Praze. Kunhuta mu porodila několik dětí, z nichž nejmladší, Václav II., se nakonec ukázal být jeho jediným legitimním synem — a tím, kdo trůn skutečně zdědil. Tenhle syn měl časem znamenat víc než tohle manželství samotné — nebo než jakékoli území, které kdy Otakar sám získal.\n\nTenhle mír vydržel takřka přesně deset let. Béla IV. zemřel v roce 1270 a uherský trůn připadl jeho synovi Štěpánovi V. — Kunhutinu vlastnímu strýci, a coby příbuznému o poznání méně vstřícnému než ten, kterého nahradil.\n\nProměňovat nepřátele v rodinu téhle dynastii funguje skvěle — až do chvíle, kdy někdo z rodiny zemře.",
+      zh: "跟匈牙利的和平，最终以这个家族一贯的方式盖了章：靠联姻——只不过这次得先废掉上一桩婚姻。1260年，奥托卡跟玛格丽特——“好斗者”腓特烈的亲妹妹，1252年正是这桩婚姻帮他坐稳了奥地利——的婚姻被正式废止。那时她已经年近六旬，八年婚姻里也没能为他诞下一儿半女，说白了，这桩婚姻本该完成的唯一任务，她已经完成了。这跟他祖父奥托卡一世上一代人用过的手法一模一样：靠废婚，而不是靠打仗，给继承人腾地方。\n\n1261年10月25日，奥托卡再婚——地点是普雷斯堡（今布拉迪斯拉发）——迎娶了库尼贡达，正是他一年前刚在克雷森布伦战役中击溃的那位贝拉四世国王的孙女。一年前还想着把对方军队往死里打的两个人，如今在纸面上成了一家人。两个月后，两人又在一场单独的仪式上，于布拉格圣维特大教堂一同加冕。库尼贡达后来为他生下了几个孩子，其中最小的一个，瓦茨拉夫二世，日后成了他唯一的合法儿子——也正是最终继承王位的那一位。她生下的这个儿子，日后会比这段联姻本身，或者奥托卡自己打下的任何一块领土，都更举足轻重。\n\n这份和平差不多整整维持了十年。1270年贝拉四世去世，匈牙利王位传给了他的儿子斯蒂芬五世——库尼贡达自己的舅舅，他对波希米亚的态度，并不是那么友好。\n\n把敌人变成一家人，这招对这个家族一直管用——直到家里有人去世为止。",
     },
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Kunigunda_of_Halych",
@@ -2599,6 +2741,10 @@ export const historyEvents = [
       cz: "1266–1269",
       zh: "1266年－1269年",
     },
+    images: [
+      "/history/iron-and-golden-king-1266-egerland.webp",
+      "/history/iron-and-golden-king-1266-jihlava.webp",
+    ],
     tone: "humorous",
     title: {
       en: "The Iron and Golden King",
@@ -2611,17 +2757,105 @@ export const historyEvents = [
       zh: "早在奥托卡还是那个造反的少年藩侯时，这条时间线就已经预告过这个绰号。这里要讲的，是它这两个字到底各自意味着什么。",
     },
     summary: {
-      en: "By the mid-1260s, Bohemia had settled into calling its king by a nickname that would outlast him by centuries: the Iron and Golden King. The two halves meant different things depending on who was saying it. Abroad, 'golden' referred to genuine wealth — the silver flowing out of the mines at Kutná Hora in industrial quantities, funding an army, a court, and a foreign policy that most European rulers of his size simply couldn't afford. At home, 'iron' carried a harder edge: heavy cavalry on the battlefield, yes, but also a blunt, centralizing hand on his own nobility that plenty of Bohemians experienced less as martial glory and more as plain old severity.\n\nBoth halves of the nickname were doing real work during the Great Interregnum — the two decades, 1250 to 1273, when the Holy Roman Empire simply had no emperor with enough authority to stop an ambitious neighbor from helping himself. Otakar helped himself repeatedly. In 1266, he occupied the Egerland, the western tip of Bohemia around Cheb — though only for a decade; it would slip back out of his hands in 1276, and permanent Bohemian ownership was still more than half a century away. Two years later, in December 1268, he signed an inheritance treaty at Poděbrady with his cousin Ulrich III, Duke of Carinthia, of the Sponheim family, naming himself sole heir. When Ulrich died the following October, Otakar duly inherited Carinthia, Carniola, and the Windic March — over the objections of Ulrich's own brother Philip, who thought he had a claim too, and lost the argument the same way most people who disagreed with Otakar did in this decade.",
-      cz: "Do poloviny 60. let 13. století si Čechy zvykly nazývat svého krále přezdívkou, která ho přežije o celá staletí: Král železný a zlatý. Obě poloviny znamenaly něco jiného podle toho, kdo je vyslovoval. V cizině se „zlatý\" vztahovalo ke skutečnému bohatství — stříbru, které v průmyslových množstvích proudilo z dolů v Kutné Hoře a financovalo vojsko, dvůr i zahraniční politiku, na jakou si většina evropských panovníků jeho velikosti prostě nemohla dovolit. Doma neslo „železný\" tvrdší podtón: ano, těžká jízda na bojišti, ale taky tvrdá, centralizující ruka vůči vlastní šlechtě, kterou spousta Čechů zažívala míň jako válečnickou slávu a víc jako obyčejnou přísnost.\n\nObě poloviny přezdívky se naplno projevily během Velkého interregna — dvou desetiletí, 1250 až 1273, kdy Svatá říše římská prostě neměla císaře s dost autoritou na to, aby zastavil ambiciózního souseda v tom, aby si posloužil sám. Otakar si posloužil opakovaně. V roce 1266 obsadil Chebsko, západní výběžek Čech kolem Chebu — jen na deset let; v roce 1276 mu zase vyklouzne z rukou, na trvalé české vlastnictví bude potřeba čekat ještě přes půl století. O dva roky později, v prosinci 1268, podepsal na Poděbradech dědickou smlouvu se svým bratrancem Oldřichem III., korutanským vévodou z rodu Sponheimů, kterou se ustanovil jeho jediným dědicem. Když Oldřich následující říjen zemřel, Otakar Korutany, Kraňsko a Vindickou marku řádně zdědil — navzdory námitkám Oldřichova vlastního bratra Filipa, který si na ně taky dělal nárok a spor prohrál stejně jako většina lidí, kteří s Otakarem v tomhle desetiletí nesouhlasili.",
-      zh: "到13世纪60年代中期，波希米亚已经习惯用一个日后流传数百年的绰号来称呼自己的国王：铁与金之王。这个绰号的两半，在不同人嘴里意思也不一样。在国外，“金”指的是实打实的财富——库特纳霍拉的银矿源源不断地产出白银，撑起了一支军队、一座宫廷，以及一套大多数同等规模的欧洲统治者根本负担不起的对外政策。在国内，“铁”这个字则带着更硬的味道：没错，是战场上的重装骑兵，但同时也是他对本国贵族那只强硬、集权的手——不少波希米亚人体会到的与其说是军事荣耀，不如说是不折不扣的严酷。\n\n这个绰号的两半，在“大空位期”里都实打实地起了作用——1250年到1273年这二十多年间，神圣罗马帝国压根没有一位够权威的皇帝，能拦得住一个野心勃勃的邻居随手拿点东西。奥托卡就没少这么干。1266年，他占领了埃格尔兰，也就是波希米亚西端赫布周边一带——不过这次只维持了十年，1276年就又从他手里溜走了，波希米亚真正永久拥有这块地方，还要再等超过半个世纪。两年后，1268年12月，他在波杰布拉迪跟表兄、来自施蓬海姆家族的克恩顿公爵乌尔里希三世签订了一份继承条约，让自己成为其唯一继承人。次年10月乌尔里希去世，奥托卡如约继承了克恩顿、卡尼奥拉和温迪克边境地区——尽管乌尔里希自己的弟弟菲利普也主张有继承权、提出了异议，但这场争执的结局，跟这十年里大多数跟奥托卡意见不合的人一样。",
+      en: "By the mid-1260s, Bohemia had settled into calling its king by a nickname that would outlast him by centuries: the Iron and Golden King. The two halves meant different things depending on who was saying it. Abroad, 'golden' referred to genuine wealth — silver flowing out of the mines at Jihlava in industrial quantities, funding an army, a court, and a foreign policy that most European rulers of his size simply couldn't afford. (Not Kutná Hora, whatever a casual guess might assume — that town's own famous silver boom, and the mining code that made it famous, belonged to Otakar's own son a generation later.) At home, 'iron' carried a harder edge: heavy cavalry on the battlefield, yes, but also a blunt, centralizing hand on his own nobility that plenty of Bohemians experienced less as martial glory and more as plain old severity.\n\nBoth halves of the nickname were doing real work during the Great Interregnum — the two decades, 1250 to 1273, when the Holy Roman Empire simply had no emperor with enough authority to stop an ambitious neighbor from helping himself. Otakar helped himself repeatedly. In 1266, he occupied the Egerland, the western tip of Bohemia around Cheb — though only for a decade; it would slip back out of his hands in 1276, and permanent Bohemian ownership was still more than half a century away. Two years later, in December 1268, he signed an inheritance treaty at Poděbrady with his cousin Ulrich III, Duke of Carinthia, of the Sponheim family, naming himself sole heir. When Ulrich died the following October, Otakar duly inherited Carinthia, Carniola, and the Windic March — over the objections of Ulrich's own brother Philip, who thought he had a claim too, and lost the argument the same way most people who disagreed with Otakar did in this decade.\n\nThat same 'iron' hand extended to stone and mortar. Otakar pursued a systematic fortress-building policy across his realm — building Bezděz from the ground up, expanding the existing castles at Zvíkov and Křivoklát into proper monumental royal residences, and adding Vienna's own Hofburg. In South Bohemia specifically, the same instinct took a more targeted form: founding Zlatá Koruna monastery in 1263 and an entirely new city, České Budějovice, in 1265, both planted directly inside territory the powerful Vítkovci family already treated as their own. All the while, he was pushing his vassals to build fortifications of their own, partly as a display of Bohemia's growing strength and partly as a real defensive response to the Mongol threat that had already devastated Hungary a generation earlier. Otakar himself had no way of knowing it at the time, but disputes among nobles over who actually owned these newly-fortified strongholds were quietly setting up a reckoning that would arrive within the decade.",
+      cz: "Do poloviny 60. let 13. století si Čechy zvykly nazývat svého krále přezdívkou, která ho přežije o celá staletí: Král železný a zlatý. Obě poloviny znamenaly něco jiného podle toho, kdo je vyslovoval. V cizině se „zlatý\" vztahovalo ke skutečnému bohatství — stříbru, které v průmyslových množstvích proudilo z dolů v Jihlavě a financovalo vojsko, dvůr i zahraniční politiku, na jakou si většina evropských panovníků jeho velikosti prostě nemohla dovolit. (Ne z Kutné Hory, jak by člověk možná bez rozmyslu hádal — vlastní proslulý stříbrný boom tohoto města, i hornický řád, který ho proslavil, patří až Otakarovu synovi o generaci později.) Doma neslo „železný\" tvrdší podtón: ano, těžká jízda na bojišti, ale taky tvrdá, centralizující ruka vůči vlastní šlechtě, kterou spousta Čechů zažívala míň jako válečnickou slávu a víc jako obyčejnou přísnost.\n\nObě poloviny přezdívky se naplno projevily během Velkého interregna — dvou desetiletí, 1250 až 1273, kdy Svatá říše římská prostě neměla císaře s dost autoritou na to, aby zastavil ambiciózního souseda v tom, aby si posloužil sám. Otakar si posloužil opakovaně. V roce 1266 obsadil Chebsko, západní výběžek Čech kolem Chebu — jen na deset let; v roce 1276 mu zase vyklouzne z rukou, na trvalé české vlastnictví bude potřeba čekat ještě přes půl století. O dva roky později, v prosinci 1268, podepsal na Poděbradech dědickou smlouvu se svým bratrancem Oldřichem III., korutanským vévodou z rodu Sponheimů, kterou se ustanovil jeho jediným dědicem. Když Oldřich následující říjen zemřel, Otakar Korutany, Kraňsko a Vindickou marku řádně zdědil — navzdory námitkám Oldřichova vlastního bratra Filipa, který si na ně taky dělal nárok a spor prohrál stejně jako většina lidí, kteří s Otakarem v tomhle desetiletí nesouhlasili.\n\nTahle stejná „železná\" ruka se týkala i kamene a malty. Otakar prosazoval systematickou politiku budování pevností po celém svém panství — Bezděz postavil od základů, existující hrady Zvíkov a Křivoklát rozšířil na plnohodnotná monumentální královská sídla, a k tomu přidal vídeňský Hofburg. V jižních Čechách nabral stejný instinkt konkrétnější podobu: v roce 1263 založil klášter Zlatá Koruna a v roce 1265 úplně nové město, České Budějovice, obojí vsazené přímo doprostřed území, které si mocný rod Vítkovců už považoval za vlastní. Zároveň tlačil na své vazaly, aby si stavěli vlastní opevnění, částečně jako demonstraci rostoucí síly Čech, částečně jako skutečnou obrannou reakci na mongolskou hrozbu, která o generaci dřív zpustošila Uhry. Otakar sám v té chvíli neměl jak vědět, že spory mezi šlechtici o to, komu tahle nově opevněná sídla vlastně patří, potichu připravovaly zúčtování, které přijde do konce toho desetiletí.",
+      zh: "到13世纪60年代中期，波希米亚已经习惯用一个日后流传数百年的绰号来称呼自己的国王：铁与金之王。这个绰号的两半，在不同人嘴里意思也不一样。在国外，“金”指的是实打实的财富——伊赫拉瓦的银矿源源不断地产出白银，撑起了一支军队、一座宫廷，以及一套大多数同等规模的欧洲统治者根本负担不起的对外政策。（不是库特纳霍拉——随口一猜很容易猜到那儿去，但那座城市自己那次著名的银矿大爆发，以及让它扬名的那部矿业法典，其实是他儿子那一代人的事。）在国内，“铁”这个字则带着更硬的味道：没错，是战场上的重装骑兵，但同时也是他对本国贵族那只强硬、集权的手——不少波希米亚人体会到的与其说是军事荣耀，不如说是不折不扣的严酷。\n\n这个绰号的两半，在“大空位期”里都实打实地起了作用——1250年到1273年这二十多年间，神圣罗马帝国压根没有一位够权威的皇帝，能拦得住一个野心勃勃的邻居随手拿点东西。奥托卡就没少这么干。1266年，他占领了埃格尔兰，也就是波希米亚西端赫布周边一带——不过这次只维持了十年，1276年就又从他手里溜走了，波希米亚真正永久拥有这块地方，还要再等超过半个世纪。两年后，1268年12月，他在波杰布拉迪跟表兄、来自施蓬海姆家族的克恩顿公爵乌尔里希三世签订了一份继承条约，让自己成为其唯一继承人。次年10月乌尔里希去世，奥托卡如约继承了克恩顿、卡尼奥拉和温迪克边境地区——尽管乌尔里希自己的弟弟菲利普也主张有继承权、提出了异议，但这场争执的结局，跟这十年里大多数跟奥托卡意见不合的人一样。\n\n这只“铁腕”同样伸到了石头和灰浆上。奥托卡在自己的领地里推行了一套系统性的筑城政策——贝兹杰兹是他从地基开始新建的，兹维科夫和克日沃克拉特这两座已有的城堡则被他扩建成了真正的宏伟王室居所，此外还添了维也纳自己的霍夫堡宫。在南波希米亚，同样这股本能则采取了更有针对性的形式：1263年创立金冕修道院，1265年又建起一整座全新的城市——捷克布杰约维采，两处都刻意插在了强大的维特科维奇家族早已视为自家地盘的那片土地正中央。与此同时，他还推动封臣们也各自修建防御工事，一方面是波希米亚国力增强的展示，另一方面也是对一代人前刚刚重创过匈牙利的蒙古威胁的实际防御回应。奥托卡本人当时完全没料到，贵族们为了这些新筑防御工事的归属权争执不休，其实正悄悄埋下了一笔账——这笔账，不出十年就会找上门来。",
     },
     relatedLandmarks: [
       {
-        slug: "kutna-hora",
+        slug: "jihlava",
         relation: {
-          en: "The actual source of the 'golden' half of Otakar's nickname — the silver flowing out of these mines by the 1260s was funding the army, the court, and the foreign policy that made the 'iron' half possible too.",
-          cz: "Skutečný zdroj té „zlaté\" poloviny Otakarovy přezdívky — stříbro, které z těchhle dolů v 60. letech 13. století proudilo ven, financovalo vojsko, dvůr i zahraniční politiku, díky níž byla možná i ta „železná\" polovina.",
-          zh: "奥托卡绰号里“金”这一半真正的来源——13世纪60年代从这些矿井里源源不断产出的白银，撑起了军队、宫廷，也撑起了让“铁”这一半得以成立的整套对外政策。",
+          en: "The real source of the 'golden' half of Otakar's nickname — its royal mint and the silver flowing from its mines by the 1260s funded the army, the court, and the foreign policy that made the 'iron' half possible too, a full generation before Kutná Hora's own fame.",
+          cz: "Skutečný zdroj té „zlaté\" poloviny Otakarovy přezdívky — jeho královská mincovna a stříbro proudící z tamních dolů v 60. letech 13. století financovaly vojsko, dvůr i zahraniční politiku, díky níž byla možná i ta „železná\" polovina, celou generaci předtím, než se vlastní slávy dočkala Kutná Hora.",
+          zh: "奥托卡绰号里“金”这一半真正的来源——13世纪60年代这里的皇家铸币厂和源源不断产出的白银，撑起了军队、宫廷，也撑起了让“铁”这一半得以成立的整套对外政策，比库特纳霍拉自己扬名早了整整一代人。",
+        },
+      },
+      {
+        slug: "cheb",
+        relation: {
+          en: "The Egerland's own capital — this is the town King Otakar actually occupied in 1266, the moment this card's 'iron' illustration depicts. Bohemia wouldn't hold onto it for good until 1322, under John of Luxembourg.",
+          cz: "Vlastní hlavní město Chebska — tohle je to město, které král Otakar roku 1266 skutečně obsadil, přesně ta chvíle, kterou zobrazuje „železná\" ilustrace téhle karty. Čechy si ho natrvalo podrží až od roku 1322, za vlády Jana Lucemburského.",
+          zh: "埃格尔兰地区自己的中心城市——正是奥托卡国王1266年真正占领的这座城镇，也就是这张卡“铁”那张插画所画的那一刻。波希米亚要到1322年、卢森堡的约翰治下，才真正永久拿下这里。",
+        },
+      },
+      {
+        slug: "podebrady",
+        relation: {
+          en: "The castle Otakar himself built here (1262–1268) is exactly where he signed the December 1268 inheritance treaty with his cousin Ulrich III of Carinthia — the paperwork that made Carinthia, Carniola, and the Windic March his the following year.",
+          cz: "Hrad, který si tu Otakar sám nechal postavit (1262–1268), je přesně místo, kde v prosinci 1268 podepsal dědickou smlouvu se svým bratrancem Oldřichem III. Korutanským — listinu, díky níž se o rok později staly jeho Korutany, Kraňsko a Vindická marka.",
+          zh: "奥托卡自己下令建造的这座城堡（1262–1268年），正是他1268年12月与表兄——克恩顿公爵乌尔里希三世——签订继承条约的地方，这份文书让他次年拿下了克恩顿、卡尼奥拉和温迪克边境地区。",
+        },
+      },
+      {
+        slug: "bezdez-castle",
+        relation: {
+          en: "One of the fortresses named in this very card's castle-building paragraph — and its own darkest irony. Otakar ordered it built, but it wasn't finished until 1279, a year after his death, just in time to imprison his own widow and young son.",
+          cz: "Jedna z pevností jmenovaných přímo v odstavci téhle karty o Otakarově budování hradů — a její vlastní nejtemnější ironie. Otakar ji nechal postavit, ale dokončena byla až v roce 1279, rok po jeho smrti, právě včas na to, aby v ní byla uvězněna jeho vlastní vdova a malý syn.",
+          zh: "正是这张卡自己那段“筑城政策”里点名的城堡之一——也藏着它自己最黑色的讽刺。奥托卡下令建造，可它直到1279年才竣工——那已经是他去世后第二年，恰好赶上把他自己的遗孀和幼子关押在了里面。",
+        },
+      },
+      {
+        slug: "krivoklat-castle",
+        relation: {
+          en: "Not one of Otakar's own foundations — this castle already existed, begun in stone by his grandfather Otakar I. Otakar II's own contribution, part of this card's castle-building policy, was expanding it into the full monumental royal castle whose remains still stand today.",
+          cz: "Nejde o jednu z Otakarových vlastních staveb — hrad už existoval, v kamenné podobě ho začal budovat jeho děd Otakar I. Otakarovým vlastním přínosem, v rámci politiky popsané v téhle kartě, bylo rozšíření na plnohodnotný monumentální královský hrad, jehož pozůstatky stojí dodnes.",
+          zh: "这不是奥托卡自己从头建起的城堡——它早已存在，最初的石造工程是他祖父奥托卡一世开始的。奥托卡二世自己的贡献——也是这张卡讲的那套筑城政策的一部分——是把它扩建成了一座真正的宏伟王室城堡，遗迹留存至今。",
+        },
+      },
+      {
+        slug: "zvikov-castle",
+        relation: {
+          en: "Also not one of Otakar's own foundations — construction here began under his own father, Wenceslas I. Otakar's contribution was expanding it into a proper early Gothic royal palace, adding the Chapel of St. Wenceslas and the round Hláska tower.",
+          cz: "Také nejde o jednu z Otakarových vlastních staveb — stavba tu začala už za jeho otce Václava I. Otakarovým přínosem bylo rozšíření na plnohodnotný raně gotický královský palác, s přístavbou kaple svatého Václava a kulaté věže Hláska.",
+          zh: "这座城堡同样不是奥托卡自己从头建起的——工程早在他父亲瓦茨拉夫一世时代就已经开始。奥托卡的贡献，是把它扩建成了一座真正的早期哥特式王室宫殿，增建了圣瓦茨拉夫礼拜堂和圆形的哈拉斯卡塔楼。",
+        },
+      },
+      {
+        slug: "hrad-houska",
+        relation: {
+          en: "One of Otakar's genuine new constructions, like Bezděz — but unlike every other castle in this card's fortress-building policy, this one wasn't about defense, trade routes, or the Mongol threat at all. Supposedly, it was built to seal something in, not keep anything out.",
+          cz: "Jedna z Otakarových skutečně nových staveb, podobně jako Bezděz — ale na rozdíl od každého jiného hradu ze zdejší politiky budování pevností, tenhle neměl co do činění s obranou, obchodními cestami ani mongolskou hrozbou. Údajně byl postaven, aby něco uvěznil uvnitř, ne aby něco držel venku.",
+          zh: "跟贝兹杰兹一样，这也是奥托卡真正从头新建的城堡——但跟这张卡“筑城政策”里提到的其他每一座城堡都不同，这座压根跟防御、贸易路线或蒙古威胁没什么关系。据说它建来是为了把某样东西关在里面，而不是把敌人挡在外面。",
+        },
+      },
+      {
+        slug: "zamek-hluboka-nad-vltavou",
+        relation: {
+          en: "Another of Otakar's own foundations (c. 1250), securing trade routes just like the rest of this card's castle policy — but the building tourists actually photograph today has nothing to do with him. That's an 1840s–1870s English-style rebuild, six centuries later and unrecognizable as the same site.",
+          cz: "Další z Otakarových vlastních staveb (kolem 1250), zajišťující obchodní cesty stejně jako zbytek zdejší hradní politiky — ale budova, kterou dnes turisté fotí, s ním nemá nic společného. Jde o anglicky laděnou přestavbu ze 40.–70. let 19. století, o šest století později, k nepoznání od původního místa.",
+          zh: "又一座奥托卡自己的建造（约1250年）——跟这张卡讲的筑城政策一样，目的是守护贸易路线——但今天游客拍照的那座建筑，跟他毫无关系。那是19世纪40到70年代的一次英式风格重建，晚了整整六个世纪，早已认不出是同一个地方。",
+        },
+      },
+      {
+        slug: "ceske-budejovice",
+        relation: {
+          en: "Not just a castle this time, but an entire city Otakar founded from nothing in 1265 — a royal foothold planted deliberately in the middle of the powerful Rožmberk family's own territory in South Bohemia.",
+          cz: "Tentokrát ne jen hrad, ale celé město, které Otakar v roce 1265 založil na zelené louce — královská bašta vsazená schválně přímo doprostřed vlastního území mocného rodu Rožmberků v jižních Čechách.",
+          zh: "这次不只是一座城堡，而是奥托卡1265年从零建起的一整座城市——一处刻意插在南波希米亚强大罗森贝格家族自家地盘正中央的王室据点。",
+        },
+      },
+      {
+        slug: "zamek-orlik",
+        relation: {
+          en: "Another 'upgrade, not a foundation' castle in this card's policy, same as Zvíkov and Křivoklát — a river-toll fort already stood here under Otakar's own father before he elevated it into a proper royal stronghold.",
+          cz: "Další hrad z téhle karty, který Otakar spíš vylepšil, než založil, stejně jako Zvíkov a Křivoklát — pevnost vybírající mýto na řece tu stála už za vlády Otakarova vlastního otce, než ji povýšil na pořádnou královskou baštu.",
+          zh: "又一座属于这张卡里“升级而非新建”的城堡，跟兹维科夫和克日沃克拉特一样——早在奥托卡自己的父亲时代，这里就已经有一座收河道过路费的哨所，是他把它升格成了正经的王室要塞。",
+        },
+      },
+      {
+        slug: "jindrichuv-hradec",
+        relation: {
+          en: "The exception that proves the rule: unlike every other castle on this card, Otakar didn't build or expand this one — he confiscated it in 1277 from the Vítkovec family that actually built it, part of the same power struggle behind Zlatá Koruna and České Budějovice.",
+          cz: "Výjimka potvrzující pravidlo: na rozdíl od každého jiného hradu na téhle kartě ho Otakar nepostavil ani nerozšířil — v roce 1277 ho zabavil rodu Vítkovců, kteří ho skutečně postavili, jako součást téhož mocenského zápasu, z něhož vzešly i Zlatá Koruna a České Budějovice.",
+          zh: "这个例外恰恰印证了规律：跟这张卡上其他每一座城堡都不同，这座不是奥托卡建的或扩建的——1277年，他从真正建造它的维特科维奇家族手中把它没收了过来，是金冕修道院和捷克布杰约维采背后那场同一场权力博弈的一部分。",
+        },
+      },
+      {
+        slug: "klaster-zlata-koruna",
+        relation: {
+          en: "Founded by Otakar in 1263 for the exact same reason as České Budějovice — a royal (this time religious) foothold planted directly inside Vítkovec territory in South Bohemia, two years before the city itself.",
+          cz: "Založen Otakarem v roce 1263 ze stejného důvodu jako České Budějovice — královská, tentokrát církevní, bašta vsazená přímo doprostřed vítkovského území v jižních Čechách, dva roky před samotným městem.",
+          zh: "1263年由奥托卡出于跟捷克布杰约维采完全相同的动机创立——一处插在南波希米亚维特科维奇家族地盘正中央的王室（这次是宗教）据点，比那座城市本身还早了两年。",
         },
       },
     ],
@@ -2636,6 +2870,10 @@ export const historyEvents = [
       cz: "1272–1273",
       zh: "1272年－1273年",
     },
+    images: [
+      "/history/sudetes-to-adriatic-1272.webp",
+      "/history/sudetes-to-adriatic-1272-map.webp",
+    ],
     tone: "humorous",
     title: {
       en: "From the Sudetes to the Adriatic",

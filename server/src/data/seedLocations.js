@@ -23257,6 +23257,369 @@ Místo ho přežilo o staletí. V roce 1585 nechal Jan mladší z Lobkovic přes
 🎁 彩蛋：历史在这里似乎押上了韵。140多年后，1394年5月初，另一位国王——瓦茨拉夫四世，别跟真正在此去世的瓦茨拉夫一世搞混了——就在附近的贝劳恩一带，被一群自称"领主联盟"的叛乱贵族擒获。同样的王室名字，同一片乡野，结局却天差地别：一位国王在自己的猎苑里安然辞世，另一位则几乎在同一个地方被绑架。`,
     },
   },
+  {
+    // Added to support iron-and-golden-king-1266's relatedLandmarks — this is
+    // the actual source of the "golden" half of Otakar II's nickname during
+    // his own reign, correcting the card's original (wrong) attribution to
+    // Kutná Hora. Kutná Hora's own silver boom and its 1300 mining code
+    // belong to Otakar's son Wenceslas II, after Otakar's death in 1278 —
+    // see the memory/CLAUDE.md note on this if it's ever touched again.
+    // "city" is a new label (2026-08-22), for larger present-day Czech
+    // cities distinct from "village-and-town" — reuse for Plzeň, Liberec,
+    // Karlovy Vary etc. when those get added.
+    name: 'Jihlava',
+    slug: 'jihlava',
+    localizedNames: { cz: 'Jihlava', zh: '伊赫拉瓦' },
+    labels: ['city', 'historical'],
+    coordinates: { lat: 49.39618188632705, lng: 15.590127178166764 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Jihlava',
+    description: {
+      en: `Welcome to Jihlava, a city whose entire existence traces back to someone striking silver in the ground and immediately building an entire town on top of it. Long before Prague thought to mint its own coins, this unassuming Moravian border town was already quietly bankrolling a king's whole reputation.
+
+Jihlava emerged as a royal mining settlement sometime between 1233 and 1240, built directly on top of one of the richest silver deposits in medieval Bohemia — making it, by most reckonings, the oldest mining town in the Czech lands. German miners and settlers arrived in large numbers, drawn by the ore and the legal protections that came with it: in 1249, King Wenceslas I and his own son, the future Otakar II (then still just Margrave of Moravia), jointly confirmed the Iglau Mining Law, a detailed legal code governing everything from claim boundaries to worker rights. It went on to become the formative legal template for mining operations across Central Europe for centuries — and, filtered eventually through Habsburg administrative practice, it even shaped mining regulation in Spain's American silver colonies. A mining code drafted for one Moravian hill town outlived the entire dynasty that first confirmed it, by several empires.
+
+By around 1260, a royal mint was operating in Jihlava, and its silver output was quietly funding much of what made King Otakar II — by then Bohemia's actual ruler — one of the wealthiest monarchs in Central Europe: the army, the court, the foreign policy this timeline has already covered under his own nickname, "the Golden King." In 1270, Otakar personally issued the town's own building regulations, laying out the regular grid of streets around a large central square that Jihlava's old town still follows today. Kutná Hora, the mining town most people actually associate with Bohemian silver, hadn't even had its own boom yet — that came later, under Otakar's son Wenceslas II, whose 1300 mining code eventually superseded Jihlava's own, and whose royal mint was transferred straight out of this city to Kutná Hora's. Jihlava got there first; it just didn't get to keep the fame.
+
+🎁 Bonus: Jihlava's German-speaking community — descendants of those original medieval miners — remained large enough that the city functioned as a German-speaking "language island" inside a Czech-speaking region for nearly 700 years, right up until the mass expulsions that followed the Second World War.`,
+
+      cz: `Vítej v Jihlavě — městě, jehož celá existence se odvíjí od toho, že někdo narazil na stříbro v zemi a rovnou na něm postavil celé město. Dávno předtím, než Praha vůbec pomyslela na ražbu vlastních mincí, tohle nenápadné moravsko-české pomezní město už potichu financovalo pověst jednoho krále.
+
+Jihlava vznikla jako královské hornické sídliště někdy mezi lety 1233 a 1240, postavené přímo nad jedním z nejbohatších ložisek stříbra ve středověkých Čechách — podle většiny odhadů je tak nejstarším hornickým městem na českém území. Přilákala množství německých horníků a osadníků, kteří sem přicházeli za rudou a právní ochranou, která s ní byla spojená: v roce 1249 král Václav I. spolu se svým synem, budoucím Otakarem II. (tou dobou ještě jen moravským markrabětem), společně potvrdili Jihlavské horní právo — podrobný právní kodex upravující vše od hranic důlních polí až po práva horníků. Stalo se z něj formativní právní vzor pro hornictví v celé střední Evropě na celá staletí — a nakonec, přefiltrované přes habsburskou správní praxi, ovlivnilo i hornické předpisy ve španělských amerických stříbrných koloniích. Horní řád sepsaný pro jedno moravské hornické město přežil celou dynastii, která ho jako první potvrdila, o několik říší.
+
+Kolem roku 1260 v Jihlavě fungovala královská mincovna a její stříbro potichu financovalo velkou část toho, co z krále Otakara II. — tou dobou už skutečného vládce Čech — udělalo jednoho z nejbohatších panovníků střední Evropy: vojsko, dvůr i zahraniční politiku, kterou tahle časová osa už probrala pod jeho vlastní přezdívkou, "zlatý král". V roce 1270 Otakar osobně vydal městské stavební předpisy, které vytyčily pravidelnou uliční síť kolem velkého centrálního náměstí — tu, podle níž se jihlavské staré město řídí dodnes. Kutná Hora, hornické město, se kterým si většina lidí české stříbro dnes spojuje, svůj vlastní boom tou dobou ještě vůbec nezažila — ten přišel až později, za Otakarova syna Václava II., jehož hornický řád z roku 1300 nakonec ten jihlavský nahradil, a jehož královská mincovna se z tohoto města rovnou přestěhovala do Kutné Hory. Jihlava tam byla první; slávu si ale neudržela.
+
+🎁 Bonus: Jihlavská německy mluvící komunita — potomci oněch původních středověkých horníků — zůstala dost početná na to, aby město fungovalo jako německy mluvící "jazykový ostrov" uvnitř česky mluvícího regionu po téměř 700 let, až do hromadných odsunů po druhé světové válce.`,
+
+      zh: `欢迎来到伊赫拉瓦——一座整段历史都能追溯到"有人在地里挖到了银矿，然后干脆就地建了一整座城"的城市。早在布拉格想到要铸造自己的钱币之前，这座毫不起眼的摩拉维亚边境小城，就已经在悄悄给一位国王的名声撑腰了。
+
+伊赫拉瓦大约在1233年到1240年间，作为一座皇家矿业聚落建立起来，正好坐落在中世纪波希米亚最富的银矿脉之上——按大多数说法，这是捷克境内最古老的矿业城镇。大批德意志矿工和移民被这里的矿藏和随之而来的法律保障吸引而来：1249年，国王瓦茨拉夫一世和他的儿子、日后的奥托卡二世（当时还只是摩拉维亚藩侯）一同确认了《伊赫拉瓦矿业法》——一部详尽的法典，从矿区边界到矿工权利，事无巨细都有规定。这部法典此后几个世纪里，成了整个中欧矿业的范本法律模板——最终，经由哈布斯堡的行政传统层层过滤，甚至影响到了西班牙在美洲银矿殖民地的采矿法规。一部为一座摩拉维亚小矿城起草的矿业法，活得比最先确认它的那个王朝还长，跨越了好几个帝国。
+
+大约1260年前后，一座皇家铸币厂已经在伊赫拉瓦运作，它产出的白银，悄悄撑起了奥托卡二世——此时已是波希米亚真正的统治者——之所以能成为中欧最富有的君主之一的大半资本：军队、宫廷，以及这条时间线已经在他"金王"这个绰号那张卡里讲过的那整套对外政策。1270年，奥托卡亲自颁布了这座城镇的建筑规划法规，划定出围绕一座大型中央广场展开的规整街道网格——伊赫拉瓦老城至今仍沿用着这套格局。而库特纳霍拉，大多数人如今提起波希米亚银矿会想到的那座矿城，这时候压根还没迎来自己的大爆发——那要等到奥托卡的儿子瓦茨拉夫二世的时代，他1300年颁布的矿业法典最终取代了伊赫拉瓦这一部，他的皇家铸币厂也直接从这座城市搬去了库特纳霍拉。伊赫拉瓦是先到的那一个；只是没能把这份名声留住。
+
+🎁 彩蛋：伊赫拉瓦的德语社群——那些最初中世纪矿工的后裔——人数一直多到让这座城市在一片讲捷克语的地区里，成了一座讲德语的"语言孤岛"，这个状态一直持续了将近700年，直到二战后大规模驱逐德意志人为止。`,
+    },
+  },
+  {
+    // Added to support iron-and-golden-king-1266's relatedLandmarks — the
+    // actual town Otakar occupied in 1266 (the card's "iron" illustration).
+    // Distinct from the already-existing `cheb-castle` Location (which
+    // covers the Kaiserpfalz itself: 1239 Diet, John of Luxembourg's 1322
+    // pledge, and — as its own bonus, correcting a common mix-up — notes
+    // Wallenstein was killed at Pachelbel's House on the town square, NOT
+    // at the castle). This entry covers the town/city level instead: its
+    // status as Egerland's capital, the 1266–1276–1322 Bohemian-acquisition
+    // arc the castle's own description doesn't mention, and the Wallenstein
+    // assassination told straight (not as a correction) since it's properly
+    // a town-level fact. ~170km from Prague — day-trip range per the user,
+    // a new distance-precedent ceiling above Přimda's ~150km.
+    name: 'Cheb',
+    slug: 'cheb',
+    localizedNames: { cz: 'Cheb', zh: '赫布' },
+    labels: ['city', 'historical'],
+    coordinates: { lat: 50.07780148319447, lng: 12.371485427613718 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Cheb',
+    description: {
+      en: `Welcome to Cheb — known for most of its history by its German name, Eger, and the undisputed capital of the Egerland, the wedge of Bohemia's western frontier that took the Bohemian crown centuries longer to actually keep than most of its neighbors.
+
+Cheb has always been the Egerland's natural center — the region takes its German name directly from the town's own. Long an Imperial city under direct Holy Roman authority rather than Bohemian rule (the neighboring Kaiserpfalz castle above the Ohře, this timeline's other Cheb landmark, made that imperial status physically obvious), the town itself grew into a substantial trading center in its own right, its market square and townhouses developing independently of the fortress on the bluff.
+
+Bohemian ownership of Cheb came in fits and starts. King Otakar II occupied the Egerland in 1266, during the long stretch of imperial weakness this timeline has already covered as the Great Interregnum — only to lose it again in 1276, two years before his own death, when Rudolf of Habsburg reclaimed it for the Empire. Permanent Bohemian control took another half-century: in 1322, King John of Luxembourg received Cheb as an imperial pledge, security for a loan the Emperor never managed to repay — and an unredeemed pledge, as it turned out, was as good as ownership. Cheb has remained part of the Bohemian/Czech lands ever since, run continuously by administrators who never bothered sending the money back.
+
+The town also has its own claim to one of the most sensational assassinations of the Thirty Years' War: in February 1634, Albrecht von Wallenstein — the Habsburg Empire's own supreme military commander, suspected by Emperor Ferdinand II of secretly negotiating with the enemy — was killed here on the Emperor's orders, at Pachelbel's House right on Cheb's own town square (now the Cheb Museum). The man who'd built and commanded the largest army in Europe was cut down not on a battlefield, but in a burgher's house in the town whose own castle had once hosted an emperor's own imperial court.
+
+🎁 Bonus: for most of its history under Bohemian rule, Cheb remained an overwhelmingly German-speaking city — part of what would later be called the Sudetenland — right up until the mass postwar expulsions of Germans after 1945 permanently changed its population.`,
+
+      cz: `Vítej v Chebu — po většinu historie známém pod svým německým jménem Eger, nesporném hlavním městě Chebska, toho výběžku české západní hranice, kterému trvalo o celá staletí déle než většině jeho sousedů, než si ho česká koruna skutečně natrvalo podržela.
+
+Cheb byl vždycky přirozeným centrem Chebska — region má po něm i své německé jméno. Dlouho říšské město pod přímou mocí Svaté říše římské, ne pod českou vládou (sousední císařský palác na skalním ostrohu nad Ohří, druhý chebský bod na téhle časové ose, dělal tenhle císařský status fyzicky zjevným), samo město vyrostlo ve svébytné obchodní centrum, jehož náměstí a měšťanské domy se rozvíjely nezávisle na pevnosti na útesu.
+
+České vlastnictví Chebu přicházelo a odcházelo v přestávkách. Král Otakar II. obsadil Chebsko roku 1266, během dlouhého období říšské slabosti, které tahle časová osa už probrala jako Velké interregnum — jen aby ho v roce 1276, dva roky před vlastní smrtí, zase ztratil, když si ho pro říši nárokoval zpět Rudolf Habsburský. Trvalé české ovládnutí trvalo o další půlstoletí déle: v roce 1322 dostal král Jan Lucemburský Cheb jako říšskou zástavu, jistotu za půjčku, kterou císař nikdy nesplatil — a nesplacená zástava se nakonec ukázala být stejně dobrá jako vlastnictví. Cheb od té doby zůstává součástí českých zemí, spravovaný nepřetržitě lidmi, kteří se nikdy neobtěžovali ty peníze poslat zpátky.
+
+Město má i vlastní nárok na jednu z nejsenzačnějších vražd třicetileté války: v únoru 1634 byl Albrecht z Valdštejna — nejvyšší vojevůdce habsburské říše, podezřelý císařem Ferdinandem II. z tajných jednání s nepřítelem — na císařův rozkaz zabit právě tady, v Pachelbelově domě přímo na chebském náměstí (dnes Chebské muzeum). Muž, který vybudoval a velel největší armádě v Evropě, nepadl na bojišti, ale v měšťanském domě ve městě, jehož vlastní hrad kdysi hostil dvůr samotného císaře.
+
+🎁 Bonus: po většinu své historie pod českou vládou zůstával Cheb naprosto převážně německy mluvícím městem — součástí toho, čemu se později začalo říkat Sudety — až do poválečných hromadných odsunů Němců po roce 1945, které jeho obyvatelstvo natrvalo změnily.`,
+
+      zh: `欢迎来到赫布——大半段历史里它更常用德语名字埃格尔（Eger）为人所知，是赫布地区（埃格尔兰）当仁不让的中心城市。跟周边大多数地方比起来，这里被波希米亚王室真正稳稳收入囊中，足足晚了好几个世纪。
+
+赫布一直是赫布地区天然的中心——这个地区的德语名字本身就取自这座城市。它长期是神圣罗马帝国直辖的帝国自由市，而非波希米亚治下（旁边那座矗立在奥赫热河畔悬崖上的皇家城堡——这条时间线另一处以赫布为名的地标——把这份帝国身份摆得明明白白），城市本身则发展成了一处自成一体的贸易中心，广场和市民住宅的成长跟悬崖上那座要塞各走各的路。
+
+波希米亚对赫布的统治，来来回回、断断续续。奥托卡二世国王1266年占领了赫布地区，正值这条时间线已经讲过的"大空位期"帝国势弱的漫长阶段——结果1276年，就在他自己去世前两年，又被哈布斯堡的鲁道夫替帝国夺了回去。波希米亚真正的永久控制，又多等了半个世纪：1322年，卢森堡的约翰国王把赫布收作了一份帝国抵押品——皇帝为一笔从未还清的借款提供的担保——而一份没被赎回的抵押品，到头来跟直接拥有也没什么两样。从那以后，赫布就一直留在了波希米亚/捷克的版图里，由那些压根没打算把钱还回去的人一直管理至今。
+
+这座城市还有自己的一项"战绩"——三十年战争里最轰动的一场暗杀：1634年2月，阿尔布雷希特·冯·华伦斯坦——哈布斯堡帝国自己的最高统帅，被皇帝斐迪南二世怀疑私下与敌方谈判——正是在这里、就在赫布自家广场上的帕赫尔贝尔宅邸（如今是赫布博物馆），奉皇帝之命被杀。这位一手组建并统率过全欧洲规模最大军队的人，倒下的地方不是战场，而是一座市民宅邸里——而这座城市自己的城堡，当年也曾接待过皇帝本人的宫廷。
+
+🎁 彩蛋：在波希米亚治下的大部分历史时期，赫布始终是一座绝大多数居民讲德语的城市——后来被称为"苏台德地区"的一部分——直到1945年战后大规模驱逐德意志人，才永久改变了这里的人口构成。`,
+    },
+  },
+  {
+    // Added to support iron-and-golden-king-1266's relatedLandmarks — one of
+    // the castles named in that card's new "systematic fortress-building"
+    // paragraph. The 1279 imprisonment of Kunigunda and young Wenceslas II
+    // is a direct callback to marrying-kunigunda-1261's own forward-hook
+    // ("that son would go on to matter far more, in time...") — worth
+    // citing if that card is ever revisited. Also connects to `cheb`
+    // (added same session) via Wallenstein, who ends up owning this castle
+    // decades before his own assassination there.
+    name: 'Bezděz Castle',
+    slug: 'bezdez-castle',
+    localizedNames: { cz: 'Hrad Bezděz', zh: '贝兹杰兹城堡' },
+    labels: ['historical'],
+    coordinates: { lat: 50.538958658343944, lng: 14.719838803719576 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Bezd%C4%9Bz_Castle',
+    description: {
+      en: `Welcome to Bezděz Castle — built by a king who never got to see it finished, and finished just in time to become a prison for his own widow and son. Bohemian castle-building doesn't get much more darkly ironic than this.
+
+King Otakar II ordered Bezděz built sometime before 1264, on a striking volcanic hill in northern Bohemia, as part of the same systematic fortress-building campaign that also produced Zvíkov and Křivoklát. Construction dragged on for roughly two decades, and the main structure was only substantially complete by 1279 — a year after Otakar himself was killed at the Battle on the Marchfeld, meaning the king who ordered it built never lived to see it finished.
+
+The castle's first real use came almost immediately, and it wasn't the one Otakar had in mind. On the night of 25 January 1279, Otto of Brandenburg — regent for Otakar's young son and heir, seven-year-old Wenceslas II — brought the boy and his mother, Dowager Queen Kunigunda, here and locked them up in deliberately spartan conditions, still unfinished walls and all. Kunigunda eventually talked or bribed her way out under some pretext; Wenceslas was left behind alone, and it's widely thought the experience left a real mark on the boy who'd go on to actually rule Bohemia.
+
+By the 15th century, Bezděz's reputation for being nearly impossible to besiege had made it valuable for an entirely different reason: during the Hussite Wars, it served as a secure repository for Bohemia's own land registry records (the Zemské desky) and assorted Church valuables — and, reputation apparently well earned, no Hussite army ever actually attacked it. That streak ended in 1620, right after the Battle of White Mountain, when local rebel subjects sheltering inside were quickly overrun by Maximilian of Bavaria's Catholic League forces, and the castle was plundered. It was confiscated by the crown afterward and eventually sold off cheap to Albrecht von Wallenstein — the same imperial generalissimo this timeline has already met meeting his own end in Cheb, decades later.
+
+🎁 Bonus: by the 19th century, long abandoned, the castle drew in Romantic souls — among them Karel Hynek Mácha, who found inspiration here and in the surrounding countryside for poems including "An Evening at Bezděz" and "Máj," the single most famous poem in all of Czech Romanticism.`,
+
+      cz: `Vítej na hradě Bezděz — postaveném králem, který se nedožil jeho dokončení, a dokončeném zrovna včas na to, aby se stal vězením pro jeho vlastní vdovu a syna. České hradní stavitelství se temnější ironií jen tak nevykáže.
+
+Král Otakar II. nechal Bezděz postavit někdy před rokem 1264, na nápadném sopečném kopci v severních Čechách, jako součást téže systematické kampaně budování pevností, z níž vzešly i Zvíkov a Křivoklát. Stavba se táhla zhruba dvě desetiletí a hlavní objekt byl v podstatě dokončen až v roce 1279 — rok poté, co byl sám Otakar zabit v bitvě na Moravském poli, takže král, který ho nechal postavit, se jeho dokončení sám nedožil.
+
+První skutečné využití hradu přišlo téměř okamžitě, a nebylo to to, které měl Otakar na mysli. V noci z 25. na 26. ledna 1279 sem Ota Braniborský — poručník Otakarova malého syna a dědice, sedmiletého Václava II. — přivezl chlapce i jeho matku, vdovu po králi Kunhutu, a zamkl je zde v záměrně strohých podmínkách, ještě mezi nedokončenými zdmi. Kunhuta si nakonec pod nějakou záminkou vyjednala nebo vykoupila cestu ven; Václav zůstal sám, a všeobecně se má za to, že ho ten zážitek poznamenal na celý zbytek života — toho, kdo nakonec Čechám skutečně vládl.
+
+Do 15. století si Bezděz vybudoval pověst téměř nedobytné pevnosti, což se hodilo z úplně jiného důvodu: během husitských válek sloužil jako bezpečné úložiště českých zemských desek a různých církevních cenností — a pověst se zjevně vyplatila, protože žádná husitská armáda na něj nikdy nezaútočila. Tahle šňůra skončila v roce 1620, hned po bitvě na Bílé hoře, kdy místní vzbouření poddaní, kteří se tu ukryli, byli rychle přemoženi katolickými ligovými vojsky Maxmiliána Bavorského a hrad byl vypleněn. Poté ho koruna zabavila a nakonec levně prodala Albrechtu z Valdštejna — témuž říšskému generalissimovi, kterého tahle časová osa už jednou potkala, o desetiletí později, při jeho vlastním konci v Chebu.
+
+🎁 Bonus: v 19. století, tou dobou už opuštěný, hrad přitáhl romantické duše — mezi nimi i Karla Hynka Máchu, který tu a v okolí našel inspiraci pro básně jako „Večer na Bezdězu" i pro svého „Máje", nejslavnější báseň celé české romantiky.`,
+
+      zh: `欢迎来到贝兹杰兹城堡——由一位没能活着看到它建成的国王下令修建，而它建成的时机，恰好赶上成为这位国王自己的遗孀和儿子的囚牢。捷克筑城史上，这份反讽的黑色程度算是数得上的。
+
+国王奥托卡二世在1264年之前的某个时候，下令在波希米亚北部一座醒目的火山丘上修建贝兹杰兹城堡，是他那套系统性筑城计划的一部分——兹维科夫和克日沃克拉特也是同一计划的产物。工程断断续续拖了大约二十年，主体建筑直到1279年才基本竣工——那已经是奥托卡本人在马尔希费尔德战役中阵亡的第二年，也就是说，下令建造它的国王，自己从未活着看到它建成。
+
+这座城堡的第一次真正派上用场，来得几乎是立刻，而且完全不是奥托卡本来设想的那种用途。1279年1月25日夜里，勃兰登堡的奥托——奥托卡年幼的继承人、七岁的瓦茨拉夫二世的摄政——把这个男孩和他的母亲、太后库尼贡达一并带到这里，关在故意安排得极为简陋的房间里，四周还是尚未完工的墙壁。库尼贡达后来靠某种借口斡旋或买通，脱身离开；瓦茨拉夫被独自留在了这里——普遍认为，这段经历给这位日后真正统治了波希米亚的国王，留下了挥之不去的印记。
+
+到15世纪，贝兹杰兹已经攒下了“几乎无法攻陷”的名声，而这份名声这次派上了完全不同的用场：胡斯战争期间，它被用作波希米亚土地登记档案（Zemské desky）和各类教会珍宝的安全存放地——而且这份名声看来真不是吹的，没有一支胡斯军队真正对它发起过进攻。这个不败纪录在1620年终结——就在白山战役之后不久，躲进城堡避难的当地叛乱臣民，很快就被马克西米利安·冯·巴伐利亚率领的天主教联盟军队击溃，城堡随即遭到洗劫。此后城堡被王室没收，最终廉价卖给了阿尔布雷希特·冯·华伦斯坦——正是这条时间线已经提到过的那位帝国总司令，几十年后，他自己的结局就发生在赫布。
+
+🎁 彩蛋：到19世纪，早已废弃的贝兹杰兹吸引来了不少浪漫主义灵魂——其中就包括卡雷尔·希内克·马哈，他在这里及周边找到了灵感，写下了《贝兹杰兹之夜》，也写下了整个捷克浪漫主义最著名的诗篇《五月》（Máj）。`,
+    },
+  },
+  {
+    // Added to support iron-and-golden-king-1266's relatedLandmarks.
+    // Otakar II founded the original Gothic guard castle here c. 1250 —
+    // genuinely his own construction, like Bezděz and Houska. But the
+    // building tourists actually see and photograph today is an 1840-1871
+    // Romantic neo-Gothic reconstruction modeled on Windsor Castle,
+    // commissioned by the Schwarzenbergs after a trip to England — a
+    // complete rebuild bearing no resemblance to the medieval original.
+    // rarity: `legend` (per the 2026-08-22 CLAUDE.md scope update — see
+    // that note) rather than `mythic`, given how monumental/iconic this
+    // building specifically is.
+    name: 'Hluboká Castle',
+    slug: 'zamek-hluboka-nad-vltavou',
+    localizedNames: { cz: 'Zámek Hluboká nad Vltavou', zh: '赫卢博卡城堡' },
+    labels: ['palace', 'historical'],
+    coordinates: { lat: 49.05133208726549, lng: 14.441360991226407 },
+    rarity: 'legend',
+    xpReward: 100,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Hlubok%C3%A1_Castle',
+    description: {
+      en: `Welcome to Hluboká Castle — the single most photographed "fairytale castle" in Bohemia, and one whose actual medieval self would not recognize a single stone of what stands here today.
+
+King Otakar II founded the original castle here around 1250, a working Gothic guard castle meant to secure trade routes and protect royal territory — part of the same systematic fortress-building this timeline has already covered under his own reign. Like most medieval royal property, it got repeatedly pledged to nobles for cash rather than held directly, and by the 15th century the once-functional stronghold had fallen into outright ruin.
+
+The 16th century brought it back from the dead, twice over: Ondřej Ungnad of Sunek rebuilt it in 1534, and Jáchym of Hradec then transformed the medieval remains into a proper Renaissance seat in 1562, complete with three stories and three internal courtyards. The Schwarzenberg family bought the estate in 1661 and held it for the next three centuries — long enough to eventually do something far more dramatic to the place than any of their predecessors had.
+
+Between 1840 and 1871, Prince Jan Adolf II of Schwarzenberg, freshly returned from travels in England with his wife, had the entire castle torn down to its core and rebuilt from scratch in the Romantic neo-Gothic style — modeled explicitly on Windsor Castle. Architect Franz Beer began the project; Damasius Deworetzky finished the interiors after Beer's death. The turreted, white-walled "fairytale castle" every photograph of Hluboká shows today is this 19th-century English import, built nearly six centuries after Otakar's original guard castle and bearing no resemblance to it whatsoever — a Romantic aristocrat's homesick tribute to an English royal residence, standing on the foundations of a medieval Bohemian one.
+
+🎁 Bonus: the Schwarzenbergs didn't lose Hluboká to war damage or Nazi requisition — the family patriarch had actually fled the Nazis in 1939. It was a 1947 law targeting the family by name, the so-called "Lex Schwarzenberg," that nationalized the estate under the incoming Communist state; it's operated as a public museum ever since, drawing visitors as much for the collections inside as for that unmistakably English exterior.`,
+
+      cz: `Vítej na zámku Hluboká — jednom jediném, nejvíc fotografovaném „pohádkovém zámku" v Čechách, jehož skutečné středověké já by dnes nepoznalo jediný kámen z toho, co tu stojí.
+
+Král Otakar II. tu kolem roku 1250 založil původní hrad, funkční gotickou strážní pevnost určenou k zajištění obchodních cest a ochraně královského území — součást téže systematické politiky budování pevností, kterou tahle časová osa už probrala v souvislosti s jeho vládou. Jako většina středověkého královského majetku byl opakovaně zastavován šlechticům za hotovost místo toho, aby zůstával v přímém držení, a do 15. století se z kdysi funkční pevnosti stala vyložená zřícenina.
+
+16. století ho přivedlo zpět k životu, a to hned dvakrát: Ondřej Ungnad ze Suneku ho přestavěl v roce 1534, a Jáchym z Hradce pak středověké pozůstatky proměnil v roce 1562 v pořádné renesanční sídlo, se třemi patry a třemi vnitřními nádvořími. Rod Schwarzenbergů koupil panství v roce 1661 a držel ho další tři staletí — dost dlouho na to, aby s místem nakonec provedl něco mnohem dramatičtějšího než kterýkoli z jejich předchůdců.
+
+Mezi lety 1840 a 1871 nechal kníže Jan Adolf II. ze Schwarzenbergu, čerstvě po návratu z cest po Anglii se svou manželkou, celý zámek strhnout až na základy a znovu postavit od nuly v romantickém novogotickém stylu — vysloveně podle vzoru zámku Windsor. Architekt Franz Beer projekt zahájil; Damasius Deworetzky po Beerově smrti dokončil interiéry. Ten věžičkatý, bíle zdobený „pohádkový zámek", který ukazuje každá dnešní fotka Hluboké, je právě tenhle anglický import z 19. století, postavený skoro šest století po Otakarově původním strážním hradu a nemající s ním vůbec nic společného — hold romantického šlechtice, stesknuvšího se po anglickém královském sídle, postavený na základech středověké české pevnosti.
+
+🎁 Bonus: Schwarzenberkové nepřišli o Hlubokou kvůli válečným škodám nebo německé konfiskaci — hlava rodu před nacisty naopak v roce 1939 sama uprchla. Byl to až zákon z roku 1947 mířící přímo na tenhle rod jménem, takzvaný „Lex Schwarzenberg", který panství znárodnil pod nastupujícím komunistickým státem; od té doby slouží jako veřejné muzeum a přitahuje návštěvníky stejnou měrou kvůli sbírkám uvnitř jako kvůli té nezaměnitelně anglické fasádě.`,
+
+      zh: `欢迎来到赫卢博卡城堡——波希米亚境内被拍照次数最多的"童话城堡"，可它真正的中世纪本尊，恐怕认不出今天这里的任何一块石头。
+
+国王奥托卡二世大约在1250年在这里建立了最初的城堡——一座真正投入使用的哥特式守卫要塞，用来确保贸易路线、保护王室领地，是这条时间线已经讲过的、他在位期间那套系统性筑城政策的一部分。跟大多数中世纪王室产业一样，它反复被抵押给贵族换取现金，而不是一直由王室直接持有，到15世纪，这座曾经实用的要塞已经彻底沦为废墟。
+
+16世纪把它两度救回了生：1534年，苏内克的翁德热·翁格纳德对它进行了重建，1562年，赫拉德茨的雅希姆又把这些中世纪遗迹改造成了一座正经的文艺复兴式宅邸，配上三层楼和三个内院。施瓦岑贝格家族1661年买下了这处庄园，此后持有了整整三个世纪——时间长到最终对这个地方做出了比之前任何一任主人都更戏剧化的改造。
+
+1840年到1871年间，施瓦岑贝格家的扬·阿道夫二世亲王，刚和妻子游历英格兰归来，就下令把整座城堡彻底拆到地基，按浪漫主义新哥特风格从零重建——明确以温莎城堡为蓝本。建筑师弗朗茨·贝尔启动了这个项目；贝尔去世后，达马修斯·德沃雷茨基接手完成了室内装饰。今天每一张赫卢博卡的照片里那座塔楼林立、通体雪白的"童话城堡"，就是这次19世纪的英式舶来品——建成时间比奥托卡最初的守卫城堡晚了将近六个世纪，跟那座原物毫无相似之处——一位浪漫主义贵族对英国王室宅邸的思乡式致敬，立在了一座中世纪波希米亚要塞的地基之上。
+
+🎁 彩蛋：施瓦岑贝格家族失去赫卢博卡，跟战争损毁或纳粹征用都没关系——这一支的家族族长其实早在1939年就为了躲避纳粹，主动流亡海外了。真正让这处庄园易主的，是1947年一部专门针对这个家族、点名道姓的法律——所谓的"施瓦岑贝格法"（Lex Schwarzenberg）——在新兴的共产主义国家手中被收归国有；此后它一直作为公共博物馆对外开放，吸引游客的既有馆内的藏品，也有那副毫无疑问透着英伦味道的外观。`,
+    },
+  },
+  {
+    // Added to support iron-and-golden-king-1266's relatedLandmarks — a
+    // whole city Otakar founded from scratch in 1265 (parallel to
+    // founding-of-mala-strana-1257's planned-settlement pattern, but on
+    // open ground rather than squeezed below a castle). rarity `legend`
+    // per the 2026-08-22 CLAUDE.md scope update (see `zamek-hluboka...`'s
+    // note) — user's explicit call, a whole founded regional capital
+    // qualifies. The knight `Hirzo` who built it may or may not be the
+    // same `Hirza` already named as Otakar's 1250 burgrave at Zvíkov
+    // (`zvikov-castle`'s own description) — flagged as uncertain, not
+    // asserted as fact.
+    name: 'České Budějovice',
+    slug: 'ceske-budejovice',
+    localizedNames: { cz: 'České Budějovice', zh: '捷克布杰约维采' },
+    labels: ['city', 'historical'],
+    coordinates: { lat: 48.97454448451566, lng: 14.474327052355115 },
+    rarity: 'legend',
+    xpReward: 100,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/%C4%8Cesk%C3%A9_Bud%C4%9Bjovice',
+    description: {
+      en: `Welcome to České Budějovice — a city that didn't grow organically over centuries like most of its neighbors, but was drawn up on a blank meadow in a single stroke, purpose-built by a king who wanted a loyal foothold in a region a rival noble family already thought was theirs.
+
+King Otakar II founded České Budějovice in 1265, entrusting its construction to a knight named Hirzo — quite possibly the same Hirzo/Hirza this timeline has already met as the burgrave Otakar appointed at Zvíkov Castle in 1250, though the connection isn't fully certain. The site was chosen at the confluence of the Vltava and Malše rivers, both for natural defense and for its position on the trade route linking Prague to Linz in Austria. The real motive, though, was political: South Bohemia was effectively the private domain of the powerful Rožmberk (Vítkovci) noble family, and Otakar wanted a royal stronghold loyal directly to the crown planted right in the middle of it.
+
+Because the town rose on an empty meadow rather than an existing settlement, Hirzo could lay it out with a precision no older Bohemian town enjoyed — a strict chessboard grid of streets centered on one of the largest town squares in the country, today's Přemysl Otakar II Square, named for its founder. It's the same planning logic this timeline has already seen at Malá Strana, just applied on open ground instead of squeezed in below a castle.
+
+🎁 Bonus: the town's German name, Budweis, kicked off one of the longest-running trademark fights in beer history. American brewer Adolphus Busch registered the name "Budweiser" in the US in 1876 — years before the town's own Budweiser Budvar brewery was even founded, in 1895 — and the two breweries have been fighting in courts around the world ever since over who gets to call their beer "Budweiser" where. Budvar won the naming rights across most of Europe; the American brewer sells as "Bud" there instead, while Budvar exports to North America under the name "Czechvar."`,
+
+      cz: `Vítej v Českých Budějovicích — městě, které nevyrostlo postupně po staletích jako většina jeho sousedů, ale bylo v jednom tahu navrženo na prázdné louce, účelově postavené králem, který chtěl mít v kraji, jejž si už považoval za svůj jeden mocný šlechtický rod, vlastní věrnou baštu.
+
+Král Otakar II. založil České Budějovice v roce 1265 a jejich výstavbou pověřil rytíře jménem Hirzo — možná, byť ne zcela jistě, téhož Hirza/Hirzu, kterého tahle časová osa už potkala jako purkrabího, kterého Otakar dosadil na Zvíkov v roce 1250. Místo bylo vybráno na soutoku Vltavy a Malše, jednak kvůli přirozené obraně, jednak kvůli poloze na obchodní cestě spojující Prahu s rakouským Lincem. Skutečný motiv byl ale politický: jižní Čechy byly fakticky soukromou doménou mocného rodu Vítkovců (Rožmberků), a Otakar chtěl přímo doprostřed toho kraje umístit královskou baštu věrnou přímo koruně.
+
+Protože město vyrostlo na prázdné louce místo na existujícím sídlišti, mohl ho Hirzo naplánovat s přesností, jakou si žádné starší české město neužilo — přísně šachovnicovou sítí ulic soustředěnou kolem jednoho z největších náměstí v zemi, dnešního náměstí Přemysla Otakara II., pojmenovaného po svém zakladateli. Je to stejná logika plánování, jakou tahle časová osa už viděla u Malé Strany — jen tentokrát uplatněná na volném prostranství místo natěsnané pod hradem.
+
+🎁 Bonus: německý název města, Budweis, odstartoval jeden z nejdéle trvajících sporů o ochrannou známku v dějinách piva. Americký pivovarník Adolphus Busch si název „Budweiser" nechal v USA zaregistrovat už v roce 1876 — roky předtím, než byl vůbec založen místní pivovar Budějovický Budvar, v roce 1895 — a oba pivovary se od té doby po celém světě soudí o to, kde smí své pivo tak nazývat. Budvar vyhrál práva na název ve většině Evropy; americký pivovar tam místo toho prodává pod značkou „Bud", zatímco Budvar do Severní Ameriky vyváží pod jménem „Czechvar".`,
+
+      zh: `欢迎来到捷克布杰约维采——这座城市不像大多数邻居那样经过数百年慢慢成长起来，而是在一片空白草地上一次性规划出来的，是一位国王专门修建来对抗某个已经把整片地区视为自家地盘的强大贵族家族的据点。
+
+国王奥托卡二世1265年建立了捷克布杰约维采，把建城工程委托给了一位名叫希尔佐（Hirzo）的骑士——很可能（虽然不能完全确定）就是这条时间线之前提到过的、奥托卡1250年任命为兹维科夫城堡城守的那位希尔扎（Hirza）。选址定在伏尔塔瓦河与马尔什河的交汇处，一方面利于天然防御，另一方面正好卡在连接布拉格与奥地利林茨的贸易路线上。但真正的动机是政治性的：南波希米亚当时实际上是强大的维特科维奇（罗森贝格）贵族家族的私人地盘，奥托卡想在这片地区正中央，插上一处只效忠王室本身的王家据点。
+
+因为这座城市是在一片空地上拔起而非依附于已有的聚落，希尔佐得以按照当时波希米亚任何一座老城都未曾享有过的精确度来规划它——一套严整的棋盘式街道网格，围绕着全国最大的广场之一展开，也就是今天以其奠基者命名的普热美斯尔·奥托卡二世广场。这跟这条时间线在小城已经见识过的规划逻辑如出一辙——只不过这次是用在了开阔地上，而不是硬塞在城堡脚下。
+
+🎁 彩蛋：这座城市的德语名字“布德魏斯”（Budweis），引出了啤酒史上持续时间最长的商标之争之一。美国酿酒商阿道弗斯·布施早在1876年就在美国注册了“百威”（Budweiser）这个名字——比布杰约维采自己的百威布德瓦（Budweiser Budvar）啤酒厂1895年才成立，还要早了将近二十年——此后两家酒厂就为了谁有权在世界各地把自家啤酒叫作“百威”，在全球各地打了一场又一场官司。布德瓦赢下了欧洲大部分地区的命名权；美国酒厂在那些地方只能改叫“Bud”，而布德瓦出口到北美时，用的名字则是“Czechvar”。`,
+    },
+  },
+  {
+    // Added to support iron-and-golden-king-1266's relatedLandmarks. Same
+    // pattern as Zvíkov/Křivoklát: a wooden toll-fort already existed here
+    // under Wenceslas I (1230-1251); Otakar II upgraded it, but the
+    // definitive Gothic rebuild is usually dated to right around 1300,
+    // possibly extending into Wenceslas II's own reign — hedged
+    // accordingly, not claimed as a clean Otakar foundation.
+    name: 'Orlík Castle',
+    slug: 'zamek-orlik',
+    localizedNames: { cz: 'Zámek Orlík', zh: '奥尔利克城堡' },
+    labels: ['castle and fortress', 'historical', 'architecture'],
+    coordinates: { lat: 49.51287015713782, lng: 14.17009290260618 },
+    rarity: 'legend',
+    xpReward: 100,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Orl%C3%ADk_Castle',
+    description: {
+      en: `Welcome to Orlík Castle — a fortress that started life collecting river tolls and ended up, centuries later, as one of Bohemia's grandest riverside residences, all while barely staying above the waterline.
+
+The earliest records of Orlík date to Wenceslas I's reign, between 1230 and 1251, when it was little more than a wooden fort on a steep rock, collecting tolls from river traffic on the Vltava below. King Otakar II is generally credited with elevating it into more of a proper royal stronghold during his own reign — though, much like Zvíkov and Křivoklát, this wasn't a foundation from nothing so much as an upgrade of something his own family had already started. The definitive rebuild into a solid Gothic castle is usually dated to right around the turn of the 14th century, possibly overlapping into the reign of his son, Wenceslas II.
+
+A major fire gutted the castle in 1508, and the Lords of Švamberk rebuilt it as a Renaissance château. Ownership passed to the Eggenberg family in 1623, and finally to the Schwarzenbergs in 1717, who made it their primary residence by the early 19th century.
+
+🎁 Bonus: this is the very reservoir Zvíkov Castle's own description already mentions — Orlík actually gave the dam and lake their name. Once perched safely above the Vltava, the castle now sits right at the water's edge, having lost most of the dramatic drop below it when the valley was flooded in the 1950s to build the dam a few kilometers downstream.`,
+
+      cz: `Vítej na zámku Orlík — pevnosti, která začínala vybíráním mýtného na řece a o staletí později skončila jako jedno z nejvelkolepějších sídel na břehu Vltavy, sotva se přitom udržujíc nad hladinou vody.
+
+Nejstarší zmínky o Orlíku pocházejí z doby vlády Václava I., mezi lety 1230 a 1251, kdy to bylo sotva víc než dřevěná tvrz na strmé skále, vybírající mýto z lodní dopravy na Vltavě dole pod ní. Král Otakar II. je obecně považován za toho, kdo ji za své vlastní vlády povýšil na pořádnou královskou baštu — ačkoli, podobně jako u Zvíkova a Křivoklátu, nešlo tak úplně o založení z ničeho jako spíš o vylepšení něčeho, co už začala jeho vlastní rodina. Definitivní přestavba na pevný gotický hrad se obvykle datuje na přelom 13. a 14. století, možná zasahující až do vlády jeho syna, Václava II.
+
+Velký požár hrad v roce 1508 vypálil, a páni ze Švamberka jej přestavěli na renesanční zámek. V roce 1623 přešlo panství na rod Eggenbergů a nakonec v roce 1717 na Schwarzenbergy, kteří si z něj na počátku 19. století udělali své hlavní sídlo.
+
+🎁 Bonus: tohle je přesně ta přehrada, kterou už zmiňuje popis hradu Zvíkov — Orlík dal jméno jak přehradě, tak jezeru. Kdysi bezpečně trůnící nad Vltavou, zámek dnes stojí přímo u vody, protože přišel o většinu dramatického srázu pod sebou, když bylo údolí ve 50. letech 20. století zatopeno kvůli výstavbě přehrady o pár kilometrů níž po proudu.`,
+
+      zh: `欢迎来到奥尔利克城堡——它一开始只是个收河道过路费的哨所，几百年后却变成了波希米亚最气派的滨水宅邸之一，全程都只是勉强没被水淹过去。
+
+关于奥尔利克最早的记载可以追溯到瓦茨拉夫一世在位期间，1230年到1251年之间，那时它还只是一座陡峭岩石上的木造哨所，向下方伏尔塔瓦河上的船只征收过路费。一般认为，是国王奥托卡二世在自己在位期间把它升级成了一座正经的王室要塞——不过，跟兹维科夫和克日沃克拉特一样，这与其说是从零建起，不如说是在自家人已经开了头的基础上做了升级。真正定型为坚固哥特式城堡的重建工程，通常被定在13世纪末到14世纪初这个节点，很可能已经跨进了他儿子瓦茨拉夫二世的时代。
+
+1508年一场大火几乎烧毁了整座城堡，什瓦姆贝格家族随后把它改建成了文艺复兴风格的城堡。1623年，这处产业转到了埃根贝格家族手中，最终在1717年归了施瓦岑贝格家族——19世纪初，他们把这里定为了自己的主要居所。
+
+🎁 彩蛋：这正是兹维科夫城堡自己的介绍里已经提到过的那座水库——奥尔利克这个名字，正是水坝和湖泊名称的由来。曾经稳稳矗立在伏尔塔瓦河上方的城堡，如今就紧贴着水面——20世纪50年代，下游几公里处修建水坝，河谷被淹没，城堡也因此失去了脚下那道最富戏剧性的落差。`,
+    },
+  },
+  {
+    // Added to support iron-and-golden-king-1266's relatedLandmarks — a
+    // deliberate counterpoint to the other entries: this castle was NOT
+    // built by Otakar. It belonged to the Vítkovec family (specifically
+    // the Hradec branch, cousins of the Rožmberks Otakar was actively
+    // trying to counterbalance via Zlatá Koruna and České Budějovice); he
+    // only briefly confiscated it in 1277, a year before his death.
+    name: 'Jindřichův Hradec Castle',
+    slug: 'jindrichuv-hradec',
+    localizedNames: { cz: 'Jindřichův Hradec', zh: '因德日赫城堡' },
+    labels: ['castle and fortress', 'historical', 'architecture'],
+    coordinates: { lat: 49.14283346899373, lng: 15.0009513050739 },
+    rarity: 'legend',
+    xpReward: 100,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Jind%C5%99ich%C5%AFv_Hradec_Castle',
+    description: {
+      en: `Welcome to Jindřichův Hradec — and a useful reminder that not everything on this timeline's list of Otakar-connected castles is something he actually built. This one, he simply took.
+
+The castle here — first recorded in 1220 as "Novum Castrum," the "new castle" — belonged to the Vítkovec family from the start, specifically the branch founded by Jindřich (Henry) Vítkovec, whose descendants took the town's own name and carried a coat of arms showing a five-petaled golden rose on blue — the same rose later famous as the Rožmberk family emblem, a related branch of the same wider Vítkovec clan Otakar spent this same decade trying to counterbalance in South Bohemia.
+
+In 1277, a year before his own death, Otakar II confiscated the castle from its lord, Oldřich I, treating it as a former royal manor rather than private property — one last move in the same long power struggle against Vítkovec influence that also produced Zlatá Koruna and České Budějovice. He didn't hold it for long, and construction of the castle's stone core, including its oldest surviving structures — a black tower and an adjoining palace — is generally credited to the Vítkovec family themselves rather than to Otakar's own brief tenure.
+
+🎁 Bonus: whatever Otakar's confiscation actually accomplished, it didn't stick — the castle returned to the same family and grew, over the following centuries, into the third-largest heritage complex in the entire Czech Republic.`,
+
+      cz: `Vítej v Jindřichově Hradci — a u dobré připomínky, že ne všechno na téhle časové ose spojené s Otakarem je něco, co skutečně postavil. Tohle si jen vzal.
+
+Hrad tady — poprvé doložený v roce 1220 jako „Novum Castrum", „nový hrad" — patřil od počátku rodu Vítkovců, konkrétně větvi založené Jindřichem Vítkovcem, jehož potomci si vzali jméno po městě a nosili erb se zlatou pětilistou růží na modrém poli — stejnou růží, která se později proslavila jako znak rodu Rožmberků, příbuzné větve téhož širšího rodu Vítkovců, jehož vliv se Otakar v tomtéž desetiletí snažil v jižních Čechách vyvažovat.
+
+V roce 1277, rok před vlastní smrtí, Otakar II. hrad zabavil jeho pánovi, Oldřichovi I., a nakládal s ním jako s bývalým královským statkem, ne jako se soukromým majetkem — poslední tah v témž dlouhém mocenském zápase proti vlivu Vítkovců, z něhož vzešly i Zlatá Koruna a České Budějovice. Nedržel ho dlouho, a výstavba kamenného jádra hradu, včetně jeho nejstarších dochovaných staveb — černé věže a přiléhajícího paláce — se obecně připisuje samotnému rodu Vítkovců, ne Otakarově krátké držbě.
+
+🎁 Bonus: ať už Otakarovo zabavení mělo dosáhnout čehokoli, nevydrželo to — hrad se vrátil zpátky téže rodině a v následujících staletích vyrostl ve třetí největší památkový komplex v celé České republice.`,
+
+      zh: `欢迎来到因德日赫城堡——顺便提醒一句，这条时间线列出的"跟奥托卡有关"的城堡，并不是每一座都是他亲手建的。这一座，他只是拿走了而已。
+
+这座城堡——最早的文字记载见于1220年，当时称作"Novum Castrum"（新城堡）——从一开始就属于维特科维奇家族，具体来说是因德日赫（亨利希）·维特科维奇创立的那一支，其后代以这座城镇的名字为姓，纹章是蓝底金色五瓣玫瑰——同一朵玫瑰后来成了罗森贝格家族名扬四方的家徽，而罗森贝格正是这个更庞大的维特科维奇家族的近亲分支——也正是奥托卡在这同一个十年里，一直想在南波希米亚设法制衡的那股势力。
+
+1277年，也就是他去世前一年，奥托卡二世从领主奥尔德日赫一世手中没收了这座城堡，把它当作一处前朝王室庄园来处理，而不是私人财产——这是他对抗维特科维奇家族势力那场长期较量里的最后一步棋，跟金冕修道院和捷克布杰约维采出于同一个动机。他没能把它握在手里多久，而城堡石造主体的建造——包括至今留存的最古老建筑：黑塔和与之相连的宫殿——一般也都归功于维特科维奇家族自己，而不是奥托卡那段短暂的占有期。
+
+🎁 彩蛋：不管奥托卡当年的没收究竟达成了什么目的，反正没能长久——这座城堡最终物归原主，此后几个世纪里不断扩建，如今已经是整个捷克境内规模第三大的文物古迹建筑群。`,
+    },
+  },
+  {
+    // Added to support iron-and-golden-king-1266's relatedLandmarks — a
+    // clean, well-documented Otakar foundation (1263), same political
+    // motive as founding-of-mala-strana-1257 and `ceske-budejovice`:
+    // countering the Vítkovci/Rožmberk power base in South Bohemia.
+    name: 'Zlatá Koruna Monastery',
+    slug: 'klaster-zlata-koruna',
+    localizedNames: { cz: 'Klášter Zlatá Koruna', zh: '金冕修道院' },
+    labels: ['monastery', 'historical', 'architecture'],
+    coordinates: { lat: 48.855166074750144, lng: 14.3705289874094 },
+    rarity: 'legend',
+    xpReward: 100,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Zlat%C3%A1_Koruna',
+    description: {
+      en: `Welcome to Zlatá Koruna — a Cistercian monastery founded not for prayer alone, but as a deliberate move in the same regional power struggle behind České Budějovice, planted in exactly the territory it was meant to counterbalance.
+
+King Otakar II founded the monastery in 1263, bringing in Cistercian monks from the mother house at Heiligenkreuz in Austria specifically to establish a royal religious presence inside territory the powerful Vítkovci family already effectively controlled in South Bohemia — the same motive that, two years later, would also produce České Budějovice. Otakar gave the new foundation a relic he prized enormously: a thorn supposedly from Christ's own crown of thorns, a gift from King Louis IX of France, and at his own request the monastery took its original name from that relic — the Holy Crown of Thorns. Only in the early 14th century did it become known instead as Zlatá Koruna, the "Golden Crown," likely a nod to the monastery's own considerable accumulated wealth rather than to the relic itself.
+
+The complex is considered today one of Central Europe's most valuable examples of Gothic architecture, with the Chapel of Guardian Angels — dating to the late 13th century — its oldest surviving part. The 14th century brought real prosperity: monastery estates founded roughly a hundred villages across the surrounding countryside. That prosperity didn't survive the Hussite Wars, though — the monastery was burned in 1420, and only rebuilt centuries later, in the 17th and early 18th centuries.
+
+🎁 Bonus: the "Golden Crown" of the monastery's own name survives today mostly as a placename — the original crown-of-thorns relic story is largely forgotten by visitors, most of whom come instead for the Gothic cloister and chapter house, still considered among the finest anywhere in Bohemia.`,
+
+      cz: `Vítej v Zlaté Koruně — cisterciáckém klášteře založeném nejen pro modlitbu, ale jako promyšlený tah v témž regionálním mocenském zápase, který stojí i za Českými Budějovicemi, zasazený přímo do území, jež měl vyvažovat.
+
+Král Otakar II. klášter založil v roce 1263 a přivedl sem cisterciácké mnichy z mateřského kláštera Heiligenkreuz v Rakousku, konkrétně proto, aby uvnitř území, které v jižních Čechách fakticky ovládal mocný rod Vítkovců, zřídil královskou duchovní přítomnost — stejný motiv, který o dva roky později přinesl i České Budějovice. Otakar novému založení věnoval relikvii, které si nesmírně cenil: trn, který měl pocházet přímo z Kristovy trnové koruny, dar francouzského krále Ludvíka IX., a na jeho vlastní přání klášter podle téhle relikvie dostal svůj původní název — Svatá trnová koruna. Teprve na počátku 14. století se začal místo toho nazývat Zlatá Koruna, patrně s odkazem na značné nashromážděné bohatství kláštera, ne na samotnou relikvii.
+
+Komplex je dnes považován za jeden z nejcennějších příkladů gotické architektury ve střední Evropě, přičemž kaple Andělů strážných — z konce 13. století — je jeho nejstarší dochovanou částí. 14. století přineslo skutečný rozkvět: na klášterních panstvích v tu dobu vzniklo zhruba sto vesnic. Tenhle rozkvět ale nepřežil husitské války — klášter byl v roce 1420 vypálen a obnoven až o staletí později, v 17. a na počátku 18. století.
+
+🎁 Bonus: „zlatá koruna" v samotném jméně kláštera dnes přežívá hlavně jako místní název — původní příběh o relikvii trnové koruny většina návštěvníků nezná, protože sem míří spíš kvůli gotickému ambitu a kapitulní síni, dodnes považovaným za jedny z nejlepších v celých Čechách.`,
+
+      zh: `欢迎来到金冕修道院——一座熙笃会修道院，创建的目的不只是祈祷，也是布杰约维采那场地区权力博弈的另一步棋，就种在了它本该用来制衡的那片地盘正中央。
+
+国王奥托卡二世1263年创建了这座修道院，特意从奥地利海利根克罗伊茨的母院请来熙笃会修士，在南波希米亚这片当时实际上由强大的维特科维奇家族掌控的土地上，建立起一处王室宗教据点——这跟两年后促成捷克布杰约维采建城的，是同一个动机。奥托卡还给这座新修道院赠送了一件他极为珍视的圣物：一根据说来自基督荆棘冠冕的荆棘，是法国国王路易九世送给他的礼物，按他本人的意愿，修道院最初就以这件圣物命名——"神圣荆棘冠冕"。直到14世纪初，它才改称"Zlatá Koruna"（金冕），这个名字更可能指的是修道院自己积累下的可观财富，而不是那件圣物本身。
+
+如今，这座建筑群被公认为中欧最珍贵的哥特式建筑范例之一，其中"守护天使礼拜堂"——建于13世纪末——是现存最古老的部分。14世纪，修道院真正迎来了繁荣：其名下庄园在周边乡野一带建起了大约上百个村庄。不过这份繁荣没能撑过胡斯战争——修道院1420年被焚毁，直到几个世纪后的17世纪至18世纪初才得以重建。
+
+🎁 彩蛋：修道院名字里的"金冕"，如今大多只是作为地名留存下来——大多数游客早已不知道那件荆棘冠冕圣物的原始故事，他们来这里，更多是为了那座哥特式回廊和教士会堂，至今仍被公认为波希米亚境内最出色的同类建筑之一。`,
+    },
+  },
 ];
 
 async function run() {
