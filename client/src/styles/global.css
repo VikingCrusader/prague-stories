@@ -227,6 +227,7 @@ html:not([data-lang="zh"]) .history-landmark-caption,
 html:not([data-lang="zh"]) .guide-intro,
 html:not([data-lang="zh"]) .history-drag-hint,
 html:not([data-lang="zh"]) .history-era-divider__tagline,
+html:not([data-lang="zh"]) .history-era-divider__years,
 html:not([data-lang="zh"]) .history-sidebar__item-title,
 html:not([data-lang="zh"]) .history-sidebar__item-year,
 html:not([data-lang="zh"]) .history-event__year,
@@ -284,6 +285,17 @@ html:not([data-lang="zh"]) .history-landmark-caption {
 html:not([data-lang="zh"]) .history-drag-hint,
 html:not([data-lang="zh"]) .history-era-divider__tagline {
   font-weight: 600;
+}
+
+/* .history-era-divider__years (the "1199–1378" line under an era's pixel-
+   font title) had no font-family of its own in history.css, so it fell
+   through to the page's default VT323 body font at a cramped 13px — too
+   small and the wrong face next to the Cinzel tagline right below it.
+   Now in the Cinzel group above like the tagline; sized up to actually
+   read as a subtitle. EN/CZ only. */
+html:not([data-lang="zh"]) .history-era-divider__years {
+  font-size: 20px;
+  font-weight: 700;
 }
 
 html:not([data-lang="zh"]) .detail-desc,
