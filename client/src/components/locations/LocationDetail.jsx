@@ -307,8 +307,17 @@ export default function LocationDetail({
                          plus a real fixed margin-bottom (below) keeps the
                          gap constant regardless of how many lines wrap. */
                       lineHeight: lang === "zh" ? undefined : 1.4,
-                      marginBottom:
-                        lang !== "cz" && loc.localizedNames?.cz ? 16 : 6,
+                      /* 16 is the EN fix above; zh never had the wrapping
+                         problem (its titles read fine at the original
+                         gap) so it stays pinned to the pre-fix value here
+                         rather than inheriting the EN number. */
+                      marginBottom: !loc.localizedNames?.cz
+                        ? 6
+                        : lang === "zh"
+                          ? 2
+                          : lang === "cz"
+                            ? 6
+                            : 16,
                       color: RARITY_COLOR[loc.rarity ?? "common"],
                     }}
                   >
@@ -436,8 +445,15 @@ export default function LocationDetail({
                          title-to-czname spacing that grew per wrapped
                          line instead of staying constant. */
                       lineHeight: lang === "zh" ? undefined : 1.4,
-                      marginBottom:
-                        lang !== "cz" && loc.localizedNames?.cz ? 16 : 10,
+                      /* See the matching comment on the other instance —
+                         16 is EN-only; zh stays at the original 2. */
+                      marginBottom: !loc.localizedNames?.cz
+                        ? 10
+                        : lang === "zh"
+                          ? 2
+                          : lang === "cz"
+                            ? 10
+                            : 16,
                       color: RARITY_COLOR[loc.rarity ?? "common"],
                     }}
                   >
