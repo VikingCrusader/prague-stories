@@ -296,9 +296,19 @@ export default function LocationDetail({
                     className="px-title detail-title-name"
                     style={{
                       fontSize: 14,
-                      lineHeight: lang === "zh" ? undefined : 2.4,
+                      /* Was 2.4 — that huge value was standing in for the
+                         gap before .detail-title-czname below (see its
+                         marginBottom), leaning on the whitespace line-height
+                         adds below a line's glyphs. Line-height applies per
+                         wrapped line though, so a 2-line title got that gap
+                         inserted between its own two lines too, crowding
+                         the actual title-to-czname gap by comparison once a
+                         name wrapped past one line. A normal line-height
+                         plus a real fixed margin-bottom (below) keeps the
+                         gap constant regardless of how many lines wrap. */
+                      lineHeight: lang === "zh" ? undefined : 1.4,
                       marginBottom:
-                        lang !== "cz" && loc.localizedNames?.cz ? 2 : 6,
+                        lang !== "cz" && loc.localizedNames?.cz ? 16 : 6,
                       color: RARITY_COLOR[loc.rarity ?? "common"],
                     }}
                   >
@@ -421,9 +431,13 @@ export default function LocationDetail({
                     className="px-title detail-title-name"
                     style={{
                       fontSize: 14,
-                      lineHeight: lang === "zh" ? undefined : 2.4,
+                      /* See the matching comment on the other instance of
+                         this h2 above — was 2.4, a line-height hack for
+                         title-to-czname spacing that grew per wrapped
+                         line instead of staying constant. */
+                      lineHeight: lang === "zh" ? undefined : 1.4,
                       marginBottom:
-                        lang !== "cz" && loc.localizedNames?.cz ? 2 : 10,
+                        lang !== "cz" && loc.localizedNames?.cz ? 16 : 10,
                       color: RARITY_COLOR[loc.rarity ?? "common"],
                     }}
                   >

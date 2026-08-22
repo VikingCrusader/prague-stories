@@ -267,6 +267,25 @@ html:not([data-lang="zh"]) .detail-desc.detail-desc--teaser {
   font-weight: 400;
 }
 
+/* .history-landmark-caption inherits the shared Cinzel/400 from the big
+   selector list above plus history.css's var(--text-muted) (#7a6e5f) —
+   too thin and too low-contrast against the dark background to read
+   comfortably. Bumped to solid white + a heavier weight, EN/CZ only. */
+html:not([data-lang="zh"]) .history-landmark-caption {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* .history-drag-hint (the line under the "History Timeline" page title)
+   and .history-era-divider__tagline (each era's intro blurb) both inherit
+   the same shared Cinzel/400 — too light to read comfortably. Weight
+   only, no color change requested here (unlike the caption above, these
+   are meant to stay on var(--text-muted), just heavier). EN/CZ only. */
+html:not([data-lang="zh"]) .history-drag-hint,
+html:not([data-lang="zh"]) .history-era-divider__tagline {
+  font-weight: 600;
+}
+
 html:not([data-lang="zh"]) .detail-desc,
 html:not([data-lang="zh"]) .guide-body,
 html:not([data-lang="zh"]) .guide-cat,
@@ -275,6 +294,20 @@ html:not([data-lang="zh"]) .guide-faq__a,
 html:not([data-lang="zh"]) .history-event__summary,
 html:not([data-lang="zh"]) .history-event__reference-maps-caption {
   font-family: "Crimson Pro", serif;
+}
+
+/* history.css sets .history-event__summary to 16px/1.6 with no explicit
+   weight (Crimson Pro's default 400), noticeably smaller/thinner/tighter
+   than the same long-form-body convention used elsewhere on the site
+   (.detail-desc and .guide-body are both 18px, see pixelart.css) — bumped
+   to match and pinned an explicit medium weight, since 400 read as too
+   thin for a full paragraph at this size. EN/CZ only, same as the family
+   swap above; ZH's body copy uses a different font stack and wasn't
+   reported as an issue. */
+html:not([data-lang="zh"]) .history-event__summary {
+  font-size: 18px;
+  line-height: 1.75;
+  font-weight: 500;
 }
 
 /* The Cinzel block above pins every selector in its list to font-weight:
