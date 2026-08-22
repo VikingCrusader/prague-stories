@@ -81,7 +81,7 @@ export default function HistorySidebar({ eras, events, selectedSlug, onSelectEve
                 className={`history-sidebar__item${ev.slug === selectedSlug ? ' history-sidebar__item--active' : ''}`}
                 onClick={() => onSelectEvent(ev)}
               >
-                <span className="history-sidebar__item-year">{ev.startYear}</span>
+                <span className="history-sidebar__item-year">{Math.trunc(ev.startYear)}</span>{/* startYear can carry a decimal tie-break suffix (e.g. 1254.1) for same-year ordering; only the truncated integer is ever meant to be shown */}
                 <span className="history-sidebar__item-title">{convert(ev.title[lang] || ev.title.en)}</span>
               </button>
             ))}

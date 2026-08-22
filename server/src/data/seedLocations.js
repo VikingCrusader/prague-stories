@@ -22913,6 +22913,350 @@ Tenhle kus polí u vesnice Stadice je tradičně ztotožňován s „Královský
 🎁 彩蛋：传说还补充了纪念碑本身没提到的一个细节——据说普热米斯尔在动身前往布拉格之前，曾在附近的地里插下一根木桩，后来它生根发芽，长成了一棵榛树。这棵树结出的榛子，此后数百年间都要按惯例进献给王室餐桌：神圣罗马皇帝查理四世曾特地免除当地三户农庄的农奴身份，条件是让他们负责照料这棵树，这个习俗一直延续到1701年，甚至在1723年查理六世的加冕宴上，据说还有人记得再度端出斯塔迪采的榛子。`,
     },
   },
+  {
+    name: 'Loket Castle',
+    slug: 'loket-castle',
+    localizedNames: { cz: 'Hrad Loket', zh: '洛克特城堡' },
+    labels: [],
+    coordinates: { lat: 50.18697780996281, lng: 12.755027410001485 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Loket_Castle',
+    description: {
+      en: `Welcome to Loket Castle — perched on a rock almost completely wrapped by a hairpin bend of the Ohře River, built to guard that exact bend, and about as effective a natural prison as medieval Bohemia ever managed to stumble into building by accident.
+
+The stone castle here dates to the second half of the 12th century, guarding the merchant route between Prague and Plauen on Bohemia's western frontier. The first written record — a royal burgrave named in a 1234 deed — falls right in the reign of Wenceslas I, the same king busy chartering new German-law towns across the kingdom, Loket's own included. Starting in the 1250s, mostly under his son Otakar II, the original Romanesque stronghold — two towers, a chapel, and a hall — was rebuilt and expanded into a proper Gothic fortress, ringed with new semicylindrical towers.
+
+The castle's most dramatic moment came in 1319, when King John of Luxembourg wanted his young son and heir, Wenceslas — the future Emperor Charles IV — kept somewhere his politically inconvenient mother, Queen Eliška Přemyslovna, couldn't use him as a rallying point. John's men talked their way through Loket's gate by pretending a friendly visit, then held both mother and three-year-old son prisoner for two months, the boy locked in an underground cell with a single tiny window. Charles IV never quite forgot the experience — he wrote about it decades later in his own memoirs — though as an adult he apparently held no grudge against the castle itself, and came back to stay here more than once.
+
+🎁 Bonus: sometime around the year 1400, a 107-kilogram iron meteorite fell near Loket — the oldest of only fifteen meteorite falls ever recorded on Czech soil. Locals nicknamed the scorched lump "the petrified burgrave," the legend claiming it was a corrupt castle official turned to stone as punishment. Most of it — 79 kilograms — now sits in Vienna's Natural History Museum, with smaller pieces still kept at Loket's own town hall.`,
+
+      cz: `Vítej na hradě Loket — postaveném na skále, kterou téměř celá obepíná ostrá zákruta řeky Ohře, hlídajícím přesně tuhle zákrutu, a mimochodem jednom z nejúčinnějších přírodních vězení, jaké středověké Čechy kdy náhodou postavily.
+
+Kamenný hrad tu stojí od druhé poloviny 12. století a střežil kupeckou cestu mezi Prahou a Plavnem na západní hranici Čech. První písemná zmínka — královský purkrabí uvedený v listině z roku 1234 — spadá přímo do vlády Václava I., téhož krále, který zrovna po celém království zakládal nová města podle německého práva, Loket nevyjímaje. Od padesátých let 13. století, hlavně za vlády jeho syna Otakara II., prošla původní románská pevnost — dvě věže, kaple a palác — přestavbou na pořádnou gotickou tvrz, obehnanou novými půlkruhovými věžemi.
+
+Nejdramatičtější okamžik zažil hrad roku 1319, kdy chtěl král Jan Lucemburský zajistit, aby jeho malého syna a dědice Václava — budoucího císaře Karla IV. — nemohla jeho politicky nepohodlná matka, královna Eliška Přemyslovna, využívat jako záminku k odboji. Janovi muži se dostali branou dovnitř tím, že předstírali přátelskou návštěvu, a pak drželi matku i tříletého syna dva měsíce jako vězně — chlapec byl zavřený v podzemní kobce s jediným malým okénkem. Karel IV. na ten zážitek nikdy úplně nezapomněl — o desítky let později o něm psal ve vlastních pamětech — ačkoli jako dospělý k samotnému hradu zjevně žádnou zášť nechoval a vracel se sem opakovaně.
+
+🎁 Bonus: někdy kolem roku 1400 dopadl poblíž Loketu 107kilogramový železný meteorit — nejstarší ze všech patnácti dosud zaznamenaných pádů meteoritů na českém území. Místní ohořelému kusu přezdívali „zkamenělý purkrabí", a legenda tvrdila, že jde o zkorumpovaného hradního úředníka, kterého nebe za trest proměnilo v kámen. Většina z něj — 79 kilogramů — dnes leží ve vídeňském Přírodovědném muzeu, menší kusy zůstaly přímo na loketské radnici.`,
+
+      zh: `欢迎来到洛克特城堡——它坐落在一块几乎被欧热河一个急转弯完全包住的岩石上，本来是为了看住这道弯而建的，结果顺带建出了中世纪波希米亚最有效的天然监狱之一。
+
+这里的石造城堡可以追溯到12世纪下半叶，扼守着布拉格通往普劳恩的商路，位于波希米亚的西部边境。最早的文字记载——1234年一份文书里提到的一位王室城堡总管——正好落在瓦茨拉夫一世在位期间，也就是那位刚刚忙着在全国各地按德意志法特许新城镇的国王，洛克特自己的建城特许也在其中。从13世纪50年代起，主要是在他儿子奥托卡二世治下，原本的罗马式要塞——两座塔楼、一座礼拜堂和一座宫殿——被改建扩建成一座像样的哥特式堡垒，外面还围上了新的半圆形塔楼。
+
+城堡最戏剧性的一刻发生在1319年：卢森堡的约翰国王想办法把自己年幼的儿子兼继承人瓦茨拉夫——也就是日后的皇帝查理四世——安置到一个地方，好让他那位在政治上碍事的母亲、王后伊丽什卡·普热米斯洛芙娜无法把儿子当成号召反抗的旗号。约翰的人假装是友好来访，骗开了洛克特的城门，随后把母子二人都当作囚犯扣押了两个月——三岁的男孩被关在一间只有一扇小窗的地下牢房里。查理四世从没真正忘记这段经历——几十年后，他还在自己的回忆录里写到过它——不过他成年后似乎对城堡本身并没有记恨，还多次回来住过。
+
+🎁 彩蛋：大约在1400年前后，一块重107公斤的铁陨石坠落在洛克特附近——是捷克境内已知十五次陨石坠落事件里最古老的一次。当地人给这块烧焦的石头起了个外号叫"石化的城堡总管"，传说它其实是一位贪腐的城堡官员，被上天惩罚变成了石头。如今其中大部分——79公斤——收藏在维也纳自然史博物馆，还有一小部分留在洛克特镇公所。`,
+    },
+  },
+  {
+    // Already existed in the DB (added 2026-06-22 via the app's own add-location
+    // flow, isPreset:true, plus a few stray legacy fields — category, difficulty
+    // — not part of the current schema, left untouched). Description rewritten
+    // 2026-08-21 to match the History Timeline's fact-checked account of the
+    // Old Town wall/moat (see stone-prague-1230); this seed entry mirrors that
+    // live edit for documentation parity, but $setOnInsert means re-running the
+    // seed script will just SKIP it since the slug already exists.
+    name: 'Na Příkopě',
+    slug: 'na-prikope',
+    localizedNames: { cz: 'Na Příkopě', zh: '护城河街' },
+    labels: ['street', 'cafe'],
+    coordinates: { lat: 50.086594220923395, lng: 14.427362424020306 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Na_Příkopě',
+    description: {
+      en: `Welcome to Na Příkopě — Prague's most disarmingly honest street name, since it simply means "On the Moat." For over five centuries, this was exactly that: the moat ringing the Old Town's stone wall, filled with water diverted straight from the Vltava.
+
+The wall this moat once guarded went up starting around 1235, ordered by Wenceslas I right after the Old Town received its 1230 charter: roughly 3.5 kilometers of rubble stone, 7 to 11 meters high, two meters thick at the base, studded with sixteen prismatic towers spaced some 60 meters apart, enclosing 140 hectares of the right bank as the newly defined legal City of Prague. The moat running alongside it, first recorded in 1234, was 10 meters wide and 8 meters deep — deep enough to turn the Old Town into what was, functionally, an island. Prague wasn't built as one city from the start, either: a separate, self-governing market community called Havelské Město (St. Gall's Town) grew up on its own around the same years, 1235 to 1253, clustered around St. Gall's Church market just inside these walls, and didn't formally merge into the Old Town's own jurisdiction until 1287.
+
+The moat itself was covered over in 1760, replanted with chestnut trees, and turned into Prague's first fashionable promenade — renamed twice more before settling on its current, plainly descriptive name in 1871. The wall lasted a little longer, but not much: after Prussian troops took Prague without a fight in the 1866 Austro-Prussian War, Emperor Franz Joseph I ordered the whole obsolete fortification torn down. Demolition began on 20 July 1874 and dragged on into the 1920s — which is why almost none of the Old Town's original 13th-century wall survives today, unlike the sections still standing around the New Town and Vyšehrad. What's left is the shape: Na Příkopě, together with Revoluční, 28. října, and Národní, traces the old wall's exact route around the Old Town's edge.
+
+🎁 Bonus: if you want to stand on the one spot where an actual medieval gate still stands, walk to the street's northern end — but the Gothic tower waiting there, the Powder Gate, was rebuilt in 1475, two and a half centuries after this wall went up. It marks the right location; it just isn't the right building.`,
+
+      cz: `Vítej na Příkopě — nejupřímnějším pražském názvu ulice, protože znamená přesně to, co říká: "Na příkopu". Přes pět století to byl doslova příkop obepínající kamennou hradbu Starého Města, naplněný vodou odváděnou přímo z Vltavy.
+
+Hradba, kterou tenhle příkop kdysi střežil, se začala stavět kolem roku 1235 z rozkazu Václava I., krátce po tom, co Staré Město získalo roku 1230 své městské právo: zhruba 3,5 kilometru kamenné zdi z lomového kamene, 7 až 11 metrů vysoké, u paty dva metry silné, osázené šestnácti hranolovými věžemi rozmístěnými zhruba po 60 metrech, obepínající 140 hektarů pravého břehu jako nově vymezené právní území města Prahy. Příkop podél ní, poprvé doložený roku 1234, byl 10 metrů široký a 8 metrů hluboký — dost hluboký na to, aby ze Starého Města fakticky udělal ostrov. Praha ostatně od začátku nevznikala jako jedno město: ve stejných letech, 1235 až 1253, vzniklo samostatně spravované tržní společenství zvané Havelské Město, seskupené kolem trhu u kostela svatého Havla těsně za těmito hradbami, a do právního rámce Starého Města se formálně sloučilo až v roce 1287.
+
+Samotný příkop byl zasypán v roce 1760, osázen kaštany a proměněn v první módní pražskou promenádu — než dostal svůj současný, věcně popisný název v roce 1871, byl ještě dvakrát přejmenován. Hradba vydržela o něco déle, ale ne o moc: poté, co pruská vojska v prusko-rakouské válce roku 1866 obsadila Prahu bez boje, nařídil císař František Josef I. celé zastaralé opevnění zbourat. Demolice začala 20. července 1874 a táhla se až do dvacátých let 20. století — proto se z původní třinácté-stoleté hradby Starého Města dodnes prakticky nic nedochovalo, na rozdíl od úseků, které dosud stojí kolem Nového Města a Vyšehradu. Zůstal jen tvar: Na Příkopě spolu s ulicemi Revoluční, 28. října a Národní přesně kopírují původní trasu hradby kolem okraje Starého Města.
+
+🎁 Bonus: pokud chceš stát na jediném místě, kde ještě fyzicky stojí skutečná středověká brána, dojdi na severní konec ulice — gotická věž, která tam čeká, Prašná brána, ale byla přestavěna až roku 1475, dva a půl století po vzniku téhle hradby. Označuje správné místo; jen to není správná budova.`,
+
+      zh: `欢迎来到护城河街——布拉格最坦率的街道名字，因为它的意思就是字面上的"在护城河上"。整整五个多世纪，这里确实就是护城河本身：环绕老城石墙的一条壕沟，注满了直接从伏尔塔瓦河引来的水。
+
+这条护城河当年守卫的城墙，大约从1235年开始动工，是瓦茨拉夫一世下令修建的，就在老城1230年获得城市特许权之后不久：全长约3.5公里的碎石墙，高7到11米，底部厚2米，沿线立着16座棱柱形塔楼，每座间隔约60米，把右岸140公顷的区域正式圈进了新划定的布拉格城法律边界之内。沿墙的护城河最早见于1234年的记载，宽10米、深8米——深到足以让老城在实际功能上变成一座孤岛。而且布拉格本来就不是从一开始就是一座城市：几乎同一时期，1235年到1253年间，紧邻这道城墙内侧、围绕圣加卢教堂市场，还自发形成了一个独立自治的市集社区，叫圣加卢城，直到1287年才正式并入老城的司法管辖范围。
+
+护城河本身在1760年被填平，改种上栗子树，变成了布拉格第一条时髦的散步道——在1871年定下现在这个直白描述性的名字之前，还先后改过两次名。城墙又多撑了一阵，但也没多久：1866年普奥战争中，普鲁士军队不战而占领布拉格，之后皇帝弗朗茨·约瑟夫一世下令把这套已经过时的防御工事全部拆除。拆除工程1874年7月20日启动，一直拖到20世纪20年代才结束——这也是为什么老城这圈13世纪的原始城墙如今几乎荡然无存，跟至今仍留有部分墙体的新城、维谢赫拉德那几段不一样。留下来的只有形状：护城河街，连同Revoluční街、28. října街和Národní街，基本精确描出了当年城墙绕老城一圈的路线。
+
+🎁 彩蛋：如果你想站在唯一一处还实际立着中世纪城门的地方，可以走到这条街的北端——但等在那里的那座哥特式塔楼，火药塔，其实是1475年重建的，比这道城墙晚了整整两个半世纪。它标出的是对的位置，只是不是对的建筑本身。`,
+    },
+  },
+  {
+    // Already existed in the DB (added 2026-06-20 via the app's own add-location
+    // flow, isPreset:true, plus stray legacy fields — category, difficulty —
+    // not part of the current schema, left untouched). Description rewritten
+    // 2026-08-21: the old version only covered Vladislav Hall (1502) and the
+    // 1618 Defenestration, skipping the site's earlier layers entirely — which
+    // mattered once the History Timeline started linking here from
+    // battle-of-chlumec-1126 and siege-of-prague-1142, both about Soběslav I's
+    // original 1135 Romanesque palace on this same site. New version covers
+    // all four major building layers (Soběslav I 1135 → Přemysl Otakar II →
+    // Charles IV/Wenceslas IV → Vladislav Jagiello's 1493–1510 Vladislav Hall)
+    // before the Defenestration bonus. Also quietly corrected the fall height
+    // (was "30 metres", sourced figure is closer to 17) — see stone-prague-1230
+    // era's data-quality notes for the pattern of checking inherited numbers.
+    // This seed entry mirrors that live edit for documentation parity, but
+    // $setOnInsert means re-running the seed script will just SKIP it since
+    // the slug already exists.
+    name: 'Old Royal Palace',
+    slug: 'old-royal-palace',
+    localizedNames: { cz: 'Starý královský palác', zh: '旧皇宫' },
+    labels: ['palace', 'historical', 'architecture', 'museum'],
+    coordinates: { lat: 50.0906, lng: 14.402 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Old_Royal_Palace_(Prague)',
+    description: {
+      en: `Welcome to the Old Royal Palace — technically a single building, but really six centuries of Bohemian rulers each building directly on top of whatever the last one left behind, rather than starting over. What you're standing in today is the compressed result of at least four separate reconstructions.
+
+The oldest layer belongs to Duke Soběslav I, who replaced an older wooden hall with a proper stone Romanesque palace starting in 1135 — the same year he'd just proven, at the Battle of Chlumec, that he could actually hold onto power. All Saints' Chapel went up alongside it on the eastern side, consecrated in 1185. Most of that original Romanesque structure now sits buried two storeys underground, but four of its original rooms survive intact, including a former passage through the castle's fortified southern gate.
+
+Přemysl Otakar II made only minor tweaks in the 13th century, but Charles IV went much further in the mid-14th, enlarging the whole Romanesque core into a proper vaulted Gothic palace fit for a Holy Roman Emperor, with a run of arcades along its northern face. His son Wenceslas IV added two more wings and rebuilt the chapel again. Several of Charles's own arcades were later bricked up under Wenceslas IV and only rediscovered — and reopened — after 1930.
+
+The palace's most famous room, Vladislav Hall, came from the last major rebuild, commissioned by King Vladislav Jagiello and built 1493–1510 by architect Benedikt Ried: over 60 metres long, 16 metres wide, and still the largest secular late-Gothic interior anywhere in Bohemia. It was built spacious enough that knights once jousted through it on horseback. Bohemian kings were crowned here — and to this day, the president of the Czech Republic is still formally elected in the very same hall.
+
+🎁 Bonus: a doorway in the corner of Vladislav Hall leads to the former offices of the Bohemian Chancellery — the room where, on 23 May 1618, Protestant nobles threw two Catholic governors, Jaroslav Bořita of Martinice and Vilém Slavata of Chlum, along with their secretary Filip Fabricius, out of a southern window. All three survived a roughly seventeen-metre fall. Catholic accounts credited intervening angels; Protestant ones credited a well-timed pile of manure. Either way, the Thirty Years' War started within weeks.`,
+
+      cz: `Vítej ve Starém královském paláci — technicky vzato jedna budova, ale ve skutečnosti šest století českých panovníků, z nichž každý stavěl přímo na tom, co zanechal ten předchozí, místo aby začínal znovu od nuly. To, v čem dnes stojíš, je zhuštěný výsledek nejmíň čtyř samostatných přestaveb.
+
+Nejstarší vrstva patří knížeti Soběslavovi I., který od roku 1135 nahradil starší dřevěný sál pořádným kamenným románským palácem — ve stejném roce, kdy právě u Chlumce dokázal, že si moc dokáže i skutečně udržet. Vedle něj na východní straně vyrostla kaple Všech svatých, vysvěcená roku 1185. Většina té původní románské stavby dnes leží zasypaná dvě patra pod zemí, ale čtyři její původní místnosti se dochovaly celé, včetně bývalé průchozí chodby jižní opevněnou branou hradu.
+
+Přemysl Otakar II. ve 13. století provedl jen drobné úpravy, ale Karel IV. šel v polovině 14. století mnohem dál a rozšířil celé románské jádro na pořádný klenutý gotický palác, hodný římského císaře, s řadou arkád podél severní strany. Jeho syn Václav IV. přidal ještě dvě křídla a znovu přestavěl kapli. Několik Karlových vlastních arkád bylo za Václava IV. později zazděno a znovu objeveno — a odkryto — až po roce 1930.
+
+Nejslavnější sál paláce, Vladislavský sál, vzešel z poslední velké přestavby, kterou zadal král Vladislav Jagellonský a v letech 1493–1510 postavil architekt Benedikt Ried: přes 60 metrů dlouhý, 16 metrů široký, a dodnes největší světský pozdně gotický interiér v celých Čechách. Byl postavený tak prostorný, že jím kdysi rytíři projížděli na koních při turnajích. Korunovali se tu čeští králové — a dodnes se ve stejném sále formálně volí prezident České republiky.
+
+🎁 Bonus: dveře v rohu Vladislavského sálu vedou do bývalých kanceláří české kanceláře — místnosti, kde 23. května 1618 protestantští šlechtici vyhodili dva katolické místodržící, Jaroslava Bořitu z Martinic a Viléma Slavatu z Chlumu, spolu s jejich sekretářem Filipem Fabriciem, z jižního okna. Všichni tři přežili pád z výšky zhruba sedmnácti metrů. Katolické verze to připisovaly zasahujícím andělům; protestantské verzi zase dobře načasované hromadě hnoje. Ať tak či onak, třicetiletá válka vypukla během pár týdnů.`,
+
+      zh: `欢迎来到旧皇宫——名义上是一栋建筑，实际上却是六个世纪里，一代代波希米亚统治者不断在前人留下的基础上直接加盖、而不是推倒重来的结果。你现在站着的地方，其实是至少四次独立改建叠加压缩后的产物。
+
+最古老的一层，属于索别斯拉夫一世公爵——他从1135年起，用一座像样的石造罗马式宫殿，取代了更早的木造大厅——就在同一年，他刚刚在赫卢梅茨战役中证明了自己真能守住权力。万圣教堂随后在其东侧建起，1185年祝圣。那座最初的罗马式建筑，如今大部分埋在地下两层，但仍有四间原始房间完整保存至今，其中包括一条穿过城堡南门要塞的旧通道。
+
+奥托卡二世在13世纪只做了些小修小补，但查理四世在14世纪中期做得彻底得多：把整个罗马式核心扩建成一座配得上神圣罗马皇帝身份的拱顶哥特式宫殿，北侧还加了一整排拱廊。他的儿子瓦茨拉夫四世又添了两翼，并再次重建了礼拜堂。查理留下的几段拱廊，后来在瓦茨拉夫四世时期被封死，直到1930年之后才被重新发现、重新打开。
+
+宫殿里最有名的大厅——弗拉迪斯拉夫大厅——出自最后一次大规模改建，由国王弗拉迪斯拉夫·雅盖隆下令，建筑师本尼迪克特·里德于1493至1510年间建成：长逾60米，宽16米，至今仍是整个波希米亚境内最大的晚期哥特式世俗室内空间。大厅盖得足够宽敞，骑士们当年甚至能骑马入内进行比武。波希米亚历代国王在此加冕——直到今天，捷克共和国总统依然在同一座大厅里正式当选。
+
+🎁 彩蛋：弗拉迪斯拉夫大厅角落的一道门，通向昔日波希米亚宫廷大臣办公室——1618年5月23日，新教贵族就是在这个房间里，把两位天主教总督——马丁尼采的雅罗斯拉夫·博日塔和赫卢姆的维莱姆·斯拉瓦塔——连同他们的秘书菲利普·法布里齐乌斯，一起从南面的窗户扔了出去。三人从大约17米高处摔下，居然都活了下来。天主教的说法归功于天使及时搭救；新教的说法则归功于楼下正好有一堆粪肥垫底。不管怎么说，三十年战争几周之内就此爆发。`,
+    },
+  },
+  {
+    // Added to support stone-prague-1230's relatedLandmarks — construction
+    // began under Wenceslas I himself, same king/era as that event, with an
+    // early Germanic-named burgrave (Konrad, 1234) and Hohenstaufen-style
+    // masonry, matching the event's German-colonization/stone-construction
+    // theme almost exactly.
+    name: 'Zvíkov Castle',
+    slug: 'zvikov-castle',
+    localizedNames: { cz: 'Hrad Zvíkov', zh: '兹维科夫城堡' },
+    labels: [],
+    coordinates: { lat: 49.43893789428742, lng: 14.192511415515343 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Zv%C3%ADkov_Castle',
+    description: {
+      en: `Welcome to Zvíkov Castle — perched on a rocky headland where the Vltava and Otava rivers meet, guarded on two sides by sheer cliffs, and built to be about as unapproachable as medieval Bohemia could manage. These days it looks even more dramatic than it was ever designed to be — more on that later.
+
+Construction started here under Wenceslas I, the same king busy chartering German-law towns and rebuilding Prague in stone around this exact time. The first written record dates to 1234, naming a burgrave called Konrad, founder of the Lords of Janovice — one of several early officials here with distinctly Germanic names, a small but telling detail for a castle going up in the middle of Bohemia's German-colonization wave. Wenceslas was fond enough of the place to stay here often, and the castle's oldest surviving section, a great square tower, is built of rusticated ashlar masonry in a style typical of Hohenstaufen architecture — the same German imperial building tradition whose techniques were arriving in Bohemia alongside the settlers themselves.
+
+Wenceslas's son, Otakar II, took it further: after appointing a new burgrave named Hirza in 1250, he expanded Zvíkov into a proper early Gothic royal palace, adding the Chapel of St. Wenceslas — still considered a masterpiece of early Gothic architecture, its vaulting and capitals showing clear influence from Cistercian and French High Gothic design — along with a distinctive round tower, the Hláska, that still announces the castle's royal status from a distance.
+
+🎁 Bonus: Zvíkov spent seven centuries perched safely above the water on its rocky headland — until the 1950s, when the Orlík Dam was built downstream and flooded the whole valley to create a new reservoir. The castle survived, but the drop beneath it didn't: today Zvíkov juts out of the water by only a few meters in places, turning a hilltop fortress into what's now nicknamed a "water castle" — arguably more photogenic than anything its original builders had in mind.`,
+
+      cz: `Vítej na hradě Zvíkov — postaveném na skalním ostrohu tam, kde se stékají Vltava a Otava, chráněném ze dvou stran srázy, a navrženém tak, aby byl asi tak nepřístupný, jak si to středověké Čechy vůbec dokázaly představit. Dnes navíc vypadá dramatičtěji, než jak ho kdy navrhovali — o tom ale později.
+
+Stavba tu začala za Václava I., téhož krále, který zrovna zakládal města podle německého práva a přestavoval Prahu do kamene přesně v tomhle období. První písemná zmínka pochází z roku 1234 a jmenuje purkrabího Konráda, zakladatele rodu pánů z Janovic — jednoho z několika raných úředníků tady s nápadně germánsky znějícími jmény, drobný, ale výmluvný detail pro hrad vznikající uprostřed vlny české německé kolonizace. Václav si místo natolik oblíbil, že tu často pobýval, a nejstarší dochovaná část hradu, mohutná hranolová věž, je postavena z kvádrového zdiva v hrubém opracování, typickém pro štaufskou architekturu — tutéž německou císařskou stavební tradici, jejíž techniky přicházely do Čech společně s osadníky samotnými.
+
+Václavův syn Otakar II. šel ještě dál: poté, co roku 1250 jmenoval nového purkrabího jménem Hirzo, rozšířil Zvíkov na pořádný raně gotický královský palác, přidal kapli svatého Václava — dodnes považovanou za mistrovské dílo raně gotické architektury, jejíž klenba a hlavice sloupů zjevně nesou vliv cisterciácké a francouzské vrcholně gotické tvorby — spolu s výraznou okrouhlou věží, Hláskou, která dodnes na dálku ohlašuje královský status hradu.
+
+🎁 Bonus: Zvíkov strávil sedm století bezpečně usazený vysoko nad vodou na svém skalním ostrohu — až do 50. let 20. století, kdy byla po proudu postavena Orlická přehrada a zatopila celé údolí, aby vznikla nová vodní nádrž. Hrad přežil, ale srázy pod ním ne: dnes Zvíkov místy vyčnívá z vody jen o pár metrů, čímž se z kopcovité pevnosti stalo to, čemu se dnes přezdívá „vodní hrad", a dá se říct, že fotogeničtější, než co měli na mysli jeho původní stavitelé.`,
+
+      zh: `欢迎来到兹维科夫城堡——它坐落在伏尔塔瓦河与奥塔瓦河交汇处的一块岩石岬角上，两侧都是陡峭悬崖守护，建造之初就是要做到中世纪波希米亚能达到的"几乎无法靠近"。如今它看起来甚至比设计之初还要更加惊心动魄——这个稍后再说。
+
+这里的建造工程始于瓦茨拉夫一世治下，正是那位同时忙着按德意志法特许城镇、把布拉格改建成石头城的国王。最早的文字记载出现在1234年，提到一位名叫康拉德的城堡总管，也是雅诺维采家族的开创者——他是这里早期好几位名字明显带德意志色彩的官员之一，这个细节虽小，却很能说明问题：这座城堡正是在波希米亚的德意志移民浪潮之中拔地而起的。瓦茨拉夫对这个地方相当中意，经常在此驻留；城堡现存最古老的部分——一座巨大的方形塔楼——采用粗琢方石砌成，风格上属于典型的霍亨斯陶芬式建筑——正是那套随着移民本身一起传入波希米亚的德意志帝国建筑技法。
+
+瓦茨拉夫的儿子奥托卡二世更进一步：1250年任命新任城堡总管希尔扎之后，他把兹维科夫扩建成了一座像样的早期哥特式王家宫殿，还加建了圣瓦茨拉夫礼拜堂——至今仍被视为早期哥特建筑的杰作，其拱顶和柱头明显带有西多会与法国盛期哥特风格的影响——外加一座造型醒目的圆塔"赫拉斯卡"，至今仍能从远处宣示这座城堡的王室地位。
+
+🎁 彩蛋：兹维科夫在自己的岩石岬角上、安然高踞水面之上七个世纪之久——直到20世纪50年代，下游修建了奥尔利克水坝，把整片山谷淹没，形成了一座新水库。城堡挺过来了，但脚下的悬崖却没能幸免：如今兹维科夫有些地方距水面只有几米之高，一座山顶要塞就此变成了如今人称的"水上城堡"——可以说，比它最初建造者设想的样子还要上镜。`,
+    },
+  },
+  {
+    // Added to support two separate History Timeline links: duke-go-round-1092
+    // (Vladislaus I imprisoning his cousin Otto II of Olomouc here, c. 1110-1113,
+    // per Cosmas's Chronicle — the same Otto II who dies at Chlumec in 1126,
+    // already covered) and otakar-i-family-purge-1199 (Otakar I's 1222/1224
+    // charters issued at the castle).
+    name: 'Křivoklát Castle',
+    slug: 'krivoklat-castle',
+    localizedNames: { cz: 'Hrad Křivoklát', zh: '克日沃克拉特城堡' },
+    labels: [],
+    coordinates: { lat: 50.03763235728728, lng: 13.872465444132173 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/K%C5%99ivokl%C3%A1t_Castle',
+    description: {
+      en: `Welcome to Křivoklát Castle — a royal hunting seat perched above a bend in the Berounka river, with a habit of holding onto people who didn't especially want to be there.
+
+The earliest record of the castle comes from Cosmas's own chronicle, describing events around 1110–1113: Duke Vladislaus I is said to have imprisoned his cousin, Otto II of Olomouc, here. It wasn't the last anyone heard of that rivalry — Otto went on to lead the very rebellion, backed by the Holy Roman Emperor himself, that ended with his own death at the Battle of Chlumec in 1126. Whatever time he spent locked up at Křivoklát evidently didn't cool him off.
+
+The next solid documentation comes almost a century later: two royal charters, issued at the castle itself in 1222 and 1224 by King Přemysl Otakar I, confirming it as an active seat of royal administration rather than just a hunting retreat. Stone construction is generally credited to Otakar I as well, continuing in phases through the reign of his grandson, Otakar II, who expanded it into a proper monumental royal castle.
+
+🎁 Bonus: Křivoklát's later career took a darker turn — by the 16th and 17th centuries it had become a harsh state prison, holding, among others, the English alchemist Edward Kelley, once a fixture at Emperor Rudolf II's court in Prague. A fire in 1826 gutted much of the castle; the Fürstenberg family bought the ruin afterward and rebuilt it into the museum you can visit today, still stocked with hunting weapons, Gothic paintings, and one of the country's most valuable historic libraries.`,
+
+      cz: `Vítej na hradě Křivoklát — královském loveckém sídle na ostrohu nad zákrutou Berounky, s jistým sklonem podržet si u sebe lidi, kteří tam zrovna moc být nechtěli.
+
+Nejstarší zmínka o hradě pochází přímo z Kosmovy kroniky a týká se let 1110–1113: kníže Vladislav I. tu prý věznil svého bratrance Otu II. Olomouckého. Nebylo to poslední, co jsme o té rivalitě slyšeli — Ota později stanul v čele právě té vzpoury, podpořené samotným římským císařem, která skončila jeho vlastní smrtí u Chlumce v roce 1126. Ať už si na Křivoklátě odseděl cokoli, evidentně ho to neuklidnilo.
+
+Další pevná dokumentace přichází o skoro století později: dvě královské listiny, vydané přímo na hradě v letech 1222 a 1224 králem Přemyslem Otakarem I., potvrzují, že šlo o aktivní sídlo královské správy, ne jen o lovecké útočiště. Kamenná stavba se obecně připisuje rovněž Otakarovi I., a pokračovala po etapách až do vlády jeho vnuka, Otakara II., který hrad rozšířil na pořádný monumentální královský hrad.
+
+🎁 Bonus: pozdější kariéra Křivoklátu se stočila do temnějších vod — v 16. a 17. století se z něj stalo tvrdé státní vězení, kde seděl mimo jiné anglický alchymista Edward Kelley, kdysi stálice na dvoře císaře Rudolfa II. v Praze. Požár roku 1826 zpustošil velkou část hradu; ruinu poté koupil rod Fürstenbergů a přestavěl ji na muzeum, které lze navštívit dodnes, stále vybavené loveckými zbraněmi, gotickými obrazy a jednou z nejcennějších historických knihoven v zemi.`,
+
+      zh: `欢迎来到克日沃克拉特城堡——一座坐落在贝劳恩卡河河湾之上的王家猎苑，素来有把不太情愿待在这儿的人留下来的"传统"。
+
+关于这座城堡最早的记载，直接来自科斯马斯编年史，讲的是1110年到1113年间的事：据说公爵弗拉迪斯拉夫一世曾把表弟、奥洛穆茨的奥托二世囚禁在此。这段恩怨可没就此了结——奥托后来正是率领那场由神圣罗马皇帝亲自撑腰的叛乱，最终在1126年的赫卢梅茨战役中丧命。不管他在克日沃克拉特关了多久，显然都没能让他消气。
+
+再往后，确凿的文献记载要等将近一个世纪：1222年和1224年，波希米亚国王普热米斯尔·奥托卡一世在这座城堡里颁布了两份特许状，证实这里当时是一处真正运作中的王室行政据点，而不只是个打猎行宫。石造建筑一般也归功于奥托卡一世本人，此后又分阶段延续到他孙子奥托卡二世治下，后者把它扩建成了一座像样的、气势恢宏的王家城堡。
+
+🎁 彩蛋：克日沃克拉特后来的"职业生涯"急转直下——到16、17世纪，它已经变成了一座严酷的国家监狱，关押过的人物中就包括英国炼金术士爱德华·凯利，此人当年曾是布拉格鲁道夫二世皇帝宫廷里的常客。1826年的一场大火几乎烧毁了半座城堡；之后菲尔斯滕贝格家族买下这片废墟并重建成如今可供参观的博物馆，馆内至今仍陈列着狩猎武器、哥特绘画，以及这个国家最珍贵的历史藏书之一。`,
+    },
+  },
+  {
+    // NOTE — known slug/name mismatch bug (see CLAUDE.md "Known caveat"):
+    // this doc's slug is 'prague-castle' but its name/localizedNames/content
+    // are all actually about St. Vitus Cathedral specifically (a different
+    // building within the Prague Castle complex). Not fixed here — renaming
+    // the slug would require auditing every relatedLandmarks reference across
+    // seedHistoryEvents.js first. Description rewritten 2026-08-21: the prior
+    // version was written in bizarre video-game-UI jargon ("Achievement
+    // Unlocked", "codebase", "endgame", "NPC") totally off this project's
+    // voice, and had an internal date error (EN said the cathedral was begun
+    // in 1444, CZ correctly said 1344 — fixed to 1344 throughout, verified
+    // against Wikipedia/hrad.cz). This seed entry mirrors that live edit for
+    // documentation parity; $setOnInsert means re-running the seed script
+    // will just SKIP it since the slug already exists.
+    name: 'St. Vitus Cathedral',
+    slug: 'prague-castle',
+    localizedNames: { cz: 'Katedrála sv. Víta', zh: '圣维特大教堂(布拉格城堡主建筑）' },
+    labels: ['landmark', 'castle and fortress', 'church', 'architecture', 'historical'],
+    coordinates: { lat: 50.090878328181184, lng: 14.400520688668285 },
+    rarity: 'legend',
+    xpReward: 100,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/St._Vitus_Cathedral',
+    description: {
+      en: `Welcome to St. Vitus Cathedral — the cathedral so large and so slow to build that it took six centuries, three different architectural styles, and roughly twenty generations of Bohemians to actually finish it.
+
+Charles IV laid the foundation stone in 1344, the same year Prague was elevated to its own archbishopric, and brought in the French architect Matthias of Arras to design a proper Gothic cathedral to replace the older Romanesque basilica on this site. After Matthias died in 1352, a 23-year-old named Peter Parler took over — and promptly out-designed his predecessor, inventing the net vaulting that became his signature and building the ornate St. Wenceslas Chapel between 1356 and 1364, its lower walls studded with more than 1,300 semi-precious stones around a cycle of Passion frescoes. The chapel still holds St. Wenceslas's actual relics and is closed to visitors — though a small door in its southwest corner, secured with seven separate locks, leads to the chamber holding the Bohemian Crown Jewels. Seven different officials each hold one key; not one of them can get in alone.
+
+Parler died in 1399, and his sons carried the work on for another generation — but the Hussite Wars and a catastrophic fire in 1541 stopped construction outright, leaving the cathedral literally half-built for the next three centuries: only the choir and its ring of chapels stood finished, sealed off behind a temporary wall while the rest of Prague Castle carried on without it. Restoration finally began in 1844 under canon Václav Pešina and architect Josef Kranner, resumed in 1873 under Josef Mocker, and was finished under Kamil Hilbert — the cathedral wasn't formally complete until 1929, just shy of six centuries after Charles IV's foundation stone.
+
+🎁 Bonus: the cathedral's south transept is called the Golden Gate, named for a monumental golden mosaic of the Last Judgment above its arches — this was the actual door Bohemian kings walked through to be crowned. And the stained-glass window nearest the north entrance, all flowing Art Nouveau color, isn't medieval at all: it was designed in the 1920s by Alfons Mucha, part of the same final push that finished the building six hundred years late.`,
+
+      cz: `Vítej u katedrály svatého Víta — katedrály tak rozlehlé a tak pomalu stavěné, že jejímu dokončení trvalo šest staletí, tři různé architektonické styly a zhruba dvacet generací Čechů.
+
+Základní kámen položil Karel IV. v roce 1344, ve stejném roce, kdy byla Praha povýšena na vlastní arcibiskupství, a přizval francouzského architekta Matyáše z Arrasu, aby navrhl pořádnou gotickou katedrálu, která nahradí starší románskou baziliku na tomto místě. Po Matyášově smrti v roce 1352 převzal stavbu třiadvacetiletý Petr Parléř — a svého předchůdce okamžitě architektonicky přetrumfl: vymyslel síťovou klenbu, která se stala jeho podpisem, a mezi lety 1356 a 1364 postavil honosnou kapli svatého Václava, jejíž spodní stěny zdobí přes 1300 polodrahokamů kolem cyklu pašijových fresek. Kaple dodnes uchovává skutečné ostatky svatého Václava a je uzavřená veřejnosti — ale malé dveře v jejím jihozápadním rohu, zajištěné sedmi samostatnými zámky, vedou do komory s korunovačními klenoty. Sedm různých úředníků drží každý jeden klíč; sám žádný z nich se dovnitř nedostane.
+
+Parléř zemřel v roce 1399 a jeho synové ve stavbě pokračovali ještě jednu generaci — ale husitské války a ničivý požár v roce 1541 stavbu úplně zastavily, takže katedrála zůstala doslova napůl rozestavěná po další tři staletí: dokončený byl jen chór s věncem kaplí, uzavřený provizorní zdí, zatímco zbytek Pražského hradu žil dál bez ní. Obnova konečně začala v roce 1844 pod vedením kanovníka Václava Pešiny a architekta Josefa Krannera, pokračovala od roku 1873 pod Josefem Mockerem a dokončil ji Kamil Hilbert — katedrála byla formálně dostavěna až v roce 1929, jen o vlásek méně než šest set let po Karlově základním kameni.
+
+🎁 Bonus: jižní příčná loď katedrály se jmenuje Zlatá brána, pojmenovaná podle monumentální zlaté mozaiky Posledního soudu nad jejími oblouky — tudy skuteční čeští králové procházeli na svou korunovaci. A vitráž nejblíž severnímu vchodu, celá v plynulých secesních barvách, vůbec není středověká: navrhl ji ve 20. letech 20. století Alfons Mucha, jako součást téhož závěrečného tempa, které katedrálu konečně dokončilo — o šest set let později, než se čekalo.`,
+
+      zh: `欢迎来到圣维特大教堂——一座大到、也慢到花了六个世纪、经历三种不同建筑风格、耗费了大约二十代波希米亚人才终于建成的教堂。
+
+查理四世于1344年奠基，同一年，布拉格也升格为独立的大主教区；他请来法国建筑师马蒂亚斯（阿拉斯的马蒂亚斯），设计一座像样的哥特式教堂，取代原址上那座更古老的罗马式巴西利卡。1352年马蒂亚斯去世后，年仅23岁的彼得·帕尔莱日接手了工程——很快就在设计上超越了前任：他发明了成为自己标志性风格的网状拱顶，并在1356年到1364年间建成了华丽的圣瓦茨拉夫礼拜堂，礼拜堂下半部墙面镶嵌了1300多块半宝石，围绕着一组描绘受难场景的壁画。礼拜堂至今仍保存着圣瓦茨拉夫真正的圣髑，并不对外开放——不过礼拜堂西南角有一扇小门，装了七把各自独立的锁，通往存放波希米亚王冠珠宝的密室。七位不同的官员各自持有一把钥匙；谁都无法单独一人进去。
+
+帕尔莱日1399年去世，他的儿子们又接着干了一代人——但胡斯战争和1541年的一场大火彻底叫停了工程，此后整整三个世纪，教堂真就只"盖了一半"：只有唱诗席和几间礼拜堂完工，用一道临时墙封起来，布拉格城堡的其他部分则照常运转，没有等它。修复工程直到1844年才在教士瓦茨拉夫·佩希纳和建筑师约瑟夫·克拉纳尔的主持下重新启动，1873年起由约瑟夫·莫克尔接手，最终由卡米尔·希尔伯特完成——教堂直到1929年才正式宣告竣工，距离查理四世奠基那天，只差一点点就满六百年。
+
+🎁 彩蛋：教堂的南耳堂叫"金门"，得名于拱门上方那幅巨大的《末日审判》金色马赛克镶嵌画——历代波希米亚国王正是从这道门走进教堂去加冕的。而离北侧入口最近的那扇彩色玻璃窗，通体流畅的新艺术风格色彩，其实完全不是中世纪的产物：它是阿尔丰斯·慕夏在20世纪20年代设计的，正是那场最终把教堂建成、比原计划晚了整整六百年的收尾工程的一部分。`,
+    },
+  },
+  {
+    // Added to support enemy-of-my-enemy-1236's relatedLandmarks — the 1239
+    // Diet of Eger (where Wenceslas I and Otto II of Bavaria renounced
+    // Emperor Frederick II) was held here. Note: Cheb wasn't Bohemian
+    // territory at all in 1239 — it was pledged to the Bohemian crown only
+    // in 1322 (John of Luxembourg) — so this castle's own imperial character
+    // is precisely what makes its role in this event notable.
+    name: 'Cheb Castle',
+    slug: 'cheb-castle',
+    localizedNames: { cz: 'Chebský hrad', zh: '赫布城堡' },
+    labels: ['castle and fortress', 'historical', 'architecture'],
+    coordinates: { lat: 50.08076651912941, lng: 12.366425595481834 },
+    rarity: 'legend',
+    xpReward: 100,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Cheb_Castle',
+    description: {
+      en: `Welcome to Cheb Castle — the only true Kaiserpfalz, or imperial palatinate, left standing anywhere in the Czech Republic: a castle built not for a Bohemian duke, but for the Holy Roman Emperor himself.
+
+A Slavic hillfort had stood on this bluff above the Ohře river since the 9th century, until around 1125, when Diepold II of Vohburg replaced it with a proper stone castle. Its real transformation came after 1167, when Emperor Frederick Barbarossa acquired the town and rebuilt the castle around 1180 into an imperial residence, complete with its own chapel — a distinctly imperial architectural combination that survives nowhere else in the country. The castle's most recognizable feature, the Black Tower (Černá věž), still stands: a stark, blackened stone keep built from local volcanic rock, visible for miles around.
+
+That imperial character is exactly what makes this castle's role in Bohemian history so pointed. In June 1239, King Wenceslas I and Duke Otto II of Bavaria walked out of the Imperial Diet held here and formally renounced their allegiance to Emperor Frederick II — meaning they staged their break with the Emperor on the Emperor's own home turf. It wasn't even Bohemian territory at the time: Cheb belonged directly to the Empire, and wouldn't become part of the Bohemian Crown lands for another 83 years, pledged to King John of Luxembourg in 1322 and never redeemed.
+
+🎁 Bonus: if you're thinking of Cheb as the place where Albrecht von Wallenstein, the famous imperial generalissimo, was assassinated in 1634 — that's the right town, wrong building. Wallenstein was killed at Pachelbel's House on the town square, now the Cheb Museum, not here at the castle.`,
+
+      cz: `Vítej na Chebském hradě — jediném skutečném Kaiserpfalz, čili říšském falckém sídle, které se v Česku dochovalo: hradu postaveném ne pro českého knížete, ale pro samotného římského císaře.
+
+Na tomto ostrohu nad řekou Ohří stálo od 9. století slovanské hradiště, dokud ho kolem roku 1125 Děpold II. z Vohburgu nenahradil pořádným kamenným hradem. Jeho skutečná proměna přišla po roce 1167, kdy město získal císař Fridrich Barbarossa a hrad kolem roku 1180 přestavěl na císařské sídlo, včetně vlastní kaple — vysloveně císařská architektonická kombinace, která se nikde jinde v zemi nedochovala. Nejrozpoznatelnější prvek hradu, Černá věž, stojí dodnes: strohá, začernalá kamenná věž z místní sopečné horniny, viditelná na míle daleko.
+
+Právě tenhle císařský charakter dělá roli hradu v českých dějinách tak výmluvnou. V červnu 1239 král Václav I. a bavorský vévoda Ota II. opustili říšský sněm, který se tu konal, a formálně se zřekli věrnosti císaři Fridrichovi II. — což znamená, že si svůj rozchod s císařem odbyli přímo na jeho vlastní domácí půdě. Tou dobou to dokonce nebylo ani české území: Cheb patřil přímo Říši a součástí zemí Koruny české se stal až o 83 let později, zastaven králi Janu Lucemburskému v roce 1322 a nikdy nevykoupen zpět.
+
+🎁 Bonus: pokud si Cheb spojuješ s místem, kde byl roku 1634 zavražděn slavný císařský generalissimus Albrecht z Valdštejna — město sedí, budova ne. Valdštejn byl zabit v Pachelbelově domě na náměstí, dnes Chebském muzeu, ne tady na hradě.`,
+
+      zh: `欢迎来到赫布城堡——捷克境内唯一真正保存下来的"皇帝行宫"（Kaiserpfalz）：这不是为某位波希米亚公爵建造的城堡，而是专门为神圣罗马皇帝本人所建。
+
+欧热河畔这座山崖上，自9世纪起就有一座斯拉夫人的要塞，直到约1125年，迪波尔德二世·冯·福堡才用一座像样的石造城堡取而代之。它真正的蜕变发生在1167年之后——那一年，皇帝腓特烈·巴巴罗萨获得了这座城镇，并在约1180年把城堡改建成了帝国行宫，还配了自己的礼拜堂——这种典型的帝国式建筑组合，在这个国家再没有第二处能看到。城堡最容易辨认的部分，"黑塔"（Černá věž），至今仍屹立着：一座用当地火山岩建成的暗黑色石塔，几英里外都能看见。
+
+正是这种"帝国属性"，让这座城堡在波希米亚历史上扮演的角色格外意味深长。1239年6月，国王瓦茨拉夫一世和巴伐利亚公爵奥托二世，正是从在这里召开的帝国议会上愤然离席，正式宣布放弃对皇帝腓特烈二世的效忠——也就是说，他们跟皇帝翻脸的这一幕，正是在皇帝自己的地盘上上演的。而且当时这里甚至都还不是波希米亚的领土：赫布当时直属神圣罗马帝国，一直到83年后才被划入波希米亚王冠领地——1322年抵押给了卢森堡的约翰国王，此后再也没有被赎回。
+
+🎁 彩蛋：如果你把赫布跟1634年著名帝国军事统帅阿尔布雷希特·冯·华伦斯坦遇刺一事联系在一起——地方是对的，建筑却不对。华伦斯坦是在广场上的帕赫尔贝尔之家（Pachelbel's House，如今是赫布博物馆）遇刺的，不是在这座城堡里。`,
+    },
+  },
+  {
+    // Added to support wenceslas-i-death-1253's relatedLandmarks — the actual
+    // site of Wenceslas I's death, 23 September 1253. Verified: his viscera
+    // were buried in the local church here, while the rest of him went to
+    // the Convent of St. Agnes in Prague (already covered in
+    // st-agnes-of-bohemia-1211, which already mentions him being buried
+    // there — this location is the other half of that split burial).
+    name: 'Králův Dvůr',
+    slug: 'kraluv-dvur',
+    localizedNames: { cz: 'Králův Dvůr', zh: '国王庭院' },
+    labels: [],
+    coordinates: { lat: 49.9470404782796, lng: 14.039324425293833 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Kr%C3%A1l%C5%AFv_Dv%C5%AFr',
+    description: {
+      en: `Welcome to Králův Dvůr — literally "the King's Court," a name that turned out to be exactly as literal as it sounds: this is where a king actually held court, and where one of them, eventually, died.
+
+Wenceslas I had a stone hunting lodge and courtyard built here himself in the mid-13th century, complete with its own game reserve, as a retreat from Prague. It was here that he died, on 23 September 1253, twenty-three years into his reign. Following a medieval custom of splitting up a monarch's remains, his internal organs were buried in the local church right here at Králův Dvůr, while the rest of his body was carried to the Convent of St. Agnes in Prague — the community his own sister had founded barely two decades earlier.
+
+The site outlived him by centuries. In 1585, Jan the Younger of Lobkowicz rebuilt the original farmstead into a proper Renaissance castle, and the building took the Baroque form still visible today around the turn of the 18th century, designed by Kilián Ignác Dientzenhofer, one of Bohemia's most celebrated Baroque architects.
+
+🎁 Bonus: history has a habit of rhyming here. More than 140 years later, in early May 1394, a different king — Wenceslas IV, not to be confused with Wenceslas I, the one who actually died here — was seized nearby, close to Beroun, by a coalition of rebellious nobles calling themselves the League of Lords. Same royal name, same patch of countryside, wildly different outcomes: one king died peacefully in his own hunting lodge; the other got kidnapped almost next door.`,
+
+      cz: `Vítej v Králově Dvoře — doslova "dvůr krále", jméno, které se ukázalo být přesně tak doslovné, jak zní: tohle je místo, kde král skutečně dvůr držel, a kde jeden z nich nakonec i zemřel.
+
+Václav I. si tu v polovině 13. století sám nechal postavit kamenné lovecké sídlo s dvorem, včetně vlastní obory, jako útočiště od Prahy. Právě tady zemřel 23. září 1253, po třiadvaceti letech vlády. Podle středověkého zvyku rozdělovat panovníkovy ostatky byly jeho vnitřnosti pohřbeny v místním kostele přímo v Králově Dvoře, zatímco zbytek těla byl odnesen do kláštera svaté Anežky v Praze — komunity, kterou jeho vlastní sestra založila sotva o dvě desetiletí dřív.
+
+Místo ho přežilo o staletí. V roce 1585 nechal Jan mladší z Lobkovic přestavět původní dvorec na pořádný renesanční zámek, a stavba získala dnešní barokní podobu na přelomu 18. století podle návrhu Kiliána Ignáce Dientzenhofera, jednoho z nejproslulejších barokních architektů v Čechách.
+
+🎁 Bonus: historie se tu ráda opakuje. O více než 140 let později, začátkem května 1394, byl nedaleko odtud, poblíž Berouna, zajat jiný král — Václav IV., nezaměňovat s Václavem I., tím, který tu skutečně zemřel — koalicí vzbouřených šlechticů, kteří si říkali Panská jednota. Stejné královské jméno, stejný kus kraje, naprosto odlišný výsledek: jeden král zemřel v klidu ve vlastním loveckém sídle, druhého unesli takřka odvedle.`,
+
+      zh: `欢迎来到国王庭院（Králův Dvůr）——字面意思就是"国王的庭院"，而这个名字兑现得相当彻底：这里正是一位国王真正理政会客的地方，也是其中一位国王最终去世的地方。
+
+瓦茨拉夫一世13世纪中期亲自下令，在此建造了一座石造猎苑和庭院，还配了自己的猎场，作为远离布拉格的休憩之所。1253年9月23日，在位23年的他正是在这里去世。按照中世纪分葬君主遗体的习俗，他的内脏被安葬在国王庭院当地的教堂里，遗体的其余部分则被送往布拉格的圣阿格尼丝女修道院——那是他亲妹妹在此仅仅二十来年前才创立的修会。
+
+这处地方比他本人多活了好几个世纪。1585年，小扬·冯·罗布科维茨把原来的庄园改建成了一座像样的文艺复兴式城堡，18世纪之交又由捷克最著名的巴洛克建筑师之一基利安·伊格纳茨·迪恩岑霍费尔操刀，改建成了如今这座巴洛克建筑。
+
+🎁 彩蛋：历史在这里似乎押上了韵。140多年后，1394年5月初，另一位国王——瓦茨拉夫四世，别跟真正在此去世的瓦茨拉夫一世搞混了——就在附近的贝劳恩一带，被一群自称"领主联盟"的叛乱贵族擒获。同样的王室名字，同一片乡野，结局却天差地别：一位国王在自己的猎苑里安然辞世，另一位则几乎在同一个地方被绑架。`,
+    },
+  },
 ];
 
 async function run() {
