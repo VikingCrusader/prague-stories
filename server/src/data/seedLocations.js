@@ -23276,27 +23276,33 @@ Místo ho přežilo o staletí. V roce 1585 nechal Jan mladší z Lobkovic přes
     xpReward: 70,
     wikipediaUrl: 'https://en.wikipedia.org/wiki/Jihlava',
     description: {
-      en: `Welcome to Jihlava, a city whose entire existence traces back to someone striking silver in the ground and immediately building an entire town on top of it. Long before Prague thought to mint its own coins, this unassuming Moravian border town was already quietly bankrolling a king's whole reputation.
+      en: `Jihlava proves a city can profit twice from the same hole in the ground — first from the silver inside it, centuries later from tourists paying to walk through the tunnels that hole left behind.
 
-Jihlava emerged as a royal mining settlement sometime between 1233 and 1240, built directly on top of one of the richest silver deposits in medieval Bohemia — making it, by most reckonings, the oldest mining town in the Czech lands. German miners and settlers arrived in large numbers, drawn by the ore and the legal protections that came with it: in 1249, King Wenceslas I and his own son, the future Otakar II (then still just Margrave of Moravia), jointly confirmed the Iglau Mining Law, a detailed legal code governing everything from claim boundaries to worker rights. It went on to become the formative legal template for mining operations across Central Europe for centuries — and, filtered eventually through Habsburg administrative practice, it even shaped mining regulation in Spain's American silver colonies. A mining code drafted for one Moravian hill town outlived the entire dynasty that first confirmed it, by several empires.
+Jihlava emerged as a royal mining settlement sometime between 1233 and 1240, built directly on top of one of the richest silver deposits in medieval Bohemia — making it, by most reckonings, the oldest mining town in the Czech lands. German miners and settlers arrived in large numbers, drawn by the ore and the legal protections that came with it: in 1249, King Wenceslas I and his own son, the future Otakar II (then still just Margrave of Moravia), jointly confirmed the Iglau Mining Law, a detailed legal code governing everything from claim boundaries to worker rights. It went on to become the formative legal template for mining operations across Central Europe for centuries — and, filtered eventually through Habsburg administrative practice, it even shaped mining regulation in Spain's American silver colonies.
 
-By around 1260, a royal mint was operating in Jihlava, and its silver output was quietly funding much of what made King Otakar II — by then Bohemia's actual ruler — one of the wealthiest monarchs in Central Europe: the army, the court, the foreign policy this timeline has already covered under his own nickname, "the Golden King." In 1270, Otakar personally issued the town's own building regulations, laying out the regular grid of streets around a large central square that Jihlava's old town still follows today. Kutná Hora, the mining town most people actually associate with Bohemian silver, hadn't even had its own boom yet — that came later, under Otakar's son Wenceslas II, whose 1300 mining code eventually superseded Jihlava's own, and whose royal mint was transferred straight out of this city to Kutná Hora's. Jihlava got there first; it just didn't get to keep the fame.
+By around 1260, a royal mint was operating in Jihlava, its silver output funding much of what made King Otakar II one of the wealthiest monarchs in Central Europe. In 1270, Otakar personally issued the town's own building regulations, laying out the regular grid of streets around a large central square that Jihlava's old town still follows today — at roughly 36,700 square meters, one of the largest historic town squares anywhere in the country. Kutná Hora, the mining town most people actually associate with Bohemian silver, hadn't even had its own boom yet — that came later, under Otakar's son Wenceslas II, whose royal mint was transferred straight out of this city to Kutná Hora's.
+
+These days, the mining that made Jihlava rich is exactly what draws visitors: roughly 25 kilometers of interconnected cellars and passages honeycomb the ground beneath the old town, one of the largest underground networks in the country, open for guided tours through everything from medieval storage vaults to a Cold War-era fallout shelter. Above ground, the Gothic Church of St. James and the arcaded burgher houses ringing that oversized square round out a genuinely walkable historic center.
 
 🎁 Bonus: Jihlava's German-speaking community — descendants of those original medieval miners — remained large enough that the city functioned as a German-speaking "language island" inside a Czech-speaking region for nearly 700 years, right up until the mass expulsions that followed the Second World War.`,
 
-      cz: `Vítej v Jihlavě — městě, jehož celá existence se odvíjí od toho, že někdo narazil na stříbro v zemi a rovnou na něm postavil celé město. Dávno předtím, než Praha vůbec pomyslela na ražbu vlastních mincí, tohle nenápadné moravsko-české pomezní město už potichu financovalo pověst jednoho krále.
+      cz: `Jihlava dokazuje, že se z jedné díry v zemi dá vydělat dvakrát — nejdřív na stříbře uvnitř, o staletí později na turistech, kteří platí za procházku tunely, jež po tom stříbře zůstaly.
 
-Jihlava vznikla jako královské hornické sídliště někdy mezi lety 1233 a 1240, postavené přímo nad jedním z nejbohatších ložisek stříbra ve středověkých Čechách — podle většiny odhadů je tak nejstarším hornickým městem na českém území. Přilákala množství německých horníků a osadníků, kteří sem přicházeli za rudou a právní ochranou, která s ní byla spojená: v roce 1249 král Václav I. spolu se svým synem, budoucím Otakarem II. (tou dobou ještě jen moravským markrabětem), společně potvrdili Jihlavské horní právo — podrobný právní kodex upravující vše od hranic důlních polí až po práva horníků. Stalo se z něj formativní právní vzor pro hornictví v celé střední Evropě na celá staletí — a nakonec, přefiltrované přes habsburskou správní praxi, ovlivnilo i hornické předpisy ve španělských amerických stříbrných koloniích. Horní řád sepsaný pro jedno moravské hornické město přežil celou dynastii, která ho jako první potvrdila, o několik říší.
+Jihlava vznikla jako královské hornické sídliště někdy mezi lety 1233 a 1240, postavené přímo nad jedním z nejbohatších ložisek stříbra ve středověkých Čechách — podle většiny odhadů je tak nejstarším hornickým městem na českém území. Přilákala množství německých horníků a osadníků, kteří sem přicházeli za rudou a právní ochranou, která s ní byla spojená: v roce 1249 král Václav I. spolu se svým synem, budoucím Otakarem II. (tou dobou ještě jen moravským markrabětem), společně potvrdili Jihlavské horní právo — podrobný právní kodex upravující vše od hranic důlních polí až po práva horníků. Stalo se z něj formativní právní vzor pro hornictví v celé střední Evropě na celá staletí — a nakonec, přefiltrované přes habsburskou správní praxi, ovlivnilo i hornické předpisy ve španělských amerických stříbrných koloniích.
 
-Kolem roku 1260 v Jihlavě fungovala královská mincovna a její stříbro potichu financovalo velkou část toho, co z krále Otakara II. — tou dobou už skutečného vládce Čech — udělalo jednoho z nejbohatších panovníků střední Evropy: vojsko, dvůr i zahraniční politiku, kterou tahle časová osa už probrala pod jeho vlastní přezdívkou, "zlatý král". V roce 1270 Otakar osobně vydal městské stavební předpisy, které vytyčily pravidelnou uliční síť kolem velkého centrálního náměstí — tu, podle níž se jihlavské staré město řídí dodnes. Kutná Hora, hornické město, se kterým si většina lidí české stříbro dnes spojuje, svůj vlastní boom tou dobou ještě vůbec nezažila — ten přišel až později, za Otakarova syna Václava II., jehož hornický řád z roku 1300 nakonec ten jihlavský nahradil, a jehož královská mincovna se z tohoto města rovnou přestěhovala do Kutné Hory. Jihlava tam byla první; slávu si ale neudržela.
+Kolem roku 1260 v Jihlavě fungovala královská mincovna, jejíž stříbro financovalo velkou část toho, co z krále Otakara II. udělalo jednoho z nejbohatších panovníků střední Evropy. V roce 1270 Otakar osobně vydal městské stavební předpisy, které vytyčily pravidelnou uliční síť kolem velkého centrálního náměstí — tu, podle níž se jihlavské staré město řídí dodnes, s rozlohou kolem 36 700 metrů čtverečních jedno z největších historických náměstí v celé zemi. Kutná Hora, hornické město, se kterým si většina lidí české stříbro dnes spojuje, svůj vlastní boom tou dobou ještě vůbec nezažila — ten přišel až později, za Otakarova syna Václava II., jehož královská mincovna se z tohoto města rovnou přestěhovala do Kutné Hory.
+
+Dnes je to právě to hornictví, které Jihlavu obohatilo, co sem táhne návštěvníky: pod starým městem se táhne síť propojených sklepů a chodeb v délce zhruba 25 kilometrů, jedna z největších podzemních sítí v zemi, zpřístupněná na prohlídkách vedoucích od středověkých skladovacích sklepů až po protiatomový kryt z dob studené války. Nad zemí pak gotický kostel svatého Jakuba a podloubím lemované měšťanské domy kolem toho neobyčejně velkého náměstí dotvářejí opravdu procházkové historické centrum.
 
 🎁 Bonus: Jihlavská německy mluvící komunita — potomci oněch původních středověkých horníků — zůstala dost početná na to, aby město fungovalo jako německy mluvící "jazykový ostrov" uvnitř česky mluvícího regionu po téměř 700 let, až do hromadných odsunů po druhé světové válce.`,
 
-      zh: `欢迎来到伊赫拉瓦——一座整段历史都能追溯到"有人在地里挖到了银矿，然后干脆就地建了一整座城"的城市。早在布拉格想到要铸造自己的钱币之前，这座毫不起眼的摩拉维亚边境小城，就已经在悄悄给一位国王的名声撑腰了。
+      zh: `伊赫拉瓦证明了同一个地洞可以赚两次钱——先是靠洞里的银矿，几百年后又靠游客花钱走进那些开采银矿留下的地道。
 
-伊赫拉瓦大约在1233年到1240年间，作为一座皇家矿业聚落建立起来，正好坐落在中世纪波希米亚最富的银矿脉之上——按大多数说法，这是捷克境内最古老的矿业城镇。大批德意志矿工和移民被这里的矿藏和随之而来的法律保障吸引而来：1249年，国王瓦茨拉夫一世和他的儿子、日后的奥托卡二世（当时还只是摩拉维亚藩侯）一同确认了《伊赫拉瓦矿业法》——一部详尽的法典，从矿区边界到矿工权利，事无巨细都有规定。这部法典此后几个世纪里，成了整个中欧矿业的范本法律模板——最终，经由哈布斯堡的行政传统层层过滤，甚至影响到了西班牙在美洲银矿殖民地的采矿法规。一部为一座摩拉维亚小矿城起草的矿业法，活得比最先确认它的那个王朝还长，跨越了好几个帝国。
+伊赫拉瓦大约在1233年到1240年间，作为一座皇家矿业聚落建立起来，正好坐落在中世纪波希米亚最富的银矿脉之上——按大多数说法，这是捷克境内最古老的矿业城镇。大批德意志矿工和移民被这里的矿藏和随之而来的法律保障吸引而来：1249年，国王瓦茨拉夫一世和他的儿子、日后的奥托卡二世（当时还只是摩拉维亚藩侯）一同确认了《伊赫拉瓦矿业法》——一部详尽的法典，从矿区边界到矿工权利，事无巨细都有规定。这部法典此后几个世纪里，成了整个中欧矿业的范本法律模板——最终，经由哈布斯堡的行政传统层层过滤，甚至影响到了西班牙在美洲银矿殖民地的采矿法规。
 
-大约1260年前后，一座皇家铸币厂已经在伊赫拉瓦运作，它产出的白银，悄悄撑起了奥托卡二世——此时已是波希米亚真正的统治者——之所以能成为中欧最富有的君主之一的大半资本：军队、宫廷，以及这条时间线已经在他"金王"这个绰号那张卡里讲过的那整套对外政策。1270年，奥托卡亲自颁布了这座城镇的建筑规划法规，划定出围绕一座大型中央广场展开的规整街道网格——伊赫拉瓦老城至今仍沿用着这套格局。而库特纳霍拉，大多数人如今提起波希米亚银矿会想到的那座矿城，这时候压根还没迎来自己的大爆发——那要等到奥托卡的儿子瓦茨拉夫二世的时代，他1300年颁布的矿业法典最终取代了伊赫拉瓦这一部，他的皇家铸币厂也直接从这座城市搬去了库特纳霍拉。伊赫拉瓦是先到的那一个；只是没能把这份名声留住。
+大约1260年前后，一座皇家铸币厂已经在伊赫拉瓦运作，产出的白银撑起了奥托卡二世成为中欧最富有君主之一的大半资本。1270年，奥托卡亲自颁布了这座城镇的建筑规划法规，划定出围绕一座大型中央广场展开的规整街道网格——伊赫拉瓦老城至今仍沿用着这套格局，广场面积约36700平方米，是全国现存历史广场里最大的几座之一。而库特纳霍拉，大多数人如今提起波希米亚银矿会想到的那座矿城，这时候压根还没迎来自己的大爆发——那要等到奥托卡的儿子瓦茨拉夫二世的时代，他的皇家铸币厂也直接从这座城市搬去了库特纳霍拉。
+
+如今，正是当年让伊赫拉瓦富起来的采矿业，成了吸引游客的理由：老城地下盘绕着一张长约25公里的相互连通的地窖与通道网络，是全国规模最大的地下网络之一，向游客开放跟团参观，内容从中世纪储物地窖一路延伸到冷战时期的防空掩体。地面上，哥特式的圣雅各布教堂，加上环绕那座异常宽阔的广场、带拱廊的市民住宅，共同构成了一片真正宜于漫步的历史城区。
 
 🎁 彩蛋：伊赫拉瓦的德语社群——那些最初中世纪矿工的后裔——人数一直多到让这座城市在一片讲捷克语的地区里，成了一座讲德语的"语言孤岛"，这个状态一直持续了将近700年，直到二战后大规模驱逐德意志人为止。`,
     },
@@ -23323,33 +23329,39 @@ Kolem roku 1260 v Jihlavě fungovala královská mincovna a její stříbro poti
     xpReward: 70,
     wikipediaUrl: 'https://en.wikipedia.org/wiki/Cheb',
     description: {
-      en: `Welcome to Cheb — known for most of its history by its German name, Eger, and the undisputed capital of the Egerland, the wedge of Bohemia's western frontier that took the Bohemian crown centuries longer to actually keep than most of its neighbors.
+      en: `Cheb spent so many centuries as the Holy Roman Empire's own foothold inside Bohemia that, strictly by the numbers, it's been Bohemian for less time than it hasn't.
 
-Cheb has always been the Egerland's natural center — the region takes its German name directly from the town's own. Long an Imperial city under direct Holy Roman authority rather than Bohemian rule (the neighboring Kaiserpfalz castle above the Ohře, this timeline's other Cheb landmark, made that imperial status physically obvious), the town itself grew into a substantial trading center in its own right, its market square and townhouses developing independently of the fortress on the bluff.
+Cheb has always been the Egerland's natural center — the region takes its German name directly from the town's own. Long an Imperial city under direct Holy Roman authority rather than Bohemian rule (the neighboring Kaiserpfalz castle above the Ohře made that imperial status physically obvious), the town itself grew into a substantial trading center in its own right, its market square and townhouses developing independently of the fortress on the bluff.
 
-Bohemian ownership of Cheb came in fits and starts. King Otakar II occupied the Egerland in 1266, during the long stretch of imperial weakness this timeline has already covered as the Great Interregnum — only to lose it again in 1276, two years before his own death, when Rudolf of Habsburg reclaimed it for the Empire. Permanent Bohemian control took another half-century: in 1322, King John of Luxembourg received Cheb as an imperial pledge, security for a loan the Emperor never managed to repay — and an unredeemed pledge, as it turned out, was as good as ownership. Cheb has remained part of the Bohemian/Czech lands ever since, run continuously by administrators who never bothered sending the money back.
+Bohemian ownership of Cheb came in fits and starts. King Otakar II occupied the Egerland in 1266, during the long stretch of imperial weakness known as the Great Interregnum — only to lose it again in 1276, two years before his own death, when Rudolf of Habsburg reclaimed it for the Empire. Permanent Bohemian control took another half-century: in 1322, King John of Luxembourg received Cheb as an imperial pledge, security for a loan the Emperor never managed to repay — and an unredeemed pledge, as it turned out, was as good as ownership. Cheb has remained part of the Bohemian/Czech lands ever since, run continuously by administrators who never bothered sending the money back.
 
 The town also has its own claim to one of the most sensational assassinations of the Thirty Years' War: in February 1634, Albrecht von Wallenstein — the Habsburg Empire's own supreme military commander, suspected by Emperor Ferdinand II of secretly negotiating with the enemy — was killed here on the Emperor's orders, at Pachelbel's House right on Cheb's own town square (now the Cheb Museum). The man who'd built and commanded the largest army in Europe was cut down not on a battlefield, but in a burgher's house in the town whose own castle had once hosted an emperor's own imperial court.
 
+The old town's most photographed corner is Špalíček, a tight cluster of Gothic merchant houses with steep triangular gables, wedged onto the market square like they're still competing for elbow room after eight hundred years. The ruined Kaiserpfalz itself is open to visitors, its blackened Romanesque keep, the Black Tower, offering views over the rooftops and the Ohře valley beyond. The Cheb Museum, in the very house where Wallenstein died, walks visitors through the assassination in the room where it happened.
+
 🎁 Bonus: for most of its history under Bohemian rule, Cheb remained an overwhelmingly German-speaking city — part of what would later be called the Sudetenland — right up until the mass postwar expulsions of Germans after 1945 permanently changed its population.`,
 
-      cz: `Vítej v Chebu — po většinu historie známém pod svým německým jménem Eger, nesporném hlavním městě Chebska, toho výběžku české západní hranice, kterému trvalo o celá staletí déle než většině jeho sousedů, než si ho česká koruna skutečně natrvalo podržela.
+      cz: `Cheb strávil jako opěrný bod Svaté říše římské uvnitř Čech tolik staletí, že přesně vzato byl český kratší dobu, než nebyl.
 
-Cheb byl vždycky přirozeným centrem Chebska — region má po něm i své německé jméno. Dlouho říšské město pod přímou mocí Svaté říše římské, ne pod českou vládou (sousední císařský palác na skalním ostrohu nad Ohří, druhý chebský bod na téhle časové ose, dělal tenhle císařský status fyzicky zjevným), samo město vyrostlo ve svébytné obchodní centrum, jehož náměstí a měšťanské domy se rozvíjely nezávisle na pevnosti na útesu.
+Cheb byl vždycky přirozeným centrem Chebska — region má po něm i své německé jméno. Dlouho říšské město pod přímou mocí Svaté říše římské, ne pod českou vládou (sousední císařský palác na skalním ostrohu nad Ohří dělal tenhle císařský status fyzicky zjevným), samo město vyrostlo ve svébytné obchodní centrum, jehož náměstí a měšťanské domy se rozvíjely nezávisle na pevnosti na útesu.
 
-České vlastnictví Chebu přicházelo a odcházelo v přestávkách. Král Otakar II. obsadil Chebsko roku 1266, během dlouhého období říšské slabosti, které tahle časová osa už probrala jako Velké interregnum — jen aby ho v roce 1276, dva roky před vlastní smrtí, zase ztratil, když si ho pro říši nárokoval zpět Rudolf Habsburský. Trvalé české ovládnutí trvalo o další půlstoletí déle: v roce 1322 dostal král Jan Lucemburský Cheb jako říšskou zástavu, jistotu za půjčku, kterou císař nikdy nesplatil — a nesplacená zástava se nakonec ukázala být stejně dobrá jako vlastnictví. Cheb od té doby zůstává součástí českých zemí, spravovaný nepřetržitě lidmi, kteří se nikdy neobtěžovali ty peníze poslat zpátky.
+České vlastnictví Chebu přicházelo a odcházelo v přestávkách. Král Otakar II. obsadil Chebsko roku 1266, během dlouhého období říšské slabosti známého jako Velké interregnum — jen aby ho v roce 1276, dva roky před vlastní smrtí, zase ztratil, když si ho pro říši nárokoval zpět Rudolf Habsburský. Trvalé české ovládnutí trvalo o další půlstoletí déle: v roce 1322 dostal král Jan Lucemburský Cheb jako říšskou zástavu, jistotu za půjčku, kterou císař nikdy nesplatil — a nesplacená zástava se nakonec ukázala být stejně dobrá jako vlastnictví. Cheb od té doby zůstává součástí českých zemí, spravovaný nepřetržitě lidmi, kteří se nikdy neobtěžovali ty peníze poslat zpátky.
 
 Město má i vlastní nárok na jednu z nejsenzačnějších vražd třicetileté války: v únoru 1634 byl Albrecht z Valdštejna — nejvyšší vojevůdce habsburské říše, podezřelý císařem Ferdinandem II. z tajných jednání s nepřítelem — na císařův rozkaz zabit právě tady, v Pachelbelově domě přímo na chebském náměstí (dnes Chebské muzeum). Muž, který vybudoval a velel největší armádě v Evropě, nepadl na bojišti, ale v měšťanském domě ve městě, jehož vlastní hrad kdysi hostil dvůr samotného císaře.
 
+Nejfotografovanějším koutem starého města je Špalíček, hustý shluk gotických kupeckých domů se strmými trojúhelníkovými štíty, natěsnaných na tržním náměstí, jako by si po osmi stech letech pořád ještě soupeřily o místo. Zřícenina samotného Kaiserpfalzu je přístupná návštěvníkům, jeho zčernalá románská tvrz, Černá věž, nabízí výhled na střechy a údolí Ohře za nimi. Chebské muzeum, přímo v domě, kde Valdštejn zemřel, provede návštěvníky atentátem v pokoji, kde se odehrál.
+
 🎁 Bonus: po většinu své historie pod českou vládou zůstával Cheb naprosto převážně německy mluvícím městem — součástí toho, čemu se později začalo říkat Sudety — až do poválečných hromadných odsunů Němců po roce 1945, které jeho obyvatelstvo natrvalo změnily.`,
 
-      zh: `欢迎来到赫布——大半段历史里它更常用德语名字埃格尔（Eger）为人所知，是赫布地区（埃格尔兰）当仁不让的中心城市。跟周边大多数地方比起来，这里被波希米亚王室真正稳稳收入囊中，足足晚了好几个世纪。
+      zh: `赫布身为神圣罗马帝国安插在波希米亚境内的据点，一当就是好几个世纪——严格按时间算，它属于波希米亚的年头，其实还没有不属于波希米亚的年头长。
 
-赫布一直是赫布地区天然的中心——这个地区的德语名字本身就取自这座城市。它长期是神圣罗马帝国直辖的帝国自由市，而非波希米亚治下（旁边那座矗立在奥赫热河畔悬崖上的皇家城堡——这条时间线另一处以赫布为名的地标——把这份帝国身份摆得明明白白），城市本身则发展成了一处自成一体的贸易中心，广场和市民住宅的成长跟悬崖上那座要塞各走各的路。
+赫布一直是赫布地区天然的中心——这个地区的德语名字本身就取自这座城市。它长期是神圣罗马帝国直辖的帝国自由市，而非波希米亚治下（旁边那座矗立在奥赫热河畔悬崖上的皇家城堡把这份帝国身份摆得明明白白），城市本身则发展成了一处自成一体的贸易中心，广场和市民住宅的成长跟悬崖上那座要塞各走各的路。
 
-波希米亚对赫布的统治，来来回回、断断续续。奥托卡二世国王1266年占领了赫布地区，正值这条时间线已经讲过的"大空位期"帝国势弱的漫长阶段——结果1276年，就在他自己去世前两年，又被哈布斯堡的鲁道夫替帝国夺了回去。波希米亚真正的永久控制，又多等了半个世纪：1322年，卢森堡的约翰国王把赫布收作了一份帝国抵押品——皇帝为一笔从未还清的借款提供的担保——而一份没被赎回的抵押品，到头来跟直接拥有也没什么两样。从那以后，赫布就一直留在了波希米亚/捷克的版图里，由那些压根没打算把钱还回去的人一直管理至今。
+波希米亚对赫布的统治，来来回回、断断续续。奥托卡二世国王1266年占领了赫布地区，正值史称"大空位期"的帝国势弱阶段——结果1276年，就在他自己去世前两年，又被哈布斯堡的鲁道夫替帝国夺了回去。波希米亚真正的永久控制，又多等了半个世纪：1322年，卢森堡的约翰国王把赫布收作了一份帝国抵押品——皇帝为一笔从未还清的借款提供的担保——而一份没被赎回的抵押品，到头来跟直接拥有也没什么两样。从那以后，赫布就一直留在了波希米亚/捷克的版图里，由那些压根没打算把钱还回去的人一直管理至今。
 
 这座城市还有自己的一项"战绩"——三十年战争里最轰动的一场暗杀：1634年2月，阿尔布雷希特·冯·华伦斯坦——哈布斯堡帝国自己的最高统帅，被皇帝斐迪南二世怀疑私下与敌方谈判——正是在这里、就在赫布自家广场上的帕赫尔贝尔宅邸（如今是赫布博物馆），奉皇帝之命被杀。这位一手组建并统率过全欧洲规模最大军队的人，倒下的地方不是战场，而是一座市民宅邸里——而这座城市自己的城堡，当年也曾接待过皇帝本人的宫廷。
+
+老城里被拍照最多的一角是斯帕利切克（Špalíček），一片挤在市场广场上的哥特式商人宅邸，尖三角形的山墙紧紧挨在一起，八百年过去了，看上去还像是在互相争地盘。城堡本身的废墟对游客开放，那座熏黑的罗马式主塔——黑塔——可以登高远眺城市屋顶和奥赫热河谷。赫布博物馆就设在华伦斯坦遇害的那栋宅邸里，带游客走进当年案发的那个房间。
 
 🎁 彩蛋：在波希米亚治下的大部分历史时期，赫布始终是一座绝大多数居民讲德语的城市——后来被称为"苏台德地区"的一部分——直到1945年战后大规模驱逐德意志人，才永久改变了这里的人口构成。`,
     },
@@ -23474,29 +23486,35 @@ Mezi lety 1840 a 1871 nechal kníže Jan Adolf II. ze Schwarzenbergu, čerstvě 
     xpReward: 100,
     wikipediaUrl: 'https://en.wikipedia.org/wiki/%C4%8Cesk%C3%A9_Bud%C4%9Bjovice',
     description: {
-      en: `Welcome to České Budějovice — a city that didn't grow organically over centuries like most of its neighbors, but was drawn up on a blank meadow in a single stroke, purpose-built by a king who wanted a loyal foothold in a region a rival noble family already thought was theirs.
+      en: `České Budějovice is proof a city can be planned like a chessboard and still end up world-famous mostly for a drink.
 
-King Otakar II founded České Budějovice in 1265, entrusting its construction to a knight named Hirzo — quite possibly the same Hirzo/Hirza this timeline has already met as the burgrave Otakar appointed at Zvíkov Castle in 1250, though the connection isn't fully certain. The site was chosen at the confluence of the Vltava and Malše rivers, both for natural defense and for its position on the trade route linking Prague to Linz in Austria. The real motive, though, was political: South Bohemia was effectively the private domain of the powerful Rožmberk (Vítkovci) noble family, and Otakar wanted a royal stronghold loyal directly to the crown planted right in the middle of it.
+King Otakar II founded České Budějovice in 1265, entrusting its construction to a knight named Hirzo — quite possibly the same Hirzo/Hirza Otakar had already appointed as burgrave at Zvíkov Castle in 1250, though the connection isn't fully certain. The site was chosen at the confluence of the Vltava and Malše rivers, both for natural defense and for its position on the trade route linking Prague to Linz in Austria. The real motive, though, was political: South Bohemia was effectively the private domain of the powerful Rožmberk (Vítkovci) noble family, and Otakar wanted a royal stronghold loyal directly to the crown planted right in the middle of it.
 
-Because the town rose on an empty meadow rather than an existing settlement, Hirzo could lay it out with a precision no older Bohemian town enjoyed — a strict chessboard grid of streets centered on one of the largest town squares in the country, today's Přemysl Otakar II Square, named for its founder. It's the same planning logic this timeline has already seen at Malá Strana, just applied on open ground instead of squeezed in below a castle.
+Because the town rose on an empty meadow rather than an existing settlement, Hirzo could lay it out with a precision no older Bohemian town enjoyed — a strict chessboard grid of streets centered on one of the largest town squares in the country, today's Přemysl Otakar II Square, named for its founder. It's the same grid-and-square planning logic Otakar had already used a few years earlier founding Malá Strana below Prague Castle, just applied here on open ground instead of squeezed under a fortress.
+
+That same square is still one of the largest in Europe, ringed by arcaded Renaissance and Baroque townhouses and centered on the Baroque Samson Fountain. Otakar himself, somewhat ironically, doesn't actually stand on it — a granite statue of the founder, unveiled in 2015 and carved from an 18-ton block of rare yellow Mrákotín stone, stands instead in the nearby Na Sadech park. The Black Tower beside St. Nicholas Cathedral is open to climb, with views across the whole historic core and the surrounding rivers that first made the site worth defending. A short trip from downtown, the Budweiser Budvar brewery still runs tours and tastings of the beer whose name started the whole trademark saga below.
 
 🎁 Bonus: the town's German name, Budweis, kicked off one of the longest-running trademark fights in beer history. American brewer Adolphus Busch registered the name "Budweiser" in the US in 1876 — years before the town's own Budweiser Budvar brewery was even founded, in 1895 — and the two breweries have been fighting in courts around the world ever since over who gets to call their beer "Budweiser" where. Budvar won the naming rights across most of Europe; the American brewer sells as "Bud" there instead, while Budvar exports to North America under the name "Czechvar."`,
 
-      cz: `Vítej v Českých Budějovicích — městě, které nevyrostlo postupně po staletích jako většina jeho sousedů, ale bylo v jednom tahu navrženo na prázdné louce, účelově postavené králem, který chtěl mít v kraji, jejž si už považoval za svůj jeden mocný šlechtický rod, vlastní věrnou baštu.
+      cz: `České Budějovice jsou důkazem, že se dá naplánovat město jako šachovnice a přesto skončit světoznámé hlavně kvůli pití.
 
-Král Otakar II. založil České Budějovice v roce 1265 a jejich výstavbou pověřil rytíře jménem Hirzo — možná, byť ne zcela jistě, téhož Hirza/Hirzu, kterého tahle časová osa už potkala jako purkrabího, kterého Otakar dosadil na Zvíkov v roce 1250. Místo bylo vybráno na soutoku Vltavy a Malše, jednak kvůli přirozené obraně, jednak kvůli poloze na obchodní cestě spojující Prahu s rakouským Lincem. Skutečný motiv byl ale politický: jižní Čechy byly fakticky soukromou doménou mocného rodu Vítkovců (Rožmberků), a Otakar chtěl přímo doprostřed toho kraje umístit královskou baštu věrnou přímo koruně.
+Král Otakar II. založil České Budějovice v roce 1265 a jejich výstavbou pověřil rytíře jménem Hirzo — možná, byť ne zcela jistě, téhož Hirza/Hirzu, kterého Otakar už dřív dosadil jako purkrabího na Zvíkov v roce 1250. Místo bylo vybráno na soutoku Vltavy a Malše, jednak kvůli přirozené obraně, jednak kvůli poloze na obchodní cestě spojující Prahu s rakouským Lincem. Skutečný motiv byl ale politický: jižní Čechy byly fakticky soukromou doménou mocného rodu Vítkovců (Rožmberků), a Otakar chtěl přímo doprostřed toho kraje umístit královskou baštu věrnou přímo koruně.
 
-Protože město vyrostlo na prázdné louce místo na existujícím sídlišti, mohl ho Hirzo naplánovat s přesností, jakou si žádné starší české město neužilo — přísně šachovnicovou sítí ulic soustředěnou kolem jednoho z největších náměstí v zemi, dnešního náměstí Přemysla Otakara II., pojmenovaného po svém zakladateli. Je to stejná logika plánování, jakou tahle časová osa už viděla u Malé Strany — jen tentokrát uplatněná na volném prostranství místo natěsnané pod hradem.
+Protože město vyrostlo na prázdné louce místo na existujícím sídlišti, mohl ho Hirzo naplánovat s přesností, jakou si žádné starší české město neužilo — přísně šachovnicovou sítí ulic soustředěnou kolem jednoho z největších náměstí v zemi, dnešního náměstí Přemysla Otakara II., pojmenovaného po svém zakladateli. Je to stejná logika plánování ulic a náměstí, jakou Otakar o pár let dřív použil při zakládání Malé Strany pod Pražským hradem — jen tentokrát uplatněná na volném prostranství místo natěsnané pod hradem.
+
+Totéž náměstí patří dodnes k největším v Evropě, lemované podloubím renesančních a barokních měšťanských domů a se Samsonovou kašnou uprostřed. Samotný Otakar na něm, poněkud ironicky, ve skutečnosti nestojí — žulová socha zakladatele, odhalená v roce 2015 a vytesaná z osmnáctitunového bloku vzácné žluté mrákotínské žuly, stojí místo toho v nedalekém parku Na Sadech. Černá věž vedle katedrály svatého Mikuláše je otevřená k výstupu, s výhledem přes celé historické centrum i na řeky, které kdysi rozhodly o tom, že se tohle místo vyplatí bránit. Kousek od centra pak pivovar Budějovický Budvar dodnes nabízí prohlídky a ochutnávky piva, jehož jméno rozpoutalo celou tu ochrannoznámkovou ságu.
 
 🎁 Bonus: německý název města, Budweis, odstartoval jeden z nejdéle trvajících sporů o ochrannou známku v dějinách piva. Americký pivovarník Adolphus Busch si název „Budweiser" nechal v USA zaregistrovat už v roce 1876 — roky předtím, než byl vůbec založen místní pivovar Budějovický Budvar, v roce 1895 — a oba pivovary se od té doby po celém světě soudí o to, kde smí své pivo tak nazývat. Budvar vyhrál práva na název ve většině Evropy; americký pivovar tam místo toho prodává pod značkou „Bud", zatímco Budvar do Severní Ameriky vyváží pod jménem „Czechvar".`,
 
-      zh: `欢迎来到捷克布杰约维采——这座城市不像大多数邻居那样经过数百年慢慢成长起来，而是在一片空白草地上一次性规划出来的，是一位国王专门修建来对抗某个已经把整片地区视为自家地盘的强大贵族家族的据点。
+      zh: `捷克布杰约维采证明了一座城市完全可以按棋盘规划出来，最后却主要靠一种饮料闻名世界。
 
-国王奥托卡二世1265年建立了捷克布杰约维采，把建城工程委托给了一位名叫希尔佐（Hirzo）的骑士——很可能（虽然不能完全确定）就是这条时间线之前提到过的、奥托卡1250年任命为兹维科夫城堡城守的那位希尔扎（Hirza）。选址定在伏尔塔瓦河与马尔什河的交汇处，一方面利于天然防御，另一方面正好卡在连接布拉格与奥地利林茨的贸易路线上。但真正的动机是政治性的：南波希米亚当时实际上是强大的维特科维奇（罗森贝格）贵族家族的私人地盘，奥托卡想在这片地区正中央，插上一处只效忠王室本身的王家据点。
+国王奥托卡二世1265年建立了捷克布杰约维采，把建城工程委托给了一位名叫希尔佐（Hirzo）的骑士——很可能（虽然不能完全确定）就是奥托卡1250年任命为兹维科夫城堡城守的那位希尔扎（Hirza）。选址定在伏尔塔瓦河与马尔什河的交汇处，一方面利于天然防御，另一方面正好卡在连接布拉格与奥地利林茨的贸易路线上。但真正的动机是政治性的：南波希米亚当时实际上是强大的维特科维奇（罗森贝格）贵族家族的私人地盘，奥托卡想在这片地区正中央，插上一处只效忠王室本身的王家据点。
 
-因为这座城市是在一片空地上拔起而非依附于已有的聚落，希尔佐得以按照当时波希米亚任何一座老城都未曾享有过的精确度来规划它——一套严整的棋盘式街道网格，围绕着全国最大的广场之一展开，也就是今天以其奠基者命名的普热美斯尔·奥托卡二世广场。这跟这条时间线在小城已经见识过的规划逻辑如出一辙——只不过这次是用在了开阔地上，而不是硬塞在城堡脚下。
+因为这座城市是在一片空地上拔起而非依附于已有的聚落，希尔佐得以按照当时波希米亚任何一座老城都未曾享有过的精确度来规划它——一套严整的棋盘式街道网格，围绕着全国最大的广场之一展开，也就是今天以其奠基者命名的普热美斯尔·奥托卡二世广场。这跟奥托卡几年前建立布拉格城堡下小城时用的那套街道加广场的规划逻辑如出一辙——只不过这次是用在了开阔地上，而不是硬塞在城堡脚下。
 
-🎁 彩蛋：这座城市的德语名字“布德魏斯”（Budweis），引出了啤酒史上持续时间最长的商标之争之一。美国酿酒商阿道弗斯·布施早在1876年就在美国注册了“百威”（Budweiser）这个名字——比布杰约维采自己的百威布德瓦（Budweiser Budvar）啤酒厂1895年才成立，还要早了将近二十年——此后两家酒厂就为了谁有权在世界各地把自家啤酒叫作“百威”，在全球各地打了一场又一场官司。布德瓦赢下了欧洲大部分地区的命名权；美国酒厂在那些地方只能改叫“Bud”，而布德瓦出口到北美时，用的名字则是“Czechvar”。`,
+同一座广场至今仍是欧洲数一数二大的广场，四周环绕着带拱廊的文艺复兴与巴洛克式市民住宅，中央立着参孙喷泉。多少有点讽刺的是，奥托卡本人其实并不站在这座以他命名的广场上——一尊2015年揭幕的花岗岩雕像，用一块18吨重的稀有黄色姆拉科京花岗岩雕成，立在的是附近的萨迪公园（Na Sadech）。圣尼古拉主教座堂旁的黑塔向游客开放攀登，能俯瞰整片历史城区，以及当年让这个地方值得防守的那几条河流。市中心不远处，百威布德瓦啤酒厂至今仍提供参观和品鉴，正是那款掀起整场商标大战的啤酒。
+
+🎁 彩蛋：这座城市的德语名字"布德魏斯"（Budweis），引出了啤酒史上持续时间最长的商标之争之一。美国酿酒商阿道弗斯·布施早在1876年就在美国注册了"百威"（Budweiser）这个名字——比布杰约维采自己的百威布德瓦（Budweiser Budvar）啤酒厂1895年才成立，还要早了将近二十年——此后两家酒厂就为了谁有权在世界各地把自家啤酒叫作"百威"，在全球各地打了一场又一场官司。布德瓦赢下了欧洲大部分地区的命名权；美国酒厂在那些地方只能改叫"Bud"，而布德瓦出口到北美时，用的名字则是"Czechvar"。`,
     },
   },
   {
@@ -23618,6 +23636,187 @@ Komplex je dnes považován za jeden z nejcennějších příkladů gotické arc
 如今，这座建筑群被公认为中欧最珍贵的哥特式建筑范例之一，其中"守护天使礼拜堂"——建于13世纪末——是现存最古老的部分。14世纪，修道院真正迎来了繁荣：其名下庄园在周边乡野一带建起了大约上百个村庄。不过这份繁荣没能撑过胡斯战争——修道院1420年被焚毁，直到几个世纪后的17世纪至18世纪初才得以重建。
 
 🎁 彩蛋：修道院名字里的"金冕"，如今大多只是作为地名留存下来——大多数游客早已不知道那件荆棘冠冕圣物的原始故事，他们来这里，更多是为了那座哥特式回廊和教士会堂，至今仍被公认为波希米亚境内最出色的同类建筑之一。`,
+    },
+  },
+  {
+    // Added to support iron-and-golden-king-1266's relatedLandmarks. Same
+    // hedge pattern as Orlík: royal-town status already existed here by
+    // 1249, under Otakar's own father Wenceslas I — Otakar II is credited
+    // specifically with the formal German-law town charter, second half
+    // of the 13th century.
+    name: 'Ústí nad Labem',
+    slug: 'usti-nad-labem',
+    localizedNames: { cz: 'Ústí nad Labem', zh: '乌斯季' },
+    labels: ['city', 'historical'],
+    coordinates: { lat: 50.65938566695429, lng: 14.041880273817407 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/%C3%9Ast%C3%AD_nad_Labem',
+    description: {
+      en: `Ústí nad Labem's own royal-town paperwork is older than the king everyone credits for founding it — a technicality the city has apparently decided not to lose sleep over.
+
+A settlement here already held royal-town status by 1249, granted under Otakar's own father, Wenceslas I. What's generally credited to Otakar II himself, in the second half of the 13th century, is the town's formal incorporation under German municipal law — inviting German settlers and giving the place the legal charter structure that actually made it function as a proper medieval city, rather than just a royal-designated settlement in name.
+
+Ústí's position made the charter worth granting: it sits at a natural crossing point on the Elbe, the river that carried trade — and, in later centuries, no small amount of conflict — between Bohemia and Saxony to the north. Otakar's charter formalized what geography had already made inevitable: a town that would keep controlling this gateway for the rest of its history.
+
+Modern Ústí trades mostly on its setting rather than its old town, much of which was reshaped by 20th-century industry. Větruše hill, reached by a funicular railway, carries a pseudo-Gothic chateau turned restaurant and lookout, with views across the city and the Elbe valley below. The striking Mariánský most, a cable-stayed bridge completed in the 1990s, has become the city's modern skyline landmark, and river paths still trace the same stretch of the Elbe the medieval charter was written to control.
+
+🎁 Bonus: Ústí's strategic position paid off, violently, less than two centuries later — the town gave its name to the 1426 Battle of Ústí (Aussig), one of the Hussite Wars' most lopsided victories, where Hussite forces routed a much larger crusading army sent from Saxony to crush them.`,
+
+      cz: `Ústecké papíry o statusu královského města jsou starší než král, kterému se založení města obecně připisuje — formalita, kvůli které si město evidentně nedělá starosti.
+
+Osada tu měla status královského města už v roce 1249, udělený ještě za vlády Otakarova vlastního otce, Václava I. Otakarovi II. se obecně připisuje až formální začlenění města podle německého městského práva, ve druhé polovině 13. století — pozvání německých osadníků a udělení právní listinné struktury, díky níž místo skutečně fungovalo jako pořádné středověké město, ne jen jako královsky označená osada jménem.
+
+Ústecká poloha stála za to, aby dostalo listinu: leží na přirozeném brodu přes Labe, řeku, která přenášela obchod — a v pozdějších staletích nemalý díl konfliktů — mezi Čechami a Saskem na severu. Otakarova listina jen formalizovala to, co geografie už dávno předurčila: město, které bude tuhle bránu ovládat po zbytek své historie.
+
+Dnešní Ústí staví hlavně na svém přírodním rámci, ne na starém městě, které z velké části přetvořil průmysl 20. století. Vrch Větruše, dostupný lanovkou, nese pseudogotický zámeček proměněný v restauraci a vyhlídku, s výhledem na město a labské údolí pod ním. Nápadný Mariánský most, zavěšený most dokončený v 90. letech 20. století, se stal moderní dominantou městské siluety, a stezky podél řeky dodnes sledují stejný úsek Labe, který měla ta středověká listina původně ovládat.
+
+🎁 Bonus: Ústecká strategická poloha se vyplatila, doslova násilně, o necelá dvě staletí později — město dalo jméno bitvě u Ústí (Aussigu) v roce 1426, jednomu z nejjednoznačnějších vítězství husitských válek, kde husitské síly rozdrtily mnohem početnější křižácké vojsko vyslané ze Saska, aby je zlomilo.`,
+
+      zh: `乌斯季自己的"王家城镇"文书，比大家公认的建城者奥托卡二世本人的统治时期还要早——这个小小的年代差，这座城市看上去并不太放在心上。
+
+这里的一处聚落早在1249年就已经获得了王家城镇的地位，那是奥托卡自己的父亲瓦茨拉夫一世在位时授予的。一般归功于奥托卡二世本人的，是13世纪下半叶这座城市按德意志市镇法完成的正式建制——招徕德意志移民，并授予让这个地方真正像一座正经中世纪城市那样运作起来的法律特许结构，而不只是名义上"王家指定"的聚落。
+
+乌斯季所在的位置，也确实值得授予特许状：它坐落在易北河的一处天然渡口上——这条河承载着波希米亚与北方萨克森之间的贸易，也在后来几个世纪里承载了不少冲突。奥托卡的特许状不过是把地理早已注定的事情正式确认下来：这座城市此后的整段历史，都将扼守这道门户。
+
+今天的乌斯季，吸引人的更多是周边的自然风光，而不是老城本身——老城的大部分格局，已经被20世纪的工业彻底改造过。搭缆车能登上韦特鲁谢山，山顶一座仿哥特式小城堡如今改成了餐厅兼观景台，能俯瞰全城和脚下的易北河谷。醒目的玛丽亚桥（Mariánský most）——一座建成于上世纪90年代的斜拉桥——如今已成了这座城市天际线上的现代地标，河畔步道至今仍沿着当年那份中世纪特许状本该守住的那一段易北河延伸。
+
+🎁 彩蛋：乌斯季的战略位置，在不到两个世纪后就以最激烈的方式得到了印证——1426年的乌斯季战役（又称奥西格战役）就以这座城市命名，是胡斯战争里最一边倒的胜利之一：胡斯军队在这里击溃了一支萨克森派来镇压他们的、规模大得多的十字军。`,
+    },
+  },
+  {
+    // Added to support iron-and-golden-king-1266's relatedLandmarks — a
+    // clean Otakar foundation (1254), and a nice cross-reference to
+    // jihlava's own mint story already in this same card: Písek briefly
+    // ran a royal mint too, before it also got absorbed into Kutná Hora.
+    name: 'Písek',
+    slug: 'pisek',
+    localizedNames: { cz: 'Písek', zh: '皮塞克' },
+    labels: ['city', 'historical'],
+    coordinates: { lat: 49.30749217902665, lng: 14.149048045999585 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/P%C3%ADsek',
+    description: {
+      en: `Písek's own name is a joke at its own expense — literally "Sand" in Czech, for the gold-flecked river grit that made the town worth building long before anyone thought to give it a fancier one.
+
+A community of gold panners had already worked the sands of the Otava River here for generations by the time King Otakar II formally founded Písek as a royal town in 1254. The location mattered for more than the gold itself: Písek sat directly on the so-called Golden Trail, a major trade route, and founding a royal town here doubled as planting a base of crown authority in the region — the same instinct behind Otakar's other South Bohemian foundations. He had a royal castle, a monastery, and a dean's church built alongside the new town.
+
+The town's real claim to fame arrived in the 1260s: a stone bridge across the Otava, seven arches and 111 meters long, originally flanked by defensive towers at both ends. It's the oldest surviving bridge anywhere in the Czech Republic — predating Prague's own Charles Bridge by roughly ninety years — and second only to Regensburg's bridge in age anywhere in Central Europe. Písek also briefly ran its own royal mint at the end of the 13th century, before it too was consolidated into Kutná Hora — the same fate that eventually overtook Jihlava's own mint.
+
+Baroque statues of saints, added to the bridge's railings in the 18th century, still mark the crossing today (the originals now live safely in the Prachner Museum, replicas standing in their place), and the old town square built up around it makes for an easy walk. The Otava itself draws paddlers and swimmers through the summer, and a 19th-century malthouse just off the square, Sladovna, has been reborn as an interactive gallery aimed squarely at families rather than brewers.
+
+🎁 Bonus: unlike Jihlava's mint, which vanished into Kutná Hora's shadow entirely, Písek's stone bridge won its own quiet immortality — it carried real road traffic for the better part of seven centuries before finally being closed to vehicles and left standing today as a pedestrian crossing, still doing the one job it was built for.`,
+
+      cz: `Písek si dělá legraci sám ze sebe už svým jménem — v češtině doslova „písek", podle zlatonosného říčního štěrku, kvůli kterému se tohle místo vůbec vyplatilo osídlit, dávno předtím, než někoho napadlo mu dát jméno honosnější.
+
+Osada rýžovníků zlata už tady po generace pracovala v píscích řeky Otavy, než král Otakar II. v roce 1254 formálně založil Písek jako královské město. Poloha byla důležitá kvůli víc než jen zlatu samotnému: Písek ležel přímo na takzvané Zlaté stezce, důležité obchodní cestě, a založení královského města tu zároveň znamenalo vsazení opory korunní moci do regionu — stejný instinkt, jaký stál i za Otakarovými dalšími jihočeskými založeními. Nechal tu vedle nového města postavit královský hrad, klášter a děkanský kostel.
+
+Skutečnou slávu si město vysloužilo v 60. letech 13. století: kamenný most přes Otavu, sedm oblouků, 111 metrů dlouhý, původně z obou stran střežený obrannými věžemi. Je to nejstarší dochovaný most v celé České republice — starší než pražský Karlův most o zhruba devadesát let — a ve střední Evropě ho co do stáří předčí jen most v Řezně. Písek si na konci 13. století také krátce provozoval vlastní královskou mincovnu, než byla i ona pohlcena Kutnou Horou — stejný osud, jaký nakonec potkal i jihlavskou mincovnu.
+
+Barokní sochy svatých, přidané na zábradlí mostu v 18. století, ho zdobí dodnes (originály jsou dnes bezpečně uloženy v Prácheňském muzeu, na jejich místě stojí kopie), a staré náměstí, které kolem něj v následujících staletích vyrostlo, se dá snadno projít pěšky. Samotná Otava v létě láká vodáky a plavce a bývalý sladovnický dům z 19. století hned u náměstí, Sladovna, se proměnil v interaktivní galerii mířenou spíš na rodiny s dětmi než na milovníky piva.
+
+🎁 Bonus: na rozdíl od jihlavské mincovny, která zcela zmizela ve stínu Kutné Hory, si písecký kamenný most vydobyl vlastní tichou nesmrtelnost — nesl skutečný silniční provoz po většinu sedmi staletí, než byl nakonec uzavřen pro vozidla a ponechán, stále stojící, jako pěší lávka, dodnes plnící tu jedinou práci, pro niž byl postaven.`,
+
+      zh: `皮塞克这个名字本身就是在自嘲——捷克语里字面意思就是"沙子"，得名于河沙里富含的金砂，早在有人想到给它起个更体面的名字之前，就是这片金砂让这里值得定居了。
+
+在国王奥托卡二世1254年正式把皮塞克设立为王家城镇之前，一群淘金者已经在奥塔瓦河的沙洲上劳作了好几代人。这个地点的重要性不只在于黄金本身：皮塞克正好坐落在所谓的"黄金之路"这条重要贸易线上，在这里建立一座王家城镇，同时也等于在这片地区插上了一处王权的据点——跟奥托卡在南波希米亚其他几处建置背后，是同一种本能。他还下令在新城旁边建起了王家城堡、一座修道院和一座教务长教堂。
+
+这座城市真正的成名之作，出现在13世纪60年代：一座横跨奥塔瓦河的石桥，七孔拱券，全长111米，最初两端都有防御塔楼把守。它是整个捷克境内现存最古老的桥梁——比布拉格自己的查理大桥还早了大约九十年——放眼整个中欧，也只有雷根斯堡那座桥比它更古老。皮塞克在13世纪末还短暂运作过自己的王家铸币厂，之后也和伊赫拉瓦的铸币厂一样，最终被并入了库特纳霍拉。
+
+18世纪加装在桥栏杆上的一批巴洛克圣徒雕像，至今仍装点着这座桥（原作如今安放在普拉亨博物馆里妥善保管，桥上立的是复制品），围绕着它成长起来的老城广场也很适合悠闲走一圈。夏天，奥塔瓦河本身就吸引着划船和游泳的人；广场边一座19世纪的老麦芽作坊"斯拉多夫纳"（Sladovna），如今已经改造成了一间互动式美术馆，服务对象更多是带孩子的家庭，而不是啤酒爱好者。
+
+🎁 彩蛋：跟完全消失在库特纳霍拉阴影下的伊赫拉瓦铸币厂不同，皮塞克的这座石桥赢得了属于自己的、悄无声息的不朽——它承载了将近七个世纪的真实车马通行，直到最终被禁止机动车通行，如今仍屹立在那里，作为一座人行桥，继续履行着它当初被建造时唯一的职责。`,
+    },
+  },
+  {
+    // Added to support battle-of-marchfeld-1278's relatedLandmarks — a
+    // deliberately modern counterpoint to the era, per the user's explicit
+    // instruction: this is a 2012 commemorative statue, not a period
+    // artifact, and the description says so plainly rather than letting a
+    // reader assume otherwise. Also documents Vysoké Mýto's own 1262
+    // founding by Otakar (another royal-town foundation, this time on the
+    // Bohemia-Moravia trade route rather than the South Bohemia/Vítkovci
+    // containment pattern behind Zlatá Koruna/České Budějovice/Písek).
+    name: 'Statue of Přemysl Otakar II',
+    slug: 'socha-premysla-otakara-ii',
+    localizedNames: { cz: 'Socha Přemysla Otakara II.', zh: '普热美斯尔·奥托卡二世雕像' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 49.954613288005376, lng: 16.158424631179738 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Statue_of_P%C5%99emysl_Otakar_II',
+    description: {
+      en: `Welcome to the statue of Přemysl Otakar II in Vysoké Mýto — a 2.5-meter gilded iron king who's been standing guard in front of the Prague Gate since 2012, meaning he's spent more of his existence here as a tourist photo backdrop than the actual king ever spent as anyone's reliable ally.
+
+King Otakar II founded Vysoké Mýto in 1262, one of a string of royal towns he planted along Bohemia's trade routes — this one guarding the road between Bohemia and Moravia, near the older settlement of Vraclav. The town grew around what's still the largest rectangular town square in the Czech Republic, roughly two hectares, ringed by fortifications whose surviving gates and towers include the Prague Gate, the medieval entrance the statue now stands in front of.
+
+The statue itself is a much newer addition. It was unveiled on 8 September 2012, as the centerpiece of the town's celebrations marking 750 years since Otakar's founding charter — a gilded wrought-iron figure, 2.5 meters tall, forged by blacksmith-artist Karel Bureš. Every visible detail of it, crown to boots, is a 21st-century tribute rather than anything approaching a medieval original — there's no surviving contemporary likeness of Otakar to work from, gilded or otherwise.
+
+🎁 Bonus: in 1307, decades after Otakar's death, Vysoké Mýto became one of Bohemia's official "dowry towns" — a set of royal towns whose revenues were earmarked specifically to support the reigning queen consort or dowager, rather than the king's own treasury. The founder's statue now watches over a town that, for centuries afterward, technically answered to the queens instead of him.`,
+
+      cz: `Vítej u sochy Přemysla Otakara II. ve Vysokém Mýtě — 2,5metrového pozlaceného železného krále, který před Pražskou branou stojí na stráži od roku 2012, takže jako fotografická kulisa pro turisty už tu strávil déle času, než skutečný král kdy strávil jako něčí spolehlivý spojenec.
+
+Král Otakar II. založil Vysoké Mýto v roce 1262, jedno z řady královských měst, která rozesel po obchodních cestách Čech — tohle konkrétně střežilo cestu mezi Čechami a Moravou, poblíž staršího sídliště Vraclav. Město vyrostlo kolem toho, co je dodnes největším obdélníkovým náměstím v České republice, o rozloze necelých dvou hektarů, obehnaným opevněním, z jehož dochovaných bran a věží patří i Pražská brána, středověký vstup, před nímž dnes socha stojí.
+
+Samotná socha je mnohem novější přírůstek. Byla slavnostně odhalena 8. září 2012 jako vrchol městských oslav 750 let od Otakarovy zakládací listiny — pozlacená kovaná postava, 2,5 metru vysoká, vykovaná uměleckým kovářem Karlem Burešem. Každý viditelný detail na ní, od koruny až po boty, je poctou 21. století, ne ničím, co by se blížilo středověkému originálu — žádná dobová podobizna Otakara se totiž nedochovala, pozlacená ani jiná.
+
+🎁 Bonus: v roce 1307, desítky let po Otakarově smrti, se Vysoké Mýto stalo jedním z českých „věnných měst" — souboru královských měst, jejichž příjmy byly vyhrazeny přímo pro vládnoucí královnu nebo vdovu, ne pro královskou pokladnu. Zakladatelova socha teď hlídá město, které po staletí formálně odpovídalo spíš královnám než jemu.`,
+
+      zh: `欢迎来到维索凯米托的普热美斯尔·奥托卡二世雕像——一位2.5米高的镀金铁铸国王，自2012年起就站在布拉格门前站岗，算下来他在这里当"游客拍照背景板"的年头，比这位真实国王在世时当过任何人可靠盟友的年头还要长。
+
+国王奥托卡二世1262年建立了维索凯米托，这是他沿波希米亚各条贸易线布下的一连串王家城镇之一——这一座具体扼守的，是波希米亚通往摩拉维亚的道路，靠近更古老的聚落弗拉茨拉夫。这座城镇是围绕着如今仍是捷克境内最大的长方形广场发展起来的，占地约两公顷，四周环绕着防御工事，留存至今的城门和塔楼里就包括布拉格门——这座雕像如今就立在这处中世纪城门前。
+
+雕像本身则要新得多。它于2012年9月8日正式揭幕，是这座城镇庆祝奥托卡建城特许状颁布750周年活动的压轴之作——一尊镀金锻铁塑像，高2.5米，出自铁艺工匠卡雷尔·布雷什之手。从王冠到靴子，雕像上每一处可见的细节，都是21世纪的致敬之作，而非任何接近中世纪原貌的东西——毕竟根本没有留存下来的奥托卡同时代肖像可供参考，镀金与否都一样。
+
+🎁 彩蛋：1307年，也就是奥托卡去世几十年后，维索凯米托成了波希米亚的一座"王后嫁妆城镇"——这是一套专门把税收指定用来供养在位王后或太后、而不是流入国王自己金库的王家城镇体系。如今，这位建城者的雕像守望着的这座城镇，此后好几个世纪，名义上效忠的其实是历代王后，而不是他自己。`,
+    },
+  },
+  {
+    // Added to support three-guardians-1279's relatedLandmarks — Henry
+    // Probus's Silesian troops marched into the Čáslav region during the
+    // guardianship crisis, and Rudolf of Habsburg himself later camped his
+    // own army here too. Also, tidily, a royal town Otakar II founded
+    // himself (c. 1263) — his own son's guardians fought their standoff on
+    // ground he'd built.
+    name: 'Čáslav',
+    slug: 'caslav',
+    localizedNames: { cz: 'Čáslav', zh: '恰斯拉夫' },
+    labels: ['village-and-town', 'historical', 'church'],
+    coordinates: { lat: 49.91006957630434, lng: 15.392092403515633 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Caslav',
+    description: {
+      en: `Čáslav has spent eight centuries quietly hosting other people's history — a Přemyslid stronghold turned royal town turned Hussite battleground turned final resting place of a one-eyed general — and somehow still reads as a pleasant, unhurried place to have lunch by a fishpond.
+
+Long before it was a royal town, Čáslav was Hrádek, a 9th-century Slavic gord that grew into a Přemyslid administrative center by the 11th century. King Otakar II formally refounded it as a royal town around 1263, laying out one of Bohemia's largest town squares and ringing the whole settlement in walls — walls that, unusually for a Czech town, survive today in something close to their complete original circuit. Its standout feature is the Otakar Bastion, a cylindrical tower roughly 22 meters tall raised around 1330, decades after its namesake's death, guarding a town he never lived to see finished.
+
+Čáslav's biggest moment on the national stage came almost a century and a half later, and had nothing to do with any Přemyslid. In June 1421, in the middle of the Hussite Wars, delegates from both the Hussite and Catholic camps gathered in the town's own Church of Sts. Peter and Paul for the Diet of Čáslav — electing a twenty-member provisional government and formally declaring war on King Sigismund. The town itself had started the wars on Sigismund's own side, before switching camps that same year. Even stranger: in 1910, workers restoring a side chapel in that same church found a set of bones tucked into a niche — later identified as the remains of Jan Žižka, the Hussites' own legendary one-eyed general, quietly resting in the town where he'd once helped make history.
+
+The church itself is worth the visit on its own merits: a 12th-century Romanesque core rebuilt in the Gothic style by the century's end, its tower open to the public since 2007 as the town's own lookout point over the surrounding countryside. The old town walls can still be walked in part, the main square is large enough to breathe in, and a fishpond just outside the historic core makes for an easy, unhurried stroll — Čáslav rewards an afternoon rather than demanding a full day.
+
+🎁 Bonus: barely a decade after Otakar II's own death at Marchfeld, the guardians fighting over his seven-year-old son and heir marched their own private armies straight through the town he'd built — Duke Henry Probus of Wrocław brought Silesian troops into the Čáslav region to back Queen Kunigunda's cause, and Rudolf of Habsburg himself later camped his own army here too, negotiating the messy guardianship settlement almost within sight of Otakar's own walls.`,
+
+      cz: `Čáslav už osm století v klidu hostí cizí dějiny — přemyslovská pevnost, z ní královské město, z něj husitské bojiště, a nakonec i poslední místo odpočinku jednookého generála — a přesto dodnes působí jako příjemné, nespěchající místo na oběd u rybníka.
+
+Dávno předtím, než se stala královským městem, byla Čáslav Hrádkem, slovanským hradištěm z 9. století, které se do 11. století rozrostlo v přemyslovské správní středisko. Král Otakar II. je kolem roku 1263 formálně znovuzaložil jako královské město, vytyčil jedno z největších náměstí v Čechách a celé sídliště obehnal hradbami — hradbami, které se neobvykle pro české město dochovaly dodnes v téměř úplném původním obvodu. Nejvýraznějším prvkem je Otakarova bašta, válcová věž vysoká zhruba 22 metrů, postavená kolem roku 1330, desítky let po smrti svého jmenovce, střežící město, jehož dokončení se sám nedožil.
+
+Největší okamžik na celostátní scéně zažila Čáslav skoro o půldruhého století později, a s žádným Přemyslovcem to nemělo nic společného. V červnu 1421, uprostřed husitských válek, se v místním kostele svatého Petra a Pavla sešli zástupci husitského i katolického tábora na čáslavském sněmu — zvolili dvacetičlennou zemskou vládu a formálně vyhlásili válku králi Zikmundovi. Samotné město přitom válku začalo na Zikmundově straně a teprve téhož roku přešlo na druhou. Ještě podivnější je, co se stalo v roce 1910: dělníci opravující boční kapli téhož kostela objevili ve výklenku kosterní pozůstatky — později identifikované jako ostatky Jana Žižky, legendárního jednookého husitského vojevůdce, tiše odpočívajícího ve městě, kde kdysi sám pomáhal psát dějiny.
+
+Samotný kostel stojí za návštěvu i sám o sobě: románské jádro z 12. století, do konce téhož století přestavěné v gotickém slohu, s věží veřejnosti přístupnou od roku 2007 jako městskou vyhlídkou nad okolní krajinou. Staré městské hradby se dají zčásti stále projít, hlavní náměstí je dost velké, aby se v něm dalo volně nadechnout, a rybník hned za historickým jádrem láká na klidnou procházku — Čáslav si zaslouží spíš odpoledne než celý den.
+
+🎁 Bonus: sotva deset let po Otakarově vlastní smrti na Moravském poli protáhli poručníci, kteří se přetahovali o jeho sedmiletého syna a dědice, svá soukromá vojska přímo skrz město, které sám vybudoval — vévoda Jindřich Probus Vratislavský přivedl slezské oddíly do oblasti Čáslavi na podporu věci královny Kunhuty, a i sám Rudolf Habsburský tu později utábořil vlastní vojsko, když vyjednával tu zmatenou dohodu o poručnictví, skoro na dohled od Otakarových vlastních hradeb.`,
+
+      zh: `恰斯拉夫这八百年来一直安安静静地承载着别人的历史——先是普热美斯尔家族的据点，后来变成王家城镇，再变成胡斯战争的战场，最后还成了一位独眼将军的长眠之地——可如今它依旧是那种可以坐在池塘边悠闲吃顿午饭的地方。
+
+早在成为王家城镇之前，恰斯拉夫的前身是赫拉德克——一座9世纪的斯拉夫人山寨聚落，到11世纪时已经发展成普热美斯尔家族的行政中心。国王奥托卡二世大约在1263年正式将其重建为王家城镇，规划出了波希米亚最大的广场之一，还在整片聚落外围建起了城墙——这些城墙的特别之处在于，它们几乎完整地保留至今，这在捷克的城镇里相当罕见。最引人注目的一处是奥托卡棱堡，一座高约22米的圆柱形塔楼，建于约1330年，是在这位同名者去世几十年后才建成的——守护着一座他自己都没能活着看到完工的城镇。
+
+恰斯拉夫在全国舞台上最重要的高光时刻，出现在大约一个半世纪之后，而且跟任何一位普热美斯尔家族成员都毫无关系。1421年6月，胡斯战争正打得如火如荼，胡斯派和天主教派双方的代表齐聚在当地的圣彼得与圣保罗教堂，召开了"恰斯拉夫议会"——选出了一个二十人的临时政府，并正式向国王西吉斯蒙德宣战。而这座城镇本身，最初其实是站在西吉斯蒙德那一边参战的，直到同一年才转投对方阵营。更离奇的是1910年发生的事：工人在修复同一座教堂的一间侧礼拜堂时，在一处壁龛里发现了一具骸骨——后来被确认是扬·杰士卡的遗骨，这位传奇的独眼胡斯派将军，就这样悄无声息地长眠在了这座他当年曾亲手参与书写历史的城镇里。
+
+这座教堂本身就很值得专程一看：12世纪的罗曼式内核，到那个世纪末就已改建成哥特式风格，塔楼自2007年起对外开放，成了俯瞰周边乡野的观景台。老城墙如今仍能走上一段，主广场足够开阔，让人可以在其中舒展呼吸，历史城区外不远处的一座池塘，也很适合来一场悠闲的散步——恰斯拉夫值得花一个下午，而不必强求一整天。
+
+🎁 彩蛋：就在奥托卡二世本人死于马尔希费尔德战役还不到十年后，几位为了争夺他七岁儿子兼继承人监护权而互不相让的监护人，就带着各自的私人军队，径直开进了他亲手建起的这座城镇——弗罗茨瓦夫公爵亨利·普罗布斯带着西里西亚部队开进恰斯拉夫地区，为库尼贡达王后的立场撑腰；后来鲁道夫·哈布斯堡本人也在这里扎下了自己的营地，几乎就在奥托卡自己修筑的城墙脚下，谈成了那份乱糟糟的监护权协议。`,
     },
   },
 ];
