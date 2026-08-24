@@ -25,6 +25,19 @@ const referenceMapsSchema = new mongoose.Schema({
   links:   [referenceMapLinkSchema],
 }, { _id: false });
 
+// A direct quote from a primary source (a chronicle, a historian) that gets
+// pulled out of the summary's own prose and rendered as its own visually
+// distinct blockquote — large decorative quotation marks, italic text, a
+// right-aligned "— Source Name" attribution line — instead of sitting
+// inline as quoted text inside a regular paragraph. Referenced from
+// `summary` via an inline marker on its own line/paragraph, e.g.
+// "[[quote:0]]", which HistoryEventSection.jsx swaps out for quotes[0] at
+// render time — see that component for the exact marker syntax.
+const chronicleQuoteSchema = new mongoose.Schema({
+  text:        { type: localizedTextSchema, default: () => ({}) },
+  attribution: { type: localizedTextSchema, default: () => ({}) },
+}, { _id: false });
+
 const historyEventSchema = new mongoose.Schema({
   slug:      { type: String, required: true, unique: true, lowercase: true, trim: true },
   era:       { type: String, required: true }, // key into data/historyEras.js
@@ -44,6 +57,10 @@ const historyEventSchema = new mongoose.Schema({
   cardType:  { type: String, enum: ['event', 'background'], default: 'event' },
   hookLine:  { type: localizedTextSchema, default: () => ({}) },
   summary:   { type: localizedTextSchema, default: () => ({}) },
+  // Primary-source quotes referenced from inside `summary` via "[[quote:N]]"
+  // markers — see chronicleQuoteSchema above for why this exists instead of
+  // just leaving quotes embedded inline as regular quoted prose.
+  quotes: [chronicleQuoteSchema],
   relatedLandmarks: [relatedLandmarkSchema],
   wikipediaUrl: { type: String, default: '' },
   // Optional links out to an external interactive historical-border map

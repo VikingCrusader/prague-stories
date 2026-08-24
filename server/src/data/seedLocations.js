@@ -19549,6 +19549,111 @@ Bonus: Chrám svaté Barbory si na cestu od základního kamene po dokončení v
     },
   },
   {
+    name: 'Italian Court',
+    slug: 'vlassky-dvur',
+    localizedNames: { cz: 'Vlašský dvůr', zh: '意大利宫' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 49.948347915379976, lng: 15.268973604724929 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Italian_Court',
+    description: {
+      en: `This building's original job was straightforward: press a piece of silver into a coin, twelve times a minute, forever. It ended up doing rather more than that — the Italian Court spent the next two centuries picking up side jobs a royal mint was never actually built for.
+
+King Wenceslas II founded the mint here in 1300 as the centerpiece of his currency reform — see the History Timeline for the full story — importing Florentine bankers to run the operation, which is where the building gets its name (Vlašský dvůr translates roughly as "the Italian Court"). For the next two and a half centuries, this was where the Prague groschen was actually struck, coin by coin, funded by the silver pulled out of the ground a short walk away.
+
+In the early 15th century, King Wenceslas IV — who genuinely liked spending time in Kutná Hora — turned the complex into a part-time royal residence, adding a palace wing and the Chapel of Saints Wenceslaus and Ladislaus. It was here, in 1409, that he issued the Kutná Hora Decree, restructuring university voting at Prague's own university in favor of Czech scholars — the same decree, already covered elsewhere on this app, that triggered a mass walkout of German students who went on to co-found Leipzig University. In 1471, the complex hosted a royal election of its own: Vladislaus II Jagiellon was chosen here, and made the Italian Court an occasional residence of his own too.
+
+🎁 Bonus: mining and minting stopped long ago, but the Italian Court never really lost its job as a place where important people made important decisions — it's now Kutná Hora's town hall, still doing government business in the same rooms where medieval bankers once counted silver.`,
+
+      cz: `Původní úkol téhle budovy byl jednoduchý: razit ze stříbrného plíšku minci, dvanáctkrát za minutu, pořád dokola. Nakonec toho stihla mnohem víc — Vlašský dvůr strávil další dvě staletí sbíráním vedlejších úkolů, na které královská mincovna vlastně nikdy postavena nebyla.
+
+Král Václav II. tu v roce 1300 založil mincovnu jako centrální bod své měnové reformy — celý příběh najdete v Historické časové ose — a povolal si na provoz florentské bankéře, odtud pochází i jméno budovy (Vlašský dvůr). Dalších přibližně dvě a půl století se tu skutečně razil pražský groš, mince po minci, financovaný stříbrem vytěženým kousek odsud.
+
+Na počátku 15. století proměnil komplex v příležitostné královské sídlo Václav IV. — Kutnou Horu měl opravdu rád — a přidal palácové křídlo i kapli svatého Václava a svatého Ladislava. Právě tady v roce 1409 vydal Dekret kutnohorský, kterým přerozdělil hlasovací práva na pražské univerzitě ve prospěch českých učenců — tentýž dekret, o kterém tahle aplikace píše i jinde, jenž vyvolal hromadný odchod německých studentů, kteří pak spoluzaložili univerzitu v Lipsku. V roce 1471 tu proběhla i vlastní královská volba: zvolen tu byl Vladislav II. Jagellonský, který si z Vlašského dvora udělal příležitostné sídlo taky.
+
+Bonus: těžba i ražba mincí tu už dávno skončily, ale Vlašský dvůr svou práci — místo, kde důležití lidé dělají důležitá rozhodnutí — tak úplně neztratil: dnes tu sídlí kutnohorská radnice, pořád úřaduje ve stejných místnostech, kde kdysi středověcí bankéři počítali stříbro.`,
+
+      zh: `这栋建筑最初的任务很简单：把一块银子压成一枚硬币，每分钟十二枚，日复一日。但它后来干的事，远不止于此——接下来的两个世纪里，意大利宫陆续接手了不少一座王室铸币厂原本根本不该沾边的副业。
+
+瓦茨拉夫二世国王于1300年在此建立铸币厂，作为他货币改革的核心——完整的故事可以在"历史时间线"里读到——他招募佛罗伦萨银行家来主持运营，这栋建筑的名字（意大利宫）也由此而来。此后差不多两个半世纪里，布拉格格罗申真的就是在这里一枚一枚铸造出来的，资金来源正是不远处地下挖出来的白银。
+
+15世纪初，瓦茨拉夫四世——他是真心喜欢库特纳霍拉——把这座建筑群改造成了自己偶尔驻跸的行宫，增建了宫殿侧翼，还有圣瓦茨拉夫与圣拉迪斯拉夫礼拜堂。1409年，正是在这里，他颁布了"库特纳霍拉诏令"，重新分配了布拉格大学的投票权，向捷克学者倾斜——这份诏令本应用程序别处也有提到，它引发了德国学生的大规模出走，这些学生后来共同创建了莱比锡大学。1471年，这里还举行过一场王室选举：瓦迪斯瓦夫二世·雅盖隆在此当选，后来他也把意大利宫变成了自己偶尔驻跸的行宫。
+
+🎁 彩蛋：采矿和铸币的活计早就停了，但意大利宫"让重要人物做重要决定"这份工作，其实从未真正丢过——如今这里是库特纳霍拉市政厅，仍在当年中世纪银行家清点白银的那些房间里，办理着今天的公务。`,
+    },
+  },
+  {
+    name: "St. Barbara's Cathedral",
+    slug: 'kostel-svate-barbory',
+    localizedNames: { cz: 'Chrám svaté Barbory', zh: '圣芭芭拉大教堂' },
+    labels: ['historical', 'architecture', 'church'],
+    coordinates: { lat: 49.94495604537064, lng: 15.263117599093679 },
+    rarity: 'legend',
+    xpReward: 100,
+    wikipediaUrl: "https://en.wikipedia.org/wiki/St._Barbara's_Church,_Kutn%C3%A1_Hora",
+    description: {
+      en: `Most cathedrals take a decade or two to build. St. Barbara's took 517 years — a construction timeline so drawn-out it makes the Sagrada Família look impatient, interrupted twice by war, once by the silver running out, and once, apparently, by nobody getting around to it for a few centuries.
+
+Ground broke in 1388, financed by the silver wealth pouring out of Kutná Hora's mines and covered in the same History Timeline card as the currency reform it helped fund. The first architect was likely Johann Parler, son of Peter Parler — the same family responsible for Prague's own St. Vitus Cathedral and Charles Bridge. Work stalled for over sixty years during the Hussite Wars, then resumed in 1481 under a new generation of master builders: Matěj Rejsek (choir, triforium, ribbed vault, finished 1499) and Benedikt Rejt, who added the matching-height side naves from 1512 onward and gave the building its trademark silhouette — a distinctive triple-tent roof braced by an intricate web of flying buttresses.
+
+The cathedral's most unusual feature isn't structural — it's painted. Two of its side chapels carry rare late-Gothic frescoes celebrating the very industry that paid for the building: the Hašplíř Chapel shows miners working a windlass deep underground, and the Mincíř (Minters') Chapel depicts the coining techniques behind the Prague groschen directly on its walls. Construction stalled again once the silver ran out in the mid-16th century, and the half-finished cathedral simply sat that way for over three centuries until architects Josef Mocker and Ludvík Lábler finally completed it in a matching neo-Gothic style between 1884 and 1905.
+
+🎁 Bonus: since 1995, St. Barbara's has held UNESCO World Heritage status jointly with Kutná Hora's historic town center and the Church of Our Lady at Sedlec — a Gothic cathedral, an entire medieval townscape, and a second church, all inscribed as one shared listing, funded from the very beginning by the same silver seam.`,
+
+      cz: `Většina katedrál se staví deset dvacet let. Chrámu svaté Barbory to trvalo 517 let — natolik protahovaný stavební harmonogram, že vedle něj i Sagrada Família působí netrpělivě, přerušovaný dvakrát válkou, jednou tím, že došlo stříbro, a jednou, zdá se, tím, že se na to pár století prostě nikdo nedostal.
+
+Základní kámen byl položen v roce 1388, financovaný bohatstvím ze stříbra proudícího z kutnohorských dolů — stejné téma, jaké tahle aplikace probírá i v kartě o měnové reformě, kterou toto stříbro pomohlo zaplatit. Prvním stavitelem byl pravděpodobně Jan Parléř, syn Petra Parléře — téhož rodu, který stojí i za pražskou katedrálou svatého Víta a Karlovým mostem. Práce se na přes šedesát let zastavily během husitských válek a znovu se rozeběhly v roce 1481 pod novou generací stavitelů: Matěj Rejsek (kůr, triforium, žebrová klenba, dokončeno 1499) a Benedikt Rejt, který od roku 1512 přidal stejně vysoké boční lodě a dal budově její charakteristickou siluetu — svébytnou trojici stanových střech vyztuženou spletí opěrných oblouků.
+
+Nejneobvyklejší rys katedrály není konstrukční — je namalovaný. Dvě boční kaple nesou vzácné pozdně gotické fresky oslavující právě to řemeslo, které stavbu zaplatilo: Hašpličská kaple zobrazuje horníky pracující s rumpálem hluboko pod zemí, Mincířská kaple zase přímo na stěnách zachycuje techniky ražby, jimiž se razil pražský groš. Stavba se znovu zastavila, jakmile v polovině 16. století došlo stříbro, a napůl dostavěná katedrála takhle prostě zůstala přes tři století, než ji architekti Josef Mocker a Ludvík Lábler v odpovídajícím novogotickém stylu konečně dokončili mezi lety 1884 a 1905.
+
+Bonus: od roku 1995 je chrám svaté Barbory společně s historickým jádrem Kutné Hory a kostelem Nanebevzetí Panny Marie v Sedlci zapsán na Seznamu světového dědictví UNESCO jako jeden společný zápis — gotická katedrála, celé středověké město a druhý kostel, to všechno od samého začátku financované ze stejné stříbrné žíly.`,
+
+      zh: `大多数大教堂十年二十年就能建成。圣芭芭拉大教堂却花了517年——工期拖得连圣家族大教堂在它面前都显得不够有耐心，先后两次因战争停工，一次因为银矿枯竭，还有一次——似乎就是单纯几百年没人顾得上接着修。
+
+1388年奠基，资金来自库特纳霍拉矿山涌出的白银财富——正是本应用程序另一张卡片里讲到的那场货币改革所依靠的同一笔财富。首位建筑师很可能是扬·帕勒尔，彼得·帕勒尔之子——正是那个建造了布拉格圣维特大教堂和查理大桥的家族。工程在胡斯战争期间停滞了六十多年，直到1481年才在新一代建筑师手中重启：马捷伊·雷伊塞克（负责唱诗席、三联拱廊、肋拱顶，1499年完工）与本内迪克特·雷伊特，后者从1512年起加建了等高的侧廊，赋予了这座建筑标志性的轮廓——三顶帐篷状尖顶，由一整套精巧的飞扶壁支撑。
+
+这座大教堂最与众不同的地方不在结构，而在壁画。两间侧礼拜堂保留着罕见的晚期哥特式壁画，画的正是当年为这座建筑买单的那门行业：哈什普利日礼拜堂描绘了矿工们在地下深处操作绞盘的场景，明奇日（铸币工）礼拜堂则直接在墙上描绘了铸造布拉格格罗申所用的铸币工艺。16世纪中叶银矿枯竭，工程再度停滞，这座建到一半的大教堂就这么搁置了三个多世纪，直到建筑师约瑟夫·莫克尔和卢德维克·拉布勒尔以配套的新哥特风格，终于在1884年到1905年间将其完工。
+
+🎁 彩蛋：自1995年起，圣芭芭拉大教堂与库特纳霍拉历史城区、附近塞德莱茨的圣母升天教堂，共同被列入同一项联合国教科文组织世界遗产名录——一座哥特大教堂、一整片中世纪城镇，还有另一座教堂，全都由同一条银矿脉从头资助到底。`,
+    },
+  },
+  {
+    name: 'Sedlec Ossuary',
+    slug: 'kostnice-sedlec',
+    localizedNames: { cz: 'Kostnice Sedlec', zh: '塞德莱茨藏骨堂' },
+    labels: ['historical', 'architecture', 'church'],
+    coordinates: { lat: 49.96178835440518, lng: 15.287989694174698 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Sedlec_Ossuary',
+    description: {
+      en: `Most churches decorate themselves with stone saints and stained glass. This one used what it actually had on hand: roughly 40,000 to 70,000 sets of human bones, stacked, wired, and arranged into chandeliers, garlands, and a coat of arms — the world's most literal example of working with what you've got.
+
+The story starts in 1278, when Abbot Henry of the Cistercian monastery here — sent to the Holy Land by King Otakar II — returned with a handful of soil from Golgotha and scattered it over the monastery cemetery. Word spread that the ground was now holy, and burial requests poured in from across Bohemia and beyond; being buried in "the Holy Field" became something wealthy Central Europeans specifically paid for. The Black Death and, a century later, the Hussite Wars filled the cemetery to bursting, and around 1400 a small Gothic chapel, the Church of All Saints, went up at its center — its upper level a church, its lower level built specifically to hold the bones that had nowhere else to go.
+
+For centuries, that's mostly what it was: a storage room. According to legend, a half-blind monk was given the job sometime after 1511 of exhuming the overflowing cemetery and stacking the bones inside — sorted by type, skulls to femurs, into a handful of massive pyramids, purely for practical storage, no artistry involved. The artistry came later. In 1870, the Schwarzenberg family, who owned the estate, hired a local woodcarver named František Rint to do something with the pile. He obliged: a chandelier said to contain at least one of every bone in the human body, garlands of skulls looping the vaults, a monstrance, a chalice — and, in the chapel's best-known flourish, the Schwarzenberg family's own coat of arms, rendered entirely in human bone.
+
+🎁 Bonus: the ossuary sits directly beneath the Church of Our Lady, part of the same UNESCO World Heritage listing as Kutná Hora's historic center and St. Barbara's Cathedral — meaning one of the most solemn, macabre sites in the country shares its official heritage status with a Gothic masterpiece financed by the very silver boom this app already covers elsewhere.`,
+
+      cz: `Většina kostelů se zdobí kamennými svatými a vitrážemi. Tenhle použil to, co měl doopravdy po ruce: zhruba 40 000 až 70 000 lidských koster, naskládaných, provázaných drátem a poskládaných do lustrů, girland a erbu — snad nejdoslovnější příklad na světě, jak si poradit s tím, co máte.
+
+Příběh začíná v roce 1278, kdy se opat Jindřich z místního cisterciáckého kláštera — vyslaný králem Otakarem II. do Svaté země — vrátil s hrstí hlíny z Golgoty a rozsypal ji po klášterním hřbitově. Rozneslo se, že je teď ta půda posvěcená, a žádosti o pohřeb se sem začaly hrnout z celých Čech i odjinud; nechat se pohřbít na „Svatém poli" se stalo něčím, za co si bohatí lidé střední Evropy záměrně platili. Morová rána a o století později husitské války hřbitov přeplnily k prasknutí, a kolem roku 1400 vyrostla v jeho středu malá gotická kaple, kostel Všech svatých — horní patro sloužilo jako kostel, spodní bylo postaveno přímo k uložení kostí, které už neměly kam jinam.
+
+Po celá staletí to byla vlastně hlavně skladovací místnost. Podle legendy dostal někdy po roce 1511 na starost vyklízení přeplněného hřbitova a ukládání kostí uvnitř napůl slepý mnich — kosti roztřídil podle druhu, lebky, stehenní kosti, a naskládal je do několika obřích pyramid, čistě prakticky, bez sebemenší umělecké ambice. Umění přišlo až později. V roce 1870 najala rodina Schwarzenbergů, které panství patřilo, místního řezbáře jménem František Rint, aby s tou hromadou něco udělal. Nezklamal: lustr, který má prý obsahovat aspoň jeden exemplář každé kosti lidského těla, girlandy lebek táhnoucí se po klenbách, monstranci, kalich — a jako nejznámější kousek kaple erb rodu Schwarzenbergů, celý vyvedený v lidských kostech.
+
+Bonus: kostnice leží přímo pod kostelem Nanebevzetí Panny Marie a je součástí stejného zápisu na Seznamu světového dědictví UNESCO jako historické jádro Kutné Hory a chrám svaté Barbory — jedno z nejponuřejších míst v zemi tak sdílí oficiální status památky s gotickým skvostem financovaným ze stejné stříbrné horečky, o které tahle aplikace píše i jinde.`,
+
+      zh: `大多数教堂用石雕圣像和彩绘玻璃装饰自己。这一座用的是它手头真正有的东西：大约四万到七万副人类骨骸，被堆叠、用铁丝串联、摆成了吊灯、花环和一枚家族纹章——大概是"用手头的材料将就"这句话在全世界最字面意义上的体现。
+
+故事始于1278年，本地西多会修道院的院长海因里希——受奥托卡二世国王派遣前往圣地——带回了一捧各各他的泥土，撒在了修道院的墓地上。消息传开，说这片土地如今已是圣土，来自波希米亚各地乃至更远地方的下葬申请纷至沓来；能葬在这片"圣田"里，成了中欧富人特意花钱求取的一件事。黑死病，一个世纪后又是胡斯战争，把这片墓地挤得爆满，约1400年，墓地中央盖起了一座小型哥特式礼拜堂——诸圣礼拜堂：上层是教堂，下层则是专门建来安放那些已无处可去的骨骸的。
+
+此后数百年，这里基本上就是个储藏室。据传说，1511年之后的某个时候，清理这座爆满墓地、把骨骸搬进堂内堆放的任务，落在了一位半瞎的修士身上——他把骨骸按种类分类，头骨归头骨、股骨归股骨，堆成几座巨大的骨塔，纯粹出于实用考虑，谈不上任何艺术性。艺术性是后来才有的。1870年，拥有这片地产的施瓦岑贝格家族，雇了当地一位名叫弗朗齐歇克·林特的木雕匠，让他拿这堆骨头做点什么。他不负所托：一盏据说囊括了人体每一种骨骼至少一件的枝形吊灯，缠绕拱顶的骷髅花环，一座圣体光座，一只圣杯——以及这座礼拜堂最著名的那一件：施瓦岑贝格家族自己的纹章，整个用人骨拼成。
+
+🎁 彩蛋：这座藏骨堂就坐落在圣母升天教堂的正下方，与库特纳霍拉历史城区、圣芭芭拉大教堂共享同一项联合国教科文组织世界遗产名录——这个国家最阴森肃穆的地方之一，跟一座由本应用别处已经讲过的那场银矿热资助建成的哥特式杰作，共享着同一份官方遗产身份。`,
+    },
+  },
+  {
     name: 'Belvedér Ruins & Chapel of St. John the Baptist',
     slug: 'letohradek-belveder-kutna-hora',
     localizedNames: { cz: 'Zřícenina letohrádku Belvedér a kaple sv. Jana Křtitele', zh: '贝尔维德尔夏宫遗址与施洗约翰礼拜堂' },
@@ -23437,7 +23542,7 @@ Do 15. století si Bezděz vybudoval pověst téměř nedobytné pevnosti, což 
     description: {
       en: `Welcome to Hluboká Castle — the single most photographed "fairytale castle" in Bohemia, and one whose actual medieval self would not recognize a single stone of what stands here today.
 
-King Otakar II founded the original castle here around 1250, a working Gothic guard castle meant to secure trade routes and protect royal territory — part of the same systematic fortress-building this timeline has already covered under his own reign. Like most medieval royal property, it got repeatedly pledged to nobles for cash rather than held directly, and by the 15th century the once-functional stronghold had fallen into outright ruin.
+King Otakar II founded the original castle here around 1250, a working Gothic guard castle meant to secure trade routes and protect royal territory — part of the same systematic fortress-building this timeline has already covered under his own reign. Barely a generation after Otakar's death, that same castle became the site of one of the era's most notorious executions: in 1290, King Wenceslas II had his own former stepfather, Záviš of Falkenstein, beheaded on the meadow just outside these walls, after Záviš's own brother Vítek — commanding the garrison inside — refused to surrender it even to save Záviš's life. Like most medieval royal property, it got repeatedly pledged to nobles for cash rather than held directly, and by the 15th century the once-functional stronghold had fallen into outright ruin.
 
 The 16th century brought it back from the dead, twice over: Ondřej Ungnad of Sunek rebuilt it in 1534, and Jáchym of Hradec then transformed the medieval remains into a proper Renaissance seat in 1562, complete with three stories and three internal courtyards. The Schwarzenberg family bought the estate in 1661 and held it for the next three centuries — long enough to eventually do something far more dramatic to the place than any of their predecessors had.
 
@@ -23447,7 +23552,7 @@ Between 1840 and 1871, Prince Jan Adolf II of Schwarzenberg, freshly returned fr
 
       cz: `Vítej na zámku Hluboká — jednom jediném, nejvíc fotografovaném „pohádkovém zámku" v Čechách, jehož skutečné středověké já by dnes nepoznalo jediný kámen z toho, co tu stojí.
 
-Král Otakar II. tu kolem roku 1250 založil původní hrad, funkční gotickou strážní pevnost určenou k zajištění obchodních cest a ochraně královského území — součást téže systematické politiky budování pevností, kterou tahle časová osa už probrala v souvislosti s jeho vládou. Jako většina středověkého královského majetku byl opakovaně zastavován šlechticům za hotovost místo toho, aby zůstával v přímém držení, a do 15. století se z kdysi funkční pevnosti stala vyložená zřícenina.
+Král Otakar II. tu kolem roku 1250 založil původní hrad, funkční gotickou strážní pevnost určenou k zajištění obchodních cest a ochraně královského území — součást téže systematické politiky budování pevností, kterou tahle časová osa už probrala v souvislosti s jeho vládou. Sotva o generaci později se tentýž hrad stal místem jedné z nejnechvalněji proslulých poprav své doby: v roce 1290 tu nechal král Václav II. sťít svého vlastního bývalého nevlastního otce, Záviše z Falkenštejna, na louce hned za těmito hradbami, poté co Závišův vlastní bratr Vítek — velící posádce uvnitř — odmítl hrad vydat i za cenu Závišova života. Jako většina středověkého královského majetku byl opakovaně zastavován šlechticům za hotovost místo toho, aby zůstával v přímém držení, a do 15. století se z kdysi funkční pevnosti stala vyložená zřícenina.
 
 16. století ho přivedlo zpět k životu, a to hned dvakrát: Ondřej Ungnad ze Suneku ho přestavěl v roce 1534, a Jáchym z Hradce pak středověké pozůstatky proměnil v roce 1562 v pořádné renesanční sídlo, se třemi patry a třemi vnitřními nádvořími. Rod Schwarzenbergů koupil panství v roce 1661 a držel ho další tři staletí — dost dlouho na to, aby s místem nakonec provedl něco mnohem dramatičtějšího než kterýkoli z jejich předchůdců.
 
@@ -23457,7 +23562,7 @@ Mezi lety 1840 a 1871 nechal kníže Jan Adolf II. ze Schwarzenbergu, čerstvě 
 
       zh: `欢迎来到赫卢博卡城堡——波希米亚境内被拍照次数最多的"童话城堡"，可它真正的中世纪本尊，恐怕认不出今天这里的任何一块石头。
 
-国王奥托卡二世大约在1250年在这里建立了最初的城堡——一座真正投入使用的哥特式守卫要塞，用来确保贸易路线、保护王室领地，是这条时间线已经讲过的、他在位期间那套系统性筑城政策的一部分。跟大多数中世纪王室产业一样，它反复被抵押给贵族换取现金，而不是一直由王室直接持有，到15世纪，这座曾经实用的要塞已经彻底沦为废墟。
+国王奥托卡二世大约在1250年在这里建立了最初的城堡——一座真正投入使用的哥特式守卫要塞，用来确保贸易路线、保护王室领地，是这条时间线已经讲过的、他在位期间那套系统性筑城政策的一部分。奥托卡去世还不到一代人的时间，这座城堡就成了当时最臭名昭著的一场处决现场：1290年，国王瓦茨拉夫二世下令，在这道城墙外的草地上，处决了自己曾经的继父扎维什·冯·法尔肯斯坦——而当时指挥城堡守军的，正是扎维什的亲哥哥维特克，他即便拿扎维什的性命去换，也拒绝交出这座城堡。跟大多数中世纪王室产业一样，它反复被抵押给贵族换取现金，而不是一直由王室直接持有，到15世纪，这座曾经实用的要塞已经彻底沦为废墟。
 
 16世纪把它两度救回了生：1534年，苏内克的翁德热·翁格纳德对它进行了重建，1562年，赫拉德茨的雅希姆又把这些中世纪遗迹改造成了一座正经的文艺复兴式宅邸，配上三层楼和三个内院。施瓦岑贝格家族1661年买下了这处庄园，此后持有了整整三个世纪——时间长到最终对这个地方做出了比之前任何一任主人都更戏剧化的改造。
 
@@ -23817,6 +23922,105 @@ Samotný kostel stojí za návštěvu i sám o sobě: románské jádro z 12. st
 这座教堂本身就很值得专程一看：12世纪的罗曼式内核，到那个世纪末就已改建成哥特式风格，塔楼自2007年起对外开放，成了俯瞰周边乡野的观景台。老城墙如今仍能走上一段，主广场足够开阔，让人可以在其中舒展呼吸，历史城区外不远处的一座池塘，也很适合来一场悠闲的散步——恰斯拉夫值得花一个下午，而不必强求一整天。
 
 🎁 彩蛋：就在奥托卡二世本人死于马尔希费尔德战役还不到十年后，几位为了争夺他七岁儿子兼继承人监护权而互不相让的监护人，就带着各自的私人军队，径直开进了他亲手建起的这座城镇——弗罗茨瓦夫公爵亨利·普罗布斯带着西里西亚部队开进恰斯拉夫地区，为库尼贡达王后的立场撑腰；后来鲁道夫·哈布斯堡本人也在这里扎下了自己的营地，几乎就在奥托卡自己修筑的城墙脚下，谈成了那份乱糟糟的监护权协议。`,
+    },
+  },
+  {
+    // Added to support the-stepfather-problem-1288 and zavis-arrested-1289's
+    // relatedLandmarks — Svojanov wasn't just where Záviš was arrested, it
+    // was Kunigunda and Záviš's actual power base for years beforehand,
+    // per cs.wikipedia's own article on the castle. Worth linking from both
+    // events: the earlier one for the "seat of power" angle, the later one
+    // for the arrest itself happening on the very same ground.
+    name: 'Svojanov Castle',
+    slug: 'svojanov',
+    localizedNames: { cz: 'Hrad Svojanov', zh: '斯沃亚诺夫城堡' },
+    labels: ['castle and fortress', 'historical'],
+    coordinates: { lat: 49.627239091284125, lng: 16.40830545418099 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Svojanov_(hrad)',
+    description: {
+      en: `Svojanov Castle spent a few short years as the unofficial capital of Bohemia — not because anyone declared it so, but because the two most powerful people in the kingdom happened to be living there together, quietly running the country from a fortress most Czechs today have never heard of.
+
+The castle's earliest surviving documentation dates to 1287, by which point it already belonged to Záviš of Falkenstein — exactly how or when he acquired it isn't entirely clear; the most likely account has King Wenceslas II granting him the surrounding lands around 1285. After Otakar II's death at Marchfeld in 1278, Svojanov passed into the hands of Dowager Queen Kunigunda, and it was here, rather than in Prague itself, that she grew close to Záviš. For several years afterward, this castle — not the royal seat at Prague Castle — was the couple's actual home base and the real center of power in the kingdom, the place from which Záviš quietly ran Bohemia's affairs while the boy-king Wenceslas grew up under other men's guardianship.
+
+That arrangement ended here too. In January 1289, with Elizabeth of Hungary having just given birth to a son, Záviš personally invited Wenceslas to Svojanov to attend the boy's christening — and it was here, at the very castle that had once been his and Kunigunda's own seat of power, that Wenceslas had him arrested instead. Once Záviš was in chains, the castle reverted directly to the crown.
+
+Svojanov survived long enough to matter again: Charles IV's own proposed legal code, the Majestas Carolina, named it one of eleven castles the crown could never alienate — though his son Sigismund pawned it away anyway during the Hussite Wars. Today it's a well-preserved ruin open to visitors in eastern Bohemia's Svitavy district, with a keep and surviving walls worth the climb, set in quiet countryside a fair distance from Prague — plan this one as a dedicated day trip rather than a stop along another route.
+
+🎁 Bonus: for a few years in the late 1270s and early 1280s, the real seat of Bohemian power wasn't a palace or a cathedral city — it was this modest castle in the eastern hills, run by a widowed queen and the man the kingdom's own chronicles never quite forgave her for loving.`,
+
+      cz: `Hrad Svojanov strávil pár krátkých let jako neoficiální hlavní město Čech — ne proto, že by to kdokoli vyhlásil, ale prostě proto, že tu spolu bydleli dva nejmocnější lidé v království a odsud potichu řídili zemi, z pevnosti, o které dnes většina Čechů v životě neslyšela.
+
+Nejstarší dochovaná zmínka o hradu pochází z roku 1287, kdy už patřil Závišovi z Falkenštejna — jak přesně a kdy jej získal, není úplně jasné; nejpravděpodobnější verze říká, že mu kolem roku 1285 král Václav II. daroval okolní pozemky. Po smrti Otakara II. na Moravském poli v roce 1278 připadl Svojanov vdově královně Kunhutě, a právě tady, ne v samotné Praze, se sblížila se Závišem. Po několik následujících let byl tenhle hrad — ne královské sídlo na Pražském hradě — jejich skutečným domovem a opravdovým centrem moci v království, místem, odkud Záviš potichu řídil české záležitosti, zatímco chlapecký král Václav vyrůstal pod poručnictvím jiných mužů.
+
+I tohle uspořádání skončilo právě tady. V lednu 1289, poté co Alžběta Uherská právě porodila syna, pozval Záviš Václava osobně na Svojanov na křtiny chlapce — a bylo to přímo na tomhle hradě, kdysi jeho a Kunhutině vlastním sídle moci, kde ho Václav místo toho nechal zatknout. Jakmile byl Záviš v poutech, hrad připadl přímo koruně.
+
+Svojanov přežil dost dlouho na to, aby ještě jednou získal na významu: Karel IV. ho ve svém navrhovaném zákoníku, Majestas Carolina, zařadil mezi jedenáct hradů, které koruna nikdy nesmí zcizit — jeho syn Zikmund ho přesto během husitských válek zastavil. Dnes je to dobře zachovalá zřícenina otevřená návštěvníkům ve východočeském Svitavsku, s věží a dochovanými hradbami, které stojí za výstup, uprostřed klidné krajiny pěkný kus cesty od Prahy — naplánujte si ho spíš jako samostatný celodenní výlet než jako zastávku na cestě někam jinam.
+
+🎁 Bonus: na pár let na konci 70. a začátku 80. let 13. století nesídlilo skutečné centrum české moci v žádném paláci ani katedrálním městě — ale v tomhle skromném hradu ve východních kopcích, který řídila ovdovělá královna a muž, kterého jí vlastní dobové kroniky nikdy úplně neodpustily milovat.`,
+
+      zh: `斯沃亚诺夫城堡曾经短短几年间，事实上充当过波希米亚的"非官方首都"——不是因为谁正式这么宣布过，只是因为当时王国里最有权势的两个人恰好就住在这里，从这座如今大多数捷克人压根没听说过的城堡里，悄悄地治理着整个国家。
+
+这座城堡有据可查的最早记载来自1287年，当时它已经属于扎维什·冯·法尔肯斯坦——他具体是什么时候、怎么弄到手的，并不十分清楚；最可能的说法是，大约1285年，国王瓦茨拉夫二世把周边的土地赐给了他。1278年奥托卡二世死于马尔希费尔德战役后，斯沃亚诺夫落入了寡后库尼贡达手中，也正是在这里，而不是在布拉格本身，她和扎维什走到了一起。此后好几年，这座城堡——而不是布拉格城堡这个正式的王室驻地——才是这对情侣真正的大本营和王国权力的实际中心，扎维什就是从这里悄悄操控着波希米亚的国事，而当时的少年国王瓦茨拉夫，还在别的男人的监护之下慢慢长大。
+
+这份安排，也正是在这里画上句号的。1289年1月，就在伊丽莎白·冯·匈牙利刚生下一个儿子之后，扎维什亲自邀请瓦茨拉夫来斯沃亚诺夫参加孩子的洗礼——而正是在这座曾经是他和库尼贡达自己权力中心的城堡里，瓦茨拉夫却下令把他逮捕了。扎维什一戴上镣铐，这座城堡就直接收归了王室。
+
+斯沃亚诺夫活得够久，后来又一次变得举足轻重：查理四世在他提出的《卡罗林纳法典》（Majestas Carolina）里，把它列进了王室永远不得转让的十一座城堡名单——尽管他的儿子西吉斯蒙德还是在胡斯战争期间把它典当了出去。如今它是一座保存完好、对外开放的城堡遗迹，位于波希米亚东部的斯维塔维地区，主塔和残存的城墙都值得爬上去看看，四周是一片安静的乡野，离布拉格有相当一段距离——建议把它当成一次专程的一日游，而不是顺路的中途一站。
+
+🎁 彩蛋：13世纪70年代末到80年代初的那几年，波希米亚真正的权力中心，既不在哪座宫殿，也不在哪座主教座堂所在的城市——而是在东部山丘间的这座朴素城堡里，由一位寡居的王后，和一个连当时的编年史都始终没能完全原谅她爱上的男人，共同掌管着。`,
+    },
+  },
+  {
+    // Rewrite 2026-08-23: this already existed as an old-schema preset
+    // (isPreset/category/difficulty fields, gimmicky "Brave explorer...
+    // Unlock its secret" voice — same off-voice pattern already fixed once
+    // for prague-castle) with only a thin description. Rewritten to support
+    // king-who-didnt-settle-scores-1292's relatedLandmarks, in the
+    // established voice, with the fuller history: Otakar II's own 1268
+    // hunting lodge, Wenceslas II's 1292 refounding as the Cistercian
+    // monastery Aula Regia, and the Zbraslav Chronicle's own authorship
+    // here. Other pre-existing fields (coordinates, category, difficulty,
+    // isPreset, coverImage, pixelArtKey, rarity, xpReward, labels) left
+    // untouched — only `description` changed.
+    name: 'Zbraslav Chateau',
+    slug: 'zbraslavsky-zamek',
+    localizedNames: { cz: 'Zbraslavský zámek', zh: '兹布拉斯拉夫宫' },
+    labels: ['palace', 'historical', 'cultural', 'architecture', 'castle and fortress'],
+    coordinates: { lat: 49.978213229870725, lng: 14.391768914282338 },
+    rarity: 'legend',
+    xpReward: 100,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Zbraslav_Monastery',
+    description: {
+      en: `Zbraslav Chateau spent its first five centuries as a monastery holding the tombs of actual kings, and its last two as an art museum holding Tibetan scroll paintings and Japanese Noh masks — genuinely one of the stranger career changes any building in Bohemia has managed.
+
+The site started out, in 1268, as King Otakar II's own private retreat — a hunting lodge and manor he built for himself just outside Prague, at the spot where the Berounka meets the Vltava, complete with its own vineyards. His son Wenceslas II inherited the estate after Marchfeld, and in 1292 replaced it entirely: a Cistercian monastery, staffed by monks brought in from Sedlec (Bohemia's oldest Cistercian house) at the urging of its abbot, Heidenreich, a longtime friend of the king. Wenceslas named it Zbraslav, in Latin Aula Regia — the Royal Hall — and meant it, quite literally, as the new resting place for Bohemia's kings. He was buried here himself in 1305; his son Wenceslas III, assassinated the following year, eventually joined him too, though his remains were later lost.
+
+The monastery earned a second, quieter kind of fame: it's where the Zbraslav Chronicle was written, across the following decades, by two of its own successive abbots. It remains one of the single most important surviving sources for this exact period of Bohemian history — vivid, opinionated, occasionally prone to reading current events as acts of divine judgment, and not always entirely reliable on the finer details, but essential all the same.
+
+None of the medieval building survives. The Hussite Wars gutted the monastery in 1420, and what stands today is an entirely different structure: a Baroque chateau built over the ruins, now home to the National Gallery's collection of Asian art — meaning a visitor here can walk from a courtyard built to replace a royal tomb straight into a room full of Japanese theatre masks and Tibetan thangka paintings.
+
+🎁 Bonus: the chateau still sits directly at the river confluence the medieval monks chose on purpose — Cistercian houses were built near water as a practical matter (mills, irrigation, plumbing), whatever spiritual symbolism later got read into the location afterward.`,
+
+      cz: `Zbraslavský zámek strávil svých prvních pět století jako klášter s hrobkami skutečných králů a poslední dvě jako umělecké muzeum s tibetskými svitkovými malbami a japonskými maskami divadla Noh — opravdu jedna z podivnějších kariérních proměn, jakou kdy prošla nějaká budova v Čechách.
+
+Místo začínalo v roce 1268 jako soukromé útočiště krále Otakara II. — lovecký hrádek a dvorec, který si postavil kousek za Prahou, přesně tam, kde se Berounka vlévá do Vltavy, s vlastními vinicemi. Jeho syn Václav II. panství zdědil po Moravském poli a v roce 1292 ho celé nahradil: cisterciáckým klášterem, obsazeným mnichy povolanými ze Sedlce (nejstaršího cisterciáckého domu v Čechách) na naléhání jeho opata Heidenreicha, dlouholetého přítele krále. Václav ho pojmenoval Zbraslav, latinsky Aula Regia — Královská síň — a myslel to doslova jako nové místo posledního odpočinku českých králů. Sám tu byl pohřben v roce 1305; jeho syn Václav III., zavražděný o rok později, se k němu nakonec taky připojil, ačkoli jeho ostatky se později ztratily.
+
+Klášter si vysloužil ještě jeden, tišší druh slávy: právě tady byla v následujících desetiletích sepsána Zbraslavská kronika, a to dvěma jeho vlastními po sobě jdoucími opaty. Zůstává jedním z vůbec nejdůležitějších dochovaných pramenů pro přesně tohle období českých dějin — živá, názorová, občas náchylná číst dobové události jako projevy božího soudu, a ne vždy úplně spolehlivá v jemnějších detailech, ale přesto nepostradatelná.
+
+Ze středověké budovy se nedochovalo vůbec nic. Husitské války klášter v roce 1420 vyplenily, a to, co tu stojí dnes, je úplně jiná stavba: barokní zámek postavený nad troskami, dnes domov sbírky asijského umění Národní galerie — takže návštěvník tu může projít ze nádvoří postaveného na místě královské hrobky rovnou do místnosti plné japonských divadelních masek a tibetských malovaných svitků thangka.
+
+🎁 Bonus: zámek dodnes stojí přesně na tom soutoku řek, který si středověcí mniši vybrali záměrně — cisterciácké domy se stavěly u vody z čistě praktických důvodů (mlýny, zavlažování, vodovod), ať už se do té polohy později vkládal jakýkoli duchovní symbolismus.`,
+
+      zh: `兹布拉斯拉夫宫，前五百年是一座保存着真正国王陵墓的修道院，后两百年则变成了一座收藏西藏唐卡卷轴画和日本能剧面具的艺术博物馆——这大概是波希米亚境内某座建筑经历过的最离奇的"职业转型"之一。
+
+这个地方最早是1268年国王奥托卡二世给自己修的一处私人休憩地——一座猎苑和庄园，就建在布拉格城外、贝劳恩卡河汇入伏尔塔瓦河的地方，还带着自己的葡萄园。他的儿子瓦茨拉夫二世在马尔希费尔德战役后继承了这处产业，1292年把它整个换了个身份：改建成了一座熙笃会修道院，修士是应修道院院长海登赖希（国王多年的老友）的请求，从塞德莱茨（波希米亚最古老的熙笃会修道院）调来的。瓦茨拉夫给它取名"兹布拉斯拉夫"，拉丁语作"Aula Regia"——"王室大厅"——而且是真心打算把这里当作波希米亚历代国王新的长眠之地：他本人1305年就葬在这里；他的儿子瓦茨拉夫三世次年遇刺身亡后，最终也葬入了这里，尽管遗骨后来下落不明。
+
+这座修道院还赢得了另一种更低调的名声：接下来的几十年里，《兹布拉斯拉夫编年史》正是在这里，由修道院两任先后接任的院长写成的。它至今仍是这段波希米亚历史时期最重要的现存史料之一——生动、带着鲜明立场、偶尔倾向于把时事解读成神的审判，在细节上也不总是完全可靠，但依然不可或缺。
+
+中世纪的建筑本体，如今一砖一瓦都没能留下。1420年胡斯战争洗劫了这座修道院，今天矗立在这里的是一座完全不同的建筑：建在废墟之上的一座巴洛克宫殿，如今是国家美术馆亚洲艺术藏品的所在地——这意味着游客可以从一座建在王陵原址上的庭院，径直走进一间摆满日本戏剧面具和西藏唐卡画的展厅。
+
+🎁 彩蛋：这座宫殿至今仍矗立在当年中世纪僧侣特意选中的那处河流交汇处——熙笃会修道院选址靠近水源，出于的其实是纯粹实用的考虑（磨坊、灌溉、供水），不管后人给这个位置附会了多少精神象征意义。`,
     },
   },
 ];

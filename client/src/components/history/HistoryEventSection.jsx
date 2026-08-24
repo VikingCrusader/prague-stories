@@ -99,13 +99,39 @@ export default function HistoryEventSection({ event, onOpenLandmark, sectionRef 
               lines, same convention LocationDetail uses for `description`, so a
               '\n\n' in the source data renders as a paragraph break instead of
               collapsing into one dense block. Falls back to a single <p> for
-              the (still-common) one-paragraph summaries. */}
+              the (still-common) one-paragraph summaries.
+
+              A paragraph that's just a "[[quote:N]]" marker (its own line,
+              nothing else) is swapped for event.quotes[N] and rendered as a
+              distinct blockquote — decorative quotation marks, italic text,
+              a right-aligned "— Source" attribution — instead of a plain
+              <p>. Lets a primary-source quote stand apart from the summary's
+              own prose instead of sitting inline as quoted text. */}
           {convert(event.summary[lang] || event.summary.en)
             .split("\n")
             .filter((p) => p.trim())
-            .map((para, i) => (
-              <p key={i} className="history-event__summary">{para}</p>
-            ))}
+            .map((para, i) => {
+              const quoteMatch = para.trim().match(/^\[\[quote:(\d+)\]\]$/);
+              if (quoteMatch) {
+                const quote = event.quotes?.[Number(quoteMatch[1])];
+                if (!quote) return null;
+                return (
+                  <blockquote key={i} className="history-event__quote">
+                    <p className="history-event__quote-text">
+                      {convert(quote.text[lang] || quote.text.en)}
+                    </p>
+                    {(quote.attribution?.[lang] || quote.attribution?.en) && (
+                      <cite className="history-event__quote-attribution">
+                        — {convert(quote.attribution[lang] || quote.attribution.en)}
+                      </cite>
+                    )}
+                  </blockquote>
+                );
+              }
+              return (
+                <p key={i} className="history-event__summary">{para}</p>
+              );
+            })}
 
           {event.images?.map((src) => (
             <img key={src} className="history-event__image" src={src} alt="" />

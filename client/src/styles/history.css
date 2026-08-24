@@ -170,6 +170,7 @@
    comes back later; not dead code to delete casually. */
 .era-legends-origins        { --era-accent: #d4a94a; }
 .era-bohemian-duchy         { --era-accent: #c08a3e; }
+.era-rise-of-a-kingdom      { --era-accent: #8a6d3f; }
 .era-kingdom-golden-age     { --era-accent: #ffd700; }
 .era-religious-turmoil      { --era-accent: #b83030; }
 .era-renaissance-baroque    { --era-accent: #a070d0; }
@@ -329,6 +330,53 @@
   line-height: 1.6;
   color: var(--text-primary);
   margin-bottom: 14px;
+}
+
+/* A primary-source quote pulled out of the summary's own prose via a
+   "[[quote:N]]" marker (see HistoryEventSection) and rendered as its own
+   distinct block — a bordered box with large decorative quotation marks
+   bracketing italic text, and a right-aligned "— Source" attribution line,
+   rather than sitting inline as quoted text inside a regular paragraph. */
+.history-event__quote {
+  position: relative;
+  margin: 0 0 14px;
+  padding: 10px 34px;
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+  background: rgba(212, 169, 74, 0.06);
+}
+.history-event__quote-text {
+  font-size: 16px;
+  line-height: 1.6;
+  font-style: italic;
+  color: var(--text-primary);
+  margin: 0;
+}
+.history-event__quote-text::before,
+.history-event__quote-text::after {
+  position: absolute;
+  font-size: 32px;
+  line-height: 1;
+  color: var(--gold);
+  opacity: 0.6;
+}
+.history-event__quote-text::before {
+  content: '\201C';
+  top: 2px;
+  left: 10px;
+}
+.history-event__quote-text::after {
+  content: '\201D';
+  bottom: -4px;
+  right: 10px;
+}
+.history-event__quote-attribution {
+  display: block;
+  font-style: normal;
+  text-align: right;
+  color: var(--gold);
+  font-size: 14px;
+  margin-top: 6px;
 }
 .history-event__reference-maps {
   margin-bottom: 14px;

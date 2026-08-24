@@ -1,4 +1,4 @@
-// Seed script for the History Timeline's HistoryEvent documents. Mirrors the
+module.exports = (function(){ // Seed script for the History Timeline's HistoryEvent documents. Mirrors the
 // upsert pattern in seedLocations.js: idempotent, $setOnInsert so re-running
 // never clobbers manual edits made after the fact.
 //
@@ -15,7 +15,7 @@ import "dotenv/config";
 import { connectDB } from "../config/db.js";
 import HistoryEvent from "../models/HistoryEvent.js";
 
-export const historyEvents = [
+const historyEvents = [
   {
     slug: "early-history",
     era: "legends-origins",
@@ -1783,10 +1783,8 @@ export const historyEvents = [
     // Deliberate cross-chapter foreshadowing (2026-08): the Judith Bridge is
     // Prague's first stone crossing, destroyed in the 1342 flood and rebuilt
     // on nearly the same site as Charles Bridge under Charles IV. That
-    // future event — expected in Era 4 (kingdom-golden-age, now narrowed to
-    // 1346-1378 / Charles IV's actual reign — see the 2026-08-23 era split
-    // note in data/historyEras.js), not yet seeded — should explicitly
-    // reference this one back (Charles Bridge
+    // future event — expected in Era 3 (kingdom-golden-age), not yet
+    // seeded — should explicitly reference this one back (Charles Bridge
     // exists because this bridge didn't survive) rather than introducing
     // Charles Bridge as if the Vltava had no crossing before it.
     slug: "judith-bridge-1170",
@@ -1914,17 +1912,14 @@ export const historyEvents = [
     wikipediaUrl: "https://en.wikipedia.org/wiki/Ottokar_I_of_Bohemia",
   },
   // ─────────────────────────────────────────────────────────────────────
-  // Era 3: rise-of-a-kingdom (1199–1345) — renamed 2026-08-23 from
-  // kingdom-golden-age, split off when 'golden age' got narrowed to mean
-  // Charles IV's reign specifically (1346-1378, now Era 4, still unseeded).
-  // First batch, 2026-08-21, covering 1199–1253 (Otakar I's family
-  // maneuvering through Wenceslas I's death). See project memory for the
-  // Era 3/Era 4 boundary decision (Wenceslas IV's 1378–1419 reign belongs
-  // to what's now Era 5, religious-turmoil, not this one).
+  // Era 3: kingdom-golden-age (1212–1378). First batch, 2026-08-21,
+  // covering 1199–1253 (Otakar I's family maneuvering through Wenceslas
+  // I's death). See project memory for the Era 3/Era 4 boundary decision
+  // (Wenceslas IV's 1378–1419 reign belongs to Era 4, not this one).
   // ─────────────────────────────────────────────────────────────────────
   {
     slug: "otakar-i-family-purge-1199",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1199,
     year: {
       en: "1199–1230",
@@ -1966,7 +1961,7 @@ export const historyEvents = [
     // sidebar year slot (filtered out in HistorySidebar/HistoryPage) so this
     // never renders anywhere but the feed.
     slug: "same-name-different-guy-1199",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1199.5,
     cardType: "background",
     year: {
@@ -1995,7 +1990,7 @@ export const historyEvents = [
   },
   {
     slug: "st-agnes-of-bohemia-1211",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1211,
     year: {
       en: "1211–1282",
@@ -2051,7 +2046,7 @@ export const historyEvents = [
     // (project_kingdom_golden_age_content_pass.md, 2026-08-22) for the
     // illustration-prompt implications.
     slug: "gothic-architecture-arrives-1231",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1211.5,
     cardType: "background",
     year: {
@@ -2080,7 +2075,7 @@ export const historyEvents = [
   },
   {
     slug: "stone-prague-1230",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1230,
     year: {
       en: "1230s–1250s",
@@ -2134,7 +2129,7 @@ export const historyEvents = [
   },
   {
     slug: "enemy-of-my-enemy-1236",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1236,
     year: {
       en: "1236–1246",
@@ -2172,7 +2167,7 @@ export const historyEvents = [
   },
   {
     slug: "mongol-invasion-1241",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1241,
     year: {
       en: "1241",
@@ -2206,7 +2201,7 @@ export const historyEvents = [
     // renders anywhere but the feed. No image, per the established default
     // for background cards (see bohemia-not-one-city-1101's note).
     slug: "what-was-the-mongol-invasion-1241",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1241.5,
     cardType: "background",
     year: {
@@ -2235,7 +2230,7 @@ export const historyEvents = [
   },
   {
     slug: "the-boy-king-1246",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1246,
     year: {
       en: "1246–1249",
@@ -2287,7 +2282,7 @@ export const historyEvents = [
     // question the-boy-king-1246 raises: how could Bohemia legitimately
     // inherit Austria at all, rather than just invading it?
     slug: "marrying-into-a-duchy-1246",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1246.5,
     cardType: "background",
     year: {
@@ -2316,7 +2311,7 @@ export const historyEvents = [
   },
   {
     slug: "otakar-gets-austria-1251",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1251,
     year: {
       en: "1250–1252",
@@ -2372,7 +2367,7 @@ export const historyEvents = [
   },
   {
     slug: "wenceslas-i-death-1253",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1253,
     year: {
       en: "1253",
@@ -2418,7 +2413,7 @@ export const historyEvents = [
   },
   {
     slug: "the-crown-he-didnt-win-1254",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1254,
     year: {
       en: "1254",
@@ -2447,7 +2442,7 @@ export const historyEvents = [
   },
   {
     slug: "jewish-community-charter-1254",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1254.1,
     year: {
       en: "1254",
@@ -2492,7 +2487,7 @@ export const historyEvents = [
     // sidebar year slot (filtered out in HistorySidebar/HistoryPage) and, per
     // the established default, carry no image and no related landmarks.
     slug: "jewish-diaspora-to-central-europe-1254",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1254.2,
     cardType: "background",
     year: {
@@ -2528,7 +2523,7 @@ export const historyEvents = [
     // covers Josefov as a physical place, answering "why does only the
     // Old-New Synagogue survive from before 1689, let alone before 1254?"
     slug: "josefov-asanace-1893",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1254.25,
     cardType: "background",
     year: {
@@ -2557,7 +2552,7 @@ export const historyEvents = [
   },
   {
     slug: "peace-with-cousin-bela-1254",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1254.3,
     year: {
       en: "1254",
@@ -2586,7 +2581,7 @@ export const historyEvents = [
   },
   {
     slug: "konigsberg-1255",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1255,
     year: {
       en: "1254–1268",
@@ -2625,7 +2620,7 @@ export const historyEvents = [
     // Town/Havelské Město merger — worth citing directly when that card
     // gets written.
     slug: "founding-of-mala-strana-1257",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1257,
     year: {
       en: "1257",
@@ -2663,7 +2658,7 @@ export const historyEvents = [
   },
   {
     slug: "battle-of-kressenbrunn-1260",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1260,
     year: {
       en: "1260",
@@ -2710,7 +2705,7 @@ export const historyEvents = [
   },
   {
     slug: "marrying-kunigunda-1261",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1261,
     year: {
       en: "1260–1261",
@@ -2739,7 +2734,7 @@ export const historyEvents = [
   },
   {
     slug: "iron-and-golden-king-1266",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1266,
     year: {
       en: "1266–1269",
@@ -2892,7 +2887,7 @@ export const historyEvents = [
   },
   {
     slug: "sudetes-to-adriatic-1272",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1272,
     year: {
       en: "1272–1273",
@@ -2924,7 +2919,7 @@ export const historyEvents = [
   },
   {
     slug: "rudolf-of-habsburg-elected-1273",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1273,
     year: {
       en: "1273–1274",
@@ -2960,7 +2955,7 @@ export const historyEvents = [
     // marrying-into-a-duchy-1246's own forward-hook about the 1526
     // Habsburg inheritance of Bohemia — same punchline, now properly set up.
     slug: "house-of-habsburg-1273",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1273.5,
     cardType: "background",
     year: {
@@ -2989,7 +2984,7 @@ export const historyEvents = [
   },
   {
     slug: "enemies-on-every-side-1276",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1276,
     year: {
       en: "1276",
@@ -3051,7 +3046,7 @@ export const historyEvents = [
     // arc, and the genuine (Austria, not specifically Styria — checked and
     // not found) cross-border foothold, per the user's explicit request.
     slug: "who-are-the-vitkovci-1276",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1276.5,
     cardType: "background",
     year: {
@@ -3080,7 +3075,7 @@ export const historyEvents = [
   },
   {
     slug: "battle-of-marchfeld-1278",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1278,
     year: {
       en: "1278",
@@ -3126,7 +3121,7 @@ export const historyEvents = [
   },
   {
     slug: "three-guardians-1279",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1279,
     year: {
       en: "1278–1279",
@@ -3184,7 +3179,7 @@ export const historyEvents = [
   },
   {
     slug: "king-returns-to-prague-1283",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1283,
     year: {
       en: "1282–1283",
@@ -3204,42 +3199,16 @@ export const historyEvents = [
       zh: "三个互相较劲的监护人没能做到的事，一场饥荒做到了——它终于把这位十一岁的国王送回了家。",
     },
     summary: {
-      en: "Otto's regency had a body count even before the famine. From 1280 onward, war and the disruption it left behind meant fields went unworked and unmanaged, and Bohemia's food supply had already been quietly shrinking for two years by the time it collapsed outright. Famine hit Bohemia and Moravia hard in the spring of 1282 — and it hit Moravia hardest of all.\n\nThe chronicler Henry of Heimburg didn't mince words about what he saw:\n\n[[quote:0]]\n\nThe sheer misery of a kingdom falling apart finally provoked real anger among Bohemia's nobility, who forced the issue and pushed for Wenceslas's return. Otto didn't go quietly — he dragged the negotiations out for as long as he could and kept raising his price, angling to walk away with a chunk of northern Bohemia as the toll for letting the boy go. Rudolf of Habsburg, who would go on to become one of Wenceslas's own advisors and was never exactly a neutral party in any of this, refused to back Otto's demands — and ultimately stripped him of the claims outright.\n\nKing Wenceslas II's return, in May 1283, looked for a moment like the start of better days. The Continuator of Cosmas — the chronicler tradition carrying on where Cosmas of Prague's own history left off — described the scene:\n\n[[quote:1]]\n\nHe was coming home to a kingdom that had just spent two years quietly starving under the men supposedly protecting it — but for one afternoon in Prague, that could wait.",
-      cz: "Otova regentská vláda měla na svědomí mrtvé ještě předtím, než přišel hladomor. Od roku 1280 válka a zmatek, který po sobě zanechala, znamenaly, že pole zůstávala neobdělaná a bez správy, a české zásoby potravin se už dva roky předtím tiše zmenšovaly, než se situace úplně zhroutila. Na jaře 1282 udeřil hladomor naplno na Čechy i Moravu — a nejtvrději dopadl právě na Moravu.\n\nKronikář Jindřich z Heimburka nešel kolem horké kaše:\n\n[[quote:0]]\n\nVyloženě zoufalá bída rozpadajícího se království nakonec vyvolala skutečný hněv mezi českou šlechtou, která vyvinula tlak a prosadila Václavův návrat. Ota se nevzdal snadno — táhl vyjednávání, jak dlouho to jen šlo, a stále zvyšoval svou cenu, s vidinou, že si za propuštění chlapce odnese kus severních Čech. Rudolf Habsburský, který se později sám stal jedním z Václavových rádců a v ničem z toho nikdy nebyl úplně nestrannou stranou, odmítl Otovy nároky podpořit — a nakonec mu tato práva rovnou odebral.\n\nNávrat krále Václava II. v květnu 1283 na chvíli vypadal jako začátek lepších časů. Pokračovatel Kosmy — kronikářská tradice navazující tam, kde skončila vlastní kronika Kosmy Pražského — tu scénu popsal takto:\n\n[[quote:1]]\n\nVracel se do království, které si právě dva roky v tichosti hladovělo pod muži, kteří ho měli chránit — ale na jedno pražské odpoledne to počkalo.",
-      zh: "奥托的摄政期，早在饥荒到来之前就已经欠下了人命债。自1280年起，战争及其留下的混乱，导致田地无人耕种、疏于管理，波希米亚的粮食储备在彻底崩溃前，其实已经悄悄萎缩了整整两年。1282年春天，饥荒重重砸在了波希米亚和摩拉维亚身上——而摩拉维亚受灾最重。\n\n编年史家海姆布尔的亨利没有避重就轻：\n\n[[quote:0]]\n\n王国分崩离析的这份彻底的凄惨，终于激起了波希米亚贵族真正的愤怒，他们出面施压，推动瓦茨拉夫回国。奥托没有轻易让步——他把谈判尽可能地拖长，还不断抬高价码，指望靠放人换来波希米亚北部的一块领土。哈布斯堡的鲁道夫——他后来成了瓦茨拉夫自己的顾问之一，而且在这整件事里也从来算不上真正中立——拒绝支持奥托的要价，最终干脆剥夺了他的这些权利。\n\n1283年5月，国王瓦茨拉夫二世的归来，一度看起来像是好日子的开端。“科斯马斯继修者”——延续科斯马斯本人编年史传统的那批史家——如此描述了当时的场景：\n\n[[quote:1]]\n\n他回到的，是一个刚刚在“保护者”手底下悄悄挨饿了两年的王国——但那个布拉格的下午，这些暂时都可以先放一放。",
+      en: "Otto's regency had a body count even before the famine. From 1280 onward, war and the disruption it left behind meant fields went unworked and unmanaged, and Bohemia's food supply had already been quietly shrinking for two years by the time it collapsed outright. Famine hit Bohemia and Moravia hard in the spring of 1282 — and it hit Moravia hardest of all.\n\nThe chronicler Henry of Heimburg didn't mince words about what he saw: \"In 1282, the famine was so severe, and robbery so frequent, that so many poor people died in Moravia that they couldn't all be properly buried. Bodies found in the fields and villages were thrown into large pits, and once a pit was full, it was finally covered over with earth.\"\n\nThe sheer misery of a kingdom falling apart finally provoked real anger among Bohemia's nobility, who forced the issue and pushed for Wenceslas's return. Otto didn't go quietly — he dragged the negotiations out for as long as he could and kept raising his price, angling to walk away with a chunk of northern Bohemia as the toll for letting the boy go. Rudolf of Habsburg, who would go on to become one of Wenceslas's own advisors and was never exactly a neutral party in any of this, refused to back Otto's demands — and ultimately stripped him of the claims outright.\n\nKing Wenceslas II's return, in May 1283, looked for a moment like the start of better days. The Continuator of Cosmas — the chronicler tradition carrying on where Cosmas of Prague's own history left off — described the scene: \"When he arrived on 24 May, nobles and knights from miles around came out to meet him. The clergy and the people of the whole city came out together to greet him, holding a grand procession before the castle gate, singing 'Advenisti desiderabilis' and other hymns and songs, while the common people sang 'Lord, have mercy on us.'\" He was coming home to a kingdom that had just spent two years quietly starving under the men supposedly protecting it — but for one afternoon in Prague, that could wait.",
+      cz: "Otova regentská vláda měla na svědomí mrtvé ještě předtím, než přišel hladomor. Od roku 1280 válka a zmatek, který po sobě zanechala, znamenaly, že pole zůstávala neobdělaná a bez správy, a české zásoby potravin se už dva roky předtím tiše zmenšovaly, než se situace úplně zhroutila. Na jaře 1282 udeřil hladomor naplno na Čechy i Moravu — a nejtvrději dopadl právě na Moravu.\n\nKronikář Jindřich z Heimburka nešel kolem horké kaše: „V roce 1282 byl hladomor tak zlý a loupeže tak časté, že na Moravě zemřelo tolik chudých lidí, že je nebylo možné všechny řádně pohřbít. Těla nalezená v polích a vesnicích házeli do velkých jam, a jakmile se jáma naplnila, nakonec ji zasypali zemí.\"\n\nVyloženě zoufalá bída rozpadajícího se království nakonec vyvolala skutečný hněv mezi českou šlechtou, která vyvinula tlak a prosadila Václavův návrat. Ota se nevzdal snadno — táhl vyjednávání, jak dlouho to jen šlo, a stále zvyšoval svou cenu, s vidinou, že si za propuštění chlapce odnese kus severních Čech. Rudolf Habsburský, který se později sám stal jedním z Václavových rádců a v ničem z toho nikdy nebyl úplně nestrannou stranou, odmítl Otovy nároky podpořit — a nakonec mu tato práva rovnou odebral.\n\nNávrat krále Václava II. v květnu 1283 na chvíli vypadal jako začátek lepších časů. Pokračovatel Kosmy — kronikářská tradice navazující tam, kde skončila vlastní kronika Kosmy Pražského — tu scénu popsal takto: „Když 24. května dorazil, vyšla mu vstříc šlechta a rytíři z širokého okolí. Duchovenstvo i lid celého města vyšli společně mu vzdát pocty, konali před hradní branou velký průvod, zpívali 'Advenisti desiderabilis' a další hymny a písně, zatímco prostý lid zpíval 'Pane, smiluj se nad námi.'\" Vracel se do království, které si právě dva roky v tichosti hladovělo pod muži, kteří ho měli chránit — ale na jedno pražské odpoledne to počkalo.",
+      zh: "奥托的摄政期，早在饥荒到来之前就已经欠下了人命债。自1280年起，战争及其留下的混乱，导致田地无人耕种、疏于管理，波希米亚的粮食储备在彻底崩溃前，其实已经悄悄萎缩了整整两年。1282年春天，饥荒重重砸在了波希米亚和摩拉维亚身上——而摩拉维亚受灾最重。\n\n编年史家海姆布尔的亨利没有避重就轻：“1282年，饥荒极其严重，抢劫也十分频繁，摩拉维亚死了太多穷人，以至于根本没法把他们都好好埋葬。人们在田野和村庄里找到的尸体，被扔进大坑里，坑一填满，最后就用泥土盖上。”\n\n王国分崩离析的这份彻底的凄惨，终于激起了波希米亚贵族真正的愤怒，他们出面施压，推动瓦茨拉夫回国。奥托没有轻易让步——他把谈判尽可能地拖长，还不断抬高价码，指望靠放人换来波希米亚北部的一块领土。哈布斯堡的鲁道夫——他后来成了瓦茨拉夫自己的顾问之一，而且在这整件事里也从来算不上真正中立——拒绝支持奥托的要价，最终干脆剥夺了他的这些权利。\n\n1283年5月，国王瓦茨拉夫二世的归来，一度看起来像是好日子的开端。“科斯马斯继修者”——延续科斯马斯本人编年史传统的那批史家——如此描述了当时的场景：“5月24日他抵达时，方圆数里的贵族和骑士都出来迎接他。全城的教士和民众一同出来迎接他，在城堡大门前举行了盛大的游行，高唱《Advenisti desiderabilis》及其他赞美诗和歌曲，民众则齐声高唱'主啊，怜悯我们。'”他回到的，是一个刚刚在“保护者”手底下悄悄挨饿了两年的王国——但那个布拉格的下午，这些暂时都可以先放一放。",
     },
-    quotes: [
-      {
-        text: {
-          en: "In 1282, the famine was so severe, and robbery so frequent, that so many poor people died in Moravia that they couldn't all be properly buried. Bodies found in the fields and villages were thrown into large pits, and once a pit was full, it was finally covered over with earth.",
-          cz: "V roce 1282 byl hladomor tak zlý a loupeže tak časté, že na Moravě zemřelo tolik chudých lidí, že je nebylo možné všechny řádně pohřbít. Těla nalezená v polích a vesnicích házeli do velkých jam, a jakmile se jáma naplnila, nakonec ji zasypali zemí.",
-          zh: "1282年，饥荒极其严重，抢劫也十分频繁，摩拉维亚死了太多穷人，以至于根本没法把他们都好好埋葬。人们在田野和村庄里找到的尸体，被扔进大坑里，坑一填满，最后就用泥土盖上。",
-        },
-        attribution: {
-          en: "Henry of Heimburg",
-          cz: "Jindřich z Heimburka",
-          zh: "海姆布尔的亨利",
-        },
-      },
-      {
-        text: {
-          en: "When he arrived on 24 May, nobles and knights from miles around came out to meet him. The clergy and the people of the whole city came out together to greet him, holding a grand procession before the castle gate, singing 'Advenisti desiderabilis' and other hymns and songs, while the common people sang 'Lord, have mercy on us.'",
-          cz: "Když 24. května dorazil, vyšla mu vstříc šlechta a rytíři z širokého okolí. Duchovenstvo i lid celého města vyšli společně mu vzdát pocty, konali před hradní branou velký průvod, zpívali 'Advenisti desiderabilis' a další hymny a písně, zatímco prostý lid zpíval 'Pane, smiluj se nad námi.'",
-          zh: "5月24日他抵达时，方圆数里的贵族和骑士都出来迎接他。全城的教士和民众一同出来迎接他，在城堡大门前举行了盛大的游行，高唱《Advenisti desiderabilis》及其他赞美诗和歌曲，民众则齐声高唱'主啊，怜悯我们。'",
-        },
-        attribution: {
-          en: "Continuator of Cosmas",
-          cz: "Pokračovatel Kosmy",
-          zh: "科斯马斯继修者",
-        },
-      },
-    ],
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Wenceslaus_II_of_Bohemia",
   },
   {
     slug: "wedding-at-cheb-1285",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1285,
     year: {
       en: "1279–1285",
@@ -3259,24 +3228,10 @@ export const historyEvents = [
       zh: "1276年，两个孩子被订婚只是为了给一场战争收尾——九年后，他们才在自己的婚礼当天第一次见面。",
     },
     summary: {
-      en: "The betrothal from a few chapters ago wasn't exactly a love story to begin with — Wenceslas was not quite five years old in 1276, Guta was five, and neither of them had any say whatsoever in a match designed purely to paper over a war their own fathers had just fought. The engagement got formally renewed in 1279, at Jihlava of all places — meaning that even while Otto of Brandenburg had the boy locked up hundreds of kilometers away in Spandau, the paperwork on his eventual marriage was quietly moving forward without him.\n\nThe two of them didn't actually meet until the wedding day itself: 24 January 1285, in the border town of Cheb, roughly as far from Prague as it was from Habsburg territory — a practical midpoint for a marriage that was never really about the two teenagers involved. Wenceslas was thirteen. Guta, three months older, had spent nine years as a name on a treaty before she became an actual person standing across from him.\n\nFor Wenceslas, the timing mattered more than the romance. He'd been back on the Bohemian throne for barely two years, still working to climb out from under the wreckage Otto's regency had left behind, and a marriage this solid — to the daughter of the single most powerful man in the Empire — was exactly the kind of anchor a young king with a shaky grip on his own kingdom needed. It made a second Habsburg invasion considerably less likely, and it gave Wenceslas something no regent or rival baron could easily take away from him: an unimpeachable, permanent tie to Rudolf himself.\n\nWhatever else it was, the marriage seems to have actually worked out personally too. The Zbraslav Chronicle later recorded its own verdict on it, with evident approval:\n\n[[quote:0]]\n\nBack in Prague, though, the political ground he was standing on was considerably less stable than his new marriage. His own mother had spent his years of captivity building an entirely different set of loyalties — and that particular complication was about to become impossible to ignore.",
-      cz: "Zásnuby z minulé kapitoly nebyly zrovna milostným příběhem už od začátku — Václavovi v roce 1276 nebylo ještě ani pět let, Gutě bylo pět, a ani jeden z nich neměl sebemenší slovo do zápalu, který měl jen zamaskovat válku, kterou právě dobojovali jejich vlastní otcové. Zásnuby byly formálně obnoveny v roce 1279, a to zrovna v Jihlavě — což znamenalo, že i ve chvíli, kdy Ota Braniborský držel chlapce zamčeného stovky kilometrů daleko ve Špandavě, papírování kolem jeho budoucího sňatku potichu pokračovalo dál i bez něj.\n\nTi dva se ve skutečnosti poprvé setkali až v den svatby: 24. ledna 1285, v pohraničním městě Cheb, zhruba stejně daleko od Prahy jako od habsburského území — praktický střed cesty pro sňatek, který se od začátku nikdy netýkal ani tak těch dvou mladých lidí samotných. Václavovi bylo třináct. Guta, o tři měsíce starší, strávila devět let jako pouhé jméno ve smlouvě, než se z ní stal skutečný člověk stojící naproti němu.\n\nPro Václava byl důležitější spíš okamžik než romantika. Na českém trůně seděl sotva dva roky, pořád se ještě vyhrabával z trosek, které po sobě zanechala Otova regentská vláda, a takhle pevný sňatek — s dcerou jednoho jediného nejmocnějšího muže v celé říši — byl přesně tou kotvou, jakou mladý král s vratkým sevřením vlastního království potřeboval. Výrazně to snižovalo pravděpodobnost druhé habsburské invaze a dávalo to Václavovi něco, co mu žádný regent ani soupeřící pán nemohl snadno vzít: nezpochybnitelné, trvalé pouto k samotnému Rudolfovi.\n\nAť to bylo cokoli jiného, zdá se, že se ten sňatek nakonec vydařil i v osobní rovině. Zbraslavská kronika o tom později vynesla vlastní verdikt, s očividným souhlasem:\n\n[[quote:0]]\n\nZpátky v Praze ale byla politická půda, na které stál, o dost méně stabilní než jeho nové manželství. Jeho vlastní matka během let jeho zajetí vybudovala úplně jinou síť loajalit — a tahle konkrétní komplikace se právě chystala stát se něčím, co už nešlo přehlížet.",
-      zh: "上几节里提到的那桩婚约，从一开始就压根不是什么爱情故事——1276年时瓦茨拉夫还不满五岁，古塔五岁，两个人对这桩纯粹为了给自己父亲刚打完的那场仗打圆场而安排的婚事，完全没有任何发言权。这桩婚约在1279年正式重新确认了一遍，地点还偏偏选在伊赫拉瓦——也就是说，就在勃兰登堡的奥托把这个男孩锁在几百公里外的施潘道时，他未来这桩婚事的手续，居然还在悄悄地、不需要他本人参与地继续往前推进。\n\n两人真正第一次见面，其实是在婚礼当天：1285年1月24日，在边境小城海布，这里离布拉格和离哈布斯堡领地大致一样远——对于这桩从一开始就跟这两个当事人本身没多大关系的婚姻来说，倒是个务实的中间地点。瓦茨拉夫当时十三岁。古塔比他大三个月，在婚约上当了整整九年的一个名字，直到这一天才第一次变成一个真正站在他面前的人。\n\n对瓦茨拉夫来说，重要的与其说是感情，不如说是时机。他重登波希米亚王位才不过两年，还在从奥托摄政期留下的烂摊子里艰难爬出来，而这么一桩牢靠的婚姻——对象还是帝国境内权势最大的那个人的女儿——正是一位在自己王国里都还没站稳脚跟的年轻国王最需要的定海神针。这大大降低了哈布斯堡再度入侵的可能性，也让瓦茨拉夫得到了一样任何摄政者或对头贵族都没法轻易夺走的东西：一条跟鲁道夫本人牢不可破的纽带。\n\n不管别的怎么样，这桩婚姻看起来在两人私下的关系上，倒也算是修成正果了。《兹布拉斯拉夫编年史》后来对此给出了自己的评价，语气里带着明显的赞许：\n\n[[quote:0]]\n\n不过，布拉格国内他脚下的这片政治土壤，可比他这桩新婚姻要不稳定得多。他的母亲，趁着他被囚禁在外的这几年，已经悄悄经营出了一整套完全不同的人脉和忠诚——而这个特别的隐患，很快就要变得再也没法视而不见了。",
+      en: "The betrothal from a few chapters ago wasn't exactly a love story to begin with — Wenceslas was not quite five years old in 1276, Guta was five, and neither of them had any say whatsoever in a match designed purely to paper over a war their own fathers had just fought. The engagement got formally renewed in 1279, at Jihlava of all places — meaning that even while Otto of Brandenburg had the boy locked up hundreds of kilometers away in Spandau, the paperwork on his eventual marriage was quietly moving forward without him.\n\nThe two of them didn't actually meet until the wedding day itself: 24 January 1285, in the border town of Cheb, roughly as far from Prague as it was from Habsburg territory — a practical midpoint for a marriage that was never really about the two teenagers involved. Wenceslas was thirteen. Guta, three months older, had spent nine years as a name on a treaty before she became an actual person standing across from him.\n\nFor Wenceslas, the timing mattered more than the romance. He'd been back on the Bohemian throne for barely two years, still working to climb out from under the wreckage Otto's regency had left behind, and a marriage this solid — to the daughter of the single most powerful man in the Empire — was exactly the kind of anchor a young king with a shaky grip on his own kingdom needed. It made a second Habsburg invasion considerably less likely, and it gave Wenceslas something no regent or rival baron could easily take away from him: an unimpeachable, permanent tie to Rudolf himself.\n\nWhatever else it was, the marriage seems to have actually worked out personally too. The Zbraslav Chronicle later recorded its own verdict on it, with evident approval: \"The girl of royal blood, beloved by all, greatly pleased the Bohemian king when she came into his bed.\"\n\nBack in Prague, though, the political ground he was standing on was considerably less stable than his new marriage. His own mother had spent his years of captivity building an entirely different set of loyalties — and that particular complication was about to become impossible to ignore.",
+      cz: "Zásnuby z minulé kapitoly nebyly zrovna milostným příběhem už od začátku — Václavovi v roce 1276 nebylo ještě ani pět let, Gutě bylo pět, a ani jeden z nich neměl sebemenší slovo do zápalu, který měl jen zamaskovat válku, kterou právě dobojovali jejich vlastní otcové. Zásnuby byly formálně obnoveny v roce 1279, a to zrovna v Jihlavě — což znamenalo, že i ve chvíli, kdy Ota Braniborský držel chlapce zamčeného stovky kilometrů daleko ve Špandavě, papírování kolem jeho budoucího sňatku potichu pokračovalo dál i bez něj.\n\nTi dva se ve skutečnosti poprvé setkali až v den svatby: 24. ledna 1285, v pohraničním městě Cheb, zhruba stejně daleko od Prahy jako od habsburského území — praktický střed cesty pro sňatek, který se od začátku nikdy netýkal ani tak těch dvou mladých lidí samotných. Václavovi bylo třináct. Guta, o tři měsíce starší, strávila devět let jako pouhé jméno ve smlouvě, než se z ní stal skutečný člověk stojící naproti němu.\n\nPro Václava byl důležitější spíš okamžik než romantika. Na českém trůně seděl sotva dva roky, pořád se ještě vyhrabával z trosek, které po sobě zanechala Otova regentská vláda, a takhle pevný sňatek — s dcerou jednoho jediného nejmocnějšího muže v celé říši — byl přesně tou kotvou, jakou mladý král s vratkým sevřením vlastního království potřeboval. Výrazně to snižovalo pravděpodobnost druhé habsburské invaze a dávalo to Václavovi něco, co mu žádný regent ani soupeřící pán nemohl snadno vzít: nezpochybnitelné, trvalé pouto k samotnému Rudolfovi.\n\nAť to bylo cokoli jiného, zdá se, že se ten sňatek nakonec vydařil i v osobní rovině. Zbraslavská kronika o tom později vynesla vlastní verdikt, s očividným souhlasem: „Dívenka z královské krve, všem milá, se českému králi nesmírně zalíbila, když vstoupila do jeho lože.\"\n\nZpátky v Praze ale byla politická půda, na které stál, o dost méně stabilní než jeho nové manželství. Jeho vlastní matka během let jeho zajetí vybudovala úplně jinou síť loajalit — a tahle konkrétní komplikace se právě chystala stát se něčím, co už nešlo přehlížet.",
+      zh: "上几节里提到的那桩婚约，从一开始就压根不是什么爱情故事——1276年时瓦茨拉夫还不满五岁，古塔五岁，两个人对这桩纯粹为了给自己父亲刚打完的那场仗打圆场而安排的婚事，完全没有任何发言权。这桩婚约在1279年正式重新确认了一遍，地点还偏偏选在伊赫拉瓦——也就是说，就在勃兰登堡的奥托把这个男孩锁在几百公里外的施潘道时，他未来这桩婚事的手续，居然还在悄悄地、不需要他本人参与地继续往前推进。\n\n两人真正第一次见面，其实是在婚礼当天：1285年1月24日，在边境小城海布，这里离布拉格和离哈布斯堡领地大致一样远——对于这桩从一开始就跟这两个当事人本身没多大关系的婚姻来说，倒是个务实的中间地点。瓦茨拉夫当时十三岁。古塔比他大三个月，在婚约上当了整整九年的一个名字，直到这一天才第一次变成一个真正站在他面前的人。\n\n对瓦茨拉夫来说，重要的与其说是感情，不如说是时机。他重登波希米亚王位才不过两年，还在从奥托摄政期留下的烂摊子里艰难爬出来，而这么一桩牢靠的婚姻——对象还是帝国境内权势最大的那个人的女儿——正是一位在自己王国里都还没站稳脚跟的年轻国王最需要的定海神针。这大大降低了哈布斯堡再度入侵的可能性，也让瓦茨拉夫得到了一样任何摄政者或对头贵族都没法轻易夺走的东西：一条跟鲁道夫本人牢不可破的纽带。\n\n不管别的怎么样，这桩婚姻看起来在两人私下的关系上，倒也算是修成正果了。《兹布拉斯拉夫编年史》后来对此给出了自己的评价，语气里带着明显的赞许：“这位出身王室血脉、人人喜爱的姑娘，一进入波希米亚国王的寝宫，就把他迷住了。”\n\n不过，布拉格国内他脚下的这片政治土壤，可比他这桩新婚姻要不稳定得多。他的母亲，趁着他被囚禁在外的这几年，已经悄悄经营出了一整套完全不同的人脉和忠诚——而这个特别的隐患，很快就要变得再也没法视而不见了。",
     },
-    quotes: [
-      {
-        text: {
-          en: "The girl of royal blood, beloved by all, greatly pleased the Bohemian king when she came into his bed.",
-          cz: "Dívenka z královské krve, všem milá, se českému králi nesmírně zalíbila, když vstoupila do jeho lože.",
-          zh: "这位出身王室血脉、人人喜爱的姑娘，一进入波希米亚国王的寝宫，就把他迷住了。",
-        },
-        attribution: {
-          en: "Zbraslav Chronicle",
-          cz: "Zbraslavská kronika",
-          zh: "兹布拉斯拉夫编年史",
-        },
-      },
-    ],
     relatedLandmarks: [
       {
         slug: "jihlava",
@@ -3299,7 +3254,7 @@ export const historyEvents = [
   },
   {
     slug: "the-stepfather-problem-1288",
-    era: "rise-of-a-kingdom",
+    era: "kingdom-golden-age",
     startYear: 1288,
     year: {
       en: "1285–1288",
@@ -3323,503 +3278,8 @@ export const historyEvents = [
       cz: "Ta „úplně jiná síť loajalit\", kterou jeho matka mezitím budovala, nebyla nijak zvlášť skrytá, jakmile člověk věděl, kam se dívat: někdy na počátku 80. let 13. století se vdova královna Kunhuta znovu provdala — za Záviše z Falkenštejna, příslušníka téhož rodu Vítkovců, který se sám Otakar léta snažil držet na uzdě. Přesné datum se nedochovalo (dobovým kronikářům to zjevně přišlo buď příliš samozřejmé, nebo příliš trapné na to, aby si dali práci ho přesně zaznamenat), ale výsledek nebyl sporný: po několik let Záviš fakticky řídil český dvůr po boku královny vdovy.\n\nJe celkem na místě se ptát, jak Kunhuta skončila zrovna s mužem, který v roce 1276 vedl ozbrojené povstání proti jejímu vlastnímu manželovi. Časování ale prozrazuje odpověď: to, proti čemu Záviš tehdy doopravdy vystupoval, nebyly Čechy samotné — byla to Otakarova tvrdá snaha centralizovat královskou moc na úkor velkých krajských pánů, ten samý instinkt, který tahle časová osa už sledovala napříč celým rodem Vítkovců. V době, kdy Kunhuta potřebovala spojence, v chaosu po Moravském poli, měl přesně tenhle instinkt nový a zjevný cíl: cizí regentství Oty Braniborského, které Čechám zvenčí dělalo totéž, co se kdysi Otakar pokoušel dělat jejich šlechtě zevnitř. Dobře napojený, válkou protřelý velmož, který z instinktu nedůvěřoval příliš mocné centrální autoritě, už nebyl Kunhutiným nepřítelem — byl přesně tím spojencem, jakého osamělá vdova, s jediným dítětem drženým jako rukojmí v cizí pevnosti, doopravdy potřebovala. Míň milostný příběh, spíš spojenectví dvou lidí, z nichž každý měl něco, co tomu druhému chybělo.\n\n9. září 1285 Kunhuta v Praze zemřela. Na papíře to měl být okamžik, kdy se celé Závišovo postavení zhroutí — jeho nárok na vliv se přece odvíjel od sňatku s ní, a teď byla pryč. Místo toho se nestalo vůbec nic podobného. Síť loajalit, úřadů a laskavostí, kterou Kunhuta léta potichu budovala, nikdy ve skutečnosti nezávisela jen na ní samotné; Záviš v ní už dávno zapustil vlastní kořeny, a do roku 1285 už k udržení moci nepotřeboval královninu postel. Prostě pokračoval dál.\n\nA nejen pokračoval — ještě si polepšil. Někdy v roce 1287 nebo 1288 se Záviš oženil s Alžbětou Uherskou, sestrou krále Ladislava IV. a dcerou Štěpána V. — což znamenalo, rozkošně, že Václavův vlastní nevlastní otec se právě přiženil přímo do té samé arpádovské rodiny, jejíž král pomohl o deset let dřív zabít jeho skutečného otce na Moravském poli. Ve shodě s jistou rodinnou tradicí, kterou tahle časová osa už dřív zaznamenala (viz Břetislav I. a Jitka ze Svinibrodu, zhruba o dvě a půl století dřív), prý sňatek zahrnoval spíš skutečný únos než zdvořilou nabídku k sňatku, a uherská církev ho navíc od začátku neuznávala za platný — formality, které Záviše nijak nezastavily v tom, aby si to spojenectví stejně nárokoval. Už nebyl jen „milencem královny vdovy\". Byl to mocenský hráč stojící čistě na vlastních nohou, opřený o vlastní manželské spojenectví, nezávislý na komkoli, koho kdysi potřeboval.\n\nPrávě na tomhle pozadí se do svého manžela pustila Guta. Její vlastní otec Rudolf nikdy neměl pro Záviše pochopení — ta stará nevraživost sahala dávno před svatbu — a manželství se ukázalo jako vynikající způsob, jak předat dál i cizí staré křivdy. S vytrvalým povzbuzováním své manželky si téměř dospělý Václav začal skutečně všímat, kolik moci tenhle jeho „nevlastní otec\" doopravdy má. A do roku 1288 se odpověď na tuhle otázku stala něčím, s čím žádný král, který se chystal sám vládnout, už dál nemohl v klidu žít.",
       zh: "他母亲当时正在悄悄经营的那套“完全不同的人脉网络”，其实一点也不难发现，只要知道往哪儿看就行：大约在13世纪80年代初，太后库尼贡达再婚了——嫁给了扎维什·冯·法尔肯斯坦，正是奥托卡本人多年来一直设法压制的那个维特科维奇家族的成员。具体日期没有留下记载（当时的编年史家显然觉得这事要么太理所当然、要么太尴尬，懒得费心记下确切时间），但结果没什么好争的：接下来好几年，扎维什实际上是靠着太后这层关系在掌控波希米亚宫廷。\n\n库尼贡达怎么会偏偏和这个1276年带头武装反叛过她亲夫的人走到一起，这个问题问得很自然。但时间点说明了一切：扎维什当年真正反对的，从来不是波希米亚本身——而是奥托卡不惜牺牲地方大贵族利益、强行集权的做法，这跟这条时间线之前追踪过的整个维特科维奇家族的那套本能，其实是同一回事。等到库尼贡达在马尔希费尔德之后的乱局里急需盟友时，这同一种本能，恰好换了个再明显不过的新目标：勃兰登堡的奥托这场外来摄政，正是从外部对波希米亚干着奥托卡当年想对本国贵族干的同一件事。一个人脉深厚、久经沙场、天生就不信任过度集权的中央权威的豪强，此刻已经不再是库尼贡达的敌人了——他恰恰是一位孤立无援、独子还被当人质关在异国城堡里的寡妇，真正需要的那种盟友。与其说是一段罗曼史，不如说是两个各自缺一块拼图的人，凑到了一起。\n\n1285年9月9日，库尼贡达在布拉格去世。按理说，这本该是扎维什整个地位崩塌的时刻——他对权力的全部主张，说到底都建立在跟她的婚姻之上，如今她人没了。可结果完全不是这么回事。库尼贡达生前花了好几年悄悄搭建起来的这套人脉、官职和恩惠网络，其实从来就不是只靠她一个人撑着的；扎维什早就在这套体系里扎下了自己的根，到1285年，他维持权力早已用不着王后的床榻了。他只是继续走了下去。\n\n而且他不只是继续走下去——他还更进一步。大约在1287年或1288年，扎维什又娶了匈牙利的伊丽莎白——拉迪斯劳斯四世的妹妹、斯蒂芬五世的女儿——这也就意味着，相当有意思的是，瓦茨拉夫的这位继父，刚好又攀上了那个曾经在十年前的马尔希费尔德帮忙杀死他亲生父亲的阿尔帕德家族。跟这条时间线之前记录过的某种家族传统一脉相承（参见布热季斯拉夫一世和施瓦因富特的尤迪特，大约两个半世纪之前的那桩绑亲），据说这桩婚事本身就是靠一场实打实的绑架、而不是体面的求婚促成的，匈牙利教会从一开始也从未承认这桩婚姻合法——这些形式上的问题，都没能阻止扎维什照样把这层姻亲关系拿来当自己的资本。他已经不再只是“太后的情人”了。他成了一个完全靠自己两条腿站稳的实权人物，背后撑腰的是他自己的联姻网络，不再依赖任何他曾经需要过的人。\n\n正是在这样的背景下，古塔开始对自己的丈夫下起了功夫。她自己的父亲鲁道夫，本来就一直看扎维什不顺眼——这份积怨远在这桩婚姻之前就已存在——而婚姻这东西，恰好是把别人的旧怨传递下去的绝佳渠道。在妻子持续不断的怂恿下，已经快要成年的瓦茨拉夫开始真正正视，自己这位“继父”到底手握多大的权力。到了1288年，这个问题的答案，已经变成了一位即将亲政的国王，再也没法安然接受的事实。",
     },
-    relatedLandmarks: [
-      {
-        slug: "svojanov",
-        relation: {
-          en: "The castle where Kunigunda and Záviš actually ran the kingdom from, for years — not a footnote to their relationship, but its real headquarters.",
-          cz: "Hrad, odkud Kunhuta a Záviš po léta skutečně řídili království — ne poznámka pod čarou jejich vztahu, ale jeho skutečné velitelství.",
-          zh: "库尼贡达和扎维什多年来真正治理王国的那座城堡——不是这段关系的一个脚注，而是它真正的大本营。",
-        },
-      },
-    ],
+    relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Z%C3%A1vi%C5%A1_of_Falkenstein",
-  },
-  {
-    slug: "zavis-arrested-1289",
-    era: "rise-of-a-kingdom",
-    startYear: 1289,
-    year: {
-      en: "1289",
-      cz: "1289",
-      zh: "1289年",
-    },
-    images: ["/history/zavis-arrested-1289.webp"],
-    tone: "humorous",
-    title: {
-      en: "An Invitation to His Own Arrest",
-      cz: "Pozvánka na vlastní zatčení",
-      zh: "请君入瓮",
-    },
-    hookLine: {
-      en: "He rode to Prague to personally invite the king to his son's christening. He left in chains.",
-      cz: "Přijel do Prahy osobně pozvat krále na křtiny svého syna. Odjel v poutech.",
-      zh: "他亲自骑马赶到布拉格，邀请国王参加自己儿子的洗礼仪式。结果他是戴着镣铐离开的。",
-    },
-    summary: {
-      en: "By 1288, Wenceslas had all the reasons he needed to move against Záviš. What he didn't have was an easy way to actually do it. Záviš wasn't some isolated favorite who could simply be dismissed — he had his own marriage alliances, his own family's castles across South Bohemia, and years of built-in loyalty inside the very court Wenceslas was trying to run. Arresting a man like that in the open, without warning, meant risking exactly the kind of armed resistance that could turn a palace dispute into a civil war. What Wenceslas actually needed was an opening — a moment when Záviš's guard was down.\n\nThat opening arrived, unintentionally, from Záviš himself. In January 1289, his new wife Elizabeth of Hungary gave birth to a son at Svojanov — the very castle that had served as his and Kunigunda's own base of power for years — and Záviš, in a move that says everything about how secure he'd come to feel in his own position, named the boy Otakar and personally invited Wenceslas to come there for the christening, a friendly gesture from a man who by this point had no reason to expect anything from the boy he'd effectively helped raise but continued goodwill.\n\nHe got arrested instead. The moment Wenceslas arrived at Svojanov, he had Záviš seized on the spot, on a formal charge of high treason — specifically, of plotting the king's own murder. The man who'd spent over a decade as the single most powerful figure in the Bohemian court was taken prisoner inside the very castle that had been his own seat of power, and left it in chains.\n\nHe was moved to Prague Castle and held there as a hostage rather than simply a prisoner — Wenceslas wasn't finished with him yet, and had a very specific use in mind for exactly how much Záviš's own life could still be made to be worth.",
-      cz: "Do roku 1288 měl Václav všechny důvody, které potřeboval, aby proti Závišovi zakročil. Co mu chybělo, byl snadný způsob, jak to skutečně provést. Záviš nebyl žádný osamělý oblíbenec, kterého by šlo jednoduše propustit — měl vlastní manželské spojenectví, vlastní rodinné hrady napříč jižními Čechami a roky vybudované loajality přímo u dvora, který se Václav snažil sám ovládnout. Zatknout takového muže veřejně, bez varování, znamenalo riskovat přesně ten typ ozbrojeného odporu, který by z palácového sporu udělal občanskou válku. Co Václav skutečně potřeboval, byla příležitost — chvíle, kdy bude mít Záviš méně nastraženou stráž.\n\nTahle příležitost přišla, nechtěně, od samotného Záviše. V lednu 1289 porodila jeho nová manželka Alžběta Uherská syna na Svojanově — přesně na tom hradě, který sloužil jemu a Kunhutě jako vlastní sídlo moci celé roky — a Záviš, tahem, který o jeho sebejistotě ve vlastním postavení vypovídá naprosto všechno, chlapce pojmenoval Otakar a osobně pozval Václava, aby přijel na křtiny — přátelské gesto muže, který v tuhle chvíli neměl žádný důvod čekat od chlapce, kterého fakticky pomáhal vychovat, nic jiného než trvající přízeň.\n\nMísto toho byl zatčen. Ve chvíli, kdy Václav na Svojanov dorazil, nechal Záviše na místě zajmout, na formální obvinění z velezrady — konkrétně z toho, že chystal vraždu samotného krále. Muž, který přes deset let strávil jako jednoznačně nejmocnější postava na českém dvoře, byl zajat přímo v hradu, který kdysi byl jeho vlastním sídlem moci, a odešel odtud v poutech.\n\nByl převezen na Pražský hrad a uvězněn tam spíš jako rukojmí než prostý vězeň — Václav s ním ještě neskončil a měl velmi konkrétní představu o tom, k čemu se dá Závišova vlastní hodnota ještě využít.",
-      zh: "到1288年，瓦茨拉夫已经攒够了对付扎维什的理由。他缺的，是一个真正能下手的机会。扎维什可不是那种孤立无援、说撤就能撤的宠臣——他有自己的联姻网络，有自己家族散布在南波希米亚各地的城堡，还有在瓦茨拉夫正努力自己掌控的这个宫廷里，经营了多年的忠诚关系。要是明目张胆、毫无预警地逮捕这样一个人，等于是在赌一场足以把宫廷纠纷升级成内战的武装对抗。瓦茨拉夫真正需要的，是一个机会——一个扎维什放松警惕的瞬间。\n\n这个机会，还是扎维什自己不小心送上门的。1289年1月，他的新婚妻子匈牙利的伊丽莎白在斯沃亚诺夫生下了一个儿子——这座城堡正是他和库尼贡达多年来自己的权力中心——而扎维什给这个孩子取名叫”奥托卡”，这个选择本身，就足以说明他对自己当时地位的自信到了什么程度，他还亲自邀请瓦茨拉夫来这里参加洗礼仪式——这是一个友好的举动，出自一个这时候完全没理由怀疑、自己实际上一手带大的这个孩子会对他抱有除了持续善意之外的任何态度的男人。\n\n结果他反被逮捕了。瓦茨拉夫一到斯沃亚诺夫，就当场下令把扎维什拿下，罪名是正式的叛国罪——具体来说，是密谋刺杀国王本人。这个在波希米亚宫廷里独领风骚、当了十多年头号实权人物的男人，就在自己曾经的权力中心里被擒获，戴着镣铐离开了那里。\n\n他被押送到布拉格城堡关押，身份与其说是囚犯，不如说是人质——瓦茨拉夫跟他的账还没算完，而且对扎维什这条命究竟还能拿来做什么用，已经有了相当具体的盘算。",
-    },
-    relatedLandmarks: [
-      {
-        slug: "svojanov",
-        relation: {
-          en: "The very castle where Záviš had come, in person, to invite the king to a christening — and where he was arrested instead.",
-          cz: "Přesně ten hrad, kam Záviš osobně přijel pozvat krále na křtiny — a kde byl místo toho zatčen.",
-          zh: "扎维什亲自前来邀请国王参加洗礼仪式的那座城堡——而他自己却在这里被逮捕了。",
-        },
-      },
-    ],
-    wikipediaUrl: "https://en.wikipedia.org/wiki/Z%C3%A1vi%C5%A1_of_Falkenstein",
-  },
-  {
-    slug: "meadow-below-hluboka-1290",
-    era: "rise-of-a-kingdom",
-    startYear: 1290,
-    year: {
-      en: "1290",
-      cz: "1290",
-      zh: "1290年",
-    },
-    images: ["/history/meadow-below-hluboka-1290.webp"],
-    tone: "serious",
-    title: {
-      en: "The Meadow Below Hluboká",
-      cz: "Louka pod Hlubokou",
-      zh: "赫卢博卡城下的草地",
-    },
-    hookLine: {
-      en: "Wenceslas turned his own stepfather into a bargaining chip — and marched him from castle to castle until the bargaining stopped working.",
-      cz: "Václav udělal ze svého vlastního nevlastního otce vyjednávací páku — a vodil ho od hradu k hradu, dokud to vyjednávání nepřestalo fungovat.",
-      zh: "瓦茨拉夫把自己的继父变成了一枚筹码——押着他从一座城堡巡回到另一座，直到这套筹码不再管用为止。",
-    },
-    summary: {
-      en: "Imprisonment turned out to be only the opening move. With Záviš in chains, Wenceslas — or, more precisely, Nicholas of Opava, the late Otakar II's own illegitimate son, leading the operation on the king's behalf — marched the captive from castle to castle across South Bohemia, presenting each Vítkovci-held garrison with a simple choice: open the gates, or watch their own kinsman die in front of them. It worked, repeatedly. Fortress after fortress surrendered rather than call the threat's bluff.\n\nHluboká Castle didn't fold. Command there belonged to Vítek — Záviš's own brother — who had a hostage of his own inside those walls, Čeněk of Kamenice, and refused to open the gates even with Záviš's life hanging in the balance. Neither side blinked. Wenceslas wasn't bluffing either.\n\nOn 24 August 1290, on an open meadow below Hluboká's own walls, Záviš of Falkenstein was beheaded. The man who had run Bohemia's court, married into two royal families, and once stood at the very center of the kingdom's power died within sight of his own brother's refusal to save him. Čeněk of Kamenice was executed shortly after in turn; only then did Vítek finally surrender the castle, allowed to take his brother's body away with him.\n\nThe Zbraslav Chronicle, writing after the fact, folded Záviš's death into something larger — a set of deaths it read as divine judgment, landing within roughly two months of each other in the summer of 1290: Ladislaus IV of Hungary murdered by his own Cuman guards on 10 July, Henry Probus, Duke of Wrocław — one of the three men who'd once carved up Wenceslas's own childhood kingdom between them — dead of suspected poison on 23 June, and now Záviš beheaded in August. The chronicle's own verdict:\n\n[[quote:0]]",
-      cz: "Uvěznění se ukázalo být jen prvním tahem. Se Závišem v poutech vedl Václav — přesněji řečeno Mikuláš Opavský, vlastní nemanželský syn zesnulého Otakara II., který operaci vedl jménem krále — zajatce od hradu k hradu napříč jižními Čechami, přičemž každé vítkovské posádce předkládal jednoduchou volbu: otevřít brány, nebo sledovat, jak jejich vlastní příbuzný umírá přímo před nimi. Fungovalo to znovu a znovu. Pevnost za pevností se raději vzdala, než aby tu hrozbu vyzkoušela naostro.\n\nHluboká se nepoddala. Velení tam měl Vítek — Závišův vlastní bratr — který měl uvnitř hradeb vlastního rukojmího, Čeňka z Kamenice, a odmítl otevřít brány, i když v sázce byl Závišův život. Ani jedna strana neuhnula. Václav taky neblufoval.\n\n24. srpna 1290, na otevřené louce pod hradbami samotné Hluboké, byl Záviš z Falkenštejna sťat. Muž, který kdysi řídil český dvůr, přiženil se do dvou královských rodů a stál v samém středu moci království, zemřel na dohled od bratrova odmítnutí ho zachránit. Čeněk z Kamenice byl krátce poté taky popraven; teprve pak Vítek konečně hrad vydal, směl si odvézt tělo svého bratra.\n\nZbraslavská kronika, psaná se zpětným pohledem, spojila Závišovu smrt do něčeho většího — sady smrtí, kterou četla jako boží soud, spadající do přibližně dvou měsíců léta 1290: uherský král Ladislav IV. zavražděný vlastní kumánskou stráží 10. července, Jindřich Probus, vratislavský vévoda — jeden ze tří mužů, kteří si kdysi rozdělili Václavovo vlastní dětské království mezi sebe — mrtvý na podezření z otravy 23. června, a teď v srpnu sťatý Záviš. Vlastní verdikt kroniky:\n\n[[quote:0]]",
-      zh: "囚禁只是第一步棋。押着戴镣铐的扎维什，瓦茨拉夫——更准确地说，是替国王实际主持这场行动的、已故奥托卡二世的私生子尼古拉·冯·奥帕瓦——押着这名囚犯，一路从南波希米亚一座城堡巡到另一座，给每一处维特科维奇家族把守的据点摆出一道简单的选择题：开城投降，还是眼睁睁看着自己的亲族死在自己面前。这一招屡试不爽，一座又一座要塞选择了投降，没人敢真的赌一把、试探这句威胁的真假。\n\n赫卢博卡没有屈服。守将是维特克——扎维什的亲哥哥——他自己手里也扣着一名人质，切涅克·冯·卡缅采，即便扎维什的性命悬于一线，他依然拒绝开城。双方都没有退让。瓦茨拉夫这边，也不是在虚张声势。\n\n1290年8月24日，就在赫卢博卡城墙下的一片开阔草地上，扎维什·冯·法尔肯斯坦被斩首。这个曾经掌控波希米亚宫廷、两度联姻王室、一度站在整个王国权力正中心的男人，就在自己亲哥哥拒绝救他的注视下，走完了人生最后一程。切涅克·冯·卡缅采不久后也被处决；直到那时，维特克才终于交出了城堡，得到许可把兄弟的遗体带走。\n\n《兹布拉斯拉夫编年史》后来回顾这段往事时，把扎维什的死，编进了一套更大的叙事里——一组它视为神的审判的死亡，都发生在1290年夏天前后大约两个月之内：匈牙利国王拉迪斯劳斯四世7月10日被自己的库曼卫队谋杀，弗罗茨瓦夫公爵亨利·普罗布斯——正是当年瓜分了瓦茨拉夫童年王国的那三位监护人之一——6月23日疑似中毒身亡，如今8月，轮到扎维什被斩首。这部编年史自己给出的定论是：\n\n[[quote:0]]",
-    },
-    quotes: [
-      {
-        text: {
-          en: "...by a strange decree of divine vengeance, within the space of a month, the Hungarian king fell, slain by the sword; the Duke of Wrocław perished, poisoned; and Záviš, who had given occasion to that wickedness, ended his wretched days beheaded.",
-          cz: "...podivným rozhodnutím Boží pomsty v době jednoho měsíce padl král uherský zabit mečem, vévoda vratislavský zahynul byv otráven a Záviš, který dal příležitost k tém špatnosti, byv sťat skončil bídnou smrtí své dny.",
-          zh: "……凭着上天古怪的报应判决，短短一个月之内，匈牙利国王死于刀剑之下，弗罗茨瓦夫公爵中毒身亡，而扎维什——正是这一切恶行的始作俑者——也被斩首，凄惨地了结了他的余生。",
-        },
-        attribution: {
-          en: "Zbraslav Chronicle",
-          cz: "Zbraslavská kronika",
-          zh: "兹布拉斯拉夫编年史",
-        },
-      },
-    ],
-    relatedLandmarks: [
-      {
-        slug: "zamek-hluboka-nad-vltavou",
-        relation: {
-          en: "The castle Záviš's own brother Vítek refused to surrender — even with Záviš's life on the line — and the ground just outside its walls where Záviš was executed on 24 August 1290.",
-          cz: "Hrad, který Závišův vlastní bratr Vítek odmítl vzdát — i s Závišovým životem v sázce — a místo těsně za jeho hradbami, kde byl Záviš 24. srpna 1290 popraven.",
-          zh: "扎维什的亲哥哥维特克拒绝交出的这座城堡——即便扎维什的性命危在旦夕——也是1290年8月24日扎维什被处决的那片城墙外的土地。",
-        },
-      },
-    ],
-    wikipediaUrl: "https://en.wikipedia.org/wiki/Z%C3%A1vi%C5%A1_of_Falkenstein",
-  },
-  {
-    slug: "king-who-didnt-settle-scores-1290",
-    era: "rise-of-a-kingdom",
-    startYear: 1290,
-    year: {
-      en: "1290",
-      cz: "1290",
-      zh: "1290年",
-    },
-    images: ["/history/king-who-didnt-settle-scores-1290.webp"],
-    tone: "humorous",
-    title: {
-      en: "The King Who Didn't Settle Scores",
-      cz: "Král, který si nevyrovnal účty",
-      zh: "不清算的国王",
-    },
-    hookLine: {
-      en: "Wenceslas had every reason to purge his enemies. Instead, he did something far shrewder.",
-      cz: "Václav měl všechny důvody své nepřátele vyčistit. Místo toho udělal něco mnohem chytřejšího.",
-      zh: "瓦茨拉夫本有充分的理由清算所有敌人。可他做了一件更精明的事。",
-    },
-    summary: {
-      en: "Once Záviš was in chains, Wenceslas's first real move wasn't a purge — it was a careful swap. Záviš's own network of appointees and loyalists got replaced, piece by piece, with men Wenceslas actually trusted: some slots went to nobles who'd always leaned pro-Habsburg, and others went to men who'd been squarely inside Záviš's own camp right up until the moment it stopped being useful to stay there. Wenceslas didn't seem to care much where any given noble's loyalty had been pointed a year earlier — only where it was pointed now.\n\nThe crown seized Záviš's ill-gotten property, but not all the way down to the studs — some of it got handed straight back out, a deliberate concession aimed at keeping the kingdom's more important nobles firmly on side rather than pushed into a corner. The real broker here was Henry of Rožmberk, by this point the most important living member of the Vítkovci family, who personally negotiated on his own relatives' behalf. His intervention spared most of the wider family from serious punishment; Záviš's own brothers got off with the cheapest possible sentence available — surrender your property, leave the country, and don't come back.\n\nIt worked. Rather than dragging on into the kind of prolonged noble civil war Bohemia had already lived through more than once this century, the kingdom settled down fast from 1290 onward. The 19th-century historian František Palacký, looking back on this exact stretch centuries later, called it something genuinely rare for the era:\n\n[[quote:0]]\n\nThis, more than the arrest or the execution, was Wenceslas's real moment as a statesman: he had every justification in the world to make this a bloodbath, and chose the cheapest peace instead.",
-      cz: "Jakmile byl Záviš v poutech, Václavovým prvním skutečným tahem nebyla čistka — byla to promyšlená výměna. Závišova vlastní síť dosazenců a věrných byla postupně nahrazována muži, kterým Václav skutečně důvěřoval: některá místa připadla šlechticům, kteří vždycky tíhli k Habsburkům, jiná zase mužům, kteří byli až do chvíle, kdy se to přestalo vyplácet, přímo součástí Závišova vlastního tábora. Václavovi zjevně příliš nezáleželo na tom, kam mířila loajalita toho kterého šlechtice před rokem — jen na tom, kam mířila teď.\n\nKoruna zabavila Závišův nekale nabytý majetek, ale ne úplně do posledního kamene — část se rovnou vrátila zpátky, promyšlené ústupky mířené na to, udržet si důležitější šlechtice pevně na své straně, místo aby je zahnala do kouta. Skutečným vyjednavačem tu byl Jindřich z Rožmberka, v té době nejvýznamnější žijící člen rodu Vítkovců, který osobně vyjednával jménem vlastních příbuzných. Jeho zásah ušetřil širší rodinu vážnějšího trestu; Závišovi vlastní bratři vyvázli s nejlevnějším možným trestem — vzdát se majetku, opustit zemi a nevracet se.\n\nFungovalo to. Místo aby se to protáhlo do dalšího z těch dlouhých šlechtických občanských válek, které Čechy tohle století už zažily víc než jednou, se království od roku 1290 rychle uklidnilo. Historik František Palacký, když se o staletí později ohlížel přesně za tímhle obdobím, to nazval něčím pro tu dobu opravdu vzácným:\n\n[[quote:0]]\n\nTohle, víc než samotné zatčení nebo poprava, byl Václavův skutečný okamžik státníka: měl na to všechny důvody na světě udělat z toho krveprolití, a místo toho zvolil nejlevnější možný mír.",
-      zh: "扎维什一戴上镣铐，瓦茨拉夫真正做的第一件事，不是清算，而是一次精打细算的换血。扎维什自己那套亲信和任命网络，被一点一点替换成瓦茨拉夫真正信得过的人：一部分位置给了那些一贯亲哈布斯堡的贵族，另一部分则给了那些一直都是扎维什阵营核心成员、直到留在那边不再划算才转向的人。瓦茨拉夫显然并不太在意某位贵族一年前的忠诚指向哪里——他在意的，只是现在指向哪里。\n\n王室没收了扎维什的不义之财，但并没有连根拔起、一分不剩——其中一部分被有意识地重新放出去，目的是把更重要的贵族牢牢留在自己这边，而不是把他们逼到墙角。真正出面斡旋的人是罗日姆贝克的金德里奇，当时维特科维奇家族里在世的最重要成员，他亲自出面替自己的亲族谈判。他的斡旋让这个大家族的大部分成员都免于严厉惩罚；扎维什自己的兄弟们得到的是能拿到的最轻处罚——交出财产、离开这个国家、不得再回来。\n\n这招奏效了。波希米亚没有像这个世纪已经不止一次经历过的那样，陷入一场旷日持久的贵族内战，反而从1290年起迅速平静了下来。19世纪历史学家弗朗齐歇克·帕拉茨基，几个世纪后回顾这段时期时，称之为那个年代里相当罕见的现象：\n\n[[quote:0]]\n\n这一点，比逮捕本身、比处决本身，更是瓦茨拉夫真正作为一位政治家的高光时刻：他手里握着足够充分的理由，大可以把这变成一场血洗，却选择了代价最小的和平方案。",
-    },
-    quotes: [
-      {
-        text: {
-          en: "There followed now several years of complete peace within the Bohemian land, together with undisturbed political relations abroad — a phenomenon unusual in medieval history.",
-          cz: "Následovalo nyní několik let ouplného pokoje uvnitř země české a spolu nerušených politických poměrů k cizině — úkaz to neobyčejný v dějinách středověkých.",
-          zh: "那之后接连数年，波希米亚境内彻底太平，对外的政治关系也同样未受扰乱——这在中世纪历史上，实属罕见之事。",
-        },
-        attribution: {
-          en: "František Palacký",
-          cz: "František Palacký",
-          zh: "弗朗齐歇克·帕拉茨基",
-        },
-      },
-    ],
-    relatedLandmarks: [],
-    wikipediaUrl: "https://en.wikipedia.org/wiki/Wenceslaus_II_of_Bohemia",
-  },
-  {
-    slug: "krakow-opening-move-1291",
-    era: "rise-of-a-kingdom",
-    startYear: 1291,
-    year: {
-      en: "1289–1291",
-      cz: "1289–1291",
-      zh: "1289年－1291年",
-    },
-    images: ["/history/krakow-opening-move-1291.webp"],
-    tone: "humorous",
-    title: {
-      en: "Kraków, the Opening Move",
-      cz: "Krakov, první tah",
-      zh: "克拉科夫，第一步棋",
-    },
-    hookLine: {
-      en: "Bohemia's expansion had always pointed south, toward Austria. In 1289, it quietly turned east instead.",
-      cz: "České rozpínání vždycky mířilo na jih, k Rakousku. V roce 1289 se potichu obrátilo na východ.",
-      zh: "波希米亚的扩张方向一直是向南、指向奥地利。1289年，它悄悄转向了东方。",
-    },
-    summary: {
-      en: "In January 1289, Duke Casimir of Bytom, ruling a small Upper Silesian duchy on Bohemia's own doorstep, swore fealty to Wenceslas II. On paper, it looked like a routine vassalage — one more minor Piast duke formally recognizing Bohemian overlordship. In practice, it marked something bigger: the moment Bohemia's whole direction of expansion quietly pivoted. For decades under Otakar II, this timeline's story of growth had pointed south, toward Austria and the Adriatic. From here on, it pointed east, into Poland instead.\n\nBehind this pivot stood one man in particular: Bernard of Kamenice, Bishop of Meissen, a German-born diplomat who'd spent years working in Wrocław and knew Polish court politics better than almost anyone else in Wenceslas's service. Bernard wasn't just an occasional envoy sent east when needed — he was, as much as any single person could be, the actual architect of Bohemia's entire Polish strategy going forward.\n\nHis opening came fast. Henry Probus, Duke of Wrocław — one of the three men who'd once carved up young Wenceslas's own kingdom between them, back in the guardianship years — died in 1290, and his considerable inheritance immediately became a free-for-all. Wrocław itself ended up elsewhere. Kraków didn't. Bernard's diplomacy secured Wenceslas an agreement with the castellan of Skała Castle, and Wenceslas lined up allies on the ground — Duke Bolesław of Opole, Duke Mieszko of Cieszyn — using exactly the tools this dynasty always reached for first: negotiation and alliance-building, not an army.\n\nA smaller, parallel deal ran alongside this one: Przemysł II, Duke of Greater Poland, gave up his own claim to Kraków in exchange for compensation, freeing himself to chase Gdańsk Pomerania instead — a prize he was contesting with the Ascanian margraves of Brandenburg, a rivalry the two families may have tried to further secure through a marriage tie of their own.\n\nIn 1291, Bohemian troops moved into Kraków itself — and ran straight into resistance. The local nobility, unconvinced, initially preferred a different candidate: Władysław Łokietek, Duke of Sandomierz. Remember that name; the same man who'll eventually restore an independent Poland after this whole Bohemian project collapses is making his very first appearance in this story right here, and not as its hero. Łokietek did Wenceslas's work for him: his own troops looted Kraków, alienating the very nobles he needed on his side, and handed Wenceslas the city almost by default. The Bohemian troops, meanwhile, kept scrupulous discipline throughout — not so much as a stolen loaf of bread, let alone a burned house. This win, in other words, owed at least as much to his rival's mistake as to Wenceslas's own strength. It was a pattern that would recur throughout his reign. Wenceslas's real gift lay in diplomacy and patient maneuvering, not in warfare — a rather different set of talents from his own father's.\n\nWenceslas followed the takeover with the same playbook that had just worked so well at home: guarantee safety for ordinary people and the church, set up a council of nobles to keep them invested rather than resentful, and promise no new taxes — Bohemia's first great charter for Poland, conciliation dressed up as governance. A marriage sealed the rest: his sister Kunigunda married Bolesław of Płock, neutralizing yet another rival claim to the same crown. Kraków was his. Everything east of Bohemia had just gotten a lot more complicated.",
-      cz: "V lednu 1289 složil kníže Kazimír Bytomský, vládce malého hornoslezského knížectví přímo za humny Čech, hold věrnosti Václavovi II. Na papíře to vypadalo jako rutinní vazalství — další menší piastovský kníže formálně uznávající českou svrchovanost. V praxi to znamenalo něco mnohem většího: okamžik, kdy se celý směr českého rozpínání potichu obrátil. Po celá desetiletí za Otakara II. mířil příběh růstu, který tahle časová osa sledovala, na jih, k Rakousku a Jadranu. Od téhle chvíle mířil místo toho na východ, do Polska.\n\nZa tímto obratem stál obzvlášť jeden muž: Bernard z Kamence, míšeňský biskup, německy narozený diplomat, který strávil roky prací ve Vratislavi a znal polskou dvorskou politiku líp než skoro kdokoli jiný v Václavových službách. Bernard nebyl jen příležitostným vyslancem posílaným na východ, když bylo potřeba — byl, nakolik to jeden člověk vůbec může být, skutečným architektem celé budoucí české polské strategie.\n\nJeho příležitost přišla rychle. Jindřich Probus, vratislavský vévoda — jeden ze tří mužů, kteří si kdysi rozdělili mladého Václavovo vlastní království mezi sebe, ještě v letech poručnictví — zemřel v roce 1290, a jeho značné dědictví se okamžitě proměnilo ve volnou kořist. Vratislav skončila jinde. Krakov ne. Bernardova diplomacie zajistila Václavovi dohodu s purkrabím hradu Skała, a Václav si na místě sehnal spojence — vévodu Boleslava Opolského, vévodu Měška Těšínského — pomocí přesně těch samých nástrojů, po kterých tahle dynastie vždycky sahala jako první: vyjednáváním a budováním spojenectví, ne vojskem.\n\nVedle téhle dohody běžela ještě jedna, menší a souběžná: Přemysl II., vévoda Velkopolska, se vzdal vlastního nároku na Krakov výměnou za náhradu, čímž si uvolnil ruce, aby se místo toho pustil do Gdaňského Pomořanska — kořisti, o kterou soupeřil s askánskými braniborskými markrabaty, soupeření, které si obě rodiny možná snažily dál zajistit i vlastním sňatkovým poutem.\n\nV roce 1291 vtáhly české oddíly přímo do Krakova — a narazily na odpor. Místní šlechta, nepřesvědčená, zprvu dávala přednost jinému kandidátovi: Vladislavu Lokýtkovi, sandoměřskému knížeti. Zapamatujte si to jméno; ten samý muž, který nakonec obnoví nezávislé Polsko, až se celý tenhle český projekt zhroutí, se v tomhle příběhu poprvé objevuje přímo tady — a ne jako jeho hrdina. Lokýtek udělal Václavovu práci za něj: jeho vlastní vojsko vyplenilo Krakov, čímž si znepřátelilo přesně ty šlechtice, které potřeboval na své straně, a předalo Václavovi město skoro samo od sebe. České oddíly si po celou dobu naopak udržovaly přísnou kázeň — nezmizel jim ani ukradený bochník chleba, natožpak vypálený dům. Tohle vítězství tedy vděčilo aspoň tak za chybu soupeře jako za Václavovu vlastní sílu. Byl to vzorec, který se v jeho vládě bude opakovat znovu a znovu. Václavovo skutečné nadání spočívalo v diplomacii a trpělivém manévrování, ne ve válčení — poněkud jiná sada dovedností než u jeho vlastního otce.\n\nVáclav po převzetí moci navázal stejným postupem, který se právě tak dobře osvědčil doma: zaručit bezpečnost obyčejným lidem i církvi, zřídit šlechtickou radu, aby se cítili zainteresovaní místo rozhořčení, a slíbit žádné nové daně — první velká česká výsada pro Polsko, smíření v přestrojení za vládu. Zbytek zpečetil sňatek: jeho sestra Kunhuta se provdala za Boleslava Płockého, čímž neutralizovala další soupeřící nárok na stejnou korunu. Krakov byl jeho. Všechno na východ od Čech se právě stalo mnohem složitějším.",
-      zh: "1289年1月，统治着上西里西亚一个小公国、紧挨着波希米亚家门口的比托姆公爵卡西米尔，向瓦茨拉夫二世宣誓效忠。表面上看，这不过是一次寻常的臣属仪式——又一位小皮亚斯特公爵正式承认波希米亚的宗主权。但实际上，这标志着一件更重大的事：波希米亚整个扩张方向，就此悄悄转了个弯。在奥托卡二世治下的那几十年里，这条时间线一路追踪的这段“扩张”故事，方向始终指向南方——奥地利和亚得里亚海。从这一刻起，它转而指向了东方——波兰。\n\n这次转向背后，站着一个格外关键的人物：卡门茨的伯纳德，梅森主教，一位在弗罗茨瓦夫等地工作过多年、比瓦茨拉夫麾下几乎任何人都更懂波兰宫廷政治的德意志裔外交官。伯纳德可不只是在需要时偶尔被派往东方的一名使节——某种意义上，他就是波希米亚整套对波兰战略的真正总设计师。\n\n他的机会来得很快。弗罗茨瓦夫公爵亨利·普罗布斯——当年“三个监护人”里瓜分过年幼瓦茨拉夫王国的那三人之一——1290年去世，他相当可观的遗产立刻成了一场争夺战。弗罗茨瓦夫最终落到了别人手里。克拉科夫没有。伯纳德的外交手腕，为瓦茨拉夫争取到了与斯卡瓦城堡城主的协议，瓦茨拉夫又在当地拉拢了盟友——奥波莱公爵博莱斯瓦夫、切申公爵梅什科——用的正是这个王朝一贯最先诉诸的那套手段：谈判和结盟，而不是军队。\n\n与此同时，还有一笔规模较小、平行进行的交易：大波兰公爵普热梅希尔二世放弃了自己对克拉科夫的主权，换取经济补偿，转身腾出手去争夺格但斯克-波美拉尼亚——这是他跟阿斯坎家族的勃兰登堡藩侯们正在竞争的一块地盘，双方或许还试图靠一桩联姻来进一步巩固各自的立场。\n\n1291年，波希米亚军队开进了克拉科夫本地——却撞上了抵抗。当地贵族起初并不买账，反而更倾向支持另一位候选人：桑多梅日公爵瓦迪斯瓦夫·洛基泰克。记住这个名字——这位日后会在整个波希米亚这套布局崩塌之后重新复兴独立波兰的人物，正是在这里第一次登场——而且不是以英雄的姿态。洛基泰克帮瓦茨拉夫干了他自己的活：他自己的军队洗劫了克拉科夫，把他本该争取的那批贵族推向了对立面，几乎是拱手把这座城市送给了瓦茨拉夫。反观波希米亚军队，全程军纪严明，别说纵火烧屋，连一块面包都没顺手牵走过。换句话说，这场胜利，靠的至少和对手的失误一样多，而不全是瓦茨拉夫自己的实力。这将是他整个统治期反复出现的模式。瓦茨拉夫真正的天赋在于外交和耐心周旋，而不是打仗——跟他父亲相比，点的完全是另一条技能树。\n\n拿下克拉科夫后，瓦茨拉夫延续了刚刚在国内奏效的那套打法：保障普通民众和教会的安全，设立一个贵族议事委员会让他们觉得自己有份参与，而不是心怀怨恨，还承诺不再征收新税——这是波希米亚颁给波兰的第一部大宪章，怀柔包装成的统治手腕。剩下的部分靠联姻收尾：他的妹妹昆胡塔嫁给了普沃茨克的博莱斯瓦夫，就此又化解了一个对同一顶王冠虎视眈眈的对手。克拉科夫，是他的了。波希米亚以东的一切，从此都变得复杂多了。",
-    },
-    relatedLandmarks: [],
-    wikipediaUrl: "https://en.wikipedia.org/wiki/Wenceslaus_II_of_Bohemia",
-  },
-  {
-    slug: "politics-over-blood-1292",
-    era: "rise-of-a-kingdom",
-    startYear: 1291.9,
-    year: {
-      en: "1291–1292",
-      cz: "1291–1292",
-      zh: "1291年－1292年",
-    },
-    images: [
-      "/history/politics-over-blood-1292-frankfurt.webp",
-      "/history/politics-over-blood-1292-nation-over-family.webp",
-    ],
-    tone: "humorous",
-    title: {
-      en: "Politics Over Blood",
-      cz: "Politika nad krví",
-      zh: "大义灭亲",
-    },
-    hookLine: {
-      en: "When the imperial throne went empty, Wenceslas didn't run for it. He just made sure his own brother-in-law didn't get it either.",
-      cz: "Když se uprázdnil císařský trůn, Václav se o něj neucházel. Jen se postaral, aby ho nedostal ani jeho vlastní švagr.",
-      zh: "帝位空了出来，瓦茨拉夫没有去争。他只是确保自己的妻舅也别想坐上去。",
-    },
-    summary: {
-      en: "Rudolf of Habsburg died on 15 July 1291, and the imperial throne he'd held for eighteen years suddenly stood empty. Wenceslas didn't put himself forward as a candidate this time — and he'd had the lesson taught to him firsthand. His own father, Otakar II, tried exactly that in 1273 and lost for the same reason Albert was about to: looking too strong made the electors nervous, not impressed. Wenceslas seems to have actually learned from it. Bohemian kings, this timeline has shown more than once now, rarely get to wear the crown themselves — what they're good at is deciding who does.\n\nThe vacancy itself paid an immediate dividend. With the imperial administration briefly in the hands of a caretaker, the Count Palatine of the Rhine, Wenceslas negotiated Cheb and its surrounding region back into Bohemian hands. It was a familiar piece of ground by now: Otakar II had first taken it in 1266, lost it again in 1276, and here it was changing hands once more — a stretch of borderland that wouldn't actually settle into permanent Bohemian ownership until John of Luxembourg finally secured it for good in 1322.\n\nThe bigger prize was the election itself. The obvious favorite to succeed Rudolf was his own son, Albert of Austria — who also happened to be Wenceslas's own brother-in-law, through Wenceslas's marriage to Guta of Habsburg. Family ties, in this instance, didn't survive contact with political calculation: Wenceslas worked to block Albert just as deliberately as, on other occasions, this dynasty had turned old enemies into new in-laws. This time it ran the other direction — kinship laid down as the price of policy, not the reward for it.\n\nThe calculation behind it was less personal than it looked. Albert had already made himself unpopular Empire-wide, trampling noble liberties hard enough to spark open revolts in both Austria and Styria — which meant Wenceslas could block him under perfectly respectable cover, not as a lone grudge-holder. The real problem was geography, not blood: Albert already ruled Austria and Styria, sitting directly on Bohemia's southern border, and stacking the imperial crown on top of that would have made an already-powerful neighbor into Bohemia's nominal overlord too. That was precisely the same fear driving every other elector — nobody wanted an already-mighty prince adding a crown to his pile — which is exactly why the scheme worked: Wenceslas wasn't fighting the college, he was riding its anxiety. Family, as it turned out, never came with a promise not to expand.\n\nBernard of Kamenice, the same diplomat already running Wenceslas's Polish strategy, led the actual campaign. Through the autumn of 1291, he helped secure electoral pacts with the Archbishop of Mainz and the electors of Saxony and Brandenburg, steering the whole college away from Albert and toward a far less threatening alternative: Adolf, Count of Nassau, a man with nowhere near Albert's standing or resources. On 5 May 1292, at Frankfurt, Adolf was duly elected King of the Romans. Wenceslas had done it again — engineered exactly the outcome he wanted, without once putting his own name forward.",
-      cz: "Rudolf Habsburský zemřel 15. července 1291, a císařský trůn, který držel osmnáct let, náhle zůstal prázdný. Václav se tentokrát sám jako kandidát nenabídl — a měl to poučení na vlastní kůži. Jeho vlastní otec, Otakar II., zkusil přesně tohle v roce 1273 a prohrál ze stejného důvodu, z jakého se to teď chystalo potkat Albrechta: vypadat příliš silně kurfiřty neimponovalo, spíš je to znervózňovalo. Václav si z toho zjevně vzal ponaučení. Čeští králové, jak tahle časová osa už víckrát ukázala, si korunu na hlavu sami nasazují jen zřídka — v čem byli dobří, bylo rozhodovat, kdo jí bude nosit.\n\nSama uprázdněná pozice přinesla okamžitý zisk. Zatímco správu říše dočasně držel rýnský falckrabě, Václav si s ním vyjednal Chebsko a okolní kraj zpátky do českých rukou. Byl to už dobře známý kus země: Otakar II. ho poprvé získal v roce 1266, o deset let později ho zase ztratil, a teď znovu měnil majitele — pruh pohraničí, který se natrvalo do českého vlastnictví usadí až v roce 1322, kdy ho definitivně zajistí Jan Lucemburský.\n\nVětší cenou byla samotná volba. Zjevným favoritem na Rudolfova nástupce byl jeho vlastní syn Albrecht Rakouský — který shodou okolností byl i Václavovým vlastním švagrem, díky Václavovu sňatku s Gutou Habsburskou. Rodinné vazby tentokrát nepřežily střet s politickým kalkulem: Václav pracoval na zablokování Albrechta stejně cílevědomě, jako při jiných příležitostech tahle dynastie proměňovala staré nepřátele v nové příbuzné. Tentokrát to šlo opačným směrem — příbuzenství jako cena zaplacená za politiku, ne jako její odměna.\n\nÚvaha za tím byla míň osobní, než vypadala. Albrecht si už stihl znepřátelit celou říši sám, pošlapal šlechtické svobody natolik důkladně, že to v Rakousku i ve Štýrsku vyvolalo otevřená povstání — což znamenalo, že ho Václav mohl zablokovat pod naprosto slušnou záminkou, ne jako osamělý mstitel. Skutečný problém byl v zeměpisu, ne v krvi: Albrecht už vládl Rakousku a Štýrsku, přímo na jižní hranici Čech, a nasadit tomu samému muži navrch ještě císařskou korunu by znamenalo udělat z už tak mocného souseda i formálního nadřízeného Čech. Přesně tenhle strach hnal i všechny ostatní kurfiřty — nikdo nechtěl, aby si už beztak mocný kníže přidal ke svému majetku ještě korunu — a právě proto ten plán fungoval: Václav nebojoval proti kolegiu, jel na jeho vlastní úzkosti. Rodina, jak se ukázalo, nikdy nikomu nezaručila slib, že nebude expandovat.\n\nSamotnou kampaň vedl Bernard z Kamence, tentýž diplomat, který už řídil Václavovu polskou strategii. Během podzimu 1291 pomohl zajistit volební pakty s mohučským arcibiskupem a saskými a braniborskými kurfiřty, odklonil celé kolegium od Albrechta k mnohem méně hrozivé alternativě: Adolfovi, hraběti z Nasavska, muži zdaleka nedosahujícímu Albrechtova postavení ani prostředků. 5. května 1292 byl ve Frankfurtu Adolf řádně zvolen římským králem. Václav to dokázal znovu — navrhl přesně ten výsledek, který chtěl, aniž by jednou jedinkrát nabídl vlastní jméno.",
-      zh: "1291年7月15日，哈布斯堡的鲁道夫去世，他坐了十八年的皇位，一下子空了出来。瓦茨拉夫这次没有把自己列为候选人——而且这个教训他是亲身领教过的。他自己的父亲奥托卡二世，1273年恰恰试过这一手，输的理由跟阿尔布雷希特这次即将面对的一模一样：看起来太强大，选帝侯们不会因此佩服你，只会因此提防你。瓦茨拉夫显然把这个教训记住了。这条时间线已经不止一次展示过，波希米亚的国王们很少能亲自戴上皇冠——他们真正擅长的，是决定谁来戴。\n\n这个空缺本身就带来了立竿见影的好处。趁着帝国摄政暂时落在莱茵行宫伯爵手里，瓦茨拉夫跟他谈成了协议，把赫布及周边地区又拿回了波希米亚手中。这块地方这时候已经算是老熟人了：奥托卡二世1266年第一次拿下它，十年后又丢了，如今又一次换了主人——这片边境地带，要一直到1322年卢森堡的约翰彻底拿下它，才算真正在波希米亚手里安定下来。\n\n更大的奖品是这场选举本身。继承鲁道夫的头号大热人选，是他自己的儿子——奥地利的阿尔布雷希特——而阿尔布雷希特碰巧还是瓦茨拉夫自己的妻舅，因为瓦茨拉夫娶了哈布斯堡的古塔。这一次，亲缘关系没能扛得住政治算计的冲击：瓦茨拉夫这回下手阻挡阿尔布雷希特，跟这个王朝以前把老对头变成新亲家时一样毫不含糊。只不过这次方向反了过来——亲情，成了政治的代价，而不是它的回报。\n\n背后的算计其实没有表面看上去那么私人化。阿尔布雷希特早就把整个帝国都得罪了个遍——他在自己领地里践踏贵族自由的手法太过分，直接在奥地利和施蒂利亚都激起了公开叛乱——这意味着瓦茨拉夫可以打着“选帝侯们本来就信不过这个人”的旗号来阻拦他，而不是被扣上“孤身报复妹夫”的帽子。真正的问题从来不在血缘，而在地理：阿尔布雷希特这时候已经是奥地利和施蒂利亚公爵，正好卡在波希米亚南边的家门口，要是再让这个人头顶皇冠，等于让一个本就强大的邻居，同时也变成了波希米亚名义上的顶头上司。这恰好也是其他选帝侯们共同的恐惧——没人希望一个已经坐大的诸侯再多戴一顶皇冠——这也正是这次搅局能成功的原因：瓦茨拉夫不是在跟整个选侯团作对，而是顺水推舟，搭上了大家共同的焦虑。说到底，亲戚关系从来没跟谁保证过“我以后不扩张”。\n\n实际操盘的是卡门茨的伯纳德——就是那位已经在主持瓦茨拉夫波兰战略的外交官。1291年秋天，他帮忙促成了跟美因茨大主教、萨克森和勃兰登堡两位选侯的选举协议，把整个选侯团从阿尔布雷希特身上引开，转向一个分量轻得多的替代人选：拿骚伯爵阿道夫，一个远远比不上阿尔布雷希特声望和资源的人物。1292年5月5日，在法兰克福，阿道夫如愿当选罗马人的国王。瓦茨拉夫又一次做到了——精确操纵出了自己想要的结果，却一次都没把自己的名字摆上台面。",
-    },
-    relatedLandmarks: [
-      {
-        slug: "cheb",
-        relation: {
-          en: "Changing hands here for at least the second time in a generation — Otakar II took it in 1266, lost it in 1276, and Wenceslas grabbed it back during this very imperial vacancy. It wouldn't settle permanently into Bohemian hands until 1322.",
-          cz: "Tady měnilo majitele minimálně podruhé během jedné generace — Otakar II. ho vzal v roce 1266, ztratil v roce 1276, a Václav si ho zase vzal zpátky přesně během tohohle říšského interregna. Natrvalo v českých rukou se usadilo až v roce 1322.",
-          zh: "这块地方在一代人时间里至少第二次易主——奥托卡二世1266年拿下，1276年丢掉，瓦茨拉夫又趁着这次帝国空位期把它抢了回来。要到1322年才真正在波希米亚手中安定下来。",
-        },
-      },
-    ],
-    wikipediaUrl: "https://en.wikipedia.org/wiki/1292_imperial_election",
-  },
-  {
-    slug: "aula-regia-1292",
-    era: "rise-of-a-kingdom",
-    startYear: 1292,
-    year: {
-      en: "1292",
-      cz: "1292",
-      zh: "1292年",
-    },
-    images: ["/history/aula-regia-1292.webp"],
-    tone: "humorous",
-    title: {
-      en: "Aula Regia",
-      cz: "Aula Regia",
-      zh: "Aula Regia",
-    },
-    hookLine: {
-      en: "Wenceslas replaced his father's old hunting lodge with something meant to last far longer — a royal tomb, and, as it turned out, the birthplace of half this timeline's best quotes.",
-      cz: "Václav nahradil starý lovecký hrádek svého otce něčím, co mělo vydržet mnohem déle — královskou hrobku, a jak se ukázalo, i rodiště poloviny nejlepších citátů téhle časové osy.",
-      zh: "瓦茨拉夫把父亲那座旧猎苑，换成了一样打算存续得更久的东西——一座王陵，而且后来还成了这条时间线里那些最好引文的真正出处。",
-    },
-    summary: {
-      en: "Amid all this maneuvering — a foreign kingdom secured, a brother-in-law's imperial ambitions quietly sabotaged — Wenceslas also found time to build something meant to outlast all of it. In 1292, he founded a Cistercian monastery on the site of his father's old hunting lodge — a private retreat Otakar II had built for himself just outside Prague back in 1268, at the spot where the Berounka meets the Vltava, complete with its own vineyards. Wenceslas had inherited the estate after Marchfeld, and now replaced it outright, calling in monks from Sedlec, Bohemia's oldest Cistercian house, at the urging of its abbot Heidenreich, a longtime friend of the king.\n\nHe named the new foundation Zbraslav, in Latin Aula Regia — the Royal Hall — and meant it, quite literally, as the new resting place for Bohemia's kings. He got his wish sooner than anyone would have wanted: Wenceslas himself was buried here in 1305, and his son Wenceslas III, assassinated the following year, eventually joined him too, though his remains were later lost.\n\nThe monastery earned a second, quieter kind of fame nobody could have planned for at its founding: it's where the Zbraslav Chronicle itself was written, across the following decades, by two of its own successive abbots. It remains one of the single most important surviving sources for this exact period of Bohemian history — vivid, opinionated, occasionally prone to reading current events as acts of divine judgment, and not always entirely reliable on the finer details, but essential all the same. The same chronicle, in other words, this very timeline has already quoted twice, hedges and all.",
-      cz: "Uprostřed všeho tohohle manévrování — cizí království zajištěné, švagrovy císařské ambice potichu podražené — si Václav ještě našel čas postavit něco, co mělo přežít úplně všechno. V roce 1292 založil cisterciácký klášter na místě starého loveckého hrádku svého otce — soukromého útočiště, které si Otakar II. postavil kousek za Prahou už v roce 1268, přesně tam, kde se Berounka vlévá do Vltavy, s vlastními vinicemi. Václav panství zdědil po Moravském poli a teď ho úplně nahradil, povolal mnichy ze Sedlce, nejstaršího cisterciáckého domu v Čechách, na naléhání jeho opata Heidenreicha, dlouholetého přítele krále.\n\nNové založení pojmenoval Zbraslav, latinsky Aula Regia — Královská síň — a myslel to doslova jako nové místo posledního odpočinku českých králů. Svého přání se dočkal dřív, než by si kdokoli přál: sám Václav tu byl pohřben v roce 1305, a jeho syn Václav III., zavražděný o rok později, se k němu nakonec taky připojil, ačkoli jeho ostatky se později ztratily.\n\nKlášter si vysloužil ještě jeden, tišší druh slávy, se kterým při svém založení nikdo nemohl počítat: právě tady byla v následujících desetiletích sepsána samotná Zbraslavská kronika, a to dvěma jeho vlastními po sobě jdoucími opaty. Zůstává jedním z vůbec nejdůležitějších dochovaných pramenů pro přesně tohle období českých dějin — živá, názorová, občas náchylná číst dobové události jako projevy božího soudu, a ne vždy úplně spolehlivá v jemnějších detailech, ale přesto nepostradatelná. Jinými slovy: ta samá kronika, kterou tahle časová osa už dvakrát citovala, i s jejími výhradami.",
-      zh: "在这一连串政治操作之中——外邦一座王国已经拿下，妹夫的皇位野心也悄悄被搅黄——瓦茨拉夫还抽出空来，建了一样打算比这一切都存续得更久的东西。1292年，他在父亲当年那处旧猎苑的原址上，创立了一座熙笃会修道院——那是奥托卡二世1268年在布拉格城外为自己建的一处私人休憩地，就在贝劳恩卡河汇入伏尔塔瓦河的地方，还带着自己的葡萄园。瓦茨拉夫在马尔希费尔德战役后继承了这处产业，如今把它整个换了个身份，从塞德莱茨——波希米亚最古老的熙笃会修道院——调来了修士，这是应院长海登赖希（国王多年的老友）的请求。\n\n他给这座新修道院取名叫“兹布拉斯拉夫”，拉丁语作“Aula Regia”——“王室大厅”——而且是真心打算把它当作波希米亚历代国王新的长眠之地。他这个愿望兑现得比任何人希望的都要快：瓦茨拉夫本人1305年就葬在了这里；他的儿子瓦茨拉夫三世次年遇刺身亡后，最终也葬入了这里，尽管遗骨后来下落不明。\n\n这座修道院还赢得了另一种更低调的名声——这是它创立之初谁都没能预料到的：接下来的几十年里，《兹布拉斯拉夫编年史》本身正是在这里，由修道院两任先后接任的院长写成的。它至今仍是这段波希米亚历史时期最重要的现存史料之一——生动、带着鲜明立场、偶尔倾向于把时事解读成神的审判，在细节上也不总是完全可靠，但依然不可或缺。换句话说：这正是这条时间线已经引用过两次、还时不时提醒“这段可能有夸大之嫌”的那部史料。",
-    },
-    relatedLandmarks: [
-      {
-        slug: "zbraslavsky-zamek",
-        relation: {
-          en: "Founded on the site of Otakar II's own hunting lodge as the new royal necropolis — and, as it happens, the very place where the Zbraslav Chronicle this arc keeps quoting was actually written.",
-          cz: "Založeno na místě vlastního loveckého hrádku Otakara II. jako nové královské pohřebiště — a shodou okolností přesně tam, kde vznikla Zbraslavská kronika, kterou tenhle oblouk příběhu tak často cituje.",
-          zh: "建在奥托卡二世自己那处猎苑旧址上、作为新王室安葬地的地方——碰巧也正是这条弧线一直在引用的《兹布拉斯拉夫编年史》真正诞生的地方。",
-        },
-      },
-    ],
-    wikipediaUrl: "https://en.wikipedia.org/wiki/Zbraslav_Chronicle",
-  },
-  {
-    slug: "like-father-like-son-1292",
-    era: "rise-of-a-kingdom",
-    startYear: 1292.5,
-    year: {
-      en: "1292–1294",
-      cz: "1292–1294",
-      zh: "1292年－1294年",
-    },
-    images: ["/history/like-father-like-son-1292.webp"],
-    tone: "humorous",
-    title: {
-      en: "Like Father, Like Son",
-      cz: "Jablko nepadá daleko od stromu",
-      zh: "虎父无犬子",
-    },
-    hookLine: {
-      en: "For a while, it looked like Wenceslas had inherited none of his father's taste for the battlefield. In August 1292, he proved that wasn't quite true.",
-      cz: "Chvíli to vypadalo, že Václav nezdědil vůbec nic z otcovy chuti do bitevního pole. V srpnu 1292 dokázal, že to tak úplně pravda nebyla.",
-      zh: "有一阵子，瓦茨拉夫看起来完全没继承父亲那股上战场的劲头。1292年8月，他证明了事情没那么简单。",
-    },
-    summary: {
-      en: "In August 1292, Wenceslas personally led an army into Little Poland — not delegated to a general this time, but led in person. Sandomierz fell quickly. Władysław Łokietek, still smarting from the disaster his own looting spree had handed Wenceslas the year before, fled north toward Sieradz as his position collapsed around him. By autumn his resistance was finished: on 9 October 1292, Łokietek and his brother Casimir II were forced to renounce every claim to both Kraków and Sandomierz and swear fealty to Wenceslas. It was a real defeat this time, not a diplomatic one — Wenceslas had gone and won this one the old-fashioned way. Remember, though, that Łokietek didn't die here, and he didn't disappear. This is a setback for him, not the end of his story — this timeline will meet him again.\n\nThe Silesian dukes took the hint too. According to the Zbraslav Chronicle:\n\n[[quote:0]]\n\nBytom and Cieszyn had already been in Bohemia's orbit for a few years by this point; Opole and Racibórz were new.\n\nWenceslas administered the new territory with the same compromise instinct that had served him well elsewhere: his own trusted men became governors, but Poland's existing offices stayed intact, mostly handed to loyal Polish nobles rather than imported Bohemians. The system proved remarkably durable — Polish kings kept using it for five hundred years, all the way to the Partitions, long after the Přemyslid dynasty that invented it had gone extinct.\n\nThe Church proved harder to manage. In 1292, the Kraków chapter elected its own candidate, Prokop — not Wenceslas's pick — and the two sides soon fell out publicly over property and salt-mine taxes. After Prokop died in 1294, Bohemian pressure this time succeeded in getting Jan Muskata installed as bishop instead, one more soft-power lever pulled successfully.\n\nOne more thread, quieter than the rest, was also being pulled at the same time. Bernard of Kamenice — Wenceslas's own chief diplomat, already busy enough running Polish strategy and brokering an emperor — had also become Bishop of Meissen, and in 1294 used that position to sell Bohemia the town and castle of Pirna outright, for 4,000 marks of silver: a strongpoint guarding the direct route to Dresden. Dresden's own ruler, Margrave Frederick, had no heir of his own and had already grown dependent on Wenceslas's goodwill, and local nobles were reportedly already discussing handing his lands to Bohemia once he died. Nothing was settled yet. But a new claim on Meissen's own succession — the same question this timeline has left hanging once before — had just quietly opened up again.",
-      cz: "V srpnu 1292 vedl Václav osobně vojsko do Malopolska — tentokrát ho nesvěřil žádnému veliteli, ale postavil se do jeho čela sám. Sandoměř padl rychle. Vladislav Lokýtek, pořád ještě zjizvený katastrofou, kterou mu o rok dřív přivodila jeho vlastní plenící výprava, prchal na sever směrem k Sieradzi, zatímco se jeho pozice kolem něj hroutila. Do podzimu byl jeho odpor u konce: 9. října 1292 byli Lokýtek a jeho bratr Kazimír II. donuceni vzdát se veškerých nároků na Krakov i Sandoměř a přísahat věrnost Václavovi. Tentokrát to byla skutečná porážka, ne diplomatická — Václav tuhle vyhrál postaru. Nezapomeňte ale, že tu Lokýtek nezemřel a nezmizel. Tohle je pro něj nezdar, ne konec jeho příběhu — tahle časová osa se s ním ještě setká.\n\nSlezští vévodové to pochopili taky. Podle Zbraslavské kroniky:\n\n[[quote:0]]\n\nBytom a Těšín už v tu dobu byly pár let v české sféře; Opolsko a Ratiboř byly nové.\n\nVáclav spravoval nové území se stejným instinktem pro kompromis, který mu už jinde posloužil: vlastní důvěryhodné muže dosadil jako místodržící, ale stávající polské úřady ponechal na místě, většinou v rukou věrných polských šlechticů, ne dovezených Čechů. Systém se ukázal pozoruhodně trvanlivý — polští králové ho používali celých pět set let, až do dělení Polska, dlouho po vymření přemyslovské dynastie, která ho vymyslela.\n\nCírkev se ukázala hůř zvladatelná. V roce 1292 si krakovská kapitula zvolila Prokopa — ne Václavova favorita — a obě strany se brzy veřejně rozkmotřily kvůli majetku a solným daním. Po Prokopově smrti v roce 1294 se český nátlak tentokrát podařilo prosadit a na biskupský stolec dosadit Jana Muskatu — další úspěšně zatažená měkká páka moci.\n\nVe stejnou dobu se potichu táhla ještě jedna nit. Bernard z Kamence — Václavův vlastní hlavní diplomat, už i tak zaneprázdněný řízením polské strategie a domlouváním císaře — se mezitím stal i míšeňským biskupem, a v roce 1294 tohoto postavení využil k tomu, aby Čechám rovnou prodal město a hrad Pirnu, za 4000 hřiven stříbra: opěrný bod střežící přímou cestu do Drážďan. Vládce Drážďan, markrabě Fridrich, neměl vlastního dědice a už se stačil stát závislým na Václavově přízni, a místní šlechtici prý už mezi sebou probírali, že po jeho smrti předají jeho země Čechám. Zatím nebylo nic rozhodnuto. Ale nový nárok na míšeňské nástupnictví — přesně tu samou otázku, kterou tahle časová osa už jednou nechala viset ve vzduchu — se právě potichu otevřel znovu.",
-      zh: "1292年8月，瓦茨拉夫亲自率军开进小波兰——这次没有交给哪位将领代劳，是他自己披挂上阵。桑多梅日很快陷落。瓦迪斯瓦夫·洛基泰克，身上还带着一年前自己那场纵兵劫掠酿成的惨败留下的伤痕，眼看局势在自己周围土崩瓦解，只能向北逃往谢拉兹。到了秋天，他的抵抗彻底完结：1292年10月9日，洛基泰克和他的弟弟卡齐米日二世被迫放弃对克拉科夫和桑多梅日的一切领土要求，向瓦茨拉夫宣誓效忠。这一次是真刀真枪的失败，不是谈判桌上的失败——瓦茨拉夫这回是靠老办法赢的。不过要记住，洛基泰克在这里既没死，也没消失。这对他来说只是一次挫败，不是他故事的终点——这条时间线以后还会再见到他。\n\n西里西亚的几位公爵也心领神会。据《兹布拉斯拉夫编年史》记载：\n\n[[quote:0]]\n\n比托姆和切申这时候已经在波希米亚的势力范围里待了好几年；奥波莱和拉齐布日则是新加入的。\n\n瓦茨拉夫治理新占领土的手法，还是那套屡试不爽的妥协本能：派自己信得过的人担任总督，但保留波兰原有官职，多半交给忠诚的波兰贵族，而非整批空降波希米亚人。这套制度出奇地耐用——波兰国王一直沿用到五百年后的波兰瓜分，比发明它的普热美斯尔王朝本身活得久得多。\n\n教会比贵族更难对付。1292年克拉科夫教士会选出了普罗科普——不是瓦茨拉夫属意的人，两边很快就因财产和盐税闹翻。普罗科普1294年去世后，波希米亚方面这次成功施压，把扬·穆斯卡塔推上了主教之位，又一次成功拉动了这条软实力的杠杆。\n\n与此同时，还有一条更不起眼的线索也在悄悄拉动。卡门茨的伯纳德——瓦茨拉夫自己的头号外交官，早已忙着主持波兰战略、还兼职操办了一场皇帝选举——与此同时也当上了梅森主教，1294年，他利用这个身份，直接把皮尔纳城镇和城堡卖给了波希米亚，价格是4000马克白银——这是一处扼守通往德累斯顿要道的据点。德累斯顿的统治者、藩侯弗雷德里克膝下无子，早就已经依附于瓦茨拉夫的善意，据说当地贵族私下里已经在讨论，等他去世后就把他的领地交给波希米亚。目前还什么都没定下来。但一条关于梅森继承权的新线索——正是这条时间线之前悬而未决过一次的同一个问题——已经悄悄地又一次被打开了。",
-    },
-    quotes: [
-      {
-        text: {
-          en: "...there also came to the king the dukes of Opole, Racibórz, Bytom, and Cieszyn, four own brothers, and having received their duchies from him as fiefs, they promised to obey his commands in the future...",
-          cz: "…přišli také ke králi vévoda opolský, ratibořský, bytomský a těšínský, čtyři rodní bratři a přijavše od něho svá vévodství v léno, přislíbili v budoucnosti poslouchat jeho rozkazů…",
-          zh: "奥波莱公爵、拉齐布日公爵、比托姆公爵和切申公爵，四兄弟，也来到国王面前，从国王那里获得了他们的公爵领地作为封地，并承诺将来服从国王的命令……",
-        },
-        attribution: {
-          en: "Zbraslav Chronicle",
-          cz: "Zbraslavská kronika",
-          zh: "兹布拉斯拉夫编年史",
-        },
-      },
-    ],
-    relatedLandmarks: [],
-    wikipediaUrl: "https://en.wikipedia.org/wiki/Wenceslaus_II_of_Bohemia",
-  },
-  {
-    slug: "adolf-kicks-the-ladder-1298",
-    era: "rise-of-a-kingdom",
-    startYear: 1296.9,
-    year: {
-      en: "1291–1297",
-      cz: "1291–1297",
-      zh: "1291年－1297年",
-    },
-    images: ["/history/adolf-kicks-the-ladder-1298.webp"],
-    tone: "humorous",
-    title: {
-      en: "The Emperor Who Kicked Away the Ladder",
-      cz: "Císař, který odkopl žebřík",
-      zh: "过河拆桥的皇帝",
-    },
-    hookLine: {
-      en: "Adolf of Nassau owed his crown to Wenceslas's support — and the very first thing he did with it was go back on the deal that bought it.",
-      cz: "Adolf Nasavský vděčil za svou korunu Václavově podpoře — a první věc, kterou se svou novou mocí udělal, bylo, že porušil dohodu, díky které ji vůbec získal.",
-      zh: "阿道夫的王位靠的是瓦茨拉夫的支持——而他拿到这顶王冠后干的第一件事，就是撕毁了换来这顶王冠的那份协议。",
-    },
-    summary: {
-      en: "The promise that got Wenceslas to back Adolf of Nassau in 1292 was Bohemian control of Meissen. Adolf kept the crown and let the promise quietly evaporate. He had his own claim in mind: the previous Margrave of Meissen and Lusatia, Frederick Tuta, had died in 1291 without a surviving son, and Adolf argued the fief should simply revert to the crown rather than pass down the family — conveniently skipping the part where he'd already promised the whole thing to Bohemia. Two years later, in 1293, he found a second way in: Thuringia's own aging, debt-ridden Landgrave, Albert II, agreed to sell him the entire landgraviate outright — and packed Meissen and the Osterland into the same sale for good measure, over the furious objections of his own sons, Frederick and Diezmann, who actually held those lands. Adolf wasn't just breaking his word to Wenceslas. He was buying his way into the same territory from two directions at once, and Bohemia wasn't invited to either transaction.\n\nWenceslas didn't have to work hard to end up on the disinherited sons' side of this fight — their interests lined up with his on their own. What he did do was stop pretending the deal with Adolf still meant anything. He wasn't alone in souring on the man, either: the Archbishop of Mainz, whose own family interests around Erfurt sat inside Thuringia, was furious that Adolf had replaced him as the region's governor with one of his own loyalists. A king the electors had picked specifically because they thought they could manage him was turning out to be considerably harder to manage than advertised.\n\nBy 1297, ties with Adolf had curdled well past the point of repair — though that reckoning would have to wait a little longer. There was older business to attend to first. Wenceslas had been King of Bohemia in practice since he was seven years old, but he'd never actually been crowned: the ceremony had been pushed back for one reason after another for nearly two decades. On 2 June 1297, Pentecost Sunday, it finally happened at St. Vitus Cathedral — performed, fittingly enough, by that same aggrieved Archbishop of Mainz. Prague filled with guests for days of celebration lavish enough to leave the royal treasury noticeably thinner; one account has wine running from the city's public fountains instead of water. It was, by every visible measure, the high point of Wenceslas's reign so far. It would not stay that way for long.",
-      cz: "Slib, který v roce 1292 přiměl Václava podpořit Adolfa Nasavského, zněl: česká kontrola nad Míšeňskem. Adolf si podržel korunu a slib nechal potichu vyprchat. Měl v hlavě vlastní nárok: předchozí míšeňský a lužický markrabě Fridrich Tuta zemřel v roce 1291 bez přeživšího syna, a Adolf argumentoval, že by léno mělo prostě připadnout zpátky koruně, místo aby přešlo dál v rodině — přičemž se pohodlně zapomněl zmínit, že celé to léno už dřív slíbil Čechám. O dva roky později, v roce 1293, si našel ještě druhou cestu dovnitř: durynský lantkrabě Albert II., starý a po uši v dluzích, souhlasil, že mu rovnou prodá celé lantkrabství — a do stejného obchodu pro jistotu přibalil i Míšeňsko a Osterland, přes zuřivé protesty vlastních synů Fridricha a Dětmara, kteří tahle území skutečně drželi. Adolf tím nejen porušil slovo dané Václavovi. Vykupoval si cestu do stejného území hned ze dvou stran najednou — a Čechy nebyly pozvány k žádnému z těch obchodů.\n\nVáclav se na stranu vyděděných synů v tomhle sporu nemusel nijak zvlášť snažit dostat — jejich zájmy se s těmi jeho prostě samy sešly. Co udělal, bylo, že přestal předstírat, že dohoda s Adolfem ještě něco znamená. A nebyl v tom sám — mohučský arcibiskup, jehož vlastní rodinné zájmy kolem Erfurtu ležely přímo v Durynsku, zuřil, že ho Adolf v čele kraje nahradil vlastním věrným mužem. Král, kterého kurfiřti zvolili právě proto, že si mysleli, že ho udrží na uzdě, se ukázal být o dost hůř zvladatelný, než se čekalo.\n\nDo roku 1297 vztahy s Adolfem zkysly daleko za bod, kdy se dalo cokoli napravit — to vyřizování si ale muselo ještě chvíli počkat. Napřed bylo na řadě starší nedodělané dílo. Václav byl českým králem fakticky už od svých sedmi let, ale nikdy ho nekorunovali: obřad se z jednoho důvodu za druhým odkládal skoro dvacet let. 2. června 1297, na Boží hod svatodušní, se to konečně stalo v katedrále svatého Víta — a příznačně ho vykonal právě ten samý pohoršený mohučský arcibiskup. Praha se na několik dní zaplnila hosty na oslavy tak nákladné, že z toho královská pokladna citelně zhubla; podle jedné zprávy prý z městských kašen místo vody teklo víno. Ve všech na první pohled viditelných ohledech to byl vrchol Václavovy vlády až dosud. Dlouho mu to tak nevydrželo.",
-      zh: "1292年，让瓦茨拉夫决定支持阿道夫的那份承诺，说的是波希米亚拿下梅森的控制权。阿道夫拿到王冠之后，就任由这份承诺不了了之。他心里另有算盘：前任梅森兼卢萨蒂亚藩侯弗雷德里克·图塔1291年去世，没留下存活的儿子，阿道夫便主张这块封地应该直接收归王室，而不是继续在家族内传下去——这么说的时候，他顺便就把这块封地之前已经许给波希米亚的事忘得一干二净。两年后的1293年，他又找到了第二条门路：图林根方伯阿尔布雷希特二世，年迈又债台高筑，同意直接把整个方伯领地卖给他——顺手还把梅森和奥斯特兰也打包进了这笔买卖，不顾自己儿子弗雷德里克和迪茨曼的强烈反对，这两块地明明握在他们手里。阿道夫这么做，不只是对瓦茨拉夫食言，他等于是同时从两个方向买通这同一块地盘——而这两笔买卖，都没波希米亚的份。\n\n瓦茨拉夫都不用费什么力气，就自然站到了那两个被架空继承权的儿子这一边——他自己的利益跟他们的撞到了一块。他真正做的，是不再假装自己跟阿道夫之间的协议还算数。而且不只他一个人对阿道夫失望——美因茨大主教在图林根的埃尔福特一带也有自家利益，阿道夫用自己人取代了他这个地区总督的位置，把他气得够呛。这位当初正是因为选侯们觉得“好拿捏”才被选上的国王，如今证明自己远比预想的难对付得多。\n\n到了1297年，瓦茨拉夫跟阿道夫的关系早已坏到无可挽回——但这笔账还得再等等才能算。眼下有件更老的事情要先办。瓦茨拉夫从七岁起就一直是名副其实的波希米亚国王，却始终没有真正举行过加冕礼：这场典礼因为各种理由，硬是拖了将近二十年。1297年6月2日，圣灵降临节那天，典礼终于在圣维特大教堂举行——主持仪式的，恰好就是那位对阿道夫满腹怨气的美因茨大主教。布拉格接连数日挤满了宾客，庆典办得极尽奢华，把王室金库都办得明显瘦了一圈；据说当时城里的公共喷泉流出来的不是水，而是酒。从表面上看，这是瓦茨拉夫在位以来最风光的一刻。可这份风光，没能维持太久。",
-    },
-    relatedLandmarks: [],
-    wikipediaUrl: "https://en.wikipedia.org/wiki/Adolf,_King_of_the_Romans",
-  },
-  {
-    slug: "crown-and-a-grave-1298",
-    era: "rise-of-a-kingdom",
-    startYear: 1297.1,
-    year: {
-      en: "1297–1298",
-      cz: "1297–1298",
-      zh: "1297年－1298年",
-    },
-    images: ["/history/crown-and-a-grave-1298.webp"],
-    tone: "serious",
-    title: {
-      en: "A Crown, and a Grave",
-      cz: "Koruna, a hrob",
-      zh: "王冠与坟墓",
-    },
-    hookLine: {
-      en: "Half a month after his coronation, Wenceslas buried his wife. He spent the year after that burying a king instead.",
-      cz: "Necelý půl měsíc po korunovaci pohřbil Václav svou ženu. Rok poté strávil tím, že místo ní pohřbil krále.",
-      zh: "加冕典礼过去还不到半个月，瓦茨拉夫就为妻子送了葬。此后一年，他忙着送另一个人下葬——一位国王。",
-    },
-    summary: {
-      en: "[[quote:0]]\n\nJitka is the chronicle's own name for Guta, the same woman this timeline has followed under her German name since her wedding at Cheb. Sixteen days after watching her husband crowned, she was dead — buried, fittingly, right beside the grave of the father-in-law who'd first arranged her marriage as a child's peace treaty. She was still young; the chronicles don't record a cause. Wenceslas, barely weeks off his own coronation dais, was devastated.\n\nGuta had spent nearly two decades as the quiet hinge between two rival houses: her own brother, Albert of Austria, and the husband their marriage had been designed to pacify. The ladder Adolf of Nassau had climbed to get elected King of the Romans in 1292 had been built, in large part, out of Bohemian votes — and once he no longer needed it, the first thing he did was kick it away, reneging on the promise of Meissen that had bought Wenceslas's support in the first place. This timeline has already told one version of this story before — Otakar turning yesterday's battlefield enemy into today's in-law with a wedding at Pressburg. This time the order was reversed: the in-law relationship had been sitting there for two decades already, mostly unused while Wenceslas and Albert eyed each other as rival candidates for the same throne, with Guta the one quietly keeping the door between them from swinging shut. Betrayed by the man he'd actually voted for, and now without the person best placed to broker it personally, Wenceslas picked up the connection she'd tended for so long and finished the job himself.\n\nThe coalition against Adolf kept growing through the rest of 1297 and into 1298. On 23 June 1298, five electors gathered at Mainz and formally declared Adolf unfit to rule — Wenceslas among them. Albert of Austria was elected in his place the very next day. Adolf refused to accept the verdict and raised what army he still could. The two sides met near Göllheim on 2 July, and — according to the accounts that survive, more legend than record by this point — Albert and Adolf ended up fighting each other directly in the middle of the field, trading blows until Albert drove a blade up under his rival's chin and threw him from his horse. Adolf died there in the dirt. Albert was crowned King of the Romans a few weeks later, on 27 July 1298.\n\nAdolf had used Wenceslas's vote to climb onto the throne in the first place. Six years on, Wenceslas was one of the men who voted him back off it — the ladder, returned to sender. He'd spent barely more than a year becoming everything a king was supposed to be: crowned, avenged, victorious. He'd also spent it as a widower. The chronicles record both facts and connect neither to the other; this timeline will let them sit side by side too.",
-      cz: "[[quote:0]]\n\nJitka je jméno, které jí dává sama kronika — stejná žena, kterou tahle časová osa až dosud sledovala pod jejím německým jménem Guta, od svatby v Chebu. Šestnáct dní poté, co sledovala korunovaci vlastního manžela, byla mrtvá — pohřbená, příznačně, hned vedle hrobu tchána, který její sňatek kdysi zařídil jako dětskou mírovou smlouvu. Byla ještě mladá; kroniky příčinu nezaznamenávají. Václav, sotva pár týdnů po vlastní korunovaci, byl zdrcený.\n\nGuta strávila skoro dvacet let jako tichý pant mezi dvěma soupeřícími rody: vlastním bratrem Albrechtem Rakouským a manželem, kterého měl jejich sňatek kdysi usmířit. Žebřík, po kterém Adolf Nasavský v roce 1292 vylezl ke zvolení římským králem, byl z velké části postavený z českých hlasů — a jakmile ho už nepotřeboval, první věc, kterou udělal, bylo, že ho odkopl a porušil slib Míšeňska, díky kterému si Václavovu podporu vůbec koupil. Tahle časová osa už jednou vyprávěla podobnou verzi tohoto příběhu — Otakar proměnil včerejšího nepřítele v dnešního příbuzného sňatkem v Prešpurku. Tentokrát to bylo obráceně: příbuzenský vztah tu ležel připravený už dvě desetiletí, většinou nevyužitý, zatímco na sebe Václav s Albrechtem hleděli jako soupeři o tentýž trůn, a Guta byla ta, kdo tiše držela dveře mezi nimi pootevřené. Zrazený mužem, kterého sám zvolil, a teď bez člověka nejpovolanějšího k tomu spojenectví osobně dojednat, Václav vzal vztah, který ona tak dlouho pěstovala, a sám ho dotáhl do konce.\n\nKoalice proti Adolfovi rostla po zbytek roku 1297 a do roku 1298. 23. června 1298 se v Mohuči sešlo pět kurfiřtů a formálně prohlásilo Adolfa za neschopného vlády — Václav mezi nimi. Hned nazítří byl na jeho místo zvolen Albrecht Rakouský. Adolf ten verdikt odmítl přijmout a shromáždil, jaké vojsko ještě sehnal. Obě strany se střetly 2. července u Göllheimu, a podle dochovaných zpráv — v tuhle chvíli už spíš legendy než záznamu — se Albrecht s Adolfem nakonec utkali přímo uprostřed bitevního pole, vyměňovali si rány, dokud Albrecht soupeři nevrazil čepel zespodu pod bradu a nesrazil ho z koně. Adolf tam v prachu zemřel. Albrecht byl o pár týdnů později, 27. července 1298, korunován římským králem.\n\nAdolf kdysi použil Václavův hlas, aby vylezl na trůn. O šest let později byl Václav jedním z mužů, kteří ho z něj zase svými hlasy sesadili — žebřík, vrácený odesílateli. Necelý rok a kousek mu stačil na to, aby se stal vším, čím měl král podle představ být: korunovaným, pomstěným, vítězným. Stejnou dobu strávil i jako vdovec. Kroniky zaznamenávají obojí a ani jednou to spolu nedávají do souvislosti; tahle časová osa to nechá stát vedle sebe taky.",
-      zh: "[[quote:0]]\n\n吉特卡是编年史自己给她起的名字——正是这条时间线一直用德语名字“古塔”称呼、从切布婚礼那节起就跟着她的那个人。看着丈夫加冕才过去十六天，她就去世了——安葬的地方也颇有深意，就在当年一手促成她这桩婚事（一场儿童政治联姻）的公公奥托卡的墓旁。她那时还很年轻；编年史没有记下死因。刚加冕过去不久的瓦茨拉夫，悲痛万分。\n\n古塔差不多用了二十年的时间，充当两个敌对家族之间那道悄无声息的合页——一边是她的亲哥哥、奥地利的阿尔布雷希特，一边是那桩本该用来安抚双方的婚姻带给她的丈夫。1292年，阿道夫·纳绍靠着这架很大程度上由波希米亚选票搭起来的梯子，爬上了罗马人的国王之位——而他一旦觉得用不着这架梯子了，做的第一件事就是把它一脚踹开，撕毁了当初换来瓦茨拉夫支持的那份梅森承诺。这条时间线讲过一个类似的故事——奥托卡靠一场普雷斯堡的婚礼，把昨日的战场敌人变成了今日的姻亲。这一次顺序倒了过来：这层姻亲关系早在二十年前就已经摆在那儿，大半时间都闲置着，瓦茨拉夫和阿尔布雷希特一直把彼此当成争夺同一顶王冠的对手，而古塔正是那个一直悄悄不让两人之间那扇门彻底关死的人。被自己亲手投票选出来的人背叛之后，如今又失去了那个最有资格亲自出面斡旋的人，瓦茨拉夫接过她多年经营的这条纽带，自己把它做完了。\n\n反阿道夫的联盟在1297年剩下的时间里、直到1298年，一直不断壮大。1298年6月23日，五位选侯齐聚美因茨，正式宣布阿道夫不适合继续统治——瓦茨拉夫也在其中。第二天，奥地利的阿尔布雷希特就被选为继任者。阿道夫拒绝接受这个结果，尽力拼凑起一支军队。双方于7月2日在格尔海姆交锋——据流传下来的记载，到这个地步，与其说是史实，不如说更接近传说——阿尔布雷希特和阿道夫最终在战场中央亲自交手，你来我往，直到阿尔布雷希特一剑从下方刺穿对方的下巴，把他打落马下。阿道夫就死在了那片泥地里。几周后，1298年7月27日，阿尔布雷希特加冕为罗马人的国王。\n\n阿道夫当年靠瓦茨拉夫的一票爬上了王位，六年后，瓦茨拉夫又用自己的一票，把他从那个位置上投了下去——那架梯子，物归原主。用不到一年多一点的时间，瓦茨拉夫就做齐了一位国王“该有的样子”：加冕、复仇得偿、大获全胜。同一段时间里，他也成了一名鳏夫。编年史把这两件事都记了下来，却从没把它们连在一起说过；这条时间线，也就让它们这样并排放着好了。",
-    },
-    quotes: [
-      {
-        text: {
-          en: "Lady Jitka, then, the most pious queen, died in the year of the Lord 1297, on the 18th day of June, and was buried at Prague Castle by the grave of King Otakar, and \"all the people made great lament over her\"...",
-          cz: "Paní Jitka pak, nejzbožnější královna, zemřela léta Páně 1297 dne 18. června a byla pochována na hradě Pražském u hrobu krále Otakara, i „učinili všichni lidé nářek veliký nad ní“…",
-          zh: "吉特卡夫人，最虔诚的王后，于主历1297年6月18日去世，安葬于布拉格城堡、奥托卡王的墓旁，“众人皆为她深深哀恸”……",
-        },
-        attribution: {
-          en: "Zbraslav Chronicle",
-          cz: "Zbraslavská kronika",
-          zh: "兹布拉斯拉夫编年史",
-        },
-      },
-    ],
-    relatedLandmarks: [],
-    wikipediaUrl: "https://en.wikipedia.org/wiki/Judith_of_Habsburg",
-  },
-  {
-    slug: "from-ore-to-order-1300",
-    era: "rise-of-a-kingdom",
-    startYear: 1300,
-    year: {
-      en: "1260s–1300",
-      cz: "60. léta 13. století–1300",
-      zh: "13世纪60年代－1300年",
-    },
-    images: [
-      "/history/from-ore-to-order-1300.webp",
-      "/history/from-ore-to-order-1300-groschen.webp",
-    ],
-    tone: "humorous",
-    title: {
-      en: "From Ore to Order",
-      cz: "Od rudy k řádu",
-      zh: "点石成金",
-    },
-    hookLine: {
-      en: "Otakar II got rich burning silver on wars. His son got richer turning it into a currency the whole region eventually copied.",
-      cz: "Otakar II. zbohatl tím, že stříbro propálil ve válkách. Jeho syn zbohatl ještě víc tím, že z něj udělal měnu, kterou si nakonec vypůjčil celý region.",
-      zh: "奥托卡二世靠把银子烧在战争里发了财。他儿子靠把银子变成一种货币，发了更大的财——最后整个地区都跟着抄了这份作业。",
-    },
-    summary: {
-      en: "Bohemia had already lived through a version of this story once, a generation earlier — the 'golden' half of Otakar II's own nickname came from the royal mint at Jihlava, its silver funding the wars and the court that made the 'iron' half possible too. What this timeline flagged back then as a deliberate aside is worth cashing in now: 'not Kutná Hora, whatever a casual guess might assume — that town's own famous silver boom... belonged to Otakar's own son a generation later.' That generation has arrived. Under Wenceslas II, Kutná Hora grew into one of the richest silver-mining centers anywhere in Europe — some estimates put its output, at its early-14th-century peak, as high as a third of all the silver being mined on the continent. A genuine silver rush followed: miners poured in from across German-speaking lands, drawn by ore rich enough that it sometimes turned up practically on the surface, and a scattered mining camp swelled into Bohemia's second city almost overnight.\n\nThe wealth pouring out of the ground ran straight into an older problem: Bohemia's coinage was a mess. Silver was struck at several separate mints scattered around the kingdom — Jihlava's among them, along with a smaller one at Písek — each producing its own version of the same basic coin, a thin, one-sided bracteate of wildly inconsistent quality. Good coins didn't stay in circulation; they got hoarded or shipped abroad, leaving the domestic economy running on whatever debased silver nobody wanted to keep — the textbook problem a later English financier would eventually lend his name to: bad money driving out good.\n\nWenceslas's fix wasn't to go dig the silver himself. He positioned himself as the rule-maker, not the operator, and in 1300 that positioning became a genuinely sweeping piece of legislation: the Ius regale montanorum, drafted with the help of an Italian legal scholar, Gozzo of Orvieto, drawing on Roman law and taking Jihlava's own local mining customs and elevating them into a single code for the whole kingdom. Its most surprising provision, by a wide margin, was a maximum six-hour shift — miners were barred from working two shifts back to back, startlingly progressive labor protection for the very end of the 13th century. The rest of the code was mostly just as practical: shaft safety and shoring were the carpenters' formal responsibility, landowners were required to allow mining on their own ground but got a cut of what came out of it, and the crown's own guaranteed cut was a fixed mining tax, the urbura, set at one-eighth of everything extracted.\n\nFolded into that same document was a full currency reform. Every scattered mint, Jihlava's and Písek's included, was shut down and consolidated into one royal mint, built right at Kutná Hora, on top of the silver itself: the Vlašský dvůr, the 'Italian Court,' named for the Florentine bankers Wenceslas brought in to actually run it. The new coin, the Prague groschen, weighed about 3.7 grams of silver at roughly 93 percent purity, worth twelve of the old coins it replaced — modeled not on gold, but on France's own gros tournois, the heavy silver coin Louis IX had introduced decades earlier as the reference standard for quality currency across Western Europe. Kutná Hora's fame — and its problems — grew right along with its wealth. As one contemporary chronicler put it:\n\n[[quote:0]]\n\nThe reform worked. The Prague groschen became one of the most trusted coins in Europe, and neighboring kingdoms didn't just admire it from a distance — they copied it outright. Poland minted its own kraków groschen, Hungary its own, the Saxon and Thuringian mints their own versions too, all built on the same heavy-silver-coin template Wenceslas had adopted and made famous. A reform meant to fix Bohemia's own domestic mess ended up setting the monetary standard for a good stretch of Central and Eastern Europe. The coin's own popularity outran any policy justification behind it:\n\n[[quote:1]]\n\nFather and son had run the same trick with two different tools. Otakar turned Jihlava's silver into castles and campaigns — wealth spent about as fast as it came out of the ground. Wenceslas turned Kutná Hora's silver into a system: one mint, one legal code, one coin trusted enough that other kings kept it in their own treasuries. The father built with a sword. The son built with a ledger — and the ledger outlasted the sword by an almost embarrassing margin: the Ius regale montanorum, amended but never replaced, stayed in force for some 550 years, formally abolished only on 1 November 1854 — longer than Wenceslas himself, longer than his whole dynasty.",
-      cz: "Čechy si prošly variantou tohohle příběhu už jednou, o generaci dřív — ta „zlatá\" polovina přezdívky Otakara II. pocházela z královské mincovny v Jihlavě, jejíž stříbro financovalo války i dvůr, díky nimž byla možná i ta „železná\" polovina. To, co tahle časová osa tehdy zmínila jen jako vsuvku, stojí teď za to proplatit: „Ne z Kutné Hory, jak by člověk možná bez rozmyslu hádal — vlastní proslulý stříbrný boom tohoto města... patří až Otakarovu synovi o generaci později.\" Ta generace právě dorazila. Za Václava II. se Kutná Hora rozrostla v jedno z nejbohatších středisek těžby stříbra v celé Evropě — podle některých odhadů dosahovala její produkce na vrcholu, na počátku 14. století, až třetiny veškerého stříbra vytěženého na celém kontinentu. Následovala opravdová stříbrná horečka: horníci se sem hrnuli z celé německy mluvící Evropy, přilákaní rudou natolik bohatou, že se místy dala najít téměř na povrchu, a rozptýlený hornický tábor se skoro přes noc rozrostl v druhé největší město Čech.\n\nBohatství řinoucí se ze země narazilo rovnou na starší problém: české mincovnictví bylo v naprostém zmatku. Stříbro se razilo hned v několika samostatných mincovnách rozesetých po celém království — mezi nimi i v Jihlavě, spolu s menší v Písku — a každá vyráběla vlastní verzi téže základní mince, tenký jednostranný brakteát nesourodé kvality. Dobré mince v oběhu nezůstávaly; hromadily se nebo mizely za hranice, takže domácí hospodářství jelo na tom znehodnoceném stříbru, které si nikdo nechtěl nechat — učebnicový problém, který jednou pojmenuje po sobě jeden pozdější anglický finančník: špatné peníze vytlačují dobré.\n\nVáclavovým řešením nebylo jít si stříbro vytěžit sám. Postavil se do role toho, kdo stanovuje pravidla, ne toho, kdo podnik provozuje, a v roce 1300 se z téhle pozice stal opravdu rozsáhlý právní počin: Ius regale montanorum, sepsaný s pomocí italského právního učence Gozza z Orvieta, čerpající z římského práva a povyšující dosavadní místní hornické zvyklosti Jihlavy na jednotný zákoník pro celé království. Jeho zdaleka nejpřekvapivější ustanovení byla maximální šestihodinová směna — horníci nesměli odpracovat dvě směny za sebou, ohromně pokrokové na samý konec 13. století. Zbytek zákoníku byl většinou stejně praktický: bezpečnost šachet a jejich vypažení bylo formální odpovědností tesařů, majitelé pozemků museli na svém pozemku umožnit těžbu, ale dostávali podíl z toho, co se vytěžilo, a garantovaný podíl koruny tvořila pevná hornická daň, urbura, stanovená na jednu osminu vytěženého.\n\nDo stejného dokumentu byla vtělena i celá měnová reforma. Všechny rozptýlené mincovny, jihlavskou i píseckou nevyjímaje, zavřel a sloučil do jediné královské mincovny, postavené přímo v Kutné Hoře, rovnou nad stříbrem: Vlašského dvora, pojmenovaného po florentských bankéřích, které si Václav povolal, aby ho skutečně řídili. Nová mince, pražský groš, vážila přibližně 3,7 gramu stříbra o ryzosti kolem 93 procent a měla hodnotu dvanácti starých mincí, které nahrazovala — vzorem jí nebylo zlato, ale francouzský tourský groš, těžká stříbrná mince, kterou o desetiletí dřív zavedl Ludvík IX. jako referenční standard kvalitní měny pro celou západní Evropu. Sláva Kutné Hory — a s ní i její problémy — rostla spolu s jejím bohatstvím. Jak to vyjádřil jeden dobový kronikář:\n\n[[quote:0]]\n\nReforma zabrala. Pražský groš se stal jednou z nejdůvěryhodnějších mincí v Evropě, a sousední království ho neobdivovala jen zdálky — rovnou ho okopírovala. Polsko razilo vlastní krakovský groš, Uhry svůj, saské a durynské mincovny také svoje verze — všechny postavené na stejném vzoru těžké stříbrné mince, který Václav převzal a proslavil. Reforma zamýšlená k nápravě vlastního domácího zmatku nakonec nastavila měnový standard pro pořádný kus střední a východní Evropy. Obliba mince samotné přerostla jakékoli politické zdůvodnění, které za ní stálo:\n\n[[quote:1]]\n\nOtec a syn hráli stejný trik dvěma různými nástroji. Otakar proměnil jihlavské stříbro na hrady a tažení — bohatství utracené skoro tak rychle, jak se dostávalo ze země. Václav proměnil kutnohorské stříbro v systém: jedna mincovna, jeden zákoník, jedna mince natolik důvěryhodná, že si ji jiní králové ukládali do vlastních pokladnic. Otec stavěl mečem. Syn stavěl zákoníkem — a ten zákoník meč přežil o téměř trapný kus: Ius regale montanorum, později novelizovaný, ale nikdy nahrazený, zůstal v platnosti asi 550 let a formálně byl zrušen až 1. listopadu 1854 — přežil Václava samotného i celou jeho dynastii.",
-      zh: "波希米亚其实早在一代人以前，就经历过这个故事的原型——奥托卡二世绰号里“金”的那一半，正是来自伊赫拉瓦的王室铸币厂，那里出产的白银撑起了战争与宫廷，间接也撑起了绰号里“铁”的那一半。这条时间线当时只把这件事当成一句旁白带过，现在是时候兑现了：“不是库特纳霍拉——随口一猜很容易猜到那儿去，但那座城市自己那次著名的银矿大爆发……其实是他儿子那一代人的事。”那一代人，如今到了。在瓦茨拉夫二世治下，库特纳霍拉发展成了欧洲最富庶的银矿中心之一——据一些估算，14世纪初的产量高峰期，这里的产出一度占到整个欧洲银矿总产量的三分之一。随之而来的是一场真正的“淘银热”：矿工从整个德语区蜂拥而至，被这里富得有时几乎裸露在地表的矿脉所吸引，一个原本零散的采矿营地，几乎在一夜之间就膨胀成了波希米亚的第二大城市。\n\n从地下涌出的财富，一头撞上了一个更古老的问题：波希米亚的货币体系一团糟。白银分别在王国各地好几家独立的铸币厂铸造——伊赫拉瓦是其中之一，还有一家规模较小的皮塞克——每家都各自打造着同一种基础货币的自家版本：一种薄薄的、单面压印的“饰片银币”（brakteát），质量参差不齐。好银币留不住——不是被囤积起来，就是被运往国外，留给本国经济流通的，只剩下那些没人愿意留着的劣质白银——这正是后世一位英国金融家日后会用自己名字命名的那个教科书式难题：劣币驱逐良币。\n\n瓦茨拉夫的解法，不是亲自下矿挖银。他把自己定位成规则的制定者，而不是生意的经营者，1300年，这份定位落地成了一部真正意义上的鸿篇巨制：《王室矿业法》（Ius regale montanorum），由意大利法学家奥尔维耶托的戈佐（Gozzo of Orvieto）协助起草，借鉴罗马法，把伊赫拉瓦当地原有的采矿惯例，一举升级成了适用于全国的统一法典。法典里最出人意料的一条，是最高六小时轮班制——矿工不许连续上两班，这在13世纪末的欧洲堪称超前得惊人的劳工保护。其余条款大多也同样务实：坑道的安全与支护，正式责任归木匠；地主必须允许在自己土地上开采，但能分到一份产出；王室自己有保障的那份收入，来自一种叫“乌尔布拉”（urbura）的固定采矿税，税率定在开采总量的八分之一。\n\n同一份文件里，还塞进了一整套货币改革。所有分散的铸币厂，包括伊赫拉瓦和皮塞克在内，全部关闭，合并成一家王室铸币厂，就建在库特纳霍拉本地、白银产地的正上方：这就是“意大利宫”（Vlašský dvůr），得名于瓦茨拉夫招募来实际主持运营的那批佛罗伦萨银行家。新铸的钱币——布拉格格罗申——约重3.7克白银，成色约93%，价值相当于它取代的十二枚旧币；铸造标准参照的不是黄金，而是法国自己的“图尔格罗申”（gros tournois）——路易九世几十年前推出的那种重量级银币，当时早已是整个西欧衡量优质货币的参照标准。库特纳霍拉的名声——连同它的麻烦——随着财富一起水涨船高。正如当时一位编年史家所写：\n\n[[quote:0]]\n\n这场改革奏效了。布拉格格罗申成了欧洲最受信任的货币之一，而邻国不只是远远地欣赏——他们直接照抄。波兰铸出了自己的克拉科夫格罗申，匈牙利也有了自己的版本，萨克森和图林根的铸币厂也各自跟进——全都建立在瓦茨拉夫采纳并发扬光大的这同一种“重型银币”模板之上。一场原本只为整顿波希米亚自家货币乱局而推行的改革，最终为中欧和东欧相当一部分地区确立了货币标准。这枚钱币自身的声望，甚至盖过了它当初的政策初衷：\n\n[[quote:1]]\n\n父亲和儿子用两种不同的工具，玩的其实是同一招。奥托卡把伊赫拉瓦的白银变成了城堡和远征——财富几乎是从地里挖出来多快，就花出去多快。瓦茨拉夫把库特纳霍拉的白银变成了一套体系：一家铸币厂，一部法典，一枚连别国国王都愿意收进自家国库的钱币。父亲靠的是剑。儿子靠的是一部法典——而这部法典比剑活得长久得多，几乎长得有点尴尬：《王室矿业法》历经修订、却从未被取代，足足沿用了约550年，直到1854年11月1日才正式废止——比瓦茨拉夫本人活得久，也比他整个王朝都活得久。",
-    },
-    quotes: [
-      {
-        text: {
-          en: "For what is this, that Kutná Hora, an incitement to greed and an abyss of wickedness, draws upon itself the attention of various... nations, and lures foreign kings and princes.",
-          cz: "Neboť co to je, že Kutná Hora, podnět lakoty a propast špatnosti, strhuje na sebe pozornost různých… národů a láká cizí krále a knížata.",
-          zh: "库特纳霍拉——这贪欲的诱因、邪恶的深渊——究竟是什么，竟能吸引各方……民族的目光，引诱异国的国王与诸侯纷至沓来。",
-        },
-        attribution: {
-          en: "Zbraslav Chronicle",
-          cz: "Zbraslavská kronika",
-          zh: "兹布拉斯拉夫编年史",
-        },
-      },
-      {
-        text: {
-          en: "That great coin gladdened everyone's heart; the groschen, that great penny, many now hold as something near sacred.",
-          cz: "Srdce rozveselila všem ta veliká mince; groš, ten veliký peníz, již mnozí za svatý mají.",
-          zh: "这枚大钱令众人心花怒放；这格罗申，这枚大银币，如今已被许多人视若圣物。",
-        },
-        attribution: {
-          en: "Zbraslav Chronicle",
-          cz: "Zbraslavská kronika",
-          zh: "兹布拉斯拉夫编年史",
-        },
-      },
-    ],
-    relatedLandmarks: [
-      {
-        slug: "kutna-hora",
-        relation: {
-          en: "The protagonist of this whole story — its silver rush, and the Vlašský dvůr, the mint where the Prague groschen was actually struck starting in 1300.",
-          cz: "Protagonista celého tohoto příběhu — jeho stříbrná horečka a Vlašský dvůr, mincovna, kde se od roku 1300 skutečně razil pražský groš.",
-          zh: "整个故事的主角——它的淘银热，以及从1300年起真正铸造布拉格格罗申的意大利宫。",
-        },
-      },
-      {
-        slug: "jihlava",
-        relation: {
-          en: "Where the father's silver came from a generation earlier — this timeline already flagged that Jihlava's own royal mint would eventually be shut down and absorbed into Kutná Hora's. This is that moment.",
-          cz: "Odkud pocházelo otcovo stříbro o generaci dřív — tahle časová osa už dřív naznačila, že jihlavská královská mincovna jednou zanikne a splyne s kutnohorskou. Tohle je ta chvíle.",
-          zh: "父亲那一代白银的来源——这条时间线早前就埋下过伏笔：伊赫拉瓦自己的王室铸币厂日后会被关闭、并入库特纳霍拉。这一节，就是那个伏笔兑现的时刻。",
-        },
-      },
-      {
-        slug: "pisek",
-        relation: {
-          en: "Ran its own small royal mint too, right up until this same 1300 reform folded it into Kutná Hora's — the quieter of the two mints this consolidation absorbed.",
-          cz: "Až do stejné reformy z roku 1300 provozoval i vlastní menší královskou mincovnu, kterou tahle konsolidace pohltila do kutnohorské — tišší ze dvou mincoven, které toto sloučení pohltilo.",
-          zh: "在1300年这场改革之前，皮塞克也一直运营着自己规模较小的王室铸币厂——这次整合吞并的两家铸币厂里，比较不起眼的那一家。",
-        },
-      },
-      {
-        slug: "vlassky-dvur",
-        relation: {
-          en: "The actual building — the mint where the Prague groschen was struck starting in 1300, and the source of Kutná Hora's whole 'Italian Court' name.",
-          cz: "Ta samotná budova — mincovna, kde se od roku 1300 razil pražský groš, a zdroj celého jména „Vlašský dvůr\".",
-          zh: "这场改革真正落地的地方——从1300年起铸造布拉格格罗申的那栋铸币厂建筑，也是“意大利宫”这个名字的由来。",
-        },
-      },
-      {
-        slug: "kostel-svate-barbory",
-        relation: {
-          en: "Built with the same silver wealth this whole card is about — and its Mincíř (Minters') Chapel paints the Prague groschen's own coining process directly on the walls.",
-          cz: "Postavený za stejné stříbrné bohatství, o kterém je celá tahle karta — a jeho Mincířská kaple přímo na stěnách zachycuje techniky ražby pražského groše.",
-          zh: "正是靠这张卡片讲的这笔白银财富建起来的——它的明奇日（铸币工）礼拜堂，还直接在墙上画出了布拉格格罗申自己的铸造工艺。",
-        },
-      },
-    ],
-    wikipediaUrl: "https://en.wikipedia.org/wiki/Prague_groschen",
   },
 ];
-
-async function run() {
-  await connectDB();
-  let added = 0,
-    updated = 0,
-    failed = 0;
-
-  for (const data of historyEvents) {
-    try {
-      const result = await HistoryEvent.findOneAndUpdate(
-        { slug: data.slug },
-        { $setOnInsert: data },
-        { upsert: true, new: true },
-      );
-      const wasNew = result.createdAt.getTime() === result.updatedAt.getTime();
-      if (wasNew) {
-        console.log(`ADD    ${data.slug}`);
-        added++;
-      } else {
-        console.log(`SKIP   ${data.slug}`);
-      }
-    } catch (err) {
-      console.log(`FAIL   ${data.slug} — ${err.message}`);
-      failed++;
-    }
-  }
-
-  console.log(`\nDone. ${added} added, ${updated} updated, ${failed} failed.`);
-  process.exit(failed > 0 ? 1 : 0);
-}
-
-run();
+ return historyEvents; })();

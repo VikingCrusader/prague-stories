@@ -25,6 +25,24 @@
 // 2026-08: Era 1 now ends at 800 (last of the legendary dukes), and
 // everything from Bořivoj (870, the first documented duke) through Otakar I
 // securing a hereditary crown (1198/1212) became its own era, 2.
+//
+// Era 3/4 split (2026-08-23): what used to be one era, 'kingdom-golden-age'
+// spanning 1199-1378, got split into two on the user's own observation that
+// "Bohemia's golden age" in actual historiography means Charles IV's reign
+// specifically (1346-1378: Prague as imperial capital, Charles University,
+// St. Vitus construction, the Golden Bull) — not the 148 years before it,
+// which cover Otakar II's rise-and-collapse at Marchfeld, the Wenceslas II
+// guardianship crisis, the 1306 Přemyslid extinction, and John of
+// Luxembourg's own reign (1310-1346), a "wandering king" rarely in Bohemia
+// and famous for mortgaging crown lands, not building a golden age — he
+// reads, in retrospect, as spending his whole reign banking the political
+// capital his son Charles cashed in in 1346, the same father-sets-up-son
+// pattern this timeline's own 'the-crown-he-didnt-win-1254' arc already
+// used once before, just with vastly higher stakes. 'kingdom-golden-age'
+// keeps its key and now refers ONLY to 1346-1378; the new era,
+// 'rise-of-a-kingdom', takes over 1199-1345 (all ~32 previously-seeded
+// events under the old single era got migrated to this new key, since none
+// of them post-date 1345 — verified via startYear before migrating).
 export const HISTORY_ERAS = [
   {
     key: 'legends-origins',
@@ -69,19 +87,40 @@ export const HISTORY_ERAS = [
     },
   },
   {
-    key: 'kingdom-golden-age',
+    key: 'rise-of-a-kingdom',
     order: 3,
-    themeClass: 'era-kingdom-golden-age',
+    themeClass: 'era-rise-of-a-kingdom',
     hasContent: true,
     title: {
-      en: "The Kingdom's Golden Age",
-      cz: 'Zlatý věk království',
-      zh: '王国的黄金时代',
+      en: 'The Rise of a Kingdom',
+      cz: 'Vzestup království',
+      zh: '王国风云',
     },
     yearRange: {
-      en: '1199–1378',
-      cz: '1199–1378',
-      zh: '1199年－1378年',
+      en: '1199–1345',
+      cz: '1199–1345',
+      zh: '1199年－1345年',
+    },
+    tagline: {
+      en: "Three dynasties, one battlefield death after another, and a blind king who spends his whole reign setting up his son's punchline.",
+      cz: "Tři dynastie, jedna smrt na bojišti za druhou, a slepý král, který celou svou vládu stráví přípravou vtipu, jehož pointu pronese až jeho syn.",
+      zh: "三个王朝更迭，一次接一次地战死沙场，还有一位失明的国王——耗尽整个统治期，只为给儿子的黄金时代当垫脚石。",
+    },
+  },
+  {
+    key: 'kingdom-golden-age',
+    order: 4,
+    themeClass: 'era-kingdom-golden-age',
+    hasContent: false,
+    title: {
+      en: 'The Golden Age',
+      cz: 'Zlatý věk',
+      zh: '黄金时代',
+    },
+    yearRange: {
+      en: '1346–1378',
+      cz: '1346–1378',
+      zh: '1346年－1378年',
     },
     tagline: {
       en: "The one stretch where nearly everything Bohemia built is still standing — try not to get used to it.",
@@ -91,7 +130,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'religious-turmoil',
-    order: 4,
+    order: 5,
     themeClass: 'era-religious-turmoil',
     hasContent: false,
     title: {
@@ -107,7 +146,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'renaissance-baroque',
-    order: 5,
+    order: 6,
     themeClass: 'era-renaissance-baroque',
     hasContent: false,
     title: {
@@ -123,7 +162,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'revival-independence',
-    order: 6,
+    order: 7,
     themeClass: 'era-revival-independence',
     hasContent: false,
     title: {
@@ -139,7 +178,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: '20th-century-upheaval',
-    order: 7,
+    order: 8,
     themeClass: 'era-20th-century-upheaval',
     hasContent: false,
     title: {
