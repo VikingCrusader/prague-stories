@@ -353,6 +353,118 @@ html:not([data-lang="zh"]) .history-event__summary {
   font-weight: 500;
 }
 
+/* ── Noto Serif SC/TC ("Source Han Serif") for History Timeline body
+   copy — ZH PREVIEW, 2026-08-24 ────────────────────────────────────
+   User request: ArkPixel (the page's default ZH sans, see the block near
+   the top of this file) reads as tiring over History's long paragraphs;
+   wants to trial a serif face with more "historical" character, mirroring
+   the EN/CZ Cinzel/Crimson Pro split above but scoped to History Timeline
+   only for now — not the rest of the site (Guide, Location Detail, etc.
+   stay on ArkPixel until/unless this is approved and extended). Font-
+   family swap only, no size/weight/line-height changes yet — the prior
+   ZH sizing in this section was deliberately left alone (see
+   project_history_timeline_ui_fixes) as already correct, so this is a
+   pure typeface trial layered on top of it, not a re-tune. Titles
+   (.history-event__title, .history-sidebar__era-title,
+   .history-era-divider__title) are NOT touched here — those stay on
+   ArkPixel/Press Start 2P per the existing zh override block above,
+   unrelated to this experiment. */
+html[data-lang="zh"] .history-event__hook,
+html[data-lang="zh"] .history-event__summary,
+html[data-lang="zh"] .history-event__quote-text,
+html[data-lang="zh"] .history-event__quote-attribution,
+html[data-lang="zh"] .history-landmark-caption,
+html[data-lang="zh"] .history-drag-hint,
+html[data-lang="zh"] .history-era-divider__tagline,
+html[data-lang="zh"] .history-era-divider__years,
+html[data-lang="zh"] .history-event__reference-maps-label,
+html[data-lang="zh"] .history-event__reference-maps-caption,
+html[data-lang="zh"] .history-event__reference-maps-link,
+html[data-lang="zh"] .history-sidebar__item-title,
+html[data-lang="zh"] .history-sidebar__item-year,
+html[data-lang="zh"] .history-event__year {
+  font-family: "Noto Serif SC", "Noto Serif TC", "Source Han Serif SC",
+    serif !important;
+  /* Regular weight reads best for this serif at body-copy sizes; extra
+     line-height gives long historical prose more breathing room; a touch
+     of letter-spacing plays up the serif's period/editorial feel. Added
+     2026-08-24 per explicit request, tuning the typeface trial above. */
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: 0.05em;
+}
+
+/* .history-event__hook (the yellow pull-quote line right under an event's
+   title) inherits font-style: italic from history.css, unscoped by
+   language — fine for the Latin serif faces used on EN/CZ, but Noto
+   Serif SC/TC has no real italic and the browser's synthetic slant just
+   distorts CJK strokes (the exact problem already documented for Cinzel
+   above). Pinned upright and dropped to Light (300) instead, so the hook
+   line still reads as visually distinct from the Regular-weight body
+   paragraphs below it — a "preface" feel via weight, not slant. Switched
+   to LXGW WenKai TC (2026-08-24, per explicit follow-up request) — same
+   Kaiti face as the quote block below, so the hook line now also reads
+   as a lighter, handwritten counterpoint to the Song-style Noto Serif
+   body paragraphs, not just a thinner version of the same face. ZH only. */
+html[data-lang="zh"] .history-event__hook {
+  font-family: "LXGW WenKai TC", "Noto Serif SC", "Noto Serif TC", serif !important;
+  font-style: normal;
+  /* Bumped from Light (300) to Regular (400) per follow-up request — still
+     one step lighter than nothing, but 300 read as too faint on its own.
+     LXGW WenKai TC only ships 300/400/700 (no 500/600), so 400 is the
+     next available step up, not an arbitrary middle value. */
+  font-weight: 400;
+}
+
+/* .history-event__quote-text/-attribution (the pulled-out primary-source
+   quote block) switch to LXGW WenKai TC — an open-source Kaiti-style
+   (楷体) face — instead of the Noto Serif SC/TC set on the rest of this
+   block above. Song/Ming-style serif (Noto Serif) reads as "formal
+   printed history"; Kaiti reads as "handwritten period document" — a
+   deliberate contrast so a chronicle quote visually feels lifted off a
+   manuscript, not printed history-book prose like the paragraph around
+   it. Noto Serif SC/TC kept as fallback in case a character falls outside
+   LXGW WenKai's coverage (it ships under a "TC" name but covers
+   Simplified glyphs too; the fallback is a safety net, not an expected
+   gap). Same synthetic-italic problem as the hook line above applies here
+   too — history.css sets font-style: italic on .history-event__quote-text
+   unconditionally — so pinned upright, ZH only. 2026-08-24 per explicit
+   request. */
+html[data-lang="zh"] .history-event__quote-text,
+html[data-lang="zh"] .history-event__quote-attribution {
+  font-family: "LXGW WenKai TC", "Noto Serif SC", "Noto Serif TC", serif !important;
+}
+html[data-lang="zh"] .history-event__quote-text {
+  font-style: normal;
+}
+
+/* .history-landmark-caption (the one-line relation blurb under each
+   related-landmark card) moved onto the same Kaiti face as the hook line
+   and quote block, per follow-up request — 2026-08-24. No font-style
+   override needed here (history.css never sets italic on this class, so
+   there's no synthetic-slant problem to guard against like the two rules
+   above). */
+html[data-lang="zh"] .history-landmark-caption {
+  font-family: "LXGW WenKai TC", "Noto Serif SC", "Noto Serif TC", serif !important;
+  font-weight: 300;
+  /* Matches the EN/CZ rule for this same class (see the Cinzel block
+     below, which bumps this class to solid white for the same reason:
+     history.css's default var(--text-muted) #7a6e5f reads too thin/low-
+     contrast against the dark background). */
+  color: #ffffff;
+}
+
+/* Background-knowledge cards (cardType: 'background' — see
+   history-detail-panel--background in history.css/HistoryEventSection)
+   reuse the same .history-event__summary class as a regular dated event's
+   body text, just wrapped in a differently-styled container. Scoped by
+   that container class so this only retargets background cards' own
+   paragraphs to LXGW WenKai TC, not every event summary on the page —
+   2026-08-24 per explicit request. */
+html[data-lang="zh"] .history-detail-panel--background .history-event__summary {
+  font-family: "LXGW WenKai TC", "Noto Serif SC", "Noto Serif TC", serif !important;
+}
+
 /* The Cinzel block above pins every selector in its list to font-weight:
    400 (see its comment — Cinzel's synthetic-bold path looked worse, not
    better). .history-sidebar__item-year deliberately wants real bold here

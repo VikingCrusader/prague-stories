@@ -3790,6 +3790,150 @@ export const historyEvents = [
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Prague_groschen",
   },
+  {
+    slug: "polish-crown-1300",
+    era: "rise-of-a-kingdom",
+    startYear: 1300.5,
+    year: {
+      en: "1295–1300",
+      cz: "1295–1300",
+      zh: "1295年－1300年",
+    },
+    images: [
+      "/history/polish-crown-1300.webp",
+      "/history/polish-crown-1300-welcome.webp",
+    ],
+    tone: "humorous",
+    title: {
+      en: "The Polish Crown",
+      cz: "Polská koruna",
+      zh: "波兰王冠",
+    },
+    hookLine: {
+      en: "Two Piast rivals fought over Poland's crown. Wenceslas didn't win it in the field — he simply outlasted both of them.",
+      cz: "O polskou korunu se rvali dva piastovští rivalové. Václav ji nevybojoval na bitevním poli — jen oba dva přečkal.",
+      zh: "两位皮亚斯特家族的对手为波兰王冠打得头破血流。瓦茨拉夫没有在战场上赢下它——他只是把两人都熬了过去。",
+    },
+    summary: {
+      en: "Poland had spent a good century and a half fractured among rival Piast duchies with no obvious single center — the same kind of scattered-power problem this timeline's own background card once described for Bohemia, a couple of centuries earlier. Wenceslas already held one corner of it: Kraków and Lesser Poland, secured back in 1291. But the country's other half, Greater Poland and the Baltic coast, belonged to a different duke entirely — and in December 1294, that duke's own position suddenly got much stronger. Przemysł II inherited Gdańsk Pomerania on the death of Duke Mestwin II, uniting it with his existing lands in Greater Poland into something substantial enough to justify a title nobody in the country had worn in nearly 220 years. On 26 June 1295, Archbishop Jakub Świnka of Gniezno crowned him King of Poland — a genuine restoration, not a formality, the crown itself having sat unused in the Wawel treasury since Bolesław II lost it in 1079.\n\nIt didn't last. Nine months into his reign, on 8 February 1296, Przemysł II was ambushed at Rogoźno in what was meant to be a kidnapping and ended as a murder — the men responsible traced back to the Margraves of Brandenburg, with local help from two Polish noble families, the Nałęczs and the Zarembas. Chroniclers offered a motive almost too tidy to be believed — revenge for Przemysł's first wife, a Brandenburg princess he'd had annulled decades earlier — but it fits Brandenburg's actual political interests badly enough that historians still aren't convinced it was the real reason. Whatever the cause, the result was blunt: a country that had just gotten its king back lost him again within the year.\n\nWładysław Łokietek — already familiar to this timeline as the man Wenceslas out-maneuvered for Kraków back in 1291, and not yet the man who'll eventually restore Poland's independence — moved fast into the vacancy, taking control of Greater Poland by the end of 1296. It didn't hold. His position steadily eroded over the following years, and the same regional nobility who'd once preferred him over Wenceslas gradually reversed themselves, this time for the opposite reason: Wenceslas already controlled the south, already had money, already had an army, and had a track record — established repeatedly by now — of ruling conquered territory through charters and councils rather than reprisals. By 1300, Łokietek's own support had collapsed enough that he abandoned armed resistance rather than lose a fight he could no longer win. He gave up the field. He did not give up the claim — a decision that will matter again in five years.\n\nThe Greater Poland nobility who'd once resisted Bohemian rule now formally invited it. Wenceslas's own reply survives:\n\n[[quote:0]]\n\nOn 25 July 1300, he was crowned King of Poland at Gniezno — and, in one of this whole saga's better ironies, the man who placed the crown on his head was Archbishop Jakub Świnka, the same Świnka who'd crowned Przemysł II five years earlier and who had, by most accounts, actively opposed Wenceslas's own claim not long before. Politics in this dynasty's story has a well-established habit of outlasting personal grudges; the archbishop's about-face was just the latest example.\n\nBohemia now held two crowns at once, Baltic coastline included — a reach no Přemyslid had come close to before. What came next would show, soon and often, how much harder holding a crown is than winning one.",
+      cz: "Polsko strávilo dobré půldruhé století roztříštěné mezi soupeřícími piastovskými knížectvími bez jediného zjevného centra — podobný problém rozptýlené moci, jaký tahle časová osa svého času popsala i pro Čechy, o pár staletí dřív. Václav už jeden kus vlastnil: Krakov a Malopolsko, zajištěné už v roce 1291. Druhá polovina země, Velkopolsko a pobřeží Baltu, ale patřila úplně jinému knížeti — a v prosinci 1294 jeho postavení náhle výrazně posílilo. Přemysl II. zdědil po smrti knížete Meška II. Gdaňské Pomořansko a spojil ho se svými dosavadními velkopolskými državami do celku dost velkého na to, aby ospravedlnil titul, který v zemi nikdo nenosil skoro 220 let. 26. června 1295 korunoval hnězdenský arcibiskup Jakub Świnka Přemysla polským králem — skutečnou obnovu, ne pouhou formalitu, protože samotná koruna od chvíle, kdy o ni Boleslav II. přišel v roce 1079, ležela nepoužívaná ve wawelské pokladnici.\n\nNevydrželo to. Devět měsíců po nástupu na trůn, 8. února 1296, byl Přemysl II. přepaden v Rogoźně při akci, která měla být únosem a skončila jako vražda — muži za tím stáli braniborští markrabata, s místní pomocí dvou polských šlechtických rodů, Nałęczů a Zarembů. Kronikáři nabídli motiv skoro až příliš úhledný na to, aby byl pravdivý — pomstu za Přemyslovu první manželku, braniborskou princeznu, kterou si nechal o desetiletí dřív anulovat — jenže se to natolik špatně shoduje se skutečnými braniborskými politickými zájmy, že si tím historikové dodnes nejsou jistí. Ať byl důvod jakýkoli, výsledek byl nekompromisní: země, která si právě zpátky získala krále, ho během roku ztratila znovu.\n\nVladislav Lokýtek — tahle časová osa ho už zná jako muže, kterého Václav v roce 1291 přechytračil kvůli Krakovu, a ještě ne jako muže, který jednou obnoví polskou nezávislost — se do uprázdněného místa vrhl rychle a do konce roku 1296 ovládl Velkopolsko. Nevydrželo mu to. Jeho postavení se v následujících letech postupně rozpadalo a stejná místní šlechta, která ho kdysi upřednostnila před Václavem, se teď obracela opačným směrem, tentokrát z opačného důvodu: Václav už ovládal jih, už měl peníze, už měl vojsko a měl i osvědčenou pověst — potvrzovanou už tolikrát — vládnout dobytým územím pomocí listin a rad, ne odvetami. Do roku 1300 se Lokýtkova podpora zhroutila natolik, že se vzdal ozbrojeného odporu, místo aby prohrával boj, který už nemohl vyhrát. Vzdal se bojiště. Nevzdal se nároku — rozhodnutí, které bude mít znovu význam za pět let.\n\nVelkopolská šlechta, která se kdysi bránila české vládě, ji teď sama formálně pozvala. Václavova vlastní odpověď se dochovala:\n\n[[quote:0]]\n\n25. července 1300 byl v Hnězdně korunován polským králem — a v jedné z lepších ironií celého tohohle příběhu ho korunu na hlavu vsadil právě arcibiskup Jakub Świnka, tentýž Świnka, který o pět let dřív korunoval Přemysla II. a který podle většiny svědectví ještě nedávno Václavův vlastní nárok aktivně odmítal. Politika v příběhu téhle dynastie má už dobře zavedený zvyk přežít osobní zášť; arcibiskupův obrat byl jen jejím dalším příkladem.\n\nČechy teď najednou držely dvě koruny, baltské pobřeží v to počítaje — dosah, jakému se žádný Přemyslovec dosud ani nepřiblížil. Co přijde dál, brzy a často ukáže, o kolik je těžší korunu udržet než ji získat.",
+      zh: "波兰曾经历过整整一个半世纪，被各支相互竞争的皮亚斯特公国分割得四分五裂，找不到一个明确的中心——这条时间线自己那张背景卡片曾经描述过波希米亚早几个世纪同样的权力分散困境。瓦茨拉夫早已握有其中一块：克拉科夫和小波兰，早在1291年就已到手。但这个国家的另一半——大波兰和波罗的海沿岸——却属于另一位公爵；1294年12月，这位公爵的处境突然大大增强。梅什科二世公爵去世后，普热梅希尔二世继承了格但斯克-波美拉尼亚，把它和自己原有的大波兰领地合并，凑成了一块足够分量的领土，配得起一个这个国家已近220年无人佩戴的头衔。1295年6月26日，格涅兹诺大主教雅库布·希文卡为他加冕为波兰国王——这是一次真正的复辟，而非走走过场：自从1079年博莱斯瓦夫二世丢掉王位以来，那顶王冠就一直原封不动地躺在瓦维尔城堡的宝库里。\n\n这一切没能持续多久。登基九个月后，1296年2月8日，普热梅希尔二世在罗戈日诺遭到伏击——原本只打算绑架，结果酿成了谋杀。幕后主使可以追溯到勃兰登堡藩侯家族，还有波兰本地两个贵族家族纳文奇和扎伦巴的协助。编年史家给出的动机听起来干净利落得有点过头——说是为普热梅希尔的第一任妻子（一位勃兰登堡公主，几十年前被他解除婚约）报仇——可这个说法和勃兰登堡实际的政治利益对不上号，以至于历史学家至今都不太买账。不管真正的原因是什么，结果都很直接：一个刚刚重新拥有国王的国家，不到一年，又一次失去了他。\n\n瓦迪斯瓦夫·洛基泰克——我们的老熟人了，1291年就是被瓦茨拉夫在克拉科夫的争夺中略胜一筹的那位对手，此时还不是日后那个复兴波兰独立的洛基泰克——迅速填补了权力真空，到1296年年底控制了大波兰。但没能撑住。接下来几年里，他的地位一点点被侵蚀，当初更倾向支持他而不是瓦茨拉夫的那批当地贵族，这回反倒转了向——原因却恰恰相反：瓦茨拉夫早已控制着南方，早已有钱，早已有军队，而且已经反复证明过自己有一套用宪章和议事会而非报复手段来治理征服之地的作风。到1300年，洛基泰克的支持已经瓦解到他索性放弃武装抵抗，不再打一场注定打不赢的仗。他放弃了战场，却没有放弃这个头衔——这个决定，五年后还会再次派上用场。\n\n曾经抵抗过波希米亚统治的大波兰贵族，如今正式发出了邀请。瓦茨拉夫本人的回信留存了下来：\n\n[[quote:0]]\n\n1300年7月25日，他在格涅兹诺加冕为波兰国王——而这整段故事里最讽刺的一幕是，把王冠戴到他头上的，正是大主教雅库布·希文卡——五年前为普热梅希尔二世加冕的那同一位希文卡，据大多数记载，此前不久他还在积极反对瓦茨拉夫的主张。这个王朝的故事里，政治向来比个人恩怨活得更久；大主教这次的转向，不过是又一个例证罢了。\n\n波希米亚如今一举握有两顶王冠，波罗的海沿岸也囊括其中——这样的疆域，此前从没有哪位普热米斯尔王朝的君主真正靠近过。接下来发生的事，很快、也很频繁地，将说明守住一顶王冠，比赢得它难上多少。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "It is not the custom of our royal dignity to close the embrace of its love to those who have sought, in trust, to turn to it in hope of obtaining grace. Your request, then, by which you invite us to the Kingdom of Poland, we now gladly and willingly grant…",
+          cz: "Nemá v obyčeji naše královská důstojnost zavírati náručí lásky své těm, kteří se pokusili k němu s důvěrou uchýliti v naději na získání milosti. Vaší žádosti tedy, kterou nás zvete na království Polské, s ochotným duchem rádi nyní vyhovujeme…",
+          zh: "我们的王者尊严，向来不会向那些怀着信任、盼望获得恩典而向它靠拢的人，关闭爱的怀抱。因此，对于你们邀请我们前往波兰王国的这一请求，我们如今心甘情愿、欣然应允……",
+        },
+        attribution: {
+          en: "Wenceslas II",
+          cz: "Václav II.",
+          zh: "瓦茨拉夫二世",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Wenceslaus_II_of_Bohemia",
+  },
+  {
+    slug: "baltic-to-danube-1301",
+    era: "rise-of-a-kingdom",
+    startYear: 1301,
+    year: {
+      en: "1301–1303",
+      cz: "1301–1303",
+      zh: "1301年－1303年",
+    },
+    images: [
+      "/history/baltic-to-danube-1301.webp",
+      "/history/baltic-to-danube-1301-map.webp",
+    ],
+    tone: "humorous",
+    title: {
+      en: "From the Baltic to the Danube",
+      cz: "Od Baltu k Dunaji",
+      zh: "从波罗的海到多瑙河",
+    },
+    hookLine: {
+      en: "For a little over a year, this family held crowns in three kingdoms at once. Almost none of the third one was real.",
+      cz: "Něco přes rok držela tahle rodina naráz koruny tří království. Skoro nic z toho třetího nebylo skutečné.",
+      zh: "有那么一年多的时间，这个家族同时握有三个王国的王冠。可第三顶，几乎全是虚的。",
+    },
+    summary: {
+      en: "Andrew III of Hungary died on 14 January 1301 without a son, and with him the male line of the Árpád dynasty — Hungary's own royal family for nearly three centuries — ran out entirely. The obvious candidate to succeed him was Charles Robert of Anjou, a teenage grandson of an earlier Hungarian princess who'd married into the royal house of Naples, and Pope Boniface VIII threw the full weight of the papacy behind him almost immediately. Hungary's own nobility, wary of a king imposed from Rome, wanted a say of their own.\n\nThat opening was found by Jan Muskata, Bishop of Kraków — a name this timeline has already met, and not always as a reliable Bohemian partner; his own loyalties had drifted toward Wenceslas only after Przemysł II's death cleared the field. Muskata proposed an alternative candidate: Wenceslas's own son, eleven years old, already betrothed to Andrew III's daughter Elizabeth, and carrying real, if distant, Árpád blood of his own — his great-great-grandmother was Anna of Hungary, Béla IV's own daughter, passed down through Kunigunda of Halych, Otakar II's second wife and this timeline's own old acquaintance. Bribes from Wenceslas II's agents evidently sweetened the genealogy considerably. Meeting the Hungarian envoys at Hodonín in August 1301, Wenceslas accepted the offer on his son's behalf.\n\nThe coronation followed on 27 August 1301, at Székesfehérvár, with the actual Holy Crown of Hungary — checking two of the three boxes Hungarian custom required for a coronation to count as legitimate. Charles's own coronation, three months earlier, had checked neither: performed at Esztergom instead of Székesfehérvár, with a stand-in crown instead of the real one, it was formally declared invalid by the Hungarian diet on 13 May 1301. On paper, Wenceslas's own son — now going by the Hungarian regnal name Ladislaus, the fifth king to carry it — had the stronger claim. Bohemia, Poland, and now Hungary: for the first time, a single Přemyslid family held crowns stretching from the Baltic coast to the Danube basin.\n\nOn paper is doing a great deal of work in that sentence. Boniface VIII was furious that the coronation had gone ahead without his authorization, and sent his own legate, Cardinal Niccolò Boccasini, into Hungary that September specifically to talk the country's prelates out of their new king. He didn't need to work very hard. Hungary itself had already dissolved into roughly a dozen provinces, each run by its own regional strongman — Matthew Csák in the northwest, Ivan Kőszegi, who'd simply appointed himself Palatine, elsewhere — and none of them were in the business of handing real authority to either boy-king. A near-contemporary chronicle summed up the arrangement about as bluntly as it could be summed up:\n\n[[quote:0]]\n\nA kingdom, on paper, split neatly in two. A kingdom, in practice, ruled by neither of the two names on the paperwork.\n\nThe next three years made the gap between the two even harder to ignore. Charles tried to force the issue by besieging Buda in September 1302; Kőszegi — who wasn't fighting for 'Ladislaus' out of loyalty so much as convenience — broke the siege anyway. Boniface VIII declared Charles the lawful king outright on 31 May 1303, stripping away what little papal ambiguity had remained. The crown Wenceslas's son actually wore was looking less and less like the crown anyone else recognized.\n\nFor a little over a year, this family had genuinely held three crowns at once, a reach stretching from the Baltic to the Danube that no Přemyslid before or after would match. Most of that reach, it turned out, was a name on a piece of paper — which, per one chronicler's own verdict, was about all either claimant Hungarian king ever really had. Holding onto even that thin claim was about to get a great deal harder — for Wenceslas's son in Hungary, and, as 1303 turned into 1304, for Wenceslas himself, back home in Bohemia.",
+      cz: "Ondřej III. Uherský zemřel 14. ledna 1301 bez syna, a s ním rodová linie Arpádovců po meči — uherské královské rodiny po skoro tři staletí — úplně vyhasla. Zjevným kandidátem na jeho nástupce byl Karel Robert z Anjou, teenager, vnuk jedné dřívější uherské princezny, která se provdala do neapolské královské rodiny, a papež Bonifác VIII. za něj takřka okamžitě vrhl celou váhu papežství. Uherská šlechta, opatrná vůči králi vnucenému z Říma, chtěla mít vlastní slovo.\n\nTuhle skulinu našel Jan Muskata, krakovský biskup — jméno, které tahle časová osa už zná, a ne vždycky jako spolehlivého českého spojence; jeho vlastní loajalita se přiklonila k Václavovi teprve poté, co smrt Přemysla II. uvolnila pole. Muskata navrhl jiného kandidáta: Václavova vlastního syna, jedenáctiletého, už zasnoubeného s Ondřejovou dcerou Alžbětou a nesoucího vlastní, byť vzdálenou, arpádovskou krev — jeho praprababičkou byla Anna Uherská, dcera Bély IV., předaná dál přes Kunhutu Haličskou, druhou manželku Otakara II. a starou známou téhle časové osy. Úplatky od Václavových II. vyslanců zjevně tenhle rodokmen ještě citelně přiživily. Václav se v srpnu 1301 sešel s uherskými posly v Hodoníně a nabídku jménem svého syna přijal.\n\nKorunovace následovala 27. srpna 1301 ve Stoličném Bělehradě, se skutečnou uherskou svatoštěpánskou korunou — čímž byly splněny dvě ze tří podmínek, které uherský zvyk vyžadoval, aby korunovace platila za legitimní. Karlova vlastní korunovace o tři měsíce dřív nesplnila ani jednu: proběhla v Ostřihomi místo ve Stoličném Bělehradě a s náhradní korunou místo té pravé, a uherský sněm ji 13. května 1301 formálně prohlásil za neplatnou. Na papíře měl tedy silnější nárok právě Václavův syn — teď vystupující pod uherským královským jménem Ladislav, pátý panovník, který ho nesl. Čechy, Polsko a teď i Uhry: poprvé v historii držela jedna přemyslovská rodina koruny sahající od baltského pobřeží až po Podunají.\n\nNa papíře je v téhle větě podstatné slovo. Bonifác VIII. zuřil, že korunovace proběhla bez jeho svolení, a toho září vyslal do Uher vlastního legáta, kardinála Niccola Boccasiniho, s výslovným úkolem odradit tamní preláty od jejich nového krále. Nemusel se moc snažit. Uhry se totiž už rozpadly na zhruba tucet provincií, z nichž každou řídil vlastní regionální siláč — Matúš Čák na severozápadě, Ivan Kőszegi, který se prostě sám jmenoval falckrabětem, jinde — a nikdo z nich neměl v úmyslu předat skutečnou moc ani jednomu z obou chlapeckých králů. Téměř dobová kronika to shrnula tak přímočaře, jak jen to šlo:\n\n[[quote:0]]\n\nKrálovství na papíře úhledně rozdělené na dvě poloviny. Království v praxi neovládané ani jedním ze dvou jmen na té listině.\n\nNásledující tři roky učinily propast mezi oběma o to hůř přehlédnutelnou. Karel se pokusil věc vyřešit silou obležením Budína v září 1302; Kőszegi — který za 'Ladislava' nebojoval z loajality, spíš z pohodlnosti — obležení stejně zlomil. Bonifác VIII. 31. května 1303 přímo prohlásil Karla za právoplatného krále, čímž zmizela i ta poslední trocha papežské nejednoznačnosti. Koruna, kterou Václavův syn skutečně nosil, vypadala čím dál míň jako koruna, kterou by uznával kdokoli jiný.\n\nNěco přes rok tahle rodina skutečně držela naráz tři koruny, dosah od Baltu až po Dunaj, jakému se žádný Přemyslovec předtím ani potom nepřiblížil. Většina toho dosahu se ale ukázala být jménem na kusu papíru — což bylo, podle verdiktu jednoho kronikáře, tak nějak všechno, co kdy oba uherští uchazeči o trůn skutečně měli. Udržet si i tenhle tenký nárok se chystalo být mnohem těžší — pro Václavova syna v Uhrách, a jak se rok 1303 přehoupl do roku 1304, i pro samotného Václava doma v Čechách.",
+      zh: "1301年1月14日，匈牙利的安德烈三世去世，没有留下儿子——阿尔帕德王朝的男系血脉，这个统治匈牙利将近三百年的王室家族，就此彻底断绝。继位的头号人选是安茹的查理·罗伯特——一位少年，外祖母是一位早年嫁入那不勒斯王室的匈牙利公主——教皇卜尼法斯八世几乎立刻就把整个教廷的分量都压在了他这边。但匈牙利本国的贵族们，对一位由罗马强行安插的国王心存戒备，想要自己说了算。\n\n抓住这个缝隙的人，是克拉科夫主教扬·穆斯卡塔——我们的老熟人了，而且不总是波希米亚这边可靠的盟友；他的忠诚是在普热梅希尔二世死后、局面腾出空当之后，才转向瓦茨拉夫这边的。穆斯卡塔提出了另一个人选：瓦茨拉夫自己的儿子，年仅十一岁，早已与安德烈三世的女儿伊丽莎白订婚，而且自己身上也确实流着一份虽然隔了好几代、却货真价实的阿尔帕德血脉——他的高祖母，正是贝拉四世的女儿匈牙利的安娜，这份血脉经由哈利奇的库尼贡达一路传下来——库尼贡达正是奥托卡二世的第二任妻子，我们的另一位老熟人。瓦茨拉夫二世使者送出的贿赂，显然给这份族谱又添了不少说服力。1301年8月，瓦茨拉夫在戈迪宁与匈牙利使团会面，代替儿子接受了这份邀请。\n\n加冕礼随后在1301年8月27日于塞克什白堡举行，用的是真正的匈牙利圣冠——这满足了匈牙利习俗判定加冕是否合法所要求的三项条件里的两项。三个月前，查理自己的加冕礼一项都没满足：地点在埃斯泰尔戈姆而非塞克什白堡，用的也是一顶代用王冠而非真品，匈牙利议会在1301年5月13日正式宣布那次加冕无效。纸面上看，瓦茨拉夫的儿子——如今在匈牙利改用“拉斯洛”这个王号，历史上第五位使用这个名字的国王——才是更站得住脚的那个。波希米亚、波兰，如今再加上匈牙利：这是普热米斯尔王朝头一次，同一个家族的疆域从波罗的海沿岸一路延伸到多瑙河流域。\n\n这句话里，“纸面上看”这四个字分量极重。卜尼法斯八世对这场未经他批准就举行的加冕礼大为光火，当年九月就派出了自己的特使——枢机主教尼科洛·博卡西尼——专程前往匈牙利，游说当地的高级教士抛弃这位新国王。他其实用不着费太大力气。匈牙利这时候早已分裂成大约十来个各自为政的地区，每一块都由自己的地方强人把持——西北部的马泰·恰克，还有干脆自封为宫相的伊万·克塞吉——没有一个人打算把真正的权力交给这两位“男孩国王”中的任何一位。一部几乎与此同时代的编年史，把这种局面总结得再直白不过：\n\n[[quote:0]]\n\n一个王国，在纸面上被利落地一分为二。而在现实里，这两个名字里没有一个真正统治着它。\n\n接下来的三年，让两者之间的落差愈发难以忽视。1302年9月，查理试图用武力解决问题，围攻布达；克塞吉——他为“拉斯洛”而战，与其说出于忠诚，不如说出于方便——还是打破了这次围城。1303年5月31日，卜尼法斯八世干脆直接宣布查理为合法国王，连教廷此前那点模棱两可的余地都不留了。瓦茨拉夫儿子头上那顶王冠，看起来越来越不像是别人眼里那顶真正的王冠了。\n\n在一年多一点的时间里，这个家族确实同时握有三顶王冠，疆域从波罗的海一路延伸到多瑙河——这样的版图，此前没有哪位普热米斯尔王朝的君主真正做到过，之后也再没有人做到。但这份版图的大半，说到底不过是纸上的一个名字——用一位编年史家自己的话说，这大概就是这两位匈牙利“候选国王”真正拥有过的全部东西了。守住哪怕这份单薄的名分，接下来都会变得难得多——匈牙利那边的儿子如此，而随着1303年翻过年头进入1304年，留在波希米亚本土的瓦茨拉夫自己，也是如此。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "The aforementioned king, whom the Hungarians named Ladislaus, resided in Buda, but the barons gave him not a single castle, no might or power, no royal right — just as with the boy Charles. One part of the country proclaimed Charles king, the other Ladislaus, but only in name, not in reality, in terms of royal sovereignty and authority.",
+          cz: "…Zmiňovaný král, kterého Uhři pojmenovali Ladislav, sídlil v Budíně, ale baroni mu nedali ani jeden hrad, žádnou moc a vládu, žádné královské právo podobně jako chlapci Karlovi. Jedna část země vyhlásila králem Karla, druhá Ladislava, ale pouze podle jména, ne ve skutečnosti, ve smyslu královské svrchovanosti a pravomoci.",
+          zh: "前述那位被匈牙利人称作拉斯洛的国王，住在布达，可是那些男爵们没给他一座城堡、没给他半分权力和统治权，也没给他任何王权——对那个孩子查理也是一样。这个国家一部分人拥立查理为王，另一部分人拥立拉斯洛为王，但都只是名义上的国王，说到真正的王权与治权，二者都名不副实。",
+        },
+        attribution: {
+          en: "Vienna Illuminated Chronicle",
+          cz: "Vídeňská obrázková kronika",
+          zh: "《维也纳插图编年史》",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Wenceslaus_III_of_Bohemia",
+  },
+  {
+    slug: "coalition-against-bohemia-1304",
+    era: "rise-of-a-kingdom",
+    startYear: 1303.5,
+    year: {
+      en: "1303–1304",
+      cz: "1303–1304",
+      zh: "1303年－1304年",
+    },
+    images: [],
+    tone: "humorous",
+    title: {
+      en: "The Coalition Against Bohemia",
+      cz: "Koalice proti Čechám",
+      zh: "围剿波希米亚",
+    },
+    hookLine: {
+      en: "Wenceslas had spent a decade making the rest of Europe uneasy. In 1303, a good part of it decided to do something about it — starting with his silver.",
+      cz: "Václav strávil deset let tím, že znervózňoval zbytek Evropy. V roce 1303 se pořádný kus té Evropy rozhodl s tím něco udělat — začal jeho stříbrem.",
+      zh: "瓦茨拉夫花了十年时间让整个欧洲如坐针毡。1303年，欧洲的一大半决定对此做点什么——从他的白银下手。",
+    },
+    summary: {
+      en: "Wenceslas had made two separate enemies over the past decade, and in 1303 they finally figured out they wanted the same thing at the same time. Albert of Habsburg — this timeline's own old acquaintance, the man Wenceslas quietly maneuvered out of the imperial election back in 1292, King of the Romans in his own right now, since defeating Adolf of Nassau at Göllheim in 1298 — joined forces with Pope Boniface VIII, who'd already thrown his weight behind Charles Robert of Anjou's rival claim to Hungary. Together they handed Wenceslas an ultimatum: give up Poland. Give up Hungary. And give up Bohemia's rights to Kutná Hora's silver. That third demand was the real one. Nobody assembles a coalition over a crown a boy king can barely hold onto anyway — Albert wanted the mines that had just turned Bohemia into one of the wealthiest kingdoms in Europe.\n\nIn 1304, Albert backed the demand with an army, invading eastern Bohemia with Kutná Hora itself as the target. Bohemian forces threw him back before he got anywhere near it. That September, his son Rudolf III, Duke of Austria, opened a second front, joining Charles Robert of Anjou for an invasion of Moravia — and was pushed out just as decisively. Two invasions, two failures. Whatever else 1304 was costing Wenceslas, it wasn't costing him any actual ground.\n\nWenceslas met the coalition with one of his own — an alliance with Philip IV of France, who had his own long-running fight with Boniface VIII over exactly how much authority a pope got to claim over a king. Two rulers leaning on a shared grudge rather than a shared cause, usually this dynasty's specialty — except the timing worked against him this time: Boniface VIII died that October, and his successor, Benedict XI, made peace with France almost immediately. Philip's support evaporated before it had done Wenceslas any real good.\n\nAll of this — the ultimatum, the invasions, the collapsing French alliance — was unfolding at the exact same time as the slow unraveling of his son's position in Hungary. Matthew Csák and the Abas, two of the noble factions that had once backed young Wenceslas, defected to Charles's side in 1303, leaving the boy king dangerously exposed. What doesn't come through in a list of invasions and alliances is that underneath the strategy, this was also just a father worried about his son. The Zbraslav Chronicle puts it plainly:\n\n[[quote:0]]\n\nHe marched into Hungary that June — already, though barely anyone around him seemed to notice yet, troubled by a persistent cough that wouldn't go away. What happened once he got there is its own story.",
+      cz: "Václav si za poslední desetiletí nadělal dva samostatné nepřátele, a v roce 1303 konečně přišli na to, že chtějí totéž, a to ve stejnou chvíli. Albrecht Habsburský — stará známost téhle časové osy, muž, kterého Václav v roce 1292 potichu vymanévroval z císařské volby, teď už sám římským králem od chvíle, kdy v roce 1298 porazil Adolfa Nasavského u Göllheimu — spojil síly s papežem Bonifácem VIII., který už dřív vsadil celou svou váhu na Karla Roberta z Anjou jako soupeře o uherský trůn. Společně Václavovi předložili ultimátum: vzdej se Polska. Vzdej se Uher. A vzdej se českých práv na kutnohorské stříbro. Ten třetí požadavek byl ten skutečný. Nikdo nesestavuje koalici kvůli koruně, kterou stejně sotva udrží chlapecký král — Albrecht chtěl doly, které z Čech právě udělaly jedno z nejbohatších království Evropy.\n\nV roce 1304 podložil Albrecht ten požadavek vojskem, vpadl do východních Čech s Kutnou Horou samotnou jako cílem. České síly ho odrazily dřív, než se tam vůbec dostal. Toho září otevřel druhou frontu jeho syn Rudolf III., vévoda rakouský, který se spojil s Karlem Robertem z Anjou kvůli invazi na Moravu — a byl vytlačen stejně rozhodně. Dvě invaze, dva neúspěchy. Ať už rok 1304 stál Václava cokoli, žádné skutečné území ho nestálo.\n\nVáclav se koalici postavil vlastní koalicí — spojenectvím s francouzským Filipem IV., který měl s Bonifácem VIII. vlastní dlouholetý spor o to, kolik moci si papež smí nárokovat nad králem. Dva vládci opírající se o společnou zášť místo společné věci, obvykle specialita téhle dynastie — jenže tentokrát mu hrálo do karet špatné načasování: Bonifác VIII. toho října zemřel a jeho nástupce, Benedikt XI., se s Francií téměř okamžitě usmířil. Filipova podpora se vypařila dřív, než Václavovi stihla k něčemu opravdu být.\n\nTohle všechno — ultimátum, invaze, rozpadající se francouzské spojenectví — se odehrávalo přesně ve chvíli, kdy se pomalu hroutilo i postavení jeho syna v Uhrách. Matúš Čák a rod Abovců, dvě šlechtické frakce, které kdysi podporovaly mladého Václava, přeběhly v roce 1303 na Karlovu stranu a nechaly chlapeckého krále nebezpečně nekrytého. Co v seznamu invazí a spojenectví úplně nevynikne, je to, že pod celou tou strategií byl taky prostě otec, který se bojí o syna. Zbraslavská kronika to říká na rovinu:\n\n[[quote:0]]\n\nDo Uher vytáhl toho června — už tehdy, ačkoli si toho v jeho okolí skoro nikdo ještě nevšímal, trápil ho neustupující kašel. Co se stalo, jakmile tam dorazil, je už jiný příběh.",
+      zh: "瓦茨拉夫过去十年里得罪了两个各自独立的敌人，1303年，这两人终于发现彼此想要的是同一件事，而且是在同一时间。哈布斯堡的阿尔布雷希特——我们的老熟人，1292年被瓦茨拉夫悄悄操作出局、没能拿到皇位选举资格的那位——如今已经凭自己实力当上了罗马人的国王，自从1298年在戈尔海姆击败拿骚的阿道夫以后。他联手了教皇卜尼法斯八世——教皇早就把全部分量都押在了安茹的查理·罗伯特争夺匈牙利王位这件事上。两人联手向瓦茨拉夫下了最后通牒：放弃波兰。放弃匈牙利。还有，放弃波希米亚对库特纳霍拉银矿的权利。第三项要求才是真正的目标。没人会为了一顶男孩国王都快守不住的王冠特意组一个联盟——阿尔布雷希特真正想要的，是那片刚刚把波希米亚变成欧洲最富有王国之一的银矿。\n\n1304年，阿尔布雷希特把这项要求变成了军队，率兵入侵波希米亚东部，目标直指库特纳霍拉本身。波希米亚军队在他还没打到那儿之前就把他打了回去。同年九月，他的儿子——奥地利公爵鲁道夫三世——打开了第二条战线，联手安茹的查理·罗伯特入侵摩拉维亚——同样被干净利落地击退。两次入侵，两次落空。不管1304年这一年让瓦茨拉夫付出了什么代价，反正没有丢掉一寸实际领土。\n\n瓦茨拉夫用自己的联盟迎战了这个联盟——他和法国的腓力四世结盟，后者跟卜尼法斯八世也有自己一场旷日持久的争执，争的是教皇到底能对国王的权力伸手伸到多远。两位君主靠着共同的怨气而非共同的目标站到一起，这通常正是这个王朝最拿手的招数——可这一次时机对他不利：卜尼法斯八世那年十月就去世了，继任的本笃十一世几乎立刻就和法国和解。腓力的支持还没来得及帮上什么忙，就已经烟消云散。\n\n这一切——最后通牒、入侵、正在瓦解的法国同盟——都恰好和他儿子在匈牙利那边正在慢慢崩塌的处境同时发生。马泰·恰克和阿巴家族，这两个曾经支持过年轻瓦茨拉夫的贵族派系，1303年倒向了查理那边，把这位男孩国王暴露在了危险之中。一长串入侵和结盟的清单没能完全体现出来的是：在这套战略布局底下，这其实也不过是一位父亲在为儿子的安危发愁。《兹布拉斯拉夫编年史》说得很直白：\n\n[[quote:0]]\n\n他那年六月出兵匈牙利——那时他已经被一阵怎么都止不住的咳嗽缠上了，只是身边几乎没人把这当回事。至于他抵达之后发生了什么，那是另一个故事了。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "Then, because this father Wenceslas burned with desire to see his son, fearing also that some danger might befall him, he gathered a strong army and set out, in the year 1304, in the month of June, into the Kingdom of Hungary…",
+          cz: "Potom protože tento otec Václav planul touhou viděti syna, obávaje se také, aby se mu nepřihodilo nějaké nebezpečenství, shromáždil silné vojsko a vytáhl roku 1304 v měsíci červnu do království Uherského…",
+          zh: "此后，因为这位父亲瓦茨拉夫热切盼望见到儿子，同时也担心他可能遭遇某种危险，便集结了一支强大的军队，于1304年六月，向匈牙利王国进发……",
+        },
+        attribution: {
+          en: "Zbraslav Chronicle",
+          cz: "Zbraslavská kronika",
+          zh: "兹布拉斯拉夫编年史",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "kutna-hora",
+        relation: {
+          en: "The literal target of Albert's 1304 invasion — the silver mines this whole coalition was really about, successfully defended.",
+          cz: "Doslovný cíl Albrechtovy invaze z roku 1304 — stříbrné doly, o které celé téhle koalici ve skutečnosti šlo, úspěšně ubráněné.",
+          zh: "阿尔布雷希特1304年入侵的真正目标——这整个联盟真正盯上的银矿，最终被成功守住。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Albert_I_of_Germany",
+  },
 ];
 
 async function run() {
