@@ -118,15 +118,26 @@
    title in the pixel font is wide enough to force this row past a narrow
    mobile sidebar's bounds instead of wrapping. flex: 1 lets it actually
    take the row's remaining space instead of just sizing to content. */
+/* Wraps title-text + year-range so they stack vertically next to the
+   chevron inside the row-direction toggle button — same min-width: 0 fix
+   as title-text itself needs, for the same reason (see the comment above). */
+.history-sidebar__era-title-stack {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
 .history-sidebar__era-title-text {
   flex: 1;
   min-width: 0;
   overflow-wrap: break-word;
 }
-.history-sidebar__era-tag {
+.history-sidebar__era-year-range {
   font-family: inherit;
-  font-size: 8px;
-  color: var(--text-muted);
+  font-size: 13px;
+  font-weight: 400;
+  color: #ffffff;
   text-shadow: none;
 }
 
@@ -173,9 +184,14 @@
 .era-rise-of-a-kingdom      { --era-accent: #8a6d3f; }
 .era-kingdom-golden-age     { --era-accent: #ffd700; }
 .era-religious-turmoil      { --era-accent: #b83030; }
-.era-renaissance-baroque    { --era-accent: #a070d0; }
-.era-revival-independence   { --era-accent: #d94040; }
-.era-20th-century-upheaval  { --era-accent: #8a94a0; }
+.era-habsburg-rule          { --era-accent: #6b5a2e; }
+.era-fire-and-ashes         { --era-accent: #4a4a52; }
+.era-age-of-absolutism      { --era-accent: #a070d0; }
+.era-revival-industrialization { --era-accent: #d94040; }
+.era-brief-independence     { --era-accent: #3d6fb0; }
+.era-nazi-nightmare         { --era-accent: #2a2020; }
+.era-cold-war-sorrow        { --era-accent: #6b6b74; }
+.era-freedom-and-prosperity { --era-accent: #4a9d7a; }
 
 /* ── Era divider ─────────────────────────────────────────────────────── */
 /* Rendered by HistoryPage in-feed whenever the era changes between one
