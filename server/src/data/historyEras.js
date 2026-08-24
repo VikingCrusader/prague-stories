@@ -179,6 +179,39 @@
 // 1689 Great Fire of Prague that closes the era, "ashes" for the
 // devastation left behind. No year-range change needed once the title no
 // longer promises to be *the* Thirty Years' War specifically.
+//
+// One more rename from the same outside review, this one hitting harder:
+// 'habsburg-rule' (1526-1618) became 'habsburgs-move-in'. The review's
+// point, independently verified: Bohemia's monarchy stayed *legally
+// elective* the whole 1526-1618 span — Ferdinand I won the crown in 1526
+// via a vote of the Bohemian Estates, and while later Habsburgs kept
+// re-winning it through dynastic momentum, the elective *right* itself
+// wasn't actually abolished until Ferdinand II's 1627 Renewed Land
+// Ordinance (Verneuerte Landesordnung), which imposed hereditary male-line
+// Habsburg succession, stripped the Estates' autonomy, and legally
+// established absolutism in its place. So "Habsburg Rule" as a title for
+// 1526-1618 was quietly claiming a level of dynastic entrenchment that
+// hadn't legally happened yet — the same shape of error the 'kingdom-
+// golden-age' rename fixed once already (a title cashing a check the
+// timeframe hadn't earned). Note: the review's own claim that 1627
+// "almost exactly coincides" with where 'fire-and-ashes' ends (1689) does
+// NOT hold up — 1627 sits just 9 years into that era (which starts 1618),
+// 62 years short of its 1689 end. 1627 reads far more naturally as part of
+// 'fire-and-ashes' own story (the direct legal codification of what White
+// Mountain, 1620, already decided by force — its own tagline already says
+// as much: "White Mountain ends Bohemian self-rule in a single
+// afternoon"), so that era's boundaries were NOT touched. Of the three
+// renamed titles the review offered, "Rudolf's Prague" was rejected outright
+// (an individual-ruler-named era, the exact pattern 'kingdom-golden-age'
+// already ruled out) and "Twilight of the Elective Throne"-style options
+// were set aside as too literary against the user's own established
+// preference for a plain register (see the round-1 naming lesson above) —
+// landed on 'The Habsburgs Move In' / "哈布斯堡入主" instead, which keeps
+// the dynasty name (still fine per that same round-1 ruling) but swaps
+// "Rule" for a verb that doesn't overclaim how settled that rule already
+// was. The user's own framing for why this works: it explicitly foreshadows
+// the four centuries of Habsburg rule still to come, rather than asserting
+// that rule as already fully arrived.
 export const HISTORY_ERAS = [
   {
     key: 'legends-origins',
@@ -286,14 +319,14 @@ export const HISTORY_ERAS = [
     },
   },
   {
-    key: 'habsburg-rule',
+    key: 'habsburgs-move-in',
     order: 6,
-    themeClass: 'era-habsburg-rule',
+    themeClass: 'era-habsburgs-move-in',
     hasContent: false,
     title: {
-      en: 'Habsburg Rule',
-      cz: 'Habsburská vláda',
-      zh: '哈布斯堡统治',
+      en: 'The Habsburgs Take the Throne',
+      cz: 'Nástup Habsburků',
+      zh: '哈布斯堡入主',
     },
     yearRange: {
       en: '1526–1618',
