@@ -24023,6 +24023,132 @@ Ze středověké budovy se nedochovalo vůbec nic. Husitské války klášter v 
 🎁 彩蛋：这座宫殿至今仍矗立在当年中世纪僧侣特意选中的那处河流交汇处——熙笃会修道院选址靠近水源，出于的其实是纯粹实用的考虑（磨坊、灌溉、供水），不管后人给这个位置附会了多少精神象征意义。`,
     },
   },
+  {
+    // Added 2026-08-24 alongside the History Timeline's too-soon-1305
+    // (Wenceslas II's death card), after the user asked whether he had any
+    // personally-founded great projects/cities — this is the answer.
+    // "city" label per the reuse note left on jihlava's own entry above.
+    name: 'Plzeň',
+    slug: 'plzen',
+    localizedNames: { cz: 'Plzeň', zh: '皮尔森' },
+    labels: ['city', 'historical'],
+    coordinates: { lat: 49.74748331062555, lng: 13.377705513388227 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Plze%C5%88',
+    description: {
+      en: `Plzeň started life in 1295 as a brand-new royal town, built to replace an older settlement nearby that got demoted to "Old Plzeň" for its trouble — a village that, six centuries later, still hasn't lived it down. Within twelve years, someone in it was already brewing beer, which turned out to be the single most important fact about this town's entire future, though nobody involved could have guessed just how important yet.
+
+King Wenceslas II founded the town specifically to anchor Bohemia's trade routes toward Nuremberg and Regensburg — a deliberate piece of economic infrastructure, not just another fortified outpost. It worked: within a few decades Plzeň had grown into the third-largest city in the entire kingdom, behind only Prague itself and the silver boomtown of Kutná Hora, packing roughly 3,000 people into a walled area of just 20 hectares. The same founding charter that established the town also set out its central square — still the heart of Plzeň today, and eventually home to nearly everything else on this list.
+
+That square is dominated by the Cathedral of St. Bartholomew, whose parish church almost certainly dates to the town's own 1295 founding, though the Gothic building actually standing today wasn't begun until after 1342. Its single tower climbs 102.26 meters — the tallest church tower in the entire Czech Republic — and rewards anyone willing to climb the nearly 300 steps to the top with a view over the whole city and the countryside beyond. It didn't officially become a cathedral until 1993, when the Plzeň Diocese was created; for nearly 700 years before that, it was simply the parish church doing the same job without the fancier title.
+
+A century later, that same town square anchored something more dramatic: Plzeň spent the 1420s and early 1430s as one of Bohemia's few genuine Catholic strongholds during the Hussite Wars, and it never fell. Jan Žižka himself got boxed in outside its walls in 1420 and had to negotiate his own way out with only a fraction of his army. A second siege in 1421 ended with the city talking its way to favorable terms rather than being stormed. The biggest test came in 1433–34, when the Hussite commander Prokop the Great laid siege to the city for nine months and twenty-three days — and still couldn't take it. Plzeň's own reputation as the city that wouldn't crack dates to exactly this stretch.
+
+The square gained a very different kind of monument nearly five centuries later: the Great Synagogue, built between 1890 and 1893 entirely on donations from Plzeň's own Jewish community. The original design called for twin towers 65 meters tall — but the city talked the architects down, worried the synagogue would literally overshadow St. Bartholomew's own tower across the square. The scaled-back version, with 45-meter towers in a Moorish-Romanesque style, still ended up the second-largest synagogue in Europe and third-largest in the world, seating up to 2,000 worshippers. It survived the 20th century's worst only to be abandoned in 1973 for lack of funds, sitting derelict for a quarter century before two separate restorations — the most recent finished in 2022 — brought it back.
+
+The 20th century brought Plzeň a different kind of attention: its Škoda Works, one of Central Europe's largest arms manufacturers, made the city a priority target once the Nazis put the factory to work for their own war effort. The Škoda plant absorbed the final major Allied bombing raid of the entire European war, on 25 April 1945. Eleven days later, on 6 May 1945, tanks of the US Army's 16th Armored Division, part of General Patton's Third Army, rolled into Plzeň — making it one of the few major Czech cities actually liberated by American rather than Soviet forces. It wouldn't matter for long: within a few years, Plzeň found itself on the wrong side of the Iron Curtain regardless of who'd shown up first.
+
+And the beer never stopped. That first written brewing record from 1307 was only the beginning of a habit written directly into the town's founding charter — standard practice for any self-respecting medieval Bohemian town. It took another five and a half centuries for the habit to turn into something the whole world would recognize: in 1842, brewers in this same town invented an entirely new style of pale, clear lager that took the city's own name and went on to define what most of the planet now just calls "beer."
+
+🎁 Bonus: after 125 years without a single fountain, Plzeň's main square got one back in 2010 — the Golden Angel Fountain, a modern bronze casting finished in seven kinds of gold leaf, water spilling from a gilded angel-shaped gargoyle into a basin of Chinese granite. Reactions split the city right down the middle the day it was unveiled, and seven-hundred-year-old St. Bartholomew's tower has been staring down at the argument ever since.`,
+
+      cz: `Plzeň začala svůj život v roce 1295 jako zbrusu nové královské město, postavené jako náhrada za starší osadu opodál, která si za své potíže vysloužila jen přezdívku „Starý Plzenec" — vesnice, která se s tím nesrovnala ani o šest století později. Do dvanácti let už v něm někdo vařil pivo, což se ukázalo jako zdaleka nejdůležitější fakt o celé budoucnosti tohoto města, ačkoli tehdy ještě nikdo netušil, jak moc důležitý.
+
+Král Václav II. založil město cíleně jako kotvu pro české obchodní cesty směřující k Norimberku a Řeznu — promyšlený kus hospodářské infrastruktury, ne jen další opevněnou základnu. Fungovalo to: během pár desetiletí se Plzeň vypracovala na třetí největší město celého království, hned za Prahou samotnou a stříbrným boomtownem Kutnou Horou, s asi 3 000 obyvateli na hrazené ploše pouhých 20 hektarů. Stejná zakládací listina, která město ustavila, vytyčila i jeho centrální náměstí — dodnes srdce Plzně, a nakonec i domov téměř všeho ostatního na tomhle seznamu.
+
+Tomu náměstí dominuje katedrála svatého Bartoloměje, jejíž farní kostel téměř jistě pochází ze samotného založení města v roce 1295, ačkoli gotická budova, která tam stojí dnes, se začala stavět až po roce 1342. Její jediná věž stoupá do výšky 102,26 metru — nejvyšší kostelní věž v celé České republice — a odmění každého, kdo je ochotný vyšlapat téměř 300 schodů nahoru, výhledem na celé město a okolní krajinu. Katedrálou se oficiálně stala až v roce 1993, kdy vznikla plzeňská diecéze; skoro 700 let předtím to byl prostě farní kostel, který dělal stejnou práci bez okázalejšího titulu.
+
+O století později to samé náměstí stálo za něčím dramatičtějším: Plzeň strávila 20. a začátek 30. let 15. století jako jedna z mála skutečných katolických pevností Čech během husitských válek — a nikdy nepadla. Sám Jan Žižka se v roce 1420 ocitl obklíčen před jejími hradbami a musel si vyjednat vlastní ústup jen se zlomkem svého vojska. Druhé obležení v roce 1421 skončilo tím, že si město vyvyjednalo výhodné podmínky místo dobytí. Největší zkouška přišla v letech 1433–34, kdy husitský vojevůdce Prokop Holý obléhal město devět měsíců a dvacet tři dní — a přesto ho nedobyl. Plzeňská pověst města, které se nedá zlomit, sahá přesně k téhle epizodě.
+
+Náměstí získalo úplně jiný druh památníku o skoro pět set let později: Velkou synagogu, postavenou mezi lety 1890 a 1893 výhradně z darů plzeňské židovské obce. Původní návrh počítal s dvojicí věží vysokých 65 metrů — město ale architekty přesvědčilo, aby to zmírnili, ze strachu, že by synagoga doslova zastínila věž katedrály svatého Bartoloměje na druhé straně náměstí. Zmenšená verze, s 45metrovými věžemi v maurskoromantickém stylu, i tak skončila jako druhá největší synagoga v Evropě a třetí největší na světě, s kapacitou až 2 000 věřících. Přežila to nejhorší z 20. století, jen aby byla v roce 1973 opuštěna pro nedostatek prostředků — chátrala čtvrt století, než ji dvě samostatné rekonstrukce, poslední dokončená v roce 2022, vrátily zpátky k životu.
+
+20. století přineslo Plzni jinou pozornost: Škodovka, jeden z největších zbrojních podniků střední Evropy, udělala z města prioritní cíl ve chvíli, kdy nacisté podnik zapojili do vlastní válečné mašinérie. Škodovka na sebe vzala poslední velký spojenecký nálet celé evropské války, 25. dubna 1945. O jedenáct dní později, 6. května 1945, vjely do Plzně tanky 16. obrněné divize americké armády, součásti Pattonovy Třetí armády — čímž se Plzeň stala jedním z mála velkých českých měst osvobozených americkými, ne sovětskými vojsky. Dlouho na tom nezáleželo: během pár let se Plzeň ocitla na špatné straně železné opony bez ohledu na to, kdo dorazil první.
+
+A pivo se nezastavilo. Ten první písemný záznam o vaření z roku 1307 byl jen začátkem zvyku zakotveného přímo v zakládací listině města — standardní praxe pro každé slušné české středověké město. Trvalo dalších pět a půl století, než se tenhle zvyk proměnil v něco, co jednou pozná celý svět: v roce 1842 tu pivovarníci vymysleli úplně nový styl světlého, čirého ležáku, který převzal jméno samotného města a nakonec definoval to, čemu dnes většina planety prostě říká „pivo".
+
+🎁 Bonus: po 125 letech bez jediné kašny dostalo plzeňské náměstí v roce 2010 zase jednu zpátky — Zlatou kašnu Anděl, moderní bronzový odlitek pokrytý sedmi druhy zlaté fólie, z níž voda stéká z pozlaceného chrliče ve tvaru anděla do nádrže z čínské žuly. Reakce rozdělily město přesně na dvě půlky hned v den odhalení, a sedm set let stará věž svatého Bartoloměje se na tu hádku dívá shora dodnes.`,
+
+      zh: `皮尔森的故事始于1295年，一座全新建立的王室城镇，取代了附近一个更古老的聚落。那个老聚落因此被降级，只捞到个"旧皮尔森"（Starý Plzenec）的名字——六百年过去了，它似乎还没释怀。建城才十二年，城里就已经有人在酿啤酒了。这件事后来证明是这座城市整个未来最重要的一件事，只是当时谁都没料到它会重要到什么地步。
+
+瓦茨拉夫二世建立这座城市，目标很明确：把它打造成波希米亚通往纽伦堡和雷根斯堡贸易路线上的一个支点。这是一笔精心谋划的经济基础设施投资，不只是又一个筑了墙的据点。这招奏效了：短短几十年，皮尔森就发展成了整个王国第三大的城市，仅次于布拉格本身和靠白银暴富的库特纳霍拉，在一片仅20公顷的城墙内，塞进了大约3000名居民。建城的那份特许状，同时也划定了城市的中心广场——直到今天，这里依然是皮尔森的心脏，后来这份名单上几乎所有其他景点，也都聚在了这个广场周围。
+
+广场的主角是圣巴尔多禄茂主教座堂。它的教区教堂几乎可以肯定和1295年建城同一时间就存在了，但今天矗立在那里的这座哥特式建筑，要到1342年之后才开始动工。它那唯一一座钟楼高达102.26米，是整个捷克共和国最高的教堂塔楼——愿意爬完将近300级台阶登顶的人，能俯瞰全城和周边乡野作为回报。它一直到1993年皮尔森教区成立，才正式升格为"座堂"；在此之前将近700年里，它一直只是一座普通的教区教堂，干着一样的活，只是没有这个更响亮的头衔。
+
+一个世纪之后，同一片广场见证了更有戏剧性的一幕：胡斯战争期间，皮尔森是波希米亚境内少数几座真正的天主教堡垒之一，而且始终没有陷落。1420年，扬·日什卡本人的军队被围困在城下，最后只带着一小部分兵力谈判撤离。1421年第二次围城，最终以城市谈下有利条件收场，而不是被强攻拿下。最大的考验发生在1433到1434年：胡斯军统帅"秃头"普罗科普围城长达九个月零二十三天，依然没能拿下这座城。皮尔森"打不垮"的名声，就是从这段历史来的。
+
+差不多五个世纪后，这片广场又添了一座完全不同类型的地标：大犹太会堂，1890到1893年间靠皮尔森犹太社群的自发捐款建成。最初的设计打算建一对65米高的塔楼，但市里说服了建筑师把方案缩小——他们担心这样会盖过广场对面圣巴尔多禄茂主教座堂的塔楼风头。缩小后的版本改成45米高的双塔，摩尔-罗曼式风格，即便如此，仍然是欧洲第二大、世界第三大的犹太会堂，能容纳多达2000名信众。它熬过了20世纪最黑暗的岁月，却在1973年因缺乏资金被弃置，荒废了整整四分之一个世纪，直到经过两次修复——最近一次2022年完工——才重新焕发生机。
+
+20世纪，皮尔森又迎来了另一种关注：斯柯达工厂，中欧规模最大的军工企业之一。纳粹一旦把这家工厂纳入自己的战争机器，这座城市立刻成了优先打击目标。1945年4月25日，斯柯达工厂承受了整个欧洲战场盟军最后一次大规模空袭。十一天后，1945年5月6日，巴顿将军第三集团军麾下美军第16装甲师的坦克开进了皮尔森——这让它成为捷克为数不多由美军而非苏军解放的大城市之一。可这个身份没能维持太久：不出几年，不管当初是谁先到，皮尔森还是落在了铁幕的错误一侧。
+
+啤酒这条线也没有断过。1307年那份最早的酿酒文字记录，只是个开始——酿酒权从建城第一天起就写进了城市的建城特许状里，是当时任何一座像样的波希米亚中世纪城镇的标准配置。这个习惯又花了五个半世纪，才变成了全世界后来都会认出来的东西：1842年，就在这座城市里，酿酒师们发明了一种全新的浅色透明拉格啤酒，直接借用了这座城市的名字命名——如今地球上大多数人口中说的"啤酒"，指的基本就是这种风格。
+
+🎁 小知识：整整125年没有一座喷泉之后，皮尔森的主广场在2010年终于又添了一座——金色天使喷泉，一座现代青铜铸像，表面覆着七种不同的金箔，水从一个镀金天使造型的滴水兽口中流出，落进一个中国花岗岩砌成的水池里。喷泉揭幕当天，全城的反应就分成了泾渭分明的两派，而广场另一头那座七百年历史的圣巴尔多禄茂钟楼，从那天起就一直在头顶居高临下地看着这场争论。`,
+    },
+  },
+  {
+    // Added 2026-08-24, a deliberate second exception to the standing
+    // one-card-per-non-Prague-city rule (see kutna-hora's own precedent) —
+    // user's own call: Olomouc and Brno both count as "just barely a
+    // Prague day trip" AND both carry major standalone historical weight
+    // (Wenceslas III's 1306 assassination here; Brno reserved for later,
+    // plus eventually Slavkov u Brna/Austerlitz ~200km out for the
+    // Napoleonic era — flagged as a further exception when it comes up).
+    // Written in the same long-form "intro — history — landmarks — bonus"
+    // structure as jihlava/plzen, folding every named sub-landmark into
+    // this one card rather than spinning out separate Location entries.
+    name: 'Olomouc',
+    slug: 'olomouc',
+    localizedNames: { cz: 'Olomouc', zh: '奥洛穆茨' },
+    labels: ['city', 'historical'],
+    coordinates: { lat: 49.594011798716544, lng: 17.251083320396166 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Olomouc',
+    description: {
+      en: `Olomouc spent a solid few centuries as one of the two or three places that could plausibly have become Moravia's actual capital — and then, through a mix of war, plague, and bad luck, spent the next few centuries not being that. It's been recovering its reputation gradually ever since, one Baroque monument at a time.
+
+The site's history runs deep: a Slavic hillfort stood at Povel as early as the 7th century, though it didn't survive into the 9th. A new center grew up nearby at Předhradí, and when Great Moravia collapsed around 907, this settlement — not Brno, not anywhere else — became the effective capital of the whole Moravian province, one of several rival power centers this timeline's own background card once described for the fractured pre-Prague-dominance Bohemian lands. Olomouc's ecclesiastical weight arrived in 1063, when it became the seat of a bishopric (elevated to an archbishopric only much later, in 1777). Around 1141, Bishop Jindřich Zdík moved that seat to the Church of St. Wenceslas and built himself a Romanesque palace beside it — a building so early and so intact that it remains, to this day, one of the only bishop's residences of its age anywhere in Central Europe.
+
+By the mid-13th century, Olomouc had a formal town charter and a genuine claim to being one of Moravia's most important trade and power centers, running a long rivalry with Brno for regional supremacy. It was here, in 1306, that a knife ended the Přemyslid dynasty's four-century male line — the young King Wenceslas III, stabbed while resting in the summer heat, an event this timeline has already told in full.
+
+The Thirty Years' War broke that rivalry decisively. Swedish forces occupied Olomouc for eight straight years, 1640 to 1650, and left it gutted badly enough that it never fully reclaimed its old standing — Brno took over as Moravia's leading city, and has held that position ever since. Olomouc's fortifications got one more real test in 1758, when Frederick the Great besieged the newly fortified city for seven weeks during the Seven Years' War and failed to take it, a rare check on Prussian momentum that Maria Theresa's engineers could take real credit for.
+
+The 19th century handed Olomouc one more moment on the national stage: in 1848, amid the revolutions sweeping the Habsburg lands, Emperor Ferdinand I abdicated here in favor of his young nephew, Franz Joseph. Two years later, the city hosted the Punctation of Olomouc, the diplomatic agreement between Austria and Prussia that restored the old German Confederation and — for the moment — settled who was really in charge of German affairs.
+
+What survives from all of this is a historic core large enough to be the third-largest protected urban monument zone in the entire country, after Prague itself. Its centerpiece is the Holy Trinity Column, a 35-meter Baroque plague column completed in 1754 and UNESCO-listed since 2000 — the tallest structure of its kind anywhere in Central Europe. St. Wenceslas Cathedral, founded before 1107, layers a Romanesque crypt, a Gothic cloister, and Baroque chapels under a 100-meter spire, the second-tallest in the country; right beside it stands Zdík's own Romanesque bishop's palace, still doing what it's done since the 1140s. The square's astronomical clock has a stranger recent history than most: the original medieval mechanism was destroyed in the last days of the Second World War, and its 1947–1955 reconstruction, built under Communist rule, replaced the traditional saints with mosaic images of factory workers and farmers instead — one of the more openly ideological astronomical clocks anywhere in Europe.
+
+🎁 Bonus: six matching Baroque fountains, scattered across the old town's squares, were kept in working order for centuries less as decoration than as emergency water reserves in case of fire. Five depict figures from Roman mythology. The sixth honors Julius Caesar himself — Olomouc's own founding legend credits him personally, a claim with roughly as much historical support as it sounds like it has, but repeated with a straight face ever since.`,
+
+      cz: `Olomouc strávila slušných pár století jako jedno ze dvou nebo tří míst, které by se reálně mohlo stát skutečným hlavním městem Moravy — a pak, kombinací války, moru a smůly, strávila dalších pár století tím, že jím nebyla. Od té doby si svou pověst postupně buduje zpátky, jeden barokní památník po druhém.
+
+Historie tohoto místa sahá hluboko: slovanské hradiště stálo na Povelu už v 7. století, i když se nedožilo 9. Nedaleko odtud vyrostlo nové centrum, Předhradí, a když se kolem roku 907 zhroutila Velká Morava, právě tohle sídliště — ne Brno, ne nikde jinde — se stalo skutečným hlavním městem celé moravské provincie, jedním z několika soupeřících mocenských center, které tahle časová osa svým vlastním pozadím kdysi popsala pro roztříštěné české země před nadvládou Prahy. Církevní váhu Olomouc získala v roce 1063, kdy se stala sídlem biskupství (na arcibiskupství povýšeného až mnohem později, v roce 1777). Kolem roku 1141 přesunul biskup Jindřich Zdík toto sídlo ke kostelu svatého Václava a vedle něj si postavil románský palác — budovu tak starou a tak dochovanou, že dodnes zůstává jednou z mála biskupských rezidencí svého stáří kdekoli ve střední Evropě.
+
+Do poloviny 13. století měla Olomouc formální městská práva a skutečný nárok na to být jedním z nejdůležitějších obchodních a mocenských center Moravy, s dlouholetým soupeřením s Brnem o regionální prvenství. Právě tady, v roce 1306, ukončil nůž čtyřsetletou mužskou linii přemyslovské dynastie — mladý král Václav III., pobodaný při odpočinku v letním horku, událost, kterou tahle časová osa už vyprávěla celou.
+
+Třicetiletá válka tohle soupeření rozhodně ukončila. Švédská vojska okupovala Olomouc celých osm let, od 1640 do 1650, a zanechala ji natolik zdevastovanou, že si svou starou pozici už nikdy plně nezískala zpátky — vedoucí moravské město se stalo Brno, a tuhle pozici si drží dodnes. Olomoucké opevnění dostalo ještě jednu skutečnou zkoušku v roce 1758, kdy Fridrich Veliký oblehl čerstvě opevněné město na sedm týdnů během sedmileté války a nedobyl ho — vzácná zarážka pruského tempa, za kterou si skutečné zásluhy mohli připsat inženýři Marie Terezie.
+
+19. století přineslo Olomouci ještě jednu chvíli na celostátním jevišti: v roce 1848, uprostřed revolucí zmítajících habsburskými zeměmi, tu abdikoval císař Ferdinand I. ve prospěch svého mladého synovce Františka Josefa. O dva roky později tu město hostilo Olomouckou punktaci, diplomatickou dohodu mezi Rakouskem a Pruskem, která obnovila starý Německý spolek a — přinejmenším na chvíli — rozhodla, kdo skutečně velí německým záležitostem.
+
+Z toho všeho se dochovalo historické jádro dost velké na to, aby bylo třetí největší chráněnou městskou památkovou rezervací v celé zemi, hned po samotné Praze. Jeho středobodem je sloup Nejsvětější Trojice, pětatřicetimetrový barokní morový sloup dokončený v roce 1754 a od roku 2000 zapsaný na seznamu UNESCO — nejvyšší stavba svého druhu kdekoli ve střední Evropě. Katedrála svatého Václava, založená před rokem 1107, vrství románskou kryptu, gotický ambit a barokní kaple pod stometrovou věží, druhou nejvyšší v zemi; hned vedle stojí Zdíkův vlastní románský biskupský palác, který dodnes dělá to, co dělal od 40. let 12. století. Orloj na náměstí má neobvyklejší nedávnou historii než většina ostatních: původní středověký mechanismus byl zničen v posledních dnech druhé světové války, a jeho rekonstrukce z let 1947–1955, postavená za komunistické vlády, nahradila tradiční svaté mozaikovými obrazy dělníků a zemědělců — jeden z otevřeněji ideologických orlojů kdekoli v Evropě.
+
+🎁 Bonus: šest sladěných barokních kašen, roztroušených po náměstích starého města, se po staletí udržovalo v provozu méně kvůli okrase a víc jako nouzová vodní zásoba pro případ požáru. Pět zobrazuje postavy z římské mytologie. Šestá vzdává hold přímo Gaiu Juliovi Caesarovi — vlastní zakladatelská legenda Olomouce mu ji připisuje osobně, tvrzení s asi tolika historickými důkazy, kolik by člověk čekal, ale opakované s naprosto vážnou tváří dodnes.`,
+
+      zh: `奥洛穆茨曾经有那么好几个世纪，都是摩拉维亚真正首府最有力的两三个候选地之一——然后，靠着战争、瘟疫和运气不好三重打击，接下来又是好几个世纪，眼睁睁看着自己不再是了。从那以后，它就一点点重新把名声挣了回来，一座巴洛克建筑接一座巴洛克建筑地攒。
+
+这个地方的历史很深：早在7世纪，波韦尔就有一座斯拉夫人的山堡，只是没能撑过9世纪。附近后来长出了一个新的中心，普热德赫拉迪，大摩拉维亚公国大约在907年崩溃后，正是这个聚落——不是布尔诺，也不是别的地方——成了整个摩拉维亚省事实上的首府。这也是这条时间线自己那张背景卡片曾经描述过的、布拉格确立主导地位之前波希米亚各地散落的那些相互竞争的权力中心之一。1063年，奥洛穆茨获得了教会分量——成为主教区驻地（直到很久以后的1777年才升格为总主教区）。1141年前后，主教因德日赫·兹迪克把驻地迁到了圣瓦茨拉夫教堂，还在旁边给自己建了一座罗曼式主教宫——这座建筑年代之早、保存之完整，让它至今仍是整个中欧同一时期为数不多留存下来的主教宫之一。
+
+到13世纪中叶，奥洛穆茨已经拿到了正式的城市特许状，也确实有资格被称作摩拉维亚最重要的贸易和权力中心之一，还跟布尔诺展开了旷日持久的地区龙头之争。就是在这里，1306年，一把刀终结了普热米斯尔王朝四百年的男系血脉——年轻的国王瓦茨拉夫三世，在夏日暑热中休息时遇刺——这条时间线已经完整讲过这个故事。
+
+三十年战争彻底终结了这场竞争。瑞典军队占领奥洛穆茨整整八年，从1640年到1650年，走的时候把这座城市糟蹋得够呛，它再也没能完全找回昔日的地位——摩拉维亚的领头城市从此换成了布尔诺，这个位置一直保持到今天。1758年，奥洛穆茨的防御工事又经历了一次真正的考验：七年战争期间，腓特烈大帝围攻这座刚加固过的城市长达七周，没能拿下——这是普鲁士气势难得的一次受挫，功劳可以实打实地记在玛丽亚·特蕾莎手下工程师们的头上。
+
+19世纪又给了奥洛穆茨一次登上全国舞台的机会：1848年，正值革命席卷哈布斯堡治下各地之际，皇帝斐迪南一世在这里逊位，把皇位让给了年轻的侄子弗朗茨·约瑟夫。两年后，这座城市又主办了"奥洛穆茨屈辱"（Punctation of Olomouc）——奥地利和普鲁士之间的一份外交协议，重新恢复了旧有的德意志邦联，也在当时暂时定下了谁才是德意志事务真正的话事人。
+
+这一切留存至今的，是一片规模大到足以成为全国第三大受保护历史城区的老城——仅次于布拉格本身。它的核心是圣三位一体柱，一座35米高的巴洛克瘟疫纪念柱，1754年完工，2000年列入世界遗产名录——中欧同类建筑里最高的一座。圣瓦茨拉夫主教座堂始建于1107年之前，罗曼式地穴、哥特式回廊和巴洛克礼拜堂层层叠叠，撑起一座100米高的尖塔，全国第二高；紧挨着它的，是兹迪克自己那座罗曼式主教宫，从12世纪40年代起一直干着同样的活，至今没变。广场上的天文钟，近代历史比大多数同类都要离奇：原本的中世纪机械装置在二战最后几天被毁，1947到1955年间在共产党统治下重建时，把传统的圣徒像换成了工人和农民的马赛克画像——这大概是全欧洲意识形态色彩最外露的一座天文钟。
+
+🎁 小知识：老城广场上那六座样式统一的巴洛克喷泉，几个世纪以来一直保持着可用状态，与其说是为了好看，不如说是当作万一失火时的应急水源。五座刻画的是罗马神话人物。第六座，敬的是尤利乌斯·恺撒本人——奥洛穆茨自己的建城传说，把这份功劳直接记在了他头上，这个说法能拿出的史料支撑，大概正如听起来那么单薄，但至今还是一本正经地被人反复提起。`,
+    },
+  },
 ];
 
 async function run() {
