@@ -24149,6 +24149,76 @@ Z toho všeho se dochovalo historické jádro dost velké na to, aby bylo třet�
 🎁 小知识：老城广场上那六座样式统一的巴洛克喷泉，几个世纪以来一直保持着可用状态，与其说是为了好看，不如说是当作万一失火时的应急水源。五座刻画的是罗马神话人物。第六座，敬的是尤利乌斯·恺撒本人——奥洛穆茨自己的建城传说，把这份功劳直接记在了他头上，这个说法能拿出的史料支撑，大概正如听起来那么单薄，但至今还是一本正经地被人反复提起。`,
     },
   },
+  {
+    name: 'Týřov Castle Ruin',
+    slug: 'tyrov-castle',
+    localizedNames: { cz: 'Zřícenina hradu Týřov', zh: '蒂罗夫城堡遗址' },
+    labels: ['ruin', 'historical', 'nature'],
+    coordinates: { lat: 49.97345262781239, lng: 13.789903178427371 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/T%C3%BD%C5%99ov',
+    description: {
+      en: `Welcome to Týřov Castle, a royal fortress whose entire historical résumé boils down to one specialty: springing traps on people who'd become inconvenient. Its first recorded act, in September 1249, was luring a rebellious teenage prince into an ambush. Its most famous later act actually held the most powerful nobleman in Bohemia for months on end.
+
+King Wenceslas I had Týřov built sometime in the 1240s, on a near-inaccessible bend of the Berounka River deep in the royal hunting forest of Křivoklátsko — a location chosen less for comfort than for control, since whoever held Týřov could watch both the timber traffic floating down the river and the forest itself. It was finished just in time for its very first job: in September 1249, Wenceslas invited his own son here — a rebellious teenager who'd spent the previous fourteen months ruling much of Bohemia as a self-declared rival king — and had him seized on arrival, along with his retinue. That son was the future Otakar II, though Týřov itself only briefly held him before he was shipped off to the more secure castle of Přimda to actually serve out his imprisonment. Either way, it was a fittingly rough start for a king whose own later reign would be anything but modest — and Otakar apparently held no grudge against the place that sprang the trap on him, since once he had the throne himself, he went on to expand Týřov's lower ward with a cluster of defensive towers.
+
+Its second prisoner — and, unlike Otakar, one who actually served out his confinement here rather than just passing through — arrived in October 1315: Henry of Lipé, Bohemia's most powerful magnate and King John of Luxembourg's own chamberlain, arrested at Queen Elizabeth's urging and held here for roughly six months during the conflict historians now call the War of the Two Queens. He walked free in the spring of 1316, and — unlike Otakar — went on to considerably better things: within a few years, he was effectively running the kingdom himself.
+
+🎁 Bonus: Týřov's own remoteness, the very thing that made it such a useful prison, eventually did the castle in. Once it stopped being strategically necessary, nobody bothered maintaining a fortress this hard to reach — by the second half of the 16th century, it was already recorded as abandoned. Today it survives as an atmospheric ruin hidden deep in forest above the Berounka, with no ticket booth and no reconstruction — just the kind of quiet you'd expect from a castle that spent its working life making sure certain people got plenty of it.`,
+
+      cz: `Vítej na hradě Týřov, královské pevnosti, jejíž celý historický životopis se dá shrnout do jedné specializace: nastražování pastí na lidi, kteří se stali nepohodlnými. Jeho první doložený čin, v září 1249, bylo vlákání vzbouřeného mladistvého prince do léčky. Jeho pozdější, mnohem slavnější čin držel nejmocnějšího šlechtice v Čechách celé měsíce.
+
+Král Václav I. nechal Týřov postavit někdy ve 40. letech 13. století, na téměř nepřístupném ohybu řeky Berounky hluboko v královském loveckém hvozdu Křivoklátska — místo vybrané méně kvůli pohodlí a víc kvůli kontrole, protože kdokoli držel Týřov, měl na dohled jak dřevařský provoz plavený po řece, tak samotný les. Hotov byl přesně včas na svůj úplně první úkol: v září 1249 sem Václav pozval vlastního syna — vzbouřeného mladíka, který předchozích čtrnáct měsíců vládl velké části Čech jako sám sebe prohlášený protikrál — a nechal ho i s jeho doprovodem při příjezdu zajmout. Tím synem byl budoucí Otakar II., i když ho samotný Týřov držel jen krátce, než ho poslali na lépe střežený hrad Přimda, kde si odpykal skutečné vězení. Ať tak či onak, byl to poměrně drsný začátek pro krále, jehož pozdější vláda rozhodně nebude skromná — a Otakar zjevně nechoval zášť vůči místu, které na něj tehdy nastražilo past, protože jakmile sám usedl na trůn, dal spodní část Týřova rozšířit o shluk obranných věží.
+
+Jeho druhý vězeň — a na rozdíl od Otakara ten, který si tu skutečně odseděl celý trest, místo aby tudy jen projel — dorazil v říjnu 1315: Jindřich z Lipé, nejmocnější šlechtic v Čechách a vlastní komoří krále Jana Lucemburského, zatčený na popud královny Elišky a držený tu zhruba šest měsíců během konfliktu, kterému dnešní historici říkají válka dvou královen. Na svobodu vyšel na jaře 1316 a — na rozdíl od Otakara — čekaly ho podstatně lepší věci: během pár let prakticky sám řídil království.
+
+🎁 Bonus: Týřovu se nakonec stala osudnou přesně ta odlehlost, díky které byl tak užitečným vězením. Jakmile přestal být strategicky nutný, nikdo se už neobtěžoval udržovat pevnost tak obtížně dostupnou — do druhé poloviny 16. století už byl zapsán jako pustý. Dnes přežívá jako působivá zřícenina schovaná hluboko v lese nad Berounkou, bez pokladny a bez rekonstrukce — přesně ten druh ticha, jaký byste čekali od hradu, který strávil svou činnou kariéru tím, že se staral, aby si ho určití lidé užili víc než dost.`,
+
+      zh: `欢迎来到蒂罗夫城堡——这座王室要塞的整段历史履历，几乎可以归结成一项专长：给变得碍事的人下套。它有史可查的第一项"工作"，是在1249年9月，把一位造反的少年王子诱入了陷阱；它后来更出名的一项"工作"，则是把波希米亚最有权势的贵族一关就是好几个月。
+
+国王瓦茨拉夫一世大约在13世纪40年代下令修建蒂罗夫城堡，选址在贝劳恩卡河一处几乎无法接近的河湾上，深藏在克利沃克拉特王室猎场腹地——选这里不是为了舒适，而是为了控制：谁占据了蒂罗夫，谁就能同时盯住河上运送的木材和周围的整片森林。城堡竣工的时机，正好赶上它的第一项任务：1249年9月，瓦茨拉夫把自己的儿子请到了这里——这位叛逆的少年，此前十四个月一直以自封"对立国王"的身份统治着波希米亚的大半领土——一到场就被连同随从一起抓获。这位少年，正是后来的波希米亚国王奥托卡二世，不过蒂罗夫城堡本身只短暂关押过他，很快他就被押送到防守更严密的普日姆达城堡，在那里服完了真正的刑期。不管怎么说，这对一位日后统治绝不会低调的国王来说，都是个相当粗粝的开局——而奥托卡本人显然对当初给他下套的这个地方毫无芥蒂，因为他后来自己坐上王位后，还下令扩建了蒂罗夫城堡下段，加盖了一圈防御塔楼。
+
+它的第二位囚犯——与奥托卡不同，这一位是真正在这里服完了刑期，而不只是路过——是1315年10月到来的利佩的亨利：波希米亚最有权势的贵族，也是国王卢森堡的约翰自己的宫廷总管，在王后伊丽莎白的授意下被捕，在这里被关押了大约六个月，正值今天历史学家所说的"两位王后之战"。他在1316年春天重获自由——而且，跟奥托卡不同，等着他的是相当不错的前程：短短几年后，他实际上就成了这个王国的实际掌权者。
+
+🎁 彩蛋：让蒂罗夫最终没落的，恰恰是当初让它成为绝佳监狱的那份偏僻。一旦它不再具有战略上的必要性，就再没人愿意费心维护一座这么难到达的要塞——到16世纪下半叶，它已经被记录为荒废之地。如今它作为一处别有情调的遗迹，藏身在贝劳恩卡河上方的密林深处，没有售票处，也没有重建修复——正是那种你会从一座毕生工作就是让某些人"清静清静"的城堡身上，所期待的那份宁静。`,
+    },
+  },
+  {
+    name: 'Domažlice',
+    slug: 'domazlice',
+    localizedNames: { cz: 'Domažlice', zh: '多马日利采' },
+    labels: ['city', 'historical'],
+    coordinates: { lat: 49.440247227956164, lng: 12.92978341763083 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Doma%C5%BElice',
+    description: {
+      en: `Welcome to Domažlice, a fortified market town so close to the Bavarian border that keeping an eye on it used to be an actual full-time hereditary job. For centuries, that job belonged to a very specific group of free peasant-soldiers whose name eventually got attached to the whole surrounding region.
+
+A trading and customs settlement already existed here by 993 — the year it turns up in a copy of a charter issued by Duke Boleslaus II — sitting on the road running from Bohemia to Regensburg, close enough to Bavaria that watching the frontier was the whole point of the place. King Otakar II formalized that role around 1265, refounding it as a walled royal town with rounded bastions and four gates, and installing a royal castle whose castellan answered directly to the crown. The people actually doing the day-to-day border-watching, though, were the Chodové — free farmers granted special privileges in exchange for patrolling the frontier and keeping the Regensburg trade route safe. Their name later gave the whole surrounding region its modern one: Chodsko.
+
+The town's arcaded main square — one of the largest and best-preserved historic squares in Bohemia — has hosted more than its share of history. It was here, in April 1318, that King John of Luxembourg was finally forced to accept the Domažlice Agreement, a settlement that reaffirmed the Bohemian nobility's privileges in stronger terms than ever and left Henry of Lipé, briefly a prisoner himself just three years earlier, running the actual administration of the kingdom. A little over a century later, on 14 August 1431, the town gave its name to one of the most one-sided battles of the entire Hussite Wars: a crusading army under Cardinal Julian Cesarini broke and fled almost the moment it heard the Hussite hymn 'Ktož jsú boží bojovníci' rolling across the field, backed by the rumble of the Hussites' war wagons — a victory won essentially without a fight.
+
+🎁 Bonus: the square's white round tower, 12 storeys and 194 steps to the top, has been quietly failing at standing up straight since the day it was built — soft ground underneath it let the whole structure drift 59 centimetres off true, a lean visitors climbing to the viewing gallery can feel just fine without needing a plumb line to confirm it. As for Cardinal Cesarini, contemporary accounts insist he fled the 1431 rout so fast he left his cardinal's hat behind on the battlefield — a fittingly undignified souvenir for the least dignified defeat of his career.`,
+
+      cz: `Vítej v Domažlicích, opevněném tržním městě tak blízko bavorské hranici, že hlídat ji bývalo doslova dědičným zaměstnáním na plný úvazek. Po staletí tahle práce patřila jedné velmi konkrétní skupině svobodných sedláků-vojáků, jejichž jméno si nakonec vypůjčil celý okolní kraj.
+
+Obchodní a celní osada tu stála už v roce 993 — to je rok, kdy se objevuje v opisu listiny knížete Boleslava II. — na cestě vedoucí z Čech do Řezna, dost blízko Bavorsku na to, aby hlídání hranice bylo hlavním smyslem celého místa. Král Přemysl Otakar II. tuhle roli kolem roku 1265 zformalizoval, město znovu založil jako opevněné královské sídlo s půlválcovými baštami a čtyřmi branami a osadil sem královský hrad, jehož purkrabí odpovídal přímo koruně. Skutečné každodenní hlídání hranice ale měli na starosti Chodové — svobodní sedláci se zvláštními výsadami výměnou za hlídkování na hranici a péči o bezpečnost obchodní stezky do Řezna. Jejich jméno později dalo modernímu jméno celému okolnímu kraji: Chodsko.
+
+Podloubím lemované náměstí města — jedno z největších a nejlépe dochovaných historických náměstí v Čechách — bylo svědkem víc než jeho spravedlivého podílu na dějinách. Právě tady byl v dubnu 1318 král Jan Lucemburský nakonec donucen přijmout Domažlické úmluvy, dohodu, která znovu, tentokrát ještě silněji, potvrdila výsady české šlechty a nechala Jindřicha z Lipé — ještě před třemi lety krátce vězně — reálně řídit správu království. O něco víc než století později, 14. srpna 1431, dalo město jméno jedné z nejjednostrannějších bitev celých husitských válek: křižácké vojsko pod vedením kardinála Juliána Cesariniho se dalo na útěk téměř ve chvíli, kdy přes bojiště zazněl husitský chorál „Ktož jsú boží bojovníci\", podpořený duněním husitských vozů — vítězství vybojované v podstatě bez boje.
+
+🎁 Bonus: bílá kruhová věž na náměstí, dvanáct pater a 194 schodů na vrchol, se tiše snaží stát rovně už od chvíle, kdy byla postavena — a nedaří se jí to: měkké podloží ji nechalo vychýlit o 59 centimetrů od svislice, náklon, který návštěvníci stoupající k vyhlídkové galerii cítí na vlastní kůži, bez potřeby olovnice. A pokud jde o kardinála Cesariniho, dobové zprávy tvrdí, že z bitvy roku 1431 utíkal tak zběsile, že na bojišti nechal svůj kardinálský klobouk — přiléhavě neokázalý suvenýr na nejméně okázalou porážku celé jeho kariéry.`,
+
+      zh: `欢迎来到多马日利采——一座紧邻巴伐利亚边境的设防集镇，这里"看守边境"这份差事，曾经是货真价实的世袭全职工作。几百年来，干这份差事的，是一群非常特别的自由农兵，他们的名字后来干脆成了整片周边地区的地名。
+
+早在993年，这里就已经有一处贸易兼关税聚落——这一年，它出现在博莱斯拉夫二世公爵一份特许状的抄本里——坐落在从波希米亚通往雷根斯堡的商路上，离巴伐利亚近到"看守边境"本身就是这个地方存在的全部意义。国王普热米斯尔·奥托卡二世大约在1265年，把这份职责正式确立下来，把这里重新建成一座有城墙、半圆形棱堡和四座城门的王室城镇，并在此设立王室城堡，城堡总管直接向王室负责。不过真正日复一日巡守边境的，是"霍德人"（Chodové）——一群自由农民，凭借特殊权利换来的条件，是替王室巡逻边境、看守通往雷根斯堡商路的安全。他们的名字后来也成了整片周边地区如今的名字：霍德斯科（Chodsko）。
+
+小镇那座带拱廊的主广场——波希米亚现存规模最大、保存最完好的历史广场之一——见证的历史，比它应得的份额还要多。1318年4月，正是在这里，国王卢森堡的约翰最终被迫接受了《多马日利采条约》——这份协议，用比以往更强硬的措辞，重申了波希米亚贵族的各项特权，也让三年前还一度身陷囹圄的利佩的亨利，实际掌握了这个王国的治理大权。一个多世纪后，1431年8月14日，这座小镇又把自己的名字，留在了整场胡斯战争里最一边倒的一场战役上：由红衣主教尤利安·切萨里尼率领的十字军，几乎是在听到"谁是上帝的战士"（Ktož jsú boží bojovníci）这首胡斯圣歌响彻战场、伴随着胡斯战车隆隆作响的那一刻，就溃散逃跑了——这是一场几乎不用打就赢下来的胜利。
+
+🎁 彩蛋：广场上那座白色圆塔，共十二层，通往塔顶要爬194级台阶，可它自打建成那天起，就一直在悄悄地"站不直"——地基下方松软的土层，让整座塔身偏离垂直线整整59厘米，游客爬上观景台时，不用铅垂线也能亲身感受到这份倾斜。至于红衣主教切萨里尼，当时的记载都说，他在1431年那场溃败中逃得太急，连自己的红衣主教帽都落在了战场上——对他职业生涯里最没面子的一场败仗来说，倒是留下了一件恰如其分的、毫无体面可言的"纪念品"。`,
+    },
+  },
 ];
 
 async function run() {
