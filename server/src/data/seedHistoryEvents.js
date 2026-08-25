@@ -4670,6 +4670,226 @@ export const historyEvents = [
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/John_of_Bohemia",
   },
+  {
+    slug: "a-marriage-falls-apart-1319",
+    era: "rise-of-a-kingdom",
+    startYear: 1319.1,
+    year: {
+      en: "1319",
+      cz: "1319",
+      zh: "1319年",
+    },
+    images: ["/history/a-marriage-falls-apart-1319.webp"],
+    tone: "humorous",
+    title: {
+      en: "The Queen Under Suspicion",
+      cz: "Královna pod podezřením",
+      zh: "身陷猜忌的王后",
+    },
+    hookLine: {
+      en: "Domažlice had settled the war between king and nobility. It never touched the one still raging inside John's own marriage.",
+      cz: "Domažlice urovnaly válku mezi králem a šlechtou. Nikdy se ale nedotkly té, která dál zuřila uvnitř Janova vlastního manželství.",
+      zh: "多马日利采协议平息了国王和贵族之间的战争。可它从没触及过另一场战争——那场仍在约翰自己的婚姻内部愈演愈烈的战争。",
+    },
+    summary: {
+      en: "Whatever the War of the Two Queens had actually resolved, it wasn't the marriage underneath it. Even through years of factional fighting, Henry of Lipé's arrest and release, and the peace bought at Domažlice, John and Elizabeth kept doing the one thing a dynastic marriage was actually for: in 1316 she gave birth to a son, Wenceslas — nobody yet knew that the boy in the cradle would one day become known across Europe under an entirely different name — and in 1318, another, Přemysl Otakar. On paper, the House of Luxembourg now had exactly the heirs it needed. On every other front, the marriage producing them was already coming apart.\n\nBy January 1319, whatever patience John still had for his wife had curdled into open suspicion. He came to believe that she was maneuvering to have their eldest son — not yet three years old — crowned king in his own right, with herself ruling as regent behind him. Whoever was stirring the pot behind the scenes, it took no great guess: Henry of Lipé, freshly out of prison and back in real power, had every reason to want Elizabeth sidelined for good.\n\nShe had already withdrawn to the remote castle of Loket, putting distance between herself and a court she no longer controlled. John didn't wait to ask why. In February 1319 he marched an army there in person, and what followed — as František Palacký would later describe it, writing more than five centuries on — reads less like a husband confronting his wife than an army taking a hostile fortress:\n\n[[quote:0]]\n\nWenceslas — the boy not yet three — was carried off to Křivoklát Castle, kept apart from the mother he'd been born to inherit a kingdom through. His two siblings were taken from her in the same stroke. Elizabeth was left with a diminished household and a castle at Mělník to spend her exile in. A marriage that had survived a proxy war, two royal births, and five years of factional politics came apart, in the end, over an accusation nobody ever bothered to prove.",
+      cz: "Ať už válka dvou královen vyřešila cokoli, manželství pod ní zůstalo nedotčené. I přes roky frakčních bojů, Jindřichovo zatčení a propuštění a mír vydobytý v Domažlicích, Jan a Eliška dál dělali to jediné, k čemu dynastické manželství vlastně sloužilo: v roce 1316 mu porodila syna Václava — nikdo tehdy netušil, že chlapec v kolébce jednou bude znám po celé Evropě pod úplně jiným jménem — a v roce 1318 dalšího, Přemysla Otakara. Na papíře měl lucemburský rod teď přesně ty dědice, které potřeboval. Na každé jiné frontě se manželství, které je zplodilo, už rozpadalo.\n\nDo ledna 1319 se veškerá trpělivost, kterou k manželce Jan ještě měl, změnila v otevřené podezření. Uvěřil, že se snaží prosadit korunovaci jejich nejstaršího syna, ještě ne tříletého, za samostatného krále, sama by pak vládla jako regentka. Kdo za tím přiléval olej do ohně, nebylo těžké uhodnout: Jindřich z Lipé, čerstvě propuštěný z vězení a znovu u moci, měl spoustu důvodů chtít Elišku nadobro odstavenou.\n\nTa se už předtím stáhla na odlehlý hrad Loket, aby si udržela odstup od dvora, který přestala ovládat. Jan se neobtěžoval ptát proč. V únoru 1319 tam osobně přitáhl s vojskem, a to, co následovalo — jak to o víc než pět set let později popsal František Palacký — čte se míň jako manžel řešící rozepři s manželkou, spíš jako vojsko dobývající nepřátelskou pevnost:\n\n[[quote:0]]\n\nVáclava — ještě ne tříletého — odvezli na hrad Křivoklát, odděleného od matky, jejímž prostřednictvím se měl jednou stát dědicem království. Jeho dva sourozenci jí byli odebráni ve stejné chvíli. Elišce zbyla jen zmenšená domácnost a hrad Mělník, kde měla strávit vyhnanství. Manželství, které přežilo zástupnou válku, dva královské porody a pět let frakční politiky, se nakonec rozpadlo kvůli obvinění, které si nikdo nedal tu práci dokázat.",
+      zh: "不管“两位王后之战”当初真正解决了什么，它底下的这段婚姻可什么都没解决。哪怕经历了那么多年的派系斗争、利佩的亨利的一次逮捕和释放，还有多马日利采换来的和平，约翰和伊丽莎白依旧在做一件事——王朝联姻本来就该做的那件事：1316年，她生下了一个儿子，瓦茨拉夫——现在谁都不知道，这个摇篮里的婴儿日后将会以另一个名字，在全欧洲家喻户晓——1318年，又添了一个，普热米斯尔·奥托卡。账面上看，卢森堡家族这下有了它需要的继承人。可在其他每一条战线上，生出这些孩子的这段婚姻，早就已经在破裂了。\n\n到1319年1月，约翰对妻子仅剩的那点耐心，已经彻底发酵成了公开的猜忌。他开始相信：伊丽莎白正在谋划让他们那个还不满三岁的长子独自加冕为王，自己则以摄政身份垂帘听政。而在背后煽风点火的，不用猜也知道，和刚刚从大牢中出来的、重掌大权的利佩的亨利脱不开关系。\n\n她此前已经退居到偏远的洛克特城堡，跟这个她再也掌控不了的宫廷拉开距离。约翰懒得去问原因。1319年2月，他亲自率军杀到了那里，而接下来发生的事——五百多年后，弗朗齐歇克·帕拉茨基是这样记述的——读起来不像是丈夫在跟妻子算账，倒更像是一支军队在攻打一座敌对的要塞：\n\n[[quote:0]]\n\n瓦茨拉夫——当时还不满三岁——被带去了克利沃克拉特城堡，跟本该是他继承整个王国之途径的母亲彻底分开。他的另外两个兄弟姐妹，也在同一时刻被从她身边夺走。伊丽莎白只剩下一个规模大减的随从班底，和一座供她流放度日的梅尔尼克城堡。这段婚姻，撑过了一场代理人战争、两次王室诞育、五年的派系政治，最后却因为一桩谁都懒得去证实的指控，走到了尽头。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "Seized by sudden fury, the king hastened with an armed company to Loket, where the queen dwelt with her children. Having entered the castle, he commanded at once that the garrison abandon its posts upon the towers and walls, yielding them to men newly brought by him — and when they, startled by so unexpected an order, hesitated in confusion, he commanded that they be fired upon at once, as though they were enemies.\n\nThe queen was seized with great alarm, believing at first that her husband had perhaps lost his senses. But she was soon disabused of this notion, when, having parted her not only from her most faithful servants and maidservants but from all her children as well, he sent her to Mělník, there to spend her life in solitude with but a modest retinue.",
+          cz: "Král, prudkým hněvem uchvácen, přichvátal tudíž se zástupem branných do Lokte, kdež královna s dítkami svými bydlila. Do hradu vstoupiv, kázal hned, aby posádka tamější opustila místa svá na věžích a zdích, postoupila jich lidem nově od něj přivedeným, a když oni, zaraženi rozkazem tak nenadálým, octli se v rozpacích, kázal hned stříleti do nich jako do nepřátel.\n\nKrálovna lekla se náramně, domnívajíc se zpočátku, že manžel její snad smyslem se pominul. Ale z klamu svého brzy vyvedena jest, když co nejen od nejvěrnějších jejích služebníkův a služebnic, ale i od všech dítek ji odloučiv, do Mělníka ji poslal, kdežto se skromnou družinou život svůj v osamělosti tráviti měla.",
+          zh: "国王勃然大怒，率领一队全副武装的人马疾驰赶往洛克特，王后正带着孩子们住在那里。他一进城堡，立刻下令驻军放弃各自在塔楼和城墙上的岗位，把位置让给他新带来的人马——那些人被这道来得毫无预兆的命令弄得手足无措、迟疑不前时，他又立刻下令朝他们开火射击，仿佛在对付敌人一般。\n\n王后大为惊恐，起初还以为丈夫大概是疯了。可她很快就明白过来，并非如此——他不仅把她最忠心的仆从和侍女统统赶走，还把所有的孩子都从她身边夺走，然后把她送去了梅尔尼克，让她带着为数不多的随从，在那里独自度过余生。",
+        },
+        attribution: {
+          en: "František Palacký",
+          cz: "František Palacký",
+          zh: "弗朗齐歇克·帕拉茨基",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "loket-castle",
+        relation: {
+          en: "The remote castle Elizabeth had withdrawn to when John's suspicions turned violent — the place his army marched on in early 1319, before her children were seized and she herself was sent into exile.",
+          cz: "Odlehlý hrad, kam se Eliška stáhla, když se Janovo podezření změnilo v násilí — místo, na které v roce 1319 vytáhlo jeho vojsko, než jí byly odebrány děti a ona sama poslána do vyhnanství.",
+          zh: "伊丽莎白退居的那座偏远城堡——就在约翰的猜忌转为暴力行动之前。1319年初，他的军队正是开到了这里，随后孩子被夺走，她本人也被流放。",
+        },
+      },
+      {
+        slug: "krivoklat-castle",
+        relation: {
+          en: "Where young Wenceslas — not yet three, and destined to become far better known under a different name — was kept apart from his mother after John's seizure of the children in February 1319.",
+          cz: "Sem byl po Janově zabavení dětí v únoru 1319 odvezen mladý Václav — ještě ne tříletý, a jednou mnohem lépe známý pod jiným jménem — odděleně od matky.",
+          zh: "1319年2月约翰夺走孩子后，年幼的瓦茨拉夫——当时还不满三岁，日后会以另一个名字远近闻名——就被安置在这里，与母亲分开。",
+        },
+      },
+      {
+        slug: "zamek-melnik",
+        relation: {
+          en: "The place Elizabeth was banished to, twice over — first after John seized her children in 1319, and again after the Prague uprising raised in her name collapsed the same year.",
+          cz: "Místo, kam byla Eliška vypovězena hned dvakrát — poprvé poté, co jí Jan v roce 1319 odebral děti, a podruhé po zhroucení pražského povstání, které toho samého roku vypuklo v jejím jménu.",
+          zh: "伊丽莎白先后两次被流放到的地方——第一次是1319年约翰夺走孩子之后，第二次是同年那场以她之名爆发的布拉格起义失败之后。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Elizabeth_of_Bohemia_(1292%E2%80%931330)",
+  },
+  {
+    slug: "a-king-who-stopped-caring-1319",
+    era: "rise-of-a-kingdom",
+    startYear: 1319.2,
+    year: {
+      en: "1319–1321",
+      cz: "1319–1321",
+      zh: "1319年－1321年",
+    },
+    images: [
+      "/history/a-king-who-stopped-caring-1319.webp",
+      "/history/a-king-who-stopped-caring-1319-luxembourg.webp",
+    ],
+    tone: "humorous",
+    title: {
+      en: "A King Who Stopped Caring",
+      cz: "Král, kterému už nezáleželo",
+      zh: "心灰意冷",
+    },
+    hookLine: {
+      en: "He'd just exiled his own wife and crushed a rebellion raised in her name. John's actual response was to stop showing up in Bohemia at all.",
+      cz: "Právě vyhnal vlastní manželku a rozdrtil povstání vzniklé v jejím jménu. Janovou skutečnou odpovědí bylo přestat se v Čechách vůbec ukazovat.",
+      zh: "他刚流放了自己的妻子，镇压了一场以她之名爆发的叛乱。而约翰真正的反应，是干脆不再回波希米亚露面。",
+    },
+    summary: {
+      en: "Exile didn't buy John the quiet he'd probably hoped for. That same summer, Prague's own citizens rose up, joined by a faction of nobles loyal to Elizabeth under William Zajíc of Valdek (the same Zajíc who'd backed her since the War of the Two Queens), and the rebels seized the city itself, summoning Elizabeth back to take her place at its head. John's own forces proved stronger. The revolt collapsed within days, Prague changed hands yet again, and the fighting ended the way so much of this reign already had: not with a decisive victory, but with a negotiated peace that sent Elizabeth quietly back to Mělník.\n\nSomething in John seems to have given up around here. Bohemia, from this point on, mattered to him mainly as a source of money for ambitions that had nothing to do with it: the wider tangle of Luxembourg dynastic and imperial politics he'd been raised to care about far more than any one kingdom. In 1319 he sent out invitations across Europe for a grand tournament in Prague, the kind of event meant to put the Bohemian court on the same stage as any in France or the Empire. Not a single foreign knight showed up.\n\nHe tried again in February 1321, this time in person on the tournament field itself. The results were considerably worse than an empty guest list. Thrown from a bolting horse and trampled underfoot, John came close enough to dying that the Zbraslav Chronicle's own account of it still reads like a battlefield report:\n\n[[quote:0]]\n\nHe survived. Whatever damage his eyesight would eventually suffer, it had nothing to do with this fall: that affliction, when it caught up with him a decade and a half later, would come from an entirely different direction. For now, John simply recovered, and moved on.\n\nHe didn't stay to recover in Bohemia, either. By the end of 1319, before any of this had even fully played out, John had already handed the country's actual governance to Henry of Lipé and left for Luxembourg. For the rest of the decade, that arrangement barely changed. John came and went as his wider ambitions required; Bohemia's day-to-day rule stayed with Henry of Lipé or whichever lord from his circle happened to be trusted with it that year. The man who'd once been dragged out of Sedlec Monastery as a hostage was, by now, simply how the kingdom got run.",
+      cz: "Vyhnanství Janovi nekoupilo klid, který asi čekal. Ještě téhož léta povstali sami pražští měšťané, přidala se k nim část šlechty věrná Elišce pod vedením Viléma Zajíce z Valdeka (téhož Zajíce, který ji podporoval už od války dvou královen), a povstalci se zmocnili samotného města, přičemž si Elišku zavolali zpátky, aby se postavila do jeho čela. Janovy síly se ukázaly silnější. Vzpoura se zhroutila během pár dní, Praha znovu změnila majitele, a boje skončily tak, jak už toho v tomhle panování bylo tolik: ne rozhodným vítězstvím, ale vyjednaným mírem, který poslal Elišku tiše zpátky na Mělník.\n\nNěkde tady se v Janovi něco vzdalo. Čechy od tohoto bodu pro něj znamenaly hlavně zdroj peněz na ambice, které s nimi neměly nic společného: širší lucemburský klubko dynastické a říšské politiky, o kterou se od dětství naučil starat mnohem víc než o jedno konkrétní království. V roce 1319 rozeslal po celé Evropě pozvánky na velkolepý turnaj v Praze, akci, která měla postavit český dvůr na stejné pódium jako kterýkoli francouzský nebo říšský dvůr. Nedorazil jediný cizí rytíř.\n\nZkusil to znovu v únoru 1321, tentokrát osobně na turnajovém kolbišti. Výsledek byl podstatně horší než prázdný seznam hostů. Shozen ze splašeného koně a pošlapán, dostal se Jan tak blízko smrti, že vlastní záznam Zbraslavské kroniky o tom dodnes čte jako hlášení z bojiště:\n\n[[quote:0]]\n\nPřežil. Ať už jeho zrak časem postihlo cokoli, s tímhle pádem to nemělo nic společného: ta trápení, když ho dostihla o patnáct let později, přišla z úplně jiné strany. Prozatím se Jan prostě zotavil a šel dál.\n\nV Čechách se ani zotavovat nezůstal. Do konce roku 1319, ještě než se tohle všechno stihlo dohrát, už Jan skutečnou správu země předal Jindřichovi z Lipé a odjel do Lucemburska. Po zbytek dekády se na tomhle uspořádání skoro nic nezměnilo. Jan přijížděl a odjížděl podle toho, co zrovna vyžadovaly jeho širší ambice; každodenní vládu v Čechách nadál drželi Jindřich z Lipé nebo kdokoli z jeho okruhu, komu se zrovna ten který rok svěřila. Muž, kterého kdysi vyvlekli ze sedleckého kláštera jako rukojmí, byl teď prostě způsob, jakým se království řídilo.",
+      zh: "流放并没有给约翰换来他大概期待的那份安宁。就在同一年夏天，布拉格市民自己揭竿而起，效忠伊丽莎白的一派贵族也加入进来，由瓦尔德克的威廉·扎伊茨领头（正是那位自“两位王后之战”起就一直支持她的扎伊茨），叛军占领了这座城市本身，把伊丽莎白重新请回来坐镇。约翰的军队最终证明更胜一筹。叛乱几天之内就土崩瓦解，布拉格又一次易主，而这场冲突的收场方式，跟这段统治期里已经发生过太多次的一样：不是靠一场决定性的胜利，而是靠一纸谈判达成的和议，把伊丽莎白悄悄送回了梅尔尼克。\n\n大概就是从这时候起，约翰心里的某样东西，彻底放弃了。从此以后，波希米亚对他而言，主要的意义就是一个钱袋子：供他去追逐那些跟这个王国本身毫无关系的野心，那一整套他从小就被教导要比任何一个具体王国都更在意的卢森堡王朝-帝国政治棋局。1319年，他向全欧洲发出邀请，要在布拉格办一场盛大比武大会，想借此把波希米亚宫廷摆上跟法兰西或帝国宫廷同一个舞台。结果一个外国骑士都没来。\n\n1321年2月，他又试了一次，这回亲自下场比武。结果比宾客名单空空如也还要糟糕得多。他被一匹受惊失控的马甩下、又被踩在马蹄之下，险些丧命，以至于《兹布拉斯拉夫编年史》自己对这件事的记载，读起来至今仍像一份战场伤亡报告：\n\n[[quote:0]]\n\n他活了下来。不管他日后的视力问题最终是怎么来的，都跟这次坠马毫无关系：十五年后真正找上他的那场病痛，来自完全不同的另一个方向。眼下，约翰不过是养好了伤，然后继续往前走。\n\n他甚至没有留在波希米亚养伤。早在1319年年底、这一切都还没彻底尘埃落定之前，约翰就已经把国家的实际治理权交给了利佩的亨利，自己启程回了卢森堡。往后整整十年，这套安排几乎没怎么变过。约翰按自己那些更宏大的野心需要来来去去；波希米亚的日常统治，则一直留在利佩的亨利、或是他圈子里那一年碰巧被信任的某位贵族手中。这个当年曾被人从塞德莱茨修道院拖出来当人质的男人，如今，干脆就成了这个王国的运转方式本身。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "The king fell heavily from his horse, and as he lay a long while in the deep mud, terribly trampled beneath the hooves of the horses, he was scarcely dragged from the crowd — his weapons caked in mud, his clothing torn to pieces, and himself very nearly given up for dead.",
+          cz: "Král těžce spadl s koně, a když dlouho ležel v hlubokém bahně, hrozně pošlapán kopyty koní, byl sotva vytažen z davu — se zbrojí zablácenou, oděvem rozedraným na kusy a sám téměř pokládán za mrtvého.",
+          zh: "国王重重地从马上摔了下来，在深深的泥泞里躺了许久，被马蹄狠狠踩踏，几乎是被人从人群中硬拖出来的——盔甲沾满了泥浆，衣袍撕得粉碎，他自己也险些被当作已经死去。",
+        },
+        attribution: {
+          en: "Zbraslav Chronicle",
+          cz: "Zbraslavská kronika",
+          zh: "兹布拉斯拉夫编年史",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/John_of_Bohemia",
+  },
+  {
+    slug: "egerland-endgame-1322",
+    era: "rise-of-a-kingdom",
+    startYear: 1322,
+    year: {
+      en: "1322",
+      cz: "1322",
+      zh: "1322年",
+    },
+    images: ["/history/egerland-endgame-1322.webp"],
+    tone: "humorous",
+    title: {
+      en: "The Egerland Endgame",
+      cz: "Chebsko: koncovka",
+      zh: "埃格尔兰终章",
+    },
+    hookLine: {
+      en: "John had already made clear Bohemia was little more to him than a war chest. This time, on a battlefield fought for entirely different reasons, he closed out a border dispute four kings before him had never quite finished.",
+      cz: "Jan už jasně dal najevo, že Čechy jsou pro něj málem víc než válečná pokladna. Tentokrát, na bojišti, o které bojoval z úplně jiných důvodů, uzavřel pohraniční spor, který čtyři čeští králové před ním nikdy doopravdy nedotáhli do konce.",
+      zh: "约翰早就摆明了，波希米亚对他而言不过是个钱袋子。这一次，在一场跟波希米亚本身毫无关系的战场上，他却顺手了结了一桩四代波希米亚国王都没能真正解决的边境悬案。",
+    },
+    summary: {
+      en: "Handing Bohemia to Henry of Lipé didn't mean John stopped working. Imperial politics were the one thing he'd actually been raised to care about, and by 1322 there was a real prize on the table: the Holy Roman crown itself, still unsettled eight years after the double election of 1314 had put two different men on it at once. Louis of Bavaria, the same king who'd brokered the Domažlice peace back in 1318, held one half of that disputed title. Frederick the Fair of Habsburg held the other. John, loyal to the ally who'd already done him a favor once, backed Louis.\n\nThe two sides finally settled it by force on 28 September 1322, near the Bavarian town of Mühldorf. John rode into the battle at Louis's side, alongside Burgrave Frederick IV of Nuremberg, against Frederick the Fair and his brother Henry the Friendly. It was a rout: Frederick's army broke, well over a thousand Austrian and Salzburg nobles were taken prisoner, and Frederick himself was captured on the field. The Bohemian historian Count Lützow, writing centuries later, gave John rather more credit for the win than most modern accounts do:\n\n[[quote:0]]\n\nWhatever the actual chain of command that day, John came out of it with a reputation as a genuine soldier, not just a well-dressed foreign teenager who happened to wear a crown.\n\nThe reward came within a week. On 4 October 1322, Louis pledged the town of Cheb and its surrounding district to John for 20,000 marks of silver, a straightforward mortgage rather than an outright gift. A further document, issued 23 October, guaranteed the town would keep its own privileges as a Reichsstadt, an imperial free city, even under Bohemian control. Nobody ever paid the debt back. The pledge was simply never redeemed, and a temporary wartime mortgage quietly hardened, decade after decade, into permanent Bohemian ownership.\n\nEgerland had been trading hands for longer than anyone currently alive could remember. Otakar II first grabbed it in 1266, only to lose it again in 1276. Wenceslas II talked his way back into it in 1291, during a convenient gap in imperial authority. Wenceslas III handed it straight back to Albert of Habsburg in 1305, buying himself peace on the western border so he could go deal with Poland instead. Fifty-six years and four kings after Otakar first rode in, the question was finally closed.\n\nNone of it was the point, as far as John was concerned. He hadn't ridden to Mühldorf to finish Bohemia's oldest border dispute. He'd ridden there for Louis, for the Empire, for the kind of prize his own father had raised him to chase. Bohemia just happened to be standing close enough to catch what fell out of someone else's war.",
+      cz: "Předat Čechy Jindřichovi z Lipé neznamenalo, že Jan přestal být aktivní. Říšská politika byla to jediné, na co ho vlastně vychovali, aby mu záleželo, a v roce 1322 byla na stole opravdová trofej: samotná římská koruna, stále nevyřešená osm let po dvojí volbě roku 1314, která na ni tehdy dosadila hned dva muže najednou. Ludvík Bavorský, tentýž král, který v roce 1318 zprostředkoval mír v Domažlicích, držel jednu polovinu tohoto sporného titulu. Fridrich Sličný Habsburský držel tu druhou. Jan, věrný spojenci, který mu už jednou prokázal laskavost, se postavil za Ludvíka.\n\nObě strany to nakonec 28. září 1322 vyřešily silou, poblíž bavorského města Mühldorfu. Jan jel do bitvy po Ludvíkově boku, spolu s purkrabím Fridrichem IV. Norimberským, proti Fridrichu Sličnému a jeho bratrovi Jindřichu Přívětivému. Byl to naprostý rozvrat: Fridrichovo vojsko se rozpadlo, přes tisíc rakouských a salcburských šlechticů padlo do zajetí a sám Fridrich byl zajat přímo na bojišti. Český historik hrabě Lützow, píšící o staletí později, přisoudil Janovi na tomhle vítězství podstatně větší zásluhu, než mu přiznává většina moderních zpracování:\n\n[[quote:0]]\n\nAť už velení toho dne vypadalo ve skutečnosti jakkoli, Jan si z toho odnesl pověst skutečného vojáka, ne jen dobře oblečeného cizího teenagera, který náhodou nosí korunu.\n\nOdměna přišla do týdne. 4. října 1322 zastavil Ludvík město Cheb a okolní kraj Janovi za 20 000 hřiven stříbra, prostou zástavu, ne přímý dar. Další listina, vydaná 23. října, zaručovala městu, že si i pod českou správou podrží vlastní výsady říšského svobodného města. Dluh nikdy nikdo nesplatil. Zástava zůstala jednoduše nevyplacena, a dočasná válečná hypotéka se tiše, desetiletí po desetiletí, proměnila v trvalé české vlastnictví.\n\nChebsko měnilo majitele déle, než si kdokoli žijící dokázal pamatovat. Otakar II. ho poprvé uchvátil v roce 1266, jen aby ho v roce 1276 zase ztratil. Václav II. si ho v roce 1291 vymluvil zpátky, během vhodné mezery v říšské autoritě. Václav III. ho v roce 1305 rovnou vrátil Albrechtovi Habsburskému výměnou za mír na západní hranici, aby se mohl místo toho věnovat Polsku. Šestapadesát let a čtyři krále po tom, co tam Otakar poprvé vjel, byla otázka konečně uzavřena.\n\nJana to samotného vůbec nezajímalo. Do Mühldorfu nejel proto, aby uzavřel nejstarší český pohraniční spor. Jel tam kvůli Ludvíkovi, kvůli říši, kvůli přesně tomu druhu trofeje, ke kterému ho vychoval vlastní otec. Čechy se prostě náhodou ocitly dost blízko na to, aby zachytily, co z té cizí války spadlo.",
+      zh: "把波希米亚交给利佩的亨利，不代表约翰就此闲了下来。帝国政治才是他从小被教导真正该上心的事，而1322年，桌面上正摆着一份实实在在的大奖：神圣罗马帝位本身，自1314年那场把两个人同时选上王位的双重选举以来，已经悬而未决整整八年。巴伐利亚的路易，就是1318年促成多马日利采和约的那位国王，手握这个有争议头衔的一半，另一半握在哈布斯堡的“美男子”腓特烈手里。约翰对已经帮过自己一次的盟友很讲义气，站到了路易这一边。\n\n1322年9月28日，双方终于在巴伐利亚的穆尔多夫附近，用武力把这事定了下来。约翰在路易身边并肩作战，还有纽伦堡的城堡伯爵腓特烈四世，对阵美男子腓特烈和他的弟弟“和善的”亨利。这是一场彻底的溃败：腓特烈的军队土崩瓦解，一千多名奥地利和萨尔茨堡贵族被俘，腓特烈本人也在战场上被生擒。几个世纪后，波希米亚历史学家卢措夫伯爵在自己的著作里，把这场胜利的功劳安在约翰头上的分量，比大多数现代史学的说法都要重得多：\n\n[[quote:0]]\n\n不管那天的指挥权实际上握在谁手里，约翰从这一战里赢得的是一位真正军人的名声，而不再只是一个碰巧戴着王冠、穿着讲究的外国少年。\n\n回报不到一周就来了。1322年10月4日，路易把赫布城及周边地区抵押给了约翰，价格是2万马克白银，是一笔实打实的抵押，不是白送的礼物。10月23日又出了一份文书，确认这座城市即便归波希米亚管辖，也依然保留着自己作为“帝国自由城市”的特权。这笔债，后来没有任何人还过。这份抵押就这么一直没被赎回，一场本该只是战时权宜之计的贷款，就这样一年年、悄悄地，硬生生变成了波希米亚永久的领地。\n\n埃格尔兰这块地方，易主的次数，比任何还活着的人能记得的都要多。奥托卡二世1266年第一次拿下它，1276年又丢了。瓦茨拉夫二世1291年趁着帝国出现权力真空，把它连哄带劝地要了回来。瓦茨拉夫三世1305年又直接把它还给了哈布斯堡的阿尔布雷希特，换取西部边境的和平，好腾出手来对付波兰。奥托卡第一次策马进城，到现在整整五十六年，换了四代国王，这个问题才算真正尘埃落定。\n\n这些对约翰本人来说，压根不是重点。他策马奔赴穆尔多夫，不是为了了结波希米亚这桩最古老的边境悬案。他去，是为了路易，为了帝国，为了那种从小被父亲教导要去争取的战利品。波希米亚不过是碰巧站得够近，接住了别人那场战争里掉下来的这块地方。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "His forces are said to have largely contributed to the decisive victory of Mühldorf (1322). We are also told that King John had the command of the whole army, which on that day defeated the Austrian duke.",
+          cz: "Jeho vojska prý značnou měrou přispěla k rozhodujícímu vítězství u Mühldorfu (1322). Dozvídáme se také, že král Jan měl toho dne velení nad celou armádou, jež porazila rakouského vévodu.",
+          zh: "据说他的军队在1322年穆尔多夫之役的决定性胜利中出力甚多。据传，那一天击败奥地利公爵的整支军队，指挥权正握在国王约翰手中。",
+        },
+        attribution: {
+          en: "Count Lützow, Bohemia: An Historical Sketch",
+          cz: "Hrabě František Lützow, Bohemia: An Historical Sketch",
+          zh: "弗朗蒂舍克·卢措夫伯爵，《波希米亚史纲》",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "cheb",
+        relation: {
+          en: "The Egerland's own capital, and the exact town this whole fifty-six-year tug-of-war was actually over. Otakar II took it in 1266, lost it in 1276, and Bohemia finally kept it for good starting here, in 1322.",
+          cz: "Vlastní hlavní město Chebska, přesně to město, o které se celý tenhle padesátišestiletý přetahovaný spor vedl. Otakar II. ho vzal v roce 1266, ztratil v roce 1276, a Čechy si ho natrvalo podržely až od tohohle roku, 1322.",
+          zh: "埃格尔兰地区自己的中心城市，也正是这场长达五十六年拉锯战真正争夺的对象。奥托卡二世1266年拿下它，1276年又丢掉，波希米亚要到1322年这一年，才终于把它永久留在了自己手里。",
+        },
+      },
+      {
+        slug: "cheb-castle",
+        relation: {
+          en: "Once the Emperor's own Kaiserpfalz, on ground that wasn't Bohemian at all when Wenceslas I walked out of an imperial diet here in 1239. By 1322 the whole town around it had finally become Bohemia's for good, even while formally keeping its status as a free imperial city.",
+          cz: "Kdysi císařův vlastní Kaiserpfalz, na půdě, která v roce 1239, kdy odsud Václav I. odešel z říšského sněmu, ještě vůbec nebyla česká. Do roku 1322 se celé město kolem něj konečně natrvalo stalo českým, i když si formálně podrželo status svobodného říšského města.",
+          zh: "这里曾是皇帝自己的行宫，1239年瓦茨拉夫一世愤然离席那场帝国议会时，脚下这片土地压根还不属于波希米亚。到1322年，围绕着它的整座城镇终于永久归属了波希米亚，尽管名义上它依然保留着帝国自由城市的身份。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Battle_of_M%C3%BChldorf",
+  },
+  {
+    slug: "diplomat-king-1331",
+    era: "rise-of-a-kingdom",
+    startYear: 1331,
+    year: {
+      en: "1331",
+      cz: "1331",
+      zh: "1331年",
+    },
+    images: [
+      "/history/diplomat-king-1331.webp",
+      "/history/diplomat-king-1331-italy.webp",
+    ],
+    tone: "humorous",
+    title: {
+      en: "The Diplomat, Moonlighting as King",
+      cz: "Diplomat, král jen na vedlejší úvazek",
+      zh: "外交官，兼职国王",
+    },
+    hookLine: {
+      en: "Bohemia never got John's full attention. Europe's chancelleries did, and that's where he actually turned out to be good at his job.",
+      cz: "Čechy si od Jana nikdy nevysloužily jeho plnou pozornost. Evropské kancléřství ano, a právě tam se ukázalo, že svou práci skutečně umí.",
+      zh: "波希米亚从来没能真正得到约翰的全部心思。欧洲各国的宫廷才有，而恰恰是在那里，他证明了自己确实干得不错。",
+    },
+    summary: {
+      en: "Backing the winning side at Mühldorf paid off in more than just Cheb. John spent most of the 1320s and early 1330s doing the one part of his job he'd actually turned out to be good at: showing up, in person, wherever European politics were being decided, and building relationships that outlasted any single deal. He became a regular presence at both the French royal court and the papal court at Avignon, and by this point the two were barely worth treating as separate destinations. This timeline has already covered how thoroughly the Avignon papacy had fallen under French influence since 1309. Staying close to Paris meant staying close to Rome's own exiled authority almost automatically. John's own children ended up doing more of the real work here than he did: a French marriage arranged for his son Wenceslas tied the Luxembourg line directly into the House of Valois, the first of several matches that would keep pulling Bohemia and France closer together for the rest of the century.\n\nCloser to home, the same restless year that brought John the Egerland also opened a second front. In 1319, the extinction of Brandenburg's own Ascanian margraves let him fold the Bautzen district into Bohemia. A decade later, in 1329, the Görlitz district followed the same way. Together the two districts made up Upper Lusatia, and neither one had cost John a single battle. Compared to Mühldorf, it barely even counted as effort.\n\nItaly is where John actually went looking for a fight, or at least a following. Northern Italy's own city-states, exhausted by generations of fighting each other, had gotten into the habit of inviting outside strongmen to rule them just to make the local violence stop, and by 1330 John looked like as good a candidate as any: royal, wealthy, and conveniently not from any of the local families with a grudge to settle. Brescia opened the door first, and one Lombard commune after another followed, some out of genuine welcome and plenty more simply hedging against whichever neighbor they distrusted most. In 1331, Emperor Louis IV, the same Bavarian ally John had helped put on the winning side at Mühldorf nine years earlier, formally confirmed John's lordship over Bergamo, Bobbio, Brescia, Cremona, Milan, Novara, and Pavia as proper imperial fiefs. The Florentine chronicler Giovanni Villani, watching all of this from close enough to worry about it, gave one chapter of his own chronicle a title that needed no further comment:\n\n[[quote:0]]\n\nGiven itself, not conquered. That was the pattern almost everywhere John went in Italy that year.\n\nNone of it would hold for long. Distant kings and restless Italian communes rarely stayed loyal to each other past the first hard season, and John, true to form, wasn't planning on staying in Italy either way. For a short while, though, on paper if nothing else, the King of Bohemia's writ ran from the Sudetes down into the Po valley, and he'd barely had to fight for most of it.",
+      cz: "Podpořit vítěznou stranu u Mühldorfu se vyplatilo ve víc než jen v Chebu. Většinu 20. a začátku 30. let 14. století strávil Jan tou částí své práce, ve které se skutečně ukázal být dobrý: osobně se ukazoval všude tam, kde se zrovna rozhodovalo o evropské politice, a budoval si vztahy, které přežily jakoukoli jednotlivou dohodu. Stal se pravidelným hostem jak na francouzském královském dvoře, tak u papežského dvora v Avignonu, a tou dobou už ani nemělo smysl brát tyhle dva cíle jako oddělené. Tahle časová osa už probrala, jak důkladně avignonské papežství od roku 1309 upadlo pod francouzský vliv. Držet se blízko Paříže znamenalo skoro automaticky držet se blízko i téhle vyhnané římské autority. Skutečnou práci tady ale za Jana nakonec odvedly spíš jeho vlastní děti: francouzský sňatek dohodnutý pro jeho syna Václava přímo napojil lucemburskou linii na dům Valois, první z několika sňatků, které budou Čechy a Francii ještě po zbytek století táhnout k sobě blíž a blíž.\n\nBlíž domovu otevřel ten samý neklidný rok, který Janovi přinesl Chebsko, ještě druhou frontu. V roce 1319 mu vymření braniborských Askánců umožnilo připojit k Čechám budyšínský kraj. O deset let později, v roce 1329, stejným způsobem následoval zhořelecký kraj. Dohromady oba kraje tvořily Horní Lužici, a ani jeden Jana nestál jedinou bitvu. Ve srovnání s Mühldorfem se to sotva dalo počítat za námahu.\n\nItálie je místo, kde Jan skutečně vyhledával boj, nebo aspoň následovníky. Severoitalské městské státy, vyčerpané generacemi vzájemného válčení, si zvykly zvát si k vládě cizí silné muže, jen aby se místní násilí konečně zastavilo, a do roku 1330 Jan vypadal jako dobrý kandidát jako každý jiný: královský, bohatý a příhodně nepocházející z žádné z místních rodin, se kterou by měl kdo vyřizovat účty. Brescia otevřela dveře jako první a jedna lombardská obec za druhou následovala, některé z upřímného přivítání, další prostě z opatrnosti proti sousedovi, kterému nevěřily nejvíc. V roce 1331 císař Ludvík IV., tentýž bavorský spojenec, kterému Jan devět let předtím pomohl vyhrát u Mühldorfu, formálně potvrdil Janovu vládu nad Bergamem, Bobbiem, Brescií, Cremonou, Milánem, Novarou a Pavií jako řádná říšská léna. Florentský kronikář Giovanni Villani, který tohle všechno sledoval z dost blízka na to, aby si dělal starosti, dal jedné kapitole vlastní kroniky název, který už žádný další komentář nepotřeboval:\n\n[[quote:0]]\n\nOdevzdali se sami, nedobyli je. Přesně tohle byl vzorec skoro všude, kam se Jan v Itálii ten rok vypravil.\n\nNic z toho nemělo vydržet dlouho. Vzdálení králové a neklidné italské obce si vzájemnou věrnost udržovaly málokdy déle než přes první těžší období, a Jan, jak už bylo jeho zvykem, stejně neplánoval zůstat v Itálii natrvalo. Na chvíli ale, aspoň na papíře, sahala moc českého krále od Sudet až dolů do Pádské nížiny, a stálo ho to jen málo skutečného boje.",
+      zh: "在穆尔多夫押对了阵营，收获可不只是赫布。整个1320年代到1330年代初，约翰把大部分精力都花在了他真正擅长的那部分工作上：亲自出现在欧洲政治决策的每一个现场，经营那些比任何一桩具体协议都更长久的人脉关系。他成了法国王室宫廷和阿维尼翁教廷两边的常客，到这个时候，这两个目的地其实已经没必要分开来看了。这条时间线之前已经讲过，阿维尼翁教廷自1309年起，就已经彻底落入了法国的影响之下。跟巴黎走得近，几乎就等于自动跟这个流亡中的罗马权威走得近。真正把这件事做实的，其实是约翰的子女而不是他自己：为儿子瓦茨拉夫安排的一桩法国联姻，把卢森堡家族直接绑上了瓦卢瓦王室，也是接下来一整个世纪里，一连串把波希米亚和法国越拉越近的联姻中的第一桩。\n\n离家更近的地方，同一个给约翰带来赫布的动荡年份，又开辟了第二条战线。1319年，勃兰登堡阿斯坎家族绝嗣，让他得以把包岑地区并入波希米亚。十年后的1329年，格尔利茨地区又照着同样的方式跟进。这两块地方合在一起，就是上卢萨蒂亚，约翰为此没打过一场仗。跟穆尔多夫比起来，这几乎算不上费什么力气。\n\n意大利才是约翰真正主动去找仗打、或者说去找追随者的地方。北意大利的这些城邦，被几代人打个不停的内耗拖得筋疲力尽，已经养成了一个习惯：邀请外来的强人来统治自己，只求本地的暴力能就此停下来。到1330年，约翰看起来是个跟其他人选一样不错的候选人：出身王室、家底殷实，而且恰好不属于当地任何一个跟谁结着仇的家族。布雷西亚第一个打开城门，伦巴第的城邦一个接一个跟进，有的是真心欢迎，更多的不过是想防着自己最不信任的那个邻居。1331年，皇帝路易四世，就是九年前约翰在穆尔多夫帮着押中的那位巴伐利亚盟友，正式确认了约翰对贝加莫、博比奥、布雷西亚、克雷莫纳、米兰、诺瓦拉和帕维亚这几座城市的统治权，将其纳为正式的帝国封地。佛罗伦萨编年史家乔瓦尼·维拉尼，在近处看着这一切、看得有点担心，给自己编年史里的一章起的标题，已经不需要再多加任何评论：\n\n[[quote:0]]\n\n是自己交出去的，不是打下来的。这几乎就是那一年约翰在意大利到处遇到的同一种模式。\n\n这一切都没能维持太久。远方的国王和躁动不安的意大利城邦之间的忠诚，很少能撑过第一个艰难的季节，而约翰呢，一贯如此，压根也没打算在意大利久留。但在那一小段时间里，至少在纸面上，波希米亚国王的号令，已经从苏台德一路延伸到了波河平原，而这一切，他几乎没怎么真刀真枪地打过。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "How the Florentines' army withdrew from Lucca, and how the people of Lucca gave themselves over to King John of Bohemia.",
+          cz: "Jak florentské vojsko odtáhlo od Luccy, a jak se Lucca odevzdala králi Janovi z Čech.",
+          zh: "佛罗伦萨的军队如何撤离卢卡城下，卢卡人又是如何归顺了波希米亚国王约翰。",
+        },
+        attribution: {
+          en: "Giovanni Villani, Nuova Cronica",
+          cz: "Giovanni Villani, Nuova Cronica",
+          zh: "乔瓦尼·维拉尼，《新编年史》",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/John_of_Bohemia",
+  },
 ];
 
 async function run() {
