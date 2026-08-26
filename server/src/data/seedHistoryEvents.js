@@ -5196,9 +5196,9 @@ export const historyEvents = [
     },
     tone: "humorous",
     title: {
-      en: "Father and Son at Odds",
-      cz: "Otec a syn v rozepři",
-      zh: "父子争执",
+      en: "The Pope Mediates a Family Feud",
+      cz: "Papež urovnává rodinný spor",
+      zh: "教皇介入的家庭调解",
     },
     hookLine: {
       en: "Losing Tyrol to the Emperor's own son didn't help. By 1342, John and Charles needed the Pope himself, Charles's own former tutor, to talk them back into the same room.",
