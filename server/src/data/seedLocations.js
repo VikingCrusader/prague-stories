@@ -24283,6 +24283,94 @@ Nejnečekanější brněnská památka patří 20., ne středověkému století.
 🎁 彩蛋：2001年，工人在采菜市场（Zelný náměstí）的蔬菜摊位下方进行常规勘测时，意外挖穿了一处活人记忆里从没被绘制过的巨大地下藏骨堂。里面的骸骨估计超过五万具，而且数字还在增加，大多属于鼠疫、霍乱以及前面刚提到的1645年那场围城的死难者——等到完全勘测清楚，它将成为仅次于巴黎地下墓穴的欧洲第二大藏骨堂。它直到2012年才对公众开放。`,
     },
   },
+  {
+    // Added 2026-08-26 — out-of-town-castle exception (same category as
+    // bezdez-castle, zamek-hluboka-nad-vltavou): a genuinely distant, standalone
+    // site ~12km from Brno, not a second Brno landmark. Direct tie-in: one of
+    // the mortgaged royal castles Charles IV redeemed, per the so-much-to-
+    // rebuild-1334 History Timeline card, which now links here.
+    name: 'Veveří Castle',
+    slug: 'veveri-castle',
+    localizedNames: { cz: 'Hrad Veveří', zh: '韦韦日城堡' },
+    labels: ['castle and fortress', 'historical', 'architecture'],
+    coordinates: { lat: 49.256780515775446, lng: 16.461753043689196 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Veve%C5%99%C3%AD_Castle',
+    description: {
+      en: `Perched on a rocky spur above where the Svratka River widens into the Brno Reservoir, this castle has spent nine centuries being pledged, pawned, fortified, ignored, and eventually poured over in concrete by a very confused 1970s renovation. Squirrels, allegedly, are why it's named what it's named.
+
+Legend credits Duke Conrad of Brno with building a hunting lodge here in the mid-11th century, though the first solid documentary trace comes from 1213 and 1222, when King Otakar I used the fortified site as a prison for rebellious nobles. A proper stone castle went up on the rocky promontory in the 1220s, cut off from the mainland by a deep moat carved straight into the rock. By the time Charles IV redeemed it from pawn in the 1330s, on his way to rebuilding a kingdom his father had spent into the ground, Veveří already ranked among the largest and oldest castle complexes in Moravia.
+
+What followed was a long, unglamorous churn of ownership: pledged repeatedly after the Hussite wars, passed to the lords of Ludanice in 1536, then held by the Counts of Sinzendorf for most of the 18th century, who converted it into a working manor estate rather than a showpiece. The 20th century wasn't any kinder. The SS used it during the Second World War; postwar Czechoslovakia turned it into a forestry school and, at one point, a boarding house; and a 1970s plan to convert it into an international congress center got only far enough to pour concrete over parts of the original stonework before running out of money. Restoration has been underway since the century's end, slowly undoing what the congress-center plan didn't finish undoing itself.
+
+🎁 Bonus: the castle now sits on a peninsula jutting into the Brno Reservoir, created in the 1930s by damming the Svratka, so a building designed to loom over a river now spends part of the year looming over a popular swimming and boating spot instead.`,
+
+      cz: `Na skalním ostrohu nad místem, kde se řeka Svratka rozlévá do brněnské přehrady, stojí hrad, který za devět století prošel zastavováním, přeprodáváním, opevňováním, upadáním v zapomnění a nakonec i zalitím betonem během jedné dost pochybené přestavby v 70. letech 20. století. Za svým jménem prý vděčí veverkám.
+
+Podle pověsti tu vévoda Konrád Brněnský v polovině 11. století postavil lovecký zámeček, první doložitelná zmínka ale pochází až z let 1213 a 1222, kdy král Přemysl Otakar I. používal opevněné místo jako vězení pro vzbouřené šlechtice. Ve 20. letech 13. století na skalním ostrohu vyrostl skutečný kamenný hrad, oddělený od pevniny hlubokým příkopem vytesaným přímo do skály. V době, kdy ho Karel IV. ve 30. letech 14. století vykoupil ze zástavy, na cestě k obnově království, které jeho otec rozházel do posledního haléře, patřil Veveří už mezi největší a nejstarší hradní komplexy na Moravě.
+
+Co následovalo, byl dlouhý a nijak slavný kolotoč majitelů: po husitských válkách opakovaně zastavovaný, od roku 1536 v držení pánů z Ludanic a pak většinu 18. století v rukou hrabat ze Sinzendorfu, kteří z něj udělali spíš fungující hospodářské panství než reprezentační sídlo. Dvacáté století nebylo o nic laskavější. Za druhé světové války ho využívaly jednotky SS, poválečné Československo z něj udělalo lesnickou školu a na čas i internát, a plán ze 70. let přestavět ho na mezinárodní kongresové centrum se stihl jen tak daleko, že zalil část původního zdiva betonem, než došly peníze. Obnova probíhá od konce století a pomalu odčiňuje i to, co po sobě nedokončil samotný plán na kongresové centrum.
+
+🎁 Bonus: hrad dnes stojí na poloostrově vybíhajícím do brněnské přehrady, vzniklé ve 30. letech přehrazením Svratky, takže budova postavená k tomu, aby se tyčila nad řekou, teď část roku trůní nad oblíbeným místem ke koupání a jachtingu.`,
+
+      zh: `在斯夫拉特卡河汇入布尔诺水库的地方，一座石崖上矗立着这座城堡。九个世纪里，它经历过典当、转手、加固、被人遗忘，最后在1970年代一次相当混乱的翻修里，还被灌了一层混凝土。据说它的名字，来源就是松鼠。
+
+传说布尔诺公爵康拉德在11世纪中叶，在这里建了一座狩猎小屋，但真正有据可查的最早记载，要到1213年和1222年，波希米亚国王奥托卡一世把这座设防据点当成关押叛乱贵族的监狱。13世纪20年代，一座真正的石造城堡在这处岩石岬角上拔地而起，一道直接凿进岩石里的深堑，把它和陆地隔开。到14世纪30年代，查理四世把它从抵押状态赎回来，作为重建这个被父亲挥霍一空的王国的一部分时，韦韦日城堡已经是摩拉维亚规模最大、历史最悠久的城堡建筑群之一。
+
+接下来的历史，是一长串并不光彩的易主：胡斯战争之后反复被典当，1536年起归卢达尼采家族所有，18世纪的大部分时间里又落到辛岑多夫伯爵家族手里，被他们改造成了一处实实在在干活的庄园，而不是拿来炫耀的宅邸。20世纪对它也没手下留情。二战期间，党卫军曾在这里驻扎；战后的捷克斯洛伐克把它改成了一所林业学校，一度还兼作寄宿舍；1970年代一项想把它改建成国际会议中心的计划，也只推进到把部分原始砖石灌上混凝土，就因为没钱而停摆。修复工作从上世纪末一直持续至今，慢慢清理着那项会议中心计划自己都没收拾干净的烂摊子。
+
+🎁 彩蛋：这座城堡如今立在一座伸入布尔诺水库的半岛上，而这座水库是1930年代拦截斯夫拉特卡河形成的。也就是说，一座原本设计来俯瞰河流的建筑，如今一年里有一部分时间，俯瞰的其实是一处颇受欢迎的游泳和帆船胜地。`,
+    },
+  },
+  {
+    // Added 2026-08-26 — third exception (just-barely-a-Prague-day-trip +
+    // outsized standalone historical weight, same category as
+    // olomouc/brno/jihlava/plzen), long-form single-card template, no
+    // sub-landmark split. Direct tie-ins: one of the towns Charles IV tried
+    // to bring under his own direct control per the so-much-to-rebuild-1334
+    // History Timeline card, which now links here; also the dower town
+    // Eliška Rejčka held 1308-1318 (see the-two-queens-proxy-war-1315).
+    name: 'Hradec Králové',
+    slug: 'hradec-kralove',
+    localizedNames: { cz: 'Hradec Králové', zh: '赫拉德茨-克拉洛韦' },
+    labels: ['city'],
+    coordinates: { lat: 50.209266045495596, lng: 15.832772852070368 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Hradec_Kr%C3%A1lov%C3%A9',
+    description: {
+      en: `The name literally means "the queen's castle," which sounds like a lovely tribute until you remember medieval Bohemia's habit of handing entire cities to royal widows as their own personal income stream. Either way, Hradec has been living up to the name for over seven hundred years.
+
+The town first shows up in the written record in 1225, in a charter of Přemysl Otakar I, but its real rise began in 1306, when it became one of Bohemia's dower towns, cities set aside to fund a widowed queen's own household rather than the crown's. Elizabeth Richeza of Poland held it from 1308 to 1318, the same years this timeline has already spent plenty of time on watching her get used as a political weapon against her own stepdaughter, Elizabeth of Bohemia. It was Richeza who commissioned the town's Gothic Cathedral of the Holy Spirit in 1307. A second queen, Elizabeth of Pomerania, held Hradec from 1378 to 1393. Under their patronage the town grew into a genuine regional center of politics, military muscle, and learning, ranked in the same company as České Budějovice, Kutná Hora, Olomouc, and Brno.
+
+The skyline is still dominated by the White Tower, a 72-meter Renaissance tower begun in 1574 and built from a distinctively pale local sandstone, which is exactly as literal an explanation for the name as it sounds. It holds the third-largest bell in the country. Three centuries later, the fields around Hradec hosted something considerably less picturesque: the Battle of Königgrätz in 1866, one of the largest battles fought in Europe between Napoleon and the First World War, where a decisive Prussian win over Austria reshuffled the balance of power across Central Europe in a single afternoon.
+
+The 20th century gave the city a very different reputation. Architects Jan Kotěra and Josef Gočár rebuilt large stretches of Hradec in the early 1900s along strikingly modern, functionalist lines, earning it the nickname the "Salon of the Republic," a title most Czech cities its size can only dream of.
+
+🎁 Bonus: Elizabeth Richeza's own résumé makes Hradec look like just one stop on a much longer road. Twice a crowned queen, first to Wenceslas II, then to the short-lived Rudolf I, she spent her later years as a widowed dowager who eventually left this very town to spend her last decade in Brno with her longtime partner, Henry of Lipé, the same power broker this timeline has already spent considerable time on.`,
+
+      cz: `Jméno v doslovném překladu znamená „hrad královny", což zní jako pěkná poklona, dokud si nevzpomenete na středověký český zvyk přidělovat vdovám po králích celá města jako vlastní zdroj příjmů. Ať tak či onak, Hradec tomu jménu dělá čest už přes sedm set let.
+
+Město se v písemných pramenech poprvé objevuje v roce 1225, v listině Přemysla Otakara I., ale jeho skutečný vzestup začal v roce 1306, kdy se stalo jedním z českých věnných měst, měst vyčleněných na financování domácnosti ovdovělé královny, ne koruny. Eliška Rejčka je držela v letech 1308 až 1318, přesně v době, které tahle časová osa už věnovala dost prostoru, když sledovala, jak ji používali jako politickou zbraň proti její vlastní nevlastní dceři, Elišce Přemyslovně. Právě Rejčka nechala v roce 1307 postavit gotickou katedrálu Svatého Ducha. Druhá královna, Alžběta Pomořanská, držela Hradec v letech 1378 až 1393. Pod jejich patronací se z města stalo skutečné regionální centrum politiky, vojenské síly i vzdělanosti, řazené po bok Českých Budějovic, Kutné Hory, Olomouce a Brna.
+
+Siluetu města dodnes ovládá Bílá věž, sedmdesát dva metry vysoká renesanční věž založená v roce 1574 a postavená z výrazně světlého místního pískovce, což je přesně tak doslovné vysvětlení jejího jména, jak to zní. Visí v ní třetí největší zvon v zemi. O tři století později se na polích kolem Hradce odehrálo něco podstatně méně malebného: bitva u Hradce Králové v roce 1866, jedna z největších bitev svedených v Evropě mezi Napoleonem a první světovou válkou, ve které rozhodná pruská výhra nad Rakouskem během jediného odpoledne přeskládala mocenskou rovnováhu v celé střední Evropě.
+
+Dvacáté století dalo městu úplně jinou pověst. Architekti Jan Kotěra a Josef Gočár na počátku 20. století přestavěli velkou část Hradce v nápadně moderním, funkcionalistickém duchu, čímž mu vysloužili přezdívku „salon republiky", titul, o kterém si většina česky měst jeho velikosti může nechat jen zdát.
+
+🎁 Bonus: Vlastní životopis Elišky Rejčky dělá z Hradce jen jednu zastávku na mnohem delší cestě. Dvakrát korunovaná královna, nejdřív po boku Václava II., pak krátce po boku Rudolfa I., strávila pozdější léta jako ovdovělá královna-vdova, která nakonec opustila právě tohle město, aby poslední desetiletí svého života prožila v Brně po boku svého dlouholetého partnera, Jindřicha z Lipé, téhož mocenského makléře, kterému tahle časová osa už věnovala značný prostor.`,
+
+      zh: `这个名字字面意思是"王后的城堡"，听起来像是一句动听的赞美，直到你想起中世纪波希米亚有个习惯：把整座城市当成收入来源，送给国王的遗孀。不管怎么说，赫拉德茨-克拉洛韦顶着这个名字，已经名副其实了七百多年。
+
+这座城市最早出现在文字记载中，是1225年普热米斯尔·奥托卡一世的一份文书；但它真正崛起，要到1306年，它成了波希米亚的"王后寡妇领地城市"之一——这类城市被专门划出来，供养一位守寡王后自己的家眷开销，而不是归王室支配。埃丽什卡·雷奇卡在1308年到1318年间掌管着这座城市，正是这条时间线已经花了不少篇幅、讲过她被人当作政治武器、用来对付自己继女埃丽什卡·普热米斯洛芙娜的那段时期。1307年，正是雷奇卡下令修建了城里的哥特式圣灵座堂。另一位王后，波美拉尼亚的伊丽莎白，在1378年到1393年间掌管着赫拉德茨。在她们的庇护下，这座城市成长为一个货真价实的区域中心，兼具政治、军事和文教实力，与切斯凯布杰约维采、库特纳霍拉、奥洛穆茨、布尔诺齐名。
+
+这座城市的天际线，至今仍由白塔主宰——一座始建于1574年的文艺复兴风格高塔，高72米，用当地颜色明显偏浅的砂岩建成，这也正是它得名"白塔"最直白的原因。塔里挂着全国第三大的钟。三个世纪之后，赫拉德茨周边的田野上，上演了一幕远没那么赏心悦目的场面：1866年的克尼格雷茨战役（也就是赫拉德茨-克拉洛韦战役），是拿破仑时代到第一次世界大战之间欧洲规模最大的战役之一，普鲁士对奥地利那场决定性的胜利，在短短一个下午之内，就重新洗牌了整个中欧的力量格局。
+
+20世纪，则给了这座城市一个截然不同的名声。建筑师扬·科泰拉和约瑟夫·戈恰尔，在20世纪初以极为现代、功能主义的风格，重建了赫拉德茨的大片城区，让它赢得了"共和国客厅"的美誉——这个头衔，是大多数同等规模的捷克城市想都不敢想的。
+
+🎁 彩蛋：埃丽什卡·雷奇卡自己的履历，让赫拉德茨看起来只是她漫长人生路上的一站。她两度加冕为王后，先是瓦茨拉夫二世的妻子，后来又短暂嫁给了鲁道夫一世；晚年守寡后，她最终离开了这座城市，在布尔诺度过了人生最后的十年，陪伴她的是相伴多年的伴侣、利佩的亨利——正是这条时间线已经花了不少篇幅讲过的那位权谋人物。`,
+    },
+  },
 ];
 
 async function run() {

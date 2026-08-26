@@ -208,6 +208,8 @@ Current narrative status of `rise-of-a-kingdom`, in order: Otakar I's marriage m
 
 **Philip VI of France — locked character design (confirmed 2026-08-26):** dark hair, a short full dark beard, mid-forties, dressed in rich royal blue robes trimmed with gold fleur-de-lis. Established from `an-alliance-with-france-1337`'s illustration (the arm-clasp/handshake greeting scene, captioned "TWO KINGS, ONE FRIENDSHIP") — his first illustrated appearance in this timeline. Also note: this same image is the first to show John wearing the black leather eyepatch over his right eye (lost in `crusader-king-loses-his-sight-1336`) — carry the eyepatch forward on the bearded/~40 John look in any card from 1336 onward, on top of the existing hair/beard/navy-tunic description.
 
+**Blanche of Valois, Charles's first wife — locked character design (confirmed 2026-08-26):** young (matching Charles's own age, ~18 in 1334), fair features, dressed in elegant 1330s French Gothic court fashion — a fitted, richly embroidered gown (soft blue with gold trim), hair covered by a fashionable French wimple-and-veil headdress, visibly more ornate than anything Bohemian courtiers wear, deliberately marking her as foreign at court. Established from `so-much-to-rebuild-1334`'s illustration (Charles welcoming her and her Luxembourg/French retinue at the Prague Castle gate, caption "WELCOME TO PRAGUE, BLANCHE") — her first illustrated appearance in this timeline, paired there with the existing young-adult/margrave Charles design (chestnut-brown hair, clean-shaven, wine-red ermine-trimmed tunic).
+
 ## Deployment
 
 - Frontend → Vercel (root set to `client/`)
