@@ -32,7 +32,7 @@ describe('GET /api/history', () => {
     const res = await request(app).get('/api/history');
 
     expect(res.status).toBe(200);
-    expect(res.body.eras).toHaveLength(7);
+    expect(res.body.eras).toHaveLength(13);
     expect(res.body.eras[0].key).toBe('legends-origins');
     expect(res.body.events).toHaveLength(1);
     expect(res.body.events[0].slug).toBe('libuse-prophecy');

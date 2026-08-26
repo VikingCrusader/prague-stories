@@ -168,12 +168,12 @@ describe('evaluateAchievements', () => {
     expect(ids).toContain('adventurer_25');
   });
 
-  test('unlocks castle_conqueror when prague-castle is in checkedSlugs', () => {
-    const stats = { ...baseStats, totalCheckins: 1, checkedSlugs: ['prague-castle'] };
+  test('unlocks castle_conqueror when st-vitus-cathedral is in checkedSlugs', () => {
+    const stats = { ...baseStats, totalCheckins: 1, checkedSlugs: ['st-vitus-cathedral'] };
     expect(evaluateAchievements(stats, []).map(a => a.id)).toContain('castle_conqueror');
   });
 
-  test('does not unlock castle_conqueror without prague-castle', () => {
+  test('does not unlock castle_conqueror without st-vitus-cathedral', () => {
     const stats = { ...baseStats, totalCheckins: 1, checkedSlugs: ['charles-bridge'] };
     expect(evaluateAchievements(stats, []).map(a => a.id)).not.toContain('castle_conqueror');
   });
