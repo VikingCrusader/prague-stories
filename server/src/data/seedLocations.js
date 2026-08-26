@@ -23233,21 +23233,23 @@ Další pevná dokumentace přichází o skoro století později: dvě královsk
     },
   },
   {
-    // NOTE — known slug/name mismatch bug (see CLAUDE.md "Known caveat"):
-    // this doc's slug is 'prague-castle' but its name/localizedNames/content
-    // are all actually about St. Vitus Cathedral specifically (a different
-    // building within the Prague Castle complex). Not fixed here — renaming
-    // the slug would require auditing every relatedLandmarks reference across
-    // seedHistoryEvents.js first. Description rewritten 2026-08-21: the prior
-    // version was written in bizarre video-game-UI jargon ("Achievement
-    // Unlocked", "codebase", "endgame", "NPC") totally off this project's
-    // voice, and had an internal date error (EN said the cathedral was begun
-    // in 1444, CZ correctly said 1344 — fixed to 1344 throughout, verified
-    // against Wikipedia/hrad.cz). This seed entry mirrors that live edit for
-    // documentation parity; $setOnInsert means re-running the seed script
-    // will just SKIP it since the slug already exists.
+    // Slug/name mismatch bug (see CLAUDE.md "Known caveat") FIXED 2026-08-26:
+    // this doc used to carry the wrong slug 'prague-castle' even though its
+    // name/localizedNames/content were always genuinely about St. Vitus
+    // Cathedral. Renamed to the correct slug below after auditing and
+    // updating every relatedLandmarks reference to it across
+    // seedHistoryEvents.js (4 of them) plus the castle_conqueror achievement
+    // check in gamification.js and the local cover image filename. The
+    // 'prague-castle' slug itself is now unused/free — a genuine "Prague
+    // Castle as a whole complex" card, if one ever gets written, would need
+    // fresh content of its own, not just this old slug reclaimed. Description
+    // rewritten 2026-08-21: the prior version was written in bizarre
+    // video-game-UI jargon ("Achievement Unlocked", "codebase", "endgame",
+    // "NPC") totally off this project's voice, and had an internal date error
+    // (EN said the cathedral was begun in 1444, CZ correctly said 1344 —
+    // fixed to 1344 throughout, verified against Wikipedia/hrad.cz).
     name: 'St. Vitus Cathedral',
-    slug: 'prague-castle',
+    slug: 'st-vitus-cathedral',
     localizedNames: { cz: 'Katedrála sv. Víta', zh: '圣维特大教堂(布拉格城堡主建筑）' },
     labels: ['landmark', 'castle and fortress', 'church', 'architecture', 'historical'],
     coordinates: { lat: 50.090878328181184, lng: 14.400520688668285 },
@@ -24217,6 +24219,68 @@ Podloubím lemované náměstí města — jedno z největších a nejlépe doch
 小镇那座带拱廊的主广场——波希米亚现存规模最大、保存最完好的历史广场之一——见证的历史，比它应得的份额还要多。1318年4月，正是在这里，国王卢森堡的约翰最终被迫接受了《多马日利采条约》——这份协议，用比以往更强硬的措辞，重申了波希米亚贵族的各项特权，也让三年前还一度身陷囹圄的利佩的亨利，实际掌握了这个王国的治理大权。一个多世纪后，1431年8月14日，这座小镇又把自己的名字，留在了整场胡斯战争里最一边倒的一场战役上：由红衣主教尤利安·切萨里尼率领的十字军，几乎是在听到"谁是上帝的战士"（Ktož jsú boží bojovníci）这首胡斯圣歌响彻战场、伴随着胡斯战车隆隆作响的那一刻，就溃散逃跑了——这是一场几乎不用打就赢下来的胜利。
 
 🎁 彩蛋：广场上那座白色圆塔，共十二层，通往塔顶要爬194级台阶，可它自打建成那天起，就一直在悄悄地"站不直"——地基下方松软的土层，让整座塔身偏离垂直线整整59厘米，游客爬上观景台时，不用铅垂线也能亲身感受到这份倾斜。至于红衣主教切萨里尼，当时的记载都说，他在1431年那场溃败中逃得太急，连自己的红衣主教帽都落在了战场上——对他职业生涯里最没面子的一场败仗来说，倒是留下了一件恰如其分的、毫无体面可言的"纪念品"。`,
+    },
+  },
+  {
+    // Added 2026-08-26, fulfilling the "Brno reserved for later" placeholder
+    // left in olomouc's own comment above (2026-08-24) — same third
+    // exception (just-barely-a-Prague-day-trip + outsized standalone
+    // historical weight), same long-form "intro — history — landmarks —
+    // bonus" template as jihlava/plzen/olomouc. Direct tie-in to the History
+    // Timeline: Charles's 1334 Margrave-of-Moravia title (the-prince-who-
+    // came-to-put-out-the-fire-1341) is the seat this city actually held.
+    // Slavkov u Brna/Austerlitz (~200km from Prague) is still deliberately
+    // NOT built yet — revisit only once the Napoleonic era is reached.
+    name: 'Brno',
+    slug: 'brno',
+    localizedNames: { cz: 'Brno', zh: '布尔诺' },
+    labels: ['city'],
+    coordinates: { lat: 49.19505327466614, lng: 16.608310814204973 },
+    rarity: 'legend',
+    xpReward: 100,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Brno',
+    description: {
+      en: `Brno has spent most of its history as the practical, unglamorous answer to a question nobody in Prague was asking: who actually runs Moravia. Twice, disaster handed it the job by default, and twice, it held on to it.
+
+The city's medieval rise started at the top of a hill. Around 1270, King Otakar II built Špilberk Castle above the young town as a royal stronghold, and within a few decades it had become the working seat of the Margraviate of Moravia — the title Moravia's rulers actually held, distinct from and subordinate to the Bohemian crown itself. Brno spent the following century locked in a quiet rivalry with Olomouc over which city really spoke for Moravia, a contest this timeline has already touched on. One especially famous margrave held the title only on paper for most of his tenure: in 1334, a nineteen-year-old future emperor named Charles inherited it from his father John, more as a foothold on the ladder to the Bohemian throne than as a job he stuck around to do in person.
+
+Brno's next test came from the opposite direction: religious war, not dynastic politics. Hussite armies laid siege to the city twice, in 1428 and 1430, and both times failed to take it — Brno stayed loyal to Emperor Sigismund throughout the wars that tore much of the rest of Bohemia apart, a choice that shaped its identity as Moravia's staunchly Catholic, imperial-leaning counterweight for centuries afterward.
+
+The real turning point came during the Thirty Years' War. Emperor Ferdinand II had already designated Brno the new administrative seat of Moravia a few years earlier, and when Swedish forces occupied Olomouc in 1642 and held it for eight straight years, the transfer became permanent — Brno now had to prove it could actually hold the job. Its chance came in 1645, when a Swedish army under Lennart Torstenson besieged Brno itself for nearly four months. The imperial commander defending it, a French Huguenot named Jean-Louis Raduit de Souches, held the walls until, according to local legend, Torstenson finally declared he'd withdraw if the city hadn't fallen by the time its cathedral bells rang noon. Brno's defenders rang them an hour early. The Swedes left. The Cathedral of St. Peter and Paul, high on its own hill overlooking the city, still rings its bells at eleven o'clock every day rather than twelve, purely in memory of the trick.
+
+Brno's Old Town Hall carries three centuries of local legend at once. A stuffed Nile crocodile, presented to the city as a 16th-century diplomatic gift and promptly mistaken for a slain dragon, still hangs in its entrance passage. Beside it hangs a wagon wheel, supposedly felled, built, and rolled to the city gates in a single day by a wheelwright settling a drunken bet. And above both, one pinnacle on the Gothic gateway leans visibly crooked — legend blames a stonemason who, shortchanged by the town council, carved it that way on purpose and vowed it would only straighten once the city's leaders finally kept their word. Up on its hill, meanwhile, Špilberk Castle took a darker turn: by the 18th and 19th centuries, the same fortress that had once housed Moravia's margraves had become one of the Habsburg Empire's most feared political prisons, notorious enough across the continent to earn the nickname "the prison of nations."
+
+Brno's most unexpected landmark belongs to the 20th century, not the medieval one. Villa Tugendhat, completed in 1930 for a wealthy Jewish industrialist family, is one of modern architecture's genuine milestones — a glass-walled, steel-framed house by Ludwig Mies van der Rohe so ahead of its time that UNESCO listed it as a World Heritage Site in 2001. It earned a second claim to history in 1992, when Czech and Slovak leaders met in its garden and agreed there, calmly and without a single shot fired, to split Czechoslovakia into two separate countries.
+
+🎁 Bonus: beneath the vegetable stalls of Zelný náměstí, workers doing routine survey work in 2001 broke into a vast underground ossuary nobody had mapped in living memory. Its bones, an estimated 50,000 of them and counting, belong mostly to victims of plague, cholera, and the very siege of 1645 already covered above — making it, once fully surveyed, the second-largest ossuary in Europe after the Paris Catacombs. It didn't open to the public until 2012.`,
+
+      cz: `Brno strávilo většinu své historie jako praktická, nenápadná odpověď na otázku, kterou si v Praze nikdo ani nekladl: kdo vlastně řídí Moravu. Dvakrát mu tuhle roli přihrála katastrofa jinde, defaultem, a dvakrát si ji Brno udrželo.
+
+Středověký vzestup města začal na vrcholu kopce. Kolem roku 1270 nechal král Přemysl Otakar II. nad mladým městem postavit hrad Špilberk jako královskou pevnost, a během několika desetiletí se z něj stalo skutečné sídlo Moravského markrabství — titulu, který moravští vládci drželi odděleně od českého trůnu a jemu podřízeně. Následující století strávilo Brno v tiché rivalitě s Olomoucí o to, které město skutečně mluví za Moravu, spor, kterého se tahle časová osa už dotkla. Jeden obzvlášť slavný markrabě držel titul po většinu svého působení jen na papíře: v roce 1334 ho devatenáctiletý budoucí císař jménem Karel zdědil po svém otci Janovi, spíš jako odrazový můstek k českému trůnu než jako práci, kterou by osobně vykonával.
+
+Další zkouška přišla z opačné strany: náboženská válka, ne dynastická politika. Husitská vojska město dvakrát obléhala, v roce 1428 a znovu 1430, a oba pokusy ztroskotaly — Brno zůstalo po celou dobu válek, které roztrhaly velkou část zbytku Čech, věrné císaři Zikmundovi, volba, která na staletí dopředu formovala jeho identitu jako důsledně katolické, procísařské protiváhy Moravy.
+
+Skutečný obrat přišel za třicetileté války. Císař Ferdinand II. už o pár let dřív určil Brno novým správním sídlem Moravy, a když švédská vojska v roce 1642 obsadila Olomouc a držela ji osm let v kuse, ten přesun se stal trvalým — Brno teď muselo dokázat, že tu roli skutečně udrží. Příležitost přišla v roce 1645, kdy švédská armáda pod velením Lennarta Torstensona oblehla samotné Brno na téměř čtyři měsíce. Císařský velitel, který město bránil, francouzský hugenot jménem Jean-Louis Raduit de Souches, vydržel na hradbách, dokud prý Torstenson nakonec neprohlásil, že odtáhne, pokud město nepadne do doby, kdy katedrální zvony odbijí poledne. Brněnští obránci je nechali odbít o hodinu dřív. Švédové odtáhli. Katedrála svatého Petra a Pavla, vysoko na vlastním kopci nad městem, dodnes vyzvání poledne v jedenáct hodin místo ve dvanáct, čistě na památku toho triku.
+
+Brněnská stará radnice v sobě nese hned tři století místních legend. Vycpaný nilský krokodýl, věnovaný městu jako diplomatický dar v 16. století a rychle zaměněný za zabitého draka, dodnes visí v jejím vstupním průjezdu. Vedle něj visí i vozové kolo, které prý kolář porazil, zhotovil a dokutálel do brány města za jediný den, aby vyhrál opileckou sázku. A nad oběma se na gotické bráně jeden viditelně křivý cimbuří — legenda za to viní kameníka, kterého městská rada ošidila na mzdě a který ho prý schválně vytesal křivý, s prohlášením, že se narovná, až radní konečně dostojí svému slovu. Nahoře na kopci mezitím vzal hrad Špilberk temnější obrat: v 18. a 19. století se ze stejné pevnosti, kde kdysi sídlili moravští markrabata, stalo jedno z nejobávanějších politických vězení habsburské říše, natolik proslulé po celém kontinentu, že si vysloužilo přezdívku „vězení národů".
+
+Nejnečekanější brněnská památka patří 20., ne středověkému století. Vila Tugendhat, dokončená v roce 1930 pro bohatou židovskou průmyslnickou rodinu, patří ke skutečným milníkům moderní architektury — skleněný, ocelovou konstrukcí nesený dům od Ludwiga Miese van der Rohe, natolik napřed před svou dobou, že ji UNESCO v roce 2001 zapsalo na seznam světového dědictví. Druhý nárok na místo v dějinách si vysloužila v roce 1992, kdy se čeští a slovenští představitelé sešli v její zahradě a v klidu, bez jediného výstřelu, se tam dohodli na rozdělení Československa na dva samostatné státy.
+
+🎁 Bonus: pod zeleninovými stánky Zelného náměstí narazili dělníci při běžném geologickém průzkumu v roce 2001 na rozsáhlé podzemní kostnice, které nikdo v živé paměti nezmapoval. Její kosti, odhadem přes 50 000 a stále se počítá, patří převážně obětem moru, cholery a právě obležení z roku 1645, o kterém byla řeč výše — díky čemuž se z ní, po úplném zmapování, stala druhá největší kostnice v Evropě, hned po pařížských katakombách. Veřejnosti se otevřela až v roce 2012.`,
+
+      zh: `布尔诺这座城市，大半段历史都是在回答一个布拉格根本没人问过的问题：摩拉维亚到底是谁在管。两次，别处出的乱子把这份差事默认丢给了它，两次，它都接住了，没有撒手。
+
+这座城市的中世纪崛起，是从山顶上开始的。1270年前后，国王奥托卡二世在这座年轻的城市上方修建了什皮尔伯克城堡，作为一座王室要塞，几十年内，它就成了摩拉维亚藩侯领地实际意义上的驻地——这个头衔由摩拉维亚的统治者持有，跟波希米亚王位分开，又从属于它。接下来的一个世纪里，布尔诺一直跟奥洛穆茨暗自较劲，争的是究竟哪座城市才真正代表摩拉维亚，这场时间线里已经提到过的较量。有一位格外出名的藩侯，在任大部分时间里，这个头衔对他而言只是纸面文章：1334年，一位十九岁、日后会成为皇帝的年轻人查理，从父亲约翰手里继承了这个头衔——与其说是他真正要亲自打理的差事，不如说是他通往波希米亚王位的一块垫脚石。
+
+布尔诺接下来的考验，来自相反的方向：不是王朝政治，而是宗教战争。胡斯派军队两次围攻这座城市，1428年一次，1430年又一次，两次都没能拿下——在那场把波希米亚其余大部分地区撕得四分五裂的战争里，布尔诺始终效忠于皇帝西吉斯蒙德，这个选择此后几个世纪都塑造了它的身份：摩拉维亚境内坚定的天主教、亲帝国一方的那股反制力量。
+
+真正的转折点出现在三十年战争期间。皇帝斐迪南二世早在几年前就已经把布尔诺指定为摩拉维亚新的行政中心，而1642年瑞典军队占领奥洛穆茨、一占就是整整八年之后，这次迁移变成了永久性的——如今这座城市得证明，自己真能守住这份差事。机会在1645年到来：伦纳特·托尔斯滕森率领的瑞典大军，把布尔诺本身围困了将近四个月。守城的帝国指挥官，一位名叫让-路易·拉迪·德·苏什的法国胡格诺派教徒，据说一直死守到托尔斯滕森最终放话：要是到大教堂钟声敲响正午时城还没破，他就撤军。布尔诺的守军把钟提前敲响了一个小时。瑞典人撤了。俯瞰全城、坐落在自己那座山头上的圣彼得与圣保罗主教座堂，至今每天依旧在十一点敲响本该属于正午的钟声，纯粹为了纪念这场骗局。
+
+布尔诺老市政厅一身背着三个世纪的当地传说。一条填充的尼罗鳄，16世纪作为外交礼物送给这座城市，很快就被当成了一条被斩杀的恶龙，至今仍挂在市政厅的入口通道里。它旁边挂着一个大车轮，据说是一位制轮匠为了赢一场酒后打的赌，硬是在一天之内伐木、造轮、滚到城门下的。而在两者的头顶，哥特式城门上有一根尖顶明显是歪的——传说归咎于一位被市议会克扣工钱的石匠，他故意把它凿歪，并撂下话说，除非市议会真正兑现承诺，否则这根尖顶永远不会自己扶正。与此同时，山上的什皮尔伯克城堡则转向了更黑暗的方向：到了18、19世纪，这座曾经住过摩拉维亚藩侯的要塞，变成了哈布斯堡帝国最令人闻风丧胆的政治监狱之一，臭名远播整个欧陆，得了个"万国监狱"的外号。
+
+布尔诺最出人意料的一处地标，属于20世纪，而不是中世纪。图根哈特别墅，1930年为一个富裕的犹太实业家家庭建成，是现代建筑史上真正意义上的里程碑之一——一栋由密斯·凡德罗设计、玻璃幕墙加钢结构支撑的住宅，超前到2001年被联合国教科文组织列入世界遗产名录。1992年，它又一次留名史册：捷克和斯洛伐克的领导人在这栋别墅的花园里会面，平静地、没放一枪一弹，就在那里谈定了把捷克斯洛伐克拆分成两个独立国家。
+
+🎁 彩蛋：2001年，工人在采菜市场（Zelný náměstí）的蔬菜摊位下方进行常规勘测时，意外挖穿了一处活人记忆里从没被绘制过的巨大地下藏骨堂。里面的骸骨估计超过五万具，而且数字还在增加，大多属于鼠疫、霍乱以及前面刚提到的1645年那场围城的死难者——等到完全勘测清楚，它将成为仅次于巴黎地下墓穴的欧洲第二大藏骨堂。它直到2012年才对公众开放。`,
     },
   },
 ];

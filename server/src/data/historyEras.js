@@ -43,6 +43,13 @@
 // 'rise-of-a-kingdom', takes over 1199-1345 (all ~32 previously-seeded
 // events under the old single era got migrated to this new key, since none
 // of them post-date 1345 — verified via startYear before migrating).
+// yearRange corrected 2026-08-26 to 1199-1346 once the era's own content
+// actually grew to include John's death and Charles's King-of-the-Romans
+// election, both dated 1346 — the user's own explicit call to keep those as
+// this era's closing bookend rather than kingdom-golden-age's opening one
+// (see the History Timeline progress notes elsewhere in this file). The
+// eras now share 1346 as a boundary year by design, not by mistake:
+// kingdom-golden-age's own yearRange stays 1346-1378 unchanged.
 //
 // Era 5/6 split (2026-08-24, decided before any content existed for either —
 // no migration needed, unlike the Era 3/4 split above): 'religious-turmoil'
@@ -266,9 +273,9 @@ export const HISTORY_ERAS = [
       zh: '王国风云',
     },
     yearRange: {
-      en: '1199–1345',
-      cz: '1199–1345',
-      zh: '1199年－1345年',
+      en: '1199–1346',
+      cz: '1199–1346',
+      zh: '1199年－1346年',
     },
     tagline: {
       en: "Three dynasties, one battlefield death after another, and a blind king who spends his whole reign setting up his son's punchline.",

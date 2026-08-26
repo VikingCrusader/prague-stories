@@ -598,7 +598,7 @@ export const historyEvents = [
         },
       },
       {
-        slug: "prague-castle",
+        slug: "st-vitus-cathedral",
         relation: {
           en: "Today's Gothic cathedral is actually the third church on this spot — it started with the little rotunda Wenceslas built right here to house that shoulder-bone relic from Henry the Fowler, and all three have shared the same saint since.",
           cz: "Dnešní gotická katedrála je vlastně už třetím kostelem na tomto místě — začalo to malou rotundou, kterou tu Václav nechal postavit přímo kvůli lopatkové relikvii od Jindřicha Ptáčníka, a všechny tři stavby byly zasvěceny témuž světci.",
@@ -842,7 +842,7 @@ export const historyEvents = [
     },
     relatedLandmarks: [
       {
-        slug: "prague-castle",
+        slug: "st-vitus-cathedral",
         relation: {
           en: "The seat of this new bishopric — though what stood here in 973 was a modest stone rotunda, not the soaring Gothic cathedral you're looking at now, which wouldn't even begin for another three and a half centuries.",
           cz: "Sídlo tohoto nového biskupství — i když v roce 973 tu stála skromná kamenná rotunda, ne ta vzdušná gotická katedrála, na kterou se díváš teď a jejíž stavba začala až o tři a půl století později.",
@@ -1323,7 +1323,7 @@ export const historyEvents = [
         },
       },
       {
-        slug: "prague-castle",
+        slug: "st-vitus-cathedral",
         relation: {
           en: "Where Břetislav I and his wife Judith of Schweinfurt were ultimately laid to rest together, and where the relics of St. Adalbert he had recovered at Gniezno had already been resting for sixteen years by the time he joined them.",
           cz: "Kde byli Břetislav I. a jeho žena Jitka ze Svinibrodu nakonec společně pohřbeni, a kam už šestnáct let před jeho vlastním pohřbem doputovaly ostatky svatého Vojtěcha, které sám dobyl zpět v Hnězdně.",
@@ -1452,7 +1452,7 @@ export const historyEvents = [
     },
     relatedLandmarks: [
       {
-        slug: "prague-castle",
+        slug: "st-vitus-cathedral",
         relation: {
           en: "Where the actual ceremony happened — 15 June 1085, when the Archbishop of Trier crowned Vratislaus and his wife Svatava together, with the chronicler Cosmas watching from the crowd. The crown didn't last; the cathedral, and the record of the day it happened, did.",
           cz: "Kde se odehrál samotný obřad — 15. června 1085, kdy trevírský arcibiskup korunoval Vratislava i jeho ženu Svatavu společně, zatímco kronikář Kosmas přihlížel z davu. Koruna nevydržela; katedrála, a záznam o tom dni, ano.",
@@ -2299,6 +2299,14 @@ export const historyEvents = [
           en: "This is the palace Otakar drove his own father out of in 1248 — not the last time this hilltop institution changed hands within a single family, but the only time it happened between father and son.",
           cz: "Právě z tohoto paláce vyhnal Otakar v roce 1248 vlastního otce — nebylo to naposledy, co tahle instituce na kopci změnila majitele v rámci jedné rodiny, ale bylo to jedinkrát, kdy se to stalo mezi otcem a synem.",
           zh: "1248年，奥托卡正是把自己的父亲从这座宫殿里赶了出去——这座山丘上的机构在同一个家族内部易主，这不是第一次，但发生在父子之间，这却是唯一一次。",
+        },
+      },
+      {
+        slug: "brno",
+        relation: {
+          en: "This is where Otakar was actually posted as the newly minted Margrave of Moravia, well before the throne fight — a quieter, less glamorous first job overseeing post-Mongol reconstruction, and the same margravial seat a young Charles IV would inherit eighty-eight years later.",
+          cz: "Právě sem byl Otakar skutečně vyslán jako čerstvě jmenovaný moravský markrabě, ještě dávno před bojem o trůn — tišší, méně okázalá první práce, dohled nad poválečnou obnovou po Mongolech, a totéž markrabské sídlo, které o osmdesát osm let později zdědí mladý Karel IV.",
+          zh: "奥托卡刚被封为摩拉维亚藩侯时，实际驻扎的正是这里——远在王位之争爆发之前，一份低调得多的头等差事：监督蒙古入侵后的重建工作。八十八年后，年轻的查理四世也会继承同一个藩侯驻地。",
         },
       },
     ],
@@ -4884,6 +4892,501 @@ export const historyEvents = [
           en: "Giovanni Villani, Nuova Cronica",
           cz: "Giovanni Villani, Nuova Cronica",
           zh: "乔瓦尼·维拉尼，《新编年史》",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/John_of_Bohemia",
+  },
+  {
+    slug: "the-prince-who-came-to-put-out-the-fire-1333",
+    era: "rise-of-a-kingdom",
+    startYear: 1333,
+    images: ["/history/the-prince-who-came-to-put-out-the-fire-1333.webp"],
+    year: {
+      en: "1333",
+      cz: "1333",
+      zh: "1333年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Prince Who Came to Put Out the Fire",
+      cz: "Princ, který přijel hasit požár",
+      zh: "来救火的王子",
+    },
+    hookLine: {
+      en: "Bohemia's most powerful noble was dead, the king was never around, and everyone left was grabbing for the pieces. Into that mess arrived a seventeen-year-old who couldn't even speak the language.",
+      cz: "Nejmocnější šlechtic v Čechách byl mrtvý, král nikdy nebyl doma, a všichni, kdo zbyli, se rvali o kousky moci. Do toho zmatku dorazil sedmnáctiletý mladík, který neuměl ani pořádně mluvit česky.",
+      zh: "波希米亚最有权势的贵族死了，国王常年不在，剩下的人都在抢地盘。就在这团乱局里，来了个连捷克语都说不利索的十七岁少年。",
+    },
+    summary: {
+      en: "Jindřich of Lipá had spent nearly two decades making sure no one else in Bohemia got too comfortable, least of all the king. This timeline has already covered plenty of what that meant in practice: arrests, proxy wars fought through queens, a prison sentence he talked his way out of. Whatever else could be said about him, he was too powerful for any rival faction to challenge outright, and that alone had kept a rough kind of order. When he died in August 1329, the order went with him. What followed, through the early 1330s, wasn't a fight over who would take his place. It was several fights at once, waged by nobles who all liked the idea of being the next Jindřich of Lipá and none of them liked sharing it, while King John, already more interested in Avignon and Lombardy than in Prague, showed no particular urge to referee from that far away.\n\nFaced with Bohemia's chaos, the person everyone's mind kept turning to was John's own eldest son, sent away years before, who had, in fact, already made one quiet appearance earlier in this timeline, back at Loket in 1319, though not under this name. He was born in Prague in 1316, and for his first six years his own father kept him separated from both parents, shuffled between guarded castles (Křivoklát among them), out of fear that his mother Elizabeth might use the boy against him. At seven, John sent him away for good, to be raised at the French royal court in Paris. Wenceslas, the name he'd been born with, was swapped there for Charles at his confirmation, after his royal godfather. It was eleven years before he came home.\n\nBy the time anyone in Bohemia actually thought to send for him, Charles had already stopped being just a French-educated boy. In 1331 he joined his father in Italy and got his first real taste of soldiering firsthand; by October 1332 he was commanding an army of his own, at least five thousand strong, and won an actual battle against a coalition of three of northern Italy's ruling families, the Este, the della Scala, and the Gonzaga. Early the following year he was sent to consolidate John's new lordship over Lucca in Tuscany, governing the city in his father's name and founding a fortress town nearby that he named, with a straight face, Montecarlo, Charles's Mountain. None of it lasted: John pawned Lucca away to the Rossi of Parma before the year was out, the way he pawned most things eventually. But Charles arrived in Bohemia that October having already led troops, won a battle, and run a city. Whatever else he'd forgotten, soldiering and governing weren't among it.\n\nIt was a faction of Bohemia's own nobility, the ones who'd staked everything on the Luxembourg dynasty actually working out, who finally arranged for him to come home. By some accounts, John only learned of the arrangement once it was already moving. When Charles finally arrived, in October 1333, seventeen years old, there was nobody left to come home to. His mother had died three years earlier, back in Bohemia, without ever seeing him again.\n\n[[quote:0]]\n\nEven the language had slipped away from him. Eleven years of French tutors had pushed Czech out of daily use so completely that the future King of Bohemia had to relearn his own mother tongue like any foreigner arriving in the country for the first time. The castle waiting for him wasn't in much better shape: Prague Castle had burned down in 1303, and thirty years of civil war and empty treasuries meant nobody had ever gotten around to rebuilding it.\n\nNone of that stopped him from making himself useful almost immediately. His father was chronically restless, increasingly busy with the diplomacy and Italian adventures already covered in this timeline's last entry, and going blind besides. Somebody needed to actually run the kingdom's day-to-day business, and Charles started doing exactly that within weeks of arriving. In 1334 the arrangement got a formal title, Margrave of Moravia, and Bohemia's nobles didn't need much convincing to back him. Historians would later give the whole arrangement a name: the Luxembourg dvojvládí, or dual rule, two kings technically sharing one kingdom, one of whom was almost never actually in it.\n\n[[quote:1]]\n\nOver the following decade Charles quietly clawed back the castles and crown estates that decades of dynastic chaos and his father's chronic need for cash had scattered into pledge and pawn.",
+      cz: "Jindřich z Lipé strávil skoro dvě desetiletí tím, že hlídal, aby si v Čechách nikdo jiný moc nezvykal na pohodlí, krále nevyjímaje. Tahle časová osa už popsala pěkný kus toho, co to v praxi znamenalo: zatčení, zástupné války vedené přes královny, vězení, ze kterého se sám vymluvil. Ať už se o něm dalo říct cokoli jiného, byl příliš mocný na to, aby ho jakákoli soupeřící frakce mohla otevřeně vyzvat, a už jen to udržovalo jakýsi hrubý pořádek. Když v srpnu 1329 zemřel, ten pořádek zemřel s ním. Co následovalo, v prvních letech 30. let 14. století, nebyl boj o to, kdo zaujme jeho místo. Bylo to rovnou několik bojů najednou, které vedli šlechtici, jimž se všem líbila představa, že budou tím dalším Jindřichem z Lipé, a žádný z nich se o ni nechtěl dělit s ostatními, zatímco král Jan, který se v tu dobu už mnohem víc zajímal o Avignon a Lombardii než o Prahu, neprojevoval žádnou zvláštní chuť rozhodovat tak vzdálené spory.\n\nTváří v tvář českému chaosu se myšlenky čím dál víc stáčely k Janovu vlastnímu nejstaršímu synovi, poslanému před lety pryč, který se v této časové ose ve skutečnosti už jednou tiše mihl, zpátky u Loketu v roce 1319, i když ne pod tímto jménem. Narodil se v Praze roku 1316 a prvních šest let ho vlastní otec držel odděleně od obou rodičů, přesouvaného mezi hlídanými hrady (mimo jiné na Křivoklátě), ze strachu, že by ho matka Eliška mohla použít proti němu. V sedmi letech ho Jan poslal pryč nadobro, na výchovu k francouzskému královskému dvoru do Paříže. Jméno Václav, se kterým se narodil, tam při biřmování vyměnil za Karla, po svém královském kmotrovi. Domů se vrátil až po jedenácti letech.\n\nNež si na něj v Čechách vůbec někdo vzpomněl, přestal už Karel být jen chlapcem vychovaným ve Francii. V roce 1331 se připojil k otci v Itálii a poprvé na vlastní kůži okusil, jaké je to vést válku; do října 1332 už velel vlastnímu vojsku, silnému nejméně pět tisíc mužů, a vyhrál skutečnou bitvu proti koalici tří vládnoucích rodů severní Itálie, Estenských, della Scala a Gonzagů. Začátkem následujícího roku ho poslali upevnit otcovu novou vládu nad Luccou v Toskánsku, kde spravoval město jménem svého otce a nedaleko založil pevnostní městečko, které bez uzardění pojmenoval Montecarlo, Karlova hora. Nic z toho nevydrželo: Jan Luccu do konce roku zastavil rodu Rossi z Parmy, stejně jako nakonec zastavoval skoro všechno. Ale Karel dorazil toho října do Čech už jako někdo, kdo velel vojsku, vyhrál bitvu a spravoval město. Ať už zapomněl cokoli jiného, vedení vojska a vládnutí mezi to nepatřilo.\n\nByla to skupina vlastní české šlechty, ta, která vsadila všechno na to, že lucemburská dynastie skutečně vyjde, kdo mu nakonec zařídil návrat domů. Podle některých svědectví se o tom Jan dozvěděl, až když už bylo všechno v pohybu. Když Karel konečně dorazil, v říjnu 1333, sedmnáctiletý, nezbylo mu doma nikoho, ke komu by se vracel. Matka zemřela o tři roky dřív, zpátky v Čechách, aniž by ho ještě někdy uviděla.\n\n[[quote:0]]\n\nI jazyk mu mezitím unikl. Jedenáct let francouzských vychovatelů vytlačilo češtinu z každodenního života tak důkladně, že se budoucí český král musel svou mateřštinu znovu učit jako kterýkoli cizinec přijíždějící do země poprvé. Hrad, který na něj čekal, na tom nebyl o moc lépe: Pražský hrad vyhořel roku 1303 a třicet let občanských válek a prázdné pokladny znamenaly, že se ho nikdo nikdy nepustil znovu postavit.\n\nNic z toho mu nezabránilo, aby se skoro okamžitě začal hodit. Jeho otec byl chronicky neklidný, čím dál zaneprázdněnější diplomacií a italskými dobrodružstvími, o kterých už tahle časová osa psala v minulém záznamu, a k tomu ještě slepnul. Někdo musel skutečně řídit každodenní chod království, a Karel s tím začal během pár týdnů po příjezdu. V roce 1334 dostalo tohle uspořádání i formální titul, markrabě moravský, a čeští šlechtici ho nepotřebovali dlouho přemlouvat. Historikové tomu celému uspořádání později dali jméno: lucemburské dvojvládí, dva králové technicky sdílející jedno království, z nichž jeden v něm skoro nikdy skutečně nebyl.\n\n[[quote:1]]\n\nBěhem následujícího desetiletí Karel potichu vydoloval zpátky hrady a korunní majetky, které desetiletí dynastického chaosu a otcova chronická potřeba hotovosti rozptýlily do zástav a zápůjček.",
+      zh: "利佩的亨利花了差不多二十年，就为了确保波希米亚没有别人能过得太舒坦，国王自己也不例外。这条时间线已经讲过不少他具体是怎么做到的：抓人下狱、借王后之手打代理人战争、还有一次差点坐牢，最后靠自己一张嘴说服对方把自己放了。不管别的怎么评价他，他确实强大到没有哪个对头派系敢正面挑战他，光凭这一点，就维持住了一种粗糙的秩序。1329年8月他一死，这套秩序也跟着他一起没了。接下来30年代初，波希米亚上演的不是“谁来接他的班”这一场仗，而是同时打了好几场：一堆贵族都惦记着自己来当下一个利佩的亨利，谁也不肯让谁，与此同时，国王约翰这时候的心思早就更多放在阿维尼翁和伦巴第，而不是布拉格，压根没什么兴致隔着老远给这些人当裁判。\n\n面对波希米亚的乱局，人们心里最先想到的，就是约翰那位早年被送走的长子——他前面其实已经悄悄出场过一次了，1319年在洛克特，只是当时不叫这个名字。他1316年生于布拉格，头六年一直被自己的父亲刻意隔离在父母双方之外，被辗转送到一座座有人看守的城堡（也就克日沃克拉特城堡），因为父亲担心母亲伊丽莎白会利用这个孩子对付自己。七岁那年，约翰干脆把他彻底送走，送去法国王室宫廷接受教育。他出生时叫瓦茨拉夫，到了巴黎，他在受洗时改名查理，取自他的王室教父。这一去，就是十一年才回家。\n\n在波希米亚终于有人想起要接他回来之前，查理早就已经不只是个在法国受教育长大的男孩了。1331年，他随父亲前往意大利，第一次亲身体会了打仗是怎么一回事；到1332年10月，他已经能亲自统领一支至少五千人的军队，并打赢了一场真正的会战，对手是意大利北部埃斯特、德拉斯卡拉、贡扎加三大统治家族组成的联军。第二年年初，他被派去巩固父亲在托斯卡纳卢卡的新统治，以父亲的名义治理这座城市，还在附近建了一座要塞小镇，面不改色地把它命名为蒙特卡洛，“查理的山”。这一切都没能维持多久：当年年底之前，约翰就把卢卡典当给了帕尔马的罗西家族，跟他最终典当掉的大多数东西一样。但那年10月查理抵达波希米亚时，已经是一个带过兵、打赢过仗、治理过一座城市的人了。不管他还忘了别的什么，带兵和理政都不在忘掉的那一部分里。\n\n最终安排他回国的，是波希米亚贵族里的一派，那些把全部身家都押在“卢森堡王朝真能成事”这件事上的人。据一些说法，约翰是等这件事已经安排妥当之后，才知道有这么回事。1333年10月，十七岁的查理终于抵达，却发现家里已经没有什么可回的了。母亲三年前已经在波希米亚去世，至死都没能再见他一面。\n\n[[quote:0]]\n\n连语言都在这段时间里悄悄溜走了。十一年的法国家庭教师，把捷克语彻底挤出了他的日常生活，这位未来的波希米亚国王，不得不像第一次踏上这片土地的外国人一样，重新学习自己的母语。等着他的城堡境况也好不到哪去：布拉格城堡1303年一场大火烧毁后，三十年内战加上国库空虚，一直没人腾出手来重建它。\n\n这一切都没能耽误他几乎立刻就派上用场。他的父亲一贯闲不住，忙着这条时间线上一篇讲过的外交事务和意大利冒险，眼睛也越来越看不清了。总得有人真正打理王国的日常事务，查理抵达后没几个星期，就开始干起了这份工作。1334年，这个安排有了正式头衔：摩拉维亚藩侯。波希米亚的贵族们没花多少工夫就被说服支持他。后来的历史学家给这整套安排起了个名字：卢森堡“双重统治”，两位国王名义上共治一个王国，其中一位几乎从不真正待在这个王国里。\n\n[[quote:1]]\n\n接下来的十年里，查理不动声色地把那些被数十年王朝动荡和父亲长期缺钱花光散出去的城堡与王室领地，一点点收了回来。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "And so, when we arrived in Bohemia, there was no father, no mother, no brothers or sisters to meet with, nor anyone known to us.",
+          cz: "A tak, když jsme přijeli do Čech, nebyl tam žádný otec ani matka, žádní bratři nebo sestry, kteří by nás přivítali, ba ani nikdo, koho bychom znali.",
+          zh: "我们抵达波希米亚的时候，没有父亲，没有母亲，没有兄弟姐妹前来迎接，甚至连一个熟人都找不到。",
+        },
+        attribution: {
+          en: "Charles IV, Vita Caroli",
+          cz: "Karel IV., Vita Caroli",
+          zh: "查理四世，《我的一生》",
+        },
+      },
+      {
+        text: {
+          en: "The good men of Bohemia recognized that we were descendants of their own ancient royal dynasty. They loved us for it, and offered their help, so that we might regain the castles and estates of the crown.",
+          cz: "Dobří lidé v Čechách poznali, že jsme potomky jejich vlastní staré královské dynastie. Milovali nás za to a nabídli nám pomoc, abychom mohli znovu získat hrady a statky koruny.",
+          zh: "波希米亚的好人们认出，我们是他们古老王室血脉的后代。他们因此爱戴我们，并主动伸出援手，好让我们能重新夺回属于王室的城堡与领地。",
+        },
+        attribution: {
+          en: "Charles IV, Vita Caroli",
+          cz: "Karel IV., Vita Caroli",
+          zh: "查理四世，《我的一生》",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "krivoklat-castle",
+        relation: {
+          en: "The castle where young Wenceslas, not yet three, was kept apart from his mother after John seized the children in 1319 — the earlier appearance this very card just alluded to.",
+          cz: "Hrad, kam byl mladý Václav, ještě ne tříletý, odvezen odděleně od matky poté, co mu Jan v roce 1319 odebral děti — dřívější vystoupení, na které tahle karta právě narážela.",
+          zh: "年幼的瓦茨拉夫（还不满三岁）在1319年被约翰夺走后，就是被安置在这座城堡里，与母亲分开——正是这张卡片开头提到的那次早年出场。",
+        },
+      },
+      {
+        slug: "brno",
+        relation: {
+          en: "The seat that came with the Margrave of Moravia title John granted Charles in 1334 — Špilberk Castle above the city, the same posting Otakar II once held nearly a century earlier.",
+          cz: "Sídlo, které přišlo s titulem moravského markraběte, jenž Jan udělil Karlovi v roce 1334 — hrad Špilberk nad městem, totéž místo, které téměř o století dřív zastával Otakar II.",
+          zh: "1334年约翰授予查理摩拉维亚藩侯头衔时，随之而来的驻地——城市上方的什皮尔伯克城堡，几乎一个世纪前奥托卡二世也曾担任过同样的职位。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_IV,_Holy_Roman_Emperor",
+  },
+  {
+    slug: "the-border-that-stuck-1335",
+    era: "rise-of-a-kingdom",
+    startYear: 1335,
+    images: [
+      "/history/the-border-that-stuck-1335.webp",
+      "/history/the-border-that-stuck-1335-map.webp",
+    ],
+    year: {
+      en: "1335",
+      cz: "1335",
+      zh: "1335年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Border That Actually Stuck",
+      cz: "Hranice, která skutečně vydržela",
+      zh: "真正定下来的那条边界",
+    },
+    hookLine: {
+      en: "John finally sold something he'd never actually held: a fake claim to the Polish crown. In return he got a fortune in silver and a border that would outlive his entire dynasty.",
+      cz: "Jan konečně prodal něco, co nikdy doopravdy neměl: falešný nárok na polskou korunu. Výměnou dostal jmění ve stříbře a hranici, která přežila celou jeho dynastii.",
+      zh: "约翰终于卖掉了一样他从没真正拥有过的东西：对波兰王位那个空头的继承权。作为交换，他换来一大笔银子，还有一条比他整个家族都活得久的边界。",
+    },
+    summary: {
+      en: "John didn't make the trip alone. Charles came with him, by now a fixture at his side rather than a surprise: already Margrave of Moravia, already running Bohemia's day-to-day business while his father chased the next deal, the arrangement this timeline has already covered in full. Trenčín, in August 1335, was just the latest place that arrangement showed up.\n\nJohn had spent his entire reign carrying around a crown he'd never actually worn. His father-in-law, Wenceslas II, had briefly held the Polish throne back in 1300, one more prize in a run of good luck that didn't survive him by long. Wenceslas II's son Wenceslas III inherited the claim and was assassinated before he ever got to use it. When John married into the family, he inherited the leftover paperwork too: for three decades he kept styling himself King of Poland in every document that would let him, while Poland had a perfectly real king of its own who had never once recognized it.\n\nOn 24 August 1335, at Trenčín Castle in Hungary, that paperwork finally became worth something. Hungary's King Charles Robert, Casimir's brother-in-law, had brokered the meeting. The deal was simple enough: John gave up the Polish crown for good, and Casimir paid for the privilege, 20,000 kopy of Prague groschen, sixty groschen to a kopa, roughly 1.2 million individual coins for a title John had never managed to actually sit on. In return, Casimir renounced Silesia to Bohemia, permanently and in writing.\n\nRenouncing Silesia meant different things in different corners of it. Most of its scattered duchies became Bohemian fiefs, their own dukes kept in place but now bowing to Prague instead of Kraków. Wrocław and Głogów got no such courtesy: Duke Henry VI of Wrocław died that same November without an heir, and Bohemia simply absorbed both duchies outright, no local ruler left to answer to at all.\n\nThe whole arrangement got its formal seal a few months later at Visegrád, where Charles Robert threw the three kings and their retinues a party that lasted three or four weeks. A Hungarian chronicler kept count of the catering:\n\n[[quote:0]]\n\nBuried in the same negotiations was a quieter decision that mattered just as much to Bohemia's merchants: a new trade agreement rerouted commerce between Hungary and Bohemia through Brno, cutting Vienna's staple right out of the loop entirely.\n\nA border drawn over one very expensive lunch and a month of Hungarian hospitality isn't supposed to last. This one held, with only minor adjustments, until after the First World War.",
+      cz: "Jan tentokrát necestoval sám. Karel jel s ním, do té doby už spíš samozřejmostí po jeho boku než překvapením: už markrabě moravský, už ten, kdo skutečně řídil každodenní chod Čech, zatímco jeho otec honil další dohodu — uspořádání, které tahle časová osa už popsala celé. Trenčín, v srpnu 1335, bylo jen další místo, kde se tohle uspořádání ukázalo.\n\nJan nosil celou vládu korunu, kterou nikdy doopravdy neměl na hlavě. Jeho tchán, Václav II., krátce držel polský trůn už v roce 1300, další v řadě úspěchů, který ho dlouho nepřežil. Václavův syn Václav III. nárok zdědil a byl zavražděn dřív, než ho stihl vůbec využít. Když se Jan přiženil do rodiny, zdědil s ní i tenhle nedodělaný spis: tři desetiletí se v každé listině, která to dovolovala, tituloval jako polský král, zatímco Polsko mělo vlastního, skutečného krále, který ten nárok nikdy neuznal.\n\n24. srpna 1335, na hradě Trenčín v Uhrách, se z toho papíru konečně stalo něco cenného. Schůzku zprostředkoval uherský král Karel Robert, Kazimírův švagr. Dohoda byla jednoduchá: Jan se natrvalo vzdal polské koruny a Kazimír za tu výsadu zaplatil, 20 000 kop pražských grošů, šedesát grošů na kopu, zhruba 1,2 milionu mincí za titul, na kterém Jan nikdy doopravdy neseděl. Kazimír na oplátku natrvalo a písemně postoupil Slezsko Čechám.\n\nVzdát se Slezska znamenalo v různých jeho koutech různé věci. Většina roztroušených knížectví se stala českými lény, místní vévodové zůstali na svých místech, jen se teď klaněli Praze místo Krakova. Vratislav a Hlohov se podobné zdvořilosti nedočkaly: vratislavský vévoda Jindřich VI. téhož listopadu zemřel bez dědice a Čechy obě knížectví prostě celá pohltily, nezbyl tam žádný místní vládce, komu by se muselo skládat účty.\n\nCelé ujednání dostalo formální pečeť o pár měsíců později ve Visegrádu, kde Karel Robert uspořádal třem králům a jejich doprovodu hostinu, která trvala tři až čtyři týdny. Uherský kronikář si vedl přesný účet:\n\n[[quote:0]]\n\nV týchž jednáních se skrývalo i tišší rozhodnutí, které pro české kupce znamenalo stejně tolik: nová obchodní dohoda přesměrovala obchod mezi Uhrami a Čechami přes Brno a vídeňské skladní právo z něj úplně vyřadila.\n\nHranice vytyčená během jednoho velmi drahého oběda a měsíce uherské pohostinnosti by neměla vydržet. Tahle vydržela, jen s drobnými úpravami, až do konce první světové války.",
+      zh: "约翰这次没有一个人出门。查理跟他一起来了，到这时候，这已经是他身边一件寻常事，而不是什么意外——早已是摩拉维亚藩侯，早已在实际打理波希米亚的日常政务，趁着父亲还在到处张罗下一桩交易，这套安排这条时间线已经完整讲过。1335年8月的特伦钦，不过是这套安排又一次露面的地方。\n\n约翰这一辈子，一直背着一顶自己从没真正戴过的王冠。他的岳父瓦茨拉夫二世，1300年短暂当过一阵波兰国王，那是他晚年一连串好运里的最后一笔，没能撑太久。瓦茨拉夫二世的儿子瓦茨拉夫三世继承了这个头衔，还没来得及真正动用，就遇刺身亡。约翰娶了这家的女儿以后，连这份没了结的旧账也一并继承了下来：接下来三十年里，只要文书上允许，他都自称波兰国王，而波兰自己有一位实实在在的国王，从来没承认过这个头衔。\n\n1335年8月24日，在匈牙利的特伦钦城堡，这份纸面上的头衔终于换成了真金白银。撮合这场会面的是匈牙利国王查理·罗伯特，卡齐米日的姐夫。协议很简单：约翰永久放弃波兰王位，卡齐米日为此买单，20000戈比的捷克格罗申，一戈比六十个格罗申，算下来大约120万枚硬币，买下一个约翰从没真正坐上去过的头衔。作为交换，卡齐米日把西里西亚永久、白纸黑字地让给了波希米亚。\n\n放弃西里西亚，在不同的角落意味着不同的事。大多数分散的公国成了波希米亚的封地，本地公爵照样留任，只是效忠对象从克拉科夫换成了布拉格。弗罗茨瓦夫（布雷斯劳）和格沃古夫（赫洛霍韦）却没享受到这份体面：弗罗茨瓦夫公爵海因里希六世，就在同一年11月去世，没留下继承人，波希米亚干脆把这两个公国整个吞并，连一个要对谁负责的本地统治者都不剩。\n\n整桩交易几个月后又在维谢格拉德正式盖了章，查理·罗伯特在那儿给三位国王和随行人马办了一场持续三四个星期的宴席。一位匈牙利编年史家把账目记得清清楚楚：\n\n[[quote:0]]\n\n同一轮谈判里，还藏着一项不太起眼、却对波希米亚商人同样重要的决定：一份新的贸易协议，把匈牙利与波希米亚之间的商路改道经过布尔诺，彻底绕开了维也纳的强制卸货权。\n\n靠一顿非常昂贵的午餐外加一个月的匈牙利式盛情款待画出来的边界，本不该有多牢固。可这一条，除了几处小修小补，一直撑到了第一次世界大战之后。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "Out of the generosity of the Hungarian king, twenty-five hundred loaves of bread were provided for the Bohemian king's table, along with a full share of the royal meals; for the Polish king, fifteen hundred loaves, and a hundred and eighty barrels of wine besides.",
+          cz: "Z uherské štědrosti bylo pro stůl českého krále dodáno dva a půl tisíce chlebů, spolu s plným podílem na královských hostinách; pro polského krále patnáct set chlebů a k tomu ještě sto osmdesát sudů vína.",
+          zh: "匈牙利国王慷慨解囊，为波希米亚国王的餐桌备下两千五百个面包，外加一份完整的御膳；为波兰国王备下一千五百个面包，另外还有一百八十桶葡萄酒。",
+        },
+        attribution: {
+          en: "János Thuróczy, Chronica Hungarorum",
+          cz: "János Thuróczy, Chronica Hungarorum",
+          zh: "扬诺什·图罗齐，《匈牙利人编年史》",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "brno",
+        relation: {
+          en: "The city this same round of negotiations rerouted Hungarian-Bohemian trade through, cutting Vienna's staple right out of the loop entirely — a quieter side effect of the treaty, already mentioned above.",
+          cz: "Město, kterým tahle stejná vyjednávání přesměrovala uhersko-český obchod, čímž z něj úplně vyřadila vídeňské skladní právo — tišší vedlejší účinek smlouvy, o kterém už byla řeč výše.",
+          zh: "同一轮谈判把匈牙利与波希米亚之间的商路，正是改道经过了这座城市，彻底绕开了维也纳的强制卸货权——条约的一项不太起眼的附带效果，前面已经提到过。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Treaty_of_Trentschin",
+  },
+  {
+    slug: "crusader-king-loses-his-sight-1336",
+    era: "rise-of-a-kingdom",
+    startYear: 1336,
+    images: ["/history/crusader-king-loses-his-sight-1336.webp"],
+    year: {
+      en: "1336",
+      cz: "1336",
+      zh: "1336年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Crusader King Who Lost the Light",
+      cz: "Král křižák, který ztratil světlo",
+      zh: "失去光明的十字军之王",
+    },
+    hookLine: {
+      en: "John rode into Lithuania chasing glory, the way he always did. He rode out with something he could never trade away or outrun: the start of his own blindness.",
+      cz: "Jan vjel do Litvy za slávou, jako vždycky. Odjížděl odtud s něčím, co nikdy nedokázal vyměnit ani setřást: se začátkem vlastní slepoty.",
+      zh: "约翰这次骑马冲进立陶宛，还是老样子，为了荣耀而去。这一回，他带回来的东西，是他这辈子都甩不掉、也没法拿去交换的：自己失明的开端。",
+    },
+    summary: {
+      en: "Riding with the Teutonic Knights against pagan Lithuania had become one of John's regular habits. He'd made the trip once before, in 1329, one more stop on a résumé that already ran from Italian lordships to the French and papal courts. A Reise like this cost Bohemia almost nothing: cheap in blood, heavy on prestige, and a reliable way to let the rest of Christian Europe watch a genuinely famous king do genuinely knightly things in the snow. He rode out again in 1336 expecting more of the same, and this time brought Charles along too, the two of them riding north into the same cold campaign season together.\n\nWhat he came back with instead was the one thing his whole carefully built reputation had never accounted for. Somewhere in the campaign, or in the weeks right after it, his eyes started to fail him: the kind of trouble fourteenth-century medicine had no real name for beyond ophthalmia, an inflammation, and no real cure for either. The Zbraslav Chronicle records the moment without much ceremony:\n\n[[quote:0]]\n\nHe was forty years old, and the doctors he called in didn't fare much better than his eyesight did. The first, a Frenchman, failed to cure him and paid for the failure: sewn into a sack on John's own order and thrown into the Oder at Wrocław. The second, summoned all the way to Prague and described in the record only as a pagan out of Arabia, at least survived the job. He just finished what the ophthalmia had started:\n\n[[quote:1]]\n\nThe right eye was gone for good after that. He still had the left, for a few years yet.",
+      cz: "Jízdy s řádem německých rytířů proti pohanské Litvě se pro Jana staly jedním z pravidelných zvyků. Jednou tam už byl, v roce 1329, další zastávka na životopisu, který už sahal od italských lén až po francouzský a avignonský dvůr. Taková Reise stála Čechy skoro nic: levná na krev, bohatá na prestiž, a spolehlivý způsob, jak nechat zbytek křesťanské Evropy sledovat, jak skutečně slavný král dělá ve sněhu skutečně rytířské věci. V roce 1336 vyrazil znovu a čekal totéž co vždycky, tentokrát s sebou vzal i Karla, a oba dva jeli na sever do stejné studené válečné sezóny společně.\n\nMísto toho si přivezl domů to jediné, s čím jeho pečlivě budovaná pověst nikdy nepočítala. Někde během tažení, nebo v týdnech hned po něm, mu začaly selhávat oči: potíž, pro kterou čtrnácté století nemělo o moc přesnější jméno než oftalmie, zánět, a stejně tak žádný skutečný lék. Zbraslavská kronika zaznamenává tu chvíli bez velkých cavyků:\n\n[[quote:0]]\n\nBylo mu čtyřicet let, a lékaři, které si zavolal, na tom nebyli o moc lépe než jeho zrak. První, Francouz, ho nedokázal vyléčit a za to zaplatil: na Janův rozkaz ho zašili do pytle a hodili do Odry ve Vratislavi. Druhý, povolaný až do Prahy a v záznamu popsaný jen jako pohan z Arábie, přinejmenším tu práci přežil. Jen dokončil to, co začala oftalmie:\n\n[[quote:1]]\n\nPravé oko bylo tou dobou ztraceno navždy. Levé si podržel ještě pár let.",
+      zh: "跟随条顿骑士团出征异教徒立陶宛，到这时已经成了约翰的一项固定习惯。他此前已经去过一次，1329年那次，是他履历上又一站——这份履历已经从意大利的领地一路延伸到法国和阿维尼翁的宫廷。这样一趟远征几乎不花波希米亚什么代价：流血不多，声望不少，还能让整个基督教欧洲亲眼看着一位货真价实的名王，在雪地里做着货真价实的骑士该做的事。1336年，他又一次出发，以为这次也不例外，这一回还带上了查理，父子俩一同北上，踏进了同一个寒冷的战役季节。\n\n他这次带回来的，却是他那份精心经营的名声从没算计到的一样东西。就在这次战役期间，或是结束后不久，他的双眼开始出问题：十四世纪的医学对这种毛病，除了“眼炎”这个说法之外，说不出更精确的名字，也拿不出真正的治法。《兹布拉斯拉夫编年史》记下这一刻时，语气相当平淡：\n\n[[quote:0]]\n\n他那年四十岁，而他召来的那些医生，境况也没比他的视力好到哪去。第一个，一个法国人，没能治好他，还为此付出了代价：约翰下令把他装进麻袋，扔进了弗罗茨瓦夫城边的奥得河。第二个，一路被召到布拉格来，记载里只留下“一个来自阿拉伯的异教徒”这样的称呼，好歹活了下来。他不过是把眼炎已经开的头，接着做完了：\n\n[[quote:1]]\n\n右眼从此彻底没了。左眼他还多留了几年。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "In that time, King John of Bohemia felt that his eyes, which had never been especially sharp, were growing weak, and he began calling on physicians to sharpen his sight.",
+          cz: "V té době ucítil český král Jan, že jeho oči, které nikdy nebyly nijak zvlášť ostré, slábnou, a začal si zvát lékaře, aby mu zbystřili zrak.",
+          zh: "就在这段日子里，波希米亚国王约翰察觉到自己的眼睛本来就算不上锐利，如今更是日渐昏花，于是他开始召来医生，想办法让自己的视力恢复清明。",
+        },
+        attribution: {
+          en: "Zbraslav Chronicle",
+          cz: "Zbraslavská kronika",
+          zh: "兹布拉斯拉夫编年史",
+        },
+      },
+      {
+        text: {
+          en: "One of these physicians, a Frenchman, failing in his treatment, was by the king's order cast into the Oder at Wrocław, sewn in a sack. After his death there came another, a pagan out of Arabia, summoned to Prague by the king himself, who caused him much suffering, and who, for all his soothing words, left King John altogether blind in his right eye.",
+          cz: "Jeden z těchto lékařů, Francouz, jenž ve svém léčení neuspěl, byl na králův rozkaz zašit do pytle a vhozen do Odry ve Vratislavi. Po jeho smrti přišel další, pohan z Arábie, povolaný do Prahy samotným králem, který mu způsobil mnoho utrpení a který jej svými konejšivými slovy nakonec připravil o zrak na pravém oku úplně.",
+          zh: "这些医生里的一个，一个法国人，治疗失败后，被国王下令装进麻袋，扔进了弗罗茨瓦夫城边的奥得河。他死后，又来了一个，一个从阿拉伯来的异教徒，是国王亲自召到布拉格的，此人让国王吃尽了苦头，尽管嘴上说着宽慰的话，最终却让约翰国王的右眼彻底失明。",
+        },
+        attribution: {
+          en: "Zbraslav Chronicle",
+          cz: "Zbraslavská kronika",
+          zh: "兹布拉斯拉夫编年史",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/John_of_Bohemia",
+  },
+  {
+    slug: "an-alliance-with-france-1337",
+    era: "rise-of-a-kingdom",
+    startYear: 1337,
+    images: [
+      "/history/an-alliance-with-france-1337.webp",
+      "/history/an-alliance-with-france-1337-bordeaux.webp",
+    ],
+    year: {
+      en: "1337",
+      cz: "1337",
+      zh: "1337年",
+    },
+    tone: "humorous",
+    title: {
+      en: "An Alliance With France",
+      cz: "Spojenectví s Francií",
+      zh: "与法兰西缔盟",
+    },
+    hookLine: {
+      en: "Philip VI needed someone to hold Gascony against the English. He picked the boy he'd grown up with in Paris, now a king himself, and only half blind.",
+      cz: "Filip VI. potřeboval někoho, kdo by mu udržel Gaskoňsko proti Angličanům. Vybral si chlapce, se kterým kdysi vyrůstal v Paříži, teď už krále, a jen z poloviny slepého.",
+      zh: "腓力六世需要个人替他守住加斯科涅、挡住英格兰人。他挑中了当年一起在巴黎长大的那个男孩——如今已经是一位国王，也才刚瞎了一只眼。",
+    },
+    summary: {
+      en: "Philip VI and John had known each other since they were boys. John had been sent to the French court at eight or nine, one more foreign prince being raised among people who weren't his own family, and Philip, a cousin several times removed from the reigning king, grew up alongside him without either of them expecting to wear a crown someday. Neither path looked obvious at the time. Philip inherited the French throne in 1328 only because the direct Capetian line ran out of sons. John became King of Bohemia in 1310 by marrying into a throne, not being born to one. By 1337 they were both kings anyway, and still, by every account, close.\n\nThat closeness mattered the moment it became useful. In May 1337, Philip confiscated Gascony from England's Edward III, who held the duchy as his vassal and responded by claiming the French crown for himself. The Hundred Years' War had officially started, and Philip needed commanders he could actually trust with an army near the fighting. On 30 November 1338 he made John governor of Languedoc, barely two years after John had lost the sight in his right eye to a botched Baltic campaign and two worse doctors. Being half blind, it turned out, was not disqualifying.\n\nThe post came with real weight behind the title: roughly 12,000 troops and 45,000 livres a month to keep them fed and paid, aimed squarely at what England still held in Gascony. Charles rode along for this one too, one more campaign added to a growing list he'd already shared with his father. John pushed into it with the same appetite he'd brought to Italy a few years earlier, taking the fortress towns of Penne, Puyguilhem, Blaye, and Bourg one after another. Bordeaux itself, the real prize, held out against him in July 1339; his own supply lines gave out before the city's walls did, and he pulled back without it.\n\nBy the time Guillaume de Machaut, who'd go on to serve John for decades, sat down to write his praises, Gascony was just one more country to add to an already absurd list.\n\n[[quote:0]]\n\nTwo years earlier, going blind in one eye. Now: a French province to govern, and an English city he'd almost taken.",
+      cz: "Filip VI. a Jan se znali už od klukovských let. Jana poslali na francouzský dvůr v osmi nebo devíti letech, další cizí princ vychovávaný mezi lidmi, kteří nebyli jeho vlastní rodinou, a Filip, několikanásobný bratranec vládnoucího krále, vyrůstal po jeho boku, aniž by kdokoli z nich čekal, že jednou bude nosit korunu. Ani jedna z těch drah nevypadala v té době samozřejmě. Filip zdědil francouzský trůn v roce 1328 jen proto, že přímé kapetovské linii došli synové. Jan se stal českým králem v roce 1310 tím, že se přiženil na trůn, ne že se na něj narodil. Do roku 1337 byli oba stejně králi, a pořád, podle všech svědectví, blízcí přátelé.\n\nTa blízkost se zúročila ve chvíli, kdy se hodila. V květnu 1337 Filip zabavil Gaskoňsko anglickému Eduardovi III., který vévodství držel jako jeho vazal a odpověděl tím, že si nárokoval francouzskou korunu pro sebe. Stoletá válka oficiálně začala a Filip potřeboval velitele, kterým mohl skutečně svěřit vojsko poblíž bojiště. 30. listopadu 1338 udělal Jana správcem Languedoku, sotva dva roky poté, co Jan přišel o zrak na pravém oku kvůli nepovedenému tažení na Pobaltí a dvěma ještě nepovedenějším lékařům. Být z poloviny slepý, jak se ukázalo, nebylo na překážku.\n\nTen post nesl skutečnou váhu, nejen titul: zhruba 12 000 vojáků a 45 000 liber měsíčně na jejich výživu a žold, namířeno přímo proti tomu, co Anglii ještě zbývalo v Gaskoňsku. I tentokrát jel Karel s ním, další tažení na seznamu, který už s otcem sdílel. Jan se do toho pustil se stejnou chutí, jakou přinesl do Itálie o pár let dřív, a jednu po druhé dobyl pevnostní města Penne, Puyguilhem, Blaye a Bourg. Samotné Bordeaux, ta skutečná trofej, mu v červenci 1339 odolalo; jeho vlastní zásobovací linie selhaly dřív než hradby města, a on ustoupil bez něj.\n\nNež se Guillaume de Machaut, který měl Janovi ještě desítky let sloužit, posadil, aby napsal jeho chválu, bylo Gaskoňsko jen další zemí na už tak absurdním seznamu.\n\n[[quote:0]]\n\nO dva roky dřív oslepnutí na jedno oko. Teď: francouzská provincie k správě a anglické město, které málem dobyl.",
+      zh: "腓力六世和约翰从小就认识。约翰八九岁时就被送去了法国宫廷，又一个被送到别人家族里养大的外国王子，而腓力，跟在位国王隔了好几层的堂兄弟，就在他身边一起长大，两人当时谁都没想过自己有朝一日会戴上王冠。这两条路，在当时看来都不算顺理成章。腓力1328年才继承法国王位，纯粹是因为卡佩王朝的直系男嗣断绝了。约翰1310年当上波希米亚国王，靠的是娶了个王位继承人，而不是生来就该坐上去。到1337年，两人都已经是国王了，而且据说，交情依旧不减当年。\n\n这份交情，到了派上用场的时候就显出了价值。1337年5月，腓力没收了英格兰爱德华三世名下的加斯科涅公国，爱德华本是以腓力封臣的身份领有这块地，他的反应，是自己也宣称拥有法国王位。百年战争正式打响，腓力需要能真正放心把军队交出去的将领。1338年11月30日，他任命约翰为朗格多克总督，那时距离约翰因一场失败的波罗的海远征、加上两个更失败的医生而失去右眼视力，才刚过去两年。结果证明，瞎了一只眼并不妨碍胜任这份差事。\n\n这个职位背后是实打实的分量，不只是个头衔：大约一万两千名士兵，每月四万五千里弗的军饷开支，目标直指英格兰在加斯科涅仅剩的据点。这一次，查理也一同随行，又一场加进他和父亲共同履历的战役。约翰扑上去的那股劲头，跟他几年前在意大利时一模一样，接连拿下了佩讷、皮吉耶姆、布莱伊和布尔格几座要塞城镇。真正的猎物波尔多本身，在1339年7月扛住了他的进攻：他自己的补给线，比城墙先撑不住了，只能撤军作罢。\n\n等到日后要为约翰效力几十年的纪尧姆·德·马绍坐下来提笔为他写颂词时，加斯科涅不过是那份早已长得离谱的名单上，又添了一笔。\n\n[[quote:0]]\n\n两年前，一只眼睛瞎了。如今：一个要他去治理的法国省份，还有一座他差点拿下的英格兰城市。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "Follow the example of the good king of Bohemia, who in France and Germany, in Savoy and in Lombardy, in Denmark and in Hungary, in Poland, Russia and Kraków, in Masovia, in Prussia and in Lithuania, did venture to win glory and honour.",
+          cz: "Vezměte si příklad z dobrého českého krále, který ve Francii i v Německu, v Savojsku i v Lombardii, v Dánsku i v Uhrách, v Polsku, Rusku i Krakově, na Mazovsku, v Prusku i v Litvě, se vydával hledat slávu a čest.",
+          zh: "以那位善良的波希米亚国王为榜样吧：他在法兰西和德意志，在萨伏依和伦巴第，在丹麦和匈牙利，在波兰、罗斯和克拉科夫，在马佐夫舍、普鲁士和立陶宛，都曾亲身涉险，只为赢得荣耀与美名。",
+        },
+        attribution: {
+          en: "Guillaume de Machaut, Le Confort d'Ami",
+          cz: "Guillaume de Machaut, Le Confort d'Ami",
+          zh: "纪尧姆·德·马绍，《友人的慰藉》",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/John_of_Bohemia",
+  },
+  {
+    slug: "what-was-the-hundred-years-war-1337",
+    era: "rise-of-a-kingdom",
+    startYear: 1337.2,
+    cardType: "background",
+    year: {
+      en: "1337–1453",
+      cz: "1337–1453",
+      zh: "1337年－1453年",
+    },
+    tone: "serious",
+    title: {
+      en: "What Was the Hundred Years' War?",
+      cz: "Co vlastně byla stoletá válka?",
+      zh: "英法百年战争，到底是怎么回事？",
+    },
+    hookLine: {
+      en: "John just picked a side in a war that would outlast him, his son, and several generations after that — worth pausing to explain what the Hundred Years' War actually was before this timeline moves on.",
+      cz: "Jan si právě vybral stranu ve válce, která přežila jeho, jeho syna a ještě několik dalších generací po nich — než tahle časová osa půjde dál, stojí za to vysvětlit, co vlastně stoletá válka byla.",
+      zh: "约翰刚刚在一场战争里选了边站，而这场战争会活得比他、比他儿子、甚至比后面好几代人都久——在时间线继续往下走之前，值得先简单说说英法百年战争到底是怎么回事。",
+    },
+    summary: {
+      en: "The trigger was simple enough on paper. In May 1337, Philip VI confiscated the Duchy of Aquitaine, better known by then as Gascony, from England's Edward III, who held it as a French vassal. Edward's response wasn't to sue for its return; he claimed the entire French crown for himself instead. His claim wasn't crazy: his mother Isabella was the daughter of a French king, which made him a genuine grandson of the old Capetian line. French lawyers just didn't accept that a claim to the throne could pass through a woman at all, which is exactly why Philip VI, only a cousin through the male line, had gotten the crown himself back in 1328. Two competing claims to the same throne, backed by two of Europe's strongest kingdoms, was reason enough for a war.\n\nWhat followed lasted, on and off, for 116 years, not literally a hundred: a string of truces, plagues, and civil wars strung between spasms of actual fighting. England won the early rounds decisively, at Crécy in 1346 and Poitiers in 1356, then again at Agincourt in 1415. France's turnaround, when it finally came in the 1430s, is remembered today mostly through one name: Joan of Arc, a teenage peasant girl who convinced an uncrowned French king that God was on his side, broke the siege of Orléans, and got him to his coronation before her own capture and execution. The war ground to its end in 1453, France intact, England left holding only Calais of everything it had once claimed on the continent.",
+      cz: "Spouštěč byl na papíře jednoduchý. V květnu 1337 Filip VI. zabavil vévodství Akvitánie, tou dobou známé spíš jako Gaskoňsko, anglickému Eduardovi III., který ho držel jako francouzský vazal. Eduard nezareagoval tak, že by se o vévodství znovu ucházel — místo toho si nárokoval rovnou celou francouzskou korunu. Jeho nárok nebyl vůbec bláznivý: jeho matka Isabela byla dcerou francouzského krále, takže byl skutečným vnukem staré kapetovské linie. Francouzští právníci jen neuznávali, že by nárok na trůn mohl procházet přes ženu vůbec, a přesně proto se korunu už v roce 1328 dostal Filip VI., jen bratranec po mužské linii. Dva soupeřící nároky na stejný trůn, podepřené dvěma nejsilnějšími královstvími Evropy, byly důvod k válce dost dobrý.\n\nCo následovalo, trvalo s přestávkami 116 let, ne doslova sto: řada příměří, morů a občanských válek proložená záchvaty skutečných bojů. Anglie vyhrála první kola jednoznačně, u Kresčaku roku 1346 a u Poitiers roku 1356, a znovu u Azincourtu roku 1415. Francouzský obrat, když nakonec ve 30. letech 15. století přišel, se dnes vybaví hlavně jedním jménem: Jana z Arku, dospívající selská dívka, která přesvědčila nekorunovaného francouzského krále, že Bůh stojí na jeho straně, prolomila obležení Orléans a dostala ho ke korunovaci, než ji samotnou zajali a popravili. Válka se vlekla ke konci v roce 1453, Francie zůstala celistvá, Anglii z celého kontinentálního území, které si kdy nárokovala, zbyl jen Calais.",
+      zh: "导火索，纸面上看简单得很。1337年5月，腓力六世没收了阿基坦公国（此时更通行的叫法是加斯科涅），英格兰的爱德华三世本是以法国封臣的身份领有这块地。爱德华的反应不是去争回这块地，而是索性宣称整个法国王位都该归他。他这个说法也不是没道理：他母亲伊莎贝拉是法国国王的女儿，从血统上讲，他确实是老卡佩王朝正牌的外孙。只不过法国的律法专家压根不承认继承权能经女性传递，而这也正是腓力六世，一个只沾了男系亲缘的堂兄弟，能在1328年抢先当上国王的原因。同一个王位有两拨人争，背后又各自站着欧洲最强的两个王国，这已经足够打一仗了。\n\n接下来这场仗，断断续续打了116年，不是字面意义上的整整一百年，中间夹杂着一次次停战、瘟疫和内乱，隔一阵才真打一场。英格兰早期几乎稳赢：1346年的克雷西会战、1356年的普瓦捷会战，还有1415年的阿金库尔会战。法国的翻盘，等到15世纪30年代才来，如今提起大多靠一个名字：圣女贞德，一个十几岁的农家女孩，说服了一位还没加冕的法国国王，说上帝站在他这边，解了奥尔良之围，把他一路送上了加冕典礼，随后自己却被俘获、处死。这场仗终于在1453年拖到了尽头，法国保住了完整版图，英格兰在大陆上曾经主张过的一切领地，最后只剩下加莱一处。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Hundred_Years%27_War",
+  },
+  {
+    slug: "blindness-not-affection-1341",
+    era: "rise-of-a-kingdom",
+    startYear: 1341,
+    images: ["/history/blindness-not-affection-1341.webp"],
+    year: {
+      en: "1341",
+      cz: "1341",
+      zh: "1341年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Blindness, Not Affection",
+      cz: "Slepota, ne náklonnost",
+      zh: "不是父子情分，是失明",
+    },
+    hookLine: {
+      en: "Charles had spent a decade quietly proving himself capable. It took his father going blind, not any change of heart, to finally make that count for something official.",
+      cz: "Karel strávil deset let tichým dokazováním, že je schopný. Až otcova slepota, ne žádná změna srdce, z toho nakonec udělala něco oficiálního.",
+      zh: "查理花了十年时间，默默证明自己有能力。可最终让这份能力换来正式名分的，不是父亲哪天想通了，而是他彻底失明。",
+    },
+    summary: {
+      en: "Charles had been quietly running Bohemia's day-to-day business for the better part of a decade by 1341, clawing back castles and crown estates his father had scattered into pledge and pawn along the way. None of it made father and son any closer. If anything, Charles's competence sharpened John's suspicion of him: a son visibly better at the job than the man technically still holding it is not a comfortable son to have around, crown or no crown. The Margrave title gave Charles just enough legitimacy to keep governing, and just little enough that John never had to formally admit he'd handed over power he still considered his own.\n\nThe standoff finally broke in June 1341, and blindness, not affection, is what broke it. With John now unable to rule in person even on the rare occasions he was in the country, he summoned Bohemia's nobles, clergy, and town representatives to a formal session of the provincial diet and announced, in front of all of them, that Charles would inherit the Bohemian throne. It wasn't a coronation, only a promise. But the fight over who Bohemia actually belonged to, the one Jindřich of Lipá's death had left wide open eight years earlier, was finally, formally settled.\n\nJohn kept the reputation. Tournaments, foreign courts, a kingdom in Italy that lasted about as long as the ink took to dry: all of it built the legend of Bohemia's wandering knight-king that outlived him by centuries. Charles kept the actual job. He'd arrive at it, fittingly enough, still relearning the language of the country he was about to spend the rest of his life rebuilding.",
+      cz: "Karel do roku 1341 už skoro deset let potichu řídil každodenní chod Čech, přičemž cestou získával zpátky hrady a korunní majetky, které jeho otec rozptýlil do zástav a zápůjček. Nic z toho otce se synem nesblížilo. Spíš naopak: Karlova schopnost jen přiostřila Janovo podezření vůči němu. Syn viditelně lepší v té práci než muž, který ji formálně pořád zastával, není pohodlný syn mít nablízku, korunu nekorunu. Titul markraběte dával Karlovi právě tolik legitimity, aby mohl dál vládnout, a zároveň dost málo na to, aby Jan nikdy nemusel formálně přiznat, že předal moc, kterou pořád považoval za svou vlastní.\n\nPatová situace se konečně zlomila v červnu 1341, a nezlomila ji náklonnost, ale slepota. Jan už v tu dobu nedokázal vládnout osobně, ani když se v zemi náhodou vyskytl, a tak svolal českou šlechtu, duchovenstvo a zástupce měst na slavnostní zasedání zemského sněmu a přede všemi ohlásil, že český trůn zdědí Karel. Nešlo o korunovaci, jen o příslib. Ale spor o to, komu Čechy vlastně patří, ten, který smrt Jindřicha z Lipé nechala otevřený už osm let předtím, byl konečně a formálně vyřešen.\n\nJan si podržel pověst. Turnaje, cizí dvory, italské království, které vydrželo asi tak dlouho, co inkoust na schnutí: to všechno vybudovalo legendu o bloudícím rytířském králi Čech, která ho přežila o staletí. Karel si podržel skutečnou práci. Přišel k ní, celkem příhodně, ještě za chodu se znovu učil jazyk země, kterou se chystal zbytek života přestavět.",
+      zh: "到1341年，查理已经默默打理波希米亚的日常政务将近十年，一路上还陆续收回了不少被父亲典当散出去的城堡和王室领地。这一切都没能让父子俩更亲近。恰恰相反：查理越是能干，越是加深了约翰对他的猜忌。一个儿子明显比名义上还占着这个位子的父亲更胜任这份工作，无论有没有王冠，都不会是个让人安心的儿子。藩侯这个头衔，给了查理刚好够用来继续理政的合法性，却又刚好少到，约翰始终不用正式承认，自己已经把那份他心里仍然当成自己所有的权力，交了出去。\n\n这场僵局，直到1341年6月才真正打破，打破它的不是父子情分，而是失明。约翰这时已经没法亲自理政了，哪怕他碰巧人在国内也一样，于是他召集波希米亚的贵族、教士和各城镇代表，开了一场隆重的地方议会，当众宣布：查理将继承波希米亚王位。这还不是加冕，只是一句承诺。但这场“波希米亚到底该归谁”的争夺，那场利佩的亨利去世八年前就留下的悬案，总算是正式尘埃落定了。\n\n名声留给了约翰。比武大会、异国宫廷、那个存在时间大概只够墨迹晾干的意大利王国：这一切共同造就了波希米亚“游荡骑士王”的传奇，比他本人多活了好几个世纪。真正的活儿留给了查理。而他接手这份工作时，恰如其分地，还在一边重新学着这个国家的语言，一边准备用余生把它重建起来。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_IV,_Holy_Roman_Emperor",
+  },
+  {
+    slug: "father-and-son-at-odds-1342",
+    era: "rise-of-a-kingdom",
+    startYear: 1342,
+    images: ["/history/father-and-son-at-odds-1342.webp"],
+    year: {
+      en: "1342",
+      cz: "1342",
+      zh: "1342年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Father and Son at Odds",
+      cz: "Otec a syn v rozepři",
+      zh: "父子争执",
+    },
+    hookLine: {
+      en: "Losing Tyrol to the Emperor's own son didn't help. By 1342, John and Charles needed the Pope himself, Charles's own former tutor, to talk them back into the same room.",
+      cz: "Ztráta Tyrolska ve prospěch císařova vlastního syna nepomohla. Do roku 1342 potřebovali Jan a Karel samotného papeže, Karlova vlastního bývalého vychovatele, aby je přemluvil zpátky do jedné místnosti.",
+      zh: "蒂罗尔落到皇帝自己儿子手里，没能帮上什么忙。到1342年，约翰和查理需要教皇本人，恰好是查理当年的私人教师，出面，才能把父子俩劝回同一间屋子里。",
+    },
+    summary: {
+      en: "Charles's résumé kept growing even as he settled into ruling Bohemia. Since 1336 he'd also been governing Tyrol, holding the county for his younger brother John Henry and John Henry's wife, Margaret, Countess of Tyrol, defending it against a standing alliance of Wittelsbach and Habsburg interests who wanted it for themselves. It held, for a while. In November 1341, Margaret simply locked John Henry out of his own castle, declared the marriage never properly consummated, and a year later married Emperor Louis IV's own son instead. Tyrol was gone, handed straight to the family whose emperor already had every reason to distrust the Luxembourgs.\n\nThe loss didn't do father and son's relationship any favors, and Bohemia's own nobility, plenty of whom preferred a divided Luxembourg family to a united one, made sure the cracks didn't close on their own. By 1342 John and Charles were in open dispute again, serious enough that it took outside intervention to settle. The intervention, when it came, was oddly personal: the new pope, Clement VI, had literally been Charles's own tutor years earlier at the French court. He talked father and son back into something resembling agreement.\n\nThe reconciliation came with a price for Emperor Louis IV, whether he knew it yet or not. In June 1342, at the papal palace, John formally renounced his own oath of fealty to him. It was a quiet document at the time. It would matter enormously four years later.",
+      cz: "Karlovo curriculum vitae rostlo dál, i když se už usazoval ve vládě nad Čechami. Od roku 1336 zároveň spravoval Tyrolsko, držel hrabství pro svého mladšího bratra Jana Jindřicha a jeho manželku Markétu, tyrolskou hraběnku, a bránil ho proti stálému spojenectví wittelsbašských a habsburských zájmů, které si na něj dělaly zálusk. Nějakou dobu to drželo. V listopadu 1341 Markéta prostě nepustila Jana Jindřicha do jeho vlastního hradu, prohlásila manželství za nikdy řádně nenaplněné, a o rok později se provdala za vlastního syna císaře Ludvíka IV. Tyrolsko bylo pryč, předané rovnou rodině, jejíž císař už tak měl spoustu důvodů lucemburkům nevěřit.\n\nTa ztráta vztahu otce a syna nijak nepomohla, a česká šlechta, jejíž nemalá část dávala přednost rozdělené lucemburské rodině před sjednocenou, se postarala, aby se trhliny samy od sebe nezacelily. Do roku 1342 byli Jan s Karlem znovu v otevřeném sporu, natolik vážném, že ho musel urovnat někdo zvenčí. Ten zásah, když přišel, byl podivně osobní: nový papež, Kliment VI., byl kdysi doslova Karlovým vlastním vychovatelem na francouzském dvoře. Otce se synem přemluvil zpátky k něčemu, co se alespoň podobalo dohodě.\n\nUsmíření mělo cenu i pro císaře Ludvíka IV., ať už to tehdy tušil, nebo ne. V červnu 1342, v papežském paláci, se Jan formálně zřekl své přísahy věrnosti vůči němu. Tehdy to byl tichý dokument. O čtyři roky později bude mít nesmírnou váhu.",
+      zh: "查理的履历还在继续增长，哪怕他已经渐渐在波希米亚站稳了脚跟。自1336年起，他同时还替年幼的弟弟约翰·亨利及其妻子、蒂罗尔女伯爵玛格丽特，管理着蒂罗尔伯国，抵挡着维特尔斯巴赫家族和哈布斯堡家族一直觊觎这块地方、结成的常设同盟。这份局面维持了一阵子。1341年11月，玛格丽特干脆把约翰·亨利挡在了自己城堡的门外，宣称这段婚姻从未真正圆房，一年后转头就嫁给了皇帝路易四世自己的儿子。蒂罗尔就这么没了，直接落进了那个本来就有一大堆理由不信任卢森堡家族的皇帝手里。\n\n这次损失，一点也没帮上父子俩的关系，而波希米亚贵族里不少人，本来就更乐意看到卢森堡家族分裂而不是团结，也没让这道裂痕自己愈合。到1342年，约翰和查理再度公开争执，严重到需要外人出面调停。而这次出面调停的人，身份说来还挺私人：新任教皇克莱门特六世，多年前竟然真的当过查理在法国宫廷时的私人教师。他把父子俩劝回到了勉强算得上和解的状态。\n\n这场和解，也让皇帝路易四世付出了代价，尽管他当时未必意识到。1342年6月，就在教皇宫廷里，约翰正式放弃了对他的效忠誓言。在当时，这不过是一份不起眼的文件。可四年之后，它的分量会变得举足轻重。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_IV,_Holy_Roman_Emperor",
+  },
+  {
+    slug: "dawn-over-prague-1344",
+    era: "rise-of-a-kingdom",
+    startYear: 1344,
+    images: [
+      "/history/dawn-over-prague-1344.webp",
+      "/history/dawn-over-prague-1344-construction.webp",
+    ],
+    year: {
+      en: "1344",
+      cz: "1344",
+      zh: "1344年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Dawn Over Prague",
+      cz: "Svítání nad Prahou",
+      zh: "布拉格的曙光",
+    },
+    hookLine: {
+      en: "On the same November day Prague finally got its own archbishop, a blind king and his son laid the first stone of a cathedral meant to outlast every ruin this timeline has described so far.",
+      cz: "Ve stejný listopadový den, kdy Praha konečně dostala vlastního arcibiskupa, položili slepý král a jeho syn první kámen katedrály, která měla přečkat každou ruinu, jakou tahle časová osa dosud popsala.",
+      zh: "就在布拉格终于迎来自己的大主教的同一个十一月，一位失明的国王和他的儿子，为一座注定要比这条时间线迄今讲过的每一片废墟都活得更久的大教堂，奠下了第一块基石。",
+    },
+    summary: {
+      en: "Prague in the early 1340s was still very much a work in progress. The castle that greeted Charles's own 1333 return, burned out since 1303, hadn't gotten much further along, and a decade of margravial administration, split between Bohemia and whatever crisis was currently pulling him toward Tyrol or Avignon, had left him with more urgent priorities than architecture.\n\nSome rebuilding had already started anyway, from the ground up rather than the top down. In 1338, John himself had granted Prague's Old Town its own charter to build a proper town hall, funded by a tax on wine, the city's merchants and guildsmen finally getting a formal seat of their own rather than governing informally out of whoever's house happened to be convenient. By the early 1340s it was still very much under construction, one of the first real signs that Prague intended to look like a capital again.\n\nThe bigger gesture came on 21 November 1344. That same day, Prague's bishopric was elevated to an archbishopric, freed at last from centuries of subordination to Mainz, and John, blind but present, joined Charles and his other son John Henry, together with Prague's brand-new first archbishop, Arnošt of Pardubice, to lay the foundation stone of an entirely new cathedral: St. Vitus, rebuilt from scratch in the Gothic style, on the site of the old Romanesque church that could no longer match the city's ambitions.\n\nBetween them, the two projects marked out the shape Prague's own rebuilding would actually take: one paid for by wine money and built by the Old Town's own citizens for their own self-government, the other commissioned by a king and blessed by an archbishop, going up on the hill above. Neither would be finished for generations. Both were still standing when the century that started them was long over.",
+      cz: "Praha na počátku 40. let 14. století byla pořád ještě rozdělaná práce. Hrad, který Karla přivítal při jeho vlastním návratu v roce 1333, vyhořelý od roku 1303, se od té doby moc dál nedostal, a deset let markrabské správy, rozdělené mezi Čechy a to, ať zrovna byla jakákoli krize táhnoucí ho k Tyrolsku nebo do Avignonu, mu nechalo naléhavější starosti než architekturu.\n\nPřesto už se stavělo, jen zdola nahoru, ne shora dolů. V roce 1338 sám Jan udělil pražskému Starému Městu vlastní listinu na stavbu skutečné radnice, financovanou daní z vína — městští kupci a cechovní mistři konečně dostali formální sídlo, místo aby dál řídili věci neformálně z domu, který se zrovna hodil. Na počátku 40. let byla stále ve výstavbě, jedno z prvních skutečných znamení, že Praha zamýšlí zase vypadat jako hlavní město.\n\nVětší gesto přišlo 21. listopadu 1344. Téhož dne bylo pražské biskupství povýšeno na arcibiskupství, konečně zbavené staletí podřízenosti Mohuči, a Jan, slepý, ale přítomný, se přidal ke Karlovi a jeho druhému synovi Janu Jindřichovi a spolu se zbrusu novým prvním pražským arcibiskupem Arnoštem z Pardubic položili základní kámen zcela nové katedrály: svatého Víta, znovu postavené od základů v gotickém slohu, na místě staršího románského kostela, který už městským ambicím nestačil.\n\nDohromady oba projekty vytyčily podobu, jakou pražská přestavba skutečně nabrala: jeden zaplacený z peněz za víno a postavený samotnými měšťany Starého Města pro jejich vlastní samosprávu, druhý objednaný králem a požehnaný arcibiskupem, stoupající na kopci nad městem. Ani jeden nebyl dokončen ještě celé generace. Oba ale pořád stály, i když století, které je zplodilo, bylo dávno pryč.",
+      zh: "1340年代初的布拉格，仍然是一项远未完工的工程。1333年查理回国时迎接他的那座城堡，自1303年起就是一片焦土，此后也没怎么往前推进；十年藩侯生涯，精力被波希米亚本土和不管是蒂罗尔还是阿维尼翁哪一头拉着他跑的危机来回分割，留给他的，是比修建筑更紧迫的事情。\n\n但重建其实已经悄悄开始了，只不过是自下而上，而不是自上而下。1338年，约翰亲自授予布拉格旧城自己的特许状，允许修建一座正式的市政厅，经费来自葡萄酒税——旧城的商人和行会师傅们，终于有了一个正式的议事场所，不用再随便找谁家凑合着非正式地管理城市事务。到1340年代初，它还在施工当中，是布拉格打算重新看起来像座首都的最早迹象之一。\n\n更大的动作发生在1344年11月21日。就在同一天，布拉格的主教区升格为总主教区，终于摆脱了臣属美因茨长达数百年的地位；而约翰，虽然双目失明，却依然亲自到场，与查理、还有他的另一个儿子约翰·亨利，一同和布拉格崭新出炉的第一任总主教阿尔诺什特·冯·帕尔杜比采，为一座全新的大教堂奠下了基石：圣维特大教堂，在原来那座已经配不上这座城市野心的罗曼式教堂原址上，以哥特式风格从头重建。\n\n这两个工程放在一起，恰好勾勒出了布拉格重建真正会走的路子：一个靠葡萄酒税出钱、由旧城市民自己动手为自治而建，另一个由国王下令、经总主教祝圣，正在城市上方的山丘上拔地而起。两个工程都要再过好几代人才能完工。可当当初启动它们的那个世纪早已远去时，两座建筑都依然屹立着。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "The cathedral whose foundation stone this event describes being laid — still standing, six centuries and two more architects later, on the hill above the city.",
+          cz: "Katedrála, jejíž základní kámen tahle událost popisuje — dodnes stojící, o šest století a dva další architekty později, na kopci nad městem.",
+          zh: "这场事件里正在奠基的那座大教堂——六个世纪、又经过两位建筑师之后，至今依然矗立在城市上方的山丘上。",
+        },
+      },
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "The other project rising at the same time, a short walk down the hill: the Old Town's own town hall, chartered by John six years earlier and paid for by the citizens themselves rather than the crown.",
+          cz: "Druhý projekt, který v té stejné době vznikal, jen kousek pod kopcem: vlastní radnice Starého Města, kterou Jan povolil o šest let dřív a kterou zaplatili sami měšťané, ne koruna.",
+          zh: "同一时期正在山下不远处兴建的另一个工程：旧城自己的市政厅，六年前由约翰特许兴建，出资的是市民自己，而不是王室。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/St._Vitus_Cathedral",
+  },
+  {
+    slug: "bishopric-and-archbishopric-1344",
+    era: "rise-of-a-kingdom",
+    startYear: 1344.1,
+    cardType: "background",
+    year: {
+      en: "973–1344",
+      cz: "973–1344",
+      zh: "973年－1344年",
+    },
+    tone: "serious",
+    title: {
+      en: "Bishopric and Archbishopric",
+      cz: "Biskupství a arcibiskupství",
+      zh: "主教区和总主教区",
+    },
+    hookLine: {
+      en: "Prague just got its own archbishop for the first time. Before this timeline moves on, it's worth explaining what a bishopric and an archbishopric actually are, and why the difference was worth a Pope's own signature.",
+      cz: "Praha právě poprvé dostala vlastního arcibiskupa. Než tahle časová osa půjde dál, stojí za to vysvětlit, co vlastně biskupství a arcibiskupství jsou, a proč byl ten rozdíl hodný papežova vlastního podpisu.",
+      zh: "布拉格刚刚第一次有了自己的总主教。在时间线继续往下走之前，值得先说清楚：主教区和总主教区到底是什么，这个区别又为什么值得教皇亲自签署一道诏书。",
+    },
+    summary: {
+      en: "The Catholic Church organizes its own territory the way most kingdoms organize theirs: small local units nested inside larger ones. A parish is the smallest, run by an ordinary priest. A diocese, or bishopric, groups a cluster of parishes under a bishop, the basic unit of church government almost everywhere in medieval Europe. Several dioceses together make up an ecclesiastical province, headed by an archbishop who holds real authority over the other bishops within it, his 'suffragans': confirming their elections, calling provincial synods, hearing appeals against their rulings. An archbishopric isn't just a diocese with a fancier title. It's the difference between reporting to someone and being the one reported to.\n\nPrague had been a bishopric since 973, a milestone this timeline has already covered, but a bishopric answering to someone else the entire time: the Archbishop of Mainz, whose own province Bohemia had belonged to from the start. That subordination had real, visible consequences. When Vratislaus II was crowned Bohemia's first king in 1085, the man performing the ceremony wasn't anyone from Prague at all. It took the Archbishop of Trier, imported for the occasion, because Bohemia's own church simply didn't have anyone senior enough to do it properly.\n\nThat changed on 30 April 1344, when Pope Clement VI's own bull, Ex supernae providentia maiestatis, elevated Prague's bishopric to an archbishopric outright, freeing it from Mainz for good. Arnošt of Pardubice, Prague's last bishop, became its first archbishop in the same stroke, and the new province came with suffragans of its own: the existing bishopric of Olomouc, plus a brand-new one carved out at Litomyšl. Bohemia had gone, in one papal signature, from answering to someone else's province to running one of its own.\n\nThe first practical payoff came fast. Three years later, in September 1347, it would be Prague's own archbishop crowning Bohemia's next king, no import required.",
+      cz: "Katolická církev si organizuje své území podobně, jako si většina království organizuje to svoje: malé místní jednotky vnořené do větších. Farnost je nejmenší, vedená obyčejným knězem. Diecéze, neboli biskupství, sdružuje skupinu farností pod biskupem — základní jednotka církevní správy téměř všude ve středověké Evropě. Několik diecézí dohromady tvoří církevní provincii, v jejímž čele stojí arcibiskup, který má skutečnou pravomoc nad ostatními biskupy v ní, svými „sufragány“: potvrzuje jejich volby, svolává provinční synody, projednává odvolání proti jejich rozhodnutím. Arcibiskupství není jen diecéze s okázalejším titulem. Je to rozdíl mezi tím, komu se odpovídá, a tím, komu se odpovídá.\n\nPraha byla biskupstvím od roku 973, milníku, kterého se tahle časová osa už dotkla, ale po celou tu dobu biskupstvím odpovědným někomu jinému: mohučskému arcibiskupovi, do jehož vlastní provincie Čechy od začátku patřily. Ta podřízenost měla skutečné, viditelné důsledky. Když byl Vratislav II. v roce 1085 korunován prvním českým králem, obřad neprováděl vůbec nikdo z Prahy. Musel k tomu být přivezen trevírský arcibiskup, protože česká církev sama prostě neměla nikoho dost vysoko postaveného, kdo by to mohl provést řádně.\n\nTo se změnilo 30. dubna 1344, kdy bula papeže Klimenta VI., Ex supernae providentia maiestatis, povýšila pražské biskupství rovnou na arcibiskupství a nadobro je osvobodila od Mohuče. Arnošt z Pardubic, poslední pražský biskup, se stejným tahem stal jejím prvním arcibiskupem, a nová provincie dostala i vlastní sufragány: stávající biskupství olomoucké a zbrusu nové, vyčleněné v Litomyšli. Čechy se jedním papežským podpisem proměnily z podřízené provincie někoho jiného v provincii, která si vládla sama.\n\nPrvní praktický výsledek přišel rychle. O tři roky později, v září 1347, korunoval dalšího českého krále už vlastní pražský arcibiskup, bez nutnosti kohokoli dovážet.",
+      zh: "天主教会组织自己的辖区，方式跟大多数王国组织自己的国土差不多：小的地方单位，一层层嵌套进更大的单位里。堂区是最小的一级，由普通神父管理。教区，也就是主教区，把一批堂区聚合在一位主教之下，这是中世纪欧洲几乎所有地方教会治理的基本单位。若干个教区合在一起，组成一个教省，由一位总主教统领，他对辖区内其他主教，也就是他的“属下主教区”，拥有实际权力：确认他们的当选、召集教省宗教会议、受理针对他们裁决的申诉。总主教区不只是换了个更响亮头衔的教区。区别在于：一个是要向别人负责，一个是别人要向你负责。\n\n布拉格自973年起就是一个主教区，这条时间线之前已经讲过这个里程碑，可这么多年来，它一直是一个要向别人负责的主教区：美因茨总主教，波希米亚从一开始就隶属于他的教省。这种从属关系带来的，是实实在在、看得见的后果。1085年，弗拉季斯拉夫二世加冕为波希米亚第一位国王时，主持这场典礼的根本不是布拉格本地的任何人。得专程请来特里尔总主教，因为波希米亚教会自己压根没有地位够高、能够体面主持这场仪式的人。\n\n这一切在1344年4月30日发生了改变：教皇克莱门特六世亲自签发的诏书《至高天意》（Ex supernae providentia maiestatis），直接把布拉格主教区升格为总主教区，永久摆脱了美因茨的管辖。布拉格的末代主教阿尔诺什特·冯·帕尔杜比采，同一笔诏书里，就成了布拉格的第一任总主教，而这个新教省也有了自己的属下主教区：既有的奥洛穆茨主教区，外加在利托米什尔新设立的一个。波希米亚，就靠教皇的这一次签署，从隶属别人教省的一方，变成了自己统领一个教省的一方。\n\n第一份实实在在的回报来得很快。三年后，1347年9月，为下一任波希米亚国王加冕的，就是布拉格自己的总主教，不用再从别处进口一位。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Roman_Catholic_Archdiocese_of_Prague",
+  },
+  {
+    slug: "a-day-worth-remembering-1346",
+    era: "rise-of-a-kingdom",
+    startYear: 1345.9,
+    images: [
+      "/history/a-day-worth-remembering-1346.webp",
+      "/history/a-day-worth-remembering-1346-price.webp",
+    ],
+    year: {
+      en: "1346",
+      cz: "1346",
+      zh: "1346年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Day Worth Remembering",
+      cz: "Památný den",
+      zh: "值得纪念的日子",
+    },
+    hookLine: {
+      en: "Getting Charles elected King of the Romans took a pope's excommunication, a great-uncle's decades of leverage, and a promise worth 885 kilograms of gold. John, for the first time in years, got to watch his son actually win.",
+      cz: "Prosadit Karlovo zvolení římským králem si vyžádalo papežovu exkomunikaci, desítky let prastrýcova vlivu a slib v hodnotě 885 kilogramů zlata. Jan po letech konečně mohl přihlížet, jak jeho syn skutečně vyhrává.",
+      zh: "为了让查理当选罗马人的国王，动用了教皇的绝罚令、叔祖父几十年攒下的人脉，还有一份价值885公斤黄金的承诺。约翰，多年来头一次，能亲眼看着自己的儿子真正赢下点什么。",
+    },
+    summary: {
+      en: "Everything that had happened since Charles's own return to Bohemia, the margraviate, the reconciliation with his father, the cathedral going up at the Castle, had all been building toward something bigger than Bohemia itself. The Luxembourg family had been chasing the title of King of the Romans, the stepping stone to the imperial crown, since Charles's own grandfather Henry VII had actually held it decades earlier. In 1346 they got their chance to chase it again, and the man who made it happen wasn't John, and wasn't yet Charles. It was Charles's own great-uncle.\n\nIt looked, on paper, like an ungrateful thing for John to do. Louis IV had bailed him out at Mühldorf back in 1322 and handed him the Egerland for his trouble, the alliance this timeline has already called one of the steadier friendships either man managed. But that friendship had been quietly rotting from the Tyrol side for well over a decade. As early as 1330, the same year John Henry married into the Tyrolean succession, Louis had already struck a secret deal with the rival Habsburgs to carve the inheritance up behind his back. When Margaret's father died in 1335, that deal came due: Louis handed Carinthia and southern Tyrol straight to the Habsburgs, and John Henry and Margaret kept only what survived a failed war to undo it. Then, in 1341 and 1342, as this timeline just covered, Louis let his own son take even that remainder. An emperor who'd spent sixteen years quietly working against Luxembourg interests wasn't an ally worth waiting on any longer. He was a problem worth removing, now that the Pope was offering the chance.\n\nBaldwin of Luxembourg, Archbishop of Trier since 1307, had been the family's own power broker in imperial politics for nearly forty years by this point, an elector in his own right and one of the few Luxembourgs who'd never stopped being taken seriously in Germany. Getting his support wasn't free. Charles had to make Baldwin a set of promises, formal, expensive, and taken seriously by both sides: guarantees of Baldwin's own rights and privileges, and a commitment to cover his great-uncle's costs for securing the election and the coronation that would follow it, a bill that would eventually run past 250,000 florins, something like 885 kilograms of gold.\n\nOnce Charles had made his promises, the rest moved fast. Pope Clement VI, who by April 1346 had already excommunicated the reigning Emperor Louis IV and declared him deposed, turned immediately to the Empire's prince-electors and demanded a new election. It came on Tuesday, 11 July 1346, at Rhens on the left bank of the Rhine, a date this timeline is happy to call memorable. Five of the seven electors showed up to cast a vote: Baldwin himself for Trier, Gerlach for Mainz, Walram for Cologne, Rudolf for Saxony, and, casting a vote for his own son, John, King of Bohemia. Charles was elected King of the Romans.\n\nLouis IV hadn't gone anywhere, and plenty of the Empire's own princes still backed him over a Luxembourg candidate installed by papal pressure. For now, Charles held a title more contested than confirmed. But it was already more than his father had ever managed to hold onto for long, and John, for once, got to watch his son win something in person.",
+      cz: "Všechno, co se stalo od Karlova vlastního návratu do Čech, markrabství, usmíření s otcem, katedrála rostoucí na Hradě, směřovalo k něčemu většímu než k samotným Čechám. Lucemburská rodina se honila za titulem římského krále, odrazovým můstkem k císařské koruně, už od dob, kdy ho skutečně držel Karlův vlastní děd Jindřich VII., o desetiletí dřív. V roce 1346 dostali šanci honit se za ním znovu, a člověk, který to rozhýbal, nebyl Jan, a ještě nebyl ani Karel. Byl to Karlův vlastní prastrýc.\n\nNa papíře to vypadalo jako nevděčný krok. Ludvík IV. Jana kdysi vytáhl z bryndy u Mühldorfu v roce 1322 a za tu službu mu dal Chebsko — spojenectví, které tahle časová osa už označila za jedno z nejstálejších přátelství, jaké kdy jeden z nich udržel. Jenže tohle přátelství potichu hnilo od tyrolské strany už přes deset let. Už v roce 1330, tentýž rok, kdy se Jan Jindřich přiženil do tyrolského nástupnictví, uzavřel Ludvík za jeho zády tajnou dohodu se soupeřícími Habsburky o rozdělení dědictví. Když v roce 1335 zemřel Markétin otec, ta dohoda se naplnila: Ludvík předal Korutany a jižní Tyrolsko rovnou Habsburkům, a Janu Jindřichovi s Markétou zbylo jen to, co přežilo neúspěšnou válku o zvrácení téhle dohody. Pak, v letech 1341 a 1342, jak tahle časová osa právě popsala, nechal Ludvík vzít i tenhle zbytek vlastnímu synovi. Císař, který šestnáct let potichu pracoval proti lucemburským zájmům, už nebyl spojenec, na kterého se vyplatilo čekat. Byl to problém, který stálo za to odstranit, teď když k tomu papež nabízel příležitost.\n\nBalduin Lucemburský, trevírský arcibiskup od roku 1307, byl do té doby už skoro čtyřicet let vlastním mocenským makléřem rodiny v říšské politice, volitel sám o sobě a jeden z mála Lucemburků, které Německo nikdy nepřestalo brát vážně. Získat jeho podporu nebylo zadarmo. Karel musel Balduinovi dát řadu slibů, formálních, drahých a oběma stranami braných vážně: záruky Balduinových vlastních práv a výsad a závazek pokrýt prastrýcovy náklady na zajištění volby a následné korunovace — účet, který nakonec přesáhl 250 000 zlatých, něco kolem 885 kilogramů zlata.\n\nJakmile Karel dal své sliby, zbytek se odehrál rychle. Papež Kliment VI., který do dubna 1346 už vládnoucího císaře Ludvíka IV. exkomunikoval a prohlásil za sesazeného, se okamžitě obrátil na říšské kurfiřty a požadoval novou volbu. Přišla v úterý 11. července 1346, u Rhens na levém břehu Rýna, datum, které tahle časová osa ráda nazve památným. Dostavilo se pět ze sedmi kurfiřtů, aby odevzdali hlas: sám Balduin za Trevír, Gerlach za Mohuč, Walram za Kolín, Rudolf za Sasko a, hlasující pro vlastního syna, Jan, český král. Karel byl zvolen římským králem.\n\nLudvík IV. nikam nezmizel, a spousta říšských knížat pořád podporovala jeho spíš než lucemburského kandidáta dosazeného papežským nátlakem. Karel zatím držel titul spíš sporný než potvrzený. Přesto to bylo víc, než co si kdy jeho otec dokázal udržet natrvalo, a Jan tentokrát mohl osobně přihlížet, jak jeho syn něco vyhrává.",
+      zh: "从查理回到波希米亚以来发生的一切，摩拉维亚藩侯之位、与父亲的和解、正在城堡里拔地而起的大教堂，其实一路都在为一件比波希米亚本身更大的事铺路。卢森堡家族追逐“罗马人的国王”这个头衔（通往帝位的垫脚石），从查理的祖父亨利七世几十年前真正拿到过它的那一刻起，就没停过。1346年，他们又等来了一次追逐的机会，而这一次真正推动局面的，既不是约翰，也还轮不到查理本人。是查理自己的叔祖父。\n\n表面上看，这确实是约翰忘恩负义的举动。路易四世当年在1322年的米尔多夫替他解了围，还把埃格兰（赫布地区）送给了他作为酬谢，这条时间线之前已经把这段同盟，称作两人各自维系过的、数一数二稳固的友谊。可这份友谊，其实早就从蒂罗尔这个方向悄悄烂掉了，而且烂了十几年。早在1330年，也就是约翰·亨利迎娶玛格丽特、迈入蒂罗尔继承序列的同一年，路易就已经背着他跟对头哈布斯堡家族达成了一份秘密协议，要瓜分这份遗产。1335年玛格丽特的父亲一死，这份协议立刻兑现：路易直接把克恩顿和蒂罗尔南部划给了哈布斯堡家族，约翰·亨利和玛格丽特手里，只剩下一场翻盘失败的战争之后还能保住的那一点点。接着，1341年到1342年，正如这条时间线刚讲过的，路易又让自己的儿子把剩下的这一点也一并夺走了。一个花了十六年时间暗中对付卢森堡家族利益的皇帝，已经不值得再耐心等下去了。既然教皇已经把机会摆在了眼前，他就是个值得清除的麻烦。\n\n卢森堡的鲍德温，自1307年起担任特里尔大主教，到这时已经在帝国政坛里当了将近四十年这个家族自己的操盘手，他本人就是一位选帝侯，也是少数几个从没被德意志人小看过的卢森堡家族成员之一。要争取他的支持，可不是白给的。查理必须向鲍德温做出一系列承诺，正式、代价高昂，双方都当真：保证鲍德温自身的权利和特权，还得承诺替这位叔祖父承担争取选举和随后加冕典礼的一切花费，这笔账最终超过了25万弗罗林金币，差不多885公斤黄金。\n\n查理许下承诺之后，接下来的事进展得很快。教皇克莱门特六世，到1346年4月已经把在位的皇帝路易四世革除教籍、宣布废黜，随即转头要求帝国的选帝侯们重新选举。选举定在1346年7月11日，星期二，地点在莱茵河左岸的伦斯，这条时间线乐意称之为一个值得纪念的日子。七位选帝侯里有五位到场投票：特里尔的鲍德温本人、美因茨的格拉赫、科隆的瓦尔拉姆、萨克森的鲁道夫，还有，把票投给自己儿子的，波希米亚国王约翰。查理当选为罗马人的国王。\n\n路易四世并没有因此消失，帝国境内不少诸侯依然支持他，而不是这位靠教皇施压才被扶上位的卢森堡候选人。眼下，查理手里这个头衔，争议比确认来得多。但这已经超过了他父亲这辈子真正握住过的任何东西，而约翰，这一次，总算能亲眼看着自己的儿子赢下点什么。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/1346_imperial_election",
+  },
+  {
+    slug: "the-wandering-knight-kings-legacy-1346",
+    era: "rise-of-a-kingdom",
+    startYear: 1346,
+    images: [
+      "/history/the-wandering-knight-kings-legacy-1346.webp",
+      "/history/the-wandering-knight-kings-legacy-1346-dawn.webp",
+    ],
+    year: {
+      en: "1346",
+      cz: "1346",
+      zh: "1346年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Wandering Knight-King's Legacy",
+      cz: "Odkaz bloudícího rytířského krále",
+      zh: "游荡骑士王的遗产",
+    },
+    hookLine: {
+      en: "Totally blind for seven years, John rode into his last battle anyway, and left behind a death Europe couldn't stop talking about, and a son already crowned in every way but name.",
+      cz: "Sedm let úplně slepý, Jan přesto vyjel do své poslední bitvy — a zanechal po sobě smrt, o které se v Evropě ještě dlouho mluvilo, a syna, který byl korunovaným králem už ve všem kromě samotného titulu.",
+      zh: "已经彻底失明七年，约翰还是骑马奔赴了自己人生的最后一战——留下一场让整个欧洲久久议论的死亡，和一个除了正式头衔之外，早已样样齐备的继承人。",
+    },
+    summary: {
+      en: "John had been completely blind since 1339, both eyes gone for good. None of that stopped him from riding to Crécy in August 1346, at the summons of his oldest and closest ally, to fight for a French king he'd called a friend since they were boys together at the same court decades earlier.\n\nThe battle itself, fought on 26 August, would go down as the Hundred Years' War's first real pitched battle, and a brutal lesson in what the century ahead actually looked like. English longbowmen, dug into a defensive position on rising ground, tore through wave after wave of France's own mounted knights before the two sides ever properly closed. English losses were light. French losses, John's own household among them, were catastrophic.\n\nBefore he rode out, John is said to have made his intentions plain.\n\n[[quote:0]]\n\nWhat followed is recorded by Jean Froissart, in the account that made John's death famous across Europe:\n\n[[quote:1]]\n\nThe men guessed right. Charles was fighting somewhere else on that very field. He came out of it alive, but not unmarked: wounded badly enough that a handful of knights had to pull him out of the fighting and off the field entirely, weeks away from being fit to travel again. His father, though, never made it back from France.\n\nHe died on 26 August 1346, the exact same calendar date, sixty-eight years apart, that Otakar II had died at Marchfeld, the other Bohemian king this timeline has already spent a great deal of time on. Between them, in their very different ways, they'd done more than any other two Přemyslid or Luxembourg rulers to make the title King of Bohemia mean something across the rest of Europe. John's own share of that legacy came less from what he held onto than from what he set up: Silesia, Upper Lusatia, the Egerland, all folded permanently into the Bohemian crown lands under his reign, and a son already positioned, tested, and publicly named heir five years earlier, ready to actually rule the country his father had spent a lifetime avoiding.\n\nGuillaume de Machaut, who'd spent over two decades in John's service, wrote his own summary not long after.\n\n[[quote:2]]\n\nJohn's body didn't get to rest easily either. It was buried first in Luxembourg, at Altmünster Abbey, then moved to Neumünster Abbey when Altmünster came down in the 1540s. When revolutionary France threatened Luxembourg centuries later, a local family, the Bochs (the same family behind the Villeroy & Boch ceramics firm still trading today), hid the king's bones in an attic to keep them safe. In the 1830s they turned up again across the border, installed in a purpose-built chapel at Kastel-Staadt under Prussian sponsorship, where they stayed for over a century. Only after the Second World War did Luxembourg finally get its king back for good, in a low-key operation that ended with John the Blind interred, at last, in the crypt of Luxembourg's own Notre-Dame Cathedral, where he remains today.\n\nBack in Prague, once his own wounds had healed enough to travel, Charles didn't wait long. He'd already been named heir five years earlier at that same 1341 assembly, the promise this timeline covered in its last entry. Once the mourning for his father was done, he simply picked up the crown that promise had already set aside for him.\n\nAt the time, plenty of people in Bohemia braced for more of the same. They'd already watched one young, foreign-minded king: John himself, always more interested in tournaments and distant courts than in the kingdom he'd married into. Why would his son be any different? What they couldn't have known yet was this: the previous four decades, the extinguished dynasty, the guardianship crisis, the murdered kings, the endless factional infighting this timeline has spent so long tracing, had just come to a close. What was actually waiting for Prague, starting now, was the age later historians would simply call golden.",
+      cz: "Jan byl od roku 1339 úplně slepý, obě oči nadobro ztracené. Nic z toho mu nezabránilo v srpnu 1346 vyrazit ke Kresčaku, na výzvu svého nejstaršího a nejbližšího spojence, aby bojoval za francouzského krále, kterého nazýval přítelem už od dob, kdy spolu jako chlapci vyrůstali na stejném dvoře o desetiletí dřív.\n\nSamotná bitva, svedená 26. srpna, se zapsala jako první skutečná polní bitva stoleté války a jako brutální lekce toho, jak bude vypadat celé nadcházející století. Angličtí lučištníci, zakopaní v obranném postavení na vyvýšeném terénu, rozstříleli vlnu za vlnou francouzských jízdních rytířů, ještě než se obě strany vůbec pořádně střetly. Anglické ztráty byly nízké. Francouzské, včetně Janova vlastního doprovodu, byly katastrofální.\n\nNež vyrazil do boje, dal prý Jan svůj úmysl jasně najevo.\n\n[[quote:0]]\n\nCo následovalo, zaznamenal Jean Froissart, ve vyprávění, které Janovu smrt proslavilo po celé Evropě:\n\n[[quote:1]]\n\nTi muži měli pravdu. Karel skutečně bojoval kdesi jinde na tom samém poli. Vyvázl živý, ale ne bez úhony: zraněný natolik vážně, že ho hrstka rytířů musela vytáhnout z bitvy a odvézt z bojiště úplně pryč, ještě celé týdny neschopný cestovat. Jeho otec se už z Francie nevrátil.\n\nZemřel 26. srpna 1346 — přesně na stejné kalendářní datum, o šedesát osm let dřív, kdy u Moravského pole zemřel Otakar II., druhý český král, kterému tahle časová osa už věnovala značný prostor. Dohromady, každý po svém, udělali pro to, aby titul českého krále něco znamenal v celé zbytku Evropy, víc než kterýkoli jiný pár přemyslovských nebo lucemburských vládců. Janův podíl na tomhle odkazu spočíval méně v tom, co si udržel, a víc v tom, co založil: Slezsko, Horní Lužici, Chebsko, natrvalo připojené k českým korunním zemím za jeho vlády, a syna, který už byl připraven, prověřen a před pěti lety veřejně jmenován dědicem, hotového skutečně vládnout zemi, které se jeho otec celý život vyhýbal.\n\nGuillaume de Machaut, který strávil v Janových službách přes dvě desetiletí, napsal krátce poté vlastní shrnutí.\n\n[[quote:2]]\n\nAni Janovo tělo si klid neužilo snadno. Pohřbili ho nejdřív v Lucemburku, v opatství Altmünster, později přenesli do opatství Neumünster, když Altmünster ve 40. letech 16. století strhli. Když o staletí později revoluční Francie ohrozila Lucembursko, místní rodina Bochů (tatáž, která stojí za dodnes fungující keramickou firmou Villeroy & Boch) ukryla královy kosti na půdě, aby je uchránila. Ve 30. letech 19. století se znovu objevily za hranicí, umístěné v účelově postavené kapli u Kastel-Staadtu pod pruským patronátem, kde zůstaly přes sto let. Teprve po druhé světové válce dostalo Lucembursko svého krále konečně natrvalo zpátky, nenápadnou operací, která skončila tím, že Jan Slepý byl uložen do krypty vlastní lucemburské katedrály Notre-Dame, kde odpočívá dodnes.\n\nV Praze, jakmile se jeho vlastní rány zahojily natolik, aby mohl cestovat, Karel dlouho nečekal. Dědicem ho jmenovali už před pěti lety, na tom samém shromáždění z roku 1341, na ten příslib se tahle časová osa dostala ve svém posledním záznamu. Jakmile skončil smutek za otce, prostě si vzal korunu, kterou mu ten příslib už dávno odložil stranou.\n\nV té době se v Čechách ledaskdo připravoval na víc téhož. Jednoho mladého, cize smýšlejícího krále už přece zažili: samotného Jana, kterého vždycky zajímaly turnaje a vzdálené dvory víc než království, do kterého se přiženil. Proč by měl být jeho syn jiný? Co ještě nemohli tušit, bylo tohle: předchozí čtyři desetiletí, vymřelá dynastie, opatrovnická krize, zavraždění králové, nekonečné frakční boje, které tahle časová osa tak dlouho sledovala, právě skončily. Co ve skutečnosti čekalo na Prahu, počínaje touto chvílí, byla éra, které pozdější historikové budou prostě říkat zlatá.",
+      zh: "约翰自1339年起就完全失明，双眼都彻底没了。这一切都没能阻止他在1346年8月，应他最年长、最亲密的盟友之邀，奔赴克雷西，为一位他几十年前起就以朋友相称、彼此还是少年时就同在一处宫廷长大的法国国王而战。\n\n8月26日打响的这场战役，日后被记作百年战争的第一场真正意义上的正面会战，也是接下来整整一个世纪走向的一次残酷预演。英格兰的长弓手在高地上占据防御阵位，还没等双方真正短兵相接，就一波接一波地射穿了法国的骑兵冲锋。英军伤亡轻微。法军的损失，包括约翰自己的随从在内，堪称惨重。\n\n出战之前，约翰据说已经把自己的心意说得明明白白。\n\n[[quote:0]]\n\n接下来发生的事，由让·傅华萨记录了下来，正是这段记载，让约翰的死讯传遍了整个欧洲：\n\n[[quote:1]]\n\n随从们说的没错，此刻查理正在同一片战场的另一处厮杀。他活了下来，却不是毫发无伤：伤得不轻，几名骑士不得不把他从混战中拖出来，一路带离战场，此后好几个星期都动弹不了、没法赶路。可他的父亲却没能从法国回来。\n\n他死于1346年8月26日——跟摩拉维亚沙场上另一位这条时间线已经花了不少篇幅讲过的波希米亚国王奥托卡二世，正好隔了六十八年，死在同一个日历日期上。这两人各自用不同的方式，共同做到了一件事：让“波希米亚国王”这个头衔，在欧洲其他地方真正响亮起来，比任何一对普热米斯尔或卢森堡君主都做得更彻底。约翰留下的这份遗产，与其说来自他守住了什么，不如说来自他建立起了什么：西里西亚、上卢萨蒂亚、埃格兰（赫布地区），都在他在位期间永久并入了波希米亚的王室领地；还有一个儿子，早已准备就绪、历经考验，五年前就已被公开指定为继承人，随时可以真正接手这个父亲穷尽一生都在躲避的国家。\n\n在约翰身边效力了二十多年的纪尧姆·德·马绍，在他死后不久，写下了自己的总结。\n\n[[quote:2]]\n\n约翰的遗体，也没能安安稳稳地歇下来。他最初葬在卢森堡的阿尔特明斯特修道院，1540年代阿尔特明斯特被拆除后，又迁往新明斯特修道院。几个世纪后，当革命时期的法国威胁到卢森堡时，当地的博赫家族（就是至今仍在经营的陶瓷品牌唯宝Villeroy & Boch背后的那个家族）把国王的遗骨藏进了自家的阁楼，以保安全。到了1830年代，这些遗骨又在边境对面重新现身，被安置进普鲁士方面出资、专门为此建造的一座教堂里，坐落在卡斯特尔-施塔特，一待就是一个多世纪。直到第二次世界大战结束后，卢森堡才终于把自己的国王彻底接了回来——一次低调的行动之后，“盲人约翰”最终被安葬进了卢森堡本国圣母主教座堂的地下墓室，至今仍长眠在那里。\n\n布拉格这边，等自己的伤势养到能够上路，查理没有等太久。五年前，就在这条时间线上一篇讲过的那场1341年集会上，他已经被指定为继承人。为父亲服丧一结束，他径直拿起了那个承诺早就替他留好的王冠。\n\n当时，不少波希米亚人还在等着重演一遍老剧本。他们眼前就有过一个活生生的例子：约翰本人，一辈子更惦记着比武大会和异国宫廷，而不是他靠婚姻得来的这个王国。儿子又能有什么不同呢？他们还不知道的是：前面这四十年，绝嗣的王朝、监国之争、遇刺的国王、没完没了的派系争斗——这条时间线一路追下来的这一切——刚刚落下帷幕。真正等在布拉格前面的，是后来的史家会径直称之为“黄金时代”的一段辉煌岁月。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "God grant it shall not be that the King of Bohemia flees from battle.",
+          cz: "Dej Bůh, ať se nestane, aby český král z boje utíkal.",
+          zh: "愿上帝不容许波希米亚国王临阵脱逃。",
+        },
+        attribution: {
+          en: "Beneš Krabice of Weitmil, Cronica ecclesiae Pragensis",
+          cz: "Beneš Krabice z Veitmile, Cronica ecclesiae Pragensis",
+          zh: "维特米莱的贝内什·克拉比采，《布拉格教会编年史》",
+        },
+      },
+      {
+        text: {
+          en: "When he heard the order to advance, he asked where his son Charles was. His men told him they did not know, but that he was most likely fighting somewhere close by. The king said: 'My lords, you are all today my friends and brothers in arms. Since I myself am blind, I ask you to lead me deep enough into the fighting that I may strike a blow with my sword.' The knights agreed, and so as not to lose him in the crush, they tied their horses' reins together. They pushed the king forward a little, as he had asked, and advanced against the English in this fashion... But they went too far forward, and were all killed where they stood. In the morning they were found lying dead on the ground, their horses still tied to one another.",
+          cz: "Když zaslechl povel k boji, zeptal se, kde je jeho syn Karel. Průvodci mu řekli, že nevědí, že se však nejspíš někde bije, načež král pravil: „Pánové, jste dnes všichni mými přáteli a bratry ve zbrani, proto vás žádám, jelikož sám jsem slepý, veďte mne tak daleko do bitevní vřavy, abych měl nepřátele na dosah meče.“ Rytíři souhlasili, a protože ho nechtěli ztratit v tlačenici lidí, svázali otěže koní dohromady. Krále pak dle jeho přání vysunuli o něco kupředu a tímto způsobem postupovali proti Angličanům... Postoupili však příliš kupředu a byli všichni na místě pobiti. Ráno je nalezli na zemi mrtvé, s koňmi navzájem spojenými.",
+          zh: "他听到开战的号令后，问起自己的儿子查理在哪里。随从们回答说不知道，但他大概正在附近某处厮杀。国王于是说道：「诸位，今天你们都是我的朋友、并肩作战的兄弟，我自己双目失明，恳求你们把我带到战阵深处，好让我的剑够得着敌人。」骑士们答应了他，为了不在人群的推搡中和他失散，便把彼此的马缰绳系在了一起。他们依他所愿，把国王稍稍往前推送，就这样朝英军推进过去……可他们冲得太靠前了，全都当场战死。第二天早晨，人们发现他们倒在地上，马匹依然彼此系在一起。",
+        },
+        attribution: {
+          en: "Jean Froissart, Chronicles",
+          cz: "Jean Froissart, Kroniky",
+          zh: "让·傅华萨，《大事记》",
+        },
+      },
+      {
+        text: {
+          en: "Keep the King of the Czechs in memory... Before he took his leave of life, he had already made his son margrave, duke, count, and king, both by arms and by law, and so secured for him the whole realm. I will write no more of him, except that he achieved what he set out to do.",
+          cz: "V paměti krále Čechů měj... Než rozžehnal se s životem učinil syna markýzem, vévodou, hrabětem i králem, a to jak zbraní, tak i právem. Tím zajistil mu celou říši. Více už o něm nenapíši, leda že dosáh, čeho chtěl.",
+          zh: "请把这位捷克国王记在心里……在告别人世之前，他已经凭借武力、也凭借法理，让儿子当上了藩侯、公爵、伯爵，乃至国王，为他保住了整个王国。关于他，我不会再多写什么了，只想说：他做成了自己想做的事。",
+        },
+        attribution: {
+          en: "Guillaume de Machaut",
+          cz: "Guillaume de Machaut",
+          zh: "纪尧姆·德·马绍",
         },
       },
     ],

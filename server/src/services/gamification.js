@@ -175,7 +175,7 @@ export const ACHIEVEMENTS = [
     description_cz: "Přihlaste se ke katedrále sv. Víta.",
     description_zh: "打卡圣维特大教堂。",
     difficulty: "easy",
-    check: ({ checkedSlugs }) => checkedSlugs.includes("prague-castle"),
+    check: ({ checkedSlugs }) => checkedSlugs.includes("st-vitus-cathedral"),
   },
   //Veni, vidi, vici: Check in all locations having the "landmark" label
   {
