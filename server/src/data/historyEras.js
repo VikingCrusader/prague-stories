@@ -287,7 +287,7 @@ export const HISTORY_ERAS = [
     key: 'kingdom-golden-age',
     order: 4,
     themeClass: 'era-kingdom-golden-age',
-    hasContent: false,
+    hasContent: true,
     title: {
       en: 'The Golden Age',
       cz: 'Zlatý věk',

@@ -5536,6 +5536,397 @@ export const historyEvents = [
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/John_of_Bohemia",
   },
+  // First event of 'kingdom-golden-age' (narrowed 2026-08-23 to 1346-1378,
+  // Charles IV's actual reign — see the era-split note near the top of this
+  // file). Picks up directly where 'rise-of-a-kingdom's closing card,
+  // 'a-day-worth-remembering-1346', left off: Charles won the Rhens vote on
+  // 11 July 1346 but held, in that card's own words, "a title more
+  // contested than confirmed." This is the confirmation fight.
+  {
+    slug: "the-crown-nobody-recognized-1346",
+    era: "kingdom-golden-age",
+    startYear: 1346,
+    images: ["/history/the-crown-nobody-recognized-1346.webp"],
+    year: {
+      en: "1346",
+      cz: "1346",
+      zh: "1346年",
+    },
+    tone: "humorous",
+    title: {
+      en: "An Unrecognized Crown",
+      cz: "Neuznaná koruna",
+      zh: "不被公认的王冠",
+    },
+    hookLine: {
+      en: "Charles won the vote. Half of Germany still wouldn't call him king.",
+      cz: "Karel vyhrál volbu. Polovina Německa ho přesto za krále neuznávala.",
+      zh: "查理赢了选票，可半个德意志还是不认这个国王。",
+    },
+    summary: {
+      en: "History would end up calling this the golden age. Nobody told Louis IV.\n\nRhens gave Charles the votes, but Germany wasn't sold. Louis IV was excommunicated and formally deposed that same year, and reacted to both the way a bad tenant reacts to an eviction notice: he stayed put. German princes had a nickname ready for the new king anyway, Pfaffenkönig, the priest's king, a crown they said the Pope had gift-wrapped and John had paid for.\n\nAachen, the city German kings were supposed to be crowned in, wouldn't open its gates. Neither would Cologne. Charles took the consolation prize instead, crowned in Bonn on 26 November, six weeks after burying his own father at Crécy. Two kings, one throne, and for a while nobody in the empire could quite agree on which king they were even supposed to be ignoring.",
+      cz: "Dějiny tomu nakonec budou říkat zlatý věk. Ludvíkovi IV. to nikdo neřekl.\n\nRhens dal Karlovi hlasy, Německo se ale nekoupilo. Ludvík IV. byl ten samý rok exkomunikován a formálně sesazen a na obojí zareagoval jako mizerný nájemník na výpověď z bytu: zůstal, kde byl. Německá knížata na nového krále měla přezdívku hned po ruce, Pfaffenkönig, král kněží, koruna, kterou prý zabalil papež a zaplatil Jan.\n\nCáchy, město, kde se tradičně korunovali němečtí králové, mu bránu neotevřely. Kolín taky ne. Karel si vzal útěchnou cenu a nechal se korunovat v Bonnu 26. listopadu, šest týdnů po pohřbu vlastního otce u Kresčaku. Dva králové, jeden trůn, a chvíli si v říši nikdo nebyl úplně jistý, kterého z nich má vlastně ignorovat.",
+      zh: "后来的史书会把这称作黄金时代。可惜没人告诉路易四世。\n\n伦斯给了查理选票，德意志却不买账。路易四世那一年被教皇革除教籍、正式废黜，他对这两件事的反应，跟赖着不搬家的差劲租客一模一样：照住不误。德意志诸侯倒是早给这位新国王准备好了外号，祭司王（Pfaffenkönig），意思是这顶王冠是教皇包装好、约翰掏的钱。\n\n亚琛，本该是德意志国王加冕之地，对他关上了大门。科隆也一样。查理只好退而求其次，11月26日改在波恩加冕，距离他在克雷西安葬自己父亲，才过去六个星期。同一个王座，两个国王都在争，一时间，帝国里谁都说不准自己到底该无视哪一个。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_IV,_Holy_Roman_Emperor",
+  },
+  {
+    slug: "the-king-who-came-home-in-disguise-1347",
+    era: "kingdom-golden-age",
+    startYear: 1347,
+    images: ["/history/the-king-who-came-home-in-disguise-1347.webp"],
+    year: {
+      en: "1347",
+      cz: "1347",
+      zh: "1347年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The King Who Came Home in Disguise",
+      cz: "Král, který se vrátil domů v přestrojení",
+      zh: "乔装回家的国王",
+    },
+    hookLine: {
+      en: "Freshly elected King of the Romans, Charles still had to sneak through hostile German territory dressed as his own servant just to get home.",
+      cz: "Čerstvě zvolený římský král se přesto musel domů proplížit nepřátelským německým územím, převlečený za vlastního sluhu.",
+      zh: "刚刚当选罗马人的国王，查理却得靠乔装成自己的侍从，才能溜过敌意重重的德意志领地回家。",
+    },
+    summary: {
+      en: "Being crowned King of the Romans didn't come with safe passage through the empire that had just refused to recognize him. Louis IV's own territory sat squarely between Bonn and Bohemia, and Charles had no interest in finding out what a king with an unrecognized crown was worth as a hostage. He rode home dressed as his own squire, slipping through hostile German lands incognito, and reached Bohemia in January 1347 with the crown intact and his dignity mostly so.\n\nThe real payoff came on 2 September 1347. Charles was crowned King of Bohemia in Prague, and for the first time in the kingdom's history, nobody had to import an archbishop to do it. Arnošt of Pardubice, freshly promoted when Prague became its own archbishopric back in 1344, handled the whole ceremony himself. The last king needed help from Trier. This one didn't need help from anybody.\n\nThe peace didn't last past the border. Skirmishes with Bavaria kept flaring up, and Louis IV, still refusing to admit he'd lost anything, kept pushing his luck. Charles, now holding a title Louis wouldn't recognize and an army Louis couldn't ignore, decided the old emperor had earned a lesson in exactly who he was dealing with.",
+      cz: "Zvolení římským králem nepřineslo bezpečný průchod říší, která ho právě odmítla uznat. Ludvíkovo IV. vlastní území leželo přesně mezi Bonnem a Čechami, a Karel neměl nejmenší chuť zjišťovat, kolik by jako rukojmí s neuznanou korunou vlastně byl cenný. Domů jel převlečený za vlastního panoše, proklouzl nepřátelským německým územím inkognito a do Čech dorazil v lednu 1347 s korunou neporušenou a s důstojností víceméně taky.\n\nSkutečná odměna přišla 2. září 1347. Karel byl v Praze korunován českým králem, a poprvé v dějinách království k tomu nikdo nemusel dovážet arcibiskupa odjinud. Arnošt z Pardubic, čerstvě povýšený, když se Praha v roce 1344 stala vlastním arcibiskupstvím, zvládl celý obřad sám. Poslední král potřeboval pomoc z Trevíru. Tenhle nepotřeboval pomoc odnikud.\n\nKlid ale skončil hned za hranicí. Šarvátky s Bavorskem znovu a znovu vzplanuly a Ludvík IV., pořád odmítající připustit, že něco ztratil, dál pokoušel štěstí. Karel, s titulem, který Ludvík neuznával, a armádou, kterou Ludvík nemohl ignorovat, usoudil, že si starý císař zaslouží lekci, s kým má vlastně tu čest.",
+      zh: "当选罗马人的国王，并不等于拿到了穿越这个刚刚拒绝承认他的帝国的安全通行证。路易四世的地盘正好卡在波恩和波希米亚之间，查理可没兴趣去试探一顶不被承认的王冠，能换来多少赎金。他乔装成自己的侍从，隐姓埋名地穿过敌意重重的德意志领地，1347年1月抵达波希米亚，王冠完好，尊严也大体保住了。\n\n真正的回报在1347年9月2日到来。查理在布拉格加冕为波希米亚国王，这是这个王国历史上头一回，加冕不用从外面请大主教来主持。阿尔诺什特·冯·帕尔杜比采，1344年布拉格刚升格为总主教区时才走马上任，这次典礼从头到尾都是他一人主持。上一位国王加冕，还得靠特里尔帮忙。这一位，谁的忙都不需要。\n\n可安稳日子一过边境就到头了。跟巴伐利亚的摩擦一次接一次地爆发，路易四世死活不肯承认自己输了什么，还在不断试探底线。查理这时候手握一个路易不承认的头衔，还有一支路易没法无视的军队，他觉得，是时候让这位老皇帝清楚认识一下，自己到底在跟谁打交道了。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "The very cathedral going up on the hill above him, where Charles was finally crowned King of Bohemia at home, three years into its own construction.",
+          cz: "Ta samá katedrála, která právě rostla na kopci nad ním. Právě tady byl Karel konečně korunován českým králem doma, tři roky po jejím vlastním založení.",
+          zh: "正在山丘上拔地而起的那座大教堂。查理终于在这里、在自己家门口加冕为波希米亚国王，距离奠基才过去三年。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_IV,_Holy_Roman_Emperor",
+  },
+  {
+    slug: "a-first-show-of-strength-1347",
+    era: "kingdom-golden-age",
+    startYear: 1347.5,
+    images: [
+      "/history/a-first-show-of-strength-1347-rival.webp",
+      "/history/a-first-show-of-strength-1347-regensburg.webp",
+    ],
+    year: {
+      en: "1347–1348",
+      cz: "1347–1348",
+      zh: "1347年－1348年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A First Show of Strength",
+      cz: "První ukázka síly",
+      zh: "初露锋芒",
+    },
+    hookLine: {
+      en: "Charles marched out to make Louis IV pay for years of defiance. Louis died of a stroke first, and the war turned into a parade.",
+      cz: "Karel vytáhl do boje, aby Ludvíka IV. konečně potrestal za roky vzdoru. Ludvík ale nejdřív zemřel na mrtvici, a z války se stal průvod.",
+      zh: "查理出兵，打算让路易四世为多年的抗命付出代价。可路易先中风死了，一场战争就这样变成了一场巡游。",
+    },
+    summary: {
+      en: "Charles spent the rest of 1347 doing what a freshly crowned king of two thrones does: getting his own house in order. Then he mustered an army and set out for the Bavarian border, ready to give Louis IV the lesson the old emperor had been asking for.\n\nHe never got the chance. Word reached him on the road: Louis IV had suffered a stroke while out bear hunting near Munich and dropped dead on 11 October 1347. The empire's most stubborn feud of the decade had just resolved itself, mid-hunt, without Charles lifting a sword.\n\nThe march kept going anyway, just as something else entirely. City after city threw open its gates instead of its defenses: Regensburg, Nuremberg, Strasbourg, Basel, Speyer, Ulm. Smaller towns sent their own envoys, paying tribute and asking Charles to confirm the privileges they already held. He said yes almost everywhere, handing out rights, exemptions, and pardons with the easy generosity of a man who understood exactly what loyalty was worth when it was cheap to buy.\n\nHis foresight didn't stop at the border. His father had died fighting for France, and Charles had no interest in inheriting an English grudge along with the throne. He cut the Luxembourg alliance with France loose and declared Bohemia neutral in the Hundred Years' War, a war his own family had just spilled blood in. John died loyal to a friend. Charles decided loyalty was a luxury a new King of the Romans couldn't quite afford.",
+      cz: "Karel strávil zbytek roku 1347 tím, co dělá čerstvě korunovaný král dvou trůnů: dával do pořádku vlastní dům. Pak svolal vojsko a vydal se k bavorské hranici, připravený uštědřit Ludvíkovi IV. lekci, o kterou si starý císař sám řekl.\n\nPříležitost ale nedostal. Na cestě ho dostihla zpráva: Ludvík IV. dostal mrtvici při lovu na medvěda poblíž Mnichova a 11. října 1347 na místě zemřel. Nejtvrdohlavější spor toho desetiletí se vyřešil sám, uprostřed honu, aniž Karel tasil meč.\n\nPochod pokračoval dál, jen jako něco úplně jiného. Město za městem otevíralo brány místo obrany: Řezno, Norimberk, Štrasburk, Basilej, Špýr, Ulm. Menší města posílala vlastní vyslance, platila poplatky a žádala Karla, aby jim potvrdil privilegia, která už měla. Souhlasil skoro všude, rozdával práva, výjimky a milosti s lehkostí muže, který přesně věděl, kolik je věrnost hodná, když se dá koupit levně.\n\nJeho prozíravost nekončila na hranici. Jeho otec zemřel v boji za Francii, a Karel neměl nejmenší chuť zdědit spolu s trůnem i anglickou zášť. Odstřihl lucemburské spojenectví s Francií a prohlásil Čechy za neutrální ve stoleté válce, ve válce, ve které jeho vlastní rodina teprve nedávno prolila krev. Jan zemřel věrný příteli. Karel usoudil, že věrnost je pro nového římského krále přepych, který si nemůže úplně dovolit.",
+      zh: "查理把1347年剩下的时间用来做一位刚加冕两顶王冠的国王该做的事：先把自己家里的事理顺。之后他集结军队，向巴伐利亚边境进发，准备给这位老皇帝一个他自己讨来的教训。\n\n可他没等到这个机会。行军路上传来消息：路易四世在慕尼黑附近打猎熊时突发中风，1347年10月11日当场去世。这个世纪以来最难缠的一场纠纷，就这样在一场狩猎中自行了结，查理连剑都没拔。\n\n行军还在继续，只是变成了完全不同的一件事。一座又一座城市敞开城门，而不是竖起防线：雷根斯堡、纽伦堡、斯特拉斯堡、巴塞尔、施佩耶尔、乌尔姆。更小的城镇也派来自己的使者，进贡纳税，请求查理确认他们原本就有的特权。查理几乎有求必应，慷慨地授予权利、豁免和赦免，那种慷慨透着一份清醒：他很清楚，忠诚这东西，只要买得便宜，就值得买。\n\n他的算盘，可不止打到帝国边境为止。父亲是为法兰西而战死的，查理可没兴趣连同王位一起，继承一份英格兰的世仇。他斩断了卢森堡家族跟法兰西的同盟，宣布波希米亚在百年战争中保持中立，而这场战争，他自己的家族才刚刚在里面流过血。约翰至死都忠于一位朋友。查理却觉得，对一位刚上任的罗马人的国王来说，忠诚是种奢侈，他负担不起。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_IV,_Holy_Roman_Emperor",
+  },
+  // Charles Bridge, Karlštejn Castle, and Charles University are deliberately
+  // held back for a later card per the user's own instruction — this one
+  // covers only New Town's founding and the April 1348 charters.
+  {
+    slug: "the-great-year-1348",
+    era: "kingdom-golden-age",
+    startYear: 1348,
+    images: ["/history/the-great-year-1348.webp"],
+    year: {
+      en: "1348",
+      cz: "1348",
+      zh: "1348年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Great Year 1348",
+      cz: "Slavný rok 1348",
+      zh: "伟大的1348年",
+    },
+    hookLine: {
+      en: "Prague was healing, but next to Constantinople or Paris it still looked underdressed for an imperial capital. Charles decided to fix that personally.",
+      cz: "Praha se zotavovala, ale vedle Konstantinopole nebo Paříže pořád vypadala na císařské hlavní město nedostatečně oblečená. Karel se rozhodl to napravit osobně.",
+      zh: "布拉格正在恢复元气，可跟君士坦丁堡、巴黎比起来，这座未来的帝都还是显得穿得不够体面。查理决定亲自动手补上这一课。",
+    },
+    summary: {
+      en: "South German backing did more than end a war that never happened. It settled the kingdom down. Bohemia had already been quietly recovering since 1334, back when Charles was still just its margrave, and by 1348 Prague's streets had picked up a real sense of momentum again.\n\nThere was just one problem. As the future ceremonial capital of an empire, Prague still looked underdressed next to Constantinople, Paris, or Venice. Charles, a man who took his own reputation seriously, wasn't about to let his capital embarrass him.\n\nOn 8 March 1348 he chartered an entirely new district: Nové Město, the New Town, laid out across the Old Town's own east and south flank with the very same privileges as its older neighbor. Eighteen days later, on 26 March, Charles laid the foundation stone for its walls himself. The new district alone was roughly three times the size of the old one. Prague, more or less overnight, tripled its own ambitions to match.\n\nThat same spring, imperial and Bohemian nobles convened together in Prague for the first time, to sort out exactly how the kingdom fit inside the empire on paper, not just on a battlefield. The diet produced fourteen charters confirming Bohemia's old privileges and its special standing within the Empire. Two of them, passed on 7 April, coined a phrase that would outlast everyone in the room: Corona regni Bohemiae, the Crown of the Kingdom of Bohemia. Silesia and Breslau had unofficially joined the family back in 1335. Now, as King of the Romans, Charles gave that merger something it had never had before: paperwork.",
+      cz: "Jihoněmecká podpora udělala víc než jen ukončila válku, která se vlastně nikdy neodehrála. Uklidnila celé království. Čechy se potichu vzpamatovávaly už od roku 1334, kdy byl Karel ještě jen markrabětem, a do roku 1348 pražské ulice znovu chytily pořádný tah.\n\nJenže byl tu jeden problém. Jako budoucí obřadní hlavní město říše Praha pořád vedle Konstantinopole, Paříže nebo Benátek vypadala nedostatečně oblečená. Karel, muž, který svou pověst bral vážně, nehodlal nechat svoje hlavní město dělat mu ostudu.\n\n8. března 1348 založil listinou úplně novou čtvrť: Nové Město, vytyčené na východním a jižním okraji Starého Města, se stejnými výsadami jako jeho starší soused. O osmnáct dní později, 26. března, položil Karel osobně základní kámen jeho hradeb. Samotná nová čtvrť byla zhruba třikrát větší než ta stará. Praha, prakticky přes noc, ztrojnásobila i vlastní ambice, aby to doháněla.\n\nTéhož jara se v Praze poprvé společně sešli říšští a čeští šlechtici, aby si vyjasnili, jak vlastně království zapadá do říše na papíře, ne jen na bojišti. Sněm vydal čtrnáct listin potvrzujících stará česká privilegia a zvláštní postavení země v rámci Říše. Dvě z nich, schválené 7. dubna, razily formulaci, která přežila každého v místnosti: Corona regni Bohemiae, Koruna království českého. Slezsko a Vratislav se k rodině neoficiálně přidaly už v roce 1335. Teď jim Karel, jako římský král, dal něco, co dosud nikdy neměly: papír.",
+      zh: "南德意志诸邦的支持，不只是让一场根本没打起来的战争划上了句号，也让整个王国安定了下来。波希米亚其实从1334年查理还只是藩侯的时候起，就已经在悄悄恢复元气，到1348年，布拉格的大街小巷重新有了一股向上冲的劲头。\n\n只是有个问题摆在眼前。作为一个帝国未来的礼仪性首都，布拉格跟君士坦丁堡、巴黎、威尼斯比起来，还是显得穿得不够体面。查理这个人向来爱惜面子，可不会让自己的首都给自己丢脸。\n\n1348年3月8日，他颁布宪章，开辟出一整片全新的城区：新城，划在老城的东侧和南侧，享有跟老城一模一样的特权。十八天后，3月26日，查理亲自为城墙奠基。光是这片新城区，面积就差不多是老城的三倍。布拉格，几乎是一夜之间，把自己的野心也跟着翻了三倍。\n\n同一个春天，帝国和波希米亚贵族头一回齐聚布拉格，要把这个王国和帝国之间的关系，从战场上的既成事实，落实成纸面上的法律。这次大会一口气颁布了十四份宪章，确认波希米亚旧有的特权，强调这片领土在帝国内的特殊地位。其中两份，在4月7日通过，第一次写下了一个日后比在场所有人都活得长久的词：Corona regni Bohemiae，波希米亚王冠领地。西里西亚和布雷斯劳早在1335年就已经非正式地加入了这个大家庭。这一次，查理以罗马人的国王的身份，给了这桩合并一样它以前从来没有过的东西：一纸文书。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "nove-mesto",
+        relation: {
+          en: "New Town's own town hall, built a few decades later as the administrative seat of the district this very charter created.",
+          cz: "Vlastní radnice Nového Města, postavená o pár desítek let později jako správní sídlo čtvrti, kterou založila právě tahle listina.",
+          zh: "新城自己的市政厅，几十年后建成，作为这份宪章亲手开辟出的这片城区的行政中心。",
+        },
+      },
+      {
+        slug: "karlovo-namesti",
+        relation: {
+          en: "Originally the New Town's own cattle market, laid out in this same 1348 charter, later renamed for the king who founded it.",
+          cz: "Původně dobytčí trh Nového Města, vytyčený touto stejnou listinou z roku 1348, později přejmenovaný po králi, který ho založil.",
+          zh: "最初是新城自己的牲畜市场，就是这份1348年宪章一并划定的，后来才改以创立它的这位国王的名字命名。",
+        },
+      },
+      {
+        slug: "na-prikope",
+        relation: {
+          en: "Once the moat running along Old Town's own walls, filled in centuries later to become one of Prague's busiest shopping streets.",
+          cz: "Kdysi příkop podél hradeb Starého Města, o staletí později zasypaný a proměněný v jednu z nejrušnějších pražských ulic.",
+          zh: "曾经是沿着老城城墙的护城河，几个世纪后被填平，变成布拉格最热闹的步行街之一。",
+        },
+      },
+      {
+        slug: "namesti-republiky",
+        relation: {
+          en: "Sits right on the old moat line, Old Town's wall on one side, Charles's brand-new district on the other.",
+          cz: "Leží přímo na linii starého příkopu, na jedné straně hradby Starého Města, na druhé Karlova zbrusu nová čtvrť.",
+          zh: "正好坐落在旧护城河的线上，一边是老城城墙，另一边是查理刚刚建起的新城。",
+        },
+      },
+      {
+        slug: "revolucni",
+        relation: {
+          en: "Has marked the line between Old Town and New Town for as long as both have existed.",
+          cz: "Vyznačuje hranici mezi Starým a Novým Městem od té doby, co obě čtvrti vůbec existují.",
+          zh: "自打老城和新城同时存在以来，一直就是两者之间的分界线。",
+        },
+      },
+      {
+        slug: "mustek",
+        relation: {
+          en: "Once a literal bridge over the moat, built by Charles himself to connect Old Town to his brand-new district.",
+          cz: "Kdysi doslova most přes příkop, postavený samotným Karlem, aby spojil Staré Město s jeho zbrusu novou čtvrtí.",
+          zh: "曾经真的是一座跨过护城河的桥，由查理本人下令修建，连接老城和他刚建起的新城。",
+        },
+      },
+      {
+        slug: "wenceslas-square",
+        relation: {
+          en: "Laid out as New Town's own horse market, part of the same 1348 founding plan.",
+          cz: "Vytyčené jako koňský trh Nového Města, součást stejného zakládacího plánu z roku 1348.",
+          zh: "最初是新城自己的马市，是1348年同一份建城规划的一部分。",
+        },
+      },
+      {
+        slug: "powder-tower",
+        relation: {
+          en: "One of Old Town's original thirteen gates, already standing here since the early 1200s, right where the road crossed into Charles's new district.",
+          cz: "Jedna z původních třinácti bran Starého Města, stojící na tomto místě už od počátku 13. století, přesně tam, kde cesta přecházela do Karlovy nové čtvrti.",
+          zh: "老城最初十三座城门之一，早在13世纪初就矗立在这里，正好是道路通往查理新城区的地方。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/New_Town,_Prague",
+  },
+  // Background card, per the standing rule: no image, no relatedLandmarks.
+  // Slotted right after New Town's founding since that's the moment
+  // "Prague" visibly stops being legible as one obvious city on the map —
+  // a deliberate echo of 'bohemia-not-one-city-1101' from Era 2.
+  {
+    slug: "prague-was-never-one-city-1348",
+    era: "kingdom-golden-age",
+    startYear: 1348.1,
+    cardType: "background",
+    year: {
+      en: "1230s–1784",
+      cz: "30. léta 13. století – 1784",
+      zh: "1230年代－1784年",
+    },
+    tone: "serious",
+    title: {
+      en: "Prague Wasn't One City Either",
+      cz: "Praha taky nebyla jedno město",
+      zh: "布拉格，其实也不是一座城",
+    },
+    hookLine: {
+      en: "This timeline keeps saying \"Prague.\" For most of its history, that word covered several separate, self-governing towns that just happened to share a river.",
+      cz: "Tahle časová osa pořád říká \"Praha\". Většinu jejích dějin to slovo krylo několik oddělených, samosprávných měst, která si prostě jen dělila jednu řeku.",
+      zh: "这条时间线一直在说\"布拉格\"。可在它历史上的大部分时间里，这个词其实指的是好几座各自独立、自己管自己的城镇，凑巧共用同一条河而已。",
+    },
+    summary: {
+      en: "By 1348, \"Prague\" didn't mean one city. It meant a cluster of them, each with its own walls, its own town hall, its own laws, and often its own grudges against the neighbors next door.\n\nStaré Město, Old Town, was the original: a river-crossing marketplace that grew into a chartered town under Wenceslas I in the 1230s. Up on the hill above it sat Hradčany, chartered around 1320 under John of Luxembourg, the town that grew around Prague Castle's own gates. Down below the castle, closer to the water, was Malá Strana, the Lesser Town, founded by Otakar II back in 1257.\n\nSqueezed inside and around Old Town's own walls was a fifth kind of settlement entirely: the Jewish Town, a self-governing Jewish community with its own synagogues and institutions, but never quite a chartered royal town like its neighbors, its legal status always more precarious than theirs. And to the south, on its own defensible hill, sat Vyšehrad, the fortress this timeline has visited since its very first era: sometimes a royal seat in its own right, sometimes a backwater, never quite absorbed into whatever else Prague happened to be at the time.\n\nCharles's New Town, chartered this same year, was simply the newest and by far the largest of the bunch. None of these towns answered to each other. They'd go on sharing a river, a skyline, and remarkably little else for over four centuries, until an emperor finally lost patience and merged them all into a single Prague by decree in 1784.",
+      cz: "Do roku 1348 \"Praha\" neznamenala jedno město. Znamenala hlouček měst, každé s vlastními hradbami, vlastní radnicí, vlastními zákony a často vlastními spory se sousedy hned za rohem.\n\nStaré Město bylo tím původním: tržiště u brodu přes řeku, které vyrostlo v chartované město za Václava I. ve 30. letech 13. století. Nahoře na kopci nad ním leželo Hradčany, chartované kolem roku 1320 za Jana Lucemburského, město, které vyrostlo kolem samotných bran Pražského hradu. Dole pod hradem, blíž k vodě, byla Malá Strana, založená Přemyslem Otakarem II. už v roce 1257.\n\nVmáčknuté dovnitř a kolem hradeb Starého Města bylo úplně páté osídlení: Židovské Město, samosprávná židovská obec s vlastními synagogami a institucemi, ale nikdy tak úplně chartované královské město jako jeho sousedé, jeho právní postavení bylo vždy vratší než jejich. A na jihu, na vlastním obranném kopci, sedělo Vyšehrad, pevnost, kterou tahle časová osa navštívila už od své úplně první éry: někdy vlastní královské sídlo, někdy zapadákov, nikdy tak úplně pohlcený tím, čím zrovna Praha byla.\n\nKarlovo Nové Město, chartované ve stejném roce, bylo prostě to nejnovější a zdaleka největší z celé té skupiny. Žádné z těch měst nebylo tomu druhému nadřazené. Ještě přes čtyři století budou sdílet řeku, obzor a překvapivě málo dalšího, dokud jeden císař konečně neztratil trpělivost a v roce 1784 je nesloučil dekretem do jedné jediné Prahy.",
+      zh: "到1348年为止，\"布拉格\"从来都不是指一座城。它指的是一小群城镇，各自有自己的城墙、自己的市政厅、自己的法律，还常常跟隔壁邻居各有各的过节。\n\n老城（Staré Město）是最早的那一个：本来是河边渡口的一个集市，1230年代瓦茨拉夫一世在位时正式获得城市特许状。老城上方的山坡上，是城堡区（Hradčany），大约1320年约翰在位期间获得特许，就是围着布拉格城堡自己的大门发展起来的那座城。城堡下方、离河更近的地方，是小城（Malá Strana），早在1257年就由奥托卡二世建立。\n\n挤在老城城墙内外的，还有第五种完全不同的聚落：犹太城，一个自己管理自己的犹太社区，有自己的会堂和机构，却从来没像邻居们那样真正拿到过王室特许状，法律地位一直比它们更不稳固。往南边，坐落在自己那座易守难攻的山丘上的，是维谢赫拉德，这条时间线从第一个时代起就去过的那座要塞：有时候自己就是王室驻地，有时候沦为边缘角落，从来没有真正被那个时候不管叫作什么的\"布拉格\"彻底吞并过。\n\n查理的新城，也是同一年获得特许的，只是这群城镇里最新、也远远是最大的一个。这些城镇谁也不归谁管。接下来四百多年，它们会继续共用一条河、一片天际线，除此之外几乎各过各的，直到一位皇帝终于失去耐心，在1784年一纸诏令把它们全都并成了一座布拉格。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Prague",
+  },
+  {
+    slug: "central-europes-first-university-1348",
+    era: "kingdom-golden-age",
+    startYear: 1348.2,
+    images: ["/history/central-europes-first-university-1348.webp"],
+    year: {
+      en: "1348",
+      cz: "1348",
+      zh: "1348年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Central Europe's First University",
+      cz: "První univerzita ve střední Evropě",
+      zh: "中欧第一所大学",
+    },
+    hookLine: {
+      en: "The same 7 April 1348 that gave Bohemia its constitution also gave it a university. Only one of the two is still open for enrollment.",
+      cz: "Stejný 7. duben 1348, který dal Čechám ústavu, dal zemi i univerzitu. Jen jedna z těch dvou dnes ještě přijímá studenty.",
+      zh: "同一个1348年4月7日，既给了波希米亚一部\"宪法\"，也给了它一所大学。这两样东西里，现在还在招生的，只剩一个。",
+    },
+    summary: {
+      en: "Charles hadn't finished his paperwork for the year. He'd already secured Pope Clement VI's blessing back in January 1347, a papal bull authorizing a proper studium generale for the kingdom. On 7 April 1348, the very same day he was busy wiring Silesia permanently into the Bohemian Crown lands, Charles signed the university's own founding charter. One king, one afternoon, two very different kinds of institution.\n\nModeled on Paris and Bologna, the new university offered four faculties: arts, theology, law, and medicine. Students organized themselves into four \"nations,\" Bohemian, Bavarian, Saxon, and Polish, since nobody in Central Europe had anywhere else to go for this kind of education. Vienna wouldn't get its own university until 1365. Kraków waited until 1364. For a while, if you wanted a doctorate north of the Alps and east of Paris, Prague was the only address.\n\nThe grand building people now picture when they hear the university's name, Karolinum, didn't exist yet. For its first decades, lectures happened wherever the faculty could find room: rented halls, church buildings, professors' own houses. The permanent home came together piece by piece, from donated Old Town properties, long after this charter was signed.",
+      cz: "Karel se svým papírováním na ten rok ještě neskončil. Požehnání papeže Klimenta VI. si zajistil už v lednu 1347, papežskou bulou, která povolovala pro království řádné studium generale. 7. dubna 1348, ve stejný den, kdy byl zaneprázdněný natrvalo přišíváním Slezska k českým korunním zemím, podepsal Karel i zakládací listinu univerzity. Jeden král, jedno odpoledne, dvě zcela odlišné instituce.\n\nNová univerzita, vzorovaná podle Paříže a Boloně, nabízela čtyři fakulty: umění, teologii, právo a medicínu. Studenti se organizovali do čtyř \"národů\", českého, bavorského, saského a polského, protože ve střední Evropě prostě nikde jinde tohle vzdělání nezískali. Vídeň dostala vlastní univerzitu až v roce 1365. Krakov čekal do roku 1364. Nějakou dobu platilo, že pokud jste chtěli doktorát severně od Alp a východně od Paříže, Praha byla jediná adresa.\n\nVelkolepá budova, kterou si dnes při jménu univerzity lidé představí, Karolinum, ještě neexistovala. Prvních pár desetiletí se přednášelo, kde se dalo: v pronajatých sálech, v kostelech, v domech samotných profesorů. Trvalé sídlo se skládalo dohromady kousek po kousku, z darovaných domů na Starém Městě, ještě dlouho po podpisu téhle listiny.",
+      zh: "查理这一年的文书工作还没完。早在1347年1月，他就争取到了教皇克莱门特六世的祝福，一道教皇诏书批准王国设立一所正式的\"综合学校\"（studium generale）。1348年4月7日，就在他忙着把西里西亚永久并入波希米亚王冠领地的同一天，查理还签署了大学的建校宪章。一位国王，一个下午，两种完全不同的机构。\n\n这所新大学仿照巴黎和博洛尼亚的模式，设有四个学院：文学、神学、法学、医学。学生们按出身分成四个\"民族团\"：波希米亚、巴伐利亚、萨克森、波兰，因为整个中欧当时根本没有别的地方能接受这种教育。维也纳要到1365年才有自己的大学，克拉科夫等到了1364年。有那么一段时间，只要是阿尔卑斯山以北、巴黎以东想拿博士学位，布拉格是唯一的选择。\n\n如今人们一听到这所大学的名字就会想到的那栋宏伟建筑，卡罗林学院（Karolinum），当时还不存在。头几十年，上课全靠见缝插针：租来的大厅、教堂、教授们自己的家。永久的校舍是后来一点点拼凑起来的，靠的是老城里陆续捐出的房产，比这份宪章的签署晚了很久。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "karolinum",
+        relation: {
+          en: "The university's eventual permanent home, though it didn't exist yet. Karolinum came together piece by piece from donated Old Town houses over the following decades.",
+          cz: "Budoucí trvalé sídlo univerzity, i když v tu chvíli ještě neexistovalo. Karolinum vzniklo postupně z darovaných domů na Starém Městě v následujících desetiletích.",
+          zh: "大学后来的永久校舍，不过当时还不存在。卡罗林学院是接下来几十年里，靠老城陆续捐出的房产一点点拼凑起来的。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_University",
+  },
+  {
+    slug: "a-building-spree-1350",
+    era: "kingdom-golden-age",
+    startYear: 1348.3,
+    images: ["/history/a-building-spree-1350.webp"],
+    year: {
+      en: "1348",
+      cz: "1348",
+      zh: "1348年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Building Spree",
+      cz: "Stavební horečka",
+      zh: "大兴土木",
+    },
+    hookLine: {
+      en: "Charles didn't just rule Bohemia's golden age. He built the thing, brick by brick, castle by castle, for the next three decades.",
+      cz: "Karel český zlatý věk nejen řídil. Příštích třicet let ho doslova stavěl, cihlu po cihle, hrad po hradu.",
+      zh: "查理不只是统治了波希米亚的黄金时代，接下来三十年，他几乎是一砖一瓦、一座城堡接一座城堡地把它盖出来的。",
+    },
+    summary: {
+      en: "Bohemia's golden age wasn't only paperwork and diplomacy. It also had a very literal shape: for the next three decades, Charles built almost everywhere he could reach.\n\nIn Prague alone, 1347 gave the city the Church of Our Lady of the Snows, planned so ambitiously large it was never actually finished to scale. The following year brought Karlštejn Castle, an hour outside town, built for one job: keeping the crown jewels and coronation relics somewhere safer than Prague itself. And once the old Judith Bridge finally gave out in the 1342 floods, Charles started work on its replacement in the 1350s, a stone bridge that would eventually outlast his own name being attached to it.\n\nThe building didn't stop at the city limits. A hunting trip turned into an entire spa town at Karlovy Vary. A gold-rich mountain region got its own high-altitude fortress at Kašperk. Even a fishpond near Bezděz Castle got dug wide enough to eventually pass for a lake. By the time Charles was done, if something could be blessed, fortified, or bathed in, there was a decent chance he'd already ordered it built.",
+      cz: "Zlatý věk Čech nebyl jen papírování a diplomacie. Měl i docela doslovnou podobu: další tři desetiletí Karel stavěl skoro všude, kam dosáhl.\n\nJen v Praze dal rok 1347 městu kostel Panny Marie Sněžné, naplánovaný tak velkoryse, že se ho nakonec nikdy nepodařilo dostavět v plné velikosti. Následující rok přinesl hrad Karlštejn, hodinu cesty od města, postavený kvůli jedinému úkolu: uchovat korunovační klenoty a relikvie někde bezpečněji než v samotné Praze. A jakmile starý Juditin most konečně podlehl povodním roku 1342, Karel se v 50. letech 14. století pustil do stavby jeho náhrady, kamenného mostu, který nakonec přežije i to, že po něm bude pojmenovaný.\n\nStavění se nezastavilo na hranicích města. Z lovecké výpravy vzniklo celé lázeňské město, Karlovy Vary. Zlatonosný horský kraj dostal vlastní vysokohorskou pevnost, Kašperk. Dokonce i rybník u hradu Bezděz vykopali tak široký, že nakonec mohl sloužit za jezero. Než Karel skončil, platilo, že cokoli šlo požehnat, opevnit nebo se v tom vykoupat, docela dobře už mohl mít na svědomí on.",
+      zh: "波希米亚的黄金时代，可不只是文书和外交。它还有一副非常具体的模样：接下来三十年，只要查理伸手够得着的地方，几乎都在动工。\n\n光是布拉格，1347年就迎来了雪之圣母教堂，规划得野心勃勃，大到最后压根没能按原计划盖完。第二年，卡尔什泰因城堡落成，在城外一小时车程的地方，建它就为了一件事：把王冠珠宝和加冕圣物藏在一个比布拉格本身更安全的地方。1342年那场洪水终于冲垮了老朱迪塔桥之后，查理在1350年代动工修建了它的替代品，一座石桥，最后连自己的名字都要靠这座桥留下来。\n\n建设可不止于城墙以内。一次打猎，最后打出了一整座温泉小镇卡罗维发利。一片盛产黄金的山区，得到了自己的高海拔要塞卡什佩尔克。就连贝兹德兹城堡附近的一口鱼塘，都被挖得足够大，后来干脆能当湖用。等查理停手的时候，差不多可以说：只要是能祝圣的、能筑防御工事的、能下水泡澡的，多半都被他下令建过了。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "karlstejn-castle",
+        relation: {
+          en: "Built in 1348 for one job: keeping the crown jewels and coronation relics somewhere safer than Prague itself.",
+          cz: "Postavený roku 1348 kvůli jedinému úkolu: uchovat korunovační klenoty a relikvie někde bezpečněji než v samotné Praze.",
+          zh: "1348年建成，就为了一件事：把王冠珠宝和加冕圣物藏在一个比布拉格本身更安全的地方。",
+        },
+      },
+      {
+        slug: "charles-bridge",
+        relation: {
+          en: "Charles's replacement for the old Judith Bridge, washed out by the 1342 floods, begun in the 1350s and still standing centuries later.",
+          cz: "Karlova náhrada za starý Juditin most, zničený povodněmi roku 1342, jejíž stavba začala v 50. letech 14. století a stojí dodnes.",
+          zh: "查理为替代1342年洪水冲毁的老朱迪塔桥而建，1350年代动工，几百年后依然屹立。",
+        },
+      },
+      {
+        slug: "kostel-panny-marie-snezne",
+        relation: {
+          en: "Founded in 1347, planned so ambitiously large it was never actually finished to its original scale.",
+          cz: "Založený roku 1347, naplánovaný tak velkoryse, že se ho nakonec nikdy nepodařilo dostavět v plné velikosti.",
+          zh: "1347年奠基，规划得野心勃勃，大到最后压根没能按原计划盖完。",
+        },
+      },
+      {
+        slug: "karlovy-vary",
+        relation: {
+          en: "The spa town this whole building spree's stranger side produced, supposedly all because of one unlucky hunting dog.",
+          cz: "Lázeňské město, které je podivnějším plodem celé téhle stavební horečky, prý díky jednomu nešťastnému loveckému psovi.",
+          zh: "这场建设热潮里比较离奇的产物——一整座温泉小镇，据说全都要归功于一只倒霉的猎犬。",
+        },
+      },
+      {
+        slug: "kasperk-castle",
+        relation: {
+          en: "Bohemia's highest royal castle, built to guard a gold-rich mountain region and the trade route running through it.",
+          cz: "Nejvýše položený český královský hrad, postavený na ochranu zlatonosného horského kraje a obchodní stezky, která jím vedla.",
+          zh: "波希米亚地势最高的王室城堡，建来守护一片盛产黄金的山区，以及穿过它的商路。",
+        },
+      },
+      {
+        slug: "lake-macha",
+        relation: {
+          en: "Originally just a fishpond Charles had dug near Bezděz Castle, wide enough that centuries later it gets called a lake.",
+          cz: "Původně jen rybník, který Karel nechal vykopat u hradu Bezděz, natolik široký, že se mu o staletí později začalo říkat jezero.",
+          zh: "最初只是查理在贝兹德兹城堡附近下令挖的一口鱼塘，挖得够大，几个世纪后干脆被叫成了湖。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_IV,_Holy_Roman_Emperor",
+  },
+  // Deliberately restrained, non-comic tone for this one — a personal death,
+  // not the era's default register. See the file-wide voice note.
+  {
+    slug: "great-joy-great-sorrow-1348",
+    era: "kingdom-golden-age",
+    startYear: 1348.4,
+    images: ["/history/great-joy-great-sorrow-1348.webp"],
+    year: {
+      en: "1348",
+      cz: "1348",
+      zh: "1348年",
+    },
+    tone: "serious",
+    title: {
+      en: "Great Joy, Great Sorrow",
+      cz: "Velká radost, velký žal",
+      zh: "大喜大悲",
+    },
+    hookLine: {
+      en: "1348 gave Charles a university, a new district, and two crowns. That same summer, it took the person he'd loved the longest.",
+      cz: "Rok 1348 dal Karlovi univerzitu, novou čtvrť a dvě koruny. Téhož léta mu vzal člověka, kterého miloval nejdéle ze všech.",
+      zh: "1348年给了查理一所大学、一片新城区、两顶王冠。同一个夏天，它也带走了他这辈子爱得最久的那个人。",
+    },
+    summary: {
+      en: "By midsummer 1348, Charles had a university, a new district tripling his capital's size, and two crowns confirmed in law. On paper, no year of his reign had gone better. Then, on 1 August, his wife died.\n\nBlanche of Valois had been part of Charles's life since before either of them could have understood what a political marriage even meant. They were promised to each other as children at the French court in 1323, married six years later, and by the time Charles brought her to Prague in 1334, she'd already spent more of her childhood at his side than apart from it. She'd worn the crown of Bohemia for less than a year, crowned alongside him in September 1347, and the crown of the Romans for less time still.\n\nShe died in Prague on 1 August 1348 after a brief illness, only 32 years old. It wasn't the plague; the Black Death wouldn't reach Bohemia for another two years yet. Whatever it actually was, it moved fast enough that no one ever wrote down exactly what killed her.\n\nCharles had spent the whole year building things meant to last centuries. The one thing he couldn't build his way out of was losing her, and grief, as it turned out, wasn't finished with him yet.",
+      cz: "Do poloviny léta 1348 měl Karel univerzitu, novou čtvrť, která ztrojnásobila jeho hlavní město, a dvě koruny potvrzené zákonem. Na papíře nešel žádný rok jeho vlády lépe. Pak, 1. srpna, mu zemřela žena.\n\nBlanka z Valois byla součástí Karlova života ještě dřív, než mohl kdokoli z nich pochopit, co politický sňatek vlastně znamená. Zaslíbili si je jako děti u francouzského dvora v roce 1323, sezdali o šest let později, a než ji Karel v roce 1334 přivezl do Prahy, strávila po jeho boku už víc dětství než mimo něj. Českou korunu nosila necelý rok, korunovanou po jeho boku v září 1347, a římskou korunu ještě kratší dobu.\n\nZemřela v Praze 1. srpna 1348 po krátké nemoci, ve věku pouhých 32 let. Nebyl to mor. Černá smrt do Čech dorazí až o dva roky později. Ať to bylo cokoli, postupovalo to natolik rychle, že nikdo nikdy nezapsal, co ji přesně zabilo.\n\nKarel strávil celý ten rok stavěním věcí, které měly vydržet celá staletí. Jediné, co si postavit nedokázal, byla cesta ven z jejího ztráty, a žal, jak se ukázalo, s ním ještě neskončil.",
+      zh: "到1348年年中，查理手里已经握着一所大学、一片让首都面积翻了三倍的新城区，还有两顶依法确认的王冠。纸面上看，他在位期间没有哪一年比这更顺。可就在8月1日，他的妻子去世了。\n\n瓦卢瓦的布兰奇，在两人都还不可能懂得政治联姻到底意味着什么之前，就已经是查理人生的一部分了。1323年，两人还是孩子的时候，就在法国宫廷被许配给了对方，六年后成婚；等到1334年查理把她带回布拉格时，她陪在他身边的童年时光，其实已经比不在他身边的更长。她戴上波希米亚王后的王冠还不到一年，1347年9月与他一同加冕，戴上罗马人的王后这顶冠冕的时间更短。\n\n她1348年8月1日在布拉格因一场来得突然的病去世，年仅32岁。不是瘟疫，黑死病要再过两年才会传到波希米亚。不管到底是什么病，它来得太快，没人留下确切记载，说清楚到底是什么夺走了她的命。\n\n查理这一整年都在建造那些注定要挺过几个世纪的东西。唯独失去她这件事，他没法靠建造走出来。而事实证明，悲伤，还没跟他算完账。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Where Blanche was laid to rest, in the crypt of the cathedral whose own foundation stone Charles's father had helped lay four years earlier.",
+          cz: "Kde Blanka nalezla poslední odpočinek, v kryptě katedrály, jejíž základní kámen před čtyřmi lety pomáhal pokládat Karlův vlastní otec.",
+          zh: "布兰奇长眠之地，就在这座大教堂的地下墓室里，而四年前，正是查理的父亲协助为这座大教堂奠下了第一块基石。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Blanche_of_Valois",
+  },
 ];
 
 async function run() {

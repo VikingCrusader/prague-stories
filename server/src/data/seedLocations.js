@@ -24371,6 +24371,104 @@ Dvacáté století dalo městu úplně jinou pověst. Architekti Jan Kotěra a J
 🎁 彩蛋：埃丽什卡·雷奇卡自己的履历，让赫拉德茨看起来只是她漫长人生路上的一站。她两度加冕为王后，先是瓦茨拉夫二世的妻子，后来又短暂嫁给了鲁道夫一世；晚年守寡后，她最终离开了这座城市，在布尔诺度过了人生最后的十年，陪伴她的是相伴多年的伴侣、利佩的亨利——正是这条时间线已经花了不少篇幅讲过的那位权谋人物。`,
     },
   },
+  // Added 2026-08-27, part of the History Timeline's "a-flurry-of-building"
+  // card covering Charles IV's construction program beyond just Prague.
+  // Karlovy Vary follows the Olomouc/Brno/Plzeň "one long card" city template
+  // even though it's a spa town rather than a political/administrative
+  // center — its fame is genuinely on that scale.
+  {
+    name: 'Karlovy Vary',
+    slug: 'karlovy-vary',
+    localizedNames: { cz: 'Karlovy Vary', zh: '卡罗维发利' },
+    labels: ['city'],
+    coordinates: { lat: 50.229568978081105, lng: 12.86821490014565 },
+    rarity: 'legend',
+    xpReward: 100,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Karlovy_Vary',
+    description: {
+      en: `Legend says it started with a dog. Charles IV was out hunting when one of his hounds chased a stag straight into a scalding spring, yelped once, and came out with nothing worse than wet fur. The king took the hint, and Bohemia got its most famous spa town.
+
+The Teplá river valley sits on top of more than a dozen mineral hot springs, some hot enough to boil an egg. Charles formally chartered the settlement as a free royal town on 14 August 1370, and "Vary," the baths, eventually became "Karlovy Vary," Charles's baths. For the next five centuries, it stayed exactly that: the place Europe's rulers, composers, and hypochondriacs went to soak. Peter the Great visited twice. Goethe kept coming back for decades. Beethoven, Bach, and half of the Habsburg family all took the waters here at one point or another.
+
+The spa culture that grew up around the springs is still the town's whole identity: colonnaded walkways where visitors sip mineral water from special spouted cups, grand 19th-century bathhouses, and a herbal liqueur, Becherovka, invented here in 1807 that's still made from a recipe only two people alive are trusted with. Since 1946 the town has also hosted one of Europe's oldest film festivals, drawing a very different kind of crowd for two weeks every summer.
+
+🎁 Bonus: the town's hottest and most dramatic spring, the Vřídlo, isn't sipped from a cup. It's a natural geyser that shoots boiling water up to 12 meters into the air, all on its own, no pump required.`,
+      cz: `Podle legendy to začalo se psem. Karel IV. byl na lovu, když jeden z jeho psů honil jelena přímo do vroucího pramene, jednou zaskučel a vyvázl jen s mokrou srstí. Král pochopil narážku, a Čechy tak získaly své nejslavnější lázeňské město.
+
+Údolí řeky Teplé leží nad více než tuctem minerálních horkých pramenů, některé dost horké na to, aby v nich uvařili vejce. Karel osadu formálně povýšil na svobodné královské město 14. srpna 1370, a "Vary" se nakonec staly "Karlovými Vary". Dalších pět století zůstalo přesně tím, čím se stalo tehdy: místem, kam se panovníci, skladatelé a hypochondři celé Evropy jezdili máčet. Petr Veliký sem přijel dvakrát. Goethe se vracel celá desetiletí. Beethoven, Bach a polovina habsburské rodiny si tu v nějaké chvíli léčili žaludek.
+
+Lázeňská kultura, která kolem pramenů vznikla, je dodnes celou identitou města: kolonády, kde se z pramenů pijí minerálky ze speciálních kalíšků s nosičem, honosné lázeňské domy z 19. století a bylinný likér Becherovka, vynalezený tu v roce 1807 a dodnes vyráběný podle receptu, který zná jen dvojice žijících lidí. Od roku 1946 tu navíc funguje jeden z nejstarších filmových festivalů v Evropě, který sem každé léto na dva týdny přiláká úplně jiný druh davu.
+
+🎁 Bonus: nejhorkejší a nejdramatičtější pramen města, Vřídlo, se z kalíšku nepije. Je to přírodní gejzír, který sám od sebe vystřeluje vroucí vodu až 12 metrů do vzduchu, bez jakéhokoli čerpadla.`,
+      zh: `传说这一切始于一条狗。查理四世出猎时，一只猎犬追着鹿一头扎进了滚烫的泉水里，惨叫一声，出来时除了毛湿了没别的事。国王领会到了暗示，波希米亚从此有了自己最著名的温泉小镇。
+
+泰普拉河谷下面藏着十几处矿泉热泉，有些烫到能煮熟鸡蛋。1370年8月14日，查理正式把这处聚落封为自由王室城镇，"Vary"（浴场）后来渐渐变成了"Karlovy Vary"（查理的浴场）。接下来五百年，它做的就是这一件事：整个欧洲的君主、作曲家和疑病症患者，都来这泡水。彼得大帝来过两次。歌德一来就是好几十年。贝多芬、巴赫，还有半个哈布斯堡家族，都在这治过胃病。
+
+围着泉水生长出来的这套温泉文化，至今仍是小镇的全部身份：柱廊步道上，游客用带把手的特制小杯啜饮矿泉水，19世纪的豪华浴场建筑，还有一款1807年在这里发明的草本利口酒贝赫洛夫卡（Becherovka），至今只有两个活人知道完整配方。1946年起，这里还举办着欧洲历史最悠久的电影节之一，每年夏天吸引完全不同的一批人来这待上两周。
+
+🎁 彩蛋：小镇最热、最戏剧化的那处泉水弗日德洛（Vřídlo），可不是拿杯子喝的。它是一处天然间歇泉，不用任何泵，自己就能把滚烫的泉水喷到12米高的空中。`,
+    },
+  },
+  {
+    name: 'Kašperk Castle',
+    slug: 'kasperk-castle',
+    localizedNames: { cz: 'Hrad Kašperk', zh: '卡什佩尔克城堡' },
+    labels: ['castle and fortress', 'historical', 'architecture'],
+    coordinates: { lat: 49.16608859426751, lng: 13.563807317883887 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Ka%C5%A1perk_Castle',
+    description: {
+      en: `Bohemia's highest royal castle doesn't guard a river or a city. It guards gold. Charles IV built Kašperk 886 meters up in the Šumava mountains for one job: keeping the region's gold mines, and the trade route running past them, safely in Bohemian hands.
+
+Founded in 1356, Kašperk sat directly on the "Golden Route," the trade road linking Bohemia to Bavaria and, through it, to the wealthy markets of western Europe. The gold-rich hills around Kašperské Hory made the whole area worth guarding twice over: once for the trade passing through, once for the metal coming out of the ground. True to form for a Charles IV project, the castle never actually housed a king. Like most royal castles of the period, it was handed to pledge-holders who managed the region's administration and justice in the king's name. Its first was Jan Očko of Vlašim, soon to become Bohemia's second archbishop and its very first Czech cardinal.
+
+🎁 Bonus: at 886 meters above sea level, Kašperk still holds the record as the highest-altitude royal castle ever built in Bohemia, a title that's stayed unchallenged for nearly seven centuries.`,
+      cz: `Nejvýše položený český královský hrad nestřeží řeku ani město. Střeží zlato. Karel IV. postavil Kašperk 886 metrů vysoko v šumavských horách kvůli jedinému úkolu: udržet místní zlaté doly a obchodní stezku, která kolem nich vedla, bezpečně v českých rukou.
+
+Kašperk, založený roku 1356, ležel přímo na "Zlaté stezce", obchodní cestě spojující Čechy s Bavorskem a skrze něj s bohatými trhy západní Evropy. Zlatonosné kopce kolem Kašperských Hor stály za dvojnásobnou ochranu: jednou kvůli obchodu, který tudy procházel, podruhé kvůli kovu, který se dobýval ze země. Typicky pro projekt Karla IV. hrad ve skutečnosti nikdy nesloužil jako sídlo krále. Jako většina tehdejších královských hradů byl svěřen zástavním držitelům, kteří v králově jménu spravovali kraj a soudili. Prvním z nich byl Jan Očko z Vlašimi, brzy druhý pražský arcibiskup a vůbec první český kardinál.
+
+🎁 Bonus: v nadmořské výšce 886 metrů drží Kašperk dodnes rekord nejvýše položeného královského hradu, jaký byl kdy v Čechách postaven, titul, který mu nikdo za skoro sedm století nesebral.`,
+      zh: `波希米亚地势最高的王室城堡，守的既不是河流，也不是城市，而是黄金。查理四世在舒马瓦山区海拔886米处建起卡什佩尔克城堡，只为一件事：把当地的金矿，以及经过金矿的商路，牢牢握在波希米亚人手里。
+
+卡什佩尔克建于1356年，正好卡在"黄金之路"上，也就是连接波希米亚和巴伐利亚、并借此通往西欧富庶市场的商道。卡什佩尔山周边盛产黄金的丘陵，值得双重守护：一重是为了过路的商队，一重是为了从地里挖出来的黄金本身。跟查理四世的很多项目一样，这座城堡从来没真正住过国王。跟当时大多数王室城堡一样，它被交给了抵押持有人打理，代国王管理这一片地区的行政和司法事务。第一位持有人是弗拉希姆的扬·奥兹科，不久后成为波希米亚第二任总主教，也是第一位捷克籍枢机主教。
+
+🎁 彩蛋：海拔886米的卡什佩尔克，至今仍保持着波希米亚有史以来海拔最高的王室城堡这一纪录，将近七百年都没被打破过。`,
+    },
+  },
+  {
+    name: 'Lake Mácha',
+    slug: 'lake-macha',
+    localizedNames: { cz: 'Máchovo jezero', zh: '马哈湖' },
+    labels: ['nature', 'historical'],
+    coordinates: { lat: 50.575453658104976, lng: 14.650995686278293 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/M%C3%A1chovo_jezero',
+    description: {
+      en: `Charles IV didn't just build castles and bridges. Sometimes he just wanted a really big pond. In 1366 he had one dug near Bezděz Castle purely to raise fish, and five centuries later it became one of Bohemia's most romantic lakes.
+
+Charles and his burgrave Oldřich Tista of Libštejn built what they simply called the Great Pond, an artificial fishpond meant to feed the region rather than impress anyone. At roughly 2.84 square kilometers, it's still the largest body of water in the area, big enough that most people forget it was ever man-made. Two small islands, Myší and Kachní, sit in the middle, now off-limits to visitors and left to the birds that nest there.
+
+The pond's second life started in the 1830s, when the young Romantic poet Karel Hynek Mácha visited at least six times and used it as the setting for his most famous poem, Máj (May). Bohemia eventually renamed the lake after him rather than after the king who dug it. Charles built plenty of things that still carry his own name. This isn't one of them.
+
+🎁 Bonus: Bezděz Castle, an out-of-town exception this timeline has already covered, sits on a hill overlooking the water Charles ordered dug five centuries before anyone read Mácha's poetry beside it.`,
+      cz: `Karel IV. nestavěl jen hrady a mosty. Někdy chtěl prostě jen pořádně velký rybník. V roce 1366 nechal jeden vyhloubit poblíž hradu Bezděz čistě kvůli chovu ryb, a o pět století později se z něj stalo jedno z nejromantičtějších jezer v Čechách.
+
+Karel se svým purkrabím Oldřichem Tistou z Libštejna vybudovali to, čemu prostě říkali Velký rybník, umělou vodní plochu určenou k tomu, aby živila kraj, ne aby na někoho udělala dojem. S rozlohou zhruba 2,84 kilometru čtverečního je dodnes největší vodní plochou v okolí, tak velkou, že většina lidí zapomíná, že je vůbec uměle vytvořená. Uprostřed leží dva malé ostrůvky, Myší a Kachní, dnes pro návštěvníky uzavřené a ponechané ptákům, kteří tam hnízdí.
+
+Druhý život rybníka začal ve 30. letech 19. století, kdy ho mladý romantický básník Karel Hynek Mácha navštívil nejméně šestkrát a použil ho jako dějiště své nejslavnější básně, Máj. Čechy nakonec jezero pojmenovaly po něm, ne po králi, který ho nechal vykopat. Karel postavil spoustu věcí, které dodnes nesou jeho jméno. Tohle mezi ně nepatří.
+
+🎁 Bonus: hrad Bezděz, výjimka mimo město, kterou tahle časová osa už probrala, sedí na kopci s výhledem na vodu, kterou Karel nechal vykopat celých pět století předtím, než si u ní kdokoli přečetl Máchovu poezii.`,
+      zh: `查理四世可不只盖城堡和大桥。有时候他就是想要一个特别大的池塘。1366年，他下令在贝兹德兹城堡附近挖了一个，纯粹是为了养鱼，五百年后，它变成了波希米亚最富浪漫气息的一片湖水。
+
+查理和他的城堡总管利布什滕的奥德日赫·蒂斯塔，建的这个东西，两人当时就简简单单叫它"大池塘"，是一片人工鱼塘，为的是养活当地人，不是为了给谁留下印象。它面积大约2.84平方公里，至今仍是这一带最大的水域，大到大多数人都忘了它其实是人工挖出来的。池塘中央有两座小岛，"老鼠岛"和"鸭子岛"，如今不对游客开放，留给在那筑巢的鸟类。
+
+这片池塘的第二段人生始于1830年代，年轻的浪漫主义诗人卡雷尔·希内克·马哈至少来过六次，把它写进了自己最著名的长诗《五月》（Máj）的场景里。波希米亚人后来干脆用他的名字给这片湖重新命名，而不是用下令挖出它的那位国王的名字。查理造过很多至今还挂着他名字的东西。这个不是其中之一。
+
+🎁 彩蛋：贝兹德兹城堡——这条时间线已经讲过的那个"出城例外"案例——就坐落在山上，俯瞰着这片湖水；查理下令挖这片湖，比任何人在湖边读到马哈的诗句，早了整整五个世纪。`,
+    },
+  },
 ];
 
 async function run() {
