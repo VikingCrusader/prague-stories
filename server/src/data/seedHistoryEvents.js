@@ -4959,6 +4959,14 @@ export const historyEvents = [
           zh: "年幼的瓦茨拉夫（还不满三岁）在1319年被约翰夺走后，就是被安置在这座城堡里，与母亲分开——正是这张卡片开头提到的那次早年出场。",
         },
       },
+      {
+        slug: "karluv-stanek",
+        relation: {
+          en: "Legend says Charles paused here on Havlín hill during this very journey home. From this spot he could see both Prague ahead of him and, below at Zbraslav, his mother Elizabeth's grave. The pavilion itself is a 19th-century addition, but the sightline it marks belongs to this exact return.",
+          cz: "Podle legendy se Karel na Havlíně zastavil právě během téhle cesty domů. Z tohoto místa viděl jak Prahu před sebou, tak dole na Zbraslavi hrob své matky Elišky. Sám pavilon je přírůstek 19. století, ale výhled, který označuje, patří přesně k tomuto návratu.",
+          zh: "传说查理正是在这次回国途中，在哈弗林山顶停下了脚步。从这里，他既能望见前方的布拉格，也能望见山下兹布拉斯拉夫他母亲埃丽什卡的坟墓。亭子本身是19世纪后来加建的，但它标记的这处视野，正属于这次归途。",
+        },
+      },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_IV,_Holy_Roman_Emperor",
   },
@@ -5634,9 +5642,9 @@ export const historyEvents = [
       zh: "查理出兵，打算让路易四世为多年的抗命付出代价。可路易先中风死了，一场战争就这样变成了一场巡游。",
     },
     summary: {
-      en: "Charles spent the rest of 1347 doing what a freshly crowned king of two thrones does: getting his own house in order. Then he mustered an army and set out for the Bavarian border, ready to give Louis IV the lesson the old emperor had been asking for.\n\nHe never got the chance. Word reached him on the road: Louis IV had suffered a stroke while out bear hunting near Munich and dropped dead on 11 October 1347. The empire's most stubborn feud of the decade had just resolved itself, mid-hunt, without Charles lifting a sword.\n\nThe march kept going anyway, just as something else entirely. City after city threw open its gates instead of its defenses: Regensburg, Nuremberg, Strasbourg, Basel, Speyer, Ulm. Smaller towns sent their own envoys, paying tribute and asking Charles to confirm the privileges they already held. He said yes almost everywhere, handing out rights, exemptions, and pardons with the easy generosity of a man who understood exactly what loyalty was worth when it was cheap to buy.\n\nHis foresight didn't stop at the border. His father had died fighting for France, and Charles had no interest in inheriting an English grudge along with the throne. He cut the Luxembourg alliance with France loose and declared Bohemia neutral in the Hundred Years' War, a war his own family had just spilled blood in. John died loyal to a friend. Charles decided loyalty was a luxury a new King of the Romans couldn't quite afford.",
-      cz: "Karel strávil zbytek roku 1347 tím, co dělá čerstvě korunovaný král dvou trůnů: dával do pořádku vlastní dům. Pak svolal vojsko a vydal se k bavorské hranici, připravený uštědřit Ludvíkovi IV. lekci, o kterou si starý císař sám řekl.\n\nPříležitost ale nedostal. Na cestě ho dostihla zpráva: Ludvík IV. dostal mrtvici při lovu na medvěda poblíž Mnichova a 11. října 1347 na místě zemřel. Nejtvrdohlavější spor toho desetiletí se vyřešil sám, uprostřed honu, aniž Karel tasil meč.\n\nPochod pokračoval dál, jen jako něco úplně jiného. Město za městem otevíralo brány místo obrany: Řezno, Norimberk, Štrasburk, Basilej, Špýr, Ulm. Menší města posílala vlastní vyslance, platila poplatky a žádala Karla, aby jim potvrdil privilegia, která už měla. Souhlasil skoro všude, rozdával práva, výjimky a milosti s lehkostí muže, který přesně věděl, kolik je věrnost hodná, když se dá koupit levně.\n\nJeho prozíravost nekončila na hranici. Jeho otec zemřel v boji za Francii, a Karel neměl nejmenší chuť zdědit spolu s trůnem i anglickou zášť. Odstřihl lucemburské spojenectví s Francií a prohlásil Čechy za neutrální ve stoleté válce, ve válce, ve které jeho vlastní rodina teprve nedávno prolila krev. Jan zemřel věrný příteli. Karel usoudil, že věrnost je pro nového římského krále přepych, který si nemůže úplně dovolit.",
-      zh: "查理把1347年剩下的时间用来做一位刚加冕两顶王冠的国王该做的事：先把自己家里的事理顺。之后他集结军队，向巴伐利亚边境进发，准备给这位老皇帝一个他自己讨来的教训。\n\n可他没等到这个机会。行军路上传来消息：路易四世在慕尼黑附近打猎熊时突发中风，1347年10月11日当场去世。这个世纪以来最难缠的一场纠纷，就这样在一场狩猎中自行了结，查理连剑都没拔。\n\n行军还在继续，只是变成了完全不同的一件事。一座又一座城市敞开城门，而不是竖起防线：雷根斯堡、纽伦堡、斯特拉斯堡、巴塞尔、施佩耶尔、乌尔姆。更小的城镇也派来自己的使者，进贡纳税，请求查理确认他们原本就有的特权。查理几乎有求必应，慷慨地授予权利、豁免和赦免，那种慷慨透着一份清醒：他很清楚，忠诚这东西，只要买得便宜，就值得买。\n\n他的算盘，可不止打到帝国边境为止。父亲是为法兰西而战死的，查理可没兴趣连同王位一起，继承一份英格兰的世仇。他斩断了卢森堡家族跟法兰西的同盟，宣布波希米亚在百年战争中保持中立，而这场战争，他自己的家族才刚刚在里面流过血。约翰至死都忠于一位朋友。查理却觉得，对一位刚上任的罗马人的国王来说，忠诚是种奢侈，他负担不起。",
+      en: "Charles spent the rest of 1347 doing what a freshly crowned king of two thrones does: getting his own house in order. Then he mustered an army and set out for the Bavarian border, ready to give Louis IV the lesson the old emperor had been asking for.\n\nHe never got the chance. Word reached him on the road: Louis IV had suffered a stroke while out bear hunting near Munich and dropped dead on 11 October 1347. The empire's most stubborn feud of the decade had just resolved itself, mid-hunt, without Charles lifting a sword.\n\nThe march kept going anyway, just as something else entirely. City after city threw open its gates instead of its defenses: Regensburg, Nuremberg, Strasbourg, Basel, Speyer, Ulm. Smaller towns sent their own envoys, paying tribute and asking Charles to confirm the privileges they already held. He said yes almost everywhere, handing out rights, exemptions, and pardons with the easy generosity of a man who understood exactly what loyalty was worth when it was cheap to buy.",
+      cz: "Karel strávil zbytek roku 1347 tím, co dělá čerstvě korunovaný král dvou trůnů: dával do pořádku vlastní dům. Pak svolal vojsko a vydal se k bavorské hranici, připravený uštědřit Ludvíkovi IV. lekci, o kterou si starý císař sám řekl.\n\nPříležitost ale nedostal. Na cestě ho dostihla zpráva: Ludvík IV. dostal mrtvici při lovu na medvěda poblíž Mnichova a 11. října 1347 na místě zemřel. Nejtvrdohlavější spor toho desetiletí se vyřešil sám, uprostřed honu, aniž Karel tasil meč.\n\nPochod pokračoval dál, jen jako něco úplně jiného. Město za městem otevíralo brány místo obrany: Řezno, Norimberk, Štrasburk, Basilej, Špýr, Ulm. Menší města posílala vlastní vyslance, platila poplatky a žádala Karla, aby jim potvrdil privilegia, která už měla. Souhlasil skoro všude, rozdával práva, výjimky a milosti s lehkostí muže, který přesně věděl, kolik je věrnost hodná, když se dá koupit levně.",
+      zh: "查理把1347年剩下的时间用来做一位刚加冕两顶王冠的国王该做的事：先把自己家里的事理顺。之后他集结军队，向巴伐利亚边境进发，准备给这位老皇帝一个他自己讨来的教训。\n\n可他没等到这个机会。行军路上传来消息：路易四世在慕尼黑附近打猎熊时突发中风，1347年10月11日当场去世。这个世纪以来最难缠的一场纠纷，就这样在一场狩猎中自行了结，查理连剑都没拔。\n\n行军还在继续，只是变成了完全不同的一件事。一座又一座城市敞开城门，而不是竖起防线：雷根斯堡、纽伦堡、斯特拉斯堡、巴塞尔、施佩耶尔、乌尔姆。更小的城镇也派来自己的使者，进贡纳税，请求查理确认他们原本就有的特权。查理几乎有求必应，慷慨地授予权利、豁免和赦免，那种慷慨透着一份清醒：他很清楚，忠诚这东西，只要买得便宜，就值得买。",
     },
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_IV,_Holy_Roman_Emperor",
@@ -5831,10 +5839,24 @@ export const historyEvents = [
       zh: "查理不只是统治了波希米亚的黄金时代，接下来三十年，他几乎是一砖一瓦、一座城堡接一座城堡地把它盖出来的。",
     },
     summary: {
-      en: "Bohemia's golden age wasn't only paperwork and diplomacy. It also had a very literal shape: for the next three decades, Charles built almost everywhere he could reach.\n\nIn Prague alone, 1347 gave the city the Church of Our Lady of the Snows, planned so ambitiously large it was never actually finished to scale. The following year brought Karlštejn Castle, an hour outside town, built for one job: keeping the crown jewels and coronation relics somewhere safer than Prague itself. And once the old Judith Bridge finally gave out in the 1342 floods, Charles started work on its replacement in the 1350s, a stone bridge that would eventually outlast his own name being attached to it.\n\nThe building didn't stop at the city limits. A hunting trip turned into an entire spa town at Karlovy Vary. A gold-rich mountain region got its own high-altitude fortress at Kašperk. Even a fishpond near Bezděz Castle got dug wide enough to eventually pass for a lake. By the time Charles was done, if something could be blessed, fortified, or bathed in, there was a decent chance he'd already ordered it built.",
-      cz: "Zlatý věk Čech nebyl jen papírování a diplomacie. Měl i docela doslovnou podobu: další tři desetiletí Karel stavěl skoro všude, kam dosáhl.\n\nJen v Praze dal rok 1347 městu kostel Panny Marie Sněžné, naplánovaný tak velkoryse, že se ho nakonec nikdy nepodařilo dostavět v plné velikosti. Následující rok přinesl hrad Karlštejn, hodinu cesty od města, postavený kvůli jedinému úkolu: uchovat korunovační klenoty a relikvie někde bezpečněji než v samotné Praze. A jakmile starý Juditin most konečně podlehl povodním roku 1342, Karel se v 50. letech 14. století pustil do stavby jeho náhrady, kamenného mostu, který nakonec přežije i to, že po něm bude pojmenovaný.\n\nStavění se nezastavilo na hranicích města. Z lovecké výpravy vzniklo celé lázeňské město, Karlovy Vary. Zlatonosný horský kraj dostal vlastní vysokohorskou pevnost, Kašperk. Dokonce i rybník u hradu Bezděz vykopali tak široký, že nakonec mohl sloužit za jezero. Než Karel skončil, platilo, že cokoli šlo požehnat, opevnit nebo se v tom vykoupat, docela dobře už mohl mít na svědomí on.",
-      zh: "波希米亚的黄金时代，可不只是文书和外交。它还有一副非常具体的模样：接下来三十年，只要查理伸手够得着的地方，几乎都在动工。\n\n光是布拉格，1347年就迎来了雪之圣母教堂，规划得野心勃勃，大到最后压根没能按原计划盖完。第二年，卡尔什泰因城堡落成，在城外一小时车程的地方，建它就为了一件事：把王冠珠宝和加冕圣物藏在一个比布拉格本身更安全的地方。1342年那场洪水终于冲垮了老朱迪塔桥之后，查理在1350年代动工修建了它的替代品，一座石桥，最后连自己的名字都要靠这座桥留下来。\n\n建设可不止于城墙以内。一次打猎，最后打出了一整座温泉小镇卡罗维发利。一片盛产黄金的山区，得到了自己的高海拔要塞卡什佩尔克。就连贝兹德兹城堡附近的一口鱼塘，都被挖得足够大，后来干脆能当湖用。等查理停手的时候，差不多可以说：只要是能祝圣的、能筑防御工事的、能下水泡澡的，多半都被他下令建过了。",
+      en: "Bohemia's golden age wasn't only paperwork and diplomacy. It also had a very literal shape: for the next three decades, Charles built almost everywhere he could reach.\n\nIn Prague alone, 1347 gave the city the Church of Our Lady of the Snows, planned so ambitiously large it was never actually finished to scale. The following year brought Karlštejn Castle, an hour outside town, built for one job: keeping the crown jewels and coronation relics somewhere safer than Prague itself. Charles explained the castle's own purpose in his own words.\n\n[[quote:0]]\n\nOnce the old Judith Bridge finally gave out in the 1342 floods, Charles started work on its replacement in the 1350s, a stone bridge that would eventually outlast his own name being attached to it.\n\nThe building didn't stop at the city limits. A hunting trip turned into an entire spa town at Karlovy Vary. A gold-rich mountain region got its own high-altitude fortress at Kašperk. Even a fishpond near Bezděz Castle got dug wide enough to eventually pass for a lake. By the time Charles was done, if something could be blessed, fortified, or bathed in, there was a decent chance he'd already ordered it built.",
+      cz: "Zlatý věk Čech nebyl jen papírování a diplomacie. Měl i docela doslovnou podobu: další tři desetiletí Karel stavěl skoro všude, kam dosáhl.\n\nJen v Praze dal rok 1347 městu kostel Panny Marie Sněžné, naplánovaný tak velkoryse, že se ho nakonec nikdy nepodařilo dostavět v plné velikosti. Následující rok přinesl hrad Karlštejn, hodinu cesty od města, postavený kvůli jedinému úkolu: uchovat korunovační klenoty a relikvie někde bezpečněji než v samotné Praze. Karel sám vysvětlil účel hradu vlastními slovy.\n\n[[quote:0]]\n\nJakmile starý Juditin most konečně podlehl povodním roku 1342, Karel se v 50. letech 14. století pustil do stavby jeho náhrady, kamenného mostu, který nakonec přežije i to, že po něm bude pojmenovaný.\n\nStavění se nezastavilo na hranicích města. Z lovecké výpravy vzniklo celé lázeňské město, Karlovy Vary. Zlatonosný horský kraj dostal vlastní vysokohorskou pevnost, Kašperk. Dokonce i rybník u hradu Bezděz vykopali tak široký, že nakonec mohl sloužit za jezero. Než Karel skončil, platilo, že cokoli šlo požehnat, opevnit nebo se v tom vykoupat, docela dobře už mohl mít na svědomí on.",
+      zh: "波希米亚的黄金时代，可不只是文书和外交。它还有一副非常具体的模样：接下来三十年，只要查理伸手够得着的地方，几乎都在动工。\n\n光是布拉格，1347年就迎来了雪之圣母教堂，规划得野心勃勃，大到最后压根没能按原计划盖完。第二年，卡尔什泰因城堡落成，在城外一小时车程的地方，建它就为了一件事：把王冠珠宝和加冕圣物藏在一个比布拉格本身更安全的地方。查理自己曾亲口解释过这座城堡的用意。\n\n[[quote:0]]\n\n1342年那场洪水终于冲垮了老朱迪塔桥之后，查理在1350年代动工修建了它的替代品，一座石桥，最后连自己的名字都要靠这座桥留下来。\n\n建设可不止于城墙以内。一次打猎，最后打出了一整座温泉小镇卡罗维发利。一片盛产黄金的山区，得到了自己的高海拔要塞卡什佩尔克。就连贝兹德兹城堡附近的一口鱼塘，都被挖得足够大，后来干脆能当湖用。等查理停手的时候，差不多可以说：只要是能祝圣的、能筑防御工事的、能下水泡澡的，多半都被他下令建过了。",
     },
+    quotes: [
+      {
+        text: {
+          en: "To honour all the armies of heaven, we built our castle of Karlštejn, which we raised entirely anew from its foundations, and resolved to call it, for its lasting memory, by our own name.",
+          cz: "Ke cti všech nebeských zástupů jsme vystavěli svůj hrad Karlštejn, který jsme od základů zbudovali zcela nový, a rozhodli jsme se jej, pro jeho trvalou památku, nazvat vlastním jménem.",
+          zh: "为了敬奉天上所有的军旅，我们建起了自己的卡尔什泰因城堡，将其从地基起全部重新建造，并决定为使其长存不朽，以我们自己的名字为它命名。",
+        },
+        attribution: {
+          en: "Charles IV, Vita Caroli (attributed — sourcing uncertain, see project notes)",
+          cz: "Karel IV., Vita Caroli (připisováno — původ nejistý)",
+          zh: "查理四世，《自传》Vita Caroli（存疑归属，出处未能核实）",
+        },
+      },
+    ],
     relatedLandmarks: [
       {
         slug: "karlstejn-castle",
@@ -5926,6 +5948,147 @@ export const historyEvents = [
       },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Blanche_of_Valois",
+  },
+  // The full version of the neutrality-in-the-Hundred-Years'-War beat that
+  // 'a-first-show-of-strength-1347' used to gesture at in one closing
+  // paragraph (removed from that card once this one made it redundant,
+  // 2026-08-28). Fact-checked against en.wikipedia (Louis V, Duke of
+  // Bavaria; Günther von Schwarzburg) and cs.wikipedia's "Karel IV." —
+  // note the actual sequence runs the *opposite* direction from a first
+  // draft of this card: Edward accepted the Wittelsbach offer at Lahnstein
+  // BEFORE the Charles-Edward treaty existed, and dropped Louis in favor
+  // of Charles afterward, not the other way around. The "no reason to
+  // fight Charles either" beat is tied to the Truce of Calais (28 Sept
+  // 1347, initially to 7 July 1348, later extended), independently
+  // verified via en.wikipedia's own Truce of Calais article. Placed after
+  // 'great-joy-great-sorrow-1348' rather than in strict chronological
+  // order (the Lahnstein-to-renunciation events all predate Blanche's
+  // August 1348 death) per the user's own explicit placement request,
+  // 2026-08-28.
+  {
+    slug: "the-king-who-switched-sides-1348",
+    era: "kingdom-golden-age",
+    startYear: 1348.5,
+    images: ["/history/the-king-who-switched-sides-1348.webp"],
+    year: {
+      en: "1348",
+      cz: "1348",
+      zh: "1348年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Defusing the Threat from England",
+      cz: "Zažehnání hrozby z Anglie",
+      zh: "化解来自大不列颠的威胁",
+    },
+    hookLine: {
+      en: "Louis went looking for a rival who could beat Charles at his own game. He found one — for about four months.",
+      cz: "Ludvík hledal soupeře, který by Karla porazil jeho vlastní zbraní. Jednoho našel, asi na čtyři měsíce.",
+      zh: "小路易想找一个能在查理自己的地盘上打败他的对手。他找到了，只可惜只维持了四个月。",
+    },
+    summary: {
+      en: "Winning the vote at Rhens in 1346 hadn't made Charles universally recognized, and Louis IV's death in October 1347 didn't fix that either. Half of Germany still called him the Pfaffenkönig, the priest's king, and the Wittelsbachs weren't about to let the throne go without a fight. Louis the Brandenburger, old Louis's own eldest son and now head of the family, went looking for someone who could beat Charles at his own game.\n\nHe found one, at least on paper. On 10 January 1348, at Lahnstein, a handful of Wittelsbach-aligned electors offered the crown of the Romans to a king who'd never once set foot in the Empire to campaign for it: Edward III of England, fresh off Crécy and the siege of Calais. Edward said yes.\n\nCharles didn't answer with an army. He sent for his own great-uncle Baldwin, the Archbishop of Trier, and let him talk to Edward directly instead. By April 1348 the two kings had a friendship treaty. Negotiations wrapped up in Prague that June: Charles owed Edward nothing if England and France went back to war, and Edward, in exchange, owed Louis nothing at all.\n\nThe deal cost Edward almost nothing to sign. England and France had been sitting under a truce since Calais fell the previous autumn, one both sides kept renewing instead of fighting through, so a king with no war on his hands had no reason to start one with Charles either. By May, about four months after Lahnstein, Edward renounced a crown he'd never bothered collecting. Louis had gone shopping for a rival king and come home with a receipt. It wasn't his last try.",
+      cz: "Vítězství v hlasování v Rhensu roku 1346 Karlovi ještě nezajistilo všeobecné uznání, a smrt Ludvíka IV. v říjnu 1347 na tom nic nezměnila. Polovina Německa mu pořád říkala Pfaffenkönig, král kněží, a Wittelsbachové se trůnu bez boje vzdát nehodlali. Ludvík Braniborský, vlastní nejstarší syn starého Ludvíka a teď hlava rodu, se vydal hledat někoho, kdo by Karla porazil jeho vlastní zbraní.\n\nNěkoho našel, aspoň na papíře. 10. ledna 1348 v Lahnsteinu nabídla hrstka wittelsbašsky nakloněných kurfiřtů římskou korunu králi, který kvůli ní do říše nikdy ani nevkročil: Eduardovi III. Anglickému, čerstvě po Kresčaku a obléhání Calais. Eduard řekl ano.\n\nKarel neodpověděl vojskem. Poslal pro vlastního prastrýce Balduina, arcibiskupa trevírského, a nechal jednat přímo jeho. Do dubna 1348 měli oba králové přátelskou smlouvu. Jednání se uzavřela v Praze téhož června: Karel Eduardovi nedlužil nic, kdyby Anglie s Francií znovu válčily, a Eduard na oplátku nedlužil vůbec nic Ludvíkovi.\n\nEduarda ta dohoda stála skoro nic. Anglie s Francií od podzimu, kdy padlo Calais, seděly pod příměřím, které obě strany raději pořád prodlužovaly, než aby přes něj bojovaly, takže král bez války na krku neměl důvod začínat další, tentokrát s Karlem. V květnu, zhruba čtyři měsíce po Lahnsteinu, se Eduard vzdal koruny, kterou si nikdy ani nevyzvedl. Ludvík si šel nakoupit soupeřícího krále a domů si přinesl jen účtenku. Nebyl to jeho poslední pokus.",
+      zh: "1346年在伦斯赢得选票，并没有让查理得到普遍承认，1347年10月路易四世去世，也没能解决这个问题。半个德意志还是叫他祭司王（Pfaffenkönig）。维特尔斯巴赫家族可不打算就这么把王位拱手让人。勃兰登堡的路易，老路易的长子，如今的家族之首，四处寻找一个能在查理自己的地盘上打败他的人。\n\n他还真找到了一个，至少纸面上是。1348年1月10日，在拉恩施泰因，几位倾向维特尔斯巴赫家族的选侯，把罗马人的国王之位献给了一位为此从没踏进过帝国一步的国王：英格兰的爱德华三世，刚打完克雷西战役，拿下加莱不久。爱德华答应了。\n\n查理没有派兵回应，他找来了自己的叔祖巴尔杜因，特里尔大主教，让他直接跟爱德华谈。到1348年4月，两位国王已经缔结了友好条约。谈判于同年6月在布拉格收尾：只要英法再度开战，查理不欠爱德华什么；作为交换，爱德华也什么都不欠路易。\n\n这笔买卖，爱德华几乎没付出什么代价。自打前一年秋天加莱陷落以来，英法两国一直处于停战状态，双方宁愿一续再续，也不愿真刀真枪打下去，一个手头没仗可打的国王，自然也没理由再去跟查理找仗打。到了5月，拉恩施泰因那场\"加冕\"过去大约四个月，爱德华放弃了这顶他压根没去领的王冠。路易本想去买个对手回来，结果只带回一张收据。这不是他最后一次尝试。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Edward_III_of_England",
+  },
+  // Picks up the "It wasn't his last try" hook that closed
+  // 'the-king-who-switched-sides-1348'. Fact-checked against cs.wikipedia's
+  // "Karel IV." (the Passau meeting, the torn insignia, Günther's election,
+  // the Anna marriage and Neuböhmen — all confirmed there almost verbatim
+  // to the user's own account) plus en.wikipedia (Anne of the Palatinate's
+  // 11 March 1349 Bacharach wedding date). Two WebSearch passes for a
+  // primary-source quote came up empty, so none included.
+  // Anna's 26 July 1349 coronation as Queen of the Romans in Aachen — the
+  // same city that shut its gates on Charles in 1346 — was originally this
+  // card's closing beat but got cut at the user's request, 2026-08-28, to
+  // save for its own future card rather than closing this one with it.
+  // Closing line ("It wasn't the last time he'd marry his way to more
+  // territory") is a deliberate unspoiled forward-hook, added at the
+  // user's request 2026-08-28, toward Charles's third marriage — to Anna
+  // of Świdnica, tied to Lusatia — without naming her, Silesia, or any
+  // specifics here.
+  {
+    slug: "a-marriage-that-dismantled-the-opposition-1349",
+    era: "kingdom-golden-age",
+    startYear: 1349,
+    images: ["/history/a-marriage-that-dismantled-the-opposition-1349.webp"],
+    year: {
+      en: "1348–1349",
+      cz: "1348–1349",
+      zh: "1348年－1349年",
+    },
+    tone: "humorous",
+    title: {
+      en: "From Enemy to Father-in-Law",
+      cz: "Z nepřítele tchánem",
+      zh: "从敌人变成岳父",
+    },
+    hookLine: {
+      en: "Louis wanted a rematch. Charles answered by marrying into the other side's own family.",
+      cz: "Ludvík chtěl odvetu. Karel odpověděl tím, že se přiženil přímo do tábora protivníka.",
+      zh: "路易想讨回场子。查理的回应，是直接把对方阵营的人娶进了自己家门。",
+    },
+    summary: {
+      en: "Louis wasn't finished yet. He just tried something else first: making peace. In July 1348, under the mediation of Duke Albert II of Austria, Charles and Louis the Brandenburger met at Passau to patch things up. It went badly. Louis showed up spoiling for a fight, and his own followers tore the King of the Romans' own insignia off the house where Charles was staying. Charles, insulted, walked out of the talks and rode straight back to Bohemia.\n\nEarly in 1349, the Wittelsbachs tried the throne again. The new candidate was Günther von Schwarzburg, an obscure Thuringian count nobody outside the family had much reason to know, propped up by Louis and a handful of other Wittelsbach-aligned electors, Rudolf II, Count Palatine of the Rhine, among them.\n\nCharles didn't answer this threat with an army either. He went straight for the coalition's own foundation. He'd been a widower barely seven months, Blanche having died the previous summer, but grief wasn't what drove this next marriage. Calculation was: he proposed to Anna, Rudolf II's own daughter, the very man who'd just helped put a rival king on the board against him. Rudolf said yes. The wedding was held in Bacharach on 11 March 1349, and the dowry that came with it was worth a whole province: the Upper Palatinate, folded into the Bohemian Crown lands under a new name, New Bohemia. In one afternoon, Charles turned an enemy's backer into his own father-in-law and picked up a territory in the bargain. It wasn't the last time he'd marry his way to more territory.",
+      cz: "Ludvík ještě neskončil. Nejdřív ale zkusil něco jiného: usmíření. V červenci 1348 se pod záštitou rakouského vévody Albrechta II. sešli Karel a Ludvík Braniborský v Pasově, aby si to vyříkali. Dopadlo to špatně. Ludvík přijel s bojovnou náladou a jeho vlastní stoupenci strhli znaky římského krále z domu, kde byl Karel ubytovaný. Uražený Karel opustil bouřlivé jednání a odjel rovnou zpátky do Čech.\n\nZačátkem roku 1349 zkusili Wittelsbachové trůn znovu. Novým kandidátem byl Günther ze Schwarzburgu, nevýznamný durynský hrabě, o kterém mimo rodinu skoro nikdo neslyšel, podporovaný Ludvíkem a hrstkou dalších wittelsbašsky nakloněných kurfiřtů, mezi nimi i rýnským falckrabětem Rudolfem II.\n\nKarel na tuhle novou hrozbu taky neodpověděl vojskem. Šel rovnou po základu té koalice. Byl vdovcem sotva sedm měsíců, Blanka zemřela předchozí léto, ale tenhle další sňatek neháněl žal. Hnal ho vypočet: navrhl si vzít Annu, vlastní dceru Rudolfa II., muže, který mu právě pomohl postavit do cesty dalšího soupeřícího krále. Rudolf souhlasil. Svatba se konala 11. března 1349 v Bacharachu, a věno, které s ní přišlo, mělo hodnotu celé provincie: Horní Falc se pod novým jménem, Nové Čechy, připojila k zemím Koruny české. Za jedno odpoledne Karel proměnil podporovatele nepřítele ve vlastního tchána a k tomu ještě získal území. Nebylo to naposledy, co si přiženil další území.",
+      zh: "路易还没打算罢手，只是先换了个法子：讲和。1348年7月，在奥地利公爵阿尔布雷希特二世的斡旋下，查理和勃兰登堡的路易在帕绍会面，本想把事情说清楚。结果谈崩了。路易带着一副来者不善的架势现身，他自己的追随者甚至扯下了查理下榻房屋上罗马人的国王的徽章。查理觉得受了羞辱，愤然离席，径直返回波希米亚。\n\n1349年初，维特尔斯巴赫家族又打起了王位的主意。这回的人选是贡特尔·冯·施瓦茨堡，一个家族之外没什么人听说过的籍籍无名的图林根伯爵，背后是路易和几位同样倾向维特尔斯巴赫家族的选侯撑腰，其中就有莱茵普法尔茨伯爵鲁道夫二世。\n\n面对这个新威胁，查理照样没有派兵回应。他直接冲着这个联盟的根基下手。布兰奇去年夏天刚刚去世，查理丧偶还不到七个月，可驱使他续弦的不是悲伤，而是算计：他向安娜求婚——鲁道夫二世自己的女儿，也就是那位刚帮着把一个对手国王推上台的人。鲁道夫答应了。婚礼于1349年3月11日在巴哈拉赫举行，随之而来的嫁妆分量堪比一整个行省：上普法尔茨改头换面，以\"新波希米亚\"之名并入了波希米亚王冠领地。一个下午的工夫，查理就把敌人的靠山变成了自己的岳父，还顺手拿下一片领地。这也不是他最后一次靠联姻换来新的领地。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Anne_of_the_Palatinate",
+  },
+  // Closes out the whole "path to recognition" arc that opened with
+  // 'the-crown-nobody-recognized-1346' and ran through
+  // 'the-king-who-came-home-in-disguise-1347', 'a-first-show-of-strength-1347',
+  // 'the-king-who-switched-sides-1348', and
+  // 'a-marriage-that-dismantled-the-opposition-1349'. Fact-checked: Günther's
+  // Eltville defeat/20,001-mark payout/death three weeks later and the 17
+  // June 1349 Frankfurt assembly (en.wikipedia, Siege of Eltville); the 25
+  // July 1349 Aachen date and Charlemagne-skull reliquary donated the same
+  // day (Charles IV's claimed blood descent from Charlemagne via his
+  // grandmother Margaret of Brabant — academic.oup.com, "The power of
+  // marvellous objects"); Anna crowned 26 July 1349, the day after
+  // (en.wikipedia, Anne of the Palatinate). Baldwin presiding: Catholic
+  // Encyclopedia's Baldwin entry, which actually dates the coronation itself
+  // to 26 July rather than 25th — a one-day discrepancy against the other
+  // sources, most likely Baldwin's own entry conflating Charles's and Anna's
+  // dates; went with 25/26 since two independent sources agree on that
+  // split. Could NOT independently verify "first king of Slavic descent
+  // crowned at Aachen" in any English-language source after two searches —
+  // it's a claim commonly repeated in Czech popular history and plausible
+  // given the genealogy of prior Aachen-crowned kings, but flagging it as
+  // user-supplied and unverified rather than confirmed. No primary-source
+  // quote found after two search passes.
+  {
+    slug: "crowned-at-aachen-1349",
+    era: "kingdom-golden-age",
+    startYear: 1349.5,
+    images: ["/history/crowned-at-aachen-1349.webp"],
+    year: {
+      en: "1349",
+      cz: "1349",
+      zh: "1349年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Crowned at Aachen",
+      cz: "Korunovaný v Cáchách",
+      zh: "亚琛加冕",
+    },
+    hookLine: {
+      en: "Every rival was gone — bought off, married in, or dead. Aachen finally opened its gates.",
+      cz: "Všichni soupeři byli pryč, vykoupení, přiženění, nebo mrtví. Cáchy konečně otevřely brány.",
+      zh: "所有对手都不见了——花钱打发的、娶进门的，或者已经去世的。亚琛终于打开了城门。",
+    },
+    summary: {
+      en: "Louis and Rudolf had already gone from rivals to family. Charles's diplomacy had worn down nearly the whole German nobility, and even Günther von Schwarzburg, the last holdout, came around in 1349. After Charles besieged him at Eltville that May, Günther agreed to give up his claim, recognize Charles as the rightful King of the Romans, and take 20,001 marks of silver for his trouble. He died three weeks later, a man paid to lose a fight he'd never really wanted.\n\nOn 17 June 1349, the electors and imperial princes gathered at Frankfurt and confirmed Charles's kingship. No rival candidate was left standing this time. Three years after Rhens, Charles was finally the empire's sole ruler.\n\nWith the Wittelsbachs squared away, Charles rode to Aachen, the city that had shut its gates on him in 1346, and was crowned there properly on 25 July 1349 in front of a great many imperial dignitaries and nobles. He treated the coronation as more than a formality. Charles saw himself inheriting Charlemagne's own imperial and religious legacy, claimed actual descent from him through his own grandmother, and marked the day by commissioning a gold reliquary bust for part of Charlemagne's skull and donating it to Aachen Cathedral before the day was even over. His great-uncle Baldwin, Archbishop of Trier, presided over the ceremony. The next day, his pregnant wife Anna was crowned beside him, reportedly the first Aachen coronation for a king carrying Slavic blood.\n\nHis father had spent a lifetime as a wandering knight chasing this crown and never quite pinning it down. Three years after burying him at Crécy, Charles finally had it sitting steady on his own head.",
+      cz: "Ludvík a Rudolf se z protivníků už stali rodinou. Karlova diplomacie umořila skoro celou německou šlechtu, a dokonce i Günther ze Schwarzburgu, poslední zbývající odpůrce, v roce 1349 povolil. Poté, co ho Karel v květnu oblehl u Eltville, Günther souhlasil, že se vzdá nároku, uzná Karla za právoplatného římského krále a vezme si za tu nepříjemnost 20 001 hřiven stříbra. O tři týdny později zemřel, muž zaplacený za to, aby prohrál boj, o který nikdy pořádně nestál.\n\n17. června 1349 se kurfiřti a říšská knížata sešli ve Frankfurtu a Karlovo království potvrdili. Tentokrát už nezůstal stát žádný soupeřící kandidát. Tři roky po Rhensu byl Karel konečně jediným vládcem říše.\n\nSe smířenými Wittelsbachy Karel odjel do Cách, města, které mu v roce 1346 zavřelo brány, a nechal se tam 25. července 1349 řádně korunovat, před zraky velkého množství říšských hodnostářů a šlechticů. Korunovaci nebral jako pouhou formalitu. Karel se považoval za dědice Karla Velikého, jak jeho císařského, tak náboženského odkazu, tvrdil, že od něj skutečně pochází přes vlastní babičku, a den oslavil objednáním zlaté relikviářové busty pro část lebky Karla Velikého, kterou ještě téhož dne věnoval katedrále v Cáchách. Obřadu předsedal jeho prastrýc Balduin, arcibiskup trevírský. Následujícího dne byla po jeho boku korunována jeho těhotná žena Anna, prý první korunovace v Cáchách pro krále se slovanskou krví v žilách.\n\nJeho otec strávil celý život jako bloudící rytíř honbou za touhle korunou, aniž by si ji kdy pořádně nasadil. Tři roky po tom, co ho pohřbil u Kresčaku, měl ji Karel konečně pevně na vlastní hlavě.",
+      zh: "路易和鲁道夫早就从对手变成了自家人。查理的外交手腕，几乎把整个德意志贵族圈都磨得服服帖帖，就连最后一个不肯低头的贡特尔·冯·施瓦茨堡，也在1349年松了口。那年5月，查理围困了他的埃尔特维尔，贡特尔答应放弃主张，承认查理是名正言顺的罗马人的国王，还领了两万零一马克白银作为补偿。三周后他就去世了，一个被花钱买来退出这场他其实从没真心想打的仗的人。\n\n1349年6月17日，选侯和帝国诸侯齐聚法兰克福，确认了查理的王位。这一次，再没有对立候选人还站在场上。伦斯选举过去三年后，查理终于成了帝国唯一的统治者。\n\n跟维特尔斯巴赫家族和解之后，查理前往亚琛——那座1346年曾对他关上城门的城市——1349年7月25日在众多帝国要员和贵族的见证下，在那里正式加冕。他没把这场加冕当成走个过场。查理把自己看作查理曼大帝帝国和宗教传统的继承人，还宣称自己确实是查理曼的血脉后代（通过自己的祖母那一支），并在当天下令打造一尊镶嵌查理曼部分头骨的黄金圣髑胸像，加冕典礼结束前就把它献给了亚琛大教堂。典礼由他的叔祖父、特里尔大主教巴尔杜因主持。第二天，他怀孕的妻子安娜也在他身边加冕——据说这是亚琛第一次为一位身上流着斯拉夫血统的国王举行加冕礼。\n\n他的父亲一辈子都像个游荡的骑士，追着这顶王冠跑，却从没能真正把它稳稳戴上。在克雷西安葬父亲三年后，查理终于把它稳稳戴在了自己头上。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_IV,_Holy_Roman_Emperor",
   },
 ];
 

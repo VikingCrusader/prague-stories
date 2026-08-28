@@ -24469,6 +24469,143 @@ Druhý život rybníka začal ve 30. letech 19. století, kdy ho mladý romantic
 🎁 彩蛋：贝兹德兹城堡——这条时间线已经讲过的那个"出城例外"案例——就坐落在山上，俯瞰着这片湖水；查理下令挖这片湖，比任何人在湖边读到马哈的诗句，早了整整五个世纪。`,
     },
   },
+  // ── Zbraslav / Modřany / Ještěd batch (2026-08-28) ──────────────────────
+  {
+    name: 'Peace Race Bridge',
+    slug: 'most-zavodu-miru',
+    localizedNames: { cz: 'Most Závodu míru', zh: '和平赛桥' },
+    labels: ['bridge', 'architecture'],
+    coordinates: { lat: 49.97200958327455, lng: 14.397847981380425 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Most_Z%C3%A1vodu_m%C3%ADru',
+    description: {
+      en: `Welcome to the Peace Race Bridge, the concrete arch spanning the Vltava at Zbraslav that owes its name to a bicycle race the town hosted exactly once. Everyone still calls it that anyway.
+
+An iron bridge with three spans first crossed the river here in 1896, costing 136,000 gold at the time. It didn't last the century. Between 1961 and 1964, engineers replaced it with a reinforced-concrete arch bridge designed by Vladimír Tvrzník: 210 metres long overall, its main arch spanning 75 metres between three piers on each bank. Builders welded the reinforcement into a self-supporting structure rather than pouring concrete over traditional wooden formwork, making it the first arch bridge in the world built this way.
+
+The new bridge opened just in time to host a leg of the Peace Race in 1964, a major international cycling event that toured the Eastern Bloc every spring and briefly rivalled the Tour de France in prestige. Zbraslav's stop on the route never happened again, but the bridge kept the name regardless. Decades of wear eventually caught up with it too, and cracks and structural defects forced a full reconstruction in 1997.
+
+🎁 Bonus: Ask around Zbraslav and some locals will tell you the bridge deserves its engineer's name instead of the race's, a low-key campaign that's been quietly running for years without ever actually changing a single road sign.`,
+      cz: `Vítej u mostu Závodu míru, betonového obloukového mostu přes Vltavu na Zbraslavi, který vděčí za své jméno cyklistickému závodu, jenž tudy projel přesně jednou. Přesto mu tak říkají dodnes.
+
+Železný most o třech polích tu přes řeku vedl už od roku 1896 a stál tehdy 136 tisíc zlatých. Nevydržel ani sto let. Mezi lety 1961 a 1964 ho nahradil železobetonový obloukový most podle projektu Vladimíra Tvrzníka: 210 metrů dlouhý, s hlavním obloukem o rozpětí 75 metrů mezi třemi pilíři na každém břehu. Stavitelé svařili výztuž do samonosné konstrukce místo tradičního bednění, čímž se stal prvním obloukovým mostem svého druhu na světě.
+
+Nový most se otevřel právě včas na etapu Závodu míru v roce 1964, velkého mezinárodního cyklistického podniku, který každé jaro projížděl východním blokem a svou prestiží se na chvíli málem vyrovnal Tour de France. Zbraslavská zastávka na trase se už nikdy neopakovala, ale jméno mostu zůstalo. Postupem let se na něm ale podepsal i čas, praskliny a statické vady si v roce 1997 vynutily kompletní rekonstrukci.
+
+🎁 Bonus: Zeptej se na Zbraslavi a někteří ti řeknou, že by si most zasloužil spíš jméno svého inženýra než závodu, tichá kampaň, která už léta běží, aniž by kdy skutečně změnila jedinou ceduli na silnici.`,
+      zh: `欢迎来到和平赛桥，一座横跨伏尔塔瓦河、连接兹布拉斯拉夫两岸的混凝土拱桥。它得名于一场只在这里举办过一次的自行车赛事，可当地人至今仍然这么称呼它。
+
+1896年，一座三跨铁桥最先在这里架起，造价13.6万金币，但没能撑过一个世纪。1961年到1964年间，工程师弗拉迪米尔·特尔兹尼克设计了一座钢筋混凝土拱桥取而代之：全长210米，主拱跨度75米，两岸各设三座桥墩。施工时没有用传统的木质脚手架浇筑，而是把钢筋直接焊接成一个能自我支撑的结构，这是世界上第一座用这种方法建造的拱桥。
+
+新桥落成的时机刚好赶上1964年和平赛的一段赛程，那是一项每年春天巡游东欧集团的大型国际自行车赛事，声望一度几乎可以与环法自行车赛比肩。兹布拉斯拉夫此后再没有等来第二次比赛，但桥的名字留了下来。几十年下来，时间同样在它身上留下了痕迹，裂缝和结构缺陷最终迫使它在1997年进行了一次全面重建。
+
+🎁 彩蛋：在兹布拉斯拉夫问问当地人，有些人会告诉你，这座桥更该以它工程师的名字命名，而不是那场比赛的名字：一场悄悄进行了很多年、却从没真的换掉过一块路牌的小小请愿。`,
+    },
+  },
+  {
+    name: 'Zbraslav',
+    slug: 'zbraslav',
+    localizedNames: { cz: 'Zbraslav', zh: '兹布拉斯拉夫' },
+    labels: ['village-and-town', 'historical', 'architecture'],
+    coordinates: { lat: 49.97614006310055, lng: 14.3936634957206 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Prague-Zbraslav',
+    description: {
+      en: `Welcome to Zbraslav, the riverside town at the southern edge of Prague that spent nearly seven centuries as its own small, self-important place before the city finally swallowed it whole.
+
+People have been settling this stretch of the Vltava since long before written history. The Celts built one of Europe's largest hillfort oppida just across the river at Závist, and the first written mention of Zbraslav itself dates to 1115, when it belonged to the Benedictine monastery at Kladruby. The real turning point came in 1268, when King Přemysl Otakar II acquired the site and built a hunting lodge here, and again in 1292, when his son Wenceslas II founded a Cistercian monastery on the same spot and named it Aula Regia, the Royal Hall. Wenceslas intended it as the new burial place for the entire Přemyslid dynasty, and for a while it delivered: the monastery grew into one of the wealthiest in Bohemia, its abbots ranking among the kingdom's most powerful churchmen, until Emperor Joseph II dissolved it in 1785 and the buildings became a chateau.
+
+Zbraslav kept a quieter identity going on the side, as a working river town with a paper mill first recorded in 1499, the earliest documented papermaking in Bohemia, and later a stone quarry that's still operating today. In the late 19th century, wealthy Prague families discovered it as a summer retreat, publisher Jan Otto among them, and the town filled out with villas, a proper square, and its own parish life around the churches of St. James and St. Gall. None of that stopped Prague from annexing it outright in 1974. Since 1990, Zbraslav has governed itself again as one of the capital's municipal districts, sharing its town hall with neighbouring Lahovice.
+
+🎁 Bonus: The monastery Wenceslas II built as a royal burial ground now spends its afterlife holding paintings instead. Its chateau galleries house the National Gallery's collection of Asian art, a strange but oddly fitting second act for a building that started out as a mausoleum.`,
+      cz: `Vítej na Zbraslavi, říčním městečku na jižním okraji Prahy, které bylo skoro sedm století svým vlastním, na sebe hrdým místem, než ho město nakonec celé pohltilo.
+
+Lidé se na tomto úseku Vltavy usazovali dávno před počátkem psané historie. Keltové si na protějším břehu, na Závisti, vybudovali jedno z největších hradišť v Evropě, a první písemná zmínka o samotné Zbraslavi pochází z roku 1115, kdy patřila benediktinskému klášteru v Kladrubech. Skutečný zlom přišel v roce 1268, kdy král Přemysl Otakar II. místo získal a nechal si tu postavit lovecký hrádek, a znovu v roce 1292, kdy jeho syn Václav II. na stejném místě založil cisterciácký klášter a pojmenoval ho Aula Regia, Královská síň. Václav ho zamýšlel jako nové pohřebiště celého přemyslovského rodu, a nějakou dobu to i vycházelo: klášter se rozrostl v jeden z nejbohatších v Čechách, jeho opati patřili k nejmocnějším církevním hodnostářům v zemi, dokud ho v roce 1785 nezrušil císař Josef II. a přeměnil budovy na zámek.
+
+Vedle toho si Zbraslav udržovala i tišší, praktičtější tvář pracovního říčního městečka, s papírnou doloženou už v roce 1499, nejstarší zaznamenanou výrobou papíru v Čechách, a později s kamenolomem, který funguje dodnes. Na konci 19. století si Zbraslav oblíbily bohaté pražské rodiny jako letní sídlo, mezi nimi i nakladatel Jan Otto, a městečko se zaplnilo vilami, pořádným náměstím a vlastním farním životem kolem kostelů svatého Jakuba a svatého Havla. Nic z toho Prahu nezastavilo, aby ji v roce 1974 rovnou nepřipojila. Od roku 1990 si Zbraslav znovu spravuje sama sebe jako jedna z pražských městských částí, radnici sdílí se sousedními Lahovicemi.
+
+🎁 Bonus: Klášter, který Václav II. postavil jako královské pohřebiště, dnes ve svém druhém životě uchovává spíš obrazy. V zámeckých galeriích dnes sídlí sbírka asijského umění Národní galerie, podivně případné druhé dějství pro budovu, která začínala jako mauzoleum.`,
+      zh: `欢迎来到兹布拉斯拉夫，一座位于布拉格南端、傍河而立的小镇。在被这座城市彻底吞并之前，它曾独立自足了将近七个世纪。
+
+早在有文字记载之前，人们就已经在伏尔塔瓦河的这一段安家落户。凯尔特人在河对岸的扎维斯特修建了欧洲最大的山寨聚落之一，兹布拉斯拉夫本身最早的文字记载则出现在1115年，当时它归属于克拉德鲁比的本笃会修道院。真正的转折发生在1268年，普热米斯尔·奥托卡二世国王获得了这片土地，在这里修建了一座狩猎行宫；又一次转折发生在1292年，他的儿子瓦茨拉夫二世在同一地点创建了一座熙笃会修道院，取名"Aula Regia"，意为"王室大厅"。瓦茨拉夫原本打算把它建成整个普热米斯尔王朝的新墓地，而且一度确实做到了：修道院很快跻身波希米亚最富有的修道院之列，历任院长跻身全国最有权势的教会人物之列，直到1785年约瑟夫二世皇帝将其解散，把整座建筑改建成了城堡。
+
+与此同时，兹布拉斯拉夫也一直保持着更朴素务实的一面，是一座沿河而建的工作型小镇：早在1499年就有造纸厂的文字记录，是波希米亚最早有据可查的造纸活动，后来又添了一座至今仍在开采的采石场。19世纪末，富裕的布拉格家庭开始把这里当作避暑胜地，出版商扬·奥托也是其中之一，小镇渐渐填满了别墅、一座像样的广场，还围绕圣雅各伯和圣加禄两座教堂形成了自己的教区生活。这一切都没能阻止布拉格在1974年把它整体并入。1990年起，兹布拉斯拉夫又重新拥有了自治权，成为首都的一个市政区，与邻近的拉霍维采共用一座区政府大楼。
+
+🎁 彩蛋：瓦茨拉夫二世当年建来作王室墓地的修道院，如今的"来世"却用来存放画作。城堡的展厅里陈列着国家美术馆的亚洲艺术藏品，对一座曾是陵寝的建筑来说，这个第二篇章古怪却又意外贴切。`,
+    },
+  },
+  {
+    name: 'Prague 12 Town Hall',
+    slug: 'radnice-prahy-12',
+    localizedNames: { cz: 'Radnice Prahy 12', zh: '布拉格12区区政府大楼' },
+    labels: ['municipal', 'architecture', 'restaurants-and-cafes'],
+    coordinates: { lat: 50.00246513846583, lng: 14.414355541445701 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Nov%C3%A1_radnice_Prahy_12',
+    description: {
+      en: `Welcome to Prague 12 Town Hall, the bureaucratic complex in Modřany where you can renew your ID card and then walk downstairs for lunch, because somebody had the good sense to put a restaurant in the same building as the permit office.
+
+Before 2021, Prague 12's administration was scattered across seven separate buildings around Modřany and Kamýk, forcing residents to hop between offices for anything more complicated than a single form. The solution, designed by architecture studio LOXIA under lead architect Jana Mastíková and finished that July at a cost of around 600 million crowns, is three linked white cube-shaped buildings that locals immediately nicknamed "three sugar cubes," a wink at the sugar refinery that once anchored Modřany's economy and shaped it into a proper part of Prague.
+
+The complex does more than process paperwork. It has a ceremonial hall for weddings with a rooftop terrace, a multipurpose ground-floor space rentable for seminars and cultural events, and the restaurant itself, doubling as a canteen for staff and a venue for concertgoers when the hall next door is booked, with enough kitchen capacity that it's also been floated as a meal source for elderly and disadvantaged residents nearby.
+
+🎁 Bonus: Modřany's old sugar factory is long gone, but its legacy still shapes the skyline. Not every town hall gets compared to a dessert.`,
+      cz: `Vítej u radnice Prahy 12, úřednického komplexu v Modřanech, kde si můžeš vyřídit občanku a hned na to zajít o patro níž na oběd, protože někdo měl dobrý nápad dát restauraci do stejné budovy jako přepážky úřadu.
+
+Před rokem 2021 sídlil úřad Prahy 12 rozeseto po sedmi různých budovách v Modřanech a na Kamýku, takže si obyvatelé museli kvůli složitější věci doslova zaběhat mezi kancelářemi. Řešením se stal komplex tří propojených bílých kostkovitých budov, který navrhlo architektonické studio LOXIA pod vedením architektky Jany Mastíkové a dokončilo v červenci téhož roku za zhruba 600 milionů korun; místní mu hned začali říkat "tři kostky cukru", narážka na cukrovar, který kdysi táhl modřanskou ekonomiku a pomohl z ní udělat pořádnou pražskou čtvrť.
+
+Komplex ale nedělá jen papírování. Má obřadní síň pro svatby s terasou na střeše, multifunkční prostor v přízemí k pronájmu na semináře a kulturní akce a samotnou restauraci, která zároveň slouží jako jídelna pro zaměstnance i zázemí pro návštěvníky koncertů, když je vedlejší sál obsazený, s dostatečnou kapacitou kuchyně na to, aby se uvažovalo i o vaření obědů pro seniory a sociálně slabší obyvatele z okolí.
+
+🎁 Bonus: Stará modřanská cukrovarna je dávno pryč, ale její odkaz pořád formuje místní panorama. Ne každá radnice se dočká přirovnání k dezertu.`,
+      zh: `欢迎来到布拉格12区区政府大楼，一座坐落在摩德拉尼的行政综合体。在这里，你可以先办完身份证换发手续，再直接下楼吃午饭，因为有人想得很周到，把餐厅和办证窗口安排进了同一栋楼里。
+
+在2021年之前，布拉格12区的行政机构分散在摩德拉尼和卡梅克一带的七栋不同建筑里，居民要办点稍微复杂的事，就得在各个办公室之间来回奔波。解决办法是由LOXIA建筑事务所设计、主设计师扬娜·马斯季科娃主持的三栋相连白色方块建筑，于同年七月落成，造价约6亿克朗；当地人立刻给它起了个外号"三块方糖"，暗指曾经支撑摩德拉尼经济的那座制糖厂，正是它把这里一点点变成了名副其实的布拉格城区。
+
+这栋楼要做的不只是处理文件。它设有带屋顶露台的婚礼礼堂、一层可供租用举办讲座和文化活动的多功能空间，还有那间餐厅本身，既是员工食堂，也在隔壁大厅被占用时充当音乐会观众的落脚点，厨房产能之大，甚至有人提议用它给附近的老人和困难居民提供餐食。
+
+🎁 彩蛋：摩德拉尼那座老糖厂早已不复存在，但它的遗产依然塑造着这里的天际线。毕竟不是每座区政府大楼都能被人拿来跟甜点相提并论。`,
+    },
+  },
+  {
+    // Out-of-town exception (same category as bezdez-castle, zamek-hluboka-
+    // nad-vltavou): a genuinely distant, standalone mountaintop landmark near
+    // Liberec (~100km from Prague), not a Liberec city card — Liberec itself
+    // has no card yet and this doesn't stand in for one.
+    name: 'Ještěd Tower',
+    slug: 'jested-tower',
+    localizedNames: { cz: 'Ještěd (hotel a vysílač)', zh: '耶什捷德塔' },
+    labels: ['tower', 'architecture', 'landmark'],
+    coordinates: { lat: 50.73257017040044, lng: 14.984653457381954 },
+    rarity: 'legend',
+    xpReward: 100,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Je%C5%A1t%C4%9Bd_Tower',
+    description: {
+      en: `Welcome to Ještěd, the mountaintop building that looked so strange when it went up that some locals still can't decide whether it's a spaceship, a spinning top, or a very tall witch's hat. Officially, it's a hotel and a television transmitter. Somehow, it's also both at once.
+
+The site's original hotel burned down in 1963, and the district authority launched a design competition to replace it, asking for both a hotel and a transmitter on the same cramped summit. Every other entrant proposed two separate buildings. Architect Karel Hubáček alone suggested combining them into one: a reinforced-concrete hyperboloid rising almost 100 metres straight out of the mountain's own silhouette, tapering upward as if the peak were simply continuing itself. His design won the competition on 22 April 1963. Construction started in 1966 and took seven more years, hampered by the sheer difficulty of building anything at all on an exposed, storm-battered ridge, before finally opening to the public on 21 September 1973.
+
+The building's shape isn't just striking, it's functional. A smooth, curving hyperboloid sheds wind and ice far better than any flat-walled structure could survive at this altitude, and honeycomb-patterned fibreglass panels around the transmitter section let radio signals pass straight through the outer shell instead of needing separate antennas. The International Union of Architects gave Hubáček its prestigious Auguste Perret Prize in 1969, years before the building was even finished, making Ještěd the only structure in the country to hold that particular honour. In 2001, a national survey of architects went further and named it the single greatest building constructed in Czechoslovakia and the Czech Republic across the whole 20th century, ahead of competition that included some of Prague's own famous landmarks.
+
+🎁 Bonus: Every other entry in the original 1963 competition assumed a hotel and a transmitter needed two separate buildings. Hubáček looked at the mountain and decided it only had room for one idea at a time.`,
+      cz: `Vítej u Ještědu, budovy na vrcholu hory, která při svém vzniku vypadala tak podivně, že si o ní místní dodnes nejsou jistí, jestli je to spíš vesmírná loď, obrácená káča, nebo obzvlášť vysoký čarodějnický klobouk. Oficiálně je to hotel a televizní vysílač. Nějakým způsobem je to ale i obojí zároveň.
+
+Původní hotel na vrcholu v roce 1963 vyhořel a okresní národní výbor vypsal architektonickou soutěž na jeho náhradu, se zadáním postavit na stejném stísněném vrcholu hotel i vysílač zároveň. Všichni ostatní účastníci navrhovali dvě oddělené budovy. Jedině architekt Karel Hubáček přišel s nápadem obě funkce spojit do jedné stavby: železobetonového hyperboloidu vyrůstajícího téměř sto metrů přímo ze siluety hory, jako by vrchol prostě pokračoval sám v sobě. Jeho návrh soutěž vyhrál 22. dubna 1963. Stavba začala v roce 1966 a trvala dalších sedm let, ztížená tím, jak náročné bylo vůbec něco postavit na odkrytém, bouřemi bičovaném hřebeni, než se veřejnosti konečně otevřela 21. září 1973.
+
+Tvar budovy není jen nápaditý, je i funkční. Hladký, zaoblený hyperboloid odvádí vítr a led mnohem lépe, než by v této nadmořské výšce zvládla jakákoli plochostěnná stavba, a voštinové sklolaminátové panely kolem vysílačové části propouštějí rádiový signál přímo skrz vnější plášť, místo aby se instalovaly samostatné antény. Mezinárodní unie architektů udělila Hubáčkovi svou prestižní Cenu Augusta Perreta už v roce 1969, roky předtím, než byla stavba vůbec dokončená, čímž se Ještěd stal jedinou stavbou v zemi s tímto konkrétním oceněním. V roce 2001 šel celostátní průzkum mezi architekty ještě dál a označil ho za vůbec nejlepší stavbu postavenou v Československu a Česku za celé 20. století, před konkurencí, do které patřily i některé slavné pražské památky.
+
+🎁 Bonus: Všichni ostatní účastníci soutěže z roku 1963 předpokládali, že hotel a vysílač potřebují dvě oddělené budovy. Hubáček se podíval na horu a usoudil, že má místo jen na jeden nápad najednou.`,
+      zh: `欢迎来到耶什捷德，一座建在山顶上的建筑，刚落成时样子古怪到有些当地人至今都说不准它到底像宇宙飞船、倒放的陀螺，还是一顶特别高的女巫帽。官方说法是它既是酒店，也是电视发射塔。不知怎么，它还真的两者都是。
+
+山顶原来的酒店在1963年被大火烧毁，当地专区政府随即为重建举办了一场设计竞赛，要求在同一片狭窄的山顶上同时容纳酒店和发射塔。其余所有参赛者都提出建两栋分开的建筑。只有建筑师卡雷尔·胡巴切克想到把两种功能合二为一：一座钢筋混凝土的旋转双曲面结构，几乎垂直拔高近百米，仿佛山峰本身还在继续往上生长。他的方案在1963年4月22日赢得竞赛。工程于1966年动工，又花了七年才完工，其间在暴露、常年风暴肆虐的山脊上施工本身就困难重重，最终在1973年9月21日正式对公众开放。
+
+这座建筑的形状不只是好看，更是出于实用考虑。光滑弯曲的双曲面比任何平面外墙的建筑都更能在这个海拔上抵御风雪和结冰，发射塔部分周围蜂窝状的玻璃纤维板让无线电信号能直接穿透外壳传出去，不必另外安装天线。国际建筑师协会早在1969年，也就是这座建筑竣工前好几年，就把享有盛誉的奥古斯特·佩雷奖颁给了胡巴切克，使耶什捷德成为全国唯一获得这项殊荣的建筑。到了2001年，一项面向建筑师的全国性调查更进一步，把它评为整个20世纪捷克斯洛伐克与捷克境内建造的最佳建筑，力压包括布拉格本地几座知名地标在内的众多竞争者。
+
+🎁 彩蛋：1963年那场竞赛里，其余所有参赛者都默认酒店和发射塔得盖成两栋楼。胡巴切克看了看这座山，认定它一次只容得下一个想法。`,
+    },
+  },
 ];
 
 async function run() {
