@@ -6090,6 +6090,49 @@ export const historyEvents = [
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_IV,_Holy_Roman_Emperor",
   },
+  // Background-knowledge card, per the standing rule: no image, no
+  // relatedLandmarks. Slotted right after 'crowned-at-aachen-1349', whose
+  // own text leaned hard on Charles's Charlemagne veneration (claimed
+  // descent, the skull reliquary, being crowned in the same building) —
+  // this card gives the reader the actual biographical/historical
+  // background on Charlemagne himself and his empire's fate, deliberately
+  // NOT re-covering ground already owned by 'what-was-the-holy-roman-
+  // empire-1002' (that card is about the Empire as an institution across
+  // its whole thousand-year run — electors, Voltaire's joke, Byzantium's
+  // rival claim; this one is about the man, his empire's 843 three-way
+  // split, and why his legacy specifically kept mattering to later
+  // rulers). Deliberately does not re-narrate Charles IV's own actions
+  // from the previous card in detail — just bridges to them in the
+  // closing paragraph.
+  {
+    slug: "charlemagne-and-the-holy-roman-empire-1349",
+    era: "kingdom-golden-age",
+    startYear: 1349.6,
+    cardType: "background",
+    year: {
+      en: "742–843",
+      cz: "742–843",
+      zh: "742年－843年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Charlemagne and the Holy Roman Empire",
+      cz: "Karel Veliký a Svatá říše římská",
+      zh: "查理曼与神圣罗马帝国",
+    },
+    hookLine: {
+      en: "Charles just crowned himself Charlemagne's heir and gilded part of his skull for the occasion. Worth backing up to ask who Charlemagne actually was, and how his empire turned into this one.",
+      cz: "Karel se právě prohlásil za dědice Karla Velikého a k té příležitosti nechal pozlatit kus jeho lebky. Stojí za to vrátit se o kousek zpátky a zeptat se, kým Karel Veliký vlastně byl a jak se z jeho říše stala tahle.",
+      zh: "查理刚刚把自己称作查理曼的继承人，还专门为这个场合给他的一部分头骨镀了金。是时候往回倒一倒，问问查理曼到底是谁，他的帝国又是怎么变成后来这个样子的。",
+    },
+    summary: {
+      en: "Charlemagne, King of the Franks from 768, spent four and a half decades doing what nobody in Western Europe had managed since Rome fell: conquering almost all of it. By his death in 814, his empire ran from the Pyrenees to the edge of modern Hungary and from the North Sea down past Rome itself, the largest single kingdom the West had seen in over three centuries. On Christmas Day 800, Pope Leo III crowned him Emperor of the Romans in Rome, less a resurrection of the old empire than a new brand borrowing a very old name.\n\nThe empire didn't outlive him by much. His son Louis the Pious held it together, barely, but Louis's own three sons spent years fighting over the inheritance before splitting it three ways at the Treaty of Verdun in 843: West Francia in the west, an awkward, short-lived Middle Francia down the center, and East Francia in the east. West Francia grew into France. East Francia grew into the patchwork of German-speaking duchies that, a little over a century later, Otto I would use to revive Charlemagne's old imperial title for good, the empire this timeline has been calling the Holy Roman Empire ever since.\n\nNone of that explains why medieval rulers kept fighting over the right to call themselves Charlemagne's heir centuries after his death. Part of it was the Carolingian Renaissance he sponsored, importing scholars like Alcuin of York to his court and standardizing handwriting into a script legible enough that it's still the basis of the letters on this page. Part of it was simpler: Charlemagne was the last man to genuinely unite Western Europe under one Christian crown, and every ambitious ruler afterward wanted to be measured against him. A 12th-century antipope even canonized him a saint at Frederick Barbarossa's request, a title Rome itself never recognized, though hardly anyone in the Empire seemed to mind.\n\nCharles IV took the comparison further than most. He traced his own bloodline to Charlemagne through his grandmother, wrote his own autobiography in deliberate imitation of Einhard's biography of the man, and now had part of his actual skull gilded and installed at Aachen. Being crowned in the same building, on the same stone floor, was the whole point.",
+      cz: "Karel Veliký, král Franků od roku 768, strávil čtyři a půl desetiletí tím, co se od pádu Říma nikomu v západní Evropě nepovedlo: dobyl skoro celou. Do své smrti v roce 814 sahala jeho říše od Pyrenejí až na hranici dnešního Maďarska a od Severního moře až za Řím samotný, největší jednotné království, jaké Západ za víc než tři století viděl. Na Boží hod vánoční roku 800 ho papež Lev III. v Římě korunoval na císaře Římanů, méně vzkříšení staré říše, spíš nová značka vypůjčující si velmi staré jméno.\n\nŘíše ho nepřežila o moc dýl. Jeho syn Ludvík Pobožný ji držel pohromadě, sotva, ale Ludvíkovi tři vlastní synové se léta hádali o dědictví, než ji v roce 843 verdunskou smlouvou rozdělili na tři díly: Západofranskou říši na západě, nešikovný a krátkověký pruh Středofranské říše uprostřed a Východofranskou říši na východě. Ze Západofranské říše vyrostla Francie. Z Východofranské říše vyrostla mozaika německy mluvících knížectví, kterou o něco víc než století později Ota I. použil k tomu, aby natrvalo obnovil starý Karlův císařský titul, tu samou říši, které tahle časová osa od té doby říká Svatá říše římská.\n\nNic z toho nevysvětluje, proč se středověcí vládci celá staletí po jeho smrti pořád hádali o právo nazývat se Karlovými dědici. Částečně za to mohla karolinská renesance, kterou financoval, dovoz učenců jako Alkuin z Yorku na svůj dvůr a sjednocení písma do formy čitelné natolik, že je pořád základem písmen na téhle stránce. Částečně to bylo prostší: Karel byl poslední muž, který doopravdy sjednotil západní Evropu pod jednou křesťanskou korunou, a každý ambiciózní vládce po něm se s ním chtěl měřit. Jeden protipapež ho ve 12. století na žádost Fridricha Barbarossy dokonce prohlásil za svatého, titul, který Řím nikdy neuznal, i když se s tím v Říši zjevně nikdo moc netrápil.\n\nKarel IV. dotáhl to srovnání dál než většina ostatních. Odvozoval vlastní krev od Karla Velikého přes svou babičku, napsal vlastní autobiografii záměrně po vzoru Einhardova životopisu toho muže, a teď nechal kus jeho skutečné lebky pozlatit a umístit v Cáchách. Nechat se korunovat ve stejné budově, na stejné kamenné podlaze, byl celý smysl té věci.",
+      zh: "查理曼，768年起的法兰克国王，花了四十五年做成了一件自罗马陷落以来西欧没人做成过的事：几乎征服了整个西欧。到814年他去世时，他的帝国从比利牛斯山脉一直延伸到今天匈牙利的边界，从北海一直延伸到罗马以南，是西方三百多年来见过的最大一块统一疆土。公元800年圣诞节，教皇利奥三世在罗马为他加冕，封他为罗马人的皇帝，与其说是复活了旧帝国，不如说是借用一个非常古老的名号，打造出一个全新的品牌。\n\n这个帝国没能比他多活太久。他的儿子虔诚者路易勉强维系住了它，但路易自己的三个儿子却为争夺继承权打了好几年仗，最终在843年的《凡尔登条约》里把它一分为三：西边是西法兰克王国，中间是一条别扭又短命的中法兰克王国，东边是东法兰克王国。西法兰克王国后来长成了法兰西。东法兰克王国则长成了一片讲德语的公国拼图，一个多世纪后，奥托一世正是靠着这片拼图，把查理曼的旧帝号彻底复活，也就是这条时间线一直在讲的那个神圣罗马帝国。\n\n可这些都解释不了，为什么查理曼死后好几个世纪，中世纪的统治者们还在争着要自称是他的继承人。一部分要归功于他资助的加洛林文艺复兴：把阿尔昆这样的学者请到自己宫廷，把书写标准化成一种字体，清晰到今天这页文字用的字母都还是在它的基础上演变来的。另一部分原因更简单：查理曼是最后一个真正把西欧统一在同一顶基督教王冠之下的人，后来每一位有野心的统治者，都想拿自己跟他比一比。12世纪，腓特烈·巴巴罗萨甚至请来一位对立教皇，正式把查理曼封为圣人。这个封号罗马教廷从没承认过，但帝国上下似乎没人太在意。\n\n查理四世把这层比较做得比大多数人都更彻底。他通过自己的祖母，把血脉一路追溯到查理曼身上；他还特意模仿艾因哈德为查理曼写的传记，给自己也写了一部自传；如今他又把查理曼的一部分真实头骨镀上金，安放在亚琛。要在同一座建筑、同一块石板地上加冕，追求的正是这个效果。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Charlemagne",
+  },
 ];
 
 async function run() {
