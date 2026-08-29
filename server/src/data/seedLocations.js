@@ -24606,6 +24606,216 @@ Tvar budovy není jen nápaditý, je i funkční. Hladký, zaoblený hyperboloid
 🎁 彩蛋：1963年那场竞赛里，其余所有参赛者都默认酒店和发射塔得盖成两栋楼。胡巴切克看了看这座山，认定它一次只容得下一个想法。`,
     },
   },
+  {
+    // Added 2026-08-29, out-of-town-castle exception (same category as
+    // bezdez-castle, zamek-hluboka-nad-vltavou, veveri-castle): a genuinely
+    // distant, standalone site in Bohemian Paradise (Český ráj), not a
+    // second landmark inside an already-carded town — no town near it has
+    // its own Location card. rarity `mythic`, on par with bezdez-castle:
+    // widely cited as the best-preserved Gothic castle in the country and
+    // a major regional draw, but built by nobility rather than a king, so
+    // held back from `legend`.
+    name: 'Kost Castle',
+    slug: 'kost-castle',
+    localizedNames: { cz: 'Hrad Kost', zh: '科斯特城堡' },
+    labels: ['castle and fortress', 'historical', 'architecture'],
+    coordinates: { lat: 50.49046683739204, lng: 15.13557355918016 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Kost_Castle',
+    description: {
+      en: `Welcome to Kost Castle — the Gothic fortress so stubbornly unconquerable that even Jan Žižka, the Hussite general this project has already met never losing a single battle, reportedly took one look at these walls and pronounced them "hard as bone." The castle's own name still means exactly that.
+
+Beneš the Younger of Wartenberg began building Kost sometime before 1349, and his sons Petr and Markvart finished the job in a proper High Gothic style. Unlike almost every other Bohemian castle, it doesn't sit on a hill — it sits low, on a narrow spit of land wedged between two ponds and tucked inside a fold of valleys, nearly invisible until a visitor is standing right in front of it. At its center rises the Bílá věž, the "White Tower," whose keep was built on a deliberate trapezoid rather than a square, its angled corners designed to glance off incoming catapult stones instead of absorbing them head-on.
+
+That combination of camouflage and cleverness held up for centuries. Kost survived the Hussite Wars of the 15th century and the Thirty Years' War of the 17th without ever being taken by force, a streak rare enough among Bohemian castles that it's become the place's single most-repeated claim to fame. Ownership drifted from the Wartenbergs to the Zajíc of Hasenburg family by marriage in 1414, then on through the Schellenbergs, the Bibersteins, and the Lobkowiczes — each apparently more interested in holding onto the place than remodeling it, which is a large part of why Kost is now considered the best-preserved Gothic castle in the entire country.
+
+The 20th century actually managed what six hundred years of sieges couldn't: it forced the castle's owners out, not once but twice. The Kinský family fled to Italy after Nazi confiscation, the communist state nationalized the estate outright in 1948 and ran it as a museum of Gothic and Renaissance art, and it took until 1993 — well after Czechoslovakia itself had split into two countries — for the family, now styled Kinský dal Borgo after their years in exile, to get it back.
+
+🎁 Bonus: that "hard as bone" story is likely more legend than documented fact — but "kost" really does mean "bone" in Czech, and after roughly six unbroken centuries of failed sieges, nobody's exactly lining up to correct it.`,
+
+      cz: `Vítej na hradě Kost — gotické pevnosti tak umanutě nedobytné, že i Jan Žižka, husitský vojevůdce, kterého tenhle projekt už jednou potkal jako muže, který nikdy neprohrál jedinou bitvu, měl prý na tyhle hradby jen jednou pohlédnout a prohlásit je za „tvrdé jako kost". Jméno hradu dodnes znamená přesně tohle.
+
+Beneš mladší z Vartenberka začal Kost stavět někdy před rokem 1349 a jeho synové Petr a Markvart dílo dokončili v pořádném vrcholně gotickém slohu. Na rozdíl od téměř každého jiného českého hradu neleží na kopci — leží nízko, na úzké šíji země sevřené mezi dvěma rybníky a schované v záhybu údolí, prakticky neviditelné, dokud návštěvník nestojí přímo před ním. Jeho středem se tyčí Bílá věž, jejíž donjon má záměrně lichoběžníkový, nikoli čtvercový půdorys — zkosené rohy měly srážet dopadající kamenné koule z katapultů místo toho, aby je přijímaly čelně.
+
+Tahle kombinace maskování a chytrosti vydržela celá staletí. Kost přečkal husitské války 15. století i třicetiletou válku 17. století, aniž by ho kdy někdo dobyl silou — série, která je mezi českými hrady dost vzácná na to, aby se stala nejopakovanější chloubou tohoto místa. Vlastnictví přešlo z Vartenberků na rod Zajíců z Hazmburka sňatkem v roce 1414, a dál pokračovalo přes Šelmberky, Biberštejny a Lobkovice — všichni zjevně měli větší zájem místo si udržet, než ho přestavovat, což je velký důvod, proč je Kost dnes považován za nejzachovalejší gotický hrad v celé zemi.
+
+Dvacáté století nakonec dokázalo to, co šest set let obléhání nedokázalo: donutilo majitele hradu odejít, a to hned dvakrát. Rodina Kinských uprchla po nacistickém zabavení do Itálie, komunistický stát pak panství v roce 1948 rovnou znárodnil a provozoval ho jako muzeum gotického a renesančního umění, a trvalo až do roku 1993 — dávno po rozdělení samotného Československa na dva státy — než rodina, mezitím pojmenovaná Kinských dal Borgo po letech vyhnanství, hrad dostala zpátky.
+
+🎁 Bonus: ta historka „tvrdé jako kost" je pravděpodobně spíš legenda než doložený fakt — ale slovo „kost" v hradním jméně skutečně znamená přesně to, co znamená, a po zhruba šesti stoletích nepřetržitě neúspěšných obléhání se to nikdo příliš nesnaží vyvracet.`,
+
+      zh: `欢迎来到科斯特城堡——一座固执到几乎攻不下的哥特式要塞，传说就连扬·日什卡本人（这个项目已经介绍过的那位从未打过一场败仗的胡斯军统帅）看了一眼这道城墙，都只能评价说它"硬得像骨头一样"。而这座城堡的名字，至今就是"骨头"（kost）的意思。
+
+小瓦滕贝格的贝内什大约在1349年之前动工修建科斯特城堡，他的两个儿子彼得和马克瓦特接手完成了这项工程，采用了一套正统的盛期哥特式风格。跟几乎所有其他波希米亚城堡不同，它不建在山丘上，而是低低地坐落在两个池塘之间一条狭窄的陆地上，藏身于层层叠叠的山谷褶皱之中——不走到跟前，几乎注意不到它的存在。城堡中心矗立着"白塔"（Bílá věž），它的主塔刻意采用了梯形而非方形的平面布局：斜切的转角是为了让投石机射来的石弹从侧面滑开，而不是正面硬吃。
+
+这份伪装加巧思的组合，撑住了好几个世纪。科斯特城堡熬过了15世纪的胡斯战争，也熬过了17世纪的三十年战争，从未被强攻攻陷——这份纪录在波希米亚的城堡里相当罕见，也成了这座城堡被反复提起的头号招牌。城堡的所有权先是在1414年通过联姻，从瓦滕贝格家族转到扎伊茨·冯·哈兹姆布尔克家族手中，此后又依次经过舍伦贝格、比伯施泰因和洛布科维茨几个家族——每一任主人显然都更在意守住这座城堡，而不是大动干戈地改建它，这也是科斯特城堡如今被公认为全国保存最完好的哥特式城堡的重要原因。
+
+二十世纪最终做到了六百年围城都没能做到的事：逼走了城堡的主人，而且是整整两次。金斯基家族在纳粹没收城堡后流亡意大利，共产党政权又在1948年直接将庄园收归国有，把它当作哥特与文艺复兴艺术博物馆经营；一直要到1993年——早已是捷克斯洛伐克本身一分为二之后——这个流亡多年后改姓"金斯基·达尔·博尔戈"的家族，才终于把城堡要了回来。
+
+🎁 彩蛋："硬得像骨头"这个说法，多半是传说而非确凿的史料——但"kost"这个词在捷克语里确实就是"骨头"的意思，而在大约六个世纪不间断的围城失败史面前，似乎也没人特别想出来纠正这个说法。`,
+    },
+  },
+  {
+    // Added 2026-08-29, out-of-town-ruin exception (same category as
+    // zricenina-hradu-okor/jenstejn/zlenice/karlik/tetin, but here a
+    // standalone Bohemian Paradise (Český ráj) site with no nearby town
+    // card): a small rock castle whose founder's own brother founded
+    // Valdštejn Castle and, with it, the Waldstein/Wallenstein noble line
+    // — Albrecht von Wallenstein already appears in this app via
+    // bezdez-castle (his death in Cheb) and now also via liberec (his
+    // textile-industry role), so all three new 2026-08-29 entries share
+    // one connective thread. rarity `epic`, consistent with the other
+    // mid-tier ruins in this file.
+    name: 'Rotštejn Castle Ruins',
+    slug: 'zricenina-hradu-rotstejn',
+    localizedNames: { cz: 'Zřícenina hradu Rotštejn', zh: '罗特什捷因城堡遗迹' },
+    labels: ['ruin', 'historical', 'architecture'],
+    coordinates: { lat: 50.594402632976646, lng: 15.22514293322883 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Rot%C5%A1tejn_Castle',
+    description: {
+      en: `Welcome to the ruins of Rotštejn Castle, half ordinary stone masonry and half carved straight into the living sandstone rock — founded by a man whose own younger brother went on to start one of the most notorious noble dynasties in all of Bohemian history, just down the road.
+
+Jaroslav of Hruštice, of the Markvartic family, had Rotštejn built for his son Vok shortly after 1250, perched on a sandstone outcrop in what's now known as the Klokočské rocks. Vok's brother Zdeněk built a castle of his own nearby around the same time, Valdštejn, and became the founding ancestor of the Waldstein (Valdštejn) line. Generations later, that family produced Albrecht von Wallenstein — the same imperial generalissimo whose meteoric rise and violent 1634 assassination in Cheb this timeline has already told — who, in one of history's tidier coincidences, eventually bought back his own ancestral castle at Valdštejn and went on to help build up Liberec's own textile industry besides. Rotštejn's own story stayed considerably quieter: a fire in 1318 forced a rebuild that added a proper stone palace and a dominant tower, but the castle was already abandoned and crumbling by the early 16th century.
+
+What's left today is a genuine hybrid of building and bedrock. Some of the ruin is conventional stonework; the rest — including a well and a set of benches from what was once the castle kitchen — is simply carved straight into the sandstone itself. Climb to the surviving upper floor of the old palace and the reward is one of the finest panoramic viewpoints in the whole of Bohemian Paradise, taking in the Hruboskalsko rock city, Valdštejn castle, the ruins of Trosky, Kozákov hill, and the Jizera Mountains on a clear day.
+
+🎁 Bonus: local legend insists there's still treasure hidden somewhere in Rotštejn's carved-out passages. After nearly 800 years of nobody finding it, that's either a remarkably well-kept secret or a remarkably good story.`,
+
+      cz: `Vítej u zříceniny hradu Rotštejn, napůl obyčejného kamenného zdiva a napůl vytesané přímo do živé pískovcové skály — založené mužem, jehož vlastní mladší bratr o kus dál založil jeden z nejproslulejších šlechtických rodů celých českých dějin.
+
+Jaroslav z Hruštice, z rodu Markvarticů, nechal Rotštejn postavit pro svého syna Voka krátce po roce 1250, na pískovcovém výběžku v dnešních Klokočských skalách. Vokův bratr Zdeněk si zhruba ve stejné době postavil vlastní hrad opodál, Valdštejn, a stal se zakladatelem rodu Valdštejnů. O generace později tenhle rod přivedl na svět Albrechta z Valdštejna — tentýž říšský generalissimus, jehož závratný vzestup i násilný konec v Chebu v roce 1634 tahle časová osa už vyprávěla — který si, jednou z těch úhledných shod historie, nakonec koupil zpátky vlastní rodový hrad Valdštejn a k tomu ještě přiložil ruku k budování liberecké textilní výroby. Osud samotného Rotštejnu zůstal mnohem tišší: požár v roce 1318 vynutil přestavbu, při níž přibyl pořádný kamenný palác i výrazná věž, ale hrad byl opuštěný a chátrající už na počátku 16. století.
+
+Co z něj zůstalo dnes, je opravdový hybrid stavby a skalního podloží. Část zříceniny tvoří obyčejné zdivo, zbytek — včetně studny a lavic z bývalé hradní kuchyně — je prostě vytesaný přímo do pískovce. Kdo vystoupá na dochované horní patro starého paláce, dostane odměnou jeden z nejhezčích panoramatických výhledů v celém Českém ráji: za jasného počasí je vidět Hruboskalsko, hrad Valdštejn, zříceninu Trosek, vrch Kozákov i Jizerské hory.
+
+🎁 Bonus: místní pověst tvrdí, že ve vytesaných chodbách Rotštejna dodnes leží ukrytý poklad. Po skoro 800 letech, kdy ho nikdo nenašel, je to buď mimořádně dobře střežené tajemství, nebo mimořádně dobrý příběh.`,
+
+      zh: `欢迎来到罗特什捷因城堡遗迹——一半是寻常的石砌建筑，一半直接凿刻进了活生生的砂岩之中。它的建造者，有个弟弟后来在不远处开创了波希米亚历史上最声名显赫的贵族世系之一。
+
+马克瓦尔特家族的赫鲁什齐采的雅罗斯拉夫，大约在1250年后不久，为自己的儿子沃克修建了罗特什捷因城堡，选址在如今被称为克洛科奇岩群的一处砂岩突出部上。沃克的弟弟兹德涅克差不多同一时期在附近为自己修建了另一座城堡——瓦尔德什坦城堡，并由此成为瓦尔德什坦（华伦斯坦）家族的开创者。几代人之后，这个家族出了阿尔布雷希特·冯·华伦斯坦——正是这条时间线已经讲过的那位帝国总司令，崛起如流星，1634年死于赫布。而历史的巧合恰好凑成了一个整齐的圆：华伦斯坦后来买回了自己家族的祖传城堡瓦尔德什坦，还顺手帮利贝雷茨发展起了自己的纺织业。相比之下，罗特什捷因自己的故事平淡得多：1318年一场大火迫使城堡重建，添了一座像样的石造宫殿和一座主塔，但到16世纪初，它已经被遗弃、逐渐坍塌。
+
+如今留下的，是建筑与基岩真正意义上的混血产物。部分遗迹是普通的石砌结构，其余部分——包括一口水井和昔日城堡厨房留下的一排石凳——则是直接凿刻在砂岩里的。爬上古老宫殿现存的上层，回报是整个捷克天堂地区数一数二的全景视野：天气晴朗时，可以望见赫鲁博斯卡尔斯科岩群、瓦尔德什坦城堡、特罗斯基城堡遗迹、科扎科夫山，以及远处的伊泽拉山脉。
+
+🎁 彩蛋：当地传说坚称，罗特什捷因凿刻出的通道里至今还藏着宝藏。将近800年过去了都没人找到，这要么是一个保守得极好的秘密，要么就是一个编得极好的故事。`,
+    },
+  },
+  {
+    // Added 2026-08-29 — long-form single-city-card treatment (the
+    // olomouc/brno/plzen/jihlava template: intro — history — landmarks —
+    // bonus, no sub-landmark splitting), per the "just barely a Prague day
+    // trip + outsized standalone historical weight" exception. Liberec is
+    // the Czech Republic's 5th-largest city and was, for most of the
+    // modern era, one of the most industrially and politically significant
+    // in the Czech lands (Reichsgau Sudetenland's administrative capital,
+    // 1939-45), which more than clears the bar. rarity `mythic`, matching
+    // olomouc/plzen/jihlava's tier rather than brno's `legend` (Brno's own
+    // upgrade rested on its additional weight as Moravia's actual capital
+    // seat; Liberec doesn't carry that same regional-capital status).
+    // Ještěd Tower (jested-tower) already has its own card and sits atop
+    // this city's own skyline — mentioned in passing here, not re-described.
+    name: 'Liberec',
+    slug: 'liberec',
+    localizedNames: { cz: 'Liberec', zh: '利贝雷茨' },
+    labels: ['city'],
+    coordinates: { lat: 50.76933169888674, lng: 15.05802568523475 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Liberec',
+    description: {
+      en: `Liberec spent much of its history being one of the most industrious, most German-speaking, and — for one especially grim stretch of the 20th century — most politically important cities in the entire Czech lands, and it did most of that while barely qualifying as a Prague day trip.
+
+The settlement is first documented in 1352 under its German name, Reichenberg, from which the Czech "Liberec" only later evolved. Cloth-making took root here under the Redern family, and the man who really turned it into an industry was a familiar face to anyone who's followed this app's own history so far: Albrecht von Wallenstein, the same imperial generalissimo whose meteoric rise and violent 1634 death in Cheb this timeline has already told, and who — by an odd coincidence of Bohemian noble genealogy — also happened to be the man who bought back his own ancestors' castle at Valdštejn, not far from here. By the turn of the 19th and 20th centuries, that textile foundation had made Liberec the second-most populous city in Bohemia and earned it nicknames like "Czech Manchester" and "Vienna of the North" — an industrial powerhouse whose population, for most of its modern history, was overwhelmingly German-speaking.
+
+That German-speaking majority put Liberec at the center of one of the darkest chapters in 20th-century Czech history. Following the September 1938 Munich Agreement, German troops occupied the city on 2 October, and Reichenberg became the administrative capital of the newly created Reichsgau Sudetenland. The city's synagogue, home to a Jewish community of roughly 1,400 people, was destroyed that November during Kristallnacht; almost none of that community remained by the time the war ended. Liberec's own German-speaking majority was, in turn, expelled after 1945, in the same postwar transfers that reshaped the whole of the Sudetenland. A quieter but no less pointed memorial stands outside the Town Hall today: a bronze cast of tank tracks, marking nine residents killed here during the Warsaw Pact invasion of August 1968.
+
+The Town Hall itself is Liberec's grandest architectural statement, a Neo-Renaissance pile built between 1888 and 1893 by the Viennese architect Franz Neumann, its silhouette deliberately echoing Vienna's own city hall — a piece of imperial ambition on a scale the town's textile fortune could apparently well afford. Two green spaces round out the tourist list, both genuine record-holders: the Liberec Botanical Garden, founded in 1876 by a local nature-lovers' society and the oldest of its kind in the country, and Liberec Zoo, founded in 1904 on the former winter quarters of a traveling circus and now the country's oldest zoo, home to around 160 species including white tigers and golden takins.
+
+None of that, though, is the first thing most visitors actually notice. Looming over the whole city from the summit of Ještěd mountain is the hyperboloid tower that has its own separate entry in this app — equal parts hotel, television transmitter, and architectural landmark, and by most counts the single most photographed building in the entire region.
+
+🎁 Bonus: all that industrial ambition left Liberec with a very practical souvenir — an interurban tram line to the neighboring town of Jablonec nad Nisou, opened in 1900 and still running today, one of the oldest continuously operating tram lines of its kind anywhere in Central Europe.`,
+
+      cz: `Liberec strávil velkou část svých dějin jako jedno z nejpilnějších, nejvíce německy mluvících — a na jeden obzvlášť ponurý úsek 20. století i jedno z politicky nejdůležitějších — měst v celých českých zemích, a většinu z toho zvládl, i když jde sotva o výlet na jeden den z Prahy.
+
+Osada je poprvé doložena v roce 1352 pod svým německým jménem Reichenberg, z něhož se teprve později vyvinulo české „Liberec". Soukenictví se tu zakořenilo za rodu Redernů, a mužem, který z něj skutečně udělal průmysl, byl někdo, koho každý, kdo sledoval historii téhle aplikace, už dobře zná: Albrecht z Valdštejna, tentýž říšský generalissimus, jehož závratný vzestup i násilný konec v Chebu v roce 1634 tahle časová osa už vyprávěla — a který, podivnou shodou české šlechtické genealogie, byl zároveň mužem, jenž si koupil zpátky vlastní rodový hrad Valdštejn, nedaleko odtud. Na přelomu 19. a 20. století z tohohle textilního základu vyrostl Liberec ve druhé nejlidnatější město Čech a vysloužil si přezdívky jako „český Manchester" nebo „Vídeň severu" — průmyslová velmoc, jejíž obyvatelstvo bylo po většinu své novodobé historie z drtivé části německy mluvící.
+
+Tahle německy mluvící většina postavila Liberec do centra jedné z nejtemnějších kapitol českých dějin 20. století. Po Mnichovské dohodě ze září 1938 obsadily město 2. října německé jednotky a Reichenberg se stal správním centrem nově vzniklé říšské župy Sudety. Synagoga, domovský stánek zdejší židovské komunity čítající zhruba 1 400 lidí, byla zničena téhož listopadu při Křišťálové noci; do konce války z téhle komunity nezbylo takřka nic. Německy mluvící většina samotného Liberce byla po roce 1945 zase vysídlena, v rámci téhož poválečného přesunu obyvatel, který přetvořil celé Sudety. Před dnešní radnicí stojí tišší, ale neméně jednoznačný památník: bronzový odlitek pásů tanku, připomínající devět zdejších obětí invaze vojsk Varšavské smlouvy v srpnu 1968.
+
+Samotná radnice je nejokázalejším architektonickým gestem Liberce — novorenesanční stavba postavená mezi lety 1888 a 1893 vídeňským architektem Franzem Neumannem, jejíž silueta záměrně odkazuje na vídeňskou radnici samotnou — kus imperiální ambice v měřítku, na které si textilní bohatství města zjevně mohlo dovolit. Dvě zelené plochy doplňují turistický seznam, obě skutečné rekordmanky: Liberecká botanická zahrada, založená v roce 1876 místním spolkem přátel přírody a nejstarší svého druhu v zemi, a Zoo Liberec, založená v roce 1904 na bývalém zimovišti kočovného cirkusu a dnes nejstarší zoo v zemi, domov asi 160 druhů zvířat včetně bílých tygrů a takinů zlatých.
+
+Nic z toho ale většina návštěvníků nezaregistruje jako první. Nad celým městem se ze summitu hory Ještěd tyčí hyperboloidní věž, která má v téhle aplikaci vlastní samostatnou kartu — zároveň hotel, televizní vysílač i architektonická památka, a podle většiny odhadů nejfotografovanější budova celého kraje.
+
+🎁 Bonus: veškerá ta průmyslová ambice zanechala Liberci velmi praktickou památku: meziměstskou tramvajovou trať do sousedního Jablonce nad Nisou, otevřenou v roce 1900 a fungující dodnes — jednu z nejstarších nepřetržitě provozovaných tramvajových tratí svého druhu v celé střední Evropě.`,
+
+      zh: `利贝雷茨大半段历史里，都是波希米亚地区最勤劳、德语人口占比最高的城市之一——而在20世纪一段格外阴暗的时期，它还一度是政治上举足轻重的地方。而这一切，几乎都发生在一座勉强算得上是布拉格一日游终点的城市里。
+
+这处聚落最早的文字记录出现在1352年，用的是它的德语名字"Reichenberg"，捷克语名字"Liberec"是后来才慢慢演变出来的。呢绒纺织业最早在雷德恩家族治下扎根，而真正把它做成一门产业的人，是每一位跟随过这个应用了解历史的读者都该有些眼熟的一个名字：阿尔布雷希特·冯·华伦斯坦——正是这条时间线已经讲过的那位帝国总司令，崛起如流星，1634年死于赫布。波希米亚贵族谱系有时也挺爱开这种巧合的玩笑：正是这同一个人，后来买回了自己家族在瓦尔德什坦的祖传城堡，离这里不算远。到19、20世纪之交，这份纺织业根基已经把利贝雷茨推上了波希米亚人口第二多的城市，还给它挣来了"捷克曼彻斯特""北方维也纳"这样的绰号——一座工业重镇，在它近代史的大部分时间里，居民绝大多数说德语。
+
+这份以德语为主的人口结构，把利贝雷茨推到了20世纪捷克历史最黑暗篇章的中心。1938年9月《慕尼黑协定》签订后，德军于10月2日占领了这座城市，Reichenberg随即成了新设立的"苏台德帝国大区"的行政中心。当年11月的"水晶之夜"中，本地约1400人的犹太社群赖以维系的犹太会堂被摧毁；到战争结束时，这个社群几乎已不复存在。而利贝雷茨自身的德语人口多数，也在1945年后被驱逐，与整个苏台德地区一同经历了那场重塑当地人口版图的战后大迁移。今天的市政厅门前，立着一座更安静、却同样意味深长的纪念物：一段青铜浇铸的坦克履带，纪念1968年8月华沙条约组织军队入侵期间，在这里遇难的九位居民。
+
+市政厅本身，是利贝雷茨最气派的建筑宣言——一座1888到1893年间由维也纳建筑师弗朗茨·诺伊曼设计建造的新文艺复兴式建筑，轮廓刻意呼应着维也纳市政厅本尊——这份帝国式的雄心，规模之大，显然是这座城市靠纺织业积累的财富才撑得起的。两片绿地为游览清单锦上添花，而且都是名副其实的纪录保持者：利贝雷茨植物园，1876年由本地一个自然爱好者协会创立，是全国同类园区中历史最悠久的一座；利贝雷茨动物园，1904年在一个巡回马戏团废弃的冬季营地上建成，如今是全国历史最悠久的动物园，园内约有160个物种，包括白虎和金滇羚。
+
+不过，大多数游客第一眼真正注意到的，其实都不是这些。俯瞰全城的，是耶什捷德山顶上那座双曲面塔楼——这座建筑在这个应用里有自己独立的一张卡片，身兼酒店、电视发射塔和建筑地标三重身份，按大多数说法，也是整个地区被拍照次数最多的建筑。
+
+🎁 彩蛋：所有这些工业雄心，给利贝雷茨留下了一份非常实用的纪念品：一条通往邻近城镇亚布洛内茨－纳德－尼索的城际有轨电车线路，1900年开通，至今仍在运行——是整个中欧同类线路中，持续运营历史最悠久的几条之一。`,
+    },
+  },
+  {
+    // Added 2026-08-29, same batch as kost-castle/zricenina-hradu-rotstejn/
+    // liberec — a genuinely standalone Bohemian Paradise (Český ráj) nature
+    // site, not a second landmark inside an already-carded town. Not a
+    // castle or a city, so labeled ['nature', 'geology'] rather than
+    // reusing the castle/city label sets from the rest of this batch.
+    // Hrubá Skála Chateau (perched right on this rock town's own edge) is
+    // folded into this card's own prose rather than spun out as a fourth
+    // separate castle Location — consistent with the "fold sub-landmarks
+    // into the one card" convention, and this micro-region already got two
+    // standalone castle cards this same batch. rarity `mythic`: genuinely
+    // one of the signature natural landmarks of the whole region (first
+    // protected landscape area in Czechoslovakia, UNESCO Global Geopark),
+    // on par with the other big-ticket entries added alongside it, though
+    // held back from `legend` since that tier is reserved for buildings
+    // per CLAUDE.md, not natural features.
+    name: 'Hruboskalsko',
+    slug: 'hruboskalsko',
+    localizedNames: { cz: 'Hruboskalsko', zh: '赫鲁博斯卡尔斯科' },
+    labels: ['nature', 'geology'],
+    coordinates: { lat: 50.54801566878645, lng: 15.19362837767325 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hruboskalsko',
+    description: {
+      en: `Welcome to Hruboskalsko, a "rock town" where hundreds of sandstone towers stand close enough together that climbers can walk from summit to summit on ropes without a foot ever touching the ground — a landscape that looks entirely invented, and yet is genuinely just what happens when a seabed sits still for 100 million years.
+
+The sandstone here was laid down as sediment on the floor of a shallow Cretaceous sea roughly 100 million years ago, then slowly pushed upward and carved by millions of years of wind, rain, and frost into the maze of towers, corridors, and crevices that make up today's "rock town." The plateau sits around 380 meters above sea level, its edges crumbling away into hundreds of individual sandstone pillars — the tallest reaching around 60 meters — with names as evocative as their shapes: Kapelník, Lebka ("Skull"), Maják ("Lighthouse"), and Osudová ("Fateful") among them.
+
+Hruboskalsko sits at the heart of Bohemian Paradise (Český ráj), which became Czechoslovakia's very first protected landscape area back in 1955 and, since 2005, has carried UNESCO Global Geopark status as well. Climbers have been coming here for over a century — the first routes were pioneered in the early 20th century by German-speaking climbers from what was then a predominantly German-speaking region, back before the postwar expulsions this project has already covered elsewhere reshaped the whole area. Czech climbers picked up exactly where they left off, and Hruboskalsko remains one of the birthplaces of the distinctive, gear-light "sandstone style" of climbing still practiced across Bohemia today.
+
+Perched right on the rock town's own edge is Hrubá Skála Chateau, first recorded as a castle in 1353 and rebuilt more than once over the centuries — Renaissance under the Smiřice family in the 16th century, then neo-Gothic in 1859 under the Lexa von Aehrenthal family, who'd bought the estate in 1821. It's a working hotel today, but its tower is open to visitors without any climbing gear at all, with views stretching over the rock town itself toward Trosky and Kozákov.
+
+🎁 Bonus: one Aehrenthal born in this very castle, Alois Lexa von Aehrenthal, grew up to become Austria-Hungary's foreign minister — and in 1908 triggered a genuine European crisis by formally annexing Bosnia and Herzegovina, a diplomatic shock still counted among the sparks that made the outbreak of the First World War six years later that much likelier. Not bad for a house with a view of some rocks.`,
+
+      cz: `Vítej na Hruboskalsku, „skalním městě", kde stovky pískovcových věží stojí tak těsně u sebe, že se mezi jejich vrcholky dá lanem přejít, aniž by noha kdy klesla na zem — krajina, která vypadá jako čirý výmysl, a přitom je to jen to, co se stane, když mořské dno sto milionů let zůstane v klidu.
+
+Zdejší pískovec se usazoval jako sediment na dně mělkého křídového moře zhruba před sto miliony let, poté byl pomalu vyzdvižen a miliony let tvarován větrem, deštěm a mrazem do labyrintu věží, chodeb a rozsedlin, který dnes tvoří „skalní město". Náhorní plošina leží zhruba 380 metrů nad mořem, jejíž okraje se drolí do stovek jednotlivých pískovcových věží — ty nejvyšší dosahují kolem 60 metrů — s jmény stejně sugestivními jako jejich tvary: Kapelník, Lebka, Maják nebo Osudová.
+
+Hruboskalsko leží v srdci Českého ráje, který se v roce 1955 stal úplně první chráněnou krajinnou oblastí v celém Československu a od roku 2005 nese i titul geoparku UNESCO. Lezci sem jezdí přes sto let — první cesty tu na počátku 20. století vytyčili německy mluvící lezci z tehdy převážně německy mluvícího regionu, ještě předtím, než poválečné odsuny, o kterých už tenhle projekt jinde psal, celou oblast přetvořily. Čeští lezci pak navázali přesně tam, kde ti němečtí skončili, a Hruboskalsko dodnes zůstává jedním z rodišť osobitého, na jištění skoupého „pískovcového stylu" lezení, který se v Čechách provozuje dodnes.
+
+Přímo na okraji skalního města se tyčí zámek Hrubá Skála, poprvé zmiňovaný jako hrad v roce 1353 a v průběhu staletí víckrát přestavěný — v renesanci za Smiřických v 16. století, pak novogoticky v roce 1859 za rodu Lexů z Aehrenthalu, kteří panství koupili v roce 1821. Dnes slouží jako hotel, ale jeho věž je otevřená i výletníkům úplně bez lezeckého vybavení, s výhledem přes celé skalní město až k Troskám a Kozákovu.
+
+🎁 Bonus: jeden z Aehrenthalů narozených přímo v tomhle zámku, Alois Lexa z Aehrenthalu, vyrostl v rakousko-uherského ministra zahraničí — a v roce 1908 vyvolal skutečnou evropskou krizi formální anexí Bosny a Hercegoviny, diplomatický šok, který se dodnes počítá mezi jiskry, jež o šest let později přispěly k vypuknutí první světové války. Slušný výkon na dům s výhledem na pár skal.`,
+
+      zh: `欢迎来到赫鲁博斯卡尔斯科——一座"石头城"，数百座砂岩塔彼此挨得如此之近，攀岩者可以靠绳索从一座塔顶走到另一座塔顶，脚都不必落地。这片风景看上去完全像是编出来的，但其实只是海底静静躺了一亿年之后，自然而然的结果。
+
+这里的砂岩，大约一亿年前，作为沉积物堆积在一片浅浅的白垩纪海床上，后来被缓慢抬升，又经过数百万年风、雨与霜冻的雕琢，塑造成今天这片由塔柱、通道和裂隙组成的"石头城"迷宫。这片台地海拔约380米，边缘不断剥落，碎裂成数百座独立的砂岩塔——最高的能达到大约60米——每一座都有着和形状一样生动的名字：卡佩尔尼克、"骷髅"莱布卡、"灯塔"马雅克，还有"宿命"奥苏多娃。
+
+赫鲁博斯卡尔斯科坐落在捷克天堂（Český ráj）的核心地带。这片区域在1955年成为捷克斯洛伐克历史上第一个受保护的自然景观区，自2005年起，又多了一个联合国教科文组织世界地质公园的头衔。攀岩者已经在这里活动了一个多世纪——最早的路线是20世纪初，由这片当时以德语人口为主的地区中的德语攀岩者开辟的，那时候，这个项目在别处已经提到过的战后驱逐还没有重塑整个地区的人口版图。捷克攀岩者后来正好接过了这份传承，赫鲁博斯卡尔斯科至今仍是那种少用保护装备、就地取材的"砂岩风格"攀登方式的发源地之一，这种风格至今仍在整个波希米亚流行。
+
+就在石头城的边缘，矗立着赫鲁巴·斯卡拉城堡，最早在1353年作为一座城堡见于文献记载，此后几个世纪里多次改建——16世纪由斯米日兹基家族改建为文艺复兴风格，1859年又由1821年买下这处庄园的莱克萨·冯·埃伦塔尔家族，改建成新哥特式。如今它是一家酒店，但它的塔楼依然对普通游客开放，完全无需任何攀岩装备，登顶后可以俯瞰整个石头城，一路望向特罗斯基城堡和科扎科夫山。
+
+🎁 彩蛋：就出生在这座城堡里的阿洛伊斯·莱克萨·冯·埃伦塔尔，后来当上了奥匈帝国的外交大臣——1908年，他正式吞并波斯尼亚与黑塞哥维那，引发了一场真正意义上的欧洲外交危机，这场冲击至今仍被视为六年后第一次世界大战爆发的诸多导火索之一。对一座望着几块石头的宅子来说，这份履历相当不错。`,
+    },
+  },
 ];
 
 async function run() {
