@@ -75,6 +75,16 @@ const historyEventSchema = new mongoose.Schema({
   // two or more, rendered in array order. The frontend just skips the
   // banner block entirely when this is empty.
   images: { type: [String], default: [] },
+  // Optional small caption line rendered under each image, matched to
+  // `images` by array index (imageCaptions[0] capions images[0], etc.).
+  // Added after most events had already shipped without captions, so it's
+  // a separate, independently-optional array rather than turning `images`
+  // itself into an array of objects — every existing event's plain-string
+  // `images` array keeps working untouched. Leave an entry empty ({}) or
+  // the whole array short if a given image doesn't need a caption; the
+  // frontend only renders a <figcaption> when text for the current
+  // language (or its English fallback) is actually present.
+  imageCaptions: { type: [localizedTextSchema], default: [] },
 }, { timestamps: true });
 
 historyEventSchema.index({ era: 1, startYear: 1 });

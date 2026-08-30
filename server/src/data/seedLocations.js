@@ -24816,6 +24816,160 @@ Přímo na okraji skalního města se tyčí zámek Hrubá Skála, poprvé zmiň
 🎁 彩蛋：就出生在这座城堡里的阿洛伊斯·莱克萨·冯·埃伦塔尔，后来当上了奥匈帝国的外交大臣——1908年，他正式吞并波斯尼亚与黑塞哥维那，引发了一场真正意义上的欧洲外交危机，这场冲击至今仍被视为六年后第一次世界大战爆发的诸多导火索之一。对一座望着几块石头的宅子来说，这份履历相当不错。`,
     },
   },
+
+  // ── Prague 4 south / Prague-West batch (2026-08-30) ─────────────────────
+  // Four small, non-grand everyday spots rather than tourist headliners:
+  // a square that officially stopped being a square, a rebuilt natural
+  // swimming biotope, a modern office tower with an unusually good
+  // ownership-name joke, and a village pond just past Prague's own city
+  // limits. All `common` rarity except budova-enterprise (`rare`, on the
+  // strength of its distinctive architecture) — none of these rise to the
+  // "grand/monumental" bar `legend` is reserved for. vestecky-rybnik sits
+  // just outside Prague's administrative border in the village of Vestec
+  // (Praha-západ) — not a second-city card under the "one card per
+  // non-Prague city" rule, since Vestec itself isn't being given a city
+  // card here, just a standalone pond/nature feature immediately adjacent
+  // to Prague's own southern edge.
+  {
+    name: 'Budějovické náměstí',
+    slug: 'budejovicke-namesti',
+    localizedNames: { cz: 'Budějovické náměstí', zh: '布杰约维采广场' },
+    labels: ['square', 'transport'],
+    coordinates: { lat: 50.044798297513516, lng: 14.448619719451385 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Bud%C4%9Bjovick%C3%A9_n%C3%A1m%C4%9Bst%C3%AD',
+    description: {
+      en: `Welcome to Budějovické náměstí, a square that stopped being a square decades ago and quietly kept the name anyway. Stand here today and you'll find a metro entrance, a couple of office towers, and heavy traffic — the actual open square that once justified this name was built over in the 1980s.
+
+In 1922, Nusle, Michle, and Krč — until then independent municipalities — were folded into Prague. For years afterward, the only real landmarks on the future square's site were two brick water towers, the more famous of which, built in 1906–1907 to a design by Jan Kotěra (a founding figure of modern Czech architecture) at nearby Na Zelené Lišce, still stands today as a protected cultural monument. The prewar Zelená Liška housing estate went up alongside it between 1932 and 1938, and the square itself was officially named in 1941.
+
+Trams reached the square in 1930, and by 1952 a proper loop called Na Lísku had been built right on it — well-known enough that it turned up as the setting of Tam na konečné (1957), one of the first Czechoslovak films to take on alcoholism as a subject, following the residents of a tenement block at a tram terminus. That terminus closed in 1974 when Metro Line C opened directly underneath, and by the 1980s the square had been built over so thoroughly — the House of Residential Culture, several banks, shopping premises — that its own official name was retired in 1983. The metro exit is now the closest thing the neighborhood has to a town center.
+
+🎁 Bonus: If you'd rather see the neighborhood's actual oldest surviving structure, skip the metro exit and walk a few minutes to the water tower at Na Zelené Lišce — still standing since 1907, still doing quiet architectural work in a corner of Prague named after a square that, technically, no longer exists.`,
+
+      cz: `Vítej na Budějovickém náměstí, náměstí, které přestalo být náměstím už před desítkami let, ale jméno si tiše ponechalo. Když sem dnes přijdeš, najdeš vestibul metra, pár kancelářských věží a hustý provoz — skutečné otevřené prostranství, které tenhle název kdysi ospravedlňovalo, bylo zastavěno v osmdesátých letech.
+
+V roce 1922 byly Nusle, Michle a Krč — do té doby samostatné obce — připojeny k Praze. Po dlouhá léta byly jedinými skutečnými dominantami budoucího náměstí dva cihlové vodojemy, z nichž ten slavnější, postavený v letech 1906–1907 podle návrhu Jana Kotěry — jedné ze zakladatelských postav moderní české architektury — na Zelené Lišce, stojí dodnes jako chráněná kulturní památka. Vedle něj vyrostlo v letech 1932–1938 předválečné sídliště Zelená Liška a samotné náměstí získalo svůj oficiální název v roce 1941.
+
+Tramvaj sem dorazila v roce 1930 a do roku 1952 zde vznikla i řádná smyčka Na Lísku — natolik známá, že se objevila jako dějiště filmu Tam na konečné (1957), jednoho z prvních československých filmů, který se odvážil tématu alkoholismu, sledujícího obyvatele činžovního domu u tramvajové konečné. Tahle konečná zanikla v roce 1974, kdy pod ní bylo otevřeno metro linky C, a v osmdesátých letech bylo náměstí zastavěno natolik důkladně — Dům bytové kultury, několik bank, obchodní prostory — že jeho vlastní oficiální jméno bylo v roce 1983 zrušeno. Vestibul metra je dnes tím nejbližším, co čtvrť má za centrum.
+
+🎁 Bonus: Pokud chceš vidět skutečně nejstarší dochovanou stavbu čtvrti, vynech vestibul metra a projdi se pár minut k vodojemu na Zelené Lišce — stojí tu od roku 1907 a tiše odvádí svou architektonickou práci v koutě Prahy pojmenovaném po náměstí, které technicky vzato už neexistuje.`,
+
+      zh: `欢迎来到布杰约维采广场——一座早在几十年前就已经不再是广场的"广场"，却把这个名字悄悄保留了下来。如果你今天站在这里，看到的多半是地铁出口、几栋办公楼和拥挤的车流：那片曾经真正支撑起这个名字的开阔广场，早在上世纪八十年代就被建筑物填满了。
+
+1922年，此前一直是独立行政区的努斯莱、米赫莱和克尔奇被并入布拉格。此后很长一段时间里，未来这座广场所在的地方唯一称得上地标的，是两座砖砌水塔——其中更有名的那一座，1906至1907年间由现代捷克建筑奠基人之一扬·科特拉设计，建在附近的绿狐地区（Na Zelené Lišce），至今仍作为受保护的文物建筑矗立在那里。紧挨着它，1932到1938年间建起了战前的绿狐住宅区，广场本身则在1941年正式获得了自己的名字。
+
+有轨电车1930年通到这座广场，到1952年，这里还建成了一处正式的环形调头道"Na Lísku"——出名到成了1957年电影《在终点站》（Tam na konečné）的取景地，这是最早正面处理酗酒题材的捷克斯洛伐克电影之一，讲述的正是住在电车终点站旁一栋公寓楼里的居民们的故事。1974年，地铁C线在这条终点线正下方开通，电车随之停运；到了八十年代，这座广场已经被建筑物彻底填满——住宅文化之家、几家银行、商业设施——以至于它自己的官方名称在1983年被正式取消。如今，地铁出口是这片街区最接近"市中心"的东西。
+
+🎁 彩蛋：如果你想看看这片街区真正最古老的建筑，不妨绕开地铁出口，走几分钟去看看绿狐地区那座水塔——它自1907年起便矗立在那里，如今仍在布拉格的一角默默履行着自己的建筑职责，而这个街角，恰恰以一座严格来说已经不复存在的广场命名。`,
+    },
+  },
+  {
+    name: 'Lhotka Biotope',
+    slug: 'koupaliste-lhotka',
+    localizedNames: { cz: 'Koupaliště Lhotka (biotop)', zh: 'Lhotka生态泳池' },
+    labels: ['nature', 'waterbody'],
+    coordinates: { lat: 50.02176900524964, lng: 14.437420860057964 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to Biotop Lhotka, a Prague 4 swimming lake that spent nearly two decades as an abandoned concrete shell before the city finally rebuilt it around an unusual idea: let plants and microorganisms do the water-cleaning that most pools leave to chlorine.
+
+A traditional swimming pool operated on this site through the 1970s and 1980s, then fell into disuse once the decade turned. In 2005 the state sold the derelict grounds to a developer with plans for housing rather than a rebuilt pool, and it took a 2012 residents' petition and Prague 4's own repurchase of the land in 2014 to put a swimming facility back on the table. Demolition of the old structures and revitalization work began in 2015, and the gates finally reopened to bathers on 29 June 2018.
+
+What reopened wasn't the old chlorinated pool but a genuine biotope: a 5,570-square-metre irregular oval lake, reaching about 3.25 metres in its swimming section and roughly a metre in the shallower non-swimming zone, with water kept clean not by chemicals but by root-zone filtration, gravel beds, and the same microorganisms that keep a healthy pond healthy. A children's shallow pool and new swimming platforms followed in 2025, and the site keeps quietly expanding one bathing season at a time.
+
+🎁 Bonus: For roughly twenty years, the most active thing happening on this plot was decay. Its second act put that right by handing the actual cleaning work to bacteria and pond plants rather than a chlorine tank — arguably the laziest possible solution to a dirty-water problem, and also, apparently, the correct one.`,
+
+      cz: `Vítej u Biotopu Lhotka, koupacího jezera v Praze 4, které strávilo skoro dvacet let jako opuštěná betonová skořápka, než ho město konečně přestavělo kolem nezvyklého nápadu: nechat čištění vody na rostlinách a mikroorganismech, ne na chlóru, jako u většiny bazénů.
+
+V sedmdesátých a osmdesátých letech tu fungovalo tradiční koupaliště, poté ale s příchodem nového desetiletí upadlo do nevyužívání. V roce 2005 stát zchátralý pozemek prodal developerovi, který tu plánoval bytovou výstavbu místo obnovy koupaliště, a trvalo petici místních obyvatel z roku 2012 a zpětný odkup pozemku městskou částí Praha 4 v roce 2014, než se koupaliště vrátilo na pořad dne. Demolice starých staveb a revitalizace začaly v roce 2015 a brány se koupajícím konečně otevřely 29. června 2018.
+
+Co se znovu otevřelo, nebyl starý chlorovaný bazén, ale skutečný biotop: nepravidelně oválné jezero o rozloze 5 570 metrů čtverečních, v plavecké části hluboké až 3,25 metru, v mělčí neplavecké zóně zhruba metr, jehož voda zůstává čistá díky kořenovým filtračním polím, štěrkovým lůžkům a stejným mikroorganismům, které udržují zdravý stav každého zdravého rybníka. V roce 2025 přibylo dětské brouzdaliště a nová plavecká mola a areál se tiše rozšiřuje sezónu po sezóně.
+
+🎁 Bonus: Skoro dvacet let bylo tím nejaktivnějším, co se na tomhle pozemku dělo, chátrání. Jeho druhé dějství to napravilo tím, že skutečnou práci s čištěním svěřilo bakteriím a vodním rostlinám místo nádrže s chlórem — nejspíš to nejlínější možné řešení problému se špinavou vodou, a zjevně i to správné.`,
+
+      zh: `欢迎来到Lhotka生态泳池，一处位于布拉格4区的天然泳池——在近二十年里，这里一直是一具被遗弃的混凝土空壳，直到市政府终于围绕一个不寻常的想法把它重建起来：把大多数泳池交给氯来做的净水工作，改交给植物和微生物。
+
+上世纪七八十年代，这里曾是一处传统的公共泳池，进入新的十年后便逐渐荒废。2005年，国家将这片破败的场地卖给了一家开发商，对方计划在此建住宅而不是重建泳池；直到2012年当地居民发起请愿，加上布拉格4区在2014年将这块地买了回来，重建泳池的方案才重新被提上日程。2015年，旧建筑的拆除与整体改造工程正式启动，泳池大门最终在2018年6月29日重新向游泳者敞开。
+
+重新开放的并不是原来那座氯水泳池，而是一处真正的生态泳池：一片形状不规则的椭圆形水域，面积约5570平方米，泳区最深处约3.25米，非泳区较浅的区域约1米深，水质的洁净靠的不是化学药剂，而是根系过滤区、碎石床，以及那些维持一座健康池塘的同款微生物。2025年，这里又新增了儿童浅水区和新的游泳平台，整个场地就这样一个泳季接一个泳季地悄悄扩建下去。
+
+🎁 彩蛋：将近二十年里，这块地上唯一称得上"活跃"的事，就是慢慢腐烂。它的第二段人生纠正了这一点——把真正的清洁工作交给了细菌和水生植物，而不是一罐氯——这大概是解决脏水问题最"偷懒"的办法，但看起来，也是最正确的那个。`,
+    },
+  },
+  {
+    name: 'Enterprise Building',
+    slug: 'budova-enterprise',
+    localizedNames: { cz: 'Budova Enterprise', zh: '企业大厦' },
+    labels: ['modern', 'architecture'],
+    coordinates: { lat: 50.05211202375614, lng: 14.44118281645618 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Budova_Enterprise',
+    description: {
+      en: `Welcome to the Enterprise Building, a curved glass office tower on the Pankrác plain whose organic, V-shaped design turns heads from every passing car — and whose ownership structure turns out to be a better joke than the architecture itself.
+
+Built between June 2014 and December 2016 by the Austrian developer Erste Group Immorent, to a design by architect Vladimír Krátký and construction by Strabag, the building cost roughly €70 million. Its two curved wings meet in a loose V-shape that traces the bend of 5. května street below, an unusual bit of urban context-reading for an office block, and the whole structure runs 50 metres high and 120 metres long — 13 floors above ground, 4 below. Of its 31,691 square metres, 29,069 are class-A office space, alongside 400 parking spaces and a BREEAM Excellent environmental rating. A public atrium at ground level, with a café, a small garden, and gallery space, is open to anyone walking past, not just the people who work there.
+
+At the end of 2016 the building was bought for roughly 3 billion Czech crowns by RSJ Investments together with Eduard Kučera and Pavel Baudiš — the two founders of the antivirus company Avast, which now occupies roughly a third of the offices, alongside tenants including DXC Technology. The holding company they registered to hold the purchase is, genuinely, on file at the Czech commercial register under the name Starship Enterprise, a.s. — presumably the only Prague office tower whose paperwork doubles as a Star Trek reference.
+
+🎁 Bonus: No warp drive, no transporter room, and — as far as public records show — no actual starship captain on the board of directors. Just an antivirus company's founders, a very literal sense of humor, and a curved glass building that was already called Enterprise before they ever bought it.`,
+
+      cz: `Vítej u budovy Enterprise, prosklené kancelářské věže s organickým, do písmene V zahnutým tvarem na pankrácké pláni, která přitáhne pohled z každého projíždějícího auta — a jejíž vlastnická struktura je nakonec lepší vtip než samotná architektura.
+
+Postavil ji mezi červnem 2014 a prosincem 2016 rakouský developer Erste Group Immorent podle návrhu architekta Vladimíra Krátkého a v provedení stavební firmy Strabag, za zhruba 70 milionů eur. Její dvě zakřivená křídla se sbíhají do volného tvaru písmene V, které kopíruje zatáčku ulice 5. května pod ní — nezvyklý příklad toho, jak kancelářská budova skutečně reaguje na okolní kontext — a celá stavba měří 50 metrů na výšku a 120 metrů na délku: 13 nadzemních podlaží, 4 podzemní. Z jejích 31 691 metrů čtverečních připadá 29 069 na kanceláře třídy A, k dispozici je 400 parkovacích míst a certifikace BREEAM Excellent. Veřejné atrium v přízemí, s kavárnou, malou zahradou a galerijním prostorem, je otevřené komukoli, kdo tudy prochází, nejen lidem, kteří tu pracují.
+
+Na konci roku 2016 budovu koupila společnost RSJ Investments společně s Eduardem Kučerou a Pavlem Baudišem — zakladateli antivirové společnosti Avast, která dnes zabírá zhruba třetinu kanceláří, vedle nájemců jako DXC Technology, za částku kolem 3 miliard korun. Holdingová společnost, kterou si za tímto účelem založili, je skutečně zapsaná v obchodním rejstříku pod názvem Starship Enterprise, a.s. — pravděpodobně jediná pražská kancelářská věž, jejíž papíry jsou zároveň odkazem na Star Trek.
+
+🎁 Bonus: Žádný warp pohon, žádná transportní místnost a — pokud soudě z veřejného rejstříku — ani žádný skutečný kapitán hvězdné lodi v představenstvu. Jen zakladatelé antivirové firmy, velmi doslovný smysl pro humor a prosklená zakřivená budova, která se jmenovala Enterprise ještě předtím, než ji koupili.`,
+
+      zh: `欢迎来到企业大厦——一座矗立在潘克拉茨高地上的弧形玻璃写字楼，V字形的有机造型让每一辆经过的车里的人都忍不住多看两眼——而它的股权结构，其实比建筑本身还要好笑。
+
+这座建筑由奥地利开发商Erste Group Immorent于2014年6月至2016年12月间建成，由建筑师弗拉基米尔·克拉特基（Vladimír Krátký）设计，斯特拉巴格（Strabag）负责施工，造价约7000万欧元。它的两片弧形侧翼汇合成一个松散的V字形，恰好呼应了楼下5月5日街的转弯弧度——对一栋写字楼来说，这种回应周边环境的设计思路并不常见——整栋建筑高50米，长120米，地上13层，地下4层。在其31691平方米的建筑面积中，29069平方米是A级写字楼空间，另外还配有400个停车位，并获得了BREEAM"优秀"环保认证。一楼的公共中庭设有咖啡厅、一小片花园和展览空间，向所有路过的人开放，而不只是楼里的员工。
+
+2016年底，这栋大楼被RSJ Investments连同爱德华·库切拉（Eduard Kučera）和帕维尔·鲍季什（Pavel Baudiš）——杀毒软件公司Avast的两位创始人——以约30亿捷克克朗的价格买下，Avast如今占据了大楼约三分之一的办公空间，另一位租户是DXC Technology。他们为此次收购专门注册的控股公司，如今确确实实登记在捷克商业登记簿上，公司名叫"进取号企业"（Starship Enterprise, a.s.）——大概是布拉格唯一一栋连注册文件都在向《星际迷航》致敬的写字楼。
+
+🎁 彩蛋：没有曲速引擎，没有传送室，而且——就公开登记信息来看——董事会里也没有哪位真正的星舰舰长。有的只是一家杀毒软件公司的创始人、一种非常直白的幽默感，以及一栋在被他们买下之前，就已经叫作"企业号"的弧形玻璃大楼。`,
+    },
+  },
+  {
+    name: 'Vestec Pond',
+    slug: 'vestecky-rybnik',
+    localizedNames: { cz: 'Vestecký rybník', zh: '韦斯泰茨池塘' },
+    labels: ['waterbody', 'nature'],
+    coordinates: { lat: 49.984694875931105, lng: 14.509951598064154 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to Vestec Pond, just south of Prague's own city limits, where a centuries-old fishpond has quietly reinvented itself as a walking-and-picnic loop with, of all things, the entire solar system laid out along its shore to actual scale.
+
+The village of Vestec turns up in writing as early as 1360, under the older name Véska, listed among ten villages belonging to Kostelec Castle, which Emperor Charles IV had granted as a fief to Jan of Hardek — it's still recorded under Kostelec as late as 1437. Later the estate passed to Dolní Břežany, held from 1715 by the Prague Archbishopric itself until the abolition of serfdom, and the pond dates from the 16th century, built while the Trčka of Lípa family held the estate. In the 1880s it was drained over local objections, and it took the village's own mayor petitioning the provincial government — and the archbishop eventually selling the emptied land back to the village for 2,000 gold pieces, enough at the time to buy a small brewery — to get water back in it.
+
+Today's pond, covering a bit over three hectares, anchors a recreational area the village has been steadily building up since 2010: a cycling path, playground, outdoor gyms, footbridges and viewing piers, a fruit orchard, an open-air stage, and public grill spots. Its most distinctive feature is the Planetární stezka, a 1.5-kilometre educational trail that lays out the solar system at genuine relative scale — one metre of path corresponds to roughly 3.15 million real kilometres, which is the kind of detail that turns an ordinary Sunday walk into an accidental astronomy lesson.
+
+🎁 Bonus: A pond that spent the 1880s completely dry over an archbishop's decision now spends its weekends hosting a walking trail that models the distance to Neptune. Not a bad second act for three hectares of water just past Prague's southern edge.`,
+
+      cz: `Vítej u Vesteckého rybníka, kousek za jižní hranicí Prahy, kde se rybník s několikasetletou historií tiše proměnil v okruh na procházky a piknik, podél kterého navíc — kdo by to čekal — najdeš v reálném měřítku celou sluneční soustavu.
+
+Obec Vestec se v písemných pramenech objevuje už v roce 1360, pod starším jménem Véska, mezi deseti vesnicemi patřícími k hradu Kostelec, který císař Karel IV. udělil jako léno Janu z Hardeka — jako příslušenství Kostelce je zmiňována ještě v roce 1437. Panství později přešlo k Dolním Břežanům, které od roku 1715 až do zrušení poddanství vlastnilo přímo pražské arcibiskupství, a samotný rybník pochází ze 16. století, kdy panství drželi Trčkové z Lípy. V osmdesátých letech 19. století byl rybník proti vůli místních vypuštěn a trvalo, než místní starosta podal petici k místodržitelství a arcibiskup nakonec vypuštěný pozemek prodal zpět obci za 2000 zlatých — částku, za kterou se tehdy dal koupit malý pivovar —, než se do něj voda vrátila.
+
+Dnešní rybník, o rozloze něco přes tři hektary, tvoří jádro rekreačního areálu, který obec od roku 2010 postupně buduje: cyklostezka, dětské hřiště, venkovní posilovny, lávky a vyhlídkové mola, ovocný sad, pódium pod širým nebem a veřejná grilovací místa. Nejosobitější je Vestecká planetární stezka, 1,5 kilometru dlouhá naučná trasa, která zobrazuje sluneční soustavu ve skutečném poměrném měřítku — jeden metr stezky odpovídá zhruba 3,15 milionu skutečných kilometrů, což z obyčejné nedělní procházky dělá nečekanou hodinu astronomie.
+
+🎁 Bonus: Rybník, který v osmdesátých letech 19. století strávil dlouhé měsíce úplně vysušený kvůli rozhodnutí arcibiskupa, dnes o víkendech hostí naučnou stezku, která modeluje vzdálenost až k Neptunu. Slušné druhé dějství pro tři hektary vody kousek za jižním okrajem Prahy.`,
+
+      zh: `欢迎来到韦斯泰茨池塘，就在布拉格市界以南不远处——一座有着数百年历史的鱼塘，如今悄悄变身成了一条散步野餐环线，而且沿岸——很难想到吧——还按照真实比例排布着整个太阳系。
+
+韦斯泰茨村最早见于1360年的文献记载，当时用的还是更古老的名字"韦斯卡"（Véska），是查理四世皇帝赐予扬·冯·哈德克（Jan of Hardek）作为采邑的科斯特莱茨城堡辖下十个村庄之一——直到1437年，它仍被记录为科斯特莱茨的附属地。这处庄园后来转归下布热扎尼庄园所有，自1715年起直到农奴制废除，一直归布拉格总主教区直接持有，而这座池塘本身则可追溯到16世纪，当时庄园的主人是特尔奇卡·兹·利皮家族。19世纪80年代，池塘不顾当地居民反对被排干，村里的村长为此向省政府请愿，总主教最终以2000金币——在当时足够买下一座小啤酒厂的价格——把排干的地皮卖回给村子，池塘这才重新蓄满了水。
+
+如今这座面积略超三公顷的池塘，是村里自2010年起逐步建设起来的一片休闲区域的核心：这里有自行车道、儿童游乐场、户外健身器材、栈桥与观景平台、果园、露天舞台，还有公共烧烤区。其中最与众不同的，是"韦斯泰茨行星步道"——一条长1.5公里的科普步道，按照真实的相对比例展示了整个太阳系：步道上的每一米，对应现实中约315万公里的距离，这也让一次普普通通的周末散步，意外变成了一堂天文课。
+
+🎁 彩蛋：这座池塘在19世纪80年代曾因总主教的一纸决定被彻底排干，如今每逢周末，却在自己身边接待着一条一路"走"到海王星的科普步道。对布拉格南郊这三公顷水面来说，这算得上是相当不错的第二人生。`,
+    },
+  },
 ];
 
 async function run() {

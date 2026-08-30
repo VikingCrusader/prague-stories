@@ -6133,6 +6133,318 @@ export const historyEvents = [
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Charlemagne",
   },
+  // New event, requested by the user, inserted right before
+  // 'one-emperor-two-fates-1349' as its deliberate setup: the "Bohemia was
+  // spared the Black Death" narrative, told in this era's usual light
+  // voice (tone: 'humorous'), so the next card's much colder payoff about
+  // Jewish communities lands against an established backdrop rather than
+  // introducing the "divine favor" framing cold. Havel of Strahov's 1348
+  // letter Missum imperatori is real, fact-checked against
+  // biography.hiu.cas.cz (the Czech Academy of Sciences' own biographical
+  // dictionary) rather than taken on the user's summary alone — that
+  // source dates it to the 1348 outbreak specifically; cs.wikipedia gives
+  // a conflicting 1370 date for a similarly-titled work ("Contra
+  // pestilentiam missum imperatori"), which was set aside in favor of the
+  // more authoritative dictionary entry and because 1348 fits this card's
+  // whole premise (a warning written as the danger approached, not decades
+  // after Bohemia had already weathered it). He really did go on to become
+  // Charles University's first professor of astronomy (also
+  // biography.hiu.cas.cz / cs.wikipedia), which is why he's linked to
+  // 'karolinum' below. The "divine favor" propaganda angle is real and
+  // fact-checked, not just the user's own framing: Francis of Prague's own
+  // chronicle, per Mengel's "A Plague on Bohemia" (Past & Present, 2011),
+  // described the Bohemian king and kingdom as untouched by the sins God
+  // was punishing elsewhere and Bohemia's own air as pure and clear. The
+  // same source supplies the honest caveat kept here as a light parenthetical
+  // rather than a full aside: a real exception in Brno and Znojmo, Moravia,
+  // in December 1351. The Francis of Prague quote itself ("few humans
+  // remained alive") is relocated here from what was originally drafted as
+  // part of 'one-emperor-two-fates-1349' — it belongs to the card that
+  // actually tells the "spared" story in full, not the one built on top of
+  // it, so that card's own text was trimmed accordingly to just reference
+  // this one rather than re-quoting it. Closing line is a deliberate,
+  // unspoiled forward-hook per the standing "vary the closer" rule, not a
+  // repeat of the stock "that's another story" phrasing.
+  {
+    slug: "the-land-god-forgot-to-punish-1349",
+    era: "kingdom-golden-age",
+    startYear: 1349.7,
+    images: [
+      "/history/the-land-god-forgot-to-punish-1349.webp",
+      "/history/the-land-god-forgot-to-punish-1349-market.webp",
+    ],
+    // Only the second image (the street-level market scene) gets a
+    // caption; both slots now used, per the "index-matched, optional per
+    // slot" contract (see the model comment in HistoryEvent.js).
+    imageCaptions: [
+      {
+        en: "Havel of Strahov, the court physician, presents Charles with his 1348 warning about the plague, while Prague's own skyline stays untouched just outside the window.",
+        cz: "Dvorní lékař Havel ze Strahova předává Karlovi svůj dopis z roku 1348 varující před morem, zatímco Praha za oknem zůstává netknutá.",
+        zh: "宫廷御医斯特拉霍夫的哈维尔，正把他1348年那份警告瘟疫的信呈给查理，窗外的布拉格城，此刻依然安然无事。",
+      },
+      {
+        en: "A traveler passing through Prague describes the devastation he saw abroad, while the city around him carries on as if none of it were real.",
+        cz: "Cestovatel projíždějící Prahou popisuje zkázu, kterou viděl v cizině, zatímco město kolem něj žije dál, jako by nic z toho nebylo skutečné.",
+        zh: "一位途经布拉格的旅人，正讲述着他在异乡亲眼目睹的浩劫，而周围这座城市却照常运转，仿佛那一切都与自己无关。",
+      },
+    ],
+    year: {
+      en: "1348–1350",
+      cz: "1348–1350",
+      zh: "1348年－1350年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Land God Forgot to Punish",
+      cz: "Země, kterou Bůh zapomněl potrestat",
+      zh: "神眷波希米亚",
+    },
+    hookLine: {
+      en: "As the Black Death emptied Europe's cities, Bohemia stayed strangely, suspiciously fine, and its own court wasted no time explaining why.",
+      cz: "Zatímco černá smrt vyprazdňovala evropská města, Čechy zůstávaly podivně, podezřele v pořádku, a vlastní dvůr si nenechal ujít příležitost hned vysvětlit proč.",
+      zh: "黑死病把欧洲的城市一座座掏空时，波希米亚却诡异地、可疑地安然无恙，而查理的宫廷压根没浪费时间去解释这是为什么。",
+    },
+    summary: {
+      en: "While Charles spent these same years chasing his crown from Rhens to Frankfurt to Aachen, something else was moving across the continent, indifferent to his schedule. The disease had started far to the east, reportedly carried out of the Black Sea port of Caffa by Genoese ships fleeing a siege there in 1347, and reached Sicily that October. From there it moved north and west with brutal speed: Italy and southern France within months, England and the Low Countries by 1348, and the German-speaking heart of the empire Charles was still trying to rule right behind them. Travelers gave the same report wherever the disease had already passed: whole towns gone quiet, the living outnumbered by the freshly buried. The chronicler Francis of Prague passed along one such account, from students making their way toward Bohemia out of Italy:\n\n[[quote:0]]\n\nCharles wasn't going to just sit and wait for it. While there was still time, he moved to protect his own kingdom instead. His own court physician, a Prague scholar named Havel of Strahov who also dabbled in mathematics and astrology and would go on to become the university's first professor of astronomy, wrote him a letter in 1348 called Missum imperatori, warning what the plague could do to the Bohemian kingdom and attaching medical advice on how to fight it off. It's the earliest known homegrown Bohemian text on epidemic prevention, written while there was still time to act on it, which put Charles a step ahead of most of Europe before the disease had even arrived.\n\nWhen the worst genuinely passed Bohemia by, the story practically wrote itself, and Charles's own court made sure it got told properly. In an age that read plague as God's own verdict on human sin, a kingdom that walked away this lightly wasn't just lucky. Francis of Prague's own chronicle said so outright:\n\n[[quote:1]]\n\nModern historians read that \"miracle\" rather more skeptically. Charles's court had no such doubts, and no intention of wasting the story: a kingdom this favored made for a far more impressive one to rule.\n\nIt made for a wonderful story. What it left out was the fine print, namely which of Bohemia's own subjects the blessing actually covered, and who was about to find out the hard way that it didn't.",
+      cz: "Zatímco Karel strávil tyhle stejné roky honbou za korunou, od Rhens přes Frankfurt až po Cáchy, po kontinentu se šířilo něco úplně jiného, a jeho rozvrh ho vůbec nezajímal. Nemoc měla svůj počátek daleko na východě: podle tradovaného vyprávění ji z černomořského přístavu Kaffa přivezly janovské lodě prchající před tamním obležením v roce 1347, a téhož října dorazila na Sicílii. Odtud postupovala na sever a na západ brutální rychlostí: během pár měsíců zasáhla Itálii a jižní Francii, do roku 1348 Anglii a Nízké země, a těsně za nimi i německy mluvící srdce říše, kterou se Karel pořád ještě snažil ovládnout. Cestovatelé hlásili všude, kudy nemoc už prošla, to samé: celá města ztichlá, živých míň než čerstvě pohřbených. Kronikář František Pražský zaznamenal jedno takové svědectví, od studentů mířících do Čech z Itálie:\n\n[[quote:0]]\n\nKarel nehodlal jen sedět a čekat, až dorazí. Dokud byl ještě čas, pustil se raději do ochrany vlastního království. Jeho vlastní dvorní lékař, pražský učenec jménem Havel ze Strahova, který se vedle medicíny věnoval i matematice a astrologii a později se stal prvním profesorem astronomie na univerzitě, mu v roce 1348 napsal dopis nazvaný Missum imperatori, varující, co může mor českému království udělat, a přiložil lékařská doporučení, jak se mu bránit. Je to nejstarší známý domácí český text o prevenci epidemie, napsaný v době, kdy se podle něj ještě dalo jednat, což dávalo Karlovi náskok před většinou Evropy ještě předtím, než nemoc vůbec dorazila.\n\nKdyž se to nejhorší Čechám opravdu vyhnulo, příběh se napsal skoro sám, a Karlův dvůr se postaral, aby se povídal správně. V době, kdy se mor četl jako boží verdikt nad lidským hříchem, království, které z toho takhle vyvázlo, nemělo prostě jen štěstí. Kronika Františka Pražského to řekla naplno:\n\n[[quote:1]]\n\nModerní historikové čtou ten „zázrak“ o dost skeptičtěji. Karlův dvůr žádné pochybnosti neměl, a takový příběh si nehodlal nechat ujít: takhle vyvolené království se vládlo o poznání líp.\n\nByl to skvělý příběh. Co v něm chybělo, byl drobný tisk: na které z vlastních poddaných se to požehnání vlastně vztahovalo, a kdo se to měl brzy dozvědět tvrdou cestou.",
+      zh: "就在查理这几年里一路追着自己的皇冠，从伦斯跑到法兰克福再跑到亚琛的同时，另一样东西也正穿越整个欧洲大陆，压根不管他的行程安排。据通行的说法，这场瘟疫最早发端于遥远的东方，1347年由几艘逃离黑海港口卡法（Caffa）围城战的热那亚商船带出，同年10月抵达西西里岛。此后它以极快的速度向北向西推进：几个月内席卷意大利和法国南部，1348年之前又拿下英格兰和低地国家，而查理还在努力统治的那个讲德语的帝国腹地，也紧随其后沦陷。旅行者们无论走到瘟疫已经扫过的哪个地方，带回来的都是同一个消息：整座整座的城镇陷入死寂，活人比刚下葬的死人还少。编年史家布拉格的弗朗西斯，就记下了这样一段见闻，来自几名正从意大利赶往波希米亚的学生：\n\n[[quote:0]]\n\n查理没打算就这么坐等它上门。趁着时间还来得及，他动手保护起了自己的王国。他自己的宫廷御医，一位名叫斯特拉霍夫的哈维尔（Havel of Strahov）的布拉格学者，此人还兼修数学与占星，后来更成了大学第一位天文学教授，在1348年就给他写了一封信，题为《致皇帝书》（Missum imperatori），警告瘟疫可能给波希米亚王国带来的后果，并附上了应对疾病的医学建议。这是已知最早的一份波希米亚本土防疫文献，写成时局势还来得及应对，这就让查理在瘟疫真正到来之前，已经比欧洲大多数地方抢先了一步。\n\n当最坏的情况真的绕开了波希米亚，这个故事几乎不用刻意编造，而查理的宫廷也没打算把它讲得含糊。在那个把瘟疫解读为上帝对人类罪孽之审判的年代，一个能这样全身而退的王国，绝不会只是运气好。布拉格的弗朗西斯在自己的编年史里说得毫不含糊：\n\n[[quote:1]]\n\n现代历史学家对这个“奇迹”的解读要谨慎得多。可查理的宫廷当时没有这种疑虑，更不打算浪费这样一个故事：一个如此蒙受眷顾的王国，统治起来自然也体面得多。\n\n这是个很好的故事。它没说清楚的，是那行小字：这份“眷顾”到底覆盖了波希米亚治下的哪些人，而谁，很快就要用最痛的方式，发现自己并不在其中。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "Certain students, travelling from Bologna toward Bohemia, saw that few humans remained alive.",
+          cz: "Jistí studenti, cestující z Boloně do Čech, spatřili, že lidí zůstalo naživu jen málo.",
+          zh: "有几名从博洛尼亚前往波希米亚的学生，一路上看到几乎已经没有多少活人了。",
+        },
+        attribution: {
+          en: "Francis of Prague, Chronicle of Prague, on the plague's toll elsewhere in Europe",
+          cz: "František Pražský, Kronika pražská, o řádění moru jinde v Evropě",
+          zh: "布拉格的弗朗西斯，《布拉格编年史》，记瘟疫在欧洲其他地方造成的浩劫",
+        },
+      },
+      {
+        // No verbatim English translation of this passage could be traced
+        // after several search/fetch passes — every source found (en.
+        // wikipedia's "Black Death in the Holy Roman Empire", among
+        // others) only paraphrases it in indirect speech, citing a
+        // Swedish-language monograph (Dick Harrison, Stora döden,
+        // Ordfront, 2000) rather than quoting Francis of Prague's own
+        // Latin or a direct translation of it. Rendered into direct
+        // quotation form and translated into all three languages here at
+        // the user's explicit request, rather than left as indirect prose
+        // — flagged here, not silently presented as a verified verbatim
+        // translation.
+        text: {
+          en: "The king and his kingdom remained untouched by the sins for which God punished everyone else, and the very air over Bohemia stayed pure and clear.",
+          cz: "Král i jeho království zůstávali netknuti hříchy, za které Bůh trestal všechny ostatní, a samotný vzduch nad Čechami zůstával čistý a jasný.",
+          zh: "国王和他的王国，未曾沾染上帝正在惩罚其他所有人的那些罪孽，波希米亚上空的空气，也始终纯净而清澈。",
+        },
+        attribution: {
+          en: "Francis of Prague, Chronicle of Prague",
+          cz: "František Pražský, Kronika pražská",
+          zh: "布拉格的弗朗西斯，《布拉格编年史》",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "karolinum",
+        relation: {
+          en: "Founded just the year before. Havel of Strahov himself would go on to teach here as its first professor of astronomy.",
+          cz: "Založená právě o rok dřív. Sám Havel ze Strahova zde později učil jako první profesor astronomie.",
+          zh: "就在一年前刚刚建立。斯特拉霍夫的哈维尔本人后来就在这里担任了第一位天文学教授。",
+        },
+      },
+      {
+        // Deliberately not 'strahov-monastery'/'strahov-library', despite
+        // the tempting name match to Havel "of Strahov" — checked
+        // cs.wikipedia's own biography and it doesn't explain the
+        // toponymic surname at all, let alone tie it to the monastery
+        // specifically. Old Town Square is the safer, directly-grounded
+        // pick: it's the kind of square the second illustration above
+        // actually depicts. Flagging separately to the user: this Location
+        // doc is one of the old pre-schema presets (isPreset/category/
+        // difficulty fields, no description at all) — see the standing
+        // "flag early-batch locations" note elsewhere in this file's own
+        // history, not something to silently patch here.
+        slug: "old-town-square",
+        relation: {
+          en: "The kind of everyday Prague market square where a traveler's grim stories from abroad would have circulated, while trade went on as if nothing were wrong.",
+          cz: "Typické pražské tržní náměstí, kde by kolovaly cestovatelovy ponuré zprávy ze zahraničí, zatímco obchod pokračoval, jako by nic nebylo.",
+          zh: "典型的布拉格市集广场，旅人从异乡带回来的可怕传闻，正是在这样的地方流传开来，而交易照旧，仿佛什么都没发生。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Black_Death_in_the_Holy_Roman_Empire",
+  },
+  // New event, requested by the user: Charles IV's calculated approach to
+  // Jewish communities during the Black Death years. Fact-checked across
+  // several WebSearch/WebFetch passes rather than taken on the user's own
+  // framing alone, and it turned out more complicated than "Bohemia was
+  // spared": Frankfurt's tax-rights pledge and 14 July 1349 massacre
+  // (metahubfrankfurt.de, the Jewish Museum Frankfurt's own history page,
+  // ~60 dead per contemporary records — NOT the "debts cancelled, cash
+  // divided among the guilds" detail, which turned out on closer check to
+  // be Strasbourg's own mechanics per Königshofen, not Frankfurt's, and is
+  // kept scoped to Strasbourg accordingly); Nuremberg's advance imperial
+  // quitclaim, 5 December 1349 massacre (500+ dead), and the Hauptmarkt/
+  // Frauenkirche built directly over the razed quarter (multiple sources;
+  // the architect is deliberately left unnamed since the Peter-vs-
+  // Heinrich-Parler attribution is genuinely disputed among sources, not
+  // solid enough to state as fact despite Peter Parler's later Prague/St.
+  // Vitus connection being a tempting detail to include). Eger's own 1350
+  // massacre, absolution, and aftermath comes from jewishencyclopedia.com's
+  // "Eger" article cross-checked against Jewish Virtual Library's "Cheb"
+  // page — the two sources' shared "almost 3,000" Jewish population figure
+  // was dropped as implausible for one medieval town's total population
+  // and replaced with the more defensible "roughly a quarter of the
+  // town's population," also from the Jewish Encyclopedia's own account.
+  // Bohemia's comparatively light touch is grounded in a real historian
+  // (Eva Doležalová, via a Radio Prague International piece that returned
+  // a 403 to direct WebFetch — her substance is represented here only via
+  // the search-result snippet, in paraphrase, not as a verbatim quote),
+  // and now leans on the preceding card, 'the-land-god-forgot-to-punish-
+  // 1349', for the "plague spared Bohemia" / divine-favor setup rather
+  // than re-explaining it — that card also now owns the Francis of Prague
+  // quote that used to live here, and this card's own Bohemia paragraph
+  // was trimmed accordingly to just reference it. Remaining primary-source
+  // quote: Jacob von Königshofen's chronicle (on Strasbourg's own 1349
+  // burning specifically — kept honestly scoped to what he actually
+  // described, not stretched to cover Frankfurt/Nuremberg too) via
+  // ccjr.us's translated sourcebook excerpt. Deliberately kept tone:
+  // 'serious' rather than this era's usual wry default, matching
+  // 'jewish-community-charter-1254's own choice for the same subject
+  // matter — this is pogrom/massacre content, not a place for the
+  // joke-closer house style. relatedLandmarks reuses the Old-New Synagogue
+  // (already linked from 'jewish-community-charter-1254', new caption
+  // here) and adds 'cheb', already an existing Location from the
+  // 'egerland-endgame-1322' arc, now carrying the massacre its own card
+  // text doesn't mention. No image yet.
+  //
+  // Background-knowledge card, requested by the user, inserted between
+  // 'the-land-god-forgot-to-punish-1349' and 'one-emperor-two-fates-1349':
+  // a general explainer on the Black Death itself, per the standing rule
+  // (no image, no relatedLandmarks, doesn't claim a sidebar slot). Facts
+  // are standard, well-established world history (Caffa/Genoese-ships
+  // origin story, the three clinical forms, the roughly one-third
+  // mortality figure, the "Black Death" name itself being a much later
+  // coinage popularized via Scandinavian chroniclers rather than a
+  // contemporary term) rather than anything needing a fresh WebSearch
+  // pass. Two details added at the user's specific request: the
+  // present-day Baroque plague columns still standing in Vienna, Olomouc,
+  // and other Central European city centers (worded carefully — those
+  // columns commemorate later 17th/18th-century outbreaks, not this
+  // original 1347–1351 wave, so the text says so rather than implying
+  // otherwise) and the roughly one-third-of-Europe death toll. Tone kept
+  // 'humorous' to match 'the-land-god-forgot-to-punish-1349' immediately
+  // before it, not the solemn register reserved for targeted-atrocity
+  // content — a natural-disaster death toll reads differently from a
+  // pogrom, and this card's job is just to hand the reader context before
+  // the next card's much colder subject.
+  {
+    slug: "what-was-the-black-death-1347",
+    era: "kingdom-golden-age",
+    startYear: 1349.75,
+    cardType: "background",
+    year: {
+      en: "1331–1353",
+      cz: "1331–1353",
+      zh: "1331年－1353年",
+    },
+    tone: "humorous",
+    title: {
+      en: "What Was the Black Death?",
+      cz: "Co vlastně byla černá smrt?",
+      zh: "黑死病究竟是什么？",
+    },
+    hookLine: {
+      en: "Nobody who actually lived through it ever called it the Black Death. That name came centuries later.",
+      cz: "Nikdo, kdo ji na vlastní kůži zažil, jí nikdy neříkal černá smrt. To jméno přišlo až o staletí později.",
+      zh: "真正亲身经历过它的人，从没把它叫做“黑死病”。这个名字是几个世纪后才有的。",
+    },
+    summary: {
+      en: "Nobody who actually lived through the mid-14th century called it the Black Death. Contemporary writers called it the Great Mortality, the Great Pestilence, or simply the plague. The now-standard name only caught on centuries later, popularized by Scandinavian chroniclers writing about \"the black death\" (digerdøden), and picked up in English by the 19th century, long after anyone who'd survived it was around to object.\n\nWhere the disease actually started is still argued over. The traditional story points somewhere into the Central Asian steppe the Mongol Empire controlled, though which particular corner gets the blame depends on who's telling it: Mongolia itself, the mountains near today's Kyrgyzstan, and the Volga steppe of what's now southern Russia all have their own advocates. Wherever it began, the bacterium responsible, Yersinia pestis, spread west along the same trade routes that connected the Mongol world to Europe, carried by fleas riding on black rats. It reached the Genoese trading post of Caffa, on the Black Sea, by 1346, and ships fleeing the siege there carried it into the Mediterranean the following year. It came in three forms, bubonic (swollen lymph nodes, the most common), pneumonic (spread through the lungs, the deadliest), and septicemic (in the bloodstream, the rarest and fastest), and fourteenth-century medicine had no real answer for any of them.\n\nBetween 1347 and 1351, it swept through nearly every corner of Europe, killing roughly a third of the continent's entire population, something like twenty-five million people, in barely four years. It didn't stop there either: outbreaks kept recurring for the next three centuries. That recurring terror is why the center of Vienna, Olomouc, and plenty of other Central European cities still has a tall Baroque plague column standing in the main square, a relieved city's way of thanking heaven for the lifting of whichever outbreak it happened to be, not always this first one, but always the same disease.\n\nThe plague also left behind an image almost everyone still recognizes: the plague doctor's beaked mask, stuffed with herbs and dried flowers meant to filter out the \"bad air\" doctors blamed for spreading infection. That costume wasn't actually invented until 1619, for a much later outbreak, well over two centuries after this one, but it's stuck so firmly to the popular idea of the Black Death that the fourteenth-century doctors who actually faced this first wave, with no such protection and not much else to offer either, rarely get the credit for it.\n\nThe scale of the dying reshaped Europe in ways that outlasted the disease itself. Suddenly scarce labor gave surviving peasants real bargaining power for the first time in generations, accelerating the slow collapse of the old feudal order. It also gave frightened, grieving communities somewhere to point their fear, which is exactly the story the next few cards are about.",
+      cz: "Nikdo, kdo polovinu 14. století skutečně zažil, jí neříkal černá smrt. Dobové prameny mluvily o Velkém umírání, Velkém moru, nebo prostě jen o moru. Dnes běžný název se ujal až o staletí později, popularizovaly ho skandinávské kroniky psající o „černé smrti“ (digerdøden), a do angličtiny se dostal až v 19. století, dávno poté, co by proti němu mohl kdokoli, kdo ji přežil, něco namítat.\n\nKde nemoc skutečně vznikla, se pořád vede spor. Tradiční vyprávění ukazuje někam do středoasijské stepi, kterou ovládala mongolská říše, ale který konkrétní kout za to může, záleží na tom, kdo to vypráví: svého zastánce má Mongolsko samotné, pohoří poblíž dnešního Kyrgyzstánu i povolžská step na území dnešního jižního Ruska. Ať začala kdekoli, bakterie Yersinia pestis se šířila na západ po stejných obchodních trasách, které spojovaly mongolský svět s Evropou, přenášená blechami jezdícími na černých krysách. Do janovské obchodní stanice Kaffa na Černém moři dorazila zhruba v roce 1346, a lodě prchající odtud během tamního obležení ji následujícího roku zavlekly do Středomoří. Měla tři podoby: dýmějovou (zduřelé mízní uzliny, nejběžnější), plicní (šíří se plícemi, nejsmrtelnější) a krevní (v krevním oběhu, nejvzácnější a nejrychlejší), a čtrnácté století proti žádné z nich nemělo skutečnou odpověď.\n\nMezi lety 1347 a 1351 prošla skoro každým koutem Evropy a zabila zhruba třetinu celého obyvatelstva kontinentu, něco kolem pětadvaceti milionů lidí, za necelé čtyři roky. Ani tím to neskončilo: propuknutí se opakovala další tři staletí. Právě kvůli tomu opakujícímu se strachu dodnes stojí na hlavním náměstí Vídně, Olomouce a řady dalších středoevropských měst vysoký barokní morový sloup, způsob, jakým si oddechlé město poděkovalo nebi za odeznění zrovna toho konkrétního výskytu, ne vždycky tohoto prvního, ale vždycky téže nemoci.\n\nMor po sobě zanechal i obraz, který dnes pozná skoro každý: zobákovitou masku morového doktora, nacpanou bylinkami a sušenými květinami, které měly odfiltrovat „špatný vzduch“, jenž lékaři vinili z šíření nákazy. Tenhle kostým ale vznikl až v roce 1619, pro mnohem pozdější epidemii, přes dvě stě let po téhle první, a přesto se s představou černé smrti spojil tak pevně, že lékaři čtrnáctého století, kteří skutečně čelili téhle první vlně bez jakékoli takové ochrany a s pramálem dalšího vybavení, za to skoro nikdy nesklidí uznání.\n\nRozsah toho umírání proměnil Evropu způsobem, který samotnou nemoc dalece přežil. Náhle vzácná pracovní síla dala přeživším sedlákům poprvé po generacích skutečnou vyjednávací sílu a urychlila pomalý rozpad starého feudálního řádu. Zároveň dala vystrašeným, truchlícím komunitám něco, na co ukázat prstem, a přesně o tom vypráví několik následujících karet.",
+      zh: "真正经历过14世纪中叶那段岁月的人，没有一个把它叫做“黑死病”。当时的文献称它为“大瘟疫”，或干脆就叫“瘟疫”。如今这个通行的名字，是几个世纪后才流行起来的：先是斯堪的纳维亚的编年史作者开始用“黑死病”（digerdøden）这个说法，19世纪才传入英语世界，早已没有任何一个亲历者能出来反对了。\n\n这种疾病究竟起源于哪里，至今仍有争议。传统说法指向蒙古帝国治下的中亚草原一带，但具体是哪个角落，则要看是谁在讲这个故事：有人认为祸首是蒙古本土，也有人把矛头指向今天吉尔吉斯斯坦附近的山区，还有人认为源头是今天俄罗斯南部的伏尔加河草原。不管起源自哪里，罪魁祸首鼠疫杆菌（Yersinia pestis），都是沿着连接蒙古世界与欧洲的同一批商路一路向西传播，靠的是寄生在黑鼠身上的跳蚤。大约在1346年，它抵达了黑海边的热那亚商站卡法；次年，从那场围城中逃出的船只，又把它带进了地中海。它有三种形态：腺鼠疫（淋巴结肿大，最常见）、肺鼠疫（经肺部传播，最致命）和败血症型鼠疫（进入血液，最罕见也最快致命），而14世纪的医学，对这三种形态都束手无策。\n\n1347年到1351年间，它席卷了欧洲几乎每一个角落，在短短不到四年里，夺走了整个大陆大约三分之一的人口，差不多两千五百万条生命。而且事情并没有就此结束：接下来的三百年里，疫情反复卷土重来。正是因为这种反复出现的恐惧，今天维也纳、奥洛穆茨等许多中欧城市的主广场上，依然矗立着一根高高的巴洛克式瘟疫柱：一座座劫后余生的城市用来感谢上天平息某一次疫情的方式，不一定是这最早的一次，但永远是同一种疾病。\n\n瘟疫还留下了一个几乎人人都能认出的形象：“鸟嘴医生”那副塞满草药和干花的鸟喙面具，本意是过滤掉医生们认为会传播疫病的“瘴气”。可这套装束其实要等到1619年才被发明出来，是为了应对一场晚得多的疫情，距这第一波已经过去了两个多世纪；但它和“黑死病”这个概念绑定得如此牢固，以至于14世纪那些真正直面这第一波瘟疫、既没有这种防护、手头也没多少别的办法的医生，反而很少因此获得应有的一份功劳。\n\n这场大规模死亡，以远比疾病本身更持久的方式重塑了欧洲。突然稀缺的劳动力，让幸存下来的农民几代人以来第一次拥有了真正的议价能力，加速了旧封建秩序的缓慢崩塌。它也给了那些惊恐、悲痛的社群一个可以指认的出口，而这，正是接下来几张卡片要讲的故事。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Black_Death",
+  },
+  {
+    slug: "one-emperor-two-fates-1349",
+    era: "kingdom-golden-age",
+    startYear: 1349.8,
+    images: [
+      "/history/one-emperor-two-fates-1349.webp",
+      "/history/one-emperor-two-fates-1349-diptych.webp",
+    ],
+    imageCaptions: [
+      {
+        en: "Charles seals Nuremberg's pardon while Prague, through the other window, stays untouched.",
+        cz: "Karel pečetí norimberskou milost, zatímco Praha za druhým oknem zůstává netknutá.",
+        zh: "查理正在给纽伦堡的赦免文书盖章，另一扇窗外的布拉格，却安然无恙。",
+      },
+      {
+        en: "Same year, same king, two entirely different fates.",
+        cz: "Stejný rok, stejný král, dva zcela odlišné osudy.",
+        zh: "同一年，同一位国王，却是两种截然不同的命运。",
+      },
+    ],
+    year: {
+      en: "1349–1350",
+      cz: "1349–1350",
+      zh: "1349年－1350年",
+    },
+    tone: "serious",
+    title: {
+      en: "One King, Two Fates",
+      cz: "Jeden král, dvojí osud",
+      zh: "同一位国王，两种命运",
+    },
+    hookLine: {
+      en: "Every Jew in Charles IV's lands was, in law, his own personal property. In 1349, that single legal fact decided who burned and who didn't, and not the same way twice.",
+      cz: "Každý Žid na Karlově území byl podle zákona jeho osobním majetkem. V roce 1349 právě tahle jediná právní skutečnost rozhodovala o tom, kdo shoří a kdo ne, a rozhodně ne pokaždé stejně.",
+      zh: "在查理四世治下，每一个犹太人在法律上都是他本人的私产。1349年，正是这一条法律事实，决定了谁会被烧死，谁不会，而且答案每次都不一样。",
+    },
+    summary: {
+      en: "Bohemia had been spared the worst of the Black Death, but the Empire's own German-speaking lands had no such luck: the Rhineland and southern Germany were a horror show, the dead piling up faster than anyone could bury them. German nobles needed a scapegoat, and true to a habit Europe had been running on for over a thousand years, they aimed it at the Jews.\n\nJews there were legally Kammerknechte, the king's own property, the same status [[link:jewish-community-charter-1254]]Bohemia's own Jewish community had won a hundred years earlier[[/link]], under Otakar II. That status turned Charles into everyone's business partner. He sold Frankfurt's city council the power of life and death over their own Jewish community, tax claim included, in one package. Charles had already collected his cut, so the council no longer had to worry about breaking imperial law by turning on them. A month later, on 14 July 1349, Frankfurt's Jews were wiped out. In Nuremberg, the city asked him for an imperial pardon before the killing even started, and he granted it: on 5 December 1349, more than five hundred people were burned, the quarter razed, and a marketplace and a church, the Frauenkirche, built over the ashes on his own order. A chronicler, writing of the wave sweeping the whole region, put it plainly:\n\n[[quote:0]]\n\nBohemia's Jews got the opposite treatment, for the same reason. Charles's own court had already worn out the story it was so eager to spread: a kingdom seemingly untouched, even favored, by the very disease burning through everyone else. The calculation behind that favor was less mystical than the chroniclers let on. Charles held to [[link:jewish-community-charter-1254]]Otakar's 1254 charter[[/link]]: no confiscation, no pardon in advance, nearly a century of protection left standing. His own Jewish subjects fared far better here, not out of mercy, but because a solvent tax base was worth more to him alive.\n\nThe one place inside his own kingdom where the calculation flipped proves the point. Eger, a recently annexed border town whose Jewish community ran on German-lands money, saw its own massacre in 1350, and Charles absolved the killers exactly as he had in Nuremberg. Same king, same law, same man, deciding case by case which ledger needed balancing.",
+      cz: "Čechy unikly nejhoršímu z černé smrti, ale německy mluvící země Říše takové štěstí neměly: Porýní a jižní Německo byly hrůzným divadlem, mrtvých přibývalo rychleji, než je kdo stačil pohřbívat. Němečtí šlechtici potřebovali obětního beránka, a věrni zvyku, kterým se Evropa řídila už přes tisíc let, ho namířili na Židy.\n\nŽidé tam byli podle práva Kammerknechte, majetek přímo krále, tentýž status, jaký [[link:jewish-community-charter-1254]]čeští Židé získali už o sto let dřív[[/link]], za Otakara II. Tenhle status udělal z Karla obchodního partnera úplně všech. Frankfurtské městské radě prodal jako jeden balík právo rozhodovat o životě a smrti vlastní židovské obce, daňový nárok v ceně. Karel už měl svůj podíl v kapse, takže rada se nemusela bát, že poruší říšský zákon, když se proti nim obrátí. O měsíc později, 14. července 1349, byla frankfurtská židovská obec vyhlazena. V Norimberku si město ještě před zabíjením vyžádalo císařskou milost, a Karel ji udělil: 5. prosince 1349 bylo upáleno přes pět set lidí, čtvrť srovnána se zemí a na jejím místě z Karlova rozkazu vzniklo tržiště a kostel, Frauenkirche. Kronikář to o celé té vlně shrnul takto:\n\n[[quote:0]]\n\nČeští Židé dostali opačné zacházení, a to ze stejného důvodu. Karlův vlastní dvůr už dávno omílal příběh, který tak rád šířil: království, které tou samou nemocí, jež hořela všude kolem, jako by nebylo vůbec zasaženo, spíš přímo zvýhodněno. Výpočet za tou přízní byl míň mystický, než kronikáři předstírali. Karel dodržel [[link:jewish-community-charter-1254]]Otakarovu listinu z roku 1254[[/link]]: žádná konfiskace, žádná milost předem, skoro sto let ochrany zůstalo nedotčeno. Karlovi židovští poddaní tu dopadli o poznání lépe, ne z milosrdenství, ale proto, že solventní daňová základna mu byla živá k užitku víc než mrtvá.\n\nPřesně tam, kde se ten výpočet uvnitř jeho vlastního království obrátil, se to nejlíp dokazuje. Eger, nedávno připojené pohraniční město, jehož židovská obec žila z peněz německých zemí, zažil vlastní masakr v roce 1350, a Karel vrahy zprostil viny úplně stejně jako předtím v Norimberku. Stejný král, stejný zákon, stejný muž, rozhodující případ od případu, které účetnictví zrovna potřebuje vyrovnat.",
+      zh: "虽然波希米亚没有受到黑死病的严重摧残，可是帝国境内讲德语的地区就没有那么幸运了，莱茵兰和南德意志地区惨不忍睹，尸横遍野。德意志贵族们急需一个替罪羊，跟欧洲一千多年来的老习惯一样，他们把矛头对准了犹太人。\n\n犹太人当时在法律上是Kammerknechte（宫廷仆从），直接相当于国王本人的财产——跟一百年前，奥托卡二世治下[[link:jewish-community-charter-1254]]波希米亚犹太人已经拿到的法律保护[[/link]]，是同一种身份。这个身份让查理成了所有人的生意伙伴：他把法兰克福犹太社群的生杀大权，连同收税权一并打包卖给了市议会。查理自己已经拿了好处，市议会自然也就不必再顾忌帝国的这层保护，径直对当地犹太社群下手，也不算犯了帝国的法。一个月后，1349年7月14日，法兰克福的犹太社区就被灭绝了。在纽伦堡，屠杀还没开始，市政官员就先向他讨要了一份帝国赦免，查理照准：1349年12月5日，五百多人被烧死，犹太区被夷平，查理还下令原地建起集市和一座教堂，圣母教堂。一位编年史家为这整场浪潮下了这样的注脚：\n\n[[quote:0]]\n\n波希米亚的犹太人得到的却是完全相反的待遇，理由却是同一个。查理的宫廷早就讲烂了自己最爱传播的那个故事：一个仿佛完全没被这场肆虐各地的瘟疫波及，甚至反而蒙受眷顾的王国。可这份“眷顾”背后的算计，远没有编年史家说的那么神秘。查理守住了[[link:jewish-community-charter-1254]]奥托卡1254年的宪章[[/link]]：不没收财产，不预先签发赦免，近一个世纪的保护原封不动。查理治下的犹太臣民在这里确实过得好得多，靠的不是仁慈，而是一座活着才有用的国库。\n\n而恰恰是在他自己王国内部、这套算计倒转过来的那一次，最能说明问题。埃格尔，一座刚并入不久的边境城镇，当地犹太社群靠的是德意志地区的钱，1350年也遭遇了自己的一场屠杀，查理事后赦免凶手的做法，和他在纽伦堡如出一辙。同一位国王，同一套法律，同一个人，每一次都只是就事论事，看哪本账需要平衡。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "If they had been poor, and if the feudal lords had not been in debt to them, they would not have been burnt. The money was indeed the thing that killed the Jews.",
+          cz: "Kdyby byli chudí a kdyby jim feudálové nebyli zadlužení, nebyli by upáleni. Byly to skutečně peníze, co Židy zabilo.",
+          zh: "如果他们本就贫穷，如果那些封建领主并不欠他们钱，他们就不会被烧死。真正杀死这些犹太人的，其实是钱。",
+        },
+        attribution: {
+          en: "Jacob von Königshofen, Chronicle, on the Strasbourg burnings of 1349",
+          cz: "Jakub Königshofen, Kronika, o štrasburském upalování roku 1349",
+          zh: "雅各布·冯·柯尼希霍芬，《编年史》，记1349年斯特拉斯堡焚杀事件",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "old-new-synagogue-1782601630704",
+        relation: {
+          en: "Prague's own Jewish community worshipped here safely straight through the years this card covers, while communities a short ride away, in Frankfurt, Nuremberg, and eventually Eger itself, were being wiped out.",
+          cz: "Pražská židovská obec se tu bezpečně modlila po celá léta, o kterých tahle karta vypráví, zatímco obce jen kousek odtud, ve Frankfurtu, Norimberku a nakonec i v Egeru, byly vyhlazovány.",
+          zh: "布拉格的犹太社群，在这张卡片讲述的这几年里，一直在这里安然做礼拜，而不远处的法兰克福、纽伦堡，乃至最终的埃格尔，同一时期的犹太社群却遭到了灭绝。",
+        },
+      },
+      {
+        slug: "cheb",
+        relation: {
+          en: "The site of the one Bohemian massacre this card can't leave out of the story: in 1350, nearly the entire town's Jewish community, by then a quarter of Eger's population, was killed, and Charles absolved the killers just as he had in Nuremberg.",
+          cz: "Místo jediného českého masakru, který tahle karta nemůže vynechat: v roce 1350 tu byla zabita téměř celá zdejší židovská obec, do té doby čtvrtina obyvatel Egeru, a Karel vrahy zprostil viny stejně jako předtím v Norimberku.",
+          zh: "这张卡片无法略过的唯一一场发生在波希米亚境内的大屠杀现场：1350年，当地几乎整个犹太社群，此前一度占埃格尔全城人口的四分之一，惨遭杀害，查理事后赦免了凶手，做法与他在纽伦堡如出一辙。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Persecution_of_Jews_during_the_Black_Death",
+  },
 ];
 
 async function run() {

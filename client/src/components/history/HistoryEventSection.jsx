@@ -4,6 +4,46 @@ import { useUserPosition } from '../../hooks/useUserPosition';
 import { haversineDistance } from '../../utils/geolocation';
 import LocationCard from '../locations/LocationCard';
 
+// In-text cross-reference: "[[link:some-slug]]display text[[/link]]" inside
+// a summary paragraph becomes an underlined, clickable span that jumps to
+// that other event's own section further up/down the same feed — for a
+// phrase like "Otakar's 1254 charter" that should point straight at
+// jewish-community-charter-1254 instead of just naming it in prose. Kept
+// separate from the [[quote:N]] marker (chronicleQuoteSchema's own
+// mechanism): that one replaces an entire paragraph with a blockquote,
+// this one sits inline mid-sentence, so it needs its own regex pass over
+// each paragraph's text rather than a whole-paragraph match. Runs after
+// convert() has already been applied to the full summary string (same as
+// the quote marker) — plain ASCII brackets and a lowercase-kebab slug
+// survive the zh-TW conversion untouched either way.
+const INLINE_LINK_RE = /\[\[link:([a-z0-9-]+)\]\](.*?)\[\[\/link\]\]/g;
+
+function renderInlineLinks(text, onNavigateToEvent) {
+  if (!text.includes('[[link:')) return text;
+  const nodes = [];
+  let lastIndex = 0;
+  let match;
+  let key = 0;
+  INLINE_LINK_RE.lastIndex = 0;
+  while ((match = INLINE_LINK_RE.exec(text))) {
+    if (match.index > lastIndex) nodes.push(text.slice(lastIndex, match.index));
+    const [full, slug, label] = match;
+    nodes.push(
+      <button
+        key={`link-${key++}`}
+        type="button"
+        className="history-event__inline-link"
+        onClick={() => onNavigateToEvent?.(slug)}
+      >
+        {label}
+      </button>
+    );
+    lastIndex = match.index + full.length;
+  }
+  if (lastIndex < text.length) nodes.push(text.slice(lastIndex));
+  return nodes;
+}
+
 // One event's full write-up, rendered as an in-flow section inside
 // HistoryPage's scrollable feed — not a single "selected event" detail
 // pane. The whole feed scrolls as an ordinary page; HistorySidebar is the
@@ -36,7 +76,7 @@ import LocationCard from '../locations/LocationCard';
 // actually checked in there yet. Clicking a card still opens the full
 // LocationDetail overlay on top of this page (see HistoryPage, which owns
 // the selected-slug state), not a navigation away.
-export default function HistoryEventSection({ event, onOpenLandmark, sectionRef }) {
+export default function HistoryEventSection({ event, onOpenLandmark, onNavigateToEvent, sectionRef }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -106,7 +146,12 @@ export default function HistoryEventSection({ event, onOpenLandmark, sectionRef 
               distinct blockquote — decorative quotation marks, italic text,
               a right-aligned "— Source" attribution — instead of a plain
               <p>. Lets a primary-source quote stand apart from the summary's
-              own prose instead of sitting inline as quoted text. */}
+              own prose instead of sitting inline as quoted text.
+
+              A non-quote paragraph is still passed through renderInlineLinks
+              (see above) — any "[[link:slug]]text[[/link]]" mid-sentence
+              becomes an underlined clickable span jumping to that other
+              event's own section. */}
           {convert(event.summary[lang] || event.summary.en)
             .split("\n")
             .filter((p) => p.trim())
@@ -129,13 +174,29 @@ export default function HistoryEventSection({ event, onOpenLandmark, sectionRef 
                 );
               }
               return (
-                <p key={i} className="history-event__summary">{para}</p>
+                <p key={i} className="history-event__summary">{renderInlineLinks(para, onNavigateToEvent)}</p>
               );
             })}
 
-          {event.images?.map((src) => (
-            <img key={src} className="history-event__image" src={src} alt="" />
-          ))}
+          {event.images?.map((src, i) => {
+            const caption = event.imageCaptions?.[i];
+            const captionText = caption?.[lang] || caption?.en;
+            return (
+              <figure key={src} className="history-event__image-figure">
+                <img className="history-event__image" src={src} alt="" />
+                {captionText && (
+                  // Reuses .history-landmark-caption rather than a new
+                  // class — same "small muted caption under an image"
+                  // role, and it already carries the tuned EN/CZ (white,
+                  // weight 600) and ZH (LXGW WenKai TC) overrides in
+                  // global.css that a brand-new class would need repeating.
+                  <figcaption className="history-landmark-caption">
+                    {convert(captionText)}
+                  </figcaption>
+                )}
+              </figure>
+            );
+          })}
 
           {event.referenceMaps?.links?.length > 0 && (
             <div className="history-event__reference-maps">

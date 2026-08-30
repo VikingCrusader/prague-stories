@@ -82,10 +82,16 @@ export default function HistoryPage() {
     return () => window.removeEventListener('scroll', onScroll);
   }, [data]);
 
-  const scrollToEvent = (event) => {
-    setActiveSlug(event.slug);
-    sectionEls.current.get(event.slug)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  const scrollToSlug = (slug) => {
+    setActiveSlug(slug);
+    sectionEls.current.get(slug)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
+  // Sidebar entries hand over the full event object (see HistorySidebar);
+  // in-text cross-reference links inside a summary (see
+  // HistoryEventSection's onNavigateToEvent) only ever have a bare slug.
+  // Both funnel into the same scrollToSlug so a click either place behaves
+  // identically.
+  const scrollToEvent = (event) => scrollToSlug(event.slug);
 
   return (
     <div className="guide-page history-page">
@@ -127,6 +133,7 @@ export default function HistoryPage() {
                   <HistoryEventSection
                     event={event}
                     onOpenLandmark={setOpenLandmarkSlug}
+                    onNavigateToEvent={scrollToSlug}
                     sectionRef={el => {
                       if (el) sectionEls.current.set(event.slug, el);
                       else sectionEls.current.delete(event.slug);

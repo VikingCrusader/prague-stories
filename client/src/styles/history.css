@@ -302,13 +302,20 @@
 }
 .history-event__background-toggle:hover { background: rgba(255, 215, 0, 0.1); }
 
+.history-event__image-figure {
+  margin: 0 0 16px;
+}
 .history-event__image {
   display: block;
   width: 100%;
   height: auto;
   border: 2px solid var(--border);
   border-radius: 4px;
-  margin-bottom: 16px;
+}
+/* Caption under an image reuses .history-landmark-caption's own rule
+   (history.css, further down) rather than defining a second one here. */
+.history-event__image-figure .history-landmark-caption {
+  text-align: center;
 }
 
 .history-event__year {
@@ -347,6 +354,24 @@
   color: var(--text-primary);
   margin-bottom: 14px;
 }
+
+/* An in-text cross-reference to another event's own section — see
+   renderInlineLinks in HistoryEventSection. A <button> rather than a real
+   <a> (there's no href to jump to; the click scrolls the feed itself), so
+   it needs its own reset to sit inline like plain linked text instead of
+   looking like a form control. */
+.history-event__inline-link {
+  display: inline;
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: var(--gold);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.history-event__inline-link:hover { color: var(--text-primary); }
 
 /* A primary-source quote pulled out of the summary's own prose via a
    "[[quote:N]]" marker (see HistoryEventSection) and rendered as its own
