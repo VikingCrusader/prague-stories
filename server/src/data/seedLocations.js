@@ -24970,6 +24970,111 @@ Dnešní rybník, o rozloze něco přes tři hektary, tvoří jádro rekreační
 🎁 彩蛋：这座池塘在19世纪80年代曾因总主教的一纸决定被彻底排干，如今每逢周末，却在自己身边接待着一条一路"走"到海王星的科普步道。对布拉格南郊这三公顷水面来说，这算得上是相当不错的第二人生。`,
     },
   },
+  // New location, requested by the user (coordinates supplied directly).
+  // Ties into the History Timeline's 'italy-still-couldnt-forget-him-1350'
+  // event, which already mentions Charles IV imprisoning Cola di Rienzo
+  // "in the fortress at Roudnice" — this card doesn't reference that event
+  // or the timeline at all (per the standing Location/Timeline separation
+  // rule), it just tells the same real historical fact on its own terms.
+  // Facts fact-checked via WebSearch: founder Bishop Jindřich Břetislav
+  // (12th century, guarding the Prague–Upper Lusatia trade route along the
+  // Elbe), the archbishopric's ownership from 1344, Cola di Rienzo's
+  // 1350–1352 imprisonment here (corroborated independently of the
+  // History Timeline card's own sourcing), the 1603 marriage that brought
+  // it into Lobkowicz hands (Polyxena Pernštejn m. Zdeněk Vojtěch Popel z
+  // Lobkovic), and the 1652–1684 Baroque rebuild under Prince Václav
+  // Eusebius of Lobkowicz through four successive Italian architects
+  // (Pietro Colombo, Francesco Caratti, Carlo Orsolini, Antonio Porta —
+  // lobkowicz.cz and stredohori.cz agree on this sequence). The Jan Hus
+  // ordination claim is real but only ever found as an unsourced aside
+  // ("said to be") in secondary tourism copy, not corroborated by any
+  // stronger source after the searches this pass allowed for — kept in
+  // the Bonus paragraph but explicitly hedged as unverified local
+  // tradition rather than asserted as fact.
+  {
+    name: 'Roudnice Castle',
+    slug: 'zamek-roudnice',
+    localizedNames: { cz: 'Zámek Roudnice nad Labem', zh: '罗乌德尼采城堡' },
+    labels: ['castle and fortress', 'historical', 'architecture'],
+    coordinates: { lat: 50.42525579856615, lng: 14.261713371764174 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Roudnice_nad_Labem',
+    description: {
+      en: `Roudnice Castle has spent nine centuries changing hands between exactly the sorts of people you'd expect to fight over the best bend of the Elbe: bishops, archbishops, an emperor's least favorite house guest, and finally one of Bohemia's grandest noble families, who still own it today.
+
+Bishop Jindřich Břetislav built the first fortress here in the 12th century to guard the trade route running north from Prague to Upper Lusatia along the river, and for the next two centuries it stayed a country retreat for Prague's bishops, then its archbishops once the see was elevated in 1344. Its most famous unwilling guest arrived in 1350: Cola di Rienzo, a self-declared Roman tribune who'd tried reviving the ancient Roman Republic and made enough enemies doing it that the Pope wanted him gone. He'd come to Prague hoping Emperor Charles IV might intervene in Italy on his behalf. Charles's actual answer was to lock him up in Roudnice for more than a year before quietly handing him over to the Pope's own custody in 1352, a tidy way to avoid a fight with either Rome or Avignon.
+
+Gothic and Renaissance work followed over the next two centuries, but the castle didn't leave church hands until 1603, when its owner, Polyxena Pernštejn, married Zdeněk Vojtěch Popel z Lobkovic and folded it into the Lobkowicz family's own holdings. Under Prince Václav Eusebius of Lobkowicz, the whole complex was rebuilt between 1652 and 1684 into the four-wing Baroque quadrangle still standing today, passing through four different Italian architects along the way, Pietro Colombo, Francesco Caratti, Carlo Orsolini, and Antonio Porta, before the last of them finally finished it.
+
+🎁 Bonus: local tradition holds that Jan Hus, the reformer whose execution would help set off the Hussite Wars, was ordained a priest here, back when the castle still belonged to Prague's archbishops. No one wrote it down clearly enough for historians to be entirely sure, but Roudnice seems entirely capable of hosting one more uncomfortable footnote to somebody else's revolution.`,
+
+      cz: `Zámek Roudnice mění majitele už devět staletí, a to přesně mezi těmi druhy lidí, kteří by se přeli o nejlepší zákrut Labe: biskupy, arcibiskupy, jedním císařovým nejméně oblíbeným hostem a nakonec jedním z nejváženějších šlechtických rodů Čech, kterému patří dodnes.
+
+První pevnost tu ve 12. století postavil biskup Jindřich Břetislav, aby střežila obchodní cestu vedoucí od Prahy na sever do Horní Lužice podél řeky, a další dvě staletí sloužila jako venkovské sídlo pražských biskupů, později arcibiskupů, jakmile bylo biskupství v roce 1344 povýšeno. Nejslavnější nedobrovolný host sem dorazil v roce 1350: Cola di Rienzo, samozvaný římský tribun, který se pokusil obnovit starověkou římskou republiku a při tom si nadělal tolik nepřátel, že se ho papež chtěl zbavit. Přijel do Prahy v naději, že císař Karel IV. za něj zasáhne v Itálii. Karlova skutečná odpověď zněla: zavřít ho v Roudnici na víc než rok, a pak ho v roce 1352 potichu vydat do papežovy vlastní vazby, úhledný způsob, jak se vyhnout sporu jak s Římem, tak s Avignonem.
+
+V dalších dvou stoletích následovaly gotické a renesanční úpravy, ale zámek neopustil církevní ruce až do roku 1603, kdy se jeho majitelka Polyxena z Pernštejna provdala za Zdeňka Vojtěcha Popela z Lobkovic a začlenila ho do majetku rodu Lobkowiczů. Za knížete Václava Eusebia z Lobkovic byl celý komplex mezi lety 1652 a 1684 přestavěn do dnešní čtyřkřídlé barokní podoby, přičemž se na tom vystřídali čtyři italští architekti, Pietro Colombo, Francesco Caratti, Carlo Orsolini a Antonio Porta, než ho ten poslední konečně dokončil.
+
+🎁 Bonus: místní tradice tvrdí, že právě tady byl na kněze vysvěcen Jan Hus, reformátor, jehož poprava pomohla rozpoutat husitské války, ještě v době, kdy zámek patřil pražským arcibiskupům. Nikdo si to tehdy nezapsal dost jasně na to, aby si tím historikové mohli být úplně jistí, ale Roudnice zjevně zvládne pojmout ještě jednu nepříjemnou poznámku pod čarou k cizí revoluci.`,
+
+      zh: `罗乌德尼采城堡换了九个世纪的主人，换来换去的都是那些你意料之中会来争夺易北河这段最好河湾的人：主教、大主教、一位皇帝最不待见的客人，最后是波希米亚数一数二的显赫贵族世家——直到今天，城堡依然归他们所有。
+
+12世纪，主教因德日赫·布热季斯拉夫在这里建起了第一座要塞，用来守卫从布拉格向北通往上卢萨蒂亚、沿着易北河而行的商路。此后两百年里，这里一直是布拉格主教、以及1344年主教区升格为大主教区之后历任大主教的乡间别业。最有名的一位不速之客，是1350年到访的科拉·迪·里恩佐——一位自封的罗马护民官，曾试图复兴古罗马共和国，也因此树敌无数，逼得教皇非要他消失不可。他跑来布拉格，指望皇帝查理四世能出兵替他干预意大利事务。查理给出的真实答复，是把他关进罗乌德尼采整整一年多，然后在1352年悄悄把他移交给教皇本人看管，这是一种既不得罪罗马、也不得罪阿维尼翁的干净利落的办法。
+
+接下来的两个世纪里，城堡陆续经历了哥特式和文艺复兴式的改建，但直到1603年才脱离教会之手：当时的女主人波利克塞娜·冯·佩恩施泰因，嫁给了兹德涅克·沃伊捷赫·波佩尔·冯·洛布科维茨，城堡也随之并入了洛布科维茨家族的产业。在瓦茨拉夫·欧塞比乌斯·冯·洛布科维茨亲王主持下，整座建筑群于1652年至1684年间，被改建成了今天这座四翼环绕的巴洛克式庭院，期间先后经手了四位意大利建筑师——彼得罗·科隆博、弗朗切斯科·卡拉蒂、卡洛·奥尔索利尼和安东尼奥·波尔塔——直到最后一位才终于完工。
+
+🎁 彩蛋：当地传说称，扬·胡斯——那位处决后间接点燃了胡斯战争的宗教改革者——就是在这里被祝圣为神父的，当时城堡还归布拉格的大主教所有。当年没人把这件事记得足够清楚，历史学家也无法完全确定，但罗乌德尼采看起来完全有能力，再多容纳一段属于别人那场革命的、令人尴尬的小小注脚。`,
+    },
+  },
+  // New entry, user-flagged gap (2026-08-31): this landmark had never made
+  // it into the DB despite being one of Prague's most historically dense
+  // Gothic gate towers, discovered while researching the-great-bridge-1357
+  // history card. Facts verified via WebSearch: construction started 1357
+  // alongside Charles Bridge itself, architect Petr Parléř (also St. Vitus
+  // Cathedral), the coronation-procession/"victory gate" function, the
+  // three-statue program (St. Vitus center, Charles IV and a young
+  // Wenceslas IV on either side — the tower's own decoration wasn't
+  // finished until Wenceslas's reign), the coat-of-arms frieze, the
+  // kingfisher reliefs (Wenceslas IV's personal emblem), the 24-crab gable
+  // (one per hour of the day), the St. Sigismund/St. Adalbert statues near
+  // the roofline, and the 15 June (St. Vitus Day) lion-shadow-on-eagle-
+  // shield optical alignment. No landmark label per house style; rarity
+  // set to match its sibling malostranska-mostecka-vez (also 'epic').
+  {
+    name: 'Old Town Bridge Tower',
+    slug: 'staromestska-mostecka-vez',
+    localizedNames: { cz: 'Staroměstská mostecká věž', zh: '旧城桥塔' },
+    labels: ['tower', 'historical', 'architecture'],
+    coordinates: { lat: 50.08623517503191, lng: 14.413613758762608 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Old_Town_Bridge_Tower',
+    description: {
+      en: `Welcome to the gate every medieval Bohemian king had to walk through on his own coronation day, whether he liked the symbolism or not.
+
+Built starting in 1357 as part of the same project as the bridge it guards, the tower was designed by Petr Parléř, the same architect then busy raising St. Vitus Cathedral across the river. It wasn't just decoration bolted onto a practical gateway. Every new king's coronation procession was required to pass beneath its arch on the way into the Old Town, so Parléř built it as a kind of victory gate: a monument a ruler walked through, not just past.
+
+The sculptural program above the arch spells out exactly whose city this was. Three enthroned statues watch over anyone passing beneath, Saint Vitus, Bohemia's own patron, seated at the center, flanked by Charles IV on one side and a young Wenceslas IV on the other, since the tower's decoration wasn't actually finished until his own reign. The coats of arms of every land under Charles's rule line the facade below them, and higher still, statues of Saint Sigismund and Saint Adalbert keep watch from near the roofline. A kingfisher relief on either side of the arch, Wenceslas IV's own personal emblem, and a gabled roof carved with twenty-four crabs, one for each hour of the day, round out a facade that has more going on than most entire buildings manage.
+
+🎁 Bonus: every year on 15 June, Saint Vitus's own feast day, the sun lines up just right for the shadow of a carved lion's head to fall precisely onto an eagle-emblazoned shield below it, a small architectural trick said to symbolically affirm the old bond between Bohemia and Moravia.`,
+
+      cz: `Vítejte u brány, kterou musel projít každý středověký český král v den vlastní korunovace, ať se mu ta symbolika líbila, nebo ne.
+
+Věž se stavěla od roku 1357 jako součást téhož projektu jako most, který hlídá, a navrhl ji Petr Parléř, tentýž architekt, který zrovna na druhém břehu stavěl katedrálu svatého Víta. Nešlo jen o ozdobu přišroubovanou k praktické bráně. Korunovační průvod každého nového krále musel projít pod jejím obloukem cestou do Starého Města, takže z ní Parléř udělal jakousi vítěznou bránu: památník, kterým panovník procházel, ne jen kolem kterého šel.
+
+Sochařská výzdoba nad obloukem jasně říká, čí to bylo město. Nad každým, kdo prochází dole, bdí tři trůnící sochy, svatý Vít, český patron, uprostřed, po jedné straně Karel IV. a po druhé mladý Václav IV., protože výzdoba věže se dokončila až za jeho vlády. Pod nimi se táhnou erby všech zemí pod Karlovou vládou, a ještě výš, blízko střechy, hlídají sochy svatého Zikmunda a svatého Vojtěcha. Reliéf ledňáčka po obou stranách oblouku, osobní znak Václava IV., a štítová střecha s vyřezanými čtyřiadvaceti raky, jedním za každou hodinu dne, dotvářejí průčelí, na kterém se toho děje víc než na leckteré celé budově.
+
+🎁 Bonus: každý rok 15. června, o svátku svatého Víta, se slunce postaví přesně tak, že stín vytesané lví hlavy dopadne přesně na štít se znakem orlice pod ní, drobný architektonický trik, o kterém se říká, že symbolicky stvrzuje starý svazek Čech a Moravy.`,
+
+      zh: `欢迎来到这座大门——中世纪波希米亚的每一位国王，不管乐不乐意接受这层象征意义，加冕当天都得从这儿走过去。
+
+这座塔从1357年开始建造，是它所守卫的那座桥同一个工程的一部分，设计者是彼得·帕尔勒日——当时他正忙着在河对岸建造圣维特大教堂。它可不只是随手安在一座实用性大门上的装饰。历代新王的加冕游行，进入老城之前都必须从它的拱门下经过，于是帕尔勒日索性把它造成了一座凯旋门：君主要从中穿行而过的纪念碑，而不只是路过的摆设。
+
+拱门之上的雕塑装饰，明明白白告诉你这座城市属于谁。三尊端坐的雕像俯瞰着每一个从下面走过的人：波希米亚的守护圣人圣维特居中，一侧是查理四世，另一侧则是年轻的瓦茨拉夫四世——因为这座塔的装饰工程，一直到他在位时才真正完工。雕像下方，一字排开的是查理治下所有领地的纹章；再往上，靠近屋顶的地方，圣西吉斯蒙德和圣阿达尔伯特的雕像继续守望着。拱门两侧各有一幅翠鸟浮雕，那是瓦茨拉夫四世本人的专属徽记；山墙屋顶上还雕着二十四只螃蟹，对应一天里的二十四个钟头——比起大多数完整的建筑，这一面墙上要发生的事情都更多。
+
+🎁 彩蛋：每年6月15日，圣维特节这天，阳光角度恰到好处，会让一颗雕刻狮子头的阴影，精确投在它下方那面刻着鹰纹的盾徽上——据说这个建筑小把戏，象征性地印证了波希米亚与摩拉维亚之间自古以来的那份纽带。`,
+    },
+  },
 ];
 
 async function run() {

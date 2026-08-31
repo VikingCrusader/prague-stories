@@ -5817,6 +5817,13 @@ export const historyEvents = [
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_University",
   },
+  // Edited 2026-08-31: the Charles Bridge paragraph and its relatedLandmarks
+  // entry were trimmed out of this card (it used to get one thin sentence
+  // here) and moved to its own dedicated card, `the-great-bridge-1357`,
+  // once the bridge's actual founding story (the numerology-timed 1357
+  // groundbreaking) turned out to deserve more than a list-item mention.
+  // The other five projects here (Church of Our Lady of the Snows,
+  // Karlštejn, Karlovy Vary, Kašperk, Lake Máchovo) are untouched.
   {
     slug: "a-building-spree-1350",
     era: "kingdom-golden-age",
@@ -5839,9 +5846,9 @@ export const historyEvents = [
       zh: "查理不只是统治了波希米亚的黄金时代，接下来三十年，他几乎是一砖一瓦、一座城堡接一座城堡地把它盖出来的。",
     },
     summary: {
-      en: "Bohemia's golden age wasn't only paperwork and diplomacy. It also had a very literal shape: for the next three decades, Charles built almost everywhere he could reach.\n\nIn Prague alone, 1347 gave the city the Church of Our Lady of the Snows, planned so ambitiously large it was never actually finished to scale. The following year brought Karlštejn Castle, an hour outside town, built for one job: keeping the crown jewels and coronation relics somewhere safer than Prague itself. Charles explained the castle's own purpose in his own words.\n\n[[quote:0]]\n\nOnce the old Judith Bridge finally gave out in the 1342 floods, Charles started work on its replacement in the 1350s, a stone bridge that would eventually outlast his own name being attached to it.\n\nThe building didn't stop at the city limits. A hunting trip turned into an entire spa town at Karlovy Vary. A gold-rich mountain region got its own high-altitude fortress at Kašperk. Even a fishpond near Bezděz Castle got dug wide enough to eventually pass for a lake. By the time Charles was done, if something could be blessed, fortified, or bathed in, there was a decent chance he'd already ordered it built.",
-      cz: "Zlatý věk Čech nebyl jen papírování a diplomacie. Měl i docela doslovnou podobu: další tři desetiletí Karel stavěl skoro všude, kam dosáhl.\n\nJen v Praze dal rok 1347 městu kostel Panny Marie Sněžné, naplánovaný tak velkoryse, že se ho nakonec nikdy nepodařilo dostavět v plné velikosti. Následující rok přinesl hrad Karlštejn, hodinu cesty od města, postavený kvůli jedinému úkolu: uchovat korunovační klenoty a relikvie někde bezpečněji než v samotné Praze. Karel sám vysvětlil účel hradu vlastními slovy.\n\n[[quote:0]]\n\nJakmile starý Juditin most konečně podlehl povodním roku 1342, Karel se v 50. letech 14. století pustil do stavby jeho náhrady, kamenného mostu, který nakonec přežije i to, že po něm bude pojmenovaný.\n\nStavění se nezastavilo na hranicích města. Z lovecké výpravy vzniklo celé lázeňské město, Karlovy Vary. Zlatonosný horský kraj dostal vlastní vysokohorskou pevnost, Kašperk. Dokonce i rybník u hradu Bezděz vykopali tak široký, že nakonec mohl sloužit za jezero. Než Karel skončil, platilo, že cokoli šlo požehnat, opevnit nebo se v tom vykoupat, docela dobře už mohl mít na svědomí on.",
-      zh: "波希米亚的黄金时代，可不只是文书和外交。它还有一副非常具体的模样：接下来三十年，只要查理伸手够得着的地方，几乎都在动工。\n\n光是布拉格，1347年就迎来了雪之圣母教堂，规划得野心勃勃，大到最后压根没能按原计划盖完。第二年，卡尔什泰因城堡落成，在城外一小时车程的地方，建它就为了一件事：把王冠珠宝和加冕圣物藏在一个比布拉格本身更安全的地方。查理自己曾亲口解释过这座城堡的用意。\n\n[[quote:0]]\n\n1342年那场洪水终于冲垮了老朱迪塔桥之后，查理在1350年代动工修建了它的替代品，一座石桥，最后连自己的名字都要靠这座桥留下来。\n\n建设可不止于城墙以内。一次打猎，最后打出了一整座温泉小镇卡罗维发利。一片盛产黄金的山区，得到了自己的高海拔要塞卡什佩尔克。就连贝兹德兹城堡附近的一口鱼塘，都被挖得足够大，后来干脆能当湖用。等查理停手的时候，差不多可以说：只要是能祝圣的、能筑防御工事的、能下水泡澡的，多半都被他下令建过了。",
+      en: "Bohemia's golden age wasn't only paperwork and diplomacy. It also had a very literal shape: for the next three decades, Charles built almost everywhere he could reach.\n\nIn Prague alone, 1347 gave the city the Church of Our Lady of the Snows, planned so ambitiously large it was never actually finished to scale. The following year brought Karlštejn Castle, an hour outside town, built for one job: keeping the crown jewels and coronation relics somewhere safer than Prague itself. Charles explained the castle's own purpose in his own words.\n\n[[quote:0]]\n\nThe building didn't stop at the city limits. A hunting trip turned into an entire spa town at Karlovy Vary. A gold-rich mountain region got its own high-altitude fortress at Kašperk. Even a fishpond near Bezděz Castle got dug wide enough to eventually pass for a lake. By the time Charles was done, if something could be blessed, fortified, or bathed in, there was a decent chance he'd already ordered it built.",
+      cz: "Zlatý věk Čech nebyl jen papírování a diplomacie. Měl i docela doslovnou podobu: další tři desetiletí Karel stavěl skoro všude, kam dosáhl.\n\nJen v Praze dal rok 1347 městu kostel Panny Marie Sněžné, naplánovaný tak velkoryse, že se ho nakonec nikdy nepodařilo dostavět v plné velikosti. Následující rok přinesl hrad Karlštejn, hodinu cesty od města, postavený kvůli jedinému úkolu: uchovat korunovační klenoty a relikvie někde bezpečněji než v samotné Praze. Karel sám vysvětlil účel hradu vlastními slovy.\n\n[[quote:0]]\n\nStavění se nezastavilo na hranicích města. Z lovecké výpravy vzniklo celé lázeňské město, Karlovy Vary. Zlatonosný horský kraj dostal vlastní vysokohorskou pevnost, Kašperk. Dokonce i rybník u hradu Bezděz vykopali tak široký, že nakonec mohl sloužit za jezero. Než Karel skončil, platilo, že cokoli šlo požehnat, opevnit nebo se v tom vykoupat, docela dobře už mohl mít na svědomí on.",
+      zh: "波希米亚的黄金时代，可不只是文书和外交。它还有一副非常具体的模样：接下来三十年，只要查理伸手够得着的地方，几乎都在动工。\n\n光是布拉格，1347年就迎来了雪之圣母教堂，规划得野心勃勃，大到最后压根没能按原计划盖完。第二年，卡尔什泰因城堡落成，在城外一小时车程的地方，建它就为了一件事：把王冠珠宝和加冕圣物藏在一个比布拉格本身更安全的地方。查理自己曾亲口解释过这座城堡的用意。\n\n[[quote:0]]\n\n建设可不止于城墙以内。一次打猎，最后打出了一整座温泉小镇卡罗维发利。一片盛产黄金的山区，得到了自己的高海拔要塞卡什佩尔克。就连贝兹德兹城堡附近的一口鱼塘，都被挖得足够大，后来干脆能当湖用。等查理停手的时候，差不多可以说：只要是能祝圣的、能筑防御工事的、能下水泡澡的，多半都被他下令建过了。",
     },
     quotes: [
       {
@@ -5864,14 +5871,6 @@ export const historyEvents = [
           en: "Built in 1348 for one job: keeping the crown jewels and coronation relics somewhere safer than Prague itself.",
           cz: "Postavený roku 1348 kvůli jedinému úkolu: uchovat korunovační klenoty a relikvie někde bezpečněji než v samotné Praze.",
           zh: "1348年建成，就为了一件事：把王冠珠宝和加冕圣物藏在一个比布拉格本身更安全的地方。",
-        },
-      },
-      {
-        slug: "charles-bridge",
-        relation: {
-          en: "Charles's replacement for the old Judith Bridge, washed out by the 1342 floods, begun in the 1350s and still standing centuries later.",
-          cz: "Karlova náhrada za starý Juditin most, zničený povodněmi roku 1342, jejíž stavba začala v 50. letech 14. století a stojí dodnes.",
-          zh: "查理为替代1342年洪水冲毁的老朱迪塔桥而建，1350年代动工，几百年后依然屹立。",
         },
       },
       {
@@ -6444,6 +6443,745 @@ export const historyEvents = [
       },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Persecution_of_Jews_during_the_Black_Death",
+  },
+  // New event, requested by the user, content dictated in outline and
+  // fact-checked/expanded via WebSearch rather than taken as-is. Two
+  // corrections made to the user's own outline, both flagged to them
+  // before writing: (1) the wedding date is 27 May 1353, not June (two
+  // independent sources — en.wikipedia's Anna von Schweidnitz article and
+  // historyofroyalwomen.com — agree); (2) the territory this marriage
+  // actually secured was the Duchy of Świdnica-Jawor in Silesia, not
+  // Lusatia, and even that wasn't an immediate annexation — it was a
+  // succession treaty (Bolko II and his wife keep ruling until their own
+  // deaths, ~15 years later, before Bohemia actually inherits) predating
+  // this card's own timeframe. Lusatia's real incorporation (Lower, 1367
+  // purchase; Upper, later still) is unrelated to this marriage and not
+  // yet covered anywhere in this file — a genuinely open future card, not
+  // something to conflate with this one. Wenceslaus's birth/death dates
+  // (17 Jan 1350 / 28 Dec 1351), the Treaty of Namysłów betrothal
+  // mechanism, Anne of the Palatinate's 2 Feb 1353 death, the Buda wedding
+  // location (Anna raised there under her great-aunt Elizabeth of Poland)
+  // coinciding with King Louis of Hungary's own wedding to Elizabeth of
+  // Bosnia, and Anna's 28 July 1353 Prague coronation are all corroborated
+  // across en.wikipedia (Anna von Schweidnitz, Anne of the Palatinate),
+  // medievalists.net's "Four Wives of Charles IV," and
+  // historyofroyalwomen.com. Anne's cause of death has two competing
+  // traditions in the sources themselves (a riding accident, the more
+  // commonly cited one, versus death from grief) — both included honestly
+  // rather than picking one, per the user's own request to lead with the
+  // grief framing while not asserting it as the sole account. Two WebSearch
+  // passes for a primary-source chronicle quote (Beneš Krabice, the
+  // obvious candidate as Charles's own court chronicler for this period)
+  // came up empty, so none included — noted here rather than silently
+  // omitted. Tone kept 'serious' to match 'great-joy-great-sorrow-1348'
+  // (Blanche's own death), the established precedent for Charles's
+  // personal/family losses as distinct from this era's usual wry default.
+  // Deliberately shows the grief/pragmatism duality the user asked for by
+  // reporting what the record doesn't say (whether Charles wept) rather
+  // than inventing an emotion no source documents.
+  {
+    slug: "a-second-widower-1350",
+    era: "kingdom-golden-age",
+    startYear: 1350,
+    images: [
+      "/history/a-second-widower-1350.webp",
+      "/history/a-second-widower-1350-wedding.webp",
+    ],
+    imageCaptions: [
+      {
+        en: "In barely two years, Charles buried both a son and the wife who never stopped grieving him.",
+        cz: "Za necelé dva roky Karel pohřbil syna i manželku, která jeho ztrátu nikdy pořádně nepřekonala.",
+        zh: "不到两年之内，查理先后送走了儿子，和那位始终没能走出丧子之痛的妻子。",
+      },
+      {
+        en: "Not a marriage of love, just political calculation, and after two losses in two years, Charles had no way of knowing how long this one would last either.",
+        cz: "Ne manželství z lásky, jen politický výpočet, a po dvou ztrátách za dva roky Karel neměl jak vědět, jak dlouho vydrží ani tohle.",
+        zh: "这不是一场因爱而结的婚姻，只是纯粹的政治算计。两年内两度经历生离死别之后，查理也不知道，这段婚姻这次能陪他走多久。",
+      },
+    ],
+    year: {
+      en: "1350–1353",
+      cz: "1350–1353",
+      zh: "1350年－1353年",
+    },
+    tone: "serious",
+    title: {
+      en: "A Second Widower",
+      cz: "Podruhé vdovcem",
+      zh: "第二次成为鳏夫",
+    },
+    hookLine: {
+      en: "Charles had already buried one wife. Within three years he'd bury a second, and the son he'd wanted more than almost anything, and still come out of it with a duchy.",
+      cz: "Karel už jednu manželku pohřbil. Do tří let pohřbí druhou, a k tomu syna, po kterém toužil víc než po skoro čemkoli jiném, a přesto z toho nakonec vytěží vévodství.",
+      zh: "查理已经埋葬过一位妻子。不到三年之内，他将再埋葬一位妻子，还有他几乎比任何东西都更渴望的那个儿子——可到头来，他还是从这场悲剧里，换来了一整片公国。",
+    },
+    summary: {
+      en: "Two years after burying [[link:great-joy-great-sorrow-1348]]Blanche of Valois[[/link]], Charles already had a second wife, Anne of the Palatinate. On 17 January 1350, she gave him the one thing his first marriage never had: a son, Wenceslaus, the heir he'd wanted for years. Charles had him working before he could walk. A treaty signed at Namysłów in November 1348 had ended three years of war with Poland, and one of its side agreements bound Bolko II, duke of the small Silesian duchy of Świdnica-Jawor on Bohemia's own border, to betroth his niece Anna to whichever son Charles eventually had. Wenceslaus was betrothed within months of his own birth. If he lived long enough to have children of his own, Świdnica-Jawor would one day be Bohemia's.\n\nFate wasn't willing to wait for that calculation to pay off. He didn't live that long. Wenceslaus died on 28 December 1351, three weeks short of his second birthday. The betrothal died with him.\n\nAnne never really recovered. Most accounts say a riding accident killed her a little over a year later; a more persistent tradition says grief simply finished what the loss of her only child had already started. However it happened, Anne of the Palatinate died on 2 February 1353. Charles had buried a second wife before he'd turned forty. The record doesn't say outright whether he wept, but losing a long-awaited son in infancy and then the wife who'd never stopped grieving him, inside barely two years, isn't the kind of loss most people shrug off, and nothing suggests Charles was the exception. Grief, this time, didn't hold him for long. Soon enough, it was the same man as ever: someone who kept functioning regardless.\n\nWhat he did next took barely three months to arrange, and startled the whole of Christian Europe. Charles didn't marry a stranger to replace her. He married the girl who would have been his own daughter-in-law. Anna of Świdnica, Bolko II's niece, the same child once promised to his dead son, became his own third wife instead, on 27 May 1353, in Buda. He was thirty-seven. She was fourteen, and had spent most of her life at the Hungarian court under her great-aunt, Queen Elizabeth of Poland, which is also why the wedding happened in Buda rather than Prague, timed to coincide with a second royal wedding that same week: King Louis of Hungary's own marriage to Elizabeth of Bosnia. Whatever burying a son and a wife inside three years had actually cost him, it hadn't cost him the one detail that mattered most: his son's old betrothal contract still had a duchy attached to it, and marrying the bride himself was the only way to keep the claim alive.\n\nAnna was crowned Queen of Bohemia in Prague that July, and Queen of the Romans the following February. Świdnica-Jawor itself would take another decade and a half to actually become Bohemian soil, waiting on Bolko II's own death, but the claim Charles had once handed to an infant son, he now held himself, and this time he meant to see it through.",
+      cz: "Dva roky po pohřbu [[link:great-joy-great-sorrow-1348]]Blanky z Valois[[/link]] měl Karel už druhou manželku, Annu Falckou. 17. ledna 1350 mu dala to, co mu první manželství nikdy nedopřálo: syna, Václava, dědice, po kterém toužil celé roky. Karel ho měl v práci dřív, než se naučil chodit. Smlouva podepsaná v listopadu 1348 v Namyslavi ukončila tři roky války s Polskem, a jedno z jejích vedlejších ujednání zavazovalo Bolka II., vévodu malého slezského vévodství Svídnicko-javorského na samé české hranici, zasnoubit svou neteř Annu s kterýmkoli synem, jakého Karel v budoucnu bude mít. Václav byl zasnouben během pár měsíců od vlastního narození. Kdyby se dožil dost dlouho na to, aby měl vlastní děti, Svídnicko-javorsko by jednoho dne patřilo Čechám.\n\nOsud mu ale nedal čas, aby se ten výpočet vyplatil. Tak dlouho se nedožil. Václav zemřel 28. prosince 1351, tři týdny před svými druhými narozeninami. Zasnoubení zemřelo s ním.\n\nAnna se z toho nikdy pořádně nevzpamatovala. Většina pramenů tvrdí, že ji o něco přes rok později zabil pád z koně; vytrvalejší tradice říká, že žal prostě dokonal to, co už začala ztráta jejího jediného dítěte. Ať se to stalo jakkoli, Anna Falcká zemřela 2. února 1353. Karel pohřbil druhou manželku dřív, než mu bylo čtyřicet. Záznamy neříkají přímo, jestli plakal, ale ztratit v necelých dvou letech nejdřív dlouho vytouženého syna v kojeneckém věku a pak manželku, která jeho ztrátu nikdy pořádně nepřekonala, není ztráta, kterou většina lidí jen tak mávne rukou, a nic nenasvědčuje tomu, že by Karel byl výjimkou. Žal ho tentokrát dlouho nedržel. Brzy z něj byl zase ten samý muž jako vždycky: někdo, kdo prostě dál fungoval.\n\nTo, co udělal dál, mu zabralo sotva tři měsíce a ohromilo celou křesťanskou Evropu. Karel si na její místo nevzal cizí ženu. Vzal si dívku, která měla být jeho vlastní snachou. Anna Svídnická, neteř Bolka II., totéž dítě kdysi zaslíbené jeho mrtvému synovi, se místo toho stala jeho vlastní třetí manželkou, 27. května 1353 v Budíně. Bylo mu třicet sedm. Jí čtrnáct, a většinu života strávila na uherském dvoře pod křídly své pratety, královny Alžběty Polské, což je i důvod, proč se svatba konala v Budíně, ne v Praze, a proč byla načasovaná tak, aby se kryla s další královskou svatbou téhož týdne: vlastní svatbou uherského krále Ludvíka s Alžbětou Bosenskou. Ať už ho pohřeb syna a manželky během tří let stál cokoli, nestál ho to jednu podstatnou věc: starou zásnubní smlouvu jeho syna, ke které pořád patřilo vévodství, a jediný způsob, jak si ten nárok podržet, bylo vzít si nevěstu sám.\n\nAnna byla toho července korunována českou královnou v Praze a následující únor i římskou královnou. Svídnicko-javorsku samotnému trvalo ještě půldruhého desetiletí, než se skutečně stalo českou půdou, a čekalo na Bolkovu vlastní smrt, ale nárok, který Karel kdysi svěřil malému synovi, teď držel sám, a tentokrát ho hodlal dotáhnout do konce.",
+      zh: "在安葬[[link:great-joy-great-sorrow-1348]]瓦卢瓦的布兰奇[[/link]]两年后，查理已经有了第二任妻子，普法尔茨的安娜。1350年1月17日，她给了查理头一段婚姻从未带来的东西：一个儿子，瓦茨拉夫，一个他盼了多年的继承人。孩子还不会走路，查理就已经让他“上岗”了。1348年11月在纳米斯瓦夫签订的一份条约，结束了与波兰长达三年的战争，其中一项附带协议，要求博尔科二世（统治着紧邻波希米亚边境的西里西亚小公国施维德尼察-尧尔的公爵）将自己的侄女安娜，许配给查理未来任何一个儿子。瓦茨拉夫出生几个月后，就定下了这门婚约。只要他能活到自己有子嗣的那一天，施维德尼察-尧尔总有一天就会归属波希米亚。\n\n命运却没有耐心等这份如意算盘慢慢兑现。他没能活那么久。瓦茨拉夫于1351年12月28日去世，离两周岁生日还差三个星期。婚约也随他一起夭折了。\n\n安娜再也没能真正振作起来。大多数记载说，一年多以后，是一场坠马事故要了她的命；但一个流传更广的说法是，丧子之痛本身，就足以了结她的余生。不管究竟是哪种情况，普法尔茨的安娜于1353年2月2日去世。查理还没满四十岁，就已经先后埋葬了两任妻子。史料没有明确记下他当时是否流泪，但不到两年之内，先失去盼了多年才得来的幼子，又送走了始终没能走出丧子之痛的妻子，这样的打击，换作大多数人都很难真正云淡风轻，也没有理由认为查理会是例外。可这一次，悲伤没能困住他太久。很快，人们看到的，又是那个一如既往、照样运转下去的男人。\n\n他接下来做的事，前后只花了不到三个月安排妥当，却震惊了整个基督教欧洲。查理没有另娶陌生人来填补安娜的位置，而是娶了那个本该做他儿媳的女孩。施维德尼察的安娜，博尔科二世的侄女，那个曾经许配给他已故儿子的女孩，转而成了查理自己的第三任妻子，婚礼于1353年5月27日在布达举行。他三十七岁，她十四岁，大半辈子都在匈牙利宫廷长大，由姨婆——匈牙利太后波兰的伊丽莎白——一手抚养。这也是婚礼选在布达而非布拉格举行的原因，而且特意安排在同一周，与另一场王室婚礼，匈牙利国王路易本人迎娶波斯尼亚的伊丽莎白，前后脚举行，双喜临门。不管三年内接连埋葬一子一妻，让他付出了怎样的代价，唯独没让他丢掉最要紧的那一点：儿子那份旧婚约，附带的公国仍然有效，而唯一能保住这份主张的办法，就是他自己把新娘娶进门。\n\n那年7月，安娜在布拉格加冕为波希米亚王后，次年2月又加冕为罗马人的王后。施维德尼察-尧尔本身还要再过大约十五年，等博尔科二世本人去世，才会真正成为波希米亚的领土；但查理当年托付给一个婴儿的这份主张，如今由他亲自握在手里，这一次，他打算亲手把它兑现到底。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Anna of Świdnica was crowned Queen of Bohemia here in July 1353, two months after marrying the father instead of the son she'd originally been promised to.",
+          cz: "Anna Svídnická zde byla v červenci 1353 korunována českou královnou, dva měsíce poté, co si vzala otce místo syna, kterému byla původně zaslíbena.",
+          zh: "施维德尼察的安娜，1353年7月在这里加冕为波希米亚王后——就在她嫁给“父亲”而非当初许配给她的“儿子”两个月之后。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Anna_von_Schweidnitz",
+  },
+  // New event, requested by the user (title, and the Petrarch/Cola outline,
+  // both dictated), fact-checked and expanded via WebSearch. Placed after
+  // 'a-second-widower-1350' rather than strictly by earliest date (Cola's
+  // Prague arrival, 1 August 1350, actually predates that card's own
+  // wedding climax in 1353) — a deliberate call, flagged to the user, to
+  // let the family-tragedy arc run start to finish before switching to
+  // this unrelated "meanwhile, in Italy" thread. startYear uses decimal
+  // anchors (1350.9 / 1350.95) to sit after it without literal date
+  // collision. Key facts and dates (Cola's 1 Aug 1350 arrival in Prague,
+  // imprisonment at Roudnice for over a year, 1 Aug 1352 handover to
+  // Avignon exactly two years later, his 1347 Roman "Tribune" uprising and
+  // why it got him condemned) are corroborated across en.wikipedia's "Cola
+  // di Rienzo" article and multiple encyclopedia sources found via
+  // WebSearch. Cola's eventual pardon and 1354 death by mob violence in
+  // Rome were researched too (also corroborated the same way) but
+  // deliberately left out of this card's own closing beat, per the user's
+  // explicit request 2026-08-31: Clement VI's own death belongs to a
+  // future card this one shouldn't preempt, so the ending was rewritten
+  // into an unspoiled forward-hook (Cola's Avignon fate left as "a story
+  // still being written") instead of narrating it here.
+  // Petrarch's quote is genuine: the opening line of his first letter to
+  // Charles (24 February 1351, Familiares X.1), found via WebSearch, not
+  // supplied by the user. Charles's own reluctance is grounded directly in
+  // his own prior Italian experience already on record in this timeline —
+  // see the [[link:the-prince-who-came-to-put-out-the-fire-1333]] callback
+  // to his 1331–33 Lucca governorship and John's pawning it away, which
+  // that earlier card already establishes. Tone kept 'humorous', this
+  // era's usual default — political farce/diplomatic correspondence, not
+  // atrocity content. No relatedLandmarks: the entire event happens
+  // abroad or is about abroad, same as this era's other foreign-soil
+  // cards (Trenčín, Lithuania, Gascony).
+  {
+    slug: "italy-still-couldnt-forget-him-1350",
+    era: "kingdom-golden-age",
+    startYear: 1352,
+    images: ["/history/italy-still-couldnt-forget-him-1350.webp"],
+    imageCaptions: [
+      {
+        en: "Cola pleads for an army. Charles listens politely and gives him a prison cell instead.",
+        cz: "Cola prosí o vojsko. Karel ho zdvořile vyslechne a místo toho mu dá vězeňskou celu.",
+        zh: "科拉在恳求发兵相助，查理礼貌地听完，回赠给他的却是一间牢房。",
+      },
+    ],
+    year: {
+      en: "1352",
+      cz: "1352",
+      zh: "1352年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Italy Still Couldn't Forget Him",
+      cz: "Itálie na něj pořád nezapomněla",
+      zh: "意大利人还是忘不掉他",
+    },
+    hookLine: {
+      en: "Italy hadn't forgotten the young man who once governed Lucca and won a battle before he was even king. Charles would rather it had.",
+      cz: "Itálie nezapomněla na mladíka, který kdysi vládl Luce a vyhrál bitvu, ještě než se stal králem. Karel by byl radši, kdyby zapomněla.",
+      zh: "意大利没有忘记那个还没当上国王，就已经统治过卢卡、打赢过一场仗的年轻人。查理倒是巴不得他们忘了。",
+    },
+    summary: {
+      en: "Since [[link:the-prince-who-came-to-put-out-the-fire-1333]]leaving Italy[[/link]] in 1333, Charles hadn't given the peninsula much thought. Italy, for its part, hadn't stopped thinking about him. The region was, by the 1340s, a mess even by its own standards: city-states at war with their neighbors and often with themselves, a papacy relocated to Avignon with no urgency about coming back, and a power vacuum nobody local could fill. People started looking north, to the one man who'd actually governed an Italian city competently, however briefly, and who now ran an empire that, by comparison, looked remarkably orderly.\n\nFrancesco Petrarch took it upon himself to make the case in writing, repeatedly. Starting in February 1351, he sent Charles the first of what grew into a correspondence of some three dozen letters, urging him, at length and with considerable flourish, to come south and take up his imperial duty to Italy and Rome. One line from that first letter gives a fair sense of the register he wrote in:\n\n[[quote:0]]\n\nCharles wrote back warmly enough, and did nothing.\n\nThen, in August 1350, Italy sent someone in person. Cola di Rienzo arrived at Charles's court in Prague looking for exactly the intervention Petrarch kept requesting on paper. Three years earlier, Cola had staged his own answer to Rome's chaos: a popular uprising that made him Tribune of a self-declared revived Roman Republic, until he overreached badly enough, proposing a sovereignty answerable to the people rather than the Pope, that Clement VI had him deposed and hunted within months. He'd spent the years since in hiding, and now he wanted Charles to finish what he'd started: march south and free Italy and Rome from the men currently running them.\n\nCharles had no intention of marching anywhere. The last time he'd taken Italy seriously, he'd governed Lucca in his own father's name, built a fortress and named it after himself, and watched John pawn the whole city away before the year was out. He wasn't eager to relearn that lesson, and considerably less eager to hand the Pope a reason to call him an enemy over a fugitive the Curia already wanted dead. So Charles did what a cautious man with no interest in a fight does with an inconvenient guest: he had Cola arrested and locked away in the fortress at Roudnice for more than a year, and on 1 August 1352, exactly two years after Cola had first arrived asking for help, handed him over to the Pope's own custody at Avignon instead.\n\nWhat became of Cola in Avignon was a story still being written. What Charles had gotten out of the whole business was already settled: no war with the Pope, no fresh entanglement in Italy, and one less fugitive knocking on his door.",
+      cz: "Od chvíle, kdy v roce 1333 [[link:the-prince-who-came-to-put-out-the-fire-1333]]opustil Itálii[[/link]], Karel poloostrovu moc pozornosti nevěnoval. Itálie na něj ovšem myslet nepřestala. Region byl ve čtyřicátých letech 14. století v nepořádku i na své vlastní poměry: městské státy válčící se sousedy a často i samy se sebou, papežství přesídlené do Avignonu bez sebemenšího spěchu vrátit se, a mocenské vakuum, které nikdo místní nedokázal zaplnit. Lidé začali hledat na sever, k jedinému muži, který kdysi skutečně, byť krátce, kompetentně vládl italskému městu, a který teď řídil říši, jež ve srovnání působila pozoruhodně uspořádaně.\n\nFrancesco Petrarca se rozhodl vzít věc do vlastních rukou písemně, a to opakovaně. Od února 1351 posílal Karlovi první z dopisů, které se nakonec rozrostly na korespondenci čítající zhruba tři desítky listů, v nichž ho zdlouhavě a s notnou dávkou patosu naléhal, aby přijel na jih a ujal se své císařské povinnosti vůči Itálii a Římu. Jedna věta z toho prvního dopisu dobře vystihuje, jakým tónem psal:\n\n[[quote:0]]\n\nKarel odpověděl vřele a neudělal nic.\n\nPak, v srpnu 1350, poslala Itálie někoho osobně. Cola di Rienzo dorazil na Karlův dvůr do Prahy a hledal přesně tu intervenci, kterou Petrarca opakovaně žádal na papíře. O tři roky dřív si Cola na římský chaos naordinoval vlastní odpověď: lidové povstání, které z něj udělalo tribuna nově vyhlášené římské republiky, než to přehnal natolik, že návrh svrchovanosti odpovídající lidu, a ne papeži, přiměl Klimenta VI. během pár měsíců ho sesadit a nechat pronásledovat. Od té doby se ukrýval, a teď chtěl, aby Karel dokončil, co on sám začal: aby vytáhl na jih a osvobodil Itálii i Řím od mužů, kteří je právě ovládali.\n\nKarel nikam táhnout nehodlal. Naposledy, když Itálii bral vážně, spravoval Luku jménem vlastního otce, postavil pevnost a pojmenoval ji po sobě, a pak sledoval, jak Jan celé město ještě téhož roku zastavil. Neměl chuť si tu lekci zopakovat, a ještě menší chuť dát papeži záminku prohlásit ho nepřítelem kvůli uprchlíkovi, kterého kurie stejně chtěla mrtvého. Karel proto udělal to, co dělá opatrný muž bez zájmu o konflikt s nepohodlným hostem: nechal Colu zatknout a na víc než rok zavřít na hradě Roudnici, a 1. srpna 1352, přesně dva roky poté, co Cola poprvé přijel žádat o pomoc, ho místo toho vydal papeži do vazby v Avignonu.\n\nCo bude s Colou v Avignonu dál, to byl zatím nedopsaný příběh. Co z celé té záležitosti vytěžil Karel, bylo jasné už teď: žádná válka s papežem, žádné nové zapletení do italských věcí, a o jednoho uprchlíka klepajícího na dveře méně.",
+      zh: "自1333年[[link:the-prince-who-came-to-put-out-the-fire-1333]]离开意大利[[/link]]以后，查理就没怎么再把这片土地放在心上。意大利倒是一直没忘了他。到14世纪40年代，这片地区乱得连自己都看不下去：城邦之间互相开战，甚至内部也在互相开战，教廷早已搬去阿维尼翁，压根不急着回来，权力真空谁也填不上。人们开始把目光投向北方，投向那个曾经，哪怕只是短暂地，实实在在治理过一座意大利城市的人，如今他打理的帝国，相比之下显得井井有条得多。\n\n弗朗切斯科·彼特拉克主动扛下了用文字劝说的差事，而且不止一次。从1351年2月起，他给查理写了第一封信，后来这份通信竟积累到了三十多封，字里行间不厌其烦、辞藻华丽地敦促查理南下，履行他对意大利和罗马的皇帝职责。第一封信里的一句话，足以体现他的这种笔调：\n\n[[quote:0]]\n\n查理回信回得挺热情，然后什么也没做。\n\n接着，1350年8月，意大利干脆派了个人亲自来。科拉·迪·里恩佐来到布拉格查理的宫廷，想要的正是彼特拉克在信里反复要求的那种出兵干预。三年前，科拉曾自己给罗马的乱局开过一剂药方：一场民众起义让他当上了自封“复兴罗马共和国”的护民官，直到他玩得太过火，提出主权应该属于人民、而不是教皇，这才让克莱门特六世短短几个月内就把他废黜、通缉。此后他一直东躲西藏，如今他想让查理接着完成他没完成的事：挥师南下，把意大利和罗马，从眼下那些当权者手中解放出来。\n\n查理压根没打算去哪里挥师。他上一次认真对待意大利，是替自己父亲治理卢卡，修了一座要塞、用自己的名字命名，结果没过完那一年，就眼睁睁看着约翰把整座城市抵押了出去。他没兴趣再重温这一课，更没兴趣为了一个教廷本来就想弄死的逃犯，给教皇一个把他当成敌人的理由。于是查理干了一件谨慎人、又懒得惹麻烦的人会对一位不速之客做的事：把科拉抓了起来，关进劳德尼采城堡，关了一年多，然后在1352年8月1日，正好是科拉两年前第一次跑来求助的同一天，把他移交给了教廷，送去阿维尼翁关押。\n\n科拉在阿维尼翁接下来会有什么遭遇，还是个未完待续的故事。可查理从这整件事里捞到了什么，此刻已经很清楚：没跟教皇撕破脸，没再被卷进意大利的烂摊子，门口敲门的逃犯也少了一个。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "For the honor of the Empire, for the salvation of Italy, for the consolation of the city of Rome, thy utterly abandoned bride.",
+          cz: "Pro čest Říše, pro spásu Itálie, pro útěchu města Říma, tvé zcela opuštěné nevěsty.",
+          zh: "为了帝国的荣耀，为了意大利的救赎，为了罗马城的慰藉——那座被你彻底抛弃的新娘。",
+        },
+        attribution: {
+          en: "Francesco Petrarch, letter to Charles IV, 24 February 1351 (Familiares X.1)",
+          cz: "Francesco Petrarca, dopis Karlu IV., 24. února 1351 (Familiares X.1)",
+          zh: "弗朗切斯科·彼特拉克，致查理四世的信，1351年2月24日（《家书》卷十第一封）",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "zamek-roudnice",
+        relation: {
+          en: "The archbishop's country residence where Charles actually kept Cola locked up for more than a year, before handing him over to the Pope.",
+          cz: "Arcibiskupské venkovské sídlo, kde Karel Colu skutečně držel zavřeného přes rok, než ho vydal papeži.",
+          zh: "大主教的乡间宅邸，查理把科拉真正关押在这里长达一年多，然后才把他移交给教皇。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Cola_di_Rienzo",
+  },
+  // Background-knowledge card, requested by the user, inserted right after
+  // 'italy-still-couldnt-forget-him-1350': per the standing rule, no
+  // image, no relatedLandmarks, doesn't claim a sidebar slot. Kept
+  // deliberately brief per the user's own explicit request ("不要太罗嗦") —
+  // this is a sweeping 1,400-year span compressed into two short
+  // paragraphs, not a full treatment. Facts are standard, well-established
+  // world history (476 collapse, Ostrogothic/Byzantine/Lombard rule,
+  // Charlemagne's 774 conquest and the nominal "Kingdom of Italy," the
+  // Papal States, Guelph/Ghibelline factionalism, 1861/1870 unification)
+  // rather than anything needing a fresh WebSearch pass.
+  {
+    slug: "why-wasnt-italy-just-italy-1350",
+    era: "kingdom-golden-age",
+    startYear: 1352.05,
+    cardType: "background",
+    year: {
+      en: "476–1870",
+      cz: "476–1870",
+      zh: "476年－1870年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Why Wasn't Italy Just... Italy?",
+      cz: "Proč Itálie ještě nebyla jen Itálií?",
+      zh: "亚平宁半岛，为什么迟迟没能统一？",
+    },
+    hookLine: {
+      en: "Charles IV technically ruled a Kingdom of Italy. It hadn't functioned as one single kingdom in any real sense for centuries, and wouldn't for another five hundred years.",
+      cz: "Karel IV. formálně vládl Italskému království. Jako jedno skutečné království nefungovalo už celá staletí a nemělo fungovat dalších pět set let.",
+      zh: "查理四世名义上统治着一个“意大利王国”。可这个王国已经好几百年没真正像一个统一国家那样运作过了，而且接下来还要再等五百年。",
+    },
+    summary: {
+      en: "Rome's western half collapsed in 476, and Italy never really put itself back together after that. Ostrogoths held it briefly, Byzantine armies reconquered it, and Lombard invaders fractured it again in 568. Charlemagne folded the north into his own Frankish empire in 774, creating a Kingdom of Italy that the Holy Roman Emperor technically still held in Charles's own day. The Pope controlled a band of central Italy in his own right, the Papal States, and the south spent centuries passing between Byzantine, Arab, and Norman rulers before settling into its own separate kingdom.\n\nBy the 1300s, the emperor's actual authority over \"his\" Italian kingdom was mostly ceremonial: real power belonged to dozens of fiercely independent city-states, Florence, Venice, Milan, and Genoa among them, each one often as divided internally as it was hostile to its neighbors, split for two centuries running between factions loyal to the Pope and factions loyal to the Emperor. An emperor could ride in, get crowned, and ride out again, which is more or less what several of them did. Actually governing the place was never really on offer. That patchwork held for another five hundred years, surviving the Renaissance and foreign domination alike, until Italy finally became one country in 1861, with Rome itself joining only in 1870.",
+      cz: "Západní polovina Říma se zhroutila roku 476, a Itálie se od té doby už nikdy pořádně nedala dohromady. Ostrogóti ji na chvíli drželi, byzantská vojska ji znovu dobyla, a pak ji roku 568 znovu roztříštili langobardští útočníci. Karel Veliký v roce 774 připojil sever k vlastní franské říši a vytvořil Italské království, které Svatá říše římská formálně držela ještě za Karlových časů. Papež ovládal vlastní pás střední Itálie, Papežský stát, a jih strávil staletí střídáním byzantských, arabských a normanských vládců, než se ustálil jako vlastní samostatné království.\n\nDo 14. století byla císařova skutečná moc nad „jeho“ italským královstvím většinou jen obřadní: skutečná moc patřila desítkám urputně nezávislých městských států, mezi nimi Florencii, Benátkám, Miláně a Janovu, z nichž každý byl často stejně rozdělený uvnitř jako nepřátelský vůči sousedům, a to už dvě stě let podél linie mezi frakcemi věrnými papeži a frakcemi věrnými císaři. Císař mohl přijet, nechat se korunovat a zase odjet, což víceméně dělalo i několik z nich. Skutečně tomu vládnout nikdy opravdu nebylo v nabídce. Tahle mozaika vydržela dalších pět set let, přežila renesanci i cizí nadvládu, než se Itálie v roce 1861 konečně stala jednou zemí, přičemž samotný Řím se připojil až v roce 1870.",
+      zh: "西罗马帝国的那一半，476年就崩溃了，此后意大利再也没能真正拼回一体。东哥特人短暂统治过这里，拜占庭军队又重新征服了它，568年伦巴第人入侵，再度把它撕成碎片。774年，查理曼把北意大利并入了自己的法兰克帝国，缔造出一个“意大利王国”，直到查理四世的年代，神圣罗马帝国名义上依然握着这个头衔。教皇则牢牢掌控着中意大利的一条地带，也就是教皇国；南方则在几个世纪里，先后经历拜占庭、阿拉伯、诺曼人的统治，最终自成一个独立的王国。\n\n到了14世纪，皇帝对“自己”这个意大利王国的实际统治权，大多只剩下仪式性的意义：真正的权力握在几十个各自为政、互不相让的城邦手里，佛罗伦萨、威尼斯、米兰、热那亚都在其中，每一个城邦内部往往跟对外一样四分五裂，两百年来一直沿着“教皇派”与“皇帝派”的界线互相撕扯。皇帝可以骑马进城，加个冕，再骑马离开，事实上好几位皇帝也确实就是这么做的。真正统治这片土地，从来都不是一个真正摆在桌面上的选项。这种四分五裂的局面又持续了五百年，熬过了文艺复兴，也熬过了外族统治，直到1861年意大利才终于统一成一个国家，罗马本身更是要等到1870年才并入。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Italian_unification",
+  },
+  // New event, requested by the user (title and outline dictated),
+  // fact-checked and expanded via WebSearch. Directly pays off the
+  // forward-hook deliberately left unresolved at the end of
+  // 'italy-still-couldnt-forget-him-1350' ("What became of Cola in
+  // Avignon was a story still being written") — Clement VI's death is
+  // finally named here via the [[link:...]] callback, per the user's own
+  // instruction on that earlier card not to spoil it there. Key facts:
+  // Clement VI's December 1352 death and Innocent VI's succession, the
+  // 1354 Feast of the Holy Lance and Nails granted at Charles's request
+  // (a real, if minor, concession — en.wikipedia's "Pope Innocent VI" and
+  // Catholic Encyclopedia both confirm it), the "leave Rome the same day"
+  // condition Innocent VI imposed (Catholic Encyclopedia's "Pope Innocent
+  // VI" entry), the 28 September 1354 St. Wenceslas-feast departure with
+  // roughly 300 cavalry (charles700.cuni.cz, corroborated by
+  // en.wikipedia's own Charles IV article's "crossed the Alps without an
+  // army" framing), the Mantua stop (arrived 7 November, stuck to
+  // Christmas negotiating Visconti territory passage and coronation
+  // logistics), Giovanni Visconti's convenient recent death, and the 6
+  // January 1355 Iron Crown coronation at Milan's Basilica of
+  // Sant'Ambrogio. Two WebSearch passes for a primary-source quote (Vita
+  // Caroli, Charles's own autobiography, was the obvious first candidate)
+  // came up empty — the Vita Caroli only covers events up to his own 1346
+  // election as King of the Romans, well before this trip, so nothing
+  // from it applies here. None included. Deliberately stops at the Milan
+  // coronation and doesn't narrate the actual Rome/Imperial coronation
+  // (5 April 1355) — left as an unspoiled forward-hook for its own future
+  // card, matching the same "don't spoil what's next" instruction that
+  // shaped this card's own predecessor. Tone kept 'humorous', this era's
+  // usual default — political maneuvering and a deliberately unthreatening
+  // 300-cavalry "invasion," not atrocity content.
+  {
+    slug: "the-roman-ride-1354",
+    era: "kingdom-golden-age",
+    startYear: 1354,
+    images: ["/history/the-roman-ride-1354.webp"],
+    imageCaptions: [
+      {
+        en: "Even on his way to be crowned King of Italy, Charles found time to add to his relic collection.",
+        cz: "I na cestě za korunovací italským králem si Karel našel čas rozšířit svou sbírku relikvií.",
+        zh: "就算在赶去加冕为意大利国王的路上，查理也不忘抽空给自己的圣物收藏添件新藏品。",
+      },
+    ],
+    year: {
+      en: "1352–1355",
+      cz: "1352–1355",
+      zh: "1352年－1355年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Roman Ride",
+      cz: "Římská jízda",
+      zh: "出征罗马",
+    },
+    hookLine: {
+      en: "Charles finally went to Italy after all, not to clean up its mess, but for the one crown that still eluded him: Emperor.",
+      cz: "Karel nakonec do Itálie přece jen odjel, ne aby uklidil ten její nepořádek, ale kvůli jediné koruně, která mu pořád ještě chyběla: císařské.",
+      zh: "查理最终还是去了意大利，可是不是为了收拾意大利的烂摊子，而是为了那顶至高无上的皇帝冠冕。",
+    },
+    summary: {
+      en: "Ever since [[link:crowned-at-aachen-1349]]Aachen[[/link]], Charles had held one crown without the other. King of the Romans didn't make him Holy Roman Emperor; that required an actual coronation in Rome, by the Pope's own hand, and Pope Clement VI had no intention of arranging it. He kept finding reasons to put it off for the rest of his pontificate.\n\nClement died in December 1352, not long after [[link:italy-still-couldnt-forget-him-1350]]taking custody of Cola di Rienzo[[/link]] off Charles's hands, and his successor, Innocent VI, at least agreed to talk. The talking went nowhere fast. About the only concrete thing Charles got out of the new pope for a while was a religious concession, a feast day for the Holy Lance and Nails, granted for Germany and Bohemia in 1354 at Charles's own request, rather than the actual permission he wanted. When Innocent VI finally agreed to let the coronation happen, the terms told Charles exactly how welcome he really was: he could come to Rome, but he had to leave again the same day. The Pope had his own reasons. Rome and the rest of the Papal States had spent decades slipping out of papal control while the popes themselves sat in Avignon, and Innocent VI was in the middle of sending his own legate, Cardinal Gil de Albornoz, to fight and negotiate the city back. The last thing he needed was an actual Holy Roman Emperor lingering in Rome long enough to become a rival power base, or worse, exactly the kind of protector Petrarch and Cola di Rienzo had spent years begging Charles to become. A one-day coronation solved that problem neatly: Charles got his crown, and Rome stayed the Pope's own problem to fix.\n\nThen, on 28 September 1354, the feast of St. Wenceslas, Charles simply gave the order to march, catching both Italy and the Avignon papacy off guard. He crossed the Alps with a force small enough to look more like a procession than an invasion, roughly three hundred cavalry, and true to form, picked up relics along the way for the growing collection he was already housing at Karlštejn.\n\nHe reached Mantua by 7 November and stayed stuck there for nearly two months, negotiating safe passage through Visconti territory and the logistics of the coronation itself. The wait paid off in more ways than one: Giovanni Visconti, the Archbishop of Milan and Charles's most serious rival in the region, had died not long before, clearing the way considerably. On 6 January 1355, in Milan's Basilica of Sant'Ambrogio, the city's new archbishop crowned Charles King of Italy with the ancient Iron Crown of Lombardy.\n\nRome, and the crown that actually mattered to him, was still ahead.",
+      cz: "Od [[link:crowned-at-aachen-1349]]Cách[[/link]] držel Karel jednu korunu bez druhé. Římský král z něj ještě neudělal svatého římského císaře; k tomu potřeboval skutečnou korunovaci v Římě, z rukou samotného papeže, a papež Klement VI. neměl v úmyslu ji zařídit. Po zbytek svého pontifikátu si na to nacházel jednu záminku za druhou.\n\nKlement zemřel v prosinci 1352, nedlouho poté, co [[link:italy-still-couldnt-forget-him-1350]]převzal do vlastní péče Colu di Rienzo[[/link]], kterého mu Karel předal, a jeho nástupce Inocenc VI. alespoň souhlasil, že bude jednat. Jednání nikam rychle nevedlo. Jediné konkrétní, co z nového papeže Karel na chvíli vymohl, byla církevní ústupka, svátek Svatého kopí a hřebů, zavedený v roce 1354 pro Německo a Čechy na Karlovu vlastní žádost, místo skutečného povolení, o které mu šlo. Když Inocenc VI. nakonec korunovaci povolil, podmínky Karlovi jasně řekly, jak vítaný ve skutečnosti je: mohl přijet do Říma, ale musel ho ještě týž den zase opustit. Papež k tomu měl vlastní důvody. Řím a zbytek Papežského státu se celá desetiletí vymykaly papežské kontrole, zatímco samotní papežové seděli v Avignonu, a Inocenc VI. právě posílal svého legáta, kardinála Gila de Albornoz, aby město bojem i vyjednáváním získal zpátky. Poslední, co potřeboval, byl skutečný svatý římský císař, který by se v Římě zdržel dost dlouho na to, aby se stal soupeřící mocenskou základnou, nebo hůř, přesně tím druhem ochránce, jakým Karla léta přemlouvali stát se Petrarca a Cola di Rienzo. Jednodenní korunovace tenhle problém úhledně vyřešila: Karel dostal korunu a Řím zůstal problémem, který si měl vyřešit papež sám.\n\nPak, 28. září 1354, na svátek svatého Václava, Karel prostě vydal rozkaz k pochodu a zaskočil tím Itálii i avignonské papežství. Přes Alpy táhl se silou tak malou, že vypadala spíš jako procesí než invaze, zhruba tři sta jezdců, a jako obvykle si po cestě sbíral relikvie do rostoucí sbírky, kterou už uchovával na Karlštejně.\n\nDo Mantovy dorazil 7. listopadu a zůstal tam skoro dva měsíce zaseknutý, vyjednávaje bezpečný průchod visconstiovským územím a logistiku samotné korunovace. Čekání se vyplatilo hned v několika ohledech: Giovanni Visconti, milánský arcibiskup a Karlův nejvážnější soupeř v regionu, nedávno zemřel, což mu situaci značně usnadnilo. 6. ledna 1355 Karla v milánské bazilice Sant'Ambrogio korunoval nový arcibiskup města italským králem starobylou železnou korunou lombardskou.\n\nŘím, a koruna, na které mu doopravdy záleželo, ho ještě čekaly.",
+      zh: "自从[[link:crowned-at-aachen-1349]]亚琛加冕[[/link]]以来，查理手里一直只握着一顶王冠，缺了另一顶。罗马人的国王，并不等于神圣罗马帝国皇帝；后者需要在罗马城本身，由教皇亲手加冕才算数，而教皇克莱门特六世压根没打算安排这件事。在他在任的剩余岁月里，他总能找到新的借口一拖再拖。\n\n克莱门特于1352年12月去世，就在他刚刚从查理手里[[link:italy-still-couldnt-forget-him-1350]]接过科拉·迪·里恩佐的看管权[[/link]]不久之后；他的继任者英诺森六世，至少同意坐下来谈。可谈判进展缓慢。有很长一段时间，查理从这位新教皇那里拿到的唯一实质成果，只是一项宗教让步，1354年，应查理本人请求，为德意志和波希米亚设立了“圣矛与圣钉节”，而不是他真正想要的那份许可。等英诺森六世终于同意让加冕典礼举行时，附带的条件也明明白白告诉了查理，自己到底有多受欢迎：他可以去罗马，但加冕当天就得离开。教皇这么做自有他的道理。罗马和教皇国的其他地盘，这几十年来一直在教廷手中悄悄失控，因为历代教皇本人都待在阿维尼翁；而英诺森六世当时正派自己的特使，枢机主教吉尔·德·阿尔沃诺兹，去意大利，靠打仗加谈判，一点点把这座城市抢回来。他最不需要的，就是一位货真价实的神圣罗马帝国皇帝，在罗马待得够久，久到足以变成一股与教廷分庭抗礼的势力，或者更糟，正好成了彼特拉克和科拉·迪·里恩佐这些年一直求着查理去当的那种“保护者”。只给一天时间加冕，干净利落地解决了这个问题：查理拿到了他的王冠，罗马则依旧是教皇自己要去操心的烂摊子。\n\n接着，1354年9月28日，圣瓦茨拉夫节这天，查理直接下令出发，打了意大利和阿维尼翁教廷一个措手不及。他带着一支规模小得更像仪仗队而非入侵军的队伍翻越阿尔卑斯山，只有大约三百名骑兵，而且一如既往，沿途顺手收集圣物，充实他早已存放在卡尔什坦城堡里的那份收藏。\n\n他于11月7日抵达曼图亚，在那里被困了将近两个月，忙着跟维斯孔蒂家族谈判安全通行权，以及加冕典礼本身的种种安排。这场等待在好几个方面都没有白费：米兰大主教乔瓦尼·维斯孔蒂，查理在这一带最强劲的对手，不久前刚刚去世，局面因此顺畅了不少。1355年1月6日，在米兰的圣安布罗焦大教堂，这座城市的新任大主教用古老的伦巴第铁王冠，为查理加冕为意大利国王。\n\n罗马，以及那顶他真正在意的王冠，还在前面等着他。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "karlstejn-castle",
+        relation: {
+          en: "Charles was already filling this castle with relics well before 1354; the Italian expedition just gave him a few more to add to the pile.",
+          cz: "Karel už tenhle hrad plnil relikviemi dávno před rokem 1354; italská výprava mu jen přidala pár dalších kousků do sbírky.",
+          zh: "早在1354年之前，查理就已经在往这座城堡里塞满圣物；这趟意大利远征，只是又替他的收藏添了几件而已。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_IV,_Holy_Roman_Emperor",
+  },
+  // New event, requested by the user (title, quote, and outline dictated).
+  // Directly pays off 'the-roman-ride-1354's own unspoiled closer ("Rome,
+  // and the crown that actually mattered to him, was still ahead"). Facts
+  // fact-checked/refined via WebSearch rather than taken as dictated:
+  // Charles appeared at Rome's gates 2 April 1355 but — per
+  // charles700.cuni.cz and a separate WebSearch pass — did NOT yet enter
+  // as ruler; he first went in quietly as a pilgrim to visit the four
+  // great Roman basilicas, only making his official state entry on Easter
+  // Sunday (5 April) itself, the same day as the coronation and his
+  // promised departure. This is a refinement of the user's own "secretly
+  // visited ruins" framing, not a contradiction of it — kept as "entered
+  // as a pilgrim" rather than "toured ruins," since that's what the
+  // sources actually support. The legate's full name, Cardinal Pierre
+  // Bertrand de Colombier, Bishop of Ostia and Velletri, combines what two
+  // separate searches returned individually ("Pierre Bertrand" and "Pierre
+  // de Colombiers") — both refer to the same person. The Pisa incident
+  // (arrival 6 May, the fire, fleeing in nightclothes, Charles personally
+  // leading Bohemian troops to suppress it, the heavy fine, and the 26 May
+  // executions of seven ringleaders including three Gambacorta family
+  // members) is corroborated independently of the user's own account
+  // across two separate searches (one Czech-language, one English) — the
+  // "4,000 knights" retinue figure for the Rome entry could not be
+  // independently re-verified in the searches this pass allowed for, but
+  // is plausible next to the 15,000-spectator figure one source gives for
+  // the post-coronation procession, and wasn't contradicted anywhere, so
+  // it's kept as stated. The Beneš Krabice quote is the user's own,
+  // translated into EN/ZH here; the Czech stays as the chronicle's own
+  // period translation rather than being modernized. Tone kept
+  // 'humorous', this era's usual default — the Pisa suppression is real
+  // political violence but not targeted-persecution/atrocity content, so
+  // it gets the same dry register the rest of this arc's battles and
+  // purges already get, not the solemn exception.
+  {
+    slug: "crowned-in-the-eternal-city-1355",
+    era: "kingdom-golden-age",
+    startYear: 1355,
+    images: ["/history/crowned-in-the-eternal-city-1355.webp"],
+    imageCaptions: [
+      {
+        en: "The crown Charles had chased for nine years finally landed on his head, if only for one day, in a city he'd promised to leave by nightfall.",
+        cz: "Koruna, za kterou se Karel honil devět let, mu konečně dopadla na hlavu, i když jen na jediný den, ve městě, které slíbil opustit do soumraku.",
+        zh: "查理追了九年的这顶王冠，终于落在了他头上，哪怕只是一天，而且是在这座他承诺天黑前就要离开的城市里。",
+      },
+    ],
+    year: {
+      en: "1355",
+      cz: "1355",
+      zh: "1355年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Crowned in the Eternal City",
+      cz: "Korunován ve Věčném městě",
+      zh: "在永恒之城，加冕神圣罗马帝国皇帝",
+    },
+    hookLine: {
+      en: "The crown Charles had spent years chasing finally landed on his head in Rome. Getting home afterward turned out to be the harder part.",
+      cz: "Koruna, za kterou se Karel léta honil, mu konečně dopadla na hlavu v Římě. Dostat se pak domů se ukázalo být tou těžší částí.",
+      zh: "查理追了这么多年的那顶王冠，终于在罗马落到了他头上。真正难的，其实是接下来怎么活着回家。",
+    },
+    summary: {
+      en: "Charles appeared at the gates of Rome on 2 April 1355, and true to his word to Pope Innocent VI, didn't enter as a ruler. He slipped in first as an ordinary pilgrim, visiting the city's four great basilicas in relative quiet before doing anything official at all.\n\nEaster Sunday, 5 April, was different. His retinue had grown to something like four thousand knights by then, and the Romans, along with visitors who'd traveled in from every corner of the known world, met him on the fields outside the city walls in full martial dress, armed and helmeted, as if ready for a battle that was really just a welcome. A chronicler described the scene:\n\n[[quote:0]]\n\nThe rite itself took place inside St. Peter's, with Pope Innocent VI staying safely in Avignon and sending a stand-in instead: Cardinal Pierre Bertrand de Colombier, Bishop of Ostia and Velletri, anointed and crowned Charles Holy Roman Emperor, his wife Anna crowned Empress beside him. It was the first time in history a Bohemian monarch had worn that crown. A banquet followed at the Lateran Palace, and from that day on, Charles started signing himself with a number: Karolus Quartus, Charles the Fourth. True to his promise, he left Rome again before the day was out.\n\nGetting home was the part nobody had negotiated terms for. On 6 May, at Pisa, years of simmering local rivalries finally boiled over into open revolt, and someone set fire to the palace where Charles and Anna were staying. The blaze moved fast enough that the emperor and empress escaped with their lives and little else, fleeing into the night in nothing but their nightclothes. Charles personally led Bohemian troops to put the uprising down, fined the city heavily for the trouble, and on 26 May had seven of the ringleaders executed, three of them from the prominent Gambacorta family. He'd gotten his crown. Pisa made sure he didn't forget what it cost to collect it.",
+      cz: "Karel se objevil u bran Říma 2. dubna 1355, a věren svému slovu danému papeži Inocenci VI. nevstoupil do města jako vládce. Vklouzl dovnitř nejprve jako obyčejný poutník, v poměrném klidu navštívil čtyři velké římské baziliky, dřív než udělal cokoli oficiálního.\n\nVelikonoční neděle, 5. dubna, byla jiná. Jeho doprovod do té doby narostl na nějaké čtyři tisíce rytířů, a Římané spolu s návštěvníky, kteří přijeli ze všech koutů tehdy známého světa, ho na polích za hradbami přivítali v plné zbroji, ozbrojení a v přilbách, jako by se chystali na bitvu, která byla ve skutečnosti jen uvítáním. Kronikář tu scénu popsal takto:\n\n[[quote:0]]\n\nSamotný obřad proběhl uvnitř Baziliky svatého Petra; papež Inocenc VI. zůstal v bezpečí v Avignonu a místo sebe poslal zástupce: kardinál Pierre Bertrand de Colombier, biskup ostijský a velletrijský, Karla pomazal a korunoval na svatého římského císaře, jeho manželka Anna byla po jeho boku korunována císařovnou. Bylo to poprvé v historii, co tuhle korunu nosil český panovník. Následovala hostina v Lateránu, a od toho dne se Karel začal podepisovat s číslovkou: Karolus Quartus, Karel Čtvrtý. Věren svému slibu opustil Řím ještě téhož dne.\n\nDostat se domů byla část, na kterou si nikdo předem nevyjednal podmínky. 6. května v Pise se roky doutnajících místních rozporů konečně změnily v otevřenou vzpouru, a někdo zapálil palác, kde bydleli Karel s Annou. Požár postupoval tak rychle, že císař s císařovnou vyvázli životem a téměř ničím jiným, prchajíce do noci jen v nočním úboru. Karel osobně vedl české oddíly k potlačení povstání, město tvrdě pokutoval a 26. května nechal popravit sedm hlavních vůdců povstání, tři z nich z významné rodiny Gambacortů. Korunu dostal. Pisa se postarala, aby nezapomněl, co ho stálo ji získat.",
+      zh: "1355年4月2日，查理出现在罗马城门外，而他也确实信守了对教皇英诺森六世的承诺，没有以统治者的身份入城。他先是像一名普通朝圣者一样悄悄溜进城中，相对低调地参观了城里的四座大巴西利卡，然后才做任何正式的事情。\n\n复活节主日，4月5日，情况就不一样了。他的随行队伍到这时已经壮大到大约四千名骑士，罗马人以及从当时已知世界各个角落赶来的访客，都全副武装、头盔在身，在城墙外的原野上迎接他，架势像是要打一场仗，实际上只是一场欢迎。一位编年史家这样描述了当时的场景：\n\n[[quote:0]]\n\n仪式本身在圣彼得大教堂内举行；教皇英诺森六世本人安坐阿维尼翁，只派了一位代理人前来：枢机主教皮埃尔·贝特朗·德·科隆比耶，奥斯蒂亚和韦莱特里主教，为查理施涂油礼并加冕为神圣罗马帝国皇帝，他的妻子安娜也在他身旁加冕为皇后。这是历史上第一次，有波希米亚君主戴上这顶皇冠。随后，拉特兰宫举行了盛宴，从那天起，查理开始在自己的名字后面加上序数：Karolus Quartus，查理四世。信守承诺，他当天就离开了罗马。\n\n回家这一段，是没人事先谈好条件的部分。5月6日，在比萨，多年积压的地方矛盾终于演变成公开的暴动，有人放火烧了查理和安娜下榻的宫殿。火势蔓延得太快，皇帝和皇后几乎只带着一条命逃了出来，穿着睡衣就冲进了夜色里。查理亲自率领波希米亚部队镇压了这场暴动，重罚了这座城市，5月26日下令处决了七名暴动的主要头目，其中三人来自显赫的甘巴科尔塔家族。他拿到了他的王冠。比萨则让他清楚记住了，拿到这顶王冠付出的代价是什么。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "On Easter Sunday, early in the morning, Lord Charles rode out onto the fields outside the city, and there the Romans came to him, and a vast multitude of people from every corner of the world, all mounted on sturdy horses, armed and helmeted with plumes, ready as if for battle, showing their readiness to serve. Then the foremost ruler of the world rode into the city, accompanied by a great multitude of people, at the third hour of that same day, with power and splendor, and he girded countless people with knightly belts, and was anointed and crowned Emperor of the whole earthly realm, together with his wife, Lady Anna.",
+          cz: "Na velikonoční neděli časně ráno vyjel pan Karel na pole mimo město a tam k němu přišli Římané a převeliké množství lidí ze všech končin světa, všichni sedíce na silných koních, ve zbrani a v přilbách s chocholy, připraveni jako k boji, projevovali svou pohotovost k službám. Potom vjel první panovník světa provázen velkým množstvím lidu, o třetí hodině téhož dne s mocí a nádherou do města, opásal mnoho a bezpočtu lidí rytířskými pásy a byl ... pomazán a korunován za císaře veškerého okrsku zemského, společně se svou manželkou, paní Annou...",
+          zh: "复活节主日清晨，查理大人骑马来到城外的原野，罗马人以及来自世界各地的无数民众都聚到了他身边，众人骑着健壮的战马，全副武装、头盔上插着羽饰，如临战阵一般，向他表明自己随时听候差遣的决心。随后，这位世间头号君主，在同一天的第三个钟点，在浩浩荡荡的人群簇拥下，以无上的权势与荣耀进入城中，册封了数不清的骑士，并……受了涂油礼，与他的王后安娜夫人一同，被加冕为整个尘世疆域的皇帝……",
+        },
+        attribution: {
+          en: "Beneš Krabice of Weitmile, Chronicle of the Prague Church",
+          cz: "Beneš Krabice z Weitmile, Kronika kostela pražského",
+          zh: "贝内什·克拉比采·兹·魏特米莱，《布拉格教堂编年史》",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_IV,_Holy_Roman_Emperor",
+  },
+  // New event, requested by the user (title fixed by the user as "皇帝的金玺诏书";
+  // no outline given this time, researched and drafted independently). Facts
+  // verified via WebSearch (a general search on the electors/Nuremberg/Metz/
+  // papal-confirmation elimination, a second on Bohemia's specific privileges
+  // and the indivisibility/primogeniture rule) plus a WebFetch of the actual
+  // document text at germanhistorydocs.org: promulgated in two installments
+  // (23 chapters at Nuremberg, 10 Jan 1356; 8 more at Metz, 25 Dec 1356, for
+  // 31 total); seven electors fixed permanently (Mainz/Cologne/Trier
+  // spiritual, Bohemia/Palatinate/Saxony/Brandenburg secular); Frankfurt as
+  // the fixed election site with a 30-day deadline and a genuine "bread and
+  // water" coercion clause if electors fail to agree within it; a 4-of-7
+  // majority treated as unanimous; the document never mentions the Pope
+  // anywhere in its text, which is how it eliminated the old custom of
+  // papal confirmation — by omission, not by explicit repudiation, a detail
+  // worth keeping since it fits Charles's established pattern of avoiding
+  // direct confrontation elsewhere in this arc. Bohemia's specific
+  // privileges (judicial immunity, mining/minting rights, the king's seat
+  // immediately to the emperor's right at diets) are named explicitly per
+  // feedback_prague_not_czech_history's steer toward the Bohemia-specific
+  // angle over an abstract "the Empire" framing. The preamble line is a
+  // genuine primary-source quote (Golden Bull of 1356 itself), pulled per
+  // the project's standing "proactively search for one" quote convention;
+  // EN is the germanhistorydocs.org translation, CZ/ZH are this session's
+  // own translations of that English rendering (no period Czech/Chinese
+  // translation of the preamble was located) — flagged here per the same
+  // convention used for other self-translated quotes this session. No
+  // relatedLandmarks: unlike Charles's other landmark-heavy cards, the
+  // Golden Bull was drafted/promulgated at Nuremberg and Metz, not in
+  // Bohemia, and no specific Prague building's tie to the document itself
+  // could be verified this pass — left empty rather than reaching for a
+  // speculative link. Tone kept 'humorous', era default: the "bread and
+  // water" enforcement clause and the pointed non-mention of the Pope are
+  // played for the dry political comedy they are, not treated as solemn
+  // content.
+  {
+    slug: "the-golden-bull-1356",
+    era: "kingdom-golden-age",
+    startYear: 1356,
+    // The electors-scene image (2nd entry) was regenerated once (2026-08-31)
+    // after first shipping with Charles in the pre-coronation "wine-red +
+    // white ermine" design — this card is dated 1356, after the April 1355
+    // Rome coronation, so it should use the new "Emperor Charles" locked
+    // design instead (ivory/cream mantle with gold brocade embroidery,
+    // extending crowned-in-the-eternal-city-1355's own coronation
+    // illustration per the user's explicit "延续这个" direction). See
+    // CLAUDE.md's "Emperor Charles IV, post-coronation" locked-design entry
+    // for the full spec — use it, not the wine-red look, for anything set
+    // 1355 onward.
+    images: [
+      "/history/the-golden-bull-1356-document.webp",
+      "/history/the-golden-bull-1356-electors.webp",
+    ],
+    imageCaptions: [
+      {
+        en: "The golden seal that gave the document both its name and its authority.",
+        cz: "Zlatá pečeť, díky které dokument získal své jméno i svou autoritu.",
+        zh: "这枚金印，让这份文件既有了名字，也有了权威。",
+      },
+      {
+        en: "Seven votes, one rule for choosing an emperor, written down for good.",
+        cz: "Sedm hlasů, jedno pravidlo pro volbu císaře, zapsané jednou provždy.",
+        zh: "七票选出一位皇帝，规则从此白纸黑字，一劳永逸。",
+      },
+    ],
+    year: {
+      en: "1356",
+      cz: "1356",
+      zh: "1356年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Emperor's Golden Bull",
+      cz: "Císařova zlatá bula",
+      zh: "皇帝的金玺诏书",
+    },
+    hookLine: {
+      en: "Charles had spent a decade watching contested elections nearly tear the Empire apart. His answer was to write the whole process down so precisely that arguing about it would no longer be an option.",
+      cz: "Karel strávil deset let sledováním, jak sporné volby málem roztrhaly Říši na kusy. Jeho odpovědí bylo sepsat celý proces tak přesně, že by se o něm už nedalo hádat.",
+      zh: "查理花了十年时间，眼看着一次次有争议的选举，几乎把帝国撕成碎片。他的应对办法，是把整个流程写得清清楚楚，让人再也没法就此争论。",
+    },
+    summary: {
+      en: "By the time Charles finally got his imperial crown in Rome, he'd spent nearly a decade cleaning up the mess a contested election could make. His own path to the throne had run through a rival candidate, a bought-off pretender, and years of nobody quite agreeing he was the rightful king, before it was finally settled at [[link:crowned-at-aachen-1349]]Aachen[[/link]], and his family's history before that was littered with much the same thing: anti-kings, disputed successions, decades the Empire had spent without anyone entirely sure who was actually in charge. Charles's answer, worked out over the course of 1356, was to write the whole process down so precisely that arguing about it would no longer be an option.\n\nThe result, promulgated in two installments (the first twenty-three chapters issued at Nuremberg on 10 January 1356, the rest added at Metz that December), is now known as the Golden Bull, for the gold seal that authenticated it. Its own preamble set the tone for something meant to last:\n\n[[quote:0]]\n\nWhat followed was rather more practical than the preamble let on. The document fixed the number of imperial electors at exactly seven: three archbishops, Mainz, Cologne, and Trier, and four secular princes, Bohemia, the Palatinate, Saxony, and Brandenburg, no more and no fewer, ever again. Elections would happen at Frankfurt, and the electors had thirty days to decide. If they hadn't managed it by then, the enforcement mechanism was pure administrative spite: bread and water only, until they finally agreed. Once four of the seven had settled on a candidate, that counted as unanimous, no further argument entertained. And across all thirty-one chapters, the document never once mentioned the Pope. After a century of Roman confirmation being treated as a near-requirement, the silence said everything Charles didn't need to spell out.\n\nBohemia, naturally, came out of all this rather well. As King of Bohemia himself, Charles wrote his own kingdom judicial immunity from every other court in the Empire, its own right to mint coinage and claim whatever turned up in its mines, and a permanent seat immediately to the emperor's own right hand at every imperial diet. Every electoral territory, Bohemia's included, was declared indivisible from then on, passing whole to a single heir instead of splitting among sons, so that no elector's own vote could ever again be diluted by an inheritance dispute.\n\nIt made for a fairly dry read next to a crowning in Rome or a wedding in Buda, but it outlasted both by centuries. The Golden Bull remained the basic constitutional law of the Holy Roman Empire for the next four hundred and fifty years, right up until the Empire itself finally dissolved in 1806.",
+      cz: "Než Karel konečně dostal svou císařskou korunu v Římě, strávil skoro deset let uklízením nepořádku, jaký dokázaly napáchat sporné volby. Jeho vlastní cesta k trůnu vedla přes soupeřícího kandidáta, vykoupeného pretendenta a roky, kdy se nikdo pořádně neshodl, jestli je právoplatným králem, než byla nakonec stvrzena v [[link:crowned-at-aachen-1349]]Cáchách[[/link]], a historie jeho vlastní rodiny před tím byla plná téhož: protikrálové, sporná nástupnictví, desetiletí, kdy Říše neměla nikoho, o kom by si byl kdokoli úplně jistý, že v ní vlastně velí. Karlova odpověď, sepsaná v průběhu roku 1356, byla zapsat celý proces tak přesně, aby se o něm už nedalo hádat.\n\nVýsledek, vyhlášený ve dvou dávkách (prvních třiadvacet kapitol v Norimberku 10. ledna 1356, zbytek doplněný v Metách téhož prosince), se dnes nazývá Zlatá bula, podle zlaté pečeti, která ji ověřovala. Vlastní preambule nastavila tón něčemu, co mělo vydržet:\n\n[[quote:0]]\n\nCo následovalo, bylo podstatně praktičtější, než preambule napovídala. Dokument stanovil počet říšských kurfiřtů přesně na sedm: tři arcibiskupy, mohučského, kolínského a trevírského, a čtyři světská knížata, českého krále, falckraběte, saského vévodu a braniborského markraběte, nikdy víc, nikdy míň. Volby se měly konat ve Frankfurtu a kurfiřti měli na rozhodnutí třicet dní. Pokud se do té doby nedohodli, byl vynucovací mechanismus čirou administrativní zlomyslností: jen chléb a voda, dokud se konečně nedomluví. Jakmile se čtyři ze sedmi shodli na kandidátovi, počítalo se to za jednomyslné rozhodnutí, žádné další dohadování se už nepřipouštělo. A napříč všemi jednatřiceti kapitolami dokument ani jednou nezmínil papeže. Po století, kdy se římské potvrzení bralo skoro jako nutnost, mluvilo tohle mlčení samo za sebe.\n\nČechy z toho přirozeně vyšly docela dobře. Jako český král sám sobě Karel do dokumentu zapsal soudní imunitu vůči všem ostatním soudům v Říši, vlastní právo razit mince a nárokovat si cokoli, co se najde v dolech, a trvalé místo přímo po pravici císaře na každém říšském sněmu. Každé kurfiřtské území, české nevyjímaje, bylo od té chvíle prohlášeno za nedělitelné, přecházející vcelku na jediného dědice místo rozdělení mezi syny, aby se hlas žádného kurfiřta nikdy nerozmělnil dědickým sporem.\n\nVe srovnání s korunovací v Římě nebo svatbou v Budíně to byl docela suchý text, ale přežil obojí o celá staletí. Zlatá bula zůstala základním ústavním zákonem Svaté říše římské dalších čtyři sta padesát let, až do chvíle, kdy sama Říše roku 1806 definitivně zanikla.",
+      zh: "查理终于在罗马拿到皇帝的冠冕之前，已经花了差不多十年时间，收拾有争议的选举捅出来的烂摊子。他自己登上王位的这条路，走过了一位竞争对手、一个被收买打发走的觊觎者，以及好几年里没人完全认可他才是名正言顺的国王，最终才在[[link:crowned-at-aachen-1349]]亚琛[[/link]]加冕时尘埃落定，而在这之前，他自己家族的历史里，也满是同样的戏码：对立国王、有争议的继承，帝国有好几十年，压根没人能说清楚到底谁该说了算。查理的应对办法，在1356年这一年逐步成形：把整个流程写得一清二楚，让人再也没法就此争论。\n\n这份成果分两批颁布，先是1356年1月10日在纽伦堡颁布的前二十三章，剩下的部分在同年12月于梅斯补齐，如今被称为“金玺诏书”，得名于用来验证真伪的那枚金印。它自己的序言，为一份注定要传世的文件定下了基调：\n\n[[quote:0]]\n\n接下来的内容，比序言实际得多。这份文件把帝国选侯的人数永久固定在了七位：三位大主教，美因茨、科隆、特里尔，以及四位世俗诸侯，波希米亚国王、莱茵行宫伯爵、萨克森公爵、勃兰登堡藩侯，不多一个，也不少一个，从此永远如此。选举要在法兰克福举行，选侯们有三十天时间做出决定。要是到时候还没商量出结果，惩罚机制堪称一种官僚式的恶趣味：只给面包和水吃，直到他们终于达成一致为止。七票里只要有四票投给同一个人，就算作全体一致通过，不再允许任何异议。而在全部三十一章里，这份文件从头到尾一次都没提到教皇。罗马的确认曾被当成近乎硬性的要求，延续了整整一个世纪之后，这份沉默本身，已经把查理不需要明说的话，都说完了。\n\n波希米亚，自然从中捞到了不少好处。身为波希米亚国王本人，查理直接给自己的王国写进了不受帝国境内其他任何法庭管辖的司法豁免权、自行铸币和坐拥矿藏所得的权利，以及在每一次帝国议会上固定坐在皇帝右手边这个位置。从此以后，每一块选侯领地，包括波希米亚在内，都被宣布为不可分割，整块传给单一继承人，而不是在几个儿子之间拆分，这样一来，任何一位选侯自己手中的那一票，就再也不会因为继承纠纷而被稀释。\n\n比起罗马的加冕典礼，或是布达的那场婚礼，这份文件读起来干巴巴的，可它却比两者都多活了好几个世纪。金玺诏书此后一直是神圣罗马帝国的基本宪制法律，整整持续了四百五十年，直到1806年帝国本身最终解体为止。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "Almighty, eternal God, sole Hope of the world, Who dost reveal Yourself to be Shaper of the heavens and Creator of the earth, look down upon Your people!",
+          cz: "Všemohoucí, věčný Bože, jediná Naděje světa, jenž se zjevuješ jako Tvůrce nebes a Stvořitel země, shlédni na svůj lid!",
+          zh: "全能永恒的上帝啊，世界唯一的希望，您向世人显现自己是苍穹的塑造者与大地的创造者，求您垂顾您的子民！",
+        },
+        attribution: {
+          en: "Golden Bull of 1356, preamble",
+          cz: "Zlatá bula z roku 1356, preambule",
+          zh: "1356年《金玺诏书》，序言",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Golden_Bull_of_1356",
+  },
+  // New event, requested by the user (recommended after the-golden-bull-1356;
+  // title picked by the user as "The Great Bridge"/"伟大的桥"). Split out of
+  // a-building-spree-1350, which used to cover Charles Bridge in one thin
+  // sentence — see the comment above that card. Facts verified via
+  // WebSearch: the 9 July 1357, 5:31am foundation-stone story (Mars aligned
+  // with Leo, the resulting 1-3-5-7-9-7-5-3-1 palindrome) is a widely
+  // repeated legend, explicitly hedged in the prose as something modern
+  // historians doubt could really have been calculated that precisely in
+  // an age that mostly told time by the hour — the 1357 date itself is
+  // solid, the exact-minute story is the part kept as "the story that's
+  // been told" rather than asserted as fact. Also verified: architect
+  // Petr Parléř (same architect as St. Vitus Cathedral, already covered in
+  // dawn-over-prague-1344); the bridge's original plain name, Stone Bridge/
+  // Prague Bridge, not renamed "Charles Bridge" until 1870; construction
+  // dragging on to 1402, 24 years after Charles's own 1378 death and 3
+  // years after Parléř's own 1399 death. The Old Town Bridge Tower's own
+  // sculptural program (St. Vitus/Charles IV/Wenceslas IV statues, coats of
+  // arms, coronation-gate function) is described in the prose and given its
+  // own new Location card (staromestska-mostecka-vez, user-flagged gap,
+  // added the same session) rather than folded only into this card's text.
+  // No quotes: no genuine primary-source line surfaced for the foundation
+  // ceremony itself in this pass's searches. Tone kept 'humorous', era
+  // default — light architectural/legend content, not solemn material.
+  {
+    slug: "the-great-bridge-1357",
+    era: "kingdom-golden-age",
+    startYear: 1357,
+    images: ["/history/the-great-bridge-1357.webp"],
+    imageCaptions: [
+      {
+        en: "Charles let the stars pick the minute. The bridge picked its own name centuries later.",
+        cz: "Karel nechal minutu vybrat hvězdy. Jméno si most vybral sám, o staletí později.",
+        zh: "查理让星辰替他选定了那一分钟。至于这座桥自己的名字，是几百年后才定下来的。",
+      },
+    ],
+    year: {
+      en: "1357",
+      cz: "1357",
+      zh: "1357年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Great Bridge",
+      cz: "Velký most",
+      zh: "伟大的桥",
+    },
+    hookLine: {
+      en: "Charles picked the precise minute to lay the first stone by consulting the stars. He never lived to see the bridge finished, but it's still standing today.",
+      cz: "Karel si nechal přesnou minutu položení základního kamene vypočítat od hvězd. Dokončení mostu se nedožil, ale most stojí dodnes.",
+      zh: "查理请人依星象算出了奠基的精确分钟。这座桥建成那天，他已经不在人世，但它至今依然屹立。",
+    },
+    summary: {
+      en: "Crowns and charters were one kind of legacy. Charles wanted something people could actually walk across. The old [[link:judith-bridge-1170]]Judith Bridge[[/link]] had washed out in the floods of 1342, and Charles had already been rebuilding Prague for a decade as part of his wider [[link:a-building-spree-1350]]building campaign[[/link]]. But when construction on its replacement finally broke ground in 1357, he didn't pick the date casually. According to the story that's been told ever since, he had his court astrologers work out the precise moment: 9 July 1357, at 5:31 in the morning, with Mars aligned with Leo, the sign long associated with Bohemia's own kings. The date and time together formed a sequence of odd numbers climbing up and back down, 1-3-5-7-9-7-5-3-1, a perfect palindrome. Whether Charles really had something calculated that precisely, in an age that mostly told time by the hour, is something modern historians doubt. The 1357 founding itself, though, is solid, and the story has stuck for six centuries regardless.\n\nThe architect Charles put in charge, Petr Parléř, was no stranger to Charles's ambitions. He spent the rest of his career simultaneously building [[link:dawn-over-prague-1344]]St. Vitus Cathedral[[/link]] in the same city. Neither man would live to see the bridge finished: Parléř died in 1399, Charles two decades earlier, and construction dragged on until 1402, twenty-four years after Charles's own death. For most of its life, the bridge wasn't even called Charles Bridge. Its name was plain and practical, Stone Bridge, or simply Prague Bridge; the current name only caught on in 1870, more than five hundred years after the first stone went in.\n\nThe gate on the Old Town side, the Old Town Bridge Tower, was built as part of the same project, and it wasn't decoration. Every new king's coronation procession was meant to pass through its arch, so Parléř turned it into a kind of victory gate: the coats of arms of every land under Charles's rule lined the front, and higher up, a trio of statues watched over anyone who passed beneath, Saint Vitus, Bohemia's own patron, seated at the center, with Charles himself on one side and, on the other, a king who hadn't even been born yet in 1357.",
+      cz: "Koruny a listiny byly jeden druh odkazu. Karel chtěl i něco, po čem by lidé mohli doopravdy přejít. Starý [[link:judith-bridge-1170]]Juditin most[[/link]] spláchly povodně roku 1342 a Karel už deset let předtím přestavoval Prahu v rámci svého širšího [[link:a-building-spree-1350]]stavebního programu[[/link]]. Ale když roku 1357 konečně začala stavba jeho náhrady, datum si nevybral jen tak. Podle vyprávění, které se od té doby traduje, si nechal od dvorních astrologů vypočítat přesný okamžik: 9. července 1357 v 5:31 ráno, kdy měl být Mars v konjunkci se souhvězdím Lva, znamením dlouho spojovaným s českými králi. Datum a čas dohromady tvořily posloupnost lichých čísel vzestupně a pak sestupně, 1-3-5-7-9-7-5-3-1, dokonalý palindrom. Jestli si Karel opravdu nechal spočítat něco tak přesného v době, kdy se čas běžně měřil na celé hodiny, o tom moderní historici pochybují. Samotné založení v roce 1357 je ale jisté, a příběh se drží už šest století.\n\nArchitekt, kterého Karel pověřil, Petr Parléř, nebyl na Karlovy ambice žádný nováček. Zbytek kariéry strávil současně stavbou [[link:dawn-over-prague-1344]]katedrály svatého Víta[[/link]] ve stejném městě. Dokončení mostu se nedožil ani jeden z nich; Parléř zemřel roku 1399, Karel o dvacet let dřív, a stavba se táhla až do roku 1402, čtyřiadvacet let po Karlově vlastní smrti. Po většinu své existence se most navíc nejmenoval po Karlovi. Říkalo se mu prostě Kamenný most, nebo jen Pražský most; dnešní název se ujal až v roce 1870, přes pět set let po položení prvního kamene.\n\nBrána na straně Starého Města, Staroměstská mostecká věž, vznikla jako součást téhož projektu, a nebyla to jen ozdoba. Korunovační průvod každého nového krále měl projít právě jejím obloukem, takže z ní Parléř udělal jakousi vítěznou bránu: na průčelí se táhly erby všech zemí pod Karlovou vládou a výš nad nimi bděla nad každým, kdo šel dole, trojice soch, svatý Vít, český patron, uprostřed, s Karlem po jedné straně a po druhé s králem, který se v roce 1357 ještě ani nenarodil.",
+      zh: "王冠和诏书是一种留给后世的东西。查理还想留下一样能让人实实在在踏过去的东西。[[link:judith-bridge-1170]]老朱迪塔桥[[/link]]在1342年的洪水中被冲毁，而查理早在十年前，就已经在他更大规模的[[link:a-building-spree-1350]]建设计划[[/link]]框架下重建布拉格。可是1357年，新桥的建设真正破土动工时，查理选日子却一点也不随便。据流传至今的说法，他让宫廷占星师算出了一个精确的时刻：1357年7月9日凌晨5点31分，此时火星恰与长期被视为波希米亚国王象征的狮子座相合。这串日期加时间，恰好组成一串先升后降的奇数序列——1-3-5-7-9-7-5-3-1，一个完美的回文。查理是否真的在那个通常只按整点报时的年代，算出过这么精确的一个时刻，现代史学家其实持怀疑态度。但1357年这个奠基年份本身确凿无疑，这个故事也照样流传了整整六个世纪。\n\n查理指派的建筑师彼得·帕尔勒日，对查理的这份野心并不陌生。他后来的职业生涯里，同时还在同一座城市建造[[link:dawn-over-prague-1344]]圣维特大教堂[[/link]]。这座桥建成那天，两人都已不在人世：帕尔勒日死于1399年，查理更早了他二十年，工程一直拖到1402年才完工，比查理本人去世晚了整整二十四年。而且这座桥大部分时间里，压根不叫“查理大桥”。它的名字朴素得很，就叫“石桥”，或者干脆叫“布拉格桥”；如今这个名字，要到1870年才真正流行开来，距离第一块石头落地，已经过去了五百多年。\n\n老城一侧的桥头堡，旧城桥塔，是同一个工程的一部分，而且绝不只是装饰。历代新王的加冕游行都要从这座拱门下经过，于是帕尔勒日索性把它造成了一座凯旋门：正面一字排开的是查理治下所有领地的纹章，再往上，三尊雕像俯瞰着每一个从下面走过的人，波希米亚的守护圣人圣维特居中，一侧是查理本人，另一侧，则是1357年这一年还压根没有出生的一位国王。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "charles-bridge",
+        relation: {
+          en: "The bridge itself, its construction supposedly timed down to the minute by Charles's own court astrologers.",
+          cz: "Samotný most, jehož stavbu prý Karlovi dvorní astrologové načasovali na minutu přesně.",
+          zh: "这座桥本身——据说连动工的分钟都是查理的宫廷占星师精确算出来的。",
+        },
+      },
+      {
+        slug: "staromestska-mostecka-vez",
+        relation: {
+          en: "The bridge's own ceremonial gatehouse, built the same year, covered in enough statues and symbolism to tell the whole story on its own.",
+          cz: "Slavnostní brána téhož mostu, postavená téhož roku, pokrytá tolika sochami a symboly, že by sama vydala na celý příběh.",
+          zh: "这座桥自己的礼仪门楼，同一年动工，身上雕满了雕像和象征符号，多到几乎能自己讲完整个故事。",
+        },
+      },
+      {
+        slug: "monument-to-charles-iv-1783353104539",
+        relation: {
+          en: "A much later tribute, unveiled in 1849 practically at the bridge's own Old Town entrance, though it actually honors Charles's university rather than his bridge.",
+          cz: "Mnohem pozdější pocta, odhalená roku 1849 prakticky u staroměstského vstupu na most, i když ve skutečnosti oslavuje spíš Karlovu univerzitu než jeho most.",
+          zh: "一份晚了整整五百年才立起来的致敬，1849年揭幕，几乎就立在大桥老城一侧的入口处，不过它纪念的其实是查理创办的大学，而不是这座桥本身。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_Bridge",
+  },
+  // New event, requested by the user (title given as "反对教会"/"Against the
+  // Church", full outline dictated). Independently corroborated via
+  // WebFetch of cs.wikipedia.org/wiki/Karel_IV.'s own "Vystoupení proti
+  // církvi" section — the user's outline is essentially a close paraphrase
+  // of that section, confirmed near-verbatim: the March 1359 Mainz diet
+  // speech, the confiscate-and-transfer-to-secular-princes threat, the
+  // "Karel IV. tak jako první vyslovil jeden z požadavků pozdějšího
+  // reformního hnutí" (Charles as first to voice a demand of the later
+  // reform movement) framing, the Pope's protest, secular princes
+  // misreading the threat as license to seize church property, and the
+  // October 1359 corrective order. Two WebSearch passes (English and
+  // German-language terms) for a genuine primary-source quote from the
+  // actual March 1359 speech turned up nothing quotable, so this card
+  // carries no quotes[] entry, per the project's "don't force a weak one"
+  // convention. No relatedLandmarks: the events described happen at the
+  // Mainz diet, not in Bohemia/Prague, and no Prague-specific tie surfaced.
+  // Tone kept 'humorous', era default — the irony of Charles's own threat
+  // spiraling out of his control within seven months is played for dry
+  // political comedy, not treated as solemn content.
+  {
+    slug: "against-the-church-1359",
+    era: "kingdom-golden-age",
+    startYear: 1359,
+    images: ["/history/against-the-church-1359.webp"],
+    imageCaptions: [
+      {
+        en: "Charles wanted to sound like a reformer. His own princes heard a green light instead.",
+        cz: "Karel chtěl znít jako reformátor. Jeho vlastní knížata v tom slyšela spíš zelenou.",
+        zh: "查理本想听起来像个改革者，他自己的诸侯，听出来的却是一句“放行令”。",
+      },
+    ],
+    year: {
+      en: "1359",
+      cz: "1359",
+      zh: "1359年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Warning to the Church That Backfired",
+      cz: "Varování církvi, které se vymklo z rukou",
+      zh: "一句对教会的警告，没想到酿成大祸",
+    },
+    hookLine: {
+      en: "Charles told the Church to clean up its own clergy or lose their money to secular princes instead. It took him seven months to walk the threat back.",
+      cz: "Karel řekl církvi, ať si uklidí vlastní duchovenstvo, jinak přijde o peníze ve prospěch světských knížat. Trvalo mu sedm měsíců, než tu hrozbu musel odvolat.",
+      zh: "查理对教会撂下狠话：要么自己清理门户，要么钱财就归世俗诸侯所有。结果这句狠话花了他七个月才收回。",
+    },
+    summary: {
+      en: "By the late 1350s, Western Europe, France most of all, was in genuine crisis: rising crime, widespread unrest, fraying morals, and a Church that had become something of a scandal in its own right. The mood didn't stay in France. It spread across the Empire too, and Charles, well aware of how serious the problem had gotten, decided to say something about it.\n\nIn March 1359, at the imperial diet in Mainz, he delivered a blunt challenge to the Church's own leadership: rein in the clergy's decaying morals, or face the consequences. Any offender's property and income, Charles warned, would be confiscated and handed straight to the secular princes instead. It was a demand that would resurface with far more force two centuries later, once the actual Reformation got underway. Charles just happened to say it first.\n\nThe Pope was not amused. He protested the emperor's interference and asked him, in essence, to stay out of Church business.\n\nThe bigger problem came from Charles's own side of the argument. Several secular rulers inside the Empire heard \"confiscate church property\" and took it as an invitation rather than a warning, and moved to start seizing Church holdings themselves. The resulting uproar forced Charles to walk his own threat back: by October 1359, he was issuing orders telling the very princes he'd been egging on to stand down. He'd wanted to sound like a reformer. What he actually got was an early, much smaller preview of how badly this particular fight over Church property could spiral once real money was on the line.",
+      cz: "Koncem 50. let 14. století procházela západní Evropa, především Francie, opravdovou krizí: rostla kriminalita, šířila se všeobecná nejistota, mravy chátraly a církev se sama stávala jedním velkým skandálem. Tahle nálada nezůstala jen ve Francii. Rozšířila se i po Říši, a Karel, dobře si vědom, jak vážně se věci mají, se rozhodl k ní promluvit.\n\nV březnu 1359, na říšském sněmu v Mohuči, vznesl na církevní představené přímou výzvu: ať zarazí úpadkové mravy v řadách duchovenstva, jinak ponesou následky. Majetek a příjmy každého provinilce, varoval Karel, budou zabaveny a předány rovnou světským knížatům. Byl to požadavek, který se s mnohem větší silou vrátil o dvě staletí později, když se skutečná reformace teprve rozjížděla. Karel ho jen náhodou vyslovil jako první.\n\nPapeže to nepobavilo. Ohradil se proti císařovu zasahování a v podstatě ho požádal, aby se do církevních záležitostí nepletl.\n\nVětší potíž ale přišla z Karlovy vlastní strany sporu. Několik světských panovníků v Říši slyšelo „zabavit církevní majetek“ a pochopilo to spíš jako pozvánku než jako varování, a pustili se do zabírání církevního majetku sami. Výsledný rozruch přinutil Karla vlastní hrozbu odvolat: do října 1359 už vydával rozkazy, které měly zastavit ty samé knížata, které předtím sám popíchl. Chtěl vypadat jako reformátor. Co ve skutečnosti dostal, byla malá, raná ukázka toho, jak zle se tenhle konkrétní spor o církevní majetek dokáže zvrhnout, jakmile jde do hry skutečné jmění.",
+      zh: "到14世纪50年代末，西欧，尤其是法国，正陷入一场实实在在的危机：犯罪率上升，社会普遍动荡不安，道德日渐沦丧，教会本身也丑闻缠身。这股情绪并没有留在法国境内，很快也蔓延到了帝国各地。查理很清楚事态有多严重，于是决定站出来说点什么。\n\n1359年3月，在美因茨帝国议会上，他向教会高层发出了一句直白的挑战：要么自己遏制神职人员日渐堕落的生活方式，要么后果自负。查理警告说，任何违规者的财产和收入，都将被没收，直接转给世俗诸侯。这项诉求，两个世纪后随着真正的宗教改革运动展开，会以更大的声势卷土重来。查理只是碰巧第一个把它说了出来。\n\n教皇对此可不买账，他抗议皇帝插手教会事务，说白了就是请查理别管这摊子事。\n\n真正的麻烦，其实来自查理自己这一边。帝国境内的几位世俗统治者，一听“没收教会财产”，理解成的不是警告，而是许可，于是动手开始自行没收教会的产业。由此引发的轩然大波，逼得查理不得不收回自己撂下的狠话：到1359年10月，他已经在下令，要求自己先前撺掇过的这些诸侯赶紧收手。他本想让自己听起来像个改革者，结果得到的，是这场教会财产之争日后能闹到多凶的一次提前预演，规模小得多，但方向分毫不差。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Karel_IV.",
+  },
+  // New event, requested by the user (title given as "老来得子"; brief
+  // outline: Wenceslaus's birth and Charles finally getting a surviving
+  // heir). Facts verified via WebSearch/WebFetch: birth 26 Feb 1361 in
+  // Nuremberg to Anna of Świdnica (Charles's third wife, already covered in
+  // a-second-widower-1350), the recorded birth time (9am, still used for
+  // modern horoscope reconstructions per astro.com); confirmed via
+  // en.wikipedia.org that the boy was crowned King of Bohemia 15 June 1363
+  // at age 2 (St. Vitus Cathedral). The card originally closed on an
+  // unspoiled forward-hook to Wenceslaus's later 1376 King-of-the-Romans
+  // election — cut at the user's request as too spoiler-y and replaced with
+  // three more immediate 1361-62 beats instead (all confirmed via WebFetch
+  // of cs.wikipedia's Václav IV. article, near-verbatim to the user's own
+  // supplied text): the June 1361 Hohenzollern betrothal agreement (with
+  // its sibling-inheritance clause), Charles confirming state documents
+  // under his infant son's own name/seal from August 1361, and Anna of
+  // Świdnica's death in childbirth on 11 July [1362], alongside the
+  // newborn brother, when Wenceslaus was 16 months old — closing on a wry
+  // aside (per the user's explicit request) about Charles now being a
+  // three-time widower, deliberately callable back to the "fortunate star"
+  // quote earlier in this same card. The two proclamation quotes, the "born under a fortunate star" letter to
+  // Europe's rulers ([[quote:0]]) and the "Máme syna, jásejte..."
+  // declaration to his own Bohemian subjects ([[quote:1]]), both verified
+  // via WebFetch of stavitele-katedral.cz's own dedicated Karel IV
+  // biography series (already an established source for this project, per
+  // an-alliance-with-france-1337/the-prince-who-came-to-put-out-the-fire's
+  // own sourcing notes). The rulers' letter was originally drafted as a
+  // prose paraphrase, then upgraded to its own full quotes[] entry once the
+  // user supplied the complete Czech text with its own citation footnote —
+  // EN/ZH are this session's own translations of the Czech original, which
+  // is kept verbatim in both quotes. Also verified there: the 11
+  // April 1361 christening at Nuremberg's St. Sebald church, presided over
+  // by Arnošt of Pardubice (already an established figure/locked design
+  // from dawn-over-prague-1344), five of the Empire's other six electors
+  // attending, eight days of feasting, and the family's 16 May 1361 return
+  // to Prague. The 15 June 1363 coronation falling on the actual feast day
+  // of St. Vitus himself is a genuine, verified coincidence, not
+  // embellishment. Added at the user's request: the Nuremberg diet's own
+  // purpose (settling Charles's long-running dispute with Rudolf IV of
+  // Habsburg) is independently confirmed (cs.wikipedia's Václav IV. and
+  // Karel IV. articles both corroborate it, diet opened 20 Feb 1361, birth
+  // came 6 days in). The specific staging detail the user supplied, that
+  // Anna walked into the council hall herself mid-session to deliver the
+  // news, could NOT be independently corroborated after three search/
+  // WebFetch passes (cs.wikipedia's Václav IV./Anna Svídnická articles and
+  // stavitele-katedral.cz's own dedicated biography all confirm only that
+  // she gave birth in a chamber of Nuremberg's imperial castle, with no
+  // mention of her going to the council hall or the diet still being in
+  // session) — kept in per the user's explicit instruction, hedged as "so
+  // the story goes" in all three languages rather than stated as fact.
+  // Tone kept 'humorous' despite the earlier infant-death
+  // backdrop already covered in a-second-widower-1350 — this card's own
+  // thrust is a long-awaited "finally" story with a wry closer about
+  // Charles's own impatience, not solemn content.
+  {
+    slug: "a-son-at-last-1361",
+    era: "kingdom-golden-age",
+    startYear: 1361,
+    images: ["/history/a-son-at-last-1361.webp"],
+    imageCaptions: [
+      {
+        en: "Twenty years and three marriages of waiting, and it finally came down to one small, wailing bundle.",
+        cz: "Dvacet let a tři manželství čekání, a nakonec to celé záviselo na jednom malém, křičícím uzlíčku.",
+        zh: "等了二十年、结了三次婚，最后一切都归结成怀里这个哭闹的小小襁褓。",
+      },
+    ],
+    year: {
+      en: "1361",
+      cz: "1361",
+      zh: "1361年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Son at Last",
+      cz: "Konečně syn",
+      zh: "老来得子",
+    },
+    hookLine: {
+      en: "Charles had spent two decades and three marriages waiting for a son who would actually survive. At forty-four, he finally got one, and wasted no time locking in the succession.",
+      cz: "Karel čekal dvacet let a tři manželství na syna, který by se skutečně dožil dospělosti. Ve čtyřiačtyřiceti ho konečně dostal a neztrácel čas se zajištěním nástupnictví.",
+      zh: "查理等了二十年、结了三次婚，才终于盼来一个能真正活下来的儿子。四十四岁这一年，他终于等到了，而且一刻也没耽搁，立刻着手把继承问题锁死。",
+    },
+    summary: {
+      en: "Eight years into his marriage to [[link:a-second-widower-1350]]Anna of Świdnica[[/link]], Charles still didn't have what he actually needed. Anna had given him a daughter, Elisabeth, in 1358, but the one thing Charles had spent his entire adult life negotiating treaties and marriages around, a son who'd actually live long enough to inherit any of it, kept not happening. He already knew exactly how badly that could go: his first son, also named Wenceslaus, had died in infancy back in 1351, three weeks short of his second birthday.\n\nThat February, Charles was in Nuremberg holding an imperial diet meant to settle a long-running dispute with Rudolf IV of Habsburg. The session hadn't even wrapped up yet on 26 February when Anna, so the story goes, walked into the council hall herself to deliver the actual news: she'd just given birth to a healthy boy. Charles wasted no time telling everyone else who mattered. To Europe's other rulers went a letter that suited a man who'd already had his own bridge's foundation stone timed by astrologers:\n\n[[quote:0]]\n\nTo his own subjects back home, the message was blunter and considerably more relieved:\n\n[[quote:1]]\n\nHe named the boy Wenceslaus, the same name his dead half-brother had carried. This time, it stuck to a life long enough to matter.\n\nThe christening followed on 11 April at Nuremberg's St. Sebald church, presided over by none other than [[link:dawn-over-prague-1344]]Arnošt of Pardubice[[/link]], Prague's own archbishop, with five of the Empire's other six electors in attendance and eight straight days of feasting and tournaments to mark the occasion. By 16 May, Charles had brought his wife and infant son home to Prague. He wasn't about to leave anything to chance a second time, either: barely two years later, on 15 June 1363, fittingly the feast day of Saint Vitus himself, Charles had his own toddler, not yet steady on his feet, crowned King of Bohemia in the cathedral that bore the saint's name.\n\nThat June, Charles struck a deal with Frederick V of Hohenzollern, Burgrave of Nuremberg: a future marriage between Wenceslaus and Frederick's own daughter, Elisabeth. The wedding itself was to happen within ten years, and if either child died before then, a surviving sibling on either side would simply inherit the betrothal instead. Starting that August, Charles began confirming genuine political documents in his infant son's own name and with his own personal seal, months-old baby or not.\n\nThe good fortune didn't last. On 11 July, when Wenceslaus was just sixteen months old, his twenty-three-year-old mother died giving birth to his younger brother, who died alongside her. Charles was now a three-time widower, not yet fifty. Whatever good fortune those stars had promised at his son's birth, they'd clearly said nothing about the women who kept marrying him.",
+      cz: "Osm let po svatbě s [[link:a-second-widower-1350]]Annou Svídnickou[[/link]] Karel pořád neměl to, co doopravdy potřeboval. Anna mu v roce 1358 porodila dceru Alžbětu, ale to jediné, kolem čeho Karel celý svůj dospělý život vyjednával smlouvy a sňatky, syna, který by se skutečně dožil toho, aby něco z toho zdědil, se pořád nedělo. Přesně věděl, jak zle to může dopadnout: jeho první syn, rovněž pojmenovaný Václav, zemřel v kojeneckém věku už v roce 1351, tři týdny před svými druhými narozeninami.\n\nToho února pobýval Karel v Norimberku kvůli říšskému sněmu, svolanému, aby urovnal dlouhotrvající spor s Rudolfem IV. Habsburským. Jednání ještě ani nebylo u konce, když 26. února Anna, jak se traduje, sama vešla do sněmovní síně, aby mu oznámila tu skutečnou novinu: právě porodila zdravého chlapce. Karel neztrácel čas a hned to oznámil všem ostatním, na kterých záleželo. Ostatním evropským panovníkům poslal dopis, který sedí muži, jenž si už jednou nechal od astrologů vypočítat i okamžik položení základního kamene vlastního mostu:\n\n[[quote:0]]\n\nSvým vlastním poddaným doma poslal zprávu mnohem přímočařejší a znatelně ulevenou:\n\n[[quote:1]]\n\nChlapce pojmenoval Václav, stejným jménem, jaké nesl jeho zemřelý nevlastní bratr. Tentokrát to jméno vydrželo dost dlouho na to, aby na tom záleželo.\n\nKřest následoval 11. dubna v norimberském kostele svatého Sebalda, a vedl ho nikdo jiný než [[link:dawn-over-prague-1344]]Arnošt z Pardubic[[/link]], pražský arcibiskup, za přítomnosti pěti z ostatních šesti říšských kurfiřtů a osmi dnů nepřetržitých hostin a turnajů na oslavu té chvíle. Do 16. května přivezl Karel manželku i malého syna domů do Prahy. Ani podruhé nechtěl nic nechávat náhodě: sotva o dva roky později, 15. června 1363, příhodně na svátek samotného svatého Víta, nechal Karel své vlastní batole, které se ještě pořádně nedrželo na nohou, korunovat českým králem v katedrále, která nesla světcovo jméno.\n\nToho června uzavřel Karel dohodu s norimberským purkrabím Fridrichem V. Hohenzollernským: budoucí sňatek mezi Václavem a Fridrichovou vlastní dcerou Alžbětou. Samotná svatba se měla konat do deseti let, a kdyby některé z dětí do té doby zemřelo, zaskočil by prostě přeživší sourozenec na kterékoli straně. Od srpna téhož roku začal Karel potvrzovat skutečné politické listiny jménem a osobní pečetí svého ještě kojeneckého syna.\n\nŠtěstí ale netrvalo dlouho. 11. července, když bylo Václavovi teprve šestnáct měsíců, zemřela jeho třiadvacetiletá matka při porodu jeho mladšího bratra, který zemřel spolu s ní. Karel byl teď třikrát vdovcem, a ještě mu nebylo ani padesát. Ať už mu ty šťastné hvězdy při synově narození slíbily cokoli, o ženách, které si ho braly za muže, zjevně mlčely.",
+      zh: "自从和[[link:a-second-widower-1350]]安娜·斯维德尼茨卡[[/link]]结婚，已经过去了八年，查理却依然没有等到他真正需要的东西。安娜在1358年为他生了一个女儿伊丽莎白，可查理这大半辈子东奔西走、谈判缔约、安排联姻，为的那件事，一个能真正活下来、继承这一切的儿子，却迟迟没有着落。他太清楚这事能糟到什么地步：他的第一个儿子，同样取名瓦茨拉夫，早在1351年就夭折了，离两岁生日还差三个星期。\n\n那年2月，查理正在纽伦堡主持一场帝国议会，为的是解决和哈布斯堡的鲁道夫四世之间旷日持久的争端。2月26日，会议还没开完，据说安娜就亲自走进了议会厅，告诉他这条真正的大消息：她刚刚生下了一个健康的男孩。查理一刻也没耽搁，立刻把这个消息告诉了所有其他需要知道的人。他给欧洲其他君主写去了一封信，这封信的口吻，倒也很符合一个曾经专门请占星师算准自己那座桥奠基时辰的人：\n\n[[quote:0]]\n\n而对国内的臣民，他的措辞则直白得多，也明显松了一口气：\n\n[[quote:1]]\n\n他给这个孩子依然取名瓦茨拉夫，和那位早夭的异母兄长同一个名字。这一次，这个名字总算跟着一条足够长的命活了下去。\n\n受洗仪式紧接着在4月11日于纽伦堡的圣塞巴尔德教堂举行，主持仪式的不是别人，正是[[link:dawn-over-prague-1344]]布拉格大主教阿尔诺什特·冯·帕尔杜比采[[/link]]，帝国另外六位选侯里有五位到场，庆典连着办了整整八天的宴会和比武。到5月16日，查理已经带着妻子和这个婴儿回到了布拉格。这一次，他同样不打算把任何事交给运气：仅仅过了两年，1363年6月15日，恰好是圣维特本人的瞻礼日，查理就让自己那个走路都还不稳当的幼子，在这座以圣维特之名命名的大教堂里，加冕为波希米亚国王。\n\n就在那年6月，查理和纽伦堡伯爵霍亨索伦的腓特烈五世达成了一项协议：瓦茨拉夫和腓特烈的女儿伊丽莎白，日后要结为夫妻。婚事本身要在十年之内完成，要是其中一个孩子在那之前夭折了，另一边活下来的兄弟姐妹，就直接顶上继承这桩婚约。从同一年8月起，查理开始以这个还在襁褓中的儿子的名义、用他自己的私印，去确认一些真正重要的政治文件。\n\n好运气没能持续多久。7月11日，瓦茨拉夫才十六个月大的时候，他二十三岁的母亲，就在生下他弟弟时去世了，弟弟也跟着一起夭折。查理这下成了三次丧偶的鳏夫，而他甚至还不到五十岁。不管那些吉星在儿子出生时向他许诺过什么，显然对嫁给他的这些女人只字未提，查理这个人，多少是有点“克妻”的。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "With pleasure we make you permanent partakers of our joy, announcing to you that we have received from our dearest wife a son, born under the sign of a fortunate star. Rejoice, then!",
+          cz: "S potěšením vás činíme trvalými účastníky naší radosti oznamujíce vám, že jsme dostali od naší nejdražší manželky syna, zrozeného ve znamení šťastné hvězdy. Radujte se tedy!",
+          zh: "我们欣然让诸位永远分享我们的喜悦，特此告知：我们的爱妻为我们诞下一子，生于吉星高照之时。诸位，欢庆吧！",
+        },
+        attribution: {
+          en: "Charles IV, letter to Europe's rulers, 1361",
+          cz: "Karel IV., dopis evropským panovníkům, 1361",
+          zh: "查理四世，1361年致欧洲各国君主的信",
+        },
+      },
+      {
+        text: {
+          en: "We have a son. Rejoice, my faithful and beloved subjects! It frees you from the fear of seeing our royal line die out and the kingdom thrown into ruin.",
+          cz: "Máme syna, jásejte, věrní milí! Zbavuje vás obavy, že byste viděli náš královský kmen odumřelý a tím království uvedené v rozvrat.",
+          zh: "我们有了一个儿子。欢庆吧，我忠诚而亲爱的臣民！你们再也不必担心看到我们的王室血脉断绝、王国因此陷入混乱了。",
+        },
+        attribution: {
+          en: "Charles IV, proclamation to his Bohemian subjects, 1361",
+          cz: "Karel IV., provolání k českým poddaným, 1361",
+          zh: "查理四世，1361年致波希米亚臣民的诏书",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Where Charles had his two-year-old son crowned King of Bohemia, unwilling to wait a moment longer than he had to.",
+          cz: "Místo, kde Karel nechal svého dvouletého syna korunovat českým králem, protože už nechtěl čekat o chvíli déle, než musel.",
+          zh: "查理让自己两岁的儿子在这里加冕为波希米亚国王，他一刻都不愿意多等。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Wenceslaus_IV_of_Bohemia",
   },
 ];
 
