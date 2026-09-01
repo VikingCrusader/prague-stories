@@ -8588,7 +8588,7 @@ export const historyEvents = [
     summary: {
       en: "Charles came home from Paris in early 1378 [[link:three-kings-1378]]with less than a year left to live[[/link]], worn out by decades of exactly the kind of travel, treaty-making, and dynasty-building this whole reign had been built on. He'd spent that reign doing what almost no medieval ruler managed: writing down the rules of his own succession in advance, in enough detail that nobody would have to guess what came next. [[link:the-golden-bull-1356]]The law governing how an emperor got chosen[[/link]] was his own. The son who'd inherit that title had already worn two crowns for two years. There wasn't much left to arrange. So Charles arranged it anyway, down to the last detail, the way he'd arranged almost everything else.\n\nOn the evening of 29 November 1378, three hours after sunset, Charles died in Prague, most likely of pneumonia. He'd asked to be buried simply, in a Franciscan friar's habit rather than the ivory-and-gold ceremonial robes he'd worn through four decades of coronations, and his wish was kept. His body lay in state for eleven days while psalms were sung in every church in the city. The funeral procession that finally carried him to [[link:dawn-over-prague-1344]]St. Vitus Cathedral[[/link]] on 15 December ran some seven thousand people deep, including roughly five hundred Prague burghers dressed in black and carrying candles. He was buried before the high altar after an all-night vigil. At the funeral, a Czech theologian named Vojtěch Raňkův of Ježov, the only Czech ever to serve as rector of the Sorbonne, called the dead emperor by a title no one had used for him before: Father of the Fatherland.\n\nHis son didn't have to fight for anything. Wenceslas had already been [[link:a-son-at-last-1361]]King of Bohemia[[/link]] since he was a toddler and [[link:crowned-while-his-father-watched-1376]]King of the Romans[[/link]] since he was fifteen. When Charles died, both titles simply continued, no election, no rival claimant, no city refusing to open its gates. It was the exact opposite of Charles's own [[link:the-crown-nobody-recognized-1346]]first crown[[/link]], won at seventeen and not fully recognized for three more years. The rest of the family got smaller pieces: Sigismund kept Brandenburg, the youngest son John received a newly created duchy in Upper Lusatia, and Moravia went to a pair of cousins. Wenceslas got the two titles that mattered most, and got them without having to ask anyone's permission.\n\nOne thing Charles didn't live to see resolved was the very institution he'd spent so much of his reign trying to anchor in one place. Just over two months before his death, a group of cardinals unhappy with the newly elected Pope Urban VI gathered at Fondi and chose a rival of their own, Clement VII, who set up a second papal court back in the city Charles had worked so hard to pull the papacy out of. Christendom now had two popes at once, each one calling the other illegitimate. Charles never had to decide which one to recognize. His son would inherit that question too, along with everything else.\n\nCharles's death didn't just end a reign. It ended the age historians would later call golden, the one this whole chapter has followed since 1346. What waited for Bohemia now, nobody in the room that December could yet say.",
       cz: "Karel se na začátku roku 1378 vrátil z Paříže [[link:three-kings-1378]]s necelým rokem života před sebou[[/link]], vyčerpaný desetiletími přesně takového cestování, vyjednávání smluv a budování dynastie, na kterých celá tahle vláda stála. Většinu té vlády strávil tím, co se nepodařilo skoro žádnému středověkému panovníkovi: sepsal pravidla vlastního nástupnictví předem, a to natolik podrobně, že nikdo nemusel hádat, co bude dál. [[link:the-golden-bull-1356]]Zákon určující, jak se má volit císař[[/link]], byl jeho vlastní. Syn, který měl ten titul zdědit, nosil už dva roky rovnou dvě koruny. Nezbývalo toho už moc, co by se dalo zařídit. Karel to tedy zařídil stejně, do posledního detailu, jako skoro všechno ostatní.\n\nVečer 29. listopadu 1378, tři hodiny po západu slunce, Karel v Praze zemřel, nejspíš na zápal plic. Přál si prostý pohřeb, v hábitu františkánského mnicha místo slonovinově zlatého ceremoniálního roucha, ve kterém prošel čtyřmi desetiletími korunovací, a jeho přání bylo splněno. Tělo bylo vystaveno jedenáct dní, zatímco se ve všech pražských kostelích zpívaly žalmy. Pohřební průvod, který ho 15. prosince konečně donesl do [[link:dawn-over-prague-1344]]katedrály svatého Víta[[/link]], čítal na sedm tisíc lidí, mezi nimi zhruba pět set pražských měšťanů oblečených v černém, se svícemi v rukou. Po celonoční vigilii byl pohřben před hlavním oltářem. Na pohřbu ho český teolog Vojtěch Raňkův z Ježova, jediný Čech, který kdy zastával úřad rektora Sorbonny, nazval titulem, který na něj do té doby nikdo nepoužil: otec vlasti.\n\nJeho syn nemusel o nic bojovat. Václav byl už od útlého dětství [[link:a-son-at-last-1361]]českým králem[[/link]] a od patnácti let [[link:crowned-while-his-father-watched-1376]]římským králem[[/link]]. Když Karel zemřel, oba tituly prostě pokračovaly dál, žádná volba, žádný soupeřící uchazeč, žádné město odmítající otevřít brány. Byl to přesný opak Karlovy vlastní [[link:the-crown-nobody-recognized-1346]]první koruny[[/link]], vydobyté v sedmnácti letech a plně uznané až o tři roky později. Zbytek rodiny dostal menší podíly: Zikmund si podržel Braniborsko, nejmladší syn Jan dostal nově vytvořené vévodství v Horní Lužici a Morava připadla dvojici bratranců. Václav získal oba tituly, na kterých nejvíc záleželo, a získal je, aniž by musel kohokoli žádat o svolení.\n\nJedna věc, kterou se Karel nedožil vyřešené, byla přímo ta instituce, kterou se po většinu své vlády snažil ukotvit na jednom místě. Něco přes dva měsíce před svou smrtí se skupina kardinálů, nespokojených s nově zvoleným papežem Urbanem VI., sešla ve Fondi a zvolila si vlastního protipapeže, Klementa VII., který zřídil druhý papežský dvůr zpátky v tom městě, ze kterého se ho Karel tak usilovně snažil vymanit. Křesťanstvo mělo teď najednou dva papeže, každý druhého prohlašoval za neoprávněného. Karel se nikdy nemusel rozhodnout, kterého z nich uznat. Tuhle otázku po něm zdědil, spolu se vším ostatním, i jeho syn.\n\nKarlova smrt neukončila jen jednu vládu. Ukončila věk, kterému historikové později začali říkat zlatý, ten, který tahle kapitola sleduje od roku 1346. Co teď Čechy čekalo, to v prosinci 1378 ještě nikdo v místnosti nedokázal říct.",
-      zh: "1378年初，查理从巴黎回来，[[link:three-kings-1378]]此时距离他生命的尽头已经不到一年[[/link]]，几十年这样的奔波、缔约、经营王朝，早已耗尽了他的精力——而这整个统治生涯，恰恰就是靠着这些搭起来的。他花了大半辈子做了一件几乎没有哪位中世纪君主真正做成过的事：提前把自己的继承规则写得清清楚楚，细到没人需要再去猜接下来会发生什么。[[link:the-golden-bull-1356]]规定皇帝该如何选出的那部法律[[/link]]，就是他自己写的。那位将要继承皇位的儿子，此时已经身兼两顶王冠两年了。已经没什么可安排的了。可查理还是照样安排了一遍，事无巨细，跟他这辈子安排别的事情一模一样。\n\n1378年11月29日晚，日落三小时后，查理在布拉格去世，很可能死于肺炎。他生前曾要求葬礼从简，穿一件方济各会修士的粗布会服下葬，而不是他四十年加冕生涯里穿惯了的那身象牙金袍，这个愿望后来也真的被遵照执行。遗体停灵十一天，布拉格城内所有教堂都在为他吟唱圣咏。12月15日，送葬队伍终于把他送进了[[link:dawn-over-prague-1344]]圣维特大教堂[[/link]]，队伍长达约七千人，其中大约五百名布拉格市民身穿黑衣、手持蜡烛。经过一整夜的守灵后，他被安葬在了主祭坛前。葬礼上，一位名叫维捷赫·拉尼库夫·冯·耶若夫的捷克神学家——史上唯一一位担任过巴黎索邦大学校长的捷克人——用一个此前从没人用过的称号称呼这位已故的皇帝：祖国之父。\n\n他的儿子什么都不用去争。瓦茨拉夫从幼年起就已经是[[link:a-son-at-last-1361]]波希米亚国王[[/link]]，十五岁起又成了[[link:crowned-while-his-father-watched-1376]]罗马人的国王[[/link]]。查理一去世，这两个头衔就直接延续了下去，没有选举，没有对立候选人，也没有哪座城市拒绝打开城门。这跟查理自己当年那顶[[link:the-crown-nobody-recognized-1346]]十七岁赢来的王冠[[/link]]——足足过了三年才算真正被完全承认——恰恰是两个极端。家族里其他人分到的都是小块：西吉斯蒙德保住了勃兰登堡，最小的儿子约翰得到了一个新设立的上卢萨蒂亚公国，摩拉维亚则分给了两位堂兄弟。瓦茨拉夫拿到的，是那两个最要紧的头衔，而且拿的时候，不需要征求任何人的同意。\n\n有一件事，查理没能活着看到它了结——恰恰是他统治生涯里花了大量心力想要把它固定在一个地方的那个机构本身。就在他去世前两个多月，一批对新当选的教皇乌尔班六世不满的枢机主教，聚集在丰迪，另立了自己的对立教皇克雷芒七世，重新在那座查理曾经费尽心力把教廷拉出来的城市，也就是阿维尼翁，设立了第二个教廷。基督教世界一下子有了两位教皇，彼此都指责对方名不正言不顺。查理终究没有必要去做选边站的决定。这个问题，连同其他一切，都留给了他的儿子去继承。\n\n查理的死，结束的不只是一段统治。它结束了后来的史学家称之为\"黄金时代\"的这段岁月——也就是这整章从1346年起一路跟随的这段岁月。波希米亚接下来将迎来什么，1378年12月，站在那个房间里的人，谁也说不清楚。",
+      zh: "1378年初，查理从巴黎回来，[[link:three-kings-1378]]此时距离他生命的尽头已经不到一年[[/link]]，几十年这样的奔波、缔约、经营王朝，早已耗尽了他的精力——而这整个统治生涯，恰恰就是靠着这些搭起来的。他花了大半辈子做了一件几乎没有哪位中世纪君主真正做成过的事：提前把自己的继承规则写得清清楚楚，细到没人需要再去猜接下来会发生什么。[[link:the-golden-bull-1356]]规定皇帝该如何选出的那部法律[[/link]]，就是他自己写的。那位将要继承皇位的儿子，此时已经身兼两顶王冠两年了。已经没什么可安排的了。可查理还是照样安排了一遍，事无巨细，跟他这辈子安排别的事情一模一样。\n\n1378年11月29日晚，日落三小时后，查理在布拉格去世，很可能死于肺炎。他生前曾要求葬礼从简，穿一件方济各会修士的粗布会服下葬，而不是他四十年加冕生涯里穿惯了的那身象牙金袍，这个愿望后来也真的被遵照执行。遗体停灵十一天，布拉格城内所有教堂都在为他吟唱圣咏。12月15日，送葬队伍终于把他送进了[[link:dawn-over-prague-1344]]圣维特大教堂[[/link]]，队伍长达约七千人，其中大约五百名布拉格市民身穿黑衣、手持蜡烛。经过一整夜的守灵后，他被安葬在了主祭坛前。葬礼上，一位名叫维捷赫·拉尼库夫·冯·耶若夫的捷克神学家——史上唯一一位担任过巴黎索邦大学校长的捷克人——用一个此前从没人用过的称号称呼这位已故的皇帝：祖国之父。\n\n他的儿子什么都不用去争。瓦茨拉夫从幼年起就已经是[[link:a-son-at-last-1361]]波希米亚国王[[/link]]，十五岁起又成了[[link:crowned-while-his-father-watched-1376]]罗马人的国王[[/link]]。查理一去世，这两个头衔就直接延续了下去，没有选举，没有对立候选人，也没有哪座城市拒绝打开城门。这跟查理自己当年那顶[[link:the-crown-nobody-recognized-1346]]十七岁赢来的王冠[[/link]]——足足过了三年才算真正被完全承认——恰恰是两个极端。家族里其他人分到的都是小块：西吉斯蒙德保住了勃兰登堡，最小的儿子扬得到了一个新设立的上卢萨蒂亚公国，摩拉维亚则分给了两位堂兄弟。瓦茨拉夫拿到的，是那两个最要紧的头衔，而且拿的时候，不需要征求任何人的同意。\n\n有一件事，查理没能活着看到它了结——恰恰是他统治生涯里花了大量心力想要把它固定在一个地方的那个机构本身。就在他去世前两个多月，一批对新当选的教皇乌尔班六世不满的枢机主教，聚集在丰迪，另立了自己的对立教皇克雷芒七世，重新在那座查理曾经费尽心力把教廷拉出来的城市，也就是阿维尼翁，设立了第二个教廷。基督教世界一下子有了两位教皇，彼此都指责对方名不正言不顺。查理终究没有必要去做选边站的决定。这个问题，连同其他一切，都留给了他的儿子去继承。\n\n查理的死，结束的不只是一段统治。它结束了后来的史学家称之为\"黄金时代\"的这段岁月——也就是这整章从1346年起一路跟随的这段岁月。波希米亚接下来将迎来什么，1378年12月，站在那个房间里的人，谁也说不清楚。",
     },
     relatedLandmarks: [
       {
@@ -8856,7 +8856,7 @@ export const historyEvents = [
     summary: {
       en: "Drinking, neglecting the throne, surrounding himself with flatterers who owed him everything, those were problems Wenceslas brought on himself. There was another one, though, that wasn't his fault at all: blame that one on his own father. [[link:father-of-the-fatherland-1378]]Charles had divided his holdings[[/link]] among his sons and relatives before he ever died, and the division held. Wenceslas kept Bohemia, the crown that mattered most, but his half-brother Sigismund held Brandenburg outright, their younger brother John got a newly created duchy at Görlitz in Upper Lusatia, Moravia belonged to their cousins Jobst and Prokop, and their uncle Wenceslas I already sat as Duke of Luxembourg. The young king did add one more title in 1383, inheriting the Duchy of Luxembourg itself when that same uncle died. It didn't come close to making up the difference. Whatever their father had once ruled as a single, coherent whole, his sons now held in pieces, and the biggest piece belonged to Wenceslas in name more than in practice.\n\nThat same 1383 also brought a very different kind of decision, one that would define the rest of his reign: Wenceslas quietly abandoned the Romzug, the long formal journey to Rome that would have gotten him crowned emperor in person, the way his own father had been. Part of it was caution, provoking France while the Schism was still raw seemed like a bad idea. Part of it, by every account, was simply Wenceslas: hunting and drinking were considerably closer to hand than a months-long trek over the Alps for a crown. He never went. For the rest of his life, he'd remain King of the Romans, one word short of the title his father had actually held.\n\nIn 1386, one of those pieces grew considerably larger. Sigismund, already margrave of Brandenburg, had married Mary, Queen of Hungary, the year before, and that April, the Treaty of Győr confirmed him as her future co-ruler, a claim made formal with his own coronation as King of Hungary less than a year later. Bohemia's own Luxembourg family now had two kings in it, and the younger one was rapidly becoming the more secure of the two, his attention already drifting east, toward a kingdom that would end up mattering more to European history than the brother he'd left behind.\n\nWenceslas held the title that outranked his brother's on paper, King of the Romans as well as King of Bohemia. In practice, he was watching his own inheritance shrink from every direction at once, hemmed in by cousins in Moravia and a brother who no longer needed anything from him at all.",
       cz: "Pití, zanedbávání trůnu, obklopování se pochlebovači, kteří mu za všechno vděčili, to byly potíže, které si Václav zavinil sám. Byl tu ale ještě jeden problém, za který vůbec nemohl: ten měl na svědomí jeho vlastní otec. [[link:father-of-the-fatherland-1378]]Karel rozdělil svůj majetek[[/link]] mezi syny a příbuzné ještě před vlastní smrtí, a to rozdělení platilo. Václav si podržel Čechy, korunu, na které záleželo nejvíc, ale jeho nevlastní bratr Zikmund držel přímo Braniborsko, jejich mladší bratr Jan dostal nově vytvořené vévodství ve Zhořelci v Horní Lužici, Morava patřila bratrancům Jobstovi a Prokopovi, a jejich strýc Václav I. už seděl jako lucemburský vévoda. Mladý král v roce 1383 přidal ještě jeden titul, když po smrti téhož strýce zdědil samotné Lucemburské vévodství. Rozdíl to ani zdaleka nevyrovnalo. Cokoli jejich otec kdysi vládl jako jeden souvislý celek, jeho synové teď drželi po kouskách, a ten největší kousek patřil Václavovi spíš jménem než ve skutečnosti.\n\nTentýž rok 1383 přinesl i jedno docela jiné rozhodnutí, které mělo poznamenat zbytek jeho vlády: Václav potichu opustil Římskou jízdu (Romzug), tu dlouhou, formální cestu do Říma, která by ho nechala osobně korunovat císařem, tak jako jeho vlastního otce. Částečně šlo o opatrnost, dráždit Francii, dokud bylo schizma ještě čerstvé, se zdálo jako špatný nápad. Částečně šlo, podle všech svědectví, prostě o Václava: lov a pití měl mnohem blíž po ruce než několikaměsíční cestu přes Alpy kvůli koruně. Nikdy tam nevyrazil. Do konce života zůstal jen římským králem, o jedno slovo pozadu za titulem, který skutečně nosil jeho otec.\n\nV roce 1386 jeden z těch kousků výrazně narostl. Zikmund, už tak braniborský markrabě, se rok předtím oženil s uherskou královnou Marií, a toho dubna smlouva v Ráby (Győru) ho potvrdila jako jejího budoucího spoluvládce, nárok formálně stvrzený necelý rok poté jeho vlastní korunovací uherským králem. Lucemburská rodina teď měla v Čechách rovnou dva krále, a ten mladší se rychle stával tím jistějším ze dvou, jeho pozornost už mířila na východ, ke království, které nakonec pro evropské dějiny bude znamenat víc než bratr, kterého nechal za sebou.\n\nVáclav držel titul, který na papíře převyšoval bratrův, byl římským králem stejně jako českým. V praxi ale sledoval, jak se jeho vlastní dědictví zmenšuje ze všech stran najednou, sevřený mezi bratrance na Moravě a bratra, který od něj už vůbec nic nepotřeboval.",
-      zh: "酗酒享乐、疏于朝政、亲信一群阿谀逢迎的小人——这些麻烦，都是瓦茨拉夫自己招来的。可还有一个问题，压根不是他的错：说白了很简单，这事得怪他自己的父亲。[[link:father-of-the-fatherland-1378]]查理生前就把自己的领地分给了儿子和亲属们[[/link]]，而且这个分配一直算数。瓦茨拉夫保住了波希米亚，也就是最要紧的那顶王冠，可他的异母弟弟西吉斯蒙德直接握着勃兰登堡，弟弟约翰拿到了上卢萨蒂亚新设立的格尔利茨公国，摩拉维亚归了堂兄弟约斯特和普罗科皮乌斯，而叔叔瓦茨拉夫一世早就是卢森堡公爵了。这位年轻的国王在1383年倒是又添了一个头衔——那位叔叔去世后，他继承了卢森堡公国本身。可这远远弥补不了差距。他们父亲当年当成一个整体统治的那份家业，如今被儿子们分成了碎片，而最大的那一块，名义上归瓦茨拉夫所有，实际上却未必如此。\n\n同样是1383年，还有另一个截然不同的决定，将影响他余下的整个统治：瓦茨拉夫悄悄放弃了\"罗马之行\"（Romzug）——那趟本该让他像父亲当年一样，亲自前往罗马加冕为皇帝的漫长正式旅程。这里面有一部分是出于谨慎：教廷分裂的伤口还没愈合，去招惹法国那边，怎么看都不是什么好主意。但据各方记载，更大一部分原因，纯粹就是瓦茨拉夫本人的性子：跟翻越阿尔卑斯山、耗时数月去争一顶王冠比起来，打猎和喝酒明显要顺手得多。他终究没有踏上那趟旅程。终其一生，他都只是\"罗马人的国王\"——跟他父亲真正拿到手的那个头衔，永远差着一个词。\n\n1386年，其中一块碎片明显变大了。西吉斯蒙德，本来已经是勃兰登堡藩侯，前一年刚娶了匈牙利女王玛丽亚，那年4月，《捷尔条约》确认他成为玛丽亚未来的共治者，不到一年后，他又正式加冕为匈牙利国王，把这份主张彻底坐实。卢森堡家族这下在波希米亚一口气有了两位国王，而且弟弟这一位，眼看着比哥哥这一位坐得还稳当——他的心思早已飘向东方，飘向一个日后对欧洲历史的影响，会远远超过他留在身后这位兄长的王国。\n\n瓦茨拉夫手握的头衔，纸面上是压过弟弟的——他既是罗马人的国王，又是波希米亚国王。可现实中，他眼睁睁看着自己的家业从四面八方同时缩水：摩拉维亚有堂兄弟挤压，而弟弟那边，早已不再需要他这个兄长提供任何东西。",
+      zh: "酗酒享乐、疏于朝政、亲信一群阿谀逢迎的小人——这些麻烦，都是瓦茨拉夫自己招来的。可还有一个问题，压根不是他的错：说白了很简单，这事得怪他自己的父亲。[[link:father-of-the-fatherland-1378]]查理生前就把自己的领地分给了儿子和亲属们[[/link]]，而且这个分配一直算数。瓦茨拉夫保住了波希米亚，也就是最要紧的那顶王冠，可他的异母弟弟西吉斯蒙德直接握着勃兰登堡，弟弟扬拿到了上卢萨蒂亚新设立的格尔利茨公国，摩拉维亚归了堂兄弟约斯特和普罗科皮乌斯，而叔叔瓦茨拉夫一世早就是卢森堡公爵了。这位年轻的国王在1383年倒是又添了一个头衔——那位叔叔去世后，他继承了卢森堡公国本身。可这远远弥补不了差距。他们父亲当年当成一个整体统治的那份家业，如今被儿子们分成了碎片，而最大的那一块，名义上归瓦茨拉夫所有，实际上却未必如此。\n\n同样是1383年，还有另一个截然不同的决定，将影响他余下的整个统治：瓦茨拉夫悄悄放弃了\"罗马之行\"（Romzug）——那趟本该让他像父亲当年一样，亲自前往罗马加冕为皇帝的漫长正式旅程。这里面有一部分是出于谨慎：教廷分裂的伤口还没愈合，去招惹法国那边，怎么看都不是什么好主意。但据各方记载，更大一部分原因，纯粹就是瓦茨拉夫本人的性子：跟翻越阿尔卑斯山、耗时数月去争一顶王冠比起来，打猎和喝酒明显要顺手得多。他终究没有踏上那趟旅程。终其一生，他都只是\"罗马人的国王\"——跟他父亲真正拿到手的那个头衔，永远差着一个词。\n\n1386年，其中一块碎片明显变大了。西吉斯蒙德，本来已经是勃兰登堡藩侯，前一年刚娶了匈牙利女王玛丽亚，那年4月，《捷尔条约》确认他成为玛丽亚未来的共治者，不到一年后，他又正式加冕为匈牙利国王，把这份主张彻底坐实。卢森堡家族这下在波希米亚一口气有了两位国王，而且弟弟这一位，眼看着比哥哥这一位坐得还稳当——他的心思早已飘向东方，飘向一个日后对欧洲历史的影响，会远远超过他留在身后这位兄长的王国。\n\n瓦茨拉夫手握的头衔，纸面上是压过弟弟的——他既是罗马人的国王，又是波希米亚国王。可现实中，他眼睁睁看着自己的家业从四面八方同时缩水：摩拉维亚有堂兄弟挤压，而弟弟那边，早已不再需要他这个兄长提供任何东西。",
     },
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Wenceslaus_IV_of_Bohemia",
@@ -9079,6 +9079,1952 @@ export const historyEvents = [
       },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/John_of_Nepomuk",
+  },
+  // Era 5's sixth card (after 'the-papal-schism-1378', 'the-indecisive-
+  // king-1382', 'a-throne-on-shaky-ground-1386', 'bloody-easter-1389',
+  // and 'the-priest-thrown-into-the-river-1393') — the 1394 Lords'
+  // League capture, already flagged as "the next one due" in this
+  // file's own dev notes back when 'a-throne-on-shaky-ground-1386' was
+  // written. Outline, dates, and all three relatedLandmarks were
+  // dictated by the user; prose written to match the established house
+  // voice and fact-checked/expanded via WebSearch.
+  // - Confirmed via WebSearch (Czech- and English-language sources):
+  //   8 May 1394 capture at Králův Dvůr near Beroun; the League of Lords'
+  //   grievances (kingdom/imperial administration, royal favorites) as
+  //   the stated cause; Jobst, Margrave of Moravia, named as the
+  //   revolt's leader (also true of its 1396 sequel); the captivity
+  //   route through the Rožmberk castles Příběnice, Český Krumlov, and
+  //   Vítkův Kámen before Wenceslas was handed to the Starhemberg family
+  //   and locked in Wildberg Castle, Upper Austria; release that August
+  //   after John of Görlitz raised an army at Kutná Hora, occupied
+  //   Prague, and campaigned into Rosenberg territory; the ransom terms
+  //   (Křivoklát Castle, royal control of Kutná Hora's silver) handed
+  //   over as part of his release; the 19 March 1396 compromise (Jobst
+  //   made governor of the realm, government to a noble-dominated
+  //   council); and the 11 June 1397 Karlštejn murder of four of
+  //   Wenceslas's own council members (orchestrated by John II, Duke of
+  //   Opava-Ratibor; the king's own response was to call the dead men
+  //   traitors and take no further action).
+  // - Příběnice and Vítkův Kámen are both genuine ruins today with no
+  //   Location entry in the live DB — named in running prose only, not
+  //   linked. Český Krumlov Castle itself had no Location entry either;
+  //   added fresh this pass (see seedLocations.js) specifically for this
+  //   card, using the name/coordinates the user supplied directly.
+  // - Křivoklát's ransom-handover doubles as a callback this project has
+  //   already set up twice before (`a-marriage-falls-apart-1319`,
+  //   `the-prince-who-came-to-put-out-the-fire-1333`): the same castle
+  //   once held the infant Charles IV captive, back when Charles was
+  //   still named Wenceslas himself, before his later renaming in
+  //   France — the same-name joke this project has leaned on before
+  //   (Vratislav/Vladislav, the two Wenceslases in `kraluv-dvur`'s own
+  //   bonus paragraph) gets one more turn here.
+  // - [[link:who-are-the-vitkovci-1276]] used for the Rožmberk-castles
+  //   line, with "our old acquaintances" (cz "staří známí", zh
+  //   "老熟人") rather than restating "this timeline already covered" —
+  //   per the standing no-self-reference rule and the established ZH
+  //   callback phrasing.
+  // - No quotes[] entry: three separately-worded WebSearch passes (one
+  //   in English, two in Czech, one aimed specifically at Staré letopisy
+  //   české) turned up plenty of secondary-source narrative but no
+  //   genuinely quotable primary-source line for this specific episode —
+  //   not for lack of trying.
+  // - Closes with an unnarrated forward-hook to the still-unwritten 1400
+  //   deposition (Wenceslas losing the King of the Romans title while
+  //   keeping the Bohemian crown), phrased as a "one of his two crowns"
+  //   image rather than the retired "another story" stock closer.
+  {
+    slug: "from-king-to-prisoner-1394",
+    era: "religious-turmoil",
+    startYear: 1394,
+    images: ["/history/from-king-to-prisoner-1394.webp"],
+    imageCaptions: [
+      {
+        en: "Rožmberk banners at the gate. The king didn't get a vote on this either.",
+        cz: "Rožmberské korouhve u brány. Ani do tohohle král neměl co mluvit.",
+        zh: "城门口飘着罗森贝格家族的旗帜。这一次，国王照样没有发言权。",
+      },
+    ],
+    year: {
+      en: "1394–1397",
+      cz: "1394–1397",
+      zh: "1394年－1397年",
+    },
+    tone: "humorous",
+    title: {
+      en: "From King to Prisoner",
+      cz: "Z krále vězněm",
+      zh: "从国王到囚犯",
+    },
+    hookLine: {
+      en: "Wenceslas had ignored his own nobles for years. In 1394, they stopped asking and simply took him.",
+      cz: "Václav své vlastní šlechtice roky ignoroval. V roce 1394 ho přestali žádat a prostě si ho vzali.",
+      zh: "瓦茨拉夫无视自己的贵族已经好几年了。1394年，他们不再抱怨，直接把他抓走了。",
+    },
+    summary: {
+      en: "Wenceslas's own nobles had spent years complaining: about chaos in the kingdom's administration, about the empire's tangled politics, about a king who filled his court with minor favorites instead of the old established families. None of it changed anything. In 1394, a coalition of Bohemian lords allied with the king's own cousin, Jobst, Margrave of Moravia, and stopped complaining. On 8 May, they caught Wenceslas at Králův Dvůr, his own hunting lodge near Beroun, and simply took him.\n\nWhat followed was less a captivity than a guided tour of enemy real estate. Over the following weeks Wenceslas was marched from castle to castle across South Bohemia, Příběnice, then [[link:who-are-the-vitkovci-1276]]Český Krumlov[[/link]], then Vítkův Kámen, every one of them belonging to the Rožmberks, our old acquaintances from a century earlier, before he was finally locked up at Wildberg Castle in Upper Austria, in the keeping of the Starhemberg family. His rescue came from his own half-brother, John of Görlitz, who raised an army at Kutná Hora, occupied Prague in his name, and marched into Rožmberk territory until the league finally let the king go, that August.\n\nFreedom cost him. As part of the deal, Wenceslas had to hand over Křivoklát Castle, along with royal control of Kutná Hora's silver, to the very nobles who had just kidnapped him. It was a strange kind of homecoming for that particular fortress: Křivoklát had already once held Wenceslas's own father captive as a small child, back when his father, confusingly, was also named Wenceslas, before the name changed to Charles.\n\nFreedom didn't change him. Wenceslas went straight back to ruling exactly as before, and within two years the same coalition was organizing again under the same Margrave of Moravia. On 19 March 1396, he gave in without a second kidnapping, accepting the nobles' terms and handing day-to-day government to a council of their choosing. Even that didn't hold: on 11 June 1397, during a fresh round of unrest, the nobles cornered four of Wenceslas's own councillors, minor men he trusted over the great families, at Karlštejn Castle and killed them there. The king called the dead men traitors and left it at that. Three strikes now, a kidnapping, a compromise, a killing, and the nobles had gotten away clean every time. The next time patience ran out, it wouldn't just cost Wenceslas a few councillors. It would cost him one of his two crowns.",
+      cz: "Václavovi vlastní šlechtici si roky stěžovali: na zmatek ve správě království, na spletité říšské poměry, na krále, který si dvůr plnil drobnými oblíbenci místo starých usedlých rodů. Nic z toho nic nezměnilo. V roce 1394 se koalice českých pánů spojila s králova vlastního bratrance, moravského markraběte Jošta, a přestala si stěžovat. 8. května zastihli Václava v Králově Dvoře, jeho vlastním loveckém sídle u Berouna, a prostě si ho vzali.\n\nCo následovalo, byla spíš prohlídka nepřátelského majetku než zajetí v pravém slova smyslu. V dalších týdnech vedli Václava z hradu na hrad napříč jižními Čechami, Příběnice, pak [[link:who-are-the-vitkovci-1276]]Český Krumlov[[/link]], pak Vítkův Kámen, všechny patřící Rožmberkům, našim starým známým z minulého století, než ho nakonec zavřeli na hradě Wildberg v Horních Rakousích, v opatrování rodu Starhembergů. Zachránil ho vlastní nevlastní bratr Jan Zhořelecký, který sehnal vojsko v Kutné Hoře, obsadil jeho jménem Prahu a táhl na rožmberské državy, dokud jednota krále konečně toho srpna nepustila.\n\nSvoboda ho stála draho. Součástí dohody bylo, že Václav musel týmž šlechticům, kteří ho právě unesli, odevzdat hrad Křivoklát a královskou kontrolu nad kutnohorským stříbrem. Pro tenhle konkrétní hrad to byl podivný návrat: Křivoklát už jednou držel v zajetí Václavova vlastního otce, ještě jako malé dítě, v době, kdy se jeho otec, matoucím způsobem, jmenoval taky Václav, než si jméno později změnil na Karla.\n\nSvoboda ho nezměnila. Václav se vrátil rovnou k vládnutí přesně jako předtím, a do dvou let se stejná koalice znovu dávala dohromady pod stejným moravským markrabětem. 19. března 1396 povolil bez druhého únosu, přijal podmínky šlechticů a předal běžnou vládu radě podle jejich výběru. Ani to nevydrželo: 11. června 1397, během nových nepokojů, šlechtici zahnali do kouta čtyři Václavovy vlastní radní, drobné muže, kterým důvěřoval víc než velkým rodům, na hradě Karlštejn a zabili je tam. Král mrtvé prohlásil za zrádce a nechal to být. Teď to bylo do třetice: únos, kompromis, vražda, a šlechticům to pokaždé prošlo bez trestu. Až příště dojde trpělivost, nebude to Václava stát jen pár radních. Bude ho to stát jednu ze dvou korun.",
+      zh: "瓦茨拉夫自己的贵族们已经抱怨了好几年：国政管理一团糟，帝国那边的局势错综复杂，国王偏偏喜欢用一堆无名小卒充实自己的宫廷，却冷落了那些根基深厚的老牌家族。可抱怨从来没换来任何改变。1394年，一批波希米亚贵族联合国王自己的表亲、摩拉维亚侯爵约布斯特，不再抱怨了。5月8日，他们在贝劳恩附近，瓦茨拉夫自己的猎苑国王庭院堵到了他，直接把他抓走。\n\n接下来的这段日子，与其说是被囚禁，不如说是被押着参观了一圈敌人的地产。往后的几个星期里，瓦茨拉夫被押解着，从一座城堡辗转到另一座，走遍南波希米亚：先是普日贝尼采，然后是[[link:who-are-the-vitkovci-1276]]克鲁姆洛夫[[/link]]，再是维特库夫卡门，全都是罗森贝格家族的地盘，也就是我们上个世纪就认识的那位老熟人。最后，他被关进了上奥地利的维尔德贝格城堡，看管他的是施塔伦贝格家族。救他出来的是他的异母弟弟扬·若热莱茨基，这位弟弟在库特纳霍拉招兵买马，以他的名义占领了布拉格，又挥师杀入罗森贝格家族的领地，直到那年8月，联盟终于放人。\n\n自由的代价不便宜。协议规定，瓦茨拉夫必须把克利沃克拉特城堡，连同库特纳霍拉银矿的王室控制权，一并交给这批刚刚绑架过自己的贵族。对这座城堡来说，这算是个古怪的重逢：克利沃克拉特早就关押过瓦茨拉夫自己的父亲，那会儿他父亲还是个小孩，而且更混乱的是，那时候他父亲的名字也叫瓦茨拉夫，后来才改名叫查理。\n\n自由并没有改变他。瓦茨拉夫立刻回去继续像从前一样理政，不到两年，同一批贵族又在同一位摩拉维亚侯爵麾下重新集结。1396年3月19日，他没等第二次绑架就先妥协了，接受了贵族们的条件，把日常政务交给了一个由他们挑选的议事会。可这也没能维持多久：1397年6月11日，在新一轮动荡中，贵族们在卡尔什特因城堡堵住了瓦茨拉夫的四名议事会成员，也就是那些他比起大贵族世家更信任的小人物，当场杀了他们。国王把死者定性为叛徒，此事就此了结。事不过三，绑架、妥协、谋杀，贵族们每一次都全身而退。等到耐心用完的下一次，代价就不会只是几个议事会成员了。那将是他两顶王冠中的一顶。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "kraluv-dvur",
+        relation: {
+          en: "Where the League of Lords caught Wenceslas on 8 May 1394, the whole ordeal starting at his own hunting lodge.",
+          cz: "Místo, kde Panská jednota 8. května 1394 zastihla Václava, celé trápení začalo přímo v jeho vlastním loveckém sídle.",
+          zh: "1394年5月8日，领主联盟正是在这里堵到了瓦茨拉夫，整场磨难就从他自己的猎苑开始。",
+        },
+      },
+      {
+        slug: "cesky-krumlov-castle",
+        relation: {
+          en: "One of the Rožmberk strongholds where Wenceslas was briefly held on the road to his Austrian prison.",
+          cz: "Jeden z rožmberských hradů, kde Václava po cestě do rakouského vězení nakrátko drželi.",
+          zh: "瓦茨拉夫被押往奥地利监狱途中，曾在这座罗森贝格家族的城堡里短暂关押过。",
+        },
+      },
+      {
+        slug: "karlstejn-castle",
+        relation: {
+          en: "Where the nobles cornered and killed four of Wenceslas's own councillors on 11 June 1397, the final blow in this same standoff.",
+          cz: "Místo, kde šlechtici 11. června 1397 zahnali do kouta a zabili čtyři Václavovy vlastní radní, poslední ránu v téhle při.",
+          zh: "1397年6月11日，贵族们正是在这里堵住并杀害了瓦茨拉夫的四名议事会成员，给这场对峙画上了句号。",
+        },
+      },
+      {
+        slug: "krivoklat-castle",
+        relation: {
+          en: "Handed over as part of Wenceslas's ransom in 1394, the same fortress that had already held his own father captive as a small child, decades before this.",
+          cz: "Odevzdaný jako součást Václavova výkupného v roce 1394, tentýž hrad, který o desítky let dřív už jednou držel v zajetí jeho vlastního otce, ještě jako malé dítě.",
+          zh: "1394年，作为赎金的一部分被交了出去；几十年前，这座城堡也曾关押过还是孩童的瓦茨拉夫自己的父亲。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/League_of_Lords",
+  },
+  // Background card, added at the user's explicit request right after
+  // 'from-king-to-prisoner-1394' — this is the "fuller Rožmberk card"
+  // this file's own dev notes had been deferring since 2026-08-22 (see
+  // the standing reminder attached to 'who-are-the-vitkovci-1276'):
+  // "proactively flag it when the Rožmberk family specifically becomes
+  // a genuine protagonist of their own... tie the payoff back to the
+  // setup already on record." Rather than re-narrate Záviš's revolt/
+  // execution or the 1394 capture (both already fully told as their own
+  // dated events), this card links back to all three call-back points
+  // named in that original reminder (who-are-the-vitkovci-1276,
+  // enemies-on-every-side-1276, meadow-below-hluboka-1290) plus the new
+  // from-king-to-prisoner-1394, and adds genuinely new material: the
+  // specific five rose colors (confirmed via WebSearch,
+  // encyklopedie.ckrumlov.cz) and the mirror-image pairing between
+  // Rožmberk/Landštejn and Hradec/Stráž, which who-are-the-vitkovci-1276
+  // deliberately left unspecified.
+  // - Corrected during drafting: Záviš of Falkenstein was NOT of the
+  //   Rožmberk branch itself (an easy assumption, given how thoroughly
+  //   "Rožmberk" dominates this family's later reputation) — he was the
+  //   Krumlov branch's own most prominent son. Confirmed via WebSearch
+  //   (cs.wikipedia.org, genealogy.euweb.cz). This actually strengthens
+  //   the card's own throughline: Záviš's 1290 execution and the Krumlov
+  //   branch's 1302 extinction are now presented as cause and
+  //   consequence (a disgraced, executed head of house, twelve years,
+  //   then no heirs), directly explaining why Krumlov's lands, castle
+  //   included, ended up with their Rožmberk cousins rather than
+  //   asserting the transfer as an unexplained fact the way
+  //   who-are-the-vitkovci-1276 had to (it was written before this
+  //   card existed to do the connecting).
+  // - Other four branches' end dates (Hradec 1598, Stráž 1470, Landštejn
+  //   1612) confirmed via WebSearch (encyklopedie.ckrumlov.cz,
+  //   hrad-landstejn.cz). The Rožmberk/Landštejn 1611–1612 back-to-back
+  //   extinction, one year apart, closing paragraph, is a genuine
+  //   coincidence, not invented — and lands as a fitting echo of the
+  //   mirror-image rose colors established in paragraph one.
+  // - Oldřich II of Rožmberk named as a light, unnarrated forward-hook
+  //   per the user's own request ("在后面的胡斯战争他们戏份也很重") — his
+  //   actual Hussite-era political reversals (early Hussite sympathies,
+  //   later a staunch Catholic/Sigismund ally) are deliberately not
+  //   detailed here, reserved for whenever the timeline actually reaches
+  //   the Hussite Wars.
+  // - Hard rule for background cards followed: no image, no
+  //   relatedLandmarks, despite the obvious temptation to link
+  //   cesky-krumlov-castle here — that link already lives on
+  //   from-king-to-prisoner-1394, where it belongs as a dated event.
+  // - startYear 1394.5: sorts immediately after 'from-king-to-
+  //   prisoner-1394' and ahead of the still-unwritten 1400 deposition,
+  //   same decimal-anchoring convention as other background cards.
+  {
+    slug: "the-five-roses-1394",
+    era: "religious-turmoil",
+    startYear: 1394.5,
+    cardType: "background",
+    images: ["/history/the-five-roses-1394-coat-of-arms.webp"],
+    imageCaptions: [
+      {
+        en: "The Rožmberk family's own coat of arms: a red rose on silver. Source: Wikipedia.",
+        cz: "Vlastní erb rodu Rožmberků: červená růže na stříbrném poli. Zdroj: Wikipedia.",
+        zh: "罗森贝格家族自己的纹章：银底红玫瑰。来源：维基百科。",
+      },
+    ],
+    year: {
+      en: "1220s–1612",
+      cz: "1220–1612",
+      zh: "1220年代－1612年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Five Roses",
+      cz: "Pět růží",
+      zh: "五朵玫瑰",
+    },
+    hookLine: {
+      en: "Five brothers split one rose into five colors. History remembers mostly just one of them.",
+      cz: "Pět bratrů rozdělilo jednu růži do pěti barev. Dějiny si pamatují hlavně jednu z nich.",
+      zh: "五个兄弟把一朵玫瑰分成了五种颜色。历史却主要只记住了其中一种。",
+    },
+    summary: {
+      en: "[[link:who-are-the-vitkovci-1276]]Vítek of Prčice[[/link]]'s five sons split his inheritance into five branches, and each one kept their father's five-petaled rose while recoloring it to mark its own line: Rožmberk took a red rose on silver, Krumlov a green rose on silver, Hradec a gold rose on blue, Landštejn a silver rose on red, and Stráž a blue rose on gold. Look closely and two of those pairs turn out to be simple mirror images of each other, Rožmberk and Landštejn just swap which color sits on top, and so do Hradec and Stráž. Vítek's sons couldn't have known it, but between them they'd built a coat of arms with its own family tree baked in.\n\nKrumlov's own branch went first. It had already produced the family's most spectacular success story, and its most spectacular downfall: Záviš of Falkenstein, the Krumlov line's own most famous son, [[link:enemies-on-every-side-1276]]led the 1276 revolt[[/link]] against Otakar II, married his way into two royal families, and effectively ran the Bohemian court for years, before [[link:meadow-below-hluboka-1290]]losing his head over it in 1290[[/link]], executed within sight of his own brother's refusal to save him. Twelve years later, in 1302, the Krumlov branch died out for good, and its lands, castle included, passed to its cousins at Rožmberk. From that point on, \"Rožmberk\" stopped meaning one branch among five and started meaning the family's entire South Bohemian power base. A century later, it was Rožmberk castles that [[link:from-king-to-prisoner-1394]]held Wenceslas IV captive[[/link]] on his own road to an Austrian prison.\n\nThe other three branches never caught up. Hradec held on until 1598, Landštejn until 1612, and Stráž faded out earliest, in 1470. Rožmberk outlived all of them, becoming, through sheer accumulated land and marriage alliances, the single wealthiest and most powerful noble family Bohemia would produce across the medieval and early modern periods, its power seated at Český Krumlov and, later, Třeboň.\n\nTheir biggest chapter was still ahead. During the Hussite Wars, one Rožmberk in particular, Oldřich II, would become one of the conflict's most consequential power brokers, a man whose loyalties proved considerably more flexible than his own family's coat of arms. The family's story finally closed in 1611, when the last Rožmberk, Petr Vok, died without an heir, a year before Landštejn, the branch whose colors had always mirrored theirs, went the same way.",
+      cz: "Pět synů [[link:who-are-the-vitkovci-1276]]Vítka z Prčice[[/link]] si rozdělilo jeho dědictví do pěti větví, a každá si ponechala otcovu pětilistou růži, jen ji přebarvila, aby označila vlastní linii: Rožmberkové si vzali červenou růži na stříbrném poli, Krumlovští zelenou růži na stříbrném, Hradečtí zlatou růži na modrém, Landštejnští stříbrnou růži na červeném a Strážští modrou růži na zlatém. Podíváte-li se pozorně, dva z těchto párů jsou prostě zrcadlovým obrazem toho druhého: Rožmberkové a Landštejnští si jen prohodili, která barva je nahoře, a totéž platí pro Hradecké a Strážské. Vítkovi synové to tehdy nemohli tušit, ale společně si postavili erb s vlastním rodokmenem zabudovaným přímo do sebe.\n\nKrumlovská větev vyhasla první. Předtím ale stihla dát rodu svůj nejoslnivější úspěch i svůj nejoslnivější pád: Záviš z Falkenštejna, nejslavnější syn krumlovské linie, [[link:enemies-on-every-side-1276]]vedl v roce 1276 povstání[[/link]] proti Otakarovi II., přiženil se do dvou královských rodů a po léta fakticky řídil český dvůr, než [[link:meadow-below-hluboka-1290]]v roce 1290 kvůli tomu přišel o hlavu[[/link]], popraven na dohled od vlastního bratra, který ho odmítl zachránit. O dvanáct let později, v roce 1302, krumlovská větev nadobro vymřela, a její državy, hrad nevyjímaje, připadly bratrancům na Rožmberku. Od té chvíle přestalo jméno „Rožmberk\" znamenat jednu větev z pěti a začalo znamenat celou jihočeskou mocenskou základnu rodu. O století později to byly právě rožmberské hrady, které [[link:from-king-to-prisoner-1394]]držely v zajetí Václava IV.[[/link]] na jeho vlastní cestě do rakouského vězení.\n\nOstatní tři větve už se nikdy nedotáhly. Hradečtí vydrželi do roku 1598, Landštejnští do roku 1612, Strážští vyhasli nejdřív, v roce 1470. Rožmberkové přežili je všechny a díky nahromaděné půdě a sňatkovým spojenectvím se stali zdaleka nejbohatším a nejmocnějším šlechtickým rodem, jaký Čechy ve středověku a raném novověku vůbec vyprodukovaly, s mocenským sídlem v Českém Krumlově a později v Třeboni.\n\nJejich největší kapitola měla teprve přijít. Během husitských válek se jeden Rožmberk, Oldřich II., stane jedním z nejvlivnějších mocenských hráčů celého konfliktu, mužem, jehož věrnost se ukáže být podstatně pružnější než erb jeho vlastního rodu. Příběh rodu se definitivně uzavřel v roce 1611, kdy poslední Rožmberk, Petr Vok, zemřel bez dědice, o rok dřív, než stejným způsobem skončili Landštejnští, větev, jejíž barvy vždycky zrcadlily ty jejich.",
+      zh: "[[link:who-are-the-vitkovci-1276]]维特克·冯·普尔奇采[[/link]]的五个儿子，把父亲的遗产分成了五支，每一支都沿用了父亲那朵五瓣玫瑰，只是各自换了颜色来标记自己这一脉：罗森贝格家取了银底红玫瑰，克鲁姆洛夫家是银底绿玫瑰，赫拉德茨家是蓝底金玫瑰，兰德什特因家是红底银玫瑰，斯特拉日家是金底蓝玫瑰。仔细一看就会发现，这五种纹章里有两对其实互为镜像：罗森贝格和兰德什特因只是把底色和玫瑰的颜色对调了一下，赫拉德茨和斯特拉日也是同样的关系。维特克的儿子们当年大概没想到，他们无意间给这个家族做出了一套自带家谱的纹章。\n\n克鲁姆洛夫这一支最先绝嗣。可它在绝嗣之前，先给整个家族留下了一段最耀眼的成功、也是一场最耀眼的崩塌：克鲁姆洛夫一脉最出名的人物扎维什·冯·法尔肯斯坦，[[link:enemies-on-every-side-1276]]在1276年带头造反[[/link]]，反对奥托卡二世，两度联姻王室，一度实际掌控了波希米亚宫廷，却在[[link:meadow-below-hluboka-1290]]1290年为此丢了脑袋[[/link]]，就死在自己亲哥哥拒绝出手相救的注视之下。十二年后，1302年，克鲁姆洛夫这一支彻底绝嗣，连同城堡在内的全部领地，都传给了罗森贝格家的堂亲。从那一刻起，“罗森贝格”这个名字，就不再只是五支中的一支，而成了这个家族在南波希米亚整片势力范围的代名词。一个世纪后，正是罗森贝格家族的一座座城堡，[[link:from-king-to-prisoner-1394]]关押了瓦茨拉夫四世[[/link]]，就在他被押往奥地利监狱的路上。\n\n另外三支始终没能追上。赫拉德茨一支撑到了1598年，兰德什特因撑到了1612年，斯特拉日最早消失，1470年就没了。罗森贝格家族活得比谁都久，靠着不断积累的土地和联姻，最终成了波希米亚在整个中世纪和近代早期历史上最富有、也最有权势的贵族家族，势力中心先设在克鲁姆洛夫，后来又移到特热邦。\n\n他们最重要的篇章，其实还没开始。胡斯战争爆发后，罗森贝格家族里会出一位奥德日赫二世，成为整场冲突里分量最重的权力掮客之一，此人立场之善变，比自家纹章换色还要灵活。这个家族的故事，最终在1611年画上句号：末代罗森贝格家主彼得·沃克死后无嗣；一年之后，纹章颜色一直与他们互为镜像的兰德什特因家族，也以同样的方式走到了尽头。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Rosenberg_family",
+  },
+  // Era 5's eighth card, right after 'the-five-roses-1394' — the 1400
+  // deposition already flagged as the next one due back in this file's
+  // own dev notes for 'from-king-to-prisoner-1394'. Outline (Dec 1397
+  // Frankfurt grievances, the Sigismund conflict, the 1400 deposition
+  // and its "do-nothing king" charge, Rupert III's own election and
+  // equally poor record) dictated by the user; prose written to match
+  // house voice and expanded/fact-checked via WebSearch.
+  // - Confirmed via WebSearch: the Dec 1397 Frankfurt diet and the
+  //   electors' grievances (inconsistent handling of imperial business,
+  //   the unresolved Schism, the Sigismund feud, and — a detail the
+  //   user's own outline didn't name but WebSearch turned up as a
+  //   genuine fourth grievance — Wenceslas's 1395 elevation of Gian
+  //   Galeazzo Visconti to Duke of Milan, read by the electors as
+  //   selling off/dismembering imperial authority); Wenceslas's threat
+  //   to go broker a Schism settlement in France himself and the
+  //   electors' explicit warning that doing so would cost him the
+  //   throne; the 20 August 1400 deposition at Lahneck Castle by four
+  //   Rhenish electors (Mainz, Trier, Cologne, Count Palatine Rupert
+  //   III); Rupert's election the next day at Rhens; Wenceslas's
+  //   lifelong refusal to recognize the deposition; and Rupert's own
+  //   failed 1401–02 Italian expedition, including the genuinely
+  //   excellent irony (confirmed via a second search, not assumed) that
+  //   he picked a fight with and lost to the very same Gian Galeazzo
+  //   Visconti whose ducal title had been one of the charges against
+  //   Wenceslas — closing the card on that symmetry rather than a
+  //   generic "he failed too" statement.
+  // - [[quote:0]] is a genuine primary-source find, not the user's own
+  //   material: a WebSearch pass in German turned up the actual
+  //   deposition charter's Middle High German wording ("eynen unnüczen,
+  //   versümelichen, unachtbaren entgleder und unwerdigen hanthaber des
+  //   heiligen Romischen richs"), sourced via a modern German paraphrase
+  //   from an academic PDF (oeaw.ac.at). Translated into EN/CZ/ZH here
+  //   rather than left in MHG, consistent with how this file already
+  //   handles other non-English primary sources.
+  // - No relatedLandmarks: every location in this card (Frankfurt,
+  //   Lahneck Castle, Rhens) is in Germany, outside the Czech Republic,
+  //   so nothing to link per this project's standing scope rule — same
+  //   situation already noted for 'the-border-that-stuck-1335' and
+  //   'crusader-king-loses-his-sight-1336'. Checked, not an oversight.
+  // - [[link:crowned-while-his-father-watched-1376]] used for the
+  //   opening line as a deliberate bookend (crowned King of the Romans
+  //   at 15 while Charles watched; loses that same title at 39) and
+  //   [[link:the-papal-schism-1378]] / [[link:from-king-to-prisoner-1394]]
+  //   for the Schism and Jobst threads respectively, rather than
+  //   restating either as inert "already covered" prose.
+  // - No image yet — offer to generate one if the user wants it.
+  {
+    slug: "the-crown-they-took-away-1400",
+    era: "religious-turmoil",
+    startYear: 1400,
+    images: ["/history/the-crown-they-took-away-1400.webp"],
+    imageCaptions: [
+      {
+        en: "Four men, one crown, and no king in the room to claim it.",
+        cz: "Čtyři muži, jedna koruna, a žádný král v místnosti, který by si na ni dělal nárok.",
+        zh: "四个人，一顶王冠，屋里却没有一个国王来认领它。",
+      },
+    ],
+    year: {
+      en: "1397–1401",
+      cz: "1397–1401",
+      zh: "1397年－1401年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Crown They Took Away",
+      cz: "Koruna, kterou mu vzali",
+      zh: "被罢免的王冠",
+    },
+    hookLine: {
+      en: "Wenceslas had ignored the empire for twenty years. In 1400, the empire finally stopped waiting for him to notice.",
+      cz: "Václav říši ignoroval dvacet let. V roce 1400 už na něj říše přestala čekat.",
+      zh: "瓦茨拉夫已经无视这个帝国二十年了。1400年，帝国终于不再等他回心转意。",
+    },
+    summary: {
+      en: "Wenceslas had spent twenty years ignoring the throne he actually held: [[link:crowned-while-his-father-watched-1376]]King of the Romans since he was fifteen[[/link]], and never much interested in the job past the title. In December 1397, he finally called the empire's princes together at Frankfurt to hear them out, and what they had to say wasn't flattering: inconsistent handling of imperial business, a Church still split in two by the [[link:the-papal-schism-1378]]Great Schism[[/link]] he'd never actually committed to fixing, his own recent decision to elevate Gian Galeazzo Visconti to Duke of Milan (read by the princes as selling off pieces of the empire for cash), and his ongoing feud with his own half-brother Sigismund, who by now held Hungary's crown and Brandenburg's electoral vote and answered to nobody. As a parting shot, Wenceslas told the assembled princes he was leaving for France to broker an end to the Schism himself. They told him plainly: try that, and they'd depose him.\n\nHe tried something like it anyway, and it changed nothing. The French negotiations produced no resolution, and back in Bohemia the same troubles that had already [[link:from-king-to-prisoner-1394]]cost him a kidnapping[[/link]] kept simmering, with Jobst of Moravia now working both sides of the family feud at once, stirring the imperial electors' own case against his cousin. By the late 1390s, an organized bloc of Rhenish princes, the archbishops of Mainz, Trier, and Cologne, joined by Count Palatine Rupert III, had run out of patience for asking.\n\nOn 20 August 1400, meeting at Lahneck Castle above the Rhine, the four electors formally declared Wenceslas deposed. Their own charter didn't bother with diplomatic language:\n\n[[quote:0]]\n\nThe next day, at Rhens, they elected Rupert III himself as the new King of the Romans.\n\nWenceslas never accepted any of it. He kept calling himself King of the Romans for the rest of his life and made no real move to win the title back, content, as ever, that Bohemia was enough. Rupert didn't fare much better. In 1401 he marched into Italy hoping to be crowned emperor by the pope, and picked a fight along the way with Gian Galeazzo Visconti, the very Duke of Milan whose elevation Wenceslas had just been accused of handing out too cheaply. Rupert lost the fight outside Brescia, ran out of money, and came home without his crown or his coronation. The empire had traded one king who wouldn't fix its problems for one who couldn't.",
+      cz: "Václav už dvacet let přehlížel trůn, který sám držel: [[link:crowned-while-his-father-watched-1376]]římským králem byl od patnácti let[[/link]], a kromě samotného titulu ho ta práce nikdy moc nezajímala. V prosinci 1397 konečně svolal říšská knížata do Frankfurtu, aby si je vyslechl, a to, co uslyšel, nebylo lichotivé: nedůslednou správu říšských záležitostí, církev pořád rozdělenou napůl [[link:the-papal-schism-1378]]velkým schizmatem[[/link]], k jehož řešení se nikdy doopravdy nezavázal, svoje vlastní nedávné rozhodnutí povýšit Gian Galeazza Viscontiho na milánského vévodu (které knížata chápala jako rozprodávání kusů říše za hotové), a jeho neutuchající při s vlastním nevlastním bratrem Zikmundem, který v té době už držel uherskou korunu i braniborský hlas ve volbě krále a nikomu se nezodpovídal. Na rozloučenou knížatům Václav oznámil, že odjíždí do Francie sám vyjednat konec schizmatu. Řekli mu na rovinu: to zkus, a sesadíme tě.\n\nNěco na ten způsob zkusil i tak, a nezměnilo to vůbec nic. Francouzská jednání nikam nevedla, a doma v Čechách dál bublaly stejné potíže, které ho už jednou [[link:from-king-to-prisoner-1394]]stály únos[[/link]], přičemž Jošt Moravský teď hrál na obě strany rodinné roztržky zároveň a přiživoval i případ říšských kurfiřtů proti vlastnímu bratranci. Do konce 90. let 14. století se sformoval organizovaný blok rýnských knížat, arcibiskupů mohučského, trevírského a kolínského, k nimž se přidal falcký kurfiřt Ruprecht III., kterému došla trpělivost se ptát.\n\n20. srpna 1400 se čtyři kurfiřti sešli na hradě Lahneck nad Rýnem a formálně prohlásili Václava sesazeným. Jejich vlastní listina si s diplomatickým jazykem hlavu nelámala:\n\n[[quote:0]]\n\nDruhý den v Rýnu (Rhens) zvolili novým římským králem samotného Ruprechta III.\n\nVáclav nic z toho nikdy neuznal. Do konce života se dál titulem římského krále, aniž by kdy skutečně usiloval o jeho zpětné vydobytí, spokojen, jako vždy, s tím, že mu stačí Čechy. Ruprechtovi se nevedlo o moc líp. V roce 1401 vytáhl do Itálie v naději na císařskou korunovaci od papeže a cestou si vyrazil na Gian Galeazza Viscontiho, přesně toho milánského vévodu, jehož povýšení bylo Václavovi právě vyčítáno jako příliš laciné rozdávání titulů. Ruprecht bitvu u Brescie prohrál, došly mu peníze a vrátil se domů bez koruny i bez korunovace. Říše tak vyměnila krále, který její problémy řešit nechtěl, za krále, který je řešit neuměl.",
+      zh: "瓦茨拉夫已经无视自己手握的这顶王冠二十年了：[[link:crowned-while-his-father-watched-1376]]他十五岁起就是罗马人的国王[[/link]]，可除了这个头衔本身，他对这份差事从来提不起多少兴趣。1397年12月，他终于把帝国的诸侯们召集到法兰克福，听他们把话说完，而他们说的一点都不中听：处理帝国事务前后不一，教会依然被[[link:the-papal-schism-1378]]大分裂[[/link]]撕成两半，他却从未真正承诺要去解决，还有他最近做出的决定——把吉安·加莱亚佐·维斯孔蒂封为米兰公爵（在诸侯们看来，这就是拿帝国的一块块领地去换现钱），以及他跟异母弟弟西吉斯蒙德没完没了的纠葛——这位弟弟此时已经手握匈牙利王位，还坐拥勃兰登堡的选帝侯投票权，谁的账都不买。临别之际，瓦茨拉夫告诉在场的诸侯，他要亲自去法国斡旋，结束这场教会分裂。诸侯们直接告诉他：你敢去，我们就废了你。\n\n他还是照着那个方向做了点什么，可什么都没改变。法国那边的谈判毫无结果，波希米亚国内那些早就[[link:from-king-to-prisoner-1394]]让他吃过一次绑架苦头[[/link]]的老麻烦，也照样在暗中发酵，摩拉维亚的约布斯特这时候两头下注，一边搅和着家族内斗，一边也在给帝国选帝侯们控告自己这位堂兄的案子添柴加火。到1390年代末，一个由莱茵诸侯组成的阵营已经彻底没了耐心：美因茨、特里尔、科隆三位大主教，再加上普法尔茨选帝侯鲁普雷希特三世。\n\n1400年8月20日，四位选帝侯齐聚莱茵河畔的拉内克城堡，正式宣布废黜瓦茨拉夫。他们自己拟的这份诏书，压根没打算讲究什么外交辞令：\n\n[[quote:0]]\n\n第二天，在雷讷斯，他们选出了鲁普雷希特三世本人，接任罗马人的国王。\n\n瓦茨拉夫从没承认过这一切。他余生一直自称罗马人的国王，却也没真正想过要把这个头衔夺回来，一如既往，只要有波希米亚，他就心满意足了。鲁普雷希特这边也没好到哪去。1401年，他率军进入意大利，指望能从教皇那里换来一顶皇帝的冠冕，路上还跟吉安·加莱亚佐·维斯孔蒂较上了劲，而这位米兰公爵的头衔，正是瓦茨拉夫刚刚才被指控\"贱卖\"出去的那个。鲁普雷希特在布雷西亚城外吃了败仗，军费也耗尽了，最后两手空空地回了家，既没拿到王冠，也没等来加冕。帝国就这样，把一个不肯解决问题的国王，换成了一个解决不了问题的国王。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "...a useless, negligent, careless dismantler, and an unworthy custodian of the Holy Roman Empire.",
+          cz: "...neužitečný, nedbalý, nedůsledný rozkladatel a nehodný správce Svaté říše římské.",
+          zh: "……一个毫无用处、玩忽职守、粗心大意的破坏者，也是神圣罗马帝国一位不称职的守护者。",
+        },
+        attribution: {
+          en: "The electors' deposition charter, 20 August 1400",
+          cz: "Kurfiřtská listina o sesazení, 20. srpna 1400",
+          zh: "选帝侯废黜诏书，1400年8月20日",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/August_1400_imperial_election",
+  },
+  // Era 5's ninth card, right after 'the-crown-they-took-away-1400'.
+  // Outline (the 1402 Sigismund-instigated capture and Vienna
+  // imprisonment, the 1403 escape and 1403-05 concessions, the economic/
+  // social decline, the 1409 Pisa recognition and 1410 loss of the title
+  // to Sigismund) dictated by the user; expanded and fact-checked via
+  // WebSearch, including a request to also look for relatedLandmarks/
+  // quotes.
+  // - Confirmed via WebSearch (English and Czech): 6 March 1402 arrest
+  //   at the Royal Court in Prague (already a Location via
+  //   'namesti-republiky', already tied to Wenceslas via
+  //   'the-indecisive-king-1382's menagerie material); captivity route
+  //   via Český Krumlov (a second use of 'cesky-krumlov-castle', first
+  //   used in 'from-king-to-prisoner-1394') to Schaunberg Castle, then
+  //   handed to the Habsburg dukes in Vienna that autumn; the 11 Nov
+  //   1403 escape (disguise, a boat across the Danube, John II of
+  //   Liechtenstein and 50 riders on the far bank, the ride via Mikulov,
+  //   Brno, and Karlštejn back to Prague); the 1403-05 concessions,
+  //   specifically the early-1405 handover of regional judicial
+  //   authority (krajští popravci) to nobility-drawn officials; Kutná
+  //   Hora's silver decline, plague, and general lawlessness in this
+  //   period; the 1409 Council of Pisa's re-recognition of Wenceslas as
+  //   King of the Romans (a real, sourced political jab at Rupert, who
+  //   stayed loyal to the rival Roman-obedience pope) that never
+  //   translated into actual power; Rupert's May 1410 death; and
+  //   Sigismund's own 1410 election — including the genuinely excellent
+  //   detail (confirmed via a dedicated follow-up search, not assumed)
+  //   that Jobst of Moravia, Wenceslas's own recurring domestic
+  //   antagonist from 'from-king-to-prisoner-1394' and
+  //   'the-crown-they-took-away-1400', briefly out-polled Sigismund for
+  //   the same title on 1 October 1410 before dying three months later
+  //   and clearing the field — too good a beat, given Jobst's recurring
+  //   role in this exact saga, to leave out.
+  // - Genuine bonus find, not in the user's outline: Matěj Vůdce, a real
+  //   bandit who spent years robbing Rožmberk caravans in South Bohemia
+  //   until Henry III of Rožmberk cracked down in 1407 — and whose gang,
+  //   per a dedicated Wikipedia article, briefly included a young Jan
+  //   Žižka before the 1407 crackdown. Used as the concrete illustration
+  //   of this card's "banditry" line rather than leaving it abstract,
+  //   and as a deliberate, unnarrated forward-hook to Žižka's own much
+  //   larger role once the Hussite Wars are reached — flagged the same
+  //   way this file already flags other future protagonists (see the
+  //   standing Rožmberk/Vítkovci reminder this project has carried since
+  //   2026-08-22). ZH transliteration "扬·杰式卡" confirmed against
+  //   zh.wikipedia.
+  // - No quotes[] entry: three separately-worded WebSearch passes (the
+  //   1402 captivity, the 1403 escape, and the era's general lawlessness)
+  //   turned up rich secondary-source narrative detail but no genuinely
+  //   quotable primary-source line for this specific stretch — not for
+  //   lack of trying.
+  // - Karlštejn is mentioned in running prose (where Wenceslas found
+  //   safety immediately after his 1403 escape) but not added as a
+  //   third relatedLandmarks entry — its role here is a brief waypoint,
+  //   not central to the captivity the way the arrest site and the
+  //   Krumlov leg of the route are.
+  {
+    slug: "the-brother-who-replaced-him-1410",
+    era: "religious-turmoil",
+    startYear: 1410,
+    images: [
+      "/history/the-brother-who-replaced-him-1410-prague.webp",
+      "/history/the-brother-who-replaced-him-1410-frankfurt.webp",
+    ],
+    imageCaptions: [
+      {
+        en: "Guards in Luxembourg colors, seizing him steps from his own lions.",
+        cz: "Stráže v lucemburských barvách ho zajaly jen pár kroků od jeho vlastních lvů.",
+        zh: "身着卢森堡家族纹章的卫兵，在离他自己养的狮子几步远的地方，把他擒住。",
+      },
+      {
+        en: "Same family, same crown, a different brother wearing it now.",
+        cz: "Stejná rodina, stejná koruna, teď ji nosí jiný bratr.",
+        zh: "同一个家族，同一顶王冠，如今戴着它的换了一个弟弟。",
+      },
+    ],
+    year: {
+      en: "1402–1410",
+      cz: "1402–1410",
+      zh: "1402年－1410年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Brother Who Replaced Him",
+      cz: "Bratr, který ho nahradil",
+      zh: "取而代之的弟弟",
+    },
+    hookLine: {
+      en: "By 1402, Wenceslas had already survived one kidnapping by his own nobles. His own brother decided he could do better.",
+      cz: "Do roku 1402 už Václav přežil jeden únos vlastními šlechtici. Jeho vlastní bratr usoudil, že to dokáže líp.",
+      zh: "到1402年，瓦茨拉夫已经从自己贵族手中的一次绑架里活了下来。他的亲弟弟觉得，自己能做得更漂亮。",
+    },
+    summary: {
+      en: "In March 1402, Sigismund had his own half-brother arrested at the [[link:the-indecisive-king-1382]]Royal Court[[/link]] in Prague, the same residence, complete with lions, tigers, and bears, that Wenceslas had built for himself two decades earlier. It wasn't the king's first time in custody, but this time the whole family was involved: Sigismund, still smarting over Wenceslas's own erratic treatment of him and eager for a firmer grip on Bohemia, had his brother marched south under guard. The route ran once again through [[link:the-five-roses-1394]]Rožmberk[[/link]] territory at Český Krumlov, before Wenceslas was locked up first at Schaunberg Castle and then, by autumn, handed over to the Habsburg dukes in Vienna itself.\n\nWenceslas didn't wait for anyone's permission to leave. On 11 November 1403, disguised, he slipped out during the afternoon, crossed the Danube by boat, and found John II of Liechtenstein and fifty riders waiting on the far bank. They rode hard through Mikulov and Brno before he finally reached the safety of Karlštejn. Freedom came with a price tag, though, same as it had in 1394. Between 1403 and 1405, the high nobility kept adding new conditions, and Wenceslas kept accepting them one at a time rather than risk a third kidnapping. By early 1405, he'd formally handed judicial authority in the regions over to officials drawn mostly from the same noble class that had just finished locking him up. He returned to Prague afterward, but never really got his old authority back.\n\nThe kingdom he came back to wasn't the one his father had left him. Kutná Hora's silver, the fortune that had bankrolled the whole Golden Age, was running out by the early 1400s. Between the political chaos, recurring plague, and a Church still split into rival popes nobody could agree on, Bohemia's economy never recovered its old shine. Roads grew dangerous, robbery and murder became commonplace, and the poorest simply starved. One freelance bandit, Matěj Vůdce, spent years raiding [[link:the-five-roses-1394]]Rožmberk[[/link]] caravans in South Bohemia before Henry III of Rožmberk finally cracked down on the gang in 1407. One of the men who walked away before the arrests, a minor member of that same gang, was a young soldier named Jan Žižka. His own name meant nothing yet. It would.\n\nEven Wenceslas's own paperwork couldn't seem to hold still. In 1409, the Council of Pisa, busy trying to end the very Schism that had helped cost him his crown nine years earlier, formally recognized him as King of the Romans all over again, mostly as a political jab at Rupert, who'd stayed loyal to a rival pope. Wenceslas never actually reclaimed the throne in practice. Rupert died the following year, and this time it was Sigismund who stepped into the vacancy, elected King of the Romans in 1410, the very job the electors had stripped from his own brother a decade before. He didn't even win it cleanly: Jobst of Moravia, the same cousin who'd already given Wenceslas so much grief, briefly out-polled him for the same crown, only to drop dead three months later and clear the field anyway. The title Wenceslas had held since he was fifteen now belonged, for good, to the brother who'd once helped lock him up to get it.",
+      cz: "V březnu 1402 dal Zikmund zatknout vlastního nevlastního bratra v [[link:the-indecisive-king-1382]]Královském dvoře[[/link]] v Praze, v témže sídle i s lvy, tygry a medvědy, které si Václav sám vybudoval o dvacet let dřív. Nebylo to poprvé, co byl král v zajetí, ale tentokrát šlo o celou rodinu: Zikmund, pořád naštvaný na bratrovo vrtkavé chování k němu a dychtící po pevnější kontrole nad Čechami, ho nechal odvézt pod stráží na jih. Cesta znovu vedla přes rožmberské državy v [[link:the-five-roses-1394]]Českém Krumlově[[/link]], než byl Václav nejdřív uvězněn na hradě Schaunberk a na podzim předán habsburským vévodům přímo do Vídně.\n\nVáclav na ničí svolení nečekal. 11. listopadu 1403, přestrojený, se odpoledne vytratil, přeplavil se lodí přes Dunaj, na druhém břehu ho čekal Jan II. z Lichtenštejna s padesáti jezdci. Odtud ujížděli přes Mikulov a Brno, než konečně dorazil do bezpečí Karlštejna. Svoboda ale měla svou cenu, stejně jako v roce 1394. Mezi lety 1403 a 1405 vysoká šlechta postupně přidávala další a další podmínky, a Václav je jednu po druhé přijímal, jen aby neriskoval třetí únos. Začátkem roku 1405 formálně předal soudní pravomoc v krajích do rukou úředníků vybraných většinou ze stejné šlechty, která ho právě věznila. Do Prahy se pak vrátil, ale svou starou autoritu už si nikdy zpátky nezískal.\n\nKrálovství, do kterého se vrátil, už nebylo tím, co mu zanechal otec. Kutnohorské stříbro, jmění, které financovalo celý zlatý věk, začátkem 15. století docházelo. Mezi politickým chaosem, opakujícím se morem a církví pořád rozdělenou mezi soupeřící papeže se české hospodářství už nikdy nevzpamatovalo do starého lesku. Cesty zpustly, loupeže a vraždy zevšedněly a ti nejchudší prostě umírali hladem. Jeden nezávislý lapka, Matěj Vůdce, roky přepadal karavany [[link:the-five-roses-1394]]Rožmberků[[/link]] v jižních Čechách, než Jindřich III. z Rožmberka v roce 1407 s bandou konečně zatočil. Jeden z mužů, kteří odešli ještě před zatýkáním, drobný člen téže tlupy, byl mladý voják jménem Jan Žižka. Jeho jméno tou dobou ještě nic neznamenalo. To se mělo změnit.\n\nAni Václavovy vlastní papíry nevydržely v klidu. V roce 1409 ho pisánský koncil, zaneprázdněný snahou ukončit právě to schizma, které ho o devět let dřív stálo korunu, znovu formálně uznal římským králem, hlavně jako politický výpad proti Ruprechtovi, který zůstal věrný soupeřícímu papeži. Václav se trůnu ve skutečnosti nikdy znovu neujal. Ruprecht zemřel následující rok, a tentokrát na uprázdněné místo nastoupil Zikmund, zvolený římským králem v roce 1410, přesně na tu pozici, kterou kurfiřti jeho vlastnímu bratrovi vzali o deset let dřív. Ani tu nevyhrál bez boje: Jošt Moravský, tentýž bratranec, který už Václavovi způsobil tolik potíží, ho v hlasování o tutéž korunu krátce předstihl, jen aby o tři měsíce později náhle zemřel a stejně uvolnil pole. Titul, který Václav držel od svých patnácti let, teď natrvalo připadl bratrovi, který ho kdysi pomohl uvěznit, aby ho získal.",
+      zh: "1402年3月，西吉斯蒙德下令在布拉格的[[link:the-indecisive-king-1382]]王庭[[/link]]逮捕了自己同父异母的哥哥，那正是瓦茨拉夫二十年前亲自建起来的宅邸，里面还养着狮子、老虎和熊。这已经不是国王第一次被囚禁了，但这一次牵涉到了整个家族：西吉斯蒙德依然对哥哥反复无常的态度耿耿于怀，又急于把波希米亚攥得更紧，于是把兄长押解南下。押解路线再一次经过[[link:the-five-roses-1394]]罗森贝格[[/link]]家族在克鲁姆洛夫的地盘，随后瓦茨拉夫先被关进了绍恩贝格城堡，到了秋天，又被移交给了哈布斯堡家的几位公爵，直接送进了维也纳。\n\n瓦茨拉夫没有等谁批准。1403年11月11日，他乔装打扮，趁着下午溜了出去，坐船渡过多瑙河，对岸有约翰二世·冯·列支敦士登带着五十名骑兵接应。一行人随后一路疾驰，经米库洛夫、布尔诺，终于抵达了卡尔什特因城堡的安全庇护。可自由是有代价的，跟1394年那次一样。1403年到1405年间，上层贵族不断追加条件，瓦茨拉夫也一条接一条地接受下来，只求别再冒一次绑架的风险。到1405年初，他正式把地方司法权，交给了几乎清一色出身贵族的官员，而这些贵族，正是刚刚把他关起来的那批人。他后来回到了布拉格，但再也没能拿回从前的权威。\n\n他回去接手的这个王国，早已不是父亲留给他的那个了。库特纳霍拉的白银，那笔支撑起整个黄金时代的财富，到15世纪初已经开始枯竭。政治动荡、反复爆发的瘟疫，再加上教会依然被两位互不相让的教皇撕成两半，波希米亚的经济再也没能恢复往日的光彩。道路变得危险，抢劫和谋杀成了家常便饭，最穷的人干脆活活饿死。一个叫马特伊·伍德采的独行大盗，多年来一直在南波希米亚打劫[[link:the-five-roses-1394]]罗森贝格[[/link]]家族自己的商队，直到1407年，罗森贝格家的亨利三世才终于对这伙人下了狠手。在抓捕行动之前就已经离开团伙的人里，有一个不起眼的小喽啰，是个名叫扬·杰式卡的年轻士兵。他的名字这时候还没什么分量。以后会有的。\n\n就连瓦茨拉夫自己的头衔文书，似乎也没法消停。1409年，比萨教会会议一心想终结那场九年前曾让他丢掉皇冠的教会大分裂，却顺手又正式承认了他罗马人的国王身份，这么做，主要是为了在政治上敲打鲁普雷希特，因为后者依然效忠着另一位对立教皇。瓦茨拉夫实际上从未真正重新登上那个王座。第二年鲁普雷希特去世，这一次，填补空缺的换成了西吉斯蒙德，1410年，他当选为罗马人的国王，接手的正是十年前选帝侯们从自己哥哥手里夺走的那个位子。他甚至都没能干干净净地赢下这个头衔：约布斯特，那位早已给瓦茨拉夫惹了不少麻烦的堂兄，一度在同一场王位角逐里票数还领先于他，结果三个月后突然暴毙，照样白白让出了这个位置。瓦茨拉夫十五岁起就握在手里的这个头衔，如今永久地归了这位弟弟，当年正是这位弟弟，帮着把他关起来，只为了自己能得到它。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "namesti-republiky",
+        relation: {
+          en: "Site of the old Royal Court, the same residence, menagerie and all, where Sigismund had Wenceslas arrested a second time in March 1402.",
+          cz: "Místo bývalého Královského dvora, téhož sídla i s menažerií, kde dal Zikmund Václava v březnu 1402 podruhé zatknout.",
+          zh: "旧日王庭的所在地，正是这同一座宅邸（连兽苑都还在），西吉斯蒙德1402年3月就是在这里第二次下令逮捕了瓦茨拉夫。",
+        },
+      },
+      {
+        slug: "cesky-krumlov-castle",
+        relation: {
+          en: "The second time in this saga a captive Wenceslas passed through Rožmberk hands here, this time on his way to Schaunberg and then Vienna.",
+          cz: "Podruhé v této ságe, kdy zajatý Václav prošel rukama Rožmberků právě tady, tentokrát na cestě na Schaunberk a pak do Vídně.",
+          zh: "这已经是瓦茨拉夫第二次被押着经过这里、落入罗森贝格家族之手，这一次的路线通向绍恩贝格城堡，随后是维也纳。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Wenceslaus_IV_of_Bohemia",
+  },
+  // Era 5's tenth card, right after 'the-brother-who-replaced-him-1410'.
+  // RESTRUCTURED 2026-09-02 at the user's explicit request: this card
+  // originally covered only the Schism/crusade/bull-proclamation half of
+  // the story, ending with a full paragraph introducing Hus, while a
+  // separate card (then dated 1412) covered the actual Tiem/money-chest
+  // sale and gave Hus a second, overlapping introduction. The user
+  // flagged the two cards as redundant with each other and asked for a
+  // full merge: this card now carries the WHOLE indulgence-sale story
+  // start to finish (Pisa's failure through the actual May 1412 sale and
+  // the king/archbishop's own cut of it), keeping the "Salvation, Priced
+  // to Sell" title that used to belong to the other card, and closing
+  // with only a one-line, deliberately unelaborated Hus mention, per the
+  // user's own example wording ("查理大学的一位教授，名叫胡斯，看在眼里").
+  // The old 1412 slug is retired; Hus's actual introduction and his June
+  // 1412 disputation now live in their own dedicated card,
+  // 'who-is-jan-hus-1412', which opens by picking the story back up at
+  // the same Tiem-arrival moment (per the user's own instruction) before
+  // pivoting into a proper, still deliberately simple biography.
+  // - Confirmed via WebSearch (unchanged from the original two cards,
+  //   see git history if the sourcing detail is ever needed again): the
+  //   1409 Council of Pisa's own failure and Baldassare Cossa/John
+  //   XXIII's "pirate pope" reputation; the 1411 crusade proclamation
+  //   against Ladislaus of Naples; the two 1411 bulls; John XXIII's
+  //   commissioner Wenceslas Tiem reaching Prague on 22 May 1412; the
+  //   three money-chest churches and the street drums; and King
+  //   Wenceslas and Prague's own archbishop both taking a personal cut
+  //   of the proceeds.
+  // - Dropped in this merge, as genuinely redundant once both halves sit
+  //   in one card: the old 1412 card's own re-explanation of the basic
+  //   indulgence mechanic (already covered in this card's own second
+  //   paragraph) and its own separate "Bohemia was already poor" framing
+  //   (already covered via the [[link:the-brother-who-replaced-him-1410]]
+  //   line). The John XXIII/Ladislaus reconciliation irony that used to
+  //   close the old 1411 half was cut too — it worked as a closer when
+  //   Hus's own introduction filled out the rest of that card, but reads
+  //   as a digression now that the card ends on the much tighter,
+  //   deliberately minimal Hus line the user asked for.
+  // - Added 2026-09-02 at the user's follow-up request: the third
+  //   money-chest church, up on Vyšehrad, is now linked too, as
+  //   'basilika-sv-petra-pavla' (the Basilica of Saints Peter and Paul,
+  //   the actual church up there) rather than the bare 'vysehrad' slug —
+  //   which this project has been avoiding since it was found to hold
+  //   mismatched content ("Leopold Gate," not the Basilica) and was
+  //   never fixed. The basilica slug sidesteps that bug entirely rather
+  //   than waiting on the fix.
+  // - Corrected 2026-09-02, same session, at the user's own catch: the
+  //   [[link:slug]] inline marker was briefly misused here to wrap the
+  //   three money-chest churches' names, pointing it at Location slugs
+  //   ('st-vitus-cathedral', 'tyn-church', 'basilika-sv-petra-pavla').
+  //   That marker's actual job (per this file's own established
+  //   convention, and HistoryEventSection.jsx's renderInlineLinks) is
+  //   event-to-event navigation only — it smooth-scrolls to another
+  //   History Timeline EVENT's own section, and has no meaning for a
+  //   Location slug, which already gets its own clickable card via
+  //   relatedLandmarks. Removed the wrapper on all three (and on
+  //   'who-is-jan-hus-1412's own mentions of 'bethlehem-chapel',
+  //   'karolinum', and 'husinec' in the same pass) — plain text now,
+  //   same as how every other relatedLandmarks-only mention in this file
+  //   has always been written. Worth remembering going forward:
+  //   [[link:...]] targets are always another dated event or background
+  //   card's slug, never a Location slug.
+  {
+    slug: "salvation-priced-to-sell-1411",
+    era: "religious-turmoil",
+    startYear: 1411,
+    images: ["/history/salvation-priced-to-sell-1411.webp"],
+    imageCaptions: [
+      {
+        en: "A friar sells forgiveness by the chest-load. One onlooker isn't buying it.",
+        cz: "Mnich prodává odpuštění po pokladnicích. Jeden divák to nekupuje.",
+        zh: "神父按箱兜售赦免。有一个旁观者，一分钱都不打算掏。",
+      },
+    ],
+    year: {
+      en: "1411–1412",
+      cz: "1411–1412",
+      zh: "1411年－1412年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Salvation, Priced to Sell",
+      cz: "Spása na prodej",
+      zh: "明码标价的救赎",
+    },
+    hookLine: {
+      en: "The war for Rome needed money. Bohemia, already starving, got asked to pay for it anyway, with drums in the street to make the sale.",
+      cz: "Válka o Řím potřebovala peníze. Čechy, už tak vyhladovělé, měly stejně zaplatit, s bubny v ulicích, aby se ten prodej rozjel.",
+      zh: "这场争夺罗马的战争需要钱。已经在挨饿的波希米亚，还是被要求掏这笔钱，街头还敲着鼓招揽生意。",
+    },
+    summary: {
+      en: "The Council of Pisa had tried to end the Church's Great Schism in 1409 by electing a third pope instead of choosing between the existing two. It didn't work. Rome still had Gregory XII, Avignon still had Benedict XIII, and now there was a third claimant as well, Alexander V, who died within the year and was replaced by Baldassare Cossa, a former soldier with a reputation shady enough that later writers called him a pirate, crowned as John XXIII. In 1411, John XXIII decided the fastest way to settle the argument was force: he proclaimed a crusade against King Ladislaus of Naples, the man protecting Gregory XII and, more to the point, sitting on Rome itself.\n\nWars cost money, and Bohemia, whatever its own troubles, was still part of the empire John XXIII could tax. Papal bulls issued that September and December proclaimed indulgences across the kingdom: pay for one, and the buyer's own sins would skip purgatory entirely on the way to heaven. Bohemians weren't fooled for a second. They recognized a fundraising drive dressed up as theology when they saw one, and they recognized the timing even faster: [[link:the-brother-who-replaced-him-1410]]the kingdom's own silver had already run dry[[/link]], its economy hadn't recovered in a decade, and robbery and starvation were already everyday facts of life. Asking a starving country to buy its way out of the afterlife struck most people as exactly the kind of joke it was.\n\nThe theology took nearly a year to actually show up on Bohemia's own doorstep. On 22 May 1412, a papal commissioner named Wenceslas Tiem reached Prague to run the sale in person, and he wasted no time setting up shop. Money chests went up in three of the city's most prominent churches at once, St. Vitus Cathedral, the Týn Church, and the Vyšehrad basilica, and Tiem's agents beat drums through the streets to draw a crowd, the same trick used to sell fish or cloth at any market stall in the city. The absurdity wasn't just that the theology itself was for sale, though. It was who was cutting themselves in on the profits: King Wenceslas himself and Prague's own archbishop had both agreed to take a share of whatever the sale actually raised. The crown that couldn't feed its own subjects had found room in its own budget for a cut of the collection plate.\n\nOne person in particular was watching closely. The rector of Charles University, a man named Jan Hus, took note.",
+      cz: "Pisánský koncil se v roce 1409 pokusil ukončit velké papežské schizma tím, že místo výběru mezi dvěma stávajícími papeži zvolil rovnou třetího. Nefungovalo to. Řím měl pořád Řehoře XII., Avignon pořád Benedikta XIII., a teď k tomu přibyl ještě třetí uchazeč, Alexandr V., který do roka zemřel a na jeho místo nastoupil Baldassare Cossa, bývalý voják s pověstí natolik pochybnou, že mu pozdější autoři říkali pirát, korunovaný jako Jan XXIII. V roce 1411 se Jan XXIII rozhodl, že nejrychlejší způsob, jak spor urovnat, je síla: vyhlásil křížovou výpravu proti neapolskému králi Ladislavovi, muži, který chránil Řehoře XII. a hlavně seděl přímo na Římě.\n\nVálky stojí peníze, a Čechy, ať měly vlastních potíží kolik chtěly, byly pořád součástí říše, kterou mohl Jan XXIII zdanit. Papežské buly vydané toho září a prosince vyhlásily po celém království odpustky: zaplať za jeden, a kupcovy vlastní hříchy přeskočí očistec rovnou na cestě do nebe. Čechy se nenechaly ani na chvíli oklamat. Poznaly sbírku na peníze přestrojenou za teologii, jakmile ji uviděly, a ještě rychleji poznaly její načasování: [[link:the-brother-who-replaced-him-1410]]stříbro království už dávno došlo[[/link]], hospodářství se za deset let nevzpamatovalo a loupeže s hladomorem už patřily k všednímu dni. Žádat vyhladovělou zemi, aby si koupila cestu z posmrtného trestu, připadalo většině lidí přesně jako ten vtip, kterým to bylo.\n\nTeologie se na český práh dostala až skoro po roce. 22. května 1412 dorazil do Prahy papežský komisař jménem Wenzel Tiem, aby řídil prodej osobně, a neztrácel čas se zabydlením. Pokladny na peníze se objevily hned ve třech nejvýznamnějších kostelech města najednou, v katedrále svatého Víta, v Týnském chrámu a v bazilice na Vyšehradě, a Tiemovi lidé bubnovali v ulicích, aby přilákali dav, přesně ten samý trik, kterým se ve městě prodávaly ryby nebo sukno na jakémkoli tržišti. Absurdní na tom ale nebylo jen to, že se prodávala teologie. Bylo to, kdo si na tom vzal svůj podíl: král Václav osobně i pražský arcibiskup se dohodli, že si oba vezmou svůj podíl z toho, co prodej skutečně vynese. Koruna, která nedokázala nakrmit vlastní poddané, si ve vlastním rozpočtu přece jen našla místo na podíl z mešní pokladničky.\n\nJeden člověk to sledoval obzvlášť pozorně. Rektor Karlovy univerzity, muž jménem Jan Hus, si toho všiml.",
+      zh: "1409年，比萨教会会议试图终结教会的大分裂，办法却是干脆再选出第三位教皇，而不是从原有两位里选一个。结果没能奏效。罗马那边照样有格里高利十二世，阿维尼翁那边照样有本笃十三世，如今又多了第三位争夺者亚历山大五世，此人不到一年就去世了，继任的是巴尔达萨雷·科萨，一位前军人，名声之差，后世作者干脆叫他\"海盗\"，登基后称约翰二十三世。1411年，约翰二十三世认定，平息这场争端最快的办法就是动武：他宣布对那不勒斯国王拉迪斯劳斯发起十字军东征，此人正是庇护格里高利十二世的靠山，更关键的是，他手里还攥着罗马城本身。\n\n打仗要花钱，而波希米亚，不管自己有多少烦心事，依然是约翰二十三世能够征税的帝国的一部分。那年9月和12月颁布的教皇诏书，在整个王国范围内宣布出售赎罪券：花钱买一张，买主的罪孽就能在通往天堂的路上，直接跳过炼狱。波希米亚人一秒钟都没被骗过去。这是一场披着神学外衣的敛财活动，他们一眼就看穿了，而且更快地看穿了这背后的时机：[[link:the-brother-who-replaced-him-1410]]王国的白银早就枯竭了[[/link]]，经济十年都没缓过来，抢劫和饥饿早已成了家常便饭。让一个正在挨饿的国家花钱买来世的安宁，在大多数人眼里，这就是个不折不扣的笑话。\n\n这套神学花了将近一年时间，才真正来到波希米亚自己的家门口。1412年5月22日，一位名叫文策尔·蒂姆的教皇特使抵达布拉格，亲自主持这场销售，一到就立刻开张。钱箱同时摆进了城里三座最重要的教堂：圣维特大教堂、提恩教堂，还有维谢赫拉德的圣殿，蒂姆的手下敲着鼓在街上招揽人群，跟这座城市集市上卖鱼卖布的手法一模一样。可荒唐的不只是神学被拿来贩卖。更荒唐的是谁分了这笔钱：国王瓦茨拉夫本人和布拉格自己的大主教，都同意从这场销售的实际收益里分一杯羹。一个连自己臣民都养不活的王室，却在自己的预算里，给教堂捐款箱的抽成留出了位置。\n\n有一个人，看得比谁都更仔细。查理大学的校长，名叫胡斯，看在眼里。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "One of the three churches where Tiem's money chests went up on 22 May 1412, drums included.",
+          cz: "Jeden ze tří kostelů, kde 22. května 1412 stanuly Tiemovy pokladny na peníze, bubny nevyjímaje.",
+          zh: "1412年5月22日，蒂姆的钱箱在这里、以及另外两座教堂同时摆开，还配上了敲鼓招揽的阵仗。",
+        },
+      },
+      {
+        slug: "tyn-church",
+        relation: {
+          en: "The second of the three churches chosen to host a money chest that same day — though not yet wearing the twin Gothic spires it's known for today, which weren't finished for another several decades.",
+          cz: "Druhý ze tří kostelů vybraných k umístění pokladny na peníze téhož dne — tou dobou ještě bez dvou gotických věží, kterými je dnes proslulý; ty byly dokončeny až o několik desetiletí později.",
+          zh: "同一天被选中摆放钱箱的三座教堂之一，当时它还没有今天闻名的那对哥特式尖塔，那是几十年后才建成的。",
+        },
+      },
+      {
+        slug: "basilika-sv-petra-pavla",
+        relation: {
+          en: "The third of the three churches chosen to host a money chest that same day, up on the Vyšehrad hill.",
+          cz: "Třetí ze tří kostelů vybraných k umístění pokladny na peníze téhož dne, nahoře na vyšehradském kopci.",
+          zh: "同一天被选中摆放钱箱的第三座教堂，坐落在维谢赫拉德山丘上。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Antipope_John_XXIII",
+  },
+  // Background card inserted between 'salvation-priced-to-sell-1411' and
+  // 'who-is-jan-hus-1412' at the user's explicit request (slugs updated
+  // 2026-09-02 when those two surrounding cards were restructured/
+  // renamed; this card's own content is unaffected) — a
+  // general explainer on what an indulgence actually was/how the whole
+  // system worked, since the two surrounding cards assume the reader
+  // already knows. The user supplied the content themselves (originally
+  // written by Gemini in a deliberately blunt, colloquial ZH voice) and
+  // asked for it to be kept close to as-given rather than rewritten into
+  // this project's usual wry-historical-narrator register — a
+  // deliberate, one-off style exception for this card, not a house-wide
+  // change. EN/CZ were written fresh to match the same content/structure
+  // (per this project's standing trilingual-parity rule) rather than
+  // translated word-for-word from the user's ZH source.
+  // - The user's own material covered the full arc through Luther's 1517
+  //   Ninety-Five Theses and the eventual 1567 papal ban on selling
+  //   indulgences for money — genuinely outside this project's own
+  //   Bohemia-focused timeline (Luther's story will never get its own
+  //   dated card here), but kept per the same logic already established
+  //   for 'what-was-the-hundred-years-war-1337': necessary outside
+  //   context a background card is allowed to summarize even when it
+  //   ranges far past the surrounding cards' own dates.
+  // - Confirmed via WebSearch rather than taken on faith from the user's
+  //   source: Luther's Thesis 82 exact wording (used as [[quote:0]], a
+  //   strong, well-documented primary source); the Council of Trent's
+  //   1563 condemnation and Pius V's 1567 formal ban on selling
+  //   indulgences for money; and, importantly, that the Tetzel "coin in
+  //   the coffer" jingle's attribution to Tetzel himself is genuinely
+  //   disputed by historians (no primary source ties the words to him
+  //   directly) — kept in the prose as reported/attributed rather than
+  //   asserted as his own confirmed words, a lighter-touch hedge than
+  //   the user's own source used but consistent with this project's
+  //   general practice of flagging uncertain attributions (compare the
+  //   Nepomuk confession-seal legend).
+  // - Closing line deliberately ties back to Hus's own 1412 disputation
+  //   ("more than a century and a half" before Luther) without stating
+  //   that Hus was later executed for it (1415, Council of Constance) —
+  //   that fact doesn't have its own card yet, and this project has
+  //   already once cut a similar forward-spoiler from a background/aside
+  //   mention at the user's own request (John of Luxembourg's death
+  //   location, cut from 'an-alliance-with-france-1337'-adjacent
+  //   material). Same caution applied here on my own initiative.
+  // - cardType: 'background', so no relatedLandmarks (hard rule, no
+  //   exception here even though Wittenberg/Rome could theoretically
+  //   tempt one — both are outside the Czech Republic anyway). No image
+  //   either; the 2026-09-02 rule change makes one optional for
+  //   background cards, but none was requested this time.
+  {
+    slug: "what-are-indulgences-1411",
+    era: "religious-turmoil",
+    startYear: 1411.5,
+    cardType: "background",
+    year: {
+      en: "1200s–1567",
+      cz: "1200s–1567",
+      zh: "13世纪－1567年",
+    },
+    tone: "humorous",
+    title: {
+      en: "What Are Indulgences?",
+      cz: "Co jsou to odpustky?",
+      zh: "什么是赎罪券？",
+    },
+    hookLine: {
+      en: "A theology built entirely on a fear of fire, sold across five centuries as a paper shortcut around it.",
+      cz: "Teologie postavená čistě na strachu z ohně, prodávaná napříč pěti stoletími jako papírová zkratka kolem něj.",
+      zh: "一套完全建立在\"怕下地狱\"这份恐惧之上的神学，被当成一张纸质的\"抄近道\"，卖了整整五个世纪。",
+    },
+    summary: {
+      en: "An indulgence wasn't really a piece of paper. It was a business built entirely on a specific medieval fear. The Church taught that every sinner, even one who'd properly confessed and been forgiven by a priest, still owed a debt: time spent suffering in purgatory before the soul was clean enough for heaven, sometimes centuries' worth. The Church's own solution was to claim it held a kind of infinite reserve account, a \"treasury of merit\" built up from the surplus goodness of Christ and the saints, more than enough credit to cover anyone's shortfall. An indulgence was simply a withdrawal slip against that account, printed on paper and sold for cash, that canceled out a chunk of a buyer's own time in purgatory.\n\nThe business only grew from there. What started as a discount for the living eventually expanded to cover the dead too: buy one for a deceased parent, and their own sentence in purgatory would shrink as well. By the early 16th century, when the papacy needed money to rebuild St. Peter's Basilica in Rome, the sales pitch had turned into an outright jingle. The preacher most famously associated with it, Johann Tetzel, is remembered for a rhyme he may or may not have actually coined himself: as soon as the coin in the coffer rings, the soul from purgatory springs. A system that was supposed to encourage genuine repentance had turned into something closer to a coupon: rich sinners bought their way out, and everyone else was simply out of luck.\n\nIt took a German monk named Martin Luther to turn that absurdity into a formal complaint. In 1517, he nailed Ninety-Five Theses to a church door in Wittenberg, and one line in particular cut straight to the point:\n\n[[quote:0]]\n\nThe question spread faster than anyone in Rome could contain it. Luther's own break from the Church grew into the Protestant Reformation, splitting Western Christianity in two. The Catholic Church itself eventually agreed the whole business had gone too far: in 1567, Pope Pius V formally banned selling indulgences for money outright, more than a century and a half after a Bohemian preacher named Jan Hus had already made almost the same argument, in almost the same words, from a lecture hall in Prague.",
+      cz: "Odpustek nebyl ve skutečnosti kus papíru. Byl to obchod postavený čistě na jednom konkrétním středověkém strachu. Církev učila, že každý hříšník, i ten, kdo se řádně vyzpovídal a dostal od kněze rozhřešení, pořád dluží: čas strávený utrpením v očistci, než bude duše dost čistá na nebe, někdy v řádu staletí. Vlastním řešením církve bylo tvrdit, že drží jakýsi nekonečný rezervní účet, \"poklad zásluh\" nashromážděný z přebytečné dobroty Kristovy a svatých, s dostatkem kreditu na pokrytí čehokoli, co komu chybělo. Odpustek byl prostě výběrní lístek z tohoto účtu, vytištěný na papíře a prodávaný za hotové, který vyškrtl kus kupcova vlastního času v očistci.\n\nObchod odtud jenom rostl. Co začalo jako sleva pro živé, se nakonec rozšířilo i na mrtvé: kup jeden za zesnulého rodiče, a jeho vlastní trest v očistci se taky zkrátí. Začátkem 16. století, kdy papežství potřebovalo peníze na přestavbu římské baziliky svatého Petra, se z prodejního hesla stala vyloženě popěvka. Kazatel nejvíc spojovaný s touto praxí, Johann Tetzel, je zapamatovaný pro říkanku, kterou možná sám vymyslel, a možná ne: jakmile mince v pokladně zazvoní, duše z očistce vyskočí. Systém, který měl podporovat opravdové pokání, se proměnil v cosi bližšího kupónu: bohatí hříšníci si koupili svobodu, všichni ostatní měli prostě smůlu.\n\nTrvalo, než jeden německý mnich jménem Martin Luther proměnil tuhle absurditu ve formální stížnost. V roce 1517 přibil na dveře kostela ve Wittenbergu devadesát pět tezí, a jedna věta obzvlášť mířila přímo k jádru věci:\n\n[[quote:0]]\n\nTa otázka se rozšířila rychleji, než ji Řím dokázal zadržet. Lutherův vlastní rozchod s církví přerostl v protestantskou reformaci, která rozštěpila západní křesťanství vedví. Katolická církev sama nakonec uznala, že celý obchod zašel příliš daleko: v roce 1567 papež Pius V. formálně zakázal prodej odpustků za peníze, víc než století a půl poté, co v pražské posluchárně přišel s téměř stejným argumentem, téměř stejnými slovy, český kazatel jménem Jan Hus.",
+      zh: "赎罪券说白了，就是中世纪天主教会靠着人们对死后下地狱的恐惧，倒卖的一种\"免罚VIP加速卡\"。教会告诉信徒：每个人生前都犯过罪，即便找神父忏悔、得到了宽恕，死后也不能直接进天堂，灵魂得先去一个叫\"炼狱\"的地方受苦受罚（比如被火烧上几百年），把罪彻底洗干净了，才能升天。教会接下来的操作是：它宣称自己手里攥着一个\"功德库\"，里面存的是耶稣和圣徒们留下的无穷功德，多到用不完。赎罪券，就是拿这份\"功德库\"里的存款开出的一张提款单，印成纸卖给你，买下它，就能直接抵消掉一部分在炼狱里受苦的时间。\n\n这门生意，后来只有越做越大。一开始只能给活人自己买，教会尝到甜头之后，业务很快就升级了：宣称给已故的父母亲人买也行，能帮他们减刑。到了16世纪初，教皇急着筹钱盖罗马的圣伯多禄大殿，推销的话术干脆变成了一句顺口溜。跟这句顺口溜绑在一起的推销员约翰·特策尔，未必真是这句话的原作者，但后世都把它记在了他头上：银币叮当一声掉进钱箱，灵魂嗖地一声就从炼狱跳进了天堂。一套本该鼓励人真心悔改的制度，最后活脱脱变成了一张优惠券，有钱的罪人花钱脱身，没钱的就只能自认倒霉。\n\n把这份荒唐正式变成一份抗议书的，是一位名叫马丁·路德的德国修士。1517年，他在维滕贝格一座教堂的门上，钉上了《九十五条论纲》，其中一条问得格外直白：\n\n[[quote:0]]\n\n这个问题传开的速度，罗马根本拦不住。路德跟教会的这场决裂，最终演变成了新教改革，把西方基督教一分为二。天主教会自己后来也承认这生意做得太过分：1567年，教皇庇护五世正式下令，禁止再拿钱直接换赎罪券，这距离一位波希米亚的传教士扬·胡斯，在布拉格的讲堂里提出几乎一模一样的质问，已经过去了一个半世纪还多。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "Why does not the pope empty purgatory, for the sake of holy love and of the dire need of the souls that are there, if he redeems an infinite number of souls for the sake of miserable money with which to build a church? The former reasons would be most just; the latter is most trivial.",
+          cz: "Proč papež nevyprázdní očistec ze svaté lásky a z naléhavé potřeby duší, které v něm jsou, jestliže pro ubohé peníze na stavbu kostela vykupuje nekonečné množství duší? Ten první důvod by byl nejspravedlivější, ten druhý je nejpošetilejší.",
+          zh: "教皇既然能为了那点可怜的、用来盖教堂的银子，就赎出无数灵魂，那他为什么不干脆出于神圣的爱、出于那些灵魂的切身需要，把炼狱清空呢？前一个理由才是最正当的，后一个理由，简直微不足道。",
+        },
+        attribution: {
+          en: "Martin Luther, Ninety-Five Theses, Thesis 82 (1517)",
+          cz: "Martin Luther, Devadesát pět tezí, teze 82 (1517)",
+          zh: "马丁·路德，《九十五条论纲》，第82条（1517年）",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Indulgence",
+  },
+  // Era 5's eleventh card. RESTRUCTURED 2026-09-02 at the user's
+  // explicit request, replacing what used to be a card called
+  // 'salvation-priced-to-sell-1412' (Tiem's arrival plus Hus's own
+  // disputation, with a fuller Hus introduction folded in). That card's
+  // money-chest/Tiem/king-and-archbishop-profit material has moved into
+  // the newly merged 'salvation-priced-to-sell-1411' (which now also
+  // carries that title). This card's own job, per the user's own
+  // instructions, is narrower and clearer: pick the story back up at the
+  // same 22 May 1412 Tiem-arrival moment with a brief recap line, then
+  // give Hus a real but still deliberately simple introduction — not a
+  // deep biography, just enough for a reader meeting him here to know
+  // who he is before watching him act.
+  // - Confirmed via WebSearch (same sourcing as the prior version of
+  //   this material, unchanged by the restructure): Hus's birth c.1372
+  //   in Husinec, 1400 ordination, Bethlehem Chapel preaching from 1402,
+  //   the 1409 Kutná Hora Decree and his own resulting rectorship at
+  //   Karolinum, his friend Jerome of Prague carrying Wycliffe's writings
+  //   back from Oxford roughly a decade before this card, and the June
+  //   1412 disputation itself (sources split between 7 and 17 June, so
+  //   this card just says "that June," same approach used elsewhere in
+  //   this file for similar date conflicts).
+  // - Hus's two-part argument (forgiveness comes from genuine
+  //   repentance, not payment; a peace-preaching Church has no business
+  //   funding somebody else's war) is reported as paraphrase, not
+  //   quoted directly — a modern secondary source rendered a line close
+  //   to "man obtains forgiveness of sins by true repentance, not
+  //   money," but its exact wording/provenance (a real translated quote
+  //   from the treatise, versus a summary sentence written by the
+  //   source itself) couldn't be confirmed, so it wasn't put in
+  //   quotes[]. No genuinely quotable, clearly-sourced primary-source
+  //   line turned up for this card despite two separately-worded
+  //   WebSearch passes.
+  // - Deliberately doesn't narrate the July 1412 execution of three
+  //   protesters who echoed Hus's own position — a serious enough beat
+  //   (three named men killed by their own city's magistrates) to
+  //   deserve its own card and its own tone. Closes on an unnarrated,
+  //   ominous forward-hook instead, same closing line the material used
+  //   before the restructure.
+  // - Added 2026-09-02, later the same session, at the user's request
+  //   after a follow-up WebSearch pass specifically confirmed it (a
+  //   dedicated source, Christian History Magazine's "To Build a Fire"):
+  //   Hus's own pulpit rhetoric went further than the Karolinum
+  //   disputation's academic argument, accusing the indulgence operation
+  //   outright of bankrolling brothels, taverns, and priests keeping
+  //   mistresses, and calling for an outright boycott. Kept as reported
+  //   prose, not a quotes[] entry, since it's still a paraphrase of the
+  //   charge rather than a verbatim line. The same search also surfaced
+  //   a further escalation — days after the disputation, Hus supporters
+  //   led by one Vok Voksa z Valdštejna publicly burned the papal bulls
+  //   — flagged to the user but not added here, reserved as possible
+  //   material for whichever future card covers the escalation toward
+  //   the July 1412 executions.
+  // - relatedLandmarks: 'bethlehem-chapel' and 'karolinum', both fully
+  //   earned here now that his introduction (not just his disputation)
+  //   lives in this card. The two money-chest churches
+  //   ('st-vitus-cathedral', 'tyn-church') stayed behind with
+  //   'salvation-priced-to-sell-1411', where the money-chest scene
+  //   itself now lives.
+  {
+    slug: "who-is-jan-hus-1412",
+    era: "religious-turmoil",
+    startYear: 1412,
+    images: ["/history/who-is-jan-hus-1412.webp"],
+    imageCaptions: [
+      {
+        en: "One hall, two audiences: some moved, some furious.",
+        cz: "Jeden sál, dvě publika: jedni dojatí, druzí zuřiví.",
+        zh: "一个大厅，两种反应：有人动容，有人怒火中烧。",
+      },
+    ],
+    year: {
+      en: "1412",
+      cz: "1412",
+      zh: "1412年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Rector Who Saw Through It All",
+      cz: "Rektor, který všechno prohlédl",
+      zh: "看穿一切的校长",
+    },
+    hookLine: {
+      en: "The rector of Charles University had been watching the indulgence sale closely. It was time to find out who he was.",
+      cz: "Rektor Karlovy univerzity sledoval prodej odpustků obzvlášť pozorně. Byl čas zjistit, kdo to vlastně je.",
+      zh: "查理大学的校长，一直在仔细盯着这场赎罪券生意。是时候看看，这个人到底是谁了。",
+    },
+    summary: {
+      en: "On 22 May 1412, [[link:salvation-priced-to-sell-1411]]a papal commissioner named Wenceslas Tiem had arrived in Prague[[/link]] to sell the Church's forgiveness by the chest-load, with the king himself taking a cut. One person in the city was watching more closely than anyone else: the rector of Charles University, a man named Jan Hus.\n\nHus had been born around 1372 in the South Bohemian village of Husinec, to a family with no particular standing. He was ordained a priest in 1400, and since 1402 had preached at Bethlehem Chapel, a hall built specifically for sermons in Czech rather than Latin, with room for as many as three thousand listeners at once. In 1409, Wenceslas's own Kutná Hora Decree had reshuffled the voting rules at Charles University in favor of its Czech masters, sending most of the German faculty and students packing and installing Hus as the university's own rector at Karolinum. He lived plainly and ascetically, a habit that stood out sharply against the wealth of the clergy he was already known for criticizing.\n\nMuch of what he preached wasn't entirely his own. A decade earlier, his friend Jerome of Prague had studied at Oxford and carried home the writings of the English theologian John Wycliffe, whose sharp attacks on Church wealth and corruption Hus had absorbed and made his own. [[b]]His own positions were just as blunt: he denounced the Roman Church's own corruption outright, attacked the buying and selling of church offices as simony, rejected indulgences on the same grounds, and insisted that Christ alone, not the pope, was the true head of the Church.[[/b]] By 1412, he wasn't some outsider shouting from the margins. He held two of the most visible pulpits in the kingdom, one literal, one academic, and he had just watched an antipope tax an already-starving Bohemia to fund a war hundreds of miles away in Italy.\n\nFrom his own pulpit, Hus had already gone further than academic argument. He accused the indulgence operation outright of bankrolling brothels, taverns, and priests who kept mistresses on the side, and called on his own congregation to boycott it entirely. That June, he took the same fight to Karolinum itself, staging a formal disputation on the question, arguing two points in front of colleagues, some of whom argued the other side just as formally: forgiveness came from genuine repentance, not a purchase, and a Church that preached peace had no business bankrolling somebody else's war. He had just told Bohemia's own king, and Rome's own antipope, that the entire scheme rested on nothing, in front of witnesses, on the record. That kind of thing tends to get answered.",
+      cz: "22. května 1412 [[link:salvation-priced-to-sell-1411]]dorazil do Prahy papežský komisař jménem Wenzel Tiem[[/link]], aby po plných pokladnách prodával odpuštění církve, a sám král si na tom bral svůj podíl. Jeden člověk ve městě to sledoval pozorněji než kdokoli jiný: rektor Karlovy univerzity, muž jménem Jan Hus.\n\nHus se narodil kolem roku 1372 v jihočeské vesnici Husinec, v rodině bez zvláštního postavení. V roce 1400 byl vysvěcen na kněze a od roku 1402 kázal v Betlémské kapli, síni postavené výslovně pro kázání v češtině, ne v latině, s místem až pro tři tisíce posluchačů najednou. V roce 1409 přepsal Václavův vlastní kutnohorský dekret volební pravidla na Karlově univerzitě ve prospěch jejích českých mistrů, poslal většinu německých profesorů a studentů pryč a Husa nechal na univerzitě v Karolinu jako jejího vlastního rektora. Žil prostě a asketicky, zvykem, který ostře kontrastoval s bohatstvím kléru, jejž už tou dobou kritizoval.\n\nVelká část toho, co kázal, nebyla úplně jeho vlastní. O deset let dřív studoval jeho přítel Jeroným Pražský v Oxfordu a přivezl si domů spisy anglického teologa Johna Wyclifa, jehož ostré útoky na církevní bohatství a úpadek si Hus osvojil za vlastní. [[b]]Jeho vlastní postoje byly stejně otevřené: otevřeně odsuzoval úpadek římské církve, útočil na kupčení s církevními úřady jako na svatokupectví, ze stejných důvodů odmítal odpustky a trval na tom, že jedinou skutečnou hlavou církve je Kristus, ne papež.[[/b]] V roce 1412 už nebyl žádný outsider křičející odkudsi z okraje. Držel dvě z nejviditelnějších kazatelen v celém království, jednu doslovnou, druhou akademickou, a právě sledoval, jak protipapež zdaňuje už tak vyhladovělé Čechy, aby zaplatil válku stovky mil daleko v Itálii.\n\nZe své vlastní kazatelny zašel Hus dál než k akademické argumentaci. Otevřeně obvinil celou tu odpustkovou operaci, že financuje nevěstince, hospody a kněze, kteří si drží milenky, a vyzval svůj vlastní sbor, aby ji úplně bojkotoval. Toho června přenesl stejný boj přímo do Karolina, kde uspořádal formální disputaci na toto téma, argumentující dva body před kolegy, z nichž někteří stejně formálně argumentovali opak: odpuštění pochází z opravdového pokání, ne z nákupu, a církev, která kázala mír, neměla co financovat cizí válku. Právě veřejně, před svědky, na záznam, řekl vlastnímu českému králi i římskému protipapeži, že celé to schéma stojí na ničem. Takové věci mívají obvykle odpověď.",
+      zh: "1412年5月22日，[[link:salvation-priced-to-sell-1411]]一位名叫文策尔·蒂姆的教皇特使抵达布拉格[[/link]]，用满满几箱钱兜售教会的赦免，国王本人都从中抽成。城里有一个人，比谁都盯得更紧：查理大学的校长，名叫胡斯。\n\n胡斯大约1372年出生于南波希米亚的胡西内茨村，家境平平。1400年被祝圣为神父，自1402年起，就在伯利恒礼拜堂布道，那是一座专门为用捷克语（而非拉丁语）布道而建的大厅，一次能容纳多达三千名听众。1409年，瓦茨拉夫颁布的库特纳霍拉法令，改写了查理大学的投票规则，让票权向捷克本地教师倾斜，赶走了大部分德意志教师和学生，胡斯则被留下来，成了查理大学自己的校长。他生活朴素克己，这种习惯跟他早已开始批评的那些神职人员的奢华形成了鲜明对比。\n\n他讲道的内容，很大一部分并非全然出自己手。十多年前，他的好友布拉格的耶罗姆曾在牛津求学，把英国神学家约翰·威克里夫的著述带回了家乡，胡斯把威克里夫对教会财富与腐败的犀利抨击，消化成了自己的东西。[[b]]他自己的主张同样直白：他强烈反对罗马教会的腐败，抨击买卖圣职的行径，出于同样的理由反对赎罪券，并坚持认为教会唯一真正的元首是基督，而不是教皇。[[/b]]到1412年，他已经不再是什么在边缘喊话的局外人了。他手握着这个王国里最引人注目的两个讲坛，一个是字面意义上的，一个是学术意义上的，此刻他正眼看着一位对立教皇，向已经饥肠辘辘的波希米亚征税，去资助一场远在意大利、几百英里外的战争。\n\n在自己的讲坛上，胡斯早就不满足于纯学术的辩论了。他直接指控，这整套赎罪券生意，钱最后流进了妓院、酒馆，还有那些包养情妇的神父腰包，并号召自己的会众彻底抵制它。那年6月，他把同一场战斗带到了卡罗林努姆学院，正式发起了一场专门针对赎罪券的辩论，当着同僚的面阐述了自己的两点主张，其中有人也同样正式地站在对立面：赦免来自真心的悔改，而不是一笔买卖；一个宣讲和平的教会，没资格去资助别人打的一场仗。他刚刚当着证人的面，白纸黑字地告诉了自己的波希米亚国王，也告诉了罗马的这位对立教皇：整套把戏根本站不住脚。这种事，通常都会有人来讨说法。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "bethlehem-chapel",
+        relation: {
+          en: "Where Hus had already been preaching for a decade by the time he took the indulgence question to the university itself.",
+          cz: "Místo, kde Hus už deset let kázal v době, kdy vzal otázku odpustků přímo na univerzitu.",
+          zh: "在把赎罪券这个问题带上大学讲坛之前，胡斯已经在这里布道了整整十年。",
+        },
+      },
+      {
+        slug: "karolinum",
+        relation: {
+          en: "Seat of Charles University, where Hus had been rector since 1409 and where he staged his formal disputation against the indulgences that June.",
+          cz: "Sídlo Karlovy univerzity, kde byl Hus rektorem od roku 1409 a kde toho června uspořádal svou formální disputaci proti odpustkům.",
+          zh: "查理大学的所在地，胡斯自1409年起担任这里的校长，也是在这里正式发起了那年6月反对赎罪券的辩论。",
+        },
+      },
+      {
+        slug: "husinec",
+        relation: {
+          en: "The small South Bohemian town where Hus was born around 1372, into a family with no particular standing.",
+          cz: "Malé jihočeské městečko, kde se Hus kolem roku 1372 narodil do rodiny bez zvláštního postavení.",
+          zh: "南波希米亚的一座小镇，大约1372年，胡斯就出生在这里一个家境平平的家庭。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Jan_Hus",
+  },
+  // Era 5's twelfth card, right after 'who-is-jan-hus-1412'. Outline
+  // (Hus's ideas spreading among ordinary Praguers past anyone's
+  // control, Voksa z Valdštejna's followers publicly burning the papal
+  // bulls, the beheading of three men who'd denounced the indulgences,
+  // their later status as the first Hussite martyrs) dictated by the
+  // user, expanded via WebSearch. This is the payoff for the bull-
+  // burning detail flagged and deliberately held back at the end of
+  // 'who-is-jan-hus-1412's own dev comment ("reserved as possible
+  // material for whichever future card covers the escalation") — it's
+  // this one.
+  // - tone: 'serious', not the default humorous register — three named
+  //   men were actually killed here, same treatment this file already
+  //   gives other atrocity-adjacent content (compare 'bloody-easter-
+  //   1389'). No jokes, no dry punchline closer.
+  // - Confirmed via WebSearch: the bull-burning procession organized by
+  //   Voksa z Valdštejna and Hus's own friend Jerome of Prague, an
+  //   allegorical cart hung with fake seals paraded from Malá Strana to
+  //   a New Town pillory where the actual papal bulls were burned; the
+  //   three executed men's names (Martin, a stonemason, plus Jan and
+  //   Stašek, all lower-class Praguers, not university men) and the
+  //   11 July 1412 execution date; and — the genuinely load-bearing
+  //   detail this card is really built around — that Hus personally
+  //   interceded with the city council for their lives, believed he'd
+  //   secured a promise they'd be spared, and the council broke it
+  //   anyway. Also confirmed: the funeral procession to Bethlehem
+  //   Chapel, led by a priest named Jan of Jičín singing the Latin
+  //   responsorium "Isti sunt sancti," and their burial the next day
+  //   with a mass for saints rather than a funeral mass.
+  // - [[quote:0]] is the actual liturgical text sung at the real
+  //   procession (per a dedicated Czech source), not invented crowd
+  //   dialogue — "Isti sunt sancti qui pro testamento Dei sua corpora
+  //   tradiderunt, et in sanguine Agni laverunt stolas suas," a
+  //   traditional medieval responsorium for multiple martyrs, genuinely
+  //   attested as sung at this specific moment by Jan of Jičín. Full
+  //   Latin wording confirmed via a separate search rather than assumed.
+  // - relatedLandmarks: just 'bethlehem-chapel' (the burial site and the
+  //   procession's destination). Checked for a Malá Strana or New Town
+  //   Location matching the bull-burning procession's own route or the
+  //   pillory site itself — nothing in the live DB names that specific
+  //   spot, so not forced.
+  {
+    slug: "the-conflict-escalates-1412",
+    era: "religious-turmoil",
+    startYear: 1412.5,
+    images: [
+      "/history/the-conflict-escalates-1412-bulls.webp",
+      "/history/the-conflict-escalates-1412-arrest.webp",
+    ],
+    imageCaptions: [
+      {
+        en: "Voksa and Jerome gave the crowd its own bonfire to cheer for.",
+        cz: "Voksa a Jeroným dali davu vlastní hranici, které mohl jásat.",
+        zh: "沃克萨和耶罗姆，给了人群一堆可以为之欢呼的篝火。",
+      },
+      {
+        en: "Dragged away mid-shout, still calling it what it was.",
+        cz: "Odvlečeni uprostřed výkřiku, pořád to nazývali tím, čím to bylo.",
+        zh: "话喊到一半就被拖走，他们仍然坚持说出真相。",
+      },
+    ],
+    year: {
+      en: "1412",
+      cz: "1412",
+      zh: "1412年",
+    },
+    tone: "serious",
+    title: {
+      en: "At Daggers Drawn",
+      cz: "Na ostří nože",
+      zh: "剑拔弩张",
+    },
+    hookLine: {
+      en: "Hus had only ever argued with words. His followers, and the city government, were about to escalate far beyond that.",
+      cz: "Hus zatím útočil jen slovy. Jeho stoupenci, a městská správa, se chystali zajít mnohem dál.",
+      zh: "胡斯至此为止，用的还只是言语交锋。他的追随者，还有市政当局，都即将把事情推向远不止于此的地步。",
+    },
+    summary: {
+      en: "By the summer of 1412, Hus's ideas had stopped being a university argument and become a citywide one. His sermons at Bethlehem Chapel reached ordinary Praguers directly, in their own language, and what had started as an academic disputation over indulgences was turning into something neither the university nor the crown could fully control.\n\nIndulgences were the spark, not the fuel. Ordinary Bohemians had been putting up with the Church's everyday demands for generations already: the mandatory tithe skimmed off every harvest and wage, a Latin Mass that left most parishioners unable to understand a word of their own church services, clergy who preached poverty while living comfortably off rents from Church land, and a legal system that let a priest accused of a real crime walk out of a Church court while an ordinary layman faced the king's own harsher justice for the same offense. None of that, on its own, had been enough to tip things over. A pope selling paper forgiveness to bankroll a war hundreds of miles away in Italy, with the king and the archbishop both taking a cut, finally was.\n\nThe first real break came from the streets. Led by a nobleman named Voksa of Valdštejn and Hus's own friend Jerome of Prague, a crowd organized a mock procession through the city: an allegorical cart hung with fake seals wound its way from Malá Strana across Prague to the pillory on what's now Charles Square in the New Town, where the actual papal bulls proclaiming the indulgences were burned in front of a cheering crowd. It was a direct, public insult to the authority of the Church, staged in broad daylight.\n\nThe city's own authorities answered in kind. Soldiers moved against demonstrators who had been standing up in church services themselves, interrupting sermons to shout that the indulgences were a fraud. Three of them were arrested: a stonemason named Martin, along with two others named Jan and Stašek, all men from Prague's lower classes rather than the university.\n\nHus personally intervened on their behalf, pleading with the city council for their lives, and came away believing he had secured a promise that they would be spared. The council broke it. On 11 July 1412, all three men were beheaded.\n\nA huge crowd gathered afterward and carried their bodies through Prague to Bethlehem Chapel itself. As the procession moved, a priest named Jan of Jičín began singing the old liturgical chant for martyrs:\n\n[[quote:0]]\n\nThe three men were buried inside the chapel the next day, not with a funeral mass, but with a mass for saints. Martin, Jan, and Stašek would be remembered afterward as the first martyrs of the movement that would soon carry Hus's own name.\n\nWhat had started as a disagreement over a piece of paper had hardened into something else entirely. Bohemia was no longer one kingdom arguing with itself. It was two camps now, Hussites and Catholics, watching each other across a line that had just been drawn in blood, and neither side showed any sign of stepping back.",
+      cz: "V létě 1412 přestaly být Husovy myšlenky jen univerzitní hádkou a staly se záležitostí celého města. Jeho kázání v Betlémské kapli oslovovala obyčejné Pražany přímo, v jejich vlastním jazyce, a to, co začalo jako akademická disputace o odpustcích, se proměňovalo v něco, co už nedokázala plně ovládat ani univerzita, ani koruna.\n\nOdpustky byly jiskra, ne palivo. Obyčejní Čechové už celé generace snášeli běžné požadavky církve: povinný desátek strhávaný z každé úrody a mzdy, latinskou mši, po které většina farníků nerozuměla jedinému slovu z vlastní bohoslužby, duchovenstvo, které kázalo chudobu a přitom pohodlně žilo z nájmů za církevní pozemky, a právní systém, který nechal kněze obviněného ze skutečného zločinu odejít z církevního soudu, zatímco obyčejný laik za stejný čin čelil tvrdší královské spravedlnosti. Nic z toho samo o sobě nestačilo, aby se pohár přetekl. Papež prodávající papírové odpuštění, aby zaplatil válku stovky mil daleko v Itálii, a král s arcibiskupem, kteří si na tom oba brali svůj podíl, to konečně dokázal.\n\nPrvní skutečný zlom přišel z ulice. Vedeni šlechticem Voksou z Valdštejna a Husovým vlastním přítelem Jeronýmem Pražským, zorganizovali lidé posměšný průvod městem: alegorický vůz ověšený falešnými pečetěmi se vinul z Malé Strany přes Prahu až k pranýři na dnešním Karlově náměstí na Novém Městě, kde byly skutečné papežské buly vyhlašující odpustky za jásotu davu spáleny. Byla to přímá, veřejná urážka autority církve, sehraná za bílého dne.\n\nMěstské úřady odpověděly stejnou mincí. Vojáci zasáhli proti demonstrantům, kteří se sami postavili přímo při bohoslužbách a přerušovali kázání výkřiky, že odpustky jsou podvod. Tři z nich byli zatčeni: kameník jménem Martin, spolu s dalšími dvěma jménem Jan a Stašek, muži z pražských nižších vrstev, ne z univerzity.\n\nHus se za ně osobně přimluvil, prosil městskou radu o jejich životy, a odešel v přesvědčení, že si vymohl slib, že budou ušetřeni. Rada slib porušila. 11. července 1412 byli všichni tři muži popraveni stětím.\n\nPoté se shromáždil obrovský dav a nesl jejich těla Prahou přímo do Betlémské kaple. Během průvodu začal kněz jménem Jan z Jičína zpívat starý liturgický chorál pro mučedníky:\n\n[[quote:0]]\n\nTři muži byli druhý den pohřbeni uvnitř kaple, ne mší za zemřelé, ale mší za svaté. Martin, Jan a Stašek byli od té doby vzpomínáni jako první mučedníci hnutí, které brzy ponese Husovo vlastní jméno.\n\nTo, co začalo jako spor o kus papíru, se proměnilo v něco úplně jiného. Čechy už nebyly jedno království hádající se samo se sebou. Byly to teď dva tábory, husité a katolíci, sledující se navzájem přes čáru, kterou právě vyznačila krev, a ani jedna strana nejevila známky ústupu.",
+      zh: "到1412年夏天，胡斯的思想已经不再只是一场大学内部的争论，而成了整座城市共同面对的事。他在伯利恒礼拜堂的讲道，用捷克语直接传到了普通布拉格市民耳中，一场原本只是学术层面的赎罪券辩论，正在演变成一件大学和王室都已经无法完全掌控的事情。\n\n赎罪券只是导火索，不是火药本身。波希米亚的普通百姓，早就已经忍受教会的日常盘剥好几代人了：每年从收成和工钱里扣走的强制什一税，用拉丁语做的弥撒让大多数信众连自己教堂里念的是什么都听不懂，神职人员一边宣讲清贫、一边靠着教会地产的租金过着舒坦日子，还有那套让神父就算犯下真正的重罪也能从教会法庭全身而退、而普通百姓犯下同样的罪却要面对国王更严厉审判的司法系统。这些事，单独哪一件都还没能把矛盾彻底引爆。真正让骆驼的脊背彻底压垮的，是一位教皇卖纸片换赦免、用来资助远在意大利、几百英里外的一场战争，而且国王和大主教还都从中分了一杯羹。\n\n第一次真正的决裂来自街头。由贵族沃克萨·冯·瓦尔德施泰因和胡斯自己的好友布拉格的耶罗姆牵头，一群人组织了一场讽刺性的游行：一辆挂满假印章的寓意花车，从小城区一路穿过布拉格，来到新城区、也就是今天卡洛夫广场所在的示众柱前，真正的教皇诏书就在欢呼的人群面前被付之一炬。这是在光天化日之下，对教会权威一次公然的、当众的羞辱。\n\n市政当局同样以强硬手段回应。士兵出动，对付那些在教堂礼拜时公开站出来、打断布道高喊赎罪券是骗局的抗议者。其中三人被捕：一位名叫马丁的石匠，还有另外两人，扬和斯塔谢克，三人都出身布拉格的下层阶级，而不是大学。\n\n胡斯亲自出面为他们求情，向市议会恳求饶他们一命，离开时他相信自己已经争取到了一个承诺，三人会被赦免。市议会没有履行这个承诺。1412年7月11日，三人全部被斩首。\n\n事后，庞大的人群聚集起来，把他们的遗体抬着穿过布拉格，一路送进了伯利恒礼拜堂。游行途中，一位名叫扬·冯·吉钦的神父开始唱起了那首古老的殉道者礼拜圣歌：\n\n[[quote:0]]\n\n第二天，三人被安葬在礼拜堂内，用的不是安魂弥撒，而是圣徒弥撒。马丁、扬和斯塔谢克，此后被人们记住，成了那场很快就要以胡斯之名为号召的运动，最早的殉道者。\n\n一场原本只是围绕一张纸的争论，如今已经彻底演变成了别的东西。波希米亚不再是一个内部争论的王国，而是分裂成了两大敌对阵营，胡斯派和天主教派，隔着一条刚刚用鲜血划下的界线彼此对峙，剑拔弩张，谁都没有退让的迹象。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "These are the saints who gave their own bodies for the testimony of God, and washed their robes in the blood of the Lamb.",
+          cz: "Toto jsou svatí, kteří vydali svá vlastní těla za svědectví Boží a umyli svá roucha v krvi Beránka.",
+          zh: "这些是圣徒，他们为神的见证献出了自己的身躯，用羔羊的血洗净了自己的衣袍。",
+        },
+        attribution: {
+          en: "Isti sunt sancti, the traditional Latin responsorium for martyrs, sung by Jan of Jičín as the procession carried the bodies to Bethlehem Chapel, 11 July 1412",
+          cz: "Isti sunt sancti, tradiční latinské responsorium za mučedníky, zpívané Janem z Jičína, když průvod nesl těla do Betlémské kaple, 11. července 1412",
+          zh: "《Isti sunt sancti》，传统的拉丁语殉道者应答圣歌，1412年7月11日由扬·冯·吉钦在遗体被抬往伯利恒礼拜堂的游行途中吟唱",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "bethlehem-chapel",
+        relation: {
+          en: "Where the crowd carried the three men's bodies on 11 July 1412, and where they were buried the next day with a mass for saints rather than a funeral mass.",
+          cz: "Místo, kam dav 11. července 1412 přinesl těla tří mužů a kde byli druhý den pohřbeni mší za svaté, ne mší za zemřelé.",
+          zh: "1412年7月11日，人群将三人的遗体抬到了这里，第二天以圣徒弥撒而非安魂弥撒的方式将他们安葬。",
+        },
+      },
+      {
+        slug: "karlovo-namesti",
+        relation: {
+          en: "Site of the New Town's medieval pillory, where the procession ended and the actual papal bulls were burned in front of the cheering crowd.",
+          cz: "Místo někdejšího novoměstského pranýře, kde průvod skončil a kde byly skutečné papežské buly spáleny před jásajícím davem.",
+          zh: "新城区中世纪示众柱的旧址，游行队伍在这里落脚，真正的教皇诏书就在欢呼的人群面前被焚毁。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Jan_Hus",
+  },
+  // Era 5's thirteenth card, right after 'the-conflict-escalates-1412'.
+  // Outline dictated by the user, expanded via WebSearch. This is the
+  // card that finally uses the Appeal to Christ quote first surfaced
+  // (and deliberately withheld as premature) while researching
+  // 'salvation-priced-to-sell-1411' and 'who-is-jan-hus-1412' — see
+  // those cards' own dev comments.
+  // - No chronology wrinkle this time (unlike the deleted "failed
+  //   mediation" card): everything here genuinely happens after
+  //   'the-conflict-escalates-1412's July events — Hus's October 1412
+  //   departure and 18 October appeal both post-date it cleanly.
+  //   startYear 1412.7 sorts accordingly.
+  // - Confirmed via WebSearch: the general spread of Hussite sympathy
+  //   at Catholic congregations' expense and Wenceslas's own government
+  //   siding with Hus for a stretch; continued papal/archiepiscopal
+  //   pressure and the regional unrest it triggered; the actual
+  //   mechanism behind "blacklisted from every Prague church" — Rome
+  //   threatening the whole city with an interdict (suspending services
+  //   citywide) for as long as Hus stayed inside it, not a simple
+  //   ban — and Hus's October 1412 voluntary departure specifically to
+  //   spare the city that; his refuge at Kozí Hrádek, a small South
+  //   Bohemian castle belonging to a sympathetic lord, where he
+  //   reportedly preached outdoors under a linden tree; and his
+  //   subsequent turn to writing extensively in Czech for rural priests
+  //   who had little or no Latin.
+  // - [[quote:0]] is the actual text of Hus's 18 October 1412 Appeal to
+  //   Christ (Apelace k Kristu), first found while researching earlier
+  //   cards in this arc and held back specifically for this moment —
+  //   see the dev comments on 'salvation-priced-to-sell-1411' and
+  //   'who-is-jan-hus-1412' for that earlier discovery.
+  // - No Location card exists yet for Kozí Hrádek despite how central it
+  //   is to this stretch of Hus's life (his main refuge 1412–1414, where
+  //   he wrote De Ecclesia and preached under a linden tree) — worth
+  //   flagging to the user as a strong future-landmark candidate, but
+  //   per this project's own hard rule, new Location coordinates come
+  //   from the user, not looked up by Claude, so it wasn't created this
+  //   pass. Named in running prose only, not linked.
+  // - relatedLandmarks: just 'bethlehem-chapel', reused a third time now
+  //   with a relation caption specific to this card's own angle (barred
+  //   from it under threat of interdict, yet still the pulpit his rural
+  //   writings got read aloud at).
+  {
+    slug: "only-christ-deserved-his-trust-1412",
+    era: "religious-turmoil",
+    startYear: 1412.7,
+    images: ["/history/only-christ-deserved-his-trust-1412.webp"],
+    imageCaptions: [
+      {
+        en: "No king, no pope, no council. Only this.",
+        cz: "Žádný král, žádný papež, žádný sněm. Jen tohle.",
+        zh: "没有国王，没有教皇，没有议会。只剩下这个。",
+      },
+    ],
+    year: {
+      en: "1412",
+      cz: "1412",
+      zh: "1412年",
+    },
+    tone: "serious",
+    title: {
+      en: "Only Christ Deserved His Trust",
+      cz: "Jedině Kristu ještě věřil",
+      zh: "只有耶稣值得他的信任",
+    },
+    hookLine: {
+      en: "The king, the pope, and the council had all let him down in their own way. Hus decided there was exactly one judge left worth appealing to.",
+      cz: "Král, papež i sněm ho každý svým způsobem zklamali. Hus usoudil, že zbývá přesně jeden soudce, ke kterému se ještě vyplatí se odvolat.",
+      zh: "国王、教皇、议会，各自用自己的方式让他失望了。胡斯认定，这世上还剩下一位真正值得申诉的审判者。",
+    },
+    summary: {
+      en: "Hus's ideas spread through Bohemia faster than anyone, Hus included, had expected. Ordinary people had their own long list of complaints about a Church that answered to nobody inside the kingdom, and Catholic congregations kept shrinking as Hussite ones grew. For a while, even the crown leaned his way: King Wenceslas and his own government came out openly on Hus's side, and his movement only kept gaining ground.\n\nRome wasn't finished with him, though. The pope and Prague's own archbishop kept up the pressure regardless of which way the wind in Bohemia was blowing, and news of it set off real unrest across large parts of the kingdom, protests breaking out region after region.\n\nThe advantage didn't last inside Prague itself. The city was still Church territory in every practical sense, and Hus was quickly barred from every church in it, Bethlehem Chapel included: Rome threatened the whole city with an interdict, suspending services everywhere, for as long as Hus stayed inside its walls. Rather than let his own congregation pay for his presence, Hus left Prague for the South Bohemian countryside in October 1412, eventually taking shelter at Kozí Hrádek, a small castle belonging to a sympathetic local lord, and kept preaching from there instead.\n\nAround the same time, he made one more move that would outlast almost everything else from this stretch of his life. He no longer trusted an indecisive king, a hostile pope, or a council that had gotten him nowhere, so on 18 October 1412, he appealed his case directly to the one judge he still considered worth appealing to:\n\n[[quote:0]]\n\nGoing over the head of the entire medieval Church hierarchy to appeal straight to Christ himself was, for the Bohemian Reformation, roughly what Martin Luther's own Ninety-Five Theses would be for Germany a century later.\n\nOut in the countryside, Hus found a gap he hadn't fully reckoned with before: the distance between university theology and the actual lives of rural priests and the villagers in their care, most of whom had little or no Latin. He spent the rest of his exile closing that gap directly, writing extensively in Czech for the first time, sermons, explanations of the basics of the faith, material a country priest could actually use on a Sunday, rather than academic Latin arguments meant for other scholars.",
+      cz: "Husovy myšlenky se po Čechách šířily rychleji, než kdokoli, Husa nevyjímaje, čekal. Obyčejní lidé měli vlastní dlouhý seznam stížností na církev, která se v království nikomu nezodpovídala, a katolické farnosti se zmenšovaly, zatímco husitské rostly. Na chvíli se dokonce i koruna přiklonila na jeho stranu: král Václav se svou vlastní vládou se otevřeně postavil za Husa, a jeho hnutí dál jen posilovalo.\n\nŘím s ním ale ještě neskončil. Papež i pražský arcibiskup pokračovali v tlaku bez ohledu na to, kterým směrem v Čechách vál vítr, a zpráva o tom rozpoutala skutečné nepokoje ve velké části království, protesty vypukaly kraj za krajem.\n\nTa výhoda ale uvnitř samotné Prahy nevydržela. Město bylo prakticky pořád církevním územím, a Hus se rychle ocitl na černé listině všech pražských kostelů, Betlémskou kapli nevyjímaje: Řím hrozil celému městu interdiktem, tedy pozastavením bohoslužeb všude, dokud Hus zůstane uvnitř hradeb. Místo aby nechal svou vlastní obec platit za svou přítomnost, Hus v říjnu 1412 odešel z Prahy do jihočeského venkova, kde se nakonec uchýlil na Kozí Hrádek, malý hrad patřící nakloněnému místnímu pánovi, a odtud dál kázal.\n\nPřibližně ve stejnou dobu udělal ještě jeden krok, který měl přečkat skoro všechno ostatní z tohoto úseku jeho života. Už nedůvěřoval nerozhodnému králi, nepřátelskému papeži ani sněmu, který ho nikam nedovedl, a tak se 18. října 1412 odvolal přímo k tomu, koho ještě považoval za soudce, ke kterému se vyplatí se odvolat:\n\n[[quote:0]]\n\nObejít celou hierarchii středověké církve a odvolat se přímo ke Kristu samotnému znamenalo pro české reformní hnutí zhruba to samé, co pro Německo o století později znamenalo devadesát pět tezí Martina Luthera.\n\nNa venkově Hus narazil na propast, kterou si předtím naplno neuvědomoval: vzdálenost mezi univerzitní teologií a skutečným životem venkovských kněží a farníků v jejich péči, z nichž většina uměla latinsky jen málo nebo vůbec. Zbytek svého vyhnanství strávil tím, že tuhle propast přímo zaplňoval, poprvé psal rozsáhle česky, kázání, výklady základů víry, materiál, který mohl venkovský kněz skutečně použít v neděli, místo akademických latinských argumentů určených jiným učencům.",
+      zh: "胡斯的思想在波希米亚传播的速度，快到连胡斯本人都没想到。普通民众对这个不受王国内任何人节制的教会，早就积了一肚子怨气，天主教的会众越来越少，胡斯派的会众越来越多。有那么一阵子，就连王室也倒向了他这边：国王瓦茨拉夫和他自己的政府公开站到了胡斯这一边，他的运动也因此势头更盛。\n\n可是罗马那边并没有就此收手。教皇和布拉格的大主教，不管波希米亚的风向如何，都继续施压，消息一传开，就在王国的大片地区引发了真正的骚乱，抗议一波接一波地爆发。\n\n可这份优势，在布拉格城内却没能维持多久。这座城市实际上依然是教会的地盘，胡斯很快就被布拉格所有教堂列入了黑名单，伯利恒礼拜堂也不例外：罗马威胁要对整座城市施行\"停教令\"，也就是只要胡斯还留在城墙之内，全城的宗教仪式就要一律停摆。胡斯不愿意让自己的会众为他的存在买单，1412年10月，他离开布拉格前往南波希米亚的乡村，最终投奔了一位友善的当地领主名下的小城堡，山羊堡（Kozí Hrádek），并在那里继续布道。\n\n大约在同一时期，他还做了另一件事，其影响远远超过了他生命中这一阶段的其他一切。他不再信任优柔寡断的国王、心怀敌意的教皇，或是那个什么结果都没谈出来的宗教会议，于是在1412年10月18日，他把自己的案子，直接上诉给了他认为唯一还值得申诉的审判者：\n\n[[quote:0]]\n\n绕过整个中世纪教会的层级体系，直接向基督本人申诉，这一举动对波希米亚宗教改革运动的意义，大致相当于一个世纪后马丁·路德的《九十五条论纲》之于德国。\n\n在乡下，胡斯意识到了一道他此前从未真正正视过的鸿沟：大学神学与乡村神父及其照管的信众们实际生活之间的距离，这些神父大多只懂一点拉丁语，甚至完全不懂。他把流亡生涯剩下的时间，都花在了直接填补这道鸿沟上：第一次大量用捷克语写作，布道词、信仰基础的讲解，都是乡村神父在礼拜天真正用得上的材料，而不是写给其他学者看的拉丁语学术论证。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "I, Jan Hus of Husinec, Master of Arts and bachelor of sacred theology at the University of Prague, priest and confirmed preacher at Bethlehem Chapel, commit this my appeal to Jesus Christ, the most just judge, who alone truly knows, defends, and judges every person's cause, and rewards it justly.",
+          cz: "Já, Jan Hus z Husince, mistr svobodných umění a hotový bakalář svatého bohosloví na vysokém učení pražské univerzity, kněz a kazatel potvrzený při kapli Betlémské, svěřuji toto své odvolání Ježíši Kristu, soudci nejspravedlivějšímu, který spolehlivě zná, obhajuje a soudí, činí zřejmou a odměňuje spravedlivou při každého člověka.",
+          zh: "我，胡西内茨的扬·胡斯，文学硕士，布拉格大学圣神学学士，伯利恒礼拜堂认可的神父与布道者，在此将我的这份申诉，交托给耶稣基督，那位最公正的审判者，唯有他真正洞悉、维护并审判每个人的诉求，并给予公正的裁决。",
+        },
+        attribution: {
+          en: "Jan Hus, Appeal to Christ, 18 October 1412",
+          cz: "Jan Hus, Odvolání ke Kristu, 18. října 1412",
+          zh: "扬·胡斯，《向基督申诉书》，1412年10月18日",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "bethlehem-chapel",
+        relation: {
+          en: "Barred to Hus himself under threat of an interdict, yet still the pulpit where his rural writings kept getting read aloud to the congregation he'd left behind.",
+          cz: "Kaple, kam Hus sám pod hrozbou interdiktu neměl přístup, a přesto zůstala kazatelnou, kde se jeho venkovské spisy dál předčítaly obci, kterou za sebou nechal.",
+          zh: "在停教令的威胁下，胡斯本人被禁止踏入这座礼拜堂，可它依然是他乡间写下的文字，被念给他留下的会众听的讲坛。",
+        },
+      },
+      {
+        slug: "kozi-hradek",
+        relation: {
+          en: "The small castle where Hus eventually took shelter, wrote several of his most important works, and preached outdoors under a linden tree.",
+          cz: "Malý hrad, kde Hus nakonec našel útočiště, napsal několik svých nejvýznamnějších děl a kázal venku pod lipou.",
+          zh: "胡斯最终投奔的这座小城堡，他在这里写下了好几部最重要的著作，还在一棵菩提树下露天布道。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Jan_Hus",
+  },
+  // Background card inserted after 'the-conflict-escalates-1412' (moved
+  // here 2026-09-02 at the user's own follow-up request, originally
+  // placed after 'only-christ-deserved-his-trust-1412' instead —
+  // startYear adjusted from 1412.8 to 1412.6 to sit between the two)
+  // at the user's explicit request: a deeper, plain-language follow-up
+  // to 'what-are-indulgences-1411', which only briefly explained how
+  // indulgences worked without unpacking the wider question of how the
+  // medieval Church came to sit above state power in the first place.
+  // This one tackles that head-on, still in accessible "大白话" register
+  // per the user's own repeated instruction, not academic language.
+  // - Confirmed via WebSearch: Gregory VII's 1075 Dictatus Papae and its
+  //   specific claims (deposing emperors, being judged by no one,
+  //   absolving subjects of fealty to "wicked" rulers) — used as
+  //   [[quote:0]], a genuine, well-documented primary source, three
+  //   short clauses combined with ellipses since the original is a
+  //   27-point numbered list, not continuous prose; excommunication
+  //   versus interdict as distinct tools (individual vs. collective
+  //   punishment) and the 1077 Walk to Canossa as the concrete payoff
+  //   example, Henry IV excommunicated in 1076, his own nobles starting
+  //   to abandon him, three days barefoot in the snow in January 1077
+  //   before Gregory VII agreed to see him; the Church's economic
+  //   footprint (roughly a third of European land at its peak, by
+  //   common estimates, a mandatory 10% tithe backed by the same
+  //   excommunication threat, and tax-exempt status on all of it); and
+  //   "benefit of clergy," the real mechanism by which accused clergy
+  //   could claim trial in a church court under canon law instead of a
+  //   king's own court, with church courts almost never imposing a
+  //   death sentence.
+  // - Deliberately doesn't reference "this timeline" or similar meta
+  //   phrasing when tying the closing paragraph back to Hus — states the
+  //   stakes as plain historical fact instead, per this project's
+  //   standing no-self-reference rule.
+  // - cardType: 'background', so no relatedLandmarks (hard rule). No
+  //   image this time — not requested, and nothing in this card's own
+  //   content (Rome, Canossa) sits inside the Czech Republic anyway.
+  {
+    slug: "how-powerful-was-the-church-1412",
+    era: "religious-turmoil",
+    startYear: 1412.6,
+    cardType: "background",
+    year: {
+      en: "1075–15th century",
+      cz: "1075–15. století",
+      zh: "1075年－15世纪",
+    },
+    tone: "serious",
+    title: {
+      en: "How Powerful Was the Medieval Church, Really?",
+      cz: "Jak mocná středověká církev vlastně byla?",
+      zh: "中世纪教会的权力，到底有多夸张？",
+    },
+    hookLine: {
+      en: "An emperor once stood barefoot in the snow for three days just to get a pope to stop ignoring him. That wasn't an isolated incident. It was the system working exactly as designed.",
+      cz: "Jeden císař kdysi stál tři dny bosý ve sněhu, jen aby ho papež přestal ignorovat. Nebyla to výjimka. Byl to systém fungující přesně tak, jak měl.",
+      zh: "曾经有一位皇帝，光着脚在雪地里站了整整三天，只求教皇肯搭理他一眼。这可不是个例外事件。这正是这套体系设计出来、本该运作的样子。",
+    },
+    summary: {
+      en: "Modern readers tend to picture the medieval Church as one powerful institution among several, sitting next to kings and emperors. That undersells it by a lot. For most of the Middle Ages, the Church had leverage no army could match: it controlled the only officially recognized route into heaven, and everyone, including kings, genuinely believed that mattered more than anything that happened on earth.\n\nPope Gregory VII spelled out just how far that leverage could reach in 1075, in a document that laid out, point by point, exactly what a pope was entitled to do:\n\n[[quote:0]]\n\nThat wasn't rhetoric. Gregory meant it literally, and he had the tools to back it up.\n\nThe Church's two sharpest weapons were excommunication, cutting one person off from every sacrament and, in the theology of the time, from any real hope of salvation, and interdict, the same punishment applied to an entire territory at once: no baptisms, no weddings, no funerals, no masses, for everyone living there, until the ruler backed down. Gregory used exactly this on the Holy Roman Emperor himself, Henry IV, in 1076. It worked almost immediately. Henry's own nobles started abandoning an excommunicated ruler, and by January 1077 the emperor was standing barefoot in the snow outside a castle at Canossa, begging the pope for three days straight before Gregory finally agreed to see him.\n\nThe Church backed all of this with real money. At its peak, it's estimated to have held something like a third of all land in Europe, and it collected a mandatory tithe, ten percent of income, from practically everyone else, enforced by the same threat of excommunication. None of that land or income was taxed. A king ruled a kingdom. The Church, in a very real sense, ran a second economy layered directly on top of it.\n\nIt ran a second legal system too. Clergy accused of crimes, even serious ones, could usually demand to be tried in a Church court under canon law instead of a king's own court, a privilege called benefit of clergy. Church courts almost never handed down a death sentence. A priest could be charged with murder and still have a real chance of walking away with his life, simply because the king's own judges never got the case.\n\nAdd it up: a monopoly on salvation, the power to make or break a ruler's own legitimacy, a continent-spanning income the state couldn't tax, and a court system the state couldn't touch. For most of the Middle Ages, the Church wasn't just a religious institution standing beside the throne. It was, in most of the ways that actually mattered, a second government stacked on top of it, one every king had to negotiate with rather than command. That was the machine Hus and his followers had picked a fight with.",
+      cz: "Moderní čtenáři si středověkou církev obvykle představují jako jednu mocnou instituci mezi několika dalšími, sedící vedle králů a císařů. To ji dost podceňuje. Po většinu středověku měla církev páku, které se žádná armáda nemohla vyrovnat: ovládala jedinou oficiálně uznanou cestu do nebe, a všichni, krále nevyjímaje, opravdu věřili, že na tom záleží víc než na čemkoli, co se dělo na zemi.\n\nPapež Řehoř VII. v roce 1075 přesně vyjádřil, jak daleko ta páka sahá, v dokumentu, který bod po bodu vyložil, co všechno papež smí dělat:\n\n[[quote:0]]\n\nNebyla to jen rétorika. Řehoř to myslel doslovně, a měl nástroje, jak to prosadit.\n\nDvě nejostřejší zbraně církve byly exkomunikace, odříznutí jednoho člověka od všech svátostí a v tehdejší teologii i od jakékoli reálné naděje na spásu, a interdikt, stejný trest uvalený rovnou na celé území: žádné křty, žádné svatby, žádné pohřby, žádné mše, pro všechny, kdo tam žili, dokud vládce neustoupil. Řehoř přesně tohle použil na samotném římském císaři Jindřichovi IV. v roce 1076. Zabralo to téměř okamžitě. Jindřichovi vlastní šlechtici začali opouštět exkomunikovaného vládce, a v lednu 1077 stál císař bosý ve sněhu před hradem v Canosse, tři dny v kuse prosil papeže, než ho Řehoř konečně přijal.\n\nZa tím vším stály i skutečné peníze. Na vrcholu své moci církev podle odhadů vlastnila kolem třetiny veškeré půdy v Evropě a od téměř všech ostatních vybírala povinný desátek, deset procent příjmu, vymáhaný stejnou hrozbou exkomunikace. Nic z té půdy ani z toho příjmu se nedanilo. Král vládl království. Církev v jistém smyslu provozovala druhou ekonomiku, postavenou přímo nad ním.\n\nProvozovala i druhý právní systém. Duchovní obvinění ze zločinů, i závažných, si obvykle mohli vyžádat soud u církevního soudu podle kanonického práva místo u královského soudu, výsada zvaná výsada duchovenstva. Církevní soudy skoro nikdy nevynesly trest smrti. Kněz mohl být obviněn z vraždy a přesto mít reálnou šanci vyváznout se životem, prostě proto, že se jeho případ nikdy nedostal ke královým vlastním soudcům.\n\nSečteno: monopol na spásu, moc rozhodnout o legitimitě vládce, kontinentální příjem, který stát nemohl zdanit, a soudní systém, na který stát nemohl sáhnout. Po většinu středověku nebyla církev jen náboženská instituce stojící vedle trůnu. Byla, ve většině ohledů, které skutečně záležely, druhou vládou postavenou přímo na tu první, s níž každý král musel vyjednávat, ne jí velet. Přesně s tímhle strojem se Hus a jeho stoupenci pustili do křížku.",
+      zh: "现代人往往把中世纪的教会想象成众多强权机构中的一个，跟国王、皇帝平起平坐。这其实大大低估了它。在中世纪的大部分时间里，教会握着一张任何军队都比不上的王牌：它垄断了通往天堂的唯一官方认证路径，而所有人，包括国王在内，都是真心相信，这件事比人间发生的任何事都更要紧。\n\n1075年，教皇格里高利七世用一份文件，一条一条列清楚了这张王牌到底能打到什么地步：\n\n[[quote:0]]\n\n这可不是说说而已。格里高利是玩真的，而且他手里确实有工具能把这些话变成现实。\n\n教会最锋利的两件武器，一个是绝罚（开除教籍），把某个人从所有圣事中、以及当时神学观念里通往救赎的任何真实希望中彻底切断；另一个是停教令，把同样的惩罚一口气扣到整片领土头上：不能受洗、不能结婚、不能办丧礼、不能做弥撒，当地所有人都跟着遭殃，直到统治者服软为止。1076年，格里高利就是这么对付神圣罗马帝国皇帝亨利四世本人的。效果几乎立竿见影。亨利自己的贵族们开始抛弃这位被开除教籍的君主，到了1077年1月，这位皇帝光着脚站在卡诺莎城堡外的雪地里，一连求了三天，教皇才终于肯见他。\n\n支撑这一切的，还有真金白银。教会权势最盛时，据估计掌握了欧洲大约三分之一的土地，还向几乎所有其他人强制征收什一税，收入的十分之一，靠的是同样\"不交就开除教籍\"的威胁。这些土地和收入，一分钱税都不用交。国王统治着一个王国，而教会，在很实际的意义上，经营着一整套叠加在这个王国之上的第二套经济体系。\n\n教会还运行着一套独立的司法系统。神职人员就算被控犯下重罪，通常也能要求按教会法在教会法庭受审，而不是在国王的法庭上，这项特权叫作\"神职人员豁免\"。教会法庭几乎从不判处死刑。一个神父就算被控谋杀，也很有可能保住一条命，单纯是因为这个案子压根没机会落到国王自己的法官手里。\n\n加起来算算：垄断救赎、能左右一位统治者本身合不合法、一份国家收不到税的跨大陆收入、外加一套国家管不到的司法系统。在中世纪的大部分时间里，教会从来不只是一个站在王座旁边的宗教机构。在几乎所有真正要紧的层面上，它都是一个直接叠在国家之上的第二政府，每一位国王都得跟它谈判，而不是对它发号施令。胡斯和他的追随者，正是跟这台机器较上了劲。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "That it may be permitted to him to depose emperors... That he himself may be judged by no one... That he may absolve subjects from their allegiance to wicked rulers.",
+          cz: "Že je mu dovoleno sesazovat císaře... Že on sám nemůže být souzen nikým... Že může poddané zprostit věrnosti špatným vládcům.",
+          zh: "他有权废黜皇帝……他本人不受任何人审判……他可以解除臣民对邪恶统治者的效忠义务。",
+        },
+        attribution: {
+          en: "Pope Gregory VII, Dictatus Papae, 1075",
+          cz: "Papež Řehoř VII., Dictatus Papae, 1075",
+          zh: "教皇格里高利七世，《教皇训令》（Dictatus Papae），1075年",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Dictatus_papae",
+  },
+  // New card, 2026-09-02, per the user's own dictated outline (De
+  // Ecclesia's contents, Prague's reaction, Wycliffism's eastward spread,
+  // the January 1413 Rome condemnation, Sigismund's foreshadowed unease).
+  // Title chosen by Claude at the user's explicit invitation ("标题：待定，
+  // 你让我选吧") — leans on the irony of the card's own closing beat: Rome
+  // burns Wycliffe's books this same January, but by then Hus has already
+  // digested and republished the same ideas under his own name, and they've
+  // already crossed three more borders.
+  // - Confirmed via WebSearch: De Ecclesia is 23 chapters total, written in
+  //   Latin during the Kozí Hrádek exile, 1413. Per its own Wikipedia
+  //   summary, the first 10 chapters lay out Hus's ecclesiology (the
+  //   Church as the body of the predestined, closely following Wycliffe's
+  //   own De Ecclesia in places verbatim); chapters 11-23 turn into a
+  //   polemic against Prague's theology faculty and a rejection of papal
+  //   supremacy as claimed in Boniface VIII's bull Unam Sanctam — the
+  //   user's own outline framed this second half as a summary of
+  //   Wycliffe's De potestate papae specifically; softened here to "the
+  //   same target Wycliffe had aimed at in his own De potestate papae"
+  //   since the papal-supremacy throughline is confirmed but a literal
+  //   chapter-for-chapter mapping to that specific Wycliffe tract wasn't
+  //   independently found.
+  // - Quote: a genuine primary-source line, found after the user's
+  //   mid-turn nudge to search harder for one ("你如果能找到这本书的原文
+  //   引用就太好了") — David S. Schaff's 1915 English translation of De
+  //   Ecclesia's core thesis (Christ as the Church's head, the Church as
+  //   the body of the predestined), sourced via Wikisource. Translated
+  //   into CZ/ZH here rather than found in either language directly —
+  //   flagged as a translation-of-a-translation, one step removed from
+  //   Hus's own Latin, same caveat that applies to any quote handled this
+  //   way.
+  // - Confirmed via WebSearch: the January 1413 condemnation refers to the
+  //   Council of Rome, convened by (Anti)Pope John XXIII, opened April
+  //   1412, dragged on barely-attended through repeated adjournments, and
+  //   accomplished essentially nothing except condemning and ordering the
+  //   burning of Wycliffe's writings before dissolving in March 1413.
+  // - Sigismund's own specific reaction to Wycliffism reaching Hungary
+  //   isn't independently documented in the sources found (two search
+  //   passes came up short on this one specific point) — written here as
+  //   the user's own dictated framing/foreshadowing rather than a
+  //   directly-sourced claim, and deliberately left vague on exactly how
+  //   he intends to end it: this is a planted seed for the Council of
+  //   Constance, not yet its own card, so no specific date or mechanism
+  //   (and no mention of Hus's own eventual fate) is named here — see the
+  //   spoiler-avoidance convention.
+  // - relatedLandmarks: bethlehem-chapel (4th reuse, this time for where
+  //   De Ecclesia itself was read aloud) and kozi-hradek (2nd reuse,
+  //   where it was written) — both already-established from prior cards
+  //   in this same arc, no new Location needed.
+  // - [[b]] wraps the sentence stating De Ecclesia's own central claim
+  //   (Wycliffe's and now Hus's shared argument that the Church isn't,
+  //   at bottom, its clergy) — the load-bearing thesis of the whole card.
+  {
+    slug: "the-ideas-they-couldnt-burn-1413",
+    era: "religious-turmoil",
+    startYear: 1413,
+    images: ["/history/the-ideas-they-couldnt-burn-1413.webp"],
+    imageCaptions: [
+      {
+        en: "Rome burns Wycliffe's writings, January 1413.",
+        cz: "Řím pálí Viklefovy spisy, leden 1413.",
+        zh: "1413年1月，罗马焚烧威克里夫的著作。",
+      },
+    ],
+    year: {
+      en: "1413",
+      cz: "1413",
+      zh: "1413年",
+    },
+    tone: "serious",
+    title: {
+      en: "The Ideas They Couldn't Burn",
+      cz: "Myšlenky, které nešlo spálit",
+      zh: "烧不尽的思想",
+    },
+    hookLine: {
+      en: "Rome ordered Wycliffe's books burned in January 1413. By then, his ideas had already crossed three more borders, carried inside a book Hus had just finished writing under his own name.",
+      cz: "V lednu 1413 Řím nařídil spálit Viklefovy knihy. Jeho myšlenky do té doby ale už překročily tři další hranice, ukryté v knize, kterou Hus právě dopsal pod svým vlastním jménem.",
+      zh: "1413年1月，罗马下令焚毁威克里夫的著作。可到那时，他的思想早已越过了三道国境，就藏在胡斯刚刚以自己的名义写完的一本书里。",
+    },
+    summary: {
+      en: "At Kozí Hrádek, Hus kept working even as he kept preaching. In 1413 he finished De Ecclesia (On the Church), his most important theological work: its first ten chapters are, by Hus's own account, a compressed summary of Wycliffe's own treatise of the same name, and the chapters after that turn into a direct rebuttal of Prague's theology faculty and a rejection of papal supremacy, the same target Wycliffe had aimed at in his own De potestate papae (On the Power of the Pope). [[b]]Wycliffe had written to challenge the common assumption that the Church was, at bottom, its clergy, and Hus now found himself arguing exactly the same case.[[/b]] He finished the book inside the castle of a sympathetic local lord near Kozí Hrádek and sent it back to Prague, where it was read aloud in public at Bethlehem Chapel.\n\n[[quote:0]]\n\nThat was Hus's own church: not a hierarchy of officeholders, but the body of everyone predestined to salvation, with Christ, not the pope, as its only real head.\n\nThe book made real waves back in Prague. Hus's supporters only grew louder, and a good number of clergy, worn down by all of it, simply left the city rather than keep losing the argument, leaving Hus's own followers holding the ground they'd abandoned. Out at Kozí Hrádek, Hus kept writing and preaching, and the ideas he shared with Wycliffe kept traveling with them: Bohemian Wycliffism spread east into Poland, Hungary, Croatia, and Austria. Rome answered in January 1413, at a long-running, poorly attended council that accomplished little else: it condemned Wycliffe's writings outright and ordered them burned.\n\nOne person watching all this unfold was Sigismund, King of Hungary, who had stepped into his own brother's place on the Roman throne two years before. He was a committed son of the Catholic Church, and once he noticed Hus's and Wycliffe's ideas had reached his own kingdom, the unease set in. Somewhere in that unease, he started turning over a question of his own: what would it actually take to put an end to this whole affair?",
+      cz: "Na Kozím Hrádku Hus dál pracoval, souběžně se svým kázáním. V roce 1413 dokončil De Ecclesia (O církvi), své nejvýznamnější teologické dílo: prvních deset kapitol je, podle Husových vlastních slov, zhuštěným shrnutím Viklefova stejnojmenného spisu, a kapitoly, které následují, přecházejí v přímou polemiku s pražskou teologickou fakultou a v odmítnutí papežské svrchovanosti, tedy přesně to, na co mířil i Viklefův vlastní spis De potestate papae (O moci papežově). [[b]]Viklef psal proti tehdy běžnému přesvědčení, že církev je v jádru totéž co její kněžstvo, a Hus se teď ocitl v postavení, kdy hájil přesně tutéž věc.[[/b]] Dílo dokončil na hradě jednoho nakloněného místního pána poblíž Kozího Hrádku a poslal je zpět do Prahy, kde bylo veřejně předčítáno v Betlémské kapli.\n\n[[quote:0]]\n\nTaková byla Husova vlastní církev: ne hierarchie úřadů, ale tělo všech predestinovaných ke spáse, s Kristem, ne papežem, jako svou jedinou skutečnou hlavou.\n\nKniha v Praze vyvolala skutečný rozruch. Husovi stoupenci byli čím dál hlasitější a řada duchovních, unavená celou tou situací, prostě odešla z města, místo aby dál prohrávala spor, a nechala tak Husovým vlastním stoupencům pole, které opustila. Na Kozím Hrádku Hus dál psal a kázal a myšlenky, které sdílel s Viklefem, se šířily s ním: české viklefství se šířilo na východ do Polska, Uher, Chorvatska a Rakouska. Řím odpověděl v lednu 1413, na dlouho se táhnoucím, málo navštěvovaném koncilu, který kromě toho nedokázal skoro nic: Viklefovy spisy rovnou odsoudil a nařídil je spálit.\n\nJedním z těch, kdo to všechno sledovali, byl Zikmund, uherský král, který o dva roky dříve nastoupil na římský trůn po svém vlastním bratrovi. Byl oddaným synem katolické církve, a jakmile si všiml, že Husovy a Viklefovy myšlenky dorazily i do jeho vlastního království, přepadl ho neklid. Někde v tom neklidu začal přemítat nad vlastní otázkou: co bude vlastně potřeba k tomu, aby se celé té záležitosti udělala přítrž?",
+      zh: "在山羊堡，胡斯一边布道，一边继续著述。1413年，他完成了《论教会》（De Ecclesia），这是他最重要的一部神学著作：按胡斯本人的说法，前十章是对威克里夫同名著作的精炼概括，而后面的章节则转向直接批驳布拉格神学院，并否定教皇至上权，矛头所指，正是威克里夫自己那部《论教皇的权力》（De potestate papae）所瞄准的同一个目标。[[b]]威克里夫著书，本就是为了反驳当时普遍流行的一种看法：认为教会说到底就是神职人员。如今，胡斯发现自己在为同一个论点辩护。[[/b]]他在山羊堡附近一位保护他的当地领主的城堡里完成了这部书，并将其送回布拉格，在伯利恒礼拜堂当众宣读。\n\n[[quote:0]]\n\n这就是胡斯心目中的教会：不是一套由职位组成的等级体系，而是所有蒙拣选、注定得救之人组成的身体，唯一真正的元首是基督，而不是教皇。\n\n这本书在布拉格激起了不小的风浪。胡斯的追随者声音越来越大，不少神职人员在这种局面下感到心力交瘁，索性离开了这座城市，不愿再打一场看不到胜算的仗，把他们让出的地盘，留给了胡斯自己的追随者。在山羊堡，胡斯继续撰写、布道，他与威克里夫共有的这些思想，也跟着一路传播开去：波希米亚的威克里夫主义向东传播，先后抵达波兰、匈牙利、克罗地亚和奥地利。1413年1月，罗马那边给出了回应：一场旷日持久、出席寥寥、几乎没做成任何其他事情的宗教会议，直接谴责了威克里夫的著作，并下令将其焚毁。\n\n眼看着这一切发生的人中，有一位是西吉斯蒙德，匈牙利国王，他两年前刚刚顶替自己的哥哥，登上了罗马人的王位。他是天主教会忠实的追随者，一旦察觉到胡斯和威克里夫的思想已经传到了自己的国土，不安便涌了上来。就在这份不安之中，他开始琢磨一个属于自己的问题：到底要怎么做，才能给这整件事画上句号？",
+    },
+    quotes: [
+      {
+        text: {
+          en: "Christ is the head of the universal church, that she is his body and that every one who is predestinate is one of her members and consequently a part of this church, which is Christ's mystical body, that is, hidden body, ruled by the power and influence of Christ, the Head, and compacted and welded together by the bond of predestination.",
+          cz: "Kristus je hlavou obecné církve, ona je jeho tělem a každý predestinovaný člověk je jedním z jejích údů, a tedy součástí této církve, jež je Kristovým mystickým, totiž skrytým tělem, řízeným mocí a působením Krista, Hlavy, a semknutým a spojeným poutem predestinace.",
+          zh: "基督是普世教会的元首，教会是他的身体，凡是蒙拣选、预定得救之人，皆是这身体的一个肢体，因而也是这教会的一部分：这教会即基督的奥秘之体，亦即隐而不显之体，受元首基督的权能与感化统辖，并借预定之约紧密结合、熔铸为一。",
+        },
+        attribution: {
+          en: "Jan Hus, De Ecclesia, 1413",
+          cz: "Jan Hus, De Ecclesia (O církvi), 1413",
+          zh: "扬·胡斯，《论教会》（De Ecclesia），1413年",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "bethlehem-chapel",
+        relation: {
+          en: "Where De Ecclesia was read aloud to the Prague congregation Hus could no longer preach to in person.",
+          cz: "Místo, kde bylo De Ecclesia veřejně předčítáno pražské obci, ke které už Hus nemohl osobně kázat.",
+          zh: "《论教会》被公开宣读给这群会众听的地方，胡斯本人已经无法再亲自向他们布道。",
+        },
+      },
+      {
+        slug: "kozi-hradek",
+        relation: {
+          en: "The refuge where Hus finished writing De Ecclesia and kept preaching while his ideas spread far beyond Bohemia's own borders.",
+          cz: "Útočiště, kde Hus dokončil De Ecclesia a dál kázal, zatímco se jeho myšlenky šířily daleko za hranice Čech.",
+          zh: "胡斯完成《论教会》、并继续布道的避难所，他的思想也从这里传播到了远超波希米亚国界的地方。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/De_ecclesia",
+  },
+  // New card, 2026-09-02, per the user's dictated outline (Sigismund's
+  // council summons, Hus's safe conduct and journey to Constance, his
+  // arrest, the 4 December inquiry commission). Title, "鸿门宴" (a Chinese
+  // idiom for a banquet whose host may mean well but where other guests
+  // have their own murderous agenda — from the historical Hongmen Feast),
+  // was the user's own suggestion, accepted as-is; EN/CZ titles aren't
+  // literal translations (that idiom doesn't carry over) but land on the
+  // same idea from the card's own English-language angle instead. CZ uses
+  // "glejt," the actual historical Czech term for the safe-conduct letter
+  // Sigismund gave Hus (still the term Czech historiography uses for this
+  // specific document).
+  // - Chronology fix, resolved via a question to the user: the user's
+  //   original outline also included John XXIII's flight from Constance
+  //   and Hus's transfer to Gottlieben Castle (73 days, leading into the
+  //   June 1415 trial) — but WebSearch confirmed John's flight was 20
+  //   March 1415, a good three-plus months after this card's own December
+  //   1414 events, not something that belongs inside a card dated 1414.
+  //   Per the user's own choice, this card now cuts off at the bishops
+  //   talking Sigismund back down (a deliberately unresolved, ominous
+  //   stopping point) — John XXIII's flight, the Gottlieben transfer, and
+  //   the June 1415 trial itself are saved for their own future
+  //   1415-dated card, not written yet.
+  // - Confirmed via WebSearch: departure 11 October 1414, arrival 3
+  //   November 1414 (two days before the council's 5 November solemn
+  //   opening — the 1 November date in the user's outline matches the
+  //   date John XXIII's own convocation actually named, even though the
+  //   solemn opening itself slipped a few days), arrest 28 November 1414
+  //   on Michael de Causis's accusation that Hus meant to flee, the
+  //   three-bishop inquiry commission opened 4 December 1414. Also
+  //   confirmed: Wenceslas of Dubá and John of Chlum were the two Bohemian
+  //   lords Sigismund personally assigned to escort Hus, accompanied by
+  //   Chlum's own secretary Peter of Mladoňovice (who wrote the primary
+  //   eyewitness account this whole arc leans on); Hus wrote farewell
+  //   letters before departing, one of which "reads much like a last
+  //   testament" rather than an ordinary goodbye (softened from the user's
+  //   own "he wrote his will" framing to match what was actually
+  //   confirmable). A genuinely striking detail surfaced unprompted and
+  //   folded in: Sigismund himself didn't reach Constance until Christmas
+  //   Eve, over three weeks after Hus's arrest — the safe conduct's own
+  //   guarantor wasn't even in the city when it was broken, which sharpens
+  //   the card's own "鸿门宴" framing considerably.
+  // - Also confirmed: it was technically Pope John XXIII who issued the
+  //   formal convocation (9 December 1413, for 1 November 1414), not
+  //   Sigismund directly, though under Sigismund's own sustained pressure
+  //   and with him acting as the council's driving political force —
+  //   phrased here as Sigismund "pushing through" the summons rather than
+  //   personally convening it, to stay accurate without losing the user's
+  //   own framing of Sigismund as the one driving this.
+  // - Quote search: three differently-worded WebSearch passes turned up a
+  //   secondhand "shoemaker's farewell" line ("I can hardly hope you will
+  //   return safe and sound...") attributed inconsistently across sources
+  //   to two different names, and a direct fetch of the actual Wikisource
+  //   chapter it was supposedly drawn from (Lützow's "Life and Times of
+  //   Master John Hus," the departure chapter) confirmed a crowd's general
+  //   fear he wouldn't return but contained no shoemaker line at all —
+  //   treated as unverified/unreliable rather than used, per the standing
+  //   "don't force a weak or shaky quote in just to have one" policy. The
+  //   "many feared he would never return" beat made it into the prose
+  //   itself as plain narration instead, not a blockquote.
+  // - relatedLandmarks: none. This card's own action happens almost
+  //   entirely in Constance, outside the Czech Republic (the one Prague
+  //   scene, the city-gate send-off, isn't tied to a specific named
+  //   landmark) — genuinely nothing to link, the same call already made
+  //   for the earlier Trenčín/Visegrád/Lithuania/France-set cards in this
+  //   file.
+  {
+    slug: "the-safe-conduct-that-wasnt-enough-1414",
+    era: "religious-turmoil",
+    startYear: 1414,
+    images: ["/history/the-safe-conduct-that-wasnt-enough-1414.webp"],
+    imageCaptions: [
+      {
+        en: "Hus is seized on the streets of Constance, 28 November 1414.",
+        cz: "Hus je zatčen na ulicích Kostnice, 28. listopadu 1414.",
+        zh: "1414年11月28日，胡斯在康斯坦茨街头被捕。",
+      },
+    ],
+    year: {
+      en: "1414",
+      cz: "1414",
+      zh: "1414年",
+    },
+    tone: "serious",
+    title: {
+      en: "The Safe-Conduct That Wasn't Enough",
+      cz: "Glejt, který nestačil",
+      zh: "鸿门宴",
+    },
+    hookLine: {
+      en: "Sigismund promised him safe passage to a council that might finally reform the Church. The promise didn't survive Sigismund's own absence from the city.",
+      cz: "Zikmund mu slíbil bezpečný průchod na koncil, který mohl konečně reformovat církev. Slib nepřežil ani Zikmundovu vlastní nepřítomnost ve městě.",
+      zh: "西吉斯蒙德许诺给他一张通往教会改革的安全通行证。可这张承诺，连西吉斯蒙德本人还没到城里，就已经撑不住了。",
+    },
+    summary: {
+      en: "By 1414, Sigismund had watched Bohemia's religious chaos spiral for long enough. Ending the papal schism and finally delivering the reform the Church had owed itself for decades both meant, in his mind, sitting the sides down in one room, so he pushed through a summons for a general council to open at Constance on 1 November 1414. He meant to use it to negotiate directly with Hus too: real reform, real concessions, in exchange for Hus's own cooperation. Hus said yes. A Church that actually reformed itself was exactly the outcome he'd been arguing for all along. Sigismund backed the offer with a formal promise of safe conduct. Hus still had no real idea whether he'd come home alive, so before leaving Prague, he wrote a round of farewell letters, one of which reads much closer to a last testament than an ordinary goodbye.\n\nSigismund genuinely meant to sit down with Hus and talk. [[b]]The pope's own people, it turned out, were working an entirely different plan.[[/b]]\n\nHus left Prague on 11 October 1414, escorted by two Bohemian lords Sigismund had personally assigned to the job, Wenceslas of Dubá and John of Chlum, along with Chlum's own secretary, Peter of Mladoňovice, who'd go on to record almost everything that followed. A crowd, university masters among them, saw him off at the city gate; more than a few doubted they'd ever see him again. Three weeks on the road brought him to Constance on 3 November 1414, two days before the council itself formally opened. For a while, the safe conduct held exactly as promised: Hus moved freely around the city and lodged with a widow.\n\nThat didn't last. A few weeks in, Michael de Causis, one of Hus's longtime prosecutors, spread word that Hus was plotting to flee the city, and used it as grounds to have him arrested on 28 November. On 4 December, Pope John XXIII assigned a panel of three bishops to open a preliminary inquiry: prosecution witnesses were heard in the usual way, but Hus himself was barred from mounting any defense.\n\nSigismund himself hadn't even reached Constance yet. He didn't arrive until Christmas Eve, over three weeks after his own guaranteed safe conduct had already been broken. Once he found out, he was furious: the king who'd personally vouched for Hus's safety threatened to dismiss the bishops responsible outright. It didn't hold. The bishops still commanded enough of his respect to talk him back down, arguing that no promise, not even a king's own, could bind him to protect a man already suspected of heresy.",
+      cz: "Do roku 1414 už Zikmund sledoval bohemské náboženské zmatky dost dlouho na to, aby s tím konečně něco udělal. Ukončit papežské schizma a konečně prosadit reformu, kterou církev sama sobě dlužila celá desetiletí, pro něj v praxi znamenalo posadit obě strany k jednomu stolu, a tak prosadil svolání všeobecného koncilu, který měl v Kostnici začít 1. listopadu 1414. Chtěl ho využít i k přímému jednání s Husem: skutečná reforma, skutečné ústupky výměnou za Husovu spolupráci. Hus souhlasil. Církev, která by se doopravdy zreformovala, byla přesně to, o co celou dobu usiloval. Zikmund tuto nabídku podepřel formálním slibem bezpečného průchodu, glejtem. Hus přesto nevěděl, jestli se vůbec vrátí živý, a tak před odjezdem z Prahy napsal řadu rozlučkových dopisů, z nichž jeden svým obsahem připomíná spíš poslední vůli než obyčejné loučení.\n\nZikmund si s Husem skutečně chtěl sednout a promluvit. [[b]]Papežovi lidé měli, jak se ukázalo, úplně jiný plán.[[/b]]\n\nHus opustil Prahu 11. října 1414 v doprovodu dvou českých pánů, které mu Zikmund osobně přidělil, Václava z Dubé a Jana z Chlumu, a Chlumova vlastního tajemníka Petra z Mladoňovic, který později zaznamenal takřka vše, co následovalo. K městské bráně ho vyprovodil zástup, mezi nimi i mistři univerzity; víc než jeden z nich pochyboval, že ho ještě někdy uvidí. Tři týdny na cestě ho 3. listopadu 1414 přivedly do Kostnice, dva dny předtím, než se koncil sám oficiálně otevřel. Nějakou dobu glejt platil přesně tak, jak byl slíben: Hus se po městě pohyboval volně a bydlel u jedné vdovy.\n\nTo netrvalo dlouho. Po pár týdnech Michael de Causis, jeden z Husových dlouholetých žalobců, rozšířil zprávu, že se Hus chystá z města uprchnout, a použil to jako záminku k jeho zatčení 28. listopadu. 4. prosince pověřil papež Jan XXIII. trojici biskupů předběžným vyšetřováním: žalobní svědci byli vyslechnuti podle zvyklostí, Husovi samotnému ale nebylo dovoleno se jakkoli hájit.\n\nSám Zikmund do Kostnice ještě ani nedorazil. Přijel až na Štědrý den, přes tři týdny poté, co byl jeho vlastní zaručený glejt už porušen. Jakmile se to dozvěděl, byl zuřivý: král, který se osobně zaručil za Husovu bezpečnost, hrozil, že odpovědné biskupy prostě odvolá. Nevydrželo to. Biskupové u něj měli pořád dost vážnosti na to, aby ho přemluvili zpět, s argumentem, že žádný slib, ani slib samotného krále, ho nemůže zavazovat chránit muže, který je už podezřelý z kacířství.",
+      zh: "到1414年，西吉斯蒙德眼看波希米亚的宗教乱局越闹越大，已经忍到了头。在他看来，要结束教皇分裂、兑现教会自己拖了几十年的改革承诺，说到底就是得把各方拉到同一张桌子上，于是他推动召开了一场大公会议，定在1414年11月1日于康斯坦茨开幕。他也打算借这个机会直接跟胡斯谈：真正的改革、真正的让步，换胡斯的配合。胡斯答应了。一个真心愿意改革的教会，正是他一直以来所争取的结果。西吉斯蒙德还为这份提议附上了正式的安全通行证承诺。可胡斯心里清楚，自己这一趟未必能活着回来，于是在离开布拉格之前，写下了一系列告别信，其中一封读起来更像是一份遗嘱，而不是普通的道别。\n\n西吉斯蒙德确实是真心想跟胡斯坐下来谈。[[b]]可教皇那边的人，打的却是另一个算盘。[[/b]]\n\n1414年10月11日，胡斯启程离开布拉格，随行的有西吉斯蒙德亲自指派的两位波希米亚贵族：杜巴的瓦茨拉夫和赫鲁姆的扬，还有赫鲁姆的秘书姆拉多诺维茨的彼得，此人后来几乎记录了接下来发生的一切。一群人，其中不乏大学的教师，把他一路送到城门口；不止一个人怀疑，这一别恐怕再也见不到他了。三周的路程后，他于1414年11月3日抵达康斯坦茨，比大会正式开幕还早两天。头几周，安全通行证兑现了它的承诺：胡斯在城里自由走动，寄住在一位寡妇家中。\n\n但这份自由没能持续太久。几周之后，胡斯的老对头之一米哈尔·德·考西斯散布谣言，说胡斯正打算逃出城去，并借此把他在11月28日抓了起来。12月4日，教皇约翰二十三世委派了一个由三位主教组成的委员会展开初步调查：控方证人按惯例出庭作证，胡斯本人却被禁止为自己做任何辩护。\n\n西吉斯蒙德本人这时候压根还没到康斯坦茨。他直到平安夜才抵达，那时距离他亲自担保的安全通行证被撕毁，已经过去了三个多星期。得知消息后，他勃然大怒：这位曾亲口为胡斯的安全作保的国王，扬言要直接撤换那几位主教。但这话终究没能落地。主教们在他心里还是有几分分量，说服他回心转意，任何承诺，哪怕是国王自己许下的，也不能约束他去保护一个已经被怀疑为异端的人。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Jan_Hus",
+  },
+  // New card, 2026-09-02, per the user's dictated outline (the 5 and 8
+  // June 1415 hearings). Title chosen by Claude, user left it "待定."
+  // Deliberately stops at Hus's refusal to recant — does NOT narrate the
+  // 6 July 1415 execution, which stays reserved for its own future card
+  // per the standing spoiler-avoidance convention.
+  // - Known continuity gap, flagged rather than silently papered over:
+  //   the previous card (the-safe-conduct-that-wasnt-enough-1414) ends in
+  //   December 1414 with the investigation just opening; the interval
+  //   between then and this card's 5 June 1415 opening (John XXIII's
+  //   flight from Constance on 20 March 1415, Hus's transfer to Gottlieben
+  //   Castle, his 73 days held there) is still unwritten, per the
+  //   chronology fix already made on the 1414 card. This card's own prose
+  //   stays deliberately vague about where exactly Hus was held during
+  //   those six months (just "more than six months in custody") rather
+  //   than asserting Gottlieben-specific detail that belongs to that
+  //   still-unwritten card. Whenever that card gets written, it should
+  //   slot in at a startYear between 1414 and this card's 1415 (e.g.
+  //   1414.9) so the feed order stays correct.
+  // - Confirmed via WebSearch/WebFetch (Count Lützow's "The Life and
+  //   Times of Master John Hus," the Constance trial chapter): the 5 June
+  //   hearing was genuinely chaotic — witnesses testified and excerpts
+  //   from Hus's own writings were read, but Hus was repeatedly shouted
+  //   down mid-answer ("Abandon all sophistry, say Yes or No"), and his
+  //   own silence under that barrage was at points thrown back at him as
+  //   if it were an admission. His actual standing condition throughout
+  //   (recant only if shown wrong from Scripture) went unanswered that
+  //   day. The 8 June hearing read 39 articles drawn from his own
+  //   writings (26 from De Ecclesia, 7 from his anti-Páleč treatise, 6
+  //   from his treatise against Stanislav of Znojmo — the user's own "39"
+  //   figure confirmed exactly), and the court did lay out for Sigismund
+  //   how several of the articles threatened secular authority generally,
+  //   not just Church doctrine, a pointed move aimed at removing
+  //   Sigismund's own remaining reason to defend Hus. The four
+  //   recantation conditions match the user's own outline closely (a
+  //   documented period-abjuration formula: confess error, abjure/renounce,
+  //   formally revoke, "undergo merciful penance" — rendered here as
+  //   declaring the opposite of what he'd taught, the version of the
+  //   fourth condition several secondary sources give).
+  // - Quote: found via a WebFetch of the same Lützow chapter — a genuine
+  //   line from Hus's own hand, a letter to John of Chlum written the
+  //   evening of 5 June 1415 describing that day's hearing in six words.
+  //   Not the same as the well-known "if I could be shown by Scripture I
+  //   would recant" formula (that one is paraphrase/reported speech in
+  //   most sources, not a clean verbatim quote); this one is Hus's own
+  //   direct words, correctly dated to this card's own timeframe. A
+  //   second strong Hus quote turned up in the same search pass ("give me
+  //   the meanest man at the council... I am prepared immediately to
+  //   recant") but is dated to 5 July 1415, the night before the
+  //   execution — right at the edge of spoiling it, and outside this
+  //   card's own June scope, so deliberately not used here; worth
+  //   revisiting for whatever card eventually covers Hus's final night.
+  // - [[b]] wraps Hus's own standing condition for recanting (Scripture or
+  //   nothing) — the load-bearing thesis tying this card back to
+  //   only-christ-deserved-his-trust-1412's own appeal to Christ and
+  //   the-ideas-they-couldnt-burn-1413's "church of the predestined"
+  //   argument: three cards now, one consistent position.
+  // - relatedLandmarks: none, same as the 1414 card — this entire card
+  //   happens in Constance, outside the Czech Republic.
+  {
+    slug: "a-conscience-the-court-couldnt-break-1415",
+    era: "religious-turmoil",
+    startYear: 1415,
+    images: ["/history/a-conscience-the-court-couldnt-break-1415.webp"],
+    imageCaptions: [
+      {
+        en: "Hus stands before the council at his first public hearing, 5 June 1415.",
+        cz: "Hus stojí před koncilem na svém prvním veřejném slyšení, 5. června 1415.",
+        zh: "1415年6月5日，胡斯站在宗教会议面前，接受首次公开听证。",
+      },
+    ],
+    year: {
+      en: "1415",
+      cz: "1415",
+      zh: "1415年",
+    },
+    tone: "serious",
+    title: {
+      en: "A Conscience the Court Couldn't Break",
+      cz: "Svědomí, které soud nezlomil",
+      zh: "不肯屈服的良心",
+    },
+    hookLine: {
+      en: "The court offered him an easy way out: just admit he'd been wrong. Hus asked for only one thing in return, and no one at the council could give it to him.",
+      cz: "Soud mu nabídl snadné východisko: stačilo přiznat, že se mýlil. Hus na oplátku žádal jen jednu věc, a nikdo na koncilu mu ji nedokázal dát.",
+      zh: "宗教会议给了他一条好走的路：只要承认自己错了就行。胡斯只提了一个条件作为交换，可整个大会里，没有一个人能满足这个条件。",
+    },
+    summary: {
+      en: "By 5 June 1415, Hus had already spent more than six months in custody. He finally got what he'd been asking for since his arrest: an actual public hearing. The council read out excerpts from his own writings and worked through a parade of witnesses. Hus barely got a word in: every time he tried to answer, the hall shouted him down, telling him to stop splitting hairs and just say yes or no. [[b]]He held his ground anyway: he wasn't going to submit to anything unless someone could show him from Scripture itself that he'd been wrong, and if they could, he'd recant on the spot.[[/b]] Nobody in the hall managed that. That evening, writing to his friend John of Chlum, Hus summed up the day in one line.\n\n[[quote:0]]\n\nThree days later, on 8 June, the council read Hus thirty-nine articles drawn from his own writings, twenty-six of them from De Ecclesia alone, and laid out for Sigismund exactly why these ideas were dangerous to more than just the Church: several of them, spelled out plainly, cut directly against a king's own secular authority too. It was a pointed argument, aimed less at persuading Hus than at making sure Sigismund had no reason left to defend him. Hus gave the same answer he'd given three days before: if anyone could convince him he was wrong, he'd yield immediately. The council decided that wasn't good enough. Real submission, they told him, meant four things at once: confess that his positions had been in error, renounce them, formally revoke them, and publicly declare the opposite of what he'd taught.\n\nHus refused all four. Not out of stubbornness, he insisted, but because doing it would mean lying against his own conscience, and that was a line even a council couldn't talk him across.",
+      cz: "K 5. červnu 1415 byl Hus už přes šest měsíců ve vazbě. Konečně se mu dostalo toho, oč žádal od svého zatčení: skutečného veřejného slyšení. Koncil četl výňatky z jeho vlastních spisů a vyslechl řadu svědků. Hus se sotva dostal ke slovu: kdykoli se pokusil odpovědět, sál ho umlčel křikem, ať přestane kličkovat a řekne prostě ano, nebo ne. [[b]]Přesto se nedal: nehodlal se ničemu podřídit, dokud mu někdo z Písma samotného nedokáže, že se mýlil, a kdyby to dokázal, byl by ochoten okamžitě odvolat.[[/b]] Nikdo v sále to nedokázal. Toho večera Hus v dopise svému příteli Janu z Chlumu shrnul ten den do jediné věty.\n\n[[quote:0]]\n\nO tři dny později, 8. června, přečetl koncil Husovi třicet devět článků vytažených z jeho vlastních spisů, dvacet šest z nich ze samotného díla De Ecclesia, a Zikmundovi rovnou vyložil, proč jsou tyto myšlenky nebezpečné nejen pro církev: několik z nich, řečeno otevřeně, mířilo přímo proti světské moci samotného krále. Byl to cílený tah, méně namířený na to přesvědčit Husa, spíš na to, aby Zikmund neměl už žádný důvod ho hájit. Hus odpověděl stejně jako o tři dny dřív: kdyby ho někdo dokázal přesvědčit, že se mýlí, ustoupil by okamžitě. Koncilu to nestačilo. Skutečné podřízení podle nich znamenalo čtyři věci najednou: přiznat, že se ve svých názorech mýlil, vzdát se jich, formálně je odvolat, a veřejně prohlásit opak toho, co dosud učil.\n\nHus odmítl všechny čtyři body. Ne z tvrdohlavosti, jak sám tvrdil, ale protože by to znamenalo lhát proti vlastnímu svědomí, a to byla hranice, přes kterou ho nepřemluvil ani koncil.",
+      zh: "到1415年6月5日，胡斯已经被关押了六个多月。他终于等到了自被捕以来一直在争取的东西：一场真正的公开听证。宗教会议宣读了他自己著作中的节选，还听取了一长串证人的证词。胡斯几乎插不上话：每次他试图开口回应，大堂里就会响起喝止声，让他别再玩文字游戏，直接说是或不是。[[b]]他还是没有让步：除非有人能从圣经本身证明他错了，否则他不会屈服于任何要求，而只要真能证明，他愿意当场收回自己的观点。[[/b]]大堂里没有一个人做到这一点。那天晚上，胡斯写信给好友赫鲁姆的扬，用一句话总结了这一天。\n\n[[quote:0]]\n\n三天后，6月8日，宗教会议向胡斯宣读了从他自己著作中摘出的三十九条判决，其中二十六条出自《论教会》，并向西吉斯蒙德说明了这些观点不仅威胁教会，还直接威胁到了世俗权力：其中几条，说得明明白白，正冲着国王本人的世俗权威而来。这一手棋，与其说是想说服胡斯，不如说是要让西吉斯蒙德再也没有理由为他辩护。胡斯给出了和三天前一样的回答：只要有人能说服他自己错了，他会立刻屈服。宗教会议认为这还不够。他们告诉他，真正的臣服需要同时做到四件事：承认自己此前的观点有误，放弃这些观点，正式撤回这些观点，并公开宣称与上述判决相反的立场。\n\n这四条，胡斯一条都没有答应。他自己说，这不是出于固执，而是因为照做就等于违背自己的良心撒谎，而这是一条连宗教会议也没能说服他跨过去的底线。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "All cried out at me, as did the Jews against Jesus.",
+          cz: "Všichni na mě křičeli, tak jako Židé na Ježíše.",
+          zh: "所有人都冲我喊叫，就像当年犹太人冲耶稣喊叫一样。",
+        },
+        attribution: {
+          en: "Jan Hus, letter to John of Chlum, evening of 5 June 1415",
+          cz: "Jan Hus, dopis Janu z Chlumu, večer 5. června 1415",
+          zh: "扬·胡斯，致赫鲁姆的扬的信，1415年6月5日晚",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Jan_Hus",
+  },
+  // New card, 2026-09-02, per the user's dictated outline (the 6 July
+  // 1415 condemnation ceremony at the cathedral). Title chosen by Claude
+  // per the user's explicit direction: highlight how shameless/absurd it
+  // was that the bishops could never produce evidence, let alone a
+  // Scripture-based one, yet condemned Hus as a heretic anyway — this is
+  // the card's own thesis, not just a stylistic choice, so the [[b]] wrap
+  // below and the closing paragraph both exist specifically to make that
+  // point land rather than just narrate the ceremony.
+  // - Deliberately stops before the execution itself, per the user's own
+  //   explicit instruction ("到这里为止，行刑过程放到下一节去讲") — ends
+  //   with Hus being led out of the cathedral toward the stake, the
+  //   burning itself reserved for its own next card.
+  // - Confirmed via WebSearch: the Bishop of Lodi who opened with the
+  //   sermon on rooting out heresy is named, Jacob Balardi Arrigoni,
+  //   preaching from Romans 6:6 ("that the body of sin might be
+  //   destroyed"); the degradation ceremony's specific ritual mechanics
+  //   (vestments put back on him, then stripped one by one, each removal
+  //   sealed with a formal curse; his tonsure itself cut away with shears
+  //   while the curses continued); the paper mitre painted with three
+  //   devils clawing at a soul and labeled "Heresiarch" (leader of
+  //   heretics); and Hus kneeling to pray quietly for his enemies'
+  //   forgiveness — all confirmed closely matching the user's own outline.
+  // - Quote: the user's own supplied text and attribution (Council of
+  //   Constance, Session 15, 6 July 1415) checked against an independent
+  //   source (clerus.org's translation of the sentence of degradation)
+  //   and confirmed accurate; translated into CZ/ZH here.
+  // - relatedLandmarks: none, same as the two preceding 1414/1415 cards —
+  //   this happens in Constance Cathedral, outside the Czech Republic.
+  // - startYear 1415.1, to sort after a-conscience-the-court-couldnt-
+  //   break-1415 (flat 1415, covering the 5/8 June hearings) and leave
+  //   room below for the still-unwritten execution card that follows it.
+  {
+    slug: "guilty-though-never-refuted-1415",
+    era: "religious-turmoil",
+    startYear: 1415.1,
+    images: ["/history/guilty-though-never-refuted-1415.webp"],
+    imageCaptions: [
+      {
+        en: "A bishop places the paper heretic's mitre on Hus's head, 6 July 1415.",
+        cz: "Biskup nasazuje Husovi na hlavu papírovou mitru kacíře, 6. července 1415.",
+        zh: "1415年7月6日，一位主教将纸糊的\"异端\"高帽戴到了胡斯头上。",
+      },
+    ],
+    year: {
+      en: "1415",
+      cz: "1415",
+      zh: "1415年",
+    },
+    tone: "serious",
+    title: {
+      en: "Guilty, Though Never Refuted",
+      cz: "Vinen, aniž ho kdy někdo vyvrátil",
+      zh: "定罪，却从未被真正驳倒",
+    },
+    hookLine: {
+      en: "The council delivered a sermon, a reading, a verdict, and an elaborate ritual for stripping a man of his office. The one thing it never delivered, from his first hearing to his last, was a single verse proving him wrong.",
+      cz: "Koncil odbyl kázání, čtení, rozsudek i propracovaný obřad, jak muže zbavit jeho úřadu. Jedinou věc, kterou od jeho prvního slyšení až po poslední nikdy nedodal, byl jediný verš, který by dokázal, že se mýlil.",
+      zh: "宗教会议准备了布道、宣读、判决，还有一整套剥夺神职的繁复仪式。唯独从他第一次受审到最后这一刻，始终没能拿出的，是哪怕一句能证明他确实说错了的经文。",
+    },
+    summary: {
+      en: "On 6 July 1415, the council brought its case against Hus to its final conclusion, in the cathedral, before the whole assembly. Jacob Balardi Arrigoni, Bishop of Lodi, opened with a sermon on the Church's duty to root out heresy, preaching from Paul's line that the body of sin must be destroyed. After that, the hall read through a selection of Hus's and Wycliffe's own theses, followed by a report on the trial itself.\n\nAn Italian bishop then pronounced sentence: guilty, both Hus and his writings. Hus asked to speak one last time. Even now, he said, all he wanted was to be shown his error from Scripture. [[b]]No one in that cathedral had managed to do that at any point since his arrest, and no one did it now either.[[/b]] He knelt and prayed quietly, asking God to forgive everyone who'd worked against him, the same mercy tradition says Christ himself asked for on the cross.\n\nThe degradation came next. Bishops dressed him once more in the full vestments of a priest, then asked him, one final time, to recant. He refused again. What followed was a ritual meant to strip him of his office piece by piece: each vestment removed in turn, each removal sealed with a formal curse, and finally his tonsure itself, the shaved crown marking him as clergy, cut away with shears while the curses continued.\n\nThen the council read its own judgment aloud.\n\n[[quote:0]]\n\nA tall paper mitre went on his head next, painted with three devils clawing at a soul and labeled, in plain letters, Heresiarch: leader of heretics. Under armed guard, he was led out of the cathedral toward the stake.\n\nIn the end, the whole proceeding had run through a sermon, a reading of his own words, a ritual stripped down to its last symbolic thread, and a formal curse for each one. What it had never once included, from his very first hearing to this last one, was a single line of Scripture proving him wrong.",
+      cz: "6. července 1415 přivedl koncil svůj případ proti Husovi ke konečnému závěru, v katedrále, před celým shromážděním. Jacob Balardi Arrigoni, biskup z Lodi, zahájil kázáním o povinnosti církve vymýtit kacířství, kázal na Pavlův verš o tom, že tělo hříchu musí být zničeno. Poté sál přečetl výběr z Husových a Viklefových vlastních tezí, následovaný zprávou o samotném procesu.\n\nPoté vynesl rozsudek jeden italský biskup: vinen, jak Hus, tak jeho spisy. Hus požádal, aby mohl naposledy promluvit. I teď, řekl, chtěl jen jediné: aby mu byl jeho omyl ukázán z Písma. [[b]]Nikdo v té katedrále to nedokázal ani jednou od jeho zatčení, a nedokázal to ani teď.[[/b]] Poklekl a tiše se modlil, aby Bůh odpustil všem, kdo proti němu pracovali, stejné milosrdenství, o jaké podle tradice na kříži prosil sám Kristus.\n\nNásledovala degradace. Biskupové ho znovu oblékli do plného kněžského roucha a naposledy ho požádali, aby odvolal. Znovu odmítl. Následoval obřad, jehož smyslem bylo zbavit ho úřadu kus po kuse: každé roucho bylo postupně sejmuto, každé sejmutí zpečetěno formální kletbou, a nakonec mu i tonzuru, vyholenou korunu na hlavě, znamení duchovního stavu, odřízli nůžkami za pokračujících kleteb.\n\nPoté koncil nahlas přečetl svůj vlastní rozsudek.\n\n[[quote:0]]\n\nNa hlavu mu pak nasadili vysokou papírovou mitru, pomalovanou třemi ďábly svírajícími duši a s nápisem prostými písmeny: Haeresiarcha, vůdce kacířů. Pod ozbrojeným doprovodem ho vyvedli z katedrály směrem k hranici.\n\nCelé řízení nakonec trvalo hodiny, prošlo kázáním, čtením jeho vlastních slov, obřadem odstrojeným až na poslední symbolický kus a formální kletbou pro každý z nich. Co v něm ale ani jednou, od jeho úplně prvního slyšení až po tuto poslední chvíli, nezaznělo, byl jediný verš Písma, který by dokázal, že se mýlil.",
+      zh: "1415年7月6日，宗教会议在主教座堂里，当着全体大会的面，为对胡斯的指控画上了最后一笔。洛迪主教雅各布·巴拉尔迪·阿里戈尼首先发表布道，讲的是教会有责任根除异端，引用保罗书信里\"叫罪身灭绝\"那句话作为立论。随后，大堂里宣读了胡斯和威克里夫的各种论点节选，以及整个审判过程的报告。\n\n接着，一位意大利主教宣判：胡斯本人及其著作，皆有罪。胡斯请求最后再说一次话。他说，即便到了此刻，他想要的也不过一件事：有人能从圣经里指出他到底错在哪儿。[[b]]从他被捕的那一刻起，直到眼下这一刻，这座教堂里没有一个人做到过这一点，此刻依然没有。[[/b]]他跪了下来，低声祈祷，求上帝宽恕所有与他为敌的人，正如相传基督在十字架上也曾为敌人求过的那份宽恕。\n\n接下来是革除神职的仪式。主教们再一次给他穿上完整的神父礼服，最后一次要求他放弃自己的言论。他再次拒绝。随后的仪式，为的就是一点一点剥去他的神职：礼服被逐件脱下，每脱一件都伴随一句正式的诅咒；最后，连他头顶的剃发礼冠，也就是神职人员身份的标志，也在持续的诅咒声中被剪刀剪去。\n\n随后，宗教会议当众宣读了自己的判决。\n\n[[quote:0]]\n\n紧接着，一顶高高的纸糊高帽被扣在他头上，上面画着三个正在攫取灵魂的恶魔，还用清清楚楚的字写着\"异端领袖\"（Haeresiarcha）。在全副武装的看押下，他被带出主教座堂，走向火刑柱。\n\n整场审判，前前后后加起来有好几个小时，有布道，有对他自己文字的宣读，有一场剥到最后一丝象征意义的仪式，每一步都配上一句正式的诅咒。可从他第一次受审，到眼前这最后一刻，始终没有出现过的，是哪怕一句能证明他确实说错了的圣经经文。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "This holy synod of Constance, seeing that God's church has nothing more that it can do, relinquishes John Hus to the judgment of the secular authority and decrees that he is to be relinquished to the secular court.",
+          cz: "Tento svatý kostnický sněm, vida, že církev Boží už nemůže učinit nic více, ponechává Jana Husa soudu světské moci a nařizuje, aby byl vydán světskému soudu.",
+          zh: "康斯坦茨这次神圣的宗教会议，鉴于上帝的教会已经无计可施，将扬·胡斯交由世俗当局审判，并裁定他应被移交世俗法庭。",
+        },
+        attribution: {
+          en: "Council of Constance, Session 15, 6 July 1415",
+          cz: "Kostnický koncil, 15. zasedání, 6. července 1415",
+          zh: "康斯坦茨大公会议，第十五次会议，1415年7月6日",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Jan_Hus",
+  },
+  // New card, 2026-09-02, per the user's dictated outline — Hus's
+  // execution, 6 July 1415, the closing card of the Hus death-arc. Title
+  // chosen by Claude, user left it "待定."
+  // - The user's own outline flagged "[需要引用]" next to the famous
+  //   goose/swan prophecy quote, correctly suspecting it needed checking.
+  //   Confirmed via WebSearch/WebFetch (Wikipedia's own Jan Hus article,
+  //   which the user's outline appears to already be closely paraphrasing
+  //   — the Bugenhagen/Mathesius details match almost verbatim, same
+  //   footnote number "[53]"): no contemporary account has Hus actually
+  //   saying the vivid "roast a goose / hundred years / swan" line at his
+  //   execution. The real seed is a quieter, less theatrical line from an
+  //   actual October 1412 letter, about "other birds" escaping traps —
+  //   used here as [[quote:0]], the genuine primary-source line, with the
+  //   legendary version's century-long growth (Luther's 1530s
+  //   reformulation, Bugenhagen's 1546 funeral-sermon repetition,
+  //   Mathesius's 1566 claim it proved Luther's own divine calling)
+  //   narrated honestly as legend, not asserted as fact. [[b]] wraps the
+  //   card's own explicit correction on this point.
+  // - Execution details (kneeling and praying with arms spread, stripped
+  //   and bound with rope, neck chained to the stake, wood and straw
+  //   piled to the neck, Reichsmarschall von Pappenheim's last offer to
+  //   recant in the presence of the Count Palatine, Hus's refusal, the old
+  //   woman's firewood and "O Sancta Simplicitas," the final prayer to
+  //   Christ, the ashes scattered in the Rhine to prevent a shrine) all
+  //   independently confirmed via the same source. [[quote:1]] uses the
+  //   user's own Chinese translation of Hus's refusal as the ZH text
+  //   (kept as supplied rather than retranslated), with EN restored to
+  //   Wikipedia's own English rendering and CZ translated fresh here.
+  // - A small etymological note folded into the prose: "Hus" and the
+  //   Czech word for goose, "husa," genuinely sound alike — that
+  //   resemblance is the actual origin of the pun the whole legend is
+  //   built on, not a coincidence invented later.
+  // - relatedLandmarks: none — Constance and the Rhine, both outside the
+  //   Czech Republic, same as the three preceding cards in this arc.
+  // - startYear 1415.2, sorting directly after guilty-though-never-
+  //   refuted-1415 (1415.1), which ends with Hus being led toward the
+  //   stake — this card picks up exactly there.
+  {
+    slug: "the-goose-and-the-swan-1415",
+    era: "religious-turmoil",
+    startYear: 1415.2,
+    images: ["/history/the-goose-and-the-swan-1415.webp"],
+    imageCaptions: [
+      {
+        en: "Von Pappenheim offers Hus one final chance to recant, 6 July 1415.",
+        cz: "Von Pappenheim nabízí Husovi poslední šanci odvolat, 6. července 1415.",
+        zh: "1415年7月6日，冯·帕彭海姆给了胡斯最后一次认罪的机会。",
+      },
+    ],
+    year: {
+      en: "1415",
+      cz: "1415",
+      zh: "1415年",
+    },
+    tone: "serious",
+    title: {
+      en: "The Goose and the Swan",
+      cz: "Husa a labuť",
+      zh: "鹅与天鹅",
+    },
+    hookLine: {
+      en: "Legend gave Hus a prophecy about a goose and a swan. History gave him a stake, a chain, and one last chance to save himself, which he turned down.",
+      cz: "Legenda dala Husovi proroctví o huse a labuti. Historie mu dala hranici, řetěz a poslední šanci zachránit se, kterou odmítl.",
+      zh: "传说给了胡斯一句关于鹅与天鹅的预言。历史给他的，是火刑柱、铁链，还有最后一次自救的机会，而他拒绝了。",
+    },
+    summary: {
+      en: "Legend has it that Hus turned to face his executioners at the stake and made a prediction: they could kill a small, weak goose (hus is Czech for goose), but a stronger bird would come hunting them down in time. [[b]]No account from anyone actually present records him saying anything of the kind.[[/b]] What he did write, in a real letter from October 1412, was quieter and far less theatrical.\n\n[[quote:0]]\n\nThe vivid goose-and-swan version came from Martin Luther, writing more than a hundred years later: they'd roasted a goose, he said, but in a hundred years a swan would sing, and this time they'd have to listen to it. Johannes Bugenhagen repeated his own version of the line at Luther's own funeral in 1546: burn a goose if they liked, a swan was coming in a hundred years that they wouldn't be able to burn at all. Two decades after that, in 1566, Luther's first biographer, Johannes Mathesius, took the whole thing as proof that Luther himself had been sent by God. A hundred years of retelling had turned one vague line about birds escaping their traps into a prophecy engineered, after the fact, to end with Martin Luther.\n\nWhat actually happened at the stake needs no embellishment. Hus knelt and prayed aloud, arms spread wide. The executioner stripped him and bound his hands behind his back with rope, then chained his neck to the stake itself, wood and straw piled up around him to the neck.\n\nAt the very last moment, the imperial marshal, von Pappenheim, standing beside the Count Palatine, offered him one final way out: recant, and live. Hus refused.\n\n[[quote:1]]\n\nThe executioners reportedly struggled to get the fire to catch. An old woman came forward and threw a small bundle of sticks onto the pile to help it along. Watching her, Hus is said to have cried out, \"O Sancta Simplicitas,\" oh, holy simplicity, finding something almost tender in the moment even then. As the flames closed in, his last words were a plea to Christ himself for mercy. Afterward, to keep his grave from ever becoming a shrine, his ashes were gathered up and scattered into the Rhine.",
+      cz: "Podle legendy se Hus na hranici obrátil ke svým katům a pronesl proroctví: mohou zabít malou, slabou husu (hus je česky husa), ale silnější pták si je časem najde. [[b]]Žádný záznam od nikoho, kdo byl skutečně přítomen, nezachycuje, že by řekl něco podobného.[[/b]] To, co skutečně napsal, v opravdovém dopise z října 1412, bylo tišší a mnohem méně teatrální.\n\n[[quote:0]]\n\nBarvitá verze s husou a labutí pochází od Martina Luthera, který psal o více než sto let později: prý upekli husu, řekl Luther, ale za sto let zazpívá labuť, a tu už budou muset poslouchat. Johannes Bugenhagen zopakoval vlastní verzi tohoto výroku přímo na Lutherově pohřbu roku 1546: klidně si upečte husu, ale labuť přijde za sto let a tu už neupečou. O dvacet let později, roku 1566, vzal Lutherův první životopisec Johannes Mathesius celou tuhle historku jako důkaz, že sám Luther byl poslán Bohem. Sto let převyprávění proměnilo jednu neurčitou větu o ptácích unikajících z pastí v proroctví, dodatečně sestrojené tak, aby vyústilo právě v Martina Luthera.\n\nTo, co se na hranici skutečně stalo, žádné přikrášlování nepotřebuje. Hus poklekl a nahlas se modlil s rozpřaženýma rukama. Kat ho svlékl a svázal mu ruce provazem za zády, poté mu řetězem připoutal krk přímo ke kůlu, obloženému dřevem a slámou až po krk.\n\nV úplně poslední chvíli mu říšský maršálek von Pappenheim, po boku falckraběte, nabídl poslední východisko: ať odvolá a zůstane naživu. Hus odmítl.\n\n[[quote:1]]\n\nKatům se prý nedařilo oheň pořádně rozdmýchat. Vpřed předstoupila stará žena a přihodila na hranici malý otep chrastí, aby oheň podpořila. Hus na to, jak se traduje, zvolal: \"Ó svatá prostoto\" (O Sancta Simplicitas), a i v tu chvíli v tom dokázal najít cosi téměř dojemného. Když ho obklopily plameny, jeho poslední slova byla prosbou o milost, adresovanou přímo Kristu. Poté byl jeho popel, aby se z jeho hrobu nikdy nestalo poutní místo, sesbírán a rozptýlen do Rýna.",
+      zh: "相传，胡斯在火刑柱前转向刽子手，说出了一句预言：你们可以杀死一只弱小的鹅（\"hus\"在捷克语中就是\"鹅\"的意思），但迟早会有一只更强壮的猛禽来找你们算账。[[b]]没有任何一位真正在场的人留下过这样的记录。[[/b]]他真正写下的，是1412年10月一封信里的话，语气平静得多，也远没有那么戏剧化。\n\n[[quote:0]]\n\n后来那个绘声绘色的\"鹅与天鹅\"版本，出自一百多年后的马丁·路德之口：路德说，他们烤了一只鹅，可一百年后会有一只天鹅歌唱，到那时他们就不得不听了。1546年，路德的葬礼上，约翰内斯·布根哈根又重复了一遍自己的版本：随你们去烤鹅吧，可一百年后来的那只天鹅，你们是烧不掉的。二十年后，即1566年，路德的第一位传记作者约翰内斯·马特修斯，把这整件事当成了路德本人受神差遣的证据。一百年的以讹传讹，把一句关于飞鸟挣脱罗网的含糊话，硬生生打磨成了一条事后专门为马丁·路德量身定做的预言。\n\n火刑柱前真正发生的事，不需要任何添油加醋。胡斯跪下，张开双臂，大声祈祷。刽子手剥去了他的衣服，用绳子把他的双手反绑在身后，又用铁链把他的脖子锁在木桩上，木头和稻草一直堆到他的脖颈。\n\n就在最后关头，帝国元帅冯·帕彭海姆站在普法尔茨伯爵身旁，给了他最后一条活路：认罪，就能活命。胡斯拒绝了。\n\n[[quote:1]]\n\n据说刽子手一开始怎么也点不着火。这时，一位老妇人走上前来，往柴堆上扔了一小捆柴。看着她这一幕，胡斯据说喊出了一句：\"哦，圣洁的纯朴啊！\"（O Sancta Simplicitas），到了这一刻，他竟然还能从中看出几分近乎温柔的东西。烈焰逼近时，他最后的话是向基督本人祈求怜悯。事后，为了不让他的坟墓变成朝圣之地，他的骨灰被收集起来，撒入了莱茵河。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "Other birds, which by God's word and by their lives soar to high places, will break their traps in pieces.",
+          cz: "Další ptáci, kteří se Božím slovem a vlastním životem vznesou vysoko, protrhají nastražené sítě.",
+          zh: "还会有别的飞鸟，凭借上帝的话语和自己的一生飞向高处，挣破为它们设下的罗网。",
+        },
+        attribution: {
+          en: "Jan Hus, letter, October 1412",
+          cz: "Jan Hus, dopis, říjen 1412",
+          zh: "扬·胡斯，书信，1412年10月",
+        },
+      },
+      {
+        text: {
+          en: "God is my witness that the things charged against me I never preached. In the same truth of the Gospel which I have written, taught, and preached, drawing upon the sayings and positions of the holy doctors, I am ready to die today.",
+          cz: "Bůh je mi svědkem, že jsem nikdy nekázal to, z čeho jsem obviněn. V téže pravdě evangelia, kterou jsem psal, učil a kázal, čerpaje ze slov a postojů svatých učitelů, jsem dnes připraven zemřít.",
+          zh: "上帝可以作证，我从未宣讲过那些控告我的言论。我所撰写、教导和宣讲的福音真理，都源于圣贤们的言论和立场，我今天也甘愿为此而死。",
+        },
+        attribution: {
+          en: "Jan Hus, at the stake, 6 July 1415",
+          cz: "Jan Hus, na hranici, 6. července 1415",
+          zh: "扬·胡斯，火刑柱前，1415年7月6日",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "pamatnik-jana-husa",
+        relation: {
+          en: "Unveiled on Old Town Square in 1915, exactly five hundred years after this stake, with \"Truth Prevails\" carved into its base.",
+          cz: "Odhalen na Staroměstském náměstí v roce 1915, přesně pět set let po této hranici, s nápisem \"Pravda vítězí\" vytesaným do podstavce.",
+          zh: "1915年在老城广场落成，正好是这根火刑柱竖起五百年后，底座上刻着\"真理必胜\"。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Jan_Hus",
+  },
+  // New card, 2026-09-02, per the user's dictated outline — Bohemia's
+  // reaction to Hus's execution: the Bohemian Protestation of 2 September
+  // 1415, and Sigismund's own hardening stance. Title chosen by Claude
+  // per the user's suggested direction ("胡斯能被烧死，但是人民的声音是
+  // 烧不死的" — Hus could be burned, but the people's voice couldn't),
+  // deliberately echoing the-ideas-they-couldnt-burn-1413's own title
+  // pattern (burning something that outlasts the fire) now that this arc
+  // has come full circle.
+  // - The user's outline changed mid-turn (an earlier draft ending on
+  //   Rome declaring Bohemia a heretic nation and preparing the next
+  //   crusade, with a John/Charles-in-Lithuania irony callback, was
+  //   superseded before that research finished) — the version actually
+  //   used here is the resent, expanded outline ending on Sigismund's
+  //   threatening letters and unrest driving Catholic priests out of
+  //   Bohemia. The crusade-preparation material from the earlier draft
+  //   was NOT used; if the user wants that angle (Pope Martin V's actual
+  //   crusade bull was 1 March 1420, per WebSearch — a full 4.5 years
+  //   after this card, so it belongs to its own later card rather than
+  //   folded in here) it's still available to write up separately.
+  // - Confirmed via WebSearch/WebFetch: the Protestation's numbers have a
+  //   real, reconcilable discrepancy worth noting rather than silently
+  //   picking one — the single surviving Edinburgh copy (dated 2 September
+  //   1415) itself carries about 100 seals, matching the user's own
+  //   figure, but the wider protest campaign eventually gathered as many
+  //   as 452 Bohemian and Moravian noble seals across all copies over the
+  //   following weeks; phrased here as "roughly a hundred" to stay
+  //   accurate to the one surviving document without asserting a precise
+  //   count for the whole campaign. Four copies were made, one survives
+  //   (Edinburgh University Library, acquired centuries later by the
+  //   theologian William Guild). Quote text confirmed matching the user's
+  //   own citation closely (same source, same "[55]"-style footnote
+  //   pattern already seen once before in this arc).
+  // - Also confirmed: Sigismund's threatening letters promising to drown
+  //   Wycliffites and Hussites in Bohemia, and unrest that drove Catholic
+  //   priests from their own parishes, both independently sourced. His
+  //   shift from the more conciliatory figure established in
+  //   the-safe-conduct-that-wasnt-enough-1414 ("Sigismund genuinely meant
+  //   to sit down with Hus and talk") to now standing unambiguously with
+  //   Rome is phrased carefully against his brother Wenceslas's own
+  //   court, not asserting an open personal rift between the two brothers
+  //   at this point — that escalates later, after Wenceslas's own 1419
+  //   death, per the era's own structural plan noted elsewhere in this
+  //   file.
+  // - [[b]] wraps the Protestation's own central, load-bearing claim: not
+  //   just defending Hus, but formally declaring his accusers the real
+  //   traitors — the card's own thesis in the nobles' own words.
+  // - relatedLandmarks: none. Nothing in this card ties to one specific
+  //   Prague landmark the way the previous card's memorial did — the
+  //   document itself ends up in Constance and later Edinburgh, and the
+  //   unrest described is kingdom-wide rather than site-specific.
+  // - startYear 1415.3, sorting directly after the-goose-and-the-swan-1415
+  //   (1415.2).
+  // - Correction, 2026-09-02 (user-flagged): this card originally closed
+  //   the interdict paragraph with "Rome quietly lifted it about a year
+  //   later, having gained nothing" — sourced from a vague WebSearch
+  //   result that didn't specify a year or who was involved. The user
+  //   flagged this against zh.wikipedia's own "Defenestrations of Prague"
+  //   article, which states the interdict actually stood until 1419 and
+  //   was lifted specifically through King Wenceslas's own mediation, as
+  //   part of a deal that saw Prague's Hussite-majority town council
+  //   dissolved and replaced with Catholic councillors — the direct
+  //   trigger for the arrests, the 30 July 1419 protest march, and the
+  //   First Defenestration itself. An independent English source (Oxford
+  //   Reference) corroborates the July 1419 council reshuffle
+  //   specifically. Rather than pull that whole 1419 chain into this
+  //   1415-dated card, the incorrect "lifted a year later" line was
+  //   simply cut — this card now leaves the interdict's fate genuinely
+  //   open. **Whoever writes the still-unwritten First Defenestration
+  //   card should build this in as the opening beat**: the interdict
+  //   dragging on for years, Wenceslas finally negotiating its lifting in
+  //   1419, at the cost of the Prague council reshuffle that set the
+  //   whole defenestration in motion.
+  {
+    slug: "a-voice-that-wouldnt-burn-1415",
+    era: "religious-turmoil",
+    startYear: 1415.3,
+    images: ["/history/a-voice-that-wouldnt-burn-1415.webp"],
+    imageCaptions: [
+      {
+        en: "A Bohemian nobleman seals the Protestation, September 1415.",
+        cz: "Český šlechtic přikládá pečeť k Protestaci, září 1415.",
+        zh: "1415年9月，一位波希米亚贵族在《抗议书》上盖下自己的蜡封。",
+      },
+    ],
+    year: {
+      en: "1415",
+      cz: "1415",
+      zh: "1415年",
+    },
+    tone: "serious",
+    title: {
+      en: "The People's Heart That Wouldn't Burn",
+      cz: "Srdce lidu, které neshořelo",
+      zh: "烧不掉的民心",
+    },
+    hookLine: {
+      en: "Rome expected the burning of one man to settle the matter. A hundred Bohemian nobles put their own seals on paper to make sure it didn't.",
+      cz: "Řím čekal, že upálením jednoho muže bude věc vyřízena. Sto českých šlechticů přiložilo na papír vlastní pečeti, aby se postaralo, že tomu tak nebude.",
+      zh: "罗马原以为烧死一个人，这事就算了结了。一百位波希米亚贵族用自己的封蜡，在纸上明明白白地告诉他们：没那么容易。",
+    },
+    summary: {
+      en: "News of the execution reached Bohemia within weeks. What followed wasn't grief alone. It was fury, aimed squarely at Rome.\n\nOn 2 September 1415, a document now known as the Bohemian Protestation was drawn up, and roughly a hundred of Bohemia and Moravia's most prominent nobles signed it, each sealing it with their own wax seal. At least four copies were made and sent out; only one is known to survive today, held at the University of Edinburgh.\n\n[[quote:0]]\n\n[[b]]It went further than defending Hus. It declared that anyone who claimed heresy existed anywhere in Bohemia or Moravia was, in its own words, \"the worst of traitors.\"[[/b]] A hundred nobles had just told Rome, in writing and under seal, exactly who they thought the real heretics were.\n\nSigismund took it badly. Already persuaded by the council that Hus had been a genuine heretic, he answered the protest with threatening letters of his own, promising he'd soon drown every Wycliffite and Hussite in the kingdom. The man who'd once meant to sit down and negotiate with Hus now stood unambiguously with Rome, at odds with the more sympathetic line his own brother's court back in Prague had taken.\n\nRome answered in its own way too. The Council ordered the Archbishop of Prague to place the city under [[link:how-powerful-was-the-church-1412]]interdict[[/link]]: in plain terms, a total shutdown of Church services there, no masses, no weddings, no last rites for the dying, no confession, nothing, until Prague fell back into line. It didn't work. Reform-minded priests, already branded heretics regardless, simply kept going, and the same nobles who'd just sealed their names to the protest gave them armed protection to do it.\n\nFor Bohemia, it was fuel on an already-burning fire. Unrest broke out across the kingdom, and enough Catholic priests fled their own parishes to save their lives that whole regions were left without one.",
+      cz: "Zpráva o popravě se do Čech dostala během několika týdnů. Následoval nejen zármutek. Byl to hněv, namířený přímo na Řím.\n\n2. září 1415 vznikl dokument dnes známý jako Česká protestace, který podepsalo zhruba sto nejvýznamnějších šlechticů z Čech a Moravy, každý svou vlastní pečetí. Vzniklo nejméně čtyři exempláře a byly rozeslány; dodnes je znám jen jeden dochovaný, uložený na univerzitě v Edinburghu.\n\n[[quote:0]]\n\n[[b]]Šla ale dál než k pouhé obhajobě Husa. Prohlašovala, že kdokoli tvrdí, že v Čechách nebo na Moravě existuje kacířství, je, doslova, \"tím nejhorším zrádcem.\"[[/b]] Sto šlechticů právě písemně a pod pečetí sdělilo Římu, koho vlastně považují za skutečné kacíře.\n\nZikmund to nesl špatně. Koncil ho už přesvědčil, že Hus byl opravdovým kacířem, a na protest odpověděl vlastními výhrůžnými dopisy, v nichž slíbil, že brzy utopí každého viklefovce a husitu v celém království. Muž, který kdysi zamýšlel s Husem jednat, teď stál jednoznačně na straně Říma, v rozporu se smířlivějším postojem, jaký zaujal dvůr jeho vlastního bratra v Praze.\n\nŘím odpověděl i svým vlastním způsobem. Koncil nařídil pražskému arcibiskupovi, aby na město uvalil [[link:how-powerful-was-the-church-1412]]interdikt[[/link]]: řečeno prostě, úplné zastavení církevních služeb, žádné mše, žádné svatby, žádné poslední pomazání pro umírající, žádná zpověď, nic, dokud se Praha nevrátí do latě. Nezabralo to. Kněží nakloněni reformě, kteří už tak byli označeni za kacíře, prostě pokračovali dál, a titíž šlechtici, kteří teprve nedávno připojili své pečeti k protestu, jim k tomu poskytli ozbrojenou ochranu.\n\nPro Čechy to byl přilitý olej do už tak hořícího ohně. Po celém království propukly nepokoje a natolik velký počet katolických kněží uprchl ze svých far, aby si zachránili život, že v celých krajích nakonec nezůstal jediný.",
+      zh: "处决的消息几周之内就传回了波希米亚。随之而来的不只是悲痛，还有愤怒，矛头直指罗马。\n\n1415年9月2日，一份后来被称为《波西米亚抗议书》的文件写成，波希米亚和摩拉维亚约一百位最有名望的贵族在上面签了名，每人都盖上了自己的蜡封。至少制作并分发了四份，但如今已知只有一份保存了下来，藏于爱丁堡大学。\n\n[[quote:0]]\n\n[[b]]这份文件不只是在为胡斯辩护。它还宣称，任何声称波希米亚或摩拉维亚境内存在异端的人，用原文的话说，都是\"最恶劣的叛徒\"。[[/b]]一百位贵族刚刚用白纸黑字加蜡封，告诉了罗马，他们心目中真正的异端到底是谁。\n\n西吉斯蒙德对此反应激烈。他已经被宗教会议说服，相信胡斯确实是异端，于是也用自己的一封威胁信作为回应，扬言不久就要把王国里所有威克里夫派和胡斯派都统统淹死。这位曾经打算跟胡斯坐下来谈判的人，如今毫不含糊地站到了罗马一边，跟他自己身在布拉格的兄长朝廷更为温和的立场背道而驰。\n\n罗马也用自己的方式做出了回应。宗教会议下令布拉格大主教对全城实施[[link:how-powerful-was-the-church-1412]]停教令[[/link]]：说得直白点，就是教会活动全面停摆，不做弥撒、不办婚礼、不给临终的人做临终圣事、不听告解，什么都不做，直到布拉格重新服从为止。这一招也没管用。原本就已经被打成异端的改革派神父，照样我行我素，而那些刚刚在抗议书上盖过蜡封的贵族，也照样出兵保护他们。\n\n对波希米亚来说，这无异于火上浇油。整个王国各地爆发了骚乱，不少天主教神父为了保命，干脆逃离了自己的教区，以至于有的地方最后一个神父都不剩。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "Master John Hus was a good, just, and catholic man, who consistently detested all error and heresies.",
+          cz: "Mistr Jan Hus byl dobrý, spravedlivý a katolický muž, jenž vždy důsledně nenáviděl všechny bludy a kacířství.",
+          zh: "扬·胡斯大师是一位善良、公正、虔诚的天主教徒，他向来坚决憎恶一切谬误与异端。",
+        },
+        attribution: {
+          en: "The Bohemian Protestation, 2 September 1415",
+          cz: "Česká protestace, 2. září 1415",
+          zh: "《波西米亚抗议书》，1415年9月2日",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Jan_Hus",
+  },
+  // New card, 2026-09-02, per the user's dictated outline — the buildup
+  // to the First Defenestration of Prague, deliberately stopping short of
+  // it per the user's own explicit instruction ("先不要提抛窗，这是下一节
+  // 的内容"). No explicit date was given this time; dated 1419 (spring
+  // through summer, before the 30 July defenestration) based on the
+  // events themselves. Title required to name Tábor; chosen as "The Rise
+  // of Tábor."
+  // - Chronology note, worth flagging rather than silently smoothing
+  //   over: WebSearch confirms the assembly movement (including a named
+  //   "Tábor" gathering-hill) was already a mass phenomenon by July 1419
+  //   (one assembly reportedly drew ~40,000), but the permanent walled
+  //   town of Tábor itself wasn't actually built until March 1420, after
+  //   radicals were driven from their earlier base at Sezimovo Ústí —
+  //   both facts the user's own outline compresses into "soon after."
+  //   Handled here by describing the 1419 assemblies (including the
+  //   "Tábor" name already in use for the gathering site) as this card's
+  //   own 1419 content, and explicitly framing the permanent town's
+  //   construction as "the following year" rather than folding it into
+  //   1419 itself — accurate to both dates without needing a separate
+  //   card just for the walled town's founding.
+  // - Confirmed via WebSearch: Mikuláš of Hus leading Hussites out of
+  //   Prague into the countryside, assemblies concentrated at Sezimovo
+  //   Ústí, open denunciation of Sigismund, general war preparation — all
+  //   matching the user's own outline closely (again apparently drawing
+  //   on the same underlying secondary source this arc has paraphrased
+  //   several times already). Wenceslas's own reaction is phrased
+  //   carefully: independent sourcing shows him attempting (and failing)
+  //   to rein in the popular movement under pressure from Sigismund and
+  //   the Pope, rather than a documented formal policy of encouraging
+  //   Hussite militias — the user's "默许" (tacit permission) framing is
+  //   used here as the practical *outcome* of that failed attempt (his
+  //   authority too weak to stop what was happening regardless) rather
+  //   than asserted as a deliberate policy choice on his part.
+  // - relatedLandmarks: the new `tabor` Location, added this same pass
+  //   with the user's own supplied coordinates — see its own seed-file
+  //   dev comment for sourcing.
+  // - startYear 1419, positioned to sort before the still-unwritten First
+  //   Defenestration card, which should take a startYear after this one
+  //   (e.g. flat 1419.1) once written.
+  {
+    slug: "the-rise-of-tabor-1419",
+    era: "religious-turmoil",
+    startYear: 1419,
+    images: ["/history/the-rise-of-tabor-1419.webp"],
+    imageCaptions: [
+      {
+        en: "Mikuláš of Hus addresses a mass assembly, summer 1419.",
+        cz: "Mikuláš z Husi promlouvá k davu na shromáždění, léto 1419.",
+        zh: "1419年夏，胡斯的米库拉什在一场群众集会上演讲。",
+      },
+    ],
+    year: {
+      en: "1419",
+      cz: "1419",
+      zh: "1419年",
+    },
+    tone: "serious",
+    title: {
+      en: "The Tábor Assembly",
+      cz: "Táborské shromáždění",
+      zh: "塔博尔集会",
+    },
+    hookLine: {
+      en: "Wenceslas had no answer for a brother turned enemy. Bohemia found one anyway, on a hillside that took its name straight from Scripture.",
+      cz: "Václav neměl žádnou odpověď na bratra, který se stal nepřítelem. Čechy si ji přesto našly, na kopci, který dostal jméno rovnou z Písma.",
+      zh: "面对已经彻底反目的弟弟，瓦茨拉夫拿不出任何对策。波希米亚却自己找到了答案——就在一座直接取名自圣经的山丘上。",
+    },
+    summary: {
+      en: "By the spring of 1419, Wenceslas could see exactly what he was facing: a brother now openly working against him, and a kingdom boiling over with anger at Rome. He panicked, and he had no real answer. He tried, at points, to rein the popular movement in, but his own authority had worn too thin to make that stick. In practice, the only force in the kingdom with any real fighting spirit left was the Hussites themselves, however unofficial and unauthorized their growing ranks actually were, and Wenceslas was left with little choice but to let them organize.\n\nMikuláš of Hus led a wave of Hussites out of Prague and into the countryside, holding open-air assemblies across Bohemia, most notably at Sezimovo Ústí in the south. [[b]]These were no longer scattered protest meetings. They had become a genuine mass movement.[[/b]] Speaker after speaker denounced Sigismund outright, and ordinary people everywhere started preparing for a fight. In July 1419, one such gathering on a nearby hillside is said to have drawn as many as 40,000 people, and took its name straight from Scripture: Tábor, after the mountain where Christ's own transfiguration was said to have taken place.\n\nThe following year, driven from Sezimovo Ústí itself, the movement's most radical wing resettled on a hill close by and built a fortified town under that same name, Tábor, which would go on to become the single most militant stronghold of the entire Hussite movement.\n\nBy the summer of 1419, the smell of gunpowder had reached every corner of Bohemia.",
+      cz: "Na jaře 1419 Václav viděl přesně, čemu čelí: bratra, který proti němu teď otevřeně pracoval, a království vroucí hněvem vůči Římu. Zpanikařil a neměl žádnou skutečnou odpověď. Místy se pokoušel lidové hnutí zkrotit, ale jeho vlastní autorita už byla příliš vyčerpaná, než aby to k něčemu vedlo. V praxi byla jedinou silou v království, která si ještě uchovala skutečného bojového ducha, právě husitská hnutí, ať už byly jejich rostoucí řady sebeméně oficiální a povolené, a Václavovi nakonec nezbylo než je nechat, aby se organizovaly.\n\nMikuláš z Husi vyvedl vlnu husitů z Prahy do venkova a pořádal veřejná shromáždění po celých Čechách, nejvýrazněji v jižočeském Sezimově Ústí. [[b]]Už to nebyla roztroušená protestní setkání. Stalo se z toho skutečné masové hnutí.[[/b]] Řečník za řečníkem otevřeně odsuzoval Zikmunda a obyčejní lidé se všude začali chystat k boji. V červenci 1419 se na jednom takovém shromáždění na blízkém kopci prý sešlo až čtyřicet tisíc lidí, a ten kopec dostal jméno rovnou z Písma: Tábor, podle hory, na níž se podle tradice odehrálo Kristovo proměnění.\n\nO rok později, vyhnáno ze samotného Sezimova Ústí, se nejradikálnější křídlo hnutí usadilo na nedalekém kopci a vybudovalo tam opevněné město pod stejným jménem, Tábor, které se mělo stát vůbec nejbojovnější baštou celého husitského hnutí.\n\nDo léta 1419 už pach střelného prachu dosáhl do každého kouta Čech.",
+      zh: "到1419年春天，瓦茨拉夫已经看得很清楚自己面对的是什么：一个如今公开与自己为敌的弟弟，还有一个对罗马怨气冲天、随时要炸的国家。他慌了神，却拿不出任何真正的对策。他也曾试图压制这股民间运动，可他自己的权威早已被消耗得所剩无几，压根压不住。实际上，这时候整个王国里唯一还保有真正战斗意志的力量，就是胡斯派信徒本身，哪怕他们越来越庞大的队伍完全没有正式授权。瓦茨拉夫最终也没有别的选择，只能任由他们自行组织起来。\n\n胡斯的米库拉什带领一批胡斯派信徒离开布拉格，深入乡间，在波希米亚各地举行露天集会，其中最有名的一处，就是南波希米亚的塞济莫沃乌斯季。[[b]]这已经不再是零零星星的抗议集会，而是一场真正的群众运动。[[/b]]一个又一个演讲者当众谴责西吉斯蒙德，各地的普通民众也开始为一场即将到来的战斗做准备。1419年7月，附近一座山丘上的一场集会，据说聚集了多达四万人，这座山丘径直取了一个圣经里的名字：塔博尔，得名于传说中基督显圣容的那座山。\n\n第二年，这场运动中最激进的一支，被赶出了塞济莫沃乌斯季本身，便在附近另一座山丘上安顿下来，将新建的设防城镇同样取名为塔博尔，日后成为整个胡斯运动里战斗意志最强的一处堡垒。\n\n到1419年夏天，火药味已经弥漫到了波希米亚的每一个角落。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "tabor",
+        relation: {
+          en: "The fortified town the Táborite movement built the following year, on the strength of exactly this kind of assembly, and named after the very same hill.",
+          cz: "Opevněné město, které hnutí táboritů vybudovalo o rok později, s oporou právě v takových shromážděních, a pojmenovalo je po témže kopci.",
+          zh: "塔博尔派运动第二年正是靠着这样的集会撑起的势头，建起的那座设防城镇，用的也是同一座山丘的名字。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Hussite_Wars",
+  },
+  // New card, 2026-09-02. The user wrote almost all of this card's
+  // content themselves (own research + drafting) and asked Claude to
+  // polish/verify/translate rather than draft from an outline. Title,
+  // slug, and structure follow the user's own text closely.
+  // - Confirmed via WebSearch/zh.wikipedia (matches the picture already
+  //   corrected in a-voice-that-wouldnt-burn-1415's own dev comment):
+  //   the interdict lasted 4 years (1415-1419), lifted through
+  //   Wenceslas's own mediation, at the direct cost of the Hussite-
+  //   majority Prague New Town council being dissolved and replaced with
+  //   Catholic councillors — the actual trigger for the arrests, Jan
+  //   Želivský's 30 July march, and the defenestration itself. Also
+  //   confirmed: 7 councillors killed (mayor + 6), matching the user's
+  //   own figure exactly across multiple independent sources.
+  // - Softened one detail from the user's own draft: "他刚刚建好的城堡"
+  //   (a castle he'd JUST finished building) — the already-seeded
+  //   Location `new-castle-ruins-near-kunratice-1783003399902` itself
+  //   dates the castle to ~1411, eight years before this card, so
+  //   "recently built" rather than "just finished" is used here to stay
+  //   accurate without losing the beat (Wenceslas retreating to his own
+  //   relatively new hunting retreat).
+  // - Quote search: three passes turned up nothing verbatim for the
+  //   defenestration act itself (only secondary paraphrase) — per policy,
+  //   no quote forced in for this card. The genuine chronicle material
+  //   found (Lawrence of Březová on Wenceslas's own reaction and death)
+  //   fit the NEXT card instead and is used there.
+  // - relatedLandmarks: karlovo-namesti (Charles Square, where the
+  //   historic Novoměstská radnice stood — NOT the same building as the
+  //   DB's separate `nova-radnice-marianske-namesti` Location, a
+  //   1910s Art Nouveau municipal building with no connection to 1419;
+  //   checked directly before linking, per this project's standing
+  //   same-name-different-building gotcha). Bonus find while checking
+  //   karlovo-namesti's own description: it already names this event but
+  //   states the 1618 Prague Castle defenestration came "forty-five years"
+  //   later — actually 199 years later (1618-1419). Fixed directly in the
+  //   live DB and flagged to the user (see next tool calls); not part of
+  //   this card's own edit but caught in the same pass.
+  // - Kept the user's own closing joke (the "first" of several
+  //   defenestrations, Czechs' fondness for solving disputes by throwing
+  //   people out windows) — matches this project's own established
+  //   pre-modern default voice (dry closer even inside serious content),
+  //   and it's the user's own line, not something Claude added.
+  {
+    slug: "the-first-defenestration-1419",
+    era: "religious-turmoil",
+    startYear: 1419.1,
+    images: ["/history/the-first-defenestration-1419.webp"],
+    imageCaptions: [
+      {
+        en: "Jan Želivský directs the crowd as councillors are thrown from the New Town Hall, 30 July 1419.",
+        cz: "Jan Želivský řídí dav, zatímco jsou radní vyhazováni z Novoměstské radnice, 30. července 1419.",
+        zh: "1419年7月30日，扬·柴利夫斯基指挥人群，市议员被从新市政厅扔出窗外。",
+      },
+    ],
+    year: {
+      en: "1419",
+      cz: "1419",
+      zh: "1419年",
+    },
+    tone: "serious",
+    title: {
+      en: "The First Defenestration of Prague",
+      cz: "První pražská defenestrace",
+      zh: "第一次布拉格抛窗事件",
+    },
+    hookLine: {
+      en: "Wenceslas thought he'd finally bought Prague some peace. The price he'd paid for it turned out to be exactly what set the city on fire.",
+      cz: "Václav si myslel, že Praze konečně koupil klid. Cena, kterou za to zaplatil, se ukázala být přesně tím, co město zapálilo.",
+      zh: "瓦茨拉夫以为自己终于给布拉格换来了安宁。可他为此付出的代价，恰恰就是点燃这座城市的那根引线。",
+    },
+    summary: {
+      en: "For four years, ever since the [[link:a-voice-that-wouldnt-burn-1415]]interdict[[/link]] that followed the Bohemian Protestation, Prague's churches had gone silent: no masses, no sacraments, nothing. Most of Prague's own citizens were Hussite reformers by now, but that didn't mean they'd stopped believing in Christ or God, only in Rome's exclusive right to administer either. Wenceslas decided the standoff couldn't go on forever and set about negotiating directly with the papacy. In 1419, the interdict finally came off. The \"Lazy King\" counted it as a genuine achievement of his own, and went off to rest at the hunting castle he'd recently had built for himself south of the city, in the woods near Kunratice.\n\n[[b]]The interdict wasn't lifted for free, and the papacy's own accounting was sharper than anyone's. The price: Prague's Hussite-majority town council was dissolved outright.[[/b]] Arrests followed, and a new, Catholic-majority council took its place.\n\nPrague's Hussites were furious. On 30 July that same year, a group of radical Hussites, led by the priest Jan Želivský, marched through the streets and gathered in front of the New Town Hall on Charles Square, demanding the release of the Hussites who'd just been arrested.\n\nAs the crowd's mood rose, so did the new councillors' own anger inside the town hall. Someone threw a stone down at the demonstrators from a window. That was all it took. The furious crowd stormed the building, and egged on by the roar outside, threw the mayor and six councillors, seven men in total, straight out the window and down into the armed crowd below. The protest had become a killing.\n\nThe riot didn't stop there. It spread outward, turning next on Catholic churches and the people inside them. This was only the beginning.\n\nIf you're wondering why this section is called the \"first\" defenestration, don't worry, there's a second one coming, and a third. The straightforwardly-minded Czechs, it turns out, have a real habit of solving their political grievances by throwing the people responsible straight out a window.",
+      cz: "Čtyři roky, od doby, kdy po České protestaci přišel [[link:a-voice-that-wouldnt-burn-1415]]interdikt[[/link]], mlčely pražské kostely: žádné mše, žádné svátosti, nic. Většina pražských měšťanů byla v té době husitská, ale to neznamenalo, že by přestali věřit v Krista nebo v Boha, jen v Římovo výhradní právo je zprostředkovávat. Václav usoudil, že takhle to nemůže pokračovat donekonečna, a pustil se do přímého vyjednávání s papežskou kurií. V roce 1419 byl interdikt konečně zrušen. \"Líný král\" si to počítal jako svůj vlastní velký úspěch a odjel si odpočinout na lovecký hrad, který si nedávno nechal postavit jižně od města, v lesích u Kunratic.\n\n[[b]]Zrušení interdiktu ale nebylo zadarmo, a papežské účetnictví bylo bystřejší než čí­koli jiné. Cenou bylo úplné rozpuštění pražské městské rady, do té doby převážně husitské.[[/b]] Následovala zatýkání a na místo staré rady nastoupila nová, tentokrát převážně katolická.\n\nPražští husité byli rozzuření. 30. července téhož roku vyrazila skupina radikálních husitů, vedená knězem Janem Želivským, ulicemi a shromáždila se před Novoměstskou radnicí na Karlově náměstí, s požadavkem propuštění právě zatčených husitů.\n\nJak nálada davu stoupala, stoupal i hněv nových radních uvnitř budovy. Někdo z okna hodil na demonstranty kámen. To stačilo. Zuřící dav vtrhl dovnitř a poháněn řevem zvenčí vyhodil starostu a šest radních, celkem sedm mužů, přímo oknem dolů, do ozbrojeného davu. Protest se změnil v zabíjení.\n\nNepokoje se tím nezastavily. Šířily se dál a obrátily se i proti katolickým kostelům a lidem v nich. A tohle byl teprve začátek.\n\nKdyby vás zajímalo, proč se tahle část jmenuje \"první\" defenestrace, nebojte se, přijde ještě druhá a třetí. Přímočaří Češi, jak se ukazuje, mají opravdu ve zvyku řešit své politické spory tak, že toho, kdo za ně může, prostě vyhodí z okna.",
+      zh: "自从《波西米亚抗议书》之后那道[[link:a-voice-that-wouldnt-burn-1415]]停教令[[/link]]颁布以来，布拉格全城的教堂已经沉寂了四年：没有弥撒，没有圣事，什么都没有。这时布拉格的市民大多已经是胡斯派改革者，但这不代表他们不再相信基督和上帝，只是不再承认罗马对圣事的独家垄断权。瓦茨拉夫认定这样僵持下去不是办法，便开始直接与教廷斡旋。1419年，禁令终于解除了。这位\"懒王\"把这算作自己的一桩大功劳，随后便前往布拉格南面昆拉蒂采的树林里，去他不久前为自己修建的那座猎苑城堡休息。\n\n[[b]]停教令可不是白解除的，教皇那杆秤，比谁都精明。代价是：原本以胡斯信徒为主的布拉格市议会被整个解散。[[/b]]随之而来的是逮捕，取而代之的是一个以天主教徒为主的新市议会。\n\n布拉格的胡斯信徒怒不可遏。同年7月30日，一批激进的胡斯信徒，在胡斯派神父扬·柴利夫斯基的率领下走上街头，聚集到新市政厅前的查理广场，要求释放刚刚被捕的胡斯信徒。\n\n随着游行群众情绪的高涨，市政厅内新议员们的怒气也跟着涨了上来。突然有人从窗口向下面的示威者扔了一块石头。就这一下，够了。狂怒的人群冲进了大楼，在楼外的喧嚣鼓噪之下，把市长和六名议员，一共七人，直接从窗口扔了下去，摔进了楼下手持长矛的人群里。一场抗议，变成了一场杀戮。\n\n骚乱并未就此停止，反而继续蔓延，转而开始攻击天主教堂和教堂里的人。然而，这只是个开始。\n\n如果你纳闷这一节的小标题为什么叫\"第一次\"抛窗事件，别急，后面还有第二次，第三次。直来直去的捷克人，看来是真的很习惯用\"把责任人直接扔出窗外\"这种方式，来解决自己的政治分歧。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "nove-mesto",
+        relation: {
+          en: "The actual building this card is about — the councillors were thrown from one of its own windows, straight into the crowd below.",
+          cz: "Budova, o které tahle karta vlastně je — radní byli vyhozeni přímo z jednoho z jejích oken, dolů do davu.",
+          zh: "这张卡真正讲的就是这栋建筑本身：市议员正是从它自己的一扇窗户被扔了出去，摔进楼下的人群里。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Defenestrations_of_Prague",
+  },
+  // New card, 2026-09-02, directly following the-first-defenestration-1419
+  // (same session, same source-writing pattern — user's own draft,
+  // Claude polished/verified/translated).
+  // - Quotes: found via WebSearch, both from Lawrence of Březová's
+  //   contemporary Hussite Chronicle (Husitská kronika) — a genuine
+  //   primary source for this exact period. Both are English-translation
+  //   renderings rather than the original Czech/Latin text, so CZ/ZH here
+  //   are translations of a translation, same caveat already applied to
+  //   a couple of other quotes in this arc. [[quote:0]] is Wenceslas's own
+  //   documented reaction (anger and grief, resolving to "eradicate all
+  //   Wycliffites and Hussites") immediately before the stroke — a useful
+  //   nuance on the user's own "被吓死" (frightened to death) framing:
+  //   the chronicle records fury as much as fear, both feeding the same
+  //   collapse, so the card's own prose keeps both. [[quote:1]] is the
+  //   vivid death description itself ("a great cry and a roar almost
+  //   like a lion").
+  // - The castle where he died is already a seeded Location
+  //   (`new-castle-ruins-near-kunratice-1783003399902`, DB-only,
+  //   user-submitted) whose own description independently corroborates
+  //   this entire episode in detail (built ~1411, Wenceslas's favorite
+  //   hunting retreat, burned down later in the Hussite Wars) — a rare
+  //   case of a preset Location's own "easter egg" text already covering
+  //   almost exactly what this card needed.
+  // - Closing paragraph links back to a-son-at-last-1361 (Wenceslas's own
+  //   birth at Nuremberg, Charles IV's joy at finally having a son) —
+  //   the user's own reflection, kept as a genuine full-circle beat
+  //   rather than trimmed.
+  {
+    slug: "the-king-who-was-frightened-to-death-1419",
+    era: "religious-turmoil",
+    startYear: 1419.2,
+    year: {
+      en: "1419",
+      cz: "1419",
+      zh: "1419年",
+    },
+    tone: "serious",
+    title: {
+      en: "The King Who Was Frightened to Death",
+      cz: "Král, který zemřel strachy",
+      zh: "被吓死的国王",
+    },
+    hookLine: {
+      en: "Wenceslas thought he'd just bought Prague some peace. The news that reached him in the woods said otherwise, and his own body agreed with the news.",
+      cz: "Václav si myslel, že Praze právě koupil klid. Zpráva, která ho zastihla v lese, tvrdila opak, a jeho vlastní tělo dalo té zprávě za pravdu.",
+      zh: "瓦茨拉夫以为自己刚给布拉格换来了安宁。可林中传来的消息说的是另一回事，而他自己的身体，也认同了这个消息。",
+    },
+    summary: {
+      en: "At this point, King Wenceslas was still resting at his own hunting castle in the woods near Kunratice, convinced the interdict he'd just gotten lifted would buy Prague real peace for a while.\n\nIt didn't last the week. When a messenger reached him with news of the [[link:the-first-defenestration-1419]]killings at the New Town Hall[[/link]], the chronicler Lawrence of Březová recorded his reaction in blunt terms.\n\n[[quote:0]]\n\n[[b]]The fury tipped straight over into collapse.[[/b]] Wenceslas suffered a stroke where he stood, and according to the same chronicle, died within days in a way nobody who heard about it forgot.\n\n[[quote:1]]\n\nPut plainly: he was frightened to death.\n\nHe left no heir. His brother Sigismund, a man Bohemia had already come to distrust and resent, inherited the crown by right of succession. Actually being accepted as king in Prague would turn out to be an entirely different matter, and take considerably longer.\n\nIt's worth remembering how this whole story began: [[link:a-son-at-last-1361]]Charles IV's own joy[[/link]] at finally holding a son of his own, born in Nuremberg decades earlier. In the space of a few decades, a mighty empire had come to this. Wherever Charles was watching from, he probably had a few choice words for his own unworthy heir.",
+      cz: "V tuto chvíli si král Václav ještě odpočíval na svém loveckém hradě v lesích u Kunratic, přesvědčen, že mu právě zrušený interdikt na chvíli koupí Praze skutečný klid.\n\nNevydrželo to ani týden. Když k němu dorazil posel se zprávou o [[link:the-first-defenestration-1419]]zabíjení v Novoměstské radnici[[/link]], kronikář Vavřinec z Březové zaznamenal jeho reakci naprosto bez obalu.\n\n[[quote:0]]\n\n[[b]]Zuřivost se rovnou zvrhla v kolaps.[[/b]] Václava na místě ranila mrtvice a podle téže kroniky během pár dní zemřel způsobem, na který nikdo, kdo o něm slyšel, nezapomněl.\n\n[[quote:1]]\n\nJinými slovy: zemřel strachy.\n\nNezanechal dědice. Jeho bratr Zikmund, muž, kterému Čechy už tou dobou nedůvěřovaly a kterého v hloubi duše nesnášely, zdědil korunu na základě nástupnického práva. Skutečně být uznán za krále v Praze se ale mělo ukázat jako úplně jiná věc, a mělo to trvat mnohem déle.\n\nStojí za to připomenout si, jak celý tenhle příběh začal: [[link:a-son-at-last-1361]]radost samotného Karla IV.[[/link]], když konečně držel v náručí vlastního syna, narozeného o desetiletí dříve v Norimberku. Za pár desetiletí se z mocného impéria stalo tohle. Ať už se Karel díval odkudkoli, svému vlastnímu nehodnému dědici by nejspíš měl co říct.",
+      zh: "此时的瓦茨拉夫国王还在布拉格南面昆拉蒂采树林里的那座猎苑城堡休息，他认定，刚刚解除的这道禁令能让布拉格安宁一阵子。\n\n可这份安宁连一周都没撑到。当使者向他汇报[[link:the-first-defenestration-1419]]新市政厅那场血案[[/link]]的消息后，编年史作者布热佐娃的瓦夫日涅茨用直白的文字记下了他的反应。\n\n[[quote:0]]\n\n[[b]]盛怒直接演变成了崩溃。[[/b]]瓦茨拉夫当场中风倒下，据同一部编年史记载，几天后便以一种让所有听闻此事的人都难以忘怀的方式，与世长辞。\n\n[[quote:1]]\n\n换句话说：他是被吓死的。\n\n他去世时没有留下子嗣。他的弟弟西吉斯蒙德，一个波希米亚早已既不信任又深恶痛绝的人，按照继承法理所当然地接过了王冠。可要真正在布拉格被承认为国王，却是完全另一回事，还得等上相当长的一段时间。\n\n值得回想一下，这整个故事是怎么开始的：数十年前，[[link:a-son-at-last-1361]]查理四世那份喜悦[[/link]]，终于在纽伦堡抱上了自己的亲生儿子。短短几十年过去，一个强盛的帝国，就变成了眼前这个样子。查理如果泉下有知，看到这一幕，恐怕也会忍不住骂上这个不肖子孙两句吧。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "He was angered, vexed, and aggrieved by these events, and resolved to eradicate all Wycliffites and Hussites, especially their priests.",
+          cz: "Byl tím rozhořčen, roztrpčen a zarmoucen a rozhodl se vymýtit všechny viklefovce a husity, zvláště jejich kněze.",
+          zh: "他对此震怒、愤懑又痛心，决意要根除所有威克里夫派和胡斯派，尤其是他们的神父。",
+        },
+        attribution: {
+          en: "Lawrence of Březová, Hussite Chronicle",
+          cz: "Vavřinec z Březové, Husitská kronika",
+          zh: "布热佐娃的瓦夫日涅茨，《胡斯战争编年史》",
+        },
+      },
+      {
+        text: {
+          en: "Wounded by a stroke, with a great cry and a roar almost like a lion, he died suddenly at Nový Hrad near Prague.",
+          cz: "Raněn mrtvicí, s velkým výkřikem a řevem, téměř jako lev, náhle zemřel na Novém Hradě u Prahy.",
+          zh: "他中风倒下，发出一声巨吼，几乎如同狮子一般，随即在布拉格附近的新城堡骤然离世。",
+        },
+        attribution: {
+          en: "Lawrence of Březová, Hussite Chronicle, 16 August 1419",
+          cz: "Vavřinec z Březové, Husitská kronika, 16. srpna 1419",
+          zh: "布热佐娃的瓦夫日涅茨，《胡斯战争编年史》，1419年8月16日",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "new-castle-ruins-near-kunratice-1783003399902",
+        relation: {
+          en: "The hunting castle where Wenceslas was resting when the news reached him, and where he collapsed and died days later.",
+          cz: "Lovecký hrad, kde Václav odpočíval, když ho zastihla ta zpráva, a kde o pár dní později zkolaboval a zemřel.",
+          zh: "瓦茨拉夫听到消息时正在休息的那座猎苑城堡，几天后他也在这里倒下、离世。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Wenceslaus_IV_of_Bohemia",
   },
 ];
 

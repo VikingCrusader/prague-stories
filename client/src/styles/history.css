@@ -318,6 +318,18 @@
   text-align: center;
 }
 
+/* Background-card images (a coat of arms, a diagram) are reference
+   graphics, not the wide 16:9 narrative illustrations event cards use —
+   shrink to a third of the column width and center, rather than
+   stretching to the full 100% the base rule sets. Scoped to
+   .history-detail-panel--background so normal event-card images are
+   untouched. First used by `the-five-roses-1394`'s Rožmberk coat of
+   arms (2026-09-02). */
+.history-detail-panel--background .history-event__image {
+  width: 33.333%;
+  margin: 0 auto;
+}
+
 .history-event__year {
   font-size: 13px;
   color: var(--gold);

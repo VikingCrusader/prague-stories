@@ -25148,6 +25148,71 @@ Svůj dnešní nápadný vzhled vděčí velké barokní přestavbě dokončené
     },
   },
   {
+    // Added 2026-09-02 to support 'from-king-to-prisoner-1394's
+    // relatedLandmarks — one of the Rožmberk strongholds where Wenceslas
+    // IV was held during his 1394 captivity, before Karlštejn's 1397
+    // murders and Křivoklát's ransom-handover in the same card. User
+    // supplied the name and coordinates directly; everything else
+    // (Vítkovci-Krumlov-branch origin before 1250, passing to the
+    // Rožmberk branch on that branch's 1302 extinction, the Eggenberg
+    // 1611 and Schwarzenberg 1719 successions, the working 18th-century
+    // Baroque theatre, the Cloak Bridge, and the bear moat/Orsini legend)
+    // confirmed via WebSearch.
+    // Scope note: Český Krumlov itself has no Location card yet in this
+    // DB (checked before adding this) — flagged rather than silently
+    // treated as settled, since a full town card would normally need its
+    // own scope discussion (the town is a genuine UNESCO-tier attraction
+    // but sits ~170km from Prague, well past this project's usual
+    // day-trip framing — the same stretch already flagged and accepted
+    // for `kladrubsky-klaster`). This entry is just the castle itself,
+    // added for its direct tie to a specific History Timeline event, not
+    // a decision that Český Krumlov as a town clears any of this
+    // project's scope exceptions.
+    // rarity: `legend` — one of the largest castle complexes in the
+    // country, second only to Prague Castle, consistent with the
+    // `zamek-hluboka-nad-vltavou` precedent for genuinely monumental
+    // buildings outside Prague.
+    name: 'Český Krumlov Castle',
+    slug: 'cesky-krumlov-castle',
+    localizedNames: { cz: 'Zámek Český Krumlov', zh: '捷克克鲁姆洛夫城堡' },
+    labels: ['castle and fortress', 'historical'],
+    coordinates: { lat: 48.812677083666266, lng: 14.313276534064332 },
+    rarity: 'legend',
+    xpReward: 100,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/%C4%8Cesk%C3%BD_Krumlov_Castle',
+    description: {
+      en: `Welcome to Český Krumlov Castle — the second-largest castle complex in the Czech Republic, beaten only by Prague Castle itself, and one of the very few places in the country where the wildlife living in the moat gets almost as much attention from visitors as the nobility who used to live upstairs.
+
+A branch of the Vítkovci family built the first stronghold here, on a rocky spur wrapped almost entirely by a bend in the Vltava, sometime before 1250. When that branch died out in 1302, the castle passed to their own cousins, the Rožmberk branch of the same family, who made it their principal seat and spent the next three centuries expanding it, piece by piece, into the sprawling complex of roughly forty buildings and five courtyards that still stands today.
+
+The castle's most dramatic royal guest arrived uninvited. In May 1394, King Wenceslas IV was seized by a coalition of rebellious nobles and marched from castle to castle across South Bohemia on his way to a prison cell in Austria, and Český Krumlov was one of several Rožmberk strongholds where he was briefly held along the route, a king reduced, for a few days, to having no say at all in his own comings and goings.
+
+The Rožmberks eventually died out too, in 1611, and the castle passed first to the Eggenberg family, then in 1719 to the Schwarzenbergs, who added its most theatrical touch: a genuine 18th-century Baroque theatre, still fitted with its original scenery, costumes, and stage machinery, one of only a handful anywhere in the world still working in close to its original condition. Reaching it means crossing the Cloak Bridge, a dramatic three-tiered covered walkway strung high across a deep ravine to connect the upper castle with the garden and theatre beyond, probably the second most photographed structure in town after the castle's own painted tower.
+
+🐻 Bonus: the moat below the castle has housed live bears since the late 16th century, a vanity project of the Rožmberk family meant to advertise a supposed, and almost certainly invented, family connection to Rome's own Orsini clan, whose name in Italian sounds close enough to "bear" to make the claim. The bears, who did not consent to this branding exercise, are still there today, still with no idea they're four centuries deep into someone else's joke about their own coat of arms.`,
+
+      cz: `Vítej na zámku Český Krumlov — druhém největším hradním a zámeckém komplexu v Česku, který předčí jedině samotný Pražský hrad, a jednom z mála míst v zemi, kde zvířata žijící v příkopu přitahují návštěvníky skoro stejně jako šlechta, která kdysi bydlela o patro výš.
+
+Větev rodu Vítkovců tu na skalním ostrohu, který téměř celý obtéká zákrut Vltavy, postavila první pevnost ještě před rokem 1250. Když tahle větev v roce 1302 vymřela, hrad připadl jejich vlastním bratrancům, rožmberské větvi téhož rodu, kteří si z něj udělali hlavní sídlo a další tři století ho po kouscích rozšiřovali do rozlehlého komplexu zhruba čtyřiceti budov a pěti nádvoří, jaký stojí dodnes.
+
+Nejdramatičtější královský host na hrad dorazil bez pozvání. V květnu 1394 zajala krále Václava IV. koalice vzbouřených šlechticů a vedla ho z hradu na hrad napříč jižními Čechami na cestě do vězeňské cely v Rakousku, a Český Krumlov byl jedním z několika rožmberských pevností, kde ho po cestě na pár dní drželi, král na chvíli zbavený jakéhokoli slova do vlastních příchodů a odchodů.
+
+Rožmberkové nakonec také vymřeli, v roce 1611, a hrad přešel nejdřív na rod Eggenbergů a v roce 1719 na Schwarzenbergy, kteří přidali jeho nejdivadelnější prvek: skutečné barokní divadlo z 18. století, dodnes vybavené původními kulisami, kostýmy a jevištní technikou, jedno z mála na světě, které stále funguje téměř v původním stavu. Cesta k němu vede přes Plášťový most, dramatickou třípatrovou krytou lávku vedenou vysoko nad hlubokou roklí, spojující horní hrad se zahradou a divadlem za ní, patrně druhou nejvyfocenější stavbu ve městě hned po malované zámecké věži.
+
+🐻 Bonus: v příkopu pod hradem žijí živí medvědi už od konce 16. století, marnivý projekt rodu Rožmberků, který měl podpořit údajné, a téměř jistě vymyšlené, příbuzenství s římským rodem Orsini, jehož jméno v italštině zní dost podobně jako slovo pro medvěda, aby to tvrzení znělo věrohodně. Medvědi s touhle reklamní kampaní nikdy nesouhlasili a dodnes o ní netuší, že jsou už čtyři století hluboko v cizím vtipu o cizím erbu.`,
+
+      zh: `欢迎来到捷克克鲁姆洛夫城堡——捷克境内规模第二大的城堡建筑群，仅次于布拉格城堡本身，也是这个国家少数几个地方之一：护城河里住的野生动物，吸引游客的目光几乎不输给曾经住在楼上的贵族。
+
+维特科维奇家族的一支，早在1250年之前，就在这处几乎被伏尔塔瓦河河湾整个环绕的岩石高地上，建起了最早的堡垒。1302年，这一支绝嗣后，城堡传给了同族的堂亲，罗森贝格支系，他们把这里定为主要居所，此后三个世纪里一点点扩建，才有了今天这座由约四十栋建筑、五个庭院组成的庞大建筑群。
+
+城堡迎来的最富戏剧性的一位王室访客，是不请自来的。1394年5月，国王瓦茨拉夫四世被一群叛乱贵族擒获，在押往奥地利监狱的路上，被押解着走遍南波希米亚的一座座城堡，克鲁姆洛夫正是他途中短暂被关押过的几座罗森贝格城堡之一，堂堂一位国王，一连几天，连自己的行踪都做不了主。
+
+罗森贝格家族最终也绝嗣了，那是1611年的事，城堡先后传给了埃根堡家族，又在1719年传给了施瓦岑贝格家族，后者为城堡添上了最富戏剧性的一笔：一座真正的18世纪巴洛克剧院，至今还保留着原装的布景、戏服和舞台机械，是世界上少数几座仍能以接近原貌运作的剧院之一。要走到剧院，得先穿过"斗篷桥"（Plášťový most），一座架在深谷高处的三层有顶廊桥，把上城堡和后方的花园、剧院连接起来，大概是这座小城里除了那座彩绘城堡塔楼之外，被拍照次数第二多的建筑。
+
+🐻 彩蛋：城堡下方的护城河里，从16世纪末起就养着活熊，这是罗森贝格家族的一项面子工程，用来给自己一个据称、而且几乎可以肯定是编造的身世背书，说自己与罗马的奥尔西尼家族沾亲带故，而"奥尔西尼"这个姓氏，在意大利语里听着跟"熊"这个词相当接近，正好拿来做文章。那些熊从没同意过这场公关行动，直到今天，也完全不知道自己已经在别人家纹章的这个老笑话里，住了整整四个世纪。`,
+    },
+  },
+  {
     // Added at the user's explicit request (2026-09-02) to support
     // 'the-priest-thrown-into-the-river-1393's relatedLandmarks — the
     // actual statue itself, distinct from the general 'charles-bridge'
@@ -25209,6 +25274,173 @@ V podstavci vyprávějí dva bronzové reliéfy příběh ze dvou stran: jeden z
 底座上，两幅青铜浮雕分别从两个角度讲述这个故事：一幅描绘这位圣人传说中的忏悔场景，另一幅描绘他的死——被从同一座桥上扔进伏尔塔瓦河。忏悔那一幅浮雕里，还有一只小狗，这只狗在扬·内波穆克生平的任何真实记载里都没有出处，它的存在和寓意，至今仍是个没人能说得清楚的谜。
 
 🎁 彩蛋：摸浮雕求好运，听起来该是布拉格人延续了几百年的老传统。但事实几乎可以肯定并非如此。就连1960年代拍下的照片，都显示这块青铜表面毫无磨损的痕迹；如今这层显眼的光泽，其实要追溯到大约1989年，也就是天鹅绒革命刚结束那会儿——摩挲浮雕（尤其是那只狗）求好运这个习惯，看起来是那之后才在游客之间流行起来的，说不定还多亏了带团导游们的推波助澜。`,
+    },
+  },
+  {
+    // Added 2026-09-02 at the user's explicit request to support
+    // 'who-is-jan-hus-1412's relatedLandmarks — Jan Hus's own birthplace,
+    // coordinates supplied directly by the user. Facts (village first
+    // recorded 1291, birth house open to visitors since 1873, the 2015
+    // Mister Jan Hus Center renovation for the 600th anniversary of his
+    // death, the protected historic core) confirmed via WebSearch.
+    // Birth year kept as "around 1372" to match the figure already
+    // established across the History Timeline cards, even though one
+    // source gives 1369 — genuine scholarly disagreement, not worth
+    // relitigating here.
+    // Bonus paragraph: the "Hus = goose" pun and the goose/swan
+    // execution-pyre prophecy are flagged explicitly as a later legend
+    // (confirmed via WebSearch — no contemporary source has him actually
+    // saying it, first appears generations later, popularized by
+    // Foxe's 16th-century Book of Martyrs) rather than asserted as fact,
+    // same treatment this project already gives other dubious legends
+    // (the Nepomuk confession-seal story, the "touch for luck" bridge
+    // tradition). This does reveal, in passing, that Hus was later
+    // executed — a Location description isn't bound by the History
+    // Timeline's own no-spoiler pacing the way a Timeline card is (see
+    // the standing Location/Timeline separation rule), so this wasn't
+    // treated as a violation of the spoiler caution applied inside the
+    // Timeline cards themselves.
+    // rarity: `mythic`, matching the precedent set by other small towns
+    // tied to a single major historical figure or event (`peruc`,
+    // `chrudim`, `lysa-nad-labem`).
+    name: 'Husinec',
+    slug: 'husinec',
+    localizedNames: { cz: 'Husinec', zh: '胡西内茨' },
+    labels: ['village-and-town', 'historical'],
+    coordinates: { lat: 49.052304018996715, lng: 13.985739131595327 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Husinec_(Prachatice_District)',
+    description: {
+      en: `Welcome to Husinec — a small South Bohemian town whose only real claim to fame is having accidentally produced one of Czech history's most consequential troublemakers, and it has been making the most of that fact for the better part of six centuries.
+
+The village is first recorded in 1291, and stayed a quiet, unremarkable place until around 1372, when a boy named Jan Hus was born here into a family with no particular standing. He left as a young man to study in Prague and never really came home again, spending the rest of his life as a priest, university professor, and an increasingly outspoken critic of a Church he thought had lost its way.
+
+His actual birth house survived: a modest Gothic building open to visitors since 1873. In 2015, on the 600th anniversary of his death, it was joined together with two neighboring townhouses and reopened as the Mister Jan Hus Center, now holding a multimedia exhibition on his life and legacy. The town's well-preserved historic core is protected today as a full urban monument zone, small but seriously kept.
+
+🎁 Bonus: "Hus" happens to be the Czech word for "goose," and Husinec's own name means something close to "goose town." Centuries after his death, a legend grew up claiming Hus made a pun of it himself on his own execution pyre in 1415: "Today you burn a goose, but in a hundred years a swan will rise that you won't be able to roast." No contemporary source records him actually saying it, and the line only shows up in accounts written generations later, but it stuck anyway, helped along by one particular swan a century later: Martin Luther, who took the story seriously enough to adopt a swan as one of his own personal symbols.`,
+
+      cz: `Vítej v Husinci — malém jihočeském městečku, jehož jediný skutečný nárok na slávu je to, že nedopatřením zplodilo jednoho z nejvýznamnějších potížistů české historie, a tuhle skutečnost si už skoro šest století patřičně užívá.
+
+První písemná zmínka o vesnici pochází z roku 1291, a zůstala tichým, nenápadným místem až do roku zhruba 1372, kdy se tu narodil chlapec jménem Jan Hus, do rodiny bez zvláštního postavení. Jako mladík odešel studovat do Prahy a vlastně se už nikdy doopravdy nevrátil, zbytek života strávil jako kněz, univerzitní profesor a čím dál otevřenější kritik církve, o níž si myslel, že ztratila směr.
+
+Jeho skutečný rodný dům se dochoval: skromná gotická stavba zpřístupněná veřejnosti od roku 1873. V roce 2015, u příležitosti 600. výročí jeho smrti, byl spojen se dvěma sousedními měšťanskými domy a znovu otevřen jako Centrum Mistra Jana Husa, kde dnes najdete multimediální expozici o jeho životě a odkazu. Dobře dochované historické jádro města je dnes chráněno jako celá městská památková zóna, malá, ale poctivě opečovávaná.
+
+🎁 Bonus: „Hus" je zároveň české slovo pro husu, a jméno Husinec v podstatě znamená něco jako „husí ves". Staletí po jeho smrti vznikla legenda, že si z toho Hus sám udělal slovní hříčku přímo na hranici v roce 1415: „Dnes upálíte husu, ale za sto let vzejde labuť, kterou už neupečete." Žádný dobový pramen nezaznamenává, že by to skutečně řekl, a věta se objevuje až v záznamech psaných o generace později, přesto se uchytila, čemuž pomohla jedna konkrétní labuť o století později: Martin Luther, který ten příběh bral natolik vážně, že si labuť přijal za jeden z vlastních osobních symbolů.`,
+
+      zh: `欢迎来到胡西内茨——一座南波希米亚的小镇，唯一真正拿得出手的名片，就是它不小心生出了捷克历史上分量最重的一位"麻烦制造者"，而这座小镇也已经靠着这一点，风光了将近六个世纪。
+
+这座村庄最早的文字记载可以追溯到1291年，此后一直是个默默无闻的小地方，直到大约1372年，一个叫扬·胡斯的男孩出生在这里，家境平平。他年轻时离开家乡去布拉格求学，之后基本就没再真正回来过，余生都在担任神父、大学教授，还越来越公开地批评一个他认为已经迷失方向的教会。
+
+他真正的出生老宅保留了下来，是一座朴素的哥特式建筑，自1873年起就对外开放。2015年，正值他逝世600周年，这座老宅与旁边两栋市民住宅合并，重新开放为"胡斯大师中心"，如今设有一个介绍他生平与影响的多媒体展览。小镇保存完好的历史城区，如今被整体划为城镇保护区，规模不大，但打理得很用心。
+
+🎁 彩蛋："胡斯"（Hus）这个姓氏，在捷克语里恰好就是"鹅"的意思，而"胡西内茨"这个地名，字面意思差不多就是"鹅村"。他去世几个世纪后，民间流传出一个传说，说他本人在1415年被绑上火刑柱时，还拿这一点开了个双关玩笑："今天你们烧死的是一只鹅，可一百年后会飞出一只天鹅，你们到时候可烤不熟。"没有任何同时代的史料记录他真说过这句话，这句话是几代人之后才出现在文献里的，但它还是流传了下来，一百年后出现的另一只"天鹅"帮了不少忙：马丁·路德把这个故事当真到把天鹅收作了自己的个人标志之一。`,
+    },
+  },
+  {
+    // Added 2026-09-02 at the user's explicit request to support
+    // 'only-christ-deserved-his-trust-1412's relatedLandmarks —
+    // coordinates supplied directly by the user. Facts (first recorded
+    // c.1377 under Vlček of Kozí, passed to Vilém of Újezd in 1406 then
+    // his sons Ctibor and Jan, Jan's summer-1413 shelter of Hus, the
+    // works Hus wrote there including De Ecclesia, the linden-tree
+    // outdoor preaching, the 1438 destruction by Albrecht's mercenaries,
+    // protected-site status since 1962) confirmed via WebSearch,
+    // including a dedicated kozi-hradek.cz history page. Note: this
+    // source's own summer-1413 arrival date is more specific than the
+    // October 1412 departure-from-Prague date already used in
+    // 'only-christ-deserved-his-trust-1412' — that card's own phrasing
+    // was softened to "eventually taking shelter" rather than implying
+    // immediate October 1412 arrival, to avoid overclaiming a precise
+    // date this source doesn't actually support.
+    // rarity: `mythic`, matching the `husinec` precedent for a small
+    // town/site whose whole significance rests on one historical figure.
+    name: 'Kozí Hrádek',
+    slug: 'kozi-hradek',
+    localizedNames: { cz: 'Kozí Hrádek', zh: '山羊堡' },
+    labels: ['ruin', 'castle and fortress', 'historical'],
+    coordinates: { lat: 49.389915862510584, lng: 14.723175583932957 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Koz%C3%AD_Hr%C3%A1dek',
+    description: {
+      en: `Welcome to Kozí Hrádek, a small, thoroughly ordinary South Bohemian castle that would have vanished from history completely if it hadn't spent a year and a half hosting Europe's most wanted heretic.
+
+The castle is first recorded around 1377, held by a minor lord named Vlček of Kozí. Ownership passed in 1406 to Vilém of Újezd, and when he died two years later, it went to his sons, Ctibor and Jan. It was Jan who, in the summer of 1413, offered shelter to a priest the Church had just threatened to put the entire city of Prague under interdict to get rid of: Jan Hus.
+
+Hus spent much of the following year here, and put the time to serious use. He finished his Postilla and wrote several of his most substantial works, including De Ecclesia (On the Church), the treatise that would go on to define his own position at the Council of Constance. He also preached outdoors under a linden tree on the castle grounds, drawing crowds not just from the nearby town of Sezimovo Ústí but from well beyond it, ordinary villagers hearing a university theologian address them directly, in their own language, for the first time.
+
+The castle didn't survive the century. In 1438, mercenary troops in the service of Albrecht of Austria plundered and burned it, and it was never rebuilt. What's left today is a genuine ruin, a few fragments of wall on a quiet hillside, protected as a heritage site since 1962.
+
+🎁 Bonus: the castle itself didn't leave much of a mark on the landscape. The words written inside it did. De Ecclesia, drafted in this modest keep, went on to be read at the Council of Constance as evidence against its own author, one of the more direct lines in history from "quiet countryside exile" to "international church trial."`,
+
+      cz: `Vítej na Kozím Hrádku, malém, naprosto obyčejném jihočeském hrádku, který by z dějin úplně zmizel, kdyby na něm rok a půl nehostoval nejhledanějšího kacíře v Evropě.
+
+Hrad je poprvé doložen kolem roku 1377, v držení drobného pána jménem Vlček z Kozí. V roce 1406 přešlo vlastnictví na Viléma z Újezda, a když o dva roky později zemřel, připadlo jeho synům Ctiborovi a Janovi. Byl to právě Jan, kdo v létě 1413 nabídl útočiště knězi, kterého se církev právě chystala vypudit tak, že hrozila interdiktem celé Praze: Janu Husovi.
+
+Hus tu strávil většinu následujícího roku a čas využil vážně. Dokončil svou Postilu a napsal několik svých nejzásadnějších děl, včetně De Ecclesia (O církvi), traktátu, který později určil jeho vlastní postavení na Kostnickém koncilu. Kázal také venku pod lipou na hradním pozemku, kam se sjížděli lidé nejen z nedalekého Sezimova Ústí, ale i z daleka širokého okolí, obyčejní vesničané, kteří tu poprvé slyšeli univerzitního teologa mluvit přímo k nim, jejich vlastním jazykem.
+
+Hrad tohle století nepřežil. V roce 1438 ho vyplenili a vypálili žoldnéři ve službách Albrechta Rakouského, a už nikdy nebyl obnoven. Co z něj zbylo dnes, je opravdová zřícenina, pár úlomků zdiva na tichém kopci, chráněná jako kulturní památka od roku 1962.
+
+🎁 Bonus: samotný hrad toho v krajině moc nezanechal. Slova, která v něm vznikla, ano. De Ecclesia, sepsané v tomhle skromném hrádku, se později četlo na Kostnickém koncilu jako důkaz proti svému vlastnímu autorovi, jedna z přímějších linek v dějinách vedoucích od „tichého venkovského vyhnanství" k „mezinárodnímu církevnímu procesu".`,
+
+      zh: `欢迎来到山羊堡（Kozí Hrádek）——一座毫不起眼的南波希米亚小城堡，要不是曾经收留过全欧洲最被通缉的"异端"住了一年半，它恐怕早就从历史里彻底消失了。
+
+这座城堡最早的文字记载可以追溯到约1377年，当时的主人是一位名叫弗尔切克·冯·科齐的小贵族。1406年，所有权转到了维莱姆·冯·乌耶兹德手中，两年后他去世，城堡传给了他的两个儿子，齐蒂博尔和扬。1413年夏天，正是这位扬，收留了一位刚被教会威胁——要以整座布拉格城被"停教"为代价来赶走的神父：扬·胡斯。
+
+胡斯在这里度过了此后大半年的时光，而且没有虚度。他在这里完成了自己的《讲道集》，还写下了好几部分量最重的著作，包括后来在康斯坦茨会议上被用来给他自己定性的那篇论著《论教会》（De Ecclesia）。他还在城堡的空地上、一棵菩提树下露天布道，吸引来的人群不只来自附近的塞齐莫沃乌斯季，还有更远地方赶来的——普通村民第一次听到一位大学神学家，用他们自己的语言，直接对他们说话。
+
+这座城堡没能挺过那个世纪。1438年，为奥地利的阿尔布雷希特效力的雇佣兵洗劫并焚毁了它，此后再也没有重建。今天留下的，是一片真正的废墟，山坡上散落的几段残墙，自1962年起被列为文物保护单位。
+
+🎁 彩蛋：城堡本身没能在这片土地上留下太多痕迹，可在这里写下的文字做到了。在这座朴素的小城堡里起草的《论教会》，后来被拿到康斯坦茨会议上，当作指控作者本人的证据宣读——从"乡间的静默流亡"到"国际教会审判"，历史上很少有比这更直接的一条路径了。`,
+    },
+  },
+  // Added 2026-09-02, new Location tied directly to the History Timeline's
+  // the-rise-of-tabor-1419 card — same "third exception" template as
+  // brno/olomouc/jihlava/plzen (a non-Prague city earning its own long,
+  // rich card on outsized standalone historical weight rather than being
+  // split into sub-landmark cards). User-supplied coordinates. Confirmed
+  // via WebSearch: Otakar II's original ~1270 settlement/castle
+  // (Kotnov) here directly ties into this project's own already-seeded
+  // Otakar II content; the 1420 Hussite refounding after being driven
+  // from Sezimovo Ústí (already named in kozi-hradek's own description);
+  // the radical-egalitarian "Taborite" experiment; the 1452 submission to
+  // George of Poděbrady rather than a foreign crusader army; Kotnov
+  // Tower, Žižkovo náměstí, the Hussite Museum, and the ~800m tunnel
+  // network under the square (originally beer cellars, later shelter).
+  {
+    name: 'Tábor',
+    slug: 'tabor',
+    localizedNames: { cz: 'Tábor', zh: '塔博尔' },
+    labels: ['city'],
+    coordinates: { lat: 49.41294480413716, lng: 14.668506344115208 },
+    rarity: 'legend',
+    xpReward: 100,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/T%C3%A1bor',
+    description: {
+      en: `Tábor isn't built around a legend the way so many Czech towns are. It has an actual founding date, 1420, and an actual reason: a wave of Bohemia's most radical religious reformers needed a defensible hill to build a brand-new social order on, and this one, overlooking the Lužnice river in South Bohemia, fit the job perfectly.
+
+The site wasn't empty ground. A settlement and castle had stood here since around 1270, founded by King Otakar II, the same restless builder-king behind České Budějovice and Zlatá Koruna. By the 14th century, that castle had a name, Kotnov, and a well-worn road running north to a river town called Sezimovo Ústí. In 1420, radical Hussites driven from Sezimovo Ústí itself resettled on this hill and built a fortified new town around Kotnov's old walls, naming it after Mount Tábor from the Gospels, the mountain where Christ's transfiguration was said to have taken place. What they built there wasn't just a military stronghold. For a few intense years, Tábor functioned as something close to a working experiment in radical equality: communal property, a rejection of noble titles, entirely new forms of worship, an attempt to build the kind of world its founders thought Scripture actually demanded.
+
+The town's defenses held for over three decades against everything thrown at it, and when Tábor finally submitted in 1452, it wasn't to a foreign crusader army but to a fellow Bohemian, the regent George of Poděbrady, who talked the town into formally recognizing the Czech crown rather than beating it into submission. Kotnov Tower, the old castle's 25-metre gatehouse, is the one piece of the original fortress still standing, and today holds a small cinema running through the town's own history. The main square, Žižkovo náměstí, named for the Hussite general Jan Žižka, is ringed by a Gothic deanery church and a late-Gothic town hall that now houses the Hussite Museum, one of the most-visited museums in the whole country.
+
+🎁 Bonus: underneath Žižkovo náměstí runs roughly 800 metres of tunnels, originally dug as beer cellars, cool and humid enough to keep the town's supplies fresh, and repurposed more than once as a hiding place during fires and sieges. Above ground, Tábor's medieval streets were laid out deliberately crooked and maze-like, precisely so an attacking army couldn't charge straight through the center. Eight hundred years later, it still works just as well on tourists.`,
+
+      cz: `Tábor nestojí na žádné dávné legendě, jak to u českých měst často bývá. Má skutečné datum založení, rok 1420, a skutečný důvod: vlna nejradikálnějších náboženských reformátorů tehdejších Čech potřebovala obranný kopec, na kterém by postavila úplně nový společenský řád, a tenhle kopec nad řekou Lužnicí v jižních Čechách se k tomu hodil dokonale.
+
+Místo přitom nebylo prázdné. Sídliště s hradem tu stálo už od zhruba roku 1270, založené králem Otakarem II., stejným neposedným stavitelem-králem, který stojí i za Českými Budějovicemi a Zlatou Korunou. Ve 14. století už měl ten hrad jméno, Kotnov, a vyšlapanou cestu vedoucí na sever k říční osadě zvané Sezimovo Ústí. V roce 1420 se radikální husité, vyhnaní ze samotného Sezimova Ústí, usadili na tomto kopci a kolem starých Kotnovských hradeb postavili nové opevněné město, které pojmenovali po biblické hoře Tábor, na níž se podle evangelií odehrálo Kristovo proměnění. To, co tu postavili, nebyla jen vojenská pevnost. Na pár intenzivních let fungoval Tábor jako téměř skutečný experiment radikální rovnosti: společný majetek, odmítání šlechtických titulů, zcela nové formy bohoslužby, pokus postavit takový svět, jaký si jeho zakladatelé mysleli, že po nich Písmo skutečně žádá.
+
+Opevnění města vydrželo přes tři desetiletí proti všemu, co na něj bylo vrženo, a když se Tábor v roce 1452 konečně podvolil, nebylo to cizí křižácké vojsko, ale krajan, zemský správce Jiří z Poděbrad, který město přesvědčil, aby formálně uznalo českou korunu, místo aby ho k tomu donutil silou. Kotnovská věž, pětadvacetimetrová brána starého hradu, je jediná dochovaná část původní pevnosti a dnes v ní sídlí malé kino s filmem o historii města. Hlavní náměstí, Žižkovo náměstí, pojmenované po husitském vojevůdci Janu Žižkovi, lemuje gotický děkanský kostel a pozdně gotická radnice, v níž dnes sídlí Husitské muzeum, jedno z nejnavštěvovanějších muzeí v celé zemi.
+
+🎁 Bonus: pod Žižkovým náměstím se táhne zhruba 800 metrů podzemních chodeb, původně vyhloubených jako pivní sklepy, dost chladných a vlhkých na to, aby v nich zásoby vydržely čerstvé, a víc než jednou využitých jako úkryt při požárech a obléháních. Nad zemí byly středověké uličky Tábora záměrně vedeny křivolace a labyrintovitě, přesně proto, aby jimi útočící vojsko nemohlo projet rovnou do centra. O osm set let později to funguje stejně spolehlivě i na turisty.`,
+
+      zh: `塔博尔不像很多捷克城镇那样，靠一段古老传说撑起自己的身世。它有一个实实在在的建城年份，1420年，也有一个实实在在的理由：那一年，一批波希米亚最激进的宗教改革者，需要一座易守难攻的山丘，来建造他们心目中一整套全新的社会秩序，而这座俯瞰南波希米亚卢日尼采河的山丘，正合适。
+
+这块地方并非一片空地。早在约1270年，这里就已经有一座定居点和城堡，由奥托卡二世国王所建，就是那位一手建起了捷克布杰约维采和金冠修道院的、永不安分的建设者国王。到了14世纪，这座城堡已经有了名字：科特诺夫（Kotnov），旁边还有一条通往北面河畔小镇塞济莫沃乌斯季的老路。1420年，被赶出塞济莫沃乌斯季本身的激进胡斯派信徒，在这座山丘上安顿下来，围绕科特诺夫古老的城墙，建起了一座设防的新城，并以《圣经》里的塔博尔山为其命名——福音书记载，基督显圣容的地方正是那座山。他们在这里建起的，不只是一座军事要塞。在最初那几年里，塔博尔几乎就是一场真实运行的激进平等实验：财产公有，废除贵族头衔，全新的礼拜形式，试图按照创立者心目中圣经真正要求的样子，建起一个新世界。
+
+这座城市的防御工事扛住了三十多年里向它砸来的一切，而当塔博尔终于在1452年低头时，逼降它的不是外国的十字军，而是同为波希米亚人的摄政王波杰布拉迪的乔治，他说服了这座城市正式承认捷克王权，而不是靠武力将其打服。科特诺夫塔楼，这座老城堡二十五米高的门楼，是原始要塞中唯一留存至今的部分，如今里面还开着一家放映本地历史短片的小影院。城市的主广场——以胡斯派名将扬·杰式卡命名的杰式卡广场——四周环绕着一座哥特式教长教堂，以及一座晚期哥特式市政厅，如今是胡斯派博物馆的所在地，也是全捷克参观人数最多的博物馆之一。
+
+🎁 彩蛋：杰式卡广场地底下，藏着大约800米长的地下通道，最初是当作啤酒窖挖出来的，温度低、湿度稳，正好用来保鲜储物，也不止一次在火灾和围城时被当作避难所使用。地面上，塔博尔中世纪的街道被特意设计成弯弯绕绕、如同迷宫一般，就是为了让攻城的军队没法一路直冲市中心。八百年过去了，这套设计对付起游客来，效果依然拔群。`,
     },
   },
 ];
