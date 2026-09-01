@@ -6991,9 +6991,9 @@ export const historyEvents = [
     },
     tone: "humorous",
     title: {
-      en: "Maiestas Carolina",
-      cz: "Maiestas Carolina",
-      zh: "Maiestas Carolina",
+      en: "The Law They Said Was Burned",
+      cz: "Zákon, o kterém se říkalo, že shořel",
+      zh: "一部谎称被烧掉的法典",
     },
     hookLine: {
       en: "Charles spent years drafting a law code to put Bohemia's entire legal system into writing. His own nobility refused to seal it, so Charles announced that it had burned instead, even though every copy of it stayed exactly where it was.",
@@ -7324,6 +7324,98 @@ export const historyEvents = [
       },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_Bridge",
+  },
+  // New event, proposed by Claude and approved by the user as a genuine
+  // gap-filler for the era (2026-09-01) — the user asked directly what was
+  // still missing from 'kingdom-golden-age' before moving to Era 5, and
+  // this was the one concrete recommendation offered and accepted.
+  // - Rudolf IV's marriage to Charles's daughter Catherine: dated 13 July
+  //   1356 per Catherine of Bohemia's own English Wikipedia page. One
+  //   other search result conflated this marriage date with 1364 (the
+  //   year of the Erbverbrüderung treaty, below) — resolved in favor of
+  //   1356 as the marriage date and 1364 as the separate treaty date,
+  //   since that ordering (marry 1356 -> forge documents 1358/59 -> get
+  //   rejected -> reconcile via treaty 1364 -> Vienna University and death
+  //   1365) is internally consistent with every other confirmed date,
+  //   while "married in 1364" would not be (Rudolf died in 1365, barely
+  //   leaving time for a one-year marriage before the university/death
+  //   events that are independently well-dated).
+  // - Privilegium Maius forgery (1358 or 1359, sources give both): core
+  //   facts confirmed via WebSearch/WebFetch — an expansion of the
+  //   genuine 1156 Privilegium Minus, five total fabricated companion
+  //   documents, the invented "Archduke" title, the fake Julius
+  //   Caesar/Nero grants (via a forged letter attributed to Henry IV),
+  //   explicitly framed by multiple sources as a direct response to
+  //   Austria's exclusion from [[link:the-golden-bull-1356]] two years
+  //   earlier. Petrarch's involvement and "derisive" rejection of the
+  //   Roman-emperor-era claims specifically (not the whole document)
+  //   confirmed via WebFetch of habsburger.net.
+  // - Charles's response: refused confirmation, repeatedly ordered Rudolf
+  //   to stop using the title/symbols, enforcement described as weak by
+  //   the source itself — kept that hedge rather than overstating how
+  //   effective the ban actually was.
+  // - Erbverbrüderung (1364): the actual treaty name confirmed via
+  //   WebSearch (German for "hereditary brotherhood" — a mutual
+  //   inheritance pact, Habsburg/Luxembourg would inherit each other's
+  //   lands if either line died out). Not the same as the unrelated 1186
+  //   Georgenberg Pact (Austria/Styria) that turned up in an earlier,
+  //   wrongly-worded search pass — corrected before drafting.
+  // - University of Vienna: founded 12 March 1365, explicit rivalry with
+  //   [[link:central-europes-first-university-1348]] confirmed via
+  //   WebSearch (Rudolf wanted to match his "mighty father-in-law"'s own
+  //   Prague foundation), Pope Urban V's June 1365 approval withholding
+  //   theology-faculty rights, and that restriction's likely traceability
+  //   to quiet pressure from Charles himself, both confirmed via WebFetch
+  //   of habsburger.net. Rudolf's death dated to July 1365, age 26 (born
+  //   1339), four months after the foundation — his own Wikipedia page
+  //   confirms both the birth year and a ~9-year marriage, consistent
+  //   with the 1356 marriage date used here.
+  // - Closing irony (Frederick III's c.-1453 formal adoption of
+  //   "Archduke," and the documents' official unmasking as forgeries only
+  //   in 1852) confirmed via WebSearch of habsburger.net's own summary.
+  // - No relatedLandmarks: the entire episode plays out between Prague,
+  //   Vienna, and the imperial court generally, with no single Czech-lands
+  //   site to anchor it to.
+  // - Tone kept 'humorous', era default — the material (a forged Roman
+  //   pedigree, a rival university built out of spite, a family that
+  //   signed a mutual-inheritance treaty despite all of it) plays for the
+  //   same wry institutional-comedy register as 'the-golden-bull-1356'
+  //   and 'the-law-that-never-burned-1355'.
+  {
+    slug: "the-forged-archduke-1358",
+    era: "kingdom-golden-age",
+    startYear: 1358.5,
+    images: ["/history/the-forged-archduke-1358.webp"],
+    imageCaptions: [
+      {
+        en: "Petrarch couldn't stop laughing. Charles couldn't quite decide whether to laugh along or be furious.",
+        cz: "Petrarca se nemohl přestat smát. Karel se nemohl rozhodnout, jestli se smát s ním, nebo zuřit.",
+        zh: "彼特拉克笑得停不下来。查理一时拿不定主意，到底该跟着笑，还是该发火。",
+      },
+    ],
+    year: {
+      en: "1358–1365",
+      cz: "1358–1365",
+      zh: "1358年－1365年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Forged Archduke",
+      cz: "Padělaný arcivévoda",
+      zh: "伪造出来的大公",
+    },
+    hookLine: {
+      en: "Charles's own son-in-law forged a stack of ancient charters to invent himself a title no emperor had ever granted. Charles had the fakes exposed — then made peace with him regardless.",
+      cz: "Karlův vlastní zeť zfalšoval sadu starobylých listin, aby si sám vymyslel titul, který mu žádný císař nikdy neudělil. Karel nechal padělky odhalit, a přesto se s ním pak stejně usmířil.",
+      zh: "查理自己的女婿伪造了一批古代特许状，凭空给自己造出一个从没有哪位皇帝真正授予过的头衔。查理让人揭穿了这批伪造文书，可两年后，还是跟这位女婿握手言和了。",
+    },
+    summary: {
+      en: "Rudolf IV of Austria had every reason to feel slighted. Charles's own [[link:the-golden-bull-1356]]Golden Bull[[/link]] of 1356 had just fixed the Empire's seven electors in permanent, written law, and Austria wasn't one of them. Rudolf, not yet twenty and already married to Charles's own daughter Catherine, wanted a title to match his ambitions even if nobody had actually granted him one. So he had one made.\n\nWhat arrived at court in 1358 or 1359 was a document called the Privilegium Maius, presented as a genuine expansion of a real 1156 charter that had elevated Austria to a duchy. It wasn't genuine. Rudolf's own scribes had padded it with five entirely fabricated companion documents, one of them supposedly confirming ancient privileges granted to Austria by Julius Caesar and Nero themselves, and invented an entirely new title out of thin air: Archduke, a rank meant to sit above every other duke in the Empire and rival the electors Rudolf had just been left out of.\n\nCharles had his own court scholars look the documents over, and one of them happened to be [[link:italy-still-couldnt-forget-him-1350]]Francesco Petrarch[[/link]], still corresponding with the emperor years after first badgering him about Italy. Petrarch's verdict was blunt: the Caesar and Nero charters were laughably fake, centuries too polished to have come from Rome's own chancery. Charles refused to confirm any of it and repeatedly ordered Rudolf to stop using the title and its symbols. The order didn't stick particularly well, but the refusal did: as far as Charles's own government was concerned, there was no Archduke of Austria.\n\nNone of it broke the family. In 1364, father-in-law and son-in-law signed the Erbverbrüderung, a mutual inheritance pact promising that if either the Luxembourg or Habsburg line ever died out, the other would inherit its lands. Rudolf, meanwhile, found a subtler way to compete: on 12 March 1365 he founded a university at Vienna, deliberately modeled on [[link:central-europes-first-university-1348]]the one Charles had already built in Prague[[/link]] to pull students and prestige away from his father-in-law's own capital. Pope Urban V approved the foundation that June but withheld the right to grant theology degrees, a restriction historians trace back to quiet pressure from Charles himself. Rudolf never got the chance to fix it. He died that July, twenty-six years old, four months after laying his university's own foundation.\n\nThe forged title outlived every objection raised against it. A Habsburg emperor formally adopted \"Archduke\" about a century later, and the documents themselves weren't officially declared forgeries until 1852, nearly five hundred years after Petrarch first called them a joke.",
+      cz: "Rudolf IV. Rakouský měl dobrý důvod cítit se uražený. Karlova vlastní [[link:the-golden-bull-1356]]Zlatá bula[[/link]] z roku 1356 právě natrvalo, psaným zákonem, ustanovila sedm říšských kurfiřtů, a Rakousko mezi nimi nebylo. Rudolf, ještě ne dvacetiletý a už ženatý s Karlovou vlastní dcerou Kateřinou, chtěl titul odpovídající svým ambicím, i kdyby mu ho nikdo doopravdy neudělil. Tak si ho nechal vyrobit.\n\nTo, co dorazilo ke dvoru v roce 1358 nebo 1359, byl dokument zvaný Privilegium maius, vydávaný za skutečné rozšíření opravdové listiny z roku 1156, která povýšila Rakousko na vévodství. Nebyl pravý. Rudolfovi vlastní písaři ho vycpali pěti zcela vymyšlenými doprovodnými listinami, z nichž jedna údajně potvrzovala starobylé výsady, které Rakousku kdysi udělili sám Julius Caesar a Nero, a vymysleli k tomu úplně nový titul jako z ničeho: arcivévoda, hodnost, která měla stát nad všemi ostatními vévody v Říši a konkurovat kurfiřtům, mezi které se Rudolf právě nedostal.\n\nKarel nechal dokumenty prohlédnout vlastními dvorními učenci, a jedním z nich byl náhodou [[link:italy-still-couldnt-forget-him-1350]]Francesco Petrarca[[/link]], který s císařem dopisoval ještě roky poté, co ho poprvé přemlouval kvůli Itálii. Petrarkův verdikt byl nekompromisní: listiny s Caesarem a Neronem byly směšně falešné, o staletí příliš uhlazené na to, aby mohly pocházet ze skutečné římské kanceláře. Karel odmítl cokoli z toho potvrdit a opakovaně Rudolfovi nařizoval, aby přestal titul a jeho symboly používat. Ten příkaz se moc nedodržoval, ale odmítnutí platilo: pokud šlo o Karlovu vlastní vládu, žádný arcivévoda rakouský neexistoval.\n\nRodinu to nerozbilo. V roce 1364 tchán se zetěm podepsali Erbverbrüderung, smlouvu o vzájemném dědictví, podle níž měla jedna dynastie, lucemburská nebo habsburská, zdědit země té druhé, kdyby některá z nich někdy vymřela. Rudolf mezitím našel jemnější způsob, jak soupeřit: 12. března 1365 založil univerzitu ve Vídni, záměrně podle vzoru [[link:central-europes-first-university-1348]]té, kterou Karel už postavil v Praze[[/link]], aby z otcova hlavního města přetáhl studenty i prestiž. Papež Urban V. založení téhož června schválil, ale odepřel univerzitě právo udílet doktoráty z teologie, omezení, které historici připisují tichému nátlaku ze strany samotného Karla. Rudolf už to nestihl napravit. Zemřel toho července, šestadvacetiletý, čtyři měsíce po položení základů vlastní univerzity.\n\nPadělaný titul přežil každou námitku, kterou proti němu kdo vznesl. Habsburský císař titul arcivévody formálně přijal asi o sto let později, a samotné listiny byly úředně prohlášeny za padělky až v roce 1852, skoro pět set let poté, co si z nich Petrarca poprvé udělal legraci.",
+      zh: "奥地利的鲁道夫四世确实有理由感到被冷落。查理自己1356年颁布的[[link:the-golden-bull-1356]]《金玺诏书》[[/link]]，刚刚用成文法把帝国的七大选侯永久定了下来，奥地利并不在其中。鲁道夫当时还不满二十岁，已经娶了查理的女儿卡塔琳娜，他想要一个配得上自己野心的头衔，哪怕根本没人真正授予过他这个头衔。于是他干脆自己造了一个出来。\n\n1358或1359年送到宫廷的，是一份名叫《大特权状》（Privilegium Maius）的文书，号称是对1156年一份真实文件的扩充——那份真文件当年确实把奥地利提升成了公国。可这份新文件是假的。鲁道夫自己的书记官往里塞了五份彻头彻尾捏造出来的附属文书，其中一份居然声称是尤利乌斯·凯撒和尼禄本人当年赐给奥地利的古老特权，还凭空发明了一个全新头衔：大公——地位要凌驾于帝国境内所有其他公爵之上，直接对标鲁道夫刚刚被排除在外的那些选侯。\n\n查理让自己宫廷里的学者鉴定这批文书，其中一位刚好是[[link:italy-still-couldnt-forget-him-1350]]弗朗切斯科·彼特拉克[[/link]]，那位多年前劝说查理关心意大利的老朋友，此时仍与皇帝保持通信。彼特拉克的结论毫不客气：那些托名凯撒和尼禄的文书，假得可笑，文风精致得根本不可能出自罗马当年的宫廷文书房。查理拒绝确认其中任何一条内容，还多次下令鲁道夫停止使用这个头衔和相关的一切标志。这道命令执行得并不彻底，但拒绝承认这一点却始终没变：在查理自己的朝廷眼里，压根不存在什么\"奥地利大公\"。\n\n这件事倒没有拆散这家人。1364年，翁婿二人签署了《Erbverbrüderung》，一份互相继承的协议：卢森堡和哈布斯堡两个家族，哪一支要是绝嗣，另一支就继承其领地。与此同时，鲁道夫找到了一种更隐晦的较量方式：1365年3月12日，他在维也纳创办了一所大学，刻意仿照[[link:central-europes-first-university-1348]]查理早已在布拉格建起的那所大学[[/link]]，想把学生和声望，从岳父的首都那边拉过来一些。教皇乌尔班五世当年6月批准了这所大学的建立，却没批准它开设神学院——史学家普遍认为，这背后是查理本人在暗中施压。鲁道夫再没来得及扭转局面。那年7月，他就去世了，年仅二十六岁，距离他为这所大学奠基，才过去四个月。\n\n这个伪造出来的头衔，最终活过了当初针对它的每一句质疑。大约一百年后，一位哈布斯堡皇帝正式采纳了\"大公\"这个头衔；而那批文书本身，直到1852年才被官方正式认定为伪造——距离彼特拉克第一次嘲笑它们，已经过去了将近五百年。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Privilegium_Maius",
   },
   // New event, requested by the user (title given as "反对教会"/"Against the
   // Church", full outline dictated). Independently corroborated via
@@ -8193,6 +8285,800 @@ export const historyEvents = [
       },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Margraviate_of_Brandenburg",
+  },
+  // New event, outline dictated by the user (Charles past sixty, aware
+  // his time was limited, securing his eldest son's election as King of
+  // the Romans). Slug/title built around the "vivente imperatore"
+  // detail (an election held while the reigning emperor was still
+  // alive) confirmed via a Czech-language source explicitly framing it
+  // as Charles bending/violating his own Golden Bull — softened here to
+  // "the Bull never said what should happen," since an English-language
+  // search on the same question found only that such elections "were
+  // not explicitly envisaged" rather than a flat violation; both
+  // readings point at the same underlying gap, so the card states the
+  // fact (no provision existed) rather than picking a side on how hard
+  // a rule it broke.
+  // - Deliberate structural echo of two earlier cards: Charles's own
+  //   contested 1346 election ('the-crown-nobody-recognized-1346' —
+  //   unrecognized crown, Aachen's gates shut, a three-year fight) and
+  //   his eventual clean 1349 Aachen coronation
+  //   ('crowned-at-aachen-1349') are both linked as the direct contrast
+  //   this card is built on: the same three obstacles (rival candidate,
+  //   deposed pope, locked gate) that dogged Charles are named and then
+  //   explicitly absent this time.
+  // - Charles's 60th birthday (14 May 1376) and Wenceslas's exact age
+  //   (15, born 26 Feb 1361 per 'a-son-at-last-1361') both confirmed by
+  //   WebSearch; the election itself dated 10 June 1376 at Frankfurt,
+  //   unanimous, no rival candidate — coronation 6 July 1376 at Aachen.
+  // - Brandenburg's electoral vote: sources conflict on exactly which
+  //   son cast it (one English source's own elector table oddly lists
+  //   "Wenceslaus IV, Margrave of Brandenburg" as a separate elector
+  //   from the candidate himself; a Britannica-derived summary says the
+  //   emperor and "his son" held both the Bohemia and Brandenburg
+  //   votes; this project's own earlier dev comment on
+  //   'the-brandenburg-triumph-1373' states Sigismund's sole possession
+  //   of Brandenburg dates to 1376). Rather than assert one specific
+  //   brother by name, this card just says the vote belonged to
+  //   "Charles's own family," true under every version of the sources
+  //   found, and links back to the 1373 buyout for the underlying deal.
+  // - Bribery specifics (imperial free cities' privileges pawned or
+  //   revoked; Count Palatine Rupert personally receiving tens of
+  //   thousands of florins in mortgaged land) confirmed via a
+  //   Czech-language search.
+  // - Wenceslas's wife Johanna of Bavaria: married to him in Prague on
+  //   29 September 1370 (this is the same wedding already covered in
+  //   'the-same-trick-twice-1370', which pulled a Wittelsbach brother
+  //   out of a hostile coalition — linked back rather than re-explained)
+  //   and crowned queen beside him at Aachen the same day as his own
+  //   coronation. Her exact age at the 1370 wedding is genuinely
+  //   disputed across sources (her own birth year is given as either
+  //   1356 or 1362), so no specific age is stated here to avoid
+  //   asserting a disputed number; the marriage's actual consummation
+  //   only in 1376 is independently corroborated and kept as a wry,
+  //   safely-sourced detail instead.
+  // - No genuine primary-source chronicle quote found after three
+  //   separate WebSearch passes (English and Czech, including a check
+  //   of whether Beneš Krabice's own chronicle — already used for
+  //   'the-brandenburg-triumph-1373' and elsewhere — covers this event;
+  //   per this project's own earlier notes that chronicle's coverage
+  //   effectively ends around 1374, before this event). No quotes[]
+  //   entry included rather than forcing a weak one.
+  // - relatedLandmarks left empty, matching 'crowned-at-aachen-1349':
+  //   the event happens entirely at Frankfurt and Aachen, nothing to
+  //   tie to a Prague-area Location.
+  {
+    slug: "crowned-while-his-father-watched-1376",
+    era: "kingdom-golden-age",
+    startYear: 1376,
+    images: ["/history/crowned-while-his-father-watched-1376.webp"],
+    imageCaptions: [
+      {
+        en: "Seven votes, no contest — the crown Charles fought three years for, his son received without a single rival.",
+        cz: "Sedm hlasů, žádný spor — korunu, o kterou Karel bojoval tři roky, dostal jeho syn bez jediného soupeře.",
+        zh: "七票，毫无悬念——查理当年打了三年才争到的王冠，他儿子这次没遇上一个对手就拿到了手。",
+      },
+    ],
+    year: {
+      en: "1376",
+      cz: "1376",
+      zh: "1376年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Crowned While His Father Watched",
+      cz: "Korunovaný před otcovýma očima",
+      zh: "在父亲的注视下加冕",
+    },
+    hookLine: {
+      en: "Charles turned sixty that spring and wasted no time. Within a month, his fifteen-year-old son held a crown Charles himself had spent three contested years fighting for.",
+      cz: "Karlovi na jaře bylo šedesát a neztrácel čas. Do měsíce držel jeho patnáctiletý syn korunu, o kterou sám Karel kdysi bojoval tři sporné roky.",
+      zh: "那年春天查理满六十岁，他没有耽搁。不到一个月，他十五岁的儿子就戴上了一顶查理自己当年足足打了三年才争到手的王冠。",
+    },
+    summary: {
+      en: "Charles turned sixty on 14 May 1376. He'd already outlived one wife after another, buried his own father at a battle he never saw coming, and spent three decades learning exactly how fragile a claim to power could be. His son Wenceslas had worn the Bohemian crown since he was two years old, [[link:a-son-at-last-1361]]crowned as a toddler[[/link]] who couldn't yet walk steadily on his own. That crown had never been in doubt. The next one Charles wanted to hand him would need considerably more work.\n\nSecuring it meant doing what Charles had always done best: buying, promising, and marrying his way to a majority. Free imperial cities watched their own privileges get pawned off or revoked outright to sweeten the deal. Count Palatine Rupert alone walked away with tens of thousands of florins in mortgaged land. Two of the seven electoral votes belonged to Charles's own family before a single ballot was cast: Bohemia, which he held himself, and Brandenburg, which his sons had controlled since [[link:the-brandenburg-triumph-1373]]buying out Otto V[[/link]] three years earlier. On 10 June 1376, the electors gathered at Frankfurt and made it unanimous. Wenceslas, fifteen years old, was King of the Romans, elected without a single rival candidate, a single deposed pope, or a single locked city gate standing in the way, the exact three obstacles that had turned Charles's own [[link:the-crown-nobody-recognized-1346]]first election[[/link]] into a three-year fight for recognition.\n\nThere was no repeat of Charles's own long wait for a proper coronation, either. Less than a month later, on 6 July 1376, Wenceslas was crowned at Aachen, the same cathedral that had shut its gates on his father for three years running. His wife Johanna of Bavaria, [[link:the-same-trick-twice-1370]]married to him six years earlier[[/link]], was crowned queen beside him; the marriage itself, oddly enough, was only consummated that same year.\n\nOne detail escaped everyone's notice at the time, or at least nobody thought it worth writing down. Charles's own Golden Bull, not yet twenty years old, was the law governing exactly how an imperial election was supposed to work, and this was the first election ever held under it since Charles had written it. The Bull never said what should happen if the reigning emperor was still alive when the next one got chosen, because no one had ever needed to ask. Charles hadn't closed that gap. He'd simply been the first to walk through it.\n\nIt worked exactly as planned. When Charles died two years later, there was no rival king, no unrecognized crown, no city with its gates barred. For once in the family's history, a Luxembourg inherited the empire the ordinary way: because everyone had already agreed he would.",
+      cz: "Karlovi bylo 14. května 1376 šedesát let. Přežil už jednu manželku za druhou, pohřbil vlastního otce v bitvě, kterou nikdy nečekal, a strávil tři desetiletí tím, že se učil, jak křehký nárok na moc dokáže být. Jeho syn Václav nosil českou korunu od svých dvou let, [[link:a-son-at-last-1361]]korunovaný jako batole[[/link]], které se ještě pořádně nedrželo na nohou. O tuhle korunu nikdy nebyla pochybnost. Ta další, kterou mu chtěl Karel předat, si žádala mnohem víc práce.\n\nZajistit ji znamenalo dělat to, co Karlovi šlo odjakživa nejlíp: kupovat, slibovat a proženit se k většině. Svobodná říšská města sledovala, jak jejich vlastní výsady jdou do zástavy nebo se rovnou ruší. Sám falcký kurfiřt Rupert si odnesl desítky tisíc zlatých v zastavené půdě. Dva ze sedmi kurfiřtských hlasů patřily Karlově vlastní rodině ještě dřív, než padl jediný hlas: Čechy, které držel sám, a Braniborsko, které jeho synové ovládali od chvíle, kdy [[link:the-brandenburg-triumph-1373]]vykoupili Otu V.[[/link]] o tři roky dřív. 10. června 1376 se kurfiřti sešli ve Frankfurtu a učinili z toho jednomyslnou volbu. Patnáctiletý Václav byl římským králem, zvoleným bez jediného soupeřícího kandidáta, jediného sesazeného papeže nebo jediné zavřené městské brány, přesně těch tří překážek, které z Karlovy vlastní [[link:the-crown-nobody-recognized-1346]]první volby[[/link]] udělaly tříletý boj o uznání.\n\nKarlovo dlouhé čekání na řádnou korunovaci se taky neopakovalo. O necelý měsíc později, 6. července 1376, byl Václav korunován v Cáchách, ve stejné katedrále, která jeho otci tři roky po sobě zavírala brány. Po jeho boku byla korunována i jeho žena Johana Bavorská, [[link:the-same-trick-twice-1370]]provdaná za něj o šest let dřív[[/link]]; samotné manželství přitom bylo naplněno vlastně až téhož roku.\n\nJedna věc si tehdy nikdo pořádně nevšiml, nebo ji přinejmenším nikdo nepovažoval za hodnou zapsání. Karlova vlastní Zlatá bula, ne ještě ani dvacet let stará, byla zákonem, který určoval, jak přesně má imperiální volba probíhat, a tohle byla vůbec první volba, která se podle ní konala od chvíle, co ji Karel sepsal. Bula nikde neříkala, co se má stát, když je vládnoucí císař v době volby jeho nástupce ještě naživu, protože se na to dosud nikdo nemusel ptát. Karel tu mezeru nezavřel. Prostě jí jako první prošel.\n\nVyšlo to přesně, jak plánoval. Když Karel o dva roky později zemřel, nebyl žádný soupeřící král, žádná neuznaná koruna, žádné město se zavřenou branou. Poprvé v historii rodu zdědil Lucemburk říši tím obyčejným způsobem: protože už se na tom všichni předem shodli.",
+      zh: "1376年5月14日，查理满六十岁。他已经先后送走了好几任妻子，在一场自己根本没料到的战役里安葬了亲生父亲，用三十年时间彻底摸清了权力这东西能有多脆弱。他的儿子瓦茨拉夫两岁起就戴着波希米亚的王冠，[[link:a-son-at-last-1361]]还是个走路都站不稳的孩子时就已加冕[[/link]]。那顶王冠，从没人质疑过。可查理想交到他手上的下一顶，得费上大得多的功夫。\n\n要拿到这顶王冠，查理干的还是他最拿手的那一套：花钱收买、许下承诺、联姻拉拢，一路凑够多数票。自由帝国城市眼睁睁看着自己的特权被抵押出去，甚至干脆被撤销。光是普法尔茨选侯鲁普雷希特一人，就靠抵押土地拿走了数万弗罗林金币。七张选侯票里，有两张压根不用等投票，就已经是查理自家的：波希米亚，他自己握着；勃兰登堡，则是三年前[[link:the-brandenburg-triumph-1373]]把奥托五世买断[[/link]]之后就一直握在他儿子们手里。1376年6月10日，选侯们齐聚法兰克福，把这一票投成了全票通过。十五岁的瓦茨拉夫，就此当上了罗马人的国王，全程没有一个对立候选人，没有一位被废黜的教皇，也没有一座紧闭的城门挡路——这恰恰是当年让查理自己那场[[link:the-crown-nobody-recognized-1346]]首次选举[[/link]]，拖成三年才换来承认的那三道坎。\n\n查理自己当年苦等加冕礼的那一幕，也没有重演。不到一个月后，1376年7月6日，瓦茨拉夫在亚琛加冕——正是那座曾一连三年对他父亲紧闭大门的大教堂。他的妻子巴伐利亚的约翰娜，[[link:the-same-trick-twice-1370]]六年前就已嫁给他[[/link]]，同一天在他身边加冕为王后；这桩婚姻本身，说来也巧，直到这一年才算真正圆房。\n\n有一个细节，当时几乎没人留意，或者说没人觉得值得记上一笔。查理自己颁布的《金玺诏书》，此时还不到二十年历史，正是规定帝国选举该怎么进行的那部法律，而这，是这部法律颁布以来第一次真正依照它举行的选举。这部法律从没提过，要是在位皇帝在继承人选出时依然在世，该怎么办，因为在此之前，从没人需要问这个问题。查理没有把这个漏洞堵上，他只是第一个从里面钻了过去。\n\n结果正如查理所愿。两年后查理去世时，没有对立的国王，没有不被承认的王冠，也没有一座紧闭城门的城市。卢森堡家族历史上头一次，有人用最寻常的方式继承了这个帝国：因为所有人早就提前达成了一致。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/1376_imperial_election",
+  },
+  // New event, replacing an earlier draft. The user's original outline
+  // combined Charles's late-life Paris trip with "successfully bringing
+  // the pope back to Rome" as one card; a first pass flagged the
+  // timeline mismatch (Gregory XI reached Rome 17 Jan 1377, a full year
+  // before Charles's own trip even began, and Western sources credit
+  // Catherine of Siena, not Charles, as the decisive figure) and split
+  // it into two cards, with Catherine as her own card's protagonist.
+  // The user then reconsidered after independently finding a Czech
+  // Wikipedia line ("Roku 1376 přesídlil Karel IV. papeže Řehoře XI.
+  // přes značný odpor francouzského krále do Říma") crediting Charles
+  // directly — a follow-up Czech-language search pass (Czech Wikipedia,
+  // aktuálně.cz, e-stredovek.cz) found this reflects a real but
+  // higher-level framing: Charles's return-Rome push was a long-standing
+  // policy goal of his reign (freeing the papacy from French influence,
+  // matching his own earlier effort in 'a-return-that-didnt-stick-1368'
+  // and his general Renovatio Imperii outlook), not a specific documented
+  // action taken in 1376 itself — no Czech source found describing a
+  // concrete 1376 intervention (letters, envoys, funds). Rather than
+  // adjudicate between the two national historiographies' emphasis, the
+  // user chose (2026-08-31) to fold the whole Gregory XI thread into a
+  // single brief passing mention inside this card, crediting it to
+  // Charles's own policy in line with the Czech framing, and to drop the
+  // separate Catherine-of-Siena-centered card entirely (deleted, was
+  // 'come-home-1377') — also explicitly per the user's standing note
+  // that this is a Prague/Czech chronicle and each card's protagonist
+  // should stay tied to Bohemia/Charles where reasonably possible, not
+  // wander to an unconnected foreign figure for her own sake.
+  // - Core facts on the Paris trip itself confirmed via WebSearch across
+  //   several passes: departure from Prague ~November 1377, a French
+  //   delegation meeting the imperial party near Cambrai on 22 December
+  //   1377 (per the Grandes Chroniques de France), Christmas spent at
+  //   the royal palace on the Île de la Cité, formal negotiations
+  //   4-14 January 1378, and the Epiphany banquet/Sainte-Chapelle relic
+  //   viewing on 6 January 1378 — the last independently confirmed
+  //   across multiple sources including a dedicated academic paper on
+  //   the visit's own protocol disputes.
+  // - The "three kings" framing (Epiphany, called Trois Rois/Tři králové
+  //   in French/Czech, literally attended by three actual kings — Charles
+  //   IV, Charles V of France, and Wenceslas, already both King of
+  //   Bohemia and, per 'crowned-while-his-father-watched-1376', King of
+  //   the Romans) is a genuine, sourced coincidence, not an invented
+  //   flourish, and became this card's title in all three languages
+  //   (CZ "Tři králové" and ZH "三王节" both being the actual native names
+  //   for the Epiphany feast itself, not just translations of "three
+  //   kings").
+  // - Protocol details (no imperial vestments at Christmas Mass, no
+  //   bells, no procession, no white horse — reserved for the French
+  //   king alone — asserting Charles V's own "rex imperator in regno
+  //   suo" independence from imperial authority) and Charles's declining
+  //   health (already troubled by gout, reportedly unable to stand for
+  //   long by this point) both confirmed via WebSearch/WebFetch of
+  //   academic sources on the visit.
+  // - The relic-viewing detail (Sainte-Chapelle's Grand-Chasse reliquary,
+  //   including a fragment of the Crown of Thorns Louis IX acquired in
+  //   1239/1241, Charles and the French royals personally handling and
+  //   kissing the relics) and the detail that the French court added 14
+  //   folios and 19 paintings to its own Grandes Chroniques specifically
+  //   to record this visit both confirmed via WebFetch.
+  // - No quotes[] entry: searches turned up only a French chapter title
+  //   ("Comment le Roy monstra á l'Empereur les reliques de la
+  //   Sainte-Chapelle de son palais") rather than a quotable translated
+  //   passage, so nothing forced in per the project's usual convention.
+  // - The closing "renewed alliance against England" detail links back
+  //   to 'an-alliance-with-france-1337' (John of Luxembourg's own French
+  //   alliance, struck with Philip VI four decades earlier) — confirmed
+  //   via WebSearch that the visit did produce a real, if largely
+  //   symbolic, reaffirmation of support against England; a separately
+  //   floated Hungary/Poland-succession angle from one Czech source
+  //   couldn't be independently corroborated after a follow-up search
+  //   pass, so it was left out rather than asserted on single-sourcing.
+  // - relatedLandmarks left empty: the entire event happens in France,
+  //   outside the Czech lands, matching precedent elsewhere in this arc.
+  {
+    slug: "three-kings-1378",
+    era: "kingdom-golden-age",
+    startYear: 1377.9,
+    images: [
+      "/history/three-kings-1378-paris-gate.webp",
+      "/history/three-kings-1378.webp",
+    ],
+    imageCaptions: [
+      {
+        en: "Decades after he last saw these walls as a boy, Charles rode back through them as an old man near the end of his reign.",
+        cz: "Desítky let poté, co tyto hradby naposledy viděl jako chlapec, se do nich Karel vrátil jako stařec, blízko konce své vlády.",
+        zh: "距离他最后一次以少年之姿望见这道城墙，已经过去了几十年——如今查理再次穿过它时，已是统治将尽的暮年。",
+      },
+      {
+        en: "Epiphany, 1378: three kings under one roof, the emperor's own strength visibly running out.",
+        cz: "Zjevení Páně, 1378: tři králové pod jednou střechou, císařovy vlastní síly viditelně docházely.",
+        zh: "1378年主显节：三位国王同处一室，而这位皇帝自己的气力，已经肉眼可见地所剩无多。",
+      },
+    ],
+    year: {
+      en: "1377–1378",
+      cz: "1377–1378",
+      zh: "1377年－1378年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Three Kings in Paris",
+      cz: "Tři králové v Paříži",
+      zh: "巴黎的\"三王节\"",
+    },
+    hookLine: {
+      en: "The banquet landed on Epiphany, the feast the French call Trois Rois. For once, the name wasn't just tradition. Three actual kings sat down to eat.",
+      cz: "Hostina padla na svátek Zjevení Páně, kterému se francouzsky říká Trois Rois. Tentokrát to jméno nebylo jen tradice. Ke stolu totiž zasedli tři skuteční králové.",
+      zh: "那场宴会正好落在主显节这天，法国人管这天叫\"三王节\"。这一次，这个名字倒不只是传统说法——因为餐桌旁坐着的，真真切切是三位国王。",
+    },
+    summary: {
+      en: "By the time Pope Gregory XI finally left Avignon for Rome in 1376, Charles had spent years pushing for exactly this outcome: a papacy pulled back out of the French crown's orbit and returned to the city it was supposed to call home. It fit a policy he'd pursued his entire reign, keep Rome, not Paris, at the center of Christendom, and it wasn't even his first attempt: he'd already tried [[link:a-return-that-didnt-stick-1368]]once before[[/link]], with Urban V, only to watch him decide Rome was unmanageable and sail back to Avignon within three years. Rome hadn't grown any calmer since. If anything, the Papal States were now in open revolt, a Florence-led uprising known as the War of the Eight Saints, which made governing the place by letter from five hundred miles away look less realistic by the year. A twenty-nine-year-old Sienese mystic named Catherine spent that June in Avignon pressing exactly that case to Gregory's own face, in person and then in a stream of increasingly blunt letters. This time the pope stayed: he reached Rome on 17 January 1377 and, unlike Urban, never turned back. Whether Rome had actually gotten any easier to hold, or Gregory simply didn't live long enough to reconsider the way Urban had, is hard to say; he was dead within fourteen months. Less than a year into his own return, having just helped talk the pope out of France's backyard, Charles set out for France himself.\n\nCharles was sixty-one that November, worn down by decades of exactly this kind of travel and increasingly troubled by gout that made it hard for him to stand, let alone ride. He brought his son and heir Wenceslas along, already King of Bohemia since childhood and, [[link:crowned-while-his-father-watched-1376]]King of the Romans since the previous summer[[/link]]. A French delegation rode out to meet the imperial party near Cambrai on 22 December, and by Christmas the whole company had reached Paris, a city Charles hadn't seen since he was a teenager. He'd [[link:the-prince-who-came-to-put-out-the-fire-1333]]spent eleven years of his own childhood there[[/link]], raised at the French court from age seven, before Bohemia ever called him home.\n\nThe welcome was warm. The rules around it were not. Charles wasn't permitted to wear his imperial vestments for Christmas Mass, no bells were to be rung for him, no procession staged in his honor, and he was barred from riding a white horse into the city, a privilege the French crown reserved for itself alone. None of it was hostility exactly. Charles V simply intended to make one thing unmistakably clear to his own guest: inside the kingdom of France, the king of France answered to no emperor.\n\nThe visit's centerpiece landed on 6 January 1378, Epiphany, the feast the French call Trois Rois: Charles, Charles V, and Wenceslas, three kings under one roof, sat down together for a banquet at the royal palace on the Île de la Cité. Three separate menus from the occasion still survive. That same day, at Charles's own request, the French king walked him through the Sainte-Chapelle's reliquary to see relics Louis IX had brought back over a century earlier, including a fragment of the Crown of Thorns. Too unwell by then to stand for long, Charles still took each relic in his hands and kissed it, the same as everyone else in the room. The French court thought the whole visit significant enough to add fourteen new folios and nineteen paintings to its own royal chronicle just to record it.\n\nOn substance, the two courts mostly renewed [[link:an-alliance-with-france-1337]]an old alliance[[/link]] Charles's own father had struck with a different French king four decades before: mutual support against England, more sentiment than strategy at this point. Charles was back in Prague within weeks. He had less than a year left to live.",
+      cz: "Než papež Řehoř XI. v roce 1376 konečně opustil Avignon a odjel do Říma, prosazoval Karel přesně tenhle výsledek už léta: papežství vymaněné z vlivu francouzské koruny a vrácené městu, které mělo být jeho domovem. Zapadalo to do politiky, kterou sledoval po celou svou vládu, středem křesťanstva má být Řím, ne Paříž, a nebyl to dokonce ani jeho první pokus: už [[link:a-return-that-didnt-stick-1368]]jednou to zkusil[[/link]], s Urbanem V., jen aby sledoval, jak usoudil, že Řím je neovladatelný, a do tří let se vrátil zpátky do Avignonu. Řím od té doby o nic klidnější nebyl. Papežský stát se naopak nacházel v otevřeném povstání, ve florentském povstání zvaném válka osmi svatých, a řídit tohle psaním dopisů z pěti set kilometrů dál vypadalo rok od roku míň reálně. Devětadvacetiletá sienská mystička jménem Kateřina strávila toho června v Avignonu přesvědčováním Řehoře přímo tváří v tvář, a pak i proudem čím dál otevřenějších dopisů. Tentokrát papež zůstal: do Říma dorazil 17. ledna 1377 a na rozdíl od Urbana se už nevrátil. Jestli se Řím doopravdy stal snáz ovladatelným, nebo Řehoř prostě nežil dost dlouho na to, aby si to jako Urban rozmyslel, se těžko posuzuje; zemřel do čtrnácti měsíců. Necelý rok po svém návratu, zrovna poté, co pomohl vymanit papeže z francouzského dvorku, se Karel sám vydal do Francie.\n\nKarlovi bylo toho listopadu jednašedesát, unavený desetiletími přesně takového cestování a čím dál víc sužovaný dnou, která mu ztěžovala i stání, natož jízdu na koni. Vzal s sebou syna a dědice Václava, už od dětství českého krále a od minulého léta [[link:crowned-while-his-father-watched-1376]]římského krále[[/link]]. Francouzská delegace vyjela císařskému doprovodu naproti u Cambrai 22. prosince, a na Vánoce už byla celá společnost v Paříži, městě, které Karel neviděl od dob, kdy byl ještě teenager. [[link:the-prince-who-came-to-put-out-the-fire-1333]]Prožil tam jedenáct let vlastního dětství[[/link]], vychovávaný na francouzském dvoře od sedmi let, ještě předtím, než si ho Čechy vůbec vzpomněly zavolat domů.\n\nPřivítání bylo vřelé. Pravidla kolem něj ne. Karel nesměl na vánoční mši obléknout své císařské roucho, na jeho počest se neměly rozeznít žádné zvony, nesměl se konat žádný průvod, a nesměl vjet do města na bílém koni, výsadě, kterou si francouzská koruna vyhrazovala jen pro sebe. Nešlo přesně o nepřátelství. Karel V. chtěl svému hostu jen naprosto jasně dát najevo jednu věc: uvnitř francouzského království se francouzský král nezodpovídá žádnému císaři.\n\nVrchol návštěvy připadl na 6. ledna 1378, na Zjevení Páně, svátek, kterému Francouzi říkají Trois Rois: Karel, Karel V. a Václav, tři králové pod jednou střechou, zasedli společně k hostině na královském paláci na ostrově Cité. Tři samostatná menu z té příležitosti se dochovala dodnes. Téhož dne francouzský král na Karlovu vlastní žádost provedl Karla relikviářem Sainte-Chapelle, aby mu ukázal ostatky, které sem Ludvík IX. přivezl přes sto let předtím, včetně úlomku trnové koruny. Karel už tou dobou nebyl schopen dlouho stát, přesto vzal každou relikvii do rukou a políbil ji, stejně jako všichni ostatní v místnosti. Francouzský dvůr považoval celou návštěvu za natolik významnou, že kvůli ní do vlastní královské kroniky přidal čtrnáct nových listů a devatenáct maleb, jen aby ji zaznamenal.\n\nCo se týče podstaty, oba dvory hlavně obnovily [[link:an-alliance-with-france-1337]]staré spojenectví[[/link]], které Karlův vlastní otec uzavřel s jiným francouzským králem o čtyři desetiletí dřív: vzájemnou podporu proti Anglii, v tuhle chvíli spíš gesto než skutečnou strategii. Karel byl zpátky v Praze během pár týdnů. Zbýval mu necelý rok života.",
+      zh: "1376年，教皇格里高利十一世终于离开阿维尼翁前往罗马之前，查理已经为这个结果奔走了好几年：把教廷从法国王室的势力范围里拉出来，送回它本该归属的那座城市。这本就是查理整个统治生涯一直在推行的政策：基督世界的中心应该是罗马，而不是巴黎——而且这也不是他第一次这么干了：他早就[[link:a-return-that-didnt-stick-1368]]试过一回[[/link]]，那次是乌尔班五世，结果眼睁睁看着乌尔班认定罗马根本没法治理，不到三年就又溜回了阿维尼翁。这些年过去，罗马也并没有变得更太平。教皇国这时反倒陷入了公开叛乱——佛罗伦萨牵头的\"八圣人之战\"——隔着五百公里靠书信遥控这么个烂摊子，一年比一年不现实。那年6月，一位来自锡耶纳、年仅二十九岁的神秘主义者凯瑟琳，专程跑到阿维尼翁，当面向格里高利力陈这一点，之后又是一连串措辞越来越直白的信。这一次，教皇是真留下了：1377年1月17日抵达罗马，而且，不像乌尔班，再也没回头。罗马到底是真的变得好治理了，还是格里高利只是没能像乌尔班那样活得够久、来得及改主意，这事很难说清楚——他不到十四个月后就去世了。回到罗马不到一年，刚帮教皇摆脱了法国这个\"后院\"，查理自己却又动身前往了法国。\n\n那年11月，查理六十一岁，几十年这样的奔波旅途早把他拖得疲惫不堪，痛风更是越来越厉害，站都站不稳，更别提骑马了。他带上了自己的儿子和继承人瓦茨拉夫——从小就是波希米亚国王，去年夏天又刚[[link:crowned-while-his-father-watched-1376]]当上了罗马人的国王[[/link]]。12月22日，一支法国代表团在康布雷附近迎上了这支帝国队伍，到圣诞节时，一行人已经抵达了巴黎——这座城市，查理自打还是个少年起就再也没回来过。他[[link:the-prince-who-came-to-put-out-the-fire-1333]]在这里度过了自己童年和少年时代的十一年[[/link]]，七岁起就被送到法国宫廷抚养，那时波希米亚还没想起要接他回家。\n\n迎接的场面很热络，规矩却一点都不含糊。查理不能穿皇帝礼服出席圣诞弥撒，不能为他鸣钟，不能为他办游行，也不能骑白马入城——那是法国王室专属的特权。这倒不完全是敌意。查理五世只是想让这位客人清清楚楚地明白一件事：在法兰西王国境内，法国国王不听命于任何皇帝。\n\n这趟访问的高潮落在1378年1月6日，主显节，法国人管这一天叫\"三王节\"：查理、查理五世和瓦茨拉夫，三位国王同处一个屋檐下，一起坐在西岱岛的王宫里赴宴。当时的三份菜单，至今还保存着。就在同一天，应查理本人的请求，法国国王亲自领他参观了圣礼拜堂的圣物匣，看那些一百多年前路易九世带回来的圣物，其中就有一小片荆棘冠冕。那时的查理已经站不了太久，可他还是像在场其他所有人一样，把每一件圣物拿在手里，亲吻了一遍。法国宫廷认为这趟访问意义重大，特意在自家的皇室编年史里加了十四页新内容、十九幅插图，专门用来记录这件事。\n\n就实质内容而言，两个宫廷这次基本上只是重申了[[link:an-alliance-with-france-1337]]一份老交情[[/link]]——查理自己的父亲，四十年前就和另一位法国国王缔结过的：共同对抗英格兰，此刻这更多是一种情谊表态，而不是什么真正的新战略。没过几个星期，查理就回到了布拉格。他这辈子剩下的时间，已经不到一年了。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_IV,_Holy_Roman_Emperor",
+  },
+  // New event, closing card for 'kingdom-golden-age' (1346-1378), outline
+  // dictated by the user: Charles's death, Wenceslas's succession, and a
+  // deliberately light, unspoiled mention of the Great Schism as a forward
+  // hook into Era 5 ('religious-turmoil', still hasContent: false) — user
+  // was explicit not to go deep into the Schism itself here, just plant it.
+  // Title chosen from three options offered to the user (the other two:
+  // "One Crown, Two Popes" and "The Emperor's Last Robe"); user picked
+  // "Father of the Fatherland," the actual epithet coined at his funeral.
+  // - Death facts (evening of 29 Nov 1378, three hours after sunset,
+  //   pneumonia, Franciscan burial habit per his own wish rather than
+  //   ceremonial robes, 11-day lying-in-state, psalms in every church,
+  //   ~7,000-person funeral procession including ~500 black-clad burghers
+  //   with candles, arrival at St. Vitus Cathedral 15 Dec 1378, burial
+  //   before the high altar after an all-night vigil) confirmed via
+  //   WebSearch.
+  // - The "Father of the Fatherland" epithet's actual originator identified
+  //   and named directly, not left as a vague "a chronicler": Vojtěch
+  //   Raňkův of Ježov (Adalbertus Ranconis de Ericinio), a Czech
+  //   theologian and the only Czech ever to serve as rector of the
+  //   Sorbonne, who used the title in his own funeral oration — confirmed
+  //   via a Czech-language search pass. No verbatim text of the oration
+  //   itself turned up after two separate search passes (English and
+  //   Czech), so no quotes[] entry rather than forcing a paraphrase into
+  //   blockquote form.
+  // - Wenceslas's clean, uncontested succession (already King of Bohemia
+  //   since childhood via 'a-son-at-last-1361' and King of the Romans
+  //   since 1376 via 'crowned-while-his-father-watched-1376') is the
+  //   direct, intentional payoff of that earlier card's own closing line
+  //   ("no rival king, no unrecognized crown") — explicitly contrasted
+  //   here against Charles's own contested 1346 crown
+  //   ('the-crown-nobody-recognized-1346') rather than just asserted.
+  // - The territorial division among Charles's other sons/family
+  //   (Sigismund keeping Brandenburg per 'the-brandenburg-triumph-1373',
+  //   John receiving the new Duchy of Görlitz in Upper Lusatia, Moravia
+  //   split between cousins) confirmed via WebSearch and kept to one brief
+  //   sentence per the user's preference for a leaner card, not narrated
+  //   in depth.
+  // - The Schism thread: Gregory XI's death (27 March 1378, already
+  //   mentioned in 'three-kings-1378'), Urban VI's 8 April 1378 election,
+  //   and the rival cardinals' 20 September 1378 election of Clement VII
+  //   at Fondi (re-establishing a papal court in Avignon) all confirmed
+  //   via WebSearch — genuinely predates Charles's own death by a little
+  //   over two months, so "he didn't live to see it resolved" is accurate
+  //   rather than an approximation; the closing paragraph names the bare
+  //   fact of two rival popes without narrating the Schism's eventual
+  //   40-year course or resolution, per the user's explicit "只是带一下，
+  //   埋个伏笔" instruction — that belongs to Era 5's own cards.
+  // - relatedLandmarks: st-vitus-cathedral, for the burial itself, already
+  //   used for Wenceslas's own 1363 coronation in 'a-son-at-last-1361' and
+  //   several other cards in this arc.
+  // - No image yet.
+  {
+    slug: "father-of-the-fatherland-1378",
+    era: "kingdom-golden-age",
+    startYear: 1378.9,
+    images: [
+      "/history/father-of-the-fatherland-1378.webp",
+      "/history/father-of-the-fatherland-1378-banknote.webp",
+    ],
+    imageCaptions: [
+      {
+        en: "No crown, no jewels — just a friar's habit, a procession of candles, and a son already wearing the weight of two titles.",
+        cz: "Žádná koruna, žádné klenoty, jen mnišský hábit, průvod svící a syn, který už nesl tíhu dvou titulů.",
+        zh: "没有王冠，没有珠宝——只有一件僧袍、一支蜡烛送葬队伍，还有一个已经扛起两顶头衔重量的儿子。",
+      },
+      {
+        en: "Six hundred years later, his face still circulates through Czech hands, printed on the 100-koruna note issued in 1997.",
+        cz: "O šest set let později jeho tvář pořád koluje v českých rukou, vytištěná na stokorunové bankovce z roku 1997.",
+        zh: "六百多年后，他的面容依然在捷克人手中流通——就印在1997年发行的百元克朗纸币上。",
+      },
+    ],
+    year: {
+      en: "1378",
+      cz: "1378",
+      zh: "1378年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Father of the Fatherland",
+      cz: "Otec vlasti",
+      zh: "祖国之父",
+    },
+    hookLine: {
+      en: "Charles died in November 1378 having already arranged every crown that mattered. The one crisis he never got to fix had broken out two months before he did.",
+      cz: "Karel zemřel v listopadu 1378, když už měl zařízenou každou korunu, na které záleželo. Jediná krize, kterou už nestihl vyřešit, propukla dva měsíce před jeho vlastní smrtí.",
+      zh: "查理死于1378年11月，那时该安排的每一顶王冠，他都已经安排妥当。唯一一场他没能来得及处理的危机，就在他自己去世前两个月爆发了。",
+    },
+    summary: {
+      en: "Charles came home from Paris in early 1378 [[link:three-kings-1378]]with less than a year left to live[[/link]], worn out by decades of exactly the kind of travel, treaty-making, and dynasty-building this whole reign had been built on. He'd spent that reign doing what almost no medieval ruler managed: writing down the rules of his own succession in advance, in enough detail that nobody would have to guess what came next. [[link:the-golden-bull-1356]]The law governing how an emperor got chosen[[/link]] was his own. The son who'd inherit that title had already worn two crowns for two years. There wasn't much left to arrange. So Charles arranged it anyway, down to the last detail, the way he'd arranged almost everything else.\n\nOn the evening of 29 November 1378, three hours after sunset, Charles died in Prague, most likely of pneumonia. He'd asked to be buried simply, in a Franciscan friar's habit rather than the ivory-and-gold ceremonial robes he'd worn through four decades of coronations, and his wish was kept. His body lay in state for eleven days while psalms were sung in every church in the city. The funeral procession that finally carried him to [[link:dawn-over-prague-1344]]St. Vitus Cathedral[[/link]] on 15 December ran some seven thousand people deep, including roughly five hundred Prague burghers dressed in black and carrying candles. He was buried before the high altar after an all-night vigil. At the funeral, a Czech theologian named Vojtěch Raňkův of Ježov, the only Czech ever to serve as rector of the Sorbonne, called the dead emperor by a title no one had used for him before: Father of the Fatherland.\n\nHis son didn't have to fight for anything. Wenceslas had already been [[link:a-son-at-last-1361]]King of Bohemia[[/link]] since he was a toddler and [[link:crowned-while-his-father-watched-1376]]King of the Romans[[/link]] since he was fifteen. When Charles died, both titles simply continued, no election, no rival claimant, no city refusing to open its gates. It was the exact opposite of Charles's own [[link:the-crown-nobody-recognized-1346]]first crown[[/link]], won at seventeen and not fully recognized for three more years. The rest of the family got smaller pieces: Sigismund kept Brandenburg, the youngest son John received a newly created duchy in Upper Lusatia, and Moravia went to a pair of cousins. Wenceslas got the two titles that mattered most, and got them without having to ask anyone's permission.\n\nOne thing Charles didn't live to see resolved was the very institution he'd spent so much of his reign trying to anchor in one place. Just over two months before his death, a group of cardinals unhappy with the newly elected Pope Urban VI gathered at Fondi and chose a rival of their own, Clement VII, who set up a second papal court back in the city Charles had worked so hard to pull the papacy out of. Christendom now had two popes at once, each one calling the other illegitimate. Charles never had to decide which one to recognize. His son would inherit that question too, along with everything else.\n\nCharles's death didn't just end a reign. It ended the age historians would later call golden, the one this whole chapter has followed since 1346. What waited for Bohemia now, nobody in the room that December could yet say.",
+      cz: "Karel se na začátku roku 1378 vrátil z Paříže [[link:three-kings-1378]]s necelým rokem života před sebou[[/link]], vyčerpaný desetiletími přesně takového cestování, vyjednávání smluv a budování dynastie, na kterých celá tahle vláda stála. Většinu té vlády strávil tím, co se nepodařilo skoro žádnému středověkému panovníkovi: sepsal pravidla vlastního nástupnictví předem, a to natolik podrobně, že nikdo nemusel hádat, co bude dál. [[link:the-golden-bull-1356]]Zákon určující, jak se má volit císař[[/link]], byl jeho vlastní. Syn, který měl ten titul zdědit, nosil už dva roky rovnou dvě koruny. Nezbývalo toho už moc, co by se dalo zařídit. Karel to tedy zařídil stejně, do posledního detailu, jako skoro všechno ostatní.\n\nVečer 29. listopadu 1378, tři hodiny po západu slunce, Karel v Praze zemřel, nejspíš na zápal plic. Přál si prostý pohřeb, v hábitu františkánského mnicha místo slonovinově zlatého ceremoniálního roucha, ve kterém prošel čtyřmi desetiletími korunovací, a jeho přání bylo splněno. Tělo bylo vystaveno jedenáct dní, zatímco se ve všech pražských kostelích zpívaly žalmy. Pohřební průvod, který ho 15. prosince konečně donesl do [[link:dawn-over-prague-1344]]katedrály svatého Víta[[/link]], čítal na sedm tisíc lidí, mezi nimi zhruba pět set pražských měšťanů oblečených v černém, se svícemi v rukou. Po celonoční vigilii byl pohřben před hlavním oltářem. Na pohřbu ho český teolog Vojtěch Raňkův z Ježova, jediný Čech, který kdy zastával úřad rektora Sorbonny, nazval titulem, který na něj do té doby nikdo nepoužil: otec vlasti.\n\nJeho syn nemusel o nic bojovat. Václav byl už od útlého dětství [[link:a-son-at-last-1361]]českým králem[[/link]] a od patnácti let [[link:crowned-while-his-father-watched-1376]]římským králem[[/link]]. Když Karel zemřel, oba tituly prostě pokračovaly dál, žádná volba, žádný soupeřící uchazeč, žádné město odmítající otevřít brány. Byl to přesný opak Karlovy vlastní [[link:the-crown-nobody-recognized-1346]]první koruny[[/link]], vydobyté v sedmnácti letech a plně uznané až o tři roky později. Zbytek rodiny dostal menší podíly: Zikmund si podržel Braniborsko, nejmladší syn Jan dostal nově vytvořené vévodství v Horní Lužici a Morava připadla dvojici bratranců. Václav získal oba tituly, na kterých nejvíc záleželo, a získal je, aniž by musel kohokoli žádat o svolení.\n\nJedna věc, kterou se Karel nedožil vyřešené, byla přímo ta instituce, kterou se po většinu své vlády snažil ukotvit na jednom místě. Něco přes dva měsíce před svou smrtí se skupina kardinálů, nespokojených s nově zvoleným papežem Urbanem VI., sešla ve Fondi a zvolila si vlastního protipapeže, Klementa VII., který zřídil druhý papežský dvůr zpátky v tom městě, ze kterého se ho Karel tak usilovně snažil vymanit. Křesťanstvo mělo teď najednou dva papeže, každý druhého prohlašoval za neoprávněného. Karel se nikdy nemusel rozhodnout, kterého z nich uznat. Tuhle otázku po něm zdědil, spolu se vším ostatním, i jeho syn.\n\nKarlova smrt neukončila jen jednu vládu. Ukončila věk, kterému historikové později začali říkat zlatý, ten, který tahle kapitola sleduje od roku 1346. Co teď Čechy čekalo, to v prosinci 1378 ještě nikdo v místnosti nedokázal říct.",
+      zh: "1378年初，查理从巴黎回来，[[link:three-kings-1378]]此时距离他生命的尽头已经不到一年[[/link]]，几十年这样的奔波、缔约、经营王朝，早已耗尽了他的精力——而这整个统治生涯，恰恰就是靠着这些搭起来的。他花了大半辈子做了一件几乎没有哪位中世纪君主真正做成过的事：提前把自己的继承规则写得清清楚楚，细到没人需要再去猜接下来会发生什么。[[link:the-golden-bull-1356]]规定皇帝该如何选出的那部法律[[/link]]，就是他自己写的。那位将要继承皇位的儿子，此时已经身兼两顶王冠两年了。已经没什么可安排的了。可查理还是照样安排了一遍，事无巨细，跟他这辈子安排别的事情一模一样。\n\n1378年11月29日晚，日落三小时后，查理在布拉格去世，很可能死于肺炎。他生前曾要求葬礼从简，穿一件方济各会修士的粗布会服下葬，而不是他四十年加冕生涯里穿惯了的那身象牙金袍，这个愿望后来也真的被遵照执行。遗体停灵十一天，布拉格城内所有教堂都在为他吟唱圣咏。12月15日，送葬队伍终于把他送进了[[link:dawn-over-prague-1344]]圣维特大教堂[[/link]]，队伍长达约七千人，其中大约五百名布拉格市民身穿黑衣、手持蜡烛。经过一整夜的守灵后，他被安葬在了主祭坛前。葬礼上，一位名叫维捷赫·拉尼库夫·冯·耶若夫的捷克神学家——史上唯一一位担任过巴黎索邦大学校长的捷克人——用一个此前从没人用过的称号称呼这位已故的皇帝：祖国之父。\n\n他的儿子什么都不用去争。瓦茨拉夫从幼年起就已经是[[link:a-son-at-last-1361]]波希米亚国王[[/link]]，十五岁起又成了[[link:crowned-while-his-father-watched-1376]]罗马人的国王[[/link]]。查理一去世，这两个头衔就直接延续了下去，没有选举，没有对立候选人，也没有哪座城市拒绝打开城门。这跟查理自己当年那顶[[link:the-crown-nobody-recognized-1346]]十七岁赢来的王冠[[/link]]——足足过了三年才算真正被完全承认——恰恰是两个极端。家族里其他人分到的都是小块：西吉斯蒙德保住了勃兰登堡，最小的儿子约翰得到了一个新设立的上卢萨蒂亚公国，摩拉维亚则分给了两位堂兄弟。瓦茨拉夫拿到的，是那两个最要紧的头衔，而且拿的时候，不需要征求任何人的同意。\n\n有一件事，查理没能活着看到它了结——恰恰是他统治生涯里花了大量心力想要把它固定在一个地方的那个机构本身。就在他去世前两个多月，一批对新当选的教皇乌尔班六世不满的枢机主教，聚集在丰迪，另立了自己的对立教皇克雷芒七世，重新在那座查理曾经费尽心力把教廷拉出来的城市，也就是阿维尼翁，设立了第二个教廷。基督教世界一下子有了两位教皇，彼此都指责对方名不正言不顺。查理终究没有必要去做选边站的决定。这个问题，连同其他一切，都留给了他的儿子去继承。\n\n查理的死，结束的不只是一段统治。它结束了后来的史学家称之为\"黄金时代\"的这段岁月——也就是这整章从1346年起一路跟随的这段岁月。波希米亚接下来将迎来什么，1378年12月，站在那个房间里的人，谁也说不清楚。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Where Charles was buried before the high altar on 15 December 1378, after a funeral procession some seven thousand people deep.",
+          cz: "Místo, kde byl Karel 15. prosince 1378 pohřben před hlavním oltářem, po pohřebním průvodu čítajícím na sedm tisíc lidí.",
+          zh: "1378年12月15日，查理在这里被安葬于主祭坛前，送葬队伍长达约七千人。",
+        },
+      },
+      {
+        slug: "monument-to-charles-iv-1783353104539",
+        relation: {
+          en: "Unveiled in Old Town in 1849, nearly five centuries after his death, proof the title Vojtěch Raňkův gave him at his own funeral never really faded.",
+          cz: "Odhalený na Starém Městě v roce 1849, skoro pět set let po jeho smrti, důkaz, že titul, který mu na pohřbu dal Vojtěch Raňkův, nikdy doopravdy nevybledl.",
+          zh: "1849年在老城揭幕，距他去世将近五百年——证明维捷赫·拉尼库夫在葬礼上给他的那个称号，从没真正褪色过。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Charles_IV,_Holy_Roman_Emperor",
+  },
+  // First real content card for Era 5 ('religious-turmoil', 1378-1526) —
+  // hasContent flipped to true in historyEras.js in the same pass. User
+  // requested a direct, unfancy title ("直白的标题": "教廷分裂") rather than
+  // this project's usual wordplay/pun titles, matching how the card itself
+  // opens the era on a plain, blunt note.
+  // - Wenceslas's own age (17, born 26 Feb 1361) and Bohemia's alignment
+  //   with Urban VI (matching the wider Empire, England, Poland, Hungary)
+  //   confirmed via WebSearch.
+  // - Genuine source conflict, resolved in favor of the more detailed
+  //   account: one WebSearch synthesis claimed Charles himself arranged
+  //   Jan Očko's cardinal promotion in exchange for his resignation as
+  //   archbishop, clearing the seat for his nephew Jan of Jenštejn. A
+  //   dedicated Czech-language biographical chapter on Wenceslas IV
+  //   (stavitele-katedral.cz, part 5, specifically covering 1378-1393)
+  //   explicitly states the opposite: the Schism broke out only about two
+  //   months before Charles's own death, leaving him "no time to react,"
+  //   and Očko's promotion/resignation was not Charles's own arrangement.
+  //   Followed the more specific, dedicated source — this card presents
+  //   the timing as a striking coincidence, not a deliberate final act of
+  //   Charles's own succession planning.
+  // - Wenceslas's own wavering position (initial Rome alignment, followed
+  //   by quietly keeping a channel open to the Avignon side rather than
+  //   committing) and its consequences (mutual distrust from both sides,
+  //   and never making the traditional Rome journey for an imperial
+  //   coronation, remaining King of the Romans for life rather than ever
+  //   being crowned Emperor) both drawn from that same dedicated Czech
+  //   source. That source frames the failed Rome journey as a consequence
+  //   of the isolation his indecision caused; kept that framing rather
+  //   than asserting the Schism as the sole cause, since medieval
+  //   politics rarely has just one.
+  // - Jan Očko of Vlašim: Charles's own longtime friend and advisor (per
+  //   a Czech article's own title, "rádce a přítel Karla IV."), Bohemia's
+  //   first-ever cardinal (18 September 1378), resigned as archbishop 30
+  //   November 1378 — one day after Charles's death, a detail independent
+  //   sources agree on even where they disagree on causation. Succeeded
+  //   by his nephew Jan of Jenštejn, already serving as Wenceslas's own
+  //   chancellor — an unspoiled forward-hook only: this project's general
+  //   knowledge of Jenštejn's later, famous falling-out with Wenceslas
+  //   (tied to the eventual John of Nepomuk legend) is deliberately not
+  //   referenced here, left for whenever the timeline actually reaches it.
+  // - The University of Prague / growing disillusionment thread (light,
+  //   deliberately unspecific forward-hook toward the still-distant Hus
+  //   arc) sourced from a less detailed English-language search result
+  //   than the Wenceslas-specific Czech chapter above (which explicitly
+  //   said it found no mention of the university's role in this specific
+  //   period) — kept vague and forward-looking rather than asserting
+  //   specifics not corroborated by the more detailed source.
+  // - relatedLandmarks: st-vitus-cathedral, the actual seat of the
+  //   archbishopric whose transition this card describes, already used
+  //   for Charles's own burial in the previous card.
+  {
+    slug: "the-papal-schism-1378",
+    era: "religious-turmoil",
+    startYear: 1378.95,
+    images: ["/history/the-papal-schism-1378.webp"],
+    imageCaptions: [
+      {
+        en: "Two envoys, two seals, one seventeen-year-old expected to know which one was real.",
+        cz: "Dva vyslanci, dvě pečeti, a jeden sedmnáctiletý chlapec, po kterém se chtělo, aby věděl, která z nich je pravá.",
+        zh: "两位使者，两枚封印，还有一个十七岁的少年，所有人都指望他能分清哪一枚才是真的。",
+      },
+    ],
+    year: {
+      en: "1378–1379",
+      cz: "1378–1379",
+      zh: "1378年－1379年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Papal Schism",
+      cz: "Papežské schizma",
+      zh: "教廷分裂",
+    },
+    hookLine: {
+      en: "Charles left his son two crowns and one crisis he'd run out of time to fix. Wenceslas, seventeen years old, tried to keep both popes happy at once. It cost him more than either one.",
+      cz: "Karel synovi zanechal dvě koruny a jednu krizi, kterou už nestihl vyřešit. Sedmnáctiletý Václav se pokoušel vyhovět oběma papežům najednou. Stálo ho to víc, než kdyby si vybral jednoho z nich.",
+      zh: "查理给儿子留下了两顶王冠，还有一场他没来得及处理的危机。十七岁的瓦茨拉夫想同时讨好两位教皇。结果这么做，代价比选边站还大。",
+    },
+    summary: {
+      en: "Wenceslas inherited two crowns in November 1378, cleanly and without a fight, exactly as [[link:father-of-the-fatherland-1378]]his father had spent years arranging[[/link]]. He also inherited the one crisis Charles had run out of time to fix. Just over two months before Charles died, a group of cardinals unhappy with the newly elected Pope Urban VI had gathered at Fondi and set up a rival pope of their own, Clement VII, in Avignon. Christendom now had two popes, and every ruler in Europe had to decide which one was real. Wenceslas was seventeen.\n\nAt first, the answer looked simple. Bohemia followed the same line as the rest of the Empire, England, Poland, and Hungary: Urban VI, in Rome, was the legitimate pope. But simple didn't stay simple for long. Rather than commit firmly, Wenceslas started quietly keeping a channel open to the other side too, hedging his position instead of settling it. It wasn't caution so much as indecision, and it showed.\n\nPrague's own church leadership changed hands at almost the same moment, in a coincidence of timing nobody could have planned. That September, Urban VI made Jan Očko of Vlašim, Archbishop of Prague and one of Charles's own oldest friends and advisors, into Bohemia's first-ever cardinal. The promotion freed up the archbishop's seat, and on 30 November 1378, one day after Charles's death, Očko stepped down. His nephew, Jan of Jenštejn, already serving as Wenceslas's own chancellor, took the archbishopric in his place, an ally installed at the head of Prague's church just as the new king needed one most. It wouldn't stay that way forever, but for now, at least, one relationship in Wenceslas's life was still simple.\n\nThe schism itself never got any simpler, and Wenceslas's own fence-sitting cost him more than it saved. Neither side ever fully trusted him, and the isolation that followed had a concrete price: unlike his father, who'd traveled all the way to Rome to be [[link:crowned-in-the-eternal-city-1355]]crowned emperor there in person[[/link]], Wenceslas never made that journey at all. He held the title King of the Romans for the rest of his life. Emperor was a word that never quite attached itself to his own name.\n\nNone of it went away. The same indecision that kept both popes guessing would follow Wenceslas through the rest of his reign, and the disillusionment a broken, visibly self-interested Church left behind found a receptive audience close to home, inside the very university [[link:central-europes-first-university-1348]]his father had built[[/link]]. That particular story hadn't started yet. It wouldn't take long.",
+      cz: "Václav v listopadu 1378 zdědil dvě koruny, čistě a bez boje, přesně tak, jak si to [[link:father-of-the-fatherland-1378]]jeho otec léta předem zařizoval[[/link]]. Zdědil ale i tu jedinou krizi, kterou už Karel nestihl vyřešit. Něco přes dva měsíce před Karlovou smrtí se skupina kardinálů, nespokojených s nově zvoleným papežem Urbanem VI., sešla ve Fondi a zvolila si vlastního protipapeže, Klementa VII., v Avignonu. Křesťanstvo mělo teď dva papeže, a každý panovník v Evropě musel rozhodnout, který z nich je ten pravý. Václavovi bylo sedmnáct.\n\nZpočátku vypadala odpověď jednoduše. Čechy se přidaly ke stejné linii jako zbytek Říše, Anglie, Polsko a Uhry: papežem je Urban VI. v Římě. Jednoduché to ale dlouho nezůstalo. Místo aby se k tomu pevně přihlásil, začal si Václav potichu udržovat kanál i k druhé straně, a svou pozici spíš zajišťoval, než aby ji uzavřel. Nešlo ani tak o opatrnost, jako spíš o nerozhodnost, a bylo to znát.\n\nVedení pražské církve se změnilo skoro ve stejnou chvíli, náhodou, kterou nikdo nemohl naplánovat. Toho září jmenoval Urban VI. Jana Očka z Vlašimi, pražského arcibiskupa a jednoho z Karlových nejstarších přátel a rádců, prvním českým kardinálem vůbec. Povýšení uvolnilo arcibiskupský stolec, a 30. listopadu 1378, den po Karlově smrti, Očko odstoupil. Na jeho místo nastoupil jeho synovec, Jan z Jenštejna, který už předtím sloužil jako Václavův vlastní kancléř, spojenec v čele pražské církve právě ve chvíli, kdy ho nový král nejvíc potřeboval. Nezůstalo to tak navždy, ale prozatím byl aspoň jeden vztah ve Václavově životě pořád jednoduchý.\n\nSchizma samo o sobě jednodušší nikdy nebylo, a Václavovo vlastní vyčkávání ho stálo víc, než mu vyneslo. Ani jedna strana mu nikdy úplně nevěřila, a z té izolace vzešla konkrétní cena: na rozdíl od otce, který dojel až do Říma, aby se tam nechal osobně [[link:crowned-in-the-eternal-city-1355]]korunovat císařem[[/link]], Václav tu cestu nikdy nepodnikl. Titul římského krále nosil do konce života. Slovo císař se k jeho jménu nikdy doopravdy nepřipojilo.\n\nNic z toho nezmizelo. Stejná nerozhodnost, která držela oba papeže v nejistotě, provázela Václava po zbytek jeho vlády, a rozčarování, které za sebou zanechala rozbitá, viditelně sobecká církev, si našlo vnímavé publikum kousek od domova, přímo na univerzitě, [[link:central-europes-first-university-1348]]kterou postavil jeho otec[[/link]]. Ten konkrétní příběh ještě nezačal. Netrvalo by to dlouho.",
+      zh: "1378年11月，瓦茨拉夫干净利落地继承了两顶王冠，没有半点波折，正如[[link:father-of-the-fatherland-1378]]他父亲早已提前安排好的那样[[/link]]。可他同时也继承了那件查理自己没能来得及处理的危机。就在查理去世前两个多月，一批对新当选的教皇乌尔班六世不满的枢机主教，聚集在丰迪，另立了自己的对立教皇克雷芒七世，坐镇阿维尼翁。基督教世界一下子有了两位教皇，欧洲每一位统治者都得选边站，认定哪一位才是真正的教皇。瓦茨拉夫那年十七岁。\n\n一开始，答案看起来很简单。波希米亚跟帝国其余各方——英格兰、波兰、匈牙利——站在了同一边：罗马的乌尔班六世才是名正言顺的教皇。可这份简单没能维持太久。瓦茨拉夫没有坚定地表态，反倒悄悄跟另一边也保持着联系，与其说是把立场定下来，不如说是在给自己留后路。与其说是谨慎，不如说是优柔寡断，而且这一点表现得相当明显。\n\n布拉格教会自己的领导层，几乎在同一时刻也发生了更迭，一个谁都没法提前安排好的巧合。那年9月，乌尔班六世把布拉格大主教扬·奥奇科·兹·弗拉希米——查理最年长的朋友和顾问之一——擢升为波希米亚历史上第一位枢机主教。这次晋升腾出了大主教的位置，1378年11月30日，也就是查理去世后的第二天，奥奇科正式卸任。接替他的，是他的侄子扬·冯·耶什滕，此前已经在担任瓦茨拉夫自己的宫廷大臣——恰好在新国王最需要的时候，一位盟友坐上了布拉格教会的最高位置。这份关系不会永远这么简单，但至少眼下，瓦茨拉夫生活里总算还有一件事没那么复杂。\n\n分裂本身从没变得简单过，瓦茨拉夫这种脚踩两只船的做法，付出的代价比得到的多。两边都从没真正信任过他，而这种被孤立的处境，也换来了一个实实在在的代价：不像他父亲当年亲自远赴罗马、[[link:crowned-in-the-eternal-city-1355]]在那里加冕为皇帝[[/link]]，瓦茨拉夫终其一生都没能走完这趟旅程。他一辈子只挂着\"罗马人的国王\"这个头衔。\"皇帝\"这个词，始终没能真正落到他自己名下。\n\n这一切都没有就此消失。这种让两位教皇都摸不透他心思的优柔寡断，将伴随瓦茨拉夫走完他统治的余下岁月；而一个四分五裂、明显只顾自身利益的教会所留下的失望情绪，就在离家不远的地方，找到了一群愿意接纳它的听众——就在他父亲亲手建起的那所[[link:central-europes-first-university-1348]]大学[[/link]]里。那个具体的故事，眼下还没开始。但也不会等太久。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Seat of Prague's own archbishopric, which changed hands between Jan Očko and his nephew Jan of Jenštejn at almost the exact moment Wenceslas took the throne.",
+          cz: "Sídlo pražského arcibiskupství, které změnilo majitele mezi Janem Očkem a jeho synovcem Janem z Jenštejna téměř přesně ve chvíli, kdy Václav nastoupil na trůn.",
+          zh: "布拉格大主教辖区的所在地——几乎就在瓦茨拉夫登基的同一时刻，这个位置从扬·奥奇科手中交接给了他的侄子扬·冯·耶什滕。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Western_Schism",
+  },
+  // Era 5's second card. Replaces the earlier 'the-princess-who-sent-
+  // ideas-home-1382' (deleted 2026-09-01) — the user felt that card's
+  // central event (Anne of Bohemia's English marriage) didn't tie closely
+  // enough to this era's main thread, and asked instead for a card built
+  // around Wenceslas's own governing style, using the opening paragraph
+  // originally drafted for 'the-priest-thrown-into-the-river-1393' (moved
+  // here in the same pass, with that card's own opening rewritten to
+  // stand on its own — see the note there) as this card's core, plus a
+  // brief, one-paragraph mention of the English marriage rather than the
+  // full treatment the deleted card gave it. The England/Wycliffe/Oxford
+  // thread that card had built out (its own real value, per the earlier
+  // exchange) was cut along with it — if Jan Hus's own future card needs
+  // that seed planted, it'll need to be re-added there instead, since it
+  // no longer exists anywhere in the file after this edit.
+  // - Governing-style specifics (preference for townsmen and minor,
+  //   inexperienced nobles over the established aristocracy his father
+  //   relied on, alienating Bohemia's great lords, and the resulting
+  //   nickname "Wenceslas the Lazy" that stuck for centuries) confirmed
+  //   via WebSearch.
+  // - The Anne of Bohemia marriage paragraph is a deliberately trimmed
+  //   version of the deleted card's own opening: date (20 January 1382)
+  //   and Urban VI's political motive kept, the dowry/Wycliffe/Oxford
+  //   material dropped entirely per the user's "一笔带过" instruction.
+  // - Closing line is a deliberate forward-hook into 'a-throne-on-shaky-
+  //   ground-1386' (what Wenceslas held vs. what he was losing), not a
+  //   restatement of that card's own content.
+  {
+    slug: "the-indecisive-king-1382",
+    era: "religious-turmoil",
+    startYear: 1382,
+    images: ["/history/the-indecisive-king-1382.webp"],
+    imageCaptions: [
+      {
+        en: "A crooked crown, a full cup, and a circle of men who owed him everything and asked him for nothing hard.",
+        cz: "Nakřivo posazená koruna, plný pohár a kruh mužů, kteří mu za všechno vděčili a nikdy po něm nechtěli nic těžkého.",
+        zh: "一顶歪戴的王冠，一杯斟满的酒，还有一圈对他有求必应、却从不为难他的人。",
+      },
+    ],
+    year: {
+      en: "1378–1382",
+      cz: "1378–1382",
+      zh: "1378年－1382年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Indecisive \"Lazy King\"",
+      cz: "Nerozhodný \"Lenivý král\"",
+      zh: "优柔寡断的\"懒王\"",
+    },
+    hookLine: {
+      en: "Wenceslas could waver for years on a question that mattered. Who he actually chose to rule with told its own, less forgiving story.",
+      cz: "Václav dokázal roky váhat v otázce, na které záleželo. To, s kým se doopravdy rozhodl vládnout, vyprávělo vlastní, mnohem méně shovívavý příběh.",
+      zh: "遇上真正要紧的大事，瓦茨拉夫能犹豫上好几年。可他实际选择了什么样的人来共同治理国家，讲述的却是另一个远没那么宽容的故事。",
+    },
+    summary: {
+      en: "Wenceslas's own indecision over [[link:the-papal-schism-1378]]which pope to recognize[[/link]] wasn't an isolated lapse. It was becoming the pattern of his whole reign. Contemporary chronicles, several of them written by German princes with their own reasons to want him gone, describe a king increasingly given to drink, more interested in hunting than in the business of ruling, and prone to sudden, violent rages that alienated even his own allies. How much of that reputation was earned and how much was manufactured by men already plotting his downfall is hard to untangle completely.\n\nOne appetite wasn't propaganda at all: Wenceslas was a genuine, lifelong lover of animals. In 1382, he moved into a newly built residence at the King's Court, on the site of today's Náměstí Republiky, bringing his lions there from Prague Castle along with their keeper, a man named Matěj. He built them a proper enclosure and kept tigers, leopards, and bears alongside them, and by royal order, each animal received two pounds of fresh beef or veal, delivered daily, no exceptions. Out at the royal hunting reserve, deer, wild boar, and bison roamed for whenever he wanted live game instead of a caged one.\n\nWhat's harder to dismiss as hostile propaganda is who he actually chose to govern with. Wenceslas filled his court with townsmen and minor, inexperienced nobles rather than the established aristocratic families his father had relied on, men he trusted precisely because they owed him everything and threatened no one. It won him a base of loyalty among the lower nobility and burghers. It also convinced Bohemia's greater lords that the king had no real use for them, and gave them one more reason, on top of everything else, to start looking for a replacement. Contemporaries eventually settled on a nickname that stuck for centuries afterward: Wenceslas the Lazy.\n\nNot everything he did in these years was neglect. In 1382, he married his own sister Anne off to Richard II of England, a match Pope Urban VI pushed hard for as a way of binding England to [[link:the-papal-schism-1378]]his own side of the Schism[[/link]]. It was a rare moment of real diplomatic follow-through. Bohemia's own nobility, watching everything else, wasn't especially reassured by one good marriage.\n\nThe family that remained at home worried him plenty on its own. What Wenceslas actually held, and what he was slowly losing, turned out to be two very different questions.",
+      cz: "Václavova nerozhodnost v otázce [[link:the-papal-schism-1378]]kterého papeže uznat[[/link]] nebyla ojedinělým zaváháním. Stávala se vzorcem celé jeho vlády. Dobové kroniky, sepsané mimo jiné německými knížaty, kteří měli vlastní důvody chtít ho pryč, popisují krále čím dál víc podléhajícího pití, víc zaujatého lovem než vládnutím, a náchylného k náhlým, prudkým výbuchům zuřivosti, které odcizovaly i jeho vlastní spojence. Kolik z té pověsti bylo zasloužené a kolik vyrobené muži, kteří už kuli pikle na jeho pád, se dnes těžko úplně rozplete.\n\nJeden druh vášně vůbec nebyl propagandou: Václav byl opravdový, celoživotní milovník zvířat. V roce 1382 se přestěhoval do nově postavené rezidence na Králově dvoře, v místech dnešního Náměstí Republiky, a přivezl si tam z Pražského hradu své lvy i s jejich chovatelem, mužem jménem Matěj. Nechal jim postavit pořádný lvinec a choval vedle nich i tygry, leopardy a medvědy, a podle královského nařízení každé zvíře denně dostávalo dvě libry čerstvého hovězího nebo telecího masa, bez výjimky. V královské oboře zase pobíhala jelení, prasečí a zubří zvěř, pro chvíle, kdy chtěl místo klece živou kořist.\n\nHůř se dá odbýt jako nepřátelská propaganda to, s kým se doopravdy rozhodl vládnout. Václav si dvůr obklopoval měšťany a drobnou, nezkušenou šlechtou, místo zavedených šlechtických rodů, na které spoléhal jeho otec, muži, kterým důvěřoval právě proto, že mu vděčili za všechno a nikomu neohrožovali postavení. Vysloužilo mu to oporu mezi nižší šlechtou a měšťanstvem. Zároveň to velké české pány přesvědčilo, že pro ně král nemá žádné skutečné využití, a dalo jim to další důvod, ke všemu ostatnímu, začít se ohlížet po náhradě. Současníci si nakonec ustálili přezdívku, která se držela ještě celá staletí poté: Václav Lenivý.\n\nNe všechno, co v těchto letech dělal, bylo zanedbávání. V roce 1382 provdal vlastní sestru Annu za anglického Richarda II., sňatek, za kterým si papež Urban VI. tvrdě stál jako za způsobem, jak svázat Anglii s [[link:the-papal-schism-1378]]jeho vlastní stranou schizmatu[[/link]]. Byla to vzácná chvíle skutečné diplomatické důslednosti. Českou šlechtu, která sledovala všechno ostatní, jedno dobré manželství zvlášť neuklidnilo.\n\nRodina, která zůstala doma, jí dělala starosti víc než dost sama o sobě. Co Václav doopravdy držel a co pomalu ztrácel, se nakonec ukázaly být dvě velmi odlišné otázky.",
+      zh: "瓦茨拉夫在[[link:the-papal-schism-1378]]该承认哪位教皇[[/link]]这个问题上的犹豫不决，并不是一次孤立的失误。这正在变成他整个统治的常态。同时代的编年史——其中好几部出自德意志诸侯之手，他们自己也有理由盼着他垮台——把他描绘成一个越来越沉溺于酒精、对打猎的兴趣远胜过理政、动不动就勃然大怒、连自己的盟友都容易得罪的国王。这份名声里到底有多少是他自己挣来的，又有多少是那些早就在密谋扳倒他的人刻意炮制出来的，如今已经很难彻底厘清。\n\n有一种爱好绝不是敌对宣传的产物：瓦茨拉夫是一位真心实意、终生痴迷动物的君主。1382年，他搬进了新建的王宫——王庭（Králův dvůr），也就是今天共和国广场所在的位置——还把自己养的狮子连同驯养员马捷伊一起从布拉格城堡搬了过去。他专门为它们修建了一座像样的狮舍，除了狮子，还养着老虎、豹子和熊，按王室规定，每头动物每天都要供应两磅新鲜的牛肉或小牛肉，一天都不能少。而在皇家狩猎场里，则是鹿群、野猪和野牛自由奔跑——留给他想猎活物而不是看笼中兽的时候。\n\n更难被当成敌对宣传一笔带过的，是他实际选择了什么样的人来共同治理国家。瓦茨拉夫的宫廷里挤满了市民和资历尚浅的小贵族，而不是他父亲当年倚重的那些名门望族——这些人正因为一切都仰仗国王、对谁都构不成威胁，才格外得他信任。这为他在下层贵族和市民阶层中赢得了一批拥趸，却也让波希米亚的那些大领主们确信：这位国王压根用不上他们。于是，在其他所有理由之外，又多了一条让他们开始物色替代人选的理由。同时代人后来给他起了一个流传了好几个世纪的绰号：\"懒王瓦茨拉夫\"。\n\n这几年里，他倒不是每件事都在疏忽。1382年，他把自己的妹妹安妮嫁给了英格兰的理查二世——教皇乌尔班六世大力促成的一桩婚事，为的是把英格兰绑到[[link:the-papal-schism-1378]]他自己这一边的教廷分裂阵营[[/link]]里。这算是他少有的一次真正的外交落实。可波希米亚的贵族们，冷眼看着其他一切，并没有因为这一桩不错的婚事就安下心来。\n\n留在国内的家人，光是自己就够让他操心的了。瓦茨拉夫究竟握着什么、又在不知不觉中失去什么，最后被证明是两个截然不同的问题。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "stromovka-park",
+        relation: {
+          en: "The royal hunting reserve Wenceslas retreated to again and again, preferring the hunt to the business of ruling.",
+          cz: "Královská obora, kam se Václav znovu a znovu uchyloval, protože dával lovu přednost před vládnutím.",
+          zh: "瓦茨拉夫一次又一次躲进的皇家狩猎场——比起处理政务，他更愿意待在这里打猎。",
+        },
+      },
+      {
+        slug: "namesti-republiky",
+        relation: {
+          en: "Site of the old King's Court, where Wenceslas kept his lions, tigers, leopards, and bears, each fed two pounds of fresh meat a day by royal order.",
+          cz: "Místo bývalého Králova dvora, kde Václav choval své lvy, tygry, leopardy a medvědy, z nichž každý dostával podle královského nařízení denně dvě libry čerstvého masa.",
+          zh: "旧日王庭的所在地——瓦茨拉夫在这里养着他的狮子、老虎、豹子和熊，按王室规定，每头动物每天都要供应两磅新鲜肉食。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Wenceslaus_IV_of_Bohemia",
+  },
+  // Era 5's third card, outline supplied directly by the user (translated
+  // from English Wikipedia's own summary of Wenceslaus IV's reign,
+  // covering the Rožmberk-led noble opposition, the two later
+  // imprisonments during the Moravian Margrave Wars, Charles's territorial
+  // division among his sons/relatives, and Sigismund's 1386 marriage into
+  // Hungary). Originally also previewed the Rožmberk-led nobility conflict
+  // and the two future imprisonments as a closing forward-hook; the user
+  // asked (2026-09-02) to cut that material out of this card entirely,
+  // reserving it for its own full, dedicated 1394 card instead of a
+  // preview-then-detail structure — this card now stays narrowly on the
+  // family/territorial angle only, closing on the Sigismund/Moravia squeeze
+  // without gesturing at the nobility at all. The research already done on
+  // the cut material is kept here so it isn't lost before that future card
+  // gets written: the 1394 capture happened 8 May, led by Henry III of
+  // Rožmberk (linkable to 'who-are-the-vitkovci-1276' as an "our old
+  // acquaintance" callback when that card is written) along with Ota of
+  // Bergov and William of Landštejn, holding Wenceslas prisoner in Austria
+  // under his own cousin Jobst; a second imprisonment followed in Vienna
+  // in 1402, this one orchestrated by Sigismund himself — both dates
+  // confirmed via WebSearch. Not yet the fuller Rožmberk-family card
+  // flagged as a standing reminder elsewhere in this project's notes for
+  // whenever Oldřich II specifically becomes a protagonist.
+  // - Territorial division: matches what 'father-of-the-fatherland-1378'
+  //   already established (Sigismund/Brandenburg, John/Görlitz, Jobst
+  //   and Prokop/Moravia) but adds a genuinely new detail not covered
+  //   there — Wenceslas inheriting the Duchy of Luxembourg itself in
+  //   1383 on the death of his uncle Wenceslas I — confirmed via the
+  //   user's own supplied text and not contradicted by any search pass.
+  // - Sigismund's Hungarian marriage: the user's own text said "1386,
+  //   married Mary of Anjou, became King of Hungary." A WebSearch pass
+  //   refined the actual sequence — married Mary in 1385, the Treaty of
+  //   Győr in April 1386 confirmed him as her future co-ruler, and the
+  //   formal coronation as King of Hungary followed on 31 March 1387 —
+  //   and this card presents that fuller sequence rather than compressing
+  //   it to a single 1386 "became king" claim, while keeping 1386 (the
+  //   Győr treaty) as the card's own year anchor per the user's request.
+  // - No quotes[]: this is a survey/overview card, not built around one
+  //   dramatic scene or a findable primary-source line.
+  // - No relatedLandmarks: the events described play out across Bohemia,
+  //   Moravia, and Hungary generally, with no single Czech-lands site to
+  //   anchor the card to.
+  {
+    slug: "a-throne-on-shaky-ground-1386",
+    era: "religious-turmoil",
+    startYear: 1386,
+    images: ["/history/a-throne-on-shaky-ground-1386.webp"],
+    imageCaptions: [
+      {
+        en: "The younger, better-looking brother held up a second crown. Wenceslas didn't bother hiding what he thought of that.",
+        cz: "Mladší, hezčí bratr zvedl do vzduchu druhou korunu. Václav ani nezkoušel skrývat, co si o tom myslí.",
+        zh: "那位更年轻、也更俊美的弟弟高举起第二顶王冠。瓦茨拉夫连掩饰自己想法的兴致都没有。",
+      },
+    ],
+    year: {
+      en: "1383–1387",
+      cz: "1383–1387",
+      zh: "1383年－1387年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Throne on Shaky Ground",
+      cz: "Vratký trůn",
+      zh: "岌岌可危的王权",
+    },
+    hookLine: {
+      en: "Wenceslas held two crowns and outranked every brother he had. In practice, he was the one running out of ground to stand on.",
+      cz: "Václav držel dvě koruny a na papíře převyšoval každého ze svých bratrů. V praxi to byl on, komu docházela půda pod nohama.",
+      zh: "瓦茨拉夫身兼两顶王冠，头衔上压过自己所有的兄弟。可实际上，脚下的地盘正在一点点从他手里溜走的，恰恰是他自己。",
+    },
+    summary: {
+      en: "Drinking, neglecting the throne, surrounding himself with flatterers who owed him everything, those were problems Wenceslas brought on himself. There was another one, though, that wasn't his fault at all: blame that one on his own father. [[link:father-of-the-fatherland-1378]]Charles had divided his holdings[[/link]] among his sons and relatives before he ever died, and the division held. Wenceslas kept Bohemia, the crown that mattered most, but his half-brother Sigismund held Brandenburg outright, their younger brother John got a newly created duchy at Görlitz in Upper Lusatia, Moravia belonged to their cousins Jobst and Prokop, and their uncle Wenceslas I already sat as Duke of Luxembourg. The young king did add one more title in 1383, inheriting the Duchy of Luxembourg itself when that same uncle died. It didn't come close to making up the difference. Whatever their father had once ruled as a single, coherent whole, his sons now held in pieces, and the biggest piece belonged to Wenceslas in name more than in practice.\n\nThat same 1383 also brought a very different kind of decision, one that would define the rest of his reign: Wenceslas quietly abandoned the Romzug, the long formal journey to Rome that would have gotten him crowned emperor in person, the way his own father had been. Part of it was caution, provoking France while the Schism was still raw seemed like a bad idea. Part of it, by every account, was simply Wenceslas: hunting and drinking were considerably closer to hand than a months-long trek over the Alps for a crown. He never went. For the rest of his life, he'd remain King of the Romans, one word short of the title his father had actually held.\n\nIn 1386, one of those pieces grew considerably larger. Sigismund, already margrave of Brandenburg, had married Mary, Queen of Hungary, the year before, and that April, the Treaty of Győr confirmed him as her future co-ruler, a claim made formal with his own coronation as King of Hungary less than a year later. Bohemia's own Luxembourg family now had two kings in it, and the younger one was rapidly becoming the more secure of the two, his attention already drifting east, toward a kingdom that would end up mattering more to European history than the brother he'd left behind.\n\nWenceslas held the title that outranked his brother's on paper, King of the Romans as well as King of Bohemia. In practice, he was watching his own inheritance shrink from every direction at once, hemmed in by cousins in Moravia and a brother who no longer needed anything from him at all.",
+      cz: "Pití, zanedbávání trůnu, obklopování se pochlebovači, kteří mu za všechno vděčili, to byly potíže, které si Václav zavinil sám. Byl tu ale ještě jeden problém, za který vůbec nemohl: ten měl na svědomí jeho vlastní otec. [[link:father-of-the-fatherland-1378]]Karel rozdělil svůj majetek[[/link]] mezi syny a příbuzné ještě před vlastní smrtí, a to rozdělení platilo. Václav si podržel Čechy, korunu, na které záleželo nejvíc, ale jeho nevlastní bratr Zikmund držel přímo Braniborsko, jejich mladší bratr Jan dostal nově vytvořené vévodství ve Zhořelci v Horní Lužici, Morava patřila bratrancům Jobstovi a Prokopovi, a jejich strýc Václav I. už seděl jako lucemburský vévoda. Mladý král v roce 1383 přidal ještě jeden titul, když po smrti téhož strýce zdědil samotné Lucemburské vévodství. Rozdíl to ani zdaleka nevyrovnalo. Cokoli jejich otec kdysi vládl jako jeden souvislý celek, jeho synové teď drželi po kouskách, a ten největší kousek patřil Václavovi spíš jménem než ve skutečnosti.\n\nTentýž rok 1383 přinesl i jedno docela jiné rozhodnutí, které mělo poznamenat zbytek jeho vlády: Václav potichu opustil Římskou jízdu (Romzug), tu dlouhou, formální cestu do Říma, která by ho nechala osobně korunovat císařem, tak jako jeho vlastního otce. Částečně šlo o opatrnost, dráždit Francii, dokud bylo schizma ještě čerstvé, se zdálo jako špatný nápad. Částečně šlo, podle všech svědectví, prostě o Václava: lov a pití měl mnohem blíž po ruce než několikaměsíční cestu přes Alpy kvůli koruně. Nikdy tam nevyrazil. Do konce života zůstal jen římským králem, o jedno slovo pozadu za titulem, který skutečně nosil jeho otec.\n\nV roce 1386 jeden z těch kousků výrazně narostl. Zikmund, už tak braniborský markrabě, se rok předtím oženil s uherskou královnou Marií, a toho dubna smlouva v Ráby (Győru) ho potvrdila jako jejího budoucího spoluvládce, nárok formálně stvrzený necelý rok poté jeho vlastní korunovací uherským králem. Lucemburská rodina teď měla v Čechách rovnou dva krále, a ten mladší se rychle stával tím jistějším ze dvou, jeho pozornost už mířila na východ, ke království, které nakonec pro evropské dějiny bude znamenat víc než bratr, kterého nechal za sebou.\n\nVáclav držel titul, který na papíře převyšoval bratrův, byl římským králem stejně jako českým. V praxi ale sledoval, jak se jeho vlastní dědictví zmenšuje ze všech stran najednou, sevřený mezi bratrance na Moravě a bratra, který od něj už vůbec nic nepotřeboval.",
+      zh: "酗酒享乐、疏于朝政、亲信一群阿谀逢迎的小人——这些麻烦，都是瓦茨拉夫自己招来的。可还有一个问题，压根不是他的错：说白了很简单，这事得怪他自己的父亲。[[link:father-of-the-fatherland-1378]]查理生前就把自己的领地分给了儿子和亲属们[[/link]]，而且这个分配一直算数。瓦茨拉夫保住了波希米亚，也就是最要紧的那顶王冠，可他的异母弟弟西吉斯蒙德直接握着勃兰登堡，弟弟约翰拿到了上卢萨蒂亚新设立的格尔利茨公国，摩拉维亚归了堂兄弟约斯特和普罗科皮乌斯，而叔叔瓦茨拉夫一世早就是卢森堡公爵了。这位年轻的国王在1383年倒是又添了一个头衔——那位叔叔去世后，他继承了卢森堡公国本身。可这远远弥补不了差距。他们父亲当年当成一个整体统治的那份家业，如今被儿子们分成了碎片，而最大的那一块，名义上归瓦茨拉夫所有，实际上却未必如此。\n\n同样是1383年，还有另一个截然不同的决定，将影响他余下的整个统治：瓦茨拉夫悄悄放弃了\"罗马之行\"（Romzug）——那趟本该让他像父亲当年一样，亲自前往罗马加冕为皇帝的漫长正式旅程。这里面有一部分是出于谨慎：教廷分裂的伤口还没愈合，去招惹法国那边，怎么看都不是什么好主意。但据各方记载，更大一部分原因，纯粹就是瓦茨拉夫本人的性子：跟翻越阿尔卑斯山、耗时数月去争一顶王冠比起来，打猎和喝酒明显要顺手得多。他终究没有踏上那趟旅程。终其一生，他都只是\"罗马人的国王\"——跟他父亲真正拿到手的那个头衔，永远差着一个词。\n\n1386年，其中一块碎片明显变大了。西吉斯蒙德，本来已经是勃兰登堡藩侯，前一年刚娶了匈牙利女王玛丽亚，那年4月，《捷尔条约》确认他成为玛丽亚未来的共治者，不到一年后，他又正式加冕为匈牙利国王，把这份主张彻底坐实。卢森堡家族这下在波希米亚一口气有了两位国王，而且弟弟这一位，眼看着比哥哥这一位坐得还稳当——他的心思早已飘向东方，飘向一个日后对欧洲历史的影响，会远远超过他留在身后这位兄长的王国。\n\n瓦茨拉夫手握的头衔，纸面上是压过弟弟的——他既是罗马人的国王，又是波希米亚国王。可现实中，他眼睁睁看着自己的家业从四面八方同时缩水：摩拉维亚有堂兄弟挤压，而弟弟那边，早已不再需要他这个兄长提供任何东西。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Wenceslaus_IV_of_Bohemia",
+  },
+  // Era 5's fourth card, outline supplied directly by the user (2026-09-02,
+  // closely matching Czech Wikipedia's own "Pražský pogrom o Velikonocích
+  // 1389" article, independently corroborated via a dedicated WebSearch/
+  // WebFetch pass rather than taken on trust). Genuine atrocity content —
+  // per this project's own standing convention (see 'one-emperor-two-
+  // fates-1349', tone: "serious"), this card drops the era's usual wry
+  // default entirely rather than softening it; the closing paragraph's
+  // irony (his menagerie vs. the dead) is a pointed indictment, not a
+  // joke, and is written with that weight rather than for a punchline.
+  // - Core facts (18 April 1389/Maundy Thursday trigger — a Jewish boy
+  //   allegedly knocking down a cross carried in a Christian procession;
+  //   the Jewish quarter sacked and nearly the entire community killed,
+  //   estimates over three thousand; Wenceslas away at imperial talks in
+  //   Cheb, hurrying back and ordering looted property returned, only for
+  //   it to revert to the crown since almost no original owners survived;
+  //   no surviving record of further investigation or punishment) all
+  //   confirmed via the Czech-language search pass, matching the user's
+  //   own outline closely enough that no correction was needed.
+  // - A second, English-language source (medieval.eu) offered additional
+  //   detail not in the user's own outline: a more specific Holy Saturday/
+  //   stone-throwing version of the host-desecration accusation, a
+  //   concrete "five barrels of silver" figure for what reached the royal
+  //   coffers, and — most seriously — a hint in some sources that Wenceslas
+  //   may have been personally complicit in instigating the violence
+  //   rather than merely profiting from it afterward. That last claim is
+  //   graver than anything asserted elsewhere in this project about him
+  //   and far less corroborated than the rest of the card, so it was left
+  //   out entirely rather than included even in hedged form — the
+  //   documented facts (his absence, his financial dependence on Jewish
+  //   taxation, his failure to investigate or punish) already make the
+  //   card's point without resting it on an unproven, more serious charge.
+  // - Death toll hedge: sources genuinely disagree, from roughly 900 up to
+  //   the commonly cited 3,000+; kept the higher figure since it's both
+  //   the one in the user's own outline and the one most consistently
+  //   repeated across sources, but "estimates run past three thousand"
+  //   rather than asserting a single precise number.
+  // - Avigdor Kara and his lament (Et Kol ha-Tela'ah, "All This
+  //   Suffering," written after watching his own father killed, still
+  //   recited annually in Prague on Yom Kippur six centuries later)
+  //   confirmed via WebSearch. No quotes[] entry: two separate search
+  //   passes for an actual translated excerpt of the poem's own text
+  //   turned up nothing quotable (one source paywalled, one blocked the
+  //   fetch), so this stays as attributed narrated fact rather than a
+  //   forced blockquote, per the project's usual convention.
+  // - Closing paragraph links back to 'the-indecisive-king-1382's own
+  //   menagerie material as a direct, deliberate indictment — the same
+  //   king who insisted on fresh daily meat for his lions found nothing
+  //   worth investigating in the deaths of thousands of his own subjects.
+  // - relatedLandmarks: the Old-New Synagogue (already standing over a
+  //   century by 1389, one of the few Jewish Quarter structures to
+  //   survive the massacre) and the Old Jewish Cemetery, where Avigdor
+  //   Kara himself is buried under its oldest surviving gravestone.
+  {
+    slug: "bloody-easter-1389",
+    era: "religious-turmoil",
+    startYear: 1389,
+    images: ["/history/bloody-easter-1389.webp"],
+    imageCaptions: [
+      {
+        en: "The Old-New Synagogue stood through it. Most of the street around it didn't.",
+        cz: "Staronová synagoga to přestála. Většina ulice kolem ní ne.",
+        zh: "老新会堂挺过了这一切。它周围的大半条街，却没能挺过来。",
+      },
+    ],
+    year: {
+      en: "1389",
+      cz: "1389",
+      zh: "1389年",
+    },
+    tone: "serious",
+    title: {
+      en: "Bloody Easter",
+      cz: "Krvavé Velikonoce",
+      zh: "血色复活节",
+    },
+    hookLine: {
+      en: "Over Easter 1389, an accusation about a desecrated cross set off the worst anti-Jewish massacre in Czech history. The king was away at imperial talks in Cheb. What he did once he got back said more than what he'd missed.",
+      cz: "O velikonocích 1389 vyvolalo obvinění ze znesvěcení kříže nejhorší protižidovský masakr v českých dějinách. Král byl v té době na říšských jednáních v Chebu. To, co udělal po svém návratu, vypovídalo víc než to, co zmeškal.",
+      zh: "1389年复活节前后，一个关于十字架被亵渎的指控，引爆了捷克历史上最惨烈的一场反犹屠杀。国王当时正在赫布参加帝国谈判，不在布拉格。可他回来以后做了什么，比他错过了什么更能说明问题。",
+    },
+    summary: {
+      en: "On 18 April 1389, Maundy Thursday, a rumor spread through Prague's Old Town: a Jewish boy had allegedly knocked down a cross being carried in a Christian religious procession. Whatever actually happened, the accusation was enough. A mob descended on the Jewish quarter and killed nearly the entire Jewish community of Prague in the violence that followed. Estimates of the dead run past three thousand, men, women, and children, in what remains the single deadliest anti-Jewish massacre in Czech history. Contemporary accounts describe bodies mutilated in the streets, homes plundered and burned around them.\n\nOne of the few survivors was a young scholar named Avigdor Kara, who watched his own father killed in the violence. He later wrote a lament, Et Kol ha-Tela'ah, \"All This Suffering,\" mourning what Prague's Jewish community had lost. The poem is still recited in Prague's synagogues every year on the Day of Atonement, six centuries later.\n\nWenceslas himself was away at imperial negotiations in Cheb when the killing happened. He hurried back to Prague once word reached him and ordered the property looted during the massacre returned to its rightful owners. It was a hollow order. Almost none of those owners were still alive to receive anything, and what couldn't be returned went instead to the royal treasury. No surviving record shows Wenceslas investigating the killings any further, or punishing anyone responsible for them.\n\nBy then, Wenceslas's own priorities were already a matter of public record. The same king who'd spent recent years building a proper [[link:the-indecisive-king-1382]]enclosure for his lions, tigers, leopards, and bears[[/link]], insisting each one be fed fresh meat daily by royal order, found nothing in the deaths of thousands of his own subjects worth looking into any further.",
+      cz: "18. dubna 1389, na Zelený čtvrtek, se pražským Starým Městem rozšířila zvěst: židovský chlapec měl údajně srazit k zemi kříž nesený v křesťanském procesí. Ať se stalo cokoli skutečně, to obvinění stačilo. Dav se vrhl na židovskou čtvrť a v násilí, které následovalo, zabil téměř celou pražskou židovskou obec. Odhady obětí přesahují tři tisíce, mužů, žen i dětí, v tom, co zůstává jediným nejkrvavějším protižidovským pogromem v českých dějinách. Dobové záznamy popisují znetvořená těla v ulicích a domy vyrabované a vypálené kolem nich.\n\nJedním z mála, kdo přežil, byl mladý učenec Avigdor Kara, který na vlastní oči viděl zabít svého otce. Později napsal žalozpěv Et kol ha-tela'ah, „Všechno to utrpení\", oplakávající to, co pražská židovská obec ztratila. Báseň se v pražských synagogách recituje dodnes, každý rok na Jom kipur, po šesti stoletích.\n\nVáclav sám byl v době vraždění na říšských jednáních v Chebu. Jakmile se k němu zpráva dostala, spěchal zpátky do Prahy a nařídil, aby majetek uloupený během masakru byl vrácen právoplatným majitelům. Byl to prázdný příkaz. Skoro nikdo z těch majitelů už nebyl naživu, aby si cokoli převzal, a co se vrátit nedalo, připadlo místo toho královské pokladně. Žádný dochovaný záznam neukazuje, že by Václav vraždění dál vyšetřoval, nebo že by kohokoli za ně potrestal.\n\nVáclavovy vlastní priority už v té době byly veřejně známou věcí. Tentýž král, který v posledních letech budoval pořádný [[link:the-indecisive-king-1382]]výběh pro své lvy, tygry, leopardy a medvědy[[/link]], a trval na tom, aby každý z nich dostával podle královského nařízení denně čerstvé maso, neshledal na smrti tisíců vlastních poddaných nic, co by stálo za další zkoumání.",
+      zh: "1389年4月18日，圣周四（濯足节）这天，布拉格老城传出一则流言：一名犹太男孩，据说在基督徒的宗教游行队伍中把一支十字架撞倒在地。不管事实真相究竟如何，这个指控已经足够了。暴民冲进犹太区，在随后的暴力中，几乎屠杀了布拉格整个犹太社群。死亡人数估计超过三千人，男女老少皆有，成为捷克历史上最惨烈的一场反犹屠杀。当时的记载描述了街头肢体残缺的尸体，以及周围被洗劫、焚毁的房屋。\n\n少数幸存者之一，是一位名叫阿维格多尔·卡拉的年轻学者，他亲眼目睹了自己的父亲被杀害。他后来写下一首挽歌《一切苦难》（Et kol ha-tela'ah），哀悼布拉格犹太社群所失去的一切。六百多年过去，这首诗至今仍在每年赎罪日那天，在布拉格的犹太会堂里被诵读。\n\n屠杀发生时，瓦茨拉夫本人正在赫布参加帝国谈判。消息传来后，他匆忙赶回布拉格，下令将暴行中被劫掠的财产归还给原主。可这道命令形同虚设——那些原主里，几乎没人还活着能领回任何东西，无法归还的财产，最终转而进了王室国库。没有任何留存的记录显示，瓦茨拉夫曾进一步追查这场屠杀，或惩处过任何责任人。\n\n到那时，瓦茨拉夫自己的优先事项，早已是公开的秘密。这位国王，最近这几年一直忙着为自己的[[link:the-indecisive-king-1382]]狮子、老虎、豹子和熊修建像样的兽舍[[/link]]，坚持每头动物都要按王室规定每天供应新鲜肉食——可对于自己数千名臣民的死亡，他却觉得没什么值得进一步过问的。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "old-new-synagogue-1782601630704",
+        relation: {
+          en: "Already standing for over a century by 1389, one of the few structures in the Jewish Quarter to survive the massacre that swept through it.",
+          cz: "V roce 1389 už stála přes sto let, jedna z mála staveb v Židovském Městě, která masakr, jenž jím prošel, přežila.",
+          zh: "到1389年，它已经矗立了一百多年，是这场席卷犹太区的屠杀中，少数幸存下来的建筑之一。",
+        },
+      },
+      {
+        slug: "old-jewish-cemetery",
+        relation: {
+          en: "Where Avigdor Kara, who survived the massacre and buried his own father in its aftermath, now rests himself beneath the cemetery's oldest surviving gravestone.",
+          cz: "Místo, kde nyní odpočívá sám Avigdor Kara, který masakr přežil a po něm pohřbil vlastního otce, pod nejstarším dochovaným náhrobkem hřbitova.",
+          zh: "阿维格多尔·卡拉如今就长眠在这里——他当年在屠杀中幸存下来、亲手安葬了自己的父亲，如今则安息在这座墓园现存最古老的那块墓碑之下。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Prague_massacre_of_1389",
+  },
+  // Era 5's fifth card ('the-papal-schism-1378', 'the-indecisive-king-
+  // 1382', 'a-throne-on-shaky-ground-1386', and 'bloody-easter-1389' come
+  // before it). Originally
+  // titled "优柔寡断的国王" per the user's own initial instruction; renamed
+  // (2026-09-01, still before first publish) to center the actual
+  // dramatic act — a priest thrown into the river — rather than a
+  // character-trait framing, per the user's own follow-up note that the
+  // event's real subject is the drowning itself. That freed-up title was
+  // then reused (2026-09-01, same session) for a different new card,
+  // 'the-indecisive-king-1382', built around this card's own original
+  // opening paragraph (reputation/governing-style material, moved there
+  // wholesale) — this card's own opening was rewritten afterward to
+  // stand on its own without that paragraph; don't reintroduce it here.
+  // Outline dictated: the Jan of Jenštejn conflict and
+  // John of Nepomuk's 1393 death, told as a character study rather than
+  // pairing it with a separate "personality profile" card, per the
+  // user's own preference (confirmed 2026-09-01) for one single
+  // narrative thread per card in this stretch of the timeline rather
+  // than combining multiple beats.
+  // - Wenceslas's general reputation (heavy drinking, hunting over
+  //   governing, sudden violent temper alienating allies) confirmed via
+  //   WebSearch, with an explicit hedge kept in the text: much of the
+  //   "monster" framing in surviving chronicles comes from German princes
+  //   who had their own reasons to want him deposed (which did happen in
+  //   1400) — stated directly rather than repeating the hostile framing
+  //   uncritically.
+  // - The Kladruby dispute's real historical mechanics (Wenceslas wanting
+  //   control of the abbey's revenue via a compliant abbot; the monks
+  //   independently electing Odelenus after the old abbot's 1393 death;
+  //   vicar-general John of Nepomuk confirming that election without
+  //   royal consent; Wenceslas's furious arrest and torture of Nepomuk
+  //   and several other cathedral officials; the 20 March 1393 drowning
+  //   off Charles Bridge) all confirmed via WebSearch and treated as the
+  //   actual historical cause, per the source's own explicit framing.
+  // - The confession-seal legend (Nepomuk protecting Queen Sophia's
+  //   confessional secrets) is explicitly flagged as a later addition,
+  //   not the original historical cause — the search results themselves
+  //   note it as a hagiographic development, plausibly tied to the
+  //   Counter-Reformation Church wanting its own martyr to rival Jan
+  //   Hus's memory (a real, sourced rivalry-of-symbols dynamic, kept
+  //   here rather than invented). 1729 canonization and the star-haloed
+  //   statue (later widely copied on Central European bridges) both
+  //   confirmed via WebSearch.
+  // - No quotes[] entry: this card leans on a well-documented sequence of
+  //   events rather than a single primary-source line, and no search
+  //   pass turned up a genuinely quotable contemporary passage.
+  // - Closes on an unspoiled forward-hook to the Bohemian nobility's own
+  //   reaction, setting up the still-unwritten 1394 Lords' League capture
+  //   of Wenceslas (this era's planned third card) without narrating it.
+  // - relatedLandmarks: charles-bridge, the actual drowning site, already
+  //   established via 'the-great-bridge-1357'. Kladruby Abbey itself has
+  //   no Location entry in the live DB (checked before drafting) and none
+  //   was created for this pass — mentioned only in running prose.
+  {
+    slug: "the-priest-thrown-into-the-river-1393",
+    era: "religious-turmoil",
+    startYear: 1393,
+    images: ["/history/the-priest-thrown-into-the-river-1393.webp"],
+    imageCaptions: [
+      {
+        en: "No trial, no delay — just a furious king, a bound priest, and a river waiting below.",
+        cz: "Žádný soud, žádné otálení — jen zuřivý král, spoutaný kněz a čekající řeka pod nimi.",
+        zh: "没有审判，没有拖延——只有一位盛怒的国王，一位被捆绑的神父，和桥下等着的那条河。",
+      },
+    ],
+    year: {
+      en: "1393",
+      cz: "1393",
+      zh: "1393年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Priest Who Was Thrown Into the River",
+      cz: "Kněz, kterého shodili do řeky",
+      zh: "被扔进河里的神父",
+    },
+    hookLine: {
+      en: "Wenceslas usually got away with looking the other way. In 1393, one churchman didn't let him, and paid for it with his life.",
+      cz: "Václavovi obvykle procházelo, když se na něco raději nedíval. V roce 1393 mu to jeden kněz neumožnil, a zaplatil za to životem.",
+      zh: "瓦茨拉夫平时总能靠睁一只眼闭一只眼蒙混过去。1393年，有位神职人员偏不让他这么蒙混，为此付出了性命。",
+    },
+    summary: {
+      en: "Drinking and indulgence don't come cheap. More than a decade into his reign, Wenceslas had run the crown's own finances thin, and the king started looking for money wherever he could find it. In 1393, the abbot of Kladruby's Benedictine monastery died, and Wenceslas saw his opening immediately. Control the choice of the next abbot, and he'd effectively control the wealthy abbey's own revenue along with it. The monks didn't wait for royal instructions. They held their own election and chose a monk named Odelenus, and Jan of Jenštejn's own vicar-general, a priest named John of Nepomuk, promptly confirmed the result without asking the king's leave at all.\n\nWenceslas flew into a rage the moment he heard. He might have been lazy and indulgent in his everyday habits, but when it came to open defiance, he didn't waste a single moment. He had Nepomuk arrested along with several of Jenštejn's other officials, the cathedral provost among them, and had them tortured. On 20 March 1393, Nepomuk was taken out onto [[link:the-great-bridge-1357]]the bridge Charles had built[[/link]], bound, and thrown into the Vltava. He drowned.\n\nThe legend that grew up around him came later, and it isn't quite the same story. By the 17th century, with the Church eager for a Catholic martyr to set against the memory of Jan Hus, Nepomuk had been reimagined into a different man entirely: the queen's own confessor, put to death because he'd heard her confession and refused to tell the king what she'd said, not a churchman caught in a fight over monastery income. He was canonized in 1729, and a statue with a five-star halo went up on the same bridge where he'd drowned, a design later copied onto bridges across half of Central Europe. The real dispute over Kladruby's revenue mostly disappeared under all of it.\n\nJenštejn never forgave the king, and the alliance that had once put an ally of Wenceslas's own choosing at the head of Prague's church was over for good. Bohemia's nobility was watching too, and what they saw wasn't reassuring: a king who could ignore a crisis affecting the entire Church for months, then torture and kill a priest over a monastery's bank account. They wouldn't stay quiet for long.",
+      cz: "Pití a požitkářství nejsou zadarmo. Přes deset let na trůnu už Václav vyprázdnil královskou pokladnu, a král se začal shánět po penězích, kde se dalo. V roce 1393 zemřel opat kladrubského benediktinského kláštera, a Václav v tom okamžitě uviděl příležitost. Ovládnout volbu nového opata by znamenalo ovládnout i výnosy bohatého kláštera. Mniši na královské pokyny nečekali. Uspořádali vlastní volbu a zvolili mnicha jménem Odolen, a generální vikář Jana z Jenštejna, kněz jménem Jan z Pomuku, výsledek okamžitě potvrdil, aniž by se vůbec ptal krále o svolení.\n\nVáclav se, jakmile se to dozvěděl, rozzuřil. V běžných věcech uměl být líný a požitkářský, ale otevřenou vzpouru si nenechal líbit ani na okamžik. Nechal Jana z Pomuku zatknout spolu s několika dalšími Jenštejnovými úředníky, mezi nimi i katedrálním proboštem, a nechal je mučit. 20. března 1393 byl Jan z Pomuku odveden na [[link:the-great-bridge-1357]]most, který postavil Karel[[/link]], spoután a shozen do Vltavy. Utopil se.\n\nLegenda, která se kolem něj utvořila, přišla později a není to úplně tentýž příběh. V 17. století, kdy si církev přála katolického mučedníka, kterého by postavila proti památce Jana Husa, byl Jan z Pomuku přetvořen v úplně jiného muže: v královnina vlastního zpovědníka, popraveného za to, že vyslechl její zpověď a odmítl králi prozradit, co mu řekla, ne v kněze uvízlého ve sporu o klášterní příjmy. Byl svatořečen roku 1729, a na tomtéž mostě, kde se utopil, vyrostla socha s pěticípou hvězdnou svatozáří, návrh později okopírovaný na mosty po celé polovině střední Evropy. Skutečný spor o kladrubské výnosy pod tím vším většinou zmizel.\n\nJenštejn králi nikdy neodpustil, a spojenectví, které kdysi postavilo Václavova vlastního spojence do čela pražské církve, skončilo nadobro. Sledovala to i česká šlechta, a to, co viděla, moc nepovzbuzovalo: krále, který dokázal měsíce ignorovat krizi zasahující celou církev, a pak nechat mučit a zabít kněze kvůli klášternímu účetnictví. Dlouho neměli zůstat zticha.",
+      zh: "酗酒享乐，挥金如土。瓦茨拉夫在位这十几年，国库早已捉襟见肘，于是这位国王开始琢磨，该去哪儿弄钱。1393年，克拉德鲁比本笃会修道院的院长去世了，瓦茨拉夫立刻看到了机会：只要控制住新院长的人选，他就等于顺带控制住了这座富庶修道院的收入。修道院的修士们没等国王发话。他们自行举行了选举，选出了一位名叫奥德伦努斯的修士，而扬·冯·耶什滕自己的总代理主教——一位名叫扬·内波穆克的神父——当即确认了这个结果，压根没去征求国王的同意。\n\n瓦茨拉夫闻后勃然大怒，他虽然平日里好吃懒做，可是对于这种忤逆行为，可是一刻都没耽误。他下令逮捕了内波穆克，连同耶什滕手下的另外几名官员，其中包括教座总铎，还对他们施以酷刑。1393年3月20日，内波穆克被押上[[link:the-great-bridge-1357]]查理建的那座桥[[/link]]，五花大绑，扔进了伏尔塔瓦河。他就此淹死。\n\n围绕他形成的传说，是后来才有的，讲的也不完全是同一个故事。到了17世纪，教会急需一位能对抗扬·胡斯之名的天主教殉道者，内波穆克就被重新塑造成了完全不同的一个人：王后自己的忏悔神父，因为听了她的忏悔却拒绝向国王透露她说了什么而被处死，而不是一个卷进修道院收入之争的神职人员。他于1729年被封圣，在他当年溺水的同一座桥上，立起了一尊头顶五星光环的雕像，这个设计后来被复制到了大半个中欧的桥梁上。至于克拉德鲁比那笔收入的真实纠纷，大多也就淹没在了这一切之下。\n\n耶什滕再也没有原谅国王，而那份曾经把瓦茨拉夫自己选中的盟友扶上布拉格教会最高位置的联盟，就此彻底完结。波希米亚的贵族也在冷眼旁观，而他们看到的景象并不让人安心：一位能对波及整个教会的危机置之不理长达数月，却会为了一本修道院的账簿去折磨、杀死一名神父的国王。他们不会再沉默太久。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "charles-bridge",
+        relation: {
+          en: "Where Nepomuk was bound and thrown into the Vltava on 20 March 1393.",
+          cz: "Místo, kde byl Jan z Pomuku 20. března 1393 spoután a shozen do Vltavy.",
+          zh: "1393年3月20日，内波穆克在这里被捆绑住，扔进了伏尔塔瓦河。",
+        },
+      },
+      {
+        slug: "socha-svateho-jana-nepomuckeho",
+        relation: {
+          en: "The statue added to the bridge three centuries later, its bearded, five-star-haloed design becoming the template for every later depiction of the saint.",
+          cz: "Socha přidaná na most o tři století později, jejíž podoba vousatého muže s pěticípou hvězdnou svatozáří se stala vzorem pro každé pozdější zobrazení světce.",
+          zh: "三个世纪后立在桥上的那尊雕像——蓄须、头顶五星光环的造型，后来成了这位圣人所有后续形象共同沿用的范本。",
+        },
+      },
+      {
+        slug: "kladrubsky-klaster",
+        relation: {
+          en: "The wealthy Benedictine abbey whose contested 1393 abbot election, and the vicar-general who confirmed it without royal consent, set the whole tragedy in motion.",
+          cz: "Bohaté benediktinské opatství, jehož sporná volba opata v roce 1393, a generální vikář, který ji potvrdil bez královského souhlasu, roztočily celou tuhle tragédii.",
+          zh: "这座富庶的本笃会修道院，正是1393年那场有争议的院长选举、以及那位未经国王同意就确认了结果的总代理主教，引爆了整场悲剧的地方。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/John_of_Nepomuk",
   },
 ];
 

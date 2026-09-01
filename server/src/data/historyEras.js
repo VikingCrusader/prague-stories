@@ -308,7 +308,7 @@ export const HISTORY_ERAS = [
     key: 'religious-turmoil',
     order: 5,
     themeClass: 'era-religious-turmoil',
-    hasContent: false,
+    hasContent: true,
     title: {
       en: 'Religious Turmoil',
       cz: 'Doba náboženských bouří',

@@ -25075,6 +25075,142 @@ Sochařská výzdoba nad obloukem jasně říká, čí to bylo město. Nad každ
 🎁 彩蛋：每年6月15日，圣维特节这天，阳光角度恰到好处，会让一颗雕刻狮子头的阴影，精确投在它下方那面刻着鹰纹的盾徽上——据说这个建筑小把戏，象征性地印证了波希米亚与摩拉维亚之间自古以来的那份纽带。`,
     },
   },
+  {
+    // Added at the user's explicit request (2026-09-02) to support
+    // 'the-priest-thrown-into-the-river-1393's relatedLandmarks — that
+    // card's own dev comment already noted Kladruby Abbey had no Location
+    // entry in the live DB. Per the user's own reminder, this description
+    // deliberately does NOT reference the History Timeline's own Nepomuk/
+    // Wenceslas story at all (per feedback_location_vs_timeline_separation
+    // — the two content types stay independent); that connection belongs
+    // solely in the relatedLandmarks relation caption on the History
+    // Timeline card itself, not here.
+    // Facts confirmed via WebSearch: founded 1115 by Duke Vladislav I
+    // (buried here 1125), community expanded 1117 with monks from
+    // Zwiefalten Abbey in Swabia; Baroque-Gothic rebuild by Jan Blažej
+    // Santini-Aichel (same architect as the UNESCO-listed pilgrimage
+    // church at Zelená Hora) completed 1726, giving the Church of the
+    // Assumption of the Virgin Mary a dome nearly 150 feet high topped
+    // with a golden image of the Virgin; dissolved 1785 under Joseph II's
+    // monastery reforms; Windisch-Grätz family acquired the estate in
+    // 1825, Prince Ludwig Aladar moved in after WWI and established a
+    // family library/archive, property confiscated by the Czechoslovak
+    // state in 1945 and remains state property today. An initial
+    // assumption that an 1741 fire prompted the Santini rebuild was not
+    // corroborated by any source found and was dropped rather than kept
+    // as an unverified guess.
+    // Scope note: Kladruby sits well outside Prague's usual day-trip
+    // radius (~170km, near Stříbro/Tachov in far western Bohemia) — a
+    // genuine stretch of this project's normal Prague-day-trip framing,
+    // flagged here rather than silently smoothed over, but added anyway
+    // per the user's own explicit instruction and supplied coordinates.
+    // rarity: `legend`, matching Santini's other major Bohemian
+    // ecclesiastical work and the precedent set by `zamek-hluboka-nad-
+    // vltavou` for genuinely monumental buildings outside Prague.
+    name: 'Kladruby Monastery',
+    slug: 'kladrubsky-klaster',
+    localizedNames: { cz: 'Kladrubský klášter', zh: '克拉德鲁比修道院' },
+    labels: ['monastery', 'historical'],
+    coordinates: { lat: 49.711877297549215, lng: 12.995684097656287 },
+    rarity: 'legend',
+    xpReward: 100,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Kladruby_Monastery',
+    description: {
+      en: `Kladruby Monastery doesn't look like a Benedictine abbey is supposed to look. It looks like someone let a Baroque architect loose on Gothic bones and told him not to hold back, because that's more or less exactly what happened.
+
+Duke Vladislav I founded the monastery in 1115, bringing in a community of Benedictine monks that was expanded two years later by additional brothers from Zwiefalten Abbey in Swabia. Vladislav himself was buried here after his death in 1125, and the abbey went on to become one of the wealthiest, most influential religious institutions in Bohemia, its abbots wielding real political and economic weight across a wide stretch of the western part of the kingdom.
+
+Its current striking look comes from a major Baroque rebuilding completed in 1726 under architect Jan Blažej Santini-Aichel, the same master behind the pilgrimage church at Zelená Hora. Santini's signature style, a deliberate fusion of Gothic verticality with Baroque drama, gave the abbey's Church of the Assumption of the Virgin Mary a soaring dome nearly 150 feet high, crowned with a golden image of the Virgin Mary.
+
+The monastery's life as a working abbey ended in 1785, when Emperor Joseph II dissolved it along with hundreds of other religious houses across his territories. The Windisch-Grätz family acquired the estate in 1825; Prince Ludwig Aladar moved in after the First World War and set up a family library and archive there, before the whole property was confiscated by the Czechoslovak state in 1945, which still holds it today.
+
+🎁 Bonus: Santini built a reputation across Bohemia for weaving hidden numeric and geometric symbolism into his church designs, a habit architectural historians still argue over the meaning of. Kladruby's own dome and floor plan are frequently cited as one of his most mathematically deliberate works.`,
+
+      cz: `Kladrubský klášter nevypadá tak, jak by benediktinské opatství vypadat mělo. Vypadá, jako by tu někdo pustil barokního architekta na gotickou kostru a řekl mu, ať se nebrzdí, protože přesně tak nějak se to i odehrálo.
+
+Kníže Vladislav I. klášter založil v roce 1115 a přivedl sem komunitu benediktinských mnichů, kterou o dva roky později rozšířili další bratři ze švábského opatství Zwiefalten. Sám Vladislav byl po své smrti v roce 1125 pohřben právě zde, a opatství se postupně stalo jedním z nejbohatších a nejvlivnějších církevních institucí v Čechách, jehož opati měli reálnou politickou a hospodářskou váhu v širokém okolí západní části království.
+
+Svůj dnešní nápadný vzhled vděčí velké barokní přestavbě dokončené v roce 1726 pod vedením architekta Jana Blažeje Santiniho-Aichela, téhož mistra, který stojí i za poutním kostelem na Zelené hoře. Santiniho charakteristický styl, záměrné spojení gotické vertikality s barokní dramatičností, dal klášternímu kostelu Nanebevzetí Panny Marie mohutnou kupoli vysokou téměř 150 stop, korunovanou zlatým obrazem Panny Marie.
+
+Život kláštera jako fungujícího opatství skončil v roce 1785, kdy ho císař Josef II. zrušil spolu se stovkami dalších řeholních domů na svém území. Rod Windischgrätzů panství získal v roce 1825; kníže Ludvík Aladár se sem nastěhoval po první světové válce a zřídil zde rodinnou knihovnu a archiv, než bylo celé panství v roce 1945 zabaveno československým státem, kterému patří dodnes.
+
+🎁 Bonus: Santini si po celých Čechách vysloužil pověst architekta, který do svých kostelních návrhů vplétal skrytou číselnou a geometrickou symboliku, zvyk, o jehož významu se historikové architektury dodnes přou. Kladrubská kupole a půdorys patří mezi díla, která bývají uváděna jako jedna z jeho matematicky nejpromyšlenějších.`,
+
+      zh: `克拉德鲁比修道院看起来完全不像一座本笃会修道院该有的样子。它看起来更像是有人把一位巴洛克建筑师放到了一副哥特式骨架上，还叫他别有所顾忌——而这基本上正是当年实际发生的事。
+
+弗拉迪斯拉夫一世公爵于1115年创建了这座修道院，带来了一批本笃会修士，两年后又有更多修士从施瓦本的茨维法尔滕修道院加入。弗拉迪斯拉夫本人1125年去世后就安葬于此，这座修道院后来发展成波希米亚境内最富有、最有影响力的宗教机构之一，历任院长在王国西部的大片区域内都握有实实在在的政治和经济分量。
+
+它今天这副引人注目的模样，来自1726年完工的一次大型巴洛克式改建，主持者是建筑师扬·布拉热伊·桑蒂尼-艾赫尔——就是那位设计了泽莱娜霍拉朝圣教堂的同一位大师。桑蒂尼标志性的风格，把哥特式的垂直线条和巴洛克式的戏剧张力刻意糅合在一起，让修道院的圣母升天教堂拥有了一座近150英尺高的巍峨穹顶，顶端饰有一尊镀金的圣母像。
+
+这座修道院作为一座正常运作的修道院的生涯，终结于1785年——约瑟夫二世皇帝将其连同治下数百座宗教场所一并解散。1825年，温迪施格雷茨家族购得了这处庄园；一战结束后，卢德维希·阿拉达尔亲王搬了进来，还在这里建起了家族图书馆和档案室，直到1945年，整座庄园被捷克斯洛伐克国家没收，至今仍属国有。
+
+🎁 彩蛋：桑蒂尼在整个波希米亚都以一个习惯闻名——喜欢把隐藏的数字和几何象征编织进自己的教堂设计里，这个习惯的真实用意，建筑史学家们至今仍争论不休。克拉德鲁比这座穹顶和平面布局，常被认为是他数学构思最缜密的作品之一。`,
+    },
+  },
+  {
+    // Added at the user's explicit request (2026-09-02) to support
+    // 'the-priest-thrown-into-the-river-1393's relatedLandmarks — the
+    // actual statue itself, distinct from the general 'charles-bridge'
+    // landmark already linked there. Facts confirmed via WebSearch/
+    // WebFetch of the statue's own English Wikipedia page and a
+    // dedicated piece on the relief panels: clay model by Matthias
+    // Rauchmiller (1681), full wooden sculpture by Jan Brokoff, cast in
+    // bronze in Nuremberg, installed 1683 as the very first of Charles
+    // Bridge's eventual ~30 Baroque statues; its design (bearded priest,
+    // crucifix, five-star halo) became the standard template for every
+    // later depiction of the saint across Central Europe; Brokoff's own
+    // gilded wooden original has been on the altar of the Church of St.
+    // John of Nepomuk on the Rock (kostel-sv-jana-na-skalce, already a
+    // Location in this DB) since 1819. The two base reliefs (left:
+    // legendary confession scene, including an unexplained dog with no
+    // basis in any account of his life; right: the martyrdom/drowning)
+    // and — the real find of this pass — that the now-famous "touch for
+    // luck" tradition is very likely a recent invention: photos of the
+    // statue as late as the 1960s show no wear on the bronze at all, with
+    // visible polish dating only to around 1989, right after the Velvet
+    // Revolution, plausibly encouraged by tour guides. Kept as the card's
+    // own Bonus paragraph — a genuine "assumed-ancient tradition that
+    // isn't" reveal, not asserted as definitively proven but reported as
+    // the strongest evidence found.
+    // rarity: `epic` — a single statue rather than a monumental building,
+    // but one whose fame and status as the literal copied template for
+    // an entire saint's iconography across Central Europe outweighs a
+    // typical 19th-century monument (compare `monument-to-charles-iv-
+    // 1783353104539`, rated only `rare`).
+    name: 'Statue of St. John of Nepomuk',
+    slug: 'socha-svateho-jana-nepomuckeho',
+    localizedNames: { cz: 'Socha svatého Jana Nepomuckého', zh: '圣约翰·内波穆克雕像' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.08659556965718, lng: 14.410231037714974 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Statue_of_John_of_Nepomuk,_Charles_Bridge',
+    description: {
+      en: `The bronze figure on Charles Bridge, robed and haloed with five stars, is the single most touched piece of metal in Prague. Millions of hands have worn its lower reliefs smooth. Almost none of those hands know the actual tradition they're taking part in is barely older than most of them.
+
+The statue itself dates to 1683: sculptor Matthias Rauchmiller made a clay model in 1681, Jan Brokoff turned it into a full wooden sculpture, and the finished piece was cast in bronze in Nuremberg before being installed on the bridge's north side. It was the very first of the roughly thirty Baroque statues that would eventually line Charles Bridge, and its design, the bearded priest, the crucifix, the five-star halo, became the standard template every later statue of the saint across Central Europe would copy.
+
+At the base, two bronze reliefs tell the story from opposite sides: one shows the saint's legendary confession, the other his death, thrown from this same bridge into the Vltava. The confession scene includes a small dog that has absolutely no basis in any actual account of Jan of Nepomuk's life, its presence and meaning a genuine mystery nobody has ever satisfactorily explained.
+
+🎁 Bonus: touching the reliefs for good luck feels like it should be an old Prague custom, the kind of thing locals have done for centuries. It almost certainly isn't. Photographs of the statue from as late as the 1960s show no wear at all on the bronze; the visible shine dates back only to around 1989, right after the Velvet Revolution, when the habit of rubbing the panels for luck (the dog especially) seems to have caught on among tourists and, quite possibly, the guides showing them around.`,
+
+      cz: `Bronzová postava na Karlově mostě, oděná do roucha a s pěticípou hvězdnou svatozáří, je nejosahanější kus kovu v Praze. Miliony rukou vyleštily jeho spodní reliéfy do hladka. Skoro žádná z těch rukou přitom netuší, že tradice, do které se právě zapojily, je sotva starší než většina z nich.
+
+Samotná socha pochází z roku 1683: sochař Matthias Rauchmiller vytvořil v roce 1681 hliněný model, Jan Brokoff ho proměnil v plnou dřevěnou sochu a hotové dílo bylo odlito do bronzu v Norimberku, než ho instalovali na severní straně mostu. Byla to vůbec první z asi třiceti barokních soch, které nakonec Karlův most lemovaly, a její podoba, vousatý kněz, krucifix, pěticípá hvězdná svatozář, se stala vzorem, podle kterého se řídila každá pozdější socha tohoto světce po celé střední Evropě.
+
+V podstavci vyprávějí dva bronzové reliéfy příběh ze dvou stran: jeden zobrazuje světcovu legendární zpověď, druhý jeho smrt, shozeného z téhož mostu do Vltavy. Scéna zpovědi obsahuje i malého psa, který nemá v žádném skutečném vyprávění o životě Jana z Pomuku žádnou oporu, jeho přítomnost a význam zůstávají skutečnou záhadou, kterou nikdo nikdy uspokojivě nevysvětlil.
+
+🎁 Bonus: dotýkat se reliéfů pro štěstí působí jako stará pražská tradice, věc, kterou místní dělají už staletí. Skoro jistě to tak není. Fotografie sochy ještě z 60. let 20. století neukazují na bronzu žádné opotřebení; viditelný lesk sahá jen zhruba do roku 1989, těsně po sametové revoluci, kdy se zvyk mnout panely pro štěstí (zejména toho psa) zřejmě uchytil mezi turisty a možná i mezi průvodci, kteří je po mostě prováděli.`,
+
+      zh: `查理大桥上这尊身披袍服、头顶五星光环的铜像，是布拉格被摸得最多的一块金属。数以百万计的手，早已把它下方的浮雕摸得锃亮。可这些手里，几乎没人知道，自己参与的这个"传统"，其实并没有比自己年长多少。
+
+这尊雕像本身可以追溯到1683年：雕塑家马蒂亚斯·劳赫米勒1681年做了一个泥塑模型，扬·布罗科夫据此制成了一整座木雕，成品随后在纽伦堡铸成青铜像，才被安装到大桥的北侧。它是最终排满查理大桥的那大约三十尊巴洛克雕像里的第一尊，它的造型——蓄须的神父、手中的十字架、五星光环——后来成了整个中欧地区所有这位圣人雕像共同沿用的标准范式。
+
+底座上，两幅青铜浮雕分别从两个角度讲述这个故事：一幅描绘这位圣人传说中的忏悔场景，另一幅描绘他的死——被从同一座桥上扔进伏尔塔瓦河。忏悔那一幅浮雕里，还有一只小狗，这只狗在扬·内波穆克生平的任何真实记载里都没有出处，它的存在和寓意，至今仍是个没人能说得清楚的谜。
+
+🎁 彩蛋：摸浮雕求好运，听起来该是布拉格人延续了几百年的老传统。但事实几乎可以肯定并非如此。就连1960年代拍下的照片，都显示这块青铜表面毫无磨损的痕迹；如今这层显眼的光泽，其实要追溯到大约1989年，也就是天鹅绒革命刚结束那会儿——摩挲浮雕（尤其是那只狗）求好运这个习惯，看起来是那之后才在游客之间流行起来的，说不定还多亏了带团导游们的推波助澜。`,
+    },
+  },
 ];
 
 async function run() {

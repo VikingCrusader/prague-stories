@@ -356,22 +356,22 @@
 }
 
 /* An in-text cross-reference to another event's own section — see
-   renderInlineLinks in HistoryEventSection. A <button> rather than a real
-   <a> (there's no href to jump to; the click scrolls the feed itself), so
-   it needs its own reset to sit inline like plain linked text instead of
-   looking like a form control. */
+   renderInlineLinks in HistoryEventSection. A <span role="button"> rather
+   than a real <button> or <a> (there's no href to jump to; the click
+   scrolls the feed itself) — a <button>'s content is still an atomic box
+   that browsers won't break across a line wrap even with display:inline,
+   which showed up as the whole linked phrase jumping to the next line
+   with a stray gap in front of it instead of wrapping normally mid-phrase
+   like the rest of the paragraph (caught 2026-08-31 on a CJK link span).
+   A plain inline <span> wraps character-by-character exactly like
+   surrounding text, so this stays the fix going forward. */
 .history-event__inline-link {
   display: inline;
-  background: none;
-  border: none;
-  padding: 0;
-  margin: 0;
-  font: inherit;
-  color: var(--gold);
+  color: var(--text-primary);
   text-decoration: underline;
   cursor: pointer;
 }
-.history-event__inline-link:hover { color: var(--text-primary); }
+.history-event__inline-link:hover { color: var(--gold); }
 
 /* A primary-source quote pulled out of the summary's own prose via a
    "[[quote:N]]" marker (see HistoryEventSection) and rendered as its own

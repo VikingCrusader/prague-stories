@@ -29,14 +29,21 @@ function renderInlineLinks(text, onNavigateToEvent) {
     if (match.index > lastIndex) nodes.push(text.slice(lastIndex, match.index));
     const [full, slug, label] = match;
     nodes.push(
-      <button
+      <span
         key={`link-${key++}`}
-        type="button"
+        role="button"
+        tabIndex={0}
         className="history-event__inline-link"
         onClick={() => onNavigateToEvent?.(slug)}
+        onKeyDown={(e) => {
+          if (e.key === 'Enter' || e.key === ' ') {
+            e.preventDefault();
+            onNavigateToEvent?.(slug);
+          }
+        }}
       >
         {label}
-      </button>
+      </span>
     );
     lastIndex = match.index + full.length;
   }
