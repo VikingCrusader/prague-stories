@@ -459,7 +459,7 @@
 }
 .history-event__reference-maps-link {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 8px;
   font-size: 14px;
   color: var(--text-primary);
@@ -477,6 +477,10 @@
   font-weight: 700;
   color: var(--gold);
   flex-shrink: 0;
+}
+.history-event__reference-maps-icon {
+  flex-shrink: 0;
+  border-radius: 3px;
 }
 .history-event__reference-maps-desc {
   color: inherit;

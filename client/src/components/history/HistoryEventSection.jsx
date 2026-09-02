@@ -226,23 +226,50 @@ export default function HistoryEventSection({ event, onOpenLandmark, onNavigateT
                 </p>
               )}
               <ul className="history-event__reference-maps-list">
-                {event.referenceMaps.links.map((map) => (
-                  <li key={map.url}>
-                    <a
-                      className="history-event__reference-maps-link"
-                      href={map.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <span className="history-event__reference-maps-year">{map.label}</span>
-                      {(map.description?.[lang] || map.description?.en) && (
-                        <span className="history-event__reference-maps-desc">
-                          {convert(map.description[lang] || map.description.en)}
-                        </span>
-                      )}
-                    </a>
-                  </li>
-                ))}
+                {event.referenceMaps.links.map((map) => {
+                  const isYouTube = /(^|\.)youtube\.com$|(^|\.)youtu\.be$/.test(
+                    (() => {
+                      try {
+                        return new URL(map.url).hostname;
+                      } catch {
+                        return '';
+                      }
+                    })()
+                  );
+                  return (
+                    <li key={map.url}>
+                      <a
+                        className="history-event__reference-maps-link"
+                        href={map.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        {isYouTube ? (
+                          // Video links show a YouTube play-button glyph instead of
+                          // the year chip — the label (e.g. "1955") is redundant
+                          // once the icon itself says "this is a video."
+                          <svg
+                            className="history-event__reference-maps-icon"
+                            viewBox="0 0 24 17"
+                            width="24"
+                            height="17"
+                            aria-label="YouTube"
+                          >
+                            <rect width="24" height="17" rx="4" fill="#FF0000" />
+                            <polygon points="9.5,4.5 9.5,12.5 16,8.5" fill="#FFFFFF" />
+                          </svg>
+                        ) : (
+                          <span className="history-event__reference-maps-year">{map.label}</span>
+                        )}
+                        {(map.description?.[lang] || map.description?.en) && (
+                          <span className="history-event__reference-maps-desc">
+                            {convert(map.description[lang] || map.description.en)}
+                          </span>
+                        )}
+                      </a>
+                    </li>
+                  );
+                })}
               </ul>
             </div>
           )}

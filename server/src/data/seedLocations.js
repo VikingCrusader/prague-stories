@@ -25443,6 +25443,184 @@ Opevnění města vydrželo přes tři desetiletí proti všemu, co na něj bylo
 🎁 彩蛋：杰式卡广场地底下，藏着大约800米长的地下通道，最初是当作啤酒窖挖出来的，温度低、湿度稳，正好用来保鲜储物，也不止一次在火灾和围城时被当作避难所使用。地面上，塔博尔中世纪的街道被特意设计成弯弯绕绕、如同迷宫一般，就是为了让攻城的军队没法一路直冲市中心。八百年过去了，这套设计对付起游客来，效果依然拔群。`,
     },
   },
+  // New whole-complex Location, added 2026-09-02 at the user's explicit
+  // request, with user-supplied coordinates. Frees up the 'vysehrad' slug
+  // for its correct use — that slug previously held mismatched "Leopold
+  // Gate" content (a DB-only doc, never in this seed file), per this
+  // project's own standing note; that doc has been renamed in the live DB
+  // to 'vysehrad-leopold-gate' (its physical cover image file renamed to
+  // match) rather than deleted, so its content isn't lost, just correctly
+  // re-slugged — same pattern already used for the prague-castle/
+  // st-vitus-cathedral fix.
+  // - Written as an overview/entry-point card for the whole hilltop
+  //   complex, not a duplicate of the several sub-landmark cards that
+  //   already exist here (basilika-sv-petra-pavla, rotunda-sv-martina,
+  //   romansky-most-vysehrad, vysehrad-cemetery, vysehrad-wall-walkway,
+  //   vysehradsky-tunel, vysehrad-leopold-gate, byvala-vysehradska-radnice,
+  //   nadrazi-vysehrad, vysehrad-stanice-metra, vysehrad-railway-bridge) —
+  //   each of those keeps its own full depth; this card folds in only a
+  //   sentence or two on each, per the user's own instruction to focus on
+  //   the complex's overall history rather than re-litigating any one
+  //   building. Same "overview card + separately-carded sub-landmarks"
+  //   relationship kutna-hora has with st-barbara's-cathedral etc.
+  // - Facts verified via WebSearch this session: the 995 coin-minting/
+  //   c.1080 oldest-building dating already established in this project's
+  //   own founding-of-vysehrad History Timeline card; the 1003 Vršovci
+  //   massacre and 1070/1085/1092 Vratislaus II material already
+  //   established in poles-take-prague-1003 and vysehrad-revival-1070;
+  //   the 1420 Hussite siege and near-total demolition of everything but
+  //   the basilica and rotunda (new to this project, not covered by any
+  //   existing card — a real gap worth flagging for a possible future
+  //   History Timeline card of its own); the Devil's Column (Čertův
+  //   sloup) legend and its 1888 relocation into the park, confirmed as
+  //   genuine local granodiorite rather than stolen Roman marble; and
+  //   Libuše's Bath (Libušina lázeň), whose actual ruin is a 14th/15th-
+  //   century river-watch structure rather than anything Libuše-era.
+  // - rarity 'legend': a major historic fortress complex in Prague
+  //   itself, comfortably clears the bar even under the stricter
+  //   pre-2026-08-22 Prague-only reading of the legend-rarity rule.
+  // - labels: ['historical', 'architecture'] — deliberately no 'landmark'
+  //   label per this file's own standing rule for new entries, and no
+  //   invented label like the old 'castle and fortress' string some
+  //   early-batch entries (e.g. st-vitus-cathedral) carry, which isn't
+  //   actually one of LanguageContext's defined label.* keys.
+  {
+    name: 'Vyšehrad',
+    slug: 'vysehrad',
+    localizedNames: { cz: 'Vyšehrad', zh: '维谢赫拉德' },
+    labels: ['historical', 'architecture'],
+    coordinates: { lat: 50.06407990898806, lng: 14.419984541401146 },
+    rarity: 'legend',
+    xpReward: 100,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Vy%C5%A1ehrad',
+    description: {
+      en: `Welcome to Vyšehrad — the rocky bluff above the Vltava that nineteenth-century storytellers insisted was Bohemia's original seat of power, older and grander than Prague Castle itself. The archaeological record disagrees rather firmly with that claim. What's actually standing here today is a Baroque fortress wrapped around a handful of genuinely ancient survivors, and one of the best river views in the whole city.
+
+The legend has Princess Libuše ruling from this very cliff before Prague Castle even existed, delivering her famous prophecy of a great city from right here. It's a wonderful story, and almost certainly not a true one: solid evidence for Vyšehrad only starts showing up around 995, when a Bohemian duke began minting coins on the hill, and its oldest surviving building wasn't constructed until roughly 1080. The rock itself is real, dramatic, and clearly worth building two centuries of legend around regardless of the actual dates.
+
+Vyšehrad's first confirmed brush with real history wasn't a flattering one: in 1003, Duke Boleslaus III used the hill as the killing ground for a massacre of the Vršovci clan, personally cutting down his own son-in-law in the process. Its genuine golden age arrived seven decades later, under Vratislaus II. In 1070, he richly endowed Vyšehrad's own chapter of canons and placed it directly under the Pope's authority rather than his own feuding brother, the Bishop of Prague, turning the hill into a real rival power centre almost overnight. Vratislaus built up the whole site to match: a stone bridge connecting it to his own quarter, the Basilica of Saints Peter and Paul as its new centrepiece, and a small rotunda nearby, Prague's oldest still-standing building. When he became Bohemia's first king in 1085, this hill was where he actually ruled from. When he died in 1092, it was where he was buried.
+
+Vyšehrad's symbolic weight outlasted its political one. Starting with Charles IV's own 1347 coronation, every Bohemian king's crowning began not at St. Vitus but here: a procession from Prague Castle to Vyšehrad the day before, to view a pair of humble bast shoes said to have belonged to Přemysl the Ploughman, the legendary farmer who founded the whole dynasty. It was pure political theatre, a foreign-blooded king borrowing the hill's own myth to look more native, but the ritual stuck, written into the official coronation order Charles himself is credited with authoring.
+
+Then came the Hussite Wars, and Vyšehrad paid dearly for its royal associations. In 1420, Hussite forces besieged the fortress, held for Emperor Sigismund by a mixed garrison of Czech and German knights; when the relief army never arrived, the defenders surrendered, and an enraged crowd stormed in and levelled almost everything standing on the hill. Only the basilica and the little rotunda survived. For the next two centuries Vyšehrad sat mostly derelict, home to little more than a scattering of craftsmen picking through the ruins, until the Habsburgs rebuilt it from scratch after the Thirty Years' War as a modern star-shaped Baroque fortress: thick, angled bastion walls designed to deflect cannon fire, with more than a kilometre of brick casemate tunnels running underneath, now home to a gallery of the original Charles Bridge statues, safely relocated out of the weather.
+
+Vyšehrad found a third act in the 19th century, this time as a monument to Czech national identity rather than royal power: its own cemetery became the country's most exclusive resting place, reserved by law for Czechs who'd made an extraordinary contribution to the nation, composer Antonín Dvořák and Bedřich Smetana, painter Alfons Mucha, and several hundred others buried around the domed Slavín monument at its centre. Today the whole hill is a public park: walk the Baroque ramparts, duck into the brick casemates, or head for the rocky outcrop known as Libuše's Bath, where legend has the princess drowning discarded young lovers, though the ruin actually standing there is a rather less romantic 14th- or 15th-century river-traffic watchtower. Either way, the view over the Vltava from that corner of the fortress is one of the best in the city.
+
+🎁 Bonus: over in one corner of the park sits the Devil's Column, three broken chunks of stone that local legend says the Devil himself hurled down from the sky, furious after losing a bet with a priest over stealing a column from St. Peter's Basilica in Rome before Mass could end. Geologists have since confirmed the punchline: it's ordinary Bohemian granodiorite from a quarry near Sázava, not stolen Roman marble at all. Even the Devil, it turns out, couldn't out-legend this hill.`,
+
+      cz: `Vítejte na Vyšehradě — skalnatém ostrohu nad Vltavou, o kterém devatenácté století s jistotou tvrdilo, že to bylo původní, starší a velkolepější sídlo české moci než samotný Pražský hrad. Archeologické nálezy s tímto tvrzením poměrně rázně nesouhlasí. To, co tu dnes skutečně stojí, je barokní pevnost obestavěná kolem hrstky opravdu starobylých staveb, a jeden z nejlepších výhledů na řeku v celém městě.
+
+Podle pověsti odsud, z téhle skály, vládla kněžna Libuše ještě předtím, než vůbec existoval Pražský hrad, a právě zde měla pronést svou slavnou věštbu o velkém městě. Je to skvělý příběh, jen skoro určitě není pravdivý: solidní doklady o Vyšehradu se začínají objevovat až kolem roku 995, kdy tu nějaký kníže začal razit mince, a jeho nejstarší dochovaná stavba vznikla teprve kolem roku 1080. Samotná skála je ale skutečná, dramatická a evidentně stála za to, aby se kolem ní dvě stě let stavěla legenda, ať už s daty souhlasí, nebo ne.
+
+Vyšehradův první doložený střet se skutečnými dějinami nevyzněl nijak lichotivě: v roce 1003 tu kníže Boleslav III. nechal vyvraždit rod Vršovců, přičemž vlastního zetě zabil vlastnoručně. Jeho skutečný zlatý věk přišel o sedmdesát let později, za Vratislava II. V roce 1070 bohatě obdaroval vyšehradskou kapitulu a podřídil ji přímo papeži, místo vlastnímu znesvářenému bratrovi, pražskému biskupovi — a udělal tak z kopce téměř přes noc opravdové konkurenční mocenské centrum. Vratislav podle toho vybudoval celý areál: kamenný most, který ho spojil s jeho vlastním okrskem, baziliku svatého Petra a Pavla jako nové centrum celého místa, a nedalekou malou rotundu, dodnes nejstarší stojící budovu v Praze. Když se v roce 1085 stal prvním českým králem, právě odsud skutečně vládl. Když v roce 1092 zemřel, právě tady byl pohřben.
+
+Vyšehradova symbolická váha přežila jeho politickou moc o hodně dýl. Počínaje korunovací Karla IV. v roce 1347, nezačínala korunovace žádného českého krále u svatého Víta, ale právě tady: den před obřadem se průvod vydal z Pražského hradu na Vyšehrad, aby uctil prosté lýkové střevíce, o kterých se tvrdilo, že patřily Přemyslu Oráčovi, bájnému sedlákovi, který založil celou dynastii. Bylo to čisté politické divadlo — král cizí krve si vypůjčoval mýtus kopce, aby působil o něco domáčtěji — ale obřad se ujal a zapsal se do oficiálního korunovačního řádu, jehož autorství se připisuje samotnému Karlovi.
+
+Pak přišly husitské války a Vyšehrad za svou spojitost s královskou mocí draze zaplatil. V roce 1420 husitská vojska oblehla pevnost, kterou pro císaře Zikmunda drželo smíšené vojsko českých a německých rytířů; když posily nakonec nedorazily, obránci kapitulovali a rozzuřený dav vtrhl dovnitř a srovnal se zemí téměř všechno, co na kopci stálo. Přežila jen bazilika a malá rotunda. Další dvě století Vyšehrad ležel většinou v troskách, obydlený hrstkou řemeslníků prohrabávajících se sutinami, dokud ho Habsburkové po třicetileté válce znovu nepostavili od základů jako moderní hvězdicovou barokní pevnost: silné, šikmé bastionové hradby navržené tak, aby odklonily dělostřelecké koule, a pod nimi přes kilometr cihlových kasematních chodeb, dnes domov galerie originálních soch z Karlova mostu, bezpečně přemístěných z nepřízně počasí.
+
+Vyšehrad si v 19. století našel třetí dějství, tentokrát jako pomník české národní identity místo královské moci: jeho vlastní hřbitov se stal nejvýlučnějším místem posledního odpočinku v zemi, ze zákona vyhrazeným Čechům, kteří se mimořádně zasloužili o národ — skladatelé Antonín Dvořák a Bedřich Smetana, malíř Alfons Mucha a několik set dalších, pohřbených kolem kupolovitého památníku Slavín v jeho středu. Dnes je celý kopec veřejným parkem: můžete si projít barokní hradby, nahlédnout do cihlových kasemat, nebo zamířit ke skalnímu výběžku zvanému Libušina lázeň, kde podle pověsti kněžna topila odložené mladé milence, ačkoli zřícenina, která tam skutečně stojí, je mnohem méně romantická — gotická strážní věž nad říčním provozem ze 14. nebo 15. století. Ať tak či onak, výhled na Vltavu z tohohle koutu pevnosti patří k nejlepším ve městě.
+
+🎁 Bonus: v jednom koutě parku stojí Čertův sloup — tři rozlomené kusy kamene, o kterých místní pověst tvrdí, že je z nebe mrštil sám ďábel, rozzuřený poté, co prohrál sázku s knězem o to, jestli stihne ukrást sloup z římské baziliky svatého Petra, než skončí mše. Geologové od té doby potvrdili pointu: jde o obyčejný český granodiorit z lomu poblíž Sázavy, žádný ukradený římský mramor. Ani ďábel, jak se ukazuje, tenhle kopec legendami nepřekonal.`,
+
+      zh: `欢迎来到维谢赫拉德——这座俯瞰伏尔塔瓦河的岩岬，19世纪的说书人曾言之凿凿地宣称，这里才是波希米亚最初的权力中心，比布拉格城堡本身更古老、更宏伟。考古证据对这个说法可不怎么买账。今天真正矗立在这里的，是一座巴洛克要塞，把几处真正古老的遗迹包裹在其中，外加一处全城数一数二的绝佳河景。
+
+传说莉布谢公主早在布拉格城堡出现之前，就已经在这块悬崖上统治，并在此地发出了那句著名的"伟大之城"预言。这是个精彩的故事，但几乎可以肯定并非史实：关于维谢赫拉德的确凿证据，要到约995年才开始出现——那时有一位波希米亚公爵在这座山丘上铸造钱币，而它现存最古老的建筑，也要到约1080年才建成。可这座岩石本身，倒是真实存在、气势逼人，不管年代对不对得上，确实值得后人围着它讲上整整两百年的传说。
+
+维谢赫拉德第一次真正与信史打交道，可不怎么光彩：1003年，公爵博莱斯拉夫三世把这座山丘变成了屠杀维尔绍夫奇家族的刑场，甚至亲手砍死了自己的女婿。它真正的黄金时代要再等七十年，出现在弗拉季斯拉夫二世治下。1070年，他大手笔资助维谢赫拉德的教士团，把它直接挂靠到教皇名下，而不是归自己那位闹翻了的弟弟——布拉格主教——管辖，几乎是一夜之间，就把这座山丘变成了一个真正能与布拉格分庭抗礼的权力中心。弗拉季斯拉夫也据此营建了整个场地：一座石桥，把这里与他自己的辖区连接起来；圣彼得与圣保罗大教堂，成为整个场地的新中心；附近还有一座小型圆形教堂，是布拉格现存最古老的建筑。1085年，当他成为波希米亚第一位国王时，他实际统治的地方正是这座山丘。1092年他去世时，也安葬于此。
+
+维谢赫拉德的象征意义，比它的政治地位活得长久得多。从1347年查理四世本人的加冕礼开始，此后历代波希米亚国王的加冕仪式，都不是从圣维特大教堂开始，而是从这里：加冕前一天，队伍会从布拉格城堡出发前往维谢赫拉德，去瞻仰一双据说属于"犁地者"普热米斯尔的简陋草鞋——他正是那位创立整个王朝的传说农夫。这纯粹是一场政治表演：一位血统来自异邦的国王，借用这座山丘自己的神话，让自己看起来更"本地"一些——但这套仪式却就此固定了下来，被写进了据说由查理本人亲自撰写的正式加冕礼仪程序之中。
+
+接着胡斯战争爆发，维谢赫拉德为自己与王室的这层渊源付出了沉重代价。1420年，胡斯派军队围困了这座要塞——当时它由一支捷克和德意志骑士混编的守军，替西吉斯蒙德皇帝据守；援军始终没有赶到，守军投降后，愤怒的人群冲了进去，几乎把山丘上矗立的一切都夷为平地。只有那座大教堂和小小的圆形教堂幸存了下来。此后整整两个世纪，维谢赫拉德大多处于荒废状态，只住着几个在废墟中翻拣东西的工匠，直到三十年战争之后，哈布斯堡王朝才把它从头重建成一座现代化的星形平面巴洛克要塞：厚实的斜面棱堡城墙专为偏转炮弹而设计，地下还铺设了超过一公里长的砖砌地下堡道，如今则安置着一批查理大桥原版雕像的展廊，让它们得以安然躲避风吹雨打。
+
+19世纪，维谢赫拉德迎来了自己的第三段人生，这一次，它不再象征王权，而是成了捷克民族身份的纪念碑：它自己的墓园，成了全国最尊贵的长眠之地，依法只留给对国家做出过杰出贡献的捷克人——作曲家安东宁·德沃夏克与贝德里赫·斯美塔那、画家阿尔丰斯·穆夏，以及另外数百人，都安葬在中央那座圆顶的斯拉文纪念碑周围。如今，整座山丘是一座对公众开放的公园：你可以走一走巴洛克城墙，钻进砖砌的地下堡道，或者前往那处被称为"莉布谢浴场"的岩石突出部——传说公主曾在那里把玩腻了的年轻情人淹死，不过如今矗立在那里的遗迹，其实是一座远没有那么浪漫的建筑：一座14或15世纪的河道巡查瞭望塔。不管哪种说法，从要塞这一角望向伏尔塔瓦河的景色，都是全城数一数二的。
+
+🎁 彩蛋：公园的一角立着"魔鬼之柱"——三段断裂的石柱，当地传说称，它们是魔鬼本人从天上砸下来的。传说魔鬼曾与一位神父打赌，要在弥撒结束之前从罗马圣彼得大教堂偷回一根石柱，结果输掉了赌局，一怒之下把柱子从天而降地摔在了这里。地质学家后来揭穿了这个包袱：这不过是产自萨扎瓦附近采石场的普通波希米亚花岗闪长岩，根本不是什么偷来的罗马大理石。看来就连魔鬼，也没能在传说方面赢过这座山丘。`,
+    },
+  },
+  {
+    name: 'Žižka\'s Mound',
+    slug: 'zizkova-mohyla',
+    localizedNames: { cz: 'Žižkova mohyla', zh: '杰式卡纪念冢' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 49.24206841927199, lng: 14.064016526550002 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pam%C3%A1tn%C3%ADk_Jana_%C5%BDi%C5%BEky_u_Sudom%C4%9B%C5%99e',
+    description: {
+      en: `Welcome to Žižka's Mound — a sixteen-metre statue of Bohemia's most famous one-eyed general, standing guard over the exact spot where his ragtag Hussite column first proved it could survive being surrounded five to one.
+
+On 25 March 1420, Jan Žižka's small band, women and children traveling along with them, was caught on the causeway between two fishponds here, Markovec and Škaredý, by a much larger royalist force. Sheltered behind a makeshift wall of just twelve war wagons, with the drained, muddy bed of Škaredý pond blocking any direct cavalry charge, the Hussites held out through a brutal afternoon. Royalist knights who tried crossing the mud on foot got stuck fast and were cut down by lightly-armed Hussite infantry; nightfall and a sudden fog let Žižka's own column slip away before the fight could turn against them.
+
+The idea for a monument first came up for the battle's 500th anniversary in 1920, and the finished statue, designed by sculptor Emanuel Kodet and built by František Kulíř, was unveiled in 1925. It still stands between the same two ponds today, looking out over the ground where a few hundred farmers and townsfolk first proved a professional army could actually lose to them.
+
+🎁 Bonus: the pond Žižka's men sheltered against, Škaredý, translates roughly to "the ugly one." Even by South Bohemian standards, it's a modest, plain little fishpond — whoever named it clearly wasn't expecting it to end up guarding the flank of one of Bohemia's most celebrated battles.`,
+      cz: `Vítejte u Žižkovy mohyly — šestnáctimetrové sochy nejslavnějšího jednookého vojevůdce Čech, střežící přesně to místo, kde jeho nesourodý husitský houf poprvé dokázal přežít obklíčení v pětinásobné přesile.
+
+25. března 1420 zde bylo Žižkovo malé uskupení, s ženami a dětmi cestujícími v témže houfu, zaskočeno na hrázi mezi dvěma rybníky, Markovcem a Škaredým, mnohem větším královským vojskem. Kryti provizorní hradbou z pouhých dvanácti válečných vozů, s vypuštěným, bahnitým dnem rybníka Škaredého blokujícím jakýkoli přímý jízdní útok, husité vydrželi krutou odpolední bitvu. Královští rytíři, kteří se pokusili přebrodit bahno pěšky, se v něm rychle zabořili a byli pobiti lehce ozbrojenou husitskou pěchotou; noc a náhlá mlha umožnily Žižkovu houfu uniknout dřív, než se boj mohl obrátit proti nim.
+
+Myšlenka na památník vznikla u příležitosti 500. výročí bitvy v roce 1920, a hotová socha, navržená sochařem Emanuelem Kodetem a postavená Františkem Kulířem, byla odhalena v roce 1925. Dodnes stojí mezi stejnými dvěma rybníky a shlíží na místo, kde pár set sedláků a měšťanů poprvé dokázalo, že profesionální vojsko od nich může doopravdy prohrát.
+
+🎁 Bonus: rybník, za kterým se Žižkovi muži kryli, Škaredý, si svoje jméno vysloužil poctivě — i na jihočeské poměry jde o skromný, nenápadný rybníček. Ať už mu jméno dal kdokoli, sotva čekal, že jednou bude krýt bok jedné z nejslavnějších bitev v českých dějinách.`,
+      zh: `欢迎来到杰式卡纪念冢——一座高达16米的雕像，纪念波希米亚最著名的独眼将军，矗立在他那支杂牌胡斯军队第一次证明自己能在五倍兵力包围下活下来的确切地点。
+
+1420年3月25日，杰式卡的这支小部队，连同随军的妇女儿童，在马尔科维茨与什卡雷德两口鱼塘之间的堤坝上，被一支规模大得多的保皇党军队截住。他们躲在仅由十二辆战车拼成的简陋防线后面，什卡雷德鱼塘当时正好放干了水，泥泞的塘底挡住了任何正面骑兵冲锋，胡斯信徒们就此撑过了这场惨烈的午后血战。试图踏过泥地的保皇党骑士很快就陷了进去，被轻装的胡斯步兵就地击杀；夜幕降临加上突如其来的浓雾，让杰式卡的队伍得以在战局彻底逆转之前脱身而去。
+
+修建纪念碑的想法最早出现在1920年，也就是这场战役五百周年之际，由雕塑家埃马努埃尔·科德特设计、弗朗齐歇克·库利日建造的雕像最终于1925年落成揭幕。它如今依然矗立在同样的两口鱼塘之间，俯瞰着这片土地——几百名农民和市民，正是在这里第一次证明了一支职业军队真的会输给他们。
+
+🎁 彩蛋：杰式卡的部下当年据以掩护的那口鱼塘，"什卡雷德"，直译过来大致是"丑陋的那个"。就算按南波希米亚的标准看，它也不过是个其貌不扬的普通小鱼塘——不管当初是谁给它起的这个名字，恐怕都没想到，它有一天会守卫波希米亚最著名的一场战役的侧翼。`,
+    },
+  },
+  // New entry, 2026-09-02, at the user's own request and supplied
+  // coordinates — the surviving/replanted vineyard slope on Vítkov hill,
+  // sourced via WebSearch (horydoly.cz, kudyznudy.cz, Pražský deník's own
+  // 2020 piece on the 2019 replanting). Worth noting: the hill's own name
+  // traces to a Prague town councillor, Vítek z Hory, who owned vineyard
+  // land here — a different man entirely from Vítek of Prčice, founder of
+  // the Vítkovci noble clan covered elsewhere in this project
+  // (who-are-the-vitkovci-1276 et al.) — flagged explicitly in the prose
+  // to head off the obvious name-collision confusion. The battle-day detail
+  // (originally: Prague's reinforcements cutting through these vineyards to
+  // outflank the crusader cavalry; revised same day, later, at the user's
+  // own request, to the simpler and better-attested fact that this was the
+  // slope the Austrian/Meissen cavalry themselves stormed up to reach the
+  // hill — see victory-at-vitkov-hill-1420's own dev comments for why the
+  // reinforcement/flanking detail was dropped from that card's prose) is
+  // stated as a standalone fact about this place, not a cross-reference to
+  // the History Timeline card itself, per the standing Location/Timeline
+  // separation rule.
+  {
+    name: 'Vítkov Vineyard Slope',
+    slug: 'vinicni-svah-vitkov',
+    localizedNames: { cz: 'Viniční svah Vítkov', zh: '维特科夫葡萄园坡' },
+    labels: ['nature', 'historical'],
+    coordinates: { lat: 50.08821061930932, lng: 14.454059872734309 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to the Vítkov Vineyard Slope, a modest strip of vines on the very hill where sixty Hussite defenders once broke an army of thousands. Medieval Prague, it turns out, was quietly growing grapes here the whole time.
+
+The first record of vineyards on this slope goes back to 1348. The hill itself takes its name from one of the vintners who owned land here, a Prague town councillor named Vítek z Hory (a different Vítek entirely from the noble Vítek of Prčice, whose own descendants built a very different kind of legacy further south). Charles IV actively encouraged the planting, ordering vineyards laid out across Prague's hillsides during his own reign, and by the time of Rudolf II the city counted something like two thousand vineyards covering over seven hundred hectares.
+
+The vines were still here on 13 July 1420, the day Austrian and Meissen cavalry stormed straight up this same slope to reach the hill above. Centuries of war, urban sprawl, traffic, weather, and plain neglect steadily wore the city's vineyards down after that, and by the mid-20th century Prague's vine-covered hillsides had all but vanished from the map.
+
+🎁 Bonus: this particular patch came back in 2019, replanted as a small fragment of that older landscape, roughly 1,300 square metres and some 686 vines climbing the slope toward the memorial above. It does double duty as a park entrance from Tachovské náměstí and as quiet erosion control, holding the hillside together the same way vineyards here always have.`,
+      cz: `Vítejte na Viničním svahu Vítkov, skromném pásu vinné révy přímo na kopci, kde šedesát husitských obránců kdysi zlomilo vojsko v tisících. Středověká Praha tu celou dobu potichu pěstovala víno, aniž by o tom kdekdo věděl.
+
+První zmínka o vinicích na tomhle svahu sahá až do roku 1348. Sám kopec nese jméno po jednom z vinařů, kteří tu vlastnili pozemky, pražském konšelovi jménem Vítek z Hory (jiném Vítkovi, než byl Vítek z Prčice, zakladatel šlechtického rodu, jehož potomci si vybudovali úplně jiný druh dědictví dál na jihu). Karel IV. zakládání vinic aktivně podporoval a za jeho vlády se vinice na pražských svazích vysazovaly cíleně, a do doby Rudolfa II. jich v Praze bylo něco kolem dvou tisíc, na ploše přes sedm set hektarů.
+
+Réva tu rostla ještě 13. července 1420, v den, kdy po tomhle stejném svahu vzhůru zaútočila rakouská a míšeňská jízda, aby se dostala ke kopci nad ním. Staletí válek, rozrůstající se zástavby, dopravy, počasí i prosté zanedbanosti pak pražské vinice postupně sešlapala, a do poloviny 20. století z mapy města prakticky zmizely.
+
+🎁 Bonus: tenhle konkrétní kousek se vrátil v roce 2019, znovu vysazený jako malý fragment té starší krajiny, na ploše zhruba 1300 metrů čtverečních, s asi 686 keři révy stoupajícími po svahu k památníku nahoře. Slouží zároveň jako vstupní brána do parku od Tachovského náměstí i jako tiché zpevnění svahu, drží kopec pohromadě přesně tak, jako to tu vinice odjakživa dělaly.`,
+      zh: `欢迎来到维特科夫葡萄园坡，山坡上一小片葡萄藤，就长在这座山丘上，六十名胡斯守军曾在此击溃了一支数千人的大军。原来，中世纪的布拉格，一直悄悄在这里种着葡萄。
+
+关于这片山坡上葡萄园的最早记载，可以追溯到1348年。这座山丘的名字，就来自一位在此拥有葡萄园地的酿酒人，一位布拉格市议员，名叫维捷克·兹·霍雷（这位维捷克，跟普尔奇采的维捷克并非同一个人，后者是一个贵族世家的开创者，其后人在更南边打下了一份完全不同的家业）。查理四世在位期间，大力推动葡萄园的兴建，下令在布拉格四周山坡上广植葡萄，到鲁道夫二世时期，全城葡萄园已经多达约两千处，占地超过七百公顷。
+
+1420年7月13日那天，这片葡萄藤依然长在这里——那正是奥地利与迈森骑兵沿着这同一道山坡强攻而上、直扑山顶的日子。此后几个世纪里，战乱、城市扩张、交通建设、天气以及无人打理，逐渐蚕食了布拉格的葡萄园，到20世纪中叶，布拉格城内那些满是葡萄藤的山坡，几乎已经从地图上彻底消失了。
+
+🎁 彩蛋：这一小片葡萄园在2019年重新种下，作为那片旧日风景的一小块残迹复原，占地约1300平方米，约686株葡萄藤沿着山坡一路爬向山顶的纪念碑。它如今身兼两职：既是从塔霍夫斯凯广场进入公园的一道优雅入口，也在默默地稳固着这片山坡，就像这里的葡萄园历来所做的那样。`,
+    },
+  },
 ];
 
 async function run() {

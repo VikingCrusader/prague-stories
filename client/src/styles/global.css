@@ -377,8 +377,6 @@ html[data-lang="zh"] .history-landmark-caption,
 html[data-lang="zh"] .history-drag-hint,
 html[data-lang="zh"] .history-era-divider__tagline,
 html[data-lang="zh"] .history-era-divider__years,
-html[data-lang="zh"] .history-event__reference-maps-label,
-html[data-lang="zh"] .history-event__reference-maps-caption,
 html[data-lang="zh"] .history-event__reference-maps-link,
 html[data-lang="zh"] .history-sidebar__item-title,
 html[data-lang="zh"] .history-sidebar__item-year,
@@ -431,7 +429,9 @@ html[data-lang="zh"] .history-event__hook {
    unconditionally — so pinned upright, ZH only. 2026-08-24 per explicit
    request. */
 html[data-lang="zh"] .history-event__quote-text,
-html[data-lang="zh"] .history-event__quote-attribution {
+html[data-lang="zh"] .history-event__quote-attribution,
+html[data-lang="zh"] .history-event__reference-maps-label,
+html[data-lang="zh"] .history-event__reference-maps-caption {
   font-family: "LXGW WenKai TC", "Noto Serif SC", "Noto Serif TC", serif !important;
 }
 html[data-lang="zh"] .history-event__quote-text {

@@ -63,10 +63,13 @@ const historyEventSchema = new mongoose.Schema({
   quotes: [chronicleQuoteSchema],
   relatedLandmarks: [relatedLandmarkSchema],
   wikipediaUrl: { type: String, default: '' },
-  // Optional links out to an external interactive historical-border map
-  // (e.g. oldmapsonline.org's TimeMap) for specific years mentioned in the
-  // event — lets a territorial-change event point at real cartographic
-  // sources instead of (or until) a custom illustrated map exists.
+  // Optional links out to an external reference for the event — originally
+  // built for historical-border maps (e.g. oldmapsonline.org's TimeMap) so
+  // a territorial-change event could point at real cartographic sources
+  // instead of (or until) a custom illustrated map exists, but reused as
+  // of 2026-09-02 for any short external reference worth surfacing this
+  // way (e.g. a film clip depicting the event) — hence the frontend label
+  // reading generically ("More on this:") rather than map-specific.
   referenceMaps: { type: referenceMapsSchema, default: () => ({}) },
   // Optional static illustration(s) for the section banner — path(s) under
   // client/public (e.g. '/history/prehistory.webp'), same convention as
