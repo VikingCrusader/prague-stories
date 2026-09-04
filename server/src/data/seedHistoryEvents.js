@@ -26,6 +26,13 @@ export const historyEvents = [
       zh: "史前时代至公元6世纪",
     },
     images: ["/history/prehistory.webp"],
+    imageCaptions: [
+      {
+        en: "Four waves of settlement on the same land, centuries apart: Celtic Boii warriors, arriving Germanic tribes, a Slavic farming village, and finally Libuše prophesying Prague's founding from a cliff above the river.",
+        cz: "Čtyři vlny osídlení na téže zemi, každá o staletí dál: keltští Bójové, přicházející germánské kmeny, slovanská zemědělská vesnice a nakonec Libuše, prorokující ze skály nad řekou založení Prahy.",
+        zh: "同一片土地上先后四波居民，相隔数个世纪：凯尔特波伊人、迁入的日耳曼部落、斯拉夫农耕村落，最后是莉布谢站在河边悬崖上，预言布拉格的诞生。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Before the Legend",
@@ -80,6 +87,13 @@ export const historyEvents = [
       zh: "8世纪（传说）",
     },
     images: ["/history/libuse.webp"],
+    imageCaptions: [
+      {
+        en: "Libuše stands on the cliff above the river, arms spread wide, prophesying the city's founding while her assembled elders look on.",
+        cz: "Libuše stojí na skále nad řekou, s rozpjatýma rukama věští založení města, zatímco ji sledují shromáždění stařešinové.",
+        zh: "莉布谢站在河边悬崖上，张开双臂，向身后聚集的长老们预言这座城市的建立。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Libuše's Prophecy",
@@ -134,6 +148,13 @@ export const historyEvents = [
       zh: "8世纪（传说）",
     },
     images: ["/history/premysl.webp"],
+    imageCaptions: [
+      {
+        en: "Left: Přemysl still at his plough when the riderless horse arrives to fetch him. Right: the same ploughman, now enthroned beside Libuše as Bohemia's first duke.",
+        cz: "Vlevo: Přemysl ještě u pluhu, ve chvíli, kdy pro něj přijíždí osamocený kůň. Vpravo: tentýž oráč, teď na trůně vedle Libuše jako první český kníže.",
+        zh: "左：普热米斯尔仍在田间扶犁，独自折返的信使之马正好赶到。右：同一个农夫，如今已与莉布谢并肩端坐王座，成为波希米亚的第一位公爵。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Přemysl the Ploughman",
@@ -172,6 +193,13 @@ export const historyEvents = [
       zh: "8世纪（传说）",
     },
     images: ["/history/sarka.webp"],
+    imageCaptions: [
+      {
+        en: "Šárka chained to a tree as bait, luring the enemy commander's soldiers toward the ambush her fellow warrior women lie waiting in among the rocks.",
+        cz: "Šárka přivázaná ke stromu jako návnada láká vojáky nepřátelského velitele do léčky, v níž mezi skalami číhají její bojovnice.",
+        zh: "沙尔卡被锁在树上充当诱饵，引诱敌方指挥官的士兵们走向岩石间埋伏的女战士们设下的陷阱。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Girls' War",
@@ -235,6 +263,13 @@ export const historyEvents = [
       zh: "传说为8世纪；有据可查的历史为10世纪",
     },
     images: ["/history/vysehrad.webp"],
+    imageCaptions: [
+      {
+        en: "A crowned duke and duchess look on from a balcony as workers raise Vyšehrad's walls and timber halls on the cliff above the river.",
+        cz: "Korunovaný kníže s kněžnou přihlížejí z balkonu, jak dělníci zvedají hradby a dřevěné síně Vyšehradu na skále nad řekou.",
+        zh: "戴着王冠的公爵与公爵夫人在阳台上俯瞰，工匠们正在河边悬崖上筑起维谢赫拉德的城墙与木构厅堂。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Founding of Vyšehrad",
@@ -273,6 +308,13 @@ export const historyEvents = [
       zh: "约730年－867年（七位传说公爵）",
     },
     images: ["/history/seven-dukes.webp"],
+    imageCaptions: [
+      {
+        en: "Horymír and his horse Šemík leap from the cliff edge, escaping the armed crowd massed at the fortress gate behind them.",
+        cz: "Horymír na svém koni Šemíkovi skáče ze skalního srázu a uniká ozbrojenému davu shromážděnému u brány pevnosti za nimi.",
+        zh: "霍里米尔骑着爱马舍米克从悬崖边纵身一跃，甩开了身后聚集在城堡大门口的持械人群。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Seven Dukes and One Good Story",
@@ -327,6 +369,13 @@ export const historyEvents = [
       zh: "约870年（信史的开端）",
     },
     images: ["/history/borivoj-first-duke.webp"],
+    imageCaptions: [
+      {
+        en: "Bořivoj kneels in homage before the enthroned Great Moravian ruler, a churchman standing by with crozier and book.",
+        cz: "Bořivoj klečí v hold před trůnícím velkomoravským panovníkem, po boku stojí duchovní s berlou a knihou.",
+        zh: "博日沃伊跪地向端坐王座的大摩拉维亚统治者宣誓效忠，一旁站着手持权杖与经书的教士。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Where the Legend Ends",
@@ -365,6 +414,13 @@ export const historyEvents = [
       zh: "883年－885年",
     },
     images: ["/history/borivoj-conversion-and-exile.webp"],
+    imageCaptions: [
+      {
+        en: "Seated on the floor among the feasting guests, Bořivoj receives Methodius's blessing, the bishop's raised hand promising him dominion over the very nobles now watching him from the tables.",
+        cz: "Bořivoj, sedící na podlaze mezi hodujícími hosty, přijímá Metodějovo požehnání; biskupova zdvižená ruka mu slibuje vládu právě nad těmi velmoži, kteří ho teď sledují od stolů.",
+        zh: "博日沃伊坐在地上，混在赴宴的宾客之间，接受美多德的祝福；这位主教举起的手，正应许他日后将统治此刻从餐桌旁注视着他的这些贵族。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Baptized, Deposed, Restored",
@@ -411,6 +467,13 @@ export const historyEvents = [
       zh: "9世纪80年代（确切年份尚有争议）",
     },
     images: ["/history/founding-of-prague-castle.webp"],
+    imageCaptions: [
+      {
+        en: "A small stone church stands alone on the hilltop above the river as settlers and their loaded cart climb the path toward it.",
+        cz: "Na návrší nad řekou stojí osamocený kamenný kostelík, zatímco osadníci s naloženým vozem stoupají po cestě k němu.",
+        zh: "河边高地上，一座石砌小教堂孤零零地立着，一队拉着满载马车的移民正沿小路向上而来。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Birth of Prague Castle",
@@ -449,6 +512,13 @@ export const historyEvents = [
       zh: "895年（正式脱离于898年完成）",
     },
     images: ["/history/bohemia-independence-895.webp"],
+    imageCaptions: [
+      {
+        en: "A Bohemian duke kneels to swear his oath directly to the East Frankish king at Regensburg, a sword laid across the book between them.",
+        cz: "Český kníže klečí, aby složil přísahu přímo východofranskému králi v Řezně, mezi nimi na knize leží položený meč.",
+        zh: "一位波希米亚公爵跪地，直接向雷根斯堡的东法兰克国王宣誓效忠，两人之间的书卷上横放着一把剑。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Cutting Loose from Great Moravia",
@@ -487,6 +557,13 @@ export const historyEvents = [
       zh: "883年（受洗）－921年（殉道）",
     },
     images: ["/history/ludmila.webp"],
+    imageCaptions: [
+      {
+        en: "Ludmila prays at her small altar, unaware of the two hooded assassins slipping in behind her with the scarf that will end her life.",
+        cz: "Ludmila se modlí u svého skromného oltáře, netuší, že se za ní vplížili dva zahalení vrazi se šálou, jíž jí vezmou život.",
+        zh: "鲁德米拉在自己简朴的祭坛前祈祷，浑然不知两名蒙面刺客已悄悄潜入身后，手中攥着那条即将夺去她性命的丝巾。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "St. Ludmila — Christianization & Martyrdom",
@@ -589,6 +666,13 @@ export const historyEvents = [
       zh: "924年－935年（在位期间）",
     },
     images: ["/history/wenceslas-life-and-reign.webp"],
+    imageCaptions: [
+      {
+        en: "Wenceslas, holding a golden reliquary, gestures toward the round church rising on the hill behind him as monks and masons work the stone.",
+        cz: "Václav, s pozlaceným relikviářem v rukou, ukazuje na kruhový kostel vyrůstající na kopci za ním, zatímco mniši a kameníci opracovávají kámen.",
+        zh: "瓦茨拉夫手捧一只镀金的圣物匣，指向身后山丘上正在兴建的圆形教堂，修士与石匠们在一旁忙碌地凿石砌墙。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Wenceslas, the Good Duke",
@@ -667,6 +751,13 @@ export const historyEvents = [
       zh: "935年（传统纪年）",
     },
     images: ["/history/st-wenceslas-murder.webp"],
+    imageCaptions: [
+      {
+        en: "Wounded, Wenceslas reaches for the church door's handle as his own attacker follows behind with a bloodied sword.",
+        cz: "Zraněný Václav sahá po klice kostelních dveří, zatímco za ním jde jeho vlastní útočník se zakrváceným mečem.",
+        zh: "身负重伤的瓦茨拉夫伸手去拉教堂大门的门环，身后紧跟着的凶手手中还握着染血的长剑。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Brother Against Brother",
@@ -721,6 +812,13 @@ export const historyEvents = [
       zh: "955年",
     },
     images: ["/history/lechfeld-955.webp"],
+    imageCaptions: [
+      {
+        en: "Armored cavalry press forward across the battlefield as the lightly armed Magyar horsemen scatter and flee in the distance.",
+        cz: "Obrněná jízda postupuje přes bojiště, zatímco lehce ozbrojení maďarští jezdci se v dálce rozprchávají na útěk.",
+        zh: "全副武装的骑兵大军在战场上大举推进，远处装备轻便的马扎尔骑兵已四散溃逃。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Fratricide's Other Legacy",
@@ -794,6 +892,13 @@ export const historyEvents = [
       zh: "965年",
     },
     images: ["/history/bohemia-poland-alliance-965.webp"],
+    imageCaptions: [
+      {
+        en: "Doubravka clasps hands with Mieszko across the table, a Christian altar on one side of the hall and pagan idols still standing on the other.",
+        cz: "Doubravka si přes stůl podává ruku s Měškem, na jedné straně síně stojí křesťanský oltář, na druhé ještě pohanské modly.",
+        zh: "多布拉娃隔着桌子与梅什科握手，大厅一侧摆着基督教祭坛，另一侧却还立着异教神像。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "A Seat at the Table",
@@ -841,6 +946,13 @@ export const historyEvents = [
       zh: "973年",
     },
     images: ["/history/prague-bishopric-973.webp"],
+    imageCaptions: [
+      {
+        en: "A veiled Bohemian princess kneels before the enthroned pope in Rome, the charter for Prague's new bishopric held up beside her.",
+        cz: "Zahalená česká kněžna klečí před papežem trůnícím v Římě, vedle ní je vztyčena listina zakládající pražské biskupství.",
+        zh: "一位戴着面纱的波希米亚公主跪在罗马教皇座前，身旁高举着那份设立布拉格主教区的特许状。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Princess Who Went to Rome",
@@ -887,6 +999,13 @@ export const historyEvents = [
       zh: "990年",
     },
     images: ["/history/polish-bohemian-war-990.webp"],
+    imageCaptions: [
+      {
+        en: "A child duke sits enthroned between two women as Polish and Bohemian banner-bearers face off on opposite sides of the hall, the once-shared alliance now split in two.",
+        cz: "Dětský kníže sedí na trůně mezi dvěma ženami, zatímco polští a čeští praporečníci stojí proti sobě na opačných stranách síně, kdysi společné spojenectví je teď rozdělené na dvě.",
+        zh: "一位年幼的公爵端坐王座，两侧各有一位女性陪伴，波兰与波希米亚的旗手分立大厅两端、彼此对峙，昔日的同盟如今已一分为二。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Picking the Wrong Side",
@@ -959,6 +1078,13 @@ export const historyEvents = [
       zh: "995年（9月28日）",
     },
     images: ["/history/libice-massacre-995.webp"],
+    imageCaptions: [
+      {
+        en: "A duke raises his hand to give the order as his soldiers storm the Slavník stronghold behind him, smoke already rising over the walls.",
+        cz: "Kníže zvedá ruku a dává povel, zatímco jeho vojáci útočí na slavníkovské hradiště za jeho zády, nad hradbami už stoupá kouř.",
+        zh: "一位公爵举手下令，他的士兵们已在身后攻打斯拉夫尼克家族的城寨，浓烟已从城墙上方升起。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Same Date, Again",
@@ -997,6 +1123,13 @@ export const historyEvents = [
       zh: "983年－997年（任主教至殉道）",
     },
     images: ["/history/st-adalbert-martyrdom-997.webp"],
+    imageCaptions: [
+      {
+        en: "Adalbert stands calm and unarmed, crucifix in hand, as Prussian warriors close in with spears from both sides.",
+        cz: "Vojtěch stojí klidně a beze zbraně, s křížem v ruce, zatímco se k němu ze všech stran s kopími blíží pruští bojovníci.",
+        zh: "沃伊捷赫平静地站立，手无寸铁，只握着一支十字架，普鲁士战士们手持长矛从两侧步步逼近。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "St. Adalbert — The Bishop Who Kept Leaving",
@@ -1075,6 +1208,13 @@ export const historyEvents = [
       zh: "1002年",
     },
     images: ["/history/vladivoj-imperial-fief-1002.webp"],
+    imageCaptions: [
+      {
+        en: "Vladivoj kneels unsteadily before the enthroned emperor, a spilled goblet on the floor beside him.",
+        cz: "Vladivoj se vratce klaní před trůnícím císařem, vedle něj na podlaze leží převržený pohár.",
+        zh: "弗拉迪沃伊摇摇晃晃地跪在端坐王座的皇帝面前，身旁地上滚落着一只打翻的酒杯。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Drunkard Who Outlasted Himself",
@@ -1138,6 +1278,18 @@ export const historyEvents = [
       zh: "1003年－1004年",
     },
     images: ["/history/vysehrad-massacre-1003.webp", "/history/poles-take-prague-1003.webp"],
+    imageCaptions: [
+      {
+        en: "A massacre erupts mid-feast at Vyšehrad, the guests cut down at the very table where they'd been dining moments before.",
+        cz: "Uprostřed hostiny na Vyšehradě propuká masakr, hosté padají přímo u stolu, u kterého ještě před chvílí hodovali.",
+        zh: "维谢赫拉德的一场宴席上突然爆发屠杀，宾客们就在自己刚刚还在举杯畅饮的餐桌旁，一个接一个倒下。",
+      },
+      {
+        en: "Bolesław the Brave rides through Prague's open gate under Polish banners, the city's own people bowing as he passes.",
+        cz: "Boleslav Chrabrý vjíždí otevřenou pražskou branou pod polskými praporci, obyvatelé města se před ním sklánějí.",
+        zh: "波列斯瓦夫一世在波兰旗帜的簇拥下，骑马穿过洞开的布拉格城门，城中百姓在他经过时躬身行礼。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Duke Who Misplaced a Country",
@@ -1176,6 +1328,13 @@ export const historyEvents = [
       zh: "1004年－1018年",
     },
     images: ["/history/oldrich-blinds-jaromir-1012.webp"],
+    imageCaptions: [
+      {
+        en: "Jaromír is held kneeling as a heated iron is brought toward his face, Oldřich watching with arms crossed.",
+        cz: "Jaromíra drží klečícího, zatímco se k jeho tváři blíží rozžhavené železo, Oldřich přihlíží se založenýma rukama.",
+        zh: "雅罗米尔被按跪在地，一根烧红的铁器正朝他的脸凑近，奥尔德日赫双臂抱胸在一旁冷眼旁观。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Family Tradition?",
@@ -1230,6 +1389,13 @@ export const historyEvents = [
       zh: "约1019年－1021年",
     },
     images: ["/history/kidnapped-duchess-1019.webp"],
+    imageCaptions: [
+      {
+        en: "Břetislav rides off by night with Judith from her Schweinfurt convent, torchbearers close behind and a nun watching from the doorway.",
+        cz: "Břetislav odjíždí s Jitkou od jejího schweinfurtského kláštera nocí, těsně za nimi jedou muži s pochodněmi, jeptiška je sleduje ze dveří.",
+        zh: "布热季斯拉夫连夜带着尤迪特从她在施瓦因富特的修道院骑马离去，几名举着火把的随从紧随其后，一名修女在门口目送他们离去。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Kidnapped Duchess",
@@ -1268,6 +1434,13 @@ export const historyEvents = [
       zh: "1029年－1041年（军事生涯）",
     },
     images: ["/history/bohemian-achilles-1029.webp"],
+    imageCaptions: [
+      {
+        en: "Břetislav rides before his own troops beneath the Bohemian lion banner as a burning stronghold smokes in the distance and monks carry a coffin past the battle lines.",
+        cz: "Břetislav jede před svým vojskem pod praporem českého lva, v dálce doutná vypálená pevnost a mniši nesou kolem bojové linie rakev.",
+        zh: "布热季斯拉夫在波希米亚狮旗下率军而行，远处一座要塞正燃着大火，几名修士抬着一口棺材从战线旁经过。",
+      },
+    ],
     tone: "serious",
     title: {
       en: "The Bohemian Achilles",
@@ -1314,6 +1487,13 @@ export const historyEvents = [
       zh: "1054年－1055年",
     },
     images: ["/history/bretislav-succession-law-1055.webp"],
+    imageCaptions: [
+      {
+        en: "On his deathbed in an army tent, Břetislav gestures as his sons kneel together holding the same staff, being made to swear to his new succession rule.",
+        cz: "Na smrtelném loži ve vojenském stanu Břetislav gestikuluje, zatímco jeho synové společně klečí a drží tutéž hůl, zavazováni k jeho novému nástupnickému pravidlu.",
+        zh: "布热季斯拉夫躺在军帐中的病榻上，气若游丝地打着手势，几个儿子并排跪地、共同握着同一根权杖，被要求宣誓遵守他新定下的继承规矩。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Rule That Explains Everything After",
@@ -1360,6 +1540,13 @@ export const historyEvents = [
       zh: "1070年",
     },
     images: ["/history/vysehrad-revival-1070.webp"],
+    imageCaptions: [
+      {
+        en: "Left: a knight raises his sword in victory at Langensalza. Right: his brother, now renamed Gebhard, kneels to receive the bishop's staff instead.",
+        cz: "Vlevo: rytíř vítězně zvedá meč u Langensalzy. Vpravo: jeho bratr, nyní přejmenovaný na Gebharda, klečí a přijímá místo toho biskupskou berlu.",
+        zh: "左：一名骑士在朗根萨尔察战场上举剑庆祝胜利。右：他的兄弟，如今改名为格布哈德，跪地领受的却是主教权杖。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Brother Rivalry",
@@ -1430,6 +1617,13 @@ export const historyEvents = [
       zh: "1080年－1083年",
     },
     images: ["/history/vratislaus-emperors-fireman-1081.webp"],
+    imageCaptions: [
+      {
+        en: "Vratislaus's forces clash with the Saxon rebels at Flarchheim, a fallen imperial standard lying in the snow between them.",
+        cz: "Vratislavovo vojsko se u Flarchheimu střetává se saskými rebely, mezi nimi v padlém sněhu leží ztracený říšský korouhevní kříž.",
+        zh: "弗拉季斯拉夫的军队在弗拉尔希海姆与萨克森叛军激战，一面倒落的帝国十字权杖旗躺在双方之间的雪地上。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Emperor's Fireman",
@@ -1459,6 +1653,13 @@ export const historyEvents = [
       zh: "1085年－1092年",
     },
     images: ["/history/vratislaus-ii-first-crown-1085.webp"],
+    imageCaptions: [
+      {
+        en: "Vratislaus and his wife kneel together as two archbishops lower crowns onto both their heads at once.",
+        cz: "Vratislav se svou manželkou klečí společně, zatímco jim dva arcibiskupové zároveň nasazují koruny na hlavu.",
+        zh: "弗拉季斯拉夫与妻子并肩跪地，两位大主教同时为二人加冕。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Bohemia's First Borrowed Crown",
@@ -1513,6 +1714,13 @@ export const historyEvents = [
       zh: "1092年－1125年",
     },
     images: ["/history/duke-go-round-1092.webp"],
+    imageCaptions: [
+      {
+        en: "Fortune turns her wheel of dukes: one enthroned at the top, one falling, one climbing, and one already broken at the bottom.",
+        cz: "Štěstěna otáčí svým kolem knížat: jeden trůní nahoře, druhý padá, třetí šplhá vzhůru a čtvrtý už leží zlomený u paty kola.",
+        zh: "命运女神转动着这架公爵之轮：一人高踞顶端，一人正在坠落，一人努力向上攀爬，还有一人已经跌落在轮底，粉身碎骨。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Duke-Go-Round",
@@ -1593,6 +1801,13 @@ export const historyEvents = [
       zh: "1126年（2月18日）",
     },
     images: ["/history/chlumec.webp"],
+    imageCaptions: [
+      {
+        en: "St. Wenceslas himself, in white and mounted on a white horse, is said to have ridden into the mountain-pass ambush alongside Soběslav's own troops.",
+        cz: "Sám svatý Václav, oděný v bílém a jedoucí na bílém koni, měl podle pověsti jet do léčky v horském průsmyku po boku Soběslavových vojáků.",
+        zh: "据传，圣瓦茨拉夫本人身着白袍、骑着白马，与索别斯拉夫的军队一同冲入了这场山口伏击战。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Bohemian War of Succession",
@@ -1668,6 +1883,13 @@ export const historyEvents = [
       zh: "1142年（4月－6月）",
     },
     images: ["/history/siege-of-prague-1142.webp"],
+    imageCaptions: [
+      {
+        en: "A commander directs the assault below the castle walls as fire spreads across the hilltop basilica behind them.",
+        cz: "Velitel řídí útok pod hradbami hradu, zatímco za nimi se po vrcholu kopce šíří oheň, který zachvátil baziliku.",
+        zh: "一位指挥官在城墙下指挥进攻，身后山顶的大教堂已被大火吞噬，火势正不断蔓延。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Siege of Prague Castle",
@@ -1722,6 +1944,13 @@ export const historyEvents = [
       zh: "1147年－1148年",
     },
     images: ["/history/vladislaus-ii-crusade-1147.webp"],
+    imageCaptions: [
+      {
+        en: "Vladislaus II leads his Bohemian troops along the shore opposite Constantinople, the great domed Hagia Sophia rising across the water.",
+        cz: "Vladislav II. vede své české oddíly podél břehu naproti Konstantinopoli, přes vodu se tyčí velká kupolovitá Hagia Sofia.",
+        zh: "弗拉季斯拉夫二世率领波希米亚军队沿岸行进，对岸正是君士坦丁堡，圆顶的圣索菲亚大教堂隔水耸立。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Crusade He Didn't Finish",
@@ -1785,6 +2014,13 @@ export const historyEvents = [
       zh: "1158年－1173年",
     },
     images: ["/history/vladislaus-ii-second-crown-1158.webp"],
+    imageCaptions: [
+      {
+        en: "Barbarossa crowns Vladislaus II on the battlefield outside Milan, siege engines and burning walls still smoking behind them.",
+        cz: "Barbarossa korunuje Vladislava II. přímo na bojišti před Milánem, za nimi ještě doutnají obléhací stroje a hořící hradby.",
+        zh: "巴巴罗萨在米兰城外的战场上为弗拉季斯拉夫二世加冕，身后攻城器械与燃烧的城墙依然烟雾弥漫。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Bohemia's Second Borrowed Crown",
@@ -1848,6 +2084,13 @@ export const historyEvents = [
       zh: "约1170年",
     },
     images: ["/history/judith-bridge-1170.webp"],
+    imageCaptions: [
+      {
+        en: "Vladislaus and Judith stand together on the new stone bridge, masons still finishing its stonework nearby.",
+        cz: "Vladislav a Jitka stojí spolu na novém kamenném mostě, opodál kameníci ještě dokončují jeho kamennou konstrukci.",
+        zh: "弗拉季斯拉夫与犹滴特并肩站在这座新建的石桥上，石匠们仍在一旁修整着桥身的石作。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The River's First Bridge",
@@ -1889,6 +2132,18 @@ export const historyEvents = [
       "/history/quarter-century-of-dukes-1173-frederick.webp",
       "/history/quarter-century-of-dukes-1173-otakar.webp",
     ],
+    imageCaptions: [
+      {
+        en: "Frederick rides at the head of his own returning troops, fighting his way back toward the castle across the snow.",
+        cz: "Fridrich jede v čele svých navracejících se vojsk a probíjí se sněhem zpátky k hradu.",
+        zh: "弗雷德里克率军归来，一路在雪地上浴血奋战，杀回城堡。",
+      },
+      {
+        en: "Otakar I hands the ducal sceptre to Vladislaus III, a wheel-of-fortune rose window watching from the wall behind them.",
+        cz: "Otakar I. předává vévodské žezlo Vladislavu III., ze zdi za nimi na ně shlíží kolo štěstěny vyvedené v rozetovém okně.",
+        zh: "奥托卡一世将公爵权杖交给弗拉季斯拉夫三世，身后墙上那扇命运之轮圆花窗静静俯视着这一幕。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Most Calculating Přemyslid",
@@ -1927,6 +2182,13 @@ export const historyEvents = [
       zh: "1198年（加冕），1212年（确立世袭）",
     },
     images: ["/history/otakar-hereditary-kingdom-1198.webp"],
+    imageCaptions: [
+      {
+        en: "Otakar I receives the sealed charter making Bohemia's crown hereditary, Bohemian lion banners filling the hall around him.",
+        cz: "Otakar I. přijímá zapečetěnou listinu, která činí českou korunu dědičnou, síň kolem něj zaplňují praporce s českým lvem.",
+        zh: "奥托卡一世接过那份让波希米亚王位从此世袭的钤印特许状，大厅内四周尽是波希米亚狮旗。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "A Crown That Finally Stuck",
@@ -1982,6 +2244,13 @@ export const historyEvents = [
       zh: "1199年－1230年",
     },
     images: ["/history/otakar-i-family-purge-1199.webp"],
+    imageCaptions: [
+      {
+        en: "Otakar I presents his young son as heir before the kneeling court, while a rival branch of the family stands apart on the sidelines.",
+        cz: "Otakar I. představuje svého malého syna jako dědice před klečícím dvorem, zatímco soupeřící větev rodiny stojí opodál stranou.",
+        zh: "奥托卡一世在跪拜的宫廷面前，正式将年幼的儿子立为继承人，而家族中被排挤的那一支则被冷落在一旁。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "A Divorce, So His Son Could Be King",
@@ -2053,6 +2322,13 @@ export const historyEvents = [
       zh: "1211年－1282年",
     },
     images: ["/history/st-agnes-of-bohemia-1211.webp"],
+    imageCaptions: [
+      {
+        en: "Agnes, a halo already about her, hands back the crown a kneeling suitor offers, choosing a different King entirely.",
+        cz: "Anežka, již ozářená svatozáří, vrací korunu, kterou jí nabízí klečící nápadník, a volí si docela jiného krále.",
+        zh: "阿格尼丝头顶已现出光环，将跪地求婚者奉上的王冠推还回去，选择了另一位王。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Bohemian Princess Who Refused the Emperor",
@@ -2138,6 +2414,13 @@ export const historyEvents = [
       zh: "13世纪30年代－50年代",
     },
     images: ["/history/stone-prague-1230.webp"],
+    imageCaptions: [
+      {
+        en: "Stone walls rise on one side of town while timber buildings still stand on the other, German settlers laying the new masonry.",
+        cz: "Na jedné straně města se zvedají kamenné hradby, na druhé ještě stojí dřevěné domy, němečtí osadníci pokládají novou kamennou zeď.",
+        zh: "城镇一侧正筑起石墙，另一侧仍是木造房屋，德意志移民工匠正在砌筑这道新城墙。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Germans Arrived, and the Wooden City Turned to Stone",
@@ -2192,6 +2475,13 @@ export const historyEvents = [
       zh: "1236年－1246年",
     },
     images: ["/history/enemy-of-my-enemy-1236.webp"],
+    imageCaptions: [
+      {
+        en: "The young Bohemian king shakes hands with the Austrian duke over a freshly sealed treaty, as a rider gallops away in the distance.",
+        cz: "Mladý český král si potřásá rukou s rakouským vévodou nad čerstvě zapečetěnou smlouvou, zatímco v dálce odcválá jezdec pryč.",
+        zh: "年轻的波希米亚国王与奥地利公爵在一份刚刚封印的条约前握手言和，远处一名骑手正策马离去。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "No Permanent Friends, No Permanent Enemies, Only Permanent Interests",
@@ -2230,6 +2520,13 @@ export const historyEvents = [
       zh: "1241年",
     },
     images: ["/history/mongol-invasion-1241.webp"],
+    imageCaptions: [
+      {
+        en: "Bohemian knights charge into Mongol horse archers along a narrow forest pass at Kłodzko.",
+        cz: "Čeští rytíři útočí na mongolské jízdní lučištníky v úzkém lesním průsmyku u Kladska.",
+        zh: "波希米亚骑士在克沃兹科的狭窄林间山道上，向蒙古骑射手发起冲锋。",
+      },
+    ],
     tone: "serious",
     title: {
       en: "The Mongol Invasion: A Storm from Asia",
@@ -2293,6 +2590,13 @@ export const historyEvents = [
       zh: "1246年－1249年",
     },
     images: ["/history/the-boy-king-1246.webp"],
+    imageCaptions: [
+      {
+        en: "Wenceslas I reaches out toward his own son atop the castle steps, who points him away as armed men close in on both sides.",
+        cz: "Václav I. natahuje ruku ke svému synovi na vrcholu hradních schodů, ten ho ale odhání, zatímco se z obou stran sbíhají ozbrojenci.",
+        zh: "瓦茨拉夫一世向站在城堡台阶顶端的儿子伸出手，儿子却指手将他赶开，两侧的武装人员正步步逼近。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Boy King",
@@ -2390,6 +2694,13 @@ export const historyEvents = [
       zh: "1250年－1252年",
     },
     images: ["/history/otakar-gets-austria-1251.webp"],
+    imageCaptions: [
+      {
+        en: "Otakar rides into Vienna as Austrian nobles kneel to offer him the city's keys.",
+        cz: "Otakar vjíždí do Vídně, zatímco rakouští šlechtici před ním klečí a podávají mu klíče od města.",
+        zh: "奥托卡骑马进入维也纳，奥地利贵族们跪地献上城市的钥匙。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Czech-Speaking Duke of Austria",
@@ -2446,6 +2757,13 @@ export const historyEvents = [
       zh: "1253年",
     },
     images: ["/history/wenceslas-i-death-1253.webp"],
+    imageCaptions: [
+      {
+        en: "A bishop lowers the crown onto Otakar II's head at the altar as the court looks on.",
+        cz: "Biskup u oltáře nasazuje korunu na hlavu Otakara II., zatímco dvůr přihlíží.",
+        zh: "一位主教在祭坛前为奥托卡二世加冕，朝臣们在一旁静静注视。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Baton Passes",
@@ -2492,6 +2810,13 @@ export const historyEvents = [
       zh: "1254年",
     },
     images: ["/history/the-crown-he-didnt-win-1254.webp"],
+    imageCaptions: [
+      {
+        en: "At Aachen, the crown goes to William of Holland instead, while Otakar can only reach toward it from across the hall.",
+        cz: "V Cáchách připadá koruna místo toho Vilémovi Holandskému, zatímco Otakar po ní může jen natahovat ruku z druhého konce síně.",
+        zh: "在亚琛，那顶王冠最终落在了荷兰的威廉头上，奥托卡只能隔着大厅徒劳地朝它伸出手。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The King Who Wanted a Bigger Crown",
@@ -2520,6 +2845,18 @@ export const historyEvents = [
       cz: "1254",
       zh: "1254年",
     },
+    imageCaptions: [
+      {
+        en: "Otakar hands the sealed charter directly to the assembled Jewish community elders.",
+        cz: "Otakar předává zapečetěnou listinu přímo shromážděným představitelům židovské obce.",
+        zh: "奥托卡将这份盖有印玺的特许状，亲手交到聚集而来的犹太社群长老手中。",
+      },
+      {
+        en: "A herald reads the charter aloud from the steps as the whole quarter turns out to celebrate.",
+        cz: "Herold čte listinu nahlas ze schodů, zatímco celá čtvrť vychází ven, aby to oslavila.",
+        zh: "一名传令官站在台阶上高声宣读这份特许状，整个街区的居民都涌出来庆祝。",
+      },
+    ],
     images: [
       "/history/jewish-community-charter-1254.webp",
       "/history/jewish-community-charter-1254-celebration.webp",
@@ -2631,6 +2968,13 @@ export const historyEvents = [
       zh: "1254年",
     },
     images: ["/history/peace-with-cousin-bela-1254.webp"],
+    imageCaptions: [
+      {
+        en: "Otakar and Béla IV lean over a map of the disputed territory as a papal legate mediates between them.",
+        cz: "Otakar a Béla IV. se naklánějí nad mapou sporného území, zatímco mezi nimi zprostředkovává papežský legát.",
+        zh: "奥托卡与贝拉四世俯身在争议领土的地图两侧，一位教皇特使居中调停。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Six Years of Peace With Hungary",
@@ -2659,6 +3003,18 @@ export const historyEvents = [
       cz: "1254–1268",
       zh: "1254年－1268年",
     },
+    imageCaptions: [
+      {
+        en: "Otakar leads Bohemian troops and Teutonic Knights against Prussian warriors defending their hillfort in the winter snow.",
+        cz: "Otakar vede české oddíly a řád německých rytířů proti pruským bojovníkům, kteří brání své hradiště ve sněhu.",
+        zh: "奥托卡率领波希米亚军队与条顿骑士团，在冬雪中向守卫自己城寨的普鲁士战士发起进攻。",
+      },
+      {
+        en: "A Teutonic Order master gestures toward the new stronghold rising above the coast, named for Otakar standing beside him.",
+        cz: "Velmistr řádu německých rytířů ukazuje na novou pevnost vyrůstající nad pobřežím, pojmenovanou po Otakarovi, který stojí vedle něj.",
+        zh: "条顿骑士团的一位领袖，指向海岸上方正在兴建的新要塞，这座要塞正是以身旁的奥托卡之名命名的。",
+      },
+    ],
     images: [
       "/history/konigsberg-1255-battle.webp",
       "/history/konigsberg-1255.webp",
@@ -2699,6 +3055,13 @@ export const historyEvents = [
       zh: "1257年",
     },
     images: ["/history/founding-of-mala-strana-1257.webp"],
+    imageCaptions: [
+      {
+        en: "Otakar oversees surveyors marking out the new town's plots below the castle hill, its founding charter held between them.",
+        cz: "Otakar dohlíží na zeměměřiče, kteří vytyčují parcely nového města pod hradním kopcem, mezi nimi drží zakládací listinu.",
+        zh: "奥托卡在城堡山下监督测量员划定新城镇的地块，两人之间握着这座新城的建城特许状。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The New Town Below Prague Castle",
@@ -2737,6 +3100,13 @@ export const historyEvents = [
       zh: "1260年",
     },
     images: ["/history/battle-of-kressenbrunn-1260.webp"],
+    imageCaptions: [
+      {
+        en: "Otakar leads his own troops along the riverbank as the enemy's cavalry founders and scatters in the water.",
+        cz: "Otakar vede své vojsko podél břehu řeky, zatímco nepřátelská jízda uvázla a rozprchává se ve vodě.",
+        zh: "奥托卡率军沿河岸推进，敌方骑兵已在水中陷入混乱、四散奔逃。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Taking Styria Back",
@@ -2784,6 +3154,13 @@ export const historyEvents = [
       zh: "1260年－1261年",
     },
     images: ["/history/marrying-kunigunda-1261.webp"],
+    imageCaptions: [
+      {
+        en: "Otakar and Kunigunda kneel together as a bishop holds a crown above each of their heads.",
+        cz: "Otakar a Kunhuta klečí společně, zatímco biskup drží nad hlavou každého z nich korunu.",
+        zh: "奥托卡与库尼贡达并肩跪地，一位主教在两人头顶各自高举一顶王冠。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Yesterday's Enemy, Today's In-Law",
@@ -2812,6 +3189,18 @@ export const historyEvents = [
       cz: "1266–1269",
       zh: "1266年－1269年",
     },
+    imageCaptions: [
+      {
+        en: "Otakar rides up to Eger's own gate as the town's own people kneel to submit without a fight.",
+        cz: "Otakar přijíždí k bráně Chebu, zatímco obyvatelé města klečí a poddávají se bez boje.",
+        zh: "奥托卡骑马来到埃格尔城门前，城中百姓跪地归顺，未发一箭。",
+      },
+      {
+        en: "Miners haul silver ore out of the ground on one side of Jihlava while, on the other, minters strike it into coin.",
+        cz: "Na jedné straně Jihlavy horníci vytahují ze země stříbrnou rudu, na druhé ji mincíři razí do podoby mincí.",
+        zh: "伊赫拉瓦的一侧，矿工们正把白银矿石从地下运出；另一侧，铸币工匠正把它铸成钱币。",
+      },
+    ],
     images: [
       "/history/iron-and-golden-king-1266-egerland.webp",
       "/history/iron-and-golden-king-1266-jihlava.webp",
@@ -2965,6 +3354,18 @@ export const historyEvents = [
       cz: "1272–1273",
       zh: "1272年－1273年",
     },
+    imageCaptions: [
+      {
+        en: "Otakar stands on the Adriatic shore at Friuli, his own troops behind him, at the southern edge of a domain that now stretched from the Sudetes to the sea.",
+        cz: "Otakar stojí na jadranském pobřeží u Furlanska, za ním jeho vlastní vojsko, na jižním konci panství, které se teď táhlo od Sudet až k moři.",
+        zh: "奥托卡站在弗留利的亚得里亚海岸边，身后是自己的军队，此刻他的领地已从苏台德山脉一路延伸到这片海洋的南端。",
+      },
+      {
+        en: "A map of Otakar's realm at its peak, stretching unbroken from Bohemia and Moravia down through Austria, Styria, and Carinthia to the Adriatic coast.",
+        cz: "Mapa Otakarova panství na vrcholu moci, souvisle se táhnoucího od Čech a Moravy přes Rakousy, Štýrsko a Korutany až k jadranskému pobřeží.",
+        zh: "奥托卡领地鼎盛时期的地图，从波希米亚与摩拉维亚一路向南，连贯延伸经奥地利、施蒂里亚与克恩顿，直抵亚得里亚海岸。",
+      },
+    ],
     images: [
       "/history/sudetes-to-adriatic-1272.webp",
       "/history/sudetes-to-adriatic-1272-map.webp",
@@ -2998,6 +3399,13 @@ export const historyEvents = [
       zh: "1273年－1274年",
     },
     images: ["/history/rudolf-of-habsburg-elected-1273.webp"],
+    imageCaptions: [
+      {
+        en: "A messenger holds out the summons to submit, and Otakar raises his hand in flat refusal.",
+        cz: "Posel podává výzvu k podřízení se, a Otakar zvedá ruku na jasné odmítnutí.",
+        zh: "使者递上要求归顺的诏令，奥托卡却举手断然拒绝。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "He Wouldn't Recognize the New Emperor",
@@ -3062,6 +3470,23 @@ export const historyEvents = [
       cz: "1276",
       zh: "1276年",
     },
+    imageCaptions: [
+      {
+        en: "Otakar's own men hold the walls of the besieged Hofburg as Rudolf's army presses in from outside.",
+        cz: "Otakarovi vlastní muži drží hradby obleženého Hofburgu, zatímco zvenčí tlačí Rudolfovo vojsko.",
+        zh: "奥托卡的守军坚守着被围困的霍夫堡城墙，鲁道夫的军队正从外围步步紧逼。",
+      },
+      {
+        en: "Vítkovci soldiers march past a burning monastery as monks flee, arms full of rescued books.",
+        cz: "Vítkovští vojáci pochodují kolem hořícího kláštera, zatímco mniši prchají s náručemi zachráněných knih.",
+        zh: "维特科夫齐家族的士兵们从一座燃烧的修道院旁列队而过，修士们抱着抢救出来的书籍仓皇逃离。",
+      },
+      {
+        en: "Otakar sets his seal to the treaty across the table from Rudolf, each man's own banner standing behind him.",
+        cz: "Otakar přikládá pečeť ke smlouvě přes stůl naproti Rudolfovi, za každým z nich stojí jeho vlastní praporec.",
+        zh: "奥托卡隔着桌子在条约上加盖印玺，对面是鲁道夫，两人身后各自立着自己的旗帜。",
+      },
+    ],
     images: [
       "/history/enemies-on-every-side-1276-siege.webp",
       "/history/enemies-on-every-side-1276-revolt.webp",
@@ -3154,6 +3579,13 @@ export const historyEvents = [
       zh: "1278年",
     },
     images: ["/history/battle-of-marchfeld-1278.webp"],
+    imageCaptions: [
+      {
+        en: "Wounded and surrounded, Otakar fights on alone amid his own fallen men as the battle rages behind him.",
+        cz: "Zraněný a obklíčený Otakar bojuje dál sám mezi svými padlými muži, zatímco za ním zuří bitva.",
+        zh: "身负重伤、身陷重围的奥托卡仍在阵亡的部下中间孤身奋战，身后战斗仍在激烈进行。",
+      },
+    ],
     tone: "serious",
     title: {
       en: "Marchfeld: Bohemia's Waterloo",
@@ -3199,6 +3631,23 @@ export const historyEvents = [
       cz: "1278–1279",
       zh: "1278年－1279年",
     },
+    imageCaptions: [
+      {
+        en: "Three panels, three garrisons: separate lords hold Prague, Olomouc, and Čáslav, each answering to no one but himself.",
+        cz: "Tři výjevy, tři posádky: Prahu, Olomouc a Čáslav drží každou jiný pán, žádný z nich neodpovídá nikomu jinému než sám sobě.",
+        zh: "三幅画面，三处驻军：布拉格、奥洛穆茨与恰斯拉夫各自由不同的领主把持，谁也不听命于谁。",
+      },
+      {
+        en: "The child king sits the throne with his mother beside him, while three rival guardians, none allied with the others, stand watch.",
+        cz: "Dětský král sedí na trůně po boku matky, zatímco tři soupeřící poručníci, z nichž žádný není spojencem druhého, nad ním drží stráž.",
+        zh: "年幼的国王坐在王座上，母亲陪伴在侧，三位互不结盟、彼此提防的监护人分立一旁看守着他。",
+      },
+      {
+        en: "The boy king sits alone in his bare cell at Spandau, a single candle and a narrow window his only company.",
+        cz: "Chlapecký král sedí sám ve své holé cele ve Spandau, jedinou společnost mu dělá osamělá svíce a úzké okno.",
+        zh: "这位少年国王独自坐在施潘道那间空荡荡的牢房里，唯有一支孤烛与一扇窄窗相伴。",
+      },
+    ],
     images: [
       "/history/three-guardians-1279-triptych.webp",
       "/history/three-guardians-1279.webp",
@@ -3258,6 +3707,13 @@ export const historyEvents = [
       zh: "1282年－1283年",
     },
     images: ["/history/king-returns-to-prague-1283.webp"],
+    imageCaptions: [
+      {
+        en: "Young Wenceslas II rides back into Prague to a jubilant welcome, clergy and cheering crowds lining his path.",
+        cz: "Mladý Václav II. se vrací do Prahy za jásavého uvítání, jeho cestu lemuje duchovenstvo i jásající dav.",
+        zh: "年轻的瓦茨拉夫二世骑马重返布拉格，受到热烈欢迎，神职人员与欢呼的人群夹道相迎。",
+      },
+    ],
     tone: "serious",
     title: {
       en: "The King Returns to Prague",
@@ -3313,6 +3769,13 @@ export const historyEvents = [
       zh: "1279年－1285年",
     },
     images: ["/history/wedding-at-cheb-1285.webp"],
+    imageCaptions: [
+      {
+        en: "A priest joins the hands of Wenceslas II and Guta of Habsburg, both families' banners raised on either side.",
+        cz: "Kněz spojuje ruce Václava II. a Guty Habsburské, po obou stranách se zvedají praporce obou rodů.",
+        zh: "一位神父将瓦茨拉夫二世与哈布斯堡的古塔的手牵在一起，两大家族的旗帜分立两侧高高飘扬。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "A Political Marriage, Long Overdue",
@@ -3373,6 +3836,13 @@ export const historyEvents = [
       zh: "1285年－1288年",
     },
     images: ["/history/the-stepfather-problem-1288.webp"],
+    imageCaptions: [
+      {
+        en: "Záviš stands at the center of a court that bows to him, while the young Wenceslas watches uneasily from the side.",
+        cz: "Záviš stojí uprostřed dvora, který se mu klaní, zatímco mladý Václav ho neklidně sleduje stranou.",
+        zh: "扎维什站在向他躬身行礼的宫廷正中央，年少的瓦茨拉夫则在一旁不安地注视着这一切。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The All-Powerful Stepfather",
@@ -3411,6 +3881,13 @@ export const historyEvents = [
       zh: "1289年",
     },
     images: ["/history/zavis-arrested-1289.webp"],
+    imageCaptions: [
+      {
+        en: "Záviš approaches with open arms at Svojanov's gate, unaware of the armed men closing in behind him as Wenceslas looks on, arms folded.",
+        cz: "Záviš přistupuje s rozevřenou náručí u brány Svojanova, netuší, že se za ním sbíhají ozbrojenci, zatímco Václav sleduje se založenýma rukama.",
+        zh: "扎维什张开双臂走向斯沃亚诺夫城门，浑然不知身后的武装人员已悄然逼近，瓦茨拉夫则双臂交叉，冷眼旁观。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "An Invitation to His Own Arrest",
@@ -3449,6 +3926,13 @@ export const historyEvents = [
       zh: "1290年",
     },
     images: ["/history/meadow-below-hluboka-1290.webp"],
+    imageCaptions: [
+      {
+        en: "Záviš kneels for execution below Hluboká's own walls, a lone watcher looking down from the battlements above.",
+        cz: "Záviš klečí k popravě pod hradbami Hluboké, ze cimbuří nad ním sleduje osamělý pozorovatel.",
+        zh: "扎维什跪在赫卢博卡城墙下等待行刑，城垛之上有一人独自俯视着这一幕。",
+      },
+    ],
     tone: "serious",
     title: {
       en: "The Meadow Below Hluboká",
@@ -3501,6 +3985,13 @@ export const historyEvents = [
       zh: "1290年",
     },
     images: ["/history/king-who-didnt-settle-scores-1290.webp"],
+    imageCaptions: [
+      {
+        en: "Wenceslas sits enthroned as one of Záviš's own former circle is presented to him, left unpunished rather than purged.",
+        cz: "Václav sedí na trůně, zatímco je před něj předveden jeden z bývalého Závišova kruhu, nepotrestán, ne vyhnán.",
+        zh: "瓦茨拉夫端坐王座，扎维什昔日圈子中的一员被引见到他面前，未受惩处，也未被清洗出局。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The King Who Didn't Settle Scores",
@@ -3544,6 +4035,13 @@ export const historyEvents = [
       zh: "1289年－1291年",
     },
     images: ["/history/krakow-opening-move-1291.webp"],
+    imageCaptions: [
+      {
+        en: "Bohemian troops line Kraków's own market square as its townspeople react to their new occupiers.",
+        cz: "České oddíly stojí v řadách na krakovském tržišti, zatímco měšťané reagují na své nové okupanty.",
+        zh: "波希米亚军队列队占据了克拉科夫的市集广场，市民们对这些新来的占领者反应各异。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Kraków, the Opening Move",
@@ -3572,6 +4070,18 @@ export const historyEvents = [
       cz: "1291–1292",
       zh: "1291年－1292年",
     },
+    imageCaptions: [
+      {
+        en: "Electors seal their choice at Frankfurt while a robed figure watches from the doorway, shut out of the room where his own fate is being decided.",
+        cz: "Kurfiřti pečetí svou volbu ve Frankfurtu, zatímco ode dveří přihlíží postava v plášti, vyloučená z místnosti, kde se rozhoduje o jejím vlastním osudu.",
+        zh: "选帝侯们在法兰克福为自己的选择盖上封印，一位身披斗篷的人只能从门口张望，被挡在这间决定他自己命运的房间之外。",
+      },
+      {
+        en: "In a quiet room, brother and sister sit across a bare table, the political rift between their families now a personal one too.",
+        cz: "V tiché místnosti sedí bratr se sestrou naproti sobě u holého stolu, politická roztržka mezi jejich rody se teď stala i osobní.",
+        zh: "在一间安静的房间里，兄妹俩隔着一张空荡荡的桌子相对而坐，两个家族之间的政治裂痕，如今也变成了他们之间的私人隔阂。",
+      },
+    ],
     images: [
       "/history/politics-over-blood-1292-frankfurt.webp",
       "/history/politics-over-blood-1292-nation-over-family.webp",
@@ -3614,6 +4124,13 @@ export const historyEvents = [
       zh: "1292年",
     },
     images: ["/history/aula-regia-1292.webp"],
+    imageCaptions: [
+      {
+        en: "Wenceslas stands with an abbot beside a half-ruined building by the river as a line of Cistercian monks arrives to found the new monastery.",
+        cz: "Václav stojí s opatem u polorozpadlé stavby nad řekou, zatímco po cestě podél břehu přichází řada cisterciáckých mnichů, aby založili nový klášter.",
+        zh: "瓦茨拉夫与一位修道院院长一同站在河边一座半毁的建筑旁，一列西多会修士沿河岸小路走来，准备在此创建新修道院。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Aula Regia",
@@ -3652,6 +4169,13 @@ export const historyEvents = [
       zh: "1292年－1294年",
     },
     images: ["/history/like-father-like-son-1292.webp"],
+    imageCaptions: [
+      {
+        en: "Wenceslas leads Bohemian cavalry toward Sandomierz, retracing the same ambitions his own father once chased in Poland.",
+        cz: "Václav vede českou jízdu k Sandoměři, opakuje tytéž ambice, které kdysi v Polsku sledoval jeho vlastní otec.",
+        zh: "瓦茨拉夫率领波希米亚骑兵向桑多梅日进发，重演着当年他父亲在波兰追逐过的同一份野心。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "Like Father, Like Son",
@@ -3695,6 +4219,13 @@ export const historyEvents = [
       zh: "1291年－1297年",
     },
     images: ["/history/adolf-kicks-the-ladder-1298.webp"],
+    imageCaptions: [
+      {
+        en: "Wenceslas kneels to receive the crown at last, a queen standing beside him at the altar.",
+        cz: "Václav konečně klečí, aby přijal korunu, po jeho boku u oltáře stojí královna.",
+        zh: "瓦茨拉夫终于跪下接受王冠，一位王后站在祭坛旁的他身边。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Emperor Who Kicked Away the Ladder",
@@ -3724,6 +4255,13 @@ export const historyEvents = [
       zh: "1297年－1298年",
     },
     images: ["/history/crown-and-a-grave-1298.webp"],
+    imageCaptions: [
+      {
+        en: "Albert cuts down Adolf of Nassau at Göllheim, the crown flying loose from his head as he falls.",
+        cz: "Albrecht sráží Adolfa Nasavského u Göllheimu, koruna mu při pádu slétá z hlavy.",
+        zh: "阿尔布雷希特在戈尔海姆将阿道夫·冯·拿骚击倒，王冠在他倒下时飞离头顶。",
+      },
+    ],
     tone: "serious",
     title: {
       en: "A Crown, and a Grave",
@@ -3766,6 +4304,18 @@ export const historyEvents = [
       cz: "60. léta 13. století–1300",
       zh: "13世纪60年代－1300年",
     },
+    imageCaptions: [
+      {
+        en: "Wenceslas surveys Kutná Hora's mines, jubilant workers hauling up silver ore behind him.",
+        cz: "Václav dohlíží na kutnohorské doly, za ním horníci s jásotem vynášejí stříbrnou rudu.",
+        zh: "瓦茨拉夫俯瞰着库特纳霍拉的矿场，身后的矿工们兴高采烈地把银矿石运出地面。",
+      },
+      {
+        en: "Both faces of the new Prague groschen: the crown on one side, the Bohemian lion on the other.",
+        cz: "Obě strany nového pražského groše: koruna na jedné straně, český lev na druhé.",
+        zh: "全新布拉格格罗申银币的正反两面：一面是王冠，另一面是波希米亚狮子。",
+      },
+    ],
     images: [
       "/history/from-ore-to-order-1300.webp",
       "/history/from-ore-to-order-1300-groschen.webp",
@@ -3865,6 +4415,18 @@ export const historyEvents = [
       cz: "1295–1300",
       zh: "1295年－1300年",
     },
+    imageCaptions: [
+      {
+        en: "Wenceslas kneels at Gniezno as an archbishop crowns him King of Poland, Bohemian and Polish banners hanging side by side.",
+        cz: "Václav klečí v Hnězdně, zatímco ho arcibiskup korunuje polským králem, české a polské praporce visí bok po boku.",
+        zh: "瓦茨拉夫跪在格涅兹诺，大主教为他加冕波兰国王，波希米亚与波兰的旗帜并排悬挂。",
+      },
+      {
+        en: "Now wearing the Polish crown, Wenceslas waves to a cheering crowd filling Gniezno's own square.",
+        cz: "Václav, nyní s polskou korunou na hlavě, mává jásajícímu davu, který zaplnil hnězdenské náměstí.",
+        zh: "如今已戴上波兰王冠的瓦茨拉夫，向挤满格涅兹诺广场、欢呼雀跃的人群挥手致意。",
+      },
+    ],
     images: [
       "/history/polish-crown-1300.webp",
       "/history/polish-crown-1300-welcome.webp",
@@ -3911,6 +4473,18 @@ export const historyEvents = [
       cz: "1301–1303",
       zh: "1301年－1303年",
     },
+    imageCaptions: [
+      {
+        en: "Wenceslas gazes out over the Danube valley, now wearing a crown ornate enough for three kingdoms at once.",
+        cz: "Václav shlíží dolů na údolí Dunaje, nyní s korunou dost honosnou na tři království najednou.",
+        zh: "瓦茨拉夫俯瞰着多瑙河谷，此刻他头顶的王冠已足够华丽到同时代表三个王国。",
+      },
+      {
+        en: "A map of the Přemyslid realm in 1301, spanning Bohemia, Moravia, and Greater Poland up to the Baltic, with a claim now reaching down into Hungary.",
+        cz: "Mapa přemyslovské říše v roce 1301, zahrnující Čechy, Moravu a Velkopolsko až k Baltu, s nárokem sahajícím nyní až do Uher.",
+        zh: "1301年普热美斯尔王朝领地地图，涵盖波希米亚、摩拉维亚与大波兰，一路延伸至波罗的海，如今更把势力范围扩展到了匈牙利。",
+      },
+    ],
     images: [
       "/history/baltic-to-danube-1301.webp",
       "/history/baltic-to-danube-1301-map.webp",
@@ -3958,6 +4532,13 @@ export const historyEvents = [
       zh: "1303年－1304年",
     },
     images: ["/history/coalition-against-bohemia-1304.webp"],
+    imageCaptions: [
+      {
+        en: "A lone Bohemian defender, shield raised, faces down swords drawn from every side, the pope's own banner among them.",
+        cz: "Osamělý český obránce se zdviženým štítem čelí mečům taseným ze všech stran, mezi nimi i praporu samotného papeže.",
+        zh: "一名孤身防御的波希米亚人，举盾迎战四面八方拔出的刀剑，其中甚至包括教皇自己的旗帜。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Coalition Against Bohemia",
@@ -4094,6 +4675,13 @@ export const historyEvents = [
       zh: "1304年－1305年",
     },
     images: ["/history/too-soon-1305.webp"],
+    imageCaptions: [
+      {
+        en: "Wenceslas II's coffin, draped in the Bohemian lion, is carried through streets lined with grieving mourners.",
+        cz: "Rakev Václava II., zahalená českým lvem, je nesena ulicemi lemovanými truchlícím davem.",
+        zh: "覆盖着波希米亚狮旗的瓦茨拉夫二世灵柩，被抬着穿过两旁挤满哀悼群众的街道。",
+      },
+    ],
     tone: "serious",
     title: {
       en: "Too Soon",
@@ -4154,6 +4742,13 @@ export const historyEvents = [
       zh: "1305年－1306年",
     },
     images: ["/history/the-ambitious-new-king-1306.webp"],
+    imageCaptions: [
+      {
+        en: "The young king rides toward Olomouc at the head of his own column, a hooded figure watching silently from the trees.",
+        cz: "Mladý král jede v čele svého oddílu směrem k Olomouci, ze stromů ho mlčky sleduje zahalená postava.",
+        zh: "年轻的国王率领自己的队伍向奥洛穆茨进发，一个蒙着兜帽的身影正从林间默默注视着他。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Ambitious New King",
@@ -4183,6 +4778,13 @@ export const historyEvents = [
       zh: "1306年8月4日",
     },
     images: ["/history/four-centuries-ended-1306.webp"],
+    imageCaptions: [
+      {
+        en: "A furious crowd seizes the assassin moments after the killing, the bloodied blade still on the ground.",
+        cz: "Zuřící dav zajišťuje vraha jen pár okamžiků po vraždě, zakrvácená čepel ještě leží na zemi.",
+        zh: "行凶后不过片刻，愤怒的人群便将刺客团团围住制服，那把染血的匕首还丢在地上。",
+      },
+    ],
     tone: "serious",
     title: {
       en: "Four Centuries, Undone in an Afternoon",
@@ -4243,6 +4845,13 @@ export const historyEvents = [
       zh: "1306年",
     },
     images: ["/history/seven-kings-then-none-1306.webp"],
+    imageCaptions: [
+      {
+        en: "Seven crowns lie in a row, each with its own candle, as a mourning figure reaches to snuff out the last.",
+        cz: "Sedm korun leží v řadě, každá s vlastní svící, zatímco truchlící postava natahuje ruku, aby zhasla tu poslední.",
+        zh: "七顶王冠一字排开，每一顶前都点着一支蜡烛，一位哀悼的身影伸手将最后一支烛火熄灭。",
+      },
+    ],
     tone: "serious",
     title: {
       en: "Seven Kings, and Then None",
@@ -4285,6 +4894,18 @@ export const historyEvents = [
       cz: "1306–1307",
       zh: "1306年－1307年",
     },
+    imageCaptions: [
+      {
+        en: "Rival camps ring the castle hill, tents and banners from multiple competing claimants crowding the same siege.",
+        cz: "Kolem hradního kopce se rozkládají soupeřící tábory, stany a praporce několika soupeřících uchazečů se tísní na jednom a témže obležení.",
+        zh: "对立的营地环绕着城堡山丘，好几路互相竞争的王位觊觎者的帐篷与旗帜，挤在同一场围城战里。",
+      },
+      {
+        en: "Henry of Carinthia kneels for a second coronation, the crowd around him celebrating as if the first had never happened.",
+        cz: "Jindřich Korutanský klečí při své druhé korunovaci, dav kolem něj slaví, jako by ta první nikdy neproběhla.",
+        zh: "克恩顿的海因里希跪地接受第二次加冕，周围的人群欢呼庆祝，仿佛第一次加冕从未发生过。",
+      },
+    ],
     images: [
       "/history/crowned-twice-1307.webp",
       "/history/crowned-twice-1307-coronation.webp",
@@ -4331,6 +4952,18 @@ export const historyEvents = [
       cz: "1307–1310",
       zh: "1307年－1310年",
     },
+    imageCaptions: [
+      {
+        en: "Armed riders ambush Albert I of Habsburg as he fords a river, swords already drawn against him.",
+        cz: "Ozbrojení jezdci přepadají Albrechta I. Habsburského, když přejíždí řeku, meče už tasené proti němu.",
+        zh: "武装骑手在阿尔布雷希特一世·哈布斯堡涉水过河时对他发起伏击，刀剑已经拔出，直指他而去。",
+      },
+      {
+        en: "Armed raiders hold a young captive at knifepoint in the snow, a body already fallen and monks watching helpless nearby.",
+        cz: "Ozbrojení nájezdníci drží ve sněhu mladého zajatce pod hrozbou nože, nedaleko už leží mrtvé tělo a bezmocně přihlížejí mniši.",
+        zh: "武装劫掠者在雪地里持刀挟持一名年轻俘虏，一具尸体已经倒地，修士们在一旁束手无策地看着。",
+      },
+    ],
     images: [
       "/history/thoroughly-incompetent-king-1307.webp",
       "/history/thoroughly-incompetent-king-1307-sedlec.webp",
@@ -4387,6 +5020,13 @@ export const historyEvents = [
       zh: "1309年－1310年",
     },
     images: ["/history/the-fleeing-princess-1310.webp"],
+    imageCaptions: [
+      {
+        en: "Elizabeth slips through the gate under a plain hood, her guards behind her none the wiser.",
+        cz: "Eliška proklouzává branou pod prostou kápí, stráže za ní nic netuší.",
+        zh: "伊丽莎白裹着朴素的兜帽悄悄穿过城门，身后的守卫浑然不觉。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Fleeing Princess",
@@ -4469,6 +5109,23 @@ export const historyEvents = [
       cz: "1310",
       zh: "1310年",
     },
+    imageCaptions: [
+      {
+        en: "A worried Henry of Carinthia peers down from the wall at the besieging army massed outside.",
+        cz: "Ustaraný Jindřich Korutanský vykukuje z hradby na obléhající vojsko shromážděné venku.",
+        zh: "忧心忡忡的克恩顿的海因里希从城墙上探头张望，城外聚集着围城的大军。",
+      },
+      {
+        en: "A young nephew leads his own troops crashing through the barricades to break the siege.",
+        cz: "Mladý synovec vede vlastní vojsko drtící barikády, aby prolomil obležení.",
+        zh: "一位年轻的外甥率领自己的部队冲破路障，前来解围。",
+      },
+      {
+        en: "Torch-bearing soldiers fill the snowy street at night as a calm young figure stands among them, a monk gesturing from a doorway.",
+        cz: "Vojáci s pochodněmi zaplňují zasněženou ulici v noci, uprostřed nich klidně stojí mladá postava, ze dveří gestikuluje mnich.",
+        zh: "手持火把的士兵挤满了雪夜中的街道，一个沉着冷静的年轻身影立于人群之中，一名修士在门口打着手势。",
+      },
+    ],
     images: [
       "/history/capital-changed-hands-thrice-1310.webp",
       "/history/capital-changed-hands-thrice-1310-rescue.webp",
@@ -4520,6 +5177,18 @@ export const historyEvents = [
       cz: "1310",
       zh: "1310年",
     },
+    imageCaptions: [
+      {
+        en: "John and Elizabeth stand before the officiating bishop at Speyer, both families' full courts filling the nave behind them.",
+        cz: "Jan a Eliška stojí před oddávajícím biskupem ve Špýru, za nimi zaplňují loď dvory obou rodů v plném počtu.",
+        zh: "约翰与伊丽莎白站在施派尔主持婚礼的主教面前，两大家族的整个宫廷都挤满了他们身后的中殿。",
+      },
+      {
+        en: "Henry of Carinthia rides away from Prague through the snow, the castle he's leaving behind still visible on the horizon.",
+        cz: "Jindřich Korutanský odjíždí sněhem pryč z Prahy, hrad, který opouští, je ještě vidět na obzoru.",
+        zh: "克恩顿的海因里希在雪中骑马离开布拉格，他身后离开的城堡依然隐约可见于地平线上。",
+      },
+    ],
     images: [
       "/history/dawn-of-the-luxembourgs-1310.webp",
       "/history/dawn-of-the-luxembourgs-1310-departure.webp",
@@ -4567,6 +5236,13 @@ export const historyEvents = [
       zh: "1311年",
     },
     images: ["/history/a-king-who-spoke-no-czech-1311.webp"],
+    imageCaptions: [
+      {
+        en: "John stands alone in the wintry town, a smoke-stained castle on the hill behind him the only home he's just inherited.",
+        cz: "Jan stojí sám v zasněženém městě, kouřem začouzený hrad na kopci za ním je jediným domovem, který právě zdědil.",
+        zh: "约翰独自站在这座隆冬中的城镇里，身后山丘上那座被烟熏黑的城堡，正是他刚刚继承的唯一家业。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Boy King Who Spoke No Czech",
@@ -4619,6 +5295,13 @@ export const historyEvents = [
       zh: "1313年",
     },
     images: ["/history/a-court-at-war-with-itself-1313.webp"],
+    imageCaptions: [
+      {
+        en: "John sits pulled three ways at once: clergy pleading on one side, Elizabeth gesturing at the other, and Bohemia's own nobles standing arms crossed, waiting to see who wins.",
+        cz: "Jan sedí, tažen třemi směry najednou: na jedné straně naléhá duchovenstvo, na druhé gestikuluje Eliška, a čeští šlechtici stojí se založenýma rukama a čekají, kdo zvítězí.",
+        zh: "约翰同时被三方拉扯：一侧是苦苦相劝的神职人员，另一侧是比划着手势的伊丽莎白，而波希米亚贵族们则双臂交叉，站在一旁看谁能占上风。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "A Court at War With Itself",
@@ -4648,6 +5331,23 @@ export const historyEvents = [
       cz: "1315–1318",
       zh: "1315年－1318年",
     },
+    imageCaptions: [
+      {
+        en: "Elizabeth and Eliška Rejčka stand face to face, neither backing down, Henry of Lipé watching from the side.",
+        cz: "Eliška a Eliška Rejčka stojí tváří v tvář, ani jedna neustupuje, Jindřich z Lipé sleduje ze strany.",
+        zh: "伊丽莎白与埃利什卡·雷奇卡面对面而立，谁也不肯退让，亨利·冯·利佩在一旁冷眼旁观。",
+      },
+      {
+        en: "Henry of Lipé is led away under armed guard, Týřov Castle rising on the hill behind him.",
+        cz: "Jindřich z Lipé je odváděn pod ozbrojeným doprovodem, za ním se na kopci tyčí hrad Týřov.",
+        zh: "亨利·冯·利佩在武装押送下被带走，身后山丘上矗立着提热夫城堡。",
+      },
+      {
+        en: "A freed Henry of Lipé walks out into Domažlice's own square as the peace terms are read aloud around him.",
+        cz: "Propuštěný Jindřich z Lipé vychází na domažlické náměstí, zatímco kolem něj se čtou nahlas mírové podmínky.",
+        zh: "获释的亨利·冯·利佩走出来，来到多马日利采的广场上，周围正宣读着这份和约的条款。",
+      },
+    ],
     images: [
       "/history/the-two-queens-proxy-war-1315.webp",
       "/history/the-two-queens-proxy-war-1315-arrest.webp",
@@ -4721,6 +5421,13 @@ export const historyEvents = [
       zh: "1319年",
     },
     images: ["/history/a-marriage-falls-apart-1319.webp"],
+    imageCaptions: [
+      {
+        en: "John directs his troops into Loket's own courtyard as Elizabeth watches from a window above, her children drawn close.",
+        cz: "Jan řídí své vojsko do nádvoří Loketu, zatímco Eliška sleduje z okna nad nimi, přitisknuvši k sobě děti.",
+        zh: "约翰指挥军队进入洛克特城堡的内院，伊丽莎白在上方的窗口紧搂着孩子们，惊恐地注视着这一幕。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Queen Under Suspicion",
@@ -4788,6 +5495,18 @@ export const historyEvents = [
       cz: "1319–1321",
       zh: "1319年－1321年",
     },
+    imageCaptions: [
+      {
+        en: "A lone knight stands ready in an empty tournament yard, its stands barely filled at all.",
+        cz: "Osamělý rytíř stojí připraven na prázdném turnajovém kolbišti, tribuny jsou téměř liduprázdné.",
+        zh: "一名孤零零的骑士站在空荡荡的比武场上整装待发，看台几乎空无一人。",
+      },
+      {
+        en: "John rides away toward Luxembourg, his own retinue trailing behind him on a road leading out of Bohemia.",
+        cz: "Jan odjíždí směrem k Lucembursku, jeho vlastní družina ho následuje po cestě vedoucí z Čech pryč.",
+        zh: "约翰骑马离去，前往卢森堡，他自己的随从队伍跟在身后，沿着这条通往波希米亚境外的道路远去。",
+      },
+    ],
     images: [
       "/history/a-king-who-stopped-caring-1319.webp",
       "/history/a-king-who-stopped-caring-1319-luxembourg.webp",
@@ -4835,6 +5554,13 @@ export const historyEvents = [
       zh: "1322年",
     },
     images: ["/history/egerland-endgame-1322.webp"],
+    imageCaptions: [
+      {
+        en: "John and Louis of Bavaria clasp arms in victory at Mühldorf, the battlefield behind them littered with fallen banners and shields.",
+        cz: "Jan a Ludvík Bavorský si vítězně tisknou paže u Mühldorfu, bojiště za nimi je poseto padlými praporci a štíty.",
+        zh: "约翰与巴伐利亚的路德维希在米尔多夫战场上紧握手臂庆祝胜利，身后的战场上散落着倒下的旗帜与盾牌。",
+      },
+    ],
     tone: "humorous",
     title: {
       en: "The Egerland Endgame",
@@ -4894,6 +5620,18 @@ export const historyEvents = [
       cz: "1331",
       zh: "1331年",
     },
+    imageCaptions: [
+      {
+        en: "John works the room at a candlelit diplomatic reception, cardinals and nobles alike drawn into conversation.",
+        cz: "Jan obchází místnost na diplomatickém přijetí za svitu svíček, do rozhovoru vtahuje jak kardinály, tak šlechtice.",
+        zh: "约翰在烛光摇曳的外交招待会上八面玲珑，红衣主教与贵族们纷纷被他拉入交谈。",
+      },
+      {
+        en: "John rides through an Italian city gate, its own people lined up on both sides offering gifts on cushions.",
+        cz: "Jan projíždí branou italského města, jeho obyvatelé stojí po obou stranách a na polštářích nabízejí dary.",
+        zh: "约翰骑马穿过一座意大利城市的城门，两侧的居民手捧丝垫上的礼物，夹道相迎。",
+      },
+    ],
     images: [
       "/history/diplomat-king-1331.webp",
       "/history/diplomat-king-1331-italy.webp",
@@ -4936,6 +5674,13 @@ export const historyEvents = [
     era: "rise-of-a-kingdom",
     startYear: 1333,
     images: ["/history/the-prince-who-came-to-put-out-the-fire-1333.webp"],
+    imageCaptions: [
+      {
+        en: "Charles stands amid Prague Castle's own ruins, gazing up at roofless towers and burned-out halls.",
+        cz: "Karel stojí uprostřed trosek Pražského hradu a vzhlíží k věžím bez střech a vyhořelým síním.",
+        zh: "查理站在布拉格城堡的一片废墟之中，抬头望着那些没了屋顶的塔楼与烧毁的大厅。",
+      },
+    ],
     year: {
       en: "1333",
       cz: "1333",
@@ -5008,6 +5753,13 @@ export const historyEvents = [
     era: "rise-of-a-kingdom",
     startYear: 1334,
     images: ["/history/so-much-to-rebuild-1334-welcome.webp"],
+    imageCaptions: [
+      {
+        en: "Charles welcomes Blanche and her French retinue at Prague Castle's gate, scaffolding still climbing the tower behind them.",
+        cz: "Karel vítá Blanku a její francouzský doprovod u brány Pražského hradu, za nimi ještě stoupá lešení na věži.",
+        zh: "查理在布拉格城堡的大门口迎接布兰卡与她的法国随从，身后的塔楼上依然搭着脚手架。",
+      },
+    ],
     year: {
       en: "1334",
       cz: "1334",
@@ -5135,6 +5887,18 @@ export const historyEvents = [
     slug: "the-border-that-stuck-1335",
     era: "rise-of-a-kingdom",
     startYear: 1335,
+    imageCaptions: [
+      {
+        en: "John and Charles feast at Visegrád's own table as their host, the crowned King of Hungary, raises a hand in welcome.",
+        cz: "Jan a Karel hodují u visegrádského stolu, zatímco jejich hostitel, korunovaný uherský král, zvedá ruku na přivítanou.",
+        zh: "约翰与查理在维谢格拉德的宴席上大快朵颐，头戴王冠的匈牙利国王作为主人，正举手表示欢迎。",
+      },
+      {
+        en: "A map of Silesia's new border, folded into the Bohemian Crown lands alongside Bohemia and Moravia.",
+        cz: "Mapa nové hranice Slezska, začleněného do zemí Koruny české po boku Čech a Moravy.",
+        zh: "西里西亚新边界的地图，如今与波希米亚、摩拉维亚一同并入波希米亚王冠领地。",
+      },
+    ],
     images: [
       "/history/the-border-that-stuck-1335.webp",
       "/history/the-border-that-stuck-1335-map.webp",
@@ -5191,6 +5955,13 @@ export const historyEvents = [
     era: "rise-of-a-kingdom",
     startYear: 1336,
     images: ["/history/crusader-king-loses-his-sight-1336.webp"],
+    imageCaptions: [
+      {
+        en: "John presses a hand to his right eye amid his own army's victory celebration, the routed enemy fleeing across the snow behind him.",
+        cz: "Jan si tiskne ruku k pravému oku uprostřed vítězné oslavy svého vojska, poražený nepřítel prchá sněhem za jeho zády.",
+        zh: "约翰用手捂住右眼，身处己方军队的胜利欢庆之中，溃败的敌军正在他身后的雪地上四散逃窜。",
+      },
+    ],
     year: {
       en: "1336",
       cz: "1336",
@@ -5245,6 +6016,18 @@ export const historyEvents = [
     slug: "an-alliance-with-france-1337",
     era: "rise-of-a-kingdom",
     startYear: 1337,
+    imageCaptions: [
+      {
+        en: "Philip VI clasps John's shoulder in greeting, the eyepatch a visible reminder of the eye he'd already lost.",
+        cz: "Filip VI. objímá Jana na přivítanou, náočnice je viditelnou připomínkou oka, které už ztratil.",
+        zh: "腓力六世伸手搭上约翰的肩膀表示欢迎，那只眼罩清楚提醒着他已经失去的那只眼睛。",
+      },
+      {
+        en: "John looks out over the siege lines at Bordeaux, its own walls still holding behind him.",
+        cz: "Jan hledí přes obléhací linie u Bordeaux, hradby města za ním pořád drží.",
+        zh: "约翰凝视着波尔多城外的围城战线，那座城市的城墙依然屹立在他身后。",
+      },
+    ],
     images: [
       "/history/an-alliance-with-france-1337.webp",
       "/history/an-alliance-with-france-1337-bordeaux.webp",
@@ -5321,6 +6104,13 @@ export const historyEvents = [
     era: "rise-of-a-kingdom",
     startYear: 1341,
     images: ["/history/blindness-not-affection-1341.webp"],
+    imageCaptions: [
+      {
+        en: "John gestures toward Charles at the diet assembly, formally announcing him as heir before the assembled court.",
+        cz: "Jan ukazuje na Karla na sněmovním shromáždění, oficiálně ho prohlašuje dědicem před shromážděným dvorem.",
+        zh: "约翰在这场诸侯大会上向查理示意，当着满堂朝臣的面，正式宣布他为继承人。",
+      },
+    ],
     year: {
       en: "1341",
       cz: "1341",
@@ -5350,6 +6140,13 @@ export const historyEvents = [
     era: "rise-of-a-kingdom",
     startYear: 1342,
     images: ["/history/father-and-son-at-odds-1342.webp"],
+    imageCaptions: [
+      {
+        en: "Pope Clement VI stands between John and Charles, one hand on each, mediating their reconciliation.",
+        cz: "Papež Klement VI. stojí mezi Janem a Karlem, ruku na rameni každého z nich, a zprostředkovává jejich smíření.",
+        zh: "教皇克莱门特六世站在约翰与查理之间，双手分别搭在两人肩上，居中调解这场父子和解。",
+      },
+    ],
     year: {
       en: "1342",
       cz: "1342",
@@ -5401,6 +6198,18 @@ export const historyEvents = [
     slug: "dawn-over-prague-1344",
     era: "rise-of-a-kingdom",
     startYear: 1344,
+    imageCaptions: [
+      {
+        en: "Charles, John, and John Henry stand together as Arnošt of Pardubice, Prague's own new archbishop, presents the founding charter.",
+        cz: "Karel, Jan a Jan Jindřich stojí pohromadě, zatímco Arnošt z Pardubic, nový pražský arcibiskup, předkládá zakládací listinu.",
+        zh: "查理、约翰与约翰·亨利三人并肩而立，布拉格新任大主教阿尔诺什特·冯·帕尔杜比采正在展示这份建教特许状。",
+      },
+      {
+        en: "Charles and John kneel together to lay the cathedral's foundation stone as Arnošt blesses the site; beyond, the rest of the city rises in scaffolding too.",
+        cz: "Karel a Jan klečí společně a pokládají základní kámen katedrály, zatímco Arnošt žehná místu; za nimi v lešení roste i zbytek města.",
+        zh: "查理与约翰并肩跪地，为大教堂奠基，阿尔诺什特在一旁为这片场地祝圣；远处，这座城市的其余部分也正笼罩在脚手架中拔地而起。",
+      },
+    ],
     images: [
       "/history/dawn-over-prague-1344.webp",
       "/history/dawn-over-prague-1344-construction.webp",
@@ -5479,6 +6288,18 @@ export const historyEvents = [
     slug: "a-day-worth-remembering-1346",
     era: "rise-of-a-kingdom",
     startYear: 1345.9,
+    imageCaptions: [
+      {
+        en: "Charles stands before the Rhens election stone as Baldwin presides and five electors look on by the riverbank.",
+        cz: "Karel stojí před volebním kamenem v Rhens, zatímco obřad vede Balduin a pět kurfiřtů přihlíží na břehu řeky.",
+        zh: "查理站在莱茵河畔的伦斯选举石前，巴尔杜因主持仪式，五位选帝侯在河岸边注视着这一幕。",
+      },
+      {
+        en: "Baldwin and Charles clasp arms across the table, a sealed document and an open chest of coin between them.",
+        cz: "Balduin a Karel si přes stůl tisknou paže, mezi nimi leží zapečetěná listina a otevřená truhla s mincemi.",
+        zh: "巴尔杜因与查理隔着桌子紧握手臂，两人之间摆着一份盖印文书和一箱敞开的金币。",
+      },
+    ],
     images: [
       "/history/a-day-worth-remembering-1346.webp",
       "/history/a-day-worth-remembering-1346-price.webp",
@@ -5511,6 +6332,18 @@ export const historyEvents = [
     slug: "the-wandering-knight-kings-legacy-1346",
     era: "rise-of-a-kingdom",
     startYear: 1346,
+    imageCaptions: [
+      {
+        en: "Reins tied to the knights beside him, blind John charges into the storm of arrows at Crécy, sword raised.",
+        cz: "S otěžemi svázanými k rytířům po boku se slepý Jan vrhá s tasenou zbraní do deště šípů u Kresčaku.",
+        zh: "缰绳与两侧骑士的马缰绑在一起，双目失明的约翰高举利剑，冲入了克雷西战场上如雨点般落下的箭矢之中。",
+      },
+      {
+        en: "Crowned now, Charles gazes out over Prague at golden hour, the cathedral's own scaffolding still climbing the castle hill.",
+        cz: "Nyní korunovaný Karel hledí na Prahu ve zlaté hodince, lešení katedrály ještě stoupá na hradním kopci.",
+        zh: "如今已加冕的查理，在金色的黄昏中俯瞰着布拉格，大教堂的脚手架依然耸立在城堡山上。",
+      },
+    ],
     images: [
       "/history/the-wandering-knight-kings-legacy-1346.webp",
       "/history/the-wandering-knight-kings-legacy-1346-dawn.webp",
@@ -5588,6 +6421,13 @@ export const historyEvents = [
     era: "kingdom-golden-age",
     startYear: 1346,
     images: ["/history/the-crown-nobody-recognized-1346.webp"],
+    imageCaptions: [
+      {
+        en: "Charles is crowned King of the Romans at Bonn, while a Wittelsbach loyalist looks on with arms crossed, unconvinced.",
+        cz: "Karel je korunován římským králem v Bonnu, zatímco stoupenec Wittelsbachů se založenýma rukama přihlíží, nepřesvědčen.",
+        zh: "查理在波恩加冕为罗马人的国王，一位维特尔斯巴赫派的支持者双臂交叉，冷眼旁观，毫不买账。",
+      },
+    ],
     year: {
       en: "1346",
       cz: "1346",
@@ -5617,6 +6457,13 @@ export const historyEvents = [
     era: "kingdom-golden-age",
     startYear: 1347,
     images: ["/history/the-king-who-came-home-in-disguise-1347.webp"],
+    imageCaptions: [
+      {
+        en: "Charles rides through a Bavarian town at night in a plain hooded cloak, unrecognized by the townsfolk he passes.",
+        cz: "Karel projíždí nocí bavorským městečkem v prostém plášti s kapucí, aniž by ho kolemjdoucí měšťané poznali.",
+        zh: "查理身披朴素的连帽斗篷，趁夜穿过一座巴伐利亚小镇，街上的居民无人认出他来。",
+      },
+    ],
     year: {
       en: "1347",
       cz: "1347",
@@ -5747,6 +6594,18 @@ export const historyEvents = [
       "/history/a-first-show-of-strength-1347-rival.webp",
       "/history/a-first-show-of-strength-1347-regensburg.webp",
     ],
+    imageCaptions: [
+      {
+        en: "A defeated rival kneels before Charles in the forest, his own army's Bohemian and imperial banners raised behind him.",
+        cz: "Poražený sok klečí před Karlem v lese, za jeho zády se zvedají české a říšské praporce jeho vojska.",
+        zh: "一位战败的对手在林中跪倒在查理面前，他自己军队的波希米亚狮旗与帝国鹰旗在身后高高飘扬。",
+      },
+      {
+        en: "Charles rides into Regensburg through cheering crowds, the city's own officials kneeling to receive him.",
+        cz: "Karel vjíždí do Řezna mezi jásajícím davem, městští hodnostáři před ním poklekají na přivítanou.",
+        zh: "查理骑马进入雷根斯堡，两旁挤满欢呼的人群，城中官员跪地相迎。",
+      },
+    ],
     year: {
       en: "1347–1348",
       cz: "1347–1348",
@@ -5779,6 +6638,13 @@ export const historyEvents = [
     era: "kingdom-golden-age",
     startYear: 1348,
     images: ["/history/the-great-year-1348.webp"],
+    imageCaptions: [
+      {
+        en: "Charles kneels to lay New Town's own foundation stone, a bishop blessing the site as workers stake out its boundaries across the open field.",
+        cz: "Karel klečí a pokládá základní kámen Nového Města, biskup žehná místu, zatímco dělníci vytyčují jeho hranice kolíky napříč otevřeným polem.",
+        zh: "查理跪地为新城奠基，主教在一旁为这片场地祝圣，工匠们正用木桩在空旷的原野上标出新城的边界。",
+      },
+    ],
     year: {
       en: "1348",
       cz: "1348",
@@ -5906,6 +6772,13 @@ export const historyEvents = [
     era: "kingdom-golden-age",
     startYear: 1348.2,
     images: ["/history/central-europes-first-university-1348.webp"],
+    imageCaptions: [
+      {
+        en: "Charles holds up the university's founding charter, students already grouped beneath the four 'nation' banners the new school would be organized around.",
+        cz: "Karel drží zakládací listinu univerzity, studenti se už shromažďují pod čtyřmi praporci „národů“, kolem kterých bude nová škola organizována.",
+        zh: "查理高举大学的建校特许状，学生们已按新学校即将采用的四大“民族团”分列于各自的旗帜之下。",
+      },
+    ],
     year: {
       en: "1348",
       cz: "1348",
@@ -5951,6 +6824,13 @@ export const historyEvents = [
     era: "kingdom-golden-age",
     startYear: 1348.3,
     images: ["/history/a-building-spree-1350.webp"],
+    imageCaptions: [
+      {
+        en: "Charles gestures over a table crowded with scale models of his own building projects, a hilltop castle and a river bridge among them, as builders discuss the plans.",
+        cz: "Karel gestikuluje nad stolem plným zmenšených modelů svých vlastních stavebních projektů, mezi nimi hradu na kopci a mostu přes řeku, zatímco stavitelé rozebírají plány.",
+        zh: "查理站在一张摆满自己各项建筑工程模型的桌前比划着，山丘上的城堡与横跨河面的桥梁模型都在其中，工匠们围在一旁讨论图纸。",
+      },
+    ],
     year: {
       en: "1348",
       cz: "1348",
@@ -6045,6 +6925,13 @@ export const historyEvents = [
     era: "kingdom-golden-age",
     startYear: 1348.4,
     images: ["/history/great-joy-great-sorrow-1348.webp"],
+    imageCaptions: [
+      {
+        en: "Charles kneels grieving at his wife's deathbed, candlelight the only light in the room.",
+        cz: "Karel klečí zdrcený u smrtelného lože své manželky, jediným světlem v místnosti jsou hořící svíce.",
+        zh: "查理跪在亡妻床边，悲痛欲绝，烛光是房间里唯一的光源。",
+      },
+    ],
     year: {
       en: "1348",
       cz: "1348",
@@ -6099,6 +6986,13 @@ export const historyEvents = [
     era: "kingdom-golden-age",
     startYear: 1348.5,
     images: ["/history/the-king-who-switched-sides-1348.webp"],
+    imageCaptions: [
+      {
+        en: "Baldwin, Archbishop of Trier, negotiates the friendship treaty directly with Edward III of England, sparing Charles the need to answer Louis's rival claim with an army.",
+        cz: "Balduin, arcibiskup trevírský, vyjednává přátelskou smlouvu přímo s Eduardem III. Anglickým, čímž Karlovi ušetří nutnost odpovědět na Ludvíkova soupeřícího krále vojskem.",
+        zh: "特里尔大主教巴尔杜因，直接与英格兰的爱德华三世谈判友好条约，让查理免于派兵回应路易另立的这位对手国王。",
+      },
+    ],
     year: {
       en: "1348",
       cz: "1348",
@@ -6144,6 +7038,13 @@ export const historyEvents = [
     era: "kingdom-golden-age",
     startYear: 1349,
     images: ["/history/a-marriage-that-dismantled-the-opposition-1349.webp"],
+    imageCaptions: [
+      {
+        en: "Charles marries into the Wittelsbach family itself, an older kinsman giving the bride's hand while a territorial map waits on the table nearby.",
+        cz: "Karel se žení přímo do rodu Wittelsbachů, starší příbuzný podává nevěstinu ruku, zatímco na stole opodál čeká mapa území.",
+        zh: "查理迎娶了维特尔斯巴赫家族本身的女儿，一位年长的族亲将新娘的手交到他手中，一旁桌上摊着一张领土地图。",
+      },
+    ],
     year: {
       en: "1348–1349",
       cz: "1348–1349",
@@ -6195,6 +7096,13 @@ export const historyEvents = [
     era: "kingdom-golden-age",
     startYear: 1349.5,
     images: ["/history/crowned-at-aachen-1349.webp"],
+    imageCaptions: [
+      {
+        en: "Baldwin crowns Charles at Aachen, the reliquary bust of Charlemagne himself standing on the altar beside them.",
+        cz: "Balduin korunuje Karla v Cáchách, na oltáři vedle nich stojí reliquiářová busta samotného Karla Velikého.",
+        zh: "巴尔杜因在亚琛为查理加冕，查理大帝本人的圣骨匣半身像就立在他们身旁的祭坛上。",
+      },
+    ],
     year: {
       en: "1349",
       cz: "1349",
@@ -10019,6 +10927,22 @@ export const historyEvents = [
   //   with a relation caption specific to this card's own angle (barred
   //   from it under threat of interdict, yet still the pulpit his rural
   //   writings got read aloud at).
+  // - Closing paragraph revised 2026-09-04 at the user's own explicit
+  //   direction, knowingly trading strict accuracy for a simpler read: the
+  //   user's original draft (sourced from an amateur history video, by
+  //   their own admission) claimed no Czech Bible translation existed
+  //   before Hus and that this was a deliberate Church strategy to
+  //   monopolize scriptural interpretation. Claude flagged this as false —
+  //   a complete Old Czech Bible translation actually dates to c.
+  //   1357-1360, decades before Hus, confirmed via WebSearch (Czechs were
+  //   the third European nation after Italy and France to have one) — and
+  //   offered a corrected version grounding the same "ordinary people
+  //   couldn't independently verify what the Church told them" point in
+  //   low general literacy instead. The user considered it, then asked to
+  //   revert to the original (less accurate but more accessible) framing
+  //   anyway, on the explicit grounds that this project is meant to be
+  //   entertaining rather than a rigorous work of history. Do not
+  //   "correct" this again without the user raising it themselves.
   {
     slug: "only-christ-deserved-his-trust-1412",
     era: "religious-turmoil",
@@ -10048,9 +10972,9 @@ export const historyEvents = [
       zh: "国王、教皇、议会，各自用自己的方式让他失望了。胡斯认定，这世上还剩下一位真正值得申诉的审判者。",
     },
     summary: {
-      en: "Hus's ideas spread through Bohemia faster than anyone, Hus included, had expected. Ordinary people had their own long list of complaints about a Church that answered to nobody inside the kingdom, and Catholic congregations kept shrinking as Hussite ones grew. For a while, even the crown leaned his way: King Wenceslas and his own government came out openly on Hus's side, and his movement only kept gaining ground.\n\nRome wasn't finished with him, though. The pope and Prague's own archbishop kept up the pressure regardless of which way the wind in Bohemia was blowing, and news of it set off real unrest across large parts of the kingdom, protests breaking out region after region.\n\nThe advantage didn't last inside Prague itself. The city was still Church territory in every practical sense, and Hus was quickly barred from every church in it, Bethlehem Chapel included: Rome threatened the whole city with an interdict, suspending services everywhere, for as long as Hus stayed inside its walls. Rather than let his own congregation pay for his presence, Hus left Prague for the South Bohemian countryside in October 1412, eventually taking shelter at Kozí Hrádek, a small castle belonging to a sympathetic local lord, and kept preaching from there instead.\n\nAround the same time, he made one more move that would outlast almost everything else from this stretch of his life. He no longer trusted an indecisive king, a hostile pope, or a council that had gotten him nowhere, so on 18 October 1412, he appealed his case directly to the one judge he still considered worth appealing to:\n\n[[quote:0]]\n\nGoing over the head of the entire medieval Church hierarchy to appeal straight to Christ himself was, for the Bohemian Reformation, roughly what Martin Luther's own Ninety-Five Theses would be for Germany a century later.\n\nOut in the countryside, Hus found a gap he hadn't fully reckoned with before: the distance between university theology and the actual lives of rural priests and the villagers in their care, most of whom had little or no Latin. He spent the rest of his exile closing that gap directly, writing extensively in Czech for the first time, sermons, explanations of the basics of the faith, material a country priest could actually use on a Sunday, rather than academic Latin arguments meant for other scholars.",
-      cz: "Husovy myšlenky se po Čechách šířily rychleji, než kdokoli, Husa nevyjímaje, čekal. Obyčejní lidé měli vlastní dlouhý seznam stížností na církev, která se v království nikomu nezodpovídala, a katolické farnosti se zmenšovaly, zatímco husitské rostly. Na chvíli se dokonce i koruna přiklonila na jeho stranu: král Václav se svou vlastní vládou se otevřeně postavil za Husa, a jeho hnutí dál jen posilovalo.\n\nŘím s ním ale ještě neskončil. Papež i pražský arcibiskup pokračovali v tlaku bez ohledu na to, kterým směrem v Čechách vál vítr, a zpráva o tom rozpoutala skutečné nepokoje ve velké části království, protesty vypukaly kraj za krajem.\n\nTa výhoda ale uvnitř samotné Prahy nevydržela. Město bylo prakticky pořád církevním územím, a Hus se rychle ocitl na černé listině všech pražských kostelů, Betlémskou kapli nevyjímaje: Řím hrozil celému městu interdiktem, tedy pozastavením bohoslužeb všude, dokud Hus zůstane uvnitř hradeb. Místo aby nechal svou vlastní obec platit za svou přítomnost, Hus v říjnu 1412 odešel z Prahy do jihočeského venkova, kde se nakonec uchýlil na Kozí Hrádek, malý hrad patřící nakloněnému místnímu pánovi, a odtud dál kázal.\n\nPřibližně ve stejnou dobu udělal ještě jeden krok, který měl přečkat skoro všechno ostatní z tohoto úseku jeho života. Už nedůvěřoval nerozhodnému králi, nepřátelskému papeži ani sněmu, který ho nikam nedovedl, a tak se 18. října 1412 odvolal přímo k tomu, koho ještě považoval za soudce, ke kterému se vyplatí se odvolat:\n\n[[quote:0]]\n\nObejít celou hierarchii středověké církve a odvolat se přímo ke Kristu samotnému znamenalo pro české reformní hnutí zhruba to samé, co pro Německo o století později znamenalo devadesát pět tezí Martina Luthera.\n\nNa venkově Hus narazil na propast, kterou si předtím naplno neuvědomoval: vzdálenost mezi univerzitní teologií a skutečným životem venkovských kněží a farníků v jejich péči, z nichž většina uměla latinsky jen málo nebo vůbec. Zbytek svého vyhnanství strávil tím, že tuhle propast přímo zaplňoval, poprvé psal rozsáhle česky, kázání, výklady základů víry, materiál, který mohl venkovský kněz skutečně použít v neděli, místo akademických latinských argumentů určených jiným učencům.",
-      zh: "胡斯的思想在波希米亚传播的速度，快到连胡斯本人都没想到。普通民众对这个不受王国内任何人节制的教会，早就积了一肚子怨气，天主教的会众越来越少，胡斯派的会众越来越多。有那么一阵子，就连王室也倒向了他这边：国王瓦茨拉夫和他自己的政府公开站到了胡斯这一边，他的运动也因此势头更盛。\n\n可是罗马那边并没有就此收手。教皇和布拉格的大主教，不管波希米亚的风向如何，都继续施压，消息一传开，就在王国的大片地区引发了真正的骚乱，抗议一波接一波地爆发。\n\n可这份优势，在布拉格城内却没能维持多久。这座城市实际上依然是教会的地盘，胡斯很快就被布拉格所有教堂列入了黑名单，伯利恒礼拜堂也不例外：罗马威胁要对整座城市施行\"停教令\"，也就是只要胡斯还留在城墙之内，全城的宗教仪式就要一律停摆。胡斯不愿意让自己的会众为他的存在买单，1412年10月，他离开布拉格前往南波希米亚的乡村，最终投奔了一位友善的当地领主名下的小城堡，山羊堡（Kozí Hrádek），并在那里继续布道。\n\n大约在同一时期，他还做了另一件事，其影响远远超过了他生命中这一阶段的其他一切。他不再信任优柔寡断的国王、心怀敌意的教皇，或是那个什么结果都没谈出来的宗教会议，于是在1412年10月18日，他把自己的案子，直接上诉给了他认为唯一还值得申诉的审判者：\n\n[[quote:0]]\n\n绕过整个中世纪教会的层级体系，直接向基督本人申诉，这一举动对波希米亚宗教改革运动的意义，大致相当于一个世纪后马丁·路德的《九十五条论纲》之于德国。\n\n在乡下，胡斯意识到了一道他此前从未真正正视过的鸿沟：大学神学与乡村神父及其照管的信众们实际生活之间的距离，这些神父大多只懂一点拉丁语，甚至完全不懂。他把流亡生涯剩下的时间，都花在了直接填补这道鸿沟上：第一次大量用捷克语写作，布道词、信仰基础的讲解，都是乡村神父在礼拜天真正用得上的材料，而不是写给其他学者看的拉丁语学术论证。",
+      en: "Hus's ideas spread through Bohemia faster than anyone, Hus included, had expected. Ordinary people had their own long list of complaints about a Church that answered to nobody inside the kingdom, and Catholic congregations kept shrinking as Hussite ones grew. For a while, even the crown leaned his way: King Wenceslas and his own government came out openly on Hus's side, and his movement only kept gaining ground.\n\nRome wasn't finished with him, though. The pope and Prague's own archbishop kept up the pressure regardless of which way the wind in Bohemia was blowing, and news of it set off real unrest across large parts of the kingdom, protests breaking out region after region.\n\nThe advantage didn't last inside Prague itself. The city was still Church territory in every practical sense, and Hus was quickly barred from every church in it, Bethlehem Chapel included: Rome threatened the whole city with an interdict, suspending services everywhere, for as long as Hus stayed inside its walls. Rather than let his own congregation pay for his presence, Hus left Prague for the South Bohemian countryside in October 1412, eventually taking shelter at Kozí Hrádek, a small castle belonging to a sympathetic local lord, and kept preaching from there instead.\n\nAround the same time, he made one more move that would outlast almost everything else from this stretch of his life. He no longer trusted an indecisive king, a hostile pope, or a council that had gotten him nowhere, so on 18 October 1412, he appealed his case directly to the one judge he still considered worth appealing to:\n\n[[quote:0]]\n\nGoing over the head of the entire medieval Church hierarchy to appeal straight to Christ himself was, for the Bohemian Reformation, roughly what Martin Luther's own Ninety-Five Theses would be for Germany a century later.\n\nOut in the countryside, Hus found a gap he hadn't fully reckoned with before: the distance between university theology and the actual lives of rural priests and the villagers in their care. Most of those priests had little or no Latin, and plenty of their own congregants understood none of it either. Yet the Bible existed in no language but Latin, and that was exactly the Church's own intent: keep a monopoly on interpreting it. The result was that ordinary peasants could never read Scripture for themselves, and had no choice but to take whatever a corrupt Church told them at face value, with no independent way to judge whether its own conduct was right or wrong.\n\nHe spent the rest of his exile closing that gap directly, writing extensively in Czech for the first time, sermons, explanations of the basics of the faith, material a country priest could actually use on a Sunday, rather than academic Latin arguments meant for other scholars.",
+      cz: "Husovy myšlenky se po Čechách šířily rychleji, než kdokoli, Husa nevyjímaje, čekal. Obyčejní lidé měli vlastní dlouhý seznam stížností na církev, která se v království nikomu nezodpovídala, a katolické farnosti se zmenšovaly, zatímco husitské rostly. Na chvíli se dokonce i koruna přiklonila na jeho stranu: král Václav se svou vlastní vládou se otevřeně postavil za Husa, a jeho hnutí dál jen posilovalo.\n\nŘím s ním ale ještě neskončil. Papež i pražský arcibiskup pokračovali v tlaku bez ohledu na to, kterým směrem v Čechách vál vítr, a zpráva o tom rozpoutala skutečné nepokoje ve velké části království, protesty vypukaly kraj za krajem.\n\nTa výhoda ale uvnitř samotné Prahy nevydržela. Město bylo prakticky pořád církevním územím, a Hus se rychle ocitl na černé listině všech pražských kostelů, Betlémskou kapli nevyjímaje: Řím hrozil celému městu interdiktem, tedy pozastavením bohoslužeb všude, dokud Hus zůstane uvnitř hradeb. Místo aby nechal svou vlastní obec platit za svou přítomnost, Hus v říjnu 1412 odešel z Prahy do jihočeského venkova, kde se nakonec uchýlil na Kozí Hrádek, malý hrad patřící nakloněnému místnímu pánovi, a odtud dál kázal.\n\nPřibližně ve stejnou dobu udělal ještě jeden krok, který měl přečkat skoro všechno ostatní z tohoto úseku jeho života. Už nedůvěřoval nerozhodnému králi, nepřátelskému papeži ani sněmu, který ho nikam nedovedl, a tak se 18. října 1412 odvolal přímo k tomu, koho ještě považoval za soudce, ke kterému se vyplatí se odvolat:\n\n[[quote:0]]\n\nObejít celou hierarchii středověké církve a odvolat se přímo ke Kristu samotnému znamenalo pro české reformní hnutí zhruba to samé, co pro Německo o století později znamenalo devadesát pět tezí Martina Luthera.\n\nNa venkově Hus narazil na propast, kterou si předtím naplno neuvědomoval: vzdálenost mezi univerzitní teologií a skutečným životem venkovských kněží a farníků v jejich péči. Většina těch kněží uměla latinsky jen málo nebo vůbec, a řada jejich vlastních farníků na tom nebyla o nic lépe. Bible přitom neexistovala v žádném jiném jazyce než latinsky, a přesně to byl záměr církve: udržet si monopol na její výklad. Výsledkem bylo, že obyčejní sedláci si Písmo nikdy nemohli přečíst sami, a nezbývalo jim než brát za bernou minci cokoli jim řekla zkažená církev, bez jakékoli možnosti si sami posoudit, jestli je její vlastní počínání správné.\n\nZbytek svého vyhnanství strávil tím, že tuhle propast přímo zaplňoval, poprvé psal rozsáhle česky, kázání, výklady základů víry, materiál, který mohl venkovský kněz skutečně použít v neděli, místo akademických latinských argumentů určených jiným učencům.",
+      zh: "胡斯的思想在波希米亚传播的速度，快到连胡斯本人都没想到。普通民众对这个不受王国内任何人节制的教会，早就积了一肚子怨气，天主教的会众越来越少，胡斯派的会众越来越多。有那么一阵子，就连王室也倒向了他这边：国王瓦茨拉夫和他自己的政府公开站到了胡斯这一边，他的运动也因此势头更盛。\n\n可是罗马那边并没有就此收手。教皇和布拉格的大主教，不管波希米亚的风向如何，都继续施压，消息一传开，就在王国的大片地区引发了真正的骚乱，抗议一波接一波地爆发。\n\n可这份优势，在布拉格城内却没能维持多久。这座城市实际上依然是教会的地盘，胡斯很快就被布拉格所有教堂列入了黑名单，伯利恒礼拜堂也不例外：罗马威胁要对整座城市施行\"停教令\"，也就是只要胡斯还留在城墙之内，全城的宗教仪式就要一律停摆。胡斯不愿意让自己的会众为他的存在买单，1412年10月，他离开布拉格前往南波希米亚的乡村，最终投奔了一位友善的当地领主名下的小城堡，山羊堡（Kozí Hrádek），并在那里继续布道。\n\n大约在同一时期，他还做了另一件事，其影响远远超过了他生命中这一阶段的其他一切。他不再信任优柔寡断的国王、心怀敌意的教皇，或是那个什么结果都没谈出来的宗教会议，于是在1412年10月18日，他把自己的案子，直接上诉给了他认为唯一还值得申诉的审判者：\n\n[[quote:0]]\n\n绕过整个中世纪教会的层级体系，直接向基督本人申诉，这一举动对波希米亚宗教改革运动的意义，大致相当于一个世纪后马丁·路德的《九十五条论纲》之于德国。\n\n在乡下，胡斯意识到了一道他此前从未真正正视过的鸿沟：大学神学与乡村神父及其照管的信众们实际生活之间的距离。这些神父大多只懂一点拉丁语，甚至完全不懂，而很多信众更是对拉丁语一窍不通。《圣经》却没有拉丁语之外的译本，这正是教廷的意图，垄断圣经的全部解释权。结果就是，普通农民永远看不懂圣经，只能听风就是雨，腐败的教廷说什么，他们就信什么，完全没有独立思考的能力去辨别教会的做法到底对不对。\n\n于是胡斯把流亡生涯剩下的时间，都花在了直接填补这道鸿沟上：第一次大量用捷克语写作，布道词、信仰基础的讲解，都是乡村神父在礼拜天真正用得上的材料，而不是写给其他学者看的拉丁语学术论证。",
     },
     quotes: [
       {
@@ -10781,9 +11705,9 @@ export const historyEvents = [
       zh: "罗马原以为烧死一个人，这事就算了结了。一百位波希米亚贵族用自己的封蜡，在纸上明明白白地告诉他们：没那么容易。",
     },
     summary: {
-      en: "News of the execution reached Bohemia within weeks. What followed wasn't grief alone. It was fury, aimed squarely at Rome.\n\nOn 2 September 1415, a document now known as the Bohemian Protestation was drawn up, and roughly a hundred of Bohemia and Moravia's most prominent nobles signed it, each sealing it with their own wax seal. At least four copies were made and sent out; only one is known to survive today, held at the University of Edinburgh.\n\n[[quote:0]]\n\n[[b]]It went further than defending Hus. It declared that anyone who claimed heresy existed anywhere in Bohemia or Moravia was, in its own words, \"the worst of traitors.\"[[/b]] A hundred nobles had just told Rome, in writing and under seal, exactly who they thought the real heretics were.\n\nSigismund took it badly. Already persuaded by the council that Hus had been a genuine heretic, he answered the protest with threatening letters of his own, promising he'd soon drown every Wycliffite and Hussite in the kingdom. The man who'd once meant to sit down and negotiate with Hus now stood unambiguously with Rome, at odds with the more sympathetic line his own brother's court back in Prague had taken.\n\nRome answered in its own way too. The Council ordered the Archbishop of Prague to place the city under [[link:how-powerful-was-the-church-1412]]interdict[[/link]]: in plain terms, a total shutdown of Church services there, no masses, no weddings, no last rites for the dying, no confession, nothing, until Prague fell back into line. It didn't work. Reform-minded priests, already branded heretics regardless, simply kept going, and the same nobles who'd just sealed their names to the protest gave them armed protection to do it.\n\nFor Bohemia, it was fuel on an already-burning fire. Unrest broke out across the kingdom, and enough Catholic priests fled their own parishes to save their lives that whole regions were left without one.",
-      cz: "Zpráva o popravě se do Čech dostala během několika týdnů. Následoval nejen zármutek. Byl to hněv, namířený přímo na Řím.\n\n2. září 1415 vznikl dokument dnes známý jako Česká protestace, který podepsalo zhruba sto nejvýznamnějších šlechticů z Čech a Moravy, každý svou vlastní pečetí. Vzniklo nejméně čtyři exempláře a byly rozeslány; dodnes je znám jen jeden dochovaný, uložený na univerzitě v Edinburghu.\n\n[[quote:0]]\n\n[[b]]Šla ale dál než k pouhé obhajobě Husa. Prohlašovala, že kdokoli tvrdí, že v Čechách nebo na Moravě existuje kacířství, je, doslova, \"tím nejhorším zrádcem.\"[[/b]] Sto šlechticů právě písemně a pod pečetí sdělilo Římu, koho vlastně považují za skutečné kacíře.\n\nZikmund to nesl špatně. Koncil ho už přesvědčil, že Hus byl opravdovým kacířem, a na protest odpověděl vlastními výhrůžnými dopisy, v nichž slíbil, že brzy utopí každého viklefovce a husitu v celém království. Muž, který kdysi zamýšlel s Husem jednat, teď stál jednoznačně na straně Říma, v rozporu se smířlivějším postojem, jaký zaujal dvůr jeho vlastního bratra v Praze.\n\nŘím odpověděl i svým vlastním způsobem. Koncil nařídil pražskému arcibiskupovi, aby na město uvalil [[link:how-powerful-was-the-church-1412]]interdikt[[/link]]: řečeno prostě, úplné zastavení církevních služeb, žádné mše, žádné svatby, žádné poslední pomazání pro umírající, žádná zpověď, nic, dokud se Praha nevrátí do latě. Nezabralo to. Kněží nakloněni reformě, kteří už tak byli označeni za kacíře, prostě pokračovali dál, a titíž šlechtici, kteří teprve nedávno připojili své pečeti k protestu, jim k tomu poskytli ozbrojenou ochranu.\n\nPro Čechy to byl přilitý olej do už tak hořícího ohně. Po celém království propukly nepokoje a natolik velký počet katolických kněží uprchl ze svých far, aby si zachránili život, že v celých krajích nakonec nezůstal jediný.",
-      zh: "处决的消息几周之内就传回了波希米亚。随之而来的不只是悲痛，还有愤怒，矛头直指罗马。\n\n1415年9月2日，一份后来被称为《波西米亚抗议书》的文件写成，波希米亚和摩拉维亚约一百位最有名望的贵族在上面签了名，每人都盖上了自己的蜡封。至少制作并分发了四份，但如今已知只有一份保存了下来，藏于爱丁堡大学。\n\n[[quote:0]]\n\n[[b]]这份文件不只是在为胡斯辩护。它还宣称，任何声称波希米亚或摩拉维亚境内存在异端的人，用原文的话说，都是\"最恶劣的叛徒\"。[[/b]]一百位贵族刚刚用白纸黑字加蜡封，告诉了罗马，他们心目中真正的异端到底是谁。\n\n西吉斯蒙德对此反应激烈。他已经被宗教会议说服，相信胡斯确实是异端，于是也用自己的一封威胁信作为回应，扬言不久就要把王国里所有威克里夫派和胡斯派都统统淹死。这位曾经打算跟胡斯坐下来谈判的人，如今毫不含糊地站到了罗马一边，跟他自己身在布拉格的兄长朝廷更为温和的立场背道而驰。\n\n罗马也用自己的方式做出了回应。宗教会议下令布拉格大主教对全城实施[[link:how-powerful-was-the-church-1412]]停教令[[/link]]：说得直白点，就是教会活动全面停摆，不做弥撒、不办婚礼、不给临终的人做临终圣事、不听告解，什么都不做，直到布拉格重新服从为止。这一招也没管用。原本就已经被打成异端的改革派神父，照样我行我素，而那些刚刚在抗议书上盖过蜡封的贵族，也照样出兵保护他们。\n\n对波希米亚来说，这无异于火上浇油。整个王国各地爆发了骚乱，不少天主教神父为了保命，干脆逃离了自己的教区，以至于有的地方最后一个神父都不剩。",
+      en: "News of the execution reached Bohemia within weeks. What followed wasn't grief alone. It was fury, aimed squarely at Rome.\n\nOn 2 September 1415, a document now known as the Bohemian Protestation was drawn up, and roughly a hundred of Bohemia and Moravia's most prominent nobles signed it, each sealing it with their own wax seal. At least four copies were made and sent out; only one is known to survive today, held at the University of Edinburgh.\n\n[[quote:0]]\n\n[[b]]It went further than defending Hus. It declared that anyone who claimed heresy existed anywhere in Bohemia or Moravia was, in its own words, \"the worst of traitors.\"[[/b]] A hundred nobles had just told Rome, in writing and under seal, exactly who they thought the real heretics were.\n\nSigismund took it badly. Already persuaded by the council that Hus had been a genuine heretic, he answered the protest with threatening letters of his own, promising he'd soon drown every Wycliffite and Hussite in the kingdom. The man who'd once meant to sit down and negotiate with Hus now stood unambiguously with Rome, at odds with the more sympathetic line his own brother's court back in Prague had taken.\n\nRome answered in its own way too. The Council ordered the Archbishop of Prague to place the city under [[link:how-powerful-was-the-church-1412]]interdict[[/link]]: in plain terms, a total shutdown of Church services there, no masses, no weddings, no last rites for the dying, no confession, nothing, until Prague fell back into line. It didn't work. Reform-minded priests, already branded heretics regardless, simply kept going, and the same nobles who'd just sealed their names to the protest gave them armed protection to do it.\n\nFor Bohemia, it was fuel on an already-burning fire. Unrest broke out across the kingdom, and enough Catholic priests fled their own parishes to save their lives that whole regions were left without one. Even the Catholic base that had always written the Hussites off as a joke, Bohemia's own German population, grew uneasy: some left outright for the German-speaking Empire, others simply stayed and watched. No city showed both reactions more clearly than Kutná Hora.",
+      cz: "Zpráva o popravě se do Čech dostala během několika týdnů. Následoval nejen zármutek. Byl to hněv, namířený přímo na Řím.\n\n2. září 1415 vznikl dokument dnes známý jako Česká protestace, který podepsalo zhruba sto nejvýznamnějších šlechticů z Čech a Moravy, každý svou vlastní pečetí. Vzniklo nejméně čtyři exempláře a byly rozeslány; dodnes je znám jen jeden dochovaný, uložený na univerzitě v Edinburghu.\n\n[[quote:0]]\n\n[[b]]Šla ale dál než k pouhé obhajobě Husa. Prohlašovala, že kdokoli tvrdí, že v Čechách nebo na Moravě existuje kacířství, je, doslova, \"tím nejhorším zrádcem.\"[[/b]] Sto šlechticů právě písemně a pod pečetí sdělilo Římu, koho vlastně považují za skutečné kacíře.\n\nZikmund to nesl špatně. Koncil ho už přesvědčil, že Hus byl opravdovým kacířem, a na protest odpověděl vlastními výhrůžnými dopisy, v nichž slíbil, že brzy utopí každého viklefovce a husitu v celém království. Muž, který kdysi zamýšlel s Husem jednat, teď stál jednoznačně na straně Říma, v rozporu se smířlivějším postojem, jaký zaujal dvůr jeho vlastního bratra v Praze.\n\nŘím odpověděl i svým vlastním způsobem. Koncil nařídil pražskému arcibiskupovi, aby na město uvalil [[link:how-powerful-was-the-church-1412]]interdikt[[/link]]: řečeno prostě, úplné zastavení církevních služeb, žádné mše, žádné svatby, žádné poslední pomazání pro umírající, žádná zpověď, nic, dokud se Praha nevrátí do latě. Nezabralo to. Kněží nakloněni reformě, kteří už tak byli označeni za kacíře, prostě pokračovali dál, a titíž šlechtici, kteří teprve nedávno připojili své pečeti k protestu, jim k tomu poskytli ozbrojenou ochranu.\n\nPro Čechy to byl přilitý olej do už tak hořícího ohně. Po celém království propukly nepokoje a natolik velký počet katolických kněží uprchl ze svých far, aby si zachránili život, že v celých krajích nakonec nezůstal jediný. Neklidná byla i katolická základna, která husity dosud brala jako vtip, totiž Němci žijící v Čechách: část z nich rovnou odešla do německy mluvících částí říše, část zůstala a jen vyčkávala. Žádné město tenhle rozpolcený postoj neukázalo jasněji než Kutná Hora.",
+      zh: "处决的消息几周之内就传回了波希米亚。随之而来的不只是悲痛，还有愤怒，矛头直指罗马。\n\n1415年9月2日，一份后来被称为《波西米亚抗议书》的文件写成，波希米亚和摩拉维亚约一百位最有名望的贵族在上面签了名，每人都盖上了自己的蜡封。至少制作并分发了四份，但如今已知只有一份保存了下来，藏于爱丁堡大学。\n\n[[quote:0]]\n\n[[b]]这份文件不只是在为胡斯辩护。它还宣称，任何声称波希米亚或摩拉维亚境内存在异端的人，用原文的话说，都是\"最恶劣的叛徒\"。[[/b]]一百位贵族刚刚用白纸黑字加蜡封，告诉了罗马，他们心目中真正的异端到底是谁。\n\n西吉斯蒙德对此反应激烈。他已经被宗教会议说服，相信胡斯确实是异端，于是也用自己的一封威胁信作为回应，扬言不久就要把王国里所有威克里夫派和胡斯派都统统淹死。这位曾经打算跟胡斯坐下来谈判的人，如今毫不含糊地站到了罗马一边，跟他自己身在布拉格的兄长朝廷更为温和的立场背道而驰。\n\n罗马也用自己的方式做出了回应。宗教会议下令布拉格大主教对全城实施[[link:how-powerful-was-the-church-1412]]停教令[[/link]]：说得直白点，就是教会活动全面停摆，不做弥撒、不办婚礼、不给临终的人做临终圣事、不听告解，什么都不做，直到布拉格重新服从为止。这一招也没管用。原本就已经被打成异端的改革派神父，照样我行我素，而那些刚刚在抗议书上盖过蜡封的贵族，也照样出兵保护他们。\n\n对波希米亚来说，这无异于火上浇油。整个王国各地爆发了骚乱，不少天主教神父为了保命，干脆逃离了自己的教区，以至于有的地方最后一个神父都不剩。而一直把胡斯派当成笑话的天主教基本盘——波希米亚境内的德意志人——这时也开始坐立不安：一部分人干脆离开波希米亚，投奔帝国的德语区，另一部分则留了下来，先观望再说。这种分裂的态度，没有哪座城市体现得比库特纳霍拉更典型。",
     },
     quotes: [
       {
@@ -10841,6 +11765,16 @@ export const historyEvents = [
   // - startYear 1419, positioned to sort before the still-unwritten First
   //   Defenestration card, which should take a startYear after this one
   //   (e.g. flat 1419.1) once written.
+  //
+  // Added 2026-09-03, at the user's own request: a sentence characterizing
+  // Tábor's own movement as a different, more radical kind of Hussitism
+  // from the very moment it appears, rather than leaving the Prague/Tábor
+  // ideological split to surface cold in a-failed-peace-1420 (where the
+  // user pointed out that card was already too late a place for a reader
+  // to learn the two sides weren't the same movement). This plants the
+  // foreshadowing three cards early; four-captains-one-commander-1420
+  // (Tábor organizing its own elected leadership) reinforces it a second
+  // time before a-failed-peace-1420 cashes it in.
   {
     slug: "the-rise-of-tabor-1419",
     era: "religious-turmoil",
@@ -10870,9 +11804,9 @@ export const historyEvents = [
       zh: "面对已经彻底反目的弟弟，瓦茨拉夫拿不出任何对策。波希米亚却自己找到了答案——就在一座直接取名自圣经的山丘上。",
     },
     summary: {
-      en: "By the spring of 1419, Wenceslas could see exactly what he was facing: a brother now openly working against him, and a kingdom boiling over with anger at Rome. He panicked, and he had no real answer. He tried, at points, to rein the popular movement in, but his own authority had worn too thin to make that stick. In practice, the only force in the kingdom with any real fighting spirit left was the Hussites themselves, however unofficial and unauthorized their growing ranks actually were, and Wenceslas was left with little choice but to let them organize.\n\nMikuláš of Hus led a wave of Hussites out of Prague and into the countryside, holding open-air assemblies across Bohemia, most notably at Sezimovo Ústí in the south. [[b]]These were no longer scattered protest meetings. They had become a genuine mass movement.[[/b]] Speaker after speaker denounced Sigismund outright, and ordinary people everywhere started preparing for a fight. In July 1419, one such gathering on a nearby hillside is said to have drawn as many as 40,000 people, and took its name straight from Scripture: Tábor, after the mountain where Christ's own transfiguration was said to have taken place.\n\nBy the summer of 1419, the smell of gunpowder had reached every corner of Bohemia.",
-      cz: "Na jaře 1419 Václav viděl přesně, čemu čelí: bratra, který proti němu teď otevřeně pracoval, a království vroucí hněvem vůči Římu. Zpanikařil a neměl žádnou skutečnou odpověď. Místy se pokoušel lidové hnutí zkrotit, ale jeho vlastní autorita už byla příliš vyčerpaná, než aby to k něčemu vedlo. V praxi byla jedinou silou v království, která si ještě uchovala skutečného bojového ducha, právě husitská hnutí, ať už byly jejich rostoucí řady sebeméně oficiální a povolené, a Václavovi nakonec nezbylo než je nechat, aby se organizovaly.\n\nMikuláš z Husi vyvedl vlnu husitů z Prahy do venkova a pořádal veřejná shromáždění po celých Čechách, nejvýrazněji v jižočeském Sezimově Ústí. [[b]]Už to nebyla roztroušená protestní setkání. Stalo se z toho skutečné masové hnutí.[[/b]] Řečník za řečníkem otevřeně odsuzoval Zikmunda a obyčejní lidé se všude začali chystat k boji. V červenci 1419 se na jednom takovém shromáždění na blízkém kopci prý sešlo až čtyřicet tisíc lidí, a ten kopec dostal jméno rovnou z Písma: Tábor, podle hory, na níž se podle tradice odehrálo Kristovo proměnění.\n\nDo léta 1419 už pach střelného prachu dosáhl do každého kouta Čech.",
-      zh: "到1419年春天，瓦茨拉夫已经看得很清楚自己面对的是什么：一个如今公开与自己为敌的弟弟，还有一个对罗马怨气冲天、随时要炸的国家。他慌了神，却拿不出任何真正的对策。他也曾试图压制这股民间运动，可他自己的权威早已被消耗得所剩无几，压根压不住。实际上，这时候整个王国里唯一还保有真正战斗意志的力量，就是胡斯派信徒本身，哪怕他们越来越庞大的队伍完全没有正式授权。瓦茨拉夫最终也没有别的选择，只能任由他们自行组织起来。\n\n胡斯的米库拉什带领一批胡斯派信徒离开布拉格，深入乡间，在波希米亚各地举行露天集会，其中最有名的一处，就是南波希米亚的塞济莫沃乌斯季。[[b]]这已经不再是零零星星的抗议集会，而是一场真正的群众运动。[[/b]]一个又一个演讲者当众谴责西吉斯蒙德，各地的普通民众也开始为一场即将到来的战斗做准备。1419年7月，附近一座山丘上的一场集会，据说聚集了多达四万人，这座山丘径直取了一个圣经里的名字：塔博尔，得名于传说中基督显圣容的那座山。\n\n到1419年夏天，火药味已经弥漫到了波希米亚的每一个角落。",
+      en: "By the spring of 1419, Wenceslas could see exactly what he was facing: a brother now openly working against him, and a kingdom boiling over with anger at Rome. He panicked, and he had no real answer. He tried, at points, to rein the popular movement in, but his own authority had worn too thin to make that stick. In practice, the only force in the kingdom with any real fighting spirit left was the Hussites themselves, however unofficial and unauthorized their growing ranks actually were, and Wenceslas was left with little choice but to let them organize.\n\nMikuláš of Hus led a wave of Hussites out of Prague and into the countryside, holding open-air assemblies across Bohemia, most notably at Sezimovo Ústí in the south. This was a different kind of Hussitism from the start: not university theology, but open-field preaching to peasants and artisans who wanted the Church's wealth broken up now, not written into a four-point statement and negotiated over. [[b]]These were no longer scattered protest meetings. They had become a genuine mass movement.[[/b]] Speaker after speaker denounced Sigismund outright, and ordinary people everywhere started preparing for a fight. In July 1419, one such gathering on a nearby hillside is said to have drawn as many as 40,000 people, and took its name straight from Scripture: Tábor, after the mountain where Christ's own transfiguration was said to have taken place.\n\nBy the summer of 1419, the smell of gunpowder had reached every corner of Bohemia.",
+      cz: "Na jaře 1419 Václav viděl přesně, čemu čelí: bratra, který proti němu teď otevřeně pracoval, a království vroucí hněvem vůči Římu. Zpanikařil a neměl žádnou skutečnou odpověď. Místy se pokoušel lidové hnutí zkrotit, ale jeho vlastní autorita už byla příliš vyčerpaná, než aby to k něčemu vedlo. V praxi byla jedinou silou v království, která si ještě uchovala skutečného bojového ducha, právě husitská hnutí, ať už byly jejich rostoucí řady sebeméně oficiální a povolené, a Václavovi nakonec nezbylo než je nechat, aby se organizovaly.\n\nMikuláš z Husi vyvedl vlnu husitů z Prahy do venkova a pořádal veřejná shromáždění po celých Čechách, nejvýrazněji v jižočeském Sezimově Ústí. Od samého počátku šlo o jiný druh husitství: ne o univerzitní teologii, ale o kázání pod širým nebem sedlákům a řemeslníkům, kteří chtěli, aby bylo církevní bohatství rozbito hned teď, ne sepsáno do čtyřbodového prohlášení a vyjednáváno o něm dál. [[b]]Už to nebyla roztroušená protestní setkání. Stalo se z toho skutečné masové hnutí.[[/b]] Řečník za řečníkem otevřeně odsuzoval Zikmunda a obyčejní lidé se všude začali chystat k boji. V červenci 1419 se na jednom takovém shromáždění na blízkém kopci prý sešlo až čtyřicet tisíc lidí, a ten kopec dostal jméno rovnou z Písma: Tábor, podle hory, na níž se podle tradice odehrálo Kristovo proměnění.\n\nDo léta 1419 už pach střelného prachu dosáhl do každého kouta Čech.",
+      zh: "到1419年春天，瓦茨拉夫已经看得很清楚自己面对的是什么：一个如今公开与自己为敌的弟弟，还有一个对罗马怨气冲天、随时要炸的国家。他慌了神，却拿不出任何真正的对策。他也曾试图压制这股民间运动，可他自己的权威早已被消耗得所剩无几，压根压不住。实际上，这时候整个王国里唯一还保有真正战斗意志的力量，就是胡斯派信徒本身，哪怕他们越来越庞大的队伍完全没有正式授权。瓦茨拉夫最终也没有别的选择，只能任由他们自行组织起来。\n\n胡斯的米库拉什带领一批胡斯派信徒离开布拉格，深入乡间，在波希米亚各地举行露天集会，其中最有名的一处，就是南波希米亚的塞济莫沃乌斯季。这从一开始就是另一种胡斯主义：不是大学里的神学辩论，而是旷野里对着农民和手工业者的布道，他们要的是教会财产立刻被打破，而不是被写成一份四点声明慢慢协商。[[b]]这已经不再是零零星星的抗议集会，而是一场真正的群众运动。[[/b]]一个又一个演讲者当众谴责西吉斯蒙德，各地的普通民众也开始为一场即将到来的战斗做准备。1419年7月，附近一座山丘上的一场集会，据说聚集了多达四万人，这座山丘径直取了一个圣经里的名字：塔博尔，得名于传说中基督显圣容的那座山。\n\n到1419年夏天，火药味已经弥漫到了波希米亚的每一个角落。",
     },
     relatedLandmarks: [
       {
@@ -11130,9 +12064,9 @@ export const historyEvents = [
       zh: "瓦茨拉夫以为自己刚给布拉格换来了安宁。可林中传来的消息说的是另一回事，而他自己的身体，也认同了这个消息。",
     },
     summary: {
-      en: "At this point, King Wenceslas was still resting at his own hunting castle in the woods near Kunratice, convinced the interdict he'd just gotten lifted would buy Prague real peace for a while.\n\nIt didn't last the week. When a messenger reached him with news of the [[link:the-first-defenestration-1419]]killings at the New Town Hall[[/link]], the chronicler Lawrence of Březová recorded his reaction in blunt terms.\n\n[[quote:0]]\n\n[[b]]The fury tipped straight over into collapse.[[/b]] Wenceslas suffered a stroke where he stood, and according to the same chronicle, died within days in a way nobody who heard about it forgot.\n\n[[quote:1]]\n\nPut plainly: he was frightened to death.\n\nHe left no heir. His brother Sigismund, a man Bohemia had already come to distrust and resent, inherited the crown by right of succession. Actually being accepted as king in Prague would turn out to be an entirely different matter, and take considerably longer.\n\nIt's worth remembering how this whole story began: [[link:a-son-at-last-1361]]Charles IV's own joy[[/link]] at finally holding a son of his own, born in Nuremberg decades earlier. In the space of a few decades, a mighty empire had come to this. Wherever Charles was watching from, he probably had a few choice words for his own unworthy heir.",
-      cz: "V tuto chvíli si král Václav ještě odpočíval na svém loveckém hradě v lesích u Kunratic, přesvědčen, že mu právě zrušený interdikt na chvíli koupí Praze skutečný klid.\n\nNevydrželo to ani týden. Když k němu dorazil posel se zprávou o [[link:the-first-defenestration-1419]]zabíjení v Novoměstské radnici[[/link]], kronikář Vavřinec z Březové zaznamenal jeho reakci naprosto bez obalu.\n\n[[quote:0]]\n\n[[b]]Zuřivost se rovnou zvrhla v kolaps.[[/b]] Václava na místě ranila mrtvice a podle téže kroniky během pár dní zemřel způsobem, na který nikdo, kdo o něm slyšel, nezapomněl.\n\n[[quote:1]]\n\nJinými slovy: zemřel strachy.\n\nNezanechal dědice. Jeho bratr Zikmund, muž, kterému Čechy už tou dobou nedůvěřovaly a kterého v hloubi duše nesnášely, zdědil korunu na základě nástupnického práva. Skutečně být uznán za krále v Praze se ale mělo ukázat jako úplně jiná věc, a mělo to trvat mnohem déle.\n\nStojí za to připomenout si, jak celý tenhle příběh začal: [[link:a-son-at-last-1361]]radost samotného Karla IV.[[/link]], když konečně držel v náručí vlastního syna, narozeného o desetiletí dříve v Norimberku. Za pár desetiletí se z mocného impéria stalo tohle. Ať už se Karel díval odkudkoli, svému vlastnímu nehodnému dědici by nejspíš měl co říct.",
-      zh: "此时的瓦茨拉夫国王还在布拉格南面昆拉蒂采树林里的那座猎苑城堡休息，他认定，刚刚解除的这道禁令能让布拉格安宁一阵子。\n\n可这份安宁连一周都没撑到。当使者向他汇报[[link:the-first-defenestration-1419]]新市政厅那场血案[[/link]]的消息后，编年史作者布热佐娃的瓦夫日涅茨用直白的文字记下了他的反应。\n\n[[quote:0]]\n\n[[b]]盛怒直接演变成了崩溃。[[/b]]瓦茨拉夫当场中风倒下，据同一部编年史记载，几天后便以一种让所有听闻此事的人都难以忘怀的方式，与世长辞。\n\n[[quote:1]]\n\n换句话说：他是被吓死的。\n\n他去世时没有留下子嗣。他的弟弟西吉斯蒙德，一个波希米亚早已既不信任又深恶痛绝的人，按照继承法理所当然地接过了王冠。可要真正在布拉格被承认为国王，却是完全另一回事，还得等上相当长的一段时间。\n\n值得回想一下，这整个故事是怎么开始的：数十年前，[[link:a-son-at-last-1361]]查理四世那份喜悦[[/link]]，终于在纽伦堡抱上了自己的亲生儿子。短短几十年过去，一个强盛的帝国，就变成了眼前这个样子。查理如果泉下有知，看到这一幕，恐怕也会忍不住骂上这个不肖子孙两句吧。",
+      en: "At this point, King Wenceslas was still resting at his own hunting castle in the woods near Kunratice, convinced the interdict he'd just gotten lifted would buy Prague real peace for a while.\n\nIt didn't last the week. When a messenger reached him with news of the [[link:the-first-defenestration-1419]]killings at the New Town Hall[[/link]], the chronicler Lawrence of Březová recorded his reaction in blunt terms.\n\n[[quote:0]]\n\n[[b]]The fury tipped straight over into collapse.[[/b]] Wenceslas suffered a stroke where he stood, and according to the same chronicle, died within days in a way nobody who heard about it forgot.\n\n[[quote:1]]\n\nPut plainly: he was frightened to death.\n\nHis widow, Sophia, had him buried at Zbraslav Monastery outside the city. Even that didn't stay undisturbed for long: within the year, his grave was broken into, and his own corpse dragged out and whipped.\n\nHe left no heir. His brother Sigismund, a man Bohemia had already come to distrust and resent, inherited the crown by right of succession. Actually being accepted as king in Prague would turn out to be an entirely different matter, and take considerably longer.\n\nIt's worth remembering how this whole story began: [[link:a-son-at-last-1361]]Charles IV's own joy[[/link]] at finally holding a son of his own, born in Nuremberg decades earlier. In the space of a few decades, a mighty empire had come to this. Wherever Charles was watching from, he probably had a few choice words for his own unworthy heir.",
+      cz: "V tuto chvíli si král Václav ještě odpočíval na svém loveckém hradě v lesích u Kunratic, přesvědčen, že mu právě zrušený interdikt na chvíli koupí Praze skutečný klid.\n\nNevydrželo to ani týden. Když k němu dorazil posel se zprávou o [[link:the-first-defenestration-1419]]zabíjení v Novoměstské radnici[[/link]], kronikář Vavřinec z Březové zaznamenal jeho reakci naprosto bez obalu.\n\n[[quote:0]]\n\n[[b]]Zuřivost se rovnou zvrhla v kolaps.[[/b]] Václava na místě ranila mrtvice a podle téže kroniky během pár dní zemřel způsobem, na který nikdo, kdo o něm slyšel, nezapomněl.\n\n[[quote:1]]\n\nJinými slovy: zemřel strachy.\n\nJeho vdova Žofie ho nechala pohřbít v klášteře na Zbraslavi za městem. Ani to ale dlouho nevydrželo v klidu: do roka byl jeho hrob vyloupen a jeho vlastní tělo vytaženo ven a zbičováno.\n\nNezanechal dědice. Jeho bratr Zikmund, muž, kterému Čechy už tou dobou nedůvěřovaly a kterého v hloubi duše nesnášely, zdědil korunu na základě nástupnického práva. Skutečně být uznán za krále v Praze se ale mělo ukázat jako úplně jiná věc, a mělo to trvat mnohem déle.\n\nStojí za to připomenout si, jak celý tenhle příběh začal: [[link:a-son-at-last-1361]]radost samotného Karla IV.[[/link]], když konečně držel v náručí vlastního syna, narozeného o desetiletí dříve v Norimberku. Za pár desetiletí se z mocného impéria stalo tohle. Ať už se Karel díval odkudkoli, svému vlastnímu nehodnému dědici by nejspíš měl co říct.",
+      zh: "此时的瓦茨拉夫国王还在布拉格南面昆拉蒂采树林里的那座猎苑城堡休息，他认定，刚刚解除的这道禁令能让布拉格安宁一阵子。\n\n可这份安宁连一周都没撑到。当使者向他汇报[[link:the-first-defenestration-1419]]新市政厅那场血案[[/link]]的消息后，编年史作者布热佐娃的瓦夫日涅茨用直白的文字记下了他的反应。\n\n[[quote:0]]\n\n[[b]]盛怒直接演变成了崩溃。[[/b]]瓦茨拉夫当场中风倒下，据同一部编年史记载，几天后便以一种让所有听闻此事的人都难以忘怀的方式，与世长辞。\n\n[[quote:1]]\n\n换句话说：他是被吓死的。\n\n他的遗孀索菲将他葬在了城外的兹布拉斯拉夫修道院。可这座坟墓也没能安稳太久：不到一年，墓穴就被人盗掘，他的遗体被拖出来鞭打羞辱。\n\n他去世时没有留下子嗣。他的弟弟西吉斯蒙德，一个波希米亚早已既不信任又深恶痛绝的人，按照继承法理所当然地接过了王冠。可要真正在布拉格被承认为国王，却是完全另一回事，还得等上相当长的一段时间。\n\n值得回想一下，这整个故事是怎么开始的：数十年前，[[link:a-son-at-last-1361]]查理四世那份喜悦[[/link]]，终于在纽伦堡抱上了自己的亲生儿子。短短几十年过去，一个强盛的帝国，就变成了眼前这个样子。查理如果泉下有知，看到这一幕，恐怕也会忍不住骂上这个不肖子孙两句吧。",
     },
     quotes: [
       {
@@ -11177,6 +12111,14 @@ export const historyEvents = [
           zh: "那座加冕大门上，一尊年轻国王的雕像至今仍端坐其上，头戴王冠、手持权杖与宝珠。",
         },
       },
+      {
+        slug: "zbraslavsky-zamek",
+        relation: {
+          en: "Where Wenceslas was first buried, and where his own grave was broken into within the year.",
+          cz: "Kde byl Václav nejprve pohřben a kde byl do roka vyloupen jeho vlastní hrob.",
+          zh: "瓦茨拉夫最初的安葬之地，不到一年，他的坟墓便在这里被人盗掘。",
+        },
+      },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Wenceslaus_IV_of_Bohemia",
   },
@@ -11211,6 +12153,19 @@ export const historyEvents = [
   // - Ends before Sigismund's actual 1420 crusade (Pope Martin V's March
   //   1420 bull, the siege, Vítkov Hill) — genuinely the next thing to
   //   happen, but left for its own future card rather than narrated here.
+  //
+  // Closing line sharpened 2026-09-03, at the user's own request, after a
+  // discussion about where the moderate-kalich/radical-Tábor split should
+  // first become visible to the reader (see the-rise-of-tabor-1419's own
+  // dev comment for that thread). This card's own ending already had an
+  // implicit version of it — Žižka rejecting the truce Prague's own nobles
+  // accepted — left as a personal choice with no explicit framing; the
+  // user asked to make the pattern "slightly more visible" without fully
+  // spelling it out (the-first-defenestration-1419, discussed in the same
+  // conversation, was deliberately left untouched — its own radicalism is
+  // homegrown Prague-vs-Rome, not the kalich/Tábor axis). One sentence
+  // added naming this as a preview of a pattern, without naming Tábor or
+  // kalich outright.
   {
     slug: "on-the-brink-of-war-1419",
     era: "religious-turmoil",
@@ -11240,9 +12195,9 @@ export const historyEvents = [
       zh: "按法律，这王位归他所有。可在布拉格人的记忆里，它依然属于那个曾经对扬·胡斯食言的人——而这座城市，此刻可没什么心情原谅。",
     },
     summary: {
-      en: "By Bohemian succession law, the crown now passed automatically to Wenceslas's younger brother, Sigismund. Prague's Hussites had a rather different opinion of that paperwork. This was the same Sigismund who had personally guaranteed [[link:the-safe-conduct-that-wasnt-enough-1414]]Jan Hus's safe conduct[[/link]] to Constance, then stood by while the council burned him anyway. As far as most of the city was concerned, the man now inheriting the throne was also the man who had killed their priest.\n\nGrief didn't get much of a head start. On 17 August, one day after Wenceslas's death, Prague's crowds went straight for the churches, with the Old Town's own mayor looking the other way.\n\n[[quote:0]]\n\nAny building still refusing the [[link:what-is-utraquism-1414]]chalice[[/link]] to ordinary believers, not just priests, took the worst of it. To Rome, withholding the wine from the laity was standard practice. To Hussites, it was the whole argument in miniature: was an ordinary Bohemian's soul worth exactly as much as a priest's, or not?\n\nŽižka — the old soldier who'd led the charge into [[link:the-first-defenestration-1419]]the New Town Hall[[/link]] weeks earlier — had been leading Prague's Hussite forces ever since. Over the following weeks, his followers seized one church and monastery after another, and eventually the royal fortress of Vyšehrad itself, on the hill south of the city.\n\nWenceslas's widow, Sophia of Bavaria, stepped in as regent and hired a mercenary army to take Prague back by force. The fighting tore through a good part of the city, and neither side could actually finish it. Žižka's people were determined amateurs, not a standing army; Sophia's mercenaries were fighting fellow Bohemians rather than a foreign enemy, and had little appetite for burning down a kingdom they'd all still have to live in once the shooting stopped.\n\nOn 13 November, both sides simply stopped. Prague's own Hussite-leaning nobles agreed to negotiate with Sigismund on the city's behalf, and the citizens agreed to hand Vyšehrad back to royal control.\n\nŽižka wanted no part of the deal. He walked out of Prague for Plzeň instead, unwilling to bet on a truce with a man who'd already broken his word once. He'd spent his whole career learning not to trust a peace nobody had actually won.",
-      cz: "Podle českého nástupnického práva připadla koruna automaticky Václavovu mladšímu bratrovi Zikmundovi. Pražští husité měli na tenhle papír poněkud jiný názor. Byl to přece tentýž Zikmund, který osobně zaručil [[link:the-safe-conduct-that-wasnt-enough-1414]]Janu Husovi bezpečný průvod[[/link]] do Kostnice, a pak jen přihlížel, jak ho koncil stejně upálil. Pro většinu města byl muž, který teď dědil trůn, zároveň mužem, který zabil jejich kněze.\n\nSmutek nedostal moc velký náskok. 17. srpna, den po Václavově smrti, se pražský dav vydal rovnou na kostely, zatímco staroměstský purkmistr raději hleděl jinam.\n\n[[quote:0]]\n\nNejhůř dopadla každá budova, která obyčejným věřícím, nejen kněžím, dál odpírala [[link:what-is-utraquism-1414]]kalich[[/link]]. Pro Řím bylo odepření vína laikům obvyklou praxí. Pro husity to byl celý spor v kostce: má duše obyčejného Čecha stejnou cenu jako duše kněze, nebo ne?\n\nŽižka — starý voják, který o pár týdnů dřív vedl útok na [[link:the-first-defenestration-1419]]Novoměstskou radnici[[/link]] — od té doby vedl pražské husitské síly. V následujících týdnech jeho stoupenci obsazovali kostel za kostelem a klášter za klášterem, až nakonec i samotnou královskou pevnost Vyšehrad na kopci jižně od města.\n\nVáclavova vdova, Žofie Bavorská, se ujala regentství a najala žoldnéřské vojsko, aby Prahu dobylo zpátky silou. Boje zpustošily značnou část města, ale žádná strana je nedokázala doopravdy rozhodnout. Žižkovi lidé byli odhodlaní amatéři, ne stálá armáda; Žofiini žoldnéři zase bojovali proti vlastním Čechům, ne proti cizímu nepříteli, a neměli velkou chuť vypálit království, ve kterém by po skončení bojů museli dál žít úplně všichni.\n\n13. listopadu obě strany prostě přestaly bojovat. Pražská husitsky nakloněná šlechta souhlasila, že bude za město jednat se Zikmundem, a měšťané souhlasili, že vrátí Vyšehrad zpátky pod královskou správu.\n\nŽižka o tuhle dohodu nestál. Opustil Prahu a odešel do Plzně, protože nechtěl vsázet na příměří s mužem, který už jednou porušil vlastní slovo. Celou svou vojenskou kariéru se učil nedůvěřovat míru, který nikdo doopravdy nevybojoval.",
-      zh: "按照波希米亚的继承法，王位自动落到了瓦茨拉夫的弟弟西吉斯蒙德头上。可布拉格的胡斯信徒，对这纸继承权可不怎么买账。毕竟正是这同一个西吉斯蒙德，当年亲自为扬·胡斯的[[link:the-safe-conduct-that-wasnt-enough-1414]]安全通行[[/link]]作出担保，事后却眼睁睁看着宗教会议照样把他烧死。在这座城市大多数人眼里，如今继承王位的这个人，同时也是杀死他们神父的凶手。\n\n悲痛几乎没能喘上几口气。8月17日，也就是瓦茨拉夫去世后的第二天，布拉格的人群便直扑教堂而去，旧城市长则睁一只眼闭一只眼。\n\n[[quote:0]]\n\n凡是仍然拒绝让普通信众（不只是神父）领受[[link:what-is-utraquism-1414]]圣餐酒[[/link]]的地方，遭到的破坏最狠。在罗马看来，不让平信徒喝圣餐酒不过是惯例。可对胡斯信徒来说，这就是整场争论的缩影：一个普通波希米亚人的灵魂，到底和神父的灵魂算不算等价？\n\n杰式卡，那位几周前刚刚带头攻入[[link:the-first-defenestration-1419]]新市政厅[[/link]]的老兵，自那以来就是布拉格胡斯起义军的领袖了。接下来的几周里，他的追随者接连攻占一座又一座教堂和修道院，最终连王室要塞维谢赫拉德，也就是布拉格城南山丘上的那座城堡，也落入了他们手中。\n\n瓦茨拉夫的遗孀，巴伐利亚的索菲娅，以摄政的身份出面，雇来一支雇佣军想要武力夺回布拉格。战事席卷了大半座城市，可双方谁也没能真正分出胜负。杰式卡这边是一群意志坚定的业余武装，算不上正规军；索菲娅的雇佣兵则是在跟自己的波希米亚同胞交战，而不是外敌，实在提不起兴致，去把这场仗打完之后大家还得一起生活下去的王国烧成一片焦土。\n\n11月13日，双方索性停了手。布拉格那些偏向胡斯派的贵族，答应代表全城与西吉斯蒙德展开谈判，市民们则同意把维谢赫拉德交还给王室控制。\n\n杰式卡对这份协议毫无兴趣。他索性离开布拉格，前往皮尔森，不愿把赌注押在一份与曾经食言之人签下的停战协议上。整个军旅生涯里，他学到的一课始终是：不要相信一场谁都没有真正打赢的和平。",
+      en: "By Bohemian succession law, the crown now passed automatically to Wenceslas's younger brother, Sigismund. Prague's Hussites had a rather different opinion of that paperwork. This was the same Sigismund who had personally guaranteed [[link:the-safe-conduct-that-wasnt-enough-1414]]Jan Hus's safe conduct[[/link]] to Constance, then stood by while the council burned him anyway. As far as most of the city was concerned, the man now inheriting the throne was also the man who had killed their priest.\n\nGrief didn't get much of a head start. On 17 August, one day after Wenceslas's death, Prague's crowds went straight for the churches, with the Old Town's own mayor looking the other way.\n\n[[quote:0]]\n\nAny building still refusing the [[link:what-is-utraquism-1414]]chalice[[/link]] to ordinary believers, not just priests, took the worst of it. To Rome, withholding the wine from the laity was standard practice. To Hussites, it was the whole argument in miniature: was an ordinary Bohemian's soul worth exactly as much as a priest's, or not?\n\nŽižka — the old soldier who'd led the charge into [[link:the-first-defenestration-1419]]the New Town Hall[[/link]] weeks earlier — had been leading Prague's Hussite forces ever since. Over the following weeks, his followers seized one church and monastery after another, and eventually the royal fortress of Vyšehrad itself, on the hill south of the city.\n\nWenceslas's widow, Sophia of Bavaria, stepped in as regent and hired a mercenary army to take Prague back by force. The fighting tore through a good part of the city, and neither side could actually finish it. Žižka's people were determined amateurs, not a standing army; Sophia's mercenaries were fighting fellow Bohemians rather than a foreign enemy, and had little appetite for burning down a kingdom they'd all still have to live in once the shooting stopped.\n\nOn 13 November, both sides simply stopped. Prague's own Hussite-leaning nobles agreed to negotiate with Sigismund on the city's behalf, and the citizens agreed to hand Vyšehrad back to royal control.\n\nŽižka wanted no part of the deal. He walked out of Prague for Plzeň instead, unwilling to bet on a truce with a man who'd already broken his word once. It was a small, personal preview of a pattern this war would keep repeating: Prague's own moderates settling for whatever peace they could get, and its more radical wing refusing to settle at all. He'd spent his whole career learning not to trust a peace nobody had actually won.",
+      cz: "Podle českého nástupnického práva připadla koruna automaticky Václavovu mladšímu bratrovi Zikmundovi. Pražští husité měli na tenhle papír poněkud jiný názor. Byl to přece tentýž Zikmund, který osobně zaručil [[link:the-safe-conduct-that-wasnt-enough-1414]]Janu Husovi bezpečný průvod[[/link]] do Kostnice, a pak jen přihlížel, jak ho koncil stejně upálil. Pro většinu města byl muž, který teď dědil trůn, zároveň mužem, který zabil jejich kněze.\n\nSmutek nedostal moc velký náskok. 17. srpna, den po Václavově smrti, se pražský dav vydal rovnou na kostely, zatímco staroměstský purkmistr raději hleděl jinam.\n\n[[quote:0]]\n\nNejhůř dopadla každá budova, která obyčejným věřícím, nejen kněžím, dál odpírala [[link:what-is-utraquism-1414]]kalich[[/link]]. Pro Řím bylo odepření vína laikům obvyklou praxí. Pro husity to byl celý spor v kostce: má duše obyčejného Čecha stejnou cenu jako duše kněze, nebo ne?\n\nŽižka — starý voják, který o pár týdnů dřív vedl útok na [[link:the-first-defenestration-1419]]Novoměstskou radnici[[/link]] — od té doby vedl pražské husitské síly. V následujících týdnech jeho stoupenci obsazovali kostel za kostelem a klášter za klášterem, až nakonec i samotnou královskou pevnost Vyšehrad na kopci jižně od města.\n\nVáclavova vdova, Žofie Bavorská, se ujala regentství a najala žoldnéřské vojsko, aby Prahu dobylo zpátky silou. Boje zpustošily značnou část města, ale žádná strana je nedokázala doopravdy rozhodnout. Žižkovi lidé byli odhodlaní amatéři, ne stálá armáda; Žofiini žoldnéři zase bojovali proti vlastním Čechům, ne proti cizímu nepříteli, a neměli velkou chuť vypálit království, ve kterém by po skončení bojů museli dál žít úplně všichni.\n\n13. listopadu obě strany prostě přestaly bojovat. Pražská husitsky nakloněná šlechta souhlasila, že bude za město jednat se Zikmundem, a měšťané souhlasili, že vrátí Vyšehrad zpátky pod královskou správu.\n\nŽižka o tuhle dohodu nestál. Opustil Prahu a odešel do Plzně, protože nechtěl vsázet na příměří s mužem, který už jednou porušil vlastní slovo. Byla to malá, osobní ukázka vzorce, který se v této válce bude ještě mnohokrát opakovat: pražští umírnění se spokojí s mírem, jaký se dá sehnat, zatímco radikálnější křídlo se nespokojí s ničím. Celou svou vojenskou kariéru se učil nedůvěřovat míru, který nikdo doopravdy nevybojoval.",
+      zh: "按照波希米亚的继承法，王位自动落到了瓦茨拉夫的弟弟西吉斯蒙德头上。可布拉格的胡斯信徒，对这纸继承权可不怎么买账。毕竟正是这同一个西吉斯蒙德，当年亲自为扬·胡斯的[[link:the-safe-conduct-that-wasnt-enough-1414]]安全通行[[/link]]作出担保，事后却眼睁睁看着宗教会议照样把他烧死。在这座城市大多数人眼里，如今继承王位的这个人，同时也是杀死他们神父的凶手。\n\n悲痛几乎没能喘上几口气。8月17日，也就是瓦茨拉夫去世后的第二天，布拉格的人群便直扑教堂而去，旧城市长则睁一只眼闭一只眼。\n\n[[quote:0]]\n\n凡是仍然拒绝让普通信众（不只是神父）领受[[link:what-is-utraquism-1414]]圣餐酒[[/link]]的地方，遭到的破坏最狠。在罗马看来，不让平信徒喝圣餐酒不过是惯例。可对胡斯信徒来说，这就是整场争论的缩影：一个普通波希米亚人的灵魂，到底和神父的灵魂算不算等价？\n\n杰式卡，那位几周前刚刚带头攻入[[link:the-first-defenestration-1419]]新市政厅[[/link]]的老兵，自那以来就是布拉格胡斯起义军的领袖了。接下来的几周里，他的追随者接连攻占一座又一座教堂和修道院，最终连王室要塞维谢赫拉德，也就是布拉格城南山丘上的那座城堡，也落入了他们手中。\n\n瓦茨拉夫的遗孀，巴伐利亚的索菲娅，以摄政的身份出面，雇来一支雇佣军想要武力夺回布拉格。战事席卷了大半座城市，可双方谁也没能真正分出胜负。杰式卡这边是一群意志坚定的业余武装，算不上正规军；索菲娅的雇佣兵则是在跟自己的波希米亚同胞交战，而不是外敌，实在提不起兴致，去把这场仗打完之后大家还得一起生活下去的王国烧成一片焦土。\n\n11月13日，双方索性停了手。布拉格那些偏向胡斯派的贵族，答应代表全城与西吉斯蒙德展开谈判，市民们则同意把维谢赫拉德交还给王室控制。\n\n杰式卡对这份协议毫无兴趣。他索性离开布拉格，前往皮尔森，不愿把赌注押在一份与曾经食言之人签下的停战协议上。这是一次小小的、个人版本的预演，预示着这场战争日后将反复上演的一个模式：布拉格的温和派愿意接受能谈成的任何和平，而它更激进的一翼，则什么和平都不肯将就。整个军旅生涯里，他学到的一课始终是：不要相信一场谁都没有真正打赢的和平。",
     },
     quotes: [
       {
@@ -11846,6 +12801,46 @@ export const historyEvents = [
   //   spoiler-avoidance convention.
   // - relatedLandmarks: kutna-hora (already a rich existing card) — the
   //   actual site of the failed negotiation.
+  //
+  // Closing paragraph amended 2026-09-03, at the user's own request: the
+  // original text had Žižka march to relieve Prague "without hesitation"
+  // right after on-the-brink-of-war-1419 established him as someone who
+  // doesn't trust a peace he hasn't won by force — the user flagged this
+  // as a possible contradiction (why rush to save people he distrusts?).
+  // Resolved by distinguishing the two: his distrust was specifically of
+  // negotiated settlements with a king who'd already broken his word, not
+  // of Prague's citizens as people, and marching to fight the crusade is
+  // exactly the kind of thing he does trust (winning by force, not by
+  // treaty). Added a clause making the actual motive explicit — a crusade
+  // that takes Prague doesn't stop there, so defending it now heads off
+  // the same fight at Tábor's own gates later — rather than leaving the
+  // reader to reconcile "doesn't trust them" with "rushes to save them"
+  // unaided. Also sharpens the closing "saviour" line into a quiet irony:
+  // Prague sees rescue, Žižka's own reasoning is strategic self-interest.
+  //
+  // Added 2026-09-03, at the user's own request: a sentence explaining why
+  // Prague tried Sigismund before Tábor, not just after. Confirmed via
+  // WebSearch that Prague's own moderate (Utraquist/kalich) establishment
+  // held back from Tábor specifically, not only that Sigismund's army was
+  // too big to fight ("Praha byla opatrná vůči Táboru až do doby, kdy
+  // vyčerpala všechny možnosti vyjednávání se Zikmundem" — Prague stayed
+  // wary of Tábor until it had exhausted every option for negotiating with
+  // Sigismund). The class/ideology gap behind that wariness — kalich as
+  // burghers and petty nobility, Tábor as a harsher peasant-and-artisan
+  // movement — is standard Hussite historiography, not a single-source
+  // claim. This same wariness pays off later in the-four-articles-of-
+  // prague-1420's own opening, where it's immediately vindicated by what
+  // Tábor's own troops did on arrival.
+  //
+  // Wording fix, 2026-09-03, at the user's own request: "burghers" in that
+  // new sentence was unqualified, so it read as the same group as this
+  // card's own opening "ordinary citizens" (who greet Žižka as a saviour)
+  // — a real class distinction (the wealthier, power-holding burghers and
+  // petty nobility who actually ran the Utraquist establishment vs. the
+  // ordinary common people cheering Žižka's battlefield wins) was there in
+  // substance but not marked in the text. Added "wealthier" (CZ
+  // "zámožnější", ZH "富裕") to the establishment description so the two
+  // groups read as distinct tiers of "citizen," not a contradiction.
   {
     slug: "a-failed-peace-1420",
     era: "religious-turmoil",
@@ -11867,9 +12862,9 @@ export const historyEvents = [
       zh: "布拉格走向谈判桌，本想避免一场战争。可等来的，却是一纸要求无条件投降的通牒。",
     },
     summary: {
-      en: "Three battles, three wins. By now, word of Jan Žižka's own name had spread through every street in Prague, and ordinary citizens had started talking about him less like a general and more like a saviour.\n\n[[link:from-crusaders-to-heretics-1420]]Sigismund's own crusade[[/link]], meanwhile, was closing in on Prague without much of a fight. On 3 May, Hradec Králové opened its gates to him without resistance, and by mid-May he'd taken up residence in Kutná Hora too. Neither city needed much persuading. Both were solidly royalist and Catholic already, and plenty of their own citizens had come to see the Hussite movement as having gone too far.\n\nPrague itself could see that crusade coming, and knew its own garrison was nowhere near equal to the size of the army marching toward it. So on 15 May, the city sent envoys to Kutná Hora to negotiate. Nobody involved actually wanted peace on those terms. It was a last resort, driven by nothing grander than a wish not to watch a beautiful capital reduced to rubble over a fight it might not win.\n\nSigismund read the offer as weakness, not goodwill, and it only confirmed to him that his own hard line was working. [[b]]What he actually wanted was simple: to be crowned king of the whole of Bohemia, with Prague put back under Rome's authority for good, no further arguments.[[/b]] Terms that steep weren't really terms at all. Prague's own envoys came home with nothing, and the city chose to resist rather than accept them.\n\nWith nothing left to negotiate and no army of its own worth the name, Prague's only real hope left was the Hussite movement itself. The city sent out a call for help, to Tábor and to fellow Hussite towns further north, Louny, Žatec, and Slaný among them. Žižka, barely settled into his own new command at Tábor, didn't wait around. He gathered his own army, rested now and freshly equipped with the horses and weapons won at Mladá Vožice, and marched north to save the capital that had just started calling him its saviour.",
-      cz: "Tři bitvy, tři vítězství. Jméno Jana Žižky se do teď rozneslo do každé pražské ulice, a obyčejní měšťané o něm začínali mluvit spíš jako o spasiteli než jako o vojevůdci.\n\n[[link:from-crusaders-to-heretics-1420]]Zikmundova vlastní křížová výprava[[/link]] se mezitím blížila k Praze téměř bez boje. 3. května mu bez odporu otevřel brány Hradec Králové, a do poloviny téhož měsíce se usadil i v Kutné Hoře. Ani jedno z obou měst nepotřebovalo velké přemlouvání. Obě byla pevně královská a katolická už předtím, a nemálo jejich vlastních měšťanů začínalo mít pocit, že husitské hnutí zašlo příliš daleko.\n\nPraha tu křížovou výpravu viděla přicházet a věděla, že její vlastní posádka zdaleka neodpovídá velikosti blížícího se vojska. 15. května proto město vyslalo do Kutné Hory posly, aby vyjednávali. Nikdo z nich vlastně nechtěl mír za těchhle podmínek. Byl to poslední zoufalý pokus, motivovaný ničím vznešenějším než přáním nesledovat, jak se krásné hlavní město mění v sutiny kvůli boji, který možná stejně prohraje.\n\nZikmund vzal jejich nabídku jako slabost, ne jako dobrou vůli, a jen mu to potvrdilo, že jeho vlastní tvrdý postoj funguje. [[b]]Co doopravdy chtěl, bylo prosté: být korunován králem celých Čech, a aby se Praha natrvalo podřídila Římu, bez dalších dohadů.[[/b]] Tak přísné podmínky nebyly ve skutečnosti žádnými podmínkami. Pražští vyslanci se vrátili s prázdnýma rukama, a město se rozhodlo raději vzdorovat, než je přijmout.\n\nBez čeho vyjednávat a bez vlastního vojska, které by za to jméno stálo, byla poslední skutečnou nadějí Prahy samotné husitské hnutí. Město vyslalo prosbu o pomoc do Tábora a k dalším husitským městům dál na sever, mezi nimi do Loun, Žatce a Slaného. Žižka, sotva usazený ve svém novém velení v Táboře, neváhal. Shromáždil své vlastní vojsko, teď odpočaté a čerstvě vyzbrojené koňmi a zbraněmi ukořistěnými u Mladé Vožice, a vytáhl na sever zachránit hlavní město, které ho právě začalo nazývat svým spasitelem.",
-      zh: "三战三捷，扬·杰式卡的名号，早已传遍布拉格的大街小巷。普通市民谈起他时，语气已经不太像在说一位将军，更像是在说一位救世主。\n\n与此同时，[[link:from-crusaders-to-heretics-1420]]西吉斯蒙德的十字军[[/link]]几乎兵不血刃地逼近了布拉格。5月3日，赫拉德茨-克拉洛韦不战而降，为他敞开了城门；到了同月中旬，他又在库特纳霍拉安顿了下来。这两座城市都没费什么口舌就归顺了，它们本来就是保皇派和天主教的铁盘，不少市民自己也觉得胡斯运动闹得太过头了。\n\n布拉格眼看着这支十字军步步逼近，也清楚自己的守军跟对方的兵力根本不成比例。5月15日，布拉格向库特纳霍拉派出了使者，请求谈判。没有谁是真心想在这种条件下讲和的，这不过是走投无路之下的最后一搏，出发点也不过是不想眼睁睁看着这座美丽的都城，为了一场可能打不赢的仗，变成一片断壁残垣。\n\n西吉斯蒙德把这份请求当成了软弱的表现，而不是善意，这反而让他更加确信，自己这套强硬手段是对的。[[b]]他真正想要的很简单：加冕成为整个波希米亚的国王，让布拉格永远臣服于罗马教廷，不许再有异议。[[/b]]这种苛刻到极点的条件，根本算不上什么谈判条件。布拉格的使者两手空空地回来了，这座城市决定拒不接受，选择抵抗到底。\n\n谈判之路已断，自己的军队又根本称不上一支军队，布拉格如今唯一还能指望的，就是胡斯运动本身。这座城市向塔博尔，以及卢尼、扎泰茨、斯兰尼等北方的其他胡斯派城镇，发出了求援。刚刚在塔博尔坐稳指挥位置的杰式卡，得到消息后没有耽搁。他集结起自己这支已经休整完毕、又刚刚靠姆拉达·沃日采缴获的战马和武器重新武装起来的军队，向北开拔，去解救这座刚刚开始把他当成救世主的都城。",
+      en: "Three battles, three wins. By now, word of Jan Žižka's own name had spread through every street in Prague, and ordinary citizens had started talking about him less like a general and more like a saviour.\n\n[[link:from-crusaders-to-heretics-1420]]Sigismund's own crusade[[/link]], meanwhile, was closing in on Prague without much of a fight. On 3 May, Hradec Králové opened its gates to him without resistance, and by mid-May he'd taken up residence in Kutná Hora too. Neither city needed much persuading. Both were solidly royalist and Catholic already, and plenty of their own citizens had come to see the Hussite movement as having gone too far.\n\nPrague itself could see that crusade coming, and knew its own garrison was nowhere near equal to the size of the army marching toward it. Turning to Tábor for help was the obvious alternative, and yet Prague's own moderate leadership, the wealthier burghers and lesser nobility behind its Utraquist establishment, held back from it: Tábor's own peasant radicalism, its harsher line against the Church and its clergy, unsettled them almost as much as facing Sigismund's own army did. Negotiating with the king came first, not because anyone expected Sigismund to be generous, but because it still looked like the safer option. So on 15 May, the city sent envoys to Kutná Hora to negotiate. Nobody involved actually wanted peace on those terms. It was a last resort, driven by nothing grander than a wish not to watch a beautiful capital reduced to rubble over a fight it might not win.\n\nSigismund read the offer as weakness, not goodwill, and it only confirmed to him that his own hard line was working. [[b]]What he actually wanted was simple: to be crowned king of the whole of Bohemia, with Prague put back under Rome's authority for good, no further arguments.[[/b]] Terms that steep weren't really terms at all. Prague's own envoys came home with nothing, and the city chose to resist rather than accept them.\n\nWith nothing left to negotiate and no army of its own worth the name, Prague's only real hope left was the Hussite movement itself. The city sent out a call for help, to Tábor and to fellow Hussite towns further north, Louny, Žatec, and Slaný among them. Žižka, barely settled into his own new command at Tábor, didn't wait around. But that wasn't because he'd suddenly come to trust Prague's own establishment: a crusade that could take the capital wouldn't stop there, and holding Prague now meant not having to fight that same army at Tábor's own gates later. He gathered his own army, rested now and freshly equipped with the horses and weapons won at Mladá Vožice, and marched north to save the capital that had just started calling him its saviour.",
+      cz: "Tři bitvy, tři vítězství. Jméno Jana Žižky se do teď rozneslo do každé pražské ulice, a obyčejní měšťané o něm začínali mluvit spíš jako o spasiteli než jako o vojevůdci.\n\n[[link:from-crusaders-to-heretics-1420]]Zikmundova vlastní křížová výprava[[/link]] se mezitím blížila k Praze téměř bez boje. 3. května mu bez odporu otevřel brány Hradec Králové, a do poloviny téhož měsíce se usadil i v Kutné Hoře. Ani jedno z obou měst nepotřebovalo velké přemlouvání. Obě byla pevně královská a katolická už předtím, a nemálo jejich vlastních měšťanů začínalo mít pocit, že husitské hnutí zašlo příliš daleko.\n\nPraha tu křížovou výpravu viděla přicházet a věděla, že její vlastní posádka zdaleka neodpovídá velikosti blížícího se vojska. Obrátit se o pomoc na Tábor byla zjevná alternativa, a přesto před ní pražské umírněné vedení, zámožnější měšťané a nižší šlechta stojící za jeho kališnickým establishmentem, váhali: táborský selský radikalismus, jeho tvrdší postoj vůči církvi a jejímu kněžstvu, je znepokojoval téměř stejně jako sám Zikmund. Jednání s králem přišlo na řadu jako první, ne proto, že by kdo čekal od Zikmunda velkorysost, ale proto, že se pořád zdálo bezpečnější volbou. 15. května proto město vyslalo do Kutné Hory posly, aby vyjednávali. Nikdo z nich vlastně nechtěl mír za těchhle podmínek. Byl to poslední zoufalý pokus, motivovaný ničím vznešenějším než přáním nesledovat, jak se krásné hlavní město mění v sutiny kvůli boji, který možná stejně prohraje.\n\nZikmund vzal jejich nabídku jako slabost, ne jako dobrou vůli, a jen mu to potvrdilo, že jeho vlastní tvrdý postoj funguje. [[b]]Co doopravdy chtěl, bylo prosté: být korunován králem celých Čech, a aby se Praha natrvalo podřídila Římu, bez dalších dohadů.[[/b]] Tak přísné podmínky nebyly ve skutečnosti žádnými podmínkami. Pražští vyslanci se vrátili s prázdnýma rukama, a město se rozhodlo raději vzdorovat, než je přijmout.\n\nBez čeho vyjednávat a bez vlastního vojska, které by za to jméno stálo, byla poslední skutečnou nadějí Prahy samotné husitské hnutí. Město vyslalo prosbu o pomoc do Tábora a k dalším husitským městům dál na sever, mezi nimi do Loun, Žatce a Slaného. Žižka, sotva usazený ve svém novém velení v Táboře, neváhal. Nebylo to ale proto, že by najednou pražskému establishmentu začal důvěřovat: křížová výprava, která by dobyla hlavní město, by se tím nezastavila, a udržet teď Prahu znamenalo nemuset s toutéž armádou bojovat později přímo před branami Tábora. Shromáždil své vlastní vojsko, teď odpočaté a čerstvě vyzbrojené koňmi a zbraněmi ukořistěnými u Mladé Vožice, a vytáhl na sever zachránit hlavní město, které ho právě začalo nazývat svým spasitelem.",
+      zh: "三战三捷，扬·杰式卡的名号，早已传遍布拉格的大街小巷。普通市民谈起他时，语气已经不太像在说一位将军，更像是在说一位救世主。\n\n与此同时，[[link:from-crusaders-to-heretics-1420]]西吉斯蒙德的十字军[[/link]]几乎兵不血刃地逼近了布拉格。5月3日，赫拉德茨-克拉洛韦不战而降，为他敞开了城门；到了同月中旬，他又在库特纳霍拉安顿了下来。这两座城市都没费什么口舌就归顺了，它们本来就是保皇派和天主教的铁盘，不少市民自己也觉得胡斯运动闹得太过头了。\n\n布拉格眼看着这支十字军步步逼近，也清楚自己的守军跟对方的兵力根本不成比例。向塔博尔求援本该是显而易见的另一条路，可布拉格自己的温和派当权者（那些撑起圣杯派体制的富裕市民和中小贵族）却对这条路犹豫不决：塔博尔那套农民式的激进主张，对教会和神职人员下手更狠，让他们的不安几乎不亚于面对西吉斯蒙德本人。先去跟国王谈，不是因为谁指望西吉斯蒙德会心慈手软，而是因为这条路看起来终究更安全一些。5月15日，布拉格向库特纳霍拉派出了使者，请求谈判。没有谁是真心想在这种条件下讲和的，这不过是走投无路之下的最后一搏，出发点也不过是不想眼睁睁看着这座美丽的都城，为了一场可能打不赢的仗，变成一片断壁残垣。\n\n西吉斯蒙德把这份请求当成了软弱的表现，而不是善意，这反而让他更加确信，自己这套强硬手段是对的。[[b]]他真正想要的很简单：加冕成为整个波希米亚的国王，让布拉格永远臣服于罗马教廷，不许再有异议。[[/b]]这种苛刻到极点的条件，根本算不上什么谈判条件。布拉格的使者两手空空地回来了，这座城市决定拒不接受，选择抵抗到底。\n\n谈判之路已断，自己的军队又根本称不上一支军队，布拉格如今唯一还能指望的，就是胡斯运动本身。这座城市向塔博尔，以及卢尼、扎泰茨、斯兰尼等北方的其他胡斯派城镇，发出了求援。刚刚在塔博尔坐稳指挥位置的杰式卡，得到消息后没有耽搁。但这不是因为他忽然信得过布拉格的当权者了：一支能拿下首都的十字军，不会就此收手，现在守住布拉格，就是不用日后在塔博尔自己的家门口，再打一遍同一支军队。他集结起自己这支已经休整完毕、又刚刚靠姆拉达·沃日采缴获的战马和武器重新武装起来的军队，向北开拔，去解救这座刚刚开始把他当成救世主的都城。",
     },
     relatedLandmarks: [
       {
@@ -11984,6 +12979,78 @@ export const historyEvents = [
   //   cs.wikipedia.org's own account, itself already the movement's
   //   founding fault line per what-is-utraquism-1414 and
   //   on-the-brink-of-war-1419.
+  //
+  // Rewritten 2026-09-03, at the user's own request: the original opening
+  // ("Prague turned out to meet him less like an army and more like a
+  // rescue... now had its saviour walking through the gates") was too
+  // clean and, per the user's own suspicion, probably wasn't accurate —
+  // re-researched from scratch rather than patched. Confirmed via
+  // WebSearch/WebFetch (Petr Čornej's own Respekt piece on the battle's
+  // 600th anniversary, cross-checked against cs.wikipedia's own Břevnovský
+  // klášter article): Žižka's column really was given a formal, priest-led
+  // procession with the sacrament raised on poles on arrival (Čornej: "ve
+  // slavnostním procesí... v čele s kněžími, kteří nesou na dlouhých
+  // tyčích svátosti") — but almost immediately after, his own Táborites
+  // tried and failed to take Prague Castle outright, then sacked and
+  // burned Břevnov Monastery instead (per cs.wikipedia: occupied, looted,
+  // and burned in May 1420; nine monks captured, two of whom refused to
+  // give up their habits and accept the chalice and were burned at the
+  // stake specifically on 6 June 1420). That's a very different picture
+  // from a clean "saviour welcomed through the gates" — a formal welcome
+  // followed within days by the kind of religious violence Prague's own
+  // moderate establishment hadn't asked for, which is now stated
+  // outright rather than smoothed over. This also gives real weight to
+  // this same card's later line about Prague's moderates and Tábor's
+  // radical wing needing to negotiate a shared position (the Four
+  // Articles) rather than already being a unified movement — see also the
+  // new closing line added to a-failed-peace-1420's own opening, which
+  // this pays off (Prague's moderates held back from calling on Tábor
+  // exactly because of this kind of radicalism, and got it anyway once
+  // they had no other choice).
+  //
+  // Two more small additions, 2026-09-03, both at the user's own request:
+  // (1) relatedLandmarks links bevnov-monastery-1782583396582 (a live-DB-
+  //     only, user-submitted Location literally named "Břevnov Monastery")
+  //     rather than the separate preset card bazilika-sv-margarety
+  //     (Basilica of St. Margaret, the specific church inside the same
+  //     complex) — the user's own explicit choice of which of the two to
+  //     use. This slug's description had been badly garbled, full of
+  //     literal video-game jargon ("Achievement Unlocked", "NPC", "Easter
+  //     Egg") wildly off this project's own voice, the same kind of
+  //     quality problem already flagged elsewhere in this file (see the
+  //     prague-castle/st-vitus-cathedral and bazilika-sv-ludmily/namesti-
+  //     miru cases in CLAUDE.md) — rewritten from scratch in the same pass
+  //     (all three languages, plus a stray "布列诺夫" typo in its own
+  //     localizedNames.zh fixed to match this project's established
+  //     "布热夫诺夫" spelling), sourced via WebSearch/WebFetch: the 993
+  //     founding (Adalbert/Boleslav II), the 11th-century Romanesque
+  //     crypt, the same May 1420 Hussite sacking and 6 June burnings
+  //     already sourced for this card's own summary, the Dientzenhofer
+  //     father-son Baroque rebuild (Christoph, finished by Kilián Ignác),
+  //     and a distinct, previously-uncovered 20th-century arc: Abbot
+  //     Anastáz Opasek's 1949 arrest and 1950 show-trial life sentence,
+  //     the monastery's 1951 closure and monks' deportation to West
+  //     Germany, the basilica's use as a state archive and one building's
+  //     use by the StB secret police, and the 1990 restoration to the
+  //     Benedictines culminating in archabbey status (1993) and a 1997
+  //     papal visit — deliberately distinct content from bazilika-sv-
+  //     margarety's own existing description (which covers the St.
+  //     Margaret dragon legend and the monastery brewery) so the two
+  //     cards for the same physical site don't just repeat each other.
+  //     bazilika-sv-margarety itself was left untouched.
+  // (2) A hedge clause on the "formal welcome" line, after the user asked
+  //     whether ordinary Prague's savior-worship of Žižka was shared by
+  //     the city's own reform-minded nobility/merchant elite. Neither the
+  //     user nor Claude (checking Čornej's own Respekt piece, cs.wikipedia,
+  //     and Heymann's standard English biography of Žižka, the last of
+  //     which wasn't accessible in full text) could find a source drawing
+  //     that specific contrast for this exact moment (as opposed to elite
+  //     wariness of Tábor as a movement generally, which the Břevnov
+  //     paragraph already covers with real sourcing) — so rather than
+  //     assert it as fact, the line explicitly flags it as an open
+  //     question ("how deep that same enthusiasm ran... is harder to
+  //     say") instead of a settled claim. Revisit only if a real source
+  //     for the stronger version turns up.
   {
     slug: "the-four-articles-of-prague-1420",
     era: "religious-turmoil",
@@ -12013,9 +13080,9 @@ export const historyEvents = [
       zh: "十字军已经在城墙外扎营，布拉格试了一件此前从未做过的事：用四条简短的条款，把结束战事所需的条件，白纸黑字地写清楚。",
     },
     summary: {
-      en: "Vyšehrad had gone back into royal hands after [[link:on-the-brink-of-war-1419]]November's own truce[[/link]], and Prague Castle had never really left them. Žižka didn't wait for Prague's plea to cool off: he gathered what he could from [[link:four-captains-one-commander-1420]]Tábor[[/link]] and marched north, cutting through royalist resistance at Benešov and again near Poříčí nad Sázavou, before reaching the capital in late May. Prague turned out to meet him less like an army and more like a rescue: the city that had just watched [[link:a-failed-peace-1420]]its own envoys come home empty-handed[[/link]] now had its saviour walking through the gates.\n\nThe crusade itself arrived at Prague's outskirts on 12 June, tens of thousands strong by the more inflated chronicle counts, likely closer to seven or eight thousand cavalry by modern estimate. Rather than storm walls the city could actually defend, Sigismund's commanders chose the slower option: ring the capital, cut its supply lines, and starve it out.\n\nBy late June, Prague had been under siege for weeks, and Žižka's own battle-tested force, the one that had already turned three straight fights into wins before it ever reached the city, had held the walls the whole time. That was a kind of confidence Prague hadn't had back in May: this time, with an army actually capable of defending the capital already inside it, the various Hussite factions, Prague's own moderates and Tábor's more radical wing among them, could afford to negotiate from something other than desperation. What the city needed now was a single, unified statement of what it actually stood for.\n\nThe task fell mainly to Jakoubek of Stříbro, the same [[link:what-is-utraquism-1414]]university theologian[[/link]] who had persuaded a Prague priest to first offer the chalice to ordinary believers back in 1414. Building on an earlier April manifesto against Sigismund, he and the city's own theological faculty distilled the movement's demands down to four points, adopted in the first days of July and read out in Czech, Latin, and German alike:\n\n[[quote:0]]\n\nPrague's envoys carried the Articles to Sigismund's own camp as negotiating terms, not just a wish list. Rome's own legates, weighing the four points against each other, found three of them almost tolerable, the kind of terms a besieging king in a hurry to end the war might have lived with. The second article, the chalice for every believer, was the one neither side would give an inch on: the same argument that had already split the Church for [[link:on-the-brink-of-war-1419]]years running[[/link]], and the one point every Hussite faction, moderate and radical alike, actually agreed on.\n\nSigismund refused the Articles outright, and the siege ground on. Whatever chance existed for the war to end on paper closed with that refusal. What came next would be settled on a hillside instead.",
-      cz: "Vyšehrad se po [[link:on-the-brink-of-war-1419]]listopadovém příměří[[/link]] vrátil zpátky do královských rukou, a Pražský hrad z nich vlastně nikdy doopravdy nevypadl. Žižka nečekal, až pražská prosba o pomoc vychladne. Sebral, co mohl, z [[link:four-captains-one-commander-1420]]Tábora[[/link]] a vytáhl na sever, prosekal se přes royalistický odpor u Benešova a znovu poblíž Poříčí nad Sázavou, než na konci května dorazil do hlavního města. Praha ho přivítala míň jako vojsko a víc jako záchranu: město, které právě sledovalo, jak se [[link:a-failed-peace-1420]]jeho vlastní vyslanci vracejí s prázdnýma rukama[[/link]], teď mělo svého zachránce přímo v branách.\n\nSamotná křížová výprava dorazila k Praze 12. června, podle nadsazenějších kronikářských počtů v desítkách tisíc, podle moderních odhadů spíš kolem sedmi až osmi tisíc jezdců. Místo aby útočili na hradby, které město dokázalo skutečně bránit, zvolili Zikmundovi velitelé pomalejší cestu: obklíčit hlavní město, přeříznout jeho zásobovací trasy, a vyhladovět ho.\n\nKoncem června byla Praha už týdny v obležení, a Žižkovo vlastní, ostřílené vojsko, to, co si ještě před příchodem do města připsalo tři vítězství v řadě, drželo hradby po celou tu dobu. Takovou jistotu Praha v květnu ještě neměla: tentokrát, s vojskem skutečně schopným bránit hlavní město už uvnitř hradeb, si různé husitské frakce, pražské umírněné křídlo i táborské radikály nevyjímaje, mohly dovolit jednat z jiné pozice než ze zoufalství. Co město teď potřebovalo, bylo jediné, jednotné prohlášení toho, za čím vlastně stálo.\n\nTenhle úkol padl hlavně na Jakoubka ze Stříbra, téhož [[link:what-is-utraquism-1414]]univerzitního teologa[[/link]], který v roce 1414 přesvědčil pražského kněze, aby jako první podal kalich obyčejným věřícím. Na základě dřívějšího dubnového provolání proti Zikmundovi on a pražská teologická fakulta zúžili požadavky hnutí na čtyři body, přijaté v prvních červencových dnech a přečtené jak česky, tak latinsky a německy:\n\n[[quote:0]]\n\nPražští vyslanci odnesli artikuly do Zikmundova vlastního tábora jako podmínky k jednání, ne jen jako přání. Římští legáti, poměřující ty čtyři body mezi sebou, shledali tři z nich téměř přijatelnými, tedy takové podmínky, se kterými by obléhající král spěchající s ukončením války docela mohl žít. Druhý artikul, kalich pro každého věřícího, byl ten jediný bod, ze kterého nechtěla ustoupit ani jedna strana ani o píď: tentýž spor, který už roky štěpil církev [[link:on-the-brink-of-war-1419]]dávno předtím[[/link]], a jediný bod, na kterém se skutečně shodly úplně všechny husitské frakce, umírněné i radikální.\n\nZikmund artikuly rovnou odmítl a obležení pokračovalo dál. Jakákoli šance, že válka skončí na papíře, se tímhle odmítnutím uzavřela. To, co přišlo dál, se muselo rozhodnout na kopci místo toho.",
-      zh: "维谢赫拉德在[[link:on-the-brink-of-war-1419]]11月那场停战[[/link]]之后已经重新回到王室手中，而布拉格城堡本来就从没真正脱离过王室的控制。杰式卡没有等布拉格的求援之情冷却下来，他从[[link:four-captains-one-commander-1420]]塔博尔[[/link]]集结起手头能调动的兵力，向北开拔，在贝内绍夫击溃了保皇派的抵抗，又在波日奇纳德萨扎沃附近再度得手，到5月末才抵达首都。布拉格城迎接他的方式，与其说是迎接一支军队，不如说是迎接一位救星：这座城市刚刚眼睁睁看着[[link:a-failed-peace-1420]]自己的使者两手空空地回来[[/link]]，如今，救星已经走进了城门。\n\n十字军本身于6月12日抵达布拉格城郊，按那些夸张的编年史记载有数万之众，按现代估计则更接近七八千骑兵。西吉斯蒙德麾下的将领们，没有选择强攻这座城市完全守得住的城墙，而是选了一条更慢的路：围住首都，切断补给线，把它活活困死。\n\n到6月末，布拉格已经被围困了好几个星期，而杰式卡自己那支身经百战的部队，抵达布拉格之前就已经三战三捷，一直在守着这座城的城墙。这是布拉格5月份还没有的底气：这一次，一支真正有能力守住首都的军队已经驻扎在城内，城内各个胡斯派系，从布拉格自己的温和派到塔博尔派更激进的一翼，都能从一个不再是走投无路的位置来谈判了。这座城市现在真正需要的，是一份统一的、明确表达自己立场的声明。\n\n这项任务主要落在了斯特日布罗的雅库贝克身上，正是那位[[link:what-is-utraquism-1414]]大学神学家[[/link]]，早在1414年就说服了一位布拉格神父，第一次把圣餐杯分给普通信众。他和布拉格的神学教师团队，以此前4月发布的一份反西吉斯蒙德宣言为基础，把整场运动的诉求提炼成了四条，在7月最初的几天获得通过，并且用捷克语、拉丁语和德语一并宣读：\n\n[[quote:0]]\n\n布拉格的使者把这四条条款，当作正式的谈判条件（而不只是一份心愿清单），送到了西吉斯蒙德自己的营地。罗马教廷派来的使节，权衡这四条之后，发现其中三条几乎可以接受——对一位急于结束战争的围城之王来说，这样的条件本可以勉强接受。唯独第二条，让每一位信众都能领受圣餐杯，是双方谁都不肯让步半分的那一点：这正是那场已经[[link:on-the-brink-of-war-1419]]撕裂教会多年[[/link]]的老争论，也是所有胡斯派系，无论温和还是激进，唯一真正意见一致的地方。\n\n西吉斯蒙德干脆回绝了这四条条款，围城仍在继续。这场战争本有可能在纸面上收场的这一线希望，也随着这次回绝彻底关上了。接下来发生的事，就只能拿到山头上去解决了。",
+      en: "Vyšehrad had gone back into royal hands after [[link:on-the-brink-of-war-1419]]November's own truce[[/link]], and Prague Castle had never really left them. Žižka didn't wait for Prague's plea to cool off: he gathered what he could from [[link:four-captains-one-commander-1420]]Tábor[[/link]] and marched north, cutting through royalist resistance at Benešov and again near Poříčí nad Sázavou, before reaching the capital in late May. The city that had just watched [[link:a-failed-peace-1420]]its own envoys come home empty-handed[[/link]] gave him a formal welcome, priests marching out ahead of his column with the sacrament raised on poles, the kind of procession reserved for a saviour rather than just an ally, though how deep that same enthusiasm ran among Prague's own reform-minded nobility and merchant elite is harder to say. What followed it was less tidy. Žižka's own Táborites had arrived still hoping to seize Prague Castle outright, and when that failed, turned on Břevnov Monastery just outside the walls instead, sacking and burning it within days; nine monks were taken captive, and two who refused to give up their habits and accept the chalice were burned at the stake on 6 June. Prague's own moderate establishment had asked Tábor for soldiers, not for a religious war waged on its own doorstep, and the alliance the crusade had forced between them stayed exactly that: forced, not comfortable.\n\nThe crusade itself arrived at Prague's outskirts on 12 June, tens of thousands strong by the more inflated chronicle counts, likely closer to seven or eight thousand cavalry by modern estimate. Rather than storm walls the city could actually defend, Sigismund's commanders chose the slower option: ring the capital, cut its supply lines, and starve it out.\n\nBy late June, Prague had been under siege for weeks, and Žižka's own battle-tested force, the one that had already turned three straight fights into wins before it ever reached the city, had held the walls the whole time. That was a kind of confidence Prague hadn't had back in May: this time, with an army actually capable of defending the capital already inside it, the various Hussite factions, Prague's own moderates and Tábor's more radical wing among them, could afford to negotiate from something other than desperation. What the city needed now was a single, unified statement of what it actually stood for.\n\nThe task fell mainly to Jakoubek of Stříbro, the same [[link:what-is-utraquism-1414]]university theologian[[/link]] who had persuaded a Prague priest to first offer the chalice to ordinary believers back in 1414. Building on an earlier April manifesto against Sigismund, he and the city's own theological faculty distilled the movement's demands down to four points, adopted in the first days of July and read out in Czech, Latin, and German alike:\n\n[[quote:0]]\n\nPrague's envoys carried the Articles to Sigismund's own camp as negotiating terms, not just a wish list. Rome's own legates, weighing the four points against each other, found three of them almost tolerable, the kind of terms a besieging king in a hurry to end the war might have lived with. The second article, the chalice for every believer, was the one neither side would give an inch on: the same argument that had already split the Church for [[link:on-the-brink-of-war-1419]]years running[[/link]], and the one point every Hussite faction, moderate and radical alike, actually agreed on.\n\nSigismund refused the Articles outright, and the siege ground on. Whatever chance existed for the war to end on paper closed with that refusal. What came next would be settled on a hillside instead.",
+      cz: "Vyšehrad se po [[link:on-the-brink-of-war-1419]]listopadovém příměří[[/link]] vrátil zpátky do královských rukou, a Pražský hrad z nich vlastně nikdy doopravdy nevypadl. Žižka nečekal, až pražská prosba o pomoc vychladne. Sebral, co mohl, z [[link:four-captains-one-commander-1420]]Tábora[[/link]] a vytáhl na sever, prosekal se přes royalistický odpor u Benešova a znovu poblíž Poříčí nad Sázavou, než na konci května dorazil do hlavního města. Město, které právě sledovalo, jak se [[link:a-failed-peace-1420]]jeho vlastní vyslanci vracejí s prázdnýma rukama[[/link]], mu vystrojilo slavnostní uvítání: kněží vyšli před jeho voji se svátostí vyzdviženou na tyčích, takový průvod, jaký se chystá spíš spasiteli než jen spojenci, i když je těžké říct, jak hluboko to samé nadšení sahalo mezi pražskou reformně smýšlející šlechtou a měšťanskou elitou. To, co následovalo, už tak úhledné nebylo. Žižkovi vlastní táborité dorazili ještě s nadějí dobýt rovnou Pražský hrad, a když se to nepovedlo, obrátili se místo toho na Břevnovský klášter kousek za hradbami, který během pár dní vyplenili a vypálili; devět mnichů zajali a dva z nich, kteří odmítli svléknout řeholní roucho a přijmout kalich, upálili na hranici 6. června. Pražský umírněný establishment žádal Tábor o vojáky, ne o náboženskou válku vedenou přímo za humny, a spojenectví, které do nich křížová výprava vtiskla, zůstalo přesně tím: vynuceným, ne pohodlným.\n\nSamotná křížová výprava dorazila k Praze 12. června, podle nadsazenějších kronikářských počtů v desítkách tisíc, podle moderních odhadů spíš kolem sedmi až osmi tisíc jezdců. Místo aby útočili na hradby, které město dokázalo skutečně bránit, zvolili Zikmundovi velitelé pomalejší cestu: obklíčit hlavní město, přeříznout jeho zásobovací trasy, a vyhladovět ho.\n\nKoncem června byla Praha už týdny v obležení, a Žižkovo vlastní, ostřílené vojsko, to, co si ještě před příchodem do města připsalo tři vítězství v řadě, drželo hradby po celou tu dobu. Takovou jistotu Praha v květnu ještě neměla: tentokrát, s vojskem skutečně schopným bránit hlavní město už uvnitř hradeb, si různé husitské frakce, pražské umírněné křídlo i táborské radikály nevyjímaje, mohly dovolit jednat z jiné pozice než ze zoufalství. Co město teď potřebovalo, bylo jediné, jednotné prohlášení toho, za čím vlastně stálo.\n\nTenhle úkol padl hlavně na Jakoubka ze Stříbra, téhož [[link:what-is-utraquism-1414]]univerzitního teologa[[/link]], který v roce 1414 přesvědčil pražského kněze, aby jako první podal kalich obyčejným věřícím. Na základě dřívějšího dubnového provolání proti Zikmundovi on a pražská teologická fakulta zúžili požadavky hnutí na čtyři body, přijaté v prvních červencových dnech a přečtené jak česky, tak latinsky a německy:\n\n[[quote:0]]\n\nPražští vyslanci odnesli artikuly do Zikmundova vlastního tábora jako podmínky k jednání, ne jen jako přání. Římští legáti, poměřující ty čtyři body mezi sebou, shledali tři z nich téměř přijatelnými, tedy takové podmínky, se kterými by obléhající král spěchající s ukončením války docela mohl žít. Druhý artikul, kalich pro každého věřícího, byl ten jediný bod, ze kterého nechtěla ustoupit ani jedna strana ani o píď: tentýž spor, který už roky štěpil církev [[link:on-the-brink-of-war-1419]]dávno předtím[[/link]], a jediný bod, na kterém se skutečně shodly úplně všechny husitské frakce, umírněné i radikální.\n\nZikmund artikuly rovnou odmítl a obležení pokračovalo dál. Jakákoli šance, že válka skončí na papíře, se tímhle odmítnutím uzavřela. To, co přišlo dál, se muselo rozhodnout na kopci místo toho.",
+      zh: "维谢赫拉德在[[link:on-the-brink-of-war-1419]]11月那场停战[[/link]]之后已经重新回到王室手中，而布拉格城堡本来就从没真正脱离过王室的控制。杰式卡没有等布拉格的求援之情冷却下来，他从[[link:four-captains-one-commander-1420]]塔博尔[[/link]]集结起手头能调动的兵力，向北开拔，在贝内绍夫击溃了保皇派的抵抗，又在波日奇纳德萨扎沃附近再度得手，到5月末才抵达首都。这座刚刚眼睁睁看着[[link:a-failed-peace-1420]]自己的使者两手空空地回来[[/link]]的城市，给了他一场隆重的迎接：神父们走在队伍前面，把圣体高举在长杆上，这是留给救星、而不只是盟友的那种仪仗，只是这份热情究竟在布拉格那些渴望改革的贵族与商人精英中间渗透到多深，就不太说得准了。可紧接着发生的事，就没那么体面了。杰式卡麾下的塔博尔派抵达时，本还指望能直接攻下布拉格城堡；这个企图落空后，他们转而对城墙外不远的布热夫诺夫修道院下手，短短几天内就将其洗劫焚毁：九名修士被俘，其中两人因为拒绝脱下修士袍、领受圣餐杯，在6月6日被活活烧死。布拉格的温和派当权者当初向塔博尔要的是士兵，不是一场就打到自家门口的宗教战争，而这场被十字军硬生生逼出来的同盟，也就一直维持着这个样子：勉强凑合，谈不上舒坦。\n\n十字军本身于6月12日抵达布拉格城郊，按那些夸张的编年史记载有数万之众，按现代估计则更接近七八千骑兵。西吉斯蒙德麾下的将领们，没有选择强攻这座城市完全守得住的城墙，而是选了一条更慢的路：围住首都，切断补给线，把它活活困死。\n\n到6月末，布拉格已经被围困了好几个星期，而杰式卡自己那支身经百战的部队，抵达布拉格之前就已经三战三捷，一直在守着这座城的城墙。这是布拉格5月份还没有的底气：这一次，一支真正有能力守住首都的军队已经驻扎在城内，城内各个胡斯派系，从布拉格自己的温和派到塔博尔派更激进的一翼，都能从一个不再是走投无路的位置来谈判了。这座城市现在真正需要的，是一份统一的、明确表达自己立场的声明。\n\n这项任务主要落在了斯特日布罗的雅库贝克身上，正是那位[[link:what-is-utraquism-1414]]大学神学家[[/link]]，早在1414年就说服了一位布拉格神父，第一次把圣餐杯分给普通信众。他和布拉格的神学教师团队，以此前4月发布的一份反西吉斯蒙德宣言为基础，把整场运动的诉求提炼成了四条，在7月最初的几天获得通过，并且用捷克语、拉丁语和德语一并宣读：\n\n[[quote:0]]\n\n布拉格的使者把这四条条款，当作正式的谈判条件（而不只是一份心愿清单），送到了西吉斯蒙德自己的营地。罗马教廷派来的使节，权衡这四条之后，发现其中三条几乎可以接受——对一位急于结束战争的围城之王来说，这样的条件本可以勉强接受。唯独第二条，让每一位信众都能领受圣餐杯，是双方谁都不肯让步半分的那一点：这正是那场已经[[link:on-the-brink-of-war-1419]]撕裂教会多年[[/link]]的老争论，也是所有胡斯派系，无论温和还是激进，唯一真正意见一致的地方。\n\n西吉斯蒙德干脆回绝了这四条条款，围城仍在继续。这场战争本有可能在纸面上收场的这一线希望，也随着这次回绝彻底关上了。接下来发生的事，就只能拿到山头上去解决了。",
     },
     quotes: [
       {
@@ -12038,6 +13105,14 @@ export const historyEvents = [
           en: "The pulpit of Jakoubek of Stříbro, the theologian who drafted these Articles and who, six years earlier, had already set the movement's central demand in motion here.",
           cz: "Kazatelna Jakoubka ze Stříbra, teologa, který tyto artikuly sepsal a který zde o šest let dřív už uvedl do pohybu ústřední požadavek celého hnutí.",
           zh: "斯特日布罗的雅库贝克布道的地方，这位神学家不仅起草了这四条条款，六年前也正是在这里，把整场运动最核心的诉求付诸实践的。",
+        },
+      },
+      {
+        slug: "bevnov-monastery-1782583396582",
+        relation: {
+          en: "Sacked and burned by Žižka's own Táborites within days of reaching Prague, once their attempt on Prague Castle itself had failed.",
+          cz: "Vyplenil a vypálil ho Žižkovi vlastní táborité pár dní po příchodu do Prahy, poté co jejich pokus dobýt rovnou Pražský hrad ztroskotal.",
+          zh: "杰式卡麾下的塔博尔派抵达布拉格没几天，就在强攻布拉格城堡未果之后，转而洗劫焚毁了这里。",
         },
       },
     ],
@@ -12167,9 +13242,9 @@ export const historyEvents = [
       zh: "西吉斯蒙德带来了整个帝国的军队，想要困死布拉格。可只用一座小山上区区几十个守军，就把这支大军击溃了。",
     },
     summary: {
-      en: "That hillside was Vítkov, on the eastern approach to Prague, sitting squarely across the road any relief or resupply would have to use. Sigismund's own plan turned on taking it first, then moving on Prague itself. By mid-July, Žižka had seen it coming:\n\n[[quote:1]]\n\nHeinrich of Isenburg, governor of Meissen, led Austrian and Meissen cavalry up the vineyard slope below the hill on 13 July and briefly took one of the two blockhouses. What happened next reads, in the chronicle's own telling, less like a Hussite triumph and more like an omen:\n\n[[quote:0]]\n\n[[b]]A handful of defenders on one fortified hill had just broken an army that outnumbered them by more than a hundred to one, and with it, the first crusade Rome had ever called against a kingdom of its own faithful.[[/b]]\n\nNo single chronicle pins the moment to that exact evening, but this is the hymn Žižka's own men carried into fights like this one throughout the wars, a marching song feared enough that at least one crusader force is said to have broken and fled before a battle even began, just from hearing it sung. Legend credited it to Žižka himself for four centuries, until a hymnal buried since the 1430s resurfaced in 1872 and pointed instead to a Táborite priest, Jan Čapek. Whoever actually wrote it, its own opening line is the one this hill would end up known for:\n\n[[quote:2]]\n\nŽižka would end up giving his own name to the whole district growing up around the hill, too, though not right away: Prague's citizens only made it official in 1877, naming Žižkov after the general himself. The neighbourhood's own 20th-century addition, a communist-era television tower less than a kilometre south of the hill, regularly ranked among the ugliest buildings in the world, still carries his name today.\n\nSigismund's army didn't recover. Summer heat, thinning supplies, and a king who couldn't decide what to do next did the rest of the work Vítkov had started; the crusade simply came apart from the inside. His own treasury, already strained by the campaign, had little left to show for it. Before he left, Sigismund had himself hastily crowned King of Bohemia at St. Vitus Cathedral on 28 July, then pulled his remaining forces back to Catholic Kutná Hora two days later. Bohemia's first crusade was over, and it had failed. What it left behind, though, was still standing: royal garrisons stayed put in both Vyšehrad and Prague Castle, right where Žižka had just watched them refuse to fall.",
-      cz: "Tím kopcem byl Vítkov, na východním přístupu k Praze, ležící přímo v cestě jakékoli pomoci nebo zásobování, které by muselo tudy projít. Zikmundův vlastní plán stál a padal s tím, dobýt ho jako první, a pak zaútočit na samotnou Prahu. Do poloviny července to Žižka předvídal:\n\n[[quote:1]]\n\nJindřich z Isenburgu, míšeňský hejtman, vedl rakouskou a míšeňskou jízdu 13. července vzhůru po vinici pod kopcem a krátce dobyl jeden ze dvou srubů. To, co následovalo, se v kronikářově vlastním podání čte míň jako husitský triumf a víc jako znamení:\n\n[[quote:0]]\n\n[[b]]Hrstka obránců na jednom opevněném kopci právě zlomila vojsko, které je početně převyšovalo víc než stonásobně, a s ním i první křížovou výpravu, kterou Řím kdy vyhlásil proti království svých vlastních věřících.[[/b]]\n\nŽádná kronika ten okamžik nepřipíná přesně k tomu večeru, ale právě tuhle píseň Žižkovi muži nosili do bojů, jako je tenhle, po celou dobu válek, pochodovou píseň natolik obávanou, že se prý aspoň jedno křižácké vojsko dalo na útěk ještě dřív, než bitva vůbec začala, jen z toho, že ji uslyšelo zpívat. Legenda ji čtyři století připisovala samotnému Žižkovi, dokud se v roce 1872 neobjevil kancionál pohřbený od 30. let 15. století a neukázal místo toho na táborského kněze Jana Čapka. Ať už ji napsal kdokoli, její vlastní úvodní verš je ten, podle kterého tenhle kopec nakonec zůstal znám:\n\n[[quote:2]]\n\nŽižka nakonec dal své vlastní jméno i celé čtvrti, která kolem kopce vyrostla, i když ne hned: Pražané to zpečetili oficiálně až v roce 1877, kdy Žižkov pojmenovali po samotném generálovi. Čtvrť má i svůj vlastní přídavek z 20. století, komunistickou televizní věž necelý kilometr jižně od kopce, pravidelně řazenou mezi nejošklivější stavby světa, která dodnes nese jeho jméno.\n\nZikmundovo vojsko se z toho už nevzpamatovalo. Letní vedro, tenčící se zásoby a král, který se nedokázal rozhodnout, co dál, dokonaly to, co začal Vítkov: křížová výprava se prostě rozpadla zevnitř. Jeho vlastní pokladna, už tak vyčerpaná tažením, z toho měla pramálo. Než odešel, nechal se Zikmund narychlo korunovat českým králem v katedrále svatého Víta 28. července, a o dva dny později stáhl zbytek svých sil zpátky do katolické Kutné Hory. První křížová výprava proti Čechám skončila, a skončila neúspěchem. To, co po ní zůstalo, ale pořád stálo: královské posádky zůstaly na místě, ve Vyšehradě i na Pražském hradě, přesně tam, kde Žižka právě viděl, že odmítají padnout.",
-      zh: "那座山头，正是维特科夫山，扼守着布拉格东面的通道，任何救援或补给都必须从这条路经过。西吉斯蒙德自己的计划，全系于先拿下这座山，再挥师直取布拉格本身。到7月中旬，杰式卡早已预料到了这一切：\n\n[[quote:1]]\n\n7月13日，迈森总督伊森堡率领奥地利与迈森骑兵沿着山下的葡萄园坡地强攻而上，一度攻下了两座堡垒中的一座。接下来发生的事，照编年史自己的记述来看，与其说是一场胡斯军的大胜，倒更像是一则天意的征兆：\n\n[[quote:0]]\n\n[[b]]一小撮守卫者，凭着一座设防的小山，就击溃了一支人数超过自己上百倍的大军，也一并击溃了罗马教廷有史以来第一次针对自己信徒之国发动的十字军东征。[[/b]]\n\n没有哪部编年史确切地把这一幕钉死在那个傍晚，但这正是杰式卡的部下在整场战争中，每逢这样的战斗都会唱起的那首行军歌，令人生畏到据说曾有一支十字军部队，仗还没真正打起来，光是听见歌声就先溃逃了。整整四个世纪，传说都把这首歌归到杰式卡本人名下，直到1872年，一本自15世纪30年代起便深埋无闻的圣歌集重见天日，才把作者指向了另一个人：塔博尔派神父扬·恰佩克。不管究竟是谁写的，这首歌开篇的第一句，正是这座山最终得名的那句话：\n\n[[quote:2]]\n\n杰式卡最终也把自己的名字，留给了在这座山周围逐渐成形的整个街区，只是没有立刻发生：布拉格市民直到1877年才正式把这片街区命名为日什科夫（Žižkov），以纪念这位将军本人。这片街区自己在20世纪添的那一笔，一座共产主义时代建造的电视塔，坐落在山丘以南不到一公里处，常年被列入世界最丑建筑之列，至今依然沿用着他的名字。\n\n西吉斯蒙德的军队再也没能缓过来。酷暑、日渐匮乏的补给，还有一位始终拿不定主意的国王，接过了维特科夫已经开了头的这盘棋：十字军就这样从内部土崩瓦解。他自己那本已被这场远征耗空的国库，也再拿不出什么来支撑局面。离开之前，西吉斯蒙德在7月28日匆匆于圣维特大教堂加冕为波希米亚国王，两天后又把剩下的部队撤回了天主教重镇库特纳霍拉。波希米亚的第一次十字军东征，就此以失败告终。可它留下的东西，却依然屹立未倒：王室驻军仍然留驻在维谢赫拉德与布拉格城堡，就在杰式卡亲眼看着他们拒不投降的那个地方。",
+      en: "Riding with Sigismund was an old friend, the Florentine-born condottiere Filippo Scolari, known to his own soldiers as Pipo Spano. He'd spent the past several years fighting the Ottoman Empire's own advance into the Balkans (Wallachia in 1417, Belgrade in 1418, Bosnia in 1419), winning campaign after campaign, and Sigismund's own court rated him among the best commanders in the whole army now marching on Prague. German princes turned out in force too, not purely out of loyalty to Sigismund: a peasant-and-priest revolt this openly defiant of Rome was exactly the kind of idea they didn't want spreading past Bohemia's own borders. Whatever else this crusade turned out to be, it wasn't short on experienced commanders.\n\nThat hillside was Vítkov, on the eastern approach to Prague, sitting squarely across the road any relief or resupply would have to use. Sigismund's own plan turned on taking it first, then moving on Prague itself. By mid-July, Žižka had seen it coming:\n\n[[quote:1]]\n\nHeinrich of Isenburg, governor of Meissen, led Austrian and Meissen cavalry up the vineyard slope below the hill on 13 July and briefly took one of the two blockhouses. What happened next reads, in the chronicle's own telling, less like a Hussite triumph and more like an omen:\n\n[[quote:0]]\n\nStripped of the chronicle's own miracle framing, what turned the fight was two things working together: the blockhouses Žižka had built held out just long enough under the assault, and reinforcements broke off from Prague's own New Town garrison, cut through the vineyards on the hill's southern slope, and came up behind the crusader cavalry, pinning them between that counterattack and the cliff on the hill's far side.\n\n[[b]]A handful of defenders on one fortified hill had just broken an army that outnumbered them by more than a hundred to one, and with it, the first crusade Rome had ever called against a kingdom of its own faithful.[[/b]]\n\nNo single chronicle pins the moment to that exact evening, but this is the hymn Žižka's own men carried into fights like this one throughout the wars, a marching song feared enough that at least one crusader force is said to have broken and fled before a battle even began, just from hearing it sung. Legend credited it to Žižka himself for four centuries, until a hymnal buried since the 1430s resurfaced in 1872 and pointed instead to a Táborite priest, Jan Čapek. Whoever actually wrote it, its own opening line is the one this hill would end up known for:\n\n[[quote:2]]\n\nŽižka would end up giving his own name to the whole district growing up around the hill, too, though not right away: Prague's citizens only made it official in 1877, naming Žižkov after the general himself. The neighbourhood's own 20th-century addition, a communist-era television tower less than a kilometre south of the hill, regularly ranked among the ugliest buildings in the world, still carries his name today.",
+      cz: "Se Zikmundem táhl i jeho starý přítel, florentský rodák a žoldnéřský velitel Filippo Scolari, mezi vlastními vojáky známý jako Pipo Spano. Poslední léta strávil bojem proti osmanskému postupu na Balkáně (ve Valašsku 1417, u Bělehradu 1418, v Bosně 1419), tažení za tažením vítězil, a na Zikmundově dvoře platil za jednoho z nejlepších velitelů celé armády, která teď táhla na Prahu. Ve velkém počtu se dostavila i německá knížata, a nejen z věrnosti Zikmundovi: sedlácko-kněžská vzpoura tak otevřeně vzdorující Římu byla přesně ten druh myšlenky, kterou nechtěli vidět šířit se za hranice Čech. Ať už byla tahle křížová výprava čímkoli, na zkušených velitelích rozhodně netrpěla nedostatkem.\n\nTím kopcem byl Vítkov, na východním přístupu k Praze, ležící přímo v cestě jakékoli pomoci nebo zásobování, které by muselo tudy projít. Zikmundův vlastní plán stál a padal s tím, dobýt ho jako první, a pak zaútočit na samotnou Prahu. Do poloviny července to Žižka předvídal:\n\n[[quote:1]]\n\nJindřich z Isenburgu, míšeňský hejtman, vedl rakouskou a míšeňskou jízdu 13. července vzhůru po vinici pod kopcem a krátce dobyl jeden ze dvou srubů. To, co následovalo, se v kronikářově vlastním podání čte míň jako husitský triumf a víc jako znamení:\n\n[[quote:0]]\n\nBez kronikářova zázračného rámování šlo o souhru dvou věcí: sruby, které Žižka nechal postavit, vydržely pod útokem právě dost dlouho, a posily z pražské posádky Nového Města se prosekaly přes vinice na jižním svahu kopce a zezadu napadly křižáckou jízdu, sevřenou mezi tímto protiútokem a skálou na druhé straně kopce.\n\n[[b]]Hrstka obránců na jednom opevněném kopci právě zlomila vojsko, které je početně převyšovalo víc než stonásobně, a s ním i první křížovou výpravu, kterou Řím kdy vyhlásil proti království svých vlastních věřících.[[/b]]\n\nŽádná kronika ten okamžik nepřipíná přesně k tomu večeru, ale právě tuhle píseň Žižkovi muži nosili do bojů, jako je tenhle, po celou dobu válek, pochodovou píseň natolik obávanou, že se prý aspoň jedno křižácké vojsko dalo na útěk ještě dřív, než bitva vůbec začala, jen z toho, že ji uslyšelo zpívat. Legenda ji čtyři století připisovala samotnému Žižkovi, dokud se v roce 1872 neobjevil kancionál pohřbený od 30. let 15. století a neukázal místo toho na táborského kněze Jana Čapka. Ať už ji napsal kdokoli, její vlastní úvodní verš je ten, podle kterého tenhle kopec nakonec zůstal znám:\n\n[[quote:2]]\n\nŽižka nakonec dal své vlastní jméno i celé čtvrti, která kolem kopce vyrostla, i když ne hned: Pražané to zpečetili oficiálně až v roce 1877, kdy Žižkov pojmenovali po samotném generálovi. Čtvrť má i svůj vlastní přídavek z 20. století, komunistickou televizní věž necelý kilometr jižně od kopce, pravidelně řazenou mezi nejošklivější stavby světa, která dodnes nese jeho jméno.",
+      zh: "与西吉斯蒙德同行的，还有他的老友，佛罗伦萨出身的雇佣兵统帅菲利波·斯科拉里，麾下士兵都叫他“皮波·斯帕诺”。过去这些年，他一直在巴尔干与奥斯曼帝国的扩张交手（1417年瓦拉几亚、1418年贝尔格莱德、1419年波斯尼亚），一仗接一仗地赢下来，在西吉斯蒙德的宫廷里，他被视为此刻正开向布拉格这支大军中最出色的将领之一。德意志的诸侯们也大批响应，而且不只是出于对西吉斯蒙德的忠诚：一场公然对抗罗马教廷的农民与教士起义，正是他们最不愿意看到蔓延出波希米亚国界的那种念头。不管这场十字军东征后来变成了什么，它手下的指挥官，从来都不缺经验。\n\n那座山头，正是维特科夫山，扼守着布拉格东面的通道，任何救援或补给都必须从这条路经过。西吉斯蒙德自己的计划，全系于先拿下这座山，再挥师直取布拉格本身。到7月中旬，杰式卡早已预料到了这一切：\n\n[[quote:1]]\n\n7月13日，迈森总督伊森堡率领奥地利与迈森骑兵沿着山下的葡萄园坡地强攻而上，一度攻下了两座堡垒中的一座。接下来发生的事，照编年史自己的记述来看，与其说是一场胡斯军的大胜，倒更像是一则天意的征兆：\n\n[[quote:0]]\n\n抛开编年史本身的神迹叙事，真正扭转战局的其实是两件事的合力：杰式卡下令修筑的木堡，在猛攻之下刚好撑住了足够久的时间；与此同时，布拉格新城守军派出的援军，沿着山南侧的葡萄园地绕到十字军骑兵背后，把他们死死夹在这次反击与山另一侧悬崖之间。\n\n[[b]]一小撮守卫者，凭着一座设防的小山，就击溃了一支人数超过自己上百倍的大军，也一并击溃了罗马教廷有史以来第一次针对自己信徒之国发动的十字军东征。[[/b]]\n\n没有哪部编年史确切地把这一幕钉死在那个傍晚，但这正是杰式卡的部下在整场战争中，每逢这样的战斗都会唱起的那首行军歌，令人生畏到据说曾有一支十字军部队，仗还没真正打起来，光是听见歌声就先溃逃了。整整四个世纪，传说都把这首歌归到杰式卡本人名下，直到1872年，一本自15世纪30年代起便深埋无闻的圣歌集重见天日，才把作者指向了另一个人：塔博尔派神父扬·恰佩克。不管究竟是谁写的，这首歌开篇的第一句，正是这座山最终得名的那句话：\n\n[[quote:2]]\n\n杰式卡最终也把自己的名字，留给了在这座山周围逐渐成形的整个街区，只是没有立刻发生：布拉格市民直到1877年才正式把这片街区命名为日什科夫（Žižkov），以纪念这位将军本人。这片街区自己在20世纪添的那一笔，一座共产主义时代建造的电视塔，坐落在山丘以南不到一公里处，常年被列入世界最丑建筑之列，至今依然沿用着他的名字。",
     },
     // Prose note, 2026-09-02: an earlier draft of the paragraph right before
     // quotes[0] credited Prague's own reinforcements with cutting through
@@ -12179,11 +13254,50 @@ export const historyEvents = [
     // confusing, and asked to drop the reinforcement/flanking detail
     // entirely for a cleaner, more dramatic single throughline (the
     // chronicle's own miracle framing, uninterrupted). The vineyard slope
-    // is now described simply as the ground Isenburg's cavalry themselves
-    // stormed up on 13 July — vinicni-svah-vitkov's own seedLocations.js
-    // entry and this card's own relatedLandmarks caption for it were
-    // updated to match (13 July, crusader assault route, not a 14 July
-    // reinforcement/flanking route).
+    // was described simply as the ground Isenburg's cavalry themselves
+    // stormed up on 13 July.
+    // Revisited 2026-09-03, same day the user re-read quotes[0] and asked
+    // whether "about fifty gunners... unarmored peasants... with flails"
+    // was this same Prague relief force — it is, and re-checking
+    // en.wikipedia confirmed the reinforcement/flanking detail as its own
+    // account ("reinforcements from the garrison of the New Town broke off
+    // ... outflanking the knights and attacking through the vineyards on
+    // the southern slope"). Rather than fold it back into the paragraph
+    // before quotes[0] (which stayed exactly as it was), the user asked
+    // for it to land as a short plain-prose recap placed right after
+    // quotes[0] instead — the chronicle's own dramatic/miracle telling
+    // still runs uninterrupted, and the modern tactical explanation
+    // (reinforcements outflanking via the vineyards, pinning the cavalry
+    // against the cliff) follows it as a brief "here's what this looked
+    // like without the theology" beat, right before the bolded thesis
+    // sentence. vinicni-svah-vitkov's seedLocations.js entry and this
+    // card's own relatedLandmarks caption for it were updated to match
+    // (reinforcement/flanking route again, not the cavalry's own approach).
+    // Same day, the user pointed out that crediting the flanking maneuver
+    // alone made it sound like the sole cause — Žižka's own fortification
+    // held the line long enough for the reinforcements to matter in the
+    // first place, and deserved equal billing. That recap paragraph now
+    // reads "what turned the fight was two things working together," not
+    // just the outflanking move on its own.
+    //
+    // New opening paragraph, 2026-09-03, at the user's request: names
+    // Filippo Scolari ("Pipo Spano" to his own troops), a Florentine-born
+    // condottiere and Sigismund's own confidant, to establish the crusade
+    // as a clash between two seasoned sides rather than Žižka's ragtag
+    // defenders against raw amateurs. Sourced via WebSearch/WebFetch: his
+    // pre-1420 Ottoman campaigns (Wallachia 1417, Belgrade 1418, Bosnia
+    // 1419, all wins) from en.wikipedia's own "Pippo Spano" article; his
+    // participation in this specific campaign (Poříčí nad Sázavou, 19 May
+    // 1420, and the Vítkov campaign itself) and his standing as one of
+    // Sigismund's best-reputed commanders from jan-zizka.cz's own
+    // biographical page on him — a Czech source specific to this project's
+    // subject matter, not just the generic English Wikipedia infobox
+    // listing him as a commander. The German-princes/fear-of-contagion
+    // motive is the user's own framing, consistent with (if not
+    // pinpoint-sourced to) the standard historiography of why this crusade
+    // drew broad Imperial support beyond Sigismund's own court — a papal
+    // bull calling explicitly for the destruction of heretics inside
+    // Bohemia already implies the containment logic described here.
     quotes: [
       {
         // Quote, 2026-09-02, supplied by the user (verbatim Czech text,
@@ -12290,17 +13404,9 @@ export const historyEvents = [
       {
         slug: "vinicni-svah-vitkov",
         relation: {
-          en: "The very slope the crusader cavalry stormed up to reach the hill on 13 July, still growing grapes today.",
-          cz: "Přesně ten svah, po kterém 13. července vzhůru zaútočila křižácká jízda, aby se dostala ke kopci, dodnes pěstuje víno.",
-          zh: "十字军骑兵7月13日正是沿着这道山坡强攻而上、直扑山顶的，如今这片坡地上依然种着葡萄。",
-        },
-      },
-      {
-        slug: "st-vitus-cathedral",
-        relation: {
-          en: "Where Sigismund had himself hastily crowned King of Bohemia on 28 July 1420, two days before abandoning the siege for good.",
-          cz: "Kde se Zikmund nechal 28. července 1420 narychlo korunovat českým králem, dva dny předtím, než obležení nadobro vzdal.",
-          zh: "1420年7月28日，西吉斯蒙德就在这里匆匆加冕为波希米亚国王，两天后，他便彻底放弃了这场围城。",
+          en: "The very slope Prague's own reinforcements cut through to outflank the crusader cavalry from behind, still growing grapes today.",
+          cz: "Přesně ten svah, kterým se pražské posily prosekaly, aby obešly křižáckou jízdu zezadu, dodnes pěstuje víno.",
+          zh: "布拉格援军正是沿着这道山坡包抄、绕到十字军骑兵背后的，如今这片坡地上依然种着葡萄。",
         },
       },
       {
@@ -12335,6 +13441,685 @@ export const historyEvents = [
       ],
     },
     wikipediaUrl: "https://en.wikipedia.org/wiki/Battle_of_V%C3%ADtkov_Hill",
+  },
+  // New card, 2026-09-03, per the user's dictated outline (Chinese) — the
+  // direct aftermath of Vítkov Hill, bridging to a future card on the
+  // Battle of Vyšehrad (1 November 1420). The closing paragraph of
+  // victory-at-vitkov-hill-1420 (Sigismund's coronation, his withdrawal to
+  // Kutná Hora, the crusade's failure, the surviving garrisons) was moved
+  // here wholesale per the user's own instruction, rather than duplicated
+  // across both cards; its st-vitus-cathedral relatedLandmarks entry moved
+  // with it.
+  // - Discord-among-the-crusaders detail (princes turning on the Bohemian
+  //   barons and then on Sigismund himself, deserting camp one by one and
+  //   plundering on their way home) confirmed via WebSearch/WebFetch of
+  //   historyofthegermans.com's own Hussite Wars episode — no directly
+  //   quotable chronicle line turned up for this specific detail after a
+  //   search pass, so it's told as researched narrative fact, not a
+  //   quotes[] entry.
+  // - Corrected a factual inversion in the user's own draft: the dictated
+  //   text said Vítkov Hill's loss cut off the crusaders' OWN supply route
+  //   from the east. Per en.wikipedia/military-history.fandom (Sigismund
+  //   already held Vyšehrad and Prague Castle; Vítkov would have been the
+  //   third leg closing a full encirclement), it was the reverse — Vítkov
+  //   was meant to let the crusaders cut PRAGUE off and starve the city,
+  //   and losing it meant the ring never closed, not that Sigismund's own
+  //   supply line was severed. Written correctly here.
+  // - Žižka/Tábor departure detail: per the user's own explicit call (after
+  //   being shown that Žižka himself rode to relieve Písek in August rather
+  //   than returning straight to Tábor, per WebSearch), the farewell/
+  //   departure scene stays but doesn't name Tábor as the confirmed
+  //   destination — just "south," per the user's own "反正是离开布拉格往南走了."
+  //   Žižka's actual Písek campaign is left for a future card, not asserted
+  //   or contradicted here.
+  // - Title chosen by the user from four offered options: "A City Only Half
+  //   Free" / "Město jen zpola svobodné" / "只解放了一半的城."
+  // - No image yet — offer to draft an illustration prompt in a future
+  //   session rather than assuming one is wanted unprompted here.
+  {
+    slug: "a-city-only-half-free-1420",
+    era: "religious-turmoil",
+    startYear: 1420.5,
+    images: ["/history/a-city-only-half-free-1420.webp"],
+    imageCaptions: [
+      {
+        en: "Prague celebrates the crusade's collapse while, across the river and along it, Prague Castle and Vyšehrad stay dark and shut, still held by the king's own garrisons, late July 1420.",
+        cz: "Praha slaví zhroucení křížové výpravy, zatímco přes řeku i podél ní zůstávají Pražský hrad a Vyšehrad temné a uzavřené, stále v rukou královských posádek, konec července 1420.",
+        zh: "布拉格城正在庆祝十字军的溃败，而河对岸与沿岸的布拉格城堡和维谢赫拉德依然一片漆黑、大门紧闭，仍在国王的驻军手中，1420年7月末。",
+      },
+    ],
+    year: {
+      en: "1420",
+      cz: "1420",
+      zh: "1420年",
+    },
+    tone: "serious",
+    title: {
+      en: "A City Only Half Free",
+      cz: "Město jen zpola svobodné",
+      zh: "只解放了一半的城",
+    },
+    hookLine: {
+      en: "The crusade broke in an afternoon. Prague, it turned out, would take longer to win back.",
+      cz: "Křížová výprava se rozpadla za jediné odpoledne. Získat zpátky celou Prahu ale mělo trvat mnohem déle.",
+      zh: "十字军的溃败只用了一个下午。可要让整座布拉格重新回到自己手中，还得等更久。",
+    },
+    summary: {
+      en: "Losing was one thing. Losing to this was another. Most of the men who'd held Vítkov against Sigismund's cavalry wore no armor at all and fought with flails, the same tool they used to thresh grain at home, not swords. An army raised by the King of the Romans and half the princes of the Empire had just been broken by a fraction of its own size, and broken by farmers. Sigismund's own camp turned ugly within days: allies traded blame for the botched assault, and princes who'd signed on expecting an easy conquest and a share of Prague's plunder started openly asking whether this king could deliver either.\n\nVítkov had been meant to close the ring. Sigismund already held Vyšehrad and Prague Castle; take the hill too, and Prague would be cut off on every side, ready to starve. Without it, the ring never closed, and the eastern road out of the city, the one route the Hussites still controlled, stayed open the whole time. Between that failure, the summer heat, and a war chest already running dry, the crusade came apart from the inside faster than any Hussite army could have managed alone: prince after prince pulled his own men out of camp and marched for home, burning what he passed along the way to make the trip worth something.\n\nBefore he followed them out, Sigismund had himself hastily crowned King of Bohemia at St. Vitus Cathedral on 28 July. Two days later he pulled what was left of his army back to Catholic Kutná Hora. Bohemia's first crusade was over. It had failed.\n\nPrague's own siege lifted with it. The reinforcements who'd marched up from Tábor had done what they came to do, and there wasn't much reason left to stay: they said their goodbyes to Prague's own citizens and headed back out the way they'd come, south.\n\n[[b]]Sigismund's retreat didn't hand Prague back whole. While the city's own townspeople celebrated in the streets, Vyšehrad and Prague Castle, its other two power centers, hadn't moved an inch: still held by royal garrisons, still Catholic, still largely German-speaking, exactly where they'd been through the whole siege.[[/b]] One army had left. Two fortresses hadn't.\n\nPrague's own Hussites weren't going to call that finished. They already knew where they were looking next: Vyšehrad.",
+      cz: "Prohrát byla jedna věc. Prohrát takhle byla věc úplně jiná. Většina mužů, kteří proti Zikmundově jízdě udrželi Vítkov, neměla na sobě žádnou zbroj a bojovala cepy, týmž nářadím, kterým doma mlátili obilí, ne meči. Vojsko, které postavil římský král a polovina říšských knížat, právě porazila hrstka mužů zlomek jeho vlastní velikosti, a porazili ho sedláci. Zikmundův vlastní tábor zhořkl během pár dní: spojenci si navzájem házeli vinu za nepovedený útok a knížata, která se přidala v očekávání snadného dobytí a podílu na kořisti z Prahy, se začala otevřeně ptát, jestli jim tenhle král dokáže dodat vůbec něco z toho.\n\nVítkov měl uzavřít obklíčení. Zikmund už držel Vyšehrad i Pražský hrad; kdyby padl i tenhle kopec, byla by Praha odříznutá ze všech stran a připravená vyhladovět. Bez něj se kruh nikdy neuzavřel a východní cesta z města, jediná, kterou husité pořád ovládali, zůstala po celou dobu otevřená. K neúspěchu útoku se přidalo letní vedro a vojenská pokladna, která už tak zela prázdnotou, a křížová výprava se rozpadla zevnitř rychleji, než by to dokázalo jakékoli husitské vojsko samo: kníže za knížetem stahoval svoje muže z tábora a táhl domů, cestou pálil, co mu přišlo pod ruku, aby se mu ta cesta aspoň nějak vyplatila.\n\nNež je následoval ven, nechal se Zikmund narychlo korunovat českým králem v katedrále svatého Víta 28. července. O dva dny později stáhl zbytek svého vojska zpátky do katolické Kutné Hory. První křížová výprava proti Čechám skončila. A skončila neúspěchem.\n\nS ní se zvedlo i obležení Prahy. Posily, které přitáhly z Tábora, udělaly, kvůli čemu přišly, a nezbýval jim už velký důvod zůstávat: rozloučily se s pražskými měšťany a vydaly se zpátky stejnou cestou, kterou přišly, na jih.\n\n[[b]]Zikmundův ústup ale Prahu nevrátil celou. Zatímco se měšťané veselili v ulicích, Vyšehrad a Pražský hrad, další dvě mocenská centra města, se nepohnuly ani o píď: pořád je držely královské posádky, pořád katolické, pořád z velké části německy mluvící, přesně tam, kde stály po celou dobu obležení.[[/b]] Jedno vojsko odešlo. Dvě pevnosti ne.\n\nPražští husité to ale rozhodně nehodlali nechat jen tak. Věděli už, kam se podívají příště: na Vyšehrad.",
+      zh: "输给这样的对手，是另一回事。守住维特科夫、挡住西吉斯蒙德骑兵的那批人，大多身上没有一件像样的盔甲，手里挥舞的是连枷，他们平日在家打谷用的农具，不是刀剑。一支由罗马人民的国王本人和半数帝国诸侯拼凑起来的大军，就这样被人数悬殊得多的一小撮人击溃，而击溃他们的，还是一群农民。西吉斯蒙德自己的营地没过几天就变了味：盟友们互相甩锅、指责这次进攻的失败，而那些原本冲着轻松拿下布拉格、分一杯战利品来的诸侯们，也开始公开质疑，这位国王到底能不能兑现哪怕一样。\n\n维特科夫山，本该是合围的最后一环。西吉斯蒙德本来就已经握着维谢赫拉德和布拉格城堡，只要再拿下这座山，布拉格就会四面被围、坐等断粮。可这一仗没打下来，包围圈始终没能合拢，那条布拉格城东边的通道，胡斯派手上唯一还保得住的路，就这样一直敞开着。这次失利，加上盛夏的酷热，再加上早已见底的军费，让这支十字军从内部瓦解的速度，比任何一支胡斯军队单靠自己都做不到：诸侯一个接一个地把自己的人马撤出营地，往家的方向开拔，一路烧杀劫掠，好歹让这趟出征没有全然白跑。\n\n在跟着众人撤走之前，西吉斯蒙德先在7月28日匆匆于圣维特大教堂加冕为波希米亚国王，两天后又把剩下的部队撤回了天主教重镇库特纳霍拉。波希米亚的第一次十字军东征，就此以失败告终。\n\n布拉格城的危机也随之解除。从塔博尔赶来支援的军队，该做的都做完了，没有太多留下来的理由：他们向布拉格市民道了别，便沿着来时的路南下而去。\n\n[[b]]可西吉斯蒙德的撤退，并没有把整座布拉格城还给布拉格人。市民们在街头庆祝解放的同时，维谢赫拉德与布拉格城堡，这座城市另外两个权力中心，却纹丝未动：整场围城期间它们一直在王室驻军手中，依旧信奉天主教，也依旧大多讲德语。[[/b]]一支军队走了，两座堡垒没有。\n\n布拉格的胡斯派当然不会就此罢休。他们已经盯上了下一个目标：维谢赫拉德。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Where Sigismund had himself hastily crowned King of Bohemia on 28 July 1420, two days before abandoning the siege for good.",
+          cz: "Kde se Zikmund nechal 28. července 1420 narychlo korunovat českým králem, dva dny předtím, než obležení nadobro vzdal.",
+          zh: "1420年7月28日，西吉斯蒙德就在这里匆匆加冕为波希米亚国王，两天后，他便彻底放弃了这场围城。",
+        },
+      },
+      {
+        slug: "kutna-hora",
+        relation: {
+          en: "Where Sigismund pulled his defeated army back to on 30 July 1420, a Catholic stronghold to retreat into while Prague celebrated without him.",
+          cz: "Kam Zikmund 30. července 1420 odtáhl se zbytkem poraženého vojska, katolická bašta, do níž se uchýlil, zatímco Praha slavila bez něj.",
+          zh: "1420年7月30日，西吉斯蒙德把战败的军队撤回的地方，一座天主教重镇，供他退守，而布拉格城此时正撇开他自顾自地庆祝。",
+        },
+      },
+      {
+        slug: "vysehrad",
+        relation: {
+          en: "Still held by a royal garrison when the crusade collapsed around it, and about to become Prague's own next target.",
+          cz: "Pořád v rukou královské posádky, i když se kolem něj křížová výprava zhroutila, a už brzy se má stát dalším cílem Prahy.",
+          zh: "十字军土崩瓦解之时，这里依然握在王室驻军手里，很快就要成为布拉格人的下一个目标。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Hussite_Wars",
+  },
+  // New card, 2026-09-03, per the user's dictated outline (Chinese) — the
+  // siege and Battle of Vyšehrad (1 November 1420), the direct sequel to
+  // a-city-only-half-free-1420's own closing line ("They already knew
+  // where they were looking next: Vyšehrad"). Claude
+  // researched/verified/expanded via WebSearch/WebFetch, primarily against
+  // cs.wikipedia.org's own "Bitva pod Vyšehradem" article, cross-checked
+  // against the Hynek Krušina of Lichtenburg cs.wikipedia article and the
+  // Táborská brána cs.wikipedia article:
+  // - Táborská brána confirmed real (south-eastern gate, still standing) —
+  //   but built c. 1640, two centuries after this event, so phrased as "a
+  //   later gate on this same spot still carries the name" rather than
+  //   implying a gate by that name already existed in 1420.
+  // - Command roster and dates: Hynek Krušina of Lichtenburg + the Orebites
+  //   arrived 4 October and he was elected supreme Hussite commander almost
+  //   immediately; Žatec/Louny reinforcements followed within days; Tábor's
+  //   own contingent arrived ~15 October under Mikuláš (of Hus, already
+  //   introduced in the-rise-of-tabor-1419, linked here), not Žižka, who
+  //   was campaigning in South Bohemia at the time (per the earlier
+  //   Vítkov-card research note on his August departure for Písek) — his
+  //   own South Bohemia campaign stays unnarrated, left for a future card.
+  // - Pankrác camp / Benešov-road blockade, the chained-river-stakes detail
+  //   defeating Sigismund's attempted resupply by water, and the garrison
+  //   eating its own horses: all confirmed via the cs.wikipedia fetch.
+  // - The surrender agreement and its "stay inactive" clause: cs.wikipedia
+  //   dates the deadline to 1 November at 8am unless relief/grain arrived
+  //   by 31 October; the user's own supplied Piccolomini quote (Historia
+  //   Bohemica, 1458, footnote [13] in the user's source) says Sigismund
+  //   "arrived before the said day" (přibyl před řečeným dnem) — a mild
+  //   tension against cs.wikipedia's "arrived after 3pm on the 1st, having
+  //   missed the 8am cutoff." Resolved by reading Piccolomini's "the said
+  //   day" as the 1 November date itself (which Sigismund did reach before
+  //   it ended) while cs.wikipedia's more granular hour-level account
+  //   explains why the clause still applied — both sources agree on the
+  //   outcome (Sigismund unaware of the clause, garrison held it, he was
+  //   ambushed), which is what the card actually narrates.
+  // - Quote translated by Claude (EN/ZH) from the user's supplied Czech
+  //   text verbatim; attributed to Historia Bohemica, 1458 (confirmed via
+  //   WebSearch as Piccolomini's relevant work, written the same year he
+  //   became Pope Pius II).
+  // - Casualties (c. 500 royal dead incl. 14 Moravian nobles vs. c. 30
+  //   Hussite dead) and the garrison's surrender two days later, despite
+  //   having just cost Sigismund the battle by doing nothing: cs.wikipedia.
+  // - Title originally chosen by the user from four options built around
+  //   the "garrison wouldn't move for its own king" irony: "A Promise Kept
+  //   Too Well" / "Slib dodržený až příliš dobře" / "守约守过了头." Retitled
+  //   2026-09-04, after the quote trim below, to "The Truce That Took
+  //   Effect on Its Own" / "Dohoda, která vstoupila v platnost sama" /
+  //   "自动生效的和约" — the deadline-mechanics framing fits the trimmed
+  //   quote (and the sharpened summary prose) better than the original
+  //   honor/loyalty framing did. Slug left unchanged; nothing else in this
+  //   file referenced this card's slug yet, so no downstream fix needed.
+  // - Post-publish revision, 2026-09-03, at the user's explicit direction:
+  //   the quote (all three languages) originally included "Zikmund přibyl
+  //   před řečeným dnem" ("Sigismund arrived before the appointed day"),
+  //   which contradicts the prose's own (cs.wikipedia-sourced) account of
+  //   Sigismund arriving hours after the 8am, 1 November deadline had
+  //   already passed. Rather than leave the two accounts in tension on the
+  //   page, the user chose to trim that clause out of the quote itself
+  //   (knowingly not fully faithful to the original translated passage) so
+  //   the card reads as one consistent timeline. The rest of the quote is
+  //   unchanged. Summary prose was also revised in this same session to
+  //   sharpen the causality (deadline passing is what nullified the
+  //   garrison's obligation to Sigismund, not just "he showed up").
+  {
+    slug: "a-promise-kept-too-well-1420",
+    era: "religious-turmoil",
+    startYear: 1420.8,
+    images: ["/history/a-promise-kept-too-well-1420.webp"],
+    imageCaptions: [
+      {
+        en: "Sigismund leads his own army up to Vyšehrad, sword raised, shouting for the garrison to break its silence; the walls don't answer, and the Hussite army besieging the hill jeers at him instead, 1 November 1420.",
+        cz: "Zikmund vede k Vyšehradu vlastní vojsko, s taseným mečem, a křičí na posádku, aby přerušila mlčení; hradby neodpovídají, a husitské vojsko obléhající kopec se mu místo toho vysmívá, 1. listopadu 1420.",
+        zh: "西吉斯蒙德率领自己的大军开到维谢赫拉德城下，举剑高喊，要守军打破沉默；城墙却毫无回应，正在围城的胡斯军反而对着他哄笑起来，1420年11月1日。",
+      },
+    ],
+    year: {
+      en: "1420",
+      cz: "1420",
+      zh: "1420年",
+    },
+    tone: "serious",
+    title: {
+      en: "The Truce That Took Effect on Its Own",
+      cz: "Dohoda, která vstoupila v platnost sama",
+      zh: "自动生效的和约",
+    },
+    hookLine: {
+      en: "The men trapped inside Vyšehrad made Sigismund a promise. Keeping it is what got him beaten.",
+      cz: "Muži uvěznění ve Vyšehradě dali Zikmundovi slib. Právě to, že ho dodrželi, ho stálo porážku.",
+      zh: "被困在维谢赫拉德城堡里的人，给西吉斯蒙德许下了一个承诺，正是他们守约，才把他打垮的。",
+    },
+    summary: {
+      en: "Prague's own reasons for choosing Vyšehrad next weren't sentimental. The fortress sat squarely between the city and Tábor, and holding it meant holding that connection: the road below is exactly why the site's south-eastern gate today, built decades later, still carries the name Táborská brána, Tábor Gate. What Prague didn't have was the manpower to do this alone, not enough to seal the fortress off completely while also standing ready for whatever relief force Sigismund might send. So the city sent word out again, this time to the Hussite militias still filtering back to their own villages after the crusade had collapsed.\n\nThey didn't take much convincing. On 4 October, Hynek Krušina of Lichtenburg rode into Prague with the Orebites, Hussites out of the Hradec Králové region in eastern Bohemia, and was elected supreme commander of the whole combined Hussite force almost as soon as he arrived. Fighters from Žatec and Louny followed within days (a couple of Nusle's own street names still remember them). Around 15 October, Tábor sent men too, though not under Žižka himself, who was off fighting in South Bohemia; this contingent marched under [[link:the-rise-of-tabor-1419]]Mikuláš[[/link]] instead. The combined army made its main camp on the Pankrác plain, ground that today holds a cluster of high-rises and a large prison, positioned exactly where it could choke off the royal supply road running down from Benešov.\n\nBack in Kutná Hora, Sigismund thought he'd finally worked out what went wrong at Vítkov: bad ground. This time the men holding the walls were proper nobles, well-armed, dug into a strong castle on high terrain. Surely that was enough to outlast a peasant militia.\n\nHe was wrong again. Vyšehrad sat like an island, and Hussite reinforcements kept arriving from every direction to tighten the ring around it. Sigismund tried running supplies in by boat; the Hussites blocked the river with chained stakes. Before long the garrison was eating its own horses. Still there was no sign of the king or his army, and the men inside Vyšehrad began to wonder whether he'd simply written them off.\n\nHe hadn't. Word of the trouble reached Sigismund, and he moved fast, mustering Moravian and Hungarian troops and marching for Prague to save a castle he'd assumed was unbreakable in the first place.\n\nHunger only deepened the garrison's despair, and its doubts about the king, with each day that passed, and the calls to negotiate grew louder. On 28 October, the garrison's own commander, Jan of Boskovice, struck a deal with Krušina: if Sigismund hadn't arrived with grain and enough troops to break the siege by the last day of October, the garrison would surrender at eight the next morning, 1 November. The clause that actually mattered wasn't about loyalty at all. It was a deadline: miss it, and the surrender took effect automatically, whoever eventually showed up outside the walls afterward. The Hussites agreed.\n\n[[quote:0]]\n\nEight o'clock came and went that morning with no relief in sight, and by the agreement's own terms, the garrison's surrender took effect right then, hours before Sigismund even reached Vyšehrad. He didn't arrive until after three that afternoon, and it isn't even clear he knew the deal's exact terms in the first place. He led his own men down into open ground beneath the walls anyway, expecting, by every account, that the garrison would sally out to back him up; from the hillside he's said to have waved his sword toward the fortress, trying to signal them into the fight. [[b]]Nothing came. By the letter of their own signed word, the men inside hadn't answered to Sigismund since eight that morning, and Prague's own army fell on his isolated force alone.[[/b]]\n\nAround 500 of Sigismund's men were killed, including fourteen Moravian nobles, against something like 30 dead on the Hussite side. Two days later, the garrison that had just cost him the battle without lifting a weapon surrendered the fortress anyway. Vítkov had only suggested it; Vyšehrad now said it outright: Bohemia's own nobility no longer had to bet on this king.",
+      cz: "Praha si Vyšehrad jako další cíl nevybrala ze sentimentu. Pevnost ležela přesně mezi městem a Táborem, a udržet ji znamenalo udržet právě tohle spojení: kvůli té cestě dole nese jihovýchodní brána pevnosti dodnes, byť postavená o desítky let později, jméno Táborská brána. Praze ale chyběly ruce: nestačily na to, aby pevnost úplně obklíčily a zároveň byly připravené na jakoukoli pomoc, kterou by mohl poslat Zikmund. Město se tedy znovu obrátilo na husitské oddíly, které se právě po rozpadu křížové výpravy rozcházely zpátky do svých vesnic.\n\nDlouho se přemlouvat nenechaly. 4. října vjel do Prahy Hynek Krušina z Lichtenburka s Orebity, husity z východočeského Hradecka, a téměř hned po příjezdu byl zvolen vrchním hejtmanem celého spojeného husitského vojska. Během pár dní se přidali i bojovníci ze Žatce a Loun (dodnes na ně vzpomíná pár nusleských ulic). Kolem 15. října poslal muže i Tábor, i když ne pod samotným Žižkou, který zrovna válčil v jižních Čechách; tenhle oddíl vedl místo něj [[link:the-rise-of-tabor-1419]]Mikuláš[[/link]]. Spojené vojsko si zřídilo hlavní tábor na Pankráci, na místě, kde dnes stojí shluk výškových budov a velká věznice, přesně tam, odkud mohlo přerušit královskou zásobovací cestu vedoucí od Benešova.\n\nZikmund si zpátky v Kutné Hoře myslel, že už konečně přišel na to, co se pokazilo u Vítkova: špatný terén. Tentokrát drželi hradby praví šlechtici, dobře vyzbrojení, zakopaní v pevném hradě na výšině. To přece muselo stačit, aby vydrželi proti sedlácké milici.\n\nZase se spletl. Vyšehrad ležel jako ostrov a husitské posily se odevšad sjížděly, aby kolem něj utáhly kruh. Zikmund se pokusil dostat zásoby dovnitř po vodě; husité řeku přehradili okovanými kůly a řetězy. Než se kdo nadál, posádka jedla vlastní koně. Král ani jeho vojsko pořád nebyli v dohledu, a muži uvnitř Vyšehradu začínali pochybovat, jestli je prostě neodepsal.\n\nNeodepsal. Zpráva o tíživé situaci se k Zikmundovi donesla a on jednal rychle: shromáždil moravské a uherské oddíly a vytáhl k Praze, aby zachránil hrad, který dosud považoval za nedobytný.\n\nHlad prohluboval zoufalství posádky, i její pochybnosti o králi, den za dnem, a hlasy volající po jednání sílily. 28. října uzavřel velitel posádky Jan z Boskovic s Krušinou dohodu: pokud Zikmund do konce října nedorazí s obilím a dostatečným vojskem, aby obležení prolomil, posádka se druhého dne, 1. listopadu, v osm hodin ráno vzdá. Ta podmínka, na které skutečně záleželo, se netýkala věrnosti. Byla to lhůta: kdo ji propásl, kapitulace nabyla platnosti automaticky, ať už se pak před hradbami objevil kdokoli. Husité souhlasili.\n\n[[quote:0]]\n\nOsmá hodina ranní 1. listopadu přišla a odešla, aniž dorazila jakákoli pomoc, a podle vlastního znění dohody tím kapitulace posádky nabyla platnosti, celé hodiny předtím, než se Zikmund u Vyšehradu vůbec objevil. Dorazil až po třetí hodině odpoledne a není ani jisté, že přesné znění dohody vůbec znal. Přesto zavedl svoje muže na otevřený prostor pod hradbami, podle všeho v očekávání, že posádka vyrazí ven a podpoří ho; z kopce prý mával mečem směrem k pevnosti, aby je vyzval do boje. [[b]]Nic nepřišlo. Podle litery vlastního podepsaného slova už muži uvnitř od osmé hodiny ranní Zikmundovi nepodléhali, a na jeho osamocené vojsko se vrhla samotná pražská armáda.[[/b]]\n\nPadlo kolem 500 Zikmundových mužů, mezi nimi čtrnáct moravských šlechticů, proti asi 30 padlým na husitské straně. O dva dny později se pevnost, kterou posádka svou pasivitou právě stála bitvu, stejně vzdala. Vítkov to jen naznačil, Vyšehrad to teď řekl na rovinu: česká šlechta už na tohoto krále sázet nemusela.",
+      zh: "布拉格人把下一个目标定为维谢赫拉德，并不是出于感情用事。这座城堡正好卡在布拉格与塔博尔之间，守住它，就等于守住了这条联系：正因为这条路的缘故，城堡东南面的那道门，虽然是几十年后才建的，至今仍叫“塔博尔门”。可布拉格缺的是人手：既要把城堡彻底围死，又要随时提防西吉斯蒙德可能派来的援军，兵力根本不够用。于是布拉格再次向那些十字军溃败后正陆续散回各自村庄的胡斯派民兵求助。\n\n这些人没费多少工夫就被说动了。10月4日，利希滕堡的希内克·克鲁希纳率领奥列比特人（来自波希米亚东部赫拉德茨-克拉洛韦地区的胡斯派）进入布拉格，几乎一到就被推举为整支联合胡斯军的总司令。几天之内，来自扎泰茨和卢尼的战士也相继加入（如今努斯莱区还有几条街道的名字纪念着他们）。10月15日前后，塔博尔也派出了人马，只是不是杰式卡本人带队，他正在南波希米亚作战，这支队伍改由[[link:the-rise-of-tabor-1419]]米库拉什[[/link]]统领。联军把主营扎在潘克拉茨高原上，也就是今天一片高楼和一座大监狱所在的地方，正好卡在能切断从贝内绍夫方向而来的皇家补给线的位置上。\n\n回到库特纳霍拉的西吉斯蒙德，以为自己终于想明白了维特科夫失利的原因：地形不利。这一次，守城的是正经的贵族，装备精良，据守在地势高、城防坚固的城堡里。这总该挡得住一支农民民兵了吧。\n\n他又错了。维谢赫拉德就像一座孤岛，胡斯军的援兵从四面八方源源不断地赶来，把包围圈越收越紧。西吉斯蒙德想从水路运送补给，胡斯派用带铁尖的木桩和铁链把河道封死了。没过多久，守军就开始吃自己的战马。而现在还是看不到国王和他的军队的身影，维谢赫拉德的守军此时怀疑：国王是不是把他们放弃了。\n\n实际上并没有，听到局势不妙的消息后，西吉斯蒙德立刻召集摩拉维亚和匈牙利的大军，赶去布拉格，想救这座他本以为固若金汤的城堡于水火。\n\n可饥饿让维谢赫拉德的守军更加绝望，也更加怀疑国王，议和的声音越来越大。10月28日，守将扬·冯·博斯科维采与胡斯派领袖克鲁希纳签下协议：如果西吉斯蒙德没能在10月底之前带着粮食和援军来解围，守军就在次日，也就是11月1日早上8点投降。真正起作用的那条条款，其实和忠不忠诚没什么关系，它其实就是一条死线：一旦错过，投降便自动生效，不管之后到底是谁出现在城墙外。胡斯派同意了。\n\n[[quote:0]]\n\n11月1日早上8点这个时刻过去了，援军始终没有出现，按协议本身的条款，守军的投降从那一刻起就已经自动生效，比西吉斯蒙德真正出现在维谢赫拉德城下还要早了好几个钟头。他直到下午3点以后才赶到，甚至不清楚他是否知道协议的具体条款。可他还是把自己的部队带到了城墙下方一片毫无遮蔽的开阔地，据各方记载，他本以为守军会出城接应；据说他还在山坡上朝着城堡挥剑示意，想把他们招呼进战场。[[b]]什么都没等来。按他们自己签下的字据，从那天早上8点起，城里的人就已经不再听命于西吉斯蒙德了，而布拉格自己的军队，就这样朝着孤立无援的西吉斯蒙德扑了上去。[[/b]]\n\n西吉斯蒙德一方约有500人阵亡，其中包括十四名摩拉维亚贵族，胡斯派一方的阵亡人数只有大约30人。两天后，那支刚刚靠着按兵不动就替他打输了这场仗的守军，还是把城堡交了出去。维特科夫只是暗示了这一点，维谢赫拉德这次说得明明白白：波希米亚的贵族们，已经不必再赌这个国王了。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "At last it was promised that they would surrender, should Sigismund fail to come to their aid by a certain day, but with the condition attached that once Sigismund arrived, the men of Vyšehrad would remain entirely idle. Not knowing of the condition, Sigismund advanced into a narrow position beneath the castle, where he might easily have been protected by the besieged; but since they kept the word they had given, he suffered an immense defeat, being suddenly attacked by the men of Prague, and withdrew having accomplished nothing. Fourteen Moravian noblemen fell there, and a great many Hungarians and others besides; the castle then surrendered to the Praguers.",
+          cz: "Konečně bylo slíbeno vydání se, kdyby Zikmund nepřispěl do určitého dne ku pomoci, avšak připojena tu podmínka, aby po příchodu Zikmundově byli Vyšehradští v úplné nečinní. Zikmund, nevěda o podmínce, vytáhl na těsné místo pod hradem, na němž mohl býti od obležených snadno chráněn; ježto však tito drželi dané slovo, utrpěl nesmírnou porážku byv náhle napaden od Pražanů a odtáhl s nepořízenou. Šlechticů moravských padlo tam čtrnáct, uherských a ostatních přemnoho, hrad pak vzdal se Pražanům.",
+          zh: "最终双方谈妥：若西吉斯蒙德未能在约定之日前赶来救援，守军便会开城投降；但其中还附了一条条件，一旦西吉斯蒙德本人抵达，维谢赫拉德的守军便要完全按兵不动。西吉斯蒙德不知道这条条件，径自把队伍带到了城堡下方一处狭窄之地，若是被围军愿意出城接应，那本是个易守的位置；可守军说到做到，按兵未动，他因而突遭布拉格人的猛攻，遭受惨败，只得无功而返。摩拉维亚贵族当场阵亡十四人，匈牙利人及其余各方阵亡者更是不计其数，城堡随后便向布拉格人投降。",
+        },
+        attribution: {
+          en: "Enea Silvio Piccolomini (the future Pope Pius II), Historia Bohemica, 1458",
+          cz: "Enea Silvio Piccolomini (pozdější papež Pius II.), Historia Bohemica, 1458",
+          zh: "埃涅阿斯·西尔维奥·皮科洛米尼（后来的教宗庇护二世），《波希米亚史》（Historia Bohemica），1458年",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "vysehrad",
+        relation: {
+          en: "The fortress itself, where a starving garrison's own promise to sit out the fight ended up doing more damage to Sigismund than its walls ever could.",
+          cz: "Samotná pevnost, kde vlastní slib vyhladovělé posádky, že se do boje nezapojí, nakonec Zikmundovi uškodil víc než kterákoli z jejích hradeb.",
+          zh: "城堡本身。饥饿的守军许下的按兵不动的承诺，最终给西吉斯蒙德造成的伤害，比城墙本身还要大。",
+        },
+      },
+      {
+        slug: "tabor",
+        relation: {
+          en: "The city this whole fight was really about keeping a road open to, still remembered today in the name of Vyšehrad's own south-eastern gate.",
+          cz: "Město, kvůli jehož spojení se vlastně celý tenhle boj vedl, dodnes připomíná jméno jihovýchodní brány Vyšehradu.",
+          zh: "这整场战斗真正要守住的，是通往这座城市的道路，如今维谢赫拉德城堡东南面那道门的名字，依然记得这一点。",
+        },
+      },
+      {
+        slug: "taborska-brana",
+        relation: {
+          en: "The gate you'd have passed through in 1420 too, in cruder form, the one physical thing this whole siege was actually fought to keep open.",
+          cz: "Brána, kterou byste prošli i v roce 1420, byť v hrubší podobě, ta jediná skutečná věc, kvůli jejímu udržení se celé tohle obležení vlastně vedlo.",
+          zh: "1420年时人们也是从这里进出的，只是当时更简陋，这整场围城，说到底就是为了守住这条通路。",
+        },
+      },
+      {
+        slug: "pankrac-skyline",
+        relation: {
+          en: "The plain where the relief army made its main camp in October 1420, glass towers today where tents and a blocked supply road once stood.",
+          cz: "Planina, kde spojenecké vojsko v říjnu 1420 zřídilo svůj hlavní tábor, dnes skleněné věže tam, kde kdysi stály stany a přerušená zásobovací cesta.",
+          zh: "1420年10月，援军就是在这片高地上扎下了主营，如今矗立着玻璃高楼的地方，当年是帐篷和被切断的补给线。",
+        },
+      },
+      {
+        slug: "kostel-sv-pankrace",
+        relation: {
+          en: "The small Romanesque church the whole Pankrác plain takes its name from, and roughly where Sigismund's German and Hungarian troops made their own frontal push on 1 November.",
+          cz: "Malý románský kostel, po kterém je pojmenovaná celá pankrácká planina, a zhruba místo, kudy 1. listopadu vedli svůj čelní útok Zikmundovi němečtí a uherští vojáci.",
+          zh: "整片潘克拉茨高地的名字，就来自这座小小的罗曼式教堂，11月1日，西吉斯蒙德麾下的德意志与匈牙利军队，大致就是从这一带发起正面进攻的。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Battle_of_Vy%C5%A1ehrad",
+  },
+  // Dev note, 2026-09-04: this card was originally drafted covering both
+  // the Prague and Tábor fronts (Nov 1420-June 1421) plus a closing
+  // synthesis paragraph (the Hussite movement's two centres of gravity,
+  // Sigismund's crumbling imperial prestige). At the user's request it was
+  // trimmed to Prague's own front only — Žižka's south-western Bohemia
+  // campaign and the Prachatice massacre moved to their own card,
+  // blood-for-blood-1420, and the closing synthesis was cut outright
+  // rather than kept here (this card now closes on Prague Castle's own
+  // June 1421 capitulation, no summary/thesis paragraph after it).
+  // Corrections made against the user's original combined draft, still
+  // accurate to the content that remains below:
+  // - "贝隆" corrected to Beroun (not Bělá) — matches the real record of
+  //   Tábor/Prague forces taking Říčany and Beroun together.
+  // - Vyšehrad's aftermath is split into two different fates, not one: per
+  //   the surrender terms, part of the garrison was hired by Prague and
+  //   the rest honorably escorted to Kouřim (encyklopedie.praha2.cz); but
+  //   a separate group of roughly 25 Czech/Moravian nobles, not covered by
+  //   those terms, were killed in the ravine below the fortress by the
+  //   mob, some saved only by Hussite nobles risking themselves
+  //   (nasregion.cz). Churches gutted and part of the walls torn down the
+  //   next day: encyklopedie.praha2.cz.
+  // - June 1421 Prague Castle capitulation corrected: the user's original
+  //   draft said the Catholic nobles were "basically all killed"; three
+  //   independent sources (nasregion.cz, general search consensus) instead
+  //   describe a peaceful capitulation with free passage granted, no
+  //   massacre — some of the garrison went on to Karlštejn Castle
+  //   afterward. Written as a peaceful surrender per the sourced version,
+  //   not the user's original claim.
+  // - year field uses a range ("1420–1421"), matching the precedent set by
+  //   from-king-to-prisoner-1394, since the card genuinely spans
+  //   November 1420 through June 1421.
+  {
+    slug: "nothing-could-stop-them-1421",
+    era: "religious-turmoil",
+    startYear: 1420.85,
+    images: ["/history/nothing-could-stop-them-1421.webp"],
+    imageCaptions: [
+      {
+        en: "Prague Castle's own royal garrison marches out in good order as Hussite forces march in and raise the chalice banner over the gate, June 1421.",
+        cz: "Královská posádka Pražského hradu odchází v pořádku, zatímco husitské síly vstupují a nad branou vztyčují kališnickou korouhev, červen 1421.",
+        zh: "布拉格城堡的王室驻军体面撤离，胡斯派军队随即入驻，并在城门上升起圣杯旗，1421年6月。",
+      },
+    ],
+    year: {
+      en: "1420–1421",
+      cz: "1420–1421",
+      zh: "1420年–1421年",
+    },
+    tone: "serious",
+    title: {
+      en: "Nothing Could Stop Them Now",
+      cz: "Nic je už nezastavilo",
+      zh: "势如破竹",
+    },
+    hookLine: {
+      en: "Vyšehrad was down. Everything else standing between Prague and full control of its own city didn't last much longer either.",
+      cz: "Vyšehrad padl. Všechno ostatní, co Praze ještě stálo v cestě k plné kontrole nad vlastním městem, taky dlouho nevydrželo.",
+      zh: "维谢赫拉德已经拿下。挡在布拉格与彻底掌控自己这座城市之间的其他一切，也没能撑太久。",
+    },
+    summary: {
+      en: "Vyšehrad's fall didn't end cleanly. Under the terms of the surrender, part of the garrison took service with Prague itself, and the rest, honoring their own side of the bargain, were escorted safely to Kouřim. That was the orderly half of it. Somewhere in the ravine below the fortress, a separate group, roughly two dozen Czech and Moravian nobles caught up in the same defeat, were killed outright by a mob the formal surrender terms never covered; a few survived only because Hussite nobles of their own stepped between the crowd and the condemned, at real personal risk. Prague's own citizens then poured into Vyšehrad's churches and gutted them, and by the next day part of the fortress walls themselves had come down too. None of it stopped a thanksgiving procession from marching out onto the battlefield soon after, to thank God for the win.\n\nPrague's own soldiers didn't stop to enjoy it for long. Through December they laid siege to [[link:the-king-who-was-frightened-to-death-1419]]Nový Hrad[[/link]] near Kunratice, the same hunting retreat where news of the First Defenestration had once stopped Wenceslas IV's heart; by late January 1421 it had fallen and burned to the ground. Alongside Tábor's own men, and further out the Orebites, Prague's forces went on to take Říčany, Beroun, and Český Brod, clearing the country around the capital of anyone still flying a royalist flag.\n\nEven Prague's own last holdout finally gave up the fight: in June 1421, after nearly a year under siege, Prague Castle's own royal garrison capitulated too, peacefully and on terms, free to walk out rather than face what had happened at Vyšehrad. For the first time since the crusade had arrived, the whole of Prague belonged to one side.",
+      cz: "Pád Vyšehradu neskončil čistě. Podle podmínek kapitulace část posádky vstoupila do pražských služeb, zbytek, věrný vlastní straně dohody, byl bezpečně doprovozen do Kouřimi. To byla ta spořádaná polovina. Někde v roklině pod pevností byla samostatná skupina, nějakých pětadvacet českých a moravských šlechticů zachycených ve stejné porážce, rovnou pobita davem, na který se formální kapitulační podmínky nikdy nevztahovaly; někteří přežili jen díky tomu, že se vlastní husitští šlechtici postavili mezi dav a odsouzené, s reálným rizikem pro sebe. Pražští měšťané se pak nahrnuli do vyšehradských kostelů a vyrabovali je, a už druhého dne padla i část samotných hradeb. Nic z toho nezabránilo tomu, aby krátce nato na bojiště vytáhl děkovný průvod poděkovat Bohu za vítězství.\n\nPražské vojsko se u toho dlouho nezdrželo. Přes prosinec obléhalo [[link:the-king-who-was-frightened-to-death-1419]]Nový hrad[[/link]] u Kunratic, tentýž lovecký hrádek, kde kdysi zpráva o první pražské defenestraci zastavila srdce Václava IV.; koncem ledna 1421 padl a vyhořel do základů. Společně s vlastními tábority a dál i s Orebity pak pražské síly dobyly Říčany, Beroun a Český Brod a vyčistily okolí hlavního města od kohokoli, kdo ještě vlál královskou vlajkou.\n\nNakonec se vzdala i poslední pražská výjimka: v červnu 1421, po téměř roce obležení, kapitulovala i vlastní královská posádka Pražského hradu, pokojně a za podmínek, směla svobodně odejít, místo aby čelila tomu, co se stalo na Vyšehradě. Poprvé od příchodu křížové výpravy patřila celá Praha jedné straně.",
+      zh: "维谢赫拉德的陷落，收尾并不干净。按照投降协议的条款，部分守军进了布拉格人的麾下效力，其余的人则信守协议，被安全护送到了库日姆。这是体面的那一半。而在城堡下方的沟壑里，另有一批约二十五名同样陷入这场溃败的捷克与摩拉维亚贵族，被正式投降条款根本保护不到的暴民当场处死；少数人能活下来，全靠胡斯派自己的贵族挺身站在暴民与被害者之间，冒着真正的生命危险。布拉格市民随后又涌进维谢赫拉德的教堂，把里面洗劫一空，第二天，城堡的一段城墙也被拆毁。这一切都没能阻止不久之后一场感恩游行开赴战场，感谢上帝赐予的胜利。\n\n布拉格的军人没有多逗留庆祝。整个12月，他们围攻昆拉蒂采附近的[[link:the-king-who-was-frightened-to-death-1419]]新城堡[[/link]]，就是当年“第一次布拉格掷出窗外事件”的消息一度吓停瓦茨拉夫四世心脏的那座狩猎行宫；到1421年1月末，城堡陷落，被烧成了一片废墟。布拉格的军队随后又联合塔博尔派的人马，以及更远处的奥列比特人，先后拿下日恰尼、贝罗温和捷克布罗德，把首都周边还打着王室旗号的地方清扫了一遍。\n\n就连布拉格城内最后的堡垒也终于撑不下去了：1421年6月，围困将近一年之后，布拉格城堡自己的王室驻军也宣告投降，条件体面，获准自由离开，没有重蹈维谢赫拉德的覆辙。十字军兵临城下以来，整座布拉格第一次完全归于一方之手。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "kourim",
+        relation: {
+          en: "Where the honorable half of Vyšehrad's garrison was safely escorted after the surrender, the terms of the deal actually being kept.",
+          cz: "Kam byla po kapitulaci bezpečně doprovozena ta čestná polovina vyšehradské posádky, ta část dohody, která se skutečně dodržela.",
+          zh: "维谢赫拉德守军里体面的那一半，投降后正是被安全护送到了这里——协议里真正兑现的那部分。",
+        },
+      },
+      {
+        slug: "new-castle-ruins-near-kunratice-1783003399902",
+        relation: {
+          en: "The same hunting retreat where news of the First Defenestration once stopped Wenceslas IV's heart, besieged and burned to nothing by Prague's own forces in January 1421.",
+          cz: "Stejný lovecký hrádek, kde kdysi zpráva o první pražské defenestraci zastavila srdce Václava IV., v lednu 1421 obležený a vypálený do základů pražským vojskem.",
+          zh: "就是当年“第一次布拉格掷出窗外事件”的消息传来、吓停瓦茨拉夫四世心脏的那座狩猎行宫，1421年1月被布拉格自己的军队围攻，烧成了一片废墟。",
+        },
+      },
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Prague Castle's own royal garrison finally capitulated here in June 1421, free to walk out rather than face what had happened at Vyšehrad, and Prague belonged to one side at last.",
+          cz: "Zdejší vlastní královská posádka Pražského hradu tu v červnu 1421 konečně kapitulovala, směla svobodně odejít místo toho, aby čelila tomu, co se stalo na Vyšehradě, a Praha konečně patřila jedné straně.",
+          zh: "布拉格城堡的王室驻军1421年6月终于在这里投降，获准自由离开，没有重蹈维谢赫拉德的覆辙——布拉格终于完全归了一方。",
+        },
+      },
+      {
+        slug: "beroun",
+        relation: {
+          en: "Taken by Táborite and Prague forces together in this same sweep, one more royalist stronghold cleared from the country around the capital.",
+          cz: "Dobyt společně táborskými a pražskými silami během téhož tažení, další z královských opěrných bodů vyčištěných z okolí hlavního města.",
+          zh: "在这波攻势中被塔博尔派与布拉格军队联手拿下，是首都周边又一处被清扫掉的保王据点。",
+        },
+      },
+      {
+        slug: "cesky-brod",
+        relation: {
+          en: "Taken by Prague's own forces together with the Orebites during this same sweep, pushing the cleared ground west of the capital.",
+          cz: "Dobyt pražskými silami společně s Orebity během téhož tažení, díky čemuž se vyčištěné území posunulo západně od hlavního města.",
+          zh: "布拉格军队联合奥列比特人在同一波攻势中拿下，把清扫的范围一路推到了首都以西。",
+        },
+      },
+      {
+        slug: "ricany",
+        relation: {
+          en: "Taken alongside Beroun in the same campaign, part of the ring Prague and Tábor's forces cleared around the capital.",
+          cz: "Dobyty společně s Berounem během téhož tažení, součást okruhu, který pražské a táborské síly vyčistily kolem hlavního města.",
+          zh: "与贝罗温在同一波攻势中一同拿下，是布拉格与塔博尔联军在首都周边清扫出的那圈据点之一。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Hussite_Wars",
+  },
+  // New card, 2026-09-04, per the user's own dictated draft (Chinese) — the
+  // 12 November 1420 second capture and massacre of Prachatice by Žižka's
+  // Táborites. Originally drafted as part of a combined "nothing-could-
+  // stop-them-1421" card, then split out into its own card at the user's
+  // request ("普哈拉蒂采的故事值得专门单独一节去讲"), since the atrocity content was
+  // getting diluted inside a multi-front conquest montage. The Rožmberk/
+  // Oldřich II payoff, originally slated for this split, was deferred by
+  // the user to a still-later card ("罗森贝格放到下一节去讲") rather than
+  // included here.
+  // - Positioned AFTER nothing-could-stop-them-1421 (moved here 2026-09-04
+  //   at the user's own request, having originally sat between
+  //   a-promise-kept-too-well-1420 and nothing-could-stop-them-1421) — its
+  //   own story runs April-November 1420, told here as a "meanwhile, two
+  //   hundred kilometres south" thread rather than strictly by its own
+  //   earliest date, echoing the opening line originally written for the
+  //   (now-trimmed) combined card, which now doubles as a callback to
+  //   nothing-could-stop-them-1421's own "势如破竹" title just read.
+  // - The user's own draft was corrected on one real factual point,
+  //   confirmed with the user before writing: the draft had Žižka's
+  //   garrison staying in Prachatice under lenient terms (Germans free to
+  //   keep their language/lifestyle if they dropped support for the
+  //   Church) until leaving in September, with the town's Catholics then
+  //   "immediately" burning 3 Táborite comrades. Per cs.wikipedia's "Dobytí
+  //   Prachatic husity" (confirmed via WebSearch), the actual sequence runs
+  //   the other way: the German Catholic burghers fled the town outright
+  //   when Žižka captured it on 25 April 1420; Žižka's own garrison left
+  //   that same April, tearing down part of the walls first; the fled
+  //   Catholics then returned in early September and killed 2-3 remaining
+  //   Utraquist residents in reprisal. The "2-3 killed, September" numbers
+  //   matched the user's draft; the surrender-then-tolerance-then-betrayal
+  //   causal chain didn't, and was rewritten to match the sourced version.
+  // - The ~135 killed in the streets (in addition to the ~85 burned in the
+  //   Church of St. James the user's own draft already had) was added as a
+  //   factual completion, confirmed via the same WebFetch pass used for
+  //   nothing-could-stop-them-1421's own original draft of this material.
+  // - Quote(s): the user first supplied only the closing "kneeling and
+  //   begging" line (Vavřinec z Březové, trans. František Heřmanský from
+  //   Latin), plus a Chinese paraphrase of it reading the grammatical
+  //   subject as the Táborites praying for their victims. Claude initially
+  //   argued the opposite (the doomed Germans themselves begging for a
+  //   chance to repent) after the user supplied the full surrounding
+  //   passage, on the grounds that "Nehledě na to, že..." reads most
+  //   naturally as a concessive turn against the immediately preceding
+  //   subject. The user then did further cross-checking ("经过多方查证") and
+  //   confirmed the original reading was correct: "oni" continues as the
+  //   Táborites (the subject of the massacre just narrated), kneeling and
+  //   praying for their victims' chance at repentance even as they carried
+  //   out the killing, professing themselves merely obedient to command.
+  //   Prose immediately before quotes[2] rewritten accordingly. Also now
+  //   includes the fuller passage: Žižka's own peaceful opening offer, the
+  //   town's mocking refusal ("we have our own body of Christ and priests
+  //   who suit us"), Žižka's own furious "no quarter" vow in response (a
+  //   line Claude had earlier searched for and failed to verify, now
+  //   confirmed genuine), and the massacre itself narrated in the
+  //   chronicle's own prose (135 killed "like pigs," 85 burned in the
+  //   sacristy). Structured as three quotes[] entries in chronological
+  //   order: the September return/persecution (quotes[0]), the November
+  //   offer/refusal/vow exchange (quotes[1]), and the closing
+  //   kneeling-and-praying line (quotes[2]). All translated to EN/ZH by
+  //   Claude from the user-supplied Czech.
+  // - Prose voice deliberately sharpened 2026-09-04 at the user's own
+  //   request ("我想让文字更黑色幽默一些，延续以往的风格") — the first draft of this
+  //   card stuck close to the user's own Chinese wording; this revision
+  //   punches up the dry/dark irony throughout (the fled Catholics'
+  //   "homecoming," Žižka not sticking around "to enjoy the irony," "the
+  //   battle itself was almost an afterthought," etc.) without changing
+  //   any underlying fact.
+  // - New Location added for this card's own relatedLandmarks entry:
+  //   `prachatice` (seedLocations.js), user-supplied coordinates, `epic`
+  //   rarity, flagged for being well outside this project's usual day-trip
+  //   radius (~150km SW of Prague) — see that entry's own dev comment.
+  {
+    slug: "blood-for-blood-1420",
+    era: "religious-turmoil",
+    startYear: 1420.9,
+    images: ["/history/blood-for-blood-1420.webp"],
+    imageCaptions: [
+      {
+        en: "Táborite soldiers kneel in prayer as German captives are led toward the Church of St. James, barrels and straw already being carried inside, 12 November 1420.",
+        cz: "Táborští vojáci klečí v modlitbě, zatímco jsou němečtí zajatci vedeni ke kostelu svatého Jakuba, dovnitř už nosí sudy a slámu, 12. listopadu 1420.",
+        zh: "塔博尔士兵跪地祈祷，德意志俘虏被押往圣雅各教堂，木桶与稻草已经被搬进教堂内，1420年11月12日。",
+      },
+    ],
+    year: {
+      en: "1420",
+      cz: "1420",
+      zh: "1420年",
+    },
+    tone: "serious",
+    title: {
+      en: "Blood for Blood",
+      cz: "Krev za krev",
+      zh: "以血还血",
+    },
+    hookLine: {
+      en: "Prachatice never really surrendered. It just waited for its chance to get even, and so, in the end, did Žižka.",
+      cz: "Prachatice se nikdy doopravdy nevzdaly. Jen čekaly na svou šanci vyrovnat účty, a nakonec totéž udělal i Žižka.",
+      zh: "普拉哈蒂采从来没有真正投降过，它只是在等一个报仇的机会，最后，杰式卡也是。",
+    },
+    summary: {
+      en: "Prague's own Hussites were tearing through the countryside like nothing could touch them. Two hundred kilometres south, Žižka was managing the same trick with less effort.\n\nHis Táborites rolled through south-western Bohemia, Vodňany, Lomnice nad Lužnicí, Malý Bor, and most towns took one look and surrendered before anyone had to ask twice.\n\nPrachatice surrendered too. Conviction had nothing to do with it. The town was full of German-speaking Catholic gentry who considered the whole Hussite movement a rabble of Czech farmers playing at theology, and bowing to them was purely a survival tactic.\n\nAs it turned out, they couldn't even manage that much conviction. The moment Žižka's army walked in, the town's Catholics simply walked out, choosing exile over living among people they despised. Žižka didn't stick around to enjoy the irony: his men burned part of the town, knocked down a stretch of its wall, left behind a handful of new Utraquist converts to mind the place, and moved on to go win somewhere else.\n\nBy September the exiles were back. They patched up their houses well enough, rebuilt the wall properly this time, and turned their attention to their former neighbors:\n\n[[quote:0]]\n\nŽižka, to his credit, tried talking first, more than once. Prachatice's Germans answered every offer the same way: rabble. Peasants. Worse.\n\nThat November he came back with an army, and offered the walls one more chance before the fighting started:\n\n[[quote:1]]\n\nThe city that had once surrendered without needing to be asked twice barely bothered to fight this time before it fell to him a second time. Žižka kept the promise he'd just sworn.\n\nHis own furious Táborites went door to door settling accounts in person: roughly a hundred and thirty-five men cut down in the streets with flails and swords, like so many slaughtered pigs. Another eighty-five were herded into the church's own sacristy, where barrels and straw were set alight around them, and burned without a shred of mercy.\n\nOfficially, none of this counted as cruelty. It was blood for blood, a debt paid on behalf of the Hussite dead this same town had already burned once itself. Even the killing itself came with the appearance of piety, or so the chronicle insists: the men doing it are said to have knelt down first, hands raised to heaven, begging that their victims at least be granted time to repent before they finished the job.\n\n[[quote:2]]",
+      cz: "Pražští husité se hnali krajinou, jako by je nic nemohlo zastavit. Dvě stě kilometrů na jih dokázal Žižka totéž s menší námahou.\n\nJeho tábority se prohnaly jihozápadními Čechami, Vodňany, Lomnicí nad Lužnicí, Malým Borem, a většina měst se stačila jen podívat a vzdala se, než je někdo musel žádat dvakrát.\n\nPrachatice se vzdaly taky. Přesvědčení s tím nemělo nic společného. Město bylo plné německy mluvící katolické honorace, která celé husitské hnutí považovala za bandu českých sedláků hrajících si na teology, a sklonit se před nimi byla čistě taktika přežití.\n\nUkázalo se, že ani na tolik přesvědčení neměli. Jakmile Žižkovo vojsko vstoupilo do města, jeho katolíci prostě odešli, raději do vyhnanství než mezi lidi, kterými pohrdali. Žižka se u té ironie nezdržoval: jeho muži vypálili část města, strhli kus hradeb, ve městě nechali jen hrstku nových stoupenců kalicha, aby na to dohlédli, a odtáhli vyhrávat jinam.\n\nV září se vyhnanci vrátili. Jakž takž si opravili domy, tentokrát pořádně obnovili hradby a obrátili pozornost ke svým bývalým sousedům:\n\n[[quote:0]]\n\nŽižka to k jeho cti nejdřív zkoušel po dobrém, víckrát. Němci z Prachatic odpovídali na každou nabídku stejně: chátra. Sedláci. A hůř.\n\nToho listopadu se vrátil s vojskem a hradbám dal ještě jednu šanci, než začal boj:\n\n[[quote:1]]\n\nMěsto, které se kdysi vzdalo bez jediného přemlouvání, se tentokrát sotva obtěžovalo bojovat, než mu padlo podruhé. Žižka dodržel slib, který právě složil.\n\nJeho vlastní rozzuření tábority si to se všemi vyřídili osobně, dům od domu: v ulicích padlo cepy a meči kolem sto třiceti pěti mužů, ubitých jako vepři na porážce. Dalších osmdesát pět bylo nahnáno do kostelní sakristie, kde kolem nich zapálili sudy a slámu a bez špetky milosrdenství je upálili.\n\nOficiálně to nebyla krutost. Byla to krev za krev, dluh splacený za husity, které toto samé město už jednou samo upálilo. Dokonce i tohle zabíjení si prý zachovalo zdání zbožnosti: muži, kteří ho prováděli, si podle kroniky nejdřív klekli, zvedli ruce k nebi a prosili, aby jejich obětem bylo aspoň dopřáno trochu času na pokání, než dílo dokonají.\n\n[[quote:2]]",
+      zh: "布拉格的胡斯派横扫乡野，一副谁都拦不住的架势。两百公里外的南方，杰式卡用更少的力气办成了同一件事。\n\n他麾下的塔博尔派横扫波希米亚西南部——沃德尼亚尼、卢日尼察河畔洛姆尼察、马利博尔——大多数城镇看一眼形势，用不着别人开口第二次，就自己投降了。\n\n普拉哈蒂采也投降了。跟诚不诚心没什么关系。城里满是说德语的天主教贵族，他们打心眼里瞧不起整个胡斯运动，觉得不过是一帮玩票神学的捷克农民，向他们低头，纯粹是保命的权宜之计。\n\n结果连这点权宜都没坚持住。杰式卡的军队一进城，城里的天主教徒干脆直接走人，宁愿流亡在外，也不肯跟自己看不起的人住在一起。杰式卡也没工夫细品这份讽刺：他的部下烧毁了部分城镇，拆了一段城墙，留下一小撮新皈依圣餐杯派的居民看家，转头就去别处打仗立功了。\n\n到了9月，这些流亡者又回来了。他们勉强修补好房屋，这次把城墙彻底重建了一遍，然后把矛头转向了从前的邻居：\n\n[[quote:0]]\n\n平心而论，杰式卡一开始还是好言相劝，而且不止一次。普拉哈蒂采的德国人对每一次示好的回应都一样：贱民。农民。甚至更难听的话。\n\n那年11月，他带着军队再次而来，开战之前，又给了城墙内的人最后一次机会：\n\n[[quote:1]]\n\n这座当年投降都不用人劝第二遍的城市，这一次几乎懒得像样地打一场，就再度城破。杰式卡也兑现了自己刚刚立下的誓言。\n\n他麾下暴怒的塔博尔派挨家挨户亲自算账：街头约有一百三十五人被连枷和刀剑砍杀，像屠宰场里的猪一样被打死。另外八十五人被赶进教堂的圣器室，周围堆起木桶与稻草点火，他们毫无怜悯地被活活烧死。\n\n官方说法里，这算不上残忍。这是以血还血，替这座城早前亲手烧死的那些胡斯教徒还债。就连这场杀戮本身，据编年史记载，也维持着一副虔诚的样子：动手的人据说先跪了下来，双手举向天空，祈求至少让这些受害者在被了结之前，能有机会悔改。\n\n[[quote:2]]",
+    },
+    quotes: [
+      {
+        text: {
+          en: "For when the Táborites, who had come there earlier, had burned the town, torn down part of its wall, and then departed, some of their adversaries returned to the town, the very ones who had earlier been driven out and had fled before the Táborites. These men, having somehow repaired their houses and fully restored the wall, set about cruelly persecuting all who received communion in both kinds: some they seized and forced to swear false oaths, some they stripped of their property and drove from the city, and, worst of all, two or three zealous lovers of God's law they burned, though innocent...",
+          cz: "Neboť když táboři, kteří tam dříve přišli, vypálili město a zbořili částečně městskou hradbu a potom odešli, vrátili se do města někteří z protivníků, kteří tehdy byvše vyhnáni utekli před tváří táborů. A ti, jakž takž opravivše domy a úplně obnovivše hradbu, jali se krutě pronásledovati všechny, kdož přijímali pod obojí způsobou tak, že některé zajímali a donucovali křivě přísahat, některé, vzavše jim jejich majetek, vyháněli z města, a co bylo nejhoršího, dva nebo tři horlivé milovníky zákona Božího nevinně upálili...",
+          zh: "因为早先来到这里的塔博尔派，烧毁了城镇、拆毁了部分城墙之后便离开了，他们的一些敌对者，也就是当初被驱逐、在塔博尔派面前仓皇逃走的那些人，这时又回到了城里。这些人勉强修补了房屋、彻底重建了城墙之后，便开始残酷迫害所有以两种形式领受圣餐的人：有的被抓住，被逼迫发下违心的誓言；有的被夺走财产，赶出城外；而最恶劣的是，其中两三位虔诚敬奉神律之人，竟被无辜活活烧死……",
+        },
+        attribution: {
+          en: "Lawrence of Březová (trans. from Latin by František Heřmanský)",
+          cz: "Vavřinec z Březové (překlad z latiny František Heřmanský)",
+          zh: "布热佐娃的瓦夫日涅茨（弗朗齐歇克·赫尔曼斯基自拉丁文译出）",
+        },
+      },
+      {
+        text: {
+          en: "Open the gate and let us enter the city peacefully with the venerable sacrament of Christ's body and with priests, and we promise we shall do you no harm, neither to life nor to property. But they, as if in blasphemy, replied: We have no need of your body of Christ or your priests, for we have our own body of Christ and priests who suit us well enough. Hearing this, Žižka, in a raised voice, declared: I swear to God this day, that if I take you by force, I shall leave no one alive, but shall order every last one of you, however many you are, put to death.",
+          cz: "Otevřte bránu a nechte nás pokojně vejíti do města s velebnou svátostí těla Kristova a s kněžími a my slibujeme, že vám nezpůsobíme žádné škody ani na životě ani na majetku. A oni však, jako by se rouhali, řekli: Nepotřebujeme vašeho těla Kristova ani vašich kněží, protože máme i tělo Kristovo i kněze, kteří se nám hodí. Uslyšev to Žižka, pozdviženým hlasem pravil: Přísahám dnes Bohu, jestliže vás mocí dobudu, že nikoho nenechám na živu, nýbrž rozkážu pobíti všechny, kolik vás jen bude.",
+          zh: "打开城门，让我们带着基督圣体与神父，平静地进入城中，我们保证不会伤害你们的性命，也不会侵犯你们的财产。可他们却像是在亵渎神明一般，回答道：我们不需要你们的基督圣体，也不需要你们的神父，因为我们自己就有合我们心意的基督圣体与神父。杰式卡听闻此言，扬声说道：我今日向上帝起誓，若我以武力攻下你们，我将不留一人活口，而要下令，把你们所有人，不论多少，尽数处死。",
+        },
+        attribution: {
+          en: "Lawrence of Březová (trans. from Latin by František Heřmanský)",
+          cz: "Vavřinec z Březové (překlad z latiny František Heřmanský)",
+          zh: "布热佐娃的瓦夫日涅茨（弗朗齐歇克·赫尔曼斯基自拉丁文译出）",
+        },
+      },
+      {
+        text: {
+          en: "Notwithstanding that, having fallen to their knees and clasped and raised their hands to heaven, they (the Táborites) begged from the heart that the wretched (the Germans) be given time for repentance, and that they would do whatever was commanded of them.",
+          cz: "Nehledě na to, že pokleknuvše k zemi a sepnuvše a pozdvihnuvše ruce k nebi, ze srdce prosili (táborité), aby dali ubohým (Němcům) čas k pokání a že chtějí učinit všechno, cokoli rozkážou.",
+          zh: "尽管如此，他们（塔博尔派）还是双膝跪地，合掌举向天空，发自内心地恳求，请给这些可怜人（德意志人）一个悔改的机会，并表示愿听凭一切命令。",
+        },
+        attribution: {
+          en: "Lawrence of Březová (trans. from Latin by František Heřmanský)",
+          cz: "Vavřinec z Březové (překlad z latiny František Heřmanský)",
+          zh: "布热佐娃的瓦夫日涅茨（弗朗齐歇克·赫尔曼斯基自拉丁文译出）",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "prachatice",
+        relation: {
+          en: "The town itself, where a failed surrender, a returned massacre of its own Hussite residents, and Žižka's own reprisal all played out within the same year.",
+          cz: "Samotné město, kde se během jediného roku odehrálo neúspěšné podrobení, pomsta na vlastních husitských obyvatelích i Žižkova odveta.",
+          zh: "这座城镇本身——一年之内，先是归降不成，后是自己人被清算，最后是杰式卡的报复，全都发生在这里。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Prachatice",
+  },
+  // New card, 2026-09-04, per the user's dictated outline (Chinese) — the
+  // fall of Rožmberk's Příběnice/Příběničky, Oldřich II's own peace with
+  // Žižka (paying off the-five-roses-1394's standing forward-hook), the
+  // Pikart purge at Klokoty, and the "North Prague, South Tábor" synthesis
+  // + Sigismund's crumbling prestige (both originally drafted for
+  // nothing-could-stop-them-1421, cut from that card at the user's own
+  // request, and now landing here instead as the true capstone of this
+  // whole Nov 1420-Apr 1421 stretch). Dated 1421 per the user's own
+  // explicit instruction, even though Příběnice's fall and the Rožmberk
+  // truce both happened in November 1420 — the Pikart purge (April 1421)
+  // and the truce's own April 1421 reconfirmation anchor the card's own
+  // closing beats solidly in 1421, and the "two centres of gravity"
+  // synthesis reads best as a 1421 vantage point looking back.
+  // - Confirmed via WebSearch/WebFetch (ccsh.cz, taborsky.denik.cz,
+  //   cs.wikipedia's own Oldřich II article): Příběnice/Příběničky fell to
+  //   Tábor in November 1420, "more by luck than siege craft" per
+  //   ccsh.cz's own account of Václav Koranda (imprisoned there, working
+  //   his own chains loose, smuggling word to Tábor, then throwing stones
+  //   from the tower during the actual assault) — a real detail, not
+  //   invented. Koranda giving up priestly duties afterward out of
+  //   conscience is also per that same source. (Koranda is a new figure to
+  //   this file as it currently stands — an earlier card featuring him,
+  //   crowned-with-straw-1420, was written and then deleted entirely
+  //   earlier this same session at the user's own request, so nothing here
+  //   assumes prior familiarity with him.)
+  // - Oldřich II of Rožmberk: raised on Hussite ideas himself as a young
+  //   man, pushed into Sigismund's Catholic camp once Tábor's radicalism
+  //   turned into a direct territorial loss, confirmed via WebSearch. The
+  //   18 November 1420 truce at Písek and its 25 April 1421 reconfirmation
+  //   are both confirmed independently. Linked via
+  //   [[link:the-five-roses-1394]].
+  // - The Pikart purge: confirmed via WebSearch (multiple sources
+  //   agreeing) — Žižka expelled the Pikart sect (led by Petr Kániš, an
+  //   early chiliastic/antinomian splinter, forerunner of the later, more
+  //   famous Adamites) from Příběnice; they fled across the Lužnice near
+  //   Dražice; Žižka hunted them down that April, burned roughly 50 at
+  //   Klokoty (Kániš among them, just before St. George's feast, 23
+  //   April), with another 25 burned after his own departure. No quotes[]
+  //   entry: this specific episode didn't turn up a quotable primary-
+  //   source line in the searches done for it.
+  // - No Location card exists for Příběnice, Klokoty, or Dražice (all
+  //   named in running prose only, not linked) — Písek does exist
+  //   (`pisek`), used as a relatedLandmarks entry since the truce was
+  //   actually signed there.
+  // - Title chosen by the user from four options: "North Prague, South
+  //   Tábor" / "Praha na severu, Tábor na jihu" / "北布拉格，南塔博尔."
+  {
+    slug: "north-prague-south-tabor-1421",
+    era: "religious-turmoil",
+    startYear: 1421,
+    images: ["/history/north-prague-south-tabor-1421-map.webp"],
+    imageCaptions: [
+      {
+        en: "The Hussite movement's own divided map by spring 1421: Prague's zone in the north, Tábor's in the south, Kutná Hora holding out for Sigismund in between, and Moravia still largely his as well.",
+        cz: "Vlastní rozdělená mapa husitského hnutí na jaře 1421: pražská zóna na severu, táborská na jihu, Kutná Hora vydržující za Zikmunda mezi nimi, a Morava z velké části pořád jeho.",
+        zh: "1421年春，胡斯运动自身的势力版图已经一分为二：北方是布拉格的地盘，南方是塔博尔的地盘，库特纳霍拉夹在中间仍为西吉斯蒙德死守，摩拉维亚也大体仍是他的。",
+      },
+    ],
+    year: {
+      en: "1421",
+      cz: "1421",
+      zh: "1421年",
+    },
+    tone: "serious",
+    title: {
+      en: "North Prague, South Tábor",
+      cz: "Praha na severu, Tábor na jihu",
+      zh: "北布拉格，南塔博尔",
+    },
+    hookLine: {
+      en: "By the time Prague finished with its own last holdout, Tábor had already finished with its, and not just the enemies it expected to have.",
+      cz: "Než Praha skoncovala s vlastní poslední výjimkou, Tábor už dávno skoncoval se svou, a nejen s nepřáteli, které čekal.",
+      zh: "布拉格清理完自己最后一个据点的时候，塔博尔早就清理完了自己的地盘，而且清理掉的，不只是它原本预料中的敌人。",
+    },
+    summary: {
+      en: "Tábor's own conquest of the south wasn't finished with Prachatice. That same November, Žižka's forces took Příběnice, twin fortresses belonging to the [[link:the-five-roses-1394]]Rožmberk family[[/link]], more by luck than by siege craft: the radical Táborite priest Václav Koranda, held prisoner inside, had worked his own chains loose and smuggled word out to Tábor, then spent the actual assault hurling stones down from the tower onto the garrison holding him. It worked. The castles fell, and Koranda walked out a free man, though the killing that followed reportedly weighed on him enough that he quietly gave up his priestly duties afterward and stuck to preaching alone.\n\nFor Oldřich II of Rožmberk, the loss was personal as well as territorial. Raised on Hussite ideas himself as a young man, he'd spent the movement's early radicalization hedging rather than choosing a side; watching Tábor take two of his own family's castles finally settled the question for him, and he committed himself, for good, to Sigismund's camp. It didn't stop him from doing what Rožmberks had always done best: on 18 November, in Písek, he signed a truce with Žižka on the Hussites' own terms, and reconfirmed it again the following April. Losing the argument and still cutting the better deal was practically the family trade.\n\nŽižka's own south wasn't as unified as the label suggested, either. Příběnice itself had been sheltering a fringe even Tábor wanted no part of, the Pikarts, a sect under the priest Petr Kániš pushing ideas radical enough to unsettle Hussites and Catholics alike. Žižka drove them out of the castle; they fled into the woods across the Lužnice near Dražice, and didn't stay hidden for long. That April he hunted them down himself, marched some fifty of them to the village of Klokoty, and burned them there, Kániš among them, days before St. George's own feast. Another twenty-five followed once he'd already moved on.\n\nBy now the Hussite movement genuinely had two centres of gravity, Prague in the north, done clearing its own capital of every last royal holdout, and Tábor in the south, done clearing its own hinterland of every last Catholic lord and every last heretic too radical even for it. Neither one owned the whole kingdom, though: Plzeň and the rest of western Bohemia stayed stubbornly Catholic the whole time, same as Moravia to the east and Kutná Hora sitting right between the two Hussite halves. [[b]]Sigismund had suffered two humiliating defeats this year alone, and his standing within the Empire kept sinking by the day.[[/b]] The princes who'd once marched south behind him were already looking elsewhere for a winner to back.\n\nFor now, a shared enemy was still reason enough to call the two halves one movement. Whether that would keep being reason enough was already an open question, and every month made it a little more open.",
+      cz: "Táborské dobývání jihu neskončilo Prachaticemi. Téhož listopadu dobyla Žižkova vojska Příběnice, dvojici pevností patřících [[link:the-five-roses-1394]]rodu Rožmberků[[/link]], spíš díky štěstí než obléhacímu umění: radikální táborský kněz Václav Koranda, vězněný uvnitř, si sám uvolnil okovy a propašoval ven zprávu do Tábora, a během samotného útoku pak z věže házel kameny na posádku, která ho držela. Zabralo to. Hrady padly a Koranda vyšel na svobodu, i když ho zabíjení, které následovalo, prý natolik tížilo na svědomí, že se poté potichu vzdal kněžské služby a věnoval se jen kázání.\n\nPro Oldřicha II. z Rožmberka byla ta ztráta stejně osobní jako územní. Sám v mládí vyrostl na husitských myšlenkách a v raných letech radikalizace hnutí spíš vyčkával, než aby si vybral stranu; sledovat, jak Tábor bere dva hrady jeho vlastní rodiny, mu tu otázku konečně rozhodlo, a natrvalo se zavázal Zikmundovu táboru. Nezabránilo mu to ale dělat to, co Rožmberkové vždycky uměli nejlíp: 18. listopadu v Písku podepsal se Žižkou příměří za husitských podmínek a v dubnu následujícího roku ho ještě jednou potvrdil. Prohrát spor a přitom si vyjednat lepší podmínky bylo v tomhle rodu skoro rodinné řemeslo.\n\nAni Žižkův vlastní jih nebyl tak jednotný, jak název napovídal. Samotné Příběnice skrývaly frakci, se kterou nechtěl mít nic společného ani Tábor: pikarty, sektu kolem kněze Petra Kániše, hlásající myšlenky dost radikální na to, aby znepokojily husity i katolíky stejnou měrou. Žižka je z hradu vyhnal; uprchli do lesů za Lužnicí u Držic a dlouho se neskrývali. Toho dubna je sám vypátral, kolem padesáti jich dohnal do vesnice Klokoty a tam je upálil, Kániše mezi nimi, pár dní před svátkem svatého Jiří. Dalších pětadvacet upálili poté, co už odtáhl dál.\n\nHusitské hnutí teď mělo dvě skutečná těžiště: Prahu na severu, která právě vyčistila vlastní hlavní město od posledního královského opěrného bodu, a Tábor na jihu, který právě vyčistil vlastní zázemí od posledního katolického pána i od posledního kacíře, který byl radikální i na jeho poměry. Žádná z obou stran ale nevlastnila celé království: Plzeň a zbytek západních Čech zůstávaly celou dobu tvrdošíjně katolické, stejně jako Morava na východě a Kutná Hora, sedící přímo mezi oběma husitskými polovinami. [[b]]Zikmund utrpěl jen za tento rok dvě ponižující porážky, a jeho postavení v říši den ode dne klesalo.[[/b]] Knížata, která za ním kdysi táhla na jih, si už hledala jiného vítěze, na kterého by vsadila.\n\nProzatím byl společný nepřítel pořád dostatečným důvodem nazývat obě poloviny jedním hnutím. Jestli tím důvodem zůstane i nadále, byla už otevřená otázka, a s každým měsícem o něco otevřenější.",
+      zh: "塔博尔派对南方的征服，并没有止步于普拉哈蒂采。同年11月，杰式卡的军队拿下了普日贝尼采，[[link:the-five-roses-1394]]罗森贝格家族[[/link]]的两座姊妹城堡，与其说是靠攻城本领，不如说是靠运气：被囚禁在城堡里的塔博尔派激进神父瓦茨拉夫·科兰达，自己挣脱了锁链，还设法把消息偷偷传回了塔博尔，攻城当天更是亲自在塔楼上朝守军扔石头。这一招还真管用。城堡陷落，科兰达重获自由，只是据说那场厮杀让他良心难安，此后便悄悄放下了神父的职责，只专心布道，再没主持过圣事。\n\n对奥德日赫二世·罗森贝格来说，这次损失既是地盘上的，也是私人的。他年轻时也曾深受胡斯派思想熏陶，运动早期激进化的那几年，他一直骑墙观望，没有真正选边站。可眼看塔博尔派夺走了自家两座城堡，这个问题终于替他做了决定，他从此彻底倒向了西吉斯蒙德的阵营。可这并不妨碍他做了罗森贝格家族一贯最拿手的事：11月18日，在皮塞克，他按胡斯派开出的条件跟杰式卡签下了停战协议，第二年4月又重新确认了一遍。输了这场争论，却还能谈到更好的条件，这几乎是这个家族代代相传的看家本领。\n\n杰式卡自己的南方，也并不像这个称呼听起来那么铁板一块。普日贝尼采城堡本身，就藏着一支连塔博尔派自己都不愿沾边的支派：皮卡尔派，一个围绕神父彼得·卡尼什形成的教派，其主张激进到胡斯派和天主教徒都同样看不下去。杰式卡把他们赶出了城堡；他们逃进了卢日尼采河对岸靠近德尔日采的树林里，没能藏多久。那年4月，杰式卡亲自把他们揪了出来，把大约五十人押到克洛科提村，就地烧死，卡尼什本人也在其中，就在圣乔治节前几天。他离开之后，又有另外二十五人被烧死。\n\n此时的胡斯运动，真正有了两个重心：北方的布拉格，刚刚把首都里最后一个王室据点清理干净；南方的塔博尔，也刚刚把自己的腹地清理干净，既清掉了最后一位天主教领主，也清掉了连自己都嫌太激进的最后一批异端。可这两边谁都没能拿下整个王国：比尔森和西波希米亚其余地方，始终顽固地留在天主教一边，摩拉维亚东边也一样，库特纳霍拉更是正好卡在这两个胡斯派半壁之间。[[b]]西吉斯蒙德这一整年吃了两场羞耻的败仗，在帝国中的威望也是一天不如一天。[[/b]]那些曾经跟着他一路南下的诸侯们，此刻已经在别处物色新的赢家下注了。\n\n眼下，共同的敌人还足以让这两半算作同一场运动。这个理由还能撑多久，已经是个悬而未决的问题，而且随着时间推移，只会越来越悬而未决。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "pisek",
+        relation: {
+          en: "Where Oldřich II of Rožmberk signed his own truce with Žižka on 18 November 1420, on Hussite terms.",
+          cz: "Kde Oldřich II. z Rožmberka podepsal 18. listopadu 1420 se Žižkou vlastní příměří, za husitských podmínek.",
+          zh: "1420年11月18日，奥德日赫二世·罗森贝格就是在这里，按胡斯派的条件跟杰式卡签下了停战协议。",
+        },
+      },
+      {
+        slug: "tabor",
+        relation: {
+          en: "The other half of the movement's own new map, its southern power center now as consolidated as Prague's own northern one.",
+          cz: "Druhá polovina nové mapy hnutí, jeho jižní mocenské centrum teď stejně upevněné jako to pražské na severu.",
+          zh: "这场运动新版图的另外一半，此时它的南方权力中心，已经和北方的布拉格一样，彻底站稳了脚跟。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Old%C5%99ich_II_of_Ro%C5%BEmberk",
+  },
+  // New background card, 2026-09-04, at the user's own request ("简单 轻松
+  // 幽默 通俗地介绍一下皮卡尔派，以及除了圣杯派和塔博尔派之外的其他一些小流派，一笔带过") — a light,
+  // fast survey of Hussite factionalism beyond the two main camps already
+  // established throughout this arc, positioned right after
+  // north-prague-south-tabor-1421 (whose own Pikart-purge paragraph this
+  // directly follows up on). Deliberately kept brief and wry per the
+  // user's own instruction, in contrast to the "serious" tone used for the
+  // war narrative immediately around it.
+  // - Pikart beliefs (denial of Christ's real presence in the Eucharist,
+  //   the ritual as mere symbol, veneration of it as idolatry) and the
+  //   name's own Picardy origin: confirmed via WebSearch/WebFetch of
+  //   cs.wikipedia's own "Pikarti" article. Framed explicitly as the
+  //   reason even Tábor rejected them: it undercut the one demand every
+  //   Hussite faction actually agreed on (the chalice for all, per the
+  //   Four Articles' own second article).
+  // - Chiliasm (failed 1420 Second Coming prediction) and the later,
+  //   more famous "Adamites" name: confirmed via the same sources.
+  //   Deliberately hedged on the lurid orgy/nudism accusations often
+  //   attached to them ("how much of it was real and how much was
+  //   standard-issue heresy-smearing is genuinely hard to untangle") —
+  //   these are disputed/likely-exaggerated claims from hostile
+  //   chroniclers, not asserted as settled fact. The Adamites' own actual
+  //   October 1421 massacre is explicitly left unspoiled for a future
+  //   card, not narrated here.
+  // - Orebites: already an established figure in this file
+  //   (a-promise-kept-too-well-1420 onward); their own 1424 renaming to
+  //   "Sirotci" (Orphans) after Žižka's death confirmed via WebSearch,
+  //   mentioned here as a light forward-hook, not narrated in detail.
+  // - No quotes[], no relatedLandmarks (hard rule for background cards),
+  //   no image.
+  // - Title chosen by the user from four options: "Pick Your Heresy" /
+  //   "Vyber si vlastní kacířství" / "自选你的异端."
+  {
+    slug: "pick-your-heresy-1421",
+    era: "religious-turmoil",
+    startYear: 1421.05,
+    cardType: "background",
+    year: {
+      en: "1421",
+      cz: "1421",
+      zh: "1421年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Pick Your Heresy",
+      cz: "Vyber si vlastní kacířství",
+      zh: "自选你的异端",
+    },
+    hookLine: {
+      en: "Every Hussite agreed the old Church was wrong. Getting them to agree on much else turned out to be the hard part.",
+      cz: "Každý husita souhlasil, že se stará církev mýlila. Přimět je, aby se shodli na čemkoli dalším, byla ta těžší část.",
+      zh: "每个胡斯派信徒都同意旧教会错了。可要让他们在别的事情上达成一致，才是真正的难题。",
+    },
+    summary: {
+      en: "\"Hussite\" was never really one thing. By 1421 it was closer to a big open call for \"how should the Church actually work?\" and half the kingdom had mailed in a different answer.\n\nThe Pikarts sent in the strangest one. Named for the French region of Picardy, where a similar strain of radical mysticism had already taken root, they took the Hussite argument all the way to its logical end: if the Church's own authority to define the sacraments was corrupt, why stop at demanding the chalice for everyone? The Pikarts denied that Christ was even present in the bread and wine at all, calling the whole ritual a symbol and kneeling before it an act of idolatry. That single claim quietly undercut the one thing every Hussite faction, Prague's moderates and Tábor's own radicals alike, had actually agreed on: the fight over who gets the chalice only matters if there's something real inside it. Even Tábor, no stranger to burning things it disapproved of, wanted no part of that.\n\nA harder-line offshoot of the Pikarts went further still, drifting into full chiliasm: Christ's Second Coming had been due in 1420, and when it failed to show, some of them decided the rules of ordinary life no longer applied while they waited. Catholic and Hussite chroniclers alike were only too happy to describe what came next in the most scandalous terms available; how much of it was real and how much was standard-issue heresy-smearing is genuinely hard to untangle at this distance. Their own more famous name, the Adamites, comes later, in an October 1421 chapter still ahead of this one.\n\nEven the movement's more mainstream wings weren't really two teams. The Orebites, out of eastern Bohemia's own Hradec Králové region, were their own third flavor entirely, closer to Prague's moderation than to Tábor's radicalism but proud of their own separate identity all the same; after Žižka's death in 1424 they'd rename themselves the Orphans, and keep fighting under that name for another decade. Everyone agreed the old Church had gotten it wrong. Getting several dozen armed factions to agree on what right looked like instead was another matter entirely.",
+      cz: "\"Husita\" nikdy doopravdy nebylo jedna věc. Do roku 1421 to bylo spíš jako velká otevřená výzva \"jak by měla církev skutečně fungovat?\", a polovina království poslala vlastní jinou odpověď.\n\nNejpodivnější odpověď poslali pikarti. Pojmenovaní po francouzském kraji Pikardie, kde už zakořenil podobný proud radikální mystiky, dotáhli husitský argument až do jeho logického konce: pokud je vlastní autorita církve definovat svátosti zkažená, proč se zastavovat u požadavku kalicha pro všechny? Pikarti popírali, že by byl Kristus v chlebu a víně vůbec přítomen, celý obřad nazývali symbolem a klekání před ním modloslužbou. Tohle jediné tvrzení potichu podkopávalo tu jedinou věc, na které se skutečně shodly všechny husitské frakce, pražští umírnění i táborští radikálové: spor o to, kdo dostane kalich, má smysl jen tehdy, pokud v něm skutečně něco je. Ani Tábor, který se pálení neštítil, o tohle nestál.\n\nJeště tvrdší odnož pikartů zašla dál a sklouzla do plného chiliasmu: Kristův druhý příchod měl přijít v roce 1420, a když se tak nestalo, někteří z nich usoudili, že pravidla běžného života mezitím přestala platit. Katoličtí i husitští kronikáři líčili to, co následovalo, s tou nejskandálnější příchutí, jakou měli po ruce; kolik z toho je pravda a kolik je standardní kacířské pomlouvání, se z tohoto odstupu už těžko rozplétá. Jejich vlastní slavnější jméno, adamité, přijde až později, v kapitole z října 1421, která je teprve před námi.\n\nAni hlavnější křídla hnutí nebyla vlastně jen dva tábory. Orebité, z východočeského Hradecka, byli svou vlastní, třetí příchutí, blíž pražské umírněnosti než táborskému radikalismu, ale hrdí na svou vlastní odlišnou identitu. Po Žižkově smrti v roce 1424 se přejmenovali na sirotky a pod tímhle jménem bojovali ještě další desetiletí. Na tom, že se stará církev mýlila, se shodli všichni. Přimět několik desítek ozbrojených frakcí, aby se shodly na tom, jak by to mělo vypadat správně, byla úplně jiná záležitost.",
+      zh: "\"胡斯派\"从来就不是铁板一块的一件事。到1421年，这更像是一场公开征集：\"教会到底该怎么运作才对？\"结果半个王国都各自寄回了自己的答案。\n\n最奇怪的那份答案，是皮卡尔派寄来的。他们的名字来自法国的皮卡第地区，那里早就扎根了一支类似的激进神秘主义思潮。他们把胡斯派自己的逻辑，一路推到了尽头：既然教会自己定义圣事的权威已经腐败，那凭什么止步于\"人人都该领受圣餐杯\"这一条要求？皮卡尔派干脆否认基督真实临在于面饼与圣酒之中，把整套仪式说成不过是象征，对着它下跪更是偶像崇拜。这一条主张，悄悄掏空了所有胡斯派——布拉格的温和派、塔博尔的激进派——唯一真正达成一致的那个立足点：争\"圣餐杯该给谁\"这件事，得先假设杯子里真的有点什么才有意义。就连从不忌讳烧东西的塔博尔派，都不想跟这个沾边。\n\n皮卡尔派里更极端的一支，走得更远，滑向了彻头彻尾的末世论：基督的二次降临本该在1420年到来，结果没有应验，其中一些人索性认定，等待期间世俗规矩已经不再适用于自己了。天主教和胡斯派两边的编年史作者，都不吝用最耸动的说法描述接下来发生的事；这么多年过去，哪些是真、哪些不过是异端抹黑的标准套路，已经很难分清了。他们后来更出名的名字——亚当派——要到1421年10月那段还没讲到的故事里才会出现。\n\n就连运动里相对主流的那几支，其实也不止两个阵营。来自波希米亚东部赫拉德茨地区的奥列比特人，本身就是完全独立的第三种口味，立场比较接近布拉格的温和派、不如塔博尔那么激进，却依然为自己这份独立身份感到骄傲。1424年杰式卡死后，他们改名为\"孤儿军\"，顶着这个名字又打了将近十年。所有人都同意，旧教会错了。可要让这几十支各自带枪的派系，就\"到底怎么样才算对\"达成一致，完全是另外一回事了。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Pikarti",
   },
 ];
 

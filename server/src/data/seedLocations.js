@@ -25580,14 +25580,17 @@ Myšlenka na památník vznikla u příležitosti 500. výročí bitvy v roce 19
   // (who-are-the-vitkovci-1276 et al.) — flagged explicitly in the prose
   // to head off the obvious name-collision confusion. The battle-day detail
   // (originally: Prague's reinforcements cutting through these vineyards to
-  // outflank the crusader cavalry; revised same day, later, at the user's
-  // own request, to the simpler and better-attested fact that this was the
-  // slope the Austrian/Meissen cavalry themselves stormed up to reach the
-  // hill — see victory-at-vitkov-hill-1420's own dev comments for why the
-  // reinforcement/flanking detail was dropped from that card's prose) is
-  // stated as a standalone fact about this place, not a cross-reference to
-  // the History Timeline card itself, per the standing Location/Timeline
-  // separation rule.
+  // outflank the crusader cavalry; briefly revised the same day to the
+  // simpler claim that this was the slope the Austrian/Meissen cavalry
+  // themselves stormed up; restored 2026-09-03 back to the reinforcement/
+  // flanking version — see victory-at-vitkov-hill-1420's own dev comments
+  // for why, in short: en.wikipedia's own account has the New Town relief
+  // force, not the cavalry, using these vineyards, and that account turned
+  // out to describe the same relief force the primary chronicle quote
+  // names as "about fifty gunners... unarmored peasants... with flails,"
+  // not a competing version of events) is stated as a standalone fact
+  // about this place, not a cross-reference to the History Timeline card
+  // itself, per the standing Location/Timeline separation rule.
   {
     name: 'Vítkov Vineyard Slope',
     slug: 'vinicni-svah-vitkov',
@@ -25602,23 +25605,319 @@ Myšlenka na památník vznikla u příležitosti 500. výročí bitvy v roce 19
 
 The first record of vineyards on this slope goes back to 1348. The hill itself takes its name from one of the vintners who owned land here, a Prague town councillor named Vítek z Hory (a different Vítek entirely from the noble Vítek of Prčice, whose own descendants built a very different kind of legacy further south). Charles IV actively encouraged the planting, ordering vineyards laid out across Prague's hillsides during his own reign, and by the time of Rudolf II the city counted something like two thousand vineyards covering over seven hundred hectares.
 
-The vines were still here on 13 July 1420, the day Austrian and Meissen cavalry stormed straight up this same slope to reach the hill above. Centuries of war, urban sprawl, traffic, weather, and plain neglect steadily wore the city's vineyards down after that, and by the mid-20th century Prague's vine-covered hillsides had all but vanished from the map.
+The vines were still here on 13 July 1420, the day Prague's own reinforcements cut through this same slope to outflank the crusader cavalry and pin them against the cliff above. Centuries of war, urban sprawl, traffic, weather, and plain neglect steadily wore the city's vineyards down after that, and by the mid-20th century Prague's vine-covered hillsides had all but vanished from the map.
 
 🎁 Bonus: this particular patch came back in 2019, replanted as a small fragment of that older landscape, roughly 1,300 square metres and some 686 vines climbing the slope toward the memorial above. It does double duty as a park entrance from Tachovské náměstí and as quiet erosion control, holding the hillside together the same way vineyards here always have.`,
       cz: `Vítejte na Viničním svahu Vítkov, skromném pásu vinné révy přímo na kopci, kde šedesát husitských obránců kdysi zlomilo vojsko v tisících. Středověká Praha tu celou dobu potichu pěstovala víno, aniž by o tom kdekdo věděl.
 
 První zmínka o vinicích na tomhle svahu sahá až do roku 1348. Sám kopec nese jméno po jednom z vinařů, kteří tu vlastnili pozemky, pražském konšelovi jménem Vítek z Hory (jiném Vítkovi, než byl Vítek z Prčice, zakladatel šlechtického rodu, jehož potomci si vybudovali úplně jiný druh dědictví dál na jihu). Karel IV. zakládání vinic aktivně podporoval a za jeho vlády se vinice na pražských svazích vysazovaly cíleně, a do doby Rudolfa II. jich v Praze bylo něco kolem dvou tisíc, na ploše přes sedm set hektarů.
 
-Réva tu rostla ještě 13. července 1420, v den, kdy po tomhle stejném svahu vzhůru zaútočila rakouská a míšeňská jízda, aby se dostala ke kopci nad ním. Staletí válek, rozrůstající se zástavby, dopravy, počasí i prosté zanedbanosti pak pražské vinice postupně sešlapala, a do poloviny 20. století z mapy města prakticky zmizely.
+Réva tu rostla ještě 13. července 1420, v den, kdy se tudy pražské posily prosekaly, aby obešly křižáckou jízdu a sevřely ji u skály nad sebou. Staletí válek, rozrůstající se zástavby, dopravy, počasí i prosté zanedbanosti pak pražské vinice postupně sešlapala, a do poloviny 20. století z mapy města prakticky zmizely.
 
 🎁 Bonus: tenhle konkrétní kousek se vrátil v roce 2019, znovu vysazený jako malý fragment té starší krajiny, na ploše zhruba 1300 metrů čtverečních, s asi 686 keři révy stoupajícími po svahu k památníku nahoře. Slouží zároveň jako vstupní brána do parku od Tachovského náměstí i jako tiché zpevnění svahu, drží kopec pohromadě přesně tak, jako to tu vinice odjakživa dělaly.`,
       zh: `欢迎来到维特科夫葡萄园坡，山坡上一小片葡萄藤，就长在这座山丘上，六十名胡斯守军曾在此击溃了一支数千人的大军。原来，中世纪的布拉格，一直悄悄在这里种着葡萄。
 
 关于这片山坡上葡萄园的最早记载，可以追溯到1348年。这座山丘的名字，就来自一位在此拥有葡萄园地的酿酒人，一位布拉格市议员，名叫维捷克·兹·霍雷（这位维捷克，跟普尔奇采的维捷克并非同一个人，后者是一个贵族世家的开创者，其后人在更南边打下了一份完全不同的家业）。查理四世在位期间，大力推动葡萄园的兴建，下令在布拉格四周山坡上广植葡萄，到鲁道夫二世时期，全城葡萄园已经多达约两千处，占地超过七百公顷。
 
-1420年7月13日那天，这片葡萄藤依然长在这里——那正是奥地利与迈森骑兵沿着这同一道山坡强攻而上、直扑山顶的日子。此后几个世纪里，战乱、城市扩张、交通建设、天气以及无人打理，逐渐蚕食了布拉格的葡萄园，到20世纪中叶，布拉格城内那些满是葡萄藤的山坡，几乎已经从地图上彻底消失了。
+1420年7月13日那天，这片葡萄藤依然长在这里——那正是布拉格援军沿着这道山坡包抄、把十字军骑兵逼到山崖边的日子。此后几个世纪里，战乱、城市扩张、交通建设、天气以及无人打理，逐渐蚕食了布拉格的葡萄园，到20世纪中叶，布拉格城内那些满是葡萄藤的山坡，几乎已经从地图上彻底消失了。
 
 🎁 彩蛋：这一小片葡萄园在2019年重新种下，作为那片旧日风景的一小块残迹复原，占地约1300平方米，约686株葡萄藤沿着山坡一路爬向山顶的纪念碑。它如今身兼两职：既是从塔霍夫斯凯广场进入公园的一道优雅入口，也在默默地稳固着这片山坡，就像这里的葡萄园历来所做的那样。`,
+    },
+  },
+  {
+    // Added 2026-09-03, user-supplied name and coordinates. A standalone
+    // natural monument near Kamenický Šenov (Liberec region) — not itself
+    // a town, so the "one card per non-Prague city" scope rule doesn't
+    // apply; treated like the standing out-of-town-landmark exception
+    // (Bezděz castle, etc.). English Wikipedia puts it ~80km north of
+    // Prague, comfortably inside normal day-trip range. Facts (30-million-
+    // year basalt columns, 18th-c. quarry, 1895 first protection / 1948
+    // mining ban / 1953 National Natural Monument status, 1952 Pyšná
+    // princezna filming) confirmed via WebSearch.
+    name: 'Panská Skála',
+    slug: 'panska-skala',
+    localizedNames: { cz: 'Panská skála', zh: '潘斯卡岩' },
+    labels: ['nature', 'geology'],
+    coordinates: { lat: 50.76946058332551, lng: 14.484789737353044 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Pansk%C3%A1_sk%C3%A1la',
+    description: {
+      en: `Somewhere between "geology" and "special effect" sits a hillside of near-perfect stone columns that looks like a pipe organ built for a giant. Nobody designed it — a volcano did, thirty million years ago, and then a quarry crew spent a century accidentally polishing the result into one of Bohemia's strangest views.
+
+Panská skála (literally "Lord's Rock") formed roughly 30 million years ago, when basalt lava cooled slowly enough to crack into tightly packed pentagonal and hexagonal columns, some standing nearly 12 meters tall — the same kind of formation, on a smaller scale, as Northern Ireland's Giant's Causeway. A quarry operated here from at least the 18th century, cutting building stone out of the hillside and, without particularly meaning to, exposing one of the country's most striking examples of columnar basalt jointing. Locals nicknamed it Varhany, "the Organ," for its resemblance to a wall of vertical pipes.
+
+The site's scientific value was recognized early: it became one of Bohemia's first protected geological monuments in 1895, quarrying was formally banned in 1948, and it was declared a National Nature Monument in 1953. Its fame only grew from there — the 1952 Czech fairy-tale film Pyšná princezna (The Proud Princess) filmed several scenes among the columns, introducing generations of Czech children to a landscape most of them never actually visited.
+
+🎁 Bonus: 30 million years to grow the columns, roughly two centuries of quarrying to reveal them, and one children's fairy tale to make them famous — Panská skála's own timeline runs backwards from how most Czech landmarks get built.`,
+
+      cz: `Někde mezi "geologií" a "trikovým efektem" leží svah téměř dokonalých kamenných sloupů, který vypadá jako varhany postavené pro obra. Nikdo ho takhle nenavrhl — postarala se o to sopka před třiceti miliony let, a pak jedna kamenická parta strávila celé století tím, že výsledek nechtěně vyleštila do jednoho z nejpodivnějších výhledů v Čechách.
+
+Panská skála vznikla zhruba před 30 miliony let, když se čedičová láva chladla dost pomalu na to, aby popraskala do těsně vedle sebe stojících pěti- a šestibokých sloupů, některé z nich vysoké téměř 12 metrů — v menším měřítku podobná formace jako severoirská Giant's Causeway. Lom tu fungoval přinejmenším od 18. století a těžil stavební kámen ze svahu — a bez zvláštního úmyslu tím odkryl jeden z nejnápadnějších příkladů čedičové sloupcovité odlučnosti v celé zemi. Místní mu přezdívali Varhany, protože připomínal stěnu svisle postavených píšťal.
+
+Vědecká hodnota lokality byla rozpoznána brzy: v roce 1895 se stala jednou z prvních chráněných geologických památek v Čechách, těžba tu byla formálně zakázána v roce 1948 a v roce 1953 byla vyhlášena národní přírodní památkou. Její sláva od té doby jen rostla — v roce 1952 se mezi sloupy natáčelo několik scén pohádky Pyšná princezna, díky čemuž se s touto krajinou seznámily generace českých dětí, z nichž většina ji ve skutečnosti nikdy nenavštívila.
+
+🎁 Bonus: 30 milionů let na vyrostení sloupů, zhruba dvě století těžby na jejich odkrytí a jedna dětská pohádka na proslavení — časová osa Panské skály běží přesně obráceně, než jak se obvykle staví české památky.`,
+
+      zh: `在"地质奇观"和"特效场景"之间，有一面几乎完美排列的石柱山坡，看上去像是专为巨人打造的一台管风琴。这可不是谁设计出来的——是一座火山在三千万年前的杰作，后来一伙采石工人又花了整整一个世纪，在不经意间把它打磨成了波希米亚最奇特的风景之一。
+
+潘斯卡岩大约形成于三千万年前，玄武岩熔岩冷却得足够缓慢，裂成了一根根紧密排列的五边形和六边形石柱，有些高达近12米——规模略小一些的话，跟北爱尔兰的巨人堤在成因上如出一辙。至少从18世纪起，这里就有采石场在山坡上开采建筑用石——采石工人并非有意为之，却意外揭露出全国最引人注目的玄武岩柱状节理之一。当地人给它起了个绰号叫"管风琴"，因为它看起来就像一整面竖立的风琴管。
+
+这处遗址的科学价值很早就得到认可：1895年，它成为波希米亚最早受保护的地质古迹之一；1948年，采石活动被正式禁止；1953年，它被列为国家自然古迹。此后它的名气只增不减——1952年，捷克童话电影《骄傲的公主》（Pyšná princezna）在这片石柱间取景拍摄了好几个场景，让好几代捷克孩子认识了这片景观，尽管他们中大多数其实从未亲自来过。
+
+🎁 彩蛋：石柱长成花了三千万年，采石揭露出它们又花了大约两个世纪，而让它们真正出名，只用了一部儿童童话电影——潘斯卡岩自己的时间线，恰好和大多数捷克名胜的"建成方式"反着来。`,
+    },
+  },
+  {
+    // Added 2026-09-03, user-supplied name (Protiatomový bunkr Bezovka /
+    // Parukářka) and coordinates. Prague location, so the non-Prague
+    // one-card-per-city rule doesn't apply. Same category as the existing
+    // `kryt-folimanka` entry (labels/rarity matched to that precedent).
+    // Facts (built 1950-55, civil-defense program, named after the
+    // Bezovka homestead, five access corridors + two ventilation-tower
+    // emergency exits, 4-tonne blast doors, 2-3m walls, ~5,000-person
+    // original design capacity vs. ~half that under modern hygiene
+    // standards, current partial museum/climbing-wall/music-club use)
+    // confirmed via WebSearch.
+    name: 'Bezovka Shelter',
+    slug: 'bunkr-bezovka',
+    localizedNames: { cz: 'Protiatomový bunkr Bezovka', zh: '贝佐夫卡防空掩体' },
+    labels: ['communism', 'historical', 'hidden-gem'],
+    coordinates: { lat: 50.0843197701164, lng: 14.458016990535182 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Protiatomov%C3%BD_bunkr_Paruk%C3%A1%C5%99ka',
+    description: {
+      en: `Prague's largest anti-nuclear shelter sits under a city park that most joggers cross without ever suspecting what's beneath their feet — four tons of steel, three meters of concrete, and enough space, on paper, for a small town's worth of people.
+
+Built between 1950 and 1955 as part of Czechoslovakia's Cold War civil-defense program, the complex burrows into the hill beneath Parukářka park in Žižkov and takes its name, Bezovka, from a homestead that once stood nearby. Five separate access corridors and two ventilation towers, doubling as emergency exits, lead down more than eighty steps to a warren of rooms sealed behind four-tonne blast doors, walls two to three meters thick, and its own independent power, water, and air supply. It was designed to shelter roughly 5,000 people in an emergency; today's stricter hygiene standards put the realistic figure closer to half that.
+
+Part of the shelter has never stopped doing its original job — a caretaker keeps a portion permanently ready for use, and the Czech Police and a mobile carrier still lease storage space underground. The rest has found gentler tenants: a climbing wall, a music club, and a small Cold War museum now occupy passages built for a war that, fortunately, never came.
+
+🎁 Bonus: the armored doors alone weigh four tons apiece — heavier than the small tank that couldn't have gotten past them anyway, since there was never a road down here to begin with.`,
+
+      cz: `Největší pražský protiatomový kryt leží pod městským parkem, kterým denně proběhne spousta běžců, aniž by tušili, co mají pod nohama — čtyři tuny oceli, tři metry betonu a na papíře dost místa pro obyvatelstvo malého města.
+
+Komplex vznikl v letech 1950 až 1955 jako součást československého systému civilní obrany za studené války a zavrtává se do kopce pod žižkovským parkem Parukářka; jméno Bezovka nese po usedlosti, která tu kdysi stávala. Pět samostatných přístupových chodeb a dvě odvětrávací věže, použitelné i jako nouzové východy, vedou přes osmdesát schodů dolů do spleti místností uzavřených čtyřtunovými tlakovými dveřmi, se zdmi tlustými dva až tři metry a vlastním nezávislým zdrojem elektřiny, vody i vzduchu. Kryt byl navržen tak, aby v případě nouze pojal zhruba 5 000 lidí; dnešní přísnější hygienické normy tohle číslo reálně snižují zhruba na polovinu.
+
+Část krytu svou původní práci nikdy nepřestala dělat — správce udržuje jeho část trvale připravenou k použití a policie ČR i jeden mobilní operátor si tu pod zemí dodnes pronajímají skladovací prostory. Zbytek si našel mírumilovnější nájemníky: lezeckou stěnu, hudební klub a malé muzeum studené války, které dnes obývají chodby postavené pro válku, jež naštěstí nikdy nepřišla.
+
+🎁 Bonus: samotné pancéřové dveře váží čtyři tuny kus — tedy víc než malý tank, který by se sem stejně nikdy nedostal, protože dolů sem žádná silnice nikdy nevedla.`,
+
+      zh: `布拉格最大的防核掩体，就藏在一座城市公园的地下——每天有无数跑步的人从上面经过，却完全想不到脚下埋着四吨重的钢门、三米厚的混凝土，以及理论上足以容纳一整座小镇人口的空间。
+
+这座建筑群于1950年至1955年间建成，是捷克斯洛伐克冷战时期民防体系的一部分，深埋在日什科夫（Žižkov）帕鲁卡日卡（Parukářka）公园下方的山体里；"贝佐夫卡"（Bezovka）这个名字，来自附近曾经存在过的一处农舍。五条独立的通道和两座通风塔（同时兼作紧急出口）通向地下，沿着八十多级台阶而下，是一整片被四吨重防爆门密封起来的房间，墙壁厚达两到三米，还配备了独立的供电、供水和通风系统。它最初设计可在紧急情况下容纳约5000人，按今天更严格的卫生标准计算，实际可容纳人数大约要打个对折。
+
+这座掩体的一部分从未真正"退休"——一名管理员至今仍让其中一部分保持随时可用的状态，捷克警方和一家移动运营商也仍在地下租用仓储空间。剩下的空间则找到了更平和的"租客"：攀岩墙、音乐俱乐部，还有一座小小的冷战博物馆，如今占据着当年为一场——所幸——从未真正到来的战争而修建的通道。
+
+🎁 彩蛋：光是那扇装甲门就重达四吨——比一辆小型坦克还沉，不过这倒也无所谓，因为这里从头到尾就没修过能让坦克开下来的路。`,
+    },
+  },
+  {
+    // Added 2026-09-03, user-supplied name (Zámek Vinoř) and coordinates.
+    // Prague location (Praha 9-Vinoř), so the non-Prague one-card rule
+    // doesn't apply. Facts (medieval Vyšehrad Chapter/burgher ownership,
+    // Černín family 17th c.-1918, 1719-1724 Kaňka Baroque rebuild, Franz
+    // Ferdinand/Wilhelm II/Archduke Karl as recorded guests, current
+    // Ministry of Interior use with no public access, Vinořský park as
+    // the former chateau garden, protected nature reserve since 1982)
+    // confirmed via WebSearch.
+    name: 'Vinoř Chateau',
+    slug: 'zamek-vinor',
+    localizedNames: { cz: 'Zámek Vinoř', zh: '维诺日城堡' },
+    labels: ['palace', 'historical'],
+    coordinates: { lat: 50.14099368443793, lng: 14.578549191372609 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Vino%C5%99_(z%C3%A1mek)',
+    description: {
+      en: `A Baroque chateau that once hosted an archduke, a German emperor, and the man whose assassination started the First World War now spends its days doing paperwork for the Czech Ministry of the Interior — no tours, no ticket booth, just a government office behind a very handsome 18th-century facade.
+
+The estate's early history belonged to the Church: medieval Vinoř was property of Prague's Vyšehrad Chapter before passing to Prague's own burghers, and from the 17th century onward to the noble Černín family, who held it until 1918. Its current striking form dates to a 1719–1724 rebuilding by František Maxmilián Kaňka, the Černíns' own court architect — he raised the structure, added new vaulting, and framed it with an honorary courtyard of service buildings. In its early-20th-century heyday, the chateau's recorded guests reportedly included Archduke Franz Ferdinand d'Este, German Emperor Wilhelm II, and Archduke Karl, the future last Habsburg emperor.
+
+When Czechoslovakia was founded in 1918, the Černíns' long tenure ended, and the chateau eventually passed into state hands, where it remains today as ministry offices closed to casual visitors. The surrounding grounds tell a slightly kinder story: the Černíns' own 18th-century chateau park survives as Vinořský park, redesigned as an English-style landscape garden in the 19th century and protected as a nature reserve since 1982 — free, open, and considerably easier to visit than the building it was built to complement.
+
+🎁 Bonus: the chateau kept its own chapel of St. John of Nepomuk on the grounds — a fittingly Baroque touch for a building that spent the 20th century quietly trading noble guests for filing cabinets.`,
+
+      cz: `Barokní zámek, který kdysi hostil arcivévodu, německého císaře a muže, jehož atentát rozpoutal první světovou válku, dnes tráví dny vyřizováním papírování pro české ministerstvo vnitra — žádné prohlídky, žádná pokladna, jen úřad schovaný za velmi pohlednou fasádou z 18. století.
+
+Rané dějiny panství patřily církvi: středověká Vinoř byla majetkem pražské vyšehradské kapituly, než přešla na pražské měšťany a od 17. století na šlechtický rod Černínů, kteří ji drželi až do roku 1918. Dnešní nápadnou podobu získal zámek přestavbou v letech 1719–1724 pod vedením Františka Maxmiliána Kaňky, dvorního architekta Černínů — zvýšil budovu, přidal nové klenby a orámoval ji čestným dvorem hospodářských budov. Ve své zámecké slávě na počátku 20. století hostil podle dochovaných záznamů mimo jiné arcivévodu Františka Ferdinanda d'Este, německého císaře Viléma II. a arcivévodu Karla, budoucího posledního habsburského císaře.
+
+Když v roce 1918 vzniklo Československo, dlouhá éra Černínů skončila a zámek nakonec přešel do rukou státu, kde slouží dodnes jako ministerské kanceláře uzavřené běžným návštěvníkům. Okolní pozemky vyprávějí o něco laskavější příběh: bývalý zámecký park Černínů z 18. století přežil jako Vinořský park, v 19. století přetvořený do podoby anglického krajinářského parku a od roku 1982 chráněný jako přírodní rezervace — zdarma přístupný a podstatně snáz navštívitelný než budova, které měl kdysi dělat kulisu.
+
+🎁 Bonus: na pozemku zámku stála i vlastní kaple svatého Jana Nepomuckého — vhodně barokní detail pro budovu, která celé 20. století potichu vyměňovala urozené hosty za pořadače se šanony.`,
+
+      zh: `这座巴洛克城堡曾接待过一位大公、一位德国皇帝，还有那位遇刺引发第一次世界大战的男人——如今，它的日常却是替捷克内政部处理文书工作：没有导览，没有售票处，一副18世纪的漂亮外墙背后，只是一间普通的政府办公室。
+
+这处庄园早期的历史属于教会：中世纪的维诺日曾是布拉格维谢赫拉德教士团的产业，后来转归布拉格市民所有，从17世纪起又归贵族切尔宁（Černín）家族所有，一直持续到1918年。今天这副引人注目的模样，来自1719年至1724年间的一次改建，主持者是切尔宁家族的宫廷建筑师弗兰蒂谢克·马克西米利安·卡尼卡（František Maxmilián Kaňka）——他加高了主体建筑，增建了新的拱顶，还用一圈附属用房围出了一座荣誉庭院。20世纪初，城堡最风光的时候，据记载曾接待过弗朗茨·斐迪南大公、德国皇帝威廉二世，以及后来成为哈布斯堡王朝末代皇帝的卡尔大公。
+
+1918年捷克斯洛伐克建国后，切尔宁家族的长期统治宣告结束，城堡最终落入国家手中，如今仍是内政部的办公场所，不对普通游客开放。周围的园林讲述着一个稍微友善一点的故事：切尔宁家族18世纪建立的城堡花园，如今作为"维诺日公园"（Vinořský park）保留了下来，19世纪被改造成英式风景园林，自1982年起被列为自然保护区——免费开放，比它当初陪衬的那座城堡好逛得多。
+
+🎁 彩蛋：城堡的园区里还曾有一座属于自己的圣约翰·内波穆克礼拜堂——对于一座整个20世纪都在悄悄用达官贵人换取文件柜的建筑来说，这倒是个恰如其分的巴洛克式细节。`,
+    },
+  },
+  {
+    // Added 2026-09-03, user-supplied name (Pomník bratří Čapků) and
+    // coordinates (náměstí Míru, Vinohrady). Prague location. Facts
+    // (Karel's R.U.R. coining "robot" but crediting brother Josef, both
+    // living in Vinohrady, Karel's Dec. 1938 pneumonia death, Josef's 1939
+    // arrest and 1945 Bergen-Belsen death, sculptor Pavel Opočenský's
+    // diorite block with names drilled through from opposite faces, 1947
+    // first proposal / 1988 competition with no winner / 1990 cornerstone
+    // / 1995 unveiling) confirmed via WebSearch. Solemn detail (Josef's
+    // camp death) stated plainly, no joke attached to that specific fact,
+    // consistent with how this project already handles WWII content
+    // inside an otherwise lighter-toned card.
+    name: 'Monument to the Čapek Brothers',
+    slug: 'pomnik-bratri-capku',
+    localizedNames: { cz: 'Pomník bratří Čapků', zh: '恰佩克兄弟纪念碑' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.075731750365165, lng: 14.436461526638917 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pomn%C3%ADk_brat%C5%99%C3%AD_%C4%8Capk%C5%AF_(Praha)',
+    description: {
+      en: `One brother gave the world a word so useful that most people who use it have no idea it started life in a Czech play. The other brother is the one who actually came up with it. A three-meter block of stone on náměstí Míru now carries both their names, drilled straight through the rock.
+
+Karel Čapek's 1920 play R.U.R. introduced the word "robot" to the world, but Karel himself always credited his older brother Josef, a painter and writer in his own right, with actually coining it. The two collaborated across their careers, Karel as Czechoslovakia's most internationally famous interwar writer, Josef as a leading Cubist painter and illustrator, both living in Vinohrady, the neighborhood this monument now stands in. Their stories ended within months of each other but nothing alike: Karel died of pneumonia on Christmas Day 1938, spared by illness from having to watch the Nazi occupation that followed months later; Josef, arrested as an anti-fascist in 1939, spent six years in concentration camps and died at Bergen-Belsen in 1945, just weeks before its liberation.
+
+The monument itself took decades to arrive. The Čapek Brothers Society first proposed one in 1947, a 1988 design competition ended without a winning entry, and it was only after the fall of communism that the project found its final form: sculptor Pavel Opočenský's diorite block, its two names bored through from opposite faces so each is only fully legible from its own side. The cornerstone was laid in 1990, and the finished monument was unveiled in 1995.
+
+🎁 Bonus: the two names never actually meet inside the stone — read from either side, you see only one brother's name at a time, drilled clean through toward the other, which feels like exactly the right way to commemorate two men whose lives ran so closely parallel and ended so differently.`,
+
+      cz: `Jeden bratr dal světu slovo tak užitečné, že většina lidí, kteří ho používají, netuší, že vzniklo v jedné české divadelní hře. Druhý bratr je ten, kdo ho ve skutečnosti vymyslel. Třímetrový kamenný blok na náměstí Míru dnes nese jména obou, provrtaná přímo skrz kámen.
+
+Hra Karla Čapka R.U.R. z roku 1920 uvedla do světa slovo "robot" — sám Karel ale vždy tvrdil, že ho ve skutečnosti vymyslel jeho starší bratr Josef, sám o sobě malíř a spisovatel. Oba bratři spolupracovali napříč svými kariérami: Karel jako mezinárodně nejznámější meziválečný český spisovatel, Josef jako přední kubistický malíř a ilustrátor, oba žili na Vinohradech, ve čtvrti, kde dnes tento pomník stojí. Jejich příběhy skončily v rozmezí pár měsíců, ale naprosto odlišně: Karel zemřel na zápal plic na Boží hod 1938, nemoc ho ušetřila toho, aby musel sledovat nacistickou okupaci, která přišla o pár měsíců později; Josef, zatčený jako antifašista v roce 1939, strávil šest let v koncentračních táborech a zemřel v Bergen-Belsenu v roce 1945, jen pár týdnů před jeho osvobozením.
+
+Samotnému pomníku trvalo desítky let, než vznikl. Společnost bratří Čapků ho poprvé navrhla už v roce 1947, soutěž na návrh z roku 1988 skončila bez vítězného díla a svou konečnou podobu projekt našel až po pádu komunismu: dioritový blok sochaře Pavla Opočenského, jehož obě jména jsou provrtaná z protilehlých stran tak, že každé je celé čitelné jen ze své vlastní strany. Základní kámen byl položen v roce 1990, hotový pomník byl odhalen v roce 1995.
+
+🎁 Bonus: obě jména se v kameni ve skutečnosti nikdy nesetkají — ať se díváte z kterékoli strany, vidíte vždy jen jméno jednoho bratra, provrtané čistě skrz směrem k tomu druhému, což působí jako přesně ten správný způsob, jak uctít dva muže, jejichž životy běžely tak blízko sebe a skončily tak odlišně.`,
+
+      zh: `一个兄弟给了世界一个词，好用到大多数人根本不知道它最早出自一部捷克戏剧。另一个兄弟才是真正想出这个词的人。和平广场（náměstí Míru）上一块三米高的石碑，如今贯穿石头刻下了两人的名字。
+
+卡雷尔·恰佩克1920年的剧作《罗素姆万能机器人》（R.U.R.）把"机器人"（robot）这个词带给了全世界——但卡雷尔本人一直坚持，真正想出这个词的其实是他的哥哥约瑟夫，约瑟夫本人也是一位画家和作家。两兄弟一生在各自的领域里始终有交集：卡雷尔是两次世界大战之间捷克斯洛伐克在国际上最知名的作家，约瑟夫则是重要的立体主义画家兼插画家，两人都住在维诺赫拉迪（Vinohrady），也就是这座纪念碑如今所在的街区。他们的人生结局相隔不过几个月，境遇却截然不同：卡雷尔1938年圣诞节死于肺炎，一场疾病让他躲过了几个月后到来的纳粹占领；约瑟夫则在1939年以反法西斯分子的身份被捕，在集中营里度过了六年，1945年死于贝尔根-贝尔森集中营，距离那里获解放只差几周。
+
+这座纪念碑本身花了几十年才落成。恰佩克兄弟协会早在1947年就首次提出建碑设想，1988年的设计竞赛却没能选出获胜方案，直到共产主义政权垮台后，这个项目才找到了最终的样子：雕塑家帕维尔·奥波琴斯基（Pavel Opočenský）设计的一块闪长岩石碑，两人的名字分别从相对的两面钻刻穿透石头，因此每一面完整可读的都只有一个人的名字。1990年奠基，纪念碑最终于1995年落成揭幕。
+
+🎁 彩蛋：石头上的两个名字其实从未真正"相遇"——不管从哪一面看，你每次都只能看到其中一个兄弟的名字，干净利落地贯穿石头指向另一边，用这种方式纪念两个人生轨迹如此接近、结局却如此不同的兄弟，倒也恰如其分。`,
+    },
+  },
+  {
+    // Added 2026-09-03, user-supplied name and coordinates. Non-Prague
+    // city — per the standing scope rule this gets exactly one Location
+    // card treated as a single day-trip destination (Ústí nad Labem
+    // template/tier: same North Bohemia river-city profile, `mythic`
+    // rarity, ['city','historical'] labels), not a sub-landmark split for
+    // the castle/Rose Garden. Facts (Přemyslid-era river-crossing fortress,
+    // 1128 first written mention, Přemysl Otakar II's royal-town founding
+    // pre-1283, Renaissance rebuild, Thun family ownership 1628-1932,
+    // Baroque rebuilds, Rose Garden founded late 17th c./gutted under
+    // Napoleon/revived as a rosarium in 1881, 1932 sale to the
+    // Czechoslovak state and use as army barracks, 1991 return to city
+    // ownership, Bohemian Switzerland gateway role) confirmed via
+    // WebSearch. Region's pre-1945 majority-German-speaking borderland
+    // history noted briefly and neutrally rather than skipped, per the
+    // 20th-century tone pullback — not played for a joke.
+    name: 'Děčín',
+    slug: 'decin',
+    localizedNames: { cz: 'Děčín', zh: '杰钦' },
+    labels: ['city', 'historical'],
+    coordinates: { lat: 50.77356263379112, lng: 14.200758316606665 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/D%C4%9B%C4%8D%C3%ADn',
+    description: {
+      en: `Děčín has spent its entire existence doing one job: watching the point where the Elbe River slices through a wall of sandstone mountains on its way out of Bohemia. A fortress has stood guard over that gap for over a thousand years, which is a long tenure even by Czech castle standards.
+
+A Přemyslid stronghold guarded this river crossing from at least the 10th century — the settlement below it gets its first written mention in 1128 — and King Přemysl Otakar II founded a proper royal town on the south side of the castle rock in the second half of the 13th century, formalizing royal-town status the place already held before 1283. The original wooden-and-stone fort was gradually rebuilt into a Renaissance palace, changing hands among Bohemian noble families for centuries before landing, in 1628, with the Thun family — Tyrolean nobles who would hold Děčín for the next three hundred years.
+
+The Thuns twice rebuilt the castle in Baroque style, and in the late 17th century laid out what's now Děčín's best-known feature: the Rose Garden, a terraced garden above the town framed by a frescoed garden hall and a sculpture-lined gloriette. Napoleonic-era fortification work tore out much of its original decoration, but the garden found new fame in 1881, when a fresh rosarium made it one of the most celebrated rose gardens anywhere in the Habsburg Monarchy. Financial pressure forced the Thuns to sell the castle to the Czechoslovak state in 1932, and it spent the following decades as an army barracks — a stretch of use that, combined with the region's own difficult history as a majority German-speaking borderland before 1945, left the building in poor shape by the time the city of Děčín finally reclaimed it in 1991 and began a long restoration.
+
+Today Děčín functions mainly as the gateway to Bohemian Switzerland, the sandstone country of gorges, plateaus, and rock arches stretching north toward the German border, with the Elbe still carrying river traffic through the same gap the original fortress was built to watch.
+
+🎁 Bonus: the Rose Garden's own name has outlived its roses more than once — cleared out under Napoleon, replanted from scratch in 1881 — proof that a garden, unlike a castle, can be torn up and simply started over.`,
+
+      cz: `Děčín celou svou existenci dělá jednu jedinou práci: hlídá místo, kde se Labe prořezává skrz stěnu pískovcových hor na cestě z Čech ven. Nad touto soutěskou stojí na stráži pevnost už přes tisíc let, což je i na české poměry pořádně dlouhá služba.
+
+Přemyslovská tvrz hlídala tento říční brod přinejmenším od 10. století — osada pod ní je poprvé písemně doložena v roce 1128 — a král Přemysl Otakar II. ve druhé polovině 13. století založil na jižní straně hradní skály řádné královské město, čímž formalizoval status královského města, který místo drželo už před rokem 1283. Původní dřevěná a kamenná tvrz se postupně proměnila v renesanční palác a po staletí procházela z rukou do rukou mezi českými šlechtickými rody, než v roce 1628 skončila u rodu Thunů — tyrolských šlechticů, kteří Děčín drželi následujících tři sta let.
+
+Thunové zámek dvakrát přestavěli v barokním stylu a na konci 17. století založili to, co je dnes nejznámějším rysem Děčína: Růžovou zahradu, terasovitou zahradu nad městem, orámovanou freskovou zahradní síní a glorietem lemovaným sochami. Napoleonské opevňovací práce zničily velkou část její původní výzdoby, ale zahrada našla novou slávu v roce 1881, kdy z ní nový rosarium udělal jednu z nejobdivovanějších růžových zahrad v celé habsburské monarchii. Finanční tíseň donutila Thuny prodat zámek československému státu v roce 1932 a následující desetiletí sloužil jako vojenská kasárna — období, které ve spojení s obtížnou historií regionu, jenž byl až do roku 1945 převážně německy mluvícím pohraničím, zanechalo budovu ve špatném stavu, než si ji město Děčín konečně v roce 1991 vzalo zpět a zahájilo dlouhou obnovu.
+
+Dnes slouží Děčín hlavně jako brána do Českého Švýcarska, pískovcové krajiny soutěsek, plošin a skalních bran táhnoucí se na sever k německým hranicím, zatímco Labe stále vede říční dopravu stejnou soutěskou, kterou měla původní tvrz hlídat.
+
+🎁 Bonus: jméno Růžové zahrady přežilo své vlastní růže víckrát než jednou — za Napoleona ji vyklidili, v roce 1881 ji vysadili úplně znovu — důkaz, že zahradu lze na rozdíl od hradu prostě zbourat a začít znovu.`,
+
+      zh: `杰钦（Děčín）自诞生以来，一直只做一件事：守护易北河劈开一整面砂岩山脉、流出波希米亚的那个缺口。一座要塞在这道峡口上站岗已超过千年，就算按捷克城堡的标准，这份"任期"也相当漫长。
+
+至少从10世纪起，一座普热米斯尔王朝的要塞就守卫着这处渡口——山下的聚落最早见于1128年的文献记载——13世纪下半叶，普热米斯尔·奥托卡二世国王又在城堡岩下的南侧建立了一座正式的王家城镇，将这里早在1283年之前就已拥有的王家城镇地位正式确立下来。最初的木石要塞逐渐改建成一座文艺复兴风格的宫殿，几个世纪里几经易主，辗转于多个波希米亚贵族家族之间，直到1628年落入图恩（Thun）家族之手——这个来自蒂罗尔的贵族家族此后统治杰钦长达三百年。
+
+图恩家族两次将城堡改建为巴洛克风格，并在17世纪末建起了如今杰钦最知名的景观：玫瑰花园（Růžová zahrada），一座俯瞰全城的梯田式花园，两端分别以壁画装饰的花园厅和雕像环绕的观景亭收尾。拿破仑时期的城防工程拆毁了花园大部分原有的装饰，但1881年，一座全新的玫瑰苗圃让它重获盛名，一跃成为整个哈布斯堡君主国最负盛名的玫瑰园之一。1932年，财务困境迫使图恩家族将城堡卖给了捷克斯洛伐克国家，此后数十年间它一直被用作军营——再加上这一地区在1945年之前长期是以德语居民为主的边境地带，历史本就复杂，种种因素让这座建筑一直破败失修，直到1991年杰钦市终于将其收回，才开始了漫长的修复工程。
+
+如今的杰钦，主要扮演着"波希米亚瑞士"（České Švýcarsko）的门户角色——那是一片峡谷、台地和天然石拱交错的砂岩地带，一路向北延伸至德国边境；易北河至今仍沿着当年那座要塞所守护的同一道峡口，承载着往来的水运。
+
+🎁 彩蛋：玫瑰花园的名字，比它自己的玫瑰"活"得更久，而且不止一次——拿破仑时期被夷为平地，1881年又从头栽种——这也证明了一件事：花园不像城堡，拆了大不了从零再种一遍。`,
+    },
+  },
+  {
+    // New location, 2026-09-04, added specifically as a relatedLandmarks
+    // target for the History Timeline card blood-for-blood-1420 (Žižka's
+    // 12 November 1420 second capture of Prachatice and the massacre that
+    // followed). User-supplied coordinates. Flagging distance per the
+    // project's own scope note: Prachatice sits roughly 150km SW of
+    // Prague, on the far side of even Tábor — well past the usual
+    // day-trip norm, closer to the kladrubsky-klaster precedent (added
+    // ~170km out at the user's own explicit direction) than to the
+    // ordinary Kutná Hora-style satellite-town exception. Added anyway at
+    // the user's explicit request with supplied coordinates, same as that
+    // precedent — flagged, not silently waved through.
+    // Rarity: 'epic' rather than 'legend' — deliberately a notch below the
+    // Tábor/Olomouc/Brno whole-city 'legend' tier, since Prachatice is a
+    // real and historically significant town but smaller and less
+    // nationally pivotal than those three.
+    // Content confirmed via WebSearch (cs.wikipedia's "Dobytí Prachatic
+    // husity", visit.prachatice.eu, prachatice.eu's own history page):
+    // Golden Trail (Zlatá stezka) salt-trade origins, UNESCO tentative
+    // list status for the historic core's sgraffito facades, the 25 April
+    // 1420 surrender and Catholic burghers' flight, the September 1420
+    // return-and-revenge killing of 2-3 remaining Utraquists, and the
+    // 12 November 1420 second capture and massacre (~135 killed in the
+    // streets, ~85 burned alive in St. James Church's sacristy after
+    // refusing a final offer to convert) — the same event narrated from
+    // the History Timeline side in blood-for-blood-1420. The bent iron
+    // window grilles said to mark where victims tried to escape are a
+    // real, still-visible detail per visit.prachatice.eu.
+    name: 'Prachatice',
+    slug: 'prachatice',
+    localizedNames: { cz: 'Prachatice', zh: '普拉哈蒂采' },
+    labels: ['city'],
+    coordinates: { lat: 49.01278421529971, lng: 13.99776105566003 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Prachatice',
+    description: {
+      en: `Welcome to Prachatice, a small South Bohemian town that got rich the old-fashioned way: by sitting on a trade route. This was a stop on the Golden Trail, the medieval road hauling Bavarian salt over the mountains from Passau, and the tolls and trade that passed through here for centuries built the handsome Renaissance town still standing today.
+
+The town's own sgraffito-covered facades, its arcaded main square, and its well-preserved medieval street plan earned Prachatice a spot on UNESCO's tentative World Heritage list. Wealthy burghers once competed to outdo each other with decorated house fronts, and quite a few of them survive intact, giving the whole square a genuinely storybook feel that's rare even by Czech standards.
+
+That prosperity didn't protect the town from the Hussite Wars. In April 1420, Jan Žižka's forces captured Prachatice; its German-speaking Catholic burghers fled rather than accept Hussite terms, and Žižka's own garrison didn't stay long either, tearing down a stretch of the walls before moving on to fight elsewhere. The Catholics who'd fled came back that September and took their own revenge on the town's remaining Utraquist residents. Žižka returned that November with an army, took the town again with barely a fight, and let his own furious Táborites answer in kind: roughly 135 men killed in the streets, another 85 burned alive inside the Church of St. James after refusing one last offer to convert. The church's iron window grilles, still visibly bent today, are said to mark where some of them tried to claw their way out.
+
+🎁 Bonus: the Golden Trail itself is now a marked hiking and cycling route, and Prachatice still bills itself as the gateway to the Šumava mountains, the same forested border range the old salt caravans once had to cross.`,
+
+      cz: `Vítejte v Prachaticích, malém jihočeském městě, které zbohatlo tím nejstarším způsobem: tím, že leželo na obchodní cestě. Tudy vedla Zlatá stezka, středověká cesta, po které se přes hory z Pasova vozila bavorská sůl, a clo i obchod, který tudy po staletí procházel, vystavěly to pěkné renesanční město, které tu stojí dodnes.
+
+Sgrafity zdobené fasády, podloubí na hlavním náměstí i dobře dochovaný středověký půdorys ulic vynesly Prachaticím místo na předběžném seznamu UNESCO. Bohatí měšťané mezi sebou kdysi soupeřili, kdo bude mít zdobenější průčelí, a řada z nich se dochovala celá, takže celé náměstí působí opravdu jako z pohádkové knížky, což je i na české poměry vzácné.
+
+Ten blahobyt město neochránil před husitskými válkami. V dubnu 1420 dobyla Prachatice vojska Jana Žižky; jejich německy mluvící katoličtí měšťané raději uprchli, než aby přijali husitské podmínky, a ani Žižkova posádka se tu dlouho nezdržela, strhla kus hradeb a táhla bojovat jinam. Uprchlí katolíci se toho září vrátili a pomstili se na zbylých podobojích ve městě. Žižka se vrátil s vojskem v listopadu, dobyl město podruhé téměř bez boje a nechal svoje rozzuřené tábority odpovědět stejnou mincí: v ulicích padlo kolem 135 mužů, dalších 85 bylo upáleno zaživa v kostele svatého Jakuba poté, co odmítli poslední nabídku obrátit se na víru. Ohnuté železné mříže v kostelních oknech, dodnes viditelné, prý označují místa, kudy se někteří z nich snažili prodrat ven.
+
+🎁 Bonus: Zlatá stezka je dnes značená turistická a cyklistická trasa a Prachatice se stále hlásí k titulu brány do Šumavy, téhož zalesněného pohraničního pohoří, které kdysi musely překonávat staré solné karavany.`,
+
+      zh: `欢迎来到普拉哈蒂采，一座靠着最古老的方式发家致富的南波希米亚小镇：占住一条贸易路线。这里正是"黄金之路"（Zlatá stezka）的一站——中世纪把巴伐利亚的盐从帕绍翻山运过来的那条商道，几个世纪以来在这里流转的关税与贸易，造就了这座至今仍矗立着的漂亮文艺复兴小城。
+
+镇上那些饰满灰泥浮雕（sgraffito）的房屋立面、主广场的拱廊，还有保存完好的中世纪街道格局，让普拉哈蒂采进了联合国教科文组织的预备名录。富裕的市民们曾争相把自家房子的门面装饰得比邻居更气派，如今不少都完整保留了下来，让整个广场看起来真的像从童话书里走出来的一样，这在捷克也不多见。
+
+可这份富庶并没能保护它躲过胡斯战争。1420年4月，杰式卡的军队攻下了普拉哈蒂采；城里说德语的天主教市民宁愿弃城而逃，也不愿接受胡斯派的条件，杰式卡的驻军也没有久留，拆了一段城墙就转去别处作战了。那年9月，逃走的天主教市民又杀了回来，向城里剩下的圣餐杯派居民寻仇。11月，杰式卡带着军队重返，几乎兵不血刃地再次拿下这座城镇，放任麾下暴怒的塔博尔派以牙还牙：街头约有135人被杀，另有85人在拒绝了最后一次改信的机会后，被活活烧死在圣雅各教堂里。教堂窗户上那些至今仍能看到的弯曲铁栅栏，据说就是当年一些人试图从中挣脱逃生留下的痕迹。
+
+🎁 彩蛋：黄金之路如今是一条标记完善的徒步与骑行路线，普拉哈蒂采至今仍自称"通往舒马瓦山的门户"——正是当年那些运盐商队必须翻越的那片同一道森林边境山脉。`,
     },
   },
 ];
