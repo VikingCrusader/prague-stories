@@ -25920,6 +25920,560 @@ Ten blahobyt město neochránil před husitskými válkami. V dubnu 1420 dobyla 
 🎁 彩蛋：黄金之路如今是一条标记完善的徒步与骑行路线，普拉哈蒂采至今仍自称"通往舒马瓦山的门户"——正是当年那些运盐商队必须翻越的那片同一道森林边境山脉。`,
     },
   },
+  {
+    // Added 2026-09-04, user-supplied coordinates. A small 1984 sculpture
+    // group on Pohořelec, standing on the site of Kurz's villa in Nový
+    // Svět where Tycho Brahe and Johannes Kepler actually lived and
+    // worked together in 1600-01. Distinct from zamek-benatky-nad-jizerou,
+    // which already covers Brahe's earlier Benátky observatory and
+    // Kepler's 3 Feb 1600 arrival there — this card picks up the story
+    // once both men (and the actual working relationship) moved to Prague.
+    name: 'Tycho Brahe and Johannes Kepler Monument',
+    slug: 'tycho-brahe-kepler-monument',
+    localizedNames: { cz: 'Sousoší Tychona Brahe a Johanna Keplera', zh: '第谷·布拉赫与约翰内斯·开普勒纪念雕像' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.087991702633545, lng: 14.38791363959489 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to the Tycho Brahe and Johannes Kepler Monument, a bronze double portrait honoring two of history's most important astronomers — standing together on Pohořelec at almost exactly the spot where the two men once shared a house, a set of star charts, and, by most accounts, a genuinely prickly working relationship.
+
+Tycho Brahe arrived in Bohemia in 1599 at the invitation of Emperor Rudolf II, first settling at Benátky nad Jizerou before Rudolf brought him to Prague and installed him as imperial mathematician. He lodged in the New World (Nový Svět) quarter below Prague Castle, in a house later remembered as Kurz's villa. Johannes Kepler joined him there as an assistant on 3 February 1600, and the two spent a difficult year working side by side — Brahe was famously protective of his own decades of precise observational data, and Kepler, already convinced the planets moved in ways Brahe's own model couldn't explain, chafed at the limited access he was given. Brahe died suddenly in October 1601; Kepler inherited both his post and his data, and used it to work out the laws of planetary motion that eventually put the Sun, not the Earth, at the center of the story.
+
+The monument standing here today is much younger than the astronomers it depicts. Sculptor Josef Vajce, working with architect Vladimír Pýcha, unveiled it in 1984 in front of the newly built Gymnázium Jana Keplera — a school raised on the very ground once occupied by Kurz's villa. It has since become a familiar landmark and a popular meeting point for walking tours through the winding lanes of Nový Svět and Pohořelec.
+
+🎁 Bonus: the monument's calm, shoulder-to-shoulder pose is friendlier than the historical record suggests — Brahe kept his data close and his junior colleague on a tight leash, and it was only Brahe's death that actually handed Kepler the freedom, and the numbers, he needed to become the more famous of the two.`,
+
+      cz: `Vítejte u Sousoší Tychona Brahe a Johanna Keplera, bronzového dvojportrétu připomínajícího dva z nejvýznamnějších astronomů v dějinách — stojí bok po boku na Pohořelci, téměř přesně v místě, kde spolu kdysi sdíleli dům, hvězdné katalogy a, jak se zdá, i dost napjatý pracovní vztah.
+
+Tycho Brahe přijel do Čech v roce 1599 na pozvání císaře Rudolfa II., nejprve se usadil na zámku Benátky nad Jizerou, než ho Rudolf přivedl do Prahy a jmenoval císařským matematikem. Bydlel na Novém Světě pod Pražským hradem, v domě později připomínaném jako Kurzova vila. Johannes Kepler se k němu připojil jako asistent 3. února 1600 a oba muži spolu strávili nesnadný rok — Brahe si žárlivě střežil desítky let vlastních přesných pozorování a Kepler, už tehdy přesvědčený, že planety se nepohybují tak, jak předpokládal Brahův vlastní model, nesl omezený přístup k datům těžce. Brahe náhle zemřel v říjnu 1601; Kepler po něm zdědil jak místo, tak data, a použil je k odvození zákonů pohybu planet, které nakonec do středu příběhu postavily Slunce místo Země.
+
+Sousoší, které tu dnes stojí, je mnohem mladší než astronomové, jež zobrazuje. Sochař Josef Vajce ho spolu s architektem Vladimírem Pýchou odhalil v roce 1984 před nově postaveným Gymnáziem Jana Keplera — školou vyrostlou přesně na místě bývalé Kurzovy vily. Od té doby se stalo důvěrně známým orientačním bodem a oblíbeným místem srazu pro procházky klikatými uličkami Nového Světa a Pohořelce.
+
+🎁 Bonus: klidná póza bok po boku působí smířlivěji, než jak to ve skutečnosti bylo — Brahe si svá data hlídal a mladšího kolegu držel na uzdě, a teprve jeho smrt dala Keplerovi svobodu, a čísla, díky nimž se z něj nakonec stal ten slavnější z dvojice.`,
+
+      zh: `欢迎来到第谷·布拉赫与约翰内斯·开普勒纪念雕像，一座青铜双人像，纪念着历史上两位最重要的天文学家——两人并肩立于波霍热莱茨，差不多正是他们当年共住一处、共享星表，而且据说关系相当紧张的地方。
+
+第谷·布拉赫于1599年应鲁道夫二世皇帝之邀来到波希米亚，起初定居在伊泽拉河畔贝纳特基，之后鲁道夫将他召至布拉格，任命他为宫廷数学家。他住在布拉格城堡脚下的新世界区，那栋房子后来被人们称作库尔兹别墅。1600年2月3日，约翰内斯·开普勒作为助手加入了他，两人共事的这一年过得并不轻松——第谷对自己数十年积累的精密观测数据看得极紧，而早已认定行星运行方式无法用第谷本人的体系解释的开普勒，对这种有限的数据访问权颇感不满。第谷于1601年10月骤然去世，开普勒继承了他的职位与数据，并据此推导出了行星运动定律，最终把太阳而非地球，摆到了故事的中心。
+
+如今立在这里的雕像，其实比它所纪念的两位天文学家年轻得多。雕塑家约瑟夫·瓦伊采与建筑师弗拉基米尔·皮哈合作，于1984年在新建成的扬·开普勒中学门前将其揭幕——这所学校正好建在昔日库尔兹别墅的原址上。从此这里成了新世界与波霍热莱茨蜿蜒街巷间广为人知的地标，也是徒步导览团常用的集合地点。
+
+🎁 彩蛋：雕像里两人并肩而立、气定神闲的姿态，其实比历史上的真实关系融洽得多——第谷把数据攥得死死的，也把这位年轻同事管得死死的，直到他本人去世，开普勒才真正拿到了那些数字与自由，最终成了两人当中更出名的那一个。`,
+    },
+  },
+  {
+    // Added 2026-09-04, user-supplied coordinates. Renaissance palace on
+    // the Castle Steps, Malá Strana, today the Italian Embassy. Jáchym z
+    // Hradce belonged to the Hradec branch of the Vítkovci (see
+    // who-are-the-vitkovci-1276 in the History Timeline) -- mentioned here
+    // as plain biographical fact only, not as a cross-reference to that
+    // card, per the Location/Timeline separation rule.
+    name: 'Palace of the Lords of Hradec',
+    slug: 'palac-panu-z-hradce',
+    localizedNames: { cz: 'Palác pánů z Hradce', zh: '赫拉德茨领主宫' },
+    labels: ['palace', 'historical', 'architecture', 'embassy'],
+    coordinates: { lat: 50.08914652584713, lng: 14.40054080681742 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_p%C3%A1n%C5%AF_z_Hradce',
+    description: {
+      en: `Welcome to the Palace of the Lords of Hradec, a Renaissance mansion on the Castle Steps below Prague Castle that has, over four and a half centuries, been a noble town house, a diplomat's home, an artist's studio, and — for the past hundred years — a genuine slice of Italy in the middle of Malá Strana.
+
+The palace grew out of two older Gothic houses, remodeled from the 1550s onward under the Valdštejn family and then, after 1558, under Jáchym of Hradec — a member of the powerful Hradec branch of the Vítkovci, the same South Bohemian noble clan that also produced the Rožmberks. Between 1563 and 1596, Italian architect Ulrico Aostalli de Sala gave the building its distinctive high-Renaissance face: sgraffito-patterned walls, three unevenly gabled sections, and a suspended passage linking straight onto the Castle Steps outside. Ownership passed to the Slavata family in 1602, who added an early Baroque tower in the 1680s, then to the Kolovrat family in 1701, and finally to the Thun family in 1768, who physically joined the building to the neighboring Kolovrat Palace next door — which is why it still sometimes goes by the combined name Slavata-Kolovrat-Thun Palace today.
+
+Its most famous 20th-century resident wasn't a diplomat at all: painter Alfons Mucha, the man behind some of Art Nouveau's most recognizable posters, lived and worked inside the palace from 1911 to 1924 — the years he spent painting his enormous Slav Epic cycle. The Italian state took over the building in 1924, and it has served as the Italian Embassy in Prague ever since.
+
+🎁 Bonus: a suspended footbridge connects the palace's upper floor directly to the Castle Steps, meaning that for a stretch of the walk up to Prague Castle, visitors are — without necessarily realizing it — passing directly underneath Italian sovereign territory.`,
+
+      cz: `Vítejte v Paláci pánů z Hradce, renesančním domě na Zámeckých schodech pod Pražským hradem, který za čtyři a půl století stihl být šlechtickým městským sídlem, domovem diplomatů, ateliérem malíře a posledních sto let opravdovým kouskem Itálie uprostřed Malé Strany.
+
+Palác vznikl spojením dvou starších gotických domů, přestavovaných od 50. let 16. století za Valdštejnů a poté, od roku 1558, za Jáchyma z Hradce — člena mocné hradecké větve Vítkovců, téhož jihočeského rodu, z něhož vzešli i Rožmberkové. Mezi lety 1563 a 1596 dal budově italský architekt Ulrico Aostalli de Sala její výraznou vrcholně renesanční podobu: sgrafitové fasády, tři nestejně široké štítové úseky a zavěšenou lávku vedoucí přímo na Zámecké schody venku. V roce 1602 palác přešel na rod Slavatů, kteří v 80. letech 17. století přidali raně barokní věž, poté v roce 1701 na Kolovraty a nakonec v roce 1768 na Thuny, kteří budovu fyzicky propojili se sousedním Kolovratským palácem — proto se palác dodnes někdy uvádí pod souhrnným názvem Slavatovský-Kolovratský-Thunovský palác.
+
+Jeho nejslavnějším obyvatelem 20. století přitom nebyl žádný diplomat: malíř Alfons Mucha, autor některých z nejznámějších plakátů secese, v paláci žil a tvořil v letech 1911 až 1924 — právě v době, kdy maloval svůj rozměrný cyklus Slovanská epopej. Italský stát budovu převzal v roce 1924 a od té doby zde sídlí italské velvyslanectví v Praze.
+
+🎁 Bonus: zavěšená lávka spojuje horní patro paláce přímo se Zámeckými schody, takže na části cesty vzhůru k Pražskému hradu procházejí návštěvníci — aniž by si to nutně uvědomovali — přímo pod italským svrchovaným územím.`,
+
+      zh: `欢迎来到赫拉德茨领主宫，一座位于布拉格城堡下方城堡阶梯旁的文艺复兴式宅邸。四个半世纪以来，它先后做过贵族的城中宅邸、外交官的住所、画家的工作室，而过去这一百年间，则成了小城区中一小片名副其实的意大利领土。
+
+这座宫殿由两栋更早的哥特式房屋合并而成，自16世纪50年代起在瓦尔德什坦家族手中开始改建，1558年后又转到赫拉德茨的雅希姆手里——他出身势力庞大的维特科维奇家族赫拉德茨支系，罗森贝格家族也出自这同一个南波希米亚家族。1563年至1596年间，意大利建筑师乌尔里科·阿奥斯塔利·德·萨拉为这座建筑赋予了鲜明的盛期文艺复兴外观：饰满灰泥浮雕的墙面、三段宽窄不一的山墙立面，以及一条悬空通道，直接连到宫外的城堡阶梯上。1602年起，宫殿归斯拉瓦塔家族所有，他们在17世纪80年代加建了一座早期巴洛克风格的塔楼；1701年转到科洛夫拉特家族手中，最终于1768年归图恩家族所有，图恩家族把宫殿与隔壁的科洛夫拉特宫在建筑上连成一体——这也是为什么这座宫殿至今有时仍被合称为"斯拉瓦塔-科洛夫拉特-图恩宫"。
+
+它在20世纪最出名的住客其实并非外交官：新艺术运动最具代表性的一批海报作品的作者、画家阿尔丰斯·穆夏，1911年至1924年间就住在这座宫殿里工作——正是他绘制大型系列画作《斯拉夫史诗》的那些年。1924年，意大利政府接管了这栋建筑，此后它便一直是意大利驻布拉格大使馆的所在地。
+
+🎁 彩蛋：一条悬空通道把宫殿的上层直接连到城堡阶梯上，这意味着游客沿阶梯走向布拉格城堡的途中，有一段路其实是从意大利的主权领土正下方穿过的——尽管大多数人未必意识到这一点。`,
+    },
+  },
+  {
+    // Added 2026-09-05, user-supplied name (Točna Dlabačov) and coordinates.
+    // Prague location (Praha 6-Střešovice, near Strahov), so the non-Prague
+    // one-card rule doesn't apply. Facts (built as one of two turnarounds
+    // serving Strahov Stadium's mass Sokol slets/Spartakiads, entered
+    // service 25 June 1948, red paint vs. the blue Královka loop 250m away,
+    // the 1948 XI. All-Sokol Slet as a mass anti-Communist demonstration
+    // months after the Feb. 1948 coup — Sokol banned soon after and 11,000+
+    // members persecuted, historic tram line 42 based here since 2021,
+    // Bistro Točna café inside a retired tram car since 2022) confirmed via
+    // WebSearch.
+    name: 'Dlabačov Tram Turnaround',
+    slug: 'tocna-dlabacov',
+    localizedNames: { cz: 'Točna Dlabačov', zh: '德拉巴乔夫电车总站' },
+    labels: ['transport', 'historical', 'hidden-gem'],
+    coordinates: { lat: 50.08571116476459, lng: 14.384623160931662 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Tramvajov%C3%A1_smy%C4%8Dka_Dlaba%C4%8Dov',
+    description: {
+      en: `This tram loop was purpose-built to shuttle half a million gymnasts to a stadium rally; these days it mostly shuttles regulars to a coffee counter parked inside a retired tram car. In between, for one uncomfortable afternoon in 1948, it also carried a crowd the new Communist government would rather not have seen.
+
+The turnaround entered service on 25 June 1948, one of a pair built specifically for the Strahov Stadium's mass gymnastics festivals — the Sokol movement's own patriotic slets, staged since the 19th century and drawing crowds in the hundreds of thousands. Three parallel tracks, each with its own platform reached by an iron footbridge, gave it room for 26 trams at once; its ironwork was painted red to distinguish it from its twin, the blue-painted Královka loop 250 metres away. It arrived just in time for the 11th All-Sokol Slet that same summer, and that slet turned out to be far more than gymnastics: four months after the Communist Party's February 1948 coup, half a million Sokol members marched past the reviewing stand and, instead of hailing the new president Klement Gottwald, chanted the name of his ousted predecessor, Edvard Beneš. Gottwald was furious; within a few years the regime banned Sokol outright and persecuted more than eleven thousand of its members.
+
+With Sokol gone, the state-run Spartakiads took over the same choreography — and the same stadium, and the same tram loop — from 1955 onward, this time marching in the Party's honour rather than against it. When the Spartakiad era ended with the fall of communism in 1989–90, Dlabačov lost its purpose along with it, and the loop spent decades doing almost nothing, its pedestrian footbridge eventually closed for safety. It found new life only in 2021, when Prague's transport authority handed it to historic tram line 42, and again in 2022, when a decommissioned tram car parked on one of its tracks reopened as Bistro Točna — a working café where the espresso machine sits roughly where the driver's controls used to be.
+
+🎁 Bonus: the 2022 renovation carefully repainted the ironwork back to its original red, keeping the color rivalry with the blue Královka loop a quarter-kilometre away alive to this day — Prague's most understated derby, decided entirely by paint.`,
+
+      cz: `Tahle tramvajová smyčka vznikla, aby na stadion převezla půl milionu cvičenců najednou; dnes hlavně vozí štamgasty k pultu s kávou zaparkovanému uvnitř vyřazené tramvaje. Mezitím, jedno nepříjemné odpoledne roku 1948, tudy projel i dav, který by nová komunistická vláda raději neviděla.
+
+Točna byla uvedena do provozu 25. června 1948 jako jedna ze dvou smyček postavených speciálně pro masová sletová cvičení na Strahovském stadionu — tedy pro sokolské slety, pořádané od 19. století a přitahující davy v řádu statisíců. Tři paralelní koleje, každá s vlastním nástupištěm dostupným po železné lávce, pojaly najednou 26 tramvají; její kovové prvky byly natřeny na červeno, aby ji odlišily od dvojčete o 250 metrů dál — modře natřené smyčky Královka. Do provozu naskočila právě včas na XI. všesokolský slet téhož léta — a ten slet byl mnohem víc než jen cvičení. Čtyři měsíce po únorovém komunistickém převratu prošlo kolem tribuny půl milionu sokolů, a místo aby zdravili nového prezidenta Klementa Gottwalda, skandovali jméno jeho sesazeného předchůdce Edvarda Beneše. Gottwald zuřil; během několika let komunistický režim Sokol rovnou zakázal a přes jedenáct tisíc jeho členů perzekvoval.
+
+Po zákazu Sokola převzaly stejnou choreografii — i stejný stadion, i stejnou tramvajovou smyčku — od roku 1955 státem organizované spartakiády, tentokrát ve prospěch strany, ne proti ní. Když s pádem komunismu v letech 1989–90 skončila i éra spartakiád, ztratil Dlabačov svůj smysl spolu s nimi a desítky let toho moc nedělal; jeho lávka pro pěší byla nakonec z bezpečnostních důvodů uzavřena. Nový život dostal až v roce 2021, kdy ho pražský dopravní podnik svěřil historické lince 42, a znovu v roce 2022, kdy na jedné z kolejí zaparkovaná vyřazená tramvaj otevřela jako Bistro Točna — funkční kavárna, kde espresso stroj stojí zhruba tam, kde dřív bývalo stanoviště řidiče.
+
+🎁 Bonus: při renovaci v roce 2022 se kovové prvky pečlivě přetřely zpět na původní červenou barvu, takže barevná rivalita s modrou Královkou o čtvrt kilometru dál žije dál — pražské nejtišší derby, rozhodnuté čistě natěračem.`,
+
+      zh: `这座电车环形总站当初是为了同时把五十万名体操运动员送到体育场而修建的；如今，它主要负责把熟客送到一辆退役电车里改装成的咖啡吧台前。而在两者之间，1948年那个不太舒服的下午，这里还曾载着一群新上台的共产党政府宁愿没看到的人群。
+
+这座环形总站于1948年6月25日投入使用，是专为斯特拉霍夫体育场大型团体操表演而修建的两座环线之一——那场表演正是自19世纪起举办、动辄吸引数十万人参加的索科尔体操大会操。三条平行轨道各自配有独立站台，由一座铁桥相连，一次可容纳26辆电车；它的金属构件被漆成红色，用来和250米外的姊妹环线区分开，那座环线漆的是蓝色。它刚好赶上了同年夏天举行的第十一届全国索科尔大会操，而那场大会操，远不止是体操表演那么简单。就在共产党二月政变四个月之后，五十万名索科尔成员列队经过检阅台时，没有向新任总统克莱门特·哥特瓦尔德欢呼，反而高呼被赶下台的前总统爱德华·贝奈斯的名字。哥特瓦尔德勃然大怒；短短几年内，政权索性取缔了索科尔组织，逾一万一千名成员遭到迫害。
+
+索科尔被取缔之后，从1955年起，由国家组织的团体操运动会接过了同一套编排——同一座体育场，同一座电车环线——只不过这次是为党唱赞歌，而不是对着它示威。1989、1990年共产主义政权垮台，这类运动会的时代也随之终结，德拉巴乔夫失去了存在的理由，此后几十年几乎无事可做，连接站台的人行天桥最终也因安全原因被封闭。它真正焕发新生要等到2021年，布拉格交通公司把它交给了历史电车42路使用；又到2022年，停在其中一条轨道上的一辆退役电车摇身一变，开成了名叫"Bistro Točna"的咖啡馆——一家真正营业的咖啡馆，咖啡机大致就摆在当年司机操控台的位置上。
+
+🎁 彩蛋：2022年翻新时，金属构件被小心地重新漆回原本的红色，让它与250米外那座蓝色环线之间的"色彩对抗"延续至今——大概是布拉格最低调的一场"德比"，胜负全凭油漆工说了算。`,
+    },
+  },
+  {
+    // Added 2026-09-05, user-supplied name (Hřiště Růžák) and coordinates —
+    // a children's playground inside Centrální park Hanspaulka, Praha 6.
+    // Prague location, non-Prague one-card rule doesn't apply. Facts
+    // (Hanspaulka's own history: named after 18th-c. archbishopric-estate
+    // inspector Hans Paul Hippmann, became a fashionable Functionalist
+    // villa quarter in the 1920s/30s — Vlasta Burian, Jaroslav Seifert,
+    // Cyril Bouda, Lída Baarová as residents; the WWII/Communist-era darker
+    // history of nearby residents Alois Eliáš and Karel Kutlvašr; Lída
+    // Baarová's own villa/Goebbels scandal/her sister Zorka's suicide from
+    // its roof) confirmed via WebSearch. No dedicated history found for
+    // the playground/'Růžák' name itself beyond its location inside the
+    // park — kept the description focused on the surrounding quarter's
+    // real context rather than overclaiming about the playground itself.
+    name: 'Růžák Playground',
+    slug: 'hriste-ruzak',
+    localizedNames: { cz: 'Hřiště Růžák', zh: '鲁扎克游乐场' },
+    labels: ['park', 'hidden-gem'],
+    coordinates: { lat: 50.10522219136398, lng: 14.379402940790284 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `A perfectly ordinary neighbourhood playground, tucked inside one of Prague's most exclusive villa quarters — the kind of place where children build sandcastles a few hundred metres from houses that once sheltered a resistance-minded prime minister, a persecuted general, and one of interwar cinema's most notorious scandals.
+
+The quarter itself takes its name from Hans Paul Hippmann, an 18th-century inspector of the Prague archbishopric's estates who built a small Baroque-Rococo garden lodge on what had until then been vineyard land. It stayed a quiet backwater until the 1920s and 30s, when it was carved up and rebuilt as one of Prague's most fashionable Functionalist villa districts — home over the years to comedian Vlasta Burian, poet and future Nobel laureate Jaroslav Seifert, illustrator Cyril Bouda, and actress Lída Baarová. The playground itself, informally known as Růžák, sits inside the newer Centrální park Hanspaulka, laid out over later decades on what had been the grounds of an older local estate.
+
+That fashionable calm didn't last unbroken. During the Nazi occupation, Protectorate prime minister and secret resistance member Alois Eliáš — reportedly the only head of government of a Nazi-occupied country the Nazis themselves executed — lived a short walk from here before his 1942 arrest and execution. After the war, the district's quiet turned in the other direction: in December 1948, Communist police arrested General Karel Kutlvašr, commander of the 1945 Prague Uprising, at his own nearby home, on fabricated charges that kept him imprisoned until 1960. And Lída Baarová's own 1938 villa nearby became notorious in a different way — her prewar relationship with Nazi propaganda minister Joseph Goebbels destroyed her career after the war, and her sister Zorka, dropped from Prague's National Theatre over the scandal, later died by jumping from that same villa's roof.
+
+🎁 Bonus: none of that history is visible from the swings — Růžák looks like exactly what it is, a modern playground where the biggest drama on most afternoons is who gets the swing next.`,
+
+      cz: `Naprosto obyčejné sídlištní hřiště schované uprostřed jedné z nejvybranějších pražských vilových čtvrtí — místo, kde děti stavějí bábovičky pár set metrů od domů, v nichž kdysi bydlel odbojářský premiér, pronásledovaný generál i jeden z nejproslulejších skandálů prvorepublikového filmu.
+
+Čtvrť samotná nese jméno po Hansi Paulu Hippmannovi, osmnáctistoletém inspektorovi arcibiskupských statků, který si na dosavadní vinici nechal postavit malý barokně-rokokový zahradní zámeček. Dlouho zůstávala poklidným zapadákovem, než ji ve 20. a 30. letech rozparcelovali a přestavěli na jednu z nejmódnějších funkcionalistických vilových čtvrtí Prahy — bydleli tu mimo jiné komik Vlasta Burian, básník a pozdější nositel Nobelovy ceny Jaroslav Seifert, ilustrátor Cyril Bouda i herečka Lída Baarová. Samotné hřiště, neformálně zvané Růžák, leží uvnitř novějšího Centrálního parku Hanspaulka, který v pozdějších desetiletích vznikl na pozemcích staršího místního statku.
+
+Ta módní idyla ale netrvala bez přerušení. Za nacistické okupace žil kousek odsud protektorátní premiér a tajný odbojář Alois Eliáš — údajně jediný premiér okupované země, kterého nacisté sami popravili — než ho v roce 1942 zatkli a popravili. Po válce se poklid čtvrti obrátil jiným směrem: v prosinci 1948 zatkla komunistická policie u něj doma nedaleko odtud generála Karla Kutlvašra, velitele Pražského povstání z roku 1945, na základě vykonstruovaných obvinění, která ho dostala za mříže až do roku 1960. A nedaleká vila Lídy Baarové z roku 1938 se proslavila zase jinak — její předválečný vztah s nacistickým ministrem propagandy Josephem Goebbelsem jí po válce zničil kariéru a její sestra Zorka, kterou kvůli skandálu vyhodili z Národního divadla, později skočila ze střechy téže vily.
+
+🎁 Bonus: z houpaček není z téhle historie vidět vůbec nic — Růžák vypadá přesně tak, jak má: jako moderní hřiště, kde je většinu odpolední největším dramatem otázka, kdo bude na houpačce další.`,
+
+      zh: `一座再普通不过的社区游乐场，藏在布拉格最高档的别墅区之一——孩子们在这里堆沙堡的地方，几百米外的房子里，曾经住过一位从事地下抵抗的总理、一位遭到迫害的将军，还牵出了战前电影界最轰动的一桩丑闻。
+
+这片街区的名字来自18世纪大主教庄园的管理员汉斯·保罗·希普曼，他在一片原本种葡萄的土地上，建起了一座小小的巴洛克-洛可可风格花园别墅。此后很长一段时间，这里都只是个安静的角落，直到20世纪二三十年代被重新规划、改建成布拉格最时髦的功能主义别墅区之一——喜剧演员弗拉斯塔·布里安、诗人兼后来的诺贝尔文学奖得主雅罗斯拉夫·塞弗尔特、插画家西里尔·博乌达，以及女演员莉达·巴罗娃都曾在此居住。游乐场本身，当地人俗称"鲁扎克"，就坐落在后来才建成的汉斯保尔卡中央公园里，这座公园是在原先一处庄园的土地上，历经数十年才逐渐建成的。
+
+但这份体面与安宁并没有一直持续下去。纳粹占领期间，抵抗运动的秘密成员、时任保护国总理阿洛伊斯·埃利亚什就住在离这里不远的地方——据称他是唯一一位被纳粹自己处决的被占领国政府总理——1942年他遭到逮捕并被处决。战后，这份平静又朝另一个方向翻了个面：1948年12月，共产党警方在他自己家中，以捏造的罪名逮捕了1945年布拉格起义的指挥官卡雷尔·库特尔瓦什尔将军，一关就关到了1960年才被释放。而附近莉达·巴罗娃1938年建成的别墅，则以另一种方式出了名——她战前与纳粹宣传部长约瑟夫·戈培尔的关系，让她战后的演艺事业彻底毁掉；她的妹妹佐尔卡也因这桩丑闻被国家剧院除名，后来从同一座别墅的屋顶跳楼身亡。
+
+🎁 彩蛋：这些历史，在秋千架上一点也看不出来——"鲁扎克"看起来就是它本来的样子：一座普普通通的现代游乐场，大多数下午最大的"戏剧冲突"，不过是轮到谁荡秋千。`,
+    },
+  },
+  {
+    // Added 2026-09-05, user-supplied coordinates. CORRECTION same session:
+    // this slug originally held content about the bronze figural statue,
+    // but the user clarified this location is actually the NAME/PLAQUE
+    // monument (a separate object a few hundred meters away, on the
+    // Kobylisy side of the bridge, from the bronze statue) — content
+    // swapped accordingly; the statue's own content moved to the new
+    // 'socha-barikadniku' entry below, at its own correct coordinates.
+    // Facts (the 7 May 1945 SS "Der Führer" assault on the bridge then
+    // called Trojský most, human-shield tactic, the 5 May 2005 unveiling
+    // of this plaque on the 60th VE Day anniversary, named fighters —
+    // Jindřich Bouček, Jan Doubek, Karel Havlíček, Karel Houška, František
+    // Janeš, and others — the original metal plaque's theft and
+    // replacement) confirmed via WebSearch. Solemn tone per
+    // feedback_solemn_content_tone — no jokes, no landmark label, no
+    // humorous opening, given this is WWII fallen-defenders content.
+    name: 'Memorial to the Fallen of Barikádníků Bridge',
+    slug: 'pomnik-padlych-barikadniku',
+    localizedNames: { cz: 'Pomník padlým v květnu 1945 u mostu Barikádníků', zh: '街垒战士桥阵亡者纪念碑' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.114482184350706, lng: 14.444956554348451 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `A modest stone memorial at the Kobylisy foot of Barikádníků bridge names five of the dozens of Prague fighters who died defending this crossing in the war's final days — its original metal plaque later stolen, and quietly replaced rather than left as an empty frame.
+
+The battle here took place on 7 May 1945, in the war's last week: a battle group from the 4th SS Panzergrenadier Regiment "Der Führer," backed by artillery, attacked barricades Czech insurgents had raised on what was then called Trojský most, the bridge linking Holešovice and Libeň across the Vltava. Czech fighters under the local 21st combat section held the crossing through a full day of fighting before German armored vehicles broke through to the Holešovice side; an armistice took hold the next day and held until Germany's formal surrender that evening.
+
+This particular memorial was unveiled decades later, on 5 May 2005, timed to the 60th anniversary of the war's end in Europe, specifically to record the names of those who fell defending the bridge — among them Jindřich Bouček, Jan Doubek, Karel Havlíček, Karel Houška, and František Janeš. The original metal plaque didn't survive long before being stolen, likely for scrap; it was replaced with the current, non-metal version rather than left missing.
+
+🎁 Bonus: a separate, older bronze monument — a sculpted mourning woman beside a fallen fighter — stands at the bridge's other end, near the Faculty of Mathematics and Physics; between the two, this single crossing is remembered both as a scene and as a list of names.`,
+
+      cz: `Skromný kamenný pomník na kobyliské straně mostu Barikádníků nese jména pěti z desítek pražských bojovníků, kteří padli při obraně tohoto přechodu v posledních dnech války — jeho původní kovová deska byla později ukradena a potichu nahrazena, místo aby po ní zůstalo jen prázdné místo.
+
+Bitva se zde odehrála 7. května 1945, v posledním týdnu války: bojový svaz 4. pluku SS Der Führer, podporovaný dělostřelectvem, zaútočil na barikády, které čeští povstalci postavili na tehdejším Trojském mostě, spojujícím přes Vltavu Holešovice s Libní. Čeští bojovníci pod velením 21. bojového úseku drželi přechod celý den bojů, než se německá obrněná vozidla probila na holešovický břeh; následující den bylo uzavřeno příměří, které vydrželo až do večerní kapitulace Německa.
+
+Tento konkrétní pomník byl odhalen až o desetiletí později, 5. května 2005, u příležitosti 60. výročí konce války v Evropě, a to konkrétně proto, aby zaznamenal jména těch, kdo při obraně mostu padli — mezi nimi Jindřich Bouček, Jan Doubek, Karel Havlíček, Karel Houška a František Janeš. Původní kovová deska dlouho nevydržela, než byla zřejmě kvůli kovošrotu ukradena; nahradila ji dnešní nekovová verze, místo aby místo zůstalo prázdné.
+
+🎁 Bonus: na opačném konci mostu, poblíž Matematicko-fyzikální fakulty, stojí samostatný a starší bronzový pomník — socha truchlící ženy vedle padlého bojovníka; dohromady si tenhle jeden přechod nese hned dvojí památku — jako výjev i jako seznam jmen.`,
+
+      zh: `科比利西一侧、街垒战士桥桥头，立着一座朴素的石制纪念碑，上面刻着战争最后几天里，为保卫这座桥而牺牲的几十名布拉格战士中五位的姓名——原本的金属牌匾后来被盗，此后又被悄悄换上了新的，而不是任由那个位置空着。
+
+这里的战斗发生在1945年5月7日，战争的最后一周：党卫队第四"元首"团的一支战斗群在炮兵支援下，向捷克起义者在当时还叫"特罗亚桥"的桥上构筑的街垒发起进攻——这座桥横跨伏尔塔瓦河，连接霍莱肖维采与利本两区。由第21战斗区指挥的捷克战士坚守了整整一天，德军装甲车才最终突破到霍莱肖维采一侧；次日双方达成停火，一直持续到当晚德国正式投降。
+
+眼前这座纪念碑，是几十年后的2005年5月5日才揭幕的，特意选在欧洲战争结束60周年纪念日这一天，专门用来记录下当年为保卫这座桥而牺牲者的姓名——其中包括扬德日赫·布切克、扬·杜别克、卡雷尔·哈夫利切克、卡雷尔·豪什卡和弗兰蒂谢克·亚内什。原本的金属牌匾没能保存太久便被盗走，很可能是被当废金属偷走的；后来换上了如今这块非金属材质的版本，而不是任由那里空着。
+
+🎁 彩蛋：在大桥的另一端，靠近数学物理学院，还立着一座更早的青铜纪念碑——一位哀悼的女性跪在倒下的战士身旁；这一座桥，就这样同时以场景和姓名两种方式，被人们分别记住。`,
+    },
+  },
+  {
+    // Added 2026-09-05, user-supplied exact inscription ("Na památku
+    // bojovníků pražských barikád 5. 5. - 9. 5. 1945") and coordinates for
+    // the ACTUAL bronze statue (distinct from the 'pomnik-padlych-
+    // barikadniku' plaque entry above, a few hundred meters away on the
+    // bridge's other end). Prague location (Praha 8, Libeň, near Charles
+    // University's Faculty of Mathematics and Physics). Facts (Josef
+    // Malejovský's 1984 bronze — mourning woman + fallen fighter — on
+    // Povltavská St.; the 7 May 1945 SS "Der Führer" assault on the bridge
+    // then called Trojský most; the human-shield tactic used to break
+    // through; the bridge's 1946 renaming to Most Barikádníků; Jan Drda's
+    // Němá barikáda story and Otakar Vávra's 1948 film adaptation)
+    // confirmed via WebSearch. Solemn tone per feedback_solemn_content_tone
+    // — no jokes, no landmark label, no humorous opening.
+    name: 'Monument to the Prague Barricade Fighters',
+    slug: 'socha-barikadniku',
+    localizedNames: { cz: 'Pomník pražských barikádníků', zh: '布拉格街垒战士纪念碑' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.1155954692466, lng: 14.448228808759811 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: '',
+    description: {
+      en: `This bronze figure group — a mourning woman kneeling beside a fallen fighter — marks the spot where Prague's own citizens, armed with rifles taken from German soldiers and barricades built from paving stones and overturned trams, held a bridge into the city for two days against an SS armored column in the war's final week.
+
+On the morning of 7 May 1945, a battle group from the 4th SS Panzergrenadier Regiment "Der Führer," backed by artillery, attacked the barricades insurgents had raised on what was then called Trojský most, the bridge linking Holešovice and Libeň across the Vltava. Czech fighters under the local 21st combat section, commanded by Major Židlický, held the position through a full day of fighting; by late afternoon all three barricades on the bridge itself had burned, and German armored vehicles finally broke through to the Holešovice side — reportedly using captured Czech civilians as human shields on the lead vehicles to do it. An armistice took hold the following day, 8 May, and held until Germany's formal surrender that evening.
+
+The bridge was renamed Most Barikádníků in 1946 in the fighters' honor, and the fight for it was dramatized soon after in writer Jan Drda's story Němá barikáda (The Silent Barricade) and Otakar Vávra's 1948 film of the same name. This particular monument, sculpted by Josef Malejovský and unveiled in 1984, stands on Povltavská street a short walk from the bridge itself, near Charles University's Faculty of Mathematics and Physics — its plinth carries a single spare inscription: "Na památku bojovníků pražských barikád 5. 5. – 9. 5. 1945" ("In memory of the fighters of the Prague barricades, 5–9 May 1945").
+
+🎁 Bonus: a separate memorial plaque stands at the bridge's opposite end, on the Kobylisy side, naming individual fighters who died here — a reminder that this one crossing needed two monuments, a sculpture and a list of names, to hold everything the fighting left behind.`,
+
+      cz: `Tato bronzová socha — truchlící žena klečící vedle padlého bojovníka — označuje místo, kde pražští občané, ozbrojení puškami odebranými německým vojákům a barikádami z dlažebních kostek a převrácených tramvají, v posledním týdnu války dva dny bránili most do centra města proti obrněné koloně SS.
+
+Ráno 7. května 1945 zaútočil bojový svaz 4. pluku SS Der Führer, podporovaný dělostřelectvem, na barikády, které povstalci postavili na tehdejším Trojském mostě, spojujícím přes Vltavu Holešovice s Libní. Čeští bojovníci pod velením 21. bojového úseku, jemuž velel major Židlický, drželi pozici celý den bojů; k pozdnímu odpoledni už hořely všechny tři barikády na mostě samotném a německá obrněná vozidla se nakonec probila na holešovický břeh — údajně za použití zajatých českých civilistů jako živých štítů na čele kolony. Následující den, 8. května, bylo uzavřeno příměří, které vydrželo až do večerní kapitulace Německa.
+
+Most byl v roce 1946 na počest bojovníků přejmenován na most Barikádníků a boj o něj brzy poté zdramatizoval spisovatel Jan Drda v povídce Němá barikáda a režisér Otakar Vávra ve stejnojmenném filmu z roku 1948. Tento konkrétní pomník, dílo sochaře Josefa Malejovského odhalené v roce 1984, stojí na Povltavské ulici kousek od samotného mostu, poblíž Matematicko-fyzikální fakulty Univerzity Karlovy — na jeho podstavci je strohý nápis: "Na památku bojovníků pražských barikád 5. 5. – 9. 5. 1945."
+
+🎁 Bonus: na opačném konci mostu, na kobyliské straně, stojí samostatná pamětní deska se jmény jednotlivých padlých bojovníků — připomínka toho, že tenhle jeden most si vyžádal hned dva pomníky, sochu i seznam jmen, aby pojaly všechno, co po sobě boj zanechal.`,
+
+      zh: `这座青铜群像——一位跪在倒下战士身旁哀悼的女性——所标记的，正是布拉格市民在战争最后一周，用从德军手中缴获的步枪，以及用铺路石和推翻的电车拼凑起来的街垒，坚守住一座通往市中心的桥梁整整两天，抵挡住一支党卫队装甲纵队的地方。
+
+1945年5月7日清晨，党卫队第四"元首"团的一支战斗群在炮兵支援下，向起义者在当时还叫"特罗亚桥"的桥上构筑的街垒发起进攻——这座桥横跨伏尔塔瓦河，连接霍莱肖维采与利本两区。由日德利茨基少校指挥的第21战斗区的捷克战士坚守了整整一天；到傍晚时分，桥上三道街垒已全部被烧毁，德军装甲车最终突破到霍莱肖维采一侧——据称还挟持被俘的捷克平民充当前导车辆上的人肉盾牌。次日，即5月8日，双方达成停火，一直持续到当晚德国正式投降。
+
+这座桥于1946年被更名为"街垒战士桥"，以纪念这些战士；这场战斗不久后，也被作家扬·德尔达写进了小说《沉默的街垒》，并由导演奥塔卡尔·瓦夫拉拍成同名电影，于1948年上映。眼前这座纪念碑，是雕塑家约瑟夫·马莱约夫斯基的作品，1984年揭幕，如今矗立在离大桥不远的波尔塔夫斯卡街上，靠近查理大学数学物理学院——碑座上刻着一行简洁的铭文："谨此纪念1945年5月5日至9日布拉格街垒的战士们"。
+
+🎁 彩蛋：在大桥的另一端，科比利西一侧，还立着一块独立的纪念牌匾，上面刻着每一位牺牲战士的姓名——提醒着人们，这一座桥，最终需要两座纪念物才能承载下战斗留下的一切：一座雕像，和一份名单。`,
+    },
+  },
+  // ── Roztocký háj / Troja bridges / Xaverovský háj / Čimický háj batch
+  // (2026-09-06, user-supplied coordinates) ───────────────────────────────
+  // Facts confirmed via WebSearch:
+  // - roztocky-haj-tiche-udoli: cs.wikipedia + praha-priroda.cz (7,000
+  //   years of settlement, Únětice culture graves/dagger hoard, Via Magna
+  //   trade route, 19th-c. villa-resort era with Smetana/Kafka ties,
+  //   critically endangered green lizard, beaver returned late 2021, the
+  //   valley as the Vltava's own abandoned 1-million-year-old riverbed).
+  //   Distinct from the existing 'roztoky-u-prahy' town card and
+  //   'zamek-stredoceskeho-muzea-roztoky' — this is the nature reserve on
+  //   the Suchdol/Únětice border, not the town or its chateau.
+  // - trojsky-most: cs/en.wikipedia + Radio Prague/Deník (the 2014 network
+  //   arch bridge, replacing the 1981-2013 tram-only "Rámusák", the 2015
+  //   European Steel Design Award, the cost overrun, and the 2013 Havel
+  //   naming proposal rejected because Havel had publicly opposed the ring
+  //   road this bridge belongs to).
+  // - most-barikadniku: cs.wikipedia + Blesk.cz (the original 1927-28
+  //   bridge, named Trojský most for its first 18 years, renamed 1946 for
+  //   the same 7 May 1945 fighting already covered in depth by the
+  //   'pomnik-padlych-barikadniku' and 'socha-barikadniku' cards above —
+  //   deliberately NOT re-narrated here in the same depth to avoid
+  //   duplicating those two cards; this card's own angle is the
+  //   naming/engineering history, incl. the little-known fact that the
+  //   original 1928 bridge the fighters actually stood on was demolished
+  //   1977-1980 and today's deck is a different structure entirely).
+  //   Measured, non-jokey tone throughout given the subject, though not
+  //   under the full feedback_solemn_content_tone regime (that's already
+  //   carried by the two dedicated memorial/monument cards).
+  // - xaverovsky-haj: cs.wikipedia (the 1713 Jesuit "Xaverov" naming after
+  //   St. Francis Xavier, villages destroyed in the Thirty Years' War,
+  //   Čejk/Colloredo ownership, 77% oak cover protected since 1982, the
+  //   planned ecoduct over the road bisecting it).
+  // - cimicky-haj: cs.wikipedia (the older "Temeliště" name, Libeň/Bohnice
+  //   estate ownership, the 1903 purchase of the whole Bohnice estate incl.
+  //   this grove specifically to build Prague's psychiatric hospital next
+  //   door, the "Čimísek" wooden sprite mascot invented for the 2017
+  //   educational trail, 2021 visitor counts).
+  // No 'landmark' label on any of the five, per this file's standing rule.
+  {
+    name: 'Roztoky Grove – Silent Valley',
+    slug: 'roztocky-haj-tiche-udoli',
+    localizedNames: { cz: 'Roztocký háj – Tiché údolí', zh: '罗兹托基树林-静谷' },
+    labels: ['nature', 'hidden-gem'],
+    coordinates: { lat: 50.15258719825788, lng: 14.394862846430643 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Roztock%C3%BD_h%C3%A1j_%E2%80%93_Tich%C3%A9_%C3%BAdol%C3%AD',
+    description: {
+      en: `Welcome to Roztoky Grove – Silent Valley, a steep river gorge on Prague's northwestern edge where the little Únětický Creek carves through limestone and shale on its way down to the Vltava. Despite the peaceful name, this valley has been busy for longer than almost anywhere else in the region: people have lived here, on and off, for roughly seven thousand years.
+
+Digs along the slopes have turned up more than seventy Bronze Age graves and a hoard of seven ornately decorated bronze daggers, remnants of the Únětice culture that gave the whole valley its name and lent its name to a whole European archaeological period besides. Centuries later, a well-worn trade route known as the Via Magna, or the "Přemyslid road," ran straight through here, linking the old stronghold at Levý Hradec with the road out toward Hradčany and beyond. By the late nineteenth century, the valley had reinvented itself again, this time as Prague's own countryside escape: wealthy families built riverside villas among the trees, and both composer Bedřich Smetana and writer Franz Kafka reportedly stayed at homes tucked into these same slopes.
+
+The valley today is protected as a nature reserve, its rocky heathland home to the country's rarest reptile, the critically endangered green lizard, while a family of European beavers moved in and set up residence along the creek at the tail end of 2021 — proof that even a valley with seven millennia of human company can still make room for new tenants.
+
+🎁 Bonus: Geologists say this valley isn't just old, it's a hand-me-down. Roughly a million years ago, the Vltava itself used to flow through here, before the river gradually shifted east and left the smaller Únětický Creek to inherit — and slowly carve out — the empty riverbed it left behind.`,
+
+      cz: `Vítej v Roztockém háji – Tichém údolí, strmém říčním zářezu na severozápadním okraji Prahy, kde si drobný Únětický potok razí cestu vápencem a břidlicí dolů k Vltavě. Navzdory klidnému jménu je tohle údolí obydlené déle než skoro kterékoli jiné místo v okolí: lidé tu, s přestávkami, žijí zhruba sedm tisíc let.
+
+Vykopávky na svazích odkryly přes sedmdesát hrobů z doby bronzové a poklad sedmi bohatě zdobených bronzových dýk, pozůstatky únětické kultury, která dala jméno celému údolí a navíc i celé jedné evropské archeologické epoše. O staletí později tudy vedla vyšlapaná obchodní stezka zvaná Via Magna, neboli "přemyslovská cesta", spojující staré hradiště Levý Hradec s cestou směrem na Hradčany a dál. Koncem devatenáctého století se údolí znovu proměnilo, tentokrát ve venkovský útěk pražské honorace: zámožné rodiny si mezi stromy stavěly vilky u řeky a na těchto svazích měli podle všeho pobývat i skladatel Bedřich Smetana a spisovatel Franz Kafka.
+
+Údolí je dnes chráněno jako přírodní rezervace, jeho skalnaté stepi jsou domovem nejvzácnějšího plaza v zemi, kriticky ohroženého ještěrky zelené, a na sklonku roku 2021 se podél potoka usadila i rodina bobrů evropských — důkaz, že i údolí se sedmi tisíciletími lidské společnosti si dokáže udělat místo pro nové nájemníky.
+
+🎁 Bonus: Geologové tvrdí, že tohle údolí není jen staré, ale navíc i zděděné. Zhruba před milionem let tudy protékala samotná Vltava, než se řeka postupně přesunula na východ a nechala menší Únětický potok, aby zdědil — a pomalu vyhloubil — koryto, které po sobě zanechala.`,
+
+      zh: `欢迎来到罗兹托基树林-静谷，这是布拉格西北边缘的一处陡峭河谷，一条名叫乌涅季采的小溪在这里切穿石灰岩与页岩，一路奔向伏尔塔瓦河。虽然名字里带着"静"字，这片谷地热闹的历史却比周围大多数地方都要悠久：人类断断续续在此生活，已经将近七千年。
+
+沿着谷地斜坡的考古发掘，出土了七十多座青铜时代墓葬，以及一批多达七柄、雕饰精美的青铜匕首窖藏——它们都属于乌涅季采文化，这一文化不仅为整条山谷命名，也为整个欧洲的一段考古学时代赋予了名字。几个世纪后，一条被称为"大道"（Via Magna）、又名"普热米斯尔王朝古道"的商路正好穿谷而过，连接着古老的莱维赫拉德茨要塞与通往赫拉德恰尼方向的道路。到了19世纪末，这片山谷又完成了一次转身，变成布拉格上流社会的乡间度假地：富裕人家在林间沿河建起别墅，据说作曲家贝德日赫·斯美塔那与作家弗兰茨·卡夫卡都曾在这片坡地上的房子里住过。
+
+如今，这片谷地被列为自然保护区：崎岖的石质荒原上，生活着捷克境内最珍稀的爬行动物——极危的绿蜥蜴；2021年底，一群欧亚河狸也在溪边安顿下来，安家落户——证明即便一片已经与人类相伴七千年的山谷，也依然能为新住户腾出空间。
+
+🎁 彩蛋：地质学家说，这条山谷不仅历史悠久，还是"继承"来的。大约一百万年前，伏尔塔瓦河本身正是从这里流过，后来河道逐渐东移，把这条更小的乌涅季采溪留在原地，继承——并慢慢刻蚀出——大河留下的这段旧河床。`,
+    },
+  },
+  {
+    name: 'Troja Bridge',
+    slug: 'trojsky-most',
+    localizedNames: { cz: 'Trojský most', zh: '特洛亚桥' },
+    labels: ['bridge', 'architecture'],
+    coordinates: { lat: 50.1124215362337, lng: 14.436156888678386 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Troja_Bridge',
+    description: {
+      en: `Welcome to Troja Bridge, the sleek steel arch that has carried trams, cars, cyclists, and pedestrians across the Vltava between Holešovice and Troja since 2014 — the newest of Prague's river crossings, and one that took its sweet time arriving.
+
+For over three decades before that, the crossing here was handled by a temporary tram bridge nicknamed "Rámusák" ("the Racket"), built in 1981 and, true to its nickname, loud enough that nobody was sad to see it go in 2013. Its replacement is a network arch bridge — engineers call the design a "síťový oblouk," where diagonal cables crisscross between the arch and the deck rather than hanging straight down — spanning 262 metres in length with a main arch reaching 200.4 metres across, an unusually elegant solution for what is, underneath the architecture, still just a very busy stretch of Prague's inner ring road. The design won the 2015 European Steel Design Award.
+
+The elegance came at a price: originally budgeted at half a billion crowns, the bridge ended up costing the city 1.3 billion, plus an extra 11-million-crown fine over errors in how the contract was tendered. Prague's own naming commission briefly considered honouring former president Václav Havel with the bridge's name, until someone pointed out the obvious problem: Havel had publicly opposed the very ring-road project this bridge belongs to. The traditional name Trojský most stuck instead.
+
+🎁 Bonus: This isn't even the first bridge in Prague to carry the name "Trojský most." A now-outdated one nearby, built back in 1928, wore that name for eighteen years before being renamed in 1946 to honour something entirely different — a story worth reading about at Barikádníků Bridge, standing a short walk upriver.`,
+
+      cz: `Vítej u Trojského mostu, elegantního ocelového obloukového mostu, který od roku 2014 přes Vltavu spojuje Holešovice s Trojí a vozí přes ni tramvaje, auta, cyklisty i chodce — nejnovější z pražských říčních přechodů, který si na svůj příchod dal pořádně na čas.
+
+Přes tři desetiletí předtím tu dopravu zajišťoval provizorní tramvajový most s přezdívkou "Rámusák", postavený v roce 1981 a svému jménu věrný natolik, že po jeho zbourání v roce 2013 za ním nikdo neplakal. Jeho náhradou je síťový obloukový most s dolní mostovkou — diagonální lana se tu kříží mezi obloukem a mostovkou místo toho, aby visela rovně dolů — dlouhý 262 metrů, s hlavním obloukovým polem širokým 200,4 metru, nezvykle elegantní řešení pro to, co je pod veškerou architekturou pořád jen rušný úsek pražského vnitřního okruhu. Návrh v roce 2015 získal Evropskou cenu za ocelové konstrukce.
+
+Elegance měla svou cenu: původně rozpočtovaný na půl miliardy korun nakonec most město stál 1,3 miliardy, plus dalších 11 milionů korun pokuty za chyby ve výběrovém řízení. Pražská názvoslovná komise chvíli zvažovala pojmenovat most po bývalém prezidentu Václavu Havlovi, než někdo poukázal na zjevný problém: Havel se veřejně stavěl proti právě tomuto projektu okruhu, jehož je most součástí. Nakonec zůstalo u tradičního jména Trojský most.
+
+🎁 Bonus: Není to ani zdaleka první pražský most, který nesl jméno "Trojský most". Dnes už zaniklý most opodál, postavený v roce 1928, tohle jméno nosil osmnáct let, než byl v roce 1946 přejmenován na počest něčeho zcela jiného — příběh, který stojí za přečtení u mostu Barikádníků, stojícího kousek proti proudu řeky.`,
+
+      zh: `欢迎来到特洛亚桥，这座造型利落的钢结构拱桥，自2014年起横跨伏尔塔瓦河，连接霍莱肖维采与特洛亚两区，承载着电车、汽车、自行车与行人往来两岸——它是布拉格最年轻的一座跨河大桥，也是姗姗来迟了许久才终于到来的一座。
+
+在此之前的三十多年里，这段河道一直靠一座绰号"喧闹鬼"的临时电车桥维持通行，建于1981年，也确实不负其名——2013年拆除时，几乎没人为它感到惋惜。取而代之的是一座网状拱桥：工程师称这种结构为"síťový oblouk"，斜向的缆索在拱与桥面之间纵横交错，而不是垂直悬挂——全长262米，主拱跨度达200.4米，对于说到底不过是布拉格内环路上一段车流繁忙路段而言，堪称异常优雅的解决方案。这项设计还在2015年拿下了欧洲钢结构设计大奖。
+
+优雅是有代价的：这座桥原本预算五亿克朗，最终却花掉了布拉格市13亿克朗，外加因招标程序出错而支付的1100万克朗罚款。布拉格市的地名委员会一度考虑以已故总统瓦茨拉夫·哈维尔的名字为大桥命名，直到有人指出一个明显的问题：哈维尔本人曾公开反对的，正是这座桥所属的那条内环路工程。于是，大桥最终还是保留了"特洛亚桥"这个传统名字。
+
+🎁 彩蛋：这甚至都不是布拉格第一座叫"特洛亚桥"的大桥。附近一座如今已经不复存在的旧桥，建于1928年，就顶着这个名字用了整整十八年，直到1946年因纪念一件完全不同的事而改名——这段故事，值得到不远处、位于上游的"街垒战士桥"那张卡片里细细了解。`,
+    },
+  },
+  {
+    // Measured, non-jokey tone given the subject (see batch comment above)
+    // — but not the full feedback_solemn_content_tone treatment, since the
+    // 7 May 1945 fighting itself is already covered in depth by
+    // 'pomnik-padlych-barikadniku' and 'socha-barikadniku' above. This
+    // card's own job is the bridge's naming/engineering history.
+    name: 'Barikádníků Bridge',
+    slug: 'most-barikadniku',
+    localizedNames: { cz: 'Most Barikádníků', zh: '街垒战士桥' },
+    labels: ['bridge', 'historical'],
+    coordinates: { lat: 50.11334378214297, lng: 14.445523371969294 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Most_Barik%C3%A1dn%C3%ADk%C5%AF',
+    description: {
+      en: `Welcome to Barikádníků Bridge, which has carried Prague's busy North-South Highway across the Vltava between Holešovice and Libeň since 1980 — and which, despite its solemn name, isn't actually the bridge the name was written for.
+
+The original steel arch bridge on this spot went up in 1927–28, and for its first eighteen years it was simply called Trojský most. In May 1945, in the war's final days, Czech insurgents built barricades on that bridge and held the crossing for two full days against an SS armoured column — a defence remembered in far more detail on the memorials standing at either end of today's bridge. In 1946, the city renamed the crossing Most Barikádníků in the fighters' honour. What almost nobody realises walking across it today is that the actual 1928 bridge, the one the fighters stood on, is gone: by the 1970s its narrow sixteen-metre deck, chronically flooded by a badly designed drainage system and by then sheltering the city's homeless, could no longer handle Prague's growing traffic, and between 1977 and 1980 it was demolished and rebuilt from the pier foundations up. The bridge that carries the name today opened on 28 November 1980, more than double the width of its predecessor, and has never itself seen a battle.
+
+🎁 Bonus: A few hundred metres downriver stands Prague's newest crossing, Trojský most, opened in 2014 — the exact name this very bridge gave up back in 1946. It took the better part of seventy years, but the name found its way back to this stretch of the Vltava regardless.`,
+
+      cz: `Vítej u mostu Barikádníků, který od roku 1980 přenáší rušnou pražskou severojižní magistrálu přes Vltavu mezi Holešovicemi a Libní — a který, navzdory svému vážnému jménu, ve skutečnosti není tím mostem, pro který bylo jméno napsáno.
+
+Původní ocelový obloukový most na tomto místě vznikl v letech 1927–1928 a prvních osmnáct let se prostě jmenoval Trojský most. V květnu 1945, v posledních dnech války, na něm čeští povstalci postavili barikády a dva plné dny drželi přechod proti obrněné koloně SS — obranu, kterou dnes v mnohem větších podrobnostech připomínají pomníky stojící na obou koncích dnešního mostu. V roce 1946 město přechod přejmenovalo na most Barikádníků na počest bojovníků. Skoro nikdo, kdo dnes po mostě přechází, si ale neuvědomuje, že skutečný most z roku 1928, ten, na kterém bojovníci stáli, už neexistuje: koncem sedmdesátých let jeho úzká šestnáctimetrová mostovka, chronicky zatopená kvůli špatně řešenému odvodnění a v té době už poskytující útočiště bezdomovcům, přestala stačit rostoucí pražské dopravě, a mezi lety 1977 a 1980 byl most zbourán a znovu postaven od základů pilířů nahoru. Most, který dnes nese toto jméno, byl otevřen 28. listopadu 1980, je víc než dvakrát širší než jeho předchůdce a sám žádnou bitvu nikdy nezažil.
+
+🎁 Bonus: Pár set metrů po proudu řeky stojí nejnovější pražský most, Trojský most, otevřený v roce 2014 — přesně to jméno, kterého se tento most sám vzdal už v roce 1946. Trvalo to skoro sedmdesát let, ale jméno si na tenhle úsek Vltavy nakonec přece jen našlo cestu zpátky.`,
+
+      zh: `欢迎来到街垒战士桥，自1980年起，这座桥一直承载着布拉格繁忙的南北干道，横跨伏尔塔瓦河连接霍莱肖维采与利本——但尽管名字听起来庄重肃穆，眼前这座桥其实并不是当年真正配得上这个名字的那一座。
+
+这个位置上最初的钢结构拱桥建于1927至1928年，最初十八年里，它的名字很简单，就叫"特洛亚桥"。1945年5月，战争的最后几天，捷克起义者在这座桥上构筑街垒，整整坚守了两天，抵挡住一支党卫队装甲纵队的进攻——这段防御战的细节，如今在这座桥两端的纪念物上都有更详尽的记载。1946年，市政府将这处渡口更名为"街垒战士桥"，以纪念这些战士。可几乎没有人在如今走过这座桥时会意识到：那座1928年建成、战士们真正站立过的桥，其实早已不复存在——到了20世纪70年代末，它那狭窄的十六米宽桥面，因排水设计不良而长年积水，当时又已沦为流浪者的栖身之所，再也无法承受布拉格日益增长的交通压力；1977年到1980年间，这座桥从桥墩基础往上被彻底拆除重建。如今挂着这个名字的桥，是1980年11月28日通车的，宽度是原桥的两倍多，而它自己，从未真正经历过任何一场战斗。
+
+🎁 彩蛋：往下游几百米处，矗立着布拉格最年轻的跨河大桥——2014年开通的"特洛亚桥"，用的正是这座桥自己在1946年放弃的那个名字。整整耗费了近七十年，这个名字最终还是绕了一圈，回到了伏尔塔瓦河的这段河道上。`,
+    },
+  },
+  {
+    name: 'Xaverov Grove',
+    slug: 'xaverovsky-haj',
+    localizedNames: { cz: 'Xaverovský háj', zh: '克萨韦罗夫树林' },
+    labels: ['nature', 'hidden-gem'],
+    coordinates: { lat: 50.09519182823927, lng: 14.60914377377659 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Xaverovsk%C3%BD_h%C3%A1j',
+    description: {
+      en: `Welcome to Xaverov Grove, one of the most naturally intact stretches of oak forest left inside Prague — a woodland on the city's eastern edge that owes both its survival and its slightly unexpected name to people who never meant to create a nature reserve at all.
+
+The name traces back to 1713, when the land belonged to the Convent of St. Bartholomew in Prague and was named "Xaverov" after St. Francis Xavier, the sixteenth-century Spanish Jesuit missionary and co-founder of the Jesuit order — a saint who almost certainly never came within a thousand kilometres of this particular patch of Bohemia. The forest itself grew up over villages destroyed during the Thirty Years' War, later passing through the hands of the Čejk family's Dolní Počernice estate and, afterward, noble owners including the Colloredos, before eventually becoming Prague municipal property in the twentieth century.
+
+What survived all that ownership turnover is genuinely unusual for a city forest: oaks make up 77 percent of the trees here, among the highest proportion anywhere in Prague, protected since 1982 and managed since 2004 specifically to keep non-native conifers and other newcomers from crowding them out. A Renaissance-style gamekeeper's lodge still stands at the forest's centre, and the Eliška pond nearby, built in 1954 for recreation, sits quietly alongside its older neighbour, Barbora.
+
+🎁 Bonus: Prague's planners are reportedly hoping to build a wildlife overpass, an "ecoduct," to reconnect the two halves of this grove after a modern highway sliced straight through it — which means a forest already named after a globe-trotting missionary may soon get its own dedicated crossing too.`,
+
+      cz: `Vítej v Xaverovském háji, jednom z nejpřirozeněji zachovalých dubových lesů, jaké v Praze ještě zbyly — lesíku na východním okraji města, který za své přežití i za své poněkud nečekané jméno vděčí lidem, kteří rozhodně neměli v úmyslu založit přírodní rezervaci.
+
+Jméno sahá až do roku 1713, kdy pozemek patřil pražskému klášteru u svatého Bartoloměje a byl pojmenován "Xaverov" po svatém Františku Xaverském, šestnáctistoletém španělském jezuitském misionáři a spoluzakladateli jezuitského řádu — světci, který se k tomuhle konkrétnímu kousku Čech téměř jistě nikdy ani nepřiblížil na tisíc kilometrů. Samotný les vyrostl na místě vsí zničených za třicetileté války, později procházel rukama panství Dolních Počernic rodu Čejků a poté i dalších šlechtických majitelů, včetně Colloredů, než se ve dvacátém století nakonec stal majetkem pražské obce.
+
+To, co všechny tyhle změny majitelů přežilo, je pro městský les opravdu neobvyklé: duby tu tvoří 77 procent stromů, jeden z nejvyšších podílů v celé Praze, chráněný od roku 1982 a od roku 2004 cíleně obhospodařovaný tak, aby nepůvodní jehličnany a další nově příchozí druhy dubům nekonkurovaly o místo. Uprostřed lesa dodnes stojí hájovna v renesančním stylu a nedaleký rybník Eliška, postavený v roce 1954 k rekreaci, tiše sousedí se svým starším protějškem, rybníkem Barbora.
+
+🎁 Bonus: Pražští plánovači prý zvažují postavit ekodukt, který by po sobě propojil obě poloviny háje rozdělené moderní dálnicí — takže les pojmenovaný po jednom světoběžném misionáři možná brzy dostane vlastní vyhrazený přechod taky.`,
+
+      zh: `欢迎来到克萨韦罗夫树林，这是布拉格城内保存最完整的天然橡树林之一——一片位于城市东侧边缘的林地，它的留存，乃至它那个略显出人意料的名字，都要归功于一群压根没打算建立自然保护区的人。
+
+这个名字最早可以追溯到1713年，当时这片土地属于布拉格圣巴塞洛缪修道院，并以圣方济各·沙勿略之名被命名为"克萨韦罗夫"——沙勿略是16世纪的西班牙耶稣会传教士，也是耶稣会的共同创始人之一，这位圣人几乎可以肯定，一辈子都没有靠近过波希米亚的这个角落一千公里以内。这片森林本身，是在三十年战争中被毁的村庄旧址上重新生长起来的，后来先后归属采伊克家族的下波切尔尼采庄园，再传到包括科洛雷多家族在内的其他贵族手中，直到20世纪才最终成为布拉格市的公有财产。
+
+在这一连串的产权更迭中留存下来的东西，对一片城市森林来说相当罕见：橡树占这里树木总量的77%，是全布拉格比例最高的地区之一；这片林地自1982年起受到保护，2004年起还专门加以管理，以防止非本地针叶树等外来树种挤占橡树的生存空间。林子中央至今仍立着一座文艺复兴风格的护林小屋，附近1954年为休闲而建的埃利什卡池塘，也静静地陪伴着它历史更悠久的邻居——芭尔博拉池塘。
+
+🎁 彩蛋：据说布拉格的城市规划者正考虑修建一座"生态天桥"，把被一条现代高速公路硬生生切成两半的树林重新连接起来——也就是说，这片以一位环球传教士之名命名的森林，很快可能也要拥有属于自己的专属"通道"了。`,
+    },
+  },
+  {
+    name: 'Čimice Grove',
+    slug: 'cimicky-haj',
+    localizedNames: { cz: 'Čimický háj', zh: '齐米采树林' },
+    labels: ['nature', 'park'],
+    coordinates: { lat: 50.1303648318652, lng: 14.44158810121456 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C4%8Cimick%C3%BD_h%C3%A1j',
+    description: {
+      en: `Welcome to Čimice Grove, a 25-hectare patch of oak, linden, and larch on Prague's northern edge that, according to the city's own visitor counts, gets walked, jogged, and cycled through more per hectare than almost any other forest in the capital.
+
+Long before it looked like this, the woodland here was known as Temeliště, an oak-hornbeam forest belonging first to a large estate in nearby Libeň and later to an agricultural estate based in Bohnice; most of what stands today was deliberately replanted around the turn of the twentieth century. That Bohnice connection turned out to matter more than a shared name: in 1903, the province bought the whole 303-hectare Bohnice estate, this grove included, specifically to build Prague's new psychiatric institution, whose therapeutic grounds and hospital buildings went up between 1904 and 1914 right next door. The grove itself was spared the construction and left to grow.
+
+Today it's a straightforwardly pleasant place rather than a solemn one: a wooden gamekeeper's lodge, a couple of memorial old oaks older than everything planted around them, a children's playground, and a carved wooden sprite called Čimísek watching over an educational trail that opened in 2017. In 2021 alone, the grove logged over 461,000 visits — nearly 29,000 per hectare, more foot traffic than most Prague parks see in years.
+
+🎁 Bonus: Čimický háj shares its name with the district, Čimice, but not with the sprite that guards its trail — Čimísek was invented for the occasion, a mascot with no folklore behind him at all beyond the one the educational trail's designers gave him in 2017.`,
+
+      cz: `Vítej v Čimickém háji, pětadvaceti hektarech dubů, lip a modřínů na severním okraji Prahy, kterými podle vlastních návštěvnických statistik města na hektar prochází, probíhá a projíždí na kole víc lidí než skoro jakýmkoli jiným lesem v hlavním městě.
+
+Dávno předtím, než vypadal takhle, se tenhle lesík jmenoval Temeliště, doubravou s habrem patřící nejprve k velkému panství v nedaleké Libni a později k hospodářskému statku v Bohnicích; většina dnešního porostu byla záměrně vysazena na přelomu devatenáctého a dvacátého století. Ono bohnické spojení se ukázalo důležitější, než jen sdílené jméno: v roce 1903 zemská správa odkoupila celé 303hektarové bohnické panství, včetně tohoto háje, výslovně kvůli stavbě nového pražského ústavu pro duševně nemocné, jehož léčebné zahrady a nemocniční budovy vyrostly hned vedle mezi lety 1904 a 1914. Samotný háj stavba minula a nechala ho dál růst.
+
+Dnes je to místo prostě příjemné, ne ponuré: dřevěná hájovna, pár památných starých dubů starších než všechno kolem nich, dětské hřiště a vyřezávaný dřevěný skřítek jménem Čimísek, který bdí nad naučnou stezkou otevřenou v roce 2017. Jen v roce 2021 zaznamenal háj přes 461 000 návštěv — skoro 29 000 na hektar, víc pěšího provozu, než většina pražských parků vidí za roky.
+
+🎁 Bonus: Čimický háj sdílí jméno se čtvrtí Čimice, ale ne se skřítkem, který hlídá jeho stezku — Čimísek byl vymyšlený přímo pro tuhle příležitost, maskot bez jakékoli folklorní historie, kromě té, kterou mu v roce 2017 dali tvůrci naučné stezky.`,
+
+      zh: `欢迎来到齐米采树林，这片位于布拉格北缘、面积25公顷的橡树、椴树与落叶松混交林——按照市政府自己的游客统计，按每公顷计算，这里被人步行、慢跑、骑行穿越的频率，几乎超过首都的任何一片森林。
+
+早在它变成如今这副模样之前很久，这片林地曾名为"特梅利什捷"，是一片橡树-鹅耳枥混交林，最初属于附近利本的一处大庄园，后来又归属波赫尼采的一处农庄；如今林中大部分树木，其实是19世纪末20世纪初特意重新栽种的。而与波赫尼采的这层渊源，其重要性远不止共用一个名字：1903年，省级机构买下了整个303公顷的波赫尼采庄园，这片树林也包含在内，目的正是要在此建造布拉格新的精神病收治机构——其疗养园区与医院建筑就在1904至1914年间，在树林紧邻处拔地而起。而树林本身则躲过了这场建设，被留了下来，继续生长。
+
+如今，这里单纯就是个惬意的去处，而非沉重之地：一座木结构的护林小屋，几棵比周围一切都年长的纪念古橡树，一片儿童游乐场，还有一尊木雕小精灵"齐米谢克"，守护着2017年开通的一条自然教育步道。仅2021一年，这片树林就录得超过461,000人次到访——相当于每公顷近29,000人次，比布拉格大多数公园好几年加起来的人流量都多。
+
+🎁 彩蛋：齐米采树林与齐米采这个城区共用一个名字，但守护步道的那尊小精灵却不是——"齐米谢克"完全是为这条步道量身打造的角色，2017年由步道设计者一手创造，背后没有任何真正的民间传说。`,
+    },
+  },
+  {
+    // Added 2026-09-06, user-supplied coordinates — new Location for the
+    // History Timeline card one-jailbreak-two-castles-1420
+    // (seedHistoryEvents.js). Well outside Prague day-trip range (a ruin
+    // south of Tábor), but matches the standing precedent for "out-of-town
+    // castle ruin tied to a specific History Timeline event" already used
+    // for zricenina-hradu-rotstejn, zricenina-hradu-tetin, etc. — not the
+    // ordinary satellite-town scope rule.
+    // Content confirmed via WebSearch/WebFetch (cs.wikipedia's own
+    // "Příběnice" article, hrady.cz, novinky.cz, jednoustopouceskem.cz):
+    // founded ~1243 by the Vítkovci, expanded by Petr I of Rožmberk with a
+    // chapel, doubled as the Rožmberk family's own South Bohemian
+    // treasury (per novinky.cz's own inventory: chalices, gold/silver
+    // clasps, pearls, monstrances, a bishop's crown and staff from
+    // Milevsko), fell to Václav Koranda's own jailbreak and a Táborite
+    // relief force in November 1420 (full story on the History Timeline
+    // card), held by Tábor until an 1437 peace settlement required
+    // Oldřich II of Rožmberk to demolish both castles himself. Present-day
+    // visitor detail (suspended footbridge, 1938-39 rock tunnel on the
+    // trail to Tábor) per jednoustopouceskem.cz.
+    // Příběničky, the smaller sister castle across the river, is rendered
+    // in ZH as "小普日贝尼采" (literally "Little Příběnice") rather than a
+    // fresh phonetic transliteration of the Czech diminutive suffix — it's
+    // literally what the name means, and reads more naturally than an
+    // invented phonetic string; kept EN/CZ as the real name "Příběničky"
+    // since that transliterates cleanly in Latin script. Same choice made
+    // in the paired History Timeline card — keep them in sync if either is
+    // revised.
+    // No English Wikipedia article exists for this castle — cs.wikipedia
+    // linked instead, per established precedent (e.g. libice-nad-cidlinou,
+    // karel-iv.).
+    // rarity 'epic', labels ['ruin', 'historical', 'architecture'] —
+    // matching zricenina-hradu-rotstejn's own tier and label set for a
+    // narratively significant but no-longer-standing ruin.
+    name: 'Příběnice Castle Ruins',
+    slug: 'zricenina-hradu-pribenice',
+    localizedNames: { cz: 'Zřícenina hradu Příběnice', zh: '普日贝尼采城堡遗迹' },
+    labels: ['ruin', 'historical', 'architecture'],
+    coordinates: { lat: 49.39290606196908, lng: 14.562409342501924 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/P%C5%99%C3%ADb%C4%9Bnice',
+    description: {
+      en: `Welcome to the ruins of Příběnice Castle, perched on a dramatic bend of the Lužnice River south of Tábor — once one of the Rožmberk family's mightiest strongholds, until a single stubborn prisoner brought the whole thing down from the inside.
+
+Founded around 1243 by the Vítkovci and expanded a century later by Petr I of Rožmberk into a proper fortified seat with its own chapel, Příběnice doubled as the family's own South Bohemian vault: chalices, gold and silver clasps, pearls, monstrances, even a bishop's crown and staff, all kept behind these walls for safekeeping. A smaller sister castle, Příběničky, stood guard on the opposite bank, linked by a bridge, giving the Rožmberks control of both sides of the river at once.
+
+That confidence lasted until November 1420, when a Hussite priest held prisoner inside worked himself free of his own chains and threw the gates open from within just as a Táborite relief force arrived outside. Both castles fell in the same operation, their whole treasury carried off with them. Oldřich II of Rožmberk still held the ruins for another seventeen years, until a 1437 peace settlement finally required him to tear down what was left of both fortresses with his own hand.
+
+🎁 Bonus: today's ruin is a genuinely wild spot rather than a tidy monument — a suspended footbridge runs along the river cliffs nearby, and a short tunnel blasted through the rock in 1938–39 still connects the site to the hiking trail toward Tábor.`,
+
+      cz: `Vítejte u zříceniny hradu Příběnice, položené na výrazné zákrutě řeky Lužnice jižně od Tábora — kdysi jedné z nejmocnějších pevností rodu Rožmberků, dokud ji zevnitř nezbořil jediný neoblomný vězeň.
+
+Založené kolem roku 1243 Vítkovci a o století později rozšířené Petrem I. z Rožmberka na pořádné opevněné sídlo s vlastní kaplí, sloužily Příběnice zároveň jako rodinný trezor jižních Čech: kalichy, zlaté a stříbrné spony, perly, monstrance, dokonce i biskupská mitra a berla, to vše uložené za těmito hradbami. Na protějším břehu hlídal menší sesterský hrad Příběničky, spojený mostem, díky čemuž Rožmberkové ovládali oba břehy řeky najednou.
+
+Ta jistota vydržela do listopadu 1420, kdy se husitský kněz vězněný uvnitř sám osvobodil z vlastních okovů a otevřel brány zevnitř přesně ve chvíli, kdy zvenčí dorazila táborská posila. Oba hrady padly v jediné akci a jejich celá pokladnice s nimi zmizela. Oldřich II. z Rožmberka držel trosky ještě dalších sedmnáct let, než mu mírová dohoda z roku 1437 nakonec nařídila obě pevnosti vlastnoručně strhnout.
+
+🎁 Bonus: dnešní zřícenina je opravdu divoké místo, ne uhlazený památník — nedaleko po skalách nad řekou vede visutá lávka a krátký tunel prosekaný skálou v letech 1938–39 dodnes spojuje místo s turistickou stezkou směrem na Tábor.`,
+
+      zh: `欢迎来到普日贝尼采城堡遗迹，坐落在塔博尔以南、卢日尼采河一处急转弯上——曾是罗森贝格家族最坚固的据点之一，直到一个不肯认命的囚犯，把它从内部彻底攻破。
+
+这座城堡约建于1243年，由维特科夫采家族所建，一个世纪后经罗森贝格的彼得一世扩建，加盖了自己的礼拜堂，成为一处真正的设防宅邸，同时还兼作家族在南波希米亚的保险库：圣餐杯、金银搭扣、珍珠、圣体匣，甚至还有一顶主教的冠冕与权杖，全都存放在这些城墙之内。河对岸还立着一座较小的姊妹城堡"小普日贝尼采"，靠一座桥与主堡相连，让罗森贝格家族得以同时掌控河的两岸。
+
+这份笃定一直维持到1420年11月，被囚禁在城堡里的一名胡斯派神父自己挣脱了锁链，恰好在塔博尔派援军抵达城外之际，从内部打开了城门。两座城堡在同一次行动中双双陷落，城内的宝库也随之被一并搬空。奥德日赫二世·罗森贝格又守着这片废墟十七年，直到1437年的和约最终要求他亲手拆毁两座城堡剩下的部分。
+
+🎁 彩蛋：如今的遗迹是个真正野趣十足的地方，而非规规矩矩的纪念碑——附近河边悬崖上架着一条悬索便桥，一条1938至39年间凿穿岩石的短隧道，至今仍连接着通往塔博尔的徒步小径。`,
+    },
+  },
 ];
 
 async function run() {

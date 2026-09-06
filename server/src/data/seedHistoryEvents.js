@@ -13698,8 +13698,7 @@ export const historyEvents = [
   // trimmed to Prague's own front only — Žižka's south-western Bohemia
   // campaign and the Prachatice massacre moved to their own card,
   // blood-for-blood-1420, and the closing synthesis was cut outright
-  // rather than kept here (this card now closes on Prague Castle's own
-  // June 1421 capitulation, no summary/thesis paragraph after it).
+  // rather than kept here.
   // Corrections made against the user's original combined draft, still
   // accurate to the content that remains below:
   // - "贝隆" corrected to Beroun (not Bělá) — matches the real record of
@@ -13712,16 +13711,68 @@ export const historyEvents = [
   //   mob, some saved only by Hussite nobles risking themselves
   //   (nasregion.cz). Churches gutted and part of the walls torn down the
   //   next day: encyklopedie.praha2.cz.
-  // - June 1421 Prague Castle capitulation corrected: the user's original
-  //   draft said the Catholic nobles were "basically all killed"; three
-  //   independent sources (nasregion.cz, general search consensus) instead
-  //   describe a peaceful capitulation with free passage granted, no
-  //   massacre — some of the garrison went on to Karlštejn Castle
-  //   afterward. Written as a peaceful surrender per the sourced version,
-  //   not the user's original claim.
+  // - The June 1421 Prague Castle capitulation correction (peaceful
+  //   surrender, not a massacre, per nasregion.cz and general search
+  //   consensus, against the user's original "basically all killed" draft)
+  //   no longer applies to THIS card as of the restructuring below — kept
+  //   here as a note for whoever eventually writes the deferred card that
+  //   actually narrates it, so the correction isn't lost.
   // - year field uses a range ("1420–1421"), matching the precedent set by
   //   from-king-to-prisoner-1394, since the card genuinely spans
-  //   November 1420 through June 1421.
+  //   November 1420 through roughly spring 1421.
+  //
+  // Restructured 2026-09-04, later the same day, at the user's own
+  // request: this card originally closed on Prague Castle's own June 1421
+  // capitulation, but that skipped straight past two events the user
+  // flagged as too important to skate over — Prague's own move against
+  // Mikuláš of Hus (the "invite him to a feast, then move against him"
+  // episode) and the Čáslav Diet — both landing in this same Nov
+  // 1420-June 1421 window. Rather than rush either into a sentence here,
+  // Prague Castle's own fall (and those two events) are deferred whole to
+  // a future card that can actually give the Utraquist/Táborite rift the
+  // weight the user says this stretch deserves. This card's own image
+  // (originally at /history/nothing-could-stop-them-1421.webp, depicting
+  // exactly that capitulation scene — royal garrison marching out, chalice
+  // banner going up) and its st-vitus-cathedral relatedLandmarks entry
+  // moved out along with the content: NOT deleted, reserved for whichever
+  // future card narrates June 1421. UPDATE 2026-09-04, later the same day:
+  // that filename itself has since been reused for this card's own new
+  // Nový Hrad image (see the dev note further below) — the original
+  // capitulation-scene file was extracted from git history (commit
+  // c7877d3) first and now lives at
+  // /history/prague-castle-capitulation-1421.webp instead, so it's still
+  // on disk under this new name, not lost; whoever writes that future card
+  // should reuse/rename it from there, not regenerate from scratch. In
+  // their place, this card's own closing now
+  // pivots south to Žižka's parallel campaign (the two paragraphs that
+  // used to open blood-for-blood-1420's own summary, moved here and
+  // lightly trimmed of their own now-redundant "Prague's own Hussites were
+  // tearing through the countryside" opening clause, since this card just
+  // finished narrating exactly that) and plants an explicit Prachatice
+  // foreshadow by name. The hookLine was rewritten to match: it no longer
+  // claims Prague reached full control of its own city (that resolution
+  // now waits for the deferred card too), instead naming both fronts'
+  // shared momentum, matching the title. That closing paragraph's own
+  // wording was further tightened by the user directly ("与此同时，杰式卡...")
+  // shortly after — dropped the "this stretch of the story wasn't the one
+  // to answer it" meta-aside in favor of a plainer "but whether that
+  // surrender would hold was another question," and EN/CZ were brought in
+  // line with the same simplification rather than left on the earlier,
+  // wordier version.
+  //
+  // vysehrad added as this card's own first relatedLandmarks entry
+  // 2026-09-04, at the user's request — the fortress itself, where the
+  // card's own opening paragraph (looted churches, torn-down walls, the
+  // thanksgiving procession) actually takes place.
+  //
+  // New image, 2026-09-04 — this card's own image slot, left empty since
+  // the original capitulation-scene image moved out with the deferred
+  // Prague Castle/Mikuláš/Čáslav content (see the dev note above), is
+  // filled again: Nový Hrad under siege and burning in the snow, January
+  // 1421, matching this card's own second paragraph. User-generated and
+  // accepted on the first pass, no revision needed. Caption "NOTHING
+  // COULD STOP THEM" chosen by the user from four options, directly
+  // echoing the card's own title.
   {
     slug: "nothing-could-stop-them-1421",
     era: "religious-turmoil",
@@ -13729,9 +13780,9 @@ export const historyEvents = [
     images: ["/history/nothing-could-stop-them-1421.webp"],
     imageCaptions: [
       {
-        en: "Prague Castle's own royal garrison marches out in good order as Hussite forces march in and raise the chalice banner over the gate, June 1421.",
-        cz: "Královská posádka Pražského hradu odchází v pořádku, zatímco husitské síly vstupují a nad branou vztyčují kališnickou korouhev, červen 1421.",
-        zh: "布拉格城堡的王室驻军体面撤离，胡斯派军队随即入驻，并在城门上升起圣杯旗，1421年6月。",
+        en: "Nový Hrad near Kunratice under siege and ablaze in the snow, Hussite banners raised outside its walls, January 1421.",
+        cz: "Nový hrad u Kunratic obležený a hořící ve sněhu, husitské korouhve vztyčené před jeho hradbami, leden 1421.",
+        zh: "昆拉蒂采附近的新城堡在风雪中遭围攻焚毁，胡斯派旗帜在城墙外高高竖起，1421年1月。",
       },
     ],
     year: {
@@ -13746,16 +13797,24 @@ export const historyEvents = [
       zh: "势如破竹",
     },
     hookLine: {
-      en: "Vyšehrad was down. Everything else standing between Prague and full control of its own city didn't last much longer either.",
-      cz: "Vyšehrad padl. Všechno ostatní, co Praze ještě stálo v cestě k plné kontrole nad vlastním městem, taky dlouho nevydrželo.",
-      zh: "维谢赫拉德已经拿下。挡在布拉格与彻底掌控自己这座城市之间的其他一切，也没能撑太久。",
+      en: "Vyšehrad was down, and most of what still stood in Prague's own way didn't last long after it. Two hundred kilometres south, Žižka's own campaign was moving just as fast.",
+      cz: "Vyšehrad padl, a většina toho, co Praze ještě stálo v cestě, dlouho nevydržela ani ona. Dvě stě kilometrů na jih postupovalo Žižkovo vlastní tažení stejně rychle.",
+      zh: "维谢赫拉德已经拿下，挡在布拉格面前的大半障碍，也没能撑太久。两百公里外的南方，杰式卡自己的攻势推进得同样迅猛。",
     },
     summary: {
-      en: "Vyšehrad's fall didn't end cleanly. Under the terms of the surrender, part of the garrison took service with Prague itself, and the rest, honoring their own side of the bargain, were escorted safely to Kouřim. That was the orderly half of it. Somewhere in the ravine below the fortress, a separate group, roughly two dozen Czech and Moravian nobles caught up in the same defeat, were killed outright by a mob the formal surrender terms never covered; a few survived only because Hussite nobles of their own stepped between the crowd and the condemned, at real personal risk. Prague's own citizens then poured into Vyšehrad's churches and gutted them, and by the next day part of the fortress walls themselves had come down too. None of it stopped a thanksgiving procession from marching out onto the battlefield soon after, to thank God for the win.\n\nPrague's own soldiers didn't stop to enjoy it for long. Through December they laid siege to [[link:the-king-who-was-frightened-to-death-1419]]Nový Hrad[[/link]] near Kunratice, the same hunting retreat where news of the First Defenestration had once stopped Wenceslas IV's heart; by late January 1421 it had fallen and burned to the ground. Alongside Tábor's own men, and further out the Orebites, Prague's forces went on to take Říčany, Beroun, and Český Brod, clearing the country around the capital of anyone still flying a royalist flag.\n\nEven Prague's own last holdout finally gave up the fight: in June 1421, after nearly a year under siege, Prague Castle's own royal garrison capitulated too, peacefully and on terms, free to walk out rather than face what had happened at Vyšehrad. For the first time since the crusade had arrived, the whole of Prague belonged to one side.",
-      cz: "Pád Vyšehradu neskončil čistě. Podle podmínek kapitulace část posádky vstoupila do pražských služeb, zbytek, věrný vlastní straně dohody, byl bezpečně doprovozen do Kouřimi. To byla ta spořádaná polovina. Někde v roklině pod pevností byla samostatná skupina, nějakých pětadvacet českých a moravských šlechticů zachycených ve stejné porážce, rovnou pobita davem, na který se formální kapitulační podmínky nikdy nevztahovaly; někteří přežili jen díky tomu, že se vlastní husitští šlechtici postavili mezi dav a odsouzené, s reálným rizikem pro sebe. Pražští měšťané se pak nahrnuli do vyšehradských kostelů a vyrabovali je, a už druhého dne padla i část samotných hradeb. Nic z toho nezabránilo tomu, aby krátce nato na bojiště vytáhl děkovný průvod poděkovat Bohu za vítězství.\n\nPražské vojsko se u toho dlouho nezdrželo. Přes prosinec obléhalo [[link:the-king-who-was-frightened-to-death-1419]]Nový hrad[[/link]] u Kunratic, tentýž lovecký hrádek, kde kdysi zpráva o první pražské defenestraci zastavila srdce Václava IV.; koncem ledna 1421 padl a vyhořel do základů. Společně s vlastními tábority a dál i s Orebity pak pražské síly dobyly Říčany, Beroun a Český Brod a vyčistily okolí hlavního města od kohokoli, kdo ještě vlál královskou vlajkou.\n\nNakonec se vzdala i poslední pražská výjimka: v červnu 1421, po téměř roce obležení, kapitulovala i vlastní královská posádka Pražského hradu, pokojně a za podmínek, směla svobodně odejít, místo aby čelila tomu, co se stalo na Vyšehradě. Poprvé od příchodu křížové výpravy patřila celá Praha jedné straně.",
-      zh: "维谢赫拉德的陷落，收尾并不干净。按照投降协议的条款，部分守军进了布拉格人的麾下效力，其余的人则信守协议，被安全护送到了库日姆。这是体面的那一半。而在城堡下方的沟壑里，另有一批约二十五名同样陷入这场溃败的捷克与摩拉维亚贵族，被正式投降条款根本保护不到的暴民当场处死；少数人能活下来，全靠胡斯派自己的贵族挺身站在暴民与被害者之间，冒着真正的生命危险。布拉格市民随后又涌进维谢赫拉德的教堂，把里面洗劫一空，第二天，城堡的一段城墙也被拆毁。这一切都没能阻止不久之后一场感恩游行开赴战场，感谢上帝赐予的胜利。\n\n布拉格的军人没有多逗留庆祝。整个12月，他们围攻昆拉蒂采附近的[[link:the-king-who-was-frightened-to-death-1419]]新城堡[[/link]]，就是当年“第一次布拉格掷出窗外事件”的消息一度吓停瓦茨拉夫四世心脏的那座狩猎行宫；到1421年1月末，城堡陷落，被烧成了一片废墟。布拉格的军队随后又联合塔博尔派的人马，以及更远处的奥列比特人，先后拿下日恰尼、贝罗温和捷克布罗德，把首都周边还打着王室旗号的地方清扫了一遍。\n\n就连布拉格城内最后的堡垒也终于撑不下去了：1421年6月，围困将近一年之后，布拉格城堡自己的王室驻军也宣告投降，条件体面，获准自由离开，没有重蹈维谢赫拉德的覆辙。十字军兵临城下以来，整座布拉格第一次完全归于一方之手。",
+      en: "Vyšehrad's fall didn't end cleanly. Under the terms of the surrender, part of the garrison took service with Prague itself, and the rest, honoring their own side of the bargain, were escorted safely to Kouřim. That was the orderly half of it. Somewhere in the ravine below the fortress, a separate group, roughly two dozen Czech and Moravian nobles caught up in the same defeat, were killed outright by a mob the formal surrender terms never covered; a few survived only because Hussite nobles of their own stepped between the crowd and the condemned, at real personal risk. Prague's own citizens then poured into Vyšehrad's churches and gutted them, and by the next day part of the fortress walls themselves had come down too. None of it stopped a thanksgiving procession from marching out onto the battlefield soon after, to thank God for the win.\n\nPrague's own soldiers didn't stop to enjoy it for long. Through December they laid siege to [[link:the-king-who-was-frightened-to-death-1419]]Nový Hrad[[/link]] near Kunratice, the same hunting retreat where news of the First Defenestration had once stopped Wenceslas IV's heart; by late January 1421 it had fallen and burned to the ground. Alongside Tábor's own men, and further out the Orebites, Prague's forces went on to take Říčany, Beroun, and Český Brod, clearing the country around the capital of anyone still flying a royalist flag.\n\nMeanwhile, Žižka's own campaign to subdue southern Bohemia was going just as smoothly. His Táborites rolled through south-western Bohemia — Vodňany, Lomnice nad Lužnicí, Malý Bor — and most towns took one look and surrendered before anyone had to ask twice. Prachatice was among them. But whether that surrender would actually hold was another question.",
+      cz: "Pád Vyšehradu neskončil čistě. Podle podmínek kapitulace část posádky vstoupila do pražských služeb, zbytek, věrný vlastní straně dohody, byl bezpečně doprovozen do Kouřimi. To byla ta spořádaná polovina. Někde v roklině pod pevností byla samostatná skupina, nějakých pětadvacet českých a moravských šlechticů zachycených ve stejné porážce, rovnou pobita davem, na který se formální kapitulační podmínky nikdy nevztahovaly; někteří přežili jen díky tomu, že se vlastní husitští šlechtici postavili mezi dav a odsouzené, s reálným rizikem pro sebe. Pražští měšťané se pak nahrnuli do vyšehradských kostelů a vyrabovali je, a už druhého dne padla i část samotných hradeb. Nic z toho nezabránilo tomu, aby krátce nato na bojiště vytáhl děkovný průvod poděkovat Bohu za vítězství.\n\nPražské vojsko se u toho dlouho nezdrželo. Přes prosinec obléhalo [[link:the-king-who-was-frightened-to-death-1419]]Nový hrad[[/link]] u Kunratic, tentýž lovecký hrádek, kde kdysi zpráva o první pražské defenestraci zastavila srdce Václava IV.; koncem ledna 1421 padl a vyhořel do základů. Společně s vlastními tábority a dál i s Orebity pak pražské síly dobyly Říčany, Beroun a Český Brod a vyčistily okolí hlavního města od kohokoli, kdo ještě vlál královskou vlajkou.\n\nMezitím probíhalo stejně hladce i Žižkovo vlastní tažení na podmanění jižních Čech. Jeho tábority se prohnaly jihozápadními Čechami — Vodňany, Lomnicí nad Lužnicí, Malým Borem — a většina měst se stačila jen podívat a vzdala se, než je někdo musel žádat dvakrát. Mezi nimi byly i Prachatice. Jestli se to podrobení doopravdy udrží, to už byla úplně jiná otázka.",
+      zh: "维谢赫拉德的陷落，收尾并不干净。按照投降协议的条款，部分守军进了布拉格人的麾下效力，其余的人则信守协议，被安全护送到了库日姆。这是体面的那一半。而在城堡下方的沟壑里，另有一批约二十五名同样陷入这场溃败的捷克与摩拉维亚贵族，被正式投降条款根本保护不到的暴民当场处死；少数人能活下来，全靠胡斯派自己的贵族挺身站在暴民与被害者之间，冒着真正的生命危险。布拉格市民随后又涌进维谢赫拉德的教堂，把里面洗劫一空，第二天，城堡的一段城墙也被拆毁。这一切都没能阻止不久之后一场感恩游行开赴战场，感谢上帝赐予的胜利。\n\n布拉格的军人没有多逗留庆祝。整个12月，他们围攻昆拉蒂采附近的[[link:the-king-who-was-frightened-to-death-1419]]新城堡[[/link]]，就是当年”第一次布拉格掷出窗外事件”的消息一度吓停瓦茨拉夫四世心脏的那座狩猎行宫；到1421年1月末，城堡陷落，被烧成了一片废墟。布拉格的军队随后又联合塔博尔派的人马，以及更远处的奥列比特人，先后拿下日恰尼、贝罗温和捷克布罗德，把首都周边还打着王室旗号的地方清扫了一遍。\n\n与此同时，杰式卡征讨南波希米亚的故事，也是同样的顺利。他麾下的塔博尔派横扫波希米亚西南部——沃德尼亚尼、卢日尼察河畔洛姆尼察、马利博尔——大多数城镇看一眼形势，用不着别人开口第二次，就自己投降了。普拉哈蒂采也在其中。但这份归顺到底能不能守住，那就是另一个问题了。",
     },
     relatedLandmarks: [
+      {
+        slug: "vysehrad",
+        relation: {
+          en: "The fortress itself, where all of this happened: its churches gutted, part of its own walls torn down within a day of the surrender, and a thanksgiving procession marching out onto the same ground soon after.",
+          cz: "Samotná pevnost, kde se to všechno odehrálo: kostely vyrabované, část vlastních hradeb strhnutá do dne od kapitulace, a krátce nato po stejné zemi pochodující děkovný průvod.",
+          zh: "这一切都发生在这座城堡本身：教堂被洗劫一空，投降后不到一天，部分城墙就被拆毁，不久之后，一场感恩游行又开赴同一片土地。",
+        },
+      },
       {
         slug: "kourim",
         relation: {
@@ -13770,14 +13829,6 @@ export const historyEvents = [
           en: "The same hunting retreat where news of the First Defenestration once stopped Wenceslas IV's heart, besieged and burned to nothing by Prague's own forces in January 1421.",
           cz: "Stejný lovecký hrádek, kde kdysi zpráva o první pražské defenestraci zastavila srdce Václava IV., v lednu 1421 obležený a vypálený do základů pražským vojskem.",
           zh: "就是当年“第一次布拉格掷出窗外事件”的消息传来、吓停瓦茨拉夫四世心脏的那座狩猎行宫，1421年1月被布拉格自己的军队围攻，烧成了一片废墟。",
-        },
-      },
-      {
-        slug: "st-vitus-cathedral",
-        relation: {
-          en: "Prague Castle's own royal garrison finally capitulated here in June 1421, free to walk out rather than face what had happened at Vyšehrad, and Prague belonged to one side at last.",
-          cz: "Zdejší vlastní královská posádka Pražského hradu tu v červnu 1421 konečně kapitulovala, směla svobodně odejít místo toho, aby čelila tomu, co se stalo na Vyšehradě, a Praha konečně patřila jedné straně.",
-          zh: "布拉格城堡的王室驻军1421年6月终于在这里投降，获准自由离开，没有重蹈维谢赫拉德的覆辙——布拉格终于完全归了一方。",
         },
       },
       {
@@ -13819,11 +13870,20 @@ export const historyEvents = [
   // - Positioned AFTER nothing-could-stop-them-1421 (moved here 2026-09-04
   //   at the user's own request, having originally sat between
   //   a-promise-kept-too-well-1420 and nothing-could-stop-them-1421) — its
-  //   own story runs April-November 1420, told here as a "meanwhile, two
+  //   own story runs April-November 1420, told there as a "meanwhile, two
   //   hundred kilometres south" thread rather than strictly by its own
-  //   earliest date, echoing the opening line originally written for the
-  //   (now-trimmed) combined card, which now doubles as a callback to
-  //   nothing-could-stop-them-1421's own "势如破竹" title just read.
+  //   earliest date.
+  // - Further restructured later the same day (2026-09-04): the two
+  //   opening paragraphs that used to sit here ("Prague's own Hussites
+  //   were tearing through the countryside..." / the south-western Bohemia
+  //   sweep through Vodňany, Lomnice nad Lužnicí, Malý Bor) moved
+  //   into nothing-could-stop-them-1421's own new closing instead, per the
+  //   user's own request, so this card now opens directly on Prachatice
+  //   itself ("Prachatice surrendered too...") rather than re-introducing
+  //   the wider campaign a second time. The bullet just above, describing
+  //   that opening line as echoing nothing-could-stop-them-1421's own
+  //   "势如破竹" title, is superseded by this — the actual echo now happens
+  //   one card earlier, in that card's own text, not here.
   // - The user's own draft was corrected on one real factual point,
   //   confirmed with the user before writing: the draft had Žižka's
   //   garrison staying in Prachatice under lenient terms (Germans free to
@@ -13907,9 +13967,9 @@ export const historyEvents = [
       zh: "普拉哈蒂采从来没有真正投降过，它只是在等一个报仇的机会，最后，杰式卡也是。",
     },
     summary: {
-      en: "Prague's own Hussites were tearing through the countryside like nothing could touch them. Two hundred kilometres south, Žižka was managing the same trick with less effort.\n\nHis Táborites rolled through south-western Bohemia, Vodňany, Lomnice nad Lužnicí, Malý Bor, and most towns took one look and surrendered before anyone had to ask twice.\n\nPrachatice surrendered too. Conviction had nothing to do with it. The town was full of German-speaking Catholic gentry who considered the whole Hussite movement a rabble of Czech farmers playing at theology, and bowing to them was purely a survival tactic.\n\nAs it turned out, they couldn't even manage that much conviction. The moment Žižka's army walked in, the town's Catholics simply walked out, choosing exile over living among people they despised. Žižka didn't stick around to enjoy the irony: his men burned part of the town, knocked down a stretch of its wall, left behind a handful of new Utraquist converts to mind the place, and moved on to go win somewhere else.\n\nBy September the exiles were back. They patched up their houses well enough, rebuilt the wall properly this time, and turned their attention to their former neighbors:\n\n[[quote:0]]\n\nŽižka, to his credit, tried talking first, more than once. Prachatice's Germans answered every offer the same way: rabble. Peasants. Worse.\n\nThat November he came back with an army, and offered the walls one more chance before the fighting started:\n\n[[quote:1]]\n\nThe city that had once surrendered without needing to be asked twice barely bothered to fight this time before it fell to him a second time. Žižka kept the promise he'd just sworn.\n\nHis own furious Táborites went door to door settling accounts in person: roughly a hundred and thirty-five men cut down in the streets with flails and swords, like so many slaughtered pigs. Another eighty-five were herded into the church's own sacristy, where barrels and straw were set alight around them, and burned without a shred of mercy.\n\nOfficially, none of this counted as cruelty. It was blood for blood, a debt paid on behalf of the Hussite dead this same town had already burned once itself. Even the killing itself came with the appearance of piety, or so the chronicle insists: the men doing it are said to have knelt down first, hands raised to heaven, begging that their victims at least be granted time to repent before they finished the job.\n\n[[quote:2]]",
-      cz: "Pražští husité se hnali krajinou, jako by je nic nemohlo zastavit. Dvě stě kilometrů na jih dokázal Žižka totéž s menší námahou.\n\nJeho tábority se prohnaly jihozápadními Čechami, Vodňany, Lomnicí nad Lužnicí, Malým Borem, a většina měst se stačila jen podívat a vzdala se, než je někdo musel žádat dvakrát.\n\nPrachatice se vzdaly taky. Přesvědčení s tím nemělo nic společného. Město bylo plné německy mluvící katolické honorace, která celé husitské hnutí považovala za bandu českých sedláků hrajících si na teology, a sklonit se před nimi byla čistě taktika přežití.\n\nUkázalo se, že ani na tolik přesvědčení neměli. Jakmile Žižkovo vojsko vstoupilo do města, jeho katolíci prostě odešli, raději do vyhnanství než mezi lidi, kterými pohrdali. Žižka se u té ironie nezdržoval: jeho muži vypálili část města, strhli kus hradeb, ve městě nechali jen hrstku nových stoupenců kalicha, aby na to dohlédli, a odtáhli vyhrávat jinam.\n\nV září se vyhnanci vrátili. Jakž takž si opravili domy, tentokrát pořádně obnovili hradby a obrátili pozornost ke svým bývalým sousedům:\n\n[[quote:0]]\n\nŽižka to k jeho cti nejdřív zkoušel po dobrém, víckrát. Němci z Prachatic odpovídali na každou nabídku stejně: chátra. Sedláci. A hůř.\n\nToho listopadu se vrátil s vojskem a hradbám dal ještě jednu šanci, než začal boj:\n\n[[quote:1]]\n\nMěsto, které se kdysi vzdalo bez jediného přemlouvání, se tentokrát sotva obtěžovalo bojovat, než mu padlo podruhé. Žižka dodržel slib, který právě složil.\n\nJeho vlastní rozzuření tábority si to se všemi vyřídili osobně, dům od domu: v ulicích padlo cepy a meči kolem sto třiceti pěti mužů, ubitých jako vepři na porážce. Dalších osmdesát pět bylo nahnáno do kostelní sakristie, kde kolem nich zapálili sudy a slámu a bez špetky milosrdenství je upálili.\n\nOficiálně to nebyla krutost. Byla to krev za krev, dluh splacený za husity, které toto samé město už jednou samo upálilo. Dokonce i tohle zabíjení si prý zachovalo zdání zbožnosti: muži, kteří ho prováděli, si podle kroniky nejdřív klekli, zvedli ruce k nebi a prosili, aby jejich obětem bylo aspoň dopřáno trochu času na pokání, než dílo dokonají.\n\n[[quote:2]]",
-      zh: "布拉格的胡斯派横扫乡野，一副谁都拦不住的架势。两百公里外的南方，杰式卡用更少的力气办成了同一件事。\n\n他麾下的塔博尔派横扫波希米亚西南部——沃德尼亚尼、卢日尼察河畔洛姆尼察、马利博尔——大多数城镇看一眼形势，用不着别人开口第二次，就自己投降了。\n\n普拉哈蒂采也投降了。跟诚不诚心没什么关系。城里满是说德语的天主教贵族，他们打心眼里瞧不起整个胡斯运动，觉得不过是一帮玩票神学的捷克农民，向他们低头，纯粹是保命的权宜之计。\n\n结果连这点权宜都没坚持住。杰式卡的军队一进城，城里的天主教徒干脆直接走人，宁愿流亡在外，也不肯跟自己看不起的人住在一起。杰式卡也没工夫细品这份讽刺：他的部下烧毁了部分城镇，拆了一段城墙，留下一小撮新皈依圣餐杯派的居民看家，转头就去别处打仗立功了。\n\n到了9月，这些流亡者又回来了。他们勉强修补好房屋，这次把城墙彻底重建了一遍，然后把矛头转向了从前的邻居：\n\n[[quote:0]]\n\n平心而论，杰式卡一开始还是好言相劝，而且不止一次。普拉哈蒂采的德国人对每一次示好的回应都一样：贱民。农民。甚至更难听的话。\n\n那年11月，他带着军队再次而来，开战之前，又给了城墙内的人最后一次机会：\n\n[[quote:1]]\n\n这座当年投降都不用人劝第二遍的城市，这一次几乎懒得像样地打一场，就再度城破。杰式卡也兑现了自己刚刚立下的誓言。\n\n他麾下暴怒的塔博尔派挨家挨户亲自算账：街头约有一百三十五人被连枷和刀剑砍杀，像屠宰场里的猪一样被打死。另外八十五人被赶进教堂的圣器室，周围堆起木桶与稻草点火，他们毫无怜悯地被活活烧死。\n\n官方说法里，这算不上残忍。这是以血还血，替这座城早前亲手烧死的那些胡斯教徒还债。就连这场杀戮本身，据编年史记载，也维持着一副虔诚的样子：动手的人据说先跪了下来，双手举向天空，祈求至少让这些受害者在被了结之前，能有机会悔改。\n\n[[quote:2]]",
+      en: "Prachatice surrendered too. Conviction had nothing to do with it. The town was full of German-speaking Catholic gentry who considered the whole Hussite movement a rabble of Czech farmers playing at theology, and bowing to them was purely a survival tactic.\n\nAs it turned out, they couldn't even manage that much conviction. The moment Žižka's army walked in, the town's Catholics simply walked out, choosing exile over living among people they despised. Žižka didn't stick around to enjoy the irony: his men burned part of the town, knocked down a stretch of its wall, left behind a handful of new Utraquist converts to mind the place, and moved on to go win somewhere else.\n\nBy September the exiles were back. They patched up their houses well enough, rebuilt the wall properly this time, and turned their attention to their former neighbors:\n\n[[quote:0]]\n\nŽižka, to his credit, tried talking first, more than once. Prachatice's Germans answered every offer the same way: rabble. Peasants. Worse.\n\nThat November he came back with an army, and offered the walls one more chance before the fighting started:\n\n[[quote:1]]\n\nThe city that had once surrendered without needing to be asked twice barely bothered to fight this time before it fell to him a second time. Žižka kept the promise he'd just sworn.\n\nHis own furious Táborites went door to door settling accounts in person: roughly a hundred and thirty-five men cut down in the streets with flails and swords, like so many slaughtered pigs. Another eighty-five were herded into the church's own sacristy, where barrels and straw were set alight around them, and burned without a shred of mercy.\n\nOfficially, none of this counted as cruelty. It was blood for blood, a debt paid on behalf of the Hussite dead this same town had already burned once itself. Even the killing itself came with the appearance of piety, or so the chronicle insists: the men doing it are said to have knelt down first, hands raised to heaven, begging that their victims at least be granted time to repent before they finished the job.\n\n[[quote:2]]",
+      cz: "Prachatice se vzdaly taky. Přesvědčení s tím nemělo nic společného. Město bylo plné německy mluvící katolické honorace, která celé husitské hnutí považovala za bandu českých sedláků hrajících si na teology, a sklonit se před nimi byla čistě taktika přežití.\n\nUkázalo se, že ani na tolik přesvědčení neměli. Jakmile Žižkovo vojsko vstoupilo do města, jeho katolíci prostě odešli, raději do vyhnanství než mezi lidi, kterými pohrdali. Žižka se u té ironie nezdržoval: jeho muži vypálili část města, strhli kus hradeb, ve městě nechali jen hrstku nových stoupenců kalicha, aby na to dohlédli, a odtáhli vyhrávat jinam.\n\nV září se vyhnanci vrátili. Jakž takž si opravili domy, tentokrát pořádně obnovili hradby a obrátili pozornost ke svým bývalým sousedům:\n\n[[quote:0]]\n\nŽižka to k jeho cti nejdřív zkoušel po dobrém, víckrát. Němci z Prachatic odpovídali na každou nabídku stejně: chátra. Sedláci. A hůř.\n\nToho listopadu se vrátil s vojskem a hradbám dal ještě jednu šanci, než začal boj:\n\n[[quote:1]]\n\nMěsto, které se kdysi vzdalo bez jediného přemlouvání, se tentokrát sotva obtěžovalo bojovat, než mu padlo podruhé. Žižka dodržel slib, který právě složil.\n\nJeho vlastní rozzuření tábority si to se všemi vyřídili osobně, dům od domu: v ulicích padlo cepy a meči kolem sto třiceti pěti mužů, ubitých jako vepři na porážce. Dalších osmdesát pět bylo nahnáno do kostelní sakristie, kde kolem nich zapálili sudy a slámu a bez špetky milosrdenství je upálili.\n\nOficiálně to nebyla krutost. Byla to krev za krev, dluh splacený za husity, které toto samé město už jednou samo upálilo. Dokonce i tohle zabíjení si prý zachovalo zdání zbožnosti: muži, kteří ho prováděli, si podle kroniky nejdřív klekli, zvedli ruce k nebi a prosili, aby jejich obětem bylo aspoň dopřáno trochu času na pokání, než dílo dokonají.\n\n[[quote:2]]",
+      zh: "普拉哈蒂采也投降了。跟诚不诚心没什么关系。城里满是说德语的天主教贵族，他们打心眼里瞧不起整个胡斯运动，觉得不过是一帮玩票神学的捷克农民，向他们低头，纯粹是保命的权宜之计。\n\n结果连这点权宜都没坚持住。杰式卡的军队一进城，城里的天主教徒干脆直接走人，宁愿流亡在外，也不肯跟自己看不起的人住在一起。杰式卡也没工夫细品这份讽刺：他的部下烧毁了部分城镇，拆了一段城墙，留下一小撮新皈依圣餐杯派的居民看家，转头就去别处打仗立功了。\n\n到了9月，这些流亡者又回来了。他们勉强修补好房屋，这次把城墙彻底重建了一遍，然后把矛头转向了从前的邻居：\n\n[[quote:0]]\n\n平心而论，杰式卡一开始还是好言相劝，而且不止一次。普拉哈蒂采的德国人对每一次示好的回应都一样：贱民。农民。甚至更难听的话。\n\n那年11月，他带着军队再次而来，开战之前，又给了城墙内的人最后一次机会：\n\n[[quote:1]]\n\n这座当年投降都不用人劝第二遍的城市，这一次几乎懒得像样地打一场，就再度城破。杰式卡也兑现了自己刚刚立下的誓言。\n\n他麾下暴怒的塔博尔派挨家挨户亲自算账：街头约有一百三十五人被连枷和刀剑砍杀，像屠宰场里的猪一样被打死。另外八十五人被赶进教堂的圣器室，周围堆起木桶与稻草点火，他们毫无怜悯地被活活烧死。\n\n官方说法里，这算不上残忍。这是以血还血，替这座城早前亲手烧死的那些胡斯教徒还债。就连这场杀戮本身，据编年史记载，也维持着一副虔诚的样子：动手的人据说先跪了下来，双手举向天空，祈求至少让这些受害者在被了结之前，能有机会悔改。\n\n[[quote:2]]",
     },
     quotes: [
       {
@@ -13961,86 +14021,158 @@ export const historyEvents = [
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Prachatice",
   },
-  // New card, 2026-09-04, per the user's dictated outline (Chinese) — the
-  // fall of Rožmberk's Příběnice/Příběničky, Oldřich II's own peace with
-  // Žižka (paying off the-five-roses-1394's standing forward-hook), the
-  // Pikart purge at Klokoty, and the "North Prague, South Tábor" synthesis
-  // + Sigismund's crumbling prestige (both originally drafted for
-  // nothing-could-stop-them-1421, cut from that card at the user's own
-  // request, and now landing here instead as the true capstone of this
-  // whole Nov 1420-Apr 1421 stretch). Dated 1421 per the user's own
-  // explicit instruction, even though Příběnice's fall and the Rožmberk
-  // truce both happened in November 1420 — the Pikart purge (April 1421)
-  // and the truce's own April 1421 reconfirmation anchor the card's own
-  // closing beats solidly in 1421, and the "two centres of gravity"
-  // synthesis reads best as a 1421 vantage point looking back.
-  // - Confirmed via WebSearch/WebFetch (ccsh.cz, taborsky.denik.cz,
-  //   cs.wikipedia's own Oldřich II article): Příběnice/Příběničky fell to
-  //   Tábor in November 1420, "more by luck than siege craft" per
-  //   ccsh.cz's own account of Václav Koranda (imprisoned there, working
-  //   his own chains loose, smuggling word to Tábor, then throwing stones
-  //   from the tower during the actual assault) — a real detail, not
-  //   invented. Koranda giving up priestly duties afterward out of
-  //   conscience is also per that same source. (Koranda is a new figure to
-  //   this file as it currently stands — an earlier card featuring him,
-  //   crowned-with-straw-1420, was written and then deleted entirely
-  //   earlier this same session at the user's own request, so nothing here
-  //   assumes prior familiarity with him.)
-  // - Oldřich II of Rožmberk: raised on Hussite ideas himself as a young
-  //   man, pushed into Sigismund's Catholic camp once Tábor's radicalism
-  //   turned into a direct territorial loss, confirmed via WebSearch. The
-  //   18 November 1420 truce at Písek and its 25 April 1421 reconfirmation
-  //   are both confirmed independently. Linked via
-  //   [[link:the-five-roses-1394]].
-  // - The Pikart purge: confirmed via WebSearch (multiple sources
-  //   agreeing) — Žižka expelled the Pikart sect (led by Petr Kániš, an
-  //   early chiliastic/antinomian splinter, forerunner of the later, more
-  //   famous Adamites) from Příběnice; they fled across the Lužnice near
-  //   Dražice; Žižka hunted them down that April, burned roughly 50 at
-  //   Klokoty (Kániš among them, just before St. George's feast, 23
-  //   April), with another 25 burned after his own departure. No quotes[]
-  //   entry: this specific episode didn't turn up a quotable primary-
-  //   source line in the searches done for it.
-  // - No Location card exists for Příběnice, Klokoty, or Dražice (all
-  //   named in running prose only, not linked) — Písek does exist
-  //   (`pisek`), used as a relatedLandmarks entry since the truce was
-  //   actually signed there.
-  // - Title chosen by the user from four options: "North Prague, South
-  //   Tábor" / "Praha na severu, Tábor na jihu" / "北布拉格，南塔博尔."
+  // New card, 2026-09-06/07, per the user's own dictated draft (Chinese) —
+  // the November 1420 fall of Příběnice/Příběničky via Václav Koranda's own
+  // jailbreak, and Oldřich II of Rožmberk's resulting truce with Žižka.
+  // This is the "罗森贝格放到下一节去讲" payoff explicitly deferred by the user in
+  // blood-for-blood-1420's own dev comments above, and covers the same
+  // ground the old, since-removed north-prague-south-tabor-1421 card once
+  // compressed into a single paragraph (see that card's own preserved text
+  // further below in this file) — but as its own full card, with the
+  // escape's mechanics told in full rather than summarized, and without
+  // that older card's Pikart-purge/"two centres of gravity" material, which
+  // stays deferred along with it.
+  // - Positioned directly after blood-for-blood-1420 (startYear 1420.95)
+  //   since Příběnice fell one day after the Prachatice massacre this card
+  //   opens by referencing.
+  // - Facts confirmed via WebSearch/WebFetch against cs.wikipedia's own
+  //   "Příběnice" article, hrady.cz, novinky.cz, and the "Václav Koranda
+  //   starší" cs.wikipedia article: imprisonment at Příběnice from
+  //   September 1420; the escape from the wooden stock/chains, freeing
+  //   fellow prisoners, climbing the tower (planks wedged into the stone
+  //   joints per the user's own draft — not found independently
+  //   contradicted, kept as told); overpowering the sentry; the guard
+  //   Odolen's genuine defection and message to Tábor; the relief force
+  //   under captain Zbyněk of Buchov; the castle's fall on 13 November
+  //   1420; Příběničky's capture in the same operation; the treasury
+  //   inventory (chalices, gold/silver clasps, pearls, monstrances, a
+  //   bishop's crown and staff from Milevsko) per novinky.cz; and Oldřich
+  //   II's 18 November 1420 truce with Žižka at Písek, on Hussite terms,
+  //   permitting Hussite preaching on his own remaining lands (both already
+  //   independently confirmed for the older, removed card).
+  // - One date discrepancy flagged, not silently resolved: Václav Koranda's
+  //   own cs.wikipedia biography article gives the castle's fall as
+  //   "13 November 1422," two years off from every other source consulted
+  //   (hrady.cz, novinky.cz, and the causal chain into the confirmed
+  //   18 November 1420 Písek truce, which only makes sense if the castles
+  //   had just fallen). Treated as a likely error on that one page rather
+  //   than a genuine alternate dating, and 1420 used throughout — but
+  //   worth rechecking if this card is ever revisited.
+  // - Quote: a dramatic narrative passage (culminating in the war cry
+  //   "Tábor, hrr, Tábor!") found via WebFetch of hrady.cz's own castle
+  //   history page, which in turn credits a named collective volume,
+  //   *Hrady, zámky a tvrze v Čechách, na Moravě a ve Slezsku – Jižní
+  //   Čechy* (Nakladatelství Svoboda, 1986), as its own source — attributed
+  //   to that work rather than guessed further upstream to Sedláček, whose
+  //   own digitized volumes hrady.cz links elsewhere on the site but not,
+  //   as far as could be confirmed, for this specific page's text. Trimmed
+  //   with an ellipsis to skip the intervening Odolen paragraph, matching
+  //   this file's own established practice for excerpted quotes (e.g.
+  //   blood-for-blood-1420's own quotes[0]). Translated to EN/ZH by Claude
+  //   from the original Czech.
+  // - Příběničky rendered in ZH as "小普日贝尼采" (literally "Little Příběnice")
+  //   rather than a fresh phonetic transliteration of the Czech diminutive
+  //   — same choice made in this card's own new Location entry
+  //   (zricenina-hradu-pribenice, seedLocations.js); keep the two in sync
+  //   if either is revised.
+  // - New Location added for this card's own primary relatedLandmarks
+  //   entry: `zricenina-hradu-pribenice` (seedLocations.js), user-supplied
+  //   coordinates, `epic` rarity — see that entry's own dev comment.
+  //   `pisek` and `tabor` both already existed and are reused here.
+  // - Tone: "humorous," not "serious" like the war-narrative cards
+  //   immediately surrounding it (a-promise-kept-too-well-1420,
+  //   nothing-could-stop-them-1421, blood-for-blood-1420) — this is a
+  //   comic prison-break caper at its core, per the user's own explicit
+  //   brief ("调侃，黑色幽默，戏剧感"), not an atrocity account; matches how
+  //   what-were-europes-first-guns-1420, a lighter aside nested in the same
+  //   stretch, is also tagged "humorous" despite its surroundings.
+  // - Title chosen to match the user's own Chinese title directly: "One
+  //   Jailbreak, Two Castles" / "Jeden útěk, dva hrady" / "一起越狱，两座城堡."
+  // - Image, added 2026-09-07, caption "TÁBOR, HRR, TÁBOR!" (echoing the
+  //   card's own quotes[0]) — took three generation passes to land, worth
+  //   restating for future similar battle scenes: (1) a first pass put a
+  //   chalice banner directly on the castle wall/gate right next to the
+  //   men being struck by Koranda's falling stones, making it read as if
+  //   he were bombing his own Táborite allies rather than the Rožmberk
+  //   garrison — fixed by explicitly banning any chalice symbol from the
+  //   defenders and confining the (Žižka-less, generic) yellow-chalice-
+  //   on-red banner to the separate relief column outside the walls;
+  //   (2) that fix alone left Koranda's own body and throwing arm still
+  //   angled toward the distant relief column rather than down at his own
+  //   tower's base, and left the Rožmberk garrison as only two or three
+  //   token figures — fixed with an explicit "elevated bird's-eye
+  //   vantage point" instruction so both groups read with real scale, a
+  //   directive that Koranda throw DOWN AND TOWARD THE BASE OF HIS OWN
+  //   TOWER specifically (not across the valley), and a proper dozen-plus
+  //   Rožmberk soldiers placed directly beneath him as the actual target.
+  //   Worth stating both fixes together in one full prompt next time a
+  //   similar "two forces, one should be hitting the other" scene comes
+  //   up, rather than patching incrementally.
+  // - Václav Koranda — locked character design, first illustrated
+  //   appearance (confirmed 2026-09-07): a huge, powerfully built man in
+  //   his forties, wild matted dark hair and an unkempt beard from months
+  //   of imprisonment, gaunt but strong features, wearing a torn and
+  //   filthy dark clerical cassock, broken iron shackle-cuffs still
+  //   hanging loose from both wrists with a snapped length of chain
+  //   dangling from one of them. Reuse this description if he appears
+  //   again — unlikely given the story moves on, but he's a real,
+  //   two-castle-toppling figure, not purely background.
   {
-    slug: "north-prague-south-tabor-1421",
+    slug: "one-jailbreak-two-castles-1420",
     era: "religious-turmoil",
-    startYear: 1421,
-    images: ["/history/north-prague-south-tabor-1421-map.webp"],
+    startYear: 1420.95,
+    images: ["/history/one-jailbreak-two-castles-1420.webp"],
     imageCaptions: [
       {
-        en: "The Hussite movement's own divided map by spring 1421: Prague's zone in the north, Tábor's in the south, Kutná Hora holding out for Sigismund in between, and Moravia still largely his as well.",
-        cz: "Vlastní rozdělená mapa husitského hnutí na jaře 1421: pražská zóna na severu, táborská na jihu, Kutná Hora vydržující za Zikmunda mezi nimi, a Morava z velké části pořád jeho.",
-        zh: "1421年春，胡斯运动自身的势力版图已经一分为二：北方是布拉格的地盘，南方是塔博尔的地盘，库特纳霍拉夹在中间仍为西吉斯蒙德死守，摩拉维亚也大体仍是他的。",
+        en: "Václav Koranda, freed from his own chains, hurls stones down onto the Rožmberk garrison below his tower while a Táborite relief column approaches along the ridge, 13 November 1420.",
+        cz: "Václav Koranda, zbavený vlastních pout, svrhává kameny na rožmberskou posádku pod svou věží, zatímco po hřebeni přitahují táborské posily, 13. listopadu 1420.",
+        zh: "1420年11月13日，挣脱了镣铐的瓦茨拉夫·科兰达从塔楼上朝下方的罗森贝格守军投掷石块，塔博尔的援军正沿着山脊赶来。",
       },
     ],
     year: {
-      en: "1421",
-      cz: "1421",
-      zh: "1421年",
+      en: "1420",
+      cz: "1420",
+      zh: "1420年",
     },
-    tone: "serious",
+    tone: "humorous",
     title: {
-      en: "North Prague, South Tábor",
-      cz: "Praha na severu, Tábor na jihu",
-      zh: "北布拉格，南塔博尔",
+      en: "One Jailbreak, Two Castles",
+      cz: "Jeden útěk, dva hrady",
+      zh: "一起越狱，两座城堡",
     },
     hookLine: {
-      en: "By the time Prague finished with its own last holdout, Tábor had already finished with its, and not just the enemies it expected to have.",
-      cz: "Než Praha skoncovala s vlastní poslední výjimkou, Tábor už dávno skoncoval se svou, a nejen s nepřáteli, které čekal.",
-      zh: "布拉格清理完自己最后一个据点的时候，塔博尔早就清理完了自己的地盘，而且清理掉的，不只是它原本预料中的敌人。",
+      en: "Václav Koranda only wanted out of his own cell. He walked out with two of his jailer's own castles.",
+      cz: "Václav Koranda chtěl jen ven z vlastní cely. Odešel se dvěma hrady svého vlastního žalářníka.",
+      zh: "瓦茨拉夫·科兰达本来只是想逃出自己的牢房，结果顺手端掉了看守他的人的两座城堡。",
     },
     summary: {
-      en: "Tábor's own conquest of the south wasn't finished with Prachatice. That same November, Žižka's forces took Příběnice, twin fortresses belonging to the [[link:the-five-roses-1394]]Rožmberk family[[/link]], more by luck than by siege craft: the radical Táborite priest Václav Koranda, held prisoner inside, had worked his own chains loose and smuggled word out to Tábor, then spent the actual assault hurling stones down from the tower onto the garrison holding him. It worked. The castles fell, and Koranda walked out a free man, though the killing that followed reportedly weighed on him enough that he quietly gave up his priestly duties afterward and stuck to preaching alone.\n\nFor Oldřich II of Rožmberk, the loss was personal as well as territorial. Raised on Hussite ideas himself as a young man, he'd spent the movement's early radicalization hedging rather than choosing a side; watching Tábor take two of his own family's castles finally settled the question for him, and he committed himself, for good, to Sigismund's camp. It didn't stop him from doing what Rožmberks had always done best: on 18 November, in Písek, he signed a truce with Žižka on the Hussites' own terms, and reconfirmed it again the following April. Losing the argument and still cutting the better deal was practically the family trade.\n\nŽižka's own south wasn't as unified as the label suggested, either. Příběnice itself had been sheltering a fringe even Tábor wanted no part of, the Pikarts, a sect under the priest Petr Kániš pushing ideas radical enough to unsettle Hussites and Catholics alike. Žižka drove them out of the castle; they fled into the woods across the Lužnice near Dražice, and didn't stay hidden for long. That April he hunted them down himself, marched some fifty of them to the village of Klokoty, and burned them there, Kániš among them, days before St. George's own feast. Another twenty-five followed once he'd already moved on.\n\nBy now the Hussite movement genuinely had two centres of gravity, Prague in the north, done clearing its own capital of every last royal holdout, and Tábor in the south, done clearing its own hinterland of every last Catholic lord and every last heretic too radical even for it. Neither one owned the whole kingdom, though: Plzeň and the rest of western Bohemia stayed stubbornly Catholic the whole time, same as Moravia to the east and Kutná Hora sitting right between the two Hussite halves. [[b]]Sigismund had suffered two humiliating defeats this year alone, and his standing within the Empire kept sinking by the day.[[/b]] The princes who'd once marched south behind him were already looking elsewhere for a winner to back.\n\nFor now, a shared enemy was still reason enough to call the two halves one movement. Whether that would keep being reason enough was already an open question, and every month made it a little more open.",
-      cz: "Táborské dobývání jihu neskončilo Prachaticemi. Téhož listopadu dobyla Žižkova vojska Příběnice, dvojici pevností patřících [[link:the-five-roses-1394]]rodu Rožmberků[[/link]], spíš díky štěstí než obléhacímu umění: radikální táborský kněz Václav Koranda, vězněný uvnitř, si sám uvolnil okovy a propašoval ven zprávu do Tábora, a během samotného útoku pak z věže házel kameny na posádku, která ho držela. Zabralo to. Hrady padly a Koranda vyšel na svobodu, i když ho zabíjení, které následovalo, prý natolik tížilo na svědomí, že se poté potichu vzdal kněžské služby a věnoval se jen kázání.\n\nPro Oldřicha II. z Rožmberka byla ta ztráta stejně osobní jako územní. Sám v mládí vyrostl na husitských myšlenkách a v raných letech radikalizace hnutí spíš vyčkával, než aby si vybral stranu; sledovat, jak Tábor bere dva hrady jeho vlastní rodiny, mu tu otázku konečně rozhodlo, a natrvalo se zavázal Zikmundovu táboru. Nezabránilo mu to ale dělat to, co Rožmberkové vždycky uměli nejlíp: 18. listopadu v Písku podepsal se Žižkou příměří za husitských podmínek a v dubnu následujícího roku ho ještě jednou potvrdil. Prohrát spor a přitom si vyjednat lepší podmínky bylo v tomhle rodu skoro rodinné řemeslo.\n\nAni Žižkův vlastní jih nebyl tak jednotný, jak název napovídal. Samotné Příběnice skrývaly frakci, se kterou nechtěl mít nic společného ani Tábor: pikarty, sektu kolem kněze Petra Kániše, hlásající myšlenky dost radikální na to, aby znepokojily husity i katolíky stejnou měrou. Žižka je z hradu vyhnal; uprchli do lesů za Lužnicí u Držic a dlouho se neskrývali. Toho dubna je sám vypátral, kolem padesáti jich dohnal do vesnice Klokoty a tam je upálil, Kániše mezi nimi, pár dní před svátkem svatého Jiří. Dalších pětadvacet upálili poté, co už odtáhl dál.\n\nHusitské hnutí teď mělo dvě skutečná těžiště: Prahu na severu, která právě vyčistila vlastní hlavní město od posledního královského opěrného bodu, a Tábor na jihu, který právě vyčistil vlastní zázemí od posledního katolického pána i od posledního kacíře, který byl radikální i na jeho poměry. Žádná z obou stran ale nevlastnila celé království: Plzeň a zbytek západních Čech zůstávaly celou dobu tvrdošíjně katolické, stejně jako Morava na východě a Kutná Hora, sedící přímo mezi oběma husitskými polovinami. [[b]]Zikmund utrpěl jen za tento rok dvě ponižující porážky, a jeho postavení v říši den ode dne klesalo.[[/b]] Knížata, která za ním kdysi táhla na jih, si už hledala jiného vítěze, na kterého by vsadila.\n\nProzatím byl společný nepřítel pořád dostatečným důvodem nazývat obě poloviny jedním hnutím. Jestli tím důvodem zůstane i nadále, byla už otevřená otázka, a s každým měsícem o něco otevřenější.",
-      zh: "塔博尔派对南方的征服，并没有止步于普拉哈蒂采。同年11月，杰式卡的军队拿下了普日贝尼采，[[link:the-five-roses-1394]]罗森贝格家族[[/link]]的两座姊妹城堡，与其说是靠攻城本领，不如说是靠运气：被囚禁在城堡里的塔博尔派激进神父瓦茨拉夫·科兰达，自己挣脱了锁链，还设法把消息偷偷传回了塔博尔，攻城当天更是亲自在塔楼上朝守军扔石头。这一招还真管用。城堡陷落，科兰达重获自由，只是据说那场厮杀让他良心难安，此后便悄悄放下了神父的职责，只专心布道，再没主持过圣事。\n\n对奥德日赫二世·罗森贝格来说，这次损失既是地盘上的，也是私人的。他年轻时也曾深受胡斯派思想熏陶，运动早期激进化的那几年，他一直骑墙观望，没有真正选边站。可眼看塔博尔派夺走了自家两座城堡，这个问题终于替他做了决定，他从此彻底倒向了西吉斯蒙德的阵营。可这并不妨碍他做了罗森贝格家族一贯最拿手的事：11月18日，在皮塞克，他按胡斯派开出的条件跟杰式卡签下了停战协议，第二年4月又重新确认了一遍。输了这场争论，却还能谈到更好的条件，这几乎是这个家族代代相传的看家本领。\n\n杰式卡自己的南方，也并不像这个称呼听起来那么铁板一块。普日贝尼采城堡本身，就藏着一支连塔博尔派自己都不愿沾边的支派：皮卡尔派，一个围绕神父彼得·卡尼什形成的教派，其主张激进到胡斯派和天主教徒都同样看不下去。杰式卡把他们赶出了城堡；他们逃进了卢日尼采河对岸靠近德尔日采的树林里，没能藏多久。那年4月，杰式卡亲自把他们揪了出来，把大约五十人押到克洛科提村，就地烧死，卡尼什本人也在其中，就在圣乔治节前几天。他离开之后，又有另外二十五人被烧死。\n\n此时的胡斯运动，真正有了两个重心：北方的布拉格，刚刚把首都里最后一个王室据点清理干净；南方的塔博尔，也刚刚把自己的腹地清理干净，既清掉了最后一位天主教领主，也清掉了连自己都嫌太激进的最后一批异端。可这两边谁都没能拿下整个王国：比尔森和西波希米亚其余地方，始终顽固地留在天主教一边，摩拉维亚东边也一样，库特纳霍拉更是正好卡在这两个胡斯派半壁之间。[[b]]西吉斯蒙德这一整年吃了两场羞耻的败仗，在帝国中的威望也是一天不如一天。[[/b]]那些曾经跟着他一路南下的诸侯们，此刻已经在别处物色新的赢家下注了。\n\n眼下，共同的敌人还足以让这两半算作同一场运动。这个理由还能撑多久，已经是个悬而未决的问题，而且随着时间推移，只会越来越悬而未决。",
+      en: "Žižka had barely finished settling accounts at [[link:blood-for-blood-1420]]Prachatice[[/link]] when even better news reached him. Two of the fortresses that had spent years menacing Tábor from across the Lužnice, both belonging to the [[link:the-five-roses-1394]]Rožmberk family[[/link]], had already fallen. He hadn't sent a single soldier to make it happen. By his own account, he could barely believe it himself.\n\nThe credit belonged entirely to a prisoner. Václav Koranda, a radical Táborite priest, had been locked up inside Příběnice Castle since September, clamped into a wooden stock his jailer judged strong enough to hold a man everyone agreed was unusually big and unusually stubborn. It wasn't. Koranda broke the stock apart, worked himself free of his own chains, and did the same for the men sharing his cell. Then he climbed: wedging wooden planks into the gaps between the stone blocks, he hauled himself straight up the tower wall, overpowered the single sentry waiting at the top, and threw open the door on every prisoner the castle was holding.\n\nOne of the men his group captured along the way was a guard named Odolen, who claimed, rather conveniently, that he'd secretly sympathized with the Hussites all along and just wanted the chance to slip out and warn Tábor. Koranda let him go. Odolen kept his word: he made it to Tábor and told them everything, the priest was loose, the tower was theirs, and the castle was there for the taking.\n\nTábor didn't wait to be asked twice. Captain Zbyněk of Buchov marched a relief force straight for Příběnice, and by the time it arrived, Koranda's own men inside the tower were already doing half the work, raining stones down on a garrison with nowhere left to hide.\n\n[[quote:0]]\n\nBy dawn on 13 November, the castle belonged to Tábor. Koranda wasn't finished even then. He led his own men across the river to Příběničky, the smaller sister fortress standing guard on the opposite bank, and took that one too before its garrison had time to work out what had just happened across the water. Two of the most formidable strongholds in South Bohemia, gone in a single night, on the strength of one loosened chain and one guard who talked.\n\nThe haul inside more than covered the trouble: chalices, gold and silver clasps, pearls, monstrances, even a bishop's crown and staff the castle had been holding for safekeeping, all of it now Tábor's to spend on the war effort instead. As for Koranda, the killing that day reportedly weighed on him enough that he quietly gave up saying Mass afterward and stuck to preaching alone.\n\nWord reached Oldřich II of Rožmberk soon after, and by every account he was furious. He was also, by every account, out of options. Without those two castles, his own forces stood no chance against Žižka's, and he knew it. On 18 November, at Písek, he signed a truce on Tábor's own terms and even agreed to let Hussite preachers work his remaining lands unmolested. [[b]]Losing the argument and still walking away with the least-bad deal on the table was practically the family trade by now.[[/b]]\n\nSouth Bohemia, for the moment, belonged to Tábor almost by default. Nobody left standing in the region had the strength to argue otherwise.",
+      cz: "Žižka sotva dořešil účty v [[link:blood-for-blood-1420]]Prachaticích[[/link]], když ho zastihla ještě lepší zpráva. Dvě pevnosti, které roky ohrožovaly Tábor z druhého břehu Lužnice, obě patřící [[link:the-five-roses-1394]]rodu Rožmberků[[/link]], už padly. Nemusel kvůli tomu poslat jediného vojáka. Podle vlastních slov tomu sám sotva věřil.\n\nZásluhu měl výhradně jeden vězeň. Václav Koranda, radikální táborský kněz, seděl v Příběnicích od září zavřený v dřevěné kládě, o které si žalářník myslel, že udrží i muže, o němž se všichni shodovali, že je nadprůměrně velký a nadprůměrně tvrdohlavý. Nedržela. Koranda kládu rozdrtil, zbavil se vlastních pout a totéž udělal pro spoluvězně ve své cele. Pak vylezl nahoru: vklíněním dřevěných prken do spár mezi kamennými kvádry se vytáhl přímo po zdi věže, přemohl jediného strážného nahoře a otevřel dveře všem vězňům, které hrad držel.\n\nJedním z mužů, které jeho skupina cestou zajala, byl strážný jménem Odolen, který dost výhodně prohlásil, že s husity ve skrytu duše sympatizoval už dlouho a jen čekal na příležitost proklouznout ven a varovat Tábor. Koranda ho pustil. Odolen slovo dodržel: dostal se do Tábora a řekl jim všechno, kněz je na svobodě, věž patří jim a hrad je jen na dosah ruky.\n\nTábor se nenechal prosit dvakrát. Hejtman Zbyněk z Buchova vytáhl s posilami rovnou k Příběnicím, a když dorazil, Korandovi muži ve věži už měli polovinu práce hotovou, sypali kameny na posádku, která neměla kam se schovat.\n\n[[quote:0]]\n\nZa svítání 13. listopadu patřil hrad Táboru. Koranda tím ještě neskončil. Přivedl své muže přes řeku k Příběničkám, menší sesterské pevnosti hlídající protější břeh, a dobyl i tu, dřív než její posádka vůbec pochopila, co se právě odehrálo na druhé straně vody. Dvě z nejmohutnějších pevností jižních Čech zmizely za jedinou noc, díky jedněm uvolněným poutům a jednomu ukecanému strážnému.\n\nKořist uvnitř bohatě vyvážila veškeré potíže: kalichy, zlaté a stříbrné spony, perly, monstrance, dokonce biskupská mitra a berla, které hrad opatroval, to vše teď patřilo Táboru na financování další války. Pokud jde o Korandu, zabíjení toho dne mu prý ležela na svědomí natolik, že se poté potichu vzdal sloužení mše a věnoval se jen kázání.\n\nZpráva zanedlouho dorazila k Oldřichovi II. z Rožmberka, a podle všech svědectví zuřil. Podle všech svědectví mu ale zároveň nezbývala jiná možnost. Bez těch dvou hradů neměly jeho síly proti Žižkovi šanci, a on to věděl. 18. listopadu podepsal v Písku příměří za táborských podmínek a dokonce svolil, aby husitští kazatelé nerušeně působili na jeho zbylém panství. [[b]]Prohrát spor a přitom si odnést nejméně špatnou dohodu, jaká byla k mání, bylo v tomhle rodu už skoro rodinné řemeslo.[[/b]]\n\nJižní Čechy teď patřily Táboru skoro samospádem. V kraji nezůstal nikdo, kdo by měl sílu tvrdit něco jiného.",
+      zh: "杰式卡刚在[[link:blood-for-blood-1420]]普拉哈蒂采[[/link]]把账算清，一个更好的消息就传到了他耳边：两座长期从卢日尼采河对岸威胁塔博尔的城堡，都是[[link:the-five-roses-1394]]罗森贝格家族[[/link]]的产业，已经双双陷落。他甚至没派出一兵一卒。据他自己的说法，他自己都有点不敢相信。\n\n这份功劳完全属于一名囚犯。塔博尔派的激进神父瓦茨拉夫·科兰达，自9月起就被关在普日贝尼采城堡，套着一副木枷——看守认定，这副木枷足以困住一个众所公认格外高大、格外倔强的人。可惜并没有。科兰达砸碎了木枷，挣脱了自己的镣铐，又替同牢房的狱友们做了同样的事。然后他往上爬：把木板楔进石块之间的缝隙，硬是徒手攀上了塔楼的墙壁，一举制服了塔顶唯一的哨兵，打开牢门放出了城堡关押的所有囚犯。\n\n他们一路抓获的人里，有一名叫奥多伦的看守，他相当“凑巧”地声称自己内心一直同情胡斯派，只是一直在等一个机会溜出去给塔博尔报信。科兰达把他放了。奥多伦真的信守了承诺：他赶到塔博尔，把一切都如实说了出来——神父已经越狱，塔楼已经落入他们手中，城堡也唾手可得。\n\n塔博尔没有让人劝第二遍。指挥官布霍夫的兹比涅克率援军直扑普日贝尼采，等他赶到时，科兰达带领的塔楼守军已经替他干完了一半的活儿——石块不断砸向守军，他们已经无处可躲。\n\n[[quote:0]]\n\n11月13日拂晓，城堡已经归了塔博尔。科兰达还没打算就此收手，他又带着人马渡过河，直扑对岸的姊妹城堡“小普日贝尼采”，趁那边守军还没弄明白河对岸发生了什么，就把这座城堡也一并拿下。南波希米亚最坚固的两座城堡，就这样在同一夜之间双双易主，靠的不过是一副松脱的镣铐，和一个多嘴的看守。\n\n城堡里的缴获远远抵得上这番周折：圣餐杯、金银搭扣、珍珠、圣体匣，甚至还有一顶城堡代为保管的主教冠冕与权杖，如今全都归了塔博尔派，用来充作接下来的战争经费。至于科兰达本人，据说那一天的杀戮让他良心难安，此后便悄悄放下了主持弥撒的职责，只专心布道。\n\n消息不久后传到了奥德日赫二世·罗森贝格耳中，据各方记载，他气得要命。可据各方记载，他同时也确实无计可施：少了这两座城堡，他自己的军队根本不是杰式卡的对手，这一点他心知肚明。11月18日，他在皮塞克按塔博尔开出的条件签下了停战协议，甚至还答应让胡斯派传教士在他剩下的领地上自由传道，不受阻拦。[[b]]输了这场争论，却还能全身而退，谈到眼下能拿到的最不坏的条件，这几乎已经是这个家族代代相传的看家本领了。[[/b]]\n\n南波希米亚眼下几乎是顺理成章地归了塔博尔。这片土地上，已经没有人还有力气站出来说个不字。",
     },
+    quotes: [
+      {
+        text: {
+          en: "Koranda, being the most valuable of them, was guarded most strictly of all. Fearing he might escape, since he was a man of uncommon courage and strength, the castellan had him clamped into a wooden stock. He broke the stock apart, freed himself of his chains, and freed his companions besides... When [Zbyněk of Buchov] came racing up to Příběnice and without delay drove his men to storm its walls, a mighty cry rang out from the tower: 'Tábor, charge, Tábor!'",
+          cz: "Koranda jako nejvzácnější z nich byl nejpřísněji střežen. Purkrabí z obavy, aby neuprchl, neboť byl muž nad jiné statečný a silný, dal ho sevříti v kládu. Rozdrtil kládu, zbavil se pout a osvobodil i svoje druhy... Když [Zbyněk z Buchova] přitrhl rychle k Příběnicím a počal bez meškání hnáti útokem na jejich hradby, ozval se s věže mohutný křik: „Tábor, hrr, Tábor!“",
+          zh: "科兰达作为其中最重要的一名囚犯，被看守得最为严密。城堡总管担心他逃跑——毕竟他是个格外勇猛强壮的人——便下令用木枷把他牢牢锁住。他挣碎了木枷，挣脱了镣铐，还顺带解救了自己的狱友……当[布霍夫的兹比涅克]率兵急速赶到普日贝尼采、毫不迟疑地发起攻城之时，塔楼上突然传出震天的呐喊：\"塔博尔，冲啊，塔博尔！\"",
+        },
+        attribution: {
+          en: "Hrady, zámky a tvrze v Čechách, na Moravě a ve Slezsku – Jižní Čechy (Nakladatelství Svoboda, 1986)",
+          cz: "Hrady, zámky a tvrze v Čechách, na Moravě a ve Slezsku – Jižní Čechy (Nakladatelství Svoboda, 1986)",
+          zh: "Hrady, zámky a tvrze v Čechách, na Moravě a ve Slezsku – Jižní Čechy（《波希米亚、摩拉维亚与西里西亚的城堡、庄园与要塞——南波希米亚卷》，Svoboda出版社，1986年）",
+        },
+      },
+    ],
     relatedLandmarks: [
+      {
+        slug: "zricenina-hradu-pribenice",
+        relation: {
+          en: "The castle itself, taken from the inside out by a prisoner who was never supposed to leave his own cell, let alone the tower above it.",
+          cz: "Samotný hrad, dobytý zevnitř vězněm, který neměl opustit ani vlastní celu, natožpak věž nad ní.",
+          zh: "城堡本身——被一个原本连自己牢房都出不去的囚犯，从内部一举攻破，更别提整座塔楼了。",
+        },
+      },
       {
         slug: "pisek",
         relation: {
@@ -14052,75 +14184,194 @@ export const historyEvents = [
       {
         slug: "tabor",
         relation: {
-          en: "The other half of the movement's own new map, its southern power center now as consolidated as Prague's own northern one.",
-          cz: "Druhá polovina nové mapy hnutí, jeho jižní mocenské centrum teď stejně upevněné jako to pražské na severu.",
-          zh: "这场运动新版图的另外一半，此时它的南方权力中心，已经和北方的布拉格一样，彻底站稳了脚跟。",
+          en: "The city this whole windfall was fought to protect, now richer and safer for a threat that had loomed over it for years finally being gone.",
+          cz: "Město, kvůli jehož ochraně se celý tenhle zisk odehrál, teď bohatší a bezpečnější, protože hrozba, která nad ním roky visela, konečně zmizela.",
+          zh: "这一切都是为了守护这座城市：多年悬在头顶的威胁终于消失，塔博尔也因此变得更富有、更安全。",
         },
       },
     ],
-    wikipediaUrl: "https://en.wikipedia.org/wiki/Old%C5%99ich_II_of_Ro%C5%BEmberk",
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/P%C5%99%C3%ADb%C4%9Bnice",
   },
-  // New background card, 2026-09-04, at the user's own request ("简单 轻松
-  // 幽默 通俗地介绍一下皮卡尔派，以及除了圣杯派和塔博尔派之外的其他一些小流派，一笔带过") — a light,
-  // fast survey of Hussite factionalism beyond the two main camps already
-  // established throughout this arc, positioned right after
-  // north-prague-south-tabor-1421 (whose own Pikart-purge paragraph this
-  // directly follows up on). Deliberately kept brief and wry per the
-  // user's own instruction, in contrast to the "serious" tone used for the
-  // war narrative immediately around it.
-  // - Pikart beliefs (denial of Christ's real presence in the Eucharist,
-  //   the ritual as mere symbol, veneration of it as idolatry) and the
-  //   name's own Picardy origin: confirmed via WebSearch/WebFetch of
-  //   cs.wikipedia's own "Pikarti" article. Framed explicitly as the
-  //   reason even Tábor rejected them: it undercut the one demand every
-  //   Hussite faction actually agreed on (the chalice for all, per the
-  //   Four Articles' own second article).
-  // - Chiliasm (failed 1420 Second Coming prediction) and the later,
-  //   more famous "Adamites" name: confirmed via the same sources.
-  //   Deliberately hedged on the lurid orgy/nudism accusations often
-  //   attached to them ("how much of it was real and how much was
-  //   standard-issue heresy-smearing is genuinely hard to untangle") —
-  //   these are disputed/likely-exaggerated claims from hostile
-  //   chroniclers, not asserted as settled fact. The Adamites' own actual
-  //   October 1421 massacre is explicitly left unspoiled for a future
-  //   card, not narrated here.
-  // - Orebites: already an established figure in this file
-  //   (a-promise-kept-too-well-1420 onward); their own 1424 renaming to
-  //   "Sirotci" (Orphans) after Žižka's death confirmed via WebSearch,
-  //   mentioned here as a light forward-hook, not narrated in detail.
-  // - No quotes[], no relatedLandmarks (hard rule for background cards),
-  //   no image.
-  // - Title chosen by the user from four options: "Pick Your Heresy" /
-  //   "Vyber si vlastní kacířství" / "自选你的异端."
+  // New card, 2026-09-07, per the user's own dictated draft (Chinese) — the
+  // 10-24 December 1420 death of Mikuláš of Hus, the very event flagged
+  // repeatedly in this file's own dev comments as deferred material (see
+  // "the deferred Mikuláš-of-Hus/Čáslav Diet material" in
+  // nothing-could-stop-them-1421's own dev notes above, and "Prague's own
+  // move against Mikuláš of Hus (the 'invite him to a feast, then move
+  // against him' episode)" further up still). The Čáslav Diet itself
+  // (June 1421) stays for a future card — this one closes on Mikuláš's own
+  // death and Žižka's resulting sole leadership.
+  // - One real correction made against the user's own draft, confirmed via
+  //   WebFetch/WebSearch (cs.wikipedia's "Mikuláš z Husi" article, and an
+  //   i-sn.cz feature, "Záhadná smrt hejtmana Mikuláše z Husi," both
+  //   independently agreeing): the user's draft has Mikuláš dying "赴会途中"
+  //   (on his way TO the meeting). What actually happened is closer to the
+  //   opposite and, if anything, a better story: he saw through the trap,
+  //   openly said he feared for his life inside the hall, refused the
+  //   invitation outright, and was LEAVING Prague for good that same
+  //   afternoon when his horse bolted crossing a bridge over the Botič
+  //   stream, breaking his leg and badly injuring his chest. He died from
+  //   those injuries on Christmas Eve, 24 December 1420, in a Prague house
+  //   that had once belonged to Oldřich II of Rožmberk (already this
+  //   file's own recurring figure via
+  //   [[link:one-jailbreak-two-castles-1420]]) and been seized by the
+  //   Hussites earlier in the war — the exact tie to the Příběnice
+  //   campaign specifically isn't confirmed by any source consulted, so
+  //   the connection is left implicit rather than asserted outright.
+  //   Whether the fall itself was a genuine accident or something arranged
+  //   is a question both sources explicitly leave open, not something
+  //   Claude is resolving one way or the other — matches the user's own
+  //   "只有圣杯派自己知道" framing, just anchored to the correct sequence of
+  //   events.
+  // - The banquet was to be held at the Old Town Hall (`old-town-hall`,
+  //   already seeded); per i-sn.cz, Žižka himself was also nominally
+  //   invited alongside Mikuláš — not narrated further here since no
+  //   source consulted confirms whether Žižka actually attended or was
+  //   personally at risk, only that the invitation went out to him too.
+  // - One extra, unverified-but-attributed detail folded in for flavor,
+  //   sourced to a single feature article (epochaplus.cz / a companion
+  //   piece on the same site asks outright "Mohl být Mikuláš z Husi
+  //   králem?"): Mikuláš reportedly nursed his own hope of one day being
+  //   elected king himself. Presented as "by one account," not asserted as
+  //   settled fact.
+  // - Two differently-worded WebSearch passes were made specifically
+  //   looking for a quotable primary-source chronicle line on this death
+  //   (Vavřinec z Březové being the obvious candidate, already the source
+  //   of several other quotes[] entries in this file) — neither turned up
+  //   one. A vivid detail did surface (the horse leaping into a
+  //   flood-carved gully before falling), but its only sourcing was a
+  //   folklore/legend compendium (Josef Pavel's Pověsti českých hradů a
+  //   zámků, via hrady.cz) rather than a contemporary chronicle, so it's
+  //   left out entirely rather than dressed up as a chronicle quote — no
+  //   quotes[] entry on this card, per this file's own "don't force a
+  //   quote" convention.
+  // - Mikuláš's own foremost-seat status among Tábor's four captains
+  //   already established in four-captains-one-commander-1420; the
+  //   Utraquist/Táborite class-and-doctrine split already established in
+  //   were-all-hussites-the-same-1420 — both referenced here via
+  //   [[link:...]] rather than re-explained.
+  // - Tone: "humorous," matching one-jailbreak-two-castles-1420 immediately
+  //   before it — this is dark political comedy (a poisoned dinner party
+  //   that never even needed to happen), not a battle or atrocity card.
+  // - Title changed 2026-09-07, at the user's own follow-up request: the
+  //   original title, 过河拆桥 ("kicking away the ladder" once the helper is
+  //   no longer needed), was retired because the actual betrayal hasn't
+  //   happened yet at this point in the story — Prague's own motive is
+  //   visible, but nothing more than suspicion has been proven, and the
+  //   alliance nominally continues. The user's own replacement, 一道细如发丝的裂痕
+  //   ("a hairline crack"), instead names the split symbolically rather
+  //   than announcing a completed betrayal — and it directly echoes this
+  //   card's own closing [[b]] line, which already used exactly that image
+  //   in all three languages before the title was ever chosen to match it.
+  //   EN/CZ titles now pull that same phrase forward from the closing line
+  //   rather than inventing a fresh one.
+  // - No new Location this pass — no coordinates supplied or needed; the
+  //   Prague 4 street now named after Mikuláš (per slavojvysehrad.cz) is
+  //   mentioned nowhere in the card itself, since it's a modern street
+  //   sign, not a visitable historical site, and didn't earn its own
+  //   relatedLandmarks entry.
+  // - Image, added 2026-09-07, caption "AN ACCIDENT, OR NOT," continuing
+  //   Mikuláš of Hus's own established look from the-rise-of-tabor-1419.webp
+  //   (shoulder-length dark brown hair with a little grey, a long dark
+  //   grey-green hooded traveling cloak, tall boots, a sword at his hip) —
+  //   no separate locked-design bullet had ever documented that look in
+  //   writing before now, despite the earlier image existing; this entry
+  //   fills that gap retroactively as well as covering this card's own
+  //   appearance. Took one revision pass: the first generation showed him
+  //   still gripping the reins of a rearing but controlled horse, reading
+  //   as a rider fighting to stay mounted rather than an actual fall in
+  //   progress — fixed with an explicit instruction that he be shown
+  //   already coming OFF the horse mid-fall (both boots clear of the
+  //   stirrups, body pitching off the saddle, one hand torn loose from the
+  //   reins), rather than just describing a "panicked" or "bolting" horse
+  //   and trusting that alone to imply he's falling.
+  // - `potok-botic` ("Botič Brook," already seeded) added as a second
+  //   relatedLandmarks entry at the user's own follow-up request — the
+  //   general Location card for the stream, not a specific spot matching
+  //   this event's own medieval crossing point (that card's own
+  //   coordinates sit near Hostivař, a different stretch of the same
+  //   34.5km stream), same kind of same-feature-different-spot reuse
+  //   already established elsewhere in this file for rivers/cities.
   {
-    slug: "pick-your-heresy-1421",
+    slug: "a-hairline-crack-1420",
     era: "religious-turmoil",
-    startYear: 1421.05,
-    cardType: "background",
+    startYear: 1420.97,
+    images: ["/history/a-hairline-crack-1420.webp"],
+    imageCaptions: [
+      {
+        en: "Mikuláš of Hus thrown from his own bolting horse on a bridge over the Botič stream, Prague already receding behind him, 10 December 1420.",
+        cz: "Mikuláš z Husi shozený z vlastního splašeného koně na mostě přes potok Botič, Praha za jeho zády se už vzdaluje, 10. prosince 1420.",
+        zh: "1420年12月10日，胡斯的米库拉什在波蒂奇溪的桥上被受惊的坐骑甩落，布拉格已在他身后渐渐远去。",
+      },
+    ],
     year: {
-      en: "1421",
-      cz: "1421",
-      zh: "1421年",
+      en: "1420",
+      cz: "1420",
+      zh: "1420年",
     },
     tone: "humorous",
     title: {
-      en: "Pick Your Heresy",
-      cz: "Vyber si vlastní kacířství",
-      zh: "自选你的异端",
+      en: "A Hairline Crack",
+      cz: "Vlásečnicová trhlina",
+      zh: "一道细如发丝的裂痕",
     },
     hookLine: {
-      en: "Every Hussite agreed the old Church was wrong. Getting them to agree on much else turned out to be the hard part.",
-      cz: "Každý husita souhlasil, že se stará církev mýlila. Přimět je, aby se shodli na čemkoli dalším, byla ta těžší část.",
-      zh: "每个胡斯派信徒都同意旧教会错了。可要让他们在别的事情上达成一致，才是真正的难题。",
+      en: "Tábor's army had just saved Prague's own skin, twice. Prague's own thanks came in the shape of a dinner invitation.",
+      cz: "Táborské vojsko právě dvakrát zachránilo Praze holý krk. Praha se odvděčila pozvánkou na večeři.",
+      zh: "塔博尔的军队刚刚两次救了布拉格的命，布拉格的谢意，是一张饭局请柬。",
     },
     summary: {
-      en: "\"Hussite\" was never really one thing. By 1421 it was closer to a big open call for \"how should the Church actually work?\" and half the kingdom had mailed in a different answer.\n\nThe Pikarts sent in the strangest one. Named for the French region of Picardy, where a similar strain of radical mysticism had already taken root, they took the Hussite argument all the way to its logical end: if the Church's own authority to define the sacraments was corrupt, why stop at demanding the chalice for everyone? The Pikarts denied that Christ was even present in the bread and wine at all, calling the whole ritual a symbol and kneeling before it an act of idolatry. That single claim quietly undercut the one thing every Hussite faction, Prague's moderates and Tábor's own radicals alike, had actually agreed on: the fight over who gets the chalice only matters if there's something real inside it. Even Tábor, no stranger to burning things it disapproved of, wanted no part of that.\n\nA harder-line offshoot of the Pikarts went further still, drifting into full chiliasm: Christ's Second Coming had been due in 1420, and when it failed to show, some of them decided the rules of ordinary life no longer applied while they waited. Catholic and Hussite chroniclers alike were only too happy to describe what came next in the most scandalous terms available; how much of it was real and how much was standard-issue heresy-smearing is genuinely hard to untangle at this distance. Their own more famous name, the Adamites, comes later, in an October 1421 chapter still ahead of this one.\n\nEven the movement's more mainstream wings weren't really two teams. The Orebites, out of eastern Bohemia's own Hradec Králové region, were their own third flavor entirely, closer to Prague's moderation than to Tábor's radicalism but proud of their own separate identity all the same; after Žižka's death in 1424 they'd rename themselves the Orphans, and keep fighting under that name for another decade. Everyone agreed the old Church had gotten it wrong. Getting several dozen armed factions to agree on what right looked like instead was another matter entirely.",
-      cz: "\"Husita\" nikdy doopravdy nebylo jedna věc. Do roku 1421 to bylo spíš jako velká otevřená výzva \"jak by měla církev skutečně fungovat?\", a polovina království poslala vlastní jinou odpověď.\n\nNejpodivnější odpověď poslali pikarti. Pojmenovaní po francouzském kraji Pikardie, kde už zakořenil podobný proud radikální mystiky, dotáhli husitský argument až do jeho logického konce: pokud je vlastní autorita církve definovat svátosti zkažená, proč se zastavovat u požadavku kalicha pro všechny? Pikarti popírali, že by byl Kristus v chlebu a víně vůbec přítomen, celý obřad nazývali symbolem a klekání před ním modloslužbou. Tohle jediné tvrzení potichu podkopávalo tu jedinou věc, na které se skutečně shodly všechny husitské frakce, pražští umírnění i táborští radikálové: spor o to, kdo dostane kalich, má smysl jen tehdy, pokud v něm skutečně něco je. Ani Tábor, který se pálení neštítil, o tohle nestál.\n\nJeště tvrdší odnož pikartů zašla dál a sklouzla do plného chiliasmu: Kristův druhý příchod měl přijít v roce 1420, a když se tak nestalo, někteří z nich usoudili, že pravidla běžného života mezitím přestala platit. Katoličtí i husitští kronikáři líčili to, co následovalo, s tou nejskandálnější příchutí, jakou měli po ruce; kolik z toho je pravda a kolik je standardní kacířské pomlouvání, se z tohoto odstupu už těžko rozplétá. Jejich vlastní slavnější jméno, adamité, přijde až později, v kapitole z října 1421, která je teprve před námi.\n\nAni hlavnější křídla hnutí nebyla vlastně jen dva tábory. Orebité, z východočeského Hradecka, byli svou vlastní, třetí příchutí, blíž pražské umírněnosti než táborskému radikalismu, ale hrdí na svou vlastní odlišnou identitu. Po Žižkově smrti v roce 1424 se přejmenovali na sirotky a pod tímhle jménem bojovali ještě další desetiletí. Na tom, že se stará církev mýlila, se shodli všichni. Přimět několik desítek ozbrojených frakcí, aby se shodly na tom, jak by to mělo vypadat správně, byla úplně jiná záležitost.",
-      zh: "\"胡斯派\"从来就不是铁板一块的一件事。到1421年，这更像是一场公开征集：\"教会到底该怎么运作才对？\"结果半个王国都各自寄回了自己的答案。\n\n最奇怪的那份答案，是皮卡尔派寄来的。他们的名字来自法国的皮卡第地区，那里早就扎根了一支类似的激进神秘主义思潮。他们把胡斯派自己的逻辑，一路推到了尽头：既然教会自己定义圣事的权威已经腐败，那凭什么止步于\"人人都该领受圣餐杯\"这一条要求？皮卡尔派干脆否认基督真实临在于面饼与圣酒之中，把整套仪式说成不过是象征，对着它下跪更是偶像崇拜。这一条主张，悄悄掏空了所有胡斯派——布拉格的温和派、塔博尔的激进派——唯一真正达成一致的那个立足点：争\"圣餐杯该给谁\"这件事，得先假设杯子里真的有点什么才有意义。就连从不忌讳烧东西的塔博尔派，都不想跟这个沾边。\n\n皮卡尔派里更极端的一支，走得更远，滑向了彻头彻尾的末世论：基督的二次降临本该在1420年到来，结果没有应验，其中一些人索性认定，等待期间世俗规矩已经不再适用于自己了。天主教和胡斯派两边的编年史作者，都不吝用最耸动的说法描述接下来发生的事；这么多年过去，哪些是真、哪些不过是异端抹黑的标准套路，已经很难分清了。他们后来更出名的名字——亚当派——要到1421年10月那段还没讲到的故事里才会出现。\n\n就连运动里相对主流的那几支，其实也不止两个阵营。来自波希米亚东部赫拉德茨地区的奥列比特人，本身就是完全独立的第三种口味，立场比较接近布拉格的温和派、不如塔博尔那么激进，却依然为自己这份独立身份感到骄傲。1424年杰式卡死后，他们改名为\"孤儿军\"，顶着这个名字又打了将近十年。所有人都同意，旧教会错了。可要让这几十支各自带枪的派系，就\"到底怎么样才算对\"达成一致，完全是另外一回事了。",
+      en: "Tábor's own year kept getting better. Turn the story back to Prague for a moment, though, because the city Žižka had just spent months rescuing was already quietly working through a different question of its own: now that the ally had helped save the capital twice, what exactly was Prague supposed to do with it?\n\nPrague's own moderate wing, the Utraquists (from the Latin for chalice, sometimes Calixtines), had never wanted what [[link:were-all-hussites-the-same-1420]]Tábor wanted[[/link]]. Its own base was comfortable: nobles, city burghers, university men, people with a genuine stake in the existing order who just wanted the Church to clean up its finances and let everyone drink from the cup. They'd needed Tábor's army against Sigismund's crusade, because their own city guard was never going to be enough on its own. They had never needed, or wanted, Tábor's own politics.\n\nBy December 1420, with Sigismund's crusade beaten back twice and [[link:one-jailbreak-two-castles-1420]]Rožmberk's own castles gone[[/link]] besides, Tábor looked less like a useful ally and more like a movement that might not stop growing. Prague's own council floated a fix: invite every faction's leadership, Tábor's own captains included, to a reconciliation banquet at the Old Town Hall on 10 December, to iron out their differences over dinner.\n\nMikuláš of Hus didn't like the smell of it. As the man who'd once held the foremost seat among Tábor's own four captains, per [[link:four-captains-one-commander-1420]]the arrangement Tábor had set up[[/link]] the previous spring, he had every reason to think he was exactly the kind of guest Prague would rather not have to deal with twice. By one account he'd also been quietly hoping the crown itself might land on his own head someday, an ambition Prague's own establishment would have found a good deal more alarming than anything he'd actually done at Příběnice. He refused the invitation, telling anyone who'd listen that he feared for his life inside that hall, and left Prague that same day, vowing never to set foot in the city again.\n\nHe didn't get far. Crossing a bridge over the Botič stream on his way out of the city, his horse bolted, and he went down hard enough to break a leg and badly injure his chest. He was carried to a Prague house that had once belonged to Oldřich II of Rožmberk, seized by the Hussites earlier in the war. He never left it. On Christmas Eve, 24 December 1420, he died there.\n\nWhether it was simply a spooked horse or something arranged well in advance is a question nobody has ever settled, then or since. Tábor had its own suspicions and no proof to back them, and a war with Sigismund still not fully won besides, so it did the only thing that made sense: said nothing, and kept the alliance running. Žižka, already the army's real commander in every way that mattered, picked up the seat Mikuláš left behind without any real argument.\n\nOn paper, 1420 had been about as good a year as Tábor could have asked for: an emperor's own crusade turned back twice, a hostile noble family's own castles gone, its southern flank finally secure. [[b]]Underneath all of it, though, a hairline crack had opened in the alliance that had won those victories, one still too fine to see unless you already knew exactly where to look.[[/b]]",
+      cz: "Táboru se dál dařilo čím dál líp. Přesuňme na chvíli příběh zpátky do Prahy, protože město, které Žižka právě strávil měsíce zachraňováním, si mezitím potichu řešilo docela jinou otázku: teď, když spojenec pomohl zachránit hlavní město dvakrát, co si s ním má Praha vlastně počít?\n\nPražské umírněné křídlo, utrakvisté (z latinského slova pro kalich, někdy také kališníci), nikdy nechtělo to, co chtěl [[link:were-all-hussites-the-same-1420]]Tábor[[/link]]. Jejich vlastní základna byla pohodlná: šlechta, městští měšťané, univerzitní muži, lidé s opravdovým podílem na stávajícím řádu, kteří chtěli jen, aby si církev srovnala finance a nechala všechny pít z kalicha. Táborské vojsko potřebovali proti Zikmundově křížové výpravě, protože jejich vlastní městská hotovost by sama nikdy nestačila. Táborskou politiku nikdy nepotřebovali, ani nechtěli.\n\nDo prosince 1420, kdy byla Zikmundova křížová výprava už dvakrát odražená a k tomu [[link:one-jailbreak-two-castles-1420]]zmizely i rožmberské hrady[[/link]], vypadal Tábor čím dál míň jako užitečný spojenec a čím dál víc jako hnutí, které možná nepřestane růst. Pražská rada přišla s řešením: pozvat vedení všech frakcí, táborské hejtmany nevyjímaje, na smířlivou hostinu na Staroměstské radnici 10. prosince, aby si rozdíly vyříkali u večeře.\n\nMikulášovi z Husi se to nezdálo. Jako muž, který kdysi zastával přední místo mezi čtyřmi táborskými hejtmany podle [[link:four-captains-one-commander-1420]]uspořádání, které si Tábor zavedl[[/link]] předchozí jaro, měl každý důvod si myslet, že je přesně ten typ hosta, se kterým by Praha raději nejednala podruhé. Podle jednoho podání navíc potichu doufal, že by koruna mohla jednou přistát na jeho vlastní hlavě, ambice, kterou by pražské vedení považovalo za mnohem znepokojivější než cokoli, co doopravdy provedl u Příběnic. Pozvání odmítl, každému, kdo chtěl poslouchat, řekl, že se bojí o život v té síni, a téhož dne Prahu opustil s tím, že se do města už nikdy nevrátí.\n\nDaleko se nedostal. Při přejíždění mostu přes potok Botič na cestě z města se mu splašil kůň, a on spadl tak tvrdě, že si zlomil nohu a těžce se poranil na prsou. Odnesli ho do pražského domu, který kdysi patřil Oldřichovi II. z Rožmberka a který si husité zabrali dřív ve válce. Už z něj nevyšel. Na Štědrý den, 24. prosince 1420, v něm zemřel.\n\nJestli šlo prostě o splašeného koně, nebo o něco pečlivě naplánovaného předem, to nikdo nikdy nevyřešil, tehdy ani později. Tábor měl vlastní podezření a žádné důkazy, k tomu ještě neukončenou válku se Zikmundem, a tak udělal jediné rozumné: mlčel a udržoval spojenectví dál v chodu. Žižka, který už tak vojsku fakticky velel ve všem, na čem záleželo, převzal místo po Mikulášovi bez větších řečí.\n\nNa papíře byl rok 1420 pro Tábor asi tak dobrý, jak jen mohl být: císařova vlastní křížová výprava odražená dvakrát, hrady nepřátelského šlechtického rodu pryč, jižní křídlo konečně v bezpečí. [[b]]Pod tím vším se ale ve spojenectví, které tahle vítězství vybojovalo, otevřela vlásečnicová trhlina, pořád ještě příliš jemná na to, aby ji někdo uviděl, pokud přesně nevěděl, kam se dívat.[[/b]]",
+      zh: "塔博尔这一年过得越来越顺。故事这里先转回布拉格，因为杰式卡刚刚花了大半年时间去拯救的这座城市，此时也在悄悄琢磨一个截然不同的问题：这个盟友已经两次帮自己救了命，接下来到底该拿它怎么办？\n\n布拉格的温和一翼，也就是[[link:were-all-hussites-the-same-1420]]圣杯派[[/link]]，从来就没想要塔博尔真正想要的东西。他们自己的基本盘过得很滋润：贵族、市民、大学教师，都是在现有秩序里实实在在有份的人，他们只想让教会把账目理清楚，让每个人都能用圣餐杯喝酒。对抗西吉斯蒙德的十字军时，他们需要塔博尔的军队，因为光靠自己的城防根本不够看。可塔博尔的那套政治主张，他们从来没想要，也从来不需要。\n\n到1420年12月，西吉斯蒙德的十字军已经被两次击退，[[link:one-jailbreak-two-castles-1420]]罗森贝格家族的城堡也没了[[/link]]，塔博尔看起来越来越不像一个有用的盟友，反倒更像一场停不下来的运动。布拉格市议会想出了一个对策：邀请各派系的领袖，塔博尔的统领们也在其列，12月10日在老城市政厅办一场“和解宴”，在饭桌上把分歧谈开。\n\n胡斯的米库拉什嗅出了不对劲。按照[[link:four-captains-one-commander-1420]]塔博尔前一年春天定下的安排[[/link]]，他曾坐过塔博尔四位统领里的首席，怎么想都清楚，自己正是布拉格最不愿意再打第二次交道的那种客人。据一种说法，他心里还悄悄盘算过，说不定哪天王冠会落到自己头上——这份野心，恐怕比他在普日贝尼采干的任何事，都更让布拉格当权者坐立不安。他拒绝了邀请，逢人便说自己怕在那座大厅里丢了性命，当天就离开了布拉格，撂下话说这辈子再也不会踏进这座城市。\n\n他没能走远。离城途中经过一座跨越波蒂奇溪的桥时，坐骑突然受惊，他被狠狠摔了下来，摔断了一条腿，胸口也受了重伤。他被人抬进了布拉格城里一栋房子，那房子曾属于奥德日赫二世·罗森贝格，是胡斯派在战争早些时候没收来的。他再也没能走出那栋房子。1420年12月24日，平安夜当天，他死在了里面。\n\n这究竟只是一匹受惊的马，还是一场早就安排好的算计，从当时到后来都没人真正弄清楚。塔博尔心里有自己的猜疑，却拿不出任何证据，而且跟西吉斯蒙德的战争也还没打完，于是他们做了唯一说得通的事：闭口不言，继续维持这个联盟。杰式卡本来就已经是这支军队实际上的统帅，如今顺理成章地接过了米库拉什留下的位置，没有引来什么争议。\n\n账面上看，1420年对塔博尔来说，已经是能想象到的最好的一年：皇帝的十字军两度被击退，一个敌对贵族家族的城堡也没了，南方门户终于安稳下来。[[b]]可就在这一切战果之下，那个赢得这些胜利的联盟内部，已经悄悄裂开了一道细如发丝的裂痕——细到除非你早就知道该往哪里看，否则根本发现不了。[[/b]]",
     },
-    relatedLandmarks: [],
-    wikipediaUrl: "https://en.wikipedia.org/wiki/Pikarti",
+    relatedLandmarks: [
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "Where Prague's own reconciliation banquet was set for 10 December 1420 — the invitation Mikuláš of Hus took one look at and refused.",
+          cz: "Kde se mělo 10. prosince 1420 konat pražské smířlivé hodování — pozvání, na které se Mikuláš z Husi jen podíval a odmítl je.",
+          zh: "1420年12月10日，布拉格的“和解宴”原定在这里举行——胡斯的米库拉什看了一眼这份请柬，就拒绝了。",
+        },
+      },
+      {
+        slug: "potok-botic",
+        relation: {
+          en: "The stream Mikuláš of Hus was crossing when his horse bolted, on his way out of Prague for good.",
+          cz: "Potok, který Mikuláš z Husi přejížděl, když se mu splašil kůň, na cestě z Prahy pryč — natrvalo.",
+          zh: "米库拉什永别布拉格的路上，正是在跨越这条溪水时，坐骑突然受惊。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Mikul%C3%A1%C5%A1_z_Husi",
   },
+  // Card `north-prague-south-tabor-1421` (title "North Prague, South
+  // Tábor" / "北布拉格，南塔博尔") temporarily REMOVED 2026-09-04, at the
+  // user's own request, alongside the same-day nothing-could-stop-them-1421
+  // restructuring above — the user wants the Nov 1420-June 1421 stretch
+  // (the point where the Utraquist/Táborite rift turns into open conflict)
+  // given its full due rather than compressed, and this card's own
+  // "two centres of gravity" synthesis read as premature once the
+  // deferred Mikuláš-of-Hus/Čáslav Diet material lands in between. Full
+  // text (Příběnice's fall via Václav Koranda's own escape, Oldřich II of
+  // Rožmberk's truce with Žižka at Písek, the Pikart purge at Klokoty, the
+  // Sigismund-prestige-crumbling close) is preserved in git history, not
+  // rewritten from scratch if it comes back. Its own image file,
+  // /history/north-prague-south-tabor-1421-map.webp, was likewise NOT
+  // deleted from client/public/history/ — kept on disk for reuse if/when
+  // this content is restored, per the user's explicit instruction.
+  // pick-your-heresy-1421 (title "Pick Your Heresy" / "自选你的异端"), the
+  // background card that used to sit right here, was ALSO temporarily
+  // removed 2026-09-04, later the same day as north-prague-south-tabor-1421
+  // above, at the user's own request. It had no image and no
+  // relatedLandmarks (background-card hard rule), so nothing needed
+  // preserving on that front. Full text (Pikart theology and its
+  // undercutting of the chalice-for-all consensus, the chiliast/Adamite
+  // forward-hook, the Orebites' own third-flavor identity) is preserved in
+  // git history, not rewritten from scratch if it comes back — it can slot
+  // back in as its own card whenever the user wants it restored, wherever
+  // in the timeline that ends up making sense once the deferred
+  // Mikuláš-of-Hus/Čáslav Diet material is written.
 ];
 
 async function run() {
