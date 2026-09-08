@@ -24284,6 +24284,79 @@ Nejnečekanější brněnská památka patří 20., ne středověkému století.
     },
   },
   {
+    // Added 2026-09-08, at the user's own explicit instruction and supplied
+    // coordinates. Same "third exception" as brno/olomouc (just-barely-a-
+    // Prague-day-trip + outsized standalone historical weight) — except
+    // Znojmo genuinely stretches that framing further than either of those
+    // two (it's meaningfully farther from Prague, deep in South Moravia
+    // near the Austrian border), flagged here rather than silently waved
+    // through. Same long-form "intro — history — landmarks — bonus"
+    // template as brno/olomouc/plzen/jihlava. Direct tie-in to the History
+    // Timeline: Sigismund of Luxembourg held his own court here for months
+    // in 1421 (three-strikes-1421), mentioned here as a plain historical
+    // fact about the town itself, not as a "this timeline already covered
+    // it" callback.
+    // Two different Přemyslid dukes both named Konrad appear in this
+    // card's own second paragraph — confirmed via WebSearch as father and
+    // son, not the same person despite the 56-year gap between their two
+    // acts: Konrad II of Znojmo (d. 1161) commissioned the rotunda's own
+    // fresco cycle for his 1134 wedding; his son, Konrad Otto (later
+    // briefly Duke of Bohemia, d. 1191), founded Louka Abbey in 1190
+    // alongside his own mother Maria. Kept distinct rather than
+    // conflated into one figure.
+    // Vratislaus II (not "Vratislaus I," which several English sources on
+    // the rotunda get wrong) named as the rotunda's "real king" figure —
+    // matches this project's own established Vratislav/Vladislav
+    // naming-collision correction (see the Bohemian Duchy content-pass
+    // notes elsewhere in this project): no Bohemian ruler named Vratislav
+    // was ever crowned king except Vratislav II.
+    name: 'Znojmo',
+    slug: 'znojmo',
+    localizedNames: { cz: 'Znojmo', zh: '兹诺伊莫' },
+    labels: ['city'],
+    coordinates: { lat: 48.85430998584812, lng: 16.04987811287341 },
+    rarity: 'legend',
+    xpReward: 100,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Znojmo',
+    description: {
+      en: `Welcome to Znojmo — a South Moravian town that spent its early centuries as a duke's fortified lookout post over the Austrian border, has long since made its peace with that job, and today would much rather talk to you about its wine, its pickles, and the twenty-seven kilometers of tunnels running under your feet.
+
+Znojmo began as a ducal stronghold, built in wood around 1080 by Duke Břetislav I to watch the Thaya river valley for trouble out of Austria, then rebuilt in stone toward the end of the 12th century as the seat of its own Přemyslid appanage — one of three rival Moravian power centers, alongside Olomouc and Brno, from an era when Prague was far from the obvious capital of anything. Duke Konrad II of Znojmo had the castle's own chapel, a small Romanesque rotunda, painted to mark his 1134 wedding, and used the commission as dynastic propaganda: the fresco cycle wove the family's legendary ancestors (Přemysl the Ploughman among them) together with its real kings (Vratislaus II, Bohemia's first) into one continuous claim to the right to rule. It's one of the oldest surviving fresco cycles in the Czech lands, and today it's the only piece of the ducal castle still standing — the rest was rebuilt, centuries later, into a brewery and a Baroque chateau. Konrad's own son, Duke Konrad Otto, later gave a fortune in land and money to found Louka Abbey just outside town in 1190, alongside his mother Maria; the Premonstratensian house went on to spend six centuries as one of Central Europe's most important monasteries before Emperor Joseph II shut it down in 1784. One of its own monks, the scientist-priest Prokop Diviš, built one of the world's first grounded lightning rods while he lived there.
+
+The town below the castle came later: King Ottokar I chartered it as a royal town around 1226, one of the very first in Moravia, and it grew rich enough on trade to dig itself a genuine underworld — more than 27 kilometers of connected cellars and passages beneath the old town, the largest such network in the country, built for storing wine and food, sheltering during sieges, and, according to local legend, making sure any invader who wandered in alone never quite found the way back out.
+
+Znojmo picked a side in the Hussite Wars too, though not the one its own castle's dynastic frescoes might suggest: Sigismund of Luxembourg held his own court here for months in 1421, safely out of reach while the rest of Bohemia burned without him. Centuries later, the town briefly hosted history one more time: after Napoleon narrowly beat Archduke Charles at the Battle of Wagram in July 1809, the two sides met just outside Znojmo and signed the Armistice of Znaim, ending the campaign a week later.
+
+Today the town trades on something far more agreeable — its South Moravian wine, and its famously sweet-and-sour pickled cucumbers, a local specialty since a 16th-century abbot of Louka Abbey introduced cucumber cultivation as an alleged cure for the plague. Both still travel across the country under Znojmo's own name.
+
+🎁 Bonus: The Rotunda of St. Catherine's fresco cycle became its own piece of art-historical detective work. Historians have spent generations arguing over exactly which painted face belongs to which Přemyslid duke, and several identities are still disputed today — a thousand-year-old game of Guess Who nobody has definitively won.`,
+
+      cz: `Vítej ve Znojmě — jihomoravském městě, které první staletí své existence strávilo jako opevněná knížecí hlídka nad rakouskou hranicí, s touhle prací se dávno smířilo a dnes by s tebou mnohem raději mluvilo o svém víně, svých okurkách a sedmadvaceti kilometrech chodeb, které se táhnou pod tvýma nohama.
+
+Znojmo začalo jako knížecí opevnění, postavené kolem roku 1080 ze dřeva knížetem Břetislavem I., aby hlídalo údolí řeky Dyje před nebezpečím z rakouské strany, a koncem 12. století přestavěné z kamene jako sídlo vlastního přemyslovského údělu — jednoho ze tří soupeřících moravských mocenských center, vedle Olomouce a Brna, z doby, kdy Praha ještě zdaleka nebyla samozřejmým hlavním městem čehokoli. Kníže Konrád II. Znojemský si na počest své svatby v roce 1134 nechal vymalovat vlastní hradní kapli, malou románskou rotundu, a využil tuhle zakázku jako dynastickou propagandu: freskový cyklus propletl legendární rodové předky (mimo jiné Přemysla Oráče) se skutečnými králi (Vratislavem II., prvním českým králem) do jednoho souvislého nároku na právo vládnout. Je to jeden z nejstarších dochovaných freskových cyklů v českých zemích a dnes je to jediná část knížecího hradu, která ještě stojí — zbytek byl o staletí později přestavěn na pivovar a barokní zámek. Konrádův vlastní syn, kníže Konrád Ota, později věnoval značné jmění v půdě a penězích na založení Louckého kláštera těsně za městem v roce 1190, spolu se svou matkou Marií; premonstrátský dům pak strávil šest století jako jeden z nejvýznamnějších klášterů střední Evropy, než ho v roce 1784 zrušil císař Josef II. Jeden z jeho mnichů, vědec a kněz Prokop Diviš, tu sestrojil jeden z prvních uzemněných hromosvodů na světě.
+
+Město pod hradem přišlo později: král Přemysl Otakar I. je kolem roku 1226 povýšil na královské město, jedno z vůbec prvních na Moravě, a zbohatlo na obchodu natolik, že si pod sebou vykopalo doslova podsvětí — víc než 27 kilometrů propojených sklepů a chodeb pod starým městem, největší takovou síť v zemi, vybudovanou ke skladování vína a jídla, k úkrytu při obléhání a podle místní pověsti i k tomu, aby se žádný osamělý dobyvatel, který se sem zatoulal, už nikdy nenašel cestu ven.
+
+Znojmo si vybralo stranu i za husitských válek, i když ne tu, kterou by naznačovaly dynastické fresky jeho vlastního hradu: Zikmund Lucemburský tu v roce 1421 měsíce držel svůj vlastní dvůr, v bezpečí mimo dosah, zatímco zbytek Čech hořel bez něj. O staletí později město na chvíli znovu hostilo dějiny: poté co Napoleon v červenci 1809 těsně porazil arcivévodu Karla v bitvě u Wagramu, obě strany se sešly kousek za Znojmem a podepsaly znojemské příměří, které o týden později ukončilo celé tažení.
+
+Dnes město těží z něčeho podstatně příjemnějšího — svého jihomoravského vína a svých proslulých sladkokyselých okurek, místní speciality, kterou v 16. století zavedl opat Louckého kláštera jako údajný lék na mor. Obojí se pod jménem Znojma prodává po celé zemi dodnes.
+
+🎁 Bonus: Freskový cyklus rotundy sv. Kateřiny se stal opravdovou uměleckohistorickou detektivkou. Historikové umění strávili celé generace hádkami o tom, která namalovaná tvář patří kterému přemyslovskému knížeti, a několik totožností zůstává sporných dodnes — tisíc let stará hra Kdo je kdo, kterou zatím nikdo definitivně nevyhrál.`,
+
+      zh: `欢迎来到兹诺伊莫——一座南摩拉维亚小城，早年一直是公爵设在奥地利边境上的一处设防瞭望哨，如今早已跟这份差事和解，更想跟你聊聊自己的葡萄酒、腌黄瓜，还有脚下那二十七公里长的地道网络。
+
+兹诺伊莫最初是一处公爵的设防据点，约1080年由布热季斯拉夫一世公爵用木料建成，用来监视迪耶河谷、防备来自奥地利方向的威胁；到12世纪末，被改建为石造建筑，成了普热美斯尔家族自己一处采邑的中心——在布拉格还远称不上"理所当然的首都"的年代，它是与奥洛穆茨、布尔诺并列的三个相互竞争的摩拉维亚权力中心之一。为纪念自己1134年的婚礼，兹诺伊莫的康拉德二世公爵下令为城堡自己的礼拜堂——一座小小的罗曼式圆形教堂——绘制壁画，还把这次委托变成了一份王朝宣传品：整套壁画把家族的传说祖先（其中就有犁地人普热米斯尔）与真实的国王（波希米亚第一位国王弗拉季斯拉夫二世）编织进了同一条为自家统治权正名的脉络里。这是波希米亚与摩拉维亚现存最古老的壁画组之一，如今也是这座公爵城堡唯一还矗立着的部分——其余部分几个世纪后先后被改建成了啤酒厂和巴洛克式庄园。康拉德自己的儿子，康拉德·奥托公爵，后来又拿出大笔土地和钱财，于1190年伙同母亲玛丽亚，在城外不远处创立了洛乌卡修道院；这座普雷蒙特雷会修道院此后六个世纪，都是中欧最重要的修道院之一，直到1784年被约瑟夫二世皇帝下令解散。修道院里那位身兼科学家的修士普罗科普·迪维什，还曾在这里造出了世界上最早的接地避雷针之一。
+
+山下的城镇要晚一些才出现：普热美斯尔·奥托卡一世国王约在1226年将其升格为王室城镇，是摩拉维亚最早的几座王室城镇之一，也靠贸易积累了足够的财富，硬是在自己脚下挖出了一座地下"暗城"——老城下方超过27公里、彼此相连的地窖与通道，是全国规模最大的这类网络，用来储存葡萄酒和粮食，围城时用来藏身，据当地传说，还专门用来让任何独自误闯进来的入侵者，再也找不到出去的路。
+
+胡斯战争期间，兹诺伊莫也选了边站——只是选的这一边，倒不像自家城堡里那套王朝壁画暗示的方向：1421年，西吉斯蒙德·卢森堡就在这里安然驻跸数月，而波希米亚的其他地方，正在没有他的情况下战火纷飞。几个世纪后，这座小城又一次短暂地成了历史舞台：1809年7月，拿破仑在瓦格拉姆战役中险胜卡尔大公之后，双方就在兹诺伊莫城外不远处会面，签下了《兹诺伊莫停战协定》，一周后，这场战役也随之落幕。
+
+如今，这座城市靠的是远为惬意的东西——它的南摩拉维亚葡萄酒，还有那种远近闻名的酸甜口味腌黄瓜，这道地方特产的由来，是16世纪一位洛乌卡修道院院长把黄瓜种植当作所谓的"抗瘟疫良方"引入本地。这两样东西，至今仍打着兹诺伊莫的名字，行销全国。
+
+🎁 彩蛋：圣凯瑟琳圆形教堂的这套壁画，成了一桩名副其实的艺术史侦探案：艺术史学家们花了好几代人的时间，争论画中每一张脸到底对应哪一位普热美斯尔家族的公爵，其中好几个身份至今仍有争议——一场持续了上千年、至今还没人能彻底赢下来的"猜猜我是谁"。`,
+    },
+  },
+  {
     // Added 2026-08-26 — out-of-town-castle exception (same category as
     // bezdez-castle, zamek-hluboka-nad-vltavou): a genuinely distant, standalone
     // site ~12km from Brno, not a second Brno landmark. Direct tie-in: one of
@@ -26472,6 +26545,191 @@ Ta jistota vydržela do listopadu 1420, kdy se husitský kněz vězněný uvnit�
 这份笃定一直维持到1420年11月，被囚禁在城堡里的一名胡斯派神父自己挣脱了锁链，恰好在塔博尔派援军抵达城外之际，从内部打开了城门。两座城堡在同一次行动中双双陷落，城内的宝库也随之被一并搬空。奥德日赫二世·罗森贝格又守着这片废墟十七年，直到1437年的和约最终要求他亲手拆毁两座城堡剩下的部分。
 
 🎁 彩蛋：如今的遗迹是个真正野趣十足的地方，而非规规矩矩的纪念碑——附近河边悬崖上架着一条悬索便桥，一条1938至39年间凿穿岩石的短隧道，至今仍连接着通往塔博尔的徒步小径。`,
+    },
+  },
+  {
+    // Added 2026-09-07, user-supplied coordinates.
+    // Content confirmed via WebSearch/WebFetch (cs.wikipedia's own
+    // "Rozhledna Šiška" article, hrady.cz, prazskypatriot.cz, blesk.cz):
+    // built by sculptor Čestmír Suška (b. 1952) from a decommissioned
+    // cistern found near Trutnov, 41 steel-grate steps to an 8m platform,
+    // 11.5m total height. Toured České Budějovice (2013), Brno (2015),
+    // Trutnov (2017), and Prague's Vysočany district (2019) before landing
+    // at Ladronka (Prague 6/Břevnov) as a free 18-month loan from Suška in
+    // October 2020. Prague 6 ran a resident survey in 2021 on whether to
+    // keep it permanently; repeated lease extensions since (most recently
+    // reported running through May 2026) indicate the district kept
+    // renewing rather than returning it — worded to avoid over-claiming an
+    // exact current end date, since no source confirms what happens after
+    // that lease term.
+    // This is within Prague proper (Břevnov/Ladronka), not a day-trip
+    // location — the scope rule for non-Prague towns doesn't apply here.
+    // "Šiška" (pinecone) is the artwork's own descriptive title, not a
+    // place name, so translated into the EN display name per the
+    // Nebušice-Eye precedent (a descriptive title gets translated; a true
+    // proper/place name doesn't) — cz localizedName keeps the real name
+    // "Rozhledna Šiška".
+    // rarity 'rare', labels ['tower','modern','nature'] — matching
+    // nebusicke-oko's own tier/label set for a small contemporary art
+    // installation with a view, not a historic tower.
+    name: 'Pinecone Lookout Tower',
+    slug: 'rozhledna-siska',
+    localizedNames: { cz: 'Rozhledna Šiška', zh: '松果瞭望塔' },
+    labels: ['tower', 'modern', 'nature'],
+    coordinates: { lat: 50.079012754596015, lng: 14.356932831421634 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Rozhledna_%C5%A0i%C5%A1ka',
+    description: {
+      en: `Welcome to the Pinecone Lookout Tower, an 11.5-metre steel sculpture in Ladronka Park that started life as a discarded water tank and ended up as one of Prague 6's most argued-about pieces of public art — argued about, and ultimately kept.
+
+Sculptor Čestmír Suška, born in 1952, has spent decades giving old industrial containers a second life as art: cisterns, tanks, and boilers cut open with a torch and reassembled into towers, benches, and hollow "trees." This particular cistern turned up abandoned in a field near Trutnov. Suška's team cut its steel shell into 41 grated stairs leading to an eight-metre viewing platform, then burned rows of triangular openings into the walls with an acetylene torch until the whole structure read, from a distance, as an oversized pinecone. It had already toured České Budějovice, Brno, and Trutnov itself, plus a stint in Prague's Vysočany district, before Suška lent it to Prague 6 for free in October 2020 — originally for eighteen months, alongside a matching café of the same name.
+
+That loan was only ever meant to be a trial. In 2021, the district put the question to its own residents: should the tower and its café stay at Ladronka for good, or go back into storage? The answer, borne out by repeated lease extensions in the years since, was clear enough — a sculpture originally destined for the scrapyard has become one of the park's fixed points, standing among the joggers, dog-walkers, and in-line skaters who already made Ladronka one of Prague's busiest patches of green.
+
+🎁 Bonus: Nothing about the tower is rustproof or repainted — the bare, weathering steel is deliberate, part of Suška's own aesthetic of letting reclaimed material age openly rather than disguising where it came from.`,
+
+      cz: `Vítejte u rozhledny Šiška, jedenáct a půl metru vysoké ocelové sochy v parku Ladronka, která začínala jako vyřazená vodní nádrž a skončila jako jedno z nejvíc probíraných děl veřejného umění v Praze 6 — probíraných, a nakonec ponechaných.
+
+Sochař Čestmír Suška, narozený v roce 1952, dává už desítky let starým průmyslovým nádobám druhý život jako umění: cisterny, nádrže a kotle rozřezané hořákem a znovu poskládané do věží, laviček a dutých "stromů". Právě tahle cisterna se našla opuštěná na poli u Trutnova. Suškův tým vyřezal do její ocelové skořepiny 41 roštových schodů vedoucích na osmimetrovou vyhlídkovou plošinu a do stěn pak acetylenovým hořákem vypálil řady trojúhelníkových otvorů, dokud celá stavba z dálky nepůsobila jako obří šiška. Než ji Suška v říjnu 2020 zdarma zapůjčil Praze 6 — původně na osmnáct měsíců, spolu se stejnojmennou kavárnou —, stihla už objet České Budějovice, Brno i samotný Trutnov, plus zastávku v pražských Vysočanech.
+
+Ta výpůjčka měla být od začátku jen zkouškou. V roce 2021 dala městská část otázku vlastním obyvatelům: má rozhledna i kavárna zůstat na Ladronce natrvalo, nebo se má vrátit zpátky do skladu? Odpověď, potvrzená opakovaným prodlužováním nájmu v letech, která následovala, byla dost jasná — socha původně určená do šrotu se stala jedním z pevných bodů parku, mezi běžci, pejskaři a bruslaři na kolečkových bruslích, kteří z Ladronky už předtím udělali jeden z nejrušnějších kousků pražské zeleně.
+
+🎁 Bonus: Na rozhledně není nic nerezavějícího ani přetíraného — obnažená, povětrností ošlehaná ocel je záměr, součást Suškovy vlastní estetiky, která nechává recyklovaný materiál otevřeně stárnout, místo aby skrývala, odkud pochází.`,
+
+      zh: `欢迎来到"松果瞭望塔"（Rozhledna Šiška），一座矗立在拉德龙卡公园（Ladronka Park）里、高11.5米的钢铁雕塑——它的前身，是一只被废弃的水罐，如今却成了布拉格六区最受议论的公共艺术品之一：议论归议论，最终还是被留了下来。
+
+雕塑家切斯特米尔·苏什卡（Čestmír Suška，生于1952年）几十年来一直在给废旧工业容器"续命"：水罐、油罐、锅炉，被他用切割枪切开，再重新拼装成塔、长椅，或是中空的"树"。这只水罐，就是在特鲁特诺夫（Trutnov）附近的一片田野里被人发现遗弃在那儿的。苏什卡的团队把它的钢壳切割出41级镂空钢梯，通往一座8米高的观景平台，又用乙炔喷枪在壁面上烧出一排排三角形孔洞，直到整座结构从远处看去，活脱脱一枚放大版的松果。在2020年10月苏什卡把它免费借给布拉格六区之前——最初借期十八个月，还搭配了一间同名咖啡馆——它已经在捷克布杰约维采、布尔诺、特鲁特诺夫本地巡展过一圈，还在布拉格的维索恰尼（Vysočany）区待过一阵。
+
+那次出借，从一开始就只是个试验。2021年，区政府把决定权交给了居民自己：这座瞭望塔和咖啡馆，是该永久留在拉德龙卡，还是该收回仓库？答案，被之后连年续约的事实印证得很清楚——一座原本要被当废铁处理的雕塑，成了公园里一个固定的存在，与那些慢跑者、遛狗人、轮滑爱好者相伴而立——拉德龙卡本就是布拉格人气最旺的绿地之一。
+
+🎁 彩蛋：这座塔从没做过防锈处理，也没被重新上漆——裸露、任凭风雨侵蚀的钢材是刻意为之，正是苏什卡自己美学理念的一部分：让回收材料坦然地老去，而不是掩盖它的来处。`,
+    },
+  },
+  {
+    // Added 2026-09-07, user-supplied coordinates. Confirmed with the
+    // user via AskUserQuestion (2026-09-07) that this qualifies as a
+    // Kutná-Hora-style exception to the one-card-per-non-Prague-city rule
+    // despite Černošice already having its own town card (slug
+    // 'cernosice', DB-only, not yet in this seed file) — the user's own
+    // call, flagged rather than assumed, per the standing instruction in
+    // CLAUDE.md's scope-rule bullet.
+    // Content confirmed via WebSearch/WebFetch (cs.wikipedia's own
+    // "Modlitebna Církve bratrské (Černošice)" article, archiweb.cz,
+    // czechdesign.cz, cc.cz "Kostel bílý jako peřina"): architect Zdeněk
+    // Fránek, built 2009-2010, opened 24 Nov 2010, organic-architecture
+    // form inspired by Paul Klee's 1940 angel drawings (made in the final
+    // months of Klee's life). Fired-ceramic-block bearing walls +
+    // monolithic reinforced-concrete columns/slabs. Nominated for the 2012
+    // Wienerberger Brick Award — one of only two Czech projects on that
+    // year's international nomination list (per WebSearch on
+    // czechdesign.cz; "nominated" rather than "shortlisted"/"finalist",
+    // since no source confirms it advanced past the nomination stage).
+    // Opened within weeks of Fránek's other Church-of-the-Brethren project
+    // in Litomyšl (Nový kostel). Regularly opens for Den architektury
+    // (Czech national Architecture Day open-house festival), per
+    // archiv.denarchitektury.cz's own program listing.
+    // rarity 'superior' (matches cernosice's own town-card tier) — a
+    // notable, awarded piece of contemporary architecture, but modest in
+    // scale, not a "legend"-tier monumental building.
+    name: 'Church of the Brethren Prayer Hall',
+    slug: 'modlitebna-cirkve-bratrske-cernosice',
+    localizedNames: { cz: 'Modlitebna Církve bratrské v Černošicích', zh: '切尔诺希采弟兄会祈祷堂' },
+    labels: ['church', 'architecture', 'modern'],
+    coordinates: { lat: 49.950432718371914, lng: 14.316111082961605 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Modlitebna_C%C3%ADrkve_bratrsk%C3%A9_(%C4%8Cerno%C5%A1ice)',
+    description: {
+      en: `Welcome to the Church of the Brethren Prayer Hall in Černošice, a building the local press once described as "white as a duvet" — a single sweeping, wing-shaped form that looks more like abstract sculpture than a conventional Protestant chapel.
+
+Architect Zdeněk Fránek designed the building between 2009 and 2010, and it opened on 24 November 2010. His own starting point wasn't a floor plan but a set of drawings: in 1940, in the last months of his life, painter Paul Klee produced a series of angel sketches, simple, unfinished-looking figures made as he was dying of a degenerative illness. Fránek wanted the prayer hall itself to carry that same quality — something that reads, in his own words, like a wing or a feather: soft, light, and warm rather than solemn or monumental. Underneath the sculptural white shell sits a straightforward structure of fired ceramic block walls and reinforced concrete columns, with the building's curves achieved through monolithic concrete floor and roof slabs poured to shape.
+
+The congregation itself belongs to Církev bratrská (the Church of the Brethren), a small evangelical Protestant denomination with 19th-century revivalist roots, distinct from Bohemia's larger Hussite-descended churches. True to that community-first, low-church tradition, the building was designed to do more than hold Sunday services: the ground floor hosts concerts, informal gatherings, and childcare alongside worship, while the pastor's own apartment and utility rooms sit upstairs. It opened within weeks of Fránek's other Church of the Brethren project in Litomyšl, and was later nominated for the 2012 Wienerberger Brick Award, one of only two Czech projects to make that year's international nomination list — recognition that, for a small-town prayer hall built on a modest budget, put it in company usually reserved for grander commissions.
+
+🎁 Bonus: The building is popular enough with architecture enthusiasts that it regularly opens its doors for Den architektury (Architecture Day), the country's annual open-house festival — a Protestant prayer hall doubling, one weekend a year, as a stop on Prague-area architecture tours.`,
+
+      cz: `Vítejte u modlitebny Církve bratrské v Černošicích, stavby, o níž místní tisk kdysi napsal, že je "bílá jako peřina" — jediný plynulý, křídlovitý tvar, který připomíná spíš abstraktní sochu než tradiční protestantskou kapli.
+
+Architekt Zdeněk Fránek budovu navrhl v letech 2009 až 2010 a otevřena byla 24. listopadu 2010. Jeho vlastním výchozím bodem přitom nebyl půdorys, ale sada kreseb: v roce 1940, v posledních měsících svého života, vytvořil malíř Paul Klee sérii andělských skic — prosté, téměř nedokončeně působící postavy, kreslené v době, kdy umíral na degenerativní nemoc. Fránek chtěl, aby stejnou vlastnost neslo i modlitební sál samotný — aby působil, jeho vlastními slovy, jako křídlo nebo pírko: měkce, lehce a teple, ne slavnostně a monumentálně. Pod sochařsky tvarovanou bílou skořápkou se přitom skrývá docela prostá konstrukce: nosné stěny z pálených keramických tvárnic a sloupy z monolitického železobetonu, přičemž zakřivení stavby vzniká z monolitických betonových stropních a střešních desek odlévaných přímo do žádaného tvaru.
+
+Samotný sbor patří k Církvi bratrské, malé evangelikální protestantské denominaci s kořeny v obrozeneckých hnutích 19. století, odlišné od větších českých církví navazujících na husitskou tradici. V souladu s touto komunitně zaměřenou, málo formální tradicí byla budova navržena k víc než jen nedělním bohoslužbám: v přízemí se vedle bohoslužeb konají koncerty, neformální setkání i hlídání dětí, zatímco byt faráře a technické zázemí jsou v prvním patře. Otevřena byla v rozmezí pár týdnů od Fránkova dalšího projektu pro Církev bratrskou v Litomyšli a později se dostala do nominace na Wienerberger Brick Award 2012, jednu ze dvou jediných českých staveb v tehdejším mezinárodním nominačním seznamu — ocenění, které pro modlitebnu z malého města postavenou s omezeným rozpočtem znamenalo společnost obvykle vyhrazenou honosnějším zakázkám.
+
+🎁 Bonus: Mezi milovníky architektury je budova natolik oblíbená, že se pravidelně otevírá veřejnosti v rámci Dne architektury, celostátního festivalu otevřených dveří — protestantská modlitebna, která jednou za rok o víkendu funguje i jako zastávka na architektonických prohlídkách pražského okolí.`,
+
+      zh: `欢迎来到切尔诺希采弟兄会祈祷堂（Modlitebna Církve bratrské v Černošicích），当地媒体曾用"白得像条棉被"来形容这座建筑——一整片流畅的、翼形的白色造型，看上去更像一件抽象雕塑，而不是一座传统的新教礼拜堂。
+
+建筑师兹德涅克·弗拉内克（Zdeněk Fránek）在2009至2010年间设计了这座建筑，并于2010年11月24日正式开放。他的设计起点并非平面图，而是一组画作：1940年，画家保罗·克利（Paul Klee）在生命最后几个月里创作了一系列天使素描——那是他罹患退行性疾病、生命垂危之际画下的一批线条简单、近乎未完成的形象。弗拉内克希望祈祷大厅本身也能带着同样的气质——用他自己的话说，要像一片翅膀或一根羽毛：柔软、轻盈、温暖，而非庄严厚重。而在这层雕塑般的白色外壳之下，结构其实相当朴素：承重墙由烧结陶土砌块砌成，配以现浇钢筋混凝土立柱，建筑的曲线则是靠现浇混凝土楼板与屋面板直接浇筑成型而来。
+
+这座祈祷堂所属的教会是"弟兄会"（Církev bratrská），一个根植于19世纪福音复兴运动的小型福音派新教宗派，与波希米亚那些承袭胡斯传统的大教会颇为不同。契合这种以社区为中心、形式感不强的传统，这座建筑的设计用途远不止周日礼拜：一楼除礼拜外，还举办音乐会、非正式聚会与幼儿托管，牧师的住所与设备用房则安排在二楼。它开放的时间，与弗拉内克在利托米什尔（Litomyšl）为弟兄会设计的另一座教堂前后只差几周；后来它还入围了2012年维恩伯格砖材建筑奖（Wienerberger Brick Award）的提名名单，是当年仅有的两个入选提名名单的捷克项目之一——对于一座预算有限、建在小镇上的祈祷堂来说，这份认可通常只属于规模宏大得多的委托项目。
+
+🎁 彩蛋：这座建筑在建筑爱好者中人气颇高，每年都会在"建筑日"（Den architektury，捷克全国性的开放日活动）期间对外开放——一座新教祈祷堂，一年里有一个周末，摇身变成布拉格周边建筑巡礼路线上的一站。`,
+    },
+  },
+  {
+    // Added 2026-09-07, user-supplied coordinates. Distinct from the
+    // existing 'pamatnik-jana-palacha-sousosi' slug (the Zoubek "House of
+    // the Son and House of the Mother" sculpture on Alšovo nábřeží, Prague
+    // — Palach's self-immolation site) and from 'pamatnik-palacha-zajice'
+    // — this is the National Museum's memorial at Palach's own birth
+    // house in Všetaty, ~50km NE of Prague. No existing Location card for
+    // Všetaty itself (checked seed file + live DB), so this is that town's
+    // first and only card, not a second card for an already-carded place.
+    // Content confirmed via WebSearch (cs.wikipedia's own "Památník Jana
+    // Palacha (Všetaty)" article, janpalach.cz's own "Dětství" biography
+    // page, irozhlas.cz, ct24.ceskatelevize.cz "Hrana zla"): birth house
+    // built 1929, Palach born there 11 Aug 1948, father Josef ran a
+    // confectionery shop closed under nationalization in the early 1950s,
+    // father died of a heart attack in 1962 (Jan was 14), mother worked
+    // the train-station canteen. House acquired by the National Museum in
+    // 2014 after decades of disrepair; architecture competition won by
+    // Miroslav Cikán and Pavla Melková (MCA atelier); the "hrana zla"
+    // (edge of evil) steel blade concept per the architects' own
+    // description (ct24.cz); opened 9 Oct 2019. Exhibits include Zoubek's
+    // death mask, Palach's briefcase, and the flag that covered his body.
+    // Original 1969 Všetaty grave and the 1988 unofficial-pilgrimage/
+    // post-1989 reburial-at-Olšany detail already established in this
+    // app's existing Prague Palach sculpture card — repeated here since
+    // it's the more natural closing beat for *this* card specifically
+    // (the story returning to Všetaty), not a cross-reference to that
+    // other Location card.
+    // Solemn tone throughout per feedback_solemn_content_tone — no jokes,
+    // format (opening + body + 🎁 Bonus) kept as usual.
+    // rarity 'epic' — a National Museum branch with an award-caliber
+    // architectural design and major national-historical weight, though
+    // physically modest (a converted house), so short of 'legend'.
+    name: 'Jan Palach Memorial, Všetaty',
+    slug: 'pamatnik-jana-palacha-vsetaty',
+    localizedNames: { cz: 'Památník Jana Palacha (Všetaty)', zh: '扬·帕拉赫纪念馆（全塞塔蒂）' },
+    labels: ['monument', 'historical', 'museum'],
+    coordinates: { lat: 50.28483066525128, lng: 14.591694201514633 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pam%C3%A1tn%C3%ADk_Jana_Palacha_(V%C5%A1etaty)',
+    description: {
+      en: `Welcome to the Jan Palach Memorial in Všetaty — not the site of his protest, but the house where the story began: the home where Jan Palach was born, grew up, and lived until he left for Prague.
+
+Palach was born here on 11 August 1948, in a small house by the Tišický stream where his parents ran a confectionery shop. The business didn't survive the 1950s: like most private tradespeople under the new Communist state, the Palachs lost the shop and later the workshop too, and his father took manual work at a mill in nearby Brandýs nad Labem while his mother sold food at the Všetaty train station. Josef Palach died of a heart attack in 1962, when Jan was fourteen. By his own teachers' accounts, he grew into a serious, bookish teenager — an avid chess player who preferred historical and adventure novels — before leaving for Charles University's Faculty of Arts in Prague, where, in January 1969, he set himself on fire in protest of the Soviet occupation.
+
+After his death the house slowly fell into disrepair, and it stayed that way for decades until the National Museum acquired it in 2014 and ran a public design competition for its transformation. The winning design, by architects Miroslav Cikán and Pavla Melková of MCA atelier, kept only the original house's outer walls and drove a sharp, freestanding steel blade straight through the structure — a form the architects themselves call the "edge of evil," meant to evoke both the occupation and Palach's own act at once. That blade runs the length of the building and comes to rest, symbolically, at a family table inside. The memorial opened to the public on 9 October 2019, and its exhibition now holds some of the most difficult objects connected to Palach's death: the death mask made by sculptor Olbram Zoubek on the day he died, the briefcase Palach was carrying, and the flag that covered his body.
+
+🎁 Bonus: Palach was originally buried here in Všetaty, and by August 1988 — a year before the Velvet Revolution — his grave had become an unofficial pilgrimage site that the Communist authorities tried, and failed, to shut down. His remains were moved to Prague's Olšany Cemetery only after 1989; Všetaty kept the house instead.`,
+
+      cz: `Vítejte u Památníku Jana Palacha ve Všetatech — ne na místě jeho protestu, ale v domě, kde celý příběh začal: v domě, kde se Jan Palach narodil, vyrostl a žil, než odešel do Prahy.
+
+Palach se tu narodil 11. srpna 1948, v malém domku u Tišického potoka, kde jeho rodiče vedli cukrářství. Živnost nepřežila padesátá léta: stejně jako většina soukromých živnostníků za nového komunistického státu přišli Palachovi nejprve o obchod a později i o dílnu, otec pak sehnal jen manuální práci v mlýně v nedalekém Brandýse nad Labem, zatímco matka prodávala jídlo na bufetu vlakového nádraží ve Všetatech. Josef Palach zemřel na infarkt v roce 1962, kdy bylo Janovi čtrnáct let. Podle vzpomínek jeho učitelů z něj vyrostl vážný, knihomilský teenager — vášnivý šachista, který dával přednost historickým a dobrodružným románům — než odešel na Filozofickou fakultu Karlovy univerzity do Prahy, kde se v lednu 1969 na protest proti sovětské okupaci upálil.
+
+Po jeho smrti dům postupně chátral a zůstal v tomto stavu desítky let, dokud ho v roce 2014 nezískalo Národní muzeum a nevypsalo na jeho proměnu veřejnou architektonickou soutěž. Vítězný návrh architektů Miroslava Cikána a Pavly Melkové z ateliéru MCA ponechal jen obvodové zdi původního domu a skrz celou stavbu vedl ostrou, samostatně stojící ocelovou hranu — tvar, který architekti sami nazývají "hranou zla", jenž má zároveň připomínat okupaci i Palachův vlastní čin. Ta hrana probíhá celou délkou budovy a symbolicky se zastavuje u rodinného stolu uvnitř. Památník byl veřejnosti otevřen 9. října 2019 a jeho expozice dnes uchovává některé z nejtěžších předmětů spojených s Palachovou smrtí: posmrtnou masku, kterou v den jeho úmrtí zhotovil sochař Olbram Zoubek, aktovku, kterou měl Palach s sebou, a vlajku, jíž bylo přikryto jeho tělo.
+
+🎁 Bonus: Palach byl původně pohřben právě zde, ve Všetatech, a už v srpnu 1988 — rok před sametovou revolucí — se jeho hrob stal neoficiálním poutním místem, které se komunistické úřady pokoušely zrušit a nepodařilo se jim to. Jeho ostatky byly přemístěny na pražské Olšanské hřbitovy až po roce 1989; Všetaty si místo nich ponechaly dům.`,
+
+      zh: `欢迎来到位于全塞塔蒂（Všetaty）的扬·帕拉赫纪念馆——这里不是他抗议的地点，而是整个故事开始的地方：扬·帕拉赫出生、成长，直到动身前往布拉格之前，一直生活的那栋房子。
+
+帕拉赫于1948年8月11日出生在这里，一栋位于季希茨基溪（Tišický stream）畔的小房子，他的父母曾在此经营一家糖果店。这门生意没能撑过20世纪50年代：和当时大多数私营业主一样，在新的共产党政权下，帕拉赫一家先是失去了店铺，后来连作坊也丢了；父亲只能在附近的布兰迪斯－拉贝河畔（Brandýs nad Labem）的一家磨坊干体力活，母亲则在全塞塔蒂火车站的小吃摊卖食物。1962年，约瑟夫·帕拉赫（Josef Palach）死于心脏病突发，当时扬十四岁。据他的老师们回忆，他成长为一个严肃、爱读书的少年——一个热衷下棋的棋迷，偏爱历史与冒险小说——后来才离家前往布拉格的查理大学哲学系求学，并于1969年1月在那里为抗议苏联占领而自焚身亡。
+
+他去世后，这栋房子逐渐荒废，一荒就是数十年，直到2014年被国家博物馆收购，并为其改造举办了一场公开的建筑设计竞赛。获胜方案出自MCA工作室建筑师米罗斯拉夫·齐坎（Miroslav Cikán）与帕夫拉·梅尔科娃（Pavla Melková）之手，只保留了原屋的外墙，并让一道锋利的、独立矗立的钢制刃片贯穿整座建筑——建筑师自己将这一造型称为"恶之刃"（hrana zla），意在同时唤起对占领本身与帕拉赫那一举动的双重记忆。这道钢刃贯穿建筑全长，最终象征性地停在屋内的一张家庭餐桌前。纪念馆于2019年10月9日正式对公众开放，馆内如今陈列着一些与帕拉赫之死关系最为沉重的实物：雕塑家奥尔布拉姆·佐乌别克（Olbram Zoubek）在他去世当天制作的死者面模、帕拉赫当时随身携带的公文包，以及曾覆盖在他遗体上的旗帜。
+
+🎁 彩蛋：帕拉赫最初就安葬在全塞塔蒂本地。早在1988年8月——距离天鹅绒革命还有一年——他的墓地就已成为一处非官方的朝圣地，共产党当局曾试图取缔却未能得逞。他的遗骸直到1989年之后才被迁往布拉格的奥尔沙内公墓（Olšany Cemetery）；而全塞塔蒂，则留下了这栋房子。`,
     },
   },
 ];

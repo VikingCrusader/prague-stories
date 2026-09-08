@@ -14345,6 +14345,506 @@ export const historyEvents = [
     ],
     wikipediaUrl: "https://cs.wikipedia.org/wiki/Mikul%C3%A1%C5%A1_z_Husi",
   },
+  // New card, 2026-09-08, per the user's own dictated draft (Chinese) —
+  // Žižka's early-1421 western Bohemia campaign: the (already-empty)
+  // Kladruby monastery, then the siege and capitulation of Bohuslav ze
+  // Švamberka's own castle, and his eventual conversion to a Táborite
+  // captain. Researched/verified/translated by Claude; the user's draft
+  // said Bohuslav had already lost to Žižka three times, which checked
+  // out via WebSearch/WebFetch (cs.wikipedia's "Bohuslav VI. ze
+  // Švamberka" and "Bitva u Panského Boru," plus kokasice.cz/hrady.cz on
+  // the Krasíkov siege itself) as Nekmíř (Dec 1419, already
+  // `the-wagon-fort-1419`), Sudoměř (spring 1420, already
+  // `the-battle-of-sudomer-1420`), and the Battle of Panský Bor near
+  // Horažďovice (12 October 1420, not its own card here — Bohuslav's own
+  // side "fled the field very ignominiously" per cs.wikipedia, a clean
+  // Žižka win despite being outnumbered) — all three now linked via
+  // [[link:...]].
+  // - The 1421 siege itself: Kladruby's Benedictine monastery had already
+  //   emptied out (monks fled) by the time Žižka's column arrived, so it
+  //   was simply occupied and Petr Zmrzlík of Svojšín (a former royal
+  //   mint-master) installed as its new commander — not a fight. Žižka
+  //   then marched on Bohuslav's own ancestral seat, Krasíkov (also
+  //   called Švamberk Castle), catching him there with a skeleton
+  //   garrison; the siege took about two days (outer tower and gate
+  //   first, per kokasice.cz). Bohuslav negotiated capitulation but
+  //   pointedly refused to surrender to Žižka personally, insisting on
+  //   Petr Zmrzlík instead — the same man just installed at Kladruby.
+  //   Terms held: garrison released unharmed, Bohuslav interned. One
+  //   extra detail folded in from a WebSearch pass (not independently
+  //   re-verified beyond that one source): Zmrzlík's own intercession,
+  //   plus Žižka's own leniency, were specifically what kept Bohuslav
+  //   alive against his own army's wish for revenge after three straight
+  //   defeats — presented in-text as ordinary narration rather than a
+  //   hedged claim, since multiple sources converged on the surrender-to-
+  //   Zmrzlík-not-Žižka detail even where they differed on phrasing.
+  // - Imprisonment: moved to Příběnice (already `zricenina-hradu-
+  //   pribenice`, and the very castle Tábor had just taken via Václav
+  //   Koranda's own jailbreak in `one-jailbreak-two-castles-1420` — linked
+  //   here as a genuine callback, not a coincidence of research). Months
+  //   passed with neither Sigismund nor any relative paying ransom; per
+  //   cs.wikipedia, Bohuslav converted to the chalice after "several
+  //   months" of captivity (no more exact duration given by any source
+  //   checked) and became a Táborite captain by 1422 — per hrady.cz, that
+  //   same year he declared open hostility toward Oldřich II of Rožmberk,
+  //   a fellow Catholic nobleman who'd have been a natural ally not long
+  //   before, used here as the card's own closing irony.
+  // - No `quotes[]` entry: two differently-worded WebSearch passes looked
+  //   specifically for a Vavřinec z Březové (or other chronicle) line on
+  //   the Krasíkov capitulation itself; neither turned up an actual
+  //   quotable primary-source passage, only paraphrased secondary
+  //   summaries — left out entirely per this file's own "don't force a
+  //   quote" convention rather than dressed up as a chronicle citation.
+  // - `kladrubsky-klaster` added as a relatedLandmarks entry at the user's
+  //   own explicit mid-session request. `zricenina-hradu-pribenice` added
+  //   as a second, genuine (not stand-in) landmark tie via the
+  //   imprisonment detail above.
+  // - No image yet — can be generated in a follow-up pass; this card was
+  //   written content-first per the user's own request this session.
+  {
+    slug: "from-captive-to-captain-1421",
+    era: "religious-turmoil",
+    startYear: 1421.05,
+    images: ["/history/from-captive-to-captain-1421.webp"],
+    imageCaptions: [
+      {
+        en: "Bohuslav of Švamberk kneels to surrender his sword to Petr Zmrzlík of Svojšín at the breached gate of Krasíkov castle, Žižka watching from a deliberate distance, early 1421.",
+        cz: "Bohuslav ze Švamberka klečí a vzdává svůj meč Petru Zmrzlíkovi ze Svojšína u prolomené brány hradu Krasíkov, zatímco Žižka sleduje z uctivé vzdálenosti, začátek roku 1421.",
+        zh: "1421年初，博胡斯拉夫在克拉西科夫城堡被攻破的城门前跪地，将佩剑交给彼得·兹姆尔兹利克，杰式卡则刻意站在一旁远远看着。",
+      },
+    ],
+    year: {
+      en: "1421",
+      cz: "1421",
+      zh: "1421年",
+    },
+    tone: "humorous",
+    title: {
+      en: "From Captive to Captain",
+      cz: "Ze zajatce hejtmanem",
+      zh: "从阶下囚到自己人",
+    },
+    hookLine: {
+      en: "Žižka had already beaten this particular lord three times over. The fourth time, he barely had to fight at all.",
+      cz: "Tohohle pána Žižka porazil už třikrát. Počtvrté se skoro ani nemusel prát.",
+      zh: "杰式卡已经把这位领主打服了三次。第四次，他几乎都不用动手。",
+    },
+    summary: {
+      en: "By early 1421, Bohemia's map had mostly sorted itself out. North of Prague and around the capital itself, the Utraquists held the ground. To the south, Tábor had all but cleared out anyone left to fight. Only two pockets refused to fall in line: the Plzeň region in the west, and the country east of Kutná Hora. Both were still solidly Catholic, and neither showed any sign of changing its mind.\n\nThat spring, Žižka went west to do something about the first of the two. His column's opening move barely counted as a fight: Kladruby's Benedictine monastery had already emptied out, its monks long gone, so the Táborites simply walked in and installed Petr Zmrzlík of Svojšín, a former royal mint-master turned Hussite officer, as its new keeper.\n\nKladruby taken care of, Žižka went to pay a call on an old acquaintance. Bohuslav of Švamberk had already lost to him three times: at [[link:the-wagon-fort-1419]]Nekmíř[[/link]] in the last days of 1419, again at [[link:the-battle-of-sudomer-1420]]Sudoměř[[/link]] that following spring, and a third time that October near Horažďovice, where his own men broke and ran so badly it barely counted as a battle by the end.\n\nThis time, Bohuslav happened to be at home: his own family seat, the castle of Krasíkov, held by little more than a skeleton garrison. Žižka's column arrived before anyone inside had time to prepare, surrounded the walls, and within two days had already taken the outer tower and the gate. With no way out, and every reason to fear what two years of losses to him had earned in the way of grudges, Bohuslav agreed to surrender, on one condition: not to Žižka himself, but to Petr Zmrzlík, the same man now running Kladruby. Zmrzlík accepted, released the garrison unharmed, and — with Žižka's own surprising leniency behind him — kept Bohuslav's head on his shoulders, no small mercy given how many men in that army had scores of their own to settle with him.\n\nWhat followed was months of waiting in a cell, eventually at Příběnice, [[link:one-jailbreak-two-castles-1420]]a castle Tábor had only just taken[[/link]] by way of one very determined jailbreak. Bohuslav kept expecting Sigismund, or failing that some relative, to pay for his release. Nobody did. Not a single florin arrived. [[b]]By 1422, with nobody left to ransom him and nothing waiting back home worth returning to, Bohuslav converted to the chalice, joined Tábor outright, and was made one of its own captains — the man who'd spent two years losing to Žižka's army now fought under its own banner.[[/b]]\n\nHe wasted no time proving it, either. That same year found freshly converted Captain Bohuslav declaring open hostility toward Oldřich II of Rožmberk, a Catholic nobleman who not so long before might have counted as a natural ally. Three straight defeats, one king who never bothered to pay his ransom, and a change of sides so complete his own family portrait probably needed repainting.",
+      cz: "Na začátku roku 1421 měly Čechy svou mapu už z velké části vyřešenou. Severně od Prahy a kolem hlavního města samotného drželi pevninu utrakvisté. Na jihu Tábor prakticky vyčistil kraj od kohokoli, kdo by ještě chtěl bojovat. Vzpírala se jen dvě místa: plzeňský kraj na západě a území východně od Kutné Hory. Obě zůstávala pevně katolická a ani jedno nejevilo náznak, že by na tom chtělo něco měnit.\n\nNa jaře toho roku vytáhl Žižka na západ, aby s tím prvním něco udělal. Otevírací tah jeho výpravy sotva stál za zmínku jako boj: kladrubský benediktinský klášter už byl prázdný, mniši dávno pryč, takže táborité prostě vešli dovnitř a dosadili do jeho čela Petra Zmrzlíka ze Svojšína, bývalého královského mincmistra, z něhož se stal husitský hejtman.\n\nKdyž měl Kladruby vyřízené, zamířil Žižka navštívit starého známého. Bohuslav ze Švamberka s ním už prohrál třikrát: u [[link:the-wagon-fort-1419]]Nekměře[[/link]] v posledních dnech roku 1419, znovu u [[link:the-battle-of-sudomer-1420]]Sudoměře[[/link]] následující jaro, a potřetí toho října u Horažďovic, kde se jeho vlastní muži rozprchli tak potupně, že to na konci sotva ještě šlo nazvat bitvou.\n\nTentokrát byl Bohuslav zrovna doma: na vlastním rodovém sídle, hradě Krasíkov, hlídaném sotva kostrovou posádkou. Žižkův houf dorazil dřív, než se kdokoli uvnitř stačil připravit, obklíčil hradby, a do dvou dnů měl už dobytou vnější věž i bránu. Bez úniku a s každým důvodem obávat se, co si dva roky proher s ním u táboritů vysloužily za zášť, Bohuslav souhlasil s kapitulací, pod jednou podmínkou: ne do rukou samotného Žižky, ale do rukou Petra Zmrzlíka, téhož muže, který teď vedl Kladruby. Zmrzlík souhlasil, posádku bez úhony propustil, a — se Žižkovou vlastní překvapivou shovívavostí v zádech — udržel Bohuslavovi hlavu na krku, což nebyla malá milost, vezmeme-li v úvahu, kolik mužů v tom vojsku s ním mělo vlastní účty k vyřízení.\n\nNásledovaly měsíce čekání v cele, nakonec na Příběnicích, [[link:one-jailbreak-two-castles-1420]]hradě, který si Tábor teprve nedávno vzal[[/link]] díky jednomu velmi odhodlanému útěku z vězení. Bohuslav pořád čekal, že Zikmund, nebo aspoň nějaký příbuzný, zaplatí za jeho propuštění. Nikdo nezaplatil. Nepřišel jediný zlatý. [[b]]Do roku 1422, když už neměl kdo by ho vykoupil a doma na něj nečekalo nic, k čemu by se stálo za to vracet, přestoupil Bohuslav ke kalichu, vstoupil rovnou do Tábora a stal se jedním z jeho hejtmanů — muž, který dva roky prohrával s Žižkovým vojskem, teď bojoval pod jeho vlastní korouhví.[[/b]]\n\nNezdržoval se s dokazováním. Téhož roku čerstvě obrácený hejtman Bohuslav vyhlásil otevřené nepřátelství Oldřichovi II. z Rožmberka, katolickému šlechtici, který by ještě nedávno mohl počítat za přirozeného spojence. Tři prohry v řadě, jeden král, který se ani neobtěžoval zaplatit jeho výkupné, a přestup na druhou stranu tak úplný, že by si jeho vlastní rodinný portrét asi zasloužil přemalovat.",
+      zh: "到1421年初，波希米亚的局势已经十分明朗——布拉格及其周边，基本都是圣杯派的地盘；南边，塔博尔派也差不多扫平了所有还想打的对手。只剩下两块地方不肯归顺：西边的比尔森地区，和库特纳霍拉以东的一片土地。两处都还牢牢握在天主教手里，谁都没打算改主意。\n\n那年开春，杰式卡领兵向西，先去解决第一块。这一仗，说是仗都算勉强：克拉德鲁比的本笃会修道院早就人去楼空，修士们跑了个精光，塔博尔的人马直接大摇大摆走了进去，扶正了新掌门人——斯沃伊申的彼得·兹姆尔兹利克，一位从王室铸币官摇身一变的胡斯派军官。\n\n拿下克拉德鲁比后，杰式卡马不停蹄去“拜访”一位老熟人。什万贝尔克的博胡斯拉夫，已经被他打服过三次：1419年年底在[[link:the-wagon-fort-1419]]内克米尔[[/link]]一次，第二年春天在[[link:the-battle-of-sudomer-1420]]苏多梅日[[/link]]又一次，那年10月在霍拉日乔维采附近第三次——那一仗，他的部下溃逃得极其狼狈，到最后简直算不上一场战斗。\n\n这一次，博胡斯拉夫正好在家：自家祖传的克拉西科夫城堡，守军单薄得像个摆设。杰式卡的队伍来得又快又突然，城里人还没反应过来就被团团围住，不到两天，外围的塔楼和城门都已经落入对方手中。走投无路，加上心里清楚两年来输给这支军队的仇怎么可能轻易放下，博胡斯拉夫选择了投降——但有一个条件：不交到杰式卡本人手里，而是交给彼得·兹姆尔兹利克，就是那位刚被派去掌管克拉德鲁比的人。兹姆尔兹利克答应了，放走了守军，还——在杰式卡本人出人意料的宽容撑腰下——保住了博胡斯拉夫的脑袋，这在一支满是宿怨要清算的军队里，可不是件小事。\n\n接下来是好几个月的牢狱等待，最后被押到了普日贝尼采——[[link:one-jailbreak-two-castles-1420]]塔博尔不久前才刚刚拿下的一座城堡[[/link]]，靠的还是一次相当执着的越狱。博胡斯拉夫一直盼着西吉斯蒙德，或者哪怕一个亲戚，肯出钱把他赎回去。结果谁也没出这个钱，一个金币都没送来。[[b]]到了1422年，眼看没人肯赎他，家里也没什么值得他回去的东西，博胡斯拉夫索性改了信仰，皈依圣杯派，径直加入塔博尔，还当上了一名军官——这个曾经两年里屡战屡败于杰式卡军队之手的人，如今扛起了同一面旗。[[/b]]\n\n他没打算慢慢证明自己。同一年，刚刚改换门庭的博胡斯拉夫军官，就公开向奥德日赫二世·罗森贝格宣战——这位天主教贵族，不久前本该还是他的天然盟友。三连败，一个懒得掏钱赎他的国王，外加一次彻头彻尾的倒戈，倒戈得连自家的家族画像可能都得重新画一遍。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "kladrubsky-klaster",
+        relation: {
+          en: "The Benedictine monastery Žižka's column found already emptied out, where Petr Zmrzlík of Svojšín — the same man Bohuslav would soon surrender to — was installed as the new commander.",
+          cz: "Benediktinský klášter, který Žižkův houf našel už prázdný a kam dosadil za nového velitele Petra Zmrzlíka ze Svojšína — téhož muže, jemuž se Bohuslav zanedlouho vzdal.",
+          zh: "杰式卡的队伍抵达时，这座本笃会修道院早已人去楼空——他们在此扶正了新指挥官斯沃伊申的彼得·兹姆尔兹利克，也就是博胡斯拉夫后来选择投降的对象。",
+        },
+      },
+      {
+        slug: "zricenina-hradu-pribenice",
+        relation: {
+          en: "The castle where Bohuslav spent his months of captivity waiting for a ransom that never came — the same stronghold Tábor had only just captured by way of one determined jailbreak.",
+          cz: "Hrad, kde Bohuslav strávil měsíce zajetí čekáním na výkupné, které nikdy nepřišlo — tatáž pevnost, kterou si Tábor jen krátce předtím vzal díky jednomu odhodlanému útěku z vězení.",
+          zh: "博胡斯拉夫在这座城堡里度过了数月囚禁，苦等一笔始终没有到来的赎金——而这座要塞，正是塔博尔不久前才靠一次决心十足的越狱夺下的。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Bohuslav_VI._ze_%C5%A0vamberka",
+  },
+  // New card, 2026-09-08, per the user's own dictated draft (Chinese) —
+  // Sigismund's failed February 1421 attempt to retake Kladruby, Žižka's
+  // own February-March siege of Plzeň, the spring sweep north (Louny,
+  // Slaný), and Prague Castle's own 7 June 1421 capitulation, closing on
+  // an unnamed, undetailed foreshadow of the Chotěboř massacre (confirmed
+  // via WebSearch as "Obléhání husitů v Chotěboři," 3 February 1421 — the
+  // card the user says comes next) — deliberately left bare per this
+  // file's own "vary the forward-hook closer" convention, not narrated
+  // here.
+  // - Corrections made against the user's draft, all confirmed via
+  //   WebSearch/WebFetch (cs.wikipedia's "Jan Žižka z Trocnova" article,
+  //   plzenska.drbna.cz's "Před 600 lety Žižka poprvé neúspěšně dobýval
+  //   Plzeň"): Sigismund didn't merely find himself "pinned down passing
+  //   by" Kladruby — he actively besieged its monastery for three weeks
+  //   before giving up. On hearing Žižka was mobilizing to relieve it, he
+  //   didn't just flee; per cs.wikipedia he abandoned the siege and
+  //   "vojsko rozpustil" (disbanded the army outright) — a better, more
+  //   embarrassing beat than a bare retreat, used as-is. No source
+  //   consulted confirmed a retreat to Moravia specifically (the user's
+  //   own draft detail) — left unspecified rather than asserted.
+  // - The "feigned conversion" detail the user's draft attributed to
+  //   individual refugee Catholic nobles at Plzeň didn't check out in
+  //   that form (a targeted WebSearch pass found nothing), but the real
+  //   mechanism turned out to be even better and IS confirmed: Plzeň's
+  //   own truce terms (agreed after Žižka's Feb 14-mid March siege)
+  //   formally bound the city to accept the chalice and the Four Articles
+  //   within a month, a promise cs.wikipedia states outright was "nikdy
+  //   nedodržena" (never kept). Framed in-text as a citywide bad-faith
+  //   truce rather than individual noble play-acting, and linked as a
+  //   real parallel (not identical mechanism) to
+  //   [[link:blood-for-blood-1420]]Prachatice's[[/link]] own betrayed-
+  //   garrison story the year before, rather than claimed as "the same
+  //   trick."
+  // - Prague Castle's 7 June 1421 capitulation confirmed via WebSearch,
+  //   but sources actively disagree on manner (peaceful surrender per an
+  //   earlier dev note's own nasregion.cz source, vs. "captured by force"
+  //   per another search pass) — worded neutrally ("finally gave up the
+  //   fight") to avoid asserting either, since the fuller account of
+  //   exactly how is already reserved for a future dedicated card per the
+  //   dev note above nothing-could-stop-them-1421 (the Mikuláš-of-Hus/
+  //   Čáslav Diet material). This card only needs the outcome, not the
+  //   mechanism, to make its own point.
+  // - Louny and Slaný confirmed for this same spring sweep; the fuller
+  //   campaign per WebSearch also took Chomutov and Kadaň in the same
+  //   push north along the Ohře — left out here to keep this card's own
+  //   northward beat brief, available for a future card if the user wants
+  //   them covered on their own.
+  // - `plzen` and `slany` (both already-seeded Locations) added as
+  //   relatedLandmarks; `louny` and `prague-castle` checked directly
+  //   against the live DB and confirmed MISSING (the latter deliberately
+  //   freed and still unwritten per the st-vitus-cathedral/prague-castle
+  //   slug-swap fix documented elsewhere in this file) — neither linked.
+  // - Title chosen by the user from four options ("A King Beaten by a
+  //   Rumor," "Good News, Bad News," "A Promise Made to Be Broken,"
+  //   "Everything Except Plzeň").
+  // - No image yet — written content-first per the user's own request
+  //   this session, matching from-captive-to-captain-1421 just before it.
+  {
+    slug: "everything-except-plzen-1421",
+    era: "religious-turmoil",
+    startYear: 1421.3,
+    images: ["/history/everything-except-plzen-1421.webp"],
+    imageCaptions: [
+      {
+        en: "Žižka's own hand-cannons hammer Plzeň's walls through February 1421 — scarred and smoking, but still standing.",
+        cz: "Žižkovy vlastní ruční pušky bušily do plzeňských hradeb celý únor 1421 — zjizvené a kouřící se, ale pořád stojící.",
+        zh: "1421年2月，杰式卡的手炮不断轰击比尔森的城墙——墙上伤痕累累、硝烟弥漫，却始终没有倒下。",
+      },
+    ],
+    year: {
+      en: "1421",
+      cz: "1421",
+      zh: "1421年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Everything Except Plzeň",
+      cz: "Všechno kromě Plzně",
+      zh: "除了比尔森，什么都拿下了",
+    },
+    hookLine: {
+      en: "Sigismund went west for a rematch. He came home having quietly dissolved his own army instead.",
+      cz: "Zikmund vytáhl na západ na odvetu. Vrátil se domů poté, co si potichu rozpustil vlastní vojsko.",
+      zh: "西吉斯蒙德西征卷土重来，结果却是悄悄解散了自己的军队，铩羽而归。",
+    },
+    summary: {
+      en: "The first crusade's collapse hadn't just cost Sigismund a battle. It had cost him standing with his own allies, half of whom went home privately wondering whether backing him had been the mistake. By early 1421, with Žižka's own offensive paused for the moment, Sigismund decided the west was worth a second try: march in, retake the Benedictine monastery at [[link:from-captive-to-captain-1421]]Kladruby[[/link]], and undo at least one small piece of the previous year's damage.\n\nIt didn't go well. The tiny garrison holding the place put up three straight weeks of resistance against Sigismund's own siege. Word then reached his camp that Žižka himself was mobilizing to break it. Sigismund didn't wait around to find out what that meant in practice. He abandoned the siege outright and, rather than retreat in any organized way, simply dissolved his own army on the spot.\n\nThat left Žižka holding a battle-ready force with nowhere urgent left to point it, so on 14 February he turned it on [[link:the-wagon-fort-1419]]Plzeň[[/link]] instead, the same city he'd marched out of under safe passage almost exactly a year before. This time he came to stay. For four weeks his guns hammered the walls, but Plzeň had two advantages Kladruby never did: real fortifications, and a standing pool of Catholic nobles who'd been quietly relocating there from all over Bohemia specifically because it was still safe to be Catholic in Plzeň. Storming it outright would have cost more than the city itself was worth, so when its own defenders asked for a truce running to the following New Year, Žižka took the deal.\n\nThe terms even had Plzeň formally promising to accept the chalice and the Four Articles within a month. [[b]]Plzeň never kept that promise, not for a single day of it.[[/b]] It wasn't the first time a Bohemian town had figured out that a chalice sworn to under siege evaporates the moment the besieging army leaves — [[link:blood-for-blood-1420]]Prachatice[[/link]] had already made that particular discovery the year before — and it wouldn't be the last. Plzeň spent the rest of the war as Bohemia's single most reliable Catholic holdout, and Žižka came back twice more to try again, in 1422 and 1423, and failed both times.\n\nNone of it slowed him down. That same spring his column moved north and brought Louny and [[link:a-failed-peace-1420]]Slaný[[/link]] formally into the Prague Union's own fold, two more towns now standing openly with the alliance rather than just quietly sympathetic to it.\n\nPrague's own moderates had something to show for the same stretch of time. After the better part of a year spent encircling Prague Castle, the last royal foothold still standing inside the capital itself finally gave up the fight on 7 June 1421. For the first time since the war began, the whole of Prague, not just most of it, answered to one side.\n\nBy early summer, it looked like nothing but good news on every front. Then came word from a garrison town in the east — and for once, there was no punchline in it.",
+      cz: "Zhroucení první křížové výpravy nestálo Zikmunda jen jednu bitvu. Stálo ho i důvěru vlastních spojenců, z nichž polovina si potichu říkala, jestli podpora jemu nebyla ta chyba. Na začátku roku 1421, když Žižkova vlastní ofenziva zrovna stála, se Zikmund rozhodl dát západu ještě jednu šanci: vytáhnout, dobýt zpátky benediktinský klášter v [[link:from-captive-to-captain-1421]]Kladrubech[[/link]] a napravit aspoň kousek loňské škody.\n\nNedopadlo to dobře. Nepatrná posádka, která místo držela, kladla Zikmundovu vlastnímu obležení odpor tři týdny v kuse. Pak k jeho táboru dorazila zpráva, že se Žižka osobně chystá obležení prolomit. Zikmund nečekal, aby zjistil, co to v praxi znamená. Obležení rovnou vzdal, a místo aby ustoupil nějak organizovaně, na místě prostě rozpustil vlastní vojsko.\n\nŽižkovi tak zbylo bojeschopné vojsko, které nemělo kam naléhavě mířit, takže ho 14. února obrátil na [[link:the-wagon-fort-1419]]Plzeň[[/link]] místo toho, tentýž město, ze kterého skoro přesně před rokem odešel se zaručeným bezpečným průchodem. Tentokrát přišel, aby zůstal. Čtyři týdny jeho děla bušila do hradeb, ale Plzeň měla dvě věci, které Kladruby nikdy neměly: skutečné opevnění a stálý přísun katolické šlechty, která se sem potichu stěhovala odevšad z Čech, protože v Plzni bylo pořád bezpečné být katolíkem. Dobýt ji útokem by stálo víc, než by samo město stálo za to, a tak když její vlastní obránci požádali o příměří platné do příštího Nového roku, Žižka na dohodu přistoupil.\n\nPodmínky dokonce zavazovaly Plzeň, že do měsíce formálně přijme kalich a čtyři artikuly. [[b]]Plzeň ten slib nedodržela ani jediný den.[[/b]] Nebylo to poprvé, co nějaké české město přišlo na to, že kalich odpřisáhnutý pod obležením se vypaří ve chvíli, kdy obléhající vojsko odtáhne — [[link:blood-for-blood-1420]]Prachatice[[/link]] tohle samé zjištění udělaly už rok předtím — a nemělo to být naposledy. Plzeň zůstala do konce války nejspolehlivější katolickou baštou v Čechách a Žižka se sem vrátil ještě dvakrát, v roce 1422 a 1423, a oba pokusy skončily neúspěchem.\n\nNic z toho ho nezpomalilo. Téhož jara jeho houf táhl na sever a formálně přičlenil Louny a [[link:a-failed-peace-1420]]Slaný[[/link]] k pražskému svazu, další dvě města, která se teď hlásila ke spojenectví otevřeně, ne jen tiše sympatizovala.\n\nPražští umírnění měli za stejné období co ukázat. Po víc než roce obléhání Pražského hradu se poslední královská opora uvnitř samotného hlavního města konečně 7. června 1421 vzdala boje. Poprvé od začátku války patřila jedné straně celá Praha, ne jen její většina.\n\nNa počátku léta to vypadalo jako samé dobré zprávy na všech frontách. Pak dorazila zpráva z jednoho posádkového města na východě — a tentokrát v ní nebyl žádný vtip.",
+      zh: "第一次十字军的溃败，让西吉斯蒙德付出的不只是一场战役的代价。他在盟友心中的威信也跟着垮了一半——不少人私下都在琢磨，当初支持他会不会是个错误。1421年初，趁着杰式卡这边暂时没有主动出击，西吉斯蒙德决定在西边再赌一把：夺回[[link:from-captive-to-captain-1421]]克拉德鲁比[[/link]]的本笃会修道院，好歹挽回一点去年吃下的亏。\n\n结果并不顺利。守着那地方的小股驻军，硬是顶住了西吉斯蒙德的围攻整整三个星期。随后消息传到他的营地：杰式卡本人正在调兵，准备来解围。西吉斯蒙德没打算等着看这意味着什么，他索性放弃了围攻——而且不是有秩序地撤退，是当场把自己的军队直接解散了。\n\n这下杰式卡手里多了一支现成能打的军队，却没有什么紧急的地方可用。于是2月14日，他把这支军队转头开向了[[link:the-wagon-fort-1419]]比尔森[[/link]]——差不多整整一年前，他就是从这座城市在安全通行的保证下离开的。这一次，他是打算留下来的。整整四个星期，他的火炮不断轰击城墙，可比尔森有两样克拉德鲁比从来不曾有过的东西：真正坚固的城防，以及源源不断从波希米亚各地悄悄搬来的天主教贵族——他们看中的，正是比尔森依然是当天主教徒的安全之地。强攻的代价，会比这座城市本身还要昂贵，所以当城里的守军请求签一份停战协议、有效期到来年新年时，杰式卡接受了。\n\n协议里甚至写明，比尔森要在一个月内正式接受圣餐杯和四条条款。[[b]]比尔森一天都没兑现过这份承诺。[[/b]]这已经不是波希米亚哪座城镇第一次悟出这个道理：围城之下发的誓，围城的军队一走就烟消云散——[[link:blood-for-blood-1420]]普拉哈蒂采[[/link]]一年前就已经验证过同一件事，也不会是最后一次。此后整场战争期间，比尔森始终是波希米亚境内最靠得住的天主教堡垒，杰式卡后来又两度杀回来，分别在1422年和1423年，两次都无功而返。\n\n这些都没能拖慢他的脚步。同一个春天，他的队伍北上，把洛乌尼和[[link:a-failed-peace-1420]]斯拉尼[[/link]]正式纳入了布拉格联盟——这两座城镇，从此不再只是暗中同情，而是公开站到了联盟这一边。\n\n布拉格的温和派这段时间也没闲着。围了布拉格城堡将近一整年后，这座矗立在首都心脏地带的最后一处王室据点，终于在1421年6月7日放弃了抵抗。这是开战以来，整座布拉格——不只是大半座——头一次归于同一方。\n\n到了初夏，各条战线看起来都是捷报连连。然后，东边一座驻军的城镇，传来了一个消息——这一次，里面没有半点玩笑的余地。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "plzen",
+        relation: {
+          en: "The city Žižka besieged for four weeks that February and March — the same one he'd marched out of under safe passage almost exactly a year before — and the one place in this whole campaign that never actually fell.",
+          cz: "Město, které Žižka toho února a března obléhal čtyři týdny — totéž, ze kterého skoro přesně o rok dřív odešel se zaručeným bezpečným průchodem — a jediné místo z celého tažení, které nakonec nepadlo.",
+          zh: "1421年2月到3月，杰式卡在这里围城整整四个星期——差不多正好一年前，他就是从这座城市在安全通行的保证下离开的——也是这整轮攻势中唯一始终没能真正拿下的地方。",
+        },
+      },
+      {
+        slug: "slany",
+        relation: {
+          en: "One of two towns Žižka formally brought into the Prague Union on his own quick northward sweep that same spring, once Plzeň's truce freed his army up for other business.",
+          cz: "Jedno ze dvou měst, která Žižka téhož jara při svém rychlém tažení na sever formálně přičlenil k pražskému svazu, poté co ho plzeňské příměří uvolnilo pro jinou práci.",
+          zh: "同一个春天，比尔森停战协议腾出了他的军队之后，杰式卡挥师北上，正式将其纳入布拉格联盟的两座城镇之一。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Hussite_Wars",
+  },
+  // New card, 2026-09-08, per the user's own dictated draft (Chinese) —
+  // the Chotěboř massacre (3 February 1421) and its aftermath: Žižka's
+  // own hardened prisoner policy after a third straight broken promise,
+  // and the Chrudim campaign that followed. Researched/verified/expanded
+  // by Claude via WebSearch/WebFetch, primarily cs.wikipedia's "Obléhání
+  // husitů v Chotěboři" article, cross-checked against a Havlíčkobrodský
+  // deník feature and further searches on the Chrudim campaign itself.
+  // - Corrected one figure from the user's own draft: the "125 dragged to
+  //   Kutná Hora and thrown into mine shafts" detail actually belongs to
+  //   a SEPARATE incident — 125 Hussites rounded up near Přelouč on 14
+  //   January 1421, thrown into the same Kutná Hora shafts about three
+  //   weeks before Chotěboř's own fall. Rather than drop the figure,
+  //   folded it in as its own real detail (Kutná Hora's shafts had
+  //   already been used this way once that same winter), which if
+  //   anything strengthens the card's own point about a pattern of
+  //   atrocities rather than one isolated incident.
+  // - Casualty figures otherwise confirmed as given: ~300+ burned in
+  //   barns at Chotěboř itself (plus more burned the same way at Horky
+  //   and Třebešice, en route to Kutná Hora), ~700 total dead, Hromádka +
+  //   2 priests burned separately at Chrudim on 6 February on Jan
+  //   Městecký z Opočna's own order.
+  // - Quote (the surrender-pledge line) sourced to Josef J. Kořán's 1869
+  //   book on Žižka (via cs.wikipedia's own footnote) — a 19th-century
+  //   historical work quoting/paraphrasing the period record in archaic
+  //   Czech, not a contemporary 15th-century chronicle itself; attributed
+  //   as such rather than dressed up as a primary chronicle line.
+  // - No single source found stating Žižka's own "execute prisoners who
+  //   refuse to convert" policy as a formal, dated decree explicitly
+  //   triggered by Chotěboř specifically — this is presented as the
+  //   natural synthesis of an already well-documented three-strikes
+  //   pattern (Prachatice's own broken peace offer, Plzeň's broken chalice
+  //   promise, now Chotěboř's broken safe-conduct), matching Žižka's
+  //   broadly-documented reputation for exactly this kind of brutality
+  //   from this point in the war onward, not a claim to have found the
+  //   literal order text.
+  // - The Chrudim campaign (26-28 April 1421): confirmed via WebSearch —
+  //   Žižka's own column, having burned the Sázava and Vilémov
+  //   monasteries along the way, linked up with Prague's Utraquists and
+  //   the Orebites outside Chrudim on 26 April; a day of failed
+  //   negotiations later, with the combined army readying an assault, Jan
+  //   Městecký capitulated on 28 April, promising on the spot to adopt the
+  //   chalice — and was plundered anyway. This directly supplies the
+  //   user's own closing beat ("杰式卡挥师东进，与圣杯派会合") with its actual
+  //   historical substance, rather than left as an unnarrated gesture.
+  // - `chrudim` and `kutna-hora` (both already-seeded Locations, confirmed
+  //   live in the DB) added as relatedLandmarks; Chotěboř, Sázava, and
+  //   Vilémov have no Location cards and aren't linked.
+  // - Title: the user's own "事不过三" (roughly "three strikes, no fourth
+  //   chance"). EN "Three Strikes" and CZ "Do třetice všeho zlého" (a
+  //   genuine standing Czech proverb, "to the third of all bad things" —
+  //   the language's own real equivalent for the same idea) chosen to
+  //   match the idiom's meaning rather than translate it literally.
+  // - tone: "serious", not the era's own more common lighter register,
+  //   matching this file's standing convention for atrocity content
+  //   regardless of surrounding tone (see blood-for-blood-1420).
+  // - Closing beats added in a follow-up message the same session: Kutná
+  //   Hora opening its gates without resistance on 23 April (the exact
+  //   date is as the user gave it — sources consulted confirm only that
+  //   Kutná Hora went over to the Hussite side "from spring to Christmas"
+  //   1421 without a fight, not the specific day) while Sigismund had
+  //   already withdrawn to Moravia, holding court at Znojmo since March
+  //   (confirmed via WebSearch); and the Moravian "New Tábor" near
+  //   Nedakonice (founded late 1420 by Bedřich ze Strážnice and Tomáš z
+  //   Vizovic, already raiding monasteries like Velehrad by January
+  //   1421) as the real, confirmed basis for the user's "Moravian
+  //   peasants copying Tábor" detail. Its own eventual destruction (the
+  //   battle near Uherský Ostroh, ~25 October 1421, Tomáš z Vizovic
+  //   killed, the settlement abandoned for good) is a later event than
+  //   this card's own spring 1421 window — left unmentioned here rather
+  //   than spoiled ahead of time.
+  // - No image yet — written content-first per the user's own request
+  //   this session.
+  // - `znojmo` added as a third relatedLandmarks entry in a follow-up
+  //   message, once that Location card existed (it didn't yet when this
+  //   card was first written) — ties to the already-written prose line
+  //   about Sigismund holding court there since March 1421. Synced live
+  //   via HistoryEvent.updateOne since $setOnInsert won't touch an
+  //   already-seeded doc on a re-run.
+  {
+    slug: "three-strikes-1421",
+    era: "religious-turmoil",
+    startYear: 1421.35,
+    images: ["/history/three-strikes-1421.webp"],
+    imageCaptions: [
+      {
+        en: "Disarmed Hussite men are driven toward a burning barn at Chotěboř while Petr Hromádka and fellow priests are led away under guard, 3 February 1421.",
+        cz: "Odzbrojení husité jsou hnáni k hořící stodole u Chotěboře, zatímco je Petr Hromádka se spolubratry kněžími odváděn pod stráží, 3. února 1421.",
+        zh: "1421年2月3日，被缴械的胡斯信徒被赶向霍杰伯日一座燃烧的谷仓，彼得·赫罗马德卡与几名神父则被押解带走。",
+      },
+    ],
+    year: {
+      en: "1421",
+      cz: "1421",
+      zh: "1421年",
+    },
+    tone: "serious",
+    title: {
+      en: "Three Strikes",
+      cz: "Do třetice všeho zlého",
+      zh: "事不过三",
+    },
+    hookLine: {
+      en: "Prachatice broke a promise. Plzeň broke one too. Chotěboř was the third — and after that, Žižka stopped offering anyone a fourth chance.",
+      cz: "Prachatice porušily slib. Plzeň taky. Chotěboř byla potřetí — a od té chvíle už Žižka nikomu čtvrtou šanci nedával.",
+      zh: "普拉哈蒂采食言过一次，比尔森又食言了一次。霍杰伯日是第三次——从那以后，杰式卡再没给过任何人第四次机会。",
+    },
+    summary: {
+      en: "The news that finally reached Žižka that spring was nothing to celebrate. A little over a month earlier, on the far side of Bohemia, a Táborite-held town called Chotěboř had come under siege by a Catholic coalition. Its garrison, led by the captain and priest Petr Hromádka of Jistebnice, knew it was badly outnumbered and chose to give the town up rather than fight to the last man. In exchange, the besieging lords swore a formal pledge, on their own honor and faith, that no harm would come to a single one of them:\n\n[[quote:0]]\n\nThey opened the gates on 3 February 1421. The promise lasted about as long as it took to take their weapons away. Catholic soldiers herded well over three hundred men into the town's own barns and burned them alive where they stood; more died the same way along the road to Kutná Hora, at Horky and Třebešice. Whoever was left was handed over to Kutná Hora's own German miners and thrown down the mine shafts — not the first time that winter those same shafts had been used for exactly that purpose: some hundred and twenty-five Hussite prisoners had already gone down them three weeks earlier, after a separate roundup near Přelouč. By the time Chotěboř's own reckoning was done, something close to seven hundred Hussites were dead. Hromádka himself and two fellow priests were dragged off separately, to Chrudim, and burned in the town square on 6 February, on the direct order of the local Catholic lord, Jan Městecký of Opočna.\n\nIt wasn't the first broken promise Žižka had lived through. [[link:blood-for-blood-1420]]Prachatice[[/link]] had already taught that lesson once, and [[link:everything-except-plzen-1421]]Plzeň[[/link]] a second time, though at least nobody there had been burned alive over it. Chotěboř made three. [[b]]From that point on, Žižka stopped extending anyone the benefit of the doubt: a prisoner who refused to accept the chalice was executed on the spot, with no second promise left standing to break.[[/b]]\n\nWith the west more or less settled, Plzeň still the one holdout, Žižka turned his own column east that spring, burning the monasteries at Sázava and Vilémov on the way through, and on 26 April linked up outside [[link:chrudim]]Chrudim's[[/link]] own walls with Prague's Utraquists and the Orebites. A day of failed negotiations later, with the combined army readying a final assault, Jan Městecký gave up his own city to save his own skin, promising on the spot to take up the chalice himself. It didn't buy him much. His city was plundered all the same, the same lesson about promises sworn under a besieging army's shadow playing out one more time, only with the sides reversed.\n\nBad blood or not, Prague's own moderates and Žižka's own Táborites both understood the arithmetic well enough. [[b]]Fall apart now, over whatever still divided them, and there'd be nothing left worth arguing over.[[/b]] For the moment, at least, the alliance held.\n\nOnce the two armies had actually joined, nothing about the result was quiet. The combined Hussite force pushed east with a momentum nothing seemed able to slow, and on 23 April it arrived outside Kutná Hora itself. Sigismund was already gone by then, having pulled back into Moravia and taken up residence at Znojmo since March. Kutná Hora's own garrison didn't bother putting up a fight. It simply opened its gates.\n\nMoravia, meanwhile, was growing a movement of its own. Peasants there had started copying Tábor's own model directly, building a fortified settlement near Nedakonice that people had already begun calling the New Tábor. Royal forces hunted it again and again, but the raids never stopped new recruits from joining it. By the time spring turned to summer, something close to the whole of central and eastern Bohemia answered to one Hussite faction or another.",
+      cz: "Zpráva, která toho jara konečně dorazila k Žižkovi, nebyla k slavení. Něco přes měsíc předtím, na druhém konci Čech, přišlo pod obležení katolické koalice táborské město Chotěboř. Jeho posádka, vedená hejtmanem a knězem Petrem Hromádkou z Jistebnice, věděla, že je v drtivé přesile, a rozhodla se raději město vzdát, než bojovat do posledního muže. Výměnou za to obléhající páni složili formální slib, pod svou ctí a věrou, že nikomu z nich se nestane nic zlého:\n\n[[quote:0]]\n\nBrány otevřeli 3. února 1421. Slib vydržel tak dlouho, jak trvalo sebrat jim zbraně. Katoličtí žoldnéři nahnali přes tři sta mužů do místních stodol a upálili je tam, kde stáli; další zemřeli stejným způsobem cestou do Kutné Hory, v Horkách a Třebešicích. Kdo zbyl, byl předán kutnohorským německým havířům a shozen do šachet — nebylo to poprvé, co ty samé šachty tu zimu posloužily přesně k tomuhle: nějakých sto dvacet pět husitských zajatců do nich shodili už o tři týdny dřív, po samostatné razii u Přelouče. Než byl s Chotěboří konečně hotov účet, bylo mrtvých téměř sedm set husitů. Samotného Hromádku a dva jeho spolubratry kněze odvedli zvlášť, do Chrudimi, kde je 6. února upálili na náměstí, na přímý rozkaz místního katolického pána, Jana Městeckého z Opočna.\n\nNebyl to první porušený slib, který Žižka zažil. [[link:blood-for-blood-1420]]Prachatice[[/link]] tuhle lekci udělily už jednou, a [[link:everything-except-plzen-1421]]Plzeň[[/link]] podruhé, i když tam aspoň nikoho zaživa neupálili. Chotěboř byla potřetí. [[b]]Od té chvíle přestal Žižka komukoli dávat výhodu pochybnosti: zajatec, který odmítl přijmout kalich, byl popraven na místě, bez druhého slibu, který by se dal ještě porušit.[[/b]]\n\nSe západem víceméně vyřízeným, Plzní pořád jako jedinou výjimkou, obrátil Žižka téhož jara svůj houf na východ, cestou vypálil kláštery v Sázavě a Vilémově, a 26. dubna se před hradbami [[link:chrudim]]Chrudimi[[/link]] spojil s pražskými utrakvisty a Orebity. Po dni neúspěšných jednání, když už spojené vojsko chystalo poslední útok, vydal Jan Městecký vlastní město, aby si zachránil holý krk, a rovnou slíbil, že sám přijme kalich. Moc mu to nepomohlo. Jeho město bylo vyrabováno stejně, a tatáž lekce o slibech složených ve stínu obléhajícího vojska se odehrála ještě jednou, jen s obrácenými stranami.\n\nAť už mezi nimi bylo jakékoli napětí, pražští umírnění i Žižkovi táborité si dost dobře uvědomovali, jak se to počítá. [[b]]Rozpadnout se teď, kvůli čemukoli, co je ještě dělilo, by znamenalo nezbýt s ničím, o co by se ještě stálo za to hádat.[[/b]] Prozatím spojenectví drželo.\n\nJakmile se obě vojska skutečně spojila, na výsledku nebylo nic tichého. Spojené husitské vojsko postupovalo na východ tempem, které jako by nic nedokázalo zpomalit, a 23. dubna dorazilo před samotnou Kutnou Horu. Zikmund už tou dobou nebyl v dohledu — od března se stáhl na Moravu a usadil se ve Znojmě. Kutnohorská posádka se ani nepokusila klást odpor. Prostě otevřela brány.\n\nMorava mezitím pěstovala vlastní hnutí. Tamní sedláci si přímo vzali za vzor Tábor a postavili si vlastní opevněné sídliště u Nedakonic, kterému lidé už začali říkat Nový Tábor. Královská vojska ho napadala znovu a znovu, ale žádný z těch náletů nikdy nezastavil příliv nových stoupenců. Než se z jara stalo léto, patřilo téměř celé střední a východní Čechy té či oné husitské straně.",
+      zh: "杰式卡那年春天终于收到的消息，没什么可庆祝的。一个多月前，波希米亚的另一端，一座塔博尔派据守的城市霍杰伯日，遭到了天主教联军的围攻。守军由指挥官兼神父伊斯捷比采的彼得·赫罗马德卡率领，深知自己寡不敌众，与其死拼到最后一人，不如献城求生。作为交换，围城的领主们正式立下誓言，以自己的荣誉与信义担保，绝不伤害任何一名守军性命：\n\n[[quote:0]]\n\n他们于1421年2月3日打开了城门。这份承诺撑过的时间，也就够解除他们的武装。天主教一方的士兵把三百多人赶进当地的谷仓，就地活活烧死；押往库特纳霍拉的路上，在霍尔基和特热贝希采，又有更多人以同样的方式死去。剩下的人，被交给了库特纳霍拉的德意志矿工，投入矿井——这已经不是那年冬天，同一批矿井第一次派上这种用场：三个星期前，普热劳奇附近另一次抓捕行动中，就已经有大约一百二十五名胡斯俘虏被投了下去。等霍杰伯日这笔账彻底算清时，死去的胡斯信徒已近七百人。赫罗马德卡本人和另外两名神父被单独押往赫鲁季姆，2月6日在那里的广场上被处以火刑，下令的正是当地的天主教领主，奥波钦诺的扬·梅斯捷茨基。\n\n食言而肥，杰式卡不是头一次碰上。[[link:blood-for-blood-1420]]普拉哈蒂采[[/link]]已经教过他一次这个道理，[[link:everything-except-plzen-1421]]比尔森[[/link]]又教了第二次，只是那一次好歹没人被活活烧死。霍杰伯日，是第三次。[[b]]从这以后，杰式卡再也不给任何人留半点疑虑的余地：拒绝接受圣餐杯的俘虏，一律就地处决，不再留一个可以毁约的承诺。[[/b]]\n\n西边的局势大体已经收拾停当，只剩比尔森还在死撑，杰式卡那年春天挥师东进，沿途焚毁了萨扎瓦和维莱莫夫两座修道院，4月26日在[[link:chrudim]]赫鲁季姆[[/link]]城下，与布拉格的圣杯派、以及奥列比特人的军队会师。谈判失败了一天，联军正准备发起最后总攻时，扬·梅斯捷茨基为了保命，献出了自己的城市，当场表示愿意亲自接受圣餐杯。可这并没能换来多少好处——他的城市照样被洗劫一空，同一课关于围城阴影下发的誓言不值几个钱的教训，又上演了一遍，只是这一次，换成了对方来承受。\n\n彼此心里再有芥蒂，布拉格的温和派和杰式卡的塔博尔派，都清楚这笔账该怎么算。[[b]]现在要是为了彼此之间还没解决的分歧闹翻，到头来就什么都不剩，连吵的资格都没有了。[[/b]]至少眼下，这个联盟还撑得住。\n\n两支军队真正会合之后，动静一点都不小。联合起来的胡斯军队一路向东推进，那股势头似乎没什么能挡得住，4月23日，兵临库特纳霍拉城下。此时西吉斯蒙德早已不在附近——他从3月起就已经退到摩拉维亚，落脚在兹诺伊莫。库特纳霍拉的守军压根没打算抵抗，直接敞开了城门。\n\n与此同时，摩拉维亚也在孕育自己的一场运动。当地的农民直接照搬了塔博尔的模式，在内达科尼采附近建起了一处设防据点，人们已经开始管它叫“新塔博尔”。官军一次又一次前来围剿，可这些围剿从来没能挡住新人不断加入。等这个春天过去、夏天到来时，波希米亚中部和东部的大片土地，几乎都已经归于胡斯派各支势力之一。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "...and having received from the lords a pledge, upon their honor and faith, that no harm would come to the garrison's lives, he finally surrendered, of his own free will, together with all his people, on 3 February 1421...",
+          cz: "...a obdržev od pánů slib pode ctí a věrou, že posádce na životě ublíženo nebude, vzdal se konečně dobrovolně se vším lidem svým dne 3. února 1421...",
+          zh: "……在获得了众领主“以荣誉与信义担保、绝不伤害守军性命”的承诺后，他终于在1421年2月3日，携全部部众，自愿放下了武器投降……",
+        },
+        attribution: {
+          en: "Josef J. Kořán, Žižka: Obraz historický z doby husitské (1869)",
+          cz: "Josef J. Kořán, Žižka: Obraz historický z doby husitské (1869)",
+          zh: "约瑟夫·J·科兰，《杰式卡：胡斯时代的历史画卷》（1869年）",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "chrudim",
+        relation: {
+          en: "Where Petr Hromádka and two fellow priests were burned at the stake on 6 February 1421 — and where, less than three months later, the town's own Catholic lord capitulated to the combined Hussite army outside its walls.",
+          cz: "Kde byl 6. února 1421 upálen Petr Hromádka se dvěma spolubratry kněžími — a kde se necelé tři měsíce nato vlastní katolický pán města vzdal spojenému husitskému vojsku před jeho hradbami.",
+          zh: "1421年2月6日，彼得·赫罗马德卡与另外两名神父，就是在这里被处以火刑——不到三个月后，这座城镇自己的天主教领主，又是在这里的城墙外，向联合胡斯军队投降。",
+        },
+      },
+      {
+        slug: "kutna-hora",
+        relation: {
+          en: "Where the mine shafts swallowed Chotěboř's own survivors, on top of roughly a hundred and twenty-five Hussite prisoners already thrown down them three weeks earlier.",
+          cz: "Kde šachty pohltily i přeživší z Chotěboře, navrch k nějakým sto dvaceti pěti husitským zajatcům, které do nich shodili už o tři týdny dřív.",
+          zh: "霍杰伯日的幸存者，就是被投入了这里的矿井——而在此三周前，已经有大约一百二十五名胡斯俘虏，先一步被投了下去。",
+        },
+      },
+      {
+        slug: "znojmo",
+        relation: {
+          en: "Where Sigismund himself had retreated to hold his own court since March 1421, safely out of reach while all of this was unfolding back in Bohemia.",
+          cz: "Kam se Zikmund sám stáhl a od března 1421 tam držel svůj vlastní dvůr, v bezpečí mimo dosah, zatímco se tohle všechno odehrávalo zpátky v Čechách.",
+          zh: "西吉斯蒙德本人自1421年3月起就退居于此，在这里安然驻跸——而这一切，都在他不在场的波希米亚境内上演。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Obl%C3%A9h%C3%A1n%C3%AD_husit%C5%AF_v_Chot%C4%9Bbo%C5%99i",
+  },
+  // New card, 2026-09-08, per the user's own dictated draft (Chinese) — the
+  // Hussite coalition's internal cracks in 1421: Prague's Utraquist
+  // establishment tolerating opportunists like Čeněk of Vartemberk, the
+  // tithe dispute alienating Tábor's own peasant base, and the Pikart/
+  // Adamite radicals' rise and violent suppression (April and October
+  // 1421). The user's own draft was written at real length in an explicit
+  // Marxist class-analysis register; per the user's own instruction this
+  // pass, condensed substantially and rewritten in this project's usual
+  // wry voice rather than academic class-struggle terminology, while
+  // keeping the underlying facts intact.
+  // - Researched/verified/expanded via WebSearch/WebFetch against
+  //   cs.wikipedia's "Porážka adamitů," "Martin Húska," and "Adamité"
+  //   articles, plus Kautsky's Communism in Central Europe (1897, English,
+  //   marxists.org). Real two-wave sequence confirmed, more precise than
+  //   the user's own blended "several hundred, then forty" figure: the
+  //   Pikart/Adamite radicals split from Tábor to Příběnice early 1421;
+  //   Žižka's men caught ~50 (incl. the priest Petr Kániš) in April 1421
+  //   and burned them at Klokoty; the group's other leading priest, Martin
+  //   Húska, escaped that raid but was recaptured and burned separately at
+  //   Roudnice nad Labem on 21 August 1421, at Žižka's own request; the
+  //   last holdouts regrouped on a Nežárka river island and made their
+  //   final stand on 21 October 1421 — 40 killed by sword and fire, one
+  //   man deliberately spared to carry the story back to Tábor's own
+  //   priests (this last detail per Vavřinec z Březové's chronicle, cited
+  //   by cs.wikipedia, though no verbatim primary-source line could be
+  //   tracked down after two differently-worded search passes — presented
+  //   as narration, not dressed up as a direct quote).
+  // - Quote: the user asked for "Marx's original text" if findable — two
+  //   differently-worded searches (English and Chinese) for the specific
+  //   phrase "人民革命的福音共产主义教派" attributed to Marx came up empty; no
+  //   source consulted (including Engels' own Peasant War in Germany and
+  //   Kautsky's Communism in Central Europe) used that exact phrase.
+  //   Substituted a real, verified line from Engels' The Peasant War in
+  //   Germany (1850) describing the Taborites' own most extreme
+  //   communists — correctly attributed to Engels, not Marx, and flagged
+  //   to the user as a substitution rather than the exact quote asked for.
+  //   CZ/ZH are Claude's own translation of the English text (itself
+  //   already a translation from Engels' German), not sourced from an
+  //   existing published Czech/Chinese edition.
+  // - The tithe dispute and Čeněk-of-Vartemberk-as-emblematic-opportunist
+  //   framing are presented as the user's own characterization of an
+  //   already-established pattern (Čeněk's own 1420 defection is already
+  //   on record/implied elsewhere in this project) rather than as a new
+  //   dateable sub-event of this card.
+  // - Ending deliberately cut per the user's own explicit instruction:
+  //   the user's original draft closed by asserting this moment doomed
+  //   the whole Hussite/peasant cause to eventual failure, and that the
+  //   nobility later negotiated a good settlement with Sigismund once the
+  //   movement lost — both are real spoilers of events well beyond this
+  //   card's own 1421 window (Lipany 1434, the Basel Compactata) and were
+  //   dropped rather than foreshadowed.
+  // - `zricenina-hradu-pribenice` and `tabor` (both already-seeded
+  //   Locations) added as relatedLandmarks; Klokoty, the Nežárka island,
+  //   and Roudnice nad Labem have no Location cards and aren't linked.
+  // - tone: "humorous" per the user's own explicit request, despite the
+  //   underlying content including two mass executions — matches this
+  //   file's existing precedent (one-jailbreak-two-castles-1420,
+  //   a-hairline-crack-1420) for a wry/dry register that doesn't make
+  //   light of the deaths themselves.
+  // - No image yet — written content-first per the user's own request
+  //   this session.
+  {
+    slug: "even-tabor-had-a-line-1421",
+    era: "religious-turmoil",
+    startYear: 1421.7,
+    images: ["/history/even-tabor-had-a-line-1421.webp"],
+    imageCaptions: [
+      {
+        en: "Žižka watches from the riverbank as his men round up the last Adamites on their island refuge in the Nežárka, 21 October 1421.",
+        cz: "Žižka sleduje z břehu, jak jeho muži zajišťují poslední adamity na jejich ostrovním útočišti na Nežárce, 21. října 1421.",
+        zh: "1421年10月21日，杰式卡在河岸边看着部下围捕内热尔卡河小岛上最后的亚当派信徒。",
+      },
+    ],
+    year: {
+      en: "1421",
+      cz: "1421",
+      zh: "1421年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Even Tábor Had a Line",
+      cz: "I Tábor měl svou hranici",
+      zh: "塔博尔也有底线",
+    },
+    hookLine: {
+      en: "Tábor spent 1421 burning its own true believers. Prague spent it making peace with men who'd never believed in the first place.",
+      cz: "Tábor strávil rok 1421 upalováním svých vlastních opravdových věřících. Praha ho strávila usmiřováním s muži, kteří nikdy nevěřili vůbec.",
+      zh: "塔博尔用1421年这一整年，烧掉了自己最虔诚的信徒；布拉格则用这一年，跟那些压根没信过的人握手言和。",
+    },
+    summary: {
+      en: "Behind Tábor's own winning streak that year, the coalition holding the whole cause together was fraying — just not evenly. On the Prague side, the city's own moderate establishment had already made its peace with men like Čeněk of Vartemberk, a nobleman who'd worn the chalice as a badge of convenience and then quietly bargained Prague Castle away to Sigismund the moment it suited him better. Prague's own leadership never much minded. Its real base, the city's comfortable middle class, wanted roughly what Čeněk wanted: a settlement that left them running things, not a revolution that kept on running.\n\nTábor's own house wasn't any cleaner, just cracked along a different seam. Its peasant rank and file had signed up to stop paying lords; when Tábor's own leadership started levying its own tithe to keep the army fed and armed, the joke more or less wrote itself. [[b]]They'd traded one set of collectors for another, just with better propaganda.[[/b]] The war's own grinding logistics did the rest: officers who'd started out as true believers spent enough time managing supply wagons and back pay that idealism gave ground, bit by bit, to arithmetic.\n\nOut on Tábor's own fringe, a group even Tábor found too much had already split off entirely. A band of priests calling themselves Pikarts had already rejected the Eucharist outright; settled at [[link:zricenina-hradu-pribenice]]Příběnice[[/link]], they drifted further still, into something closer to a full commune — no property, no marriage, and, per every surviving account, no clothing at all, winter included. Bohemia had a new name for them by then: Adamites.\n\n[[quote:0]]\n\nTábor's own patience ran out well before Eden did. In April 1421, Žižka's men caught roughly fifty of them, including the priest Petr Kániš, and burned them at Klokoty. Martin Húska, the group's other leading priest, escaped that raid — only to be arrested again months later and burned at Roudnice nad Labem that August, on Žižka's own request. The last holdouts had regrouped on an island in the Nežárka river, and made their final stand there on 21 October: forty killed by sword and fire, with one man deliberately left alive, so someone would survive to carry the story back to Tábor's own priests.\n\nTrim the outer edges off a movement like this one and what's usually left is whoever was running the middle of it all along. By the end of 1421, [[link:tabor]]Tábor[[/link]] had spent the year losing its own truest believers on one flank, while Prague quietly made room on the other for men who'd never much believed in any of it to begin with.",
+      cz: "Za táborskými vítězstvími toho roku se spojenectví, které celou věc drželo pohromadě, už trhalo — jenom ne rovnoměrně. Na pražské straně se městské umírněné vedení už dávno smířilo s lidmi, jako byl Čeněk z Vartenberka, šlechtic, který nosil kalich jako odznak výhodnosti a pak v pravou chvíli potichu vyjednal předání Pražského hradu Zikmundovi, jakmile se mu to víc hodilo. Pražskému vedení to nikdy zvlášť nevadilo. Jeho skutečná základna, pohodlná měšťanská střední vrstva, chtěla v podstatě totéž co Čeněk: vyrovnání, které by jí nechalo věci v rukou, ne revoluci, která nepřestává běžet.\n\nTáborovo vlastní hospodářství nebylo o nic čistší, jen prasklo podél jiné linie. Jeho řadoví sedláci se přidali proto, aby přestali platit pánům; když táborské vedení začalo vybírat vlastní desátek na výživu a výzbroj vojska, ten vtip se vyprávěl sám. [[b]]Vyměnili si jednu sadu výběrčích za druhou, jen s lepší propagandou.[[/b]] Vysilující logistika války udělala zbytek: důstojníci, kteří začínali jako opravdoví věřící, strávili dost času správou zásobovacích vozů a nedoplatků žoldu na to, aby jejich idealismus krok za krokem ustoupil aritmetice.\n\nJeště dál na táborském okraji se od celé věci odštěpila skupina, kterou už byl příliš i sám Tábor. Skupina kněží, kteří si říkali pikarti, už rovnou odmítla svátost oltářní; usadila se u [[link:zricenina-hradu-pribenice]]Příběnic[[/link]] a zabředla ještě dál — do čehosi bližšího skutečné komuně: žádný majetek, žádné manželství, a podle všech dochovaných podání ani žádné šaty, zimu nevyjímaje. Čechy pro ně od té doby měly nové jméno: adamité.\n\n[[quote:0]]\n\nTáborova trpělivost došla dřív než ráj. V dubnu 1421 Žižkovi muži zajali asi padesát z nich, včetně kněze Petra Kániše, a upálili je v Klokotech. Martin Húska, druhý přední kněz skupiny, tomu náletu unikl — jen aby byl o pár měsíců později znovu zatčen a upálen v Roudnici nad Labem téhož srpna, na Žižkovu vlastní žádost. Poslední zbytky se přeskupily na ostrově na řece Nežárce a tam 21. října svedly svůj poslední boj: čtyřicet jich zahynulo mečem a ohněm, jeden muž byl schválně ponechán naživu, aby měl kdo přežít a donést zprávu zpátky táborským kněžím.\n\nOřízni okraje takového hnutí a obvykle zbyde ten, kdo celou dobu řídil jeho střed. Do konce roku 1421 [[link:tabor]]Tábor[[/link]] strávil celý rok ztrácením svých vlastních nejopravdovějších věřících na jedné straně, zatímco Praha si na té druhé potichu uvolňovala místo pro muže, kteří v to celé nikdy zvlášť nevěřili.",
+      zh: "那一年，塔博尔派捷报连连的背后，撑起整场事业的这个联盟，其实早已在裂开——只是裂得并不均匀。布拉格这一边，城里的温和派当权者早就跟切涅克·冯·瓦滕贝格这类人握手言和：这位贵族把圣餐杯当成一枚方便好用的徽章戴着，一旦对自己更有利，转头就悄悄把布拉格城堡的钥匙交给了西吉斯蒙德。布拉格的当权者对此从来也没太在意——他们真正的基本盘，那些过着舒服日子的城市中产，想要的，跟切涅克差不多：一份能让自己继续掌权的和解协议，而不是一场停不下来的革命。\n\n塔博尔自己的后院也不干净，只是裂开的方向不一样。加入塔博尔的农民本来是为了不再给领主交钱；等塔博尔自己的领导层开始为了养兵征收自己的什一税时，这个笑话几乎不用讲就懂了。[[b]]他们不过是换了一批收税的人，宣传口号包装得更好听一点而已。[[/b]]战争本身消磨人的后勤工作，也顺手完成了剩下的活儿：那些起初是真心信徒的军官，花了太多时间去打理粮草车队和欠饷账目，理想主义就这么一点点，让位给了算术。\n\n更靠边缘一点的地方，一群连塔博尔自己都嫌太过分的人，已经彻底分裂了出去。一群自称“皮卡特派”的神父，早就干脆否定了圣餐礼；他们在[[link:zricenina-hradu-pribenice]]普日贝尼采[[/link]]落脚后，走得更远，几乎搞成了一个真正意义上的公社——不要财产，不要婚姻，据所有留存下来的说法，甚至连衣服都不要，冬天也不例外。波希米亚从那时起，给了他们一个新名字：亚当派。\n\n[[quote:0]]\n\n塔博尔的耐心，比伊甸园撑得还短。1421年4月，杰式卡的部下抓住了大约五十人，其中包括神父彼得·卡尼什，把他们烧死在了克洛科提。这群人的另一位主要神父马丁·胡什卡，逃过了这次围剿——却在几个月后再度被捕，同年8月，应杰式卡本人的要求，在拉贝河畔劳德尼采被处以火刑。剩下的残部退到了内热尔卡河上的一座小岛，10月21日在那里打了最后一仗：四十人死于刀剑与烈火，另有一人被特意留下活口，好让他能活着把这一切讲给塔博尔的神父们听。\n\n把一场运动两头的极端都削掉，剩下的通常就是这一路以来，真正掌控中间地带的那些人。1421年年末盘点下来，[[link:tabor]]塔博尔[[/link]]这一年在一头失去了自己最真诚的信徒，布拉格那一头，则悄悄给那些压根从来没真正信过这一套的人腾出了位置。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "There were among the Taborites the most extreme communists, who allowed no concessions and denied even the family. According to their doctrine there was to be no coercion, and everything was to belong to all — for, they said, whoever possesses property commits a mortal sin.",
+          cz: "Mezi tábority byli i ti nejkrajnější komunisté, kteří nepřipouštěli žádné ústupky a popírali dokonce i rodinu. Podle jejich učení nemělo být žádného donucování a všechno mělo patřit všem — neboť, jak říkali, kdokoli vlastní majetek, dopouští se smrtelného hříchu.",
+          zh: "塔博尔派中，还有一批走到极端的共产主义者，他们不肯做出任何让步，甚至否定家庭本身。按照他们的教义，世间不该有任何强制，一切都该归全体所有——因为，照他们的说法，谁拥有财产，谁就犯下了不可饶恕的重罪。",
+        },
+        attribution: {
+          en: "Friedrich Engels, The Peasant War in Germany (1850)",
+          cz: "Friedrich Engels, Selská válka v Německu (1850)",
+          zh: "弗里德里希·恩格斯，《德国农民战争》（1850年）",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "zricenina-hradu-pribenice",
+        relation: {
+          en: "Where the Pikart radicals first settled after splitting from Tábor, before drifting further still into full Adamite communalism.",
+          cz: "Kde se pikartští radikálové poprvé usadili po odštěpení od Tábora, než zabředli ještě dál, do plného adamitského komunalismu.",
+          zh: "皮卡特派激进分子脱离塔博尔后最初落脚的地方，此后他们还会走得更远，滑向彻底的亚当派公社生活。",
+        },
+      },
+      {
+        slug: "tabor",
+        relation: {
+          en: "The movement both the Pikarts and Čeněk-style opportunists were, in their own opposite ways, pulling away from in 1421.",
+          cz: "Hnutí, od kterého se v roce 1421 svým vlastním, opačným způsobem odtahovali jak pikarti, tak lidé Čeňkova ražení.",
+          zh: "1421年，皮卡特派和切涅克式的投机者，正以截然相反的方式，各自渐渐远离的那场运动。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Por%C3%A1%C5%BEka_adamit%C5%AF",
+  },
   // Card `north-prague-south-tabor-1421` (title "North Prague, South
   // Tábor" / "北布拉格，南塔博尔") temporarily REMOVED 2026-09-04, at the
   // user's own request, alongside the same-day nothing-could-stop-them-1421
