@@ -26732,6 +26732,292 @@ Po jeho smrti dům postupně chátral a zůstal v tomto stavu desítky let, doku
 🎁 彩蛋：帕拉赫最初就安葬在全塞塔蒂本地。早在1988年8月——距离天鹅绒革命还有一年——他的墓地就已成为一处非官方的朝圣地，共产党当局曾试图取缔却未能得逞。他的遗骸直到1989年之后才被迁往布拉格的奥尔沙内公墓（Olšany Cemetery）；而全塞塔蒂，则留下了这栋房子。`,
     },
   },
+  {
+    // Added 2026-09-08, user-supplied coordinates, to support the History
+    // Timeline card losing-the-field-winning-the-city-1421 (5 August 1421
+    // Battle of Most). Rarity: `rare` — real historical weight (a royal
+    // castle, a genuine 1421 battle site) but modest surviving fabric,
+    // since almost nothing standing today predates the 1905-06 replica.
+    // Labels corrected same day, user-flagged: there is no `label.castle`
+    // key in LanguageContext's own T object (checked — the closest
+    // precedent, krivoklat-castle, a real standing castle, actually ships
+    // with `labels: []`), and what stands on this hill today is a modern
+    // lookout tower anyway, not a functioning castle — switched to
+    // `['tower', 'historical']`, matching the existing `label.tower` key.
+    name: 'Hněvín Castle',
+    slug: 'hrad-hnevin',
+    localizedNames: { cz: 'Hrad Hněvín', zh: '赫涅温城堡' },
+    labels: ['tower', 'historical'],
+    coordinates: { lat: 50.52013523934548, lng: 13.633284790336921 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hn%C4%9Bv%C3%ADn',
+    description: {
+      en: `Welcome to Hněvín Castle, the fortress that has spent nine centuries doing exactly one job: standing on the one hill worth having above the town of Most, whoever currently happens to be in charge of it.
+
+A fortified settlement already crowned this hill back in the 9th century, but the castle proper went up in the 12th, built by the Hrabišic family as a watchtower guarding the approach to the town below. Its position was strong enough that it eventually joined the ranks of Bohemia's royal castles, a status that made it worth fighting over more than once.
+
+The worst of those fights came during the Thirty Years' War, when Swedish troops took the castle by trickery rather than force and used it as a base for years of raiding that left the surrounding region badly scarred. Most's own citizens never forgave the place for it: once the war ended, they successfully petitioned Emperor Ferdinand III to have the castle torn down rather than risk it happening again, and demolition went ahead between 1651 and 1653.
+
+What stands on the hill today isn't medieval at all. A local heritage society, founded in 1896, commissioned architect Antonín Schwarzer to design a historicizing Gothic-style replica, built between 1905 and 1906 on the strength of civic nostalgia rather than any surviving original walls. It now works as a lookout tower with sweeping views from the Ore Mountains to the Central Bohemian Uplands, plus a small public observatory and an open-air theatre stage tucked into the grounds.
+
+🎁 Bonus: on 5 August 1421, this hill was the stage for an entirely different kind of drama. Hussite forces besieging the castle below had positioned their own artillery up here, and when their attack on the relieving Meissen army collapsed into a rout, cannon fire from this same hill was what kept the defeat from turning into a massacre.`,
+
+      cz: `Vítejte na hradě Hněvín, pevnosti, která už devět století dělá přesně jednu věc: stojí na jediném kopci, který nad městem Most vůbec stálo za to mít, ať už nad ním zrovna vládl kdokoli.
+
+Opevněné sídliště korunovalo tento kopec už v 9. století, ale samotný hrad vyrostl až ve 12. století, když ho jako strážní věž hlídající přístup k městu pod sebou postavil rod Hrabišiců. Jeho poloha byla natolik silná, že se nakonec zařadil mezi české královské hrady, což z něj udělalo místo, o které stálo za to bojovat víc než jednou.
+
+Nejhorší z těch bojů přišel za třicetileté války, kdy švédská vojska hrad dobyla lstí, ne silou, a léta ho používala jako základnu pro nájezdy, které zanechaly okolní kraj citelně zjizvený. Mostečtí měšťané tomu místu nikdy neodpustili: jakmile válka skončila, úspěšně u císaře Ferdinanda III. vymohli, aby byl hrad raději stržen, než aby se něco podobného mohlo opakovat, a bourání proběhlo mezi lety 1651 a 1653.
+
+To, co dnes na kopci stojí, není středověké vůbec. Místní spolek přátel hradu, založený v roce 1896, pověřil architekta Antonína Schwarzera návrhem historizující novogotické repliky, postavené v letech 1905 až 1906 na základě občanské nostalgie, ne dochovaných původních zdí. Dnes slouží jako rozhledna s výhledem od Krušných hor až po České středohoří, k tomu s malou veřejnou hvězdárnou a letním divadlem v areálu.
+
+🎁 Bonus: 5. srpna 1421 se tento kopec stal jevištěm úplně jiného dramatu. Husitské vojsko obléhající hrad pod ním tu mělo rozmístěné vlastní dělostřelectvo, a když se jeho útok na míšeňské vojsko přišedší na pomoc zhroutil v útěk, byla to právě děla z tohoto kopce, co zabránilo tomu, aby se porážka proměnila v masakr.`,
+
+      zh: `欢迎来到赫涅温城堡，九个世纪以来，这座要塞一直只干一件事：稳稳站在莫斯特城唯一一座值得占据的山头上，不管当时是谁说了算。
+
+早在9世纪，这座山头上就有一处防御性聚落，但真正的城堡要到12世纪才建起来，由赫拉比希奇家族建造，作为守卫山下城镇通道的一座瞭望塔。它所处的位置足够险要，最终跻身波希米亚王室城堡之列，也正因如此，这里不止一次成了兵家必争之地。
+
+其中最惨烈的一场争夺，发生在三十年战争期间：瑞典军队靠诡计而非强攻拿下了这座城堡，此后多年将其当作据点四处劫掠，把周边地区搞得满目疮痍。莫斯特的市民从未原谅过这座城堡，战争一结束，他们就成功说服了皇帝斐迪南三世，与其冒着重蹈覆辙的风险，不如干脆把它拆掉，拆除工程于1651年至1653年间完成。
+
+如今立在山头上的，早已不是中世纪的原物。1896年成立的当地城堡之友协会，委托建筑师安东尼·施瓦策设计了一座仿哥特式的复刻建筑，于1905年至1906年建成，支撑这次重建的是市民的怀旧情结，而不是任何留存下来的原始城墙。它如今用作一座瞭望塔，视野从厄尔士山脉一直延伸到捷克中央高地，园区里还有一座小型公共天文台和一座露天剧场。
+
+🎁 彩蛋：1421年8月5日，这座山头曾是另一场戏剧性事件的舞台。正在山下围攻城堡的胡斯军队，把自己的炮兵阵地设在了这里；当他们对前来解围的迈森军队发起的进攻演变成溃败时，正是架在这座山头上的火炮，让这场败仗没有演变成一场彻底的屠杀。`,
+    },
+  },
+  {
+    // Added 2026-09-09, user-supplied coordinates, to support the History
+    // Timeline card three-roads-to-prague-1421 (the Second Crusade's
+    // western column and the September-October 1421 siege). Rarity:
+    // `mythic`, matching chrudim's own precedent tier (a real, still-
+    // inhabited historic town with a genuine dated siege behind it, not
+    // just a ruin or a single building). General history (medieval core
+    // over 1000 years old, hops documented locally since c. 1261, the 2023
+    // UNESCO "Žatec and the Landscape of Saaz Hops" inscription) confirmed
+    // via WebSearch. The 1421 siege paragraph is written independently of
+    // the History Timeline's own account per this file's standing
+    // Location-vs-Timeline separation rule — no "as already covered"
+    // cross-reference.
+    name: 'Žatec',
+    slug: 'zatec',
+    localizedNames: { cz: 'Žatec', zh: '扎泰茨' },
+    labels: ['historical', 'village-and-town'],
+    coordinates: { lat: 50.328985391919176, lng: 13.544729494858093 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/%C5%BDatec',
+    description: {
+      en: `Welcome to Žatec, a small Bohemian town whose international reputation rests on two entirely unrelated achievements: growing the finest hops in the world, and, four centuries before anyone thought to bottle beer made from them, refusing to fall to an army five times its own size.
+
+The town's medieval core stretches back more than a thousand years, and its hop fields nearly as far: the variety grown in the fields around Žatec is first documented around 1261, already prized enough to travel. By the later Middle Ages the town had grown into a real regional power, wealthy enough and stubborn enough to be worth fighting over, which it soon was.
+
+In September 1421, a Catholic crusader army roughly 30,000 strong, part of a Rhineland-led campaign meant to crush the Hussite movement once and for all, surrounded Žatec's walls. The town's own garrison numbered only a few thousand, but the besiegers' own habit of looting the countryside on the way in had driven local villagers behind Žatec's walls instead of scattering them, swelling the defenders' ranks rather than thinning them. Six separate assaults thrown at the town in a single day that September were all repelled. By early October, short on supplies, spooked by rumors of a Hussite relief force, and then genuinely set ablaze by a fire that tore through their own camp, the crusaders broke and fled, leaving roughly two thousand of their own dead behind them.
+
+🎁 Bonus: in 2023, UNESCO inscribed "Žatec and the Landscape of Saaz Hops" as a World Heritage Site, six centuries after those same fields nearly burned along with a crusader camp. The hops survived the fire. So did the town.`,
+
+      cz: `Vítejte v Žatci, malém českém městě, jehož mezinárodní pověst stojí na dvou zcela nesouvisejících úspěších: pěstuje nejlepší chmel na světě a čtyři století dřív, než někoho vůbec napadlo z něj stáčet pivo, odmítlo padnout před armádou pětkrát větší, než bylo samo.
+
+Středověké jádro města sahá přes tisíc let nazpátek, a chmelnice kolem něj skoro stejně daleko: odrůda pěstovaná na polích kolem Žatce je poprvé doložena kolem roku 1261, a už tehdy natolik ceněná, že se s ní obchodovalo na dálku. Do pozdního středověku z města vyrostla skutečná regionální mocnost, dost bohatá a dost tvrdohlavá na to, aby o ni stálo za to bojovat, což se brzy stalo.
+
+V září 1421 obklíčilo žatecké hradby katolické křižácké vojsko čítající zhruba 30 000 mužů, součást tažení vedeného porýnskými kurfiřty, jehož cílem bylo jednou provždy rozdrtit husitské hnutí. Vlastní žatecká posádka měla jen několik tisíc mužů, ale zvyk křižáků plenit okolní kraj cestou tam nakonec zahnal místní vesničany za žatecké hradby, místo aby je rozehnal, a řady obránců tím spíš posílil, než oslabil. Šest samostatných útoků, vedených proti městu v jediném zářijovém dni, bylo odraženo do jednoho. Začátkem října, s docházejícími zásobami, vyděšení zvěstmi o blížící se husitské pomoci a nakonec i skutečným požárem, který se prohnal jejich vlastním táborem, se křižáci dali na útěk a zanechali za sebou kolem dvou tisíc vlastních mrtvých.
+
+🎁 Bonus: v roce 2023 zapsalo UNESCO „Žatec a krajinu žateckého chmele" na seznam světového dědictví, šest staletí poté, co ta samá pole málem shořela spolu s křižáckým táborem. Chmel ten požár přežil. Město taky.`,
+
+      zh: `欢迎来到扎泰茨（Žatec），这座波希米亚小镇的国际名声，靠的是两件八竿子打不着的成就：种出全世界最好的啤酒花，还有早在有人想到拿这些啤酒花酿酒的四百年前，就顶住了一支比自己大五倍的军队，没有沦陷。
+
+这座小镇的中世纪老城已有上千年历史，周围的啤酒花田几乎同样古老：扎泰茨一带田里种的这个品种，最早见于1261年前后的文献记载，那时就已经名贵到值得远途贩运。到中世纪晚期，这座小镇已经发展成一方真正的地区势力，富裕又倔强，值得为它打上一仗，而这一仗很快就来了。
+
+1421年9月，一支约三万人的天主教十字军包围了扎泰茨的城墙，这是一场由莱茵兰选帝侯发起、意在彻底剿灭胡斯运动的远征的一部分。扎泰茨自己的守军只有区区几千人，可十字军一路劫掠乡间的习惯，反倒把周边村民逼进了城墙之内，而不是把他们赶散，客观上壮大了守军，而非削弱了它。九月的一天之内，六次进攻全部被击退。到10月初，粮草告急，又被胡斯援军将至的传言吓得心神不宁，最后一场真正烧穿了自家营地的大火彻底压垮了十字军，他们仓皇溃逃，留下了约两千具自己人的尸体。
+
+🎁 彩蛋：2023年，联合国教科文组织将"扎泰茨与扎泰茨啤酒花景观"列入世界遗产名录，就在同一片土地，六个世纪前差点跟着十字军的营地一起烧成灰烬。啤酒花挺过了那场火，这座小镇也是。`,
+    },
+  },
+  {
+    // Added 2026-09-09, user-supplied coordinates, to support the History
+    // Timeline card three-roads-to-prague-1421 (Žižka's July 1421 loss of
+    // his remaining eye during the siege of this castle). Rarity: `mythic`,
+    // matching bezdez-castle/krivoklat-castle's own precedent tier for a
+    // famous, historically load-bearing castle even where (as here, and as
+    // with bezdez-castle) what survives today is a ruin rather than an
+    // intact building — general history (founding, the Švihovský/Rýzmberk
+    // family's expansion, "largest castle ruin in the Czech Republic," the
+    // 1710 fire, the 1920 symbolic-crown handover) confirmed via WebSearch.
+    // The Žižka paragraph is written independently of the History
+    // Timeline's own account per this file's standing Location-vs-Timeline
+    // separation rule — no "as already covered" cross-reference.
+    name: 'Rábí Castle',
+    slug: 'hrad-rabi',
+    localizedNames: { cz: 'Hrad Rábí', zh: '拉比城堡' },
+    labels: ['ruin', 'historical'],
+    coordinates: { lat: 49.279782372202625, lng: 13.618921611115816 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/R%C3%A1b%C3%AD_Castle',
+    description: {
+      en: `Welcome to Rábí Castle, the largest castle ruin anywhere in the Czech Republic, sprawling across a hilltop in western Bohemia. Its most famous moment, though, has nothing to do with its size: this is the castle where an already one-eyed general showed up, got shot in his one remaining good eye, and somehow kept winning anyway.
+
+The castle's exact origins are murky. It's first mentioned in records from 1380, though Romanesque stonework in its great tower suggests an older core, likely built sometime after 1300 by the Lords of Velhartice to watch over trade routes and gold-panning along the Otava river. Its real transformation came under the Švihovský family (the Lords of Rýzmberk), especially Půta II of Rýzmberk, who used his fortune and his position as the kingdom's supreme provincial judge to expand it into one of Bohemia's largest fortresses.
+
+That size is exactly what made it worth fighting over in July 1421, when Jan Žižka, already blind in one eye from an earlier injury, laid siege to it. An arrow struck his one remaining good eye during the assault, an injury legend can't even agree on the mechanism of. The castle fell to him regardless, and Žižka himself was carried off to Prague for a failed operation that left him permanently and completely blind, without ever once stepping back from command.
+
+🎁 Bonus: the castle's own military career outlived Žižka's by centuries, until a catastrophic fire in 1710 reduced it to the ruin still standing today. In 1920 the Lamberg family, its last aristocratic owners, handed it over to a local preservation society for a symbolic price of one crown, a fitting fate for a castle whose later reputation rests more on what it survived than on what it accomplished.`,
+
+      cz: `Vítejte na hradě Rábí, největší hradní zřícenině v celé České republice, rozložené na kopci v západních Čechách. Jeho nejslavnější chvíle ale nemá se samotnou rozlohou nic společného: právě tady jednomu už jednookému vojevůdci prostřelili i to poslední zdravé oko, a on přesto nepřestal vyhrávat.
+
+Přesný původ hradu zůstává nejasný. Poprvé se připomíná v listinách z roku 1380, ačkoli románské zdivo ve velké věži naznačuje starší jádro, postavené někdy po roce 1300, pravděpodobně pány z Velhartic, kteří tu hlídali obchodní stezky a rýžování zlata podél řeky Otavy. Ke skutečné proměně došlo za rodu Švihovských z Rýzmberka, zejména za Půty II. z Rýzmberka, který svým majetkem a postavením nejvyššího zemského sudího hrad rozšířil na jednu z největších pevností v Čechách.
+
+Právě tahle velikost stála za tím, proč se o hrad v červenci 1421 rvalo, když ho oblehl Jan Žižka, tou dobou už jednooký po dřívějším zranění. Během útoku ho zasáhl šíp do posledního zdravého oka, zranění, na jehož přesném průběhu se ani legenda neshodne. Hrad mu přesto padl, a samotného Žižku odvezli do Prahy na neúspěšnou operaci, po které zůstal navždy a úplně slepý, aniž by se kdy vzdal velení.
+
+🎁 Bonus: vojenská kariéra hradu přežila tu Žižkovu o celá staletí, dokud ho v roce 1710 ničivý požár neproměnil ve zříceninu, jaká tu stojí dodnes. V roce 1920 ho rod Lambergů, jeho poslední šlechtičtí majitelé, věnoval místnímu spolku na ochranu památek za symbolickou cenu jedné koruny, přiléhavý osud pro hrad, jehož pozdější pověst stojí spíš na tom, co přežil, než na tom, co dokázal.`,
+
+      zh: `欢迎来到拉比城堡（Rábí），整个捷克境内规模最大的城堡遗址，坐落在波希米亚西部的一座山头上。不过它最出名的一刻，跟这份庞大的规模没什么关系：正是在这里，一位已经独眼的将领，剩下那只好眼睛也被一箭射穿，却照样没停下打胜仗。
+
+这座城堡的确切来历至今说不清楚。文献中最早提到它是在1380年，但主塔里的罗曼式砌石表明，核心部分建造年代更早，大概在1300年之后，很可能是由维尔哈尔蒂采家族所建，用来看守沿奥塔瓦河的贸易路线和淘金作业。真正让它脱胎换骨的，是日兹姆贝克的什维霍夫斯基家族，尤其是普塔二世·日兹姆贝克，他凭借自己的财力，以及身为波希米亚王国最高法官的地位，把这座城堡扩建成了当时波希米亚最大的要塞之一。
+
+正是这份规模，让它在1421年7月成了必争之地：杰式卡当时已因早年负伤瞎了一只眼，率军围攻此地。进攻过程中，他仅剩的那只好眼也中了一箭，具体经过究竟如何，连传说本身都各执一词。城堡最终还是落入了他手中，杰式卡本人则被送往布拉格接受手术，手术失败，从此彻底失明，却从未因此放下过指挥权。
+
+🎁 彩蛋：这座城堡的军事生涯，比杰式卡本人还多撑了好几个世纪，直到1710年一场毁灭性大火，把它烧成了今天这副遗址模样。1920年，末代贵族拥有者兰贝格家族，把它以象征性的一克朗价格，捐给了当地一家文物保护协会——对一座后世名声更多建立在"挺过了什么"而非"做成了什么"之上的城堡来说，这个结局倒也贴切。`,
+    },
+  },
+  {
+    // Added 2026-09-09, user-supplied coordinates, to support the History
+    // Timeline card the-blind-war-god-1421 (the Rožmberk family castle
+    // Žižka burned at Soběslav is a smaller, separate Rožmberk-owned
+    // building — the coordinates given here are for the family's own
+    // grand ancestral seat, not that building; the relatedLandmarks
+    // relation caption on the History card is written to reflect that
+    // honestly rather than implying this exact castle was the one burned).
+    // Rarity: `mythic`, matching krivoklat-castle/bezdez-castle's own tier.
+    // General history (founding by Vok of Prčice c. 1250, the 1522 fire,
+    // the 1556 Renaissance rebuild, the Rožmberk line's 1611 extinction,
+    // the Buquoy family's 1840s romantic-Gothic remake, the White Lady
+    // legend) confirmed via WebSearch/WebFetch. Ties directly into
+    // who-are-the-vitkovci-1276's own background-card material (Vítek of
+    // Prčice's sons splitting into the "Five Roses" branches) without
+    // referencing the History Timeline directly, per this file's own
+    // Location-vs-Timeline separation rule.
+    name: 'Rožmberk Castle',
+    slug: 'hrad-rozmberk',
+    localizedNames: { cz: 'Hrad Rožmberk', zh: '罗森贝格城堡' },
+    labels: ['historical'],
+    coordinates: { lat: 48.65632030867973, lng: 14.365334835293574 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Ro%C5%BEmberk_Castle',
+    description: {
+      en: `Welcome to Rožmberk Castle, perched above a bend in the Vltava in South Bohemia — the literal birthplace of one of Bohemia's greatest noble families, who took their own name from this castle rather than the other way around.
+
+Built in the mid-13th century, most likely by Vok of Prčice, one of the sons of Vítek of Prčice whose own branches later became known as the "Five Roses." Vok took the name "of Rožmberk" from this very castle around 1250, and the House of Rožmberk he founded went on to become one of the most powerful noble dynasties in Bohemian history, eventually centered a little further up the Vltava at Český Krumlov.
+
+A devastating fire gutted the Upper Castle in 1522, leaving only the sturdy round Jakobínka tower standing; a 1556 rebuild gave the Lower Castle the Renaissance face much of it still wears. The Rožmberk line itself died out in 1611, and the castle passed to the Buquoy family, who gave it a full romantic Gothic makeover between 1840 and 1857 — the fairy-tale silhouette it's recognized by today.
+
+🎁 Bonus: the castle is one of several South Bohemian residences said to be haunted by the White Lady, Perchta of Rožmberk, a real 15th-century noblewoman whose unhappy marriage supposedly earns her ghost the right to wander the family's old properties forever, checking in on descendants who, notably, all eventually died out anyway.`,
+
+      cz: `Vítejte na hradě Rožmberk, tyčícím se nad ohybem Vltavy v jižních Čechách — doslovné rodiště jednoho z nejvýznamnějších šlechtických rodů v Čechách, který si vzal jméno podle tohoto hradu, ne naopak.
+
+Postaven v polovině 13. století, nejspíš Vokem z Prčice, jedním ze synů Vítka z Prčice, jehož vlastní větve se později proslavily jako "pět růží". Vok si kolem roku 1250 vzal jméno "z Rožmberka" právě podle tohoto hradu, a rod Rožmberků, který tím založil, se stal jednou z nejmocnějších šlechtických dynastií v české historii, později se soustředěnou o kousek dál po Vltavě, v Českém Krumlově.
+
+Ničivý požár v roce 1522 zpustošil Horní hrad a z něj zůstala stát jen mohutná okrouhlá věž Jakobínka; přestavba z roku 1556 dala Dolnímu hradu renesanční tvář, kterou si z velké části nese dodnes. Rod Rožmberků sám vymřel roku 1611 a hrad přešel na rod Buquoyů, kteří mu mezi lety 1840 a 1857 dali celkovou romantickou novogotickou podobu — pohádkovou siluetu, podle níž je rozpoznatelný dodnes.
+
+🎁 Bonus: hrad patří mezi několik jihočeských sídel, o nichž se traduje, že v nich straší Bílá paní, Perchta z Rožmberka, skutečná šlechtična z 15. století, jejíž nešťastné manželství jí prý navěky vyneslo právo obcházet rodové majetky a dohlížet na potomky, kteří — přesto — nakonec všichni stejně vymřeli.`,
+
+      zh: `欢迎来到罗森贝格城堡，矗立在南波希米亚伏尔塔瓦河一处河湾之上——这里是波希米亚最显赫贵族家族之一真正的发源地，这家人当年是从这座城堡借来了自己的姓氏，而不是反过来。
+
+城堡建于13世纪中叶，很可能是普尔齐采的沃克所建，他是普尔齐采的维捷克之子，维捷克的几个儿子后来分出的几支后来被称为"五朵玫瑰"。大约1250年前后，沃克从这座城堡借来了"罗森贝格的"这个姓氏，他由此开创的罗森贝格家族，后来成为波希米亚历史上最有权势的贵族世家之一，家族重心后来沿伏尔塔瓦河再往上，落在了捷克克鲁姆洛夫。
+
+1522年一场毁灭性大火烧毁了上城堡，只留下坚固的圆形雅各宾娜塔屹立不倒；1556年的重建，为下城堡添上了文艺复兴外观，至今大体保留。罗森贝格家族本身于1611年绝嗣，城堡随后转入布凯家族之手，后者在1840年至1857年间对城堡进行了一次彻底的浪漫主义哥特式改造——也就是今天人们所熟悉的这副童话城堡轮廓。
+
+🎁 彩蛋：这座城堡是南波希米亚几处传说中"白衣夫人"佩尔赫塔·冯·罗森贝格出没的宅邸之一——她是一位真实存在的15世纪贵族女性，据说因为一段不幸的婚姻，死后得以永远在家族的旧宅邸间游荡，"探望"后代子孙，只不过，这些后代子孙最终还是全都绝了嗣。`,
+    },
+  },
+  {
+    // Added 2026-09-09, user-supplied coordinates, to support the History
+    // Timeline card the-blind-war-god-1421 (Krasíkov, already named in
+    // from-captive-to-captain-1421 and everything-except-plzen-1421's own
+    // dev comments, gets its own Location card here for the first time).
+    // Rarity: `rare`, matching hrad-hnevin's own precedent tier (real
+    // history, modest surviving fabric — a round tower and a stretch of
+    // palace wall). General history (the Švamberk family's own 1250
+    // founding, the swan-coat-of-arms name origin, the 1421 capture, the
+    // 1644 kitchen fire, the Swedish occupation, the family's 1659
+    // extinction in western Bohemia) confirmed via WebSearch.
+    name: 'Krasíkov Castle',
+    slug: 'krasikov-castle',
+    localizedNames: { cz: 'Hrad Švamberk (Krasíkov)', zh: '克拉西科夫城堡（什万贝格）' },
+    labels: ['ruin', 'historical'],
+    coordinates: { lat: 49.877796663848564, lng: 12.931114991477777 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C5%A0vamberk',
+    description: {
+      en: `Welcome to Krasíkov Castle, better known by its own older name, Švamberk, "Swan Hill" — the ancestral seat of a noble family that took its name from this same castle, and eventually lost the castle itself to a fire that started, by local account, while someone was frying donuts.
+
+The Švamberk family began building here around 1250, and by the end of the 13th century it had become their main seat. The castle's own name changed once the family adopted a white swan on a red field as its coat of arms and started calling itself "of Švamberk" after it — the swan came first, the name and the castle both followed.
+
+In 1421, Jan Žižka's own forces captured the castle and took its lord, Bohuslav of Švamberk, prisoner here, the defeat that eventually persuaded him to convert to the Hussite cause outright and become one of Tábor's own captains.
+
+🎁 Bonus: the castle's own end came in 1644, when a kitchen fire, started while someone was frying donuts, gutted the mighty stronghold down to its surviving walls. Swedish troops occupied the ruin two years later, and the last Švamberk in western Bohemia died in 1659. What's left today, a round tower and a stretch of palace wall, has been a protected monument since 1964.`,
+
+      cz: `Vítejte na hradě Krasíkov, lépe známém pod svým starším jménem Švamberk, "Labutí hora" — rodovém sídle šlechtického rodu, který si podle tohoto hradu vzal vlastní jméno a nakonec o hrad samotný přišel kvůli požáru, který podle místní pověsti vznikl při smažení koblih.
+
+Rod Švamberků tu začal stavět kolem roku 1250 a do konce 13. století se hrad stal jejich hlavním sídlem. Jméno hradu se změnilo poté, co si rod do erbu vložil bílou labuť na červeném poli a začal si podle ní říkat "ze Švamberka" — nejdřív byla labuť, teprve pak jméno a hrad k němu.
+
+V roce 1421 dobyly hrad síly Jana Žižky, který zde zajal jeho pána, Bohuslava ze Švamberka — porážka, jež ho nakonec přesvědčila, aby zcela přestoupil k husitské věci a stal se jedním z táborských hejtmanů.
+
+🎁 Bonus: konec hradu přišel v roce 1644, kdy požár v kuchyni, vzniklý při smažení koblih, vypálil mohutné sídlo až na obvodové zdi. O dva roky později obsadila zpustlou zříceninu švédská vojska a poslední Švamberk v západních Čechách zemřel roku 1659. Co z hradu zbylo dodnes, kulatá věž a část zdiva paláce, je chráněnou kulturní památkou od roku 1964.`,
+
+      zh: `欢迎来到克拉西科夫城堡，它有个更早也更为人熟知的名字——什万贝格，意为"天鹅山"——这是一个贵族家族的祖传领地，这家人从这座城堡借来了自己的姓氏，最后却因为一场据当地传说是炸面包圈引发的大火，失去了这座城堡本身。
+
+什万贝格家族大约从1250年起在此营建，到13世纪末，这里已成为他们的主要领地。城堡的名字后来发生了变化：这家人把一只红底白天鹅纳入自己的纹章，随后开始以"什万贝格的"自称——先有了天鹅纹章，姓氏和城堡的名字才随之而来。
+
+1421年，扬·杰式卡的军队攻下了这座城堡，并在此俘虏了城堡的主人博胡斯拉夫·冯·什万贝格——这次战败，最终让他彻底倒向胡斯派一方，成为塔博尔派的一名统领。
+
+🎁 彩蛋：这座城堡的终局发生在1644年，一场据说是因为有人在厨房炸面包圈而引发的大火，把这座曾经雄伟的要塞烧得只剩下几堵残墙。两年后，瑞典军队占据了这片已成废墟的城堡；1659年，什万贝格家族在西波希米亚的最后一支血脉去世。如今留存下来的，只有一座圆塔和一段宫殿墙体，自1964年起被列为受保护的文化古迹。`,
+    },
+  },
+  {
+    // Added 2026-09-09, user-supplied coordinates, to support the History
+    // Timeline card the-blind-war-god-1421 (the three-day November 1421
+    // siege/breakout). Rarity: `epic` — a natural landmark rather than a
+    // building, but with genuine archaeological weight (one of the larger
+    // Celtic hillfort sites in Bohemia) on top of the 1421 event. General
+    // history (the extinct-volcano geology, the Celtic oppidum's scale and
+    // fiery end c. 200 BC, the bronze warrior figurine find, the name
+    // "Vladař" itself first documented in a 1421 source) confirmed via
+    // WebSearch.
+    name: 'Vladař',
+    slug: 'hora-vladar',
+    localizedNames: { cz: 'Vladař', zh: '弗拉达尔山' },
+    labels: ['historical'],
+    coordinates: { lat: 50.078589112544215, lng: 13.21305781309524 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Vlada%C5%99_(Tepelsk%C3%A1_vrchovina)',
+    description: {
+      en: `Welcome to Vladař, a flat-topped table mountain rising above the Bohemian countryside near Žlutice — a hilltop that has hosted a full Celtic city, an extinct volcano's own last gasp, and three of the worst days of Jan Žižka's entire military career, in roughly that order.
+
+Vladař isn't a hill in the ordinary sense: geologists trace its flat basalt summit back to an extinct volcano, not just a harder cap of rock left standing after the softer ground around it eroded away. Long before anyone climbed it for the view, the Celts settled the summit on a genuinely massive scale — from roughly the 7th to the 3rd century BC, a hillfort covering around 120 hectares stood here, ringed by earthen ramparts up to four meters high and multiple ditches and palisades. Archaeologists have since pulled pottery, bronze jewelry, weapons, and one especially rare find, a small bronze warrior figurine, out of the ground. Around 200 BC, a catastrophic fire destroyed most of the settlement, and it was never rebuilt on the same scale again.
+
+The hill's second brush with history came in November 1421, when a much smaller and far more desperate army camped on its summit. Jan Žižka, already completely blind, retreated here with barely 1,500 infantry and 400 cavalry after a failed attempt to relieve Krasíkov Castle, and held the hilltop against a larger Catholic force for three straight days. Storms, frost, and starvation did nearly as much damage as the fighting itself before Žižka broke through the encirclement and marched his surviving men out.
+
+🎁 Bonus: the name "Vladař" itself shows up in writing for the first time in a document from 1421 — the same year Žižka's own three-day stand made the hill worth writing about at all.`,
+
+      cz: `Vítejte na Vladaři, stolové hoře s plochým vrcholem, tyčící se nad českou krajinou u Žlutic — kopci, který postupně hostil celé keltské město, poslední nádech vyhaslé sopky a tři z nejhorších dní celé vojenské kariéry Jana Žižky, přibližně v tomto pořadí.
+
+Vladař není kopec v obvyklém smyslu: geologové vystopovali jeho plochý čedičový vrchol až k vyhaslé sopce, ne jen k tvrdší čepici horniny, která zůstala stát poté, co měkčí okolní horninu odplavila eroze. Dlouho předtím, než sem kdokoli vylezl kvůli výhledu, osídlili vrchol ve skutečně obrovském měřítku Keltové — zhruba od 7. do 3. století před naším letopočtem tu stálo hradiště o rozloze kolem 120 hektarů, obehnané valy vysokými až čtyři metry a několika příkopy i palisádami. Archeologové z něj od té doby vytáhli keramiku, bronzové šperky, zbraně a jeden obzvlášť vzácný nález, malou bronzovou sošku bojovníka. Kolem roku 200 před naším letopočtem zničil většinu sídliště katastrofální požár a už nikdy nebylo obnoveno ve stejném rozsahu.
+
+Druhé setkání kopce s dějinami přišlo v listopadu 1421, kdy se na jeho vrcholu utábořila mnohem menší a mnohem zoufalejší armáda. Jan Žižka, už úplně slepý, se sem stáhl se sotva 1 500 pěšáky a 400 jezdci poté, co se mu nepodařilo osvobodit hrad Krasíkov, a tři dny v kuse udržel vrchol proti přesile katolického vojska. Bouře, mráz a hlad napáchaly skoro stejnou škodu jako boj samotný, než Žižka prolomil obklíčení a vyvedl přeživší muže ven.
+
+🎁 Bonus: samotné jméno "Vladař" se poprvé objevuje písemně v dokumentu z roku 1421 — téhož roku, kdy Žižkův třídenní odpor udělal z kopce místo, o kterém se vůbec vyplatilo něco napsat.`,
+
+      zh: `欢迎来到弗拉达尔山，一座平顶的桌状山，矗立在热卢蒂采附近的波希米亚乡间——这座山头先后见证过一整座凯尔特人的城邑、一座死火山的最后一口气，以及扬·杰式卡整个军事生涯里最糟糕的三天，大致就是这个顺序。
+
+弗拉达尔算不上一座普通的山：地质学家已经查明，它那平坦的玄武岩山顶，其实源自一座死火山，而不是周围较软的岩层被侵蚀掉后残留下来的一顶"硬帽子"。早在有人为了风景爬上这里之前很久，凯尔特人就已经在山顶上建立了规模真正惊人的聚落——大约从公元前7世纪到公元前3世纪，这里曾坐落着一座占地约120公顷的山地要塞，四周环绕着最高达四米的土垒，以及多重壕沟和木栅栏。此后，考古学家从地下发掘出了陶器、青铜饰品、武器，还有一件格外罕见的发现——一尊小型青铜武士像。大约公元前200年，一场毁灭性大火摧毁了这处聚落的大部分，此后再也没有以同等规模重建过。
+
+这座山头第二次卷入历史，是在1421年11月，一支规模小得多、也窘迫得多的军队在山顶扎下了营。扬·杰式卡此时已经彻底失明，在未能解救克拉西科夫城堡之后退守于此，手里只有约一千五百步兵和四百骑兵，却在山顶死守了整整三天，顶住了数量更多的天主教军队。暴风雨、严寒和饥饿造成的损耗，几乎不亚于战斗本身，杰式卡这才突破了包围圈，带着幸存的部下撤了出去。
+
+🎁 彩蛋："弗拉达尔"这个名字本身，第一次出现在文字记录里，就是在1421年的一份文书当中——正是杰式卡那场三日死守，让这座山头第一次有了值得被写进文字的理由。`,
+    },
+  },
 ];
 
 async function run() {
