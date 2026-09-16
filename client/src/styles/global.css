@@ -94,8 +94,6 @@ html[data-lang="zh"] body {
 }
 
 html[data-lang="zh"] .px-title,
-html[data-lang="zh"] .history-event__title,
-html[data-lang="zh"] .history-sidebar__era-title,
 html[data-lang="zh"] .history-era-divider__title,
 html[data-lang="zh"] .navbar__logo,
 html[data-lang="zh"] .navbar__link,
@@ -128,12 +126,19 @@ html[data-lang="zh"] [style*="Press Start 2P"] {
 html[data-lang="zh"] .px-title {
   font-size: 20px !important;
 }
+/* Trying a Noto Serif SC swap for these two titles instead of the
+   pixel/ArkPixel face used everywhere else in zh — the blocky pixel look
+   was clashing with the parchment/history styling (user request,
+   2026-09-16). Bolder + bigger than the old pixel-font sizes since a
+   serif face reads lighter at the same size. */
 html[data-lang="zh"] .history-event__title {
-  font-size: 22px !important;
+  font-family: "Noto Serif SC", "Noto Serif TC", serif !important;
+  font-size: 26px !important;
   font-weight: 700 !important;
 }
 html[data-lang="zh"] .history-sidebar__era-title {
-  font-size: 17px !important;
+  font-family: "Noto Serif SC", "Noto Serif TC", serif !important;
+  font-size: 19px !important;
   font-weight: 700 !important;
 }
 html[data-lang="zh"] .history-era-divider__title {
