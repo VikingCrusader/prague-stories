@@ -27641,19 +27641,19 @@ First recorded in 1300, Želejov has spent seven centuries quietly shrinking rat
 
 Vidlák is one of eight interconnected ponds strung along the Žehrovka stream through the Podtrosecká údolí, and its real claim to fame has nothing to do with fishing: the wetland along its bank, Rašeliniště Vidlák, has been a protected nature reserve since 1979, prized as one of the more ecologically valuable patches of bog in the whole Bohemian Paradise. A campsite and swimming spot sit right beside it today, catering to a far calmer crowd than the one the pond's name might suggest.
 
-🎁 Bonus: in the game, following the road north from here eventually turns up Vostatek himself, treed by a pack of wolves after one hunting trip too many went sideways — a drunk, accident-prone gamekeeper in the direct employ of Otto von Bergow, and reportedly not much of a role model to his own son. The real woods north of Vidlák have wolves too, at least on paper, though these days you're considerably more likely to meet a birdwatcher than a wolf, and even less likely to meet anyone who needs carrying home.`,
+🎁 Bonus: in the game, following the road north from here eventually turns up Vostatek himself, treed by a pack of wolves after one hunting trip too many went sideways — a drunk, accident-prone gamekeeper in the direct employ of Otto von Bergow, and reportedly not much of a role model to his own son. The pond also doubles as one of the game's fast-travel points, so plenty of players have claimed it on the map without ever crossing paths with a wolf, a birdwatcher, or Vostatek himself. The real woods north of Vidlák have wolves too, at least on paper, though these days you're considerably more likely to meet a birdwatcher than a wolf, and even less likely to meet anyone who needs carrying home.`,
 
       cz: `Vítejte u rybníka Vidlák, malého jezera s vlastním chráněným rašeliništěm, ukrytého v lesích mezi Troskami a Hrubou Skálou — a v Kingdom Come: Deliverance II posledním místě, kde byl hajný Vostatek spatřen předtím, než pro něj jeho žena musela poslat pátrací výpravu.
 
 Vidlák je jedním z osmi propojených rybníků táhnoucích se podél potoka Žehrovka Podtroseckým údolím, a jeho skutečná sláva nemá s rybařením nic společného: mokřad na jeho břehu, Rašeliniště Vidlák, je od roku 1979 chráněnou přírodní rezervací, ceněnou jako jedna z ekologicky nejcennějších rašelinných lokalit v celém Českém ráji. Hned vedle dnes stojí tábořiště a koupaliště, obsluhující mnohem klidnější publikum, než by název rybníka mohl naznačovat.
 
-🎁 Bonus: ve hře cesta na sever odsud nakonec dovede hráče přímo k samotnému Vostatkovi, zahnanému na strom smečkou vlků poté, co se mu jeden lovecký výlet příliš zvrtl — opilý, nehodám nakloněný hajný v přímých službách Otty z Bergova, který podle všeho nebyl zrovna vzorem ani vlastnímu synovi. Skutečné lesy severně od Vidláku vlky mají taky, alespoň na papíře, dnes v nich ale narazíte spíš na pozorovatele ptáků než na vlka — a ještě méně pravděpodobně na někoho, koho by bylo potřeba odnést domů.`,
+🎁 Bonus: ve hře cesta na sever odsud nakonec dovede hráče přímo k samotnému Vostatkovi, zahnanému na strom smečkou vlků poté, co se mu jeden lovecký výlet příliš zvrtl — opilý, nehodám nakloněný hajný v přímých službách Otty z Bergova, který podle všeho nebyl zrovna vzorem ani vlastnímu synovi. Rybník je zároveň jedním z herních bodů rychlého cestování, takže spousta hráčů si ho na mapě odemkla, aniž by kdy potkala vlka, pozorovatele ptáků nebo samotného Vostatka. Skutečné lesy severně od Vidláku vlky mají taky, alespoň na papíře, dnes v nich ale narazíte spíš na pozorovatele ptáků než na vlka — a ještě méně pravděpodobně na někoho, koho by bylo potřeba odnést domů.`,
 
       zh: `欢迎来到维德拉克池塘，一片藏在特罗斯基城堡与赫鲁巴斯卡拉之间林地中的小湖，拥有自己的受保护泥炭沼泽——在《天国：拯救2》里，这里也是猎场看守沃斯塔泰克最后一次被人看见的地方，之后他妻子不得不派人出去找他。
 
 维德拉克是沿热赫罗夫卡河（Žehrovka）串联起波德特罗斯克卡山谷的八座相连池塘之一，它真正的名气其实和钓鱼没什么关系：岸边的沼泽地"维德拉克泥炭沼"自1979年起就是受保护的自然保护区，被视为整个波希米亚天堂地区生态价值最高的泥炭地之一。如今池塘边就是露营地和泳滩，迎来的客人也远比这个名字听起来要安分得多。
 
-🎁 彩蛋：游戏里，沿着这里往北走的道路，最终会带玩家找到沃斯塔泰克本人——他被一群狼逼上了树，只因又一次打猎意外失了手。这位受雇于奥托·冯·波尔高的猎场看守，本人嗜酒又倒霉不断，据说连自己的儿子都没把他当作什么好榜样。维德拉克以北的真实林地里，纸面上也确实有狼出没，不过如今你在林子里遇上观鸟爱好者的概率，要远远高于遇上狼——更别提遇上需要有人扛回家的醉汉了。`,
+🎁 彩蛋：游戏里，沿着这里往北走的道路，最终会带玩家找到沃斯塔泰克本人——他被一群狼逼上了树，只因又一次打猎意外失了手。这位受雇于奥托·冯·波尔高的猎场看守，本人嗜酒又倒霉不断，据说连自己的儿子都没把他当作什么好榜样。这片池塘同时也是游戏里的一个快速旅行点，不少玩家解锁了它，却从没在这儿遇上过狼、观鸟者，或是沃斯塔泰克本人。维德拉克以北的真实林地里，纸面上也确实有狼出没，不过如今你在林子里遇上观鸟爱好者的概率，要远远高于遇上狼——更别提遇上需要有人扛回家的醉汉了。`,
     },
   },
   {
@@ -27790,6 +27790,361 @@ Skutečný Nebákov je dnes o poznání klidnější místo, i když tak tomu ne
 现实中的内巴科夫如今要平静得多，不过它并非一直如此。13世纪末，如今池塘上方的一处岩石岬角上曾建有一座小城堡——1455年的文献首次提及它，当时归诺瓦韦斯寡妇马赫娜所有，15世纪末被焚毁，到1538年已彻底废弃，只留下土垒、壕沟和凿刻在岩石上的沟槽。水边取而代之的，是一座巴洛克式磨坊——同样首见于1455年的记载，后来的主人名单上赫然出现了阿尔布雷希特·冯·华伦斯坦——磨坊一直运转到1951年。而就在池塘正上方的岩石岬角上，20世纪30年代有一户人家盖起了一座木屋，至今仍在，就是如今的"内巴科夫小屋"（Chata Nebákov），为游客提供餐饮和住宿，紧邻长达1.25公里、堪称波德特罗斯克卡山谷八座池塘中最长一座的内巴科夫池塘。
 
 🎁 彩蛋：游戏把这座山坡七百年的历史——一支被屠戮的守军、一间磨坊、一座湖畔小屋——统统压缩进了一夜血腥的政变里。真实的内巴科夫从未经历过这样戏剧化的一夜；它只是一个世纪接一个世纪，悄悄先攒下一座城堡，再攒下一座磨坊，最后攒下一座小屋——这其实正是波希米亚天堂大部分地方的真实运作方式。`,
+    },
+  },
+  {
+    // Added 2026-09-16, user-supplied coordinates. Same KCD2 tie-in
+    // project as the earlier Trosky-region batch (see CLAUDE.md's "In
+    // progress" section for the full roster and house style). Real,
+    // still-standing watermill on the Podsemínský pond dam — corresponds
+    // to Miller Kreyzl's mill in the "Materia Prima" side quest, where
+    // Henry hauls flour sacks from the adjoining barn onto a cart. Real
+    // facts (first mentioned early 16th c., one of 18 mills once on the
+    // Žehrovka, Franz Skála's 1821 purchase and five generations of Skála
+    // family ownership through the 1951 closure, the old-mill/sawmill
+    // dual building with 4 water wheels before an post-1880 roller-mill
+    // conversion, the post-1918 bakery, the 1937 rebuild, Jaroslav
+    // Skála's 1947 Francis turbine, still owned by his descendants today)
+    // confirmed via WebSearch/WebFetch of kudyznudy.cz and
+    // vyletnik.cz — genuinely rich, continuous real history, so this card
+    // leads with it rather than following troskovice's game-heavy
+    // flip (per the user's own 2026-09-16 "judge each card on its own
+    // merits" direction). Game facts (Miller Kreyzl, the flour-sack
+    // barn, the 5-sack/cart threshold) confirmed via WebSearch of
+    // Fextralife/Prima Games/PowerPyx walkthroughs — a different sack-
+    // carrying task from the one in `troskovice`'s own card (that one is
+    // paying off Betty's tavern tab in the "Laboratores" main quest; this
+    // is Miller Kreyzl's own errand in the separate "Materia Prima" side
+    // quest). Rarity: `superior`, matching rybnik-vezak/hradiste-semin's
+    // tier for a genuinely documented technical monument with continuous
+    // real history, one tier below nebakov's multi-feature cluster.
+    name: 'Podsemínský Mill',
+    slug: 'podseminsky-mlyn',
+    localizedNames: { cz: 'Podsemínský mlýn', zh: '波德塞明磨坊' },
+    labels: ['historical'],
+    coordinates: { lat: 50.506628014924296, lng: 15.186457447603983 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to Podsemínský Mill — "Lower Semine Mill" in the game's own English localization — a watermill tucked away where forest and stream meet, old and quiet enough to look like it wandered in from a fairy tale, sitting right on its own pond's dam since the first half of the 16th century. In Kingdom Come: Deliverance II, this is also where Henry meets Miller Kreyzl, who puts him straight to work hauling flour sacks — and, if you ask him the right question, teaches him how to sneak, pick pockets, and pick locks.
+
+The mill was one of eighteen that once lined the Žehrovka river through this stretch of the Bohemian Paradise, and for most of its working life it stayed in a single family's hands: miller Franz Skála bought it in 1821, and his descendants ran it for five generations straight, right up until it officially closed in 1951. Through the 19th century the building did double duty as a mill and a sawmill, powered by four separate water wheels before converting to a modern roller mill after 1880, and after 1918 it added a bakery on top of everything else, supplying bread to the surrounding villages.
+
+The mill was rebuilt into its current form in 1937, and a decade later miller Jaroslav Skála — the last of the line to actually run the place — had a Francis turbine installed, modernizing a building that was already four centuries into the job. It's still in the Skála family's hands today, owned by Jaroslav's own descendants, even though the grinding itself stopped for good in 1951.
+
+🎁 Bonus: in the game's "Materia Prima" quest, unlocked during "Wedding Crashers" by telling Kreyzl you'd like to learn about thievery, the miller runs things on a considerably smaller scale than the real mill's four-water-wheel heyday — he just wants Henry to find the flour sacks stacked in the barn next door and load at least five of them onto his cart, and in exchange he'll walk him through the basics of takedowns, pickpocketing, and lockpicking right there on the property. Honest work with a criminal education thrown in — a combination the real, five-generations-of-honest-milling Skála family would probably not have approved of.`,
+
+      cz: `Vítejte u Podsemínského mlýna — v anglické lokalizaci hry „Lower Semine Mill" —, vodního mlýna schovaného tam, kde se potkává les s potokem, tak starého a tichého, že vypadá, jako by vypadl z pohádky, stojícího přímo na hrázi vlastního rybníka už od první poloviny 16. století. V Kingdom Come: Deliverance II je to zároveň místo, kde Jindřich potká mlynáře Krejzla, jenž ho rovnou nasadí na tahání pytlů s moukou — a pokud se ho zeptáte správně, naučí ho i plížení, kapesní krádeže a šperhákování.
+
+Mlýn patřil k osmnácti mlýnům, které kdysi lemovaly řeku Žehrovku na tomto úseku Českého ráje, a po většinu své provozní historie zůstal v rukou jediné rodiny: mlynář Franz Skála ho koupil v roce 1821 a jeho potomci ho provozovali pět generací v řadě, až do oficiálního uzavření v roce 1951. Během 19. století budova sloužila dvojí funkci — jako mlýn i pila — poháněná čtyřmi samostatnými vodními koly, než se po roce 1880 přestavěla na moderní válcový mlýn, a po roce 1918 k tomu všemu přibyla ještě pekárna, která zásobovala chlebem okolní vesnice.
+
+Mlýn byl přestavěn do dnešní podoby v roce 1937 a o deset let později si mlynář Jaroslav Skála — poslední z rodu, který mlýn skutečně provozoval — nechal instalovat Francisovu turbínu, čímž modernizoval budovu, jež už tou dobou dělala svou práci čtyři století. Dodnes zůstává v rukou rodiny Skálových, ve vlastnictví Jaroslavových potomků, i když samotné mletí definitivně skončilo v roce 1951.
+
+🎁 Bonus: v herním úkolu „Materia Prima", který se odemkne během „Vyrušené svatby", když Krejzlovi řeknete, že byste se rádi přiučili zlodějině, vede mlynář provoz v mnohem skromnějším měřítku než skutečný mlýn ve své čtyřkolové slávě — stačí mu, když Jindřich najde pytle s moukou naskládané ve stodole vedle a naloží jich aspoň pět na vůz, a on ho na oplátku přímo na místě zasvětí do základů srážení soupeřů, kapesních krádeží a šperhákování. Poctivá práce s trochou zločineckého vzdělání navrch — kombinace, kterou by skutečná, pět generací poctivě mlynařící rodina Skálových zřejmě příliš neschvalovala.`,
+
+      zh: `欢迎来到波德塞明磨坊——游戏英文本地化里叫"Lower Semine Mill"——一座藏在森林与溪流交汇处的水磨坊，古老又安静，安静到看上去像是从童话故事里走出来的，从16世纪上半叶起就一直立在自家池塘的堤坝上。在《天国：拯救2》里，这里也是亨利遇见磨坊主克雷泽尔的地方——他会直接把亨利派去扛面粉袋，而只要你问对问题，他还会教你潜行、扒窃和开锁的门道。
+
+这座磨坊曾是热赫罗夫卡河沿岸十八座磨坊之一，坐落在波希米亚天堂这一段河道上，而它大半个营业生涯都握在同一个家族手里：磨坊主弗朗茨·斯卡拉在1821年买下它，此后他的后代接连经营了整整五代人，一直到1951年正式歇业。整个19世纪，这座建筑身兼磨坊与锯木厂双重功能，由四个独立的水轮驱动，1880年后才改造成现代化的辊式磨坊；1918年之后，它又添了一间面包坊，为周边村庄供应面包。
+
+磨坊在1937年被改建成如今的样子，十年后，磨坊主亚罗斯拉夫·斯卡拉——这个家族最后一位真正经营磨坊的人——为它装上了一台弗朗西斯水轮机，让这座已经运转了四个世纪的建筑又实现了一次现代化。如今它依然归斯卡拉家族所有，由亚罗斯拉夫的后代持有，尽管磨面本身早在1951年就彻底停了下来。
+
+🎁 彩蛋：在游戏"Materia Prima"任务里（在"搅局的婚礼"任务中，对克雷泽尔表示"想学学偷盗的门道"即可解锁），这位磨坊主的排场比真实磨坊四轮全开的鼎盛时期要小得多——他只需要亨利去隔壁谷仓找到堆放的面粉袋，搬至少五袋上车，作为回报，他会当场传授擒拿放倒、扒窃和开锁的基本功。一份老实活，外加一点"犯罪教育"——这种组合，恐怕是斯卡拉家族那五代老老实实磨面的祖先们不会太赞成的。`,
+    },
+  },
+  {
+    // Added 2026-09-16, user-supplied coordinates. Second batch of the
+    // KCD2 tie-in project, entry point for the Kuttenberg (Kutná Hora)
+    // region per project_kcd2_trosky_locations memory / CLAUDE.md's "In
+    // progress" section. Real facts (first recorded 1402 under burgher
+    // Petr Píška, a Wenceslas IV supporter; Popel of Vesce family's
+    // 1530-1571 Renaissance rebuild with sgraffito facades and Prague-
+    // Castle-workshop window frames; 1639 Swedish sack; 1738 Baroque
+    // touches by Prague professor Václav Neumann of Puchholce; absorbed
+    // into the Malešov estate and run as a sugar refinery 1839-1875;
+    // municipal ownership since 1925, gymnasium built on the demolished
+    // NW wing, later school/library/municipal-office use) confirmed via
+    // WebFetch of hrady.cz and WebSearch of cs.wikipedia.org. Game facts
+    // (Suchdol Fortress as Jan Žižka's own headquarters, belonging in
+    // the story to mint master Peter of Pisek, main quests "So It
+    // Begins," "Oratores," "The Sword and the Quill," "Besieged" —
+    // a nighttime siege by Prague's own forces) confirmed via WebSearch
+    // of Fextralife/Fandom KCD2 wikis. Genuinely nice real-name echo
+    // found in research, not invented: the game's "Peter of Pisek" reads
+    // as a clear nod to the real first-recorded owner, Petr Píška — both
+    // men, six centuries apart, loyal to a king named Wenceslas.
+    // Rarity: `epic` — real Renaissance-château architectural weight
+    // (protected cultural monument) plus outsized game importance as
+    // the story's own military headquarters for a whole campaign arc.
+    // Slug deliberately NOT 'suchdol' — that slug is already taken by
+    // an unrelated, pre-existing Location: Suchdol, a Prague 6 riverside
+    // village (coordinates ~50.14, 14.38, nowhere near Kutná Hora),
+    // discovered as a live-DB collision when this entry was first seeded
+    // 2026-09-16. Same-name-different-place trap, flagged to the user
+    // rather than silently overwritten (see the standing gotcha under
+    // "Adding new locations" in CLAUDE.md re: name collisions).
+    name: 'Suchdol Castle',
+    slug: 'zamek-suchdol',
+    localizedNames: { cz: 'Zámek Suchdol', zh: '苏赫多尔城堡' },
+    labels: ['historical'],
+    coordinates: { lat: 49.95310957237933, lng: 15.166678881264462 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Suchdol_(z%C3%A1mek,_okres_Kutn%C3%A1_Hora)',
+    description: {
+      en: `Welcome to Suchdol Castle, a modest two-winged Renaissance château that spends its days today as a small town's municipal office and library — and, in Kingdom Come: Deliverance II, anything but modest: it's Jan Žižka's own headquarters, the fortress the entire second half of the Kuttenberg campaign gets fought over.
+
+First recorded in 1402 under the burgher Petr Píška, a supporter of King Wenceslas IV, the original Gothic manor survived the Hussite Wars in the Píška family's hands before changing owners repeatedly through the 16th century. The Popel family of Vesce rebuilt it into a proper Renaissance château between 1530 and 1571 — the two surviving wings, with their sgraffito façades and window frames from Prague Castle's own workshops, date from this stretch — and history kept adding layers after that: Swedish troops sacked it in 1639 during the Thirty Years' War, a Prague professor gave it Baroque touches in 1738, and by the 19th century it had been folded into the neighboring Malešov estate and put to work running a sugar refinery.
+
+🎁 Bonus: the game's version of Suchdol belongs to a mint master named Peter of Pisek — presumably a nod to the real Petr Píška, both men, six centuries apart, backing a king of the same name — and it's where Žižka bases his fight through quests like "So It Begins," "Oratores," "The Sword and the Quill," and "Besieged," complete with a nighttime siege by Prague's own forces. The real Suchdol has been under municipal ownership since 1925 and hasn't seen a siege since; these days the closest thing to a nightly assault is the library trying to get its evening patrons out the door on time.`,
+
+      cz: `Vítejte na zámku Suchdol, skromném renesančním zámku se dvěma křídly, který dnes tráví své dny jako obecní úřad a knihovna malého městyse — a v Kingdom Come: Deliverance II je to přesný opak skromnosti: vlastní hlavní stan Jana Žižky, pevnost, o kterou se bojuje po celou druhou polovinu kutnohorské kampaně.
+
+Poprvé je Suchdol zmiňován v roce 1402 v držení kutnohorského měšťana Petra Píšky, stoupence krále Václava IV. Původní gotická tvrz přežila husitské války v rukou rodu Píškových, než v 16. století začala měnit majitele. Rod Popelů z Vesce ji mezi lety 1530 a 1571 přestavěl na skutečný renesanční zámek — obě dochovaná křídla se sgrafitovými fasádami a okenními ostěními z pražských hradních dílen pocházejí právě z tohoto období — a historie na ni dál nabalovala další vrstvy: švédská vojska ji vyplenila v roce 1639 za třicetileté války, pražský profesor jí v roce 1738 přidal barokní úpravy a v 19. století už byla součástí sousedního panství Malešov, kde sloužila jako cukrovar.
+
+🎁 Bonus: herní podoba Suchdolu patří mincmistrovi jménem Petr z Písku — zřejmě pokloně skutečnému Petru Píškovi, oba muži, o šest století od sebe, stoupenci krále téhož jména — a je to místo, odkud Žižka vede svůj boj v úkolech jako „Než to začne", „Oratores", „Meč a pero" nebo „Obležení", včetně noční pražské přesily. Skutečný Suchdol je od roku 1925 v obecním vlastnictví a žádné obležení od té doby nezažil — nejblíž nočnímu útoku má dnes tak knihovna, když se snaží večerní návštěvníky včas vypravit domů.`,
+
+      zh: `欢迎来到苏赫多尔城堡，一座朴实的两翼文艺复兴式庄园，如今平日里就是一座小镇的镇公所和图书馆——而在《天国：拯救2》里，它却一点也不朴实：这里是扬·杰式卡（Jan Žižka）自己的司令部，整场库特纳霍拉战役后半段争夺的焦点堡垒。
+
+苏赫多尔最早见于1402年的记载，当时归库特纳霍拉市民彼得·皮什卡所有，他是瓦茨拉夫四世国王的支持者。这座最初的哥特式庄院在皮什卡家族手中撑过了胡斯战争，此后到16世纪几度易主。韦采的波佩尔家族在1530到1571年间把它改建成了一座真正的文艺复兴式城堡——如今留存的两翼建筑，连同灰泥浮雕外墙和出自布拉格城堡工坊的窗框，都出自这段时期——此后历史仍在不断为它添砖加瓦：三十年战争期间，瑞典军队于1639年将它劫掠一空；1738年，一位布拉格教授为它添上了巴洛克式改动；到19世纪，它已并入邻近的马莱肖夫庄园，摇身变成了一座糖厂。
+
+🎁 彩蛋：游戏里的苏赫多尔归一位名叫"皮塞克的彼得"（Peter of Pisek）的铸币官所有——想来是在向真实的彼得·皮什卡致意，两位相隔六百年的人物，恰好都效忠同名的国王——杰式卡正是在这里指挥他的战斗，贯穿"一切开始"、"演说家"（Oratores）、"剑与笔"、"围城"等任务，其中还包括一场布拉格军队的夜袭。真实的苏赫多尔自1925年起归市镇所有，此后再未经历过围城——如今最接近"夜间突袭"的场面，大概就是图书馆员想方设法把晚间读者按时请出门。`,
+    },
+  },
+  {
+    // Added 2026-09-16, user-supplied coordinates. Same Kuttenberg-region
+    // KCD2 batch as suchdol (see that entry's comment). Real castle
+    // Pirkštejn, the lower castle guarding Rataje nad Sázavou (see that
+    // entry too — a linked pair, like hrad-trosky/troskovice). Real facts
+    // (founded first half of the 14th c. by Henry of Lipé; passed to the
+    // lords of Pirkenstein; Hynek Ptáček of Pirkenstein's 1444 death here
+    // as a leading post-Hussite-era Czech politician; decline after the
+    // Thirty Years' War; 1712-1724 conversion into a rectory/bell tower
+    // by Václav Octavian Kinský; still church property, not generally
+    // open to visitors) confirmed via WebFetch of hrady.cz. Game/name
+    // connection (Hans Capon's actual Czech in-game name is "Jan Ptáček
+    // z Pirkštejna" — the English localization renames him "Capon," a
+    // pun-translation of "Ptáček" ["little bird"] into another kind of
+    // fowl — and his stated historical counterpart is a real Jan Ptáček
+    // of Pirkštejn, evidently kin to the same Ptáček/Pirkenstein family
+    // documented above) confirmed via WebSearch of Fandom/Gamer Guides.
+    // Deliberately doesn't assert Hans's fictional character IS Hynek
+    // Ptáček himself — the game is set in 1403-04, when the real Hynek
+    // was a small child, so this reads as the game borrowing the family
+    // name/seat rather than dramatizing Hynek's own life directly.
+    // Rarity: `superior` — real historical weight (a genuinely
+    // influential 15th-century figure) but a small, closed-to-the-public
+    // site, below suchdol's tier.
+    name: 'Pirkštejn Castle',
+    slug: 'pirkstejn',
+    localizedNames: { cz: 'Hrad Pirkštejn', zh: '皮尔克斯坦城堡' },
+    labels: ['historical'],
+    coordinates: { lat: 49.84128009924028, lng: 14.954946604764173 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Pirk%C5%A1tejn_Castle',
+    description: {
+      en: `Welcome to Pirkštejn, a Gothic castle turned parish rectory, perched on a rocky spur above the Sázava river — and, under a slightly different spelling, the ancestral seat behind one of the most familiar surnames in all of Kingdom Come: Deliverance, "Pirkstein."
+
+Founded in the first half of the 14th century by the powerful nobleman Henry of Lipé as the lower castle guarding the town of Rataje nad Sázavou below it, Pirkštejn later passed to its own namesake family, the lords of Pirkenstein. Its most notable resident was Hynek Ptáček of Pirkenstein, who died here in 1444 as one of the most influential Czech politicians of the post-Hussite settlement — a rare figure trusted by both Catholic and Hussite nobility to help hold the kingdom together once Žižka's own wars had burned through it. The castle itself fared worse than its residents: neglected once its owners moved to more comfortable homes, further gutted by the Thirty Years' War, and finally converted in 1712–1724 by Václav Octavian Kinský into a parish rectory and bell tower — the form it's kept ever since, still church property today and not generally open to visitors.
+
+🎁 Bonus: Kingdom Come: Deliverance's own noble companion carries this castle's real name into the game more directly than most tie-ins manage — his actual Czech-language name is "Jan Ptáček z Pirkštejna," and only the English localization renames him "Hans Capon," swapping the surname "Ptáček" ("little bird") for another kind of fowl. His stated historical counterpart, a real Jan Ptáček of Pirkštejn, was very likely kin to the same Hynek Ptáček who died within these walls — though the game itself is set in 1403–04, when the real Hynek would have still been a small child, so think of it as borrowing the family name and seat rather than dramatizing any one man's actual life.`,
+
+      cz: `Vítejte na Pirkštejně, gotickém hradu přeměněném na faru, tyčícím se na skalním ostrohu nad řekou Sázavou — a pod lehce upraveným hláskováním také rodovém sídle za jedním z nejznámějších jmen celé hry Kingdom Come: Deliverance, „Pirkstein".
+
+Pirkštejn založil v první polovině 14. století mocný šlechtic Jindřich z Lipé jako dolní hrad, chránící pod ním ležící městečko Rataje nad Sázavou. Později přešel na vlastní stejnojmenný rod, pány z Pirkenštejna. Jeho nejvýznamnějším obyvatelem byl Hynek Ptáček z Pirkenštejna, který zde v roce 1444 zemřel jako jeden z nejvlivnějších českých politiků pohusitského uspořádání — vzácná postava, které důvěřovala katolická i husitská šlechta natolik, že s její pomocí udrželi království pohromadě poté, co ho vlastní války Žižkovy vyčerpaly do základů. Samotnému hradu se ale nedařilo tak dobře jako jeho obyvatelům: po přesídlení majitelů do pohodlnějších sídel upadal, dál ho vyplenila třicetiletá válka a nakonec ho v letech 1712–1724 Václav Oktavián Kinský přestavěl na farní budovu se zvonicí — podobu, kterou si drží dodnes, stále jako církevní majetek, běžně nepřístupný návštěvníkům.
+
+🎁 Bonus: šlechtický společník z Kingdom Come: Deliverance nese jméno tohoto hradu do hry přímějším způsobem, než to u podobných propojení bývá — jeho skutečné české jméno zní „Jan Ptáček z Pirkštejna" a teprve anglická lokalizace ho přejmenovává na „Hans Capon", kdy příjmení „Ptáček" vyměňuje za jiný druh domácí drůbeže. Jeho udávaný historický předobraz, skutečný Jan Ptáček z Pirkštejna, byl velmi pravděpodobně příbuzný téhož Hynka Ptáčka, který zemřel v těchto zdech — hra je ovšem zasazena do let 1403–04, kdy byl skutečný Hynek ještě malé dítě, takže je lepší to chápat jako výpůjčku rodového jména a sídla, ne jako dramatizaci života jednoho konkrétního muže.`,
+
+      zh: `欢迎来到皮尔克斯坦，一座被改建成教区牧师住所的哥特式城堡，矗立在萨扎瓦河畔的岩石岬角上——而在略作改写的拼法之下，它也是《天国：拯救》全系列最耳熟的一个姓氏——"皮尔克斯坦（Pirkstein）"——背后的祖传领地。
+
+皮尔克斯坦由权贵领主利佩的海因里希（Henry of Lipé）在14世纪上半叶建立，作为守护山下拉塔耶镇（Rataje nad Sázavou）的下城堡。此后它转入了与其同名的皮尔肯斯坦家族手中。这里最有名的居住者是皮尔肯斯坦的赫伊内克·普塔切克（Hynek Ptáček），他于1444年在此去世，是胡斯战争后重建秩序时期最具影响力的捷克政治家之一——一位罕见地同时得到天主教与胡斯派贵族信任的人物，帮助杰式卡的战火烧过之后的这个王国重新维系了起来。城堡本身的命运却不如它的居住者：主人们搬去更舒适的住所后，它逐渐荒废，三十年战争又将它进一步摧残，最终在1712至1724年间被瓦茨拉夫·奥克塔维安·金斯基（Václav Octavian Kinský）改建成了教区牧师住所与钟楼——这个样子一直保留到今天，如今仍是教会财产，通常不对游客开放。
+
+🎁 彩蛋：《天国：拯救》里的贵族同伴角色，把这座城堡的真实姓氏直接带进了游戏里，比大多数取材更直白——他真正的捷克语名字就是"皮尔克什泰因的扬·普塔切克"（Jan Ptáček z Pirkštejna），只有英文本地化才把他改名成了"汉斯·凯彭"（Hans Capon），把姓氏"普塔切克"（意为"小鸟"）换成了另一种家禽。他官方给出的历史原型——真实的皮尔克什泰因的扬·普塔切克，很可能正是那位死在这座城墙内的赫伊内克·普塔切克的族人——不过游戏本身的时代背景设在1403至1404年，那时真实的赫伊内克还只是个孩子，所以更准确的理解是，游戏借用的是这个家族的姓氏与领地，而不是在还原某一位真人的真实人生。`,
+    },
+  },
+  {
+    // Added 2026-09-16, user-supplied coordinates. Same Kuttenberg-region
+    // KCD2 batch, paired with pirkstejn (its own lower castle — see that
+    // entry's comment). Real facts (first written record 1156, likely
+    // founded earlier as a 10th-c. border stronghold; rebuilt after a
+    // mid-13th-c. fire; John of Luxembourg's grant to Henry of Lipé,
+    // whose family built Pirkštejn; the Malešice family's Renaissance
+    // municipal rights and château wing, 1531-1579; Kinský-era Baroque
+    // work after 1712; Liechtenstein ownership 1772-1919; municipal
+    // purchase in 1933, later school/post-office/police-station use;
+    // today's Museum of Central Posázaví) confirmed via WebFetch of
+    // obecrataje.cz and WebSearch of cs.wikipedia.org/turistika.cz. Game
+    // connection (the entire original Kingdom Come: Deliverance is built
+    // around a fictionalized "Rattay on Sasau" standing in for this
+    // exact town — marketplace, taverns, garrison — with Sir Hans Capon
+    // as its own young lord, carrying the Pirkštejn title; Hans returns
+    // as a KCD2 companion) confirmed via WebSearch of Fandom/kcdmap.com/
+    // kcdlive.eu. Deliberately notes this is primarily the original
+    // Kingdom Come: Deliverance's own setting, not KCD2's own Kuttenberg
+    // map — Hans's continuing role as a KCD2 companion is the honest
+    // throughline connecting it to this project's usual KCD2 framing,
+    // not an overclaim that the real town itself appears on KCD2's map.
+    // Rarity: `epic`, matching suchdol — the real basis for an entire
+    // game's central hub town, not just one side location.
+    name: 'Rataje nad Sázavou',
+    slug: 'rataje-nad-sazavou',
+    localizedNames: { cz: 'Rataje nad Sázavou', zh: '萨扎瓦河畔拉塔耶' },
+    labels: ['village-and-town', 'historical'],
+    coordinates: { lat: 49.84205431431985, lng: 14.957686234845529 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Rataje_nad_S%C3%A1zavou_(z%C3%A1mek)',
+    description: {
+      en: `Welcome to Rataje nad Sázavou, a small town on the Sázava river whose Renaissance-Baroque château now houses a regional museum — and, under a slightly Anglicized spelling, the real town behind "Rattay," the marketplace-and-garrison hub that anchors the entire original Kingdom Come: Deliverance.
+
+First recorded in 1156 though likely founded centuries earlier as a border stronghold, Rataje was rebuilt after a mid-13th-century fire and later granted by King John of Luxembourg to the nobleman Henry of Lipé, whose family built the lower castle known today as Pirkštejn. The town itself passed through a long roster of owners after that: the Malešice family secured it Renaissance-era municipal rights and built the château's own Renaissance wing between 1531 and 1579, the Kinský family added Baroque touches after 1712, and the Liechtenstein family held it from 1772 until Czechoslovak independence in 1919 broke that particular chain. Since 1933 the château has belonged to the town itself, cycling through duty as a municipal office, post office, police station, and school before settling into its current role as the Museum of Central Posázaví.
+
+🎁 Bonus: the entire original Kingdom Come: Deliverance builds its whole world around a fictionalized version of this town — "Rattay on Sasau," complete with its own marketplace, taverns, and garrison standing in for the real Rataje — ruled in the story by a young lord, Sir Hans Capon, who carries a title borrowed straight from the real Pirkštejn castle just down the hill. Hans returns as a companion in Kingdom Come: Deliverance II, playing out his part a good distance from the actual town whose name he's still nominally lord of.`,
+
+      cz: `Vítejte v Ratajích nad Sázavou, malém městečku na řece Sázavě, jehož renesančně-barokní zámek dnes hostí regionální muzeum — a pod lehce zanglizovaným hláskováním také skutečném městě za „Rattay", tržně-garnizonním centrem, na kterém stojí celá původní hra Kingdom Come: Deliverance.
+
+Rataje jsou poprvé písemně zmíněny v roce 1156, byť jako pohraniční hradiště pravděpodobně vznikly už o staletí dřív. Po požáru v polovině 13. století bylo město obnoveno a později je král Jan Lucemburský udělil šlechtici Jindřichu z Lipé, jehož rod postavil dolní hrad, dnes známý jako Pirkštejn. Samotné městečko pak procházelo dlouhou řadou majitelů: rod Malešických mu v letech 1531–1579 vymohl renesanční městská práva a postavil renesanční křídlo zámku, rod Kinských přidal po roce 1712 barokní úpravy a rod Lichtenštejnů ho držel od roku 1772 až do vzniku Československa v roce 1919, kdy se tento řetězec přerušil. Od roku 1933 patří zámek samotnému městysu a za tu dobu prošel rolí obecního úřadu, pošty, četnické stanice i školy, než se ustálil ve své dnešní podobě Muzea Podblanicka — pobočky pro střední Posázaví.
+
+🎁 Bonus: celá původní hra Kingdom Come: Deliverance staví svůj svět na fiktivní podobě tohoto městečka — „Rattay na Sasau", s vlastním tržištěm, hospodami a garnizonem, které v příběhu zastupují skutečné Rataje — a vládne mu mladý pán, sir Hanuš Kapoun, jehož titul je vypůjčený přímo od skutečného hradu Pirkštejn kousek odtud. Hanuš se vrací jako společník i v Kingdom Come: Deliverance II, kde svou roli odehrává notný kus cesty od skutečného městečka, jehož je formálně stále pánem.`,
+
+      zh: `欢迎来到萨扎瓦河畔拉塔耶（Rataje nad Sázavou），一座坐落在萨扎瓦河畔的小镇，它那座文艺复兴晚期加巴洛克风格的城堡如今是一座地区博物馆——而在略经英语化的拼法之下，它也是"拉塔伊"（Rattay）背后的真实原型：整部初代《天国：拯救》赖以立足的市集与驻军枢纽。
+
+拉塔耶最早见于1156年的文字记载，但很可能早在几个世纪前就已作为边境据点存在。13世纪中期一场大火后，小镇得以重建，此后卢森堡的约翰国王将它赐给了贵族利佩的海因里希（Henry of Lipé），他的家族后来建起了如今名为皮尔克斯坦的下城堡。小镇本身此后历经一长串主人：马莱希采家族在1531至1579年间为它争得文艺复兴时期的城镇自治权，并建起了城堡的文艺复兴式侧翼；金斯基家族在1712年后添上了巴洛克式改动；列支敦士登家族则从1772年一直持有到1919年捷克斯洛伐克独立，才打断了这条传承链。自1933年起，城堡归小镇自身所有，多年间先后充作镇公所、邮局、宪兵站和学校，最终定型为如今的"中波萨扎维博物馆"。
+
+🎁 彩蛋：初代《天国：拯救》的整个游戏世界，都建立在这座小镇的虚构版本之上——"萨萨乌河畔的拉塔伊"（Rattay on Sasau），连同自己的市集、酒馆和驻军，在游戏里替身出演着真实的拉塔耶——故事里统治这里的年轻领主"汉斯·凯彭爵士"，头衔正是直接借自山下不远处那座真实的皮尔克斯坦城堡。汉斯在《天国：拯救2》里作为同伴角色回归，故事发生的地方，离他名义上仍是领主的那座真实小镇，已经有相当一段距离。`,
+    },
+  },
+  {
+    // Added 2026-09-16, user-supplied coordinates. Same broader KCD
+    // Sasau-district thread as pirkstejn/rataje-nad-sazavou (same
+    // ~12km-wide real cluster near the Sázava river) rather than the
+    // separate suchdol/Kuttenberg KCD2 batch — this is primarily the
+    // ORIGINAL Kingdom Come: Deliverance's own setting (Henry's home
+    // village and the game's entire inciting incident), not a location
+    // on KCD2's own explorable map. At the user's explicit request this
+    // card is weighted toward the game content rather than the real
+    // history ("这个地点的描述以游戏为主"), inverting this batch's usual
+    // default the same way troskovice did for the Trosky batch. Real
+    // facts (castle first recorded 1361; settlement chartered as a
+    // silver-mining town, "Skalice hor stříbrných," by 1417; silver
+    // deposits significant enough to help found the Prague mint under
+    // Ferdinand I in 1538; mining ceased early 18th c.; Romanesque St.
+    // James church with 12th/13th-c. frescoes; the real castle burned by
+    // Sigismund's forces 23 March 1403 and never rebuilt, only bare
+    // stones remaining today) confirmed via WebSearch of cs.wikipedia.org
+    // and kudyznudy.cz. Game facts, and the real-history/game-plot
+    // coincidence itself (Warhorse Studios' own tweet dates the historical
+    // raid to 23 March 1403 and names it directly as the game's basis;
+    // Henry's parents Martin the blacksmith and Jana; liege lord Sir
+    // Radzig Kobyla; Sir Markvart von Aulitz's Cuman mercenaries; Sir
+    // Istvan Toth's foreknowledge and silence; the looter Runt stealing
+    // the just-forged sword) confirmed via WebSearch of Fandom/wiki.gg.
+    // Istvan Toth already appears as a named character in this project's
+    // own hrad-trosky card, so this is consistent with, not new to, the
+    // established roster. Deliberately doesn't spoil the later "Henry's
+    // true parentage" twist some sources allude to (calls Martin his
+    // father, not "adoptive father") — that's a deep mid/late-game
+    // reveal, not something this card's brief origin-story framing needs.
+    // Rarity: `epic` — physically it's just a small village with a
+    // castle reduced to a few stones, but narrative weight-wise this is
+    // the single most important place in the entire KCD franchise, on
+    // par with suchdol/rataje-nad-sazavou's tier rather than below it.
+    name: 'Stříbrná Skalice',
+    slug: 'stribrna-skalice',
+    localizedNames: { cz: 'Stříbrná Skalice', zh: '银矿斯卡利采' },
+    labels: ['village-and-town', 'historical'],
+    coordinates: { lat: 49.89735127681432, lng: 14.846196716315417 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/St%C5%99%C3%ADbrn%C3%A1_Skalice',
+    description: {
+      en: `Welcome to Stříbrná Skalice, a quiet silver-mining village on the Sázava river — and, as "Silver Skalitz," the single most important place in the entire Kingdom Come: Deliverance saga: the home Henry grows up in, and the home he loses in one bloody night that sets the whole story moving.
+
+On 23 March 1403, King Sigismund's Cuman mercenaries, under Sir Markvart von Aulitz, burned Skalitz to the ground to seize its silver mines — a real, dated historical raid that Kingdom Come: Deliverance dramatizes almost exactly as it happened, just with a blacksmith's son standing in the middle of it. In the game, Henry comes home that same day carrying a sword he and his father Martin had just finished forging for their liege lord, Sir Radzig Kobyla, and unknowingly delivers it into the hands of Sir Istvan Toth — a Hungarian noble who already knows the attack is coming and says nothing. By the time Henry gets back from the tavern that night, the village is burning, his parents Martin and Jana are dead, and a looter named Runt has already made off with the very sword he watched his father forge that morning.
+
+Henry survives; Skalitz, for a long while, doesn't. Radzig himself is forced to flee with what's left of the village's people, and the rest of both games grows directly out of this one night — Henry's slow climb from a grieving blacksmith's son to Radzig's own right hand, and, much later in the story once the immediate danger has passed, his own part in actually helping resettle and rebuild the village he grew up in.
+
+🎁 Bonus: the real Stříbrná Skalice has spent six quieter centuries rebuilding its own reputation since. Its castle is first recorded in 1361, the settlement itself was chartered as a silver-mining town by 1417, and those same silver deposits were rich enough to help found the Prague mint under Ferdinand I in 1538. Its Romanesque St. James church still holds frescoes older than the massacre itself. The real castle Sigismund's men burned that day was never rebuilt — only bare stones remain today — but the village around it, unlike Henry's fictional one, never actually needed a game's plot to bring it back to life.`,
+
+      cz: `Vítejte ve Stříbrné Skalici, tiché hornické vesnici na řece Sázavě — a v podobě „Silver Skalitz" nejdůležitějším místě celé série Kingdom Come: Deliverance: domově, ve kterém Jindřich vyrůstá, a domově, který ztratí během jedné krvavé noci, kterou celý příběh odstartuje.
+
+23. března 1403 vypálili kumánští žoldnéři krále Zikmunda, pod vedením pana Markvarta z Aulic, Skalici do základů, aby se zmocnili jejích stříbrných dolů — skutečný, datovaný historický nájezd, který Kingdom Come: Deliverance dramatizuje téměř přesně tak, jak se odehrál, jen s kovářským synem uprostřed toho všeho. Ve hře se Jindřich toho dne vrací domů s mečem, který s otcem Martinem právě vykovali pro svého pána, pana Radzika Kobylu — a nevědomky ho odevzdá do rukou pana Istvána Tótha, uherského šlechtice, který o blížícím se útoku už ví a nic neřekne. Než se Jindřich večer vrátí z hospody, vesnice hoří, jeho rodiče Martin a Jana jsou mrtví a nájezdník jménem Runt už si odnesl přesně ten meč, který ráno viděl otce kovat.
+
+Jindřich přežije; Skalice na dlouhou dobu ne. Sám Radzig je nucen uprchnout se zbytkem vesnických obyvatel, a celý zbytek obou her vyrůstá přímo z téhle jedné noci — Jindřichův pomalý vzestup z truchlícího kovářského syna až po Radzigovu vlastní pravou ruku, a mnohem později v příběhu, až bezprostřední nebezpečí pomine, i jeho vlastní podíl na skutečném znovuosídlení a obnově vesnice, ve které vyrostl.
+
+🎁 Bonus: skutečná Stříbrná Skalice od té doby strávila šest podstatně klidnějších století budováním vlastní pověsti. Její hrad je poprvé zmiňován v roce 1361, samotná osada získala právo hornického městečka do roku 1417 a tytéž stříbrné doly byly bohaté natolik, že pomohly v roce 1538 založit pražskou mincovnu za Ferdinanda I. Její románský kostel svatého Jakuba dodnes ukrývá fresky starší než sám masakr. Skutečný hrad, který toho dne vypálili Zikmundovi muži, už nikdy nebyl obnoven — dodnes z něj zbývají jen holé kameny — ale vesnice kolem něj, na rozdíl od Jindřichovy fiktivní verze, nikdy žádnou herní zápletku k návratu do života nepotřebovala.`,
+
+      zh: `欢迎来到银矿斯卡利采（Stříbrná Skalice），萨扎瓦河畔一座安静的采银小村——在游戏里，它就是"银矿斯卡里茨"（Silver Skalitz），整部《天国：拯救》系列里最重要的一个地方：亨利在此长大的家，也是他在一夜血腥中失去、从而引出整个故事的家。
+
+1403年3月23日，西吉斯蒙德国王的库曼雇佣兵，在马克瓦特·冯·奥利茨爵士的率领下，为夺取当地银矿把斯卡里茨烧成了平地——这是一场真实、有确切日期的历史袭击事件，《天国：拯救》几乎原样将它搬上了游戏，只是把一个铁匠的儿子放到了这场浩劫的正中央。游戏里，亨利那天恰好带着他和父亲马丁刚为领主拉齐格·科比拉爵士打好的一把剑回到村里，还毫不知情地把它交到了伊斯特万·托特爵士手中——这位匈牙利贵族其实早就知道袭击将至，却什么也没说。当亨利那晚从酒馆回来时，村子已经陷入火海，他的父母马丁和亚娜双双惨死，而一个叫朗特（Runt）的劫掠者，已经带着他早上亲眼看父亲打造出来的那把剑逃走了。
+
+亨利活了下来；斯卡里茨却在很长一段时间里没能活下来。拉齐格本人被迫带着村里幸存的百姓仓皇出逃，而两部游戏此后的整段故事，都是从这一个夜晚直接生长出来的——亨利从一个悲痛的铁匠之子，一步步爬到拉齐格最信任的左右手；再往后，等最直接的危险过去之后，他还亲身参与了这座童年家园的重新安置与重建。
+
+🎁 彩蛋：真实的银矿斯卡利采，此后又用足足六个世纪的太平日子，一点点重建了自己的名声。它的城堡最早见于1361年的记载，村落本身到1417年已获得采银市镇的地位，同一批银矿储量丰厚到足以在1538年斐迪南一世治下，帮助促成了布拉格铸币厂的设立。村中那座罗曼式圣雅各教堂里，至今还留有比那场屠杀本身还要古老的壁画。西吉斯蒙德的人马当天烧毁的那座真城堡，此后再未被重建——如今只剩下几块光秃秃的石头——但城堡周围的这座村子，和亨利那个虚构的版本不一样，从来都不需要靠一部游戏的剧情才能重新活过来。`,
+    },
+  },
+  {
+    // Added 2026-09-16, user-supplied coordinates. Not part of either
+    // KCD tie-in thread — a standalone Prague card built around a genuine
+    // piece of Czech administrative trivia the user wanted as the
+    // opening hook: Středočeský kraj's own regional seat sits in Prague,
+    // even though Prague itself isn't part of the region. Confirmed via
+    // WebSearch of cs.wikipedia.org and stredoceskykraj.cz: of the 14
+    // self-governing regions created by the 2000 reform (Constitutional
+    // Law 347/1997, effective 1 Jan 2000), 13 are named after their own
+    // seat city — Středočeský kraj is the sole exception, since its
+    // seat has always been Prague, itself a separate 14th self-governing
+    // unit surrounded entirely by the region whose government it hosts.
+    // Traced to the 1949-1960 Pražský kraj, whose territory closely
+    // matched today's Středočeský kraj, plus Prague's own longstanding
+    // separate capital status. Building facts (Zborovská 81/11, built
+    // 1905, historicizing/neo-Baroque style, originally a provincial
+    // office; Art Nouveau stairwell details — etched glass, metal
+    // railings; paired 1915 former imperial-royal gymnasium building at
+    // Preslova 10 forming the same urban block; faces Dienzenhofer
+    // Gardens; unrenovated for most of the 20th c. until a 1999
+    // reconstruction, just ahead of the region taking up residence in
+    // 2000) confirmed via WebSearch of archiv-nuv.npi.cz and
+    // stredoceskykraj.cz. Bonus fact (Středočeský kraj is the largest
+    // Czech region by area yet has no capital city within its own
+    // borders — Kladno/Mladá Boleslav/Příbram are all real towns inside
+    // it that didn't get the role) confirmed via WebSearch of
+    // cs.wikipedia.org. Rarity: `superior` — a real, century-old
+    // building with genuine Art Nouveau detail, but a working
+    // government office rather than a monumental landmark.
+    name: 'Central Bohemian Regional Authority',
+    slug: 'krajsky-urad-stredoceskeho-kraje',
+    localizedNames: { cz: 'Krajský úřad Středočeského kraje', zh: '中波希米亚州政府大楼' },
+    labels: ['historical'],
+    coordinates: { lat: 50.07486981999301, lng: 14.406454546429298 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/St%C5%99edo%C4%8Desk%C3%BD_kraj',
+    description: {
+      en: `Welcome to the Central Bohemian Regional Authority, home to a genuinely odd piece of Czech administrative trivia: the capital of the Central Bohemian Region isn't in the Central Bohemian Region at all. It's here, in Prague.
+
+When Czechia redrew itself into fourteen self-governing regions in 2000, thirteen of them took their names from the city hosting their own regional office — Plzeň gave its name to the Plzeň Region, Brno to the South Moravian Region, and so on. Středočeský kraj (Central Bohemia) is the lone exception, because its own seat has always been Prague, a city that isn't part of the region at all: Prague is its own separate, fourteenth self-governing unit, sitting like the hole in a doughnut, surrounded on every side by the very region whose government it hosts. The arrangement traces back to the short-lived Prague Region (Pražský kraj) of 1949–1960, whose territory closely matched today's Central Bohemia, plus Prague's own long-entrenched status as capital — entrenched enough that when its 13 neighbors each got a proper regional capital of their own, Central Bohemia was left governing a sprawling, largely rural, ring-shaped territory around the one city it will never actually contain.
+
+The building itself long predates any of this bureaucratic irony. Built in 1905 in a historicizing style with neo-Baroque touches, it originally served as a provincial administrative office and still holds Art Nouveau details in its stairwell — etched glass windows, ornate metal railings — that outlasted decades of far plainer government use. Right next door, a former imperial-royal gymnasium building from 1915 rounds out the same urban block, and the whole complex faces the green of the Dienzenhofer Gardens across the street. The building went largely unrenovated for most of the 20th century, finally getting a proper reconstruction in 1999 — just in time to become the regional government's own headquarters the following year.
+
+🎁 Bonus: Central Bohemia is, by land area, the largest of Czechia's fourteen regions — big enough to wrap almost entirely around the capital — and yet it has never had a true capital city of its own. Kladno, Mladá Boleslav, and Příbram are all real, sizeable towns within its own borders, and none of them got the job. The actual seat of government for well over a million people living just outside Prague sits, a little absurdly, on the wrong side of the region's own border.`,
+
+      cz: `Vítejte na Krajském úřadu Středočeského kraje, kde narazíte na skutečně kuriózní kousek české administrativní trivia: sídlo Středočeského kraje se nenachází ve Středočeském kraji. Je tady, v Praze.
+
+Když se Česko v roce 2000 znovu rozdělilo na čtrnáct samosprávných krajů, třináct z nich přijalo jméno podle města, ve kterém sídlí jejich krajský úřad — Plzeň dala jméno Plzeňskému kraji, Brno Jihomoravskému a tak dál. Středočeský kraj je jedinou výjimkou, protože jeho vlastní sídlo bylo odjakživa v Praze — ve městě, které do kraje vůbec nepatří. Praha je svým vlastním, čtrnáctým samosprávným celkem, obklopeným ze všech stran přesně tím krajem, jehož úřad hostí, jako díra v koblize. Toto uspořádání sahá až ke krátce existujícímu Pražskému kraji z let 1949–1960, jehož území se do značné míry shodovalo s dnešním Středočeským krajem, a k dlouhotrvajícímu zvláštnímu postavení Prahy jako hlavního města — postavení tak zakořeněnému, že když jejích třináct sousedů dostalo své vlastní pořádné krajské město, Středočeský kraj skončil se správou rozlehlého, převážně venkovského, prstenovitého území kolem jednoho jediného města, které nikdy skutečně nebude obsahovat.
+
+Sama budova je mnohem starší než tahle byrokratická ironie. Postavena byla v roce 1905 v historizujícím slohu s novobarokními prvky, původně sloužila jako zemský administrativní úřad a ve svém schodišti si dodnes drží secesní detaily — leptaná skla oken, zdobené kovové zábradlí — které přežily desetiletí mnohem prozaičtějšího úředního provozu. Hned vedle stojí bývalé c. k. gymnázium z roku 1915, které spolu s ním uzavírá stejný blok, a celý komplex hledí přes ulici na zeleň Dienzenhoferových sadů. Budova zůstala po většinu 20. století bez větší rekonstrukce, tu se jí dostalo teprve v roce 1999 — právě včas na to, aby se o rok později stala sídlem krajské samosprávy.
+
+🎁 Bonus: Středočeský kraj je rozlohou zdaleka největší ze čtrnácti českých krajů — natolik velký, že téměř celý obepíná hlavní město — a přesto nikdy nemá vlastní opravdové krajské město. Kladno, Mladá Boleslav i Příbram jsou skutečná, poměrně velká města na jeho vlastním území, a žádné z nich tuto roli nezískalo. Skutečné sídlo správy pro více než milion lidí žijících hned za hranicemi Prahy sedí, trochu absurdně, na špatné straně hranice vlastního kraje.`,
+
+      zh: `欢迎来到中波希米亚州政府大楼——这里藏着一条真正称得上冷知识的捷克行政趣闻：中波希米亚州的首府，根本不在中波希米亚州境内。它就在这儿，在布拉格。
+
+2000年，捷克把全国重新划分成十四个自治州，其中十三个都以自己州政府所在的城市命名——比尔森把名字给了比尔森州，布尔诺给了南摩拉维亚州，以此类推。中波希米亚州是唯一的例外，因为它的首府一直都设在布拉格——而布拉格根本不属于这个州。布拉格是它自己独立的第十四个自治单位，四面都被这个它在行政上从未加入、却为其提供政府所在地的州包围着，活像甜甜圈中间那个洞。这套安排能一直追溯到1949至1960年间短暂存在过的"布拉格州"，其辖区大致就与今天的中波希米亚州重合，也能追溯到布拉格作为首都那份根深蒂固的特殊地位——地位之牢固，以至于当它的十三个邻居各自拥有了名正言顺的州府城市时，中波希米亚州却只能落得管理一片广袤、以乡村为主、环状包围着一座它永远也装不进去的城市的辖区。
+
+这座建筑本身，可比这场行政讽刺剧要古老得多。它建于1905年，采用带新巴洛克元素的历史主义风格，最初是一座省级行政办公楼，如今楼梯间里仍保留着新艺术风格的细节——蚀刻玻璃窗、雕花金属扶手——历经数十年更为朴素的官方使用而未被抹去。紧挨着它的，是1915年建成的一座前皇家中学校舍，与它一起围合出同一个街区，整个建筑群隔街正对着"迪恩茨恩霍费尔花园"（Dienzenhoferovy sady）的一片绿地。整座建筑在20世纪的大部分时间里都没有经历过大规模翻修，直到1999年才终于完成了一次彻底改造——刚好赶上第二年成为这个州政府自己的所在地。
+
+🎁 彩蛋：论辖区面积，中波希米亚州是捷克十四个州里最大的一个——大得几乎把首都整个圈了起来——却始终没有一座真正属于自己的州府城市。克拉德诺、姆拉达·博莱斯拉夫、普日布拉姆，都是它境内实打实的大城镇，可谁都没能拿下这个位置。为一百多万住在布拉格边界外的人服务的真正政府所在地，就这么有点荒诞地，坐在了自己这个州边界"错的那一侧"。`,
     },
   },
 ];

@@ -330,6 +330,41 @@ html:not([data-lang="zh"]) .history-event__reference-maps-link {
   font-size: 17px;
 }
 
+/* Section sub-headings on the History Timeline (era titles in the sidebar
+   and the in-feed era divider, plus each event's own <h2>) were all pinned
+   to the pixel font ('Press Start 2P', history.css) for every language.
+   Requested EN/CZ-only swap to a serif better suited to long titles —
+   Aldus Std Roman itself is an Adobe-licensed font with no free web-font
+   source (unlike every other face this project loads, all via Google
+   Fonts — see index.html), so this uses Palatino instead, the font Aldus
+   Roman was originally digitized from for Adobe (same Hermann Zapf
+   design), which ships as a system font on both Windows ("Palatino
+   Linotype") and macOS ("Palatino") and needs no <link> to load. ZH keeps
+   its own pixel-font override further up this file untouched. */
+html:not([data-lang="zh"]) .history-event__title,
+html:not([data-lang="zh"]) .history-sidebar__era-title,
+html:not([data-lang="zh"]) .history-era-divider__title {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", serif;
+}
+/* history.css's base sizes (14px/13px/20px) were tuned for the pixel
+   font's own dense, blocky metrics — at those sizes Palatino reads as
+   noticeably smaller/thinner once swapped in. Bumped up and bolded,
+   matching (event title, sidebar era title) or slightly exceeding (era
+   divider, the page's biggest heading) the sizes ZH already uses for
+   these same three classes above. */
+html:not([data-lang="zh"]) .history-event__title {
+  font-size: 26px;
+  font-weight: 700;
+}
+html:not([data-lang="zh"]) .history-sidebar__era-title {
+  font-size: 19px;
+  font-weight: 700;
+}
+html:not([data-lang="zh"]) .history-era-divider__title {
+  font-size: 34px;
+  font-weight: 700;
+}
+
 html:not([data-lang="zh"]) .detail-desc,
 html:not([data-lang="zh"]) .guide-body,
 html:not([data-lang="zh"]) .guide-cat,
