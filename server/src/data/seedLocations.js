@@ -28147,6 +28147,174 @@ Sama budova je mnohem starší než tahle byrokratická ironie. Postavena byla v
 🎁 彩蛋：论辖区面积，中波希米亚州是捷克十四个州里最大的一个——大得几乎把首都整个圈了起来——却始终没有一座真正属于自己的州府城市。克拉德诺、姆拉达·博莱斯拉夫、普日布拉姆，都是它境内实打实的大城镇，可谁都没能拿下这个位置。为一百多万住在布拉格边界外的人服务的真正政府所在地，就这么有点荒诞地，坐在了自己这个州边界"错的那一侧"。`,
     },
   },
+
+  // Added 2026-09-17, user-supplied coordinates. Five villages/landmarks
+  // on Prague's southwestern edge (Sobín, Třebonice, and three points in
+  // Řeporyje). Researched via WebSearch/WebFetch of cs.wikipedia.org,
+  // praha13.cz, hrady.cz, pamatkovykatalog.cz, and coverage of the 2020
+  // monument controversy (denik.cz, ct24.cz, iROZHLAS). All within Prague
+  // proper, so the non-Prague one-card-per-city scope rule doesn't apply.
+  {
+    name: 'Sobín',
+    slug: 'sobin',
+    localizedNames: { cz: 'Sobín', zh: '索宾' },
+    labels: ['village-and-town'],
+    coordinates: { lat: 50.06444009452796, lng: 14.269530140446442 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Sob%C3%ADn',
+    description: {
+      en: `Welcome to Sobín, a quiet village on Prague's western edge that holds a genuinely impressive-sounding title: home to the highest point in the entire capital. Read past the headline, though, and the honor turns out to be more of an administrative technicality than a summit worth bragging about.
+
+Sobín's first written mention comes from a 1288 document belonging to the Plasy Monastery, and the place has stayed unhurried ever since. Its historic core of older cottages sits on the southeast side of the village, while newer streets of family houses spread northwest toward Hostivice; the green still holds a folk-Baroque wayside shrine, and a small chapel with a belfry marks the corner of Hostivická and Čejkovická streets. Sobín remained its own municipality until merging into neighboring Zličín in 1960, and the whole area only became part of Prague in 1974.
+
+That "highest point in Prague" title belongs to Teleček, a patch of land just south of the village whose own local nickname is, fittingly, Za hospodou — literally "behind the pub." At 399 meters above sea level it edges out every other spot inside the city, but geographers are quick to add the fine print: Teleček isn't really a hill at all, just the place where Prague's own administrative border happens to cross a gently sloping field. The actual highest ground you could stand on and honestly call a summit is nearby Kopanina, a few meters lower at 393 meters — so Prague's official "highest point" turns out to owe more to where a line on a map was drawn than to anything resembling a mountain.
+
+🎁 Bonus: a short walk away, on the site of a former brick-clay quarry between Stodůlky and Řeporyje, a group of enthusiasts led by Vladimír Ženíšek has spent every year since 1999 building Řepora, a hand-built replica of a 14th-century village complete with a potter's cottage, a blacksmith's forge, a bailiff's farmstead, and a wooden palisade with a gatehouse and towers. It makes for a strange kind of neighbor to genuinely medieval Sobín next door: one village is real but has little to show for its age, and the other is entirely fake but built to look exactly like it does.`,
+
+      cz: `Vítejte v Sobíně, klidné vesnici na západním okraji Prahy, která se může pochlubit vskutku působivě znějícím titulem: leží tu nejvyšší bod celé metropole. Stačí se ale podívat pod pokličku a z té pocty se rázem stává spíš administrativní kuriozita než vrchol, kterým by se dalo chlubit.
+
+První písemná zmínka o Sobíně pochází z roku 1288, z listiny plaského kláštera, a od té doby to tu nikdo nikam nehoní. Historické jádro se staršími domky leží na jihovýchodní straně vesnice, zatímco novější ulice rodinných domů se táhnou na severozápad směrem k Hostivici; na návsi dodnes stojí boží muka v lidovém barokním stylu a na křižovatce Hostivické a Čejkovické ulice malá kaplička se zvoničkou. Sobín zůstal samostatnou obcí až do roku 1960, kdy se sloučil se sousedním Zličínem, a celé území se stalo součástí Prahy teprve v roce 1974.
+
+Titul "nejvyšší bod Prahy" patří vrchu Teleček, kousku země jižně od vesnice, jehož vlastní místní přezdívka příhodně zní Za hospodou. S 399 metry nad mořem překonává každé jiné místo uvnitř hranic hlavního města, geografové ale rychle dodávají drobné písmo: Teleček ve skutečnosti není žádný kopec, jen místo, kudy náhodou vede pražská hranice přes mírně stoupající pole. Skutečně nejvyšší bod, na který se dá vylézt a s čistým svědomím mu říkat vrchol, je nedaleká Kopanina, o pár metrů níž, s 393 metry — takže pražský "nejvyšší bod" nakonec vděčí spíš tomu, kudy byla nakreslena čára na mapě, než čemukoli, co by připomínalo horu.
+
+🎁 Bonus: kousek odtud, na místě bývalé cihlářské hlinky mezi Stodůlkami a Řeporyjemi, buduje skupina nadšenců vedená Vladimírem Ženíškem už od roku 1999 Řeporu — ručně postavenou repliku vesnice ze 14. století s hrnčířskou chalupou, kovárnou, rychtářskou usedlostí i dřevěnou palisádou s branou a věžemi. Je to zvláštní soused pro opravdu středověký Sobín hned vedle: jedna vesnice je skutečná, ale ze svého stáří toho moc nevytěžila, druhá je vymyšlená, ale postavená tak, aby to stáří aspoň předstírala.`,
+
+      zh: `欢迎来到索宾，布拉格西部边缘一座安静的村庄，拥有一个听起来相当了不起的头衔：全布拉格海拔最高点就在这里。不过仔细一看，这份"最高"的荣誉与其说是一座值得夸耀的山峰，不如说是一项行政上的技术性细节。
+
+索宾最早见于文字记载是在1288年，出自普拉西修道院的一份文书，此后这地方就没怎么急过。村子东南侧保留着老屋聚集的历史核心，西北方向朝霍斯季维采延伸的则是较新的独栋住宅街区；村中的绿地上至今立着一座民间巴洛克风格的路边圣像柱，霍斯季维采街与切伊科维采街的交叉口则有一座带钟楼的小礼拜堂。索宾一直保持独立建制，直到1960年才并入邻近的兹利钦，而整片区域直到1974年才被并入布拉格。
+
+"布拉格最高点"这个头衔属于特莱切克，村南一小块地，当地干脆给它起了个绰号——"Za hospodou"，字面意思就是"酒馆后面"。这里海拔399米，确实高过市内其他任何地方，但地理学家很快补充了一句实话：特莱切克其实根本算不上一座山，只是布拉格的行政边界恰好从一片缓坡田地上经过的地方。真正能站上去、问心无愧称之为"山顶"的最高地点，其实是附近的科帕尼纳，海拔393米，比特莱切克还低几米——于是布拉格所谓的"最高点"，说到底靠的不是什么山势，而是地图上那条线恰好画在了哪里。
+
+🎁 彩蛋：不远处，在斯托杜尔基和热波里耶之间一处废弃的制砖黏土矿场上，一群由弗拉基米尔·热尼舍克带领的爱好者从1999年起，年复一年地搭建起"热波拉"——一座完全手工建造的14世纪村落复制品，有陶匠的小屋、铁匠的锻造间、村长的庄园，还有带门楼和塔楼的木质栅栏。对一旁真正中世纪的索宾来说，这邻居着实有点奇怪：一座村子是真的，却没留下多少能证明自己年纪的东西；另一座是假的，却费尽心思把自己造得像真的一样古老。`,
+    },
+  },
+
+  {
+    name: 'Třebonice',
+    slug: 'trebonice',
+    localizedNames: { cz: 'Třebonice', zh: '特热博尼采' },
+    labels: ['village-and-town'],
+    coordinates: { lat: 50.045145589508365, lng: 14.280753152404623 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/T%C5%99ebonice',
+    description: {
+      en: `Welcome to Třebonice, a farming village so committed to staying on Prague's edge that most people who shop at its most famous businesses have no idea they're technically visiting it.
+
+Třebonice is a genuinely old settlement — the earliest archaeological finds here go back to the Bronze Age Únětice culture, and its first written mention dates to 1279. Ownership repeatedly landed back in the hands of Břevnov Monastery over the centuries, and in 1974 the village was joined administratively with neighboring Chaby before both were folded into Prague. Today it's one of the city's most rural corners: fields on every side, a volunteer fire brigade founded in 1896 that's still running with about a hundred members, and a population that's spent decades quietly shrinking, down from 635 residents at the time of incorporation to roughly 400 today.
+
+🎁 Bonus: ask almost anyone in Prague where to find IKEA, Tesco, or the Globus hypermarket on the city's western edge, and they'll say Zličín — that's the metro station, after all. Every one of those buildings, plus the metro station itself, actually sits within Třebonice's own cadastral territory. Zličín got the name recognition; Třebonice got the parking lots.`,
+
+      cz: `Vítejte v Třebonicích, zemědělské vesnici, která se drží pražského okraje tak důsledně, že většina lidí nakupujících v jejích nejznámějších obchodech vůbec netuší, že je technicky vzato navštěvuje.
+
+Třebonice jsou opravdu stará osada — nejstarší archeologické nálezy odtud pocházejí z doby bronzové, od lidu únětické kultury, a první písemná zmínka je z roku 1279. Vlastnictví vesnice se v průběhu staletí opakovaně vracelo do rukou Břevnovského kláštera, a v roce 1974 byla obec administrativně spojena se sousedními Chaby, než byly obě začleněny do Prahy. Dnes patří k nejvenkovštějším koutům města: pole na všechny strany, dobrovolný hasičský sbor založený v roce 1896, který funguje dodnes s asi stovkou členů, a počet obyvatel, který se už desítky let tiše zmenšuje — z 635 obyvatel v době připojení k Praze na dnešních přibližně 400.
+
+🎁 Bonus: zeptejte se skoro kohokoli v Praze, kde najde IKEU, Tesco nebo hypermarket Globus na západním okraji města, a odpoví vám: ve Zličíně — vždyť tam je přece metro. Všechny tyto budovy, včetně samotné stanice metra, ale ve skutečnosti leží na katastrálním území Třebonic. Zličín si odnesl jméno, Třebonice parkoviště.`,
+
+      zh: `欢迎来到特热博尼采，一座务农为生的村庄，紧紧守在布拉格边缘，守到很多在这里最有名的商店购物的人，压根不知道自己其实正在"造访"它。
+
+特热博尼采是一处真正古老的聚落——这里最早的考古发现可以追溯到青铜时代的乌涅蒂采文化，而最早的文字记载则出现在1279年。数百年间，这片土地的所有权多次回到布热夫诺夫修道院手中；1974年，村子先与邻近的哈比行政合并，随后两者一起并入布拉格。如今，这里是布拉格城内数一数二的乡村角落：四面都是田野，一支1896年成立、至今仍有约百名成员在运作的志愿消防队，而人口则几十年如一日地悄悄减少——从并入布拉格时的635人，降到如今约400人。
+
+🎁 彩蛋：在布拉格随便问谁，西郊的宜家、乐购或家乐超市在哪儿，十有八九会答"兹利钦"——毕竟那儿有地铁站嘛。但这些建筑，连同地铁站本身，其实全都坐落在特热博尼采自己的行政辖区之内。名气归了兹利钦，停车场却留给了特热博尼采。`,
+    },
+  },
+
+  {
+    name: 'Monument to the Russian Liberation Army',
+    slug: 'pomnik-ruske-osvobozenecke-armady-reporyje',
+    localizedNames: { cz: 'Pomník Ruské osvobozenecké armádě', zh: '俄罗斯解放军纪念碑' },
+    labels: ['monument'],
+    coordinates: { lat: 50.03374310357413, lng: 14.311918803734581 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pomn%C3%ADk_Rusk%C3%A9_osvobozeneck%C3%A9_arm%C3%A1d%C4%9B_v_%C5%98eporyj%C3%ADch',
+    description: {
+      en: `Welcome to the Monument to the Russian Liberation Army in Řeporyje, easily the smallest object in Prague ever to trigger a formal diplomatic protest from the Russian Federation. It's a steel plaque and a three-meter pole with a tiny tank on top — proof that size and political weight rarely have much to do with each other.
+
+The monument, unveiled on 30 April 2020, honors an episode of the Prague Uprising that Czech memory has never quite settled how to feel about. The Russian Liberation Army (ROA) — Soviet soldiers captured by Germany and then recruited to fight alongside it — switched sides one last time on 6 May 1945, when commander Sergei Bunachenko ordered his division into Prague to help the uprising against the retreating German garrison. Their tanks arrived at the city's most desperate hour and helped blunt the German counterattack; most accounts credit them with genuinely saving lives, and the ROA's own count puts its losses in the fighting at over 300 men. Two days later the Red Army arrived to a hero's welcome, while the men who had actually turned the tide that week were written out of the story for the next seven decades — most were handed over to Soviet authorities after the war and executed or sent to the Gulag as traitors.
+
+🎁 Bonus: the idea for a monument came from historian Pavel Žáček; Řeporyje's own mayor, Pavel Novotný, pushed it through, and the sculpture is widely attributed to David Černý, though officially anonymous. Its plaque carries a line from Solzhenitsyn's Gulag Archipelago, asking pointedly whether Czechs ever understood which Russians actually saved their city — and Russia's embassy in Prague protested before a single stone was laid, calling it a distortion of the war's outcome. The timing made things worse: the monument went up the same week Prague 6 removed its own statue of Soviet Marshal Ivan Konev a few kilometers away, turning one ordinary spring into a small international incident over how, exactly, a country is allowed to remember being liberated twice by the same army.`,
+
+      cz: `Vítejte u Pomníku Ruské osvobozenecké armádě v Řeporyjích, pravděpodobně nejmenšího objektu v Praze, který si kdy vysloužil oficiální diplomatický protest Ruské federace. Je to ocelová deska a tři metry vysoký sloup s malinkým tankem na vrcholu — důkaz, že velikost a politická váha spolu leckdy nemají vůbec nic společného.
+
+Pomník, odhalený 30. dubna 2020, připomíná epizodu Pražského povstání, ke které si česká paměť dodnes úplně neví rady. Ruská osvobozenecká armáda (ROA) — sovětští vojáci zajatí Německem a následně naverbovaní do boje po jeho boku — přešla 6. května 1945 naposledy na druhou stranu, když velitel Sergej Buňačenko nařídil své divizi vstoupit do Prahy a pomoci povstání proti ustupující německé posádce. Její tanky dorazily v nejkritičtější chvíli boje a pomohly zastavit německý protiútok; podle většiny svědectví skutečně zachránily životy, a sama ROA uvádí vlastní ztráty v bojích na více než 300 mužů. O dva dny později dorazila Rudá armáda a byla přivítána jako hrdina, zatímco muži, kteří ten týden skutečně zvrátili vývoj bojů, na dalších sedmdesát let z příběhu prakticky zmizeli — většina z nich byla po válce vydána sovětským úřadům a popravena nebo poslána do gulagu jako zrádci.
+
+🎁 Bonus: s myšlenkou na pomník přišel historik Pavel Žáček; prosadil ji řeporyjský starosta Pavel Novotný a autorství sochy se všeobecně přisuzuje Davidu Černému, oficiálně je ale anonymní. Na desce je citát ze Solženicynova Souostroví Gulag, který se ptá, zda si Češi vůbec kdy uvědomili, kteří Rusové jejich město doopravdy zachránili — a ruské velvyslanectví v Praze proti pomníku protestovalo ještě dřív, než se položil první kámen, s tím, že jde o překrucování výsledků války. Načasování celou věc ještě přiostřilo: pomník vznikl ve stejném týdnu, kdy Praha 6 pár kilometrů odtud odstranila vlastní sochu sovětského maršála Ivana Koněva, čímž se z jednoho obyčejného jara stal malý mezinárodní incident o tom, jak přesně smí země vzpomínat na to, že ji dvakrát osvobodila táž armáda.`,
+
+      zh: `欢迎来到热波里耶的俄罗斯解放军纪念碑——大概是布拉格有史以来体积最小、却招来俄罗斯联邦正式外交抗议的一处地方。它不过是一块钢板加一根三米高的柱子，顶端立着一辆迷你坦克模型——足以证明，体积和政治分量常常没什么关系。
+
+这座纪念碑于2020年4月30日揭幕，纪念的是布拉格起义中一段捷克集体记忆至今仍拿不定主意该如何评价的插曲。俄罗斯解放军（ROA）由曾被德国俘虏、随后被招募为德军作战的苏联士兵组成，1945年5月6日，他们做出了这辈子最后一次"倒戈"：指挥官谢尔盖·布尼亚琴科下令部队开进布拉格，协助起义者对抗正在撤退的德军守备部队。他们的坦克在战斗最危急的时刻赶到，帮忙挡住了德军的反扑，多数记载都认为确实挽救了不少人命；据ROA自己的说法，仅此一役阵亡就超过300人。两天后，苏联红军才姗姗来迟，却受到了英雄式的欢迎，而那一周真正扭转战局的这批人，此后整整七十年都几乎从这段历史里被抹去——大多数人在战后被移交给苏联当局，以叛徒罪名处决，或被送进古拉格。
+
+🎁 彩蛋：建碑的想法最初来自历史学家帕维尔·扎切克，真正把它落地的是热波里耶区长帕维尔·诺沃特尼，雕塑作品普遍被认为出自大卫·切尔尼之手，官方却始终未公开署名。纪念碑上刻着索尔仁尼琴《古拉格群岛》里的一句话，直白地问：捷克人到底有没有搞清楚，到底是哪些俄罗斯人真正救了他们的城市？俄罗斯驻布拉格大使馆早在第一块石头落地之前就提出了抗议，称此举是在歪曲战争的结局。时间点更是火上浇油：这座纪念碑落成的同一周，几公里外的布拉格6区刚刚拆除了自己那座苏联元帅伊万·科涅夫的雕像——一个原本平常的春天，就这样变成了一场围绕"一个国家该如何纪念被同一支军队解放过两次"的小型国际事件。`,
+    },
+  },
+
+  {
+    name: 'Church of Saints Peter and Paul',
+    slug: 'kostel-svateho-petra-a-pavla-reporyje',
+    localizedNames: { cz: 'Kostel svatého Petra a Pavla', zh: '圣彼得与圣保罗教堂' },
+    labels: ['church'],
+    coordinates: { lat: 50.032083191175296, lng: 14.3123841848575 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Petra_a_Pavla_(%C5%98eporyje)',
+    description: {
+      en: `Welcome to the Church of Saints Peter and Paul in Řeporyje, a building whose 12th-century Romanesque bones were shaped into one of the odder floor plans in Bohemian church architecture — before an 18th-century renovation quietly talked it out of most of that eccentricity.
+
+At its core the church began as a square, centrally planned Romanesque structure with four radiating apses — a quatrefoil layout rarely used anywhere in Bohemia, closer in spirit to a Byzantine chapel than to the long naves that dominate most parish churches here. A prismatic tower was added to the plan during the medieval period, and by 1352 the church had become a full plebania, its own independent parish rather than a satellite of somewhere else.
+
+That original centralized design didn't survive intact. In 1772 the Jesuit order, then the church's patron, paid architect Antonín Schmied 3,221 gold pieces to rebuild it as a conventional rectangular nave with a new presbytery — a renovation so thorough that only the tower with its paired windows, the western apse, and a few corner wall fragments still betray the Romanesque original underneath. A 1900–01 survey and restoration deliberately went looking for what the Baroque had buried, and interior work in 2017 turned up still more of the old Romanesque masonry along the western wall. Between those two rediscoveries, from 1909 to 1912, the parish was administered by writer-priest Jindřich Šimon Baar, best known for his novels of Chodsko peasant life, while based just next door in Ořech.
+
+🎁 Bonus: from the square below, the church today just looks like any other tidy Baroque village church — plain façade, prismatic tower, nothing that would make a passerby suspect a rare Byzantine-style floor plan is buried under the plaster. It's a fitting fate for a building whose most interesting decision was made eight centuries ago and then spent the next two hundred years being carefully covered up.`,
+
+      cz: `Vítejte u kostela svatého Petra a Pavla v Řeporyjích, stavby, jejíž románské jádro z 12. století bylo formováno do jednoho z podivnějších půdorysů v celé české církevní architektuře — než jej barokní přestavba v 18. století tiše připravila o většinu té svébytnosti.
+
+V jádru začal kostel jako čtvercová, centrálně řešená románská stavba se čtyřmi vybíhajícími apsidami — čtyřlístkový půdorys, který se v Čechách používal jen výjimečně a duchem má blíž k byzantské kapli než k dlouhým lodím, jimiž se vyznačuje většina zdejších farních kostelů. Ve středověku k půdorysu přibyla hranolová věž, a roku 1352 se kostel stal skutečnou plebánií — samostatnou farností, nikoli přívěskem jiné.
+
+Ten původní centrální koncept se ale nedochoval celý. V roce 1772 zaplatil tehdejší patron kostela, jezuitský řád, staviteli Antonínu Schmiedovi 3221 zlatých za přestavbu na běžnou obdélnou loď s novým kněžištěm — přestavbu tak důkladnou, že dnes na románský původ upomíná jen věž se sdruženými okny, západní apsida a pár zbytků zdiva v nárožích. Průzkum a obnova z let 1900–01 se cíleně snažily odkrýt to, co baroko zasypalo, a stavební práce v interiéru v roce 2017 odhalily další úseky staré románské zdi podél západní stěny. Mezi těmito dvěma objevy, v letech 1909–1912, farnost spravoval spisovatel a kněz Jindřich Šimon Baar, dnes nejznámější svými romány z chodského venkova, tehdy působící coby farář v sousedním Ořechu.
+
+🎁 Bonus: z náměstí dole dnes kostel vypadá jako každý jiný upravený barokní vesnický kostelík — prostá fasáda, hranolová věž, nic, co by kolemjdoucího přimělo tušit, že pod omítkou se skrývá vzácný byzantský půdorys. Je to celkem výstižný osud pro stavbu, jejíž nejzajímavější rozhodnutí padlo před osmi staletími a dalších dvě stě let se pak pečlivě zahlazovalo.`,
+
+      zh: `欢迎来到热波里耶的圣彼得与圣保罗教堂——它12世纪的罗马式骨架，曾经被塑造成波希米亚教堂建筑里数一数二古怪的平面布局，直到18世纪的一次改建，悄悄把这份特立独行抹去了大半。
+
+这座教堂最初的核心，是一座平面呈方形、中心对称的罗马式建筑，四面各伸出一个半圆形后殿——这种四叶草式布局在波希米亚极为罕见，气质上更接近拜占庭小礼拜堂，而不是这一带绝大多数堂区教堂常见的狭长中殿。中世纪时，平面上又加建了一座棱柱形钟塔；到1352年，这里正式升格为独立堂区，不再只是别处教堂的附属。
+
+那份最初的中心对称设计并没有完整保留下来。1772年，当时的教堂监护人耶稣会出资3221枚金币，请建筑师安东宁·施密德将其改建为常见的矩形中殿，并新建了圣坛——这次改建极为彻底，如今能看出罗马式原貌的，就只剩带联窗的钟塔、西侧的半圆室，以及墙角处残存的几段旧墙。1900至1901年的一次勘察与修复，特意想找回被巴洛克风格掩盖的原貌；2017年的室内施工，又在西墙一带发现了更多罗马式的旧砌体。就在这两次发现之间，1909年至1912年间，本堂由作家兼神父因德日赫·希蒙·巴尔管理——他当时以邻近的奥热赫村为驻地任神父，日后则以描写霍多斯科乡村生活的小说闻名。
+
+🎁 彩蛋：站在下方广场上看，这座教堂如今不过是一座普普通通、收拾得干干净净的巴洛克风格乡村教堂——朴素的立面，棱柱形钟楼，完全看不出灰泥之下藏着一份罕见的拜占庭式平面布局。对一座最有意思的决定是在八百年前做出、此后两百年却一直被小心翼翼掩盖起来的建筑来说，这倒是个挺贴切的结局。`,
+    },
+  },
+
+  {
+    name: 'Řeporyje Railway Viaduct',
+    slug: 'zeleznicni-viadukt-reporyje',
+    localizedNames: { cz: 'Železniční viadukt v Řeporyjích', zh: '热波里耶铁路高架桥' },
+    labels: ['transport', 'historical'],
+    coordinates: { lat: 50.030412, lng: 14.314741 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to the railway viaduct in Řeporyje, a modest stone arch that's spent a century and a half quietly doing the one job 19th-century industrialists actually cared about: getting coal to Prague as cheaply as possible.
+
+The viaduct carries the Prague–Rudná–Beroun line, opened in 1873 as part of the Prague–Duchcov Railway (Pražsko-duchcovská dráha), a private venture built specifically to haul coal from the mines of North Bohemia into the capital and break the state railway company's monopoly pricing along the way. Its arch is built from rough quarry stone, with dressed, pale limestone blocks framing the vault itself — an emphasized keystone at the crown, limestone quoins at the corners — solid, unfussy engineering that earned it heritage-protected status without ever needing to be dramatic about it. Řeporyje's own station building, a few hundred meters away, dates to 1878 and originally carried the name Řeporyje-Zbuzany before being simplified in 1976.
+
+🎁 Bonus: the line's far more famous cousin, the looping double viaducts nicknamed the "Prague Semmering" after their Alpine namesake, cross the Dalejský stream a few kilometers away near Hlubočepy, on a separate branch of the same coal-hauling network. Řeporyje's own viaduct never got a scenic nickname or a tourist following — it just kept carrying trains, which, for a piece of 1870s coal infrastructure, might be the more impressive achievement.`,
+
+      cz: `Vítejte u železničního viaduktu v Řeporyjích, skromného kamenného oblouku, který už půldruhého století tiše dělá přesně to, na čem devatenáctému století skutečně záleželo: dopravuje uhlí do Prahy co nejlevněji.
+
+Viadukt nese trať Praha – Rudná u Prahy – Beroun, otevřenou v roce 1873 jako součást Pražsko-duchcovské dráhy — soukromého podniku postaveného konkrétně k tomu, aby vozil uhlí ze severočeských dolů do hlavního města a zároveň prolomil monopolní ceny státní železniční společnosti. Jeho oblouk je vyzděn z lomového kamene, přičemž samotnou klenbu rámují lícované světlé vápencové kvádry — zvýrazněný svorník ve vrcholu oblouku, vápencové nárožníky v rozích — solidní, nevýstřední řemeslo, které si vysloužilo památkovou ochranu, aniž by kdy potřebovalo být okázalé. Vlastní řeporyjská nádražní budova, pár set metrů odtud, pochází z roku 1878 a původně nesla jméno Řeporyje-Zbuzany, než byl název v roce 1976 zjednodušen.
+
+🎁 Bonus: mnohem slavnější příbuzný této trati — dvojice smyček s viadukty přezdívaná "Pražský Semmering" po svém alpském vzoru — překonává Dalejský potok o pár kilometrů dál u Hlubočep, na jiné větvi téže uhelné sítě. Řeporyjský viadukt si žádnou malebnou přezdívku ani turistickou slávu nikdy nevysloužil — prostě jen dál vozil vlaky, což je u kusu uhelné infrastruktury ze 70. let 19. století možná ten skutečně působivější výkon.`,
+
+      zh: `欢迎来到热波里耶的铁路高架桥——一座朴素的石拱桥，一个半世纪以来，一直默默做着19世纪实业家真正在乎的那件事：尽可能便宜地把煤运到布拉格。
+
+这座高架桥承载着布拉格—鲁德纳—贝劳恩铁路线，该线于1873年通车，是"布拉格—杜赫佐夫铁路"的一部分——一家私营企业，专为把北波希米亚矿区的煤炭运往首都、同时打破国有铁路公司垄断定价而修建。桥拱由毛石砌成，拱券本身则用打磨过的浅色石灰岩块镶边——拱顶处有一块突出的拱心石，转角处则是石灰岩隅石——扎实而不张扬的工程，让它凭真本事获得了文物保护地位，从没靠花哨取胜。几百米外的热波里耶车站站房建于1878年，最初名为"热波里耶-兹布藏"，直到1976年才简化成现在的名字。
+
+🎁 彩蛋：同一条运煤路网上，还有一位名气大得多的"亲戚"——那对被戏称为"布拉格塞默灵"（借用阿尔卑斯山同名铁路之名）的环形双高架桥，在几公里外的赫卢博采皮跨越达莱伊斯基溪，走的是另一条支线。热波里耶自己这座高架桥，从没混上什么风光的绰号，也没吸引来观光客——它只是一直默默地载着火车跑，而对一座建于19世纪70年代的运煤基础设施来说，这或许才是更了不起的成就。`,
+    },
+  },
 ];
 
 async function run() {

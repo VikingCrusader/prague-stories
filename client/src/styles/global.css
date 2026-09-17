@@ -432,6 +432,22 @@ html[data-lang="zh"] .history-event__year {
   letter-spacing: 0.05em;
 }
 
+/* Location description body copy (.detail-desc, LocationDetail.jsx) moved
+   onto the same Noto Serif SC/TC treatment as History Timeline's own body
+   paragraphs above, per explicit request (2026-09-17) — was still on the
+   page-wide ArkPixel pixel-font default (see the zh body rule near the top
+   of this file), unlike History's .history-event__summary which already
+   got this swap 2026-08-24. Same family/weight/line-height/letter-spacing
+   as that block, kept as a separate rule rather than folded into the
+   selector list above so the two call sites stay independently editable. */
+html[data-lang="zh"] .detail-desc {
+  font-family: "Noto Serif SC", "Noto Serif TC", "Source Han Serif SC",
+    serif !important;
+  font-weight: 400;
+  line-height: 1.8;
+  letter-spacing: 0.05em;
+}
+
 /* .history-event__hook (the yellow pull-quote line right under an event's
    title) inherits font-style: italic from history.css, unscoped by
    language — fine for the Latin serif faces used on EN/CZ, but Noto
