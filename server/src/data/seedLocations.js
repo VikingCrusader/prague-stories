@@ -28315,6 +28315,160 @@ Viadukt nese trať Praha – Rudná u Prahy – Beroun, otevřenou v roce 1873 j
 🎁 彩蛋：同一条运煤路网上，还有一位名气大得多的"亲戚"——那对被戏称为"布拉格塞默灵"（借用阿尔卑斯山同名铁路之名）的环形双高架桥，在几公里外的赫卢博采皮跨越达莱伊斯基溪，走的是另一条支线。热波里耶自己这座高架桥，从没混上什么风光的绰号，也没吸引来观光客——它只是一直默默地载着火车跑，而对一座建于19世纪70年代的运煤基础设施来说，这或许才是更了不起的成就。`,
     },
   },
+
+  // Added 2026-09-18, user-supplied coordinates. Four more southwest-Prague-
+  // area points, continuing the 2026-09-17 batch. Researched via
+  // WebSearch/WebFetch of cs.wikipedia.org, hrad.cz/vets.cz/prehis.cz,
+  // ceskykras.aopk.gov.cz, and salvia-os.cz. Lány sits ~30km outside Prague
+  // proper but qualifies as a standalone out-of-town-castle exception (its
+  // whole identity is the chateau, same reasoning as bezdez-castle/
+  // zamek-hluboka-nad-vltavou). The other three are within Prague, so the
+  // one-card-per-non-Prague-town rule doesn't apply to them.
+  {
+    name: 'Lány Chateau',
+    slug: 'zamek-lany',
+    localizedNames: { cz: 'Zámek Lány', zh: '拉尼城堡' },
+    labels: ['palace', 'historical'],
+    coordinates: { lat: 50.12374319304659, lng: 13.956268649114007 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/L%C3%A1ny_(z%C3%A1mek,_okres_Kladno)',
+    description: {
+      en: `Welcome to Lány Chateau, the closest thing the Czech Republic has to Camp David — a genuine working presidential residence about 30 kilometers west of Prague, where every head of state since 1921 has come to escape the very castle they already live in.
+
+The estate's first written mention comes from 1392, when a local nobleman named Hašek held little more than a wooden manor house here. The Žejdlic family built a proper Renaissance fortress after acquiring the property in 1528, and in 1589 Emperor Rudolf II's own royal chamber bought it outright, folding it into the vast Křivoklát hunting domain the Habsburgs prized above almost anything else in Bohemia. Italian architect Ulrico Aostalli converted it into a hunting lodge soon after, and ownership then passed through a chain of noble hands — the Wallensteins bought it in 1685 for three-quarters of a million gold pieces and carved out their own private game reserve, the Fürstenbergs added a full second floor in the 1820s, and a final rebuild in 1902–1903 brought the chateau's 60 rooms to something close to their present form.
+
+None of that mattered nearly as much as what happened in 1921, when the newly independent Czechoslovak state bought Lány for roughly 25 million crowns specifically to give its first president, Tomáš Garrigue Masaryk, somewhere quieter than Prague Castle to work from. Architect Josip Plečnik — already busy remodeling the Castle's own gardens — adapted the grounds, and Masaryk arrived by special train on 11 August 1921. He stayed for 17 years, right up to his death in 1937, and asked to be buried not in some state crypt but in the plain village cemetery down the road, where he now rests alongside his wife Charlotte and two of his children.
+
+🎁 Bonus: every Czechoslovak and Czech head of state since Masaryk — Beneš, the wartime-collaborationist Hácha, Gottwald, and every democratically elected president from Havel through the present day — has kept using Lány as a working retreat, which makes it one of the very few buildings on earth to have hosted communist dictators and liberal democrats alike without ever once changing its actual job description. The chateau finally opened to the paying public in 2023, more than a century after it stopped being anyone's secret.`,
+
+      cz: `Vítejte na zámku Lány, nejbližší české obdobě Camp Davidu — skutečném, dodnes fungujícím prezidentském sídle asi 30 kilometrů západně od Prahy, kam si od roku 1921 jezdí odpočinout od Pražského hradu úplně každá hlava státu, která na tom hradě zároveň bydlí.
+
+První písemná zmínka o panství pochází z roku 1392, kdy tu místní šlechtic jménem Hašek vlastnil sotva dřevěné panské stavení. Rod Žejdliců po koupi panství v roce 1528 postavil skutečnou renesanční tvrz, a v roce 1589 ji odkoupila přímo česká královská komora císaře Rudolfa II., čímž se stala součástí rozlehlého křivoklátského loveckého panství, které Habsburkové milovali snad víc než cokoli jiného v Čechách. Italský architekt Ulrico Aostalli ji krátce poté přestavěl na lovecký zámeček, a vlastnictví pak putovalo řadou šlechtických rukou — Valdštejnové ji v roce 1685 koupili za tři čtvrtě milionu zlatých a založili si tu vlastní rozsáhlou oboru, Fürstenberkové ve 20. letech 19. století přistavěli celé druhé patro, a poslední velká přestavba z let 1902–1903 dala zámku, dnes s šedesáti obytnými místnostmi, téměř dnešní podobu.
+
+Nic z toho ale nebylo zdaleka tak důležité jako to, co se stalo v roce 1921, kdy nově vzniklý československý stát koupil Lány za zhruba 25 milionů korun konkrétně proto, aby dal prvnímu prezidentovi, Tomáši Garrigue Masarykovi, klidnější místo k práci než Pražský hrad. Architekt Josip Plečnik — tou dobou zaneprázdněný přestavbou hradních zahrad — upravil okolí zámku, a Masaryk sem 11. srpna 1921 dorazil zvláštním vlakem. Zůstal tu sedmnáct let, až do své smrti v roce 1937, a nechal se pohřbít nikoli do nějaké státní krypty, ale na obyčejný vesnický hřbitov kousek odtud, kde dnes odpočívá po boku manželky Charlotty a dvou svých dětí.
+
+🎁 Bonus: úplně každá československá i česká hlava státu od Masaryka — Beneš, za války kolaborující Hácha, Gottwald i všichni demokraticky zvolení prezidenti od Havla až po současnost — pokračovala v používání Lán jako pracovního útočiště, díky čemuž patří zámek k mála budovám na světě, které hostily komunistické diktátory i liberální demokraty, aniž by kdy jednou změnily svou skutečnou náplň práce. Veřejnosti se zámek otevřel teprve v roce 2023 — víc než sto let poté, co přestal být čímkoli tajemstvím.`,
+
+      zh: `欢迎来到拉尼城堡，捷克版的"戴维营"——一座距布拉格以西约30公里、至今仍在实际使用的总统官邸。自1921年起，每一任国家元首都会来这里，躲开他们自己本来就住着的那座城堡。
+
+关于这片庄园，最早的文字记载出现在1392年，当时当地贵族哈舍克名下不过是一座木结构庄园宅邸。热伊德利茨家族1528年买下庄园后，建起了一座真正的文艺复兴式要塞；1589年，鲁道夫二世皇帝的皇室财库直接将其买下，纳入哈布斯堡家族在波希米亚最珍视的克日沃克拉特狩猎领地。意大利建筑师乌尔里科·奥斯塔利不久后将其改建为狩猎行宫，此后所有权几经易手——华伦斯坦家族1685年以七十五万金币买下庄园，并在此圈出自己的私人猎苑；菲尔斯滕贝格家族在19世纪20年代加盖了整整一层楼；1902至1903年间的最后一次大规模改建，让这座拥有六十个房间的城堡，接近了今天的样貌。
+
+但这一切都远不如1921年发生的事重要——新独立的捷克斯洛伐克国家花了约2500万克朗买下拉尼，就是为了给第一任总统托马什·加里格·马萨里克找一个比布拉格城堡更清静的办公场所。当时正忙着改造城堡花园的建筑师约西普·普列奇尼克，接手改造了这里的庭院；马萨里克本人于1921年8月11日乘专列抵达。他在这里一住就是十七年，直到1937年去世，并要求葬在附近一座普通的乡村墓地里，而不是什么国家陵墓——如今他就安息在那里，陪伴他的还有妻子夏洛特和两个子女。
+
+🎁 彩蛋：从马萨里克以后，捷克斯洛伐克和捷克的每一任国家元首——贝奈斯、二战时期与占领当局合作的哈哈、哥特瓦尔德，以及从哈维尔至今的每一位民选总统——都延续了把拉尼当作工作行宫的传统，这也让它成为世界上少数几座，既接待过共产主义独裁者、也接待过自由派民主领袖，自身"工作说明"却从未变过的建筑。这座城堡直到2023年才终于对普通游客开放——距离它不再是任何人的秘密，已经过去了一个多世纪。`,
+    },
+  },
+
+  // Solemn WWII resistance content — humor dropped per feedback_solemn_content_tone,
+  // format (opening/history/bonus) kept.
+  {
+    name: 'Monument to the Heroes of the Jinonice Excise House',
+    slug: 'pomnik-hrdinum-jinonickeho-akcizu',
+    localizedNames: { cz: 'Pomník hrdinům z jinonického akcízu', zh: '伊诺尼采关税站英雄纪念碑' },
+    labels: ['monument'],
+    coordinates: { lat: 50.05068870485538, lng: 14.350413950819123 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Jinonick%C3%BD_akc%C3%ADz',
+    description: {
+      en: `Welcome to the Monument to the Heroes of the Jinonice Excise House, a memorial to five men who spent ten months transmitting Czechoslovakia's most important wartime intelligence from an isolated customs building on Prague's edge — until the night the Gestapo finally found them.
+
+The building itself was an old customs post at the edge of Jinonice, marking the boundary of what was then Greater Prague. From January to October 1941, it served as the base for two clandestine radio stations, Sparta I and Sparta II, run by customs official Karel Prokop, his son Miroslav, and their fellow members of ÚVOD (the Central Leadership of Home Resistance) — Jindřich Klečka, Stanislav Medřík, and Antonín Němeček. Together they sent roughly 8,230 encrypted messages to Czechoslovak intelligence in London, one of the most sustained resistance radio operations anywhere in occupied Europe.
+
+The Gestapo, tracking the signal under SS officer Dittmar Bingel, raided the building on the night of 3–4 October 1941. Klečka and Němeček barricaded themselves in a bathroom and burned what documents they could before being found; Klečka shot himself rather than be taken alive. Karel Prokop escaped through the courtyard that night but was arrested later and executed in Berlin's Plötzensee prison in 1943. His son Miroslav, Medřík, and Němeček all died at Mauthausen concentration camp; Karel's wife Emilie survived imprisonment at Ravensbrück and lived to see the war's end.
+
+🎁 Bonus: the akcíz building itself survived the war only to be demolished in 2001. Its original memorial plaque was moved to a local Sokol hall, and in 2014 the city unveiled this new sandstone monument near Nové Butovice metro station, its bronze relief depicting the vanished building from which five men once quietly outlasted, for as long as they could, an occupation that eventually caught up with all of them.`,
+
+      cz: `Vítejte u Pomníku hrdinům z jinonického akcízu, památníku pěti mužům, kteří deset měsíců vysílali jedny z nejdůležitějších válečných zpravodajských informací Československa z osamělé celnice na okraji Prahy — až do noci, kdy je konečně vypátralo gestapo.
+
+Samotná budova bývala starou celnicí na okraji Jinonic, na tehdejší hranici Velké Prahy. Od ledna do října 1941 sloužila jako základna dvou ilegálních vysílaček, Sparty I a Sparty II, které provozoval celní úředník Karel Prokop, jeho syn Miroslav a jejich spolubojovníci z ÚVODu (Ústředního vedení odboje domácího) — Jindřich Klečka, Stanislav Medřík a Antonín Němeček. Společně odeslali do londýnské československé rozvědky přibližně 8 230 zašifrovaných zpráv, jednu z nejvytrvalejších odbojových radiových operací v celé okupované Evropě.
+
+Gestapo pod velením SS důstojníka Dittmara Bingela vysílačku vypátralo a v noci ze 3. na 4. října 1941 budovu přepadlo. Klečka s Němečkem se zabarikádovali v koupelně a stihli spálit část dokumentů, než je gestapo dostihlo; Klečka se raději zastřelil, než aby padl do zajetí živý. Karel Prokop tu noc unikl přes dvůr, ale později byl zatčen a v roce 1943 popraven v berlínské věznici Plötzensee. Jeho syn Miroslav, Medřík i Němeček zahynuli v koncentračním táboře Mauthausen; Karlova manželka Emilie přežila věznění v Ravensbrücku a dočkala se konce války.
+
+🎁 Bonus: budova akcízu válku sice přežila, ale v roce 2001 byla zbourána. Její původní pamětní deska byla přenesena do místní sokolovny a v roce 2014 město u stanice metra Nové Butovice odhalilo tento nový pískovcový pomník s bronzovým reliéfem zmizelé budovy, z níž pět mužů kdysi tiše vysílalo tak dlouho, jak jen dokázali, než je okupace nakonec dostihla — všechny.`,
+
+      zh: `欢迎来到伊诺尼采关税站英雄纪念碑——这里纪念的是五位男子，他们曾在布拉格边缘一座孤零零的关税站里，用整整十个月的时间，向外发送捷克斯洛伐克战时最重要的一批情报——直到盖世太保最终找上门来的那个夜晚。
+
+这座建筑本身曾是伊诺尼采边缘的一处旧关税站，当年正好位于"大布拉格"的边界上。1941年1月至10月间，这里是两座地下电台——"斯巴达一号"与"斯巴达二号"——的基地，由海关官员卡雷尔·普罗科普和他的儿子米罗斯拉夫，以及他们在"国内抵抗运动中央领导处"（ÚVOD）的同志——因德日赫·克莱奇卡、斯坦尼斯拉夫·梅德日克和安东宁·内梅切克——共同运营。他们一起向伦敦的捷克斯洛伐克情报机构发送了约8230份加密电报，是整个被占领欧洲持续时间最长的抵抗电台行动之一。
+
+党卫队军官迪特马尔·宾格尔带队的盖世太保追踪到信号来源，于1941年10月3日至4日夜间突袭了这座建筑。克莱奇卡与内梅切克把自己反锁在浴室里，赶在被发现前烧毁了部分文件；克莱奇卡宁可开枪自尽，也不愿被活捉。卡雷尔·普罗科普当晚从院子里逃脱，但后来仍被逮捕，1943年在柏林普勒岑湖监狱被处决。他的儿子米罗斯拉夫，以及梅德日克与内梅切克，都死于毛特豪森集中营；卡雷尔的妻子埃米莉在拉文斯布吕克集中营中挺过了囚禁，活到了战争结束。
+
+🎁 彩蛋：这座关税站建筑挺过了战争，却在2001年被拆除。原本的纪念牌匾被移到了当地的"猎鹰"体育会（Sokol）会所，2014年，市政府在新布托维采地铁站附近为这五位牺牲者揭幕了这座新的砂岩纪念碑，青铜浮雕上刻着那座已经消失的建筑——五个人曾在那里，尽己所能地坚持得比占领更久一点，直到最终，占领还是追上了他们所有人。`,
+    },
+  },
+
+  {
+    name: 'Prague Pasture',
+    slug: 'prazska-pastvina',
+    localizedNames: { cz: 'Pražská pastvina', zh: '布拉格牧场' },
+    labels: ['nature'],
+    coordinates: { lat: 50.00076288843808, lng: 14.32086799875757 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Zmrzl%C3%ADk_(p%C5%99%C3%ADrodn%C3%AD_pam%C3%A1tka)',
+    description: {
+      en: `Welcome to Prague Pasture, a patch of steep karst grassland on the city's southwestern edge where the groundskeepers are, quite literally, sheep and goats — a conservation strategy that would have been unremarkable a century ago and now counts as a genuine environmental innovation.
+
+The pasture sits within the protected Zmrzlík nature reserve, straddling the boundary between Zadní Kopanina and Radotín on the slopes above the Mlýnský stream. Its steep sides expose a stretch of Silurian rock so significant that the Kopanina Formation — a recognized geological unit spanning much of Bohemia — takes its name directly from this stretch of countryside. Left alone, the dry grasslands here would slowly disappear under scrub and abandoned orchard trees; instead they still support the endangered Bohemian pasque flower, feather grass, and a run of thermophilic meadow species that depend entirely on the ground being kept open.
+
+That's where the animals come in. Since the early 2000s, a community grazing initiative called Pražská pastvina has run flocks of sheep and goats — along with the occasional horse — across roughly 35 hectares of scattered pasture sites like this one throughout the Prague area, deliberately reviving a management technique nobody had needed since livestock farming stopped being the default use of land this close to a capital city. The animals crop back the grass and scrub each season, keep the meadows from reverting to forest, and in the process give the rare butterflies that depend on this exact kind of open, flower-rich grassland somewhere left to live.
+
+🎁 Bonus: it's a rare case of "protecting nature" meaning nothing more high-tech than turning a herd of goats loose and letting them do what goats have always done. Visit between April and October and you'll likely find the pasture's current residents on shift — Prague's most low-effort, and arguably most effective, conservation staff.`,
+
+      cz: `Vítejte na Pražské pastvině, kousku strmé krasové stepi na jihozápadním okraji města, kde se o pozemek starají doslova ovce a kozy — postup, který by před sto lety nikoho nepřekvapil, a dnes se počítá za opravdovou environmentální inovaci.
+
+Pastvina leží v chráněné přírodní památce Zmrzlík, na pomezí katastrů Zadní Kopanina a Radotín, na svazích nad Mlýnským potokem. Její strmé stráně odkrývají tak významný úsek siluru, že po tomto kousku krajiny je pojmenované celé Kopaninské souvrství — uznávaná geologická jednotka, kterou najdete napříč velkou částí Čech. Bez zásahu by tu suché trávníky pomalu mizely pod náletovými dřevinami a zpustlými sady; místo toho tu stále roste ohrožený koniklec luční český, kavyl vláskatý a řada teplomilných lučních druhů, které jsou zcela závislé na tom, aby porost zůstal otevřený.
+
+A přesně k tomu slouží zvířata. Od začátku 21. století provozuje komunitní iniciativa Pražská pastvina stáda ovcí a koz — občas i koně — na zhruba 35 hektarech roztroušených pastvin, jako je tahle, po celé Praze; záměrně tak obnovuje techniku obhospodařování, kterou tu nikdo nepotřeboval od doby, kdy chov dobytka přestal být samozřejmou náplní pozemků tak blízko hlavnímu městu. Zvířata každou sezónu spasou trávu i náletové dřeviny, brání loukám v zarůstání lesem a mimochodem dávají vzácným motýlům, kteří jsou na tento konkrétní typ otevřené, květnaté stepi odkázáni, kde ještě žít.
+
+🎁 Bonus: je to vzácný případ, kdy "ochrana přírody" neznamená nic sofistikovanějšího než vypustit na pozemek stádo koz a nechat je dělat to, co kozy vždycky dělaly. Zajděte se sem mezi dubnem a říjnem a nejspíš zastihnete současnou směnu pastviny přímo v akci — pražský nejméně náročný, a možná i nejúčinnější, ochranářský personál.`,
+
+      zh: `欢迎来到布拉格牧场，布拉格西南边缘一片陡峭的喀斯特草原——这里的"园丁"，说得再直白不过，就是绵羊和山羊。放在一百年前，这种做法根本算不上新闻，如今却被当成一项货真价实的环保创新。
+
+这片牧场位于受保护的兹姆尔兹利克自然保护区内，横跨扎德尼·科帕尼纳与拉多廷两个行政辖区的边界，坐落在姆林斯基溪上方的斜坡上。这里陡峭的坡地，露出了一段极具意义的志留纪地层——著名的"科帕尼纳组"（Kopanina Formation，一个横跨波希米亚大片地区的地质学正式单位）正是以这片乡野的名字命名。如果放任不管，这里的干草原早晚会被灌木和荒废的老果园慢慢吞没；正因为没有放任，这里至今还生长着濒危的波希米亚亚种白头翁、毛针茅，以及一整套完全依赖开阔地表才能存活的喜温草甸物种。
+
+而这正是动物们派上用场的地方。自21世纪初起，一个名为"布拉格牧场"的社区放牧项目，就在布拉格周边约35公顷分散的牧地——包括这一处——放养绵羊、山羊，偶尔还有马匹；这实际上是在刻意恢复一种早已没人需要的土地管理方式，自打畜牧业不再是首都近郊土地的默认用途以来，它就一直被搁置。这些动物每年都会啃食掉杂草与灌丛，阻止草甸重新长成森林，也顺带给那些完全依赖这种开阔、花草繁茂草地才能生存的珍稀蝴蝶，留了一处栖身之所。
+
+🎁 彩蛋：这大概是"保护自然"最不高科技的一种做法——把一群山羊放出去，让它们做山羊一直在做的事，仅此而已。4月到10月间来这里走走，多半能撞见牧场当值的"员工"正在工作——布拉格最省事，或许也是最有效的一支自然保护队伍。`,
+    },
+  },
+
+  {
+    name: 'Zadní Kopanina',
+    slug: 'zadni-kopanina',
+    localizedNames: { cz: 'Zadní Kopanina', zh: '扎德尼·科帕尼纳' },
+    labels: ['village-and-town'],
+    coordinates: { lat: 50.00664854071808, lng: 14.314661975105825 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Zadn%C3%AD_Kopanina',
+    description: {
+      en: `Welcome to Zadní Kopanina, officially the least populated patch of Prague — a farming village on the edge of the Czech Karst with just 110 residents as of the end of 2021, in a city of over a million people.
+
+The village's name comes straight from the Czech verb kopat, "to dig," describing land grubbed and cleared out of woodland for farming — a common enough process that several unrelated villages across Bohemia ended up with some version of the same name. This particular Kopanina eventually split into two: Přední Kopanina ("Front Kopanina"), first recorded in 1285 and now its own separate district near Ruzyně, and Zadní Kopanina ("Back Kopanina") here, made up of farmsteads strung along a plateau road plus a scattered hamlet called Chaloupky down in the stream valley. Both were folded into Prague only in 1974.
+
+Zadní Kopanina's population has swung dramatically over the last 150 years — 197 residents at its peak in 1890, a low of 67 in 1991, and a slow recovery since. The village's own territory reaches beyond its farmhouses to include the hamlet of Zmrzlík and a pair of mills on the Radotínský stream, one of which spent its last years before the Second World War running as a marble works instead of grinding grain.
+
+🎁 Bonus: the ground itself has outlasted every census. The Kopanina Formation, a Silurian-era rock sequence recognized well beyond the Czech Republic in geology textbooks, is named directly after this stretch of countryside — which makes Zadní Kopanina one of the very few places on Earth to have a piece of the geological time scale named quietly after its own back garden.`,
+
+      cz: `Vítejte v Zadní Kopanině, oficiálně nejméně obydleném koutu Prahy — zemědělské vsi na okraji Českého krasu, kde ke konci roku 2021 žilo pouhých 110 obyvatel, a to ve městě s přes milionem lidí.
+
+Název vesnice pochází přímo z českého slovesa kopat, tedy popisuje zemi vykopanou a vyklučenou z lesa pro zemědělské účely — postup natolik běžný, že se stejným nebo podobným jménem skončilo hned několik navzájem nesouvisejících vesnic po celých Čechách. Tahle konkrétní Kopanina se nakonec rozdělila na dvě: Přední Kopaninu, poprvé doloženou v roce 1285 a dnes samostatnou městskou část u Ruzyně, a zdejší Zadní Kopaninu, tvořenou usedlostmi podél návesní cesty na plošině a rozptýlenou osadou Chaloupky dole v údolí potoka. Obě byly do Prahy začleněny až v roce 1974.
+
+Počet obyvatel Zadní Kopaniny se za posledních 150 let dramaticky měnil — 197 obyvatel na vrcholu v roce 1890, minimum 67 v roce 1991 a od té doby pomalé zotavování. Katastr vesnice přitom sahá dál než jen k jejím statkům — patří k němu i osada Zmrzlík a dva mlýny na Radotínském potoce, z nichž jeden poslední léta před druhou světovou válkou fungoval jako mramorárna místo mletí obilí.
+
+🎁 Bonus: samotná zem tu přežila každé sčítání lidu. Kopaninské souvrství, siluřský horninový sled uznávaný daleko za hranicemi Česka v geologických učebnicích, je pojmenované přímo po tomhle kousku krajiny — díky čemuž patří Zadní Kopanina k mála místům na světě, po jejichž vlastní zadní zahrádce je tiše pojmenovaný kus geologické časové škály.`,
+
+      zh: `欢迎来到扎德尼·科帕尼纳，官方认证的布拉格人口最少角落——一座位于波希米亚喀斯特边缘的农业村庄，截至2021年底，全村仅有110位居民，而布拉格全市人口超过百万。
+
+村名直接来自捷克语动词"kopat"（意为"挖"），指的是从林地里挖掘、开垦出来用于耕种的土地——这个过程太过常见，以至于波希米亚各地好几座互不相干的村庄，最后都顶着某个版本的同一个名字。这一处"科帕尼纳"后来一分为二：普热德尼·科帕尼纳（意为"前科帕尼纳"），最早见于1285年的记载，如今是鲁济涅附近一个独立的行政区；以及这里的扎德尼·科帕尼纳（意为"后科帕尼纳"），由沿高地道路排开的一串农庄，加上山谷溪流边一处名叫哈洛普基的分散小村落组成。两者都是到1974年才被并入布拉格。
+
+过去150年间，扎德尼·科帕尼纳的人口起伏相当剧烈——1890年的峰值有197人，1991年跌到最低的67人，此后才缓慢回升。村子的辖区范围其实不止于这些农庄，还包括兹姆尔兹利克小村，以及拉多廷斯基溪上的两座磨坊——其中一座在二战前的最后几年，甚至不再磨面粉，改成了一家大理石加工厂。
+
+🎁 彩蛋：这片土地本身，比任何一次人口普查都更"长寿"。"科帕尼纳组"，一段在地质学教科书里享有盛名、远超捷克国界的志留纪地层序列，正是直接以这片乡野命名的——这也让扎德尼·科帕尼纳成为地球上少数几个，自家"后院"被悄悄写进地质年代表的地方之一。`,
+    },
+  },
 ];
 
 async function run() {
