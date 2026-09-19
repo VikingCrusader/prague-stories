@@ -28469,6 +28469,269 @@ Počet obyvatel Zadní Kopaniny se za posledních 150 let dramaticky měnil — 
 🎁 彩蛋：这片土地本身，比任何一次人口普查都更"长寿"。"科帕尼纳组"，一段在地质学教科书里享有盛名、远超捷克国界的志留纪地层序列，正是直接以这片乡野命名的——这也让扎德尼·科帕尼纳成为地球上少数几个，自家"后院"被悄悄写进地质年代表的地方之一。`,
     },
   },
+
+  // Added 2026-09-19, user-supplied coordinates. Six points around the
+  // Dalejské údolí (Řeporyje / Slivenec / Hlubočepy, Prague 5), researched via
+  // WebSearch/WebFetch of cs.wikipedia.org, praha-priroda.cz, stezky.info,
+  // mistamehomesta.cz, egeon.cz and praha-slivenec.cz. The user's "Rozvodna
+  // elektřiny Silvenec" is the Řeporyje 400/110 kV substation, which
+  // cs.wikipedia places on Slivenec's land (its coordinates match). The
+  // seventh point, "Lom na hlínu", was written later the same day once the
+  // user supplied a screenshot (see the entry at the end of this batch).
+  {
+    name: 'Řeporyje Substation',
+    slug: 'rozvodna-reporyje',
+    localizedNames: { cz: 'Rozvodna Řeporyje', zh: '热波里耶变电站' },
+    labels: ['modern', 'factory'],
+    coordinates: { lat: 50.01515939476853, lng: 14.332327274058558 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Rozvodna_%C5%98eporyje',
+    description: {
+      en: `Welcome to the Řeporyje substation, a fenced-in field of transformers, busbars, and steel pylons that quietly stops a city of well over a million people from having to read by candlelight. It is not much to look at, which is exactly how its operators like it.
+
+Built in 1975, it was the first 400-kilovolt substation in Prague and remains one of the two nodal substations that feed the capital. It originally drew its power from a loop off the Hradec–Prosenice line. A 1985 link to the Čechy Střed substation followed, and in 1996 that link was partly doubled and looped into the newly built Chodov substation, in step with the expansion of the Temelín nuclear power plant. Three large three-phase transformers here step 400 kV down to 110 kV for the city's own grid, with the 400 kV side run by ČEPS, the national transmission operator.
+
+🎁 Bonus: despite the name, the substation does not stand in Řeporyje at all but on the land of neighboring Slivenec, about 10 kilometers southwest of the city center. It is a piece of critical infrastructure that has spent five decades known by the wrong village's name, and the current flows exactly the same either way.`,
+
+      cz: `Vítejte v rozvodně Řeporyje, oploceném poli transformátorů, přípojnic a ocelových stožárů, které tiše brání městu s víc než milionem obyvatel v tom, aby si muselo číst při svíčkách. Moc se na ni dívat nedá, což je přesně to, co si její provozovatelé přejí.
+
+Postavena byla v roce 1975 jako první rozvodna 400 kV v Praze a dodnes zůstává jednou ze dvou uzlových rozvoden, které napájejí hlavní město. Původně čerpala energii ze smyčky z vedení Hradec–Prosenice. V roce 1985 přibylo propojení s rozvodnou Čechy střed a v roce 1996 bylo toto propojení částečně zdvojeno a zasmyčkováno do nově postavené rozvodny Chodov, v souvislosti s rozšířením jaderné elektrárny Temelín. Tři velké trojfázové transformátory tu převádějí napětí 400 kV na 110 kV pro městskou síť, přičemž stranu 400 kV provozuje ČEPS, celostátní provozovatel přenosové soustavy.
+
+🎁 Bonus: navzdory názvu rozvodna vůbec nestojí v Řeporyjích, ale na pozemcích sousedního Slivence, asi deset kilometrů jihozápadně od centra města. Klíčová infrastruktura, která už pět desetiletí nese jméno špatné vesnice, a proud přitom teče úplně stejně.`,
+
+      zh: `欢迎来到热波里耶变电站——一片围起来的场地，里面是变压器、母线和钢铁塔架，默默地让一座百万人口以上的城市不必点着蜡烛读书。它看上去没什么好瞧的，而这正是运营方最乐意看到的。
+
+它建于1975年，是布拉格第一座400千伏变电站，至今仍是为首都供电的两座枢纽变电站之一。最初，它的电力来自赫拉德茨—普罗塞尼采线路上接出的一个环网。1985年接通了通往中波希米亚变电站的联络线，1996年这条联络线又被部分加倍，并环接进新建成的霍多夫变电站，与特梅林核电站的扩建同步。这里的三台大型三相变压器把400千伏降到110千伏，接入城市自己的电网，其中400千伏一侧由全国输电系统运营商ČEPS运营。
+
+🎁 彩蛋：尽管名叫"热波里耶"，这座变电站其实根本不在热波里耶，而是坐落在邻村斯利韦内茨的土地上，距市中心西南约十公里。一处关键基础设施用了五十年别的村子的名字，电流照样一视同仁地流。`,
+    },
+  },
+
+  {
+    name: 'Biskup, Kvis & Kotrba Lime Works',
+    slug: 'vapenka-biskup-kvis-kotrba',
+    localizedNames: { cz: 'Vápenka Biskup, Kvis a Kotrba', zh: '比斯库普-克维斯-科特尔巴石灰厂' },
+    labels: ['factory', 'ruin', 'historical'],
+    coordinates: { lat: 50.03029010605062, lng: 14.33137053122971 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/V%C3%A1penka_Biskup,_Kvis_a_Kotrba',
+    description: {
+      en: `Welcome to the Biskup, Kvis & Kotrba lime works, where three surnames on a company letterhead once meant a great deal of limestone being blasted, baked, and shipped off to make sugar. Nowadays the company is a ruin, and the limestone has the valley to itself again.
+
+The firm founded the works in 1895 at the eastern end of today's Mládkova street, in a bend of the Dalejský stream, and quarried saturation limestone in Řeporyje for the country's sugar refineries, where lime is used to purify beet juice. The lime was first burned in small chamber kilns designed by František Zelenka. The company then built a twenty-chamber ring kiln south of the railway line (the builder was Josef Blecha), and after the First World War a modern twenty-two-chamber kiln, along with drilling, grinding, and a machine shop. By the 1930s the output reached about 1,240 wagonloads a year, and a 600-millimeter narrow-gauge railway tied the quarries, kilns, and waste dumps together, worked by motor locomotives and tipping wagons.
+
+Nothing lasts forever. The ring kiln was demolished after 1953, the complex began to decay in 1968, and a fire in 2000 left little more than perimeter walls and abandoned mine tunnels. The halls with their Art Nouveau touches and the classicist administration building have since collapsed into ruin, though the site is still counted among Prague's industrial heritage.
+
+🎁 Bonus: much of the limestone this place burned was ancient seabed, Silurian and Devonian rock well over 400 million years old. So for decades this was, technically, a factory for turning prehistoric sea creatures into sugar-refining chemistry, and the neighboring Mušlovka quarry and Dalejský profil now protect what the kilns never got to.`,
+
+      cz: `Vítejte ve vápence Biskup, Kvis a Kotrba, kde tři příjmení na firemním hlavičkovém papíře kdysi znamenala hodně vápence vylomeného, vypáleného a odvezeného, aby z něj byl cukr. Dnes je z firmy zřícenina a vápenec má údolí zase samo pro sebe.
+
+Firma vápenku založila v roce 1895 na východním konci dnešní ulice Mládkova, v ohybu Dalejského potoka, a v Řeporyjích těžila saturační vápenec pro cukrovary, kde se vápno používá při čištění řepné šťávy. Vápno se nejprve pálilo v malých komorových pecích podle návrhu Františka Zelenky. Poté firma jižně od železniční tratě postavila dvacetikomorovou kruhovou pec (stavitelem byl Josef Blecha) a po první světové válce moderní dvaadvacetikomorovou pec, k tomu vrtání, mlýny na drcení a strojní dílnu. Ve 30. letech dosahovala produkce asi 1 240 vagonů ročně a lomy, pece i odvaly spojovala 600milimetrová úzkokolejná dráha, po níž jezdily motorové lokomotivy a výklopné vozíky.
+
+Nic netrvá věčně. Kruhová pec byla po roce 1953 zbourána, areál začal v roce 1968 chátrat a požár v roce 2000 po něm nechal jen obvodové zdi a opuštěné důlní chodby. Haly se secesními prvky i klasicistní správní budova se od té doby rozpadly, i když se areál dodnes počítá mezi pražské průmyslové dědictví.
+
+🎁 Bonus: značná část vápence, který se tu pálil, byla dávné mořské dno, siluřské a devonské horniny staré dobře přes 400 milionů let. Celá desetiletí tak šlo, technicky vzato, o továrnu na přeměnu prehistorických mořských tvorů v chemii pro cukrovary a sousední lom Mušlovka a Dalejský profil dnes chrání to, na co se pece už nedostaly.`,
+
+      zh: `欢迎来到比斯库普-克维斯-科特尔巴石灰厂。公司信笺上那三个姓氏，曾经意味着大量石灰石被炸开、烧透、运走，最后变成糖。如今这家公司只剩一片废墟，石灰石又重新独占了整条山谷。
+
+这家公司于1895年在如今姆拉德科瓦街的东端、达莱伊斯基溪的一处河湾旁建起石灰厂，在热波里耶开采饱和用石灰石，供应全国的制糖厂，糖厂用石灰来净化甜菜汁。石灰起初在弗朗齐歇克·泽伦卡设计的小型室窑里烧制。之后公司在铁路线以南建了一座二十室环形窑（承建人是约瑟夫·布莱哈），一战后又添了一座现代化的二十二室窑，外加凿岩、磨粉和机修车间。到20世纪30年代，年产量达到约1240车皮，一条600毫米轨距的窄轨铁路把采石场、窑炉和废料堆连在一起，由机车和翻斗车来回运送。
+
+没有什么能永远存在。环形窑在1953年后被拆除，整个厂区从1968年起开始衰败，2000年的一场大火只留下四周的围墙和废弃的矿道。带有新艺术风格元素的厂房和古典主义的行政楼此后都塌成了废墟，不过这处遗址至今仍被算作布拉格的工业遗产。
+
+🎁 彩蛋：这里烧掉的石灰石，很大一部分是远古的海底沉积，是年龄远超4亿年的志留纪和泥盆纪岩石。所以在几十年里，这里严格说来是一座把史前海洋生物变成制糖化工原料的工厂，而隔壁的穆什洛夫卡采石场和达莱伊斯基地质剖面，如今保护着窑炉当年没来得及烧到的那部分。`,
+    },
+  },
+
+  {
+    name: 'Požáry Nature Monument',
+    slug: 'pozary',
+    localizedNames: { cz: 'Přírodní památka Požáry', zh: '波扎里自然纪念地' },
+    labels: ['geology', 'nature'],
+    coordinates: { lat: 50.02845091068407, lng: 14.325069060751733 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Po%C5%BE%C3%A1ry',
+    description: {
+      en: `Welcome to Požáry, a name that is Czech for "fires" and that has, oddly, spent the last century being far more about ancient seabed than about anything burning. Two abandoned quarries joined by a tunnel are all that's left, and geologists treat them roughly the way pilgrims treat a shrine.
+
+Požáry consists of two limestone quarries, Požár 1 and Požár 2, with mining that reaches back into the Middle Ages and intensified in the 20th century. The stone went into cement and into the chemical and glass industries, with some of it used as building stone, and in 1930 a tunnel was cut for a narrow-gauge line to haul it toward the Prague–Rudná railway. Mining in the first quarry stopped before the Second World War, and in the second in the late 1940s.
+
+What the miners left behind turned out to matter far more than the lime. In 1984 the site was internationally accepted as the boundary stratotype of the Přídolí, the highest stage of the Silurian, defined by the first appearance of the graptolite Monograptus parultimus about 423 million years ago. It became a protected natural feature in 1982 and a national natural monument in 1992, covering just 4.31 hectares, and its walls still give up brachiopods, trilobites, cephalopods, crinoids, and graptolites.
+
+🎁 Bonus: a rock face that anchors a piece of the global geological timescale also doubled as a battlefield when a 1969 TV series, Záhada hlavolamu, shot a battle scene here. In the 1990s visitors could reportedly still ride the abandoned mine trolleys along the old tracks, which was likely not what the international stratigraphy commission had in mind.`,
+
+      cz: `Vítejte v Požárech, jménu, které znamená ohně a které se po celé století, kupodivu, týká mnohem víc dávného mořského dna než čehokoli, co by hořelo. Zbyly z nich dva opuštěné lomy spojené tunelem a geologové se k nim chovají zhruba tak, jak se poutníci chovají ke svatyni.
+
+Požáry tvoří dva vápencové lomy, Požár 1 a Požár 2, s těžbou sahající do středověku a zesílenou ve 20. století. Kámen šel na cement, do chemického a sklářského průmyslu a část se používala jako stavební kámen, a v roce 1930 byl vyražen tunel pro úzkokolejnou dráhu, která ho vozila k železniční trati Praha–Rudná. Těžba v prvním lomu skončila před druhou světovou válkou, v druhém koncem 40. let.
+
+To, co po sobě horníci zanechali, se ukázalo jako mnohem důležitější než samotné vápno. V roce 1984 bylo místo mezinárodně přijato jako hraniční stratotyp přídolí, nejvyššího stupně siluru, vymezeného prvním výskytem graptolita Monograptus parultimus před asi 423 miliony let. Jako chráněný přírodní výtvor bylo vyhlášeno v roce 1982 a jako národní přírodní památka v roce 1992, na pouhých 4,31 hektaru, a jeho stěny dodnes vydávají ramenonožce, trilobity, hlavonožce, lilijice a graptolity.
+
+🎁 Bonus: skalní stěna, která ukotvuje kus světové geologické časové škály, sloužila také jako bojiště, když tu v roce 1969 televizní seriál Záhada hlavolamu natáčel bitevní scénu. V 90. letech se prý návštěvníci ještě mohli svézt opuštěnými důlními vozíky po starých kolejích, s čímž mezinárodní stratigrafická komise nejspíš nepočítala.`,
+
+      zh: `欢迎来到波扎里。这个名字在捷克语里是"火灾"的意思，可奇怪的是，过去一个世纪里这里讲的全是远古海底，跟任何着火的东西都不沾边。如今只剩下两座被隧道连起来的废弃采石场，而地质学家对待它们，差不多就像朝圣者对待圣地。
+
+波扎里由两座石灰岩采石场组成，即波扎1号和波扎2号，采石史可以追溯到中世纪，到20世纪愈发密集。石料用于水泥以及化工和玻璃工业，一部分作建筑石材，1930年还凿通了一条隧道，让窄轨铁路把石料运往布拉格—鲁德纳铁路线。1号采石场在二战前停采，2号采石场则在20世纪40年代末停采。
+
+矿工留下的东西，最后比石灰本身重要得多。1984年，这里被国际公认为普里多利期的界线层型剖面，普里多利期是志留纪的最高阶，以笔石Monograptus parultimus约4.23亿年前的首次出现为界。它在1982年成为受保护的自然景观，1992年升为国家自然纪念地，面积仅4.31公顷，岩壁上至今仍能找到腕足动物、三叶虫、头足类、海百合和笔石。
+
+🎁 彩蛋：这面锚定了全球地质年代表一角的岩壁，还当过战场——1969年的电视剧《Záhada hlavolamu》曾在这里拍过一场战斗戏。据说到了20世纪90年代，游客还能坐着废弃的矿车沿老轨道溜一段，这大概不是国际地层委员会当初设想的用法。`,
+    },
+  },
+
+  {
+    name: 'Dalejský Profil',
+    slug: 'dalejsky-profil',
+    localizedNames: { cz: 'Dalejský profil', zh: '达莱伊斯基地质剖面' },
+    labels: ['nature', 'geology'],
+    coordinates: { lat: 50.03122118963588, lng: 14.319867925482933 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Dalejsk%C3%BD_profil',
+    description: {
+      en: `Welcome to the Dalejský profil, where Prague leaves several hundred million years of its own history lying open along a stream, no ticket required. Walk a few hundred meters here and you can pass from the Ordovician through the Silurian into the Devonian, which is a lot of geological time to cover before lunch.
+
+The national natural monument covers 23.66 hectares along the Dalejský stream between Řeporyje and Holyně, protected since 1982 and raised to national status in 1992. Its rocks read like a stack of stone pages: gray-green sandstones and siltstones of the Kosov Formation from the Upper Ordovician, then black graptolite shales and Silurian limestones interleaved with submarine volcanics, climbing up into the Lower Devonian. Old quarries serve as the reading stops. Placatá skála holds Ordovician trace fossils, Mušlovka (mined until the 1930s) is known for trilobites and graptolites and serves as a supporting profile for the Ludlow–Přídolí stratotype, and Černý lom exposes the Silurian–Devonian transition with its characteristic trilobites.
+
+Generations of geologists have worked these outcrops, among them Joachim Barrande, Ferdinand Prantl, Bedřich Bouček, and Ivo Chlupáč. Between 1999 and 2002 conservationists cut down invasive black pines and robinia to protect the steppe grassland that grows on the rock.
+
+🎁 Bonus: Barrande, the French geologist whose 19th-century work on Bohemia's Silurian fossils put these very valleys on the world's scientific map, has an entire Prague district named after him. Barrandov sits just down the valley, and, given that its residents are mostly known for film studios and hillside villas, it is likely the only neighborhood in the city named after a man who spent his life staring at trilobites.`,
+
+      cz: `Vítejte v Dalejském profilu, kde Praha nechává několik set milionů let vlastních dějin ležet odkrytých podél potoka, bez vstupenky. Projděte pár set metrů a můžete se dostat z ordoviku přes silur až do devonu, což je docela dost geologického času na to, co se stihne před obědem.
+
+Národní přírodní památka zabírá 23,66 hektaru podél Dalejského potoka mezi Řeporyjemi a Holyní, je chráněná od roku 1982 a na národní úroveň byla povýšena v roce 1992. Její horniny se čtou jako svazek kamenných stránek: šedozelené pískovce a prachovce kosovského souvrství ze svrchního ordoviku, pak černé graptolitové břidlice a siluřské vápence s vložkami podmořských vulkanitů, vystupující až do spodního devonu. Za zastávky ke čtení slouží staré lomy. Placatá skála skrývá ordovické stopové fosilie, Mušlovka (těžená do 30. let) je známá trilobity a graptolity a slouží jako podpůrný profil pro stratotyp hranice ludlow–přídolí a Černý lom odkrývá přechod silur–devon s charakteristickými trilobity.
+
+Na těchto odkryvech pracovaly generace geologů, mezi nimi Joachim Barrande, Ferdinand Prantl, Bedřich Bouček a Ivo Chlupáč. V letech 1999 až 2002 ochránci přírody pokáceli invazní borovici černou a trnovník akát, aby uchránili stepní trávníky rostoucí na skále.
+
+🎁 Bonus: Barrande, francouzský geolog, jehož práce o siluru v Čechách z 19. století dostala právě tato údolí na vědeckou mapu světa, má po sobě pojmenovanou celou pražskou čtvrť. Barrandov leží kousek po údolí dál a když si vzpomeneme, že jeho obyvatelé jsou známí hlavně filmovými ateliéry a vilami na svahu, je to nejspíš jediná čtvrť ve městě pojmenovaná po muži, který strávil život zíráním na trilobity.`,
+
+      zh: `欢迎来到达莱伊斯基地质剖面。布拉格把自己几亿年的历史，就这样敞开着摊在一条小溪边，连门票都不用买。沿着这里走几百米，你就能从奥陶纪走过志留纪，一路走进泥盆纪，午饭前能跨过这么多地质年代，也算相当划算。
+
+这处国家自然纪念地面积23.66公顷，沿达莱伊斯基溪分布，在热波里耶和霍利涅之间，1982年起受保护，1992年升为国家级。这里的岩石读起来就像一叠石头做的书页：先是晚奥陶世科索夫组的灰绿色砂岩和粉砂岩，再是黑色笔石页岩，以及夹有海底火山岩的志留纪石灰岩，一路向上延伸到早泥盆世。那些老采石场就是阅读的驿站：普拉卡塔岩保存着奥陶纪遗迹化石，穆什洛夫卡（采到20世纪30年代）以三叶虫和笔石闻名，还是罗德洛—普里多利界线层型剖面的辅助剖面，而黑采石场（Černý lom）则露出了志留纪到泥盆纪的过渡层，带有特征性的三叶虫。
+
+一代又一代地质学家在这些露头上工作过，其中包括约阿希姆·巴兰德、费迪南德·普兰特尔、贝德日赫·鲍切克和伊沃·赫鲁帕奇。1999年到2002年间，保护人员砍除了入侵的黑松和刺槐，以保护生长在岩石上的草原植被。
+
+🎁 彩蛋：法国地质学家巴兰德在19世纪对波希米亚志留纪化石的研究，把这几条山谷推上了世界科学地图，布拉格还有一整个街区以他命名。巴兰多夫就在山谷下游不远处，而它的居民大多因电影制片厂和山坡别墅而出名，所以它很可能是全城唯一一个以一位一辈子盯着三叶虫的人命名的街区。`,
+    },
+  },
+
+  {
+    name: 'Truneček Mill',
+    slug: 'trunecku-mlyn',
+    localizedNames: { cz: 'Trunečkův mlýn', zh: '特鲁内切克磨坊' },
+    labels: ['ruin', 'historical'],
+    coordinates: { lat: 50.03161263636598, lng: 14.327053298281774 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Trune%C4%8Dk%C5%AFv_ml%C3%BDn',
+    description: {
+      en: `Welcome to Truneček Mill, a building that has spent seventy years getting very good at being a ruin. Once a dependable part of Řeporyje's flour supply, it now stands in the Dalejský stream valley with its walls open to the sky and a surviving inscription still announcing itself as V. Truneček's roller mill.
+
+A watermill has stood on this spot since at least the early 18th century, with the oldest mention dating to the 1710s and the origins possibly older still. The mid-18th-century Theresian cadastre lists a miller here with one wheel and one stamp, working on unreliable water. The Truneček family owned the mill from around the start of the 19th century until the end of the Second World War, and Václav Truneček was the one who dragged it into the modern age: he received a building permit on 17 December 1907, the water wheel gave way to a Francis turbine in 1910–11, a gas engine was added by 1935, and from 1946 an electric motor did the turning. Then came nationalization. The mill closed in 1951, and the collective farm that took it over used it for grinding animal feed and storing grain until the building simply gave up.
+
+It was one of seven mills that once worked the short Dalejský stream, and the remains of only three survive today.
+
+🎁 Bonus: in 2022 a developer proposed replacing the ruin with an eleven-unit residential complex, and more than a thousand people signed an online petition against it in short order, with the artist Kurt Gebauer among the public opponents. It is a rare case of a collapsing building turning out to have far more defenders than it ever had in the years it was standing.`,
+
+      cz: `Vítejte u Trunečkova mlýna, budovy, která se za sedmdesát let stala velmi zdatnou v umění být zříceninou. Kdysi spolehlivá součást zásobování Řeporyjí moukou stojí dnes v údolí Dalejského potoka s pobořenými zdmi otevřenými k nebi a dochovaným nápisem, který se stále hlásí jako Válcový mlýn V. Trunečka.
+
+Vodní mlýn tu stál nejpozději na počátku 18. století, nejstarší zmínka pochází z druhého desetiletí 18. století a vznik je možná ještě starší. V tereziánském katastru z poloviny 18. století je tu uveden jeden mlynář s jedním kolem a jednou stoupou na nestálé vodě. Rodina Trunečků mlýn vlastnila zhruba od počátku 19. století do konce druhé světové války a právě Václav Truneček ho vtáhl do moderní doby: stavební povolení získal 17. prosince 1907, vodní kolo vystřídala v letech 1910–11 Francisova turbína, do roku 1935 přibyl plynový motor a od roku 1946 ho poháněl elektromotor. Pak přišlo zestátnění. Mlýn byl v roce 1951 uzavřen a JZD, které ho převzalo, v něm šrotovalo a skladovalo obilí, dokud budova prostě nevzdala.
+
+Byl jedním ze sedmi mlýnů, které kdysi pracovaly na krátkém Dalejském potoce, a dnes se dochovaly zbytky jen tří z nich.
+
+🎁 Bonus: v roce 2022 navrhl developer nahradit zříceninu bytovým komplexem s jedenácti jednotkami a proti tomu se během krátké doby podepsalo na internetové petici přes tisíc lidí, mezi veřejnými odpůrci byl i výtvarník Kurt Gebauer. Vzácný případ hroutící se budovy, která se ukázala mít mnohem víc obhájců, než kolik jich měla za celé ty roky, co ještě stála.`,
+
+      zh: `欢迎来到特鲁内切克磨坊——一座用七十年时间把"当废墟"这门手艺练得炉火纯青的建筑。它曾是热波里耶面粉供应中可靠的一环，如今立在达莱伊斯基溪谷里，墙体向天敞开，残存的铭文仍在自报家门：V. 特鲁内切克的辊式磨坊。
+
+至少从18世纪初起，这里就立着一座水力磨坊，最早的记载出自18世纪10年代，而它的起源可能还要更早。18世纪中叶的特蕾西亚土地册里，这里登记着一位磨坊主，一个水轮、一台捣杵，靠不稳定的水流运转。特鲁内切克家族大约从19世纪初起拥有这座磨坊，一直到二战结束，而把它拖进现代的正是瓦茨拉夫·特鲁内切克：他在1907年12月17日拿到建筑许可，1910至1911年水轮换成了弗朗西斯水轮机，到1935年又加装了燃气发动机，1946年起改由电动机驱动。接着是国有化。磨坊在1951年关闭，接手的农业合作社用它来粉碎饲料、存放谷物，直到这座建筑自己撑不住为止。
+
+它是当年沿着这条短短的达莱伊斯基溪运转的七座磨坊之一，如今只有三座还留有遗迹。
+
+🎁 彩蛋：2022年，一家开发商提议用一个十一户的住宅项目取代这片废墟，不久后就有上千人在网上请愿反对，艺术家库尔特·格鲍尔也是公开反对者之一。一座正在坍塌的建筑，如今拥有的捍卫者，比它当年完好站立的那些年里多得多，这样的例子可不常见。`,
+    },
+  },
+
+  {
+    name: 'Klukovice',
+    slug: 'klukovice',
+    localizedNames: { cz: 'Klukovice', zh: '克鲁科维采' },
+    labels: ['village-and-town'],
+    coordinates: { lat: 50.03676259205339, lng: 14.362583088387716 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Klukovice',
+    description: {
+      en: `Welcome to Klukovice, a village that has sat inside the Prague city limits for a hundred years and still looks as though nobody told it. A handful of old houses, a Renaissance mill, and a brewery in a former inn wait at the gate of the Prokopské Valley, while the Barrandov housing estate creeps slowly up the hill toward them.
+
+The first record of Klukovice dates to 1342, when a group called the "Fratres de Klucowitz" held it, and the name probably comes from an early owner. By 1395 the village belonged to one Matěj of Klukovice, and it later passed through the office of the royal cupbearer and then to a nobleman from Svatý Pole. After the Thirty Years' War the Jesuits took it around 1658 and held it until 1773, rebuilding the war-damaged settlement and its mill. During the plague of 1679 the manor farm and the mill served as a plague hospital, according to local histories for Prague's Jewish community.
+
+In the 19th century the village grouped administratively with Hlubočepy and Zlíchov, and it counted only about 130 people in some 30 families, most of them living off timber. Klukovice was formally joined to Prague in 1922 along with Hlubočepy. Its most important building is Horův mill, begun in 1588 and finished in 1617, with Renaissance stonework and later Baroque changes, and several houses still carry classicist details from the late 18th century.
+
+🎁 Bonus: the old U Kosů inn now houses the Prokopák brewery, which gives a hike out of the Prokopské Valley a very sensible finish line. A village that came through plague, Jesuits, and the Thirty Years' War can be forgiven for having settled on beer as its modern purpose.`,
+
+      cz: `Vítejte v Klukovicích, vesnici, která už sto let leží v hranicích Prahy a pořád vypadá, jako by jí to nikdo neřekl. Hrstka starých domů, renesanční mlýn a pivovar v bývalé hospodě čekají u brány do Prokopského údolí, zatímco k nim od vrchu pomalu leze sídliště Barrandov.
+
+První zpráva o Klukovicích pochází z roku 1342, kdy je držela skupina zvaná „Fratres de Klucowitz“, a jméno pravděpodobně pochází od raného majitele. V roce 1395 patřila ves jistému Matěji z Klukovic, později prošla úřadem královského číšníka a pak připadla šlechtici ze Svatého Pole. Po třicetileté válce ji kolem roku 1658 získali jezuité a drželi ji do roku 1773, přičemž válkou poškozenou osadu i mlýn přestavěli. Za moru v roce 1679 sloužil panský dvůr s mlýnem jako morový špitál, podle místních dějin pro pražskou židovskou obec.
+
+V 19. století se ves administrativně spojila s Hlubočepy a Zlíchovem a měla jen asi 130 obyvatel ve zhruba 30 rodinách, z nichž většina žila ze dřeva. K Praze byly Klukovice formálně připojeny v roce 1922 spolu s Hlubočepy. Nejvýznamnější budovou je Horův mlýn, zahájený roku 1588 a dokončený v roce 1617, s renesančním kamenictvím a pozdějšími barokními úpravami, a několik domů dodnes nese klasicistní prvky z konce 18. století.
+
+🎁 Bonus: v bývalé hospodě U Kosů dnes sídlí pivovar Prokopák, což dává výletu z Prokopského údolí velmi rozumný cíl. Vesnici, která přežila mor, jezuity i třicetiletou válku, lze odpustit, že si jako moderní účel vybrala pivo.`,
+
+      zh: `欢迎来到克鲁科维采，这座村子已经在布拉格市区范围内待了一百年，看上去却仍像是没人告诉过它。几栋老房子、一座文艺复兴时期的磨坊，以及一家开在旧客栈里的啤酒厂，静静守着普罗科普斯克峡谷的入口，而巴兰多夫住宅区正沿着山坡慢慢朝它们爬过来。
+
+克鲁科维采最早的记载出现在1342年，当时由一个叫"Fratres de Klucowitz"的团体持有，村名很可能来自一位早期的主人。到1395年，村子归一位名叫克鲁科维采的马捷伊的人所有，后来经手王室司酒官的职位，再转给了斯瓦特·波莱的一位贵族。三十年战争之后，耶稣会在1658年前后接手，一直持有到1773年，重建了被战火破坏的村落和磨坊。1679年鼠疫期间，领主庄园和磨坊被用作瘟疫医院，据当地史料记载，收治的是布拉格犹太社群的病人。
+
+19世纪时，这个村子在行政上与赫卢博采皮和兹利霍夫合并，人口只有约130人、大约30户人家，大多靠木材为生。1922年，克鲁科维采与赫卢博采皮一同被正式并入布拉格。村里最重要的建筑是霍鲁夫磨坊，1588年动工，1617年完工，带有文艺复兴时期的石作和后来的巴洛克式改动，另有几座民居至今保留着18世纪末的古典主义细节。
+
+🎁 彩蛋：原来的"科苏客栈"如今开着普罗科帕克啤酒厂，让从普罗科普斯克峡谷徒步出来的人有了一个非常合理的终点。一座熬过了瘟疫、耶稣会和三十年战争的村子，最后把啤酒选作自己的现代使命，倒也情有可原。`,
+    },
+  },
+
+  // Added 2026-09-19 (same session as the six Dalejské údolí entries above),
+  // after the user supplied corrected coordinates (50.012383, 14.327006) and a
+  // Google Maps screenshot (label "Lom na hlínu", address V Lomu, Řeporyje,
+  // flooded pit beside the Řeporyje substation). Identified as the Zadní
+  // Kopanina clay quarry via jednoustopouceskem.cz and lokality.geology.cz/4258.
+  // Sources disagree on when mining ended (2010 per jednoustopouceskem.cz and
+  // the ČGS quarry register, 2020 per lokality.geology.cz) — card says
+  // "around 2010". Still a designated active mining area with an entry ban, so
+  // the card says so plainly.
+  {
+    name: 'Zadní Kopanina Clay Pit',
+    slug: 'lom-na-hlinu',
+    localizedNames: { cz: 'Lom na hlínu', zh: '扎德尼·科帕尼纳黏土采石坑' },
+    labels: ['geology', 'waterbody'],
+    coordinates: { lat: 50.01238253253543, lng: 14.327006313842348 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to the clay pit at the end of a street called V Lomu, which translates to "In the Quarry" and is about as subtle as street naming gets. Beyond the fence sits a pale turquoise pond that looks suspiciously like a holiday brochure, and which is in fact a former mine full of very old mud.
+
+The pit lies in Zadní Kopanina, about half a kilometer south of the Řeporyje substation, and covers roughly four hectares. Ceramic stoneware clay was dug out of it from 1969 until around 2010 (one geological database gives 2020), and once the digging stopped the pit filled with water. Its walls expose two layers of gray to dark gray claystone, some of it rich in carbon, separated by quartz sandstones and conglomerates that are heavily stained by iron. These rocks are from the Cenomanian, roughly 95 to 100 million years ago, when this corner of Bohemia was a river-and-lagoon landscape near the shore of a shallow sea.
+
+The pit is also a serious fossil plant site. It has yielded compound flower clusters of Mauldinia bohemica, leaves of Grevilleophyllum constans and Myrtoidea geinitzii, and fern fronds of Anemia fremontii, together a snapshot of the vegetation along a small river. The Czech Geological Survey rates its scientific value as supra-regional and notes that iron-rich sandstones of this kind were used in medieval Prague buildings, the 12th-century Judith Bridge among them. Be aware that the pit is still a designated mining area with entry forbidden, so it is a place to look at from the field road rather than to wander into.
+
+🎁 Bonus: the nearby village of Zadní Kopanina gave its name to a Silurian rock formation over 400 million years old, while this pit, a few hundred meters away, exposes rock more than 300 million years younger. A single patch of Prague countryside thus holds two wildly different chapters of Earth's history, and it took a clay company to dig the second one open.`,
+
+      cz: `Vítejte u lomu na hlínu na konci ulice jménem V Lomu, což je pojmenování ulice asi tak nenápadné, jak jen to jde. Za plotem leží světle tyrkysové jezírko, které vypadá podezřele jako z katalogu cestovní kanceláře a ve skutečnosti je to bývalý důl plný velmi starého bahna.
+
+Lom leží v Zadní Kopanině, asi půl kilometru jižně od rozvodny Řeporyje, a zabírá zhruba čtyři hektary. Keramický kameninový jíl se v něm těžil od roku 1969 do zhruba roku 2010 (jedna geologická databáze uvádí rok 2020) a po ukončení těžby se lom zaplavil vodou. Jeho stěny odkrývají dvě vrstvy šedých až tmavošedých jílovců, místy uhelnatých, oddělené křemennými pískovci a slepenci silně zbarvenými železem. Horniny pocházejí z cenomanu, zhruba před 95 až 100 miliony let, kdy byl tento kout Čech krajinou řek a lagun poblíž břehu mělkého moře.
+
+Lom je také vážným nalezištěm fosilních rostlin. Vydal složená květenství Mauldinia bohemica, listy Grevilleophyllum constans a Myrtoidea geinitzii a vějíře kapradiny Anemia fremontii, dohromady snímek vegetace podél malé řeky. Česká geologická služba hodnotí jeho vědeckou hodnotu jako nadregionální a uvádí, že železité pískovce tohoto typu se používaly ve středověkých pražských stavbách, mezi nimi i v dvanáctistoletém Juditině mostě. Pozor, lom je stále určeným dobývacím prostorem se zákazem vstupu, takže je to místo, na které se člověk dívá z polní cesty, ne do kterého se vydává.
+
+🎁 Bonus: nedaleká ves Zadní Kopanina propůjčila jméno siluru starému přes 400 milionů let, zatímco tenhle lom o pár set metrů dál odkrývá horninu o víc než 300 milionů let mladší. Jediný kousek pražského venkova tak drží dvě navzájem hodně odlišné kapitoly dějin Země a to druhé musela otevřít až jílařská firma.`,
+
+      zh: `欢迎来到一条名叫"V Lomu"的街道尽头的黏土采石坑——这个街名翻译过来就是"在采石场里"，可以说是起街名起得最不含蓄的一个。围栏后面是一汪淡青绿色的池水，看上去像是旅行社宣传册里的照片，实际上是一座装满了远古泥浆的废弃矿坑。
+
+采石坑位于扎德尼·科帕尼纳，在热波里耶变电站以南约半公里，面积约四公顷。从1969年到2010年前后，这里一直在开采陶瓷用的炻器黏土（有一份地质数据库给出的年份是2020年），停采之后坑里就积满了水。坑壁露出两层灰色到深灰色的黏土岩，有些含碳，中间夹着被铁染得很重的石英砂岩和砾岩。这些岩石属于赛诺曼期，距今大约9500万到1亿年，那时波希米亚的这个角落还是河流与潟湖交错、紧挨着浅海海岸的景观。
+
+这里同样是一处重要的植物化石产地。出土过Mauldinia bohemica的复合花序，Grevilleophyllum constans和Myrtoidea geinitzii的叶片，以及Anemia fremontii的蕨叶，合起来就是一条小河岸边植被的一张快照。捷克地质调查局把它的科学价值评为超区域级，并指出这类富含铁的砂岩曾被用在中世纪的布拉格建筑上，12世纪的尤迪特桥就是其中之一。要注意的是，这里目前仍是划定的采矿区、禁止入内，所以适合站在田间小路上看，而不是走进去。
+
+🎁 彩蛋：附近的扎德尼·科帕尼纳村，给一套年龄超过4亿年的志留纪地层起了名字，而几百米外的这座采石坑，露出的岩石却比它年轻了三亿多年。布拉格乡间这一小片土地上，同时握着地球历史里两个差别巨大的篇章，而第二章还是靠一家黏土公司挖开的。`,
+    },
+  },
 ];
 
 async function run() {
