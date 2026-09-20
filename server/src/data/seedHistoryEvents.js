@@ -10417,12 +10417,20 @@ export const historyEvents = [
     slug: "two-brothers-one-crown-1402",
     era: "religious-turmoil",
     startYear: 1402,
-    images: ["/history/two-brothers-one-crown-1402.webp"],
+    images: [
+      "/history/two-brothers-one-crown-1402.webp",
+      "/history/two-brothers-one-crown-1402-bezdez.webp",
+    ],
     imageCaptions: [
       {
         en: "Guards in Luxembourg colors, seizing him steps from his own lions.",
         cz: "Stráže v lucemburských barvách ho zajaly jen pár kroků od jeho vlastních lvů.",
         zh: "身着卢森堡家族纹章的卫兵，在离他自己养的狮子几步远的地方，把他擒住。",
+      },
+      {
+        en: "Sigismund and Jobst stand together watching from a short distance as their soldiers seize Prokop near Bezděz Castle, three months after Wenceslas's own arrest.",
+        cz: "Zikmund a Jošt stojí kousek stranou a sledují, jak jejich vojáci zajímají Prokopa u hradu Bezděz, tři měsíce po Václavově vlastním zatčení.",
+        zh: "瓦茨拉夫自己被捕三个月后，西吉斯蒙德和约布斯特并肩站在不远处，看着自己的士兵在贝兹杰兹城堡附近擒住普罗科普。",
       },
     ],
     year: {
@@ -10463,6 +10471,14 @@ export const historyEvents = [
           zh: "被押解南下的瓦茨拉夫途经的这座罗森贝格家族要塞，之后他才被送往绍恩贝格城堡，最终关进维也纳。",
         },
       },
+      {
+        slug: "bezdez-castle",
+        relation: {
+          en: "Where Sigismund and Jobst lured Prokop into captivity three months after Wenceslas's own arrest, through what historians can only describe as a deliberate con.",
+          cz: "Místo, kde Zikmund a Jošt lstí vlákali Prokopa do zajetí tři měsíce po Václavově vlastním zatčení, způsobem, který historici popisují prostě jako podvod.",
+          zh: "瓦茨拉夫自己被捕三个月后，西吉斯蒙德和约布斯特正是在这里用计把普罗科普骗入陷阱，史学家对这一手，只用了\"骗局\"两个字来形容。",
+        },
+      },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Wenceslaus_IV_of_Bohemia",
   },
@@ -10475,11 +10491,27 @@ export const historyEvents = [
       cz: "1402–1403",
       zh: "1402年－1403年",
     },
+    imageCaptions: [
+      {
+        en: "Cuman horsemen ride through a burning village in the winter of 1402–1403, while an elderly woman and her pig watch from an untouched doorway.",
+        cz: "Kumánští jezdci projíždějí hořící vesnicí v zimě 1402–1403, zatímco stará žena se svým prasetem sleduje dění z nedotčených dveří.",
+        zh: "1402到1403年的冬天，库曼骑兵策马穿过一座正在燃烧的村庄，一位老太太和她的猪，从一扇未被波及的门口看着这一切。",
+      },
+      {
+        en: "Sigismund himself rides through the gate of the Italian Court in January 1403, watching from horseback as his soldiers haul out sacks and chests of Kutná Hora's silver.",
+        cz: "Sám Zikmund projíždí v lednu 1403 branou Vlašského dvora a z koně sleduje, jak jeho vojáci vynášejí pytle a truhly s kutnohorským stříbrem.",
+        zh: "1403年1月，西吉斯蒙德亲自骑马穿过意大利宫的大门，在马背上看着自己的士兵把一袋袋、一箱箱库特纳霍拉的白银搬运出来。",
+      },
+    ],
+    images: [
+      "/history/the-siege-that-broke-kutna-hora-1402.webp",
+      "/history/the-siege-that-broke-kutna-hora-1402-mint.webp",
+    ],
     tone: "humorous",
     title: {
-      en: "Kutná Hora Under Siege",
-      cz: "Kutná Hora v obležení",
-      zh: "库特纳霍拉之围",
+      en: "The Plunder of Silver",
+      cz: "Vyplenění stříbra",
+      zh: "白银之劫",
     },
     hookLine: {
       en: "Sigismund wanted Bohemia's silver. He was willing to burn half the countryside around it to get there.",
@@ -10489,7 +10521,7 @@ export const historyEvents = [
     summary: {
       en: "With his own brother in chains, Sigismund turned his army toward the one thing in Bohemia actually worth fighting over: the royal mint town of Kutná Hora, whose silver had bankrolled Charles IV's entire golden age a generation earlier. The town's own defenders, roughly 8,000 of them, were mostly the miners themselves, loyal to Wenceslas and led by a local official named Conrad of Vechta. Sigismund brought closer to 12,000: Hungarian troops, Czech allies willing to back the winning brother, and, in a detail anyone who's played Kingdom Come: Deliverance will recognize instantly, Cuman horsemen recruited off the Hungarian steppe.\n\nThe Cumans didn't wait for a formal siege to start earning their pay. Through the winter of 1402–1403 they tore through the countryside around Kutná Hora, and the village of Čakovice was burned so completely it was never resettled. Ratboř and Nebovidy went the same way. [[b]]One of the villages that burned that winter was a place called Skalice, whose real fate, according to the surviving record, was that only an elderly woman and a pig were left standing.[[/b]] If that sounds familiar, it should: it's essentially the opening scene of Kingdom Come: Deliverance, right down to the name. The game didn't dramatize this war. It just barely changed the spelling.\n\nThe actual fighting had a name too: the Siege of Suchdol, 24–27 December 1402, where Sigismund's own governor of Prague, Markvart of Úlice, took an arrow to the throat leading the assault and died on the spot, proof that burning other people's villages doesn't come with a guaranteed return trip. Sigismund's forces also won an open battle at Ratboř against a hastily assembled defense under a local captain, Martin Oderin, though Kolín and Poděbrady both held out.\n\nBy January 1403, Kutná Hora had had enough. Its own delegates travelled to Kolín to beg Sigismund for terms, and the historian František Palacký's own account puts them literally kneeling in the mud to do it. Sigismund took the crown treasury for himself, plundered the [[link:vlassky-dvur]]Italian Court[[/link]], the mint itself, still standing in the town today, and sacked Conrad of Vechta from his own job before finally heading home to Hungary in February to deal with an entirely separate revolt there. Bohemia's silver-funded golden age, not thirty years after Charles IV's death, had just taken its first real hit.",
       cz: "S vlastním bratrem v poutech obrátil Zikmund armádu k jediné věci v Čechách, o kterou se opravdu vyplatilo bojovat: ke královskému mincovnímu městu Kutná Hora, jehož stříbro o generaci dřív financovalo celý Karlův zlatý věk. Obránci města, zhruba osm tisíc lidí, byli většinou sami horníci, věrní Václavovi, pod vedením místního úředníka jménem Konrád z Vechty. Zikmund proti nim postavil skoro dvanáct tisíc mužů: uherské oddíly, české spojence ochotné vsadit na vítězného bratra, a v detailu, který každý, kdo hrál Kingdom Come: Deliverance, hned pozná, i kumánské jezdce naverbované z uherské stepi.\n\nKumáni si na formální obležení ani nepočkali, aby si vydělali na žold. Přes zimu 1402–1403 se prohnali krajem kolem Kutné Hory a vesnici Čakovice vypálili tak dokonale, že se do ní už nikdy nikdo nenastěhoval. Stejně dopadly Ratboř i Nebovidy. [[b]]Jednou z vesnic, které té zimy shořely, byla i osada jménem Skalice, jejíž skutečný osud podle dochovaných záznamů byl ten, že v ní zůstala jediná stará žena a jedno prase.[[/b]] Jestli vám to připadá povědomé, mělo by: je to v podstatě úvodní scéna Kingdom Come: Deliverance, včetně jména. Hra tuhle válku nedramatizovala. Jenom trochu poupravila pravopis.\n\nI skutečné boje měly svoje jméno: obléhání Suchdola, 24.–27. prosince 1402, kde Zikmundův vlastní pražský hejtman Markvart z Úlic vedl útok, dostal šíp do hrdla a zemřel na místě, důkaz, že vypalování cizích vesnic nezaručuje zpáteční cestu. Zikmundovy oddíly navíc vyhrály otevřenou bitvu u Ratboře nad narychlo sebranou obranou pod místním hejtmanem Martinem Oderinem, Kolín a Poděbrady ale obě odolaly.\n\nV lednu 1403 měla Kutná Hora dost. Její vlastní vyslanci museli jet do Kolína prosit Zikmunda o milost, a podle vlastního podání historika Františka Palackého při tom doslova klečeli v blátě. Zikmund si vzal královskou pokladnu, vyplenil [[link:vlassky-dvur]]Vlašský dvůr[[/link]], samotnou mincovnu, která ve městě stojí dodnes, vyhodil Konráda z Vechty z jeho vlastního úřadu a v únoru konečně odtáhl zpátky do Uher řešit úplně jiné povstání. České stříbrem financované zlaté období, nepočítaje ani třicet let od Karlovy smrti, právě dostalo svou první opravdovou ránu.",
-      zh: "自己的哥哥被关了起来，西吉斯蒙德把军队掉头，指向了波希米亚唯一真正值得一打的地方：王室铸币重镇库特纳霍拉，一代人之前，正是这里的白银撑起了查理四世的整个黄金时代。守城的约八千人，大多是矿工本身，忠于瓦茨拉夫，由本地官员康拉德·冯·维希塔率领。西吉斯蒙德带来了将近一万两千人：匈牙利军队、愿意押注在得势那位弟弟身上的波希米亚盟友，还有一个玩过《天国：拯救》的人一眼就能认出来的细节——从匈牙利草原招募来的库曼骑兵。\n\n库曼人根本没等正式开打就开始挣他们的军饷了。1402到1403年的那个冬天，他们把库特纳霍拉周边的乡野祸害了一遍，切磋维采村被烧得彻彻底底，从此再没人回来重建。拉特博日和涅博维迪也是同样下场。[[b]]那个冬天被烧掉的村庄里，有一个叫斯卡利采，据留存至今的记载，它真实的下场是：只剩下一个老太太和一头猪。[[/b]]如果这听起来很耳熟，那就对了——这几乎就是《天国：拯救》的开场，连名字都没怎么改。这场战争不是被游戏加工过的，游戏只是稍微改了改拼写。\n\n真正的战斗也有自己的名字：苏赫多尔之围，1402年12月24日至27日，西吉斯蒙德自己派驻布拉格的总督马克瓦特·冯·乌利采，亲自带队冲锋时喉咙中箭，当场毙命，足以证明烧别人村子这件事，并不保证自己能全身而退。西吉斯蒙德的部队还在拉特博日击败了一支临时拼凑的守军，指挥官是本地队长马丁·奥德林，但科林和波杰布拉迪都守住了。\n\n到1403年1月，库特纳霍拉已经撑不下去了。城里自己的代表被迫赶去科林，向西吉斯蒙德求和，史学家弗朗基谢克·帕拉茨基自己的记述里，说他们是跪在泥地里求来的。西吉斯蒙德把王室金库据为己有，洗劫了[[link:vlassky-dvur]]维拉什斯基宫[[/link]]，也就是那座至今仍矗立在城里的铸币厂本身，还撤了康拉德·冯·维希塔的职，最后在2月启程回匈牙利，去处理另一场完全不相干的叛乱。波希米亚靠白银撑起来的黄金时代，距离查理四世去世还不到三十年，就这样挨了实打实的第一记重击。",
+      zh: "自己的哥哥被关了起来，西吉斯蒙德把军队掉头，指向了波希米亚唯一真正值得一打的地方：王室铸币重镇库特纳霍拉，一代人之前，正是这里的白银撑起了查理四世的整个黄金时代。守城的约八千人，大多是矿工本身，忠于瓦茨拉夫，由本地官员康拉德·冯·维希塔率领。西吉斯蒙德带来了将近一万两千人：匈牙利军队、愿意押注在得势那位弟弟身上的波希米亚盟友，还有一个玩过《天国：拯救》的人一眼就能认出来的细节：从匈牙利草原招募来的库曼骑兵。\n\n库曼人根本没等正式开打就开始挣他们的军饷了。1402到1403年的那个冬天，他们把库特纳霍拉周边的乡野祸害了一遍，切磋维采村被烧得彻彻底底，从此再没人回来重建。拉特博日和涅博维迪也是同样下场。[[b]]那个冬天被烧掉的村庄里，有一个叫斯卡利采，据留存至今的记载，它真实的下场是：只剩下一个老太太和一头猪。[[/b]]如果这听起来很耳熟，那就对了，这几乎就是《天国：拯救》的开场，连名字都没怎么改。这场战争不是被游戏加工过的，游戏只是稍微改了改拼写。\n\n真正的战斗也有自己的名字：苏赫多尔之围，1402年12月24日至27日，西吉斯蒙德自己派驻布拉格的总督马克瓦特·冯·乌利采，亲自带队冲锋时喉咙中箭，当场毙命，足以证明烧别人村子这件事，并不保证自己能全身而退。西吉斯蒙德的部队还在拉特博日击败了一支临时拼凑的守军，指挥官是本地队长马丁·奥德林，但科林和波杰布拉迪都守住了。\n\n到1403年1月，库特纳霍拉已经撑不下去了。城里自己的代表被迫赶去科林，向西吉斯蒙德求和，史学家弗朗基谢克·帕拉茨基自己的记述里，说他们是跪在泥地里求来的。西吉斯蒙德把王室金库据为己有，洗劫了[[link:vlassky-dvur]]意大利宫[[/link]]，也就是那座至今仍矗立在城里的铸币厂本身，还撤了康拉德·冯·维希塔的职，最后在2月启程回匈牙利，去处理另一场完全不相干的叛乱。波希米亚靠白银撑起来的黄金时代，距离查理四世去世还不到三十年，就这样挨了实打实的第一记重击。",
     },
     relatedLandmarks: [
       {
@@ -10508,6 +10540,30 @@ export const historyEvents = [
           zh: "这整场围城战争夺的正是这座城，短短一代人之前，它的白银还撑起了查理四世自己的黄金时代。",
         },
       },
+      {
+        slug: "stribrna-skalice",
+        relation: {
+          en: "The real village burned by Sigismund's Cuman horsemen that winter, left with nothing standing but an elderly woman and a pig - the same detail Kingdom Come: Deliverance opens on, barely renamed.",
+          cz: "Skutečná vesnice, kterou Zikmundovi kumánští jezdci tu zimu vypálili a v níž nezůstalo nic než jedna stará žena a jedno prase - přesně ten detail, kterým začíná Kingdom Come: Deliverance, jen sotva přejmenovaný.",
+          zh: "西吉斯蒙德的库曼骑兵那个冬天真正烧毁的村庄，最后只剩下一个老太太和一头猪，这个细节几乎原封不动地被《天国：拯救》拿去当了开场。",
+        },
+      },
+      {
+        slug: "zamek-suchdol",
+        relation: {
+          en: "The site of the actual fighting this siege is named for: the Siege of Suchdol, 24-27 December 1402, where Sigismund's own governor of Prague took an arrow to the throat leading the assault.",
+          cz: "Místo skutečných bojů, po nichž je tohle obléhání pojmenováno: obléhání Suchdola, 24.-27. prosince 1402, kde Zikmundův vlastní pražský hejtman dostal při vedení útoku šíp do hrdla.",
+          zh: "这场围城真正的战斗现场：苏赫多尔之围，1402年12月24日至27日，西吉斯蒙德自己派驻布拉格的总督，就是在这里带队冲锋时喉咙中箭身亡的。",
+        },
+      },
+      {
+        slug: "kolin",
+        relation: {
+          en: "One of the two towns that held out against Sigismund's siege, and where his camp stood when Kutná Hora's own delegates arrived in January 1403 to kneel in the mud and beg for terms.",
+          cz: "Jedno ze dvou měst, které Zikmundovu obléhání odolalo, a místo, kde stál jeho tábor, když k němu v lednu 1403 dorazili vyslanci Kutné Hory klečet v blátě a prosit o mír.",
+          zh: "在西吉斯蒙德的围城战中坚守下来的两座城之一，也是他扎营的地方，1403年1月，库特纳霍拉自己的代表就是跪在这里的泥地里，向他求和的。",
+        },
+      },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Conquest_of_Kutn%C3%A1_Hora",
   },
@@ -10515,6 +10571,7 @@ export const historyEvents = [
     slug: "the-robber-knights-of-1403",
     era: "religious-turmoil",
     startYear: 1403.2,
+    cardType: "background",
     year: {
       en: "1403",
       cz: "1403",
@@ -10522,9 +10579,9 @@ export const historyEvents = [
     },
     tone: "humorous",
     title: {
-      en: "The Robber-Knights of 1403",
-      cz: "Loupeživí rytíři roku 1403",
-      zh: "1403年的强盗骑士们",
+      en: "Who's Real and Who's Made Up",
+      cz: "Kdo je skutečný a kdo vymyšlený",
+      zh: "谁是真的，谁是编的",
     },
     hookLine: {
       en: "Half of this saga's supporting cast turns out to have been real Bohemian nobility. The other half was invented for a video game. Telling them apart takes some digging.",
@@ -10532,9 +10589,9 @@ export const historyEvents = [
       zh: "这段故事里的配角，一半是真实存在的波希米亚贵族，另一半则是为了一款电子游戏凭空捏造出来的。要分清谁是谁，得费点功夫。",
     },
     summary: {
-      en: "Amid the chaos of 1403, a minor Bohemian noble named Racek Kobyla of Dvorce, a robber-knight by trade who'd thrown his lot in with Wenceslas, was made burgrave of Skalice Castle. It was not, in hindsight, a great career move: Sigismund's own Cuman mercenaries [[link:the-siege-that-broke-kutna-hora-1402]]burned the town that same year[[/link]], leaving the place, per the surviving record, an elderly woman and a pig. Racek fled south to Rataje nad Sázavou, where the local lord, Hanuš of Lipá, gave him shelter.\n\n[[b]]If the name Kobyla rings a bell, it should: Racek is the real historical figure behind Sir Radzig Kobyla, mentor to the game's fictional protagonist Henry in Kingdom Come: Deliverance.[[/b]] Henry himself never existed. He's invented, whole cloth, for the game. Radzig is a real name attached to a real minor noble, stretched considerably to fit a story he never actually lived through.\n\nRataje nad Sázavou, where Racek took shelter, wasn't one castle but two: an upper fortress and a lower one called Pirkštejn, held at this point by the Ptáček family. Its young heir, Jan Ptáček of Pirkštejn, was about fourteen or fifteen in 1403, a ward first of Henry III of Lipá and then of Hanuš himself. He'd die in 1419, buried in the family crypt at Rataje's own Church of St. Matthew. This exact stretch of the Sázava river, twin castles and all, is the real geography behind the game's fictional town of Rattay. Jan Ptáček is the real name behind its own Hans Capon.\n\nNot every real name in this story stayed on Wenceslas's side, or stayed geographically honest. Otto III of Bergau, a real noble and Prague's own burgrave a decade earlier, backed Sigismund throughout this entire war. The game hands him Trosky Castle as his own seat, which he never actually held; the real Trosky belonged to the Vartenberk family and then, since 1394, the crown itself. One real man, one borrowed address. (One character worth naming for the opposite reason: the mercenary captain \"Istvan Toth,\" the closest thing this whole saga has to a face for the Cuman raiders themselves, has no historical basis at all. He's a clean game invention, same tier as Henry.)",
-      cz: "Uprostřed chaosu roku 1403 byl drobný český šlechtic Racek Kobyla z Dvorce, loupeživý rytíř z povolání, který vsadil na Václava, jmenován purkrabím hradu Skalice. Zpětně to nebyl skvělý kariérní krok: Zikmundovi kumánští žoldnéři město [[link:the-siege-that-broke-kutna-hora-1402]]ještě téhož roku[[/link]] vypálili a podle dochovaných záznamů v něm zůstala jen jedna stará žena a jedno prase. Racek utekl na jih do Rataj nad Sázavou, kde mu útočiště poskytl místní pán, Hanuš z Lipé.\n\n[[b]]Jestli vám jméno Kobyla něco říká, mělo by: Racek je skutečná historická postava, ze které vychází pan Radzig Kobyla, mentor fiktivního hrdiny Jindřicha ve hře Kingdom Come: Deliverance.[[/b]] Jindřich sám nikdy neexistoval. Je pro hru vymyšlený od základu. Radzig je skutečné jméno přiřazené skutečnému drobnému šlechtici, jen notně natažené, aby se vešlo do příběhu, který ve skutečnosti nikdy nezažil.\n\nRataje nad Sázavou, kam se Racek uchýlil, nebyly jeden hrad, ale dva: horní pevnost a dolní, zvanou Pirkštejn, v té době v držení rodu Ptáčků. Mladý dědic, Jan Ptáček z Pirkštejna, měl v roce 1403 kolem čtrnácti patnácti let a byl nejprve poručencem Jindřicha III. z Lipé a pak samotného Hanuše. Zemřel v roce 1419 a je pochován v rodinné hrobce v ratajském kostele svatého Matouše. Přesně tenhle úsek Sázavy, s oběma hrady, je skutečnou geografií za fiktivním městečkem Rataj, kterému hra říká Rattay. Jan Ptáček je skutečné jméno za jejím vlastním Hansem Caponem.\n\nNe každé skutečné jméno v tomhle příběhu zůstalo na Václavově straně, ani zeměpisně poctivé. Otto III. z Bergova, skutečný šlechtic a o deset let dřív pražský purkrabí, podporoval po celou tuhle válku Zikmunda. Hra mu dává hrad Trosky jako vlastní sídlo, které ve skutečnosti nikdy nedržel; skutečné Trosky patřily rodu Vartenberků a od roku 1394 přímo koruně. Jeden skutečný muž, jedna vypůjčená adresa. (Jedna postava stojí za zmínku z opačného důvodu: žoldnéřský kapitán \"Istvan Toth,\" nejbližší tvář, kterou tahle sága kumánským nájezdníkům vůbec dává, nemá v historii žádný podklad. Je to čistý herní výmysl, ve stejné lize jako Jindřich.)",
-      zh: "在1403年的乱局之中，一位名叫拉切克·科贝拉·冯·德沃尔采的波希米亚小贵族，本职是个强盗骑士，押宝在瓦茨拉夫一边，被任命为斯卡利采城堡的总管。事后看来，这可不是什么好差事：西吉斯蒙德手下的库曼雇佣兵[[link:the-siege-that-broke-kutna-hora-1402]]就在同一年[[/link]]把这座小镇烧了个精光，据留存的记载，镇上只剩下一个老太太和一头猪。拉切克南逃至拉泰，本地领主哈努什·冯·利佩收留了他。\n\n[[b]]如果\"科贝拉\"这个姓氏让你觉得眼熟，那就对了：拉切克正是《天国：拯救》里、虚构主角亨利的导师拉齐格·科贝拉的真实历史原型。[[/b]] 亨利本人从未存在过，是游戏彻头彻尾编出来的角色。拉齐格倒是个真名字，安在了一位真实存在的小贵族身上，只是被大幅拉伸，塞进了一段他本人从未经历过的人生。\n\n拉切克投奔的拉泰，其实不是一座城堡，而是两座：上面是主堡，下面还有一座叫皮克斯泰因的副堡，当时归普塔切克家族所有。年轻的继承人扬·普塔切克·冯·皮克斯泰因，1403年大概十四五岁，先是亨利三世·冯·利佩的被监护人，后来又归哈努什本人监护。他1419年去世，葬在拉泰自家的圣马太教堂家族墓室里。萨扎瓦河这一段，连同这一对姐妹城堡，正是游戏里那座虚构小镇\"拉泰\"（Rattay）的现实原型，而扬·普塔切克，就是游戏里汉斯·卡蓬这个角色的真实原型。\n\n并不是这个故事里的每一个真实姓名，都站在瓦茨拉夫这边，也不是每一个都守着地理上的老实本分。奥托三世·冯·贝尔高确有其人，十年前还当过布拉格总督，这整场战争里始终站在西吉斯蒙德一边。游戏把特罗斯基城堡安在了他名下当领地，可现实里他从没拥有过这座城堡，真正的特罗斯基归瓦滕贝格家族所有，1394年起又归了王室。一个真实的人，一个借来的地址。（还有一个角色，恰恰因为相反的原因值得一提：雇佣兵队长\"伊斯特万·冯·波尔高\"，这整段故事里库曼掠夺者最接近有名有姓的一张脸，史料里根本查无此人，是彻头彻尾的游戏虚构角色，和亨利一个级别。）",
+      en: "If you've played Kingdom Come: Deliverance, this stretch of 1403 will feel oddly familiar - because you've already lived through a version of it. The genuinely fun part is sorting out which half of the game's supporting cast is real and which half was invented whole cloth, since the split runs almost exactly down the middle.\n\nStart with the mentor. Sir Radzig Kobyla, who trains the game's fictional hero Henry, is based on an actual minor Bohemian noble: Racek Kobyla of Dvorce, a robber-knight by trade who backed Wenceslas and was made burgrave of Skalice Castle amid the chaos of 1403. It was not, in hindsight, a great career move: Sigismund's own Cuman mercenaries [[link:the-siege-that-broke-kutna-hora-1402]]burned the town that same year[[/link]], leaving it, per the surviving record, an elderly woman and a pig. Racek fled south to Rataje nad Sázavou, where the local lord, Hanuš of Lipá, gave him shelter. [[b]]Henry himself, the hero Radzig mentors, never existed at all - he's invented whole cloth for the game, a real name stretched to fit a life Racek Kobyla never actually lived.[[/b]]\n\nEven the game's fictional town of Rattay has a real address. Rataje nad Sázavou, where Racek took shelter, wasn't one castle but two: an upper fortress and a lower one called Pirkštejn, held at the time by the Ptáček family. Its young heir, Jan Ptáček of Pirkštejn, was about fourteen or fifteen in 1403, a ward first of Henry III of Lipá and then of Hanuš himself. He'd die in 1419, buried in the family crypt at Rataje's own Church of St. Matthew - the real name behind the game's own Hans Capon, on the same stretch of the Sázava river the game just renamed.\n\nNot every borrowed name stayed loyal, or stayed geographically honest. Otto III of Bergau, a real noble and Prague's own burgrave a decade earlier, backed Sigismund throughout this entire war; the game hands him Trosky Castle as his own seat, which he never actually held, since the real Trosky belonged to the Vartenberk family and then, since 1394, the crown itself. One real man, one borrowed address. And then there's the one character worth naming for the opposite reason: the mercenary captain \"Istvan Toth,\" the closest thing this whole saga has to a face for the Cuman raiders themselves, has no historical basis at all. He's a clean game invention, same tier as Henry - proof that even a story built this carefully out of real names still needed to invent at least one villain from scratch.",
+      cz: "Pokud jste hráli Kingdom Come: Deliverance, bude vám tahle část roku 1403 nápadně povědomá, protože jste si ji už jednou prožili. Opravdová zábava spočívá v tom rozklíčovat, která polovina vedlejších postav ve hře je skutečná a která byla vymyšlená od základu, protože ta hranice vede téměř přesně napůl.\n\nZačněme mentorem. Pan Radzig Kobyla, který ve hře cvičí fiktivního hrdinu Jindřicha, vychází ze skutečného drobného českého šlechtice: Racka Kobyly z Dvorce, loupeživého rytíře z povolání, který vsadil na Václava a byl uprostřed chaosu roku 1403 jmenován purkrabím hradu Skalice. Zpětně to nebyl skvělý kariérní krok: Zikmundovi kumánští žoldnéři město [[link:the-siege-that-broke-kutna-hora-1402]]ještě téhož roku vypálili[[/link]], a podle dochovaných záznamů v něm zůstala jen jedna stará žena a jedno prase. Racek utekl na jih do Rataj nad Sázavou, kde mu útočiště poskytl místní pán, Hanuš z Lipé. [[b]]Sám Jindřich, hrdina, kterého Radzig učí, nikdy neexistoval - je pro hru vymyšlený od základu, se skutečným jménem natočeným tak, aby se vešlo do života, který Racek Kobyla nikdy nežil.[[/b]]\n\nI fiktivní městečko Rattay má skutečnou adresu. Rataje nad Sázavou, kam se Racek uchýlil, nebyly jeden hrad, ale dva: horní pevnost a dolní, zvanou Pirkštejn, v té době v držení rodu Ptáčků. Mladý dědic, Jan Ptáček z Pirkštejna, měl v roce 1403 kolem čtrnácti patnácti let a byl nejprve poručencem Jindřicha III. z Lipé a pak samotného Hanuše. Zemřel v roce 1419 a je pochován v rodinné hrobce v ratajském kostele svatého Matouše - skutečné jméno za herním Hansem Caponem, na skutečném úseku Sázavy, který hra jen přejmenovala.\n\nNe každé vypůjčené jméno zůstalo věrné, ani zeměpisně poctivé. Otto III. z Bergova, skutečný šlechtic a o deset let dřív pražský purkrabí, podporoval po celou tuhle válku Zikmunda; hra mu dává hrad Trosky jako vlastní sídlo, které ve skutečnosti nikdy nedržel, protože skutečné Trosky patřily rodu Vartenberků a od roku 1394 přímo koruně. Jeden skutečný muž, jedna vypůjčená adresa. A pak je tu jedna postava, která stojí za zmínku z opačného důvodu: žoldnéřský kapitán \"Istvan Toth\", nejbližší tvář, kterou tahle sága kumánským nájezdníkům vůbec dává, nemá v historii žádný podklad. Je to čistý herní výmysl, ve stejné lize jako Jindřich - důkaz, že i příběh takhle pečlivě poskládaný ze skutečných jmen si nakonec musel aspoň jednoho padoucha vymyslet.",
+      zh: "如果你玩过《天国：拯救》，1403年这段历史读起来一定莫名眼熟，因为你早就已经亲身经历过一遍了。真正有意思的地方，是去分辨游戏里的配角，哪一半是真人真事，哪一半纯属瞎编，因为这条界线，几乎正好从正中间一切两半。\n\n先说导师这一位。游戏里训练虚构主角亨利的拉齐格·科贝拉爵士，原型是一位真实存在的波希米亚小贵族：拉切克·科贝拉·冯·德沃尔采，本职是个强盗骑士，押宝在瓦茨拉夫一边，1403年的乱局之中被任命为斯卡利采城堡的总管。事后看来，这可不是什么好差事：西吉斯蒙德手下的库曼雇佣兵[[link:the-siege-that-broke-kutna-hora-1402]]就在同一年把这座小镇烧了个精光[[/link]]，据留存的记载，镇上只剩下一个老太太和一头猪。拉切克南逃至拉泰，本地领主哈努什·冯·利佩收留了他。[[b]]至于拉齐格所教导的亨利本人，则从未存在过：是游戏彻头彻尾编出来的角色，借了个真名字，硬塞进了一段拉切克·科贝拉本人从未经历过的人生。[[/b]]\n\n就连游戏里那座虚构小镇拉泰，也有个真实地址。拉切克投奔的拉泰，其实不是一座城堡，而是两座：上面是主堡，下面还有一座叫皮克斯泰因的副堡，当时归普塔切克家族所有。年轻的继承人扬·普塔切克·冯·皮克斯泰因，1403年大概十四五岁，先是亨利三世·冯·利佩的被监护人，后来又归哈努什本人监护。他1419年去世，葬在拉泰自家的圣马太教堂家族墓室里，这正是游戏里汉斯·卡蓬这个角色的真实原型，地点也是萨扎瓦河这同一段真实河段，游戏只是换了个名字。\n\n并不是每一个借来的名字，都守着原主人的立场，或者地理上的老实本分。奥托三世·冯·贝尔高确有其人，十年前还当过布拉格总督，这整场战争里始终站在西吉斯蒙德一边；游戏却把特罗斯基城堡安在了他名下当领地，可现实里他从没拥有过这座城堡，真正的特罗斯基归瓦滕贝格家族所有，1394年起又归了王室。一个真实的人，一个借来的地址。还有一个角色，恰恰因为相反的原因值得一提：雇佣兵队长\"伊斯特万·冯·波尔高\"，这整段故事里库曼掠夺者最接近有名有姓的一张脸，史料里根本查无此人，是彻头彻尾的游戏虚构角色，和亨利一个级别。这也证明，就算一个故事把真名字用得再考究，最后也总得凭空编出至少一个反派来。",
     },
     wikipediaUrl: "https://en.wikipedia.org/wiki/Racek_Kobyla_of_Dvorce",
   },
@@ -10542,6 +10599,14 @@ export const historyEvents = [
     slug: "the-kings-great-escape-1403",
     era: "religious-turmoil",
     startYear: 1403.9,
+    imageCaptions: [
+      {
+        en: "Disguised and alone, Wenceslas rows himself across the Danube at dusk, Vienna receding behind him and riders waiting on the far bank.",
+        cz: "Přestrojený a sám se Václav za soumraku převáží přes Dunaj, Vídeň mizí za ním a na druhém břehu už čekají jezdci.",
+        zh: "乔装打扮、形单影只，瓦茨拉夫在暮色中亲自划船渡过多瑙河，维也纳在他身后渐渐远去，对岸已有骑兵等候。",
+      },
+    ],
+    images: ["/history/the-kings-great-escape-1403.webp"],
     year: {
       en: "1403",
       cz: "1403",
@@ -10563,105 +10628,95 @@ export const historyEvents = [
       cz: "Na podzim 1403 byl Václav přesunut z hradu Schaunberk do péče habsburských vévodů přímo ve Vídni. V Čechách mezitím Jošt, který se se Zikmundem [[link:two-brothers-one-crown-1402]]rozešel[[/link]] už o pár měsíců dřív, pracoval na diplomatické frontě, tlačil na bratrancovo propuštění a podkopával Zikmundovu pozici, místo aby dobýval brány.\n\nVáclav nečekal, jestli se to podaří. 11. listopadu 1403, přestrojený, se uprostřed odpoledne vytratil z města, přeplavil se lodí přes Dunaj a na druhém břehu ho čekal Jan II. z Lichtenštejna s padesáti jezdci. Odtud ujížděli přes Mikulov a Brno, než konečně dorazil do bezpečí Karlštejna.\n\nJe to jeden z mála skutečně dramatických momentů celé téhle ságy, který Kingdom Come: Deliverance nikdy neinscenuje, což je celkem pochopitelné. Král, jak potichu přeplouvá řeku v přestrojení, prostě není ideální materiál na vedlejší úkol se soubojem s bossem na konci.\n\nSvoboda měla svou cenu, stejně jako v roce 1394. Mezi lety 1403 a 1405 vysoká šlechta postupně přidávala podmínky a Václav je jednu po druhé přijímal, jen aby neriskoval třetí únos. Začátkem roku 1405 formálně předal soudní pravomoc v krajích úředníkům vybraným většinou ze stejné šlechty, která ho právě věznila. Do Prahy se pak vrátil. Svou starou autoritu si už ale nikdy skutečně nezískal zpátky.",
       zh: "到1403年秋天，瓦茨拉夫已经从绍恩贝格城堡，被转交给了哈布斯堡家的几位公爵，直接看管在维也纳。而在波希米亚国内，几个月前就已经和西吉斯蒙德[[link:two-brothers-one-crown-1402]]翻脸[[/link]]的约布斯特，正在走外交路线，向对方施压要求放人，同时一点点削弱西吉斯蒙德的地位，而不是直接带兵攻城。\n\n瓦茨拉夫没等着看这条路线管不管用。1403年11月11日，他乔装打扮，趁着下午溜出了城，坐船渡过多瑙河，对岸有约翰二世·冯·列支敦士登带着五十名骑兵接应。一行人随后一路疾驰，经米库洛夫、布尔诺，终于抵达了卡尔什特因城堡的安全庇护。\n\n这是整段故事里，少数几个《天国：拯救》从没真正搬上舞台的高潮时刻之一，倒也说得过去。一位国王乔装打扮、悄悄划船过河，实在算不上什么适合改编成支线任务、最后还要打个boss的好素材。\n\n自由是有代价的，跟1394年那次一样。1403年到1405年间，上层贵族不断追加条件，瓦茨拉夫也一条接一条地接受下来，只求别再冒一次绑架的风险。到1405年初，他正式把地方司法权，交给了几乎清一色出身贵族的官员，而这些贵族，正是刚刚把他关起来的那批人。他后来回到了布拉格，但再也没能真正拿回从前的权威。",
     },
+    relatedLandmarks: [
+      {
+        slug: "brno",
+        relation: {
+          en: "One of the towns Wenceslas rode hard through on the night of his escape, between the Danube crossing and Karlštejn's own safety.",
+          cz: "Jedno z měst, kterými Václav v noci svého útěku projížděl tryskem, mezi přeplutím Dunaje a bezpečím Karlštejna.",
+          zh: "瓦茨拉夫连夜疾驰逃亡途中经过的城镇之一，就在渡过多瑙河和抵达卡尔什特因城堡之间。",
+        },
+      },
+      {
+        slug: "karlstejn-castle",
+        relation: {
+          en: "Where Wenceslas's disguised ride finally ended - the fortress safe enough that his own cousins and captors couldn't simply walk in and take him back.",
+          cz: "Kde Václavova přestrojená jízda konečně skončila - pevnost natolik bezpečná, že ho vlastní bratranci a věznitelé nemohli jednoduše přijít a odvést zpátky.",
+          zh: "瓦茨拉夫乔装逃亡的终点：这座城堡足够坚固，连他自己的堂兄弟兼囚禁者，也没法轻易闯进来把他再抓回去。",
+        },
+      },
+    ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Wenceslaus_IV_of_Bohemia",
   },
   {
-    slug: "a-poisoned-peppercorn-1404",
+    slug: "a-poisoned-peace-1404",
     era: "religious-turmoil",
-    startYear: 1404,
+    startYear: 1404.5,
+    // MERGED 2026-09-20 at the user's request: this card combines the old
+    // 'a-poisoned-peppercorn-1404' (Znojmo siege, poisoned pepper) and
+    // 'peace-and-decline-1405' (the 1405 peace, Prokop's death, Jobst's
+    // margraviate, the economic decline) into one trimmed card, since split
+    // they read as two thin halves of the same beat. 'the-many-lives-of-an-
+    // outlaw-1406' (the Žižka biography aside, split off separately on
+    // 2026-09-16) is untouched by this merge and remains its own card.
+    // 'salvation-priced-to-sell-1411's "silver had already run dry" link,
+    // formerly pointing at 'peace-and-decline-1405', now points here.
+    imageCaptions: [
+      {
+        en: "Sigismund and the younger Albert IV of Austria share a meal at their siege camp near Znojmo, a servant setting down the dish of pepper that would soon kill one of them.",
+        cz: "Zikmund a mladší Albrecht IV. Rakouský sdílejí jídlo ve svém obléhacím táboře u Znojma, zatímco sluha pokládá mísu pepře, který jednoho z nich brzy zabije.",
+        zh: "西吉斯蒙德和较年轻的阿尔布雷希特四世，在兹诺伊莫城外的围城营地里共进一餐，仆人正端上那盘不久后就会毒死其中一人的胡椒。",
+      },
+      {
+        en: "Wenceslas, Sigismund, and Jobst sign their 1405 peace at a plain table, none of the three cousins looking reconciled.",
+        cz: "Václav, Zikmund a Jošt podepisují svůj mír z roku 1405 u prostého stolu, žádný ze tří bratranců nevypadá smířeně.",
+        zh: "瓦茨拉夫、西吉斯蒙德和约布斯特在一张简朴的桌前签下1405年的和约，三位堂兄弟脸上都没有丝毫和解的暖意。",
+      },
+    ],
+    images: [
+      "/history/a-poisoned-peace-1404.webp",
+      "/history/a-poisoned-peace-1404-treaty.webp",
+    ],
     year: {
-      en: "1404",
-      cz: "1404",
-      zh: "1404年",
+      en: "1404–1405",
+      cz: "1404–1405",
+      zh: "1404年－1405年",
     },
     tone: "humorous",
     title: {
-      en: "A Poisoned Peppercorn",
-      cz: "Otrávené zrnko pepře",
-      zh: "一粒下了毒的胡椒",
+      en: "A Peace That Didn't Heal Anything",
+      cz: "Mír, který nic nevyléčil",
+      zh: "一场治不好的和平",
     },
     hookLine: {
-      en: "Two dukes shared a meal in 1404. Only one of them lived to regret ordering the pepper.",
-      cz: "Dva vévodové v roce 1404 spolu sdíleli jídlo. Jenom jeden z nich přežil, aby si mohl objednávku pepře začít vyčítat.",
-      zh: "1404年，两位公爵共进过一餐。只有一位活了下来，后悔当初点了那份胡椒。",
+      en: "A siege that solved nothing ended in poisoned pepper. The peace that followed didn't fix much either.",
+      cz: "Obležení, které nic nevyřešilo, skončilo otráveným pepřem. Mír, který přišel potom, taky moc nespravil.",
+      zh: "一场什么都没解决的围城，最后靠一批毒胡椒收场。之后谈成的和平，也没能修好什么。",
     },
     summary: {
-      en: "In 1404, Sigismund and his ally Albert IV of Austria laid siege to Znojmo, held for Wenceslas's side by two freelance robber-knights: Hynek \"Dry Devil\" of Kunštát and Jan Sokol of Lamberk, men who fought for whichever brother happened to be paying better that particular season.\n\nThe siege dragged on for two months and accomplished essentially nothing. Disease tore through the besiegers' own camp before the walls ever did, and Sigismund and Albert called the whole thing off rather than lose their army to dysentery instead of the enemy.\n\nThe retreat came with its own dark footnote. Both dukes were reportedly poisoned soon after, via a shipment of tainted pepper, of all things. Sigismund survived. Albert didn't. History doesn't record whether anyone ever got a refund on that particular spice order, but Sigismund had just lost, in one uneven trade, both a military campaign and his own most useful ally.\n\nThe war had officially stopped accomplishing anything for anyone. A year later, in the spring of 1405, Jobst, Wenceslas, and Sigismund finally sat down and made peace.",
-      cz: "V roce 1404 oblehli Zikmund a jeho spojenec Albrecht IV. Rakouský Znojmo, které pro Václavovu stranu drželi dva nezávislí loupeživí rytíři: Hynek Suchý Čert z Kunštátu a Jan Sokol z Lamberka, muži, kteří bojovali vždycky za toho bratra, který zrovna lépe platil.\n\nObležení se táhlo dva měsíce a nedosáhlo v podstatě ničeho. Nemoc se prohnala obléhatelovým vlastním táborem dřív, než se to podařilo hradbám, a Zikmund s Albrechtem raději celou akci odvolali, než aby přišli o armádu kvůli úplavici místo nepřítele.\n\nÚstup měl i svou vlastní temnou poznámku pod čarou. Oba vévodové byli údajně krátce nato otráveni, a to zásilkou zkaženého pepře, ze všech věcí zrovna touhle. Zikmund přežil. Albrecht ne. Historie nezaznamenává, jestli si za tu konkrétní zásilku koření někdo nechal vrátit peníze, ale Zikmund v jedné nevyvážené výměně právě přišel jak o vojenské tažení, tak o svého nejužitečnějšího spojence.\n\nVálka oficiálně přestala kohokoli k čemukoli vést. O rok později, na jaře 1405, si Jošt, Václav a Zikmund konečně sedli a uzavřeli mír.",
-      zh: "1404年，西吉斯蒙德和他的盟友、奥地利的阿尔布雷希特四世围攻兹诺伊莫，守城的是两位为瓦茨拉夫一方效力的独立强盗骑士：昆施塔特的希内克（外号\"干瘪魔鬼\"）和扬·索科尔·冯·兰贝克，这两人向来是谁给的钱多，就为谁打仗。\n\n这场围城拖了两个月，几乎什么也没打下来。瘟疫先一步扫过了围城方自己的营地，还没等到攻破城墙，西吉斯蒙德和阿尔布雷希特就干脆撤了兵，不想让军队死在痢疾手里，而不是死在敌人手里。\n\n这场撤退还留下了一个阴森的小注脚。据说两位公爵不久后双双中毒，凶手不是别的，正是一批变质的胡椒。西吉斯蒙德活了下来，阿尔布雷希特没有。史书没有记载，有没有人为那批香料退过款，但西吉斯蒙德这一笔亏本买卖，一下子搭进去的，是一场军事行动，外加自己最有用的一个盟友。\n\n这场战争，如今已经正式对任何人都毫无意义了。一年后，1405年春天，约布斯特、瓦茨拉夫和西吉斯蒙德终于坐下来，谈成了和平。",
+      en: "In 1404, Sigismund and his ally Albert IV of Austria laid siege to Znojmo, held for Wenceslas's side by two freelance robber-knights, Hynek \"Dry Devil\" of Kunštát and Jan Sokol of Lamberk, men who fought for whichever brother happened to be paying better that season. The siege dragged on for two months and accomplished essentially nothing: disease tore through the besiegers' own camp before the walls ever did, and Sigismund and Albert called it off rather than lose their army to dysentery instead of the enemy.\n\nThe retreat came with its own dark footnote. Both dukes were reportedly poisoned soon after, via a shipment of tainted pepper, of all things. Sigismund survived. Albert didn't - one uneven trade that cost Sigismund both a military campaign and his own most useful ally.\n\nA year later, in the spring of 1405, Jobst, Wenceslas, and Sigismund finally sat down and made peace. Officially, the fighting was over. Unofficially, nobody actually won: Prokop, freed after his own cousins' earlier captivity, came out a broken man and died that September. Jobst became sole Margrave of Moravia - a title that would quietly revert to Wenceslas himself once Jobst died in 1411, closing a loop this whole saga [[link:two-brothers-one-crown-1402]]opened back in 1402[[/link]].\n\nPeace didn't fix the kingdom it was supposed to save. Kutná Hora's silver, already gutted by [[link:the-siege-that-broke-kutna-hora-1402]]the 1402–1403 siege[[/link]], kept declining through the early 1400s, and between recurring plague and a Church still split into rival popes nobody could agree on, Bohemia's economy never got its old shine back. Roads turned dangerous, robbery and murder became routine, and the poorest simply starved.",
+      cz: "V roce 1404 oblehli Zikmund a jeho spojenec Albrecht IV. Rakouský Znojmo, které pro Václavovu stranu drželi dva nezávislí loupeživí rytíři: Hynek Suchý Čert z Kunštátu a Jan Sokol z Lamberka, muži, kteří bojovali vždycky za toho bratra, který zrovna lépe platil. Obležení se táhlo dva měsíce a nedosáhlo v podstatě ničeho: nemoc se prohnala obléhatelovým vlastním táborem dřív, než se to podařilo hradbám, a Zikmund s Albrechtem raději celou akci odvolali, než aby přišli o armádu kvůli úplavici místo nepřítele.\n\nÚstup měl i svou vlastní temnou poznámku pod čarou. Oba vévodové byli údajně krátce nato otráveni, a to zásilkou zkaženého pepře, ze všech věcí zrovna touhle. Zikmund přežil. Albrecht ne - jedna nevyvážená výměna, která Zikmunda připravila jak o vojenské tažení, tak o jeho nejužitečnějšího spojence.\n\nO rok později, na jaře 1405, si Jošt, Václav a Zikmund konečně sedli a uzavřeli mír. Oficiálně boje skončily. Neoficiálně nevyhrál doopravdy nikdo: Prokop, propuštěný po zajetí od vlastních bratranců, z něj vyšel jako zlomený muž a téhož září zemřel. Jošt se stal jediným moravským markrabětem - titulem, který se potichu vrátí zpátky Václavovi po Joštově vlastní smrti v roce 1411, čímž se uzavře kruh, který se celá tahle sága [[link:two-brothers-one-crown-1402]]otevřela už v roce 1402[[/link]].\n\nMír nespravil království, které měl zachránit. Kutnohorské stříbro, už tak zdecimované [[link:the-siege-that-broke-kutna-hora-1402]]obležením z let 1402–1403[[/link]], dál upadalo i začátkem 15. století, a mezi opakujícím se morem a církví pořád rozdělenou mezi soupeřící papeže se české hospodářství už nikdy nevzpamatovalo do starého lesku. Cesty zpustly, loupeže a vraždy zevšedněly a ti nejchudší prostě umírali hladem.",
+      zh: "1404年，西吉斯蒙德和他的盟友、奥地利的阿尔布雷希特四世围攻兹诺伊莫，守城的是两位为瓦茨拉夫一方效力的独立强盗骑士：昆施塔特的希内克（外号\"干瘪魔鬼\"）和扬·索科尔·冯·兰贝克，这两人向来是谁给的钱多，就为谁打仗。这场围城拖了两个月，几乎什么也没打下来：瘟疫先一步扫过了围城方自己的营地，还没等到攻破城墙，西吉斯蒙德和阿尔布雷希特就干脆撤了兵，不想让军队死在痢疾手里，而不是死在敌人手里。\n\n这场撤退还留下了一个阴森的小注脚。据说两位公爵不久后双双中毒，凶手不是别的，正是一批变质的胡椒。西吉斯蒙德活了下来，阿尔布雷希特没有。这一笔不对等的买卖，让西吉斯蒙德一下子搭进去了一场军事行动，外加自己最有用的一个盟友。\n\n一年后，1405年春天，约布斯特、瓦茨拉夫和西吉斯蒙德终于坐下来，谈成了和平。名义上，战争结束了。实际上，谁都没真正赢到什么：普罗科普从堂兄弟们手里获释后，已经是个被彻底拖垮的人，同年9月便去世了。约布斯特成了摩拉维亚唯一的藩侯，这个头衔会在约布斯特1411年去世后悄悄归还给瓦茨拉夫本人，正好合上了这整段故事[[link:two-brothers-one-crown-1402]]从1402年就已经打开[[/link]]的那个环。\n\n和平并没有修好它本该拯救的这个王国。库特纳霍拉的白银，早已被[[link:the-siege-that-broke-kutna-hora-1402]]1402至1403年那场围城[[/link]]掏得所剩无几，进入15世纪初依然在持续衰落，反复爆发的瘟疫，再加上教会依然被两位谁也说服不了谁的教皇撕成两半，波希米亚的经济再也没能恢复往日的光彩。道路变得危险，抢劫和谋杀成了家常便饭，最穷的人干脆活活饿死。",
     },
+    relatedLandmarks: [
+      {
+        slug: "znojmo",
+        relation: {
+          en: "The town Sigismund and Albert IV besieged for two months in 1404, defended by two freelance robber-knights, before disease forced their retreat.",
+          cz: "Město, které Zikmund a Albrecht IV. dva měsíce roku 1404 obléhali, bráněné dvěma nezávislými loupeživými rytíři, než je nemoc přiměla k ústupu.",
+          zh: "1404年，西吉斯蒙德和阿尔布雷希特四世围攻了整整两个月的城，守军是两位独立的强盗骑士，最终是瘟疫逼退了这场围城。",
+        },
+      },
+      {
+        slug: "kutna-hora",
+        relation: {
+          en: "The silver town whose mint, already gutted by the 1402–1403 siege, kept declining through the peace that followed, dragging the whole kingdom's economy down with it.",
+          cz: "Stříbrné město, jehož mincovna, už tak zdecimovaná obležením z let 1402–1403, dál upadala i po nastalém míru a stahovala s sebou dolů hospodářství celého království.",
+          zh: "这座银城的铸币厂，早已被1402至1403年那场围城掏空，就算和平谈成了也依然在持续衰落，把整个王国的经济一起拖下了水。",
+        },
+      },
+    ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Moravian_Margrave_Wars",
-  },
-  // RESTRUCTURED 2026-09-16 (second pass, same session): the user flagged
-  // this single card as too long once the Žižka biography material got
-  // added on top of the original peace/decline/1410-election content.
-  // Split into three: 'peace-and-decline-1405' (the 1405 peace, Prokop's
-  // death, Jobst's margraviate, the economic decline), a new
-  // 'the-many-lives-of-an-outlaw-1406' (the whole Žižka biography aside -
-  // the Rožmberk-estate outlaw years, the eye/name-etymology digression,
-  // the mercenary/Grunwald/chamberlain résumé), and this card, narrowed
-  // back down to just its own closing beat: the 1409 Pisa recognition and
-  // the 1410 election that actually made Sigismund "the brother who
-  // replaced him." Kept this slug/title/image since the title still fits
-  // this narrower scope perfectly. Cross-references fixed in the same
-  // pass: 'the-first-defenestration-1419's Žižka callback now points at
-  // 'the-many-lives-of-an-outlaw-1406' (where he's actually introduced),
-  // and 'salvation-priced-to-sell-1411's two "silver had already run dry"
-  // links now point at 'peace-and-decline-1405' (where that material
-  // actually lives now) instead of here.
-  {
-    slug: "peace-and-decline-1405",
-    era: "religious-turmoil",
-    startYear: 1405,
-    year: {
-      en: "1405",
-      cz: "1405",
-      zh: "1405年",
-    },
-    tone: "humorous",
-    title: {
-      en: "Peace and Decline",
-      cz: "Mír a úpadek",
-      zh: "和平与衰落",
-    },
-    hookLine: {
-      en: "The fighting stopped in 1405. The kingdom it left behind kept getting worse anyway.",
-      cz: "Boje v roce 1405 skončily. Království, které po nich zbylo, se přesto dál zhoršovalo.",
-      zh: "1405年，仗打完了。可它留下的这个王国，日子却越过越差。",
-    },
-    summary: {
-      en: "In the spring of 1405, Jobst, Wenceslas, and Sigismund finally sat down and signed a peace. Officially, the fighting was over. Unofficially, nobody actually won: Prokop, freed after his own cousins' earlier captivity, came out of it a broken man and died on 4 September 1405. Jobst became sole Margrave of Moravia, a title that, since neither he nor his late brother left an heir, would quietly revert to Wenceslas himself once Jobst died in 1411, closing a loop this whole saga [[link:two-brothers-one-crown-1402]]opened back in 1402[[/link]].\n\nPeace didn't fix the kingdom it was supposed to save. Kutná Hora's silver, already gutted by [[link:the-siege-that-broke-kutna-hora-1402]]the 1402–1403 siege[[/link]], kept declining through the early 1400s. Between recurring plague and a Church still split into rival popes nobody could agree on, Bohemia's economy never got its old shine back. Roads turned dangerous, robbery and murder became routine, and the poorest simply starved.",
-      cz: "Na jaře 1405 si Jošt, Václav a Zikmund konečně sedli a uzavřeli mír. Oficiálně boje skončily. Neoficiálně nevyhrál doopravdy nikdo: Prokop, propuštěný po zajetí od vlastních bratranců, z něj vyšel jako zlomený muž a 4. září 1405 zemřel. Jošt se stal jediným moravským markrabětem, titulem, který se, jelikož po sobě ani on, ani jeho zesnulý bratr nezanechali dědice, potichu vrátí zpátky Václavovi po Joštově vlastní smrti v roce 1411, čímž se uzavře kruh, který se celá tahle sága [[link:two-brothers-one-crown-1402]]otevřela už v roce 1402[[/link]].\n\nMír nespravil království, které měl zachránit. Kutnohorské stříbro, už tak zdecimované [[link:the-siege-that-broke-kutna-hora-1402]]obležením z let 1402–1403[[/link]], dál upadalo i začátkem 15. století. Mezi opakujícím se morem a církví pořád rozdělenou mezi soupeřící papeže, na kterých se nikdo neshodl, se české hospodářství už nikdy nevzpamatovalo do starého lesku. Cesty zpustly, loupeže a vraždy zevšedněly a ti nejchudší prostě umírali hladem.",
-      zh: "1405年春天，约布斯特、瓦茨拉夫和西吉斯蒙德终于坐下来，谈成了和平。名义上，战争结束了。实际上，谁都没真正赢到什么：普罗科普从堂兄弟们手里获释后，已经是个被彻底拖垮的人，1405年9月4日便去世了。约布斯特成了摩拉维亚唯一的藩侯，而这个头衔，由于他和已故的弟弟都没留下继承人，会在约布斯特1411年去世后悄悄归还给瓦茨拉夫本人，正好合上了这整段故事[[link:two-brothers-one-crown-1402]]从1402年就已经打开[[/link]]的那个环。\n\n和平并没有修好它本该拯救的这个王国。库特纳霍拉的白银，早已被[[link:the-siege-that-broke-kutna-hora-1402]]1402至1403年那场围城[[/link]]掏得所剩无几，进入15世纪初依然在持续衰落。反复爆发的瘟疫，再加上教会依然被两位谁也说服不了谁的教皇撕成两半，波希米亚的经济再也没能恢复往日的光彩。道路变得危险，抢劫和谋杀成了家常便饭，最穷的人干脆活活饿死。",
-    },
-    wikipediaUrl: "https://en.wikipedia.org/wiki/Wenceslaus_IV_of_Bohemia",
-  },
-  {
-    slug: "the-many-lives-of-an-outlaw-1406",
-    era: "religious-turmoil",
-    startYear: 1406.5,
-    year: {
-      en: "1406–1419",
-      cz: "1406–1419",
-      zh: "1406年－1419年",
-    },
-    tone: "humorous",
-    title: {
-      en: "The Many Lives of an Outlaw",
-      cz: "Mnohé životy jednoho psance",
-      zh: "一个亡命之徒的多重人生",
-    },
-    hookLine: {
-      en: "One man spent these years as a bandit, a mercenary, and the queen's own chamberlain. Historians are still trying to reconcile the résumé.",
-      cz: "Jeden muž strávil tyhle roky jako psanec, žoldnéř a komoří samotné královny. Historici se s tímhle životopisem dodnes nějak perou.",
-      zh: "同一个人，在这几年里先后当过强盗、雇佣兵，还有王后的侍从长。历史学家至今还在努力把这份履历拼到一起。",
-    },
-    summary: {
-      en: "One particular gang, run by a freelance bandit named Matěj Vůdce, spent 1406 to 1409 raiding [[link:the-five-roses-1394]]Rožmberk[[/link]] caravans in South Bohemia before Henry III of Rožmberk finally cracked down and Wenceslas pardoned what was left of them in June 1409. One of the men who rode with that gang for at least part of the stretch was a soldier in his late forties named Jan Žižka. It's the earliest chapter of his life anyone can actually document; everything before 1406 is silence. [[b]]If you already met a battle-hardened Žižka running with Rožmberk-wanted outlaws somewhere in Kingdom Come: Deliverance II's own 1403, you met him a few years ahead of schedule.[[/b]] The game isn't wrong about what he did. It's just in a hurry to get there.\n\nHe was already missing an eye by then, and had been since he was a boy of about ten, in an injury nobody can convincingly explain. (Not, contrary to a certain video game's dramatic license, something the player character hacked out of him decades later.) His own name might even come from it: \"Žižka\" is popularly translated as \"one-eyed\" in Old Czech, though historians can't actually agree on that, since records already call him Žižka as early as 1378, arguably before whichever injury or reputation was supposed to have earned him the nickname. Competing theories trace it instead to a pet form of the name Sigismund (a nice bit of irony, given who he'd spend the rest of his life fighting), to a word for fiery red hair, or to a family crest. Nobody's sure. Everyone just kept calling him Žižka anyway.\n\nHis résumé got considerably more respectable after that, at least on paper. He probably spent some of those unaccounted years as an actual mercenary, most likely fighting for Poland and Lithuania against the Teutonic Knights, and was almost certainly present at the Battle of Grunwald in 1410, one of the largest battles of medieval Europe. By around 1411, he'd landed a genuine court appointment: chamberlain to Wenceslas's own queen, Sophia of Bavaria, a position later chroniclers say he held while accompanying her to hear Jan Hus preach. A contemporary who actually knew him, the Hussite chronicler Lawrence of Březová, confirms he was still a recognized member of Wenceslas's own court by 1419. Outlaw, probably a mercenary, and queen's chamberlain, somehow all the same résumé.",
-      cz: "Jedna konkrétní tlupa, kterou vedl nezávislý lapka jménem Matěj Vůdce, přepadala v letech 1406 až 1409 karavany [[link:the-five-roses-1394]]Rožmberků[[/link]] v jižních Čechách, než Jindřich III. z Rožmberka s bandou konečně zatočil a Václav v červnu 1409 zbytek pomiloval. Jedním z mužů, kteří s touhle tlupou jezdili, přinejmenším část té doby, byl voják po čtyřicítce jménem Jan Žižka. Je to nejstarší kapitola jeho života, kterou lze doopravdy doložit; všechno před rokem 1406 je ticho. [[b]]Jestli jste už bojem ostříleného Žižku, jak jezdí s psanci hledanými Rožmberky, potkali někde v roce 1403 ve hře Kingdom Come: Deliverance II, potkali jste ho o pár let dřív, než měl.[[/b]] Hra se v tom, co dělal, nemýlí. Jenom to má trochu naspěch.\n\nJedno oko mu chybělo už tehdy, a to od chlapeckých let, kolem desátého roku věku, kdy o něj přišel při zranění, které nikdo pořádně nedokáže vysvětlit. (Rozhodně ne tak, jak si to s dramatickou licencí představuje jedna konkrétní videohra — že by mu ho o desítky let později vyřízla hratelná postava.) Možná z toho pochází i jeho vlastní jméno: přízvisko \"Žižka\" se běžně překládá jako \"jednooký\" ve staré češtině, i když se na tom historici vůbec neshodnou, protože jako Žižka je uváděn už v záznamech z roku 1378, tedy pravděpodobně dřív, než k němu zranění nebo pověst, která mu tuhle přezdívku měla vynést, vůbec stihly dorazit. Jiné teorie ho odvozují z domácké podoby jména Zikmund (pěkná ironie, vezmeme-li v úvahu, s kým strávil zbytek života bojem), ze slova pro ohnivě zrzavé vlasy, nebo z rodového erbu. Nikdo si není jistý. Žižkou mu prostě všichni říkali dál.\n\nJeho životopis se pak výrazně zušlechtil, aspoň na papíře. Nejspíš strávil část těch nezaznamenaných let jako opravdový žoldnéř, pravděpodobně na straně Polska a Litvy proti řádu německých rytířů, a téměř jistě byl přítomen u bitvy u Grunwaldu v roce 1410, jedné z největších bitev středověké Evropy. Kolem roku 1411 získal skutečné dvorské postavení: komořího samotné Václavovy manželky, královny Žofie Bavorské, funkci, kterou podle pozdějších kronikářů zastával i tehdy, když ji doprovázel na kázání Jana Husa. Současník, který ho osobně znal, husitský kronikář Vavřinec z Březové, potvrzuje, že v roce 1419 byl pořád uznávaným členem Václavova vlastního dvora. Psanec, možná žoldnéř, a komoří královny, to všechno v jednom životopise.",
-      zh: "有一伙人，头目是个独行大盗，叫马特伊·伍德采，1406年到1409年间一直在南波希米亚打劫[[link:the-five-roses-1394]]罗森贝格[[/link]]家族的商队，直到亨利三世·冯·罗森贝格终于对这伙人下了狠手，瓦茨拉夫也在1409年6月赦免了剩下的人。至少有一段时间，跟着这伙人一起行动的，还有一位年近五十的士兵，名叫扬·杰式卡。这是他人生中，如今唯一能被确切记录下来的最早一段；1406年之前的一切，都是一片空白。[[b]]如果你在《天国：拯救2》自己设定的1403年里，就已经碰到过一个身经百战、跟着被罗森贝格家族通缉的亡命之徒混在一起的杰式卡，那你只是提前几年见到了他。[[/b]]游戏没写错他做过什么，只是有点着急让他登场。\n\n那时候他已经瞎了一只眼睛，而且从十岁左右当男孩起就是这样，具体是怎么受的伤，如今谁也说不清楚。（绝不是像某款电子游戏戏剧化处理的那样，是几十年后被那个可操控的主角一刀挑掉的。）他这个姓氏说不定就是打这儿来的：\"杰式卡\"（Žižka）通常被译作古捷克语里的\"独眼\"，不过历史学家对此其实并没有定论，因为早在1378年的记载里，他就已经被称作\"杰式卡\"了，很可能比这次受伤、或者足以让他得到这个绰号的名声都要早。另外几种理论则认为，这个姓氏来自\"西吉斯蒙德\"（Zikmund）的昵称变体（考虑到他后半生一直在跟这个名字的人打仗，这个巧合相当讽刺）、或者指他一头火红的头发，又或者跟家族纹章有关。谁也说不准。大家索性就一直这么叫他了。\n\n他后来的履历倒是体面了不少，至少纸面上如此。他很可能在那段无从考证的日子里，真的当过雇佣兵，多半是站在波兰和立陶宛一边对抗条顿骑士团，而且几乎可以肯定，他出现在了1410年的格伦瓦德之战，中世纪欧洲规模最大的几场战役之一。大约1411年前后，他还得到了一个真正的宫廷职位：瓦茨拉夫王后索菲亚·冯·巴伐利亚的侍从长，据后世史书记载，他还曾以这个身份陪着王后去听胡斯讲道。一位真正认识他本人的同时代人——胡斯派史学家瓦夫日涅茨·冯·布热佐娃——证实，到1419年，他依然是瓦茨拉夫宫廷里公认的一员。强盗、也许当过雇佣兵、王后侍从长，全都写在了同一份履历上。",
-    },
-    wikipediaUrl: "https://en.wikipedia.org/wiki/Jan_%C5%BDi%C5%BEka",
   },
   {
     slug: "the-brother-who-replaced-him-1410",
@@ -10692,10 +10747,20 @@ export const historyEvents = [
       zh: "就连瓦茨拉夫自己的头衔，也没能消停下来。到1410年，它永久归了那个当年帮着把他关起来的弟弟。",
     },
     summary: {
-      en: "Even Wenceslas's own paperwork couldn't sit still. In 1409, the Council of Pisa, busy trying to end the very Schism that had helped cost him his own title nine years earlier, formally recognized him as King of the Romans all over again, mostly as a jab at his rival Rupert. It never translated into actual power. Rupert died the following year, and this time it was Sigismund who claimed the vacant title for good, elected King of the Romans in 1410, the very job the electors had stripped from his own brother a decade before. He didn't even win it cleanly: Jobst briefly out-polled him for the same crown on 1 October 1410, only to drop dead three months later and clear the field anyway. The title Wenceslas had held since he was fifteen now belonged, for good, to the brother who'd once helped lock him up to get it.",
-      cz: "Ani Václavovy vlastní papíry nevydržely v klidu. V roce 1409 ho pisánský koncil, zaneprázdněný snahou ukončit právě to schizma, které ho o devět let dřív stálo vlastní titul, znovu formálně uznal římským králem, hlavně jako výpad proti jeho sokovi Ruprechtovi. Ve skutečnou moc se to nikdy nepřevedlo. Ruprecht zemřel následující rok, a tentokrát si uprázdněný titul natrvalo přivlastnil Zikmund, zvolený římským králem v roce 1410, přesně na tu pozici, kterou kurfiřti jeho vlastnímu bratrovi vzali o deset let dřív. Ani tu nevyhrál bez boje: Jošt ho v hlasování o tutéž korunu 1. října 1410 krátce předstihl, jen aby o tři měsíce později náhle zemřel a stejně uvolnil pole. Titul, který Václav držel od svých patnácti let, teď natrvalo připadl bratrovi, který ho kdysi pomohl uvěznit, aby ho získal.",
-      zh: "就连瓦茨拉夫自己的头衔文书，也没能消停。1409年，比萨教会会议一心想终结那场九年前曾让他丢掉头衔的教会大分裂，却顺手又正式承认了他罗马人的国王身份，这么做，主要是为了敲打他的对手鲁普雷希特。这个头衔始终没能换来任何实权。第二年鲁普雷希特去世，这一次，把空缺的头衔永久收入囊中的换成了西吉斯蒙德，1410年，他当选为罗马人的国王，接手的正是十年前选帝侯们从自己哥哥手里夺走的那个位子。他甚至都没能干干净净地赢下这个头衔：约布斯特在同一场王位角逐里，1410年10月1日一度票数领先于他，结果三个月后突然暴毙，照样白白让出了这个位置。瓦茨拉夫十五岁起就握在手里的这个头衔，如今永久地归了这位弟弟，当年正是这位弟弟，帮着把他关起来，只为了自己能得到它。",
+      en: "Wenceslas had already lost the title of [[link:the-crown-they-took-away-1400]]King of the Romans[[/link]] once, deposed in 1400 for neglecting the empire. In 1409, of all things, the Council of Pisa handed it back to him on paper, not as a favor but as a jab at his rival Rupert, since Pisa was busy trying to end the very Schism that had cost Wenceslas the title in the first place. It never translated into actual power. Rupert died the following year, and this time it was Sigismund who claimed the vacant title for good, elected King of the Romans in 1410, the very job the electors had stripped from his own brother a decade before. He didn't even win it cleanly: Jobst briefly out-polled him for the same crown on 1 October 1410, only to drop dead three months later and clear the field anyway. The title Wenceslas had held since he was fifteen now belonged, for good, to the brother who'd once helped lock him up to get it.",
+      cz: "Václav už jednou přišel o titul [[link:the-crown-they-took-away-1400]]římského krále[[/link]], sesazen v roce 1400 za zanedbávání říše. V roce 1409 mu ho, ze všech věcí zrovna, vrátil pisánský koncil, ale ne jako laskavost, spíš jako výpad proti jeho sokovi Ruprechtovi, protože koncil se zrovna snažil ukončit to samé schizma, které Václava o titul kdysi stálo. Ve skutečnou moc se to nikdy nepřevedlo. Ruprecht zemřel následující rok, a tentokrát si uprázdněný titul natrvalo přivlastnil Zikmund, zvolený římským králem v roce 1410, přesně na tu pozici, kterou kurfiřti jeho vlastnímu bratrovi vzali o deset let dřív. Ani tu nevyhrál bez boje: Jošt ho v hlasování o tutéž korunu 1. října 1410 krátce předstihl, jen aby o tři měsíce později náhle zemřel a stejně uvolnil pole. Titul, který Václav držel od svých patnácti let, teď natrvalo připadl bratrovi, který ho kdysi pomohl uvěznit, aby ho získal.",
+      zh: "瓦茨拉夫早在1400年就已经因为疏于打理帝国事务，被剥夺过一次[[link:the-crown-they-took-away-1400]]罗马人的国王[[/link]]头衔。没想到1409年，比萨教会会议又把这个头衔还给了他，可这根本不是什么善意，纯粹是拿来敲打他对手鲁普雷希特的一记闷棍，毕竟教会会议一心想终结的，正是当年让瓦茨拉夫丢掉头衔的那场大分裂本身。这个头衔始终没能换来任何实权。第二年鲁普雷希特去世，这一次，把空缺的头衔永久收入囊中的换成了西吉斯蒙德，1410年，他当选为罗马人的国王，接手的正是十年前选帝侯们从自己哥哥手里夺走的那个位子。他甚至都没能干干净净地赢下这个头衔：约布斯特在同一场王位角逐里，1410年10月1日一度票数领先于他，结果三个月后突然暴毙，照样白白让出了这个位置。瓦茨拉夫十五岁起就握在手里的这个头衔，如今永久地归了这位弟弟，当年正是这位弟弟，帮着把他关起来，只为了自己能得到它。",
     },
+    // relatedLandmarks deliberately empty: this card's own content (the
+    // 1409 Pisa restoration, the 1410 Sigismund/Jobst election) is all
+    // German-imperial-politics with no Bohemian location to tie to. The
+    // live DB previously carried two stale relatedLandmarks entries
+    // (Wenceslas's "second arrest"/Krumlov passage) left over from before
+    // the 2026-09-16 six-way split, when this card still covered the
+    // 1402 arrest material now living in its own separate cards - cleared
+    // 2026-09-20 after the user flagged them as wrong for this card's
+    // current, narrower content.
+    relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Wenceslaus_IV_of_Bohemia",
   },
   // Era 5's tenth card, right after 'the-brother-who-replaced-him-1410'.
@@ -10729,7 +10794,7 @@ export const historyEvents = [
   //   in one card: the old 1412 card's own re-explanation of the basic
   //   indulgence mechanic (already covered in this card's own second
   //   paragraph) and its own separate "Bohemia was already poor" framing
-  //   (already covered via the [[link:peace-and-decline-1405]] line - note
+  //   (already covered via the [[link:a-poisoned-peace-1404]] line - note
   //   2026-09-16: this link's target was retargeted from the old, now-
   //   split 'the-brother-who-replaced-him-1410' when that card's economic-
   //   decline material moved to 'peace-and-decline-1405'). The John
@@ -10791,9 +10856,9 @@ export const historyEvents = [
       zh: "这场争夺罗马的战争需要钱。已经在挨饿的波希米亚，还是被要求掏这笔钱，街头还敲着鼓招揽生意。",
     },
     summary: {
-      en: "The Council of Pisa had tried to end the Church's Great Schism in 1409 by electing a third pope instead of choosing between the existing two. It didn't work. Rome still had Gregory XII, Avignon still had Benedict XIII, and now there was a third claimant as well, Alexander V, who died within the year and was replaced by Baldassare Cossa, a former soldier with a reputation shady enough that later writers called him a pirate, crowned as John XXIII. In 1411, John XXIII decided the fastest way to settle the argument was force: he proclaimed a crusade against King Ladislaus of Naples, the man protecting Gregory XII and, more to the point, sitting on Rome itself.\n\nWars cost money, and Bohemia, whatever its own troubles, was still part of the empire John XXIII could tax. Papal bulls issued that September and December proclaimed indulgences across the kingdom: pay for one, and the buyer's own sins would skip purgatory entirely on the way to heaven. Bohemians weren't fooled for a second. They recognized a fundraising drive dressed up as theology when they saw one, and they recognized the timing even faster: [[link:peace-and-decline-1405]]the kingdom's own silver had already run dry[[/link]], its economy hadn't recovered in a decade, and robbery and starvation were already everyday facts of life. Asking a starving country to buy its way out of the afterlife struck most people as exactly the kind of joke it was.\n\nThe theology took nearly a year to actually show up on Bohemia's own doorstep. On 22 May 1412, a papal commissioner named Wenceslas Tiem reached Prague to run the sale in person, and he wasted no time setting up shop. Money chests went up in three of the city's most prominent churches at once, St. Vitus Cathedral, the Týn Church, and the Vyšehrad basilica, and Tiem's agents beat drums through the streets to draw a crowd, the same trick used to sell fish or cloth at any market stall in the city. The absurdity wasn't just that the theology itself was for sale, though. It was who was cutting themselves in on the profits: King Wenceslas himself and Prague's own archbishop had both agreed to take a share of whatever the sale actually raised. The crown that couldn't feed its own subjects had found room in its own budget for a cut of the collection plate.\n\nOne person in particular was watching closely. The rector of Charles University, a man named Jan Hus, took note.",
-      cz: "Pisánský koncil se v roce 1409 pokusil ukončit velké papežské schizma tím, že místo výběru mezi dvěma stávajícími papeži zvolil rovnou třetího. Nefungovalo to. Řím měl pořád Řehoře XII., Avignon pořád Benedikta XIII., a teď k tomu přibyl ještě třetí uchazeč, Alexandr V., který do roka zemřel a na jeho místo nastoupil Baldassare Cossa, bývalý voják s pověstí natolik pochybnou, že mu pozdější autoři říkali pirát, korunovaný jako Jan XXIII. V roce 1411 se Jan XXIII rozhodl, že nejrychlejší způsob, jak spor urovnat, je síla: vyhlásil křížovou výpravu proti neapolskému králi Ladislavovi, muži, který chránil Řehoře XII. a hlavně seděl přímo na Římě.\n\nVálky stojí peníze, a Čechy, ať měly vlastních potíží kolik chtěly, byly pořád součástí říše, kterou mohl Jan XXIII zdanit. Papežské buly vydané toho září a prosince vyhlásily po celém království odpustky: zaplať za jeden, a kupcovy vlastní hříchy přeskočí očistec rovnou na cestě do nebe. Čechy se nenechaly ani na chvíli oklamat. Poznaly sbírku na peníze přestrojenou za teologii, jakmile ji uviděly, a ještě rychleji poznaly její načasování: [[link:peace-and-decline-1405]]stříbro království už dávno došlo[[/link]], hospodářství se za deset let nevzpamatovalo a loupeže s hladomorem už patřily k všednímu dni. Žádat vyhladovělou zemi, aby si koupila cestu z posmrtného trestu, připadalo většině lidí přesně jako ten vtip, kterým to bylo.\n\nTeologie se na český práh dostala až skoro po roce. 22. května 1412 dorazil do Prahy papežský komisař jménem Wenzel Tiem, aby řídil prodej osobně, a neztrácel čas se zabydlením. Pokladny na peníze se objevily hned ve třech nejvýznamnějších kostelech města najednou, v katedrále svatého Víta, v Týnském chrámu a v bazilice na Vyšehradě, a Tiemovi lidé bubnovali v ulicích, aby přilákali dav, přesně ten samý trik, kterým se ve městě prodávaly ryby nebo sukno na jakémkoli tržišti. Absurdní na tom ale nebylo jen to, že se prodávala teologie. Bylo to, kdo si na tom vzal svůj podíl: král Václav osobně i pražský arcibiskup se dohodli, že si oba vezmou svůj podíl z toho, co prodej skutečně vynese. Koruna, která nedokázala nakrmit vlastní poddané, si ve vlastním rozpočtu přece jen našla místo na podíl z mešní pokladničky.\n\nJeden člověk to sledoval obzvlášť pozorně. Rektor Karlovy univerzity, muž jménem Jan Hus, si toho všiml.",
-      zh: "1409年，比萨教会会议试图终结教会的大分裂，办法却是干脆再选出第三位教皇，而不是从原有两位里选一个。结果没能奏效。罗马那边照样有格里高利十二世，阿维尼翁那边照样有本笃十三世，如今又多了第三位争夺者亚历山大五世，此人不到一年就去世了，继任的是巴尔达萨雷·科萨，一位前军人，名声之差，后世作者干脆叫他\"海盗\"，登基后称约翰二十三世。1411年，约翰二十三世认定，平息这场争端最快的办法就是动武：他宣布对那不勒斯国王拉迪斯劳斯发起十字军东征，此人正是庇护格里高利十二世的靠山，更关键的是，他手里还攥着罗马城本身。\n\n打仗要花钱，而波希米亚，不管自己有多少烦心事，依然是约翰二十三世能够征税的帝国的一部分。那年9月和12月颁布的教皇诏书，在整个王国范围内宣布出售赎罪券：花钱买一张，买主的罪孽就能在通往天堂的路上，直接跳过炼狱。波希米亚人一秒钟都没被骗过去。这是一场披着神学外衣的敛财活动，他们一眼就看穿了，而且更快地看穿了这背后的时机：[[link:peace-and-decline-1405]]王国的白银早就枯竭了[[/link]]，经济十年都没缓过来，抢劫和饥饿早已成了家常便饭。让一个正在挨饿的国家花钱买来世的安宁，在大多数人眼里，这就是个不折不扣的笑话。\n\n这套神学花了将近一年时间，才真正来到波希米亚自己的家门口。1412年5月22日，一位名叫文策尔·蒂姆的教皇特使抵达布拉格，亲自主持这场销售，一到就立刻开张。钱箱同时摆进了城里三座最重要的教堂：圣维特大教堂、提恩教堂，还有维谢赫拉德的圣殿，蒂姆的手下敲着鼓在街上招揽人群，跟这座城市集市上卖鱼卖布的手法一模一样。可荒唐的不只是神学被拿来贩卖。更荒唐的是谁分了这笔钱：国王瓦茨拉夫本人和布拉格自己的大主教，都同意从这场销售的实际收益里分一杯羹。一个连自己臣民都养不活的王室，却在自己的预算里，给教堂捐款箱的抽成留出了位置。\n\n有一个人，看得比谁都更仔细。查理大学的校长，名叫胡斯，看在眼里。",
+      en: "The Council of Pisa had tried to end the Church's Great Schism in 1409 by electing a third pope instead of choosing between the existing two. It didn't work. Rome still had Gregory XII, Avignon still had Benedict XIII, and now there was a third claimant as well, Alexander V, who died within the year and was replaced by Baldassare Cossa, a former soldier with a reputation shady enough that later writers called him a pirate, crowned as John XXIII. In 1411, John XXIII decided the fastest way to settle the argument was force: he proclaimed a crusade against King Ladislaus of Naples, the man protecting Gregory XII and, more to the point, sitting on Rome itself.\n\nWars cost money, and Bohemia, whatever its own troubles, was still part of the empire John XXIII could tax. Papal bulls issued that September and December proclaimed indulgences across the kingdom: pay for one, and the buyer's own sins would skip purgatory entirely on the way to heaven. Bohemians weren't fooled for a second. They recognized a fundraising drive dressed up as theology when they saw one, and they recognized the timing even faster: [[link:a-poisoned-peace-1404]]the kingdom's own silver had already run dry[[/link]], its economy hadn't recovered in a decade, and robbery and starvation were already everyday facts of life. Asking a starving country to buy its way out of the afterlife struck most people as exactly the kind of joke it was.\n\nThe theology took nearly a year to actually show up on Bohemia's own doorstep. On 22 May 1412, a papal commissioner named Wenceslas Tiem reached Prague to run the sale in person, and he wasted no time setting up shop. Money chests went up in three of the city's most prominent churches at once, St. Vitus Cathedral, the Týn Church, and the Vyšehrad basilica, and Tiem's agents beat drums through the streets to draw a crowd, the same trick used to sell fish or cloth at any market stall in the city. The absurdity wasn't just that the theology itself was for sale, though. It was who was cutting themselves in on the profits: King Wenceslas himself and Prague's own archbishop had both agreed to take a share of whatever the sale actually raised. The crown that couldn't feed its own subjects had found room in its own budget for a cut of the collection plate.\n\nOne person in particular was watching closely. The rector of Charles University, a man named Jan Hus, took note.",
+      cz: "Pisánský koncil se v roce 1409 pokusil ukončit velké papežské schizma tím, že místo výběru mezi dvěma stávajícími papeži zvolil rovnou třetího. Nefungovalo to. Řím měl pořád Řehoře XII., Avignon pořád Benedikta XIII., a teď k tomu přibyl ještě třetí uchazeč, Alexandr V., který do roka zemřel a na jeho místo nastoupil Baldassare Cossa, bývalý voják s pověstí natolik pochybnou, že mu pozdější autoři říkali pirát, korunovaný jako Jan XXIII. V roce 1411 se Jan XXIII rozhodl, že nejrychlejší způsob, jak spor urovnat, je síla: vyhlásil křížovou výpravu proti neapolskému králi Ladislavovi, muži, který chránil Řehoře XII. a hlavně seděl přímo na Římě.\n\nVálky stojí peníze, a Čechy, ať měly vlastních potíží kolik chtěly, byly pořád součástí říše, kterou mohl Jan XXIII zdanit. Papežské buly vydané toho září a prosince vyhlásily po celém království odpustky: zaplať za jeden, a kupcovy vlastní hříchy přeskočí očistec rovnou na cestě do nebe. Čechy se nenechaly ani na chvíli oklamat. Poznaly sbírku na peníze přestrojenou za teologii, jakmile ji uviděly, a ještě rychleji poznaly její načasování: [[link:a-poisoned-peace-1404]]stříbro království už dávno došlo[[/link]], hospodářství se za deset let nevzpamatovalo a loupeže s hladomorem už patřily k všednímu dni. Žádat vyhladovělou zemi, aby si koupila cestu z posmrtného trestu, připadalo většině lidí přesně jako ten vtip, kterým to bylo.\n\nTeologie se na český práh dostala až skoro po roce. 22. května 1412 dorazil do Prahy papežský komisař jménem Wenzel Tiem, aby řídil prodej osobně, a neztrácel čas se zabydlením. Pokladny na peníze se objevily hned ve třech nejvýznamnějších kostelech města najednou, v katedrále svatého Víta, v Týnském chrámu a v bazilice na Vyšehradě, a Tiemovi lidé bubnovali v ulicích, aby přilákali dav, přesně ten samý trik, kterým se ve městě prodávaly ryby nebo sukno na jakémkoli tržišti. Absurdní na tom ale nebylo jen to, že se prodávala teologie. Bylo to, kdo si na tom vzal svůj podíl: král Václav osobně i pražský arcibiskup se dohodli, že si oba vezmou svůj podíl z toho, co prodej skutečně vynese. Koruna, která nedokázala nakrmit vlastní poddané, si ve vlastním rozpočtu přece jen našla místo na podíl z mešní pokladničky.\n\nJeden člověk to sledoval obzvlášť pozorně. Rektor Karlovy univerzity, muž jménem Jan Hus, si toho všiml.",
+      zh: "1409年，比萨教会会议试图终结教会的大分裂，办法却是干脆再选出第三位教皇，而不是从原有两位里选一个。结果没能奏效。罗马那边照样有格里高利十二世，阿维尼翁那边照样有本笃十三世，如今又多了第三位争夺者亚历山大五世，此人不到一年就去世了，继任的是巴尔达萨雷·科萨，一位前军人，名声之差，后世作者干脆叫他\"海盗\"，登基后称约翰二十三世。1411年，约翰二十三世认定，平息这场争端最快的办法就是动武：他宣布对那不勒斯国王拉迪斯劳斯发起十字军东征，此人正是庇护格里高利十二世的靠山，更关键的是，他手里还攥着罗马城本身。\n\n打仗要花钱，而波希米亚，不管自己有多少烦心事，依然是约翰二十三世能够征税的帝国的一部分。那年9月和12月颁布的教皇诏书，在整个王国范围内宣布出售赎罪券：花钱买一张，买主的罪孽就能在通往天堂的路上，直接跳过炼狱。波希米亚人一秒钟都没被骗过去。这是一场披着神学外衣的敛财活动，他们一眼就看穿了，而且更快地看穿了这背后的时机：[[link:a-poisoned-peace-1404]]王国的白银早就枯竭了[[/link]]，经济十年都没缓过来，抢劫和饥饿早已成了家常便饭。让一个正在挨饿的国家花钱买来世的安宁，在大多数人眼里，这就是个不折不扣的笑话。\n\n这套神学花了将近一年时间，才真正来到波希米亚自己的家门口。1412年5月22日，一位名叫文策尔·蒂姆的教皇特使抵达布拉格，亲自主持这场销售，一到就立刻开张。钱箱同时摆进了城里三座最重要的教堂：圣维特大教堂、提恩教堂，还有维谢赫拉德的圣殿，蒂姆的手下敲着鼓在街上招揽人群，跟这座城市集市上卖鱼卖布的手法一模一样。可荒唐的不只是神学被拿来贩卖。更荒唐的是谁分了这笔钱：国王瓦茨拉夫本人和布拉格自己的大主教，都同意从这场销售的实际收益里分一杯羹。一个连自己臣民都养不活的王室，却在自己的预算里，给教堂捐款箱的抽成留出了位置。\n\n有一个人，看得比谁都更仔细。查理大学的校长，名叫胡斯，看在眼里。",
     },
     relatedLandmarks: [
       {
@@ -12121,18 +12186,15 @@ export const historyEvents = [
   //   people out windows) — matches this project's own established
   //   pre-modern default voice (dry closer even inside serious content),
   //   and it's the user's own line, not something Claude added.
-  // - EDITED 2026-09-16: Žižka's own introduction moved back to
-  //   'the-many-lives-of-an-outlaw-1406' (the 1406-1409 Rožmberk-estate
-  //   outlaw stretch, the earliest documentable chapter of his life - see
-  //   that card's own dev comment for the full research; this link target
-  //   was itself updated later the same session when the original combined
-  //   'the-brother-who-replaced-him-1410' card was split three ways and
-  //   the Žižka material got its own dedicated card). This card no longer
-  //   introduces him fresh; it now calls back to that introduction
-  //   instead, per the user's explicit request not to reintroduce him and
-  //   to keep the transition natural rather than abrupt. The imageCaption
-  //   and quote (a direct Hussite Chronicle translation) are left
-  //   untouched.
+  // - REVERSED 2026-09-20 at the user's explicit request: this card now
+  //   introduces Žižka fresh again (the 2026-09-16 "call back to
+  //   the-many-lives-of-an-outlaw-1406" framing is gone). The outlaw-years/
+  //   eye/name-etymology/mercenary-résumé material formerly on that card
+  //   didn't move to a new slug; that same card was repositioned instead —
+  //   now a background card sitting right after this one, opening with a
+  //   backward link to this card instead of introducing him cold. The
+  //   imageCaption and quote (a direct Hussite Chronicle translation) are
+  //   left untouched.
   {
     slug: "the-first-defenestration-1419",
     era: "religious-turmoil",
@@ -12170,9 +12232,9 @@ export const historyEvents = [
       zh: "瓦茨拉夫以为自己终于给布拉格换来了安宁。可他为此付出的代价，恰恰就是点燃这座城市的那根引线。",
     },
     summary: {
-      en: "For four years, ever since the [[link:a-voice-that-wouldnt-burn-1415]]interdict[[/link]] that followed the Bohemian Protestation, Prague's churches had gone silent: no masses, no sacraments, nothing. Most of Prague's own citizens were Hussite reformers by now, but that didn't mean they'd stopped believing in Christ or God, only in Rome's exclusive right to administer either. Wenceslas decided the standoff couldn't go on forever and set about negotiating directly with the papacy. In 1419, the interdict finally came off. The \"Lazy King\" counted it as a genuine achievement of his own, and went off to rest at the hunting castle he'd recently had built for himself south of the city, in the woods near Kunratice.\n\n[[b]]The interdict wasn't lifted for free, and the papacy's own accounting was sharper than anyone's. The price: Prague's Hussite-majority town council was dissolved outright.[[/b]] Arrests followed, and a new, Catholic-majority council took its place.\n\nPrague's Hussites were furious. On 30 July that same year, a group of radical Hussites, led by the priest Jan Želivský and an old acquaintance, [[link:the-many-lives-of-an-outlaw-1406]]Jan Žižka[[/link]], now a soldier in his fifties with a decade of outlaw fighting behind him, marched through the streets and gathered in front of the New Town Hall on Charles Square, demanding the release of the Hussites who'd just been arrested. Passing right by the town hall as they gathered was a procession of its own, escorting the consecrated host from St. Stephen's church back to a nearby monastery — communion under both kinds, on open display, right past the men who'd just cracked down on it.\n\nThe councillors inside mocked the procession as it went by, and someone hurled a stone down into the crowd. That was all it took.\n\n[[quote:0]]\n\nThe furious crowd stormed the building, Žižka himself leading the charge inside, and threw the mayor, several councillors, and the under-bailiff, seven men in total, straight out the window and down into the armed crowd below. The protest had become a killing.\n\nThe riot didn't stop there. It spread outward, turning next on Catholic churches and the people inside them. This was only the beginning.\n\nIf you're wondering why this section is called the \"first\" defenestration, don't worry, there's a second one coming, and a third. The straightforwardly-minded Czechs, it turns out, have a real habit of solving their political grievances by throwing the people responsible straight out a window.",
-      cz: "Čtyři roky, od doby, kdy po České protestaci přišel [[link:a-voice-that-wouldnt-burn-1415]]interdikt[[/link]], mlčely pražské kostely: žádné mše, žádné svátosti, nic. Většina pražských měšťanů byla v té době husitská, ale to neznamenalo, že by přestali věřit v Krista nebo v Boha, jen v Římovo výhradní právo je zprostředkovávat. Václav usoudil, že takhle to nemůže pokračovat donekonečna, a pustil se do přímého vyjednávání s papežskou kurií. V roce 1419 byl interdikt konečně zrušen. \"Líný král\" si to počítal jako svůj vlastní velký úspěch a odjel si odpočinout na lovecký hrad, který si nedávno nechal postavit jižně od města, v lesích u Kunratic.\n\n[[b]]Zrušení interdiktu ale nebylo zadarmo, a papežské účetnictví bylo bystřejší než čí­koli jiné. Cenou bylo úplné rozpuštění pražské městské rady, do té doby převážně husitské.[[/b]] Následovala zatýkání a na místo staré rady nastoupila nová, tentokrát převážně katolická.\n\nPražští husité byli rozzuření. 30. července téhož roku vyrazila skupina radikálních husitů, vedená knězem Janem Želivským a starým známým, [[link:the-many-lives-of-an-outlaw-1406]]Janem Žižkou[[/link]], teď už vojákem po padesátce s deseti lety psaneckého boje za sebou, ulicemi a shromáždila se před Novoměstskou radnicí na Karlově náměstí, s požadavkem propuštění právě zatčených husitů. Kolem radnice zrovna procházelo i vlastní procesí, doprovázející posvěcenou hostii od kostela svatého Štěpána zpátky do nedalekého kláštera — přijímání podobojí předváděné veřejně, přímo kolem mužů, kteří proti němu právě tvrdě zakročili.\n\nRadní uvnitř se procesí, jak procházelo kolem, vysmáli, a někdo z okna hodil kamenem do davu. To stačilo.\n\n[[quote:0]]\n\nZuřící dav vtrhl dovnitř, s Žižkou samotným v čele útoku, a vyhodil starostu, několik radních a podrychtáře, celkem sedm mužů, přímo oknem dolů, do ozbrojeného davu. Protest se změnil v zabíjení.\n\nNepokoje se tím nezastavily. Šířily se dál a obrátily se i proti katolickým kostelům a lidem v nich. A tohle byl teprve začátek.\n\nKdyby vás zajímalo, proč se tahle část jmenuje \"první\" defenestrace, nebojte se, přijde ještě druhá a třetí. Přímočaří Češi, jak se ukazuje, mají opravdu ve zvyku řešit své politické spory tak, že toho, kdo za ně může, prostě vyhodí z okna.",
-      zh: "自从《波西米亚抗议书》之后那道[[link:a-voice-that-wouldnt-burn-1415]]停教令[[/link]]颁布以来，布拉格全城的教堂已经沉寂了四年：没有弥撒，没有圣事，什么都没有。这时布拉格的市民大多已经是胡斯派改革者，但这不代表他们不再相信基督和上帝，只是不再承认罗马对圣事的独家垄断权。瓦茨拉夫认定这样僵持下去不是办法，便开始直接与教廷斡旋。1419年，禁令终于解除了。这位\"懒王\"把这算作自己的一桩大功劳，随后便前往布拉格南面昆拉蒂采的树林里，去他不久前为自己修建的那座猎苑城堡休息。\n\n[[b]]停教令可不是白解除的，教皇那杆秤，比谁都精明。代价是：原本以胡斯信徒为主的布拉格市议会被整个解散。[[/b]]随之而来的是逮捕，取而代之的是一个以天主教徒为主的新市议会。\n\n布拉格的胡斯信徒怒不可遏。同年7月30日，一批激进的胡斯信徒，在胡斯派神父扬·柴利夫斯基和我们的老熟人[[link:the-many-lives-of-an-outlaw-1406]]扬·杰式卡[[/link]]（如今已是年过半百、身后还有十年亡命生涯的老兵）率领下走上街头，聚集到新市政厅前的查理广场，要求释放刚刚被捕的胡斯信徒。就在他们聚集的同时，市政厅旁正好有一支自己的游行队伍经过，正护送着圣体，从圣斯捷潘教堂返回附近的一座修道院。两领圣餐，就这样公然展示在众目睽睽之下，正好从这些刚刚对它痛下狠手的人面前经过。\n\n市政厅里的议员们，趁着队伍经过时嘲笑了他们，还有人从窗口朝人群扔了一块石头。这一下，就够了。\n\n[[quote:0]]\n\n狂怒的人群冲进了大楼，杰式卡本人冲在最前面，把市长、几名议员和一名副执行官，一共七人，直接从窗口扔了下去，摔进了楼下手持长矛的人群里。一场抗议，变成了一场杀戮。\n\n骚乱并未就此停止，反而继续蔓延，转而开始攻击天主教堂和教堂里的人。然而，这只是个开始。\n\n如果你纳闷这一节的小标题为什么叫\"第一次\"抛窗事件，别急，后面还有第二次，第三次。直来直去的捷克人，看来是真的很习惯用\"把责任人直接扔出窗外\"这种方式，来解决自己的政治分歧。",
+      en: "For four years, ever since the [[link:a-voice-that-wouldnt-burn-1415]]interdict[[/link]] that followed the Bohemian Protestation, Prague's churches had gone silent: no masses, no sacraments, nothing. Most of Prague's own citizens were Hussite reformers by now, but that didn't mean they'd stopped believing in Christ or God, only in Rome's exclusive right to administer either. Wenceslas decided the standoff couldn't go on forever and set about negotiating directly with the papacy. In 1419, the interdict finally came off. The \"Lazy King\" counted it as a genuine achievement of his own, and went off to rest at the hunting castle he'd recently had built for himself south of the city, in the woods near Kunratice.\n\n[[b]]The interdict wasn't lifted for free, and the papacy's own accounting was sharper than anyone's. The price: Prague's Hussite-majority town council was dissolved outright.[[/b]] Arrests followed, and a new, Catholic-majority council took its place.\n\nPrague's Hussites were furious. On 30 July that same year, a group of radical Hussites, led by the priest Jan Želivský and a battle-scarred soldier in his fifties named Jan Žižka, marched through the streets and gathered in front of the New Town Hall on Charles Square, demanding the release of the Hussites who'd just been arrested. Passing right by the town hall as they gathered was a procession of its own, escorting the consecrated host from St. Stephen's church back to a nearby monastery — communion under both kinds, on open display, right past the men who'd just cracked down on it.\n\nThe councillors inside mocked the procession as it went by, and someone hurled a stone down into the crowd. That was all it took.\n\n[[quote:0]]\n\nThe furious crowd stormed the building, Žižka himself leading the charge inside, and threw the mayor, several councillors, and the under-bailiff, seven men in total, straight out the window and down into the armed crowd below. The protest had become a killing.\n\nThe riot didn't stop there. It spread outward, turning next on Catholic churches and the people inside them. This was only the beginning.\n\nIf you're wondering why this section is called the \"first\" defenestration, don't worry, there's a second one coming, and a third. The straightforwardly-minded Czechs, it turns out, have a real habit of solving their political grievances by throwing the people responsible straight out a window.",
+      cz: "Čtyři roky, od doby, kdy po České protestaci přišel [[link:a-voice-that-wouldnt-burn-1415]]interdikt[[/link]], mlčely pražské kostely: žádné mše, žádné svátosti, nic. Většina pražských měšťanů byla v té době husitská, ale to neznamenalo, že by přestali věřit v Krista nebo v Boha, jen v Římovo výhradní právo je zprostředkovávat. Václav usoudil, že takhle to nemůže pokračovat donekonečna, a pustil se do přímého vyjednávání s papežskou kurií. V roce 1419 byl interdikt konečně zrušen. \"Líný král\" si to počítal jako svůj vlastní velký úspěch a odjel si odpočinout na lovecký hrad, který si nedávno nechal postavit jižně od města, v lesích u Kunratic.\n\n[[b]]Zrušení interdiktu ale nebylo zadarmo, a papežské účetnictví bylo bystřejší než čí­koli jiné. Cenou bylo úplné rozpuštění pražské městské rady, do té doby převážně husitské.[[/b]] Následovala zatýkání a na místo staré rady nastoupila nová, tentokrát převážně katolická.\n\nPražští husité byli rozzuření. 30. července téhož roku vyrazila skupina radikálních husitů, vedená knězem Janem Želivským a válkou ošlehaným vojákem po padesátce jménem Jan Žižka, ulicemi a shromáždila se před Novoměstskou radnicí na Karlově náměstí, s požadavkem propuštění právě zatčených husitů. Kolem radnice zrovna procházelo i vlastní procesí, doprovázející posvěcenou hostii od kostela svatého Štěpána zpátky do nedalekého kláštera — přijímání podobojí předváděné veřejně, přímo kolem mužů, kteří proti němu právě tvrdě zakročili.\n\nRadní uvnitř se procesí, jak procházelo kolem, vysmáli, a někdo z okna hodil kamenem do davu. To stačilo.\n\n[[quote:0]]\n\nZuřící dav vtrhl dovnitř, s Žižkou samotným v čele útoku, a vyhodil starostu, několik radních a podrychtáře, celkem sedm mužů, přímo oknem dolů, do ozbrojeného davu. Protest se změnil v zabíjení.\n\nNepokoje se tím nezastavily. Šířily se dál a obrátily se i proti katolickým kostelům a lidem v nich. A tohle byl teprve začátek.\n\nKdyby vás zajímalo, proč se tahle část jmenuje \"první\" defenestrace, nebojte se, přijde ještě druhá a třetí. Přímočaří Češi, jak se ukazuje, mají opravdu ve zvyku řešit své politické spory tak, že toho, kdo za ně může, prostě vyhodí z okna.",
+      zh: "自从《波西米亚抗议书》之后那道[[link:a-voice-that-wouldnt-burn-1415]]停教令[[/link]]颁布以来，布拉格全城的教堂已经沉寂了四年：没有弥撒，没有圣事，什么都没有。这时布拉格的市民大多已经是胡斯派改革者，但这不代表他们不再相信基督和上帝，只是不再承认罗马对圣事的独家垄断权。瓦茨拉夫认定这样僵持下去不是办法，便开始直接与教廷斡旋。1419年，禁令终于解除了。这位\"懒王\"把这算作自己的一桩大功劳，随后便前往布拉格南面昆拉蒂采的树林里，去他不久前为自己修建的那座猎苑城堡休息。\n\n[[b]]停教令可不是白解除的，教皇那杆秤，比谁都精明。代价是：原本以胡斯信徒为主的布拉格市议会被整个解散。[[/b]]随之而来的是逮捕，取而代之的是一个以天主教徒为主的新市议会。\n\n布拉格的胡斯信徒怒不可遏。同年7月30日，一批激进的胡斯信徒，在胡斯派神父扬·柴利夫斯基和一位年过半百、身经百战的老兵扬·杰式卡率领下走上街头，聚集到新市政厅前的查理广场，要求释放刚刚被捕的胡斯信徒。就在他们聚集的同时，市政厅旁正好有一支自己的游行队伍经过，正护送着圣体，从圣斯捷潘教堂返回附近的一座修道院。两领圣餐，就这样公然展示在众目睽睽之下，正好从这些刚刚对它痛下狠手的人面前经过。\n\n市政厅里的议员们，趁着队伍经过时嘲笑了他们，还有人从窗口朝人群扔了一块石头。这一下，就够了。\n\n[[quote:0]]\n\n狂怒的人群冲进了大楼，杰式卡本人冲在最前面，把市长、几名议员和一名副执行官，一共七人，直接从窗口扔了下去，摔进了楼下手持长矛的人群里。一场抗议，变成了一场杀戮。\n\n骚乱并未就此停止，反而继续蔓延，转而开始攻击天主教堂和教堂里的人。然而，这只是个开始。\n\n如果你纳闷这一节的小标题为什么叫\"第一次\"抛窗事件，别急，后面还有第二次，第三次。直来直去的捷克人，看来是真的很习惯用\"把责任人直接扔出窗外\"这种方式，来解决自己的政治分歧。",
     },
     quotes: [
       {
@@ -12220,6 +12282,42 @@ export const historyEvents = [
       ],
     },
     wikipediaUrl: "https://en.wikipedia.org/wiki/Defenestrations_of_Prague",
+  },
+  // MOVED and REPURPOSED 2026-09-20 at the user's request: this card used
+  // to sit dated 1406, introducing Žižka fresh before the-first-
+  // defenestration-1419 ever mentioned him. Now that card introduces him
+  // directly, so this one moved to sit right after it (startYear 1419.15)
+  // and became a background card instead - the same biographical content
+  // (outlaw years, eye/name etymology, mercenary résumé), just opening
+  // with a backward link to the card that already showed him in action
+  // rather than introducing him cold.
+  {
+    slug: "the-many-lives-of-an-outlaw-1406",
+    era: "religious-turmoil",
+    startYear: 1419.15,
+    cardType: "background",
+    year: {
+      en: "1406–1419",
+      cz: "1406–1419",
+      zh: "1406年－1419年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Many Lives of an Outlaw",
+      cz: "Mnohé životy jednoho psance",
+      zh: "一个亡命之徒的多重人生",
+    },
+    hookLine: {
+      en: "You just met him breaking down a door. His own résumé before that moment is even stranger.",
+      cz: "Právě jste ho poznali, jak vyráží dveře. Jeho vlastní životopis před tou chvílí je ještě podivnější.",
+      zh: "你刚见识过他破门而入的那一幕。而他在那一刻之前的履历，比那一幕还要离奇。",
+    },
+    summary: {
+      en: "You just watched [[link:the-first-defenestration-1419]]Jan Žižka[[/link]] lead a mob through a window and out into the crowd below. His own résumé before that moment is stranger than the riot itself, and barely any of it is properly documented.\n\nOne particular gang, run by a freelance bandit named Matěj Vůdce, spent 1406 to 1409 raiding [[link:the-five-roses-1394]]Rožmberk[[/link]] caravans in South Bohemia before Henry III of Rožmberk finally cracked down and Wenceslas pardoned what was left of them in June 1409. One of the men who rode with that gang for at least part of the stretch was a soldier in his late forties named Jan Žižka. It's the earliest chapter of his life anyone can actually document; everything before 1406 is silence. [[b]]If you already met a battle-hardened Žižka running with Rožmberk-wanted outlaws somewhere in Kingdom Come: Deliverance II's own 1403, you met him a few years ahead of schedule.[[/b]] The game isn't wrong about what he did. It's just in a hurry to get there.\n\nHe was already missing an eye by then, and had been since he was a boy of about ten, in an injury nobody can convincingly explain. (Not, contrary to a certain video game's dramatic license, something the player character hacked out of him decades later.) His own name might even come from it: \"Žižka\" is popularly translated as \"one-eyed\" in Old Czech, though historians can't actually agree on that, since records already call him Žižka as early as 1378, arguably before whichever injury or reputation was supposed to have earned him the nickname. Competing theories trace it instead to a pet form of the name Sigismund (a nice bit of irony, given who he'd spend the rest of his life fighting), to a word for fiery red hair, or to a family crest. Nobody's sure. Everyone just kept calling him Žižka anyway.\n\nHis résumé got considerably more respectable after that, at least on paper. He probably spent some of those unaccounted years as an actual mercenary, most likely fighting for Poland and Lithuania against the Teutonic Knights, and was almost certainly present at the Battle of Grunwald in 1410, one of the largest battles of medieval Europe. By around 1411, he'd landed a genuine court appointment: chamberlain to Wenceslas's own queen, Sophia of Bavaria, a position later chroniclers say he held while accompanying her to hear Jan Hus preach. A contemporary who actually knew him, the Hussite chronicler Lawrence of Březová, confirms he was still a recognized member of Wenceslas's own court by 1419 - the same year, and very possibly the same court, that watched him lead a mob through a window.",
+      cz: "Právě jste sledovali, jak [[link:the-first-defenestration-1419]]Jan Žižka[[/link]] vede dav oknem ven, dolů do davu. Jeho vlastní životopis před tou chvílí je ještě podivnější než ta vzpoura samotná, a sotva co z něj je pořádně doloženo.\n\nJedna konkrétní tlupa, kterou vedl nezávislý lapka jménem Matěj Vůdce, přepadala v letech 1406 až 1409 karavany [[link:the-five-roses-1394]]Rožmberků[[/link]] v jižních Čechách, než Jindřich III. z Rožmberka s bandou konečně zatočil a Václav v červnu 1409 zbytek pomiloval. Jedním z mužů, kteří s touhle tlupou jezdili, přinejmenším část té doby, byl voják po čtyřicítce jménem Jan Žižka. Je to nejstarší kapitola jeho života, kterou lze doopravdy doložit; všechno před rokem 1406 je ticho. [[b]]Jestli jste už bojem ostříleného Žižku, jak jezdí s psanci hledanými Rožmberky, potkali někde v roce 1403 ve hře Kingdom Come: Deliverance II, potkali jste ho o pár let dřív, než měl.[[/b]] Hra se v tom, co dělal, nemýlí. Jenom to má trochu naspěch.\n\nJedno oko mu chybělo už tehdy, a to od chlapeckých let, kolem desátého roku věku, kdy o něj přišel při zranění, které nikdo pořádně nedokáže vysvětlit. (Rozhodně ne tak, jak si to s dramatickou licencí představuje jedna konkrétní videohra, že by mu ho o desítky let později vyřízla hratelná postava.) Možná z toho pochází i jeho vlastní jméno: přízvisko \"Žižka\" se běžně překládá jako \"jednooký\" ve staré češtině, i když se na tom historici vůbec neshodnou, protože jako Žižka je uváděn už v záznamech z roku 1378, tedy pravděpodobně dřív, než k němu zranění nebo pověst, která mu tuhle přezdívku měla vynést, vůbec stihly dorazit. Jiné teorie ho odvozují z domácké podoby jména Zikmund (pěkná ironie, vezmeme-li v úvahu, s kým strávil zbytek života bojem), ze slova pro ohnivě zrzavé vlasy, nebo z rodového erbu. Nikdo si není jistý. Žižkou mu prostě všichni říkali dál.\n\nJeho životopis se pak výrazně zušlechtil, aspoň na papíře. Nejspíš strávil část těch nezaznamenaných let jako opravdový žoldnéř, pravděpodobně na straně Polska a Litvy proti řádu německých rytířů, a téměř jistě byl přítomen u bitvy u Grunwaldu v roce 1410, jedné z největších bitev středověké Evropy. Kolem roku 1411 získal skutečné dvorské postavení: komořího samotné Václavovy manželky, královny Žofie Bavorské, funkci, kterou podle pozdějších kronikářů zastával i tehdy, když ji doprovázel na kázání Jana Husa. Současník, který ho osobně znal, husitský kronikář Vavřinec z Březové, potvrzuje, že v roce 1419 byl pořád uznávaným členem Václavova vlastního dvora - téhož roku, a možná i téhož dvora, který ho sledoval, jak vede dav oknem ven.",
+      zh: "你刚刚看到[[link:the-first-defenestration-1419]]扬·杰式卡[[/link]]带头把人从窗口扔了出去，摔进楼下的人群里。可他在那一刻之前的人生履历，比这场暴动本身还要离奇，而且大半根本没留下什么像样的记载。\n\n有一伙人，头目是个独行大盗，叫马特伊·伍德采，1406年到1409年间一直在南波希米亚打劫[[link:the-five-roses-1394]]罗森贝格[[/link]]家族的商队，直到亨利三世·冯·罗森贝格终于对这伙人下了狠手，瓦茨拉夫也在1409年6月赦免了剩下的人。至少有一段时间，跟着这伙人一起行动的，还有一位年近五十的士兵，名叫扬·杰式卡。这是他人生中，如今唯一能被确切记录下来的最早一段；1406年之前的一切，都是一片空白。[[b]]如果你在《天国：拯救2》自己设定的1403年里，就已经碰到过一个身经百战、跟着被罗森贝格家族通缉的亡命之徒混在一起的杰式卡，那你只是提前几年见到了他。[[/b]]游戏没写错他做过什么，只是有点着急让他登场。\n\n那时候他已经瞎了一只眼睛，而且从十岁左右当男孩起就是这样，具体是怎么受的伤，如今谁也说不清楚。（绝不是像某款电子游戏戏剧化处理的那样，是几十年后被那个可操控的主角一刀挑掉的。）他这个姓氏说不定就是打这儿来的：\"杰式卡\"（Žižka）通常被译作古捷克语里的\"独眼\"，不过历史学家对此其实并没有定论，因为早在1378年的记载里，他就已经被称作\"杰式卡\"了，很可能比这次受伤、或者足以让他得到这个绰号的名声都要早。另外几种理论则认为，这个姓氏来自\"西吉斯蒙德\"（Zikmund）的昵称变体（考虑到他后半生一直在跟这个名字的人打仗，这个巧合相当讽刺）、或者指他一头火红的头发，又或者跟家族纹章有关。谁也说不准。大家索性就一直这么叫他了。\n\n他后来的履历倒是体面了不少，至少纸面上如此。他很可能在那段无从考证的日子里，真的当过雇佣兵，多半是站在波兰和立陶宛一边对抗条顿骑士团，而且几乎可以肯定，他出现在了1410年的格伦瓦德之战，中世纪欧洲规模最大的几场战役之一。大约1411年前后，他还得到了一个真正的宫廷职位：瓦茨拉夫王后索菲亚·冯·巴伐利亚的侍从长，据后世史书记载，他还曾以这个身份陪着王后去听胡斯讲道。一位真正认识他本人的同时代人，胡斯派史学家瓦夫日涅茨·冯·布热佐娃，证实，到1419年，他依然是瓦茨拉夫宫廷里公认的一员，而这一年，很可能还是同一个宫廷，眼睁睁看着他带头把人从窗口扔了出去。",
+    },
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Jan_%C5%BDi%C5%BEka",
   },
   // Updated 2026-09-02, later the same session: Jan Žižka added to
   // the-first-defenestration-1419 above (both the prose and the
