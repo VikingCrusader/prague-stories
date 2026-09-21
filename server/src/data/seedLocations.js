@@ -29641,6 +29641,49 @@ Nedaleko, na levém břehu Vltavy mezi Malou Chuchlí a Zlíchovem, leží Barra
 🎁 彩蛋：地质学家1884年就在这里的岩石上立了纪念牌，比电车到来早了119年。在巴兰多夫的这一带，地质学家先到一步。`,
     },
   },
+  {
+    // City card, added 2026-09-21 at the user's request (coordinates
+    // user-supplied) so the History Timeline's Kutná Hora / Německý Brod
+    // card has a landmark. Single-city card per the scope rule: the square,
+    // church, museum and Havlíček house are all folded into this one entry.
+    // Facts cross-checked against cs./en.wikipedia and tic.muhb.cz; founding
+    // date is hedged because sources disagree (~1234 vs ~1251).
+    // Rarity 'epic' is my own pick (user didn't specify), between Kolín
+    // (epic) and Jihlava (mythic).
+    name: 'Havlíčkův Brod',
+    slug: 'havlickuv-brod',
+    localizedNames: { cz: 'Havlíčkův Brod', zh: '哈夫利奇库夫布罗德' },
+    labels: ['city', 'historical'],
+    coordinates: { lat: 49.60695541339965, lng: 15.579395536763649 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Havl%C3%AD%C4%8Dk%C5%AFv_Brod',
+    description: {
+      en: `Havlíčkův Brod is a town named after a journalist, which is rarer than it sounds: the Austrian government prosecuted and exiled the man, and his name only landed on a whole town almost ninety years after his death.
+
+The town began as a mining settlement at a ford across the Sázava river, founded in the 13th century by Smil of Lichtenburk, whose name gave it its first title, Smilův Brod. Silver was the draw, and King Otakar II laid claim to the area for exactly that reason. German miners and settlers poured in, and by the early 14th century the place was known as Německý Brod, "German Ford". Then came 1422. When Sigismund's crusading army fell apart in the east of Bohemia, its remnants fled here and Žižka's Hussites stormed the town, killing much of its population and burning it down. Silver mining never recovered. The town did, eventually. It became a royal town in 1637 and, once the railway arrived in the 1870s, a junction that still ties Prague, Brno, Jihlava and Pardubice together.
+
+The name change came in 1945, as the German-speaking population was expelled, and honours Karel Havlíček Borovský (1821–1856), the journalist who studied at the local gymnasium from 1833 to 1838. His merchant father bought the corner house on the main square in 1832, and it is now the Vysočina Museum, with an exhibition on Havlíček's life, a period apartment and a "ghost panopticon" in the basement. Havlíček later ran into serious trouble with Austria's censors and was sent into exile in Brixen in the Tyrol, which is why the two towns are twinned today. Around the same square stand the Church of the Assumption, whose 51-metre tower is the town's main landmark and whose bell dates from the 1330s, one of the oldest in the country, and the Old Town Hall, rebuilt in Renaissance style after a fire in 1662. Composer Bedřich Smetana went to school here too, from 1837 to 1839.
+
+🎁 Bonus: Havlíčkův Brod claims to be the centre of Europe, on the authority of the fictional Czech genius Jára Cimrman, and has marked the spot with a giant funnel on Sázavská street. A fictional man declared it, so no one has ever properly disproved it.`,
+
+      cz: `Havlíčkův Brod je město pojmenované po novináři, což je vzácnější, než to zní: rakouská vláda ho stíhala a vyhnala a jeho jméno dostalo celé město až téměř devadesát let po jeho smrti.
+
+Město začalo jako hornická osada u brodu přes řeku Sázavu, kterou ve 13. století založil Smil z Lichtenburka a která po něm dostala své první jméno, Smilův Brod. Lákalo sem stříbro a král Přemysl Otakar II si oblast z právě tohoto důvodu přisvojil. Přišli němečtí horníci a osadníci a na začátku 14. století se místu říkalo Německý Brod. Pak přišel rok 1422. Když se křižácké vojsko Zikmunda ve východních Čechách rozpadlo, jeho zbytky utekly sem a Žižkovi husité město dobyli, pobili velkou část jeho obyvatel a vypálili ho. Těžba stříbra se už nikdy nezvedla. Město ano. V roce 1637 se stalo královským městem a po příchodu železnice v 70. letech 19. století uzlem, který dodnes spojuje Prahu, Brno, Jihlavu a Pardubice.
+
+K přejmenování došlo v roce 1945, s odsunem německy mluvícího obyvatelstva, a čest se jím vzdává Karlu Havlíčkovi Borovskému (1821–1856), novináři, který tu v letech 1833 až 1838 studoval na gymnáziu. Jeho otec, obchodník, koupil roku 1832 nárožní dům na hlavním náměstí a dnes je v něm Muzeum Vysočiny s expozicí o Havlíčkově životě, dobovým bytem a „strašidelným panoptikem“ ve sklepě. Havlíček později narazil na vážné potíže s rakouskou cenzurou a byl poslán do vyhnanství do Brixenu v Tyrolsku, a proto jsou dnes obě města partnerská. Kolem téhož náměstí stojí kostel Nanebevzetí Panny Marie, jehož 51 metrů vysoká věž je hlavní dominantou města a jehož zvon z 30. let 14. století patří k nejstarším v zemi, a Stará radnice, přestavěná v renesančním slohu po požáru v roce 1662. Do zdejší školy chodil i skladatel Bedřich Smetana, v letech 1837 až 1839.
+
+🎁 Bonus: Havlíčkův Brod se prohlašuje za střed Evropy na základě autority fiktivního českého génia Járy Cimrmana a toto místo označil obřím trychtýřem v Sázavské ulici. Prohlásil to smyšlený muž, takže to nikdo nikdy pořádně nevyvrátil.`,
+
+      zh: `哈夫利奇库夫布罗德是一座以记者命名的城市，这比听上去要罕见：当年奥地利政府起诉并流放了这位记者，他的名字直到他去世将近九十年后，才落到一整座城市头上。
+
+这座城最初是萨扎瓦河渡口边的一处采矿聚落，13世纪由利希滕堡的斯米尔建立，最早就以他的名字叫斯米尔渡口。吸引人的是白银，奥塔卡二世正是为此宣称这片土地归自己所有。德意志矿工和移民纷纷涌入，14世纪初这里已经被叫作“德意志布罗德”。然后是1422年。西吉斯蒙德的十字军在波希米亚东部溃散，残部逃到了这里，杰式卡的胡斯军攻破城池，杀死了大部分居民，还把城烧掉了。银矿业从此一蹶不振，城市倒是缓了过来：1637年成为王家城市，1870年代铁路通车后，又成了至今仍连着布拉格、布尔诺、伊赫拉瓦和帕尔杜比采的交通枢纽。
+
+改名发生在1945年，德意志居民被驱逐之际，名字是为了纪念卡雷尔·哈夫利切克·博罗夫斯基（1821–1856），这位记者1833至1838年在当地的文法学校读书。他做商人的父亲1832年买下了主广场上的转角楼，如今那里是高地博物馆，里面有介绍哈夫利切克生平的展览、一套年代公寓，以及地下室里的“幽灵全景馆”。哈夫利切克后来同奥地利的书报检查闹得很僵，被流放到蒂罗尔的布里克森，所以今天两座城是友好城市。广场周围有圣母升天教堂，51米高的塔楼是全城地标，钟铸于14世纪30年代，是全国最古老的钟之一；还有旧市政厅，1662年大火后按文艺复兴风格重建。作曲家贝德里希·斯美塔那1837至1839年也在这里上学。
+
+🎁 彩蛋：哈夫利奇库夫布罗德自称是欧洲的中心，依据是虚构的捷克天才亚拉·齐姆尔曼的说法，还在萨扎瓦街上用一个巨大的漏斗标出了这个位置。宣布这件事的是个虚构人物，所以从来没人真正驳倒过它。`,
+    },
+  },
 ];
 
 async function run() {
