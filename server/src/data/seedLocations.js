@@ -29361,6 +29361,286 @@ V zimě je průchod dost studený na to, aby prosakující voda tvořila rampouc
 🎁 彩蛋：很多资料把这条隧道写成200米，其实它只有大约90米，是布拉格少数比自己名声短一半还多的隧道之一。它依然保住了"美洲"这个绰号。`,
     },
   },
+  {
+    name: 'Malá Ohrada',
+    slug: 'mala-ohrada',
+    localizedNames: { cz: 'Malá Ohrada', zh: '小欧赫拉达' },
+    labels: ['village-and-town', 'hidden-gem'],
+    coordinates: { lat: 50.042429373017924, lng: 14.341184401330963 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Mal%C3%A1_Ohrada',
+    description: {
+      en: `Welcome to Malá Ohrada, a quiet old-fashioned residential quarter squeezed between the panel blocks of Stodůlky and the valley, where small family houses sit in tidy rows and the loudest thing on most streets is a lawnmower. It is called "Little Ohrada", and it has been quietly proving that name wrong for a century.
+
+The quarter began in the second half of the 19th century as the Ohradská osada, a settlement northeast of the older Ohrada. It belonged to the municipality of Řeporyje but to the parish of Stodůlky, so its residents lived under one village and went to church in another. Later the older settlement became Velká Ohrada, "Big Ohrada", and the newer one Malá Ohrada. In 1911 it had 105 Catholic and 2 non-Catholic inhabitants. After the First World War it lay just outside the border of Greater Prague, and more plots were divided up for family houses and small villas, until Malá Ohrada overtook Velká Ohrada in both area and population. After 1945 it kept growing, but still only in small houses.
+
+Both Ohradas were annexed to Prague together with Řeporyje in 1974 and were then moved into the Stodůlky cadastre to make way for the planned Southwestern City. The layout today is a grid of small suburban houses, with a bell shrine with a cross on Ke klubovně street and, until at least 2011, a historic pub called U Šimáčků. The Prague Towers residential complex, finished in 2011, now stands within the quarter. In 2001 the population was 290, in 2011 it was 447 and at the end of 2016 it was 434, in 136 properties with 409 flats.
+
+🎁 Bonus: The place got the name "Little" and then outgrew the one called "Big". A quarter of a few dozen houses proved to be better at growing than the neighbour it had been named as a smaller copy of.`,
+
+      cz: `Vítejte v Malé Ohradě, klidné staromódní obytné čtvrti sevřené mezi stodůleckými paneláky a údolím, kde stojí malé rodinné domy v úhledných řadách a nejhlasitější věcí je ve většině ulic sekačka. Jmenuje se „Malá“ a už sto let tiše dokazuje, že to jméno neplatí.
+
+Čtvrť vznikla ve druhé polovině 19. století jako Ohradská osada, osada severovýchodně od starší Ohrady. Patřila k obci Řeporyje, ale byla přifařena ke Stodůlkám, takže její obyvatelé patřili k jedné obci a do kostela chodili jinam. Později se starší osadě začalo říkat Velká Ohrada a novější Malá Ohrada. V roce 1911 měla 105 katolických a 2 nekatolické obyvatele. Po první světové válce ležela hned za hranicí Velké Prahy a další pozemky se tu rozparcelovaly na rodinné domky a vilky, až Malá Ohrada rozlohou i počtem obyvatel Velkou Ohradu překonala. Po roce 1945 rostla dál, ale pořád jen malými domky.
+
+Obě Ohrady byly v roce 1974 připojeny k Praze spolu s Řeporyjemi a poté překatastrovány do Stodůlek kvůli plánovanému Jihozápadnímu Městu. Dnešní půdorys tvoří mřížka malých předměstských rodinných domů, se zvoničkou s křížem v ulici Ke klubovně a, nejméně do roku 2011, historickou hospodou U Šimáčků. Ve čtvrti dnes stojí obytný komplex Prague Towers, dokončený v roce 2011. V roce 2001 tu žilo 290 lidí, v roce 2011 to bylo 447 a koncem roku 2016 434, ve 136 nemovitostech s 409 byty.
+
+🎁 Bonus: Místo dostalo jméno „Malá“ a pak přerostlo tu, které se jmenuje „Velká“. Čtvrť z pár desítek domů se ukázala v růstu lepší než soused, jehož menší kopií měla být.`,
+
+      zh: `欢迎来到小欧赫拉达，一片安静、老派的居民区，夹在斯托杜尔基的预制板楼群和山谷之间，小小的家庭住宅排成整齐的行列，大多数街道上最响的东西是割草机。它叫"小"欧赫拉达，一个世纪以来一直在悄悄证明这个名字是错的。
+
+这片街区在19世纪下半叶最初叫作欧赫拉达聚落，位于更老的欧赫拉达东北面。它行政上属于热波里耶，教区却属于斯托杜尔基，所以居民属于一个村子，却去另一个村子做礼拜。后来，较老的那个聚落被称作大欧赫拉达，较新的这个就成了小欧赫拉达。1911年这里有105位天主教徒和2位非天主教徒。第一次世界大战之后，它刚好落在大布拉格的边界之外，更多地块被划分出来建家庭住宅和小别墅，直到小欧赫拉达在面积和人口上都超过了大欧赫拉达。1945年之后它继续发展，但依然只是些小房子。
+
+1974年，两个欧赫拉达随热波里耶一起并入布拉格，之后为了给规划中的西南新城让路，又被划入斯托杜尔基的地籍。如今的格局是一片由小型郊区住宅组成的网格，Ke klubovně街上有一座带十字架的钟亭，直到至少2011年，还有一家老酒馆U Šimáčků。2011年落成的布拉格塔楼住宅群，如今也立在这片街区里。2001年这里的人口是290，2011年是447，2016年底是434，共136处房产、409套住房。
+
+🎁 彩蛋：这个地方被叫作"小"，后来却长得比叫"大"的那个还大。一个只有几十栋房子的街区，在成长上，居然赢过了原本要当它"大号"的邻居。`,
+    },
+  },
+  {
+    name: 'Czech Photo Centre',
+    slug: 'czech-photo-centre',
+    localizedNames: { cz: 'Czech Photo Centre', zh: '捷克摄影中心' },
+    labels: ['cultural', 'modern', 'architecture'],
+    coordinates: { lat: 50.05074411318656, lng: 14.348909540594796 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Czech_Photo_Centre',
+    description: {
+      en: `Welcome to the Czech Photo Centre, a gallery in the Nové Butovice housing estate that keeps the country's best press photographs on one side and a twelve-metre camera monster on the other. Come for the pictures, stay because a sculpture is photographing you.
+
+It was built by the developer Trigema in 2014 to 2016 as part of the second phase of the Smart residential block between Seydlerova and Na Zlatě streets, close to the Nové Butovice metro station, to a design by Atelier Smitka. It opened on 13 October 2016, in the presence of the Minister of Culture Daniel Herman, the Prague mayor Adriana Krnáčová and the sculptor David Černý. The house contains exhibition rooms, a café-restaurant, a studio, a classroom, offices, an outdoor gallery and a photographic archive that held the pictures from 21 earlier editions of the Czech Press Photo competition at the moment of opening. It is run by the non-profit Czech Photo, which organises that competition every year, along with the Czech Nature Photo contest.
+
+The first show was a set of works from the VII Photo Agency, including Antonín Kratochvíl, and in December 2016 followed Jaroslav Kučera's "Sudety", a record of life in the north of the country. Outside stands "Trifot", David Černý's kinetic sculpture, a 12-metre tripod carrying a cluster of old cameras. Its mechanical eyes have real cameras inside, which record what happens around them and project the pictures onto panels at the base.
+
+🎁 Bonus: A photography centre put a giant sculpture out front that photographs the people who come to see photographs. The pictures come free with the visit, and nobody asked whether you were ready.`,
+
+      cz: `Vítejte v Czech Photo Centre, galerii na sídlišti Nové Butovice, která na jedné straně chová nejlepší české tiskové fotografie a na druhé dvanáctimetrové fotoaparátové monstrum. Přijďte kvůli snímkům a zůstaňte, protože vás fotí socha.
+
+Postavila ji developerská společnost Trigema v letech 2014 až 2016 jako součást druhé etapy obytného bloku Smart mezi ulicemi Seydlerova a Na Zlatě, poblíž stanice metra Nové Butovice, podle návrhu Ateliéru Smitka. Otevřela se 13. října 2016 za přítomnosti ministra kultury Daniela Hermana, pražské primátorky Adriany Krnáčové a sochaře Davida Černého. V domě jsou výstavní sály, kavárna-restaurace, ateliér, učebna, kanceláře, venkovní galerie a fotografický archiv, který v okamžiku otevření obsahoval snímky z 21 předchozích ročníků soutěže Czech Press Photo. Provozuje ji nezisková organizace Czech Photo, která tuto soutěž každoročně pořádá spolu se soutěží Czech Nature Photo.
+
+První výstava představila díla agentury VII Photo Agency včetně Antonína Kratochvíla a v prosinci 2016 následovali „Sudety“ Jaroslava Kučery, záznam života na severu země. Venku stojí „Trifot“, kinetická plastika Davida Černého, 12metrový stativ nesoucí shluk starých fotoaparátů. Její mechanická oka mají uvnitř skutečné kamery, které zaznamenávají dění kolem a promítají snímky na panely u paty sochy.
+
+🎁 Bonus: Fotografické centrum si před dům postavilo obří sochu, která fotí lidi, kteří přišli vidět fotografie. Snímky jsou k návštěvě zdarma a nikdo se neptal, jestli jste připraveni.`,
+
+      zh: `欢迎来到捷克摄影中心，新布托维采住宅区里的一家画廊，一边珍藏着这个国家最好的新闻摄影，另一边立着一只十二米高的相机怪物。为照片而来，因为有座雕塑在给你拍照而留下。
+
+它由开发商Trigema在2014到2016年间建成，属于"Smart"住宅街区二期的一部分，位于Seydlerova街与Na Zlatě街之间，靠近新布托维采地铁站，由Atelier Smitka设计。2016年10月13日，它在文化部长丹尼尔·赫尔曼、布拉格市长阿德里亚娜·克尔纳恰洛娃和雕塑家大卫·切尔尼的见证下开业。楼内有展厅、咖啡餐厅、工作室、教室、办公室、室外画廊，以及一座摄影档案库，开业时馆藏已包括捷克新闻摄影大赛前21届的作品。它由非营利机构Czech Photo运营，这家机构每年都会举办该大赛，还同时举办捷克自然摄影大赛。
+
+首展是VII摄影通讯社的作品，包括安东宁·克拉托赫维尔的照片，2016年12月接着展出的是亚罗斯拉夫·库切拉的"苏台德"，记录了这个国家北部的生活。室外立着大卫·切尔尼的动态雕塑"Trifot"，一座12米高的三脚架，上面架着一簇老式相机。它的机械眼睛里装着真正的摄像头，会记录周围发生的事，并把图像投射到底座的屏板上。
+
+🎁 彩蛋：一家摄影中心在门口立了一座巨型雕塑，专门拍那些来看照片的人。照片随参观免费赠送，没人问过你准备好了没有。`,
+    },
+  },
+  {
+    name: 'Mlejn Cultural House',
+    slug: 'kulturni-dum-mlejn',
+    localizedNames: { cz: 'Kulturní dům Mlejn', zh: '姆莱因文化馆' },
+    labels: ['cultural', 'communism', 'architecture'],
+    coordinates: { lat: 50.049008563380596, lng: 14.316730174287827 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to Mlejn Cultural House, a panel-estate community centre that opened in 1988, started as a home for alternative music and puppet theatre, and now hangs acrobats from its ceiling. Its name is colloquial Czech for a mill, and since opening it has ground out a steady supply of musicians, puppeteers and, more recently, circus artists.
+
+It went up in 1988 as a two-storey panel building, part of the civic amenities for the Stodůlky housing estate within the Southwestern City concept, and at first it belonged to the Prague 5 district cultural centre before becoming independent. Its early years belong to the alternative scene: Ctibor Turba, Petr and Matěj Forman and the puppet theatre Buchty a loutky all worked here. The most famous tenant was the rock school Come to Jam, founded by Petr Zeman, which launched the careers of bands such as Žlutý pes, MIG 21 and Visací zámek. Since 2006 the house has been run as a non-profit organisation supported by the Prague 13 district.
+
+An EU-funded reconstruction finished in September 2010 gave it a theatre hall with 200 seats in ten rows, a stage 14 metres wide and 5 deep, and an 8-metre ceiling with special suspension points for aerial acrobatics, plus a heat pump, partly green roofs and an underground recording studio. That is how Mlejn became home to Cirkus Mlejn and its modern circus. The programme also includes folk groups, the amateur theatre group D13 and festivals such as Fun Fatale, Stodůlecký píseček and Porta Praha, and a branch of the Municipal Library sits inside.
+
+🎁 Bonus: The building was designed in the 1980s to provide a hall for a panel housing estate. It ended up with rigging points in the ceiling so that people can hang from it. Cultural planning rarely works out this well.`,
+
+      cz: `Vítejte v Kulturním domě Mlejn, komunitním centru na panelovém sídlišti, které se otevřelo v roce 1988, začínalo jako domov alternativní hudby a loutkového divadla a dnes věší ze stropu akrobaty. Jeho jméno je hovorová podoba slova mlýn a od otevření z něj vychází stálý přísun hudebníků, loutkářů a v poslední době cirkusových umělců.
+
+Vyrostl v roce 1988 jako dvoupodlažní panelová budova, součást občanské vybavenosti stodůleckého sídliště v koncepci Jihozápadního Města, a nejprve patřil k obvodnímu kulturnímu středisku Prahy 5, než se osamostatnil. Jeho první roky patří alternativní scéně: působili tu Ctibor Turba, Petr a Matěj Formanovi a loutkové divadlo Buchty a loutky. Nejslavnějším nájemcem byla rocková škola Come to Jam, kterou založil Petr Zeman a která odstartovala kariéry kapel jako Žlutý pes, MIG 21 a Visací zámek. Od roku 2006 dům provozuje nezisková organizace podporovaná městskou částí Praha 13.
+
+Rekonstrukce financovaná z EU, dokončená v září 2010, mu dala divadelní sál s 200 místy v deseti řadách, jeviště široké 14 a hluboké 5 metrů a osmimetrový strop se zvláštními závěsnými body pro vzdušnou akrobacii, k tomu tepelné čerpadlo, částečně zelené střechy a podzemní nahrávací studio. Tak se Mlejn stal domovem Cirkusu Mlejn a moderního cirkusu. V programu jsou také folklorní soubory, amatérský divadelní spolek D13 a festivaly jako Fun Fatale, Stodůlecký píseček a Porta Praha a uvnitř sídlí pobočka Městské knihovny.
+
+🎁 Bonus: Budova byla v 80. letech navržena, aby panelové sídliště mělo sál. Nakonec dostala ve stropě závěsné body, aby z něj mohli lidé viset. Kulturní plánování jen zřídka dopadne takhle dobře.`,
+
+      zh: `欢迎来到姆莱因文化馆，一座预制板住宅区里的社区中心，1988年开业，最初是另类音乐和木偶剧的落脚地，如今从天花板上吊着杂技演员。它的名字是"磨坊"这个词的捷克口语说法，而自开业以来，它一直在源源不断地磨出音乐人、木偶师，以及近来的马戏艺术家。
+
+它1988年落成，是一座两层的预制板建筑，属于斯托杜尔基住宅区在西南新城规划下的公共配套设施，起初隶属于布拉格5区文化中心，后来才独立出来。早年属于另类文化圈：契博尔·图尔巴、彼得与马捷·福尔曼兄弟和木偶剧团Buchty a loutky都在这里工作过。最有名的租户是由彼得·泽曼创办的摇滚学校Come to Jam，它带出了Žlutý pes、MIG 21和Visací zámek等乐队。自2006年起，这座房子由布拉格13区支持的一家非营利机构运营。
+
+2010年9月完工的、由欧盟资助的改造给了它一个十排200座的剧场大厅、宽14米深5米的舞台，以及带有空中杂技专用悬挂点的8米高天花板，还有热泵、部分绿色屋顶和一间地下录音室。姆莱因由此成了Cirkus Mlejn和现代马戏的家。节目单上还有民谣团体、业余剧团D13，以及Fun Fatale、Stodůlecký píseček和Porta Praha等艺术节，里面还有一家市立图书馆的分馆。
+
+🎁 彩蛋：这座楼在1980年代的设计初衷，是给一片预制板住宅区提供一个礼堂。结果它的天花板上多了悬挂点，好让人吊在上面。文化规划很少能落得这么好。`,
+    },
+  },
+  {
+    name: 'Stodůlky House of Children and Youth',
+    slug: 'ddm-stodulky',
+    localizedNames: { cz: 'Dům dětí a mládeže Stodůlky', zh: '斯托杜尔基儿童青少年之家' },
+    labels: ['cultural'],
+    coordinates: { lat: 50.04270429629414, lng: 14.324278968148693 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to the Stodůlky House of Children and Youth, a former school building where the classrooms have been converted into 19 activity rooms and the children come by choice. It offers more than 300 clubs, so a Stodůlky child has a long list of things to go to after school, none of them homework.
+
+The organisation was founded in 1991 as a local house of children and youth. The Ministry of Education refused at first to finance it for lack of funds, and the Prague 13 leadership under Petr Bratský found the money elsewhere. It spent its early years in a series of premises: a few rooms on Lýskovec street until September 1998, then seven rooms with a garden and sports ground on Bronzová street until 2008, and finally, from September 2009, the former school on Chlupova street, when it took the present name.
+
+Growth was fast. In 1996 there were 360 participants in 29 clubs, in 2006 there were 760, and by 2011 the house counted 1,532 children a week in 150 clubs. Today it runs six main branches, from dance and sport to technical, creative, language, theatre and music clubs. One graduate stands out: Jan Šváb attended the electronics workshops from 1997 to 2000 and won the "Česká hlava" (Czech Head) award in 2005 for a technology for high-speed optical coupling of data. The house has also published its own calendar since 1998, when the first monthly A4 sheet carried the black-and-white drawings of twelve children from the art club.
+
+🎁 Bonus: One of the electronics club members of the late 1990s went on to win the Czech Head Award for an optical data technology. So somewhere in the house's history there is a kid who tinkered after school and a parent who was probably just glad the kid was busy.`,
+
+      cz: `Vítejte v Domě dětí a mládeže Stodůlky, bývalé školní budově, kde se třídy proměnily v 19 kroužkových místností a děti sem chodí dobrovolně. Nabízí přes 300 kroužků, takže stodůlecké dítě má po škole dlouhý seznam věcí, kam může jít, a žádná z nich nejsou domácí úkoly.
+
+Organizace vznikla v roce 1991 jako místní dům dětí a mládeže. Ministerstvo školství ji zpočátku odmítlo financovat kvůli nedostatku peněz a vedení Prahy 13 pod Petrem Bratským sehnalo peníze jinde. První roky se stěhovala mezi různými prostory: pár místností v ulici Lýskovec do září 1998, pak sedm místností se zahradou a hřištěm v ulici Bronzová do roku 2008 a nakonec od září 2009 bývalá škola v Chlupově ulici, kdy dostala dnešní název.
+
+Růst byl rychlý. V roce 1996 tu bylo 360 účastníků ve 29 kroužcích, v roce 2006 760 a v roce 2011 dům evidoval 1532 dětí týdně ve 150 kroužcích. Dnes má šest hlavních větví, od tance a sportu po technické, výtvarné, jazykové, divadelní a hudební kroužky. Jeden absolvent vyniká: Jan Šváb navštěvoval elektronické dílny v letech 1997 až 2000 a v roce 2005 získal cenu Česká hlava za technologii vysokorychlostního optického spojování dat. Dům také od roku 1998 vydává vlastní kalendář, kdy první měsíční list formátu A4 nesl černobílé kresby dvanácti dětí z výtvarného kroužku.
+
+🎁 Bonus: Jeden z členů elektronického kroužku z konce devadesátých let později vyhrál Českou hlavu za optickou technologii přenosu dat. Někde v historii domu tedy je dítě, které po škole kutilo, a rodič, který byl nejspíš rád, že je dítě zaměstnané.`,
+
+      zh: `欢迎来到斯托杜尔基儿童青少年之家，一座前学校大楼，教室被改成了19间活动室，孩子们是自愿来的。它开设的兴趣班超过300个，所以斯托杜尔基的孩子放学后有一长串可去的地方，其中没有一样是写作业。
+
+这个机构成立于1991年，当时叫地方儿童青少年之家。教育部起初因为经费不足拒绝资助，布拉格13区在佩特尔·布拉茨基的领导下另找到了资金。早年它搬过不少地方：1998年9月前在Lýskovec街有几间活动室，随后到2008年在Bronzová街用七个房间外加一座花园和一片运动场，最终从2009年9月起搬进了Chlupova街的旧学校，同时改成了现在的名字。
+
+它长得很快。1996年有360人参加29个兴趣班，2006年是760人，到2011年，全屋每周有1532名孩子参加150个兴趣班。如今它分为六大类，从舞蹈和运动到科技、创意、语言、戏剧和音乐都有。有一位毕业生尤其出名：扬·什瓦布在1997至2000年参加过电子工作坊，并在2005年凭一项高速光学数据耦合技术获得了"捷克之首"奖。这里从1998年起还出版自己的年历，第一期月历是A4黑白页，印着美术班十二个孩子的画。
+
+🎁 彩蛋：九十年代末的一位电子小组成员，后来凭一项光学数据技术拿到了"捷克之首"奖。所以这栋楼的历史里，某处有一个放学后爱捣鼓的孩子，还有一位家长，大概只是庆幸孩子有事可做。`,
+    },
+  },
+  {
+    name: 'Holešovice Fire Station',
+    slug: 'hasicska-stanice-holesovice',
+    localizedNames: { cz: 'Hasičská stanice Holešovice', zh: '霍莱绍维采消防站' },
+    labels: ['municipal', 'modern'],
+    coordinates: { lat: 50.107691083686696, lng: 14.443602436712974 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to the Holešovice fire station, where the old building was meant to last ten years and lasted eighty, and the new one is now among the most modern in Prague. It is the kind of place where the most dramatic thing that usually happens is somebody else's emergency.
+
+The old station was one of seven provisional stations put up in 1942, during the Protectorate, when Allied air raids on the city were feared. The decision came from the then commander of the Prague fire brigade, Colonel Bruno Petersen, who had previously been fire chief of Düsseldorf. It was a wooden building with a planned lifespan of ten years, and it was the last of those stations to survive. Firefighters worked in it under "temporary conditions" for eighty years.
+
+The replacement on Argentinská street was prepared from 2015, and construction began on 1 September 2019 on land donated by the city, at a cost of about 367 million crowns. The old wooden station was demolished completely and the new one built from scratch. It received its occupancy permit in autumn 2021, began trial operation on 5 January 2022 and was ceremonially opened on 18 January 2022, with Interior Minister Vít Rakušan, Prague mayor Zdeněk Hřib and Prague 7 mayor Jan Čižinský in attendance. It has nine garage exits onto Argentinská and works as a central station, with first- and second-line response, high-reach equipment, special vehicles and a diving unit. A nine-storey administrative building for the Prague fire directorate and a new ambulance base are planned to join it.
+
+🎁 Bonus: There is a Czech saying that nothing lasts as long as a provisional arrangement. This station is the evidence: a hut built in 1942 to serve for a decade, replaced eighty years later by a building that cost 367 million crowns.`,
+
+      cz: `Vítejte na hasičské stanici Holešovice, kde stará budova měla vydržet deset let a vydržela osmdesát a nová patří dnes k nejmodernějším v Praze. Je to místo, kde je obvykle nejdramatičtější událostí cizí neštěstí.
+
+Stará stanice byla jednou ze sedmi provizorních stanic postavených v roce 1942 za protektorátu, kdy se lidé obávali spojeneckých náletů na město. Rozhodl o nich tehdejší velitel pražských hasičů, plukovník Bruno Petersen, dříve hasičský velitel v Düsseldorfu. Byla to dřevěná budova s plánovanou životností deset let a byla poslední z těchto stanic, která se dochovala. Hasiči v ní pracovali v „provizorních podmínkách“ osmdesát let.
+
+Náhrada v Argentinské ulici se připravovala od roku 2015 a stavba začala 1. září 2019 na pozemku darovaném městem, s náklady zhruba 367 milionů korun. Stará dřevěná stanice byla zcela zbourána a nová postavena od základů. Kolaudaci dostala na podzim 2021, zkušební provoz zahájila 5. ledna 2022 a slavnostně byla otevřena 18. ledna 2022 za přítomnosti ministra vnitra Víta Rakušana, primátora Prahy Zdeňka Hřiba a starosty Prahy 7 Jana Čižinského. Má devět garážových výjezdů do Argentinské ulice a funguje jako centrální stanice s prvním a druhým sledem zásahu, výškovou technikou, speciální technikou a potápěčskou jednotkou. K ní se má přidat devítipodlažní administrativní budova pražského ředitelství hasičů a nová základna záchranné služby.
+
+🎁 Bonus: V Čechách se říká, že nic netrvá tak dlouho jako provizorium. Tahle stanice je důkaz: dřevěná bouda z roku 1942, která měla sloužit deset let, byla po osmdesáti letech nahrazena budovou za 367 milionů korun.`,
+
+      zh: `欢迎来到霍莱绍维采消防站，这里旧楼本来只打算用十年，结果用了八十年，如今的新楼则是布拉格最现代的消防站之一。在这样的地方，通常最戏剧性的事，就是别人的紧急情况。
+
+旧站是1942年保护国时期建造的七座临时消防站之一，当时人们担心盟军空袭这座城市。决定出自当时的布拉格消防指挥官布鲁诺·彼得森上校，他此前是杜塞尔多夫的消防局长。那是一座设计寿命为十年的木结构建筑，也是这批消防站里最后留下来的一座。消防员在"临时条件"里一干就是八十年。
+
+阿根廷街上的新站从2015年起筹备，2019年9月1日开工，用地由市政府无偿提供，造价约3.67亿克朗。旧的木结构站被整个拆除，新楼从零建起。它在2021年秋天拿到使用许可，2022年1月5日开始试运行，1月18日举行了开业仪式，内政部长维特·拉库尚、布拉格市长兹德涅克·赫日布和布拉格7区区长扬·奇日恩斯基到场。它朝阿根廷街开着九个车库出口，是一座中心消防站，配有第一和第二梯队出动力量、高空作业设备、特种车辆和潜水队。一座九层的布拉格消防局行政大楼和一处新的急救站也计划建在旁边。
+
+🎁 彩蛋：捷克有句俗话：没有什么比临时安排更长久。这座消防站就是证据：一座1942年建的、只打算用十年的木屋，八十年后才被一栋造价3.67亿克朗的建筑取代。`,
+    },
+  },
+  {
+    name: 'Radotín Valley',
+    slug: 'radotinske-udoli',
+    localizedNames: { cz: 'Radotínské údolí', zh: '拉多丁山谷' },
+    labels: ['nature', 'geology', 'hidden-gem'],
+    coordinates: { lat: 49.99709632366631, lng: 14.320597936055648 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Radot%C3%ADnsk%C3%A9_%C3%BAdol%C3%AD',
+    description: {
+      en: `Welcome to Radotín Valley, a nature reserve of folded rock, hidden mills and a stream that turned wheels for centuries before anyone thought to call it scenery. Prague ends here, and for a while you would never guess.
+
+The reserve covers roughly 130 hectares on the south-western edge of the city, at 247 to 353 metres above sea level, around the meeting of the Radotínský and Mlýnský streams between Zadní Kopanina, the settlement of Cikánka and Kosoř. It was first protected on 7 June 1950 and re-established on 17 September 1975, and it lies within the nature park Radotínské údolí–Chuchelský háj and the Český kras Protected Landscape Area. The bedrock is Silurian and Devonian limestone, strongly folded, which is why the valley meanders and why the rock outcrops near Cikánka and below Zadní Kopanina look so tangled. Trilobites, graptolites and brachiopods turn up here, and in the 19th century the geologist Joachim Barrande worked in the area.
+
+Twenty-two water mills once stood along the Radotínský potok, which runs 22.6 kilometres to the Berounka, and two of them, Taslarův mlýn and Zadní Mašek, still keep their original machinery. The reserve has more than 600 species of vascular plants, and the Austrian dragonhead, critically endangered here, has one of only nine Czech populations. It is also the richest site for relict insects in the whole of Český kras. In Cikánka, beside the road through the valley, a small castle-like building was put up in 1906 as an agricultural estate.
+
+🎁 Bonus: A stream 22.6 kilometres long once carried 22 mills, roughly one for every kilometre. Few streams have ever been so thoroughly put to work.`,
+
+      cz: `Vítejte v Radotínském údolí, přírodní rezervaci zvrásněné skály, skrytých mlýnů a potoka, který točil kola po staletí, než někoho napadlo nazývat ho scenérií. Tady Praha končí a chvíli byste to vůbec neřekli.
+
+Rezervace zabírá zhruba 130 hektarů na jihozápadním okraji města, ve výšce 247 až 353 metrů nad mořem, kolem soutoku Radotínského a Mlýnského potoka mezi Zadní Kopaninou, osadou Cikánka a Kosoří. Poprvé byla chráněna 7. června 1950 a znovu vyhlášena 17. září 1975 a leží v přírodním parku Radotínské údolí–Chuchelský háj a v Chráněné krajinné oblasti Český kras. Podloží tvoří silně zvrásněný vápenec siluru a devonu, proto údolí meandruje a skalní výchozy u Cikánky a pod Zadní Kopaninou vypadají tak spletitě. Nacházejí se tu trilobiti, graptolity a ramenonožci a v 19. století v oblasti pracoval geolog Joachim Barrande.
+
+Podél Radotínského potoka, který teče 22,6 kilometru až do Berounky, stálo kdysi 22 vodních mlýnů a dva z nich, Taslarův mlýn a Zadní Mašek, si dodnes zachovaly původní strojní vybavení. V rezervaci roste přes 600 druhů cévnatých rostlin a včelník rakouský, tu kriticky ohrožený, má jednu z devíti českých populací. Je to také nejbohatší lokalita reliktního hmyzu v celém Českém krasu. V Cikánce u silnice vedoucí údolím byl roku 1906 postaven malý zámeček jako hospodářské sídlo.
+
+🎁 Bonus: Potok dlouhý 22,6 kilometru kdysi unesl 22 mlýnů, zhruba jeden na každý kilometr. Jen málokterý potok byl kdy tak důkladně zapřažen do práce.`,
+
+      zh: `欢迎来到拉多丁山谷，一片有褶皱岩石、隐蔽磨坊和一条溪流的自然保护区，这条溪流推了几个世纪的水轮，才有人想到把它称作风景。布拉格在这里结束，而且有一阵子你根本猜不到。
+
+保护区面积大约130公顷，位于城市西南边缘，海拔247到353米，围绕着拉多丁溪与磨坊溪的交汇处，夹在扎德尼·科帕尼纳、茨冈卡聚落和科索日之间。它最早在1950年6月7日受到保护，1975年9月17日重新确立，位于拉多丁山谷—Chuchelský háj自然公园和捷克喀斯特保护景观区之内。基岩是强烈褶皱的志留纪和泥盆纪石灰岩，所以山谷蜿蜒曲折，茨冈卡附近和扎德尼·科帕尼纳下方的岩石露头才显得那么错综复杂。这里出土过三叶虫、笔石和腕足动物，19世纪，地质学家约阿希姆·巴朗德也曾在这一带工作。
+
+拉多丁溪长22.6公里，一直流入贝劳恩卡河，沿岸曾经有22座水磨坊，其中塔斯拉夫磨坊和Zadní Mašek两座至今仍保留着原来的机械设备。保护区里有600多种维管植物，在这里极度濒危的奥地利龙头花，占有捷克仅有的九处种群之一。这里还是整个捷克喀斯特地区遗存昆虫最丰富的地点。在公路穿过山谷的茨冈卡，1906年曾建起一座带城堡外观的小楼，原是农业庄园。
+
+🎁 彩蛋：一条22.6公里长的溪流，曾经带动了22座磨坊，大约每公里一座。很少有哪条溪流被这样彻底地拉去干活。`,
+    },
+  },
+  {
+    name: 'K Barrandovu Tram Stop',
+    slug: 'tramvajova-zastavka-k-barrandovu',
+    localizedNames: { cz: 'Tramvajová zastávka K Barrandovu', zh: 'K Barrandovu电车站' },
+    labels: ['transport', 'modern', 'architecture'],
+    coordinates: { lat: 50.035391919578466, lng: 14.383158801368321 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Tramvajov%C3%A1_tra%C5%A5_Hlubo%C4%8Depy_%E2%80%93_S%C3%ADdli%C5%A1t%C4%9B_Barrandov',
+    description: {
+      en: `Welcome to K Barrandovu, a tram stop that looks like a small spaceport that took a wrong turn and ended up in a cutting on the way to Barrandov. Its name simply means "towards Barrandov", which undersells it considerably.
+
+It is one of six pairs of stops on the Hlubočepy – Sídliště Barrandov line, which opened on 29 November 2003, and every pair has its own colour: white at Hlubočepy, yellow at Geologická, blue here, red at Chaplinovo náměstí, green at Poliklinika Barrandov and white again at the end of the original line. K Barrandovu is the blue one, and instead of standing above its surroundings it sits sunk into the terrain.
+
+The roof is what earns the futuristic label. The line's architect, Patrik Kotas, gave this stop a suspended membrane roof made of tensioned industrial textile, reported as the first use of that construction on such a large area in the Czech Republic. Like the others on the line, it is a covered, glazed stop with a steel structure and side platforms, designed to look less like a bus shelter and more like something you would board a rocket at.
+
+🎁 Bonus: The architect who gave a tram stop a roof of stretched textile also did the architectural design of the country's longest bridge, the Radotín Bridge. He seems to like transport that looks as if it has ambitions.`,
+
+      cz: `Vítejte na zastávce K Barrandovu, která vypadá jako malý kosmodrom, jenž zabloudil a skončil v zářezu na cestě na Barrandov. Její jméno znamená prostě „směrem k Barrandovu“, což ji značně podceňuje.
+
+Je jednou ze šesti dvojic zastávek na trati Hlubočepy – Sídliště Barrandov, která byla otevřena 29. listopadu 2003, a každá dvojice má svou vlastní barvu: bílou v Hlubočepech, žlutou na Geologické, modrou tady, červenou na Chaplinově náměstí, zelenou u Polikliniky Barrandov a znovu bílou na konci původní trati. K Barrandovu je ta modrá a místo aby stála nad okolím, je zapuštěna do terénu.
+
+Střecha si zasloužila přívlastek futuristická. Architekt trati Patrik Kotas dal této zastávce zavěšenou membránovou střechu z napjaté průmyslové textilie, údajně první použití této konstrukce na tak velké ploše v České republice. Stejně jako ostatní na trati je zastávka zastřešená, prosklená, s ocelovou konstrukcí a bočními nástupišti, navržená tak, aby méně připomínala autobusovou čekárnu a víc něco, z čeho se nastupuje do rakety.
+
+🎁 Bonus: Architekt, který dal tramvajové zastávce střechu z napjaté textilie, je také autorem architektonického návrhu nejdelšího mostu v zemi, Radotínského mostu. Zdá se, že má rád dopravu, která vypadá, jako by měla ambice.`,
+
+      zh: `欢迎来到K Barrandovu站，这座电车站看上去像一座走错路的小型航天发射场，一头栽进了通往巴兰多夫路上的一道路堑里。它的名字直白地说就是"通往巴兰多夫"，这实在太低估它了。
+
+它是赫卢博切皮－巴兰多夫住宅区电车线六对站台中的一对，这条线于2003年11月29日开通，每一对站台都有自己的颜色：赫卢博切皮站是白色，Geologická是黄色，这里是蓝色，Chaplinovo náměstí是红色，Poliklinika Barrandov是绿色，原线终点又是白色。K Barrandovu是蓝色的那一个，它没有立在周围环境之上，而是沉进了地里。
+
+屋顶才是它被称作未来主义的原因。这条线的建筑师帕特里克·科塔斯给这个站装了一顶用张紧的工业织物做成的悬挂式膜结构屋顶，据说是捷克首次在如此大的面积上使用这种结构。和线上的其他站一样，它是带顶、带玻璃、钢结构、两侧式站台的，设计得不太像公交站棚，更像一个可以登上火箭的地方。
+
+🎁 彩蛋：这位给电车站装上张拉织物屋顶的建筑师，同时也是全国最长的桥梁拉多丁大桥的建筑设计者。他似乎喜欢那些看起来有野心的交通设施。`,
+    },
+  },
+  {
+    name: 'Geologická Tram Stop',
+    slug: 'tramvajova-zastavka-geologicka',
+    localizedNames: { cz: 'Tramvajová zastávka Geologická', zh: 'Geologická电车站' },
+    labels: ['transport', 'modern', 'geology'],
+    coordinates: { lat: 50.036462775782326, lng: 14.388673058328022 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Tramvajov%C3%A1_tra%C5%A5_Hlubo%C4%8Depy_%E2%80%93_S%C3%ADdli%C5%A1t%C4%9B_Barrandov',
+    description: {
+      en: `Welcome to Geologická, a bright yellow tram stop named after the ground it stands on. It is more likely than most tram stops in the city to have its neighbourhood discussed in terms of Devonian stages.
+
+The name comes from the area. The land around this stop has some of the most special geology in Prague, and the Czech Geological Survey keeps its Barrandov site right nearby, at Geologická 6, where its central laboratory analyses geological materials, sediments, soils and water. On the Hlubočepy – Sídliště Barrandov line, which opened on 29 November 2003, this is the yellow stop of the six colour-coded pairs, with platforms 70 metres long and 4.5 metres wide and step-free access.
+
+Not far away, on the Vltava's left bank between Malá Chuchle and Zlíchov, lie the Barrandov Rocks, a national nature monument since 27 May 1982 and part of the Barrandien geopark. Their limestone and chert, from the Silurian–Devonian boundary through the Devonian, show what geologists call disharmonic folding from the Variscan orogeny, layers of different kinds bending in different ways, and the site is the classical reference profile with the stratotype of the lower boundary of the Zlíchov stage. A plaque from 1884 marks the Barrandova skála outcrop, and Joachim Barrande published on the geology of the Hlubočepy area in 1865, which is how the whole district ended up named after him.
+
+🎁 Bonus: Geologists put a commemorative plaque on the local rock in 1884, 119 years before the tram arrived. In this part of Barrandov, the geologists were here first.`,
+
+      cz: `Vítejte na zastávce Geologická, jasně žluté tramvajové zastávce pojmenované po půdě, na které stojí. Je pravděpodobnější než většina jiných zastávek ve městě, že se o jejím okolí mluví v termínech devonských stupňů.
+
+Jméno pochází z okolí. Půda kolem této zastávky má jednu z nejzvláštnějších geologií v Praze a Česká geologická služba má poblíž svou barrandovskou pobočku na adrese Geologická 6, kde její centrální laboratoř analyzuje geologické materiály, sedimenty, půdy a vody. Na trati Hlubočepy – Sídliště Barrandov, otevřené 29. listopadu 2003, je to žlutá zastávka ze šesti barevně odlišených dvojic, s nástupišti dlouhými 70 metrů a širokými 4,5 metru a bezbariérovým přístupem.
+
+Nedaleko, na levém břehu Vltavy mezi Malou Chuchlí a Zlíchovem, leží Barrandovské skály, národní přírodní památka od 27. května 1982 a součást geoparku Barrandien. Jejich vápence a rohovce od hranice silur–devon až po devon ukazují to, čemu geologové říkají disharmonické vrásnění při variském vrásnění, kdy se vrstvy různých druhů ohýbají různě, a lokalita je klasickým srovnávacím profilem se stratotypem dolní hranice zlíchovského stupně. Pamětní deska z roku 1884 označuje výchoz Barrandovy skály a Joachim Barrande publikoval o geologii hlubočepského okolí v roce 1865, čímž se celá čtvrť dostala ke svému jménu.
+
+🎁 Bonus: Geologové umístili pamětní desku na zdejší skálu v roce 1884, 119 let předtím, než dorazila tramvaj. V téhle části Barrandova tu byli geologové první.`,
+
+      zh: `欢迎来到Geologická站，一座明黄色的电车站，得名于它脚下的土地。比起城里大多数电车站，人们更有可能用泥盆纪的"阶"来谈论它的周边。
+
+这个名字来自这片区域。这站周围的土地拥有布拉格最特别的地质，捷克地质局的巴兰多夫基地就在附近，地址是Geologická 6，它的中心实验室在那里分析地质材料、沉积物、土壤和水。在2003年11月29日开通的赫卢博切皮－巴兰多夫住宅区电车线上，这是六对彩色站台里黄色的那一对，站台长70米、宽4.5米，无障碍通行。
+
+不远处，在伏尔塔瓦河左岸的Malá Chuchle与兹利霍夫之间，是巴兰多夫岩壁，1982年5月27日起成为国家自然遗迹，也是Barrandien地质公园的一部分。它的石灰岩和燧石，从志留纪－泥盆纪之交一直延伸到泥盆纪，呈现出地质学家所说的瓦里斯坎造山运动中的不协调褶皱，也就是不同性质的岩层各自以不同的方式弯曲，这里也是以兹利霍夫阶下界的层型剖面而闻名的经典参考剖面。1884年的一块纪念牌标记着巴兰多夫岩壁的露头，约阿希姆·巴朗德1865年就发表过关于赫卢博切皮一带地质的论著，整个街区的名字就是这样来的。
+
+🎁 彩蛋：地质学家1884年就在这里的岩石上立了纪念牌，比电车到来早了119年。在巴兰多夫的这一带，地质学家先到一步。`,
+    },
+  },
 ];
 
 async function run() {
