@@ -28732,6 +28732,635 @@ Lom je také vážným nalezištěm fosilních rostlin. Vydal složená květens
 🎁 彩蛋：附近的扎德尼·科帕尼纳村，给一套年龄超过4亿年的志留纪地层起了名字，而几百米外的这座采石坑，露出的岩石却比它年轻了三亿多年。布拉格乡间这一小片土地上，同时握着地球历史里两个差别巨大的篇章，而第二章还是靠一家黏土公司挖开的。`,
     },
   },
+  {
+    name: 'Lipence',
+    slug: 'lipence',
+    localizedNames: { cz: 'Lipence', zh: '利彭采' },
+    labels: ['village-and-town', 'historical', 'nature'],
+    coordinates: { lat: 49.96038176913898, lng: 14.359838021976662 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Lipence',
+    description: {
+      en: `Welcome to Lipence, a district that is officially part of Prague but has never entirely noticed. It sits at the far southwestern tip of the city, on the floodplain of the Berounka, where the nearest bus stop is the main urban amenity and the nearest forest is the main attraction.
+
+Lipence is really two old villages that eventually gave up and shared a name. Lipany turns up first, in 1115, when Prince Vladislav I handed the freshly founded Benedictine monastery at Kladruby a Lipany smallholder called Ten, together with his land. Lipenec appears in 1268, already listed as church property. In 1292 King Wenceslas II gave both villages to his brand-new Cistercian monastery at Zbraslav, and the monks kept them until the reforms of 1785 moved everything to the state's Religious Fund. The two settlements merged into a single village in the middle of the 19th century, and in 1974 the whole thing was transferred from the Prague-West district into Prague itself.
+
+The best-known sight nearby is Kazín, a rock spur about 233 metres high standing right at the city's edge above the river. Excavations, notably by Jan Axamit in 1916, found a Neolithic settlement, an early Iron Age hillfort and a medieval fortification, but no Slavic settlement at all. That has not stopped folklore from naming the place after Kazi, daughter of the legendary Duke Krok, so she would have had to commute. Since the 1920s the slope beside the rock has also held Kazín, a former tramp cabin colony that now counts as part of Lipence.
+
+🎁 Bonus: In Czech, "ten" simply means "that one". The first Lipence resident ever named in writing is therefore, more or less, "That Guy", and his whole recorded contribution to history is being given to a monastery along with his field.`,
+
+      cz: `Vítejte v Lipencích, městské části, která je oficiálně součástí Prahy, ale sama si toho zatím pořádně nevšimla. Leží na samém jihozápadním cípu města, v nivě Berounky, kde je hlavní městskou vymožeností autobusová zastávka a hlavní atrakcí nejbližší les.
+
+Lipence jsou vlastně dvě staré vsi, které se nakonec smířily a sdílejí jedno jméno. První se v písemných pramenech objevují Lipany, roku 1115, kdy kníže Vladislav I. daroval právě zakládanému benediktinskému klášteru v Kladrubech lipanského dusníka jménem Ten i s jeho pozemkem. Lipenec je doložen roku 1268, už jako církevní majetek. V roce 1292 daroval obě vsi král Václav II. svému novému cisterciáckému klášteru na Zbraslavi a mniši je drželi až do reforem v roce 1785, kdy všechno přešlo na náboženský fond. Obě osady se spojily v jednu obec v polovině 19. století a v roce 1974 byla celá obec z okresu Praha-západ přičleněna k Praze.
+
+Nejznámější zajímavostí v okolí je Kazín, skalní ostroh vysoký asi 233 metrů, který stojí na samém okraji města nad řekou. Průzkumy, zejména ten Jana Axamita z roku 1916, odhalily neolitické osídlení, halštatské hradiště a středověké opevnění, ale žádné slovanské osídlení. Lidové pověsti to nezastavilo a místo pojmenovaly po Kazi, dceři bájného knížete Kroka, která by tedy musela dojíždět. Od 20. let 20. století stojí pod skálou také osada Kazín, původně trampská, dnes součást Lipenců.
+
+🎁 Bonus: Slovo „ten“ znamená v češtině prostě „ten“. První obyvatel Lipenců, jehož jméno se dochovalo na papíře, je tedy víceméně „Ten Chlap“ a celý jeho zapsaný přínos dějinám spočívá v tom, že byl darován klášteru i s políčkem.`,
+
+      zh: `欢迎来到利彭采，一个官方上属于布拉格、自己却还没怎么意识到这一点的市区。它位于城市最西南的尖角，坐落在贝劳恩卡河的冲积平原上，这里最主要的城市设施是公交站，最主要的景点是最近的那片森林。
+
+利彭采其实是两座古老村庄，最后干脆共用了一个名字。先出现在文献里的是利帕尼，时间是1115年：弗拉季斯拉夫一世公爵把一名叫"Ten"的利帕尼小农连同他的土地，一并赠给了刚刚创立的克拉德鲁比本笃会修道院。利彭内茨见于1268年，那时已经是教会产业。1292年，瓦茨拉夫二世把两个村子都送给了自己新建的兹布拉斯拉夫熙笃会修道院，修士们一直管到1785年的改革，产权才转给国家宗教基金。两个聚落在19世纪中叶合并成一个村庄，1974年整个村子从布拉格西部县划入了布拉格。
+
+附近最有名的景点是卡津，一座高约233米、立在城市边缘河岸之上的岩石山嘴。考古发掘（尤其是扬·阿克萨米特1916年那次）找到了新石器时代聚落、早期铁器时代的山城和一处中世纪工事，唯独没有斯拉夫人定居的痕迹。这并没有拦住民间传说，硬是把这地方算在了传奇公爵克罗克的女儿卡兹名下，那她大概得每天通勤。从20世纪20年代起，岩石旁的山坡上还有一片名叫卡津的小木屋营地，最早是徒步旅行者的落脚处，如今算作利彭采的一部分。
+
+🎁 彩蛋：在捷克语里，"ten"就是"那个"的意思。所以利彭采有名有姓留在纸面上的第一位居民，差不多就叫"那个谁"，而他在史书里的全部贡献，就是被连人带地一起送给了修道院。`,
+    },
+  },
+  {
+    name: 'Bluk Mill',
+    slug: 'bluksky-mlyn',
+    localizedNames: { cz: 'Blukský mlýn', zh: '布卢克水磨坊' },
+    labels: ['factory', 'historical', 'hidden-gem'],
+    coordinates: { lat: 49.96051985148554, lng: 14.327230260058576 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Bluksk%C3%BD_ml%C3%BDn',
+    description: {
+      en: `Welcome to Bluk Mill, a mill named after a village that vanished so thoroughly that the mill is now its most solid piece of evidence. Bluk was recorded in 1412 and then quietly left the map, leaving behind a name, a weir and a stretch of the Berounka that still answers to it.
+
+The mill was founded in 1523 by the monks of Zbraslav Monastery, in what was then Lower Černošice. Its first tenant was a man called Viták. In 1546 Mikuláš Bludský took it over, and his family, along with a series of later millers such as Václav Rohlík from 1688, kept the wheel turning through the following centuries. One of them, Jiří Kotaška, was miller here from 1760 to 1774 and paid for the rebuilding of the church in Černošice in the year he left. By the end of the 18th century four houses had gathered around the mill and called themselves Blukský Mlýn, a hamlet with a population you could count on two hands.
+
+The real upgrade came in 1917, when Jan Brož bought the mill and set about turning it into something more ambitious. Between 1917 and 1919 he built a power plant, a weir and a villa and rebuilt the mill itself. His two Francis turbines fed electric current to Horní Černošice, Dolní Černošice and Zbraslav, so a miller on the Berounka became the local power company. Today four turbines, two Francis and two semi-Kaplan, produce 360 kilowatts and about 1.85 gigawatt-hours a year. It is still working, still private and not open to visitors, so the view is from the riverbank near the weir.
+
+🎁 Bonus: The village of Bluk disappeared six centuries ago, yet locals still call the lower riverside part of Černošice "Na Bluku", "at Bluk". A place can be gone for hundreds of years and still keep its postcode habit.`,
+
+      cz: `Vítejte u Blukského mlýna, mlýna pojmenovaného po vsi, která zmizela tak důkladně, že je dnes mlýn jejím nejpevnějším dokladem. Bluk je zmiňován roku 1412 a pak se tiše vytratil z mapy. Zůstalo po něm jméno, jez a úsek Berounky, který na ně dodnes slyší.
+
+Mlýn založili v roce 1523 mniši zbraslavského kláštera v tehdejších Dolejších Černošicích. Prvním nájemcem byl Viták. V roce 1546 ho převzal Mikuláš Bludský a jeho rodina i řada pozdějších mlynářů, třeba Václav Rohlík od roku 1688, udržovala kolo v chodu v dalších staletích. Jeden z nich, Jiří Kotaška, tu mlel v letech 1760 až 1774 a v roce svého odchodu přispěl na přestavbu kostela v Černošicích. Koncem 18. století se kolem mlýna shromáždily čtyři domy a říkaly si Blukský Mlýn, osada s počtem obyvatel, který se dal spočítat na prstech.
+
+Skutečný skok přišel v roce 1917, kdy mlýn koupil Jan Brož a začal z něj dělat něco ambicióznějšího. V letech 1917 až 1919 postavil elektrárnu, jez a vilu a přestavěl samotný mlýn. Jeho dvě Francisovy turbíny dodávaly proud do Horních Černošic, Dolních Černošic a na Zbraslav, takže mlynář na Berounce se stal místní elektrárenskou společností. Dnes tu pracují čtyři turbíny, dvě Francisovy a dvě semikaplanovy, s výkonem 360 kilowattů a roční výrobou zhruba 1,85 gigawatthodiny. Mlýn stále funguje, zůstává soukromý a není přístupný, takže se na něj dívá z břehu u jezu.
+
+🎁 Bonus: Ves Bluk zmizela před šesti sty lety, přesto místní dodnes říkají dolní říční části Černošic „Na Bluku“. Místo může být pryč staletí a přesto si držet svou adresní zvyklost.`,
+
+      zh: `欢迎来到布卢克水磨坊。它得名于一座消失得极其彻底的村庄，如今这座磨坊几乎成了那个村子最结实的物证。布卢克在1412年留下过一条记载，随后悄悄从地图上消失，只留下了一个名字、一道堰坝，和贝劳恩卡河的一小段，至今仍然应着这个名字。
+
+磨坊建于1523年，由兹布拉斯拉夫修道院的修士在当时的下切尔诺希采建立，第一位租户名叫维塔克。1546年米库拉什·布卢德斯基接手，他的家族以及后来的一连串磨坊主，比如1688年起的瓦茨拉夫·罗里克，让水轮在此后的几个世纪里一直转个不停。其中一位叫伊日·科塔什卡，1760到1774年在此磨面，离任那一年还出资参与了切尔诺希采教堂的重建。到18世纪末，磨坊周围聚起了四栋房子，自称布卢克磨坊，是个人口两只手数得过来的小村落。
+
+真正的升级出现在1917年，扬·布罗日买下磨坊，打算把它改造成更有野心的东西。1917到1919年间，他建起了发电站、堰坝和一栋别墅，还改建了磨坊本身。他的两台弗朗西斯水轮机把电送进上切尔诺希采、下切尔诺希采和兹布拉斯拉夫，于是贝劳恩卡河边的一位磨坊主，成了本地的电力公司。如今这里装有四台水轮机，两台弗朗西斯式、两台半卡普兰式，装机容量360千瓦，年发电量约1.85吉瓦时。它仍在运转，仍属私人所有，不对游客开放，所以只能从堰坝附近的河岸远远看。
+
+🎁 彩蛋：布卢克村消失已经有六百年了，可当地人至今仍把切尔诺希采靠河的下半部分叫作"在布卢克"。一个地方可以消失好几个世纪，却依然保得住自己的地址习惯。`,
+    },
+  },
+  {
+    name: 'Radotín Bridge',
+    slug: 'radotinsky-most',
+    localizedNames: { cz: 'Radotínský most', zh: '拉多丁大桥' },
+    labels: ['bridge', 'modern', 'architecture'],
+    coordinates: { lat: 49.98900155741118, lng: 14.386824072068233 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Radot%C3%ADnsk%C3%BD_most',
+    description: {
+      en: `Welcome to Radotín Bridge, the longest bridge in the Czech Republic and Prague's answer to the question of how to cross two rivers, a railway and an entire valley without ever slowing down. The answer turned out to be roughly 2.3 kilometres of concrete, held up in the air.
+
+It is really two bridges built to behave as one. The Komořany–Lahovice bridge is 236 metres long and carries traffic over a railway line and the Vltava. The Lahovice–Radotín bridge is about 2,045 metres long, has 37 spans, and steps over the Berounka, another railway line and the wide valley around Radotín. Together they measure 2,291 metres, with a longest single span of 114 metres, and they form part of the Prague ring road. Construction ran from 2006 to 2010, with Skanska and Alpine on the Vltava side and a consortium of Hochtief CZ, Strabag and Max Bögl & Josef Krýsl on the Berounka side, to an architectural design by Patrik Kotas. Both bridges opened on 20 September 2010.
+
+Hanging below the Vltava span is a suspended footbridge for cyclists and pedestrians linking Komořany and Lahovice. Its structure was finished in the autumn of 2010, but land disputes and floods held up the access ramps until 12 April 2014.
+
+🎁 Bonus: The city council only approved the name "Radotín Bridge" on 12 October 2010, so the longest bridge in the country carried traffic for three weeks with no name at all. The footbridge underneath did worse: a finished crossing with no way onto it for about three and a half years.`,
+
+      cz: `Vítejte na Radotínském mostě, nejdelším mostě v České republice a pražské odpovědi na otázku, jak přejít dvě řeky, železnici a celé údolí, aniž by se člověk jediný okamžik zdržel. Odpověď zněla zhruba 2,3 kilometru betonu držícího se ve vzduchu.
+
+Jsou to vlastně dva mosty postavené tak, aby fungovaly jako jeden. Most Komořany–Lahovice měří 236 metrů a vede přes železniční trať a Vltavu. Most Lahovice–Radotín je dlouhý asi 2045 metrů, má 37 polí a překračuje Berounku, další železniční trať i široké údolí kolem Radotína. Dohromady měří 2291 metrů, s nejdelším jednotlivým polem 114 metrů, a tvoří součást Pražského okruhu. Stavba probíhala v letech 2006 až 2010, na vltavské straně ji dělaly Skanska a Alpine, na berounské sdružení Hochtief CZ, Strabag a Max Bögl & Josef Krýsl, podle architektonického návrhu Patrika Kotase. Oba mosty byly zprovozněny 20. září 2010.
+
+Pod vltavským mostem visí podvěšená lávka pro pěší a cyklisty spojující Komořany s Lahovicemi. Konstrukce byla hotová na podzim 2010, ale přístupové rampy zdržely majetkové spory a povodně až do 12. dubna 2014.
+
+🎁 Bonus: Název „Radotínský most“ schválila městská rada až 12. října 2010, takže nejdelší most v zemi tři týdny sloužil bez jména. Lávka pod ním dopadla hůř: hotový přechod, na který se skoro tři a půl roku nedalo vstoupit.`,
+
+      zh: `欢迎来到拉多丁大桥，捷克最长的桥，也是布拉格对这道难题的回答：怎样一口气越过两条河、一条铁路和一整片山谷，中途还不用减速？答案是大约2.3公里的混凝土，架在半空中。
+
+它其实是两座桥，被造得像一座。科莫扎尼—拉霍维采桥长236米，跨过一条铁路和伏尔塔瓦河。拉霍维采—拉多丁桥长约2045米，共37跨，跨过贝劳恩卡河、另一条铁路，以及拉多丁一带宽阔的山谷。两座加起来总长2291米，最大单跨114米，属于布拉格环城公路的一部分。工程自2006年持续到2010年，伏尔塔瓦河一侧由Skanska和Alpine承建，贝劳恩卡河一侧由Hochtief CZ、Strabag与Max Bögl & Josef Krýsl组成的联合体承建，建筑设计出自帕特里克·科塔斯。两座桥于2010年9月20日通车。
+
+伏尔塔瓦河桥段下方还悬着一座供行人和骑车人使用的吊挂人行桥，连接科莫扎尼与拉霍维采。它的主体在2010年秋天就完工了，但土地纠纷和洪水把引桥拖到了2014年4月12日才建成。
+
+🎁 彩蛋：市议会直到2010年10月12日才批准"拉多丁大桥"这个名字，所以这座全国最长的桥，头三个星期是无名状态通车的。下面那座人行桥更惨：桥本身完工了，却有大约三年半没有路能走上去。`,
+    },
+  },
+  {
+    name: 'Radotín Footbridge',
+    slug: 'radotinska-lavka',
+    localizedNames: { cz: 'Radotínská lávka', zh: '拉多丁人行桥' },
+    labels: ['bridge', 'modern', 'architecture'],
+    coordinates: { lat: 49.98123403319425, lng: 14.362660266768938 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Radot%C3%ADnsk%C3%A1_l%C3%A1vka',
+    description: {
+      en: `Welcome to Radotín Footbridge, a crossing that has been in the river-crossing business since at least 1159 and has spent recent decades mostly being repaired. It links Radotín with Zbraslav across the Berounka, on a spot where people have been getting wet or nearly wet for over eight centuries.
+
+Long before any bridge, there was a ferry. It is first recorded in 1159, when a privilege of King Vladislaus II gave the income from the crossing to the Order of St. John, and it eventually carried cars as well as people, until it was shut down around 1950. A simple pontoon bridge took over and lasted until 1994. In 1995 architect Josef Pleskot replaced it with a footbridge for pedestrians and cyclists, built around a single pylon and steel cables that were meant to recall a sailing ship's mast.
+
+The mast did not age gracefully. The floods of 2002 and 2013 wore the structure down until only one pedestrian at a time was allowed on it, with red warning lights for windy days, and it was closed on 1 April 2022. The original contractor for the replacement, Raeder & Falge, went insolvent partway through, and the firm Excon finished the job. The new footbridge opened in part in September 2022 and fully in September 2023. It is 110 metres long, four metres wide (the old one managed 2.4), stands 11.5 metres above the riverbed under a 24-metre pylon, and cost about 69 million crowns. Pleskot designed it again, with engineer Vladimír Janata, and it later won a Bridge of the Year award at the Mosty symposium in Brno.
+
+🎁 Bonus: The medieval ferry could carry cars. In its last years, the 1995 footbridge could carry one person. The crossing has been getting more fragile for centuries, and then, in 2023, it was suddenly not.`,
+
+      cz: `Vítejte na Radotínské lávce, přechodu, který podniká v přepravě přes řeku minimálně od roku 1159 a poslední desetiletí se hlavně opravuje. Spojuje Radotín se Zbraslaví přes Berounku, na místě, kde se lidé už víc než osm století namáčejí nebo skoro namáčejí.
+
+Dávno před jakýmkoli mostem tu byl přívoz. Poprvé je doložen v roce 1159, kdy privilegium krále Vladislava II. přiřklo výnosy z převozu johanitům. Postupně převážel i auta a byl zrušen kolem roku 1950. Převzal to jednoduchý pontonový most, který vydržel do roku 1994. V roce 1995 ho nahradila lávka pro pěší a cyklisty od architekta Josefa Pleskota, postavená na jediném pylonu a ocelových lanech, které měly připomínat stěžeň plachetnice.
+
+Stěžeň nestárl důstojně. Povodně v letech 2002 a 2013 konstrukci opotřebovaly natolik, že na ni směl jen jeden chodec najednou, za větru s červenými výstražnými světly, a 1. dubna 2022 byla uzavřena. Původní zhotovitel náhrady, firma Raeder & Falge, se v průběhu stavby dostal do insolvence a dílo dokončila firma Excon. Nová lávka se částečně otevřela v září 2022 a celá v září 2023. Měří 110 metrů, je čtyři metry široká (stará měla 2,4), stojí 11,5 metru nad dnem řeky pod 24metrovým pylonem a stála zhruba 69 milionů korun. Navrhl ji znovu Pleskot spolu s projektantem Vladimírem Janatou a později získala cenu Most roku na sympoziu Mosty v Brně.
+
+🎁 Bonus: Středověký přívoz uvezl auta. Lávka z roku 1995 v posledních letech uvezla jednoho člověka. Přechod křehl po staletí a pak, v roce 2023, najednou přestal.`,
+
+      zh: `欢迎来到拉多丁人行桥。这个渡口从至少1159年起就在做过河的生意，近几十年主要在忙着被修。它跨过贝劳恩卡河，连接拉多丁与兹布拉斯拉夫，这个位置上，人们已经在弄湿脚或者差点弄湿脚的状态里过了八个多世纪。
+
+早在有桥之前，这里就有渡船。它最早见于1159年，当时弗拉迪斯拉夫二世国王的特许状把渡口的收入划给了约翰骑士团，后来渡船连汽车也能运，直到1950年前后停运。接替它的是一座简易浮桥，一直用到1994年。1995年，建筑师约瑟夫·普莱斯科特用一座供行人和骑车人使用的人行桥取代了它，围绕一根独立的桥塔和钢索建成，意在让人想起帆船的桅杆。
+
+这根桅杆没有老得体面。2002年和2013年两次洪水把结构消耗到只允许一次走一个人，刮大风时还要亮红色警示灯，2022年4月1日终于封闭。替代工程的原承包商Raeder & Falge中途破产，由Excon公司接手完工。新桥在2022年9月部分开放，2023年9月全面通行。它长110米、宽4米（旧桥只有2.4米），桥面高出河床11.5米，桥塔高24米，造价约6900万克朗。设计者依然是普莱斯科特，与工程师弗拉基米尔·亚纳塔合作，后来还在布尔诺的"桥梁"研讨会上拿到了年度桥梁奖。
+
+🎁 彩蛋：中世纪的渡船能运汽车，1995年的人行桥到了晚年却只能过一个人。这个渡口的脆弱程度几个世纪来一路走低，然后在2023年，突然就不这样了。`,
+    },
+  },
+  {
+    name: 'Church of Saints Peter and Paul (Radotín)',
+    slug: 'kostel-svateho-petra-a-pavla-radotin',
+    localizedNames: { cz: 'Kostel svatého Petra a Pavla (Radotín)', zh: '圣彼得与圣保罗教堂（拉多丁）' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 49.98166673158088, lng: 14.362314659109908 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Petra_a_Pavla_(Radot%C3%ADn)',
+    description: {
+      en: `Welcome to the church at the foot of Radotín's footbridge, where the village has been going to mass for over seven centuries and has, in that time, lost two bells, gained one, and passed through several architectural moods.
+
+The first written mention dates to 24 May 1298, when King Wenceslas II asked the Bishop of Prague, Gregory, to hand the Radotín church over to the newly founded Zbraslav monastery, which he duly did. A Gothic presbytery and 14th-century walls still survive from that first church. The earliest priest known by name is Heřman, active from 1347 to 1378, and in the 16th century the priests were Utraquists, the last of them, Jan Kořínek, recorded in 1582. The church took on its Baroque form before 1741, with a set of three altars added around 1760, and inside the floor still holds two memorial stones, one for a butcher, Daniel Najpauer (d. 1740), and one for a miller, Jiří Kotaška (d. 1754), and his wife Ludmila (d. 1763). The churchyard around it was closed in 1880, and in 1881 the church was restored and its tower raised. The niche on the façade now carries the arms of the Oettingen-Wallerstein family, its patrons at that time, in place of the monastery's seal.
+
+The bells have had a rougher career. Three were cast in 1707, 1765 and 1846, the 1707 one known as "Poledník", the noon bell, but during the First World War the largest and the smallest were requisitioned and melted down for military use. Today the church has the surviving 1707 bell plus a new one from 2009, named St. Paul. In May 1945, during the Prague uprising, fighting reached Radotín and a panzerfaust exploded inside the church. The interior was repaired in 1946 and the damaged tower in 1949.
+
+🎁 Bonus: A church documented in 1298 got its own independent pastoral administration only on 1 September 1917, when Archbishop Pavel Huyn set it up. That is a wait of 619 years, which is long even for a bureaucracy.`,
+
+      cz: `Vítejte v kostele na začátku radotínské lávky, kam vesnice chodí na mši už přes sedm století a za tu dobu přišla o dva zvony, získala jeden a prošla několika architektonickými náladami.
+
+První písemná zmínka pochází z 24. května 1298, kdy král Václav II. požádal pražského biskupa Řehoře, aby radotínský kostel předal nově založenému zbraslavskému klášteru, což se také stalo. Z toho prvního kostela se dodnes dochoval gotický presbytář a zdivo ze 14. století. Nejstarším jmenovitě známým knězem je Heřman, působící v letech 1347 až 1378, v 16. století zde sloužili utrakvističtí kněží a posledním z nich byl roku 1582 doložen Jan Kořínek. Barokní podobu kostel získal před rokem 1741, kolem roku 1760 přibyla trojice oltářů a v podlaze dodnes leží dva pamětní kameny: řezníka Daniela Najpauera (zemřel 1740) a mlynáře Jiřího Kotašky (zemřel 1754) s jeho manželkou Ludmilou (zemřela 1763). Hřbitov kolem kostela byl zrušen roku 1880 a v roce 1881 byl kostel opraven a věž zvýšena. Ve výklenku průčelí je dnes erb rodu Oettingen-Wallerstein, tehdejších patronů, na místě, kde bývala pečeť kláštera.
+
+Zvony to měly těžší. Tři byly odlity v letech 1707, 1765 a 1846, ten z roku 1707 se jmenuje „Poledník“, ale za první světové války byl největší a nejmenší zabaven a přetaven pro vojenské účely. Dnes má kostel přeživší zvon z roku 1707 a nový z roku 2009 zvaný svatý Pavel. V květnu 1945, během Pražského povstání, se boje dostaly až do Radotína a uvnitř kostela vybuchla pancéřová pěst. Interiér byl opraven v roce 1946 a poškozená věž v roce 1949.
+
+🎁 Bonus: Kostel doložený roku 1298 dostal vlastní samostatnou duchovní správu až 1. září 1917, kdy ji zřídil arcibiskup Pavel Huyn. To je čekání dlouhé 619 let, což je dlouhé i na úřad.`,
+
+      zh: `欢迎来到拉多丁人行桥桥头的这座教堂。村里人在这里做弥撒已经超过七个世纪，其间丢了两口钟、添了一口，又走过了好几种建筑风格。
+
+最早的文字记载是1298年5月24日：瓦茨拉夫二世国王请布拉格主教格雷戈里把拉多丁的教堂移交给新建的兹布拉斯拉夫修道院，主教照办了。那座最初的教堂留下了哥特式的圣坛区和14世纪的墙体。已知姓名的最早的神父是赫尔曼，任职于1347至1378年；16世纪这里的神父是圣杯派，最后一位扬·科里内克见于1582年。教堂在1741年之前定型为巴洛克风格，1760年前后增设了三座祭坛。地面上至今留着两块纪念石，一块属于屠夫丹尼尔·纳伊保尔（卒于1740年），一块属于磨坊主伊日·科塔什卡（卒于1754年）和他的妻子卢德米拉（卒于1763年）。教堂周围的墓地在1880年停用，1881年教堂修缮，钟楼也加高了。立面的壁龛里现在是当时的赞助家族厄廷根-瓦勒施泰因的徽章，取代了原来修道院的印章。
+
+钟的经历就更曲折。三口钟分别铸于1707、1765和1846年，1707年那口叫"正午钟"，可第一次世界大战期间，最大和最小的两口被征用，熔掉做了军需。如今教堂里有幸存的1707年的钟和一口2009年新铸、名为圣保罗的钟。1945年5月布拉格起义期间，战斗打到了拉多丁，一枚铁拳火箭弹在教堂里面爆炸。内部在1946年修复，受损的钟楼则在1949年修好。
+
+🎁 彩蛋：这座1298年就见于记载的教堂，直到1917年9月1日才由大主教帕维尔·胡因设立独立的教牧管理，整整等了619年，对官僚机构来说也算久的了。`,
+    },
+  },
+  {
+    name: 'Former Janka Factory',
+    slug: 'byvala-tovarna-janka',
+    localizedNames: { cz: 'Bývalá továrna Janka', zh: '前扬卡工厂' },
+    labels: ['factory', 'historical'],
+    coordinates: { lat: 49.988525807506186, lng: 14.368537045961153 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Radot%C3%ADn',
+    description: {
+      en: `Welcome to the old Janka works, where a Prague locksmith's ventilators for inns and forges grew into a modern factory, and where, a century and more later, people are still moving air around Radotín for a living.
+
+Jan Janka started in 1872 with a locksmith's workshop in Dlouhá Street in Prague and 15 workers. His first products were ventilators for inns, blacksmith forges, window vents and chimney fittings. In 1907 the firm moved to Radotín and built what was, for its time, a very modern factory for ventilators and drying equipment, with many solutions patented across Austria-Hungary and Europe. The move made sense: the railway had reached Radotín in 1862, and the village was fast becoming one of Prague's industrial suburbs, with a cement works founded in 1871 already smoking away on the other side of town.
+
+Janka himself died in 1912 and the factory passed to his heirs. In 1923 the family firm became a joint-stock company, and between the wars its range grew to include pneumatic transport systems, hot-air heating and air coolers for generators, with a wartime production line added later. Nationalisation came in 1946 to 1948, and a new plant was set up in Milevsko, which later became ZVVZ. Radotín's company was privatised in 1990 as Janka Radotín, passed through American and Indian owners, and returned to Czech hands in 2018. It still makes industrial cooling and air-conditioning equipment in Radotín.
+
+🎁 Bonus: Janka moved to Radotín in 1907 and collected patents across Austria-Hungary, a state with eleven years left to live. The state is long gone. The ventilators are still blowing.`,
+
+      cz: `Vítejte u staré Janky, kde z ventilátorů pražského zámečníka pro hospody a kovárny vyrostla moderní továrna a kde se ještě po více než sto letech živí lidé tím, že v Radotíně přesouvají vzduch.
+
+Jan Janka začal v roce 1872 zámečnickou dílnou v pražské Dlouhé ulici a s 15 dělníky. Jeho prvními výrobky byly ventilátory do hostinců a kováren, okenní ventilační mřížky a komínové nástavce. V roce 1907 firma přesídlila do Radotína a postavila na svou dobu velmi moderní továrnu na výrobu ventilátorů a sušicích zařízení s mnoha řešeními patentovanými v celém Rakousku-Uhersku i v Evropě. Přesun dával smysl: železnice do Radotína dorazila roku 1862 a obec se rychle stávala jedním z pražských průmyslových předměstí, na druhém konci obce už od roku 1871 kouřila cementárna.
+
+Sám Janka zemřel roku 1912 a továrna přešla na dědice. V roce 1923 se rodinná firma změnila na akciovou společnost a v meziválečných letech se její sortiment rozšířil o pneumatickou dopravu, horkovzdušné vytápění a chladiče vzduchu pro generátory, později přibyla i válečná výroba. V letech 1946 až 1948 došlo ke znárodnění a v Milevsku vznikl nový závod, z něhož se později stala ZVVZ. Radotínský podnik byl v roce 1990 privatizován jako Janka Radotín, prošel americkými a indickými majiteli a v roce 2018 se vrátil do českých rukou. Dodnes v Radotíně vyrábí průmyslové chladicí a klimatizační zařízení.
+
+🎁 Bonus: Janka se do Radotína přestěhovala v roce 1907 a sbírala patenty po celém Rakousku-Uhersku, státě, kterému zbývalo jedenáct let života. Stát je dávno pryč. Ventilátory foukají dál.`,
+
+      zh: `欢迎来到旧扬卡工厂。一位布拉格锁匠给客栈和铁匠铺做的风扇，在这里长成了一座现代化工厂，一个多世纪之后，仍有人在拉多丁靠搬运空气过日子。
+
+扬·扬卡1872年在布拉格的德洛哈街开了一间锁匠作坊，手下15个工人。他最早的产品是给客栈和铁匠铺用的风扇、窗户通风口和烟囱配件。1907年，公司搬到拉多丁，建起了一座在当时非常现代的风扇与干燥设备工厂，许多方案在整个奥匈帝国和欧洲都申请了专利。这一步走得有道理：铁路1862年就通到了拉多丁，这里正迅速变成布拉格的工业郊区，村子另一头，一家1871年建立的水泥厂早已在冒烟了。
+
+扬卡本人1912年去世，工厂由继承人接手。1923年，家族企业改组为股份公司，两次大战之间，产品线扩展到气力输送系统、热风采暖和发电机空气冷却器，后来又加入了战时生产。1946至1948年企业被国有化，并在米列夫斯科新建了一座工厂，后来成为ZVVZ。拉多丁的这家企业在1990年私有化，更名为Janka Radotín，先后经过美国和印度的东家，2018年回到捷克人手里。如今它仍在拉多丁生产工业冷却和空调设备。
+
+🎁 彩蛋：扬卡1907年搬到拉多丁，在整个奥匈帝国收集专利，而这个国家当时只剩十一年寿命。国家早就没了，风扇还在吹。`,
+    },
+  },
+  {
+    name: 'Holyně',
+    slug: 'holyne',
+    localizedNames: { cz: 'Holyně', zh: '霍利涅' },
+    labels: ['village-and-town', 'historical'],
+    coordinates: { lat: 50.02946494972193, lng: 14.356274692417248 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Holyn%C4%9B',
+    description: {
+      en: `Welcome to Holyně, a village on the southwestern edge of Prague that has been around since at least the 11th century and has never once made a fuss about it. In 2021 the district counted 463 residents, which makes it the kind of place where everybody is officially in on the secret.
+
+The earliest hint of it is a charter from 1088, in which King Vratislav II founded the Vyšehrad chapter and, in passing, named the place indirectly as "Nagolini", roughly "at Holyně". The first reliable record comes in 1253, when King Wenceslas I confirmed that Slivenec and Holyně belonged to the Knights of the Cross with the Red Star, who kept them until 1848. By 1610 the land register listed seven farmers and a mill. In 1825 there were 26 numbered houses and 274 people, and by 1921 there were 49 houses and 385. Slivenec and Holyně stayed separate villages right up to the 1970s, when the first part of Holyně was joined to Prague in 1968 and the whole territory in 1974.
+
+The village's small landmark is the neo-Romanesque Chapel of St. John the Baptist on the square under the linden tree, built in 1861 by Marie Novotná-Malá, owner of a local farm. Another account says it followed a lightning strike on a wagon full of villagers, after which a stone cross was set up in thanks. The cross stood elsewhere until 2008, when new construction pushed it over to the chapel.
+
+🎁 Bonus: The same order owned Holyně from 1253 to 1848, so its landlord stayed the same for 595 years. In that time the village managed to grow to 274 people, a pace that suggests nobody wanted to make the landlord's job harder.`,
+
+      cz: `Vítejte v Holyni, vsi na jihozápadním okraji Prahy, která existuje nejméně od 11. století a nikdy kolem toho nedělala povyk. V roce 2021 měla městská část 463 obyvatel, takže je to místo, kde je oficiálně zasvěcený každý.
+
+Nejstarší náznak pochází z listiny z roku 1088, kterou král Vratislav II. zakládal vyšehradskou kapitulu a mimochodem přitom nepřímo zmínil místo jako „Nagolini“, zhruba „na Holyni“. První spolehlivý záznam přichází v roce 1253, kdy král Václav I. potvrdil, že Slivenec a Holyně patří křižovníkům s červenou hvězdou, kteří je drželi až do roku 1848. V roce 1610 urbář uváděl sedm sedláků a mlýn. V roce 1825 tu bylo 26 čísel popisných a 274 obyvatel, v roce 1921 už 49 domů a 385 lidí. Slivenec a Holyně zůstaly samostatnými vesnicemi až do sedmdesátých let, kdy byla první část Holyně připojena k Praze roku 1968 a celé území roku 1974.
+
+Malou dominantou vsi je novorománská kaple svatého Jana Křtitele na návsi pod lípou, postavená v roce 1861 Marií Novotnou-Malou, majitelkou zdejšího statku. Jiné vyprávění říká, že vznikla po úderu blesku do vozu plného vesničanů, po kterém byl na poděkování postaven kamenný kříž. Kříž stál jinde až do roku 2008, kdy ho nová výstavba přesunula ke kapli.
+
+🎁 Bonus: Stejný řád vlastnil Holyni od roku 1253 do roku 1848, takže její pán zůstal stejný 595 let. Za tu dobu se ves stihla rozrůst na 274 obyvatel, což naznačuje, že nikdo nechtěl pánovi práci zbytečně komplikovat.`,
+
+      zh: `欢迎来到霍利涅，布拉格西南边缘的一座村子。它至少从11世纪就在那里了，却从来没为此大惊小怪过。2021年这个市区一共有463位居民，是那种官方上人人都知道内情的地方。
+
+它最早的踪迹出现在1088年的一份特许状里：弗拉季斯拉夫二世国王在设立维谢赫拉德教务会时，顺带间接提到了这个地方，写作"Nagolini"，大致就是"在霍利涅"的意思。第一份可靠的记录出现在1253年，瓦茨拉夫一世国王确认斯利韦内茨和霍利涅归红星十字骑士团所有，骑士团一直持有到1848年。1610年的土地册上记着七户农民和一座磨坊。1825年这里有26个门牌号、274位居民，到1921年是49栋房子、385人。斯利韦内茨和霍利涅一直是两个独立的村子，直到上世纪七十年代：霍利涅的第一部分在1968年并入布拉格，整片地区在1974年并入。
+
+村里不大的地标是村广场椴树下的新罗马式圣施洗者约翰小教堂，由当地一座农庄的主人玛丽·诺沃特娜-马拉于1861年建造。另一种说法是，它源于一道闪电劈中了一辆载满村民的马车，村民为了感恩立了一座石十字架。这座十字架原来立在别处，直到2008年新建工程把它挪到了小教堂边上。
+
+🎁 彩蛋：霍利涅从1253年到1848年都属于同一个骑士团，它的领主整整没换过595年。这些年里村子一共只长到了274个人，这个速度似乎在说：谁也不想给领主添麻烦。`,
+    },
+  },
+  {
+    name: 'Prague Ring Road',
+    slug: 'prazsky-okruh',
+    localizedNames: { cz: 'Pražský okruh', zh: '布拉格环城公路' },
+    labels: ['transport', 'modern', 'hidden-gem'],
+    coordinates: { lat: 50.02512262844482, lng: 14.29805893767488 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pra%C5%BEsk%C3%BD_okruh',
+    description: {
+      en: `Welcome to the Prague Ring Road, the motorway that is supposed to circle Prague and has been working on closing the loop for most of a lifetime. This footbridge is one of the better places to watch it from, with the advantage that nobody up here is stuck in it.
+
+Plans for a ring road around the capital already turn up in the road planning of 1947, when it was pencilled in as route number one. Over the following decades it went by a whole list of names, among them outer ring, express ring, SOKP and PRSO, before finally settling on the short and modern-sounding D0 in 2016. The planned length is about 81.9 kilometres, and only around half of that was open at the latest count. One of the first stretches to work was the section between Slivenec and Třebonice, 7.41 kilometres long, which opened in 1983.
+
+The big leap came on 20 September 2010, when the south-western segment joined the western and southern parts of the ring. It brought the 1,659-metre Lochkov Tunnel and the Radotín Bridge, at 2,045 metres the longest bridge in the country. The stretch between Lahovice and Slivenec alone, section 514, is 6,030 metres long, with a 2,055-metre viaduct on 88 pillars, the tallest reaching 40 metres, and architects Patrik Kotas and Petr Šafránek chose blue as its colour so that drivers get a bit of calm along with the concrete. The south-eastern link to the D1 is next: building work began on 16 December 2024, with a budget of 9.8 billion crowns and a target of 2027.
+
+🎁 Bonus: A ring road appears in the 1947 plans, and the segment that finally linked the west to the south opened 63 years later. In that time the project outlived at least five names, which may be the only part of it that got completed on schedule.`,
+
+      cz: `Vítejte na Pražském okruhu, dálnici, která má obkroužit Prahu a většinu jednoho lidského života se snaží uzavřít smyčku. Tahle lávka je jedno z lepších míst, odkud ho sledovat, s tou výhodou, že tady nahoře v něm nikdo nestojí.
+
+Plány na okruh kolem hlavního města se objevují už v silničním plánování roku 1947, kdy byl načrtnut jako silnice číslo jedna. V dalších desetiletích nesl celou řadu jmen, například vnější okruh, expresní okruh, SOKP a PRSO, než se v roce 2016 usadil na krátkém a moderně znějícím D0. Plánovaná délka je asi 81,9 kilometru a při posledním sčítání byla otevřená zhruba jen polovina. Jedním z prvních fungujících úseků byl úsek mezi Slivencem a Třebonicemi, dlouhý 7,41 kilometru, který se otevřel v roce 1983.
+
+Velký skok přišel 20. září 2010, kdy jihozápadní segment spojil západní a jižní část okruhu. Přinesl 1659 metrů dlouhý Lochkovský tunel a Radotínský most, s délkou 2045 metrů nejdelší most v zemi. Samotný úsek mezi Lahovicemi a Slivencem, stavba 514, měří 6030 metrů, s 2055 metrů dlouhou estakádou na 88 pilířích, z nichž nejvyšší dosahují 40 metrů, a architekti Patrik Kotas a Petr Šafránek pro ni zvolili modrou barvu, aby řidiči dostali k betonu i trochu klidu. Další na řadě je jihovýchodní napojení na D1: stavba začala 16. prosince 2024, s rozpočtem 9,8 miliardy korun a cílem v roce 2027.
+
+🎁 Bonus: Okruh se objevuje v plánech z roku 1947 a segment, který konečně spojil západ s jihem, se otevřel o 63 let později. Za tu dobu projekt přežil nejméně pět názvů, což je možná jediná část, která se stihla dokončit včas.`,
+
+      zh: `欢迎来到布拉格环城公路，这条高速公路本来要绕布拉格一整圈，为了把圈合上，已经折腾了差不多一个人的大半辈子。这座人行天桥是观察它的好位置之一，好处是站在上面的人，没有一个被堵在它里面。
+
+早在1947年的公路规划里就出现了环绕首都的环路，当时它被草绘为一号公路。此后的几十年里，它换过一长串名字，比如外环、快速环路、SOKP和PRSO，直到2016年才定为简短又现代的D0。计划全长约81.9公里，最近一次统计时，只有大约一半通车。最早跑起来的路段之一是斯利韦内茨到特热博尼采之间的一段，长7.41公里，1983年通车。
+
+大飞跃出现在2010年9月20日，西南段把环路的西部和南部接在了一起，带来了1659米长的洛赫科夫隧道，以及长2045米、全国最长的拉多丁大桥。仅拉霍维采到斯利韦内茨之间的514号路段就长6030米，其中有一座长2055米的高架桥，架在88根桥墩上，最高的达40米，建筑师帕特里克·科塔斯和彼得·沙夫拉内克为它选了蓝色，让司机在混凝土之外多少得到一点平静。接下来是通往D1的东南连接段：2024年12月16日开工，预算98亿克朗，目标是2027年完工。
+
+🎁 彩蛋：环路在1947年的规划里就有了，而最终把西部和南部连起来的那一段，是63年后才通车的。这期间项目换了至少五个名字，这大概是它唯一按时完成的部分。`,
+    },
+  },
+  {
+    name: 'Church of Saints John and Paul (Krteň)',
+    slug: 'kostel-svateho-jana-a-pavla-krten',
+    localizedNames: { cz: 'Kostel svatého Jana a Pavla (Krteň)', zh: '圣约翰与圣保罗教堂（克尔泰尼）' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.04226619195512, lng: 14.291924354979102 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%BDch_Jana_a_Pavla_(Krte%C5%88)',
+    description: {
+      en: `Welcome to the Church of Saints John and Paul, all that is left of the village of Krteň. The houses are gone, the farms are gone and even the village's name has mostly gone, but the church and its cemetery stayed put and carried on as if nothing had happened.
+
+The church was built around 1250 in the Romanesque style, and there is a good chance it began as a private chapel for a nearby manor. It stands on the old royal road from Prague Castle to Karlštejn, and the place seems to have had a tradition of visitors long before that. Legend speaks of a Slavic sacred grove on the spot, other accounts mention a small pagan hillfort, and excavations around it show the area was settled in prehistoric times. It is recorded as a parish church in 1352 in a list of papal tithes. Over the centuries it grew a side aisle in 1575, a sacristy in 1699 and a tower in 1732, and in 1890 architect Ernst Živný gave the whole thing a thorough neo-Romanesque makeover. Inside, the east wall of the presbytery still carries medieval frescoes of Joseph's dream, the Baptism of Christ, the Presentation in the Temple and Christ teaching among the four Evangelists. The parish priest discovered them in 1890 and, afraid of damaging them, simply hung a cloth over them. Restorers uncovered them again in 1951.
+
+The other local legend concerns Queen Eliška of Pomerania. When Charles IV fell gravely ill at Karlštejn in 1371, she is said to have walked all the way to Prague to lay eight gold bowls at the shrine of St. Sigismund for his recovery. On the way back she reached Krteň and learned that he had already been healed, and she endowed the church in thanks and dedicated it to Saints John and Paul, whose feast day happened to fall on the day of her arrival. Whatever the truth, the kings of Bohemia were indeed patrons of this small church, and today it serves as an auxiliary church of the Ořech parish and stands as a protected cultural monument, still surrounded by its cemetery.
+
+🎁 Bonus: The frescoes spent 61 years under a cloth, from 1890 to 1951, because the priest who found them was afraid of damaging them. Krteň lost its village, but its church managed to keep a secret for longer than most towns keep anything.`,
+
+      cz: `Vítejte v kostele svatého Jana a Pavla, jediném, co zbylo z vsi Krteň. Domy jsou pryč, statky jsou pryč a i jméno vsi se už skoro ztratilo, ale kostel se hřbitovem zůstal stát a jede dál, jako by se nic nestalo.
+
+Kostel byl postaven kolem roku 1250 v románském slohu a s velkou pravděpodobností začínal jako soukromá kaple blízkého dvorce. Stojí na staré královské cestě z Pražského hradu na Karlštejn a zdá se, že místo mělo tradici návštěvníků dávno předtím. Pověst mluví o slovanském posvátném háji, jiné prameny o malém pohanském hradišti a výzkumy v okolí dokazují osídlení už v pravěku. Jako farní kostel je doložen roku 1352 v seznamu papežských desátků. V průběhu staletí k němu přibyla boční loď v roce 1575, sakristie v roce 1699 a věž v roce 1732 a roku 1890 mu architekt Ernst Živný dal důkladnou novorománskou proměnu. Uvnitř nese východní stěna presbytáře dodnes středověké fresky Josefova snu, Křtu Krista, Obětování v chrámě a Krista učícího mezi čtyřmi evangelisty. Místní farář je objevil roku 1890 a ze strachu, aby je nepoškodil, je prostě zakryl látkou. Restaurátoři je znovu odkryli v roce 1951.
+
+Druhá místní pověst se týká královny Elišky Pomořanské. Když Karel IV. roku 1371 těžce onemocněl na Karlštejně, prý došla pěšky až do Prahy, aby u svatyně svatého Zikmunda položila osm zlatých mís za jeho uzdravení. Na zpáteční cestě dorazila do Krtěně a dozvěděla se, že už je zdráv, a z vděčnosti kostel nadala a zasvětila ho svatým Janu a Pavlovi, jejichž svátek zrovna připadl na den jejího příchodu. Ať je to jakkoli, čeští králové byli skutečně patrony tohoto malého kostela a dnes slouží jako filiální kostel ořešské farnosti a je chráněnou kulturní památkou, dodnes obklopenou hřbitovem.
+
+🎁 Bonus: Fresky strávily pod látkou 61 let, od roku 1890 do roku 1951, protože farář, který je našel, se bál, že je poškodí. Krteň přišla o ves, ale její kostel dokázal uchovat tajemství déle, než většina měst uchová cokoli.`,
+
+      zh: `欢迎来到圣约翰与圣保罗教堂，这是克尔泰尼村唯一留下的东西。房子没了，农庄没了，连村名也差不多没了，可教堂和它的墓地仍然站在原地，若无其事地继续过着日子。
+
+教堂建于1250年前后，属罗马式风格，很可能最初只是附近一处庄园的私人小礼拜堂。它坐落在从布拉格城堡通往卡尔施泰因城堡的古老王家大道上，这个地方似乎很早以前就有人来人往的传统。传说这里原有一片斯拉夫人的神圣树林，另一些记载提到一座小型异教山城，周边的考古发掘也证明这一带在史前就有人居住。1352年的教廷什一税清单上，它已被记为堂区教堂。此后几个世纪里，它在1575年添了侧殿，1699年添了圣器室，1732年建起了塔楼，1890年建筑师恩斯特·日夫尼又给整座建筑做了一次彻底的新罗马式改造。教堂内，圣坛区东墙上至今留着中世纪壁画，画的是约瑟的梦、基督受洗、圣殿献礼，以及基督在四位福音书作者中间施教。当地神父1890年发现了它们，怕弄坏，索性拿一块布盖了起来。修复师在1951年才把它们重新揭开。
+
+另一则本地传说与波美拉尼亚的伊丽莎白王后有关。1371年查理四世在卡尔施泰因病重，据说她一路步行到布拉格，在圣西吉斯蒙德的圣龛前供上八只金碗，为他祈求康复。回程走到克尔泰尼时，她得知丈夫已经痊愈，出于感谢，她捐助了这座教堂，并把它献给圣约翰与圣保罗，因为她到达的那一天，正好是这两位圣徒的瞻礼日。真相如何暂且不论，波希米亚的国王确实做过这座小教堂的赞助人，如今它是奥热赫堂区的附属教堂，是受保护的文化古迹，周围依旧环绕着墓地。
+
+🎁 彩蛋：壁画在一块布下面待了61年，从1890年到1951年，因为发现它们的神父怕弄坏。克尔泰尼丢了村子，它的教堂却把一个秘密守得比大多数城镇守住任何东西都要久。`,
+    },
+  },
+  {
+    name: 'Stone Table Dolmen Bel',
+    slug: 'kamenny-stul-dolmen-bel',
+    localizedNames: { cz: 'Kamenný stůl Dolmen BEL', zh: '石桌石棚"Bel"' },
+    labels: ['monument', 'historical', 'hidden-gem'],
+    coordinates: { lat: 50.042472025736664, lng: 14.291728389675297 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Krte%C5%88',
+    description: {
+      en: `Welcome to Dolmen Bel, a stone table that has been sitting at the gate of a Bohemian cemetery since 2010 and looks as if it has been there since the Stone Age. That is exactly the effect it was going for.
+
+A dolmen is the kind of monument you normally expect to meet in Brittany or Ireland: big stones set upright with a slab laid across the top, put up by prehistoric builders for reasons we mostly still argue about. This one stands at the entrance gate to the cemetery beside the Church of Saints John and Paul in Krteň, and it was placed there on 9 April 2010, on the initiative of the environment department of the Prague 13 district office. It is made of Ordovician slate, a stone laid down in the Palaeozoic era and more than 440 million years old, and was modelled after the megalithic structures of ancient civilisations.
+
+The place asked for it, in a way. Legend puts a Slavic sacred grove around the church and cemetery, other sources mention a small pagan hillfort, and archaeologists have found prehistoric settlement all around. The old royal road from Prague Castle to Karlštejn ran right past, and Bohemian kings themselves were patrons of the little church. A spot with this much tradition seems to invite a few symbolic objects of its own, and Bel is the modern one.
+
+🎁 Bonus: The dolmen dates from 2010, but its slate was laid down more than 440 million years ago. The copy is modern; the stone was already ancient long before the first people ever thought of stacking rocks into a table.`,
+
+      cz: `Vítejte u dolmenu Bel, kamenného stolu, který od roku 2010 stojí u brány jednoho českého hřbitova a vypadá, jako by tu stál od doby kamenné. Přesně o ten dojem šlo.
+
+Dolmen je památka, kterou byste normálně čekali v Bretani nebo v Irsku: velké kameny postavené na výšku s deskou položenou navrch, které postavili pravěcí stavitelé z důvodů, o nichž se dodnes většinou dohadujeme. Tenhle stojí u vstupní brány hřbitova u kostela svatého Jana a Pavla v Krtěni a byl sem umístěn 9. dubna 2010 z iniciativy odboru životního prostředí úřadu městské části Praha 13. Je z ordovické břidlice, kamene z prvohor, starého více než 440 milionů let, a vznikl podle vzoru megalitických staveb dávných civilizací.
+
+Místo si ho svým způsobem samo řeklo. Pověst klade kolem kostela a hřbitova slovanský posvátný háj, jiné prameny zmiňují malé pohanské hradiště a archeologové našli v okolí pravěké osídlení. Kolem vedla stará královská cesta z Pražského hradu na Karlštejn a čeští králové byli patrony malého kostela. Místo s takovou tradicí jako by si přímo říkalo o pár vlastních symbolických předmětů a Bel je ten novodobý.
+
+🎁 Bonus: Dolmen pochází z roku 2010, ale jeho břidlice vznikla před více než 440 miliony let. Kopie je moderní, kámen byl prastarý dávno předtím, než kohokoli napadlo skládat kameny do stolu.`,
+
+      zh: `欢迎来到"Bel"石棚，这是一张自2010年起立在波希米亚一座墓地门口的石桌，看上去却像从石器时代就在那里。它要的正是这种效果。
+
+石棚是你通常会在布列塔尼或爱尔兰遇到的那种遗迹：几块大石头竖起来，顶上再架一块石板，是史前的建造者留下的，为什么建，至今大多数时候还在争论。这一座立在克尔泰尼圣约翰与圣保罗教堂墓地的入口大门旁，2010年4月9日由布拉格13区区政府环境部门主导安放。它由奥陶纪板岩制成，这种岩石形成于古生代，已有超过4.4亿年的历史，造型参照的是古代文明的巨石建筑。
+
+某种意义上是这个地方自己要求有它的。传说教堂和墓地一带曾是斯拉夫人的神圣树林，另一些记载提到一座小型异教山城，考古学家在周边也发现了史前聚落。从布拉格城堡通往卡尔施泰因的古老王家大道就从这里经过，波希米亚的国王还做过这座小教堂的赞助人。一个传统深厚到这个程度的地方，似乎总会自己招来几件象征性的物件，而"Bel"就是现代的那一件。
+
+🎁 彩蛋：这座石棚造于2010年，可它的板岩早在4.4亿多年前就形成了。复制品是现代的，石头却在人类想到把石头堆成桌子之前，就已经古老得不行了。`,
+    },
+  },
+  {
+    name: 'IKEA Zličín',
+    slug: 'ikea-zlicin',
+    localizedNames: { cz: 'IKEA Zličín', zh: '宜家兹利钦店' },
+    labels: ['modern'],
+    coordinates: { lat: 50.051106943427975, lng: 14.299052881577136 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/IKEA',
+    description: {
+      en: `Welcome to IKEA Zličín, the blue-and-yellow box where a great many Praguers have gone in for a single shelf and come out with a lamp, a plant and no memory of how it happened. Prague's western edge has never been the same.
+
+IKEA arrived in Czechoslovakia on 5 September 1991, when it opened its first shop on three floors of the DBK building on Budějovická street in Prague. Václav Klaus, then finance minister, attended the seven o'clock opening, and the shop was soon so full that people queued at the tills. On 3 October 1996 IKEA moved into a building of its own in Zličín, a short walk from the terminus of metro line B, which had opened two years earlier. The formula worked, and the chain followed with Brno in 1998, Ostrava in 2001 and Prague-Černý Most in 2004.
+
+The best measure of what happened is a small table. When the Zličín store opened in 1996, the LACK side table cost 698 crowns; today it costs 149, while real wages have roughly tripled. Furniture went from a serious purchase to something that fits into a Saturday afternoon, and Zličín is where a good part of Prague first learned to shop that way.
+
+🎁 Bonus: The first IKEA in the country was not here at all but in a shopping centre on Budějovická, five years before the Zličín store opened. Zličín is only the one that grew up.`,
+
+      cz: `Vítejte v IKEA Zličín, modrožluté krabici, kam už spousta Pražanů zašla pro jednu poličku a odešla s lampou, květinou a bez vzpomínky, jak se to stalo. Pražský západní okraj už nikdy nebyl jako dřív.
+
+IKEA dorazila do Československa 5. září 1991, kdy otevřela svou první prodejnu ve třech patrech budovy DBK na pražské Budějovické. Na sedmihodinovém otevření byl přítomen tehdejší ministr financí Václav Klaus a prodejna byla brzy tak plná, že u pokladen stály fronty. 3. října 1996 se IKEA přestěhovala do vlastní budovy na Zličíně, kousek od konečné stanice metra B, která tu byla otevřena o dva roky dřív. Vzorec fungoval a řetězec pokračoval Brnem v roce 1998, Ostravou v roce 2001 a Prahou-Černým Mostem v roce 2004.
+
+Nejlepším měřítkem toho, co se stalo, je malý stolek. Když se v roce 1996 otevíral obchod na Zličíně, stál odkládací stolek LACK 698 korun, dnes stojí 149 a reálné mzdy se zhruba ztrojnásobily. Nábytek se z vážného nákupu změnil na něco, co se vejde do sobotního odpoledne, a Zličín je místo, kde se velká část Prahy takhle nakupovat poprvé naučila.
+
+🎁 Bonus: První IKEA v zemi nebyla vůbec tady, ale v obchodním centru na Budějovické, o pět let dřív, než se otevřela ta na Zličíně. Zličín je jen ta, která vyrostla.`,
+
+      zh: `欢迎来到宜家兹利钦店，这个蓝黄相间的大盒子，无数布拉格人走进去时只想买一个架子，出来时手里多了一盏灯、一盆植物，还想不起来是怎么回事。布拉格的西边缘从此再没跟以前一样过。
+
+宜家在1991年9月5日进入捷克斯洛伐克，第一家店开在布拉格布杰约维茨卡街DBK大楼的三层楼里。时任财政部长瓦茨拉夫·克劳斯出席了早上七点的开业仪式，店里很快就人满为患，收银台前排起了队。1996年10月3日，宜家搬进了兹利钦自己的大楼，离两年前刚刚通车的地铁B线终点站只有几步路。这套办法奏效了，连锁店随后在1998年去了布尔诺，2001年去了俄斯特拉发，2004年去了布拉格的切尔尼·莫斯特。
+
+衡量这一切最好的尺子是一张小桌子。1996年兹利钦店开业时，LACK边桌卖698克朗，如今是149克朗，而实际工资已经涨了大约两倍。家具从一笔严肃的开销，变成了一个周六下午就能搞定的事，而兹利钦正是布拉格相当一部分人第一次这样购物的地方。
+
+🎁 彩蛋：这个国家的第一家宜家其实根本不在这里，而是在布杰约维茨卡街的一座购物中心里，比兹利钦店早了五年。兹利钦只是长大了的那一家。`,
+    },
+  },
+  {
+    name: 'Old Zličín',
+    slug: 'stary-zlicin',
+    localizedNames: { cz: 'Starý Zličín', zh: '老兹利钦' },
+    labels: ['village-and-town', 'historical'],
+    coordinates: { lat: 50.062482524459995, lng: 14.283532513910002 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Praha-Zli%C4%8D%C3%ADn',
+    description: {
+      en: `Welcome to Old Zličín, the part of Zličín that was here before the metro, the shops and the car parks, and is still holding on to its farmsteads while the rest of the name has gone off to work in retail.
+
+The village's oldest paper is a charter of Duke Břetislav I dated 18 October 1045, which names a man called Keiena in Zličín as a subject of the Břevnov monastery. Scholars think the charter is probably a 13th-century forgery, which makes Zličín's first appearance in history a fairly creative one. A firmer record comes on 12 March 1404, when Abbot Divíš and the convent of Břevnov sold an allodial farmstead in the village to a Prague burgher named Mauricius. Archaeology suggests people had been farming the good soil here, with plenty of water nearby, since the Younger Stone Age.
+
+The old core is still recognisable from its farmsteads and agricultural buildings around the village green. A cross stands in front of farm no. 6, reportedly put up after an epidemic ended in 1845, and opposite the office there is the old Zličín well, once the source of the Košíře waterworks, built between 1905 and 1906. In 1960 Zličín absorbed the neighbouring village of Sobín, both were annexed to Prague in 1974, and today Prague-Zličín is an independent municipal part with about 8,400 residents.
+
+🎁 Bonus: Zličín's well was feeding the Košíře waterworks in 1906, sixteen years before Košíře joined Prague and sixty-eight years before Zličín did. The village was watering its future neighbour long before it got the chance to become one itself.`,
+
+      cz: `Vítejte ve Starém Zličíně, části Zličína, která tu byla dřív než metro, obchody a parkoviště a stále se drží svých statků, zatímco zbytek jména odešel pracovat do maloobchodu.
+
+Nejstarším papírem vsi je listina knížete Břetislava I. z 18. října 1045, která jmenuje Zličíňana jménem Keiena jako poddaného břevnovského kláštera. Badatelé soudí, že listina je pravděpodobně padělek z 13. století, což činí první vystoupení Zličína v dějinách dost tvořivým. Pevnější záznam přichází 12. března 1404, kdy opat Divíš a konvent břevnovský prodali svobodný statek ve vsi pražskému měšťanu Mauriciovi. Archeologie naznačuje, že tu lidé obdělávali dobrou půdu s dostatkem vody nablízku už od mladší doby kamenné.
+
+Staré jádro je dodnes poznat podle statků a hospodářských budov kolem návsi. Před statkem čp. 6 stojí kříž, údajně postavený po skončení epidemie roku 1845, a naproti úřadu je stará zličínská studna, kdysi zdroj Košířského vodovodu, který se stavěl v letech 1905 až 1906. V roce 1960 Zličín pohltil sousední ves Sobín, obě byly v roce 1974 připojeny k Praze a dnes je Praha-Zličín samostatnou městskou částí s asi 8400 obyvateli.
+
+🎁 Bonus: Zličínská studna napájela Košířský vodovod v roce 1906, šestnáct let před připojením Košíř k Praze a šedesát osm let před připojením Zličína. Ves zásobovala vodou svého budoucího souseda dávno předtím, než dostala šanci jím sama být.`,
+
+      zh: `欢迎来到老兹利钦，它是兹利钦在地铁、商场和停车场出现之前就有的那一部分，仍然守着自己的农庄，而这个名字的其余部分早已去做零售业了。
+
+村子最古老的文件是布列蒂斯拉夫一世公爵1045年10月18日的一份特许状，里面提到兹利钦有个叫凯埃纳的人，是布热夫诺夫修道院的属民。学者们认为这份特许状很可能是13世纪的伪造，这让兹利钦在历史上的首次亮相显得相当有创意。更可靠的记录出现在1404年3月12日：迪维什院长与布热夫诺夫修道院把村里的一处自有农庄卖给了一位名叫毛里奇乌斯的布拉格市民。考古显示，这里土壤肥沃、水源充足，早在新石器时代晚期就有人耕种。
+
+老村的核心至今看得出来：农庄和农业建筑围着村中的绿地。6号农庄前立着一座十字架，据说是1845年一场疫病结束后所建，办公楼对面则是老兹利钦水井，它曾是科希热供水系统的水源，供水系统建于1905至1906年间。1960年，兹利钦并入了邻近的索宾村，两村在1974年一起并入布拉格，如今布拉格-兹利钦是一个独立的市区，约有8400位居民。
+
+🎁 彩蛋：1906年，兹利钦的水井在为科希热的供水系统供水，那是科希热并入布拉格前的十六年，也是兹利钦并入布拉格前的六十八年。这个村子早在有机会成为布拉格一部分之前，就一直在给未来的邻居供水。`,
+    },
+  },
+  {
+    name: 'Hajčí Farmstead',
+    slug: 'hajci-dvur',
+    localizedNames: { cz: 'Hajčí dvůr', zh: '哈伊奇庄园' },
+    labels: ['homestead', 'historical', 'architecture'],
+    coordinates: { lat: 50.060539946795664, lng: 14.318154918817077 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Haj%C4%8D%C3%AD_dv%C5%AFr',
+    description: {
+      en: `Welcome to Hajčí Farmstead, a country estate on the northern edge of Stodůlky that started life as a working farm, got promoted to a banker's summer house and now spends its time waiting for the next repair. It is also known as Dvůr Háje and Angelovský dvůr, so it has never been short of names.
+
+Tourist sources trace the place back to 1359, when the building is said to have served as a workshop for the personal physician of Charles IV, with a first rebuild in 1429. The form it has today comes from the early 19th century. In the 1830s the estate was bought by Leopold Lämmel, an industrialist and banker, the first director of the Czech Savings Bank, who in 1831 had offered the Austrian state a loan of 8 million gulden. Lämmel used the farm as a summer residence for his family, and a reconstruction in 1836 gave it a two-storey manor house on a square plan.
+
+The result is a Classicist complex in which a granary, stables and a barn close a square courtyard around the house. It stands next to the Chapel of the Finding of the Holy Cross and the U Hájů nature monument, and it is a protected cultural monument that spent much of the 20th century deteriorating. The estate was returned to the heirs of its last owner in 2005, gradual reconstruction began in 2013, and in 2014 the roof and the tower of the north wing were repaired.
+
+🎁 Bonus: The man who offered an empire 8 million gulden in 1831 chose, for his own holidays, a farm on the edge of the fields outside Prague. Even bankers, it seems, need somewhere with more barns than clients.`,
+
+      cz: `Vítejte na Hajčím dvoře, venkovském sídle na severním okraji Stodůlek, které začínalo jako pracovní statek, bylo povýšeno na bankéřovo letní sídlo a dnes tráví čas čekáním na další opravu. Říká se mu také Dvůr Háje a Angelovský dvůr, takže na jména nikdy nestrádal.
+
+Turistické zdroje vystopovaly místo až do roku 1359, kdy prý budova sloužila jako dílna osobního lékaře Karla IV., s první přestavbou v roce 1429. Dnešní podobu má z počátku 19. století. Ve třicátých letech 19. století statek koupil Leopold Lämmel, průmyslník a bankéř, první ředitel České spořitelny, který v roce 1831 nabídl rakouskému státu půjčku 8 milionů zlatých. Lämmel statek užíval jako letní sídlo pro svou rodinu a rekonstrukce v roce 1836 mu dala patrový zámeček na čtvercovém půdorysu.
+
+Výsledkem je klasicistní areál, v němž sýpka, stáje a stodola uzavírají čtvercový dvůr kolem domu. Stojí vedle kaple Nalezení svatého Kříže a přírodní památky U Hájů a je chráněnou kulturní památkou, která velkou část 20. století chátrala. Statek byl v roce 2005 vrácen dědicům posledního majitele, postupná rekonstrukce začala v roce 2013 a v roce 2014 byla opravena střecha a věž severního křídla.
+
+🎁 Bonus: Muž, který roku 1831 nabídl císařství 8 milionů zlatých, si pro vlastní dovolenou vybral statek na okraji polí za Prahou. I bankéři, zdá se, potřebují místo, kde je víc stodol než klientů.`,
+
+      zh: `欢迎来到哈伊奇庄园，斯托杜尔基北缘的一处乡间庄园，它一开始是个干活的农场，后来升级成银行家的避暑别墅，如今的日子主要用来等待下一次修缮。它还叫作"哈耶农庄"和"安格尔庄园"，所以从来不缺名字。
+
+旅游资料把这个地方追溯到1359年，据说当时这栋建筑是查理四世私人医生的工作坊，1429年第一次重建。今天的样子来自19世纪初。1830年代，这处产业被工业家兼银行家利奥波德·莱梅尔买下，他是捷克储蓄银行的第一任行长，1831年曾向奥地利政府提出800万古尔登的贷款。莱梅尔把农场当作全家的夏季住所，1836年的改建给它加了一栋方形平面的两层庄园主楼。
+
+结果是一组古典主义建筑群：粮仓、马厩和谷仓围着主楼，合成一个方形庭院。它紧邻"发现圣十字架"礼拜堂和U Hájů自然遗迹，是受保护的文化古迹，20世纪的大部分时间里一直在破败。2005年产业归还给最后一任主人的继承人，2013年起逐步修缮，2014年修好了屋顶和北翼的塔楼。
+
+🎁 彩蛋：1831年那位向一个帝国提出800万古尔登贷款的人，给自己度假挑的却是布拉格城外田野边缘的一座农场。看来连银行家也需要一个谷仓比客户多的地方。`,
+    },
+  },
+  {
+    name: 'Hlubočepy Slabs',
+    slug: 'hlubocepske-plotny',
+    localizedNames: { cz: 'Hlubočepské plotny', zh: '赫卢博切皮岩壁' },
+    labels: ['geology', 'nature', 'hidden-gem'],
+    coordinates: { lat: 50.043591716242204, lng: 14.391939724780807 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hlubo%C4%8Depsk%C3%A9_plotny',
+    description: {
+      en: `Welcome to the Hlubočepy Slabs, two enormous vertical limestone walls that a quarry left behind and climbers immediately claimed as their own. They stand at the eastern end of Prokopské Valley, and even people who have no intention of climbing them tend to stop and look up.
+
+The rock is Třebotov limestone. It was laid down as horizontal layers on an ancient sea floor, then tipped up until it stood almost on end by tectonic movement, but crucially it was not crumpled into folds on the way. So where quarrymen cut away material, they left behind long, smooth surfaces instead of a jumble. The biggest is the Left Slab, the Great Wall, about 40 metres high, joined by a 17-metre Small Slab, while the Right or Railway Slab stands a few tens of metres away and is about 30 metres tall. There was a major landslide in the quarry in 1939.
+
+Climbers came in the 1980s and 1990s, when the first sport routes went up, and today there are around 60 routes across the three slabs, with the Left Slab holding 27 of them in the 7a to 7c+ range. Since 2010 a special exemption from the Prague municipality has allowed climbing here all year round, unusual for a spot inside a nature reserve. The railway line runs right beside the Right Slab, so there is one thing to keep an eye on besides the rock.
+
+🎁 Bonus: The smooth faces on these walls are not something nature made on its own. Nature tilted the layers and left them intact, and it took a quarry to cut the walls, which means that Prague's most photogenic climbing crag is, in a way, a by-product of making lime.`,
+
+      cz: `Vítejte na Hlubočepských plotnách, dvou obrovských svislých vápencových stěnách, které po sobě nechal lom a které si horolezci okamžitě přivlastnili. Stojí na východním konci Prokopského údolí a i lidé, kteří na ně lézt nehodlají, se u nich zpravidla zastaví a zvednou hlavu.
+
+Skála je třebotovský vápenec. Vznikl jako vodorovné vrstvy na dně dávného moře, pak ho tektonické pohyby postavily téměř na hranu, ale hlavně se přitom nezvrásnil. Takže tam, kde lomaři odřezali materiál, zůstaly dlouhé, hladké plochy místo změti. Největší je Levá plotna, Velká stěna, vysoká asi 40 metrů, doplněná 17metrovou Malou plotnou, zatímco Pravá neboli Železniční plotna stojí o pár desítek metrů dál a měří asi 30 metrů. V lomu došlo roku 1939 k velkému sesuvu.
+
+Horolezci přišli v osmdesátých a devadesátých letech, kdy tu vznikly první sportovní cesty, a dnes je na třech plotnách kolem 60 cest, z toho 27 na Levé plotně v rozmezí 7a až 7c+. Od roku 2010 tu speciální výjimka pražského magistrátu umožňuje lézt celoročně, což je uvnitř přírodní rezervace neobvyklé. Železniční trať vede těsně vedle Pravé plotny, takže je tu kromě skály na co dávat pozor.
+
+🎁 Bonus: Hladké stěny na těchto plotnách nevytvořila příroda sama. Příroda vrstvy nakloněla a nechala je nedotčené, ale stěny musel vyřezat až lom, takže nejfotogeničtější pražská lezecká skála je svým způsobem vedlejší produkt výroby vápna.`,
+
+      zh: `欢迎来到赫卢博切皮岩壁，两面巨大的垂直石灰岩墙，是采石场留下的，攀岩者立刻据为己有。它们立在普罗科普斯克峡谷的东端，即使没打算爬的人，也常常会停下来仰头看一眼。
+
+这里的岩石是特热博特石灰岩。它原本是古代海底的水平层，后来在构造运动下被掀到几乎竖立，而关键在于，它在这个过程中没有被揉成褶皱。所以采石工人切走岩石的地方，留下的是一整片光滑的平面，而不是一堆乱石。最大的一面是左岩壁，也叫大墙，约40米高，旁边还有一面17米高的小岩壁，而右岩壁又称铁路岩壁，在几十米开外，约30米高。1939年，采石场曾发生过一次大规模滑坡。
+
+攀岩者在1980到1990年代到来，第一批运动攀登路线就是那时开出来的，如今三面岩壁上共有大约60条路线，其中左岩壁占了27条，难度在7a到7c+之间。自2010年起，布拉格市政府的一项特别豁免允许这里全年攀登，这在自然保护区里并不寻常。铁路线紧贴右岩壁而过，所以除了岩石，还有一样东西需要留意。
+
+🎁 彩蛋：这些岩壁上的光滑面，并不是大自然独自造出来的。大自然把地层掀起来，又让它们保持完整，还得靠采石场把墙切出来，也就是说，布拉格最上镜的攀岩场，在某种意义上是烧石灰的副产品。`,
+    },
+  },
+  {
+    name: 'Hlubočepy Rock Garden',
+    slug: 'skalnickova-zahrada-hlubocepy',
+    localizedNames: { cz: 'Skalničková zahrada Hlubočepy', zh: '赫卢博切皮岩石花园' },
+    labels: ['park', 'nature', 'hidden-gem'],
+    coordinates: { lat: 50.0424995644307, lng: 14.38923543645885 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Skalni%C4%8Dkov%C3%A1_zahrada_Hlubo%C4%8Depy',
+    description: {
+      en: `Welcome to the Hlubočepy Rock Garden, a small botanical garden tucked behind a limestone cliff at the edge of Prokopské Valley, where more than two thousand plants have been coaxed into growing on ground that was once a stone dump. It looks like a hobby that got out of hand, and that is more or less its origin story.
+
+The site began in the second half of the 19th century as a place to dump rock from the nearby Smíchov railway station, and later became part of a former limestone quarry. In the 1950s a married couple, the Haladas, started planting it, and their son Milan Halada still looks after it. Today it covers about 2,000 square metres and holds more than 2,000 rock-garden plants, alpines and woody species, arranged in ten numbered stops with information plaques, an arboretum section of conifers and broadleaves, and habitats that include an alpine garden, a bog, a herbaceous border and a pond. The garden is on K Dalejím street, right behind the Hlubočepy Slabs.
+
+It very nearly ended as a villa. In 2016 a private buyer tried to purchase the land to build a house, but the Prague 5 district office stepped in, blocked the sale and paid for a renovation. The revitalised garden, with a new pond with water circulation and root-zone filtration, opened to the public on 8 May 2019. It closed briefly in spring 2020 during the pandemic and reopened after 15 May.
+
+🎁 Bonus: Local reports say organised trips used to come to see this garden and that growers from around the world envy its rare plants. Not bad for a place that began as a pile of leftover railway stone.`,
+
+      cz: `Vítejte ve Skalničkové zahradě Hlubočepy, malé botanické zahradě ukryté za vápencovou skalou na okraji Prokopského údolí, kde se na půdě, která bývala skládkou kamene, podařilo přesvědčit k růstu přes dva tisíce rostlin. Vypadá jako koníček, který se vymkl z ruky, a to je víceméně i její příběh.
+
+Místo začínalo v druhé polovině 19. století jako skládka horniny z nedalekého smíchovského nádraží a později se stalo součástí bývalého vápencového lomu. V padesátých letech je začali osazovat manželé Haladovi a jejich syn Milan Halada o zahradu pečuje dodnes. Dnes má zhruba 2000 metrů čtverečních a přes 2000 skalniček, alpínek a dřevin, uspořádaných do deseti očíslovaných zastavení s informačními tabulemi, arboreta s jehličnany a listnáči a stanovišť zahrnujících alpinum, rašeliniště, trvalkový záhon a jezírko. Zahrada leží v ulici K Dalejím, hned za Hlubočepskými plotnami.
+
+Málem skončila jako vila. V roce 2016 se soukromý kupec pokusil pozemek koupit, aby na něm postavil dům, ale úřad městské části Praha 5 zasáhl, prodej zablokoval a zaplatil rekonstrukci. Revitalizovaná zahrada s novým jezírkem s cirkulací vody a kořenovým čištěním se otevřela veřejnosti 8. května 2019. Na jaře 2020 se kvůli pandemii krátce zavřela a po 15. květnu se znovu otevřela.
+
+🎁 Bonus: Místní zprávy uvádějí, že sem dříve jezdily organizované zájezdy a že vzácným rostlinám závidějí pěstitelé z celého světa. Není to špatné pro místo, které začínalo jako hromada zbylého železničního kamení.`,
+
+      zh: `欢迎来到赫卢博切皮岩石花园，一座藏在普罗科普斯克峡谷边缘石灰岩崖壁后面的小型植物园，两千多株植物在这片曾是弃石堆的土地上被哄着长了起来。它看起来像一个失控了的爱好，而它的来历也差不多就是这样。
+
+这块地在19世纪下半叶最初是用来倾倒邻近斯米霍夫火车站石料的地方，后来成了一座旧石灰岩采石场的一部分。1950年代，哈拉达夫妇开始在这里种植，他们的儿子米兰·哈拉达至今仍在照看。如今它占地约2000平方米，有两千多种岩生植物、高山植物和木本植物，分成十个带编号的参观点，配有说明牌，另有针叶和阔叶树的树木园区，以及高山花园、沼泽、多年生花境和池塘等生境。花园在"K Dalejím"街，就在赫卢博切皮岩壁后面。
+
+它差点就变成了一栋别墅。2016年，一位私人买家想买下这块地盖房子，但布拉格5区区政府出面阻止了出售，并出资翻新。修复后的花园带一个有水循环和根系过滤功能的新池塘，于2019年5月8日向公众开放。2020年春天因疫情短暂关闭，5月15日之后重新开放。
+
+🎁 彩蛋：当地报道说，这里以前有旅游团专程来看，各国的种植者也羡慕它的稀有植物。对一个起点是一堆铁路剩下的石头的地方来说，这个成绩不算差。`,
+    },
+  },
+  {
+    name: 'Prokopské Pond',
+    slug: 'prokopske-jezirko',
+    localizedNames: { cz: 'Prokopské jezírko', zh: '普罗科普斯克池塘' },
+    labels: ['waterbody', 'nature', 'hidden-gem'],
+    coordinates: { lat: 50.04165757891919, lng: 14.385376578967588 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Prokopsk%C3%A9_%C3%BAdol%C3%AD',
+    description: {
+      en: `Welcome to Prokopské Pond, a small, very green pool in the middle of Prokopské Valley that is also known as Rusalka's Pond, which sounds far more romantic than "old quarry hole." It is 107 metres long, 26 wide and about four metres deep, and nearly every legend about it turns out to be wrong.
+
+The pond began in 1905 as a flooded limestone quarry, where the reddish-grey Třebotov limestone forms its northern wall. Its surface covers about 1,800 square metres and holds around 6,270 cubic metres of water, fed by roughly ten litres a second. According to the local legend, a fissure spring was released during blasting, the water rose so fast that the workers barely escaped, and their mining equipment was left on the bottom. It is a good story, and a diving survey in 2007 spoiled it: the divers found only rocks and rubble down there, so the quarry must have been flooded on purpose.
+
+Today it supports river mussels brought from the Džbán reservoir, crayfish that were relocated during the revitalisation and are now returning, common toads and a lot of wild ducks, whose regular feeding by visitors is not good for the water quality. The pond is kept topped up with groundwater pumped from a nearby military facility, and the city's forest authority checks it monthly and measures the clarity of the water.
+
+🎁 Bonus: The pond is kept full by groundwater pumped out of an army installation. Legend says an underground spring flooded it by accident, and reality says the army now floods it on purpose.`,
+
+      cz: `Vítejte u Prokopského jezírka, malého, velmi zeleného jezírka uprostřed Prokopského údolí, kterému se říká také Rusalčino a které zní mnohem romantičtěji než „stará díra po lomu“. Je 107 metrů dlouhé, 26 široké a asi čtyři metry hluboké a téměř každá pověst o něm se ukázala jako nepravdivá.
+
+Jezírko vzniklo v roce 1905 jako zatopený vápencový lom, kde červenošedý třebotovský vápenec tvoří jeho severní stěnu. Hladina má asi 1800 metrů čtverečních, obsahuje zhruba 6270 metrů krychlových vody a přítok je asi deset litrů za sekundu. Podle místní pověsti se při trhání uvolnil pramen ze štěrbiny, voda vystoupala tak rychle, že dělníci stěží utekli, a těžební nářadí zůstalo na dně. Je to dobrý příběh a potápěčský průzkum v roce 2007 ho zkazil: potápěči našli dole jen kameny a suť, takže lom musel být zatopen záměrně.
+
+Dnes v něm žijí škeble říční přenesené z nádrže Džbán, raci, kteří byli při revitalizaci přemístěni a teď se vracejí, ropuchy obecné a spousta divokých kachen, jejichž pravidelné krmení návštěvníky vodě nesvědčí. Jezírko je doplňováno podzemní vodou čerpanou z nedalekého vojenského objektu a lesy hlavního města ho měsíčně kontrolují a měří průhlednost vody.
+
+🎁 Bonus: Jezírko je udržováno plné podzemní vodou, kterou čerpá armádní objekt. Pověst říká, že ho omylem zatopil podzemní pramen. Skutečnost říká, že mu dnes vodu dodává armáda.`,
+
+      zh: `欢迎来到普罗科普斯克池塘，普罗科普斯克峡谷中央一潭小小的、非常绿的水，它还叫"露莎卡池塘"，比"旧采石坑"听起来浪漫多了。池塘长107米、宽26米、深约4米，而关于它的传说，几乎每一条都被证明是错的。
+
+这座池塘始于1905年一座被淹没的石灰岩采石场，红灰色的特热博特石灰岩构成了它的北壁。水面约1800平方米，蓄水约6270立方米，每秒进水约十升。当地传说，爆破时释放出一处岩缝泉水，水涨得太快，工人们勉强逃生，采矿设备留在了水底。这是个好故事，而2007年的一次潜水调查把它毁了：潜水员在下面只发现了石头和碎石，所以这座采石场一定是被人故意淹掉的。
+
+如今这里生活着从兹班水库迁来的河蚌，修复期间被转移走、现在正在回归的小龙虾，普通蟾蜍，还有很多野鸭，游客经常喂食它们，对水质不利。池塘靠附近一处军事设施抽出的地下水补水，布拉格市林业局每月检查一次，并测量水的透明度。
+
+🎁 彩蛋：这座池塘靠一处军事设施抽出的地下水保持满水。传说是地下泉水意外把它淹了，而现实是，如今由军队故意把它淹着。`,
+    },
+  },
+  {
+    name: 'Book Box (Prokopské Valley)',
+    slug: 'knihobudka-prokopske-udoli',
+    localizedNames: { cz: 'Knihobudka (Prokopské údolí)', zh: '图书交换亭（普罗科普斯克峡谷）' },
+    labels: ['hidden-gem', 'modern'],
+    coordinates: { lat: 50.04025633504338, lng: 14.373087105059547 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Welcome to the Book Box in Prokopské Valley, a small shelf in a nature reserve where the rules of the library are simple: take one, leave one and do not ask for a receipt. Nobody stamps anything, nobody fines anybody, and nobody has ever been shushed.
+
+Public book boxes came to Prague in 2013, when the non-profit KnihoBudka project, supported by Telefónica O2's Think Big programme, began turning disused telephone boxes into little free libraries in public spaces. The idea caught on, and shelves for swapping books, in phone boxes and in every other kind of small structure, have since turned up all over Prague and its surroundings. This one sits in the valley, near the trail where the educational path follows the Dalejský stream from stop to stop.
+
+It has some history to live up to. The valley was declared a nature reserve on 6 December 1978, and long before that it had a tradition of retreat of its own: in 1715 a hermitage was built near the entrance of the local cave, and it stayed until Emperor Joseph II closed it in the 1780s. The hermit's job was to be alone, and the box's job is the opposite.
+
+🎁 Bonus: In 1715 this valley got a hermit, whose whole purpose was to be left alone. Three centuries later it has a shelf that exists so that strangers can pass each other reading tips. Progress, of a kind.`,
+
+      cz: `Vítejte u Knihobudky v Prokopském údolí, malé poličky v přírodní rezervaci, kde jsou pravidla knihovny jednoduchá: jednu si vezměte, jednu tu nechte a nežádejte stvrzenku. Nikdo nic neopatřuje razítkem, nikdo nikoho nepokutuje a nikdo tu nikdy nikoho neokřikl.
+
+Veřejné knihobudky se do Prahy dostaly v roce 2013, kdy nezisková iniciativa KnihoBudka, podpořená programem Think Big společnosti Telefónica O2, začala proměňovat nepoužívané telefonní budky na malé bezplatné knihovničky ve veřejném prostoru. Nápad se ujal a police na výměnu knih, v telefonních budkách i v jakýchkoli jiných malých stavbách, se od té doby objevily po celé Praze a okolí. Tahle stojí v údolí, poblíž stezky, kde naučná stezka provází podél Dalejského potoka od zastavení k zastavení.
+
+Má se čeho držet. Údolí bylo prohlášeno přírodní rezervací 6. prosince 1978 a dávno předtím mělo svou vlastní tradici ústraní: v roce 1715 tu u vchodu do místní jeskyně vznikla poustevna, která stála, dokud ji v 80. letech 18. století nezavřel císař Josef II. Úkolem poustevníka bylo být sám a úkolem knihobudky je pravý opak.
+
+🎁 Bonus: V roce 1715 dostalo toto údolí poustevníka, jehož jediným smyslem bylo, aby ho nechali na pokoji. O tři století později má polici, která existuje proto, aby si cizí lidé předávali tipy na čtení. Pokrok, svého druhu.`,
+
+      zh: `欢迎来到普罗科普斯克峡谷的图书交换亭，自然保护区里的一个小书架，这里图书馆的规矩很简单：拿一本，留一本，不用要收据。没人盖章，没人罚款，也从来没人被嘘过。
+
+公共图书交换亭2013年来到布拉格，那一年非营利项目KnihoBudka在Telefónica O2的"Think Big"计划支持下，开始把废弃的电话亭改造成公共空间里的免费小图书馆。这个点子流行开了，此后布拉格及周边冒出了各种用来交换图书的书架，有的在电话亭里，有的在各种小型构筑物里。这一个立在峡谷里，靠近科普步道沿达莱伊溪一站一站走的那条路。
+
+它有一段历史要匹配。这座峡谷在1978年12月6日被宣布为自然保护区，而在此之前很久，它就有过自己那种隐居的传统：1715年，当地洞穴入口附近建起了一座隐修所，一直存在到1780年代被约瑟夫二世皇帝关闭。隐修士的工作是独处，而图书亭的工作正相反。
+
+🎁 彩蛋：1715年，这座峡谷来了一位隐修士，他的全部意义就是让别人别来打扰。三个世纪之后，这里有了一个书架，存在的意义是让陌生人互相递阅读推荐。进步，某种意义上的。`,
+    },
+  },
+  {
+    name: 'Prokopské Valley Tunnel',
+    slug: 'tunel-prokopske-udoli',
+    localizedNames: { cz: 'Tunel v Prokopském údolí', zh: '普罗科普斯克峡谷隧道' },
+    labels: ['historical', 'nature', 'hidden-gem'],
+    coordinates: { lat: 50.04124265694506, lng: 14.375548225800436 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Prokopsk%C3%BD_lom',
+    description: {
+      en: `Welcome to the tunnel in Prokopské Valley, a short, slightly curved passage that locals call "Amerika" and that spends its winters growing icicles. It is not a road or a railway tunnel but a leftover from the days when this valley was one large limestone factory.
+
+It was a transport tunnel for the Prokop quarry, and limestone was hauled through it on a 600-millimetre narrow-gauge railway in low wooden carts. From the quarry the stone went partly along the surface and partly through this tunnel to a lime kiln in the wider part of the valley. The kiln at Hlubočepy was founded by the partners Ferdinand Barta and Karel Tichý in 1875 and started working three years later. Quarrying at Prokop stopped for good in 1966, the narrow-gauge equipment was dismantled in 1967, and the kiln closed and was demolished in 1968. The tunnel is often given as 200 metres, but it is really about 90 metres long, and it runs alongside the main path through the valley.
+
+The passage stays cold enough in winter that seepage freezes into icicles, ice stalactites and delicate frost flowers, which Czech hikers call "rarášky", while the same water leaves travertine and small cave pearls behind in the warmer months. It is open to the public. It is also not the same tunnel as the much larger ones that the Nazis began digging in this quarry in 1944, planning to make Junkers aircraft engine parts underground, a factory that never went into operation.
+
+🎁 Bonus: Many sources put this tunnel at 200 metres, but it measures about 90, which makes it one of the few Prague tunnels that is less than half its own reputation. It has kept the nickname "Amerika" all the same.`,
+
+      cz: `Vítejte v tunelu v Prokopském údolí, krátké, mírně zakřivené štole, které místní říkají „Amerika“ a která v zimě pěstuje rampouchy. Není to silniční ani železniční tunel, ale pozůstatek doby, kdy bylo toto údolí jednou velkou vápencovou továrnou.
+
+Byla to dopravní štola Prokopského lomu, kterou se vápenec vozil po úzkorozchodné dráze o rozchodu 600 milimetrů v nízkých dřevěných vozících. Z lomu šel kámen částečně po povrchu a částečně touto štolou k vápence v rozšířené části údolí. Vápenku v Hlubočepech založili společníci Ferdinand Barta a Karel Tichý v roce 1875 a o tři roky později začala pracovat. Těžba v Prokopu skončila definitivně v roce 1966, úzkorozchodná zařízení byla demontována v roce 1967 a vápenka byla v roce 1968 zrušena a zbourána. Štola se často uvádí jako dlouhá 200 metrů, ve skutečnosti měří asi 90 metrů a vede podél hlavní cesty údolím.
+
+V zimě je průchod dost studený na to, aby prosakující voda tvořila rampouchy, ledové krápníky a jemné ledové květy, kterým čeští turisté říkají „rarášky“, zatímco v teplých měsících táž voda zanechává travertin a malé jeskynní perly. Je veřejně přístupná. Není to také ten samý tunel jako mnohem větší štoly, které v tomto lomu začali v roce 1944 kopat nacisté, aby tam pod zemí vyráběli součástky leteckých motorů Junkers, továrna, která nikdy nezačala pracovat.
+
+🎁 Bonus: Mnoho zdrojů uvádí u této štoly 200 metrů, ve skutečnosti měří asi 90, takže je to jeden z mála pražských tunelů, který je kratší než polovina své pověsti. Přezdívku „Amerika“ si přesto nechal.`,
+
+      zh: `欢迎来到普罗科普斯克峡谷的隧道，一条短短的、略带弧度的通道，当地人管它叫"美洲"，冬天它会长出冰柱。它不是公路或铁路隧道，而是这座峡谷曾经是一座巨大的石灰岩工厂时留下的遗物。
+
+它是普罗科普采石场的运输隧道，石灰岩用低矮的木制小车，沿着600毫米轨距的窄轨铁路拉过去。石料从采石场出来，一部分走地面，一部分穿过这条隧道，运往峡谷较宽处的石灰窑。赫卢博切皮的石灰窑由合伙人费迪南德·巴尔塔与卡雷尔·蒂希在1875年创办，三年后开始运转。普罗科普的采石在1966年彻底停止，窄轨设备1967年被拆除，石灰窑1968年关闭并拆除。这条隧道常被说成有200米，其实只有大约90米长，沿着穿过峡谷的主路延伸。
+
+冬天这里冷到渗水会结成冰柱、冰石笋和精致的霜花，捷克远足者管它们叫"rarášky"，而暖和的月份里，同样的水会留下钙华和小小的洞穴珍珠。它对公众开放。它也不是1944年纳粹开始在这座采石场里开挖的那些大得多的隧道，他们本打算在地下制造容克斯航空发动机零件，那座工厂从来没有投产。
+
+🎁 彩蛋：很多资料把这条隧道写成200米，其实它只有大约90米，是布拉格少数比自己名声短一半还多的隧道之一。它依然保住了"美洲"这个绰号。`,
+    },
+  },
 ];
 
 async function run() {
