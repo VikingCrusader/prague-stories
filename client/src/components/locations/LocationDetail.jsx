@@ -138,7 +138,7 @@ export default function LocationDetail({
   const locName = loc ? convert(getLocName(loc, lang)) : "";
   const art = loc ? getArt(loc.pixelArtKey, loc.labels) : "📍";
   const bgColor = loc ? LABEL_COLORS[loc.labels?.[0]] || "#1a2a5a" : "#1a2a5a";
-  const localCover = loc ? getLocalCoverPath(loc.slug) : null;
+  const localCover = loc ? getLocalCoverPath(loc.slug, loc.coverImage) : null;
   const useLocalCover = !!localCover && !localFailed;
   const useCloudCover = !useLocalCover && !!loc?.coverImage && !cloudFailed;
   const coverSrc = useLocalCover ? localCover : loc?.coverImage;

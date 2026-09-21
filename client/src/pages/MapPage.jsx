@@ -333,7 +333,7 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
   };
 
   const art = getArt(loc.pixelArtKey, loc.labels);
-  const localCover = getLocalCoverPath(loc.slug);
+  const localCover = getLocalCoverPath(loc.slug, loc.coverImage);
   const useLocalCover = !!localCover && !localFailed;
   const useCloudCover = !useLocalCover && !!loc.coverImage && !cloudFailed;
   const mapHref = `https://www.google.com/maps/dir/?api=1&destination=${loc.coordinates.lat},${loc.coordinates.lng}`;

@@ -15,7 +15,7 @@ export default function LocationCard({ location, onClick, distance }) {
   const art   = getArt(pixelArtKey, labels);
   const color = LABEL_COLORS[labels[0]] || '#1a2a5a';
   const firstLabel = labels[0];
-  const localCover = getLocalCoverPath(slug);
+  const localCover = getLocalCoverPath(slug, location.coverImage);
   const [localFailed, setLocalFailed] = useState(false);
   const [coverFailed, setCoverFailed] = useState(false);
   const [flipping,    setFlipping]    = useState(false);

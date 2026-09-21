@@ -69,7 +69,7 @@ function DrawnCard({ loc, name, lang, convert, onOpen }) {
   const rarity = loc.rarity ?? 'common';
   const art = getArt(loc.pixelArtKey, loc.labels);
   const bannerColor = LABEL_COLORS[loc.labels?.[0]] || '#1a2a5a';
-  const localCover = getLocalCoverPath(loc.slug);
+  const localCover = getLocalCoverPath(loc.slug, loc.coverImage);
   const [localFailed, setLocalFailed] = useState(false);
   const [cloudFailed, setCloudFailed] = useState(false);
   const useLocalCover = !!localCover && !localFailed;
