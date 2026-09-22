@@ -16423,6 +16423,204 @@ export const historyEvents = [
     ],
     wikipediaUrl: "https://cs.wikipedia.org/wiki/Jan_%C5%BDelivsk%C3%BD",
   },
+  // ---------------------------------------------------------------------
+  // Siege of Karlštejn (May–Nov 1422) + Frederick of Brandenburg's failed
+  // relief expedition, written 2026-09-22 from the user's draft,
+  // cross-checked via cs.wikipedia ("Obléhání Karlštejna husity"),
+  // husitstvi.cz (Korybut), drakkaria.cz (cannon names), and the
+  // Wikipedia/ResearchGate summaries of the 1422 Nuremberg diet. Departures
+  // from the draft, worth knowing before editing:
+  // - Korybut was Vytautas's NEPHEW, not his brother (draft said 之弟);
+  //   matches importing-a-king-1421.
+  // - Korybut did not personally sign the truce: he came in September with
+  //   reinforcements, arranged a three-day ceasefire, then went back to
+  //   Prague to put down radical unrest; the one-year truce was concluded
+  //   on 8 November under his government.
+  // - Draft's "Karlštejn garrison made peace with Žižka" corrected: the
+  //   truce was with the Prague besiegers, not Žižka.
+  // - Draft's "fled back to Lithuania after the Hussite movement failed"
+  //   made precise: recalled early 1423, returned 1424, arrested by his own
+  //   allies 1427, died 1 Sept 1435 after the battle of Wiłkomierz in
+  //   Lithuania's civil war.
+  // - Taborite campaign at "Rožmitál and the Bohemian Forest" NOT named:
+  //   no source found in two searches; card just says "in the south".
+  // - Sigismund's "keep whatever land you take" promise and Žižka's
+  //   "clubs and stones" call are from the user's draft and not
+  //   independently confirmed; phrased with "reportedly"/"word went out".
+  // - Numbers (5 cannons, 5 trebuchets, ~400 defenders, 9,032 stones,
+  //   ~1,813 barrels of excrement, 22 barrels of fire) are cs.wikipedia's.
+  //   One popular article says 1,882 barrels; not used.
+  // - No numbering of the crusade: Czech historiography disputes whether
+  //   the 1422 expedition counts as the "third".
+  // - No quote: searches for a chronicle line on the dung/truce turned up
+  //   only modern paraphrase.
+  // - tone "humorous"; image "THE STINKY SIEGE" added 2026-09-22.
+  {
+    slug: "a-siege-that-stank-1422",
+    era: "religious-turmoil",
+    startYear: 1422.6,
+    images: ["/history/a-siege-that-stank-1422.webp"],
+    imageCaptions: [
+      {
+        en: "Prague's Hussites hurl a barrel of excrement at Karlštejn Castle from a trebuchet during the 1422 siege, as one of their own cannons bursts behind them.",
+        cz: "Pražští husité vrhají z praku sud výkalů na hrad Karlštejn při obléhání roku 1422, zatímco za nimi se roztrhlo jedno z jejich děl.",
+        zh: "1422年围城期间，布拉格胡斯军用投石机把一桶粪便抛向卡尔什泰因城堡，身后自家的一门大炮刚刚炸了膛。",
+      },
+    ],
+    year: {
+      en: "1422",
+      cz: "1422",
+      zh: "1422年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Siege That Stank",
+      cz: "Obléhání, které páchlo",
+      zh: "臭名远扬的围城",
+    },
+    hookLine: {
+      en: "Prague's Hussites couldn't knock down Karlštejn's walls, so they tried the next best thing: the contents of Prague's cesspits.",
+      cz: "Pražští husité nedokázali prorazit hradby Karlštejna, a tak zkusili to druhé nejlepší: obsah pražských žump.",
+      zh: "布拉格的胡斯派轰不开卡尔什泰因的城墙，只好退而求其次：把布拉格的粪坑搬了过去。",
+    },
+    summary: {
+      en: "After [[link:thanks-for-saving-the-city-1422]]Želivský's execution[[/link]], Prague and Tábor were barely on speaking terms. Open civil war still had to wait, though, because both sides had the same enemy, and he still owned property near Prague. On 16 May 1422 [[link:importing-a-king-1421]]Sigismund Korybut[[/link]] finally rode into the city with several thousand men. He was the nephew of Vytautas, Grand Duke of Lithuania, and yes, also called Sigismund, just with a different surname. Bohemia had spent two years fighting one Sigismund and was now pinning its hopes on another. Prague's Utraquist lords, who had just overthrown Želivský and his council, accepted him as administrator of the kingdom. Within days he had his first project: Karlštejn, Charles IV's treasure castle and the last great fortress near Prague still holding out for Sigismund.\n\nThe Hussites were brilliant in open country and much less so in front of a wall. They brought five big cannons, each with a name (Rychlice, Jaroměřka, Pražka, Hovorka and Trubačka), plus five trebuchets. Several of the cannons burst from being overloaded. Over the whole siege the besiegers fired 9,032 stones, and the roughly 400 defenders mostly just patched things up. So Prague sent something else. Wagons rolled out of the city loaded with barrels from its own cesspits. [[b]]By the end of the siege, the Hussites had thrown about 1,813 barrels of excrement over Karlštejn's walls, plus 22 barrels of fire for variety.[[/b]] The castle still did not fall. Charles IV had built it to guard the crown jewels, and it turned out to guard against this too.\n\nKorybut himself came to the siege in September with reinforcements and arranged a three-day ceasefire, then had to hurry back to Prague to deal with its radicals, who were rioting again. On 8 November the besiegers and the garrison agreed a one-year truce. The garrison could not repair its walls, change its numbers, or help Sigismund; the besiegers could not move their positions. For most of the war Korybut was less a general than a flag: a living argument that Bohemia had a lawful government and did not need that Hungarian Sigismund. When his uncles made their own peace with Sigismund early in 1423, he was recalled. He came back on his own the next year, was later arrested by his own allies, and died in 1435 in Lithuania's civil war.\n\nMeanwhile, at the imperial diet in Nuremberg that summer, Sigismund went looking for a new crusade. He reportedly promised the German princes they could keep whatever Bohemian land they managed to take. Everyone agreed enthusiastically. When the day came to actually muster, most of them turned out to have urgent business at home. Only Frederick of Brandenburg, who owed his electorate to Sigismund, showed up to lead the campaign, with whatever troops the others had sent instead of coming themselves. Tábor's army, for its part, was still busy fighting in the south.\n\nThe Germans crossed into western Bohemia in October. They were not brave enough to go looking for Žižka, but they were brave enough for villages, and the smoke from burned farms marked their route. Word went out from Žižka that everyone should fight back with whatever they had, clubs and stones included. Local militias and fortified towns slowed the invaders down at every step. Then news arrived that Karlštejn had signed a truce, which removed the whole point of coming. The army turned around and went home before Žižka could get there. Karlštejn had survived 1,813 barrels of Prague's worst. Its rescuers never even had to smell them.",
+      cz: "Po [[link:thanks-for-saving-the-city-1422]]Želivského popravě[[/link]] spolu Praha a Tábor sotva mluvily. Otevřená občanská válka ale ještě musela počkat, protože obě strany měly stejného nepřítele a ten měl pořád majetek kousek od Prahy. 16. května 1422 konečně dorazil do města [[link:importing-a-king-1421]]Zikmund Korybutovič[[/link]] s několika tisíci muži. Byl to synovec litevského velkoknížete Vitolda a ano, taky se jmenoval Zikmund, jen s jiným příjmením. Čechy dva roky bojovaly s jedním Zikmundem a teď vkládaly naděje do druhého. Pražští kališničtí páni, kteří právě svrhli Želivského i jeho radu, ho přijali jako správce království. Během pár dní měl první úkol: Karlštejn, pokladnici Karla IV. a poslední velkou pevnost u Prahy, která pořád držela se Zikmundem.\n\nHusité byli skvělí v otevřeném poli, před hradbou už o dost méně. Přivezli pět velkých děl, každé s vlastním jménem (Rychlice, Jaroměřka, Pražka, Hovorka a Trubačka), a k tomu pět praků. Několik děl se roztrhlo, protože je přetěžovali. Za celé obléhání vystřelili 9 032 kamenů a zhruba 400 obránců většinou jen spravovalo škody. Praha tedy poslala něco jiného. Z města vyjížděly vozy naložené sudy z vlastních žump. [[b]]Do konce obléhání přehodili husité přes hradby Karlštejna asi 1 813 sudů výkalů a pro změnu také 22 sudů s ohněm.[[/b]] Hrad přesto nepadl. Karel IV. ho postavil, aby chránil korunovační klenoty, a ukázalo se, že ochrání i před tímhle.\n\nKorybutovič sám přitáhl k obléhání v září s posilami a sjednal třídenní příměří, pak ale musel spěchat zpátky do Prahy, kde se znovu bouřili radikálové. 8. listopadu se obléhatelé s posádkou dohodli na ročním příměří. Posádka nesměla opravovat hradby, měnit počet mužů ani pomáhat Zikmundovi; obléhatelé zase nesměli posouvat svá postavení. Po většinu války byl Korybutovič spíš prapor než vojevůdce: živý důkaz, že Čechy mají právoplatnou vládu a toho uherského Zikmunda nepotřebují. Když se jeho strýcové počátkem roku 1423 se Zikmundem sami usmířili, byl odvolán. Příští rok se vrátil na vlastní pěst, později ho zatkli vlastní spojenci a roku 1435 zemřel v litevské občanské válce.\n\nMezitím na říšském sněmu v Norimberku toho léta sháněl Zikmund novou křížovou výpravu. Německým knížatům prý slíbil, že si smějí nechat každou českou půdu, kterou dobudou. Všichni nadšeně souhlasili. Když ale přišel den skutečně táhnout, většina z nich měla najednou naléhavé povinnosti doma. Jen Fridrich Braniborský, který za své kurfiřtství vděčil Zikmundovi, se dostavil jako velitel, s vojáky, které ostatní poslali místo sebe. Táborské vojsko mělo zatím dost práce s bojem na jihu.\n\nNěmci vtrhli do západních Čech v říjnu. Na to, aby šli hledat Žižku, odvahu neměli, na vesnice ano, a jejich cestu značil kouř z vypálených statků. Od Žižky se rozšířila výzva, ať se každý brání čímkoli, klidně klackem a kamenem. Místní hotovosti a opevněná města vetřelce zdržovaly na každém kroku. Pak přišla zpráva, že Karlštejn uzavřel příměří, a tím celé tažení ztratilo smysl. Vojsko se otočilo a odtáhlo domů dřív, než tam Žižka stihl dorazit. Karlštejn přežil 1 813 sudů toho nejhoršího z Prahy. Jeho zachránci je ani nemuseli čichat.",
+      zh: "[[link:thanks-for-saving-the-city-1422]]柴利夫斯基被处决[[/link]]之后，布拉格和塔博尔几乎不再说话。不过内战还得往后排，因为双方有着同一个敌人，而且这个敌人在布拉格附近还有房产。1422年5月16日，[[link:importing-a-king-1421]]西吉斯蒙德·科里布特[[/link]]终于带着几千人进了城。他是立陶宛大公维陶塔斯的侄子，没错，也叫西吉斯蒙德，只不过姓氏不一样。波希米亚跟一个西吉斯蒙德打了两年仗，如今又把希望押在了另一个西吉斯蒙德身上。布拉格的圣杯派贵族刚刚推翻了柴利夫斯基和他的议会，这时便承认他为王国的摄政。没过几天，他就接下了第一件活儿：卡尔什泰因城堡。这是查理四世的藏宝城堡，也是布拉格附近最后一座仍为西吉斯蒙德坚守的大要塞。\n\n胡斯军打野战是一把好手，碰上城墙就差远了。他们拉来五门大炮，每门都有名字（快手、亚罗梅日、布拉格、话匣子和号手），外加五台投石机。有好几门炮因为装药太猛直接炸了膛。整场围城一共打出去9032块石头，城里约四百名守军大多只是缝缝补补。于是布拉格换了个思路：一车车木桶从城里拉出来，装的是自家粪坑里的东西。[[b]]到围城结束时，胡斯军一共往卡尔什泰因城墙里扔了约1813桶粪便，还顺带扔了22桶火。[[/b]]城堡照样没倒。查理四世造它是为了守护王冠珠宝，没想到连这个也守住了。\n\n9月，科里布特亲自带着援兵赶到城下，谈成了一个三天的停火，随后又得匆匆赶回布拉格，因为城里的激进派又闹起来了。11月8日，围城一方和守军签下为期一年的停火协议：守军不得修补城墙、不得增减人手、不得帮助西吉斯蒙德；围城一方也不得挪动阵地。在整场战争里，科里布特与其说是统帅，不如说是一面旗子：他站在那里，就证明波希米亚有自己合法的政府，用不着那个匈牙利的西吉斯蒙德。1423年初，他的两位伯父自己跟西吉斯蒙德讲和，他便被召了回去。第二年他又自己跑回来，后来被自己的盟友抓了起来，1435年死于立陶宛内战。\n\n与此同时，那年夏天的纽伦堡帝国会议上，西吉斯蒙德又在张罗新的十字军。据说他向德意志诸侯许诺，谁在波希米亚抢到土地就归谁。大家满口答应。可到了真正集结的那天，大多数诸侯都突然发现家里有急事，改天再去。只有靠西吉斯蒙德才当上选帝侯的勃兰登堡的弗里德里希到场出任统帅，手下是其他诸侯派来代替自己出征的士兵。塔博尔军这时还在南方打得不可开交。\n\n10月，德军开进波希米亚西部。他们没胆子去找杰式卡，欺负村子的胆子倒是有，一路走过去，烧毁的农庄冒起的黑烟就是他们的行军路线。杰式卡那边传来号召：人人都要反抗，手边有什么就用什么，木棍石头也行。各地民兵和设防的城镇一路层层阻击，拖慢了侵略者的脚步。接着消息传来，卡尔什泰因已经签了停火协议，这趟出兵一下子失去了意义。德军掉头回家，没等到杰式卡赶来。卡尔什泰因扛住了布拉格最臭的1813桶，前来解围的人连闻都没闻到。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "karlstejn-castle",
+        relation: {
+          en: "Besieged by Prague's Hussites from May to November 1422, bombarded with stones and some 1,813 barrels of excrement, and never taken.",
+          cz: "Od května do listopadu 1422 ho obléhali pražští husité, ostřelovali kameny a asi 1 813 sudy výkalů, a nikdy ho nedobyli.",
+          zh: "1422年5月至11月被布拉格胡斯军围攻，挨了无数石弹和约1813桶粪便，始终没有失守。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Obl%C3%A9h%C3%A1n%C3%AD_Karl%C5%A1tejna_husity",
+  },
+  // ---------------------------------------------------------------------
+  // Autumn 1422 Prague fighting + Žižka's move to the Orebites + Hořice,
+  // April 1423. Written 2026-09-22 from the user's draft, cross-checked via
+  // husitstvi.cz ("Vladařské mise Zikmunda Korybuta..."), cs.wikipedia
+  // ("Bitva u Hořic") and dejepis.com (text of Žižka's Military Order).
+  // Departures from the draft, worth knowing before editing:
+  // - Prague: the Taborites (Jan Hvězda of Vícemilic, Kuneš of Bělovic,
+  //   Bohuslav of Švamberk) occupied the Horse Market (Wenceslas Square)
+  //   on 30 Sept 1422 while Korybut was at Karlštejn, were blocked on the
+  //   way to the Old Town and withdrew. The "council uprising" in the draft
+  //   is really Korybut himself: back on 1 Oct, he confiscated property
+  //   and, after radicals attacked the Old Town Hall prison, rode in with
+  //   cavalry; five rebels were executed.
+  // - Čeněk's repentance was to Želivský (per a-government-paid-in-blood-
+  //   1421), not to Žižka; linked there.
+  // - Hořice: cs.wikipedia gives 2,700 foot + 300 horse + 120 wagons, and
+  //   20, 23 or 27 April depending on source, so the card says "late April".
+  //   Knights dismounted because the slope was too steep for a charge.
+  // - The castle taken afterwards is the fortress (tvrz) of Kozojedy, NOT
+  //   Hořice castle; "about 60 defenders executed" is "by one account".
+  // - Quote: Žižka's Military Order (1423, written shortly after Hořice),
+  //   Czech verbatim from the dejepis.com edition; EN/ZH are Claude's.
+  // - Orebite doctrinal differences kept vague on purpose.
+  // - tone "humorous"; no image yet.
+  {
+    slug: "enemies-closer-to-home-1423",
+    era: "religious-turmoil",
+    startYear: 1423,
+    images: [
+      "/history/enemies-closer-to-home-1423-korybut.webp",
+      "/history/enemies-closer-to-home-1423-leaving-tabor.webp",
+      "/history/enemies-closer-to-home-1423-horice.webp",
+    ],
+    imageCaptions: [
+      {
+        en: "Korybut orders the execution of rebels outside the Old Town Hall in October 1422, to the horror of his own Prague supporters.",
+        cz: "Korybutovič v říjnu 1422 nechává před Staroměstskou radnicí popravit vzbouřence, k hrůze svých vlastních pražských stoupenců.",
+        zh: "1422年10月，科里布特在老城市政厅前下令处决叛乱者，他自己在布拉格的支持者也被吓得不轻。",
+      },
+      {
+        en: "In the spring of 1423 the blind Žižka breaks with Tábor's leadership and rides east with his followers.",
+        cz: "Na jaře 1423 se slepý Žižka rozchází s táborským vedením a se svými věrnými odjíždí na východ.",
+        zh: "1423年春，双目失明的杰式卡与塔博尔领导层决裂，带着追随者愤然离城东去。",
+      },
+      {
+        en: "Čeněk's dismounted knights climb Gothard hill near Hořice in late April 1423, against Žižka and the Orebites in their wagon fort.",
+        cz: "Čeňkovi rytíři koncem dubna 1423 pěšky šplhají na vrch Gothard u Hořic proti Žižkovi a orebitům ve vozové hradbě.",
+        zh: "1423年4月下旬，切涅克的骑士在霍日采附近的戈塔德山下马徒步仰攻，杰式卡和奥列比特人在山顶车阵里迎战。",
+      },
+    ],
+    year: {
+      en: "1423",
+      cz: "1423",
+      zh: "1423年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A New Brotherhood, an Old Turncoat",
+      cz: "Nové bratrstvo, starý přeběhlík",
+      zh: "新兄弟会，老叛徒",
+    },
+    hookLine: {
+      en: "With Sigismund's latest crusade gone home, the Hussites went back to quarrelling among themselves, and Čeněk of Vartenberk went back to the side he had never really left.",
+      cz: "Když Zikmundova poslední křížová výprava odtáhla domů, husité se zase pustili do sporů mezi sebou a Čeněk z Vartenberka se vrátil na stranu, kterou vlastně nikdy neopustil.",
+      zh: "西吉斯蒙德的十字军又一次打道回府，胡斯派又开始窝里斗；切涅克·冯·瓦滕贝格则回到了他其实从没离开过的那一边。",
+    },
+    summary: {
+      en: "Sigismund had lost again, and the Hussites wasted no time finding someone else to fight. Prague went first. Želivský's followers had not forgiven [[link:thanks-for-saving-the-city-1422]]his execution[[/link]], and with Korybut away at [[link:a-siege-that-stank-1422]]Karlštejn[[/link]], they called in help from Tábor. On 30 September 1422, Taborite troops under Jan Hvězda of Vícemilic and [[link:from-captive-to-captain-1421]]Bohuslav of Švamberk[[/link]], who had lost to Žižka three times before joining him, marched into the New Town and occupied the Horse Market, today's Wenceslas Square. They demanded a town assembly. When the council refused, they pushed toward the Old Town and ran into Korybut's supporters in the streets. After a few rounds of street fighting they were simply too few, and they withdrew.\n\nKorybut came back on 1 October, furious. He confiscated rebels' property and called the townspeople to Old Town Square. When radicals then tried to break prisoners out of the Old Town Hall jail, he rode in with his cavalry himself, and five rebels were executed. Even some of his own supporters were shocked. The prince Prague had brought in to show it did not need a foreign ruler was now beheading Praguers. He did not stay long anyway. In March 1423 Poland made its peace with Sigismund at Kežmarok, and Korybut went home.\n\nBy now the split was no longer just Prague against Tábor. Tábor itself was cracking. Žižka was a radical, but on the calmer side of radical (he had, after all, [[link:even-tabor-had-a-line-1421]]burned the Adamites[[/link]]), and he fell out with Tábor's leadership. In the spring of 1423 he left Tábor and went east, to the country around Hradec Králové, where he joined the Orebites. The brotherhood took its name from the biblical Mount Horeb, which its followers gave to a hill near Třebechovice where they gathered. Its program and organization were almost the same as Tábor's, and the two differed only on a few points of doctrine. [[b]]Žižka did not so much leave Tábor as open a second branch: the Orebites and his old Taborites stayed allies and often fought side by side.[[/b]]\n\nHis main enemy in the east was an old acquaintance: Čeněk of Vartenberk, [[link:a-government-paid-in-blood-1421]]the lord who had knelt before Želivský[[/link]] in 1421 to beg forgiveness for handing Prague Castle to Sigismund, and then switched sides again before the year was out. Now he gathered the Catholic lords of north-eastern Bohemia to finish off Žižka for good. In late April 1423, while fighting north of Hradec, Žižka learned they were coming for him. He pulled back to Gothard hill near Hořice and set up a wagon fort: 120 wagons, about 2,700 foot soldiers and 300 horsemen. Čeněk's army was bigger and full of knights, but the slope was too steep to charge. So the knights got off their horses and climbed it on foot, in full armour, straight into the Hussite guns. They kept at it all day. Once they were exhausted, Žižka sent out his cavalry and infantry and routed them. Čeněk fled with a handful of men and left behind all his wagons and guns. Soon afterwards Žižka took the fortress of Kozojedy, where, by one account, some sixty defenders were executed.\n\nAround the same time, Žižka wrote down the rules for his new brotherhood's army, one of the earliest written military codes in Europe. Its idea of discipline was thorough:\n\n[[quote:0]]\n\nKeep in mind that this code was written more than six hundred years ago. In an age when armies routinely burned, killed and looted their way across the countryside, this army of poor Bohemian peasants held itself to remarkably strict discipline. [[b]]That kind of military democracy, among men who saw themselves as warriors of God, was one of the main reasons Žižka kept winning in his later years.[[/b]]\n\nThe list covered almost everything a soldier could do wrong, except changing sides. Judging by Čeněk, Bohemia's lords needed no rules for that at all.",
+      cz: "Zikmund znovu prohrál a husité neztráceli čas hledáním někoho jiného, s kým bojovat. Začala Praha. Želivského stoupenci mu nezapomněli [[link:thanks-for-saving-the-city-1422]]jeho popravu[[/link]], a když byl Korybutovič pryč u [[link:a-siege-that-stank-1422]]Karlštejna[[/link]], povolali si na pomoc Tábor. 30. září 1422 vtáhli táborité pod vedením Jana Hvězdy z Vícemilic a [[link:from-captive-to-captain-1421]]Bohuslava ze Švamberka[[/link]], který Žižkovi třikrát prohrál, než se k němu přidal, na Nové Město a obsadili Koňský trh, dnešní Václavské náměstí. Žádali obecní shromáždění. Když ho rada odmítla, vyrazili ke Starému Městu a v ulicích narazili na Korybutovy stoupence. Po několika pouličních šarvátkách jich bylo prostě málo, a tak se stáhli.\n\nKorybutovič se vrátil 1. října a zuřil. Zabavil vzbouřencům majetek a svolal měšťany na Staroměstské náměstí. Když se pak radikálové pokusili osvobodit vězně ze šatlavy Staroměstské radnice, vjel tam osobně se svou jízdou a pět vzbouřenců bylo popraveno. Šokovalo to i část jeho vlastních stoupenců. Kníže, kterého si Praha přivedla, aby ukázala, že cizího vládce nepotřebuje, teď stínal Pražany. Dlouho už stejně nezůstal. V březnu 1423 se Polsko v Kežmarku se Zikmundem usmířilo a Korybutovič odjel domů.\n\nRozkol už teď nebyl jen Praha proti Táboru. Praskat začal i Tábor sám. Žižka byl radikál, ale z té klidnější strany radikalismu (koneckonců [[link:even-tabor-had-a-line-1421]]upálil adamity[[/link]]), a s táborským vedením se rozešel. Na jaře 1423 Tábor opustil a odešel na východ, do kraje kolem Hradce Králové, kde se přidal k orebitům. Bratrstvo neslo jméno podle biblické hory Oreb, kterou jeho stoupenci dali kopci u Třebechovic, kde se scházeli. Program i uspořádání mělo skoro stejné jako Tábor a lišilo se jen v několika věroučných bodech. [[b]]Žižka Tábor ani tak neopustil, jako spíš otevřel druhou pobočku: orebité a jeho staří táborité zůstali spojenci a často bojovali bok po boku.[[/b]]\n\nJeho hlavním nepřítelem na východě byl starý známý: Čeněk z Vartenberka, [[link:a-government-paid-in-blood-1421]]pán, který roku 1421 klečel před Želivským[[/link]] a prosil o odpuštění za to, že vydal Pražský hrad Zikmundovi, a pak ještě do konce roku znovu přeběhl. Teď sebral katolické pány ze severovýchodních Čech, aby se Žižkou skoncoval jednou provždy. Koncem dubna 1423, když Žižka bojoval severně od Hradce, se dozvěděl, že si pro něj jdou. Stáhl se na vrch Gothard u Hořic a postavil vozovou hradbu: 120 vozů, asi 2 700 pěších a 300 jezdců. Čeňkovo vojsko bylo větší a plné rytířů, jenže svah byl na útok koní příliš prudký. Rytíři tedy sesedli a vyšplhali se nahoru pěšky, v plné zbroji, přímo do husitských děl. Vydrželi to celý den. Když byli vyčerpaní, vyslal Žižka jízdu i pěchotu do protiútoku a rozprášil je. Čeněk utekl s hrstkou mužů a nechal za sebou všechny vozy i děla. Brzy nato Žižka dobyl tvrz Kozojedy, kde podle jedné zprávy dal popravit asi šedesát obránců.\n\nZhruba v téže době sepsal Žižka pravidla pro vojsko svého nového bratrstva, jeden z nejstarších psaných vojenských řádů v Evropě. Jeho představa o kázni byla důkladná:\n\n[[quote:0]]\n\nNezapomínejme, že tenhle řád vznikl před více než šesti sty lety. V době, kdy vojska běžně pálila, vraždila a drancovala, dokázalo toto vojsko chudých českých sedláků držet tak přísnou kázeň. [[b]]Právě tahle vojenská demokracie mužů, kteří se považovali za Boží bojovníky, byla jedním z hlavních důvodů, proč Žižka v pozdějších letech vítězil bitvu za bitvou.[[/b]]\n\nSeznam pokrýval skoro všechno, co může voják provést špatně, kromě přebíhání. Soudě podle Čeňka na to čeští páni žádná pravidla nepotřebovali.",
+      zh: "西吉斯蒙德又输了，胡斯派一点没耽误，马上找到了新的对手。先闹起来的是布拉格。柴利夫斯基的信徒对[[link:thanks-for-saving-the-city-1422]]他的死[[/link]]一直耿耿于怀，趁科里布特在[[link:a-siege-that-stank-1422]]卡尔什泰因[[/link]]围城，他们请来了塔博尔的援兵。1422年9月30日，扬·赫维兹达和[[link:from-captive-to-captain-1421]]什万贝尔克的博胡斯拉夫[[/link]]带着塔博尔军开进新城，占了马市，也就是今天的瓦茨拉夫广场。博胡斯拉夫就是那位连输杰式卡三回、最后干脆投奔过来的贵族。他们要求召开市民大会，市议会不答应，他们就往老城推进，在街上撞上了科里布特的支持者。打了几场巷战，终究人手太少，只好撤出城去。\n\n10月1日，科里布特赶回布拉格，火冒三丈。他没收了叛乱者的财产，把市民召集到老城广场训话。接着激进派又去劫老城市政厅的监狱，他亲自带骑兵冲了进去，五名叛乱者被处决。连他自己的一些支持者都吓了一跳。布拉格请他来，本是为了证明自己用不着外国君主，结果这位外国王子现在砍起了布拉格人的脑袋。反正他也待不长了。1423年3月，波兰在凯斯马罗克和西吉斯蒙德讲了和，科里布特便回了家。\n\n到了这时，裂痕已经不只是布拉格对塔博尔，塔博尔自己也开始裂了。杰式卡是激进派，但属于激进派里比较冷静的那一挂（毕竟[[link:even-tabor-had-a-line-1421]]亚当派[[/link]]就是他烧的），他和塔博尔的领导层闹翻了。1423年春，他离开塔博尔，往东去了赫拉德茨-克拉洛韦一带，加入了奥列比特人。这个兄弟会的名字来自《圣经》里的何烈山，信徒们把特热贝霍维采附近他们聚会的一座小山改叫这个名字。它的纲领和组织跟塔博尔几乎一模一样，只在几条教义上有分歧。[[b]]与其说杰式卡离开了塔博尔，不如说他开了一家分店：奥列比特人和他的老塔博尔派始终是盟友，常常并肩作战。[[/b]]\n\n他在东边的头号对手是个老熟人：切涅克·冯·瓦滕贝格。1421年，就是这位贵族[[link:a-government-paid-in-blood-1421]]跪在柴利夫斯基面前[[/link]]，为把布拉格城堡交给西吉斯蒙德一事请求宽恕，结果不到年底又倒戈了。如今他召集了波希米亚东北部的天主教贵族，想一劳永逸地除掉杰式卡。1423年4月下旬，杰式卡正在赫拉德茨北边作战，得知这帮人要来围他，便撤到霍日采附近的戈塔德山上，摆开车阵：120辆战车，约2700名步兵和300名骑兵。切涅克的兵更多，骑士也多，可山坡太陡，骑兵冲不上去。骑士们只好下马，穿着全套盔甲徒步往上爬，一头撞进胡斯军的炮口。双方鏖战了一整天。等对手精疲力竭，杰式卡派出骑兵和步兵反击，把他们打得溃不成军。切涅克只带着寥寥几人逃走，战车和大炮全扔下了。没过多久，杰式卡又攻下了科佐耶迪要塞，据一种说法，约六十名守军被处决。\n\n差不多同一时期，杰式卡为新兄弟会的军队写下了一套规矩，这是欧洲最早成文的军规之一。它对纪律的理解相当彻底：\n\n[[quote:0]]\n\n不要忘了，这是六百多年前制定的军规。在那个年代，军队烧杀抢掠几乎是家常便饭，而波希米亚这支由贫苦农民组成的军队，却做到了如此严格的自我约束。[[b]]这种“以上帝的战士自居”的军事民主原则，正是杰式卡后期屡战屡胜的重要保障。[[/b]]\n\n这份名单几乎囊括了当兵能犯的所有错，唯独没写倒戈。看看切涅克就知道，这件事波希米亚的贵族们根本不需要规矩。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "Nor do we wish to tolerate among us the unfaithful, the disobedient, liars, thieves, dice-players, robbers, plunderers, drunkards, blasphemers, lechers, adulterers, loose women and adulteresses, or any open sinners, men or women; all of these we will drive out and chase away from us, and pass judgment on them with the help of the Holy Trinity, according to the law of God.",
+          cz: "Také nechcem trpěti mezi sebou nevěrných, neposlušných, lhářuov, zlodějův, kostkářův, loupežnikuov, plundréřuov, opilcuov, lajcí, smilníkuov, cizoložníkuov, smilnic a cizoložnic i všech zjevných hříšníkuov a hříšnic; ty všeckny z sebe chcme puditi a honiti, nad nimi popravovati s pomocí Trojice svaté vedlé zákona Božího.",
+          zh: "我们也不容许在我们中间有不忠者、不服从者、说谎者、盗贼、掷骰赌徒、强盗、劫掠者、醉汉、渎神者、淫乱者、通奸者、淫妇与奸妇，以及一切公然犯罪的男女；这些人，我们都要从我们当中驱逐出去，并靠着神圣三位一体的帮助，按照上帝的律法审判他们。",
+        },
+        attribution: {
+          en: "Žižka's Military Order, 1423",
+          cz: "Žižkův vojenský řád, 1423",
+          zh: "杰式卡《军规》，1423年",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "wenceslas-square",
+        relation: {
+          en: "Then the Horse Market, occupied by Taborite troops on 30 September 1422 in their failed bid to take over Prague.",
+          cz: "Tehdejší Koňský trh, který 30. září 1422 obsadili táborité při neúspěšném pokusu ovládnout Prahu.",
+          zh: "当时叫马市，1422年9月30日塔博尔军占领这里，想夺取布拉格，最终失败。",
+        },
+      },
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "Where radicals tried to break prisoners out of the town jail in October 1422, before Korybut rode in and had five of them executed.",
+          cz: "Kde se radikálové v říjnu 1422 pokusili osvobodit vězně z městské šatlavy, než přijel Korybutovič a dal pět z nich popravit.",
+          zh: "1422年10月，激进派试图从这里的市监狱劫出囚犯，科里布特随即带兵赶到，处决了其中五人。",
+        },
+      },
+      {
+        slug: "hradec-kralove",
+        relation: {
+          en: "Centre of the Orebite region in eastern Bohemia, where Žižka moved after leaving Tábor in the spring of 1423.",
+          cz: "Centrum orebitského kraje ve východních Čechách, kam Žižka odešel poté, co na jaře 1423 opustil Tábor.",
+          zh: "波希米亚东部奥列比特人地区的中心，1423年春杰式卡离开塔博尔后就来到了这一带。",
+        },
+      },
+      {
+        slug: "vrch-gothard",
+        relation: {
+          en: "The hill above Hořice where Žižka's wagon fort beat Čeněk of Vartenberk's knights in late April 1423; the world's first Žižka monument has stood on it since 1873.",
+          cz: "Vrch nad Hořicemi, kde Žižkova vozová hradba koncem dubna 1423 porazila rytíře Čeňka z Vartenberka; od roku 1873 na něm stojí vůbec první Žižkův pomník.",
+          zh: "霍日采城边的小山，1423年4月下旬杰式卡的车阵在这里打败了切涅克·冯·瓦滕贝格的骑士；1873年起，世界上第一座杰式卡纪念像就立在山上。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Bitva_u_Ho%C5%99ic",
+  },
 ];
 
 async function run() {

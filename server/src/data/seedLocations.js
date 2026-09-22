@@ -29684,6 +29684,335 @@ K přejmenování došlo v roce 1945, s odsunem německy mluvícího obyvatelstv
 🎁 彩蛋：哈夫利奇库夫布罗德自称是欧洲的中心，依据是虚构的捷克天才亚拉·齐姆尔曼的说法，还在萨扎瓦街上用一个巨大的漏斗标出了这个位置。宣布这件事的是个虚构人物，所以从来没人真正驳倒过它。`,
     },
   },
+  {
+    // Added 2026-09-22 as a Hořice town card (coordinates user-supplied),
+    // then narrowed the same day at the user's request: the Dachova pool
+    // (koupaliste-dachova) and Gothard hill got their own cards, and this one
+    // became the Masaryk Tower card, renamed from slug 'horice'. Keeps a short
+    // look at the town around it (stonemason school, Jewish cemetery and
+    // synagogue). Sources: cs.wikipedia, infocentrum.horice.org, hkregion.cz.
+    // The Legie za hranicemi group is dated 2000 per the town's own site
+    // (cs.wikipedia says early 1990s). Rarity 'superior' is my own pick.
+    name: 'Masaryk Tower of Independence',
+    slug: 'masarykova-vez-samostatnosti',
+    localizedNames: { cz: 'Masarykova věž samostatnosti', zh: '马萨里克独立塔' },
+    labels: ['tower', 'monument'],
+    coordinates: { lat: 50.37741872091571, lng: 15.638782978488235 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Masarykova_v%C4%9B%C5%BE_samostatnosti',
+    description: {
+      en: `The Masaryk Tower of Independence took thirteen years to build, came out fifteen metres shorter than planned, and was finished just in time to watch the country it celebrated get carved up. It still stands above Hořice with one of the best views in the region, which is more than can be said for the plans.
+
+The tower rises on the Hořice ridge at about 407 metres, roughly a kilometre north of the town square and lined up with its axis. It was built between 1925 and 1938 to designs by František Blažek, with Jindřich Malina as builder, to mark the birth of Czechoslovakia and honour the war dead and legionnaires of the Hořice region. President Masaryk came to lay the foundation stone himself on 10 July 1926. Work stopped and started several times, and the 25-metre stone tower was only finished in 1938, the same year the state it celebrated was carved up at Munich. Powerful reliefs by Jan Vávra and Karel Lenhart, both students of Otakar Španiel, cover its eastern and western walls. Inside are a small museum, a memorial hall with the names of local war victims and an observatory dome at the very top, and from the gallery you can see Zvičina, Jičín, the spa of Bělohrad and far out over the Elbe lowlands. Since 2000 a sculpture group called Legions Beyond the Borders has stood on the square in front. The tower is open daily in summer and at weekends in May and September.
+
+The stone and the carvers both came from the town below. Hořice has lived off its sandstone for centuries, and in 1884 it opened a school of sculpture and stonemasonry that still trains carvers today, so a monument built here was always going to be decorated by the locals. The town's Jewish community left its mark too: the old Jewish cemetery in the north of town, founded in the second half of the 17th century, holds around 800 tombstones from 1679 to its last burial in 1902, and a Baroque synagogue from the 1770s still stands on Tovární street.
+
+🎁 Bonus: The tower was originally meant to reach 40 metres and double as a beacon on the Prague–Warsaw air route. It ended up at 25, which made it a war memorial, a museum, a lookout and an observatory, but never the one thing it was supposed to be for aeroplanes.`,
+
+      cz: `Masarykova věž samostatnosti se stavěla třináct let, vyšla o patnáct metrů nižší, než se plánovalo, a dokončena byla právě včas, aby viděla, jak se stát, který oslavovala, rozparcelovává. Nad Hořicemi stojí dodnes a nabízí jeden z nejlepších výhledů v kraji, což se o původních plánech říct nedá.
+
+Věž stojí na Hořickém chlumu ve výšce asi 407 metrů, zhruba kilometr severně od náměstí a přesně v jeho ose. Postavena byla v letech 1925 až 1938 podle návrhu Františka Blažka, stavitelem byl Jindřich Malina, na památku vzniku Československa a na počest padlých a legionářů z Hořicka. Základní kámen přijel 10. července 1926 položit osobně prezident Masaryk. Stavba se několikrát zastavila a znovu rozběhla a 25 metrů vysoká kamenná věž byla dokončena až v roce 1938, ve stejném roce, kdy byl stát, který oslavovala, v Mnichově rozparcelován. Její východní a západní stěnu pokrývají mohutné reliéfy Jana Vávry a Karla Lenharta, žáků Otakara Španiela. Uvnitř je malé muzeum, pietní síň se jmény obětí válek z Hořicka a úplně nahoře hvězdářská kupole a z ochozu je vidět na Zvičinu, Jičín, Lázně Bělohrad a daleko do Polabí. Od roku 2000 stojí na prostranství před ní sousoší Legie za hranicemi. V létě je věž otevřená denně, v květnu a září o víkendech.
+
+Kámen i kameníci pocházeli z města pod ní. Hořice žijí z pískovce už staletí a v roce 1884 tu otevřeli sochařskou a kamenickou školu, která kameníky vychovává dodnes, takže pomník postavený tady museli nutně zdobit místní. Stopu tu zanechala i hořická židovská obec: starý židovský hřbitov na severu města, založený ve druhé polovině 17. století, ukrývá asi 800 náhrobků od roku 1679 až do posledního pohřbu v roce 1902 a v Tovární ulici dodnes stojí barokní synagoga ze 70. let 18. století.
+
+🎁 Bonus: Věž měla původně dosáhnout 40 metrů a sloužit zároveň jako maják na letecké lince Praha–Varšava. Skončila na 25 metrech, a tak se z ní stal pomník, muzeum, rozhledna i hvězdárna, jen to jediné, čím měla být pro letadla, nikdy nebyla.`,
+
+      zh: `马萨里克独立塔盖了十三年，最后比计划矮了十五米，完工的时间又刚好赶上目睹它所纪念的国家被瓜分。不过它至今仍立在霍日采城北，享有全地区数一数二的好视野，这一点比当初的计划争气多了。
+
+塔建在海拔约407米的霍日采山脊上，距城中广场约一公里，正好对着广场的中轴线。它建于1925年至1938年，由弗朗蒂舍克·布拉热克设计，营造商是因德日赫·马利纳，用来纪念捷克斯洛伐克的诞生，并缅怀霍日采地区的战争死难者和军团士兵。1926年7月10日，马萨里克总统亲自前来奠基。工程几度停停建建，这座25米高的石塔直到1938年才完工，而就在同一年，它所纪念的这个国家在慕尼黑被瓜分了。塔身东西两面满是扬·瓦夫拉和卡雷尔·伦哈特的厚重浮雕，两人都是奥塔卡尔·什帕涅尔的学生。塔内有一座小博物馆、一间刻着本地战争死难者名字的纪念厅，塔顶还有一座天文观测穹顶。站在观景廊上，能望见兹维奇纳山、伊钦、贝洛赫拉德温泉镇，一直看到远处的易北河低地。2000年起，塔前广场上立着一组名为“境外军团”的群雕。夏季塔每天开放，5月和9月只在周末开放。
+
+石头和石匠都来自山下的小城。霍日采靠砂岩过活已有几百年，1884年开办的雕塑与石雕学校至今仍在培养石匠，所以在这里建纪念碑，装饰活儿注定是本地人来干。霍日采的犹太社区也在城里留下了痕迹：城北的老犹太公墓建于17世纪下半叶，约800块墓碑从1679年一直排到1902年最后一次下葬；工厂街上还立着一座1770年代的巴洛克式犹太会堂。
+
+🎁 彩蛋：这座塔原本要建到40米高，同时充当布拉格至华沙航线上的航空信标。最后只建到25米，于是它当了纪念碑、博物馆、瞭望塔和天文台，唯独没当成原本要给飞机当的那个东西。`,
+    },
+  },
+  {
+    // Split out of the Hořice card 2026-09-22 at the user's request
+    // (coordinates user-supplied). Covers the 1423 battle site, the
+    // fortified-house earthworks, the 1873 Žižka monument (the world's first;
+    // the user's note had called it "the first Czech sculpture made by
+    // Žižka"), St. Gothard church, the cemetery portal, the Rieger obelisk,
+    // the symposium sculptures and the Gallery of Sculptures, plus a line on
+    // the St. Joseph sculpture park in town. Sources: infocentrum.horice.org,
+    // regiony/hradec.rozhlas.cz, symposiumhorice.cz, cs.wikipedia (Bitva u
+    // Hořic). Rarity 'epic' is my own pick.
+    name: 'Gothard Hill',
+    slug: 'vrch-gothard',
+    localizedNames: { cz: 'Vrch Gothard', zh: '戈塔德山' },
+    labels: ['monument', 'historical', 'park'],
+    coordinates: { lat: 50.36434036964036, lng: 15.644406238486999 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Bitva_u_Ho%C5%99ic',
+    description: {
+      en: `Gothard is a low hill on the edge of Hořice that has, over the centuries, been a fortified manor, a battlefield, a cemetery, an open-air gallery and a stage for patriotic speeches. It takes ten minutes to walk up from the town square, which is roughly nine minutes less than it took a medieval knight in full armour.
+
+In April 1423 Jan Žižka's Hussites dug in on this hilltop behind a ring of war wagons and beat an army of Catholic lords led by Čeněk of Vartenberk. The slope was too steep for a cavalry charge, so the knights got off their horses and climbed it on foot in full armour, straight into the Hussite guns, and by evening they were routed. The top of the hill probably carried a fortified manor house even before that, and its moats and ramparts can still be traced under the lime trees. Right there, in 1873, Hořice put up the world's first monument to Žižka, designed by the 22-year-old local sculptor Pavel Jiříček and carved from local sandstone with his brother Josef. Its unveiling grew into a patriotic demonstration against Austrian rule, attended by some 5,000 people from Bohemia, Moravia and Slovakia.
+
+The rest of the hill belongs to the town's stonemasons. The church of St. Gothard, built in the early 18th century on the site of a much older chapel founded by the Premonstratensians of Strahov, holds a Mourning Angel by Václav Prachner from 1816 and is now used mainly for funerals. Around it lie the old and new cemeteries, full of finely carved tombstones, with a neo-Renaissance gateway to the new one built between 1892 and 1905. Nearby stands the Rieger obelisk of 1907, a single sandstone block 12.4 metres high, cut largely to show what the local masons could do. Since 1966 Hořice has held an international sculpture symposium, and some 86 works from it now stand on Gothard's slopes, beside the Gallery of Sculptures founded in 1908 and the Smetana gardens laid out in 1903. The symposium's newer pieces go to a second sculpture park, St. Joseph's, set up in 2004 in an old quarry on the northeastern edge of town. The hill is open and free all year.
+
+🎁 Bonus: By the Battle of Hořice, Žižka had been completely blind for almost two years. His statue on Gothard wears a bandage over just one eye and grips a mace, so the sculptors quietly handed the general back the eye he'd lost at Rábí, presumably so he could enjoy the view.`,
+
+      cz: `Gothard je nevysoký vrch na okraji Hořic, který byl za ta staletí tvrzí, bojištěm, hřbitovem, galerií pod širým nebem i jevištěm vlasteneckých projevů. Od náměstí na něj dojdete za deset minut, což je zhruba o devět minut méně, než to trvalo středověkému rytíři v plné zbroji.
+
+V dubnu 1423 se na tomto temeni husité Jana Žižky opevnili za kruhem vozů a porazili vojsko katolických pánů vedené Čeňkem z Vartenberka. Svah byl na útok jízdy příliš prudký, a tak rytíři sesedli a šplhali nahoru pěšky v plné zbroji, přímo do husitských děl, a do večera byli rozprášeni. Na temeni vrchu nejspíš už předtím stála tvrz a pod lipami jsou dodnes patrné její příkopy a valy. Právě tady Hořice v roce 1873 postavily vůbec první pomník Žižky na světě, navržený dvaadvacetiletým místním sochařem Pavlem Jiříčkem a vytesaný z místního pískovce spolu s jeho bratrem Josefem. Jeho odhalení přerostlo v národní manifestaci proti rakouské nadvládě, které se zúčastnilo asi 5 000 lidí z Čech, Moravy a Slovenska.
+
+Zbytek vrchu patří hořickým kameníkům. Kostel svatého Gotharda, postavený na počátku 18. století na místě mnohem starší kaple založené strahovskými premonstráty, ukrývá sochu Truchlícího anděla od Václava Prachnera z roku 1816 a dnes slouží hlavně k pohřbům. Kolem leží starý a nový hřbitov plný krásně tesaných náhrobků, s novorenesančním portálem nového hřbitova z let 1892 až 1905. Opodál stojí Riegrův obelisk z roku 1907, jediný pískovcový monolit vysoký 12,4 metru, vytesaný hlavně proto, aby ukázal, co místní kameníci dokážou. Od roku 1966 se v Hořicích koná mezinárodní sochařské sympozium a na svazích Gothardu z něj dnes stojí asi 86 děl, vedle Galerie plastik založené v roce 1908 a Smetanových sadů z roku 1903. Novější díla sympozia míří do druhého sochařského parku, Sochařského parku svatého Josefa, zřízeného v roce 2004 ve starém lomu na severovýchodním okraji města. Vrch je volně přístupný po celý rok.
+
+🎁 Bonus: V době bitvy u Hořic byl Žižka už skoro dva roky úplně slepý. Jeho socha na Gothardu má pásku jen přes jedno oko a v ruce palcát, takže sochaři generálovi potichu vrátili oko, o které přišel u Rábí, nejspíš aby si mohl vychutnat výhled.`,
+
+      zh: `戈塔德是霍日采城边一座不高的小山，几百年来先后当过设防庄园、战场、墓园、露天美术馆和爱国演讲的舞台。从城中广场走上去只要十分钟，比中世纪骑士穿着全套盔甲爬上去大概少用九分钟。
+
+1423年4月，扬·杰式卡的胡斯军在这座山顶上用一圈战车筑起车阵，打败了切涅克·冯·瓦滕贝格率领的天主教贵族军队。山坡太陡，骑兵冲不上去，骑士们只好下马，穿着全套盔甲徒步往上爬，一头撞进胡斯军的炮口，到傍晚就被打得溃不成军。山顶在那之前很可能就有一座设防庄园，它的壕沟和土垒至今仍能在椴树下辨认出来。1873年，霍日采就在这里立起了世界上第一座杰式卡纪念像，由22岁的本地雕塑家帕维尔·伊日切克设计，和他的弟弟约瑟夫一起用本地砂岩雕成。揭幕仪式变成了一场反对奥地利统治的爱国集会，来自波希米亚、摩拉维亚和斯洛伐克的约五千人到场。
+
+山上其余的地方都属于霍日采的石匠。圣戈塔德教堂建于18世纪初，原址上曾有一座由斯特拉霍夫修道院普利孟特瑞会修士创建的古老礼拜堂，教堂里有瓦茨拉夫·普拉赫纳1816年雕的《哀悼天使》，如今主要用来办葬礼。教堂周围是新旧两座墓园，满是精美的雕刻墓碑，新墓园的新文艺复兴式大门建于1892年至1905年。不远处立着1907年的里格尔方尖碑，一整块12.4米高的砂岩，雕它主要就是为了展示本地石匠的手艺。1966年起，霍日采每年举办国际雕塑研讨会，如今戈塔德山坡上立着其中约86件作品，旁边还有1908年创办的雕塑美术馆和1903年辟建的斯美塔那花园。研讨会较新的作品则送往第二座雕塑公园：2004年在城东北边缘一座旧采石场里建起的圣约瑟夫雕塑公园。整座山全年免费开放。
+
+🎁 彩蛋：霍日采之战的时候，杰式卡已经完全失明将近两年了。可戈塔德山上的这座像只在一只眼睛上缠了布带，手里握着狼牙棒，等于雕塑家悄悄把他在拉比丢掉的那只眼睛还给了他，大概是想让将军也能欣赏一下山上的风景。`,
+    },
+  },
+  {
+    // Split out of the horice card 2026-09-22 at the user's request: the pool
+    // sits ~2.5 km north of town in the Dachovy settlement, far enough to get
+    // its own card. Coordinates user-supplied. Sources: infocentrum.horice.org,
+    // turistika.cz, denik.cz (film), hkregion.cz. Rarity 'rare' is my own pick.
+    name: 'Dachova Natural Swimming Pool',
+    slug: 'koupaliste-dachova',
+    localizedNames: { cz: 'Přírodní koupaliště Dachova', zh: '达霍娃天然泳场' },
+    labels: ['waterbody', 'nature', 'hidden-gem'],
+    coordinates: { lat: 50.38311349865926, lng: 15.642234990921276 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Koupali%C5%A1t%C4%9B_Dachova',
+    description: {
+      en: `Dachova is a swimming pool from the 1920s that never got round to modernising, and is much better for it. Picture a sandstone-bottomed pond in the middle of a forest, a wooden island to swim out to, and rows of brightly painted changing cabins that look like they are still waiting for the gentlemen in striped bathing suits to come back.
+
+It opened in 1925 as the Dachova "sun baths", on the site of a former fishpond in the woods by the Dachovy settlement, on the northern slope of the ridge above Hořice. It was designed by Karel Bachura (1878–1961), an architect, traveller and professor at the Hořice school of sculpture and stonemasonry, who, being from a town of stonemasons, naturally lined the bottom with sandstone blocks. The stone helps keep the water clear across some 8,000 square metres of surface, deepening to three metres at the diving board, with shallow areas for non-swimmers and children, sandy and grassy beaches, and courts for volleyball, football and pétanque. A careful restoration in 2020 brought back its interwar look, and the whole complex is now a protected cultural monument. The composer Jan Malát spent his summers here, and the Malát trail still links the pool with Hořice. The place is photogenic enough that the 1999 Czech film Eliška má ráda divočinu was shot here. The pool is open from June to September, with September reserved for sunbathing only.
+
+🎁 Bonus: Dachova's most demanding regulars are its alpine newts, which only live in very clean water and may not be caught or taken. Other pools test their water in a lab. Dachova's water quality checks itself and has four legs.`,
+
+      cz: `Dachova je koupaliště z 20. let, které se nikdy nedostalo k modernizaci, a je to tak dobře. Představte si rybník s pískovcovým dnem uprostřed lesa, dřevěný ostrůvek, ke kterému se dá doplavat, a řady pestrobarevných převlékacích kabinek, které jako by pořád čekaly, až se vrátí pánové v pruhovaných plavkách.
+
+Otevřeli ho v roce 1925 jako sluneční lázně Dachova, na místě bývalého rybníka v lesích u osady Dachovy, na severním svahu hřbetu nad Hořicemi. Navrhl ho Karel Bachura (1878–1961), architekt, cestovatel a profesor hořické sochařsko-kamenické školy, který jako správný rodák z města kameníků vyložil dno pískovcovými kvádry. Kámen pomáhá udržet vodu čistou na ploše asi 8 000 metrů čtverečních, u skokanského můstku hluboké až tři metry, s mělčinou pro neplavce a děti, písečnou i travnatou pláží a hřišti na volejbal, fotbal a pétanque. Citlivá obnova v roce 2020 vrátila areálu jeho meziválečnou podobu a celý je dnes kulturní památkou. Letní měsíce tu trávil skladatel Jan Malát a Malátova stezka dodnes spojuje koupaliště s Hořicemi. Místo je tak fotogenické, že se tu natáčel film Eliška má ráda divočinu z roku 1999. Koupaliště je otevřené od června do září, přičemž září patří jen slunění.
+
+🎁 Bonus: Nejnáročnějšími štamgasty Dachovy jsou čolci horští, kteří žijí jen ve velmi čisté vodě a nesmějí se chytat ani odnášet. Jinde se kvalita vody měří v laboratoři. Na Dachově se kontroluje sama a má čtyři nohy.`,
+
+      zh: `达霍娃是一座1920年代的泳场，一直没顾上现代化，结果反倒更好了。想象一下：森林中间一池砂岩铺底的水，一座可以游过去的木头小岛，岸边一排排漆得五颜六色的更衣小屋，好像还在等那些穿条纹泳衣的先生们回来。
+
+它1925年开张，当时叫达霍娃“日光浴场”，建在霍日采城北山脊北坡、达霍维小村旁林子里的一座旧鱼塘上。设计者卡雷尔·巴胡拉（1878–1961）是建筑师、旅行家，也是霍日采雕塑与石雕学校的教授。既然出身石匠之城，他理所当然地用砂岩石块铺了池底。石头让约8000平方米的水面保持清澈，跳台附近水深三米，另有给不会游泳的人和孩子准备的浅水区、沙滩和草地，还有排球、足球和法式滚球场地。2020年一次细致的修复让它恢复了两次大战之间的样貌，整座泳场如今是受保护的文化遗产。作曲家扬·马拉特曾在这里度夏，以他命名的马拉特小径至今连着泳场和霍日采。这里上镜到连1999年的捷克电影《伊丽什卡爱荒野》都在这里取景。泳场6月至9月开放，9月只能晒太阳，不能下水。
+
+🎁 彩蛋：达霍娃最挑剔的常客是高山欧螈，它们只在非常干净的水里生活，禁止捕捉和带走。别处的泳池要送实验室验水，达霍娃的水质自己就会报告，而且长着四条腿。`,
+    },
+  },
+  {
+    name: 'Staré Stodůlky',
+    slug: 'stare-stodulky',
+    localizedNames: { cz: 'Staré Stodůlky', zh: '老斯托杜尔基' },
+    labels: ['village-and-town', 'hidden-gem'],
+    coordinates: { lat: 50.04822663510751, lng: 14.311749705945502 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Stod%C5%AFlky',
+    description: {
+      en: `Welcome to Staré Stodůlky, a pocket of red-tiled farmhouses and quiet lanes that the rest of the neighbourhood built entirely around instead of over — a medieval village core hemmed in on every side by rows of grey socialist-era apartment blocks, like a stubborn island that refused the tide.
+
+The first written mention of the village dates to 1159, and its parish church has stood on the same spot since at least 1292. The village green itself, documented from the 15th century onward, stayed the community's social hub — church, inn, smithy, workshops, all clustered around it — right up until the 1980s, when the surrounding fields were paved over for the Stodůlky-Lužiny-Luka housing estate. In 1995, what survived of the old village — the farmsteads, boundary walls, barns and gates along streets like Kovářova and U Kašny — was declared a protected heritage zone, freezing a slice of pre-industrial Bohemia in place just as tens of thousands of new neighbours moved in around it.
+
+Walk one street too far in any direction and the transition is instant: sturdy brick farmhouses give way, without warning, to a wall of grey concrete apartment blocks many storeys high.
+
+🎁 Bonus: Stodůlky was still its own self-governing village as recently as 1848, with fewer than 600 residents spread across 74 houses — meaning more people now live in a single one of the surrounding panel towers than lived in the entire village for most of its recorded history.`,
+
+      cz: `Vítej ve Starých Stodůlkách, kousku červených střech a klidných uliček, kolem kterého se zbytek čtvrti raději postavil, než aby ho přestavěl — středověké jádro vesnice sevřené ze všech stran řadami šedých panelových domů, jako tvrdohlavý ostrůvek, který odmítl ustoupit přílivu.
+
+První písemná zmínka o vsi pochází z roku 1159 a její farní kostel stojí na stejném místě přinejmenším od roku 1292. Samotná náves, doložená od 15. století, zůstávala společenským středem obce — kostel, hostinec, kovárna, řemeslné dílny, všechno soustředěné kolem ní — až do 80. let 20. století, kdy byla okolní pole zastavěna sídlištěm Stodůlky-Lužiny-Luka. V roce 1995 bylo to, co ze staré vsi zbylo — usedlosti, ohradní zdi, stodoly a brány podél ulic jako Kovářova a U Kašny — vyhlášeno vesnickou památkovou zónou, čímž se kousek předindustriálních Čech zakonzervoval přesně ve chvíli, kdy se kolem něj nastěhovaly desetitisíce nových sousedů.
+
+Stačí zabloudit o jednu ulici dál a přechod je okamžitý: statné cihlové usedlosti bez varování vystřídá stěna šedých betonových panelových domů, vysoká mnoho pater.
+
+🎁 Bonus: Stodůlky byly samostatnou obcí ještě v roce 1848, s necelými 600 obyvateli ve 74 domech — což znamená, že dnes žije víc lidí v jediné z okolních panelových věží, než žilo po většinu zaznamenané historie v celé vesnici.`,
+
+      zh: `欢迎来到老斯托杜尔基（Staré Stodůlky）——一片红瓦屋顶和安静小巷，周围的城区选择绕开它盖房子，而不是把它推倒重建：这是一处被一圈圈灰色社会主义时期住宅楼群团团围住的中世纪村庄核心，像一座拒绝被潮水淹没的固执小岛。
+
+这座村庄最早的文字记载可追溯到1159年，其教区教堂至少从1292年起就矗立在同一地点；而村庄的中心广场自15世纪起就有记载，一直是社区生活的中心——教堂、旅店、铁匠铺、手工作坊都聚集在它周围——直到20世纪80年代，周边的农田被开发成斯托杜尔基—卢日尼—卢卡住宅区。1995年，老村庄残存下来的部分——沿着科瓦若娃街（Kovářova）和乌卡什尼街（U Kašny）分布的农庄、围墙、谷仓与大门——被划定为村庄古迹保护区，恰好就在数万新邻居搬进周边的同一时期，把这一小片前工业时代的波希米亚定格了下来。
+
+只要朝任意方向多走一条街，这种转变便毫无预兆地发生：厚重的砖砌农舍瞬间让位给一堵好几层楼高的灰色混凝土板楼墙。
+
+🎁 彩蛋：斯托杜尔基直到1848年都还是一个独立自治的村庄，74栋房屋里住着不到600名居民——这意味着如今光是周围任意一栋板楼里住的人，都可能比这座村庄有记载历史上大部分时期的总人口还多。`,
+    },
+  },
+  {
+    name: 'Luka Living',
+    slug: 'luka-living',
+    localizedNames: { cz: 'Luka Living', zh: '卢卡公寓' },
+    labels: ['modern', 'architecture'],
+    coordinates: { lat: 50.045624752173644, lng: 14.322169537869451 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://www.lukaliving.cz/',
+    description: {
+      en: `Welcome to Luka Living, a 15-storey rental tower that curves through the air in a long S-shape and markets itself as the most modern apartment building the country has ever built for people who have no intention of ever buying it.
+
+Designed by CAMA Architekti and built as a rental-only complex — a rarity in a country where nearly everyone aims to own — the tower holds a couple hundred apartments ranging from about 31 to 119 square metres across 15 floors above ground and two underground parking levels. It's built to an A energy-efficiency rating, with heat recovery on both air and hot water and home-automation systems in every unit, and it sits close enough to Luka metro station that residents can reach their front door without ever really stepping into the rain. A small shopping arcade built into the base handles the basics — groceries, a bank, a pharmacy, a dry cleaner — so a resident never technically has to leave the building to function as an adult.
+
+🎁 Bonus: In a country where homeownership runs well above 70%, a fifteen-storey tower built purely to be rented out, never sold, is less a real-estate project than a small act of architectural rebellion.`,
+
+      cz: `Vítej u Luka Living, patnáctipatrové nájemní věže, která se v dlouhém esovitém oblouku vlní směrem k obloze a sama sebe prezentuje jako nejmodernější obytnou budovu, jakou kdy země postavila pro lidi, kteří ji nikdy nebudou chtít koupit.
+
+Věž navrhlo studio CAMA Architekti a postavena byla čistě jako nájemní komplex — v zemi, kde téměř každý touží po vlastním bydlení, poměrně vzácný počin — a nabízí kolem dvou stovek bytů o rozloze zhruba 31 až 119 metrů čtverečních na 15 nadzemních podlažích a dvou podzemních podlažích parkování. Budova splňuje energetický standard A, s rekuperací tepla ze vzduchu i teplé vody a systémy domácí automatizace v každém bytě, a stojí tak blízko stanici metra Luka, že se nájemníci ke svým dveřím dostanou, aniž by museli pořádně vkročit do deště. Drobné obchodní centrum v přízemí obstarává základní potřeby — potraviny, banku, lékárnu, čistírnu — takže obyvatel v podstatě nikdy nemusí budovu opustit, aby fungoval jako dospělý člověk.
+
+🎁 Bonus: V zemi, kde vlastnické bydlení přesahuje 70 %, je patnáctipatrová věž postavená výhradně k pronájmu, nikdy k prodeji, spíš malou architektonickou vzpourou než běžným developerským projektem.`,
+
+      zh: `欢迎来到卢卡公寓（Luka Living）——一座呈长长S形曲线拔地而起的15层出租公寓楼，自我标榜为这个国家迄今为止为"根本不打算买房"的人建造过的最现代化住宅楼。
+
+这座塔楼由CAMA建筑事务所设计，从一开始就被规划为纯出租物业——在一个几乎人人都以"有房"为目标的国家，这本身就相当罕见。大楼地上15层、地下2层停车场，公寓面积从约31到119平方米不等，共有近两百套；整栋建筑达到A级节能标准，空气与热水都配有热回收系统，每套公寓还配有智能家居系统，而且离卢卡（Luka）地铁站近到几乎不用真的淋雨就能走到家门口。楼底的小型商业街区包揽了日常所需——超市、银行、药店、干洗店——住户几乎不用真正离开这栋楼，就能把成年人该办的事都办完。
+
+🎁 彩蛋：在一个住房自有率超过70%的国家里，一座从设计之初就注定只租不卖的15层高楼，与其说是普通的地产项目，不如说是一场小小的建筑叛逆。`,
+    },
+  },
+  {
+    name: 'Obchodní centrum Luka',
+    slug: 'obchodni-centrum-luka',
+    localizedNames: { cz: 'Obchodní centrum Luka', zh: '卢卡购物中心' },
+    labels: ['modern'],
+    coordinates: { lat: 50.04495072832312, lng: 14.321462062239737 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Welcome to Obchodní centrum Luka, a boxy shopping centre whose biggest selling point isn't any single shop inside it but the fact that a dedicated green footbridge lifts you straight off the street and drops you inside Luka metro station without ever touching a crosswalk.
+
+Sitting right on Mukařovského street directly above Luka station on Metro Line B, the centre packs more than twenty shops and services — a supermarket, a bank, an insurance office, a doctor's surgery — into a compact four-storey building built for exactly one purpose: catching commuters on their way between the platform and home. The footbridge overhead does the unglamorous but genuinely useful job of keeping pedestrians off a busy road, one of those small pieces of infrastructure nobody notices until the day it isn't there.
+
+🎁 Bonus: A shopping centre engineered around a single footbridge is a very Prague-13 kind of landmark — nobody's ever going to put it on a postcard, but tens of thousands of commuters use it more often than they'll ever use Charles Bridge.`,
+
+      cz: `Vítej v Obchodním centru Luka, hranaté nákupní budově, jejíž největší předností není žádný konkrétní obchod uvnitř, ale fakt, že tě zelená lávka zvedne rovnou z ulice a bez jediného přechodu tě vysadí přímo u stanice metra Luka.
+
+Centrum stojí přímo na ulici Mukařovského nad stanicí metra Luka na lince B a na kompaktních čtyřech podlažích nabízí přes dvacet obchodů a služeb — supermarket, banku, pojišťovnu, lékařskou ordinaci — postavených přesně za jedním účelem: zachytit cestující na cestě mezi nástupištěm a domovem. Lávka nad ulicí přitom odvádí nenápadnou, ale opravdu užitečnou práci — drží chodce mimo rušnou silnici, jako jeden z těch drobných kousků infrastruktury, kterých si nikdo nevšimne, dokud tam najednou nejsou.
+
+🎁 Bonus: Nákupní centrum postavené kolem jediné lávky je velmi typická pražská třináctková dominanta — na pohlednici ji nikdo nikdy nedá, ale desítky tisíc cestujících ji použijí častěji než Karlův most.`,
+
+      zh: `欢迎来到卢卡购物中心（Obchodní centrum Luka）——一栋方方正正的商场，它最大的卖点不是里面的哪家店铺，而是楼外那座绿色天桥：从街边直接把你架空送进卢卡地铁站，中途连一次人行横道都不用过。
+
+商场就坐落在穆卡若夫斯凯霍街（Mukařovského）上，正好在B线卢卡地铁站上方，紧凑的四层楼里塞进了二十多家店铺和服务设施——超市、银行、保险公司、诊所——全都是为同一个目的而生：在通勤者往返站台与家门之间的路上截住他们。头顶那座天桥做的是一件毫不起眼却真正实用的工作——把行人挡在车流繁忙的马路之外，正是那种平时没人会注意、直到某天突然消失才会想念的小型基础设施。
+
+🎁 彩蛋：一座专门围绕一座天桥设计的购物中心，是非常典型的布拉格13区式地标——永远不会出现在明信片上，却被数以万计的通勤者使用的次数，远远超过查理大桥。`,
+    },
+  },
+  {
+    name: 'Arcus City',
+    slug: 'arcus-city',
+    localizedNames: { cz: 'Arcus City', zh: '阿库斯城' },
+    labels: ['modern'],
+    coordinates: { lat: 50.042919909469134, lng: 14.308767045135504 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://www.arcus-city.cz/',
+    description: {
+      en: `Welcome to Arcus City, a brand-new low-rise neighbourhood built on the exact seam where Stodůlky ends and Řeporyje begins, offering gardens and balconies to people who'd rather not live in one more grey concrete tower.
+
+Developed by UBM Development in three phases, the project has added more than 270 apartments and ten standalone family houses along with ground-floor shops. Each building is kept deliberately low and wrapped in its own garden, balcony or terrace, with cellar storage and parking tucked underground, and the whole development is BREEAM-certified for its environmental credentials. A dedicated bus stop connects residents directly to the Stodůlky metro station on Line B, putting the centre of Prague roughly twenty minutes away — close enough to commute, far enough to never hear it.
+
+🎁 Bonus: The name borrows "arcus," Latin for "arch" or "bow," for a neighbourhood with no arches or bows anywhere in sight — proof that even in real estate marketing, a good Latin word never needs to mean anything literal.`,
+
+      cz: `Vítej v Arcus City, zbrusu nové nízkopodlažní čtvrti postavené přesně na švu, kde končí Stodůlky a začínají Řeporyje, nabízející zahrádky a balkony lidem, kteří už nechtějí bydlet v další šedé betonové věži.
+
+Projekt vyvíjí developer UBM Development ve třech etapách a přinesl už přes 270 bytů a deset samostatných rodinných domů spolu s obchody v přízemí. Každý dům zůstává záměrně nízký a obalený vlastní zahradou, balkonem nebo terasou, sklepní úložné prostory a parkování jsou schované pod zemí a celý projekt nese certifikaci BREEAM za své ekologické parametry. Vlastní autobusová zastávka spojuje obyvatele přímo se stanicí metra Stodůlky na lince B, takže centrum Prahy je vzdálené zhruba dvacet minut — dost blízko na dojíždění, dost daleko, aby ho nebylo slyšet.
+
+🎁 Bonus: Jméno si vypůjčuje latinské slovo „arcus", tedy „oblouk", pro čtvrť, ve které nikde nenajdeš jediný oblouk — důkaz, že i v realitním marketingu dobré latinské slovo nikdy nemusí znamenat nic doslovného.`,
+
+      zh: `欢迎来到阿库斯城（Arcus City）——一片崭新的低层住宅区，恰好建在斯托杜尔基与热波里耶两个区的交界线上，为那些不想再住进又一栋灰色混凝土高楼的人提供花园和阳台。
+
+该项目由开发商UBM Development分三期建设，目前已建成270多套公寓和十栋独立家庭住宅，外加底层商铺；每栋楼都被刻意压低层数，各自带有花园、阳台或露台，储藏室与停车场都藏在地下，整个项目还拿到了BREEAM环保认证。一条专属公交线路把居民直接接驳到B线的斯托杜尔基地铁站，到布拉格市中心大约只需二十分钟——近到可以通勤，又远到听不见市中心的喧闹。
+
+🎁 彩蛋：这个名字借用了拉丁语"arcus"（意为"拱"或"弓"），可整片街区却连一处拱形结构都找不到——证明就算在房地产营销里，一个好听的拉丁词也从不需要真的表示字面意思。`,
+    },
+  },
+  {
+    name: 'UPM Central Depository',
+    slug: 'centralni-depozitar-upm',
+    localizedNames: { cz: 'Centrální depozitář UPM', zh: '工艺美术博物馆中央藏品库' },
+    labels: ['museum', 'modern'],
+    coordinates: { lat: 50.03885193508412, lng: 14.334971304676909 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://www.upm.cz/centralni-depozitar-stodulky/',
+    description: {
+      en: `Welcome to the Central Depository of the Museum of Decorative Arts, a five-storey ring of a building where nearly half a million objects — glass, ceramics, textiles, furniture, photographs — sit in climate-controlled storage that the public will never actually get to walk through.
+
+Opened in April 2016 after two years of construction, the depository was built to solve a problem most museums quietly struggle with: not enough space to store what they own. Its circular floor plan wraps around a square inner core and holds roughly 5,770 square metres of storage, sorted by material type, alongside restoration studios and offices for the curators, conservators and collection managers who look after it all. Freeing up storage space here is also what made a full renovation of the museum's grand historic building back in the centre of Prague possible — the unglamorous warehouse in Stodůlky quietly enabling the glamorous one downtown to shine.
+
+🎁 Bonus: The building's foundation stone wasn't a fresh block of granite — it was salvaged from the museum's own historic building, over a century old, meaning this brand-new depository was symbolically founded on a piece of the very institution it now exists to support.`,
+
+      cz: `Vítej u Centrálního depozitáře Uměleckoprůmyslového musea, pětipodlažní kruhové budovy, kde v klimatizovaných skladech odpočívá skoro půl milionu předmětů — sklo, keramika, textil, nábytek, fotografie —, do kterých se veřejnost nikdy nepodívá.
+
+Depozitář, otevřený v dubnu 2016 po dvou letech výstavby, řeší problém, se kterým se potichu potýká skoro každé muzeum: nedostatek místa na uskladnění vlastních sbírek. Jeho kruhový půdorys obepíná čtvercové jádro a nabízí zhruba 5 770 metrů čtverečních skladovacích ploch, tříděných podle typu materiálu, spolu s restaurátorskými dílnami a kancelářemi pro kurátory, restaurátory a správce sbírek, kteří se o vše starají. Uvolnění skladovacích prostor tady zároveň umožnilo kompletní rekonstrukci honosné historické budovy musea v centru Prahy — nenápadný sklad ve Stodůlkách tak potichu umožnil, aby ten okázalý sourozenec v centru mohl zazářit.
+
+🎁 Bonus: Základní kámen budovy nebyl čerstvý kus žuly — pocházel ze samotné historické budovy musea, staré přes sto let, takže tenhle zbrusu nový depozitář byl symbolicky založen na kousku té samé instituce, které dnes slouží.`,
+
+      zh: `欢迎来到工艺美术博物馆中央藏品库（Centrální depozitář UPM）——一座五层的环形建筑，将近五十万件藏品（玻璃、陶瓷、纺织品、家具、照片）安静地躺在恒温恒湿的库房里，而公众永远没有机会走进去参观。
+
+这座藏品库于2014年动工，历经两年建设后于2016年4月开放，解决了几乎每家博物馆都默默头疼的问题：藏品太多，地方不够。建筑呈环形，围绕着一个方形核心展开，拥有约5770平方米的库房面积，按材质分类存放，此外还设有修复工作室，以及供策展人、修复师和藏品管理员办公的空间。腾出来的库房空间，也正是布拉格市中心那座宏伟历史建筑得以彻底翻修的关键——斯托杜尔基这座毫不起眼的仓库，悄悄成全了市中心那座光鲜建筑的重生。
+
+🎁 彩蛋：这座建筑的奠基石并非一块崭新的花岗岩，而是取自博物馆自己那栋已有百年历史的老建筑——也就是说，这座全新的藏品库，象征性地建立在它如今所守护的这座机构自身的一块基石之上。`,
+    },
+  },
+  {
+    name: 'Community Center of St. Procopius',
+    slug: 'komunitni-centrum-svateho-prokopa',
+    localizedNames: { cz: 'Komunitní centrum svatého Prokopa', zh: '圣普罗科普社区中心' },
+    labels: ['church', 'modern', 'architecture'],
+    coordinates: { lat: 50.04987455087136, lng: 14.345451532851405 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Komunitn%C3%AD_centrum_svat%C3%A9ho_Prokopa',
+    description: {
+      en: `Welcome to the Community Center of St. Procopius, an oval blue church with no obvious front, back, or corner, built specifically to look like an idea that never quite finishes forming.
+
+Designed by architect Zdeněk Jiran and completed in 2001 on the eastern edge of Sluneční náměstí (Sunny Square) in the Nové Butovice housing estate, the nave is laid out as a true ellipse — a shape with no single center or starting point — its long axis aimed straight at the slender tower standing nearby on the square. According to its own designers, that deliberately centerless oval is meant to express something about faith itself: that the ideas people gather here for are intellectually ungraspable and endlessly, permanently valid, resistant to being pinned down the way a rectangular nave with a fixed altar wall would be. Inside, sliding panels let the space itself grow or shrink depending on how many people show up, and beyond regular Mass the building doubles as a genuinely ecumenical community hub — lectures, exhibitions, concerts, social evenings, courses, even a parish charity office and a psychotherapy practice, all under one blue oval roof.
+
+🎁 Bonus: Most churches point their axis toward an altar and call it done. This one points its entire floor plan at a bell tower across the square instead — architecture quietly arguing that the building next door matters just as much as the one you're standing in.`,
+
+      cz: `Vítej v Komunitním centru svatého Prokopa, oválném modrém kostele bez jasné přední strany, zadní strany nebo rohu, postaveném tak, aby vypadal jako myšlenka, která se nikdy úplně nedoformuje.
+
+Návrh architekta Zdeňka Jirana byl dokončen v roce 2001 na východním okraji Slunečního náměstí na sídlišti Nové Butovice. Loď kostela má půdorys skutečné elipsy — tvaru bez jediného středu nebo počátku — a její dlouhá osa míří přímo na štíhlou věž stojící nedaleko na náměstí. Podle samotných tvůrců má tenhle záměrně nestředový ovál vyjadřovat něco o samotné víře: že myšlenky, kvůli kterým se tu lidé scházejí, jsou rozumově neuchopitelné a nekonečně, trvale platné, odolné vůči tomu být sevřeny tak, jak by je sevřela obdélníková loď s pevnou oltářní stěnou. Uvnitř umožňují posuvné panely, aby se prostor podle potřeby zvětšoval nebo zmenšoval, a kromě běžných bohoslužeb slouží budova i jako opravdu ekumenické komunitní centrum — přednášky, výstavy, koncerty, společenské večery, kurzy, dokonce i farní charita a psychoterapeutická poradna, to vše pod jednou modrou oválnou střechou.
+
+🎁 Bonus: Většina kostelů namíří svou osu na oltář a tím to hasne. Tenhle místo toho míří celým svým půdorysem na zvonici přes náměstí — architektura, která tiše naznačuje, že budova vedle je stejně důležitá jako ta, ve které zrovna stojíš.`,
+
+      zh: `欢迎来到圣普罗科普社区中心（Komunitní centrum svatého Prokopa）——一座蓝色椭圆形教堂，没有明显的正面、背面或棱角，仿佛特意被造成一个永远定不了型的想法。
+
+这座建筑由建筑师兹德涅克·伊兰（Zdeněk Jiran）设计，2001年在新布托维采（Nové Butovice）住宅区"太阳广场"（Sluneční náměstí）东侧落成。教堂中殿的平面是一个真正的椭圆形——一种没有单一中心、没有起点的形状——它的长轴径直指向广场上不远处那座纤细的钟楼。据设计者所说，这个刻意不设中心的椭圆想要表达的，正是关于信仰本身的某种理解：人们在此聚集所为之的那些理念，是理性无法完全把握的，却又永恒、持续地有效，不会像传统矩形中殿加固定祭坛墙那样被轻易框定。教堂内部的可移动隔板能根据到场人数随时调整空间大小，除了日常弥撒之外，这里还是一处真正意义上的跨教派社区中心——讲座、展览、音乐会、联谊晚会、各类课程，甚至还设有堂区慈善办公室和心理咨询室，全都聚在同一片蓝色椭圆屋顶之下。
+
+🎁 彩蛋：大多数教堂把轴线对准祭坛就算完事，这一座却把整个建筑的平面朝向广场对面的钟楼——用建筑本身悄悄地说明：隔壁那栋楼，和你此刻站着的这栋一样重要。`,
+    },
+  },
+  {
+    name: 'Prague 13 Town Hall',
+    slug: 'urad-mestske-casti-praha-13',
+    localizedNames: { cz: 'Úřad městské části Praha 13', zh: '布拉格13区区政府大楼' },
+    labels: ['municipal', 'modern', 'architecture'],
+    coordinates: { lat: 50.05057533167535, lng: 14.344371620824111 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Radnice_Prahy_13',
+    description: {
+      en: `Welcome to the Prague 13 Town Hall, a shiny oval building on Sluneční náměstí so distinctively shaped that locals gave up calling it a town hall almost immediately and started calling it a pastry instead.
+
+Prague 13 only came into existence in November 1994, split off from Prague 5, and building a proper town hall became one of the new district's first priorities. Architect Miloš Haase and his team at Spojprojekt won the 2000 design competition; the foundation stone went in on 1 June 2001, and the finished building opened on 2 June 2003 — an oval, six-storey structure clad in metal, wrapped around a three-storey glass atrium that hosts concerts, exhibitions and public events, topped with a glass clock tower rising about 43 metres. It was nominated for Building of the Year in 2003, and its barrier-free, light-filled design was built with families and strollers in mind from the start, rather than retrofitted for them later.
+
+🎁 Bonus: Residents nicknamed the building "laskonka," after the oval meringue-and-buttercream pastry it resembles from above — possibly the only town hall in the country whose official architecture-prize nomination lost out, in everyday conversation, to a dessert.`,
+
+      cz: `Vítej u radnice Prahy 13, lesklé oválné budovy na Slunečním náměstí tak výrazného tvaru, že jí místní téměř okamžitě přestali říkat radnice a začali jí říkat cukroví.
+
+Praha 13 vznikla teprve v listopadu 1994 oddělením od Prahy 5 a postavit pořádnou radnici se stalo jednou z prvních priorit nové městské části. Architektonickou soutěž v roce 2000 vyhrál architekt Miloš Haase se svým týmem ze společnosti Spojprojekt; základní kámen byl položen 1. června 2001 a hotová budova byla slavnostně otevřena 2. června 2003 — oválná, šestipodlažní stavba s kovovým povrchem, obestavěná kolem třípodlažního prosklenného atria, kde se pořádají koncerty, výstavy i veřejné akce, a zakončená prosklenou věží s hodinami vysokou zhruba 43 metrů. Budova byla nominována na Stavbu roku 2003 a její bezbariérové, světlem prosycené řešení bylo od začátku navrženo s ohledem na rodiny a kočárky, nikoli k nim dodatečně přizpůsobeno.
+
+🎁 Bonus: Obyvatelé budově přezdívají „laskonka" podle oválného pusinkového zákusku s krémem, kterému se shora podobá — možná jediná radnice v zemi, jejíž oficiální nominace na architektonickou cenu prohrála v běžné mluvě proti dezertu.`,
+
+      zh: `欢迎来到布拉格13区区政府大楼，一栋坐落在"太阳广场"上的锃亮椭圆形建筑，形状实在太有辨识度，以至于当地居民几乎立刻放弃叫它"区政府"，转而叫它一种甜点的名字。
+
+布拉格13区直到1994年11月才从布拉格5区分出来独立成区，建一栋像样的区政府大楼自然成了新区最早的优先事项之一。2000年的建筑设计竞赛由建筑师米洛什·哈泽（Miloš Haase）带领Spojprojekt事务所团队胜出；奠基石于2001年6月1日埋下，建筑本体则在2003年6月2日正式落成启用——这是一栋椭圆形的六层建筑，外覆金属表皮，围绕着一个三层楼高的玻璃中庭而建，中庭常年举办音乐会、展览和各类公共活动，楼顶则是一座高约43米、带时钟的玻璃塔楼。这栋建筑曾入围2003年度"年度建筑"提名，其无障碍、采光充足的设计从一开始就是为带着婴儿车的家庭考虑的，而不是事后才加装的补救方案。
+
+🎁 彩蛋：居民给这栋楼起了个绰号"拉斯孔卡"（laskonka）——一种从上方看去与它形状相似的椭圆形蛋白酥奶油夹心点心——这或许是全国唯一一座官方建筑奖提名，在日常口语里最终还是输给了一款甜点的区政府大楼。`,
+    },
+  },
 ];
 
 async function run() {
