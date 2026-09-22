@@ -30013,6 +30013,153 @@ Praha 13 vznikla teprve v listopadu 1994 oddělením od Prahy 5 a postavit poř�
 🎁 彩蛋：居民给这栋楼起了个绰号"拉斯孔卡"（laskonka）——一种从上方看去与它形状相似的椭圆形蛋白酥奶油夹心点心——这或许是全国唯一一座官方建筑奖提名，在日常口语里最终还是输给了一款甜点的区政府大楼。`,
     },
   },
+  {
+    // Pardubice batch, added 2026-09-22 at the user's request (coordinates
+    // user-supplied). Three cards: this square card doubles as the one
+    // Pardubice city card; the château and Kunětická Hora are the castles the
+    // user placed outside the centre. Not linked from any History Timeline
+    // event, at the user's explicit instruction. Sources: turistika.cz,
+    // regiony.rozhlas.cz (U Jonáše), cs.wikipedia (Pardubice). Rarity 'epic'
+    // for all three is my own pick.
+    name: 'Pernštýnské Square',
+    slug: 'pernstynske-namesti-pardubice',
+    localizedNames: { cz: 'Pernštýnské náměstí', zh: '佩恩施泰因广场' },
+    labels: ['square', 'city', 'historical'],
+    coordinates: { lat: 50.03852586223426, lng: 15.77897962049064 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Pardubice',
+    description: {
+      en: `Pardubice is best known in the rest of the country for gingerbread and a horse race so brutal it has its own list of famous fences. Its old town is small enough to cross in ten minutes, and nearly all of it leads to one square, named after the family that turned a swampy river town into a Renaissance showpiece.
+
+The Pernštejn lords bought Pardubice in 1491 and made it their main seat, and they rebuilt the town in stone and Renaissance gables, especially after a great fire in 1538. Pernštýnské Square is what they left behind: a compact, slightly irregular square of arcaded burghers' houses with Gothic cores and colourful Renaissance, Baroque and Classicist façades. At one end stands the Green Gate, the old town's main entrance, which got its tall tower with a green copper roof after the 1538 fire and its name by 1547. The tower is about 60 metres high and open as a lookout, and the gate carries a relief designed by Mikoláš Aleš from 1903. Across the square rises the neo-Renaissance town hall, built between 1892 and 1894 to designs by Jan Weyrich on the site of the old town hall and two neighbouring houses. The square's most famous house is U Jonáše, whose façade carries a stucco relief from 1797, attributed to the local sculptor and woodcarver Jakub Teplý, showing the prophet Jonah and the whale, surrounded by mermaids, sea horses and saints. Inside, it now houses the East Bohemian Gallery's exhibition of Czech art from the second half of the 20th century. Beyond the square, Pardubice is known for its protected gingerbread recipe and for the Velká pardubická, a steeplechase run every October since 1874.
+
+🎁 Bonus: Nobody has ever been able to say whether the whale on U Jonáše is swallowing Jonah or spitting him out. For more than two centuries he has been stuck exactly halfway, which is either the most suspenseful or the least comfortable moment in the whole Bible.`,
+
+      cz: `Pardubice jsou ve zbytku země známé hlavně perníkem a koňským dostihem tak drsným, že má vlastní seznam slavných překážek. Jejich staré město se dá přejít za deset minut a skoro všechno v něm vede na jedno náměstí, pojmenované po rodu, který z bažinatého městečka u řeky udělal renesanční chloubu.
+
+Páni z Pernštejna koupili Pardubice v roce 1491 a udělali z nich své hlavní sídlo. Město přestavěli v kameni a renesančních štítech, zvlášť po velkém požáru v roce 1538. Pernštýnské náměstí je to, co po nich zůstalo: kompaktní, trochu nepravidelné náměstí s podloubími měšťanských domů s gotickými jádry a pestrými renesančními, barokními a klasicistními fasádami. Na jednom konci stojí Zelená brána, hlavní vstup do starého města, která dostala svou vysokou věž se zelenou měděnou střechou po požáru v roce 1538 a své jméno do roku 1547. Věž je vysoká asi 60 metrů a slouží jako rozhledna a brána nese reliéf podle návrhu Mikoláše Alše z roku 1903. Naproti se zvedá novorenesanční radnice, postavená v letech 1892 až 1894 podle návrhu Jana Weyricha na místě staré radnice a dvou sousedních domů. Nejslavnějším domem náměstí je dům U Jonáše, jehož fasádu zdobí štukový reliéf z roku 1797, připisovaný místnímu sochaři a řezbáři Jakubu Teplému, s prorokem Jonášem a velrybou, obklopenými mořskými pannami, mořskými koníky a světci. Uvnitř je dnes expozice Východočeské galerie s českým uměním druhé poloviny 20. století. Mimo náměstí jsou Pardubice známé chráněným receptem na perník a Velkou pardubickou, dostihem, který se běží každý říjen od roku 1874.
+
+🎁 Bonus: Nikdo nikdy nedokázal říct, jestli velryba na domě U Jonáše Jonáše polyká, nebo ho vyplivuje. Už přes dvě století uvízl přesně napůl, což je buď nejnapínavější, nebo nejnepohodlnější okamžik celé Bible.`,
+
+      zh: `在捷克别的地方，帕尔杜比采最出名的是姜饼，还有一场凶险到连几道障碍都各有名号的赛马。它的老城小得十分钟就能走完，几乎所有街道都通向同一座广场，广场的名字来自那个把这座河边沼泽小城改造成文艺复兴样板的家族。
+
+佩恩施泰因家族1491年买下帕尔杜比采，把这里定为主要居所，用石头和文艺复兴式山墙重建了整座城，1538年那场大火之后尤其如此。佩恩施泰因广场就是他们留下的作品：一座紧凑、略不规则的广场，四周是带拱廊的市民住宅，内核是哥特式的，外立面则是五颜六色的文艺复兴、巴洛克和古典主义风格。广场一头立着绿门，这是老城的主要入口，1538年大火后加盖了一座铜顶泛绿的高塔，到1547年就有了“绿门”这个名字。塔高约60米，可以登塔远眺，城门上还有一块1903年根据米科拉什·阿莱什设计制作的浮雕。广场对面是新文艺复兴式的市政厅，1892年至1894年按扬·魏里希的设计建成，占了旧市政厅和两座邻屋的位置。广场上最有名的房子是“约拿之家”，立面上有一块1797年的灰泥浮雕，据说出自本地雕塑家兼木雕师雅各布·特普利之手，刻的是先知约拿和大鱼，周围还有美人鱼、海马和圣徒。如今屋里是东波希米亚美术馆的展厅，展出20世纪下半叶的捷克艺术。广场之外，帕尔杜比采还以受保护的姜饼配方闻名，另有一场从1874年起每年10月举办的大帕尔杜比采障碍赛马。
+
+🎁 彩蛋：约拿之家墙上的那条大鱼，到底是在吞约拿还是在把他吐出来，从来没人说得清。两百多年来，约拿一直卡在正中间，这要么是整本《圣经》里最扣人心弦的一刻，要么是最难受的一刻。`,
+    },
+  },
+  {
+    // Pardubice batch (see pernstynske-namesti-pardubice above). The château
+    // sits just north of the old town; the user counts it as outside the
+    // centre. Sources: cs.wikipedia (Zámek Pardubice). Arnošt of Pardubice is
+    // mentioned only as a family fact, with no History Timeline reference.
+    name: 'Pardubice Castle',
+    slug: 'zamek-pardubice',
+    localizedNames: { cz: 'Zámek Pardubice', zh: '帕尔杜比采城堡' },
+    labels: ['palace', 'museum', 'historical'],
+    coordinates: { lat: 50.04105532789652, lng: 15.777624331209761 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Z%C3%A1mek_Pardubice',
+    description: {
+      en: `Pardubice Castle is what happens when a very rich man wants a Renaissance palace but doesn't quite trust the neighbours. The result is a four-winged château with painted halls inside and, outside, a set of earthen ramparts and moats so massive that the building looks as if it is being protected from the rest of the town.
+
+A moated water fortress stood here from the 13th century. In the 14th century the town belonged to the family of Arnošt of Pardubice, the first Archbishop of Prague, and it was the man who took his name from the town, not the other way round: Arnošt was born at Hostinka, and he only took the name "of Pardubice" at the end of 1340, when his father's will named him heir to the town. Pardubice still counts him as its patron. After the Hussite wars it was rebuilt in stone with corner towers and gun ports. The real change came in 1491, when Vilém of Pernštejn, one of the richest men in the kingdom, bought the estate and turned the fortress into a four-winged palace wrapped in powerful new fortifications, a building halfway between a medieval castle and a Renaissance residence, whose ramparts count among the finest late Gothic defences in the country. His sons Vojtěch and Jan kept up the Renaissance work. In 1560 the estate was sold to the king, and between 1574 and 1579 Ulrico Aostalli added sgraffito decoration and the main tower, but as a royal property it served mostly as an administrative centre, and in the 17th century it even housed a brewery. The museum society bought it in 1920. After nationalisation in 1952 it was badly neglected, and part of the second floor collapsed in 1977. Full reconstruction began in 1994, and since 2010 it has been a national cultural monument. Today it houses the East Bohemian Museum and the East Bohemian Gallery, with Renaissance wall paintings, historical and archaeological exhibitions and art collections.
+
+🎁 Bonus: The Pernštejn coat of arms is a black aurochs head with a gold ring through its nose, and the family put it on nearly everything it built. Walk around the castle and the old town and count the aurochs: the family that owned the place clearly wanted nobody to forget whose it was.`,
+
+      cz: `Zámek Pardubice je to, co vznikne, když velmi bohatý muž chce renesanční palác, ale sousedům tak docela nevěří. Výsledkem je čtyřkřídlý zámek s malovanými sály uvnitř a venku se soustavou zemních valů a příkopů tak mohutnou, že to vypadá, jako by stavba byla chráněna před zbytkem města.
+
+Vodní tvrz tu stála od 13. století. Ve 14. století patřilo město rodu Arnošta z Pardubic, prvního pražského arcibiskupa, a jméno převzal muž od města, ne naopak: Arnošt se narodil v Hostince a přídomek „z Pardubic“ získal až koncem roku 1340, kdy ho otcova závěť určila za dědice města. Pardubice ho dodnes považují za svého patrona. Po husitských válkách byla přestavěna v kameni s nárožními věžemi a střílnami. Skutečná změna přišla v roce 1491, kdy panství koupil Vilém z Pernštejna, jeden z nejbohatších mužů v království, a proměnil tvrz ve čtyřkřídlý palác obklopený mohutným novým opevněním, stavbu napůl cestě mezi středověkým hradem a renesančním sídlem, jejíž valy patří k nejlepším pozdně gotickým fortifikacím v zemi. Jeho synové Vojtěch a Jan pokračovali v renesančních úpravách. V roce 1560 panství koupil král a v letech 1574 až 1579 přidal Ulrico Aostalli sgrafitovou výzdobu a hlavní věž, jako královský majetek ale zámek sloužil hlavně jako správní centrum a v 17. století v něm dokonce fungoval pivovar. Muzejní spolek ho koupil v roce 1920. Po zestátnění v roce 1952 chátral a v roce 1977 se část druhého patra zřítila. Celková rekonstrukce začala v roce 1994 a od roku 2010 je zámek národní kulturní památkou. Dnes v něm sídlí Východočeské muzeum a Východočeská galerie s renesančními nástěnnými malbami, historickými a archeologickými expozicemi a uměleckými sbírkami.
+
+🎁 Bonus: Pernštejnský erb je černá zubří hlava se zlatým kruhem v nose a rod ho umisťoval skoro na všechno, co postavil. Projděte se kolem zámku a starým městem a počítejte zubry: rod, kterému to tu patřilo, zjevně nechtěl, aby někdo zapomněl, čí to je.`,
+
+      zh: `帕尔杜比采城堡，就是一个非常有钱的人想要一座文艺复兴宫殿、却又不太信得过邻居时会造出来的东西。结果是一座四翼宫殿，里面是彩绘大厅，外面则是一套厚得惊人的土垒和护城河，看上去像是专门用来防着城里其他人似的。
+
+这里从13世纪起就有一座水上要塞。14世纪时，这座城属于布拉格第一任大主教阿尔诺什特·帕尔杜比采的家族。是人随城得名，而不是城随人得名：阿尔诺什特生在霍斯廷卡，直到1340年底父亲在遗嘱里指定他继承这座城，他才有了“帕尔杜比采的”这个称号。帕尔杜比采至今仍把他当作本城的守护人。胡斯战争之后，要塞用石头重建，加了角楼和射击孔。真正的转折发生在1491年，王国里数一数二的富豪、佩恩施泰因的威廉买下这片领地，把要塞改建成一座四翼宫殿，外面再裹上一圈强大的新防御工事。这座建筑介于中世纪城堡和文艺复兴府邸之间，它的土垒被认为是捷克最出色的晚期哥特式防御工事之一。他的儿子沃伊捷赫和扬继续做文艺复兴式的改建。1560年，领地卖给了国王，1574年至1579年间，乌尔里科·奥斯塔利为它加上了五彩刮画装饰和主塔。不过作为王室产业，它主要当行政中心用，17世纪甚至还开过啤酒厂。1920年，博物馆协会买下了它。1952年收归国有后，城堡年久失修，1977年二楼有一部分塌了。1994年开始全面修复，2010年起成为国家文化遗产。如今这里是东波希米亚博物馆和东波希米亚美术馆的所在地，有文艺复兴时期的壁画、历史和考古展览，以及美术藏品。
+
+🎁 彩蛋：佩恩施泰因家族的纹章是一个鼻子上穿着金环的黑色野牛头，这个家族几乎在自己造的每样东西上都刻了它。绕着城堡和老城走一圈，数一数有多少个野牛头：当年的主人显然不想让任何人忘记这地方是谁的。`,
+    },
+  },
+  {
+    // Pardubice batch (see pernstynske-namesti-pardubice above). Out-of-town
+    // castle on its own hill ~6 km north of Pardubice. Sources: cs.wikipedia
+    // (Kunětická hora (hrad)), kampocesku.cz, hrad-kunetickahora.cz. Opatovice
+    // was a Benedictine monastery. The "extinct volcano" belief is folk
+    // tradition only; the card says so. Height not stated (no source found).
+    name: 'Kunětická Hora Castle',
+    slug: 'hrad-kuneticka-hora',
+    localizedNames: { cz: 'Státní hrad Kunětická hora', zh: '库涅蒂采山城堡' },
+    labels: ['historical', 'museum', 'nature'],
+    coordinates: { lat: 50.08039851874566, lng: 15.813869213672419 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kun%C4%9Btick%C3%A1_hora_(hrad)',
+    description: {
+      en: `Kunětická Hora is a castle on a lonely little hill that sticks out of the flat Elbe plain north of Pardubice like a thumb. Locals like to say the hill is an extinct volcano. It isn't, but from the flatlands around it you can see why someone would want it to be.
+
+People lived on the hill in prehistoric times, and a fortress stood here from the early 14th century, probably started by King Wenceslas II. The castle proper was founded in 1421, when the Hussite commander Diviš Bořek of Miletínek seized the lands of the nearby Benedictine monastery of Opatovice and made the hilltop his seat. In 1491 Vilém of Pernštejn bought the estate and, with his son Jan continuing into the 1540s, rebuilt it into a grand two-towered residence with first-rate artillery fortifications: a ring of six gates, drawbridges and gun positions that is still remarkable today. After 1560 the castle lost its importance. In 1645, during the Thirty Years' War, the Swedish general Torstenson captured it, and it was left largely abandoned. Restoration began in 1920, with the architect Dušan Jurkovič doing much of the work, and after further repairs it reopened to the public in 1993; since 2001 it has been a national cultural monument. Today there is a palace with a Knights' Hall, a high round tower, an armoury, an exhibition on the history of justice, an archery range and the late Gothic chapel of St. Catherine of Siena with cell vaulting. From the tower you can see three mountain ranges: the Iron Mountains, the Eagle Mountains and the Giant Mountains.
+
+🎁 Bonus: Czech television viewers know this place as Rumburak's castle. The 1970s fairy-tale series Arabela was filmed here, and the castle was the hideout of the wicked wizard Rumburak. The castle's own website still proudly calls itself "Rumburak's castle", which must make it one of the few historic monuments to advertise itself by its most famous villain.`,
+
+      cz: `Kunětická hora je hrad na osamělém kopečku, který trčí z roviny Polabí severně od Pardubic jako palec. Místní rádi tvrdí, že kopec je vyhaslá sopka. Není, ale z okolní roviny je jasné, proč by si to někdo přál.
+
+Na kopci žili lidé už v pravěku a od počátku 14. století tu stála tvrz, nejspíš založená králem Václavem II. Vlastní hrad vznikl v roce 1421, kdy husitský hejtman Diviš Bořek z Miletínka zabral statky nedalekého benediktinského kláštera v Opatovicích a udělal si z vrcholu kopce své sídlo. V roce 1491 panství koupil Vilém z Pernštejna a spolu se synem Janem, který pokračoval až do 40. let 16. století, ho přestavěl v honosné dvouvěžové sídlo s prvotřídním dělostřeleckým opevněním: soustavou šesti bran, padacích mostů a dělostřeleckých postavení, která je pozoruhodná dodnes. Po roce 1560 hrad ztratil na významu. V roce 1645, za třicetileté války, ho dobyl švédský generál Torstenson a hrad pak zůstal z velké části opuštěný. Obnova začala v roce 1920, velkou část prací vedl architekt Dušan Jurkovič, a po dalších opravách se hrad v roce 1993 znovu otevřel veřejnosti; od roku 2001 je národní kulturní památkou. Dnes tu je palác s Rytířským sálem, vysoká okrouhlá věž, zbrojnice, expozice dějin soudnictví, lukostřelnice a pozdně gotická kaple svaté Kateřiny Sienské se sklípkovou klenbou. Z věže je vidět na tři pohoří: Železné hory, Orlické hory a Krkonoše.
+
+🎁 Bonus: Čeští televizní diváci znají tohle místo jako Rumburakův hrad. Natáčel se tu pohádkový seriál Arabela ze 70. let a hrad byl úkrytem zlého čaroděje Rumburaka. Vlastní web hradu si dodnes hrdě říká „Rumburakův hrad“, což z něj dělá jednu z mála historických památek, které se propagují svým nejslavnějším padouchem.`,
+
+      zh: `库涅蒂采山城堡坐落在一座孤零零的小山上，这座山像一根大拇指一样，从帕尔杜比采北面平坦的易北河平原上直直戳了出来。当地人喜欢说这座山是一座死火山。它不是，但站在周围的平地上看，你能理解为什么有人希望它是。
+
+史前就有人住在这座山上，14世纪初这里建起了一座要塞，很可能是瓦茨拉夫二世国王开的头。真正的城堡建于1421年：胡斯派将领米莱廷的迪维什·博雷克占了附近奥帕托维采本笃会修道院的地产，把山顶定为自己的居所。1491年，佩恩施泰因的威廉买下这片领地，他的儿子扬一直接着干到1540年代，把它改建成一座气派的双塔府邸，配上一流的炮兵防御工事：六道城门、吊桥和炮位层层相扣，至今仍令人惊叹。1560年以后，城堡渐渐失去了重要性。1645年三十年战争期间，瑞典将军托尔斯滕松攻下了它，此后城堡基本被废弃。1920年开始修复，大部分工作由建筑师杜尚·尤尔科维奇主持，又经过多次修缮，1993年重新对公众开放，2001年起成为国家文化遗产。如今这里有带骑士大厅的宫殿、一座高高的圆塔、军械库、司法史展览、射箭场，以及一座有蜂窝状拱顶的晚期哥特式锡耶纳圣加大利纳礼拜堂。站在塔上，能望见三道山脉：铁山、鹰山和巨人山。
+
+🎁 彩蛋：捷克电视观众都管这里叫“鲁姆布拉克的城堡”。1970年代的童话剧《阿拉贝拉》就在这里拍摄，城堡是邪恶巫师鲁姆布拉克的藏身之处。城堡自己的官网至今还自豪地自称“鲁姆布拉克的城堡”，大概是少数几处拿自己最出名的反派来做宣传的历史古迹之一。`,
+    },
+  },
+  {
+    // Added 2026-09-23 at the user's request (coordinates user-supplied) as
+    // the landmark for chalice-against-chalice-1424. The user first asked for
+    // the battle memorial, then switched to a card for the town itself, with
+    // the battle and the memorial folded into its description. Sources:
+    // cs.wikipedia (Malešov, Bitva u Malešova), hrady.cz and vets.cz
+    // (memorial, 2023 statue by Martin Roháček), strednicechy.rozhlas.cz
+    // (museum, whale, Karel Jonáš, Hugo Meisl). Malešov is also a location
+    // in Kingdom Come: Deliverance II; not mentioned, per the KCD2 rule that
+    // the user supplies the in-game context. Rarity 'superior' is my own pick.
+    name: 'Malešov',
+    slug: 'malesov',
+    localizedNames: { cz: 'Malešov', zh: '马莱绍夫' },
+    labels: ['village-and-town', 'historical', 'museum'],
+    coordinates: { lat: 49.91106135288211, lng: 15.221277242278205 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Male%C5%A1ov',
+    description: {
+      en: `Malešov is a market town of about a thousand people a few kilometres south of Kutná Hora, with a brewery, a medieval tower, a museum and a whale. It also has one of the bloodiest battlefields of the Hussite Wars, which, of all those things, is the only one that makes sense for a quiet Bohemian village.
+
+First mentioned in 1303, Malešov grew up around its fortress, documented from 1359: a tall stone tower house on a rocky spur above a pond, still the town's landmark along with the Church of St. Wenceslas on the square. It became a market town again in 2006. Its small museum, across the road from the brewery, covers the fortress, the battle, the local Jewish community, mining and brewing, and it is proud of its natives: Karel Jonáš, who emigrated to America, became a Wisconsin state senator and later US consul in Prague (the museum has a red telephone that lets you "call the White House"), and Hugo Meisl, born here in 1881, who went on to coach Austria's legendary "Wunderteam" football side of the early 1930s. The museum is open at weekends and on holidays, and a scenic local railway runs here from Kutná Hora.
+
+On 7 June 1424 the blind Hussite commander Jan Žižka, retreating with his East Bohemian army, stopped by the fortress and turned to face the larger army chasing him: a coalition of Prague's moderate Hussites and Catholic lords, whose soldiers wore sprigs of rye at their belts as a field sign. He blocked a narrow valley south of the village with his war wagons, so the pursuers could only come at him a few ranks at a time, then broke them with a counterattack. The chronicles speak of 1,200 to 1,400 dead on the losing side. A later story has him sending stone-laden wagons rolling down the slope into the enemy, though only one chronicle mentions it and historians doubt it. The battlefield memorial stands about a kilometre and a half south of the village, by the Prosík pond on the road to Maxovna. For decades it was just a plaque celebrating the "victory of Žižka's troops over the Lords' League", until vandals chipped a corner off. In October 2023, ahead of the battle's 600th anniversary, it was renewed with a new plaque, an information panel and a sandstone statue of Žižka by Martin Roháček of the stone-carving centre at Lipnice nad Sázavou, and it is now a stop on the "Path of the Hussite Captains" trail.
+
+🎁 Bonus: Why does a landlocked Bohemian village keep one of only two whale skeletons in the whole country? Because its museum's favourite son is Karel Jonáš, and Jonáš is Czech for Jonah. When your local hero is named after the man who lived in a whale, you get the whale.`,
+
+      cz: `Malešov je městys s asi tisícovkou obyvatel pár kilometrů jižně od Kutné Hory, s pivovarem, středověkou věží, muzeem a velrybou. Má také jedno z nejkrvavějších bojišť husitských válek, což je ze všech těch věcí jediná, která u klidné české vesnice dává smysl.
+
+Malešov, poprvé zmíněný v roce 1303, vyrostl kolem své tvrze, doložené od roku 1359: vysoké kamenné obytné věže na skalním ostrohu nad rybníkem, která je spolu s kostelem svatého Václava na náměstí dodnes jeho dominantou. Titul městyse získal zpět v roce 2006. Malé muzeum naproti pivovaru se věnuje tvrzi, bitvě, místní židovské obci, hornictví a pivovarnictví a je hrdé na své rodáky: Karla Jonáše, který emigroval do Ameriky, stal se senátorem státu Wisconsin a později americkým konzulem v Praze (v muzeu je červený telefon, ze kterého můžete „zavolat do Bílého domu“), a Huga Meisla, narozeného tu v roce 1881, pozdějšího trenéra legendárního rakouského fotbalového „Wunderteamu“ z počátku 30. let. Muzeum je otevřené o víkendech a svátcích a z Kutné Hory sem vede malebná lokálka.
+
+7. června 1424 se slepý husitský vojevůdce Jan Žižka, ustupující se svým východočeským vojskem, zastavil u tvrze a obrátil se proti početnějšímu vojsku, které ho pronásledovalo: koalici pražských umírněných husitů a katolických pánů, jejíž vojáci nosili za pasem klásky žita jako polní znamení. Zatarasil vozy úzké údolí jižně od vsi, takže pronásledovatelé na něj mohli útočit jen po několika řadách, a pak je rozprášil protiútokem. Kroniky mluví o 1 200 až 1 400 mrtvých na straně poražených. Pozdější příběh vypráví, že nechal z kopce do nepřátel pustit vozy naložené kamením, jenže ho zmiňuje jen jediná kronika a historici o něm pochybují. Památník bitvy stojí asi kilometr a půl jižně od obce u rybníka Prosík na silnici do Maxovny. Celá desetiletí to byla jen deska oslavující „vítězství Žižkových vojsk nad panskou jednotou“, dokud jí vandalové neulomili roh. V říjnu 2023, před 600. výročím bitvy, byl obnoven novou deskou, informačním panelem a pískovcovou sochou Žižky od Martina Roháčka z kamenického centra v Lipnici nad Sázavou a dnes je zastávkou naučné stezky Cestou husitských hejtmanů.
+
+🎁 Bonus: Proč má vnitrozemská česká vesnice jednu z pouhých dvou kostér velryb v celé zemi? Protože nejmilejším rodákem jejího muzea je Karel Jonáš. Když se váš místní hrdina jmenuje po muži, který žil ve velrybě, dostanete velrybu.`,
+
+      zh: `马莱绍夫是库特纳霍拉以南几公里处一座约千人的小镇，有啤酒厂、中世纪塔楼、博物馆，还有一头鲸鱼。它还有胡斯战争中最血腥的战场之一，而在这些东西里，这恰恰是唯一一件对一个安静的波希米亚村子来说说得通的。
+
+马莱绍夫最早见于1303年的记载，围绕着自己的要塞发展起来。这座要塞1359年起就有文献记录，是一座高高的石砌居住塔楼，立在鱼塘上方的岩石山嘴上，和广场上的圣瓦茨拉夫教堂一起，至今仍是镇上的地标。2006年它重新获得了集镇的称号。啤酒厂对面的小博物馆介绍要塞、战役、当地的犹太社区、采矿和酿酒，还特别以两位本地名人为荣：一位是卡雷尔·约纳什，他移民美国，当上了威斯康星州参议员，后来又出任美国驻布拉格领事（博物馆里有一部红色电话，可以“打给白宫”）；另一位是1881年生于此地的雨果·迈斯尔，后来执教1930年代初传奇的奥地利国家足球队“神奇之队”。博物馆周末和节假日开放，从库特纳霍拉还有一条风景优美的地方铁路通到这里。
+
+1424年6月7日，双目失明的胡斯派统帅扬·杰式卡带着东波希米亚军队一路后撤，在要塞旁停下脚步，掉头迎战追来的大军。追兵是布拉格温和胡斯派和天主教贵族组成的联军，士兵们腰带上插着黑麦穗当作识别标志。杰式卡用战车堵住村子南边一道狭窄的山谷，让追兵只能几排几排地往上冲，再发起反击，把他们打得溃不成军。编年史记载，战败一方死了1200到1400人。后来还流传着一个故事，说他让装满石头的战车从山坡上冲进敌阵，不过只有一部编年史提到过，历史学家对此存疑。战役纪念地在村子以南约一公里半，位于通往马克索夫纳的公路旁、普罗西克鱼塘边。几十年来，这里只有一块纪念“杰式卡军队战胜贵族同盟”的牌子，后来还被人砸掉了一角。2023年10月，赶在战役六百周年之前，纪念地焕然一新，添了新纪念牌、说明展板，还有一尊利普尼采-纳德萨扎沃石雕中心的马丁·罗哈切克雕刻的砂岩杰式卡像，如今是“胡斯统帅之路”步道上的一站。
+
+🎁 彩蛋：一个不靠海的波希米亚村子，凭什么拥有全国仅有的两具鲸鱼骨架之一？因为博物馆最得意的本地名人叫卡雷尔·约纳什，而“约纳什”在捷克语里就是约拿，那个在大鱼肚子里住过的先知。本地英雄既然跟他同名，鲸鱼自然也就跟着来了。`,
+    },
+  },
 ];
 
 async function run() {

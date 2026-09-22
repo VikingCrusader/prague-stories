@@ -6253,6 +6253,14 @@ export const historyEvents = [
           zh: "同一时期正在山下不远处兴建的另一个工程：旧城自己的市政厅，六年前由约翰特许兴建，出资的是市民自己，而不是王室。",
         },
       },
+      {
+        slug: "zamek-pardubice",
+        relation: {
+          en: "The seat of the town Arnošt of Pardubice took his name from: his father's will of December 1340 made him its heir, and the town still counts him as its patron.",
+          cz: "Sídlo města, po kterém dostal jméno Arnošt z Pardubic: otcova závěť z prosince 1340 z něj učinila dědice města, které ho dodnes považuje za svého patrona.",
+          zh: "阿尔诺什特·帕尔杜比采的名号就来自这座城：1340年12月父亲的遗嘱指定他继承此城，帕尔杜比采至今仍把他当作守护人。",
+        },
+      },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/St._Vitus_Cathedral",
   },
@@ -16273,7 +16281,8 @@ export const historyEvents = [
   //   and Čeněk z Vartenberka.
   // - No quote: Vavřinec z Březové covers the Nový Tábor fight but no
   //   verbatim line surfaced in three search passes.
-  // - No relatedLandmarks: no live Location for Náchod/Police/Petrovice
+  // - relatedLandmarks: hrad-kuneticka-hora added 2026-09-22 (Diviš Bořek's
+  //   own 1421 castle). Still no live Location for Náchod/Police/Petrovice
   //   (the seeded Petrovice cards are a different village near Prague) or
   //   the Moravian sites, and all are far outside the day-trip scope rule.
   {
@@ -16309,7 +16318,16 @@ export const historyEvents = [
       cz: "Táborovy potíže toho roku byly většinou domácí výroby. Jiní husité své dostávali od křižáků. Dne 19. září u Petrovic nedaleko Police nad Metují použili slezští křižáci jeden z nejstarších triků. Předstírali útok na vozovou hradbu v Náchodě a pak předstírali ústup. Posádka pod vedením Diviše Bořka a [[link:even-tabor-had-a-line-1421]]Čeňka z Vartenberka[[/link]] je vyhnala do údolí, kde se Slezané obrátili. Vozová hradba funguje proto, že stojí na místě. Venku v poli, špatně vyzbrojení, ztratili husité asi 250 až 300 mužů. Čeněk byl týž šlechtic, který předal Pražský hrad Zikmundovi; toho května se k husitům vrátil a v prosinci měl změnit stranu znovu.\n\nByla to malá, ostudná porážka. Skutečná škoda přišla na Moravě. Koncem roku 1420 tam Bedřich ze Strážnice a Tomáš z Vizovic založili druhý Tábor podle vzoru toho původního, na ostrově řeky Moravy u Nedakonic. Zaplnili ho moravští sedláci, plní víry a s nedostatkem zkušeností. Osada byla většinou z drobných staveb ze dřeva, hlíny a cihel za dřevěnými palisádami a neměla Žižku.\n\nKolem 25. října na ni vytáhl uherský magnát Ladislav Blagay s křižáckým vojskem, které některé odhady čítají na 80 000 mužů. Moravští husité mu vyšli vstříc v poli mezi Nedakonicemi a Uherským Ostrohem a prohráli. Sám Zikmund ve svých dopisech uvádí, že Tomáše z Vizovic osobně zabil Blagay kopím. Bedřich utekl s částí vojska. Palisády nikoho nezastavily a nový Tábor byl vypleněn, zničen a už nikdy nebyl obnoven.\n\n[[b]]Po pádu Nového Tábora přišli moravští husité o svou nejsilnější základnu a husité v Čechách o to nejbližší, co měli k spojenci na východním křídle.[[/b]] Místní šlechta zůstala většinou katolická a hnutí tam už nikdy nevyrostlo tak jako v Čechách. Český Tábor měl Žižku. Ten moravský měl nadšení, které se ukázalo být špatnou obrannou stavbou.",
       zh: "塔博尔那一年的麻烦，大多是自家人折腾出来的。别处的胡斯派，麻烦却是十字军送上门的。9月19日，在梅图耶河畔波利采附近的彼得罗维采，西里西亚十字军使了个最古老的招数：先假装进攻纳霍德的战车阵，再假装败退。守军在迪维什·博雷克和[[link:even-tabor-had-a-line-1421]]切涅克·冯·瓦滕贝格[[/link]]带领下追出车阵，冲进山谷，西里西亚人就此掉头反扑。战车阵之所以管用，就在于它不动。冲出来的胡斯军在旷野里装备又差，折了两三百人。切涅克就是那位把布拉格城堡交给西吉斯蒙德的贵族，那年5月他重新回到胡斯派一边，到12月又会再次倒戈。\n\n这只是一场丢人的小败，真正的重创发生在摩拉维亚。1420年底，斯特拉日尼采的贝德里赫和维佐维采的托马什在摩拉瓦河内达科尼采附近的一座岛上，仿照原来的塔博尔建起了第二座塔博尔。里面住满了摩拉维亚农民，信仰满满，经验没有。这座据点大多是木头、泥和砖搭的小房子，外面只有木栅栏，更没有杰式卡。\n\n10月25日前后，匈牙利贵族拉迪斯拉夫·布拉盖率领一支十字军杀来，有的估算说多达八万人。摩拉维亚的胡斯军在内达科尼采和乌赫尔斯基奥斯特罗赫之间的旷野迎战，败了。西吉斯蒙德自己的信里说，托马什是被布拉盖亲手一枪挑死的。贝德里赫带着一部分人逃了出去。木栅栏没能拦住任何人，新塔博尔被洗劫、夷平，再没重建。\n\n[[b]]新塔博尔一没，摩拉维亚的胡斯派失去了最强的据点，波希米亚的胡斯派也失去了东翼最近的一个盟友。[[/b]]当地贵族多数仍站在天主教一边，这场运动在摩拉维亚再也没能像在波希米亚那样壮大。波希米亚的塔博尔有杰式卡，摩拉维亚的那座只有热情，而热情不是防御工事。",
     },
-    relatedLandmarks: [],
+    relatedLandmarks: [
+      {
+        slug: "hrad-kuneticka-hora",
+        relation: {
+          en: "The castle Diviš Bořek founded in 1421 on land seized from the burned Opatovice monastery, and made his seat.",
+          cz: "Hrad, který Diviš Bořek založil roku 1421 na statcích zabraných vypálenému opatovickému klášteru a udělal si z něj sídlo.",
+          zh: "1421年，迪维什·博雷克占了被烧毁的奥帕托维采修道院的地产，在这里建起城堡，作为自己的居所。",
+        },
+      },
+    ],
     wikipediaUrl: "https://cs.wikipedia.org/wiki/Bitva_u_Uhersk%C3%A9ho_Ostrohu",
   },
   // ---------------------------------------------------------------------
@@ -16557,9 +16575,9 @@ export const historyEvents = [
     },
     tone: "humorous",
     title: {
-      en: "A New Brotherhood, an Old Turncoat",
-      cz: "Nové bratrstvo, starý přeběhlík",
-      zh: "新兄弟会，老叛徒",
+      en: "Starting Over in the East",
+      cz: "Nový začátek na východě",
+      zh: "另起炉灶",
     },
     hookLine: {
       en: "With Sigismund's latest crusade gone home, the Hussites went back to quarrelling among themselves, and Čeněk of Vartenberk went back to the side he had never really left.",
@@ -16620,6 +16638,346 @@ export const historyEvents = [
       },
     ],
     wikipediaUrl: "https://cs.wikipedia.org/wiki/Bitva_u_Ho%C5%99ic",
+  },
+  // ---------------------------------------------------------------------
+  // Battle of Strachův dvůr (4 Aug 1423) and the St. Gall diet (16 Oct -
+  // 1 Nov 1423). Written 2026-09-22 from the user's draft, cross-checked via
+  // cs.wikipedia ("Bitva u Strauchova dvora", "Svatohavelský sněm").
+  // Departures from the draft, worth knowing before editing:
+  // - Added the trigger the draft left out: in June 1423 Žižka and the
+  //   priest Ambrož took Hradec Králové, nominally Bořek's town, while
+  //   Prague's army was in Moravia. Bořek came to take it back.
+  // - Draft's "Bořek had done great service in Prague" not carried over:
+  //   no specific source found; he is linked back to his first appearance.
+  // - The priest Žižka killed carried the Prague side's "ark" (the host in
+  //   its monstrance). The partial-sight theory is historian Miroslav
+  //   Ivanov's ("outlines within several metres"); the card attributes it.
+  // - Aftermath per cs.wikipedia: Čáslav, then Kutná Hora on 13 August.
+  // - Diet: draft's "one-year truce with the Catholics" NOT carried over
+  //   (no source found for the length). Sources describe an alliance with
+  //   the Catholic lords (invited with safe-conducts), a twelve-member
+  //   government with equal Utraquist and Catholic seats, and harsh measures
+  //   against "land miscreants", aimed at Žižka without naming him.
+  // - Malešov (1424) deliberately not spoiled.
+  // - Quote: Old Czech Annals, two lines joined with an ellipsis, verbatim
+  //   as quoted on cs.wikipedia; EN/ZH are Claude's translations.
+  // - tone "humorous"; no image yet.
+  {
+    slug: "the-enemy-of-my-enemy-1423",
+    era: "religious-turmoil",
+    startYear: 1423.6,
+    images: [
+      "/history/the-enemy-of-my-enemy-1423-strachov.webp",
+      "/history/the-enemy-of-my-enemy-1423-diet.webp",
+    ],
+    imageCaptions: [
+      {
+        en: "Outside Hradec on 4 August 1423, the blind Žižka strikes down the priest carrying the Prague side's monstrance.",
+        cz: "U Hradce 4. srpna 1423 sráží slepý Žižka palcátem kněze, který nesl monstranci pražské strany.",
+        zh: "1423年8月4日，赫拉德茨城外，失明的杰式卡用狼牙棒击倒了布拉格一方抬着圣体匣的神父。",
+      },
+      {
+        en: "At the St. Gall diet in October 1423, Prague's Utraquist lords and the Catholic lords seal their alliance, aimed at Žižka in the east.",
+        cz: "Na svatohavelském sněmu v říjnu 1423 uzavírají pražští kališničtí páni spojenectví s katolickými pány, namířené proti Žižkovi na východě.",
+        zh: "1423年10月的圣加仑节国会上，布拉格的圣杯派贵族与天主教贵族握手结盟，矛头直指远在东边的杰式卡。",
+      },
+    ],
+    year: {
+      en: "1423",
+      cz: "1423",
+      zh: "1423年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Better the Catholics Than Žižka",
+      cz: "Raději katolíci než Žižka",
+      zh: "宁与天主教，不与杰式卡",
+    },
+    hookLine: {
+      en: "For four years the Hussites had fought the Catholics. In the summer of 1423 they started fighting each other, and by autumn some of them had found new allies: the Catholics.",
+      cz: "Čtyři roky husité bojovali s katolíky. V létě 1423 se začali bít mezi sebou a do podzimu si někteří z nich našli nové spojence: katolíky.",
+      zh: "胡斯派和天主教徒打了四年。1423年夏天，胡斯派开始自己打自己，到了秋天，其中一些人找到了新盟友：天主教徒。",
+    },
+    summary: {
+      en: "After [[link:enemies-closer-to-home-1423]]moving east[[/link]], Žižka didn't wait long to make himself at home. In June 1423, while Prague's army was away fighting in Moravia, he and the radical priest Ambrož took Hradec Králové. On paper the town belonged to [[link:moravias-bad-autumn-1421]]Diviš Bořek of Miletínek[[/link]]. He had once been Žižka's comrade-in-arms, but he had since gone over to the other side and now commanded the Prague alliance's troops, as Žižka's enemy. Bořek wanted his town back. Prague lent him an army, other Utraquist lords joined in, and Nymburk sent men too.\n\nThey met on 4 August 1423 near Strachův dvůr, just west of Hradec, around today's Kukleny. Žižka set up his wagon fort across the road to the town and let them walk straight into it. [[b]]For the first time in the Hussite Wars, two Hussite armies faced each other in the field.[[/b]] As every Hussite army did, each side carried the Eucharist ahead of it in a monstrance, the \"ark\", so both marched into battle behind the body of Christ, pointed at each other. The chronicler kept it short:\n\n[[quote:0]]\n\nThe details of the battle are thin, but the result is not. Prague's army broke, about 200 men were taken prisoner along with plenty of loot, and Bořek escaped to his own castle at Kunětická Hora. The priest is the detail historians keep coming back to. Žižka had been blind for two years, yet he killed a particular man with a mace. The historian Miroslav Ivanov suggested that the arrow at Rábí had not left him in total darkness, only with a blind man's leftover sight, enough to make out shapes within a few metres. Enough, apparently, to find a priest.\n\nŽižka followed up quickly. He took Čáslav, the very town where two years earlier all the Hussite factions had sat down together to form [[link:a-government-paid-in-blood-1421]]a joint government[[/link]], and on 13 August he was in Kutná Hora. Every victory brought him more recruits.\n\nPrague's lords drew their own conclusions. From 16 October to 1 November 1423 they held a diet in Prague, the St. Gall diet, and invited the Catholic lords to it under safe-conduct. Tábor and Žižka's eastern brotherhood were not invited. The diet elected a twelve-member government, with the seats split equally between Utraquist and Catholic nobles, and promised harsh measures against \"land miscreants\". Nobody wrote Žižka's name into the resolution. Nobody had to. [[b]]Four years after the defenestration, Prague's Hussite lords had joined the Catholics to deal with the most dangerous man in Bohemia, who happened to be the man who had saved Prague.[[/b]]\n\nSigismund had spent four years and two crusades failing to split the Hussites. Žižka's old friends did it for him in a single summer, free of charge.",
+      cz: "Po [[link:enemies-closer-to-home-1423]]odchodu na východ[[/link]] se Žižka dlouho nerozkoukával. V červnu 1423, když bylo pražské vojsko pryč na Moravě, dobyl spolu s radikálním knězem Ambrožem Hradec Králové. Na papíře patřilo město [[link:moravias-bad-autumn-1421]]Diviši Bořkovi z Miletínka[[/link]]. Kdysi byl Žižkovým spolubojovníkem, mezitím ale přešel na druhou stranu a teď jako Žižkův nepřítel velel vojsku pražského svazu. Bořek chtěl své město zpátky. Praha mu půjčila vojsko, přidali se další kališničtí páni a muže poslal i Nymburk.\n\nStřetli se 4. srpna 1423 u Strachova dvora, kousek západně od Hradce, v okolí dnešních Kuklen. Žižka postavil vozovou hradbu napříč cestou k městu a nechal je, ať do ní vejdou. [[b]]Poprvé v husitských válkách proti sobě v poli stanula dvě husitská vojska.[[/b]] Jako každé husitské vojsko neslo i každé z nich před sebou v monstranci Tělo Páně, „archu“, a tak obě táhla do boje za Kristovým tělem, namířená proti sobě. Kronikář to shrnul stručně:\n\n[[quote:0]]\n\nPodrobnosti bitvy jsou skoupé, výsledek ne. Pražské vojsko se rozpadlo, do zajetí padlo asi 200 mužů a spousta kořisti a Bořek utekl na svůj hrad Kunětická hora. Ke knězi se historici pořád vracejí. Žižka byl už dva roky slepý, a přesto zabil palcátem konkrétního muže. Historik Miroslav Ivanov usoudil, že šíp u Rábí ho nenechal v úplné tmě, jen se zbytkem zraku slepce, dost na to, aby rozeznal obrysy na pár metrů. Dost, jak se zdá, na to, aby našel kněze.\n\nŽižka rychle navázal. Dobyl Čáslav, právě to město, kde si před dvěma lety všechny husitské strany sedly k jednomu stolu a ustavily [[link:a-government-paid-in-blood-1421]]společnou vládu[[/link]], a 13. srpna byl v Kutné Hoře. Každé vítězství mu přivedlo další bojovníky.\n\nPražští páni z toho vyvodili vlastní závěr. Od 16. října do 1. listopadu 1423 zasedal v Praze sněm, svatohavelský sněm, a katolické pány na něj pozvali pod glejtem. Tábor a Žižkův východočeský svaz pozvaní nebyli. Sněm zvolil dvanáctičlennou vládu s místy rozdělenými rovným dílem mezi kališnické a katolické šlechtice a slíbil tvrdý postup proti „zemským škůdcům“. Nikdo Žižkovo jméno do usnesení nenapsal. Nikdo nemusel. [[b]]Čtyři roky po defenestraci se pražští husitští páni spojili s katolíky, aby si poradili s nejnebezpečnějším mužem v Čechách, kterým shodou okolností byl muž, jenž Prahu zachránil.[[/b]]\n\nZikmund strávil čtyři roky a dvě křížové výpravy tím, že se mu husity rozdělit nepodařilo. Žižkovi staří přátelé to za něj zvládli během jediného léta, a zadarmo.",
+      zh: "[[link:enemies-closer-to-home-1423]]东迁[[/link]]之后，杰式卡没多久就在新地盘上安顿了下来。1423年6月，趁布拉格军队在摩拉维亚作战，他和激进派神父安布罗日一起拿下了赫拉德茨-克拉洛韦。这座城名义上属于[[link:moravias-bad-autumn-1421]]米莱廷的迪维什·博雷克[[/link]]。他曾是杰式卡的老战友，如今却倒向了对面，当上布拉格同盟的军队统帅，和杰式卡成了敌人。博雷克想把自己的城要回来。布拉格借了他一支军队，别的圣杯派贵族也加入进来，宁布尔克也派了人。\n\n1423年8月4日，双方在赫拉德茨西边不远的斯特拉霍夫庄园附近相遇，大约就在今天的库克莱尼一带。杰式卡把车阵横在通往城里的路上，等着对方自己走进来。[[b]]这是胡斯战争开打以来，两支胡斯派军队第一次在战场上正面对垒。[[/b]]胡斯派的军队向来在队伍前头抬着装有圣体的圣体匣，也就是“圣柜”，所以这一回双方都跟在基督的身体后面上阵，互相对着冲。编年史家只写了寥寥几句：\n\n[[quote:0]]\n\n战斗的细节记载不多，结果却很清楚。布拉格军队溃散，约200人被俘，战利品也丢了不少，博雷克逃回了自己的库涅蒂采山城堡。让历史学家反复琢磨的是那个神父。杰式卡已经瞎了两年，却能用狼牙棒打死一个特定的人。历史学家米罗斯拉夫·伊万诺夫推测，拉比城下那一箭并没有让他完全陷入黑暗，而是给他留下了一点盲人的残余视力，足以看清几米之内的轮廓。看来，足够找到一个神父了。\n\n杰式卡乘胜追击。他拿下了恰斯拉夫，两年前各派胡斯党人正是在这座城里坐到一起，组建了[[link:a-government-paid-in-blood-1421]]联合政府[[/link]]；8月13日，他又到了库特纳霍拉。每打一次胜仗，投奔他的人就多一批。\n\n布拉格的贵族们得出了自己的结论。1423年10月16日至11月1日，他们在布拉格召开了圣加仑节国会，还发安全通行证请天主教贵族来参加。塔博尔派和杰式卡的东波希米亚同盟都没被邀请。国会选出了一个十二人政府，席位由圣杯派贵族和天主教贵族平分，并承诺严厉对付“国家的祸害”。决议里没人写杰式卡的名字，也不需要写。[[b]]布拉格掷窗事件四年后，布拉格的胡斯派贵族联合天主教徒，要对付波希米亚最危险的人，而这个人恰好就是当年救下布拉格的那一位。[[/b]]\n\n西吉斯蒙德花了四年、打了两次十字军，都没能让胡斯派分裂。杰式卡的老朋友们只用了一个夏天就替他办成了，还分文不取。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "And ark went against ark ... and the priest who carried the ark on the Prague side, Žižka killed him with a mace.",
+          cz: "A šla archa proti arše … a toho kněze, ježto nesl archu z pražské strany, Žižka zabil ho palcátem.",
+          zh: "于是圣柜对着圣柜开了过去……布拉格一方那个抬着圣柜的神父，被杰式卡用狼牙棒打死了。",
+        },
+        attribution: {
+          en: "Old Czech Annals, on the battle of 4 August 1423",
+          cz: "Staré letopisy české, o bitvě 4. srpna 1423",
+          zh: "《古捷克编年史》，记1423年8月4日之战",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "hradec-kralove",
+        relation: {
+          en: "The town Žižka took from Diviš Bořek in June 1423; the battle that followed was fought just west of it.",
+          cz: "Město, které Žižka v červnu 1423 vzal Diviši Bořkovi; bitva, která následovala, se svedla kousek západně od něj.",
+          zh: "1423年6月杰式卡从迪维什·博雷克手里夺走的城市，随后的战斗就发生在城西不远处。",
+        },
+      },
+      {
+        slug: "hrad-kuneticka-hora",
+        relation: {
+          en: "Diviš Bořek's own castle, where he fled after losing to Žižka on 4 August 1423.",
+          cz: "Vlastní hrad Diviše Bořka, kam utekl po porážce od Žižky 4. srpna 1423.",
+          zh: "迪维什·博雷克自己的城堡，1423年8月4日败给杰式卡后，他就逃回了这里。",
+        },
+      },
+      {
+        slug: "caslav",
+        relation: {
+          en: "Taken by Žižka after the battle, the same town where the Hussite factions had formed their joint government in 1421.",
+          cz: "Žižka ho dobyl po bitvě; totéž město, kde husitské strany roku 1421 ustavily společnou vládu.",
+          zh: "战后被杰式卡拿下，正是1421年胡斯各派组建联合政府的那座城。",
+        },
+      },
+      {
+        slug: "kutna-hora",
+        relation: {
+          en: "Where Žižka arrived on 13 August 1423, nine days after the battle.",
+          cz: "Kam Žižka dorazil 13. srpna 1423, devět dní po bitvě.",
+          zh: "1423年8月13日，也就是战后第九天，杰式卡来到了这里。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Bitva_u_Strauchova_dvora",
+  },
+  // ---------------------------------------------------------------------
+  // Skalice (6 Jan 1424), the spring retreat, Malešov (7 June 1424) and the
+  // peace of 14 Sept 1424. Written 2026-09-23 from the user's draft (title
+  // theirs), kept deliberately short on battle detail at their request.
+  // Cross-checked via cs.wikipedia ("Bitva u Malešova", "Bitva u Skalice
+  // (1424)") and vhu.cz. Departures from the draft:
+  // - Skalice: the opponents were Catholic lords (Půta of Častolovice and
+  //   others), not Utraquists; the draft's "Čeněk's lands ravaged, Čeněk
+  //   hiding in his castle" is not in any source found, so not carried over.
+  // - The stone-filled wagons: cs.wikipedia and vhu.cz call them highly
+  //   improbable (one chronicle only, possibly inspired by Bellifortis); the
+  //   card tells the story and says so.
+  // - Casualties: the Old Czech Annals say "up to 1,300" killed; the draft's
+  //   1,400 / 300 Prague lesser nobles not found, so the card uses the
+  //   annals' figure.
+  // - Peace of 14 Sept 1424 was with Prague (Žižka had reached Prague's
+  //   gates with Korybut), and Prague paid 14,000 small groschen.
+  // - Žižka's death (Oct 1424) deliberately not spoiled.
+  // - Quote: Old Czech Annals as quoted on cs.wikipedia; EN/ZH are Claude's.
+  //   The annals' crude rye pun ("zesrali se pražané u Malešova žitem") is
+  //   only alluded to, not quoted.
+  // - tone "humorous"; no image yet.
+  {
+    slug: "chalice-against-chalice-1424",
+    era: "religious-turmoil",
+    startYear: 1424.4,
+    images: ["/history/chalice-against-chalice-1424.webp"],
+    imageCaptions: [
+      {
+        en: "On 7 June 1424, the Prague coalition's army chasing Žižka is stopped by his wagons in the valley by the Malešov fortress and caught from both flanks; on the left, the stone-laden wagons of later legend roll downhill.",
+        cz: "7. června 1424 zastaví Žižkovy vozy v údolí u malešovské tvrze pražské vojsko, které ho pronásledovalo, a sevřou ho z obou boků; vlevo se z kopce řítí vozy s kamením z pozdější legendy.",
+        zh: "1424年6月7日，追击杰式卡的布拉格联军在马莱绍夫要塞旁的山谷里被车阵挡住，遭到两翼夹击；画面左侧是后世传说中从山坡冲下的石头战车。",
+      },
+    ],
+    year: {
+      en: "1424",
+      cz: "1424",
+      zh: "1424年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Chalice Against Chalice",
+      cz: "Kalich proti kalichu",
+      zh: "圣杯战圣杯",
+    },
+    hookLine: {
+      en: "Prague's new coalition had one goal for 1424: get rid of Žižka. It chased him across half of Bohemia and finally caught up with him, which turned out to be the mistake.",
+      cz: "Nová pražská koalice měla pro rok 1424 jediný cíl: zbavit se Žižky. Honila ho přes půl Čech a nakonec ho dohnala, což se ukázalo jako chyba.",
+      zh: "布拉格的新联盟在1424年只有一个目标：除掉杰式卡。他们追着他跑遍了半个波希米亚，最后终于追上了，结果这正是他们犯下的错。",
+    },
+    summary: {
+      en: "Žižka started the year the way he had ended the last one. On 6 January 1424, at Skalice, he beat an army of Catholic lords, then spent the following months raiding across eastern Bohemia. His base was now a league of four eastern towns, Hradec Králové and Čáslav among them, and he had become the number one target of [[link:the-enemy-of-my-enemy-1423]]Prague's new coalition[[/link]] of Utraquists and Catholics.\n\nThat spring the coalition finally cornered him. After fighting around Plzeň, Žižka had to back away from a larger Catholic army on 17 May, and Prague's troops chased him east. At Kostelec nad Labem they very nearly surrounded him, and he got away across the Elbe only with the help of a friendly local lord, Hynek of Poděbrady. He kept retreating until he reached the fortress of Malešov, just south of Kutná Hora, and stopped. Leading the pursuit was Diviš Bořek again, more careful since last summer, and his men all wore sprigs of rye tied at their belts so they could tell friend from foe.\n\nOn 7 June 1424 Žižka let them come. He had chosen a narrow valley by the fortress and blocked it with his wagons, so the coalition's bigger army could only come at him a few ranks at a time. Their attack stalled, Žižka's cavalry and infantry counterattacked, and the pursuers broke and ran. Later tradition adds that he sent wagons loaded with stones rolling down the slope into the enemy ranks. It makes a great story, but only one chronicle mentions it, and historians think it very unlikely. The annals themselves were plain enough:\n\n[[quote:0]]\n\nŽižka lost around 200 men. Another annalist made a crude pun about the Praguers and their rye belts, which does not translate politely.\n\n[[b]]Malešov was the high point of Žižka's career: the coalition built to destroy him fell apart within weeks.[[/b]] He took Kutná Hora immediately, and Kouřim, Český Brod and Nymburk opened their gates. By September he was camped outside Prague itself, with [[link:a-siege-that-stank-1422]]Korybut[[/link]], who had come back to Bohemia on his own, at his side. On 14 September 1424 Prague made peace and paid him 14,000 small groschen for the trouble.\n\nOn paper, Žižka had never been stronger. In reality he was still leading a minority. Most Hussites stood with Prague and the Utraquist lords, and of the men who had started this war beside him in 1419, most were now dead or on the other side. He had won every battle he had fought. Keeping the cause itself together was proving to be a different kind of fight.",
+      cz: "Žižka začal rok stejně, jak ten předchozí skončil. 6. ledna 1424 porazil u Skalice vojsko katolických pánů a další měsíce pak podnikal nájezdy po východních Čechách. Jeho oporou byl teď svaz čtyř východočeských měst, mezi nimi Hradec Králové a Čáslav, a stal se hlavním terčem [[link:the-enemy-of-my-enemy-1423]]nové pražské koalice[[/link]] kališníků a katolíků.\n\nTo jaro ho koalice konečně zahnala do kouta. Po bojích na Plzeňsku musel Žižka 17. května ustoupit před větším katolickým vojskem a pražští ho pronásledovali na východ. U Kostelce nad Labem ho málem obklíčili a přes Labe unikl jen s pomocí spřáteleného pána Hynka z Poděbrad. Ustupoval dál, až došel k tvrzi Malešov kousek jižně od Kutné Hory, a tam se zastavil. Pronásledování vedl opět Diviš Bořek, od loňského léta opatrnější, a všichni jeho muži měli za pasem zastrčené klásky žita, aby poznali své od cizích.\n\n7. června 1424 je Žižka nechal přijít. Vybral si úzké údolí u tvrze a zatarasil ho vozy, takže početnější vojsko koalice na něj mohlo útočit jen po několika řadách. Útok uvázl, Žižkova jízda a pěchota vyrazily do protiútoku a pronásledovatelé se dali na útěk. Pozdější tradice přidává, že nechal z kopce do nepřátelských řad pustit vozy naložené kamením. Je to skvělý příběh, jenže ho zmiňuje jen jediná kronika a historici ho považují za velmi nepravděpodobný. Samotné letopisy to podaly prostě:\n\n[[quote:0]]\n\nŽižka ztratil asi 200 mužů. Jiný letopisec k tomu přidal peprnou slovní hříčku o Pražanech a jejich žitných opascích, kterou tu radši necitujeme.\n\n[[b]]Malešov byl vrcholem Žižkovy dráhy: koalice postavená na jeho zničení se během několika týdnů rozpadla.[[/b]] Hned obsadil Kutnou Horu a Kouřim, Český Brod i Nymburk mu otevřely brány. V září už tábořil před samotnou Prahou a po boku měl [[link:a-siege-that-stank-1422]]Korybutoviče[[/link]], který se do Čech vrátil na vlastní pěst. 14. září 1424 Praha uzavřela mír a zaplatila mu za všechny potíže 14 000 malých grošů.\n\nNa papíře nebyl Žižka nikdy silnější. Ve skutečnosti ale pořád vedl menšinu. Většina husitů stála za Prahou a kališnickými pány, a z mužů, s nimiž tuhle válku v roce 1419 začínal, byli ti nejbližší buď mrtví, nebo na druhé straně. Vyhrál každou bitvu, kterou svedl. Udržet pohromadě samotnou věc se ukazovalo jako boj jiného druhu.",
+      zh: "杰式卡的新一年，开头和上一年的结尾一模一样。1424年1月6日，他在斯卡利采打败了一支天主教贵族的军队，接下来几个月在波希米亚东部四处出击。他如今的根据地是东部四座城市结成的同盟，其中包括赫拉德茨-克拉洛韦和恰斯拉夫，而他本人也成了圣杯派和天主教徒组成的[[link:the-enemy-of-my-enemy-1423]]布拉格新联盟[[/link]]的头号目标。\n\n那年春天，联盟终于把他逼进了死角。在皮尔森一带打了一阵之后，杰式卡在5月17日被迫避开一支规模更大的天主教军队，布拉格军则一路向东追击。在易北河畔科斯特莱茨，他们几乎把他团团围住，多亏友好的本地贵族波杰布拉迪的海涅克帮忙，他才渡过易北河脱身。他一路后撤，直到库特纳霍拉南边不远的马莱绍夫要塞才停下脚步。领兵追来的又是迪维什·博雷克，自从去年夏天吃了亏，他谨慎多了。他的士兵腰带上都插着一束黑麦穗，好分清敌我。\n\n1424年6月7日，杰式卡等着他们上门。他挑了要塞旁一道狭窄的山谷，用战车把谷口堵住，这样联盟军人再多，每次也只能几排几排地往上冲。进攻被挡住了，杰式卡的骑兵和步兵随即反击，追兵溃不成军。后来的传说还添了一笔：他让装满石头的战车从山坡上冲进敌阵。这故事确实精彩，可惜只有一部编年史提到过，历史学家认为可能性很小。编年史自己的记载倒是很朴素：\n\n[[quote:0]]\n\n杰式卡一方损失约200人。另一位编年史家还拿布拉格人腰上的黑麦穗编了个粗俗的双关笑话，这里就不引用了。\n\n[[b]]马莱绍夫是杰式卡一生的巅峰：专为消灭他而组建的联盟，几周之内就散了架。[[/b]]他随即拿下库特纳霍拉，库日姆、切斯基布罗德和宁布尔克纷纷开门投降。到了9月，他已经驻扎在布拉格城下，身边还有自己跑回波希米亚的[[link:a-siege-that-stank-1422]]科里布特[[/link]]。1424年9月14日，布拉格求和，还赔给他一万四千枚小格罗申，算是给他添了这么多麻烦的补偿。\n\n纸面上，杰式卡从没这么强大过。可实际上，他率领的仍然是少数派。大多数胡斯派站在布拉格和圣杯派贵族一边，而1419年和他一起打响这场战争的那些人，要么死了，要么站到了对面。他打过的仗一场没输过，可要让这项事业本身不散架，是另一种仗。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "The Praguers then chased Žižka, and when they rode into a valley by Malešov, Žižka turned on them and struck at them with his men, so that, as was commonly said, up to thirteen hundred of them were killed there.",
+          cz: "Pražané pak honivše Žižku a když vjeli v jedno oudolí u Malešova, Žižka jse na ně obrátil, a udeřiv na ně s svými, takže jich tu, jakž obecně pravili, do XIII set zbito jest.",
+          zh: "布拉格人随后追赶杰式卡，当他们冲进马莱绍夫附近的一道山谷时，杰式卡掉头向他们杀来，率部猛攻，据众人所说，那里被杀的多达一千三百人。",
+        },
+        attribution: {
+          en: "Old Czech Annals, on the battle of 7 June 1424",
+          cz: "Staré letopisy české, o bitvě 7. června 1424",
+          zh: "《古捷克编年史》，记1424年6月7日之战",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "malesov",
+        relation: {
+          en: "The village by whose fortress the battle was fought; the battlefield memorial south of it gained a new sandstone statue of Žižka in 2023.",
+          cz: "Obec, u jejíž tvrze se bitva svedla; památník bojiště jižně od ní dostal v roce 2023 novou pískovcovou sochu Žižky.",
+          zh: "战役就发生在这座村子的要塞旁；村南的战场纪念地2023年添了一尊新的砂岩杰式卡像。",
+        },
+      },
+      {
+        slug: "kutna-hora",
+        relation: {
+          en: "The town Žižka took right after Malešov, fought just a few kilometres to the south.",
+          cz: "Město, které Žižka obsadil hned po bitvě u Malešova, svedené jen pár kilometrů na jih.",
+          zh: "马莱绍夫之战就发生在城南几公里处，杰式卡战后随即拿下了这座城。",
+        },
+      },
+      {
+        slug: "kourim",
+        relation: {
+          en: "One of the towns that opened its gates to Žižka after Malešov.",
+          cz: "Jedno z měst, která po Malešově otevřela Žižkovi brány.",
+          zh: "马莱绍夫之战后向杰式卡开门投降的城市之一。",
+        },
+      },
+      {
+        slug: "cesky-brod",
+        relation: {
+          en: "One of the towns that opened its gates to Žižka after Malešov.",
+          cz: "Jedno z měst, která po Malešově otevřela Žižkovi brány.",
+          zh: "马莱绍夫之战后向杰式卡开门投降的城市之一。",
+        },
+      },
+      {
+        slug: "nymburk",
+        relation: {
+          en: "One of the towns that opened its gates to Žižka after Malešov; it had sent men against him at Hradec the summer before.",
+          cz: "Jedno z měst, která po Malešově otevřela Žižkovi brány; loni v létě proti němu poslalo muže k Hradci.",
+          zh: "马莱绍夫之战后向杰式卡开门投降的城市之一，就在前一年夏天，它还派兵去赫拉德茨打过他。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Bitva_u_Male%C5%A1ova",
+  },
+  // ---------------------------------------------------------------------
+  // Žižka's death at Přibyslav, 11 Oct 1424. Written 2026-09-23 from the
+  // user's draft (title theirs), cross-checked via cs.wikipedia (Jan Žižka,
+  // Prokop Holý), denik.cz, havlickobrodsky.denik.cz. Departures:
+  // - Cause: the annals say "hlíza" (a swelling), traditionally read as
+  //   plague; the anthropologist Emanuel Vlček concluded a festering
+  //   carbuncle and sepsis. Title kept, prose notes the doubt.
+  // - Přibyslav is on the Bohemian side of the border; the card says he was
+  //   on his way to Moravia, not "in Moravia".
+  // - Draft's quote "the man no human hand could destroy was destroyed by
+  //   the hand of God" NOT used: no original source found in three searches.
+  //   Replaced with Aeneas Silvius Piccolomini (Pius II), who also recorded
+  //   the drum legend; the quote is the 1687 Czech translation as cited by
+  //   havlickobrodsky.denik.cz, EN/ZH are Claude's.
+  // - Burial: first the Church of the Holy Spirit in Hradec Králové (the
+  //   draft said "St. Peter's"), later moved to Sts Peter and Paul in
+  //   Čáslav; 1910 skull find with a damaged left eye socket.
+  // - Successors: draft named Ambrož of Hradec and Mikuláš Sokol; sources
+  //   found name the three men in Žižka's dying charge (Viktorin of
+  //   Kunštát, Jan Bzdinka, Kuneš of Bělovic) and Ambrož; Sokol not
+  //   verified, so not named. Prokop was freed from the Old Town Hall jail
+  //   in Želivský's coup of 30 June 1421 (linked to importing-a-king-1421).
+  // - The draft's "rotten, dark Catholic Church" framing softened.
+  // - tone "serious"; image "THE ORPHANS" added 2026-09-23 (symbolic: Prokop
+  //   was not recorded as present at Přibyslav; the caption says so).
+  {
+    slug: "undefeated-until-the-plague-1424",
+    era: "religious-turmoil",
+    startYear: 1424.8,
+    images: ["/history/undefeated-until-the-plague-1424.webp"],
+    imageCaptions: [
+      {
+        en: "After Žižka's death outside Přibyslav in October 1424, his soldiers mourn at his bier (a symbolic scene; the standing figure is Prokop, who would take up the burden).",
+        cz: "Po Žižkově smrti u Přibyslavi v říjnu 1424 truchlí jeho vojáci u márů (symbolická scéna; stojící postava je Prokop, který převezme jeho úkol).",
+        zh: "1424年10月，杰式卡在普日比斯拉夫城下去世后，他的士兵在灵柩前哀悼（象征性场景，站立者为后来接过重任的普罗科普）。",
+      },
+    ],
+    year: {
+      en: "1424",
+      cz: "1424",
+      zh: "1424年",
+    },
+    tone: "serious",
+    title: {
+      en: "Undefeated, Until the Plague",
+      cz: "Neporažený, až do moru",
+      zh: "常胜将军，败给了瘟疫",
+    },
+    hookLine: {
+      en: "No army ever beat Jan Žižka. A swelling did, one October night outside a small castle on the road to Moravia.",
+      cz: "Jana Žižku nikdy neporazilo žádné vojsko. Porazila ho hlíza, jedné říjnové noci u malého hradu na cestě na Moravu.",
+      zh: "没有哪支军队打败过扬·杰式卡。打败他的是一个肿块，在通往摩拉维亚路上的一座小城堡外，一个十月的夜里。",
+    },
+    summary: {
+      en: "After [[link:chalice-against-chalice-1424]]the peace with Prague[[/link]], Žižka turned his army toward Moravia. In October 1424, on the way there, he laid siege to the castle of Přibyslav, near the Bohemian-Moravian border, and fell ill. The annals call it \"hlíza\", a swelling, and for centuries that was read as plague. Modern analysis of his presumed remains points instead to a festering carbuncle that poisoned his blood; either way, there was nothing a field camp in 1424 could do about it. He died on 11 October 1424, at about 64. According to the annals, he charged his closest captains, Viktorin of Kunštát, Jan Bzdinka and Kuneš of Bělovic, to fear God and to keep defending God's truth.\n\nThe most famous deathbed wish was recorded decades later, by the other side. Aeneas Silvius Piccolomini, the future Pope Pius II, wrote that Žižka asked to be flayed after death, his flesh left to the birds and his skin stretched over a war drum, so that its sound alone would send his enemies running. Historians treat the story as propaganda rather than fact. It did capture something real: the Catholic world believed that Žižka could frighten armies even dead. Piccolomini had his own verdict on how he died:\n\n[[quote:0]]\n\nHis soldiers did not need a drum. They renamed themselves the Orphans, men who had lost their father.\n\nŽižka fought dozens of battles and never lost one. The army he built, disciplined by [[link:enemies-closer-to-home-1423]]his Military Order[[/link]], was one of the most professional of its age: it used wagons as moving fortresses, moved fast, and turned the enemy's heavy cavalry and firepower against them. Above all, he gave peasants and townsmen the belief that they were God's warriors, and that belief made up for everything their equipment lacked. [[b]]If the burning of Jan Hus lit the spark, Žižka was the firewood thrown onto it: he burned himself out, and the fire spread further than anyone in Constance had imagined.[[/b]]\n\nHe was buried in Hradec Králové, before the high altar of the Church of the Holy Spirit. His body was later moved to the Church of Sts Peter and Paul in Čáslav, where a skull found in 1910, with an old injury to the left eye socket, is thought to be his. The Orphans carried on under a council of captains and the priest Ambrož of Hradec. Tábor, meanwhile, was coming to rely on another priest: Prokop, a man once jailed under the Old Town Hall on suspicion of heresy, who had walked free in [[link:importing-a-king-1421]]Želivský's coup[[/link]] of June 1421. Later generations would call him Prokop the Great. The war Žižka had started was far from over. It simply had to go on without him.",
+      cz: "Po [[link:chalice-against-chalice-1424]]míru s Prahou[[/link]] obrátil Žižka své vojsko k Moravě. V říjnu 1424 cestou oblehl hrad Přibyslav nedaleko česko-moravské hranice a roznemohl se. Letopisy tomu říkají „hlíza“ a po staletí se to vykládalo jako mor. Moderní rozbor jeho předpokládaných ostatků ukazuje spíš na hnisající karbunkl, který mu otrávil krev; tak či tak s tím polní tábor roku 1424 nemohl nic udělat. Zemřel 11. října 1424 ve věku asi 64 let. Podle letopisů odkázal svým nejbližším hejtmanům, Viktorinovi z Kunštátu, Janu Bzdinkovi a Kunešovi z Bělovic, aby se báli Pána Boha a dál hájili pravdu Boží.\n\nNejslavnější poslední přání zapsala o desítky let později druhá strana. Enea Silvio Piccolomini, pozdější papež Pius II., napsal, že si Žižka přál, aby ho po smrti stáhli z kůže, maso nechali ptákům a kůži napjali na válečný buben, aby už jen jeho zvuk zaháněl nepřátele na útěk. Historici ten příběh považují spíš za propagandu než za fakt. Něco skutečného ale zachytil: katolický svět věřil, že Žižka dokáže děsit vojska i po smrti. Piccolomini měl na jeho smrt vlastní názor:\n\n[[quote:0]]\n\nJeho vojáci žádný buben nepotřebovali. Začali si říkat Sirotci, muži, kteří přišli o otce.\n\nŽižka svedl desítky bitev a nikdy žádnou neprohrál. Vojsko, které vybudoval a ukáznil [[link:enemies-closer-to-home-1423]]svým vojenským řádem[[/link]], patřilo k nejprofesionálnějším své doby: používalo vozy jako pohyblivé pevnosti, bylo rychlé a obracelo těžkou jízdu i palebnou sílu nepřítele proti němu samému. Především dal sedlákům a měšťanům víru, že jsou bojovníky Božími, a ta víra vynahradila všechno, co jim chybělo ve výzbroji. [[b]]Jestliže upálení Jana Husa zažehlo jiskru, byl Žižka dřevem, které do ní někdo přihodil: sám shořel a oheň se rozšířil dál, než si kdo v Kostnici dokázal představit.[[/b]]\n\nPohřben byl v Hradci Králové před hlavním oltářem kostela svatého Ducha. Jeho tělo bylo později převezeno do kostela svatých Petra a Pavla v Čáslavi, kde se za jeho lebku považuje lebka nalezená roku 1910 se starým zraněním levé očnice. Sirotci pokračovali pod radou hejtmanů a knězem Ambrožem z Hradce. Tábor se mezitím začal opírat o jiného kněze: Prokopa, muže, který kdysi seděl pro podezření z kacířství v šatlavě pod Staroměstskou radnicí a vyšel na svobodu při [[link:importing-a-king-1421]]Želivského převratu[[/link]] v červnu 1421. Pozdější generace mu budou říkat Prokop Veliký. Válka, kterou Žižka začal, zdaleka neskončila. Jen musela pokračovat bez něj.",
+      zh: "[[link:chalice-against-chalice-1424]]和布拉格讲和[[/link]]之后，杰式卡把军队转向了摩拉维亚。1424年10月，他在途中围攻波希米亚与摩拉维亚边界附近的普日比斯拉夫城堡，随后病倒了。编年史称之为“hlíza”，也就是肿块，几百年来一直被理解为瘟疫。现代学者对他的疑似遗骸做过分析，认为更可能是痈疮化脓，引发了败血症。不管是哪一种，1424年的野战营地都束手无策。1424年10月11日，他去世了，享年约六十四岁。据编年史记载，他临终前嘱咐最亲近的几位将领，昆施塔特的维克托林、扬·布兹丁卡和贝洛维采的库涅什，要敬畏上帝，继续捍卫上帝的真理。\n\n最出名的临终遗愿，是几十年后由对立一方记下来的。埃涅阿斯·西尔维乌斯·皮科洛米尼，也就是后来的教皇庇护二世，写道杰式卡要求死后把自己剥皮，肉丢给飞鸟，皮蒙成战鼓，让敌人一听到鼓声就闻风而逃。历史学家大多认为这是宣传而非事实。但它确实抓住了一点真相：天主教世界相信，杰式卡就算死了也能吓退大军。皮科洛米尼对他的死也有自己的看法：\n\n[[quote:0]]\n\n他的士兵用不着战鼓。他们给自己改了名字，叫“孤儿军”，意思是失去了父亲的人。\n\n杰式卡一生打了几十场仗，一场也没输过。他一手带出、又用[[link:enemies-closer-to-home-1423]]《军规》[[/link]]约束的这支军队，是同时代最专业的军队之一：把战车当作移动堡垒，行动迅速，还能把敌人的重骑兵和火力优势反过来变成对方的弱点。最重要的是，他让农民和市民相信自己是上帝的战士，这份信念弥补了他们装备上的一切不足。[[b]]如果说扬·胡斯的火刑点燃了星星之火，那么杰式卡就是扔进火里的那把柴：他燃尽了自己，火光却照到了康斯坦茨的人们想都没想到的远方。[[/b]]\n\n他先是葬在赫拉德茨-克拉洛韦圣灵教堂的主祭坛前，后来遗体被迁往恰斯拉夫的圣彼得和保罗教堂。1910年在那里发现的一具头骨，左眼眶有一处旧伤，被认为就是他的。孤儿军此后由一个将领议事会和赫拉德茨的神父安布罗日共同领导。与此同时，塔博尔派开始倚重另一位神父：普罗科普。他曾因异端嫌疑被关进老城市政厅地下的牢房，在1421年6月[[link:importing-a-king-1421]]柴利夫斯基发动政变[[/link]]时重获自由。后世称他为“大普罗科普”。杰式卡发动的这场战争远没有结束，只是从此要在没有他的情况下打下去了。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "Seized by plague by God's decree, as one must believe, he died on the road by the castle of Přibyslav.",
+          cz: "Morem zachvácen z řízení božího, jak se služí věřiti, zemřel na cestě u hradu Přibyslavě.",
+          zh: "他染上瘟疫，这当是出于上帝的安排，死在了普日比斯拉夫城堡附近的路上。",
+        },
+        attribution: {
+          en: "Aeneas Silvius Piccolomini (Pope Pius II), History of Bohemia, 1458, in the Czech translation of 1687",
+          cz: "Enea Silvio Piccolomini (papež Pius II.), Historie česká, 1458, v českém překladu z roku 1687",
+          zh: "埃涅阿斯·西尔维乌斯·皮科洛米尼（教皇庇护二世），《波希米亚史》，1458年，据1687年捷克文译本",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "hradec-kralove",
+        relation: {
+          en: "Where Žižka was first buried, before the high altar of the Church of the Holy Spirit.",
+          cz: "Kde byl Žižka nejprve pohřben, před hlavním oltářem kostela svatého Ducha.",
+          zh: "杰式卡最初下葬的地方，就在圣灵教堂的主祭坛前。",
+        },
+      },
+      {
+        slug: "caslav",
+        relation: {
+          en: "Where his remains were later moved, to the Church of Sts Peter and Paul; a skull found there in 1910 is thought to be his.",
+          cz: "Kam byly jeho ostatky později převezeny, do kostela svatých Petra a Pavla; lebka nalezená tam roku 1910 se považuje za jeho.",
+          zh: "他的遗骸后来被迁到这里的圣彼得和保罗教堂，1910年在此发现的一具头骨被认为就是他的。",
+        },
+      },
+      {
+        slug: "zizkov-horse-statue",
+        relation: {
+          en: "The monument later generations raised to him on Vítkov Hill, where he won his first great victory in 1420: a giant bronze Žižka on horseback, still looking down over Prague.",
+          cz: "Pomník, který mu pozdější generace postavily na Vítkově, kde roku 1420 vybojoval své první velké vítězství: obří bronzový Žižka na koni, který dodnes shlíží na Prahu.",
+          zh: "后人在维特科夫山上为他立的纪念像。1420年，他在这里赢得了第一场大胜；如今这尊巨大的青铜骑马像仍俯瞰着布拉格。",
+        },
+      },
+    ],
+    referenceMaps: {
+      links: [
+        {
+          label: "1955",
+          description: {
+            en: "The full 1955 Czechoslovak film Jan Žižka, directed by Otakar Vávra",
+            cz: "Celý československý film Jan Žižka (1955) v režii Otakara Vávry",
+            zh: "1955年捷克斯洛伐克电影《独眼将军杰士卡》完整版，奥塔卡尔·瓦夫拉导演",
+          },
+          url: "https://www.youtube.com/watch?v=ev4zg3m64PA",
+        },
+      ],
+    },
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Jan_%C5%BDi%C5%BEka",
   },
 ];
 
