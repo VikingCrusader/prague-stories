@@ -16979,6 +16979,271 @@ export const historyEvents = [
     },
     wikipediaUrl: "https://cs.wikipedia.org/wiki/Jan_%C5%BDi%C5%BEka",
   },
+  // 1425 to May 1426: the field armies after Žižka, written 2026-09-23 from
+  // the user's draft (split into three cards at the user's request: this one,
+  // fifty-thousand-to-nineteen-1426, returning-the-visit-1427). Checked via
+  // cs.wikipedia (Jan Hvězda z Vícemilic, Bohuslav VI. ze Švamberka),
+  // husitstvi.cz, muzeumslany.cz, medium.seznam.cz. Departures from the draft:
+  // - The draft's "扬·霍兹" is Jan Hvězda of Vícemilic, alias Bzdinka, the same
+  //   man listed as "Jan Bzdinka" among Žižka's deathbed captains in
+  //   undefeated-until-the-plague-1424. He led the Tábor-Orphan union in 1425
+  //   (Tábor's captain, not the Orphans'); died 17/18 Oct 1425 of wounds from
+  //   the siege of Vožice. Bohuslav of Švamberk succeeded him and died of an
+  //   arrow wound to the face at Retz (taken 25 Nov 1425).
+  // - The draft's May 1425 raid on the Rožmberk lands was not verified; what
+  //   was found is Slaný (17 Apr 1425), central/east Bohemian campaigns with
+  //   Roháč, a failed try at Prague's New Town and the Oct 1425 peace with
+  //   Prague. Left the Rožmberk raid out.
+  // - Nuremberg diet opened 17 May 1426. The draft's Jagiełło episode and a
+  //   30,000-man crusade under Frederick of Brandenburg were not found for
+  //   1426 (Frederick led the 1422 crusade, see
+  //   a-second-crusade-a-second-disaster-1422); left out. The army that
+  //   actually came in 1426 was the Saxon one at Ústí (next card).
+  {
+    slug: "orphans-grow-up-fast-1425",
+    era: "religious-turmoil",
+    startYear: 1425.5,
+    images: ["/history/orphans-grow-up-fast-1425.webp"],
+    imageCaptions: [
+      {
+        en: "Late 1425: with Hvězda and Bohuslav of Švamberk both dead, the priest Prokop and Jan Roháč of Dubá address the field armies' wagon camp, while fallen comrades are carried out.",
+        cz: "Konec roku 1425: Hvězda i Bohuslav ze Švamberka jsou mrtví a kněz Prokop s Janem Roháčem z Dubé promlouvají k táboru polních vojsk, zatímco se odnášejí padlí druhové.",
+        zh: "1425年末，赫维兹达和博胡斯拉夫相继战死后，神父普罗科普与杜巴的扬·罗哈奇在野战军的车阵营地里向众人讲话，一旁有人正抬走阵亡的战友。",
+      },
+    ],
+    year: {
+      en: "1425–1426",
+      cz: "1425–1426",
+      zh: "1425–1426年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Orphans Grow Up Fast",
+      cz: "Sirotci rychle dospívají",
+      zh: "孤儿军长大了",
+    },
+    hookLine: {
+      en: "Žižka was gone, and the Orphans had no time to grieve. Within a year the two captains most likely to replace him were dead too, and the man who stepped up was a priest who didn't carry a sword.",
+      cz: "Žižka byl pryč a Sirotci neměli čas truchlit. Do roka byli mrtví i oba hejtmani, kteří ho měli nejspíš nahradit, a do čela se postavil kněz, který nenosil meč.",
+      zh: "杰式卡走了，孤儿军没工夫哭太久。不到一年，最有资格接班的两位将领也相继倒下，最后站出来的，是一位不带剑的神父。",
+    },
+    summary: {
+      en: "The Orphans did not grieve for long, and they did not drift away from Tábor either. The two stayed separate communities with their own captains and their own towns, but they went to war together so often that historians simply lump them together as the field armies, or the radicals. Early in 1425 they even formed a joint union. Its first leader was Jan Hvězda of Vícemilic, the same \"Bzdinka\" who had stood at Žižka's deathbed.\n\nThe radicals kept busy all year. In April 1425 they took the royal town of Slaný, then worked their way across central and eastern Bohemia together with Jan Roháč of Dubá, one of Žižka's longest-serving comrades. They even had a go at Prague's New Town. That didn't work, and by October they had made peace with Prague again. By Hussite standards, a fairly quiet year.\n\nThe bill landed on the men at the top. In October 1425 Hvězda was badly wounded besieging the castle of Vožice in southern Bohemia and died a few days later. Command of Tábor passed to [[link:from-captive-to-captain-1421]]Bohuslav of Švamberk[[/link]], the Catholic lord who had lost to Žižka three times before joining him. Bohuslav led the field armies into Moravia and on across the border into Austria, where they stormed the town of Retz on 25 November. He took an arrow to the face there and died of the wound soon after. Barely a year after Žižka, both men most obviously in line to replace him were dead.\n\n[[b]]The men who stepped up next were a priest who, by all accounts, never drew a sword himself, and an old comrade who had fought beside Žižka for years: Prokop and Jan Roháč of Dubá.[[/b]] Prokop was no knight and never pretended to be one. His talent lay elsewhere. He could get a pack of quarrelsome brotherhoods to pull in the same direction, and in Hussite Bohemia that was a rarer skill than fighting.\n\nHe would need it soon. On 17 May 1426 Sigismund opened an imperial diet in Nuremberg to launch yet another crusade against Bohemia. Plenty of the princes there took Žižka's death as a sign: God had finally switched sides, and this time the heretics would be rooted out for good. The Hussites had heard that sort of thing before. This time, though, Prague, the lords, the returned Korybut and the field armies agreed on one thing for a change. Better not to sit and wait for the crusaders to show up.",
+      cz: "Sirotci netruchlili dlouho a od Tábora se ani neodtrhli. Obě strany si dál držely vlastní hejtmany i vlastní města, ale táhly spolu do boje tak často, že je historici prostě označují souhrnně jako polní vojska, tedy radikály. Na začátku roku 1425 dokonce uzavřely společný svazek. V jeho čele stanul Jan Hvězda z Vícemilic, tentýž Bzdinka, který stál u Žižkova smrtelného lože.\n\nRadikálové nezaháleli celý rok. V dubnu 1425 dobyli královské město Slaný a pak s Janem Roháčem z Dubé, jedním z Žižkových nejstarších spolubojovníků, táhli křížem krážem středními a východními Čechami. Zkusili dokonce zabrat pražské Nové Město. To nevyšlo a v říjnu se s Prahou zase smířili. Na husitské poměry docela klidný rok.\n\nÚčet zaplatili ti v čele. V říjnu 1425 byl Hvězda těžce zraněn při obléhání hradu Vožice na jihu Čech a za pár dní zemřel. Velení Tábora převzal [[link:from-captive-to-captain-1421]]Bohuslav ze Švamberka[[/link]], katolický pán, který Žižkovi třikrát prohrál, než se k němu přidal. Vedl polní vojska na Moravu a dál přes hranici do Rakous, kde 25. listopadu dobyla městečko Retz. Bohuslav tam dostal šíp do obličeje a na následky zranění brzy zemřel. Sotva rok po Žižkovi byli mrtví i oba muži, kteří se k jeho nástupnictví nabízeli nejvíc.\n\n[[b]]Do čela se nakonec postavili kněz, který podle všeho sám nikdy netasil meč, a starý spolubojovník, který bojoval po Žižkově boku celé roky: Prokop a Jan Roháč z Dubé.[[/b]] Prokop nebyl rytíř a nikdy nepředstíral, že je. Jeho síla ležela jinde. Uměl přimět hašteřivá bratrstva, aby táhla za jeden provaz, a v husitských Čechách to byla vzácnější dovednost než umět bojovat.\n\nBrzy ji potřeboval. 17. května 1426 zahájil Zikmund v Norimberku říšský sněm, který měl vyhlásit další křížovou výpravu do Čech. Leckteří z přítomných knížat brali Žižkovu smrt jako znamení: Bůh konečně přešel na jejich stranu a tentokrát kacíře vykoření nadobro. Takové řeči už husité slyšeli nejednou. Tentokrát se ale Praha, páni, vrátivší se Korybut i polní vojska pro jednou shodli na jediném. Lepší nečekat, až křižáci dorazí.",
+      zh: "孤儿军没有哭太久，也没有就此和塔博尔派分道扬镳。两边仍是各有各的将领、各管各的城镇，可一起出兵的次数实在太多，历史学家干脆把他们合称为“野战军”，也就是激进派。1425年初，两家甚至正式结成了联盟，第一任首领是维采米利采的扬·赫维兹达，也就是在杰式卡临终时守在床前的那位“布兹丁卡”。\n\n这一年，激进派一刻也没闲着。1425年4月，他们拿下了王室城市斯拉尼，随后和杰式卡最老资格的战友之一、杜巴的扬·罗哈奇一道，在波希米亚中部和东部四处征战，甚至还打过布拉格新城的主意。新城没打下来，到了10月，他们又和布拉格讲和了。按胡斯派的标准，这已经算是相当平静的一年。\n\n账单最后落到了带头人的头上。1425年10月，赫维兹达在南波希米亚围攻沃日采城堡时受了重伤，没几天就死了。塔博尔军的指挥权交到了[[link:from-captive-to-captain-1421]]什万贝尔克的博胡斯拉夫[[/link]]手里，就是那位连输杰式卡三回、最后干脆投了过来的天主教领主。他带着野战军开进摩拉维亚，又一路越境打进奥地利，11月25日攻下了雷茨城。博胡斯拉夫在那里脸上中了一箭，不久伤重而死。杰式卡死后才一年，最有资格接班的两个人，都跟着他去了。\n\n[[b]]最后站出来的，是一位据说从不亲自拔剑的神父，和一位跟着杰式卡打了多年仗的老战友：普罗科普，还有杜巴的扬·罗哈奇。[[/b]]普罗科普不是骑士，也从没装过骑士。他的本事在别处：能让一群动不动就吵架的兄弟会朝着同一个方向使劲。在胡斯派的波希米亚，这门手艺比会打仗还稀罕。\n\n这门手艺很快就派上了用场。1426年5月17日，西吉斯蒙德在纽伦堡召开帝国会议，准备再发动一次针对波希米亚的十字军。与会的诸侯里，不少人把杰式卡的死看作一个信号：上帝终于换了边，这回一定能把异端连根拔掉。这种话，胡斯派已经听过不止一回了。不过这一次，布拉格、贵族们、回到波希米亚的科里布特，还有野战军，难得地达成了一致：与其坐等十字军上门，不如自己先动手。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "tabor",
+        relation: {
+          en: "The home base of the Tábor brotherhood, which after Žižka's death kept fighting side by side with the Orphans.",
+          cz: "Domovská základna táborského bratrstva, které po Žižkově smrti dál bojovalo bok po boku se Sirotky.",
+          zh: "塔博尔兄弟会的大本营。杰式卡死后，这里的军队继续和孤儿军并肩作战。",
+        },
+      },
+      {
+        slug: "slany",
+        relation: {
+          en: "The royal town the radicals took on 17 April 1425, their first big prize in the first year without Žižka.",
+          cz: "Královské město, které radikálové dobyli 17. dubna 1425, první velká kořist jejich prvního roku bez Žižky.",
+          zh: "激进派在1425年4月17日攻下的王室城市，这是没有杰式卡的第一年里，他们拿下的第一个大战果。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Prokop_Hol%C3%BD",
+  },
+  // Battle of Ústí nad Labem, 16 June 1426. Written 2026-09-23 from the
+  // user's draft. Checked via cs.wikipedia (Bitva u Ústí nad Labem),
+  // husitsky-bedekr.cz (full chronicle texts), muzeumusti.cz, e-stredovek.cz,
+  // medium.seznam.cz. Departures from the draft:
+  // - Army: the relief force was raised by Catherine, wife of Frederick the
+  //   Warlike (Meissen/Saxony), while he was at the Nuremberg diet, and led by
+  //   Boso of Vitzthum (the draft's "波索伯爵"). All Hussite factions took part,
+  //   Korybut and the Praguers included; Prokop is generally credited with
+  //   command.
+  // - Negotiations: the annals record a mutual prisoner-sparing offer (quote 0)
+  //   and a request not to fight on Sunday, both refused. The draft's "delay
+  //   until noon so the knights bake" is presented as the narrator's own
+  //   suspicion, not a sourced fact; heat and dust ARE sourced (Bartošek,
+  //   Johannes Rothe). The two creeks detail was not verified; dropped.
+  // - Hooks: Johannes Rothe. Losses: Bartošek ~4,000 (2,000 killed in the
+  //   pursuit, 2,000 dead from heat/dust); Hussites 19 to 30.
+  // - The draft's "24 German princes beheaded" was not found; dropped (named
+  //   dead: counts of Gleichen, etc.). The town did not surrender: the
+  //   garrison had mostly fled, Ústí was taken and burned the next day.
+  // - Aftermath: Prokop wanted Most/Saxony, the Praguers and lords went home
+  //   (one source says the reverse about Most, so the card keeps it simple).
+  //   The draft's Utraquist defeat at Most and a second defeat at "Kolatovy"
+  //   were not verified; replaced with the field armies' siege of Hynek of
+  //   Poděbrady (cs.wikipedia, Bitva u Světlé background section).
+  // - Quotes: Old Czech Annals, manuscript Š; EN/ZH translations are Claude's.
+  {
+    slug: "fifty-thousand-to-nineteen-1426",
+    era: "religious-turmoil",
+    startYear: 1426.45,
+    images: [
+      "/history/fifty-thousand-to-nineteen-1426-council.webp",
+      "/history/fifty-thousand-to-nineteen-1426.webp",
+      "/history/fifty-thousand-to-nineteen-1426-podebrady.webp",
+    ],
+    imageCaptions: [
+      {
+        en: "June 1426, outside Ústí: with the relief army already raising dust in the valley, the Hussite leaders close ranks around a map, the priest Prokop and Jan Roháč of Dubá for the field armies, Korybut for Prague, Hynek of Poděbrady for the Utraquist lords and Jakoubek of Vřesovice, who had begun the siege.",
+        cz: "Červen 1426 u Ústí: zatímco v údolí už víří prach blížící se vojsko, husitští předáci se srocují nad mapou, kněz Prokop a Jan Roháč z Dubé za polní vojska, Korybut za Prahu, Hynek z Poděbrad za kališnické pány a Jakoubek z Vřesovic, který obléhání začal.",
+        zh: "1426年6月，乌斯季城外，援军扬起的尘土已经出现在河谷里，胡斯派各方首领围着一张地图站到了一起：代表野战军的神父普罗科普和杜巴的扬·罗哈奇，代表布拉格的科里布特，代表圣杯派贵族的波杰布拉迪的海涅克，还有最早围城的弗热索维采的雅库贝克。",
+      },
+      {
+        en: "16 June 1426: the Saxon and Thuringian army charges the Hussite wagon fort on the hill near Předlice, breaks the outer row of wagons and runs into the fire of the second, while villages burn in the valley below Ústí.",
+        cz: "16. června 1426: saské a durynské vojsko útočí na husitskou vozovou hradbu na návrší u Předlic, prolomí vnější řadu vozů a narazí na palbu z druhé, zatímco v údolí pod Ústím hoří vesnice.",
+        zh: "1426年6月16日，萨克森与图林根联军冲击普雷德利采附近山头上的胡斯派车阵，冲垮了外面一排大车，却撞上了第二排的火力；山下乌斯季附近的河谷里，村庄正在燃烧。",
+      },
+      {
+        en: "Autumn 1426, Poděbrady: the field armies besiege Hynek of Poděbrady, their comrade from Ústí. Prokop and Jan Roháč of Dubá look on in disbelief as Hynek leans on his battlements beside his new Catholic friends, while a new banner goes up on the tower.",
+        cz: "Podzim 1426, Poděbrady: polní vojska obléhají Hynka z Poděbrad, svého druha od Ústí. Prokop a Jan Roháč z Dubé nevěřícně přihlížejí, jak se Hynek opírá o cimbuří vedle svých nových katolických přátel, zatímco na věži stoupá nová korouhev.",
+        zh: "1426年秋，波杰布拉迪：野战军围攻不久前还在乌斯季并肩作战的海涅克。普罗科普和杜巴的扬·罗哈奇难以置信地看着海涅克和他的天主教新朋友们一起倚在城垛上，塔楼上正升起一面新旗。",
+      },
+    ],
+    year: {
+      en: "1426",
+      cz: "1426",
+      zh: "1426年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Fifty Thousand to Nineteen",
+      cz: "Padesát tisíc ku devatenácti",
+      zh: "五万比十九",
+    },
+    hookLine: {
+      en: "Before the battle the Hussites offered a deal: both sides spare their prisoners. The Germans wrote back that they would kill everyone. It was the worst answer they could have given.",
+      cz: "Před bitvou husité nabídli dohodu: obě strany ušetří zajatce. Němci odepsali, že pobijí všechny. Horší odpověď dát nemohli.",
+      zh: "开战前，胡斯派提了个建议：双方都饶俘虏一命。德意志人回信说不必了，他们打算一个不留。事后看，这是他们能给出的最糟糕的回答。",
+    },
+    summary: {
+      en: "The target the Hussites picked was Ústí nad Labem, a royal town on the Elbe in the north. Sigismund had pledged it to Frederick the Warlike, Margrave of Meissen and by now Elector of Saxony, in return for his help, and the Meissen garrison ran it like an occupying army, burning and squeezing ransoms out of the locals. After Easter 1426 Jakoubek of Vřesovice, the Hussite lord of nearby Bílina, surrounded the town. By early June almost every Hussite faction had turned up to help: Korybut with the Praguers, the Utraquist lords, Tábor and the Orphans. For once they were all on the same side of the wagons.\n\nFrederick himself was away in Nuremberg, trying to talk the other princes into a crusade. His wife Catherine didn't wait for them. She raised an army of her own from Saxony, Thuringia, Lusatia and beyond and put it under the Meissen governor, Boso of Vitzthum. Contemporaries put it at about 13,000 men, against roughly 11,000 Hussites; later accounts inflated the German side to 70,000. On 15 June it arrived outside Ústí. The Hussites lifted the siege, drew up their wagons on a gentle hill near the village of Předlice, and waited.\n\nBefore the fighting, the Hussites sent over a letter with a practical proposal: let both sides spare their prisoners. The Old Czech Annals recorded the offer and the reply:\n\n[[quote:0]]\n\nThe Hussites also asked not to fight on the next day, a Sunday. That was refused too. One can wonder how much of this piety was tactics: every hour of waiting was another hour for German knights to bake in their armor under the June sun. On Sunday 16 June 1426, in the full heat of the day, the German army attacked up the slope. The charge was a fierce one. It reached the wagons and overturned an entire row of them. Behind it stood a second row. From there the Hussites opened fire with everything they had, hand-guns, howitzers and field guns, until, in the annals' words, they were cutting lanes through the enemy. A German chronicler, Johannes Rothe, remembered the long hooks the Hussites used to drag noblemen out of the saddle, and a cloud of dust so thick nobody could see the man beside him. When the attack stalled, Hussite infantry and cavalry poured out from behind the wagons, and the German army broke.\n\nWhat followed was a massacre. The fugitives were hunted down across the fields, and those who hid in the nearby villages were burned along with them. The Hussites had not forgotten the reply to their letter, and they took no prisoners. The chronicler Bartošek of Drahonice, the most careful of the sources, counted about 4,000 German dead: half cut down in the pursuit, half collapsed in their armor from the heat and the dust. The counts of Gleichen and a long list of Saxon and Thuringian nobles died with them. The Old Czech Annals were less fussy about arithmetic:\n\n[[quote:1]]\n\nThe first number is off by more than tenfold. The second is probably close: other sources put Hussite losses at between 19 and 30. [[b]]If any single battle taught the whole of Germany to fear the Hussites, it was Ústí.[[/b]] It was also the last time anyone tried to smash a Hussite wagon fort in Bohemia with a straightforward cavalry charge. From then on, the Germans started bringing wagons of their own.\n\nThe next day the Hussites took Ústí, whose garrison had mostly run off already, and burned it. Prokop wanted to keep going: take Most, clear the whole of northern Bohemia, maybe march on into Saxony while the Empire was still reeling. The Praguers and the lords felt one great victory was plenty and went home.\n\nThe field armies didn't go home, because they suddenly had a new job. Hynek of Poděbrady was the lord who had helped Žižka escape across the Elbe two years earlier, and at Ústí he had stood in the Hussite line against the crusaders' charge and taken his share of the glory. The dust of the battlefield had barely settled when he turned around and offered his hand to the Catholic lords instead. From Hussite hero to Catholic ally in a single summer: it was the kind of career move only Hussite Bohemia could produce. So the field armies turned their wagons around, marched to Poděbrady, and laid siege to the man they had just been fighting shoulder to shoulder with. Hynek's castle held out stubbornly, and the siege dragged on into the autumn. The best chance the Hussites had had so far was spent besieging one of their own.",
+      cz: "Husité si za cíl vybrali Ústí nad Labem, královské město na Labi na severu Čech. Zikmund ho zastavil Fridrichu Bojovnému, míšeňskému markraběti a nyní už i saskému kurfiřtovi, za jeho pomoc, a míšeňská posádka se tam chovala jako okupační vojsko: pálila a vymáhala na lidech výkupné. Po Velikonocích 1426 město oblehl Jakoubek z Vřesovic, husitský pán z nedaleké Bíliny. Do začátku června mu přišla na pomoc skoro všechna husitská uskupení: Korybut s Pražany, kališničtí páni, Tábor i Sirotci. Aspoň jednou stáli všichni na stejné straně vozů.\n\nFridrich sám byl zrovna v Norimberku a přemlouval ostatní knížata ke křížové výpravě. Jeho žena Kateřina na ně čekat nechtěla. Sama sebrala vojsko ze Saska, Durynska, Lužice i odjinud a svěřila ho míšeňskému fojtovi Bosovi z Fictumu. Současníci ho odhadovali asi na 13 000 mužů proti zhruba 11 000 husitům; pozdější zprávy nafoukly německou stranu až na 70 000. 15. června dorazilo před Ústí. Husité obležení opustili, rozestavili vozy na mírném návrší u vsi Předlice a čekali.\n\nPřed bojem poslali husité protivníkovi list s praktickým návrhem: ať obě strany ušetří zajatce. Staré letopisy české zaznamenaly nabídku i odpověď:\n\n[[quote:0]]\n\nHusité ještě žádali, aby se nebojovalo příští den, v neděli. I to bylo odmítnuto. Člověk se může ptát, kolik v té zbožnosti bylo taktiky: každá hodina čekání byla další hodinou, kdy se němečtí rytíři pekli ve zbroji na červnovém slunci. V neděli 16. června 1426 v plném poledním horku vyrazilo německé vojsko do kopce. Útok to byl prudký. Dostal se až k vozům a převrátil celou jejich řadu. Za ní ale stála druhá. Odtud husité zahájili palbu ze všeho, co měli, z píšťal, houfnic i tarasnic, až v nepříteli, slovy letopisů, „cesty dělali“. Německý kronikář Johannes Rothe si zapamatoval dlouhé háky, jimiž husité stahovali pány ze sedel, a oblak prachu tak hustý, že nikdo neviděl ani souseda. Když se útok zastavil, vyrazila z vozů husitská pěchota i jízda a německé vojsko se dalo na útěk.\n\nPak přišel masakr. Prchající byli pronásledováni přes pole a ty, kdo se schovali v okolních vsích, upálili i s nimi. Husité nezapomněli, jak zněla odpověď na jejich list, a zajatce nebrali. Kronikář Bartošek z Drahonic, nejpečlivější z pramenů, napočítal asi 4 000 mrtvých Němců: polovinu pobili při pronásledování, druhá polovina padla ve zbroji vyčerpáním z horka a prachu. Zahynuli s nimi hrabata z Gleichenu a dlouhý seznam saských a durynských šlechticů. Staré letopisy české si s počty tolik hlavu nelámaly:\n\n[[quote:1]]\n\nPrvní číslo je přehnané víc než desetkrát. Druhé bude asi blízko pravdě: jiné prameny uvádějí husitské ztráty mezi 19 a 30 muži. [[b]]Jestli nějaká bitva naučila celé Německo bát se husitů, bylo to Ústí.[[/b]] Bylo to také naposledy, kdy se někdo v Čechách pokusil rozbít husitskou vozovou hradbu přímým útokem jízdy. Od té doby si Němci začali vozit vozy vlastní.\n\nDruhý den husité dobyli Ústí, z něhož posádka většinou už utekla, a vypálili ho. Prokop chtěl pokračovat: dobýt Most, vyčistit celé severní Čechy a třeba vtrhnout do Saska, dokud se říše nevzpamatovala. Pražanům a pánům ale jedno velké vítězství stačilo a rozjeli se domů.\n\nPolní vojska domů nešla, protože najednou měla novou práci. Hynek z Poděbrad byl ten pán, který Žižkovi před dvěma lety pomohl uniknout přes Labe, a u Ústí stál v husitské linii proti náporu křižáků a sklidil svůj díl slávy. Prach bojiště se sotva usadil, když se otočil a podal ruku katolickým pánům. Z husitského hrdiny katolickým spojencem za jediné léto: takový kariérní obrat dokázaly vyprodukovat jen husitské Čechy. Polní vojska tedy otočila vozy, vytáhla k Poděbradům a oblehla muže, s nímž ještě nedávno bojovala bok po boku. Hynkův hrad se bránil houževnatě a obléhání se protáhlo až do podzimu. Nejlepší příležitost, jakou husité dosud měli, padla na obléhání jednoho ze svých.",
+      zh: "胡斯派挑中的目标，是北方易北河畔的王室城市乌斯季。西吉斯蒙德为了换取支持，把这座城抵押给了迈森藩侯、此时已是萨克森选帝侯的“好战者”腓特烈。城里的迈森守军活像一支占领军，放火、勒索赎金，样样都干。1426年复活节后，附近比利纳的胡斯派领主、弗热索维采的雅库贝克率先把城围了起来。到6月初，几乎所有胡斯派的队伍都赶来帮忙：带着布拉格人的科里布特、圣杯派的贵族、塔博尔军和孤儿军。难得一回，大家都站在了车阵的同一边。\n\n腓特烈本人这时正在纽伦堡开会，忙着劝其他诸侯出兵。他的妻子卡塔琳娜可没打算干等。她自己从萨克森、图林根、卢萨蒂亚等地拉起一支军队，交给迈森的地方长官菲茨图姆的博索统领。按同时代人的估计，这支军队约有一万三千人，胡斯派这边大约一万一千；后来的记载则把德意志一方吹到了七万。6月15日，援军抵达乌斯季城外。胡斯派撤了围，在普雷德利采村附近一座缓坡上摆好车阵，等着对方上门。\n\n开战之前，胡斯派先送去一封信，提了个很实在的建议：双方都饶俘虏一命。《古捷克编年史》把这个提议和对方的回答都记了下来：\n\n[[quote:0]]\n\n胡斯派还提出，第二天是主日，不宜开战，能不能改期。这个请求同样被拒绝了。也不知道这份虔诚里掺了多少算计：多拖一个钟头，德意志骑士就得穿着盔甲，在六月的大太阳底下多烤一个钟头。1426年6月16日，星期日，正午的酷暑中，德意志大军向山坡发起了进攻。这一波冲得确实猛，一直冲到车阵跟前，硬是掀翻了一整排大车。可后面还有第二排。胡斯派从那里用手铳、榴弹炮和野战炮一齐开火，照编年史的说法，是在敌阵里“打出了一条条路”。德意志编年史家约翰内斯·罗特还记得胡斯派手里的长钩子，专门把贵族老爷从马上拽下来，还有那漫天的尘土，浓得连身边的人都看不清。等攻势一停，胡斯派的步兵和骑兵从车阵里杀了出来，德意志大军当场崩溃。\n\n接下来就是一场屠杀。溃兵在田野里被一路追杀，躲进附近村子的，连人带村一起被烧了。胡斯派没忘记那封回信，一个俘虏也没留。几份史料里最靠谱的编年史家德拉霍尼采的巴尔托舍克估计，德意志一方死了约四千人：一半死在追击中，另一半穿着盔甲，被暑热和尘土活活耗死。格莱兴伯爵兄弟和一长串萨克森、图林根贵族，也死在了这里。《古捷克编年史》的算术就没那么讲究了：\n\n[[quote:1]]\n\n第一个数字夸大了十倍不止，第二个倒可能差不太多：其他史料给出的胡斯派阵亡人数，在十九到三十人之间。[[b]]如果说关羽水淹七军是威震华夏，那乌斯季这一仗，就是威震了整个德意志。[[/b]]这也是最后一次有人想在波希米亚用重骑兵正面冲垮胡斯派的车阵。从此以后，德意志人也开始学着自带大车了。\n\n第二天，胡斯派拿下了守军早已跑掉大半的乌斯季，一把火烧了。普罗科普想乘胜追击：拿下莫斯特，肃清整个北波希米亚，甚至趁帝国还没回过神来，一路打进萨克森。可布拉格人和贵族们觉得打赢一场已经够本，收兵回家了。\n\n野战军倒是没回家，因为他们突然有了新的活儿要干。波杰布拉迪的海涅克，就是两年前帮杰式卡渡过易北河的那位领主，在乌斯季还站在胡斯派的车阵里，和大家一起顶住了十字军的冲锋，功劳簿上也记着他一笔。可战场上的尘土还没落定，他就一转身，把手伸向了天主教贵族，和他们结成了同盟。一个夏天之内，从胡斯派的功臣变成天主教贵族的盟友，这种职业转型，恐怕也只有胡斯战争时期的波希米亚才做得出来。于是野战军把车头一掉，开到波杰布拉迪城下，围攻起这位不久前还并肩作战的战友。海涅克的城堡守得相当顽强，这一围就围到了秋天。胡斯派至今最好的一次机会，就这样耗在了围攻自己人上。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "At once the Czechs wrote them kindly letters, to this effect: should God help you to capture us, and should the Lord God help us in turn, you may expect the same from us. But the Germans, with great zeal and defiance, trusting in the size of their hosts, proudly sent back word that they would murder them all, small and great alike.",
+          cz: "Ihned Čechové psali k nim listy laskavé tak, že »kdyby vám Bůh pomohl, abyste nás zjímali, a jestliže nám Pán Bůh zase pomůže, téhož se od nás nadějete«. Ale Němci s velikou snaživostí a vzpurností, doufajíce v množství houfů, hrdě zase vzkázali, že »všecky napořád budem mordovati, malé i veliké«.",
+          zh: "捷克人当即给他们写去客客气气的信，大意是：倘若上帝助你们俘获我们，而倘若主上帝反过来助我们，你们也可指望从我们这里得到同样的待遇。可德意志人仗着人多势众，满怀狂热，桀骜不驯，傲慢地回话说：他们要把所有人统统杀光，大的小的一个不留。",
+        },
+        attribution: {
+          en: "Old Czech Annals, on the eve of the battle of 16 June 1426",
+          cz: "Staré letopisy české, o předvečeru bitvy 16. června 1426",
+          zh: "《古捷克编年史》，记1426年6月16日之战前夕",
+        },
+      },
+      {
+        text: {
+          en: "And some fifty thousand Germans were slain, and of the Czechs they killed no more than nineteen, and no one of note save Jan Bradatý of Prague.",
+          cz: "A bylo pobito Němců na padesát tisíc a Čechů nezabili nic více nežli devatenáct, a znamenitého nezabili žádného než Jana Bradatého z Prahy.",
+          zh: "德意志人被杀约五万，捷克人被杀不过十九人，有名有姓的，只死了一个布拉格的扬·布拉达蒂。",
+        },
+        attribution: {
+          en: "Old Czech Annals, on the battle of 16 June 1426",
+          cz: "Staré letopisy české, o bitvě 16. června 1426",
+          zh: "《古捷克编年史》，记1426年6月16日之战",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "usti-nad-labem",
+        relation: {
+          en: "The town the battle was fought over: the Hussites took it the day after and burned it.",
+          cz: "Město, o které se bojovalo: husité ho den po bitvě dobyli a vypálili.",
+          zh: "这场仗争夺的就是这座城：胡斯派在战后第二天拿下了它，并一把火烧了。",
+        },
+      },
+      {
+        slug: "hrad-hnevin",
+        relation: {
+          en: "The castle above Most, next on Prokop's list after Ústí. He never got there: his allies went home instead.",
+          cz: "Hrad nad Mostem, další na Prokopově seznamu po Ústí. Nedostal se k němu, spojenci se místo toho rozjeli domů.",
+          zh: "莫斯特城上方的城堡，是普罗科普拿下乌斯季后的下一个目标。可惜没能打过来：盟友们直接收兵回家了。",
+        },
+      },
+      {
+        slug: "podebrady",
+        relation: {
+          en: "Hynek of Poděbrady's seat, where the field armies went after Ústí to besiege their own recent ally, and where they were still camped in the autumn.",
+          cz: "Sídlo Hynka z Poděbrad, kam polní vojska po Ústí zamířila oblehnout svého nedávného spojence a kde ještě na podzim ležela.",
+          zh: "波杰布拉迪的海涅克的领地。乌斯季之战后，野战军转头来这里围攻这位刚刚并肩作战的盟友，一直围到了秋天。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Bitva_u_%C3%9Ast%C3%AD_nad_Labem",
+  },
+  // Břeclav (Nov 1426) and Zwettl (March 1427). Written 2026-09-23 from the
+  // user's draft. Checked via cs.wikipedia (Bitva u Světlé, whose background
+  // section also covers Břeclav) and husitstvi.cz. Departures from the draft:
+  // - The autumn 1426 siege was Duke Albert of Austria besieging Hussite-held
+  //   Břeclav for about three months, relieved by Prokop in the second half
+  //   of November; the draft's "Oldřich of Rožmberk besieging a Hussite
+  //   stronghold" was not found and was replaced. Albert is left unnumbered
+  //   (Duke Albert V, later King Albert II), matching the-blind-war-god-1421.
+  // - Zwettl: the draft's "deliberate lure and hill ambush" and 12 March date
+  //   were not supported. Sources: ~16,000 Hussites; Austrians under
+  //   Reinprecht of Walsee with Czech Catholics (Lipolt Krajíř of Krajek);
+  //   first charge did some damage, then a Hussite counterattack and a
+  //   four-hour rout; date disputed (14 or 25 March); enemy dead 4,000
+  //   (Andreas of Regensburg) or 9,000 (Chronicle of the Old Prague
+  //   Collegiate). Zwettl was taken and burned.
+  // - Quote: Andreas of Regensburg as cited in Czech on cs.wikipedia (a
+  //   translation of a Latin original); EN/ZH are Claude's.
+  {
+    slug: "returning-the-visit-1427",
+    era: "religious-turmoil",
+    startYear: 1427.2,
+    images: ["/history/returning-the-visit-1427.webp"],
+    imageCaptions: [
+      {
+        en: "March 1427, outside Zwettl in Lower Austria: Prokop directs the counterattack from inside the packed wagon camp as the Tábor and Orphan armies pour out and the Austrian army breaks, while the town and monastery burn on the hill behind.",
+        cz: "Březen 1427 u Světlé (Zwettlu) v Dolních Rakousích: Prokop řídí protiútok z přeplněného vozového tábora, táborské a sirotčí vojsko se valí ven a rakouské vojsko se hroutí, zatímco na kopci za nimi hoří město i klášter.",
+        zh: "1427年3月，下奥地利的茨维特尔城外：普罗科普在挤满人的车阵营地里指挥反击，塔博尔军和孤儿军蜂拥而出，奥地利军队全线溃败，身后山上的城镇和修道院正在燃烧。",
+      },
+    ],
+    year: {
+      en: "1426–1427",
+      cz: "1426–1427",
+      zh: "1426–1427年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Returning the Visit",
+      cz: "Oplacená návštěva",
+      zh: "礼尚往来",
+    },
+    hookLine: {
+      en: "Austria had come calling in Moravia. In the spring of 1427 Prokop decided it would be rude not to return the visit.",
+      cz: "Rakušané si přišli na návštěvu na Moravu. Na jaře 1427 usoudil Prokop, že by bylo nezdvořilé návštěvu neoplatit.",
+      zh: "奥地利人先上门到摩拉维亚“做客”。1427年春天，普罗科普觉得，于情于理都该回访一趟。",
+    },
+    summary: {
+      en: "The field armies were still stuck outside Poděbrady when bad news came from the south. In late summer 1426 Sigismund's son-in-law, [[link:the-blind-war-god-1421]]Duke Albert of Austria[[/link]], invaded southern Moravia and laid siege to Břeclav, a Hussite-held town right on his own border. In every plan to crush Bohemia, Albert was the southern jaw of the trap: while crusaders pressed in from the north and west, he was supposed to squeeze from below.\n\nBy now Prokop was accepted by both Tábor and the Orphans as their overall leader. He dropped the fighting in central Bohemia and marched hard for Moravia. In the second half of November he fell on Albert's army at Břeclav, beat it, and brought the garrison, three months into the siege and close to the end of its strength, food, drink and fresh ammunition. Albert went home.\n\nProkop took a lesson from all this. Every time the Hussites waited for the enemy to come to them, the war was fought on Bohemian and Moravian fields, and it was Bohemian and Moravian villages that burned. So why not let someone else's fields take a turn? [[b]]In March 1427 Prokop led the combined Tábor and Orphan armies, some 16,000 men, across the border into Austria: for the first time the Hussites were not defending their own country but carrying the war to the enemy's door.[[/b]] They burned monasteries along the way and laid siege to the town of Zwettl.\n\nAlbert was not going to let that pass. His army, under the veteran Reinprecht of Walsee and joined by Austrian lords and Czech Catholics such as Lipolt Krajíř, the captain of České Budějovice, attacked the Hussite camp. The sources on the battle are thin, but what they do say sounds like Ústí all over again. The first charge of the armored cavalry did some damage. Then the Hussite counterattack threw the knights into a panic, and after four hours of fighting it had become a massacre. Historians still argue about the date, 14 or 25 March, but not about how it ended. The Old Czech Annals dealt with the whole affair in one line: a great battle at Zwettl in Austria during Lent, in which the Taborites and Orphans killed many Germans and burned the town. A Catholic chronicler on the other side was a good deal less calm about it:\n\n[[quote:0]]\n\nAnother chronicle says 9,000. Either way, Zwettl was the Hussites' first great victory on foreign soil, and it changed how the war was fought. Austria went onto the defensive for good, and with the south quiet, the Hussites could give their full attention to the north, where the Empire was already gathering its next crusade. Over the following years Hussite armies rode into Saxony, Silesia, Hungary and Franconia so often that the Czechs gave these expeditions a name of their own: spanilé jízdy, the \"splendid rides\". The people on the receiving end had less flattering names for them.",
+      cz: "Polní vojska ještě trčela před Poděbrady, když z jihu přišly zlé zprávy. Koncem léta 1426 vpadl Zikmundův zeť, [[link:the-blind-war-god-1421]]vévoda Albrecht Rakouský[[/link]], na jižní Moravu a oblehl Břeclav, husitské město přímo u jeho vlastních hranic. V každém plánu, jak zadusit Čechy, byl Albrecht jižní čelistí pasti: zatímco křižáci tlačili od severu a od západu, on měl svírat zespodu.\n\nProkopa už tou dobou Tábor i Sirotci uznávali za svého společného vůdce. Nechal boje ve středních Čechách být a rychlým pochodem vyrazil na Moravu. V druhé polovině listopadu udeřil u Břeclavi na Albrechtovo vojsko, porazil ho a posádce, vyčerpané třemi měsíci obležení, přivezl jídlo, pití i nové střelivo. Albrecht odtáhl domů.\n\nProkop si z toho vzal ponaučení. Pokaždé, když husité čekali, až nepřítel přijde k nim, bojovalo se na českých a moravských polích a hořely české a moravské vesnice. Proč tedy nenechat, ať si to pro změnu užijí pole někoho jiného? [[b]]V březnu 1427 vedl Prokop spojená táborská a sirotčí vojska, asi 16 000 mužů, přes hranici do Rakous: poprvé husité nebránili vlastní zemi, ale přenesli válku nepříteli až na práh.[[/b]] Cestou pálili kláštery a oblehli město Světlou, německy Zwettl.\n\nAlbrecht to nehodlal nechat jen tak. Jeho vojsko pod velením zkušeného Reinprechta z Walsee, posílené rakouskými pány i českými katolíky, například českobudějovickým hejtmanem Lipoltem Krajířem, zaútočilo na husitský tábor. Prameny o bitvě jsou skoupé, ale to málo, co říkají, zní jako Ústí podruhé. První nájezd obrněné jízdy napáchal jisté škody. Pak ale husitský protiútok vnesl mezi rytíře paniku a po čtyřech hodinách boje z toho byl masakr. O datu se historici přou dodnes, 14., nebo 25. března, o výsledku ne. Staré letopisy české celou věc odbyly jedinou větou: v postu byla veliká bitva u města Světlé v Rakousích, v níž táboři a sirotci pobili mnoho Němců a město vypálili. Katolický kronikář z druhé strany byl o poznání méně klidný:\n\n[[quote:0]]\n\nJiná kronika uvádí 9 000. Tak či tak byla Světlá prvním velkým husitským vítězstvím na cizí půdě a změnila způsob, jakým se válka vedla. Rakousy přešly natrvalo do obrany, a když byl na jihu klid, mohli se husité plně věnovat severu, kde říše už chystala další křížovou výpravu. V dalších letech táhla husitská vojska do Saska, Slezska, Uher a Franků tak často, že Češi dali těmto výpravám vlastní jméno: spanilé jízdy. Ti, k nimž se jezdilo, pro ně měli jména méně lichotivá.",
+      zh: "野战军还困在波杰布拉迪城下，南边就传来了坏消息。1426年夏末，西吉斯蒙德的女婿、[[link:the-blind-war-god-1421]]奥地利公爵阿尔布雷希特[[/link]]入侵摩拉维亚南部，围住了紧挨着他自家边境、由胡斯派守着的布热茨拉夫。每一份绞杀波希米亚的计划里，阿尔布雷希特都是南边那道钳口：十字军从北面和西面压过来，他负责从下面夹。\n\n这时的普罗科普，已经被塔博尔军和孤儿军共同认作总首领。他放下波希米亚中部的仗，急行军赶往摩拉维亚。11月下半月，他在布热茨拉夫城下击败了阿尔布雷希特的军队，给被围了三个月、快要撑不住的守军送去了粮食、酒水和弹药。阿尔布雷希特只好收兵回家。\n\n普罗科普从这件事里悟出了一个道理：每回坐等敌人上门，仗都打在波希米亚和摩拉维亚的田地里，烧的也都是自家的村子。那为什么不换别人家的田地试试？[[b]]1427年3月，普罗科普率领塔博尔军和孤儿军约一万六千人越境进入奥地利：胡斯派第一次不再只是保卫自己的国家，而是把战火烧到了敌人家门口。[[/b]]他们一路烧了好几座修道院，随后围住了茨维特尔城。\n\n阿尔布雷希特可不打算就这么算了。他的军队由老将瓦尔塞的赖因普雷希特统领，加上奥地利本地的贵族，还有捷克布杰约维采的城防长官、克拉耶克的利波尔特这样的捷克天主教领主，一起向胡斯派的营地发起了进攻。关于这一仗的记载不多，但留下来的那一点，听着就像乌斯季的重演：重骑兵第一波冲锋占到了一点便宜，可胡斯派一反击，骑士们就乱了阵脚，四个钟头打下来，变成了一边倒的屠杀。就连开战的日子，史学家们至今还在争论是14号还是25号，可结局没什么好争的。《古捷克编年史》只用一句话就交代完了：大斋期间，奥地利的茨维特尔城下有一场大战，塔博尔派和孤儿派杀了许多德意志人，还把城烧了。对面的一位天主教编年史家，语气就没这么平静了：\n\n[[quote:0]]\n\n另一部编年史说是九千。不管哪个数字，茨维特尔都是胡斯派在外国土地上的第一场大胜，也改变了这场战争的打法。奥地利从此彻底转入守势。南线一安静，胡斯派就能腾出手来专心对付北方，那里，帝国已经在集结下一支十字军了。接下来几年，胡斯军一次次开进萨克森、西里西亚、匈牙利和弗兰肯，次数多到捷克人专门给这类远征起了个名字，叫“壮美远征”。被远征的那一方，给它起的名字就难听多了。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "In the battle at Zwettl those accursed Czech heretics slew some four thousand Christians.",
+          cz: "V bitvě u Světlé ti zlořečení čeští kacíři pobili na 4000 křesťanů.",
+          zh: "在茨维特尔一役中，那些该死的捷克异端杀了约四千名基督徒。",
+        },
+        attribution: {
+          en: "Andreas of Regensburg, Catholic chronicler, on the battle of March 1427",
+          cz: "Ondřej Řezenský, katolický kronikář, o bitvě v březnu 1427",
+          zh: "雷根斯堡的安德烈亚斯，天主教编年史家，记1427年3月之战",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Bitva_u_Sv%C4%9Btl%C3%A9",
+  },
 ];
 
 async function run() {
