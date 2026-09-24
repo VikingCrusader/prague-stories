@@ -29,15 +29,25 @@ export default function LocationCard({ location, onClick, distance }) {
 
   useLayoutEffect(() => {
     const el = labelRef.current;
-    if (!el || lang === 'zh') return;
-    el.style.fontSize = '';
-    const maxSize = parseFloat(getComputedStyle(el).fontSize);
-    let size = maxSize;
-    while (el.scrollWidth > el.offsetWidth && size > 9) {
-      size -= 0.5;
-      el.style.fontSize = `${size}px`;
-    }
-  }, [firstLabel, lang]);
+    if (!el) return;
+    if (lang === 'zh') { el.style.fontSize = ''; return; }
+    // Re-fit once web fonts finish loading (measuring against the narrower
+    // fallback font let Cinzel labels overflow) and whenever the card resizes.
+    const fit = () => {
+      el.style.fontSize = '';
+      let size = parseFloat(getComputedStyle(el).fontSize);
+      while (el.scrollWidth > el.clientWidth && size > 9) {
+        size -= 0.5;
+        el.style.fontSize = `${size}px`;
+      }
+    };
+    fit();
+    let cancelled = false;
+    document.fonts?.ready.then(() => { if (!cancelled) fit(); });
+    const ro = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(fit) : null;
+    ro?.observe(el);
+    return () => { cancelled = true; ro?.disconnect(); };
+  }, [firstLabel, lang, unlocked]);
 
   return (
     <div
