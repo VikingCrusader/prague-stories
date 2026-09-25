@@ -3,12 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "predev": "npm run generate:assets",
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run generate:assets && vite build",
     "preview": "vite preview",
     "test": "jest",
     "test:e2e": "playwright test",
-    "generate:covers": "node scripts/generateCoverManifest.mjs"
+    "generate:covers": "node scripts/generateCoverManifest.mjs",
+    "generate:assets": "node scripts/generateCoverManifest.mjs && node scripts/generateHistoryImageSizes.mjs"
   },
   "dependencies": {
     "axios": "^1.7.2",

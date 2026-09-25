@@ -93,3 +93,30 @@ describe('GET /api/user/achievements', () => {
     expect(firstStep.unlockedAt).not.toBeNull();
   });
 });
+
+describe('/api/user/history-progress', () => {
+  test('requires authentication', async () => {
+    expect((await request(app).get('/api/user/history-progress')).status).toBe(401);
+    expect((await request(app).put('/api/user/history-progress').send({ slug: 'x' })).status).toBe(401);
+  });
+
+  test('starts empty, then returns the last saved slug', async () => {
+    const { token } = await createAuthedUser();
+    const empty = await request(app).get('/api/user/history-progress').set('Authorization', `Bearer ${token}`);
+    expect(empty.body).toEqual({ slug: null, updatedAt: null });
+
+    await request(app).put('/api/user/history-progress').set('Authorization', `Bearer ${token}`).send({ slug: 'libuse-prophecy' });
+    const saved = await request(app).put('/api/user/history-progress').set('Authorization', `Bearer ${token}`).send({ slug: 'st-wenceslas-murder' });
+    expect(saved.status).toBe(200);
+
+    const res = await request(app).get('/api/user/history-progress').set('Authorization', `Bearer ${token}`);
+    expect(res.body.slug).toBe('st-wenceslas-murder');
+    expect(new Date(res.body.updatedAt).getTime()).toBeGreaterThan(0);
+  });
+
+  test('rejects a missing or non-string slug', async () => {
+    const { token } = await createAuthedUser();
+    const res = await request(app).put('/api/user/history-progress').set('Authorization', `Bearer ${token}`).send({ slug: 42 });
+    expect(res.status).toBe(400);
+  });
+});

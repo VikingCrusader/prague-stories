@@ -18,8 +18,9 @@
  *                                           exists
  *
  * Either mode writes `<slug>-v<timestamp>.webp`, the same cache-busting
- * naming convention the dev-mode upload endpoint uses. Run
- * `npm run generate:covers` (client/) afterward to rebuild the manifest.
+ * naming convention the dev-mode upload endpoint uses, plus its card-sized
+ * thumb in pixel-art/thumbs/. Run `npm run generate:covers` (client/)
+ * afterward to rebuild the manifest (it also runs before every client build).
  */
 
 import 'dotenv/config';
@@ -29,6 +30,7 @@ import https from 'https';
 import { fileURLToPath } from 'url';
 import { connectDB } from '../config/db.js';
 import Location from '../models/Location.js';
+import { writeCoverThumb, removeCoverThumb } from '../utils/coverThumb.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PIXEL_ART_DIR = path.resolve(__dirname, '../../../client/public/pixel-art');
@@ -86,15 +88,19 @@ async function run() {
       continue;
     }
 
-    const dest = path.join(PIXEL_ART_DIR, `${loc.slug}-v${Date.now()}.webp`);
+    const filename = `${loc.slug}-v${Date.now()}.webp`;
+    const dest = path.join(PIXEL_ART_DIR, filename);
     process.stdout.write(`  dl    ${loc.slug} ... `);
     try {
       await download(loc.coverImage, dest);
+      await writeCoverThumb(PIXEL_ART_DIR, filename, dest);
       // Remove older local file(s) for this slug so generate:covers doesn't
       // just fall back to picking the new one by version — no stale files
       // left lingering in the folder either.
       for (const f of existing) {
-        if (path.join(PIXEL_ART_DIR, f) !== dest) fs.unlinkSync(path.join(PIXEL_ART_DIR, f));
+        if (f === filename) continue;
+        fs.unlinkSync(path.join(PIXEL_ART_DIR, f));
+        removeCoverThumb(PIXEL_ART_DIR, f);
       }
       console.log('done');
       downloaded++;

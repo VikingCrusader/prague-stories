@@ -1,5 +1,7 @@
 import { Fragment, useEffect, useRef, useState } from 'react';
-import { historyAPI } from '../services/api';
+import { historyAPI, userAPI, saveHistoryProgressOnExit } from '../services/api';
+import { useAuth } from '../context/AuthContext';
+import { loadLocalHistoryProgress, saveLocalHistoryProgress, newerHistoryProgress } from '../utils/historyProgress';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
 import HistorySidebar from '../components/history/HistorySidebar';
 import HistoryEventSection from '../components/history/HistoryEventSection';
@@ -26,18 +28,56 @@ export default function HistoryPage() {
 
   const sectionEls = useRef(new Map());
 
+  // Reading progress: the page reopens at the event the reader was last on.
+  // `resumeSlug` is undefined while still being looked up, null for "start
+  // at the top". `restored` flips once the page has scrolled there; progress
+  // is only saved after that, so the initial top-of-page highlight never
+  // overwrites the saved position.
+  const { user } = useAuth();
+  const [resumeSlug, setResumeSlug] = useState(undefined);
+  const [restored, setRestored] = useState(false);
+  const pendingServerSave = useRef(null);
+
   useEffect(() => {
-    historyAPI.getAll()
+    if (restored) return;
+    const local = loadLocalHistoryProgress();
+    if (!user) { setResumeSlug(local?.slug ?? null); return; }
+    let cancelled = false;
+    userAPI.getHistoryProgress()
+      .then(res => res.data, () => null)
+      .then(server => {
+        if (!cancelled) setResumeSlug(newerHistoryProgress(local, server)?.slug ?? null);
+      });
+    return () => { cancelled = true; };
+  }, [user?._id]);
+
+  // Our own restore replaces the browser's pixel-offset one, which would
+  // land somewhere arbitrary now that the feed arrives asynchronously.
+  useEffect(() => {
+    if (!('scrollRestoration' in window.history)) return;
+    const previous = window.history.scrollRestoration;
+    window.history.scrollRestoration = 'manual';
+    return () => { window.history.scrollRestoration = previous; };
+  }, []);
+
+  // The API returns only the current language's text (see historyController),
+  // so switching language refetches. The previous language stays on screen
+  // until the new payload arrives, rather than flashing the spinner.
+  useEffect(() => {
+    let cancelled = false;
+    historyAPI.getAll(lang)
       .then(res => {
+        if (cancelled) return;
         setData(res.data);
         // Background cards (see HistoryEvent model) don't have a sidebar
         // entry to highlight, so the initial active slug should skip past
         // any leading one straight to the first real, dated event.
         const firstReal = res.data.events.find(e => e.cardType !== 'background');
-        if (firstReal) setActiveSlug(firstReal.slug);
+        if (firstReal) setActiveSlug(prev => prev ?? firstReal.slug);
       })
-      .finally(() => setLoading(false));
-  }, []);
+      .finally(() => { if (!cancelled) setLoading(false); });
+    return () => { cancelled = true; };
+  }, [lang]);
 
   // Scroll-spy: the sidebar is a persistent nav (sticky, see history.css)
   // sitting next to a normal scrollable feed of every event's full write-up
@@ -82,9 +122,65 @@ export default function HistoryPage() {
     return () => window.removeEventListener('scroll', onScroll);
   }, [data]);
 
+  useEffect(() => {
+    if (restored || !data || resumeSlug === undefined) return;
+    const el = resumeSlug && sectionEls.current.get(resumeSlug);
+    if (el) {
+      setActiveSlug(resumeSlug);
+      el.scrollIntoView({ block: 'start' });
+    }
+    setRestored(true);
+  }, [data, resumeSlug, restored]);
+
+  // Save on every change locally; for signed-in users also to the server,
+  // debounced while scrolling and flushed when the page is hidden or left.
+  useEffect(() => {
+    if (!restored || !activeSlug) return;
+    saveLocalHistoryProgress(activeSlug);
+    if (!user) return;
+    pendingServerSave.current = activeSlug;
+    const timer = setTimeout(() => {
+      pendingServerSave.current = null;
+      userAPI.saveHistoryProgress(activeSlug).catch(() => {});
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, [activeSlug, restored, user]);
+
+  useEffect(() => {
+    if (!user) return;
+    const flush = () => {
+      if (!pendingServerSave.current) return;
+      saveHistoryProgressOnExit(pendingServerSave.current);
+      pendingServerSave.current = null;
+    };
+    const onVisibility = () => { if (document.visibilityState === 'hidden') flush(); };
+    document.addEventListener('visibilitychange', onVisibility);
+    window.addEventListener('pagehide', flush);
+    return () => {
+      document.removeEventListener('visibilitychange', onVisibility);
+      window.removeEventListener('pagehide', flush);
+      flush();
+    };
+  }, [user]);
+
   const scrollToSlug = (slug) => {
     setActiveSlug(slug);
-    sectionEls.current.get(slug)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    const el = sectionEls.current.get(slug);
+    if (!el) return;
+    el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    // Panels off screen are laid out at a placeholder height
+    // (content-visibility, see history.css) until they are scrolled past, so
+    // the smooth scroll's destination can drift while it runs. Snap to the
+    // real position once it settles. Browsers without `scrollend` get a timer.
+    let done = false;
+    const settle = () => {
+      if (done) return;
+      done = true;
+      window.removeEventListener('scrollend', settle);
+      el.scrollIntoView({ block: 'start' });
+    };
+    if ('onscrollend' in window) window.addEventListener('scrollend', settle, { once: true });
+    else setTimeout(settle, 1200);
   };
   // Sidebar entries hand over the full event object (see HistorySidebar);
   // in-text cross-reference links inside a summary (see

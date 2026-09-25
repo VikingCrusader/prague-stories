@@ -34,8 +34,13 @@ function LocationCard({ location, onClick, distance }) {
     if (lang === 'zh') { el.style.fontSize = ''; return; }
     // Re-fit once web fonts finish loading (measuring against the narrower
     // fallback font let Cinzel labels overflow) and whenever the card resizes.
+    // Measuring forces layout, so skip cards the browser isn't rendering
+    // (inside a content-visibility: auto panel that is off screen, see
+    // history.css); measuring those one by one cost ~2 s on the History page.
+    // The ResizeObserver fits them once they are rendered and get a size.
     const fit = () => {
-      el.style.fontSize = '';
+      if (el.checkVisibility && !el.checkVisibility({ contentVisibilityAuto: true })) return;
+      if (el.style.fontSize) el.style.fontSize = '';
       let size = parseFloat(getComputedStyle(el).fontSize);
       while (el.scrollWidth > el.clientWidth && size > 9) {
         size -= 0.5;
@@ -59,11 +64,15 @@ function LocationCard({ location, onClick, distance }) {
       onAnimationEnd={e => { if (e.animationName === 'card-flip') setFlipping(false); }}
     >
       <div className="loc-card__banner" style={{ background: color }}>
+        {/* width/height give a lazy cover a square placeholder (covers are
+            almost all square) so the card doesn't grow when it loads. */}
         {localCover && !localFailed ? (
           <img
             src={thumbFailed ? localCover : toThumbPath(localCover)}
             alt={name}
             loading="lazy"
+            width={480}
+            height={480}
             decoding="async"
             onError={() => (thumbFailed ? setLocalFailed(true) : setThumbFailed(true))}
             style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
@@ -73,6 +82,8 @@ function LocationCard({ location, onClick, distance }) {
             src={toCloudThumbUrl(location.coverImage)}
             alt={name}
             loading="lazy"
+            width={480}
+            height={480}
             decoding="async"
             onError={() => setCoverFailed(true)}
             style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}

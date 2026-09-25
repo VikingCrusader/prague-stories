@@ -6,10 +6,14 @@ const { default: Location } = await import('../src/models/Location.js');
 const { default: CheckIn } = await import('../src/models/CheckIn.js');
 const { connectTestDB, closeTestDB, clearTestDB } = await import('./testUtils/db.js');
 const { createAuthedUser } = await import('./testUtils/auth.js');
+const { clearHistoryCache } = await import('../src/controllers/historyController.js');
 
 beforeAll(connectTestDB);
 afterAll(closeTestDB);
-afterEach(clearTestDB);
+afterEach(async () => {
+  await clearTestDB();
+  clearHistoryCache();
+});
 
 async function createEvent(overrides = {}) {
   return HistoryEvent.create({
@@ -64,6 +68,26 @@ describe('GET /api/history', () => {
     expect(res.body.events[0].relatedLandmarks[0].relation.en).toBe('r');
   });
 
+  test('?lang= returns only that language, falling back to en when it is missing', async () => {
+    await Location.create({
+      name: 'Statue of Přemysl and Libuše',
+      slug: 'sousosi-premysl-a-libuse',
+      localizedNames: { cz: 'Sousoší Přemysla a Libuše', zh: '普热米斯尔与莉布谢雕像' },
+      coordinates: { lat: 50.064, lng: 14.417 },
+    });
+    await createEvent({ hookLine: { en: 'hook en', cz: '', zh: '' } });
+
+    const res = await request(app).get('/api/history?lang=zh');
+    const event = res.body.events[0];
+
+    expect(event.title).toEqual({ zh: '莉布谢的预言' });
+    expect(event.hookLine).toEqual({ zh: 'hook en' });
+    expect(event.relatedLandmarks[0].relation).toEqual({ zh: 'r' });
+    // Not a { en, cz, zh } object (no en key), so left intact.
+    expect(event.relatedLandmarks[0].landmark.localizedNames.cz).toBe('Sousoší Přemysla a Libuše');
+    expect(res.body.eras[0].title).toEqual({ zh: expect.any(String) });
+  });
+
   test('drops a relatedLandmarks slug that has no matching location instead of returning a dead link', async () => {
     await createEvent(); // 'sousosi-premysl-a-libuse' is never created as a Location here
 
@@ -100,5 +124,20 @@ describe('GET /api/history', () => {
     const res = await request(app).get('/api/history').set('Authorization', `Bearer ${token}`);
 
     expect(res.body.events[0].relatedLandmarks[0].landmark.unlocked).toBe(true);
+  });
+});
+
+describe('GET /api/history caching', () => {
+  test('serves an edit made after the first request, without clearing the cache', async () => {
+    await createEvent();
+    const first = await request(app).get('/api/history?lang=en');
+    expect(first.body.events[0].title).toEqual({ en: "Libuše's Prophecy" });
+
+    // Same path the sync scripts use: a Mongoose updateOne bumps updatedAt.
+    await new Promise(r => setTimeout(r, 5));
+    await HistoryEvent.updateOne({ slug: 'libuse-prophecy' }, { $set: { 'title.en': 'Edited' } });
+
+    const second = await request(app).get('/api/history?lang=en');
+    expect(second.body.events[0].title).toEqual({ en: 'Edited' });
   });
 });

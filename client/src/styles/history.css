@@ -264,6 +264,16 @@
   border-radius: 6px;
   padding: 24px 28px;
   scroll-margin-top: 76px;
+  /* The feed renders every event at once (~220 panels, hundreds of thousands
+     of px tall). Without this, each full-page relayout (every CJK web-font
+     slice that finishes loading, every LocationCard label fit) re-laid out
+     the whole feed, 1–2 s each on the ZH page. Off-screen panels now skip
+     layout/paint and hold a placeholder height (`auto` = their last real
+     height once rendered). Placeholder heights make a long sidebar jump
+     land slightly off, which HistoryPage's scrollToSlug corrects when the
+     smooth scroll ends. Note this also clips anything drawn outside a panel. */
+  content-visibility: auto;
+  contain-intrinsic-size: auto 1800px;
 }
 
 /* Background-knowledge cards (see HistoryEvent.cardType) are explainer

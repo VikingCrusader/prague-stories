@@ -20,6 +20,14 @@ const userSchema = new mongoose.Schema({
     bonusUsed: { type: Boolean, default: false },
     _id: false,
   },
+  // Where the user last was in the History Timeline feed, so /history can
+  // reopen at that event on any device. `updatedAt` lets the client pick
+  // between this and its own localStorage copy, whichever is newer.
+  historyProgress: {
+    slug:      { type: String, default: null },
+    updatedAt: { type: Date, default: null },
+    _id: false,
+  },
 }, { timestamps: true });
 
 userSchema.pre('save', async function (next) {

@@ -8,6 +8,7 @@ import CheckIn from '../models/CheckIn.js';
 import { generateLocationDescription } from '../services/claudeService.js';
 import { RARITY_XP } from '../data/rarityMap.js';
 import cloudinary from '../config/cloudinary.js';
+import { writeCoverThumb, removeCoverThumb } from '../utils/coverThumb.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PIXEL_ART_DIR = path.resolve(__dirname, '../../../client/public/pixel-art');
@@ -221,6 +222,7 @@ export async function uploadCoverImage(req, res, next) {
     // Clean up old local file if it predates the Cloudinary migration
     if (location.coverImage?.startsWith('/pixel-art/')) {
       fs.unlink(path.join(PIXEL_ART_DIR, path.basename(location.coverImage)), () => {});
+      removeCoverThumb(PIXEL_ART_DIR, path.basename(location.coverImage));
     }
 
     const webpBuffer = await sharp(req.file.buffer).webp({ quality: 85 }).toBuffer();
@@ -236,7 +238,10 @@ export async function uploadCoverImage(req, res, next) {
     let localFilename = null;
     if (process.env.NODE_ENV !== 'production') {
       localFilename = `${req.params.slug}-v${Date.now()}.webp`;
-      uploads.push(fs.promises.writeFile(path.join(PIXEL_ART_DIR, localFilename), webpBuffer));
+      uploads.push(
+        fs.promises.writeFile(path.join(PIXEL_ART_DIR, localFilename), webpBuffer),
+        writeCoverThumb(PIXEL_ART_DIR, localFilename, webpBuffer),
+      );
     }
 
     const [result] = await Promise.all(uploads);

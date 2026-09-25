@@ -3,6 +3,9 @@ import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { useUserPosition } from '../../hooks/useUserPosition';
 import { haversineDistance } from '../../utils/geolocation';
 import LocationCard from '../locations/LocationCard';
+// Reserves each lazy image's space before it loads (see
+// scripts/generateHistoryImageSizes.mjs), so sidebar jumps land in place.
+import HISTORY_IMAGE_SIZES from '../../utils/historyImageSizes.json';
 
 // In-text cross-reference: "[[link:some-slug]]display text[[/link]]" inside
 // a summary paragraph becomes an underlined, clickable span that jumps to
@@ -202,7 +205,15 @@ export default function HistoryEventSection({ event, onOpenLandmark, onNavigateT
             const captionText = caption?.[lang] || caption?.en;
             return (
               <figure key={src} className="history-event__image-figure">
-                <img className="history-event__image" src={src} alt="" />
+                <img
+                  className="history-event__image"
+                  src={src}
+                  alt=""
+                  loading="lazy"
+                  decoding="async"
+                  width={HISTORY_IMAGE_SIZES[src]?.[0]}
+                  height={HISTORY_IMAGE_SIZES[src]?.[1]}
+                />
                 {captionText && (
                   // Reuses .history-landmark-caption rather than a new
                   // class — same "small muted caption under an image"

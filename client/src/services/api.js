@@ -37,7 +37,7 @@ export const checkinAPI = {
 };
 
 export const historyAPI = {
-  getAll: () => api.get('/history'),
+  getAll: (lang) => api.get('/history', { params: { lang } }),
 };
 
 export const userAPI = {
@@ -45,4 +45,20 @@ export const userAPI = {
   getAchievements:  () => api.get('/user/achievements'),
   getRandomDraw:    () => api.get('/user/random-draw'),
   drawRandomLocation: () => api.post('/user/random-draw'),
+  getHistoryProgress:  ()     => api.get('/user/history-progress'),
+  saveHistoryProgress: (slug) => api.put('/user/history-progress', { slug }),
 };
+
+// Same save as userAPI.saveHistoryProgress, but survives the page being
+// closed or reloaded mid-request (fetch keepalive; sendBeacon can't send the
+// Authorization header). Used when the History page is hidden or unloaded.
+export function saveHistoryProgressOnExit(slug) {
+  const token = localStorage.getItem('token');
+  if (!token) return;
+  fetch(`${BASE_URL}/user/history-progress`, {
+    method: 'PUT',
+    keepalive: true,
+    headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+    body: JSON.stringify({ slug }),
+  }).catch(() => {});
+}

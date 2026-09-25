@@ -1,3 +1,4 @@
+import User from '../models/User.js';
 import CheckIn from '../models/CheckIn.js';
 import Location from '../models/Location.js';
 import { ACHIEVEMENTS, LEVELS, calculateLevel, RANDOM_DRAW_WINDOW_MS } from '../services/gamification.js';
@@ -148,4 +149,26 @@ export async function getAchievements(req, res) {
     unlockedAt:     req.user?.achievements.find(a => a.id === ach.id)?.unlockedAt ?? null,
   }));
   res.json({ achievements: all, levels: LEVELS });
+}
+
+export async function getHistoryProgress(req, res) {
+  const { slug = null, updatedAt = null } = req.user.historyProgress ?? {};
+  res.json({ slug, updatedAt });
+}
+
+// Saves the History Timeline event the user is currently reading. Sent often
+// (debounced while scrolling, and once more when the page is hidden), so it's
+// a single targeted update rather than a document save.
+export async function saveHistoryProgress(req, res, next) {
+  try {
+    const { slug } = req.body ?? {};
+    if (typeof slug !== 'string' || !slug || slug.length > 200) {
+      return res.status(400).json({ message: 'slug is required' });
+    }
+    const updatedAt = new Date();
+    await User.updateOne({ _id: req.user._id }, { $set: { historyProgress: { slug, updatedAt } } });
+    res.json({ slug, updatedAt });
+  } catch (err) {
+    next(err);
+  }
 }
