@@ -579,6 +579,19 @@ export function LanguageProvider({ children }) {
   );
 }
 
+// Renders `children` as if the app language were `lang`, leaving the rest of
+// the context (zhVariant, changeLang) intact. Used where content arrives in
+// one language only and must keep rendering in that language until the
+// payload for a newly chosen language has loaded (see HistoryPage).
+export function LanguageOverride({ lang, children }) {
+  const ctx = useContext(LanguageContext);
+  return (
+    <LanguageContext.Provider value={{ ...ctx, lang: lang ?? ctx.lang }}>
+      {children}
+    </LanguageContext.Provider>
+  );
+}
+
 export function useLang() {
   return useContext(LanguageContext);
 }

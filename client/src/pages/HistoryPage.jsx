@@ -2,7 +2,7 @@ import { Fragment, useEffect, useRef, useState } from 'react';
 import { historyAPI, userAPI, saveHistoryProgressOnExit } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { loadLocalHistoryProgress, saveLocalHistoryProgress, newerHistoryProgress } from '../utils/historyProgress';
-import { useT, useLang, useConvert } from '../context/LanguageContext';
+import { useT, useLang, useConvert, LanguageOverride } from '../context/LanguageContext';
 import HistorySidebar from '../components/history/HistorySidebar';
 import HistoryEventSection from '../components/history/HistoryEventSection';
 import HistoryEraDivider from '../components/history/HistoryEraDivider';
@@ -14,6 +14,11 @@ export default function HistoryPage() {
   const convert = useConvert();
 
   const [data, setData] = useState(null);
+  // Language `data` is in. The API sends one language only, so right after a
+  // language switch `data` is still the old language; the feed keeps
+  // rendering in `dataLang` until the new payload arrives (reading the new
+  // language's keys from old data found nothing and crashed the page).
+  const [dataLang, setDataLang] = useState(null);
   const [loading, setLoading] = useState(true);
   // Which event's sidebar entry is highlighted — driven by scroll position
   // (see the scroll-spy effect below), and also set directly on a sidebar
@@ -74,6 +79,7 @@ export default function HistoryPage() {
       .then(res => {
         if (cancelled) return;
         setData(res.data);
+        setDataLang(lang);
         // Background cards (see HistoryEvent model) don't have a sidebar
         // entry to highlight, so the initial active slug should skip past
         // any leading one straight to the first real, dated event.
@@ -226,6 +232,8 @@ export default function HistoryPage() {
           <div className="spinner" />
         </div>
       ) : data ? (
+        <LanguageOverride lang={dataLang}>
+        <WithLang>{({ lang: viewLang, convert: viewConvert, t: viewT }) => (
         <div className="history-layout">
           <HistorySidebar
             eras={data.eras}
@@ -235,9 +243,9 @@ export default function HistoryPage() {
             // era 1 on every reload on top of the era actually being read.
             selectedSlug={restored ? activeSlug : null}
             onSelectEvent={scrollToEvent}
-            lang={lang}
-            convert={convert}
-            t={t}
+            lang={viewLang}
+            convert={viewConvert}
+            t={viewT}
           />
           <div className="history-feed">
             {data.events.map((event, i) => {
@@ -252,7 +260,7 @@ export default function HistoryPage() {
               const era = eraChanged ? data.eras.find(e => e.key === event.era) : null;
               return (
                 <Fragment key={event.slug}>
-                  {era && <HistoryEraDivider era={era} lang={lang} convert={convert} />}
+                  {era && <HistoryEraDivider era={era} lang={viewLang} convert={viewConvert} />}
                   <HistoryEventSection
                     event={event}
                     onOpenLandmark={setOpenLandmarkSlug}
@@ -267,6 +275,8 @@ export default function HistoryPage() {
             })}
           </div>
         </div>
+        )}</WithLang>
+        </LanguageOverride>
       ) : null}
 
       {openLandmarkSlug && (
@@ -278,4 +288,14 @@ export default function HistoryPage() {
       )}
     </div>
   );
+}
+
+// Hands the (possibly overridden, see LanguageOverride) language, converter
+// and translator of the surrounding context to a render function, for the
+// sidebar and era dividers, which take them as props.
+function WithLang({ children }) {
+  const { lang } = useLang();
+  const convert = useConvert();
+  const t = useT();
+  return children({ lang, convert, t });
 }
