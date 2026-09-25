@@ -27,6 +27,11 @@ export default function HistoryPage() {
   const [openLandmarkSlug, setOpenLandmarkSlug] = useState(null);
 
   const sectionEls = useRef(new Map());
+  // Set while a sidebar/link jump is animating. Scroll-spy pauses meanwhile,
+  // so the highlight (and the sidebar, which scrolls to follow it) doesn't
+  // run through every event passed on the way. The sidebar moving mid-jump
+  // also cut Chrome's smooth scroll short, making the jump instant.
+  const jumpRef = useRef(null);
 
   // Reading progress: the page reopens at the event the reader was last on.
   // `resumeSlug` is undefined while still being looked up, null for "start
@@ -97,6 +102,7 @@ export default function HistoryPage() {
 
     const recompute = () => {
       raf = null;
+      if (jumpRef.current) return; // a sidebar/link jump is animating
       let current = data.events.find(e => e.cardType !== 'background')?.slug ?? null;
       for (const event of data.events) {
         const el = sectionEls.current.get(event.slug);
@@ -168,19 +174,37 @@ export default function HistoryPage() {
     const el = sectionEls.current.get(slug);
     if (!el) return;
     el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+
     // Panels off screen are laid out at a placeholder height
     // (content-visibility, see history.css) until they are scrolled past, so
     // the smooth scroll's destination can drift while it runs. Snap to the
-    // real position once it settles. Browsers without `scrollend` get a timer.
-    let done = false;
-    const settle = () => {
-      if (done) return;
-      done = true;
-      window.removeEventListener('scrollend', settle);
-      el.scrollIntoView({ block: 'start' });
+    // real position once the page stops moving. Polled rather than waiting
+    // for `scrollend`, which an interrupted earlier scroll can fire right as
+    // this one starts. If the reader takes over (wheel, touch, keys), let go.
+    jumpRef.current?.cancel();
+    const started = performance.now();
+    let lastY = window.scrollY;
+    let timer = null;
+    const finish = snap => {
+      clearInterval(timer);
+      removeEventListener('wheel', takeOver);
+      removeEventListener('touchstart', takeOver);
+      removeEventListener('keydown', takeOver);
+      jumpRef.current = null;
+      if (snap) el.scrollIntoView({ block: 'start' });
+      window.dispatchEvent(new Event('scroll')); // let scroll-spy catch up
     };
-    if ('onscrollend' in window) window.addEventListener('scrollend', settle, { once: true });
-    else setTimeout(settle, 1200);
+    const takeOver = () => finish(false);
+    timer = setInterval(() => {
+      const elapsed = performance.now() - started;
+      const y = window.scrollY;
+      if ((y === lastY && elapsed > 250) || elapsed > 4000) finish(true);
+      lastY = y;
+    }, 100);
+    addEventListener('wheel', takeOver, { passive: true });
+    addEventListener('touchstart', takeOver, { passive: true });
+    addEventListener('keydown', takeOver);
+    jumpRef.current = { cancel: () => finish(false) };
   };
   // Sidebar entries hand over the full event object (see HistorySidebar);
   // in-text cross-reference links inside a summary (see
@@ -206,7 +230,10 @@ export default function HistoryPage() {
           <HistorySidebar
             eras={data.eras}
             events={data.events}
-            selectedSlug={activeSlug}
+            // Held back until the reading position is restored: before that,
+            // activeSlug is the first event, and the sidebar would auto-expand
+            // era 1 on every reload on top of the era actually being read.
+            selectedSlug={restored ? activeSlug : null}
             onSelectEvent={scrollToEvent}
             lang={lang}
             convert={convert}

@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 
 // Vertical, always-visible event list grouped by era — the sidebar replaces
 // the earlier horizontal scroll-snap track entirely (see conversation this
@@ -38,6 +38,55 @@ export default function HistorySidebar({ eras, events, selectedSlug, onSelectEve
     setExpanded(prev => (prev.has(selectedEra) ? prev : new Set(prev).add(selectedEra)));
   }, [selectedEra]);
 
+  // On desktop the sidebar is its own scroll box (history.css). When the
+  // reader enters a new era, scroll that box so the era's heading sits at the
+  // top; while reading within an era, nudge it just enough to keep the
+  // highlighted entry visible. Only the sidebar's own scrollTop is set, never
+  // scrollIntoView, which would also scroll the page. On mobile the sidebar
+  // doesn't scroll internally, so this is a no-op there.
+  const navRef = useRef(null);
+  const eraEls = useRef(new Map());
+  const lastPinnedEra = useRef(null);
+  // Slug the scroll position was last adjusted for, so a manual era toggle
+  // (which also re-runs this effect) never moves the sidebar.
+  const handledSlug = useRef(null);
+  // An entry the reader clicked is already on screen, so its selection never
+  // moves the sidebar (moving it mid-click also cut the page's smooth scroll
+  // short in Chrome).
+  const clickedSlug = useRef(null);
+
+  useLayoutEffect(() => {
+    const nav = navRef.current;
+    if (!nav || !selectedSlug || selectedSlug === handledSlug.current) return;
+    if (nav.scrollHeight <= nav.clientHeight) return;
+    const navTop = nav.getBoundingClientRect().top + nav.clientTop;
+    const offsetIn = el => el.getBoundingClientRect().top - navTop + nav.scrollTop;
+    if (selectedSlug === clickedSlug.current) {
+      clickedSlug.current = null;
+      handledSlug.current = selectedSlug;
+      lastPinnedEra.current = selectedEra;
+      return;
+    }
+    const item = nav.querySelector('.history-sidebar__item--active');
+    const eraEl = eraEls.current.get(selectedEra);
+    if (!item) return; // era not expanded yet; runs again once it is
+    handledSlug.current = selectedSlug;
+
+    const itemTop = offsetIn(item);
+    const itemBottom = itemTop + item.offsetHeight;
+    let target = nav.scrollTop;
+    if (eraEl && lastPinnedEra.current !== selectedEra) {
+      lastPinnedEra.current = selectedEra;
+      target = offsetIn(eraEl);
+      if (itemBottom > target + nav.clientHeight) target = itemTop - nav.clientHeight / 2;
+    } else if (itemTop < nav.scrollTop) {
+      target = itemTop;
+    } else if (itemBottom > nav.scrollTop + nav.clientHeight) {
+      target = itemBottom - nav.clientHeight;
+    }
+    nav.scrollTop = Math.max(0, target);
+  }, [selectedSlug, selectedEra, expanded]);
+
   const toggleEra = key => {
     setExpanded(prev => {
       const next = new Set(prev);
@@ -48,12 +97,19 @@ export default function HistorySidebar({ eras, events, selectedSlug, onSelectEve
   };
 
   return (
-    <nav className="history-sidebar">
+    <nav className="history-sidebar" ref={navRef}>
       {eras.map(era => {
         const eraEvents = eventsByEra.get(era.key) || [];
         const isOpen = expanded.has(era.key);
         return (
-          <div key={era.key} className={`history-sidebar__era ${era.themeClass}`}>
+          <div
+            key={era.key}
+            className={`history-sidebar__era ${era.themeClass}`}
+            ref={el => {
+              if (el) eraEls.current.set(era.key, el);
+              else eraEls.current.delete(era.key);
+            }}
+          >
             <button
               type="button"
               className="history-sidebar__era-title history-sidebar__era-title--toggle"
@@ -81,7 +137,7 @@ export default function HistorySidebar({ eras, events, selectedSlug, onSelectEve
               <button
                 key={ev.slug}
                 className={`history-sidebar__item${ev.slug === selectedSlug ? ' history-sidebar__item--active' : ''}`}
-                onClick={() => onSelectEvent(ev)}
+                onClick={() => { clickedSlug.current = ev.slug; onSelectEvent(ev); }}
               >
                 <span className="history-sidebar__item-year">{Math.trunc(ev.startYear)}</span>{/* startYear can carry a decimal tie-break suffix (e.g. 1254.1) for same-year ordering; only the truncated integer is ever meant to be shown */}
                 <span className="history-sidebar__item-title">{convert(ev.title[lang] || ev.title.en)}</span>
