@@ -161,7 +161,10 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
           <button
             className={`filter-btn${discovered ? ' filter-btn--active' : ''}`}
             onClick={() => {
-              if (discovered && sort === 'checkin') setSort('distance');
+              // "My collection" opens sorted by most recently collected; leaving
+              // it drops that sort, which only exists inside the collection.
+              if (discovered) { if (sort === 'checkin') setSort('distance'); }
+              else setSort('checkin');
               setDiscovered(d => !d);
             }}
           >

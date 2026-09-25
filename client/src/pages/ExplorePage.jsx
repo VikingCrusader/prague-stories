@@ -59,7 +59,7 @@ export default function ExplorePage() {
   }, []);
 
   const handleCheckIn = (slug, result) => {
-    setLocations(prev => prev.map(l => l.slug === slug ? { ...l, unlocked: true } : l));
+    setLocations(prev => prev.map(l => l.slug === slug ? { ...l, unlocked: true, _checkedInAt: new Date().toISOString() } : l));
     addToast(`+${result.xpEarned} XP earned! ${result.levelInfo.title}`);
     result.newAchievements?.forEach(a =>
       addToast(`Achievement unlocked: ${a.id.replace(/_/g, ' ')}`, 'info')
