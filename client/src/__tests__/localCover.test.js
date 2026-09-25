@@ -1,4 +1,4 @@
-import { getLocalCoverPath } from '../utils/localCover.js';
+import { getLocalCoverPath, toThumbPath, toCloudThumbUrl } from '../utils/localCover.js';
 
 jest.mock('../utils/coverManifest.json', () => ({
   'with-version': 'with-version-v1790002621854.webp',
@@ -42,5 +42,19 @@ describe('getLocalCoverPath', () => {
     expect(
       getLocalCoverPath('with-version', 'https://res.cloudinary.com/demo/image/upload/x.webp')
     ).toBe('/pixel-art/with-version-v1790002621854.webp');
+  });
+});
+
+describe('card thumbnails', () => {
+  test('toThumbPath points a local cover at its thumbs/ copy', () => {
+    expect(toThumbPath('/pixel-art/with-version-v1790002621854.webp'))
+      .toBe('/pixel-art/thumbs/with-version-v1790002621854.webp');
+    expect(toThumbPath(null)).toBeNull();
+  });
+
+  test('toCloudThumbUrl adds a resize transform to Cloudinary URLs only', () => {
+    expect(toCloudThumbUrl('https://res.cloudinary.com/x/image/upload/v1784204857/prague-stories/covers/a.webp'))
+      .toBe('https://res.cloudinary.com/x/image/upload/f_auto,q_auto,w_480/v1784204857/prague-stories/covers/a.webp');
+    expect(toCloudThumbUrl('/pixel-art/a-1782389478834.webp')).toBe('/pixel-art/a-1782389478834.webp');
   });
 });

@@ -29,3 +29,23 @@ export function getLocalCoverPath(slug, cloudUrl) {
 
   return `/pixel-art/${filename}`;
 }
+
+/**
+ * Card-sized copy of a local cover path (see generateCoverManifest.mjs, which
+ * writes public/pixel-art/thumbs/<same filename>). Grid cards use this; callers
+ * should fall back to the full-size path if the thumb fails to load (e.g. a
+ * cover added through the dev upload endpoint before thumbs were regenerated).
+ */
+export function toThumbPath(localPath) {
+  return localPath ? localPath.replace(/^\/pixel-art\//, '/pixel-art/thumbs/') : null;
+}
+
+/**
+ * Cloudinary delivery URL resized for a grid card, with automatic format and
+ * quality. Non-Cloudinary URLs are returned unchanged.
+ */
+export function toCloudThumbUrl(url) {
+  return url && url.includes('res.cloudinary.com') && url.includes('/upload/')
+    ? url.replace('/upload/', '/upload/f_auto,q_auto,w_480/')
+    : url;
+}

@@ -1,6 +1,6 @@
 import { useState, useRef, useLayoutEffect, useEffect, memo } from 'react';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap';
-import { getLocalCoverPath } from '../../utils/localCover';
+import { getLocalCoverPath, toThumbPath, toCloudThumbUrl } from '../../utils/localCover';
 import { useLang, useConvert } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
 import { RARITY_COLOR, RARITY_LABEL, lockClosedIcon, lockOpenIcon } from '../../utils/rarity';
@@ -16,6 +16,7 @@ function LocationCard({ location, onClick, distance }) {
   const color = LABEL_COLORS[labels[0]] || '#1a2a5a';
   const firstLabel = labels[0];
   const localCover = getLocalCoverPath(slug, location.coverImage);
+  const [thumbFailed, setThumbFailed] = useState(false);
   const [localFailed, setLocalFailed] = useState(false);
   const [coverFailed, setCoverFailed] = useState(false);
   const [flipping,    setFlipping]    = useState(false);
@@ -60,15 +61,19 @@ function LocationCard({ location, onClick, distance }) {
       <div className="loc-card__banner" style={{ background: color }}>
         {localCover && !localFailed ? (
           <img
-            src={localCover}
+            src={thumbFailed ? localCover : toThumbPath(localCover)}
             alt={name}
-            onError={() => setLocalFailed(true)}
+            loading="lazy"
+            decoding="async"
+            onError={() => (thumbFailed ? setLocalFailed(true) : setThumbFailed(true))}
             style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
           />
         ) : location.coverImage && !coverFailed ? (
           <img
-            src={location.coverImage}
+            src={toCloudThumbUrl(location.coverImage)}
             alt={name}
+            loading="lazy"
+            decoding="async"
             onError={() => setCoverFailed(true)}
             style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
           />
