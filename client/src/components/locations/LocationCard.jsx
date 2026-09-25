@@ -1,4 +1,4 @@
-import { useState, useRef, useLayoutEffect, useEffect } from 'react';
+import { useState, useRef, useLayoutEffect, useEffect, memo } from 'react';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap';
 import { getLocalCoverPath } from '../../utils/localCover';
 import { useLang, useConvert } from '../../context/LanguageContext';
@@ -7,7 +7,7 @@ import { RARITY_COLOR, RARITY_LABEL, lockClosedIcon, lockOpenIcon } from '../../
 import { playUnlockSound } from '../../utils/sound';
 import { formatDistance } from '../../utils/geolocation';
 
-export default function LocationCard({ location, onClick, distance }) {
+function LocationCard({ location, onClick, distance }) {
   const { lang } = useLang();
   const convert = useConvert();
   const { labels = [], pixelArtKey, xpReward, rarity = 'common', unlocked, slug } = location;
@@ -128,3 +128,5 @@ export default function LocationCard({ location, onClick, distance }) {
     </div>
   );
 }
+
+export default memo(LocationCard);

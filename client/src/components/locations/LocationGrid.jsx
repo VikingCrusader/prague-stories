@@ -1,4 +1,4 @@
-import { useState, useMemo, useEffect, useRef } from 'react';
+import { useState, useMemo, useEffect, useRef, useDeferredValue } from 'react';
 import LocationCard from './LocationCard';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
@@ -9,6 +9,10 @@ const RARITY_ORDER = { legend: 0, mythic: 1, epic: 2, superior: 3, rare: 4, comm
 const SORT_MODES = ['distance', 'newest', 'rarity'];
 const SORT_MODES_COLLECTED = ['distance', 'newest', 'rarity', 'checkin'];
 const SORT_KEY = { distance: 'grid.sortDistance', newest: 'grid.sortNewest', rarity: 'grid.sortRarity', checkin: 'grid.sortCheckin' };
+// Cards are mounted in batches as the user scrolls — mounting all ~1300 at once
+// (each with a cover image, a label-fit measurement and a ResizeObserver) made
+// every search keystroke stall.
+const PAGE_SIZE = 60;
 
 export default function LocationGrid({ locations, onCardClick, onAddClick }) {
   const t = useT();
@@ -22,7 +26,12 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
   const [sortOpen, setSortOpen]             = useState(false);
   const [sort, setSort]                     = useState('distance');
   const [search, setSearch]                 = useState('');
+  const [visibleCount, setVisibleCount]     = useState(PAGE_SIZE);
+  // Filter against a deferred copy so the input itself stays responsive while
+  // the grid catches up in a lower-priority render.
+  const deferredSearch = useDeferredValue(search);
   const labelPanelRef  = useRef(null);
+  const sentinelRef    = useRef(null);
   const rarityPanelRef = useRef(null);
   const sortPanelRef   = useRef(null);
 
@@ -88,12 +97,13 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
     if (activeRarities.size > 0) {
       list = list.filter(l => activeRarities.has(l.rarity ?? 'common'));
     }
-    if (search.trim()) {
-      const q = search.toLowerCase();
+    const trimmed = deferredSearch.trim();
+    if (trimmed) {
+      const q = deferredSearch.toLowerCase();
       list = list.filter(l =>
         l.name.toLowerCase().includes(q) ||
         l.localizedNames?.cz?.toLowerCase().includes(q) ||
-        l.localizedNames?.zh?.includes(search.trim())
+        l.localizedNames?.zh?.includes(trimmed)
       );
     }
     list = [...list].sort((a, b) => {
@@ -104,7 +114,23 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
       return 0;
     });
     return list;
-  }, [locations, discovered, activeLabels, activeRarities, search, sort]);
+  }, [locations, discovered, activeLabels, activeRarities, deferredSearch, sort]);
+
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [discovered, activeLabels, activeRarities, deferredSearch, sort]);
+
+  const hasMore = visibleCount < filtered.length;
+
+  useEffect(() => {
+    const el = sentinelRef.current;
+    if (!el || !hasMore || typeof IntersectionObserver === 'undefined') return;
+    const io = new IntersectionObserver(entries => {
+      if (entries[0].isIntersecting) setVisibleCount(c => c + PAGE_SIZE);
+    }, { rootMargin: '800px 0px' });
+    io.observe(el);
+    return () => io.disconnect();
+  }, [hasMore, visibleCount]);
 
   const unlocked = locations.filter(l => l.unlocked).length;
   const total    = locations.length;
@@ -236,7 +262,7 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
       </div>
 
       <div className="location-grid">
-        {filtered.map(loc => (
+        {filtered.slice(0, visibleCount).map(loc => (
           <LocationCard key={loc._id} location={loc} onClick={onCardClick} distance={loc._distance} />
         ))}
         {filtered.length === 0 && (
@@ -245,6 +271,7 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
           </p>
         )}
       </div>
+      {hasMore && <div ref={sentinelRef} style={{ height: 1 }} />}
     </>
   );
 }
