@@ -30160,6 +30160,986 @@ Malešov, poprvé zmíněný v roce 1303, vyrostl kolem své tvrze, doložené o
 🎁 彩蛋：一个不靠海的波希米亚村子，凭什么拥有全国仅有的两具鲸鱼骨架之一？因为博物馆最得意的本地名人叫卡雷尔·约纳什，而“约纳什”在捷克语里就是约拿，那个在大鱼肚子里住过的先知。本地英雄既然跟他同名，鲸鱼自然也就跟着来了。`,
     },
   },
+  {
+    // Added 2026-09-23 at the user's request (coordinates user-supplied).
+    // Sources: sochyamesta.cz record 13699 ("Žena", Kurt Gebauer, architect
+    // Ivo Oberstein, bronze, 1989, 214 cm, 2019 vandalism note),
+    // prazskekasny.cz and praha13.cz (artificial pond above St. James's,
+    // mains top-up in summer, limestone blocks, repeated paint vandalism),
+    // drobnepamatky.cz (coordinates match), cs.wikipedia (Kurt Gebauer).
+    // Rarity 'common' is my own pick.
+    name: 'Woman with Flowers (Rusalka)',
+    slug: 'socha-zena-s-kvety-rusalka',
+    localizedNames: { cz: 'Socha Žena s květy (Rusalka)', zh: '持花女子（水仙女）雕像' },
+    labels: ['monument', 'waterbody', 'hidden-gem'],
+    coordinates: { lat: 50.04882216976016, lng: 14.31123256641784 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kurt_Gebauer',
+    description: {
+      en: `In a small pond in old Stodůlky, a bronze woman stands among limestone blocks holding her flowers, looking calm about everything. Officially she is "Woman with Flowers". Everyone in the neighbourhood calls her Rusalka, the water nymph, because she lives in a pond and nobody asked her opinion on the matter.
+
+She was made in 1989 by the sculptor Kurt Gebauer, with the architect Ivo Oberstein, as part of the public art that came with the Southwest City housing estate. She is a little over two metres tall. The pond itself is newer than it looks. Stodůlky was a farming village until it was joined to Prague in 1974, and its old village pond sat on the square. When the estate went up in the 1980s, the builders made this artificial pond on the site above the Church of St. James the Greater, but the construction also cut off the spring that fed the water. Since then the pond has been topped up from the mains in summer. The church just below is much older: its patronage was handed to the Knights Templar in 1292, and the present neo-Gothic building dates from 1903. Gebauer, born in 1941, went on to run the sculpture studio at Prague's College of Arts, Architecture and Design from 1990, where David Černý was one of his students. His other Prague works include a sculpture sunk in the Vltava in front of the National Theatre (2000) and the heart for Václav Havel (2016).
+
+🎁 Bonus: Rusalka has had a hard life for a statue. Vandals keep painting her in different colours, and a 2019 survey found paint on her chest, arms, legs, shoulders and hair, plus a coat of black paint someone had put on top to cover it. In Dvořák's opera, Rusalka gives up her voice for love. This one never had a voice to give up, which is probably why she just stands there and takes it.`,
+
+      cz: `V malém jezírku ve starých Stodůlkách stojí mezi vápencovými kvádry bronzová žena s květy a tváří se klidně úplně ke všemu. Oficiálně se jmenuje „Žena s květy“. Celé okolí jí ale říká Rusalka, protože bydlí v jezírku a na její názor se nikdo neptal.
+
+Vytvořil ji v roce 1989 sochař Kurt Gebauer spolu s architektem Ivem Obersteinem jako součást výtvarné výzdoby sídliště Jihozápadní Město. Měří něco přes dva metry. Samotné jezírko je mladší, než vypadá. Stodůlky byly zemědělskou vsí až do připojení k Praze v roce 1974 a původní rybníček ležel na návsi. Když v 80. letech rostlo sídliště, stavbaři vybudovali tohle umělé jezírko nad kostelem svatého Jakuba Staršího, stavba ale zároveň přerušila pramen, který ho napájel. Od té doby se voda v létě doplňuje z vodovodu. Kostel pod ním je mnohem starší: patronát nad ním získali v roce 1292 templáři a dnešní novogotická stavba pochází z roku 1903. Gebauer, narozený v roce 1941, od roku 1990 vedl ateliér sochařství na pražské VŠUP, kde k jeho studentům patřil David Černý. Mezi jeho další pražská díla patří ponorná socha ve Vltavě před Národním divadlem (2000) a srdce pro Václava Havla (2016).
+
+🎁 Bonus: Rusalka to na sochu nemá jednoduché. Vandalové ji opakovaně natírají různými barvami a průzkum z roku 2019 našel barvu na hrudi, pažích, nohou, ramenou i vlasech, a navrch ještě vrstvu černé barvy, kterou to někdo zakryl. V Dvořákově opeře se Rusalka pro lásku vzdá hlasu. Tahle žádný hlas neměla, a tak nejspíš proto jen stojí a snáší to.`,
+
+      zh: `斯托杜尔基老村的一个小池塘里，一位青铜女子手捧鲜花，站在一堆石灰岩块中间，对什么事都一脸淡定。她的正式名字叫“持花女子”，可街坊邻居都管她叫“水仙女”，因为她住在池塘里，而且谁也没问过她本人的意见。
+
+她诞生于1989年，出自雕塑家库尔特·格鲍尔之手，建筑师伊沃·奥伯施泰因参与设计，是西南新城住宅区配套的公共艺术之一，身高两米出头。池塘本身其实比看上去年轻。斯托杜尔基直到1974年并入布拉格之前一直是个农业村庄，原来的村塘在村中广场上。1980年代盖住宅区时，施工方在圣雅各伯教堂上方修了这个人工池塘，可施工也顺手截断了给它供水的泉眼。从那以后，池塘每到夏天就得靠自来水补水。池塘下方的教堂要古老得多：1292年，它的庇护权交给了圣殿骑士团，现在这座新哥特式建筑建于1903年。格鲍尔生于1941年，1990年起在布拉格工艺美术学院主持雕塑工作室，大卫·切尔尼就是他的学生。他在布拉格的其他作品还有沉在国家剧院前伏尔塔瓦河里的一座雕塑（2000年）和献给瓦茨拉夫·哈维尔的心形雕塑（2016年）。
+
+🎁 彩蛋：作为一座雕像，水仙女的日子过得不太容易。总有人拿各种颜色的油漆往她身上涂，2019年的一次调查发现她胸口、手臂、腿、肩膀和头发上全是漆，上面还有人刷了一层黑漆想盖住。德沃夏克歌剧里的水仙女为了爱情放弃了声音。这一位本来就没有声音可以放弃，大概这就是她只能站在那儿默默忍着的原因。`,
+    },
+  },
+  {
+    // Added 2026-09-23 at the user's request (coordinates user-supplied).
+    // Sources: cs.wikipedia (Most metra Hůrka–Lužiny: opened 11 Nov 1994,
+    // 375 m, 17 m, architect V. Kraus, windows widening towards the tunnels,
+    // no roof path unlike the Rajská zahrada–Černý Most bridge), zdopravy.cz
+    // 25 Jan 2026 (CZK 120m repair over two seasons, glazing replacement,
+    // fatigue cracks), Radio Prague via search snippet (David Černý's
+    // "Zácpa"/"Boule" proposal; the article itself returned 403, year not
+    // confirmed, so left undated). Central Park already has its own card
+    // (centralni-park-praha). Rarity 'rare' is my own pick.
+    name: 'Hůrka–Lužiny Metro Bridge',
+    slug: 'most-metra-hurka-luziny',
+    localizedNames: { cz: 'Most metra Hůrka–Lužiny', zh: '胡尔卡—卢日尼地铁桥' },
+    labels: ['transport', 'bridge', 'modern'],
+    coordinates: { lat: 50.04566707409706, lng: 14.33508924008157 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Most_metra_H%C5%AFrka_%E2%80%93_Lu%C5%BEiny',
+    description: {
+      en: `For most of its length the Prague metro hides underground, as a metro should. Between Hůrka and Lužiny, Line B suddenly pops out, crosses a whole valley inside a long glass-and-steel tube, and dives back into the ground. From the park below it looks like a giant silver caterpillar on stilts.
+
+The bridge opened on 11 November 1994, together with the whole stretch of Line B out to Zličín, which was built to serve the huge housing estates of Southwest City. It is 375 metres long and at its highest stands 17 metres above the ground, carrying both tracks across the valley of the Prokopský stream, over Central Park and the Nepomucký pond. It is an enclosed welded steel structure designed by the architect V. Kraus, and it has one thoughtful detail that most passengers never notice: the windows get gradually larger as the train approaches the tube from the tunnel, so your eyes can adjust instead of being blinded by the sudden daylight. Line B has a second, similar tube at the other end of the line, between Rajská zahrada and Černý Most, but that one has a cycle and walking path on its roof. This one doesn't. After more than thirty years of service the bridge is showing its age, and in 2026 the transport company announced a repair costing about 120 million crowns over two building seasons, including fixing fatigue cracks at the corners of the openings, redoing faulty welds and replacing all the glazing. Trains keep running during the day, and the work inside the tube is done during the night-time break.
+
+🎁 Bonus: The sculptor David Černý, famous for Prague's crawling babies and peeing men, once proposed giving the smooth tube a big bulge in one spot. He first called it "Zácpa", which means both "traffic jam" and "constipation" in Czech. According to Černý, the head of the transport company turned it down as ugly and too reminiscent of a terrorist attack, so he renamed it "Boule" ("The Bump"), and Prague's councillors approved it. The tube is still perfectly smooth today.`,
+
+      cz: `Pražské metro se většinou schovává pod zemí, jak se na metro sluší. Mezi Hůrkou a Lužinami ale linka B najednou vyjede ven, přejede celé údolí v dlouhém tubusu ze skla a oceli a zase se zanoří. Z parku pod ním vypadá jako obří stříbrná housenka na chůdách.
+
+Most byl uveden do provozu 11. listopadu 1994 spolu s celým úsekem linky B na Zličín, který vznikl pro obrovská sídliště Jihozápadního Města. Měří 375 metrů, v nejvyšším místě je 17 metrů nad terénem a vede obě koleje přes údolí Prokopského potoka, nad Centrálním parkem a Nepomuckým rybníkem. Jde o uzavřenou svařovanou ocelovou konstrukci podle návrhu architekta V. Krause a má jeden promyšlený detail, kterého si většina cestujících nevšimne: když vlak z tunelu vjíždí do tubusu, okna se postupně zvětšují, takže si oči stačí zvyknout a denní světlo vás najednou neoslní. Linka B má na druhém konci podobný tubus mezi Rajskou zahradou a Černým Mostem, ten má ale na střeše cyklostezku a pěší cestu. Tenhle ne. Po více než třiceti letech provozu už most není v ideálním stavu a v roce 2026 dopravní podnik oznámil opravu za zhruba 120 milionů korun rozloženou do dvou stavebních sezon: opraví se únavové trhliny v rozích otvorů, vadné svary a vymění se celé zasklení. Vlaky přes den jezdí dál a práce uvnitř tubusu probíhají v noční výluce.
+
+🎁 Bonus: Sochař David Černý, známý pražskými lezoucími miminy a čůrajícími pány, kdysi navrhl udělat na hladkém tubusu na jednom místě velkou bouli. Původně se dílo jmenovalo „Zácpa“. Podle Černého ho ředitel dopravního podniku odmítl jako neestetické a evokující teroristický útok, a tak ho přejmenoval na „Boule“ a pražští zastupitelé ho schválili. Tubus je dodnes dokonale hladký.`,
+
+      zh: `布拉格地铁大部分时候都老老实实待在地下，地铁本该如此。可到了胡尔卡和卢日尼之间，B线突然钻出地面，在一根长长的玻璃钢管里横跨整条山谷，然后又一头扎回地下。从下面的公园看上去，它就像一条踩着高跷的巨型银色毛毛虫。
+
+这座桥于1994年11月11日通车，和B线通往兹利钦的整段线路同时启用，这段线路就是为西南新城那片庞大的住宅区修的。桥长375米，最高处离地17米，载着双线轨道跨过普罗科普溪谷，从中央公园和内波穆克池塘上方经过。它是一座封闭式焊接钢结构，由建筑师V.克劳斯设计，还有一个大多数乘客从没注意过的贴心细节：列车从隧道驶进管道时，窗户会一扇比一扇大，让眼睛慢慢适应，不至于被突然涌进来的阳光晃瞎。B线另一头的拉伊斯卡花园和黑桥之间也有一根类似的管道，不过那一根的顶上修了自行车道和步道，这一根没有。运营三十多年后，这座桥已经不太健康了。2026年，布拉格公交公司宣布花约1.2亿克朗、分两个施工季进行大修，要修补开口转角处的疲劳裂纹、返工有缺陷的焊缝，并把玻璃全部换新。白天列车照常运行，管道内部的活儿只在夜间停运时干。
+
+🎁 彩蛋：以布拉格“爬墙婴儿”和“撒尿的人”闻名的雕塑家大卫·切尔尼，曾经提议在这根光溜溜的管道某处鼓出一个大包。作品原名叫“Zácpa”，在捷克语里既是“堵车”，也是“便秘”。据切尔尼说，公交公司的总经理嫌它难看，还让人联想到恐怖袭击，一口回绝了。于是他改名叫“大包”，布拉格市议员们居然批准了。不过这根管道至今依然光溜溜的。`,
+    },
+  },
+  {
+    // Added 2026-09-24 at the user's request (coordinates user-supplied).
+    // Sources: praha-lysolaje.cz (Lysolajský biotop: 2016 spring clean-up,
+    // April 2017 fire reservoir converted, kinetic fountain, rainwater no
+    // longer mixing into the spring; Historie: first mention 1257, joined
+    // Prague 1968), praha-priroda.cz (Lysolajský potok 1.894 km, rises in the
+    // Miraculous Spring), cs.wikipedia (Kaple Panny Marie Sedmibolestné
+    // (Lysolaje): 1863, Josef Tůma and Marie Srbová, spring supplied the
+    // village until 1967, tested twice a year), aktualne.cz (ice-cold spring,
+    // free entry). Rarity 'common' is my own pick.
+    name: 'Lysolaje Biotope Pond',
+    slug: 'lysolajsky-biotop',
+    localizedNames: { cz: 'Lysolajský biotop', zh: '利索拉耶生态泳池' },
+    labels: ['waterbody', 'nature', 'hidden-gem'],
+    coordinates: { lat: 50.126107980713186, lng: 14.369048385923351 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Lysolaje',
+    description: {
+      en: `Most places to swim in Prague are fed by a river, a reservoir or the water mains. This little pond in Lysolaje is fed straight from a spring, and the water arrives ice-cold all summer long. Until 2017 it was the village fire brigade's water tank. Now people jump into it on purpose.
+
+The pond sits at the top of the Lysolaje valley, just below the spring where the Lysolaje stream begins. Locals call it the Miraculous Spring, and it is one of the most productive springs in Prague. Until 1967 it supplied drinking water to the whole village, and a small chapel of Our Lady of Seven Sorrows has stood beside it since 1863, paid for by a local farmer, Josef Tůma, and his sister Marie Srbová. Lysolaje itself is first mentioned in 1257, spent centuries as a farming and wine-growing village, and only became part of Prague in 1968. In 2016 the district started tidying up its most valuable asset: the spring was cleaned, rainwater drainage was separated so it no longer mixed into the source, and the stream bed was cleared all the way down to the old fire tank, with stone-lined banks and room for the water to flow naturally. In April 2017 the concrete tank itself became a natural pond with an irregular, natural-looking shape, water plants along the edges and a modern metal kinetic fountain that never stops moving. It is free and open to everyone. From here the stream runs just under two kilometres through the village before joining the Šárka stream.
+
+🎁 Bonus: Local tradition has always said the spring water heals. Modern science has been more careful and simply tests it twice a year, and each time the lab reports exceptionally good drinking water. So the only thing proven to be miraculous here is that anyone voluntarily swims in it.`,
+
+      cz: `Většina pražských koupališť bere vodu z řeky, z nádrže nebo z vodovodu. Tohle jezírko v Lysolajích se plní rovnou z pramene a voda je i v létě ledová. Až do roku 2017 to byla požární nádrž místních hasičů. Dnes do ní lidé skáčou dobrovolně.
+
+Jezírko leží v horní části Lysolajského údolí, kousek pod pramenem, ze kterého vytéká Lysolajský potok. Místní mu říkají Zázračná studánka a patří k nejvydatnějším pramenům v Praze. Až do roku 1967 zásoboval pitnou vodou celou obec a od roku 1863 u něj stojí kaplička Panny Marie Sedmibolestné, kterou zaplatil místní sedlák Josef Tůma se sestrou Marií Srbovou. Samotné Lysolaje jsou poprvé zmíněny v roce 1257, po staletí byly zemědělskou a vinařskou vsí a k Praze se připojily až v roce 1968. V roce 2016 se městská část pustila do péče o svůj nejcennější poklad: pramen se vyčistil, dešťová kanalizace se oddělila, aby se do zdroje už nemísila, a koryto potoka se pročistilo až k bývalé požární nádrži, s kamenem zpevněnými břehy a prostorem, aby voda mohla téct přirozeně. V dubnu 2017 se z betonové nádrže stalo přírodní jezírko s nepravidelným tvarem, vodními rostlinami podél břehů a moderní kovovou kinetickou fontánou, která se neustále pohybuje. Vstup je volný. Odtud potok teče necelé dva kilometry obcí, než se vlije do Šáreckého potoka.
+
+🎁 Bonus: Místní tradice odjakživa tvrdí, že voda z pramene léčí. Moderní věda je opatrnější a prostě ji dvakrát ročně testuje, a laboratoř pokaždé vydá stejný verdikt: mimořádně kvalitní pitná voda. Jediný skutečně prokázaný zázrak tedy je, že se v ní někdo dobrovolně koupe.`,
+
+      zh: `布拉格大多数能游泳的地方，水要么来自河流，要么来自水库，要么来自自来水管。利索拉耶这个小池塘的水直接来自泉眼，就算是盛夏也冰得刺骨。2017年之前，它还是村里消防队的储水池。如今大家是自愿往里跳的。
+
+池塘位于利索拉耶山谷上游，就在利索拉耶溪发源的泉眼下方。当地人管这眼泉叫“神奇泉”，它是布拉格出水量最大的泉眼之一。直到1967年，全村的饮用水都靠它供应。泉边从1863年起就立着一座小小的七苦圣母小堂，由当地农民约瑟夫·图马和他的姐妹玛丽·斯尔博娃出资修建。利索拉耶最早见于1257年的记载，几百年来一直是种地种葡萄的村子，直到1968年才并入布拉格。2016年，这个区开始打理自家最宝贵的资源：清理泉眼，把雨水排水管分开，不再让雨水混进水源，再把溪床一路疏通到旧消防池，两岸用石块加固，让溪水能自然流淌。2017年4月，这个水泥池子本身也变成了天然池塘，形状不规则，岸边长着水生植物，还有一座永不停歇的现代金属动态喷泉。池塘免费对所有人开放。溪水从这里流经村子不到两公里，最后汇入沙尔卡溪。
+
+🎁 彩蛋：当地一向传说这泉水能治病。现代科学比较谨慎，只是每年检测两次，而实验室每次给出的结论都一样：水质极好的饮用水。所以这里唯一被证实的“奇迹”，就是居然有人自愿下水游泳。`,
+    },
+  },
+  {
+    // Added 2026-09-24 at the user's request (coordinates user-supplied).
+    // Sources: cs.wikipedia (Boží muka u Lysolají: blessed Sunday 3 April
+    // 2011 by Archbishop Dominik Duka, sculptor Štěpán Rattay, sandstone
+    // 68 × 38 cm base, 1.7 m, steel cross arms, triangular opening = Holy
+    // Trinity, Lysolaje/Dejvice boundary, red trail, annual pilgrimage from
+    // St. Matthew's to the Seven Sorrows chapel), praha-lysolaje.cz (architect
+    // Jiří Zavadil, "U topolů" crossroads, blacksmith-made arms, bench for
+    // walkers, cyclists and cross-country skiers). Rarity 'common' is my own
+    // pick.
+    name: 'Lysolaje Wayside Cross',
+    slug: 'bozi-muka-lysolaje',
+    localizedNames: { cz: 'Lysolajská boží muka', zh: '利索拉耶路边十字碑' },
+    labels: ['monument', 'nature', 'hidden-gem'],
+    coordinates: { lat: 50.11910977585128, lng: 14.369792688791918 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Bo%C5%BE%C3%AD_muka_u_Lysolaj%C3%AD',
+    description: {
+      en: `The Czech countryside is full of wayside shrines: stone pillars at crossroads, usually centuries old, weathered and leaning slightly. This one, in the fields above Lysolaje, looks the part at first glance. It was actually blessed in 2011, which makes it younger than the smartphone you are probably photographing it with.
+
+For centuries, shrines like this stood where field paths met. They marked the way, showed where the village's land ended, and gave travellers a place to stop and say a prayer. This one continues that tradition on purpose. It was designed by the sculptor Štěpán Rattay together with the architect Jiří Zavadil and local residents, as a deliberate revival of the custom. It is a block of sandstone 1.7 metres tall, with steel cross arms made by a blacksmith and a triangular opening cut through the stone to symbolise the Holy Trinity. It stands at a crossroads locals call By the Poplars, right on the border between Lysolaje and Dejvice, on a red-marked hiking trail. The same path carries an annual pilgrimage from the Church of St. Matthew above the Šárka valley down to the Chapel of Our Lady of Seven Sorrows at the Lysolaje spring. Archbishop Dominik Duka blessed it on Sunday, 3 April 2011, and there is a bench beside it for anyone who wants to sit for a while.
+
+🎁 Bonus: According to Lysolaje's own description, the bench was put there for walkers, cyclists and cross-country skiers. Including skiers in a list of Prague's regular visitors is a very optimistic view of Prague winters.`,
+
+      cz: `Česká krajina je plná božích muk: kamenných sloupků na rozcestích, obvykle staletých, ošlehaných počasím a trochu nakloněných. Tahle v polích nad Lysolajemi na první pohled vypadají stejně. Požehnána však byla až v roce 2011, takže jsou mladší než mobil, kterým je nejspíš právě fotíte.
+
+Po staletí stávala boží muka tam, kde se potkávaly polní cesty. Ukazovala směr, značila konec obecních pozemků a poutníkům nabízela místo, kde se zastavit a pomodlit. Tahle na tu tradici navazují záměrně. Navrhl je sochař Štěpán Rattay spolu s architektem Jiřím Zavadilem a místními obyvateli jako vědomé oživení starého zvyku. Jde o pískovcový kvádr vysoký 1,7 metru s ocelovými rameny kříže od kováře a trojúhelníkovým průhledem v kameni, který symbolizuje Nejsvětější Trojici. Stojí na rozcestí U topolů, přímo na hranici Lysolají a Dejvic, na červeně značené turistické trase. Tudy vede i každoroční pouť od kostela svatého Matěje nad Šáreckým údolím ke kapli Panny Marie Sedmibolestné u lysolajského pramene. Arcibiskup Dominik Duka je požehnal v neděli 3. dubna 2011 a vedle stojí lavička pro každého, kdo si chce chvíli sednout.
+
+🎁 Bonus: Podle popisu samotných Lysolají je lavička určená chodcům, cyklistům a běžkařům. Počítat běžkaře mezi pravidelné návštěvníky Prahy je velmi optimistický pohled na pražské zimy.`,
+
+      zh: `捷克乡间到处都是路边十字碑：立在岔路口的石柱，通常已有几百年历史，饱经风雨，还有点歪。利索拉耶上方田野里的这一座，乍一看也是这副模样。其实它2011年才举行祝圣，比你此刻多半正拿来拍它的智能手机还年轻。
+
+几百年来，这类十字碑总是立在田间小路交汇的地方。它们指引方向，标出村子土地的边界，也给路人一个停下来祷告的地方。这一座是有意延续这个传统。它由雕塑家什捷潘·拉泰和建筑师伊日·扎瓦迪尔与当地居民一起设计，就是为了让这个老习俗重新活起来。碑身是一块1.7米高的砂岩，十字架的钢制横臂出自铁匠之手，石头上还凿穿了一个三角形的孔洞，象征圣三一。它立在一个当地人叫“白杨树旁”的岔路口，正好位于利索拉耶和德伊维采的交界处，旁边就是红色标记的徒步路线。每年的朝圣队伍也走这条路，从沙尔卡山谷上方的圣马太教堂一路走到利索拉耶泉边的七苦圣母小堂。2011年4月3日星期日，大主教多米尼克·杜卡为它祝圣。碑旁还放了一张长椅，谁想坐一会儿都可以。
+
+🎁 彩蛋：按利索拉耶官方的说法，这张长椅是给步行者、骑车人和越野滑雪者准备的。把越野滑雪者算进布拉格的常客名单里，对布拉格的冬天未免也太乐观了。`,
+    },
+  },
+  {
+    // Added 2026-09-24 at the user's request (coordinates user-supplied, in
+    // the lower valley between Horní/Dolní Šárka and Lysolaje). Divoká Šárka
+    // already has its own card (divoka-sarka), so this one covers the calmer
+    // lower valley. Sources: cs.wikipedia (Šárecké údolí: four sections,
+    // Šárka-Lysolaje nature park), envis.praha.eu (180 m at the Vltava to
+    // 364 m, Proterozoic rock, 9 vineyard buildings, mills), praha-priroda.cz
+    // (Dolní Šárka natural monument 1982, 6.1 ha, Žežulka/Šatovka/Duchoňská,
+    // sheep and goats since 2000), sarecke-udoli.cz (name from šarý/šerý, not
+    // the legend; Šatovka after tailor Jan Křtitel de Chateau; Kalinův mlýn to
+    // 1935; interwar restaurants, ski slopes), cs.wikipedia (Matějská pouť:
+    // indulgence 1595, fair moved 1960, Výstaviště from 1963/64). Rarity
+    // 'rare' is my own pick.
+    name: 'Šárka Valley',
+    slug: 'sarecke-udoli',
+    localizedNames: { cz: 'Šárecké údolí', zh: '沙尔卡山谷' },
+    labels: ['nature', 'geology', 'hidden-gem'],
+    coordinates: { lat: 50.12182639648233, lng: 14.387514610938574 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C5%A0%C3%A1reck%C3%A9_%C3%BAdol%C3%AD',
+    description: {
+      en: `Everyone has heard of Wild Šárka, with its cliffs, gorge and summer swimming. Further downstream, the same stream calms down. It picks up a bus line, a few pubs and some villas, and flows quietly through meadows to the Vltava at Podbaba. It is the same valley with a much calmer personality.
+
+The Šárka stream (called the Litovice stream in its upper course) has cut a narrow valley deep into some of the oldest rock in Prague, laid down in the Proterozoic, dropping from hilltops of around 364 metres to 180 metres where it meets the Vltava. The valley is usually divided into four parts: Wild Šárka, Quiet Šárka, Upper Šárka and Lower Šárka, and most of it is protected as the Šárka–Lysolaje Nature Park. The name probably comes from the old Czech words for "dappled" or "dusky", a shady, mottled dale. The legend of the warrior woman Šárka was attached to the name later; it did not create it. For centuries this was farmland, not forest: the slopes were covered with vineyards and dotted with small wine-growing homesteads and mills, and most of the woods you see today are only about a hundred years old. The homesteads' names have outlived many of the buildings. Šatovka, for example, is named after a 17th-century Prague tailor called Jan Křtitel de Chateau. In the early 20th century the valley became Prague's favourite day out, with garden restaurants, cheap summer lodgings and even ski slopes. Since 1982 three rocky patches of the lower valley, named after the old Žežulka, Šatovka and Duchoňská homesteads, have been protected as the Lower Šárka natural monument for their rare steppe plants and heat-loving insects. Since 2000, flocks of sheep and goats have grazed there to keep the bushes down, just as the old farmers' animals once did.
+
+🎁 Bonus: On the rim of the valley stands the Church of St. Matthew, and in 1595 Pope Clement VIII granted a full indulgence to pilgrims who came to it. The pilgrimage grew a fair, and the fair grew so big that in 1960 it was moved away to make room for new university buildings. Since the early 1960s it has been held at the Výstaviště exhibition grounds as the Matějská fair, Prague's biggest funfair, with roller coasters and candy floss. It all started as a walk up to a village church above this valley.`,
+
+      cz: `Divokou Šárku zná každý: skály, soutěska, letní koupání. Níž po proudu se ale tentýž potok uklidní. Přibude autobusová linka, pár hospod a několik vil a potok si tiše teče loukami až k Vltavě v Podbabě. Stejné údolí, jen s mnohem klidnější povahou.
+
+Šárecký potok (v horním toku Litovický) si vyhloubil úzké údolí hluboko do jedněch z nejstarších, proterozoických hornin v Praze a klesá z vrcholů kolem 364 metrů až na 180 metrů u soutoku s Vltavou. Údolí se obvykle dělí na čtyři části: Divokou, Tichou, Horní a Dolní Šárku, a většina z něj je chráněná jako přírodní park Šárka-Lysolaje. Jméno má nejspíš ze staročeského „šarý“ nebo „šerý“, tedy strakaté či šeré údolí. Pověst o bojovnici Šárce se ke jménu přidala až později, nezrodilo se z ní. Po staletí tu nebyl les, ale hospodářská půda: svahy pokrývaly vinice s drobnými viničními usedlostmi a mlýny a většina dnešních lesů je stará jen zhruba sto let. Jména usedlostí přežila mnohé z budov. Třeba Šatovka se jmenuje po pražském krejčím ze 17. století jménem Jan Křtitel de Chateau. Na začátku 20. století se údolí stalo oblíbeným výletním cílem Pražanů, se zahradními restauracemi, levnými letními byty a dokonce i sjezdovkami. Od roku 1982 jsou tři skalnaté plochy dolního údolí, pojmenované po starých usedlostech Žežulka, Šatovka a Duchoňská, chráněné jako přírodní památka Dolní Šárka kvůli vzácným stepním rostlinám a teplomilnému hmyzu. Od roku 2000 se tam pasou stáda ovcí a koz, aby nezarůstala křovím, přesně jako kdysi dobytek starých hospodářů.
+
+🎁 Bonus: Na okraji údolí stojí kostel svatého Matěje a papež Klement VIII. v roce 1595 udělil poutníkům, kteří k němu přišli, plnomocné odpustky. Z pouti vyrostla pouťová zábava a ta se rozrostla natolik, že v roce 1960 musela ustoupit novým budovám ČVUT. Od začátku 60. let se koná na Výstavišti jako Matějská pouť, největší pražská pouť s horskými drahami a cukrovou vatou. A celé to začalo jako procházka k vesnickému kostelu nad tímhle údolím.`,
+
+      zh: `人人都知道野沙尔卡：悬崖、峡谷、夏天的露天游泳。可再往下游走，同一条溪流就安静下来了。它多了一条公交线、几家酒馆和一些别墅，然后穿过草地，悄悄流到波德巴巴汇入伏尔塔瓦河。还是同一条山谷，性子却温和多了。
+
+沙尔卡溪（上游叫利托维采溪）在布拉格最古老的岩层之一、形成于元古宙的岩石里，切出了一条又窄又深的山谷，从海拔约364米的山顶一路降到与伏尔塔瓦河交汇处的180米。山谷通常分成四段：野沙尔卡、静沙尔卡、上沙尔卡和下沙尔卡，大部分都划入了沙尔卡—利索拉耶自然公园。山谷的名字很可能来自古捷克语里“斑驳”或“幽暗”的意思，也就是一条光影斑驳的阴凉山谷。女战士沙尔卡的传说是后来才附会到这个名字上的，并不是名字的来源。几百年来这里是农田而不是森林：山坡上种满了葡萄，散落着小小的葡萄园农庄和磨坊，今天看到的树林大多只有一百年左右的历史。很多农庄的房子没了，名字却留了下来。比如沙托夫卡，就是以一位17世纪的布拉格裁缝让·克日提特尔·德·沙托命名的。20世纪初，这条山谷成了布拉格人最爱的郊游去处，有花园餐厅、便宜的夏季出租屋，甚至还有滑雪坡。1982年起，下游三块以老农庄热祖尔卡、沙托夫卡和杜霍尼斯卡命名的岩石坡地，被划为下沙尔卡自然遗迹，保护那里稀有的草原植物和喜热昆虫。2000年起，羊群就在那里吃草，防止灌木疯长，和当年老农户放牧的做法一模一样。
+
+🎁 彩蛋：山谷边上立着圣马太教堂。1595年，教宗克雷芒八世给前来朝圣的信徒颁发了全大赦。朝圣催生了集市，集市越办越大，到1960年不得不搬走，给新的大学楼腾地方。从60年代初开始，它就在展览中心举办，成了布拉格最大的游乐集会“马太集市”，有过山车，也有棉花糖。而这一切，最初只是走上山去这座山谷上方的乡村教堂。`,
+    },
+  },
+  {
+    // Added 2026-09-24 at the user's request (coordinates user-supplied).
+    // Sources: moniales.op.cz (community history: secret beginnings early-mid
+    // 1980s, civilian clothes, oral approval from Master Damian Byrne Feb
+    // 1987, friars return to St. Giles early 1990 and offer the Lysolaje
+    // house, 1991 split, 1992 prioress, summer 1993 confirmed as a monastery,
+    // 1994–95 expansion, May 1995 consecration by nuncio Giovanni Coppa,
+    // six sisters, still looking for land), katyd.cirkev.cz "Nenápadný klášter
+    // plný světla" (house bought 1977 by Fr Metoděj Habáň, secret study
+    // refuge, architect Václav Dvořák worked for free, textiles/icons/copies
+    // of medieval panel paintings/vestments/rosaries, garden shared with
+    // Lutheran and Methodist neighbours, seven sisters). Rarity 'rare' is my
+    // own pick.
+    name: 'Dominican Nuns\' Monastery (Lysolaje)',
+    slug: 'klaster-dominikanek-lysolaje',
+    localizedNames: { cz: 'Klášter mnišek Kazatelského řádu (dominikánek)', zh: '利索拉耶多明我会修女院' },
+    labels: ['monastery', 'historical', 'hidden-gem'],
+    coordinates: { lat: 50.124667224813706, lng: 14.38241532451104 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Lysolaje',
+    description: {
+      en: `From the street it looks like an ordinary family house in Lysolaje, and in a way that is exactly what it is. Only a small bell and some unusual windows give away that a community of enclosed Dominican nuns lives inside. For this house, keeping a low profile is nothing new: it spent its early years hiding a secret.
+
+In 1977, when communist Czechoslovakia had long since shut down the monasteries, the Dominican friar Metoděj Habáň bought the house. During the years of persecution the friars used it as a secret refuge where members of the order could study. At about the same time, a small women's community was forming in hiding. Its members wore ordinary clothes and carefully kept their membership of the order from everyone around them, and in 1987 the Master of the Order gave them his approval by word of mouth, since nothing could safely be written down. After the Velvet Revolution the friars got back their old home at St. Giles in the Old Town, and in 1990 they offered the Lysolaje house to the sisters. In 1993 the community was officially confirmed as a monastery of Dominican nuns. The house was extended in 1994–95, doubling its size, with a refectory and a bright chapel designed by the architect Václav Dvořák, who worked for free. The Apostolic Nuncio consecrated it in May 1995. Today six or seven sisters live here, praying and supporting themselves with textile work, writing icons, copying medieval panel paintings, sewing vestments and making rosaries. They have been looking for land for a proper, purpose-built monastery for years. The chapel is open for services.
+
+🎁 Bonus: The sisters tend a small terraced garden that they share with their Lutheran and Methodist neighbours, a very practical kind of Christian unity that works out who gets which bed of vegetables.`,
+
+      cz: `Z ulice vypadá jako obyčejný rodinný dům v Lysolajích a svým způsobem jím taky je. Jen malá zvonička a neobvyklá okna prozrazují, že uvnitř žije komunita klauzurních dominikánských mnišek. Nenápadnost pro tenhle dům není nic nového: svá první léta strávil tím, že skrýval tajemství.
+
+V roce 1977, kdy komunistické Československo už dávno zrušilo kláštery, dům koupil dominikán P. Metoděj Habáň. V letech pronásledování ho bratři používali jako tajné útočiště, kde mohli členové řádu studovat. Zhruba ve stejné době se v ilegalitě formovala malá ženská komunita. Sestry nosily civilní oblečení, svou příslušnost k řádu před okolím pečlivě tajily a v roce 1987 jim generální magistr řádu dal souhlas ústně, protože nic se nedalo bezpečně napsat. Po sametové revoluci dostali bratři zpátky svůj starý domov u svatého Jiljí na Starém Městě a v roce 1990 nabídli lysolajský dům sestrám. V roce 1993 byla komunita oficiálně potvrzena jako klášter dominikánských mnišek. V letech 1994–95 se dům rozšířil na dvojnásobek, přibyl refektář a světlá kaple podle návrhu architekta Václava Dvořáka, který na ní pracoval zdarma. Apoštolský nuncius ji vysvětil v květnu 1995. Dnes tu žije šest až sedm sester, které se modlí a živí se textilní tvorbou, psaním ikon, kopírováním středověkých deskových obrazů, šitím liturgických rouch a výrobou růženců. Pozemek pro skutečný, účelově postavený klášter hledají už léta. Kaple je otevřená pro bohoslužby.
+
+🎁 Bonus: Sestry obdělávají malou terasovitou zahradu, o kterou se dělí se svými luterskými a metodistickými sousedy. Velmi praktická podoba křesťanské jednoty, která řeší, komu patří který záhon zeleniny.`,
+
+      zh: `从街上看，它就是利索拉耶一栋普普通通的独栋住宅，某种意义上也确实如此。只有一座小钟和几扇不太寻常的窗户，暗示着里面住着一群过隐修生活的多明我会修女。对这栋房子来说，保持低调不是什么新鲜事：它早年的日子，就是在守着一个秘密中度过的。
+
+1977年，共产党统治下的捷克斯洛伐克早就关闭了所有修道院，多明我会修士梅托杰伊·哈班买下了这栋房子。在受迫害的年代，修士们把这里当作秘密据点，让修会成员在此学习。差不多同一时期，一个小小的女修会团体也在地下悄悄成形。她们穿着便服，小心翼翼地向周围所有人隐瞒自己的修会身份。1987年，修会总会长口头批准了她们，因为什么都不能安全地写在纸上。天鹅绒革命之后，修士们拿回了老城圣吉尔斯教堂旁的老家，并在1990年把利索拉耶的这栋房子让给了修女们。1993年，这个团体被正式确认为多明我会修女院。1994到1995年，房子扩建了一倍，添了食堂和一座明亮的小堂，设计者是建筑师瓦茨拉夫·德沃夏克，他分文未取。1995年5月，教廷大使为它举行了祝圣。如今这里住着六七位修女，她们祈祷，也靠纺织手工、绘制圣像、临摹中世纪木板画、缝制祭衣和制作玫瑰念珠维持生活。她们多年来一直在找地皮，想盖一座真正按修道院规格建造的新院。小堂在弥撒时间对外开放。
+
+🎁 彩蛋：修女们打理着一小块梯田式菜园，和她们的路德宗和卫理公会邻居共用。这是一种非常务实的基督徒合一：先把哪块菜地归谁商量清楚。`,
+    },
+  },
+  {
+    // Added 2026-09-24 at the user's request (coordinates user-supplied, on
+    // V Sedlci street in old Sedlec, ~150 m north of the existing
+    // zamek-sedlec card, which is only mentioned in passing here).
+    // Sources: cs.wikipedia (Sedlec (Praha): Přemyslid origins, Ostrov
+    // monastery, Strahov, Old Town during the Hussite period, independent
+    // ~1910, Prague 1922, 2005 transfer to Prague 6; Kaple Nejsvětější Trojice
+    // (Sedlec): 1725, F. J. Maser and wife Tereza, mansard roof, bell turret,
+    // ceiling paintings; Sedlec (zámek, Praha): derelict since the 1970s),
+    // dientzenhofers.cz (chapel "probably" to a design by K. I.
+    // Dientzenhofer), praha-suchdol.cz (fishing, orchards, brickmaking,
+    // cold-storage plant), nasregion.cz (Pštross bought the farm 1838),
+    // historiesuchdola.cz + prazskyden.cz (elephant: 1908 exhibition, Citizens'
+    // Brewery advert, sculptor Karel Novák, bought by innkeeper Šenk for
+    // 15,000 crowns, garden behind Hotel California, Karel Pivoňka from 1920,
+    // demolition decided 1969, removed 1974). Rarity 'rare' is my own pick.
+    name: 'V Sedlci Street (Old Sedlec)',
+    slug: 'v-sedlci',
+    localizedNames: { cz: 'V Sedlci', zh: '塞德莱茨老村街' },
+    labels: ['village-and-town', 'street', 'historical'],
+    coordinates: { lat: 50.13440332789786, lng: 14.390778004185421 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Sedlec_(Praha)',
+    description: {
+      en: `A village green, a Baroque chapel, a big old farmyard and the Vltava just behind the railway line. All of this is technically inside Prague, which most Praguers find hard to believe until they get off the train here. V Sedlci is the main street of the old village of Sedlec, and it still acts like one.
+
+Sedlec is ancient. It started as a Přemyslid holding, and around the year 1000 it was given to the Benedictine monastery at Ostrov. Later it belonged to Strahov Monastery, and during the Hussite period to the Old Town of Prague. For most of its history it was a tiny riverside settlement whose people lived from fishing, then from orchards and later from brickmaking, using clay dug from the slopes towards Suchdol. The little Chapel of the Holy Trinity near the green was built in 1725, paid for by F. J. Maser, an Old Town burgher who leased the Sedlec estate, and his wife Tereza. It was probably designed by Kilian Ignaz Dientzenhofer, one of the great architects of Prague's Baroque, and it has a mansard roof, a small bell turret and a painted vault inside. Just nearby stands the Sedlec manor house, which a leather merchant rebuilt in the Classicist style around 1840 and which has sadly been decaying since the 1970s. When the railway along the Vltava arrived in the mid-19th century, Sedlec became a popular day-trip destination for Praguers. It became a municipality in its own right around 1910 and was absorbed into Prague in 1922. In 2005, after a petition by residents, lower Sedlec moved from the Suchdol district to Prague 6, and there are plans to bring a tram line here and build a whole new neighbourhood on the old industrial sites.
+
+🎁 Bonus: For much of the 20th century, Sedlec had a giant concrete elephant. It was built in 1908 as an advertisement for Prague's Citizens' Brewery at a jubilee exhibition, carried three beer barrels on its back and had a room inside where people ate, drank and danced. A Sedlec innkeeper bought it for 15,000 crowns, a huge sum he paid off in beer sales, and set it up in the garden behind the Hotel California. From 1920 the hotel and the elephant restaurant were run by Karel Pivoňka, who had come back from America. Decades before the Eagles made the name famous, the Hotel California already had a problem with things that never left: the elephant crumbled slowly for half a century, and its last remains were only removed in 1974.`,
+
+      cz: `Náves, barokní kaple, velký starý statek a za tratí rovnou Vltava. To všechno je formálně v Praze, čemuž většina Pražanů nevěří, dokud tu nevystoupí z vlaku. V Sedlci je hlavní ulice staré vsi Sedlec a pořád se tak chová.
+
+Sedlec je prastarý. Začínal jako přemyslovský majetek a kolem roku 1000 ho dostal benediktinský klášter na Ostrově. Později patřil Strahovskému klášteru a v době husitské Starému Městu pražskému. Po většinu své historie to byla drobná osada u řeky, jejíž obyvatelé se živili rybářstvím, pak sadařstvím a později cihlářstvím z hlíny kopané na svazích směrem k Suchdolu. Kaplička Nejsvětější Trojice u návsi vznikla v roce 1725 na náklady staroměstského měšťana F. J. Masera, nájemce sedleckého hospodářství, a jeho manželky Terezie. Navrhl ji pravděpodobně Kilián Ignác Dientzenhofer, jeden z velkých architektů pražského baroka, a má mansardovou střechu, zděnou vížku a uvnitř malovanou klenbu. Kousek odtud stojí sedlecký zámeček, který kolem roku 1840 klasicistně přestavěl obchodník s kůžemi a který od 70. let bohužel chátrá. Když v polovině 19. století přišla železnice podél Vltavy, stal se Sedlec oblíbeným výletním cílem Pražanů. Samostatnou obcí se stal kolem roku 1910 a k Praze byl připojen v roce 1922. V roce 2005 přešel po petici obyvatel dolní Sedlec ze Suchdola pod Prahu 6 a plánuje se sem přivést tramvaj a na starých průmyslových plochách postavit celou novou čtvrť.
+
+🎁 Bonus: Po většinu 20. století měl Sedlec obřího betonového slona. Vznikl v roce 1908 jako reklama Měšťanského pivovaru na jubilejní výstavě, na zádech nesl tři pivní sudy a uvnitř měl místnost, kde se jedlo, pilo a tancovalo. Sedlecký hostinský ho koupil za 15 000 korun, obrovskou sumu, kterou splácel prodejem piva, a postavil ho do zahrady za hotelem California. Od roku 1920 hotel i restauraci U Slona vedl Karel Pivoňka, který se vrátil z Ameriky. Dávno předtím, než to jméno proslavili Eagles, měl hotel California problém s věcmi, které nikdy neodešly: slon se pomalu drolil půl století a jeho poslední zbytky zmizely až v roce 1974.`,
+
+      zh: `村中草坪、巴洛克小堂、一座老大的农庄，铁路背后就是伏尔塔瓦河。这一切在行政上都属于布拉格，大多数布拉格人不信，直到他们在这里下了火车。V Sedlci是塞德莱茨老村的主街，至今依然是一副村子主街的样子。
+
+塞德莱茨历史悠久。它最初是普热米斯尔家族的产业，大约公元1000年前后被赐给奥斯特罗夫的本笃会修道院，后来归斯特拉霍夫修道院所有，胡斯派时期又归布拉格老城。在大部分历史里，它只是河边一个小小的聚落，居民先靠打鱼，后来靠果园，再后来靠烧砖为生，砖土就挖自通往苏赫多尔的山坡。草坪旁的圣三一小堂建于1725年，出资人是租下塞德莱茨庄园的老城市民F. J. 马泽尔和他的妻子特蕾齐娅。它很可能出自布拉格巴洛克建筑大师基利安·伊格纳茨·丁岑霍费尔的设计，有复折式屋顶、一座小钟楼，内部拱顶上还有壁画。不远处就是塞德莱茨庄园宅邸，1840年前后被一位皮革商人改建成古典主义风格，可惜从70年代起就一直在衰败。19世纪中叶，沿伏尔塔瓦河的铁路修到这里，塞德莱茨成了布拉格人热门的一日游目的地。它在1910年前后成为独立的村镇，1922年并入布拉格。2005年，经居民请愿，下塞德莱茨从苏赫多尔区划归布拉格6区。现在还有计划把电车修到这里，并在旧工业用地上建起一整片新街区。
+
+🎁 彩蛋：20世纪的大部分时间里，塞德莱茨有一头巨型水泥大象。它是1908年一场庆典博览会上布拉格市民啤酒厂的广告，背上驮着三个啤酒桶，肚子里有个房间，人们在里面吃喝跳舞。塞德莱茨一位酒馆老板花一万五千克朗买下了它，这在当时是一笔巨款，他靠卖啤酒一点点还清，把大象立在了加州酒店背后的花园里。1920年起，经营酒店和“大象餐厅”的是从美国回来的卡雷尔·皮沃尼卡。早在老鹰乐队让这个名字红遍全球之前，这家加州酒店就已经有了“住进来就走不了”的问题：大象在这里慢慢碎了半个世纪，最后的残骸直到1974年才被清走。`,
+    },
+  },
+  {
+    // Added 2026-09-24 at the user's request (coordinates user-supplied).
+    // Sources: cs.wikipedia (Praha-Sedlec (nádraží): opened 1879 on the
+    // Northern State Railway, names Selc → Selc u Prahy 1920 → Sedlec u Prahy
+    // 1924 → Praha-Sedlec 1942, between the cold-storage plant and the
+    // Vltava, 2003 rebuild for the 1st Transit Railway Corridor, suburban
+    // service to Roztoky since April 2004, old building now housing, no
+    // ticket sales; Sedlec (Praha): joined Prague 1922, cold-storage plant
+    // since 1953, ferry to Bohnice), geocaching.com GC9ENT7 (the Sedlec
+    // elephant was an attraction for train passengers). Rarity 'common' is my
+    // own pick.
+    name: 'Praha-Sedlec Station',
+    slug: 'nadrazi-praha-sedlec',
+    localizedNames: { cz: 'Nádraží Praha-Sedlec', zh: '布拉格-塞德莱茨火车站' },
+    labels: ['transport', 'historical', 'hidden-gem'],
+    coordinates: { lat: 50.13163627880326, lng: 14.39492013200485 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Praha-Sedlec_(n%C3%A1dra%C5%BE%C3%AD)',
+    description: {
+      en: `A small railway stop squeezed between a cold-storage plant and the Vltava, with two platforms, no ticket office and a surprisingly complicated relationship with its own name. In its first sixty-odd years it went through four of them, and the last change came twenty years after it had actually become part of Prague.
+
+The stop opened in 1879 on the Northern State Railway, the line along the Vltava that had linked Prague with Dresden since the mid-19th century and is now the busy Prague–Děčín main line. It was first called Selc, the old German-influenced spelling. In 1920 it became Selc u Prahy ("Selc near Prague"), in 1924 Sedlec u Prahy, and only in 1942 Praha-Sedlec, even though the village had been part of Prague since 1922. In 2003 the stop was completely rebuilt as part of the modernisation of the country's first transit railway corridor, with two new platforms, shelters and an underpass between them. The old station building survives but has been turned into flats. Today only regional trains stop here, running to Masaryk Station or Prague main station in one direction and towards Kralupy nad Vltavou and Roudnice nad Labem in the other. Next door is the Sedlec cold-storage plant, in operation since 1953 and long the biggest employer in the village, and a short walk away a small ferry crosses the river towards Bohnice.
+
+🎁 Bonus: For much of the 20th century, passengers pulling into Sedlec could look out of the window at a giant concrete elephant with three beer barrels on its back, standing in a hotel garden in the village. It was one of the most memorable views on the whole line. Today the most exciting thing you can see from the platform is the cold-storage plant, which is at least appropriately cool.`,
+
+      cz: `Malá železniční zastávka vmáčknutá mezi mrazírny a Vltavu, se dvěma nástupišti, bez pokladny a s překvapivě složitým vztahem k vlastnímu jménu. Za zhruba šedesát let jich vystřídala čtyři a poslední změna přišla dvacet let poté, co se Sedlec skutečně stal součástí Prahy.
+
+Zastávka byla otevřena v roce 1879 na Severní státní dráze, trati podél Vltavy, která od poloviny 19. století spojovala Prahu s Drážďany a dnes je rušnou tratí Praha–Děčín. Nejdřív se jmenovala Selc. V roce 1920 z ní byl Selc u Prahy, v roce 1924 Sedlec u Prahy a teprve v roce 1942 Praha-Sedlec, i když obec patřila k Praze už od roku 1922. V roce 2003 byla zastávka kompletně přestavěna v rámci modernizace prvního tranzitního železničního koridoru: dostala dvě nová nástupiště s přístřešky a podchod mezi nimi. Stará staniční budova přežila, ale slouží k bydlení. Dnes tu zastavují jen osobní vlaky, jedním směrem na Masarykovo nebo hlavní nádraží, druhým na Kralupy nad Vltavou a Roudnici nad Labem. Hned vedle stojí sedlecké mrazírny, v provozu od roku 1953 a dlouho největší podnik v obci, a kousek odtud převáží přes řeku směrem k Bohnicím malý přívoz.
+
+🎁 Bonus: Po většinu 20. století mohli cestující při příjezdu do Sedlce koukat z okna na obřího betonového slona se třemi pivními sudy na zádech, který stál v zahradě jednoho místního hotelu. Byl to jeden z nejpamátnějších výhledů na celé trati. Dnes je z nástupiště nejzajímavější výhled na mrazírny, které jsou aspoň patřičně cool.`,
+
+      zh: `一个夹在冷库和伏尔塔瓦河之间的小火车站，两个站台，没有售票处，和自己名字的关系却出奇地复杂。开站后的六十来年里，它先后换了四个名字，最后一次改名，是在塞德莱茨正式并入布拉格整整二十年之后。
+
+车站于1879年开通，所在的北方国有铁路沿伏尔塔瓦河而建，从19世纪中叶起就连接布拉格和德累斯顿，如今是繁忙的布拉格—杰钦干线。它最初叫“塞尔茨”，1920年改叫“布拉格附近的塞尔茨”，1924年改成“布拉格附近的塞德莱茨”，直到1942年才叫“布拉格-塞德莱茨”，而村子其实早在1922年就归入布拉格了。2003年，作为全国第一条过境铁路走廊改造工程的一部分，车站彻底重建，有了两个带雨棚的新站台和一条连接两边的地下通道。老站房保留了下来，不过已经改成了住宅。如今只有区域列车在此停靠，一头开往马萨里克火车站或布拉格总站，另一头开往克拉卢皮和劳德尼采。隔壁就是塞德莱茨冷库，1953年投产，长期是村里最大的企业。走几步路还有一条小渡船，横渡河面开往博赫尼采。
+
+🎁 彩蛋：20世纪的大部分时间里，火车开进塞德莱茨时，乘客能从车窗看到一头驮着三个啤酒桶的巨型水泥大象，站在村里一家酒店的花园里，是整条线上最让人难忘的风景之一。如今站台上能看到最刺激的景色是冷库，好歹也算“很酷”。`,
+    },
+  },
+  {
+    // Added 2026-09-24 at the user's request (coordinates user-supplied;
+    // they match the 2014 stop, not the 1867–1945 one). The preset `podbaba`
+    // district card sits at almost the same point. Sources: cs.wikipedia
+    // (Praha-Podbaba (železniční zastávka): opened 29 Aug 2014, stopping at
+    // Praha-Bubeneč ended the same day, Bubeneč's building second-oldest
+    // Prague station building still in its original use after Masaryk
+    // Station, two covered side platforms, electronic displays, underpass to
+    // Papírenská with ramps, tram/bus interchange, proposed cable car to
+    // Bohnice; Praha-Podbaba (1867–1949): south of the Šárka confluence, one
+    // platform on the Prague side so opposite-direction traffic had to stop,
+    // decline after 1930s buses, closed 1945, building at V Podbabě now
+    // housing; Podbaba: railway opened 6 April 1851). Rarity 'common' is my
+    // own pick.
+    name: 'Praha-Podbaba Station',
+    slug: 'nadrazi-praha-podbaba',
+    localizedNames: { cz: 'Nádraží Praha-Podbaba', zh: '布拉格-波德巴巴火车站' },
+    labels: ['transport', 'modern'],
+    coordinates: { lat: 50.112392635952446, lng: 14.395342481244702 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Praha-Podbaba_(%C5%BEelezni%C4%8Dn%C3%AD_zast%C3%A1vka)',
+    description: {
+      en: `Podbaba got a railway stop in 1867, lost it in 1945 and then waited almost seventy years for another one. The new stop, opened in 2014, has electronic departure boards, ramps and a tram outside. The old one had a single platform and a habit of stopping all trains going the other way whenever someone got off.
+
+The railway along the Vltava, the old Northern State Railway to Dresden and today's Prague–Děčín line, has run through the Podbaba valley since 6 April 1851. The first Podbaba stop opened in 1867, about a kilometre further north, just south of where the Šárka stream flows into the Vltava. It was squeezed so tightly between the river and the rocks that although the line had two tracks, there was only one platform, on the Prague side. Every time passengers boarded or got off a train heading towards Kralupy, traffic in the opposite direction had to be stopped. When buses reached Podbaba in the 1930s, hardly anyone used it any more, and it closed in 1945. Its building still stands on V Podbabě street and has been turned into flats. The new Praha-Podbaba stop opened on 29 August 2014, closer to Bubeneč, with two covered side platforms and an underpass to Papírenská street. It was designed as an interchange, with trams and city and regional buses right outside, and there have even been plans for a cable car across the river to Bohnice.
+
+🎁 Bonus: On the same day the new stop opened, passenger trains stopped calling at the neighbouring Praha-Bubeneč station, whose building was the second-oldest station building in Prague still used for its original purpose, after Masaryk Station. So Podbaba got its new stop on the Bubeneč side, and Bubeneč lost its own. Prague's railway map works like musical chairs.`,
+
+      cz: `Podbaba dostala železniční zastávku v roce 1867, v roce 1945 o ni přišla a na další pak čekala skoro sedmdesát let. Nová zastávka z roku 2014 má elektronické odjezdové tabule, rampy a před sebou tramvaj. Ta stará měla jediné nástupiště a zvyk zastavit všechny vlaky v opačném směru, kdykoli někdo vystupoval.
+
+Trať podél Vltavy, bývalá Severní státní dráha do Drážďan a dnešní trať Praha–Děčín, vede Podbabou od 6. dubna 1851. První podbabská zastávka byla otevřena v roce 1867 asi o kilometr severněji, jižně od místa, kde se Šárecký potok vlévá do Vltavy. Byla tak vmáčknutá mezi řeku a skály, že ačkoli trať měla dvě koleje, nástupiště bylo jen jedno, na pražské straně. Pokaždé, když cestující nastupovali nebo vystupovali z vlaku směrem na Kralupy, musel se zastavit provoz v opačném směru. Když ve 30. letech dorazily do Podbaby autobusy, skoro ji přestali používat a v roce 1945 byla zrušena. Její budova v ulici V Podbabě stojí dodnes a slouží k bydlení. Nová zastávka Praha-Podbaba byla otevřena 29. srpna 2014 blíž k Bubenči, se dvěma krytými bočními nástupišti a podchodem do Papírenské ulice. Vznikla jako přestupní uzel s tramvajemi a městskými i příměstskými autobusy hned venku a objevily se dokonce plány na lanovku přes řeku do Bohnic.
+
+🎁 Bonus: Týž den, kdy se nová zastávka otevřela, přestaly osobní vlaky zastavovat v sousední stanici Praha-Bubeneč, jejíž budova byla po Masarykově nádraží druhou nejstarší pražskou nádražní budovou sloužící původnímu účelu. Podbaba tedy dostala novou zastávku na bubenečské straně a Bubeneč přišel o svou. Pražská železniční mapa funguje jako hra na židličky.`,
+
+      zh: `波德巴巴1867年有了火车站，1945年又没了，之后等了将近七十年才等来新的。2014年启用的新站有电子发车显示屏、无障碍坡道，门口就是电车。老站只有一个站台，还有个习惯：每次有人上下车，所有反方向的列车都得停下来等着。
+
+沿伏尔塔瓦河的铁路，也就是当年通往德累斯顿的北方国有铁路、今天的布拉格—杰钦线，从1851年4月6日起就穿过波德巴巴山谷。第一个波德巴巴站开于1867年，位置往北约一公里，就在沙尔卡溪汇入伏尔塔瓦河处的南边。它被河水和岩壁夹得太紧，线路明明是双轨，站台却只有靠布拉格一侧的一个。每当有乘客上下开往克拉卢皮方向的列车，反方向的交通就得全部暂停。20世纪30年代公交车通到波德巴巴后，这个站几乎没人用了，1945年关闭。老站房至今还立在V Podbabě街上，已经改成了住宅。新的布拉格-波德巴巴站于2014年8月29日启用，位置更靠近布贝内奇，有两个带顶棚的侧式站台和一条通往帕皮伦斯卡街的地下通道。它从一开始就是作为换乘枢纽设计的，电车、市区和郊区公交就停在门口，甚至还有人规划过一条跨河通往博赫尼采的缆车。
+
+🎁 彩蛋：新站启用的同一天，旁边的布拉格-布贝内奇站停止办理客运。那座站房是布拉格仅次于马萨里克火车站、第二古老的仍在原用途上使用的车站建筑。于是波德巴巴在布贝内奇那一侧有了新站，布贝内奇却丢了自己的。布拉格的铁路地图玩起来就像抢椅子游戏。`,
+    },
+  },
+  {
+    // Added 2026-09-24 at the user's request (coordinates user-supplied; they
+    // match cs.wikipedia's "Sklenářka" (Troja) article, not the two
+    // demolished Žižkov homesteads of the same name). Sources: cs.wikipedia
+    // (Sklenářka: Pod Hrachovkou 60, late 17th century, wine press, tower-like
+    // multi-storey building, hip roof, corner buttresses, zoo staff housing
+    // mid-20th c., reconstructions 1988–90 and 2011–12, cultural monument, the
+    // 1931 film Psohlavci by Svatopluk Innemann filmed a gallows here →
+    // "Katovna"), umeleckepamatky.udu.cas.cz via search (vineyards probably
+    // from Wenceslas II's reign, first written record 1358, 1782 map),
+    // zoopraha.cz (hand-painted beams and old windows kept, accommodation for
+    // distinguished zoo guests, steppe meadows, butterflies, ground squirrel
+    // project). Rarity 'rare' is my own pick.
+    name: 'Sklenářka Homestead',
+    slug: 'usedlost-sklenarka',
+    localizedNames: { cz: 'Usedlost Sklenářka', zh: '斯克莱纳日卡庄园' },
+    labels: ['homestead', 'historical', 'architecture'],
+    coordinates: { lat: 50.12164426137242, lng: 14.402667867421464 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Sklen%C3%A1%C5%99ka',
+    description: {
+      en: `On a bare hilltop above Troja stands a tall, narrow Baroque house that looks as if it wandered off from a village and got stuck up there. It is inside the grounds of Prague Zoo, where it is probably the only long-term resident that has never needed feeding.
+
+Sklenářka was built in the late 17th century as a wine-press house for the vineyards that once covered these sunny slopes. Vines were probably grown here as early as the reign of King Wenceslas II (1283–1305), and the first written record of the vineyards dates from 1358. A map of northern Prague from 1782 already shows the building in the same place with almost the same floor plan. It is an unusual tower-like house of several storeys with a hipped roof, a large chimney and sloping buttresses at the corners, which is why it can be seen from so far away, even from Podbaba across the river. In the 19th century it belonged to a large manor estate. As the vineyards disappeared, it was turned into a home, and by the middle of the 20th century it was housing zoo staff. After a reconstruction in 1988–90, a careful restoration in 2011–12 kept its hand-painted ceiling beams and old windows, and today the zoo uses it as elegant accommodation for its distinguished guests. It is a protected cultural monument. The sunny slopes around it are also valuable: they are rare steppe meadows where endangered butterflies live, and they are part of the zoo's conservation work for species such as the European ground squirrel.
+
+🎁 Bonus: In 1931 the director Svatopluk Innemann filmed a gallows scene here for his film version of Psohlavci, Alois Jirásek's novel about the Chod rebels. The name stuck, and the house is also known as Katovna, "the Executioner's House". It is quite a career change: from gallows film set to VIP guest house.`,
+
+      cz: `Na holém vršku nad Trojou stojí vysoký úzký barokní dům, který vypadá, jako by utekl z vesnice a zůstal tam nahoře trčet. Leží v areálu pražské zoo, kde je nejspíš jediným dlouholetým obyvatelem, kterého nikdy nebylo třeba krmit.
+
+Sklenářka vznikla v pozdním 17. století jako viniční lis pro vinice, které kdysi pokrývaly tyhle slunné svahy. Víno se tu pěstovalo nejspíš už za vlády Václava II. (1283–1305) a první písemná zmínka o vinicích pochází z roku 1358. Mapa severní Prahy z roku 1782 už ukazuje budovu na stejném místě a s téměř stejným půdorysem. Je to neobvyklý věžovitý vícepatrový dům s valbovou střechou, mohutným komínem a šikmými opěráky na nárožích, a proto je vidět tak zdaleka, dokonce i z Podbaby přes řeku. V 19. století patřila k velkému velkostatku. Jak vinice mizely, přestavěla se na obydlí a v polovině 20. století v ní bydleli zaměstnanci zoo. Po rekonstrukci v letech 1988–90 přišla v letech 2011–12 citlivá obnova, která zachovala ručně malované stropní trámy i stará okna, a dnes zoo využívá dům jako stylové ubytování pro své vzácné hosty. Je chráněnou kulturní památkou. Cenné jsou i slunné svahy kolem: jsou to vzácné stepní louky, kde žijí ohrožení motýli, a jsou součástí záchranných programů zoo pro druhy jako sysel obecný.
+
+🎁 Bonus: V roce 1931 tu režisér Svatopluk Innemann natáčel scénu se šibenicí pro svou filmovou verzi Jiráskových Psohlavců. Přezdívka se chytila a dům se mu dodnes říká také Katovna. Pěkná kariérní změna: od šibenice ve filmu k ubytování pro VIP hosty.`,
+
+      zh: `特罗亚上方一座光秃秃的小山顶上，立着一栋又高又窄的巴洛克房子，看上去就像从哪个村子溜出来、结果卡在了山上。它位于布拉格动物园园区内，大概是园里唯一一位从来不用喂的“老住户”。
+
+斯克莱纳日卡建于17世纪晚期，原本是一座葡萄压榨房，服务于当年铺满这片向阳山坡的葡萄园。这里很可能早在国王瓦茨拉夫二世在位时（1283—1305年）就开始种葡萄了，关于葡萄园的最早文字记载出现在1358年。一张1782年的布拉格北部地图上，这座房子已经在同一个位置，平面也几乎一模一样。它是一栋少见的塔楼式多层建筑，四坡屋顶，一根粗大的烟囱，墙角还有倾斜的扶壁，所以从很远的地方就能看到，连河对岸的波德巴巴都看得见。19世纪时它属于一座大庄园。随着葡萄园消失，它被改成了住宅，到20世纪中叶，住在里面的是动物园的员工。1988到1990年经过一次重建，2011到2012年又做了一次细致的修复，保留了手绘的天花板木梁和旧窗户。如今动物园把它用作接待贵宾的雅致客房。它是受保护的文化遗产。周围向阳的山坡同样珍贵：那是稀有的草原草甸，栖息着濒危的蝴蝶，也是动物园保护欧洲黄鼠等物种的项目基地。
+
+🎁 彩蛋：1931年，导演斯瓦托普卢克·英内曼在这里拍摄了一场绞刑架的戏，那是他根据阿洛伊斯·伊拉塞克讲述霍德人起义的小说改编的电影。这个外号从此甩不掉了，这栋房子至今也被叫作“刽子手之家”。这职业转型可真不小：从电影里的绞刑架布景，变成了贵宾客房。`,
+    },
+  },
+  {
+    // Added 2026-09-25 at the user's request (coordinates user-supplied).
+    // Sources: cs.wikipedia (Socha Český lev: sandstone, two tails, royal
+    // crown, commissioned by a ladies' association for Bad Ischl, made in the
+    // 1850s in Josef and Emanuel Max's workshop, New Gate bastion → Poříčský
+    // park 1872 → Chotkova bend, house demolished 1966), umenipromesto.eu
+    // record 1288 (commissioned by Countess Eliška Šliková as a memorial to
+    // soldiers from Bohemia who fell in 1848–49, unveiled 1852 at the New
+    // (Vienna) Gate, Max's last work, Czech-German plaque removed at the last
+    // move, managed by the Prague City Gallery), pamatkovykatalog.cz (1872
+    // chronogram on the back). Move to Chotkova dated 1949 (wiki), 1952
+    // (umenipromesto, installed) and 1953 (catalogue), so the card just says
+    // "around 1950". No source explains why it never went to Bad Ischl, so
+    // the card doesn't guess. Rarity 'rare' is my own pick.
+    name: 'Czech Lion Statue',
+    slug: 'socha-cesky-lev',
+    localizedNames: { cz: 'Socha Český lev', zh: '捷克狮子雕像' },
+    labels: ['monument', 'historical', 'hidden-gem'],
+    coordinates: { lat: 50.092937054711776, lng: 14.40659269065621 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Socha_%C4%8Cesk%C3%BD_lev',
+    description: {
+      en: `At a hairpin bend on Chotkova, the road that climbs from Malá Strana up towards the Castle, a sandstone lion lies on a stone block with a crown on his head and two tails behind him. Cars swing round him all day and he doesn't even blink. He has been moved three times already and has stopped taking it personally.
+
+The lion is the last work of Josef Max (1804–1855), one of the leading Prague sculptors of the 19th century, made in the workshop he shared with his brother Emanuel. It was commissioned by Countess Eliška Šliková as a memorial to soldiers from Bohemia who fell in the Austrian army's campaigns of 1848 and 1849, and it was originally meant for Bad Ischl, the Austrian spa town where the emperor spent his summers. It ended up in Prague instead, and in 1852 it was unveiled on a bastion of the New Town walls by the New Gate, also called the Vienna Gate. The design is pure Czech heraldry: the two-tailed lion from the kingdom's coat of arms, wearing the St. Wenceslas Crown. When the city walls were torn down, the lion moved in 1872 to the newly laid-out park by Poříčí, in front of the building that from 1883 held the collections of the Prague City Museum. A chronogram on the back of the base still records that year. Around 1950 he was moved again, to this bend on Chotkova, where he was placed in front of a neo-Gothic apartment building. In 1966 the building was demolished to widen the road, and the lion simply stayed where he was. During the last move, the marble plaque with its Czech and German inscription about the fallen soldiers was removed, so today nothing on the spot tells you that he is a war memorial at all. The statue is looked after by the Prague City Gallery and is a protected cultural monument.
+
+🎁 Bonus: This lion has outlived almost everything he was ever placed in front of. The city walls were torn down, the house on Chotkova was demolished, and even the plaque explaining why he exists was taken away. Nobody has tried to move him since 1966. Perhaps it's respect. Perhaps it's that whatever stands behind him tends to disappear.`,
+
+      cz: `V serpentině Chotkovy silnice, která stoupá z Malé Strany nahoru ke Hradu, leží na kamenném podstavci pískovcový lev s korunou na hlavě a dvěma ocasy. Auta kolem něj kličkují celý den a on ani nemrkne. Stěhovali ho už třikrát, a tak si to přestal brát osobně.
+
+Lev je posledním dílem Josefa Maxe (1804–1855), jednoho z předních pražských sochařů 19. století, a vznikl v ateliéru, který sdílel se svým bratrem Emanuelem. Objednala ho hraběnka Eliška Šliková jako pomník vojákům z Čech, kteří padli v taženích rakouské armády v letech 1848 a 1849, a původně byl určen pro Bad Ischl, rakouské lázně, kde císař trávil léta. Nakonec ale zůstal v Praze a v roce 1852 byl odhalen na baště novoměstského opevnění u Nové, zvané též Vídeňské brány. Návrh je čistá česká heraldika: dvouocasý lev ze zemského znaku se svatováclavskou korunou na hlavě. Když se hradby bouraly, přestěhoval se lev v roce 1872 do nově založeného parku na Poříčí, před budovu, kam se v roce 1883 přestěhovaly sbírky Muzea hlavního města Prahy. Ten rok dodnes připomíná chronogram na zadní straně podstavce. Kolem roku 1950 ho přestěhovali znovu, sem do zatáčky Chotkovy silnice, před novogotický činžovní dům. V roce 1966 dům kvůli rozšíření silnice zbourali a lev prostě zůstal, kde byl. Při posledním stěhování zmizela i mramorová deska s českým a německým nápisem o padlých vojácích, takže dnes na místě nic neprozrazuje, že jde vlastně o válečný pomník. Sochu spravuje Galerie hlavního města Prahy a je chráněnou kulturní památkou.
+
+🎁 Bonus: Tenhle lev přežil skoro všechno, před co ho kdy postavili. Hradby zbourali, dům v Chotkově silnici zbourali a i desku, která vysvětlovala, proč tu vůbec je, odmontovali. Od roku 1966 se ho už nikdo nepokusil přestěhovat. Možná z úcty. A možná proto, že co stojí za ním, má sklon mizet.`,
+
+      zh: `霍特科娃路从小城区一路盘旋爬向城堡，在其中一个急弯处，一头砂岩狮子趴在石座上，头戴王冠，身后拖着两条尾巴。汽车整天绕着它拐弯，它连眼都不眨一下。它已经被搬过三次家了，早就不往心里去了。
+
+这头狮子是约瑟夫·马克斯（1804—1855年）的最后一件作品，他是19世纪布拉格最重要的雕塑家之一，狮子出自他和弟弟埃马努埃尔共用的工作室。委托人是埃利什卡·什利科娃伯爵夫人，她想用它纪念1848和1849年在奥地利军队征战中阵亡的波希米亚士兵。它原本是要送去巴特伊舍尔的，那是皇帝每年避暑的奥地利温泉小镇。结果它留在了布拉格，1852年在新城城墙靠近新门（也叫维也纳门）的一座棱堡上揭幕。造型完全是捷克纹章的路子：王国徽章上的双尾狮，头戴圣瓦茨拉夫王冠。城墙拆除后，狮子在1872年搬进了波日奇新建的公园，就在那栋1883年起收藏布拉格城市博物馆藏品的楼前面。基座背面的纪年铭文至今还记着这一年。1950年前后它又搬了一次，来到霍特科娃路的这个弯道，被安置在一栋新哥特式公寓楼前。1966年，为了拓宽道路，那栋楼被拆了，狮子就这么原地留了下来。最后一次搬家时，刻着捷德双语、纪念阵亡士兵的大理石铭牌也被拆走了，所以如今站在这里，已经没有任何东西告诉你它其实是一座战争纪念碑。雕像由布拉格城市美术馆管理，是受保护的文化遗产。
+
+🎁 彩蛋：凡是被安排在这头狮子身后的东西，几乎都没活过它。城墙拆了，霍特科娃路上的房子拆了，连解释它为什么存在的那块铭牌都被卸走了。1966年以后，再没有人试图搬动它。也许是出于敬意。也许是因为站在它身后的东西，总有消失的习惯。`,
+    },
+  },
+  {
+    // Added 2026-09-25 at the user's request (coordinates user-supplied).
+    // Sources: cs.wikipedia (Pomník Julia Zeyera: Hlávka's idea the day after
+    // Zeyer's January 1901 funeral, Mauder a longtime friend with Zeyer as
+    // wedding witness in 1883, Hlávka wanted bronze on a low base vs Mauder's
+    // cave by a pond, Liechtenstein granite from his Říčany quarry, women's
+    // collections, eight figures in white Laas marble, bronze medallion,
+    // red-brown plaque with gilded titles, water from the Světluška tunnel
+    // across the Chotkova bridge, dried up after the bridge reconstruction,
+    // 2000–2016 vandalism to Kazi's face and Libuše's nose, protected 1958,
+    // part of the Prague Castle NKP since 1999), praha1.cz / hrad.cz 23 Sep
+    // 2025 (unveiled 16 Sep 1913, over 100 granite boulders, first full
+    // restoration since unveiling; wiki says November 1913, went with the
+    // Castle's own date). Rarity 'superior' is my own pick.
+    name: 'Julius Zeyer Monument',
+    slug: 'pomnik-julia-zeyera',
+    localizedNames: { cz: 'Pomník Julia Zeyera', zh: '尤利乌斯·泽耶尔纪念碑' },
+    labels: ['monument', 'park', 'historical', 'hidden-gem'],
+    coordinates: { lat: 50.093737017535034, lng: 14.407987401607022 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pomn%C3%ADk_Julia_Zeyera',
+    description: {
+      en: `Most monuments put the famous man on a pedestal and call it a day. This one, in the Chotek Gardens, builds an entire artificial cliff out of granite boulders, opens a cave in it and fills the cave with gleaming white marble characters from his books. The poet himself gets a small medallion up on the roof.
+
+Julius Zeyer (1841–1901) was one of the great Czech neo-Romantic poets and playwrights, a man who spent his career retelling old legends and epics from Bohemia and far beyond. The day after his funeral in January 1901, the architect and patron Josef Hlávka, who had supported Zeyer for years and given him a home in Prague, came up with the idea for a monument. The choice of sculptor was obvious: Josef Mauder, a longtime friend who had asked Zeyer to be the witness at his wedding in 1883. The form was far less obvious. Hlávka wanted a traditional bronze statue on a low stone base. Mauder wanted a romantic scene, a cave by a pond. The disagreement held the project up for years, and Hlávka died in 1908 before it was resolved. In the end, Prince Johann of Liechtenstein donated granite from his quarry near Říčany, Czech women organised collections to raise money, and the monument, built from more than a hundred natural granite boulders, was unveiled on 16 September 1913. Inside the cave stand eight figures carved from white marble from Laas in South Tyrol: Sister Paskalina in front, the legendary sisters Libuše, Kazi and Teta behind her, the lovers Radúz and Mahulena to the right, and the loyal friends Amis and Amil in the shadows at the back. A plaque on the rear lists Zeyer's works in gilded letters. Water was once piped across the Chotkova bridge to feed a small cascade and pond, but it dried up after the bridge was rebuilt. Between 2000 and 2016 a vandal scratched Kazi's face and broke the tip off Libuše's nose. In 2025 the monument finally got its first full restoration since it was unveiled, from the marble figures and medallion to the gilded lettering and the pond.
+
+🎁 Bonus: Mauder's cave won the argument, but only because the man who opposed it was no longer around to keep arguing. The result is probably the only monument in Prague where the person being honoured is outnumbered eight to one by his own fictional characters, and has been moved up onto the roof to make room for them.`,
+
+      cz: `Většina pomníků postaví slavného muže na podstavec a tím to končí. Tenhle v Chotkových sadech postaví z žulových balvanů celou umělou skálu, otevře v ní jeskyni a naplní ji zářivě bílými mramorovými postavami z jeho knih. Samotný básník dostal malý medailon nahoře na střeše.
+
+Julius Zeyer (1841–1901) patřil k velkým českým novoromantickým básníkům a dramatikům a celý život převyprávěl staré legendy a eposy z Čech i z daleka za jejich hranicemi. Den po jeho pohřbu v lednu 1901 přišel s nápadem na pomník architekt a mecenáš Josef Hlávka, který Zeyera léta podporoval a poskytl mu v Praze domov. Volba sochaře byla jasná: Josef Mauder, dlouholetý přítel, kterému Zeyer v roce 1883 šel za svědka na svatbu. Mnohem méně jasná byla podoba. Hlávka chtěl tradiční bronzovou sochu na nízkém kamenném podstavci. Mauder chtěl romantickou scénu, jeskyni u jezírka. Spor projekt na roky zdržel a Hlávka v roce 1908 zemřel, aniž se vyřešil. Nakonec daroval žulu ze svého lomu u Říčan kníže Jan z Lichtenštejna, české ženy uspořádaly sbírky a pomník, složený z více než stovky přírodních žulových balvanů, byl odhalen 16. září 1913. V jeskyni stojí osm postav z bílého mramoru z Lasy v Jižním Tyrolsku: vpředu sestra Paskalina, za ní bájné sestry Libuše, Kazi a Teta, vpravo milenci Radúz a Mahulena a vzadu ve stínu věrní přátelé Amis a Amil. Deska na zadní straně vyjmenovává Zeyerova díla zlacenými písmeny. Kdysi sem přes Chotkův most vedla voda do malé kaskády a jezírka, po přestavbě mostu ale vyschla. V letech 2000 až 2016 neznámý vandal poškrábal Kazi obličej a Libuši ulomil špičku nosu. V roce 2025 se pomník konečně dočkal první celkové obnovy od svého odhalení, od mramorových postav a medailonu po zlacené písmo a jezírko.
+
+🎁 Bonus: Mauderova jeskyně spor vyhrála, ale jen proto, že muž, který byl proti, už tu nebyl, aby se dál přel. Výsledkem je nejspíš jediný pomník v Praze, kde oslavovaného přečíslí jeho vlastní literární postavy v poměru osm na jednoho a kvůli nim ho ještě odsunuli nahoru na střechu.`,
+
+      zh: `大多数纪念碑都是把名人往底座上一放就完事了。霍特克公园里的这一座却用花岗岩巨石堆出一整面人造山崖，在里面开了个山洞，再往洞里塞满他书中人物的雪白大理石像。诗人本人只在洞顶上分到一块小小的圆形浮雕。
+
+尤利乌斯·泽耶尔（1841—1901年）是捷克新浪漫主义最重要的诗人和剧作家之一，一辈子都在重述古老的传说和史诗，题材从波希米亚一直延伸到遥远的异国。1901年1月他下葬的第二天，建筑师兼赞助人约瑟夫·赫拉夫卡就提出要为他建纪念碑。赫拉夫卡多年来一直资助泽耶尔，还在布拉格给了他一个家。雕塑家的人选毫无悬念：约瑟夫·毛德尔，泽耶尔的多年好友，1883年结婚时请的证婚人就是泽耶尔。形式可就没那么好定了。赫拉夫卡想要一尊传统的青铜像，配一个矮石座。毛德尔想要一个浪漫的场景：池塘边的一个山洞。这场分歧让项目拖了好几年，赫拉夫卡1908年去世时，事情还没谈拢。最后，列支敦士登亲王约翰从他在日恰尼附近的采石场捐出了花岗岩，捷克妇女们发起了募捐，这座由一百多块天然花岗岩巨石砌成的纪念碑于1913年9月16日揭幕。洞里站着八个人物，都是用南蒂罗尔拉斯出产的白色大理石雕成的：最前面是帕斯卡丽娜修女，她身后是传说中的三姐妹利布谢、卡齐和苔塔，右边是恋人拉杜兹和马胡莱娜，后面阴影里是一对忠诚的朋友阿米斯和阿米尔。背面的石板上用镀金字母列着泽耶尔的作品。当年还有水从霍特克桥那边引过来，供给一道小瀑布和一个小池塘，可大桥重建之后就干了。2000到2016年间，一个不知名的破坏者划花了卡齐的脸，还敲掉了利布谢的鼻尖。2025年，纪念碑终于迎来了揭幕以来的第一次全面修复，从大理石像和浮雕，一直修到镀金字和池塘。
+
+🎁 彩蛋：毛德尔的山洞方案最终胜出，但只是因为反对它的那个人已经不在了，没法再吵下去。结果这大概成了布拉格唯一一座被纪念者本人以一敌八、被自己笔下人物包围，还为了给他们腾地方被挪到了房顶上的纪念碑。`,
+    },
+  },
+  {
+    // Added 2026-09-25 at the user's request (coordinates user-supplied).
+    // Sources: cs.wikipedia (Oranžérie (Královská zahrada): first orangery
+    // early 1560s by Bonifác Wolmut, stone walls with removable roof, citrus,
+    // pomegranates, laurel in tubs, ravaged by Saxon and Swedish troops in the
+    // Thirty Years' War, 1950s greenhouse, 1999–2001 new building by Eva
+    // Jiřičná, stainless-steel tube lattice, three sections, Olga Havlová's
+    // initiative, Simons Foundation funding, plants for the Castle's state
+    // rooms; dimensions 84.5 × 8.97 × 5.2 m, other sources say "nearly 90 m",
+    // so the card says "more than 80"), praha.rozhlas.cz (Havel wrote in the
+    // old greenhouse and glass fell on his head, no Czech firm could build
+    // it, German contractor, Rudolf II grew citrus here), aktualne.cz (the
+    // Royal Garden's youngest building), prazsky.denik.cz 9 Aug 2026 (not
+    // regularly open, staff shortage, visitors stealing pineapples).
+    // Rarity 'rare' is my own pick.
+    name: 'New Orangery',
+    slug: 'nova-oranzerie',
+    localizedNames: { cz: 'Nová oranžerie', zh: '新橘园温室' },
+    labels: ['architecture', 'modern', 'park', 'hidden-gem'],
+    coordinates: { lat: 50.09276300381844, lng: 14.402478797284793 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Oran%C5%BE%C3%A9rie_(Kr%C3%A1lovsk%C3%A1_zahrada)',
+    description: {
+      en: `In the Royal Garden of Prague Castle, a long glass tube lies along an old stone wall like a spaceship that landed in the Renaissance and decided to stay. Inside, the Castle's gardeners grow the plants that decorate the president's state rooms. Unfortunately, the part visitors like best is the pineapples.
+
+Exotic plants have been grown on this spot for more than four and a half centuries. The first orangery here was built in the 1560s by the architect Bonifác Wolmut: stone walls with a roof that could be taken off in summer, and citrus trees, pomegranates and laurel kept in portable tubs. Rudolf II, who collected rare and exotic things of every kind, grew his citrus fruits here too. During the Thirty Years' War, Saxon and Swedish troops ravaged the Royal Garden, and the orangery went with it. A plain greenhouse went up on the site in the 1950s, and by the time Václav Havel became president it was falling apart. Havel liked to go there to write anyway, and according to the architect of its replacement, pieces of glass used to fall on his head. His wife Olga Havlová pushed for a new building, but she died in 1996 and never saw it finished. Part of the cost was covered by the foundation of the Canadian patron Jennifer Allen Simons. The design, built in 1999–2001, came from Eva Jiřičná, a Czech architect who left for London in 1968 and made her name there in high-tech architecture. It is a half-cylinder of glass more than 80 metres long, held up by an outer lattice of stainless-steel tubes so the inside stays completely open, and it leans against the old Renaissance retaining wall without damaging it. Jiřičná later said the approvals went smoothly, but there was nobody in the Czech Republic who knew how to build it, so a German firm she had worked with abroad did the job. Inside, the space is divided into three sections, for germination, growth and plant recovery. It is the youngest building in the Royal Garden and is not open regularly, only on special occasions such as the Castle's open garden weekends.
+
+🎁 Bonus: The Orangery doesn't stay closed because of state secrets. According to the Castle's head of gardens, there aren't enough staff to watch the visitors, and some of the visitors who do get in keep leaving with the pineapples. War, Swedish armies and five centuries of history couldn't keep people out of this spot. Pineapple thieves managed it.`,
+
+      cz: `V Královské zahradě Pražského hradu leží podél staré kamenné zdi dlouhá skleněná trubice, jako by v renesanci přistála vesmírná loď a rozhodla se zůstat. Uvnitř hradní zahradníci pěstují rostliny, které zdobí prezidentovy reprezentační sály. Návštěvníkům se bohužel nejvíc líbí ananasy.
+
+Exotické rostliny se na tomhle místě pěstují už přes čtyři a půl století. První oranžerii tu v 60. letech 16. století postavil architekt Bonifác Wolmut: kamenné zdi se střechou, kterou šlo na léto sundat, a citrusy, granátová jablka a vavříny v přenosných kádích. Své citrusy tu pěstoval i Rudolf II., sběratel všeho vzácného a exotického. Za třicetileté války zpustošila Královskou zahradu saská a švédská vojska a oranžerie padla s ní. V 50. letech 20. století tu vyrostl obyčejný skleník a v době, kdy se prezidentem stal Václav Havel, se už rozpadal. Havel sem přesto chodil psát a podle architektky nové stavby mu na hlavu padalo sklo. Jeho žena Olga Havlová prosazovala novou stavbu, zemřela však v roce 1996 a jejího dokončení se nedočkala. Část nákladů uhradila nadace kanadské mecenášky Jennifer Allen Simons. Návrh, postavený v letech 1999–2001, pochází od Evy Jiřičné, české architektky, která v roce 1968 odešla do Londýna a proslavila se tam architekturou ve stylu high-tech. Jde o skleněný polováleč dlouhý přes 80 metrů, nesený vnější mříží z nerezových trubek, takže vnitřek zůstává úplně volný, a opřený o starou renesanční opěrnou zeď, aniž by ji poškodil. Jiřičná později vzpomínala, že povolení šla hladce, jenže v Česku nebyl nikdo, kdo by to uměl postavit, a tak stavbu provedla německá firma, se kterou spolupracovala v zahraničí. Vnitřek je rozdělen na tři části, pro množení, pěstování a regeneraci rostlin. Je to nejmladší stavba Královské zahrady a pravidelně otevřená není, jen při zvláštních příležitostech, třeba o víkendech otevřených zahrad.
+
+🎁 Bonus: Oranžerie není zavřená kvůli státním tajemstvím. Podle vedoucí hradních zahrad chybí lidi, kteří by návštěvníky hlídali, a někteří z těch, kdo se dovnitř dostanou, odcházejí s ananasy. Válka, švédská vojska ani pět staletí historie lidi od tohohle místa neodehnaly. Zloději ananasů to zvládli.`,
+
+      zh: `布拉格城堡的皇家花园里，一根长长的玻璃管顺着一堵古老的石墙躺着，像是一艘飞船降落在文艺复兴时代，然后决定不走了。城堡的园丁在里面培育装点总统礼宾厅的植物。可惜游客最喜欢的，是里面的菠萝。
+
+这块地方种异域植物已经有四百五十多年了。最早的橘园是建筑师博尼法茨·沃尔穆特在16世纪60年代建的：石头围墙，夏天可以把屋顶拆掉，柑橘树、石榴和月桂都种在能搬动的木桶里。热衷收集一切稀奇古怪之物的鲁道夫二世，也在这里种过他的柑橘。三十年战争期间，萨克森和瑞典军队把皇家花园糟蹋了一遍，橘园也跟着毁了。1950年代，这里盖起了一座普通的温室，等到瓦茨拉夫·哈维尔当上总统时，它已经破败不堪。哈维尔还是喜欢到这里来写作，据后来接手的建筑师说，玻璃碎片时不时就往他头上掉。他的夫人奥尔加·哈维洛娃力推建一座新温室，可她1996年去世，没能看到它落成。部分费用由加拿大赞助人詹妮弗·艾伦·西蒙斯的基金会承担。新温室1999到2001年建成，设计者是伊娃·伊日奇娜，一位1968年去了伦敦、在那里以高技派建筑成名的捷克建筑师。它是一个长八十多米的玻璃半圆筒，靠外面一层不锈钢管网格撑着，所以里面完全没有柱子，整座建筑倚着文艺复兴时期的老挡土墙，却没伤到它分毫。伊日奇娜后来回忆说，审批一路顺利，可捷克没有一家公司会建这东西，最后只好请了一家她在国外合作过的德国公司。温室内部分成三段，分别用来育苗、生长和让植物休养恢复。它是皇家花园里最年轻的建筑，平时不对外开放，只在特殊场合开门，比如城堡的花园开放周末。
+
+🎁 彩蛋：橘园常年关门，并不是因为里面藏着国家机密。据城堡园林部门负责人说，是因为人手不够，看不住游客，而进去过的游客里，总有人顺手带走菠萝。战争、瑞典大军、五百年的历史都没能把人挡在这里之外，偷菠萝的人做到了。`,
+    },
+  },
+  {
+    // Added 2026-09-26 at the user's request, with user-supplied
+    // coordinates, to link the 1427 crusade cards (the-enemy-nobody-saw-1427,
+    // if-you-cant-beat-them-tax-them-1427). This is the western border town
+    // in the Tachov district, NOT tachov-troskovice (the KCD2 village near
+    // Trosky). Facts from cs.wikipedia (Tachov; Městské opevnění (Tachov))
+    // and kudyznudy.cz / tachov.cz on the walls.
+    name: 'Tachov',
+    slug: 'tachov',
+    localizedNames: { cz: 'Tachov', zh: '塔霍夫' },
+    labels: ['city', 'historical'],
+    coordinates: { lat: 49.795458939632475, lng: 12.633062789202977 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Tachov',
+    description: {
+      en: `Welcome to Tachov, a small town tucked into a valley a few kilometres from the Bavarian border, wrapped in a set of medieval walls that look as if nobody ever told them the Middle Ages were over. Plenty of armies came this way over the centuries. The walls are still here. Several of the armies are not.
+
+Tachov began as a border fortress: Duke Soběslav I rebuilt the frontier strongholds here around 1126, and a castle near the village of Tachov is on record by 1131. King Otakar II turned the settlement into a walled royal town around 1275, and the walls built then, about 700 metres around the old centre with 26 towers standing 11 to 14 metres high, did exactly the job they were built for. In August 1427 a crusading army against the Hussites, one of the largest the Empire ever sent into Bohemia, fell apart in panic just outside the town without fighting a battle. The Hussites then turned on Tachov itself, bombarded it and stormed it on 11 August; the street they broke in by is still called Bloody Street. The castle surrendered three days later with about 1,400 prisoners. Four years on, in 1431, the next crusade tried to take Tachov back from its Hussite garrison and gave up after a short siege.
+
+The later centuries were rougher on the town than any crusade: a great fire in 1616, Swedish troops burning it again during the Thirty Years' War, the loss of its royal privileges in 1623. From 1784 the estate belonged to the Windischgrätz princes, who remodelled the castle in the classical style after a fire, and the Franciscan monastery now houses the museum of the Bohemian Forest region. For centuries Tachov was a mostly German-speaking town; in 1930 more than nine in ten residents were German. After 1945 they were expelled, and the town was resettled by newcomers from the Czech interior. Today 21 of the original 26 towers still stand in some form, which makes Tachov's walls one of the best-preserved town fortifications in the country.
+
+🎁 Bonus: the Windischgrätz princes' horses were, by some distance, the best-housed residents of the estate. In 1861 the family built a riding hall at nearby Světce in full pseudo-Romanesque style, with arches, towers and a facade grand enough that first-time visitors regularly take it for a church. As for the walls, since the summer of 2026 two of the towers are open to visitors for free, with new staircases and viewing galleries, so anyone can now climb up and look out over the valley the Hussites once came down.`,
+
+      cz: `Vítej v Tachově, malém městě schovaném v údolí pár kilometrů od bavorské hranice a obehnaném středověkými hradbami, kterým zjevně nikdo nevyřídil, že středověk už skončil. Za ta staletí tudy prošla spousta vojsk. Hradby tu stojí dodnes. Několik těch vojsk už ne.
+
+Tachov začínal jako pohraniční pevnost: kníže Soběslav I. tu kolem roku 1126 obnovil pohraniční hrady a hrad u vsi Tachov je doložen roku 1131. Král Přemysl Otakar II. z osady kolem roku 1275 udělal opevněné královské město a hradby postavené v té době, asi 700 metrů kolem starého jádra s 26 věžemi vysokými 11 až 14 metrů, dělaly přesně to, k čemu byly postavené. V srpnu 1427 se kousek za městem v panice rozpadla bez jediné bitvy křížová výprava proti husitům, jedna z největších, jaké kdy říše do Čech poslala. Husité se pak obrátili na samotný Tachov, ostřelovali ho a 11. srpna vzali útokem; ulice, kudy vtrhli dovnitř, se dodnes jmenuje Krvavá. Hrad se o tři dny později vzdal a do zajetí šlo asi 1 400 lidí. O čtyři roky později, roku 1431, se další křížová výprava pokusila Tachov husitské posádce vzít a po krátkém obléhání to vzdala.
+
+Pozdější staletí byla k městu krutější než jakákoli křížová výprava: velký požár roku 1616, Švédové, kteří ho za třicetileté války znovu vypálili, a roku 1623 ztráta královských výsad. Od roku 1784 patřilo panství knížatům z Windischgrätzu, kteří zámek po požáru přestavěli v klasicistním slohu, a ve františkánském klášteře dnes sídlí Muzeum Českého lesa. Po staletí byl Tachov převážně německým městem; roku 1930 tu bylo přes devět z deseti obyvatel Němců. Po roce 1945 byli vysídleni a město dosídlili noví obyvatelé z vnitrozemí. Dodnes se z původních 26 věží v nějaké podobě dochovala 21, takže tachovské hradby patří k nejzachovalejším městským opevněním v zemi.
+
+🎁 Bonus: nejlépe ubytovanými obyvateli windischgrätzského panství byli s velkým náskokem koně. Roku 1861 jim rodina postavila v nedalekých Světcích jízdárnu v plném novorománském stylu, s oblouky, věžemi a průčelím tak honosným, že ji návštěvníci napoprvé běžně považují za kostel. A pokud jde o hradby, od léta 2026 jsou dvě věže zdarma přístupné veřejnosti, s novými schodišti a vyhlídkovými ochozy, takže každý může vystoupat nahoru a podívat se do údolí, kudy kdysi přišli husité.`,
+
+      zh: `欢迎来到塔霍夫。这座小城藏在离巴伐利亚边境只有几公里的一道山谷里，外面围着一圈中世纪城墙，看样子从来没人通知过它们中世纪已经结束了。几百年来，从这里经过的军队不计其数。城墙到今天还立着，那些军队里有好几支却早就不在了。
+
+塔霍夫最早是一座边境要塞：大约1126年，索别斯拉夫一世公爵在这一带重修了边境城堡，到1131年，史料里已经记下了“塔霍夫村附近的一座城堡”。约1275年，国王普热米斯尔·奥托卡二世把这里扩建成一座设防的王室城镇。当时修起的城墙绕着老城中心约七百米，共有二十六座塔楼，每座高十一到十四米，也确实尽到了自己的本分。1427年8月，帝国派进波希米亚规模最大的讨伐胡斯派十字军之一，就在城外不远处一仗未打，自己在恐慌中散了架。胡斯军随后调转矛头对准塔霍夫，一番炮击之后，于8月11日攻进城去，他们破城而入的那条街，至今还叫“血腥之路”。三天后城堡投降，约一千四百人被俘。四年后的1431年，下一支十字军想从胡斯派守军手里夺回塔霍夫，围了没多久就放弃了。
+
+之后几百年，这座城吃的苦头比哪次十字军都多：1616年一场大火，三十年战争中又被瑞典军烧了一次，1623年还丢了王室城镇的特权。从1784年起，这片领地归温迪施格雷茨家族所有，他们在城堡失火后把它改建成了古典主义风格；方济各会修道院如今是波希米亚森林地区的博物馆。几百年来，塔霍夫一直以说德语的居民为主，1930年时，十个居民里有九个以上是德意志人。1945年后，他们被驱逐出境，城里住进了从捷克内地迁来的新居民。原来的二十六座塔楼，如今仍有二十一座以不同程度的面貌留存下来，让塔霍夫的城墙成为全国保存最好的城市防御工事之一。
+
+🎁 彩蛋：温迪施格雷茨家族领地上住得最好的，显然是马。1861年，这家人在附近的斯韦采给马儿们盖了一座新罗马式的驯马场，拱券、塔楼一应俱全，正立面气派得让第一次来的游客常常以为是座教堂。至于城墙，从2026年夏天起，其中两座塔楼已经免费对游客开放，装上了新楼梯和观景廊，谁都可以爬上去，眺望当年胡斯军开进来的那道山谷。`,
+    },
+  },
+  {
+    // Added 2026-09-26 at the user's request, with user-supplied
+    // coordinates, to link the-enemy-nobody-saw-1427 (the crusaders'
+    // failed siege of Stříbro, July–August 1427). Facts from cs.wikipedia
+    // (Stříbro (okres Tachov)).
+    name: 'Stříbro',
+    slug: 'stribro',
+    localizedNames: { cz: 'Stříbro', zh: '斯特日布罗' },
+    labels: ['city', 'historical'],
+    coordinates: { lat: 49.75308463498012, lng: 13.005312687553849 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/St%C5%99%C3%ADbro',
+    description: {
+      en: `Welcome to Stříbro, a town that named itself after the thing it was digging out of the ground: the word simply means "silver". It sits on a steep rock above the river Mže in western Bohemia, which turned out to be just as useful for keeping armies out as the silver was for bringing money in.
+
+The town was founded as a royal town around 1240 under King Wenceslas I, and King Otakar II confirmed its town status with generous privileges in 1263. Silver mining made it rich fast: before the Hussite Wars it was one of the four largest towns in the Plzeň region, with three churches and three monasteries. Its position on the cliff made it famously hard to take. Jan Žižka besieged it in 1421 and failed; the Hussite captain Přibík of Klenová finally won it in 1426, and a year later it was his turn to hold it. In July 1427 a huge crusading army from the Empire surrounded the town and pounded it with artillery for more than a week. The small garrison held, and when word came that the Hussite field armies were on their way, the crusaders lifted the siege and fell back toward Tachov, where their whole campaign collapsed. The town also produced one of the Hussite movement's leading minds: the theologian Jakoubek of Stříbro, who first gave the chalice to ordinary believers in Prague in 1414, was born here.
+
+Later centuries brought a second mining boom, this time for lead, a Swedish army forcing its way across the Mže here in 1641 during the Thirty Years' War, and, after 1945, the expulsion of the town's German majority. The old town still shows off its Renaissance wealth: a stone bridge over the river built in 1555, the late Gothic Church of All Saints, a Marian plague column from 1740, and a mining museum where visitors can walk through an old exploratory tunnel.
+
+🎁 Bonus: the stone bridge ends in a Renaissance gate tower, and Czechs like to point out that only one other bridge tower of the kind stands in Bohemia, the Old Town Bridge Tower at the end of Charles Bridge in Prague. Meanwhile the town hall's sgraffito facade proudly depicts the town's founding in 1131, a date taken from an old chronicle that historians say is about a century too early. Nobody has seen much reason to repaint it.`,
+
+      cz: `Vítej ve Stříbře, městě, které se pojmenovalo po tom, co dolovalo ze země. Stojí na strmé skále nad řekou Mží na západě Čech, a ta skála se ukázala stejně užitečná pro zadržování vojsk, jako bylo stříbro pro přísun peněz.
+
+Stříbro vzniklo jako královské město kolem roku 1240 za krále Václava I. a Přemysl Otakar II. mu roku 1263 potvrdil městská práva s bohatými výsadami. Těžba stříbra ho rychle zbohatila: před husitskými válkami patřilo mezi čtyři největší města Plzeňska, se třemi kostely a třemi kláštery. Poloha na skále z něj dělala pověstně těžký oříšek. Jan Žižka ho roku 1421 obléhal a neuspěl; husitský hejtman Přibík z Klenového ho získal až roku 1426 a o rok později byl na řadě, aby ho sám uhájil. V červenci 1427 město obklíčilo obrovské křižácké vojsko z říše a přes týden ho ostřelovalo z děl. Malá posádka vydržela, a když přišla zpráva, že se blíží husitská polní vojska, křižáci obléhání zrušili a ustoupili k Tachovu, kde se celá jejich výprava rozpadla. Město dalo husitství i jednu z jeho předních hlav: rodákem odsud byl teolog Jakoubek ze Stříbra, který roku 1414 v Praze poprvé podal kalich prostým věřícím.
+
+Pozdější staletí přinesla druhou těžební konjunkturu, tentokrát olova, švédské vojsko, které si tu roku 1641 za třicetileté války vybojovalo přechod přes Mži, a po roce 1945 vysídlení německé většiny obyvatel. Staré město dodnes ukazuje své renesanční bohatství: kamenný most přes řeku z roku 1555, pozdně gotický kostel Všech svatých, mariánský morový sloup z roku 1740 a hornické muzeum, kde lze projít starou průzkumnou štolou.
+
+🎁 Bonus: kamenný most končí renesanční mosteckou věží a Češi rádi připomínají, že podobná mostní věž stojí v Čechách už jen jedna, Staroměstská mostecká věž u Karlova mostu v Praze. Radnice zase na své sgrafitové fasádě hrdě zobrazuje založení města roku 1131, letopočet převzatý ze staré kroniky, o kterém historici tvrdí, že je asi o sto let přestřelený. Nikdo zatím neviděl velký důvod ho přemalovávat.`,
+
+      zh: `欢迎来到斯特日布罗。这座城的名字，直接取自它从地底下挖出来的东西：在捷克语里，它的意思就是“银子”。小城坐落在波希米亚西部姆热河上方一块陡峭的岩石上，事实证明，这块岩石挡军队的本事，和银子招财的本事一样好用。
+
+大约1240年，国王瓦茨拉夫一世在这里建起了一座王室城镇，1263年，普热米斯尔·奥托卡二世又确认了它的城镇地位，还给了不少特权。银矿让它很快富了起来：胡斯战争之前，它是普尔森地区最大的四座城镇之一，城里有三座教堂、三座修道院。建在悬崖上的地势，让它出了名地难打。1421年杰式卡围过它，没打下来；直到1426年，胡斯派将领克莱诺韦的普日比克才把它拿到手，一年后，轮到他来守了。1427年7月，一支从帝国开来的庞大十字军把小城团团围住，用大炮轰了一个多星期。小小的守军硬是扛住了。等到胡斯派野战军正在赶来的消息传到，十字军就撤了围，退往塔霍夫，整场远征也就在那里散了架。这座城还出了胡斯运动的一位头号人物：1414年在布拉格第一次让普通信徒领受圣杯的神学家、斯特日布罗的雅库贝克，就出生在这里。
+
+后来的几百年里，小城又迎来了第二轮采矿热潮，这回挖的是铅；1641年三十年战争期间，瑞典军队在这里强渡了姆热河；1945年之后，城里占多数的德意志居民被驱逐出境。老城至今还看得出文艺复兴时期的阔绰：1555年建成的跨河石桥、晚期哥特式的诸圣教堂、1740年立起的圣母瘟疫纪念柱，还有一座采矿博物馆，游客可以钻进一条老勘探坑道里走一走。
+
+🎁 彩蛋：石桥的一头立着一座文艺复兴时期的桥头塔楼。捷克人很爱提一句：像这样的桥塔，在波希米亚只剩另外一座，就是布拉格查理大桥桥头的老城桥塔。另外，市政厅外墙上的刮画装饰，得意洋洋地画着小城“1131年建城”的场面。这个年份出自一部老编年史，史学家说它大概早了一百年。不过到目前为止，也没人觉得有什么必要把它重新刷掉。`,
+    },
+  },
+  {
+    // Added 2026-09-26 at the user's request (coordinates user-supplied).
+    // Sources: cs.wikipedia (Čimické údolí: declared 29 April 1968 by the
+    // Prague National Committee, 240–270 m, Čimický potok rising at Čimický
+    // rybník on the eastern edge, Upper Proterozoic greywackes and shales with
+    // former submarine volcanic deposits, Festuca valesiaca/pallens, Pulsatilla
+    // pratensis subsp. bohemica, Anthericum liliago, black locust removal by
+    // repeated cutting, Koztoprtský pond amphibians, kingfisher, tree pipit,
+    // treecreeper, early 20th-century quarrying), praha-priroda.cz (Quaternary
+    // Vltava terrace sands/gravels, Stone Age settlement, fields/pastures,
+    // quarry stone for the Chabry–Čimice road, Gagea bohemica, oak/maple
+    // secondary woodland), stezkabohnice.cz (Bohnice–Čimice–Troja trail,
+    // Bohnice hospital to the south). Area varies by source (8.2–10.8 ha), so
+    // the card says "about ten hectares". Rarity 'rare' is my own pick.
+    name: 'Čimice Valley',
+    slug: 'cimicke-udoli',
+    localizedNames: { cz: 'Přírodní památka Čimické údolí', zh: '奇米采谷自然保护地' },
+    labels: ['nature', 'geology', 'hidden-gem'],
+    coordinates: { lat: 50.141739783832094, lng: 14.415930598561324 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C4%8Cimick%C3%A9_%C3%BAdol%C3%AD',
+    description: {
+      en: `Squeezed between the housing estates of Čimice and the grounds of Bohnice psychiatric hospital, there is a shallow little valley that somehow never got built on. It has a stream, a pond, bare rocks and a rare purple pasque flower. It has been a protected natural monument since 1968, which by Prague 8 standards makes it practically a national park.
+
+The valley was declared a natural monument on 29 April 1968 and covers about ten hectares, at 240 to 270 metres above sea level. Čimický potok, the stream that carved it, rises at Čimice Pond on the eastern edge and runs west towards the Vltava. The rocks sticking out of the slopes are hard greywackes and shales from the late Proterozoic, well over half a billion years old, and some of them began as volcanic deposits on the floor of an ancient sea. On top of them lie sands and gravels left behind by the Vltava, back when the river flowed at a much higher level. People have lived around here since the Stone Age. The better soil was ploughed, the slopes and rocks were used as pasture, and scattered fruit trees are all that is left of the old orchards. At the beginning of the 20th century the easternmost rock was quarried for stone to build the road from Chabry to Čimice.
+
+Today the sunny rocks are covered in steppe grassland: tufts of fescue, the Bohemian pasque flower, the Bohemian gagea and St. Bernard's lily. The dry grass is home to rare heat-loving spiders, weevils and ground beetles, while newts, grass snakes and frogs live around Koztoprtský Pond, and kingfishers, tree pipits and treecreepers nest in the valley. The meadows are mown one to three times a year, and the rocks are kept free of trees so the grassland doesn't disappear under woodland. An educational trail from Bohnice through Čimice to Troja runs right through it.
+
+🎁 Bonus: The valley's worst enemy isn't a developer but a tree. Black locust, brought over from North America as an ornamental, spreads across the slopes and shades out the rare plants. Cut it down and it simply sends up a crowd of new shoots from the stump, so the conservationists here have spent decades fighting what is basically a botanical hydra.`,
+
+      cz: `Mezi čimickým sídlištěm a areálem bohnické psychiatrické nemocnice se krčí mělké údolíčko, které se nějakým zázrakem nikdy nezastavělo. Má potok, rybník, holé skály a vzácný fialový koniklec. Od roku 1968 je chráněnou přírodní památkou, což je na poměry Prahy 8 skoro národní park.
+
+Údolí bylo vyhlášeno přírodní památkou 29. dubna 1968 a zabírá asi deset hektarů v nadmořské výšce 240 až 270 metrů. Čimický potok, který ho vyhloubil, pramení v Čimickém rybníku na východním okraji a teče na západ k Vltavě. Skály, které vystupují ze svahů, jsou tvrdé droby a břidlice ze svrchního proterozoika, staré přes půl miliardy let, a některé z nich vznikly z vulkanických usazenin na dně dávného moře. Na nich leží písky a štěrky, které tu zanechala Vltava v dobách, kdy tekla mnohem výš. Lidé tu žili už v době kamenné. Úrodnější půda se orala, svahy a skály sloužily jako pastviny a z někdejších sadů zbyly jen rozptýlené ovocné stromy. Na začátku 20. století se na nejvýchodnější skále lámal kámen na stavbu silnice z Chaber do Čimic.
+
+Dnes pokrývají slunné skály stepní trávníky: trsy kostřavy, koniklec luční český, křivatec český a bělozářka liliovitá. V suché trávě žijí vzácní teplomilní pavouci, nosatci a střevlíci, u Koztoprtského rybníka čolci, užovky a skokani a v údolí hnízdí ledňáček, linduška lesní a šoupálek. Louky se kosí jednou až třikrát do roka a skály se udržují bez stromů, aby trávníky nezarostly lesem. Údolím vede naučná stezka z Bohnic přes Čimice do Troje.
+
+🎁 Bonus: Největším nepřítelem údolí není developer, ale strom. Trnovník akát, dovezený ze Severní Ameriky jako okrasná dřevina, se rozlézá po svazích a zastiňuje vzácné rostliny. Když ho pokácíte, vyžene z pařezu celý hlouček nových výhonků, takže ochranáři tu už desítky let bojují s něčím, co je vlastně botanická hydra.`,
+
+      zh: `在奇米采的住宅区和博赫尼采精神病院的院墙之间，夹着一条浅浅的小山谷，不知怎么的一直没被盖上房子。这里有小溪、池塘、光秃秃的岩石，还有珍稀的紫色白头翁。它从1968年起就是受保护的自然保护地，按布拉格8区的标准，这差不多就算国家公园了。
+
+山谷于1968年4月29日被列为自然保护地，面积约十公顷，海拔240到270米。冲刷出这条山谷的奇米采溪发源于东端的奇米采池塘，一路向西流往伏尔塔瓦河。从山坡上冒出来的岩石是元古宙晚期坚硬的杂砂岩和页岩，已有五亿多年历史，其中一些最早是远古海底的火山沉积物。岩石上面覆盖着伏尔塔瓦河留下的沙子和砾石，那时候河水流经的位置比现在高得多。这一带从石器时代起就有人居住。肥一点的土地被开垦成农田，山坡和岩石用作牧场，当年的果园如今只剩下零零散散的几棵果树。20世纪初，最东边的那块岩石被开成了采石场，石头拿去修了从哈布里到奇米采的公路。
+
+如今向阳的岩石上长满了草原植被：一丛丛的羊茅、波希米亚白头翁、波希米亚顶冰花和百合状圣伯纳百合。干草丛里住着稀有的喜温蜘蛛、象鼻虫和步甲，科兹托普尔茨基池塘边有蝾螈、水游蛇和林蛙，山谷里还有翠鸟、林鹨和旋木雀筑巢。草甸每年割一到三次，岩石上的树也要定期清掉，免得草原被树林吞没。一条从博赫尼采经奇米采通往特罗亚的自然教育步道正好从谷里穿过。
+
+🎁 彩蛋：这条山谷最大的敌人不是开发商，而是一种树。刺槐当年作为观赏树从北美引进，如今在山坡上四处蔓延，把珍稀植物遮得不见天日。砍倒一棵，树桩上马上冒出一大丛新枝，所以这里的保护人员几十年来一直在和一条植物版的九头蛇搏斗。`,
+    },
+  },
+  {
+    // Added 2026-09-26 at the user's request (coordinates user-supplied; the
+    // user listed it as the square with the Max Švabinský plaque on no. 4, so
+    // the card covers both). Sources: bubenec.eu (name history: náměstí
+    // generála M. Janina 1937–40, Ziethenovo náměstí 1940–45, Janin again
+    // 1945–51, Interbrigády since 1951; houses previously addressed to Sadová;
+    // ~10,700 m²), virtualni.praha.eu (park by Antonín Engel's regulation plan,
+    // Konev statue by Zdeněk Krybus unveiled 9 May 1980 with lilacs, Bolívar
+    // statue by Jan Hána, gift of Venezuela 1983, Juárez bust),
+    // pametni-desky-v-praze.cz / drobnepamatky.cz (red marble plaque with a
+    // relief portrait on čp. 948, Švabinský lived here 1930–1962), cka.cz
+    // (2023 Prague Uprising memorial competition won by ROHÁČ STRATIL with
+    // Jakub Berdych Karpelis). Konev statue removal (3 April 2020) and
+    // Russia's criminal investigation are well-reported general knowledge.
+    // "Four addresses without moving" in the bonus assumes his building was
+    // among those first addressed to Sadová, so it's phrased as the square's
+    // renames, not his street address. Rarity 'rare' is my own pick.
+    name: 'Interbrigády Square',
+    slug: 'namesti-interbrigady',
+    localizedNames: { cz: 'Náměstí Interbrigády', zh: '国际纵队广场' },
+    labels: ['square', 'monument', 'historical'],
+    coordinates: { lat: 50.105947187308765, lng: 14.395850752481785 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `This leafy square in Bubeneč has had four names, one of them German, and lost a Soviet marshal to an international row. Through most of that, the most famous man living on it simply kept drawing. On house no. 4, a red marble plaque remembers Max Švabinský, who lived here for thirty-two years.
+
+The square was laid out as part of Antonín Engel's plan for the new Dejvice and Bubeneč of the 1920s, with a strip of park running down the middle. At first the houses here were addressed to Sadová street, and the square only got its own name in 1937: General Maurice Janin Square, after the French general who commanded the Czechoslovak Legions in France and Russia during the First World War. In 1940 the occupiers renamed it after Hans Joachim von Zieten, a Prussian cavalry general of Frederick the Great. In 1945 Janin came back, and in 1951 the communist authorities replaced him for good with the International Brigades, the foreign volunteers who fought on the Republican side in the Spanish Civil War. The square's statues tell a similar story. On 9 May 1980 a larger-than-life statue of Soviet Marshal Ivan Konev by Zdeněk Krybus was unveiled here, holding a bunch of lilacs like the ones Praguers gave Red Army soldiers in May 1945. After years of disputes over his role in 1956 Hungary and 1968, Prague 6 removed the statue in April 2020, and Russia responded with protests and a criminal investigation. In 2023 a competition picked a design for a memorial to the Prague Uprising of May 1945 to take its place. The square also has a statue of Simón Bolívar, a gift from Venezuela in 1983 made by Jan Hána, and a small bust of the Mexican president Benito Juárez.
+
+Max Švabinský (1873–1962), born in Kroměříž, was one of the greatest Czech painters and graphic artists of the 20th century and a National Artist. He is known for his portraits and drawings, for engraving Czechoslovak postage stamps, and for designing stained glass, including the huge Last Judgement window in St. Vitus Cathedral. He lived in house no. 4 from 1930 until his death in 1962. The plaque, in red marble with his portrait in relief, calls him simply "painter and graphic artist" and records exactly those years.
+
+🎁 Bonus: Švabinský moved in when the square had no name at all and died when it had its fourth. In between it honoured a French general, a Prussian general, the same French general again and a band of international volunteers, all without him having to pack a single box.`,
+
+      cz: `Tohle zelené bubenečské náměstí mělo čtyři jména, z toho jedno německé, a kvůli mezinárodní roztržce přišlo o sovětského maršála. Jeho nejslavnější obyvatel mezitím většinou prostě dál kreslil. Na domě číslo 4 připomíná červená mramorová deska Maxe Švabinského, který tu žil dvaatřicet let.
+
+Náměstí vzniklo podle regulačního plánu Antonína Engela pro novou Dejvici a Bubeneč ve 20. letech, se sadovým pásem uprostřed. Domy tu zpočátku patřily k Sadové ulici a vlastní jméno dostalo náměstí až v roce 1937: náměstí generála M. Janina, podle francouzského generála Maurice Janina, který za první světové války velel československým legiím ve Francii a v Rusku. V roce 1940 ho okupanti přejmenovali na Ziethenovo náměstí podle Hanse Joachima von Zietena, pruského jezdeckého generála Fridricha Velikého. V roce 1945 se Janin vrátil a v roce 1951 ho komunistická moc natrvalo nahradila Interbrigádou, zahraničními dobrovolníky, kteří bojovali na straně republiky ve španělské občanské válce. Podobný příběh vyprávějí i sochy. Dne 9. května 1980 tu byla odhalena nadživotní socha sovětského maršála Ivana Koněva od Zdeňka Krybuse, s kyticí šeříku, jakou Pražané dávali rudoarmějcům v květnu 1945. Po letech sporů o jeho roli v Maďarsku 1956 a v roce 1968 sochu Praha 6 v dubnu 2020 odstranila a Rusko odpovědělo protesty a trestním vyšetřováním. V roce 2023 vybrala soutěž návrh památníku Pražského povstání, který ji má nahradit. Na náměstí stojí také socha Simóna Bolívara, dar Venezuely z roku 1983 od Jana Hány, a malá busta mexického prezidenta Benita Juáreze.
+
+Max Švabinský (1873–1962), rodák z Kroměříže, patřil k největším českým malířům a grafikům 20. století a byl národním umělcem. Proslavily ho portréty a kresby, rytiny československých poštovních známek i návrhy vitráží, včetně obrovského okna s Posledním soudem v katedrále sv. Víta. V domě číslo 4 žil od roku 1930 až do své smrti v roce 1962. Deska z červeného mramoru s jeho reliéfním portrétem ho nazývá prostě „malíř a grafik“ a připomíná právě tyhle roky.
+
+🎁 Bonus: Švabinský se sem stěhoval, když náměstí ještě žádné jméno nemělo, a zemřel, když už mělo čtvrté. Mezitím oslavovalo francouzského generála, pruského generála, znovu toho francouzského a nakonec mezinárodní dobrovolníky, a on si kvůli tomu nemusel sbalit ani jednu krabici.`,
+
+      zh: `布贝内奇这个绿树成荫的小广场前后换过四个名字，其中一个是德语名，还因为一场国际风波丢了一位苏联元帅。在这期间，住在广场上最有名的那个人基本上只是在继续画画。4号楼上有一块红色大理石纪念牌，纪念在这里住了三十二年的马克斯·什瓦宾斯基。
+
+这个广场是按照安东宁·恩格尔在20世纪20年代为新德伊维采和布贝内奇做的规划建起来的，中间是一条带状花园。起初这里的房子门牌都挂在萨多瓦街名下，广场直到1937年才有了自己的名字：雅南将军广场，纪念一战期间在法国和俄国指挥捷克斯洛伐克军团的法国将军莫里斯·雅南。1940年，占领者把它改名为齐滕广场，纪念腓特烈大帝手下的普鲁士骑兵将军汉斯·约阿希姆·冯·齐滕。1945年雅南的名字回来了，1951年，共产党政府又永久地把它换成了国际纵队，也就是在西班牙内战中站在共和国一边作战的外国志愿兵。广场上的雕像讲的也是类似的故事。1980年5月9日，这里揭幕了一尊由兹德涅克·克里布斯创作、比真人还大的苏联元帅伊万·科涅夫雕像，他手里捧着一束丁香，就像1945年5月布拉格市民送给红军士兵的那种。围绕他在1956年匈牙利和1968年扮演的角色争了多年之后，布拉格6区在2020年4月移走了雕像，俄罗斯随即提出抗议，还立案展开了刑事调查。2023年，一场设计竞赛选出了取而代之的1945年5月布拉格起义纪念碑方案。广场上还有一尊西蒙·玻利瓦尔的雕像，是委内瑞拉1983年赠送的，出自扬·哈纳之手，另外还有一尊墨西哥总统贝尼托·华雷斯的小型胸像。
+
+马克斯·什瓦宾斯基（1873—1962年）生于克罗梅日什，是20世纪捷克最伟大的画家和版画家之一，获得过“国家艺术家”称号。他以肖像和素描闻名，为捷克斯洛伐克雕刻过邮票，还设计过彩色玻璃窗，其中包括圣维特大教堂里那扇巨大的《最后的审判》花窗。他从1930年起住在4号楼，直到1962年去世。这块红色大理石纪念牌上刻着他的浮雕头像，只简单称他为“画家和版画家”，并记下了这段年份。
+
+🎁 彩蛋：什瓦宾斯基搬来的时候，广场还没有名字；他去世的时候，广场已经用上了第四个名字。这期间它先后纪念了一位法国将军、一位普鲁士将军、又一次那位法国将军，最后是一群国际志愿兵，而他一个箱子都不用收拾。`,
+    },
+  },
+  {
+    // Added 2026-09-26 at the user's request (coordinates user-supplied).
+    // Sources: bubenec.eu (Lotyšská: ~175 m, named 1928 after Latvia,
+    // "Lettische Strasse" 1940–45, "Lotyšák" is an open-sided residential
+    // courtyard between Terronská, Rooseveltova and Jugoslávských partyzánů,
+    // curved path named Korejská in 2020), praha.eu playground page (park by
+    // Antonín Engel's 1928 design in the regulation of New Dejvice, space
+    // originally a building reserve; 2000 renovation: 18 trees felled, almost
+    // twice as many planted, 3.2 million CZK), blesk.cz (2017 underground
+    // garage for ~100 cars, nearly three quarters of survey respondents
+    // against, petition), lepsi6.cz / prazskypatriot.cz (2024–25 participatory
+    // study, 316 survey responses, presented 8 April 2025, completion expected
+    // 2027–28, northern plaza, smart toilet with water play, retention tanks).
+    // No Wikipedia article. Rarity 'common' is my own pick.
+    name: 'Lotyšská Park',
+    slug: 'park-lotysska',
+    localizedNames: { cz: 'Park Lotyšská', zh: '拉脱维亚街公园' },
+    labels: ['park'],
+    coordinates: { lat: 50.10402471845295, lng: 14.396519776577232 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Locals call it Lotyšák, "the Latvian". Apart from the name of the short street next to it, there is nothing Latvian about it at all. It is a green courtyard in Bubeneč with old trees, a sandpit, swings and a basketball court, and its most loyal visitors tend to be either under eight or over seventy.
+
+Lotyšská street is only about 175 metres long. It got its name in 1928, after Latvia, which had become independent just ten years earlier, and during the occupation its signs also read Lettische Strasse. The park beside it is really the inside of a large residential block, open on one side, between Terronská, Rooseveltova and Jugoslávských partyzánů streets, halfway between Vítězné náměstí and Interbrigády Square. When Antonín Engel planned the new Dejvice in the 1920s, this space was first held in reserve for more buildings, but in 1928 it was laid out as a park instead. In 2000 it was renovated for 3.2 million crowns: 18 trees were cut down and almost twice as many new ones were planted. In 2017 the district proposed building an underground car park for around a hundred cars under the park. Nearly three quarters of the residents asked were against it, and they started a petition to get the garage dropped from the plans. The latest chapter began in 2024, when Prague 6 asked local people, children included, what they wanted from the park. The study presented in April 2025 promises a bigger square at the northern entrance, separate corners for small children, teenagers, adults and seniors, new trees, a smart public toilet with a water play feature, and underground tanks that will collect rainwater to water the greenery. The work is expected to be finished around 2027 or 2028.
+
+🎁 Bonus: In 2020 the curved path through the park was officially named Korejská, Korean Street. So Prague's little Latvian park now has Korea running through the middle of it, which is as close to world travel as most of its toddlers will get for a while.`,
+
+      cz: `Místní mu říkají Lotyšák. Kromě jména krátké ulice vedle na něm není nic lotyšského. Je to zelený bubenečský vnitroblok se starými stromy, pískovištěm, houpačkami a basketbalovým hřištěm a jeho nejvěrnější návštěvníci mají obvykle buď méně než osm, nebo více než sedmdesát let.
+
+Lotyšská ulice je dlouhá jen asi 175 metrů. Jméno dostala v roce 1928 podle Lotyšska, které bylo tehdy nezávislé teprve deset let, a za okupace na jejích cedulích stálo také Lettische Strasse. Park vedle ní je vlastně vnitřek velkého obytného bloku, z jedné strany otevřeného, mezi ulicemi Terronská, Rooseveltova a Jugoslávských partyzánů, na půl cesty mezi Vítězným náměstím a náměstím Interbrigády. Když Antonín Engel ve 20. letech plánoval novou Dejvici, byl tenhle prostor nejdřív ponechán jako rezerva pro další stavby, ale v roce 1928 se z něj místo toho stal park. V roce 2000 prošel obnovou za 3,2 milionu korun: pokáceli 18 stromů a vysadili skoro dvakrát tolik nových. V roce 2017 přišla městská část s návrhem postavit pod parkem podzemní garáže asi pro stovku aut. Skoro tři čtvrtiny dotázaných obyvatel byly proti a sepsaly petici, aby garáže z plánů zmizely. Nejnovější kapitola začala v roce 2024, kdy se Praha 6 zeptala místních včetně dětí, co by v parku chtěli. Studie představená v dubnu 2025 slibuje větší plácek u severního vstupu, oddělené kouty pro malé děti, teenagery, dospělé i seniory, nové stromy, chytrou veřejnou toaletu s vodním herním prvkem a podzemní nádrže, které budou chytat dešťovou vodu na zalévání zeleně. Hotovo má být kolem roku 2027 nebo 2028.
+
+🎁 Bonus: V roce 2020 dostala zakřivená cesta přes park oficiální jméno Korejská. Pražský lotyšský parčík má tedy uprostřed Koreu, a to je pro většinu jeho batolat zatím nejblíž, kam se na cestách po světě dostanou.`,
+
+      zh: `当地人管它叫“拉脱维亚仔”。除了旁边那条短街的名字，它跟拉脱维亚没有半点关系。这是布贝内奇的一个绿色大院，有老树、沙坑、秋千和篮球场，最忠实的访客通常要么不到八岁，要么超过七十岁。
+
+拉脱维亚街只有大约175米长。它在1928年得名，纪念当时独立才十年的拉脱维亚，占领时期路牌上还多了一行德语“Lettische Strasse”。旁边的公园其实是一个大型住宅街区的内院，一面敞开，夹在特罗恩斯卡街、罗斯福街和南斯拉夫游击队员街之间，正好位于胜利广场和国际纵队广场的半路上。20世纪20年代安东宁·恩格尔规划新德伊维采时，这块地起初是留着以后盖房子的，但到1928年，它被改建成了公园。2000年公园花了320万克朗翻修：砍掉了18棵树，又种下了将近两倍的新树。2017年，区政府提出在公园下面建一座能停一百辆左右汽车的地下车库。受访居民里将近四分之三表示反对，还发起了请愿，要求把车库从规划里拿掉。最新的一章始于2024年，布拉格6区向周边居民，包括孩子们，征求对公园的意见。2025年4月公布的方案承诺在北入口扩出一片小广场，给幼儿、青少年、成年人和老人各分一块区域，种上新树，建一座带戏水设施的智能公厕，还要在地下埋设储水池，收集雨水来浇灌绿地。工程预计在2027或2028年前后完工。
+
+🎁 彩蛋：2020年，穿过公园的那条弯曲小路被正式命名为“朝鲜街”（捷克语里韩国和朝鲜是同一个词）。于是布拉格这座拉脱维亚小公园的正中间，现在横穿着一个朝鲜半岛，对园里大多数学步的小孩来说，这已经是他们目前离环游世界最近的一次了。`,
+    },
+  },
+  {
+    // Added 2026-09-26 at the user's request (coordinates user-supplied).
+    // Slug disambiguated from the existing Nové Město 'kostel-sv-vojtecha'.
+    // Sources: cs.wikipedia (Kostel svatého Vojtěcha (Dejvice): František
+    // Havlena, 1925–27, consecrated 6 Nov 1927, three-aisled basilica, dome
+    // over the crossing facing the city recalling the Washington Capitol,
+    // part of the rectangular seminary/theology faculty complex, entrance on
+    // the northwest, gallery inserted/ceiling lowered/windows walled up under
+    // communism, 1970s–80s studio and meeting hall, restituted 1990, own
+    // spiritual administration from October 1991, filial church of St.
+    // Matthew's parish), nasregion.cz (commissioned by Archbishop František
+    // Kordač, Jaroslav Rössler modified the design, 1,300 seats, Romanesque
+    // and Byzantine inspiration, seminary moved to Litoměřice after 1953,
+    // military storage, "Problems of Peace and Socialism" from 1958 in 40
+    // languages, Supraphon recordings by Olympic and Blue Effect, reconsecrated
+    // by Cardinal Tomášek 15 Aug 1990), sv-vojtech.eu (Ministry of Posts during
+    // the occupation, lecture-hall rebuild, Michael Bořkovec furnishings, Eva
+    // Jelínková tapestries). nasregion also mentions "one version" of
+    // Modlitba pro Martu being recorded here; too vague, left out. Rarity
+    // 'superior' is my own pick.
+    name: 'Church of St. Adalbert (Dejvice)',
+    slug: 'kostel-sv-vojtecha-dejvice',
+    localizedNames: { cz: 'Kostel sv. Vojtěcha (Dejvice)', zh: '圣沃伊捷赫教堂（德伊维采）' },
+    labels: ['church', 'architecture', 'historical'],
+    coordinates: { lat: 50.10247360133361, lng: 14.386430314696636 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Vojt%C4%9Bcha_(Dejvice)',
+    description: {
+      en: `Hidden inside the long seminary building in Dejvice is a church for 1,300 people, topped with a dome that often gets compared to the Capitol in Washington. For most of the communist era it wasn't a church at all. It was an editorial office, a lecture hall and, for a while, a studio where rock bands recorded their albums.
+
+The church was commissioned by Archbishop František Kordač and designed by František Havlena, with the architect Jaroslav Rössler later reworking parts of the plan. It was built in 1925–27 as the heart of a large rectangular complex for the Archbishop's Seminary and the Catholic theological faculty of Charles University, and it was consecrated on 6 November 1927. It is a three-aisled basilica that borrows from Romanesque and Byzantine architecture, and its great dome sits over the crossing, turned towards the city. The public entrance is on the northwest side, on Thákurova street. The building's troubles began with the German occupation: Czech universities were closed, the seminary was moved out and the Ministry of Posts moved in. After the communist takeover the building was confiscated again, and after 1953 the seminary had to move to Litoměřice. The complex served as military storage, and from 1958 it housed the editorial office of "Problems of Peace and Socialism", the journal of the international communist movement, published in about forty languages and sent to 145 countries. The church itself was rebuilt as a hall: a gallery was inserted, the ceiling was lowered and the windows were walled up. In the 1970s and 1980s it was used as a meeting room and as a Supraphon recording studio, where bands such as Olympic and Blue Effect recorded.
+
+After 1989 the building was returned to the Church. Cardinal František Tomášek reconsecrated it on 15 August 1990, and in October 1991 it got its own spiritual administration. The new presbytery, altars and furnishings were designed by the architect Michael Bořkovec, with tapestries by Eva Jelínková. Some of the communist-era alterations, however, could never be fully undone. Today the seminary is back, and the church belongs to the parish of St. Matthew in Dejvice.
+
+🎁 Bonus: For about three decades, this building published a journal about the problems of peace and socialism. Neither problem was solved here. A few very good rock records, however, were made.`,
+
+      cz: `Uvnitř dlouhé budovy dejvického semináře se skrývá kostel pro 1 300 lidí, zakončený kupolí, kterou lidé často přirovnávají ke Kapitolu ve Washingtonu. Většinu komunistické éry to ale vůbec nebyl kostel. Byla tu redakce, přednáškový sál a nějakou dobu i studio, kde rockové kapely natáčely desky.
+
+Kostel objednal arcibiskup František Kordač a navrhl ho František Havlena, jehož plány později zčásti přepracoval architekt Jaroslav Rössler. Postavili ho v letech 1925–27 jako srdce velkého obdélného komplexu pro Arcibiskupský seminář a katolickou teologickou fakultu Univerzity Karlovy a vysvěcen byl 6. listopadu 1927. Je to trojlodní bazilika, která si půjčuje z románské a byzantské architektury, a její mohutná kupole se klene nad křížením, obrácená k městu. Vstup pro veřejnost je ze severozápadní strany, z Thákurovy ulice. Potíže budovy začaly s německou okupací: české vysoké školy byly zavřené, seminář se musel vystěhovat a nastěhovalo se ministerstvo pošt. Po komunistickém převratu byla budova znovu zabavena a po roce 1953 se seminář musel přestěhovat do Litoměřic. Komplex sloužil jako vojenský sklad a od roku 1958 v něm sídlila redakce časopisu Otázky míru a socialismu, tiskového orgánu mezinárodního komunistického hnutí, který vycházel asi ve čtyřiceti jazycích a rozesílal se do 145 zemí. Samotný kostel přestavěli na sál: vestavěli galerii, snížili strop a zazdili okna. V 70. a 80. letech sloužil jako zasedací místnost a jako nahrávací studio Supraphonu, kde natáčely například skupiny Olympic a Blue Effect.
+
+Po roce 1989 se budova vrátila církvi. Kardinál František Tomášek kostel 15. srpna 1990 znovu vysvětil a v říjnu 1991 dostal vlastní duchovní správu. Nový presbytář, oltáře a vybavení navrhl architekt Michael Bořkovec, tapiserie vytvořila Eva Jelínková. Některé zásahy z komunistické doby už ale nikdy nešlo úplně vrátit. Dnes je seminář zpátky a kostel patří k farnosti sv. Matěje v Dejvicích.
+
+🎁 Bonus: Zhruba třicet let tahle budova vydávala časopis o otázkách míru a socialismu. Ani jednu z nich tu nevyřešili. Zato tu vzniklo pár hodně dobrých rockových desek.`,
+
+      zh: `德伊维采那座长长的神学院大楼里，藏着一座能容纳1300人的教堂，顶上的穹顶常被拿来和华盛顿的国会大厦相比。不过在共产党执政的大部分时间里，它根本不是教堂，而是编辑部、报告厅，有一阵子还是摇滚乐队录唱片的录音棚。
+
+教堂由大主教弗朗蒂舍克·科尔达奇委托兴建，建筑师弗朗蒂舍克·哈夫莱纳设计，后来建筑师雅罗斯拉夫·勒斯勒尔又改动了部分方案。它建于1925到1927年，是大主教神学院和查理大学天主教神学院这座长方形大型建筑群的核心，1927年11月6日祝圣。这是一座三廊式巴西利卡，借鉴了罗马式和拜占庭式建筑，巨大的穹顶架在十字交叉处上方，面朝城市。公众入口在西北侧的塔库罗瓦街上。这栋楼的麻烦从德国占领开始：捷克的大学被关闭，神学院被迫搬走，邮政部搬了进来。共产党上台后，大楼再次被没收，1953年以后神学院不得不迁往利托梅日采。建筑群先是当了军用仓库，1958年起又成了《和平与社会主义问题》的编辑部，这是国际共产主义运动的机关刊物，用大约四十种语言出版，发往145个国家。教堂本身被改成了大厅：加建了楼座，降低了天花板，窗户也被砌死。20世纪70和80年代，它被用作会议室，还当过超级音响唱片公司的录音棚，奥林匹克乐队和蓝色效应乐队等都在这里录过音。
+
+1989年以后，大楼归还给了教会。1990年8月15日，枢机主教弗朗蒂舍克·托马谢克重新为教堂祝圣，1991年10月它有了自己的牧灵管理。新的祭坛区、祭台和陈设由建筑师米哈尔·博日科韦茨设计，挂毯出自埃娃·耶林科娃之手。不过共产党时期的一些改动，已经再也无法完全复原了。如今神学院已经搬回来，教堂隶属于德伊维采的圣马太堂区。
+
+🎁 彩蛋：这栋楼花了大约三十年时间，出版一本讨论和平与社会主义问题的刊物。这两个问题在这里一个也没解决。倒是录出了几张相当不错的摇滚唱片。`,
+    },
+  },
+  {
+    // Added 2026-09-26 at the user's request (coordinates user-supplied).
+    // Kranner's Fountain already has its own (old-voice, DB-only) card,
+    // 'kranners-fountain-1782495170501', so this one focuses on the park and
+    // embankment around it. Sources: cs.wikipedia (Park Národního probuzení:
+    // created with the embankment works 1841–45, fountain 1845–50, Francis I
+    // removed 1919, copy back and water restored 2003, original in the
+    // National Museum lapidarium, reconstructed 1993, iron fence 1996, closed
+    // at night, oval lawn, gravel paths), cs.wikipedia (Smetanovo nábřeží:
+    // built by Vojtěch Lanna after the Emperor Francis I chain bridge,
+    // Bernard Gruber, granite blocks, Prague's first embankment, full name
+    // history, Smetana's music school in Palác Lažanských), praguecityline.cz
+    // (equestrian statue, 16 regional figures plus Prague, pump shaft with a
+    // passage to Divadelní, copy returned "practically in secret"). No source
+    // dates the park's name, so the card doesn't. Rarity 'common' is my own
+    // pick.
+    name: 'National Awakening Park',
+    slug: 'park-narodniho-probuzeni',
+    localizedNames: { cz: 'Park Národního probuzení', zh: '民族复兴公园' },
+    labels: ['park', 'historical'],
+    coordinates: { lat: 50.08320716803331, lng: 14.413540641270403 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Park_N%C3%A1rodn%C3%ADho_probuzen%C3%AD',
+    description: {
+      en: `A small fenced park on the Vltava embankment, with benches, flowerbeds, a view across the river to the Castle and a tall neo-Gothic spire in the middle. The spire is a monument to an Austrian emperor. For 84 years the emperor wasn't in it, and the park around it is named after the movement that wanted him gone.
+
+The park was created together with the embankment itself. In 1841–45, after the Emperor Francis I chain bridge had been built across the river, the builder Vojtěch Lanna lined this stretch of the Old Town bank with blocks of hewn granite, designed by Bernard Gruber. It was the first real embankment in Prague. In 1845–50 the architect Josef Kranner put up the monument in the middle of the park, a hollow stone spire over a fountain, with an equestrian statue of Emperor Francis I by Josef Max inside it and sixteen figures around it representing the regions of Bohemia, plus one for Prague itself facing the river. Kranner designed the waterworks together with Lanna, and a shaft under the monument held the pumps, reached by an underground passage from Divadelní street. The embankment's name changed almost as often as Prague's rulers did: Francis Embankment from 1894, Masaryk Embankment from 1919, Vltava Embankment under the occupation and then, from 1942 to 1945, Reinhard-Heydrich-Ufer, Masaryk Embankment again after the war, and Smetana Embankment since 1952, after the composer who once ran a music school a few doors away in the Lažanský Palace. The emperor fared no better. In 1919, in the first year of the new Czechoslovakia, his statue was removed and taken to the lapidarium of the National Museum, where the original still is. The park was restored in 1993 and fenced in 1996, and in 2003 a copy of the statue went back into the spire and water flowed from the fountain again.
+
+🎁 Bonus: The copy of the emperor was reportedly put back almost in secret, to avoid a fuss. So the Park of National Awakening, named after the 19th-century revival of Czech language and culture, is once again centred on the Habsburg emperor whose government did its best to keep that revival quiet. These days nobody seems to mind. The pigeons certainly don't.`,
+
+      cz: `Malý oplocený park na vltavském nábřeží s lavičkami, záhony, výhledem přes řeku na Hrad a vysokou novogotickou věží uprostřed. Ta věž je pomníkem rakouského císaře. Císař v ní 84 let chyběl a park kolem ní nese jméno hnutí, které ho tam nechtělo.
+
+Park vznikl zároveň se samotným nábřežím. V letech 1841–45, po stavbě řetězového mostu císaře Františka I., obložil stavitel Vojtěch Lanna tenhle úsek staroměstského břehu kvádry tesané žuly podle návrhu Bernarda Grubera. Bylo to první skutečné nábřeží v Praze. V letech 1845–50 postavil architekt Josef Kranner uprostřed parku pomník, dutou kamennou věž nad kašnou, v ní jezdeckou sochu císaře Františka I. od Josefa Maxe a kolem šestnáct postav představujících české kraje a jednu za samotnou Prahu, obrácenou k řece. Vodní dílo navrhl Kranner spolu s Lannou a v šachtě pod pomníkem byla čerpadla, kam vedla podzemní chodba z Divadelní ulice. Nábřeží měnilo jméno skoro tak často jako Praha vládce: od roku 1894 Františkovo, od roku 1919 Masarykovo, za okupace Vltavské a v letech 1942 až 1945 Reinhard-Heydrich-Ufer, po válce znovu Masarykovo a od roku 1952 Smetanovo, podle skladatele, který kdysi vedl hudební školu o pár domů dál v Lažanském paláci. Císaři se nevedlo o nic lépe. V roce 1919, v prvním roce nového Československa, jeho sochu sundali a odvezli do lapidária Národního muzea, kde originál zůstává dodnes. Park byl obnoven v roce 1993, v roce 1996 dostal plot a v roce 2003 se do věže vrátila kopie sochy a z kašny znovu tekla voda.
+
+🎁 Bonus: Kopii císaře prý vraceli skoro potajmu, aby se kolem toho nedělal rozruch. Park Národního probuzení, pojmenovaný po obrození českého jazyka a kultury v 19. století, má tedy uprostřed zase habsburského císaře, jehož vláda se tohle obrození snažila držet hezky potichu. Dnes to nikomu zjevně nevadí. Holubům tedy rozhodně ne.`,
+
+      zh: `伏尔塔瓦河堤岸上一座围着栅栏的小公园，有长椅、花坛，隔河就能望见城堡，正中间立着一座高高的新哥特式尖塔。这座尖塔是一位奥地利皇帝的纪念碑。可皇帝本人有84年不在里面，而周围这座公园的名字，恰恰来自当年想把他请走的那场运动。
+
+公园和河堤是一起诞生的。1841到1845年，在弗朗茨一世皇帝链桥建成之后，建筑商沃伊捷赫·兰纳按照贝尔纳德·格鲁伯的设计，用凿好的花岗岩石块把老城这一段河岸砌了起来，这是布拉格第一条真正意义上的河堤。1845到1850年，建筑师约瑟夫·克兰纳在公园中央建起了纪念碑：一座架在喷泉上方的中空石塔，里面是约瑟夫·马克斯雕刻的弗朗茨一世皇帝骑马像，四周环绕着十六尊代表波希米亚各地区的人像，外加一尊面朝河流、代表布拉格本身的人像。供水系统是克兰纳和兰纳一起设计的，纪念碑下面的竖井里装着水泵，有一条地下通道从剧院街通过来。这条河堤改名的频率，差不多跟布拉格换统治者一样勤：1894年起叫弗朗茨堤岸，1919年起叫马萨里克堤岸，占领时期先叫伏尔塔瓦堤岸，1942到1945年又叫莱因哈德·海德里希堤岸，战后改回马萨里克堤岸，1952年起叫斯美塔那堤岸，纪念这位曾在几栋楼外的拉然斯基宫里开过音乐学校的作曲家。皇帝的遭遇也好不到哪去。1919年，新生的捷克斯洛伐克成立第一年，他的雕像就被拆下来送进了国家博物馆的石刻馆，原件至今还在那里。公园在1993年翻修，1996年围上了铁栅栏，2003年雕像的复制品被放回塔中，喷泉也重新出了水。
+
+🎁 彩蛋：据说皇帝的复制品当年几乎是悄悄放回去的，为的是别闹出什么动静。于是这座以19世纪捷克语言和文化复兴运动命名的“民族复兴公园”，正中间又站回了一位哈布斯堡皇帝，而他的政府当年恰恰巴不得这场复兴安安静静别出声。如今好像谁都不在意了。鸽子反正是一点也不在意。`,
+    },
+  },
+  {
+    // Added 2026-09-26 at the user's request (coordinates user-supplied).
+    // The Chapel of the Infant Jesus inside the garden already has its own
+    // card ('kaple-jezulatka-petrin'), so it only gets a passing mention.
+    // Sources: cs.wikipedia (Seminářská zahrada: Charles IV vineyard,
+    // Discalced Carmelites of Our Lady Victorious from the first half of the
+    // 17th c., Baroque chapel, 1784 dissolution → archbishop's seminary, vines
+    // until 1793, 1912–14 pomologist Svatopluk Mocker, 1927 swap for land in
+    // Dejvice for the new seminary, opened 1 May 1930, 1980–2000 replanting,
+    // 17 ha, 2,700+ fruit trees, pond and the Petřínka spring fountain, Neruda
+    // and Laub statues, "U žabiček" fountain, Linden of the Republic planted
+    // 28 Oct 1968, Prague's only protected field maple, funicular, Sudek, Jiří
+    // Hanzelka as a gardener in the 1980s), kudyznudy.cz (perimeter wall torn
+    // down after 1927). Area/tree counts vary by source (15.9–17 ha,
+    // 2,100–2,700 trees), so the card rounds. Rarity 'rare' is my own pick.
+    name: 'Seminary Garden',
+    slug: 'seminarska-zahrada',
+    localizedNames: { cz: 'Seminářská zahrada', zh: '神学院花园' },
+    labels: ['park', 'nature', 'historical'],
+    coordinates: { lat: 50.08451608545345, lng: 14.399326314549022 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Semin%C3%A1%C5%99sk%C3%A1_zahrada',
+    description: {
+      en: `The lower slope of Petřín is not really a park so much as an enormous orchard that the city lets people walk through. There are thousands of fruit trees, and every spring they bloom all at once, turning the hillside white and pink while half of Prague climbs up to photograph it.
+
+In the Middle Ages this was a vineyard, planted on the initiative of Charles IV. In the first half of the 17th century it became the walled garden of the Discalced Carmelites from the Church of Our Lady Victorious down in Malá Strana, and in the 18th century the friars built the small Baroque chapel that still stands among the trees. When Emperor Joseph II dissolved the monastery in 1784, the garden passed to the archbishop's seminary, which gave it its name, and grapes were grown here until 1793. Between 1912 and 1914 the pomologist Svatopluk Mocker laid out new paths and planted the fruit trees that made it the orchard it is today. In 1927 the seminary swapped the garden with the city for a plot in Dejvice, where it built its new home. The city tore down the surrounding wall, and on 1 May 1930 the garden opened to the public. It now covers some 17 hectares, and the old trees were gradually replanted between 1980 and 2000, so today there are well over two thousand apple, pear and cherry trees, along with almonds that are usually the first to bloom, in late March or early April. Look out for the statues of the poet Jan Neruda and the violinist Ferdinand Laub, the little "U žabiček" (By the Frogs) fountain, a pond fed by the Petřínka spring, the Linden of the Republic planted on 28 October 1968, a few weeks after the Soviet invasion, and the only protected field maple in Prague. The Petřín funicular cuts across the southern end, and the views over Malá Strana, the Old Town and the Castle are among the best in the city. The photographer Josef Sudek came here again and again to take pictures.
+
+🎁 Bonus: In the 1980s one of the gardeners pruning these trees was Jiří Hanzelka, who with Miroslav Zikmund had driven a Tatra around Africa, South America and Asia and become one of the most famous travellers in the country. After he supported the Prague Spring, the regime banned him from travelling and publishing. The man who had once crossed several continents ended up looking after apple trees on a single hillside in Prague.`,
+
+      cz: `Dolní svah Petřína není tak docela park, spíš obrovský ovocný sad, kterým město nechává lidi procházet. Rostou tu tisíce ovocných stromů a každé jaro rozkvetou všechny naráz, takže se svah zbarví do bíla a růžova a půlka Prahy se sem škrábe, aby si to vyfotila.
+
+Ve středověku tu byla vinice, založená z podnětu Karla IV. V první polovině 17. století se z ní stala zahrada obehnaná zdí, která patřila bosým karmelitánům od kostela Panny Marie Vítězné dole na Malé Straně, a v 18. století tu mniši postavili malou barokní kapli, která mezi stromy stojí dodnes. Když císař Josef II. roku 1784 klášter zrušil, připadla zahrada arcibiskupskému semináři, podle něhož dostala jméno, a víno se tu pěstovalo až do roku 1793. V letech 1912 až 1914 tu pomolog Svatopluk Mocker vytyčil nové cesty a vysázel ovocné stromy, díky nimž je dnes sadem. V roce 1927 seminář zahradu vyměnil s městem za pozemek v Dejvicích, kde si postavil nové sídlo. Město strhlo obvodovou zeď a 1. května 1930 se zahrada otevřela veřejnosti. Dnes má asi 17 hektarů a staré stromy se v letech 1980 až 2000 postupně obnovovaly, takže tu dnes roste přes dva tisíce jabloní, hrušní a třešní a k tomu mandloně, které obvykle kvetou první, koncem března nebo začátkem dubna. Najdete tu sochy básníka Jana Nerudy a houslisty Ferdinanda Lauba, malou kašnu U žabiček, jezírko napájené pramenem Petřínka, Lípu republiky vysazenou 28. října 1968, pár týdnů po sovětské invazi, a jediný chráněný javor babyka v Praze. Jižní částí prochází petřínská lanovka a výhledy na Malou Stranu, Staré Město a Hrad patří k nejlepším ve městě. Fotograf Josef Sudek sem chodil fotit znovu a znovu.
+
+🎁 Bonus: V 80. letech tu stromy prořezával i zahradník Jiří Hanzelka, který s Miroslavem Zikmundem projel tatrovkou Afriku, Jižní Ameriku i Asii a patřil k nejslavnějším cestovatelům v zemi. Protože podpořil pražské jaro, režim mu zakázal cestovat i publikovat. Muž, který kdysi projel několik kontinentů, tak skončil u jabloní na jediném pražském kopci.`,
+
+      zh: `佩特任山的下半截山坡与其说是公园，不如说是一大片果园，只是市政府允许大家进去散步而已。这里有成千上万棵果树，每年春天一齐开花，把整片山坡染成白色和粉色，半个布拉格都会爬上来拍照。
+
+中世纪时这里是一片葡萄园，是在查理四世的倡议下种起来的。17世纪上半叶，它变成了一座有围墙的花园，属于山下小城区胜利圣母教堂的赤足加尔默罗会，18世纪修士们在这里建了一座巴洛克小礼拜堂，至今还立在树丛中。1784年约瑟夫二世皇帝解散了这座修道院，花园归了大主教神学院，名字也由此而来，葡萄一直种到1793年。1912到1914年，果树学家斯瓦托普卢克·莫克尔在这里重新规划了小路，种下了果树，才有了今天这片果园的模样。1927年，神学院拿这座花园和市政府换了德伊维采的一块地，在那里盖了新校舍。市政府拆掉了花园的围墙，1930年5月1日花园向公众开放。如今它占地约17公顷，老树在1980到2000年间陆续更新，现在这里有两千多棵苹果树、梨树和樱桃树，还有通常最早开花的杏仁树，花期一般在三月底或四月初。园里值得留意的还有诗人扬·聂鲁达和小提琴家费迪南德·劳布的雕像、名叫“青蛙旁”的小喷泉、由佩特任卡泉水补给的小池塘、1968年10月28日（苏联入侵几周之后）种下的“共和国椴树”，以及布拉格唯一一棵受保护的栓皮槭。佩特任缆车从花园南端穿过，从这里眺望小城区、老城和城堡的景色是全城最好的之一。摄影师约瑟夫·苏德克曾一次又一次来这里拍照。
+
+🎁 彩蛋：20世纪80年代，在这里修剪果树的园丁里有一位叫伊日·汉泽尔卡。他曾和米罗斯拉夫·齐克蒙德一起开着太脱拉汽车跑遍非洲、南美和亚洲，是全国最有名的旅行家之一。因为支持过布拉格之春，政权禁止他出国，也不许他出版作品。这个曾经横跨好几个大洲的人，最后在布拉格的一座小山坡上照料苹果树。`,
+    },
+  },
+  {
+    // Added 2026-09-26 at the user's request (coordinates user-supplied).
+    // The pink tank's own story is already told in the old-voice
+    // 'fontana-propadliste-casu' card on the same square (which even mentions
+    // this torso in its bonus); this card centres on the torso and 1968.
+    // Sources: cs.wikipedia (Památník sovětských tankistů: IS-2m unveiled 29
+    // July 1945 on Štefánikovo náměstí on a 5 m pedestal, numbered 23 though
+    // the first tank into Prague was T-34/85 I-24 of Lt. Ivan Gončarenko who
+    // died 9 May 1945; pink 28 April 1991, repainted green, 15 federal MPs
+    // repainted it pink 12 May 1991, removed 13 June 1991 to Lešany),
+    // cs.wikipedia (náměstí Kinských: torso in the NW part, August 2018, 50th
+    // anniversary; square named Sovětských tankistů 1951–94), prazsky.denik.cz
+    // (installed 21 Aug 2018 with a permit for 21–22 Aug as a film prop,
+    // white invasion stripe, Černý's caption "Dočasně umístěn… tak tomu
+    // říkali"), artalk (23 Aug 2018 Prague 5 council under Pavel Richter
+    // extended it; 2008 torso on 21 Aug for the 40th anniversary),
+    // david-cerny-tour.com (later agreed with heritage officials to stay
+    // permanently). Sources disagree on the body colour, so the card only
+    // mentions the stripe. Rarity 'rare' is my own pick.
+    name: 'Tank Torso',
+    slug: 'torzo-tanku',
+    localizedNames: { cz: 'Plastika Torzo tanku', zh: '坦克残躯雕塑' },
+    labels: ['monument', 'communism', 'modern'],
+    coordinates: { lat: 50.0792000241409, lng: 14.404261689640455 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `In a corner of Kinských Square in Smíchov, the back end of a tank sticks out of the pavement at an angle, tracks and all, as if it had tried to drive straight into the ground and got stuck halfway. Across it runs a white stripe, the marking that the Warsaw Pact armies painted on their vehicles when they invaded Czechoslovakia in August 1968.
+
+This square already had a long history with tanks. On 29 July 1945 a Soviet IS-2 tank was unveiled here on a five-metre pedestal as a memorial to the Soviet tank crews who liberated Prague, and in 1951 the square was renamed Soviet Tank Crews Square. The tank carried the number 23, but it wasn't the real thing: the first Soviet tank to reach Prague had been a T-34 commanded by Lieutenant Ivan Gončarenko, who was killed in the fighting in Prague on 9 May 1945. On 28 April 1991 the young artist David Černý painted the memorial tank pink. The army quickly repainted it green, and on 12 May fifteen members of the federal parliament, protected by their immunity, painted it pink again. On 13 June 1991 the tank was taken away to the military museum in Lešany. Černý kept coming back. On 21 August 2008, the 40th anniversary of the invasion, a pink tank torso briefly appeared on the square. On 21 August 2018, the 50th anniversary, he brought this one. Officially it was a film prop with a permit for two days. On 23 August the Prague 5 council extended the permit, and in the end the district and the heritage authorities agreed that the tank could stay for good. Černý gave it a short caption: "Temporarily placed... that's what they called it."
+
+🎁 Bonus: The caption is a quote. In October 1968 Czechoslovakia was made to sign a treaty on the "temporary stay" of Soviet troops, who then stayed until 1991. This tank was also placed here temporarily, for two days, and it's still here. Černý was presumably counting on exactly that.`,
+
+      cz: `V rohu náměstí Kinských na Smíchově trčí šikmo z dlažby zadní část tanku i s pásy, jako by se pokusil vjet rovnou do země a zasekl se napůl cesty. Přes něj vede bílý pruh, označení, které si armády Varšavské smlouvy malovaly na vozidla, když v srpnu 1968 vtrhly do Československa.
+
+Tohle náměstí už mělo s tanky dlouhou historii. Dne 29. července 1945 tu na pětimetrovém podstavci odhalili sovětský tank IS-2 jako pomník sovětským tankistům, kteří osvobodili Prahu, a v roce 1951 se náměstí přejmenovalo na náměstí Sovětských tankistů. Tank nesl číslo 23, ale nebyl to ten pravý: prvním sovětským tankem v Praze byla T-34 poručíka Ivana Gončarenka, který 9. května 1945 padl v bojích v Praze. Dne 28. dubna 1991 natřel mladý výtvarník David Černý pomníkový tank narůžovo. Armáda ho rychle přetřela zeleně a 12. května ho patnáct poslanců Federálního shromáždění, chráněných imunitou, natřelo narůžovo znovu. Dne 13. června 1991 tank odvezli do vojenského muzea v Lešanech. Černý se ale vracel. Dne 21. srpna 2008, ke 40. výročí invaze, se na náměstí nakrátko objevilo růžové torzo tanku. Dne 21. srpna 2018, k 50. výročí, přivezl tohle. Oficiálně to byla filmová rekvizita s povolením na dva dny. Dne 23. srpna povolení rada Prahy 5 prodloužila a nakonec se městská část s památkáři dohodla, že tank může zůstat natrvalo. Černý k němu připsal krátký popisek: „Dočasně umístěn… tak tomu říkali.“
+
+🎁 Bonus: Popisek je citát. V říjnu 1968 muselo Československo podepsat smlouvu o „dočasném pobytu“ sovětských vojsk, která pak zůstala až do roku 1991. I tenhle tank tu byl umístěn dočasně, na dva dny, a pořád tu je. Černý přesně s tím nejspíš počítal.`,
+
+      zh: `斯米霍夫金斯基广场的一个角落里，一辆坦克的后半截斜着从人行道里戳出来，连履带都在，就像它想一头开进地底，结果卡在了半路。车身上横着一道白色条纹，那是1968年8月华沙条约国军队入侵捷克斯洛伐克时，在自己车辆上涂的标记。
+
+这个广场跟坦克早就有一段很长的渊源。1945年7月29日，一辆苏联IS-2坦克在这里的五米高底座上揭幕，纪念解放布拉格的苏联坦克兵，1951年广场也被改名为苏联坦克兵广场。坦克上漆着23号，但它并不是真正的那一辆：第一辆开进布拉格的苏联坦克是伊万·冈察连科中尉指挥的T-34，他于1945年5月9日在布拉格的战斗中阵亡。1991年4月28日，年轻的艺术家大卫·切尔尼把这辆纪念坦克刷成了粉红色。军队很快把它刷回绿色，5月12日，十五名联邦议会议员凭着议员豁免权，又把它刷成了粉红色。1991年6月13日，坦克被运往莱沙尼的军事博物馆。可切尔尼一次次回来。2008年8月21日，入侵40周年之际，一截粉红色的坦克残躯在广场上短暂出现过。2018年8月21日，50周年之际，他带来了眼前这一截。官方说法是电影道具，只获准摆放两天。8月23日，布拉格5区议会延长了许可，最后区政府和文物保护部门商定，坦克可以永久留下。切尔尼给它配了一句简短的说明：“暂时放置……他们当年就是这么说的。”
+
+🎁 彩蛋：这句说明是一句引语。1968年10月，捷克斯洛伐克被迫签署了一份关于苏联军队“暂时驻留”的条约，结果这些军队一直待到1991年。这辆坦克当初也是“暂时”放在这里的，只放两天，结果到现在还在。切尔尼大概就是料准了这一点。`,
+    },
+  },
+  {
+    // Added 2026-09-26 at the user's request (coordinates user-supplied).
+    // The Smetana Museum next door has its own card ('smetana-museum', old
+    // voice, covers Má vlast and his deafness), so this one tells the
+    // monument's own 75-year saga. Sources: en.wikipedia (Statue of Bedřich
+    // Smetana, Prague: unveiled 4 June 1984, 235 cm, ~1 t, bronze, Josef
+    // Malejovský with architect Bedřich Hanák), ceskyhudebnislovnik.cz
+    // (Společnost Bedřicha Smetany: committee from Umělecká beseda, decided 11
+    // May 1909, founded 5 Dec 1909 for the 25th anniversary of his death;
+    // 1913 site reserved on the north tip of Žofín; 1926 anonymous competition
+    // unsatisfactory; 1927–29 second round unproductive; 1930s Otakar Španiel
+    // and Ladislav Machoňa commission, negative public response, closed 1937;
+    // March 1939 deal to use Josef Wagner's almost-finished work collapsed in
+    // 1940 over the site; museum opened 12 May 1936; society dissolved 23 June
+    // 1952), umenipromesto.eu (non-anonymous competition concluded 1978,
+    // granite base with his signature cast in bronze, seated with hands folded
+    // in his lap), sochyamesta.cz (design 1977, Prague City Gallery). Rarity
+    // 'rare' is my own pick.
+    name: 'Bedřich Smetana Monument',
+    slug: 'pomnik-bedricha-smetany',
+    localizedNames: { cz: 'Pomník Bedřicha Smetany', zh: '斯美塔那纪念像' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.08533483308642, lng: 14.412924136276128 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Statue_of_Bed%C5%99ich_Smetana,_Prague',
+    description: {
+      en: `At the very end of Novotného lávka, right above the Old Town weir, Bedřich Smetana sits in bronze with his hands folded in his lap, looking out at Charles Bridge and the Castle. He has earned the rest. Prague spent seventy-five years trying to decide what his statue should look like and where it should go.
+
+The idea came up in 1909, when the music section of the Umělecká beseda artists' society decided to mark the 25th anniversary of the composer's death with a monument. A committee was founded that December and immediately got stuck on the question of where to put it. The favourites were Žofín island, the steps between the National Theatre and Divadelní street, and the square in front of the Rudolfinum, and in 1913 the city reserved the northern tip of Žofín. Nothing happened. A public competition in 1926 produced no design anyone was happy with, and a second round in 1927–29 went no better. In the 1930s the committee commissioned the sculptor Otakar Španiel and the architect Ladislav Machoňa to design a monument by the National Theatre, but the public reaction was so negative that the idea was dropped in 1937. In March 1939 there was an agreement to use an almost finished statue by Josef Wagner, but that collapsed too in 1940, again over the location, and then the war stopped everything. In 1952 the society behind the project was dissolved altogether. The monument finally came out of a competition held in 1977–78, won by the sculptor Josef Malejovský together with the architect Bedřich Hanák. The bronze figure is 235 centimetres tall, weighs about a tonne and sits on a polished granite base carrying Smetana's own signature, cast in bronze. It was unveiled on 4 June 1984, in the centenary year of his death, outside the former Old Town waterworks, which has been the Smetana Museum since 1936.
+
+🎁 Bonus: The committee was set up to mark 25 years since his death, and the statue arrived in time for the 100th. By then the society that started the whole thing had been gone for more than thirty years. After waiting three-quarters of a century for a monument, it seems only fair that Smetana finally got one where he is allowed to sit down.`,
+
+      cz: `Na samém konci Novotného lávky, přímo nad Staroměstským jezem, sedí bronzový Bedřich Smetana s rukama složenýma v klíně a dívá se na Karlův most a Hrad. Ten odpočinek si zaslouží. Praha totiž sedmdesát pět let řešila, jak má jeho socha vypadat a kam ji postavit.
+
+Nápad vznikl v roce 1909, kdy se hudební odbor Umělecké besedy rozhodl uctít 25. výročí skladatelova úmrtí pomníkem. V prosinci toho roku vznikl sbor a hned se zasekl na otázce, kam pomník dát. Ve hře byl Žofín, schody mezi Národním divadlem a Divadelní ulicí a náměstí před Rudolfinem a v roce 1913 město zarezervovalo severní cíp Žofína. Nestalo se nic. Veřejná soutěž v roce 1926 nepřinesla návrh, se kterým by byl kdokoli spokojený, a druhé kolo v letech 1927–29 dopadlo stejně. Ve 30. letech sbor objednal u sochaře Otakara Španiela a architekta Ladislava Machoně pomník u Národního divadla, ohlas veřejnosti byl ale tak špatný, že se v roce 1937 od nápadu upustilo. V březnu 1939 se sbor dohodl na využití téměř hotové sochy Josefa Wagnera, i to však v roce 1940 ztroskotalo, opět na místě, a pak všechno zastavila válka. V roce 1952 byla společnost, která celý projekt rozjela, úplně zrušena. Pomník nakonec vzešel ze soutěže v letech 1977–78, kterou vyhrál sochař Josef Malejovský spolu s architektem Bedřichem Hanákem. Bronzová postava je vysoká 235 centimetrů, váží asi tunu a sedí na leštěném žulovém podstavci se Smetanovým vlastním podpisem odlitým do bronzu. Odhalena byla 4. června 1984, ve stém roce od jeho smrti, před bývalou staroměstskou vodárnou, kde od roku 1936 sídlí Muzeum Bedřicha Smetany.
+
+🎁 Bonus: Sbor vznikl k 25. výročí jeho smrti a socha dorazila včas ke stému. Společnost, která to celé rozjela, tou dobou už přes třicet let neexistovala. Po tři čtvrtě století čekání na pomník je jen fér, že Smetana konečně dostal takový, na kterém si může sednout.`,
+
+      zh: `诺沃特尼步道的最尽头，就在老城堰坝正上方，青铜的贝德里赫·斯美塔那双手交叠放在膝上坐着，望向查理大桥和城堡。他确实该歇歇了：布拉格花了整整七十五年，才商量好他的雕像该长什么样、该放在哪儿。
+
+这个主意是1909年提出的，当时艺术协会的音乐分会决定建一座纪念碑，纪念这位作曲家逝世25周年。同年12月成立了筹建委员会，然后立刻卡在了“放哪儿”这个问题上。热门候选有若芬岛、国家剧院和剧院街之间的台阶，以及鲁道夫音乐厅前的广场，1913年市政府还为它预留了若芬岛的北端。然后就没有然后了。1926年的公开竞赛没有选出一个让人满意的方案，1927到1929年的第二轮也一样。20世纪30年代，委员会委托雕塑家奥塔卡尔·什帕涅尔和建筑师拉迪斯拉夫·马霍尼亚在国家剧院旁设计一座纪念碑，可公众反响实在太差，1937年这个计划也放弃了。1939年3月，委员会谈妥要用约瑟夫·瓦格纳一件差不多完工的雕像，结果1940年又因为选址问题告吹，之后战争让一切都停了下来。1952年，发起这个项目的协会干脆被解散了。纪念像最终出自1977到1978年的一次竞赛，胜出的是雕塑家约瑟夫·马莱约夫斯基和建筑师贝德里赫·哈纳克。青铜像高235厘米，重约一吨，坐在一块抛光的花岗岩基座上，基座上用青铜铸着斯美塔那本人的签名。它于1984年6月4日揭幕，正值他逝世一百周年，就立在旧老城水厂门前，那栋楼从1936年起就是斯美塔那博物馆。
+
+🎁 彩蛋：委员会成立时是为了纪念他逝世25周年，雕像却赶上了100周年。到那时，发起这件事的协会已经解散三十多年了。等了四分之三个世纪才等来一座纪念像，总算让他坐着，也算公平。`,
+    },
+  },
 ];
 
 async function run() {

@@ -17244,6 +17244,307 @@ export const historyEvents = [
     ],
     wikipediaUrl: "https://cs.wikipedia.org/wiki/Bitva_u_Sv%C4%9Btl%C3%A9",
   },
+  // The 1427 crusade (Stříbro/Tachov), split into three cards, written
+  // 2026-09-25 from the user's draft. Checked via cs.wikipedia (Bitva u
+  // Tachova, Třetí křížová výprava proti husitům, Pokus o převrat v Praze
+  // (1427), Spanilé jízdy), husitstvi.cz (Husitství ve Slezsku, Tachov),
+  // kampocesku.cz (Korybut's fall) and Herder-Institut / de.wikisource
+  // (Hussitensteuer). Departures from the draft, worth knowing before editing:
+  // - Numbering: the draft says "fourth crusade"; Czech historiography calls
+  //   1427 the THIRD (Domažlice 1431 = fourth) because it doesn't count the
+  //   1422 Brandenburg expedition. The card mentions both counts.
+  // - Organizer: the 1427 crusade was run by the German princes (Frederick of
+  //   Brandenburg's initiative, Otto of Ziegenhain, Archbishop of Trier, in
+  //   supreme command), not Sigismund in person; he was on the Ottoman front.
+  //   "Stricter discipline" = the Frankfurt diet's 48-article military order.
+  // - Silesia raid (mid-May 1427, Tábor + Orphans into Upper Lusatia and the
+  //   Jawor region of Lower Silesia): sources say it burned monasteries but
+  //   took nothing major. The draft's "two cities taken" and "Silesian dukes
+  //   never dared fight" were not supported: the Silesians DID invade in
+  //   summer and beat Hussite units near Náchod. Card says so.
+  // - The draft's plot (Utraquist lords offering Tábor's plans to Brandenburg
+  //   and the Teutonic Order, a Prague coup conditional on Prokop losing) was
+  //   not found. Replaced with the two verified Prague episodes: Korybut's fall
+  //   on 17 April 1427 (card 1) and the failed 6 September coup of Hynek of
+  //   Kolštejn and Jan Smiřický on Old Town Square (card 3). No source links
+  //   the September plotters to the crusade directly; the card only says the
+  //   crusade's failure left them to try on their own.
+  // - Retreat: Old Czech Annals say the Germans fled while the Hussites were
+  //   still at Rokycany; the 2 August cavalry screen is Henry of Landshut per
+  //   cs.wikipedia (bellum.cz says Henry of Plauen). Beaufort's "no armor, no
+  //   shield" promise is from the draft, not independently confirmed
+  //   ("reportedly"); his tearing the imperial banner is attested in
+  //   secondary accounts ("reportedly"). The draft's "a banner was knocked
+  //   down and triggered the rout" and "Beaufort nearly trampled" not found;
+  //   dropped.
+  // - Tachov: stormed 11 August, castle surrendered 14 August, ~1,400
+  //   prisoners, Kamrovec and ~50 men killed, cannon "Chmelík" taken. The
+  //   draft's "every adult man killed" not confirmed; softened to "little
+  //   mercy" plus the Bloody Street name.
+  // - Frankfurt diet: the Hussite tax was adopted 2 December 1427, the first
+  //   empire-wide tax.
+  // - Quotes: Bartošek of Drahonice (Latin, via cs.wikipedia's Czech
+  //   translation); EN/ZH translations are Claude's.
+  {
+    slug: "this-time-by-the-rulebook-1427",
+    era: "religious-turmoil",
+    startYear: 1427.3,
+    year: {
+      en: "1427",
+      cz: "1427",
+      zh: "1427年",
+    },
+    tone: "humorous",
+    title: {
+      en: "This Time, by the Rulebook",
+      cz: "Tentokrát podle předpisů",
+      zh: "这回，按章程来",
+    },
+    hookLine: {
+      en: "Every crusade so far had fallen apart for lack of discipline. So the princes of the Empire sat down and wrote the next one a rulebook, forty-eight articles long.",
+      cz: "Každá dosavadní křížová výprava se rozpadla pro nedostatek kázně. Říšská knížata si proto sedla a sepsala té příští řád, dlouhý čtyřicet osm článků.",
+      zh: "之前每一次十字军，都是因为没纪律才散的架。于是帝国诸侯坐下来，给下一次十字军写了一套章程，足足四十八条。",
+    },
+    summary: {
+      en: "Losing at Ústí and then at Zwettl within a single year was too much even for the Empire. Sigismund himself was tied down on Hungary's southern border, where the Ottomans were a more urgent problem than heretics, so this time the German princes ran the crusade themselves. The driving force was Frederick of Brandenburg, the one prince who had actually turned up in 1422; the supreme command went to Otto, Archbishop of Trier. In March 1427 Pope Martin V issued a fresh crusading bull, and he sent a legate to go with it: Henry Beaufort, Bishop of Winchester, newly made cardinal, and great-uncle of the infant King of England. The crusade against the Hussites now had an English cardinal at its head.\n\nThis time the princes meant to do it properly. An imperial diet at Frankfurt drew up a military order of forty-eight articles on who commanded whom, how the camp was to be kept and what happened to anyone who plundered or wandered off without orders. There would be more guns, and wagons of their own. [[b]]After seven years of losing to the Hussites, the Empire had finally decided to study them.[[/b]] Czech historians usually count this as the third crusade, since the 1422 expedition gave up before it had really begun. Anyone who had marched in 1422 might have counted differently.\n\nThe plan was the old one on a bigger scale: several armies crossing the border at once and meeting in the middle of Bohemia. The Rhinelanders, Franconians and Bavarians would come from the west, the Saxons, Thuringians and Hessians from the north, the Silesians and Lusatians from the northeast, and the Austrians from the south. The southern jaw was broken before the trap was even set, though. After [[link:returning-the-visit-1427]]Zwettl[[/link]], Duke Albert was in no hurry to open a new front.\n\nProkop did not wait for the rest to arrive either. In mid-May the field armies of Tábor and the Orphans marched into Upper Lusatia and on into Lower Silesia, where they laid waste to much of the country around Jawor and burned several monasteries. They took no great city, but the Silesian lords now had their own homes to worry about. The Silesians did cross the mountains that summer, and even beat some Hussite units near Náchod. Then they stopped and waited for news from the west.\n\nPrague, meanwhile, had trouble of its own. [[link:importing-a-king-1421]]Korybut[[/link]], the Lithuanian prince who had been running the city since 1424, had been quietly talking with the Catholic side and with the conservative university masters around Jan Příbram about a settlement with Rome. To the radicals it smelled of betrayal. On 17 April 1427, Maundy Thursday, the Týn preacher Jan Rokycana and his allies called the townspeople to Old Town Square and laid out the evidence. An angry crowd stormed Korybut's residence on the square. The prince was smuggled out of town by night to Valdštejn Castle in the north, a prisoner of the city that had once welcomed him, and Příbram and his masters were driven out. Rokycana was chosen to lead Prague's clergy. The crusaders had not yet crossed the border, and Prague had already lost its ruler.",
+      cz: "Prohrát u Ústí a hned nato u Světlé, a to během jediného roku, bylo i na říši moc. Zikmund sám byl vázán na jižní hranici Uher, kde byli Osmané naléhavější starostí než kacíři, a tak si tentokrát výpravu vedla německá knížata sama. Hybnou silou byl Fridrich Braniborský, jediný kníže, který se roku 1422 opravdu dostavil; vrchní velení dostal trevírský arcibiskup Ota. V březnu 1427 vydal papež Martin V. novou křížovou bulu a poslal s ní i legáta: Jindřicha Beauforta, biskupa z Winchesteru, čerstvého kardinála a prastrýce malého anglického krále. V čele křížové výpravy proti husitům tak nově stál anglický kardinál.\n\nTentokrát to knížata chtěla udělat pořádně. Říšský sněm ve Frankfurtu sepsal vojenský řád o čtyřiceti osmi článcích: kdo komu velí, jak se udržuje ležení a co čeká toho, kdo bez rozkazu plení nebo se toulá. Mělo být víc děl a vlastní vozy. [[b]]Po sedmi letech porážek se říše konečně rozhodla, že se od husitů bude učit.[[/b]] Čeští historici tuto výpravu obvykle počítají jako třetí, protože výprava z roku 1422 to vzdala dřív, než pořádně začala. Kdo roku 1422 táhl s ní, mohl počítat jinak.\n\nPlán byl starý, jen ve větším měřítku: několik vojsk překročí hranici naráz a sejde se uprostřed Čech. Porýnští, Frankové a Bavoři měli přijít od západu, Sasové, Durynkové a Hesové od severu, Slezané a Lužičané od severovýchodu a Rakušané od jihu. Jižní čelist pasti však byla zlomená dřív, než se past vůbec nastražila. Po [[link:returning-the-visit-1427]]Světlé[[/link]] neměl vévoda Albrecht s novou frontou nijak naspěch.\n\nProkop také nečekal, až dorazí ostatní. V polovině května vtáhla polní vojska Tábora a Sirotků do Horní Lužice a dál do Dolního Slezska, kde zpustošila velkou část Javorska a vypálila několik klášterů. Žádné velké město nedobyla, ale slezští páni teď měli starost o vlastní domovy. Slezané sice v létě hory přece jen překročili a u Náchoda dokonce porazili několik husitských oddílů. Pak se zastavili a čekali, jaké zprávy přijdou ze západu.\n\nPraha měla mezitím vlastní potíže. [[link:importing-a-king-1421]]Korybut[[/link]], litevský kníže, který městu vládl od roku 1424, potichu jednal s katolickou stranou a s konzervativními univerzitními mistry kolem Jana Příbrama o smíru s Římem. Radikálům to páchlo zradou. Na Zelený čtvrtek 17. dubna 1427 svolal týnský kazatel Jan Rokycana se svými spojenci obec na Staroměstské náměstí a předložil důkazy. Rozhněvaný dav vtrhl do Korybutova sídla na náměstí. Knížete v noci potají odvezli na hrad Valdštejn na severu, jako vězně města, které ho kdysi vítalo, a Příbrama s jeho mistry z Prahy vyhnali. Do čela pražského duchovenstva byl zvolen Rokycana. Křižáci ještě ani nepřekročili hranici, a Praha už přišla o svého vládce.",
+      zh: "一年之内先输乌斯季、再输茨维特尔，这对帝国来说实在太过分了。西吉斯蒙德本人被拖在匈牙利南部边境，那边的奥斯曼人可比异端急迫得多，所以这一次，十字军由德意志诸侯自己张罗。牵头的是勃兰登堡选帝侯腓特烈，也就是1422年唯一真正到场的那位诸侯；最高指挥权交给了特里尔大主教奥托。1427年3月，教皇马丁五世颁布了新的十字军诏书，还派了一位特使随行：温切斯特主教亨利·博福特，刚当上红衣主教，还是襁褓中的英格兰国王的叔祖父。讨伐胡斯派的十字军，这回请来了一位英国红衣主教坐镇。\n\n这一次，诸侯们是真打算好好干。法兰克福的帝国会议专门制定了一部四十八条的军令：谁指挥谁，营地怎么管，没有命令擅自抢掠或者乱跑的人怎么处置，都写得清清楚楚。大炮要多带，车阵也要自己备一套。[[b]]跟胡斯派打了七年、输了七年，帝国终于决定好好学一学对手了。[[/b]]捷克史学家一般把这次算作第三次十字军，因为1422年那一次还没正式开打就先放弃了。当年真跟着出过征的人，大概不会同意这种算法。\n\n计划还是老一套，只是规模更大：几路大军同时越境，在波希米亚腹地会师。莱茵兰人、弗兰肯人和巴伐利亚人从西边来，萨克森人、图林根人和黑森人从北边来，西里西亚人和卢萨蒂亚人从东北来，奥地利人从南边来。可陷阱还没布好，南边那道钳口就已经断了。吃了[[link:returning-the-visit-1427]]茨维特尔[[/link]]的亏，阿尔布雷希特公爵对再开一条战线毫无兴趣。\n\n普罗科普也没打算等其他几路人马到齐。5月中旬，塔博尔军和孤儿军开进上卢萨蒂亚，又一路打进下西里西亚，把亚沃尔一带烧成一片焦土，还烧了好几座修道院。大城是一座也没拿下，可西里西亚的领主们从此得先操心自己的家了。西里西亚人夏天倒也还是翻过了山，甚至在纳霍德附近打败了几支胡斯派的小部队。然后他们就停下脚步，等着看西边传来什么消息。\n\n与此同时，布拉格自己也出了乱子。[[link:importing-a-king-1421]]科里布特[[/link]]这位立陶宛王子，自1424年起就掌管着这座城市，这段时间却一直在跟天主教一方，以及以扬·普日布拉姆为首的保守派大学教授们悄悄商量跟罗马和解的事。在激进派看来，这简直就是叛变。1427年4月17日，濯足节星期四，提恩教堂的传道人扬·罗基察纳和他的盟友把市民召集到老城广场，把证据摆了出来。愤怒的人群冲进了科里布特在广场边的住所。王子被连夜秘密押出城，送到北边的瓦尔德施泰因城堡关了起来，成了这座曾经欢迎过他的城市的阶下囚；普日布拉姆和他那批教授也被赶出了布拉格。罗基察纳被推举为布拉格教士的领袖。十字军还没越过边境，布拉格就先把自己的统治者弄丢了。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "old-town-square",
+        relation: {
+          en: "Where Rokycana laid out the evidence against Korybut on 17 April 1427, and where the crowd stormed the prince's residence.",
+          cz: "Zde Rokycana 17. dubna 1427 předložil důkazy proti Korybutovi a odsud dav vtrhl do knížecího sídla.",
+          zh: "1427年4月17日，罗基察纳就是在这里当众摆出了科里布特的罪证，愤怒的人群随后冲进了王子的住所。",
+        },
+      },
+      {
+        slug: "tyn-church",
+        relation: {
+          en: "Jan Rokycana's own church. The preacher who brought Korybut down was chosen to lead Prague's clergy the same spring.",
+          cz: "Kostel Jana Rokycany. Kazatel, který svrhl Korybuta, byl téhož jara zvolen do čela pražského duchovenstva.",
+          zh: "扬·罗基察纳布道的教堂。扳倒科里布特的这位传道人，同一个春天就被推举为布拉格教士的领袖。",
+        },
+      },
+      {
+        slug: "hrad-valdstejn",
+        relation: {
+          en: "The castle in the north where Korybut was taken by night after his fall, as a prisoner.",
+          cz: "Hrad na severu, kam Korybuta po jeho pádu v noci odvezli jako vězně.",
+          zh: "科里布特倒台后，被连夜押到这座北方城堡关押。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/T%C5%99et%C3%AD_k%C5%99%C3%AD%C5%BEov%C3%A1_v%C3%BDprava_proti_husit%C5%AFm",
+  },
+  {
+    slug: "the-enemy-nobody-saw-1427",
+    era: "religious-turmoil",
+    startYear: 1427.55,
+    year: {
+      en: "July–August 1427",
+      cz: "Červenec–srpen 1427",
+      zh: "1427年7月至8月",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Enemy Nobody Saw",
+      cz: "Nepřítel, kterého nikdo neviděl",
+      zh: "望风而逃",
+    },
+    hookLine: {
+      en: "In August 1427 the best-organized crusade the Empire had ever sent against Bohemia ran for home. The Hussites were still days away.",
+      cz: "V srpnu 1427 se nejlépe zorganizovaná křížová výprava, jakou kdy říše na Čechy poslala, dala na útěk domů. Husité byli ještě několik dní cesty daleko.",
+      zh: "1427年8月，帝国派往波希米亚的、有史以来组织得最好的一支十字军，掉头往家跑。那时候，胡斯军离他们还有好几天的路程。",
+    },
+    summary: {
+      en: "In July the western armies crossed the border near Cheb. Modern historians put them at about 20,000 to 25,000 men; the more excitable chroniclers of the day went as high as 200,000. They burned villages as they went, as crusaders always did, and on 23 July they laid siege to Stříbro, a small silver-mining town west of Plzeň held by a Hussite garrison under Přibík of Klenové. The guns thundered and the walls held. One day passed, then another. The forty-eight articles said a great deal about keeping order in camp. They had nothing to say about what to do when a small town simply refused to fall.\n\nIn Prague the news did what nothing else had managed for years: it put the Hussites back on the same side. Prokop's Táborites and Orphans, the Praguers and the Utraquist lords marched west together, some sixteen thousand men with two hundred wagons. They had got no further than Rokycany, a good two days short of Stříbro, when the crusaders made up their minds. The chronicler Bartošek of Drahonice summed it up in one sentence:\n\n[[quote:0]]\n\nOn 2 August the siege was lifted and the army pulled back toward Tachov. Duke Henry of Bavaria-Landshut rode out with some 3,000 horsemen to slow the Hussites down, and rode back again without a fight. North of Tachov the camp slid into chaos. Fires broke out, and men who saw the smoke took it for the Hussites. Whole contingents quietly packed up and set off for the border. Cardinal Beaufort arrived to find an army that had not lost a battle already halfway to losing the war. He could not understand it. They had guns, wagons and the numbers, so what exactly were they running from? He made a speech to put the courage back into them, reportedly promising to stand in the front rank himself without armor or shield. By every account it fell flat.\n\nOn 4 August the retreat became a rout. Beaufort rode among the fleeing men holding up the papal and imperial banners and the cross, begging them to turn and fight. Nobody turned. Not everyone in the crusader camp had lost his head, though:\n\n[[quote:1]]\n\nKamrovec rode off to defend Tachov. Beaufort, in a fury, is said to have torn the imperial banner and thrown it at the princes' feet. Then he too had to join the retreat to Bavaria.\n\nProkop was reportedly suspicious when his scouts brought the news. An enemy that size running away without a fight looked a lot like a trap, so he came on slowly. What he found was an abandoned camp and the tracks of an army heading west. [[b]]The crusade that had written itself forty-eight articles of discipline never fought a single battle.[[/b]] It had lost to the Hussites' reputation before it ever met the Hussites.",
+      cz: "V červenci překročila západní vojska hranici u Chebu. Moderní historici je odhadují asi na 20 000 až 25 000 mužů; horlivější kronikáři té doby došli až k 200 000. Cestou pálili vesnice, jak to křižáci dělávali, a 23. července oblehli Stříbro, malé hornické město západně od Plzně, které držela husitská posádka pod velením Přibíka z Klenového. Děla hřměla a hradby držely. Uběhl den, pak další. Čtyřicet osm článků říkalo spoustu věcí o pořádku v ležení. O tom, co dělat, když malé město prostě odmítá padnout, neříkalo nic.\n\nV Praze dokázala ta zpráva to, co se po léta nepovedlo ničemu jinému: postavila husity znovu na jednu stranu. Prokopovi táboři a sirotci, Pražané i kališničtí páni vytáhli na západ společně, asi šestnáct tisíc mužů s dvěma sty vozy. Dostali se teprve k Rokycanům, dobré dva dny cesty od Stříbra, když se křižáci rozhodli. Kronikář Bartošek z Drahonic to shrnul jedinou větou:\n\n[[quote:0]]\n\nDruhého srpna bylo obléhání zrušeno a vojsko ustoupilo k Tachovu. Vévoda Jindřich Bavorsko-Landshutský vyjel se zhruba 3 000 jezdci husity zdržet a bez boje se zase vrátil. Ležení severně od Tachova upadlo do zmatku. Vypukly požáry a ti, kdo viděli kouř, ho považovali za husity. Celé oddíly potichu balily a vydávaly se k hranici. Kardinál Beaufort dorazil k vojsku, které neprohrálo jedinou bitvu, a přesto už bylo napůl cesty k prohrané válce. Nemohl to pochopit. Měli děla, vozy i početní převahu, tak před čím vlastně utíkají? Pronesl řeč, která jim měla vrátit odvahu, a prý slíbil, že sám bude stát v první řadě bez zbroje a bez štítu. Podle všech zpráv vyzněla naprázdno.\n\nČtvrtého srpna se ústup změnil v útěk. Beaufort projížděl mezi prchajícími s papežskou a říšskou korouhví a s křížem a prosil je, ať se otočí a bojují. Neotočil se nikdo. Ne každý v křižáckém ležení ale ztratil hlavu:\n\n[[quote:1]]\n\nKamrovec odjel bránit Tachov. Beaufort prý vzteky roztrhal říšskou korouhev a hodil ji knížatům k nohám. Pak musel i on ustoupit do Bavor.\n\nProkop byl prý podezíravý, když mu zvědové zprávu přinesli. Takhle velký nepřítel, který utíká bez boje, vypadal hodně jako past, a tak postupoval pomalu. Našel opuštěné ležení a stopy vojska mířícího na západ. [[b]]Křížová výprava, která si sepsala čtyřicet osm článků o kázni, nesvedla jedinou bitvu.[[/b]] Husitské pověsti podlehla dřív, než se s husity vůbec setkala.",
+      zh: "7月，西线大军在海布附近越过边境。现代史学家估计这支军队有两万到两万五千人，当时那些比较激动的编年史家，则一路报到了二十万。他们照十字军的老规矩，边走边烧村子，7月23日围住了斯特日布罗。这是普尔森以西的一座产银小城，由克莱诺韦的普日比克率领一支胡斯派守军把守。大炮轰个不停，城墙纹丝不动。一天过去了，又一天过去了。那四十八条军令把营地纪律写得面面俱到，偏偏没写一座小城就是不肯投降时该怎么办。\n\n消息传到布拉格，做成了好几年来谁也没做成的事：胡斯派又站到了同一边。普罗科普的塔博尔军和孤儿军、布拉格人，还有圣杯派的贵族们一起向西进发，约一万六千人，带着两百辆战车。他们才走到罗基察尼，离斯特日布罗还有足足两天的路，十字军那边就拿定了主意。编年史家德拉霍尼采的巴尔托舍克只用一句话就交代完了：\n\n[[quote:0]]\n\n8月2日，十字军撤了围，退往塔霍夫。巴伐利亚-兰茨胡特公爵亨利带着约三千骑兵出去，想拖住胡斯军，结果一仗没打又回来了。塔霍夫以北的营地乱成一锅粥。营里起了火，看见浓烟的人还以为胡斯军已经杀到。一支支队伍悄悄收拾行装，往边境方向溜。红衣主教博福特赶到时，看到的是一支一场仗都没输、却已经输掉半场战争的军队。他怎么也想不通：大炮有了，战车有了，人数也占优，到底在跑什么？他发表了一通演说给大家打气，据说还承诺自己不披甲、不持盾，亲自站在队伍最前排。各方记载都说，这番话没起任何作用。\n\n8月4日，撤退变成了溃逃。博福特举着教皇旗、帝国旗和十字架，在逃跑的人群里来回奔走，求他们回头作战。没有一个人回头。不过，十字军营里也不是人人都慌了神：\n\n[[quote:1]]\n\n这位卡姆罗维茨后来去守塔霍夫了。据说博福特气得把帝国旗撕了，扔在诸侯们脚下。然后，他自己也只好跟着大伙撤回巴伐利亚。\n\n据说斥候把消息报给普罗科普时，他起初还不太相信。这么大一支军队一仗不打就跑，怎么看都像个圈套，所以他带着队伍慢慢往前挪。最后找到的，只有一座空营，和一路往西去的车辙。[[b]]这支给自己定了四十八条纪律的十字军，从头到尾一场仗也没打。[[/b]]还没见着胡斯军的面，它就先败给了胡斯军的名声。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "And when the said Taborites and Praguers came within three miles of the Germans or less, the said princes fled from the said town of Stříbro into Bavaria.",
+          cz: "A když se řečení táboři a pražané přiblížili k Němcům na tři míle či ještě méně, řečená knížata prchla od řečeného města Stříbra do Bavor.",
+          zh: "当上述塔博尔派与布拉格人逼近到距德意志人三里或更近之处时，上述诸侯便从上述斯特日布罗城逃往巴伐利亚。",
+        },
+        attribution: {
+          en: "Bartošek of Drahonice, chronicle, on the retreat of August 1427",
+          cz: "Bartošek z Drahonic, kronika, o ústupu v srpnu 1427",
+          zh: "德拉霍尼采的巴尔托舍克《编年史》，记1427年8月的撤退",
+        },
+      },
+      {
+        text: {
+          en: "Then a knight called Kamrovec cried out: I see no one to flee from, I see no enemy!",
+          cz: "Jeden rytíř pak, řečený Kamrovec, zvolal: „Nevidím, před kým utíkat, žádného nepřítele nevidím!“",
+          zh: "这时，一位名叫卡姆罗维茨的骑士高声喊道：“我看不出要躲谁，我一个敌人也没看见！”",
+        },
+        attribution: {
+          en: "Bartošek of Drahonice, chronicle, on 4 August 1427",
+          cz: "Bartošek z Drahonic, kronika, o 4. srpnu 1427",
+          zh: "德拉霍尼采的巴尔托舍克《编年史》，记1427年8月4日",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "stribro",
+        relation: {
+          en: "The small silver town on its cliff that the crusaders pounded for ten days and never took.",
+          cz: "Malé stříbrné město na skále, které křižáci deset dní ostřelovali a nikdy nedobyli.",
+          zh: "建在悬崖上的产银小城，十字军轰了十天，始终没能拿下。",
+        },
+      },
+      {
+        slug: "tachov",
+        relation: {
+          en: "The border town the crusaders fell back to, and where their army came apart on 4 August 1427 without a battle.",
+          cz: "Pohraniční město, k němuž křižáci ustoupili a kde se jejich vojsko 4. srpna 1427 rozpadlo bez bitvy.",
+          zh: "十字军撤退到的这座边境城镇，1427年8月4日，他们的大军就在这里一仗未打就散了架。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Bitva_u_Tachova",
+  },
+  {
+    slug: "if-you-cant-beat-them-tax-them-1427",
+    era: "religious-turmoil",
+    startYear: 1427.6,
+    year: {
+      en: "1427",
+      cz: "1427",
+      zh: "1427年",
+    },
+    tone: "humorous",
+    title: {
+      en: "If You Can't Beat Them, Tax Them",
+      cz: "Když nemůžeš vyhrát, vyber daň",
+      zh: "打不过，就收税",
+    },
+    hookLine: {
+      en: "The crusaders had gone home, but Tachov's garrison had nowhere to go. A month later, neither did a band of plotters on Old Town Square.",
+      cz: "Křižáci odtáhli domů, ale tachovská posádka neměla kam jít. O měsíc později neměla kam jít ani skupina spiklenců na Staroměstském náměstí.",
+      zh: "十字军回家了，塔霍夫的守军却无路可走。一个月后，老城广场上的一伙密谋者，也落到了同样的处境。",
+    },
+    summary: {
+      en: "Tachov was a royal town and castle right on the western border, with a largely German and Catholic population and a garrison that now included Kamrovec, the knight who had seen no enemy worth fleeing from. The Hussites brought up their guns, and on 11 August, after a heavy bombardment, they stormed the town. The fighting in the streets was merciless. Kamrovec died there with some fifty of his men, and the Hussites, facing a German Catholic town that had just watched a crusade run past its gates, showed very little restraint. The street they broke in by is still called Krvavá ulice, Bloody Street. The castle held out three more days and surrendered on 14 August. About 1,400 prisoners were taken, and so was the garrison's best cannon, a gun nicknamed Chmelík, the little hop plant.\n\nProkop may not have been the tactician Žižka was, but he saw the war whole. The raids into Austria and Silesia had broken the pincers before they could close, and with Tachov taken, Stříbro and Domažlice now formed a gate against any army coming from the west. The crusaders at Tachov had not run from Prokop's army, which they never saw. They had run from the stories of Ústí and Zwettl, which had marched ahead of it. [[b]]Žižka had taught the Empire's knights to fear the Hussite wagons; Prokop taught them they didn't need to see the wagons to run.[[/b]] After that summer nobody questioned who Žižka's heir was.\n\nNot everyone in Bohemia was pleased. Some conservative lords had quietly hoped the crusade would do their work for them. It hadn't, so they tried it themselves. At a meeting in Kolín on 4 September, Hynek of Kolštejn and Jan Smiřický, with the backing of Catholic lords, agreed to seize Prague. Two days later they rode in through the open gates of the New Town with some six hundred horsemen and drew up on Old Town Square, shouting \"Holy peace!\" and waiting for the townspeople to join them. The townspeople had been expecting them. Vilém Kostka of Postupice, who had been at Kolín and disliked the whole plan, had tipped off the city council. Chains went up across the streets, crossbows opened up from the houses, and about a hundred of the attackers were killed. Some 250 were captured, Smiřický among them. Hynek hid in the House at the Golden Elephant on the corner of the square. The next day he was found by Jan Makovec of Měrunice, a squire whom Hynek himself had recently saved from the gallows. Makovec killed him and threw the body out of a window into the courtyard. Whatever else had changed in Prague, its fondness for windows had not.\n\nIn November the princes of the Empire met at Frankfurt again and swore once more to punish the Bohemian heretics. This time, though, they decided that before marching anywhere, they would first raise the money. On 2 December 1427 the diet approved a general Hussite tax, to be paid by everyone in the Empire, clergy and Jews included. It was the first empire-wide tax in the Empire's history. Collecting it went about as smoothly as the crusade had: slowly, patchily, and well short of what was hoped. No new army came for years. Bohemia could finally catch its breath, and Prokop began to think it was time to return a few more visits.",
+      cz: "Tachov byl královské město a hrad přímo na západní hranici, s převážně německým a katolickým obyvatelstvem a s posádkou, k níž teď patřil i Kamrovec, rytíř, který neviděl nepřítele, před nímž by stálo za to utíkat. Husité přivezli děla a 11. srpna po silném ostřelování vzali město útokem. Boj v ulicích byl nemilosrdný. Kamrovec tam padl i s asi padesáti svými muži, a husité se ve městě, které právě vidělo, jak kolem jeho bran utíká křížová výprava, nijak neudržovali. Ulice, kudy vtrhli dovnitř, se dodnes jmenuje Krvavá. Hrad vydržel ještě tři dny a 14. srpna se vzdal. Husité zajali asi 1 400 lidí a ukořistili i nejlepší dělo posádky, zvané Chmelík.\n\nProkop možná nebyl takový taktik jako Žižka, ale válku viděl jako celek. Výpravy do Rakous a do Slezska rozbily kleště dřív, než se mohly sevřít, a s dobytým Tachovem tvořily Stříbro a Domažlice bránu proti každému vojsku od západu. Křižáci u Tachova neutekli před Prokopovým vojskem, to vůbec neviděli. Utekli před příběhy o Ústí a Světlé, které táhly před ním. [[b]]Žižka naučil říšské rytíře bát se husitských vozů; Prokop je naučil, že ty vozy k útěku ani nepotřebují vidět.[[/b]] Po tomto létě už nikdo nepochyboval, kdo je Žižkovým dědicem.\n\nNe každý v Čechách měl radost. Někteří konzervativní páni potichu doufali, že za ně práci udělá křížová výprava. Neudělala, a tak to zkusili sami. Na schůzce v Kolíně 4. září se Hynek z Kolštejna a Jan Smiřický s podporou katolických pánů dohodli, že se zmocní Prahy. O dva dny později vjeli s asi šesti sty jezdci otevřenými branami do Nového Města, rozestavili se na Staroměstském náměstí, volali „Mír svatý!“ a čekali, až se k nim obec přidá. Obec je ale čekala. Vilém Kostka z Postupic, který byl v Kolíně a celý plán se mu nelíbil, varoval městskou radu. Přes ulice se natáhly řetězy, z domů začaly střílet kuše a asi stovka útočníků padla. Kolem 250 jich bylo zajato, mezi nimi i Smiřický. Hynek se ukryl v domě U Zlatého slona na rohu náměstí. Druhý den ho tam našel panoš Jan Makovec z Měrunic, kterého Hynek sám nedávno zachránil před šibenicí. Makovec ho zabil a tělo vyhodil oknem na dvůr. Ať se v Praze změnilo cokoli, záliba v oknech zůstala.\n\nV listopadu se říšská knížata znovu sešla ve Frankfurtu a znovu přísahala, že české kacíře ztrestají. Tentokrát se ale rozhodla, že než kamkoli vytáhnou, nejdřív seženou peníze. 2. prosince 1427 schválil sněm obecnou husitskou daň, kterou měl platit každý v říši, duchovní i Židé. Byla to první celoříšská daň v dějinách říše. Její výběr šel asi tak hladce jako předtím výprava: pomalu, nahodile a daleko pod očekáváním. Nové vojsko nepřišlo celé roky. Čechy si konečně mohly vydechnout a Prokop začal uvažovat, že je čas oplatit ještě pár návštěv.",
+      zh: "塔霍夫是紧挨着西部边境的一座王室城镇和城堡，居民大多是德意志人和天主教徒，守军里如今还多了卡姆罗维茨，就是那位没看出有什么敌人值得躲的骑士。胡斯军把大炮拉了上来，8月11日，一轮猛烈炮击之后，他们攻进了城。巷战打得毫不留情。卡姆罗维茨和他手下约五十人战死在城里。这座德意志天主教城市刚刚眼看着一整支十字军从自家城门外逃走，胡斯军在这里下手也几乎没有留情。他们破城而入的那条街，直到今天还叫“血腥之路”。城堡又守了三天，8月14日投降。胡斯军俘虏了约一千四百人，还缴获了守军最好的一门大炮，名叫“小啤酒花”。\n\n普罗科普在战术上也许比不上杰式卡，但他看得清整场战争。打进奥地利和西里西亚的几次远征，让敌人的钳子还没合拢就先断了；拿下塔霍夫之后，塔霍夫、斯特日布罗和多马日利采连成一道大门，挡在所有从西边来的军队面前。塔霍夫城外的十字军，并不是被普罗科普的军队吓跑的，他们连这支军队的影子都没见着。把他们吓跑的，是走在大军前头的乌斯季和茨维特尔的传闻。[[b]]杰式卡教会了帝国骑士害怕胡斯派的战车；普罗科普则让他们明白，用不着看见战车，也可以直接跑。[[/b]]这个夏天之后，谁是杰式卡的接班人，再没人有疑问。\n\n不过，波希米亚也不是人人都高兴。有些保守派贵族暗地里本指望十字军替他们把活儿干了。十字军没干成，他们就打算亲自动手。9月4日，科林的一次密会上，科尔什泰因的海涅克和扬·斯米日茨基在天主教贵族的支持下商定，要一举拿下布拉格。两天后，他们带着约六百名骑兵，从新城敞开的城门长驱直入，在老城广场上列好阵，高喊着“神圣和平！”，等着市民们来响应。可市民们早就在等他们了。波斯图皮采的维莱姆·科斯特卡也参加了科林密会，他对这个计划很不以为然，事先给市议会通了风报了信。街口拉起了铁链，两旁房子里的弩箭齐发，进攻者当场被杀约一百人，被俘约二百五十人，斯米日茨基也在其中。海涅克躲进了广场拐角的金象之家。第二天，一个名叫扬·马科韦茨的侍从找到了他，而此人不久前还是海涅克亲手从绞架下救回来的。马科韦茨杀了他，又把尸体从窗口扔进了院子。布拉格别的都在变，爱往窗外扔人的老习惯倒是一点没变。\n\n11月，帝国诸侯又在法兰克福开会，又一次信誓旦旦地要惩罚波希米亚异端。不过这回，他们决定哪儿都先别去，先把钱凑齐再说。1427年12月2日，帝国会议通过了一项普遍的“胡斯税”，帝国境内人人都得交，教士和犹太人也不例外。这是帝国历史上第一项全帝国范围的税。收税的过程，跟那场十字军差不多顺利：慢吞吞，东一块西一块，离预期差了一大截。接下来好几年，再没有新的大军上门。波希米亚终于喘上了一口气，而普罗科普开始琢磨，是时候再去几家邻居那里回访一下了。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "tachov",
+        relation: {
+          en: "Stormed on 11 August 1427. The street the Hussites broke in by is still called Bloody Street, and much of the wall they breached still stands.",
+          cz: "Dobyt útokem 11. srpna 1427. Ulice, kudy husité vtrhli dovnitř, se dodnes jmenuje Krvavá a velká část hradeb, které prolomili, stojí dodnes.",
+          zh: "1427年8月11日被胡斯军攻破。他们破城而入的那条街至今还叫“血腥之路”，被攻破的城墙，大半也还立在原地。",
+        },
+      },
+      {
+        slug: "kolin",
+        relation: {
+          en: "Where Hynek of Kolštejn and Jan Smiřický met on 4 September 1427 and agreed to seize Prague, with one guest at the table who went and warned the city.",
+          cz: "Zde se 4. září 1427 sešli Hynek z Kolštejna a Jan Smiřický a dohodli se, že se zmocní Prahy. U stolu seděl i host, který pak šel město varovat.",
+          zh: "1427年9月4日，科尔什泰因的海涅克和扬·斯米日茨基在这里密会，商定拿下布拉格。可惜同桌有一位客人，转身就去给城里报了信。",
+        },
+      },
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "Seat of the Old Town council that got the warning and had chains and crossbowmen ready before the plotters arrived.",
+          cz: "Sídlo staroměstské rady, která dostala varování a měla řetězy i kušiníky připravené dřív, než spiklenci dorazili.",
+          zh: "老城市议会所在地。议会提前收到了密报，在密谋者赶到之前，铁链和弩手就都已经准备好了。",
+        },
+      },
+      {
+        slug: "dum-u-zlateho-slona",
+        relation: {
+          en: "Where Hynek of Kolštejn hid after the failed coup and was killed the next day, 7 September 1427. The 1905 facade has a fresco of his death.",
+          cz: "Zde se Hynek z Kolštejna po nezdařeném převratu ukryl a druhý den, 7. září 1427, tu byl zabit. Fasáda z roku 1905 nese fresku jeho smrti.",
+          zh: "政变失败后，科尔什泰因的海涅克就躲在这里，第二天（1427年9月7日）在此被杀。1905年重建的外墙上，还画着他遇害的壁画。",
+        },
+      },
+      {
+        slug: "old-town-square",
+        relation: {
+          en: "Where Hynek of Kolštejn's six hundred horsemen drew up on 6 September 1427, and where Prague's chains and crossbows were waiting for them.",
+          cz: "Zde se 6. září 1427 rozestavilo šest set jezdců Hynka z Kolštejna a zde na ně čekaly pražské řetězy a kuše.",
+          zh: "1427年9月6日，科尔什泰因的海涅克带来的六百骑兵就在这里列阵，布拉格人的铁链和弩箭早已在此等候。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Pokus_o_p%C5%99evrat_v_Praze_(1427)",
+  },
+  // The 1428 rides, one card, written 2026-09-26 from the user's draft; no
+  // landmarks by the user's instruction (set abroad). Checked via cs.wikipedia
+  // (Spanilé jízdy, Bitva u Nisy, Boleslav V. Heretik), drakkaria.cz, and the
+  // town of Bechyně's own history page. Departures from the draft:
+  // - Route: a feint south through Moravia and Upper Hungary to Bratislava,
+  //   then a sharp turn north via Trnava into Silesia through the Moravian
+  //   Gate (Ostrava, Osoblaha, Głogówek). "Burned Bratislava's suburbs" not
+  //   confirmed; the card just says they reached it. Jan Čapek not named
+  //   (sources name Jan of Bukovina for Tábor in 1428).
+  // - Nysa, 18 March: the bishop of Wrocław's army under Půta of Častolovice.
+  //   "Several dukes surrendered" made precise: Münsterberg paid ransom by
+  //   22 March; Bolko V of Opole joined the Hussites and seized church lands.
+  // - Wrocław: reached but not besieged; return via Kłodzko with booty. The
+  //   draft's 1 May date not confirmed; dropped. The "burned only churches and
+  //   manors, spared the common folk" claim softened: Bartošek reports
+  //   civilian deaths at Nysa; the card keeps the targeting preference and the
+  //   ransom ("fire money") practice, which are well attested.
+  // - Summer: Tábor toward Vienna, Orphans into the Upper Palatinate (not a
+  //   single Austria-then-Bavaria march, and no July return date confirmed).
+  // - Bechyně: siege from 8 July to about September 1428 (not October);
+  //   Žižka's brother Jaroslav of Trocnov fell there. The draft's Orphan
+  //   truce with Oldřich of Rožmberk not verified; dropped.
+  // - Sigismund's peace offer = the Bratislava talks of spring 1429.
+  // - "Russians" = the Ruthenian prince Fedor of Ostroh, a Hussite captain.
+  // - Quote: Chronicle of the Old Prague Collegiate, via cs.wikipedia's Czech;
+  //   EN/ZH are Claude's.
+  {
+    slug: "the-splendid-rides-1428",
+    era: "religious-turmoil",
+    startYear: 1428,
+    year: {
+      en: "1428",
+      cz: "1428",
+      zh: "1428年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Splendid Rides Sweep Across Europe",
+      cz: "Spanilé jízdy napříč Evropou",
+      zh: "横扫欧洲的“壮美远征”",
+    },
+    hookLine: {
+      en: "The Empire had spent eight years trying to surround Bohemia. In 1428 Prokop decided to go and visit the people doing the surrounding.",
+      cz: "Říše se osm let snažila Čechy obklíčit. Roku 1428 se Prokop rozhodl, že ty, kdo obkličují, navštíví osobně.",
+      zh: "帝国花了八年工夫，想把波希米亚团团围住。1428年，普罗科普决定亲自登门，拜访一下这些搞包围的人。",
+    },
+    summary: {
+      en: "Prokop's reasoning was simple. Bohemia had been fought over for eight years and badly needed a rest. His field armies, meanwhile, were the best in Europe and cost a fortune to feed. Keeping them at home to wait for the next crusade meant Bohemian villages paying for it all over again. So why not let the neighbors pay instead? Hungary, Silesia, Lusatia, Austria, Bavaria, Saxony: every land that had sent troops into Bohemia could now expect a return visit. [[b]]The Empire had been trying to build a ring around Bohemia; Prokop's answer was to go and knock on every door in it.[[/b]]\n\nThe year opened with a feint. Early in 1428 a combined army of Taborites, Orphans, Praguers and Moravian Hussites marched south through Moravia and on into Upper Hungary, all the way to Bratislava, a town of Sigismund's own. Everyone watching assumed Hungary was the target. Then, near Trnava, the whole army turned around, marched back north and poured through the Moravian Gate into Silesia, which had been busy watching Hungary. Ostrava and Osoblaha were found abandoned. On 18 March the bishop of Wrocław's army met the Hussites outside Nysa, and the result was the one everyone in Central Europe could by now have predicted:\n\n[[quote:0]]\n\nAfter that, Silesia mostly stopped trying. Towns emptied as the wagons approached. By 22 March the dukes of Münsterberg were negotiating a ransom. Duke Bolko V of Opole went one better and joined the Hussites outright, confiscating the Church's lands on his estates while he was at it; history remembers him as Bolko the Hussite. The army rolled on to the walls of Wrocław, the capital of Silesia, did not bother with a siege, and headed home through Kłodzko with so much plunder that the wagons reportedly slowed the march.\n\nCatholic preachers warned that the Hussites burned everything in their path. That was not quite true. The Hussites were picky arsonists: monasteries, church estates and noblemen's manors went up first, and a town could often buy itself off with a payment the Czechs called fire money. A good many local peasants decided the new arrivals were more interesting than their lords, and joined. By now the field armies were a fairly international crowd, with Germans, Poles and even a Ruthenian prince, Fedor of Ostroh, fighting under the chalice.\n\nIn the summer the Taborites rode south toward Vienna and the Orphans west into the Upper Palatinate, Bavarian territory, to remind Duke Albert and the Wittelsbachs that Bohemia had neighbors too. Back home, Prokop spent July to September besieging Bechyně, the northernmost stronghold of Oldřich of Rožmberk, the most powerful Catholic lord in the south. Žižka's brother Jaroslav of Trocnov was killed there, but the castle fell. By the end of the year the balance had flipped. Sigismund, who had spent eight years sending armies into Bohemia, was now sending envoys instead, inviting the Hussites to come and talk.",
+      cz: "Prokopova úvaha byla prostá. O Čechy se bojovalo už osm let a země nutně potřebovala oddech. Jeho polní vojska přitom byla nejlepší v Evropě a jejich živení stálo majlant. Nechat je doma čekat na další křížovou výpravu znamenalo, že všechno znovu zaplatí české vesnice. Proč tedy nenechat platit sousedy? Uhry, Slezsko, Lužice, Rakousy, Bavorsko, Sasko: každá země, která kdy poslala vojsko do Čech, teď mohla čekat oplátku. [[b]]Říše se snažila kolem Čech uzavřít kruh; Prokop odpověděl tím, že zaklepal na každé dveře v tom kruhu.[[/b]]\n\nRok začal fintou. Na počátku roku 1428 vytáhlo spojené vojsko táborů, sirotků, Pražanů a moravských husitů na jih přes Moravu a dál do Horních Uher, až k Prešpurku, městu samotného Zikmunda. Každý, kdo to sledoval, usoudil, že cílem jsou Uhry. U Trnavy se však celé vojsko otočilo, vrátilo se na sever a Moravskou branou se vevalilo do Slezska, které zrovna pozorně sledovalo Uhry. Ostravu a Osoblahu našli husité opuštěné. 18. března se u Nisy postavilo husitům vojsko vratislavského biskupa a výsledek byl takový, jaký už by tou dobou předpověděl kdokoli ve střední Evropě:\n\n[[quote:0]]\n\nPotom Slezsko většinou přestalo vzdorovat. Města se vyprazdňovala, jakmile se blížily vozy. Do 22. března už minstrberská knížata vyjednávala o výkupném. Opolský kníže Bolek V. zašel ještě dál a k husitům se rovnou přidal, a když už byl v tom, zabral na svých panstvích církevní statky; dějiny si ho pamatují jako Bolka Husitu. Vojsko dojelo až pod hradby Vratislavi, hlavního města Slezska, s obléháním se nezdržovalo a vracelo se přes Kladsko domů s takovou kořistí, že prý vozy zpomalovaly pochod.\n\nKatoličtí kazatelé varovali, že husité pálí všechno, co jim přijde do cesty. Tak docela to pravda nebyla. Husité byli vybíraví žháři: nejdřív hořely kláštery, církevní statky a panská sídla, a město se často mohlo vykoupit platbou, které Češi říkali výpalné. Nemálo místních sedláků usoudilo, že noví příchozí jsou zajímavější než jejich páni, a přidalo se. Polní vojska už tou dobou byla dost mezinárodní společnost: pod kalichem bojovali Němci, Poláci, a dokonce i ruský kníže Fedor z Ostrohu.\n\nV létě vyrazili táboři na jih k Vídni a sirotci na západ do Horní Falce, na bavorské území, aby vévodovi Albrechtovi a Wittelsbachům připomněli, že i Čechy mají sousedy. Doma mezitím Prokop od července do září obléhal Bechyni, nejsevernější opěrný bod Oldřicha z Rožmberka, nejmocnějšího katolického pána na jihu. Padl tam Žižkův bratr Jaroslav z Trocnova, ale hrad padl také. Do konce roku se poměry obrátily. Zikmund, který osm let posílal do Čech vojska, teď posílal posly a zval husity k jednání.",
+      zh: "普罗科普的算盘很简单。波希米亚已经打了八年仗，急需休养生息。可他手下的野战军是全欧洲最能打的队伍，养起来也是一笔天文数字。把他们留在国内干等下一次十字军，等于让波希米亚的村庄再掏一遍腰包。那为什么不换邻居们来掏？匈牙利、西里西亚、卢萨蒂亚、奥地利、巴伐利亚、萨克森，所有派过兵进波希米亚的地方，现在都可以准备迎接回访了。[[b]]帝国一直想在波希米亚四周织一张包围网；普罗科普的回答是，挨家挨户上门，把网上的每一个结都敲一遍。[[/b]]\n\n这一年以一记虚招开场。1428年初，塔博尔军、孤儿军、布拉格人和摩拉维亚胡斯派组成的联军一路南下，穿过摩拉维亚进入上匈牙利，一直打到西吉斯蒙德自家的城市布拉迪斯拉发。看热闹的人都以为，这回的目标是匈牙利。结果到了特尔纳瓦附近，全军突然掉头北上，经摩拉维亚山口一头扎进了西里西亚，而西里西亚人这会儿正全神贯注地盯着匈牙利呢。俄斯特拉发和奥索布拉哈人去城空。3月18日，弗罗茨瓦夫主教的军队在尼斯城外迎战胡斯军，结果嘛，到这个时候，中欧随便哪个人都猜得到：\n\n[[quote:0]]\n\n打那以后，西里西亚基本就放弃抵抗了。车阵还没到，城里的人就先跑光了。到3月22日，明斯特贝格的公爵们已经在谈赎金了。奥波莱公爵博尔科五世更进一步，干脆直接加入了胡斯派，顺手把自己领地上的教会田产全收了过来，史书从此称他为“胡斯派博尔科”。大军一路开到西里西亚首府弗罗茨瓦夫城下，连围城都懒得围，就经克沃兹科满载而归。据说战利品多到把大车塞得满满当当，连行军都慢了下来。\n\n天主教神父们到处宣扬，说胡斯军所到之处寸草不留。这话不全对。胡斯军放起火来挑剔得很：修道院、教会庄园和贵族老爷的宅邸先烧，城镇则常常可以交一笔钱买个平安，捷克人管这叫“免烧钱”。不少当地农民觉得这帮新来的比自家老爷有意思多了，干脆跟着一起走。这时的野战军，已经颇有点“国际纵队”的味道：圣杯旗下，有德意志人，有波兰人，甚至还有一位罗斯王公，奥斯特罗格的费奥多尔。\n\n到了夏天，塔博尔军南下直奔维也纳，孤儿军则西进巴伐利亚的上普法尔茨，好让阿尔布雷希特公爵和维特尔斯巴赫家族也记住，波希米亚也是有邻居的。国内这边，普罗科普从7月到9月一直在围攻贝希涅，这里是南方最有势力的天主教大贵族、罗日姆贝克的奥尔德日赫在最北边的据点。杰式卡的弟弟、特罗茨诺夫的雅罗斯拉夫战死在城下，但城堡最终还是拿下了。到年底，形势已经彻底翻了过来。八年来一直往波希米亚派军队的西吉斯蒙德，这回改派使者了，请胡斯派坐下来谈一谈。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "The Silesian dukes, the towns and the bishop gathered an army against them at Nysa. Upon them, in the suburbs, the aforesaid leapt down from their wagons with the foot soldiers, and slew and drowned some two thousand of their opponents.",
+          cz: "Slezská knížata, města a biskup shromáždili proti nim vojsko u Nisy. Na ně na předměstí ti výše řečení vyskočili z vozů s pěšími a zabili a utopili na dva tisíce protivníků.",
+          zh: "西里西亚诸公爵、各城镇与主教在尼斯集结军队，与之对阵。前述诸人率步兵自车阵中一跃而出，在城郊杀死、溺毙敌军约两千人。",
+        },
+        attribution: {
+          en: "Chronicle of the Old Prague Collegiate, on the battle of Nysa, 18 March 1428",
+          cz: "Kronika starého kolegiáta pražského, o bitvě u Nisy 18. března 1428",
+          zh: "《布拉格老学院编年史》，记1428年3月18日尼斯之战",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Spanil%C3%A9_j%C3%ADzdy",
+  },
 ];
 
 async function run() {
