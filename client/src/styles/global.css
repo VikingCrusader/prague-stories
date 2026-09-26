@@ -510,6 +510,23 @@ html[data-lang="zh"] .history-landmark-caption {
   color: #ffffff;
 }
 
+/* .history-event__landmarks-label ("See it for yourself" / "亲自去看看",
+   the gold heading above each event's related-landmark grid) was falling
+   through to the page's default pixel font at 16px. Per explicit request
+   2026-09-26: bigger and bold, Cinzel for EN/CZ and the same Kaiti face as
+   the quote block for ZH. Kept outside the shared Cinzel group above,
+   which pins weight to 400. */
+html:not([data-lang="zh"]) .history-event__landmarks-label {
+  font-family: "Cinzel", serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+html[data-lang="zh"] .history-event__landmarks-label {
+  font-family: "LXGW WenKai TC", "Noto Serif SC", "Noto Serif TC", serif !important;
+  font-size: 22px;
+  font-weight: 700;
+}
+
 /* Background-knowledge cards (cardType: 'background' — see
    history-detail-panel--background in history.css/HistoryEventSection)
    reuse the same .history-event__summary class as a regular dated event's
