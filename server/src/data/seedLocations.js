@@ -31140,6 +31140,343 @@ Nápad vznikl v roce 1909, kdy se hudební odbor Umělecké besedy rozhodl uctí
 🎁 彩蛋：委员会成立时是为了纪念他逝世25周年，雕像却赶上了100周年。到那时，发起这件事的协会已经解散三十多年了。等了四分之三个世纪才等来一座纪念像，总算让他坐着，也算公平。`,
     },
   },
+  {
+    // Sources: vets.cz (Pražský válečný hřbitov Commonwealthu: 264 graves —
+    // 198 British, 19 South African, 14 New Zealand, 9 Canadian, 9 Polish, 2
+    // Australian, 1 Indian, 13 unidentified; many POWs and bomber aircrew,
+    // remains concentrated here from small cemeteries after 1945; Pomník
+    // vojákům Rudé armády inscription), valecnehroby.mo.gov.cz (Soviet honour
+    // cemetery founded May 1945, 180 soldiers moved in by 9 June 1945, main
+    // work finished 10 Nov 1945, 30 more buried with full honours 25 Apr 1947;
+    // 30 litres of slivovice bought for the gravediggers in summer 1945),
+    // aktualne.cz / Vladimir Pomortzeff (437 registered, 492 actually buried;
+    // ~50 graves combat deaths, 47 alcohol/methanol poisoning, 45 TB, 20
+    // traffic accidents; Gončarenko the only one provably killed in combat in
+    // Prague on 9 May), hpspraha.cz (eastern part across Jana Želivského;
+    // Prague Uprising section by the U Nákladového nádraží entrance;
+    // Bulgarian memorial; NZ silver-fern headstones), cs.wikipedia Olšanské
+    // hřbitovy (Red Army cemetery NKP 1978; whole complex of allied honour
+    // cemeteries NKP 1999). Solemn tone per the mass-death rule. Rarity
+    // 'rare' is my own pick.
+    name: 'War Cemetery for the Victims of World War II',
+    slug: 'valecny-hrbitov-olsany',
+    localizedNames: { cz: 'Válečný hřbitov obětem 2. světové války', zh: '二战遇难者战争公墓' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.08212181114262, lng: 14.47275738016371 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Ol%C5%A1any_Cemetery',
+    description: {
+      en: `Across Jana Želivského street from the main Olšany Cemeteries lies a quieter, far more orderly section: rows of identical headstones, trimmed lawns and several national memorials side by side. This is where Prague buried the soldiers and civilians who died in the last days of the Second World War and in the months after it.
+
+The ground holds several separate honour cemeteries. Right by the entrance from U Nákladového nádraží street lie the Czechs who fell on the barricades of the Prague Uprising in May 1945, many of them civilians. The Soviet section was set up that same May. By 9 June 1945 180 soldiers had been moved here, the main work was finished that November, and in April 1947 another 30 were buried with full military honours. A central monument carries the same dedication in Czech and Russian, to the Red Army soldiers who fell "for the honour and independence of the Soviet homeland and the liberation of the Slavic nations from fascism". Nearby is the Commonwealth War Graves Commission's Prague War Cemetery, 264 graves in its plain, uniform style: 198 British, 19 South African, 14 New Zealand, 9 Canadian, 9 Polish, 2 Australian, 1 Indian and 13 men never identified. Many of them were prisoners of war who died in camps, others were aircrew shot down over occupied Europe, and after 1945 their remains were brought here from small graves all over Czechoslovakia. The New Zealanders' stones carry a silver fern. There is also a memorial to Bulgarian citizens killed in the uprising. The Soviet cemetery was declared a national cultural monument in 1978, and in 1999 the whole group of allied honour cemeteries followed.
+
+🎁 Bonus: The Russian researcher Vladimir Pomortzeff went through the records of all 492 Red Army soldiers buried here, and found that only around fifty graves hold men who actually died in combat. More were killed by drinking methanol or bad alcohol, others by tuberculosis they had caught as prisoners in German camps, and twenty in traffic accidents, mostly in the summer and autumn after the war had ended. As far as the records show, only one of them, Lieutenant Ivan Gončarenko, was killed fighting inside Prague on 9 May 1945.`,
+
+      cz: `Přes ulici Jana Želivského od hlavního areálu Olšanských hřbitovů leží tišší a mnohem úhlednější část: řady stejných náhrobků, zastřižené trávníky a několik národních památníků vedle sebe. Tady Praha pohřbila vojáky a civilisty, kteří zemřeli v posledních dnech druhé světové války a v měsících po ní.
+
+Na tomhle místě je několik samostatných čestných pohřebišť. Hned u vstupu z ulice U Nákladového nádraží leží Češi, kteří padli na barikádách Pražského povstání v květnu 1945, mnozí z nich civilisté. Sovětské pohřebiště vzniklo téhož května. Do 9. června 1945 sem převezli 180 vojáků, hlavní práce skončily v listopadu a v dubnu 1947 tu s plnými vojenskými poctami pohřbili dalších 30. Ústřední pomník nese stejné věnování česky i rusky, vojínům Rudé armády padlým „v bojích za čest a nezávislost sovětské vlasti a osvobození slovanských národů od fašismu“. Vedle je Pražský válečný hřbitov Komise Commonwealthu pro válečné hroby, 264 hrobů v jejím prostém jednotném stylu: 198 Britů, 19 Jihoafričanů, 14 Novozélanďanů, 9 Kanaďanů, 9 Poláků, 2 Australané, 1 Ind a 13 mužů, které se nikdy nepodařilo identifikovat. Mnozí zemřeli jako váleční zajatci v táborech, jiní byli členové posádek letadel sestřelených nad okupovanou Evropou a po roce 1945 sem jejich ostatky svezli z malých hrobů z celého Československa. Náhrobky Novozélanďanů zdobí stříbrná kapradina. Je tu také pomník bulharským občanům padlým v povstání. Sovětské pohřebiště bylo v roce 1978 prohlášeno národní kulturní památkou a v roce 1999 ho následoval celý soubor čestných pohřebišť spojeneckých armád.
+
+🎁 Bonus: Ruský badatel Vladimir Pomorcev prošel záznamy všech 492 rudoarmějců pohřbených na Olšanech a zjistil, že jen asi padesát hrobů patří mužům, kteří skutečně padli v boji. Víc jich zabil metylalkohol nebo špatný alkohol, další tuberkulóza, kterou chytili jako zajatci v německých táborech, a dvacet dopravní nehody, většinou v létě a na podzim po skončení války. Podle záznamů jen jeden z nich, poručík Ivan Gončarenko, prokazatelně padl v boji přímo v Praze 9. května 1945.`,
+
+      zh: `隔着扬·热利夫斯基街，与奥尔萨内公墓主园区相对的，是一片更安静、也整齐得多的墓区：一排排一模一样的墓碑，修剪过的草坪，几座不同国家的纪念碑并排而立。第二次世界大战最后几天以及战后几个月里死去的士兵和平民，就葬在这里。
+
+这里其实是几座各自独立的荣誉墓地。紧挨着纳克拉多维车站街入口的，是1945年5月在布拉格起义街垒上牺牲的捷克人，其中很多是平民。苏军墓地也是那年5月建起来的：到1945年6月9日已经迁来180名士兵，主体工程当年11月完工，1947年4月又有30人以全套军礼下葬。中央纪念碑上用捷克语和俄语刻着同一句献词，献给“为苏维埃祖国的荣誉与独立、为斯拉夫民族摆脱法西斯而战死”的红军战士。旁边是英联邦战争墓地委员会的布拉格战争公墓，264座墓，是该委员会一贯朴素统一的样式：198名英国人、19名南非人、14名新西兰人、9名加拿大人、9名波兰人、2名澳大利亚人、1名印度人，还有13人始终没能确认身份。他们当中很多是死在战俘营里的战俘，也有在被占领的欧洲上空被击落的机组成员，1945年后才从捷克斯洛伐克各地的小墓地集中迁葬到这里。新西兰人的墓碑上刻着一片银蕨。这里还有一座纪念起义中遇难的保加利亚公民的纪念碑。苏军墓地1978年被列为国家文化遗产，1999年整组盟军荣誉墓地也一并列入。
+
+🎁 彩蛋：俄罗斯研究者弗拉基米尔·波莫尔采夫查阅了葬在这里的全部492名红军士兵的档案，发现真正死于战斗的只有大约五十座墓。死于误饮甲醇或劣质酒的人更多，还有人死于在德国战俘营里染上的肺结核，另有二十人死于交通事故，大多发生在战争已经结束后的夏天和秋天。根据现有记录，能证明于1945年5月9日在布拉格城内战死的，只有伊万·冈察连科中尉一人。`,
+    },
+  },
+  {
+    // Sources: cs.wikipedia Březiněves (first mention 1140; name from Březina
+    // / Břízova ves; German Weiß Kratschen; secular owners after the Hussite
+    // wars, back to the Hospitallers 1461; after 1620 changing hands, part to
+    // Wallenstein by 1630; 1691 back to the order; 17 houses 1785, 21 in
+    // 1843; joined Prague 1974; 557 residents 1991, 1,821 in 2021),
+    // brezineves.cz/historie (Hospitallers of the Malá Strana commandery,
+    // brought to Bohemia by Vladislaus II c. 1159; half of Ládví forest and
+    // the Hovorčovice farm; Václav Cvokan 1436, Jan Sosnovec 1454, Grand
+    // Prior Jošt of Rožmberk 1461; 1630 Mikuláš Kekula of Stradonice bought
+    // the "Rejtorský" farm and the "Bílá" inn, confiscated after his death;
+    // Maltese cross on the coat of arms; law 31/1974), Wikipedia/mistopisy
+    // (farm owned by the Maltese convent in Malá Strana until 1938). The
+    // Weiß Kratschen ↔ White Inn link is hedged as "seems". Rarity 'common'
+    // is my own pick.
+    name: 'Březiněves',
+    slug: 'brezineves',
+    localizedNames: { cz: 'Březiněves', zh: '布热吉涅维斯' },
+    labels: ['village-and-town', 'historical'],
+    coordinates: { lat: 50.164849588678734, lng: 14.483878145897904 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/B%C5%99ezin%C4%9Bves',
+    description: {
+      en: `Out on Prague's northern edge, past the last housing estates and across the fields, sits Březiněves, a village whose name simply means "birch village". It is technically part of the capital, yet for most of its history it had around twenty houses and a landlord based in Malá Strana.
+
+The village first appears in writing in 1140. It soon belonged to the Knights Hospitaller of St John, the order King Vladislaus II brought to Bohemia around 1159, which ran its Bohemian headquarters from a commandery at Malá Strana. Along with the village the knights held half of the Ládví forest and the farm at Hovorčovice. The Hussite wars pushed the order out and Březiněves went through a string of secular owners, among them Václav Cvokan in 1436 and Jan Sosnovec in 1454, until in 1461 it returned to the order under its grand prior, Jošt of Rožmberk. After the Battle of White Mountain it changed hands again. In 1630 the knight Mikuláš Kekula of Stradonice bought the local farm, known as the "Rejtorský" farm, together with the inn, known as the "White" inn, but after his death the property was confiscated and part of it went to Albrecht von Wallenstein. In 1691 the order, by then usually called the Knights of Malta, got the village back, and its convent in Malá Strana owned the farm until 1938. Březiněves grew very slowly: 17 houses in 1785, 21 houses and 213 people in 1843. It was joined to Prague in 1974, and only then did it really start to grow, from 557 residents in 1991 to more than 1,800 today.
+
+🎁 Bonus: The village's German name, Weiß Kratschen, seems to come from that "White" inn rather than from the birches. And the knights left their mark too: the bottom of Březiněves's coat of arms still carries the eight-pointed Maltese cross. For five centuries this little farming village answered to the same order of knights that would later rule Malta.`,
+
+      cz: `Na severním okraji Prahy, za posledními sídlišti a přes pole, leží Březiněves, ves, jejíž jméno prostě znamená „březová ves“. Formálně patří k hlavnímu městu, ale po většinu své historie měla kolem dvaceti domů a vrchnost, která sídlila na Malé Straně.
+
+Ves se poprvé objevuje v písemných pramenech roku 1140. Brzy patřila johanitům, rytířskému řádu sv. Jana, kterého kolem roku 1159 uvedl do Čech král Vladislav II. a který měl své české ústředí v komendě na Malé Straně. Spolu s vsí rytíři drželi polovinu lesa Ládví a dvůr v Hovorčovicích. Husitské války řád vytlačily a Březiněves prošla řadou světských majitelů, mezi nimi Václavem Cvokanem v roce 1436 a Janem Sosnovcem v roce 1454, až se v roce 1461 vrátila řádu pod velkopřevorem Joštem z Rožmberka. Po Bílé hoře změnila majitele znovu. V roce 1630 koupil rytíř Mikuláš Kekula ze Stradonic zdejší dvůr, řečený „Rejtorský“, i s hospodou, řečenou „Bílá“, po jeho smrti byl ale majetek zkonfiskován a část připadla Albrechtu z Valdštejna. V roce 1691 řád, tou dobou už obvykle zvaný maltézští rytíři, ves získal zpět a jeho konvent na Malé Straně vlastnil dvůr až do roku 1938. Březiněves rostla velmi pomalu: v roce 1785 měla 17 domů, v roce 1843 21 domů a 213 obyvatel. K Praze byla připojena v roce 1974 a teprve pak se opravdu rozrostla, z 557 obyvatel v roce 1991 na víc než 1 800 dnes.
+
+🎁 Bonus: Německé jméno vsi, Weiß Kratschen, podle všeho pochází spíš od té „Bílé“ hospody než od bříz. Stopu tu zanechali i rytíři: ve spodní části znaku Březiněvsi je dodnes osmihrotý maltézský kříž. Pět století se tahle malá zemědělská ves zodpovídala stejnému rytířskému řádu, který později vládl Maltě.`,
+
+      zh: `在布拉格北部边缘，过了最后几片住宅区、穿过田野，就到了布热吉涅维斯。这个村名的意思就是“白桦村”。它名义上属于首都，可在历史上的大部分时间里，这里只有二十来户人家，领主却住在布拉格城里的小城区。
+
+这个村子最早在1140年见于文字记载。不久后它归了圣约翰医院骑士团，这个骑士团是国王弗拉迪斯拉夫二世在1159年前后引入波希米亚的，它在波希米亚的总部设在小城区的一座骑士团会所里。骑士们除了这个村子，还拥有拉德维森林的一半和霍沃尔乔维采的庄园。胡斯战争把骑士团赶了出去，布热吉涅维斯先后落到一连串世俗领主手里，比如1436年的瓦茨拉夫·茨沃坎、1454年的扬·索斯诺维茨，直到1461年才在骑士团大修道院长约斯特·罗森贝格手里回归骑士团。白山战役之后，它再次易主。1630年，骑士米库拉什·凯库拉买下了当地被称作“雷伊托尔斯基”的庄园，连同一家被称作“白”酒馆的旅店，可他死后产业被没收，其中一部分给了阿尔布雷希特·冯·华伦斯坦。1691年，这时通常已被称为马耳他骑士团的骑士团把村子要了回来，它在小城区的修道会一直拥有这座庄园到1938年。布热吉涅维斯长得非常慢：1785年17户，1843年21户、213人。1974年它并入布拉格，这之后才真正开始扩张，从1991年的557人涨到如今的一千八百多人。
+
+🎁 彩蛋：这个村子的德语名字看起来来自那家“白”酒馆，而不是白桦树。骑士们也留下了印记：布热吉涅维斯村徽的下半部分至今还是那个八角马耳他十字。五个世纪里，这个小小的农村一直听命于后来统治马耳他的那个骑士团。`,
+    },
+  },
+  {
+    // Sources: cs.wikipedia Pražské póly (marked late Nov 2020 by Janek Rubeš
+    // and Honza Mikulka of Kluci z Prahy with IPR director Ondřej Boháč;
+    // north pole 50°10′39″N 14°31′37″E on the Třeboradice/Hovorčovice
+    // boundary, SE edge of Hovorčovice, Veleňská street by a level crossing;
+    // 180 kg conical concrete post with semicircular top, red and black
+    // plates; placed about 10 m away on the other side of the tracks because
+    // of the railway protection zone), kudyznudy.cz (post marked with the
+    // letter S). Labels mirror the existing `jizni-pol-prahy` card; rarity
+    // 'mythic' also matches that sibling so the poles stay one set.
+    name: 'North Pole of Prague',
+    slug: 'severni-pol-prahy',
+    localizedNames: { cz: 'Severní pól Prahy', zh: '布拉格北极' },
+    labels: ['hidden-gem', 'nature'],
+    coordinates: { lat: 50.177501669948654, lng: 14.526932765894188 },
+    rarity: 'mythic',
+    xpReward: 70,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pra%C5%BEsk%C3%A9_p%C3%B3ly',
+    description: {
+      en: `No ice, no polar bears, no flag planted in the snow. The North Pole of Prague is a concrete post by a railway crossing on Veleňská street, at the point where the capital stops and the village of Hovorčovice, which belongs to Central Bohemia, begins. Go any further north and you have left Prague.
+
+It is one of four "Prague poles", the points of the city's territory furthest north, south, east and west. They had been known to map enthusiasts for years, but they were only marked on the ground at the end of November 2020, when the YouTubers Janek Rubeš and Honza Mikulka, better known as the duo Kluci z Prahy ("the Prague Boys"), set the markers out together with Ondřej Boháč, director of the city's Institute of Planning and Development. Each pole got the same kind of marker, a conical concrete post with a rounded top, weighing 180 kilograms, with red and black plates and a letter for its direction. This one carries an S, for sever, north. The northern pole lies at 50°10′39″ N, 14°31′37″ E, on the boundary between Prague's Třeboradice and Hovorčovice, at the south-eastern edge of the village. The spot itself is flat fields, the railway line and the crossing lights. The most obvious landmark on the horizon is the 155-metre chimney of the Třeboradice heating plant.
+
+🎁 Bonus: The marker isn't actually at the pole. The true northernmost point lies right by the tracks, inside the railway's protection zone, so the post had to be set about ten metres away on the other side of the line. Even at the very top of the city, the railway rules still come before geography.`,
+
+      cz: `Žádný led, žádní lední medvědi, žádná vlajka zapíchnutá do sněhu. Severní pól Prahy je betonový sloupek u železničního přejezdu ve Veleňské ulici, v místě, kde končí hlavní město a začínají Hovorčovice, které už patří do Středočeského kraje. Kdo jde ještě dál na sever, už je mimo Prahu.
+
+Je to jeden ze čtyř „pražských pólů“, nejsevernějšího, nejjižnějšího, nejvýchodnějšího a nejzápadnějšího bodu území města. Nadšenci do map je znali léta, ale v terénu je označili až koncem listopadu 2020, kdy youtubeři Janek Rubeš a Honza Mikulka, známí jako Kluci z Prahy, rozmístili značky spolu s Ondřejem Boháčem, ředitelem Institutu plánování a rozvoje hlavního města Prahy. Každý pól dostal stejnou značku, kuželovitý betonový sloupek s půlkulatým zakončením o váze 180 kilogramů, s červenočernými popisnými tabulkami a písmenem podle světové strany. Tenhle nese S jako sever. Severní pól leží na 50°10′39″ s. š. a 14°31′37″ v. d., na hranici pražských Třeboradic a Hovorčovic, na jihovýchodním okraji zástavby Hovorčovic. Samotné místo tvoří rovná pole, trať a světla přejezdu. Nejvýraznějším bodem na obzoru je 155 metrů vysoký komín třeboradické teplárny.
+
+🎁 Bonus: Značka ve skutečnosti na pólu nestojí. Opravdový nejsevernější bod leží hned u kolejí, v ochranném pásmu dráhy, takže sloupek musel stát asi deset metrů odtud, na druhé straně trati. I na samém vrcholu města má železniční předpis přednost před zeměpisem.`,
+
+      zh: `没有冰，没有北极熊，也没有插在雪地里的旗子。布拉格北极是韦莱尼斯卡街铁路道口旁的一根水泥桩，首都在这里结束，霍沃尔乔维采村从这里开始，而那个村子已经属于中波希米亚州了。再往北走一步，你就不在布拉格了。
+
+它是四个“布拉格极点”之一，也就是全市辖区最北、最南、最东、最西的四个点。地图爱好者多年前就知道它们的存在，但直到2020年11月底，才由油管博主雅内克·鲁贝什和洪扎·米库尔卡，也就是更为人熟知的“布拉格小伙”二人组，联合布拉格规划与发展研究院院长翁德热·博哈奇，在实地立起了标志。每个极点都用同一种标志：一根圆锥形、顶部呈半圆的水泥桩，重180公斤，挂着红黑两色的说明牌，并标有代表方向的字母。这一根上写的是S，捷克语的“北”。北极位于北纬50°10′39″、东经14°31′37″，在布拉格的特热博拉迪采和霍沃尔乔维采交界处，霍沃尔乔维采村的东南边缘。现场就是平坦的农田、铁轨和道口信号灯，地平线上最显眼的东西，是特热博拉迪采供热厂那根155米高的烟囱。
+
+🎁 彩蛋：这根桩子其实并不在极点上。真正的最北点紧挨着铁轨，落在铁路的保护区内，所以桩子只好立在大约十米外、铁轨的另一边。哪怕到了全城的最顶端，铁路规定也还是排在地理前面。`,
+    },
+  },
+  {
+    // Sources: cs.wikipedia Pražského povstání (stanice metra) (opened 9 May
+    // 1974; built 1969–74, cut-and-cover monolithic concrete, ~8 m deep, 110.4
+    // million Kčs; 257.3 m long, 100 m island platform; alternative names "5.
+    // května" and "Náměstí Hrdinů"; architect Vladimír Uhlíř, dark grey and
+    // white marble; vestibule under the Centrotex building, no underpass under
+    // the streets), pamatkovykatalog.cz (below groundwater level; foundation
+    // for Centrotex, completed 1978, Václav Hilský and Otakar Jurenka),
+    // cs.wikipedia / MHMP (first I.C section Kačerov–Sokolovská opened 9 May
+    // 1974; Mládežnická renamed Pankrác and Gottwaldova renamed Vyšehrad in
+    // 1990), radio call 5 May 1945 12:33. The "about 1,700" Czech dead in the
+    // uprising is the commonly cited figure (Wikipedia: 1,694). Rarity
+    // 'common' is my own pick, in line with other plain metro stations.
+    name: 'Pražského povstání Metro Station',
+    slug: 'stanice-metra-prazskeho-povstani',
+    localizedNames: { cz: 'Stanice metra Pražského povstání', zh: '布拉格起义地铁站' },
+    labels: ['transport', 'historical'],
+    coordinates: { lat: 50.0559512063432, lng: 14.434606838966928 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Pra%C5%BEsk%C3%A9ho_povst%C3%A1n%C3%AD_(Prague_Metro)',
+    description: {
+      en: `On line C, one stop before Pankrác, is a station with one of the longest names on the Prague metro: Pražského povstání, "of the Prague Uprising". It is named after the uprising of May 1945, when Praguers rose against the German occupiers in the last days of the war. The station itself is just eight metres below the street and has stood here since 1974.
+
+The uprising began on 5 May 1945, when at 12:33 Czech Radio broadcast a call for help to the city. Within hours the streets were full of barricades, and the fighting went on until 8 May, costing the lives of about 1,700 Czechs. The station opened on 9 May 1974, the day the whole first stretch of the metro, from Kačerov to Sokolovská, started running. The date was chosen on purpose: 9 May was the day Soviet troops reached Prague in 1945, and the communist regime celebrated it as the day of liberation. The planners also considered calling the station "5. května" (5 May) or "Náměstí Hrdinů" (Heroes' Square), after the square right above it. It was built between 1969 and 1974 in an open pit, cast in concrete and covered over, and it lies below the level of the groundwater. The station is 257 metres long with a single 100-metre platform in the middle, and the architect Vladimír Uhlíř lined its walls with dark grey and white marble panels set in relief against each other. In 1990 the metro got rid of its most political names: the next station south, Mládežnická ("Youth Station"), became Pankrác, and Gottwaldova, named after the first communist president, became Vyšehrad. Pražského povstání kept its name, since it honoured something Praguers themselves had done.
+
+🎁 Bonus: The station holds up more than just the street. It serves as the foundation for the Centrotex building, the headquarters of a communist-era foreign trade company, finished in 1978, and the station's only vestibule is tucked underneath it. There is no underpass to the other side of the road, though. You come up out of the marble hall and wait at the traffic lights like everyone else.`,
+
+      cz: `Na trase C, jednu stanici před Pankrácí, je stanice s jedním z nejdelších jmen v pražském metru: Pražského povstání. Je pojmenovaná po povstání z května 1945, kdy se Pražané v posledních dnech války vzbouřili proti německým okupantům. Samotná stanice leží jen osm metrů pod ulicí a stojí tu od roku 1974.
+
+Povstání začalo 5. května 1945, kdy Český rozhlas ve 12:33 odvysílal výzvu o pomoc městu. Během několika hodin byly ulice plné barikád a boje trvaly do 8. května a stály život asi 1 700 Čechů. Stanice se otevřela 9. května 1974, v den, kdy začal jezdit celý první úsek metra z Kačerova na Sokolovskou. Datum nebylo náhodné: 9. května 1945 dorazila do Prahy sovětská vojska a komunistický režim ten den slavil jako den osvobození. Projektanti zvažovali i názvy „5. května“ nebo „Náměstí Hrdinů“ podle náměstí přímo nad stanicí. Stavěla se v letech 1969 až 1974 v otevřené jámě, byla vybetonována a zakryta a leží pod hladinou spodní vody. Stanice je dlouhá 257 metrů s jediným stometrovým nástupištěm uprostřed a architekt Vladimír Uhlíř obložil její stěny tmavě šedými a bílými mramorovými deskami, plasticky předsazenými proti sobě. V roce 1990 se metro zbavilo svých nejpolitičtějších jmen: sousední stanice Mládežnická se změnila na Pankrác a Gottwaldova, pojmenovaná po prvním komunistickém prezidentovi, na Vyšehrad. Pražského povstání si své jméno nechalo, protože připomínalo něco, co udělali sami Pražané.
+
+🎁 Bonus: Stanice nenese jen ulici. Slouží jako základ budovy Centrotexu, sídla socialistického podniku zahraničního obchodu dokončeného v roce 1978, a jediný vestibul stanice je schovaný právě pod ní. Podchod na druhou stranu silnice tu ale není. Z mramorové haly vyjdete nahoru a na semaforu čekáte jako všichni ostatní.`,
+
+      zh: `地铁C线上，潘克拉茨站前一站，有一个布拉格地铁里名字最长的车站之一：布拉格起义站。它纪念的是1945年5月的那场起义，战争最后几天里，布拉格市民起来反抗德国占领者。车站本身离地面只有八米深，1974年就在这里了。
+
+起义始于1945年5月5日，那天12点33分，捷克广播电台向全城播出了求援呼吁。几个小时之内，街上就筑满了街垒，战斗一直持续到5月8日，约1700名捷克人因此丧生。车站于1974年5月9日开通，也就是整条地铁首段、从卡切罗夫到索科洛夫斯卡站开始运营的那一天。这个日子是特意挑的：1945年5月9日苏军开进布拉格，共产党政权把这一天当作解放日来庆祝。规划者还考虑过把车站叫作“五月五日站”，或者按正上方的广场叫“英雄广场站”。车站在1969到1974年间建成，先挖开基坑、浇筑混凝土再盖上顶板，整座车站位于地下水位以下。它长257米，正中只有一条100米长的站台，建筑师弗拉迪米尔·乌赫利日用深灰和白色的大理石板装饰墙面，两种石板前后错落，形成立体效果。1990年，地铁把最政治化的站名都换掉了：南边下一站“青年站”改成了潘克拉茨站，以第一任共产党总统命名的“哥特瓦尔德站”改成了维谢赫拉德站。布拉格起义站保住了自己的名字，因为它纪念的是布拉格人自己做过的事。
+
+🎁 彩蛋：这座车站托着的不只是马路。它同时是Centrotex大楼的地基，那是一家社会主义时期外贸企业的总部，1978年落成，车站唯一的前厅就藏在这栋楼底下。不过这里没有通往马路对面的地下通道。你从大理石大厅里上来之后，还得和大家一起在路口等红绿灯。`,
+    },
+  },
+  {
+    // Sources: ctvrtak.cz (no written record of the original building, built
+    // first half of the 14th century in Gothic style; first recorded 1352 among
+    // parish churches of the Brandýs deanery; damaged in the Thirty Years' War,
+    // rebuilt 1760–1785 to a design by Matyáš Hummel; main altarpiece of the
+    // Assumption by Ignác Raab; side altars 1864–69 with paintings by Rudolf
+    // Müller — St Wenceslas's first communion, St Adalbert blessing his
+    // homeland; detached two-storey 17th-century stone belfry on the old
+    // cemetery, possibly built on an older structure; closed for years),
+    // hrady.cz / pamatkovykatalog.cz (single nave, square presbytery with
+    // sacristy, chancel rib vault and triumphal arch preserved, cemetery once
+    // around it with remnants of the wall; reconsecrated 10 July 1892 after
+    // renovation). The 1017 claim is mentioned only as unsupported. Rarity
+    // 'rare' is my own pick.
+    name: 'Church of the Assumption of the Virgin Mary (Třeboradice)',
+    slug: 'kostel-nanebevzeti-panny-marie-treboradice',
+    localizedNames: { cz: 'Kostel Nanebevzetí Panny Marie (Třeboradice)', zh: '特热博拉迪采圣母升天教堂' },
+    labels: ['church', 'historical'],
+    coordinates: { lat: 50.16234432907486, lng: 14.525334667452027 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `In the middle of Třeboradice, a former village on Prague's northern edge, stands a small, plain church with a triangular gable, and a separate little stone bell tower beside it. From the outside it looks Baroque. Inside the chancel, though, is a Gothic vault that is some six hundred years older than the façade.
+
+No written record of the original building survives, but historians date it to the first half of the 14th century. It first appears in 1352, listed among the parish churches of the Brandýs deanery. Some local accounts push its history all the way back to 1017, but nothing in writing supports that. The church was badly damaged in the Thirty Years' War, and between about 1760 and 1785 it was rebuilt to a design by the architect Matyáš Hummel into the single-nave building you see today, with a square chancel, a sacristy and a façade divided by flat pilasters. The rebuilding kept the best parts of the old church: the ribbed cross vault over the chancel and the triumphal arch, which are all that remain of the Gothic building. The interior is late Baroque. The main altarpiece of the Assumption was painted by Ignác Raab, and the side altars, added in 1864–69, have paintings by Rudolf Müller of St Wenceslas's first communion and St Adalbert blessing his homeland. After another renovation the church was reconsecrated on 10 July 1892. It was once surrounded by a cemetery, and pieces of its wall still stand. The church has been closed to the public for years, although plans to restore it and hold services again are under discussion.
+
+🎁 Bonus: The detached two-storey belfry dates from the 17th century, which makes it older than the church in its current form. Some historians think its masonry and arched doorway point to something older still, and that it may have been built on the remains of an earlier structure, possibly part of the original church. So the oldest thing in the churchyard might not be the church at all.`,
+
+      cz: `Uprostřed Třeboradic, bývalé vsi na severním okraji Prahy, stojí malý prostý kostel s trojúhelníkovým štítem a vedle něj samostatná kamenná zvonice. Zvenku vypadá barokně. V presbytáři je ale gotická klenba, která je o nějakých šest set let starší než fasáda.
+
+O původní stavbě se nedochovaly žádné písemné zprávy, historici ji ale kladou do první poloviny 14. století. Poprvé se objevuje v roce 1352 mezi farními kostely brandýského děkanátu. Některé místní zdroje posouvají jeho historii až do roku 1017, v písemných pramenech to ale nemá oporu. Za třicetileté války byl kostel těžce poškozen a zhruba v letech 1760 až 1785 byl podle návrhu architekta Matyáše Hummela přestavěn na dnešní jednolodní stavbu s pravoúhlým presbytářem, sakristií a fasádou členěnou lizénami. Přestavba zachovala to nejcennější ze starého kostela: žebrovou křížovou klenbu presbytáře a vítězný oblouk, jediné, co z gotické stavby zbylo. Interiér je pozdně barokní. Hlavní oltářní obraz Nanebevzetí namaloval Ignác Raab a na bočních oltářích z let 1864–69 jsou obrazy Rudolfa Müllera se svatým Václavem při prvním svatém přijímání a svatým Vojtěchem žehnajícím vlasti. Po další opravě byl kostel 10. července 1892 znovu vysvěcen. Kdysi ho obklopoval hřbitov a zbytky jeho zdi stojí dodnes. Kostel je už léta pro veřejnost zavřený, i když se mluví o jeho obnově a o obnovení bohoslužeb.
+
+🎁 Bonus: Samostatná dvoupatrová zvonice pochází ze 17. století, je tedy starší než kostel v dnešní podobě. Někteří historici se domnívají, že její zdivo a klenutý vchod ukazují na něco ještě staršího a že mohla vzniknout na zbytcích dřívější stavby, možná části původního kostela. Nejstarší věcí v areálu tak možná vůbec není kostel.`,
+
+      zh: `在特热博拉迪采这个布拉格北郊的老村子中央，立着一座小而朴素的教堂，正面是三角形山墙，旁边还有一座独立的小石头钟楼。从外面看，它是巴洛克风格的。可走进圣坛，头顶却是一片哥特式拱顶，比外立面早了差不多六百年。
+
+最初那座建筑没有留下任何文字记录，但历史学家推断它建于14世纪上半叶。它第一次出现在记载中是1352年，被列为布兰迪斯教区的堂区教堂之一。当地有些说法把它的历史一直推到1017年，但没有任何文字资料能证明这一点。三十年战争中教堂受损严重，大约1760到1785年间，按照建筑师马蒂亚什·胡梅尔的设计改建成了今天这座单殿建筑，带方形圣坛和圣器室，外立面用扁平的壁柱分隔。改建时保留了老教堂最珍贵的部分：圣坛上方的肋拱交叉拱顶和凯旋拱，这也是哥特式教堂留下来的全部。内部是晚期巴洛克风格。主祭坛上的《圣母升天》由伊格纳茨·拉布绘制，1864到1869年增设的两座侧祭坛上，是鲁道夫·穆勒画的圣瓦茨拉夫初领圣体和圣沃伊捷赫祝福故乡。又一次翻修之后，教堂于1892年7月10日重新祝圣。它周围曾经是一片墓地，墓墙的残段至今还在。教堂已经多年不对公众开放，不过修复和恢复弥撒的计划正在讨论中。
+
+🎁 彩蛋：那座独立的两层钟楼建于17世纪，比现在这个样子的教堂还要早。有些历史学家认为，它的砌体和拱门透露出更古老的来历，它可能是建在更早的建筑残迹上的，甚至可能是原来那座教堂的一部分。这么看，这片教堂院子里最老的东西，也许根本不是教堂本身。`,
+    },
+  },
+  {
+    // Sources: sousede.cz / dumplnyuspor.cz / prahaneznama.cz (central source
+    // Třeboradice I put into operation 1973–79, originally heat for the
+    // settlements on Prague's northern edge; today mainly reheats water from
+    // the Mělník pipeline; 155 m chimney, among the tallest of its kind in the
+    // country), cs.wikipedia Tepelný napáječ Mělník – Praha (pipeline to
+    // Třeboradice built from 1988, in operation 1995; 34 km, two 1.2 m pipes,
+    // 160 °C with ~2 °C loss, ~75,000 m³ of water; natural gas burned at
+    // Třeboradice; heat for more than a third of Prague's inhabitants),
+    // tzb-info (34.2 km, mostly above ground, crosses the Vltava twice and
+    // railways four times on steel lattice bridges; backup gas boiler house),
+    // sokolinakominech.cz (peregrine nest box installed Sept 2016 by Dušan Rak
+    // on the chimney gallery, ČEZ site; failed 2018, four chicks in both 2019
+    // and 2020). Rarity 'common' is my own pick.
+    name: 'Třeboradice Heating Plant',
+    slug: 'teplarna-treboradice',
+    localizedNames: { cz: 'Teplárna Třeboradice', zh: '特热博拉迪采供热厂' },
+    labels: ['factory', 'municipal', 'modern'],
+    coordinates: { lat: 50.16324880080805, lng: 14.514686808320091 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `On the western edge of Třeboradice, a 155-metre chimney rises out of the flat fields of north-east Prague, visible for kilometres in every direction. It belongs to the Třeboradice heating plant, one of the less glamorous reasons why a large part of Prague has hot water in the morning.
+
+The plant was built in the 1970s, when its main boiler house, Třeboradice I, went into operation in stages between 1973 and 1979 to heat the new housing estates spreading across Prague's northern edge. Its real importance came later. From 1988 a pipeline was built all the way from the coal-fired power station at Mělník, and since 1995 hot water has flowed along it to Třeboradice. The pipeline runs about 34 kilometres, as two pipes 1.2 metres wide, one carrying hot water in and the other carrying cooled water back. Most of it runs above ground, crossing the Vltava twice and railway lines four times on steel lattice bridges. The water sets off at up to 160 °C and loses only about two degrees on the way. The whole system holds around 75,000 cubic metres of water and supplies heat and hot water to more than a third of Prague's inhabitants. Třeboradice is where it all enters the city. The plant here reheats the incoming water and burns natural gas in its boilers as a backup, so that half the capital doesn't go cold if something goes wrong at Mělník. The chimney is among the tallest of its kind in the country.
+
+🎁 Bonus: The chimney has tenants. In September 2016 the ornithologist Dušan Rak mounted a nest box for peregrine falcons on its gallery, high above the fields. The first attempt at nesting, in 2018, failed, but in both 2019 and 2020 a pair raised four chicks up there. Peregrines naturally nest on cliffs, and on the flat plain north of Prague, a 155-metre chimney is the closest thing to one.`,
+
+      cz: `Na západním okraji Třeboradic se z rovných polí severovýchodní Prahy zvedá 155 metrů vysoký komín, vidět je na kilometry daleko. Patří třeboradické teplárně, jednomu z méně okouzlujících důvodů, proč má velká část Prahy ráno teplou vodu.
+
+Teplárna vznikla v 70. letech, kdy byla její hlavní výtopna Třeboradice I postupně uváděna do provozu v letech 1973 až 1979, aby vytápěla nová sídliště rostoucí na severním okraji Prahy. Skutečný význam získala až později. Od roku 1988 se stavěl horkovod až z uhelné elektrárny Mělník a od roku 1995 po něm do Třeboradic proudí horká voda. Napáječ měří asi 34 kilometrů a tvoří ho dvě potrubí o průměru 1,2 metru, jedno přivádí horkou vodu a druhé odvádí zchlazenou zpět. Většina vede nad zemí a na ocelových příhradových mostech dvakrát překračuje Vltavu a čtyřikrát železniční trať. Voda vyráží s teplotou až 160 °C a cestou ztratí jen asi dva stupně. Celá soustava obsahuje zhruba 75 000 kubíků vody a dodává teplo a teplou vodu víc než třetině obyvatel Prahy. Třeboradice jsou místem, kde to všechno vstupuje do města. Zdejší teplárna přicházející vodu dohřívá a její kotle spalují zemní plyn jako zálohu, aby půlka hlavního města nezůstala v zimě, kdyby se v Mělníku něco pokazilo. Komín patří k nejvyšším svého druhu v zemi.
+
+🎁 Bonus: Komín má nájemníky. V září 2016 připevnil ornitolog Dušan Rak na jeho ochoz budku pro sokoly stěhovavé, vysoko nad poli. První pokus o hnízdění v roce 2018 nevyšel, ale v letech 2019 i 2020 tam pár vyvedl po čtyřech mláďatech. Sokoli stěhovaví přirozeně hnízdí na skalách a na rovině severně od Prahy je 155metrový komín tím nejbližším, co se skále podobá.`,
+
+      zh: `在特热博拉迪采西缘，一根155米高的烟囱从布拉格东北部平坦的农田里拔地而起，几公里外都看得见。它属于特热博拉迪采供热厂，布拉格很大一片地方早上能用上热水，靠的就是这个不怎么起眼的地方。
+
+供热厂建于20世纪70年代，它的主锅炉房“特热博拉迪采一号”在1973到1979年间分批投入运行，为当时在布拉格北部边缘不断扩张的新住宅区供暖。它真正变得重要是在后来。从1988年起，人们从梅尔尼克的燃煤电厂一路修了一条热水管道过来，1995年起热水就顺着它流到特热博拉迪采。这条输热管道长约34公里，由两根直径1.2米的管子组成，一根送热水，一根把冷却的水送回去。管道大部分架在地面上，靠钢桁架桥两次跨过伏尔塔瓦河、四次跨过铁路。热水出发时最高达160°C，一路上只降大约两度。整个系统里装着约7.5万立方米的水，为超过三分之一的布拉格居民供暖和供应热水。特热博拉迪采就是这一切进入城市的入口。这里的供热厂把送来的水再加热，锅炉则烧天然气作为备用，万一梅尔尼克那边出了问题，半个首都也不至于挨冻。这根烟囱是全国同类烟囱里最高的之一。
+
+🎁 彩蛋：这根烟囱上住着房客。2016年9月，鸟类学家杜尚·拉克在烟囱的环形平台上装了一个游隼巢箱，高高悬在田野上方。2018年第一次筑巢没有成功，但2019年和2020年，一对游隼都在那里养大了四只雏鸟。游隼在野外本来是在悬崖上筑巢的，而在布拉格以北这片平原上，一根155米高的烟囱就是最像悬崖的东西了。`,
+    },
+  },
+  {
+    // Rewritten 2026-09-27 (was an early-batch "Brave explorer" card that also
+    // wrongly called the pole unmarked; lived only in the DB before this).
+    // Sources: cs.wikipedia Pražské póly (marked late Nov 2020 by Kluci z Prahy
+    // with IPR director Ondřej Boháč; 180 kg concrete posts), svylety.cz
+    // (Zbraslav/Zvole boundary, ~200 m from the NE edge of Vrané nad Vltavou,
+    // river floodplain on the right bank between cycle path A2 and the
+    // Vrané–Jarov road; "the most tourist-attractive" pole; quarry across the
+    // river), horydoly.cz (49°56′31″ N, 14°23′44″ E; ~15 km by the A2 from
+    // Výtoň; Forest Research Institute across the river at Strnady).
+    name: 'South Pole of Prague',
+    slug: 'jizni-pol-prahy',
+    localizedNames: { cz: 'Jižní pól Prahy', zh: '布拉格南极' },
+    labels: ['hidden-gem', 'nature'],
+    coordinates: { lat: 49.94194077372886, lng: 14.395509513464608 },
+    rarity: 'mythic',
+    xpReward: 70,
+    pixelArtKey: 'south-pole',
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pra%C5%BEsk%C3%A9_p%C3%B3ly',
+    description: {
+      en: `Prague's southernmost point is a strip of grass on the right bank of the Vltava, squeezed between a cycle path and a country road. A concrete post marks the spot. Cyclists fly past it all day, and most of them never notice that they have just left the capital.
+
+The pole lies on the boundary between Prague's Zbraslav and the village of Zvole, about 200 metres from the first houses of Vrané nad Vltavou, on the river's floodplain at 49°56′31″ N, 14°23′44″ E. It is one of four "Prague poles", the points of the city's territory furthest north, south, east and west. They were marked on the ground at the end of November 2020 by the YouTubers Janek Rubeš and Honza Mikulka, the duo known as Kluci z Prahy ("the Prague Boys"), together with Ondřej Boháč, director of the city's Institute of Planning and Development. Each one got the same marker, a conical concrete post with a rounded top, weighing 180 kilograms, with red and black plates. Of the four, the south pole is generally rated the most attractive to visit. The Vltava flows right past it, the wooded slopes of the valley rise on both sides, and across the water is an old quarry and the Forest Research Institute at Strnady. It is also the easiest to reach. The A2 cycle path runs along the river all the way from Výtoň in the city centre, about 15 kilometres, and trains and buses stop at Vrané, a kilometre away.
+
+🎁 Bonus: The North Pole of Prague is a post by a railway crossing that couldn't even stand on the real spot, because the railway protection zone got in the way. The south pole had better luck: its post stands right where it should, with a river view. You can ride a bike from the middle of Prague to its very bottom edge without ever leaving the riverbank.`,
+
+      cz: `Nejjižnější bod Prahy je travnatý pruh na pravém břehu Vltavy, vmáčknutý mezi cyklostezku a silnici. Místo označuje betonový sloupek. Cyklisté kolem něj sviští celý den a většina z nich si ani nevšimne, že právě opustila hlavní město.
+
+Pól leží na hranici pražské Zbraslavi a obce Zvole, asi 200 metrů od prvních domů Vraného nad Vltavou, v říční nivě na 49°56′31″ s. š. a 14°23′44″ v. d. Je to jeden ze čtyř „pražských pólů“, nejsevernějšího, nejjižnějšího, nejvýchodnějšího a nejzápadnějšího bodu území města. V terénu je koncem listopadu 2020 označili youtubeři Janek Rubeš a Honza Mikulka, známí jako Kluci z Prahy, spolu s Ondřejem Boháčem, ředitelem Institutu plánování a rozvoje hlavního města Prahy. Každý dostal stejnou značku, kuželovitý betonový sloupek s půlkulatým zakončením o váze 180 kilogramů, s červenočernými tabulkami. Ze všech čtyř bývá jižní pól považován za turisticky nejatraktivnější. Hned vedle teče Vltava, po obou stranách se zvedají zalesněné svahy údolí a na druhém břehu je starý lom a Výzkumný ústav lesního hospodářství ve Strnadech. Je také nejsnáz dostupný. Cyklostezka A2 vede podél řeky celou cestu z Výtoně v centru, asi 15 kilometrů, a vlaky i autobusy staví ve Vraném, kilometr odtud.
+
+🎁 Bonus: Severní pól Prahy je sloupek u železničního přejezdu, který nemohl stát ani na skutečném místě, protože mu překáželo ochranné pásmo dráhy. Jižní pól měl víc štěstí: jeho sloupek stojí přesně tam, kde má, a s výhledem na řeku. Z centra Prahy se dá dojet na kole až na její úplný spodní okraj, aniž byste opustili břeh řeky.`,
+
+      zh: `布拉格的最南端，是伏尔塔瓦河右岸的一条草地，夹在一条自行车道和一条乡间公路之间，一根水泥桩标出了这个点。骑车的人整天从它旁边飞驰而过，大多数人根本没注意到自己刚刚骑出了首都。
+
+南极位于布拉格的兹布拉斯拉夫区和兹沃莱村交界处，离弗拉内村的第一排房子大约200米，在河滩上，坐标北纬49°56′31″、东经14°23′44″。它是四个“布拉格极点”之一，也就是全市辖区最北、最南、最东、最西的四个点。2020年11月底，油管博主雅内克·鲁贝什和洪扎·米库尔卡，也就是“布拉格小伙”二人组，联合布拉格规划与发展研究院院长翁德热·博哈奇，在实地立起了标志。每个极点用的都是同一种：一根圆锥形、顶部呈半圆的水泥桩，重180公斤，挂着红黑两色的说明牌。四个极点里，南极通常被认为最值得一去。伏尔塔瓦河就从旁边流过，两岸是长满树林的河谷山坡，河对岸有一座老采石场和位于斯特尔纳迪的林业研究所。它也是最好到的一个：A2自行车道从市中心的维托尼一路沿河过来，大约15公里，火车和公交车都在一公里外的弗拉内停靠。
+
+🎁 彩蛋：布拉格北极是铁路道口旁的一根桩子，因为挡着铁路保护区，连真正的极点都没能站上去。南极的运气好多了：它的桩子就立在该立的地方，还附带河景。从布拉格市中心骑车出发，不用离开河岸，就能一路骑到这座城市的最底边。`,
+    },
+  },
+  {
+    // Rewritten 2026-09-27 (was an early-batch "Brave explorer" card with the
+    // wrong date for Palach's self-immolation; lived only in the DB before
+    // this). Sources: cs.wikipedia Olšanské hřbitovy (first cemetery set up
+    // during the 1680 plague, consecrated 29 Jan 1680; St Roch chapel 1682;
+    // 50.17 ha, ~2 million buried, largest in the country; twelve cemeteries
+    // split by Jana Želivského; ~25,000 vaults, 65,000 graves, 20,000 urn
+    // graves; Orthodox, Jewish and Muslim sections; crematorium 1921–32, now
+    // a ceremonial hall; Erben, Tyrš, Mánes, Gottwald, Palach buried here),
+    // janpalach.cz (Zoubek bronze plaque installed early 1970, removed July
+    // 1970 and melted down; exhumation Oct 1973 after StB pressure on the
+    // family; urn to Všetaty; grave restored Oct 1990), pametnimista.usd.cas.cz
+    // / cs.wikipedia Hrob Jana Palacha (StB operation "Hrob"; exhumed morning
+    // of 22 Oct 1973, cremated at Strašnice; headstone with the name Marie
+    // Jedličková put up; urn placed in Všetaty end of March 1974; Havel at the
+    // 1990 return), kudyznudy/irozhlas (Zoubek recast the plaque in 1990 from
+    // the model he had kept hidden).
+    name: 'Olšany Cemeteries',
+    slug: 'olsanske-hrbitovy',
+    localizedNames: { cz: 'Olšanské hřbitovy', zh: '奥尔萨内公墓' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.07839802657164, lng: 14.46721419172808 },
+    rarity: 'superior',
+    xpReward: 30,
+    pixelArtKey: 'grand-cemetery',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Olšany_Cemeteries',
+    description: {
+      en: `Olšany is Prague's largest cemetery, and the largest in the country: just over fifty hectares of graves, tombs, chapels and old trees on the border of Žižkov and Vinohrady. Around two million people have been buried here since 1680. It is quiet, overgrown in places and full of fine grave sculpture.
+
+It began as an emergency. When plague hit Prague in 1680, the city needed somewhere outside the walls to bury its dead, and the first small cemetery was laid out on land near the village of Olšany and consecrated on 29 January 1680. The Chapel of St Roch, the patron saint invoked against plague, followed in 1682. The cemetery kept growing for the next three centuries and is now actually twelve separate cemeteries, split in two by Jana Želivského street, with around 25,000 tombs, 65,000 graves and 20,000 urn graves. There are Orthodox, Jewish and Muslim sections, and across the street lie the honour cemeteries for soldiers and civilians killed in the world wars. Prague's first crematorium also worked here from 1921 to 1932, in a building that is now the ceremonial hall. The list of people buried at Olšany covers a good part of Czech history: the poet and folklorist Karel Jaromír Erben, the painter Josef Mánes, Miroslav Tyrš, founder of the Sokol movement, and Klement Gottwald, the first communist president. So is Jan Palach, the student who set himself on fire on Wenceslas Square on 16 January 1969 in protest against the Soviet occupation and died three days later.
+
+🎁 Bonus: Palach's grave became a place of pilgrimage almost at once, and the regime spent years trying to get rid of it. The bronze plaque by the sculptor Olbram Zoubek, installed in early 1970, was removed that July and melted down. In October 1973, after long pressure from the secret police, his family agreed to an exhumation. His remains were dug up early on the morning of 22 October, cremated, and his urn was eventually placed in his home village of Všetaty, while a headstone with a stranger's name, Marie Jedličková, went up on the grave. People kept coming anyway. In October 1990 the urn came back to Olšany, with President Václav Havel present, and Zoubek cast a new plaque from the model he had kept hidden in his studio all those years.`,
+
+      cz: `Olšany jsou největší pražský hřbitov a zároveň největší v zemi: něco přes padesát hektarů hrobů, hrobek, kaplí a starých stromů na pomezí Žižkova a Vinohrad. Od roku 1680 tu bylo pohřbeno kolem dvou milionů lidí. Je tu ticho, místy zarostlo a je tu spousta krásné náhrobní plastiky.
+
+Začalo to jako nouzové řešení. Když v roce 1680 zasáhl Prahu mor, potřebovalo město místo za hradbami, kde by pohřbívalo mrtvé, a první malý hřbitov vznikl na pozemcích u vsi Olšany a 29. ledna 1680 byl vysvěcen. V roce 1682 přibyla kaple sv. Rocha, patrona proti moru. Hřbitov pak rostl další tři století a dnes je to vlastně dvanáct samostatných hřbitovů, rozdělených ulicí Jana Želivského, s asi 25 000 hrobkami, 65 000 hroby a 20 000 urnovými hroby. Jsou tu pravoslavné, židovské a muslimské oddělení a přes ulici leží čestná pohřebiště vojáků a civilistů, kteří zahynuli ve světových válkách. V letech 1921 až 1932 tu fungovalo i první pražské krematorium, v budově, která dnes slouží jako obřadní síň. Seznam lidí pohřbených na Olšanech pokrývá slušný kus českých dějin: básník a sběratel lidové slovesnosti Karel Jaromír Erben, malíř Josef Mánes, zakladatel Sokola Miroslav Tyrš i první komunistický prezident Klement Gottwald. A také Jan Palach, student, který se 16. ledna 1969 na Václavském náměstí zapálil na protest proti sovětské okupaci a o tři dny později zemřel.
+
+🎁 Bonus: Palachův hrob se téměř okamžitě stal poutním místem a režim se ho roky snažil zbavit. Bronzovou desku sochaře Olbrama Zoubka, osazenou na začátku roku 1970, v červenci téhož roku odstranili a roztavili. V říjnu 1973 rodina po dlouhém nátlaku StB svolila k exhumaci. Ostatky vykopali časně ráno 22. října, zpopelnili je a urnu nakonec uložili v jeho rodných Všetatech, zatímco na hrob přibyl náhrobek s cizím jménem, Marie Jedličková. Lidé chodili stejně. V říjnu 1990 se urna za účasti prezidenta Václava Havla vrátila na Olšany a Zoubek odlil novou desku podle modelu, který celá ta léta schovával v ateliéru.`,
+
+      zh: `奥尔萨内公墓是布拉格最大的墓地，也是全国最大的：五十多公顷的坟墓、墓室、小礼拜堂和老树，坐落在日什科夫和维诺赫拉迪两个区的交界处。自1680年以来，这里一共安葬了大约两百万人。园子里很安静，有些地方长满了植物，到处都是精美的墓碑雕塑。
+
+它最初是个应急方案。1680年鼠疫袭击布拉格，城里需要在城墙外找个地方埋葬死者，第一座小墓地就开在奥尔萨内村附近的土地上，1680年1月29日祝圣。1682年又建起了圣罗克礼拜堂，圣罗克是人们祈求抵御瘟疫的主保圣人。之后三个世纪里墓地不断扩大，如今实际上是十二座各自独立的墓地，被扬·热利夫斯基街一分为二，共有约2.5万座墓室、6.5万座坟墓和2万座骨灰墓。园内有东正教、犹太教和穆斯林墓区，街对面则是两次世界大战中死难的士兵和平民的荣誉墓地。布拉格的第一座火葬场也曾在这里运行，从1921年到1932年，那栋建筑如今是告别厅。葬在奥尔萨内的人，几乎串起了半部捷克历史：诗人、民间文学收集者卡雷尔·雅罗米尔·爱尔本，画家约瑟夫·马内斯，索科尔运动创始人米罗斯拉夫·蒂尔什，还有第一任共产党总统克莱门特·哥特瓦尔德。扬·帕拉赫也葬在这里。这名大学生1969年1月16日在瓦茨拉夫广场自焚，抗议苏联占领，三天后去世。
+
+🎁 彩蛋：帕拉赫的墓几乎立刻就成了人们前来悼念的地方，当局为了抹掉它花了好几年。雕塑家奥尔布拉姆·左贝克做的青铜墓牌1970年初刚装上，同年7月就被拆下熔掉了。1973年10月，在秘密警察长期施压之下，他的家人同意迁坟。10月22日清晨，遗骸被挖出火化，骨灰最终安放在他的家乡弗谢塔蒂，而原来的墓上立起了一块刻着陌生人名字“玛丽·耶德利奇科娃”的墓碑。人们照样来。1990年10月，骨灰在瓦茨拉夫·哈维尔总统的见证下回到奥尔萨内，左贝克按照他这些年一直藏在工作室里的模型，重新铸了一块墓牌。`,
+    },
+  },
 ];
 
 async function run() {
