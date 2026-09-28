@@ -30688,7 +30688,7 @@ Exotické rostliny se na tomhle místě pěstují už přes čtyři a půl stole
   {
     // Added 2026-09-26 at the user's request, with user-supplied
     // coordinates, to link the 1427 crusade cards (the-enemy-nobody-saw-1427,
-    // if-you-cant-beat-them-tax-them-1427). This is the western border town
+    // bloody-street-1427). This is the western border town
     // in the Tachov district, NOT tachov-troskovice (the KCD2 village near
     // Trosky). Facts from cs.wikipedia (Tachov; Městské opevnění (Tachov))
     // and kudyznudy.cz / tachov.cz on the walls.
@@ -31179,7 +31179,7 @@ Na tomhle místě je několik samostatných čestných pohřebišť. Hned u vstu
 
 🎁 Bonus: Ruský badatel Vladimir Pomorcev prošel záznamy všech 492 rudoarmějců pohřbených na Olšanech a zjistil, že jen asi padesát hrobů patří mužům, kteří skutečně padli v boji. Víc jich zabil metylalkohol nebo špatný alkohol, další tuberkulóza, kterou chytili jako zajatci v německých táborech, a dvacet dopravní nehody, většinou v létě a na podzim po skončení války. Podle záznamů jen jeden z nich, poručík Ivan Gončarenko, prokazatelně padl v boji přímo v Praze 9. května 1945.`,
 
-      zh: `隔着扬·热利夫斯基街，与奥尔萨内公墓主园区相对的，是一片更安静、也整齐得多的墓区：一排排一模一样的墓碑，修剪过的草坪，几座不同国家的纪念碑并排而立。第二次世界大战最后几天以及战后几个月里死去的士兵和平民，就葬在这里。
+      zh: `隔着扬·柴利夫斯基街，与奥尔萨内公墓主园区相对的，是一片更安静、也整齐得多的墓区：一排排一模一样的墓碑，修剪过的草坪，几座不同国家的纪念碑并排而立。第二次世界大战最后几天以及战后几个月里死去的士兵和平民，就葬在这里。
 
 这里其实是几座各自独立的荣誉墓地。紧挨着纳克拉多维车站街入口的，是1945年5月在布拉格起义街垒上牺牲的捷克人，其中很多是平民。苏军墓地也是那年5月建起来的：到1945年6月9日已经迁来180名士兵，主体工程当年11月完工，1947年4月又有30人以全套军礼下葬。中央纪念碑上用捷克语和俄语刻着同一句献词，献给“为苏维埃祖国的荣誉与独立、为斯拉夫民族摆脱法西斯而战死”的红军战士。旁边是英联邦战争墓地委员会的布拉格战争公墓，264座墓，是该委员会一贯朴素统一的样式：198名英国人、19名南非人、14名新西兰人、9名加拿大人、9名波兰人、2名澳大利亚人、1名印度人，还有13人始终没能确认身份。他们当中很多是死在战俘营里的战俘，也有在被占领的欧洲上空被击落的机组成员，1945年后才从捷克斯洛伐克各地的小墓地集中迁葬到这里。新西兰人的墓碑上刻着一片银蕨。这里还有一座纪念起义中遇难的保加利亚公民的纪念碑。苏军墓地1978年被列为国家文化遗产，1999年整组盟军荣誉墓地也一并列入。
 
@@ -31472,9 +31472,630 @@ Začalo to jako nouzové řešení. Když v roce 1680 zasáhl Prahu mor, potřeb
 
       zh: `奥尔萨内公墓是布拉格最大的墓地，也是全国最大的：五十多公顷的坟墓、墓室、小礼拜堂和老树，坐落在日什科夫和维诺赫拉迪两个区的交界处。自1680年以来，这里一共安葬了大约两百万人。园子里很安静，有些地方长满了植物，到处都是精美的墓碑雕塑。
 
-它最初是个应急方案。1680年鼠疫袭击布拉格，城里需要在城墙外找个地方埋葬死者，第一座小墓地就开在奥尔萨内村附近的土地上，1680年1月29日祝圣。1682年又建起了圣罗克礼拜堂，圣罗克是人们祈求抵御瘟疫的主保圣人。之后三个世纪里墓地不断扩大，如今实际上是十二座各自独立的墓地，被扬·热利夫斯基街一分为二，共有约2.5万座墓室、6.5万座坟墓和2万座骨灰墓。园内有东正教、犹太教和穆斯林墓区，街对面则是两次世界大战中死难的士兵和平民的荣誉墓地。布拉格的第一座火葬场也曾在这里运行，从1921年到1932年，那栋建筑如今是告别厅。葬在奥尔萨内的人，几乎串起了半部捷克历史：诗人、民间文学收集者卡雷尔·雅罗米尔·爱尔本，画家约瑟夫·马内斯，索科尔运动创始人米罗斯拉夫·蒂尔什，还有第一任共产党总统克莱门特·哥特瓦尔德。扬·帕拉赫也葬在这里。这名大学生1969年1月16日在瓦茨拉夫广场自焚，抗议苏联占领，三天后去世。
+它最初是个应急方案。1680年鼠疫袭击布拉格，城里需要在城墙外找个地方埋葬死者，第一座小墓地就开在奥尔萨内村附近的土地上，1680年1月29日祝圣。1682年又建起了圣罗克礼拜堂，圣罗克是人们祈求抵御瘟疫的主保圣人。之后三个世纪里墓地不断扩大，如今实际上是十二座各自独立的墓地，被扬·柴利夫斯基街一分为二，共有约2.5万座墓室、6.5万座坟墓和2万座骨灰墓。园内有东正教、犹太教和穆斯林墓区，街对面则是两次世界大战中死难的士兵和平民的荣誉墓地。布拉格的第一座火葬场也曾在这里运行，从1921年到1932年，那栋建筑如今是告别厅。葬在奥尔萨内的人，几乎串起了半部捷克历史：诗人、民间文学收集者卡雷尔·雅罗米尔·爱尔本，画家约瑟夫·马内斯，索科尔运动创始人米罗斯拉夫·蒂尔什，还有第一任共产党总统克莱门特·哥特瓦尔德。扬·帕拉赫也葬在这里。这名大学生1969年1月16日在瓦茨拉夫广场自焚，抗议苏联占领，三天后去世。
 
 🎁 彩蛋：帕拉赫的墓几乎立刻就成了人们前来悼念的地方，当局为了抹掉它花了好几年。雕塑家奥尔布拉姆·左贝克做的青铜墓牌1970年初刚装上，同年7月就被拆下熔掉了。1973年10月，在秘密警察长期施压之下，他的家人同意迁坟。10月22日清晨，遗骸被挖出火化，骨灰最终安放在他的家乡弗谢塔蒂，而原来的墓上立起了一块刻着陌生人名字“玛丽·耶德利奇科娃”的墓碑。人们照样来。1990年10月，骨灰在瓦茨拉夫·哈维尔总统的见证下回到奥尔萨内，左贝克按照他这些年一直藏在工作室里的模型，重新铸了一块墓牌。`,
+    },
+  },
+  {
+    // Sources: cs.wikipedia Kostel svatého Václava (Nusle) (Pod Vilami 333/1,
+    // corner of Vladimírova; built 1898, the year Nusle became a town, as the
+    // chapel of the school complex on Svatoslavova; parish church 1903 after
+    // Nusle left the Michle parish; Czech-language services from Christmas
+    // 1919; 1962 fire damaged the organ; 1967–68 renovation to Jaroslav
+    // Čermák's design; Jan Kristofori Crucifixion 1998, Stations of the Cross
+    // 2000; bell 1997 from Rudolf Perner, Passau), nockostelu.cz / kudyznudy
+    // (school chapel background; "nuselští katecheté" at Christmas 1919),
+    // cs.wikipedia Pernerové / encyklopedie.c-budejovice.cz (Budějovice bell
+    // founders since 1772, expelled to Bavaria after 1945, new foundry in
+    // Passau, first 23 bells cast 1948). Rarity 'common' is my own pick.
+    name: 'Church of St. Wenceslas (Nusle)',
+    slug: 'kostel-sv-vaclava-nusle',
+    localizedNames: { cz: 'Kostel sv. Václava (Nusle)', zh: '圣瓦茨拉夫教堂（努斯莱）' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.06154943812201, lng: 14.44238498322967 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_V%C3%A1clava_(Nusle)',
+    description: {
+      en: `On the corner of Vladimírova and Pod Vilami in Nusle stands a pale neoclassical church that looks a little modest for a parish church. There's a reason for that. It started life as a school chapel and only got promoted later, which makes it one of the few churches in Prague that actually went to school.
+
+The chapel was built in 1898, the same year Nusle was raised to the status of a town, as part of the complex of the first Nusle public school on Svatoslavova street. Until then Nusle belonged to the parish of neighbouring Michle, and its Catholics walked over there for mass. In 1903 the new town got a parish of its own, and the school chapel of St Wenceslas became its parish church. It also played a small part in a bigger story. At Christmas 1919, a year after Czechoslovakia was founded, the Catholic religion teachers of Nusle began holding services here in Czech instead of Latin. A few days later, in January 1920, reform-minded priests broke away from Rome and proclaimed the new Czechoslovak Church, and for a while that church used this building too. Most of what you see inside is the work of later care. A fire in 1962 damaged the nineteenth-century organ, the church was renovated in 1967–68 to a design by the architect Jaroslav Čermák, and the painter Jan Kristofori added a large Crucifixion in 1998 and fourteen Stations of the Cross in 2000.
+
+🎁 Bonus: The church bell was cast in 1997 by the Rudolf Perner foundry in Passau, Bavaria. The Perners had been casting bells in České Budějovice since 1772, but after the Second World War the family was expelled to Germany as ethnic Germans and started again from scratch in Passau, casting their first 23 bells there in 1948. Half a century later, one of their bells came back to Bohemia to ring over Nusle.`,
+
+      cz: `Na rohu ulic Vladimírova a Pod Vilami v Nuslích stojí světlý klasicistní kostel, který na farní kostel působí trochu skromně. Má to svůj důvod. Začínal jako školní kaple a povýšení se dočkal až později, takže patří k mála pražským kostelům, které opravdu chodily do školy.
+
+Kaple vznikla v roce 1898, tedy ve stejném roce, kdy byly Nusle povýšeny na město, jako součást areálu první nuselské obecné školy v Svatoslavově ulici. Do té doby patřily Nusle k farnosti v sousední Michli a zdejší katolíci chodili na mši tam. V roce 1903 dostalo nové město vlastní farnost a školní kaple sv. Václava se stala jejím farním kostelem. Sehrála také malou roli ve větším příběhu. O Vánocích 1919, rok po vzniku Československa, tu nuselští katecheté začali sloužit bohoslužby česky místo latinsky. O pár dní později, v lednu 1920, se reformně smýšlející kněží odtrhli od Říma a vyhlásili novou Církev československou, která tuhle budovu nějakou dobu také používala. Většina toho, co je dnes vidět uvnitř, je dílem pozdější péče. Požár v roce 1962 poškodil varhany z 19. století, v letech 1967–68 prošel kostel úpravou podle návrhu architekta Jaroslava Čermáka a malíř Jan Kristofori sem v roce 1998 přidal velké Ukřižování a v roce 2000 čtrnáct zastavení křížové cesty.
+
+🎁 Bonus: Kostelní zvon odlila v roce 1997 zvonárna Rudolfa Pernera v bavorském Pasově. Pernerové lili zvony v Českých Budějovicích už od roku 1772, po druhé světové válce ale byla rodina jako Němci odsunuta do Bavorska a v Pasově začínala úplně od nuly. Prvních 23 zvonů tam odlili v roce 1948. O půl století později se jeden z jejich zvonů vrátil do Čech a zvoní nad Nuslemi.`,
+
+      zh: `在努斯莱，弗拉基米罗娃街和波德维拉米街的街角，立着一座浅色的新古典主义教堂，作为堂区教堂，它看起来有点朴素。这是有原因的：它最初只是一座学校礼拜堂，后来才被“提拔”，所以它大概是布拉格少数真正上过学的教堂之一。
+
+礼拜堂建于1898年，正是努斯莱升格为城镇的那一年，它是斯瓦托斯拉沃瓦街上努斯莱第一所公立学校建筑群的一部分。在此之前，努斯莱属于邻近米赫莱的堂区，这里的天主教徒要走到那边去望弥撒。1903年，这座新城镇有了自己的堂区，圣瓦茨拉夫学校礼拜堂也就成了堂区教堂。它还在一段更大的历史里露过一小面。1919年圣诞节，也就是捷克斯洛伐克建国一年后，努斯莱的天主教宗教课教师开始在这里用捷克语而不是拉丁语主持礼拜。几天之后，1920年1月，一批主张改革的神父脱离罗马，宣布成立新的捷克斯洛伐克教会，这个新教会也曾借用过这座建筑一段时间。今天教堂里看到的大部分东西，都是后来一点点修补添置的：1962年的一场火灾损坏了19世纪的管风琴；1967至1968年，教堂按建筑师雅罗斯拉夫·乔尔马克的设计做了整修；画家扬·克里斯托福里在1998年画了一幅巨大的《耶稣受难》，2000年又完成了十四站苦路像。
+
+🎁 彩蛋：教堂的钟是1997年由巴伐利亚帕绍的鲁道夫·佩尔纳铸钟坊铸造的。佩尔纳家族从1772年起就在捷克布杰约维采铸钟，可二战后，这个家族作为德意志人被驱逐到了德国，只好在帕绍从零开始，1948年在那里铸出了第一批23口钟。半个世纪后，他们铸的一口钟又回到了波希米亚，在努斯莱上空敲响。`,
+    },
+  },
+  {
+    // Sources: cs.wikipedia Jana Želivského (1,350 m through Žižkov, from
+    // Ohrada to Želivského metro station at Vinohradská; between Olšany
+    // Cemeteries sections and alongside the New Jewish Cemetery; laid out
+    // 1930 as Mladoňovicova after Petr of Mladoňovice, renamed 1951),
+    // cs.wikipedia Jan Želivský (b. c. 1380 Humpolec; preacher at St Stephen's
+    // 1418 and Our Lady of the Snows from Feb 1419; 30 July 1419 procession
+    // to New Town Hall and first defenestration; dominant in Prague 1420–21;
+    // arrested at Old Town Hall and beheaded 9 March 1422; followers carried
+    // his head through the city). The ZH name 柴利夫斯基 matches the History
+    // Timeline's rendering of the man; the two Olšany cards were switched from
+    // 热利夫斯基街 to match (2026-09-28). Communist-era framing of the 1951 rename is hedged as
+    // "suited", not stated as documented motive. Rarity 'common' is my pick.
+    name: 'Jana Želivského Street',
+    slug: 'ulice-jana-zelivskeho',
+    localizedNames: { cz: 'Ulice Jana Želivského', zh: '扬·柴利夫斯基街' },
+    labels: ['street', 'historical'],
+    coordinates: { lat: 50.07969510510887, lng: 14.47243001209549 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Jana_%C5%BDelivsk%C3%A9ho',
+    description: {
+      en: `Jana Želivského is a busy tram street in Žižkov that spends a good part of its length running between graves, with sections of the Olšany Cemeteries on both sides and the New Jewish Cemetery alongside. Its namesake was a preacher whose revolution began with town councillors being thrown out of a window, so the quiet neighbours are at least a change of pace.
+
+The street runs about 1,350 metres south from the Ohrada junction to the Želivského metro station, where it meets Vinohradská. It was laid out in 1930 as Mladoňovicova, after Petr of Mladoňovice, who went to the Council of Constance as secretary to Hus's protector Jan of Chlum and wrote the eyewitness account of Hus's trial and burning. In 1951 it was renamed after Jan Želivský. Born around 1380 in Humpolec, Želivský came to Prague as a preacher, and from February 1419 he preached at the Church of Our Lady of the Snows in the New Town, in Czech, to crowds of the city's poor. On 30 July 1419 he led an armed procession to the New Town Hall to demand the release of imprisoned Hussites. When a stone was reportedly thrown at the monstrance he was carrying, the crowd stormed the building and threw the councillors out of the windows. It was the first Prague defenestration, and the start of the Hussite revolution. For the next few years Želivský was the most powerful voice of Prague's radicals, until his opponents turned on him. On 9 March 1422 he was called to the Old Town Hall, arrested and beheaded on the spot, and his followers carried his severed head through the streets.
+
+🎁 Bonus: The 1951 rename swapped a careful moderate chronicler for the radical who lit the fuse, which suited the new communist regime's picture of the Hussites as revolutionaries. Želivský is in fitting company here anyway: the whole district, Žižkov, is named after Jan Žižka, the Hussite general, and the metro station at the end of the street, opened in 1980, took its name from the street itself.`,
+
+      cz: `Ulice Jana Želivského je rušná tramvajová třída na Žižkově, která dobrý kus své délky vede mezi hroby: po obou stranách části Olšanských hřbitovů, podél ní Nový židovský hřbitov. Její jmenovec byl kazatel, jehož revoluce začala tím, že z okna vyletěli konšelé, takže tiší sousedé jsou aspoň nějaká změna.
+
+Ulice vede asi 1 350 metrů na jih od křižovatky Ohrada ke stanici metra Želivského, kde se potkává s Vinohradskou. Vznikla v roce 1930 jako Mladoňovicova, podle Petra z Mladoňovic, který jel na kostnický koncil jako písař Husova ochránce Jana z Chlumu a sepsal očitý popis Husova procesu a upálení. V roce 1951 byla přejmenována po Janu Želivském. Želivský se narodil kolem roku 1380 v Humpolci, do Prahy přišel jako kazatel a od února 1419 kázal v kostele Panny Marie Sněžné na Novém Městě, česky a pro zástupy městské chudiny. 30. července 1419 vedl ozbrojený průvod k Novoměstské radnici, aby žádal propuštění uvězněných husitů. Když podle tradice někdo hodil kámen po monstranci, kterou nesl, dav vtrhl do budovy a konšely vyhodil z oken. Byla to první pražská defenestrace a začátek husitské revoluce. Několik dalších let byl Želivský nejsilnějším hlasem pražských radikálů, dokud se proti němu neobrátili odpůrci. 9. března 1422 ho pozvali na Staroměstskou radnici, zatkli a na místě sťali a jeho stoupenci pak nesli jeho useknutou hlavu ulicemi.
+
+🎁 Bonus: Přejmenování z roku 1951 vyměnilo opatrného umírněného kronikáře za radikála, který zapálil doutnák, což se hodilo do obrazu husitů jako revolucionářů, jaký kreslil nový komunistický režim. Želivský je tu každopádně v dobré společnosti: celá čtvrť, Žižkov, nese jméno husitského vojevůdce Jana Žižky a stanice metra na konci ulice, otevřená v roce 1980, dostala jméno právě po ní.`,
+
+      zh: `扬·柴利夫斯基街是日什科夫一条繁忙的有轨电车街道，有相当一段是从坟墓中间穿过去的：两边都是奥尔萨内公墓的墓区，旁边还挨着新犹太公墓。这条街的名字来自一位布道者，他的革命是从把市议员扔出窗外开始的，所以这些安静的邻居，至少算是换换节奏。
+
+这条街从奥赫拉达路口向南延伸约1350米，一直到柴利夫斯基地铁站，在那里与维诺赫拉迪大街相接。它修建于1930年，最初叫“姆拉多诺维茨街”，纪念姆拉多诺维茨的彼得：他作为胡斯的保护人赫鲁姆的扬的秘书去了康斯坦茨公会议，亲眼记下了胡斯受审和被烧死的经过。1951年，街道改用扬·柴利夫斯基的名字。柴利夫斯基大约1380年生于洪波莱茨，作为布道者来到布拉格，从1419年2月起在新城的雪地圣母教堂用捷克语向成群的城市穷人布道。1419年7月30日，他带领一支武装游行队伍来到新城市政厅，要求释放被关押的胡斯派。据说有人朝他手中捧着的圣体光座扔了一块石头，人群随即冲进市政厅，把议员们从窗口扔了下去。这就是第一次布拉格抛窗事件，也是胡斯革命的开端。此后几年，柴利夫斯基一直是布拉格激进派最有力的声音，直到对手们翻脸。1422年3月9日，他被叫到老城市政厅，当场被捕并斩首，他的追随者捧着他的首级走过了布拉格的街道。
+
+🎁 彩蛋：1951年的这次改名，把一位谨慎温和的记录者换成了点燃导火索的激进派，正合当时新上台的共产党政权把胡斯派描绘成革命者的口味。不管怎样，柴利夫斯基在这里也不算孤单：整个日什科夫区就是以胡斯派将领扬·杰士卡命名的，而街道尽头那座1980年开通的地铁站，名字又是从这条街借来的。`,
+    },
+  },
+  {
+    // Sources: cs.wikipedia Michelský dvůr (Michelská 1/7; 1222 Vyšehrad
+    // Chapter, 1348 Břevnov Monastery, 1436 Sigismund → Jan Reček of Ledeč →
+    // Charles University; cultural monument 1958; chapel of St Anne;
+    // "Architektura lidskosti" award 2001), sue-ryder.cz Historie Michelského
+    // dvora (parts possibly 15th c.; Reček's college of the Virgin Mary 1438
+    // for Czech-speaking students of both kinds; layout roughly current by
+    // c. 1705; 1784 larger part rebuilt as a brewery; 1925 Augustina Weilová
+    // added flats and workshops; 1940 to the resettlement fund, sold to
+    // German officer Hans Wank; postwar flats/workshops/storage/car repair,
+    // "nearly a ruin"; 1991 to Prague 4; 1994 99-year lease at symbolic
+    // rent), sue-ryder.cz Lady Sue Ryder (met the Czechoslovak paratroopers
+    // preparing the Heydrich assassination; postwar aid; pre-1968 plans;
+    // Czech branch 1994; visited Prague autumn 1995; home opened 1998;
+    // Baroness Ryder of Warsaw 1978). Rarity 'rare' is my own pick.
+    name: 'Michle Manor Farm (Sue Ryder Home)',
+    slug: 'michelsky-dvur',
+    localizedNames: { cz: 'Michelský dvůr (Domov Sue Ryder)', zh: '米赫莱庄园（苏·赖德之家）' },
+    labels: ['historical', 'architecture', 'homestead'],
+    coordinates: { lat: 50.053587793592264, lng: 14.452817741782777 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Michelsk%C3%BD_dv%C5%AFr',
+    description: {
+      en: `Behind a plain gate on Michelská street stands a farmstead that has been, at various points, church property, a university's source of income, a brewery, a car repair shop and very nearly a ruin. Today it is a home for the elderly, which after eight centuries of hard work seems well deserved.
+
+The farm first appears in 1222 as property of the Vyšehrad Chapter, and in 1348 it belonged to the Břevnov Monastery. In 1436 Emperor Sigismund gave the village of Michle to Jan Reček of Ledeč, a Prague alderman and a keen supporter of the university. In 1438 Reček founded a college of the Virgin Mary for Czech-speaking students "of both kinds", meaning both Utraquists and Catholics, and since he died without heirs, he left Michle and its farm to the university, which lived off its income for a long time afterwards. By around 1705 the buildings had roughly their present layout, and in 1784 the larger part was rebuilt into a brewery. In 1925 the owner, Augustina Weilová, added flats and workshops. Because she was Jewish, the property was taken in 1940 by the Nazi "resettlement fund" and sold to a German officer, Hans Wank. After the war it became state property and was carved up into flats, workshops, storerooms and a car repair shop, with walls knocked through and vaults destroyed along the way. By 1990 it was close to collapse. Prague 4 took it over in 1991, and in 1994 leased it for 99 years, at a symbolic rent, to the Sue Ryder charity, which paid for the entire restoration. The home for the elderly opened in 1998, together with the restored chapel of St Anne, a restaurant and a charity shop.
+
+🎁 Bonus: Sue Ryder was a British volunteer in the wartime Special Operations Executive, and among the agents she met were the Czechoslovak paratroopers training for the assassination of Reinhard Heydrich. After the war she kept coming back to Czechoslovakia with wheelchairs and medicine, and before 1968 she was already planning care homes there with the ministry, until the Soviet invasion ended it. She tried again after 1989, came to Prague in the autumn of 1995 to see this ruined farm, and died in 2000, two years after it opened. When she was made a life peer, she chose the title Baroness Ryder of Warsaw.`,
+
+      cz: `Za nenápadnou branou v Michelské ulici stojí statek, který byl v různých dobách církevním majetkem, zdrojem příjmů univerzity, pivovarem, autoopravnou a málem ruinou. Dnes je z něj domov pro seniory, což si po osmi stoletích dřiny tak trochu zaslouží.
+
+Dvůr se poprvé objevuje v roce 1222 jako majetek vyšehradské kapituly a v roce 1348 patřil břevnovskému klášteru. V roce 1436 daroval císař Zikmund ves Michli Janu Rečkovi z Ledče, pražskému konšelovi a horlivému příznivci univerzity. Reček v roce 1438 založil kolej Panny Marie pro česky mluvící studenty „obojí víry“, tedy utrakvisty i katolíky, a protože zemřel bez dědiců, odkázal Michli i s dvorem univerzitě, která z jeho výnosů pak dlouho žila. Kolem roku 1705 měly budovy zhruba dnešní podobu a v roce 1784 byla větší část přestavěna na pivovar. V roce 1925 přistavěla majitelka Augustina Weilová byty a dílny. Protože byla Židovka, převzal majetek v roce 1940 nacistický „vystěhovalecký fond“ a prodal ho německému důstojníkovi Hansi Wankovi. Po válce připadl státu a byl rozparcelován na byty, dílny, sklady a autoopravnu, přičemž se bouraly zdi a ničily klenby. Kolem roku 1990 byl na spadnutí. Praha 4 ho převzala v roce 1991 a v roce 1994 ho za symbolické nájemné pronajala na 99 let organizaci Sue Ryder, která zaplatila celou obnovu. Domov pro seniory se otevřel v roce 1998 spolu s obnovenou kaplí sv. Anny, restaurací a charitativním obchodem.
+
+🎁 Bonus: Sue Ryder byla britská dobrovolnice válečné Správy zvláštních operací (SOE) a mezi agenty, které poznala, byli i českoslovenští parašutisté, kteří se připravovali na atentát na Reinharda Heydricha. Po válce se do Československa opakovaně vracela s invalidními vozíky a léky a před rokem 1968 už s ministerstvem chystala domovy péče, dokud to neukončila sovětská invaze. Po roce 1989 to zkusila znovu, na podzim 1995 přijela do Prahy podívat se na tenhle zničený statek a zemřela v roce 2000, dva roky po jeho otevření. Když se stala doživotní členkou Sněmovny lordů, vybrala si titul baronka Ryder z Varšavy.`,
+
+      zh: `米赫莱街上一道不起眼的大门后面，是一座农庄。它在不同时期当过教会财产、大学的收入来源、啤酒厂、汽修厂，还差点成了废墟。如今它是一座养老院，辛苦干了八个世纪，也该歇歇了。
+
+这座庄园最早在1222年见于记载，当时属于维谢赫拉德教士团，1348年又归布热夫诺夫修道院所有。1436年，西吉斯蒙德皇帝把米赫莱村赐给了扬·雷切克。他是布拉格市议员，也是大学的热心支持者。1438年，雷切克创办了一座圣母学院，专收“两种信仰”的捷克语学生，也就是饼酒同领派和天主教徒都收。他死后没有继承人，便把米赫莱村连同庄园都留给了大学，大学此后很长时间都靠它的收益过日子。到1705年前后，建筑群已大致是今天的格局，1784年，其中较大的一部分被改建成了啤酒厂。1925年，庄园主人奥古斯蒂娜·魏洛娃加建了住宅和作坊。因为她是犹太人，1940年这份产业被纳粹的“移民基金”没收，转卖给了德国军官汉斯·万克。战后它收归国有，被隔成住宅、作坊、仓库和一家汽修厂，墙被打通，拱顶被拆毁。到1990年前后，它已经摇摇欲坠。布拉格第四区在1991年接手，1994年以象征性的租金把它租给苏·赖德慈善组织，租期99年，全部修复费用都由该组织承担。1998年，养老院开张，修复后的圣安娜礼拜堂、一家餐馆和一间慈善商店也一起开放。
+
+🎁 彩蛋：苏·赖德是英国人，二战时在特别行动处当志愿者，她结识的特工里，就有正在为刺杀莱因哈德·海德里希做准备的捷克斯洛伐克伞兵。战后她不断回到捷克斯洛伐克，带来轮椅和药品，1968年之前她已经在和政府部门筹划开办养老院，直到苏联入侵让计划落空。1989年后她又一次尝试，1995年秋天亲自来布拉格看了这座破败的庄园，2000年去世，那时养老院才开了两年。她被册封为终身贵族时，给自己选的封号是“华沙的赖德女男爵”。`,
+    },
+  },
+  {
+    // Sources: cs.wikipedia Michelská synagoga (U Michelského mlýna 124/27,
+    // by the Botič; c. 1730, exact date unknown, possibly an older vineyard
+    // house; Renaissance/Baroque with 19th-c. neo-Gothic east façade; prayer
+    // hall with women's gallery in the south part, cantor/caretaker flats in
+    // the north; served Michle, Nusle, Vršovice, Podolí; one of few suburban
+    // synagogues not destroyed in the occupation; Jewish Museum depository
+    // after 1945; c. 1,200 Torah scrolls stored in the early 1950s; most to
+    // Westminster Synagogue, London, in 1964; used by CČSH since 1975;
+    // tombstones in the front garden possibly from Uhříněves), ccsh.cz
+    // "Sbor Alberta Schweitzera – bývalá synagoga" (bought from the state
+    // 1976; Rev. František Nepovím and elder Vítězslav Soukal, who died 1978;
+    // work finished 1987; scrolls restored and lent out from London). The
+    // 1975/1976 discrepancy is avoided by saying "mid-1970s". CČSH founded
+    // Jan 1920 as the Czechoslovak Church, "Hussite" added 1971. Rarity
+    // 'superior' is my own pick.
+    name: 'Albert Schweitzer Hussite Congregation (Former Michle Synagogue)',
+    slug: 'sbor-alberta-schweitzera-michle',
+    localizedNames: { cz: 'Sbor Alberta Schweitzera (bývalá Michelská synagoga)', zh: '阿尔贝特·施韦泽胡斯集会堂（原米赫莱犹太会堂）' },
+    labels: ['church', 'historical', 'hidden-gem'],
+    coordinates: { lat: 50.055763047943714, lng: 14.450049994400937 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Michelsk%C3%A1_synagoga',
+    description: {
+      en: `Down by the Botič stream, on a lane named after the old Michle mill, a modest building hosts the Sunday services of the Czechoslovak Hussite Church. It does so under a roof built for a different faith. Until the Second World War this was the synagogue of the local Jewish community, and it has a longer and stranger story than its size suggests.
+
+The synagogue was built around 1730, although nobody knows the exact date, and it may have grown out of an even older vineyard house. Its style mixes Renaissance and Baroque, with some nineteenth-century neo-Gothic touches on the eastern front. The southern, older part held the prayer hall with a gallery for women, and the northern part had flats for the cantor and the caretaker. It served the Jews of Michle, Nusle, Vršovice and Podolí. During the German occupation the community was destroyed, but the building survived, which makes it one of the very few suburban synagogues around Prague still standing. After 1945 the Jewish Museum used it as a store. In the early 1950s around 1,200 Torah scrolls were kept here, scrolls the Nazis had collected from the closed synagogues of Bohemia and Moravia, and they sat for years in a damp building never meant for them. In the mid-1970s the Czechoslovak Hussite Church, founded in 1920 as a Czech breakaway from the Catholic Church, bought the empty building from the state. The priest František Nepovím and the church elder Vítězslav Soukal led a renovation that took more than a decade. Soukal died in 1978 and never saw it finished. The congregation is named after Albert Schweitzer, the theologian, doctor and organist who won the 1952 Nobel Peace Prize. A few old Jewish gravestones, probably from the cemetery in Uhříněves, still stand in the front garden.
+
+🎁 Bonus: In 1964 most of the scrolls from Michle went to Westminster Synagogue in London. There they were repaired one by one and lent out to Jewish congregations around the world, each scroll carrying the name of the Czech or Moravian community it came from. So scrolls that spent the 1950s in a damp storeroom by the Botič are now read aloud on several continents, while the room they waited in is used for Hussite hymns.`,
+
+      cz: `Dole u Botiče, v uličce pojmenované po starém michelském mlýně, stojí nenápadná budova, ve které má nedělní bohoslužby Církev československá husitská. Schází se ale pod střechou postavenou pro jinou víru. Až do druhé světové války tu byla synagoga místní židovské obce a její příběh je delší a podivnější, než by člověk podle velikosti čekal.
+
+Synagoga vznikla kolem roku 1730, přesné datum nikdo nezná, a možná vyrostla z ještě starší viničné usedlosti. Stylově mísí renesanci a baroko, východní průčelí dostalo v 19. století několik novogotických prvků. Ve starší jižní části byla modlitebna s ženskou galerií, v severní části byty kantora a synagogálního sluhy. Sloužila Židům z Michle, Nuslí, Vršovic a Podolí. Za německé okupace byla obec zničena, budova ale přežila, a patří tak k úplně nemnoha předměstským synagogám kolem Prahy, které dodnes stojí. Po roce 1945 ji Židovské muzeum používalo jako depozitář. Na začátku 50. let tu bylo uloženo asi 1 200 svitků Tóry, které nacisté svezli z uzavřených synagog Čech a Moravy, a ležely roky ve vlhké budově, která pro ně nikdy nebyla určena. V polovině 70. let koupila prázdnou budovu od státu Církev československá husitská, založená v roce 1920 jako česká odnož odtržená od katolické církve. Farář František Nepovím a starší Vítězslav Soukal vedli obnovu, která trvala přes deset let. Soukal zemřel v roce 1978 a jejího konce se nedožil. Sbor nese jméno Alberta Schweitzera, teologa, lékaře a varhaníka, nositele Nobelovy ceny míru za rok 1952. V předzahrádce dodnes stojí několik starých židovských náhrobků, nejspíš z hřbitova v Uhříněvsi.
+
+🎁 Bonus: V roce 1964 odešla většina svitků z Michle do Westminsterské synagogy v Londýně. Tam je jeden po druhém opravili a zapůjčili židovským obcím po celém světě, přičemž každý svitek nese jméno české nebo moravské obce, odkud pochází. Svitky, které strávily 50. léta ve vlhkém skladu u Botiče, se tak dnes předčítají na několika kontinentech, zatímco v místnosti, kde čekaly, se zpívají husitské písně.`,
+
+      zh: `在博蒂奇溪边，一条以米赫莱老磨坊命名的小巷里，有一座不起眼的建筑，捷克斯洛伐克胡斯派教会每个星期天在这里做礼拜。不过这个屋顶当初是为另一种信仰盖的：二战以前，这里是本地犹太社区的会堂，而它的故事比它的个头要长得多，也曲折得多。
+
+会堂大约建于1730年，确切年份没人知道，它可能是由一座更古老的葡萄园农舍改建而来。建筑风格混合了文艺复兴和巴洛克，东立面在19世纪添了几处新哥特式的装饰。较老的南半部分是祈祷厅，带一圈女性专用的楼座；北半部分是领唱人和会堂管理员的住所。它服务于米赫莱、努斯莱、弗尔绍维采和波多利的犹太人。德国占领期间，这个社区被摧毁了，建筑却留了下来，成了布拉格郊区极少数至今还立着的犹太会堂之一。1945年后，犹太博物馆把它当作库房。1950年代初，这里存放着大约1200卷妥拉经卷，都是纳粹从波希米亚和摩拉维亚被关闭的会堂里搜罗来的，它们在这座根本不适合存放经卷的潮湿建筑里一放就是好几年。1970年代中期，捷克斯洛伐克胡斯派教会从国家手里买下了这座空房子。这个教会1920年从天主教会中分离出来，是捷克本土的教会。神父弗朗季谢克·内波维姆和长老维捷斯拉夫·绍卡尔主持了整修，前后花了十多年，绍卡尔1978年去世，没能看到完工。会众以阿尔贝特·施韦泽命名，他是神学家、医生、管风琴家，1952年诺贝尔和平奖得主。前院里至今还立着几块古老的犹太墓碑，很可能来自乌赫日涅维斯的犹太公墓。
+
+🎁 彩蛋：1964年，米赫莱的大部分经卷被送到了伦敦的威斯敏斯特犹太会堂。它们在那里被一卷一卷地修复，再借给世界各地的犹太会众，每一卷都标着自己来自哪个捷克或摩拉维亚社区。于是，这些在博蒂奇溪边潮湿库房里熬过1950年代的经卷，如今在好几个大洲被人诵读，而它们当年等待的那间屋子里，唱的是胡斯派的赞美诗。`,
+    },
+  },
+  {
+    // Sources: cs.wikipedia Kostel Narození Panny Marie (Michle) (charter of
+    // 8 July 1724 by law professor Václav Neumann of Puchholtz, chapel of
+    // the Virgin Mary and the Fourteen Holy Helpers, patronage of the law and
+    // medical faculties; architect unknown, built in about a year; 1727
+    // renamed and made the local church; parish 1830, Nusle in the parish
+    // until 1903; elongated octagon, thick walls, sanctus turret, two Baroque
+    // gables; churchyard replaced mid-19th c. by a new cemetery in Krč; organ
+    // 1891 by Rejna & Černý; Josef Beran here 1914–1917; 2000 repairs for
+    // traffic damage; cultural monument; Michle Madonna c. 1320–1360,
+    // venerated since at least 1856, bought by the National Gallery 1949,
+    // shown in St Agnes Convent, gilded copy on the south altar and a 1949
+    // copy in the rectory), katalog.apha.cz / kudyznudy (same outline).
+    // Rarity 'rare' is my own pick.
+    name: 'Church of the Nativity of the Virgin Mary (Michle)',
+    slug: 'kostel-narozeni-panny-marie-michle',
+    localizedNames: { cz: 'Kostel Narození Panny Marie (Michle)', zh: '圣母诞辰教堂（米赫莱）' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.049906366937385, lng: 14.452299926985457 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_Narozen%C3%AD_Panny_Marie_(Michle)',
+    description: {
+      en: `This small Baroque church in Michle was founded by a law professor, is shaped like a stretched octagon, and has walls thick enough to stand up to the traffic roaring past, mostly. For a long time it also looked after one of the finest Gothic sculptures in Bohemia, until the National Gallery came to collect it.
+
+The church began as a private foundation. By a charter dated 8 July 1724, Václav Neumann of Puchholtz, a professor of law at the Prague university, had a chapel built here "in honour of the Virgin Mary and the Fourteen Holy Helpers", and put it under the patronage of the university's law and medical faculties. Nobody knows who designed it, and it seems to have gone up within a year. In 1727 it was renamed and became the church for the people of Michle, and in 1830 it was made a parish church, with a parish that also took in Nusle until 1903. The plan is an elongated octagon, with the sacristy and presbytery on the east side and the gallery, vestibule and main entrance on the west, topped by a small sanctus turret and two Baroque gables. The churchyard around it was once a cemetery, until a new burial ground in Krč replaced it in the mid-nineteenth century. The organ dates from 1891. Between 1914 and 1917 a young priest named Josef Beran served here, the man who later became Archbishop of Prague and spent years under house arrest under the communists. In 2000 the church needed a major repair, because the heavy traffic on the surrounding roads had been shaking it apart.
+
+🎁 Bonus: Since at least 1856 people came here to pray before the "Michle Madonna", a wooden statue of the Virgin now dated to the early reign of Charles IV, and considered one of the first and most important works of Czech High Gothic sculpture. In 1949 the National Gallery acquired the original, and it is now on display in the Convent of St Agnes. The church kept two copies: a gilded one on the south altar and another, made that same year, in the rectory.`,
+
+      cz: `Tenhle malý barokní kostel v Michli založil profesor práv, má půdorys protaženého osmiúhelníku a zdi tak silné, že provoz, který kolem hučí, většinou vydrží. Dlouho také opatroval jednu z nejkrásnějších gotických soch v Čechách, dokud si pro ni nepřišla Národní galerie.
+
+Kostel začínal jako soukromá fundace. Zakládací listinou z 8. července 1724 dal Václav Neumann z Puchholtze, profesor práv na pražské univerzitě, postavit kapli „ke cti Panny Marie a čtrnácti svatých pomocníků“ a svěřil ji do patronátu právnické a lékařské fakulty. Kdo ji navrhl, nikdo neví, a postavena byla zřejmě do roka. V roce 1727 byla přejmenována a stala se kostelem pro obyvatele Michle, v roce 1830 farním kostelem, přičemž do farnosti až do roku 1903 patřily i Nusle. Půdorys tvoří protažený osmiúhelník, na východní straně se sakristií a presbytářem, na západní s kruchtou, předsíní a hlavním vchodem, a stavbu završuje sanktusník a dva barokní štíty. Kolem kostela býval hřbitov, který v polovině 19. století nahradilo nové pohřebiště v Krči. Varhany pocházejí z roku 1891. V letech 1914 až 1917 tu působil mladý kněz Josef Beran, pozdější pražský arcibiskup, který za komunistů strávil roky v internaci. V roce 2000 potřeboval kostel velkou opravu, protože ho hustá doprava na okolních silnicích doslova roztřásala.
+
+🎁 Bonus: Nejméně od roku 1856 sem lidé chodili prosit k „Michelské madoně“, dřevěné soše Panny Marie, dnes datované do počátku vlády Karla IV. a považované za jedno z prvních a nejvýznamnějších děl české vrcholné gotické plastiky. V roce 1949 originál získala Národní galerie a dnes je vystaven v Anežském klášteře. Kostel si nechal dvě kopie: pozlacenou na jižním oltáři a další, zhotovenou téhož roku, na faře.`,
+
+      zh: `米赫莱这座巴洛克小教堂是一位法学教授创建的，平面是一个拉长的八边形，墙厚得足以扛住门外轰鸣的车流，基本上扛得住。很长一段时间里，它还守护着波希米亚最精美的哥特雕塑之一，直到国家美术馆把它接走。
+
+教堂最初是私人捐建的。根据一份1724年7月8日的捐赠文书，布拉格大学的法学教授瓦茨拉夫·诺伊曼在这里修了一座礼拜堂，“献给圣母和十四救难圣人”，并交由大学的法学院和医学院做赞助人。没人知道设计者是谁，看起来一年之内就建成了。1727年它改了名，成为米赫莱村民的教堂，1830年又升为堂区教堂，直到1903年，努斯莱也还归这个堂区管。教堂平面是拉长的八边形，东侧接圣器室和祭坛区，西侧是唱诗楼、门厅和正门，屋顶上有一座小小的弥撒钟塔和两面巴洛克山墙。教堂周围原本是墓地，19世纪中叶被克尔奇的新墓地取代。管风琴造于1891年。1914到1917年，一位名叫约瑟夫·贝兰的年轻神父在这里任职，他后来成了布拉格大主教，在共产党统治下被软禁了许多年。2000年，教堂不得不大修一次，因为周围马路上繁忙的交通简直要把它震散了。
+
+🎁 彩蛋：至少从1856年起，人们就来这里向“米赫莱圣母像”祈祷。这是一尊木雕圣母像，今天被断代到查理四世统治初期，被认为是捷克盛期哥特雕塑最早、也最重要的作品之一。1949年，国家美术馆收购了原作，如今在圣阿格尼丝修道院展出。教堂留下了两件复制品：一件镀金的放在南侧祭坛上，另一件是同一年做的，放在神父住所里。`,
+    },
+  },
+  {
+    // Sources: cs.wikipedia Národní dům v Nuslích (architect Antonín Fric;
+    // on the site of the inn "Na Kovárně", demolished in the 1889
+    // regulation/parcellation of Nusle; opened 17 Nov 1898 with a concert,
+    // the year Nusle became a town; restaurant, Občanská beseda with reading
+    // room, assembly hall, dance hall, shops, flats; Karel Hašler, Sokol
+    // events, lectures; 1911 Biograf Světovid in the basement hall; Hotel
+    // Šmíd 1922–48; owners Hrabánek 1899, Jan Heřman at auction 1913,
+    // Vršovice citizens' savings bank 1921, State Savings Bank 1963;
+    // nationalised 1948; cultural monument 1976; now city-owned, flats and a
+    // Česká spořitelna branch), neznamapraha.cz (replacement for the inn and
+    // nearby Baroque Nusle manor facilities). Rarity 'common' is my pick.
+    name: 'National House in Nusle',
+    slug: 'narodni-dum-v-nuslich',
+    localizedNames: { cz: 'Národní dům v Nuslích', zh: '努斯莱国民会馆' },
+    labels: ['historical', 'architecture', 'cultural'],
+    coordinates: { lat: 50.064058983934245, lng: 14.441913145871611 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/N%C3%A1rodn%C3%AD_d%C5%AFm_v_Nusl%C3%ADch',
+    description: {
+      en: `On Bratří Synků square stands a large Neo-Renaissance block that looks like it ought to be the town hall. For half a century it was something more fun: the place where Nusle went to dance, hear concerts, read the papers, and, from 1911, watch films in the basement. Today it is mostly flats, with a bank branch at street level.
+
+In the late nineteenth century almost every ambitious Czech town built itself a "national house", a Czech-run social centre with a restaurant, halls and a club, part of the same national revival that was filling the country with Czech theatres, schools and gymnastics clubs. Nusle got its own after the village was regulated and divided into building plots in 1889, which meant tearing down the old inn called Na Kovárně. The architect Antonín Fric designed its replacement, and the National House opened with a concert on 17 November 1898, the same year Nusle was raised to the status of a town. It held a large restaurant, the local civic club with its reading room, an assembly hall, a dance hall, shops and flats, and it took over much of what the inn and the nearby Baroque Nusle manor had offered before. The halls hosted lectures, Sokol events, balls and performances, including concerts by the singer and songwriter Karel Hašler. In 1911 the Světovid cinema opened in the basement hall, and from 1922 to 1948 the building also ran as the Hotel Šmíd, after its operator František Šmíd. It was nationalised in 1948 and became a protected cultural monument in 1976.
+
+🎁 Bonus: The building has changed hands many times. František Hrabánek owned it from 1899, Jan Heřman bought it at auction in 1913, the Vršovice Citizens' Savings Bank took it over in 1921, and in 1963 the Czechoslovak State Savings Bank took control. The city of Prague owns it now, but the ground floor is still a Česká spořitelna branch, so one savings bank or another has been at home here, as owner or tenant, for about a hundred years.`,
+
+      cz: `Na náměstí Bratří Synků stojí velký novorenesanční dům, který vypadá, jako by to měla být radnice. Půl století byl ale něčím zábavnějším: místem, kam Nusle chodily tančit, na koncerty, číst noviny a od roku 1911 i do kina ve sklepě. Dnes jsou v něm hlavně byty a v přízemí pobočka banky.
+
+Na konci 19. století si skoro každé ambiciózní české město postavilo „národní dům“, česky vedené společenské centrum s restaurací, sály a spolkovými místnostmi, součást téhož národního obrození, které plnilo zemi českými divadly, školami a sokolovnami. Nusle se svého dočkaly poté, co byla obec v roce 1889 regulována a rozparcelována, což znamenalo zbourat starý hostinec Na Kovárně. Jeho náhradu navrhl architekt Antonín Fric a Národní dům se otevřel koncertem 17. listopadu 1898, ve stejném roce, kdy byly Nusle povýšeny na město. Byla v něm velká restaurace, Občanská beseda s čítárnou, zasedací sál, taneční sál, obchody a byty a převzal velkou část toho, co předtím nabízel hostinec a nedaleký barokní nuselský zámeček. V sálech se konaly přednášky, sokolské akce, plesy a představení, včetně koncertů písničkáře Karla Hašlera. V roce 1911 se v suterénním sále otevřel biograf Světovid a v letech 1922 až 1948 tu fungoval i hotel Šmíd, pojmenovaný po provozovateli Františku Šmídovi. V roce 1948 byl dům znárodněn a v roce 1976 prohlášen kulturní památkou.
+
+🎁 Bonus: Dům mnohokrát změnil majitele. Od roku 1899 ho vlastnil František Hrabánek, v roce 1913 ho ve dražbě koupil Jan Heřman, v roce 1921 ho převzala vršovická občanská záložna a v roce 1963 Československá státní spořitelna. Dnes patří hlavnímu městu Praze, v přízemí je ale pořád pobočka České spořitelny, takže tu nějaká spořitelna, jako majitel nebo nájemce, sídlí zhruba sto let.`,
+
+      zh: `在布拉特日·辛库广场上，立着一栋高大的新文艺复兴式建筑，看上去像是市政厅。可在半个世纪里，它的身份要有趣得多：努斯莱人来这里跳舞、听音乐会、读报纸，1911年起还能在地下室看电影。如今楼里主要是住宅，临街一层是一家银行的营业部。
+
+19世纪末，几乎每个有抱负的捷克城镇都要给自己盖一座“国民会馆”，这是由捷克人经营的社交中心，有餐厅、大厅和社团活动室，和当时遍布全国的捷克剧院、学校、索科尔体操馆一样，都是民族复兴运动的产物。努斯莱的国民会馆，是在1889年村子被规划、划分成建筑地块之后才有的，而这意味着要拆掉一家叫“铁匠铺”的老酒馆。建筑师安东宁·弗里奇设计了取代它的新楼，1898年11月17日，国民会馆以一场音乐会开张，同一年努斯莱升格为城镇。楼里有一家大餐厅、带阅览室的市民俱乐部、会议厅、舞厅、商铺和住宅，接过了之前那家老酒馆和附近巴洛克式努斯莱庄园提供的大部分功能。大厅里办过讲座、索科尔活动、舞会和演出，歌手兼词曲作者卡雷尔·哈什勒也在这里开过音乐会。1911年，“斯维托维德”电影院在地下大厅开业；1922到1948年，这里还开着一家以经营者弗朗季谢克·施米德命名的施米德酒店。1948年大楼被收归国有，1976年被列为文化遗产。
+
+🎁 彩蛋：这栋楼换过很多次主人：1899年起归弗朗季谢克·赫拉巴内克所有，1913年扬·赫日曼在拍卖中买下，1921年弗尔绍维采市民储蓄社接手，1963年又由国家储蓄银行掌管。如今它归布拉格市所有，可临街一层依然是捷克储蓄银行的营业部。算下来，不管是当房东还是当租客，总有一家储蓄银行在这里住了差不多一百年。`,
+    },
+  },
+  {
+    // Sources: archiweb.cz "Na Pankráci vzniklo kancelářské centrum za dvě
+    // miliardy" (Sparkassen Immobilien with Immorent; over CZK 2bn; first
+    // building 2008, second by 21 April 2009; 38,500 m²; on the former bus
+    // station site; tenants incl. Unipetrol, Benzina, Barclays, Hill's Pet
+    // Nutrition), earch.cz / search summary (OMICRON-K, Martin Kotík and
+    // Vladimír Krátký; "Blíženci", two similar buildings split by a
+    // pedestrian street; STRABAG), cs.wikipedia Autobusové nádraží Pankrác
+    // (opened 7 July 1947 as Prague's first bus station; 12 lines, mainly
+    // South Bohemia; ~200 departures and up to 11,000 passengers a day, only
+    // provisionally equipped; closed 1986–88 for a rebuild for 700 buses a
+    // day, never reopened; 1990 residents' civic initiative; market from
+    // 2000; demolished 2006; Gemini 2008, Enterprise 2014–15). Metro
+    // Mládežnická → Pankrác rename is well known (1974 / 1990). Rarity
+    // 'common' is my own pick.
+    name: 'Gemini Office Complex',
+    slug: 'gemini-pankrac',
+    localizedNames: { cz: 'Administrativní centrum Gemini', zh: '双子座办公园区' },
+    labels: ['modern', 'architecture'],
+    coordinates: { lat: 50.05150160977092, lng: 14.440233456696303 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Gemini is Latin for "twins", and that is more or less the whole idea: two similar glass office blocks on Pankrác, facing each other across a pedestrian street. The buildings themselves are fairly ordinary. What stood here before them is the better story, because this was Prague's first bus station, and then a new bus station that never opened.
+
+The Pankrác bus station opened on 7 July 1947, a year before Florenc and Smíchov, as the first proper bus station in Prague. It started with 12 lines, mainly to southern Bohemia, and grew to some 200 departures and up to 11,000 passengers a day, all handled in facilities that were only ever meant to be temporary. In the late 1980s it closed for a rebuild that was supposed to handle 700 buses a day. The new structure went up, but it never reopened. In 1990 local residents formed a civic initiative against running a big bus terminal next to their homes, and Prague 4 dropped the plan. A market moved into the unused buildings in 2000, and in 2006 the whole site was cleared. The Gemini complex, designed by the studio OMICRON-K (Martin Kotík and Vladimír Krátký) and built by Strabag for the Austrian developer Sparkassen Immobilien, went up in its place. The first building was finished in 2008 and the second in April 2009, with 38,500 square metres of offices between them at a cost of over two billion crowns. The Enterprise office building followed on the rest of the old station site in 2014–15.
+
+🎁 Bonus: If you arrive by metro, you'll get off at Pankrác, a station that opened in 1974 under the name Mládežnická, "Youth station". It was renamed in 1990, the same year the neighbours made sure the buses would never come back.`,
+
+      cz: `Gemini znamená latinsky „blíženci“ a v tom je víceméně celý nápad: dvě podobné prosklené kancelářské budovy na Pankráci, které na sebe hledí přes pěší ulici. Samotné budovy jsou celkem obyčejné. Zajímavější je, co tu stálo před nimi, protože tady bylo první pražské autobusové nádraží a potom nové autobusové nádraží, které se nikdy neotevřelo.
+
+Autobusové nádraží Pankrác se otevřelo 7. července 1947, o rok dřív než Florenc a Smíchov, jako vůbec první skutečné autobusové nádraží v Praze. Začínalo s 12 linkami, hlavně do jižních Čech, a rozrostlo se na asi 200 spojů a až 11 000 cestujících denně, a to všechno v zařízení, které mělo být jen provizorní. Koncem 80. let se zavřelo kvůli přestavbě, která měla zvládnout 700 autobusů denně. Nová stavba vyrostla, ale už se nikdy neotevřela. V roce 1990 založili místní obyvatelé občanskou iniciativu proti velkému autobusovému terminálu pod okny a Praha 4 od záměru ustoupila. V roce 2000 se do nevyužitých budov nastěhovala tržnice a v roce 2006 bylo celé území vyklizeno. Na jeho místě vyrostl komplex Gemini, který navrhl ateliér OMICRON-K (Martin Kotík a Vladimír Krátký) a pro rakouského developera Sparkassen Immobilien postavil Strabag. První budova byla hotová v roce 2008, druhá v dubnu 2009, dohromady 38 500 metrů čtverečních kanceláří za více než dvě miliardy korun. Na zbytku bývalého nádraží pak v letech 2014–15 přibyla budova Enterprise.
+
+🎁 Bonus: Pokud přijedete metrem, vystoupíte na Pankráci, stanici, která se v roce 1974 otevřela pod jménem Mládežnická. Přejmenována byla v roce 1990, tedy ve stejném roce, kdy se sousedé postarali o to, aby se sem autobusy už nikdy nevrátily.`,
+
+      zh: `Gemini在拉丁语里是“双子”的意思，这差不多就是整个设计理念了：潘克拉茨的两栋相似的玻璃办公楼，隔着一条步行街面对面。楼本身相当普通，更有意思的是它们之前这里是什么：布拉格的第一座长途汽车站，后来又是一座从没启用过的新汽车站。
+
+潘克拉茨长途汽车站于1947年7月7日启用，比弗洛伦茨和斯米霍夫汽车站早一年，是布拉格第一座真正意义上的长途汽车站。它开张时只有12条线路，主要开往南波希米亚，后来发展到每天约200班车、最多一万一千名乘客，而这一切靠的都是一套原本只打算临时凑合的设施。1980年代末，车站关闭改建，目标是每天能处理700班车。新建筑盖起来了，却再也没有开门。1990年，附近居民成立了一个公民倡议组织，反对在自家门口开一座大型汽车枢纽，布拉格第四区于是放弃了这个计划。2000年，一个市场搬进了闲置的建筑，2006年整片地块被清空。双子座办公园区就建在了这里，由OMICRON-K工作室的马丁·科蒂克和弗拉基米尔·克拉特基设计，斯特拉巴格公司为奥地利开发商储蓄银行地产承建。第一栋楼2008年完工，第二栋2009年4月完工，两栋共有三万八千五百平方米办公面积，造价超过二十亿克朗。老车站剩下的地块上，2014至2015年又盖起了企业大厦。
+
+🎁 彩蛋：如果你坐地铁来，会在潘克拉茨站下车。这个站1974年开通时叫“青年站”，1990年才改成现在的名字，正是邻居们确保汽车再也不会回来的那一年。`,
+    },
+  },
+  {
+    // Sources: ct24.ceskatelevize.cz "Róna vytvořil desetimetrového křížence
+    // sprchy a žirafy" (10 m, 7.5 t; bronze painted red plus stainless steel,
+    // welded from 180 bronze parts and dozens of steel pieces; installed
+    // 10 Nov 2020; private client; over three years' work; the Pokémon
+    // quote; rated for earthquakes above magnitude 7; delivered in two parts
+    // so the studio roof didn't have to come off as it did for his Jošt in
+    // Brno), jaroslav-rona.cz news title (unveiling of "Červená žirafa" on
+    // 17 Nov 2020 in front of the Enterprise building), kudyznudy.cz (plaza
+    // between Enterprise and Pikrtova, by metro C; its "7.5 m" height looks
+    // like a mix-up with the 7.5 t weight — ČT's 10 m used). Róna's Kafka
+    // monument (Dušní, 2003) and membership of Tvrdohlaví are well known.
+    // Rarity 'rare' is my own pick.
+    name: 'Red Giraffe',
+    slug: 'cervena-zirafa-pankrac',
+    localizedNames: { cz: 'Červená žirafa', zh: '红色长颈鹿' },
+    labels: ['cultural', 'modern'],
+    coordinates: { lat: 50.05186499585781, lng: 14.440949114931295 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Among the glass office blocks of Pankrác stands a ten-metre, bright red neighbour: a four-legged creature with a long neck and, where its head should be, a shower head. The sculptor Jaroslav Róna says the idea came from a giraffe, and from watching Pokémon films with his daughter.
+
+Róna, born in 1957, is one of the best-known Czech sculptors of his generation, a founder member of the 1980s art group Tvrdohlaví ("The Stubborn Ones") and the author of the Franz Kafka monument in Prague's Jewish Quarter, where a small Kafka rides on the shoulders of an empty suit. The giraffe was a private commission and took him more than three years. It weighs about 7.5 tonnes and was welded together from some 180 bronze parts and dozens of stainless-steel pieces, then painted red so it would stand out against the glass and grey around it. It was engineered to survive an earthquake stronger than magnitude 7, which is a lot of caution for Prague. It was installed on 10 November 2020 on a small plaza in front of the Enterprise office building and unveiled a week later, on 17 November. Róna calls it "a complicated shower with four legs", and says he wanted it to be as playful as "those weird little characters" in the Pokémon films.
+
+🎁 Bonus: For an earlier giant, the equestrian statue of Margrave Jošt in Brno, Róna had to take the roof off his studio to get the finished piece out. This time he planned ahead, and the giraffe left the studio in two halves, to be joined up only on site in Pankrác.`,
+
+      cz: `Mezi prosklenými kancelářskými budovami Pankráce stojí deset metrů vysoký, jasně červený soused: čtyřnohý tvor s dlouhým krkem, který má místo hlavy sprchovou hlavici. Sochař Jaroslav Róna říká, že nápad vzešel ze žirafy a z toho, jak se s dcerou díval na filmy o Pokémonech.
+
+Róna, narozený v roce 1957, patří k nejznámějším českým sochařům své generace. Je zakládajícím členem výtvarné skupiny Tvrdohlaví z 80. let a autorem pomníku Franze Kafky v Josefově, kde malý Kafka sedí na ramenou prázdného obleku. Žirafa vznikla na soukromou zakázku a pracoval na ní přes tři roky. Váží asi 7,5 tuny a je svařená z asi 180 bronzových dílů a desítek kusů nerezové oceli, natřená načerveno, aby vynikla mezi okolním sklem a šedí. Je navržena tak, aby přečkala zemětřesení silnější než 7 stupňů, což je na Prahu dost velká opatrnost. Na malé náměstíčko před budovou Enterprise byla osazena 10. listopadu 2020 a o týden později, 17. listopadu, slavnostně odhalena. Róna jí říká „složitá sprcha se čtyřma nohama“ a chtěl, aby byla stejně hravá jako „ty podivné malé postavičky“ z Pokémonů.
+
+🎁 Bonus: Kvůli dřívějšímu obrovi, jezdecké soše markraběte Jošta v Brně, musel Róna sundat střechu ateliéru, aby hotové dílo dostal ven. Tentokrát se poučil a žirafa opustila ateliér ve dvou polovinách, které se spojily až na místě na Pankráci.`,
+
+      zh: `在潘克拉茨的玻璃办公楼之间，站着一位十米高的鲜红色邻居：一只长脖子的四脚生物，本该长脑袋的地方，却是一个淋浴喷头。雕塑家雅罗斯拉夫·罗纳说，灵感来自长颈鹿，也来自他陪女儿看的宝可梦电影。
+
+罗纳生于1957年，是同代捷克雕塑家中最知名的人物之一，也是1980年代艺术团体“倔强派”的创始成员。布拉格犹太区那座卡夫卡纪念像就是他的作品：一个小小的卡夫卡骑在一套空荡荡的西装肩上。这只长颈鹿是私人委托的，他做了三年多。它重约7.5吨，由大约180块青铜部件和几十块不锈钢构件焊接而成，然后刷成红色，好在周围的玻璃和灰色里跳出来。它的设计能扛住七级以上的地震，对布拉格来说，这份谨慎实在有点多余。2020年11月10日，它被安放在企业大厦前的小广场上，一周后的11月17日正式揭幕。罗纳管它叫“一个有四条腿的复杂淋浴器”，说他希望它能像宝可梦里“那些古怪的小家伙”一样好玩。
+
+🎁 彩蛋：罗纳之前做过另一个大家伙，布尔诺的约斯特侯爵骑马像，那次为了把完工的雕像运出去，他只好把工作室的屋顶拆了。这次他吸取了教训：长颈鹿分成两半离开工作室，到了潘克拉茨才拼到一起。`,
+    },
+  },
+  {
+    // Sources: cs.wikipedia Nuselská mlékárna ("První česká akciová parní
+    // mlékárna" between Nuselská, Kloboučnická and V Horkách; founded 1901,
+    // plans by architect-builder Rudolf Kříženecký; eastward extensions 1910
+    // and 1914, more in the 1920s; 1929 main building enlarged with a mansard
+    // roof by Karel Pokorný; butter, cheese, yoghurt, soup seasoning, the
+    // "Nuselský uzený sýr" in cube and triangle shapes sold at its own shop
+    // at the gate; limited in WWII; Laktos after 1948; sold 1992 and turned
+    // into offices/storage/retail; demolition from spring 2019; Trigema's
+    // Nová Nuselská, first residents 2021; chimney kept; community garden
+    // 2023 recalling 19th–20th-c. vegetable growing), trigema.cz,
+    // tvarchitect.com (only the chimney kept). Rarity 'common' is my pick.
+    name: 'Nusle Dairy (Nová Nuselská)',
+    slug: 'nuselska-mlekarna',
+    localizedNames: { cz: 'Nuselská mlékárna (Nová Nuselská)', zh: '努斯莱乳品厂（新努斯莱）' },
+    labels: ['factory', 'historical'],
+    coordinates: { lat: 50.06102184705243, lng: 14.447920233263273 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Nuselsk%C3%A1_ml%C3%A9k%C3%A1rna',
+    description: {
+      en: `Between Nuselská and Kloboučnická streets stands a new block of flats with one odd feature: a tall brick factory chimney in the middle of it, with no factory attached. The chimney is the last piece of the Nusle dairy, which for almost a century supplied this part of Prague with butter, yoghurt and a well-loved smoked cheese.
+
+The dairy was founded in 1901 under the proud name of the First Czech Joint-Stock Steam Dairy, and built to plans by the architect and builder Rudolf Kříženecký. It did well. The complex was extended eastwards in 1910 and 1914 and again in the 1920s, and in 1929 the architect Karel Pokorný enlarged the main production building and gave it the mansard roof that made it recognisable from the street. Besides the usual butter, cheese and yoghurt, it made soup seasoning, and its best-known product was Nusle smoked cheese, sold in little cubes and triangles at the dairy's own shop by the gate on Nuselská street. Production was cut back during the Second World War, and after 1948 the plant was nationalised into the state dairy enterprise Laktos. In 1992 the site was sold, and the new owner turned it into offices, storerooms and shops. In the spring of 2019 the bulldozers moved in, and the developer Trigema built the Nová Nuselská residential complex in its place. The first residents moved in in 2021. The old industrial chimney in the south-west corner was kept as a reminder of what used to be here.
+
+🎁 Bonus: Long before the dairy, this part of Nusle was market-garden country, and the valley fed the city with vegetables through the nineteenth and early twentieth centuries. In 2023 a community garden opened next to the new flats, so people are growing vegetables here again, in the shadow of a chimney that no longer has anything to do.`,
+
+      cz: `Mezi ulicemi Nuselská a Kloboučnická stojí nový bytový komplex s jednou zvláštností: uprostřed něj se tyčí vysoký cihlový tovární komín, ke kterému už žádná továrna nepatří. Komín je poslední kus Nuselské mlékárny, která tuhle část Prahy skoro sto let zásobovala máslem, jogurty a oblíbeným uzeným sýrem.
+
+Mlékárna vznikla v roce 1901 pod hrdým jménem První česká akciová parní mlékárna a postavila se podle plánů architekta a stavitele Rudolfa Kříženeckého. Dařilo se jí. Areál se rozšířil na východ v letech 1910 a 1914 a znovu ve 20. letech a v roce 1929 architekt Karel Pokorný zvětšil hlavní výrobní budovu a dal jí mansardovou střechu, podle které byla z ulice k poznání. Kromě obvyklého másla, sýrů a jogurtů vyráběla i polévkové koření a nejznámějším výrobkem byl nuselský uzený sýr, prodávaný v kostičkách a trojúhelníčcích ve vlastní prodejně u vrat v Nuselské ulici. Za druhé světové války byla výroba omezena a po roce 1948 závod připadl národnímu podniku Laktos. V roce 1992 byl areál prodán a nový majitel z něj udělal kanceláře, sklady a obchody. Na jaře 2019 přijely bagry a developer Trigema na jeho místě postavil bytový komplex Nová Nuselská. První obyvatelé se stěhovali v roce 2021. Starý tovární komín v jihozápadním rohu zůstal jako připomínka toho, co tu dřív stálo.
+
+🎁 Bonus: Dlouho před mlékárnou byla tahle část Nuslí krajem zelinářských zahrad a údolí v 19. a na začátku 20. století zásobovalo město zeleninou. V roce 2023 vznikla vedle nových domů komunitní zahrada, takže se tu zase pěstuje zelenina, ve stínu komínu, který už nemá co na práci.`,
+
+      zh: `在努斯莱大街和克洛布奇尼茨卡街之间，有一片新建的住宅楼，它有个奇怪的地方：楼群中间立着一根高高的砖砌工厂烟囱，却已经没有工厂跟它配套了。这根烟囱是努斯莱乳品厂留下的最后一样东西，这家厂差不多一百年里一直给布拉格这一带供应黄油、酸奶和一种很受欢迎的烟熏奶酪。
+
+乳品厂创办于1901年，用了一个相当自豪的名字：“第一捷克股份蒸汽乳品厂”，按建筑师兼营造商鲁道夫·克日热内茨基的图纸建成。生意不错：厂区在1910年和1914年向东扩建，1920年代又扩了一轮，1929年建筑师卡雷尔·波科尔尼把主生产楼加大，还给它加了一个复折式屋顶，让人在街上一眼就能认出来。除了常见的黄油、奶酪和酸奶，这里还生产汤料，最出名的产品是努斯莱烟熏奶酪，切成小方块和小三角，在努斯莱大街厂门口的自营小店里出售。二战期间生产缩减，1948年后工厂并入国营乳品企业拉克托斯。1992年厂区被卖掉，新主人把它改成了办公室、仓库和商铺。2019年春天，推土机开了进来，开发商特里格玛在原址上建起了“新努斯莱”住宅区，2021年第一批住户搬了进来。西南角那根老工业烟囱被保留下来，提醒人们这里从前是什么。
+
+🎁 彩蛋：早在乳品厂出现之前，努斯莱这一带就是菜园区，整个19世纪到20世纪初，这条河谷一直为布拉格城里供应蔬菜。2023年，新楼旁边开了一个社区菜园，于是这里又种起了菜，就在那根已经无事可做的烟囱底下。`,
+    },
+  },
+  {
+    // Sources: cs.wikipedia Plynárna Michle (branch of Pražská plynárenská,
+    // U plynárny; built 1925–27 to designs by Josef Kalous; replaced the
+    // Žižkov, Holešovice and Smíchov gasworks; natural-gas splitting after
+    // 1959; coal gas ended 1975 after the new Horní Měcholupy plant; fire in
+    // a gasholder 6 Jan 1961, 84 m high, 50 m wide, ~147,000 m³ of gas, out
+    // within a day, no injuries, area evacuated; gas-industry museum 1999),
+    // lifee.cz "Plynárna Michle slaví 95 let" (operations started 31 Dec
+    // 1926; formal opening 18–19 May 1927 with a programme at the Municipal
+    // House, the mayor and Foreign Minister Beneš; his wife was given a small
+    // bottle of toilet water made in the gasworks' chemical laboratory),
+    // ppas.cz (museum). I didn't verify which gasholders still stand, so the
+    // card doesn't claim any. Rarity 'rare' is my own pick.
+    name: 'Michle Gasworks',
+    slug: 'plynarna-michle',
+    localizedNames: { cz: 'Plynárna Michle', zh: '米赫莱煤气厂' },
+    labels: ['factory', 'historical', 'museum'],
+    coordinates: { lat: 50.05642347774424, lng: 14.46438306748174 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Plyn%C3%A1rna_Michle',
+    description: {
+      en: `Beside the railway yards of Michle sits the city's gasworks, a large industrial site that for half a century turned coal into the gas that lit Prague's lamps and heated its kitchens. It still works for the Prague gas company today, and it also keeps the country's first museum of the gas industry. At its opening, it even produced perfume.
+
+The gasworks was built between 1925 and 1927 to designs by the architect Josef Kalous, as a single modern plant to replace Prague's older town gasworks. Production started on 31 December 1926, and once Michle was running, the gasworks in Žižkov, Holešovice and Smíchov could all be shut down. The official opening came in May 1927 with a ceremony at the Municipal House and a tour of the plant for the mayor, Foreign Minister Edvard Beneš and other guests. For most of its life Michle made coal gas, by heating coal in ovens and collecting what came off. After 1959 it also began splitting natural gas, and in 1975, once a new plant opened at Horní Měcholupy, coal-gas production here ended for good. Its most dramatic day was 6 January 1961, when a fault set one of the gasholders on fire. The tank was 84 metres high and 50 metres wide and held around 147,000 cubic metres of gas at the time. The surrounding area was evacuated, most of the gas burned off, and firefighters had it out within a day with nobody hurt. In 1999 the company opened a museum on the site, the first in the country devoted to gas production.
+
+🎁 Bonus: Coal gas leaves behind a whole range of chemical by-products, and the gasworks had its own chemistry laboratory to deal with them. For the grand opening in May 1927, the chairman of the board handed Beneš's wife, Hana, a small bottle of toilet water made in that laboratory. It may be the only perfume ever produced by a Prague gasworks.`,
+
+      cz: `Vedle michelského seřaďovacího nádraží leží městská plynárna, velký průmyslový areál, který půl století vyráběl z uhlí plyn pro pražské lampy a kuchyně. Dodnes slouží Pražské plynárenské a navíc v něm sídlí první muzeum plynárenství v zemi. Při otevření dokonce vyrobila parfém.
+
+Plynárna vznikla v letech 1925 až 1927 podle návrhu architekta Josefa Kalouse jako jeden moderní závod, který měl nahradit starší pražské městské plynárny. Výroba se rozběhla 31. prosince 1926 a jakmile Michle jela, mohly se zavřít plynárny na Žižkově, v Holešovicích a na Smíchově. Slavnostní otevření přišlo v květnu 1927, s programem v Obecním domě a prohlídkou závodu pro primátora, ministra zahraničí Edvarda Beneše a další hosty. Po většinu své existence vyráběla Michle svítiplyn, tedy plyn, který vzniká zahříváním uhlí v pecích. Po roce 1959 začala štěpit také zemní plyn a v roce 1975, když se otevřel nový závod v Horních Měcholupech, tu výroba svítiplynu definitivně skončila. Nejdramatičtější den zažila 6. ledna 1961, kdy kvůli poruše začal hořet jeden z plynojemů. Byl 84 metrů vysoký a 50 metrů široký a v tu chvíli v něm bylo asi 147 000 kubíků plynu. Okolí bylo evakuováno, většina plynu shořela a hasiči požár do druhého dne uhasili, aniž by se někomu něco stalo. V roce 1999 otevřela společnost v areálu muzeum, první v zemi věnované výrobě plynu.
+
+🎁 Bonus: Při výrobě svítiplynu vzniká celá řada chemických vedlejších produktů a plynárna na ně měla vlastní chemickou laboratoř. Při slavnostním otevření v květnu 1927 předal předseda správní rady Benešově manželce Haně lahvičku toaletní vody, vyrobené právě v téhle laboratoři. Nejspíš jde o jediný parfém, jaký kdy vyrobila pražská plynárna.`,
+
+      zh: `米赫莱铁路编组站旁边，是布拉格的煤气厂。这片庞大的工业区有半个世纪一直在把煤变成煤气，点亮布拉格的路灯，也烧热家家户户的厨房。它至今仍在为布拉格煤气公司运转，厂里还有全国第一座燃气工业博物馆。开张那天，它甚至还出产过香水。
+
+煤气厂建于1925至1927年，由建筑师约瑟夫·卡劳斯设计，目的是用一座现代化大厂取代布拉格几座老旧的市立煤气厂。1926年12月31日开始生产，米赫莱一投产，日什科夫、霍莱绍维采和斯米霍夫的煤气厂就都可以关门了。正式的落成典礼在1927年5月举行，先在市民会馆办了仪式，再请市长、外交部长爱德华·贝奈斯和其他来宾参观工厂。在大半个生命里，米赫莱生产的是煤气，也就是在炉子里加热煤炭时释放出来的气体。1959年后，这里开始裂解天然气；1975年，霍尔尼·梅霍卢佩的新厂投产，这里的煤气生产便彻底停止了。它最惊险的一天是1961年1月6日，一只储气罐因为故障起了火。那只罐子高84米、宽50米，当时装着约14.7万立方米的煤气。周边地区被疏散，大部分煤气烧掉了，消防员在一天之内把火扑灭，没有人受伤。1999年，公司在厂区开了一座博物馆，是全国第一座专门讲煤气生产的博物馆。
+
+🎁 彩蛋：炼煤气会产生一大堆化学副产品，所以煤气厂有自己的化学实验室来处理它们。1927年5月的落成典礼上，董事会主席送给贝奈斯的夫人哈娜一小瓶花露水，就是这个实验室做出来的。这大概是布拉格的煤气厂唯一出产过的一瓶香水。`,
+    },
+  },
+  {
+    // Sources: loxia.cz / cpre.cz / search summaries (commercial and office
+    // centre completed 2001–03 at Antala Staška 2027/77; a five-storey
+    // horizontal block and a ten-storey tower, three underground parking
+    // levels; Loxia with the Swedish architect Eva Gräne), retro.dbkpraha.cz
+    // "Historie Budějovické" (Budějovická and Vídeňská follow ancient trade
+    // routes; surroundings practically unbuilt until the 20th century, known
+    // for fruit and vegetable growing; the Antala Staška estate 1957–64 next
+    // to DBK described as Prague's first panel estate — other sources also
+    // name Zelená Liška/Herálecká and Petřiny among the oldest, so the card
+    // says "one of the first"). Metro 1974 / 1922 merger are already on the
+    // neighbouring `budejovicke-namesti` card, so left out here. Rarity
+    // 'common' is my own pick.
+    name: 'Budějovická Alej Office Centre',
+    slug: 'budejovicka-alej',
+    localizedNames: { cz: 'Budějovická alej', zh: '布杰约维采林荫道办公中心' },
+    labels: ['modern', 'architecture'],
+    coordinates: { lat: 50.042547434584904, lng: 14.448037505944113 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `By the Budějovická metro station, a low glass office block and a ten-storey tower stand joined together at a busy junction. It is a very ordinary piece of 2000s Prague. The road outside is not ordinary at all, because people have been travelling along it towards southern Bohemia and Vienna for centuries.
+
+Budějovická street and neighbouring Vídeňská follow two of the oldest trade routes out of Prague: the road south to České Budějovice and the road to Vienna. For most of their history, though, the land on either side was almost empty, fields, orchards and market gardens that supplied the city with fruit and vegetables. Until the 1950s this corner, where Michle meets Krč, still counted as the edge of town. Then the housing came. Between 1957 and 1964 one of Prague's very first prefabricated panel estates, the Antala Staška estate, went up just south-west of the junction, followed by the estates of Pankrác, Michelská and Horní Krč. The metro arrived in 1974, and the area around the station filled up with shops and offices. The Budějovická Alej centre was completed in 2001–03 to a design by the Loxia studio working with the Swedish architect Eva Gräne. It is really two buildings joined into one: a five-storey horizontal block and a ten-storey tower, with three floors of underground parking beneath them.
+
+🎁 Bonus: Which was Prague's very first panel estate depends on whom you ask. The oldest blocks built from whole-wall concrete panels stand in three places: the Antala Staška estate here, the Herálecká estate at Zelená Liška just up the road, and Petřiny on the far side of the city. So two of the three contenders for the start of the Czechoslovak panel-housing age are within a short walk of this office tower.`,
+
+      cz: `U stanice metra Budějovická stojí na rušné křižovatce nízká prosklená kancelářská budova spojená s desetipatrovou věží. Je to velmi obyčejný kus Prahy z nultých let. Silnice před ní ale obyčejná vůbec není, protože po ní lidé jezdí do jižních Čech a do Vídně už celá staletí.
+
+Budějovická a sousední Vídeňská ulice sledují dvě z nejstarších obchodních cest z Prahy: silnici na jih do Českých Budějovic a cestu do Vídně. Po většinu dějin byla ale půda po obou stranách téměř prázdná, pole, sady a zelinářské zahrady, které zásobovaly město ovocem a zeleninou. Až do 50. let se tenhle kout, kde se potkává Michle s Krčí, pořád počítal k okraji města. Pak přišla bytová výstavba. V letech 1957 až 1964 vyrostlo jihozápadně od křižovatky jedno z úplně prvních pražských panelových sídlišť, sídliště Antala Staška, a po něm sídliště Pankrác, Michelská a Horní Krč. V roce 1974 dorazilo metro a okolí stanice se zaplnilo obchody a kancelářemi. Centrum Budějovická alej bylo dokončeno v letech 2001–03 podle návrhu ateliéru Loxia ve spolupráci se švédskou architektkou Evou Gräne. Ve skutečnosti jde o dvě budovy spojené v jednu: pětipodlažní horizontální blok a desetipodlažní věž, pod nimiž jsou tři patra podzemních garáží.
+
+🎁 Bonus: Které sídliště bylo v Praze úplně první panelové, záleží na tom, koho se zeptáte. Nejstarší domy z celostěnových betonových panelů stojí na třech místech: na sídlišti Antala Staška tady, na sídlišti Herálecká na Zelené Lišce kousek odsud a na Petřinách na druhém konci města. Dva ze tří kandidátů na začátek československé panelové éry jsou tak od téhle kancelářské věže jen pár minut chůze.`,
+
+      zh: `布杰约维采地铁站旁的繁忙路口上，一栋低矮的玻璃办公楼和一座十层塔楼连在一起。这是2000年代布拉格再普通不过的一栋建筑。可门外那条路一点也不普通：几百年来，人们一直沿着它前往南波希米亚和维也纳。
+
+布杰约维采大街和旁边的维也纳大街，沿着的是布拉格最古老的两条对外商路：一条向南通往捷克布杰约维采，一条通往维也纳。不过在大部分历史里，道路两旁几乎是空的，都是田地、果园和菜园，为城里供应水果和蔬菜。直到1950年代，米赫莱和克尔奇交界的这个角落还算是城市边缘。之后住宅来了。1957到1964年，路口西南边建起了布拉格最早的预制板住宅区之一，安塔尔·斯塔什卡住宅区，随后又有潘克拉茨、米赫莱和上克尔奇的住宅区。1974年地铁通到这里，车站周边渐渐挤满了商铺和办公楼。布杰约维采林荫道办公中心于2001至2003年建成，由洛克西亚事务所与瑞典建筑师埃娃·格雷内合作设计。它其实是两栋楼连成一体：一栋五层的横向楼和一座十层塔楼，底下还有三层地下停车场。
+
+🎁 彩蛋：布拉格第一个预制板住宅区到底是哪个，要看你问谁。用整面墙混凝土预制板盖的最老的楼房在三个地方：这里的安塔尔·斯塔什卡住宅区，往北不远的绿狐狸一带的赫拉莱茨卡住宅区，还有城市另一头的佩特日尼。也就是说，捷克斯洛伐克预制板时代起点的三个候选者里，有两个离这栋办公楼只有几分钟步行路程。`,
+    },
+  },
+  {
+    // Sources: cs.wikipedia Praha 4 (summer 2011: most departments, until
+    // then in provisional or scattered premises, moved into the converted
+    // polyclinic building by Budějovická metro, Antala Staška 2059/80b, leased
+    // for 35 years despite opposition), praha-kunratice.cz (office in the
+    // reconstructed and newly built former main building of the polyclinic;
+    // Poliklinika Budějovická still at Antala Staška 1670/80). Antal Stašek
+    // = pen name of Antonín Zeman (1843–1931), lawyer and writer from the
+    // Krkonoše foothills, father of Ivan Olbracht — well known. Population
+    // hedged as "about 130,000". Rarity 'common' is my own pick.
+    name: 'Prague 4 District Office',
+    slug: 'urad-mestske-casti-praha-4',
+    localizedNames: { cz: 'Úřad městské části Praha 4', zh: '布拉格4区区政府大楼' },
+    labels: ['municipal', 'architecture'],
+    coordinates: { lat: 50.043030825071675, lng: 14.450094298839888 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Prague 4 has about 130,000 residents, more than any Czech city except Prague, Brno, Ostrava and Plzeň, and this is where they come to register a car, get married or complain about a building permit. The office moved in only in 2011, into a building that spent its first life as a polyclinic, which is fitting for a place that deals with so many headaches.
+
+Prague 4 stretches along the right bank of the Vltava south of Vyšehrad and takes in Nusle, Michle, Krč, Podolí, Braník, Lhotka, Hodkovičky and the towers of Pankrác. Most of these were separate villages and towns until 1922, when they became part of Greater Prague. For a long time the district's administration had no proper home, and its departments were spread across provisional offices in different parts of the district. In the summer of 2011 most of them moved here, into the rebuilt and extended former main building of the Budějovická polyclinic, right by the metro station. The district leased the building for 35 years, a deal pushed through despite opposition, but it did finally put the office under one roof. The polyclinic itself still runs next door, so a visitor can see a doctor and deal with the authorities within a few steps of each other.
+
+🎁 Bonus: The street outside, Antala Staška, is named after a writer who never really existed. "Antal Stašek" was the pen name of Antonín Zeman (1843–1931), a lawyer from the Krkonoše foothills who wrote novels about the poor and the religious dreamers of his home hills. His son also became a writer and also chose a pen name, and is much better known under it: Ivan Olbracht.`,
+
+      cz: `Praha 4 má asi 130 000 obyvatel, víc než kterékoli české město kromě Prahy, Brna, Ostravy a Plzně, a sem si chodí přihlásit auto, uzavřít sňatek nebo si stěžovat na stavební povolení. Úřad se sem nastěhoval až v roce 2011, do budovy, která svůj první život prožila jako poliklinika, což se k místu, které řeší tolik bolení hlavy, docela hodí.
+
+Praha 4 se táhne podél pravého břehu Vltavy jižně od Vyšehradu a patří k ní Nusle, Michle, Krč, Podolí, Braník, Lhotka, Hodkovičky i pankrácké věže. Většina z nich byla samostatnými obcemi a městy až do roku 1922, kdy se staly součástí Velké Prahy. Úřad městské části dlouho neměl pořádný domov a jeho odbory byly rozeseté po provizorních kancelářích v různých koutech obvodu. V létě 2011 se většina z nich přestěhovala sem, do přestavěné a dostavěné bývalé hlavní budovy polikliniky Budějovická hned u stanice metra. Městská část si budovu pronajala na 35 let, a to navzdory odporu, úřad se ale konečně dostal pod jednu střechu. Samotná poliklinika dál funguje hned vedle, takže návštěvník může zajít k lékaři i na úřad pár kroků od sebe.
+
+🎁 Bonus: Ulice před úřadem, Antala Staška, nese jméno spisovatele, který vlastně nikdy neexistoval. „Antal Stašek“ byl pseudonym Antonína Zemana (1843–1931), advokáta z podkrkonoší, který psal romány o chudých lidech a náboženských blouznivcích svého kraje. Jeho syn se stal také spisovatelem, také si zvolil pseudonym a pod ním je dnes mnohem známější: Ivan Olbracht.`,
+
+      zh: `布拉格4区大约有13万居民，除了布拉格、布尔诺、俄斯特拉发和比尔森，比捷克任何一座城市的人口都多，他们来这里给车上牌、登记结婚，或者投诉建筑许可。区政府2011年才搬进这栋楼，而这栋楼的前半生是一家综合诊所，对一个天天处理各种头疼事的地方来说，倒也合适。
+
+布拉格4区沿着伏尔塔瓦河右岸，从维谢赫拉德往南延伸，包括努斯莱、米赫莱、克尔奇、波多利、布拉尼克、洛特卡、霍德科维奇基，还有潘克拉茨的高楼群。这些地方大多在1922年并入大布拉格之前都是独立的村镇。区政府很长时间都没有一个像样的家，各个部门分散在区内各处的临时办公室里。2011年夏天，大部分部门搬到了这里，也就是地铁站旁边、经过改建和扩建的布杰约维采综合诊所原主楼。区政府不顾反对意见，把这栋楼租了35年，不过总算让各部门搬到了同一个屋檐下。诊所本身还在隔壁照常营业，所以来这儿的人看病和办事，只隔几步路。
+
+🎁 彩蛋：门外那条安塔尔·斯塔什卡街，是以一位其实并不存在的作家命名的。“安塔尔·斯塔什卡”是安东宁·泽曼（1843–1931）的笔名，他是来自克尔科诺谢山麓的律师，写过不少关于家乡穷苦人和宗教狂热者的小说。他的儿子后来也成了作家，也给自己起了个笔名，而且用笔名出的名要大得多：伊万·奥尔布拉赫特。`,
+    },
+  },
+  {
+    // Sources: cs.wikipedia Kunratický potok (about 11 km, catchment 31.56
+    // km²; rises SW of Hrnčířský rybník in Kunratice, joins the Vltava near
+    // the Barrandov bridge; called Kněžka in Krč and Kundrát in Braník;
+    // ponds incl. Šeberák, Hornomlýnský, Dolnomlýnský, Pivovarský, Sýkorka,
+    // Zámecký, Statkový, the Thomayer hospital pond, Labuť), netopyripraha.cz
+    // (Sýkorka between Praha-Krč station and the Jižní spojka, run by the
+    // local angling club; Zámecký rybník fenced on private land; bats hunt
+    // over the ponds; old hollow trees on the dam), cs.wikipedia Krč (zámek)
+    // / turistika.cz (Dolní Krč fortress 1222 Vyšehrad Chapter, 1273 seat of
+    // the Vyšehrad provost, taken 1420 by Hussites under Žižka on the way to
+    // help Prague against Sigismund; neo-Gothic rebuild 1860–80 under Baron
+    // Karel Schlosser, fan of English parks; castle at V podzámčí 1/6, south
+    // of Zámecký rybník; now Hotel Château St. Havel). Origin of the name
+    // Sýkorka not found, so not explained. Rarity 'common' is my own pick.
+    name: 'Sýkorka Pond and Castle Pond',
+    slug: 'rybnik-sykorka-a-zamecky-rybnik',
+    localizedNames: { cz: 'Rybník Sýkorka a Zámecký rybník', zh: '西科尔卡池塘与城堡池塘' },
+    labels: ['waterbody', 'nature'],
+    coordinates: { lat: 50.03638110959927, lng: 14.449215472315695 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Just below the Krč railway station, squeezed between the tracks and a six-lane motorway, lie two quiet ponds with old trees along their dams, anglers on the banks and bats hunting over the water at dusk. One of them even comes with a castle, although you'll have to admire it from the other side of a fence.
+
+Both ponds sit on the Kunratický potok, a brook about 11 kilometres long that rises in Kunratice and flows into the Vltava near the Barrandov bridge. Along its short run it feeds a whole chain of ponds, from the big Šeberák at the top down to Labuť near the river, and in Krč the locals have their own name for it, Kněžka. Sýkorka is the public one. It lies between the Praha-Krč station and the Jižní spojka motorway and is looked after by the local angling club. The Castle Pond next to it is fenced off on private land, and it takes its name from the Krč chateau just to the south. There was a fortress here, in the village of Dolní Krč, as early as 1222, when it belonged to the Vyšehrad Chapter, and in 1273 it was the residence of the Provost of Vyšehrad. In 1420 the Hussites under Jan Žižka took it on their march to help Prague against King Sigismund. The building you see now is the result of a rebuild between 1860 and 1880 under Baron Karel Schlosser, who admired English country houses and gave it neo-Gothic façades and battlements, and laid out the park around it on the English model. Today it is a hotel.
+
+🎁 Bonus: The ponds are one of the better places in Prague to watch bats. The shallow water breeds plenty of insects, and the big old trees on the dams, full of hollows and loose bark, give the bats somewhere to sleep through the day, so on a summer evening you can watch them skimming the surface a stone's throw from the motorway.`,
+
+      cz: `Kousek pod nádražím Praha-Krč, vmáčknuté mezi koleje a šestiproudovou dálnici, leží dva klidné rybníky se starými stromy na hrázích, rybáři na březích a netopýry, kteří za soumraku loví nad hladinou. K jednomu z nich dokonce patří zámek, i když ten budete obdivovat přes plot.
+
+Oba rybníky leží na Kunratickém potoce, asi 11 kilometrů dlouhém toku, který pramení v Kunraticích a u Barrandovského mostu se vlévá do Vltavy. Na své krátké cestě napájí celou řadu rybníků, od velkého Šeberáku nahoře až po Labuť u řeky, a v Krči mu místní říkají po svém, Kněžka. Sýkorka je ten veřejný. Leží mezi nádražím Praha-Krč a Jižní spojkou a stará se o ni místní rybářská organizace. Zámecký rybník vedle ní je oplocený na soukromém pozemku a jméno má po krčském zámku kousek na jih. Tvrz tu, ve vsi Dolní Krč, stála už v roce 1222, kdy patřila vyšehradské kapitule, a v roce 1273 tu sídlil vyšehradský probošt. V roce 1420 ji dobyli husité pod vedením Jana Žižky, když táhli Praze na pomoc proti králi Zikmundovi. Dnešní podoba je výsledkem přestavby z let 1860 až 1880 za barona Karla Schlossera, obdivovatele anglických sídel, který stavbě dal novogotická průčelí a cimbuří a park kolem nechal upravit podle anglického vzoru. Dnes je v zámku hotel.
+
+🎁 Bonus: Rybníky patří k lepším místům v Praze, kde se dají pozorovat netopýři. V mělké vodě se líhne spousta hmyzu a velké staré stromy na hrázích, plné dutin a odchlípnuté kůry, jim poskytují úkryt na den, takže za letního večera je můžete vidět, jak kousek od dálnice krouží těsně nad hladinou.`,
+
+      zh: `就在克尔奇火车站下方，夹在铁轨和一条六车道快速路之间，有两片安静的池塘：堤坝上长着老树，岸边坐着钓鱼的人，黄昏时分还有蝙蝠在水面上捕食。其中一片池塘甚至附带一座城堡，只不过你得隔着围栏欣赏。
+
+两片池塘都在昆拉蒂采溪上。这条小溪长约11公里，发源于昆拉蒂采，在巴兰多夫桥附近汇入伏尔塔瓦河。短短一路上，它串起了一整串池塘，从上游的大池塘舍贝拉克一直到靠近河边的天鹅池，克尔奇本地人还给它起了自己的名字，叫“克涅日卡”。西科尔卡池塘是公共的，位于克尔奇火车站和南环快速路之间，由当地的钓鱼协会管理。旁边的城堡池塘被围在私人地块里，名字来自南边不远处的克尔奇城堡。早在1222年，下克尔奇村这里就有一座要塞，当时属于维谢赫拉德教士团，1273年这里是维谢赫拉德教长的驻地。1420年，胡斯派在扬·杰士卡率领下前去支援布拉格、对抗西吉斯蒙德国王，途中攻下了它。今天看到的样子，是1860到1880年间卡雷尔·施洛瑟男爵改建的结果。他很欣赏英国的乡间宅邸，给城堡加上了新哥特式的立面和城垛，还按英式风格改造了周围的园林。如今城堡是一家酒店。
+
+🎁 彩蛋：这两片池塘是布拉格观察蝙蝠的好地方。浅水里孵出大量昆虫，堤坝上的大老树满是树洞和翘起的树皮，给蝙蝠白天提供了藏身之处。所以夏天傍晚，在离快速路只有一箭之遥的地方，就能看到它们贴着水面盘旋。`,
+    },
+  },
+  {
+    // Sources: vets.cz 2428 (Doudlebská 1334; inscription "V KVĚTNU 1945
+    // BYLI NA TOMTO MÍSTĚ ZAVRAŽDĚNI", 20 names plus three unknown Soviet
+    // soldiers, 23 in all; the name listing I could read showed only 19, so
+    // the card doesn't state a name count; on 8 May members of KG Wallenstein captured 23
+    // defenders of the farm, led them to Doudlebská and made them dig their
+    // own grave before killing them), cs.wikipedia Reitknechtka (early-18th-c.
+    // farmstead in southern Nusle between Družstevní ochoz and the Ohradní
+    // school; Bjaček: only being prepared for defence on 5 May, became one of
+    // the key strongpoints of insurgent Pankrác, SS murdered 23 fighters in
+    // revenge; today an automobile club), fronta.cz (8 May killing of
+    // prisoners from Reitknechtka in Doudlebská; 173 victims incl. 49 women
+    // in Horní/Dolní Krč, Pankrác and Michle per the Prague police
+    // headquarters), irozhlas / Seznam Zprávy (Pankrác and Nusle the main
+    // centres of fighting, SS from the Benešov training area). Barricade and
+    // the 2 lindens + 12 poplars come from the user (local description); the
+    // same description's "27 dead" isn't reconciled with the stone's 23, so
+    // the card sticks to the stone. Four surnames appear twice on the list;
+    // relationships not verified, so not claimed. Solemn tone per the
+    // mass-death rule. Rarity 'common' is my own pick.
+    name: 'Memorial to the Victims of the Prague Uprising (Doudlebská)',
+    slug: 'pomnik-obetem-prazskeho-povstani-doudlebska',
+    localizedNames: { cz: 'Pomník obětem Pražského povstání (Doudlebská)', zh: '布拉格起义遇难者纪念碑（杜德莱布斯卡街）' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.05188638004108, lng: 14.442240985559488 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `On a patch of lawn off Doudlebská street, between the office blocks of Pankrác, stands a plain stone with a list of names. It marks the place where, in the last days of the Second World War, German SS troops shot twenty-three captured Czech fighters after making them dig their own grave.
+
+When the Prague Uprising broke out on 5 May 1945, Pankrác and Nusle became the scene of its heaviest fighting. The SS battle group Wallenstein was pushing into the city from the south, from the training grounds around Benešov, and local people threw up barricades across the approaches, including one on this spot. A little further north stood Reitknechtka, an old farmstead dating back to the early eighteenth century. On 5 May its defenders were only starting to prepare it for a fight, but over the following days it became one of the key strongpoints of insurgent Pankrác. On 8 May, with the uprising close to its end, SS men captured twenty-three of the farm's defenders and led them here, to Doudlebská. They were forced to dig their own grave and were then killed. The stone reads "In May 1945 these people were murdered on this spot", followed by the names of the dead and, at the end, "three unknown Soviet soldiers". It was one of many killings in those few days. The Prague police later counted 173 people murdered in Krč, Pankrác and Michle alone, 49 of them women.
+
+🎁 Bonus: Two linden trees and twelve poplars were planted near the memorial. Among the names on the stone, four surnames appear twice: Dzedzik, Kronberg, Pražák and Šrajer. The farmstead the men defended still stands, repaired and now used by an automobile club, about ten minutes' walk to the north.`,
+
+      cz: `Na kousku trávníku u Doudlebské ulice, mezi kancelářskými budovami Pankráce, stojí prostý kámen se seznamem jmen. Označuje místo, kde v posledních dnech druhé světové války jednotky SS zastřelily třiadvacet zajatých českých bojovníků poté, co je donutily vykopat si vlastní hrob.
+
+Když 5. května 1945 vypuklo Pražské povstání, staly se Pankrác a Nusle dějištěm jeho nejtěžších bojů. Od jihu, z cvičiště u Benešova, se do města tlačila bojová skupina SS Wallenstein a místní lidé stavěli na přístupových cestách barikády, jednu z nich i na tomhle místě. O kus dál na sever stála Reitknechtka, stará usedlost z počátku 18. století. Pátého května ji obránci teprve začínali připravovat k boji, v dalších dnech se ale stala jedním z klíčových opěrných bodů povstaleckého Pankráce. Osmého května, kdy se povstání chýlilo ke konci, zajali esesáci třiadvacet jejích obránců a odvedli je sem, do Doudlebské. Museli si vykopat vlastní hrob a pak byli zavražděni. Na kameni stojí „V květnu 1945 byli na tomto místě zavražděni“, pod tím jména mrtvých a na konci „tři neznámí sovětští vojáci“. Byla to jedna z mnoha vražd těch několika dnů. Pražské policejní ředitelství později napočítalo jen v Krči, na Pankráci a v Michli 173 zavražděných, z toho 49 žen.
+
+🎁 Bonus: Poblíž pomníku byly vysazeny dvě lípy a dvanáct topolů. Mezi jmény na kameni se čtyři příjmení objevují dvakrát: Dzedzik, Kronberg, Pražák a Šrajer. Usedlost, kterou ti muži bránili, dodnes stojí, opravená, a dnes ji používá autoklub, asi deset minut chůze na sever.`,
+
+      zh: `在潘克拉茨的办公楼之间，杜德莱布斯卡街旁的一小块草坪上，立着一块刻着名单的朴素石碑。它标记的是这样一个地方：二战最后几天，德国党卫军在这里强迫二十三名被俘的捷克战士为自己挖好坟墓，然后杀害了他们。
+
+1945年5月5日布拉格起义爆发后，潘克拉茨和努斯莱成了战斗最激烈的地方。党卫军华伦斯坦战斗群从南边贝内绍夫一带的训练场向城里推进，当地居民在各条通道上筑起街垒，这里也有一道。往北不远处，是一座建于18世纪初的老农庄，叫赖特克内赫特卡。5月5日，守卫者们才刚开始把它布置成据点，可在接下来几天里，它成了起义中潘克拉茨最关键的据点之一。5月8日，起义已接近尾声，党卫军俘虏了农庄的二十三名守卫者，把他们押到这里，逼他们挖好自己的坟墓，然后杀害了他们。石碑上刻着“1945年5月，这些人在此地被杀害”，下面是遇难者的名字，最后一行是“三名无名苏联士兵”。这只是那几天里众多杀戮中的一起。布拉格警察总局后来统计，仅在克尔奇、潘克拉茨和米赫莱，就有173人遇害，其中49名是女性。
+
+🎁 彩蛋：纪念碑附近种下了两棵椴树和十二棵杨树。石碑上的名字里，有四个姓氏各出现了两次：杰吉克、克龙贝格、普拉扎克和什赖尔。这些人当年守卫的那座农庄至今还在，已经修缮过，现在是一家汽车俱乐部的所在地，往北步行十来分钟就到。`,
+    },
+  },
+  {
+    // Added 2026-09-28 at the user's request, with user-supplied coordinates,
+    // to link the new History event on the 1428 Hussite siege
+    // (the-castle-nobody-came-to-save-1428). Serves as the one card for the
+    // town of Bechyně too. Facts from cs.wikipedia (Bechyně (zámek);
+    // Bechyňský most Duha; Kateřina z Ludanic), zamek-bechyne.cz,
+    // hrady.cz, mestobechyne.cz (Hussite period) and J. Toman, Husitské
+    // válečnictví (1898) on the siege.
+    name: 'Bechyně Chateau',
+    slug: 'zamek-bechyne',
+    localizedNames: { cz: 'Zámek Bechyně', zh: '贝希涅城堡' },
+    labels: ['palace', 'historical', 'architecture'],
+    coordinates: { lat: 49.29167274564841, lng: 14.469006931631561 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Bechyn%C4%9B',
+    description: {
+      en: `Welcome to Bechyně Chateau, sitting on a rock where two rivers meet, which is exactly the kind of spot people have been fortifying for about three thousand years. Kings, Hussites, a lovestruck Rožmberk and a family of Habsburg postmasters have all called it theirs. The rock has outlasted every one of them.
+
+The site above the point where the little Smutná runs into the Lužnice was already fortified in the Bronze Age and later held a Celtic oppidum. In the 11th and 12th centuries Bechyně was an important Přemyslid administrative centre, and in 1268 King Otakar II built a Gothic royal castle here, partly to keep an eye on the powerful Vítkovci family of South Bohemia. By the Hussite Wars it belonged to the Catholic lords of Lažany. In 1419 the first great open-air gatherings of radical Hussites met on a hill near Bechyně that they renamed Mount Tábor, the name the movement and its new town would carry from then on. A Hussite army burned the town of Bechyně in 1422, but the castle held. In July 1428 Prokop the Great came back with the whole Táborite army, surrounded the castle with four camps and bombarded it for some fifteen weeks. Jan Žižka's brother Jaroslav is said to have been shot dead from the walls during the siege. The surviving garrison of about a hundred men surrendered in October and was allowed to march out free.
+
+In 1569 the estate was bought by Petr Vok of Rožmberk, the last of his family, who had the old castle rebuilt in 1581–1584 as a Renaissance residence by the Italian architect Baldassare Maggi, with painted and sgraffito facades that have few equals in the country. Vok's taste for luxury ran well ahead of his income, and in 1596 he had to sell. The Šternberks held Bechyně for over a century after him, and from 1715 it passed by marriage to the Paar family, who kept it until the communists confiscated it in 1948. Returned to the Paars after 1989 and since sold, the chateau is open for tours again: a rock-cut moat, an artillery bastion looking down on the river confluence, Renaissance halls, and exhibitions in the former granary, including works by the sculptor Vladimír Preclík. Down in the town, the Rainbow Bridge of 1928 still carries road and railway together over the Lužnice on a single concrete arch, and the line it carries, from Tábor to Bechyně, opened in 1903 as the first electrified railway in all of Austria-Hungary, designed by the inventor František Křižík.
+
+🎁 Bonus: on 14 February 1580, Valentine's Day, Petr Vok married Kateřina of Ludanice here. He was almost 41; she was 14 or 15, one of the richest heiresses in Moravia. The marriage produced no heir and the Rožmberk line died with Vok in 1611, but it seems to have been a real attachment: when archaeologists opened the Rožmberk tomb at Vyšší Brod, they found the couple's wedding ring. The chateau still names one of its halls after the wedding.`,
+
+      cz: `Vítej na zámku Bechyně, na skále nad soutokem dvou řek, což je přesně to místo, které lidé opevňují už nějakých tři tisíce let. Za svůj ho považovali králové, husité, zamilovaný Rožmberk i rodina habsburských poštmistrů. Skála je přečkala všechny.
+
+Ostroh nad soutokem Smutné s Lužnicí byl opevněn už v době bronzové a později na něm stálo keltské oppidum. V 11. a 12. století byla Bechyně významným přemyslovským správním centrem a roku 1268 tu Přemysl Otakar II. postavil gotický královský hrad, mimo jiné proto, aby měl na očích mocné jihočeské Vítkovce. V době husitských válek patřila katolickým pánům z Lažan. Roku 1419 se na vrchu u Bechyně, který poutníci přejmenovali na horu Tábor, scházela první velká lidová shromáždění radikálních husitů, a to jméno pak neslo celé hnutí i jeho nové město. Roku 1422 husitské vojsko vypálilo město Bechyni, hrad však vydržel. V červenci 1428 se sem vrátil Prokop Holý s celým táborským vojskem, obklopil hrad čtyřmi ležením a asi patnáct týdnů ho ostřeloval. Při obléhání prý z hradeb zastřelili Žižkova bratra Jaroslava. Zbylých asi sto obránců se v říjnu vzdalo a mohlo volně odejít.
+
+Roku 1569 panství koupil Petr Vok z Rožmberka, poslední svého rodu, a v letech 1581–1584 nechal starý hrad přestavět italským stavitelem Baldassarem Maggim na renesanční sídlo s malovanými a sgrafitovými fasádami, které u nás nemají mnoho obdob. Vokova záliba v přepychu ale výrazně předbíhala jeho příjmy a roku 1596 musel prodat. Po něm drželi Bechyni přes sto let Šternberkové a roku 1715 přešla sňatkem na rod Paarů, kterým patřila, dokud ji roku 1948 nezabavili komunisté. Po roce 1989 byla Paarům vrácena, později prodána a zámek je znovu přístupný: s příkopem vytesaným do skály, dělostřeleckou baštou nad soutokem, renesančními sály a výstavami v bývalé sýpce, mimo jiné s díly sochaře Vladimíra Preclíka. Dole ve městě dodnes převádí most Duha z roku 1928 silnici i železnici společně přes Lužnici po jediném betonovém oblouku. Trať, kterou nese, z Tábora do Bechyně, byla otevřena roku 1903 jako první elektrizovaná železnice v celém Rakousku-Uhersku a navrhl ji vynálezce František Křižík.
+
+🎁 Bonus: 14. února 1580, tedy na svatého Valentýna, se tu Petr Vok oženil s Kateřinou z Ludanic. Jemu bylo skoro 41 let, jí 14 nebo 15 a patřila k nejbohatším dědičkám na Moravě. Dědice se nedočkali a rod Rožmberků s Vokem roku 1611 vymřel, ale zdá se, že šlo o skutečné pouto: když archeologové otevřeli rožmberskou hrobku ve Vyšším Brodě, našli v ní snubní prsten manželů. Jeden ze zámeckých sálů dodnes nese jméno po té svatbě.`,
+
+      zh: `欢迎来到贝希涅城堡。它坐落在两条河交汇处的一块岩石上，这种地方，人类已经连续修了大约三千年的防御工事。国王、胡斯派、一位坠入爱河的罗日姆贝克，还有一个替哈布斯堡家族管邮政的家族，都曾把它当作自己的地盘。最后比他们谁都活得久的，是这块岩石。
+
+小河斯穆特纳在这里汇入卢日尼采河，交汇处上方的这片高地，早在青铜时代就已经筑起了防御，后来又成了凯尔特人的要塞城镇。11至12世纪，贝希涅是普热美斯尔王朝的一处重要行政中心；1268年，国王普热米斯尔·奥托卡二世在这里修建了一座哥特式王室城堡，用意之一，就是盯住南波希米亚势力强大的维特科维奇家族。到了胡斯战争时期，城堡归信奉天主教的拉扎尼家族所有。1419年，激进的胡斯派在贝希涅附近的一座山上举行了最早的几次大规模露天集会，还把这座山改名为“塔博尔山”，从此整个运动和他们后来建起的新城，都用上了这个名字。1422年，一支胡斯军烧毁了贝希涅城，城堡却守住了。1428年7月，大普罗科普带着整支塔博尔军卷土重来，在城堡四周扎下四座营地，连续炮轰了大约十五个星期。据说，杰式卡的弟弟雅罗斯拉夫就是在这次围城中被城墙上射来的子弹打死的。10月，剩下的约一百名守军投降，获准自由离开。
+
+1569年，罗日姆贝克家族的最后一代传人彼得·沃克买下了这片领地，并在1581至1584年间请意大利建筑师巴尔达萨雷·马吉把老城堡改建成了文艺复兴风格的府邸，外墙上的彩绘和刮画装饰，在国内少有能与之相比的。可惜沃克花钱的本事远远超过了挣钱的本事，1596年只好把它卖掉。此后一百多年，贝希涅归什特恩贝克家族所有；1715年又通过联姻传给了帕尔家族，一直到1948年被共产党政府没收。1989年后，城堡归还帕尔家族，后来又被转手卖出，如今重新对游客开放：有凿进岩石里的护城壕，有俯瞰两河交汇处的炮台，有文艺复兴时期的大厅，还有设在旧粮仓里的展览，其中包括雕塑家弗拉基米尔·普雷茨利克的作品。山下的小城里，1928年建成的“彩虹桥”至今仍用一道混凝土拱，同时托着公路和铁路跨过卢日尼采河。桥上这条从塔博尔到贝希涅的铁路，1903年通车，是整个奥匈帝国第一条电气化铁路，设计者是发明家弗朗蒂舍克·克日日克。
+
+🎁 彩蛋：1580年2月14日，也就是情人节那天，彼得·沃克在这里迎娶了卢达尼采的卡特日娜。新郎快四十一岁，新娘只有十四五岁，是摩拉维亚最富有的女继承人之一。两人没能生下继承人，1611年沃克去世，罗日姆贝克家族也随之绝嗣。不过这段婚姻看来是有真感情的：考古学家打开维希布罗德的罗日姆贝克家族墓穴时，找到了两人的结婚戒指。城堡里至今还有一间大厅，以这场婚礼命名。`,
     },
   },
 ];
