@@ -6677,7 +6677,7 @@ export const historyEvents = [
     },
     relatedLandmarks: [
       {
-        slug: "nove-mesto",
+        slug: "novomestska-radnice",
         relation: {
           en: "New Town's own town hall, built a few decades later as the administrative seat of the district this very charter created.",
           cz: "Vlastní radnice Nového Města, postavená o pár desítek let později jako správní sídlo čtvrti, kterou založila právě tahle listina.",
@@ -12260,7 +12260,7 @@ export const historyEvents = [
     ],
     relatedLandmarks: [
       {
-        slug: "nove-mesto",
+        slug: "novomestska-radnice",
         relation: {
           en: "The actual building this card is about — the councillors were thrown from one of its own windows, straight into the crowd below.",
           cz: "Budova, o které tahle karta vlastně je — radní byli vyhozeni přímo z jednoho z jejích oken, dolů do davu.",
@@ -16361,7 +16361,7 @@ export const historyEvents = [
   //   with no named source. Card attributes it to an "early chronicle
   //   account" and stops before the saints' day clause. EN/ZH are Claude's
   //   translations.
-  // - Landmarks: old-town-hall, kostel-panny-marie-snezne, nove-mesto
+  // - Landmarks: old-town-hall, kostel-panny-marie-snezne, novomestska-radnice (was nove-mesto)
   //   (the historic Gothic New Town Hall on Charles Square where 1419
   //   happened, swapped in for karlovo-namesti at the user's request
   //   2026-09-21; NOT the Art Nouveau nova-radnice-marianske-namesti).
@@ -16431,7 +16431,7 @@ export const historyEvents = [
         },
       },
       {
-        slug: "nove-mesto",
+        slug: "novomestska-radnice",
         relation: {
           en: "The New Town Hall where, in 1419, Želivský's followers threw seven councillors out of the windows; three years later he was executed himself.",
           cz: "Novoměstská radnice, odkud roku 1419 Želivského stoupenci vyhodili sedm radních z oken; o tři roky později byl sám popraven.",
@@ -17866,6 +17866,459 @@ export const historyEvents = [
       },
     ],
     wikipediaUrl: "https://cs.wikipedia.org/wiki/Bechyn%C4%9B_(z%C3%A1mek)",
+  },
+  // 1429–1432, nine cards written 2026-09-29 from the user's Chinese draft
+  // (sections 八–九), split into one conflict per card at the user's request.
+  // Main sources: F. Lützow, The Hussite Wars (1914), ch. 6–7 (en.wikisource);
+  // cs.wikipedia (Prokop Holý, Bitva u Domažlic, Jan Čapek ze Sán, Spanilé
+  // jízdy); valka.cz (Sirotčí výpravy na Slovensko); husitstvi.cz; nasregion.cz
+  // (the Ovenec deer); drhenschel.de, hussiten-kirschfest.de and
+  // naumburg-online.de (Naumburg); archive.joan-of-arc.org (Joan's letter).
+  // Departures from the draft:
+  // - The 1429 talks were at Pressburg (Bratislava), from Monday 4 April
+  //   (cs.wikipedia says "Monday 4 March", but 4 March 1429 was a Friday and
+  //   4 April a Monday), not at Havlíčkův Brod in January. The draft's
+  //   hostages, the king's wish to keep the debate away from "plain men",
+  //   and the Hussite demand for castles are all confirmed (Lützow).
+  // - Prokop came from a Prague burgher/merchant family, not the gentry.
+  // - Naumburg: the Hussites never besieged it; the legend is dated 1432 and
+  //   was given its full form by J. G. Rauhe in 1782 (with an invented monk's
+  //   chronicle), debunked by C. P. Lepsius in 1811. Made a background card.
+  // - The draft's troop numbers (40,000 foot, 5,000 horse, 3,000 wagons) and
+  //   the per-prince ransom figures (9,000/8,000/12,000/12,000) could not be
+  //   confirmed; the card uses the 50,000-gulden opening demand to Bamberg
+  //   (cs.wikipedia) and the 12,000-gulden Beheimstein ransom (Stellner,
+  //   "Smlouva z Beheimsteinu (1430)"). The Gdańsk expedition is 1433, not
+  //   1430; left for its own card. "West Slavs don't fight West Slavs" and
+  //   "Bohemians burned Gniezno in the 13th century" (it was 1038) dropped.
+  // - Joan's letter is dated 23 March 1430 (Lützow's "March 1429" is wrong);
+  //   the EN quote is Claude's rendering of the standard English translation,
+  //   CZ/ZH Claude's. The Beaufort 1429 diversion is from Lützow.
+  // - Martin V's letter to Jagiełło and Vytautas (1 Oct 1430) is known here
+  //   only through Lützow's summary; the card paraphrases, no quote block.
+  // - "A hundred thousand pigs" (the draft's Frederick quote) not found in
+  //   any source; dropped. The Basel council's early agenda was not East–West
+  //   union, and no "Hussite rising in Italy" was found; both dropped.
+  // - Domažlice quotes: Old Czech Annals MS Š and Laurence of Březová's Latin
+  //   song, both via cs.wikipedia's Czech; EN/ZH are Claude's.
+  // - The "executioner instead of a doctor" reply: cs.wikipedia (Prokop
+  //   Holý), citing modern literature. The Hlohovec bridge: cs.wikipedia and
+  //   valka.cz. Orphan losses (7,000/300 wagons down to ~2,000/50): valka.cz.
+  // - The Ovenec deer: the Old Czech Annals as quoted (in modernised Czech)
+  //   by nasregion.cz; paraphrased in prose, no quote block.
+  {
+    slug: "a-crown-with-conditions-1429",
+    era: "religious-turmoil",
+    startYear: 1429.3,
+    year: {
+      en: "April–July 1429",
+      cz: "Duben–červenec 1429",
+      zh: "1429年4月至7月",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Crown, With Conditions",
+      cz: "Koruna, ale s podmínkami",
+      zh: "王冠可以给，但有条件",
+    },
+    hookLine: {
+      en: "Sigismund finally invited the Hussites to come and talk. They agreed, as soon as he had handed over some hostages.",
+      cz: "Zikmund konečně pozval husity k jednání. Souhlasili, jakmile jim vydal rukojmí.",
+      zh: "西吉斯蒙德终于请胡斯派来谈判了。胡斯派答应了，前提是他先交出几名人质。",
+    },
+    summary: {
+      en: "The go-between was Menhard of Jindřichův Hradec, one of the great lords of South Bohemia. He had spent the early 1420s fighting the Hussites, including a stretch as Žižka's prisoner and a defeat in 1425, before deciding he agreed with them after all. Now he suggested that Prokop go and see Sigismund in person at Pressburg, today's Bratislava, just across the Hungarian border. Prokop said yes, but only once hostages had been handed over to guarantee that he would come back. Nobody in Bohemia had forgotten what a royal safe conduct had been worth to [[link:the-safe-conduct-that-wasnt-enough-1414]]Jan Hus[[/link]].\n\nThe delegation rode into Pressburg on 4 April 1429: Prokop, Menhard, a party of nobles and knights, envoys of the Prague towns, and a few theologians, among them the English Hussite Peter Payne. Sigismund had filled the town to impress them. Albert of Austria was there, and the Duke of Bavaria, several Silesian princes, the leading Catholic lords of Bohemia, a crowd of bishops, and four theologians sent all the way from the University of Paris. The king opened, on his councillors' advice, by telling the Hussites kindly that they had strayed from the faith of their fathers. The Hussites asked for what they always asked for, a public hearing before the whole of Christendom, laymen included. That, Sigismund replied, was pointless, since the Council of Constance had already settled the matter. Whatever instruction the Hussites needed could be given far better in private, by princes and scholars, than in front of a crowd of plain men who knew nothing about such things.\n\nThen both sides put their real offers on the table. Sigismund proposed a truce lasting until the next church council, on condition that the Hussites attended it and accepted its verdict. It was a clever idea. A long truce would send the nobles home to their estates, the peasants back to their fields and the mercenaries off to look for paid work elsewhere, and Prokop's army would quietly stop existing. Prokop had instructions of his own from the Bohemian estates: a truce with Sigismund and Albert was possible, provided the two of them first handed over every castle they still held in Bohemia and Moravia. Neither offer got very far.\n\nOn 8 April the Hussites tried something bolder. If the king would accept their faith, they told him, they would gladly have him as their king, and rather him than anyone else. If not, they had drawn their swords and would not sheathe them until they had converted everyone to it. Sigismund flew into one of his famous rages and called on every prince in the room to help him wipe out the heresy and win back his inheritance. [[b]]The princes, most of whom had already fought the Hussites once, listened in complete silence.[[/b]]\n\nThe talks limped on all the same, because neither side wanted to be the one blamed for ending them. A diet in Prague argued over the king's terms in May, and a second embassy under Prokop went back to Pressburg in the summer. On 24 July it set off for home with nothing agreed. By then Sigismund was already planning his next crusade, and Prokop was planning something of his own.",
+      cz: "Prostředníkem byl Menhart z Hradce, jeden z největších jihočeských pánů. Začátek dvacátých let strávil bojem proti husitům, včetně pobytu v Žižkově zajetí a porážky roku 1425, než usoudil, že s nimi vlastně souhlasí. Teď Prokopovi navrhl, aby se se Zikmundem setkal osobně v Prešpurku, dnešní Bratislavě, hned za uherskou hranicí. Prokop souhlasil, ale až poté, co byla vydána rukojmí jako záruka, že se vrátí. V Čechách nikdo nezapomněl, jakou cenu mělo královské ochranné psaní pro [[link:the-safe-conduct-that-wasnt-enough-1414]]Jana Husa[[/link]].\n\nPoselstvo vjelo do Prešpurku 4. dubna 1429: Prokop, Menhart, družina pánů a rytířů, vyslanci pražských měst a několik teologů, mezi nimi anglický husita Petr Payne. Zikmund město zaplnil, aby na ně udělal dojem. Byl tu Albrecht Rakouský, vévoda bavorský, několik slezských knížat, přední katoličtí páni z Čech, spousta biskupů a čtyři teologové, které sem poslala až pařížská univerzita. Král na radu svých rádců začal tím, že husitům vlídně vyložil, jak zbloudili od víry svých otců. Husité žádali to, co vždycky: veřejné slyšení před celým křesťanstvem, laiky nevyjímaje. To prý nemá smysl, odpověděl Zikmund, věc už rozhodl kostnický koncil. Poučení, které husité potřebují, jim lépe poskytnou v soukromí knížata a učenci než před zástupem prostých lidí, kteří těmto věcem nerozumějí.\n\nPak obě strany vyložily své skutečné nabídky. Zikmund navrhl příměří až do příštího koncilu pod podmínkou, že se ho husité zúčastní a podřídí se jeho rozhodnutí. Byl to chytrý nápad. Dlouhé příměří by poslalo pány domů na jejich statky, sedláky zpátky na pole a žoldnéře hledat výdělek jinde, a Prokopovo vojsko by potichu přestalo existovat. Prokop měl od českých stavů vlastní instrukce: příměří se Zikmundem a Albrechtem je možné, pokud mu ti dva nejdřív vydají všechny hrady, které v Čechách a na Moravě ještě drží. Ani jedna nabídka moc daleko nedošla.\n\n8. dubna zkusili husité něco odvážnějšího. Přijme-li král jejich víru, řekli mu, rádi ho budou mít za krále, a raději jeho než kohokoli jiného. Pokud ne, tasili meče a nezasunou je, dokud k ní neobrátí všechny. Zikmund dostal jeden ze svých proslulých záchvatů zuřivosti a vyzval všechna přítomná knížata, aby mu pomohla kacířství vyhladit a získat zpět jeho dědictví. [[b]]Knížata, z nichž většina už s husity jednou bojovala, poslouchala v naprostém tichu.[[/b]]\n\nJednání se přesto vleklo dál, protože nikdo nechtěl být tím, kdo ho ukončil. V květnu se o královských podmínkách přel sněm v Praze a v létě se do Prešpurku vrátilo druhé poselstvo v čele s Prokopem. 24. července se vydalo na cestu domů, aniž se na čemkoli dohodlo. Zikmund tou dobou už chystal další křížovou výpravu a Prokop chystal něco vlastního.",
+      zh: "居中牵线的是南波希米亚的大贵族、赫拉德茨的门哈特。15世纪20年代初，他一直在和胡斯派打仗，当过杰式卡的俘虏，1425年又吃了一场败仗，这才发现自己其实挺赞同他们。如今他提议，普罗科普不妨亲自去一趟普雷斯堡（也就是今天的布拉迪斯拉发，刚过匈牙利边境），当面见见西吉斯蒙德。普罗科普答应了，但有个前提：对方先交出人质，保证他能平安回来。波希米亚没有人忘记，当年国王给[[link:the-safe-conduct-that-wasnt-enough-1414]]扬·胡斯[[/link]]的那张安全通行证，到底值几个钱。\n\n1429年4月4日，代表团骑马进了普雷斯堡：普罗科普、门哈特、一队贵族和骑士、布拉格各城的使节，还有几位神学家，其中包括英格兰籍的胡斯派彼得·佩恩。西吉斯蒙德为了镇住他们，把城里塞得满满当当：奥地利的阿尔布雷希特来了，巴伐利亚公爵来了，几位西里西亚诸侯、波希米亚的天主教大贵族、一大群主教也都来了，巴黎大学甚至专程派来了四位神学家。国王听从谋臣的建议，一开场就和颜悦色地告诉胡斯派：你们背离了祖先的信仰。胡斯派提出的还是那个老要求：在整个基督教世界面前公开申辩，平信徒也要到场。西吉斯蒙德回答说，这没有必要，康斯坦茨公会议早就有定论了。胡斯派需要什么指点，由诸侯和学者私下里讲给他们听就好，何必当着一大群什么都不懂的平头百姓讲。\n\n接着，双方都亮出了真正的条件。西吉斯蒙德提议停战，一直停到下一次公会议召开，条件是胡斯派必须出席，并接受会议的裁决。这一招相当高明：停战一久，贵族会回自己的庄园，农民会回自己的田地，雇佣兵会另找有钱可赚的活儿，普罗科普的大军就会不声不响地散掉。普罗科普手里也有波希米亚各等级给他的指示：和西吉斯蒙德、阿尔布雷希特停战可以，前提是这两位先把他们在波希米亚和摩拉维亚还占着的城堡，统统交出来。两边的条件，谁也没能往前推多少。\n\n4月8日，胡斯派出了一招更大胆的。他们对国王说：只要您接受我们的信仰，我们很乐意奉您为王，而且宁愿是您，也不要别人。要是您不接受，我们就只能重申：剑已出鞘，不让所有人都改信我们的信仰，绝不收回。西吉斯蒙德当场又犯了他那出了名的暴怒，号召在场的所有诸侯帮他铲除异端、夺回他继承来的土地。[[b]]在场的诸侯大多已经和胡斯派交过一次手，一个个听着，一声不吭。[[/b]]\n\n话虽如此，谈判还是拖拖拉拉地继续了下去，因为谁都不想落下一个“是我谈崩的”名声。5月，布拉格的议会为国王的条件吵了一架；夏天，普罗科普又带着第二个使团回了一趟普雷斯堡。7月24日，使团踏上归途，什么也没谈成。这时候，西吉斯蒙德已经在筹划下一次十字军了，而普罗科普，也在筹划他自己的事。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "jindrichuv-hradec",
+        relation: {
+          en: "Seat of Menhard of Jindřichův Hradec, the South Bohemian lord who talked Prokop into meeting Sigismund at Pressburg.",
+          cz: "Sídlo Menharta z Hradce, jihočeského pána, který Prokopa přemluvil k setkání se Zikmundem v Prešpurku.",
+          zh: "赫拉德茨的门哈特的家族城堡。正是这位南波希米亚贵族，说动普罗科普去普雷斯堡与西吉斯蒙德见面。",
+        },
+      },
+      {
+        slug: "karolinum",
+        relation: {
+          en: "Where the Bohemian diet met in May 1429 to argue over the terms Sigismund had offered at Pressburg.",
+          cz: "Zde se v květnu 1429 sešel český sněm, aby se přel o podmínkách, které Zikmund nabídl v Prešpurku.",
+          zh: "1429年5月，波希米亚议会就在这里开会，为西吉斯蒙德在普雷斯堡开出的条件争论不休。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Prokop_Hol%C3%BD",
+  },
+  {
+    slug: "revenge-for-the-kings-deer-1429",
+    era: "religious-turmoil",
+    startYear: 1429.95,
+    year: {
+      en: "December 1429 – January 1430",
+      cz: "Prosinec 1429 – leden 1430",
+      zh: "1429年12月至1430年1月",
+    },
+    tone: "humorous",
+    title: {
+      en: "Revenge for the King's Deer",
+      cz: "Pomsta za královské jeleny",
+      zh: "为国王的鹿报仇",
+    },
+    hookLine: {
+      en: "In 1401 an army from Meissen had killed the deer in Prague's royal game park. Twenty-eight years later, the Hussites came to settle the bill.",
+      cz: "Roku 1401 pobilo míšeňské vojsko jeleny v pražské královské oboře. O dvacet osm let později si pro účet přišli husité.",
+      zh: "1401年，迈森的军队在布拉格王家猎苑里杀了一批鹿。二十八年后，胡斯派上门讨债来了。",
+    },
+    summary: {
+      en: "Prague spent the autumn of 1429 at war with itself. The Old Town and the New Town had fallen out over trade privileges, barricaded the streets between them and started firing burning arrows and guns at each other. Prokop was called in to separate them, and on 20 September he got a truce. With the two towns briefly on speaking terms again, the Hussite captains could look outward, and they settled on the lands of Meissen. Its lords, the Wettin family, were now Electors of Saxony, and their army had been [[link:fifty-thousand-to-nineteen-1426]]beaten at Ústí[[/link]] three years earlier.\n\nThere was even an official grievance on file. In 1401, during King Wenceslas IV's troubles with his own nobles, the Margrave of Meissen had marched on Prague and killed the deer in the royal game park at Ovenec, today's Stromovka. According to the Old Czech Annals, the Czechs now rode into Meissen to avenge the deer that the Meisseners had killed in the park near Prague in King Wenceslas's time. One modern writer has worked out that, counting the damage, the booty and the ransoms, these were probably the most expensive deer in history.\n\nThe army left Prague in December after a farewell banquet at which the councillors drank to the captains' health. It was the largest Hussite force ever sent abroad: Táborites, Orphans, both Prague towns, and lords from Bohemia and Moravia, somewhere between twenty and forty thousand men depending on whom you believe. Around 20 December it crossed the Ore Mountains and came down the Elbe past Pirna, Dresden and Meissen, without stopping to besiege any of them. The Elector Frederick of Saxony gathered everyone who owed him a favour at Leipzig: the Archbishop of Magdeburg, the bishops of Naumburg, Merseburg and Halberstadt, the Landgrave of Thuringia, the Duke of Brunswick. On paper his army was far bigger than Prokop's.\n\nTo reach it, the Hussites had to cross the Mulde near Grimma, and they fully expected the whole Saxon army to be waiting on the far bank. They crammed so many men onto the wagons that some tipped over and men drowned. When about half of them were across, someone shouted that the enemy was coming, and the half already over formed up for battle. It turned out to be some eight hundred horsemen from Thuringia and Lusatia. The Hussite cavalry under Jan Zmrzlík drove them off, and about half of them were killed or captured. The next day the Saxon commanders sent the Hussites a letter informing them that tomorrow they would all be killed as heretics. Tomorrow came. Nobody attacked.\n\nFrederick had heard what happened at [[link:the-enemy-nobody-saw-1427]]Tachov[[/link]], and he had no wish to be the next prince to watch his army evaporate. He had his own tents burned, sent his allies home and fell back to Leipzig, where he set fire to the suburbs himself so the Hussites could not use them. [[b]]The Elector of Saxony defended Leipzig from the Hussites by burning part of it before they could.[[/b]] With nobody left in the field, Prokop split his army into five columns and turned south. The Old Czech Annals summed up what followed:\n\n[[quote:0]]",
+      cz: "Praha strávila podzim roku 1429 ve válce sama se sebou. Staré a Nové Město se pohádaly o obchodní výsady, zatarasily ulice mezi sebou a začaly po sobě střílet zápalnými šípy a z pušek. K jejich rozdělení povolali Prokopa a ten 20. září vyjednal příměří. Když spolu obě města zase na chvíli mluvila, mohli se husitští hejtmani podívat ven a zvolili Míšeňsko. Jeho páni z rodu Wettinů byli teď saskými kurfiřty a jejich vojsko [[link:fifty-thousand-to-nineteen-1426]]dostalo u Ústí[[/link]] výprask před třemi lety.\n\nByla tu dokonce i úřední křivda. Roku 1401, v době sporů krále Václava IV. s vlastní šlechtou, přitáhl míšeňský markrabě k Praze a pobil jeleny v královské oboře v Ovenci, dnešní Stromovce. Podle Starých letopisů českých teď Čechové táhli do Míšně pomstít jeleny, které Míšňané za krále Václava zbili v oboře u Prahy. Jeden dnešní autor spočítal, že když se sečtou škody, kořist a výkupné, byli to nejspíš nejdražší jeleni v dějinách.\n\nVojsko vytáhlo z Prahy v prosinci po rozlučkové hostině, na níž konšelé připíjeli hejtmanům na zdraví. Byla to největší husitská síla, jaká kdy vyrazila za hranice: táboři, sirotci, obě pražská města a páni z Čech i Moravy, podle toho, komu věříte, dvacet až čtyřicet tisíc mužů. Kolem 20. prosince překročilo Krušné hory a táhlo dolů po Labi kolem Pirny, Drážďan a Míšně, aniž by se u některého z nich zdrželo obléháním. Kurfiřt Fridrich Saský svolal do Lipska každého, kdo mu byl něco dlužen: arcibiskupa magdeburského, biskupy naumburského, merseburského a halberstadtského, durynského lankraběte, brunšvického vévodu. Na papíře bylo jeho vojsko mnohem větší než Prokopovo.\n\nAby se k němu dostali, museli husité u Grimmy překročit Muldu a počítali s tím, že na druhém břehu na ně čeká celé saské vojsko. Naložili na vozy tolik lidí, že se některé převrhly a muži se utopili. Když byla asi polovina na druhé straně, někdo vykřikl, že přichází nepřítel, a ta polovina, která už byla za řekou, se sešikovala k boji. Ukázalo se, že jde o nějakých osm set jezdců z Durynska a Lužice. Husitská jízda pod velením Jana Zmrzlíka je odrazila a asi polovina z nich padla nebo byla zajata. Druhý den poslali saští velitelé husitům dopis, v němž jim oznamovali, že zítra budou jako kacíři všichni pobiti. Zítřek přišel. Nikdo nezaútočil.\n\nFridrich slyšel, co se stalo u [[link:the-enemy-nobody-saw-1427]]Tachova[[/link]], a neměl chuť být dalším knížetem, kterému se vojsko rozplyne před očima. Dal spálit vlastní stany, rozpustil spojence a stáhl se do Lipska, kde sám zapálil předměstí, aby je husité nemohli využít. [[b]]Saský kurfiřt bránil Lipsko před husity tím, že jeho část vypálil dřív než oni.[[/b]] Když už v poli nikdo nestál, rozdělil Prokop vojsko do pěti proudů a obrátil se na jih. Staré letopisy české shrnuly, co následovalo:\n\n[[quote:0]]",
+      zh: "1429年秋天，布拉格一直在跟自己打仗。老城和新城为了商业特权闹翻了，在两城之间的街道上筑起路障，互相用火箭和火铳对射。最后只好请普罗科普来劝架，9月20日，他总算让两边停了火。两座城暂时又能说上话了，胡斯派的指挥官们这才有空往外看，最后挑中了迈森。迈森的主人韦廷家族如今已是萨克森选帝侯，三年前，他们的军队刚在[[link:fifty-thousand-to-nineteen-1426]]乌斯季[[/link]]吃过大败仗。\n\n出兵甚至还有一个正式的由头。1401年，国王瓦茨拉夫四世正和本国贵族闹得不可开交，迈森侯爵趁机兵临布拉格，把奥韦内茨王家猎苑（也就是今天的斯特罗莫夫卡公园）里的鹿杀了个精光。据《古捷克编年史》记载，这回捷克人开进迈森，就是要为瓦茨拉夫国王在位时被迈森人杀死在布拉格猎苑里的那些鹿报仇。有位现代作者算过一笔账：把造成的损失、抢来的战利品和收到的赎金加在一起，这大概是史上最贵的一批鹿。\n\n12月，大军从布拉格出发。临行前，市议员们还设宴饯行，举杯祝各位指挥官身体健康。这是胡斯派有史以来派往国外规模最大的一支军队：塔博尔军、孤儿军、布拉格两城的队伍，还有波希米亚和摩拉维亚的贵族，总人数从两万到四万不等，看你信哪一家的说法。12月20日前后，大军翻过厄尔士山，顺着易北河一路南下，经过皮尔纳、德累斯顿和迈森，哪座城都没停下来围攻。萨克森选帝侯腓特烈把所有欠他人情的人都叫到了莱比锡：马格德堡大主教，瑙姆堡、梅泽堡和哈尔伯施塔特的主教，图林根伯爵，不伦瑞克公爵。纸面上看，他的兵力远远超过普罗科普。\n\n要去找他，胡斯军得先在格里马附近渡过穆尔德河，而且他们满以为整支萨克森大军就在对岸等着。战车上塞了太多人，有几辆翻了，淹死了一些人。渡过去大约一半的时候，有人大喊敌人来了，已经上岸的那一半立刻列阵迎战。结果来的只是约八百名图林根和卢萨蒂亚骑兵。扬·兹姆日利克率领胡斯派骑兵把他们打了回去，对方约一半非死即俘。第二天，萨克森的指挥官给胡斯军寄来一封信，通知他们：明天你们这些异端将全部被杀。明天到了，没有人来进攻。\n\n腓特烈听说过[[link:the-enemy-nobody-saw-1427]]塔霍夫[[/link]]那档子事，可不想当下一个眼睁睁看着自己大军蒸发的诸侯。他下令烧掉自己的帐篷，把盟军打发回家，退回了莱比锡，还亲手把莱比锡的郊区烧了，免得落到胡斯军手里。[[b]]萨克森选帝侯保卫莱比锡的办法，是赶在胡斯军之前，自己先把它烧掉一块。[[/b]]战场上再也没有人挡路，普罗科普把大军分成五路，掉头南下。接下来的事，《古捷克编年史》是这样总结的：\n\n[[quote:0]]",
+    },
+    quotes: [
+      {
+        text: {
+          en: "And so the Czechs rode freely through those lands, divided into five armies, and wrought great destruction; and, as people commonly say, on that ride they burned a good seventy walled towns, and of castles, strongholds and villages they knew no count; and all those German lands did not dare to take the field against the Czechs.",
+          cz: "Takž pak Čechové jezdili svobodně po těch zemíech, rozdělivše se v pět vojsk, a velikú záhubu učinili; a jakož obecně lidé pravie, dobře v té jiezdě sedmdesáte měst ohrazených vypálili sú; hradóv a tvrzí a vsí počtu nevěděli; a ty všechny země německé nesměly sú se postaviti polem proti Čechóm.",
+          zh: "于是捷克人分作五路大军，在那些土地上纵横驰骋，造成了极大的破坏。据人们普遍传说，这一趟出征，他们足足烧掉了七十座有城墙的城镇，城堡、要塞和村庄更是数不胜数；而所有那些德意志土地，没有一处敢出兵野战，与捷克人对阵。",
+        },
+        attribution: {
+          en: "Old Czech Annals (Staré letopisy české), on the ride of 1429–1430",
+          cz: "Staré letopisy české, o jízdě let 1429–1430",
+          zh: "《古捷克编年史》，记1429至1430年的远征",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "stromovka-park",
+        relation: {
+          en: "Once the royal game park at Ovenec. The deer killed here by a Meissen army in 1401 were the Hussites' stated grievance for the great ride into Saxony of 1429–1430.",
+          cz: "Kdysi královská obora v Ovenci. Jeleni, které tu roku 1401 pobilo míšeňské vojsko, byli úředním důvodem velké husitské jízdy do Saska v letech 1429–1430.",
+          zh: "这里曾是奥韦内茨的王家猎苑。1401年迈森军队在这里杀掉的那批鹿，成了胡斯派1429至1430年大举远征萨克森的正式理由。",
+        },
+      },
+      {
+        slug: "novomestska-radnice",
+        relation: {
+          en: "The New Town's council house. In the autumn of 1429 the New Town and the Old Town were shooting at each other across the streets, until Prokop brokered a truce and the captains could turn on Meissen instead.",
+          cz: "Radnice Nového Města. Na podzim 1429 po sobě Nové a Staré Město střílela přes ulice, dokud Prokop nevyjednal příměří a hejtmani se nemohli obrátit na Míšeňsko.",
+          zh: "新城的议事厅。1429年秋，新城和老城隔着街道互相开火，直到普罗科普促成停战，指挥官们才得以掉头去打迈森。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Spanil%C3%A9_j%C3%ADzdy",
+  },
+  {
+    slug: "the-cherries-of-naumburg-1432",
+    era: "religious-turmoil",
+    startYear: 1430.02,
+    cardType: "background",
+    year: {
+      en: "1432 (legend)",
+      cz: "1432 (pověst)",
+      zh: "1432年（传说）",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Cherries of Naumburg",
+      cz: "Naumburské třešně",
+      zh: "瑙姆堡的樱桃",
+    },
+    hookLine: {
+      en: "Naumburg still throws a festival every summer to thank Prokop for sparing the town. There is one small problem: he was never there.",
+      cz: "Naumburg dodnes každé léto slaví, že ho Prokop ušetřil. Má to jen jednu drobnou vadu: Prokop tam nikdy nebyl.",
+      zh: "瑙姆堡至今每年夏天都要办一场节庆，感谢普罗科普当年手下留情。只有一个小问题：他根本就没去过那儿。",
+    },
+    summary: {
+      en: "The story goes like this. In 1432 a Hussite army under Prokop camped outside Naumburg, a cathedral town on the Saale in Saxony, and the townspeople gave themselves up for lost. Then a schoolmaster had an idea. He dressed the town's children in white shrouds and led them out through the gate to the Hussite camp to beg for mercy. Prokop was so moved that he spared the town and sent the children home with the first thing that came to hand outside the walls: cherries.\n\nIt is a lovely story, and almost none of it happened. The Hussites never besieged Naumburg, in 1432 or in any other year. The great ride of 1429–1430 passed through Saxony well to the east, and Naumburg's lands were never attacked. What the town did have was an old school feast. In 1526 its chronicler Sixtus Braun noted the start of a new custom:\n\n[[quote:0]]\n\nEvery July, on St Mary Magdalene's Day, the schoolboys were taken to a garden to eat cherries at the council's expense. The Hussites arrived later, and only on paper. Some version of the legend was circulating by the 17th century, but it was a local teacher, Johann Georg Rauhe, who in 1782 published the full account of the siege of 1432, complete with references to the chronicle of a monk called Benedict Taube. Neither the chronicle nor, as far as anyone can tell, the monk had ever existed. Soon afterwards August von Kotzebue, the most popular German playwright of his day, put the story on stage, and from then on no footnote could stop it. In 1811 the historian Carl Peter Lepsius published a careful proof that the whole siege had been made up. Naumburg thanked him and carried on.\n\n[[b]]The Hussite Cherry Festival is still held every June, and the Hussites are its heroes.[[/b]] The scene at the gate is re-enacted on the market square, a costumed parade marches out to the fairground, and children in white still take part. The Czech painter Jaroslav Čermák even painted Prokop before Naumburg, which is how the story made its way back to Bohemia. Few towns have ever been so grateful to an army that never came.",
+      cz: "Pověst vypráví tohle. Roku 1432 se před Naumburgem, biskupským městem na Sále v Sasku, utábořilo husitské vojsko pod Prokopovým velením a měšťané už se s životem loučili. Tu dostal jeden učitel nápad. Oblékl městské děti do bílých rubášů a vyvedl je branou do husitského ležení prosit o milost. Prokop byl tak dojat, že město ušetřil, a děti poslal domů s tím, co bylo za hradbami zrovna po ruce: s třešněmi.\n\nJe to krásný příběh a skoro nic z něj se nestalo. Husité Naumburg nikdy neobléhali, ani roku 1432, ani jindy. Velká jízda let 1429–1430 prošla Saskem daleko na východ odtud a naumburské panství napadeno nebylo. Město ale mělo starou školní slavnost. Roku 1526 zaznamenal jeho kronikář Sixtus Braun začátek nového zvyku:\n\n[[quote:0]]\n\nKaždý červenec, na svatou Máří Magdalénu, vodili školáky do zahrady jíst třešně na útraty rady. Husité přišli až později, a jen na papíře. Nějaká podoba pověsti kolovala už v 17. století, ale plný popis obléhání roku 1432 vydal až roku 1782 místní učitel Johann Georg Rauhe, i s odkazy na kroniku mnicha jménem Benedikt Taube. Ta kronika, a pokud lze soudit ani ten mnich, nikdy neexistovali. Brzy nato dostal příběh na jeviště August von Kotzebue, nejoblíbenější německý dramatik své doby, a od té chvíle ho už žádná poznámka pod čarou nezastavila. Roku 1811 vydal historik Carl Peter Lepsius pečlivý důkaz, že celé obléhání je smyšlené. Naumburg mu poděkoval a slavil dál.\n\n[[b]]Husitská třešňová slavnost se koná dodnes každý červen a husité jsou jejími hrdiny.[[/b]] Scéna u brány se hraje na tržišti, kostýmovaný průvod pochoduje na slavnostní louku a děti v bílém jsou u toho pořád. Český malíř Jaroslav Čermák dokonce namaloval Prokopa před Naumburgem, a tak se příběh dostal zpátky do Čech. Málokteré město bylo kdy tak vděčné vojsku, které nikdy nepřišlo.",
+      zh: "传说是这样的：1432年，普罗科普率领一支胡斯军驻扎在瑙姆堡城外。瑙姆堡是萨克森境内萨勒河畔的一座主教座堂城市，城里的人都觉得这下死定了。这时，一位教书先生想出了一个主意。他让城里的孩子们穿上白色的寿衣，领着他们出了城门，到胡斯军营里去求饶。普罗科普大受感动，放过了这座城，还把城墙外随手能摘到的东西送给孩子们带回家：樱桃。\n\n故事很动人，只可惜几乎一件都没发生过。胡斯军从来没有围攻过瑙姆堡，1432年没有，别的年份也没有。1429至1430年那次大远征，走的是萨克森东边很远的地方，瑙姆堡的领地从没挨过打。瑙姆堡真正有的，是一个古老的学校节日。1526年，城里的编年史家西克斯图斯·布劳恩记下了一项新风俗的开端：\n\n[[quote:0]]\n\n每年7月的抹大拉的马利亚节，学童们都会被带到一座园子里吃樱桃，费用由市议会出。胡斯军是后来才“到”的，而且只到了纸面上。17世纪时，这个传说已经有了某种版本在流传，但把1432年围城的来龙去脉写得有鼻子有眼的，是本地一位教师约翰·格奥尔格·劳厄。他在1782年出版的书里，还煞有介事地引用了一位名叫本笃·陶贝的修士写的编年史。那部编年史从来就不存在，就目前所知，那位修士也不存在。没过多久，当时最走红的德意志剧作家奥古斯特·冯·科策布把这个故事搬上了舞台，从此再多的脚注也拦不住它了。1811年，历史学家卡尔·彼得·莱普修斯发表了一篇严谨的考证，证明整场围城纯属虚构。瑙姆堡向他道了谢，然后照过不误。\n\n[[b]]“胡斯樱桃节”至今每年6月照常举办，而节日的主角，正是胡斯派。[[/b]]城门前求饶的那一幕在集市广场上重演，一支身着古装的游行队伍一路走到节庆草地，穿白衣的孩子们也年年都在。捷克画家雅罗斯拉夫·切尔马克甚至画过一幅《普罗科普在瑙姆堡城下》，这个故事就这样又传回了波希米亚。一座城对一支从未来过的军队如此感恩戴德，大概也是独一份了。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "The cherry feast with the schoolboys has begun, in that the boys ate cherries in a garden…",
+          cz: "Třešňová slavnost se školáky začala, totiž že chlapci jedli v zahradě třešně…",
+          zh: "与学童同吃樱桃的节庆，自此开始：孩子们在一座园子里吃樱桃……",
+        },
+        attribution: {
+          en: "Sixtus Braun, Naumburg Annals, 1526 (original: \"Das Kirschfest mit den Schulknaben hat sich angefangen, also dass die Knaben in einem Garten Kirschen gessen…\")",
+          cz: "Sixtus Braun, Naumburské letopisy, 1526 (originál: „Das Kirschfest mit den Schulknaben hat sich angefangen, also dass die Knaben in einem Garten Kirschen gessen…“)",
+          zh: "西克斯图斯·布劳恩《瑙姆堡编年史》，1526年",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://hussiten-kirschfest.de/geschichte.html",
+  },
+  {
+    slug: "four-articles-or-fifty-thousand-1430",
+    era: "religious-turmoil",
+    startYear: 1430.1,
+    year: {
+      en: "January–February 1430",
+      cz: "Leden–únor 1430",
+      zh: "1430年1月至2月",
+    },
+    tone: "humorous",
+    title: {
+      en: "Four Articles or Fifty Thousand",
+      cz: "Čtyři artikuly, nebo padesát tisíc",
+      zh: "要么认四条款，要么交五万",
+    },
+    hookLine: {
+      en: "Prokop offered Bamberg a simple choice: accept the Four Articles of Prague, or pay fifty thousand gulden. Bamberg found neither option appealing.",
+      cz: "Prokop nabídl Bamberku jednoduchou volbu: přijmout čtyři pražské artikuly, nebo zaplatit padesát tisíc zlatých. Bamberku se nezamlouvalo ani jedno.",
+      zh: "普罗科普给班贝格出了一道简单的选择题：要么接受布拉格四条款，要么交五万古尔登。两个选项，班贝格哪个都不喜欢。",
+    },
+    summary: {
+      en: "The five columns fanned out across south-western Saxony and into Franconia, a part of Germany that had always thought of Bohemia as comfortably far away. Altenburg fell in mid-January. Plauen, whose lord was the imperial judge Henry of Plauen, tried to resist and was stormed around 25 January, and its defenders were killed. Hof was burned. Bayreuth and Kulmbach opened their gates without a fight, which by now looked like the sensible option.\n\nThe Bishop of Bamberg had already fled, so on 2 February Prokop wrote to the city council instead, on behalf of all the Hussite captains. His first condition was that Bamberg accept the [[link:the-four-articles-of-prague-1420]]Four Articles of Prague[[/link]]. If the council would rather not, it could pay fifty thousand Rhine gulden. A similar letter went to the citizens of Nuremberg. [[b]]It was probably the first time a ransom demand had come with a theological alternative.[[/b]]\n\nThe man who turned all this into an actual treaty was [[link:this-time-by-the-rulebook-1427]]Frederick of Brandenburg[[/link]], the prince who had organised the crusade of 1427. He was also Burgrave of Nuremberg, he had just come back from the failed talks at Pressburg, and he had drawn his own conclusions. He crossed the Hussite lines with an escort of ten Hussite horsemen and met the captains at the castle of Zwernitz on 6 February, and again at Beheimstein a few days later. The ransom was settled at twelve thousand Rhine gulden, ten thousand due by mid-Lent and the rest by St George's Day, with a truce until 25 July. Prokop, though, did not want the campaign remembered as a mere raid for money, and Frederick agreed to something no prince had agreed to before. On 23 April, learned men from both sides would meet in Nuremberg to discuss the Four Articles. Frederick even rode back with the Hussite army as far as the border and became rather popular with the soldiers.\n\nOn the way home the town of Cheb presented Prokop with twelve ells of fine Brussels cloth and bought itself a truce for nine hundred gulden. On 21 February the army marched back into Prague, its wagons full, and the chronicler reached for his biggest word:\n\n[[quote:0]]\n\nThe Nuremberg meeting never happened. The pope and Sigismund refused to hear of it, the other princes stayed away, and a red-faced Frederick had to call it off. He did, however, send the ransom money to Domažlice exactly as promised. Whatever else could be said of him, he paid his bills.",
+      cz: "Pět proudů se rozlilo po jihozápadním Sasku a do Franků, části Německa, která si vždycky myslela, že jsou Čechy příjemně daleko. V polovině ledna padl Altenburg. Plavno, jehož pánem byl říšský sudí Jindřich z Plavna, se pokusilo bránit, kolem 25. ledna bylo vzato útokem a jeho obránci pobiti. Hof lehl popelem. Bayreuth a Kulmbach otevřely brány bez boje, což už tou dobou vypadalo jako rozumná volba.\n\nBamberský biskup už utekl, a tak Prokop 2. února napsal jménem všech husitských hejtmanů městské radě. Jeho první podmínkou bylo, aby Bamberk přijal [[link:the-four-articles-of-prague-1420]]čtyři pražské artikuly[[/link]]. Pokud by rada nechtěla, mohla zaplatit padesát tisíc rýnských zlatých. Podobný list odešel i měšťanům Norimberka. [[b]]Nejspíš to bylo poprvé, kdy požadavek výkupného nabízel i teologickou alternativu.[[/b]]\n\nMužem, který z toho všeho udělal skutečnou smlouvu, byl [[link:this-time-by-the-rulebook-1427]]Fridrich Braniborský[[/link]], kníže, který zorganizoval výpravu roku 1427. Byl také norimberským purkrabím, právě se vrátil z nezdařeného jednání v Prešpurku a udělal si vlastní závěry. Prošel husitskými liniemi s doprovodem deseti husitských jezdců a 6. února se s hejtmany sešel na hradě Zwernitz a o několik dní později znovu na Beheimsteinu. Výkupné bylo stanoveno na dvanáct tisíc rýnských zlatých, deset tisíc splatných do Družebné neděle a zbytek na svatého Jiří, s příměřím do 25. července. Prokop ale nechtěl, aby se na výpravu vzpomínalo jen jako na loupež pro peníze, a Fridrich přistoupil na něco, na co předtím žádný kníže nepřistoupil. 23. dubna se v Norimberku sejdou učení muži obou stran a promluví o čtyřech artikulech. Fridrich pak dokonce doprovázel husitské vojsko až k hranici a mezi vojáky si získal nemalou oblibu.\n\nCestou domů daroval Cheb Prokopovi dvanáct loktů jemného bruselského sukna a vykoupil si příměří za devět set zlatých. 21. února vtáhlo vojsko s plnými vozy zpátky do Prahy a letopisec sáhl po svém největším slově:\n\n[[quote:0]]\n\nZ norimberského setkání nakonec nic nebylo. Papež ani Zikmund o něm nechtěli slyšet, ostatní knížata nepřijela a zahanbený Fridrich ho musel odvolat. Výkupné ale do Domažlic poslal přesně podle slibu. Ať se o něm dalo říct cokoli, dluhy platil.",
+      zh: "五路大军呈扇形散开，扫过萨克森西南部，一直开进了法兰克尼亚。德意志的这一片地方，向来觉得波希米亚远得很，犯不着操心。1月中旬，阿尔滕堡陷落。普劳恩的领主是帝国法官普劳恩的海因里希，这座城想抵抗，大约1月25日被攻破，守军被杀。霍夫被烧成一片白地。拜罗伊特和库尔姆巴赫一仗没打就开了城门，到了这时候，这看起来已经是最明智的选择。\n\n班贝格主教早就跑了，于是2月2日，普罗科普代表全体胡斯派指挥官，直接给班贝格市议会写了一封信。他的第一个条件，是班贝格接受[[link:the-four-articles-of-prague-1420]]布拉格四条款[[/link]]。要是市议会不乐意，也可以交五万莱茵古尔登。纽伦堡的市民也收到了一封内容差不多的信。[[b]]赎金勒索信里附带一个神学选项，这大概还是头一回。[[/b]]\n\n把这一切变成一纸真正条约的，是[[link:this-time-by-the-rulebook-1427]]勃兰登堡的腓特烈[[/link]]，也就是1427年那次十字军的组织者。他同时还是纽伦堡城堡伯爵，刚从普雷斯堡那场没谈成的谈判回来，心里也有了自己的结论。他带着十名胡斯派骑兵当护卫，穿过胡斯军的防线，2月6日在茨韦尔尼茨城堡和指挥官们见了面，几天后又在贝海姆施泰因再谈了一次。赎金最后定为一万两千莱茵古尔登，一万在四旬期中交清，余下的在圣乔治节交清，双方停战到7月25日。不过，普罗科普不愿意这次远征在后人眼里只是一趟为钱而来的劫掠，而腓特烈也答应了一件此前从没有哪位诸侯答应过的事：4月23日，双方的饱学之士在纽伦堡会面，讨论四条款。腓特烈后来甚至陪着胡斯大军一路走到边境，在士兵中间还挺受欢迎。\n\n回国路上，海布城送给普罗科普十二厄尔上好的布鲁塞尔呢料，又花九百古尔登买了一份停战协议。2月21日，大军满载而归，开回布拉格，编年史家也搬出了他最隆重的字眼：\n\n[[quote:0]]\n\n纽伦堡那场会面，最终没能开成。教皇和西吉斯蒙德都不许，别的诸侯也不肯来，腓特烈只好红着脸宣布取消。不过，赎金他还是一分不少，按约定送到了多马日利采。不管别人怎么评价他，这人起码不赖账。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "…a ride so splendid that there is no one who remembers, nor ever will be, the Czechs themselves ever making such a one.",
+          cz: "…jízda tak spanilá, že pamětníkuov není aniž bude, by ji kdy Čechové sami učinili.",
+          zh: "……一次如此壮美的远征，从没有人记得、今后也不会有人记得，捷克人自己曾有过这样一次出征。",
+        },
+        attribution: {
+          en: "Old Czech Annals (Staré letopisy české), on the return of 21 February 1430",
+          cz: "Staré letopisy české, o návratu 21. února 1430",
+          zh: "《古捷克编年史》，记1430年2月21日大军归来",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "cheb",
+        relation: {
+          en: "On the way home in February 1430, Cheb gave Prokop twelve ells of fine Brussels cloth and bought itself a truce for nine hundred gulden.",
+          cz: "Cestou domů v únoru 1430 daroval Cheb Prokopovi dvanáct loktů jemného bruselského sukna a vykoupil si příměří za devět set zlatých.",
+          zh: "1430年2月大军回国途中，海布送给普罗科普十二厄尔上好的布鲁塞尔呢料，又花九百古尔登买了一份停战协议。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Spanil%C3%A9_j%C3%ADzdy",
+  },
+  {
+    slug: "a-letter-from-joan-of-arc-1430",
+    era: "religious-turmoil",
+    startYear: 1430.2,
+    year: {
+      en: "23 March 1430",
+      cz: "23. března 1430",
+      zh: "1430年3月23日",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Letter from Joan of Arc",
+      cz: "Dopis od Jany z Arku",
+      zh: "圣女贞德的来信",
+    },
+    hookLine: {
+      en: "The most famous warrior in Christendom wrote to the Hussites. If they did not return to the Church, she warned, she might have to leave the English and come over in person.",
+      cz: "Nejslavnější bojovnice křesťanstva napsala husitům. Pokud se nevrátí do lůna církve, varovala, možná bude muset nechat Angličany Angličany a přijet osobně.",
+      zh: "基督教世界最有名的女战士给胡斯派写了一封信。她警告说，他们要是再不回归教会，她可能就得先把英格兰人放一放，亲自过来一趟。",
+    },
+    summary: {
+      en: "In a sense, the Hussites and Joan of Arc had already met. In the summer of 1429 [[link:the-enemy-nobody-saw-1427]]Cardinal Beaufort[[/link]], the English cardinal who had watched the last crusade run away from Tachov, landed on the continent with a fresh English army of about five thousand men, raised to fight the Hussites. Then the news from France arrived. A peasant girl from Lorraine had raised the siege of Orléans and was taking the Dauphin to be crowned at Reims. The English regent in France needed every soldier he could find, Beaufort's crusaders were sent to fight in the [[link:what-was-the-hundred-years-war-1337]]Hundred Years' War[[/link]] instead, and the German princes decided that without the English there was no point in marching either. [[b]]Without meaning to, Joan of Arc had saved Bohemia from a crusade.[[/b]]\n\nShe did not see it that way. On 23 March 1430, at Sully-sur-Loire, a letter was written in her name to \"the heretics of Bohemia.\" It is quite a document. It tells the Hussites that they have become practically Saracens, that they corrupt the sacraments, mutilate the articles of the faith, burn the statues of the saints and massacre Christians who will not join them. It asks what madness drives them. Then it comes to the point:\n\n[[quote:0]]\n\nIf they preferred to return to the Catholic faith, the letter added helpfully, they could send her their ambassadors and she would tell them what to do.\n\nJoan could not read or write. The letter was drawn up in Latin by her confessor, the Augustinian friar Jean Pasquerel, whose name stands at its end, and a German version survives too. How much of it was Joan and how much was her clergy is still argued over. Its picture of the Hussites came from the same place as everyone else's in Western Europe: sermons in which the Bohemians were bloodthirsty devils, rather than a movement that had spent ten years asking for a hearing on four articles.\n\nNobody knows whether the letter ever reached Prague, and no reply survives. The visit never happened either. Two months later, on 23 May 1430, Joan was captured by the Burgundians at Compiègne and sold to the English, and on 30 May 1431 a church court in Rouen had her burned as a heretic. She had promised to rid the Bohemians of their heresy or their lives, and in the end it was her own life that a church court took for heresy. Twenty-five years later a papal retrial declared her innocent, which is more than the Church ever did for [[link:a-voice-that-wouldnt-burn-1415]]Jan Hus[[/link]].",
+      cz: "V jistém smyslu se husité s Janou z Arku už potkali. V létě 1429 se [[link:the-enemy-nobody-saw-1427]]kardinál Beaufort[[/link]], anglický kardinál, který se díval, jak poslední křížová výprava utíká od Tachova, vylodil na pevnině s novým anglickým vojskem asi pěti tisíc mužů, sebraným proti husitům. Pak přišly zprávy z Francie. Selská dívka z Lotrinska osvobodila obležený Orléans a vedla dauphina ke korunovaci do Remeše. Anglický regent ve Francii potřeboval každého vojáka, kterého sehnal, Beaufortovi křižáci byli posláni bojovat do [[link:what-was-the-hundred-years-war-1337]]stoleté války[[/link]] a německá knížata usoudila, že bez Angličanů nemá smysl táhnout ani jim. [[b]]Jana z Arku, aniž by to zamýšlela, zachránila Čechy před křížovou výpravou.[[/b]]\n\nOna to tak neviděla. 23. března 1430 byl v Sully-sur-Loire jejím jménem sepsán dopis „kacířům v Čechách“. Je to pozoruhodný kus. Vyčítá husitům, že se z nich stali skoro Saracéni, že kazí svátosti, mrzačí články víry, pálí sochy svatých a vraždí křesťany, kteří se k nim nepřidají. Ptá se, jaké šílenství je to pohání. A pak přejde k věci:\n\n[[quote:0]]\n\nPokud by se raději vrátili ke katolické víře, dodává dopis ochotně, mohou k ní poslat vyslance a ona jim řekne, co mají dělat.\n\nJana neuměla číst ani psát. Dopis sepsal latinsky její zpovědník, augustinián Jean Pasquerel, jehož jméno stojí na konci, a dochovala se i německá verze. Kolik z něj pochází od Jany a kolik od jejích duchovních, se vedou spory dodnes. Obraz husitů v něm pocházel odtud, odkud ho měl i zbytek západní Evropy: z kázání, v nichž byli Češi krvelační ďáblové, a ne hnutí, které už deset let žádá o slyšení kvůli čtyřem artikulům.\n\nZda dopis vůbec došel do Prahy, nikdo neví, a žádná odpověď se nedochovala. K návštěvě také nedošlo. O dva měsíce později, 23. května 1430, zajali Janu u Compiègne Burgunďané a prodali ji Angličanům a 30. května 1431 ji církevní soud v Rouenu nechal upálit jako kacířku. Slibovala, že Čechy zbaví kacířství, nebo života, a nakonec to byl její život, který jí církevní soud vzal pro kacířství. O pětadvacet let později ji papežský obnovený proces prohlásil za nevinnou, což je víc, než kdy církev udělala pro [[link:a-voice-that-wouldnt-burn-1415]]Jana Husa[[/link]].",
+      zh: "某种意义上，胡斯派和圣女贞德其实已经打过一次交道了。1429年夏天，[[link:the-enemy-nobody-saw-1427]]红衣主教博福特[[/link]]，就是那位眼看着上一支十字军从塔霍夫城外逃跑的英格兰红衣主教，带着一支约五千人的英格兰新军在欧洲大陆登陆，这支军队本来是专门招来打胡斯派的。就在这时，法国传来了消息：一个来自洛林的农家女孩解了奥尔良之围，正护送王太子前往兰斯加冕。英格兰在法国的摄政急需每一个能找到的士兵，博福特的十字军于是被调去打[[link:what-was-the-hundred-years-war-1337]]英法百年战争[[/link]]了。德意志诸侯一看英格兰人不来了，觉得自己也没必要出兵。[[b]]圣女贞德无心插柳，替波希米亚挡掉了一次十字军。[[/b]]\n\n她本人可不这么看。1430年3月23日，在卢瓦尔河畔叙利，一封以她的名义写给“波希米亚异端”的信写成了。这封信相当有看头：它指责胡斯派几乎已经沦为撒拉逊人，败坏圣事，肢解信条，焚烧圣像，还屠杀不肯加入他们的基督徒；它质问究竟是什么疯狂在驱使他们。然后，信进入了正题：\n\n[[quote:0]]\n\n信里还体贴地补充道：如果他们宁愿回归天主教信仰，可以派使者来找她，她会告诉他们该怎么做。\n\n贞德不识字，也不会写字。这封信是她的告解神父、奥斯定会修士让·帕斯克雷尔用拉丁文起草的，信末署的就是他的名字，另外还有一个德文版本流传下来。信里有多少是贞德本人的意思，有多少出自她身边的神职人员，至今仍有争论。至于信中胡斯派的形象，来源和西欧其他人一样：布道坛上的宣传。在那些布道里，波希米亚人是嗜血的恶魔，而不是一个十年来一直在为四条款要求公开申辩的运动。\n\n这封信到底有没有送到布拉格，没人知道，也没有任何回信留存下来。那次“亲自拜访”，也始终没有成行。两个月后，1430年5月23日，贞德在贡比涅被勃艮第人俘获，卖给了英格兰人；1431年5月30日，鲁昂的一个教会法庭以异端罪把她烧死了。她曾扬言要让波希米亚人要么放弃异端，要么丢掉性命，到头来，被教会法庭以异端罪夺去性命的，却是她自己。二十五年后，教皇下令重审，宣告她无罪。教会为[[link:a-voice-that-wouldnt-burn-1415]]扬·胡斯[[/link]]做的，可从来没有这么多。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "To tell you frankly, if I were not busy with the English wars, I would have come to see you long ago. But unless I learn that you have mended your ways, I may leave the English behind and turn against you, so that by the sword, if there is no other way, I may rid you of your vile superstition, and of either your heresy or your life.",
+          cz: "Abych vám řekla upřímně, nebýt zaměstnána válkami s Angličany, byla bych za vámi přišla už dávno. Nedozvím-li se však, že jste se napravili, možná nechám Angličany být a obrátím se proti vám, abych vás mečem, nebude-li jiné cesty, zbavila vaší ohavné pověry a buď kacířství, nebo života.",
+          zh: "坦白告诉你们：若不是正忙于和英格兰人打仗，我早就去看你们了。但如果我听不到你们改过自新的消息，我或许会撇下英格兰人，转而对付你们。如果别无他法，我就用剑铲除你们那卑劣的迷信，让你们要么丢掉异端，要么丢掉性命。",
+        },
+        attribution: {
+          en: "Joan of Arc to \"the heretics of Bohemia,\" Sully-sur-Loire, 23 March 1430",
+          cz: "Jana z Arku „kacířům v Čechách“, Sully-sur-Loire, 23. března 1430",
+          zh: "圣女贞德致“波希米亚异端”的信，卢瓦尔河畔叙利，1430年3月23日",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Joan_of_Arc",
+  },
+  {
+    slug: "the-pope-looks-north-1431",
+    era: "religious-turmoil",
+    startYear: 1431.3,
+    year: {
+      en: "October 1430 – May 1431",
+      cz: "Říjen 1430 – květen 1431",
+      zh: "1430年10月至1431年5月",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Pope Looks North",
+      cz: "Papež hledá na severu",
+      zh: "教皇另请高明",
+    },
+    hookLine: {
+      en: "Martin V had given up on Sigismund. So he wrote to the King of Poland instead, and explained that where heretics were concerned, even an oath need not be kept.",
+      cz: "Martin V. to se Zikmundem vzdal. Napsal tedy polskému králi a vysvětlil mu, že vůči kacířům není třeba dodržet ani přísahu.",
+      zh: "马丁五世对西吉斯蒙德彻底死了心，转而写信给波兰国王，还向他解释说：对付异端，连誓言都不必遵守。",
+    },
+    summary: {
+      en: "By 1430 Pope Martin V had tried everything with Bohemia except talking to it, and he was not about to start now. Three crusades had come home in pieces, and their official leader, Sigismund, seemed more interested in getting himself crowned emperor in Rome. So the pope looked north, to [[link:importing-a-king-1421]]Władysław II Jagiełło[[/link]], King of Poland, and his cousin Vytautas, Grand Duke of Lithuania. In a letter of 1 October 1430 he asked them to convert the Bohemian heretics or destroy them. They were free to negotiate and to promise whatever they liked, because such promises would not bind them: the Church could release anyone from any oath, and in the Church's cause a man might set aside even his duty to his father, his son or his brother.\n\nVytautas died before the Dominican friar carrying the letter even arrived. Jagiełło, for his part, did what he did best, which was to stay on good terms with everyone. He invited the Hussites to a disputation in Kraków. In March 1431 Prokop arrived in person, with Peter Payne and [[link:holy-peace-1427]]Vilém Kostka of Postupice[[/link]] among his companions, escorted by [[link:prague-dismisses-its-prince-1427]]Sigismund Korybut[[/link]], who was by now fighting on the Hussite side again from a small Silesian principality of his own.\n\nThe Bishop of Kraków, Zbigniew Oleśnicki, was not on good terms with everyone. He decreed that all church services in the city would stop for as long as the heretics were in it. When Holy Week came and the royal family wanted to go to church, the Czech guests were asked to move out to the suburb of Kazimierz. Korybut, who considered them his guests, sent the bishop a formal declaration of enmity. The debate itself went nowhere. The Hussites wanted to argue about the Four Articles; the Poles wanted them to obey the pope. On 4 April Jagiełło handed them a document to sign, promising to attend a council and accept all its decisions without condition. They declined, very politely, and went home.\n\nMartin V did not live to hear how it went. He died on 20 February 1431, and the new pope, the Venetian Eugenius IV, inherited both his war and his dislike of councils. Martin's last legate, Cardinal Giuliano Cesarini, had meanwhile arrived at the imperial diet in Nuremberg and talked the princes into another crusade, complete with indulgences for everyone who joined. One final round of talks with Sigismund at Cheb in May broke down when the Hussites asked for a council that included the Greek and Eastern Churches, which also gave communion in both kinds, and Sigismund called the idea ridiculous. [[b]]After two years of talks in Pressburg, Kraków and Cheb, everyone was back exactly where they had started, and the princes were marching again.[[/b]]",
+      cz: "Roku 1430 zkusil papež Martin V. na Čechy všechno kromě rozhovoru a nehodlal s ním začínat ani teď. Tři křížové výpravy se vrátily domů v troskách a jejich oficiální vůdce Zikmund se zdál víc zaujatý tím, aby ho v Římě korunovali na císaře. Papež se tedy podíval na sever, k [[link:importing-a-king-1421]]Vladislavu II. Jagellovi[[/link]], polskému králi, a jeho bratranci Vitoldovi, litevskému velkoknížeti. V listu z 1. října 1430 je žádal, aby české kacíře obrátili, nebo zničili. Smějí s nimi jednat a slíbit jim cokoli, protože takové sliby je nezavazují: církev může kohokoli zprostit jakékoli přísahy a pro věc církve smí člověk odložit i povinnost ke svému otci, synovi či bratrovi.\n\nVitold zemřel dřív, než dominikán, který list nesl, vůbec dorazil. Jagello udělal to, co uměl nejlépe: zůstal zadobře se všemi. Pozval husity k disputaci do Krakova. V březnu 1431 přijel osobně Prokop, mezi jeho průvodci Petr Payne a [[link:holy-peace-1427]]Vilém Kostka z Postupic[[/link]], a doprovázel je [[link:prague-dismisses-its-prince-1427]]Zikmund Korybutovič[[/link]], který teď zase bojoval na husitské straně z malého slezského knížectví, jež si mezitím získal.\n\nKrakovský biskup Zbigniew Oleśnicki zadobře se všemi nebyl. Nařídil, že dokud jsou kacíři ve městě, všechny bohoslužby ustanou. Když přišel Svatý týden a královská rodina chtěla do kostela, byli čeští hosté požádáni, aby se přestěhovali na předměstí Kazimierz. Korybut, který je považoval za své hosty, poslal biskupovi formální odpověď, tedy vyhlášení nepřátelství. Samotná disputace nikam nevedla. Husité se chtěli přít o čtyři artikuly, Poláci chtěli, aby poslouchali papeže. 4. dubna jim Jagello předložil listinu k podpisu, v níž slibovali, že se dostaví na koncil a bezpodmínečně přijmou všechna jeho rozhodnutí. Velmi zdvořile odmítli a odjeli domů.\n\nMartin V. se nedožil zprávy, jak to dopadlo. Zemřel 20. února 1431 a nový papež, Benátčan Evžen IV., zdědil jeho válku i jeho nechuť ke koncilům. Martinův poslední legát, kardinál Giuliano Cesarini, mezitím dorazil na říšský sněm do Norimberka a přemluvil knížata k další křížové výpravě, včetně odpustků pro každého, kdo se přidá. Poslední kolo jednání se Zikmundem v Chebu v květnu ztroskotalo, když husité žádali koncil, na němž by byly i řecká a východní církev, které také přijímaly pod obojí, a Zikmund ten nápad označil za směšný. [[b]]Po dvou letech jednání v Prešpurku, Krakově a Chebu byli všichni přesně tam, kde začali, a knížata znovu táhla do pole.[[/b]]",
+      zh: "到了1430年，教皇马丁五世对波希米亚什么招都试过了，就是没试过坐下来谈，而且他也没打算现在开始试。三次十字军都是七零八落地回了家，名义上的统帅西吉斯蒙德，心思似乎全放在去罗马加冕当皇帝上。于是教皇把目光投向了北方，投向波兰国王[[link:importing-a-king-1421]]瓦迪斯瓦夫二世·雅盖沃[[/link]]和他的堂兄弟、立陶宛大公维陶塔斯。1430年10月1日，他在信中请两人去感化波希米亚异端，感化不了就消灭他们。两位尽可以和异端谈判，爱许什么诺就许什么诺，因为这种承诺对他们并无约束力：教会可以解除任何人的任何誓言，而为了教会的事业，一个人连对父亲、儿子、兄弟的本分都可以抛开。\n\n送信的多明我会修士还没到，维陶塔斯就去世了。至于雅盖沃，他照旧发挥了自己最拿手的本事：跟谁都保持良好关系。他邀请胡斯派到克拉科夫来辩论。1431年3月，普罗科普亲自来了，同行的有彼得·佩恩和[[link:holy-peace-1427]]波斯图皮采的维莱姆·科斯特卡[[/link]]，护送他们的是[[link:prague-dismisses-its-prince-1427]]西吉斯蒙德·科里布特[[/link]]。此时的科里布特在西里西亚有了一块自己的小公国，又站回了胡斯派这边。\n\n克拉科夫主教兹比格涅夫·奥莱希尼茨基可不打算跟谁都保持良好关系。他下令：只要异端还在城里，全城的宗教仪式一律停止。到了圣周，王室成员要去教堂，捷克客人们就被请到城外的卡齐米日郊区去住。科里布特把这些人视为自己的客人，干脆给主教递了一份正式的宣战书。辩论本身毫无进展：胡斯派想辩四条款，波兰人只想让他们服从教皇。4月4日，雅盖沃拿出一份文件让他们签字，承诺出席公会议，并无条件接受会议的一切决定。他们非常客气地拒绝了，然后回了家。\n\n马丁五世没能等到这个结果。他于1431年2月20日去世，新教皇是威尼斯人尤金四世，把前任的战争和前任对公会议的厌恶一并继承了下来。马丁任命的最后一位特使、红衣主教朱利亚诺·切萨里尼，这时已经到了纽伦堡的帝国会议上，说动诸侯再发动一次十字军，凡参加者一律颁发赎罪券。5月，与西吉斯蒙德在海布的最后一轮谈判也破裂了：胡斯派要求召开一次有希腊教会和东方教会参加的公会议，因为那些教会同样饼酒兼领，西吉斯蒙德则称这个主意荒唐可笑。[[b]]在普雷斯堡、克拉科夫和海布谈了整整两年，所有人又回到了原点，诸侯们再一次整军出征。[[/b]]",
+    },
+    relatedLandmarks: [
+      {
+        slug: "cheb",
+        relation: {
+          en: "Where the last round of talks with Sigismund broke down in May 1431, after he called a council including the Greek Church ridiculous.",
+          cz: "Zde v květnu 1431 ztroskotalo poslední kolo jednání se Zikmundem poté, co koncil s účastí řecké církve označil za směšný.",
+          zh: "1431年5月，与西吉斯蒙德的最后一轮谈判在这里破裂，起因是他说让希腊教会参加公会议的主意荒唐可笑。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Pope_Martin_V",
+  },
+  {
+    slug: "they-heard-them-coming-1431",
+    era: "religious-turmoil",
+    startYear: 1431.6,
+    year: {
+      en: "14 August 1431",
+      cz: "14. srpna 1431",
+      zh: "1431年8月14日",
+    },
+    tone: "humorous",
+    title: {
+      en: "They Heard Them Coming",
+      cz: "Slyšeli je přicházet",
+      zh: "未见其人，先闻其声",
+    },
+    hookLine: {
+      en: "The fourth crusade brought thousands of war wagons of its own, to beat the Hussites at their own game. It never got to use them.",
+      cz: "Čtvrtá křížová výprava si přivezla tisíce vlastních bojových vozů, aby husity porazila jejich vlastní zbraní. Nikdy je nepoužila.",
+      zh: "第四次十字军自带了几千辆战车，打算用胡斯派自己的战术打败胡斯派。这些战车，一辆也没派上用场。",
+    },
+    summary: {
+      en: "The crusade that Cesarini had talked into existence finally crossed the border on 1 August 1431, later and smaller than planned but still enormous: tens of thousands of men under Frederick of Brandenburg, perhaps a hundred thousand counting the camp followers, with the cardinal himself riding along. Having learned something from three defeats, they had brought war wagons of their own, thousands of them. They spent a week failing to take [[link:bloody-street-1427]]Tachov[[/link]], then turned south towards Domažlice and began besieging it, burning villages all the way. Even hardened contemporaries were shocked at how thoroughly they did it.\n\nProkop's army had pulled back into the interior to find food in a countryside already stripped bare, and the crusaders took this to mean that the Hussites were afraid to fight. On 14 August they found out otherwise. The Hussites drew up their wagons at dawn near Chotěšice and marched on Domažlice in battle order all day. In the afternoon Cesarini and some of the princes rode up a hill to watch them come, and saw something odd: a long column of crusader supply wagons already hurrying the other way, towards Bavaria. Frederick of Brandenburg had quietly ordered the baggage to the rear to keep a line of retreat open, and had told nobody.\n\nEveryone who saw the wagons leaving drew the obvious conclusion. Then the sound reached them: the rumble of the Hussite wagons and, over it, [[link:victory-at-vitkov-hill-1420]]the hymn[[/link]] that the whole of Central Europe had learned to dread. The crusade did not wait to find out who was singing:\n\n[[quote:0]]\n\nOnly the rearguard, among them Cesarini's Italian guards, tried to make a stand behind their wagons, and they were cut down. Everyone else ran for the passes into the Bohemian Forest, fighting one another on the narrow roads for the right to get away first. Cesarini tried to rally them, failed, and in the end had to flee in disguise, less from the Hussites than from his own crusaders, who blamed the foreign priest for the whole disaster and were threatening to kill him. The next morning the Hussites rounded up prisoners in the woods, tied them in pairs and led them back in a long procession. The Old Czech Annals counted some three hundred guns and about two thousand wagons in the booty. Among the trophies were the pope's crusading bull itself and the cardinal's robes, his cross and his red hat. Laurence of Březová wrote a mocking Latin song in which Cesarini laments what he left behind:\n\n[[quote:1]]\n\n[[b]]The fourth crusade against Bohemia had not even stayed long enough to see the enemy.[[/b]] Even Cesarini drew the lesson. Within weeks the legate who had preached the crusade across Germany had become the Church's loudest voice for talking to the Hussites instead.",
+      cz: "Křížová výprava, kterou Cesarini přemluvil k životu, konečně překročila hranici 1. srpna 1431, později a menší, než se plánovalo, ale pořád obrovská: desítky tisíc mužů pod velením Fridricha Braniborského, i s vozatajstvem a čeledí snad sto tisíc, a s nimi jel i sám kardinál. Po třech porážkách se leccos naučili, a tak si přivezli vlastní bojové vozy, tisíce vozů. Týden se marně snažili dobýt [[link:bloody-street-1427]]Tachov[[/link]], pak se obrátili na jih k Domažlicím, začali je obléhat a cestou pálili vesnice. I otrlé současníky šokovalo, jak důkladně to dělali.\n\nProkopovo vojsko se stáhlo do vnitrozemí, aby našlo potravu v krajině, která už byla vyjedená, a křižáci si to vyložili tak, že se husité bojí bojovat. 14. srpna se přesvědčili o opaku. Husité ráno u Chotěšic sešikovali vozy a celý den táhli v šiku na Domažlice. Odpoledne vyjel Cesarini s několika knížaty na kopec, aby se díval, jak přicházejí, a uviděl něco zvláštního: dlouhou kolonu křižáckých zásobovacích vozů, která už spěchala opačným směrem, k Bavorsku. Fridrich Braniborský potichu nařídil odsunout vozatajstvo dozadu, aby si udržel cestu k ústupu, a nikomu to neřekl.\n\nKaždý, kdo viděl odjíždějící vozy, si z toho vyvodil jasný závěr. Pak k nim dolehl zvuk: dunění husitských vozů a nad ním [[link:victory-at-vitkov-hill-1420]]píseň[[/link]], které se celá střední Evropa naučila bát. Výprava nečekala, až zjistí, kdo zpívá:\n\n[[quote:0]]\n\nJen zadní voj, mezi nimi Cesariniho italská garda, se pokusil postavit za svými vozy, a byl pobit. Všichni ostatní utíkali k průsmykům do Šumavy a na úzkých cestách se mezi sebou rvali o to, kdo uteče první. Cesarini se je pokusil zastavit, nepodařilo se mu to a nakonec musel utéct v přestrojení, a to ani ne tak před husity jako před vlastními křižáky, kteří z celé pohromy vinili cizího kněze a vyhrožovali mu smrtí. Druhý den ráno husité posbírali po lesích zajatce, svázali je po dvou a vedli je zpátky v dlouhém procesí. Staré letopisy české napočítaly v kořisti na tři sta děl a kolem dvou tisíc vozů. Mezi trofejemi byla i samotná papežská křížová bula a kardinálův oděv, jeho kříž a jeho červený klobouk. Vavřinec z Březové napsal posměšnou latinskou píseň, v níž Cesarini naříká nad tím, co za sebou nechal:\n\n[[quote:1]]\n\n[[b]]Čtvrtá křížová výprava do Čech nevydržela ani tak dlouho, aby nepřítele uviděla.[[/b]] Poučení si vzal i Cesarini. Během několika týdnů se z legáta, který kázal kruciátu po celém Německu, stal nejhlasitější zastánce toho, aby církev s husity místo toho jednala.",
+      zh: "被切萨里尼一手鼓动起来的这次十字军，终于在1431年8月1日越过了边境。它比原计划晚，也比原计划小，但依然声势浩大：勃兰登堡的腓特烈统领着几万人马，算上随营人员，恐怕有十万之众，红衣主教本人也随军同行。吃了三次败仗，他们总算学到了点东西，自带了几千辆战车。他们先在[[link:bloody-street-1427]]塔霍夫[[/link]]城下耗了一个星期，没能攻下，接着掉头南下，围住了多马日利采，一路走一路烧村子。就连见惯了战争的同时代人，也被他们烧杀的彻底程度吓了一跳。\n\n普罗科普的大军此前已经退回内地，因为边境一带早被吃空了，找不到粮草。十字军却把这当成了胡斯派不敢应战的证据。8月14日，他们发现自己想错了。胡斯军一早在霍捷希采附近排好车阵，列队向多马日利采开进，走了整整一天。下午，切萨里尼和几位诸侯骑马登上一座小山，想看看胡斯军过来的样子，结果看到了一幕怪事：一长串十字军的辎重车，正急匆匆地往反方向、往巴伐利亚那边赶。原来勃兰登堡的腓特烈为了保住退路，悄悄下令把辎重往后撤，却谁也没告诉。\n\n看见辎重车往回跑的人，都得出了同一个结论。接着，声音传了过来：胡斯派战车隆隆作响，盖过车声的，是那首[[link:victory-at-vitkov-hill-1420]]战歌[[/link]]，整个中欧都已经学会了害怕它。十字军没等弄清是谁在唱：\n\n[[quote:0]]\n\n只有后卫部队，包括切萨里尼的意大利卫队，试图躲在自己的战车后面抵抗一阵，结果被全部砍倒。其余的人全都朝着通往波希米亚森林的山口狂奔，还在狭窄的山路上互相厮打，争着先跑。切萨里尼想把人拢住，没能成功，最后只好乔装改扮逃命，而他躲的与其说是胡斯军，不如说是自己手下的十字军：这些人把整场惨败都怪到这个外国神父头上，扬言要他的命。第二天一早，胡斯派在树林里搜捕俘虏，两人一绑，押回来排成了长长的一队。据《古捷克编年史》统计，缴获的大炮约有三百门，车辆约两千辆。战利品中还有教皇的十字军诏书原件，以及红衣主教的法衣、十字架和他那顶红帽子。布热佐瓦的瓦夫日内茨写了一首拉丁文讽刺歌，让切萨里尼亲口哀叹自己丢下的东西：\n\n[[quote:1]]\n\n[[b]]第四次讨伐波希米亚的十字军，连敌人的面都没等到。[[/b]]就连切萨里尼也吸取了教训。短短几个星期，这位曾在德意志各地鼓吹十字军的特使，就成了教会里最卖力主张与胡斯派谈判的人。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "And while the Czechs were still a mile from the Germans, at once, by God's leave, the Germans fled in very great dread and fear, and before they had even caught sight of the Czech army they ran with their wagons into the Bavarian woods.",
+          cz: "A když ještě míli Čechové od Němců byli, ihned z odpuštění božího Němci s velmi velikou bázní a se strachem prchali a dříve, než české vojsko spatřili, s vozy svými do bavorských lesů běželi.",
+          zh: "捷克人离德意志人还有一里地的时候，承蒙上帝恩准，德意志人立刻心惊胆战地逃跑了，还没望见捷克军队的影子，就带着他们的车辆逃进了巴伐利亚的森林。",
+        },
+        attribution: {
+          en: "Old Czech Annals (Staré letopisy české), Manuscript Š, on 14 August 1431",
+          cz: "Staré letopisy české, rukopis Š, o 14. srpnu 1431",
+          zh: "《古捷克编年史》Š本，记1431年8月14日",
+        },
+      },
+      {
+        text: {
+          en: "And my red hat too, lost by me as I fled: one of them put it on his head, handed out blessings and made the sign of the cross, all to make a mockery of the holy rite.",
+          cz: "A též můj klobouk červený mnou na útěku ztracený, z nich kdosi na své hlavě měl a požehnání udílel a kříže dělal, aby jen byl obřad svatý zesměšněn.",
+          zh: "还有我逃跑时丢掉的那顶红帽子：他们当中有人把它戴在头上，四处赐福，画着十字，存心要把神圣的礼仪变成笑话。",
+        },
+        attribution: {
+          en: "Laurence of Březová, Song of the Victory at Domažlice (from the Czech translation of the Latin)",
+          cz: "Vavřinec z Březové, Píseň o vítězství u Domažlic (v českém překladu z latiny)",
+          zh: "布热佐瓦的瓦夫日内茨《多马日利采大捷之歌》（据拉丁文原作的捷克文译本）",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "domazlice",
+        relation: {
+          en: "The town the crusaders were besieging on 14 August 1431. The monument on Baldov hill above it stands on foundations laid in 1931 with stones from seven Hussite battlefields.",
+          cz: "Město, které křižáci 14. srpna 1431 obléhali. Památník na vrchu Baldov nad ním stojí na základech z roku 1931, do nichž byly vloženy kameny ze sedmi husitských bojišť.",
+          zh: "1431年8月14日十字军正在围攻的城市。城外巴尔多夫山上的纪念碑，建在1931年打下的地基上，地基里砌进了取自七处胡斯派战场的石头。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Bitva_u_Doma%C5%BElic",
+  },
+  {
+    slug: "what-was-the-council-of-basel-1431",
+    era: "religious-turmoil",
+    startYear: 1431.7,
+    cardType: "background",
+    year: {
+      en: "1431–1449",
+      cz: "1431–1449",
+      zh: "1431–1449年",
+    },
+    tone: "humorous",
+    title: {
+      en: "What Was the Council of Basel?",
+      cz: "Co byl basilejský koncil?",
+      zh: "巴塞尔公会议，到底是怎么回事？",
+    },
+    hookLine: {
+      en: "The pope ordered it to dissolve. It refused, invited the heretics, and kept meeting for eighteen years.",
+      cz: "Papež mu nařídil, aby se rozešel. Koncil odmítl, pozval kacíře a zasedal dalších osmnáct let.",
+      zh: "教皇下令解散它。它不但不肯散，还邀请了异端，一开就是十八年。",
+    },
+    summary: {
+      en: "A general council was the medieval Church's biggest meeting: bishops, abbots, theologians and the envoys of kings from across Latin Christendom, gathered to settle what no single authority could. The most famous was the [[link:the-safe-conduct-that-wasnt-enough-1414]]Council of Constance[[/link]] of 1414–1418. It ended the [[link:the-papal-schism-1378]]Great Schism[[/link]] by getting rid of three rival popes and electing a fourth, Martin V, and along the way it burned Jan Hus. It also decreed that its authority came directly from Christ, and that councils should meet regularly from now on. [[b]]In other words, a council could claim to stand above the pope, and popes were understandably less keen on that idea than councils were.[[/b]]\n\nUnder the new rule a council was due at Basel in 1431, and Martin V agreed to it only reluctantly. What pushed him, it seems, was a document found nailed to the gates of the papal palace in Rome on 8 November 1430. Its anonymous authors, who described themselves as two illustrious princes, demanded that the pope summon a council by the following March to deal with the Hussites, and warned that a pope who refused could be deposed by it. Nobody knows who wrote it, though suspicion fell on [[link:four-articles-or-fifty-thousand-1430]]Frederick of Brandenburg[[/link]], the prince who had tried to arrange a hearing for the Hussites that spring.\n\nThe president of the new council was Cardinal Cesarini, fresh from his flight from Domažlice and a changed man. In October 1431 the council invited the Bohemians to Basel, promising them safe passage and complete freedom to set out their views. Even delivering the invitation was awkward, because papal decrees forbade all contact with Bohemia on pain of excommunication, so copies were sent by way of Sigismund, Nuremberg and Cheb. Eugenius IV was furious. In November and again in December 1431 he issued bulls dissolving the council, listing among its offences that it had invited heretics already condemned at Constance. Cesarini politely refused to leave. For the first time the Church's highest assembly and the pope were openly on opposite sides, and the argument between them was about the Hussites.\n\nIn Prague the invitation was read out from the pulpit of the Týn church by [[link:prague-dismisses-its-prince-1427]]Jan Rokycana[[/link]], who then preached a sermon on peace; the chroniclers say the whole congregation wept. The council itself went on sitting until 1449. Before it fizzled out it deposed Eugenius and elected an antipope of its own, but the talks it opened with the Hussites were the ones that finally brought the war to an end.",
+      cz: "Obecný koncil byl největším shromážděním středověké církve: biskupové, opati, teologové a vyslanci králů z celého latinského křesťanstva se sešli, aby rozhodli to, co nedokázala rozhodnout žádná jednotlivá autorita. Nejslavnější byl [[link:the-safe-conduct-that-wasnt-enough-1414]]kostnický koncil[[/link]] v letech 1414–1418. Ukončil [[link:the-papal-schism-1378]]velké schizma[[/link]] tím, že se zbavil tří soupeřících papežů a zvolil čtvrtého, Martina V., a mimochodem upálil Jana Husa. Prohlásil také, že jeho moc pochází přímo od Krista a že se koncily mají od nynějška scházet pravidelně. [[b]]Jinými slovy, koncil si mohl nárokovat, že stojí nad papežem, a papežové z toho pochopitelně měli menší radost než koncily.[[/b]]\n\nPodle nového pravidla měl roku 1431 zasednout koncil v Basileji a Martin V. na něj přistoupil jen nerad. Popostrčil ho k tomu zřejmě dokument, který se 8. listopadu 1430 objevil přibitý na branách papežského paláce v Římě. Jeho anonymní autoři, kteří se označili za dvě vznešená knížata, žádali, aby papež do příštího března svolal koncil, který se vypořádá s husity, a varovali, že papeže, který odmítne, může koncil sesadit. Kdo ho napsal, nikdo neví, ale podezření padlo na [[link:four-articles-or-fifty-thousand-1430]]Fridricha Braniborského[[/link]], knížete, který se téhož jara snažil husitům zařídit slyšení.\n\nPředsedou nového koncilu se stal kardinál Cesarini, čerstvě po útěku od Domažlic a jako vyměněný. V říjnu 1431 koncil pozval Čechy do Basileje a slíbil jim bezpečný průchod a úplnou svobodu vyložit své názory. Už jen doručit pozvání bylo složité, protože papežské dekrety pod trestem exkomunikace zakazovaly jakýkoli styk s Čechami, a tak se opisy posílaly přes Zikmunda, Norimberk a Cheb. Evžen IV. zuřil. V listopadu a znovu v prosinci 1431 vydal buly, jimiž koncil rozpouštěl, a mezi jeho proviněními uváděl, že pozval kacíře odsouzené už v Kostnici. Cesarini zdvořile odmítl odejít. Poprvé stály nejvyšší shromáždění církve a papež otevřeně proti sobě a spor mezi nimi se točil kolem husitů.\n\nV Praze přečetl pozvání z kazatelny Týnského chrámu [[link:prague-dismisses-its-prince-1427]]Jan Rokycana[[/link]] a pak kázal o míru; letopisci píšou, že celé shromáždění plakalo. Samotný koncil zasedal až do roku 1449. Než vyšuměl, sesadil Evžena a zvolil si vlastního vzdoropapeže, ale jednání, které s husity zahájil, bylo tím, které válku nakonec ukončilo.",
+      zh: "公会议是中世纪教会规格最高的大会：来自整个拉丁基督教世界的主教、修道院长、神学家和各国国王的使节齐聚一堂，解决任何单一权威都解决不了的问题。其中最有名的，是1414至1418年的[[link:the-safe-conduct-that-wasnt-enough-1414]]康斯坦茨公会议[[/link]]。它拿掉了三位互相竞争的教皇，另选出第四位，也就是马丁五世，就此结束了[[link:the-papal-schism-1378]]教会大分裂[[/link]]，顺便还烧死了扬·胡斯。它还宣布，公会议的权力直接来自基督，今后公会议要定期召开。[[b]]换句话说，公会议可以自称凌驾于教皇之上，而教皇们对这个主意的热情，自然远不如公会议本身。[[/b]]\n\n按照这条新规矩，1431年应该在巴塞尔召开一次公会议，马丁五世很不情愿地答应了。推了他一把的，似乎是一份文件：1430年11月8日，有人发现它被钉在了罗马教皇宫的大门上。匿名作者自称“两位显赫的诸侯”，要求教皇在次年3月之前召开公会议，解决胡斯派问题，还警告说，拒不召开的教皇可以被公会议废黜。没人知道作者是谁，不过嫌疑落在了[[link:four-articles-or-fifty-thousand-1430]]勃兰登堡的腓特烈[[/link]]身上，就是那年春天想给胡斯派安排一场听证会的那位诸侯。\n\n新公会议的主席是红衣主教切萨里尼。他刚从多马日利采逃回来，简直像换了一个人。1431年10月，公会议邀请波希米亚人前往巴塞尔，保证他们来去平安，可以畅所欲言。光是把邀请信送出去就很费周折，因为教皇的法令以绝罚相威胁，禁止与波希米亚有任何往来，只好把副本分别经由西吉斯蒙德、纽伦堡和海布转交。尤金四世大发雷霆，1431年11月和12月两次发布诏书，宣布解散公会议，罪状之一，就是邀请了早在康斯坦茨就已被定罪的异端。切萨里尼彬彬有礼地拒绝离开。教会的最高会议和教皇第一次公开站到了对立面，而双方争的，正是胡斯派。\n\n在布拉格，[[link:prague-dismisses-its-prince-1427]]扬·罗基察纳[[/link]]在泰恩教堂的讲坛上宣读了这封邀请信，接着讲了一篇关于和平的布道；据编年史记载，在场的会众全都哭了。公会议本身一直开到1449年，在不了了之之前，它还废黜了尤金四世，另立了一位自己的对立教皇。但它与胡斯派开启的谈判，最终结束了这场战争。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Council_of_Basel",
+  },
+  {
+    slug: "send-him-the-executioner-1431",
+    era: "religious-turmoil",
+    startYear: 1431.9,
+    year: {
+      en: "Autumn 1431 – February 1432",
+      cz: "Podzim 1431 – únor 1432",
+      zh: "1431年秋至1432年2月",
+    },
+    tone: "humorous",
+    title: {
+      en: "Send Him the Executioner",
+      cz: "Pošlete mu kata",
+      zh: "请医生？派刽子手！",
+    },
+    hookLine: {
+      en: "Prokop lay ill in Kutná Hora and asked Prague to send him a doctor. Prague replied that it would rather send the executioner.",
+      cz: "Prokop ležel nemocný v Kutné Hoře a požádal Prahu, aby mu poslala doktora. Praha odpověděla, že mu raději pošle kata.",
+      zh: "普罗科普在库特纳霍拉卧病在床，请布拉格派个医生来。布拉格回复说，还是派刽子手去比较合适。",
+    },
+    summary: {
+      en: "After Domažlice the Hussites went back to visiting their neighbours. In the autumn of 1431 the Táborites and the Orphans marched together through Silesia and over the Jablunkov Pass into Upper Hungary, today's Slovakia. At first it went splendidly. They took the castle of Likava by a trick, plundered their way down the valleys and reached the Nitra region by mid-October with more horses and cattle than they could count. Then the campaign dragged on, and the Táborites turned for home first. As they crossed the Váh at Hlohovec, the bridge there was destroyed behind them.\n\nThe Orphans under Jan Čapek of Sány were a few days behind, and their wagons were so full of booty that it took four horses to move each one. The autumn had been wet, the roads had turned to mud, and with the Hlohovec bridge gone they had to go the long way round, upriver along the Váh, with the Hungarian cavalry at their heels. At the crossing near Ilava in December the Hungarians caught them before the wagon fort was properly closed and broke into it. At Bánov they were beaten again. Many drowned trying to get across the river. Of about seven thousand men and three hundred wagons, perhaps two thousand men and fifty wagons made it back to Moravia, and the booty was gone.\n\nThe Orphans needed someone to blame, and they had an obvious candidate: the Táborites had left them behind and cut off the road home. Čapek did not hesitate to call Prokop a traitor, and in Prague the accusation went down well. Prokop, deeply offended, withdrew to Kutná Hora and refused to attend the diet. There he fell ill with something the sources never name. When he sent to Prague asking for a doctor, the Praguers answered that they would rather send him the executioner. [[b]]Two years after Pressburg and a few months after Domažlice, the most feared commander in Europe could not get a doctor from his own capital.[[/b]]\n\nIt was the council at Basel that got him out of bed. With an invitation to negotiate on the table and a diet meeting without the Táborites, Prokop could not afford to lie in Kutná Hora. In January 1432 he was up again. He rode to Třeboň and made a year's truce with [[link:one-jailbreak-two-castles-1420]]Oldřich of Rožmberk[[/link]], then came to the great diet in Prague on 10 February, where Táborites, Orphans, Praguers and lords all sat in one room for the first time in months. It was a stormy meeting, but it ended with an agreement to go to Basel together. Not everyone left it reassured. Some of the Utraquist lords had begun to wonder, quietly, whether the Catholic lords might make better allies against Tábor than Tábor did against anyone.",
+      cz: "Po Domažlicích se husité vrátili k návštěvám sousedů. Na podzim 1431 táhli táboři a sirotci společně přes Slezsko a Jablunkovský průsmyk do Horních Uher, na dnešní Slovensko. Zpočátku to šlo skvěle. Lstí dobyli hrad Likavu, vyplenili si cestu údolími a do poloviny října dorazili na Nitransko s víc koňmi a dobytkem, než stačili spočítat. Pak se výprava protáhla a táboři se obrátili domů jako první. Když přecházeli Váh u Hlohovce, most za nimi byl zničen.\n\nSirotci pod velením Jana Čapka ze Sán šli o pár dní za nimi a jejich vozy byly tak plné kořisti, že každý museli táhnout čtyři koně. Podzim byl deštivý, cesty se změnily v bláto, a když byl most u Hlohovce pryč, museli jít oklikou proti proudu Váhu s uherskou jízdou v patách. U brodu nedaleko Ilavy je Uhři v prosinci zaskočili dřív, než stačili pořádně uzavřít vozovou hradbu, a vtrhli dovnitř. U Bánova byli poraženi znovu. Mnoho jich utonulo, když se snažili dostat přes řeku. Ze zhruba sedmi tisíc mužů a tří set vozů se na Moravu vrátily snad dva tisíce mužů a padesát vozů a kořist byla pryč.\n\nSirotci potřebovali viníka a jednoho měli po ruce: táboři je nechali za sebou a odřízli jim cestu domů. Čapek neváhal označit Prokopa za zrádce a v Praze to padlo na úrodnou půdu. Hluboce uražený Prokop se stáhl do Kutné Hory a odmítl se zúčastnit sněmu. Tam ho skolila nemoc, kterou prameny nikde nejmenují. Když poslal do Prahy žádost o doktora, Pražané odpověděli, že mu raději pošlou kata. [[b]]Dva roky po Prešpurku a pár měsíců po Domažlicích nemohl nejobávanější vojevůdce Evropy dostat z vlastního hlavního města ani lékaře.[[/b]]\n\nZ postele ho nakonec vytáhl koncil v Basileji. S pozváním k jednání na stole a se sněmem, který zasedal bez táborů, si Prokop nemohl dovolit ležet v Kutné Hoře. V lednu 1432 byl zase na nohou. Zajel do Třeboně a uzavřel roční příměří s [[link:one-jailbreak-two-castles-1420]]Oldřichem z Rožmberka[[/link]], pak přijel na velký sněm do Prahy, svolaný na 10. února, kde táboři, sirotci, Pražané i páni poprvé po mnoha měsících seděli v jedné místnosti. Bylo to bouřlivé zasedání, ale skončilo dohodou, že do Basileje pojedou společně. Ne každý z něj odcházel uklidněn. Někteří kališničtí páni začali potichu uvažovat, jestli by katoličtí páni nebyli proti Táboru lepšími spojenci, než byl Tábor proti komukoli.",
+      zh: "多马日利采之战以后，胡斯派又开始去邻居家“串门”了。1431年秋天，塔博尔军和孤儿军一起穿过西里西亚，翻过亚布伦科夫山口，进入上匈牙利，也就是今天的斯洛伐克。一开始打得顺风顺水：他们用计拿下了利卡瓦城堡，沿着一道道河谷一路抢过去，到10月中旬抵达尼特拉一带时，马匹和牲口多得数不过来。可是远征越拖越久，塔博尔军先掉头回家了。他们在赫洛霍韦茨渡过瓦赫河之后，那里的桥就被毁掉了。\n\n扬·恰佩克率领的孤儿军落后了几天，车上塞满了战利品，每辆都得四匹马才拉得动。那年秋天阴雨连绵，道路成了烂泥塘，赫洛霍韦茨的桥又没了，他们只好沿着瓦赫河逆流绕远路，匈牙利骑兵就紧紧咬在身后。12月，在伊拉瓦附近的渡口，匈牙利人趁他们车阵还没合拢，一举冲了进去。到了巴诺夫，孤儿军又败了一仗。很多人在强渡瓦赫河时淹死了。出发时约七千人、三百辆战车，最后回到摩拉维亚的，大概只剩两千人、五十辆车，战利品一件不剩。\n\n孤儿军需要一个替罪羊，而现成的就有一个：塔博尔军丢下他们先走，还断了他们回家的路。恰佩克毫不犹豫地骂普罗科普是叛徒，这话在布拉格还很有市场。普罗科普深感受辱，退到库特纳霍拉，拒绝出席议会。他在那里病倒了，至于得的是什么病，史料里从来没说过。他派人去布拉格请个医生，布拉格人回话说，还是给他派个刽子手去比较合适。[[b]]普雷斯堡谈判两年后、多马日利采大捷几个月后，全欧洲最令人胆寒的统帅，竟然连一个医生都请不来。[[/b]]\n\n最后把他从病床上拽起来的，是巴塞尔公会议。谈判邀请已经摆在桌上，议会又在没有塔博尔派的情况下照开不误，普罗科普可躺不起。1432年1月，他重新站了起来。他先骑马去了特热邦，和[[link:one-jailbreak-two-castles-1420]]罗日姆贝克的奥尔德日赫[[/link]]订了一年的停战协议，接着赶到布拉格，出席2月10日召开的大议会。塔博尔派、孤儿军、布拉格人和贵族们，几个月来第一次坐进了同一间屋子。会议吵得不可开交，但最后总算达成一致：一起去巴塞尔。不过，并不是每个人离开时都放下了心。一些圣杯派贵族已经开始悄悄琢磨：要对付塔博尔派，天主教贵族会不会是比塔博尔派更好的盟友。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "kutna-hora",
+        relation: {
+          en: "Where Prokop withdrew, offended and ill, after the Orphans' Hungarian disaster of 1431, and where Prague offered to send him an executioner instead of a doctor.",
+          cz: "Sem se Prokop uražený a nemocný stáhl po uherské pohromě sirotků roku 1431 a sem mu Praha místo doktora nabídla kata.",
+          zh: "1431年孤儿军在匈牙利惨败后，普罗科普带着一肚子委屈和一身病退到了这里，布拉格还说要给他派刽子手而不是医生。",
+        },
+      },
+      {
+        slug: "trebon",
+        relation: {
+          en: "The walled Rožmberk town where, in January 1432, Prokop got out of his sickbed long enough to make a year's truce with Oldřich of Rožmberk.",
+          cz: "Opevněné rožmberské město, kde Prokop v lednu 1432, sotva vstal z lůžka, uzavřel s Oldřichem z Rožmberka roční příměří.",
+          zh: "罗日姆贝克家族的设防城镇。1432年1月，普罗科普刚从病床上爬起来，就赶到这里和罗日姆贝克的奥尔德日赫订了一年的停战协议。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Jan_%C4%8Capek_ze_S%C3%A1n",
   },
 ];
 

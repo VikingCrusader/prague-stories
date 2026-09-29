@@ -32098,6 +32098,89 @@ Roku 1569 panství koupil Petr Vok z Rožmberka, poslední svého rodu, a v lete
 🎁 彩蛋：1580年2月14日，也就是情人节那天，彼得·沃克在这里迎娶了卢达尼采的卡特日娜。新郎快四十一岁，新娘只有十四五岁，是摩拉维亚最富有的女继承人之一。两人没能生下继承人，1611年沃克去世，罗日姆贝克家族也随之绝嗣。不过这段婚姻看来是有真感情的：考古学家打开维希布罗德的罗日姆贝克家族墓穴时，找到了两人的结婚戒指。城堡里至今还有一间大厅，以这场婚礼命名。`,
     },
   },
+  {
+    // Added 2026-09-29 at the user's request, with user-supplied coordinates,
+    // to link send-him-the-executioner-1431 (Prokop's truce with Oldřich of
+    // Rožmberk at Třeboň, January 1432). Facts from cs.wikipedia (Třeboň;
+    // Třeboň (zámek)), mesto-trebon.cz and trebonsko.cz (Hussite sieges of
+    // 1423 and 1425).
+    name: 'Třeboň',
+    slug: 'trebon',
+    localizedNames: { cz: 'Třeboň', zh: '特热邦' },
+    labels: ['city', 'historical'],
+    coordinates: { lat: 49.003934061985106, lng: 14.771033147590137 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/T%C5%99ebo%C5%88',
+    description: {
+      en: `Welcome to Třeboň, a small walled town in South Bohemia surrounded by so much water that it can be hard to tell where the landscape ends and the fish farm begins. For five centuries its lords have been farming carp here, and every Czech Christmas dinner still owes this place a small debt.
+
+A market settlement stood here by the late 12th century, and in 1366 it passed to the Rožmberks, the most powerful noble family in South Bohemia. They made it a town, and in 1367 four Rožmberk brothers founded an Augustinian monastery whose church of St Giles once held the panels of the Master of the Třeboň Altarpiece, among the finest Gothic paintings in Europe and now in the National Gallery in Prague. The town brewery dates from 1379 and still brews today. By the end of the 14th century Třeboň had stone walls and a moat, and with the marshes all around it that made it very hard to take: the Hussites besieged it in 1423 and again in 1425, and both times it held. In the 16th century the Rožmberk estate managers Štěpánek Netolický and Jakub Krčín turned the swampy country around the town into a network of fishponds linked by canals. Krčín's Rožmberk Pond, built in 1584–1590, is still the largest pond in the Czech Republic.
+
+The last of the Rožmberks, Petr Vok, made the castle his residence in 1602 and died here without heirs in 1611; his brother Vilém had kept an alchemical workshop in the town in the 1580s, where the English alchemist Edward Kelley worked. From 1660 Třeboň belonged to the Schwarzenbergs, who built their neo-Gothic family tomb across the pond at Domanín. In the 19th century a local teacher, Václav Hucek, and his daughter Berta opened the first peat spa, and Třeboň has been a spa town ever since. The Renaissance chateau is open for tours and houses the regional archive, including the Rožmberk family archive with documents going back to 1184.
+
+🎁 Bonus: take a closer look at the fountain in the chateau courtyard, built in 1712. Its carving shows a raven pecking out the eye of a Turk's severed head. It is the Schwarzenberg coat of arms, granted after Adolf of Schwarzenberg captured the Hungarian fortress of Győr from the Ottomans in 1598, and it has been quietly unsettling wedding guests in the courtyard ever since.`,
+
+      cz: `Vítej v Třeboni, malém opevněném městě na jihu Čech obklopeném tolika vodou, že někdy není jasné, kde končí krajina a začíná rybí hospodářství. Místní páni tu chovají kapry už pět století a každá česká štědrovečerní večeře tomuhle místu dodnes trochu dluží.
+
+Tržní osada tu stála už koncem 12. století a roku 1366 přešla pod Rožmberky, nejmocnější šlechtický rod jižních Čech. Ti z ní udělali město a roku 1367 tu čtyři rožmberští bratři založili augustiniánský klášter, v jehož kostele svatého Jiljí kdysi stály deskové obrazy Mistra třeboňského oltáře, jedna z nejlepších gotických maleb v Evropě, dnes v Národní galerii v Praze. Městský pivovar pochází z roku 1379 a vaří dodnes. Koncem 14. století měla Třeboň kamenné hradby a příkop, a s bažinami všude kolem bylo velmi těžké ji dobýt: husité ji obléhali roku 1423 a znovu roku 1425 a pokaždé vydržela. V 16. století proměnili rožmberští regenti Štěpánek Netolický a Jakub Krčín bažinatou krajinu kolem města v síť rybníků propojených stokami. Krčínův rybník Rožmberk, postavený v letech 1584–1590, je dodnes největším rybníkem v České republice.
+
+Poslední Rožmberk, Petr Vok, si roku 1602 zvolil zdejší zámek za sídlo a roku 1611 tu zemřel bez dědiců; jeho bratr Vilém tu v osmdesátých letech 16. století držel alchymistickou dílnu, v níž pracoval anglický alchymista Edward Kelley. Od roku 1660 patřila Třeboň Schwarzenberkům, kteří si za rybníkem v Domaníně postavili novogotickou rodovou hrobku. V 19. století otevřel místní učitel Václav Hucek s dcerou Bertou první slatinné lázně a Třeboň je od té doby lázeňským městem. Renesanční zámek je přístupný s průvodcem a sídlí v něm Státní oblastní archiv, včetně rožmberského archivu s listinami od roku 1184.
+
+🎁 Bonus: podívej se pozorněji na kašnu na zámeckém nádvoří z roku 1712. Její reliéf ukazuje havrana, který klove oko do useknuté hlavy Turka. Je to schwarzenberský erb, udělený poté, co Adolf ze Schwarzenberku roku 1598 dobyl na Osmanech uherskou pevnost Ráb, a svatebčany na nádvoří od té doby tiše znervózňuje.`,
+
+      zh: `欢迎来到特热邦。这座南波希米亚的设防小城四周全是水，有时候真分不清哪里是风景，哪里是养鱼场。五百年来，这里的领主一直在养鲤鱼，直到今天，每一顿捷克圣诞晚餐都还欠着这个地方一点人情。
+
+12世纪末，这里已经有了一个集市聚落。1366年，它归入南波希米亚最有权势的贵族罗日姆贝克家族名下。罗日姆贝克家族把它建成了城镇，1367年，家族的四兄弟在这里创办了奥斯定会修道院。修道院的圣吉尔斯教堂里，曾经供奉着“特热邦祭坛画大师”的祭坛画板，那是欧洲最出色的哥特式绘画之一，如今收藏在布拉格的国家美术馆。城里的啤酒厂始建于1379年，至今仍在酿酒。到14世纪末，特热邦已经有了石砌城墙和护城壕，再加上四周都是沼泽，想打下来非常难：胡斯军在1423年和1425年两次围城，两次都没能攻破。16世纪，罗日姆贝克家族的领地总管什捷潘内克·内托利茨基和雅库布·克尔钦，把城外的沼泽地改造成了一张由水渠串联起来的鱼塘网。克尔钦主持修建的罗日姆贝克塘建于1584至1590年，至今仍是捷克面积最大的池塘。
+
+罗日姆贝克家族的最后一代传人彼得·沃克，1602年把这里的城堡当作自己的府邸，1611年在此去世，身后没有留下继承人。他的哥哥维莱姆在16世纪80年代还在城里开过一间炼金工坊，英格兰炼金术士爱德华·凯利就在那里干过活。从1660年起，特热邦归施瓦岑贝格家族所有，他们在池塘对岸的多马宁修了一座新哥特式家族墓。19世纪，本地教师瓦茨拉夫·胡采克和女儿贝尔塔开办了第一家泥炭疗养浴场，特热邦从此成了一座疗养城。如今，这座文艺复兴城堡开放参观，里面还设有州立档案馆，收藏着罗日姆贝克家族档案，最早的文件可以追溯到1184年。
+
+🎁 彩蛋：留意一下城堡庭院里那座1712年的喷泉。上面的浮雕是一只乌鸦，正在啄一颗被砍下的土耳其人头颅的眼睛。这是施瓦岑贝格家族的纹章：1598年，阿道夫·冯·施瓦岑贝格从奥斯曼人手里夺下了匈牙利要塞杰尔，才得了这枚纹章。从那以后，它就一直默默地让来庭院办婚礼的宾客心里发毛。`,
+    },
+  },
+  {
+    // DB-only preset (created 2026-06-20 as slug nove-mesto, name "Nové Město
+    // (New Town)", with a "Brave adventurer" opening and stray pre-schema
+    // fields). Renamed to novomestska-radnice / "New Town Hall" and
+    // rewritten 2026-09-29 at the user's request; added to this seed file at
+    // the same time so the file matches the DB. Cover files renamed to match.
+    // Not to be confused with nova-radnice-marianske-namesti (the 1911 New
+    // City Hall on Mariánské náměstí). Facts from cs.wikipedia
+    // (Novoměstská radnice) and magicbohemia.com (the palindrome).
+    name: 'New Town Hall',
+    slug: 'novomestska-radnice',
+    localizedNames: { cz: 'Novoměstská radnice', zh: '新城市政厅' },
+    labels: ['municipal', 'historical', 'architecture'],
+    coordinates: { lat: 50.0782673759333, lng: 14.421241166426528 },
+    rarity: 'legend',
+    xpReward: 100,
+    pixelArtKey: 'newtown',
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Novom%C4%9Bstsk%C3%A1_radnice',
+    coverImage: 'https://res.cloudinary.com/djravajgw/image/upload/v1783987470/prague-stories/covers/nove-mesto.webp',
+    description: {
+      en: `Welcome to the New Town Hall, the building that gave Prague its most famous political habit: settling disagreements through the nearest window. It has had a long career since then, as a town hall, a court, a prison and a wedding venue, and it is still standing, which is more than some of its councillors managed.
+
+When Charles IV founded Prague's New Town in 1348, the new town needed a council, and the council needed a hall grand enough to stand up to the Old Town's. The oldest surviving part, the east wing on Vodičkova Street, went up between 1377 and 1398, and the south wing facing Charles Square followed after 1411, with a vaulted Gothic hall that is still the building's finest room. The tower, 69 metres tall, was added in 1452–1456; its ground floor served as a prison and its first floor as a chapel. On 30 July 1419 a Hussite procession led by the priest Jan Želivský stopped outside, someone threw a stone at it from the hall, and the crowd stormed the building and threw the burgomaster, several councillors and the under-bailiff, seven men in all, out of the windows. The First Defenestration of Prague started the Hussite Wars. Ten years later the New Town and the Old Town were barricading the streets between them and shooting at each other, so relations between the two town halls never entirely recovered.
+
+After Prague's four towns were merged in 1784, the building lost its council and became a criminal court and prison; revolutionaries of 1848 and the young radicals of the 1893 Omladina trial were held here. It was restored to its Gothic look in 1905–1906 and again in 1975–1995, and the Gothic hall has been a wedding hall since the late 1950s. Today the building hosts exhibitions and concerts, anyone willing to climb the tower's 221 steps gets one of the best views over the New Town, and on the east facade hangs the Prague ell, an iron bar 59 centimetres long that once let shoppers check whether the cloth merchant was cheating them.
+
+🎁 Bonus: on the south side of the tower is a Latin inscription dated 1646: SIGNA TE SIGNA TEMERE ME TANGIS ET ANGIS / ROMA TIBI SUBITO MOTIBUS IBIT AMOR. It reads the same letter for letter from either end, and roughly means "Cross yourself, cross yourself: in vain you touch and torment me; thanks to my efforts you will soon reach Rome, your desire." Legend puts the words in the mouth of the devil, complaining while St Martin forced him, in the shape of a donkey, to carry the saint all the way to Rome. It may be the only palindrome in Europe that is also a devil's grumble about his working conditions.`,
+
+      cz: `Vítej na Novoměstské radnici, budově, která dala Praze její nejslavnější politický zvyk: řešit neshody nejbližším oknem. Od té doby měla dlouhou kariéru jako radnice, soud, vězení i svatební síň, a stojí dodnes, což se o některých jejích konšelech říct nedá.
+
+Když Karel IV. roku 1348 založil pražské Nové Město, potřebovalo nové město radu a rada potřebovala dům dost velkolepý na to, aby obstál vedle staroměstského. Nejstarší dochovaná část, východní křídlo ve Vodičkově ulici, vznikla v letech 1377–1398 a jižní křídlo do Karlova náměstí následovalo po roce 1411, s klenutou gotickou síní, která je dodnes nejkrásnější místností budovy. Devětašedesát metrů vysoká věž přibyla v letech 1452–1456; v přízemí bylo vězení a v prvním patře kaple. 30. července 1419 se před radnicí zastavilo husitské procesí vedené knězem Janem Želivským, někdo po něm z radnice hodil kamenem a dav budovu vtrhl a vyhodil z oken purkmistra, několik konšelů a podrychtáře, celkem sedm mužů. První pražská defenestrace rozpoutala husitské války. O deset let později zatarasila Nové a Staré Město ulice mezi sebou a střílela po sobě, takže vztahy obou radnic se už nikdy úplně nespravily.
+
+Po sloučení čtyř pražských měst roku 1784 přišla budova o radu a stala se trestním soudem a vězením; drželi tu revolucionáře z roku 1848 i mladé radikály z procesu s Omladinou roku 1893. Do gotické podoby ji obnovili v letech 1905–1906 a znovu v letech 1975–1995 a gotická síň slouží od konce padesátých let jako obřadní síň. Dnes se tu konají výstavy a koncerty, kdo vyšlape 221 schodů na věž, dostane jeden z nejlepších výhledů na Nové Město, a na východním průčelí visí pražský loket, železná tyč dlouhá 59 centimetrů, podle níž si kupci kdysi mohli ověřit, jestli je soukeník nešidí.
+
+🎁 Bonus: na jižní straně věže je latinský nápis z roku 1646: SIGNA TE SIGNA TEMERE ME TANGIS ET ANGIS / ROMA TIBI SUBITO MOTIBUS IBIT AMOR. Čte se písmeno po písmenu stejně z obou konců a znamená zhruba „Pokřižuj se, pokřižuj: marně se mne dotýkáš a trápíš mě; mým přičiněním brzy dojdeš do Říma, své touhy.“ Pověst vkládá ta slova do úst ďáblovi, který si stěžoval, když ho svatý Martin v podobě osla donutil, aby ho nesl až do Říma. Možná je to jediný palindrom v Evropě, který je zároveň ďáblovou stížností na pracovní podmínky.`,
+
+      zh: `欢迎来到新城市政厅。正是这栋楼，给布拉格留下了它最出名的政治习惯：有分歧，就找最近的窗户解决。此后它的履历相当丰富，当过市政厅、法院、监狱，也当过婚礼大厅，至今屹立不倒。这一点，它的某些议员可就没做到。
+
+1348年，查理四世创建了布拉格新城。新城需要一个议会，议会需要一栋够气派的房子，好跟老城那边分庭抗礼。现存最古老的部分是沃迪奇科娃街上的东翼，建于1377至1398年；面向查理广场的南翼在1411年之后陆续建成，里面那座拱顶哥特大厅，至今仍是整栋楼最漂亮的房间。高69米的塔楼加建于1452至1456年，底层当过监狱，二层是礼拜堂。1419年7月30日，神父扬·热利夫斯基率领的胡斯派游行队伍停在楼前，有人从市政厅里朝他们扔了一块石头，愤怒的人群冲进楼里，把市长、几名议员和副法警一共七个人扔出了窗外。这次“第一次布拉格抛窗事件”，拉开了胡斯战争的序幕。十年后，新城和老城又在两城之间的街道上筑起路障，互相开火，两座市政厅的关系，从此就没真正好过。\n\n1784年，布拉格四城合并，这栋楼没了议会，改成了刑事法院和监狱，1848年革命的参与者、1893年“奥姆拉季纳”案的青年激进分子都曾关在这里。1905至1906年，它被修复成哥特式原貌，1975至1995年又全面修缮了一次；从20世纪50年代末起，那座哥特大厅就成了婚礼厅。如今楼里常办展览和音乐会，谁愿意爬上塔楼的221级台阶，就能看到新城最好的景致之一。东立面上还挂着一根“布拉格肘尺”，是一根59厘米长的铁条，当年买布的人可以拿它量一量，看布商有没有缺斤短两。
+
+🎁 彩蛋：塔楼南侧有一段1646年刻下的拉丁文：SIGNA TE SIGNA TEMERE ME TANGIS ET ANGIS / ROMA TIBI SUBITO MOTIBUS IBIT AMOR。从头往后读，和从尾往前读，字母一个不差，意思大致是：“画十字吧，画十字吧：你碰我、折磨我都是白费力气；靠着我的奔走，你很快就能到达你心心念念的罗马。”传说这是魔鬼说的话：圣马丁逼它变成一头驴，驮着自己一路去罗马，它边走边抱怨。这大概是全欧洲唯一一句同时也是魔鬼抱怨劳动条件的回文。`,
+    },
+  },
 ];
 
 async function run() {
