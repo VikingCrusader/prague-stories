@@ -32181,6 +32181,82 @@ Po sloučení čtyř pražských měst roku 1784 přišla budova o radu a stala 
 🎁 彩蛋：塔楼南侧有一段1646年刻下的拉丁文：SIGNA TE SIGNA TEMERE ME TANGIS ET ANGIS / ROMA TIBI SUBITO MOTIBUS IBIT AMOR。从头往后读，和从尾往前读，字母一个不差，意思大致是：“画十字吧，画十字吧：你碰我、折磨我都是白费力气；靠着我的奔走，你很快就能到达你心心念念的罗马。”传说这是魔鬼说的话：圣马丁逼它变成一头驴，驮着自己一路去罗马，它边走边抱怨。这大概是全欧洲唯一一句同时也是魔鬼抱怨劳动条件的回文。`,
     },
   },
+  {
+    // Added 2026-09-29 at the user's request, with user-supplied coordinates,
+    // to link lipany-1434. Facts from cs.wikipedia (Lipská hora, Bitva u
+    // Lipan, Maroldovo panorama).
+    name: 'Lipany Memorial',
+    slug: 'lipanska-mohyla',
+    localizedNames: { cz: 'Lipanská mohyla', zh: '利帕尼纪念丘' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.028578727830364, lng: 14.93703036012754 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Battle_of_Lipany',
+    description: {
+      en: `Welcome to the Lipany Memorial, a sandstone monument crowned with a stone chalice on top of a gentle hill in the farmland east of Prague. It marks the spot where the Hussite Wars were decided, and it was put up by people who were still, four and a half centuries later, not entirely over it.
+
+The hill is the Lipská hora, 367 metres high, about a kilometre south of the village of Lipany. On 30 May 1434 the field armies of Tábor and the Orphans drew up their wagon fort on its slopes and were destroyed by the army of the league of Bohemian lords, Utraquist and Catholic together. The league won with a feigned retreat: its vanguard fled, the Hussites opened their wagon fort to give chase, and the lords' cavalry broke in behind them. Both of the Hussite commanders, Prokop the Great and Prokop the Lesser, were killed, and hundreds of prisoners were burned in barns in the villages around. The battle ended the power of the radical Hussites and opened the way to a compromise peace with the Church and to the return of King Sigismund.
+
+In the 19th century Lipany became a place of pilgrimage for the Czech national movement, which saw the battle as a tragedy of Czechs defeating Czechs. Patriots organised in a society named after Prokop raised the monument, the Prokop Mound, in 1881, and throughout the 19th and early 20th centuries national rallies and, later, workers' demonstrations were held on the hill. Today it is a quiet spot with a wide view over the Český Brod region, the Elbe lowlands and the Sázava country. An ancient north–south trackway known as the Devil's Furrow, once used by traders between fords on the Sázava and the Elbe, crosses the top of the hill and can still be traced running down into the village.
+
+🎁 Bonus: the most spectacular memorial to Lipany is not here at all but in Prague. In 1898 the painter Luděk Marold and his team painted the battle as a circular panorama, eleven metres high and ninety-five metres long, for an exhibition at the Prague Exhibition Grounds. It survived the collapse of its first pavilion's roof under heavy snow in 1929, which destroyed a third of the canvas, was restored, and still hangs in its own pavilion at Holešovice, the largest painting of a historical event in the country.`,
+
+      cz: `Vítej u Lipanské mohyly, pískovcového památníku s kamenným kalichem na vrcholu mírného kopce v polích východně od Prahy. Připomíná místo, kde se rozhodly husitské války, a postavili ho lidé, kteří se s tím ani o čtyři a půl století později úplně nevyrovnali.
+
+Kopec se jmenuje Lipská hora, má 367 metrů a leží asi kilometr jižně od vesnice Lipany. 30. května 1434 tu polní vojska táborů a sirotků postavila na svazích vozovou hradbu a byla zničena vojskem panské jednoty, kališníků a katolíků pospolu. Jednota zvítězila předstíraným ústupem: její předvoj utekl, husité otevřeli vozovou hradbu, aby ho pronásledovali, a panská jízda jim vpadla do zad. Oba husitští velitelé, Prokop Holý i Prokop Malý, padli a stovky zajatců byly upáleny ve stodolách okolních vsí. Bitva ukončila moc radikálních husitů a otevřela cestu ke kompromisnímu míru s církví a k návratu krále Zikmunda.
+
+V 19. století se Lipany staly poutním místem českého národního hnutí, které v bitvě vidělo tragédii Čechů porážejících Čechy. Vlastenci sdružení ve spolku nazvaném po Prokopovi vztyčili roku 1881 památník, Prokopovu mohylu, a po celé 19. a na počátku 20. století se na kopci konaly národní a později i dělnické tábory. Dnes je to tiché místo s dalekým výhledem na Českobrodsko, Polabí a Posázaví. Přes vrchol kopce vede prastará severojižní stezka zvaná Čertova brázda, kudy kdysi chodili obchodníci mezi brody na Sázavě a na Labi, a lze ji dodnes sledovat, jak sbíhá dolů do vesnice.
+
+🎁 Bonus: nejvelkolepější připomínka Lipan vůbec není tady, ale v Praze. Roku 1898 namaloval malíř Luděk Marold se svým týmem bitvu jako kruhové panorama vysoké jedenáct a dlouhé devadesát pět metrů pro výstavu na pražském Výstavišti. Přežilo i to, když se roku 1929 pod tíhou sněhu zřítila střecha prvního pavilonu a zničila třetinu plátna, bylo restaurováno a dodnes visí ve vlastním pavilonu v Holešovicích jako největší obraz historické události v zemi.`,
+
+      zh: `欢迎来到利帕尼纪念丘。这是一座砂岩纪念碑，顶上立着一只石雕圣杯，坐落在布拉格以东农田中的一座缓坡小山上。它标记的是胡斯战争决出胜负的地方，而立碑的人，在四个半世纪之后，心里显然还没完全放下这件事。
+
+这座小山叫利普斯卡山，海拔367米，位于利帕尼村以南约一公里处。1434年5月30日，塔博尔派和孤儿军的野战军在山坡上摆开车阵，被圣杯派和天主教贵族联手组成的贵族联盟大军击溃。联盟靠的是佯装撤退：前锋假装逃跑，胡斯派打开车阵追击，贵族骑兵趁机从背后杀了进去。胡斯派的两位统帅，大普罗科普和小普罗科普，双双战死，数百名俘虏在附近村庄的谷仓里被活活烧死。这一仗终结了胡斯激进派的势力，为与教会达成妥协和平、为西吉斯蒙德国王回国铺平了道路。
+
+19世纪，利帕尼成了捷克民族运动的朝圣地，在民族主义者眼中，这场战役是一出“捷克人打败捷克人”的悲剧。以普罗科普命名的一个爱国社团在1881年立起了这座纪念碑，称为“普罗科普纪念丘”。整个19世纪和20世纪初，山上不断举行民族集会，后来又有工人集会。如今这里十分清静，站在山顶，捷克布罗德一带、易北河平原和萨扎瓦河流域都能尽收眼底。一条被称为“魔鬼沟”的古老南北通道正好从山顶经过，过去的商旅就沿着它往来于萨扎瓦河与易北河的渡口之间，今天仍能看出它一路延伸到山下的村子里。
+
+🎁 彩蛋：利帕尼最壮观的纪念，其实根本不在这里，而在布拉格。1898年，画家卢德克·马罗尔德带着他的团队，为布拉格展览中心的一场博览会，把这场战役画成了一幅环形全景画，高十一米、长九十五米。1929年，第一座展馆的屋顶被积雪压塌，画布毁了三分之一，后来修复完成，至今仍陈列在霍莱绍维采的专门展馆里，是捷克最大的历史事件题材画作。`,
+    },
+  },
+  {
+    // Added 2026-09-29 at the user's request, with user-supplied coordinates,
+    // to link the-last-man-on-sion-1437. Facts from cs.wikipedia (Sion
+    // (hrad), Obléhání hradu Sion, Jan Roháč z Dubé).
+    name: 'Sion Castle Ruins',
+    slug: 'zricenina-hradu-sion',
+    localizedNames: { cz: 'Zřícenina hradu Sion', zh: '锡永城堡遗址' },
+    labels: ['ruin', 'castle and fortress', 'historical'],
+    coordinates: { lat: 49.88920113942844, lng: 15.210967842324614 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Sion_(hrad)',
+    description: {
+      en: `Welcome to Sion, a rocky spur above a wooded stream a few kilometres from Kutná Hora, where the last Hussite captain made his last stand. There is not much castle left. Considering how many people have tried to get rid of it over the centuries, it is doing remarkably well to be here at all.
+
+The castle stands about a kilometre east of the village of Chlístovice, eight kilometres south-west of Kutná Hora, on a spur above the Vrchlice brook. It was probably built in 1426–1427 by Jan Roháč of Dubá, one of Jan Žižka's oldest comrades, on the site of a small earlier hillfort, and its semicircular artillery bastion and deep rock-cut moat make it one of the notable works of Hussite military building. After the Hussite Wars ended, Roháč refused to accept King Sigismund, withdrew here in 1435 and waged a small private war against the king. From May to September 1437 a royal army besieged the castle. The chroniclers describe a hard four-month siege, but excavations in the 1960s found only about a hundred stone balls and no breach in the walls; the commander seems to have been in no hurry until Hungarian reinforcements arrived. On 6 September 1437 the castle was stormed, Roháč was captured, and three days later he was hanged in Prague with his men. The castle was burned and passed to the king.
+
+Later owners had little use for it, and in 1581 it was mentioned in the records for the last time. When the scholar Bohuslav Balbín visited in 1677 its outer walls were still standing, but they were gradually carted away as building stone. Archaeologists excavated the site between 1962 and 1965 and uncovered the foundations of Roháč's two-storey palace, the bastion and the gate, with seventeen catapult stones still lying in the palace foundations. Today the ruin is a protected monument and a pleasant walk from Chlístovice, and a relief of Roháč has been carved on the west side of the hill below it.
+
+🎁 Bonus: the last serious attempt to erase Sion came not in 1437 but in 1870. In the years after the Austro-Hungarian Compromise, Czech patriots began holding great open-air national rallies at historic sites, and the local landowner, Count Karl Dahlberg-Ostein, did not like the idea of crowds gathering at the castle of a Hussite rebel. He had the last substantial remains removed. It did not work: the patriots kept coming, the archaeologists followed, and Sion is better known today than it has been for centuries.`,
+
+      cz: `Vítej na Sionu, skalnatém ostrohu nad zalesněným potokem pár kilometrů od Kutné Hory, kde se naposledy bránil poslední husitský hejtman. Z hradu toho moc nezbylo. Vzhledem k tomu, kolik lidí se ho za ta staletí snažilo zbavit, se drží pozoruhodně dobře.
+
+Hrad stojí asi kilometr východně od obce Chlístovice, osm kilometrů jihozápadně od Kutné Hory, na ostrohu nad potokem Vrchlicí. Postavil ho nejspíš v letech 1426–1427 Jan Roháč z Dubé, jeden z nejstarších druhů Jana Žižky, na místě menšího staršího hradiště, a jeho polokruhová dělostřelecká bašta a hluboký příkop vytesaný do skály z něj dělají jedno z pozoruhodných děl husitského stavitelství. Když husitské války skončily, Roháč odmítl uznat krále Zikmunda, roku 1435 se sem uchýlil a vedl proti králi malou soukromou válku. Od května do září 1437 hrad obléhalo královské vojsko. Kronikáři líčí tvrdé čtyřměsíční obléhání, ale výzkum v šedesátých letech našel jen asi sto kamenných koulí a žádný průlom hradeb; velitel zřejmě nikam nespěchal, dokud nedorazily uherské posily. 6. září 1437 byl hrad dobyt útokem, Roháč zajat a o tři dny později se svými muži oběšen v Praze. Hrad byl vypálen a připadl králi.
+
+Pozdější majitelé pro něj neměli velké využití a roku 1581 se v pramenech objevuje naposledy. Když ho roku 1677 navštívil Bohuslav Balbín, stály ještě obvodové zdi, ty však byly postupně rozvezeny jako stavební kámen. Archeologové lokalitu zkoumali v letech 1962–1965 a odkryli základy Roháčova dvoupatrového paláce, baštu i bránu, v základech paláce ještě leželo sedmnáct prakových koulí. Dnes je zřícenina chráněnou kulturní památkou a příjemným cílem procházky z Chlístovic a na západní straně kopce pod ní je vytesán Roháčův reliéf.
+
+🎁 Bonus: poslední vážný pokus Sion vymazat nepřišel roku 1437, ale roku 1870. V letech po rakousko-uherském vyrovnání začali čeští vlastenci pořádat velké národní tábory lidu na historických místech a místnímu majiteli panství, hraběti Karlu Dahlbergovi-Osteinovi, se nelíbila představa davů shromážděných na hradě husitského rebela. Dal odstranit poslední větší pozůstatky zdí. Nepomohlo to: vlastenci chodili dál, přišli i archeologové a Sion je dnes známější, než byl celá staletí.`,
+
+      zh: `欢迎来到锡永。这是库特纳霍拉几公里外、一条林间小溪上方的一处岩石山嘴，最后一位胡斯派指挥官就在这里做了最后的抵抗。城堡留下来的东西已经不多了。考虑到几百年来有多少人想把它从地图上抹掉，它还能待在这儿，已经相当不容易。
+
+城堡位于赫利斯托维采村以东约一公里、库特纳霍拉西南八公里处，建在弗尔赫利采溪上方的山嘴上。它大概是杜巴的扬·罗哈奇在1426至1427年间修建的，地址原是一处小型古堡垒。罗哈奇是扬·杰式卡最老的战友之一。城堡的半圆形炮台和凿进岩石的深壕，让它成为胡斯派军事建筑中值得一提的作品。胡斯战争结束后，罗哈奇拒绝承认西吉斯蒙德国王，1435年退守到这里，对国王打起了一场小小的私人战争。1437年5月至9月，王室军队围攻城堡。编年史家笔下，这是一场苦战四个月的围城，可20世纪60年代的发掘只找到了大约一百枚石弹，城墙也没有被轰开；看起来，指挥官一直不慌不忙，直到匈牙利援军赶到。1437年9月6日，城堡被攻破，罗哈奇被俘，三天后与部下一起在布拉格被绞死。城堡被烧毁，归入国王名下。
+
+后来的主人们对这座城堡没什么兴趣，1581年，它最后一次出现在文献里。1677年学者博胡斯拉夫·巴尔宾来参观时，外墙还立着，后来却被一车车拉走当了建筑石料。1962至1965年，考古学家对遗址进行了发掘，挖出了罗哈奇那座两层宫殿的地基、炮台和城门，宫殿地基里还躺着十七枚投石机石弹。如今，遗址是受保护的文物，从赫利斯托维采散步过来很惬意，山坡西侧还刻有罗哈奇的浮雕像。
+
+🎁 彩蛋：抹掉锡永的最后一次认真尝试，不是在1437年，而是在1870年。奥匈折衷方案之后那几年，捷克爱国者开始在各处历史遗迹举行大型露天民族集会。当地的领主卡尔·达尔贝格-奥斯泰因伯爵很不乐意看到一群群人聚集在一个胡斯派叛乱者的城堡里，于是下令拆掉了剩下的主要残墙。结果适得其反：爱国者照来不误，考古学家也跟着来了，锡永今天的名气，比过去几百年里任何时候都大。`,
+    },
+  },
 ];
 
 async function run() {

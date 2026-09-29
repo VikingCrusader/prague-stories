@@ -18320,6 +18320,598 @@ export const historyEvents = [
     ],
     wikipediaUrl: "https://cs.wikipedia.org/wiki/Jan_%C4%8Capek_ze_S%C3%A1n",
   },
+  // The end of the Hussite Wars, 1432–1437: eleven cards written 2026-09-29
+  // from the user's Chinese draft (sections 一–五) plus Claude's additions
+  // (Cheb 1432, Basel 1433, the Baltic ride, the Oldřich background card, the
+  // Compacts background card), one conflict per card at the user's request.
+  // Main sources: F. Lützow, The Hussite Wars (1914), ch. 7 (en.wikisource);
+  // cs.wikipedia (Chebský soudce, Basilejská kompaktáta, Husitské tažení k
+  // Baltu, Obléhání Plzně (1433–1434), Bitva u Lipan, Oldřich II. z
+  // Rožmberka, Zikmund Lucemburský, Jan Rokycana, Jan Roháč z Dubé, Sion
+  // (hrad), Obléhání hradu Sion, Maroldovo panorama); drakkaria.cz (the camel).
+  // Departures from and additions to the draft:
+  // - The Lipany armies were the field armies of Tábor and the Orphans plus
+  //   allied towns, not a "city army"; Prokop the Lesser led the Orphans (he
+  //   was the one outside Plzeň, not a "little Prokop" of the Plzeň front).
+  // - Lipany numbers follow P. Čornej via cs.wikipedia (radicals ~10,000 foot,
+  //   700 horse, 480 wagons; league ~12–13,000 foot, 1,200 horse, 720 wagons;
+  //   losses ~1,300 vs ~200 in the fighting) rather than the draft's; the
+  //   draft's "700 executed afterwards" is the barn burning, whose instigator
+  //   is disputed (Jan Švihovský, Mikuláš Krchlebec or Menhard of Hradec).
+  //   Čapek's "treason" is presented as the contemporary charge, with the
+  //   modern doubt noted.
+  // - The stool, the camel (stolen by Plzeň before Christmas 1433, now on the
+  //   city arms), the Baltic flasks and Roháč's gilded chains are sourced;
+  //   the draft's "walls doused with excrement" was not found and dropped.
+  // - Sion is ~8 km SW of Kutná Hora (central Bohemia), not east Bohemia.
+  // - Quotes: Cesarini to Eugenius IV (1432) and Cesarini to Prokop (1433)
+  //   use Lützow's 1914 English, CZ/ZH Claude's; Čapek's Baltic words, Prokop's
+  //   letter of May 1434, the Old Czech Annals on Lipany and Aeneas Silvius on
+  //   Sion are cs.wikipedia's Czech, EN/ZH Claude's.
+  // - Sigismund's 1436 conditions are kept general (confirmation of the
+  //   Compacts and the kingdom's privileges, Rokycana's confirmation); the
+  //   detailed list could not be verified card by card.
+  {
+    slug: "a-judge-called-scripture-1432",
+    era: "religious-turmoil",
+    startYear: 1432.4,
+    year: {
+      en: "May 1432",
+      cz: "Květen 1432",
+      zh: "1432年5月",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Judge Called Scripture",
+      cz: "Soudce jménem Písmo",
+      zh: "以《圣经》为法官",
+    },
+    hookLine: {
+      en: "The Hussites agreed to go to a church council. First, though, they wanted to settle who would be the judge. They picked the Bible.",
+      cz: "Husité souhlasili, že pojedou na koncil. Nejdřív se ale chtěli dohodnout, kdo bude soudcem. Vybrali Bibli.",
+      zh: "胡斯派答应去参加公会议，不过得先说好谁来当裁判。他们选的是《圣经》。",
+    },
+    summary: {
+      en: "The [[link:what-was-the-council-of-basel-1431]]council at Basel[[/link]] had sent its invitation, and the Hussites had agreed in principle to come. Getting from \"in principle\" to Basel took five more months and a conference of its own. It met at Cheb, the same border town where the [[link:the-pope-looks-north-1431]]last talks with Sigismund[[/link]] had collapsed a year earlier, and it opened on 9 May 1432. The Bohemians sent seventy people, among them Prokop, Jan Rokycana, the Táborite bishop Nicholas of Pelhřimov and the English Hussite Peter Payne. The council's delegation, with the Elector of Brandenburg and the Duke of Bavaria riding along, came to about two hundred and fifty.\n\nThe first problem was the obvious one. Prokop, speaking for the Bohemians, reminded everyone what had happened the last time a Czech travelled to a church council with a written promise of safety: [[link:the-safe-conduct-that-wasnt-enough-1414]]Jan Hus[[/link]] had gone to Constance with a royal safe conduct and come back as ashes. It was hard to argue with. In the end [[link:four-articles-or-fifty-thousand-1430]]Frederick of Brandenburg[[/link]] gave his own personal guarantee that the delegation would reach Basel and come home again, and the talks could move on.\n\nWhat came out of Cheb on 18 May was a short agreement that the Hussites would quote for years. Their envoys would travel freely, speak freely and sit in the council hall in seats befitting their rank. Every ban, curse and excommunication ever issued against them, Constance included, would be suspended while they were in Basel, and they could celebrate mass their own way on the road. Above all, the Four Articles would be judged by a single standard: the law of God, the practice of Christ and the apostles, and the teaching of the early Church and its councils. Czech historians call this clause the Judge of Cheb. [[b]]For the first time, the Church had agreed to argue with the Hussites on their own ground, with Scripture as the judge instead of the pope.[[/b]]\n\nThe council's spokesman, Canon Henry Toke, closed the meeting with a speech that left many of those present in tears. In Basel, Cardinal Cesarini passed the news on to the pope in terms that suggested the war was as good as over:\n\n[[quote:0]]\n\nCesarini was writing to a pope who disliked the whole idea, so he may have laid it on a little thick. The Bohemians, for their part, had no intention of returning to anyone's fold. They were going to Basel to win the argument.",
+      cz: "[[link:what-was-the-council-of-basel-1431]]Koncil v Basileji[[/link]] poslal pozvání a husité v zásadě souhlasili, že přijedou. Cesta od „v zásadě“ do Basileje trvala dalších pět měsíců a vyžádala si vlastní konferenci. Sešla se v Chebu, tedy v tomtéž pohraničním městě, kde se o rok dřív rozpadlo [[link:the-pope-looks-north-1431]]poslední jednání se Zikmundem[[/link]], a zahájena byla 9. května 1432. Čechové vyslali sedmdesát lidí, mezi nimi Prokopa, Jana Rokycanu, táborského biskupa Mikuláše z Pelhřimova a anglického husitu Petra Payna. Koncilní poselstvo, s nímž jeli i braniborský kurfiřt a bavorský vévoda, čítalo asi dvě stě padesát osob.\n\nPrvní problém byl nasnadě. Prokop za Čechy připomněl, co se stalo, když naposledy jel Čech na koncil s písemným slibem bezpečí: [[link:the-safe-conduct-that-wasnt-enough-1414]]Jan Hus[[/link]] odjel do Kostnice s královským glejtem a vrátil se jako popel. Těžko se s tím dalo polemizovat. Nakonec [[link:four-articles-or-fifty-thousand-1430]]Fridrich Braniborský[[/link]] osobně ručil za to, že poselstvo do Basileje dojede a zase se vrátí domů, a jednání se mohlo pohnout dál.\n\nZ Chebu vzešla 18. května krátká dohoda, kterou husité citovali ještě léta. Jejich vyslanci budou cestovat svobodně, mluvit svobodně a v koncilní síni sedět na místech odpovídajících jejich hodnosti. Všechny klatby, zákazy a exkomunikace, které kdy proti nim padly, kostnické nevyjímaje, budou po dobu jejich pobytu v Basileji pozastaveny a na cestě smějí sloužit mši po svém. A především: čtyři artikuly se budou posuzovat jediným měřítkem, totiž zákonem božím, praxí Krista a apoštolů a učením prvotní církve a jejích koncilů. Čeští historici tomuto ustanovení říkají Soudce chebský. [[b]]Církev poprvé souhlasila, že se s husity bude přít na jejich půdě a že soudcem bude Písmo, ne papež.[[/b]]\n\nMluvčí koncilu, kanovník Jindřich Toke, zakončil jednání řečí, při níž se mnozí přítomní rozplakali. V Basileji předal kardinál Cesarini zprávu papeži slovy, jako by válka už byla v podstatě u konce:\n\n[[quote:0]]\n\nCesarini psal papeži, kterému se celý nápad nelíbil, takže možná trochu přibarvoval. Čechové se ostatně do žádného ovčince vracet nehodlali. Do Basileje jeli spor vyhrát.",
+      zh: "[[link:what-was-the-council-of-basel-1431]]巴塞尔公会议[[/link]]发来了邀请，胡斯派原则上也答应了去。可是从“原则上答应”到真正坐进巴塞尔的会场，又花了五个月，还专门开了一场预备会议。会址选在海布，就是一年前与西吉斯蒙德[[link:the-pope-looks-north-1431]]最后一轮谈判[[/link]]谈崩的那座边境城市，1432年5月9日开幕。波希米亚方面来了七十人，其中有普罗科普、扬·罗基察纳、塔博尔派主教佩尔赫日莫夫的米库拉什，还有英格兰籍的胡斯派彼得·佩恩。公会议的代表团连同随行的勃兰登堡选帝侯和巴伐利亚公爵，一共约两百五十人。\n\n第一个难题显而易见。普罗科普代表波希米亚人发言，提醒在场各位：上一次有捷克人揣着书面安全保证去参加公会议，结果怎样？[[link:the-safe-conduct-that-wasnt-enough-1414]]扬·胡斯[[/link]]带着国王颁发的安全通行证去了康斯坦茨，回来的只剩一捧骨灰。这一点谁也驳不倒。最后，[[link:four-articles-or-fifty-thousand-1430]]勃兰登堡的腓特烈[[/link]]以个人名义担保：代表团一定能平安抵达巴塞尔，也一定能平安回家。谈判这才往下走。\n\n5月18日，海布会议达成了一份简短的协议，胡斯派后来引用了好多年。代表团可以自由往来、自由发言，在会场里按身份就座。以往针对他们的一切禁令、诅咒和绝罚，包括康斯坦茨公会议的在内，在他们逗留巴塞尔期间一律暂停执行；一路上，他们也可以按自己的方式做弥撒。最重要的一条是：四条款只按一个标准来裁决，那就是上帝的律法、基督和使徒的做法，以及早期教会和早期公会议的教导。捷克史学家把这一条称作“海布法官”。[[b]]教会第一次同意在胡斯派自己选定的场地上与他们辩论，裁判是《圣经》，而不是教皇。[[/b]]\n\n公会议的发言人亨利·托克教士在闭幕时发表讲话，在场不少人都落了泪。消息传回巴塞尔，红衣主教切萨里尼给教皇写信报喜，口气就好像战争已经基本结束了：\n\n[[quote:0]]\n\n切萨里尼的收信人是一位打心底讨厌这件事的教皇，所以他难免添了几分油、加了几分醋。至于波希米亚人，他们压根没打算回到谁的羊圈里。他们去巴塞尔，是为了辩赢。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "The gate through which the lost sheep will return to the fold has now been opened… The holy assembly received this news with unprecedented joy and with hands raised unto Heaven.",
+          cz: "Brána, jíž se ztracené ovce vrátí do ovčince, je nyní otevřena… Svaté shromáždění přijalo tuto zprávu s nevídanou radostí a s rukama pozdviženýma k nebi.",
+          zh: "迷途的羊群回归羊圈的那道门，如今已经打开了……神圣的会议以前所未有的喜悦，高举双手迎向上天，接受了这个消息。",
+        },
+        attribution: {
+          en: "Cardinal Giuliano Cesarini to Pope Eugenius IV, 1432 (English translation by F. Lützow)",
+          cz: "Kardinál Giuliano Cesarini papeži Evženu IV., 1432",
+          zh: "红衣主教朱利亚诺·切萨里尼致教皇尤金四世，1432年",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "cheb",
+        relation: {
+          en: "Where the Hussites and the Council of Basel met in May 1432 and agreed that Scripture, not the pope, would judge the Four Articles.",
+          cz: "Zde se v květnu 1432 sešli husité s basilejským koncilem a dohodli se, že o čtyřech artikulech bude soudit Písmo, ne papež.",
+          zh: "1432年5月，胡斯派与巴塞尔公会议在这里会面，约定由《圣经》而不是教皇来裁决四条款。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Chebsk%C3%BD_soudce",
+  },
+  {
+    slug: "heretics-in-basel-1433",
+    era: "religious-turmoil",
+    startYear: 1433.1,
+    year: {
+      en: "January–April 1433",
+      cz: "Leden–duben 1433",
+      zh: "1433年1月至4月",
+    },
+    tone: "humorous",
+    title: {
+      en: "Heretics in Basel",
+      cz: "Kacíři v Basileji",
+      zh: "异端进城了",
+    },
+    hookLine: {
+      en: "To avoid shocking its guests, Basel expelled its gamblers, banned dancing in the inns and kept its loose women off the streets. The guests were the heretics.",
+      cz: "Aby své hosty nepohoršila, vyhnala Basilej hráče, zakázala tanec v hospodách a ženy lehkých mravů nepouštěla do ulic. Těmi hosty byli kacíři.",
+      zh: "为了不让客人看不顺眼，巴塞尔把赌徒赶出了城，禁止酒馆里跳舞，还不许风尘女子上街。这些客人，就是那帮异端。",
+    },
+    summary: {
+      en: "Cardinal Cesarini had prepared the ground carefully. The Hussites were famously strict about morals, so he persuaded the city council of Basel to make the place presentable: the gamblers were expelled, music and dancing in the inns were banned for the duration, and women of ill repute were forbidden to show themselves in the streets. The citizens were told to be very polite to the visitors, and not to talk to them too much, in case the heresy turned out to be catching.\n\nThe Bohemian embassy, churchmen, nobles and townsmen with their escort, came down the Rhine by boat and landed on 4 January 1433, earlier than expected. Half of Basel had gone out along the road to watch them arrive and missed them; the other half watched from the rooftops, and everyone wanted Prokop pointed out. The council gave the Bohemians seats directly facing the cardinals, and on 16 January the debate began, with a champion on each side for each of the Four Articles. [[link:prague-dismisses-its-prince-1427]]Jan Rokycana[[/link]] defended communion in both kinds for three days running. Nicholas of Pelhřimov, defending the punishment of sin, got so heated about the burning of Hus and the greed of the clergy that several prelates protested out loud. Peter Payne used his turn to praise Wycliffe, which the English bishops present took personally.\n\nThe council's speakers replied at the same length, and the debate settled into a routine of very long speeches followed by protests. Cesarini kept it from collapsing more than once. He also produced a list of twenty-eight further points on which some of the Bohemians were rumoured to differ from Rome, a reminder to the moderates of how little they had in common with the Táborites. In private, though, he and Prokop got on remarkably well:\n\n[[quote:0]]\n\nProkop pointed out, politely, that a long stay in Basel was very expensive.\n\nNot every guest was as charming. When an envoy of the Duke of Burgundy warned that his master might have to draw his sword for the council, [[link:holy-peace-1427]]Vilém Kostka of Postupice[[/link]] answered for the Bohemians: let the duke come to Bohemia, they would not run from him, and would resist him as they had resisted every other invader. By mid-April, after three months of talking, nobody had convinced anybody. [[b]]The debate had changed no minds, but it had done something more useful: each side now knew exactly how far the other would go.[[/b]] The Bohemians left for home on 14 April, and a delegation from the council went with them to keep talking in Prague.",
+      cz: "Kardinál Cesarini připravil půdu pečlivě. Husité byli pověstně přísní na mravy, a tak přemluvil basilejskou radu, aby město uvedla do slušného stavu: hráči byli vyhnáni, hudba a tanec v hospodách po dobu jejich pobytu zakázány a ženy pochybné pověsti se nesměly ukazovat na ulicích. Měšťanům bylo nařízeno chovat se k hostům velmi zdvořile a moc se s nimi nebavit, kdyby snad bylo kacířství nakažlivé.\n\nČeské poselstvo, duchovní, šlechtici a měšťané se svým doprovodem, připlulo po Rýnu lodí a přistálo 4. ledna 1433, dřív, než se čekalo. Půlka Basileje vyšla na silnici, aby viděla jejich příjezd, a minula je; druhá půlka se dívala ze střech a každý chtěl, aby mu ukázali Prokopa. Koncil posadil Čechy přímo naproti kardinálům a 16. ledna začala disputace, v níž měla každá strana pro každý ze čtyř artikulů svého řečníka. [[link:prague-dismisses-its-prince-1427]]Jan Rokycana[[/link]] obhajoval přijímání pod obojí tři dny v kuse. Mikuláš z Pelhřimova, který hájil trestání hříchů, se tak rozohnil nad upálením Husa a chamtivostí kléru, že několik prelátů nahlas protestovalo. Petr Payne využil svého vystoupení k chvále Viklefa, což si přítomní angličtí biskupové vzali osobně.\n\nŘečníci koncilu odpovídali stejně dlouze a disputace se ustálila v rytmu velmi dlouhých projevů a následných protestů. Cesarini ji víc než jednou zachránil před rozpadem. Předložil také seznam dvaceti osmi dalších bodů, v nichž se prý někteří Čechové od Říma liší, aby umírněným připomněl, jak málo mají s tábory společného. V soukromí si ale s Prokopem pozoruhodně rozuměli:\n\n[[quote:0]]\n\nProkop zdvořile poznamenal, že dlouhý pobyt v Basileji je velmi drahý.\n\nNe každý host byl tak okouzlující. Když vyslanec burgundského vévody varoval, že jeho pán možná bude muset tasit meč na obranu koncilu, odpověděl za Čechy [[link:holy-peace-1427]]Vilém Kostka z Postupic[[/link]]: ať vévoda přijde do Čech, nebudou před ním utíkat a postaví se mu, jako se postavili všem ostatním vetřelcům. V polovině dubna, po třech měsících řečí, nikdo nikoho nepřesvědčil. [[b]]Disputace nezměnila ničí názor, ale udělala něco užitečnějšího: obě strany teď přesně věděly, kam až je ta druhá ochotná zajít.[[/b]] Čechové odjeli 14. dubna domů a poselstvo koncilu jelo s nimi, aby se jednalo dál v Praze.",
+      zh: "红衣主教切萨里尼事先铺好了路。胡斯派在道德上出了名的严格，于是他说服巴塞尔市议会，先把城里收拾得体面一点：赌徒一律赶走，代表团在城期间，酒馆里不准奏乐跳舞，名声不好的女人不准在街上露面。市民们还被叮嘱：对客人要十分客气，但别跟他们聊太多，万一异端这东西会传染呢。\n\n波希米亚代表团由神职人员、贵族和市民组成，带着护卫，顺莱茵河乘船而下，1433年1月4日就到了，比预想的还早。半个巴塞尔的人跑到城外路边等着看热闹，结果扑了个空；另一半人爬上屋顶张望，人人都想让别人指给自己看哪个是普罗科普。公会议把波希米亚人的座位安排在红衣主教们的正对面。1月16日，辩论开始了，四条款每一条，双方各派一名主将。[[link:prague-dismisses-its-prince-1427]]扬·罗基察纳[[/link]]为饼酒兼领一口气辩了三天。为惩治罪恶一条辩护的佩尔赫日莫夫的米库拉什，一说起胡斯被烧死、说起神职人员贪婪，就越说越激动，好几位高级教士当场大声抗议。彼得·佩恩则把自己的发言时间拿来称颂威克里夫，在座的英格兰主教们听得很不是滋味。\n\n公会议的发言人也用同样的长度逐一回应，辩论很快就变成了固定套路：一篇长长的演说，接着是一阵抗议。切萨里尼不止一次把会议从崩盘边缘拉了回来。他还拿出一份清单，列了二十八条据说部分波希米亚人与罗马有分歧的地方，用意是提醒温和派：你们和塔博尔派其实没多少共同之处。不过私下里，他和普罗科普却出奇地投缘：\n\n[[quote:0]]\n\n普罗科普客客气气地指出：在巴塞尔久住，开销可是很大的。\n\n并不是每位客人都这么讨人喜欢。勃艮第公爵的使节警告说，他家主公或许不得不为公会议拔剑。[[link:holy-peace-1427]]波斯图皮采的维莱姆·科斯特卡[[/link]]代表波希米亚人回答：让公爵来波希米亚好了，我们不会跑，我们会像抵抗其他所有入侵者一样抵抗他。到了4月中旬，谈了三个月，谁也没说服谁。[[b]]辩论没有改变任何人的想法，却办成了一件更有用的事：双方都摸清了对方的底线在哪里。[[/b]]4月14日，波希米亚人启程回国，公会议的代表团也跟着他们一起去了布拉格，接着往下谈。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "The more I converse with you, Sir Prokop, the more my heart clings to you; therefore stay very long with us, that we may at last agree together.",
+          cz: "Čím víc s tebou rozmlouvám, pane Prokope, tím víc k tobě lne mé srdce; zůstaň proto u nás co nejdéle, abychom se konečně spolu shodli.",
+          zh: "普罗科普先生，我和您谈得越多，我的心就越离不开您；所以请您在我们这里多住些日子，好让我们最终能达成一致。",
+        },
+        attribution: {
+          en: "Cardinal Giuliano Cesarini to Prokop, Basel, 1433 (English translation by F. Lützow)",
+          cz: "Kardinál Giuliano Cesarini Prokopovi, Basilej, 1433",
+          zh: "红衣主教朱利亚诺·切萨里尼对普罗科普所说，巴塞尔，1433年",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Basilejsk%C3%BD_koncil",
+  },
+  {
+    slug: "a-bottle-of-the-baltic-1433",
+    era: "religious-turmoil",
+    startYear: 1433.5,
+    year: {
+      en: "April–November 1433",
+      cz: "Duben–listopad 1433",
+      zh: "1433年4月至11月",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Bottle of the Baltic",
+      cz: "Čutora Baltu",
+      zh: "装一壶波罗的海回家",
+    },
+    hookLine: {
+      en: "The Orphans marched north until they ran out of land. Then they filled their water flasks with the Baltic Sea and took it home.",
+      cz: "Sirotci táhli na sever, dokud jim nedošla země. Pak si naplnili čutory Baltským mořem a odnesli si ho domů.",
+      zh: "孤儿军一路往北打，直到脚下没了陆地。然后他们往水壶里灌满波罗的海的海水，带回了家。",
+    },
+    summary: {
+      en: "While the diplomats talked, the Orphans went to work for the King of Poland. [[link:the-pope-looks-north-1431]]Władysław II Jagiełło[[/link]], the same king who had politely failed to convert them in Kraków two years before, was at war with the Teutonic Order. In the summer of 1432 his envoys agreed terms with the field armies: the Hussites would fight the Order, and the king would pay their wages, feed and equip them, and make good any horses they lost. He also had four hundred pairs of boots delivered to Bohemia. In the end only the Orphans came, under [[link:send-him-the-executioner-1431]]Jan Čapek of Sány[[/link]], the captain who had lost most of his army in Hungary and called Prokop a traitor for it.\n\nThey set out in late April 1433, about seven thousand foot, seven hundred horse and three hundred and fifty wagons, and marched north through Lusatia into the Neumark, the Order's lands beyond the Oder. It was not a gentle campaign. At Friedeberg they burned three Catholic priests in barrels of pitch, and after storming Tczew on the Vistula on 29 August they burned the Czech mercenaries they found fighting for the Grand Master. On 1 September they camped outside Gdańsk. The city was far too strong to take, so after four days they set off for the coast instead, burning the monastery at Oliwa on the way.\n\nOn 4 September 1433 the Orphans stood on the shore of the Baltic. According to the chroniclers they played at the water's edge like small children and filled their flasks with seawater to take home, and several of them were knighted there on the beach. Čapek is said to have summed up the moment:\n\n[[quote:0]]\n\n[[b]]An army raised among the hills of Bohemia had marched until it ran out of land.[[/b]] The Order agreed to a truce, and on the way home Jagiełło paid the Orphans handsomely. He gave Čapek a present too: a camel. Čapek took it back to Bohemia and brought it along to his next assignment, which was the siege of Plzeň. He would not have it for long.",
+      cz: "Zatímco diplomaté jednali, šli sirotci pracovat pro polského krále. [[link:the-pope-looks-north-1431]]Vladislav II. Jagello[[/link]], tentýž král, který je před dvěma lety v Krakově zdvořile a marně obracel na víru, válčil s Řádem německých rytířů. V létě 1432 se jeho vyslanci dohodli s polními vojsky: husité budou bojovat proti Řádu a král jim bude platit žold, živit je, vystrojí je a nahradí jim ztracené koně. Do Čech dal navíc dopravit čtyři sta párů bot. Nakonec přišli jen sirotci pod velením [[link:send-him-the-executioner-1431]]Jana Čapka ze Sán[[/link]], hejtmana, který v Uhrách přišel o většinu vojska a nazval za to Prokopa zrádcem.\n\nVyrazili koncem dubna 1433, asi sedm tisíc pěších, sedm set jezdců a tři sta padesát vozů, a táhli na sever přes Lužici do Nové marky, řádových zemí za Odrou. Nebyla to nijak jemná výprava. Ve Friedebergu upálili tři katolické kněze ve smolných sudech a po dobytí Tczewa na Visle 29. srpna upálili české žoldnéře, které tam našli ve velmistrových službách. 1. září se utábořili před Gdaňskem. Město bylo příliš silné, a tak se po čtyřech dnech vydali místo toho k pobřeží a cestou vypálili klášter v Olivě.\n\n4. září 1433 stanuli sirotci na břehu Baltu. Podle kronikářů si u vody hráli jako malé děti a plnili si čutory mořskou vodou, aby si ji odnesli domů, a několik z nich bylo přímo na pláži pasováno na rytíře. Čapek prý ten okamžik shrnul takto:\n\n[[quote:0]]\n\n[[b]]Vojsko sebrané mezi českými kopci táhlo tak dlouho, až mu došla země.[[/b]] Řád přistoupil na příměří a Jagello sirotkům na zpáteční cestě štědře zaplatil. Čapkovi dal navíc dar: velblouda. Čapek ho přivedl do Čech a vzal ho s sebou na další úkol, jímž bylo obléhání Plzně. Dlouho se z něj netěšil.",
+      zh: "外交官们还在谈，孤儿军已经去给波兰国王打工了。[[link:the-pope-looks-north-1431]]瓦迪斯瓦夫二世·雅盖沃[[/link]]，也就是两年前在克拉科夫客客气气劝他们回头、结果没劝成的那位国王，当时正和条顿骑士团打仗。1432年夏天，他的使节和胡斯派野战军谈妥了条件：胡斯派去打骑士团，国王负责发军饷、管吃管装备，损失的马匹也照价赔偿。他还专门往波希米亚运了四百双靴子。最后真正来的只有孤儿军，统帅是[[link:send-him-the-executioner-1431]]扬·恰佩克[[/link]]，就是那位在匈牙利赔光了大半人马、还因此骂普罗科普是叛徒的指挥官。\n\n1433年4月底，孤儿军出发了，约七千步兵、七百骑兵、三百五十辆战车，穿过卢萨蒂亚一路北上，进入奥得河以东属于骑士团的新马克。这次远征谈不上温和：在弗里德贝格，他们把三名天主教神父塞进沥青桶里烧死；8月29日攻下维斯瓦河畔的特切夫之后，又把在城里替大团长卖命的捷克雇佣兵也烧死了。9月1日，他们在格但斯克城外扎营。这座城太坚固，打不下来，四天后他们干脆掉头去了海边，路上顺手烧了奥利瓦修道院。\n\n1433年9月4日，孤儿军站到了波罗的海的岸边。据编年史家记载，他们在海边像小孩子一样玩水，还把水壶灌满海水带回家，有几个人就在沙滩上被封为骑士。据说恰佩克是这样总结这一刻的：\n\n[[quote:0]]\n\n[[b]]一支从波希米亚群山里拉出来的军队，一直走到了陆地的尽头。[[/b]]骑士团同意停战。回国路上，雅盖沃给孤儿军付了一大笔酬劳，还送了恰佩克一份礼物：一头骆驼。恰佩克把它牵回了波希米亚，又带着它去执行下一项任务，也就是围攻皮尔森。这头骆驼，他没能留多久。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "Behold, brothers, I confess to you that, having reached the end of the world in these parts, I can go no further, for the waters of the sea prevent me!",
+          cz: "Hle bratří, přiznávám se vám, že dosáhnuv v těchto místech konce světa, nemohu dále postupovati, protože mi v tom brání mořské vody!",
+          zh: "看哪，弟兄们，我向你们承认：我在这里已经走到了世界的尽头，再也不能往前走了，因为大海的水挡住了我！",
+        },
+        attribution: {
+          en: "Attributed to Jan Čapek of Sány, on the Baltic shore, September 1433",
+          cz: "Připisováno Janu Čapkovi ze Sán, na břehu Baltu, září 1433",
+          zh: "据传为扬·恰佩克所说，波罗的海岸边，1433年9月",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Hussite_expedition_to_the_Baltic",
+  },
+  {
+    slug: "the-camel-of-plzen-1433",
+    era: "religious-turmoil",
+    startYear: 1433.6,
+    year: {
+      en: "July 1433 – May 1434",
+      cz: "Červenec 1433 – květen 1434",
+      zh: "1433年7月至1434年5月",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Camel of Plzeň",
+      cz: "Plzeňský velbloud",
+      zh: "皮尔森的骆驼",
+    },
+    hookLine: {
+      en: "Nine months outside Plzeň cost the Hussites a foraging army, their commander's dignity and a camel. Plzeň kept the camel.",
+      cz: "Devět měsíců před Plzní stálo husity celou zásobovací výpravu, důstojnost vrchního velitele a velblouda. Velblouda si Plzeň nechala.",
+      zh: "在皮尔森城外耗了九个月，胡斯派赔进去一支征粮部队、主帅的体面，还有一头骆驼。骆驼被皮尔森留下了。",
+    },
+    summary: {
+      en: "Plzeň had been the Catholic thorn in western Bohemia since the first year of the war, and while the council's envoys were in Prague that summer, the Hussites decided to pull it out at last. On 14 July 1433 the first Táborite troops arrived before the city. The Prague levies and the allied towns followed, Prokop took command in August, and the Orphans joined in the autumn, fresh from the Baltic. Some fifteen thousand men settled into five great camps around the walls, and forty bombards opened fire. Plzeň barely noticed. On the night of 1 September its defenders sallied out, overran one of the camps and went home again.\n\nThe real enemy was hunger. The harvest of 1432 had failed across Central Europe, the country around Plzeň had been stripped bare, and it was the besiegers, not the besieged, who began to starve. In mid-September Prokop sent some two thousand men under the Táborite captain Jan Pardus across the border into the Upper Palatinate to find food. They found plenty. On the way back, on 21 September, Bavarian knights and furious local peasants caught the long column near Hiltersried, and almost all of it was killed or captured. Only a handful made it back to the camp, with no food and no wagons.\n\nThe camp exploded. The soldiers accused Pardus of treachery and threw him in chains, and when Prokop tried to defend him, one of his own men hit him over the head with a stool and he was locked up too. He was let out within days, but he left the siege for Prague and did not come back for months. [[b]]The commander who had routed three crusades had been laid out by his own army with a piece of furniture.[[/b]] Before Christmas the defenders sallied out again and made off with the Orphans' most exotic trophy, the camel that the King of Poland had given to [[link:a-bottle-of-the-baltic-1433]]Jan Čapek[[/link]]. Čapek offered to buy it back. Plzeň declined, and the camel still appears on the city's coat of arms today.\n\nMeanwhile the siege kept getting worse. The besiegers plundered the countryside so thoroughly that the peasants, once the backbone of the Hussite armies, began to rise against them, and men deserted by the hundred. Plzeň's friends slipped food through the lines more than once, and the Council of Basel, in between negotiating with the Hussites, took up a collection to pay for the city's defence. By spring the army outside Plzeň had shrunk to about ten thousand hungry men, and the lords of Bohemia had begun to discuss, quietly, how to be rid of it.",
+      cz: "Plzeň byla katolickým trnem v západních Čechách od prvního roku války, a když byli toho léta v Praze vyslanci koncilu, rozhodli se husité, že ho konečně vytrhnou. 14. července 1433 dorazily k městu první táborské oddíly. Následovaly pražské hotovosti a spojenecká města, v srpnu převzal velení Prokop a na podzim se připojili sirotci, čerstvě od Baltu. Kolem hradeb se v pěti velkých leženích usadilo na patnáct tisíc mužů a čtyřicet bombard zahájilo palbu. Plzeň si toho sotva všimla. V noci na 1. září obránci vyrazili, přepadli jedno z ležení a zase se vrátili domů.\n\nSkutečným nepřítelem byl hlad. Úroda roku 1432 selhala v celé střední Evropě, okolí Plzně bylo vyjedené a hladovět začali obléhající, ne obležení. V polovině září proto Prokop poslal asi dva tisíce mužů pod táborským hejtmanem Janem Pardusem přes hranici do Horní Falce pro potraviny. Našli jich spoustu. Na zpáteční cestě 21. září však dlouhou kolonu u Hiltersriedu přepadli bavorští rytíři a rozzuření místní sedláci a téměř všichni byli pobiti nebo zajati. Do ležení se vrátila jen hrstka, bez jídla a bez vozů.\n\nLežení vybuchlo. Vojáci obvinili Parduse ze zrady a spoutali ho, a když se ho Prokop pokusil zastat, jeden z jeho vlastních mužů ho udeřil stoličkou do hlavy a zavřeli i jeho. Za pár dní byl propuštěn, ale od obléhání odjel do Prahy a měsíce se nevrátil. [[b]]Vojevůdce, který rozprášil tři křížové výpravy, poslalo k zemi jeho vlastní vojsko kusem nábytku.[[/b]] Před Vánoci obránci vyrazili znovu a odvedli sirotkům jejich nejexotičtější trofej, velblouda, kterého polský král daroval [[link:a-bottle-of-the-baltic-1433]]Janu Čapkovi[[/link]]. Čapek nabídl, že ho vykoupí. Plzeň odmítla a velbloud je dodnes v městském znaku.\n\nObléhání se mezitím dál zhoršovalo. Obléhající drancovali okolí tak důkladně, že se proti nim začali bouřit sedláci, kdysi páteř husitských vojsk, a muži dezertovali po stovkách. Přátelé Plzně víckrát propašovali do města potraviny a basilejský koncil uspořádal mezi jednáními s husity sbírku na obranu města. Na jaře se vojsko před Plzní scvrklo na nějakých deset tisíc hladových mužů a čeští páni začali potichu rokovat o tom, jak se ho zbavit.",
+      zh: "战争打响的第一年起，皮尔森就是扎在波希米亚西部的一根天主教钉子。那年夏天，公会议的使节还在布拉格，胡斯派决定终于把这根钉子拔掉。1433年7月14日，第一批塔博尔军到了城下，布拉格的民兵和各盟城随后赶来，8月普罗科普接过指挥权，孤儿军刚从波罗的海回来，秋天也加入进来。约一万五千人在城墙周围扎下五座大营，四十门射石炮一齐开火。皮尔森几乎没怎么在意。9月1日夜里，守军杀出城来，端掉一座营地，又回城去了。\n\n真正的敌人是饥饿。1432年整个中欧歉收，皮尔森周边早被吃得精光，先饿肚子的反倒是围城的一方。9月中旬，普罗科普派塔博尔派指挥官扬·帕尔杜斯带着约两千人越过边境，去上普法尔茨找粮。粮找到了不少。9月21日回程途中，巴伐利亚骑士和怒火中烧的当地农民在希尔特斯里德附近截住了这支拉得老长的队伍，几乎全军覆没。逃回营地的只有寥寥几个，粮食和车辆一样也没带回来。\n\n营地炸了锅。士兵们指控帕尔杜斯叛变，给他上了镣铐；普罗科普想替他说话，结果被自己手下的一个士兵抄起凳子砸在头上，也被关了起来。几天后他被放了出来，却离开围城前线去了布拉格，好几个月没再回来。[[b]]打垮过三次十字军的统帅，被自己的军队用一件家具撂倒了。[[/b]]圣诞节前，守军又杀出城一次，把孤儿军最稀罕的战利品牵走了，就是波兰国王送给[[link:a-bottle-of-the-baltic-1433]]扬·恰佩克[[/link]]的那头骆驼。恰佩克提出要把它赎回来，皮尔森没答应。直到今天，这头骆驼还画在皮尔森的城徽上。\n\n与此同时，围城越拖越糟。围城部队把四乡抢得一干二净，连曾经是胡斯军主力的农民都开始起来反抗他们，逃兵成百成百地走。皮尔森的朋友们不止一次把粮食偷运进城；巴塞尔公会议一边和胡斯派谈判，一边还给皮尔森的守城经费搞了一次募捐。到了春天，城外的大军只剩下大约一万个饿着肚子的人，而波希米亚的贵族们，已经开始悄悄商量怎么把这支军队处理掉了。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "plzen",
+        relation: {
+          en: "Besieged by the Hussite field armies from July 1433 to May 1434, and never taken. The camel its defenders captured from the Orphans is still on the city's coat of arms.",
+          cz: "Od července 1433 do května 1434 ji obléhala husitská polní vojska a nikdy ji nedobyla. Velbloud, kterého obránci ukořistili sirotkům, je dodnes v městském znaku.",
+          zh: "1433年7月至1434年5月被胡斯派野战军围困，始终没被攻下。守军从孤儿军那里抢来的骆驼，至今还画在城徽上。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Obl%C3%A9h%C3%A1n%C3%AD_Plzn%C4%9B_(1433%E2%80%931434)",
+  },
+  {
+    slug: "who-was-oldrich-of-rozmberk-1434",
+    era: "religious-turmoil",
+    startYear: 1434.2,
+    cardType: "background",
+    year: {
+      en: "1403–1462",
+      cz: "1403–1462",
+      zh: "1403–1462年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Who Was Oldřich of Rožmberk?",
+      cz: "Kdo byl Oldřich z Rožmberka?",
+      zh: "罗日姆贝克的奥尔德日赫是谁？",
+    },
+    hookLine: {
+      en: "He never won a famous battle, yet he outlasted everyone who did. His favourite weapon was a pen, and a real talent for producing very old documents.",
+      cz: "Nevyhrál žádnou slavnou bitvu, a přesto přečkal všechny, kdo nějakou vyhráli. Jeho oblíbenou zbraní bylo pero a opravdový talent vyrábět velmi staré listiny.",
+      zh: "他没打赢过什么有名的仗，却熬走了所有打赢过的人。他最趁手的兵器是一支笔，外加一手“制造古老文书”的真本事。",
+    },
+    summary: {
+      en: "The Rožmberks have been hovering at the edge of the story for a long time. They were one of the [[link:the-five-roses-1394]]five branches[[/link]] of the [[link:who-are-the-vitkovci-1276]]Vítkovci[[/link]], the South Bohemian clan that Otakar II tried to hem in with a royal monastery at [[link:iron-and-golden-king-1266]]Zlatá Koruna[[/link]] and a royal town at České Budějovice, and whose most famous son, Záviš of Falkenstein, [[link:meadow-below-hluboka-1290]]lost his head[[/link]] in 1290. By the 1420s the Rožmberk branch had absorbed most of its cousins' lands and ruled South Bohemia from Český Krumlov. Its head was Oldřich II.\n\nOldřich was born in 1403 and took charge of the family at fifteen, just before the revolution broke out. His guardian, [[link:enemies-closer-to-home-1423]]Čeněk of Vartenberk[[/link]], had flirted with the Hussite cause, and so for a while had Oldřich. Then in 1420 the radicals founded Tábor on the northern edge of the Rožmberk lands, and his mind was made up. He became Sigismund's man in the south, lost two castles to [[link:one-jailbreak-two-castles-1420]]a single jailbreak[[/link]] that same year, and learned quickly that he could not beat the Táborites in the field. So he did something rarer. He signed truce after truce with them, kept his own lands fairly quiet for fourteen years, and made sure that Sigismund ended up owing him a great deal of money.\n\nHis real talent was paperwork. Oldřich had documents forged on an impressive scale: charters in which earlier kings granted his family privileges they had never granted. One of them, supposedly issued by Charles IV in 1360, made the Rožmberk estates indivisible and always ruled by the eldest male of the family. It was entered into the land records in 1493 and obeyed until the family died out in 1611. Another forgery helped him keep Zlatá Koruna, the very monastery Otakar II had founded to keep his ancestors in check. He also gave the family a Roman pedigree, claiming descent from the Orsini of Rome, and then persuaded the real Orsini to sign an agreement confirming that they were indeed related.\n\n[[b]]Contemporaries called him the pillar of the kingdom and its mightiest member, and in the spring of 1434 the pillar finally moved.[[/b]] When the lords of Bohemia began to organise against the field armies, Oldřich brought the Catholic south into their league, and his troops, under his burgrave Mikuláš Krchlebec, would play the decisive part in what followed. He lived until 1462, spent most of his remaining years fighting George of Poděbrady for control of the kingdom, and died at Český Krumlov, old, rich and still in possession of everything he had started with, which by the standards of this period was an achievement in itself.",
+      cz: "Rožmberkové se na okraji příběhu pohybují už hodně dlouho. Byli jednou z [[link:the-five-roses-1394]]pěti větví[[/link]] [[link:who-are-the-vitkovci-1276]]Vítkovců[[/link]], jihočeského rodu, který se Přemysl Otakar II. snažil sevřít královským klášterem ve [[link:iron-and-golden-king-1266]]Zlaté Koruně[[/link]] a královským městem České Budějovice a jehož nejslavnější syn Záviš z Falkenštejna roku 1290 [[link:meadow-below-hluboka-1290]]přišel o hlavu[[/link]]. Ve dvacátých letech 15. století měla rožmberská větev v rukou většinu statků svých bratranců a vládla jižním Čechám z Českého Krumlova. V jejím čele stál Oldřich II.\n\nOldřich se narodil roku 1403 a v patnácti letech se ujal vlády nad rodem, krátce před vypuknutím revoluce. Jeho poručník [[link:enemies-closer-to-home-1423]]Čeněk z Vartenberka[[/link]] s husitstvím koketoval a nějakou dobu i Oldřich. Pak ale radikálové roku 1420 založili Tábor na samé severní hranici rožmberského panství a Oldřich měl jasno. Stal se Zikmundovým mužem na jihu, ještě téhož roku přišel o dva hrady kvůli [[link:one-jailbreak-two-castles-1420]]jedinému útěku z vězení[[/link]] a rychle pochopil, že tábory v poli neporazí. Udělal tedy něco vzácnějšího. Uzavíral s nimi jedno příměří za druhým, čtrnáct let udržel na svých panstvích relativní klid a postaral se, aby mu Zikmund nakonec dlužil hodně peněz.\n\nJeho skutečným talentem byla úřední agenda. Oldřich nechal ve velkém falšovat listiny: privilegia, jež jeho rodu údajně udělili dřívější králové, ačkoli je nikdy neudělili. Jedna z nich, prý vydaná Karlem IV. roku 1360, prohlašovala rožmberské dominium za nedělitelné a svěřovala vládu nad ním vždy nejstaršímu muži rodu. Roku 1493 byla zapsána do zemských desk a platila, dokud rod roku 1611 nevymřel. Jiný falzifikát mu pomohl udržet Zlatou Korunu, tedy právě ten klášter, který Přemysl Otakar II. založil, aby jeho předky držel na uzdě. Rodu také opatřil římský původ, prohlásil, že pochází od římských Orsiniů, a pak přesvědčil skutečné Orsinie, aby podepsali dohodu, že spolu opravdu jsou příbuzní.\n\n[[b]]Současníci ho nazývali sloupem království a jeho nejmocnějším údem, a na jaře 1434 se ten sloup konečně pohnul.[[/b]] Když se čeští páni začali organizovat proti polním vojskům, přivedl Oldřich do jejich jednoty katolický jih a jeho vojáci pod velením purkrabího Mikuláše Krchlebce sehráli v tom, co následovalo, rozhodující roli. Dožil se roku 1462, většinu zbývajících let strávil zápasem s Jiřím z Poděbrad o moc v království a zemřel v Českém Krumlově, starý, bohatý a stále v držení všeho, s čím začínal, což bylo na poměry té doby samo o sobě úspěchem.",
+      zh: "罗日姆贝克家族在这个故事的边上徘徊已经很久了。他们是[[link:who-are-the-vitkovci-1276]]维特科维奇家族[[/link]][[link:the-five-roses-1394]]五个分支[[/link]]之一。这个南波希米亚的大家族，当年让普热米斯尔·奥托卡二世伤透脑筋，国王只好在[[link:iron-and-golden-king-1266]]兹拉塔科鲁纳[[/link]]建了一座王室修道院、又建了捷克布杰约维采这座王室城市，想把他们围住；家族里最出名的扎维什，1290年[[link:meadow-below-hluboka-1290]]掉了脑袋[[/link]]。到了15世纪20年代，罗日姆贝克这一支已经吞下了各房堂亲的大部分领地，坐镇克鲁姆洛夫，统治着南波希米亚。当家的，就是奥尔德日赫二世。\n\n奥尔德日赫生于1403年，十五岁就接掌了家族，没过多久革命就爆发了。他的监护人[[link:enemies-closer-to-home-1423]]瓦尔滕贝格的切涅克[[/link]]曾经对胡斯派动过心，奥尔德日赫自己也一度如此。可是1420年，激进派在罗日姆贝克领地的北部边缘建起了塔博尔，他的主意也就拿定了。他成了西吉斯蒙德在南方的代理人，同一年就因为[[link:one-jailbreak-two-castles-1420]]一次越狱[[/link]]丢了两座城堡，也很快明白了自己在战场上打不过塔博尔派。于是他做了一件更难得的事：跟塔博尔派签了一份又一份停战协议，让自己的领地在十四年里大体保持安宁，还确保西吉斯蒙德最后欠了他一大笔钱。\n\n他真正的本事在文书上。奥尔德日赫大规模地伪造文件：一份份特许状上写着，历代国王曾赐给他的家族种种特权，而这些特权其实从来没有赐过。其中一份据称是查理四世在1360年颁发的，规定罗日姆贝克家族的领地不可分割，永远由家族中最年长的男子掌管。这份文书在1493年被正式登入土地登记簿，一直沿用到1611年家族绝嗣为止。另一份伪造文书帮他保住了兹拉塔科鲁纳，正是当年奥托卡二世为了看住他的祖先而建的那座修道院。他还给家族编了一个罗马祖先，声称自己是罗马奥尔西尼家族的后裔，然后居然说动了真正的奥尔西尼家族，签了一份协议，承认双方确实是亲戚。\n\n[[b]]同时代的人称他为“王国的支柱、最有权势的一员”。1434年春天，这根支柱终于挪动了。[[/b]]波希米亚的贵族们开始联合起来对付野战军时，奥尔德日赫把整个天主教南方带进了他们的联盟，而他手下由城堡伯爵米库拉什·克尔赫莱贝茨统领的部队，将在接下来的事件中起决定性的作用。他一直活到1462年，余生大多在和波杰布拉迪的伊日争夺王国的控制权，最后在克鲁姆洛夫去世。死的时候，他年事已高、家财万贯，起家时拥有的一切一样也没丢，在那个年代，这本身就是一项成就。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Old%C5%99ich_II._z_Ro%C5%BEmberka",
+  },
+  {
+    slug: "the-new-town-falls-1434",
+    era: "religious-turmoil",
+    startYear: 1434.34,
+    year: {
+      en: "March–May 1434",
+      cz: "Březen–květen 1434",
+      zh: "1434年3月至5月",
+    },
+    tone: "serious",
+    title: {
+      en: "The New Town Falls",
+      cz: "Pád Nového Města",
+      zh: "新城失守",
+    },
+    hookLine: {
+      en: "In May 1434 the lords and the Old Town took Prague's New Town in a day. Prokop wrote that it was better to die than to leave it unavenged.",
+      cz: "V květnu 1434 dobyli páni se Starým Městem pražské Nové Město za jediný den. Prokop napsal, že je lépe zemřít, než to nechat nepomstěno.",
+      zh: "1434年5月，贵族们联合老城，一天之内拿下了布拉格新城。普罗科普写道：宁可战死，也不能让这笔血债不了了之。",
+    },
+    summary: {
+      en: "By the spring of 1434 the lords of Bohemia had had enough. The regent Aleš Vřešťovský of Rýzmburk, elected the previous winter to restore order, could not make the field armies obey him, and the army outside Plzeň was living off a countryside that had come to hate it. In March the Utraquist lords, led by Diviš Bořek of Miletínek and [[link:holy-peace-1427]]Vilém Kostka of Postupice[[/link]], met in secret and resolved to make the field armies lay down their arms. The Old Town of Prague joined them at once. So, through the mediation of [[link:a-crown-with-conditions-1429]]Menhard of Jindřichův Hradec[[/link]], did the Catholic lords, with [[link:who-was-oldrich-of-rozmberk-1434]]Oldřich of Rožmberk[[/link]] at their head and Sigismund's blessing behind them. The Táborites and Orphans were summoned to disarm, with a pardon if they obeyed and war if they did not.\n\nPrague's New Town was the radicals' stronghold. It had thrown [[link:the-first-defenestration-1419]]its councillors out of the window[[/link]] in 1419 and [[link:revenge-for-the-kings-deer-1429]]fought the Old Town[[/link]] in its own streets five years before, and it refused to join the league. Its citizens seized two of the Old Town's gates, put gunners in the church towers and opened fire. The Old Town sent for help. On 5 May the lords' army marched into the city across the stone bridge, and after a day of artillery fire it took the New Town on 6 May, with less bloodshed than anyone had feared. Prokop, who had been in the city, got out just in time. Somewhere on the road south he wrote to Prokop the Lesser, who commanded the army outside Plzeň:\n\n[[quote:0]]\n\nThe letter never reached him. It seems to have been intercepted by Oldřich of Rožmberk's men.\n\nIt hardly mattered. The news reached Plzeň anyway, and on the night of 8 to 9 May the besiegers burned their own tents, wrecked their siege works and marched away after nine months with nothing to show for it. [[b]]Plzeň had not fallen, and meanwhile the radicals had lost Prague behind their backs.[[/b]] The field armies gathered whatever they could, from Tábor, from the Orphan towns around Hradec Králové and from the thirty or so cities still loyal to them, and turned towards the capital. The lords, safe behind its walls, waited for their reinforcements.",
+      cz: "Na jaře 1434 měli čeští páni dost. Zemský správce Aleš Vřešťovský z Rýzmburka, zvolený předchozí zimy, aby v zemi obnovil pořádek, nedokázal polní vojska přimět k poslušnosti a vojsko před Plzní žilo z krajiny, která ho začala nenávidět. V březnu se kališničtí páni v čele s Divišem Bořkem z Miletínka a [[link:holy-peace-1427]]Vilémem Kostkou z Postupic[[/link]] tajně sešli a rozhodli se, že polní vojska přimějí složit zbraně. Staré Město pražské se k nim hned přidalo. Prostřednictvím [[link:a-crown-with-conditions-1429]]Menharta z Hradce[[/link]] se připojili i katoličtí páni, v jejich čele [[link:who-was-oldrich-of-rozmberk-1434]]Oldřich z Rožmberka[[/link]], a za nimi Zikmundovo požehnání. Tábory a sirotky vyzvali, aby se odzbrojili: když uposlechnou, dostanou milost, když ne, bude válka.\n\nPražské Nové Město bylo baštou radikálů. Roku 1419 vyhodilo [[link:the-first-defenestration-1419]]své konšely z okna[[/link]], před pěti lety [[link:revenge-for-the-kings-deer-1429]]válčilo se Starým Městem[[/link]] ve vlastních ulicích a do jednoty vstoupit odmítlo. Jeho měšťané obsadili dvě brány Starého Města, na kostelní věže postavili střelce a zahájili palbu. Staré Město poslalo pro pomoc. 5. května vtáhlo panské vojsko přes kamenný most do města a po dni dělostřelby dobylo 6. května Nové Město, s menším krveprolitím, než se kdo obával. Prokop, který byl ve městě, unikl na poslední chvíli. Někde na cestě na jih napsal Prokopovi Malému, který velel vojsku před Plzní:\n\n[[quote:0]]\n\nDopis nikdy nedošel. Zřejmě ho zachytili muži Oldřicha z Rožmberka.\n\nNa tom už moc nezáleželo. Zpráva se do Plzně dostala i tak a v noci z 8. na 9. května obléhající spálili vlastní stany, rozbili obléhací práce a po devíti měsících odtáhli s prázdnou. [[b]]Plzeň nepadla, a radikálové mezitím za svými zády ztratili Prahu.[[/b]] Polní vojska sebrala, co se dalo, z Tábora, ze sirotčích měst kolem Hradce Králové a z třiceti či kolika měst, která jim zůstala věrná, a obrátila se k hlavnímu městu. Páni, v bezpečí za jeho hradbami, čekali na posily.",
+      zh: "到了1434年春天，波希米亚的贵族们已经忍无可忍。前一年冬天选出来恢复秩序的摄政、雷兹姆布尔克的阿莱什·弗热什佐夫斯基，根本指挥不动野战军；皮尔森城外的大军，靠搜刮一片早已恨透了他们的乡村过日子。3月，以米莱廷的迪维什·博雷克和[[link:holy-peace-1427]]波斯图皮采的维莱姆·科斯特卡[[/link]]为首的圣杯派贵族秘密集会，决定逼野战军放下武器。布拉格老城立刻加入了他们。经[[link:a-crown-with-conditions-1429]]赫拉德茨的门哈特[[/link]]牵线，以[[link:who-was-oldrich-of-rozmberk-1434]]罗日姆贝克的奥尔德日赫[[/link]]为首的天主教贵族也加入了，背后还有西吉斯蒙德的首肯。塔博尔派和孤儿军被勒令解除武装：服从的，既往不咎；不服从的，兵戎相见。\n\n布拉格新城是激进派的大本营。1419年，这里[[link:the-first-defenestration-1419]]把议员扔出了窗外[[/link]]；五年前，又在自家街道上[[link:revenge-for-the-kings-deer-1429]]和老城打过一仗[[/link]]。这一次，新城拒绝加入贵族联盟。新城的市民夺下了老城的两座城门，在教堂塔楼上布置了炮手，开火了。老城派人求援。5月5日，贵族联军经石桥开进城内，经过一整天的炮战，于5月6日拿下了新城，流的血比所有人担心的都要少。普罗科普当时就在城里，千钧一发之际逃了出去。在南下的路上，他给正在皮尔森城外统兵的小普罗科普写了一封信：\n\n[[quote:0]]\n\n这封信始终没有送到。它似乎被罗日姆贝克的奥尔德日赫的人截下了。\n\n不过这已经无关紧要了。消息还是传到了皮尔森。5月8日夜里至9日，围城部队烧掉了自己的帐篷，拆毁了攻城工事，在城外耗了九个月之后，一无所获地撤走了。[[b]]皮尔森没有攻下来，激进派反倒在背后丢掉了布拉格。[[/b]]野战军从塔博尔、从赫拉德茨-克拉洛韦一带的孤儿军城市、从三十来座仍然效忠他们的城市，能召集的都召集起来，转头向首都开去。而贵族们安坐城墙之内，等着援军到来。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "Know that, by God's leave, the false lords of the land, with the Praguers of the Old Town, fell upon our dear brethren, the citizens of the New Town; they killed some and took the town from them, as we saw ourselves… for it is better for us to die than to leave unavenged the innocent blood of our dear brethren, treacherously shed.",
+          cz: "Věz, že z dopuštění božího falešní páni zemští s Pražany staroměstskými obořili se na milé naše bratry, měšťany novoměstské; některé zabili a město na nich dobyli, jakož sme to spatřili sami… neboť lépe jest nám umříti, nežli nepomstíti nevinné krve aukladně vylité milých bratří našich.",
+          zh: "你要知道：蒙上帝许可，那些虚伪的本国贵族伙同老城的布拉格人，向我们亲爱的弟兄、新城的市民们扑了过来；他们杀了一些人，从他们手中夺走了这座城，这是我们亲眼所见……因为对我们来说，宁可死去，也不能让我们亲爱弟兄们遭人暗算而流的无辜之血不得报偿。",
+        },
+        attribution: {
+          en: "Prokop to Prokop the Lesser, May 1434",
+          cz: "Prokop Holý Prokopovi Malému, květen 1434",
+          zh: "普罗科普致小普罗科普的信，1434年5月",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "novomestska-radnice",
+        relation: {
+          en: "Seat of the New Town, the radicals' stronghold, which refused to join the lords' league and was taken by force on 6 May 1434.",
+          cz: "Sídlo Nového Města, bašty radikálů, které odmítlo vstoupit do panské jednoty a 6. května 1434 bylo dobyto.",
+          zh: "激进派大本营新城的市政厅。新城拒绝加入贵族联盟，1434年5月6日被武力攻下。",
+        },
+      },
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "The Old Town joined the lords' league at once in 1434 and called in its army against the New Town.",
+          cz: "Staré Město se roku 1434 hned přidalo k panské jednotě a povolalo její vojsko proti Novému Městu.",
+          zh: "1434年，老城第一时间加入了贵族联盟，还把联盟的军队请进城来对付新城。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Bitva_u_Lipan",
+  },
+  {
+    slug: "lipany-1434",
+    era: "religious-turmoil",
+    startYear: 1434.41,
+    year: {
+      en: "30 May 1434",
+      cz: "30. května 1434",
+      zh: "1434年5月30日",
+    },
+    tone: "serious",
+    title: {
+      en: "Lipany",
+      cz: "Lipany",
+      zh: "利帕尼",
+    },
+    hookLine: {
+      en: "No crusade had ever broken a Hussite wagon fort. On 30 May 1434 other Hussites did.",
+      cz: "Husitskou vozovou hradbu nezlomila žádná křížová výprava. 30. května 1434 ji zlomili jiní husité.",
+      zh: "没有哪一支十字军攻破过胡斯派的车阵。1434年5月30日，攻破它的是另一群胡斯派。",
+    },
+    summary: {
+      en: "The two armies met at the end of May on the rolling farmland east of Prague, between Český Brod and Kolín. The field armies under Prokop, perhaps ten thousand foot and seven hundred horse with nearly five hundred wagons, drew up their wagon fort on the slopes of the Lipská hora hill near the village of Lipany, a position of the kind that had beaten far larger armies. Against them stood the league: the Utraquist lords under Diviš Bořek of Miletínek, who had once been one of Žižka's own captains, the Prague towns, the men of Plzeň, the royal garrison of Karlštejn and the Rožmberk contingent, some twelve or thirteen thousand foot and twelve hundred horse. Among the Utraquist lords was a young George of Poděbrady. On 29 May the lords tried one last time to talk. The talks failed, and someone on the radical side is said to have ended them with the words: then we will settle it with our fists.\n\nThe battle was won with a trick the Hussites knew better than anyone. On Sunday 30 May the Rožmberk commander Mikuláš Krchlebec led the league's vanguard up towards the wagon fort, traded fire with it, and then turned and ran. Seeing the enemy apparently in flight, the Táborites and Orphans did what [[link:enemies-closer-to-home-1423]]Žižka's own rules[[/link]] had always forbidden. They opened the wagon fort and poured out in pursuit. Krchlebec's men stopped and turned, and at the same moment the league's heavy cavalry broke into the half-empty fort from the flank, climbing over or breaking the chains between the wagons. The Hussites were caught in the open, with the enemy already inside their own walls.\n\nWhat followed was a slaughter. Jan Čapek of Sány rode off towards Kolín with the cavalry he commanded. To many at the time, and to generations afterwards, that made him the traitor of Lipany, although modern historians doubt that his horsemen could have saved the day. Prokop and Prokop the Lesser stayed with the wagons and died there, with most of the Táborite and Orphan priests. [[link:orphans-grow-up-fast-1425]]Jan Roháč of Dubá[[/link]] was taken prisoner. The league lost perhaps two hundred men; the field armies lost well over a thousand in the fighting alone. That evening hundreds of prisoners, many of them peasants the radicals had brought along to tend the horses and wagons, were herded into barns in the nearby villages, and the barns were set alight. Who gave the order is still disputed. One of the chroniclers wrote:\n\n[[quote:0]]\n\n[[b]]The armies that no crusade had been able to defeat were destroyed in a single afternoon, by Czechs.[[/b]] An eighteenth-century Czech historian put it bitterly: the Bohemians, invincible to every foreign enemy, could be beaten only by other Bohemians. In 1881 Czech patriots raised a stone memorial topped with a chalice on the Lipská hora hill, and in 1898 the painter Luděk Marold painted the battle as a panorama ninety-five metres long, which still hangs in its own pavilion at the Prague Exhibition Grounds.",
+      cz: "Obě vojska se koncem května setkala ve zvlněné zemědělské krajině východně od Prahy, mezi Českým Brodem a Kolínem. Polní vojska pod Prokopovým velením, snad deset tisíc pěších a sedm set jezdců s téměř pěti sty vozy, rozestavila vozovou hradbu na svazích Lipské hory u vsi Lipany, v postavení toho druhu, v jakém porážela mnohem větší armády. Proti nim stála jednota: kališničtí páni v čele s Divišem Bořkem z Miletínka, kdysi jedním ze Žižkových hejtmanů, pražská města, Plzeňští, královská posádka Karlštejna a rožmberský sbor, na dvanáct až třináct tisíc pěších a dvanáct set jezdců. Mezi kališnickými pány byl i mladý Jiří z Poděbrad. 29. května se páni naposledy pokusili vyjednávat. Rozhovory ztroskotaly a kdosi z radikální strany je prý ukončil slovy: tak to tedy rozhodneme pěstmi.\n\nBitvu rozhodl trik, který husité znali lépe než kdokoli jiný. V neděli 30. května vedl rožmberský hejtman Mikuláš Krchlebec předvoj jednoty k vozové hradbě, vyměnil si s ní palbu a pak se otočil a dal se na útěk. Když táboři a sirotci viděli nepřítele zdánlivě prchat, udělali to, co [[link:enemies-closer-to-home-1423]]Žižkův vlastní řád[[/link]] vždy zakazoval. Otevřeli vozovou hradbu a vyrazili za ním. Krchlebcovi muži se zastavili a obrátili a v tutéž chvíli vtrhla těžká jízda jednoty z boku do poloprázdné hradby, přes řetězy mezi vozy nebo skrz ně. Husité zůstali v otevřeném poli a nepřítel už byl uvnitř jejich vlastních zdí.\n\nNásledovala řež. Jan Čapek ze Sán odjel s jízdou, které velel, ke Kolínu. Pro mnohé současníky i pro další generace se tím stal lipanským zrádcem, ačkoli moderní historici pochybují, že by jeho jezdci bitvu zachránili. Prokop a Prokop Malý zůstali u vozů a padli tam spolu s většinou táborských a sirotčích kněží. [[link:orphans-grow-up-fast-1425]]Jan Roháč z Dubé[[/link]] padl do zajetí. Jednota ztratila snad dvě stě mužů, polní vojska jen v boji přes tisíc. Téhož večera byly stovky zajatců, mezi nimi mnoho sedláků, které radikálové vzali s sebou ke koním a vozům, nahnány do stodol v okolních vsích a stodoly byly zapáleny. O tom, kdo dal rozkaz, se dodnes vedou spory. Jeden z letopisců napsal:\n\n[[quote:0]]\n\n[[b]]Vojska, která nedokázala porazit žádná křížová výprava, byla zničena za jediné odpoledne, a to Čechy.[[/b]] Jeden český historik 18. století to vyjádřil hořce: Čechy, nepřemožitelné pro každého cizího nepřítele, mohli porazit jen zase Čechové. Roku 1881 vztyčili čeští vlastenci na Lipské hoře kamennou mohylu s kalichem a roku 1898 namaloval malíř Luděk Marold bitvu jako panorama dlouhé devadesát pět metrů, které dodnes visí ve vlastním pavilonu na pražském Výstavišti.",
+      zh: "5月底，双方在布拉格以东、捷克布罗德和科林之间的一片起伏农田上相遇。普罗科普率领的野战军约有一万步兵、七百骑兵和近五百辆战车，在利帕尼村附近的利普斯卡山坡上摆开了车阵。这种阵地，他们曾在上面打败过比自己庞大得多的军队。对面是贵族联盟：由米莱廷的迪维什·博雷克率领的圣杯派贵族（博雷克当年也是杰式卡手下的指挥官之一），布拉格各城，皮尔森人，卡尔什泰因的王室守军，还有罗日姆贝克家族的部队，共约一万二三千步兵和一千二百骑兵。圣杯派贵族当中，还有一位年轻的波杰布拉迪的伊日。5月29日，贵族们最后一次尝试谈判。谈判破裂了，据说激进派那边有人撂下一句话：那就用拳头来解决吧。\n\n赢下这一仗的，是一个胡斯派自己比谁都熟悉的招数。5月30日星期天，罗日姆贝克家族的指挥官米库拉什·克尔赫莱贝茨率领联盟前锋逼近车阵，和对方对射了一轮，然后转身就跑。塔博尔派和孤儿军眼看敌人像是溃逃了，便做了一件[[link:enemies-closer-to-home-1423]]杰式卡的军规[[/link]]历来严禁的事：打开车阵，冲出去追击。克尔赫莱贝茨的人马随即停下、掉头；与此同时，联盟的重骑兵从侧翼杀进了几乎空了的车阵，有的翻过、有的砸断了车与车之间的铁链。胡斯派被困在开阔地上，而敌人已经进了他们自己的城墙。\n\n接下来是一场屠杀。扬·恰佩克带着他指挥的骑兵往科林方向撤走了。在当时许多人、以及后来好几代人的眼里，这让他成了“利帕尼的叛徒”，不过现代史学家怀疑，他的骑兵其实也挽回不了败局。普罗科普和小普罗科普都留在战车旁，和塔博尔派、孤儿军的大多数神父一起战死。[[link:orphans-grow-up-fast-1425]]杜巴的扬·罗哈奇[[/link]]被俘。联盟一方大约只损失了两百人，野战军仅在战斗中就损失了一千多人。当天晚上，数百名俘虏，其中很多是激进派带来照看马匹和车辆的农民，被驱赶进附近村子的谷仓里，谷仓随即被点着了。究竟是谁下的命令，至今仍有争议。一位编年史家写道：\n\n[[quote:0]]\n\n[[b]]没有哪一支十字军打败过的军队，在一个下午之内被毁灭了，毁灭它的是捷克人。[[/b]]一位18世纪的捷克历史学家说得很沉痛：波希米亚人面对任何外敌都战无不胜，能打败波希米亚人的，只有波希米亚人自己。1881年，捷克爱国者在利普斯卡山上立起一座顶着圣杯的石砌纪念丘；1898年，画家卢德克·马罗尔德把这场战役画成了一幅长达九十五米的全景画，至今仍陈列在布拉格展览中心的专门展馆里。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "Here were slain strong and very brave warriors, many Táborite priests: the priest Prokop the Bald, the Táborite commander and their captain, the priest Prokop the Lesser, captain of the Orphans… and many other priests and people, harmful to the land, were slain here or burned in barns, more than two thousand.",
+          cz: "Byli tu pobiti silní a velmi stateční bojovníci, mnozí kněží táborští, kněz Prokop Holý, vojevůdce táborský a jejich hejtman, kněz Prokůpek Malý, hejtman sirotků…; a mnoho dalších kněží a lidí, škůdců země, tady bylo pobito nebo upáleno ve stodolách, přes dva tisíce.",
+          zh: "在这里被杀的，有强壮而极其勇敢的战士，有许多塔博尔派的神父：神父秃头普罗科普，塔博尔派的统帅和首领；神父小普罗科普，孤儿军的首领……还有许多别的神父和危害国家的人，在这里被杀，或者在谷仓里被烧死，总数超过两千。",
+        },
+        attribution: {
+          en: "Old Czech Annals (Staré letopisy české), on the battle of Lipany",
+          cz: "Staré letopisy české, o bitvě u Lipan",
+          zh: "《古捷克编年史》，记利帕尼之战",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "lipanska-mohyla",
+        relation: {
+          en: "The memorial raised in 1881 on the Lipská hora hill, where the field armies drew up their last wagon fort on 30 May 1434.",
+          cz: "Památník vztyčený roku 1881 na Lipské hoře, kde polní vojska 30. května 1434 postavila svou poslední vozovou hradbu.",
+          zh: "1881年立在利普斯卡山上的纪念碑。1434年5月30日，野战军就在这里摆下了他们最后的车阵。",
+        },
+      },
+      {
+        slug: "cesky-brod",
+        relation: {
+          en: "The town the league's army was besieging when the field armies came up; it lies a few kilometres from the battlefield.",
+          cz: "Město, které panské vojsko obléhalo, když se přiblížila polní vojska; od bojiště leží jen několik kilometrů.",
+          zh: "野战军开到时，贵族联军正在围攻这座城，它离战场只有几公里。",
+        },
+      },
+      {
+        slug: "kolin",
+        relation: {
+          en: "Where Jan Čapek of Sány rode with his cavalry when the battle turned, earning himself the name of the traitor of Lipany.",
+          cz: "Sem odjel Jan Čapek ze Sán se svou jízdou, když se bitva obrátila, a vysloužil si tím pověst lipanského zrádce.",
+          zh: "战局逆转时，扬·恰佩克带着他的骑兵撤往这里，从此背上了“利帕尼叛徒”的名声。",
+        },
+      },
+      {
+        slug: "vystaviste-praha",
+        relation: {
+          en: "Home of Luděk Marold's panorama of the battle of Lipany, painted in 1898, ninety-five metres long and eleven metres high.",
+          cz: "Zde visí panorama bitvy u Lipan od Luďka Marolda z roku 1898, dlouhé devadesát pět a vysoké jedenáct metrů.",
+          zh: "卢德克·马罗尔德1898年创作的利帕尼战役全景画就陈列在这里，长九十五米，高十一米。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Bitva_u_Lipan",
+  },
+  {
+    slug: "what-did-the-compacts-grant-1436",
+    era: "religious-turmoil",
+    startYear: 1436.45,
+    cardType: "background",
+    year: {
+      en: "1433–1436",
+      cz: "1433–1436",
+      zh: "1433–1436年",
+    },
+    tone: "humorous",
+    title: {
+      en: "What Did the Compacts Actually Grant?",
+      cz: "Co vlastně kompaktáta přiznala?",
+      zh: "《巴塞尔协定》到底给了什么？",
+    },
+    hookLine: {
+      en: "After sixteen years of war, the Czechs won the right to drink from the chalice. Only the Czechs, only if they wanted to, and only until a pope changed his mind.",
+      cz: "Po šestnácti letech války si Čechové vybojovali právo pít z kalicha. Jen Čechové, jen pokud chtěli, a jen do chvíle, než si to papež rozmyslel.",
+      zh: "打了十六年仗，捷克人赢得了用圣杯领酒的权利。仅限捷克人，仅限自愿，而且只到某位教皇改主意为止。",
+    },
+    summary: {
+      en: "The talks that began in Basel never really stopped, not even for Lipany. In November 1433 the council's envoys in Prague had already produced a first draft, which both sides sealed with a handshake and neither fully accepted. After Lipany the moderates who now ran the country wanted a deal far more than the field armies ever had, and Sigismund, who wanted his crown, joined the bargaining. It went on for more than two years, at Regensburg, Basel, Brno and Székesfehérvár, and ended at Jihlava in the summer of 1436. The result is known as the Compacts of Basel.\n\nOn paper, the [[link:the-four-articles-of-prague-1420]]Four Articles of Prague[[/link]] had survived. In practice only one of them really did. The Church allowed the people of Bohemia and Moravia to receive [[link:what-is-utraquism-1414]]communion in both kinds[[/link]], bread and wine, provided they wished to, while insisting that the other way was just as valid. That was the heart of the settlement, and it was a genuine victory: a practice that Constance had condemned as heresy was now permitted, at least in one kingdom. The other three articles, on free preaching, the punishment of sin and the property of the Church, came back wrapped in so many qualifications, \"according to the law of God\" and \"by those whose office it is\", that almost anything could be read into them.\n\nThe Czechs also wanted an archbishop of their own, and in October 1435 the Bohemian diet elected [[link:prague-dismisses-its-prince-1427]]Jan Rokycana[[/link]] Archbishop of Prague. Sigismund promised to see him confirmed. The pope never did, and Rokycana, the most famous churchman in the country, died in 1471 as an elected archbishop who had never been consecrated. [[b]]The Compacts gave the Czechs their chalice, but not a Church that Rome would recognise.[[/b]]\n\nRome never ratified the Compacts either. As far as the popes were concerned, the council had had no business making such a deal, and in 1462 Pope Pius II formally declared them void. Before he became pope, Pius II had been [[link:undefeated-until-the-plague-1424]]Aeneas Silvius Piccolomini[[/link]], the writer who told Europe about Žižka's drum. In Bohemia nobody took much notice. The Czechs went on receiving communion in both kinds and treated the Compacts as the law of the land for more than a century.",
+      cz: "Jednání, která začala v Basileji, se vlastně nikdy nezastavila, ani kvůli Lipanům. Už v listopadu 1433 připravili vyslanci koncilu v Praze první návrh, který obě strany stvrdily podáním ruky a žádná z nich ho plně nepřijala. Po Lipanech chtěli umírnění, kteří teď zemi vedli, dohodu mnohem víc, než ji kdy chtěla polní vojska, a do vyjednávání se zapojil i Zikmund, který chtěl svou korunu. Trvalo to přes dva roky, v Řezně, Basileji, Brně a Stoličném Bělehradě, a skončilo to v létě 1436 v Jihlavě. Výsledek se nazývá basilejská kompaktáta.\n\nNa papíře [[link:the-four-articles-of-prague-1420]]čtyři pražské artikuly[[/link]] přežily. Ve skutečnosti přežil opravdu jen jeden. Církev dovolila lidem v Čechách a na Moravě přijímat [[link:what-is-utraquism-1414]]pod obojí způsobou[[/link]], chléb i víno, pokud si to přáli, a zároveň trvala na tom, že i ten druhý způsob je stejně platný. To bylo jádro dohody a bylo to skutečné vítězství: praxe, kterou kostnický koncil odsoudil jako kacířství, byla nyní povolena, alespoň v jednom království. Ostatní tři artikuly, o svobodném kázání, trestání hříchů a církevním majetku, se vrátily zabalené do tolika výhrad, „podle zákona božího“ a „těmi, jimž to náleží“, že se do nich dalo vyčíst skoro cokoli.\n\nČechové chtěli také vlastního arcibiskupa a v říjnu 1435 zvolil český sněm [[link:prague-dismisses-its-prince-1427]]Jana Rokycanu[[/link]] pražským arcibiskupem. Zikmund slíbil, že se postará o jeho potvrzení. Papež ho nikdy nepotvrdil a Rokycana, nejslavnější duchovní v zemi, zemřel roku 1471 jako zvolený arcibiskup, který nikdy nepřijal svěcení. [[b]]Kompaktáta dala Čechům kalich, ale ne církev, kterou by Řím uznal.[[/b]]\n\nŘím nikdy neratifikoval ani samotná kompaktáta. Podle papežů neměl koncil vůbec právo takovou dohodu uzavřít a roku 1462 je papež Pius II. formálně prohlásil za neplatná. Než se stal papežem, byl Pius II. [[link:undefeated-until-the-plague-1424]]Enea Silvio Piccolomini[[/link]], spisovatel, který Evropě vyprávěl o Žižkově bubnu. V Čechách si toho nikdo moc nevšímal. Čechové dál přijímali pod obojí a kompaktáta považovali za zemský zákon ještě přes sto let.",
+      zh: "在巴塞尔开始的谈判，其实从来没有真正停过，利帕尼之战也没让它停下来。早在1433年11月，公会议派驻布拉格的使节就拿出了第一份草案，双方握手为定，但谁也没有完全接受。利帕尼之后，掌权的温和派比当年的野战军更想达成协议，一心想要王冠的西吉斯蒙德也加入了讨价还价。谈判前后又拖了两年多，辗转雷根斯堡、巴塞尔、布尔诺和塞克什白堡，直到1436年夏天才在伊赫拉瓦画上句号。这份结果，就是《巴塞尔协定》。\n\n纸面上，[[link:the-four-articles-of-prague-1420]]布拉格四条款[[/link]]都保住了。实际上，真正保住的只有一条。教会允许波希米亚和摩拉维亚的民众[[link:what-is-utraquism-1414]]饼酒兼领[[/link]]，前提是他们本人愿意，同时坚持另一种领法同样有效。这是整份协定的核心，也是一场实打实的胜利：一种被康斯坦茨公会议定为异端的做法，如今获得了许可，至少在一个王国里是这样。另外三条，关于自由布道、惩治罪恶和教会财产，回来时已经裹上了一层又一层的限定语，“依照上帝的律法”“由有权执掌此事者执行”，几乎怎么解释都说得通。\n\n捷克人还想要一位自己的大主教。1435年10月，波希米亚议会选举[[link:prague-dismisses-its-prince-1427]]扬·罗基察纳[[/link]]为布拉格大主教，西吉斯蒙德答应会让他获得确认。教皇始终没有确认。罗基察纳是全国最有名的神职人员，1471年去世时，仍然只是一位当选而从未祝圣的大主教。[[b]]《协定》给了捷克人圣杯，却没有给他们一个罗马承认的教会。[[/b]]\n\n罗马也从未批准过《协定》本身。在历任教皇看来，公会议根本无权签这种协议。1462年，教皇庇护二世正式宣布《协定》无效。庇护二世当上教皇之前，就是那位向全欧洲讲述杰式卡战鼓故事的作家[[link:undefeated-until-the-plague-1424]]埃涅阿斯·西尔维乌斯·皮科洛米尼[[/link]]。在波希米亚，没什么人把这当回事。捷克人照旧饼酒兼领，并把《协定》当作本国的法律，又沿用了一百多年。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Basilejsk%C3%A1_kompakt%C3%A1ta",
+  },
+  {
+    slug: "sixteen-years-late-1436",
+    era: "religious-turmoil",
+    startYear: 1436.55,
+    year: {
+      en: "July–August 1436",
+      cz: "Červenec–srpen 1436",
+      zh: "1436年7月至8月",
+    },
+    tone: "humorous",
+    title: {
+      en: "Sixteen Years Late",
+      cz: "O šestnáct let později",
+      zh: "迟到了十六年",
+    },
+    hookLine: {
+      en: "Sigismund had been crowned King of Bohemia in 1420. In 1436 the Czechs finally let him in.",
+      cz: "Zikmund byl korunován českým králem roku 1420. Roku 1436 ho Čechové konečně pustili dovnitř.",
+      zh: "西吉斯蒙德1420年就加冕成了波希米亚国王。到了1436年，捷克人才终于放他进门。",
+    },
+    summary: {
+      en: "Sigismund had been crowned in St Vitus Cathedral in 1420, [[link:a-city-only-half-free-1420]]in a hurry[[/link]], while half of Prague was shooting at him. He had spent the sixteen years since trying to collect the kingdom that came with the crown: four crusades, one after another, then years of negotiation. In the summer of 1436 he finally got it, by signing things.\n\nOn 5 July 1436, on the market square of Jihlava in Moravia, the Compacts were read out in Czech and Latin before the emperor, the envoys of the council and the estates of Bohemia and Moravia, and solemnly sealed. Then came the second half of the bargain. The Czech estates set out their terms for accepting Sigismund as king, and he agreed to them: he confirmed the Compacts and the old rights and privileges of the kingdom, and promised, among much else, to see Rokycana confirmed as archbishop. [[b]]After sixteen years of refusing every Hussite demand, Sigismund accepted most of them within a few weeks, and would spend the next year showing how much he had meant it.[[/b]]\n\nOn 14 August the estates formally received him as their king in a ceremony on the square at Jihlava. On 18 August he set off for Prague, by way of Čáslav, Kutná Hora and Český Brod, a road that ran within a few kilometres of the battlefield of Lipany. On 23 August 1436, with his wife Barbara beside him, he rode in through St Peter's Gate of the New Town to a jubilant welcome. It was the same New Town that had thrown its councillors out of the window to start the war against him.\n\nSigismund was sixty-eight. He had first been promised the Bohemian crown as a boy, had watched his brother Wenceslas struggle to keep it, and had spent most of his adult life fighting for it. He moved into the King's Court beside the Powder Gate, the royal residence his brother had built in the Old Town, and settled down to being king at last.",
+      cz: "Zikmund byl korunován v chrámu svatého Víta roku 1420, [[link:a-city-only-half-free-1420]]v chvatu[[/link]] a ve chvíli, kdy po něm půlka Prahy střílela. Následujících šestnáct let se snažil zmocnit království, které ke koruně patřilo: čtyři křížové výpravy jedna za druhou, pak léta vyjednávání. V létě 1436 ho konečně získal, a to tím, že podepisoval.\n\n5. července 1436 byla na náměstí v Jihlavě na Moravě česky a latinsky přečtena kompaktáta před císařem, vyslanci koncilu a stavy Čech a Moravy a slavnostně zpečetěna. Pak přišla druhá polovina obchodu. Čeští stavové předložili podmínky, za nichž Zikmunda přijmou za krále, a on na ně přistoupil: potvrdil kompaktáta i stará práva a výsady království a slíbil mimo jiné, že se postará o Rokycanovo potvrzení za arcibiskupa. [[b]]Po šestnácti letech, kdy odmítal každý husitský požadavek, přijal Zikmund většinu z nich během několika týdnů, a příští rok pak předváděl, jak vážně to myslel.[[/b]]\n\n14. srpna ho stavové na jihlavském náměstí slavnostně přijali za krále. 18. srpna se vydal do Prahy přes Čáslav, Kutnou Horu a Český Brod, cestou, která vedla jen pár kilometrů od lipanského bojiště. 23. srpna 1436 vjel s manželkou Barborou po boku branou svatého Petra na Novém Městě za jásotu obyvatel. Bylo to totéž Nové Město, které válku proti němu zahájilo tím, že vyhodilo své konšely z okna.\n\nZikmundovi bylo šedesát osm let. Českou korunu mu slíbili už jako chlapci, díval se, jak ji jeho bratr Václav jen těžko udržuje, a většinu dospělého života o ni bojoval. Nastěhoval se do Králova dvora u Prašné brány, královského sídla, které jeho bratr postavil na Starém Městě, a konečně se usadil jako král.",
+      zh: "西吉斯蒙德早在1420年就在圣维特大教堂加冕了，不过那次[[link:a-city-only-half-free-1420]]加冕得匆匆忙忙[[/link]]，半个布拉格还在朝他开火。此后十六年，他一直想把王冠附带的那个王国真正弄到手：一次接一次的十字军，一共四次，然后是好几年的谈判。1436年夏天，他终于如愿以偿，靠的是签字。\n\n1436年7月5日，在摩拉维亚伊赫拉瓦的广场上，当着皇帝、公会议使节和波希米亚、摩拉维亚各等级的面，《协定》用捷克文和拉丁文宣读了一遍，然后郑重盖印。接下来是这笔交易的后半截：捷克各等级开出了接受西吉斯蒙德为王的条件，他一一答应，确认了《协定》和王国原有的各项权利与特权，还承诺了许多别的事，其中包括让罗基察纳获得大主教的正式确认。[[b]]十六年来，胡斯派提什么要求他都拒绝；这一回，他几个星期就答应了大半，然后用接下来的一年，向大家展示他到底有多少诚意。[[/b]]\n\n8月14日，各等级在伊赫拉瓦广场上举行仪式，正式接受他为国王。8月18日，他启程前往布拉格，途经恰斯拉夫、库特纳霍拉和捷克布罗德，这条路离利帕尼战场只有几公里远。1436年8月23日，他携王后芭芭拉，从新城的圣彼得门进城，受到了市民的热烈欢迎。当年为了反抗他，把议员扔出窗外、掀起这场战争的，正是这座新城。\n\n这一年，西吉斯蒙德六十八岁。他还是个孩子的时候，就有人许给他波希米亚王冠；他眼看着哥哥瓦茨拉夫费尽力气也保不住它，自己又为它打了大半辈子的仗。他住进了火药门旁的国王宫，那是他哥哥在老城修建的王室府邸，总算安安稳稳地当上了国王。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "jihlava",
+        relation: {
+          en: "Where the Compacts of Basel were proclaimed on 5 July 1436, and where the Czech estates received Sigismund as king on 14 August.",
+          cz: "Zde byla 5. července 1436 vyhlášena basilejská kompaktáta a 14. srpna tu čeští stavové přijali Zikmunda za krále.",
+          zh: "1436年7月5日，《巴塞尔协定》在这里宣布生效；8月14日，捷克各等级也在这里接受西吉斯蒙德为国王。",
+        },
+      },
+      {
+        slug: "kostel-sv-petra-na-porici",
+        relation: {
+          en: "The church beside the New Town's St Peter's Gate, through which Sigismund finally rode into Prague on 23 August 1436.",
+          cz: "Kostel u svatopetrské brány Nového Města, kterou Zikmund 23. srpna 1436 konečně vjel do Prahy.",
+          zh: "新城圣彼得门旁的教堂。1436年8月23日，西吉斯蒙德终于从这座城门进入了布拉格。",
+        },
+      },
+      {
+        slug: "municipal-house",
+        relation: {
+          en: "Built on the site of the King's Court, where Sigismund lived during his single year as king in Prague.",
+          cz: "Stojí na místě Králova dvora, kde Zikmund bydlel během svého jediného roku jako král v Praze.",
+          zh: "建在当年国王宫的旧址上。西吉斯蒙德在布拉格当国王的那短短一年，就住在国王宫里。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Zikmund_Lucembursk%C3%BD",
+  },
+  {
+    slug: "a-crown-for-a-year-1437",
+    era: "religious-turmoil",
+    startYear: 1436.8,
+    year: {
+      en: "August 1436 – summer 1437",
+      cz: "Srpen 1436 – léto 1437",
+      zh: "1436年8月至1437年夏",
+    },
+    tone: "humorous",
+    title: {
+      en: "A King at Last, Briefly",
+      cz: "Konečně král, jen nakrátko",
+      zh: "王冠只戴了一年",
+    },
+    hookLine: {
+      en: "Sigismund had promised the Czechs almost everything. He then spent a year taking it back, one church at a time.",
+      cz: "Zikmund slíbil Čechům skoro všechno. Pak strávil rok tím, že to kostel po kostelu bral zpátky.",
+      zh: "西吉斯蒙德几乎答应了捷克人的一切。接下来的一年，他一座教堂接一座教堂地往回收。",
+    },
+    summary: {
+      en: "The emperor set up court in the King's Court and chose as his court church St James in the Old Town, where he saw personally to the return of the Franciscan friars. Catholic priests reappeared in Prague's churches, monasteries began to reclaim their property, and exiles who had fled the city in the 1420s came home. The confirmation of Rokycana as archbishop, which Sigismund had promised, never came. Instead Rokycana lost his parish at the Týn church, and in June 1437, fearing for his life, he slipped out of Prague and took refuge in Hradec Králové. He would not be back for more than a decade.\n\nTábor, meanwhile, had run out of armies. After Lipany its remaining forces were beaten again at Křeč in August 1435, this time by the troops of [[link:who-was-oldrich-of-rozmberk-1434]]Oldřich of Rožmberk[[/link]], and the city came to terms with the king. In 1437 Sigismund made [[link:the-rise-of-tabor-1419]]Tábor[[/link]], the town the radicals had founded on a hill to wait for the end of the world, a royal town with privileges of its own. The end of the world had not arrived, and a royal charter was the next best thing.\n\nNot everyone was reconciled. Hradec Králové, under its radical priest Ambrož, held out against the king until the spring of 1437. And one old captain would not come to terms at all. [[link:orphans-grow-up-fast-1425]]Jan Roháč of Dubá[[/link]], captured at Lipany and released a few weeks later, had tried and failed to lead what was left of Tábor. In the autumn of 1435 he withdrew to his castle of Sion near Kutná Hora and carried on a small private war against the king, raiding the royal estates. [[b]]Sigismund could put up with a great deal, but not with an old Hussite in a castle stealing from him.[[/b]] In February 1437 the diet called out the land levy against Sion.\n\nThe emperor was old and ill, and Bohemia had begun to notice how little of what he had signed he meant to keep. Among the moderate Utraquists who had made him king, the grumbling grew louder by the month.",
+      cz: "Císař usadil svůj dvůr v Králově dvoře a za dvorský kostel si vybral svatého Jakuba na Starém Městě, kam osobně prosadil návrat františkánů. Do pražských kostelů se vraceli katoličtí kněží, kláštery začaly vymáhat zpět svůj majetek a domů se vraceli exulanti, kteří z města utekli ve dvacátých letech. Rokycanovo potvrzení za arcibiskupa, které Zikmund slíbil, nepřišlo. Rokycana naopak přišel o faru u Týnského chrámu a v červnu 1437 se ze strachu o život potají vytratil z Prahy a uchýlil se do Hradce Králové. Vrátit se měl až za víc než deset let.\n\nTábor mezitím došla vojska. Po Lipanech byly jeho zbylé síly v srpnu 1435 znovu poraženy u Křeče, tentokrát vojskem [[link:who-was-oldrich-of-rozmberk-1434]]Oldřicha z Rožmberka[[/link]], a město se s králem dohodlo. Roku 1437 udělal Zikmund z [[link:the-rise-of-tabor-1419]]Tábora[[/link]], města, které radikálové založili na kopci, aby tam čekali na konec světa, královské město s vlastními výsadami. Konec světa nepřišel, a královská listina byla nejlepší náhradou.\n\nNe všichni se smířili. Hradec Králové pod vedením radikálního kněze Ambrože se králi bránil až do jara 1437. A jeden starý hejtman se nedohodl vůbec. [[link:orphans-grow-up-fast-1425]]Jan Roháč z Dubé[[/link]], zajatý u Lipan a za několik týdnů propuštěný, se marně pokusil vést to, co z Tábora zbylo. Na podzim 1435 se uchýlil na svůj hrad Sion u Kutné Hory a vedl odtud malou soukromou válku proti králi, pustošil královské statky. [[b]]Zikmund dokázal snést leccos, ale ne starého husitu na hradě, který ho okrádá.[[/b]] V únoru 1437 svolal sněm proti Sionu zemskou hotovost.\n\nCísař byl starý a nemocný a Čechy si začaly všímat, jak málo z toho, co podepsal, hodlá dodržet. Mezi umírněnými kališníky, kteří ho udělali králem, sílilo reptání měsíc od měsíce.",
+      zh: "皇帝把朝廷安在国王宫，选了老城的圣雅各教堂做宫廷教堂，还亲自安排方济各会修士回到那里。天主教神父重新出现在布拉格的各个教堂里，修道院开始讨回自己的产业，20年代逃离布拉格的流亡者也陆续回家。西吉斯蒙德答应过的罗基察纳大主教的正式确认，始终没有下文。罗基察纳反而丢掉了泰恩教堂的堂区神父职位，1437年6月，他担心性命不保，悄悄离开布拉格，躲到了赫拉德茨-克拉洛韦。这一走就是十多年。\n\n与此同时，塔博尔已经没有军队了。利帕尼之后，它残余的部队又在1435年8月的克热奇之战中被打败，这一次打败他们的是[[link:who-was-oldrich-of-rozmberk-1434]]罗日姆贝克的奥尔德日赫[[/link]]的人马，塔博尔城只好和国王讲和。1437年，西吉斯蒙德把[[link:the-rise-of-tabor-1419]]塔博尔[[/link]]，这座激进派当年建在山头上、专门用来等待世界末日的城市，升格为享有特权的王室城市。世界末日没有来，一纸王室特许状，也算退而求其次了。\n\n并不是所有人都认了命。赫拉德茨-克拉洛韦在激进派神父安布罗日的带领下，一直顶到了1437年春天。还有一位老指挥官，压根就不肯讲和。[[link:orphans-grow-up-fast-1425]]杜巴的扬·罗哈奇[[/link]]在利帕尼被俘，几周后获释，想领导塔博尔的残部，没能成功。1435年秋天，他退守到库特纳霍拉附近自己的锡永城堡，从那里对国王打起了一场小小的私人战争，专门袭扰王室领地。[[b]]西吉斯蒙德什么都能忍，就是忍不了一个待在城堡里偷他东西的老胡斯派。[[/b]]1437年2月，议会下令征召全国民兵，讨伐锡永。\n\n皇帝老了，身体也不好，波希米亚人也开始发现，他签过的东西，他打算兑现的少得可怜。在当初把他扶上王位的温和圣杯派当中，抱怨声一个月比一个月大。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "kostel-sv-jakuba-stare-mesto",
+        relation: {
+          en: "Sigismund's court church during his year as king in Prague, where he brought back the Franciscan friars.",
+          cz: "Zikmundův dvorský kostel během jeho roku v Praze, kam přivedl zpět františkány.",
+          zh: "西吉斯蒙德在布拉格当国王那一年的宫廷教堂，他把方济各会修士请回了这里。",
+        },
+      },
+      {
+        slug: "tyn-church",
+        relation: {
+          en: "Jan Rokycana's parish church, which he lost under Sigismund before fleeing Prague in 1437.",
+          cz: "Farní kostel Jana Rokycany, o který za Zikmunda přišel, než roku 1437 uprchl z Prahy.",
+          zh: "扬·罗基察纳的堂区教堂。他在西吉斯蒙德治下丢掉了这里的职位，1437年逃离了布拉格。",
+        },
+      },
+      {
+        slug: "tabor",
+        relation: {
+          en: "Founded by the radicals to await the end of the world, and made a royal town by Sigismund in 1437.",
+          cz: "Radikálové ho založili, aby čekali na konec světa; roku 1437 z něj Zikmund udělal královské město.",
+          zh: "激进派为了等待世界末日而建的城市，1437年被西吉斯蒙德升格为王室城市。",
+        },
+      },
+      {
+        slug: "hradec-kralove",
+        relation: {
+          en: "The last Utraquist town to hold out against Sigismund, and where Rokycana took refuge after fleeing Prague in 1437.",
+          cz: "Poslední kališnické město, které se Zikmundovi bránilo, a útočiště Rokycany po jeho útěku z Prahy roku 1437.",
+          zh: "最后一座抵抗西吉斯蒙德的圣杯派城市，也是罗基察纳1437年逃离布拉格后的避难所。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Jan_Rokycana",
+  },
+  {
+    slug: "the-last-man-on-sion-1437",
+    era: "religious-turmoil",
+    startYear: 1437.7,
+    year: {
+      en: "May–September 1437",
+      cz: "Květen–září 1437",
+      zh: "1437年5月至9月",
+    },
+    tone: "serious",
+    title: {
+      en: "The Last Man on Sion",
+      cz: "Poslední muž na Sionu",
+      zh: "最后一个不肯低头的人",
+    },
+    hookLine: {
+      en: "Jan Roháč had fought beside Žižka from the start. When the war was over, he was the last Hussite captain still fighting it.",
+      cz: "Jan Roháč bojoval po Žižkově boku od samého začátku. Když válka skončila, byl posledním husitským hejtmanem, který ji ještě vedl.",
+      zh: "扬·罗哈奇从一开始就跟着杰式卡打仗。战争结束的时候，他是最后一个还在打的胡斯派指挥官。",
+    },
+    summary: {
+      en: "The royal army reached Sion early in May 1437, shortly after Roháč's men had ambushed a convoy from Hungary and relieved the king of a good many oxen and barrels of wine. Its commander was the court steward Hynce Ptáček of Pirkštejn, and one chronicle says that Roháč was his uncle. The garrison was a few dozen men, reinforced by refugees from Hradec Králové. The chroniclers describe a long and bitter siege. The archaeologists who excavated Sion in the 1960s found something rather different: about a hundred stone balls, no breach in the walls and no mines, and signs that the garrison had gone on fetching water from the stream below all summer. Ptáček seems to have been in no hurry.\n\nThe hurry came from Hungary. At the beginning of September the king's Hungarian reinforcements arrived, and on 6 September 1437 the castle was stormed. Aeneas Silvius Piccolomini, who wrote up the story a few years later, says the attackers waited for a wind that would blow their gun smoke into the castle, and that Roháč was at his midday meal when they came over the rampart:\n\n[[quote:0]]\n\nRoháč was taken to Prague. Sigismund, it is said, had him brought up to the castle so that he could mock him, and Roháč shouted that he would rather have his eyes put out than look at the king. He was tortured in the Old Town Hall. On Monday 9 September 1437 he was hanged together with the other defenders of Sion. He was led to the gallows in a red robe with a gilded belt and gilded chains, and his five chief companions were dressed in red as well; the rest went in rusty irons. The carpenters built the gallows from timber that had been stacked on the Old Town Square for the new roof of the Týn church.\n\nThree months later, on 9 December 1437, Sigismund died at Znojmo, the last of the Luxembourg kings of Bohemia. A war that had begun with [[link:the-first-defenestration-1419]]seven councillors[[/link]] thrown from a New Town window ended, eighteen years later, with a Hussite captain on a gallows built from church timber. [[b]]The field armies had lost, the moderates had made their peace, and the chalice had outlived them all.[[/b]] The idealists had done most of the dying and the realists had written the treaty, but the Czechs came out of it holding the one thing the whole of Catholic Europe had tried to take from them.",
+      cz: "Královské vojsko dorazilo k Sionu začátkem května 1437, krátce poté, co Roháčovi muži přepadli konvoj z Uher a ulehčili králi o spoustu volů a sudů vína. Velel mu dvorský hofmistr Hynce Ptáček z Pirkštejna a podle jednoho letopisu byl Roháč jeho strýcem. Posádku tvořilo několik desítek mužů, posílených o uprchlíky z Hradce Králové. Kronikáři líčí dlouhé a tvrdé obléhání. Archeologové, kteří Sion v šedesátých letech zkoumali, našli něco dost jiného: asi sto kamenných koulí, žádný průlom hradeb ani podkopy a stopy toho, že posádka celé léto chodila pro vodu k potoku pod hradem. Ptáček zřejmě nikam nespěchal.\n\nSpěch přišel z Uher. Začátkem září dorazily královy uherské posily a 6. září 1437 byl hrad dobyt útokem. Enea Silvio Piccolomini, který příběh o několik let později sepsal, píše, že útočníci čekali na vítr, který by jim zanesl dým z děl do hradu, a že Roháč právě obědval, když se přes val vyhoupli:\n\n[[quote:0]]\n\nRoháče odvezli do Prahy. Zikmund si ho prý nechal přivést na hrad, aby se mu vysmál, a Roháč křičel, že by si raději nechal vypíchnout oči, než aby se na krále díval. Na Staroměstské radnici ho mučili. V pondělí 9. září 1437 byl oběšen spolu s ostatními obránci Sionu. K šibenici ho vedli v červeném rouchu s pozlaceným pásem a v pozlacených poutech a do červeného oblékli i pět jeho nejpřednějších druhů; ostatní šli v rezavých okovech. Tesaři postavili šibenici ze dřeva, které leželo na Staroměstském náměstí připravené na nový krov Týnského chrámu.\n\nO tři měsíce později, 9. prosince 1437, zemřel ve Znojmě Zikmund, poslední z lucemburských králů na českém trůně. Válka, která začala [[link:the-first-defenestration-1419]]sedmi konšely[[/link]] vyhozenými z okna novoměstské radnice, skončila o osmnáct let později husitským hejtmanem na šibenici z kostelního dřeva. [[b]]Polní vojska prohrála, umírnění uzavřeli mír a kalich je přežil všechny.[[/b]] Idealisté většinou umírali a realisté psali smlouvy, ale Čechové z toho všeho vyšli s tím jediným, co jim celá katolická Evropa chtěla vzít.",
+      zh: "1437年5月初，王室军队开到了锡永城下，就在不久前，罗哈奇的人刚截下一支从匈牙利来的车队，替国王“笑纳”了一大批牛和成桶的葡萄酒。领兵的是宫廷总管皮尔克什泰因的欣采·普塔切克，据一部编年史记载，罗哈奇还是他的舅舅。城里的守军只有几十个人，外加从赫拉德茨-克拉洛韦逃来的一些人。编年史家笔下，这是一场漫长而艰苦的围城。可是20世纪60年代发掘锡永的考古学家发现的却是另一回事：城里大约只有一百枚石弹，城墙没有被轰开，也没有挖过地道，而且种种迹象表明，守军整个夏天都照常下山到小溪边打水。普塔切克看来一点也不着急。\n\n着急的是匈牙利人。9月初，国王的匈牙利援军赶到，1437年9月6日，城堡被攻破了。几年后把这段故事写下来的埃涅阿斯·西尔维乌斯·皮科洛米尼说，进攻者专门等了一阵风，好把炮火的硝烟吹进城里；他们翻过土墙时，罗哈奇正在吃午饭：\n\n[[quote:0]]\n\n罗哈奇被押到了布拉格。据说西吉斯蒙德特意让人把他带到城堡，好当面羞辱他，罗哈奇却大喊：宁可让人挖掉双眼，也不愿看国王一眼。他在老城市政厅里受了酷刑。1437年9月9日星期一，他和锡永的其他守军一起被绞死。上绞架时，他被穿上一身红袍，系着镀金腰带，戴着镀金镣铐；他手下五名主要的伙伴也都穿上了红衣，其余的人戴着生锈的铁镣。木匠们搭绞架用的木料，是原本堆在老城广场上、准备给泰恩教堂做新屋顶的。\n\n三个月后，1437年12月9日，西吉斯蒙德在兹诺伊莫去世，他是卢森堡王朝的最后一位波希米亚国王。一场以[[link:the-first-defenestration-1419]]七名议员[[/link]]被扔出新城市政厅窗外开场的战争，十八年后，以一位胡斯派指挥官吊死在教堂木料搭成的绞架上收场。[[b]]野战军输了，温和派讲和了，而圣杯比他们所有人都活得更久。[[/b]]死去的大多是理想主义者，写条约的是现实主义者，可捷克人最终还是守住了整个天主教欧洲都想从他们手里夺走的那样东西。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "Roháč happened to be at his meal; the few who were on the walls raised the alarm. There was an uproar, and from every side men ran to defend the rampart. Roháč too left his food, seized his weapons and hurried from the castle to help his men… As he hastened to get back into the castle, he was cut off and taken.",
+          cz: "Roháč tehdy náhodou obědval; málokteří dlící na zdech strhli pokřik. Nastal hluk, a se všech stran sbíhali se k obhájení valu. Také Roháč, zanechav jídla a chopiv se zbraně, přichvátal z hradu svým na pomoc… Roháč pospíchaje vrátiti se do hradu, byl zaskočen a zajat.",
+          zh: "罗哈奇当时恰好在吃饭；城墙上寥寥几个人喊了起来。一片喧哗之中，四面八方的人都跑去守卫土墙。罗哈奇也丢下饭，抄起武器，从城堡里赶出来援救他的人……他急着想退回城堡时，被截住俘虏了。",
+        },
+        attribution: {
+          en: "Aeneas Silvius Piccolomini, History of Bohemia (from the Czech translation)",
+          cz: "Enea Silvio Piccolomini, Historie česká (v českém překladu)",
+          zh: "埃涅阿斯·西尔维乌斯·皮科洛米尼《波希米亚史》（据捷克文译本）",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "zricenina-hradu-sion",
+        relation: {
+          en: "Jan Roháč's castle, besieged from May 1437 and stormed on 6 September. Only foundations remain today.",
+          cz: "Hrad Jana Roháče, obléhaný od května 1437 a dobytý útokem 6. září. Dnes z něj zbývají jen základy.",
+          zh: "扬·罗哈奇的城堡，1437年5月起被围，9月6日被攻破，如今只剩下地基。",
+        },
+      },
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "Where Roháč was tortured before his execution in September 1437.",
+          cz: "Zde byl Roháč před popravou v září 1437 mučen.",
+          zh: "1437年9月罗哈奇被处决前，在这里受了酷刑。",
+        },
+      },
+      {
+        slug: "old-town-square",
+        relation: {
+          en: "Where the timber for Roháč's gallows was taken from, stacked here for the new roof of the Týn church; it may also have been where he was hanged.",
+          cz: "Odtud pocházelo dřevo na Roháčovu šibenici, složené tu pro nový krov Týnského chrámu; možná tu byl i oběšen.",
+          zh: "绞死罗哈奇的绞架，用的就是堆在这里、原本要给泰恩教堂做屋顶的木料；他或许也是在这里被绞死的。",
+        },
+      },
+      {
+        slug: "znojmo",
+        relation: {
+          en: "Where Sigismund, the last Luxembourg king of Bohemia, died on 9 December 1437, three months after Roháč.",
+          cz: "Zde 9. prosince 1437 zemřel Zikmund, poslední lucemburský král na českém trůně, tři měsíce po Roháčovi.",
+          zh: "1437年12月9日，卢森堡王朝最后一位波希米亚国王西吉斯蒙德在这里去世，比罗哈奇晚了三个月。",
+        },
+      },
+      {
+        slug: "hvezda-game-reserve",
+        relation: {
+          en: "Home to Alois Sopr's statue of Jan Roháč of Dubá, one of the few monuments in Prague to the last Hussite captain.",
+          cz: "Stojí tu socha Jana Roháče z Dubé od Aloise Sopra, jedna z mála pražských připomínek posledního husitského hejtmana.",
+          zh: "这里有阿洛伊斯·索普尔创作的杜巴的扬·罗哈奇雕像，是布拉格少有的几处纪念这位最后的胡斯派指挥官的地方之一。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Jan_Roh%C3%A1%C4%8D_z_Dub%C3%A9",
+  },
 ];
 
 async function run() {
