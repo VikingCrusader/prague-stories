@@ -141,16 +141,27 @@ html[data-lang="zh"] .history-sidebar__era-title {
   font-size: 19px !important;
   font-weight: 700 !important;
 }
+/* Era divider titles and the page header (title + intro) got the same
+   serif swap 2026-09-30 so the whole History page matches its body copy;
+   sizes bumped so the hierarchy stays header > era divider > event title
+   (26px). */
 html[data-lang="zh"] .history-era-divider__title {
-  font-size: 24px !important;
+  font-family: "Noto Serif SC", "Noto Serif TC", serif !important;
+  font-size: 28px !important;
   font-weight: 700 !important;
 }
-/* The page-level "城史时间轴" heading should read slightly bigger than
-   every era's own big divider title (24px above) — scoped to
-   .history-header so this doesn't bump .px-title's size on every other
-   page that reuses the class (Guide, Explore, etc.). */
+/* Scoped to .history-header so this doesn't touch .px-title / .guide-intro
+   on every other page that reuses those classes (Guide, Explore, etc.). */
 html[data-lang="zh"] .history-header .px-title {
-  font-size: 26px !important;
+  font-family: "Noto Serif SC", "Noto Serif TC", serif !important;
+  font-size: 32px !important;
+  font-weight: 700 !important;
+}
+html[data-lang="zh"] .history-header .guide-intro {
+  font-family: "LXGW WenKai TC", "Noto Serif SC", "Noto Serif TC", serif !important;
+  font-style: normal;
+  font-size: 17px;
+  letter-spacing: 0;
 }
 html[data-lang="zh"] .navbar__logo {
   font-size: 17px !important;
@@ -406,9 +417,8 @@ html:not([data-lang="zh"]) .history-event__summary {
    project_history_timeline_ui_fixes) as already correct, so this is a
    pure typeface trial layered on top of it, not a re-tune. Titles
    (.history-event__title, .history-sidebar__era-title,
-   .history-era-divider__title) are NOT touched here — those stay on
-   ArkPixel/Press Start 2P per the existing zh override block above,
-   unrelated to this experiment. */
+   .history-era-divider__title) are NOT touched here — they have their
+   own serif rules in the zh override block above. */
 html[data-lang="zh"] .history-event__hook,
 html[data-lang="zh"] .history-event__summary,
 html[data-lang="zh"] .history-event__quote-text,

@@ -32257,6 +32257,86 @@ Pozdější majitelé pro něj neměli velké využití a roku 1581 se v pramene
 🎁 彩蛋：抹掉锡永的最后一次认真尝试，不是在1437年，而是在1870年。奥匈折衷方案之后那几年，捷克爱国者开始在各处历史遗迹举行大型露天民族集会。当地的领主卡尔·达尔贝格-奥斯泰因伯爵很不乐意看到一群群人聚集在一个胡斯派叛乱者的城堡里，于是下令拆掉了剩下的主要残墙。结果适得其反：爱国者照来不误，考古学家也跟着来了，锡永今天的名气，比过去几百年里任何时候都大。`,
     },
   },
+  {
+    // Added 2026-09-30 at the user's request (coordinates user-supplied).
+    // Sources: trhynakulataku / prague.eu (since 2010, one of the largest
+    // farmers' markets in the country, Saturdays March–December 8:00–14:00,
+    // then Advent markets; Festival of Embassies in June, small breweries
+    // festival in autumn; organisers Prague 6 + the Farmářské trhy
+    // association), kudyznudy.cz (first market 10 April 2010 in the small
+    // park by the square, every 14 days, ~15,000 at the premiere; square
+    // laid out by Antonín Engel from 1925, horseshoe plan never completed
+    // because of the 1930s crisis and the war, Lenin statue removed after
+    // 1989, metro A terminus until 2015, Benthem Crouwel + Hnilička redesign
+    // planned for ~2028/29). Rarity 'rare' is my own pick.
+    name: 'Kulaťák Farmers\' Market',
+    slug: 'farmarske-trhy-na-kulataku',
+    localizedNames: { cz: 'Farmářské trhy na Kulaťáku', zh: '胜利广场农夫市集' },
+    labels: ['square', 'restaurants-and-cafes', 'modern'],
+    coordinates: { lat: 50.101505785592515, lng: 14.393737900534429 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Every Saturday morning, a small park on the edge of Prague's busiest roundabout fills up with stalls of cheese, sausages, honey, bread and whatever vegetables happen to be in season. By ten o'clock half of Dejvice is here, queueing for coffee with a bag of carrots in one hand. By two it's all gone again.
+
+The square the market belongs to is Victory Square, which everyone in Prague calls Kulaťák, "the round one". Only the traffic circle in the middle is actually round. In 1925 the architect Antonín Engel designed the square as the centre of a brand new Dejvice, a grand horseshoe of stately buildings with four avenues running into it, and he worked on it for years. The economic crisis of the 1930s and then the war stopped construction, and the square was never finished. During the communist era a statue of Lenin stood here. After 1989 its pedestal stayed empty for years before flowers were planted in its place. From 1978 until 2015 the station below was the end of metro line A, so for decades this was where a large part of the city got off and changed to trams and buses. The farmers' market arrived on 10 April 2010. At first it was held every other Saturday in the little park by the square, and around 15,000 people came to the very first one. Today, organised by the Prague 6 district together with a farmers' market association, it runs every Saturday from March to December, from 8 am to 2 pm, and in December it turns straight into an Advent market. It is one of the largest farmers' markets in the country. The organisers give priority to Czech growers and producers from all over the country, alongside a few stalls of foreign delicacies, and the regulars will tell you to come early, before the best tomatoes and the shortest queues disappear. In autumn the market also hosts a festival of small breweries.
+
+🎁 Bonus: Dejvice and neighbouring Bubeneč are Prague's embassy quarter, and once a year, in June, the diplomats come to the market too. The Festival of Embassies is billed as the largest international street food festival in the country, and the stalls are run by embassies, honorary consulates and chambers of commerce, each cooking its own national food. It may be the only day of the year when you can queue behind a diplomat for a sausage.`,
+
+      cz: `Každou sobotu dopoledne se malý park na okraji nejrušnějšího pražského kruhového objezdu zaplní stánky se sýry, klobásami, medem, chlebem a zeleninou, jaká zrovna roste. V deset je tu půlka Dejvic a stojí frontu na kávu s taškou mrkve v ruce. Ve dvě je zase všechno pryč.
+
+Náměstí, ke kterému trh patří, je Vítězné náměstí, kterému celá Praha říká Kulaťák. Kulatý je ve skutečnosti jen kruhový objezd uprostřed. Roku 1925 ho architekt Antonín Engel navrhl jako střed zbrusu nových Dejvic, velkolepou podkovu reprezentativních budov, do níž ústí čtyři třídy, a pracoval na něm celé roky. Hospodářská krize 30. let a pak válka ale stavbu zastavily a náměstí nebylo nikdy dokončeno. Za komunistů tu stála socha Lenina. Po roce 1989 zůstal její podstavec roky prázdný, než na jeho místě vysadili květiny. Od roku 1978 do roku 2015 tu pod zemí končilo metro A, takže sem desítky let jezdila velká část města přestupovat na tramvaje a autobusy. Farmářský trh sem dorazil 10. dubna 2010. Zpočátku se konal každou druhou sobotu v parčíku u náměstí a na úplně první přišlo kolem 15 000 lidí. Dnes ho pořádá Praha 6 spolu se spolkem farmářských trhů a koná se každou sobotu od března do prosince, od 8 do 14 hodin, a v prosinci plynule přechází v trh adventní. Patří k největším farmářským trhům v republice. Pořadatelé dávají přednost českým pěstitelům a výrobcům z celé země, vedle nich tu je i pár stánků se zahraničními lahůdkami, a štamgasti vám poradí přijít brzy, než zmizí nejlepší rajčata a nejkratší fronty. Na podzim se tu navíc koná festival malých pivovarů.
+
+🎁 Bonus: Dejvice a sousední Bubeneč jsou pražskou čtvrtí velvyslanectví a jednou do roka, v červnu, přicházejí na trh i diplomati. Festival ambasád se označuje za největší mezinárodní street food festival v zemi a stánky tu mají velvyslanectví, honorární konzuláty a obchodní komory, každý se svým národním jídlem. Je to možná jediný den v roce, kdy můžete stát frontu na klobásu za diplomatem.`,
+
+      zh: `每到星期六上午，布拉格最繁忙的环岛旁边那座小公园里就会摆满摊位，卖奶酪、香肠、蜂蜜、面包，还有当季刚好长出来的各种蔬菜。十点钟，半个德伊维采的人都在这儿了，一手拎着一袋胡萝卜，一边排队买咖啡。到下午两点，一切又都收得干干净净。
+
+市集所在的这个广场叫胜利广场，但全布拉格的人都管它叫“圆圆”。其实真正是圆的，只有中间那个环岛。1925年，建筑师安东宁·恩格尔把这里设计成全新德伊维采城区的中心：一座宏伟的马蹄形广场，四周是气派的建筑，四条大道在此交汇。他为此忙了好多年，可是30年代的经济危机和随后的战争让工程停了下来，广场始终没有完工。共产党时期，这里立着一座列宁像。1989年以后，雕像的底座空了好几年，后来才在原地种上了花。从1978年到2015年，广场地下一直是地铁A线的终点站，几十年里，城里很大一部分人都在这里下车，换乘电车和公交车。农夫市集是2010年4月10日来到这里的。起初每隔一个星期六在广场边的小公园里开一次，第一次就来了大约一万五千人。如今它由布拉格6区和一个农夫市集协会共同主办，每年三月到十二月每个星期六都开，从早上八点到下午两点，到了十二月就直接变成圣诞市集。它是全国最大的农夫市集之一。主办方优先照顾来自全国各地的捷克种植户和生产者，旁边也有几个卖外国美食的摊位。老主顾会告诉你一定要早点来，不然最好的番茄和最短的队伍都没了。到了秋天，这里还会办一场小型啤酒厂节。
+
+🎁 彩蛋：德伊维采和隔壁的布贝内奇是布拉格的使馆区，每年六月，外交官们也会来赶集。“使馆节”号称全国最大的国际街头美食节，摊位由各国大使馆、名誉领事馆和商会经营，各自做自己国家的菜。这大概是一年里唯一一天，你能排在一位外交官后面买香肠。`,
+    },
+  },
+  {
+    // Added 2026-09-30 at the user's request (coordinates user-supplied).
+    // Sources: en.wikipedia (roots in the Prague Polytechnic, 1806, first
+    // courses in mathematics and chemistry incl. glass, metallurgy, dyes;
+    // 1920 School of Chemical Technology within ČVUT; independent 1952; four
+    // faculties; Emil Votoček), vscht.cz/skola/historie (cornerstone 21 June
+    // 1925 with T. G. Masaryk present, teaching in building A from 1933,
+    // second building 1937; Wichterle and Prelog among its graduates),
+    // turistika.cz / Engel biography (building A designed 1925 by Antonín
+    // Engel with Theodor Petřík, built 1926–33). Wichterle's 1958 removal
+    // from the school and the Christmas 1961 Merkur/bicycle-dynamo lens
+    // machine are widely documented. Rarity 'rare' is my own pick.
+    name: 'University of Chemistry and Technology',
+    slug: 'vscht-praha',
+    localizedNames: { cz: 'Vysoká škola chemicko-technologická v Praze', zh: '布拉格化工大学' },
+    labels: ['academy', 'architecture', 'historical'],
+    coordinates: { lat: 50.10237148262225, lng: 14.391476066797114 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/University_of_Chemistry_and_Technology,_Prague',
+    description: {
+      en: `A few steps from Victory Square stands a long, dignified building with columns, which looks as if it should house a ministry. Instead it is full of people in lab coats doing things to test tubes. This is the country's largest university devoted to chemistry, and its students have been quietly not blowing it up since 1933.
+
+Chemistry in Prague is much older than the building. When the Prague Polytechnic opened in 1806, its very first courses were in mathematics and chemistry, including the practical kind needed for glassmaking, metallurgy and dyes. In 1920 the chemists got their own school within the Czech Technical University, and a proper home was planned for them in the new Dejvice that the architect Antonín Engel was laying out around Victory Square. Engel designed the building together with Theodor Petřík in 1925, and on 21 June 1925 the foundation stone was laid with President Tomáš Garrigue Masaryk in attendance. Construction took until 1933, when teaching began in what is now Building A; a second building followed in 1937. In its first decades the school was shaped by the chemist Emil Votoček, who helped build its international reputation. In November 1939 the Nazis closed all Czech universities, and teaching only returned after the war. In 1952 the chemists left the Technical University and became a university of their own. Today it has four faculties, from chemical engineering to food and biochemical technology, and a few thousand students. The classicist facade with its row of columns is worth a look from Technická street.
+
+🎁 Bonus: Among the graduates of this school are Vladimír Prelog, who later won the 1975 Nobel Prize in Chemistry in Zurich, and Otto Wichterle, who taught here until the communist regime pushed him out in 1958. Wichterle had developed a soft hydrogel for contact lenses, and at Christmas 1961, at home, he built a machine to spin the first ones out of a children's Merkur construction kit and the dynamo from a bicycle. Soft contact lenses now sit in millions of eyes around the world. They began on a kitchen table, using parts from a toy.`,
+
+      cz: `Pár kroků od Vítězného náměstí stojí dlouhá, důstojná budova se sloupy, která vypadá, jako by v ní měl sídlit nějaké ministerstvo. Místo toho je plná lidí v pláštích, kteří něco provádějí se zkumavkami. Je to největší chemická vysoká škola v zemi a její studenti ji od roku 1933 tiše a spolehlivě nevyhazují do povětří.
+
+Chemie má v Praze mnohem delší historii než tahle budova. Když se roku 1806 otevřela pražská polytechnika, její úplně první kurzy byly z matematiky a chemie, včetně té praktické, potřebné pro sklářství, hutnictví a barvířství. Roku 1920 dostali chemici vlastní školu v rámci Českého vysokého učení technického a nový domov pro ně se plánoval v nových Dejvicích, které kolem Vítězného náměstí rozvrhoval architekt Antonín Engel. Engel budovu navrhl spolu s Theodorem Petříkem roku 1925 a 21. června 1925 byl za přítomnosti prezidenta Tomáše Garrigua Masaryka položen základní kámen. Stavba trvala až do roku 1933, kdy začala výuka v dnešní budově A; roku 1937 přibyla druhá budova. V prvních desetiletích školu formoval chemik Emil Votoček, který jí pomohl vybudovat mezinárodní pověst. V listopadu 1939 nacisté zavřeli všechny české vysoké školy a výuka se vrátila až po válce. Roku 1952 se chemici od technického učení oddělili a stali se samostatnou vysokou školou. Dnes má čtyři fakulty, od chemického inženýrství po potravinářskou a biochemickou technologii, a několik tisíc studentů. Klasicizující průčelí s řadou sloupů stojí za pohled z Technické ulice.
+
+🎁 Bonus: Mezi absolventy této školy patří Vladimír Prelog, který později v Curychu získal Nobelovu cenu za chemii za rok 1975, a Otto Wichterle, který tu učil, dokud ho komunistický režim roku 1958 nevyštval. Wichterle vyvinul měkký hydrogel pro kontaktní čočky a o Vánocích 1961 doma sestrojil stroj na odstředivé lití prvních z nich z dětské stavebnice Merkur a dynama z jízdního kola. Měkké kontaktní čočky dnes nosí miliony lidí po celém světě. Začaly na kuchyňském stole, ze součástek hračky.`,
+
+      zh: `离胜利广场几步路的地方，立着一座长长的、带柱廊的庄重建筑，看上去像是哪个部委的办公楼。可里面其实全是穿着白大褂、摆弄试管的人。这是全国最大的化学类大学，自1933年以来，它的学生一直安安静静地没有把这栋楼炸掉。
+
+化学在布拉格的历史比这栋楼长得多。1806年布拉格理工学院开办时，最早开设的课程就是数学和化学，其中也包括玻璃制造、冶金和染色所需的实用化学。1920年，化学家们在捷克理工大学里有了自己的学院，新校舍则规划在建筑师安东宁·恩格尔围绕胜利广场设计的新德伊维采城区。1925年，恩格尔和特奥多尔·佩特日克一起设计了这栋楼，同年6月21日，托马斯·加里格·马萨里克总统亲临奠基仪式。工程一直持续到1933年，这一年，今天的A楼开始上课；1937年又建成了第二栋楼。学校最初几十年的面貌，很大程度上是化学家埃米尔·沃托切克塑造的，他帮学校建立起了国际声誉。1939年11月，纳粹关闭了所有捷克高校，直到战后才恢复教学。1952年，化学家们脱离理工大学，成为一所独立的大学。如今学校有四个学院，从化学工程到食品与生物化学技术，学生有几千人。从技术街望过去，那排柱子撑起的古典主义立面很值得一看。
+
+🎁 彩蛋：这所学校的毕业生里，有后来在苏黎世获得1975年诺贝尔化学奖的弗拉基米尔·普雷洛格，还有奥托·维赫特莱。维赫特莱一直在这里任教，直到1958年被共产党政权赶走。他研制出一种用于隐形眼镜的柔软水凝胶，1961年圣诞节，他在家里用儿童玩具“梅尔库尔”拼装积木和一个自行车发电机，搭出了一台机器，甩出了最早的一批软性隐形眼镜。如今全世界有几百万人戴着软性隐形眼镜，而它们最早是在一张厨房餐桌上，用玩具零件做出来的。`,
+    },
+  },
 ];
 
 async function run() {
