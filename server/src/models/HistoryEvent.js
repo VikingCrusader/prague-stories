@@ -38,23 +38,6 @@ const chronicleQuoteSchema = new mongoose.Schema({
   attribution: { type: localizedTextSchema, default: () => ({}) },
 }, { _id: false });
 
-// Era-overview cards only (cardType 'overview', rendered by
-// HistoryOverviewCard): the clickable key-moment strip and the cast list.
-// `slug` points at the event card an entry jumps to (for a cast member, the
-// card where they first appear); an entry whose card isn't written yet
-// leaves it empty and renders as plain, non-clickable text.
-const overviewMilestoneSchema = new mongoose.Schema({
-  year:  { type: localizedTextSchema, default: () => ({}) },
-  label: { type: localizedTextSchema, default: () => ({}) },
-  slug:  { type: String, default: '' },
-}, { _id: false });
-
-const overviewCastSchema = new mongoose.Schema({
-  name: { type: localizedTextSchema, default: () => ({}) },
-  role: { type: localizedTextSchema, default: () => ({}) }, // one-line description
-  slug: { type: String, default: '' },
-}, { _id: false });
-
 const historyEventSchema = new mongoose.Schema({
   slug:      { type: String, required: true, unique: true, lowercase: true, trim: true },
   era:       { type: String, required: true }, // key into data/historyEras.js
@@ -72,17 +55,12 @@ const historyEventSchema = new mongoose.Schema({
   // HistoryEventSection renders it with a distinct, collapsible treatment
   // instead of the normal year/title/wiki-link header.
   //
-  // 'overview' is an era guide ("trailer"): one per era, always rendered
-  // first in its era (the controller sorts it there regardless of
-  // startYear), with its own sidebar entry. It uses title + hookLine (the
-  // one-line logline) plus the stage/cast/milestones/questions/teaser
-  // fields below, and none of summary, quotes, images or landmarks.
+  // 'overview' opens an era (one per era; the controller sorts it first in
+  // its era regardless of startYear). HistoryOverviewCard renders it in
+  // place of the era banner: the era's title/years/tagline, then this
+  // card's `title` as a subtitle and a single-paragraph `summary`. No
+  // sidebar entry, hookLine, quotes, images or landmarks.
   cardType:  { type: String, enum: ['event', 'background', 'overview'], default: 'event' },
-  milestones: { type: [overviewMilestoneSchema], default: undefined },
-  stage:      { type: localizedTextSchema, default: undefined }, // 2-3 sentences: the era's starting situation
-  cast:       { type: [overviewCastSchema], default: undefined },
-  questions:  { type: [localizedTextSchema], default: undefined }, // open questions to read with; never answered here
-  teaser:     { type: localizedTextSchema, default: undefined }, // closing one-liner
   hookLine:  { type: localizedTextSchema, default: () => ({}) },
   summary:   { type: localizedTextSchema, default: () => ({}) },
   // Primary-source quotes referenced from inside `summary` via "[[quote:N]]"

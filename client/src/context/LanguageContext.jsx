@@ -173,14 +173,6 @@ const T = {
     'history.backgroundLabel': 'Background',
     'history.collapseCard': 'Collapse',
     'history.expandCard': 'Expand',
-    'history.overviewLabel': 'Era Guide',
-    'history.readingTime': '~{n} min read',
-    'history.overviewSidebar': 'Era Guide',
-    'history.milestonesLabel': 'Key moments',
-    'history.castLabel': 'Cast',
-    'history.stageLabel': 'The stage',
-    'history.questionsLabel': 'Questions to read with',
-    'history.chapterLabel': 'Chapter {n}',
   },
   //czech
   cz: {
@@ -339,14 +331,6 @@ const T = {
     'history.backgroundLabel': 'Souvislosti',
     'history.collapseCard': 'Sbalit',
     'history.expandCard': 'Rozbalit',
-    'history.overviewLabel': 'Průvodce érou',
-    'history.readingTime': 'čtení na ~{n} min',
-    'history.overviewSidebar': 'Průvodce érou',
-    'history.milestonesLabel': 'Klíčové okamžiky',
-    'history.castLabel': 'Postavy',
-    'history.stageLabel': 'Jeviště',
-    'history.questionsLabel': 'Otázky na cestu',
-    'history.chapterLabel': 'Kapitola {n}',
   },
   //chinese
   zh: {
@@ -505,14 +489,6 @@ const T = {
     'history.backgroundLabel': '背景知识',
     'history.collapseCard': '收起',
     'history.expandCard': '展开',
-    'history.overviewLabel': '时代导览',
-    'history.readingTime': '约 {n} 分钟',
-    'history.overviewSidebar': '时代导览',
-    'history.milestonesLabel': '关键节点',
-    'history.castLabel': '登场人物',
-    'history.stageLabel': '舞台',
-    'history.questionsLabel': '本章看点',
-    'history.chapterLabel': '第{n}章',
   },
   //german
   de: {

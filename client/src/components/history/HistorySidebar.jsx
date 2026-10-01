@@ -18,14 +18,15 @@ import { useEffect, useLayoutEffect, useRef, useState } from 'react';
 // but a user can still manually collapse that same era again afterward,
 // since the effect only fires when the *selected era itself* changes, not
 // on every render.
-export default function HistorySidebar({ eras, events, selectedSlug, onSelectEvent, lang, convert, t }) {
+export default function HistorySidebar({ eras, events, selectedSlug, onSelectEvent, lang, convert }) {
   const eventsByEra = new Map();
   for (const ev of events) {
     // 'background' cards (see HistoryEvent model) are non-dated explainer
     // asides slotted into the feed at a specific point, not events in their
     // own right — they don't get a nav entry/year slot here, only a place
-    // in the scrollable feed (see HistoryPage).
-    if (ev.cardType === 'background') continue;
+    // in the scrollable feed (see HistoryPage). Era-overview cards stand in
+    // for the era heading itself, so they don't get an entry either.
+    if (ev.cardType === 'background' || ev.cardType === 'overview') continue;
     if (!eventsByEra.has(ev.era)) eventsByEra.set(ev.era, []);
     eventsByEra.get(ev.era).push(ev);
   }
@@ -136,22 +137,11 @@ export default function HistorySidebar({ eras, events, selectedSlug, onSelectEve
             {isOpen && eraEvents.map(ev => (
               <button
                 key={ev.slug}
-                className={`history-sidebar__item${ev.cardType === 'overview' ? ' history-sidebar__item--overview' : ''}${ev.slug === selectedSlug ? ' history-sidebar__item--active' : ''}`}
+                className={`history-sidebar__item${ev.slug === selectedSlug ? ' history-sidebar__item--active' : ''}`}
                 onClick={() => { clickedSlug.current = ev.slug; onSelectEvent(ev); }}
               >
-                {ev.cardType === 'overview' ? (
-                  // An era's overview card comes first in its era (see
-                  // historyController) and gets an icon in place of a year.
-                  <>
-                    <span className="history-sidebar__item-year" aria-hidden="true">📜</span>
-                    <span className="history-sidebar__item-title">{t('history.overviewSidebar')}</span>
-                  </>
-                ) : (
-                  <>
-                    <span className="history-sidebar__item-year">{Math.trunc(ev.startYear)}</span>{/* startYear can carry a decimal tie-break suffix (e.g. 1254.1) for same-year ordering; only the truncated integer is ever meant to be shown */}
-                    <span className="history-sidebar__item-title">{convert(ev.title[lang] || ev.title.en)}</span>
-                  </>
-                )}
+                <span className="history-sidebar__item-year">{Math.trunc(ev.startYear)}</span>{/* startYear can carry a decimal tie-break suffix (e.g. 1254.1) for same-year ordering; only the truncated integer is ever meant to be shown */}
+                <span className="history-sidebar__item-title">{convert(ev.title[lang] || ev.title.en)}</span>
               </button>
             ))}
           </div>

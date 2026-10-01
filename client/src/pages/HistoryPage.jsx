@@ -8,6 +8,11 @@ import HistoryEventSection from '../components/history/HistoryEventSection';
 import HistoryEraDivider from '../components/history/HistoryEraDivider';
 import LocationDetail from '../components/locations/LocationDetail';
 
+// Cards with their own sidebar entry. Background and era-overview cards
+// have none (see HistorySidebar), so scroll-spy and the initial highlight
+// skip them.
+const isNavCard = (event) => event.cardType !== 'background' && event.cardType !== 'overview';
+
 export default function HistoryPage() {
   const t = useT();
   const { lang } = useLang();
@@ -83,7 +88,7 @@ export default function HistoryPage() {
         // Background cards (see HistoryEvent model) don't have a sidebar
         // entry to highlight, so the initial active slug should skip past
         // any leading one straight to the first real, dated event.
-        const firstReal = res.data.events.find(e => e.cardType !== 'background');
+        const firstReal = res.data.events.find(isNavCard);
         if (firstReal) setActiveSlug(prev => prev ?? firstReal.slug);
       })
       .finally(() => { if (!cancelled) setLoading(false); });
@@ -109,7 +114,7 @@ export default function HistoryPage() {
     const recompute = () => {
       raf = null;
       if (jumpRef.current) return; // a sidebar/link jump is animating
-      let current = data.events.find(e => e.cardType !== 'background')?.slug ?? null;
+      let current = data.events.find(isNavCard)?.slug ?? null;
       for (const event of data.events) {
         const el = sectionEls.current.get(event.slug);
         if (!el) continue;
@@ -118,7 +123,7 @@ export default function HistoryPage() {
           // skip past one here rather than making it the "current"
           // highlight, so the sidebar keeps showing whichever real event
           // came before it until the next real event's turn arrives.
-          if (event.cardType !== 'background') current = event.slug;
+          if (isNavCard(event)) current = event.slug;
         } else break; // sections are in document order, so once one is below the line, all later ones are too
       }
       if (current) setActiveSlug(current);
@@ -260,11 +265,14 @@ export default function HistoryPage() {
               const era = eraChanged ? data.eras.find(e => e.key === event.era) : null;
               return (
                 <Fragment key={event.slug}>
-                  {era && <HistoryEraDivider era={era} lang={viewLang} convert={viewConvert} />}
+                  {/* An era that opens with an overview card shows its
+                      title, years and tagline inside that card instead. */}
+                  {era && event.cardType !== 'overview' && (
+                    <HistoryEraDivider era={era} lang={viewLang} convert={viewConvert} />
+                  )}
                   <HistoryEventSection
                     event={event}
-                    // Era-overview cards show their era's chapter number.
-                    chapter={data.eras.findIndex(e => e.key === event.era) + 1}
+                    era={era}
                     onOpenLandmark={setOpenLandmarkSlug}
                     onNavigateToEvent={scrollToSlug}
                     sectionRef={el => {
