@@ -32337,6 +32337,86 @@ Chemie má v Praze mnohem delší historii než tahle budova. Když se roku 1806
 🎁 彩蛋：这所学校的毕业生里，有后来在苏黎世获得1975年诺贝尔化学奖的弗拉基米尔·普雷洛格，还有奥托·维赫特莱。维赫特莱一直在这里任教，直到1958年被共产党政权赶走。他研制出一种用于隐形眼镜的柔软水凝胶，1961年圣诞节，他在家里用儿童玩具“梅尔库尔”拼装积木和一个自行车发电机，搭出了一台机器，甩出了最早的一批软性隐形眼镜。如今全世界有几百万人戴着软性隐形眼镜，而它们最早是在一张厨房餐桌上，用玩具零件做出来的。`,
     },
   },
+  {
+    // Added 2026-10-01 at the user's request (coordinates user-supplied).
+    // Sources: historickasidla.cz "Výtopna Nusle" (built 1880s by the kkStB,
+    // first roundhouse completed 1886, southern roundhouse with turntable by
+    // 1899, two symmetrical semicircular buildings enclosing an oval yard,
+    // locomotive depot from 1952, water tower now storage), slavnevily.cz
+    // (riveted single-arch steel bridge over the yard, 1913, Prášil brothers'
+    // works, 30+ m long, 8 m wide, 7 m above the rails), osz.org (wartime
+    // name "Betriebswerk Prag-Werschowitz"; took over the closed Masarykovo
+    // nádraží depot's work in 2000; with Libeň, one of only two rail depots
+    // left in Prague; Smíchov and Bubny depots demolished), pid.cz (Regional
+    // Railway Day open days 2022 and 2024, shuttle trains station ↔ depot).
+    // Rarity 'rare' is my own pick.
+    name: 'Vršovice Rail Depot',
+    slug: 'depo-praha-vrsovice',
+    localizedNames: { cz: 'Depo kolejových vozidel Praha-Vršovice', zh: '布拉格-弗尔绍维采机务段' },
+    labels: ['transport', 'historical', 'architecture'],
+    coordinates: { lat: 50.06080532523823, lng: 14.460983689958619 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `This is where Prague's trains go when nobody is looking. Behind the Vršovice tracks, two curved brick sheds face each other across an oval yard like a pair of bookends, and every night locomotives roll in to be washed, fixed and checked before the morning rush. It is a garage, basically, just one built for engines weighing a hundred tons.
+
+The depot was built in the 1880s by the Austrian State Railways, alongside the new Vršovice station, which back then was still called Nusle-Vršovice. Its first roundhouse was finished in 1886, and by 1899 a second, matching one stood opposite it. Each roundhouse is a semicircle of stalls with a turntable in front: a locomotive drives onto the turntable, the turntable swings it around, and the engine backs into its own bay. Railwaymen called the place a výtopna, literally a "heating house", because in the age of steam this was where locomotives were fired up, watered and coaled. In 1913 the Prášil brothers' engineering works added a riveted steel bridge that leaps over the whole yard in a single arch, more than thirty metres long and seven metres above the rails. During the German occupation the depot was run as the Betriebswerk Prag-Werschowitz, and in 1952 it officially became a locomotive depot. In 2000 it took over the work of the closed depot at Masaryk Station and started looking after electric locomotives too. Prague once had several depots like this, at Smíchov and Bubny among others, but those were left to decay and eventually demolished. Today Vršovice and Libeň are the only two left in the city, and both of Vršovice's roundhouses are still in daily use.
+
+🎁 Bonus: The depot is normally closed to the public, but every so often Czech Railways throws it open for a Regional Railway Day. On those Saturdays shuttle trains run back and forth between the station and the depot, visitors can climb into the cabs of old and new locomotives, and children get to see where a train sleeps. If you spot one announced, it is the easiest way in. Otherwise the bridge over the yard is the best free view.`,
+
+      cz: `Sem jezdí pražské vlaky, když se nikdo nedívá. Za vršovickým kolejištěm stojí proti sobě přes oválný dvůr dvě zakřivené cihlové haly jako pár zarážek na knihy a každou noc sem přijíždějí lokomotivy na mytí, opravy a prohlídky, než začne ranní špička. Je to vlastně garáž, jen pro stroje vážící sto tun.
+
+Depo postavily v 80. letech 19. století c. k. rakouské státní dráhy spolu s novým vršovickým nádražím, kterému se tehdy ještě říkalo Nusle-Vršovice. První rotunda byla hotová roku 1886 a do roku 1899 vyrostla naproti ní druhá, stejná. Každá rotunda je půlkruh stání s točnou před sebou: lokomotiva najede na točnu, točna ji natočí a stroj zacouvá do svého stání. Železničáři tomu místu říkali výtopna, protože v době páry se tu lokomotivy zatápěly, doplňovala se do nich voda a uhlí. Roku 1913 přibyl nýtovaný ocelový most od strojírny bratří Prášilů, který přeskakuje celé kolejiště jediným obloukem, je přes třicet metrů dlouhý a vede sedm metrů nad kolejemi. Za německé okupace se depo jmenovalo Betriebswerk Prag-Werschowitz a roku 1952 se oficiálně stalo lokomotivním depem. Roku 2000 převzalo práci zrušeného depa na Masarykově nádraží a začalo se starat i o elektrické lokomotivy. Praha kdysi měla takových dep víc, mimo jiné na Smíchově a v Bubnech, jenže ta se nechala chátrat a nakonec zbourat. Dnes jsou Vršovice a Libeň jediná dvě, která ve městě zbyla, a obě vršovické rotundy slouží dodnes každý den.
+
+🎁 Bonus: Běžně je depo pro veřejnost zavřené, ale čas od času ho České dráhy otevřou při Regionálním dni železnice. O takových sobotách jezdí mezi nádražím a depem kyvadlové vlaky, návštěvníci si mohou vlézt do kabin starých i nových lokomotiv a děti uvidí, kde vlak spí. Pokud nějaký uvidíte ohlášený, je to nejsnazší cesta dovnitř. Jinak je nejlepší vyhlídkou zdarma most nad kolejištěm.`,
+
+      zh: `布拉格的火车没人看着的时候，就是到这儿来了。在弗尔绍维采的铁轨后面，两座弧形的砖砌车库隔着一片椭圆形的场地面对面站着，像一对书立。每天夜里，机车开进这里清洗、修理、检查，好赶上第二天早高峰。说白了它就是个车库，只不过停的是一百吨重的大家伙。
+
+这座机务段是19世纪80年代由奥地利国家铁路修建的，和新建的弗尔绍维采火车站同时动工，那时车站还叫“努斯莱-弗尔绍维采”。第一座扇形车库在1886年完工，到1899年，对面又盖起了一座一模一样的。每座扇形车库都是一圈半圆形的车位，前面有一台转车盘：机车开上转车盘，转车盘把它转到对的方向，机车再倒进自己的车位。铁路工人管这里叫“生火房”，因为在蒸汽机车时代，机车就是在这里生火、加水、上煤的。1913年，普拉希尔兄弟机械厂在场地上架起了一座铆接钢桥，一道单拱跨过整片铁轨，长三十多米，离铁轨七米高。德国占领期间，这里叫“布拉格-弗尔绍维采机务厂”，1952年正式成为机务段。2000年，它接手了已经关闭的马萨里克车站机务段的工作，从此也开始保养电力机车。布拉格曾经有好几座这样的机务段，斯米霍夫和布布内都有，但它们后来都被任由荒废，最后拆掉了。如今城里只剩下弗尔绍维采和利本两座，而弗尔绍维采的两座扇形车库到今天还天天在用。
+
+🎁 彩蛋：机务段平时不对外开放，不过捷克铁路公司隔一阵子就会在“地区铁路日”把大门打开。到了那样的星期六，车站和机务段之间会开来回穿梭的接驳列车，游客可以爬进新旧机车的驾驶室，小朋友也能看看火车晚上在哪儿睡觉。要是看到有活动预告，这是进去最简单的办法。平时的话，场地上方那座桥就是最好的免费观景台。`,
+    },
+  },
+  {
+    // Added 2026-10-01 at the user's request (coordinates user-supplied).
+    // Sources: ČŠI inspection reports on portal.csicr.cz (founded by the
+    // Ministry of Education's charter of 23 Feb 1994, in a new building
+    // completed 1994; honorary name Gymnázium Jaroslava Heyrovského granted
+    // by amendment of 27 June 1996; founder the City of Prague since 2001;
+    // eight-year programme only, Prima–Oktáva; 657 students in 24 classes at
+    // inspection; own swimming pool; address Mezi Školami 2475/29). Heyrovský
+    // facts (polarography 1922, recording polarograph with Shikata 1924,
+    // Nobel Prize in Chemistry 1959) are standard biography. Hůrka metro is
+    // the nearest station by the coordinates. Rarity 'common' is my own pick.
+    name: 'Jaroslav Heyrovský Grammar School',
+    slug: 'gymnazium-jaroslava-heyrovskeho',
+    localizedNames: { cz: 'Gymnázium Jaroslava Heyrovského', zh: '雅罗斯拉夫·海罗夫斯基中学' },
+    labels: ['academy', 'modern'],
+    coordinates: { lat: 50.05165698676241, lng: 14.340431520697285 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Out on Prague's southwestern housing estates, a short walk from Hůrka metro station, there is a street called Mezi Školami, which means "Between the Schools". It is a very honest street name. On it stands a grammar school named after a Nobel Prize winner, where eleven-year-olds arrive and leave eight years later, ready for university.
+
+The school is young by Prague standards. It was founded by the Ministry of Education in February 1994 and moved straight into a brand new building finished the same year, so school and building have been together from the very start. In 1996 it was given the honorary name of Jaroslav Heyrovský, the physical chemist who in 1959 became the first Czech to win a Nobel Prize in a science. Since 2001 it has been run by the City of Prague. It is a pure eight-year gymnázium: there is no four-year entry, so pupils join at about eleven, in a first year called Prima, and work their way up to the eighth, Oktáva, and the school-leaving exam. Around 650 students study here in some two dozen classes, with a wide range of elective seminars in the upper years. The building also has something many older Prague schools can only dream of, its own swimming pool.
+
+🎁 Bonus: The school's namesake changed analytical chemistry with a dropping mercury electrode. In 1922 Heyrovský discovered that by letting tiny drops of mercury fall through a solution and measuring the current, he could tell which substances were dissolved in it and how much of each. Two years later, with his Japanese colleague Masuzo Shikata, he built the polarograph, which drew its own curves onto photographic paper. It was one of the first analytical instruments in the world that recorded its results automatically.`,
+
+      cz: `Na jihozápadních pražských sídlištích, kousek od stanice metra Hůrka, je ulice Mezi Školami. Je to velmi upřímný název ulice. Stojí na ní gymnázium pojmenované po nositeli Nobelovy ceny, kam přicházejí jedenáctiletí a za osm let odcházejí připravení na vysokou školu.
+
+Na pražské poměry je škola mladá. Založilo ji ministerstvo školství v únoru 1994 a hned se nastěhovala do zbrusu nové budovy dokončené téhož roku, takže škola a budova jsou spolu od úplného začátku. Roku 1996 dostala čestný název po Jaroslavu Heyrovském, fyzikálním chemikovi, který se roku 1959 stal prvním Čechem s Nobelovou cenou za vědu. Od roku 2001 ji zřizuje hlavní město Praha. Je to čisté osmileté gymnázium: čtyřletý obor tu není, takže žáci nastupují kolem jedenácti let do primy a postupně se propracují až do oktávy a k maturitě. Studuje tu kolem 650 studentů ve zhruba dvou desítkách tříd a ve vyšších ročnících si mohou vybírat z široké nabídky volitelných seminářů. Budova má navíc něco, o čem si mnoho starších pražských škol může nechat jen zdát: vlastní bazén.
+
+🎁 Bonus: Patron školy změnil analytickou chemii pomocí kapající rtuťové elektrody. Roku 1922 Heyrovský zjistil, že když nechá roztokem padat drobné kapky rtuti a měří přitom proud, pozná, jaké látky jsou v něm rozpuštěné a kolik jich je. O dva roky později sestrojil se svým japonským kolegou Masuzó Šikatou polarograf, který si své křivky sám kreslil na fotografický papír. Byl to jeden z prvních analytických přístrojů na světě, které zaznamenávaly výsledky automaticky.`,
+
+      zh: `在布拉格西南边的住宅区里，离胡尔卡地铁站没几步路，有一条街名字翻译过来叫“学校之间”。这个街名非常老实。街上有一所以诺贝尔奖得主命名的文理中学，十一岁的孩子走进来，八年后走出去，直接奔大学。
+
+按布拉格的标准，这所学校很年轻。它由教育部在1994年2月创办，当年就搬进了刚刚落成的新教学楼，所以学校和这栋楼从一开始就是一起的。1996年，学校获得荣誉校名，以物理化学家雅罗斯拉夫·海罗夫斯基命名，他在1959年成为第一位获得诺贝尔科学类奖项的捷克人。2001年起，学校由布拉格市管理。这是一所纯粹的八年制文理中学，没有四年制入口，学生大约十一岁入学，从一年级一路读到八年级，最后参加毕业会考。全校约有650名学生，分成二十来个班，高年级还有各种各样的选修研讨课可以挑。这栋楼还有一样很多布拉格老学校只能眼馋的东西：自己的游泳池。
+
+🎁 彩蛋：学校的这位命名人，是靠一根滴汞电极改变了分析化学的。1922年，海罗夫斯基发现，只要让一颗颗细小的汞滴穿过溶液落下，同时测量电流，就能判断溶液里溶解了哪些物质、各有多少。两年后，他和日本同事志方益三一起造出了极谱仪，这台仪器能自己把曲线画在相纸上，是世界上最早能自动记录结果的分析仪器之一。`,
+    },
+  },
 ];
 
 async function run() {
