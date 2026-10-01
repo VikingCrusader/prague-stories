@@ -177,8 +177,10 @@ const T = {
     'history.readingTime': '~{n} min read',
     'history.overviewSidebar': 'Era Guide',
     'history.milestonesLabel': 'Key moments',
-    'history.keyFiguresLabel': 'Who to watch',
-    'history.overviewLandmarksLabel': 'Where this era still stands',
+    'history.castLabel': 'Cast',
+    'history.stageLabel': 'The stage',
+    'history.questionsLabel': 'Questions to read with',
+    'history.chapterLabel': 'Chapter {n}',
   },
   //czech
   cz: {
@@ -341,8 +343,10 @@ const T = {
     'history.readingTime': 'čtení na ~{n} min',
     'history.overviewSidebar': 'Průvodce érou',
     'history.milestonesLabel': 'Klíčové okamžiky',
-    'history.keyFiguresLabel': 'Hlavní postavy',
-    'history.overviewLandmarksLabel': 'Kde tahle éra pořád stojí',
+    'history.castLabel': 'Postavy',
+    'history.stageLabel': 'Jeviště',
+    'history.questionsLabel': 'Otázky na cestu',
+    'history.chapterLabel': 'Kapitola {n}',
   },
   //chinese
   zh: {
@@ -505,8 +509,10 @@ const T = {
     'history.readingTime': '约 {n} 分钟',
     'history.overviewSidebar': '时代导览',
     'history.milestonesLabel': '关键节点',
-    'history.keyFiguresLabel': '本时代主角',
-    'history.overviewLandmarksLabel': '这个时代留下的地方',
+    'history.castLabel': '登场人物',
+    'history.stageLabel': '舞台',
+    'history.questionsLabel': '本章看点',
+    'history.chapterLabel': '第{n}章',
   },
   //german
   de: {

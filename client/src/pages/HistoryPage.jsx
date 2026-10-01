@@ -263,6 +263,8 @@ export default function HistoryPage() {
                   {era && <HistoryEraDivider era={era} lang={viewLang} convert={viewConvert} />}
                   <HistoryEventSection
                     event={event}
+                    // Era-overview cards show their era's chapter number.
+                    chapter={data.eras.findIndex(e => e.key === event.era) + 1}
                     onOpenLandmark={setOpenLandmarkSlug}
                     onNavigateToEvent={scrollToSlug}
                     sectionRef={el => {

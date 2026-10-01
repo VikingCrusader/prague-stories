@@ -648,31 +648,55 @@ html:not([data-lang="zh"]) .loc-meta__xp {
   font-size: 16px;
 }
 
-/* Era-overview cards (history-detail-panel--overview, see history.css):
-   the section headings and the tag follow the landmarks label above
-   (Cinzel bold for EN/CZ, Kaiti for ZH); milestone labels and the
-   who-to-watch chips use the summary body faces so they read as text,
-   not as the default pixel font. */
-html:not([data-lang="zh"]) .history-overview__section-label,
-html:not([data-lang="zh"]) .history-event__overview-tag {
+/* Era-overview cards (HistoryOverviewCard, history.css): headings follow
+   the landmarks label above (Cinzel bold for EN/CZ, Kaiti for ZH); the
+   questions and teaser use the quote face in ZH; the stage text, cast and
+   milestone labels use the summary body faces, so nothing here falls
+   through to the default pixel font. */
+html:not([data-lang="zh"]) .history-overview__kicker,
+html:not([data-lang="zh"]) .history-overview__box-title,
+html:not([data-lang="zh"]) .history-overview__section-title,
+html:not([data-lang="zh"]) .history-overview__logline {
   font-family: "Cinzel", serif;
   font-weight: 700;
 }
+html:not([data-lang="zh"]) .history-overview__stage,
+html:not([data-lang="zh"]) .history-overview__cast-item,
 html:not([data-lang="zh"]) .history-overview__milestone-label,
 html:not([data-lang="zh"]) .history-overview__milestone-year,
-html:not([data-lang="zh"]) .history-overview__figure,
-html:not([data-lang="zh"]) .history-event__overview-time {
+html:not([data-lang="zh"]) .history-overview__question,
+html:not([data-lang="zh"]) .history-overview__teaser,
+html:not([data-lang="zh"]) .history-overview__meta {
   font-family: "Crimson Pro", serif;
-  font-size: 16px;
 }
-html[data-lang="zh"] .history-overview__section-label,
-html[data-lang="zh"] .history-event__overview-tag {
+html:not([data-lang="zh"]) .history-overview__stage,
+html:not([data-lang="zh"]) .history-overview__question { font-size: 19px; }
+html:not([data-lang="zh"]) .history-overview__cast-item,
+html:not([data-lang="zh"]) .history-overview__teaser { font-size: 18px; }
+html:not([data-lang="zh"]) .history-overview__milestone-label,
+html:not([data-lang="zh"]) .history-overview__meta { font-size: 16px; }
+
+html[data-lang="zh"] .history-overview__kicker,
+html[data-lang="zh"] .history-overview__box-title,
+html[data-lang="zh"] .history-overview__section-title,
+html[data-lang="zh"] .history-overview__logline,
+html[data-lang="zh"] .history-overview__question,
+html[data-lang="zh"] .history-overview__teaser {
   font-family: "LXGW WenKai TC", "Noto Serif SC", "Noto Serif TC", serif !important;
-  font-size: 15px;
+  letter-spacing: 0 !important;
 }
+html[data-lang="zh"] .history-overview__teaser { font-style: normal; }
+html[data-lang="zh"] .history-overview__kicker,
+html[data-lang="zh"] .history-overview__box-title,
+html[data-lang="zh"] .history-overview__section-title { font-size: 16px; }
+html[data-lang="zh"] .history-overview__logline { font-size: 22px; }
+html[data-lang="zh"] .history-overview__stage,
+html[data-lang="zh"] .history-overview__cast-item,
 html[data-lang="zh"] .history-overview__milestone-label,
 html[data-lang="zh"] .history-overview__milestone-year,
-html[data-lang="zh"] .history-overview__figure {
+html[data-lang="zh"] .history-overview__meta {
   font-family: "Noto Serif SC", "Noto Serif TC", serif !important;
-  font-size: 14px;
 }
+html[data-lang="zh"] .history-overview__stage { font-size: 16px; }
+html[data-lang="zh"] .history-overview__cast-item { font-size: 15px; }
+html[data-lang="zh"] .history-overview__question { font-size: 17px; }
