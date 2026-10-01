@@ -14,7 +14,6 @@ import LocationDetail from '../components/locations/LocationDetail';
 const isNavCard = (event) => event.cardType !== 'background' && event.cardType !== 'overview';
 
 export default function HistoryPage() {
-  const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
 
@@ -226,12 +225,6 @@ export default function HistoryPage() {
 
   return (
     <div className="guide-page history-page">
-      <div className="history-header">
-        <h1 className="px-title" style={{ fontSize: 22, marginBottom: 6 }}>{t('history.title')}</h1>
-        <p className="guide-intro">{t('history.tagline')}</p>
-        <p className="history-drag-hint">{t('history.dragHint')}</p>
-      </div>
-
       {loading ? (
         <div style={{ display: 'flex', justifyContent: 'center', padding: 40 }}>
           <div className="spinner" />
