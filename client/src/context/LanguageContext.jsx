@@ -172,6 +172,7 @@ const T = {
     'history.referenceMapsLabel': 'More on this:',
     'history.backgroundLabel': 'Background',
     'history.collapseCard': 'Collapse',
+    'history.chapterLabel': 'Chapter {n}',
     'history.expandCard': 'Expand',
   },
   //czech
@@ -330,6 +331,7 @@ const T = {
     'history.referenceMapsLabel': 'Více k tomuto tématu:',
     'history.backgroundLabel': 'Souvislosti',
     'history.collapseCard': 'Sbalit',
+    'history.chapterLabel': 'Kapitola {n}',
     'history.expandCard': 'Rozbalit',
   },
   //chinese
@@ -488,6 +490,7 @@ const T = {
     'history.referenceMapsLabel': '延伸资料：',
     'history.backgroundLabel': '背景知识',
     'history.collapseCard': '收起',
+    'history.chapterLabel': '第{n}章',
     'history.expandCard': '展开',
   },
   //german

@@ -42,10 +42,10 @@ import HistoryOverviewCard from './HistoryOverviewCard';
 // actually checked in there yet. Clicking a card still opens the full
 // LocationDetail overlay on top of this page (see HistoryPage, which owns
 // the selected-slug state), not a navigation away.
-export default function HistoryEventSection({ event, era, onOpenLandmark, onNavigateToEvent, sectionRef }) {
+export default function HistoryEventSection({ event, era, chapter, onOpenLandmark, onNavigateToEvent, sectionRef }) {
   // Era-overview cards (cardType 'overview') have a structure of their own.
   if (event.cardType === 'overview') {
-    return <HistoryOverviewCard event={event} era={era} onNavigateToEvent={onNavigateToEvent} sectionRef={sectionRef} />;
+    return <HistoryOverviewCard event={event} era={era} chapter={chapter} onNavigateToEvent={onNavigateToEvent} sectionRef={sectionRef} />;
   }
   return <EventCard event={event} onOpenLandmark={onOpenLandmark} onNavigateToEvent={onNavigateToEvent} sectionRef={sectionRef} />;
 }

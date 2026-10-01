@@ -273,6 +273,7 @@ export default function HistoryPage() {
                   <HistoryEventSection
                     event={event}
                     era={era}
+                    chapter={data.eras.findIndex(e => e.key === event.era) + 1}
                     onOpenLandmark={setOpenLandmarkSlug}
                     onNavigateToEvent={scrollToSlug}
                     sectionRef={el => {

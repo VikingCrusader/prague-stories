@@ -612,3 +612,9 @@
   line-height: 1.6;
   margin-top: 4px;
 }
+
+/* "Chapter N" before the era title in an overview card: same line and
+   colour as the title, separated by a gap rather than punctuation. */
+.history-overview__chapter {
+  margin-right: 0.6em;
+}
