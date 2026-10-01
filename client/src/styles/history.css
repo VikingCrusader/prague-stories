@@ -601,3 +601,14 @@
 @media (max-width: 820px) {
   .history-detail-panel--overview { padding: 22px 18px; }
 }
+
+/* Inside an era-overview card the era tagline is the card's second voice,
+   not a footnote: bigger and in the body colour instead of the muted grey
+   the standalone banner uses. ZH swaps to Kaiti in global.css. */
+.history-overview__era .history-era-divider__tagline {
+  font-size: 18px;
+  color: var(--text-primary);
+  opacity: 0.9;
+  line-height: 1.6;
+  margin-top: 4px;
+}

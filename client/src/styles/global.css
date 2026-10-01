@@ -658,3 +658,8 @@ html[data-lang="zh"] .history-overview__subtitle {
   font-family: "Noto Serif SC", "Noto Serif TC", serif !important;
   font-size: 19px;
 }
+html[data-lang="zh"] .history-overview__era .history-era-divider__tagline {
+  font-family: "LXGW WenKai TC", "Noto Serif SC", "Noto Serif TC", serif !important;
+  font-style: normal;
+  font-size: 20px;
+}
