@@ -173,6 +173,12 @@ const T = {
     'history.backgroundLabel': 'Background',
     'history.collapseCard': 'Collapse',
     'history.expandCard': 'Expand',
+    'history.overviewLabel': 'Era Guide',
+    'history.readingTime': '~{n} min read',
+    'history.overviewSidebar': 'Era Guide',
+    'history.milestonesLabel': 'Key moments',
+    'history.keyFiguresLabel': 'Who to watch',
+    'history.overviewLandmarksLabel': 'Where this era still stands',
   },
   //czech
   cz: {
@@ -331,6 +337,12 @@ const T = {
     'history.backgroundLabel': 'Souvislosti',
     'history.collapseCard': 'Sbalit',
     'history.expandCard': 'Rozbalit',
+    'history.overviewLabel': 'Průvodce érou',
+    'history.readingTime': 'čtení na ~{n} min',
+    'history.overviewSidebar': 'Průvodce érou',
+    'history.milestonesLabel': 'Klíčové okamžiky',
+    'history.keyFiguresLabel': 'Hlavní postavy',
+    'history.overviewLandmarksLabel': 'Kde tahle éra pořád stojí',
   },
   //chinese
   zh: {
@@ -489,6 +501,12 @@ const T = {
     'history.backgroundLabel': '背景知识',
     'history.collapseCard': '收起',
     'history.expandCard': '展开',
+    'history.overviewLabel': '时代导览',
+    'history.readingTime': '约 {n} 分钟',
+    'history.overviewSidebar': '时代导览',
+    'history.milestonesLabel': '关键节点',
+    'history.keyFiguresLabel': '本时代主角',
+    'history.overviewLandmarksLabel': '这个时代留下的地方',
   },
   //german
   de: {

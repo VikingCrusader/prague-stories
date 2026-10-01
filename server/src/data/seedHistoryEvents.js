@@ -15,6 +15,7 @@ import "dotenv/config";
 import { pathToFileURL } from "url";
 import { connectDB } from "../config/db.js";
 import HistoryEvent from "../models/HistoryEvent.js";
+import { historyOverviews } from "./historyOverviews.js";
 
 export const historyEvents = [
   {
@@ -18913,6 +18914,9 @@ export const historyEvents = [
     wikipediaUrl: "https://cs.wikipedia.org/wiki/Jan_Roh%C3%A1%C4%8D_z_Dub%C3%A9",
   },
 ];
+
+// Era-overview cards live in their own file (see historyOverviews.js).
+historyEvents.push(...historyOverviews);
 
 async function run() {
   await connectDB();

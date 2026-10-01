@@ -38,6 +38,21 @@ const chronicleQuoteSchema = new mongoose.Schema({
   attribution: { type: localizedTextSchema, default: () => ({}) },
 }, { _id: false });
 
+// Era-overview cards only (cardType 'overview'): the clickable key-moment
+// strip and the "who to watch" chips. `slug` points at the event card a
+// chip jumps to; a milestone whose event isn't written yet leaves it empty
+// and renders as plain, non-clickable text.
+const overviewMilestoneSchema = new mongoose.Schema({
+  year:  { type: localizedTextSchema, default: () => ({}) },
+  label: { type: localizedTextSchema, default: () => ({}) },
+  slug:  { type: String, default: '' },
+}, { _id: false });
+
+const overviewFigureSchema = new mongoose.Schema({
+  name: { type: localizedTextSchema, default: () => ({}) },
+  slug: { type: String, default: '' },
+}, { _id: false });
+
 const historyEventSchema = new mongoose.Schema({
   slug:      { type: String, required: true, unique: true, lowercase: true, trim: true },
   era:       { type: String, required: true }, // key into data/historyEras.js
@@ -54,7 +69,14 @@ const historyEventSchema = new mongoose.Schema({
   // (see that component) so it doesn't claim a year slot in the nav, and
   // HistoryEventSection renders it with a distinct, collapsible treatment
   // instead of the normal year/title/wiki-link header.
-  cardType:  { type: String, enum: ['event', 'background'], default: 'event' },
+  //
+  // 'overview' is an era guide ("trailer"): one per era, always rendered
+  // first in its era (the controller sorts it there regardless of
+  // startYear), with its own sidebar entry and the milestones/keyFigures
+  // fields below.
+  cardType:  { type: String, enum: ['event', 'background', 'overview'], default: 'event' },
+  milestones: { type: [overviewMilestoneSchema], default: undefined },
+  keyFigures: { type: [overviewFigureSchema], default: undefined },
   hookLine:  { type: localizedTextSchema, default: () => ({}) },
   summary:   { type: localizedTextSchema, default: () => ({}) },
   // Primary-source quotes referenced from inside `summary` via "[[quote:N]]"

@@ -65,6 +65,14 @@ async function dataVersion() {
 
 async function buildPayload() {
   const events = await HistoryEvent.find().sort({ startYear: 1 }).lean();
+  // Era order first, then each era's overview card, then startYear. Sorting
+  // by startYear alone can't place an era's overview ahead of a neighbouring
+  // era's events when the two eras share a boundary year (1346).
+  const eraIndex = new Map(HISTORY_ERAS.map((era, i) => [era.key, i]));
+  events.sort((a, b) =>
+    (eraIndex.get(a.era) ?? Infinity) - (eraIndex.get(b.era) ?? Infinity)
+    || (b.cardType === 'overview') - (a.cardType === 'overview')
+    || a.startYear - b.startYear);
 
   const allSlugs = [...new Set(events.flatMap(e => e.relatedLandmarks.map(r => r.slug)))];
   const locations = await Location.find(

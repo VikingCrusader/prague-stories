@@ -66,6 +66,41 @@ function renderInlineLinks(text, onNavigateToEvent) {
   return nodes;
 }
 
+// Era-overview cards remember being collapsed, per card, so a returning
+// reader isn't made to scroll past a guide they've already read. Browser
+// storage can be missing or throw (private mode, blocked site data); the
+// card then just opens expanded.
+const OVERVIEW_COLLAPSED_KEY = 'historyOverviewCollapsed';
+
+function loadCollapsedOverviews() {
+  try {
+    return new Set(JSON.parse(localStorage.getItem(OVERVIEW_COLLAPSED_KEY)) || []);
+  } catch {
+    return new Set();
+  }
+}
+
+function saveOverviewCollapsed(slug, collapsed) {
+  try {
+    const set = loadCollapsedOverviews();
+    if (collapsed) set.add(slug);
+    else set.delete(slug);
+    localStorage.setItem(OVERVIEW_COLLAPSED_KEY, JSON.stringify([...set]));
+  } catch {
+    // Remembering is a convenience only.
+  }
+}
+
+// Rough reading time for the overview tag: ~200 words a minute for EN/CZ,
+// ~400 characters a minute for Chinese. Markup markers don't count.
+function readingMinutes(text, lang) {
+  const plain = text.replace(/\[\[[^\]]*\]\]/g, '');
+  const units = lang === 'zh'
+    ? plain.replace(/\s/g, '').length / 400
+    : plain.split(/\s+/).filter(Boolean).length / 200;
+  return Math.max(1, Math.round(units));
+}
+
 // One event's full write-up, rendered as an in-flow section inside
 // HistoryPage's scrollable feed — not a single "selected event" detail
 // pane. The whole feed scrolls as an ordinary page; HistorySidebar is the
@@ -111,16 +146,39 @@ export default function HistoryEventSection({ event, onOpenLandmark, onNavigateT
   // every time. Defaults open since it's slotted in at a point the reader
   // actually needs the context, not as a buried footnote.
   const isBackground = event.cardType === 'background';
-  const [expanded, setExpanded] = useState(true);
-  const showBody = !isBackground || expanded;
+  // Era-overview cards ("trailers") open each era: a reading-time tag, a
+  // clickable key-moments strip, "who to watch" chips and a few landmarks
+  // where the era can still be seen. Collapsible like a background card,
+  // with the collapsed state remembered (see loadCollapsedOverviews).
+  const isOverview = event.cardType === 'overview';
+  const isCollapsible = isBackground || isOverview;
+  const [expanded, setExpanded] = useState(() => !(isOverview && loadCollapsedOverviews().has(event.slug)));
+  const toggleExpanded = () => {
+    if (isOverview) saveOverviewCollapsed(event.slug, expanded);
+    setExpanded(!expanded);
+  };
+  const showBody = !isCollapsible || expanded;
+  const loc = (value) => (value ? convert(value[lang] || value.en || '') : '');
+  const panelClass = isBackground
+    ? ' history-detail-panel--background'
+    : isOverview ? ' history-detail-panel--overview' : '';
 
   return (
     <div
       ref={sectionRef}
       data-slug={event.slug}
-      className={`history-detail-panel history-detail-panel--${event.tone}${isBackground ? ' history-detail-panel--background' : ''}`}
+      className={`history-detail-panel history-detail-panel--${event.tone}${panelClass}`}
     >
-      {isBackground ? (
+      {isOverview ? (
+        <div className="history-event__overview-tag">
+          <span>📜 {t('history.overviewLabel')}</span>
+          <span className="history-event__overview-time">
+            {t('history.readingTime', {
+              n: readingMinutes(`${event.hookLine[lang] || event.hookLine.en} ${event.summary[lang] || event.summary.en}`, lang),
+            })}
+          </span>
+        </div>
+      ) : isBackground ? (
         <div className="history-event__background-tag">
           <span>{t('history.backgroundLabel')}</span>
         </div>
@@ -143,11 +201,11 @@ export default function HistoryEventSection({ event, onOpenLandmark, onNavigateT
         )}
       </h2>
 
-      {isBackground && (
+      {isCollapsible && (
         <button
           type="button"
           className="history-event__background-toggle"
-          onClick={() => setExpanded(x => !x)}
+          onClick={toggleExpanded}
           aria-expanded={expanded}
         >
           {expanded ? t('history.collapseCard') : t('history.expandCard')}
@@ -156,7 +214,41 @@ export default function HistoryEventSection({ event, onOpenLandmark, onNavigateT
 
       {showBody && (
         <>
-          <p className="history-event__hook">{convert(event.hookLine[lang] || event.hookLine.en)}</p>
+          <p className={`history-event__hook${isOverview ? ' history-event__hook--overview' : ''}`}>
+            {convert(event.hookLine[lang] || event.hookLine.en)}
+          </p>
+
+          {isOverview && event.milestones?.length > 0 && (
+            <div className="history-overview__milestones">
+              <div className="history-overview__section-label">{t('history.milestonesLabel')}</div>
+              <ol className="history-overview__milestone-list">
+                {event.milestones.map((m, i) => {
+                  const body = (
+                    <>
+                      <span className="history-overview__milestone-dot" aria-hidden="true" />
+                      <span className="history-overview__milestone-year">{loc(m.year)}</span>
+                      <span className="history-overview__milestone-label">{loc(m.label)}</span>
+                    </>
+                  );
+                  return (
+                    <li key={i} className="history-overview__milestone">
+                      {m.slug ? (
+                        <button
+                          type="button"
+                          className="history-overview__milestone-btn"
+                          onClick={() => onNavigateToEvent?.(m.slug)}
+                        >
+                          {body}
+                        </button>
+                      ) : (
+                        <div className="history-overview__milestone-btn history-overview__milestone-btn--static">{body}</div>
+                      )}
+                    </li>
+                  );
+                })}
+              </ol>
+            </div>
+          )}
           {/* summary supports multi-paragraph text: split on \n and filter blank
               lines, same convention LocationDetail uses for `description`, so a
               '\n\n' in the source data renders as a paragraph break instead of
@@ -199,6 +291,28 @@ export default function HistoryEventSection({ event, onOpenLandmark, onNavigateT
                 <p key={i} className="history-event__summary">{renderInlineLinks(para, onNavigateToEvent)}</p>
               );
             })}
+
+          {isOverview && event.keyFigures?.length > 0 && (
+            <div className="history-overview__figures">
+              <div className="history-overview__section-label">{t('history.keyFiguresLabel')}</div>
+              <div className="history-overview__figure-list">
+                {event.keyFigures.map((f, i) => (
+                  f.slug ? (
+                    <button
+                      key={i}
+                      type="button"
+                      className="history-overview__figure"
+                      onClick={() => onNavigateToEvent?.(f.slug)}
+                    >
+                      {loc(f.name)}
+                    </button>
+                  ) : (
+                    <span key={i} className="history-overview__figure history-overview__figure--static">{loc(f.name)}</span>
+                  )
+                ))}
+              </div>
+            </div>
+          )}
 
           {event.images?.map((src, i) => {
             const caption = event.imageCaptions?.[i];
@@ -287,7 +401,9 @@ export default function HistoryEventSection({ event, onOpenLandmark, onNavigateT
 
           {event.relatedLandmarks.length > 0 && (
             <div className="history-event__landmarks">
-              <div className="history-event__landmarks-label">{t('history.relatedLandmarksLabel')}</div>
+              <div className="history-event__landmarks-label">
+                {t(isOverview ? 'history.overviewLandmarksLabel' : 'history.relatedLandmarksLabel')}
+              </div>
 
               <div className="location-grid">
                 {event.relatedLandmarks.map(({ landmark, relation }) => {
