@@ -32417,6 +32417,181 @@ Na pražské poměry je škola mladá. Založilo ji ministerstvo školství v ú
 🎁 彩蛋：学校的这位命名人，是靠一根滴汞电极改变了分析化学的。1922年，海罗夫斯基发现，只要让一颗颗细小的汞滴穿过溶液落下，同时测量电流，就能判断溶液里溶解了哪些物质、各有多少。两年后，他和日本同事志方益三一起造出了极谱仪，这台仪器能自己把曲线画在相纸上，是世界上最早能自动记录结果的分析仪器之一。`,
     },
   },
+  {
+    // Added 2026-10-02 at the user's request (coordinates and rarity
+    // user-supplied). Sources: prague.eu "Architektura 1958—89: Dům bytové
+    // kultury" (Věra Machoninová, 1968–1981, opened May 1981, two blocks
+    // offset by half a floor around an 18 m escalator atrium, pre-weathered
+    // Atmofix steel cladding, red interiors, restaurant/café/cinema, IKEA's
+    // first Czech store in part of it for five years in the 1990s),
+    // ČT24 "DBK – pod jednou střechou výkvět československého nábytku"
+    // (opened 29 May 1981, ten years to build, eight storeys, display space
+    // under a third of the floor area, "débéka"/"debilák" nicknames, mid-90s
+    // Prior rebrand gutted the interiors, 2006 reconstruction restored the
+    // DBK name), archiweb.cz (project 1968–71, built 1972–81, floors hung as
+    // "flat containers" from a steel frame, first prize at the 1969
+    // Exhibition of Architectural Works, 2006 alterations).
+    name: 'House of Living Culture',
+    slug: 'dum-bytove-kultury',
+    localizedNames: { cz: 'Dům bytové kultury', zh: '居住文化之家' },
+    labels: ['architecture', 'communism', 'modern'],
+    coordinates: { lat: 50.04382547500279, lng: 14.449115575350964 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Step out of Budějovická metro station and the first thing you see is a dark, rust-brown box that seems to hover above a glass ground floor. Locals just call it DBK. For a whole generation of Prague families, this was where you came to buy a sofa, and then found out the sofa was out of stock.
+
+The building is the work of Věra Machoninová, one of the leading Czech architects of the socialist era, who also co-designed the Kotva department store with her husband Vladimír. She started on it in 1968, the design won first prize at a national architecture exhibition in 1969, and then construction dragged on for the better part of ten years. It finally opened on 29 May 1981 as a showroom for Czechoslovak furniture and everything that goes with it. The idea was bold. Its eight floors hang from a steel frame like flat trays, two blocks set half a floor apart, and an 18-metre escalator hall runs from the metro entrance all the way to the top, so the whole store reads as one continuous space. Outside it is clad in weathering steel, which was meant to look rusty from day one. Inside, almost everything was red: the escalators, the rippling ceiling, the details. There was a restaurant, a café, a cinema, and a desk where interior architects would help you plan your flat. The less glamorous truth was that less than a third of the floor area was for display. The rest was warehouse, often half empty, or full of whatever the central plan had overproduced that year. Shoppers nicknamed it "débéka", and the less patient ones "debilák".
+
+🎁 Bonus: After 1989 the building had a rough time. In the mid-1990s it became part of the Prior chain and most of Machoninová's original interior was torn out, while part of the space hosted the very first IKEA in the Czech Republic for five years. A reconstruction from 2006 brought back the old DBK name, though it also swapped the original clear glass ground floor for greenish double glazing. Machoninová herself called it her favourite building, the one where everything she did came together, from town planning down to the furniture.`,
+
+      cz: `Vyjdete ze stanice metra Budějovická a první, co uvidíte, je tmavá rezavě hnědá krabice, která jako by se vznášela nad proskleným přízemím. Místní mu říkají prostě DBK. Pro celou generaci pražských rodin to bylo místo, kam se jezdilo pro gauč, a kde se pak zjistilo, že gauč zrovna není.
+
+Budova je dílem Věry Machoninové, jedné z nejvýznamnějších českých architektek socialistické éry, která se svým manželem Vladimírem navrhla také obchodní dům Kotva. Na projektu začala pracovat roku 1968, v roce 1969 získal první cenu na Přehlídce architektonických prací a pak se stavba táhla skoro deset let. Otevřela se konečně 29. května 1981 jako výstavní prodejna československého nábytku a všeho, co k němu patří. Nápad to byl odvážný. Osm podlaží visí na ocelové konstrukci jako ploché zásobníky, dva bloky jsou proti sobě posunuté o půl patra a osmnáct metrů vysoká eskalátorová hala vede od vstupu z metra až nahoru, takže celý obchod působí jako jeden souvislý prostor. Zvenku je obložený patinující ocelí, která měla vypadat zrezivělá hned od prvního dne. Uvnitř bylo skoro všechno červené: eskalátory, zvlněný podhled i detaily. Byla tu restaurace, kavárna, kino a poradna bytových architektů, kteří vám pomohli naplánovat byt. Méně okouzlující pravda byla, že výstavní plocha zabírala necelou třetinu budovy. Zbytek tvořily sklady, často poloprázdné, nebo plné toho, čeho plán ten rok vyrobil nadbytek. Zákazníci mu přezdívali „débéka“ a ti méně trpěliví „debilák“.
+
+🎁 Bonus: Po roce 1989 to budova neměla lehké. V polovině 90. let se stala součástí řetězce Prior a většina původního interiéru Machoninové šla pryč, zatímco v části prostor sídlila pět let úplně první IKEA v Česku. Rekonstrukce od roku 2006 vrátila budově staré jméno DBK, ale zároveň vyměnila původní čiré prosklení přízemí za nazelenalá dvojskla. Sama Machoninová ji označovala za svou nejoblíbenější stavbu, tu, ve které se spojilo všechno, co dělala, od urbanismu až po nábytek.`,
+
+      zh: `从布杰约维茨卡地铁站一出来，最先看到的是一个深色、铁锈褐色的大盒子，好像飘在一层玻璃底座上。本地人就叫它DBK。对布拉格整整一代家庭来说，这里是买沙发的地方，然后再发现沙发没货。
+
+这栋楼出自薇拉·马霍尼诺娃之手，她是社会主义时期最重要的捷克建筑师之一，还和丈夫弗拉基米尔一起设计了科特瓦百货大楼。她从1968年开始做这个项目，1969年方案就在全国建筑作品展上拿了一等奖，然后施工拖了将近十年。1981年5月29日，它终于开门，作为捷克斯洛伐克家具和各种家居用品的展销大楼。这个构想很大胆。八层楼板像一个个扁平的托盘一样挂在钢结构上，两栋楼体彼此错开半层，一座18米高的扶梯大厅从地铁入口一直通到顶层，让整座商场看起来像一个连续的空间。外墙包着耐候钢，从第一天起就是故意要看起来生了锈的。里面几乎全是红色：扶梯、波浪形的吊顶、各种细节。楼里有餐厅、咖啡馆、电影院，还有一个室内建筑师咨询台，帮你规划自家公寓。不那么光鲜的真相是：展示区连整栋楼面积的三分之一都不到，剩下的全是仓库，经常半空着，要不就堆满了当年计划经济多生产出来的东西。顾客给它起了个外号叫“débéka”，耐心差一点的干脆叫它“debilák”（“傻瓜楼”）。
+
+🎁 彩蛋：1989年以后，这栋楼的日子不太好过。90年代中期它并入了Prior连锁百货，马霍尼诺娃原来的室内设计大部分被拆掉了，同时楼里有一部分开了整整五年的捷克第一家宜家。2006年开始的改造把DBK这个老名字找了回来，不过也把原来透明的玻璃底层换成了发绿的双层玻璃。马霍尼诺娃自己说这是她最喜欢的作品，是她从城市规划一直到家具设计的所有工作汇到一起的地方。`,
+    },
+  },
+  {
+    // Added 2026-10-02 at the user's request (coordinates and rarity
+    // user-supplied). Labels mirror the sibling `severni-pol-prahy` /
+    // `jizni-pol-prahy` cards. Sources: cs.wikipedia "Pražské póly"
+    // (50°5′13″ N, 14°42′24″ E, Klánovice Forest on the Újezd nad Lesy /
+    // Úvaly boundary, ~500 m west of Úvaly's built-up edge; the true point
+    // lies in dense thicket and visitors there disturbed wild boar, so the
+    // marker stands by the green-marked trail; same 180 kg post as the
+    // others), geocaching GC95FZR (marker reached by a worn side path off
+    // the green trail; info panels and benches at the junction), prague.eu
+    // "Klánovický les" (1,030 ha, largest contiguous forest in Prague,
+    // medieval name Vidrholec, trade road east), turistika.cz Forest Gallery
+    // stop 12 (robbers in Vidrholec from the 12th century).
+    name: 'East Pole of Prague',
+    slug: 'vychodni-pol-prahy',
+    localizedNames: { cz: 'Východní pól Prahy', zh: '布拉格东极' },
+    labels: ['hidden-gem', 'nature'],
+    coordinates: { lat: 50.08708786053952, lng: 14.706854779454213 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pra%C5%BEsk%C3%A9_p%C3%B3ly',
+    description: {
+      en: `Prague's easternmost point is not a viewpoint, a monument or even a clearing. It is a concrete post among the trees of Klánovice Forest, just off a hiking trail, where Prague's Újezd nad Lesy ends and the town of Úvaly begins. Walk a few minutes further east and you can buy a coffee in Central Bohemia.
+
+It is one of four "Prague poles", the points of the city's territory furthest north, south, east and west. They were marked on the ground at the end of November 2020 by the YouTuber Janek Rubeš of Kluci z Prahy ("the Prague Boys") together with Ondřej Boháč, director of the city's Institute of Planning and Development, and each one got the same marker: a conical concrete post with a rounded top, weighing 180 kilograms, with red and black plates. The east pole lies at 50°5′13″ N, 14°42′24″ E, about 500 metres west of the first houses of Úvaly. A short, well-trodden path leads to it from a forest trail with green tourist markings, and at the nearby junction there are benches, picnic tables and information boards. The forest around it is the largest continuous woodland inside Prague, more than a thousand hectares. In the Middle Ages it was called Vidrholec, and the trade road from Prague heading east ran straight through it. Merchants on that road were a tempting target, and the forest had a reputation for robbers from as early as the 12th century. Today the most dangerous thing you are likely to meet is a mountain biker. The easiest way there is by train to Úvaly, then a short walk west into the trees.
+
+🎁 Bonus: Like the north pole, this marker is not quite on the real spot. The true easternmost point lies in a dense thicket, and the visitors who kept pushing their way in to find it were disturbing the local wild boar. So the post was set beside the trail instead. In the north, the railway got its way. Out here in the east, the boars did.`,
+
+      cz: `Nejvýchodnější bod Prahy není vyhlídka, pomník a dokonce ani mýtina. Je to betonový sloupek mezi stromy Klánovického lesa, kousek od turistické cesty, tam, kde končí pražský Újezd nad Lesy a začínají Úvaly. Pár minut chůze dál na východ si už můžete dát kafe ve Středočeském kraji.
+
+Je to jeden ze čtyř „pražských pólů“, nejvzdálenějších bodů území města na sever, jih, východ a západ. Na místě je koncem listopadu 2020 vyznačil youtuber Janek Rubeš z Kluků z Prahy spolu s Ondřejem Boháčem, ředitelem Institutu plánování a rozvoje hlavního města, a každý dostal stejné označení: kuželovitý betonový sloupek s půlkulatým zakončením, vážící 180 kilogramů, s červeno-černými štítky. Východní pól leží na 50°5′13″ s. š. a 14°42′24″ v. d., asi 500 metrů na západ od prvních domů Úval. Vede k němu krátká vyšlapaná pěšinka od lesní cesty se zelenou turistickou značkou a na blízké křižovatce jsou lavičky, stoly a informační tabule. Les kolem je největší souvislý lesní komplex na území Prahy, má přes tisíc hektarů. Ve středověku se mu říkalo Vidrholec a vedla jím obchodní cesta z Prahy na východ. Kupci na ní byli lákavým cílem a les měl pověst loupežnického hnízda už od 12. století. Dnes je nejnebezpečnější, co tu nejspíš potkáte, horský cyklista. Nejsnazší cesta sem je vlakem do Úval a pak kousek pěšky na západ do lesa.
+
+🎁 Bonus: Stejně jako na severním pólu ani tady sloupek nestojí přesně na skutečném místě. Pravý nejvýchodnější bod leží v hustém mlází a návštěvníci, kteří se k němu prodírali, rušili místní černou zvěř. Sloupek proto stojí u cesty. Na severu dostala přednost železnice, tady na východě divočáci.`,
+
+      zh: `布拉格的最东端不是观景台，不是纪念碑，连片林间空地都算不上。它是克拉诺维采森林里的一根水泥桩，离一条徒步小路没几步，布拉格的乌耶兹德纳德莱西区在这里结束，乌瓦利镇从这里开始。再往东走几分钟，你就能在中波希米亚州买杯咖啡了。
+
+它是四个“布拉格极点”之一，也就是全市辖区最北、最南、最东、最西的四个点。2020年11月底，“布拉格小伙”的油管博主雅内克·鲁贝什联合布拉格规划与发展研究院院长翁德热·博哈奇，在实地立起了标志。每个极点用的都是同一种：一根圆锥形、顶部呈半圆的水泥桩，重180公斤，挂着红黑两色的说明牌。东极位于北纬50°5′13″、东经14°42′24″，在乌瓦利第一排房子以西大约500米。从一条标着绿色徒步标记的林间路岔出去，有一条早就被踩出来的短小路通到它跟前，附近的路口还有长椅、野餐桌和介绍牌。周围这片森林是布拉格境内最大的一整片林地，面积超过一千公顷。中世纪时它叫维德尔霍莱茨，从布拉格往东去的商路正好从林子里穿过。路上的商人是块肥肉，这片森林早在12世纪就以强盗出没闻名。如今你在这儿可能遇到的最危险的东西，是骑山地车的人。去那里最简单的办法，是坐火车到乌瓦利，再往西走一小段进树林。
+
+🎁 彩蛋：和北极一样，这根桩子也没有立在真正的极点上。真正的最东点在一片密不透风的灌木丛里，总有游客挤进去找它，把当地的野猪吵得不得安宁。所以桩子就改立在了小路边。在北边，让路的是地理，赢的是铁路；到了东边，赢的是野猪。`,
+    },
+  },
+  {
+    // Added 2026-10-03 at the user's request (coordinates and cover
+    // user-supplied; the cover shows St. Andrew's church). Sources: Valtr &
+    // Dryková, "Nástin stavebního vývoje obcí Kolovraty a Tehovičky", Průzkumy
+    // památek / Praha 2011/1 (name = "village of the Kolowrats", from Old Czech
+    // kolovrat for any rotating mechanism: crossbow winch, loom beam, hurdy-
+    // gurdy; forged 1205 charter recording Mladota's gift to Ostrov monastery
+    // in 1109–1140; Zosimír of Kolowrat 1297; Johannite commandery of
+    // Uhříněves from 1380; Jan of Kolowrat at the fortress 1415, founder of
+    // the Krakovský line; Smiřický purchase 1579; St. Andrew's 14th c., Baroque
+    // rebuild 1767 by V. Budil, 1841 repairs, listed with its walled
+    // churchyard; St. Donatus group by the new cemetery; viaduct over the
+    // Říčanský potok; halt opened 1920; joined Prague 1974), cs.wikipedia
+    // "Kolovraty" (parish 1352, Swedes burned the village in the Thirty Years'
+    // War, railway 1871, St. Donatus statue 1765 by Duchess Maria Theresa of
+    // Savoy).
+    name: 'Kolovraty',
+    slug: 'kolovraty',
+    localizedNames: { cz: 'Kolovraty', zh: '科洛夫拉蒂' },
+    labels: ['village-and-town', 'historical'],
+    coordinates: { lat: 50.010102098964474, lng: 14.62978686658507 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kolovraty',
+    description: {
+      en: `On Prague's south-eastern edge, past the last housing estates, sits a quiet village with a small yellow church, a stone churchyard wall and a stream at the bottom of the hill. It looks like nothing much happened here. In fact, this is where one of the grandest noble families in Bohemian history got its name.
+
+The name Kolovraty simply means "the village of the Kolowrats". The Kolowrat family is first recorded here in 1297, with a certain Zosimír "of Kolowrat and of Průhonice", and the village's old fortress is often named as the family's original seat. From that modest start the Kolowrats spread into a whole web of branches and spent the next seven centuries as burgraves, governors, chancellors and ministers. The village itself is older still: a charter dated 1205, a later forgery but one that seems to preserve real information, says a lord called Mladota gave four farms here to the Benedictines of Ostrov sometime between 1109 and 1140. Over the following centuries Kolovraty changed hands constantly. It belonged to Old Town merchants, then to the Knights of St. John at nearby Uhříněves from 1380, and in 1415 a Jan of Kolowrat was living at the fortress, the man who founded the family's Krakovský line. In 1579 it was bought by the Smiřický family along with the Uhříněves estate, and after 1621 it ended up with the Liechtensteins, who kept it until the land reform after 1918. The Swedes burned the village during the Thirty Years' War, and by then the fortress had already outlived its purpose. Nothing of it survives. What does survive is the Church of St. Andrew on its little rise above the stream. It has a Gothic core from the 14th century, with a parish recorded here by 1352, and it was rebuilt in Baroque style in 1767. Its walled churchyard is the oldest corner of the village. Kolovraty got its railway in 1871, though trains only began stopping here in 1920, and it became part of Prague in 1974.
+
+🎁 Bonus: In modern Czech a kolovrat is a spinning wheel, but in Old Czech the word covered almost anything that turned: a press, the winch used to draw a crossbow, the beam of a loom, even the cranked wheel of a hurdy-gurdy. So one of Bohemia's most powerful families may have been named, in the end, after a piece of village machinery. By the new cemetery stands a Baroque statue of St. Donatus, patron saint against storms and hail, put up in 1765 by Duchess Maria Theresa of Savoy. Even an aristocrat with estates across Central Europe knew what a farmer here was really afraid of.`,
+
+      cz: `Na jihovýchodním okraji Prahy, za posledními sídlišti, leží tichá vesnice s malým žlutým kostelem, kamennou hřbitovní zdí a potokem pod kopcem. Vypadá to, že se tu nikdy nic zvláštního nestalo. Ve skutečnosti odsud dostal jméno jeden z nejvznešenějších šlechtických rodů českých dějin.
+
+Název Kolovraty znamená prostě „ves Kolovratů“. Rod pánů z Kolowrat je tu poprvé doložen roku 1297, kdy se uvádí jistý Zosimír „z Kolowrat a z Průhonic“, a zdejší tvrz bývá označována za původní rodové sídlo. Z tohoto skromného začátku se Kolowratové rozrostli do celé sítě rodových větví a dalších sedm století strávili jako purkrabí, místodržitelé, kancléři a ministři. Samotná ves je ještě starší: listina s datem 1205, sice pozdější falzum, ale zřejmě se skutečnými údaji, uvádí, že jistý pan Mladota věnoval benediktinům z Ostrova čtyři zdejší usedlosti někdy mezi lety 1109 a 1140. V dalších staletích Kolovraty neustále měnily majitele. Patřily staroměstským kupcům, od roku 1380 johanitům ze sousední Uhříněvsi a roku 1415 seděl na tvrzi Jan z Kolowrat, zakladatel krakovské linie rodu. Roku 1579 je spolu s uhříněveským panstvím koupili Smiřičtí a po roce 1621 skončily u Lichtenštejnů, kterým patřily až do pozemkové reformy po roce 1918. Za třicetileté války ves vypálili Švédové a tvrz tou dobou už dávno dosloužila. Nezůstalo z ní nic. Zůstal ale kostel sv. Ondřeje na malé vyvýšenině nad potokem. Má gotické jádro ze 14. století, fara je tu doložena roku 1352, a v roce 1767 prošel barokní přestavbou. Jeho ohrazený hřbitov je nejstarším koutem vsi. Železnice sem dorazila roku 1871, vlaky tu ale začaly zastavovat až v roce 1920, a v roce 1974 se Kolovraty staly součástí Prahy.
+
+🎁 Bonus: V dnešní češtině je kolovrat přeslice na předení, ve staré češtině se tak ale říkalo skoro všemu, co se točilo: lisu, vratidlu na napínání kuše, vratidlu tkalcovského stavu, a dokonce i kolečku na kliku u niněry. Jeden z nejmocnějších rodů v Čechách se tedy možná nakonec jmenuje po kusu vesnické mašinérie. U nového hřbitova stojí barokní socha sv. Donáta, patrona proti bouřkám a krupobití, kterou tu roku 1765 dala postavit vévodkyně Marie Terezie Savojská. I aristokratka s panstvími po celé střední Evropě věděla, čeho se zdejší sedlák doopravdy bojí.`,
+
+      zh: `在布拉格东南边缘，过了最后几片住宅区，有一个安静的村子：一座小小的黄色教堂，一圈石砌的墓园围墙，山坡下还有一条小溪。看起来这里从来没发生过什么大事。其实，波希米亚历史上最显赫的贵族家族之一，名字就是从这里来的。
+
+科洛夫拉蒂这个名字的意思，就是“科洛夫拉特家的村子”。1297年，这个家族第一次在这里留下记录，一位叫佐西米尔的人自称“科洛夫拉特与普鲁霍尼采的”，村里那座古老的设防庄园也常被说成是家族的发源地。从这个不起眼的起点出发，科洛夫拉特家族分出了一大串支系，在之后的七个世纪里当过城堡伯爵、总督、首相和大臣。村子本身还要更老：一份标注为1205年的特许状虽然是后人伪造的，但似乎保留了真实的信息，上面说一位叫姆拉多塔的领主在1109到1140年之间，把这里的四座农庄捐给了奥斯特罗夫的本笃会修道院。之后几百年里，科洛夫拉蒂不停地换主人。它先后归过布拉格老城的商人，1380年起归附近乌赫日涅维斯的圣约翰骑士团。1415年，住在设防庄园里的是一位扬·科洛夫拉特，家族克拉科夫支系就是他开创的。1579年，斯米日茨基家族连同乌赫日涅维斯庄园一起把它买下，1621年以后又落到了列支敦士登家族手里，一直到1918年之后的土地改革为止。三十年战争期间，瑞典人烧了这个村子，那座设防庄园那时早就没什么用了，如今一点也没留下。留下来的是小溪上方那片小高地上的圣安德烈教堂。它有一个14世纪的哥特式内核，1352年就有了堂区的记录，1767年又改建成了巴洛克风格。它那带围墙的墓园，是全村最古老的角落。铁路1871年就修到了这里，可火车直到1920年才开始在这儿停靠。1974年，科洛夫拉蒂并入了布拉格。
+
+🎁 彩蛋：在今天的捷克语里，kolovrat指的是纺车，可在古捷克语里，几乎所有会转的东西都能这么叫：压榨机、给弩上弦的绞盘、织布机的卷轴，甚至手摇弦琴上那个带摇柄的轮子。所以说，波希米亚最有权势的家族之一，说到底可能是以一件乡下机械命名的。新墓园旁边立着一尊巴洛克风格的圣多纳图斯像，他是专管暴风雨和冰雹的守护圣人，1765年由萨伏依公爵夫人玛丽亚·特蕾莎下令竖立。哪怕是一位在整个中欧都有庄园的贵族，也清楚这里的农民真正怕的是什么。`,
+    },
+  },
+  {
+    // Added 2026-10-03 at the user's request (coordinates and cover
+    // user-supplied; the cover shows the Prague 22 town hall). Sources:
+    // cs.wikipedia "Uhříněves" (first mention c. 1227 "Vgrinewez", St. George's
+    // convent 1228, name from an owner Uher/Uhřín, Liechtensteins 1622, market
+    // town 1866, town 1913, railway 1870, sugar factory 1868, All Saints
+    // 1740–43 by T. V. Budil with paintings by J. P. Molitor, synagogue
+    // 1847–48, chateau 1591 / 1771, Research Institute of Animal Production
+    // since 1953, joined Prague 1974, core of Praha 22 from 2002, 10,992
+    // residents in 2021), praha22.cz history page (Templars, Smiřický castle
+    // burned by the Swedes, distillery/brewery/sugar refinery/brickworks,
+    // town status 1913, Jewish community deported 1942, Jewish cemetery with
+    // about 300 stones, game preserve protected 1982, town hall completed 2002
+    // on Nové náměstí on the former sugar refinery site), loudavymkrokem.cz
+    // (Templar commandery by 1292 then Johannites, Jaroslav Smiřický bought
+    // 1579, castle built 1591, Karl of Liechtenstein bought it 1622 from
+    // Wallenstein, Swedes burned it 1639, Baroque rebuild 1711, Liechtensteins
+    // until the 1919 land reform, the c. 1900 "Na Zámečku" villa built for
+    // the Liechtenstein official Ferdinand Böhm, now a hotel, commonly mistaken
+    // for the chateau).
+    name: 'Uhříněves',
+    slug: 'uhrineves',
+    localizedNames: { cz: 'Uhříněves', zh: '乌赫日涅维斯' },
+    labels: ['village-and-town', 'historical'],
+    coordinates: { lat: 50.031903309566886, lng: 14.599308072414056 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Uh%C5%99%C3%ADn%C4%9Bves',
+    description: {
+      en: `Uhříněves spent nearly a century becoming a proper town, finally got there in 1913, and then had just over sixty years to enjoy it before Prague swallowed it whole. It still behaves like a town, though. It has its own square, its own Baroque church and its own round-towered town hall, and it runs a whole district from there.
+
+The place first appears around 1227, as a village belonging to the convent of St. George at Prague Castle. By 1292 the Knights Templar had a commandery here, and after the order was dissolved it passed to the Knights of St. John. In 1579 Jaroslav Smiřický bought Uhříněves, and in 1591 the family built a Renaissance chateau as the centre of a large estate. After the Battle of White Mountain the estate came to Karl of Liechtenstein in 1622. The Liechtensteins held it for almost three hundred years, through the Swedes burning the chateau in 1639 and the Baroque rebuild that followed, until the land reform of 1919. Their most visible legacy is the Church of All Saints, built from 1740 to 1743 by Tomáš Vojtěch Budil, with paintings by Jan Petr Molitor inside. The 19th century then turned Uhříněves into a busy little industrial town. The railway arrived in 1870, a sugar factory opened in 1868, and a distillery, a brewery and brickworks followed. It became a market town in 1866 and a full town in 1913. Uhříněves also had a sizeable Jewish community, with a synagogue built in 1847–48 and a cemetery in the old game park holding about 300 gravestones. The last burial there took place in 1942, the year the community was deported. In 1974 the town became part of Prague, and in 2002 it became the centre of the new Prague 22 district. The district's town hall opened the same year on Nové náměstí, built on the site of the old sugar factory. Today about eleven thousand people live here.
+
+🎁 Bonus: Ask a visitor to point out the Uhříněves chateau and there's a good chance they'll point at the wrong building. The pretty turreted villa called "Na Zámečku" ("At the Little Chateau"), now a hotel, was in fact built around 1900 for Ferdinand Böhm, a Liechtenstein estate official. The real chateau has been home since 1953 to the Research Institute of Animal Production, and stays behind a closed gate. So the building everyone photographs is the official's house, and the prince's chateau now belongs to the cows and pigs.`,
+
+      cz: `Uhříněvsi trvalo skoro sto let, než se stala pořádným městem. Povedlo se to v roce 1913 a pak si to užívala necelých šedesát let, než ji celou spolkla Praha. Pořád se ale chová jako město. Má vlastní náměstí, vlastní barokní kostel a vlastní radnici s kulatou věží, ze které spravuje celou městskou část.
+
+Poprvé se objevuje kolem roku 1227 jako ves kláštera sv. Jiří na Pražském hradě. Roku 1292 tu už měli komendu templáři a po zrušení řádu ji převzali johanité. V roce 1579 Uhříněves koupil Jaroslav Smiřický a roku 1591 tu rod postavil renesanční zámek jako středisko velkého panství. Po bitvě na Bílé hoře připadlo panství roku 1622 Karlovi z Lichtenštejna. Lichtenštejnové ho drželi skoro tři sta let, přes vypálení zámku Švédy v roce 1639 i následnou barokní přestavbu, až do pozemkové reformy roku 1919. Jejich nejviditelnější stopou je kostel Všech svatých, který v letech 1740 až 1743 postavil Tomáš Vojtěch Budil a uvnitř vyzdobil malíř Jan Petr Molitor. Devatenácté století pak z Uhříněvsi udělalo čilé průmyslové městečko. V roce 1870 sem dorazila železnice, roku 1868 se otevřel cukrovar a přibyly lihovar, pivovar a cihelny. Roku 1866 se ves stala městysem a v roce 1913 městem. Uhříněves měla také početnou židovskou obec se synagogou z let 1847–1848 a hřbitovem v bývalé oboře, kde stojí asi 300 náhrobků. Poslední pohřeb se tu konal v roce 1942, v roce, kdy byla obec deportována. V roce 1974 se město stalo součástí Prahy a v roce 2002 centrem nové městské části Praha 22. Ve stejném roce se na Novém náměstí otevřela její radnice, postavená na místě bývalého cukrovaru. Dnes tu žije asi jedenáct tisíc lidí.
+
+🎁 Bonus: Požádejte návštěvníka, ať vám ukáže uhříněveský zámek, a je dost pravděpodobné, že ukáže na špatnou budovu. Půvabná vila s věžičkami zvaná „Na Zámečku“, dnes hotel, byla ve skutečnosti postavena kolem roku 1900 pro Ferdinanda Böhma, úředníka lichtenštejnského velkostatku. Skutečný zámek od roku 1953 patří Výzkumnému ústavu živočišné výroby a zůstává za zavřenou bránou. Budova, kterou si všichni fotí, je tedy dům úředníka, a knížecí zámek mezitím patří kravám a prasatům.`,
+
+      zh: `乌赫日涅维斯花了将近一百年才成为一座像样的城镇，1913年终于如愿，然后只享受了六十年出头，就被布拉格整个吞了进去。不过它到现在还是一副城镇的做派：有自己的广场，有自己的巴洛克教堂，还有一座带圆塔的市政厅，整个区都从这里管。
+
+它最早出现在1227年前后，当时是布拉格城堡圣乔治修道院名下的一个村子。到1292年，圣殿骑士团已经在这里设了分团，骑士团解散以后，又转到了圣约翰骑士团手里。1579年，雅罗斯拉夫·斯米日茨基买下了乌赫日涅维斯，1591年，这个家族在这里盖了一座文艺复兴式的庄园府邸，作为一大片领地的管理中心。白山战役之后，这片领地在1622年归了列支敦士登家族的卡尔。列支敦士登家族一拿就是将近三百年，中间经历了1639年瑞典人火烧府邸和之后的巴洛克式重建，一直到1919年土地改革为止。他们留下的最显眼的东西，是万圣教堂，1740到1743年由托马什·沃伊捷赫·布迪尔建造，里面的画出自扬·彼得·莫利托尔之手。到了19世纪，乌赫日涅维斯变成了一座热闹的小工业城镇。1868年糖厂开工，1870年铁路通车，之后又有了酒精厂、啤酒厂和砖厂。它在1866年成了集镇，1913年正式升格为城镇。乌赫日涅维斯还有过一个不小的犹太社区，1847到1848年建了犹太会堂，旧狩猎园里的犹太墓地留有大约300块墓碑。那里最后一次下葬是在1942年，也就是这个社区被驱逐的那一年。1974年，乌赫日涅维斯并入布拉格，2002年成为新设的布拉格22区的中心。同一年，区市政厅在新广场落成，地址正是当年糖厂的旧址。如今这里住着大约一万一千人。
+
+🎁 彩蛋：要是请游客指一指乌赫日涅维斯的府邸在哪儿，对方很可能会指错楼。那座带小塔楼、名叫“小城堡旁”的漂亮别墅，现在是一家酒店，其实是1900年前后给列支敦士登庄园的管事费迪南德·伯姆盖的。真正的府邸从1953年起归动物生产研究所使用，大门一直关着。所以大家拍照的那栋楼是管事的房子，而亲王的府邸，如今归奶牛和猪了。`,
+    },
+  },
 ];
 
 async function run() {
