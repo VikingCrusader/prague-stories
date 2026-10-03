@@ -32545,51 +32545,221 @@ Název Kolovraty znamená prostě „ves Kolovratů“. Rod pánů z Kolowrat je
     },
   },
   {
-    // Added 2026-10-03 at the user's request (coordinates and cover
-    // user-supplied; the cover shows the Prague 22 town hall). Sources:
-    // cs.wikipedia "Uhříněves" (first mention c. 1227 "Vgrinewez", St. George's
-    // convent 1228, name from an owner Uher/Uhřín, Liechtensteins 1622, market
-    // town 1866, town 1913, railway 1870, sugar factory 1868, All Saints
-    // 1740–43 by T. V. Budil with paintings by J. P. Molitor, synagogue
-    // 1847–48, chateau 1591 / 1771, Research Institute of Animal Production
-    // since 1953, joined Prague 1974, core of Praha 22 from 2002, 10,992
-    // residents in 2021), praha22.cz history page (Templars, Smiřický castle
-    // burned by the Swedes, distillery/brewery/sugar refinery/brickworks,
-    // town status 1913, Jewish community deported 1942, Jewish cemetery with
-    // about 300 stones, game preserve protected 1982, town hall completed 2002
-    // on Nové náměstí on the former sugar refinery site), loudavymkrokem.cz
-    // (Templar commandery by 1292 then Johannites, Jaroslav Smiřický bought
-    // 1579, castle built 1591, Karl of Liechtenstein bought it 1622 from
-    // Wallenstein, Swedes burned it 1639, Baroque rebuild 1711, Liechtensteins
-    // until the 1919 land reform, the c. 1900 "Na Zámečku" villa built for
-    // the Liechtenstein official Ferdinand Böhm, now a hotel, commonly mistaken
-    // for the chateau).
+    // Added 2026-10-03 as `uhrineves` (a whole-town card), then refocused the
+    // same day at the user's request onto the town hall building its cover
+    // shows; the doc was renamed in place (same _id) and the town card moved
+    // to a new `uhrineves` entry below. Sources: praha22.cz "Zajímavá místa
+    // Prahy 22" (Nové náměstí laid out on land where a sugar factory stood
+    // 1868–2000; the first building was a school canteen, and the town hall
+    // was added to it in 2002), praha22.cz history page (town hall completed
+    // 2002 on the former sugar refinery site), cs.wikipedia "Uhříněves" and
+    // "Praha 22" (town 1913, joined Prague 1974, Praha 22 created 2002 out of
+    // Uhříněves, Pitkovice and Hájek; the office also serves as the
+    // administrative-district office for Benice, Kolovraty, Královice and
+    // Nedvězí).
+    name: 'Prague 22 Town Hall',
+    slug: 'radnice-praha-22',
+    localizedNames: { cz: 'Radnice Prahy 22', zh: '布拉格22区政府大楼' },
+    labels: ['municipal', 'modern'],
+    coordinates: { lat: 50.031903309566886, lng: 14.599308072414056 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Praha_22',
+    description: {
+      en: `Most Prague town halls sit in a grand 19th-century building on an old market square. Prague 22's sits on a square that didn't exist until the 21st century, on land where, for more than a hundred years, the main business was boiling sugar beet.
+
+The site is the old Uhříněves sugar factory. It opened in 1868, back when the railway and the beet fields around it were turning a sleepy estate village into a small industrial town, and it kept going until 2000. Once it closed, the town built a whole new centre on its grounds and named it, with admirable honesty, Nové náměstí: New Square. The first building to go up there was a school canteen. In 2002 the town hall was added onto it, the same year that Uhříněves, together with the old villages of Pitkovice and Hájek, became the Prague 22 district. The timing was not a coincidence. Uhříněves had been a town in its own right since 1913, lost that status when it joined Prague in 1974, and got some of it back as a self-governing district with its own mayor and council. The office here also does administrative work for the neighbouring districts of Benice, Kolovraty, Královice and Nedvězí, so a fair slice of south-eastern Prague comes here to get its paperwork done. The building itself is modern and unshowy: two plain office wings on either side of a round tower with a clock, facing a car park where the factory yards used to be.
+
+🎁 Bonus: Put it all together and Prague 22's town hall was built onto the side of a school canteen, on the site of a sugar factory. Few town halls anywhere can claim such a close connection to lunch.`,
+
+      cz: `Většina pražských radnic sídlí ve vznešené budově z 19. století na starém tržním náměstí. Radnice Prahy 22 stojí na náměstí, které do 21. století vůbec neexistovalo, na pozemcích, kde se přes sto let hlavně vařila cukrová řepa.
+
+Je to místo bývalého uhříněveského cukrovaru. Otevřel se roku 1868, v době, kdy železnice a řepná pole kolem měnily ospalou panskou ves v malé průmyslové město, a vydržel až do roku 2000. Po jeho zavření postavila obec na jeho pozemcích celé nové centrum a s obdivuhodnou upřímností ho pojmenovala Nové náměstí. První budovou tu byla školní jídelna. V roce 2002 k ní přibyla radnice, ve stejném roce, kdy se Uhříněves spolu se starými vesnicemi Pitkovice a Hájek stala městskou částí Praha 22. Načasování nebylo náhodné. Uhříněves byla samostatným městem od roku 1913, o tento status přišla připojením k Praze v roce 1974 a část z něj získala zpět jako samosprávná městská část s vlastním starostou a zastupitelstvem. Úřad tu navíc vykonává správu i pro sousední Benice, Kolovraty, Královice a Nedvězí, takže sem za úředními záležitostmi jezdí slušný kus jihovýchodní Prahy. Budova sama je moderní a nenápadná: dvě prostá kancelářská křídla po stranách kulaté věže s hodinami, obrácené k parkovišti, kde dřív bývaly tovární dvory.
+
+🎁 Bonus: Když se to všechno sečte, radnice Prahy 22 byla přistavěna k boku školní jídelny, na místě cukrovaru. Málokterá radnice na světě má k obědu tak blízko.`,
+
+      zh: `布拉格的区政府大楼，大多设在老集市广场上一栋气派的19世纪建筑里。布拉格22区的这一栋，却建在一个21世纪之前根本不存在的广场上，这块地在一百多年里的主业是熬甜菜。
+
+这里原来是乌赫日涅维斯糖厂。它1868年开工，那时铁路和周围的甜菜地正把一个昏昏欲睡的庄园村子变成一座小工业城镇，一直开到2000年。糖厂关门以后，镇上在它的地皮上建起了一整片新中心，还老老实实地给它起名叫“新广场”。这里盖起来的第一栋楼是一座学校食堂。2002年，区政府大楼在食堂旁边加盖起来，同一年，乌赫日涅维斯和两个老村子皮特科维采、哈耶克一起组成了布拉格22区。这个时间点不是巧合。乌赫日涅维斯从1913年起就是一座独立的城镇，1974年并入布拉格时丢了这个身份，后来作为有自己区长和区议会的自治区，又找回了一部分。这里的政府办公室还替邻近的贝尼采、科洛夫拉蒂、克拉洛维采和内德维热办理行政事务，所以布拉格东南部有不小一片地方的人，都得来这儿办手续。大楼本身很现代，也很低调：两侧是两翼朴素的办公楼，中间夹着一座带钟的圆塔，正对着一片停车场，那里从前是糖厂的厂院。
+
+🎁 彩蛋：把这些凑到一起就是：布拉格22区政府大楼是贴着一座学校食堂盖起来的，地皮原来是一座糖厂。世界上恐怕没几座政府大楼，跟午饭的关系这么近。`,
+    },
+  },
+  {
+    // Added 2026-10-03 at the user's request (coordinates user-supplied;
+    // brief: the railway station plus the town as a whole). Sources:
+    // cs.wikipedia "Uhříněves" (c. 1227 "Vgrinewez", St. George's convent
+    // 1228, name from an owner Uher/Uhřín, Liechtensteins 1622, market town
+    // 1866, town 1913, sugar factory 1868, synagogue 1847–48, joined Prague
+    // 1974, core of Praha 22 from 2002, 10,992 residents in 2021),
+    // cs.wikipedia "Praha-Uhříněves (nádraží)" (opened 14 December 1871 with
+    // the Emperor Franz Joseph Railway, Prague–České Budějovice line; original
+    // building plus a second one of 1915 in the style of Hostivař station;
+    // 1871 water tower; 2005–2008 corridor rebuild replaced level crossings
+    // with underpasses; container terminal with ~11 km of sidings),
+    // cs.wikipedia "Uhříněves (zámek)" (Templars, Johannites, Jaroslav
+    // Smiřický 1579, chateau 1591, Liechtensteins 1622, burned by the Swedes
+    // 1639, Baroque rebuild 1711, land reform, state purchase 1923, now the
+    // Research Institute of Animal Production, closed to the public; the
+    // neo-Baroque villa built 1900 by architect František Hošek for Ferdinand
+    // Böhm, central director of Prince Johann II, enlarged 1910, now Hotel Na
+    // Zámečku at Rozdělená 240/8, often mistaken for the chateau on
+    // postcards), praha22.cz (distillery, brewery, sugar refinery, brickworks;
+    // Jewish community deported 1942; cemetery of about 300 stones, oldest
+    // 1719, in the game park).
     name: 'Uhříněves',
     slug: 'uhrineves',
     localizedNames: { cz: 'Uhříněves', zh: '乌赫日涅维斯' },
-    labels: ['village-and-town', 'historical'],
-    coordinates: { lat: 50.031903309566886, lng: 14.599308072414056 },
+    labels: ['village-and-town', 'historical', 'transport'],
+    coordinates: { lat: 50.034072672199734, lng: 14.59152233892548 },
     rarity: 'rare',
     xpReward: 20,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Uh%C5%99%C3%ADn%C4%9Bves',
     description: {
-      en: `Uhříněves spent nearly a century becoming a proper town, finally got there in 1913, and then had just over sixty years to enjoy it before Prague swallowed it whole. It still behaves like a town, though. It has its own square, its own Baroque church and its own round-towered town hall, and it runs a whole district from there.
+      en: `Uhříněves spent the better part of a century working its way up to becoming a proper town, finally made it in 1913, and then had just over sixty years to enjoy it before Prague swallowed it whole. The thing that got it there is still right here: the railway station.
 
-The place first appears around 1227, as a village belonging to the convent of St. George at Prague Castle. By 1292 the Knights Templar had a commandery here, and after the order was dissolved it passed to the Knights of St. John. In 1579 Jaroslav Smiřický bought Uhříněves, and in 1591 the family built a Renaissance chateau as the centre of a large estate. After the Battle of White Mountain the estate came to Karl of Liechtenstein in 1622. The Liechtensteins held it for almost three hundred years, through the Swedes burning the chateau in 1639 and the Baroque rebuild that followed, until the land reform of 1919. Their most visible legacy is the Church of All Saints, built from 1740 to 1743 by Tomáš Vojtěch Budil, with paintings by Jan Petr Molitor inside. The 19th century then turned Uhříněves into a busy little industrial town. The railway arrived in 1870, a sugar factory opened in 1868, and a distillery, a brewery and brickworks followed. It became a market town in 1866 and a full town in 1913. Uhříněves also had a sizeable Jewish community, with a synagogue built in 1847–48 and a cemetery in the old game park holding about 300 gravestones. The last burial there took place in 1942, the year the community was deported. In 1974 the town became part of Prague, and in 2002 it became the centre of the new Prague 22 district. The district's town hall opened the same year on Nové náměstí, built on the site of the old sugar factory. Today about eleven thousand people live here.
+The place first appears around 1227, as a village belonging to the convent of St. George at Prague Castle. Later it passed to the Knights Templar and then the Knights of St. John, and in 1579 it was bought by Jaroslav Smiřický, whose family built a chateau here in 1591 as the centre of a large estate. After the Battle of White Mountain the estate went to Karl of Liechtenstein in 1622, and the Liechtensteins kept it for almost three hundred years, until the land reform after 1918. For most of that time Uhříněves was a quiet estate village. Then, on 14 December 1871, the Emperor Franz Joseph Railway opened its line from Prague towards České Budějovice and Vienna, with a station here. Everything sped up. A sugar factory had opened in 1868, and a distillery, a brewery and brickworks soon followed. The population roughly tripled in fifty years. Uhříněves became a market town in 1866 and a full town in 1913. Its sizeable Jewish community built a synagogue in 1847–48 and had a cemetery in the old game park, with about 300 gravestones, the oldest from 1719. The last burial there was in 1942, the year the community was deported. Uhříněves joined Prague in 1974 and in 2002 became the centre of the Prague 22 district. Today about eleven thousand people live here. The station still has its original building, a second one from 1915, and a water tower from 1871. Between 2005 and 2008 the whole line was rebuilt, and next to it now sits a large container terminal with about 11 kilometres of sidings. These days the station does more business moving freight than it ever did with sugar.
 
-🎁 Bonus: Ask a visitor to point out the Uhříněves chateau and there's a good chance they'll point at the wrong building. The pretty turreted villa called "Na Zámečku" ("At the Little Chateau"), now a hotel, was in fact built around 1900 for Ferdinand Böhm, a Liechtenstein estate official. The real chateau has been home since 1953 to the Research Institute of Animal Production, and stays behind a closed gate. So the building everyone photographs is the official's house, and the prince's chateau now belongs to the cows and pigs.`,
+🎁 Bonus: Ask someone to point out the Uhříněves chateau and there's a good chance they'll point at the wrong building. The pretty turreted villa now run as Hotel Na Zámečku ("At the Little Chateau") was in fact built in 1900 for Ferdinand Böhm, the chief director of the Liechtenstein estates, and it turns up on old postcards labelled as the chateau. The real chateau is a much plainer building, used since the 1950s by the Research Institute of Animal Production and kept behind a closed gate. So the house everyone photographs belonged to the estate manager, and the prince's chateau now belongs to the cows and pigs.`,
 
-      cz: `Uhříněvsi trvalo skoro sto let, než se stala pořádným městem. Povedlo se to v roce 1913 a pak si to užívala necelých šedesát let, než ji celou spolkla Praha. Pořád se ale chová jako město. Má vlastní náměstí, vlastní barokní kostel a vlastní radnici s kulatou věží, ze které spravuje celou městskou část.
+      cz: `Uhříněvsi trvalo skoro celé století, než se vypracovala na pořádné město. Povedlo se to v roce 1913 a pak si to užívala necelých šedesát let, než ji celou spolkla Praha. To, co ji tam dostalo, tu pořád stojí: nádraží.
 
-Poprvé se objevuje kolem roku 1227 jako ves kláštera sv. Jiří na Pražském hradě. Roku 1292 tu už měli komendu templáři a po zrušení řádu ji převzali johanité. V roce 1579 Uhříněves koupil Jaroslav Smiřický a roku 1591 tu rod postavil renesanční zámek jako středisko velkého panství. Po bitvě na Bílé hoře připadlo panství roku 1622 Karlovi z Lichtenštejna. Lichtenštejnové ho drželi skoro tři sta let, přes vypálení zámku Švédy v roce 1639 i následnou barokní přestavbu, až do pozemkové reformy roku 1919. Jejich nejviditelnější stopou je kostel Všech svatých, který v letech 1740 až 1743 postavil Tomáš Vojtěch Budil a uvnitř vyzdobil malíř Jan Petr Molitor. Devatenácté století pak z Uhříněvsi udělalo čilé průmyslové městečko. V roce 1870 sem dorazila železnice, roku 1868 se otevřel cukrovar a přibyly lihovar, pivovar a cihelny. Roku 1866 se ves stala městysem a v roce 1913 městem. Uhříněves měla také početnou židovskou obec se synagogou z let 1847–1848 a hřbitovem v bývalé oboře, kde stojí asi 300 náhrobků. Poslední pohřeb se tu konal v roce 1942, v roce, kdy byla obec deportována. V roce 1974 se město stalo součástí Prahy a v roce 2002 centrem nové městské části Praha 22. Ve stejném roce se na Novém náměstí otevřela její radnice, postavená na místě bývalého cukrovaru. Dnes tu žije asi jedenáct tisíc lidí.
+Poprvé se objevuje kolem roku 1227 jako ves kláštera sv. Jiří na Pražském hradě. Později přešla na templáře a pak na johanity a roku 1579 ji koupil Jaroslav Smiřický, jehož rod tu v roce 1591 postavil zámek jako středisko velkého panství. Po bitvě na Bílé hoře připadlo panství roku 1622 Karlovi z Lichtenštejna a Lichtenštejnové ho drželi skoro tři sta let, až do pozemkové reformy po roce 1918. Po většinu té doby byla Uhříněves tichou panskou vsí. Pak 14. prosince 1871 otevřela dráha císaře Františka Josefa trať z Prahy směrem na České Budějovice a Vídeň, se stanicí právě tady. Všechno se zrychlilo. Už roku 1868 se tu otevřel cukrovar a brzy přibyly lihovar, pivovar a cihelny. Počet obyvatel se za padesát let zhruba ztrojnásobil. Uhříněves se roku 1866 stala městysem a v roce 1913 městem. Zdejší početná židovská obec si v letech 1847–1848 postavila synagogu a v bývalé oboře měla hřbitov s asi 300 náhrobky, nejstarším z roku 1719. Poslední pohřeb se tu konal v roce 1942, v roce, kdy byla obec deportována. V roce 1974 se Uhříněves stala součástí Prahy a v roce 2002 centrem městské části Praha 22. Dnes tu žije asi jedenáct tisíc lidí. Nádraží má dodnes původní budovu, druhou budovu z roku 1915 a vodárenskou věž z roku 1871. V letech 2005 až 2008 prošla celá trať přestavbou a vedle ní dnes leží velký kontejnerový terminál s asi 11 kilometry vleček. Nádraží teď vydělává víc na nákladu, než kdy vydělalo na cukru.
 
-🎁 Bonus: Požádejte návštěvníka, ať vám ukáže uhříněveský zámek, a je dost pravděpodobné, že ukáže na špatnou budovu. Půvabná vila s věžičkami zvaná „Na Zámečku“, dnes hotel, byla ve skutečnosti postavena kolem roku 1900 pro Ferdinanda Böhma, úředníka lichtenštejnského velkostatku. Skutečný zámek od roku 1953 patří Výzkumnému ústavu živočišné výroby a zůstává za zavřenou bránou. Budova, kterou si všichni fotí, je tedy dům úředníka, a knížecí zámek mezitím patří kravám a prasatům.`,
+🎁 Bonus: Požádejte někoho, ať vám ukáže uhříněveský zámek, a je dost pravděpodobné, že ukáže na špatnou budovu. Půvabná vila s věžičkami, ve které dnes funguje hotel Na Zámečku, byla ve skutečnosti postavena v roce 1900 pro Ferdinanda Böhma, ústředního ředitele lichtenštejnských statků, a na starých pohlednicích se objevuje s popiskem „zámek“. Skutečný zámek je mnohem prostší budova, kterou od 50. let užívá Výzkumný ústav živočišné výroby a která zůstává za zavřenou bránou. Dům, který si všichni fotí, tedy patřil správci panství, a knížecí zámek mezitím patří kravám a prasatům.`,
 
-      zh: `乌赫日涅维斯花了将近一百年才成为一座像样的城镇，1913年终于如愿，然后只享受了六十年出头，就被布拉格整个吞了进去。不过它到现在还是一副城镇的做派：有自己的广场，有自己的巴洛克教堂，还有一座带圆塔的市政厅，整个区都从这里管。
+      zh: `乌赫日涅维斯花了差不多一整个世纪，才一步步熬成一座像样的城镇，1913年终于如愿，然后只享受了六十年出头，就被布拉格整个吞了进去。把它送上去的那样东西，如今还在原地：火车站。
 
-它最早出现在1227年前后，当时是布拉格城堡圣乔治修道院名下的一个村子。到1292年，圣殿骑士团已经在这里设了分团，骑士团解散以后，又转到了圣约翰骑士团手里。1579年，雅罗斯拉夫·斯米日茨基买下了乌赫日涅维斯，1591年，这个家族在这里盖了一座文艺复兴式的庄园府邸，作为一大片领地的管理中心。白山战役之后，这片领地在1622年归了列支敦士登家族的卡尔。列支敦士登家族一拿就是将近三百年，中间经历了1639年瑞典人火烧府邸和之后的巴洛克式重建，一直到1919年土地改革为止。他们留下的最显眼的东西，是万圣教堂，1740到1743年由托马什·沃伊捷赫·布迪尔建造，里面的画出自扬·彼得·莫利托尔之手。到了19世纪，乌赫日涅维斯变成了一座热闹的小工业城镇。1868年糖厂开工，1870年铁路通车，之后又有了酒精厂、啤酒厂和砖厂。它在1866年成了集镇，1913年正式升格为城镇。乌赫日涅维斯还有过一个不小的犹太社区，1847到1848年建了犹太会堂，旧狩猎园里的犹太墓地留有大约300块墓碑。那里最后一次下葬是在1942年，也就是这个社区被驱逐的那一年。1974年，乌赫日涅维斯并入布拉格，2002年成为新设的布拉格22区的中心。同一年，区市政厅在新广场落成，地址正是当年糖厂的旧址。如今这里住着大约一万一千人。
+它最早出现在1227年前后，当时是布拉格城堡圣乔治修道院名下的一个村子。后来它先后归了圣殿骑士团和圣约翰骑士团，1579年被雅罗斯拉夫·斯米日茨基买下，他的家族在1591年于此建了一座府邸，作为一大片领地的管理中心。白山战役之后，这片领地在1622年归了列支敦士登家族的卡尔，列支敦士登家族一拿就是将近三百年，直到1918年以后的土地改革。在这段时间的大部分里，乌赫日涅维斯只是一个安静的庄园村子。后来，1871年12月14日，弗朗茨·约瑟夫皇帝铁路开通了从布拉格通往捷克布杰约维采和维也纳的线路，这里正好设了一站。一切都快了起来。糖厂1868年就已开工，酒精厂、啤酒厂和砖厂很快也跟着来了。五十年里，人口大约翻了三倍。乌赫日涅维斯在1866年成了集镇，1913年正式升格为城镇。这里不小的犹太社区在1847到1848年建了犹太会堂，旧狩猎园里还有一片犹太墓地，留有大约300块墓碑，最早的一块是1719年的。那里最后一次下葬是在1942年，也就是这个社区被驱逐的那一年。1974年，乌赫日涅维斯并入布拉格，2002年成为布拉格22区的中心。如今这里住着大约一万一千人。车站至今还保留着最初的站房、1915年加建的第二座站房，以及一座1871年的水塔。2005到2008年，整条线路经历了改造，车站旁边现在是一座很大的集装箱货运站，铁路支线长约11公里。如今这座车站靠运货挣的，比当年靠糖挣的还多。
 
-🎁 彩蛋：要是请游客指一指乌赫日涅维斯的府邸在哪儿，对方很可能会指错楼。那座带小塔楼、名叫“小城堡旁”的漂亮别墅，现在是一家酒店，其实是1900年前后给列支敦士登庄园的管事费迪南德·伯姆盖的。真正的府邸从1953年起归动物生产研究所使用，大门一直关着。所以大家拍照的那栋楼是管事的房子，而亲王的府邸，如今归奶牛和猪了。`,
+🎁 彩蛋：要是请人指一指乌赫日涅维斯的府邸在哪儿，对方很可能会指错楼。那座带小塔楼的漂亮别墅，现在是“小城堡旁”酒店，其实是1900年给列支敦士登领地的总管费迪南德·伯姆盖的，在老明信片上还常被标成“府邸”。真正的府邸是一栋朴素得多的楼，从20世纪50年代起归动物生产研究所使用，大门一直关着。所以大家拍照的那栋楼是总管的房子，而亲王的府邸，如今归奶牛和猪了。`,
+    },
+  },
+  {
+    // Added 2026-10-03 at the user's request (coordinates user-supplied).
+    // Sources: cs.wikipedia "Kostel Všech svatých (Uhříněves)" (earlier small
+    // church; rebuilt 1740–1743 to plans by the Říčany builder Tomáš Budil,
+    // approved by Duchess Maria Theresa of Savoy; main altar and pulpit by
+    // František Ferdinand Ublacker 1752; All Saints altarpiece and presbytery
+    // Trinity fresco by Jan Petr Molitor, his Assumption painting 11 m², 18 m²
+    // with frame; bells: St. Wenceslas and St. Ludmila cast 1552 by Tomáš
+    // Jaroš, St. John the Baptist 1685; St. Florian and St. Roch at the
+    // entrance by Jan Jiří Šlanzovský; churchyard cemetery until 1822, new
+    // cemetery ~800 m east; deanery church from 1908; restoration from 2000),
+    // praha22.cz ("stavba vrcholného baroka", 1740–1743, T. V. Budil, interior
+    // by Jan P. Molitor). Tomáš Jaroš also cast the Zikmund bell of St. Vitus
+    // (1549) — widely documented.
+    name: 'Church of All Saints (Uhříněves)',
+    slug: 'kostel-vsech-svatych-uhrineves',
+    localizedNames: { cz: 'Kostel Všech svatých (Uhříněves)', zh: '乌赫日涅维斯万圣教堂' },
+    labels: ['church', 'historical', 'architecture'],
+    coordinates: { lat: 50.03006111696687, lng: 14.604800226662514 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_V%C5%A1ech_svat%C3%BDch_(Uh%C5%99%C3%ADn%C4%9Bves)',
+    description: {
+      en: `From the outside, the Church of All Saints looks like a solid, respectable country church. Step inside and it turns out to be a full High Baroque production, with gilded altars, a painting the size of a small flat and a bell in the tower that's nearly two hundred years older than the building it hangs in.
+
+The church was built between 1740 and 1743, replacing a smaller older one, to plans by Tomáš Vojtěch Budil, a master builder from nearby Říčany. The estate belonged to the Liechtensteins, and the project was approved by its owner at the time, Duchess Maria Theresa of Savoy. The interior took another decade. In 1752 the sculptor František Ferdinand Ublacker made the main altar and the pulpit, and the painter Jan Petr Molitor provided the All Saints altarpiece and a fresco of the Holy Trinity over the presbytery. His painting of the Assumption covers 11 square metres on its own, and 18 with its carved frame. At the main entrance stand statues of St. Florian, who protects against fire, and St. Roch, who protects against plague, both by Jan Jiří Šlanzovský. The old village cemetery surrounded the church until 1822, when it was moved about 800 metres east, and in 1908 the church was raised to the rank of a deanery church. Since 2000 it has been gradually restored, from the roof and windows to the altarpieces and the Baroque oak pews.
+
+🎁 Bonus: The larger of the two bells in the tower, dedicated to St. Wenceslas and St. Ludmila, was cast in 1552 by Tomáš Jaroš, the most famous bell-founder of Renaissance Prague. Three years earlier the same man had cast Zikmund, the giant bell of St. Vitus Cathedral. So the same founder made bells for both Prague's cathedral and a village church out in the fields, and the village bell has already outlived one church and is well into its second.`,
+
+      cz: `Zvenku vypadá kostel Všech svatých jako solidní, počestný venkovský kostel. Uvnitř se ale ukáže jako plnokrevná vrcholně barokní inscenace, se zlacenými oltáři, obrazem o velikosti menšího bytu a zvonem ve věži, který je o skoro dvě stě let starší než budova, ve které visí.
+
+Kostel vznikl v letech 1740 až 1743 na místě menšího staršího kostela podle plánů Tomáše Vojtěcha Budila, stavitele z nedalekých Říčan. Panství patřilo Lichtenštejnům a stavbu schválila tehdejší majitelka, vévodkyně Marie Terezie Savojská. Interiér trval další desetiletí. Roku 1752 vytvořil sochař František Ferdinand Ublacker hlavní oltář a kazatelnu a malíř Jan Petr Molitor namaloval oltářní obraz Všech svatých a fresku Nejsvětější Trojice nad presbytářem. Jeho obraz Nanebevzetí Panny Marie měří sám o sobě 11 metrů čtverečních, s vyřezávaným rámem 18. U hlavního vchodu stojí sochy sv. Floriána, ochránce před ohněm, a sv. Rocha, ochránce před morem, obě od Jana Jiřího Šlanzovského. Kolem kostela se až do roku 1822 rozkládal starý hřbitov, pak se přestěhoval asi 800 metrů na východ, a v roce 1908 byl kostel povýšen na děkanský. Od roku 2000 se postupně opravuje, od střechy a oken až po oltářní obrazy a barokní dubové lavice.
+
+🎁 Bonus: Větší ze dvou zvonů ve věži, zasvěcený sv. Václavu a sv. Ludmile, ulil roku 1552 Tomáš Jaroš, nejslavnější zvonař renesanční Prahy. O tři roky dřív ulil tentýž muž Zikmunda, obří zvon svatovítské katedrály. Tentýž zvonař tedy dělal zvony pro pražskou katedrálu i pro vesnický kostel v polích a ten vesnický už přečkal jeden kostel a v druhém je pěkně zabydlený.`,
+
+      zh: `从外面看，万圣教堂就是一座结实、端庄的乡村教堂。走进去才发现，这是一整套盛期巴洛克的大制作：镀金的祭坛，一幅大小抵得上一间小公寓的画，钟楼里还挂着一口比教堂本身老了将近两百年的钟。
+
+教堂建于1740到1743年，取代了原来一座较小的老教堂，设计者是附近日恰尼的建筑师托马什·沃伊捷赫·布迪尔。这片领地属于列支敦士登家族，工程由当时的领主萨伏依公爵夫人玛丽亚·特蕾莎批准。室内装饰又花了十年。1752年，雕塑家弗朗齐歇克·费迪南德·乌布拉克尔做了主祭坛和讲道坛，画家扬·彼得·莫利托尔画了万圣祭坛画，以及圣坛上方的圣三一湿壁画。他那幅《圣母升天》光画面就有11平方米，连上雕花画框有18平方米。正门口立着圣弗洛里安和圣罗克的雕像，一位防火，一位防瘟疫，都出自扬·伊日·什兰佐夫斯基之手。老村的墓地原本就围在教堂四周，1822年才往东迁了大约800米。1908年，这座教堂升格为总铎区教堂。从2000年起，它一点点得到修缮，从屋顶、窗户一直修到祭坛画和巴洛克橡木长椅。
+
+🎁 彩蛋：钟楼里两口钟中较大的那口，献给圣瓦茨拉夫和圣卢德米拉，是1552年由托马什·亚罗什铸造的，他是文艺复兴时期布拉格最有名的铸钟匠。三年前，同一个人刚给圣维特大教堂铸了那口巨钟“齐格蒙德”。也就是说，同一位铸钟匠既给布拉格的大教堂做钟，也给田野里的村教堂做钟，而这口村里的钟，已经熬走了一座教堂，在第二座里也住了快三百年了。`,
+    },
+  },
+  {
+    // Added 2026-10-03 at the user's request (coordinates user-supplied).
+    // Sources: cs.wikipedia "Evangelický kostel (Uhříněves)" (architect Josef
+    // Blecha; foundation stone 1 July 1923, opened 7 September 1924; also
+    // called Husova kaple; Husovo náměstí 378/40; interior renovation by
+    // Marie Jiříčková completed 14 October 1984; regular ecumenical meetings,
+    // mainly with the Catholic Church, from 1962; concerts), cs.wikipedia
+    // "Farní sbor ČCE v Praze 10 – Uhříněves" via search summary (first
+    // public meeting 1920, first outdoor services by Rev. Řepa in May 1920,
+    // preaching-station board elected 9 January 1921, site bought 1922,
+    // independent congregation 3 September 1930), praha22.cz ("Husova
+    // modlitebna – prostá obdélníková stavba s předsunutou průčelní věží,
+    // postavená v roce 1924"). ČCE itself founded December 1918 (union of the
+    // Lutheran and Reformed churches) — widely documented.
+    name: 'Evangelical Church (Uhříněves)',
+    slug: 'evangelicky-kostel-uhrineves',
+    localizedNames: { cz: 'Sbor ČCE Uhříněves', zh: '乌赫日涅维斯福音教会礼拜堂' },
+    labels: ['church', 'historical'],
+    coordinates: { lat: 50.03545701159492, lng: 14.592200031410934 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Evangelick%C3%BD_kostel_(Uh%C5%99%C3%ADn%C4%9Bves)',
+    description: {
+      en: `This Protestant church on Hus Square is a plain little building with a tower out front, the kind you could walk past without a second look. It went up in about fourteen months, for a congregation that had started out holding its services in the open air.
+
+It belongs to the Evangelical Church of Czech Brethren, the Protestant church formed in December 1918, just weeks after Czechoslovakia itself, by uniting the country's Lutherans and Calvinists. The new republic brought a wave of people leaving the Catholic Church, and Uhříněves had its first public meeting about forming an evangelical congregation in 1920. In May that year the Reverend Řepa held the first services outdoors, as the congregation had no building of its own yet. On 9 January 1921 the new preaching station elected its first board. A building plot was bought in 1922, the foundation stone was laid on 1 July 1923, and the finished church opened on 7 September 1924. It was designed by the Prague architect Josef Blecha as a simple rectangular hall with a tower set in front of the facade, and locals came to call it the Hus Chapel, after the reformer Jan Hus. The congregation became fully independent on 3 September 1930. The interior was renovated to a design by the architect Marie Jiříčková, and the work was finished in 1984. Today the church hosts concerts as well as services.
+
+🎁 Bonus: Since 1962 the church has held regular ecumenical meetings, mostly with the Catholic parish. For a congregation founded by people leaving the Catholic Church, those were remarkably good neighbours to make. It also helped that in communist Czechoslovakia both churches had the same, much bigger problem.`,
+
+      cz: `Tenhle evangelický kostel na Husově náměstí je prostá malá stavba s věží vpředu, kolem které by člověk klidně prošel bez povšimnutí. Vyrostl zhruba za čtrnáct měsíců, pro sbor, který začínal s bohoslužbami pod širým nebem.
+
+Patří Českobratrské církvi evangelické, která vznikla v prosinci 1918, jen pár týdnů po samotném Československu, spojením zdejších luteránů a kalvinistů. Nová republika přinesla vlnu odchodů z katolické církve a v Uhříněvsi se první veřejná schůze o založení evangelického sboru konala roku 1920. V květnu téhož roku sloužil farář Řepa první bohoslužby venku, protože sbor ještě neměl vlastní budovu. 9. ledna 1921 si nová kazatelská stanice zvolila první staršovstvo. Roku 1922 se koupil stavební pozemek, 1. července 1923 byl položen základní kámen a 7. září 1924 se hotový kostel otevřel. Navrhl ho pražský architekt Josef Blecha jako prostou obdélnou stavbu s věží předsunutou před průčelí a místní mu začali říkat Husova kaple. Samostatným sborem se uhříněveská stanice stala 3. září 1930. Interiér byl obnoven podle návrhu architektky Marie Jiříčkové a práce skončily v roce 1984. Dnes se tu kromě bohoslužeb konají i koncerty.
+
+🎁 Bonus: Od roku 1962 se tu pravidelně konají ekumenická setkání, hlavně s katolickou farností. Na sbor, který založili lidé odcházející z katolické církve, si tím našel pozoruhodně dobré sousedy. Pomohlo i to, že v komunistickém Československu měly obě církve stejný, mnohem větší problém.`,
+
+      zh: `胡斯广场上这座新教教堂，是一栋朴素的小楼，正面立着一座钟塔，路过时很容易看都不看一眼。它大约十四个月就盖好了，而它的会众起初是在露天做礼拜的。
+
+它属于捷克弟兄福音教会。这个新教教会成立于1918年12月，只比捷克斯洛伐克本身晚了几个星期，是由国内的路德宗和加尔文宗合并而成的。新共和国带来了一波脱离天主教会的潮流，1920年，乌赫日涅维斯召开了第一次商议成立福音会众的公开会议。同年5月，热帕牧师在露天主持了第一批礼拜，因为会众还没有自己的房子。1921年1月9日，新成立的布道站选出了第一届长老会。1922年买下了建房的地皮，1923年7月1日奠基，1924年9月7日，教堂落成启用。设计者是布拉格建筑师约瑟夫·布莱哈，一座简单的长方形大厅，正面前方伸出一座钟塔，当地人后来管它叫“胡斯礼拜堂”，纪念宗教改革家扬·胡斯。1930年9月3日，这里正式成为独立的堂会。室内后来按照建筑师玛丽·伊日奇科娃的设计翻新，工程在1984年完成。如今这里除了礼拜，也办音乐会。
+
+🎁 彩蛋：从1962年起，这里定期举办普世合一聚会，主要是和天主教堂区一起。一个由脱离天主教会的人创立的会众，偏偏和天主教徒成了相处得很好的邻居。这也多亏了在共产党统治的捷克斯洛伐克，两家教会碰上的是同一个、大得多的麻烦。`,
+    },
+  },
+  {
+    // Added 2026-10-03 at the user's request (coordinates user-supplied).
+    // Sources: isad.npu.cz "Hájek, středověké a novověké jádro vsi" (first
+    // mention 1313, "in Hayka"; Profous), praha22.cz "Hájek u Uhříněvsi"
+    // (same owners as Uhříněves from 1604; after 1849 only a settlement of
+    // Královice; independent again 1923; joined Uhříněves 1969; former
+    // community house no. 46, two rooms for the local council, later a
+    // cultural centre, now a restaurant and squash club), cs.wikipedia
+    // "Hájek u Uhříněvsi" (294.5 ha, 703 residents in 2021, bell tower on the
+    // green, recent family-house building; to Prague with Uhříněves 1974),
+    // kudyznudy.cz (700 years since first mention celebrated 2013; walks
+    // through the Rokytka floodplain biocorridor, oak-hornbeam woods, fields),
+    // praha22.cz nature page via search summary (folk bell tower with a
+    // thatched "zouvák" roof, one 19th-century bell, restored 2000 with a
+    // memorial box placed in the foundation).
+    name: 'Hájek',
+    slug: 'hajek-u-uhrinevsi',
+    localizedNames: { cz: 'Hájek u Uhříněvsi', zh: '哈耶克' },
+    labels: ['village-and-town', 'nature'],
+    coordinates: { lat: 50.05054786573873, lng: 14.628240791851653 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/H%C3%A1jek_u_Uh%C5%99%C3%ADn%C4%9Bvsi',
+    description: {
+      en: `Hájek is one of those Prague villages where the city map insists you're still in the capital, while the fields, the woods and the single bell tower on the green suggest otherwise. Around seven hundred people live here. Its political history, though, is busier than its size would suggest.
+
+The village first appears in writing in 1313, as "in Hayka". The name means "little grove". From 1604 it shared its owners with Uhříněves, and for the next two and a half centuries it simply belonged to whoever held that estate. When the old manorial system ended in 1849, Hájek did not become its own municipality. It was filed away as a mere settlement of neighbouring Královice. It took until 1923 to win its independence back, and it then ran its own affairs for forty-six years, with the local council meeting in two rooms of the community house, number 46. In 1969 it gave up that independence and joined Uhříněves. Five years later, in 1974, Uhříněves itself was absorbed into Prague, taking Hájek with it. The old community house has since been a cultural centre and is now a restaurant with squash courts. In 2013 the village celebrated 700 years since its first mention. New family houses keep going up at its edges, but the walks around it are still rural: down to the Rokytka stream, whose floodplain here serves as a wildlife corridor, through strips of oak and hornbeam woodland, and up onto open fields.
+
+🎁 Bonus: The bell tower on the green is a small folk building with a thatched roof and a single 19th-century bell. When it was restored in 2000, a memorial box was sealed into its foundation for whoever opens it up next. For a village that has changed municipalities four times, writing a note to the future was probably wise.`,
+
+      cz: `Hájek je jedna z těch pražských vesnic, kde mapa města trvá na tom, že jste pořád v hlavním městě, zatímco pole, lesy a jediná zvonička na návsi tvrdí něco jiného. Žije tu kolem sedmi set lidí. Jeho politická historie je ale pestřejší, než by člověk podle velikosti čekal.
+
+Ves se poprvé objevuje v písemnostech roku 1313 jako „in Hayka“. Od roku 1604 měla stejné majitele jako Uhříněves a další dvě a půl století prostě patřila tomu, kdo zrovna držel tamní panství. Když roku 1849 skončila vrchnostenská správa, Hájek se samostatnou obcí nestal. Zařadili ho jako pouhou osadu sousedních Královic. Samostatnost získal zpět až v roce 1923 a pak čtyřicet šest let spravoval své věci sám, s místním výborem zasedajícím ve dvou místnostech obecního domu čp. 46. V roce 1969 se samostatnosti vzdal a připojil se k Uhříněvsi. O pět let později, v roce 1974, spolkla Praha samotnou Uhříněves a Hájek s ní. Z bývalého obecního domu se mezitím stalo kulturní středisko a dnes je v něm restaurace se squashem. V roce 2013 ves oslavila 700 let od první zmínky. Na okrajích stále přibývají nové rodinné domy, ale procházky kolem jsou pořád venkovské: dolů k Rokytce, jejíž niva tu slouží jako biokoridor, pruhy dubohabrových lesíků a nahoru na otevřená pole.
+
+🎁 Bonus: Zvonička na návsi je drobná lidová stavba s doškovou střechou a jediným zvonem z 19. století. Když se v roce 2000 opravovala, zazdili do jejích základů pamětní schránku pro toho, kdo ji příště otevře. Pro ves, která čtyřikrát změnila obec, kam patří, bylo napsat vzkaz budoucnosti nejspíš moudré.`,
+
+      zh: `哈耶克是那种布拉格村子：市区地图坚称你还在首都，可四周的田野、树林，还有村中绿地上那唯一一座钟楼，都在说另一回事。这里住着大约七百人。不过它的政治史，比它的个头热闹得多。
+
+这个村子第一次见于文字是在1313年，写作“in Hayka”，名字的意思是“小树林”。从1604年起，它和乌赫日涅维斯归同一个领主，之后两个半世纪里，谁拿着那片庄园，它就归谁。1849年旧的领主制度结束时，哈耶克并没有成为独立的村镇，而是被划成邻村克拉洛维采下属的一个小居民点。直到1923年它才重新独立，然后自己管了自己四十六年，村委会就在46号村公所的两个房间里开会。1969年，它放弃独立，并入了乌赫日涅维斯。五年后的1974年，乌赫日涅维斯自己也被布拉格吞并，顺带把哈耶克一起带了进去。那座老村公所后来当过文化中心，现在是一家带壁球场的餐馆。2013年，村子庆祝了首次见于记载700周年。村子边上不断有新的独栋住宅盖起来，可周边的散步路线依然是乡村味道：往下走到罗基特卡溪，这一段的河漫滩是野生动物的生态走廊；穿过一条条橡树和鹅耳枥混生的林带，再往上就是开阔的田野。
+
+🎁 彩蛋：村中绿地上的钟楼是一座小小的民间建筑，茅草屋顶，只挂着一口19世纪的钟。2000年修缮它的时候，人们在地基里封进了一个纪念盒，留给下一个打开它的人。对一个四次换了上级村镇的村子来说，给未来留封信大概是明智之举。`,
     },
   },
 ];
