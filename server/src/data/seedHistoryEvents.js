@@ -17910,6 +17910,14 @@ export const historyEvents = [
   {
     slug: "a-crown-with-conditions-1429",
     era: "religious-turmoil",
+    images: ["/history/a-crown-with-conditions-1429.webp"],
+    imageCaptions: [
+      {
+        en: "Pressburg, 8 April 1429: the Hussite envoys offer Sigismund the crown if he accepts their faith, and the assembled princes stay silent.",
+        cz: "Prešpurk, 8. dubna 1429: husitští vyslanci nabízejí Zikmundovi korunu, přijme-li jejich víru, a shromáždění knížata mlčí.",
+        zh: "1429年4月8日，普雷斯堡：胡斯派使节向西吉斯蒙德表示，只要他接受他们的信仰，就奉他为王；满座诸侯一言不发。",
+      },
+    ],
     startYear: 1429.3,
     year: {
       en: "April–July 1429",
@@ -17955,6 +17963,14 @@ export const historyEvents = [
   {
     slug: "revenge-for-the-kings-deer-1429",
     era: "religious-turmoil",
+    images: ["/history/revenge-for-the-kings-deer-1429.webp"],
+    imageCaptions: [
+      {
+        en: "Leipzig, winter 1429–30: the Elector Frederick of Saxony has his own men burn the town's suburbs while the Hussite army is still far off.",
+        cz: "Lipsko, zima 1429–30: kurfiřt Fridrich Saský dává vlastním mužům zapálit předměstí, zatímco husitské vojsko je ještě daleko.",
+        zh: "1429至1430年冬，莱比锡：萨克森选帝侯腓特烈命手下自己点火烧郊区，而胡斯军还远在天边。",
+      },
+    ],
     startYear: 1429.95,
     year: {
       en: "December 1429 – January 1430",
@@ -18057,6 +18073,22 @@ export const historyEvents = [
   {
     slug: "four-articles-or-fifty-thousand-1430",
     era: "religious-turmoil",
+    images: [
+      "/history/four-articles-or-fifty-thousand-1430.webp",
+      "/history/four-articles-or-fifty-thousand-1430-2.webp",
+    ],
+    imageCaptions: [
+      {
+        en: "Bamberg, February 1430: with the bishop already fled, the city council reads Prokop's letter offering a choice between the Four Articles and fifty thousand gulden.",
+        cz: "Bamberk, únor 1430: biskup už utekl a městská rada čte Prokopův list, který nabízí volbu mezi čtyřmi artikuly a padesáti tisíci zlatých.",
+        zh: "1430年2月，班贝格：主教已经逃走，市议会读着普罗科普的来信，信里让他们在四条款和五万古尔登之间二选一。",
+      },
+      {
+        en: "February 1430: Frederick of Brandenburg rides with the homeward-bound Hussite army as far as the Bohemian border, sharing a drink with its soldiers.",
+        cz: "Únor 1430: Fridrich Braniborský doprovází husitské vojsko na zpáteční cestě až k české hranici a připíjí si s jeho vojáky.",
+        zh: "1430年2月：勃兰登堡的腓特烈陪着回国的胡斯大军一路走到波希米亚边境，还和士兵们一起喝酒。",
+      },
+    ],
     startYear: 1430.1,
     year: {
       en: "January–February 1430",
@@ -18065,9 +18097,9 @@ export const historyEvents = [
     },
     tone: "humorous",
     title: {
-      en: "Four Articles or Fifty Thousand",
-      cz: "Čtyři artikuly, nebo padesát tisíc",
-      zh: "要么认四条款，要么交五万",
+      en: "Faith or Gold",
+      cz: "Víra, nebo zlato",
+      zh: "要信仰，还是要金子",
     },
     hookLine: {
       en: "Prokop offered Bamberg a simple choice: accept the Four Articles of Prague, or pay fifty thousand gulden. Bamberg found neither option appealing.",
@@ -18108,6 +18140,14 @@ export const historyEvents = [
   {
     slug: "a-letter-from-joan-of-arc-1430",
     era: "religious-turmoil",
+    images: ["/history/a-letter-from-joan-of-arc-1430.webp"],
+    imageCaptions: [
+      {
+        en: "Sully-sur-Loire, 23 March 1430: Joan of Arc dictates her letter to the Hussites, while her confessor Jean Pasquerel writes it down in Latin.",
+        cz: "Sully-sur-Loire, 23. března 1430: Jana z Arku diktuje svůj dopis husitům a její zpovědník Jean Pasquerel ho latinsky zapisuje.",
+        zh: "1430年3月23日，卢瓦尔河畔叙利：圣女贞德口述给胡斯派的信，她的告解神父让·帕斯克雷尔用拉丁文记录下来。",
+      },
+    ],
     startYear: 1430.2,
     year: {
       en: "23 March 1430",
@@ -18147,9 +18187,81 @@ export const historyEvents = [
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Joan_of_Arc",
   },
+  // Background card on the siege of Orléans and Joan of Arc, slotted right
+  // after `a-letter-from-joan-of-arc-1430`. Runs from the siege through the
+  // Reims coronation to her capture, Rouen trial and burning (30 May 1431);
+  // the martyrdom paragraph drops the jokes. Trial dates, Cauchon, relapse
+  // over men's clothing: en.wikipedia (Trial of Joan of Arc).
+  // Sources: en.wikipedia (Siege of Orléans, Battle of the Herrings);
+  // Salisbury's wound (24 Oct, died 3 Nov 1428) via britishbattles.com. The
+  // letter to the English (22 March 1429, dictated at Poitiers) and Joan's
+  // trial denial of "rendez à la Pucelle": archive.joan-of-arc.org.
+  {
+    slug: "who-was-the-maid-of-orleans-1430",
+    era: "religious-turmoil",
+    startYear: 1430.21,
+    cardType: "background",
+    year: {
+      en: "1428–1431",
+      cz: "1428–1431",
+      zh: "1428年－1431年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Who Was the Maid of Orléans?",
+      cz: "Kdo byla Panna orleánská?",
+      zh: "奥尔良的少女，究竟是谁？",
+    },
+    hookLine: {
+      en: "Joan of Arc had just threatened to come to Bohemia in person. It is worth knowing who was making the threat, and why the English had learned to take her seriously.",
+      cz: "Jana z Arku právě pohrozila, že do Čech přijede osobně. Stojí za to vědět, kdo to vyhrožuje a proč ji Angličané naučili brát vážně.",
+      zh: "圣女贞德刚刚扬言要亲自来波希米亚一趟。值得先弄清楚，放话的这位到底是谁，英格兰人又为什么不得不把她当回事。",
+    },
+    summary: {
+      en: "By 1428 the [[link:what-was-the-hundred-years-war-1337]]Hundred Years' War[[/link]], the same war in which [[link:the-wandering-knight-kings-legacy-1346]]John the Blind[[/link]] had died at Crécy, was going very badly for France. Under the Treaty of Troyes of 1420, the mad French king Charles VI had disinherited his own son and named Henry V of England as his heir. Henry died two years later, and the English now ruled northern France, Paris included, in the name of his infant son, together with their allies the Dukes of Burgundy. The disinherited son, the Dauphin Charles, held the lands south of the Loire but had never been crowned, because Reims, where French kings were crowned, lay in enemy territory. His enemies called him the King of Bourges.\n\nThe gateway to the south was Orléans, a fortified city on the Loire. The English laid siege to it in October 1428 and ringed it with small forts. Things went wrong for them early. Within days their commander, the Earl of Salisbury, was looking out of a window when a cannonball struck the frame and drove splinters into his face, and he died a week later. Things went worse for the French. In February 1429 they attacked an English supply convoy at Rouvray, and the English drew their wagons into a ring, much as the Hussites liked to do, and beat them off. The convoy was carrying salted fish for Lent, so the fight went down in history as the Battle of the Herrings. By spring Orléans was close to giving up.\n\nThen a peasant girl of about seventeen turned up at the Dauphin's court at Chinon. Joan came from Domrémy, a village on France's eastern border, and said that since the age of thirteen she had heard the voices of saints telling her to drive out the English and take the Dauphin to Reims to be crowned. A panel of theologians at Poitiers questioned her for three weeks and found nothing wrong with her. While she was there she dictated a letter to the English commanders:\n\n[[quote:0]]\n\nAt her trial she insisted she had said \"surrender to the King,\" and that the clerk had added the Maid on his own initiative.\n\nOn 29 April 1429 Joan rode into Orléans in white armour under her own banner. Over the following days the French took the English forts one after another. At the fortified gatehouse of the Tourelles on 7 May she was hit by a crossbow bolt above the breast, had it pulled out and went back to the fight. On 8 May the English lifted the siege and marched away. [[b]]A siege that had lasted seven months was broken in nine days.[[/b]] Orléans still celebrates the date every year. In June the French routed the English at Patay, and on 17 July 1429 the Dauphin was crowned Charles VII in Reims cathedral, with Joan standing beside the altar holding her banner. Five months after leaving home, she had a king crowned.\n\nAfter Reims her luck ran out. An attack on Paris in September 1429 failed, and on 23 May 1430, two months after her letter to Bohemia, she was pulled from her horse during a sortie at Compiègne. Her captors served John of Luxembourg, Count of Ligny, from a cadet branch of Sigismund's own family, and he sold her to the English for ten thousand livres. Charles VII, the king she had crowned, made no serious attempt to buy her back. The English handed her over to a church court at Rouen under Bishop Pierre Cauchon, which questioned her for months from January 1431, hoping to catch her out on theology. Asked whether she was in God's grace, a trap with no safe answer, she replied:\n\n[[quote:1]]\n\n[[b]]In the end the charges came down to two things: her voices, which she refused to submit to the judgement of the Church, and her men's clothing.[[/b]] Under threat of the stake she signed a recantation on 24 May and put on a dress. A few days later she was found in men's clothing again, and the court declared her a relapsed heretic. On 30 May 1431 she was burned in the Old Market square of Rouen. She was nineteen. Witnesses said she called out the name of Jesus to the end, and her ashes were thrown into the Seine. A papal retrial declared her innocent in 1456, and in 1920 the Church made her a saint.",
+      cz: "Roku 1428 se [[link:what-was-the-hundred-years-war-1337]]stoletá válka[[/link]], tatáž, v níž u Kresčaku padl [[link:the-wandering-knight-kings-legacy-1346]]Jan Slepý[[/link]], vyvíjela pro Francii velmi špatně. Smlouvou z Troyes roku 1420 vydědil choromyslný francouzský král Karel VI. vlastního syna a za dědice určil anglického Jindřicha V. Jindřich o dva roky později zemřel a Angličané teď spolu se svými spojenci, burgundskými vévody, vládli jménem jeho malého syna severní Francii včetně Paříže. Vyděděný syn, dauphin Karel, držel země jižně od Loiry, ale korunován nebyl, protože Remeš, kde se francouzští králové korunovali, ležela na nepřátelském území. Nepřátelé mu říkali bourgeský král.\n\nBranou na jih byl Orléans, opevněné město na Loiře. Angličané ho v říjnu 1428 oblehli a obklopili prstencem malých pevnůstek. Hned na začátku se jim nedařilo. Během pár dní se jejich velitel, hrabě ze Salisbury, díval z okna, když do rámu udeřila dělová koule a vrazila mu třísky do obličeje. Za týden byl mrtev. Francouzům se ale dařilo ještě hůř. V únoru 1429 napadli u Rouvray anglický zásobovací konvoj a Angličané sestavili vozy do kruhu, podobně jako to rádi dělali husité, a útok odrazili. Konvoj vezl na půst nasolené ryby, a tak se střetnutí zapsalo do dějin jako sledí bitva. Na jaře už byl Orléans blízko kapitulace.\n\nPak se na dauphinově dvoře v Chinonu objevila asi sedmnáctiletá selská dívka. Jana pocházela z Domrémy, vesnice na východní hranici Francie, a tvrdila, že od třinácti let slyší hlasy svatých, kteří jí přikazují vyhnat Angličany a dovést dauphina ke korunovaci do Remeše. Komise teologů v Poitiers ji tři týdny vyslýchala a nenašla na ní nic závadného. Ještě tam nadiktovala dopis anglickým velitelům:\n\n[[quote:0]]\n\nPři svém procesu trvala na tom, že řekla „vydejte králi“ a že Pannu tam písař doplnil sám od sebe.\n\n29. dubna 1429 vjela Jana do Orléansu v bílé zbroji pod vlastní korouhví. V dalších dnech Francouzi dobývali jednu anglickou pevnůstku za druhou. U opevněné brány Tourelles ji 7. května zasáhla šipka z kuše nad prsa. Nechala si ji vytáhnout a vrátila se do boje. 8. května Angličané obléhání ukončili a odtáhli. [[b]]Obléhání, které trvalo sedm měsíců, bylo prolomeno za devět dní.[[/b]] Orléans si to datum připomíná dodnes každý rok. V červnu Francouzi rozprášili Angličany u Patay a 17. července 1429 byl dauphin v remešské katedrále korunován jako Karel VII., zatímco Jana stála u oltáře se svou korouhví. Pět měsíců poté, co odešla z domova, nechala korunovat krále.\n\nPo Remeši ji štěstí opustilo. Útok na Paříž v září 1429 nevyšel a 23. května 1430, dva měsíce po dopise do Čech, ji při výpadu u Compiègne strhli z koně. Její věznitelé sloužili Janu Lucemburskému, hraběti z Ligny z vedlejší větve Zikmundova vlastního rodu, a ten ji za deset tisíc liber prodal Angličanům. Karel VII., král, kterého nechala korunovat, se ji vážně vykoupit ani nepokusil. Angličané ji předali církevnímu soudu v Rouenu pod vedením biskupa Pierra Cauchona, který ji od ledna 1431 celé měsíce vyslýchal a doufal, že ji nachytá na teologii. Na otázku, zda je v Boží milosti, tedy na past, na kterou neexistovala bezpečná odpověď, odpověděla:\n\n[[quote:1]]\n\n[[b]]Obžaloba se nakonec scvrkla na dvě věci: na její hlasy, které odmítala podřídit úsudku církve, a na mužský oděv.[[/b]] Pod hrozbou hranice podepsala 24. května odvolání a oblékla si ženské šaty. O několik dní později ji našli znovu v mužském oděvu a soud ji prohlásil za kacířku, která znovu upadla do bludu. 30. května 1431 ji upálili na Starém tržišti v Rouenu. Bylo jí devatenáct. Svědkové vypověděli, že až do konce volala Ježíšovo jméno, a její popel hodili do Seiny. Papežský obnovený proces ji roku 1456 prohlásil za nevinnou a roku 1920 ji církev svatořečila.",
+      zh: "到了1428年，[[link:what-was-the-hundred-years-war-1337]]英法百年战争[[/link]]（也就是[[link:the-wandering-knight-kings-legacy-1346]]盲人约翰[[/link]]战死在克雷西的那场战争）对法国来说已经糟糕透顶。1420年的《特鲁瓦条约》里，发了疯的法国国王查理六世剥夺了亲生儿子的继承权，把英格兰的亨利五世定为自己的继承人。两年后亨利去世，英格兰人便和他们的盟友勃艮第公爵一起，以亨利那个还在襁褓中的儿子的名义，统治着包括巴黎在内的整个法国北部。被剥夺继承权的王太子查理守着卢瓦尔河以南的地盘，却一直没能加冕，因为法国国王历来加冕的兰斯，就在敌占区里。敌人管他叫“布尔日国王”。\n\n通往南方的门户是奥尔良，卢瓦尔河畔的一座设防城市。1428年10月，英格兰人围住了它，在城外修起一圈小堡垒。开局就不顺：没过几天，英军统帅索尔兹伯里伯爵正从窗口往外看，一发炮弹打在窗框上，木屑扎进了他的脸，一个星期后他就死了。不过法国人更不顺。1429年2月，他们在鲁夫赖袭击了一支英军补给车队，英格兰人把大车围成一圈（胡斯派也很爱用这一招），硬是把进攻打退了。车队运的是大斋期吃的咸鱼，于是这一仗以“鲱鱼之战”的名字载入了史册。到了春天，奥尔良已经快撑不住了。\n\n就在这时，一个大约十七岁的农家姑娘来到了王太子在希农的宫廷。贞德来自法国东部边境的村子栋雷米，她说自己从十三岁起就听见圣徒的声音，命令她赶走英格兰人，护送王太子去兰斯加冕。普瓦捷的一群神学家盘问了她三个星期，没挑出什么毛病。就在那段时间，她口述了一封给英军将领的信：\n\n[[quote:0]]\n\n后来受审时，她坚持说自己当初说的是“交还给国王”，“少女”两个字是书记员自作主张加上去的。\n\n1429年4月29日，贞德身穿白色铠甲，打着自己的旗帜，骑马进了奥尔良。此后几天里，法军把英军的堡垒一个接一个拿了下来。5月7日在图雷勒堡的城门楼下，一支弩箭射中了她胸口上方，她让人把箭拔了出来，又回到了战场上。5月8日，英格兰人解围撤走。[[b]]围了七个月的城，九天就解了围。[[/b]]直到今天，奥尔良每年都要纪念这一天。6月，法军在帕提大败英军；1429年7月17日，王太子在兰斯大教堂加冕为查理七世，贞德举着她的旗帜站在祭坛旁。离家才五个月，她就把一位国王送上了王座。\n\n兰斯之后，她的运气就到头了。1429年9月进攻巴黎失利；1430年5月23日，也就是她给波希米亚写信两个月后，她在贡比涅出城突袭时被人拽下了马。俘虏她的人效力于利尼伯爵让，他出身卢森堡家族的一个旁支，算起来和西吉斯蒙德还是本家。他转手以一万里弗尔的价钱，把她卖给了英格兰人。她亲手送上王座的查理七世，并没有认真想办法把她赎回来。英格兰人把她交给鲁昂的宗教法庭，由主教皮埃尔·科雄主审。从1431年1月起，法庭审了她好几个月，一心想在神学问题上抓她的把柄。有人问她是否处在上帝的恩典之中，这个问题怎么回答都是圈套，她答道：\n\n[[quote:1]]\n\n[[b]]罪名最后归结为两条：她不肯把自己听到的声音交由教会裁断，以及她穿男装。[[/b]]在火刑的威胁下，她于5月24日签字认罪，换上了女装。几天后，人们发现她又穿回了男装，法庭随即宣布她“重陷异端”。1431年5月30日，她在鲁昂老市场广场被烧死，年仅十九岁。目击者说，她直到最后一直呼喊着耶稣的名字。她的骨灰被撒进了塞纳河。1456年，教皇下令重审，宣布她无罪；1920年，教会封她为圣人。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "King of England, and you, Duke of Bedford, who call yourself regent of the kingdom of France… surrender to the Maid, who is sent here by God, the King of Heaven, the keys of all the good towns which you have taken and violated in France.",
+          cz: "Králi anglický, a vy, vévodo z Bedfordu, který se nazýváte regentem francouzského království… vydejte Panně, kterou sem posílá Bůh, Král nebeský, klíče od všech dobrých měst, která jste ve Francii dobyli a zpustošili.",
+          zh: "英格兰国王，还有你，自称法兰西王国摄政的贝德福德公爵……把你们在法兰西攻占并蹂躏的所有良善城镇的钥匙，交给这位由上帝、由天上之王派来的少女。",
+        },
+        attribution: {
+          en: "Joan of Arc, letter to the English, 22 March 1429 (original: \"rendés à la Pucelle cy envoiëe de par Dieu le roy du ciel, les clefs de toutes les bonnes villes que vous avés prises et violées en France\")",
+          cz: "Jana z Arku, dopis Angličanům, 22. března 1429 (originál: „rendés à la Pucelle cy envoiëe de par Dieu le roy du ciel, les clefs de toutes les bonnes villes que vous avés prises et violées en France“)",
+          zh: "圣女贞德致英格兰人的信，1429年3月22日",
+        },
+      },
+      {
+        text: {
+          en: "If I am not, may God put me there; and if I am, may God so keep me.",
+          cz: "Nejsem-li v ní, kéž mě do ní Bůh uvede; a jsem-li v ní, kéž mě v ní Bůh zachová.",
+          zh: "如果我不在，愿上帝让我在；如果我在，愿上帝保守我一直在。",
+        },
+        attribution: {
+          en: "Joan of Arc before her judges, Rouen, 24 February 1431 (original: \"Si je n'y suis, Dieu m'y veuille mettre; et si j'y suis, Dieu m'y veuille garder\")",
+          cz: "Jana z Arku před soudci, Rouen, 24. února 1431 (originál: „Si je n'y suis, Dieu m'y veuille mettre; et si j'y suis, Dieu m'y veuille garder“)",
+          zh: "圣女贞德在法庭上的回答，鲁昂，1431年2月24日",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Siege_of_Orl%C3%A9ans",
+  },
   {
     slug: "the-pope-looks-north-1431",
     era: "religious-turmoil",
+    images: ["/history/the-pope-looks-north-1431.webp"],
+    imageCaptions: [
+      {
+        en: "Kraków, Holy Week 1431: with the churches shut on the bishop's orders, the Hussite delegation is moved out to Kazimierz, and Sigismund Korybut hands Bishop Oleśnicki his declaration of enmity.",
+        cz: "Krakov, Svatý týden 1431: kostely jsou na biskupův příkaz zavřené, husitské poselstvo se stěhuje do Kazimierze a Zikmund Korybutovič předává biskupu Oleśnickému svůj odpovědný list.",
+        zh: "1431年圣周，克拉科夫：主教下令关闭教堂，胡斯派使团被请到卡齐米日郊区，西吉斯蒙德·科里布特向奥莱希尼茨基主教递上宣战书。",
+      },
+    ],
     startYear: 1431.3,
     year: {
       en: "October 1430 – May 1431",
@@ -18160,7 +18272,7 @@ export const historyEvents = [
     title: {
       en: "The Pope Looks North",
       cz: "Papež hledá na severu",
-      zh: "教皇另请高明",
+      zh: "教皇北望",
     },
     hookLine: {
       en: "Martin V had given up on Sigismund. So he wrote to the King of Poland instead, and explained that where heretics were concerned, even an oath need not be kept.",
@@ -18187,6 +18299,14 @@ export const historyEvents = [
   {
     slug: "they-heard-them-coming-1431",
     era: "religious-turmoil",
+    images: ["/history/they-heard-them-coming-1431.webp"],
+    imageCaptions: [
+      {
+        en: "Domažlice, 14 August 1431: Cardinal Cesarini tries in vain to stop the crusade fleeing into the Bavarian woods before the Hussite army has even come into view.",
+        cz: "Domažlice, 14. srpna 1431: kardinál Cesarini se marně snaží zastavit křižáky, kteří prchají do bavorských lesů, ještě než husitské vojsko vůbec dorazilo na dohled.",
+        zh: "1431年8月14日，多马日利采：胡斯军还没出现在视野里，十字军就已经往巴伐利亚的森林里逃，红衣主教切萨里尼徒劳地想把他们喊回来。",
+      },
+    ],
     startYear: 1431.6,
     year: {
       en: "14 August 1431",
@@ -18195,9 +18315,9 @@ export const historyEvents = [
     },
     tone: "humorous",
     title: {
-      en: "They Heard Them Coming",
-      cz: "Slyšeli je přicházet",
-      zh: "未见其人，先闻其声",
+      en: "The Dreaded War Song",
+      cz: "Děsivá válečná píseň",
+      zh: "骇人的战歌",
     },
     hookLine: {
       en: "The fourth crusade brought thousands of war wagons of its own, to beat the Hussites at their own game. It never got to use them.",
@@ -18205,9 +18325,9 @@ export const historyEvents = [
       zh: "第四次十字军自带了几千辆战车，打算用胡斯派自己的战术打败胡斯派。这些战车，一辆也没派上用场。",
     },
     summary: {
-      en: "The crusade that Cesarini had talked into existence finally crossed the border on 1 August 1431, later and smaller than planned but still enormous: tens of thousands of men under Frederick of Brandenburg, perhaps a hundred thousand counting the camp followers, with the cardinal himself riding along. Having learned something from three defeats, they had brought war wagons of their own, thousands of them. They spent a week failing to take [[link:bloody-street-1427]]Tachov[[/link]], then turned south towards Domažlice and began besieging it, burning villages all the way. Even hardened contemporaries were shocked at how thoroughly they did it.\n\nProkop's army had pulled back into the interior to find food in a countryside already stripped bare, and the crusaders took this to mean that the Hussites were afraid to fight. On 14 August they found out otherwise. The Hussites drew up their wagons at dawn near Chotěšice and marched on Domažlice in battle order all day. In the afternoon Cesarini and some of the princes rode up a hill to watch them come, and saw something odd: a long column of crusader supply wagons already hurrying the other way, towards Bavaria. Frederick of Brandenburg had quietly ordered the baggage to the rear to keep a line of retreat open, and had told nobody.\n\nEveryone who saw the wagons leaving drew the obvious conclusion. Then the sound reached them: the rumble of the Hussite wagons and, over it, [[link:victory-at-vitkov-hill-1420]]the hymn[[/link]] that the whole of Central Europe had learned to dread. The crusade did not wait to find out who was singing:\n\n[[quote:0]]\n\nOnly the rearguard, among them Cesarini's Italian guards, tried to make a stand behind their wagons, and they were cut down. Everyone else ran for the passes into the Bohemian Forest, fighting one another on the narrow roads for the right to get away first. Cesarini tried to rally them, failed, and in the end had to flee in disguise, less from the Hussites than from his own crusaders, who blamed the foreign priest for the whole disaster and were threatening to kill him. The next morning the Hussites rounded up prisoners in the woods, tied them in pairs and led them back in a long procession. The Old Czech Annals counted some three hundred guns and about two thousand wagons in the booty. Among the trophies were the pope's crusading bull itself and the cardinal's robes, his cross and his red hat. Laurence of Březová wrote a mocking Latin song in which Cesarini laments what he left behind:\n\n[[quote:1]]\n\n[[b]]The fourth crusade against Bohemia had not even stayed long enough to see the enemy.[[/b]] Even Cesarini drew the lesson. Within weeks the legate who had preached the crusade across Germany had become the Church's loudest voice for talking to the Hussites instead.",
-      cz: "Křížová výprava, kterou Cesarini přemluvil k životu, konečně překročila hranici 1. srpna 1431, později a menší, než se plánovalo, ale pořád obrovská: desítky tisíc mužů pod velením Fridricha Braniborského, i s vozatajstvem a čeledí snad sto tisíc, a s nimi jel i sám kardinál. Po třech porážkách se leccos naučili, a tak si přivezli vlastní bojové vozy, tisíce vozů. Týden se marně snažili dobýt [[link:bloody-street-1427]]Tachov[[/link]], pak se obrátili na jih k Domažlicím, začali je obléhat a cestou pálili vesnice. I otrlé současníky šokovalo, jak důkladně to dělali.\n\nProkopovo vojsko se stáhlo do vnitrozemí, aby našlo potravu v krajině, která už byla vyjedená, a křižáci si to vyložili tak, že se husité bojí bojovat. 14. srpna se přesvědčili o opaku. Husité ráno u Chotěšic sešikovali vozy a celý den táhli v šiku na Domažlice. Odpoledne vyjel Cesarini s několika knížaty na kopec, aby se díval, jak přicházejí, a uviděl něco zvláštního: dlouhou kolonu křižáckých zásobovacích vozů, která už spěchala opačným směrem, k Bavorsku. Fridrich Braniborský potichu nařídil odsunout vozatajstvo dozadu, aby si udržel cestu k ústupu, a nikomu to neřekl.\n\nKaždý, kdo viděl odjíždějící vozy, si z toho vyvodil jasný závěr. Pak k nim dolehl zvuk: dunění husitských vozů a nad ním [[link:victory-at-vitkov-hill-1420]]píseň[[/link]], které se celá střední Evropa naučila bát. Výprava nečekala, až zjistí, kdo zpívá:\n\n[[quote:0]]\n\nJen zadní voj, mezi nimi Cesariniho italská garda, se pokusil postavit za svými vozy, a byl pobit. Všichni ostatní utíkali k průsmykům do Šumavy a na úzkých cestách se mezi sebou rvali o to, kdo uteče první. Cesarini se je pokusil zastavit, nepodařilo se mu to a nakonec musel utéct v přestrojení, a to ani ne tak před husity jako před vlastními křižáky, kteří z celé pohromy vinili cizího kněze a vyhrožovali mu smrtí. Druhý den ráno husité posbírali po lesích zajatce, svázali je po dvou a vedli je zpátky v dlouhém procesí. Staré letopisy české napočítaly v kořisti na tři sta děl a kolem dvou tisíc vozů. Mezi trofejemi byla i samotná papežská křížová bula a kardinálův oděv, jeho kříž a jeho červený klobouk. Vavřinec z Březové napsal posměšnou latinskou píseň, v níž Cesarini naříká nad tím, co za sebou nechal:\n\n[[quote:1]]\n\n[[b]]Čtvrtá křížová výprava do Čech nevydržela ani tak dlouho, aby nepřítele uviděla.[[/b]] Poučení si vzal i Cesarini. Během několika týdnů se z legáta, který kázal kruciátu po celém Německu, stal nejhlasitější zastánce toho, aby církev s husity místo toho jednala.",
-      zh: "被切萨里尼一手鼓动起来的这次十字军，终于在1431年8月1日越过了边境。它比原计划晚，也比原计划小，但依然声势浩大：勃兰登堡的腓特烈统领着几万人马，算上随营人员，恐怕有十万之众，红衣主教本人也随军同行。吃了三次败仗，他们总算学到了点东西，自带了几千辆战车。他们先在[[link:bloody-street-1427]]塔霍夫[[/link]]城下耗了一个星期，没能攻下，接着掉头南下，围住了多马日利采，一路走一路烧村子。就连见惯了战争的同时代人，也被他们烧杀的彻底程度吓了一跳。\n\n普罗科普的大军此前已经退回内地，因为边境一带早被吃空了，找不到粮草。十字军却把这当成了胡斯派不敢应战的证据。8月14日，他们发现自己想错了。胡斯军一早在霍捷希采附近排好车阵，列队向多马日利采开进，走了整整一天。下午，切萨里尼和几位诸侯骑马登上一座小山，想看看胡斯军过来的样子，结果看到了一幕怪事：一长串十字军的辎重车，正急匆匆地往反方向、往巴伐利亚那边赶。原来勃兰登堡的腓特烈为了保住退路，悄悄下令把辎重往后撤，却谁也没告诉。\n\n看见辎重车往回跑的人，都得出了同一个结论。接着，声音传了过来：胡斯派战车隆隆作响，盖过车声的，是那首[[link:victory-at-vitkov-hill-1420]]战歌[[/link]]，整个中欧都已经学会了害怕它。十字军没等弄清是谁在唱：\n\n[[quote:0]]\n\n只有后卫部队，包括切萨里尼的意大利卫队，试图躲在自己的战车后面抵抗一阵，结果被全部砍倒。其余的人全都朝着通往波希米亚森林的山口狂奔，还在狭窄的山路上互相厮打，争着先跑。切萨里尼想把人拢住，没能成功，最后只好乔装改扮逃命，而他躲的与其说是胡斯军，不如说是自己手下的十字军：这些人把整场惨败都怪到这个外国神父头上，扬言要他的命。第二天一早，胡斯派在树林里搜捕俘虏，两人一绑，押回来排成了长长的一队。据《古捷克编年史》统计，缴获的大炮约有三百门，车辆约两千辆。战利品中还有教皇的十字军诏书原件，以及红衣主教的法衣、十字架和他那顶红帽子。布热佐瓦的瓦夫日内茨写了一首拉丁文讽刺歌，让切萨里尼亲口哀叹自己丢下的东西：\n\n[[quote:1]]\n\n[[b]]第四次讨伐波希米亚的十字军，连敌人的面都没等到。[[/b]]就连切萨里尼也吸取了教训。短短几个星期，这位曾在德意志各地鼓吹十字军的特使，就成了教会里最卖力主张与胡斯派谈判的人。",
+      en: "The crusade that Cesarini had talked into existence finally crossed the border on 1 August 1431, later and smaller than planned but still enormous: tens of thousands of men under Frederick of Brandenburg, perhaps a hundred thousand counting the camp followers, with the cardinal himself riding along. Having learned something from three defeats, they had brought war wagons of their own, thousands of them. They spent a week failing to take [[link:bloody-street-1427]]Tachov[[/link]], then turned south towards Domažlice and began besieging it, burning villages all the way. Even hardened contemporaries were shocked at how thoroughly they did it.\n\nProkop's army had pulled back into the interior to find food in a countryside already stripped bare, and the crusaders took this to mean that the Hussites were afraid to fight. On 14 August they found out otherwise. The Hussites drew up their wagons at dawn near Chotěšice and marched on Domažlice in battle order all day. In the afternoon Cesarini and some of the princes rode up a hill to watch them come, and saw something odd: a long column of crusader supply wagons already hurrying the other way, towards Bavaria. Frederick of Brandenburg had quietly ordered the baggage to the rear to keep a line of retreat open, and had told nobody.\n\nEveryone who saw the wagons leaving drew the obvious conclusion. Then the sound reached them: the rumble of the Hussite wagons and, over it, [[link:victory-at-vitkov-hill-1420]]the hymn[[/link]] that the whole of Central Europe had learned to dread. It ends in a battle cry:\n\n[[quote:2]]\n\n(The line most often quoted today, \"strike, kill, spare no one,\" is a later addition and is not in the 15th-century text.) The crusade did not wait to find out who was singing:\n\n[[quote:0]]\n\nOnly the rearguard, among them Cesarini's Italian guards, tried to make a stand behind their wagons, and they were cut down. Everyone else ran for the passes into the Bohemian Forest, fighting one another on the narrow roads for the right to get away first. Cesarini tried to rally them, failed, and in the end had to flee in disguise, less from the Hussites than from his own crusaders, who blamed the foreign priest for the whole disaster and were threatening to kill him. The next morning the Hussites rounded up prisoners in the woods, tied them in pairs and led them back in a long procession. The Old Czech Annals counted some three hundred guns and about two thousand wagons in the booty. Among the trophies were the pope's crusading bull itself and the cardinal's robes, his cross and his red hat. Laurence of Březová wrote a mocking Latin song in which Cesarini laments what he left behind:\n\n[[quote:1]]\n\n[[b]]The fourth crusade against Bohemia had not even stayed long enough to see the enemy.[[/b]] Even Cesarini drew the lesson. Within weeks the legate who had preached the crusade across Germany had become the Church's loudest voice for talking to the Hussites instead.",
+      cz: "Křížová výprava, kterou Cesarini přemluvil k životu, konečně překročila hranici 1. srpna 1431, později a menší, než se plánovalo, ale pořád obrovská: desítky tisíc mužů pod velením Fridricha Braniborského, i s vozatajstvem a čeledí snad sto tisíc, a s nimi jel i sám kardinál. Po třech porážkách se leccos naučili, a tak si přivezli vlastní bojové vozy, tisíce vozů. Týden se marně snažili dobýt [[link:bloody-street-1427]]Tachov[[/link]], pak se obrátili na jih k Domažlicím, začali je obléhat a cestou pálili vesnice. I otrlé současníky šokovalo, jak důkladně to dělali.\n\nProkopovo vojsko se stáhlo do vnitrozemí, aby našlo potravu v krajině, která už byla vyjedená, a křižáci si to vyložili tak, že se husité bojí bojovat. 14. srpna se přesvědčili o opaku. Husité ráno u Chotěšic sešikovali vozy a celý den táhli v šiku na Domažlice. Odpoledne vyjel Cesarini s několika knížaty na kopec, aby se díval, jak přicházejí, a uviděl něco zvláštního: dlouhou kolonu křižáckých zásobovacích vozů, která už spěchala opačným směrem, k Bavorsku. Fridrich Braniborský potichu nařídil odsunout vozatajstvo dozadu, aby si udržel cestu k ústupu, a nikomu to neřekl.\n\nKaždý, kdo viděl odjíždějící vozy, si z toho vyvodil jasný závěr. Pak k nim dolehl zvuk: dunění husitských vozů a nad ním [[link:victory-at-vitkov-hill-1420]]píseň[[/link]], které se celá střední Evropa naučila bát. Končí bojovým pokřikem:\n\n[[quote:2]]\n\n(Verš, který se dnes cituje nejčastěji, „bijte, zabijte, žádného neživte“, je pozdější přídavek a v textu z 15. století není.) Výprava nečekala, až zjistí, kdo zpívá:\n\n[[quote:0]]\n\nJen zadní voj, mezi nimi Cesariniho italská garda, se pokusil postavit za svými vozy, a byl pobit. Všichni ostatní utíkali k průsmykům do Šumavy a na úzkých cestách se mezi sebou rvali o to, kdo uteče první. Cesarini se je pokusil zastavit, nepodařilo se mu to a nakonec musel utéct v přestrojení, a to ani ne tak před husity jako před vlastními křižáky, kteří z celé pohromy vinili cizího kněze a vyhrožovali mu smrtí. Druhý den ráno husité posbírali po lesích zajatce, svázali je po dvou a vedli je zpátky v dlouhém procesí. Staré letopisy české napočítaly v kořisti na tři sta děl a kolem dvou tisíc vozů. Mezi trofejemi byla i samotná papežská křížová bula a kardinálův oděv, jeho kříž a jeho červený klobouk. Vavřinec z Březové napsal posměšnou latinskou píseň, v níž Cesarini naříká nad tím, co za sebou nechal:\n\n[[quote:1]]\n\n[[b]]Čtvrtá křížová výprava do Čech nevydržela ani tak dlouho, aby nepřítele uviděla.[[/b]] Poučení si vzal i Cesarini. Během několika týdnů se z legáta, který kázal kruciátu po celém Německu, stal nejhlasitější zastánce toho, aby církev s husity místo toho jednala.",
+      zh: "被切萨里尼一手鼓动起来的这次十字军，终于在1431年8月1日越过了边境。它比原计划晚，也比原计划小，但依然声势浩大：勃兰登堡的腓特烈统领着几万人马，算上随营人员，恐怕有十万之众，红衣主教本人也随军同行。吃了三次败仗，他们总算学到了点东西，自带了几千辆战车。他们先在[[link:bloody-street-1427]]塔霍夫[[/link]]城下耗了一个星期，没能攻下，接着掉头南下，围住了多马日利采，一路走一路烧村子。就连见惯了战争的同时代人，也被他们烧杀的彻底程度吓了一跳。\n\n普罗科普的大军此前已经退回内地，因为边境一带早被吃空了，找不到粮草。十字军却把这当成了胡斯派不敢应战的证据。8月14日，他们发现自己想错了。胡斯军一早在霍捷希采附近排好车阵，列队向多马日利采开进，走了整整一天。下午，切萨里尼和几位诸侯骑马登上一座小山，想看看胡斯军过来的样子，结果看到了一幕怪事：一长串十字军的辎重车，正急匆匆地往反方向、往巴伐利亚那边赶。原来勃兰登堡的腓特烈为了保住退路，悄悄下令把辎重往后撤，却谁也没告诉。\n\n看见辎重车往回跑的人，都得出了同一个结论。接着，声音传了过来：胡斯派战车隆隆作响，盖过车声的，是那首[[link:victory-at-vitkov-hill-1420]]战歌[[/link]]，整个中欧都已经学会了害怕它。这首歌的结尾是一声冲锋的呐喊：\n\n[[quote:2]]\n\n（如今最常被引用的那句“打呀，杀呀，一个不留”，其实是后人加上去的，15世纪的原文里并没有。）十字军没等弄清是谁在唱：\n\n[[quote:0]]\n\n只有后卫部队，包括切萨里尼的意大利卫队，试图躲在自己的战车后面抵抗一阵，结果被全部砍倒。其余的人全都朝着通往波希米亚森林的山口狂奔，还在狭窄的山路上互相厮打，争着先跑。切萨里尼想把人拢住，没能成功，最后只好乔装改扮逃命，而他躲的与其说是胡斯军，不如说是自己手下的十字军：这些人把整场惨败都怪到这个外国神父头上，扬言要他的命。第二天一早，胡斯派在树林里搜捕俘虏，两人一绑，押回来排成了长长的一队。据《古捷克编年史》统计，缴获的大炮约有三百门，车辆约两千辆。战利品中还有教皇的十字军诏书原件，以及红衣主教的法衣、十字架和他那顶红帽子。布热佐瓦的瓦夫日内茨写了一首拉丁文讽刺歌，让切萨里尼亲口哀叹自己丢下的东西：\n\n[[quote:1]]\n\n[[b]]第四次讨伐波希米亚的十字军，连敌人的面都没等到。[[/b]]就连切萨里尼也吸取了教训。短短几个星期，这位曾在德意志各地鼓吹十字军的特使，就成了教会里最卖力主张与胡斯派谈判的人。",
     },
     quotes: [
       {
@@ -18234,6 +18354,25 @@ export const historyEvents = [
           zh: "布热佐瓦的瓦夫日内茨《多马日利采大捷之歌》（据拉丁文原作的捷克文译本）",
         },
       },
+      // Closing stanza of "Ktož jsú boží bojovníci", transcribed from the
+      // Jistebnice Hymnal text on cs.wikisource (original spelling "A s tiem
+      // wesele krzyknete / rzkuc na ne hr na ne / brań swu rukama chutnayte /
+      // Boh pan nas krzyknete"). The opening stanza is already quoted on
+      // victory-at-vitkov-hill-1420. "Bijte, zabijte, žádného neživte" is
+      // NOT in the Jistebnice text (checked 2026-10-04), so the prose flags
+      // it as a later addition.
+      {
+        text: {
+          en: "And with that cry out joyfully, saying: At them, hey, at them! Grip your weapons in your hands, and cry: God is our Lord!",
+          cz: "A s tiem vesele křiknete, řkúc: Na ně, hr na ně! Braň svú rukama chutnajte, Bóh pán náš, křiknete!",
+          zh: "然后欢欢喜喜地高声呐喊：冲啊，冲上去！双手紧握你们的兵器，高喊：上帝是我们的主！",
+        },
+        attribution: {
+          en: "\"Ktož jsú boží bojovníci\" (\"Ye Who Are Warriors of God\"), closing stanza, Jistebnice Hymnal, c. 1430",
+          cz: "„Ktož jsú boží bojovníci“, závěrečná sloka, Jistebnický kancionál, kolem 1430",
+          zh: "《你们这些上帝的战士》末节，《吉斯泰布尼采圣歌集》，约1430年",
+        },
+      },
     ],
     relatedLandmarks: [
       {
@@ -18250,7 +18389,10 @@ export const historyEvents = [
   {
     slug: "what-was-the-council-of-basel-1431",
     era: "religious-turmoil",
-    startYear: 1431.7,
+    // 1431.95: sorts after send-him-the-executioner-1431 (moved 2026-10-04 so
+    // the Domazlice card flows straight into its sequel, which ends with the
+    // diet agreeing to go to Basel) and before a-judge-called-scripture-1432.
+    startYear: 1431.95,
     cardType: "background",
     year: {
       en: "1431–1449",
@@ -18276,20 +18418,73 @@ export const historyEvents = [
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Council_of_Basel",
   },
+  // Split out of send-him-the-executioner-1431 on 2026-10-04 at the user's
+  // request (the Orphans' Hungarian disaster as its own turning-point card).
+  // Dates corrected in the split: Ilava was 9 November 1431 and Bánov (a pass
+  // near Uherský Brod, on the Moravian border) 26 November, not December as
+  // the old combined card said; the opened wagon fort belongs to Bánov
+  // (cs.wikipedia "Bitva u Ilavy", zoom.iprima.cz). Who destroyed the
+  // Hlohovec bridge is disputed, so the prose hedges. Three searches for a
+  // chronicle quote turned up nothing usable. Bánov is in today's Czech
+  // Republic but has no Location card, so no relatedLandmarks.
   {
-    slug: "send-him-the-executioner-1431",
+    slug: "weighed-down-by-the-loot-1431",
     era: "religious-turmoil",
-    startYear: 1431.9,
+    images: ["/history/weighed-down-by-the-loot-1431.webp"],
+    imageCaptions: [
+      {
+        en: "Near Ilava, 9 November 1431: Hungarian cavalry catch the Orphans halfway across the Váh, their wagons overloaded with plunder.",
+        cz: "U Ilavy, 9. listopadu 1431: uherská jízda zaskočí sirotky uprostřed přechodu Váhu, s vozy přetíženými kořistí.",
+        zh: "1431年11月9日，伊拉瓦附近：孤儿军拖着满载战利品的战车渡瓦赫河，渡到一半时遭匈牙利骑兵突袭。",
+      },
+    ],
+    startYear: 1431.8,
     year: {
-      en: "Autumn 1431 – February 1432",
-      cz: "Podzim 1431 – únor 1432",
-      zh: "1431年秋至1432年2月",
+      en: "September–November 1431",
+      cz: "Září–listopad 1431",
+      zh: "1431年9月至11月",
     },
     tone: "humorous",
     title: {
-      en: "Send Him the Executioner",
-      cz: "Pošlete mu kata",
-      zh: "请医生？派刽子手！",
+      en: "Winter Rain on the Váh",
+      cz: "Zimní déšť na Váhu",
+      zh: "瓦赫河的冬雨",
+    },
+    hookLine: {
+      en: "In the autumn of 1431 the Orphans' wagons were so full of plunder that each one needed four horses. That was the problem.",
+      cz: "Na podzim 1431 byly vozy sirotků tak plné kořisti, že každý museli táhnout čtyři koně. A právě v tom byl problém.",
+      zh: "1431年秋天，孤儿军的战车里塞满了战利品，每辆都得四匹马才拉得动。问题恰恰就出在这儿。",
+    },
+    summary: {
+      en: "After Domažlice the Hussites went back to visiting their neighbours. In September 1431 the Táborites under Prokop and the Orphans under Jan Čapek of Sány marched together through Silesia and over the Jablunkov Pass into Upper Hungary, today's Slovakia. At first it went splendidly. They took the castle of Likava by a trick, plundered their way down the valleys and reached the Nitra region by mid-October with more horses and cattle than they could count. Then the campaign dragged on, and the Táborites turned for home first. Soon after they crossed the Váh at Hlohovec, the bridge there was destroyed. Whether the Hungarians, the weather or the Táborites themselves were to blame is still argued over. The Orphans would soon have a firm opinion on the matter.\n\nThe Orphans were a few days behind, and their wagons were so full of booty that it took four horses to move each one. The autumn was wet, the roads turned to mud and then to snow, and with the Hlohovec bridge gone they had to go the long way round, upriver along the Váh, with the Hungarian cavalry at their heels for ten days. On 9 November, near Ilava, the Hungarians caught them halfway across the river. Many were cut down or taken prisoner on the bank, and many more drowned in the Váh. The survivors struggled on towards the Moravian border, and on 26 November, in a pass near Bánov, they made a last stand. They drew up their wagon fort, then opened it to let their fleeing comrades in, and the Hungarians came in with them.\n\nOf about seven thousand men and three hundred wagons, perhaps two thousand men and fifty wagons made it back to Moravia, and the booty was gone. It was the heaviest defeat the Hussites had yet suffered. [[b]]Three months after the crusaders had fled at the mere sound of them, the Hussites found out what it was like to be the ones running.[[/b]] Somebody was going to have to answer for it.",
+      cz: "Po Domažlicích se husité vrátili k návštěvám sousedů. V září 1431 táhli táboři pod Prokopovým velením a sirotci pod velením Jana Čapka ze Sán společně přes Slezsko a Jablunkovský průsmyk do Horních Uher, na dnešní Slovensko. Zpočátku to šlo skvěle. Lstí dobyli hrad Likavu, vyplenili si cestu údolími a do poloviny října dorazili na Nitransko s víc koňmi a dobytkem, než stačili spočítat. Pak se výprava protáhla a táboři se obrátili domů jako první. Krátce poté, co přešli Váh u Hlohovce, byl tamní most zničen. Jestli za to mohli Uhři, počasí, nebo sami táboři, se vedou spory dodnes. Sirotci si na to brzy udělali jasný názor.\n\nSirotci šli o pár dní za nimi a jejich vozy byly tak plné kořisti, že každý museli táhnout čtyři koně. Podzim byl deštivý, cesty se změnily v bláto a pak ve sníh, a když byl most u Hlohovce pryč, museli jít oklikou proti proudu Váhu, deset dní s uherskou jízdou v patách. 9. listopadu je Uhři nedaleko Ilavy zaskočili uprostřed přechodu řeky. Mnoho jich padlo nebo bylo zajato na břehu a ještě víc jich utonulo ve Váhu. Přeživší se probíjeli k moravské hranici a 26. listopadu se v průsmyku u Bánova postavili naposledy. Sešikovali vozovou hradbu, pak ji otevřeli, aby dovnitř pustili prchající druhy, a Uhři vtrhli dovnitř s nimi.\n\nZe zhruba sedmi tisíc mužů a tří set vozů se na Moravu vrátily snad dva tisíce mužů a padesát vozů a kořist byla pryč. Byla to nejtěžší porážka, jakou husité do té doby utrpěli. [[b]]Tři měsíce poté, co křižáci utekli, sotva uslyšeli jejich píseň, husité poznali, jaké je to utíkat.[[/b]] Za to bude muset někdo zaplatit.",
+      zh: "多马日利采之战以后，胡斯派又开始去邻居家“串门”了。1431年9月，普罗科普率领的塔博尔军和萨尼的扬·恰佩克率领的孤儿军一起穿过西里西亚，翻过亚布伦科夫山口，进入上匈牙利，也就是今天的斯洛伐克。一开始打得顺风顺水：他们用计拿下了利卡瓦城堡，沿着一道道河谷一路抢过去，到10月中旬抵达尼特拉一带时，马匹和牲口多得数不过来。可是远征越拖越久，塔博尔军先掉头回家了。他们在赫洛霍韦茨渡过瓦赫河后不久，那里的桥就毁了。毁桥的是匈牙利人、是天气，还是塔博尔军自己，至今众说纷纭。孤儿军很快就会有自己的看法。\n\n孤儿军落后了几天，车上塞满了战利品，每辆都得四匹马才拉得动。那年秋天阴雨连绵，道路先成了烂泥塘，后来又下起了雪。赫洛霍韦茨的桥没了，他们只好沿着瓦赫河逆流绕远路，匈牙利骑兵在身后紧紧咬了十天。11月9日，在伊拉瓦附近，匈牙利人趁他们渡河渡到一半发起了攻击。许多人在岸边被杀或被俘，更多的人淹死在瓦赫河里。幸存者挣扎着向摩拉维亚边境退去，11月26日，在巴诺夫附近的山口作最后一搏。他们摆好了车阵，随后又把它打开，好让逃回来的同伴躲进来，匈牙利人也就跟着冲了进来。\n\n出发时约七千人、三百辆战车，最后回到摩拉维亚的，大概只剩两千人、五十辆车，战利品一件不剩。这是胡斯派迄今为止吃过的最惨重的败仗。[[b]]三个月前，十字军光是听见他们的歌声就落荒而逃；如今，轮到胡斯派尝尝逃命的滋味了。[[/b]]这笔账，总得有人来背。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Bitva_u_Ilavy",
+  },
+  {
+    slug: "send-him-the-executioner-1431",
+    era: "religious-turmoil",
+    images: ["/history/send-him-the-executioner-1431.webp"],
+    imageCaptions: [
+      {
+        en: "Kutná Hora, winter 1431–32: Prokop, ill and blamed for the Orphans' disaster, hears Prague's reply to his request for a doctor.",
+        cz: "Kutná Hora, zima 1431–32: nemocný Prokop, obviňovaný z porážky sirotků, slyší, co Praha odpověděla na jeho žádost o lékaře.",
+        zh: "1431至1432年冬，库特纳霍拉：病中的普罗科普背着孤儿军惨败的黑锅，听到了布拉格对他求医的答复。",
+      },
+    ],
+    startYear: 1431.9,
+    year: {
+      en: "December 1431 – February 1432",
+      cz: "Prosinec 1431 – únor 1432",
+      zh: "1431年12月至1432年2月",
+    },
+    tone: "humorous",
+    title: {
+      en: "From Hero to Scapegoat",
+      cz: "Od hrdiny k obětnímu beránkovi",
+      zh: "从英雄到替罪羊",
     },
     hookLine: {
       en: "Prokop lay ill in Kutná Hora and asked Prague to send him a doctor. Prague replied that it would rather send the executioner.",
@@ -18297,9 +18492,9 @@ export const historyEvents = [
       zh: "普罗科普在库特纳霍拉卧病在床，请布拉格派个医生来。布拉格回复说，还是派刽子手去比较合适。",
     },
     summary: {
-      en: "After Domažlice the Hussites went back to visiting their neighbours. In the autumn of 1431 the Táborites and the Orphans marched together through Silesia and over the Jablunkov Pass into Upper Hungary, today's Slovakia. At first it went splendidly. They took the castle of Likava by a trick, plundered their way down the valleys and reached the Nitra region by mid-October with more horses and cattle than they could count. Then the campaign dragged on, and the Táborites turned for home first. As they crossed the Váh at Hlohovec, the bridge there was destroyed behind them.\n\nThe Orphans under Jan Čapek of Sány were a few days behind, and their wagons were so full of booty that it took four horses to move each one. The autumn had been wet, the roads had turned to mud, and with the Hlohovec bridge gone they had to go the long way round, upriver along the Váh, with the Hungarian cavalry at their heels. At the crossing near Ilava in December the Hungarians caught them before the wagon fort was properly closed and broke into it. At Bánov they were beaten again. Many drowned trying to get across the river. Of about seven thousand men and three hundred wagons, perhaps two thousand men and fifty wagons made it back to Moravia, and the booty was gone.\n\nThe Orphans needed someone to blame, and they had an obvious candidate: the Táborites had left them behind and cut off the road home. Čapek did not hesitate to call Prokop a traitor, and in Prague the accusation went down well. Prokop, deeply offended, withdrew to Kutná Hora and refused to attend the diet. There he fell ill with something the sources never name. When he sent to Prague asking for a doctor, the Praguers answered that they would rather send him the executioner. [[b]]Two years after Pressburg and a few months after Domažlice, the most feared commander in Europe could not get a doctor from his own capital.[[/b]]\n\nIt was the council at Basel that got him out of bed. With an invitation to negotiate on the table and a diet meeting without the Táborites, Prokop could not afford to lie in Kutná Hora. In January 1432 he was up again. He rode to Třeboň and made a year's truce with [[link:one-jailbreak-two-castles-1420]]Oldřich of Rožmberk[[/link]], then came to the great diet in Prague on 10 February, where Táborites, Orphans, Praguers and lords all sat in one room for the first time in months. It was a stormy meeting, but it ended with an agreement to go to Basel together. Not everyone left it reassured. Some of the Utraquist lords had begun to wonder, quietly, whether the Catholic lords might make better allies against Tábor than Tábor did against anyone.",
-      cz: "Po Domažlicích se husité vrátili k návštěvám sousedů. Na podzim 1431 táhli táboři a sirotci společně přes Slezsko a Jablunkovský průsmyk do Horních Uher, na dnešní Slovensko. Zpočátku to šlo skvěle. Lstí dobyli hrad Likavu, vyplenili si cestu údolími a do poloviny října dorazili na Nitransko s víc koňmi a dobytkem, než stačili spočítat. Pak se výprava protáhla a táboři se obrátili domů jako první. Když přecházeli Váh u Hlohovce, most za nimi byl zničen.\n\nSirotci pod velením Jana Čapka ze Sán šli o pár dní za nimi a jejich vozy byly tak plné kořisti, že každý museli táhnout čtyři koně. Podzim byl deštivý, cesty se změnily v bláto, a když byl most u Hlohovce pryč, museli jít oklikou proti proudu Váhu s uherskou jízdou v patách. U brodu nedaleko Ilavy je Uhři v prosinci zaskočili dřív, než stačili pořádně uzavřít vozovou hradbu, a vtrhli dovnitř. U Bánova byli poraženi znovu. Mnoho jich utonulo, když se snažili dostat přes řeku. Ze zhruba sedmi tisíc mužů a tří set vozů se na Moravu vrátily snad dva tisíce mužů a padesát vozů a kořist byla pryč.\n\nSirotci potřebovali viníka a jednoho měli po ruce: táboři je nechali za sebou a odřízli jim cestu domů. Čapek neváhal označit Prokopa za zrádce a v Praze to padlo na úrodnou půdu. Hluboce uražený Prokop se stáhl do Kutné Hory a odmítl se zúčastnit sněmu. Tam ho skolila nemoc, kterou prameny nikde nejmenují. Když poslal do Prahy žádost o doktora, Pražané odpověděli, že mu raději pošlou kata. [[b]]Dva roky po Prešpurku a pár měsíců po Domažlicích nemohl nejobávanější vojevůdce Evropy dostat z vlastního hlavního města ani lékaře.[[/b]]\n\nZ postele ho nakonec vytáhl koncil v Basileji. S pozváním k jednání na stole a se sněmem, který zasedal bez táborů, si Prokop nemohl dovolit ležet v Kutné Hoře. V lednu 1432 byl zase na nohou. Zajel do Třeboně a uzavřel roční příměří s [[link:one-jailbreak-two-castles-1420]]Oldřichem z Rožmberka[[/link]], pak přijel na velký sněm do Prahy, svolaný na 10. února, kde táboři, sirotci, Pražané i páni poprvé po mnoha měsících seděli v jedné místnosti. Bylo to bouřlivé zasedání, ale skončilo dohodou, že do Basileje pojedou společně. Ne každý z něj odcházel uklidněn. Někteří kališničtí páni začali potichu uvažovat, jestli by katoličtí páni nebyli proti Táboru lepšími spojenci, než byl Tábor proti komukoli.",
-      zh: "多马日利采之战以后，胡斯派又开始去邻居家“串门”了。1431年秋天，塔博尔军和孤儿军一起穿过西里西亚，翻过亚布伦科夫山口，进入上匈牙利，也就是今天的斯洛伐克。一开始打得顺风顺水：他们用计拿下了利卡瓦城堡，沿着一道道河谷一路抢过去，到10月中旬抵达尼特拉一带时，马匹和牲口多得数不过来。可是远征越拖越久，塔博尔军先掉头回家了。他们在赫洛霍韦茨渡过瓦赫河之后，那里的桥就被毁掉了。\n\n扬·恰佩克率领的孤儿军落后了几天，车上塞满了战利品，每辆都得四匹马才拉得动。那年秋天阴雨连绵，道路成了烂泥塘，赫洛霍韦茨的桥又没了，他们只好沿着瓦赫河逆流绕远路，匈牙利骑兵就紧紧咬在身后。12月，在伊拉瓦附近的渡口，匈牙利人趁他们车阵还没合拢，一举冲了进去。到了巴诺夫，孤儿军又败了一仗。很多人在强渡瓦赫河时淹死了。出发时约七千人、三百辆战车，最后回到摩拉维亚的，大概只剩两千人、五十辆车，战利品一件不剩。\n\n孤儿军需要一个替罪羊，而现成的就有一个：塔博尔军丢下他们先走，还断了他们回家的路。恰佩克毫不犹豫地骂普罗科普是叛徒，这话在布拉格还很有市场。普罗科普深感受辱，退到库特纳霍拉，拒绝出席议会。他在那里病倒了，至于得的是什么病，史料里从来没说过。他派人去布拉格请个医生，布拉格人回话说，还是给他派个刽子手去比较合适。[[b]]普雷斯堡谈判两年后、多马日利采大捷几个月后，全欧洲最令人胆寒的统帅，竟然连一个医生都请不来。[[/b]]\n\n最后把他从病床上拽起来的，是巴塞尔公会议。谈判邀请已经摆在桌上，议会又在没有塔博尔派的情况下照开不误，普罗科普可躺不起。1432年1月，他重新站了起来。他先骑马去了特热邦，和[[link:one-jailbreak-two-castles-1420]]罗日姆贝克的奥尔德日赫[[/link]]订了一年的停战协议，接着赶到布拉格，出席2月10日召开的大议会。塔博尔派、孤儿军、布拉格人和贵族们，几个月来第一次坐进了同一间屋子。会议吵得不可开交，但最后总算达成一致：一起去巴塞尔。不过，并不是每个人离开时都放下了心。一些圣杯派贵族已经开始悄悄琢磨：要对付塔博尔派，天主教贵族会不会是比塔博尔派更好的盟友。",
+      en: "The Orphans needed someone to blame for [[link:weighed-down-by-the-loot-1431]]the Hungarian disaster[[/link]], and they had an obvious candidate: the Táborites had gone home first and left them behind, and the Hlohovec bridge had come down after them. Čapek did not hesitate to call Prokop a traitor, and in Prague the accusation went down well. Prokop, deeply offended, withdrew to Kutná Hora and refused to attend the diet. There he fell ill with something the sources never name. When he sent to Prague asking for a doctor, the Praguers answered that they would rather send him the executioner. [[b]]Two years after Pressburg and a few months after Domažlice, the most feared commander in Europe could not get a doctor from his own capital.[[/b]]\n\nIt was [[link:what-was-the-council-of-basel-1431]]the council at Basel[[/link]] that got him out of bed. By a rule laid down at Constance, the Church's general councils were now supposed to meet regularly, and the one due at Basel in 1431 was chaired by Cardinal Cesarini, who had come back from [[link:they-heard-them-coming-1431]]Domažlice[[/link]] convinced that the Hussites would have to be talked to rather than fought. In October the council invited the Bohemians to come and argue their case, with a promise of safe passage, and the new pope was so angry that he tried to dissolve it. With that invitation on the table and a diet meeting without the Táborites, Prokop could not afford to lie in Kutná Hora. In January 1432 he was up again. He rode to Třeboň and made a year's truce with [[link:one-jailbreak-two-castles-1420]]Oldřich of Rožmberk[[/link]], then came to the great diet in Prague on 10 February, where Táborites, Orphans, Praguers and lords all sat in one room for the first time in months. It was a stormy meeting, but it ended with an agreement to go to Basel together. Not everyone left it reassured. Some of the Utraquist lords had begun to wonder, quietly, whether the Catholic lords might make better allies against Tábor than Tábor did against anyone.",
+      cz: "Sirotci potřebovali viníka [[link:weighed-down-by-the-loot-1431]]uherské pohromy[[/link]] a jednoho měli po ruce: táboři odtáhli domů první, nechali je za sebou a most u Hlohovce spadl až po jejich přechodu. Čapek neváhal označit Prokopa za zrádce a v Praze to padlo na úrodnou půdu. Hluboce uražený Prokop se stáhl do Kutné Hory a odmítl se zúčastnit sněmu. Tam ho skolila nemoc, kterou prameny nikde nejmenují. Když poslal do Prahy žádost o doktora, Pražané odpověděli, že mu raději pošlou kata. [[b]]Dva roky po Prešpurku a pár měsíců po Domažlicích nemohl nejobávanější vojevůdce Evropy dostat z vlastního hlavního města ani lékaře.[[/b]]\n\nZ postele ho nakonec vytáhl [[link:what-was-the-council-of-basel-1431]]koncil v Basileji[[/link]]. Podle pravidla přijatého v Kostnici se teď obecné koncily církve měly scházet pravidelně a tomu, který měl roku 1431 zasednout v Basileji, předsedal kardinál Cesarini. Od [[link:they-heard-them-coming-1431]]Domažlic[[/link]] se vrátil přesvědčený, že s husity se bude muset jednat, a ne bojovat. V říjnu koncil pozval Čechy, aby přijeli obhájit své učení, a slíbil jim bezpečný průchod. Nový papež se tak rozzlobil, že se ho pokusil rozpustit. S tímhle pozváním na stole a se sněmem, který zasedal bez táborů, si Prokop nemohl dovolit ležet v Kutné Hoře. V lednu 1432 byl zase na nohou. Zajel do Třeboně a uzavřel roční příměří s [[link:one-jailbreak-two-castles-1420]]Oldřichem z Rožmberka[[/link]], pak přijel na velký sněm do Prahy, svolaný na 10. února, kde táboři, sirotci, Pražané i páni poprvé po mnoha měsících seděli v jedné místnosti. Bylo to bouřlivé zasedání, ale skončilo dohodou, že do Basileje pojedou společně. Ne každý z něj odcházel uklidněn. Někteří kališničtí páni začali potichu uvažovat, jestli by katoličtí páni nebyli proti Táboru lepšími spojenci, než byl Tábor proti komukoli.",
+      zh: "[[link:weighed-down-by-the-loot-1431]]匈牙利惨败[[/link]]总得有人负责，孤儿军心里早有人选：塔博尔军丢下他们先走了，赫洛霍韦茨的桥也恰恰是在塔博尔军过河之后才断的。恰佩克毫不犹豫地骂普罗科普是叛徒，这话在布拉格还很有市场。普罗科普深感受辱，退到库特纳霍拉，拒绝出席议会。他在那里病倒了，至于得的是什么病，史料里从来没说过。他派人去布拉格请个医生，布拉格人回话说，还是给他派个刽子手去比较合适。[[b]]普雷斯堡谈判两年后、多马日利采大捷几个月后，全欧洲最令人胆寒的统帅，竟然连一个医生都请不来。[[/b]]\n\n最后把他从病床上拽起来的，是[[link:what-was-the-council-of-basel-1431]]巴塞尔公会议[[/link]]。按照康斯坦茨公会议定下的规矩，教会的公会议今后要定期召开，1431年这一届轮到在巴塞尔举行，主持人正是红衣主教切萨里尼。他从[[link:they-heard-them-coming-1431]]多马日利采[[/link]]逃回来以后，认定胡斯派只能谈、不能打。10月，公会议邀请波希米亚人前去陈述自己的主张，并保证他们来去平安；新教皇气得要下令解散这次会议。邀请就摆在桌上，议会又在没有塔博尔派的情况下照开不误，普罗科普可躺不起。1432年1月，他重新站了起来。他先骑马去了特热邦，和[[link:one-jailbreak-two-castles-1420]]罗日姆贝克的奥尔德日赫[[/link]]订了一年的停战协议，接着赶到布拉格，出席2月10日召开的大议会。塔博尔派、孤儿军、布拉格人和贵族们，几个月来第一次坐进了同一间屋子。会议吵得不可开交，但最后总算达成一致：一起去巴塞尔。不过，并不是每个人离开时都放下了心。一些圣杯派贵族已经开始悄悄琢磨：要对付塔博尔派，天主教贵族会不会是比塔博尔派更好的盟友。",
     },
     relatedLandmarks: [
       {
