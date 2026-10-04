@@ -32620,19 +32620,19 @@ Je to místo bývalého uhříněveského cukrovaru. Otevřel se roku 1868, v do
 
 The place first appears around 1227, as a village belonging to the convent of St. George at Prague Castle. Later it passed to the Knights Templar and then the Knights of St. John, and in 1579 it was bought by Jaroslav Smiřický, whose family built a chateau here in 1591 as the centre of a large estate. After the Battle of White Mountain the estate went to Karl of Liechtenstein in 1622, and the Liechtensteins kept it for almost three hundred years, until the land reform after 1918. For most of that time Uhříněves was a quiet estate village. Then, on 14 December 1871, the Emperor Franz Joseph Railway opened its line from Prague towards České Budějovice and Vienna, with a station here. Everything sped up. A sugar factory had opened in 1868, and a distillery, a brewery and brickworks soon followed. The population roughly tripled in fifty years. Uhříněves became a market town in 1866 and a full town in 1913. Its sizeable Jewish community built a synagogue in 1847–48 and had a cemetery in the old game park, with about 300 gravestones, the oldest from 1719. The last burial there was in 1942, the year the community was deported. Uhříněves joined Prague in 1974 and in 2002 became the centre of the Prague 22 district. Today about eleven thousand people live here. The station still has its original building, a second one from 1915, and a water tower from 1871. Between 2005 and 2008 the whole line was rebuilt, and next to it now sits a large container terminal with about 11 kilometres of sidings. These days the station does more business moving freight than it ever did with sugar.
 
-🎁 Bonus: Ask someone to point out the Uhříněves chateau and there's a good chance they'll point at the wrong building. The pretty turreted villa now run as Hotel Na Zámečku ("At the Little Chateau") was in fact built in 1900 for Ferdinand Böhm, the chief director of the Liechtenstein estates, and it turns up on old postcards labelled as the chateau. The real chateau is a much plainer building, used since the 1950s by the Research Institute of Animal Production and kept behind a closed gate. So the house everyone photographs belonged to the estate manager, and the prince's chateau now belongs to the cows and pigs.`,
+🎁 Bonus: The name probably comes from an early owner called Uher or Uhřín, which makes Uhříněves something like "Uhřín's village". In Czech, though, Uher is also the old word for a Hungarian. Nobody knows whether the founder actually came from Hungary, but it does mean one of Prague's districts may be named, more or less, "the Hungarian's place".`,
 
       cz: `Uhříněvsi trvalo skoro celé století, než se vypracovala na pořádné město. Povedlo se to v roce 1913 a pak si to užívala necelých šedesát let, než ji celou spolkla Praha. To, co ji tam dostalo, tu pořád stojí: nádraží.
 
 Poprvé se objevuje kolem roku 1227 jako ves kláštera sv. Jiří na Pražském hradě. Později přešla na templáře a pak na johanity a roku 1579 ji koupil Jaroslav Smiřický, jehož rod tu v roce 1591 postavil zámek jako středisko velkého panství. Po bitvě na Bílé hoře připadlo panství roku 1622 Karlovi z Lichtenštejna a Lichtenštejnové ho drželi skoro tři sta let, až do pozemkové reformy po roce 1918. Po většinu té doby byla Uhříněves tichou panskou vsí. Pak 14. prosince 1871 otevřela dráha císaře Františka Josefa trať z Prahy směrem na České Budějovice a Vídeň, se stanicí právě tady. Všechno se zrychlilo. Už roku 1868 se tu otevřel cukrovar a brzy přibyly lihovar, pivovar a cihelny. Počet obyvatel se za padesát let zhruba ztrojnásobil. Uhříněves se roku 1866 stala městysem a v roce 1913 městem. Zdejší početná židovská obec si v letech 1847–1848 postavila synagogu a v bývalé oboře měla hřbitov s asi 300 náhrobky, nejstarším z roku 1719. Poslední pohřeb se tu konal v roce 1942, v roce, kdy byla obec deportována. V roce 1974 se Uhříněves stala součástí Prahy a v roce 2002 centrem městské části Praha 22. Dnes tu žije asi jedenáct tisíc lidí. Nádraží má dodnes původní budovu, druhou budovu z roku 1915 a vodárenskou věž z roku 1871. V letech 2005 až 2008 prošla celá trať přestavbou a vedle ní dnes leží velký kontejnerový terminál s asi 11 kilometry vleček. Nádraží teď vydělává víc na nákladu, než kdy vydělalo na cukru.
 
-🎁 Bonus: Požádejte někoho, ať vám ukáže uhříněveský zámek, a je dost pravděpodobné, že ukáže na špatnou budovu. Půvabná vila s věžičkami, ve které dnes funguje hotel Na Zámečku, byla ve skutečnosti postavena v roce 1900 pro Ferdinanda Böhma, ústředního ředitele lichtenštejnských statků, a na starých pohlednicích se objevuje s popiskem „zámek“. Skutečný zámek je mnohem prostší budova, kterou od 50. let užívá Výzkumný ústav živočišné výroby a která zůstává za zavřenou bránou. Dům, který si všichni fotí, tedy patřil správci panství, a knížecí zámek mezitím patří kravám a prasatům.`,
+🎁 Bonus: Jméno nejspíš pochází od raného majitele jménem Uher nebo Uhřín, takže Uhříněves znamená zhruba „Uhřínova ves“. Jenže Uher je v češtině zároveň staré slovo pro Maďara. Jestli zakladatel opravdu přišel z Uher, nikdo neví, ale jedna pražská městská část se tak možná jmenuje víceméně „u Maďara“.`,
 
       zh: `乌赫日涅维斯花了差不多一整个世纪，才一步步熬成一座像样的城镇，1913年终于如愿，然后只享受了六十年出头，就被布拉格整个吞了进去。把它送上去的那样东西，如今还在原地：火车站。
 
 它最早出现在1227年前后，当时是布拉格城堡圣乔治修道院名下的一个村子。后来它先后归了圣殿骑士团和圣约翰骑士团，1579年被雅罗斯拉夫·斯米日茨基买下，他的家族在1591年于此建了一座府邸，作为一大片领地的管理中心。白山战役之后，这片领地在1622年归了列支敦士登家族的卡尔，列支敦士登家族一拿就是将近三百年，直到1918年以后的土地改革。在这段时间的大部分里，乌赫日涅维斯只是一个安静的庄园村子。后来，1871年12月14日，弗朗茨·约瑟夫皇帝铁路开通了从布拉格通往捷克布杰约维采和维也纳的线路，这里正好设了一站。一切都快了起来。糖厂1868年就已开工，酒精厂、啤酒厂和砖厂很快也跟着来了。五十年里，人口大约翻了三倍。乌赫日涅维斯在1866年成了集镇，1913年正式升格为城镇。这里不小的犹太社区在1847到1848年建了犹太会堂，旧狩猎园里还有一片犹太墓地，留有大约300块墓碑，最早的一块是1719年的。那里最后一次下葬是在1942年，也就是这个社区被驱逐的那一年。1974年，乌赫日涅维斯并入布拉格，2002年成为布拉格22区的中心。如今这里住着大约一万一千人。车站至今还保留着最初的站房、1915年加建的第二座站房，以及一座1871年的水塔。2005到2008年，整条线路经历了改造，车站旁边现在是一座很大的集装箱货运站，铁路支线长约11公里。如今这座车站靠运货挣的，比当年靠糖挣的还多。
 
-🎁 彩蛋：要是请人指一指乌赫日涅维斯的府邸在哪儿，对方很可能会指错楼。那座带小塔楼的漂亮别墅，现在是“小城堡旁”酒店，其实是1900年给列支敦士登领地的总管费迪南德·伯姆盖的，在老明信片上还常被标成“府邸”。真正的府邸是一栋朴素得多的楼，从20世纪50年代起归动物生产研究所使用，大门一直关着。所以大家拍照的那栋楼是总管的房子，而亲王的府邸，如今归奶牛和猪了。`,
+🎁 彩蛋：这个地名大概来自一位叫乌赫尔或乌赫任的早期领主，所以乌赫日涅维斯的意思差不多是“乌赫任的村子”。可在捷克语里，Uher也是“匈牙利人”的老说法。这位创始人到底是不是真从匈牙利来的，没人知道，但这意味着布拉格有一个区，名字说不定差不多就是“匈牙利人家”。`,
     },
   },
   {
@@ -32760,6 +32760,180 @@ Ves se poprvé objevuje v písemnostech roku 1313 jako „in Hayka“. Od roku 1
 这个村子第一次见于文字是在1313年，写作“in Hayka”，名字的意思是“小树林”。从1604年起，它和乌赫日涅维斯归同一个领主，之后两个半世纪里，谁拿着那片庄园，它就归谁。1849年旧的领主制度结束时，哈耶克并没有成为独立的村镇，而是被划成邻村克拉洛维采下属的一个小居民点。直到1923年它才重新独立，然后自己管了自己四十六年，村委会就在46号村公所的两个房间里开会。1969年，它放弃独立，并入了乌赫日涅维斯。五年后的1974年，乌赫日涅维斯自己也被布拉格吞并，顺带把哈耶克一起带了进去。那座老村公所后来当过文化中心，现在是一家带壁球场的餐馆。2013年，村子庆祝了首次见于记载700周年。村子边上不断有新的独栋住宅盖起来，可周边的散步路线依然是乡村味道：往下走到罗基特卡溪，这一段的河漫滩是野生动物的生态走廊；穿过一条条橡树和鹅耳枥混生的林带，再往上就是开阔的田野。
 
 🎁 彩蛋：村中绿地上的钟楼是一座小小的民间建筑，茅草屋顶，只挂着一口19世纪的钟。2000年修缮它的时候，人们在地基里封进了一个纪念盒，留给下一个打开它的人。对一个四次换了上级村镇的村子来说，给未来留封信大概是明智之举。`,
+    },
+  },
+  {
+    // Added 2026-10-03. The user asked for "Uhříněvský Zámek", but the
+    // supplied coordinates reverse-geocode (OSM Nominatim) to Rozdělená
+    // 240/8, "Na Zámečku", and the cover shows the hotel villa with its
+    // fountain and water tower; confirmed with the user that the card is for
+    // the villa, not the real chateau (by All Saints, a closed research
+    // institute). Sources: cs.wikipedia "Uhříněves (zámek)" (neo-Baroque
+    // villa with garden built 1900 for Ferdinand Böhm, central director of
+    // Prince Johann II of Liechtenstein, designed by František Hošek,
+    // enlarged 1910; now Hotel Na Zámečku, often mistaken on postcards for
+    // the chateau; chateau history: Smiřický 1591, Liechtensteins 1622,
+    // burned by the Swedes 1639, Baroque rebuild 1711, state purchase 1923,
+    // research institute, closed), mistopis.eu "Uhříněves" (villa on the
+    // south-eastern edge of town at the junction of the roads to Říčany and
+    // Královice, commissioned c. 1900 by Ferdinand Böhm von Bawenberg,
+    // central director and economic councillor of the Liechtenstein estates;
+    // small park; its own water tower of 1914), czwiki "Uhříněves (zámek)"
+    // via search summary (Böhm lived there until 1918; a home for mothers
+    // with children in the 1980s; knight of the Order of Franz Joseph).
+    name: 'Villa Na Zámečku',
+    slug: 'vila-na-zamecku-uhrineves',
+    localizedNames: { cz: 'Vila Na Zámečku', zh: 'Na Zámečku别墅' },
+    labels: ['villa', 'architecture', 'historical'],
+    coordinates: { lat: 50.03038875497555, lng: 14.609420314122328 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Uh%C5%99%C3%ADn%C4%9Bves_(z%C3%A1mek)',
+    description: {
+      en: `The most photographed chateau in Uhříněves isn't a chateau at all. It's a neo-Baroque villa with turrets, built for the man who managed the Liechtenstein estates, and for more than a century it has been doing a very convincing impression of the real thing.
+
+The Liechtensteins had owned Uhříněves since 1622, but the princes had far grander homes elsewhere, and the estate was run for them by officials. Around 1900 the most senior of them, Ferdinand Böhm von Bawenberg, central director and economic councillor of the Liechtenstein estates under Prince Johann II, built himself a house to match his position. It stands on the south-eastern edge of town, where the roads to Říčany and Královice split. The architect František Hošek designed it, and in 1910 it was enlarged. It got a small park of its own and, in 1914, its own water tower, the round brick tower that still stands beside it. Böhm's timing turned out to be poor. He lived here only until 1918, when the monarchy fell, and the Czechoslovak land reform soon took the Liechtenstein estate away altogether. Under communism the villa served other purposes, and in the 1980s it was a home for mothers with young children. Today it is Hotel Na Zámečku, with a fountain out front and a park that is popular for weddings. The real Uhříněves chateau, built by the Smiřický family in 1591, burned by the Swedes in 1639 and rebuilt in Baroque style in 1711, stands about half a kilometre west next to the Church of All Saints. It is a much plainer building, used by an agricultural research institute and closed to the public.
+
+🎁 Bonus: Na Zámečku means "At the Little Chateau", and old postcards of Uhříněves regularly showed this villa labelled as the chateau. So the house built for the man who managed the estate ended up with the chateau's name, its postcard fame and its wedding guests, while the actual chateau went to the scientists. Not bad for an estate official.`,
+
+      cz: `Nejfotografovanější zámek v Uhříněvsi vůbec není zámek. Je to novobarokní vila s věžičkami, postavená pro muže, který spravoval lichtenštejnská panství, a už přes sto let skutečný zámek velmi přesvědčivě napodobuje.
+
+Lichtenštejnové vlastnili Uhříněves od roku 1622, knížata ale měla mnohem honosnější sídla jinde a panství za ně spravovali úředníci. Kolem roku 1900 si ten nejvyšší z nich, Ferdinand Böhm von Bawenberg, ústřední ředitel a hospodářský rada lichtenštejnských panství za knížete Jana II., postavil dům odpovídající svému postavení. Stojí na jihovýchodním okraji města, kde se rozdělují silnice do Říčan a Královic. Navrhl ho architekt František Hošek a v roce 1910 byl rozšířen. Dostal vlastní menší park a v roce 1914 i vlastní vodárenskou věž, onu kulatou cihlovou věž, která vedle něj stojí dodnes. Böhm si ale nevybral nejlepší dobu. Bydlel tu jen do roku 1918, kdy padla monarchie, a československá pozemková reforma brzy Lichtenštejnům vzala celé panství. Za komunismu sloužila vila jiným účelům, v 80. letech byl v ní domov pro matky s dětmi. Dnes je tu hotel Na Zámečku s fontánou před vchodem a parkem, kde se rády konají svatby. Skutečný uhříněveský zámek, který postavili Smiřičtí roku 1591, Švédové vypálili v roce 1639 a v roce 1711 byl barokně přestavěn, stojí asi půl kilometru na západ vedle kostela Všech svatých. Je to mnohem prostší budova, kterou užívá zemědělský výzkumný ústav a která je veřejnosti nepřístupná.
+
+🎁 Bonus: Staré pohlednice Uhříněvsi tuhle vilu pravidelně ukazovaly s popiskem „zámek“. Dům postavený pro muže, který panství spravoval, tak nakonec získal jméno zámku, jeho slávu na pohlednicích i jeho svatebčany, zatímco skutečný zámek připadl vědcům. Na lichtenštejnského úředníka vůbec ne špatné.`,
+
+      zh: `乌赫日涅维斯被拍得最多的“府邸”，其实根本不是府邸。它是一栋带小塔楼的新巴洛克式别墅，是给替列支敦士登家族管理领地的人盖的，一百多年来，它把真府邸模仿得非常像。
+
+列支敦士登家族从1622年起就拥有乌赫日涅维斯，可亲王们在别处有气派得多的宅邸，这片领地是由手下的官员替他们打理的。1900年前后，其中级别最高的那位，费迪南德·伯姆·冯·鲍文贝格，也就是约翰二世亲王手下列支敦士登领地的总管兼经济顾问，给自己盖了一座配得上身份的房子。它坐落在镇子东南边缘，正好是通往日恰尼和克拉洛维采的两条路分岔的地方。设计者是建筑师弗朗齐歇克·霍谢克，1910年又扩建过。房子有自己的小花园，1914年还有了自己的水塔，就是至今立在旁边的那座圆形砖塔。可惜伯姆挑的时机不太好。他只在这里住到1918年，那一年君主国垮了，捷克斯洛伐克的土地改革很快就把列支敦士登家族的整片领地都收走了。共产党时期，这栋别墅另作他用，20世纪80年代还当过母婴之家。如今它是Na Zámečku酒店，门前有一座喷泉，花园很受办婚礼的人欢迎。真正的乌赫日涅维斯府邸，由斯米日茨基家族在1591年建造，1639年被瑞典人烧过，1711年改建成巴洛克风格，就在往西大约半公里的万圣教堂旁边。那是一栋朴素得多的楼，归一家农业研究所使用，不对外开放。
+
+🎁 彩蛋：Na Zámečku的意思是“在小城堡”，乌赫日涅维斯的老明信片上，也常常把这栋别墅标成“府邸”。于是，这栋给领地总管盖的房子，最后拿走了府邸的名字、明信片上的名气，还有来办婚礼的客人，真正的府邸却归了科学家。对一个领地总管来说，这结局真不赖。`,
+    },
+  },
+  {
+    // Added 2026-10-04 at the user's request (coordinates and rarity
+    // user-supplied). Sources: cs.wikipedia "Pražské póly" (boundary of
+    // Dobrovíz and Ruzyně, ~500 m SE of Dobrovíz near the Amazon complex;
+    // geodetic point 50°6′11″ N, 14°13′28″ E inside the strictly protected
+    // area of Václav Havel Airport, so the 180 kg post stands ~100 m away at
+    // the end of a public field road in front of the airport perimeter; poles
+    // marked late November 2020 by Janek Rubeš and Ondřej Boháč of IPR),
+    // en.wikipedia "Prague Poles" (the only pole whose true point is not
+    // publicly accessible). praha.camp gives 4 June 2021 for this post's
+    // installation, contradicting Wikipedia, so the card gives no date for it.
+    name: 'West Pole of Prague',
+    slug: 'zapadni-pol-prahy',
+    localizedNames: { cz: 'Západní pól Prahy', zh: '布拉格西极' },
+    labels: ['hidden-gem', 'nature'],
+    coordinates: { lat: 50.10392837358432, lng: 14.22526147325622 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pra%C5%BEsk%C3%A9_p%C3%B3ly',
+    description: {
+      en: `Prague's westernmost point has an airport on one side, one of the biggest warehouses in the country on the other, and a field road running between them that simply stops at a fence. At the end of that road stands a concrete post. You can reach the post, but not the actual pole.
+
+It is one of four "Prague poles", the points of the city's territory furthest north, south, east and west. They were marked at the end of November 2020 by the YouTuber Janek Rubeš of Kluci z Prahy ("the Prague Boys") together with Ondřej Boháč, director of the city's Institute of Planning and Development, and each one got the same marker: a conical concrete post with a rounded top, weighing 180 kilograms, with red and black plates. The west pole lies where Prague's Ruzyně meets the village of Dobrovíz, about 500 metres south-east of the village and right next to Amazon's huge distribution centre. The true geodetic point, at 50°6′11″ N, 14°13′28″ E, lies about 100 metres inside the fence of Václav Havel Airport, in its strictly protected security zone. That makes it the only one of the four poles that nobody is allowed to visit. The post was therefore set at the end of the public field road, just in front of the airport perimeter. The landscape is flat fields, wire fencing and a wide sky, and every few minutes a plane comes low overhead. It's a good spot for watching aircraft, and with Prague's runways next door and Amazon's trucks across the field, it may be the busiest place anywhere on the city's edge where nobody actually lives.
+
+🎁 Bonus: None of the poles has had much luck with its exact spot. In the north the railway got in the way, and in the east it was a thicket full of wild boar. Here in the west it's an airport security fence, and unlike the boars, airport security has no intention of moving for hikers. So the westernmost point in Prague that you're actually allowed to stand on is roughly a hundred metres short of the real one.`,
+
+      cz: `Nejzápadnější bod Prahy má z jedné strany letiště, z druhé jeden z největších skladů v republice a mezi nimi polní cestu, která prostě skončí u plotu. Na jejím konci stojí betonový sloupek. K sloupku se dostanete, ke skutečnému pólu ne.
+
+Je to jeden ze čtyř „pražských pólů“, nejvzdálenějších bodů území města na sever, jih, východ a západ. Koncem listopadu 2020 je vyznačil youtuber Janek Rubeš z Kluků z Prahy spolu s Ondřejem Boháčem, ředitelem Institutu plánování a rozvoje hlavního města, a každý dostal stejné označení: kuželovitý betonový sloupek s půlkulatým zakončením, vážící 180 kilogramů, s červeno-černými štítky. Západní pól leží tam, kde se pražská Ruzyně stýká s obcí Dobrovíz, asi 500 metrů jihovýchodně od vsi a hned vedle obřího distribučního centra Amazonu. Skutečný geodetický bod, na 50°6′11″ s. š. a 14°13′28″ v. d., leží asi 100 metrů za plotem Letiště Václava Havla, v jeho přísně střeženém bezpečnostním prostoru. Je to tak jediný ze čtyř pólů, který nesmí navštívit nikdo. Sloupek proto stojí na konci veřejné polní cesty, těsně před oplocením letiště. Krajina kolem jsou rovná pole, drátěné ploty a široké nebe a každých pár minut nad hlavou nízko proletí letadlo. Je to dobré místo na pozorování letadel a s pražskými ranvejemi za plotem a kamiony Amazonu přes pole je to možná nejrušnější místo na celém okraji města, kde přitom nikdo nebydlí.
+
+🎁 Bonus: Žádný z pólů neměl se svým přesným místem moc štěstí. Na severu překážela železnice, na východě houští plné divočáků. Tady na západě je to bezpečnostní plot letiště, a na rozdíl od divočáků letištní ostraha nemá v úmyslu kvůli turistům uhnout. Nejzápadnější bod Prahy, na který si smíte stoupnout, tak leží zhruba sto metrů před tím skutečným.`,
+
+      zh: `布拉格的最西端，一边是机场，一边是全国数一数二的大仓库，中间一条田间小路，走着走着就撞上了一道围栏。小路尽头立着一根水泥桩。桩子你能走到，真正的极点却去不了。
+
+它是四个“布拉格极点”之一，也就是全市辖区最北、最南、最东、最西的四个点。2020年11月底，“布拉格小伙”的油管博主雅内克·鲁贝什联合布拉格规划与发展研究院院长翁德热·博哈奇给它们做了标记。每个极点用的都是同一种：一根圆锥形、顶部呈半圆的水泥桩，重180公斤，挂着红黑两色的说明牌。西极位于布拉格鲁津涅区和多布罗维兹村的交界处，在村子东南大约500米，紧挨着亚马逊的巨型物流中心。真正的测地点在北纬50°6′11″、东经14°13′28″，位于瓦茨拉夫·哈维尔机场围栏里面大约100米处，属于严格管控的安保区。所以在四个极点里，只有它是谁都不许去的。水泥桩只好立在公共田间路的尽头，就在机场围栏跟前。四周是平坦的田野、铁丝网和开阔的天空，每隔几分钟就有一架飞机低低地从头顶掠过。这里很适合看飞机，围栏那边是布拉格的跑道，田野对面是亚马逊的卡车，在整个城市边缘没人住的地方里，这儿大概是最忙的一处。
+
+🎁 彩蛋：几个极点都没能稳稳当当立在自己的真位置上。北边挡路的是铁路，东边是一片满是野猪的灌木丛。到了西边，挡路的是机场的安保围栏，而且跟野猪不一样，机场保安可没打算给徒步的人让路。于是，你在布拉格能合法站上去的最西点，比真正的西极差了大约一百米。`,
+    },
+  },
+  {
+    // Added 2026-10-04 at the user's request (coordinates and rarity
+    // user-supplied). Sources: cs.wikipedia "Koloděje (zámek)" (fortress on
+    // the road from Prague to Moravia, first mentioned 1346 under the lords
+    // of Rokycany; Margrave John Henry 1359–1375; the Rotlev family
+    // 1392–1436; Smiřický 1589–1597; Karl of Liechtenstein from 1623;
+    // Baroque rebuild 1706–1712 under Johann Adam Andreas of Liechtenstein to
+    // plans by Domenico Martinelli, three wings on a horseshoe plan, stucco by
+    // Santino Bussi; Classicist rebuild 1806, tower lost; state 1919,
+    // Masaryk stayed; National Gallery paintings hidden here 1943; Kumpera
+    // confiscation; StB prison in the cellars in the 1950s; government venue
+    // from 1955; three cabinet sessions 2006–07; restitution 2008; sold 2010
+    // to Tomáš Chrenek for almost 233 million CZK; private, not regularly
+    // open), vlada.gov.cz "Koloděje Castle" (Charles IV gave it to his brother
+    // so he could live nearby and attend government meetings; completed by
+    // his daughter Theresa Anna, wife of Thomas Emmanuel of Savoy; Kumpera
+    // 1937–1946, central heating; Ministry of the Interior training centre
+    // 1947; prisoners Otto Šling, Laco Novomeský, Gustáv Husák, Marie
+    // Švermová). Johlin Rotlev's Prague house became the Carolinum (bought
+    // 1383) — widely documented.
+    name: 'Koloděje Chateau',
+    slug: 'zamek-kolodeje',
+    localizedNames: { cz: 'Zámek Koloděje', zh: '科洛杰耶城堡' },
+    labels: ['palace', 'historical', 'architecture'],
+    coordinates: { lat: 50.060662052188896, lng: 14.635529262798975 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kolod%C4%9Bje_(z%C3%A1mek)',
+    description: {
+      en: `Over seven centuries, Koloděje Chateau has housed a margrave, a president, a hidden national art collection, a steel tycoon and the Czech government. It also spent a few years as a prison for people who would later run the country. For a quiet building at the end of a village on Prague's eastern edge, that's a lot of guests.
+
+It began as a fortress guarding the old road from Prague to Moravia, and it first appears in the records in 1346, held by the lords of Rokycany. In 1359 Charles IV gave it to his brother John Henry, Margrave of Moravia, so that he could live close to Prague and attend meetings of the royal government. From 1392 it belonged to the Rotlevs, a wealthy Prague merchant family whose town house in the Old Town had just become the Carolinum, the seat of Charles University. Later owners included the Smiřický family, and in 1623 the estate went to Karl of Liechtenstein. Between 1706 and 1712 his descendant Johann Adam Andreas of Liechtenstein had the old fortress rebuilt as a Baroque chateau, three wings around a horseshoe-shaped courtyard designed by the Italian architect Domenico Martinelli, with stucco work by Santino Bussi of Vienna. His daughter Theresa Anna, Duchess of Savoy, saw the job through. In 1806 another rebuild gave the chateau its present Classicist look and took away its last medieval tower. After 1918 the new Czechoslovak state took over the Liechtenstein property, and in 1919 President Masaryk stayed here for a while before settling at Lány. In 1937 the industrialist Antonín Kumpera bought it and modernised it, down to central heating. During the war, paintings from the National Gallery were hidden here. After 1945 the state confiscated it again, and in the early 1950s the secret police used its cellars to interrogate political prisoners from inside the Communist Party itself, among them Gustáv Husák and Marie Švermová. From 1955 it served as a government residence for ceremonies, talks and visiting delegations, and the cabinet met here as late as 2006–07. After a long court battle, the chateau was returned to Kumpera's grandson in 2008. Two years later he sold it to the steel magnate Tomáš Chrenek for almost 233 million crowns. It is privately owned and only rarely open to visitors, but a marked hiking trail runs past its wall and the park around it.
+
+🎁 Bonus: Gustáv Husák was interrogated in these cellars in the 1950s and spent most of that decade in prison. In 1975 he became president of Czechoslovakia. During his years in power, the building where the regime had once locked him up was being used to host its official guests.`,
+
+      cz: `Zámek Koloděje za sedm století hostil markraběte, prezidenta, ukrytou národní sbírku obrazů, ocelářského magnáta i českou vládu. Pár let byl také vězením pro lidi, kteří později zemi sami vládli. Na tichou budovu na konci vesnice na východním okraji Prahy je to docela dost hostů.
+
+Začínal jako tvrz, která hlídala starou cestu z Prahy na Moravu, a v písemnostech se poprvé objevuje roku 1346, v držení pánů z Rokycan. Roku 1359 ji Karel IV. dal svému bratrovi Janu Jindřichovi, markraběti moravskému, aby mohl bydlet blízko Prahy a účastnit se zasedání královské rady. Od roku 1392 patřila Rotlevům, bohaté pražské kupecké rodině, jejíž staroměstský dům se právě stal Karolinem, sídlem Karlovy univerzity. Mezi dalšími majiteli byli Smiřičtí a roku 1623 panství připadlo Karlovi z Lichtenštejna. V letech 1706 až 1712 dal jeho potomek Jan Adam Ondřej z Lichtenštejna starou tvrz přestavět na barokní zámek, tři křídla kolem podkovovitého nádvoří podle návrhu italského architekta Domenica Martinelliho, se štukovou výzdobou vídeňského štukatéra Santina Bussiho. Dokončila ji jeho dcera Terezie Anna, vévodkyně Savojská. V roce 1806 dostal zámek při další přestavbě dnešní klasicistní podobu a přišel o poslední středověkou věž. Po roce 1918 převzal lichtenštejnský majetek nový československý stát a roku 1919 tu nějakou dobu pobýval prezident Masaryk, než se usadil v Lánech. V roce 1937 zámek koupil průmyslník Antonín Kumpera a zmodernizoval ho až po ústřední topení. Za války se tu ukrývaly obrazy z Národní galerie. Po roce 1945 ho stát znovu zabavil a na počátku 50. let používala StB jeho sklepy k výslechům politických vězňů z řad samotné komunistické strany, mezi nimi Gustáva Husáka a Marie Švermové. Od roku 1955 sloužil jako vládní objekt pro slavnostní příležitosti, jednání a ubytování zahraničních delegací a vláda tu zasedala ještě v letech 2006–2007. Po dlouhém soudním sporu byl zámek v roce 2008 vrácen Kumperovu vnukovi. O dva roky později ho prodal ocelářskému magnátovi Tomáši Chrenkovi za necelých 233 milionů korun. Je v soukromém vlastnictví a veřejnosti se otevírá jen výjimečně, kolem jeho zdi a okolního parku ale vede značená turistická trasa.
+
+🎁 Bonus: Gustáv Husák byl v 50. letech vyslýchán v těchto sklepích a většinu toho desetiletí strávil ve vězení. V roce 1975 se stal prezidentem Československa. V letech, kdy byl u moci, sloužila budova, kde ho režim kdysi věznil, k hoštění jeho oficiálních hostů.`,
+
+      zh: `七百年来，科洛杰耶城堡接待过一位边疆伯爵、一位总统、一批藏起来的国家藏画、一位钢铁大亨，还有捷克政府。它还当过几年监狱，关的是后来自己当家掌国的人。对布拉格东郊村子尽头一栋安安静静的房子来说，这客人可真不少。
+
+它最初是一座设防庄园，守着从布拉格通往摩拉维亚的老路，1346年第一次见于记载，当时属于罗基察尼的领主。1359年，查理四世把它赐给了弟弟、摩拉维亚边疆伯爵约翰·亨利，好让他住得离布拉格近些，方便参加王室政务会议。1392年起，它归了罗特列夫家族。这是布拉格一个富有的商人家族，他们在老城的宅子当时刚刚变成了查理大学的卡罗利努姆。后来的主人里还有斯米日茨基家族，1623年，这片领地落到了列支敦士登家族的卡尔手里。1706到1712年，他的后人约翰·亚当·安德烈亚斯把老设防庄园改建成了一座巴洛克城堡：三翼建筑围着一个马蹄形庭院，设计者是意大利建筑师多梅尼科·马蒂内利，灰泥装饰出自维也纳的桑蒂诺·布西之手。工程最后由他的女儿、萨伏依公爵夫人特蕾莎·安娜完成。1806年的又一次改建，让城堡变成了今天的古典主义模样，也拆掉了它最后一座中世纪塔楼。1918年以后，新生的捷克斯洛伐克接管了列支敦士登家族的产业，1919年，马萨里克总统在这里住过一阵，之后才定居拉尼。1937年，实业家安东宁·昆佩拉买下了城堡，一路翻新到装上了中央供暖。战争期间，国家美术馆的画作就藏在这里。1945年以后，国家又一次把它没收。50年代初，秘密警察用它的地下室审讯来自共产党内部的政治犯，其中就有古斯塔夫·胡萨克和玛丽·什韦尔莫娃。从1955年起，它成了政府的礼宾场所，用来办仪式、谈判和接待外国代表团，直到2006至2007年，内阁还在这里开过会。经过一场漫长的官司，城堡在2008年归还给了昆佩拉的孙子。两年后，他以将近2.33亿克朗的价格把它卖给了钢铁大亨托马什·赫雷内克。如今它是私人产业，很少对外开放，不过有一条标记好的徒步路线从它的围墙和周围的园子边经过。
+
+🎁 彩蛋：古斯塔夫·胡萨克50年代在这些地下室里受过审，那十年的大部分时间都是在牢里度过的。1975年，他当上了捷克斯洛伐克总统。在他掌权的那些年里，政权当年关押他的这栋房子，正用来招待政权的贵宾。`,
+    },
+  },
+  {
+    // Added 2026-10-04 at the user's request (coordinates and rarity
+    // user-supplied). Sources: cs.wikipedia "Kostel Povýšení svatého Kříže
+    // (Koloděje)" (built 1806–1807 after the demolition of St. Bartholomew's
+    // in Újezd nad Lesy, which had lain deserted for some 140 years after the
+    // Thirty Years' War; its building material, a St. Bartholomew painting
+    // and three bells, one from 1486, moved here; simple Classicist church,
+    // flat ceiling, hipped roof, polygonal bell tower; consecrated 18 June
+    // 1807; cemetery founded at the same time; nativity scene whose original
+    // figures, possibly by Bohumil Bek of Kutná Hora, were stolen, the
+    // surviving landscape refilled with figures by Miroslav Hácha; parish
+    // church; cultural monument 41252/1-1985; repaired 2002–2003).
+    name: 'Church of the Exaltation of the Holy Cross (Koloděje)',
+    slug: 'kostel-povyseni-svateho-krize-kolodeje',
+    localizedNames: { cz: 'Kostel Povýšení svatého Kříže (Koloděje)', zh: '科洛杰耶圣十字架升高教堂' },
+    labels: ['church', 'historical'],
+    coordinates: { lat: 50.06008809014387, lng: 14.640225017781445 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_Pov%C3%BD%C5%A1en%C3%AD_svat%C3%A9ho_K%C5%99%C3%AD%C5%BEe_(Kolod%C4%9Bje)',
+    description: {
+      en: `The Church of the Exaltation of the Holy Cross looks brand new by village standards: a plain Classicist building from 1807, no Gothic arches, no Baroque gold. But it was built out of the parts of an older church in the next village, and one of its bells is more than three hundred years older than the church itself.
+
+The story begins in neighbouring Újezd nad Lesy. Its parish church of St. Bartholomew had stood for centuries, but the village around it was burned out in the Thirty Years' War and lay almost empty for about 140 years afterwards. In 1806 St. Bartholomew's was pulled down, and its stone and timber were carted over to build a new church here. The painting of St. Bartholomew came along too, and so did its three bells, one of them cast in 1486. The new church went up between 1806 and 1807 and was consecrated on 18 June 1807. It is a simple building with a flat ceiling, a hipped roof over the presbytery and a many-sided bell tower, and a new cemetery was laid out around it at the same time. Today it is the parish church for the area and a listed cultural monument. It was last repaired in 2002–2003.
+
+🎁 Bonus: At Christmas the church sets up a nativity scene, but not the original one. Its first figures, possibly carved by the woodcarver Bohumil Bek of Kutná Hora, were stolen. Only the painted landscape behind them survived, so new figures were carved to stand in it. For a church built from the leftovers of another one, starting over with the parts that are left is something of a family tradition.`,
+
+      cz: `Kostel Povýšení svatého Kříže vypadá na vesnické poměry úplně nově: prostá klasicistní stavba z roku 1807, žádné gotické oblouky, žádné barokní zlato. Jenže byl postaven z dílů staršího kostela ze sousední vsi a jeden z jeho zvonů je o víc než tři sta let starší než kostel sám.
+
+Příběh začíná v sousedním Újezdě nad Lesy. Jeho farní kostel sv. Bartoloměje tam stál po staletí, ale ves kolem něj za třicetileté války vyhořela a asi 140 let potom zůstala skoro prázdná. Roku 1806 byl kostel sv. Bartoloměje zbořen a jeho kámen a trámy se odvezly na stavbu nového kostela tady. Přestěhoval se i obraz sv. Bartoloměje a tři zvony, jeden z nich ulitý roku 1486. Nový kostel vyrostl v letech 1806 až 1807 a vysvěcen byl 18. června 1807. Je to prostá stavba s plochým stropem, valbovou střechou nad presbytářem a mnohobokou zvonicí a zároveň s ním vznikl kolem i nový hřbitov. Dnes je farním kostelem pro okolí a kulturní památkou. Naposledy byl opravován v letech 2002–2003.
+
+🎁 Bonus: O Vánocích se v kostele staví betlém, ale ne ten původní. Jeho první figurky, snad od řezbáře Bohumila Beka z Kutné Hory, byly ukradeny. Zachovala se jen malovaná krajina za nimi, a tak do ní byly vyřezány figurky nové. Pro kostel postavený ze zbytků jiného kostela je začít znovu z toho, co zbylo, vlastně rodinná tradice.`,
+
+      zh: `圣十字架升高教堂按乡村标准看简直是新的：一座1807年的朴素古典主义建筑，没有哥特式拱券，也没有巴洛克式的金碧辉煌。可它是用隔壁村一座老教堂的零件盖起来的，钟楼里有一口钟，比教堂本身还老三百多年。
+
+故事要从邻村乌耶兹德纳德莱西说起。那里的圣巴多罗买堂区教堂立了好几百年，可村子在三十年战争中被烧光，之后大约140年几乎没人住。1806年，圣巴多罗买教堂被拆掉，石料和木梁被运到这里盖新教堂。圣巴多罗买的画像也一起搬了过来，还有三口钟，其中一口铸于1486年。新教堂在1806到1807年间建成，1807年6月18日祝圣。它是一座简朴的建筑，平顶，圣坛上方是四坡屋顶，配一座多边形钟楼，周围同时还辟了一片新墓地。如今它是这一带的堂区教堂，也是受保护的文物建筑，上一次修缮是在2002至2003年。
+
+🎁 彩蛋：每到圣诞节，教堂里会摆出一套马槽布景，但已经不是原来那套了。最早的人偶据说出自库特纳霍拉的木雕匠博胡米尔·贝克之手，后来被人偷走了。只有后面那幅彩绘风景幸存下来，于是人们又刻了一批新人偶放进去。对一座用别的教堂剩下的料盖起来的教堂来说，拿剩下的东西从头再来，倒也算是家传手艺了。`,
     },
   },
 ];
