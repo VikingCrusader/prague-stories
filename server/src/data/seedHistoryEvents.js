@@ -18389,10 +18389,13 @@ export const historyEvents = [
   {
     slug: "what-was-the-council-of-basel-1431",
     era: "religious-turmoil",
-    // 1431.95: sorts after send-him-the-executioner-1431 (moved 2026-10-04 so
-    // the Domazlice card flows straight into its sequel, which ends with the
-    // diet agreeing to go to Basel) and before a-judge-called-scripture-1432.
-    startYear: 1431.95,
+    // 1432.1: sorts after back-on-his-feet-1432 and before
+    // a-judge-called-scripture-1432 (moved there 2026-10-05 at the user's
+    // request; back-on-his-feet now names the invitation itself). Expanded
+    // 2026-10-05 at the user's request with the council's wider agenda
+    // (three tasks, papal recognition Dec 1433) and the Greek union
+    // (two fleets 1437, Ferrara/Florence 1439, Cesarini leaving Basel).
+    startYear: 1432.1,
     cardType: "background",
     year: {
       en: "1431–1449",
@@ -18411,9 +18414,9 @@ export const historyEvents = [
       zh: "教皇下令解散它。它不但不肯散，还邀请了异端，一开就是十八年。",
     },
     summary: {
-      en: "A general council was the medieval Church's biggest meeting: bishops, abbots, theologians and the envoys of kings from across Latin Christendom, gathered to settle what no single authority could. The most famous was the [[link:the-safe-conduct-that-wasnt-enough-1414]]Council of Constance[[/link]] of 1414–1418. It ended the [[link:the-papal-schism-1378]]Great Schism[[/link]] by getting rid of three rival popes and electing a fourth, Martin V, and along the way it burned Jan Hus. It also decreed that its authority came directly from Christ, and that councils should meet regularly from now on. [[b]]In other words, a council could claim to stand above the pope, and popes were understandably less keen on that idea than councils were.[[/b]]\n\nUnder the new rule a council was due at Basel in 1431, and Martin V agreed to it only reluctantly. What pushed him, it seems, was a document found nailed to the gates of the papal palace in Rome on 8 November 1430. Its anonymous authors, who described themselves as two illustrious princes, demanded that the pope summon a council by the following March to deal with the Hussites, and warned that a pope who refused could be deposed by it. Nobody knows who wrote it, though suspicion fell on [[link:four-articles-or-fifty-thousand-1430]]Frederick of Brandenburg[[/link]], the prince who had tried to arrange a hearing for the Hussites that spring.\n\nThe president of the new council was Cardinal Cesarini, fresh from his flight from Domažlice and a changed man. In October 1431 the council invited the Bohemians to Basel, promising them safe passage and complete freedom to set out their views. Even delivering the invitation was awkward, because papal decrees forbade all contact with Bohemia on pain of excommunication, so copies were sent by way of Sigismund, Nuremberg and Cheb. Eugenius IV was furious. In November and again in December 1431 he issued bulls dissolving the council, listing among its offences that it had invited heretics already condemned at Constance. Cesarini politely refused to leave. For the first time the Church's highest assembly and the pope were openly on opposite sides, and the argument between them was about the Hussites.\n\nIn Prague the invitation was read out from the pulpit of the Týn church by [[link:prague-dismisses-its-prince-1427]]Jan Rokycana[[/link]], who then preached a sermon on peace; the chroniclers say the whole congregation wept. The council itself went on sitting until 1449. Before it fizzled out it deposed Eugenius and elected an antipope of its own, but the talks it opened with the Hussites were the ones that finally brought the war to an end.",
-      cz: "Obecný koncil byl největším shromážděním středověké církve: biskupové, opati, teologové a vyslanci králů z celého latinského křesťanstva se sešli, aby rozhodli to, co nedokázala rozhodnout žádná jednotlivá autorita. Nejslavnější byl [[link:the-safe-conduct-that-wasnt-enough-1414]]kostnický koncil[[/link]] v letech 1414–1418. Ukončil [[link:the-papal-schism-1378]]velké schizma[[/link]] tím, že se zbavil tří soupeřících papežů a zvolil čtvrtého, Martina V., a mimochodem upálil Jana Husa. Prohlásil také, že jeho moc pochází přímo od Krista a že se koncily mají od nynějška scházet pravidelně. [[b]]Jinými slovy, koncil si mohl nárokovat, že stojí nad papežem, a papežové z toho pochopitelně měli menší radost než koncily.[[/b]]\n\nPodle nového pravidla měl roku 1431 zasednout koncil v Basileji a Martin V. na něj přistoupil jen nerad. Popostrčil ho k tomu zřejmě dokument, který se 8. listopadu 1430 objevil přibitý na branách papežského paláce v Římě. Jeho anonymní autoři, kteří se označili za dvě vznešená knížata, žádali, aby papež do příštího března svolal koncil, který se vypořádá s husity, a varovali, že papeže, který odmítne, může koncil sesadit. Kdo ho napsal, nikdo neví, ale podezření padlo na [[link:four-articles-or-fifty-thousand-1430]]Fridricha Braniborského[[/link]], knížete, který se téhož jara snažil husitům zařídit slyšení.\n\nPředsedou nového koncilu se stal kardinál Cesarini, čerstvě po útěku od Domažlic a jako vyměněný. V říjnu 1431 koncil pozval Čechy do Basileje a slíbil jim bezpečný průchod a úplnou svobodu vyložit své názory. Už jen doručit pozvání bylo složité, protože papežské dekrety pod trestem exkomunikace zakazovaly jakýkoli styk s Čechami, a tak se opisy posílaly přes Zikmunda, Norimberk a Cheb. Evžen IV. zuřil. V listopadu a znovu v prosinci 1431 vydal buly, jimiž koncil rozpouštěl, a mezi jeho proviněními uváděl, že pozval kacíře odsouzené už v Kostnici. Cesarini zdvořile odmítl odejít. Poprvé stály nejvyšší shromáždění církve a papež otevřeně proti sobě a spor mezi nimi se točil kolem husitů.\n\nV Praze přečetl pozvání z kazatelny Týnského chrámu [[link:prague-dismisses-its-prince-1427]]Jan Rokycana[[/link]] a pak kázal o míru; letopisci píšou, že celé shromáždění plakalo. Samotný koncil zasedal až do roku 1449. Než vyšuměl, sesadil Evžena a zvolil si vlastního vzdoropapeže, ale jednání, které s husity zahájil, bylo tím, které válku nakonec ukončilo.",
-      zh: "公会议是中世纪教会规格最高的大会：来自整个拉丁基督教世界的主教、修道院长、神学家和各国国王的使节齐聚一堂，解决任何单一权威都解决不了的问题。其中最有名的，是1414至1418年的[[link:the-safe-conduct-that-wasnt-enough-1414]]康斯坦茨公会议[[/link]]。它拿掉了三位互相竞争的教皇，另选出第四位，也就是马丁五世，就此结束了[[link:the-papal-schism-1378]]教会大分裂[[/link]]，顺便还烧死了扬·胡斯。它还宣布，公会议的权力直接来自基督，今后公会议要定期召开。[[b]]换句话说，公会议可以自称凌驾于教皇之上，而教皇们对这个主意的热情，自然远不如公会议本身。[[/b]]\n\n按照这条新规矩，1431年应该在巴塞尔召开一次公会议，马丁五世很不情愿地答应了。推了他一把的，似乎是一份文件：1430年11月8日，有人发现它被钉在了罗马教皇宫的大门上。匿名作者自称“两位显赫的诸侯”，要求教皇在次年3月之前召开公会议，解决胡斯派问题，还警告说，拒不召开的教皇可以被公会议废黜。没人知道作者是谁，不过嫌疑落在了[[link:four-articles-or-fifty-thousand-1430]]勃兰登堡的腓特烈[[/link]]身上，就是那年春天想给胡斯派安排一场听证会的那位诸侯。\n\n新公会议的主席是红衣主教切萨里尼。他刚从多马日利采逃回来，简直像换了一个人。1431年10月，公会议邀请波希米亚人前往巴塞尔，保证他们来去平安，可以畅所欲言。光是把邀请信送出去就很费周折，因为教皇的法令以绝罚相威胁，禁止与波希米亚有任何往来，只好把副本分别经由西吉斯蒙德、纽伦堡和海布转交。尤金四世大发雷霆，1431年11月和12月两次发布诏书，宣布解散公会议，罪状之一，就是邀请了早在康斯坦茨就已被定罪的异端。切萨里尼彬彬有礼地拒绝离开。教会的最高会议和教皇第一次公开站到了对立面，而双方争的，正是胡斯派。\n\n在布拉格，[[link:prague-dismisses-its-prince-1427]]扬·罗基察纳[[/link]]在泰恩教堂的讲坛上宣读了这封邀请信，接着讲了一篇关于和平的布道；据编年史记载，在场的会众全都哭了。公会议本身一直开到1449年，在不了了之之前，它还废黜了尤金四世，另立了一位自己的对立教皇。但它与胡斯派开启的谈判，最终结束了这场战争。",
+      en: "A general council was the medieval Church's biggest meeting: bishops, abbots, theologians and the envoys of kings from across Latin Christendom, gathered to settle what no single authority could. The most famous was the [[link:the-safe-conduct-that-wasnt-enough-1414]]Council of Constance[[/link]] of 1414–1418. It ended the [[link:the-papal-schism-1378]]Great Schism[[/link]] by getting rid of three rival popes and electing a fourth, Martin V, and along the way it burned Jan Hus. It also decreed that its authority came directly from Christ, and that councils should meet regularly from now on. [[b]]In other words, a council could claim to stand above the pope, and popes were understandably less keen on that idea than councils were.[[/b]]\n\nUnder the new rule a council was due at Basel in 1431, and Martin V agreed to it only reluctantly. What pushed him, it seems, was a document found nailed to the gates of the papal palace in Rome on 8 November 1430. Its anonymous authors, who described themselves as two illustrious princes, demanded that the pope summon a council by the following March to deal with the Hussites, and warned that a pope who refused could be deposed by it. Nobody knows who wrote it, though suspicion fell on [[link:four-articles-or-fifty-thousand-1430]]Frederick of Brandenburg[[/link]], the prince who had tried to arrange a hearing for the Hussites that spring. Martin died in February 1431, before the council opened, and his successor, Eugenius IV, liked the idea even less.\n\nThe council gave itself three jobs: stamping out heresy, making peace among Christian princes, and reforming the Church \"in head and members\", where the head could only mean the pope. The Hussites were the most urgent of the three, but they were never the whole agenda. Behind every item lay the question Constance had opened: who had the last word in the Church, the pope or the council?\n\nThe president of the new council was Cardinal Cesarini, fresh from his flight from Domažlice and a changed man. In October 1431 the council invited the Bohemians to Basel, promising them safe passage and complete freedom to set out their views. Even delivering the invitation was awkward, because papal decrees forbade all contact with Bohemia on pain of excommunication, so copies were sent by way of Sigismund, Nuremberg and Cheb. Eugenius IV was furious. In November and again in December 1431 he issued bulls dissolving the council, listing among its offences that it had invited heretics already condemned at Constance. Cesarini politely refused to leave. For the first time the Church's highest assembly and the pope were openly on opposite sides, and the first thing they fought over was the Hussites. Eugenius held out for two years. In December 1433 he withdrew his bulls and recognised the council after all.\n\nIn Prague the invitation was read out from the pulpit of the Týn church by [[link:prague-dismisses-its-prince-1427]]Jan Rokycana[[/link]], who then preached a sermon on peace; the chroniclers say the whole congregation wept.\n\nThe second thing they fought over came from the east. The Byzantine Empire had shrunk to little more than Constantinople and a few scraps of Greece, the Ottoman Turks were closing in, and Emperor John VIII hoped that ending the split between the Latin and Greek Churches, by then nearly four hundred years old, would bring help from the West. Both the council and the pope wanted the credit for the reunion, and both courted the Greeks. They could not agree where to meet them: the council wanted somewhere well away from the pope, and the Greeks wanted an Italian port they could reach by sea. In 1437 the council split over the question, and each side sent its own ships to Constantinople to fetch the Greeks. The Greeks chose the pope's. Eugenius moved the council to Ferrara and then to Florence, and among those who followed him out of Basel was Cesarini himself. In Florence, on 6 July 1439, the reunion of the Churches was proclaimed, and similar unions with the Armenians, the Copts and other Eastern Churches followed. Few of them lasted. In Constantinople much of the clergy and people rejected the union, and the Western help it was supposed to bring did not arrive in time.\n\nWhat was left of the council stayed in Basel and grew more defiant. In 1439 it deposed Eugenius and elected an antipope of its own, the Duke of Savoy, who took the name Felix V, but by then most of Europe had stopped listening. In 1449, by now meeting in Lausanne, it finally gave up. Its most lasting achievement turned out to be the first item on its list: the talks with the Hussites that finally brought the war to an end.",
+      cz: "Obecný koncil byl největším shromážděním středověké církve: biskupové, opati, teologové a vyslanci králů z celého latinského křesťanstva se sešli, aby rozhodli to, co nedokázala rozhodnout žádná jednotlivá autorita. Nejslavnější byl [[link:the-safe-conduct-that-wasnt-enough-1414]]kostnický koncil[[/link]] v letech 1414–1418. Ukončil [[link:the-papal-schism-1378]]velké schizma[[/link]] tím, že se zbavil tří soupeřících papežů a zvolil čtvrtého, Martina V., a mimochodem upálil Jana Husa. Prohlásil také, že jeho moc pochází přímo od Krista a že se koncily mají od nynějška scházet pravidelně. [[b]]Jinými slovy, koncil si mohl nárokovat, že stojí nad papežem, a papežové z toho pochopitelně měli menší radost než koncily.[[/b]]\n\nPodle nového pravidla měl roku 1431 zasednout koncil v Basileji a Martin V. na něj přistoupil jen nerad. Popostrčil ho k tomu zřejmě dokument, který se 8. listopadu 1430 objevil přibitý na branách papežského paláce v Římě. Jeho anonymní autoři, kteří se označili za dvě vznešená knížata, žádali, aby papež do příštího března svolal koncil, který se vypořádá s husity, a varovali, že papeže, který odmítne, může koncil sesadit. Kdo ho napsal, nikdo neví, ale podezření padlo na [[link:four-articles-or-fifty-thousand-1430]]Fridricha Braniborského[[/link]], knížete, který se téhož jara snažil husitům zařídit slyšení. Martin zemřel v únoru 1431, ještě než koncil zasedl, a jeho nástupce Evžen IV. měl pro celý nápad ještě méně pochopení.\n\nKoncil si dal tři úkoly: vymýtit kacířství, nastolit mír mezi křesťanskými panovníky a reformovat církev „v hlavě i v údech“, přičemž hlavou mohl být míněn jedině papež. Husité byli z těch tří nejnaléhavější, ale nikdy nebyli celým programem. Za každým bodem stála otázka, kterou otevřela Kostnice: kdo má v církvi poslední slovo, papež, nebo koncil?\n\nPředsedou nového koncilu se stal kardinál Cesarini, čerstvě po útěku od Domažlic a jako vyměněný. V říjnu 1431 koncil pozval Čechy do Basileje a slíbil jim bezpečný průchod a úplnou svobodu vyložit své názory. Už jen doručit pozvání bylo složité, protože papežské dekrety pod trestem exkomunikace zakazovaly jakýkoli styk s Čechami, a tak se opisy posílaly přes Zikmunda, Norimberk a Cheb. Evžen IV. zuřil. V listopadu a znovu v prosinci 1431 vydal buly, jimiž koncil rozpouštěl, a mezi jeho proviněními uváděl, že pozval kacíře odsouzené už v Kostnici. Cesarini zdvořile odmítl odejít. Poprvé stály nejvyšší shromáždění církve a papež otevřeně proti sobě a první, o co se přely, byli husité. Evžen vydržel dva roky. V prosinci 1433 své buly odvolal a koncil nakonec uznal.\n\nV Praze přečetl pozvání z kazatelny Týnského chrámu [[link:prague-dismisses-its-prince-1427]]Jan Rokycana[[/link]] a pak kázal o míru; letopisci píšou, že celé shromáždění plakalo.\n\nDruhý spor přišel z východu. Byzantská říše se scvrkla skoro jen na Konstantinopol a pár útržků Řecka, osmanští Turci se blížili a císař Jan VIII. doufal, že ukončení rozkolu mezi latinskou a řeckou církví, starého už skoro čtyři sta let, mu vynese pomoc ze Západu. Zásluhu o sjednocení chtěl koncil i papež, a tak se o Řeky ucházeli oba. Nemohli se shodnout, kde se s nimi sejít: koncil chtěl místo co nejdál od papeže, Řekové italský přístav, kam se dá doplout. Roku 1437 se koncil kvůli té otázce rozštěpil a každá strana poslala do Konstantinopole vlastní lodě, aby Řeky přivezly. Řekové nastoupili na papežovy. Evžen přenesl koncil do Ferrary a pak do Florencie a mezi těmi, kdo ho z Basileje následovali, byl i sám Cesarini. Ve Florencii bylo 6. července 1439 vyhlášeno sjednocení církví a následovaly podobné unie s Armény, Kopty a dalšími východními církvemi. Jen málokterá vydržela. V Konstantinopoli unii odmítla velká část duchovních i lidu a pomoc ze Západu, kterou měla zajistit, nedorazila včas.\n\nZbytek koncilu zůstal v Basileji a byl čím dál vzpurnější. Roku 1439 sesadil Evžena a zvolil si vlastního vzdoropapeže, savojského vévodu, který přijal jméno Felix V., jenže to už ho většina Evropy přestala poslouchat. Roku 1449, kdy už zasedal v Lausanne, to nakonec vzdal. Jeho nejtrvalejším výsledkem se ukázal být hned první bod programu: jednání s husity, které válku nakonec ukončilo.",
+      zh: "公会议是中世纪教会规格最高的大会：来自整个拉丁基督教世界的主教、修道院长、神学家和各国国王的使节齐聚一堂，解决任何单一权威都解决不了的问题。其中最有名的，是1414至1418年的[[link:the-safe-conduct-that-wasnt-enough-1414]]康斯坦茨公会议[[/link]]。它拿掉了三位互相竞争的教皇，另选出第四位，也就是马丁五世，就此结束了[[link:the-papal-schism-1378]]教会大分裂[[/link]]，顺便还烧死了扬·胡斯。它还宣布，公会议的权力直接来自基督，今后公会议要定期召开。[[b]]换句话说，公会议可以自称凌驾于教皇之上，而教皇们对这个主意的热情，自然远不如公会议本身。[[/b]]\n\n按照这条新规矩，1431年应该在巴塞尔召开一次公会议，马丁五世很不情愿地答应了。推了他一把的，似乎是一份文件：1430年11月8日，有人发现它被钉在了罗马教皇宫的大门上。匿名作者自称“两位显赫的诸侯”，要求教皇在次年3月之前召开公会议，解决胡斯派问题，还警告说，拒不召开的教皇可以被公会议废黜。没人知道作者是谁，不过嫌疑落在了[[link:four-articles-or-fifty-thousand-1430]]勃兰登堡的腓特烈[[/link]]身上，就是那年春天想给胡斯派安排一场听证会的那位诸侯。马丁五世在1431年2月去世，没等到公会议开幕；他的继任者尤金四世，对这个主意更没有好感。\n\n公会议给自己定了三项任务：铲除异端，让基督教各国君主和平相处，还有对教会进行“从头到肢体”的改革，而这个“头”，指的只能是教皇。三项任务里，胡斯派问题最紧迫，但从来不是全部。每一项背后，都是康斯坦茨公会议挑起的那个问题：教会里到底谁说了算，教皇还是公会议？\n\n新公会议的主席是红衣主教切萨里尼。他刚从多马日利采逃回来，简直像换了一个人。1431年10月，公会议邀请波希米亚人前往巴塞尔，保证他们来去平安，可以畅所欲言。光是把邀请信送出去就很费周折，因为教皇的法令以绝罚相威胁，禁止与波希米亚有任何往来，只好把副本分别经由西吉斯蒙德、纽伦堡和海布转交。尤金四世大发雷霆，1431年11月和12月两次发布诏书，宣布解散公会议，罪状之一，就是邀请了早在康斯坦茨就已被定罪的异端。切萨里尼彬彬有礼地拒绝离开。教会的最高会议和教皇第一次公开站到了对立面，双方争的第一件事，就是胡斯派。尤金四世硬撑了两年，到1433年12月，还是撤回了诏书，承认了公会议。\n\n在布拉格，[[link:prague-dismisses-its-prince-1427]]扬·罗基察纳[[/link]]在泰恩教堂的讲坛上宣读了这封邀请信，接着讲了一篇关于和平的布道；据编年史记载，在场的会众全都哭了。\n\n双方争的第二件事来自东方。拜占庭帝国这时只剩下君士坦丁堡和希腊的几块零星土地，奥斯曼土耳其人步步紧逼。皇帝约翰八世指望结束拉丁教会和希腊教会之间那场已经持续将近四百年的分裂，好换来西方的援军。公会议和教皇都想揽下促成合一的功劳，都在拉拢希腊人。双方为在哪里跟希腊人会面争执不下：公会议想找个离教皇越远越好的地方，希腊人则想要一个能坐船直达的意大利港口。1437年，公会议为此分裂，两边各自派船去君士坦丁堡接希腊人，希腊人上了教皇的船。尤金四世把公会议先迁到费拉拉，又迁到佛罗伦萨，跟着他离开巴塞尔的人里，就有切萨里尼本人。1439年7月6日，东西教会合一在佛罗伦萨正式宣告，随后又与亚美尼亚人、科普特人和其他东方教会达成了类似的合一。这些合一大多没能维持下去。在君士坦丁堡，许多神职人员和百姓都不接受，而合一本该换来的西方援军，也没能及时赶到。\n\n留在巴塞尔的那部分公会议越来越不服管。1439年，它废黜了尤金四世，另立萨伏依公爵为对立教皇，号菲利克斯五世，可到了这时，欧洲大多数人已经不再理会它了。1449年，已经搬到洛桑的公会议终于散了场。到头来，它最持久的成就，正是清单上的第一项：它与胡斯派开启的谈判，最终结束了这场战争。",
     },
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Council_of_Basel",
@@ -18492,9 +18495,9 @@ export const historyEvents = [
       zh: "普罗科普在库特纳霍拉卧病在床，请布拉格派个医生来。布拉格回复说，还是派刽子手去比较合适。",
     },
     summary: {
-      en: "The Orphans needed someone to blame for [[link:weighed-down-by-the-loot-1431]]the Hungarian disaster[[/link]], and they had an obvious candidate: the Táborites had gone home first and left them behind, and the Hlohovec bridge had come down after them. Čapek did not hesitate to call Prokop a traitor, and in Prague the accusation went down well. Prokop, deeply offended, withdrew to Kutná Hora and refused to attend the diet. There he fell ill with something the sources never name. When he sent to Prague asking for a doctor, the Praguers answered that they would rather send him the executioner. [[b]]Two years after Pressburg and a few months after Domažlice, the most feared commander in Europe could not get a doctor from his own capital.[[/b]]\n\nIt was [[link:what-was-the-council-of-basel-1431]]the council at Basel[[/link]] that got him out of bed. By a rule laid down at Constance, the Church's general councils were now supposed to meet regularly, and the one due at Basel in 1431 was chaired by Cardinal Cesarini, who had come back from [[link:they-heard-them-coming-1431]]Domažlice[[/link]] convinced that the Hussites would have to be talked to rather than fought. In October the council invited the Bohemians to come and argue their case, with a promise of safe passage, and the new pope was so angry that he tried to dissolve it. With that invitation on the table and a diet meeting without the Táborites, Prokop could not afford to lie in Kutná Hora. In January 1432 he was up again. He rode to Třeboň and made a year's truce with [[link:one-jailbreak-two-castles-1420]]Oldřich of Rožmberk[[/link]], then came to the great diet in Prague on 10 February, where Táborites, Orphans, Praguers and lords all sat in one room for the first time in months. It was a stormy meeting, but it ended with an agreement to go to Basel together. Not everyone left it reassured. Some of the Utraquist lords had begun to wonder, quietly, whether the Catholic lords might make better allies against Tábor than Tábor did against anyone.",
-      cz: "Sirotci potřebovali viníka [[link:weighed-down-by-the-loot-1431]]uherské pohromy[[/link]] a jednoho měli po ruce: táboři odtáhli domů první, nechali je za sebou a most u Hlohovce spadl až po jejich přechodu. Čapek neváhal označit Prokopa za zrádce a v Praze to padlo na úrodnou půdu. Hluboce uražený Prokop se stáhl do Kutné Hory a odmítl se zúčastnit sněmu. Tam ho skolila nemoc, kterou prameny nikde nejmenují. Když poslal do Prahy žádost o doktora, Pražané odpověděli, že mu raději pošlou kata. [[b]]Dva roky po Prešpurku a pár měsíců po Domažlicích nemohl nejobávanější vojevůdce Evropy dostat z vlastního hlavního města ani lékaře.[[/b]]\n\nZ postele ho nakonec vytáhl [[link:what-was-the-council-of-basel-1431]]koncil v Basileji[[/link]]. Podle pravidla přijatého v Kostnici se teď obecné koncily církve měly scházet pravidelně a tomu, který měl roku 1431 zasednout v Basileji, předsedal kardinál Cesarini. Od [[link:they-heard-them-coming-1431]]Domažlic[[/link]] se vrátil přesvědčený, že s husity se bude muset jednat, a ne bojovat. V říjnu koncil pozval Čechy, aby přijeli obhájit své učení, a slíbil jim bezpečný průchod. Nový papež se tak rozzlobil, že se ho pokusil rozpustit. S tímhle pozváním na stole a se sněmem, který zasedal bez táborů, si Prokop nemohl dovolit ležet v Kutné Hoře. V lednu 1432 byl zase na nohou. Zajel do Třeboně a uzavřel roční příměří s [[link:one-jailbreak-two-castles-1420]]Oldřichem z Rožmberka[[/link]], pak přijel na velký sněm do Prahy, svolaný na 10. února, kde táboři, sirotci, Pražané i páni poprvé po mnoha měsících seděli v jedné místnosti. Bylo to bouřlivé zasedání, ale skončilo dohodou, že do Basileje pojedou společně. Ne každý z něj odcházel uklidněn. Někteří kališničtí páni začali potichu uvažovat, jestli by katoličtí páni nebyli proti Táboru lepšími spojenci, než byl Tábor proti komukoli.",
-      zh: "[[link:weighed-down-by-the-loot-1431]]匈牙利惨败[[/link]]总得有人负责，孤儿军心里早有人选：塔博尔军丢下他们先走了，赫洛霍韦茨的桥也恰恰是在塔博尔军过河之后才断的。恰佩克毫不犹豫地骂普罗科普是叛徒，这话在布拉格还很有市场。普罗科普深感受辱，退到库特纳霍拉，拒绝出席议会。他在那里病倒了，至于得的是什么病，史料里从来没说过。他派人去布拉格请个医生，布拉格人回话说，还是给他派个刽子手去比较合适。[[b]]普雷斯堡谈判两年后、多马日利采大捷几个月后，全欧洲最令人胆寒的统帅，竟然连一个医生都请不来。[[/b]]\n\n最后把他从病床上拽起来的，是[[link:what-was-the-council-of-basel-1431]]巴塞尔公会议[[/link]]。按照康斯坦茨公会议定下的规矩，教会的公会议今后要定期召开，1431年这一届轮到在巴塞尔举行，主持人正是红衣主教切萨里尼。他从[[link:they-heard-them-coming-1431]]多马日利采[[/link]]逃回来以后，认定胡斯派只能谈、不能打。10月，公会议邀请波希米亚人前去陈述自己的主张，并保证他们来去平安；新教皇气得要下令解散这次会议。邀请就摆在桌上，议会又在没有塔博尔派的情况下照开不误，普罗科普可躺不起。1432年1月，他重新站了起来。他先骑马去了特热邦，和[[link:one-jailbreak-two-castles-1420]]罗日姆贝克的奥尔德日赫[[/link]]订了一年的停战协议，接着赶到布拉格，出席2月10日召开的大议会。塔博尔派、孤儿军、布拉格人和贵族们，几个月来第一次坐进了同一间屋子。会议吵得不可开交，但最后总算达成一致：一起去巴塞尔。不过，并不是每个人离开时都放下了心。一些圣杯派贵族已经开始悄悄琢磨：要对付塔博尔派，天主教贵族会不会是比塔博尔派更好的盟友。",
+      en: "On 14 December 1431 what was left of the Orphans' army came back into Prague, and it was a pitiful sight. About seven thousand men had marched into Hungary in September. Perhaps two thousand came back, without their wagons and without their plunder, and many of them died of cold and exhaustion in the weeks after they got home. It had been a bad autumn all round. In October another Hussite force raiding into Austria had been badly beaten, and that news was one reason Prokop and his fellow commander Hanuš of Kolovraty had decided to take the Táborites home early, while the Orphans under Jan Čapek of Sány stayed on in the hope of more plunder further south.\n\nA disaster that size needed someone to answer for it, and the Orphans did not have to look far. The Táborites had gone home first. The Hlohovec bridge had come down behind them, and whether Prokop had it torn down to cover his own retreat, as the Orphans were sure he had, is still argued over. They also complained that he had never sent them reinforcements. Čapek called him a traitor outright. In Prague the charge fell on willing ears. The Orphans had fought alongside the Praguers for years, while Tábor had always been the awkward relative: louder, more radical and quicker to tell everyone else what God wanted. Prokop's own success had made him a target too. After Domažlice nobody was threatening Bohemia from outside, and an alliance with no enemy at the gates has plenty of time to argue about whose fault things are. For years Prokop had been given the credit for every Hussite victory. Now he was given the blame for a defeat he had not even been at.\n\nProkop took it badly. He withdrew to Kutná Hora and refused to attend the diet that met in Prague that winter, which, since the diet was largely about him, did not help his case. There he fell ill with something the sources never name. When he sent to Prague asking for a doctor, the Praguers answered that they would rather send him the executioner. [[b]]Two years after Pressburg and four months after Domažlice, the most feared commander in Europe could not get a doctor from his own capital.[[/b]]\n\nIn the end it was not Prague that got him back on his feet. The cure came from much further away, from a city on the Rhine where the Church's highest assembly had just done something nobody expected.",
+      cz: "Čtrnáctého prosince 1431 se do Prahy vrátily zbytky sirotčího vojska a byl to žalostný pohled. V září táhlo do Uher na sedm tisíc mužů. Vrátily se snad dva tisíce, bez vozů a bez kořisti, a mnozí z nich ještě v následujících týdnech zemřeli zimou a vyčerpáním. Celý podzim byl špatný. V říjnu utrpělo těžkou porážku jiné husitské vojsko, které plenilo v Rakousích, a právě ta zpráva byla jedním z důvodů, proč se Prokop a jeho spoluvelitel Hanuš z Kolovrat rozhodli odvést tábory domů dřív, zatímco sirotci pod Janem Čapkem ze Sán zůstali v naději na další kořist dál na jihu.\n\nPohroma takového rozsahu potřebovala viníka a sirotci ho nemuseli hledat daleko. Táboři odtáhli první. Most u Hlohovce spadl až za nimi, a jestli ho Prokop dal strhnout, aby si kryl ústup, jak byli sirotci přesvědčeni, se vedou spory dodnes. Stěžovali si také, že jim nikdy neposlal posily. Čapek ho rovnou nazval zrádcem. V Praze to padlo na úrodnou půdu. Sirotci bojovali po boku Pražanů léta, kdežto Tábor byl vždycky ten nepohodlný příbuzný: hlučnější, radikálnější a ochotnější vykládat ostatním, co si Bůh přeje. Terčem udělal Prokopa i jeho vlastní úspěch. Po Domažlicích už Čechy zvenčí nikdo neohrožoval, a spojenectví, kterému nestojí nepřítel před branami, má spoustu času hádat se, kdo za co může. Léta se Prokopovi připisovalo každé husitské vítězství. Teď se mu připsala i porážka, u které vůbec nebyl.\n\nProkop to nesl těžce. Stáhl se do Kutné Hory a odmítl se zúčastnit sněmu, který té zimy zasedal v Praze, což jeho pozici nijak nepomohlo, protože sněm jednal hlavně o něm. Tam ho skolila nemoc, kterou prameny nikde nejmenují. Když poslal do Prahy žádost o doktora, Pražané odpověděli, že mu raději pošlou kata. [[b]]Dva roky po Prešpurku a čtyři měsíce po Domažlicích nemohl nejobávanější vojevůdce Evropy dostat z vlastního hlavního města ani lékaře.[[/b]]\n\nNa nohy ho nakonec nepostavila Praha. Lék přišel z mnohem větší dálky, z města na Rýně, kde nejvyšší shromáždění církve právě udělalo něco, co nikdo nečekal.",
+      zh: "1431年12月14日，孤儿军的残部回到了布拉格，那副样子惨不忍睹。9月开进匈牙利的大约有七千人，回来的也许只有两千，车没了，战利品也没了，到家以后的几个星期里，又有不少人死于寒冷和劳累。这一整个秋天都不顺。10月，另一支去奥地利劫掠的胡斯派部队吃了大败仗。普罗科普和他的搭档、科洛夫拉特的哈努什之所以提前带塔博尔军回家，这个消息就是原因之一；萨尼的扬·恰佩克率领的孤儿军却留了下来，想往南再多抢一点。\n\n这么大的祸，总得有人出来担，孤儿军用不着找太远。塔博尔军先走了，赫洛霍韦茨的桥又偏偏是在他们身后断的。孤儿军认定是普罗科普为了掩护自己撤退下令拆的桥，这事到今天还有争议。他们还抱怨，普罗科普始终没派援兵过来。恰佩克干脆直接骂他是叛徒。这话在布拉格很有市场。孤儿军和布拉格人并肩打了好多年仗，塔博尔却一直是家里那个难缠的亲戚：嗓门更大，立场更激进，也更喜欢告诉别人上帝到底想要什么。普罗科普自己的成功，也让他成了靶子。多马日利采之战以后，外头再没人威胁波希米亚了；一个联盟门口没有敌人，就有的是工夫吵到底该怪谁。这些年来，胡斯派的每一场胜仗都记在普罗科普头上。现在，一场他根本不在场的败仗，也记到了他头上。\n\n普罗科普咽不下这口气。他退到库特纳霍拉，拒绝出席那年冬天在布拉格召开的议会。议会讨论的主要就是他，他这一缺席，自然更说不清了。他在那里病倒了，至于得的是什么病，史料里从来没说过。他派人去布拉格请个医生，布拉格人回话说，还是给他派个刽子手去比较合适。[[b]]普雷斯堡谈判两年后、多马日利采大捷四个月后，全欧洲最令人胆寒的统帅，竟然连一个医生都请不来。[[/b]]\n\n最后让他重新站起来的，并不是布拉格。药方来自远得多的地方：莱茵河畔的一座城市，教会的最高会议刚在那里做了一件谁也没想到的事。",
     },
     relatedLandmarks: [
       {
@@ -18503,6 +18506,61 @@ export const historyEvents = [
           en: "Where Prokop withdrew, offended and ill, after the Orphans' Hungarian disaster of 1431, and where Prague offered to send him an executioner instead of a doctor.",
           cz: "Sem se Prokop uražený a nemocný stáhl po uherské pohromě sirotků roku 1431 a sem mu Praha místo doktora nabídla kata.",
           zh: "1431年孤儿军在匈牙利惨败后，普罗科普带着一肚子委屈和一身病退到了这里，布拉格还说要给他派刽子手而不是医生。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Jan_%C4%8Capek_ze_S%C3%A1n",
+  },
+  // Split out of send-him-the-executioner-1431 on 2026-10-05 at the user's
+  // request: that card now covers only the scapegoating, this one Prokop's
+  // recovery. Sources: cs.wikipedia "Prokop Holý" (January 1432 meetings of
+  // Táborite leaders, Třeboň truce and prisoner exchange with Oldřich of
+  // Rožmberk, proposal that Oldřich join the Basel delegation, 10 February
+  // diet choosing envoys incl. Prokop), Lützow ch. 7 (all parties present
+  // at the 10 February diet; the New Year's Day 1432 diet in the New Town
+  // hall said yes in principle but would not answer before the Táborite
+  // leaders gave their opinion), stoplusjednicka.cz (Táborites wary of a
+  // council judging their teaching). No chronicle quote found.
+  {
+    slug: "back-on-his-feet-1432",
+    era: "religious-turmoil",
+    images: ["/history/back-on-his-feet-1432.webp"],
+    imageCaptions: [
+      {
+        en: "New Town Hall, Prague, New Year's Day 1432: the diet waits on the absent Táborites before it can answer the Council of Basel.",
+        cz: "Novoměstská radnice, Praha, Nový rok 1432: sněm nemůže odpovědět basilejskému koncilu, dokud se nevysloví nepřítomní táboři.",
+        zh: "1432年元旦，布拉格新城市政厅：塔博尔派缺席，议会迟迟没法给巴塞尔公会议回信。",
+      },
+    ],
+    startYear: 1432.05,
+    year: {
+      en: "January–February 1432",
+      cz: "Leden–únor 1432",
+      zh: "1432年1月至2月",
+    },
+    tone: "humorous",
+    title: {
+      en: "Back on His Feet",
+      cz: "Zase na nohou",
+      zh: "普罗科普又站起来了",
+    },
+    hookLine: {
+      en: "Prague never sent the doctor. Prokop got up anyway: Bohemia's answer to the Church was waiting on him.",
+      cz: "Praha doktora nikdy neposlala. Prokop vstal i tak: odpověď Čech církvi čekala na něj.",
+      zh: "布拉格的医生始终没来。普罗科普还是自己爬了起来，因为波希米亚给教会的答复，正等着他点头。",
+    },
+    summary: {
+      en: "The Church had tried stamping out the heresy by force four times, and four times it was the crusaders who ended up running home. Out of better ideas, it was now trying something new: asking the Hussites to sit down and talk.\n\nWhat finally got Prokop out of bed was exactly that: an invitation to Basel.\n\nIn October 1431 the Church's general council meeting there, chaired by Cardinal Cesarini, the same man who had fled from Domažlice in disguise that summer, had invited the Bohemians to come and argue their case, with a promise of safe passage. The council's to-do list read: stamp out heresy (in practice, the Hussites); make the Christian princes stop fighting one another; reform the Church \"in head and members\", where the head could only mean the pope, which goes some way to explaining why the pope was not a fan; and, before long, end the nearly four-hundred-year split with the Greek Church, because the Byzantine Empire, by now little more than Constantinople and a few scraps of Greece, badly needed Western help and hoped reunion would buy it. It was a list that would have kept a whole century busy, never mind one meeting. There is more about it in the background card [[link:what-was-the-council-of-basel-1431]]What Was the Council of Basel?[[/link]] just below.\n\nOn New Year's Day 1432 the diet met in the New Town hall in Prague, and not one Táborite came. On the invitation it said yes in principle, provided the envoys' safety was guaranteed, but it refused to give a firm answer until the Táborite leaders had said what they thought. [[b]]The reason was simple: what frightened the Church was Prokop's army, not the Prague diet.[[/b]] So Bohemia's reply to the entire Catholic Church was waiting on one man, the same man Prague had just offered to send the executioner. Prokop had his own doubts about Basel. The Táborites had no wish to let a church council sit in judgment on their faith as though it had the right to. But if they stayed away, someone else would be speaking for Bohemia.\n\nBy January 1432 he was up again, and moving fast. He called the Táborite captains together, then rode south to Třeboň to see [[link:one-jailbreak-two-castles-1420]]Oldřich of Rožmberk[[/link]], the most powerful Catholic lord in the kingdom and Tábor's neighbour and enemy for more than ten years. They agreed a year's truce and an exchange of prisoners, and Prokop even suggested that Oldřich come to Basel with the Hussite delegation. Nothing came of it, but the offer shows how Prokop now saw things: if the whole kingdom was going to talk to the Church, it had better talk with one voice.\n\nOn 10 February the great diet met in Prague, and this time everyone came. Táborites, Orphans, Praguers and lords sat in one room for the first time in months. It was a stormy meeting, with the old accusations still hanging in the air, but it ended with an agreement to go to Basel together, and Prokop was among the envoys chosen. [[b]]Two months after being offered an executioner, Prokop was once again the man who would speak for Bohemia.[[/b]] Not everyone left reassured. Some of the Utraquist lords had begun to wonder, quietly, whether the Catholic lords might make better allies against Tábor than Tábor did against anyone.",
+      cz: "Vymýtit kacířství mečem zkusila církev už čtyřikrát a pokaždé nakonec utíkali domů křižáci. Protože jí došly lepší nápady, zkoušela teď něco nového: pozvat husity, ať si sednou a promluví si.\n\nZ postele Prokopa nakonec vytáhlo právě tohle: pozvání do Basileje.\n\nV říjnu 1431 tamní obecný koncil církve, jemuž předsedal kardinál Cesarini, týž, který v létě v přestrojení utekl od Domažlic, pozval Čechy, aby přijeli obhájit své učení, a slíbil jim bezpečný průchod. Seznam úkolů koncilu zněl: vymýtit kacířství (v praxi tedy husity); přimět křesťanské panovníky, aby se přestali navzájem rvát; reformovat církev „v hlavě i v údech“, přičemž hlavou mohl být míněn jedině papež, což leccos vysvětluje na tom, proč z koncilu neměl radost; a zanedlouho přibylo i ukončení skoro čtyři sta let starého rozkolu s řeckou církví, protože Byzantská říše, scvrklá tou dobou skoro jen na Konstantinopol a pár útržků Řecka, nutně potřebovala pomoc ze Západu a doufala, že si ji sjednocením koupí. Takový seznam by zaměstnal celé století, natož jedno shromáždění. Víc se o něm dozvíte v kartě s pozadím [[link:what-was-the-council-of-basel-1431]]Co byl basilejský koncil?[[/link]] hned níže.\n\nNa Nový rok 1432 se na Novoměstské radnici v Praze sešel sněm a nepřišel na něj jediný tábor. K pozvání se vyjádřil tak, že v zásadě ano, bude-li vyslancům zaručena bezpečnost, ale pevnou odpověď odmítl dát, dokud se nevysloví táborští předáci. [[b]]Důvod byl prostý: církev se bála Prokopova vojska, ne pražského sněmu.[[/b]] Odpověď Čech celé katolické církvi tak čekala na jednoho člověka, na téhož, kterému Praha právě nabídla kata. Prokop měl k Basileji vlastní výhrady. Táboři nestáli o to, aby jejich víru soudil církevní koncil, jako by na to měl právo. Kdyby ale zůstali doma, mluvil by za Čechy někdo jiný.\n\nV lednu 1432 byl zase na nohou a jednal rychle. Svolal táborské hejtmany a pak zajel na jih do Třeboně za [[link:one-jailbreak-two-castles-1420]]Oldřichem z Rožmberka[[/link]], nejmocnějším katolickým pánem v zemi a už přes deset let táborským sousedem i nepřítelem. Dohodli roční příměří a výměnu zajatců a Prokop dokonce navrhl, aby Oldřich jel do Basileje s husitským poselstvem. Nic z toho nebylo, ale ten návrh ukazuje, jak teď Prokop věci viděl: když už má celé království mluvit s církví, ať mluví jedním hlasem.\n\nDesátého února se v Praze sešel velký sněm a tentokrát přišli všichni. Táboři, sirotci, Pražané i páni poprvé po mnoha měsících seděli v jedné místnosti. Zasedání bylo bouřlivé a stará obvinění pořád visela ve vzduchu, ale skončilo dohodou, že do Basileje pojedou společně, a mezi zvolenými vyslanci byl i Prokop. [[b]]Dva měsíce poté, co mu nabízeli kata, byl Prokop znovu tím, kdo bude mluvit za Čechy.[[/b]] Ne každý odcházel uklidněn. Někteří kališničtí páni začali potichu uvažovat, jestli by katoličtí páni nebyli proti Táboru lepšími spojenci, než byl Tábor proti komukoli.",
+      zh: "用刀剑铲除异端，教会已经试了四次，四次都是十字军自己先跑回了家。实在没了办法，这回只好换个路子：请胡斯派坐下来，好好讲讲道理。\n\n最后把普罗科普从病床上拽起来的，正是这份来自巴塞尔的邀请。\n\n1431年10月，在那里召开的教会公会议邀请波希米亚人前去陈述自己的主张，并保证他们来去平安；主持会议的，正是那年夏天乔装逃离多马日利采的红衣主教切萨里尼。公会议的待办清单是这样写的：铲除异端（说白了就是胡斯派）；让基督教各国君主别再互相打仗；对教会进行“从头到肢体”的改革，而这个“头”，指的只能是教皇，难怪教皇对这次会议怎么都高兴不起来；没过多久又添了一条：结束和希腊教会那场将近四百年的分裂。拜占庭帝国这时只剩下君士坦丁堡和希腊的几块零星土地，急需西方的援军，指望拿教会合一去换。这份清单够忙活一整个世纪的，更别说一次会议了。想了解更多，请看下面的背景知识卡片[[link:what-was-the-council-of-basel-1431]]巴塞尔公会议，到底是怎么回事？[[/link]]\n\n1432年元旦，议会在布拉格新城市政厅开幕，塔博尔派一个人都没来。对于巴塞尔的邀请，议会的表态是：原则上愿意去，只要代表团的安全有保障；可正式答复，得等塔博尔派的头领们发了话再说。[[b]]道理很简单：能让教会害怕的，是普罗科普的军队，不是布拉格的议会。[[/b]]就这样，波希米亚要怎么回复整个天主教会，就看一个人的意思了，而这个人，布拉格刚刚还说要给他派刽子手。普罗科普自己对巴塞尔也有疑虑：塔博尔派可不想让一场教会会议摆出权威的架势，来审判他们的信仰。可要是不去，代表波希米亚说话的就成了别人。\n\n1432年1月，他重新站了起来，而且动作很快。他先把塔博尔派的头领们召集到一起，然后骑马南下特热邦，去见[[link:one-jailbreak-two-castles-1420]]罗日姆贝克的奥尔德日赫[[/link]]。此人是王国里势力最大的天主教贵族，也是塔博尔做了十多年的邻居兼死对头。两人订了一年的停战协议，还商定交换俘虏。普罗科普甚至提议，请奥尔德日赫跟胡斯派代表团一起去巴塞尔。这个提议后来不了了之，但它说明了普罗科普现在怎么看问题：既然整个王国都要去跟教会谈，那最好用同一个声音说话。\n\n2月10日，大议会在布拉格开幕，这一次谁都来了。塔博尔派、孤儿军、布拉格人和贵族们，几个月来第一次坐进了同一间屋子。会上吵得不可开交，旧账还悬在半空，但最后总算达成一致：一起去巴塞尔，普罗科普也在选出的代表之列。[[b]]两个月前还有人要给他派刽子手，如今他又成了代表波希米亚说话的人。[[/b]]不过，并不是每个人离开时都放下了心。一些圣杯派贵族已经开始悄悄琢磨：要对付塔博尔派，天主教贵族会不会是比塔博尔派更好的盟友。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "novomestska-radnice",
+        relation: {
+          en: "Where the diet met on New Year's Day 1432 without a single Táborite, and decided that Bohemia's answer to Basel would have to wait for Prokop.",
+          cz: "Zde se na Nový rok 1432 sešel sněm bez jediného tábora a usnesl se, že odpověď Čech do Basileje musí počkat na Prokopa.",
+          zh: "1432年元旦，议会在这里开幕，塔博尔派一个人都没来。议会最后决定，波希米亚给巴塞尔的答复，得等普罗科普发话。",
         },
       },
       {
@@ -18514,7 +18572,7 @@ export const historyEvents = [
         },
       },
     ],
-    wikipediaUrl: "https://cs.wikipedia.org/wiki/Jan_%C4%8Capek_ze_S%C3%A1n",
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Prokop_Hol%C3%BD",
   },
   // The end of the Hussite Wars, 1432–1437: eleven cards written 2026-09-29
   // from the user's Chinese draft (sections 一–五) plus Claude's additions
@@ -18550,6 +18608,14 @@ export const historyEvents = [
   {
     slug: "a-judge-called-scripture-1432",
     era: "religious-turmoil",
+    images: ["/history/a-judge-called-scripture-1432.webp"],
+    imageCaptions: [
+      {
+        en: "Cheb, May 1432: the Hussite and council delegations agree that Scripture, not the pope, will judge the Four Articles.",
+        cz: "Cheb, květen 1432: husitské a koncilní poselstvo se dohodne, že o čtyřech artikulích nebude soudit papež, ale Písmo.",
+        zh: "1432年5月，海布：胡斯派与公会议代表团约定，由《圣经》而不是教皇来裁决四条款。",
+      },
+    ],
     startYear: 1432.4,
     year: {
       en: "May 1432",
@@ -18558,9 +18624,9 @@ export const historyEvents = [
     },
     tone: "humorous",
     title: {
-      en: "A Judge Called Scripture",
-      cz: "Soudce jménem Písmo",
-      zh: "以《圣经》为法官",
+      en: "The Bible Judges, Not the Pope",
+      cz: "Soudcem je Bible, ne papež",
+      zh: "裁判是《圣经》，不是教皇",
     },
     hookLine: {
       en: "The Hussites agreed to go to a church council. First, though, they wanted to settle who would be the judge. They picked the Bible.",
@@ -18601,6 +18667,22 @@ export const historyEvents = [
   {
     slug: "heretics-in-basel-1433",
     era: "religious-turmoil",
+    images: [
+      "/history/heretics-in-basel-1433.webp",
+      "/history/heretics-in-basel-1433-2.webp",
+    ],
+    imageCaptions: [
+      {
+        en: "Basel, winter 1432–33: with Cardinal Cesarini checking his list, the city expels its gamblers, silences its taverns and keeps its loose women indoors before the Hussite delegation arrives.",
+        cz: "Basilej, zima 1432–33: kardinál Cesarini odškrtává svůj seznam a město před příjezdem husitského poselstva vyhání hráče, umlčuje krčmy a zavírá lehké ženy do domů.",
+        zh: "1432至1433年冬，巴塞尔：红衣主教切萨里尼对着清单逐项打勾，全城在胡斯派代表团到来之前赶走赌徒、叫停酒馆歌舞，还把风尘女子关进屋里。",
+      },
+      {
+        en: "4 January 1433: the Bohemian embassy lands on the Rhine while Basel crowds the streets and rooftops, trying to spot Prokop.",
+        cz: "4. ledna 1433: české poselstvo přistává na Rýně a Basilej se tlačí v ulicích i na střechách, aby zahlédla Prokopa.",
+        zh: "1433年1月4日：波希米亚代表团在莱茵河边上岸，巴塞尔人挤满街道和屋顶，争着想看一眼普罗科普。",
+      },
+    ],
     startYear: 1433.1,
     year: {
       en: "January–April 1433",
@@ -18609,9 +18691,9 @@ export const historyEvents = [
     },
     tone: "humorous",
     title: {
-      en: "Heretics in Basel",
-      cz: "Kacíři v Basileji",
-      zh: "异端进城了",
+      en: "Basel's “Guests of Honour”",
+      cz: "„Vzácní hosté“ Basileje",
+      zh: "巴塞尔的“贵客”",
     },
     hookLine: {
       en: "To avoid shocking its guests, Basel expelled its gamblers, banned dancing in the inns and kept its loose women off the streets. The guests were the heretics.",
@@ -18643,6 +18725,14 @@ export const historyEvents = [
   {
     slug: "a-bottle-of-the-baltic-1433",
     era: "religious-turmoil",
+    images: ["/history/a-bottle-of-the-baltic-1433.webp"],
+    imageCaptions: [
+      {
+        en: "The Baltic shore near Gdańsk, 4 September 1433: the Orphans fill their flasks with seawater, and Jan Čapek knights men on the beach.",
+        cz: "Břeh Baltu u Gdaňsku, 4. září 1433: sirotci si plní čutory mořskou vodou a Jan Čapek na pláži pasuje muže na rytíře.",
+        zh: "1433年9月4日，格但斯克附近的波罗的海岸边：孤儿军往水壶里灌海水，扬·恰佩克在沙滩上为部下授封骑士。",
+      },
+    ],
     startYear: 1433.5,
     year: {
       en: "April–November 1433",
@@ -18682,30 +18772,171 @@ export const historyEvents = [
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Hussite_expedition_to_the_Baltic",
   },
+  // Added 2026-10-05 at the user's request to fill the gap between Basel
+  // (April 1433) and Plzeň. Sources: F. Lützow, The Hussite Wars ch. 7
+  // (embassy in Prague 8 May 1433: Philibert of Coutances, Palomar, Toke;
+  // June diet in the Carolinum under Rokycana; Aleš elected regent 11 Nov
+  // with powers to restore order, Prokop in favour); M. Creighton, A History
+  // of the Popes, bk III ch. 5 (secret hint to the nobles 25 June; Palomar's
+  // mule-and-horse speech to the council, 26 August 1433; Compacts 26-30
+  // Nov; Aleš elected 1 Dec, so the card says "at about the same time");
+  // cs.wikipedia "Basilejská kompaktáta" (handshake of the Hussite clergy
+  // 30 Nov, with reservations). Quote: Czech wording as quoted from
+  // F. Šmahel in Deník.cz; the Latin original was not found online; EN/ZH
+  // are Claude's translations of the Czech.
   {
-    slug: "the-camel-of-plzen-1433",
+    slug: "how-to-tame-a-horse-1433",
     era: "religious-turmoil",
-    startYear: 1433.6,
+    images: ["/history/how-to-tame-a-horse-1433.webp"],
+    imageCaptions: [
+      {
+        en: "Prague, June 1433: while the diet debates in the Carolinum, Juan Palomar quietly hints to Bohemian lords that the council might grant them the chalice.",
+        cz: "Praha, červen 1433: zatímco sněm v Karolinu jedná, Juan Palomar potichu naznačuje českým pánům, že by jim koncil mohl povolit kalich.",
+        zh: "1433年6月，布拉格：议会在卡罗利努姆争论不休，胡安·帕洛马尔却私下向波希米亚贵族透露，公会议也许会准许他们领圣杯。",
+      },
+    ],
+    // 1433.3: right after heretics-in-basel-1433 (which ends with the embassy
+    // leaving for Prague) and before a-bottle-of-the-baltic-1433 (which opens
+    // "while the diplomats talked"); moved there 2026-10-05 at the user's request.
+    startYear: 1433.3,
     year: {
-      en: "July 1433 – May 1434",
-      cz: "Červenec 1433 – květen 1434",
-      zh: "1433年7月至1434年5月",
+      en: "May–December 1433",
+      cz: "Květen–prosinec 1433",
+      zh: "1433年5月至12月",
     },
     tone: "humorous",
     title: {
-      en: "The Camel of Plzeň",
-      cz: "Plzeňský velbloud",
-      zh: "皮尔森的骆驼",
+      en: "Chalice and Intrigue",
+      cz: "Kalich a úklady",
+      zh: "圣杯与阴谋",
     },
     hookLine: {
-      en: "Nine months outside Plzeň cost the Hussites a foraging army, their commander's dignity and a camel. Plzeň kept the camel.",
-      cz: "Devět měsíců před Plzní stálo husity celou zásobovací výpravu, důstojnost vrchního velitele a velblouda. Velblouda si Plzeň nechala.",
-      zh: "在皮尔森城外耗了九个月，胡斯派赔进去一支征粮部队、主帅的体面，还有一头骆驼。骆驼被皮尔森留下了。",
+      en: "The council's chief negotiator had a theory about the Czechs: handle them gently, like a skittish horse, until the halter is on.",
+      cz: "Hlavní vyjednavač koncilu měl o Češích svou teorii: jednat s nimi jemně, jako s plachým koněm, dokud nebudou mít ohlávku na krku.",
+      zh: "公会议的首席谈判代表对捷克人自有一套理论：像对付受惊的马一样，温温柔柔的，直到把笼头套上为止。",
     },
     summary: {
-      en: "Plzeň had been the Catholic thorn in western Bohemia since the first year of the war, and while the council's envoys were in Prague that summer, the Hussites decided to pull it out at last. On 14 July 1433 the first Táborite troops arrived before the city. The Prague levies and the allied towns followed, Prokop took command in August, and the Orphans joined in the autumn, fresh from the Baltic. Some fifteen thousand men settled into five great camps around the walls, and forty bombards opened fire. Plzeň barely noticed. On the night of 1 September its defenders sallied out, overran one of the camps and went home again.\n\nThe real enemy was hunger. The harvest of 1432 had failed across Central Europe, the country around Plzeň had been stripped bare, and it was the besiegers, not the besieged, who began to starve. In mid-September Prokop sent some two thousand men under the Táborite captain Jan Pardus across the border into the Upper Palatinate to find food. They found plenty. On the way back, on 21 September, Bavarian knights and furious local peasants caught the long column near Hiltersried, and almost all of it was killed or captured. Only a handful made it back to the camp, with no food and no wagons.\n\nThe camp exploded. The soldiers accused Pardus of treachery and threw him in chains, and when Prokop tried to defend him, one of his own men hit him over the head with a stool and he was locked up too. He was let out within days, but he left the siege for Prague and did not come back for months. [[b]]The commander who had routed three crusades had been laid out by his own army with a piece of furniture.[[/b]] Before Christmas the defenders sallied out again and made off with the Orphans' most exotic trophy, the camel that the King of Poland had given to [[link:a-bottle-of-the-baltic-1433]]Jan Čapek[[/link]]. Čapek offered to buy it back. Plzeň declined, and the camel still appears on the city's coat of arms today.\n\nMeanwhile the siege kept getting worse. The besiegers plundered the countryside so thoroughly that the peasants, once the backbone of the Hussite armies, began to rise against them, and men deserted by the hundred. Plzeň's friends slipped food through the lines more than once, and the Council of Basel, in between negotiating with the Hussites, took up a collection to pay for the city's defence. By spring the army outside Plzeň had shrunk to about ten thousand hungry men, and the lords of Bohemia had begun to discuss, quietly, how to be rid of it.",
-      cz: "Plzeň byla katolickým trnem v západních Čechách od prvního roku války, a když byli toho léta v Praze vyslanci koncilu, rozhodli se husité, že ho konečně vytrhnou. 14. července 1433 dorazily k městu první táborské oddíly. Následovaly pražské hotovosti a spojenecká města, v srpnu převzal velení Prokop a na podzim se připojili sirotci, čerstvě od Baltu. Kolem hradeb se v pěti velkých leženích usadilo na patnáct tisíc mužů a čtyřicet bombard zahájilo palbu. Plzeň si toho sotva všimla. V noci na 1. září obránci vyrazili, přepadli jedno z ležení a zase se vrátili domů.\n\nSkutečným nepřítelem byl hlad. Úroda roku 1432 selhala v celé střední Evropě, okolí Plzně bylo vyjedené a hladovět začali obléhající, ne obležení. V polovině září proto Prokop poslal asi dva tisíce mužů pod táborským hejtmanem Janem Pardusem přes hranici do Horní Falce pro potraviny. Našli jich spoustu. Na zpáteční cestě 21. září však dlouhou kolonu u Hiltersriedu přepadli bavorští rytíři a rozzuření místní sedláci a téměř všichni byli pobiti nebo zajati. Do ležení se vrátila jen hrstka, bez jídla a bez vozů.\n\nLežení vybuchlo. Vojáci obvinili Parduse ze zrady a spoutali ho, a když se ho Prokop pokusil zastat, jeden z jeho vlastních mužů ho udeřil stoličkou do hlavy a zavřeli i jeho. Za pár dní byl propuštěn, ale od obléhání odjel do Prahy a měsíce se nevrátil. [[b]]Vojevůdce, který rozprášil tři křížové výpravy, poslalo k zemi jeho vlastní vojsko kusem nábytku.[[/b]] Před Vánoci obránci vyrazili znovu a odvedli sirotkům jejich nejexotičtější trofej, velblouda, kterého polský král daroval [[link:a-bottle-of-the-baltic-1433]]Janu Čapkovi[[/link]]. Čapek nabídl, že ho vykoupí. Plzeň odmítla a velbloud je dodnes v městském znaku.\n\nObléhání se mezitím dál zhoršovalo. Obléhající drancovali okolí tak důkladně, že se proti nim začali bouřit sedláci, kdysi páteř husitských vojsk, a muži dezertovali po stovkách. Přátelé Plzně víckrát propašovali do města potraviny a basilejský koncil uspořádal mezi jednáními s husity sbírku na obranu města. Na jaře se vojsko před Plzní scvrklo na nějakých deset tisíc hladových mužů a čeští páni začali potichu rokovat o tom, jak se ho zbavit.",
-      zh: "战争打响的第一年起，皮尔森就是扎在波希米亚西部的一根天主教钉子。那年夏天，公会议的使节还在布拉格，胡斯派决定终于把这根钉子拔掉。1433年7月14日，第一批塔博尔军到了城下，布拉格的民兵和各盟城随后赶来，8月普罗科普接过指挥权，孤儿军刚从波罗的海回来，秋天也加入进来。约一万五千人在城墙周围扎下五座大营，四十门射石炮一齐开火。皮尔森几乎没怎么在意。9月1日夜里，守军杀出城来，端掉一座营地，又回城去了。\n\n真正的敌人是饥饿。1432年整个中欧歉收，皮尔森周边早被吃得精光，先饿肚子的反倒是围城的一方。9月中旬，普罗科普派塔博尔派指挥官扬·帕尔杜斯带着约两千人越过边境，去上普法尔茨找粮。粮找到了不少。9月21日回程途中，巴伐利亚骑士和怒火中烧的当地农民在希尔特斯里德附近截住了这支拉得老长的队伍，几乎全军覆没。逃回营地的只有寥寥几个，粮食和车辆一样也没带回来。\n\n营地炸了锅。士兵们指控帕尔杜斯叛变，给他上了镣铐；普罗科普想替他说话，结果被自己手下的一个士兵抄起凳子砸在头上，也被关了起来。几天后他被放了出来，却离开围城前线去了布拉格，好几个月没再回来。[[b]]打垮过三次十字军的统帅，被自己的军队用一件家具撂倒了。[[/b]]圣诞节前，守军又杀出城一次，把孤儿军最稀罕的战利品牵走了，就是波兰国王送给[[link:a-bottle-of-the-baltic-1433]]扬·恰佩克[[/link]]的那头骆驼。恰佩克提出要把它赎回来，皮尔森没答应。直到今天，这头骆驼还画在皮尔森的城徽上。\n\n与此同时，围城越拖越糟。围城部队把四乡抢得一干二净，连曾经是胡斯军主力的农民都开始起来反抗他们，逃兵成百成百地走。皮尔森的朋友们不止一次把粮食偷运进城；巴塞尔公会议一边和胡斯派谈判，一边还给皮尔森的守城经费搞了一次募捐。到了春天，城外的大军只剩下大约一万个饿着肚子的人，而波希米亚的贵族们，已经开始悄悄商量怎么把这支军队处理掉了。",
+      en: "The council's embassy reached Prague on 8 May 1433. Bishop Philibert of Coutances led it, the Spanish canon lawyer Juan Palomar was its sharpest mind, and Henry Toke, the man who had made everyone cry at [[link:a-judge-called-scripture-1432]]Cheb[[/link]], came along too. They were lodged in the Old Town, and in June the diet gathered in the Carolinum to hear them, with [[link:prague-dismisses-its-prince-1427]]Jan Rokycana[[/link]] presiding. Palomar opened by explaining that the Hussites could have everything they wanted as soon as they submitted to Rome. The Hussites explained that this was exactly what they had been fighting about for fourteen years. The talks went round in circles for weeks.\n\nIn public the envoys gave nothing away. In private they were busier. On 25 June they quietly let some of the Bohemian lords know that the council would probably allow communion in both kinds, if the Bohemians rejoined the Church first and discussed everything else afterwards. For most of the moderates the chalice was the thing that mattered most, and Palomar knew it. Back in Basel that summer, defending these hints before a council full of doubtful prelates, he explained his method:\n\n[[quote:0]]\n\nThe method worked. A second embassy came to Prague in the autumn, and at the diet at the end of November the two sides agreed on the first version of what would later be called the Compacts. Communion in both kinds was allowed to those who wanted it. The other three articles survived as well, but each now came with a qualifier: sins were to be punished \"by those whose office it is\", and preaching was free for priests \"approved and sent\" by their superiors. By the time the lawyers had finished, it was hard to say what had actually been conceded. [[b]]The council had given the moderates the one thing they wanted most, and kept almost everything else.[[/b]] On 30 November the Hussite clergy confirmed the text with a handshake, though with reservations. At about the same time the diet elected a regent for the kingdom, Aleš Vřešťovský of Rýzmburk, an Utraquist lord of old family and modest means, with twelve councillors to help him restore order. Even Prokop agreed to it.\n\nNot everyone was charmed. The Táborites and the Orphans saw a halter, not a gift, and wanted no part of it. But for many Utraquist lords and Praguers the chalice had been the point of the whole war, and now the Church itself was offering it. Seen from Prague, the field armies that had been camped outside Plzeň since the summer began to look less like the kingdom's defenders and more like its most expensive problem.\n\nThe [[link:a-hairline-crack-1420]]hairline crack[[/link]] of 1420, which had become [[link:thanks-for-saving-the-city-1422]]an open wound[[/link]] by 1422, could no longer be stitched shut. To the Táborites, the lords and Praguers had traded everything the war had been fought for in exchange for a sip of wine from the chalice, and had turned their backs on what the movement had stood for. They suspected, too, that the next thing to be traded would be the radicals themselves. Nobody said it out loud yet, but both sides knew where this was heading. [[b]]The next war in Bohemia would be fought between Hussites, and it would be fought to the finish.[[/b]]",
+      cz: "Poselstvo koncilu dorazilo do Prahy 8. května 1433. Vedl ho biskup Filibert z Coutances, nejostřejší hlavou byl španělský kanonista Juan Palomar a s nimi přijel i Jindřich Toke, ten, který v [[link:a-judge-called-scripture-1432]]Chebu[[/link]] rozplakal celý sál. Ubytovali se na Starém Městě a v červnu se v Karolinu sešel sněm, aby je vyslechl; předsedal mu [[link:prague-dismisses-its-prince-1427]]Jan Rokycana[[/link]]. Palomar začal tím, že husité mohou mít všechno, co chtějí, jakmile se podřídí Římu. Husité odpověděli, že právě o tohle už čtrnáct let válčí. Jednání se pak týdny točilo v kruhu.\n\nNavenek vyslanci neustoupili ani o píď. V soukromí byli činnější. 25. června dali potichu některým českým pánům najevo, že koncil nejspíš povolí přijímání pod obojí, pokud se Češi nejdřív vrátí do církve a o všem ostatním se bude jednat potom. Kalich byl pro většinu umírněných to nejdůležitější a Palomar to dobře věděl. Když se toho léta v Basileji obhajoval před koncilem plným pochybovačných prelátů, vysvětlil svou metodu takto:\n\n[[quote:0]]\n\nMetoda zabrala. Na podzim přijelo do Prahy druhé poselstvo a na sněmu koncem listopadu se obě strany dohodly na první verzi toho, čemu se později bude říkat kompaktáta. Přijímání pod obojí se povolovalo těm, kdo o ně stáli. Zbylé tři artikuly také přežily, ale každý dostal svou výhradu: hříchy měli trestat „ti, jimž to přísluší“, a svobodně kázat směli kněží „schválení a vyslaní“ svými představenými. Než s tím právníci skončili, dalo se jen těžko říct, co se vlastně povolilo. [[b]]Koncil dal umírněným tu jedinou věc, o kterou jim šlo nejvíc, a skoro všechno ostatní si nechal.[[/b]] 30. listopadu text stvrdili husitští kněží rukoudáním, i když s výhradami. Zhruba v téže době zvolil sněm zemského správce, Aleše Vřešťovského z Rýzmburka, kališnického pána ze starého rodu, ale skromného jmění, a dal mu dvanáct rádců, aby v zemi obnovil pořádek. Souhlasil s tím i Prokop.\n\nNe každého to okouzlilo. Táboři a sirotci v tom viděli ohlávku, ne dar, a nechtěli s tím mít nic společného. Pro mnoho kališnických pánů a Pražanů však byl kalich smyslem celé války, a teď jim ho církev sama nabízela. Při pohledu z Prahy začínala polní vojska, která od léta ležela před Plzní, vypadat méně jako obránci království a víc jako jeho nejdražší starost.\n\n[[link:a-hairline-crack-1420]]Vlásečnicová trhlina[[/link]] z roku 1420, která se roku 1422 změnila v [[link:thanks-for-saving-the-city-1422]]otevřenou ránu[[/link]], se už nedala zašít. Podle táborů páni a Pražané vyměnili všechno, oč se válčilo, za doušek vína z kalicha a obrátili se zády k tomu, za čím hnutí původně stálo. Táboři navíc tušili, že dalším zbožím na výměnu budou oni sami. Nahlas to ještě nikdo neřekl, ale obě strany věděly, kam to směřuje. [[b]]Příští válka v Čechách se povede mezi husity, a povede se až do konce.[[/b]]",
+      zh: "1433年5月8日，公会议的使团到了布拉格。领头的是库唐斯主教菲利贝尔，脑子最灵的是西班牙教会法学家胡安·帕洛马尔，同行的还有亨利·托克，就是在[[link:a-judge-called-scripture-1432]]海布[[/link]]把全场说哭的那位。使团住在老城。6月，议会在卡罗利努姆召开，听他们怎么说，由[[link:prague-dismisses-its-prince-1427]]扬·罗基察纳[[/link]]主持。帕洛马尔一开场就说：胡斯派想要的都可以有，只要先服从罗马。胡斯派回答：我们打了十四年仗，争的就是这一条。谈判就这样原地转了好几个星期。\n\n台面上，使节们一步不让；台面下，他们可忙得很。6月25日，他们私下给几位波希米亚贵族透了个口风：只要波希米亚人先回到教会，其余的事以后再谈，公会议多半会准许饼酒兼领。对大多数温和派来说，圣杯就是他们最看重的东西，帕洛马尔心里清楚得很。那年夏天回到巴塞尔，面对一屋子满腹狐疑的高级教士，他这样解释自己的路数：\n\n[[quote:0]]\n\n这套路数果然管用。秋天，第二个使团又来到布拉格。11月底的议会上，双方终于就后来所谓“协约”的第一个版本达成了一致。饼酒兼领，准许愿意的人领受。另外三条也保留了下来，只是每一条都加了限定：罪恶由“有职权的人”来惩治，传道的自由只属于经上级“批准并派遣”的神父。等法学家们改完，已经很难说清教会到底让了什么。[[b]]公会议把温和派最想要的那样东西给了他们，其余的几乎全攥在了自己手里。[[/b]]11月30日，胡斯派神职人员握手确认了文本，不过保留了意见。差不多同一时候，议会选出了王国摄政：雷兹姆布尔克的阿莱什·弗热什佐夫斯基，一位出身古老世家、家底却不厚的圣杯派贵族，另配十二名顾问，负责恢复全国秩序。连普罗科普都点了头。\n\n并不是人人都被打动。塔博尔派和孤儿军看到的是笼头，不是礼物，他们一点也不想沾。可对许多圣杯派贵族和布拉格人来说，圣杯本来就是这场战争的全部意义，如今教会主动把它递了过来。从布拉格望过去，那支从夏天起就驻扎在皮尔森城外的野战军，看着越来越不像王国的保卫者，倒越来越像王国最费钱的麻烦。\n\n1420年那道[[link:a-hairline-crack-1420]]细如发丝的裂痕[[/link]]，到1422年已经变成了[[link:thanks-for-saving-the-city-1422]]一道触目惊心的伤口[[/link]]，如今再也缝不上了。在塔博尔派看来，贵族和布拉格人为了圣杯里的一口酒，就把这场战争争来的一切都卖了，背弃了胡斯运动当初的理想。他们还怀疑，下一个被拿去交换的，就是激进派自己。这话谁都还没说出口，可双方心里都清楚，事情正往哪里走。[[b]]波希米亚的下一场战争，将是胡斯派打胡斯派，而且要打到一方彻底倒下为止。[[/b]]",
+    },
+    quotes: [
+      {
+        text: {
+          en: "The Czechs were a shy and unbridled people, unwilling to enter the sheepfold of the Church where the other Christians were. So until they have the halter around their neck, they must be handled gently, as when one tames a horse or a mule…",
+          cz: "Češi byli národem plachým a bezuzdným, jemuž se nechtělo vstoupit do ovčince církve, v němž byli ostatní křesťané. Dokud tudíž nebudou mít ohlávku na krku, je s nimi třeba nakládat mírně, jako když se krotí kůň nebo mezek…",
+          zh: "捷克人是一个胆怯又不服管束的民族，不愿意走进其他基督徒都待着的教会羊圈。所以，在他们脖子上套上笼头之前，得温和地对待他们，就像驯马或驯骡子那样……",
+        },
+        attribution: {
+          en: "Juan Palomar to the Council of Basel, 26 August 1433 (from the Czech translation quoted by F. Šmahel)",
+          cz: "Juan Palomar před basilejským koncilem, 26. srpna 1433 (podle F. Šmahela)",
+          zh: "胡安·帕洛马尔在巴塞尔公会议上的发言，1433年8月26日（据F.什马赫尔引用的捷克文译文）",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "karolinum",
+        relation: {
+          en: "Where the diet met in June 1433 to hear the Council of Basel's envoys, with Jan Rokycana presiding.",
+          cz: "Zde se v červnu 1433 sešel sněm, aby pod předsednictvím Jana Rokycany vyslechl vyslance basilejského koncilu.",
+          zh: "1433年6月，议会在这里召开，由扬·罗基察纳主持，听取巴塞尔公会议使节的意见。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Basilejsk%C3%A1_kompakt%C3%A1ta",
+  },
+  // Split out of the-camel-of-plzen-1433 on 2026-10-05 at the user's request:
+  // the siege's opening, the Hiltersried disaster and the mutiny (July–
+  // September 1433). The camel, the peasants, Přibík and the closing lament
+  // stay on the camel card.
+  {
+    slug: "the-besiegers-go-hungry-1433",
+    era: "religious-turmoil",
+    images: ["/history/the-besiegers-go-hungry-1433.webp"],
+    imageCaptions: [
+      {
+        en: "Outside Plzeň, September 1433: when Prokop defends the captain blamed for the Hiltersried disaster, one of his own soldiers hits him with a stool.",
+        cz: "Před Plzní, září 1433: když se Prokop zastane hejtmana obviňovaného z pohromy u Hiltersriedu, jeden z jeho vlastních vojáků ho udeří stoličkou.",
+        zh: "1433年9月，皮尔森城外：普罗科普替因希尔特斯里德惨败而被指控的指挥官说话，却被自己手下的士兵抄起凳子砸了下去。",
+      },
+    ],
+    startYear: 1433.6,
+    year: {
+      en: "July–September 1433",
+      cz: "Červenec–září 1433",
+      zh: "1433年7月至9月",
+    },
+    tone: "humorous",
+    title: {
+      en: "Not What They Used to Be",
+      cz: "Už nejsou, co bývali",
+      zh: "不复当年",
+    },
+    hookLine: {
+      en: "Outside Plzeň the Hussite armies began to starve, and then to turn on one another.",
+      cz: "Před Plzní husitská vojska začala hladovět a pak se obracet sama proti sobě.",
+      zh: "皮尔森城外，胡斯军先是挨饿，接着便开始互相猜忌、反目成仇。",
+    },
+    summary: {
+      en: "While [[link:a-bottle-of-the-baltic-1433]]Čapek's Orphans[[/link]] were marching to the Baltic, the rest of the field armies had a much less glamorous job. Plzeň had been the Catholic thorn in western Bohemia since the first year of the war, and in the summer of 1433, while the council's envoys were talking in Prague, the Táborites decided to pull it out at last. The timing was no accident. The radicals wanted to come to the negotiating table holding as much of the country as they could, while the moderates in Prague mostly wanted the war to be over. With Plzeň taken, the field armies would be the one party nobody could leave out. On 14 July 1433 the first Táborite troops arrived before the city. The Prague levies and the allied towns followed, Prokop took command in August, and the Orphans joined in the autumn, fresh from the Baltic. Some fifteen thousand men settled into five great camps around the walls, and forty bombards opened fire. Plzeň barely noticed. On the night of 1 September its defenders sallied out, overran one of the camps and went home again.\n\nThe real enemy was hunger. The harvest of 1432 had failed across Central Europe, the country around Plzeň had been stripped bare, and it was the besiegers, not the besieged, who began to starve. In mid-September Prokop sent some two thousand men under the Táborite captain Jan Pardus across the border into the Upper Palatinate to find food. They found plenty. On the way back, on 21 September, less than three weeks after the Orphans had stood on the Baltic shore, Bavarian knights and furious local peasants caught the long column near Hiltersried, and almost all of it was killed or captured. Only a handful made it back to the camp, with no food and no wagons.\n\nThe camp exploded. The soldiers accused Pardus of treachery and threw him in chains, and when Prokop tried to defend him, one of his own men hit him over the head with a stool and he was locked up too. He was let out within days, but he left the siege for Prague and did not come back for months. [[b]]The commander who had routed three crusades had been laid out by his own army with a piece of furniture.[[/b]]",
+      cz: "Zatímco [[link:a-bottle-of-the-baltic-1433]]Čapkovi sirotci[[/link]] táhli k Baltu, zbytek polních vojsk dostal mnohem méně slavný úkol. Plzeň byla katolickým trnem v západních Čechách od prvního roku války, a v létě 1433, kdy v Praze jednali vyslanci koncilu, se táboři rozhodli, že ho konečně vytrhnou. Načasování nebylo náhodné. Radikálové chtěli k jednacímu stolu přijít s co největší částí země v rukou, kdežto umírnění v Praze si většinou přáli hlavně konec války. S dobytou Plzní by polní vojska byla stranou, kterou nikdo nemůže obejít. 14. července 1433 dorazily k městu první táborské oddíly. Následovaly pražské hotovosti a spojenecká města, v srpnu převzal velení Prokop a na podzim se připojili sirotci, čerstvě od Baltu. Kolem hradeb se v pěti velkých leženích usadilo na patnáct tisíc mužů a čtyřicet bombard zahájilo palbu. Plzeň si toho sotva všimla. V noci na 1. září obránci vyrazili, přepadli jedno z ležení a zase se vrátili domů.\n\nSkutečným nepřítelem byl hlad. Úroda roku 1432 selhala v celé střední Evropě, okolí Plzně bylo vyjedené a hladovět začali obléhající, ne obležení. V polovině září proto Prokop poslal asi dva tisíce mužů pod táborským hejtmanem Janem Pardusem přes hranici do Horní Falce pro potraviny. Našli jich spoustu. Na zpáteční cestě 21. září, necelé tři týdny poté, co sirotci stanuli na břehu Baltu, však dlouhou kolonu u Hiltersriedu přepadli bavorští rytíři a rozzuření místní sedláci a téměř všichni byli pobiti nebo zajati. Do ležení se vrátila jen hrstka, bez jídla a bez vozů.\n\nLežení vybuchlo. Vojáci obvinili Parduse ze zrady a spoutali ho, a když se ho Prokop pokusil zastat, jeden z jeho vlastních mužů ho udeřil stoličkou do hlavy a zavřeli i jeho. Za pár dní byl propuštěn, ale od obléhání odjel do Prahy a měsíce se nevrátil. [[b]]Vojevůdce, který rozprášil tři křížové výpravy, poslalo k zemi jeho vlastní vojsko kusem nábytku.[[/b]]",
+      zh: "[[link:a-bottle-of-the-baltic-1433]]恰佩克的孤儿军[[/link]]一路北上奔向波罗的海的时候，其余的野战军接了一桩远没那么风光的差事。战争打响的第一年起，皮尔森就是扎在波希米亚西部的一根天主教钉子。1433年夏天，公会议的使节正在布拉格谈判，塔博尔军决定终于把这根钉子拔掉。时机选得并不偶然：激进派想手里攥着尽可能多的地盘再上谈判桌，布拉格的温和派却大多只盼着仗早点打完。拿下皮尔森，野战军就成了谁也绕不过去的一方。1433年7月14日，第一批塔博尔军到了城下，布拉格的民兵和各盟城随后赶来，8月普罗科普接过指挥权，孤儿军刚从波罗的海回来，秋天也加入进来。约一万五千人在城墙周围扎下五座大营，四十门射石炮一齐开火。皮尔森几乎没怎么在意。9月1日夜里，守军杀出城来，端掉一座营地，又回城去了。\n\n真正的敌人是饥饿。1432年整个中欧歉收，皮尔森周边早被吃得精光，先饿肚子的反倒是围城的一方。9月中旬，普罗科普派塔博尔派指挥官扬·帕尔杜斯带着约两千人越过边境，去上普法尔茨找粮。粮找到了不少。9月21日回程途中，距孤儿军站上波罗的海海岸还不到三个星期，巴伐利亚骑士和怒火中烧的当地农民在希尔特斯里德附近截住了这支拉得老长的队伍，几乎全军覆没。逃回营地的只有寥寥几个，粮食和车辆一样也没带回来。\n\n营地炸了锅。士兵们指控帕尔杜斯叛变，给他上了镣铐；普罗科普想替他说话，结果被自己手下的一个士兵抄起凳子砸在头上，也被关了起来。几天后他被放了出来，却离开围城前线去了布拉格，好几个月没再回来。[[b]]打垮过三次十字军的统帅，被自己的军队用一件家具撂倒了。[[/b]]",
+    },
+    relatedLandmarks: [
+      {
+        slug: "plzen",
+        relation: {
+          en: "Besieged by the Hussite field armies from July 1433. On the night of 1 September its defenders sallied out and overran one of the five siege camps.",
+          cz: "Od července 1433 ji obléhala husitská polní vojska. V noci na 1. září obránci vyrazili z města a přepadli jedno z pěti ležení.",
+          zh: "1433年7月起被胡斯派野战军围困。9月1日夜里，守军杀出城来，端掉了五座大营中的一座。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Obl%C3%A9h%C3%A1n%C3%AD_Plzn%C4%9B_(1433%E2%80%931434)",
+  },
+  {
+    slug: "the-camel-of-plzen-1433",
+    era: "religious-turmoil",
+    images: [
+      "/history/the-camel-of-plzen-1433.webp",
+      "/history/the-camel-of-plzen-1433-2.webp",
+    ],
+    imageCaptions: [
+      {
+        en: "Plzeň, December 1433: the city's defenders sally out and carry off the camel the King of Poland gave Jan Čapek.",
+        cz: "Plzeň, prosinec 1433: obránci města vyrazí z hradeb a odvedou velblouda, kterého polský král daroval Janu Čapkovi.",
+        zh: "1433年12月，皮尔森：守军杀出城来，把波兰国王送给扬·恰佩克的那头骆驼牵回了城。",
+      },
+      {
+        en: "Around Plzeň, winter 1433–34: plundered peasants rise against the besiegers, deserters leave by the hundred, and the Táborite captain Přibík of Klenová smuggles food into the city.",
+        cz: "Okolí Plzně, zima 1433–34: vydrancovaní sedláci se bouří proti obléhajícím, vojáci dezertují po stovkách a táborský hejtman Přibík z Klenové pašuje do města potraviny.",
+        zh: "1433至1434年冬，皮尔森周边：被抢光的农民起来反抗围城部队，逃兵成百成百地离开，塔博尔派指挥官克莱诺瓦的普日比克却在往城里偷运粮食。",
+      },
+    ],
+    // 1433.95 since 2026-10-05, when the autumn half was split off into
+    // the-besiegers-go-hungry-1433 at the user's request.
+    startYear: 1433.95,
+    year: {
+      en: "December 1433 – May 1434",
+      cz: "Prosinec 1433 – květen 1434",
+      zh: "1433年12月至1434年5月",
+    },
+    tone: "humorous",
+    title: {
+      en: "Forsaken by Their Own",
+      cz: "Opuštěni vlastními",
+      zh: "众叛亲离",
+    },
+    hookLine: {
+      en: "The peasants who had once filled the Hussite ranks rose against them, their men deserted by the hundred, and one of their own captains was feeding the enemy.",
+      cz: "Sedláci, kteří kdysi tvořili páteř husitských vojsk, se proti nim vzbouřili, vojáci utíkali po stovkách a jeden z jejich vlastních hejtmanů krmil nepřítele.",
+      zh: "曾经撑起胡斯军的农民起来反抗他们，士兵成百成百地逃散，自己人里还有人在给敌人送粮。",
+    },
+    summary: {
+      en: "With Prokop gone to Prague, the siege dragged on into the winter. Before Christmas the defenders sallied out again and made off with the Orphans' most exotic trophy, the camel that the King of Poland had given to [[link:a-bottle-of-the-baltic-1433]]Jan Čapek[[/link]]. Čapek offered to buy it back. Plzeň declined, and the camel still appears on the city's coat of arms today.\n\nMeanwhile the siege kept getting worse, and the reason was the same as before: there was nothing to eat. The harvest of 1433 had been poor too, and an army of ten thousand or more could only feed itself by taking what the villages had. By now the field armies were no longer the peasant levies of Žižka's day but professional soldiers who had been at war for fourteen years and lived off the land. To the farmers around Plzeň they were simply one more army carting off their grain, and it made little difference what hymns it sang. The countryside, once the backbone of the Hussite cause, turned against them. The peasants began to fight back, and soldiers, hungry and tired of a war that no longer seemed to be going anywhere, deserted by the hundred.\n\nThe betrayal from inside came with a price. Přibík of Klenová was a Táborite captain, but he was also a knight whose family castle stood in the hills south-west of Plzeň, and he had leaned toward the moderates for years: as early as 1427 a Saxon report listed him among those who might change sides. In March 1434 he met [[link:how-to-tame-a-horse-1433]]Juan Palomar[[/link]] and [[link:a-crown-with-conditions-1429]]Menhart of Hradec[[/link]] at Cham in Bavaria, where Palomar handed out three thousand gold pieces, five hundred of them to buy food for Plzeň. The money came from the Council of Basel, which in between negotiating with the Hussites had also taken up a collection for the city's defence. On 30 March Přibík led a supply train through the siege lines and into the city. The halter Palomar had talked about in Basel had found its first neck, and Přibík would do it again. Every week the siege dragged on made the moderates' case against the field armies stronger: they had promised a great victory and delivered hunger and plunder.\n\nTwo years earlier at [[link:they-heard-them-coming-1431]]Domažlice[[/link]], a whole crusade had abandoned its wagons and run for the woods at the mere sound of \"Ye Who Are Warriors of God\". Now the army that sang it was going hungry outside a single city, suspecting its own captains and hitting its commander over the head with a stool. [[b]]They were still the warriors of God, but more and more in the past tense.[[/b]] By spring the army outside Plzeň had shrunk to about ten thousand hungry men, and the lords of Bohemia had begun to discuss, quietly, how to be rid of it.",
+      cz: "Prokop odjel do Prahy a obléhání se protáhlo do zimy. Před Vánoci obránci vyrazili znovu a odvedli sirotkům jejich nejexotičtější trofej, velblouda, kterého polský král daroval [[link:a-bottle-of-the-baltic-1433]]Janu Čapkovi[[/link]]. Čapek nabídl, že ho vykoupí. Plzeň odmítla a velbloud je dodnes v městském znaku.\n\nObléhání se mezitím dál zhoršovalo a důvod byl pořád stejný: nebylo co jíst. Ani úroda roku 1433 nebyla valná a vojsko o víc než deseti tisících mužích se mohlo uživit jen tím, co vzalo vesnicím. Polní vojska už dávno nebyla selskými hotovostmi Žižkových časů, ale profesionálními vojáky, kteří válčili čtrnáct let a žili z toho, co jim dala krajina. Pro sedláky kolem Plzně byla prostě dalším vojskem, které jim odváží obilí, a jaké písně přitom zpívá, bylo celkem jedno. Venkov, kdysi páteř husitské věci, se od nich odvrátil. Sedláci se začali bránit a vojáci, hladoví a unavení válkou, která nikam nevedla, dezertovali po stovkách.\n\nZrada zevnitř měla svou cenu. Přibík z Klenové byl táborský hejtman, ale zároveň rytíř, jehož rodový hrad stál v kopcích jihozápadně od Plzně, a k umírněným se klonil už léta: saská zpráva z roku 1427 ho uváděla mezi těmi, kdo by mohli přeběhnout. V březnu 1434 se v bavorském Chamu sešel s [[link:how-to-tame-a-horse-1433]]Juanem Palomarem[[/link]] a [[link:a-crown-with-conditions-1429]]Menhartem z Hradce[[/link]] a Palomar tam rozdal tři tisíce zlatých, z toho pět set na potraviny pro Plzeň. Peníze pocházely od basilejského koncilu, který mezi jednáními s husity uspořádal i sbírku na obranu města. 30. března provedl Přibík zásobovací kolonu přes obléhací linie do města. Ohlávka, o které Palomar mluvil v Basileji, našla první krk, a Přibík to ještě zopakuje. Každý týden obléhání dával umírněným další argument proti polním vojskům: slibovala velké vítězství a přinesla hlad a drancování.\n\nPřed dvěma lety u [[link:they-heard-them-coming-1431]]Domažlic[[/link]] stačilo celé křížové výpravě zaslechnout „Ktož jsú boží bojovníci“, aby nechala vozy stát a utekla do lesů. Teď vojsko, které tu píseň zpívalo, hladovělo před jediným městem, podezíralo vlastní hejtmany a mlátilo svého velitele stoličkou po hlavě. [[b]]Boží bojovníci to pořád byli, jenže čím dál víc v minulém čase.[[/b]] Na jaře se vojsko před Plzní scvrklo na nějakých deset tisíc hladových mužů a čeští páni začali potichu rokovat o tom, jak se ho zbavit.",
+      zh: "普罗科普去了布拉格，围城一直拖进了冬天。圣诞节前，守军又杀出城一次，把孤儿军最稀罕的战利品牵走了，就是波兰国王送给[[link:a-bottle-of-the-baltic-1433]]扬·恰佩克[[/link]]的那头骆驼。恰佩克提出要把它赎回来，皮尔森没答应。直到今天，这头骆驼还画在皮尔森的城徽上。\n\n与此同时，围城越拖越糟，原因还是老问题：没吃的。1433年的收成同样不好，一支上万人的大军要填饱肚子，只能去搜刮村子里的存粮。这时的野战军，早已不是杰式卡那时候的农民队伍，而是打了十四年仗、靠四乡供养的职业兵。在皮尔森周边的农民眼里，他们不过是又一支来拉走粮食的军队，唱的是什么圣歌并不要紧。曾经是胡斯事业根基的乡村，就这样转过身去。农民开始动手反抗，士兵们又饿又倦，这场仗看不到头，逃兵成百成百地走。\n\n来自内部的背叛，是有价码的。克莱诺瓦的普日比克是塔博尔派的指挥官，但他同时也是一位骑士，家族的城堡就在皮尔森西南的山里，而且他向温和派靠拢已经好几年了：早在1427年，萨克森的一份报告就把他列为可能倒戈的人。1434年3月，他在巴伐利亚的卡姆会见了[[link:how-to-tame-a-horse-1433]]胡安·帕洛马尔[[/link]]和[[link:a-crown-with-conditions-1429]]赫拉德茨的门哈特[[/link]]。帕洛马尔在那里散出三千枚金币，其中五百枚专门用来给皮尔森买粮。这笔钱出自巴塞尔公会议，它一边和胡斯派谈判，一边还为皮尔森的守城经费搞了一次募捐。3月30日，普日比克押着一队粮车穿过封锁线，进了城。帕洛马尔在巴塞尔说的那副笼头，套上了第一个脖子，而普日比克后来还会再干一次。围城每多拖一个星期，温和派反对野战军的理由就多一分：说好的大胜仗没打出来，带来的只有饥饿和抢掠。\n\n两年前在[[link:they-heard-them-coming-1431]]多马日利采[[/link]]，一整支十字军光是听见《你们这些上帝的战士》的歌声，就扔下车辆逃进了森林。如今唱着同一首歌的这支军队，却在一座城外饿着肚子，互相猜疑，还拿凳子砸自己的统帅。[[b]]他们还是上帝的战士，只是越来越像“曾经的”了。[[/b]]到了春天，城外的大军只剩下大约一万个饿着肚子的人，而波希米亚的贵族们，已经开始悄悄商量怎么把这支军队处理掉了。",
     },
     relatedLandmarks: [
       {

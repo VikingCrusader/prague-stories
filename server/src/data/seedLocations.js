@@ -32936,6 +32936,93 @@ Příběh začíná v sousedním Újezdě nad Lesy. Jeho farní kostel sv. Barto
 🎁 彩蛋：每到圣诞节，教堂里会摆出一套马槽布景，但已经不是原来那套了。最早的人偶据说出自库特纳霍拉的木雕匠博胡米尔·贝克之手，后来被人偷走了。只有后面那幅彩绘风景幸存下来，于是人们又刻了一批新人偶放进去。对一座用别的教堂剩下的料盖起来的教堂来说，拿剩下的东西从头再来，倒也算是家传手艺了。`,
     },
   },
+  {
+    // Added 2026-10-05 at the user's request (coordinates user-supplied;
+    // rarity chosen by Claude, flagged to the user). Solemn tone, no joke
+    // intro (Holocaust memorial, see feedback_solemn_content_tone). Sources:
+    // novinky.cz "Oběti holokaustu dostaly pomník" (unveiled 9 March 2015 at
+    // Praha-Bubny; 20 m long track rising diagonally to the sky, two 7-tonne
+    // sections with oak sleepers; Jacob's ladder; ambassadors of the USA,
+    // Israel, Germany and others plus about 20 survivors attended),
+    // echo24.cz (initiative of Památník šoa Praha as the foundation stone of
+    // the Memorial of Silence), en.wikipedia "Aleš Veselý" (1935–14 Dec 2015;
+    // mixed Jewish family, father and sister deported to Terezín, 47
+    // relatives murdered), ct24 / pinkas.jewishmuseum.cz (first transport 16
+    // Oct 1941 to Łódź, 1,000 people, 24 survived; assembly point at the
+    // Radiotrh hall of the Trade Fair grounds Oct 1941–Jul 1943, deportees
+    // marched down Veletržní street to the station; over 70 transports,
+    // nearly 50,000 Jews to Łódź and Terezín; last transport Jan 1945).
+    name: 'Gate of No Return',
+    slug: 'brana-nenavratna',
+    localizedNames: { cz: 'Brána nenávratna', zh: '不归之门' },
+    labels: ['monument', 'historical'],
+    coordinates: { lat: 50.10252100313565, lng: 14.438091089341876 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Ale%C5%A1_Vesel%C3%BD',
+    description: {
+      en: `Beside the old Praha-Bubny station in Holešovice, a single railway track leaves the ground and climbs at a steep angle into the air, then stops. It is twenty metres long and leads nowhere. The sculptor Aleš Veselý called it the Gate of No Return.
+
+Between October 1941 and January 1945, more than seventy transports left this station, carrying nearly 50,000 Jews from the Czech lands to the ghettos of Łódź and Terezín, and from there, for most of them, to the death camps further east. People who received a summons had to report to the Radiotrh, a hall on the nearby Trade Fair grounds, where they waited for days. Then they walked down Veletržní street to the platform here, with their luggage and their transport numbers. The first train left on 16 October 1941 for Łódź with 1,000 men, women and children aboard. Twenty-four of them survived. The sculpture was unveiled on 9 March 2015, on the anniversary of the night in 1944 when almost 4,000 prisoners of the Terezín family camp were murdered in the gas chambers at Auschwitz. Survivors of the transports and the ambassadors of the United States, Israel, Germany and other countries attended. Made of two steel sections of seven tonnes each, laid on oak sleepers, the track is meant to recall Jacob's ladder, the ladder to heaven from the Book of Genesis. It was intended as the foundation stone of the Memorial of Silence, a place of remembrance and education that the non-profit Památník šoa Praha is building in the station itself.
+
+🎁 Bonus: For Veselý the work was personal. He came from a mixed Jewish family. His father and sister were deported to Terezín and survived, but 47 of his relatives were murdered. He was eighty when the Gate was unveiled and died in December of the same year, so this became one of the last works he made.`,
+
+      cz: `U starého nádraží Praha-Bubny v Holešovicích se jedna železniční kolej zvedá ze země, stoupá strmě do vzduchu a pak končí. Je dvacet metrů dlouhá a nikam nevede. Sochař Aleš Veselý ji nazval Brána nenávratna.
+
+Od října 1941 do ledna 1945 odtud odjelo přes sedmdesát transportů, které odvezly téměř 50 000 Židů z českých zemí do ghett v Lodži a v Terezíně a odtamtud většinu z nich dál na východ, do vyhlazovacích táborů. Kdo dostal předvolání, musel se hlásit v Radiotrhu, hale na nedalekém výstavišti u Veletržního paláce, kde se čekalo i několik dní. Potom šli lidé se zavazadly a s transportními čísly pěšky Veletržní ulicí až sem na nástupiště. První vlak odjel 16. října 1941 do Lodže s 1 000 muži, ženami a dětmi. Přežilo jich dvacet čtyři. Socha byla odhalena 9. března 2015, v den výročí noci roku 1944, kdy bylo v plynových komorách Osvětimi zavražděno téměř 4 000 vězňů terezínského rodinného tábora. Přišli pamětníci transportů i velvyslanci Spojených států, Izraele, Německa a dalších zemí. Kolej ze dvou ocelových dílů po sedmi tunách, uložená na dubových pražcích, má připomínat Jákobův žebřík, žebřík do nebe z knihy Genesis. Byla zamýšlena jako základní kámen Památníku ticha, místa paměti a vzdělávání, které v samotné nádražní budově buduje nezisková organizace Památník šoa Praha.
+
+🎁 Bonus: Pro Veselého to bylo osobní dílo. Pocházel ze smíšené židovské rodiny. Jeho otce a sestru deportovali do Terezína a přežili, ale 47 jeho příbuzných bylo zavražděno. Když byla Brána odhalena, bylo mu osmdesát, a v prosinci téhož roku zemřel. Stala se tak jedním z jeho posledních děl.`,
+
+      zh: `在霍莱绍维采的老布布尼火车站旁，一段铁轨离开地面，陡直地斜伸向天空，然后戛然而止。它长二十米，通向的是虚空。雕塑家阿莱什·韦塞利给它起名叫“不归之门”。
+
+从1941年10月到1945年1月，七十多趟列车从这座车站开出，把将近五万名来自捷克土地的犹太人送往罗兹和特雷津的隔离区，其中大多数人又从那里被继续送往东方的灭绝营。接到传唤的人必须到附近展览场地上一座叫“无线电市场”的展厅报到，在那里一等就是好几天。然后，他们提着行李、挂着运输编号，沿着韦莱特尔日尼街步行到这里的站台。第一趟列车在1941年10月16日开往罗兹，车上有一千名男女老少，最后只有二十四人活了下来。雕塑于2015年3月9日揭幕，这一天是1944年那个夜晚的纪念日：那一夜，特雷津家庭营的近四千名囚犯在奥斯维辛的毒气室里被杀害。揭幕时，当年运输的幸存者，以及美国、以色列、德国等国的大使都到了场。铁轨由两段各重七吨的钢件组成，铺在橡木枕木上，意在让人想起《创世记》里通往天堂的雅各天梯。它原本是作为“静默纪念馆”的奠基石而立的，这座纪念与教育场所正由非营利组织“布拉格浩劫纪念会”在车站大楼里筹建。
+
+🎁 彩蛋：对韦塞利来说，这件作品是私人的。他出身于一个犹太混血家庭，父亲和姐姐被押往特雷津，最终幸存，但他有47位亲人遇害。“不归之门”揭幕时他已经八十岁，同年12月便去世了，这也成了他最后的作品之一。`,
+    },
+  },
+  {
+    // Added 2026-10-05 at the user's request (coordinates user-supplied;
+    // rarity chosen by Claude, flagged to the user). "Jungle Terrace" is the
+    // user's name for it; the project's own name is Komunardů XXXV (K XXXV).
+    // Sources: archiweb.cz "Dominanta s industriálním charakterem" (Stanislav
+    // Fiala, FIALA + NĚMEC; project 2012, completed 2020; investors SEBRE +
+    // Property Solutions; corner tower above the cornice line; corten
+    // cladding and "irregularly dancing" rebar railings with tall grasses
+    // growing through; centrally irrigated climbing plants; exposed concrete
+    // interiors like a "rocky gorge"; green walls and doors; courtyard
+    // garden; brass Rocksor door hardware designed by Fiala), sebre.cz /
+    // world-architects.com (replaces two five-storey apartment houses
+    // demolished after the 2002 floods compromised their stability; 3
+    // underground + 7 above-ground floors, 40 flats, 630 m² offices, a
+    // showroom and a shop; corner of Komunardů and Přístavní).
+    name: 'Jungle Terrace (Komunardů XXXV)',
+    slug: 'komunardu-xxxv',
+    localizedNames: { cz: 'Komunardů XXXV', zh: '丛林露台' },
+    labels: ['modern', 'architecture'],
+    coordinates: { lat: 50.10432560992962, lng: 14.449686514531098 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Most Holešovice apartment blocks keep their plants on the windowsill. The one at Komunardů 35 keeps them on the façade, where tall grasses push out through rusty steel railings and climbing plants work their way up the walls. It looks a bit like a building that was left alone for a few decades, except it was finished in 2020.
+
+It stands on the corner of Komunardů and Přístavní streets, filling a gap that the river made. Two five-storey apartment houses stood here until the floods of August 2002, when the Vltava poured into Holešovice and left them so badly damaged that they had to be torn down. For years the corner stayed empty. The new building was designed by Stanislav Fiala of the studio FIALA + NĚMEC, with plans dating from 2012, and was built by the developers SEBRE and Property Solutions. It keeps to the height of the surrounding blocks, but its corner rises two storeys above their cornices as a small tower. Its industrial look suits the old port district: corten steel cladding that is meant to rust, and balcony railings made from construction rebar bent in a deliberately irregular, "dancing" pattern. The greenery is the main feature. The grasses on the terraces and the climbing plants on the façade are watered by a central irrigation system, and there is a small garden in the courtyard. Inside, the bare concrete was shaped to look like the walls of a rocky gorge, with bright green walls and doors for contrast. Below the street there are three underground floors, and above it seven: shops and offices on the lower two, then about forty flats, with the largest ones and their rooftop terraces at the very top.
+
+🎁 Bonus: Fiala didn't stop at the walls. Even the door handles are his design, a solid-brass line called Rocksor, made to match the building's rock-and-concrete theme. Most architects are happy if the builders remember the floor plan. This one also designed the bit you hold when you open the door.`,
+
+      cz: `Většina holešovických činžáků má květiny za oknem. Dům v Komunardů 35 je má na fasádě: vysoké trávy prorůstají rezavým ocelovým zábradlím a po stěnách šplhají popínavky. Vypadá trochu jako dům, který pár desetiletí nikdo neudržoval, jenže dokončený byl v roce 2020.
+
+Stojí na rohu ulic Komunardů a Přístavní a zaplňuje mezeru, kterou tu nechala řeka. Do srpna 2002 tu stály dva pětipatrové činžovní domy. Při povodni tehdy Vltava zaplavila Holešovice a domy poškodila natolik, že je museli zbourat. Roh pak léta zůstal prázdný. Nový dům navrhl Stanislav Fiala ze studia FIALA + NĚMEC, projekt pochází z roku 2012 a postavili ho developeři SEBRE a Property Solutions. Výškou drží linii okolních bloků, ale jeho nároží se zvedá o dvě patra nad jejich římsy jako malá věž. Industriální vzhled sedí ke staré přístavní čtvrti: obklad z oceli corten, která má rezivět, a zábradlí balkonů z betonářské výztuže ohnuté do záměrně nepravidelného, „tančícího“ vzoru. Hlavní roli ale hraje zeleň. Trávy na terasách a popínavky na fasádě zalévá centrální závlaha a ve dvoře je malá zahrada. Uvnitř je pohledový beton tvarovaný jako stěny skalní soutěsky a pro kontrast doplněný jasně zelenými stěnami a dveřmi. Pod ulicí jsou tři podzemní podlaží a nad ní sedm: v dolních dvou obchody a kanceláře, nad nimi zhruba čtyřicet bytů a ty největší i se střešními terasami úplně nahoře.
+
+🎁 Bonus: Fiala nezůstal jen u zdí. I kliky na dveřích jsou jeho návrh, řada z masivní mosazi jménem Rocksor, ladící se skalně-betonovým tématem domu. Většina architektů je ráda, když si stavbaři pamatují půdorys. Tenhle navrhl i to, za co člověk chytá, když otevírá dveře.`,
+
+      zh: `霍莱绍维采的大多数公寓楼把植物养在窗台上，而科穆纳尔杜街35号这栋楼把它们养在了外墙上：高高的野草从生锈的钢栏杆缝里钻出来，藤蔓顺着墙往上爬。乍一看，像是一栋荒废了几十年没人管的楼，可它其实是2020年才建成的。
+
+它坐落在科穆纳尔杜街和普日斯塔夫尼街的拐角，填补的是一块被河水冲出来的空缺。2002年8月之前，这里立着两栋五层的公寓楼。那年发大水，伏尔塔瓦河灌进了霍莱绍维采，两栋楼损毁严重，只好拆掉。之后这个街角空了好多年。新楼由FIALA + NĚMEC事务所的建筑师斯坦尼斯拉夫·菲亚拉设计，方案始于2012年，开发商是SEBRE和Property Solutions。它的高度和周围的街区持平，只有转角处高出檐口两层，像一座小塔楼。工业感的外观很配这片老港区：外墙挂的是专门用来生锈的耐候钢板，阳台栏杆则是用建筑钢筋弯成的，故意弯得歪歪扭扭，像在“跳舞”。真正的主角是绿植。露台上的草和外墙上的藤蔓都由一套集中灌溉系统浇水，内院里还有一个小花园。楼里的清水混凝土被塑造成岩石峡谷的样子，再配上亮绿色的墙面和房门做对比。地下有三层，地上七层：下面两层是商铺和办公室，往上是大约四十套公寓，最大的几套连同屋顶露台都在最顶层。
+
+🎁 彩蛋：菲亚拉没有只管墙。连门把手都是他设计的，是一套叫Rocksor的实心黄铜系列，跟整栋楼的岩石加混凝土主题配成一套。大多数建筑师只要施工队别把平面图搞错就谢天谢地了，这位连你开门时握住的那一小块都亲自设计了。`,
+    },
+  },
 ];
 
 async function run() {
