@@ -33023,6 +33023,153 @@ Stojí na rohu ulic Komunardů a Přístavní a zaplňuje mezeru, kterou tu nech
 🎁 彩蛋：菲亚拉没有只管墙。连门把手都是他设计的，是一套叫Rocksor的实心黄铜系列，跟整栋楼的岩石加混凝土主题配成一套。大多数建筑师只要施工队别把平面图搞错就谢天谢地了，这位连你开门时握住的那一小块都亲自设计了。`,
     },
   },
+  {
+    // Added 2026-10-06 at the user's request (coordinates user-supplied;
+    // rarity chosen by Claude, flagged to the user). Sources: cs.wikipedia
+    // "Hostinec Na Staré poště (Běchovice)" (fortress before 1413, gone in
+    // the Hussite Wars leaving a farm court; Baroque inn later Classicist;
+    // two gates in the wall; monument 20339/1-1971), prehis.cz (inn before
+    // 1720; first mention 1739 under Duchess Maria of Savoy; imperial post
+    // station from 1 May 1755, first postmaster Jan Michael Wollanek; 1781
+    // Classicist rebuild; two storeys, mansard roof), egeon.cz (first owner
+    // Prague merchant Johánek Ortlův; ~15 km from the centre, ideal for
+    // changing horses toward Kolín and Kutná Hora), prazskekasny.cz (railway
+    // in the mid-19th century ended the coach traffic; reopened 16 June 2018
+    // after a two-year reconstruction funded mostly by the City of Prague, now
+    // a cultural centre; Karel Burian's four red horses and mist fountain),
+    // en.wikipedia "Běchovice – Prague Race" (first run 27 May 1897).
+    name: 'Na Staré poště Inn (Běchovice)',
+    slug: 'hostinec-na-stare-poste-bechovice',
+    localizedNames: { cz: 'Hostinec Na Staré poště (Běchovice)', zh: '别霍维采老驿站客栈' },
+    labels: ['historical', 'restaurants-and-cafes', 'cultural'],
+    coordinates: { lat: 50.081170085399705, lng: 14.617116549507248 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hostinec_Na_Star%C3%A9_po%C5%A1t%C4%9B_(B%C4%9Bchovice)',
+    description: {
+      en: `For about a hundred years, the mail coach out of Prague made its first real stop here. Not because Běchovice was anything special, but because fifteen kilometres was about as far as the horses wanted to go. The inn has since outlived the horses, the coaches and the post office itself.
+
+The site is older than the inn. Before 1413 a small fortress stood here, and its first known owner was a Prague merchant, Johánek Ortlův. The fortress disappeared in the Hussite Wars, leaving only a farm court behind, and before 1720 an inn had moved into its largest building. It is first mentioned in 1739, when the estate belonged to Duchess Maria of Savoy. Its big moment came on 1 May 1755, when an imperial post station opened here, with Jan Michael Wollanek as the first postmaster. Coaches heading east toward Kolín and Kutná Hora changed horses in the courtyard, and travellers ate and slept while they waited. In 1781 the whole complex was rebuilt in the Classicist style and got the look it still has: a two-storey main building with a mansard roof, farm buildings around a courtyard, and a wall with two gates.
+
+Then, in the middle of the 19th century, the railway arrived, and nobody needed fresh horses any more. The post moved on, the inn carried on as an ordinary pub, and the buildings slowly fell apart for the next century and a half. After a two-year reconstruction paid for mostly by the City of Prague, the complex reopened on 16 June 2018 as a cultural centre with a restaurant. The road outside still gets crowded once a year: the Běchovice–Prague race, first run on 27 May 1897, sets off from Běchovice and runs all the way into the city, which makes it one of the oldest road races in Europe.
+
+🎁 Bonus: The horses came back, in a way. In the courtyard stand four red horse sculptures by Karel Burian, pulling an invisible coach. Step on the button behind the last pair and a mist fountain puffs up along stylised wheel tracks in the paving, like dust kicked up by the hooves. It's the only coach in Prague that departs every time someone presses a button.`,
+
+      cz: `Zhruba sto let tu poštovní dostavník z Prahy poprvé pořádně zastavoval. Ne proto, že by Běchovice byly něčím zvláštní, ale proto, že patnáct kilometrů bylo zhruba tolik, kolik koně chtěli ujít. Hostinec od té doby přežil koně, dostavníky i samotnou poštu.
+
+Místo je starší než hostinec. Před rokem 1413 tu stála malá tvrz a jejím prvním známým majitelem byl pražský kupec Johánek Ortlův. Tvrz zanikla za husitských válek a zbyl po ní jen poplužní dvůr. Ještě před rokem 1720 se do jeho největší budovy nastěhoval hostinec. Poprvé je zmíněn roku 1739, kdy panství patřilo vévodkyni Marii Savojské. Velká chvíle přišla 1. května 1755, kdy tu začala fungovat císařská poštovní stanice a prvním poštmistrem se stal Jan Michael Wollanek. Dostavníky mířící na východ ke Kolínu a Kutné Hoře tu na dvoře přepřahaly koně a cestující mezitím jedli a spali. Roku 1781 byl celý areál přestavěn v klasicistním slohu a dostal podobu, kterou má dodnes: patrovou hlavní budovu s mansardovou střechou, hospodářské stavby kolem dvora a ohradní zeď se dvěma branami.
+
+Pak v polovině 19. století přijela železnice a čerstvé koně už nikdo nepotřeboval. Pošta odešla, hostinec dál fungoval jako obyčejná hospoda a budovy se dalšího půldruhého století pomalu rozpadaly. Po dvouleté rekonstrukci, kterou z větší části zaplatilo hlavní město Praha, byl areál 16. června 2018 znovu otevřen jako kulturní centrum s restaurací. Silnice před ním se dodnes jednou ročně zaplní: závod Běchovice–Praha, poprvé běžený 27. května 1897, startuje v Běchovicích a vede až do města, což z něj dělá jeden z nejstarších silničních běhů v Evropě.
+
+🎁 Bonus: Koně se svým způsobem vrátili. Na dvoře stojí čtyři červené sochy koní od Karla Buriana, které táhnou neviditelný dostavník. Když šlápnete na tlačítko za posledním párem, vyvalí se podél stylizovaných kolejí v dlažbě mlžná fontána, jako prach zvířený kopyty. Je to jediný dostavník v Praze, který odjíždí pokaždé, když někdo zmáčkne tlačítko.`,
+
+      zh: `大约一百年间，从布拉格出发的邮政马车都要在这里第一次正经停靠。不是因为别霍维采有什么特别，而是因为跑了十五公里，马也就差不多不想跑了。如今，这家客栈熬过了马、熬过了马车，连邮局本身也熬过去了。
+
+这块地方比客栈还要老。1413年以前，这里立着一座小型要塞，已知的第一位主人是布拉格商人约汉内克·奥尔特卢夫。要塞在胡斯战争中消失了，只剩下一座农庄。1720年以前，一家客栈搬进了农庄里最大的那栋楼。它最早见于1739年的记载，当时这片庄园属于萨伏依公爵夫人玛丽亚。它的高光时刻是1755年5月1日：一座帝国邮政驿站在这里开张，首任驿站长是扬·米夏埃尔·沃拉内克。往东开向科林和库特纳霍拉的马车在院子里换马，乘客就趁着等待的工夫吃饭、过夜。1781年，整个建筑群按古典主义风格重建，形成了今天的模样：一栋两层、带复折式屋顶的主楼，院子四周是农用建筑，外面一圈围墙，开着两道门。
+
+接着到了19世纪中叶，铁路通了，再也没人需要换马了。驿站撤走，客栈退回成一家普通酒馆，房子在之后的一个半世纪里慢慢破败下去。经过两年的整修（大部分费用由布拉格市政府出），这里在2018年6月16日重新开放，成了一座带餐厅的文化中心。门前那条路每年依然会热闹一回：别霍维采—布拉格长跑始于1897年5月27日，从别霍维采出发一路跑进城里，是欧洲历史最悠久的公路跑比赛之一。
+
+🎁 彩蛋：马某种意义上又回来了。院子里立着卡雷尔·布里安创作的四匹红色骏马雕塑，拉着一辆看不见的马车。踩一下最后一对马身后的按钮，铺地上那两道象征车辙的纹路就会冒起一阵水雾，像马蹄扬起的尘土。这大概是全布拉格唯一一辆有人按按钮就发车的马车。`,
+    },
+  },
+  {
+    // Added 2026-10-06 at the user's request (coordinates user-supplied;
+    // rarity chosen by Claude, flagged to the user). Sources: cs.wikipedia
+    // "Kostel Nanebevzetí Panny Marie (Dolní Počernice)" (Romanesque c.1200
+    // on a wooden predecessor, Poche c.1260 vs Líbal 1160s, sandstone
+    // masonry like St Bartholomew in Kyje; Gothic westward extension and
+    // defensive tower; Matěj Hůlka's brick vaults c.1562; tower raised with
+    // onion dome after Rudolf Colloredo's 1644 purchase; 1887 neo-Romanesque
+    // remodel, interior finished 1904; surviving 11 × 56 cm Romanesque
+    // window; 13th-century paintings found 2004, restored 2010–2014 by
+    // Miroslav Koželuh; 1749 Rococo high altar, 1678 side altars; robberies
+    // 1991 and 1993; cemetery until 1786; St Lawrence and St John of Nepomuk
+    // on the gate; 1734 bell by Zachariáš Ditrich, 180 florins, "from
+    // lightning and storm deliver us"), schnablova.net. NB: a search result
+    // crediting Ludvík Lábler (1897–99) is about the Kladno church of the
+    // same name, not this one.
+    name: 'Church of the Assumption of the Virgin Mary (Dolní Počernice)',
+    slug: 'kostel-nanebevzeti-panny-marie-dolni-pocernice',
+    localizedNames: { cz: 'Kostel Nanebevzetí Panny Marie (Dolní Počernice)', zh: '多尔尼波切尔尼采圣母升天教堂' },
+    labels: ['church', 'historical', 'hidden-gem'],
+    coordinates: { lat: 50.088458420475334, lng: 14.58003099010454 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_Nanebevzet%C3%AD_Panny_Marie_(Doln%C3%AD_Po%C4%8Dernice)',
+    description: {
+      en: `From the outside, this looks like a neat 19th-century village church. That's a disguise. Under the 1887 makeover sits a Romanesque church from around 1200, and until 2004 nobody realised it had been hiding a whole set of medieval paintings behind its plaster.
+
+The stone church replaced an earlier wooden one, though historians still argue about exactly when: estimates run from the 1160s to around 1260. Its sandstone masonry looks so much like the church of St. Bartholomew in nearby Kyje that the same builders probably worked on both. Every age after that added something. In the Gothic period the nave was extended westwards and a massive tower went up in its northwest corner, strong enough to take over part of the defensive job of the manor house next door. Around 1562 the new owner, Matěj Hůlka, had the nave vaulted in brick. After Rudolf Colloredo bought the estate in 1644, the tower was raised and topped with a Baroque onion dome. Then came 1887, when a neo-Romanesque renovation covered up almost everything older, with the interior finished in 1904. For a long time the only visible piece of the original church was a tiny window in the east wall of the presbytery, just 11 centimetres wide and 56 tall.
+
+In 2004, wall paintings from the 13th century turned up under later layers. They show Christ enthroned between angels, the Annunciation to the Shepherds, the Visitation, the Nativity, the Entry into Jerusalem and the Crucifixion, and they were restored between 2010 and 2014 by Miroslav Koželuh. The furnishings are mostly Baroque: a Rococo high altar from 1749, side altars from 1678 and a pulpit carved with the four Evangelists. Thieves broke in twice, in 1991 and 1993, and took liturgical objects. The churchyard served as the village cemetery until 1786, and its gate is still guarded by two Baroque saints: St. Lawrence, holding the gridiron he was martyred on, and St. John of Nepomuk.
+
+🎁 Bonus: The oldest bell in the tower was cast in 1734 by the Prague bellfounder Zachariáš Ditrich, for 180 florins. Its Latin inscription makes a very reasonable request for something hanging at the top of the tallest structure in the village: "From lightning and storm deliver us, Lord Jesus Christ."`,
+
+      cz: `Zvenku vypadá jako úhledný vesnický kostel z 19. století. To je ale převlek. Pod úpravou z roku 1887 se skrývá románský kostel z doby kolem roku 1200 a až do roku 2004 nikdo netušil, že má pod omítkou schovanou celou sadu středověkých maleb.
+
+Kamenný kostel nahradil starší dřevěný, i když historici se dodnes přou, kdy přesně: odhady sahají od 60. let 12. století až ke zhruba roku 1260. Jeho pískovcové zdivo se tolik podobá kostelu sv. Bartoloměje v nedalekých Kyjích, že na obou nejspíš pracovala stejná huť. Každá další doba pak něco přidala. V gotice byla loď prodloužena na západ a v jejím severozápadním rohu vyrostla mohutná věž, dost silná na to, aby převzala část obranné úlohy sousední tvrze. Kolem roku 1562 nechal nový majitel Matěj Hůlka loď zaklenout cihlovými klenbami. Poté, co roku 1644 panství koupil Rudolf Colloredo, byla věž zvýšena a dostala barokní cibulovou báň. Pak přišel rok 1887 a novorománská přestavba zakryla téměř vše starší; interiér byl dokončen roku 1904. Dlouho bylo jediným viditelným kouskem původního kostela drobné okénko ve východní zdi presbytáře, široké jen 11 a vysoké 56 centimetrů.
+
+V roce 2004 se pod pozdějšími vrstvami objevily nástěnné malby ze 13. století. Zobrazují Krista na trůnu mezi anděly, Zvěstování pastýřům, Navštívení Panny Marie, Narození Páně, Vjezd do Jeruzaléma a Ukřižování a v letech 2010–2014 je restauroval Miroslav Koželuh. Vybavení je převážně barokní: rokokový hlavní oltář z roku 1749, boční oltáře z roku 1678 a kazatelna s vyřezanými čtyřmi evangelisty. Zloději se sem vloupali dvakrát, v letech 1991 a 1993, a odnesli liturgické předměty. Hřbitov kolem kostela sloužil vsi do roku 1786 a jeho bránu dodnes hlídají dva barokní světci: sv. Vavřinec s roštem, na kterém byl umučen, a sv. Jan Nepomucký.
+
+🎁 Bonus: Nejstarší zvon ve věži ulil roku 1734 pražský zvonař Zachariáš Ditrich za 180 zlatých. Jeho latinský nápis vznáší velmi rozumnou prosbu na něco, co visí na vrcholu nejvyšší stavby ve vsi: „Od blesku a bouře vysvoboď nás, Pane Ježíši Kriste.“`,
+
+      zh: `从外面看，这是一座整整齐齐的19世纪乡村教堂。但这是伪装。1887年那次翻修的外壳底下，藏着一座大约建于1200年的罗马式教堂，而且直到2004年，都没人知道它的灰泥后面还藏着一整套中世纪壁画。
+
+这座石头教堂取代了更早的一座木教堂，不过具体是哪一年，史学家至今还在争：说法从12世纪60年代一直到1260年前后都有。它的砂岩墙体跟附近基耶村的圣巴多罗买教堂像得出奇，两座教堂多半出自同一批工匠之手。此后每个时代都要往上添点东西。哥特时期，中殿向西加长，西北角立起一座敦实的塔楼，结实到能分担一部分隔壁庄园的防御任务。1562年前后，新主人马捷伊·胡尔卡给中殿砌上了砖拱顶。1644年鲁道夫·科洛雷多买下庄园后，塔楼被加高，顶上安了一个巴洛克式洋葱头。然后就到了1887年，一次新罗马式翻修把几乎所有老东西都盖住了，内部装修到1904年才完工。很长一段时间里，原始教堂唯一露在外面的部分，是圣坛东墙上一扇小窗，宽只有11厘米，高56厘米。
+
+2004年，后来的墙层底下露出了13世纪的壁画，画的是宝座上的基督与天使、天使向牧羊人报喜、圣母往见、耶稣诞生、进入耶路撒冷和耶稣受难。2010至2014年间，修复师米罗斯拉夫·科热卢赫把它们修复了出来。教堂里的陈设大多是巴洛克风格：1749年的洛可可式主祭坛，1678年的侧祭坛，还有一座雕着四位福音书作者的讲坛。1991年和1993年小偷两度光顾，偷走了礼仪用品。教堂周围的墓地一直用到1786年，墓园大门上至今守着两尊巴洛克圣像：手持烤架（他殉道的刑具）的圣劳伦斯，和圣约翰·内波穆克。
+
+🎁 彩蛋：塔楼里最老的那口钟，是布拉格铸钟匠扎哈里亚什·迪特里希在1734年铸的，花了180弗罗林。钟上的拉丁文铭文写着：“主耶稣基督，救我们脱离雷电与风暴。”对一个挂在全村最高建筑顶上的东西来说，这个愿望再合理不过了。`,
+    },
+  },
+  {
+    // Added 2026-10-06 at the user's request (coordinates user-supplied;
+    // rarity chosen by Claude, flagged to the user). Sources: seznamzpravy.cz
+    // (Vinice area of Dolní Počernice, west of the ring road, municipal land;
+    // phase 1 over 10 ha, phase 2 ~5 ha currently a deposit for sludge from
+    // Prague's ponds, to become pasture; 2 m fence, hay barn, watering place,
+    // shelter, keeper base, pool; two viewing platforms NE and NW; zoo has
+    // kept bison since 1948, bred since 1954, ~100 calves; blues and
+    // fritillaries expected, monitored by the Academy of Sciences),
+    // seznamzpravy.cz (cost about 15.91 million CZK), cnn.iprima.cz,
+    // 22 May 2026 (herd moved from Troja the previous October, i.e. 2025, to
+    // restore the forest-steppe by grazing; bull Oskar, cows Omega, Onelina,
+    // Grebelle; Grebelle's first calf, a female, born mid-May 2026, kept
+    // apart from the herd and defended even against passing birds).
+    name: 'European Bison Enclosure (Dolní Počernice)',
+    slug: 'vybeh-pro-zubry-dolni-pocernice',
+    localizedNames: { cz: 'Výběh pro zubry (Dolní Počernice)', zh: '多尔尼波切尔尼采欧洲野牛围场' },
+    labels: ['nature', 'park', 'hidden-gem'],
+    coordinates: { lat: 50.08836120038888, lng: 14.594090475005018 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/European_bison',
+    description: {
+      en: `Prague's eastern edge has fields, a ring road, a few housing estates and, since October 2025, a herd of European bison. They aren't really a zoo exhibit. They're employees, hired by Prague Zoo for one job: eating. They take it very seriously.
+
+Prague Zoo has kept European bison since 1948 and bred them since 1954, with around a hundred calves born in Troja over the years. This enclosure gives part of the herd something the zoo can't: real land to work on. It covers more than ten hectares of city-owned ground in an area called Vinice, west of the ring road, a patchwork of dry grassland and scrub that was slowly turning into thicket. Bison graze, browse and trample, and in doing so they keep the bushes down and the ground open, which is exactly what a forest-steppe needs to survive. The hope is that rare butterflies such as blues and fritillaries will move back in, and researchers from the Czech Academy of Sciences are keeping track of what changes. The whole set-up cost about 15.9 million crowns: a two-metre fence, a hay barn, a watering place, a shelter, a small pool and a base for the keepers. A second phase is meant to add about five more hectares of pasture, on land that for now is used to store sludge dredged out of Prague's ponds.
+
+Visitors can't go in, but two viewing platforms on the northeast and northwest sides look over the fence. The founding herd is a bull called Oskar and three cows, Omega, Onelina and Grebelle. In mid-May 2026 Grebelle gave birth to her first calf, a female and the first bison born here. Her keepers say she guards it so carefully that she keeps it away from the rest of the herd and even chases off passing birds.
+
+🎁 Bonus: A century ago this would have been unthinkable. The last wild European bison was shot in Poland's Białowieża Forest in 1919, and the species survived only in zoos and private parks. Every European bison alive today descends from just twelve of those animals. So the herd grazing on the edge of Prague isn't just a nice day out. It's part of how a species that died out in the wild came back.`,
+
+      cz: `Východní okraj Prahy má pole, okruh, pár sídlišť a od října 2025 také stádo zubrů. Nejsou to tak úplně zvířata na odiv. Jsou to zaměstnanci, které pražská zoo najala na jedinou práci: žrát. A berou ji velmi vážně.
+
+Pražská zoo chová zubry od roku 1948 a od roku 1954 je i odchovává; v Troji se jich za ta léta narodilo kolem stovky. Tenhle výběh dává části stáda něco, co zoo dát nemůže: skutečnou půdu, na které mají co dělat. Zabírá přes deset hektarů městských pozemků v lokalitě Vinice, západně od okruhu, mozaiku suchých trávníků a křovin, která pomalu zarůstala houštím. Zubři spásají, okusují a dupou, a tím drží keře na uzdě a půdu otevřenou, což je přesně to, co lesostep potřebuje, aby přežila. Doufá se, že se sem vrátí vzácní motýli, jako jsou modrásci a hnědásci, a vědci z Akademie věd sledují, co se mění. Celé zařízení stálo zhruba 15,9 milionu korun: dvoumetrový plot, seník, napajedlo, přístřešek, malá tůň a zázemí pro chovatele. Druhá etapa má přidat asi pět hektarů pastvin na pozemcích, které zatím slouží k ukládání sedimentů vytěžených z pražských rybníků.
+
+Dovnitř se nesmí, ale přes plot je vidět ze dvou vyhlídkových plošin na severovýchodní a severozápadní straně. Zakládající stádo tvoří býk Oskar a tři krávy, Omega, Onelina a Grebelle. V polovině května 2026 se Grebelle narodilo první mládě, samička a vůbec první zubr narozený tady. Podle chovatelů ho hlídá tak svědomitě, že ho drží stranou od zbytku stáda a odhání od něj i kolem letící ptáky.
+
+🎁 Bonus: Před sto lety by tohle bylo nemyslitelné. Poslední divoký zubr byl zastřelen v polském Bělověžském pralese v roce 1919 a druh přežil jen v zoologických zahradách a soukromých oborách. Všichni dnes žijící zubři pocházejí z pouhých dvanácti těchto zvířat. Stádo, které se pase na okraji Prahy, tak není jen pěkný výlet. Je to kousek příběhu, jak se druh vyhubený ve volné přírodě vrátil zpátky.`,
+
+      zh: `布拉格东郊有农田、有环城公路、有几片住宅区，从2025年10月起，还多了一群欧洲野牛。它们其实不算动物园的展品，而是员工，是布拉格动物园雇来干一件事的：吃。它们对这份工作相当敬业。
+
+布拉格动物园从1948年起饲养欧洲野牛，1954年开始繁育，这些年在特罗亚园区里出生的小牛大约有一百头。这片围场给了牛群一样动物园给不了的东西：一块真正需要它们干活的地。围场占地十多公顷，是市政府在环城公路以西一个叫“葡萄园”的地方的土地，干草地和灌木丛东一块西一块，正在慢慢长成密林。野牛又啃草、又啃枝、又到处踩，就这样把灌木压下去，让地面保持开阔，而这正是森林草原赖以存活的条件。人们希望灰蝶、网蛱蝶这类稀有蝴蝶能搬回来，捷克科学院的研究人员也在持续记录这里的变化。整套设施花了约1590万克朗：两米高的围栏、干草棚、饮水点、遮蔽棚、一个小水塘，还有饲养员的工作站。二期计划再添大约五公顷牧场，那块地目前还用来堆放从布拉格各处池塘里清出来的淤泥。
+
+游客不能进去，但围场东北和西北两侧各有一座观景平台，可以隔着围栏看。初代牛群是一头叫奥斯卡的公牛和三头母牛：欧米伽、奥内利娜和格蕾贝尔。2026年5月中旬，格蕾贝尔生下了她的第一头小牛，是头小母牛，也是这里出生的第一头野牛。据饲养员说，她护崽护得极其上心，不让小牛靠近其他牛，连路过的鸟都要赶走。
+
+🎁 彩蛋：放在一百年前，这简直不可想象。最后一头野生欧洲野牛于1919年在波兰的比亚沃维耶扎森林被射杀，这个物种只在动物园和私人猎苑里活了下来。今天世上所有的欧洲野牛，都是当年其中区区十二头的后代。所以在布拉格边上吃草的这群牛，可不只是周末遛弯的好去处，它们是一个在野外灭绝过的物种重新回来的故事的一部分。`,
+    },
+  },
 ];
 
 async function run() {
