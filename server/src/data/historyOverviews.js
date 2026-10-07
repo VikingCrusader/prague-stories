@@ -98,4 +98,22 @@ export const historyOverviews = [
       zh: "查理四世给儿子留下了两顶王冠，外加一个同时有两位教皇的教会。这个儿子比起拿主意，更喜欢去打猎。很快，布拉格伯利恒礼拜堂里的一位布道者开始用捷克语说：赦罪不该拿来卖钱。布拉格用自己的方式接过了他的主张：市议员们被扔出了窗外。接着，赶着自家大车、拿着最早一批手铳的农民，在一位从未输过一仗的独眼将军带领下，一次又一次挡住了十字军。这场为一杯圣餐葡萄酒打响的战争，比挑起它的几乎所有人都活得更久。而最终打垮胡斯派大军的，是一个谁也没料到的对手。",
     },
   },
+  {
+    slug: "era-guide-lone-king",
+    era: "lone-king",
+    cardType: "overview",
+    startYear: 1437,
+    tone: "humorous",
+    year: { en: "1437–1471", cz: "1437–1471", zh: "1437年－1471年" },
+    title: {
+      en: "Not Born to Be King",
+      cz: "Králem se nenarodil",
+      zh: "生来不是王",
+    },
+    summary: {
+      en: "The Habsburg the Czechs elect in 1437 lasts less than two years, and dies of dysentery on campaign against the Turks before he has had time to make enemies in Prague. His son is born four months after his father's death, which gives him a claim to two kingdoms and a Habsburg guardian with no intention of handing him over. So Bohemia spends the 1440s with no king at all, run by regional leagues of lords who meet, argue and now and then besiege one another. One of them is a young lord from Poděbrady who fought at Lipany at fourteen, on the side that won. He has no royal blood, an Utraquist's faith and a knack for getting into Prague at night. The pope he will eventually have to deal with is an old acquaintance: Aeneas Silvius Piccolomini, the man who wrote Sigismund's epitaph, who has his own views about the chalice.",
+      cz: "Habsburk, kterého Češi v roce 1437 zvolí, vydrží na trůnu necelé dva roky a umře na úplavici na tažení proti Turkům dřív, než si v Praze stihne udělat nepřátele. Jeho syn se narodí čtyři měsíce po otcově smrti, a tak má nárok na dvě království a habsburského poručníka, který ho nehodlá nikomu vydat. Čechy proto prožijí čtyřicátá léta úplně bez krále. Spravují je krajské landfrídy pánů, kteří se scházejí, hádají a tu a tam se navzájem obléhají. Jedním z nich je mladý pán z Poděbrad, který ve čtrnácti bojoval u Lipan, na straně, která vyhrála. Královskou krev nemá, je kališník a má talent dostat se do Prahy potmě. Papež, se kterým bude jednou muset jednat, je starý známý: Enea Silvio Piccolomini, autor Zikmundova epitafu, který má o kalichu své vlastní mínění.",
+      zh: "捷克人在1437年选出的那位哈布斯堡国王，只坐了不到两年，还没来得及在布拉格结下什么仇，就在征讨土耳其人的路上死于痢疾。他的儿子在父亲死后四个月才出生，一落地就有了两个王国的继承权，外加一位哈布斯堡亲戚当监护人，而这位亲戚压根没打算把孩子交出来。于是整个15世纪40年代，波希米亚干脆没有国王，各地由贵族结成的地区同盟管着，大家开会、吵架，偶尔互相围城。其中有一位来自波杰布拉迪的年轻贵族，十四岁就上过利帕尼战场，站的是赢的那一边。他没有王室血统，信的是圣杯派，还特别擅长趁夜摸进布拉格。日后要跟他打交道的那位教皇，是我们的老熟人：埃涅阿斯·西尔维乌斯·皮科洛米尼，当年给西吉斯蒙德写盖棺之论的那位，而他对圣杯自有一番看法。",
+    },
+  },
 ];

@@ -370,7 +370,7 @@ export const HISTORY_ERAS = [
     key: 'lone-king',
     order: 6,
     themeClass: 'era-lone-king',
-    hasContent: false,
+    hasContent: true,
     title: {
       en: 'The Lone King',
       cz: 'Osamělý král',

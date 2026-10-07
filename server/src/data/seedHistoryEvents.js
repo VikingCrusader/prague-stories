@@ -19568,9 +19568,9 @@ export const historyEvents = [
       zh: "扬·罗哈奇从一开始就跟着杰式卡打仗。战争结束的时候，他是最后一个还在打的胡斯派指挥官。",
     },
     summary: {
-      en: "The royal army reached Sion early in May 1437, shortly after Roháč's men had ambushed a convoy from Hungary and relieved the king of a good many oxen and barrels of wine. Its commander was the court steward Hynce Ptáček of Pirkštejn, and one chronicle says that Roháč was his uncle. The garrison was a few dozen men, reinforced by refugees from Hradec Králové. The chroniclers describe a long and bitter siege. The archaeologists who excavated Sion in the 1960s found something rather different: about a hundred stone balls, no breach in the walls and no mines, and signs that the garrison had gone on fetching water from the stream below all summer. Ptáček seems to have been in no hurry.\n\nThe hurry came from Hungary. At the beginning of September the king's Hungarian reinforcements arrived, and on 6 September 1437 the castle was stormed. Aeneas Silvius Piccolomini, who wrote up the story a few years later, says the attackers waited for a wind that would blow their gun smoke into the castle, and that Roháč was at his midday meal when they came over the rampart:\n\n[[quote:0]]\n\nRoháč was taken to Prague. Sigismund, it is said, had him brought up to the castle so that he could mock him, and Roháč shouted that he would rather have his eyes put out than look at the king. He was tortured in the Old Town Hall. On Monday 9 September 1437 he was hanged together with the other defenders of Sion. He was led to the gallows in a red robe with a gilded belt and gilded chains, and his five chief companions were dressed in red as well; the rest went in rusty irons. The gallows itself was built from church timber. A century later the chronicler Václav Hájek of Libočany described it:\n\n[[quote:1]]\n\nProstředek means \"middle\" in Czech, and Hájek, never one to let a story go to waste, could not resist the pun.\n\nA war that had begun with [[link:the-first-defenestration-1419]]seven councillors[[/link]] thrown from a New Town window ended, eighteen years later, with a Hussite captain on a gallows built from church timber. [[b]]The field armies had lost, the moderates had made their peace, and the chalice had outlived them all.[[/b]] The idealists had done most of the dying and the realists had written the treaty, but the Czechs came out of it holding the one thing the whole of Catholic Europe had tried to take from them.",
-      cz: "Královské vojsko dorazilo k Sionu začátkem května 1437, krátce poté, co Roháčovi muži přepadli konvoj z Uher a ulehčili králi o spoustu volů a sudů vína. Velel mu dvorský hofmistr Hynce Ptáček z Pirkštejna a podle jednoho letopisu byl Roháč jeho strýcem. Posádku tvořilo několik desítek mužů, posílených o uprchlíky z Hradce Králové. Kronikáři líčí dlouhé a tvrdé obléhání. Archeologové, kteří Sion v šedesátých letech zkoumali, našli něco dost jiného: asi sto kamenných koulí, žádný průlom hradeb ani podkopy a stopy toho, že posádka celé léto chodila pro vodu k potoku pod hradem. Ptáček zřejmě nikam nespěchal.\n\nSpěch přišel z Uher. Začátkem září dorazily královy uherské posily a 6. září 1437 byl hrad dobyt útokem. Enea Silvio Piccolomini, který příběh o několik let později sepsal, píše, že útočníci čekali na vítr, který by jim zanesl dým z děl do hradu, a že Roháč právě obědval, když se přes val vyhoupli:\n\n[[quote:0]]\n\nRoháče odvezli do Prahy. Zikmund si ho prý nechal přivést na hrad, aby se mu vysmál, a Roháč křičel, že by si raději nechal vypíchnout oči, než aby se na krále díval. Na Staroměstské radnici ho mučili. V pondělí 9. září 1437 byl oběšen spolu s ostatními obránci Sionu. K šibenici ho vedli v červeném rouchu s pozlaceným pásem a v pozlacených poutech a do červeného oblékli i pět jeho nejpřednějších druhů; ostatní šli v rezavých okovech. Šibenice sama byla postavena z kostelního dříví. O století později ji kronikář Václav Hájek z Libočan popsal takto:\n\n[[quote:1]]\n\nHájek, který si nikdy nenechal ujít dobrý příběh, tu slovní hříčku s Prostředkem uprostřed prostě musel použít.\n\nVálka, která začala [[link:the-first-defenestration-1419]]sedmi konšely[[/link]] vyhozenými z okna novoměstské radnice, skončila o osmnáct let později husitským hejtmanem na šibenici z kostelního dřeva. [[b]]Polní vojska prohrála, umírnění uzavřeli mír a kalich je přežil všechny.[[/b]] Idealisté většinou umírali a realisté psali smlouvy, ale Čechové z toho všeho vyšli s tím jediným, co jim celá katolická Evropa chtěla vzít.",
-      zh: "1437年5月初，王室军队开到了锡永城下，就在不久前，罗哈奇的人刚截下一支从匈牙利来的车队，替国王“笑纳”了一大批牛和成桶的葡萄酒。领兵的是宫廷总管皮尔克什泰因的欣采·普塔切克，据一部编年史记载，罗哈奇还是他的舅舅。城里的守军只有几十个人，外加从赫拉德茨-克拉洛韦逃来的一些人。编年史家笔下，这是一场漫长而艰苦的围城。可是20世纪60年代发掘锡永的考古学家发现的却是另一回事：城里大约只有一百枚石弹，城墙没有被轰开，也没有挖过地道，而且种种迹象表明，守军整个夏天都照常下山到小溪边打水。普塔切克看来一点也不着急。\n\n着急的是匈牙利人。9月初，国王的匈牙利援军赶到，1437年9月6日，城堡被攻破了。几年后把这段故事写下来的埃涅阿斯·西尔维乌斯·皮科洛米尼说，进攻者专门等了一阵风，好把炮火的硝烟吹进城里；他们翻过土墙时，罗哈奇正在吃午饭：\n\n[[quote:0]]\n\n罗哈奇被押到了布拉格。据说西吉斯蒙德特意让人把他带到城堡，好当面羞辱他，罗哈奇却大喊：宁可让人挖掉双眼，也不愿看国王一眼。他在老城市政厅里受了酷刑。1437年9月9日星期一，他和锡永的其他守军一起被绞死。上绞架时，他被穿上一身红袍，系着镀金腰带，戴着镀金镣铐；他手下五名主要的伙伴也都穿上了红衣，其余的人戴着生锈的铁镣。就连绞架本身，用的也是教堂的木料。一百年后，编年史家哈耶克·兹·利博昌这样描述它：\n\n[[quote:1]]\n\n“普罗斯特热德克”在捷克语里正是“中间”的意思。哈耶克向来不肯放过一个好故事，这个双关他显然是忍不住的。\n\n一场以[[link:the-first-defenestration-1419]]七名议员[[/link]]被扔出新城市政厅窗外开场的战争，十八年后，以一位胡斯派指挥官吊死在教堂木料搭成的绞架上收场。[[b]]野战军输了，温和派讲和了，而圣杯比他们所有人都活得更久。[[/b]]死去的大多是理想主义者，写条约的是现实主义者，可捷克人最终还是守住了整个天主教欧洲都想从他们手里夺走的那样东西。",
+      en: "The royal army reached Sion early in May 1437, shortly after Roháč's men had ambushed a convoy from Hungary and relieved the king of a good many oxen and barrels of wine. Its commander was the court steward Hynce Ptáček of Pirkštejn, and one chronicle says that Roháč was his uncle. The garrison was a few dozen men, reinforced by refugees from Hradec Králové. The chroniclers describe a long and bitter siege. The archaeologists who excavated Sion in the 1960s found something rather different: about a hundred stone balls, no breach in the walls and no mines, and signs that the garrison had gone on fetching water from the stream below all summer. Ptáček seems to have been in no hurry.\n\nThe hurry came from Hungary. At the beginning of September the king's Hungarian reinforcements arrived, and on 6 September 1437 the castle was stormed. Aeneas Silvius Piccolomini, who wrote up the story a few years later, says the attackers waited for a wind that would blow their gun smoke into the castle, and that Roháč was at his midday meal when they came over the rampart:\n\n[[quote:0]]\n\nRoháč was taken to Prague. Sigismund, it is said, had him brought up to the castle so that he could mock him, and Roháč shouted that he would rather have his eyes put out than look at the king. He was tortured in the Old Town Hall. On Monday 9 September 1437 he was hanged together with the other defenders of Sion. He was led to the gallows in a red robe with a gilded belt and gilded chains, and his five chief companions were dressed in red as well; the rest went in rusty irons. The gallows itself was built from church timber. A century later the chronicler Václav Hájek of Libočany described it:\n\n[[quote:1]]\n\nProstředek means \"middle\" in Czech, and Hájek, never one to let a story go to waste, could not resist the pun.\n\nA war that had begun with [[link:the-first-defenestration-1419]]seven councillors[[/link]] thrown from a New Town window ended, eighteen years later, with a Hussite captain on a gallows built from church timber. Tábor had lost, and the moderates had made their peace with the emperor.\n\nStill, look at the result. A movement the Church had condemned as heresy beat five crusades in a row, then sat down with a council of that same Church and came away with a signed agreement. No heresy had ever managed that before. A century later Martin Luther read Hus and wrote to a friend, in some shock, that they had all been Hussites without knowing it. And the Czechs never stopped telling the story: when the nineteenth-century revivalists went looking for proof that a small nation could stand up to the whole of Europe, this is where they looked, and the biggest equestrian statue in Prague is still a one-eyed old man on Vítkov hill. [[b]]The idealists had done most of the dying and the realists had written the treaty, but the chalice outlived them all.[[/b]]",
+      cz: "Královské vojsko dorazilo k Sionu začátkem května 1437, krátce poté, co Roháčovi muži přepadli konvoj z Uher a ulehčili králi o spoustu volů a sudů vína. Velel mu dvorský hofmistr Hynce Ptáček z Pirkštejna a podle jednoho letopisu byl Roháč jeho strýcem. Posádku tvořilo několik desítek mužů, posílených o uprchlíky z Hradce Králové. Kronikáři líčí dlouhé a tvrdé obléhání. Archeologové, kteří Sion v šedesátých letech zkoumali, našli něco dost jiného: asi sto kamenných koulí, žádný průlom hradeb ani podkopy a stopy toho, že posádka celé léto chodila pro vodu k potoku pod hradem. Ptáček zřejmě nikam nespěchal.\n\nSpěch přišel z Uher. Začátkem září dorazily královy uherské posily a 6. září 1437 byl hrad dobyt útokem. Enea Silvio Piccolomini, který příběh o několik let později sepsal, píše, že útočníci čekali na vítr, který by jim zanesl dým z děl do hradu, a že Roháč právě obědval, když se přes val vyhoupli:\n\n[[quote:0]]\n\nRoháče odvezli do Prahy. Zikmund si ho prý nechal přivést na hrad, aby se mu vysmál, a Roháč křičel, že by si raději nechal vypíchnout oči, než aby se na krále díval. Na Staroměstské radnici ho mučili. V pondělí 9. září 1437 byl oběšen spolu s ostatními obránci Sionu. K šibenici ho vedli v červeném rouchu s pozlaceným pásem a v pozlacených poutech a do červeného oblékli i pět jeho nejpřednějších druhů; ostatní šli v rezavých okovech. Šibenice sama byla postavena z kostelního dříví. O století později ji kronikář Václav Hájek z Libočan popsal takto:\n\n[[quote:1]]\n\nHájek, který si nikdy nenechal ujít dobrý příběh, tu slovní hříčku s Prostředkem uprostřed prostě musel použít.\n\nVálka, která začala [[link:the-first-defenestration-1419]]sedmi konšely[[/link]] vyhozenými z okna novoměstské radnice, skončila o osmnáct let později husitským hejtmanem na šibenici z kostelního dřeva. Tábor prohrál a umírnění se s císařem smířili.\n\nJenže stačí se podívat na výsledek. Hnutí, které církev odsoudila jako kacířství, porazilo pět křížových výprav po sobě, pak zasedlo k jednacímu stolu s koncilem téže církve a odneslo si podepsanou dohodu. To se žádnému kacířství předtím nepodařilo. O sto let později četl Husa Martin Luther a dost otřeseně napsal příteli, že všichni byli husity, aniž o tom věděli. A Češi ten příběh nikdy nepřestali vyprávět: když obrozenci v 19. století hledali důkaz, že malý národ dokáže vzdorovat celé Evropě, hledali ho právě tady, a největší jezdecká socha v Praze je dodnes jednooký stařec na Vítkově. [[b]]Idealisté většinou umírali a realisté psali smlouvy, ale kalich je přežil všechny.[[/b]]",
+      zh: "1437年5月初，王室军队开到了锡永城下，就在不久前，罗哈奇的人刚截下一支从匈牙利来的车队，替国王“笑纳”了一大批牛和成桶的葡萄酒。领兵的是宫廷总管皮尔克什泰因的欣采·普塔切克，据一部编年史记载，罗哈奇还是他的舅舅。城里的守军只有几十个人，外加从赫拉德茨-克拉洛韦逃来的一些人。编年史家笔下，这是一场漫长而艰苦的围城。可是20世纪60年代发掘锡永的考古学家发现的却是另一回事：城里大约只有一百枚石弹，城墙没有被轰开，也没有挖过地道，而且种种迹象表明，守军整个夏天都照常下山到小溪边打水。普塔切克看来一点也不着急。\n\n着急的是匈牙利人。9月初，国王的匈牙利援军赶到，1437年9月6日，城堡被攻破了。几年后把这段故事写下来的埃涅阿斯·西尔维乌斯·皮科洛米尼说，进攻者专门等了一阵风，好把炮火的硝烟吹进城里；他们翻过土墙时，罗哈奇正在吃午饭：\n\n[[quote:0]]\n\n罗哈奇被押到了布拉格。据说西吉斯蒙德特意让人把他带到城堡，好当面羞辱他，罗哈奇却大喊：宁可让人挖掉双眼，也不愿看国王一眼。他在老城市政厅里受了酷刑。1437年9月9日星期一，他和锡永的其他守军一起被绞死。上绞架时，他被穿上一身红袍，系着镀金腰带，戴着镀金镣铐；他手下五名主要的伙伴也都穿上了红衣，其余的人戴着生锈的铁镣。就连绞架本身，用的也是教堂的木料。一百年后，编年史家哈耶克·兹·利博昌这样描述它：\n\n[[quote:1]]\n\n“普罗斯特热德克”在捷克语里正是“中间”的意思。哈耶克向来不肯放过一个好故事，这个双关他显然是忍不住的。\n\n一场以[[link:the-first-defenestration-1419]]七名议员[[/link]]被扔出新城市政厅窗外开场的战争，十八年后，以一位胡斯派指挥官吊死在教堂木料搭成的绞架上收场。塔博尔输了，温和派也和皇帝讲了和。\n\n可是回头看看结果：一个被教会定为异端的运动，接连打赢了五次十字军，然后跟同一个教会的公会议坐到谈判桌前，拿回了一纸白纸黑字的协议。在此之前，还没有哪个异端做到过。一百年后，马丁·路德读了胡斯的书，颇受震动地写信告诉朋友：原来大家早就都是胡斯派了，只是自己不知道。捷克人也从没忘了这段往事。19世纪的民族复兴者想证明一个小民族也能跟整个欧洲叫板，找的就是这段历史；直到今天，布拉格最大的骑马雕像，还是维特科夫山上那位独眼老人。[[b]]死去的大多是理想主义者，写条约的是现实主义者，可圣杯比他们所有人都活得更久。[[/b]]",
     },
     quotes: [
       {
@@ -19684,9 +19684,9 @@ export const historyEvents = [
       zh: "西吉斯蒙德为了波希米亚的王位等了十六年，结果只坐了一年，而这一年的大半时间，他都在把自己许下的诺言一条条拆掉。",
     },
     summary: {
-      en: "Roháč had been the last man in Bohemia still fighting Sigismund. With him gone, the emperor had no armed enemies left in the kingdom; his troubles now came from the people who had made him king.\n\nSigismund kept to the letter of the Compacts about as far as he had to. The real head of the Church in Bohemia was now Philibert of Coutances, the council's legate and the only bishop in the country whom Rome recognised. He ordained the priests and ran the Church's affairs, while Catholic clergy came back into the parishes. The archbishop the Czechs had elected was never confirmed. Instead Rokycana lost his parish at the Týn church, and in June 1437, fearing for his life, he slipped out of Prague and took refuge in Hradec Králové. He would not be back for more than a decade. The promise Sigismund had sealed [[link:what-did-the-compacts-grant-1436]]for ever[[/link]] had lasted about a year. Among the moderate Utraquists who had made him king, the grumbling grew louder by the month.\n\nBy the autumn the emperor was sixty-nine, ill, and tormented by burning pains all over his body. He no longer trusted Prague, and he no longer trusted his wife. On 11 November 1437 he left the city, by one account so as not to die in Bohemia. Some saw him off with sorrow; others were glad and said he should never come back. The city's prostitutes, a chronicler noted, followed the emperor out under their own banner, not daring to stay behind. He made for Znojmo in Moravia, on the road to Hungary. He had no son, and his only child was a daughter, Elizabeth, so with him rode her husband and his chosen heir, Albert of Habsburg. There Queen Barbara, accused of plotting with Bohemian lords to keep the crown out of Albert's hands, was arrested by Albert and the Hungarian lords. On 9 December 1437, at eight in the evening, Sigismund died in Znojmo castle, having put on a monk's habit at the end, as Charlemagne was said to have done. He was buried at Nagyvárad in Hungary, beside the saint-king Ladislaus, and with him the Luxembourg line that had begun with [[link:dawn-of-the-luxembourgs-1310]]John the Blind[[/link]] came to an end.\n\nThe future Pope Pius II, [[link:undefeated-until-the-plague-1424]]Aeneas Silvius Piccolomini[[/link]], left him a short epitaph:\n\n[[quote:0]]\n\n[[b]]He had spent sixteen years winning the Bohemian crown and one year wearing it.[[/b]] Just after Christmas, on 27 December 1437, the lords, the gentry and the Praguers elected Albert king. Not everyone wanted a Habsburg, though. Some of the Utraquist lords already had another candidate in mind, and he lived in Kraków.",
-      cz: "Roháč byl posledním člověkem v Čechách, který se Zikmundem ještě bojoval. Když byl pryč, neměl už císař v království žádného ozbrojeného nepřítele; potíže mu teď dělali ti, kdo ho udělali králem.\n\nKompaktáta Zikmund dodržoval doslova jen tak daleko, jak musel. Skutečnou hlavou církve v Čechách byl teď Filibert z Coutances, legát koncilu a jediný biskup v zemi, kterého Řím uznával. Světil kněze a řídil církevní záležitosti a do far se vraceli katoličtí duchovní. Arcibiskup, kterého si Češi zvolili, potvrzen nebyl. Rokycana naopak přišel o faru u Týnského chrámu a v červnu 1437 se ze strachu o život potají vytratil z Prahy a uchýlil se do Hradce Králové. Vrátit se měl až za víc než deset let. Slib, který Zikmund zpečetil [[link:what-did-the-compacts-grant-1436]]navěky[[/link]], vydržel asi rok. Mezi umírněnými kališníky, kteří ho udělali králem, sílilo reptání měsíc od měsíce.\n\nNa podzim bylo císaři šedesát devět let, byl nemocný a trápily ho bolesti a pálení po celém těle. Praze už nevěřil a nevěřil už ani své ženě. 11. listopadu 1437 z města odjel, podle jedné zprávy proto, aby nezemřel v Čechách. Někteří ho vyprovázeli se žalostí, jiní měli radost a říkali, ať se už nikdy nevrací. Pražské nevěstky prý podle kronikáře táhly za císařem pod vlastní korouhví, protože se neodvažovaly zůstat. Mířil do Znojma na Moravě, na cestě do Uher. Syna neměl, jediným jeho dítětem byla dcera Alžběta, a tak s ním jel její manžel a jeho vyvolený dědic Albrecht Habsburský. Tam byla královna Barbora, obviněná, že se s českými pány spikla, aby koruna Albrechtovi nepřipadla, zajata Albrechtem a uherskými pány. 9. prosince 1437 v osm hodin večer Zikmund na znojemském hradě zemřel; na samém konci si podle vzoru Karla Velikého nechal obléct mnišský hábit. Pohřben byl ve Velkém Varadíně v Uhrách vedle svatého krále Ladislava a s ním skončila lucemburská dynastie, která začala [[link:dawn-of-the-luxembourgs-1310]]Janem Slepým[[/link]].\n\nBudoucí papež Pius II., [[link:undefeated-until-the-plague-1424]]Enea Silvio Piccolomini[[/link]], mu napsal krátký epitaf:\n\n[[quote:0]]\n\n[[b]]Šestnáct let o českou korunu bojoval a rok ji nosil.[[/b]] Hned po Vánocích, 27. prosince 1437, zvolili páni, zemané a Pražané Albrechta za krále. Ne každý ale Habsburka chtěl. Někteří kališničtí páni už měli na mysli jiného kandidáta a ten žil v Krakově.",
-      zh: "罗哈奇是波希米亚最后一个还在跟西吉斯蒙德打仗的人。他一死，皇帝在这个王国里就再没有拿着武器的敌人了，剩下的麻烦，来自当初把他扶上王位的那些人。\n\n《协定》的条文，西吉斯蒙德只遵守到非守不可的地步。波希米亚教会真正的掌舵人，如今是公会议的使节、库唐斯的菲利贝尔，他是全国唯一一位得到罗马承认的主教，由他来为神父祝圣、主持教务，天主教神职人员也陆续回到各个堂区。捷克人自己选出的大主教始终没有得到确认。罗基察纳反而丢掉了泰恩教堂的堂区神父职位，1437年6月，他担心性命不保，悄悄离开布拉格，躲到了赫拉德茨-克拉洛韦。这一走就是十多年。西吉斯蒙德盖印承诺[[link:what-did-the-compacts-grant-1436]]“永远有效”[[/link]]的那些话，大约只管了一年。在当初把他扶上王位的温和圣杯派当中，抱怨声一个月比一个月大。\n\n到了秋天，皇帝已经六十九岁，病魔缠身，浑身疼痛灼热。他不再信任布拉格，也不再信任自己的妻子。1437年11月11日，他离开了布拉格，有记载说，是怕死在波希米亚。有人含悲送行，也有人暗自高兴，说他最好再也别回来。据一位编年史家记载，城里的妓女们打着自己的旗子跟在皇帝后面走了，说是不敢留下来。他往摩拉维亚的兹诺伊莫去，那是通往匈牙利的路。他没有儿子，唯一的孩子是女儿伊丽莎白，所以同行的是她的丈夫、他钦定的继承人哈布斯堡的阿尔布雷希特。在那里，被指控与波希米亚贵族密谋、不让王冠落到阿尔布雷希特手里的王后芭芭拉，被阿尔布雷希特和匈牙利贵族抓了起来。1437年12月9日晚上八点，西吉斯蒙德在兹诺伊莫城堡去世，临终前，他效仿传说中的查理曼，换上了一身修士服。他被葬在匈牙利的瓦拉丁，紧挨着圣王拉迪斯劳斯。由[[link:dawn-of-the-luxembourgs-1310]]盲王约翰[[/link]]开启的卢森堡王朝，就此画上了句号。\n\n后来的教皇庇护二世，[[link:undefeated-until-the-plague-1424]]埃涅阿斯·西尔维乌斯·皮科洛米尼[[/link]]，给他写了一段简短的盖棺之论：\n\n[[quote:0]]\n\n[[b]]他花了十六年去争这顶波希米亚王冠，却只戴了一年。[[/b]]圣诞节刚过，1437年12月27日，贵族、骑士和布拉格人选举阿尔布雷希特为国王。不过，并不是人人都想要一个哈布斯堡家的人。一些圣杯派贵族心里已经另有人选，那人住在克拉科夫。",
+      en: "Roháč had been the last man in Bohemia still fighting Sigismund. With him gone, the emperor had no armed enemies left in the kingdom; his troubles now came from the people who had made him king.\n\nSigismund kept to the letter of the Compacts about as far as he had to. The real head of the Church in Bohemia was now Philibert of Coutances, the council's legate and the only bishop in the country whom Rome recognised. He ordained the priests and ran the Church's affairs, while Catholic clergy came back into the parishes. The archbishop the Czechs had elected was never confirmed. Instead Rokycana lost his parish at the Týn church, and in June 1437, fearing for his life, he slipped out of Prague and took refuge in Hradec Králové. He would not be back for more than a decade. The promise Sigismund had sealed [[link:what-did-the-compacts-grant-1436]]for ever[[/link]] had lasted about a year. Among the moderate Utraquists who had made him king, the grumbling grew louder by the month.\n\nBy the autumn the emperor was sixty-nine, ill, and tormented by burning pains all over his body. He no longer trusted Prague, and he no longer trusted his wife. On 11 November 1437 he left the city, by one account so as not to die in Bohemia. Some saw him off with sorrow; others were glad and said he should never come back. The city's prostitutes, a chronicler noted, followed the emperor out under their own banner, not daring to stay behind. He made for Znojmo in Moravia, on the road to Hungary. He had no son, and his only child was a daughter, Elizabeth, so with him rode her husband and his chosen heir, Albert of Habsburg. There Queen Barbara, accused of plotting with Bohemian lords to keep the crown out of Albert's hands, was arrested by Albert and the Hungarian lords. On 9 December 1437, at eight in the evening, Sigismund died in Znojmo castle, having put on a monk's habit at the end, as Charlemagne was said to have done. He was buried at Nagyvárad in Hungary, beside the saint-king Ladislaus, and with him the Luxembourg line that had begun with [[link:dawn-of-the-luxembourgs-1310]]John the Blind[[/link]] came to an end.\n\nThe future Pope Pius II, [[link:undefeated-until-the-plague-1424]]Aeneas Silvius Piccolomini[[/link]], left him a short epitaph:\n\n[[quote:0]]\n\n[[b]]He had spent sixteen years winning the Bohemian crown and one year wearing it.[[/b]] He had named Albert his heir, and Albert had a claim through his wife besides, but after the Hussite years the Czech estates were not about to let the crown simply pass down the family. Just after Christmas, on 27 December 1437, the Catholic lords and the moderate Utraquists elected Albert king, and handed him a list of conditions, starting with the Compacts. Not everyone wanted a Habsburg, though. Some of the Utraquist lords already had another candidate in mind, and he lived in Kraków.",
+      cz: "Roháč byl posledním člověkem v Čechách, který se Zikmundem ještě bojoval. Když byl pryč, neměl už císař v království žádného ozbrojeného nepřítele; potíže mu teď dělali ti, kdo ho udělali králem.\n\nKompaktáta Zikmund dodržoval doslova jen tak daleko, jak musel. Skutečnou hlavou církve v Čechách byl teď Filibert z Coutances, legát koncilu a jediný biskup v zemi, kterého Řím uznával. Světil kněze a řídil církevní záležitosti a do far se vraceli katoličtí duchovní. Arcibiskup, kterého si Češi zvolili, potvrzen nebyl. Rokycana naopak přišel o faru u Týnského chrámu a v červnu 1437 se ze strachu o život potají vytratil z Prahy a uchýlil se do Hradce Králové. Vrátit se měl až za víc než deset let. Slib, který Zikmund zpečetil [[link:what-did-the-compacts-grant-1436]]navěky[[/link]], vydržel asi rok. Mezi umírněnými kališníky, kteří ho udělali králem, sílilo reptání měsíc od měsíce.\n\nNa podzim bylo císaři šedesát devět let, byl nemocný a trápily ho bolesti a pálení po celém těle. Praze už nevěřil a nevěřil už ani své ženě. 11. listopadu 1437 z města odjel, podle jedné zprávy proto, aby nezemřel v Čechách. Někteří ho vyprovázeli se žalostí, jiní měli radost a říkali, ať se už nikdy nevrací. Pražské nevěstky prý podle kronikáře táhly za císařem pod vlastní korouhví, protože se neodvažovaly zůstat. Mířil do Znojma na Moravě, na cestě do Uher. Syna neměl, jediným jeho dítětem byla dcera Alžběta, a tak s ním jel její manžel a jeho vyvolený dědic Albrecht Habsburský. Tam byla královna Barbora, obviněná, že se s českými pány spikla, aby koruna Albrechtovi nepřipadla, zajata Albrechtem a uherskými pány. 9. prosince 1437 v osm hodin večer Zikmund na znojemském hradě zemřel; na samém konci si podle vzoru Karla Velikého nechal obléct mnišský hábit. Pohřben byl ve Velkém Varadíně v Uhrách vedle svatého krále Ladislava a s ním skončila lucemburská dynastie, která začala [[link:dawn-of-the-luxembourgs-1310]]Janem Slepým[[/link]].\n\nBudoucí papež Pius II., [[link:undefeated-until-the-plague-1424]]Enea Silvio Piccolomini[[/link]], mu napsal krátký epitaf:\n\n[[quote:0]]\n\n[[b]]Šestnáct let o českou korunu bojoval a rok ji nosil.[[/b]] Za dědice určil Albrechta a ten měl navíc nárok po manželce, jenže po husitských letech nehodlali čeští stavové dopustit, aby se koruna prostě předala v rodině. Hned po Vánocích, 27. prosince 1437, zvolili Albrechta za krále katoličtí páni a umírnění kališníci a předložili mu seznam podmínek, v čele s kompaktáty. Ne každý ale Habsburka chtěl. Někteří kališničtí páni už měli na mysli jiného kandidáta a ten žil v Krakově.",
+      zh: "罗哈奇是波希米亚最后一个还在跟西吉斯蒙德打仗的人。他一死，皇帝在这个王国里就再没有拿着武器的敌人了，剩下的麻烦，来自当初把他扶上王位的那些人。\n\n《协定》的条文，西吉斯蒙德只遵守到非守不可的地步。波希米亚教会真正的掌舵人，如今是公会议的使节、库唐斯的菲利贝尔，他是全国唯一一位得到罗马承认的主教，由他来为神父祝圣、主持教务，天主教神职人员也陆续回到各个堂区。捷克人自己选出的大主教始终没有得到确认。罗基察纳反而丢掉了泰恩教堂的堂区神父职位，1437年6月，他担心性命不保，悄悄离开布拉格，躲到了赫拉德茨-克拉洛韦。这一走就是十多年。西吉斯蒙德盖印承诺[[link:what-did-the-compacts-grant-1436]]“永远有效”[[/link]]的那些话，大约只管了一年。在当初把他扶上王位的温和圣杯派当中，抱怨声一个月比一个月大。\n\n到了秋天，皇帝已经六十九岁，病魔缠身，浑身疼痛灼热。他不再信任布拉格，也不再信任自己的妻子。1437年11月11日，他离开了布拉格，有记载说，是怕死在波希米亚。有人含悲送行，也有人暗自高兴，说他最好再也别回来。据一位编年史家记载，城里的妓女们打着自己的旗子跟在皇帝后面走了，说是不敢留下来。他往摩拉维亚的兹诺伊莫去，那是通往匈牙利的路。他没有儿子，唯一的孩子是女儿伊丽莎白，所以同行的是她的丈夫、他钦定的继承人哈布斯堡的阿尔布雷希特。在那里，被指控与波希米亚贵族密谋、不让王冠落到阿尔布雷希特手里的王后芭芭拉，被阿尔布雷希特和匈牙利贵族抓了起来。1437年12月9日晚上八点，西吉斯蒙德在兹诺伊莫城堡去世，临终前，他效仿传说中的查理曼，换上了一身修士服。他被葬在匈牙利的瓦拉丁，紧挨着圣王拉迪斯劳斯。由[[link:dawn-of-the-luxembourgs-1310]]盲王约翰[[/link]]开启的卢森堡王朝，就此画上了句号。\n\n后来的教皇庇护二世，[[link:undefeated-until-the-plague-1424]]埃涅阿斯·西尔维乌斯·皮科洛米尼[[/link]]，给他写了一段简短的盖棺之论：\n\n[[quote:0]]\n\n[[b]]他花了十六年去争这顶波希米亚王冠，却只戴了一年。[[/b]]他生前指定阿尔布雷希特为继承人，阿尔布雷希特还能凭妻子的血统主张王位，可经历过胡斯战争的捷克各等级，可不打算让王冠就这么在一家人里传下去。圣诞节刚过，1437年12月27日，天主教贵族和温和圣杯派选举阿尔布雷希特为国王，同时递给他一份条件清单，头一条就是遵守《协定》。不过，并不是人人都想要一个哈布斯堡家的人。一些圣杯派贵族心里已经另有人选，那人住在克拉科夫。",
     },
     quotes: [
       {
@@ -19721,6 +19721,647 @@ export const historyEvents = [
       },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Sigismund,_Holy_Roman_Emperor",
+  },  {
+    slug: "two-kings-1438",
+    era: "lone-king",
+    images: ["/history/two-kings-1438.webp", "/history/two-kings-1438-coronation.webp"],
+    imageCaptions: [
+      {
+        en: "Kraków, 1438: a Bohemian envoy kneels to offer the crown of Bohemia to ten-year-old Casimir, while his brother King Władysław III leans in eagerly and the Bishop of Kraków looks on in disapproval.",
+        cz: "Krakov, 1438: český posel poklekl a nabízí korunu českou desetiletému Kazimírovi, jeho bratr král Vladislav III. se zvědavě naklání a krakovský biskup přihlíží s nevolí.",
+        zh: "1438年，克拉科夫：一位捷克使者单膝跪地，向十岁的卡齐米日献上波希米亚王冠，他的哥哥、国王瓦迪斯瓦夫三世好奇地凑上前来，克拉科夫主教则在一旁满脸不以为然。",
+      },
+      {
+        en: "St. Vitus Cathedral, 29 June 1438: the Bishop of Olomouc crowns Albert of Habsburg King of Bohemia before the Catholic lords, while two men at the edge of the crowd keep to the shadows.",
+        cz: "Svatovítská katedrála, 29. června 1438: olomoucký biskup korunuje Albrechta Habsburského českým králem před katolickými pány, zatímco dva muži na okraji davu se drží ve stínu.",
+        zh: "1438年6月29日，圣维特大教堂：奥洛穆茨主教当着天主教贵族的面，为哈布斯堡的阿尔布雷希特戴上波希米亚王冠，人群边上有两个人躲在阴影里。",
+      },
+    ],
+    startYear: 1438,
+    year: {
+      en: "1438",
+      cz: "1438",
+      zh: "1438年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Two Kings",
+      cz: "Dva králové",
+      zh: "两个国王",
+    },
+    hookLine: {
+      en: "Less than six months after Albert's election, Bohemia had two kings: one crowned in Prague, the other ten years old and living in Kraków.",
+      cz: "Necelého půl roku po Albrechtově volbě měly Čechy dva krále: jednoho korunovaného v Praze a druhého desetiletého, který bydlel v Krakově.",
+      zh: "阿尔布雷希特当选还不到半年，波希米亚就有了两个国王：一个在布拉格加了冕，另一个才十岁，住在克拉科夫。",
+    },
+    summary: {
+      en: "The election of December 1437 had not pleased everyone. To many Utraquist lords a Habsburg meant Germans, Vienna and more of Sigismund's way of doing things, and they had just seen how Sigismund kept his promises.\n\nSigismund himself was safely in his grave now, but his son-in-law had troubles of his own. Albert's power lay in Austria and Hungary, and the Ottoman Turks were pushing up out of the Balkans with their eyes on the rich lands of the Danube. A king busy guarding the Danube would have little attention left for Bohemia. The Utraquists decided the crown had better go to someone else.\n\nThey looked north, to Kraków. The Polish king, Władysław III, was fourteen; his younger brother Casimir was ten. Casimir was a Jagiellonian, a Slav like the Czechs, and the son of the Polish king the Hussites had first offered their crown to, back in 1420. Nobody minded his age. If anything it was a selling point: a ten-year-old king would be far easier to manage than an emperor's son-in-law with ideas of his own.\n\nThe opposition was led by an old acquaintance: Hynce Ptáček of Pirkštejn, the man who had spent the previous summer besieging [[link:the-last-man-on-sion-1437]]Sion[[/link]] for Sigismund, in no great hurry. On 29 May 1438 a diet of Utraquist lords at Mělník declared Casimir king of Bohemia. His supporters were an unlikely mix. Queen Barbara's friends were among them, still sore at Albert over her arrest at Znojmo. So was Tábor, which had made its peace with Sigismund two years earlier but kept its own priests and its own opinions, and which now marched beside the moderates it had fought at Lipany. A shared dislike of the Habsburgs turned out to be a stronger bond than theology.\n\nAlbert, meanwhile, was busy collecting crowns. Hungary crowned him on 1 January, the German electors chose him King of the Romans in March, and on 13 June he rode into Prague. On 29 June 1438 he was crowned King of Bohemia in St. Vitus Cathedral.\n\nThat summer a Polish army under Sędziwój of Ostroróg crossed the border and joined Ptáček and the Táborites. In late summer Albert marched south with Austrian, Hungarian and Saxon troops and laid siege to Tábor. The hill town that nobody had taken since 1420 held him off too, and on 15 September he gave up. On the way back his Saxon allies beat a Czech and Polish force at Želenice, so both sides could claim a victory. The Poles, who by most accounts were in no more of a hurry than Ptáček had been at Sion, went home.\n\n[[b]]Neither king could get rid of the other, and Bohemia split in two: the Catholics and Prague stood behind Albert, Tábor and a good part of the Utraquist lords behind a boy who had never set foot in the country.[[/b]] On 21 October 1438 Albert left Prague for Silesia. He never came back.",
+      cz: "Volba z prosince 1437 nepotěšila každého. Pro mnohé kališnické pány znamenal Habsburk Němce, Vídeň a další dávku Zikmundových způsobů, a jak Zikmund dodržoval sliby, si právě vyzkoušeli.\n\nZikmund už sice ležel v hrobě, ale jeho zeť měl vlastních starostí dost. Albrechtova moc stála na Rakousku a Uhrách a od Balkánu se valili osmanští Turci s očima upřenýma na bohaté Podunají. Král, který bude mít plné ruce práce s obranou Dunaje, by na Čechy moc času neměl. Kališníci usoudili, že korunu bude lepší dát někomu jinému.\n\nObrátili se na sever, ke Krakovu. Polskému králi Vladislavovi III. bylo čtrnáct, jeho mladšímu bratru Kazimírovi deset. Kazimír byl Jagellonec, Slovan jako Češi, a syn polského krále, kterému husité nabídli korunu už v roce 1420. Jeho věk nikomu nevadil. Spíš naopak: desetiletý král se dá ovládat mnohem snáz než císařův zeť s vlastní hlavou.\n\nV čele opozice stál starý známý: Hynce Ptáček z Pirkštejna, ten, který loni v létě pro Zikmunda bez velkého spěchu obléhal [[link:the-last-man-on-sion-1437]]Sion[[/link]]. 29. května 1438 prohlásil sněm kališnických pánů v Mělníku Kazimíra českým králem. Jeho stoupenci tvořili nečekanou směs. Byli mezi nimi přívrženci královny Barbory, kteří Albrechtovi nemohli zapomenout její zajetí ve Znojmě. Byl mezi nimi i Tábor, který se se Zikmundem před dvěma lety smířil, ale ponechal si vlastní kněze i vlastní názory, a teď táhl po boku umírněných, se kterými se bil u Lipan. Společná nechuť k Habsburkům se ukázala jako pevnější pouto než teologie.\n\nAlbrecht mezitím sbíral koruny. 1. ledna ho korunovali v Uhrách, v březnu ho kurfiřti zvolili římským králem a 13. června vjel do Prahy. 29. června 1438 byl ve svatovítské katedrále korunován českým králem.\n\nToho léta překročilo hranice polské vojsko pod velením Sędziwója z Ostroróga a spojilo se s Ptáčkem a s Tábority. Koncem léta vytáhl Albrecht s rakouským, uherským a saským vojskem na jih a oblehl Tábor. Město na kopci, které od roku 1420 nikdo nedobyl, odolalo i jemu, a 15. září obléhání vzdal. Na ústupu porazili jeho saští spojenci česko-polské vojsko u Želenic, takže si vítězství mohly připsat obě strany. Poláci, kteří prý nespěchali o nic víc než Ptáček u Sionu, se vrátili domů.\n\n[[b]]Ani jeden král se toho druhého nedokázal zbavit a Čechy se rozdělily na dvě půlky: katolíci a Praha stáli za Albrechtem, Tábor a velká část kališnických pánů za chlapcem, který do země nikdy nevkročil.[[/b]] 21. října 1438 odjel Albrecht z Prahy do Slezska. Už se nevrátil.",
+      zh: "1437年的那场国王选举，并没有让所有人满意。在许多圣杯派贵族眼里，哈布斯堡就意味着德意志人、维也纳，还有西吉斯蒙德那一套，而西吉斯蒙德是怎么兑现承诺的，他们刚刚领教过。\n\n如今西吉斯蒙德倒是真成了冢中枯骨，可他的女婿自己也麻烦不小：阿尔布雷希特的根基在奥地利和匈牙利，而奥斯曼土耳其人正从巴尔干半岛来势汹汹地北上，盯着多瑙河流域这片风水宝地。一个整天忙着守多瑙河的国王，还能分给波希米亚多少心思？圣杯派觉得，这顶王冠最好另找主人。\n\n他们把目光投向了北方的克拉科夫。波兰国王瓦迪斯瓦夫三世这年十四岁，他的弟弟卡齐米日十岁。卡齐米日是雅盖隆家的王子，和捷克人同属斯拉夫人，他的父亲正是1420年胡斯派头一个想请来当国王的那位波兰国王。至于他才十岁，没人觉得是问题，反倒算个优点：一个孩子国王，总比一个有主见的皇帝女婿好对付。\n\n领头的反对派是我们的老熟人：皮尔克什泰因的欣采·普塔切克，就是去年夏天替西吉斯蒙德慢悠悠围攻[[link:the-last-man-on-sion-1437]]锡永[[/link]]的那位。1438年5月29日，圣杯派贵族在梅尔尼克开会，宣布卡齐米日为波希米亚国王。拥戴他的是一伙意想不到的组合。芭芭拉王后的支持者也在其中，她在兹诺伊莫被阿尔布雷希特抓起来的事，他们还憋着一口气。塔博尔也在其中，它两年前已经和西吉斯蒙德讲了和，却依旧留着自己的神父和自己的主张，如今和当年在利帕尼交过手的温和派站到了一起。看来，一起讨厌哈布斯堡，比信仰相同更能把人团结起来。\n\n与此同时，阿尔布雷希特正忙着收集王冠。1月1日，匈牙利为他加冕；3月，德意志选帝侯推举他为罗马人的国王；6月13日，他骑马进了布拉格。1438年6月29日，他在圣维特大教堂戴上了波希米亚王冠。\n\n这年夏天，奥斯特罗鲁格的森杰沃伊率领一支波兰军队越过边境，和普塔切克以及塔博尔人会合。夏末，阿尔布雷希特带着奥地利、匈牙利和萨克森的军队南下，围攻塔博尔。这座山城自1420年以来谁也没能拿下，这回也没让他拿下，9月15日，他撤了围。回师途中，他的萨克森盟军在热莱尼采打败了一支捷克和波兰的联军，于是两边都能说自己赢了一场。据说波兰人打得并不比普塔切克在锡永时更卖力，没过多久就回家了。\n\n[[b]]两个国王谁也吃不掉谁，波希米亚就这样被一分为二：天主教徒和布拉格站在阿尔布雷希特一边，塔博尔和不少圣杯派贵族则拥戴一个从没踏上过波希米亚土地的孩子。[[/b]]1438年10月21日，阿尔布雷希特离开布拉格，前往西里西亚。他再也没有回来。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "melnik-stare-mesto",
+        relation: {
+          en: "Where a diet of Utraquist lords declared ten-year-old Casimir of Poland king of Bohemia on 29 May 1438.",
+          cz: "Zde 29. května 1438 prohlásil sněm kališnických pánů desetiletého Kazimíra Polského českým králem.",
+          zh: "1438年5月29日，圣杯派贵族在这里开会，宣布十岁的波兰王子卡齐米日为波希米亚国王。",
+        },
+      },
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Where Albert of Habsburg was crowned King of Bohemia on 29 June 1438.",
+          cz: "Zde byl 29. června 1438 korunován českým králem Albrecht Habsburský.",
+          zh: "1438年6月29日，哈布斯堡的阿尔布雷希特在这里加冕为波希米亚国王。",
+        },
+      },
+      {
+        slug: "tabor",
+        relation: {
+          en: "Besieged by Albert in the late summer of 1438; he withdrew on 15 September without taking it.",
+          cz: "Albrecht ho koncem léta 1438 obléhal; 15. září odtáhl, aniž ho dobyl.",
+          zh: "1438年夏末遭阿尔布雷希特围攻，9月15日他没能攻下，撤兵而去。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Albert_II_of_Germany",
+  },  {
+    slug: "a-cursed-crown-1439",
+    era: "lone-king",
+    images: ["/history/a-cursed-crown-1439.webp"],
+    imageCaptions: [
+      {
+        en: "Autumn 1439: Albert, dying of dysentery, eyes the crown of Bohemia from his sickbed, a plate of melon beside it.",
+        cz: "Podzim 1439: Albrecht umírá na úplavici a z lůžka podezíravě hledí na českou korunu, vedle ní talíř s melounem.",
+        zh: "1439年秋：身患痢疾、奄奄一息的阿尔布雷希特躺在病榻上，狐疑地盯着波希米亚王冠，旁边放着一盘甜瓜。",
+      },
+    ],
+    startYear: 1439,
+    year: {
+      en: "1439",
+      cz: "1439",
+      zh: "1439年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Cursed Crown?",
+      cz: "Prokletá koruna?",
+      zh: "被诅咒的王冠？",
+    },
+    hookLine: {
+      en: "Sigismund had lasted a year on the Bohemian throne. His son-in-law was not going to break the record.",
+      cz: "Zikmund vydržel na českém trůnu rok. Jeho zeť ten rekord překonat neměl.",
+      zh: "西吉斯蒙德在波希米亚王位上坐了一年。他的女婿也没能打破这个纪录。",
+    },
+    summary: {
+      en: "Albert did not stay long in Silesia. He spent the winter in Breslau, and in the spring of 1439 he hurried back to Hungary, where the real trouble was.\n\nThe Ottoman Turks were coming up the Danube. The Serbian despot George Branković had been begging for help. Sultan Murad II besieged his new fortress of Smederevo, a short way downstream from Belgrade, and in August 1439 it fell. Branković fled to Hungary, and the next stop on that road was Hungary itself.\n\nAlbert was now King of the Romans (he never found the time to be crowned emperor), King of Hungary and King of Bohemia. With three crowns on his head, he knew exactly which one he could least afford to lose. Bohemia, with its spare ten-year-old Polish king, could wait. Hungary could not.\n\nHe gathered an army at Titel, where the Tisza flows into the Danube, and got no further. It was a hot summer, and dysentery swept through the camp. The nobles and their men melted away home, and in the end so did Albert. According to the Italian historian Antonio Bonfini, writing half a century later, the king made it worse by eating far too many melons. A local legend adds that he washed them down with cold water from a spring on the vineyard hill.\n\nOn 27 October 1439, on his way back to Vienna, Albert died in Neszmély, a village on the Danube near Komárom. He was forty-two. He had asked to be buried in St. Stephen's in Vienna; the Hungarians buried him at Székesfehérvár among their own kings instead, and left his heart in Neszmély.\n\nLike [[link:a-throne-for-one-year-1437]]his father-in-law[[/link]], Albert had not lasted long on the Bohemian throne. [[b]]Sigismund had died a year after Bohemia finally accepted him, Albert a year after his coronation in Prague, and the crown bargained out of the Hussites was beginning to look cursed.[[/b]]\n\nWhen he died, Queen Elizabeth was pregnant.",
+      cz: "Ve Slezsku se Albrecht dlouho nezdržel. Přezimoval ve Vratislavi a na jaře 1439 spěchal zpátky do Uher, kde byly skutečné potíže.\n\nPo Dunaji se valili osmanští Turci. Srbský despota Jiří Branković už dlouho prosil o pomoc. Sultán Murad II. oblehl jeho novou pevnost Smederevo kousek po proudu od Bělehradu a v srpnu 1439 padla. Branković utekl do Uher a další zastávkou na té cestě byly Uhry samy.\n\nAlbrecht byl teď římským králem (na císařskou korunovaci si nikdy nenašel čas), uherským i českým králem. Se třemi korunami na hlavě přesně věděl, o kterou si nemůže dovolit přijít. Čechy, kde měli v záloze desetiletého polského krále, mohly počkat. Uhry ne.\n\nVojsko shromáždil u Titelu, kde se Tisa vlévá do Dunaje, a dál se nedostal. Bylo horké léto a táborem se prohnala úplavice. Šlechtici se svými lidmi se rozutekli domů a nakonec se domů vydal i Albrecht. Podle italského historika Antonia Bonfiniho, který psal o půl století později, si král nemoc zhoršil tím, že snědl příliš mnoho melounů. Místní pověst dodává, že je zapil studenou vodou z pramene na vinném vrchu.\n\n27. října 1439 zemřel Albrecht na cestě do Vídně ve vesnici Neszmély na Dunaji nedaleko Komárna. Bylo mu dvaačtyřicet. Přál si být pohřben u svatého Štěpána ve Vídni; Uhři ho však pochovali ve Stoličném Bělehradě mezi svými králi a jeho srdce nechali v Neszmély.\n\nStejně jako jeho [[link:a-throne-for-one-year-1437]]tchán[[/link]] se ani Albrecht na českém trůnu dlouho neohřál. [[b]]Zikmund zemřel rok poté, co ho Čechy konečně přijaly, Albrecht rok po korunovaci v Praze, a koruna vyjednaná s husity začínala vypadat jako prokletá.[[/b]]\n\nKdyž zemřel, královna Alžběta byla těhotná.",
+      zh: "阿尔布雷希特在西里西亚没待多久。他在弗罗茨瓦夫过了冬，1439年春天就急匆匆赶回了匈牙利，真正的麻烦在那边。\n\n奥斯曼土耳其人正沿着多瑙河北上。塞尔维亚君主久拉杰·布兰科维奇早就在求援了。苏丹穆拉德二世围攻他新建的斯梅德雷沃要塞，那里离贝尔格莱德只有一小段水路。1439年8月，要塞陷落，布兰科维奇逃进了匈牙利，而顺着这条路再往前走，下一站就是匈牙利本土。\n\n阿尔布雷希特这时身兼罗马人的国王（皇帝他始终没腾出空去加冕）、匈牙利国王和波希米亚国王。头上三顶王冠，哪一顶最丢不起，他心里一清二楚。波希米亚那边虽然多出一个十岁的波兰国王，但还能等；匈牙利等不了。\n\n他在蒂特尔集结军队，那里是蒂萨河汇入多瑙河的地方，然后就再也没往前走。那年夏天酷热，痢疾在军营里蔓延开来，贵族们带着各自的兵一哄而散回了家，最后阿尔布雷希特自己也只好打道回府。据半个世纪后的意大利史家邦菲尼说，国王的病是吃了太多甜瓜才加重的。当地还有个传说：他吃完甜瓜，又去葡萄山上的泉眼喝了凉水。\n\n1439年10月27日，阿尔布雷希特在返回维也纳的路上，死在了科马罗姆附近多瑙河边的小村内斯梅伊，终年四十二岁。他生前要求葬在维也纳的圣斯特凡大教堂，匈牙利人却把他葬在了塞克什白堡，和匈牙利历代国王葬在一起，只把他的心脏留在了内斯梅伊。\n\n和他的[[link:a-throne-for-one-year-1437]]岳父[[/link]]一样，阿尔布雷希特在波希米亚的王位上也没坐多久。[[b]]西吉斯蒙德在波希米亚终于接纳他一年后就死了，阿尔布雷希特在布拉格加冕一年后也死了，这顶和胡斯派讨价还价换来的王冠，看上去像是被诅咒了。[[/b]]\n\n他死的时候，王后伊丽莎白已经怀孕了。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Albert_II_of_Germany",
+  },
+  {
+    slug: "the-rise-of-the-ottomans-1453",
+    era: "lone-king",
+    startYear: 1439.5,
+    cardType: "background",
+    year: {
+      en: "1299–1453",
+      cz: "1299–1453",
+      zh: "1299–1453年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Rise of the Ottomans",
+      cz: "Vzestup Osmanů",
+      zh: "奥斯曼的崛起",
+    },
+    hookLine: {
+      en: "Around 1300 they were one small frontier principality among many in Anatolia. A century and a half later, Constantinople was theirs.",
+      cz: "Kolem roku 1300 byli jedním z mnoha malých pohraničních knížectví v Anatolii. O století a půl později jim patřila Konstantinopol.",
+      zh: "1300年前后，他们只是安纳托利亚众多边境小国中的一个。一个半世纪后，君士坦丁堡成了他们的。",
+    },
+    summary: {
+      en: "Around 1300 a Turkish chieftain called Osman ruled a small frontier principality in north-western Anatolia, on the edge of what was left of the Byzantine Empire. There were a dozen like it. His was the one that kept growing, and his descendants named their state after him.\n\nHis son Orhan took Bursa in 1326 and made it his capital. In 1354 an earthquake brought down the walls of Gallipoli, on the European shore of the Dardanelles, and the Ottomans simply walked in. Within a few years they had taken Adrianople, renamed it Edirne and moved their capital into Europe. Byzantium was now an island in a sea of Ottoman land.\n\nThe Balkans fell one after another. At Kosovo in 1389 the Serbs lost, and Sultan Murad I lost his life, stabbed, by tradition, by a Serbian nobleman. In 1396 a great crusade marched down the Danube to stop them, led by none other than the young King of Hungary, [[link:a-throne-on-shaky-ground-1386]]Sigismund[[/link]]. At Nicopolis, Sultan Bayezid I destroyed it. Sigismund escaped down the river by boat and spent the rest of his life with a well-founded fear of the Turks.\n\nWhat saved Europe was not a crusade but Timur, the Central Asian conqueror, who smashed Bayezid's army at Ankara in 1402 and took the sultan prisoner. Bayezid died in captivity, and his sons spent eleven years fighting each other for what was left. Anyone who hoped that was the end of the Ottomans was disappointed. By the 1420s Murad II had put it all back together.\n\nTheir secret weapon was a state built for war. Christian boys from the Balkans were taken as a levy, converted and trained as the sultan's own infantry, the janissaries: professional soldiers with no family but the sultan. Most European armies, meanwhile, were still nobles and their men, who went home after the harvest. [[b]]A European king raised an army for a season; the sultan had one all year round.[[/b]]\n\nThen, on 29 May 1453, the twenty-one-year-old Sultan Mehmed II took Constantinople. His giant cannon was the work of a Hungarian founder named Orban, who had first offered it to the Byzantines, who could not afford it. He had his ships hauled overland on greased logs into the Golden Horn, behind the chain that closed the harbour. The last emperor, Constantine XI, died somewhere in the fighting on the walls, and the thousand-year-old Eastern Roman Empire died with him.\n\nThe road up the Danube now ran from Constantinople to Belgrade, to Buda and on to Vienna. For the next two centuries, whoever wore the crown of Hungary would have to look south first. Sooner or later, that would be Bohemia's problem too.",
+      cz: "Kolem roku 1300 vládl turecký náčelník jménem Osman malému pohraničnímu knížectví v severozápadní Anatolii, na okraji toho, co zbylo z Byzantské říše. Takových knížectví bylo tehdy kolem tuctu. Jen to jeho pořád rostlo a jeho potomci po něm svůj stát pojmenovali.\n\nJeho syn Orhan dobyl roku 1326 Bursu a udělal z ní své hlavní město. Roku 1354 zbořilo zemětřesení hradby Gallipoli na evropském břehu Dardanel a Osmané prostě vešli dovnitř. Za pár let dobyli Adrianopol, přejmenovali ho na Edirne a přestěhovali hlavní město do Evropy. Byzanc se stala ostrovem v moři osmanské země.\n\nBalkán padal kus po kusu. U Kosova roku 1389 Srbové prohráli a sultán Murad I. přišel o život; podle tradice ho probodl srbský šlechtic. Roku 1396 táhla po Dunaji velká křížová výprava, aby je zastavila, a v jejím čele stál nikdo jiný než mladý uherský král [[link:a-throne-on-shaky-ground-1386]]Zikmund[[/link]]. U Nikopole ji sultán Bajezid I. rozdrtil. Zikmund utekl po řece na lodi a do konce života se Turků bál, a měl proč.\n\nEvropu nezachránila křížová výprava, ale Timur, středoasijský dobyvatel, který roku 1402 rozdrtil Bajezidovo vojsko u Ankary a sultána zajal. Bajezid zemřel v zajetí a jeho synové se jedenáct let rvali o to, co zbylo. Kdo doufal, že je to konec Osmanů, byl zklamán. Ve dvacátých letech 15. století dal Murad II. všechno znovu dohromady.\n\nJejich tajnou zbraní byl stát stavěný pro válku. Křesťanští chlapci z Balkánu byli odváděni, obráceni na víru a vycvičeni na sultánovu vlastní pěchotu, janičáry: profesionální vojáky, kteří neměli jinou rodinu než sultána. Většina evropských vojsk přitom pořád stála na šlechticích a jejich lidech, kteří po žních táhli domů. [[b]]Evropský král sháněl vojsko na jednu sezónu, sultán ho měl po celý rok.[[/b]]\n\n29. května 1453 dobyl jednadvacetiletý sultán Mehmed II. Konstantinopol. Obří dělo mu odlil uherský mistr Urban, který ho nejdřív nabízel Byzantincům, jenže ti na něj neměli. Lodě nechal po namazaných kládách přetáhnout po souši do Zlatého rohu, za řetěz, který uzavíral přístav. Poslední císař Konstantin XI. padl kdesi v boji na hradbách a s ním zanikla tisíc let stará Východořímská říše.\n\nCesta po Dunaji teď vedla z Konstantinopole do Bělehradu, do Budína a dál do Vídně. Další dvě století se každý, kdo nosil uherskou korunu, musel dívat nejdřív na jih. A dřív nebo později to měl být problém i pro Čechy.",
+      zh: "1300年前后，一个名叫奥斯曼的突厥首领统治着安纳托利亚西北部的一个边境小国，紧挨着拜占庭帝国残存的领土。像这样的小国当时有十来个，偏偏他这一家越长越大，后人干脆用他的名字给国家命了名。\n\n他的儿子奥尔汗在1326年拿下布尔萨，定为都城。1354年，一场地震震塌了达达尼尔海峡欧洲一侧加里波利的城墙，奥斯曼人直接走了进去。没过几年，他们又拿下阿德里安堡，改名埃迪尔内，把都城搬到了欧洲。拜占庭从此成了奥斯曼领土包围中的一座孤岛。\n\n巴尔干各国一个接一个倒下。1389年的科索沃战役，塞尔维亚人输了，苏丹穆拉德一世也丢了性命，据传是被一位塞尔维亚贵族刺死的。1396年，一支浩浩荡荡的十字军顺着多瑙河南下，想要挡住他们，领头的正是我们的老熟人、年轻的匈牙利国王[[link:a-throne-on-shaky-ground-1386]]西吉斯蒙德[[/link]]。在尼科波利斯，苏丹巴耶济德一世把这支十字军打得全军覆没。西吉斯蒙德坐船顺流逃走，从此怕了土耳其人一辈子，而且怕得很有道理。\n\n救了欧洲的不是十字军，而是中亚的征服者帖木儿。1402年，他在安卡拉大败巴耶济德，连苏丹本人也成了俘虏。巴耶济德死在囚禁中，他的儿子们为了剩下的家业互相打了十一年。谁要是以为奥斯曼就此完了，那就要失望了。到了15世纪20年代，穆拉德二世又把一切重新拼了回来。\n\n奥斯曼人的秘密武器，是一个为打仗而生的国家。巴尔干的基督徒男孩被征召入伍，改信伊斯兰教，训练成苏丹的亲兵，也就是耶尼切里军团：他们是职业军人，除了苏丹没有别的家。同一时期，欧洲大多数军队还是贵族和他们带来的兵，收完庄稼就要回家。[[b]]欧洲的国王打仗只能凑一季的兵，苏丹的军队却一年到头都在。[[/b]]\n\n1453年5月29日，二十一岁的苏丹穆罕默德二世攻下了君士坦丁堡。他用的巨炮出自一位叫乌尔班的匈牙利铸炮匠之手，乌尔班原本先把炮推销给拜占庭人，可拜占庭人付不起钱。苏丹还让人在涂了油的圆木上把战船从陆地拖进金角湾，绕过了封锁港口的铁链。末代皇帝君士坦丁十一世死在城墙边的混战里，延续了一千年的东罗马帝国也随他而去。\n\n从此，沿多瑙河北上的路，从君士坦丁堡一路通到贝尔格莱德、布达，再到维也纳。此后两百年，每一个戴上匈牙利王冠的人都得先盯着南边。而这迟早也会成为波希米亚的麻烦。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Rise_of_the_Ottoman_Empire",
+  },  {
+    slug: "the-stolen-crown-1440",
+    era: "lone-king",
+    images: ["/history/the-stolen-crown-1440.webp"],
+    imageCaptions: [
+      {
+        en: "February 1440: Helene Kottanner crosses the frozen Danube from Visegrád with the Holy Crown of Hungary hidden in a red velvet pillow, the queen's ladies following as the ice gives way.",
+        cz: "Únor 1440: Helena Kottannerová přejíždí z Visegrádu zamrzlý Dunaj se svatou korunou uherskou ukrytou v červeném sametovém polštáři, za ní královniny dvorní dámy a pod nimi praskající led.",
+        zh: "1440年2月：海伦娜·科坦纳从维舍格勒出发，横渡结冰的多瑙河，匈牙利圣冠就藏在她怀里的红色天鹅绒枕头中，王后的女官们紧随其后，冰面正在开裂。",
+      },
+    ],
+    startYear: 1440,
+    year: {
+      en: "1440",
+      cz: "1440",
+      zh: "1440年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Holy Crown in the Pillow",
+      cz: "Svatá koruna v polštáři",
+      zh: "枕头里的圣冠",
+    },
+    hookLine: {
+      en: "He lost his father four months before he was born and was crowned at twelve weeks old. Three countries were his by right, and not one of them was really waiting for him.",
+      cz: "Otce ztratil čtyři měsíce před narozením a korunovali ho ve dvanácti týdnech. Tři země mu patřily po právu a ani jedna na něj doopravdy nečekala.",
+      zh: "他出生前四个月就没了父亲，出生十二周就戴上了王冠。三个国家按理都该归他，可没有一个真心在等他。",
+    },
+    summary: {
+      en: "When Albert died, Queen Elizabeth was pregnant. The Hungarian lords were not inclined to wait. The Ottomans were just across the Danube, and they wanted a king who could fight, not a child who had not been born yet and might well turn out to be a girl. They chose the sixteen-year-old King of Poland, Władysław III, elder brother of Casimir, the ten-year-old \"King of Bohemia\". Under the plan he would also marry the widowed queen, who was nearly twice his age.\n\nElizabeth went along with it in public while privately wondering what would happen if the baby was a boy. She decided to get in first. On the night of 20 February 1440 her lady-in-waiting, Helene Kottanner, slipped into the treasury of Visegrád castle while a Hungarian accomplice, whom she never named, worked through the locks, filing so loudly that she was sure the whole castle could hear. They opened a red velvet pillow, pulled out some of the feathers and stuffed the Holy Crown of Hungary inside. The next morning Kottanner set off for Komárom with the queen's ladies and a sledge with a very valuable pillow in it, across a Danube that was still frozen, though not everywhere:\n\n[[quote:0]]\n\nThe crown reached Komárom just in time. On 22 February Elizabeth gave birth to a son, known to history as Ladislaus the Posthumous. Kottanner was very pleased with the timing:\n\n[[quote:1]]\n\nThat was the end of the marriage plan. On 15 May, at Székesfehérvár, the twelve-week-old baby was crowned King of Hungary with the stolen crown. It was far too big, so the archbishop had to hold it on his head, and Kottanner noted proudly that the little king held his head up like a one-year-old.\n\nThe Hungarian lords were not impressed. On 17 July they crowned Władysław in the same church, with a crown borrowed from St. Stephen's reliquary. The Jagiellonians had missed out on [[link:two-kings-1438]]Bohemia[[/link]], but they had found a crown in Hungary. [[b]]For the second time in three years, one kingdom had two kings, and this time one of them was still being breastfed.[[/b]]\n\nThe civil war went badly for Elizabeth. At the end of the year, out of options, she handed her son and the Holy Crown to a distant Habsburg cousin, Frederick III, newly elected King of the Romans in Albert's place. Frederick took the boy home to Wiener Neustadt and showed no sign of letting him go.",
+      cz: "Když Albrecht zemřel, královna Alžběta byla těhotná. Uherští páni neměli chuť čekat. Osmané stáli hned za Dunajem a oni chtěli krále, který umí bojovat, ne dítě, které se ještě nenarodilo a docela dobře mohlo být děvče. Vybrali si šestnáctiletého polského krále Vladislava III., staršího bratra Kazimíra, desetiletého „českého krále“. Podle plánu si měl navíc vzít ovdovělou královnu, která byla skoro dvakrát starší než on.\n\nAlžběta na oko souhlasila a v duchu přemýšlela, co bude, když se narodí chlapec. Rozhodla se jednat první. V noci na 21. února 1440 se její komorná Helena Kottannerová vplížila do pokladnice visegrádského hradu, zatímco uherský pomocník, jehož jméno nikdy neprozradila, pracoval na zámcích a pilníkem dělal takový hluk, že byla přesvědčená, že ho slyší celý hrad. Rozpárali červený sametový polštář, vytáhli z něj trochu peří a nacpali dovnitř svatou korunu uherskou. Druhý den ráno se Kottannerová vydala s královninými dvorními dámami a saněmi s velmi cenným polštářem do Komárna, přes Dunaj, který byl ještě zamrzlý, i když ne všude:\n\n[[quote:0]]\n\nKoruna dorazila do Komárna právě včas. 22. února porodila Alžběta syna, kterého dějiny znají jako Ladislava Pohrobka. Kottannerová byla s načasováním velmi spokojená:\n\n[[quote:1]]\n\nTím byl sňatkový plán u konce. 15. května byl dvanáctitýdenní kojenec ve Stoličném Bělehradě korunován uherským králem ukradenou korunou. Byla mu o hodně větší, takže ji arcibiskup musel na jeho hlavě přidržovat, a Kottannerová hrdě zaznamenala, že malý král držel hlavu jako roční dítě.\n\nUherské pány to nepřesvědčilo. 17. července korunovali ve stejném kostele Vladislava, a to korunou vypůjčenou z relikviáře svatého Štěpána. Jagellonci v [[link:two-kings-1438]]Čechách[[/link]] neuspěli, ale korunu našli v Uhrách. [[b]]Podruhé během tří let mělo jedno království dva krále, a tentokrát byl jeden z nich ještě kojený.[[/b]]\n\nV Uhrách se Alžbětě občanská válka nedařila. Koncem roku, když už neměla na vybranou, svěřila syna i svatou korunu vzdálenému habsburskému příbuznému Fridrichu III., kterého právě zvolili římským králem místo Albrechta. Fridrich si chlapce odvezl do Vídeňského Nového Města a nevypadalo to, že by ho chtěl pustit.",
+      zh: "阿尔布雷希特死的时候，王后伊丽莎白已经怀孕了。可匈牙利贵族不想等。奥斯曼人就在多瑙河对岸，他们要的是一个能上阵打仗的国王，而不是一个还没出生、说不定还是个女孩的孩子。他们看中了十六岁的波兰国王瓦迪斯瓦夫三世，也就是那位十岁“波希米亚国王”卡齐米日的哥哥。按照计划，他还要顺便娶了守寡的王后，新娘的年纪差不多是新郎的两倍。\n\n伊丽莎白表面上答应着，心里却在琢磨：万一生下来的是个儿子呢？她决定先下手为强。1440年2月20日夜里，她的侍女海伦娜·科坦纳潜入维舍格勒城堡的宝库，一个她始终没透露姓名的匈牙利帮手在一旁锉锁，那动静大得让她觉得整座城堡都听得见。他们拆开一个红色天鹅绒枕头，掏出些羽毛，把匈牙利的圣冠塞了进去。第二天一早，科坦纳带着王后的女官们和一架装着一只“贵重枕头”的雪橇，动身赶往科马罗姆。多瑙河还冻着，只是并非处处都冻得结实：\n\n[[quote:0]]\n\n王冠赶到科马罗姆，时间刚刚好。2月22日，伊丽莎白生下了一个儿子，史称“遗腹子拉迪斯拉夫”。科坦纳对这个时间点相当满意：\n\n[[quote:1]]\n\n婚约自然就不作数了。5月15日，这个十二周大的婴儿在塞克什白堡加冕为匈牙利国王，头上戴的正是那顶偷来的圣冠。王冠太大，只能由大主教在他头顶扶着；科坦纳骄傲地记下，小国王把头挺得像个一岁的孩子。\n\n匈牙利贵族可不吃这一套。7月17日，他们在同一座教堂里给瓦迪斯瓦夫加了冕，用的是从圣斯特凡圣骨匣上借来的一顶王冠。雅盖隆家族在[[link:two-kings-1438]]波希米亚[[/link]]没拿到的王冠，转身在匈牙利拿到了。[[b]]三年之内，又一个王国同时有了两个国王，而这一回，其中一个还在吃奶。[[/b]]\n\n匈牙利的内战，伊丽莎白打得越来越吃力。这年年底，走投无路的她把儿子连同圣冠一起交给了哈布斯堡的远亲腓特烈三世，他刚刚接替阿尔布雷希特，当选为罗马人的国王。腓特烈把孩子带回了维也纳新城，看样子压根没打算放人。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "The ice broke and the carriage toppled over, the ladies screamed, and there was much chaos and confusion.",
+          cz: "Led se prolomil a vůz se převrhl, dámy křičely a nastal veliký zmatek a chaos.",
+          zh: "冰面裂开了，车子翻倒，女官们尖叫起来，乱作一团。",
+        },
+        attribution: {
+          en: "Helene Kottanner, memoirs (from the English translation by Maya Bijvoet Williamson)",
+          cz: "Helena Kottannerová, paměti (podle anglického překladu Mayi Bijvoet Williamsonové)",
+          zh: "海伦娜·科坦纳回忆录（据玛雅·拜沃特·威廉森英译本）",
+        },
+      },
+      {
+        text: {
+          en: "It did not take half an hour before God Almighty had a young king ready for us.",
+          cz: "Netrvalo to ani půl hodiny a Bůh všemohoucí nám připravil mladého krále.",
+          zh: "还不到半个小时，全能的上帝就为我们备好了一位小国王。",
+        },
+        attribution: {
+          en: "Helene Kottanner, memoirs (from the English translation by Maya Bijvoet Williamson)",
+          cz: "Helena Kottannerová, paměti (podle anglického překladu Mayi Bijvoet Williamsonové)",
+          zh: "海伦娜·科坦纳回忆录（据玛雅·拜沃特·威廉森英译本）",
+        },
+      },
+    ],
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Helene_Kottanner",
+  },  {
+    slug: "a-kingdom-without-a-king-1440",
+    era: "lone-king",
+    images: ["/history/a-kingdom-without-a-king-1440.webp"],
+    imageCaptions: [
+      {
+        en: "Čáslav, March 1440: Hynce Ptáček presides as the East Bohemian lords, knights and towns seal their union, with the twenty-year-old George of Poděbrady at his side and a cat asleep on the empty throne.",
+        cz: "Čáslav, březen 1440: Hynce Ptáček předsedá, zatímco východočeští páni, rytíři a města pečetí svou jednotu; po jeho boku dvacetiletý Jiří z Poděbrad a na prázdném trůnu spí kočka.",
+        zh: "1440年3月，恰斯拉夫：普塔切克主持会议，东波希米亚的贵族、骑士和城市代表正为联盟盖印，二十岁的波杰布拉德的伊日站在他身旁，空王座上睡着一只猫。",
+      },
+    ],
+    startYear: 1440.5,
+    year: {
+      en: "1440",
+      cz: "1440",
+      zh: "1440年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Kingdom Without a King",
+      cz: "Království bez krále",
+      zh: "无王之国",
+    },
+    hookLine: {
+      en: "The throne was empty, the crown was locked in a castle and the heir was locked in Austria. The Bohemians would have to run things themselves.",
+      cz: "Trůn byl prázdný, koruna zamčená na hradě a dědic zavřený v Rakousku. Češi si museli vládnout sami.",
+      zh: "王位空着，王冠锁在城堡里，继承人锁在奥地利。波希米亚人只好自己管自己。",
+    },
+    summary: {
+      en: "When the news reached Prague, the people with most reason to cheer were the party that had backed Casimir: the king they had opposed was dead. The cheering did not last long. The Poles had already turned to the fight for Hungary and had no time left for Bohemia. [[b]]Their enemy was gone, and so was their backing.[[/b]]\n\nAs for the newborn baby, by Albert's hereditary claim he was heir to Bohemia too. But he was still being breastfed, he lived in Wiener Neustadt, and the Bohemian estates were not about to let the crown simply pass down the family.\n\nIn January 1440 the estates met in Prague and, for once, did not fall out. At Ptáček's urging the diet confirmed the Compacts and recognised Rokycana's election as archbishop, and Catholics and Utraquists agreed not to start killing each other again. The question of a king was harder. The estates elected Duke Albert III of Bavaria, and the duke politely said no. Perhaps he had been counting how long the last two had lasted.\n\nSo Bohemia settled into life without one. Lords, knights and towns formed regional peace unions, landfrídy in Czech, which collected their own taxes, raised their own troops, kept order and settled disputes. Each region became, more or less, a small state run by its nobles.\n\nThe kingdom split up accordingly. The Plzeň region in the west and [[link:who-was-oldrich-of-rozmberk-1434]]Oldřich of Rožmberk[[/link]] in the south stood with the Catholics. The highest office in the land, Supreme Burgrave of Prague, belonged to the Catholic lord Menhart of Hradec, who was also burgrave of Karlštejn, where the crown was kept. The east was Utraquist country. On 17 March 1440, at Čáslav, four regional unions joined into one, and at its head stood an old acquaintance: [[link:two-kings-1438]]Ptáček[[/link]].\n\nUnder him served a young man who turned twenty that year. Six years earlier, at fourteen, he had fought at Lipany, on the side that won.\n\n[[b]]His name was George of Poděbrady.[[/b]]",
+      cz: "Když zpráva dorazila do Prahy, nejvíc důvodů k radosti měla strana, která podporovala Kazimíra: král, proti kterému stáli, byl mrtvý. Radost ale dlouho nevydržela. Poláci se už pustili do boje o Uhry a na Čechy neměli čas. [[b]]Nepřítel byl pryč, jenže opora taky.[[/b]]\n\nA novorozeně? Podle Albrechtova dědického nároku bylo i dědicem českého trůnu. Jenže ho ještě kojili, bydlelo ve Vídeňském Novém Městě a čeští stavové nehodlali dopustit, aby se koruna prostě předala v rodině.\n\nV lednu 1440 se stavové sešli v Praze a tentokrát se nepohádali. Na Ptáčkův popud sněm potvrdil kompaktáta a uznal Rokycanovu volbu arcibiskupem a katolíci s kališníky se dohodli, že se zase nezačnou zabíjet. S králem to bylo těžší. Stavové zvolili bavorského vévodu Albrechta III. a vévoda zdvořile odmítl. Možná si spočítal, jak dlouho vydrželi poslední dva.\n\nČechy si tedy zvykaly žít bez krále. Páni, rytíři a města uzavírali krajské landfrídy, mírové jednoty, které samy vybíraly daně, najímaly vojsko, udržovaly pořádek a soudily spory. Z každého kraje se víceméně stal malý stát, kterému vládla šlechta.\n\nKrálovství se podle toho rozdělilo. Plzeňsko na západě a [[link:who-was-oldrich-of-rozmberk-1434]]Oldřich z Rožmberka[[/link]] na jihu stáli na straně katolíků. Nejvyšší úřad v zemi, nejvyššího purkrabího pražského, držel katolický pán Menhart z Hradce, zároveň purkrabí na Karlštejně, kde byla uložena koruna. Východ patřil kališníkům. 17. března 1440 se v Čáslavi spojily čtyři krajské landfrídy v jeden a v jeho čele stál starý známý: [[link:two-kings-1438]]Ptáček[[/link]].\n\nPod ním sloužil mladý muž, kterému toho roku bylo dvacet. Před šesti lety bojoval ve čtrnácti u Lipan, na straně, která vyhrála.\n\n[[b]]Jmenoval se Jiří z Poděbrad.[[/b]]",
+      zh: "消息传到布拉格，最该高兴的是当初拥立卡齐米日的那一派：他们反对的国王死了。可没高兴多久，他们就发现波兰人已经转身去匈牙利争王位，顾不上波希米亚了。[[b]]反对的人没了，撑腰的人也走了。[[/b]]\n\n至于那个刚出生的孩子，按阿尔布雷希特的继承权，他同样是波希米亚王位的继承人。可他还在吃奶，人在维也纳新城，捷克各等级也不打算让王冠就这么在一家人里传下去。\n\n1440年1月，各等级在布拉格开会，这回难得没有吵翻。在普塔切克的推动下，会议确认了《协定》，也承认了罗基察纳当选大主教的结果，天主教徒和圣杯派总算说好了不再动刀子。国王的事却难办得多。各等级推选巴伐利亚公爵阿尔布雷希特三世为国王，公爵客客气气地谢绝了。也许他一直在数，前两位国王各自坐了多久。\n\n于是，波希米亚过起了没有国王的日子。各地的贵族、骑士和城市结成了地区性的“和平联盟”，自己收税、自己养兵、自己维持治安、调解纠纷。每个地区差不多都成了一个由贵族说了算的小国。\n\n王国也就这样分成了几块。西边的比尔森一带和南边的[[link:who-was-oldrich-of-rozmberk-1434]]罗日姆贝克的奥尔德日赫[[/link]]站在天主教一边。全国最高的官职布拉格最高城堡伯爵，握在天主教贵族赫拉德茨的门哈特手里，他同时还兼任卡尔施泰因城堡的城堡伯爵，波希米亚王冠就锁在那里。东边则是圣杯派的天下。1440年3月17日，四个地区的联盟在恰斯拉夫合而为一，领头的正是我们的老熟人[[link:two-kings-1438]]普塔切克[[/link]]。\n\n他手下有个年轻人，这一年刚满二十岁。六年前在利帕尼，他十四岁就上了战场，站在赢的那一边。\n\n[[b]]他叫波杰布拉德的伊日。[[/b]]",
+    },
+    relatedLandmarks: [
+      {
+        slug: "karlstejn-castle",
+        relation: {
+          en: "Where the Bohemian crown was kept during the kingless years, in the hands of the Catholic lord Menhart of Hradec, burgrave of Karlštejn.",
+          cz: "Zde byla v letech bez krále uložena česká koruna, v rukou katolického pána Menharta z Hradce, purkrabího na Karlštejně.",
+          zh: "无王时期波希米亚王冠存放在这里，由兼任城堡伯爵的天主教贵族赫拉德茨的门哈特看管。",
+        },
+      },
+      {
+        slug: "caslav",
+        relation: {
+          en: "Where four East Bohemian regional unions joined into one under Hynce Ptáček on 17 March 1440.",
+          cz: "Zde se 17. března 1440 spojily čtyři východočeské krajské landfrídy v jeden pod vedením Hynce Ptáčka.",
+          zh: "1440年3月17日，东波希米亚四个地区的联盟在这里合而为一，由普塔切克领导。",
+        },
+      },
+      {
+        slug: "podebrady",
+        relation: {
+          en: "The family seat of George of Poděbrady, the young man in Ptáček's service.",
+          cz: "Rodové sídlo Jiřího z Poděbrad, mladého muže v Ptáčkových službách.",
+          zh: "波杰布拉德的伊日的家族领地，这位年轻人当时正在普塔切克手下效力。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Hynce_Pt%C3%A1%C4%8Dek_of_Pirk%C5%A1tejn",
+  },  {
+    slug: "the-man-who-took-up-the-banner-1444",
+    era: "lone-king",
+    images: ["/history/the-man-who-took-up-the-banner-1444.webp", "/history/the-man-who-took-up-the-banner-1444-varna.webp"],
+    imageCaptions: [
+      {
+        en: "August 1444: beside Hynce Ptáček's bier, his old comrades hand the Utraquist chalice banner to the twenty-four-year-old George of Poděbrady.",
+        cz: "Srpen 1444: u márů Hynce Ptáčka předávají jeho staří druhové kališnický prapor čtyřiadvacetiletému Jiřímu z Poděbrad.",
+        zh: "1444年8月：在普塔切克的灵柩旁，他的老战友们把圣杯派的旗帜交到了二十四岁的波杰布拉德的伊日手中。",
+      },
+      {
+        en: "Varna, 10 November 1444: the twenty-year-old Władysław III charges the janissaries in front of Sultan Murad II's camp.",
+        cz: "Varna, 10. listopadu 1444: dvacetiletý Vladislav III. útočí na janičáry před táborem sultána Murada II.",
+        zh: "1444年11月10日，瓦尔纳：二十岁的瓦迪斯瓦夫三世冲向苏丹穆拉德二世大营前的耶尼切里军阵。",
+      },
+    ],
+    startYear: 1444,
+    year: {
+      en: "1444",
+      cz: "1444",
+      zh: "1444年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Man Who Took Up the Banner",
+      cz: "Ten, kdo převzal prapor",
+      zh: "接过旗帜的人",
+    },
+    hookLine: {
+      en: "With Ptáček gone, the banner of East Bohemia passed to a twenty-four-year-old. That same year, far away by the Black Sea, another young man fell on the battlefield, crown and all.",
+      cz: "Po Ptáčkově smrti přešel prapor východních Čech do rukou čtyřiadvacetiletého mladíka. Téhož roku padl daleko u Černého moře na bojišti jiný mladý muž, i s korunou.",
+      zh: "普塔切克走了，东波希米亚的旗帜交到了一个二十四岁的年轻人手里。同一年，远在黑海边上，另一个年轻人连同他的王冠一起，倒在了战场上。",
+    },
+    summary: {
+      en: "In August 1444 Ptáček was taken ill on his way to a meeting and died a few days later at Rataje. The old campaigner had carried the Utraquists through the first kingless years. Once he was gone, nobody in the East Bohemian union commanded more respect than the young man who had stood at his side.\n\n[[link:a-kingdom-without-a-king-1440]]George of Poděbrady[[/link]] took up the banner. He was twenty-four, of noble birth but hardly from the grandest family, yet he had two things nobody else could match. His father had fought alongside the Hussites, so the Utraquists trusted the name. And he himself could talk, count and make friends, so that even the Catholics who dealt with him found little to complain about. [[b]]From that year on, the eastern half of Bohemia more or less did as he said.[[/b]]\n\nMeanwhile, Hungary was still fighting over the [[link:the-stolen-crown-1440]]crown from the pillow[[/link]].\n\nThe baby king Ladislaus had a Czech fighting for him: Jan Jiskra of Brandýs. The irony was that in the Hussite wars Jiskra had been on the other side; in 1434 he had helped defend Plzeň against the radicals' siege. But he had learned the Hussite way of fighting thoroughly, and when Queen Elizabeth sent him into Upper Hungary in 1440, the region that is now Slovakia, most of his five thousand mercenaries were Hussite veterans. He took towns, held castles and collected taxes in the name of a king who was still being breastfed, and ran the whole region as if it were his own kingdom. The Hungarians could not control him, and could not do without him.\n\nOn the other side, [[link:the-stolen-crown-1440]]Władysław III[[/link]], the Polish teenager invited to be King of Hungary at fifteen, was now twenty. He did not want to be the king who fought a baby for a throne; he wanted to be the hero who beat the Turks. On 10 November 1444 he led a crusade against Sultan Murad II at Varna, on the Black Sea coast. The Hungarian general John Hunyadi urged him to hold his ground behind a wagon fort, the tactic Hungary had learned from the Hussites. But the young king could not wait, and charged the sultan's camp at the head of his guard.\n\nHe never came back. The Turks cut off his head, preserved it in honey and took it home to show off. But since his body was never found, for decades afterwards people kept insisting he was still alive.\n\n[[b]]Jiskra had not lifted a finger at Varna, and he had won.[[/b]] With their rival gone, the Hungarians had little choice but to accept as their king the boy who was being kept in Wiener Neustadt. His guardian Frederick, though, was still not letting him go.\n\nIn Bohemia, George was already turning his mind to something else. The east was his now, but Prague was still in the hands of Menhart and the Catholic party.",
+      cz: "V srpnu 1444 se Ptáčkovi cestou na jednání udělalo zle a o pár dní později zemřel v Ratajích. Starý bojovník provedl kališníky prvními lety bez krále. Když odešel, nikdo ve východočeské jednotě neměl větší vážnost než mladý muž, který stál po jeho boku.\n\n[[link:a-kingdom-without-a-king-1440]]Jiří z Poděbrad[[/link]] převzal prapor. Bylo mu čtyřiadvacet, byl šlechtic, ale z rodu, který k nejpřednějším nepatřil, a přesto měl dvě věci, kterým se nikdo nevyrovnal. Jeho otec bojoval po boku husitů, takže kališníci tomu jménu věřili. A sám uměl mluvit, počítat a získávat přátele, takže i katolíci, kteří s ním jednali, mu neměli co vytknout. [[b]]Od toho roku se východní polovina Čech víceméně řídila tím, co řekl.[[/b]]\n\nUhry se mezitím pořád rvaly o [[link:the-stolen-crown-1440]]korunu z polštáře[[/link]].\n\nZa kojence Ladislava bojoval Čech: Jan Jiskra z Brandýsa. Paradoxem bylo, že v husitských válkách stál Jiskra na druhé straně; roku 1434 pomáhal bránit Plzeň před obležením radikálů. Husitský způsob boje se však naučil důkladně, a když ho královna Alžběta roku 1440 poslala do Horních Uher, dnešního Slovenska, byli jeho pět tisíc žoldnéřů většinou husitští veteráni. Dobýval města, držel hrady a vybíral daně jménem krále, kterého ještě kojili, a celý kraj spravoval, jako by to bylo jeho vlastní království. Uhři ho nedokázali zvládnout, ale ani se bez něj neobešli.\n\nNa druhé straně stál [[link:the-stolen-crown-1440]]Vladislav III.[[/link]], polský mladík, kterého si Uhři v patnácti pozvali za krále. Teď mu bylo dvacet. Nechtěl být králem, který se o trůn přetahuje s kojencem; chtěl být hrdinou, který porazí Turky. 10. listopadu 1444 vedl křížovou výpravu proti sultánu Muradovi II. u Varny na pobřeží Černého moře. Uherský vojevůdce Jan Hunyadi mu radil, ať drží pozici za vozovou hradbou, tedy taktikou, kterou se Uhři naučili od husitů. Mladý král ale nevydržel čekat a se svou gardou vyrazil na sultánův tábor.\n\nUž se nevrátil. Turci mu usekli hlavu, naložili ji do medu a odvezli ji domů na odiv. Protože se ale jeho tělo nikdy nenašlo, lidé ještě desítky let tvrdili, že žije.\n\n[[b]]Jiskra u Varny nehnul ani prstem, a přesto vyhrál.[[/b]] Když byl soupeř pryč, Uhrům nezbylo než uznat za krále chlapce, kterého drželi ve Vídeňském Novém Městě. Jeho poručník Fridrich ho ale pořád nechtěl pustit.\n\nV Čechách už Jiří přemýšlel o něčem jiném. Východ byl jeho, ale Praha byla pořád v rukou Menharta a katolické strany.",
+      zh: "1444年8月，普塔切克在去开会的路上突然病倒，几天后死在了拉塔耶。这位老将带着圣杯派撑过了没有国王的头几年。他一走，东波希米亚的联盟里，已经没人比当初站在他身边的那个年轻人更服众了。\n\n[[link:a-kingdom-without-a-king-1440]]波杰布拉德的伊日[[/link]]接过了旗帜。他二十四岁，出身贵族，却算不上顶尖的豪门，可他有两样别人比不了的东西。一是他的父亲当年跟着胡斯派打过仗，圣杯派信得过这个姓氏。二是他自己会说话、会算账、会交朋友，连天主教那边的人和他打交道，也挑不出什么毛病。[[b]]从这一年起，波希米亚的东半边，基本是他说了算。[[/b]]\n\n与此同时，匈牙利还在为那顶[[link:the-stolen-crown-1440]]枕头里的圣冠[[/link]]打得不可开交。\n\n替婴儿国王拉迪斯拉夫卖命的，是一个捷克人：布兰迪斯的扬·吉斯克拉。说来讽刺，他在胡斯战争里是站在对面的，1434年还帮着守过比尔森，抵抗激进派的围城。可他把胡斯派那套打法学得一清二楚，1440年受王后伊丽莎白之托，开进上匈牙利，也就是今天的斯洛伐克时，手下的五千雇佣兵大多是胡斯派老兵。他占城、守堡、收税，打着一个还在吃奶的国王的旗号，把那一大片地方经营得像自己的王国。匈牙利人管不了他，也离不开他。\n\n另一边的[[link:the-stolen-crown-1440]]瓦迪斯瓦夫三世[[/link]]，那个十五岁就被请去当匈牙利国王的波兰少年，如今二十岁了。他不想只当一个和婴儿抢王位的国王，他要当打败土耳其人的英雄。1444年11月10日，他带着十字军在黑海边的瓦尔纳与苏丹穆拉德二世决战。匈牙利将军匈雅提·亚诺什劝他稳住阵脚，躲在车堡后面打，这正是匈牙利人从胡斯派那里学来的战术。可年轻的国王等不及，亲自带着卫队冲向了苏丹的大营。\n\n他再也没有回来。他的头颅被土耳其人砍下，泡在蜂蜜里带回去示众。可因为尸体一直没找到，此后几十年里，不断有人说他其实还活着。\n\n[[b]]瓦尔纳这一仗，吉斯克拉一兵未动，却赢了。[[/b]]对手没了，匈牙利人只好承认那个被留在维也纳新城的孩子是他们的国王。只是他的监护人腓特烈，还是不肯放人。\n\n而在波希米亚，伊日已经在盘算另一件事。东边是他的了，可布拉格还握在门哈特和天主教一派手里。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "rataje-nad-sazavou",
+        relation: {
+          en: "Where Hynce Ptáček of Pirkštejn died in August 1444, leaving the leadership of East Bohemia to George of Poděbrady.",
+          cz: "Zde v srpnu 1444 zemřel Hynce Ptáček z Pirkštejna a vedení východních Čech přešlo na Jiřího z Poděbrad.",
+          zh: "1444年8月，普塔切克在这里去世，东波希米亚的领导权由此落到了波杰布拉德的伊日手中。",
+        },
+      },
+      {
+        slug: "podebrady",
+        relation: {
+          en: "The family seat of George of Poděbrady, from 1444 the leading man of East Bohemia.",
+          cz: "Rodové sídlo Jiřího z Poděbrad, od roku 1444 vůdčí osobnosti východních Čech.",
+          zh: "波杰布拉德的伊日的家族领地。从1444年起，他成了东波希米亚的头号人物。",
+        },
+      },
+      {
+        slug: "plzen",
+        relation: {
+          en: "Which Jan Jiskra of Brandýs helped defend against the radical Hussites in 1434, before he took his Hussite-trained mercenaries to Hungary.",
+          cz: "Jan Jiskra z Brandýsa ji roku 1434 pomáhal bránit před radikálními husity, než odvedl své husitsky vycvičené žoldnéře do Uher.",
+          zh: "1434年，吉斯克拉曾帮助比尔森抵抗激进派胡斯军的围城，后来才带着学会了胡斯派战法的雇佣兵去了匈牙利。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/George_of_Pod%C4%9Bbrady",
+  },  {
+    slug: "the-compacts-chased-down-1448",
+    era: "lone-king",
+    images: ["/history/the-compacts-chased-down-1448.webp"],
+    imageCaptions: [
+      {
+        en: "Near Benešov, May 1448: the riders sent after Cardinal Carvajal stop his carriage and hold up the recovered Compacts, seals and all.",
+        cz: "U Benešova, květen 1448: jezdci vyslaní za kardinálem Carvajalem zastavují jeho vůz a zvedají nad hlavu získaná kompaktáta i s pečetěmi.",
+        zh: "1448年5月，贝内绍夫附近：追赶卡瓦哈尔枢机的骑手们拦下了他的马车，高高举起要回来的《协定》，上面的印章一个不少。",
+      },
+    ],
+    startYear: 1448,
+    year: {
+      en: "1448",
+      cz: "1448",
+      zh: "1448年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Compacts Chased Down",
+      cz: "Dostižená kompaktáta",
+      zh: "追回来的协定",
+    },
+    hookLine: {
+      en: "The pope's legate came to Prague as a guest, left without saying goodbye, and took something with him on the way out.",
+      cz: "Papežův legát přijel do Prahy jako host, odjel bez rozloučení a cestou si něco přibral.",
+      zh: "教皇的使节来布拉格做客，走的时候没打招呼，还顺手带走了一样东西。",
+    },
+    summary: {
+      en: "In the spring of 1448 Prague had a distinguished visitor: the papal legate, Cardinal Juan Carvajal. The Utraquists had high hopes of him. For more than a decade they had been waiting for Rome to recognise two things: the [[link:what-did-the-compacts-grant-1436]]Compacts[[/link]], and Rokycana, the archbishop they had elected themselves.\n\nCarvajal stayed in Prague for several weeks. He listened to everyone, preached around the city and was courteous to all, but he would not budge. The Compacts? Those could be discussed further. Rokycana? No.\n\nHe also asked to see the original document of the Compacts, and the Praguers lent it to him.\n\nOn 23 May 1448 he left without a word.\n\nPrague soon discovered that the legate, for all his haste, had not forgotten to pack the document he had borrowed. That sheet of parchment had cost the Hussites more than a decade of war and years of haggling at the negotiating table. The city was in uproar, and the estates sent a troop of horsemen after him. They rode some forty kilometres before they caught up with the cardinal at Benešov, and after a good deal of argument they got the Compacts back.\n\nEveryone seemed to be stealing important things those years: first [[link:the-stolen-crown-1440]]a crown[[/link]], now a treaty. [[b]]The difference was that last time the thief got away, and this time he did not.[[/b]]\n\nThe Compacts were back, but the gloves were off. Rome's position could not have been clearer: whatever the Compacts said, the Church had no intention of really honouring them. And in Prague, Menhart and the Catholic party were still in charge. Nearly twenty years of Hussite fighting and bleeding looked about to come to nothing.\n\nSome people felt it was time for someone else to run Prague. If nothing else, they owed it to everyone who had died for the chalice.",
+      cz: "Na jaře 1448 měla Praha vzácného hosta: papežského legáta, kardinála Juana Carvajala. Kališníci do něj vkládali velké naděje. Víc než deset let čekali, až Řím uzná dvě věci: [[link:what-did-the-compacts-grant-1436]]kompaktáta[[/link]] a Rokycanu, arcibiskupa, kterého si sami zvolili.\n\nCarvajal zůstal v Praze několik týdnů. Všechny vyslechl, kázal po městě a ke každému byl zdvořilý, ale neustoupil ani o píď. Kompaktáta? O těch se dá ještě jednat. Rokycana? Ne.\n\nPožádal také, aby mohl nahlédnout do originální listiny kompaktát, a Pražané mu ji půjčili.\n\n23. května 1448 bez rozloučení odjel.\n\nPraha brzy zjistila, že pan legát při všem spěchu nezapomněl přibalit listinu, kterou si vypůjčil. Ten kus pergamenu stál husity víc než deset let války a léta smlouvání u jednacího stolu. Ve městě se strhla veliká bouře a stavové za ním poslali oddíl jezdců. Ujeli asi čtyřicet kilometrů, než kardinála dostihli v Benešově, a po dlouhém dohadování kompaktáta dostali zpátky.\n\nJako by v těch letech všichni kradli důležité věci: nejdřív [[link:the-stolen-crown-1440]]korunu[[/link]], teď smlouvu. [[b]]Rozdíl byl v tom, že minule zloděj utekl, a tentokrát ne.[[/b]]\n\nKompaktáta byla zpátky, ale rukavice padly. Postoj Říma nemohl být jasnější: ať v kompaktátech stálo cokoli, církev je doopravdy dodržovat nehodlala. A v Praze pořád vládl Menhart a katolická strana. Zdálo se, že skoro dvacet let husitských bojů a prolité krve přijde vniveč.\n\nNěkteří usoudili, že je načase, aby Prahu spravoval někdo jiný. Už jen kvůli všem, kdo za kalich padli.",
+      zh: "1448年春天，布拉格来了一位贵客：教皇使节卡瓦哈尔枢机。圣杯派对他寄予厚望。他们等了十多年，就等罗马点头承认两件事：一是[[link:what-did-the-compacts-grant-1436]]《巴塞尔协定》[[/link]]，二是他们自己选出来的大主教罗基察纳。\n\n卡瓦哈尔在布拉格住了好几个星期。他听大家说话，四处讲道，对谁都客客气气，可就是不松口。协定？可以再商量。罗基察纳？不行。\n\n他还提出想看看《协定》的原件，布拉格人就把那份文书借给了他。\n\n1448年5月23日，他不辞而别。\n\n布拉格人很快发现，使节大人走得很匆忙，却没忘了带上那份借去看的原件。那张羊皮纸，是胡斯派打了十几年仗、又在谈判桌上磨了好几年才换回来的。城里一片哗然，各等级立刻派出一队骑手追了上去。他们一口气追出四十来公里，在贝内绍夫拦下了枢机，费了好一番口舌，硬是把协定要了回来。\n\n这几年，好像人人都在偷重要的东西：先是[[link:the-stolen-crown-1440]]一顶王冠[[/link]]，现在又是一纸协定。[[b]]只不过上一回偷东西的人得手了，这一回没跑掉。[[/b]]\n\n协定是追回来了，可脸也撕破了。罗马的态度再明白不过：不管协定上写了什么，教会都不打算真的认账。而布拉格城里，当家的还是门哈特和天主教一派。胡斯派近二十年拼过的命、流过的血，眼看就要白费了。\n\n有人觉得，该换个人来管布拉格了。至少，也该对得起那些为圣杯战死的人。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "Where the Prague councillors negotiated with Cardinal Carvajal in 1448 and lent him the original Compacts.",
+          cz: "Zde roku 1448 pražští konšelé jednali s kardinálem Carvajalem a půjčili mu originál kompaktát.",
+          zh: "1448年，布拉格议员们在这里和卡瓦哈尔枢机谈判，还把《协定》的原件借给了他。",
+        },
+      },
+      {
+        slug: "tyn-church",
+        relation: {
+          en: "The church of Jan Rokycana, the elected archbishop whom Carvajal refused to recognise.",
+          cz: "Kostel Jana Rokycany, zvoleného arcibiskupa, kterého Carvajal odmítl uznat.",
+          zh: "扬·罗基察纳的教堂。卡瓦哈尔拒绝承认的，正是这位当选的大主教。",
+        },
+      },
+      {
+        slug: "zamek-konopiste",
+        relation: {
+          en: "The castle just outside Benešov, where the horsemen caught up with Cardinal Carvajal on his way out of Bohemia in May 1448 and got the Compacts back.",
+          cz: "Zámek kousek od Benešova, kde jezdci v květnu 1448 dostihli kardinála Carvajala na cestě z Čech a vymohli si kompaktáta zpět.",
+          zh: "城堡就在贝内绍夫城外。1448年5月，骑手们在贝内绍夫追上了正要离开波希米亚的卡瓦哈尔枢机，把《协定》要了回来。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Juan_Carvajal_(cardinal)",
+  },  {
+    slug: "prague-in-a-single-night-1448",
+    era: "lone-king",
+    images: ["/history/prague-in-a-single-night-1448.webp"],
+    imageCaptions: [
+      {
+        en: "The night of 2 September 1448: men already inside open a Prague gate as George of Poděbrady rides in at the head of his torchlit column, while a trumpeter on the wall sounds the signal.",
+        cz: "Noc na 3. září 1448: muži, kteří už pronikli dovnitř, otevírají pražskou bránu a Jiří z Poděbrad vjíždí v čele svého průvodu s pochodněmi, zatímco trubač na hradbách dává znamení.",
+        zh: "1448年9月2日夜：已经进城的士兵打开了布拉格的一座城门，波杰布拉德的伊日率领举着火把的队伍策马而入，城墙上的号手吹响了信号。",
+      },
+    ],
+    startYear: 1448.7,
+    year: {
+      en: "September 1448",
+      cz: "Září 1448",
+      zh: "1448年9月",
+    },
+    tone: "humorous",
+    title: {
+      en: "Prague in a Single Night",
+      cz: "Praha za jedinou noc",
+      zh: "一夜拿下布拉格",
+    },
+    hookLine: {
+      en: "Without so much as a warning, the twenty-eight-year-old George made Prague his own in a single night.",
+      cz: "Osmadvacetiletý Jiří bez jediného varování udělal z Prahy během jedné noci svou.",
+      zh: "二十八岁的伊日没打一声招呼，一夜之间就把布拉格变成了自己的。",
+    },
+    summary: {
+      en: "The Church, it turned out, kept its word about as well as Sigismund had. The Compacts that the older generation had paid for in blood meant nothing to Rome, and nobody was angrier about it than George and his eastern union. His party had trusted the promises made at Basel; that was why they had joined the Catholic lords to crush the field armies at Lipany. Now that battle looked as if it had been fought for nothing.\n\nIn the summer of 1448 George gathered an army at Kutná Hora, officially for a campaign against Saxony. But at the end of August the troops did not head for Saxony. They marched west and made camp south-east of Prague, around Běchovice and Dolní Počernice.\n\nOn the night of 2 September 1448 he struck. A force made up mostly of men from Hradec Králové stormed the weakly held fortress of Vyšehrad, quickly overpowered the startled garrison, opened one of the city gates and sounded the trumpets. A second column slipped into the city near Karlov and, shouting \"Kunštát, charge! Hradec, charge!\", marched through the New Town almost unopposed, all the way to the Old Town Square, where it took the Old Town Hall.\n\nWhen the Praguers woke up the next morning, the streets were full of East Bohemian soldiers. [[b]]By most accounts only one or two men died that night, and the capital of a kingdom changed hands.[[/b]]\n\nMenhart hid for a few days before someone gave him away. He spent five months in prison, fell ill, and was released on 1 February 1449. Two days later he died at Říčany, on his way to Karlštejn. The Catholic side later accused George of poisoning him, but nobody ever proved it.\n\n[[link:a-throne-for-one-year-1437]]Rokycana[[/link]], driven out of Prague eleven years earlier, came back from Hradec Králové on 10 September and returned to the pulpit of the Týn church. Later a huge golden chalice was raised high on the Týn church's gable, where the whole Old Town could see it.\n\nThe Catholic lords were furious. In February 1449 they formed a league at Strakonice in South Bohemia, led by the [[link:who-was-oldrich-of-rozmberk-1434]]Rožmberks[[/link]], to settle accounts with George.\n\n[[b]]None of that changed one fact: Bohemia still had no king, but its capital now had a master.[[/b]]",
+      cz: "Ukázalo se, že církev drží slovo asi tak jako kdysi Zikmund. Kompaktáta, která starší generace vykoupila krví, pro Řím nic neznamenala, a nikdo se kvůli tomu nezlobil víc než Jiří a jeho východní jednota. Jeho strana věřila slibům z Basileje; právě proto se spojila s katolickými pány a u Lipan rozdrtila polní vojska. Teď to vypadalo, že ta bitva byla k ničemu.\n\nV létě 1448 shromáždil Jiří vojsko v Kutné Hoře, oficiálně na tažení proti Sasku. Koncem srpna však vojsko do Saska nezamířilo. Táhlo na západ a utábořilo se jihovýchodně od Prahy, u Běchovic a Dolních Počernic.\n\nV noci na 3. září 1448 udeřil. Oddíl složený hlavně z Hradečanů přepadl slabě hájený Vyšehrad, rychle přemohl zaskočenou posádku, otevřel jednu z městských bran a dal troubit. Druhý proud pronikl do města u Karlova a s pokřikem „Kunštát hr! Hradec hr!“ prošel téměř bez odporu Novým Městem až na Staroměstské náměstí, kde obsadil Staroměstskou radnici.\n\nKdyž se Pražané druhý den ráno probudili, ulice byly plné východočeských vojáků. [[b]]Té noci prý padli jen jeden nebo dva muži, a hlavní město království změnilo pána.[[/b]]\n\nMenhart se několik dní skrýval, než ho někdo prozradil. Pět měsíců strávil ve vězení, onemocněl a 1. února 1449 byl propuštěn. O dva dny později zemřel v Říčanech, na cestě na Karlštejn. Katolická strana později obvinila Jiřího, že ho otrávil, ale nikdo to nikdy nedokázal.\n\n[[link:a-throne-for-one-year-1437]]Rokycana[[/link]], kterého z Prahy vyhnali před jedenácti lety, se 10. září vrátil z Hradce Králové a znovu stanul na kazatelně Týnského chrámu. Později byl vysoko na štítu Týnského chrámu vztyčen obrovský zlatý kalich, který bylo vidět z celého Starého Města.\n\nKatoličtí páni zuřili. V únoru 1449 uzavřeli ve Strakonicích v jižních Čechách jednotu, v jejímž čele stáli [[link:who-was-oldrich-of-rozmberk-1434]]Rožmberkové[[/link]], aby si to s Jiřím vyřídili.\n\n[[b]]Na jednom faktu to už nic nezměnilo: Čechy pořád neměly krále, ale jejich hlavní město teď mělo pána.[[/b]]",
+      zh: "教会和西吉斯蒙德一样不讲信用。前辈们用鲜血换来的协定，罗马根本不当回事，最气不过的就是伊日和他东边的联盟。当年他们这一派正是信了巴塞尔的承诺，才和天主教贵族联手，在利帕尼打垮了野战军。如今看来，那一仗像是白打了。\n\n1448年夏天，伊日在库特纳霍拉集结军队，对外宣称是要去打萨克森。可到了8月底，队伍并没有往萨克森去，而是掉头向西，在布拉格东南的贝霍维采和下波切尔尼采一带扎下了营。\n\n1448年9月2日夜里，他动手了。一支以赫拉德茨-克拉洛韦人为主的队伍突袭了防守薄弱的维谢赫拉德，很快制服了措手不及的守军，打开一座城门，吹起号角报捷。另一路人马从卡尔洛夫附近摸进城，一路喊着“昆什塔特，冲啊！赫拉德茨，冲啊！”，几乎没遇到抵抗就穿过了新城，直抵老城广场，占领了老城市政厅。\n\n等布拉格人第二天早上醒来，街上已经站满了东波希米亚的士兵。[[b]]据说这一夜只死了一两个人，一个王国的首都就这样换了主人。[[/b]]\n\n门哈特躲了几天，还是被人出卖，抓了起来。他在牢里关了五个月，病倒了，1449年2月1日获释，两天后就死在了前往卡尔施泰因途中的里查尼。天主教一方后来指控伊日毒死了他，可这件事始终拿不出证据。\n\n被赶出布拉格十一年的[[link:a-throne-for-one-year-1437]]罗基察纳[[/link]]，9月10日从赫拉德茨-克拉洛韦回来了，重新站上了泰恩教堂的讲台。后来，泰恩教堂高高的山墙上竖起了一只巨大的金色圣杯，整座老城抬头就能看见。\n\n天主教贵族们气坏了。1449年2月，他们在南波希米亚的斯特拉科尼采结成同盟，由[[link:who-was-oldrich-of-rozmberk-1434]]罗日姆贝克家族[[/link]]领头，要跟伊日算账。\n\n[[b]]但这已经改变不了一个事实：波希米亚仍然没有国王，可它的首都，如今有了一个主人。[[/b]]",
+    },
+    relatedLandmarks: [
+      {
+        slug: "kutna-hora",
+        relation: {
+          en: "Where George gathered his army in the summer of 1448, officially for a campaign against Saxony.",
+          cz: "Zde Jiří v létě 1448 shromáždil vojsko, oficiálně na tažení proti Sasku.",
+          zh: "1448年夏天，伊日在这里集结军队，对外宣称要去打萨克森。",
+        },
+      },
+      {
+        slug: "hostinec-na-stare-poste-bechovice",
+        relation: {
+          en: "Běchovice, where George's army camped south-east of Prague before the night attack of September 1448.",
+          cz: "Běchovice, kde se Jiřího vojsko před nočním útokem v září 1448 utábořilo jihovýchodně od Prahy.",
+          zh: "贝霍维采。1448年9月夜袭之前，伊日的军队在布拉格东南的这一带扎营。",
+        },
+      },
+      {
+        slug: "kostel-nanebevzeti-panny-marie-dolni-pocernice",
+        relation: {
+          en: "Dolní Počernice, the other camp of George's army before it moved on Prague in September 1448.",
+          cz: "Dolní Počernice, druhé ležení Jiřího vojska, než v září 1448 vytáhlo na Prahu.",
+          zh: "下波切尔尼采。1448年9月进军布拉格之前，伊日军队的另一处营地就在这里。",
+        },
+      },
+      {
+        slug: "vysehrad",
+        relation: {
+          en: "Stormed on the night of 2 September 1448 by men from Hradec Králové, who then opened a city gate for George.",
+          cz: "V noci na 3. září 1448 ho přepadli Hradečané a pak Jiřímu otevřeli městskou bránu.",
+          zh: "1448年9月2日夜里，赫拉德茨-克拉洛韦人突袭了这里，随后为伊日打开了一座城门。",
+        },
+      },
+      {
+        slug: "karlov-church",
+        relation: {
+          en: "Near where the second column of George's men slipped into Prague on the night of 2 September 1448.",
+          cz: "Nedaleko odtud pronikl v noci na 3. září 1448 do Prahy druhý proud Jiřího mužů.",
+          zh: "1448年9月2日夜里，伊日的第二路人马就是从这附近摸进布拉格的。",
+        },
+      },
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "Taken by George's men on the night of 2 September 1448, after they had marched through the New Town almost unopposed.",
+          cz: "Obsadili ji Jiřího muži v noci na 3. září 1448, když téměř bez odporu prošli Novým Městem.",
+          zh: "1448年9月2日夜里，伊日的人马几乎没遇抵抗就穿过新城，占领了这里。",
+        },
+      },
+      {
+        slug: "tyn-church",
+        relation: {
+          en: "Where Jan Rokycana returned to preach on 10 September 1448, after eleven years in exile; a golden chalice was later raised on its gable.",
+          cz: "Sem se 10. září 1448 vrátil kázat Jan Rokycana po jedenácti letech ve vyhnanství; na štít chrámu byl později vztyčen zlatý kalich.",
+          zh: "1448年9月10日，流亡了十一年的罗基察纳回到这里讲道；后来教堂山墙上竖起了一只金色圣杯。",
+        },
+      },
+      {
+        slug: "brana-spicka",
+        relation: {
+          en: "Near the Špička fortification, where the men from Hradec Králové broke into Vyšehrad on the night of 2 September 1448.",
+          cz: "U opevnění Špička vnikli v noci na 3. září 1448 Hradečané na Vyšehrad.",
+          zh: "1448年9月2日夜里，赫拉德茨-克拉洛韦人就是在什皮奇卡要塞附近攻入维谢赫拉德的。",
+        },
+      },
+      {
+        slug: "hradec-kralove",
+        relation: {
+          en: "Home of the men who led the night attack on Prague in 1448, and Jan Rokycana's refuge during his eleven years of exile.",
+          cz: "Domov mužů, kteří roku 1448 vedli noční útok na Prahu, a útočiště Jana Rokycany během jedenácti let vyhnanství.",
+          zh: "1448年夜袭布拉格的主力就来自这里；罗基察纳流亡的十一年里，也一直躲在这座城。",
+        },
+      },
+      {
+        slug: "ricany",
+        relation: {
+          en: "Where Menhart of Hradec died on 3 February 1449, two days after his release from George's prison.",
+          cz: "Zde 3. února 1449 zemřel Menhart z Hradce, dva dny po propuštění z Jiřího vězení.",
+          zh: "1449年2月3日，门哈特在获释两天后死在这里。",
+        },
+      },
+      {
+        slug: "hrad-strakonice",
+        relation: {
+          en: "Where the Catholic lords formed the Strakonice league against George in February 1449.",
+          cz: "Zde v únoru 1449 uzavřeli katoličtí páni proti Jiřímu strakonickou jednotu.",
+          zh: "1449年2月，天主教贵族在这里结成了对抗伊日的斯特拉科尼采同盟。",
+        },
+      },
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "At the heart of Prague Castle, the seat of power in the kingdom, which changed hands overnight in September 1448.",
+          cz: "V srdci Pražského hradu, mocenského centra království, které v září 1448 přes noc změnilo pána.",
+          zh: "位于布拉格城堡的中心。这里是王国的权力中心，1448年9月，一夜之间换了主人。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Dobyt%C3%AD_Prahy_(1448)",
+  },  {
+    slug: "the-hussite-regent-1450",
+    era: "lone-king",
+    images: ["/history/the-hussite-regent-1450.webp"],
+    imageCaptions: [
+      {
+        en: "Prague, 27 April 1452: the estates raise their hands to elect George of Poděbrady administrator of the kingdom, as he stands beside the still-empty throne.",
+        cz: "Praha, 27. dubna 1452: stavové zvedají ruce a volí Jiřího z Poděbrad zemským správcem, zatímco on stojí vedle trůnu, který zůstává prázdný.",
+        zh: "1452年4月27日，布拉格：各等级举手选举波杰布拉德的伊日为摄政，他就站在依旧空着的王座旁边。",
+      },
+    ],
+    startYear: 1450,
+    year: {
+      en: "1450–1452",
+      cz: "1450–1452",
+      zh: "1450–1452年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Hussite Regent",
+      cz: "Husitský správce země",
+      zh: "胡斯派摄政王",
+    },
+    hookLine: {
+      en: "The Catholic lords set out to settle accounts with George. Two years later, the emperor himself was confirming him as the man who ran Bohemia.",
+      cz: "Katoličtí páni si to s Jiřím chtěli vyřídit. O dva roky později ho sám císař potvrzoval jako muže, který Čechy spravuje.",
+      zh: "天主教贵族们要跟伊日算账。两年后，连皇帝都亲自承认，波希米亚归他来管了。",
+    },
+    summary: {
+      en: "The Strakonice league made a lot of noise, but once the fighting started, the Rožmberks found George much harder to deal with than they had expected. On 4 June 1450, near Rokycany, his army attacked the league's forces and, mostly thanks to its guns, sent them running. The league asked for a truce, and by 1451 it had more or less fallen apart. One by one the Catholic lords came back to the negotiating table, much as the crusaders once had.\n\nThere was an irony in it. At fourteen, George had helped destroy the Hussite field armies at Lipany. Twenty years on, nobody in Bohemia handled their way of fighting, wagons and guns together, better than he did.\n\nIn July 1451 a familiar visitor came to the diet at Benešov as the emperor's envoy: [[link:undefeated-until-the-plague-1424]]Aeneas Silvius Piccolomini[[/link]]. He talked with George through an interpreter and was impressed. He was less impressed by Tábor, which he also visited:\n\n[[quote:0]]\n\nThat autumn Emperor Frederick III, who still had no intention of handing over young Ladislaus, recognised George as administrator of the kingdom instead. On 27 April 1452, at the St. George's diet in Prague, the estates made it official and elected him administrator for two years. Bohemia still had no king, but it now had a regent everyone, more or less, had agreed to.\n\n[[b]]A Utraquist lord was running Bohemia, and the emperor had put his name to it: for the first time, the Hussite side had a regent the emperor himself recognised, not just some \"heretic\".[[/b]]",
+      cz: "Strakonická jednota nadělala hodně hluku, ale jakmile se začalo bojovat, Rožmberkové zjistili, že Jiří je mnohem tvrdší oříšek, než čekali. 4. června 1450 u Rokycan zaútočilo jeho vojsko na oddíly jednoty a hlavně díky dělům je zahnalo na útěk. Jednota požádala o příměří a do roku 1451 se víceméně rozpadla. Katoličtí páni se jeden po druhém vraceli k jednacímu stolu, podobně jako kdysi křižáci.\n\nByla v tom ironie. Ve čtrnácti Jiří pomáhal u Lipan zničit husitská polní vojska. O dvacet let později nikdo v Čechách neovládal jejich způsob boje, vozy a děla dohromady, lépe než on.\n\nV červenci 1451 přijel na sněm do Benešova jako císařův vyslanec starý známý: [[link:undefeated-until-the-plague-1424]]Enea Silvio Piccolomini[[/link]]. S Jiřím mluvil přes tlumočníka a udělal na něj velký dojem. Méně ho nadchl Tábor, který také navštívil:\n\n[[quote:0]]\n\nNa podzim pak císař Fridrich III., který mladého Ladislava pořád nehodlal vydat, uznal Jiřího alespoň za správce království. 27. dubna 1452 to stavové na svatojiřském sněmu v Praze zpečetili a zvolili ho zemským správcem na dva roky. Čechy pořád neměly krále, ale měly správce, na kterém se víceméně všichni shodli.\n\n[[b]]Čechy spravoval kališnický pán a císař k tomu připojil svůj podpis: poprvé měla husitská strana správce země, kterého uznal sám císař, a ne nějakého „kacíře“.[[/b]]",
+      zh: "斯特拉科尼采同盟来势汹汹，可真打起来，罗日姆贝克家族很快发现，伊日比他们想象的难对付得多。1450年6月4日，在罗基察尼附近，伊日的军队向同盟的人马发起进攻，主要靠着火炮把他们打得四散奔逃。同盟只好求和，到1451年，基本已经散了架。天主教贵族一个接一个回到谈判桌前，就像当年的十字军一样。\n\n这里头有点讽刺。伊日十四岁时，在利帕尼帮着打垮了胡斯派的野战军；二十年后，在整个波希米亚，把胡斯派那套战车加火炮的打法用得最熟的，偏偏就是他。\n\n1451年7月，一位老熟人作为皇帝的使节来到贝内绍夫参加议会：[[link:undefeated-until-the-plague-1424]]埃涅阿斯·西尔维乌斯·皮科洛米尼[[/link]]。他通过翻译和伊日谈了一番，对他印象很好。他还顺路去了一趟塔博尔，印象就没那么好了：\n\n[[quote:0]]\n\n这年秋天，皇帝腓特烈三世仍然不肯交出年幼的拉迪斯拉夫，于是退而求其次，承认伊日为王国的管理者。1452年4月27日，在布拉格的圣乔治议会上，各等级正式选举伊日为摄政，任期两年。波希米亚还是没有国王，可总算有了一位大家多少都认可的摄政。\n\n[[b]]一个圣杯派贵族当上了波希米亚的摄政，而且连皇帝都签字认了：胡斯派这一边，头一回有了一位被皇帝亲自承认的摄政，而不是什么“异端”了。[[/b]]",
+    },
+    quotes: [
+      {
+        text: {
+          en: "As if I were in some distant land beyond the icy sea, among barbarians.",
+          cz: "Jako kdybych byl v nějaké vzdálené končině za ledovým mořem mezi barbary.",
+          zh: "仿佛身处冰海彼岸某个遥远的蛮荒之地，置身于野蛮人之中。",
+        },
+        attribution: {
+          en: "Aeneas Silvius Piccolomini, letter on his visit to Tábor, 1451 (from the Czech translation)",
+          cz: "Enea Silvio Piccolomini, dopis o návštěvě Tábora, 1451 (v českém překladu)",
+          zh: "埃涅阿斯·西尔维乌斯·皮科洛米尼，关于1451年造访塔博尔的书信（据捷克文译本）",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "rokycany",
+        relation: {
+          en: "Near where George's army routed the forces of the Strakonice league on 4 June 1450, largely thanks to its guns.",
+          cz: "Nedaleko odtud 4. června 1450 rozprášilo Jiřího vojsko hlavně díky dělům oddíly strakonické jednoty.",
+          zh: "1450年6月4日，伊日的军队在这附近主要靠火炮击溃了斯特拉科尼采同盟的人马。",
+        },
+      },
+      {
+        slug: "zamek-konopiste",
+        relation: {
+          en: "Just outside Benešov, where Piccolomini attended the diet as the emperor's envoy in July 1451 and first met George.",
+          cz: "Kousek od Benešova, kde se Piccolomini v červenci 1451 jako císařův vyslanec účastnil sněmu a poprvé se setkal s Jiřím.",
+          zh: "城堡就在贝内绍夫城外。1451年7月，皮科洛米尼作为皇帝的使节在贝内绍夫出席议会，第一次见到了伊日。",
+        },
+      },
+      {
+        slug: "tabor",
+        relation: {
+          en: "Visited by Piccolomini in 1451, who felt he was among barbarians.",
+          cz: "Roku 1451 ho navštívil Piccolomini a připadal si jako mezi barbary.",
+          zh: "1451年皮科洛米尼来过这里，觉得像到了蛮荒之地。",
+        },
+      },
+      {
+        slug: "old-royal-palace",
+        relation: {
+          en: "In Prague Castle, the seat of the kingdom's government, which the estates entrusted to George as administrator in April 1452.",
+          cz: "Na Pražském hradě, sídle zemské vlády, kterou stavové v dubnu 1452 svěřili Jiřímu jako správci země.",
+          zh: "位于布拉格城堡，是王国政府的所在地。1452年4月，各等级把这里交给了摄政伊日。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/George_of_Pod%C4%9Bbrady",
+  },  {
+    slug: "a-peaceful-takeover-1452",
+    era: "lone-king",
+    startYear: 1452.6,
+    year: {
+      en: "1452",
+      cz: "1452",
+      zh: "1452年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Peaceful Takeover",
+      cz: "Pokojné převzetí",
+      zh: "和平演变塔博尔",
+    },
+    hookLine: {
+      en: "Fourteen years earlier, an emperor's son-in-law with three armies could not take Tábor. This time nobody fired a shot.",
+      cz: "Před čtrnácti lety nedobyl Tábor ani císařův zeť se třemi vojsky. Tentokrát nikdo ani nevystřelil.",
+      zh: "十四年前，皇帝的女婿带着三国大军都没拿下塔博尔。这一回，连一箭都没放。",
+    },
+    summary: {
+      en: "The first big job George took on as regent was a trip to Tábor. It was the last town in the country still keeping the old faith: its own priests, its own \"bishop\", and no time for Rokycana or for the compromise of the Compacts.\n\nFourteen years earlier, [[link:two-kings-1438]]Albert[[/link]] had sat outside this hill town for weeks with Austrian, Hungarian and Saxon troops, and then gone home with nothing to show for it. Only a year earlier, [[link:the-hussite-regent-1450]]Piccolomini[[/link]] had passed through, called the Táborites' \"bishop\", Mikuláš Biskupec, a \"wicked old man\", and told his friends he had felt as if he were among barbarians.\n\nThis time, in the late summer of 1452, George's army had barely arrived before Tábor opened its gates. Since its founding in 1420 the town had seen hardly a peaceful year in three decades, and its people were tired. Besides, the man at the gate was not a crusader. He was a fellow Czech who also took communion from the chalice.\n\n[[b]]The Táborites kept their lives and their property, but they gave up their faith.[[/b]] They had to accept priests approved by Rokycana and worship the Prague way. Biskupec was held in Prague's Old Town Hall until he promised obedience, and later shut in the dungeon of George's castle at Poděbrady. He is said to have been badly hurt trying to escape, and he died there around 1459.\n\nFrom then on Tábor was no longer a \"New Jerusalem\" cut off from the world, just an ordinary Czech town. The last stronghold of the radicals who had once sent crusaders running was handed over quietly, without a shot.",
+      cz: "První velkou věcí, do které se Jiří jako zemský správce pustil, byla cesta do Tábora. Bylo to poslední město v zemi, které se ještě drželo staré víry: vlastní kněží, vlastní „biskup“ a žádné uznání pro Rokycanu ani pro kompromis kompaktát.\n\nPřed čtrnácti lety tu [[link:two-kings-1438]]Albrecht[[/link]] s rakouským, uherským a saským vojskem celé týdny obléhal město na kopci a nakonec odtáhl s prázdnou. Teprve před rokem tudy projížděl [[link:the-hussite-regent-1450]]Piccolomini[[/link]], táborského „biskupa“ Mikuláše Biskupce nazval „zlým starcem“ a přátelům psal, že si připadal jako mezi barbary.\n\nTentokrát, koncem léta 1452, Jiřího vojsko sotva dorazilo a Tábor otevřel brány. Od svého založení roku 1420 nezažilo město za tři desetiletí skoro jediný pokojný rok a jeho lidé byli unavení. A navíc před branou nestál křižák, ale Čech, který také přijímal z kalicha.\n\n[[b]]Táborští si zachovali životy i majetek, ale vzdali se své víry.[[/b]] Museli přijmout kněze schválené Rokycanou a sloužit bohoslužby po pražsku. Biskupec byl vězněn na Staroměstské radnici, dokud neslíbil poslušnost, a později zavřen v žaláři Jiřího hradu v Poděbradech. Prý se těžce zranil při pokusu o útěk a kolem roku 1459 tam zemřel.\n\nOd té doby už Tábor nebyl světu odříznutým „Novým Jeruzalémem“, jen obyčejným českým městem. Poslední bašta radikálů, před nimiž kdysi utíkali křižáci, byla předána potichu, bez jediného výstřelu.",
+      zh: "当上摄政之后，伊日要办的第一件大事，就是去一趟塔博尔。这是全国最后一座还守着老信仰的城：有自己的神父、自己的“主教”，既不认罗基察纳，也不认《协定》那一套妥协。\n\n十四年前，[[link:two-kings-1438]]阿尔布雷希特[[/link]]带着奥地利、匈牙利和萨克森的大军在这座山城下耗了好几个星期，最后灰溜溜地撤了。就在一年前，[[link:the-hussite-regent-1450]]皮科洛米尼[[/link]]路过这里，管塔博尔人的“主教”比斯库佩茨叫“邪恶的老头”，回去还跟朋友说，自己就像到了蛮荒之地。\n\n这一回，1452年夏末，伊日的军队刚到城下，塔博尔就打开了城门。从1420年建城算起，三十多年里这座城几乎没过上几年太平日子，城里的人也累了。何况这回来的不是十字军，而是一个同样领圣杯的捷克人。\n\n[[b]]塔博尔人保住了性命和财产，却交出了他们的信仰。[[/b]]他们得接受罗基察纳认可的神父，按布拉格的规矩做礼拜。比斯库佩茨先被关在布拉格的老城市政厅，直到答应服从才算完；后来又被押进伊日在波杰布拉迪的城堡地牢。据说他想越狱，摔成了重伤，大约1459年死在了那里。\n\n从此，塔博尔不再是那个与世隔绝的“新耶路撒冷”，而成了一座普普通通的捷克小城。当年把十字军吓得掉头就跑的激进派，最后一个据点就这样安安静静地交了出去，一箭未发。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "tabor",
+        relation: {
+          en: "The last stronghold of the radical Hussites, which opened its gates to George without a fight in the late summer of 1452.",
+          cz: "Poslední bašta radikálních husitů, která koncem léta 1452 otevřela Jiřímu bez boje brány.",
+          zh: "激进胡斯派的最后据点，1452年夏末不战而向伊日打开了城门。",
+        },
+      },
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "Where the Táborite \"bishop\" Mikuláš Biskupec was held after the surrender until he promised obedience.",
+          cz: "Zde byl po kapitulaci vězněn táborský „biskup“ Mikuláš Biskupec, dokud neslíbil poslušnost.",
+          zh: "塔博尔投降后，他们的“主教”比斯库佩茨被关在这里，直到答应服从。",
+        },
+      },
+      {
+        slug: "podebrady",
+        relation: {
+          en: "Where Biskupec was later imprisoned in the dungeon of George's castle, and where he died around 1459.",
+          cz: "Zde byl Biskupec později vězněn v žaláři Jiřího hradu a kolem roku 1459 tu zemřel.",
+          zh: "比斯库佩茨后来被关进伊日在这里的城堡地牢，大约1459年死在了这里。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Taborites",
   },
 ];
 

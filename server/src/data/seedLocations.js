@@ -33219,6 +33219,171 @@ Socha je dílem sochaře Aloise Sopra a pochází z roku 1960. Nejprve stála u 
 🎁 彩蛋：罗哈奇的最后几年，都在拒绝和西吉斯蒙德讲和，而这位皇帝的王冠，在他死后传给了哈布斯堡家族。如今他的雕像，天天待在一座由哈布斯堡家的斐迪南一世于1534年建立的狩猎园里。这到底是最后的羞辱，还是一份迟到了好几百年的停战协议，就留给每位访客自己判断吧。`,
     },
   },
+  {
+    // Added 2026-10-07 at the user's request (coordinates user-supplied;
+    // rarity chosen by Claude, flagged to the user). Sources: cs.wikipedia
+    // "Klánovice" (Václav Klán, ex-court clerk from Zbraslav, bought land from
+    // Prince Liechtenstein / the Jirny estate 1874; permission to found the
+    // settlement 22 March 1878, attached to Šestajovice; railway station 1883;
+    // independent municipality 27 Feb 1920 with Kolodějské Zálesí; Rudolf
+    // Utěšil's 1919 spa plan with pool, colonnade, pension, restaurant;
+    // bronze Masaryk statue in the station park; golf club moved from Motol,
+    // six holes opened August 1938, Baron František Ringhoffer among backers,
+    // fifteen holes by 1950, abolished 1950; spa demolished 1988; children's
+    // home from 1949; joined Prague 1 July 1974; 3,511 residents in 2021;
+    // František Horák bred the Czech Terrier and Prague Ratter here),
+    // english.radio.cz (garden-suburb/spa vision, Prague's elite retreat in
+    // the 1920s–40s).
+    name: 'Klánovice',
+    slug: 'klanovice',
+    localizedNames: { cz: 'Klánovice', zh: '克拉诺维采' },
+    labels: ['village-and-town', 'historical', 'nature'],
+    coordinates: { lat: 50.094167, lng: 14.669444 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kl%C3%A1novice',
+    description: {
+      en: `Most places are named after a saint, a river or a long-forgotten lord. Klánovice is named after the man who sold the plots. Václav Klán bought a piece of forest on Prague's eastern edge, cut it into building lots for city people who wanted summer houses, and put his own name on the result.
+
+Klán was a former court clerk from Zbraslav who had turned to property. In 1874 he bought land from Prince Liechtenstein's Jirny estate, and on 22 March 1878 he got official permission to found a settlement there, which at first was just a part of the village of Šestajovice. What made it work was the railway. In 1883 a station opened on the Prague–Kolín line, and suddenly a villa in the middle of the woods was a short train ride from the city. On 27 February 1920, soon after Czechoslovakia was founded, Klánovice joined up with neighbouring Kolodějské Zálesí and became a municipality of its own.
+
+The 1920s and 1930s were its best years. The architect Rudolf Utěšil drew up plans in 1919 to turn it into a garden suburb and spa resort, and part of it really was built: a spa with a swimming pool, a colonnade, a pension and a restaurant. A bronze statue of President Masaryk stood in the park by the station. In the late 1930s the Prague golf club moved here from Motol, with Baron František Ringhoffer among its backers, and opened its first six holes in the forest in August 1938. Prague's well-off came out for the air, the water and the golf. After 1948 the new regime had little use for any of that. The golf club was shut down in 1950 as a bourgeois pastime, the spa was left to decay until it was demolished in 1988, and in 1974 Klánovice was absorbed into Prague as its easternmost district. Today about 3,500 people live here, in villas scattered through the trees, with Prague's largest forest starting at the garden fence.
+
+🎁 Bonus: Klánovice also gave the world two dog breeds. The dog breeder František Horák lived here and developed the Czech Terrier, a short-legged hunting dog with a soft grey coat, and also worked on the Prague Ratter, a tiny dog once kept to deal with rats. So the place founded by a man who named it after himself is also where two breeds were named after their country and their city.`,
+
+      cz: `Většina míst nese jméno světce, řeky nebo dávno zapomenutého pána. Klánovice nesou jméno muže, který prodával parcely. Václav Klán koupil kus lesa na východním okraji Prahy, rozdělil ho na stavební pozemky pro Pražany, kteří chtěli letní byt, a výsledek pojmenoval po sobě.
+
+Klán byl bývalý soudní úředník ze Zbraslavi, který se dal na obchod s pozemky. V roce 1874 koupil půdu od jirenského velkostatku knížete Lichtenštejna a 22. března 1878 dostal povolení založit tu osadu, která zpočátku patřila k Šestajovicím. To hlavní ale obstarala železnice. Roku 1883 se na trati Praha–Kolín otevřela stanice a vila uprostřed lesa byla najednou kousek cesty vlakem od města. 27. února 1920, krátce po vzniku Československa, se Klánovice spojily se sousedním Kolodějským Zálesím a staly se samostatnou obcí.
+
+Nejlepší léta zažily ve 20. a 30. letech. Architekt Rudolf Utěšil v roce 1919 navrhl, jak z nich udělat zahradní předměstí a lázeňské letovisko, a část plánu se opravdu postavila: lázně s bazénem, kolonáda, penzion a restaurace. V parku u nádraží stála bronzová socha prezidenta Masaryka. Koncem 30. let se sem z Motola přestěhoval pražský golfový klub, mezi jehož podporovateli byl baron František Ringhoffer, a v srpnu 1938 otevřel v lese prvních šest jamek. Zámožní Pražané sem jezdili za vzduchem, vodou a golfem. Po roce 1948 o nic z toho nový režim nestál. Golfový klub byl roku 1950 zrušen jako buržoazní kratochvíle, lázně chátraly, až je v roce 1988 zbořili, a roku 1974 se Klánovice staly součástí Prahy, její nejvýchodnější čtvrtí. Dnes tu žije zhruba 3 500 lidí ve vilách rozesetých mezi stromy a největší pražský les začíná hned za plotem zahrady.
+
+🎁 Bonus: Klánovice daly světu i dvě psí plemena. Žil tu kynolog František Horák, který vyšlechtil českého teriéra, krátkonohého loveckého psa s jemnou šedou srstí, a podílel se i na pražském krysaříkovi, drobném psíkovi chovaném kdysi na hubení krys. Místo, které zakladatel pojmenoval po sobě, je tak zároveň místem, kde dvě plemena dostala jméno po své zemi a svém městě.`,
+
+      zh: `大多数地方的名字，来自某位圣人、某条河，或者某位早被遗忘的领主。克拉诺维采的名字，来自卖地的那个人。瓦茨拉夫·克兰在布拉格东边买下一片林子，切成一块块宅基地，卖给想要避暑别墅的城里人，然后用自己的名字给这片地方命了名。
+
+克兰原本是兹布拉斯拉夫的一名法院书记员，后来改行做起了地产。1874年，他从列支敦士登亲王名下的伊尔尼庄园买下土地，1878年3月22日获准在这里建立定居点，起初它只是舍斯塔约维采村的一部分。真正让它兴旺起来的是铁路。1883年，布拉格到科林的铁路线上在这里设了站，林子中间的别墅一下子变成了离城里只有一小段火车路程的地方。1920年2月27日，捷克斯洛伐克建国后不久，克拉诺维采与邻近的科洛杰伊斯凯扎莱西合并，成了一个独立的镇。
+
+20世纪二三十年代是它最好的时光。建筑师鲁道夫·乌捷希尔在1919年做了一份规划，要把这里打造成花园郊区兼疗养胜地，其中一部分真的建了起来：带泳池的浴场、柱廊、旅馆和餐厅。火车站旁的公园里，立着一尊马萨里克总统的铜像。30年代末，布拉格高尔夫俱乐部从莫托尔搬到这里，支持者里有弗朗齐歇克·林霍费尔男爵，1938年8月在林子里开放了头六个洞。布拉格的有钱人来这里呼吸空气、泡水、打高尔夫。1948年之后，新政权对这些一样都不感兴趣。高尔夫俱乐部在1950年被当作资产阶级消遣取缔，浴场一路荒废，最终在1988年被拆除。1974年，克拉诺维采并入布拉格，成为全市最东边的一个区。如今这里住着大约3500人，别墅散落在树林间，布拉格最大的森林就从花园篱笆外开始。
+
+🎁 彩蛋：克拉诺维采还给世界贡献了两个犬种。犬类育种家弗朗齐歇克·霍拉克就住在这里，他培育出了捷克梗，一种腿短、毛色灰而柔软的猎犬，还参与培育了布拉格捕鼠犬，一种从前专门养来对付老鼠的小狗。于是，这个被创始人用自己名字命名的地方，也成了两个犬种分别以自己的国家和城市命名的地方。`,
+    },
+  },
+  {
+    // Added 2026-10-07 at the user's request (coordinates user-supplied;
+    // rarity chosen by Claude, flagged to the user). Sources: cs.wikipedia
+    // "Kostel Nanebevzetí Panny Marie (Klánovice)" (built 1911–1912 as a
+    // chapel of the Mother of God, neo-Romanesque, architect unknown; small
+    // tower; stained glass donated by local families; rose window with the
+    // Virgin; sculptural Stations of the Cross, statues of St Joseph and
+    // Mary; filial church of the Jirny parish; 2004–2005 interior works,
+    // organ replaced the harmonium 2005; WWI memorial removed by the
+    // occupiers 1939, rededicated 28 October 1945 for both wars; Republic
+    // linden planted 2018), geocaching GC209BX (single nave, semicircular
+    // presbytery, wooden choir loft), denik/goout snippets (locals call it
+    // "kostelík").
+    name: 'Church of the Assumption of the Virgin Mary (Klánovice)',
+    slug: 'kostel-nanebevzeti-panny-marie-klanovice',
+    localizedNames: { cz: 'Kostel Nanebevzetí Panny Marie (Klánovice)', zh: '克拉诺维采圣母升天教堂' },
+    labels: ['church', 'hidden-gem'],
+    coordinates: { lat: 50.09839335812801, lng: 14.674469350346742 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_Nanebevzet%C3%AD_Panny_Marie_(Kl%C3%A1novice)',
+    description: {
+      en: `Klánovice started out as a place where Praguers came to spend the summer, which meant that for its first few decades it had villas, a railway station and plenty of trees, but nowhere to go to Mass. This little church fixed that. The locals still call it simply "kostelík", the little church, and they're not wrong.
+
+It was built in 1911–1912, originally as a chapel dedicated to the Mother of God. It's a modest neo-Romanesque building with a single nave, a rounded apse at the east end, a wooden choir loft and a small tower. The front is dominated by a big round rose window showing the Virgin Mary, and the coloured glass in the side windows was paid for by local families while the church was going up, so the windows are as much a list of the first villa owners as they are decoration. Inside are a carved Way of the Cross and statues of St. Joseph and the Virgin. It has never had a parish of its own: it is a branch church of the parish in nearby Jirny. In 2004–2005 it got new wiring, heated pews and fresh paint, and in 2005 a real organ finally replaced the harmonium that had been doing the job until then.
+
+Next to the church stands a memorial with its own small history. A monument to the men of Klánovice who died in the First World War was put up here after 1918. In 1939 the occupation authorities ordered it removed. On 28 October 1945, the first Independence Day after the war, it was dedicated again on the same spot, this time for the victims of both wars. In 2018, for the hundredth anniversary of Czechoslovakia, a linden tree was planted beside the church.
+
+🎁 Bonus: For all the dates recorded about this church, one name is missing. Nobody seems to know who designed it. The families who paid for the windows are remembered better than the architect.`,
+
+      cz: `Klánovice začínaly jako místo, kam Pražané jezdili na letní byt, a tak tu první desítky let byly vily, nádraží a spousta stromů, ale nebylo kam jít na mši. Tenhle kostel to napravil. Místní mu dodnes říkají prostě „kostelík“ a nemají daleko od pravdy.
+
+Postavili ho v letech 1911–1912, původně jako kapli zasvěcenou Matce Boží. Je to skromná novorománská stavba s jednou lodí, půlkruhovým presbytářem, dřevěným kůrem a malou věžičkou. Průčelí ovládá velké kruhové okno s Pannou Marií a barevné vitráže v bočních oknech zaplatily místní rodiny, když se kostel stavěl, takže okna jsou stejně tak seznamem prvních majitelů vil jako ozdobou. Uvnitř je sochařsky provedená křížová cesta a sochy sv. Josefa a Panny Marie. Vlastní farnost nikdy neměl: je filiálním kostelem farnosti v nedalekých Jirnech. V letech 2004–2005 dostal novou elektroinstalaci, vyhřívané lavice a novou výmalbu a roku 2005 konečně nahradily harmonium, které do té doby muselo stačit, opravdové varhany.
+
+Vedle kostela stojí pomník s vlastním malým příběhem. Po roce 1918 tu vznikl pomník klánovickým mužům padlým v první světové válce. V roce 1939 nařídily okupační úřady jeho odstranění. 28. října 1945, na první svátek vzniku republiky po válce, byl na stejném místě znovu slavnostně odhalen, tentokrát obětem obou válek. V roce 2018, ke stému výročí Československa, byla u kostela vysazena lípa.
+
+🎁 Bonus: Ze všech dat, která se o tomhle kostele zachovala, chybí jedno jméno. Zdá se, že nikdo neví, kdo ho navrhl. Rodiny, které zaplatily okna, si pamatujeme lépe než architekta.`,
+
+      zh: `克拉诺维采起初是布拉格人来避暑的地方，所以头几十年里，这里有别墅、有火车站、有数不清的树，就是没地方去做弥撒。这座小教堂补上了这个缺。当地人至今就叫它“小教堂”，倒也名副其实。
+
+它建于1911至1912年，最初是一座献给天主之母的小礼拜堂。这是一座朴素的新罗马式建筑：单一中殿，东头一个半圆形后殿，一个木制唱诗台，外加一座小钟楼。正立面最显眼的是一扇大圆形玫瑰窗，上面是圣母像；两侧窗户上的彩色玻璃，是教堂修建时由当地各家各户出钱捐的，所以这些窗户与其说是装饰，不如说是一份最早那批别墅主人的名单。教堂里有一组雕塑形式的苦路十四处，还有圣约瑟和圣母的雕像。它从来没有自己的堂区，一直是附近伊尔尼堂区下属的分堂。2004至2005年，教堂换了新电线、装了带加热的长椅、重新粉刷了一遍；2005年，一直凑合着用的簧风琴，终于被一台真正的管风琴取代。
+
+教堂旁边有一座纪念碑，它也有自己的一段小故事。1918年后，这里立起了一座纪念一战中阵亡的克拉诺维采男人的纪念碑。1939年，占领当局下令将它拆除。1945年10月28日，战后第一个建国纪念日，它在原地重新揭幕，这一次纪念的是两次大战的遇难者。2018年，为纪念捷克斯洛伐克建国一百周年，教堂旁种下了一棵椴树。
+
+🎁 彩蛋：关于这座教堂，该记下的年份都记下了，唯独少了一个名字：好像没人知道它是谁设计的。出钱装窗户的那些人家，反倒比建筑师被记得更清楚。`,
+    },
+  },
+  {
+    // Added 2026-10-07 at the user's request (coordinates user-supplied), to
+    // link from prague-in-a-single-night-1448 (the 1449 Strakonice league).
+    // Town folded into the castle card per the one-card-per-town rule.
+    name: 'Strakonice Castle',
+    slug: 'hrad-strakonice',
+    localizedNames: { cz: 'Hrad Strakonice', zh: '斯特拉科尼采城堡' },
+    labels: ['castle and fortress', 'historical', 'architecture'],
+    coordinates: { lat: 49.25837508169435, lng: 13.902722247302489 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Strakonice_(hrad)',
+    description: {
+      en: `Welcome to Strakonice Castle, a fortress that spent most of its life as the Bohemian headquarters of an order of crusading knights, in a town better known today for bagpipes, fezzes and motorcycles. Not every castle can claim monks with swords on one side and a musical instrument made from a goat on the other.
+
+The castle was built in the 1220s and 1230s by the Bavors of Strakonice, a local noble family, on the spot where the Volyňka flows into the Otava. In 1243 Bavor I and his wife gave the eastern half to the Knights Hospitaller, the Order of St John, later better known as the Knights of Malta. The order took over the whole castle in 1402, and once its house in Prague had been wrecked in the Hussite wars, Strakonice became the seat of the order's Grand Priory in Bohemia for centuries. In 1449 the castle also lent its name to the Strakonice league, a union of Catholic lords formed against George of Poděbrady after he seized Prague; it had been beaten by 1451.
+
+The oldest parts are Romanesque. The church of St Procopius was begun in the 1220s, and the wall paintings in its cloister, made around 1310 to 1340, are among the oldest cycles of their kind north of the Alps. Rumpál, the Gothic tower with its heavy buttress, dates from the early 14th century; the second tower, Jelenka, was added after 1500 by a commander of the order from the Rožmberk family. Today the complex houses the Museum of Central Pootaví, including an exhibition on the Order of Malta that opened in 2022.
+
+🎁 Bonus: Strakonice has held an International Bagpipe Festival since 1967, and the town is the setting of Josef Kajetán Tyl's 1847 play The Bagpiper of Strakonice, about a piper who goes abroad to seek his fortune. Its other exports were less musical: the ČZ works turned out motorcycles and firearms, and the local Fezko factory sent its fezzes across the Islamic world.`,
+
+      cz: `Vítejte na hradě Strakonice, pevnosti, která většinu svého života sloužila jako české ústředí řádu křižáckých rytířů, ve městě, které je dnes známější dudami, fezy a motorkami. Ne každý hrad se může pochlubit mnichy s meči na jedné straně a hudebním nástrojem z kozy na druhé.
+
+Hrad postavili ve dvacátých a třicátých letech 13. století Bavorové ze Strakonic, místní šlechtický rod, na místě, kde se Volyňka vlévá do Otavy. Roku 1243 daroval Bavor I. s manželkou východní polovinu johanitům, řádu sv. Jana, později známějšímu jako maltézští rytíři. Řád získal celý hrad roku 1402, a když husitské války zpustošily jeho pražský dům, staly se Strakonice na celá staletí sídlem českého velkopřevorství. Roku 1449 dal hrad jméno i strakonické jednotě, spolku katolických pánů namířenému proti Jiřímu z Poděbrad poté, co obsadil Prahu; do roku 1451 byla poražena.
+
+Nejstarší části jsou románské. Kostel sv. Prokopa se začal stavět ve dvacátých letech 13. století a nástěnné malby v jeho ambitu z let asi 1310 až 1340 patří k nejstarším cyklům svého druhu severně od Alp. Rumpál, gotická věž s mohutným opěrákem, pochází z počátku 14. století; druhou věž, Jelenku, přistavěl po roce 1500 komtur řádu z rodu Rožmberků. Dnes v areálu sídlí Muzeum středního Pootaví, včetně expozice o Maltézském řádu otevřené roku 2022.
+
+🎁 Bonus: Strakonice pořádají Mezinárodní dudácký festival od roku 1967 a odehrává se tu hra Josefa Kajetána Tyla Strakonický dudák z roku 1847 o dudákovi, který odejde do světa za štěstím. Další strakonické vývozní artikly už tak hudební nebyly: závod ČZ vyráběl motocykly a zbraně a místní Fezko posílalo své fezy do celého islámského světa.`,
+
+      zh: `欢迎来到斯特拉科尼采城堡。这座要塞一辈子大半时间都是一个十字军骑士团在波希米亚的总部，而它所在的小城，如今却更以风笛、土耳其毡帽和摩托车出名。能一边住着佩剑的修士、一边挨着一种用山羊做成的乐器的城堡，可不多见。
+
+城堡建于13世纪二三十年代，建造者是当地的贵族巴沃尔家族，选址在沃林卡河汇入奥塔瓦河的地方。1243年，巴沃尔一世和妻子把城堡东半部捐给了医院骑士团，也就是圣约翰骑士团，后来人们更熟悉它的另一个名字：马耳他骑士团。1402年，骑士团拿下了整座城堡；它在布拉格的会所毁于胡斯战争之后，斯特拉科尼采就成了骑士团波希米亚大修道院的驻地，一驻就是好几个世纪。1449年，这座城堡还把名字借给了“斯特拉科尼采同盟”，那是天主教贵族在波杰布拉德的伊日夺取布拉格之后，为了对抗他而结成的联盟，到1451年就已经被打败。
+
+城堡最古老的部分是罗马式的。圣普罗科普教堂始建于13世纪20年代，教堂回廊里绘于约1310至1340年的壁画，是阿尔卑斯山以北同类壁画组中最古老的之一。带着粗壮扶壁的哥特式塔楼“伦帕尔塔”建于14世纪初；另一座塔楼“鹿塔”则是1500年后由一位出身罗日姆贝克家族的骑士团分团长加建的。如今城堡里是中波塔维博物馆，其中还有一个2022年开放的马耳他骑士团展览。
+
+🎁 彩蛋：斯特拉科尼采从1967年起举办国际风笛节，捷克剧作家蒂尔1847年的剧作《斯特拉科尼采的风笛手》也以这里为背景，讲一个风笛手离乡闯荡、寻找好运的故事。这座城的其他“出口产品”就没那么有音乐性了：ČZ工厂造摩托车和枪，当地的毡帽厂则把土耳其毡帽卖到了整个伊斯兰世界。`,
+    },
+  },
+  {
+    // Added 2026-10-07 at the user's request (coordinates user-supplied), to
+    // link from the-hussite-regent-1450 (the battle of Rokycany, 4 June 1450).
+    name: 'Rokycany',
+    slug: 'rokycany',
+    localizedNames: { cz: 'Rokycany', zh: '罗基察尼' },
+    labels: ['village-and-town', 'historical'],
+    coordinates: { lat: 49.74251395719867, lng: 13.59622032624864 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Rokycany',
+    description: {
+      en: `Welcome to Rokycany, a small West Bohemian town whose most famous son took its name with him wherever he went. Jan Rokycana, the Hussite preacher who became Prague's elected archbishop, was simply "Jan from Rokycany", so for decades half of Bohemia was arguing about a man named after this place.
+
+Rokycany is first mentioned in 1110 as a manor of the bishops of Prague, and it stayed in the hands of the Prague bishops and archbishops for centuries, becoming a town in the 14th century. On 4 June 1450 a battle was fought nearby, at Mýto, where George of Poděbrady's army scattered the forces of the Catholic Strakonice league with its guns. Rokycany became a royal town in 1584. On 12 September 1784 a fire destroyed almost the whole town, and much of what you see today was rebuilt after it: the church of Our Lady of the Snows, originally from the 14th century, the neoclassical town hall of 1784–1810, and the plague column of 1770 with the Virgin Mary and nine saints. The Museum of Dr. Bohuslav Horák covers the town and its surroundings. In the 19th century Rokycany lived off its ironworks and foundries.
+
+🎁 Bonus: Rokycana was born here around 1397 and never came back to stay, but the town got the last word. Every time anyone in Europe wrote his name, including the popes who refused to confirm him, they were writing the name of Rokycany.`,
+
+      cz: `Vítejte v Rokycanech, malém západočeském městě, jehož nejslavnější rodák si jeho jméno odnesl s sebou, kamkoli šel. Jan Rokycana, husitský kazatel, který se stal zvoleným pražským arcibiskupem, byl prostě „Jan z Rokycan“, takže se půl Čech celá desetiletí přelo o muže pojmenovaného po tomhle místě.
+
+Rokycany se poprvé připomínají roku 1110 jako statek pražských biskupů a v rukou pražských biskupů a arcibiskupů zůstaly po staletí; městem se staly ve 14. století. 4. června 1450 se nedaleko, u Mýta, odehrála bitva, v níž vojsko Jiřího z Poděbrad rozprášilo děly oddíly katolické strakonické jednoty. Královským městem se Rokycany staly roku 1584. 12. září 1784 zničil požár skoro celé město a mnohé z toho, co tu dnes uvidíte, vzniklo až po něm: kostel Panny Marie Sněžné, původem ze 14. století, klasicistní radnice z let 1784–1810 a morový sloup z roku 1770 s Pannou Marií a devíti světci. Muzeum Dr. Bohuslava Horáka se věnuje městu a jeho okolí. V 19. století žily Rokycany ze železáren a sléváren.
+
+🎁 Bonus: Rokycana se tu narodil kolem roku 1397 a natrvalo se už nevrátil, ale poslední slovo měly Rokycany. Pokaždé, když kdokoli v Evropě napsal jeho jméno, včetně papežů, kteří ho odmítli potvrdit, napsal vlastně jméno Rokycan.`,
+
+      zh: `欢迎来到罗基察尼，一座西波希米亚的小城。它最有名的子弟走到哪儿，就把这座城的名字带到哪儿。胡斯派布道者、后来当选布拉格大主教的扬·罗基察纳，名字的意思不过是“罗基察尼来的扬”，所以几十年里，半个波希米亚吵来吵去的，其实是一个以这座小城命名的人。
+
+罗基察尼最早见于1110年的记载，当时是布拉格主教的一处庄园，此后几百年一直归布拉格的主教和大主教所有，14世纪升格为城镇。1450年6月4日，附近的米托打过一仗，波杰布拉德的伊日的军队用火炮击溃了天主教斯特拉科尼采同盟的人马。1584年，罗基察尼成为王室城市。1784年9月12日，一场大火几乎烧毁了全城，今天看到的很多建筑都是火灾后重建的：始建于14世纪的雪地圣母教堂、建于1784至1810年的新古典主义市政厅，以及1770年立起、上有圣母和九位圣人的瘟疫纪念柱。博胡斯拉夫·霍拉克博士博物馆讲述这座城和周边地区的历史。19世纪的罗基察尼，靠的是炼铁厂和铸造厂。
+
+🎁 彩蛋：罗基察纳大约1397年生在这里，后来再也没有回来长住，可最后还是这座小城占了上风：欧洲任何人写下他的名字，包括那些拒绝承认他的教皇，写的其实都是罗基察尼的名字。`,
+    },
+  },
 ];
 
 async function run() {
