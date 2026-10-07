@@ -20313,6 +20313,14 @@ export const historyEvents = [
   },  {
     slug: "a-peaceful-takeover-1452",
     era: "lone-king",
+    images: ["/history/a-peaceful-takeover-1452.webp"],
+    imageCaptions: [
+      {
+        en: "Tábor, late summer 1452: a town elder hands George of Poděbrady the key to the gate, the yellow-chalice banner still hangs on the tower, and the Táborite \"bishop\" Mikuláš Biskupec is led away.",
+        cz: "Tábor, konec léta 1452: městský starší podává Jiřímu z Poděbrad klíč od brány, na věži ještě visí prapor se žlutým kalichem a táborského „biskupa“ Mikuláše Biskupce odvádějí pryč.",
+        zh: "1452年夏末，塔博尔：一位城中长老把城门钥匙交给波杰布拉德的伊日，城楼上还挂着黄圣杯旗，塔博尔人的“主教”比斯库佩茨被押走了。",
+      },
+    ],
     startYear: 1452.6,
     year: {
       en: "1452",
@@ -20321,9 +20329,9 @@ export const historyEvents = [
     },
     tone: "humorous",
     title: {
-      en: "A Peaceful Takeover",
-      cz: "Pokojné převzetí",
-      zh: "和平演变塔博尔",
+      en: "Tábor's Compromise",
+      cz: "Táborský kompromis",
+      zh: "塔博尔的妥协",
     },
     hookLine: {
       en: "Fourteen years earlier, an emperor's son-in-law with three armies could not take Tábor. This time nobody fired a shot.",
@@ -20362,6 +20370,58 @@ export const historyEvents = [
       },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Taborites",
+  },  {
+    slug: "someone-on-the-throne-at-last-1453",
+    era: "lone-king",
+    images: ["/history/someone-on-the-throne-at-last-1453.webp"],
+    imageCaptions: [
+      {
+        en: "St. Vitus Cathedral, 28 October 1453: the thirteen-year-old Ladislaus sits crowned on the throne, while George of Poděbrady stands beside him holding the royal seal.",
+        cz: "Svatovítská katedrála, 28. října 1453: třináctiletý Ladislav sedí korunovaný na trůnu a vedle něj stojí Jiří z Poděbrad s královskou pečetí v ruce.",
+        zh: "1453年10月28日，圣维特大教堂：十三岁的拉迪斯拉夫戴着王冠坐在王座上，波杰布拉德的伊日站在他身旁，手里拿着国王的印章。",
+      },
+    ],
+    startYear: 1453,
+    year: {
+      en: "1453",
+      cz: "1453",
+      zh: "1453年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Someone on the Throne at Last",
+      cz: "Trůn konečně obsazen",
+      zh: "王座终于有人坐了",
+    },
+    hookLine: {
+      en: "After fourteen years, the empty throne finally had someone on it: a boy of thirteen, with a regent beside him who had no intention of stepping aside.",
+      cz: "Po čtrnácti letech na prázdném trůnu konečně někdo seděl: třináctiletý chlapec a vedle něj správce, který nehodlal ustoupit.",
+      zh: "空了十四年的王座，终于有人坐上去了：一个十三岁的少年，身边站着一位压根没打算让位的摄政。",
+    },
+    summary: {
+      en: "With Tábor settled, nearly all of Bohemia now did what the regent said. Some towns were old-style Catholic and some were moderate Utraquist, and for years each side had called the other heretics. Under George they got along well enough. But the problem that had dogged the country for more than a decade was still there: it had no king.\n\nThe obvious candidate was Ladislaus, Albert's posthumous son, now twelve, and he was still in [[link:the-stolen-crown-1440]]Frederick III[[/link]]'s hands. Frederick guarded him like the family silver. When he went to Rome in 1452 to be crowned emperor, he took the boy along, rather than leave him anywhere someone else might collect him.\n\nIn the end it was the Austrians who lost patience. In 1452 the Austrian estates rose against their duke's guardian and besieged Frederick in his own residence at Wiener Neustadt. On 4 September 1452 the emperor gave in and handed Ladislaus over to Count Ulrich of Celje, a nephew of [[link:sixteen-years-late-1436]]Queen Barbara[[/link]], who became the boy's new protector in Vienna.\n\nNow it was Bohemia's turn to negotiate. The estates still insisted that they were accepting a king, not simply receiving one by inheritance, and the boy had to confirm the kingdom's rights and the Compacts. George was in no hurry either. A twelve-year-old king who stayed in Vienna suited him perfectly well.\n\nEurope was not at peace in 1453. In the east, on 29 May, the young Sultan Mehmed II took Constantinople, \"the city of the world's desire\", and the [[link:the-rise-of-the-ottomans-1453]]Eastern Roman Empire[[/link]] fell on its walls together with its last emperor, Constantine XI. In the west, the Battle of Castillon in July brought the Hundred Years' War to an end, with the English driven off the continent, all but Calais. Historians would later often take 1453 as the year the Middle Ages ended.\n\nOn 28 October 1453 the thirteen-year-old Ladislaus was crowned in St. Vitus Cathedral. He was young and good-looking, and the Praguers rather liked him. But he was a devout Catholic who would not take communion from the chalice and had no time for Rokycana. Beside him stood a man twenty years older, the regent George. [[b]]The crown had gone to the boy; the government stayed with George, who even took the royal seal away from the young king and kept his Austrian and Hungarian advisers at arm's length.[[/b]]\n\nFor Prague, though, 1453 was a year worth celebrating. After decades of war and uncertainty, Bohemia had first a steady regent and now a king as well, and Prague was slowly getting back its old prosperity. Just as the Black Death had [[link:the-land-god-forgot-to-punish-1349]]mostly passed Bohemia by[[/link]] in 1348, while everyone else suffered, for once the view from Prague looked rather good.\n\nOnly the old question about that throne remained. [[link:a-throne-for-one-year-1437]]Sigismund[[/link]] had lasted a year on it. [[link:a-cursed-crown-1439]]Albert[[/link]] had lasted a year.\n\nHow long would this one last?",
+      cz: "Po urovnání Tábora se skoro celé Čechy řídily tím, co řekl správce. Některá města byla po staru katolická, jiná umírněně kališnická, a obě strany se léta navzájem častovaly kacíři. Pod Jiřím spolu ale vycházely docela snesitelně. Problém, který zemi trápil přes deset let, však přetrvával: neměla krále.\n\nNejzřejmějším kandidátem byl Ladislav, Albrechtův pohrobek, kterému teď bylo dvanáct, a pořád byl v rukou [[link:the-stolen-crown-1440]]Fridricha III.[[/link]] Fridrich ho hlídal jako rodinné stříbro. Když roku 1452 jel do Říma na císařskou korunovaci, vzal chlapce s sebou, než aby ho nechal někde, kde by si ho mohl odvézt někdo jiný.\n\nNakonec došla trpělivost Rakušanům. Roku 1452 se rakouští stavové vzbouřili proti poručníkovi svého vévody a oblehli Fridricha v jeho vlastním sídle ve Vídeňském Novém Městě. 4. září 1452 se císař vzdal a vydal Ladislava hraběti Oldřichovi Celjskému, synovci [[link:sixteen-years-late-1436]]královny Barbory[[/link]], který se stal chlapcovým novým ochráncem ve Vídni.\n\nTeď byly na řadě s vyjednáváním Čechy. Stavové pořád trvali na tom, že krále přijímají, a ne že jim prostě připadá dědictvím, a chlapec musel potvrdit zemská práva i kompaktáta. Ani Jiří nikam nespěchal. Dvanáctiletý král, který zůstával ve Vídni, mu docela vyhovoval.\n\nRok 1453 nebyl v Evropě klidný. Na východě dobyl 29. května mladý sultán Mehmed II. Konstantinopol, „město, po němž toužil celý svět“, a [[link:the-rise-of-the-ottomans-1453]]Východořímská říše[[/link]] padla na jeho hradbách spolu se svým posledním císařem Konstantinem XI. Na západě ukončila v červenci bitva u Castillonu stoletou válku a Angličané byli vyhnáni z pevniny, až na Calais. Historici později často brali rok 1453 jako konec středověku.\n\n28. října 1453 byl třináctiletý Ladislav korunován ve svatovítské katedrále. Byl mladý a pohledný a Pražanům se docela líbil. Byl to ale zbožný katolík, který nechtěl přijímat z kalicha a o Rokycanu nestál. Vedle něj stál o dvacet let starší muž, zemský správce Jiří. [[b]]Koruna připadla chlapci, vláda zůstala Jiřímu, který mladému králi dokonce vzal královskou pečeť a jeho rakouské a uherské rádce si držel od těla.[[/b]]\n\nPro Prahu byl ale rok 1453 rokem k oslavě. Po desetiletích války a nejistoty měly Čechy nejdřív pevného správce a teď i krále a Praha si pomalu vracela dřívější prosperitu. Tak jako se roku 1348 Čechám [[link:the-land-god-forgot-to-punish-1349]]černá smrt z velké části vyhnula[[/link]], zatímco všichni ostatní trpěli, i tentokrát to z Prahy vypadalo docela dobře.\n\nJen ta stará otázka kolem trůnu zůstávala. [[link:a-throne-for-one-year-1437]]Zikmund[[/link]] na něm vydržel rok. [[link:a-cursed-crown-1439]]Albrecht[[/link]] vydržel rok.\n\nJak dlouho vydrží tenhle?",
+      zh: "塔博尔一平，整个波希米亚基本都听摄政伊日的了。有的城市是老派的天主教，有的是温和的圣杯派，两边互相骂对方“异端”骂了好些年，可在伊日手底下，倒也处得还算融洽。只是，困扰这个国家十几年的那个老问题还在：它还是没有国王。\n\n最现成的人选，是阿尔布雷希特的遗腹子拉迪斯拉夫。他这时十二岁，人还在[[link:the-stolen-crown-1440]]腓特烈三世[[/link]]手里。腓特烈看他看得比传家宝还紧，1452年去罗马加冕当皇帝，都要把孩子带在身边，生怕留在哪儿被人顺手接走。\n\n最后先坐不住的是奥地利人。1452年，奥地利各等级起来造反，反对这位替他们公爵当监护人的皇帝，把腓特烈围在了他自己的维也纳新城里。1452年9月4日，皇帝只好认输，把拉迪斯拉夫交给了策列伯爵乌尔里希。他是[[link:sixteen-years-late-1436]]芭芭拉王后[[/link]]的侄子，从此在维也纳当起了这个孩子的新靠山。\n\n接下来轮到波希米亚谈条件了。各等级依旧坚持：国王是他们“接受”的，不是按血统自己掉下来的；孩子还得先确认王国的各项权利和《协定》。伊日也一点不着急：一个待在维也纳的十二岁国王，对他来说再合适不过。\n\n1453年，欧洲并不太平。往东，5月29日，年轻的苏丹穆罕默德二世攻下了君士坦丁堡这座“世界渴望之城”，[[link:the-rise-of-the-ottomans-1453]]东罗马帝国[[/link]]随着末代皇帝君士坦丁十一世一起倒在了城墙边。往西，7月的卡斯蒂永战役为英法百年战争画上了句号，英国人被赶出了欧洲大陆，只剩下一个加来。后来的历史学家，常常把1453年当作中世纪结束的那一年。\n\n1453年10月28日，十三岁的拉迪斯拉夫在圣维特大教堂加冕。他年轻、英俊，布拉格人挺喜欢他；可他是个虔诚的天主教徒，不肯领圣杯，也不待见罗基察纳。站在他身边的，是比他大二十岁的摄政伊日。[[b]]王冠给了少年，权力却还在伊日手里：他连国王的印章都收走了，还不让国王的奥地利和匈牙利顾问近身。[[/b]]\n\n对布拉格来说，1453年却是个值得庆贺的年份。几十年的战乱和动荡之后，波希米亚先有了一位稳当的摄政，转眼又有了一位国王，布拉格也在慢慢找回往日的繁荣。就像1348年的黑死病[[link:the-land-god-forgot-to-punish-1349]]大体绕开了波希米亚[[/link]]一样，这一回，又是布拉格这边风景独好。\n\n只是，王座上那个老问题还在。[[link:a-throne-for-one-year-1437]]西吉斯蒙德[[/link]]在这个王座上坐了一年，[[link:a-cursed-crown-1439]]阿尔布雷希特[[/link]]也坐了一年。\n\n这一位，能坐多久？",
+    },
+    relatedLandmarks: [
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Where the thirteen-year-old Ladislaus the Posthumous was crowned King of Bohemia on 28 October 1453, ending the long interregnum.",
+          cz: "Zde byl 28. října 1453 třináctiletý Ladislav Pohrobek korunován českým králem, čímž skončilo dlouhé bezvládí.",
+          zh: "1453年10月28日，十三岁的遗腹子拉迪斯拉夫在这里加冕为波希米亚国王，漫长的空位期就此结束。",
+        },
+      },
+      {
+        slug: "old-royal-palace",
+        relation: {
+          en: "The royal residence at Prague Castle, where the young king lived under George's watchful eye during his year in Prague.",
+          cz: "Královské sídlo na Pražském hradě, kde mladý král během svého roku v Praze žil pod Jiřího bedlivým dohledem.",
+          zh: "布拉格城堡里的王宫。少年国王在布拉格的那一年，就住在这里，处处在伊日的眼皮底下。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Ladislaus_the_Posthumous",
   },
 ];
 
