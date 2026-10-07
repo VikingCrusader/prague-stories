@@ -404,6 +404,8 @@
   font-size: 16px;
   line-height: 1.6;
   font-style: italic;
+  /* Keeps line breaks in verse quotes (e.g. Vrchlický on lipany-1434). */
+  white-space: pre-line;
   color: var(--text-primary);
   margin: 0;
 }

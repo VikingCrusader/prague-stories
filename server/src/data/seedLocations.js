@@ -18881,30 +18881,36 @@ Tvrz na tomto místě je poprvé doložena v roce 1403 v držení pražského m�
   {
     name: 'Český Brod',
     slug: 'cesky-brod',
-    localizedNames: { cz: 'Český Brod', zh: '切斯基布罗德' },
+    localizedNames: { cz: 'Český Brod', zh: '捷克布罗德' },
     labels: ['village-and-town', 'historical'],
     coordinates: { lat: 50.07395268646448, lng: 14.858585020718106 },
     rarity: 'superior',
     xpReward: 30,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%BD_Brod',
     description: {
-      en: `Brave adventurer, welcome to Český Brod, a Gothic market town whose entire reason for existing was, quite literally, a really good ford across a stream.
+      en: `Český Brod is named after a ford, and for a long time that was its whole personality: a handy place to get a cart across a stream on the road east from Prague. Then, for one week in May 1434, the town became the bait in a trap that decided the Hussite Wars.
 
-The settlement most likely began in the twelfth century, founded by the Prague bishop Jan I as a trading post on the Trstenice trail, the medieval route linking Prague to southern and eastern Europe — the "brod" in its name simply means "ford," the shallow river crossing that made the whole settlement commercially useful in the first place. A marketplace and goods-transfer point grew up around it, guarded first by the bishop's court and later by a proper fortification. Sometime after 1260, Bishop Jan III of Dražice elevated the trading post to the status of "Bishop's Ford" and granted it substantial town privileges, including the right to build walls; by 1315 it was recorded under the name Český Brod, distinguishing it from other fords sharing the more generic title. An unknown town planner laid out the large rectangular square around an existing Romanesque church, and by the second half of the fourteenth century the square and its access roads had been paved. The town endured a devastating fire in 1512 and repeated military plundering during the Thirty Years' War in 1639 and 1643, before finally being elevated to a free royal town in 1786 as part of a broader reorganization of municipal administration.
+The town probably began in the 12th century, when Bishop Jan I of Prague set up a trading post on the Trstenice trail, the old road from Prague to the south and east. A market grew up around the ford, and around 1268 Bishop Jan III of Dražice raised it to a town called Bishop's Ford, with the right to build walls. By 1315 it was known as Český Brod. Someone laid out a large rectangular square around an older Romanesque church, and by the late 14th century the square and its roads were paved. The Hussite Wars ended the bishops' rule here. By May 1434 the town belonged to the Orphans, one of the two radical Hussite brotherhoods, and the army of the lords' league laid siege to it, launching its first assault on 27 May. Taking the town was not really the point: the siege was meant to draw the radicals' field armies out to rescue it. It worked. Brod held, the field armies came, and three days later the two sides met a few kilometres away near the village of Lipany, where the field armies were destroyed. In 1437 King Sigismund made Český Brod a royal town and gave it the coat of arms it still uses.
 
-🎁 Bonus: A town whose entire founding premise boils down to "convenient river crossing" going on to survive fires, sieges, and eight centuries of shifting borders is a solid argument for never underestimating the strategic value of a shallow patch of water.`,
+A great fire burned much of the town in 1512, and armies plundered it twice in the Thirty Years' War. The railway from Prague towards Vienna arrived in 1845, and by 1910 the population had doubled. A good deal of the old town survived all of this: the church of St. Gotthard, rebuilt over four centuries from Gothic to Baroque; a Renaissance belfry of 1578–1585, whose bell Marie was cast in 1689; the Kouřim Gate, the only medieval town gate still standing; and one of the oldest town halls in Bohemia. Lipany was never forgotten here. In 1910 the local Sokol gymnastics club paid for a monument to Prokop the Great, the radicals' commander who died in the battle, made by the sculptor Karel Opatrný. It stands on Husovo náměstí: Prokop wrapped in a heavy cloak on a rough stone base, with a cannon and a sunburst monstrance beside him. The Podlipanské Museum, opened in 1931, has a display about the battle.
 
-      cz: `Statečný dobrodruhu, vítej v Českém Brodě, gotickém tržním městě, jehož celý důvod existence spočíval doslova v opravdu pohodlném brodu přes potok.
+🎁 Bonus: Český Brod has a second town underneath the first. As the houses went up, the townspeople dug Gothic cellars and passages below them to store goods, mostly salt and beer. The passages are still there beneath the Old Town Hall, and today couples get married in them. Salt and beer first, weddings later: the town has always had its priorities in order.`,
 
-Osada zde s největší pravděpodobností vznikla ve 12. století z podnětu pražského biskupa Jana I. jako obchodní stanice na Trstenické stezce, středověké cestě spojující Prahu s jihem a východem Evropy - "brod" v názvu prostě znamená mělké místo k přebrodění řeky, které celou osadu od počátku učinilo obchodně užitečnou. Kolem něj vznikla tržnice a přepravní bod pro zboží, chráněný nejprve biskupským dvorem a později skutečným opevněním. Někdy po roce 1260 povýšil biskup Jan III. z Dražic obchodní osadu na "Biskupský Brod" a udělil jí rozsáhlá městská práva, včetně práva stavět hradby; v roce 1315 je již zaznamenána pod jménem Český Brod, které ji odlišovalo od jiných brodů nesoucích obecnější název. Neznámý plánovač města vytyčil rozsáhlé obdélníkové náměstí kolem již existujícího románského kostela a ve druhé polovině 14. století bylo náměstí i přístupové cesty do města vydlážděno. Město přestálo ničivý požár v roce 1512 a opakované vojenské plenění za třicetileté války v letech 1639 a 1643, než bylo v roce 1786 v rámci širší reorganizace městské správy povýšeno na svobodné královské město.
+      cz: `Český Brod nese jméno po brodu a dlouho to byla celá jeho povaha: šikovné místo, kde se dal na cestě z Prahy na východ převézt vůz přes potok. Pak se ale město na jeden květnový týden roku 1434 stalo návnadou v pasti, která rozhodla husitské války.
 
-🎁 Bonus: Město, jehož celé založení stojí na jediném principu "pohodlný brod přes řeku", a které přesto přežilo požáry, obléhání a osm století posouvajících se hranic, je pádným argumentem pro to, nikdy nepodceňovat strategickou hodnotu mělkého kusu vody.`,
+Město nejspíš vzniklo ve 12. století, kdy pražský biskup Jan I. založil obchodní stanici na Trstenické stezce, staré cestě z Prahy na jih a na východ. Kolem brodu vyrostlo tržiště a kolem roku 1268 ho biskup Jan III. z Dražic povýšil na město zvané Biskupský Brod s právem postavit hradby. Roku 1315 už se mu říkalo Český Brod. Kdosi kolem starší románské svatyně vyměřil velké obdélníkové náměstí a ve druhé polovině 14. století už bylo i s přístupovými cestami vydlážděné. Husitské války vládu biskupů ukončily. V květnu 1434 patřilo město sirotkům, jednomu ze dvou radikálních husitských bratrstev, a vojsko panské jednoty ho oblehlo; první útok přišel 27. května. O dobytí města ve skutečnosti nešlo: obléhání mělo vylákat polní vojska radikálů, aby mu přišla na pomoc. Vyšlo to. Brod vydržel, polní vojska dorazila a o tři dny později se obě strany střetly několik kilometrů odtud u vsi Lipany, kde byla polní vojska zničena. Roku 1437 povýšil král Zikmund Český Brod na královské město a udělil mu znak, který používá dodnes.
 
-      zh: `勇敢的冒险家，欢迎来到切斯基布罗德——这座哥特式集市小镇存在的全部理由，说白了，就是一处相当好用的河流浅滩渡口。
+Roku 1512 velkou část města zničil požár a za třicetileté války ho vojska dvakrát vyplenila. Roku 1845 sem dorazila železnice z Prahy směrem na Vídeň a do roku 1910 se počet obyvatel zdvojnásobil. Leccos ze starého města to všechno přečkalo: kostel sv. Gotharda, přestavovaný po čtyři staletí od gotiky po baroko; renesanční zvonice z let 1578–1585 se zvonem Marie z roku 1689; Kouřimská brána, jediná dochovaná středověká městská brána; a jedna z nejstarších radnic v Čechách. Na Lipany se tu nikdy nezapomnělo. Roku 1910 zaplatila zdejší Tělocvičná jednota Sokol pomník Prokopa Holého, velitele radikálů, který v bitvě padl, a vytvořil ho sochař Karel Opatrný. Stojí na Husově náměstí: Prokop zahalený do těžkého pláště na hrubém kamenném podstavci, vedle něj dělo a paprsčitá monstrance. Podlipanské muzeum, otevřené roku 1931, má o bitvě vlastní expozici.
 
-这处聚落很可能始建于12世纪，由布拉格主教扬一世设立，作为特尔斯泰尼采古道上的贸易站——这条中世纪道路连接布拉格与欧洲南部和东部地区，而地名中的"Brod"一词本意就是"渡口"，正是这处浅滩渡河点让整个聚落从一开始就具备了商业价值。围绕渡口逐渐形成了集市与货物转运点，最初由主教法庭守护，后来又建起了真正的防御工事。1260年之后的某个时候，主教扬三世·兹·德拉日采将这处贸易聚落提升为"主教渡口"，并授予其相当可观的城镇特权，包括修筑城墙的权利；到1315年，它已被记录为"切斯基布罗德"这一名称，以区别于其他共用更通用名称的渡口。一位不知名的城镇规划者，围绕一座已经存在的罗曼式教堂，划出了一片宽阔的矩形广场，到14世纪下半叶，广场及其通往城镇的道路都已铺设完毕。这座小镇曾在1512年遭受一场毁灭性的大火，又在三十年战争期间的1639年与1643年反复遭到军队洗劫，直到1786年，随着市政管理体制的全面改革，才最终被提升为自由王室城镇。
+🎁 Bonus: Český Brod má pod sebou ještě jedno město. Když se stavěly domy, vyhloubili měšťané pod nimi gotické sklepy a chodby na uskladnění zboží, hlavně soli a piva. Chodby pod Starou radnicí jsou tu dodnes a konají se v nich svatby. Napřed sůl a pivo, potom svatby: priority tu měli vždycky v pořádku.`,
 
-🎁 彩蛋：一座建镇初衷仅仅是"方便过河"的小镇，却挺过了大火、围城与八个世纪边界变迁的考验——这足以证明，永远不要低估一片浅浅河水的战略价值。`,
+      zh: `捷克布罗德的名字来自一处渡口，很长一段时间里，这就是它的全部个性：从布拉格往东走，在这里赶着车过河很方便。可是在1434年5月的一个星期里，这座小城成了一个陷阱里的诱饵，而这个陷阱决定了胡斯战争的结局。
+
+这座城大概始于12世纪：布拉格主教扬一世在特尔斯泰尼采古道上设了一处贸易站，这条古道从布拉格通往南方和东方。渡口周围渐渐形成了集市，约1268年，德拉日采的扬三世主教把它升格为城镇，叫作“主教渡口”，还准许它修筑城墙。到1315年，它已经叫捷克布罗德了。有人围着一座更早的罗马式教堂，划出了一片宽大的长方形广场，到14世纪下半叶，广场和通往城里的道路都已铺好。胡斯战争结束了主教对这里的统治。1434年5月，这座城属于胡斯派两大激进兄弟会之一的孤儿派，贵族联盟的军队把它围了起来，5月27日发动了第一次进攻。真正的目的其实不是攻城，而是把激进派的野战军引出来救援。这一招奏效了：城守住了，野战军赶来了，三天后，双方在几公里外的利帕尼村附近交战，野战军就此覆灭。1437年，西吉斯蒙德国王把捷克布罗德升为王室城镇，还赐给它沿用至今的城徽。
+
+1512年一场大火烧毁了城里的大片地方，三十年战争期间，城又被军队洗劫了两次。1845年，从布拉格开往维也纳方向的铁路通到这里，到1910年，人口翻了一番。老城有不少东西挺过了这一切：圣戈特哈德教堂，四百年间从哥特式一路改建到巴洛克式；一座1578至1585年建成的文艺复兴式钟楼，里面那口叫“玛丽”的钟铸于1689年；科乌日姆门，城里唯一保存下来的中世纪城门；还有波希米亚最古老的市政厅之一。这里从来没有忘记利帕尼。1910年，当地的索科尔体操协会出资，请雕塑家卡雷尔·奥帕特尔尼为激进派的统帅、战死在这场战役中的普罗科普立了一座纪念像。它立在胡斯广场上：普罗科普裹着厚重的斗篷，站在一块粗糙的石座上，身旁是一门火炮和一座太阳形的圣体显供台。1931年开馆的波德利帕内博物馆，还专门设有这场战役的展览。
+
+🎁 彩蛋：捷克布罗德的地下还藏着另一座城。盖房子的时候，市民们在房子底下挖了哥特式的地窖和通道，用来存放货物，主要是盐和啤酒。这些通道至今还在老市政厅底下，现在还有人在里面办婚礼。先存盐和啤酒，再办婚礼，这座城的轻重缓急一向分得很清楚。`,
     },
   },
 
@@ -33168,6 +33174,49 @@ Dovnitř se nesmí, ale přes plot je vidět ze dvou vyhlídkových plošin na s
 游客不能进去，但围场东北和西北两侧各有一座观景平台，可以隔着围栏看。初代牛群是一头叫奥斯卡的公牛和三头母牛：欧米伽、奥内利娜和格蕾贝尔。2026年5月中旬，格蕾贝尔生下了她的第一头小牛，是头小母牛，也是这里出生的第一头野牛。据饲养员说，她护崽护得极其上心，不让小牛靠近其他牛，连路过的鸟都要赶走。
 
 🎁 彩蛋：放在一百年前，这简直不可想象。最后一头野生欧洲野牛于1919年在波兰的比亚沃维耶扎森林被射杀，这个物种只在动物园和私人猎苑里活了下来。今天世上所有的欧洲野牛，都是当年其中区区十二头的后代。所以在布拉格边上吃草的这群牛，可不只是周末遛弯的好去处，它们是一个在野外灭绝过的物种重新回来的故事的一部分。`,
+    },
+  },
+  {
+    // Added 2026-10-07 at the user's request (coordinates and cover art
+    // user-supplied; rarity chosen by Claude, flagged to the user). Sources:
+    // cs.wikipedia "Obora Hvězda" (statue by Alois Sopr, 1960, stood until
+    // 1966 by the Old Town Hall on the supposed execution site; Roháč was in
+    // fact executed on Šibeniční vrch in Žižkov; near the Libocká brána; the
+    // Hussite woman statue by Jan Jiříkovský before the summer palace wall;
+    // reserve founded 1534 by Ferdinand I). Roháč's story as told on
+    // the-last-man-on-sion-1437.
+    name: 'Statue of Jan Roháč of Dubá',
+    slug: 'socha-jana-rohace-z-dube',
+    localizedNames: { cz: 'Socha Jana Roháče z Dubé', zh: '杜巴的扬·罗哈奇雕像' },
+    labels: ['monument', 'historical', 'hidden-gem'],
+    coordinates: { lat: 50.08459353570048, lng: 14.336335476223065 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Jan_Roh%C3%A1%C4%8D_z_Dub%C3%A9',
+    description: {
+      en: `Deep in the woods of the Hvězda game reserve, a stone Hussite in a long cloak stands with one hand on his sword, looking as if someone told him to wait here and never came back for him. Considering how his story ended, that is not far off.
+
+Jan Roháč of Dubá was a lesser nobleman who fought beside Jan Žižka from the first years of the Hussite Wars and became one of the movement's best-known captains. He was taken prisoner at the battle of Lipany in 1434, released a few weeks later, and then refused to accept the peace that followed. From his castle of Sion near Kutná Hora he carried on a small private war against Emperor Sigismund, raiding the royal estates, until the king's army besieged the castle in 1437 and stormed it on 6 September. Roháč was taken to Prague, tortured in the Old Town Hall and hanged on 9 September 1437 together with the rest of his garrison, the last Hussite captain who would not make peace.
+
+The statue is the work of the sculptor Alois Sopr and dates from 1960. It was first set up beside the Old Town Hall, on the spot where Roháč was supposedly executed, and stood there until 1966. Since then it has ended up here, near the Liboc Gate, on a quiet path through the trees. Its first home was a little off in any case: according to the sources, Roháč was hanged not in the Old Town but on Gallows Hill in Žižkov. Not far away, in front of the wall of the Star summer palace, stands a second Hussite in stone, a statue of a Hussite woman by Jan Jiříkovský.
+
+🎁 Bonus: Roháč spent his last years refusing to make peace with Sigismund, the emperor whose crown passed after his death to the Habsburgs. His statue now spends its days in a hunting park founded by a Habsburg, Ferdinand I, in 1534. Whether that is a final insult or a very late truce is up to the visitor.`,
+
+      cz: `Hluboko v lesích obory Hvězda stojí kamenný husita v dlouhém plášti s rukou na meči a vypadá, jako by mu někdo řekl, ať tu počká, a už se pro něj nevrátil. Když se vezme, jak jeho příběh skončil, není to daleko od pravdy.
+
+Jan Roháč z Dubé byl drobný šlechtic, který bojoval po boku Jana Žižky od prvních let husitských válek a stal se jedním z nejznámějších hejtmanů hnutí. U Lipan roku 1434 padl do zajetí, za několik týdnů byl propuštěn a mír, který následoval, odmítl přijmout. Ze svého hradu Sion u Kutné Hory vedl malou soukromou válku proti císaři Zikmundovi a pustošil královské statky, dokud královské vojsko hrad roku 1437 neoblehlo a 6. září nedobylo. Roháče odvezli do Prahy, mučili ho ve Staroměstské radnici a 9. září 1437 ho oběsili spolu se zbytkem posádky. Byl posledním husitským hejtmanem, který se odmítl smířit.
+
+Socha je dílem sochaře Aloise Sopra a pochází z roku 1960. Nejprve stála u Staroměstské radnice, na místě údajné Roháčovy popravy, a zůstala tam do roku 1966. Od té doby se ocitla tady, nedaleko Libocké brány, na tiché cestě mezi stromy. Její první místo stejně nebylo úplně přesné: podle pramenů Roháče oběsili ne na Starém Městě, ale na Šibeničním vrchu na Žižkově. Nedaleko, před zdí letohrádku Hvězda, stojí ještě jeden kamenný husita, socha husitky od Jana Jiříkovského.
+
+🎁 Bonus: Roháč strávil poslední roky tím, že se odmítal smířit se Zikmundem, císařem, jehož koruna po jeho smrti přešla na Habsburky. Jeho socha teď tráví dny v oboře, kterou roku 1534 založil Habsburk Ferdinand I. Jestli je to poslední urážka, nebo hodně opožděné příměří, ať posoudí každý návštěvník sám.`,
+
+      zh: `在星形猎苑的树林深处，站着一位穿长斗篷、手按长剑的石头胡斯派战士，看上去就像有人让他在这儿等着，然后再也没回来接他。想想他这一生是怎么收场的，这么说倒也八九不离十。
+
+杜巴的扬·罗哈奇是一位小贵族，从胡斯战争最初几年起就跟着扬·杰式卡征战，后来成了胡斯运动中最有名的指挥官之一。1434年利帕尼之战，他被俘，几周后获释，却拒不接受随后的和约。他退守到库特纳霍拉附近的锡永城堡，对西吉斯蒙德皇帝打起了一场小小的私人战争，专门袭扰王室领地，直到1437年王室军队围攻城堡，并在9月6日攻破。罗哈奇被押到布拉格，在老城市政厅受了酷刑，1437年9月9日和守城的部下一起被绞死。他是最后一位拒绝讲和的胡斯派指挥官。
+
+这尊雕像出自雕塑家阿洛伊斯·索普尔之手，作于1960年。它最初立在老城市政厅旁，也就是传说中罗哈奇被处决的地方，一直待到1966年。后来，它辗转来到了这里，立在利博茨门附近一条安静的林间小路旁。其实它最初的位置本来就不太准：根据史料，罗哈奇并不是在老城被绞死的，而是在日什科夫的绞刑山。离这里不远，在星形夏宫的围墙前，还站着另一位石头胡斯派，那是扬·伊日科夫斯基创作的胡斯派妇女雕像。
+
+🎁 彩蛋：罗哈奇的最后几年，都在拒绝和西吉斯蒙德讲和，而这位皇帝的王冠，在他死后传给了哈布斯堡家族。如今他的雕像，天天待在一座由哈布斯堡家的斐迪南一世于1534年建立的狩猎园里。这到底是最后的羞辱，还是一份迟到了好几百年的停战协议，就留给每位访客自己判断吧。`,
     },
   },
 ];
