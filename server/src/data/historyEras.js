@@ -219,6 +219,47 @@
 // was. The user's own framing for why this works: it explicitly foreshadows
 // the four centuries of Habsburg rule still to come, rather than asserting
 // that rule as already fully arrived.
+// Era 5/6 split (2026-10-07, at the user's request): 'religious-turmoil'
+// had grown to 100+ cards that all fall in 1378-1437, a complete arc from
+// the late-Luxembourg crisis through Hus and the Hussite Wars to the
+// Compacts and Sigismund's death (the end of the Luxembourg line). It keeps
+// its key (no migration) but is retitled "Chalice and Turmoil" and now ends
+// at 1437. The rest of the old span became two eras, titles chosen by the
+// user: 'lone-king' ("The Lone King" / "孤王守国", 1437-1471: Albert, the
+// interregnum, Ladislaus Posthumous, and above all George of Poděbrady,
+// elected 1458, excommunicated, fighting a crusade and Matthias Corvinus
+// until his death in 1471) and 'rule-of-the-lords' ("Rule of the Lords" /
+// "贵族之治", 1471-1526: the Jagiellonians, mostly absent in Buda, the
+// estates in charge, the 1483 defenestration, the 1485 Peace of Kutná Hora,
+// the 1500 Land Ordinance, ending at Mohács). Adjacent eras share their
+// boundary years (1437, 1471), like the 1346 boundary of eras 3/4. A first
+// draft named the 1437-1526 era 'king-of-two-peoples'; the user rejected
+// the title. The 'habsburgs-move-in'
+// tagline used to say "the tradition from the last chapter"; with a new era
+// in between it now names the window outright.
+//
+// Renames and a further split (2026-10-07, the user's calls): era titles
+// 'habsburgs-move-in' -> "Under the Double-Headed Eagle" / "双头鹰下",
+// 'brief-independence' -> "The First Republic" / "第一共和" (keys kept, no
+// content yet). 'age-of-absolutism' was split at 1740, Charles VI's death
+// and Maria Theresa's accession, into 'baroque-and-darkness' and
+// 'age-of-absolutism', now "Enlightened Absolutism" / "开明专制" (1740-1790:
+// Maria Theresa and Joseph II's reforms). The user then moved the
+// 'fire-and-ashes' end from 1689 to 1648: the Great Fire of 1689 only
+// mattered to Prague, while the Peace of Westphalia is a boundary on the
+// scale of the other eras' (and the war both began and ended in Prague,
+// 1618 defenestration to the 1648 Swedish attack held off on the stone
+// bridge). 'baroque-and-darkness' ("Baroque and Darkness" / "Baroko a temno"
+// / "巴洛克与黑暗", 1648-1740) deliberately pairs the Baroque splendour with
+// the "Temno" (dark age) view: Counter-Reformation, exile, Germanisation,
+// the decline of Czech. "Temno" itself is a contested 19th-century
+// nationalist label (popularised by Jirásek's 1915 novel, usually meaning
+// 1620-1781), so the title pairs it rather than adopting it; explain the
+// term and the historians' debate in a background card when the era is
+// written. Its tagline calls back to the 1393 card on Nepomuk being thrown
+// from the bridge. A first draft titled 1689-1740 "The Baroque Chapter" /
+// "巴洛克华章". 16 eras.
+//
 export const HISTORY_ERAS = [
   {
     key: 'legends-origins',
@@ -310,30 +351,72 @@ export const HISTORY_ERAS = [
     themeClass: 'era-religious-turmoil',
     hasContent: true,
     title: {
-      en: 'Religious Turmoil',
-      cz: 'Doba náboženských bouří',
-      zh: '宗教动荡期',
+      en: 'Chalice and Turmoil',
+      cz: 'Kalich a nepokoje',
+      zh: '圣杯乱世',
     },
     yearRange: {
-      en: '1378–1526',
-      cz: '1378–1526',
-      zh: '1378年－1526年',
+      en: '1378–1437',
+      cz: '1378–1437',
+      zh: '1378年－1437年',
     },
     tagline: {
-      en: "The Church splits in two, Jan Hus goes to the stake, and Bohemia responds by founding a new local tradition: city officials, out a window.",
-      cz: "Církev se rozštěpí vedví, Jan Hus skončí na hranici, a Čechy na to zareagují založením nové místní tradice: vyhazovat radní z oken.",
-      zh: "教会一分为二，扬·胡斯被烧死在火刑柱上，波希米亚的回应是开创了一项地方新传统：把市政官员扔出窗外。",
+      en: "The Church splits in two, Jan Hus goes to the stake, and Prague founds a new local tradition: councillors, out of the window. Eighteen years of war later, the cup of wine is still there, and almost everyone who fought over it is gone.",
+      cz: "Církev se rozštěpí vedví, Jan Hus skončí na hranici a Praha založí novou místní tradici: konšely z okna. Po osmnácti letech války kalich vína pořád stojí, ale skoro nikdo z těch, kdo o něj bojovali, už ne.",
+      zh: "教会一分为二，扬·胡斯被烧死在火刑柱上，布拉格开创了一项地方新传统：把议员扔出窗外。打了十八年仗之后，那杯葡萄酒还在，为它而战的人却几乎都不在了。",
+    },
+  },
+  {
+    key: 'lone-king',
+    order: 6,
+    themeClass: 'era-lone-king',
+    hasContent: false,
+    title: {
+      en: 'The Lone King',
+      cz: 'Osamělý král',
+      zh: '孤王守国',
+    },
+    yearRange: {
+      en: '1437–1471',
+      cz: '1437–1471',
+      zh: '1437年－1471年',
+    },
+    tagline: {
+      en: "The Luxembourgs are gone and the next kings do not last long, so the Czechs end up choosing one of their own. The pope calls him a heretic, a crusade comes for him, and he holds on anyway.",
+      cz: "Lucemburkové jsou pryč a další králové dlouho nevydrží, a tak si Češi nakonec zvolí krále z vlastních řad. Papež ho prohlásí za kacíře, přitáhne na něj křížová výprava, a on přesto vydrží.",
+      zh: "卢森堡王朝没了，后来的国王一个个都坐不长，捷克人最后选了一位自己人当国王。教皇说他是异端，十字军打上门来，他照样守住了。",
+    },
+  },
+  {
+    key: 'rule-of-the-lords',
+    order: 7,
+    themeClass: 'era-rule-of-the-lords',
+    hasContent: false,
+    title: {
+      en: 'Rule of the Lords',
+      cz: 'Vláda pánů',
+      zh: '贵族之治',
+    },
+    yearRange: {
+      en: '1471–1526',
+      cz: '1471–1526',
+      zh: '1471年－1526年',
+    },
+    tagline: {
+      en: "The new kings are polite, foreign and mostly somewhere else. The lords of Bohemia run the country, and Prague, just to stay in practice, throws its councillors out of a window again.",
+      cz: "Noví králové jsou zdvořilí, cizí a většinou někde jinde. Zemi vládnou čeští páni a Praha, jen aby nevyšla ze cviku, znovu vyhodí konšely z okna.",
+      zh: "新来的国王们彬彬有礼，来自外国，而且大多不在家。波希米亚由贵族们说了算，布拉格为了手艺不生疏，又把议员扔出了一回窗外。",
     },
   },
   {
     key: 'habsburgs-move-in',
-    order: 6,
+    order: 8,
     themeClass: 'era-habsburgs-move-in',
     hasContent: false,
     title: {
-      en: 'The Habsburgs Take the Throne',
-      cz: 'Nástup Habsburků',
-      zh: '哈布斯堡入主',
+      en: 'Under the Double-Headed Eagle',
+      cz: 'Pod dvouhlavým orlem',
+      zh: '双头鹰下',
     },
     yearRange: {
       en: '1526–1618',
@@ -341,14 +424,14 @@ export const HISTORY_ERAS = [
       zh: '1526年－1618年',
     },
     tagline: {
-      en: "A century of borrowed calm under a new royal house — until the tradition from the last chapter gets one memorable encore.",
-      cz: "Století vypůjčeného klidu pod novým královským rodem — než tradice z minulé kapitoly zažije jeden nezapomenutelný přídavek.",
-      zh: "在新王朝治下，波希米亚借来了将近一个世纪的平静——直到上一章那项传统，迎来了一次令人难忘的加演。",
+      en: "A century of borrowed calm under a new royal house, until Prague's oldest political tradition, the window, gets one more memorable encore.",
+      cz: "Století vypůjčeného klidu pod novým královským rodem, než nejstarší pražská politická tradice, okno, zažije ještě jeden nezapomenutelný přídavek.",
+      zh: "在新王朝治下，波希米亚借来了将近一个世纪的平静，直到布拉格最古老的政治传统，也就是那扇窗户，又迎来一次令人难忘的加演。",
     },
   },
   {
     key: 'fire-and-ashes',
-    order: 7,
+    order: 9,
     themeClass: 'era-fire-and-ashes',
     hasContent: false,
     title: {
@@ -357,40 +440,61 @@ export const HISTORY_ERAS = [
       zh: '战火与灰烬',
     },
     yearRange: {
-      en: '1618–1689',
-      cz: '1618–1689',
-      zh: '1618年－1689年',
+      en: '1618–1648',
+      cz: '1618–1648',
+      zh: '1618年－1648年',
     },
     tagline: {
-      en: "White Mountain ends Bohemian self-rule in a single afternoon — the war grinds on for another twenty-eight years without it, and Prague barely catches its breath before catching fire.",
-      cz: "Bílá hora ukončí českou samosprávu za jediné odpoledne — válka bez ní táhne dál ještě osmadvacet let, a Praha si sotva stačí oddechnout, než chytne.",
-      zh: "白山一役，一个下午就终结了波希米亚的自治——战争在那之后又拖了二十八年，布拉格才刚喘口气，就又着了火。",
+      en: "White Mountain ends Bohemian self-rule in a single afternoon. The war grinds on for another twenty-eight years without it, and ends where it began: in Prague, with Swedish soldiers held off on the stone bridge.",
+      cz: "Bílá hora ukončí českou samosprávu za jediné odpoledne. Válka bez ní táhne dál ještě osmadvacet let a skončí tam, kde začala: v Praze, se švédskými vojáky zastavenými na kamenném mostě.",
+      zh: "白山一役，一个下午就终结了波希米亚的自治。战争在那之后又拖了二十八年，最后在它开始的地方收场：布拉格，瑞典兵被挡在了石桥上。",
+    },
+  },
+  {
+    key: 'baroque-and-darkness',
+    order: 10,
+    themeClass: 'era-baroque-and-darkness',
+    hasContent: false,
+    title: {
+      en: 'Baroque and Darkness',
+      cz: 'Baroko a temno',
+      zh: '巴洛克与黑暗',
+    },
+    yearRange: {
+      en: '1648–1740',
+      cz: '1648–1740',
+      zh: '1648年－1740年',
+    },
+    tagline: {
+      en: "Prague rebuilds itself in gold and stone and turns the man once thrown off its bridge into a saint, while those who will not convert slip into exile and Czech retreats to the countryside. Light and shadow, just as the Baroque painters liked it.",
+      cz: "Praha se přestaví ve zlatě a kameni a z muže, kterého kdysi shodili z jejího mostu, udělá světce, zatímco ti, kdo nechtějí konvertovat, odcházejí do exilu a čeština ustupuje na venkov. Světlo a stín, přesně jak to měli rádi barokní malíři.",
+      zh: "布拉格用黄金和石头把自己重建了一遍，还把当年从桥上被扔下河的那个人封成了圣人；与此同时，不肯改宗的人流亡他乡，捷克语也退回了乡间。光与影，正合巴洛克画家的口味。",
     },
   },
   {
     key: 'age-of-absolutism',
-    order: 8,
+    order: 11,
     themeClass: 'era-age-of-absolutism',
     hasContent: false,
     title: {
-      en: 'Age of Absolutism',
-      cz: 'Doba absolutismu',
-      zh: '专制主义时代',
+      en: 'Enlightened Absolutism',
+      cz: 'Osvícenský absolutismus',
+      zh: '开明专制',
     },
     yearRange: {
-      en: '1689–1790',
-      cz: '1689–1790',
-      zh: '1689年－1790年',
+      en: '1740–1790',
+      cz: '1740–1790',
+      zh: '1740年－1790年',
     },
     tagline: {
-      en: "A century of absolute monarchs, rebuilt Baroque skylines, and reforms handed down from Vienna whether Bohemia asked for them or not.",
-      cz: "Století absolutních panovníků, přestavěných barokních panoramat a reforem seslaných z Vídně, ať už si o ně Čechy řekly, nebo ne.",
-      zh: "一个世纪的绝对君主、重建的巴洛克天际线，以及从维也纳一路发号施令下来的改革——不管波希米亚乐不乐意。",
+      en: "First a mother, then her son, run Bohemia from Vienna by decree: school for everyone, fewer monasteries, an end to serfdom, and German in every office, whether Bohemia asked for it or not.",
+      cz: "Napřed matka, po ní syn řídí Čechy z Vídně dekrety: škola pro všechny, méně klášterů, konec nevolnictví a němčina v každém úřadě, ať o to Čechy stály, nebo ne.",
+      zh: "先是母亲，后是儿子，从维也纳用一纸纸诏令治理波希米亚：人人都要上学，修道院少了，农奴制没了，每个衙门都得说德语，不管波希米亚愿不愿意。",
     },
   },
   {
     key: 'revival-industrialization',
-    order: 9,
+    order: 12,
     themeClass: 'era-revival-industrialization',
     hasContent: false,
     title: {
@@ -411,13 +515,13 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'brief-independence',
-    order: 10,
+    order: 13,
     themeClass: 'era-brief-independence',
     hasContent: false,
     title: {
-      en: 'Brief Independence and Democracy',
-      cz: 'Krátká nezávislost a demokracie',
-      zh: '短暂的独立与民主',
+      en: 'The First Republic',
+      cz: 'První republika',
+      zh: '第一共和',
     },
     yearRange: {
       en: '1918–1938',
@@ -432,7 +536,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'nazi-nightmare',
-    order: 11,
+    order: 14,
     themeClass: 'era-nazi-nightmare',
     hasContent: false,
     title: {
@@ -453,7 +557,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'cold-war-sorrow',
-    order: 12,
+    order: 15,
     themeClass: 'era-cold-war-sorrow',
     hasContent: false,
     title: {
@@ -474,7 +578,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'freedom-and-prosperity',
-    order: 13,
+    order: 16,
     themeClass: 'era-freedom-and-prosperity',
     hasContent: false,
     title: {

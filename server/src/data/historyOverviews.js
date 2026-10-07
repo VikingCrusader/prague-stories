@@ -86,16 +86,16 @@ export const historyOverviews = [
     cardType: "overview",
     startYear: 1378,
     tone: "humorous",
-    year: { en: "1378–1526", cz: "1378–1526", zh: "1378年－1526年" },
+    year: { en: "1378–1437", cz: "1378–1437", zh: "1378年－1437年" },
     title: {
-      en: "The Century of the Chalice",
-      cz: "Století kalicha",
-      zh: "圣杯的世纪",
+      en: "Out of the Window, Into the Wagons",
+      cz: "Z okna k vozům",
+      zh: "从窗口到战车",
     },
     summary: {
-      en: "Charles IV leaves his son two crowns and a Church with two popes. The son prefers hunting to deciding anything. Soon a preacher at Prague's Bethlehem Chapel is saying, in Czech, that forgiveness shouldn't be for sale, and Prague takes up his cause in its own way: town councillors go out of a window. Then peasants with farm wagons and the first handguns hold off crusade after crusade, led by a one-eyed general who never loses a battle. The war over a cup of communion wine outlasts nearly everyone who started it, and before the era is out, Bohemia will even choose a king of its own.",
-      cz: "Karel IV. zanechá synovi dvě koruny a církev se dvěma papeži. Syn má raději lov než rozhodování. Brzy začne kazatel v pražské Betlémské kapli česky říkat, že odpuštění by se nemělo prodávat, a Praha se jeho věci ujme po svém: konšelé letí z okna. Pak sedláci s hospodářskými vozy a prvními ručnicemi odrážejí jednu křížovou výpravu za druhou pod vedením jednookého vojevůdce, který neprohraje jedinou bitvu. Válka o kalich vína přežije skoro všechny, kdo ji začali, a než éra skončí, zvolí si Čechy dokonce vlastního krále.",
-      zh: "查理四世给儿子留下了两顶王冠，外加一个同时有两位教皇的教会。这个儿子比起拿主意，更喜欢去打猎。很快，布拉格伯利恒礼拜堂里的一位布道者开始用捷克语说：赦罪不该拿来卖钱。布拉格用自己的方式接过了他的主张：市议员们被扔出了窗外。接着，赶着自家大车、拿着最早一批手铳的农民，在一位从未输过一仗的独眼将军带领下，一次又一次挡住了十字军。这场为一杯圣餐葡萄酒打响的战争，比挑起它的几乎所有人都活得更久。而在这个时代结束之前，波希米亚甚至会自己选出一位国王。",
+      en: "Charles IV leaves his son two crowns and a Church with two popes. The son prefers hunting to deciding anything. Soon a preacher at Prague's Bethlehem Chapel is saying, in Czech, that forgiveness shouldn't be for sale, and Prague takes up his cause in its own way: town councillors go out of a window. Then peasants with farm wagons and the first handguns hold off crusade after crusade, led by a one-eyed general who never loses a battle. The war over a cup of communion wine outlasts nearly everyone who started it, and the enemy who finally beats the Hussite armies is one nobody had expected.",
+      cz: "Karel IV. zanechá synovi dvě koruny a církev se dvěma papeži. Syn má raději lov než rozhodování. Brzy začne kazatel v pražské Betlémské kapli česky říkat, že odpuštění by se nemělo prodávat, a Praha se jeho věci ujme po svém: konšelé letí z okna. Pak sedláci s hospodářskými vozy a prvními ručnicemi odrážejí jednu křížovou výpravu za druhou pod vedením jednookého vojevůdce, který neprohraje jedinou bitvu. Válka o kalich vína přežije skoro všechny, kdo ji začali, a nepřítel, který husitská vojska nakonec porazí, je ten, se kterým nikdo nepočítal.",
+      zh: "查理四世给儿子留下了两顶王冠，外加一个同时有两位教皇的教会。这个儿子比起拿主意，更喜欢去打猎。很快，布拉格伯利恒礼拜堂里的一位布道者开始用捷克语说：赦罪不该拿来卖钱。布拉格用自己的方式接过了他的主张：市议员们被扔出了窗外。接着，赶着自家大车、拿着最早一批手铳的农民，在一位从未输过一仗的独眼将军带领下，一次又一次挡住了十字军。这场为一杯圣餐葡萄酒打响的战争，比挑起它的几乎所有人都活得更久。而最终打垮胡斯派大军的，是一个谁也没料到的对手。",
     },
   },
 ];
