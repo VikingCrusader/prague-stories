@@ -52,7 +52,7 @@ export function renderInlineLinks(text, onNavigateToEvent) {
         </span>
       );
     } else {
-      nodes.push(<strong key={`bold-${key++}`}>{boldText}</strong>);
+      nodes.push(<strong key={`bold-${key++}`} className="history-event__bold">{boldText}</strong>);
     }
     lastIndex = match.index + full.length;
   }

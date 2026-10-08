@@ -529,6 +529,18 @@ html[data-lang="zh"] .history-event__landmarks-label {
 html[data-lang="zh"] .history-detail-panel--background .history-event__summary {
   font-family: "LXGW WenKai TC", "Noto Serif SC", "Noto Serif TC", serif !important;
 }
+/* [[b]] emphasis (renderInlineLinks in utils/historyMarkup.jsx) switches
+   from the surrounding serif/Kaiti body text to a bold sans-serif (heiti)
+   in Chinese, so key sentences stand out by typeface as well as weight
+   (2026-10-08, per explicit request). Targets the <strong> itself, so it
+   wins over the font-family it would otherwise inherit from event,
+   background and overview paragraphs alike. */
+html[data-lang="zh"] .history-event__bold {
+  font-family: "Noto Sans SC", "PingFang SC", "PingFang TC", "Microsoft YaHei",
+    "Microsoft JhengHei", "SimHei", sans-serif !important;
+  font-weight: 700;
+}
+
 /* Era-overview cards' intro paragraph: Kaiti as well (2026-10-01). */
 html[data-lang="zh"] .history-overview__text {
   font-family: "LXGW WenKai TC", "Noto Serif SC", "Noto Serif TC", serif !important;
