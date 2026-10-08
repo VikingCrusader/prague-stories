@@ -17,25 +17,25 @@
 .px-btn:active { transform: translate(2px, 2px) !important; box-shadow: none !important; }
 
 .px-btn--gold {
-  background: var(--gold); color: #111;
+  background: var(--gold); color: var(--on-accent, #111);
   border-color: var(--gold-dark);
   box-shadow: 3px 3px 0 var(--gold-shadow);
 }
-.px-btn--gold:hover { background: #ffe033; box-shadow: 4px 4px 0 var(--gold-shadow); transform: translate(-1px,-1px); }
+.px-btn--gold:hover { background: var(--gold-hover, #ffe033); box-shadow: 4px 4px 0 var(--gold-shadow); transform: translate(-1px,-1px); }
 
 .px-btn--outline {
   background: transparent; color: var(--gold);
   border-color: var(--gold);
-  box-shadow: 3px 3px 0 #000;
+  box-shadow: 3px 3px 0 var(--shadow);
 }
-.px-btn--outline:hover { background: rgba(255,215,0,0.1); box-shadow: 4px 4px 0 #000; transform: translate(-1px,-1px); }
+.px-btn--outline:hover { background: color-mix(in srgb, var(--gold) 10%, transparent); box-shadow: 4px 4px 0 var(--shadow); transform: translate(-1px,-1px); }
 
 .px-btn--dark {
   background: var(--bg-surface); color: var(--text-primary);
   border-color: var(--border);
-  box-shadow: 3px 3px 0 #000;
+  box-shadow: 3px 3px 0 var(--shadow);
 }
-.px-btn--dark:hover { background: #1e2448; box-shadow: 4px 4px 0 #000; transform: translate(-1px,-1px); }
+.px-btn--dark:hover { background: var(--bg-hover, #1e2448); box-shadow: 4px 4px 0 var(--shadow); transform: translate(-1px,-1px); }
 
 .px-btn--danger {
   background: #bb1111; color: #fff;
@@ -51,16 +51,29 @@
 .px-card {
   background: var(--bg-card);
   border: 3px solid var(--gold);
-  box-shadow: 4px 4px 0 #000;
+  box-shadow: 4px 4px 0 var(--shadow);
   position: relative;
   overflow: hidden;
 }
 
 /* ── Location Card ───────────────────────────────────────── */
 .loc-card {
-  background: var(--bg-card);
+  /* Per-rarity surface (2026-10-08): the base card gradient (--card-top /
+     --card-bottom, set per theme in global.css) tinted with the card's
+     rarity colour, more strongly the rarer it is, plus a corner glow from
+     epic up, an outer glow from mythic up, and a slow foil sweep on
+     legend (rules below). Without data-rarity it's the plain gradient. */
+  --rc: var(--rarity-common);
+  --tint-top: 0%;
+  --tint-bottom: 0%;
+  --glow: 0%;
+  background:
+    radial-gradient(130% 70% at 0% 100%, color-mix(in srgb, var(--rc) var(--glow), transparent), transparent 70%),
+    linear-gradient(180deg,
+      color-mix(in srgb, var(--rc) var(--tint-top), var(--card-top, var(--bg-card))) 0%,
+      color-mix(in srgb, var(--rc) var(--tint-bottom), var(--card-bottom, var(--bg-card))) 100%);
   border: 3px solid var(--gold);
-  box-shadow: 4px 4px 0 #000;
+  box-shadow: 4px 4px 0 var(--card-shadow, var(--shadow)), var(--outer-glow, 0 0 0 transparent);
   cursor: pointer;
   transition: transform 80ms, box-shadow 80ms;
   position: relative;
@@ -68,10 +81,39 @@
   display: flex;
   flex-direction: column;
 }
-.loc-card:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 #000; }
+.loc-card:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--card-shadow, var(--shadow)), var(--outer-glow, 0 0 0 transparent); }
+
+.loc-card[data-rarity="rare"]     { --rc: var(--rarity-rare);     --tint-top: 4%;  --tint-bottom: 9%; }
+.loc-card[data-rarity="superior"] { --rc: var(--rarity-superior); --tint-top: 5%;  --tint-bottom: 11%; }
+.loc-card[data-rarity="epic"]     { --rc: var(--rarity-epic);     --tint-top: 7%;  --tint-bottom: 14%; --glow: 20%; }
+.loc-card[data-rarity="mythic"]   { --rc: var(--rarity-mythic);   --tint-top: 8%;  --tint-bottom: 17%; --glow: 26%;
+  --outer-glow: 0 0 10px color-mix(in srgb, var(--rarity-mythic) 35%, transparent); }
+.loc-card[data-rarity="legend"]   { --rc: var(--rarity-legend);   --tint-top: 10%; --tint-bottom: 20%; --glow: 32%;
+  --outer-glow: 0 0 14px color-mix(in srgb, var(--rarity-legend) 45%, transparent); }
+/* Legend foil: a faint light band sweeping across the card every few
+   seconds. Sits above the content but ignores clicks. */
+.loc-card[data-rarity="legend"]::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(115deg, transparent 40%, color-mix(in srgb, var(--fg-tint) 14%, transparent) 50%, transparent 60%);
+  background-size: 250% 100%;
+  background-position: 120% 0;
+  animation: legend-foil 6s ease-in-out infinite;
+  z-index: 2;
+}
+.loc-card--locked[data-rarity="legend"]::after { display: none; }
+@keyframes legend-foil {
+  0%, 55% { background-position: 120% 0; }
+  100%    { background-position: -20% 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .loc-card[data-rarity="legend"]::after { animation: none; display: none; }
+}
 
 .loc-card--locked {
-  border-color: #333;
+  border-color: var(--border-strong, #333);
   filter: saturate(0.15);
 }
 .loc-card--locked:hover { filter: saturate(0.25); }
@@ -169,7 +211,7 @@
   background: linear-gradient(
     105deg,
     transparent 30%,
-    rgba(255, 215, 0, 0.45) 50%,
+    color-mix(in srgb, var(--gold) 45%, transparent) 50%,
     rgba(255, 255, 255, 0.35) 60%,
     transparent 70%
   );
@@ -262,8 +304,8 @@ html:not([data-lang="zh"]) .loc-card__name {
   white-space: nowrap;
 }
 .label-pill:hover { border-color: var(--gold); color: var(--text-primary); }
-.label-pill--active { border-color: var(--gold); color: var(--gold); background: rgba(255,215,0,0.1); }
-.label-pill--clear { border-color: #444; color: #888; }
+.label-pill--active { border-color: var(--gold); color: var(--gold); background: color-mix(in srgb, var(--gold) 10%, transparent); }
+.label-pill--clear { border-color: var(--border-strong, #444); color: var(--text-dim, #888); }
 .label-pill--clear:hover { border-color: #f66; color: #f66; background: rgba(255,80,80,0.08); }
 
 .detail-label-pill {
@@ -275,14 +317,14 @@ html:not([data-lang="zh"]) .loc-card__name {
   font-size: 9px;
   line-height: 1.5;
   font-weight: 700;
-  border: 2px solid #000;
+  border: 2px solid var(--shadow);
   color: var(--text-primary);
   white-space: normal;
 }
 
 .detail-label-pill--superior {
   border-color: var(--gold) !important;
-  box-shadow: 0 0 0 2px rgba(255,215,0,0.06) inset;
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--gold) 6%, transparent) inset;
 }
 
 .label-pill-sm {
@@ -296,8 +338,8 @@ html:not([data-lang="zh"]) .loc-card__name {
   font-size: 15px;
   line-height: 1.35;
   font-weight: 700;
-  border: 1px solid rgba(255,255,255,0.15);
-  background: rgba(255,255,255,0.07);
+  border: 1px solid color-mix(in srgb, var(--fg-tint) 15%, transparent);
+  background: color-mix(in srgb, var(--fg-tint) 7%, transparent);
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
@@ -341,7 +383,7 @@ html:not([data-lang="zh"]) .loc-card__name {
   right: 0;
   background: var(--bg-surface);
   border: 3px solid var(--gold);
-  box-shadow: 4px 4px 0 #000;
+  box-shadow: 4px 4px 0 var(--shadow);
   padding: 10px;
   z-index: 50;
   display: flex;
@@ -365,13 +407,13 @@ html:not([data-lang="zh"]) .loc-card__name {
 .px-title {
   font-family: 'Press Start 2P', monospace;
   color: var(--gold);
-  text-shadow: 2px 2px 0 #000;
+  text-shadow: 2px 2px 0 var(--shadow);
   line-height: 1.6;
 }
 
 /* ── Pixel Input ─────────────────────────────────────────── */
 .px-input {
-  background: #080a18;
+  background: var(--bg-input, #080a18);
   border: 3px solid var(--border);
   color: var(--text-primary);
   padding: 10px 14px;
@@ -385,8 +427,8 @@ html:not([data-lang="zh"]) .loc-card__name {
 /* ── XP Bar ──────────────────────────────────────────────── */
 .xp-bar {
   height: 14px;
-  background: #050710;
-  border: 3px solid #333;
+  background: var(--bg-input, #050710);
+  border: 3px solid var(--border-strong, #333);
   position: relative;
   overflow: hidden;
 }
@@ -401,7 +443,7 @@ html:not([data-lang="zh"]) .loc-card__name {
 .px-overlay {
   position: fixed;
   inset: 0;
-  background: rgba(0,0,0,0.88);
+  background: var(--overlay, rgba(0,0,0,0.88));
   z-index: 200;
   display: flex;
   align-items: center;
@@ -412,7 +454,7 @@ html:not([data-lang="zh"]) .loc-card__name {
 .px-modal {
   background: var(--bg-surface);
   border: 3px solid var(--gold);
-  box-shadow: 6px 6px 0 #000;
+  box-shadow: 6px 6px 0 var(--shadow);
   width: 100%;
   max-width: 660px;
   position: relative;
@@ -430,8 +472,8 @@ html:not([data-lang="zh"]) .loc-card__name {
   position: absolute;
   top: 12px; right: 12px;
   background: none;
-  border: 2px solid #444;
-  color: #fff;
+  border: 2px solid var(--border-strong, #444);
+  color: var(--text-strong, #fff);
   width: 30px; height: 30px;
   font-size: 16px;
   display: flex; align-items: center; justify-content: center;
@@ -486,7 +528,7 @@ html:not([data-lang="zh"]) .loc-card__name {
   max-width: 380px;
   background: var(--bg-surface);
   border: 3px solid var(--gold);
-  box-shadow: 0 0 0 3px #000, 0 0 40px 6px rgba(255,215,0,0.45);
+  box-shadow: 0 0 0 3px var(--shadow), 0 0 40px 6px color-mix(in srgb, var(--gold) 45%, transparent);
   padding: 32px 24px 26px;
   text-align: center;
   overflow: hidden;
@@ -496,7 +538,7 @@ html:not([data-lang="zh"]) .loc-card__name {
   position: absolute;
   inset: -50%;
   background: repeating-conic-gradient(
-    rgba(255,215,0,0.16) 0deg 8deg,
+    color-mix(in srgb, var(--gold) 16%, transparent) 0deg 8deg,
     transparent 8deg 16deg
   );
   animation: levelup-spin 12s linear infinite;
@@ -508,14 +550,14 @@ html:not([data-lang="zh"]) .loc-card__name {
   font-size: 15px;
   letter-spacing: 1px;
   color: var(--gold);
-  text-shadow: 2px 2px 0 #000, 0 0 12px rgba(255,215,0,0.8);
+  text-shadow: 2px 2px 0 var(--shadow), 0 0 12px color-mix(in srgb, var(--gold) 80%, transparent);
   animation: levelup-flicker 1.2s ease-in-out infinite;
 }
 .levelup-modal__num {
   font-family: 'Press Start 2P', monospace;
   font-size: 40px;
   color: #fff;
-  text-shadow: 3px 3px 0 #000, 0 0 20px rgba(255,215,0,0.9);
+  text-shadow: 3px 3px 0 var(--shadow), 0 0 20px color-mix(in srgb, var(--gold) 90%, transparent);
   margin: 18px 0 10px;
   animation: levelup-bounce 0.6s ease-out 0.1s both;
 }
@@ -525,8 +567,8 @@ html:not([data-lang="zh"]) .loc-card__name {
   position: absolute;
   top: 10px; right: 10px;
   background: none;
-  border: 2px solid #444;
-  color: #fff;
+  border: 2px solid var(--border-strong, #444);
+  color: var(--text-strong, #fff);
   width: 26px; height: 26px;
   font-size: 14px;
   display: flex; align-items: center; justify-content: center;
@@ -583,7 +625,7 @@ html:not([data-lang="zh"]) .loc-card__name {
   border: 3px solid;
   font-family: 'Press Start 2P', monospace;
   font-size: 8px;
-  box-shadow: 4px 4px 0 #000;
+  box-shadow: 4px 4px 0 var(--shadow);
   animation: slideIn 0.2s ease;
   max-width: 320px;
 }
@@ -634,7 +676,7 @@ html:not([data-lang="zh"]) .loc-card__name {
   font-family: 'Press Start 2P', monospace;
   font-size: 17px;
   color: var(--gold);
-  text-shadow: 2px 2px 0 #000;
+  text-shadow: 2px 2px 0 var(--shadow);
   white-space: nowrap;
   text-decoration: none;
 }
@@ -657,6 +699,8 @@ html:not([data-lang="zh"]) .loc-card__name {
 .navbar__user { font-family: 'Press Start 2P', monospace; font-size: 7px; color: var(--gold); }
 .navbar__github { display: flex; align-items: center; color: var(--gold); opacity: 0.85; transition: opacity 0.15s, transform 0.15s; }
 .navbar__github:hover { opacity: 1; transform: scale(1.1); }
+.navbar__theme { display: flex; align-items: center; background: none; border: none; padding: 0; cursor: pointer; color: var(--gold); opacity: 0.85; transition: opacity 0.15s, transform 0.15s; }
+.navbar__theme:hover { opacity: 1; transform: scale(1.1); }
 
 /* Desktop-only: bring the right-hand nav cluster (GitHub icon, lang tabs,
    XP/level badge, logout button) up to the same fuller scale as
@@ -681,7 +725,8 @@ html:not([data-lang="zh"]) .loc-card__name {
     padding: 8px 16px;
   }
   .navbar__right { gap: 14px; }
-  .navbar__github svg { width: 34px; height: 34px; }
+  .navbar__github svg { width: 34px; height: 34px; } .navbar__theme svg { width: 30px; height: 30px; }
+  .navbar__theme svg { width: 30px; height: 30px; }
 }
 
 /* ── Auth Page ───────────────────────────────────────────── */
@@ -697,14 +742,14 @@ html:not([data-lang="zh"]) .loc-card__name {
   max-width: 420px;
   background: var(--bg-surface);
   border: 3px solid var(--gold);
-  box-shadow: 6px 6px 0 #000;
+  box-shadow: 6px 6px 0 var(--shadow);
   padding: 36px 32px;
 }
 .auth-box h1 { font-size: 14px; margin-bottom: 8px; }
 .auth-box .subtitle { font-size: 16px; color: var(--text-muted); margin-bottom: 28px; }
 .form-group { display: flex; flex-direction: column; gap: 6px; margin-bottom: 18px; }
 .form-label { font-family: 'Press Start 2P', monospace; font-size: 7px; color: var(--text-muted); }
-.form-error { font-size: 14px; color: #ff6b6b; margin-top: 6px; }
+.form-error { font-size: 14px; color: var(--danger-text, #ff6b6b); margin-top: 6px; }
 .form-link { font-size: 15px; color: var(--text-muted); margin-top: 18px; text-align: center; }
 
 /* ── Explore Page ─────────────────────────────────────────── */
@@ -725,7 +770,7 @@ html:not([data-lang="zh"]) .loc-card__name {
 .filter-bar__bottom { display: contents; }
 .filter-bar__add-btn { display: none; }
 .filter-bar__search {
-  background: #080a18;
+  background: var(--bg-input, #080a18);
   border: 3px solid var(--border);
   color: var(--text-primary);
   padding: 8px 14px;
@@ -747,7 +792,7 @@ html:not([data-lang="zh"]) .loc-card__name {
   transition: all 0.1s;
 }
 .filter-btn:hover { border-color: var(--gold); color: var(--text-primary); }
-.filter-btn--active { border-color: var(--gold); color: var(--gold); background: rgba(255,215,0,0.08); }
+.filter-btn--active { border-color: var(--gold); color: var(--gold); background: color-mix(in srgb, var(--gold) 8%, transparent); }
 
 .location-grid {
   display: grid;
@@ -783,7 +828,7 @@ html:not([data-lang="zh"]) .loc-card__name {
 .stat-card {
   background: var(--bg-surface);
   border: 3px solid var(--border);
-  box-shadow: 4px 4px 0 #000;
+  box-shadow: 4px 4px 0 var(--shadow);
   padding: 20px 24px;
 }
 .stat-card__label {
@@ -805,7 +850,7 @@ html:not([data-lang="zh"]) .loc-card__name {
 .ach-badge {
   background: var(--bg-card);
   border: 3px solid var(--border);
-  box-shadow: 3px 3px 0 #000;
+  box-shadow: 3px 3px 0 var(--shadow);
   padding: 14px 16px;
   display: flex;
   gap: 12px;
@@ -848,14 +893,14 @@ html:not([data-lang="zh"]) .loc-card__name {
   gap: 10px;
   padding: 10px 16px;
   border: 3px solid var(--gold);
-  box-shadow: 4px 4px 0 #000;
+  box-shadow: 4px 4px 0 var(--shadow);
   background: var(--bg-card);
 }
 .level-badge__num {
   font-family: 'Press Start 2P', monospace;
   font-size: 22px;
   color: var(--gold);
-  text-shadow: 2px 2px 0 #000;
+  text-shadow: 2px 2px 0 var(--shadow);
   /* .level-badge is a flex item on narrow/mobile widths (its parent row
      wraps, but .level-badge itself doesn't get its own width) — without
      this, the space in "LVL 18" is a valid break point, and a squeezed
@@ -891,7 +936,7 @@ html:not([data-lang="zh"]) .detail-title-name {
 html[data-lang="zh"] .detail-title-czname {
   transform: scaleY(1);
 }
-.detail-desc { font-size: 18px; line-height: 1.7; color: var(--text-primary); }
+.detail-desc { font-size: 18px; line-height: 1.7; color: var(--text-body); }
 /* The locked-card teaser lines ("🔒The archive seems to be locked...")
    appended after .detail-desc — italic by default, same as the inline
    style this replaced; overridden back to upright for the Cinzel swap
@@ -918,7 +963,7 @@ html[data-lang="zh"] .detail-title-czname {
   cursor: pointer;
   margin-right: -2px;
 }
-.lang-tab--active { border-color: var(--gold); color: var(--gold); background: rgba(255,215,0,0.08); z-index: 1; }
+.lang-tab--active { border-color: var(--gold); color: var(--gold); background: color-mix(in srgb, var(--gold) 8%, transparent); z-index: 1; }
 .lang-tab.lang-tab--zh {
   font-family: 'ArkPixel', 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
   font-size: 12px;
@@ -940,7 +985,7 @@ html[data-lang="zh"] .detail-title-czname {
 .guide-challenge {
   font-size: 20px;
   color: var(--gold);
-  background: rgba(255,215,0,0.06);
+  background: color-mix(in srgb, var(--gold) 6%, transparent);
   border: 2px solid var(--gold);
   border-left: 5px solid var(--gold);
   padding: 12px 16px;
@@ -967,7 +1012,7 @@ html[data-lang="zh"] .detail-title-czname {
   font-family: 'Press Start 2P', monospace;
   font-size: 7px;
   color: var(--gold);
-  background: rgba(255,215,0,0.08);
+  background: color-mix(in srgb, var(--gold) 8%, transparent);
   border: 2px solid var(--gold);
   min-width: 26px; height: 26px;
   display: flex; align-items: center; justify-content: center;
@@ -999,7 +1044,7 @@ html[data-lang="zh"] .detail-title-czname {
   border: 3px solid var(--border);
   padding: 14px 16px;
   margin-bottom: 10px;
-  box-shadow: 3px 3px 0 #000;
+  box-shadow: 3px 3px 0 var(--shadow);
 }
 .guide-faq__q {
   font-family: 'Press Start 2P', monospace;
@@ -1023,13 +1068,13 @@ html[data-lang="zh"] .detail-title-czname {
      width as the revealed loc-card it flips into (see RandomDrawPage). */
   width: 230px;
   background: var(--bg-card);
-  box-shadow: 5px 5px 0 #000;
+  box-shadow: 5px 5px 0 var(--shadow);
   overflow: hidden;
   display: flex;
   flex-direction: column;
 }
 .draw-card--mystery {
-  border: 3px dashed #444;
+  border: 3px dashed var(--border-strong, #444);
   align-items: center;
   justify-content: center;
   gap: 6px;
@@ -1039,8 +1084,8 @@ html[data-lang="zh"] .detail-title-czname {
     135deg,
     var(--bg-card),
     var(--bg-card) 10px,
-    rgba(255,255,255,0.02) 10px,
-    rgba(255,255,255,0.02) 20px
+    color-mix(in srgb, var(--fg-tint) 2%, transparent) 10px,
+    color-mix(in srgb, var(--fg-tint) 2%, transparent) 20px
   );
 }
 .draw-card--empty { border-color: var(--gold); }
@@ -1049,7 +1094,7 @@ html[data-lang="zh"] .detail-title-czname {
   font-family: 'Press Start 2P', monospace;
   font-size: 16px;
   letter-spacing: 3px;
-  color: #555;
+  color: var(--text-dim, #555);
 }
 /* Card-back artwork (pixel-art/cardback.webp) replaces the emoji + "？？？"
    placeholder for the two actual face-down states (guest preview, not yet

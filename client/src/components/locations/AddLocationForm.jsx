@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { locationAPI } from '../../services/api';
 import { useT, useLang } from '../../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
-import { RARITY_XP, RARITY_COLOR, RARITY_LABEL } from '../../utils/rarity';
+import { RARITY_XP, RARITY_VAR, RARITY_LABEL } from '../../utils/rarity';
 
 export default function AddLocationForm({ onClose, onAdded }) {
   const t = useT();
@@ -118,7 +118,7 @@ export default function AddLocationForm({ onClose, onAdded }) {
     <div className="px-overlay" onClick={e => e.target === e.currentTarget && onClose()}>
       <div className="px-modal" style={{ maxHeight: '90vh', overflowY: 'auto' }}>
         <button className="px-modal__close" onClick={onClose}>✕</button>
-        <div className="px-modal__header" style={{ background: '#141830', padding: 0, overflow: 'hidden', minHeight: 80 }}>
+        <div className="px-modal__header" style={{ background: 'var(--bg-surface)', padding: 0, overflow: 'hidden', minHeight: 80 }}>
           {preview ? (
             <img src={preview} alt="cover preview" style={{ width: '100%', height: 140, objectFit: 'cover', display: 'block' }} />
           ) : (
@@ -168,9 +168,9 @@ export default function AddLocationForm({ onClose, onAdded }) {
             <div className="form-group">
               <label className="form-label">Rarity</label>
               <select className="px-input" name="rarity" value={form.rarity} onChange={handle}
-                style={{ color: RARITY_COLOR[form.rarity] }}>
+                style={{ color: RARITY_VAR[form.rarity] }}>
                 {['common', 'rare', 'superior', 'epic', 'mythic', 'legend'].map(r => (
-                  <option key={r} value={r} style={{ color: RARITY_COLOR[r] }}>
+                  <option key={r} value={r} style={{ color: RARITY_VAR[r] }}>
                     {RARITY_LABEL.en[r]} — +{RARITY_XP[r]} XP
                   </option>
                 ))}

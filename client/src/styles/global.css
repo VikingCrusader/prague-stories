@@ -17,6 +17,35 @@
   --gold-shadow: #7a6600;
   --border: #252a4a;
 
+  /* Theme-able extras (see the light theme at the end of this file).
+     Dark values match the colours these used to be hard-coded as. */
+  --shadow: #000;
+  --fg-tint: #ffffff;
+  --on-label: #f0e6c8;
+  /* Long-form body text (timeline summaries, location descriptions):
+     a warm cream rather than near-white (2026-10-08). */
+  --text-body: #ebdfc3;
+  --zh-body-font: "Noto Serif SC", "Noto Serif TC", "Source Han Serif SC", serif;
+  --zh-body-weight: 500;
+  /* Location cards had the same --bg-card as the History panel behind
+     them and read as hollow outlines; a slightly lighter navy gradient
+     gives them their own surface (light theme has its own value), which
+     pixelart.css then tints per rarity. */
+  --card-top: #1c2142;
+  --card-bottom: #151a35;
+  --zh-caption-font: "LXGW WenKai TC", "Noto Serif SC", "Noto Serif TC", serif;
+  --zh-caption-weight: 300;
+  --zh-sidebar-font: "Noto Serif SC", "Noto Serif TC", "Source Han Serif SC", serif;
+  --zh-sidebar-item-weight: 400;
+  --zh-sidebar-year-weight: 400;
+  --rarity-common: #EBE8D9;
+  --rarity-rare: #87CEEB;
+  --rarity-superior: #2c8c03;
+  --rarity-epic: #BA55D3;
+  --rarity-mythic: #c40202;
+  --rarity-legend: #FFD700;
+  color-scheme: dark;
+
   --cat-historical: #7a5210;
   --cat-cultural: #5a1480;
   --cat-natural: #145a20;
@@ -236,7 +265,6 @@ html:not([data-lang="zh"]) .history-era-divider__years,
 html:not([data-lang="zh"]) .history-event__reference-maps-label,
 html:not([data-lang="zh"]) .history-event__reference-maps-caption,
 html:not([data-lang="zh"]) .history-event__reference-maps-link,
-html:not([data-lang="zh"]) .history-sidebar__item-title,
 html:not([data-lang="zh"]) .history-sidebar__item-year,
 html:not([data-lang="zh"]) .history-event__year,
 html:not([data-lang="zh"]) .loc-card__xp,
@@ -284,12 +312,21 @@ html:not([data-lang="zh"]) .history-event__quote-text {
   font-style: normal;
 }
 
+/* Hook line and quote box read too thin at the shared Cinzel 400
+   (2026-10-08, user request): real 600 weight (Cinzel ships 400-700, so
+   no synthetic bold), both themes. EN/CZ only. */
+html:not([data-lang="zh"]) .history-event__hook,
+html:not([data-lang="zh"]) .history-event__quote-text,
+html:not([data-lang="zh"]) .history-event__quote-attribution {
+  font-weight: 600;
+}
+
 /* .history-landmark-caption inherits the shared Cinzel/400 from the big
    selector list above plus history.css's var(--text-muted) (#7a6e5f) —
    too thin and too low-contrast against the dark background to read
    comfortably. Bumped to solid white + a heavier weight, EN/CZ only. */
 html:not([data-lang="zh"]) .history-landmark-caption {
-  color: #ffffff;
+  color: var(--text-strong, #ffffff);
   font-weight: 600;
 }
 
@@ -345,6 +382,23 @@ html:not([data-lang="zh"]) .history-sidebar__era-title,
 html:not([data-lang="zh"]) .history-era-divider__title {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", serif;
 }
+/* Sidebar event titles moved off Cinzel onto the same Palatino as the
+   event <h2> titles (2026-10-08, user request), both themes. 15px since
+   Palatino's lowercase runs smaller than Cinzel's all-caps at 14px. Bold
+   (Palatino has only regular and bold) per follow-up request. */
+html:not([data-lang="zh"]) .history-sidebar__item-title {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+/* Era year span under each sidebar era title (e.g. 1437–1471): read too
+   small and faint at 13px/400 (2026-10-08, user request). Same Palatino
+   as the era title, bigger and bold, both themes. */
+html:not([data-lang="zh"]) .history-sidebar__era-year-range {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", serif;
+  font-size: 15px;
+  font-weight: 700;
+}
 /* history.css's base sizes (14px/13px/20px) were tuned for the pixel
    font's own dense, blocky metrics — at those sizes Palatino reads as
    noticeably smaller/thinner once swapped in. Bumped up and bolded,
@@ -381,6 +435,8 @@ html:not([data-lang="zh"]) .history-event__summary {
   font-family: "Alegreya", Georgia, serif;
   /* Alegreya's word space is narrow; widened slightly (2026-10-08). */
   word-spacing: 0.06em;
+  /* 400 read too faint; same weight in both themes (2026-10-08). */
+  font-weight: 500;
 }
 
 /* history.css sets .history-event__summary to 16px/1.6 with no explicit
@@ -398,13 +454,12 @@ html:not([data-lang="zh"]) .history-event__summary {
      LanguageContext. */
   font-size: 1.125rem;
   line-height: 1.7;
-  color: #e6e1d3;
   hyphens: auto;
   text-wrap: pretty;
 }
 /* Keep the era-overview paragraph's own warmer beige (history.css). */
 html:not([data-lang="zh"]) .history-overview__text {
-  color: #e6d3a3;
+  color: var(--text-overview, #e6d3a3);
 }
 
 /* ── Noto Serif SC/TC ("Source Han Serif") for History Timeline body
@@ -460,6 +515,35 @@ html[data-lang="zh"] .detail-desc {
   letter-spacing: 0.05em;
 }
 
+/* ZH body paragraphs (event summaries, location descriptions). The face
+   is the one deliberate per-theme style difference (2026-10-08, user's
+   call): Noto Sans SC/TC (heiti) looks great on the light paper theme,
+   where Noto Serif SC's hairline horizontals read too faint, but heiti
+   glares on the dark theme, so dark keeps Noto Serif SC. Set via
+   --zh-body-font / --zh-body-weight (:root and the light theme block).
+   Background and overview cards keep LXGW WenKai (more specific rules
+   below). */
+html[data-lang="zh"] .history-event__summary,
+html[data-lang="zh"] .detail-desc {
+  font-family: var(--zh-body-font) !important;
+  font-weight: var(--zh-body-weight);
+}
+/* Sidebar era titles, event titles and event years: heiti on the light
+   theme only (event titles 500, years 700); the dark theme keeps its
+   original Noto Serif SC at 400 (2026-10-08, user request). Era titles
+   stay 700 in both. Set via the --zh-sidebar-* variables. */
+html[data-lang="zh"] .history-sidebar__era-title,
+html[data-lang="zh"] .history-sidebar__item-title,
+html[data-lang="zh"] .history-sidebar__item-year {
+  font-family: var(--zh-sidebar-font) !important;
+}
+html[data-lang="zh"] .history-sidebar__item-title {
+  font-weight: var(--zh-sidebar-item-weight);
+}
+html[data-lang="zh"] .history-sidebar__item-year {
+  font-weight: var(--zh-sidebar-year-weight);
+}
+
 /* .history-event__hook (the yellow pull-quote line right under an event's
    title) inherits font-style: italic from history.css, unscoped by
    language — fine for the Latin serif faces used on EN/CZ, but Noto
@@ -478,8 +562,10 @@ html[data-lang="zh"] .history-event__hook {
   /* Bumped from Light (300) to Regular (400) per follow-up request — still
      one step lighter than nothing, but 300 read as too faint on its own.
      LXGW WenKai TC only ships 300/400/700 (no 500/600), so 400 is the
-     next available step up, not an arbitrary middle value. */
-  font-weight: 400;
+     next available step up, not an arbitrary middle value. Raised again
+     to 700 (2026-10-08, user request, both themes), the next weight
+     WenKai has after 400. */
+  font-weight: 700;
 }
 
 /* .history-event__quote-text/-attribution (the pulled-out primary-source
@@ -505,6 +591,12 @@ html[data-lang="zh"] .history-event__reference-maps-caption {
 html[data-lang="zh"] .history-event__quote-text {
   font-style: normal;
 }
+/* Quote box bolder, matching the hook line (2026-10-08, user request,
+   both themes); WenKai's next weight after 400 is 700. */
+html[data-lang="zh"] .history-event__quote-text,
+html[data-lang="zh"] .history-event__quote-attribution {
+  font-weight: 700;
+}
 
 /* .history-landmark-caption (the one-line relation blurb under each
    related-landmark card) moved onto the same Kaiti face as the hook line
@@ -512,14 +604,18 @@ html[data-lang="zh"] .history-event__quote-text {
    override needed here (history.css never sets italic on this class, so
    there's no synthetic-slant problem to guard against like the two rules
    above). */
+/* Face/weight come from --zh-caption-font/--zh-caption-weight: Kaiti 300
+   on dark, heiti 500 on light (2026-10-08, user request: the small
+   captions read too low-contrast on the light theme). Covers both the
+   landmark relation captions and the image captions. */
 html[data-lang="zh"] .history-landmark-caption {
-  font-family: "LXGW WenKai TC", "Noto Serif SC", "Noto Serif TC", serif !important;
-  font-weight: 300;
+  font-family: var(--zh-caption-font) !important;
+  font-weight: var(--zh-caption-weight);
   /* Matches the EN/CZ rule for this same class (see the Cinzel block
      below, which bumps this class to solid white for the same reason:
      history.css's default var(--text-muted) #7a6e5f reads too thin/low-
      contrast against the dark background). */
-  color: #ffffff;
+  color: var(--text-strong, #ffffff);
 }
 
 /* .history-event__landmarks-label ("See it for yourself" / "亲自去看看",
@@ -687,4 +783,82 @@ html[data-lang="zh"] .history-overview__era .history-era-divider__years {
   font-size: 28px;
   font-weight: 700;
   line-height: 1.4;
+}
+
+/* Year label above each event card read too small and faint at 13px/400
+   (2026-10-08, user request): bigger and bold in every language and
+   both themes. Placed after the EN/CZ Cinzel and ZH Noto Serif rules
+   that pin it to 400. */
+html:not([data-lang="zh"]) .history-event__year,
+html[data-lang="zh"] .history-event__year {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* ── Light theme (2026-10-08) ───────────────────────────────────────
+   Toggled by the navbar button (ThemeContext sets data-theme on <html>,
+   and an inline script in index.html applies the saved choice before
+   first paint). Warm paper background, dark brown text, and deep red in
+   place of gold (gold doesn't read on a light background; red is also
+   the Bohemian heraldic colour). Everything themed goes through the
+   variables below; most rules fall back to the dark value when a
+   variable is only defined here. Colours only, with three user-approved
+   exceptions: the ZH body, caption and sidebar fonts (--zh-body-font,
+   --zh-caption-font, --zh-sidebar-*, see their rules above). */
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg-primary: #ece3cf;
+  --bg-surface: #f5eedf;
+  --bg-card: #faf6ec;
+  --text-primary: #2a2119;
+  --text-muted: #6b5c48;
+  --gold: #9e1b1b;
+  --gold-dark: #7a1414;
+  --gold-shadow: #5c0f0f;
+  --gold-hover: #b52424;
+  --border: #d6c7a6;
+  --border-strong: #bfae8a;
+  --divider: #d6c7a6;
+  --shadow: rgba(74, 52, 28, 0.28);
+  --fg-tint: #3a2a18;
+  --on-accent: #fdf6e8;
+  --bg-hover: #ece2cb;
+  --bg-input: #fffaf0;
+  --overlay: rgba(42, 30, 18, 0.55);
+  --text-strong: #1e1710;
+  --text-body: #2a2119;
+  --text-overview: #5a3a1c;
+  --text-dim: #8a7a64;
+  --danger-text: #b3261e;
+  --success-text: #2e7d32;
+  --pink-text: #a8327a;
+  --blue-text: #1f6f96;
+  --pill-fallback: #7a6a55;
+  /* Location cards: on the light theme a flat --bg-card made the card body
+     the same colour as the History panel behind it, so cards read as
+     hollow outlines. A slightly darker warm paper gradient gives them
+     their own surface on both the panel and the Explore page. */
+  --card-top: #f3e9d4;
+  --card-bottom: #e8dabd;
+  /* ...and a darker hard pixel shadow than the general --shadow. */
+  --card-shadow: rgba(58, 38, 18, 0.6);
+  --zh-body-font: "Noto Sans SC", "Noto Sans TC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --zh-body-weight: 500;
+  --zh-caption-font: "Noto Sans SC", "Noto Sans TC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --zh-caption-weight: 500;
+  --zh-sidebar-font: "Noto Sans SC", "Noto Sans TC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  --zh-sidebar-item-weight: 500;
+  --zh-sidebar-year-weight: 700;
+  --rarity-common: #6b6355;
+  --rarity-rare: #1f7fae;
+  --rarity-superior: #2c8c03;
+  --rarity-epic: #9b3fb5;
+  --rarity-mythic: #c40202;
+  --rarity-legend: #b8860b;
+}
+/* Label pills sit on the dark LABEL_COLORS backgrounds, so they keep
+   light text in both themes. */
+:root[data-theme="light"] .label-pill-sm,
+:root[data-theme="light"] .detail-label-pill {
+  color: var(--on-label);
 }

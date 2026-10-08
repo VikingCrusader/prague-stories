@@ -14,7 +14,7 @@ import { getCurrentPosition, haversineDistance, formatDistance } from "../../uti
 import { useUserPosition } from "../../hooks/useUserPosition";
 import EditLocationForm from "./EditLocationForm";
 import {
-  RARITY_COLOR,
+  RARITY_VAR,
   RARITY_LABEL,
   lockClosedIcon,
   lockOpenIcon,
@@ -163,7 +163,7 @@ export default function LocationDetail({
         className="px-modal px-modal--detail"
         style={
           loc
-            ? { borderColor: RARITY_COLOR[loc.rarity ?? "common"] }
+            ? { borderColor: RARITY_VAR[loc.rarity ?? "common"] }
             : undefined
         }
       >
@@ -193,7 +193,7 @@ export default function LocationDetail({
             </span>
           </div>
         ) : error ? (
-          <div style={{ padding: 32, color: "#ff6b6b", fontSize: 16 }}>
+          <div style={{ padding: 32, color: "var(--danger-text, #ff6b6b)", fontSize: 16 }}>
             {error}
           </div>
         ) : loc ? (
@@ -318,7 +318,7 @@ export default function LocationDetail({
                           : lang === "cz"
                             ? 6
                             : 16,
-                      color: RARITY_COLOR[loc.rarity ?? "common"],
+                      color: RARITY_VAR[loc.rarity ?? "common"],
                     }}
                   >
                     {locName}
@@ -454,7 +454,7 @@ export default function LocationDetail({
                           : lang === "cz"
                             ? 10
                             : 16,
-                      color: RARITY_COLOR[loc.rarity ?? "common"],
+                      color: RARITY_VAR[loc.rarity ?? "common"],
                     }}
                   >
                     {locName}
@@ -506,13 +506,13 @@ export default function LocationDetail({
                       display: "inline-block",
                       width: 10,
                       height: 10,
-                      background: RARITY_COLOR[loc.rarity ?? "common"],
+                      background: RARITY_VAR[loc.rarity ?? "common"],
                       clipPath: "polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)",
                     }}
                   />
                   <span
                     className="loc-meta__rarity"
-                    style={{ color: RARITY_COLOR[loc.rarity ?? "common"] }}
+                    style={{ color: RARITY_VAR[loc.rarity ?? "common"] }}
                   >
                     {convert(RARITY_LABEL[lang]?.[loc.rarity ?? "common"])}
                   </span>
@@ -523,7 +523,7 @@ export default function LocationDetail({
                 {distance != null && (
                   <span
                     className="loc-meta__distance"
-                    style={{ color: RARITY_COLOR[loc.rarity ?? "common"] }}
+                    style={{ color: RARITY_VAR[loc.rarity ?? "common"] }}
                   >
                     {t("detail.distanceAway", { dist: formatDistance(distance) })}
                   </span>
@@ -538,7 +538,7 @@ export default function LocationDetail({
                       className={`detail-label-pill${i === 0 ? " detail-label-pill--superior" : ""}`}
                       style={{
                         backgroundColor:
-                          LABEL_COLORS[lb] || "rgba(255,255,255,0.07)",
+                          LABEL_COLORS[lb] || "var(--pill-fallback, rgba(255,255,255,0.07))",
                       }}
                     >
                       {convert(
@@ -648,7 +648,7 @@ export default function LocationDetail({
                         style={{
                           fontFamily: "'Press Start 2P'",
                           fontSize: 9,
-                          color: "#8eff8e",
+                          color: "var(--success-text, #8eff8e)",
                           marginBottom: 8,
                           letterSpacing: 1,
                         }}
@@ -669,7 +669,7 @@ export default function LocationDetail({
                           style={{
                             fontFamily: "'Press Start 2P'",
                             fontSize: 6,
-                            color: "#ff8ed6",
+                            color: "var(--pink-text, #ff8ed6)",
                             marginTop: 6,
                           }}
                         >
@@ -682,7 +682,7 @@ export default function LocationDetail({
                           style={{
                             fontFamily: "'Press Start 2P'",
                             fontSize: 6,
-                            color: "#7ec8e3",
+                            color: "var(--blue-text, #7ec8e3)",
                             marginTop: 6,
                           }}
                         >
@@ -714,7 +714,7 @@ export default function LocationDetail({
                 </p>
               )}
               {error && (
-                <p style={{ color: "#ff6b6b", fontSize: 14, marginTop: 10 }}>
+                <p style={{ color: "var(--danger-text, #ff6b6b)", fontSize: 14, marginTop: 10 }}>
                   {error}
                 </p>
               )}
@@ -727,7 +727,7 @@ export default function LocationDetail({
                     alignItems: "center",
                     marginTop: 16,
                     paddingTop: 12,
-                    borderTop: "1px solid #222",
+                    borderTop: "1px solid var(--divider, #222)",
                   }}
                 >
                   {user && (

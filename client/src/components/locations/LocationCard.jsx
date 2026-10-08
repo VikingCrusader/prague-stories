@@ -3,7 +3,7 @@ import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap
 import { getLocalCoverPath, toThumbPath, toCloudThumbUrl } from '../../utils/localCover';
 import { useLang, useConvert } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
-import { RARITY_COLOR, RARITY_LABEL, lockClosedIcon, lockOpenIcon } from '../../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL, lockClosedIcon, lockOpenIcon } from '../../utils/rarity';
 import { playUnlockSound } from '../../utils/sound';
 import { formatDistance } from '../../utils/geolocation';
 
@@ -60,7 +60,8 @@ function LocationCard({ location, onClick, distance }) {
       className={`loc-card${(!unlocked || flipping) ? ' loc-card--locked' : ''}${flipping ? ' loc-card--flipping' : ''}`}
       onClick={() => onClick(slug)}
       title={unlocked ? name : '???'}
-      style={{ border: `3px solid ${RARITY_COLOR[rarity]}` }}
+      data-rarity={rarity}
+      style={{ border: `3px solid ${RARITY_VAR[rarity]}` }}
       onAnimationEnd={e => { if (e.animationName === 'card-flip') setFlipping(false); }}
     >
       <div className="loc-card__banner" style={{ background: color }}>
@@ -103,7 +104,7 @@ function LocationCard({ location, onClick, distance }) {
       </div>
       <div className="loc-card__body">
         <div>
-          <div className="loc-card__name" style={!unlocked ? { textAlign: 'center' } : { color: RARITY_COLOR[rarity] }}>
+          <div className="loc-card__name" style={!unlocked ? { textAlign: 'center' } : { color: RARITY_VAR[rarity] }}>
             {unlocked ? name : '???'}
           </div>
           {unlocked && lang !== 'cz' && location.localizedNames?.cz && (
@@ -118,7 +119,7 @@ function LocationCard({ location, onClick, distance }) {
               ref={unlocked ? labelRef : null}
               className="label-pill-sm"
               title={unlocked ? LABEL_DEFINITIONS[firstLabel]?.en : undefined}
-              style={{ backgroundColor: unlocked ? (LABEL_COLORS[firstLabel] || 'rgba(255,255,255,0.07)') : 'rgba(255,255,255,0.05)' }}
+              style={{ backgroundColor: unlocked ? (LABEL_COLORS[firstLabel] || 'var(--pill-fallback, rgba(255,255,255,0.07))') : 'var(--pill-fallback, rgba(255,255,255,0.05))' }}
             >
               {unlocked
                 ? convert(LABEL_DEFINITIONS[firstLabel]?.[lang] || LABEL_DEFINITIONS[firstLabel]?.en || firstLabel)
@@ -130,15 +131,15 @@ function LocationCard({ location, onClick, distance }) {
           <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
             <span style={{
               display: 'inline-block', width: 8, height: 8,
-              background: RARITY_COLOR[rarity],
+              background: RARITY_VAR[rarity],
               clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',
               flexShrink: 0,
             }} />
-            <div className="loc-card__xp" style={{ color: RARITY_COLOR[rarity] }}>
+            <div className="loc-card__xp" style={{ color: RARITY_VAR[rarity] }}>
               {convert(RARITY_LABEL[lang]?.[rarity] ?? rarity)}
             </div>
           </div>
-          {distance != null && <div className="loc-card__dist" style={{ color: RARITY_COLOR[rarity] }}>{formatDistance(distance)}</div>}
+          {distance != null && <div className="loc-card__dist" style={{ color: RARITY_VAR[rarity] }}>{formatDistance(distance)}</div>}
         </div>
       </div>
     </div>

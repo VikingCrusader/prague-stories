@@ -2,7 +2,7 @@ import { useState, useMemo, useEffect, useRef, useDeferredValue } from 'react';
 import LocationCard from './LocationCard';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
-import { RARITY_COLOR, RARITY_LABEL } from '../../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL } from '../../utils/rarity';
 
 const RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
 const RARITY_ORDER = { legend: 0, mythic: 1, epic: 2, superior: 3, rare: 4, common: 5 };
@@ -214,9 +214,9 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
                     className={`label-pill${activeRarities.has(r) ? ' label-pill--active' : ''}`}
                     onClick={() => toggleRarity(r)}
                     style={activeRarities.has(r) ? {
-                      borderColor: RARITY_COLOR[r],
-                      color: RARITY_COLOR[r],
-                      background: `${RARITY_COLOR[r]}18`,
+                      borderColor: RARITY_VAR[r],
+                      color: RARITY_VAR[r],
+                      background: `color-mix(in srgb, ${RARITY_VAR[r]} 9%, transparent)`,
                     } : undefined}
                   >
                     ◆ {convert(RARITY_LABEL[lang]?.[r] ?? r)}

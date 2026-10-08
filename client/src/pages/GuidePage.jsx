@@ -1,5 +1,5 @@
 import { useLang, useConvert } from '../context/LanguageContext';
-import { RARITY_COLOR } from '../utils/rarity';
+import { RARITY_VAR } from '../utils/rarity';
 
 const DIFF_RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
 
@@ -398,7 +398,7 @@ export default function GuidePage() {
           {c.diff.map((d, i) => (
             <div key={i} className="guide-step">
               <span className="guide-step-num">{i + 1}</span>
-              <p className="guide-body" style={{ color: RARITY_COLOR[DIFF_RARITIES[i]] }}>{d}</p>
+              <p className="guide-body" style={{ color: RARITY_VAR[DIFF_RARITIES[i]] }}>{d}</p>
             </div>
           ))}
           <p className="guide-body" style={{ marginTop: 10 }}>{c.xpOutro}</p>

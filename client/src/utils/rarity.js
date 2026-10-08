@@ -14,6 +14,13 @@ export const RARITY_COLOR = {
   legend:   '#FFD700',
 };
 
+// CSS-variable form of RARITY_COLOR for inline styles, so the colours
+// follow the light/dark theme (values defined in global.css). Use this in
+// components; RARITY_COLOR stays as the hex source of truth for dark mode.
+export const RARITY_VAR = Object.fromEntries(
+  Object.keys(RARITY_COLOR).map((r) => [r, `var(--rarity-${r})`])
+);
+
 export const RARITY_LABEL = {
   en: { common: 'Common', rare: 'Rare', superior: 'Superior', epic: 'Epic', mythic: 'Mythic',     legend: 'Legendary' },
   cz: { common: 'Běžné',  rare: 'Vzácné', superior: 'Výjimečné', epic: 'Epické', mythic: 'Mýtické', legend: 'Legendární' },

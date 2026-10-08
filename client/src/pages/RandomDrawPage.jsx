@@ -7,7 +7,7 @@ import { getLocalCoverPath } from '../utils/localCover';
 import { getLocName } from '../utils/locName';
 import { haversineDistance, formatDistance } from '../utils/geolocation';
 import { useUserPosition } from '../hooks/useUserPosition';
-import { RARITY_COLOR, RARITY_LABEL, lockClosedIcon } from '../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL, lockClosedIcon } from '../utils/rarity';
 import LocationCard from '../components/locations/LocationCard';
 import LocationDetail from '../components/locations/LocationDetail';
 
@@ -77,7 +77,7 @@ function DrawnCard({ loc, name, lang, convert, onOpen }) {
 
   return (
     <>
-      <div className="loc-card" style={{ border: `3px solid ${RARITY_COLOR[rarity]}` }} onClick={onOpen}>
+      <div className="loc-card" data-rarity={rarity} style={{ border: `3px solid ${RARITY_VAR[rarity]}` }} onClick={onOpen}>
         <div className="loc-card__banner" style={{ background: bannerColor, position: 'relative' }}>
           {useLocalCover ? (
             <img src={localCover} alt={name} onError={() => setLocalFailed(true)}
@@ -92,7 +92,7 @@ function DrawnCard({ loc, name, lang, convert, onOpen }) {
         </div>
         <div className="loc-card__body">
           <div>
-            <div className="loc-card__name" style={{ color: RARITY_COLOR[rarity] }}>{name}</div>
+            <div className="loc-card__name" style={{ color: RARITY_VAR[rarity] }}>{name}</div>
             {lang !== 'cz' && loc.localizedNames?.cz && (
               <div className="loc-card__cz-name">{loc.localizedNames.cz}</div>
             )}
@@ -101,9 +101,9 @@ function DrawnCard({ loc, name, lang, convert, onOpen }) {
             <span
               className="label-pill-sm draw-xp-pill"
               style={{
-                backgroundColor: `${RARITY_COLOR[rarity]}22`,
-                borderColor: RARITY_COLOR[rarity],
-                color: RARITY_COLOR[rarity],
+                backgroundColor: `color-mix(in srgb, ${RARITY_VAR[rarity]} 13%, transparent)`,
+                borderColor: RARITY_VAR[rarity],
+                color: RARITY_VAR[rarity],
               }}
             >
               {convert(RARITY_LABEL[lang]?.[rarity])}
@@ -131,12 +131,12 @@ function DrawnCardMeta({ loc, lang, convert, distance }) {
   return (
     <div className="draw-card__meta-row">
       {firstLabel && (
-        <span className="detail-label-pill" style={{ backgroundColor: LABEL_COLORS[firstLabel] || 'rgba(255,255,255,0.07)' }}>
+        <span className="detail-label-pill" style={{ backgroundColor: LABEL_COLORS[firstLabel] || 'var(--pill-fallback, rgba(255,255,255,0.07))' }}>
           {convert(LABEL_DEFINITIONS[firstLabel]?.[lang] || LABEL_DEFINITIONS[firstLabel]?.en || firstLabel)}
         </span>
       )}
       {distance != null && (
-        <span className="detail-label-pill" style={{ backgroundColor: LABEL_COLORS[firstLabel] || 'rgba(255,255,255,0.07)' }}>
+        <span className="detail-label-pill" style={{ backgroundColor: LABEL_COLORS[firstLabel] || 'var(--pill-fallback, rgba(255,255,255,0.07))' }}>
           {formatDistance(distance)}
         </span>
       )}

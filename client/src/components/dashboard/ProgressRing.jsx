@@ -7,12 +7,12 @@ export default function ProgressRing({ percent, size = 160 }) {
   return (
     <svg width={size} height={size} style={{ display: 'block' }}>
       {/* track */}
-      <circle cx={cx} cy={cx} r={r} fill="none" stroke="#1a1f3a" strokeWidth={12} />
+      <circle cx={cx} cy={cx} r={r} fill="none" stroke="var(--bg-input, #1a1f3a)" strokeWidth={12} />
       {/* progress */}
       <circle
         cx={cx} cy={cx} r={r}
         fill="none"
-        stroke="#FFD700"
+        stroke="var(--gold)"
         strokeWidth={12}
         strokeLinecap="square"
         strokeDasharray={`${dash} ${circ}`}
@@ -21,11 +21,11 @@ export default function ProgressRing({ percent, size = 160 }) {
         style={{ filter: 'drop-shadow(0 0 6px #FFD700aa)', transition: 'stroke-dasharray 0.6s ease' }}
       />
       {/* text */}
-      <text x={cx} y={cx - 10} textAnchor="middle" fill="#FFD700"
+      <text x={cx} y={cx - 10} textAnchor="middle" fill="var(--gold)"
         fontFamily="'Press Start 2P', monospace" fontSize={Math.round(size * 0.13)}>
         {percent}%
       </text>
-      <text x={cx} y={cx + 16} textAnchor="middle" fill="#7a6e5f"
+      <text x={cx} y={cx + 16} textAnchor="middle" fill="var(--text-muted)"
         fontFamily="'Press Start 2P', monospace" fontSize={Math.round(size * 0.065)}>
         UNLOCKED
       </text>

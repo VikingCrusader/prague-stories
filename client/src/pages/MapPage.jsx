@@ -9,7 +9,7 @@ import { useUserPosition } from '../hooks/useUserPosition';
 import MapView from '../components/map/MapView';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../utils/pixelArtMap';
 import { getLocalCoverPath } from '../utils/localCover';
-import { RARITY_COLOR, RARITY_LABEL, lockClosedIcon } from '../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL, lockClosedIcon } from '../utils/rarity';
 import { playUnlockSound } from '../utils/sound';
 
 const RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
@@ -196,9 +196,9 @@ export default function MapPage() {
                       className={`label-pill${activeRarities.has(r) ? ' label-pill--active' : ''}`}
                       onClick={() => toggleRarity(r)}
                       style={activeRarities.has(r) ? {
-                        borderColor: RARITY_COLOR[r],
-                        color: RARITY_COLOR[r],
-                        background: `${RARITY_COLOR[r]}18`,
+                        borderColor: RARITY_VAR[r],
+                        color: RARITY_VAR[r],
+                        background: `color-mix(in srgb, ${RARITY_VAR[r]} 9%, transparent)`,
                       } : undefined}
                     >
                       ◆ {convert(RARITY_LABEL[lang]?.[r] ?? r)}
@@ -382,7 +382,7 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
       </ImgWrap>
 
       <div style={{ padding: 20 }}>
-        <h3 className="px-title" style={{ fontSize: 14, lineHeight: lang === 'zh' ? undefined : 2.4, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 4 : 12, color: RARITY_COLOR[loc.rarity ?? 'common'] }}>{convert(getLocName(loc, lang))}</h3>
+        <h3 className="px-title" style={{ fontSize: 14, lineHeight: lang === 'zh' ? undefined : 2.4, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 4 : 12, color: RARITY_VAR[loc.rarity ?? 'common'] }}>{convert(getLocName(loc, lang))}</h3>
         {lang !== 'cz' && loc.localizedNames?.cz && (
           <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: 'var(--text-muted)', marginBottom: 12 }}>{loc.localizedNames.cz}</p>
         )}
@@ -390,24 +390,24 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
           <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
             <span style={{
               display: 'inline-block', width: 8, height: 8,
-              background: RARITY_COLOR[loc.rarity ?? 'common'],
+              background: RARITY_VAR[loc.rarity ?? 'common'],
               clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',
               flexShrink: 0,
             }} />
-            <span className="loc-meta__rarity" style={{ color: RARITY_COLOR[loc.rarity ?? 'common'] }}>
+            <span className="loc-meta__rarity" style={{ color: RARITY_VAR[loc.rarity ?? 'common'] }}>
               {convert(RARITY_LABEL[lang]?.[loc.rarity ?? 'common'])}
             </span>
             <span className="loc-meta__xp" style={{ color: 'var(--gold)', marginLeft: 4 }}>+{loc.xpReward} XP</span>
           </div>
           {userPos && (
-            <span className="loc-meta__distance" style={{ color: RARITY_COLOR[loc.rarity ?? 'common'] }}>
+            <span className="loc-meta__distance" style={{ color: RARITY_VAR[loc.rarity ?? 'common'] }}>
               {t('detail.distanceAway', { dist: formatDistance(haversineDistance(userPos.lat, userPos.lng, loc.coordinates.lat, loc.coordinates.lng)) })}
             </span>
           )}
         </div>
         {loc.unlocked && loc.checkedInAt && (
           <div style={{ marginBottom: 4 }}>
-            <span style={{ color: '#8eff8e', fontFamily: "'Press Start 2P'", fontSize: 6 }}>
+            <span style={{ color: 'var(--success-text, #8eff8e)', fontFamily: "'Press Start 2P'", fontSize: 6 }}>
               {t('common.visited')}
               {`${lang === 'zh' ? '' : ' '}${t('detail.at')}${lang === 'zh' ? '' : ' '}${formatDate(loc.checkedInAt)}`}
             </span>
@@ -419,7 +419,7 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
               key={lb}
               className={`detail-label-pill${i === 0 ? ' detail-label-pill--superior' : ''}`}
               title={LABEL_DEFINITIONS[lb]?.en}
-              style={{ backgroundColor: LABEL_COLORS[lb] || 'rgba(255,255,255,0.07)' }}
+              style={{ backgroundColor: LABEL_COLORS[lb] || 'var(--pill-fallback, rgba(255,255,255,0.07))' }}
             >
               {convert(LABEL_DEFINITIONS[lb]?.[lang] || LABEL_DEFINITIONS[lb]?.en || lb)}
             </span>
@@ -485,7 +485,7 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
             </button>
           </div>
           {checkInError && (
-            <p style={{ color: '#ff6b6b', fontSize: 13, marginTop: 8 }}>{checkInError}</p>
+            <p style={{ color: 'var(--danger-text, #ff6b6b)', fontSize: 13, marginTop: 8 }}>{checkInError}</p>
           )}
         </div>
       </div>

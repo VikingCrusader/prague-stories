@@ -3,7 +3,7 @@ import { userAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../utils/pixelArtMap';
-import { RARITY_COLOR, RARITY_LABEL } from '../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL } from '../utils/rarity';
 import ProgressRing from '../components/dashboard/ProgressRing';
 import AchievementBadge from '../components/dashboard/AchievementBadge';
 import { useWakeLock } from '../hooks/useWakeLock';
@@ -125,7 +125,7 @@ export default function DashboardPage() {
           <div className="stat-card__label" style={{ marginBottom: 10 }}>{t('dashboard.rarityBreakdown')}</div>
           <div className="rarity-strip-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             {['common', 'rare', 'superior', 'epic', 'mythic', 'legend'].map(r => (
-              <div key={r} style={{ display: 'flex', alignItems: 'center', gap: 6, color: RARITY_COLOR[r] }}>
+              <div key={r} style={{ display: 'flex', alignItems: 'center', gap: 6, color: RARITY_VAR[r] }}>
                 <span style={{ fontSize: 16 }}>◆</span>
                 <span style={{ fontSize: 16 }}>{convert(RARITY_LABEL[lang]?.[r] ?? RARITY_LABEL.en[r])}</span>
                 <span style={{ fontSize: 18, fontWeight: 700 }}>
@@ -157,18 +157,18 @@ export default function DashboardPage() {
               key={lvl.level}
               style={{
                 padding: '8px 14px',
-                border: `3px solid ${levelInfo.level >= lvl.level ? 'var(--gold)' : '#333'}`,
+                border: `3px solid ${levelInfo.level >= lvl.level ? 'var(--gold)' : 'var(--border-strong, #333)'}`,
                 background: levelInfo.level === lvl.level ? 'rgba(255,215,0,0.12)' : 'var(--bg-card)',
-                boxShadow: levelInfo.level >= lvl.level ? '3px 3px 0 #000' : 'none',
+                boxShadow: levelInfo.level >= lvl.level ? '3px 3px 0 var(--shadow)' : 'none',
               }}
             >
-              <div style={{ fontFamily: "'Press Start 2P'", fontSize: 7, color: levelInfo.level >= lvl.level ? 'var(--gold)' : '#555' }}>
+              <div style={{ fontFamily: "'Press Start 2P'", fontSize: 7, color: levelInfo.level >= lvl.level ? 'var(--gold)' : 'var(--text-dim, #555)' }}>
                 LVL {lvl.level}
               </div>
-              <div style={{ fontSize: 14, color: levelInfo.level >= lvl.level ? 'var(--text-primary)' : '#555' }}>
+              <div style={{ fontSize: 14, color: levelInfo.level >= lvl.level ? 'var(--text-primary)' : 'var(--text-dim, #555)' }}>
                 {convert(lang === 'zh' ? (lvl.title_zh ?? lvl.title) : lang === 'cz' ? (lvl.title_cz ?? lvl.title) : lvl.title)}
               </div>
-              <div style={{ fontSize: 12, color: '#555' }}>{lvl.xpRequired} XP</div>
+              <div style={{ fontSize: 12, color: 'var(--text-dim, #555)' }}>{lvl.xpRequired} XP</div>
             </div>
           ))}
         </div>
@@ -190,7 +190,7 @@ export default function DashboardPage() {
             style={{
               display: 'flex', alignItems: 'center', gap: 8,
               background: wakeLock.active ? 'rgba(255,215,0,0.12)' : 'var(--bg-card)',
-              border: `2px solid ${wakeLock.active ? 'var(--gold)' : '#444'}`,
+              border: `2px solid ${wakeLock.active ? 'var(--gold)' : 'var(--border-strong, #444)'}`,
               color: wakeLock.active ? 'var(--gold)' : 'var(--text-muted)',
               padding: '8px 14px',
               cursor: 'pointer',
@@ -203,7 +203,7 @@ export default function DashboardPage() {
             <span>{convert(wakeLock.active ? t('dashboard.wakeLockActive') : t('dashboard.wakeLockEnable'))}</span>
           </button>
         ) : (
-          <span style={{ fontSize: 12, color: '#555' }}>{convert(t('dashboard.wakeLockUnsupported'))}</span>
+          <span style={{ fontSize: 12, color: 'var(--text-dim, #555)' }}>{convert(t('dashboard.wakeLockUnsupported'))}</span>
         )}
       </div>
 
@@ -240,7 +240,7 @@ export default function DashboardPage() {
                     </div>
                   )}
                   {!ach.unlocked && (
-                    <div style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: '#555' }}>
+                    <div style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: 'var(--text-dim, #555)' }}>
                       {t('common.locked')}
                     </div>
                   )}
