@@ -21577,6 +21577,126 @@ export const historyEvents = [
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Vladislaus_II_of_Hungary",
   },
+  {
+    slug: "too-happy-to-come-home-1496",
+    era: "rule-of-the-lords",
+    images: [
+      "/history/too-happy-to-come-home-1496.webp",
+      "/history/too-happy-to-come-home-1496-2.webp",
+    ],
+    imageCaptions: [
+      {
+        en: "Buda, 1490s: Vladislaus enjoys the Renaissance court Matthias left behind, while letters from Bohemia pile up unopened beside him.",
+        cz: "Budín, 90. léta 15. století: Vladislav si užívá renesanční dvůr, který po sobě zanechal Matyáš, a dopisy z Čech se vedle něj hromadí neotevřené.",
+        zh: "15世纪90年代，布达：弗拉迪斯拉夫在马蒂亚斯留下的文艺复兴宫廷里享乐，身旁来自波希米亚的信堆成了山，一封也没拆。",
+      },
+      {
+        en: "Prague Castle, 1496–1498: according to legend, Dalibor of Kozojedy taught himself the fiddle in his tower cell, and passers-by stopped below to listen and sent food up on a rope.",
+        cz: "Pražský hrad, 1496–1498: podle pověsti se Dalibor z Kozojed ve věžní kobce sám naučil hrát na housle a kolemjdoucí se pod věží zastavovali, poslouchali a posílali mu nahoru jídlo na provaze.",
+        zh: "1496—1498年，布拉格城堡：传说达利博尔在塔中牢房里自学了拉琴，路人都会在塔下驻足聆听，还用绳子给他送上食物。",
+      },
+    ],
+    startYear: 1496,
+    year: {
+      en: "1496",
+      cz: "1496",
+      zh: "1496年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Too Happy to Come Home",
+      cz: "Domů se mu nechtělo",
+      zh: "乐不思蜀",
+    },
+    hookLine: {
+      en: "Once he had put on the crown of Hungary, the King of Bohemia rarely came home. He used to say \"fine\" to everything; now the Bohemians could hardly get a \"fine\" out of him at all.",
+      cz: "Jakmile si nasadil uherskou korunu, český král se domů vracel jen zřídka. Dřív na všechno říkal „dobře“; teď z něj Češi nedostali ani to „dobře“.",
+      zh: "自从戴上了匈牙利的王冠，波希米亚国王就很少回家了。以前他什么都说“好”，后来，波希米亚人连他一声“好”都很难听到了。",
+    },
+    summary: {
+      en: "After 1490 Vladislaus was king of two kingdoms. But he was only one man, and he could only live in one place. He chose Buda.\n\nIt wasn't entirely his fault. Hungary was bigger than Bohemia, and it had more trouble too: to the south it bordered the Turks, and there was fighting on that frontier almost every year. His brother John Albert and Maximilian of Habsburg both still had their eyes on the crown. And when the Hungarian lords elected him, they had made it a condition that the king live in Hungary. Besides, Buda was the Renaissance court Matthias had left behind, with splendid palaces and rooms full of books. Compared with Prague, where people kept opening windows, it was a far more comfortable place to live.\n\n[[b]]He was happy there, and he did not miss Bohemia.[[/b]]\n\nSo when the Bohemians needed something, they had to write to Buda, or send envoys hundreds of kilometres to ask for an audience. The letters arrived, but the answers often never came. In the old days, whoever came to him, he would at least say \"fine\". Now even that one word took months to arrive, and sometimes it didn't arrive at all.\n\nWith the king away, someone else naturally ran the house. The great lords of Bohemia shared out the offices, the castles and the royal revenues among themselves, made their own rules and sat as their own judges. Life was not so easy for the towns and the peasants. The peasants were tied ever more tightly to the land: without their lord's consent, they could not even leave their village.\n\nIn 1496 a minor nobleman named Dalibor of Kozojedy decided he had seen enough. When the peasants of a neighbouring estate rose against their lord, Dalibor not only took them in but stood up for them, and led his men to occupy the estate. To the lords, this was nothing short of rebellion. He was soon arrested and locked up in a newly built round tower at Prague Castle, and in 1498 he was beheaded.\n\nLater a legend spread around Prague: Dalibor had been shut in the tower so long that, out of boredom, he learned to play the violin, and the music drifted down from the tower so that people below stopped to listen. Czech still has a saying about it: \"Necessity taught even Dalibor to fiddle.\" Some scholars point out, though, that the \"fiddle\" people talked about then may not have been an instrument at all but an instrument of torture, and \"fiddling\" meant being tortured. What really happened, nobody can say any more. But the round tower has been called the Dalibor Tower ever since, and it still stands on the castle walls.\n\nA king who was almost never at home, and a handful of lords who had the final say: things went on like this for ten years. By 1500 the lords felt that an unspoken understanding was no longer enough.\n\n[[b]]They decided to put their own rule down in black and white, as law.[[/b]]",
+      cz: "Po roce 1490 byl Vladislav králem dvou království. Byl ale jen jeden a bydlet mohl jen na jednom místě. Vybral si Budín.\n\nNebyla to tak úplně jeho vina. Uhry byly větší než Čechy a měly i víc starostí: na jihu sousedily s Turky a na té hranici se bojovalo skoro každý rok. Jeho bratr Jan Olbracht i Maxmilián Habsburský po té koruně pořád pokukovali. A když ho uherští páni volili, vymínili si, že král bude bydlet v Uhrách. Navíc Budín byl renesanční dvůr, který po sobě zanechal Matyáš, s nádhernými paláci a sály plnými knih. Ve srovnání s Prahou, kde lidé pořád otevírali okna, se tam žilo mnohem pohodlněji.\n\n[[b]]Bylo mu tam dobře a po Čechách se mu nestýskalo.[[/b]]\n\nKdyž tedy Češi něco potřebovali, museli psát do Budína, nebo posílat posly stovky kilometrů daleko, aby je král přijal. Dopisy došly, ale odpověď často nepřišla. Dřív, ať za ním přišel kdokoli, řekl aspoň „dobře“. Teď i na to jedno slovo se čekalo měsíce, a někdy nepřišlo vůbec.\n\nKdyž král není doma, dům spravuje někdo jiný. Velcí čeští páni si rozdělili úřady, hrady i královské příjmy, sami si psali pravidla a sami soudili. Města a sedláci se tak dobře neměli. Poddaní byli stále pevněji připoutáni k půdě: bez svolení pána nesměli ani odejít ze vsi.\n\nRoku 1496 to drobný šlechtic Dalibor z Kozojed už nevydržel. Když se poddaní sousedního panství vzbouřili proti svému pánovi, Dalibor je nejen přijal, ale i se jich zastal a se svými lidmi to panství obsadil. V očích pánů to byla čirá vzpoura. Brzy ho zatkli a zavřeli do nově postavené okrouhlé věže na Pražském hradě. Roku 1498 byl sťat.\n\nPozději se po Praze rozšířila pověst: Dalibor byl ve věži zavřený tak dlouho, že se z nudy naučil hrát na housle, a hudba se z věže nesla tak, že se lidé dole zastavovali a poslouchali. Čeština o tom dodnes má rčení: „Nouze naučila Dalibora housti.“ Někteří badatelé však upozorňují, že „housle“, o kterých se tehdy mluvilo, nemusely být hudební nástroj, ale mučicí nástroj, a „housti“ znamenalo být mučen. Jak to bylo doopravdy, už nikdo neřekne. Ta okrouhlá věž se ale od té doby jmenuje Daliborka a dodnes stojí na hradních hradbách.\n\nKrál skoro nikdy doma a hrstka pánů, kteří rozhodují: tak to šlo deset let. Roku 1500 páni usoudili, že tichá dohoda už nestačí.\n\n[[b]]Rozhodli se, že to, že rozhodují oni, sepíšou černé na bílém do zákona.[[/b]]",
+      zh: "1490年以后，弗拉迪斯拉夫成了两个王国的国王。可他只有一个人，只能住在一个地方。他选了布达。\n\n这也不全怪他。匈牙利比波希米亚大，麻烦也多：南边紧挨着土耳其人，边境上几乎年年有仗；弟弟扬·奥尔布拉赫特和哈布斯堡家的马克西米利安，都还盯着那顶王冠。匈牙利贵族选他的时候也说好了，国王得住在匈牙利。再说，布达是马蒂亚斯留下的文艺复兴宫廷，宫殿华丽，藏书满屋，比起那座动不动就推开窗户的布拉格，住着要舒心得多。\n\n[[b]]此间乐，不思波希米亚。[[/b]]\n\n于是，波希米亚人有事，只能写信去布达，或者干脆派使者走上好几百公里去求见。信送到了，回音却常常石沉大海。以前，不管谁来找他，他总会说一声“好”；现在，就连这一声“好”，都要等上好几个月，有时候根本等不来。\n\n国王不在家，家里的事自然有人管。波希米亚的大贵族们把官职、城堡和王室的收入分得干干净净，自己定规矩，自己当裁判。至于城市和农民，日子就没那么好过了。农民被越来越牢地绑在土地上，没有领主点头，连离开村子都不行。\n\n1496年，一个叫达利博尔的小贵族看不下去了。邻近庄园的农民起来反抗他们的领主，达利博尔不但收留了他们，还替他们出头，带人占了那片庄园。这在贵族们眼里简直是造反。他很快被抓了起来，关进了布拉格城堡新修的一座圆塔里，1498年被砍了头。\n\n后来，布拉格流传起一个传说：达利博尔在塔里关得太久，无聊之下学会了拉小提琴，琴声从塔上飘出去，城下的人都会停下来听。捷克语里至今还有一句俗语：“穷则生变，达利博尔都学会了拉琴。”不过也有学者指出，当时人们说的“琴”，可能根本不是乐器，而是一种刑具；所谓“拉琴”，说的其实是受刑。真相如何，已经没人说得清了。可那座圆塔从此就叫“达利博尔塔”，一直立在城堡的城墙上。\n\n一个国王常年不在家，一群贵族说了算，这样的日子过了十年。到了1500年，贵族们觉得，光靠默契已经不够了。\n\n[[b]]他们决定，把自己说了算这件事，白纸黑字地写进法律里。[[/b]]",
+    },
+    relatedLandmarks: [
+      {
+        slug: "dalibor-tower",
+        relation: {
+          en: "The round tower built into the Prague Castle walls in 1496; Dalibor of Kozojedy was locked up here until his execution in 1498, and it has borne his name ever since.",
+          cz: "Okrouhlá věž zbudovaná v hradbách Pražského hradu roku 1496; Dalibor z Kozojed tu byl vězněn až do své popravy roku 1498 a věž od té doby nese jeho jméno.",
+          zh: "1496年修进布拉格城堡城墙里的圆塔；达利博尔被关在这里，直到1498年被处死，这座塔从此就以他的名字命名。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Dalibor_of_Kozojedy",
+  },
+  {
+    slug: "the-lords-hold-the-pen-1500",
+    era: "rule-of-the-lords",
+    images: [
+      "/history/the-lords-hold-the-pen-1500.webp",
+      "/history/the-lords-hold-the-pen-1500-2.webp",
+    ],
+    imageCaptions: [
+      {
+        en: "Prague Castle, 1500: with the king's throne empty, the lords dictate the new Land Ordinance to the royal prosecutor Albrecht Rendl, while guards keep the townsmen and their protests outside.",
+        cz: "Pražský hrad, 1500: královský trůn je prázdný a páni diktují královskému prokurátorovi Albrechtu Rendlovi nové zemské zřízení, zatímco stráže drží měšťany i s jejich protesty za dveřmi.",
+        zh: "1500年，布拉格城堡：国王的宝座空着，贵族们围着王室检察官伦德尔口授新的邦法，卫兵把市民和他们的抗议信挡在了门外。",
+      },
+      {
+        en: "Buda, 1502: the Land Ordinance reaches the king; without taking his eyes off the chessboard, Vladislaus approves it, as he approved everything.",
+        cz: "Budín, 1502: zemské zřízení dorazí ke králi; Vladislav ho schválí, aniž by zvedl oči od šachovnice, tak jako schvaloval všechno.",
+        zh: "1502年，布达：邦法送到了国王面前，弗拉迪斯拉夫眼睛都没离开棋盘，就批准了它，就像他批准所有事一样。",
+      },
+    ],
+    startYear: 1500,
+    year: {
+      en: "1500",
+      cz: "1500",
+      zh: "1500年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Lords Hold the Pen",
+      cz: "Páni píší za krále",
+      zh: "贵族替国王执笔",
+    },
+    hookLine: {
+      en: "With the king away, the lords sat down and wrote a rulebook for the whole kingdom on his behalf. The king's name was on the cover; the lords' advantages were on every page.",
+      cz: "Král nebyl doma, a tak si páni sedli a sepsali za něj pravidla pro celé království. Na obálce stálo královo jméno, na každé stránce výhody pánů.",
+      zh: "国王不在家，贵族们坐下来，替他给整个王国写了一本规矩。封面上写着国王的名字，每一页里写着贵族的好处。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "In the year of God one thousand five hundred, under the most illustrious prince and lord, Lord Vladislaus, King of Hungary and Bohemia, Margrave of Moravia… an increaser of peace, order and laws, of courts and justice among all his subjects…",
+          cz: "Léta božieho tisícieho pětistého, za najjasnějšieho kniežete a pána, pana Vladislava, uherského a českého krále, markrabie moravského… rozmnožitele pokoje, řádu a práv, súduov a spravedlivostí mezi všemi svými poddanými…",
+          zh: "主历一千五百年，在至为显赫的君主与主上、匈牙利与波希米亚国王、摩拉维亚边疆伯爵弗拉迪斯拉夫陛下治下，他是和平、秩序与法律、审判与公正的增进者……",
+        },
+        attribution: {
+          en: "Opening of the Vladislav Land Ordinance, 1500",
+          cz: "Úvod Vladislavského zřízení zemského, 1500",
+          zh: "《弗拉迪斯拉夫邦法》开篇，1500年",
+        },
+      },
+    ],
+    summary: {
+      en: "In 1500 the lords of Bohemia did something big: they wrote down the rules of the kingdom from beginning to end.\n\nUntil then, much of Bohemia's law existed only in custom and memory. Who held which office, how the diet met, how a lawsuit was fought: all of it rested on \"the way it has always been done\". But customs change, and memories can be disputed. With the king far away in Buda, nobody could say for sure whose version of the rules to follow. So the lords decided to put it all in writing and go by the book from then on.\n\nThe man holding the pen was the king's own lawyer, the royal prosecutor Albrecht Rendl of Oušava. By rights he should have spoken for the king. But what this lawyer disliked most of all were the townsmen, who were growing richer and more confident by the year. [[b]]And so the king's lawyer sat down and wrote the king's law book for the lords.[[/b]]\n\nThe code came to be known as the Vladislav Land Ordinance. Open it to the first page, and it begins like this:\n\n[[quote:0]]\n\nA king who lived abroad year after year and said \"fine\" to everything, hailed as \"an increaser of order and laws\". Whoever wrote that line probably had to stifle a laugh.\n\nTurn a few more pages and you reach what the lords really wanted to write. The kingdom's highest offices could be held only by noblemen. In the diet, the lords and knights had the final say. As for the royal towns, the code simply put them in a new place: the towns belonged to the king, as his subjects, and were not partners standing level with the nobility.\n\n[[b]]The king's name was on the cover; the lords' rules were on every page.[[/b]]\n\nLater historians would call the half-century or so of Jagiellonian rule in Bohemia \"the rule of the lords\". If you had to pick one document to explain where that name came from, it would be this one.\n\nThe code ran to 554 articles, and the lords made a point of packing it with plenty of old-fashioned clauses, so that it would look as though they had merely tidied up rights their ancestors had always had, not invented anything new. [[b]]New rules, dressed in old clothes.[[/b]]\n\nIt was soon put into print, one of the earliest law books printed in Czech. And it was written in Czech, not Latin and not German. The lords took away the towns' rights, but they also made it possible for every Czech who could read to understand the laws of his own country.\n\nThe finished code was sent to Buda. Whether the king ever read it, the chronicles don't say. But two years later he formally approved it. His answer was the same as always: \"Fine.\"\n\nThe towns, of course, would not have it. Prague, Kutná Hora and the other royal towns fed half the kingdom with their trade and crafts, and now they had been pushed to the edge of the table. They refused to recognise the code, and protest after protest was sent off to Buda.\n\nAs before, most of the letters were never answered.\n\nSo the contest between towns and lords moved to a different battlefield. The lords began holding markets and setting up workshops on their own estates. Worst of all, they started brewing their own beer. And as the townsmen saw it, beer was their livelihood, a rule centuries old.\n\n[[b]]A war over beer was about to begin.[[/b]]",
+      cz: "Roku 1500 udělali čeští páni velkou věc: sepsali pravidla království od začátku do konce.\n\nDo té doby existovala velká část českého práva jen ve zvyku a v paměti. Kdo zastává jaký úřad, jak se schází sněm, jak se vede soudní spor: všechno stálo na tom, že „tak to bylo vždycky“. Jenže zvyky se mění a o paměť se dá přít. S králem daleko v Budíně nikdo nedokázal s jistotou říct, čí verze pravidel platí. A tak se páni rozhodli všechno sepsat a napříště postupovat podle knihy.\n\nPero držel králův vlastní právník, královský prokurátor Albrecht Rendl z Oušavy. Správně měl hájit krále. Jenže tenhle právník ze všeho nejvíc nemohl vystát měšťany, kteří byli rok od roku bohatší a sebevědomější. [[b]]A tak králův právník sedl a sepsal pánům královu zákoník.[[/b]]\n\nZákoník se začal nazývat Vladislavské zřízení zemské. Když ho otevřete na první stránce, začíná takto:\n\n[[quote:0]]\n\nKrál, který rok co rok bydlel v cizině a na všechno říkal „dobře“, oslavovaný jako „rozmnožitel řádu a práv“. Kdo tu větu psal, nejspíš sám dusil smích.\n\nO pár stránek dál přichází to, co páni opravdu chtěli napsat. Nejvyšší zemské úřady smějí zastávat jen šlechtici. Na sněmu mají rozhodující slovo páni a rytíři. A královským městům zákoník prostě vykázal nové místo: města patří králi jako jeho poddaní, nejsou to partneři, kteří by stáli na roveň šlechtě.\n\n[[b]]Na obálce královo jméno, na každé stránce pravidla pánů.[[/b]]\n\nPozdější historici nazvali zhruba půlstoletí jagellonské vlády v Čechách „vládou pánů“. Kdybyste měli vybrat jediný dokument, který vysvětlí, odkud se to jméno vzalo, byl by to tenhle.\n\nZákoník měl 554 článků a páni do něj schválně nacpali spoustu starobylých ustanovení, aby to vypadalo, že jen uspořádali práva, která jejich předkové měli odjakživa, a nic nového nevymysleli. [[b]]Nová pravidla v starých šatech.[[/b]]\n\nBrzy vyšel tiskem jako jedna z prvních právních knih vytištěných česky. A byl psán česky, ne latinsky ani německy. Páni sice vzali městům jejich práva, ale zároveň umožnili každému Čechovi, který uměl číst, rozumět zákonům vlastní země.\n\nHotový zákoník poslali do Budína. Jestli ho král vůbec četl, kroniky neříkají. Za dva roky ho ale formálně schválil. Odpověděl jako vždycky: „Dobře.“\n\nMěsta s tím pochopitelně nesouhlasila. Praha, Kutná Hora a další královská města živila obchodem a řemesly půl království, a teď je odsunuli na kraj stolu. Odmítla zákoník uznat a do Budína odcházel jeden protest za druhým.\n\nJako dřív zůstala většina dopisů bez odpovědi.\n\nA tak se zápas mezi městy a pány přesunul na jiné bojiště. Páni začali na svých panstvích pořádat trhy a zakládat dílny. A co bylo nejhorší, začali si sami vařit pivo. Měšťané to viděli tak, že pivo je jejich živobytí, staleté pravidlo.\n\n[[b]]Válka o pivo měla právě začít.[[/b]]",
+      zh: "1500年，波希米亚的贵族们干了一件大事：他们把这个王国的规矩，从头到尾写了下来。\n\n在这之前，波希米亚的很多法律只存在于习惯和记忆里：谁当什么官、议会怎么开、官司怎么打，靠的是“历来如此”。可习惯是会变的，记忆也是会被争的。国王远在布达，谁也说不清哪条规矩该听谁的。贵族们决定，干脆把它们写成文字，从此照章办事。\n\n执笔的人，是国王自己的律师：王室检察官阿尔布雷希特·伦德尔。按理说，他该替国王说话；可这位律师最看不惯的，是城市里那些越来越有钱、越来越有底气的市民。[[b]]国王的律师，就这样替贵族写起了国王的法典。[[/b]]\n\n这部法典后来被叫作《弗拉迪斯拉夫邦法》。翻开第一页，开头是这样写的：\n\n[[quote:0]]\n\n一个常年住在国外、什么都说“好”的国王，被称作“秩序与法律的增进者”。写下这句话的人，大概自己也忍不住笑了。\n\n再往下翻，就是贵族们真正想写的东西了：王国最重要的官职，统统只能由贵族来当；邦议会里，说了算的是领主和骑士；至于王室城市，法典干脆给它们重新定了位：城市是国王的臣属，不是贵族平起平坐的伙伴。\n\n[[b]]国王的名字写在封面上，贵族的规矩写在每一页里。[[/b]]\n\n后来的历史学家，把雅盖隆家族统治波希米亚的这五十多年，称作“贵族之治”。如果要挑一份文件来说明这个名字的由来，那就是这一本。\n\n这部法典一共五百五十四条，里面还特意塞进了许多古色古香的老条款，好让人觉得，贵族们只是把祖祖辈辈早就有的权利整理了一遍，并没有发明什么新东西。[[b]]新规矩，穿的是旧衣服。[[/b]]\n\n法典很快就印成了书，是最早用捷克语印刷出版的法律书之一。而且它是用捷克语写的，不是拉丁语，也不是德语。贵族们抢走了城市的权利，却也让每一个识字的捷克人，都能读懂自己国家的法律。\n\n写好的法典被送到布达。国王读了没有，史书没写；不过两年后，他正式承认了它。他的回答，和往常一样：“好。”\n\n城市当然不答应。布拉格、库特纳霍拉这些王室城市，靠着贸易和手工业养活了半个王国，如今却被挤到了桌子边上。它们拒绝承认这部法典，一封又一封抗议信往布达寄。\n\n和以前一样，这些信大多石沉大海。\n\n于是，城市和贵族之间的较量，换了个战场。贵族们开始在自己的庄园里开集市、办作坊，最要命的是，自己酿起了啤酒。而在城里人看来，啤酒是他们的饭碗，是他们几百年的老规矩。\n\n[[b]]一场为了啤酒的战争，就要开始了。[[/b]]",
+    },
+    relatedLandmarks: [
+      {
+        slug: "old-royal-palace",
+        relation: {
+          en: "The seat of the Bohemian diet and the land court, where the estates met and where the kingdom's land law was kept and applied.",
+          cz: "Sídlo českého zemského sněmu a zemského soudu, kde se scházeli stavové a kde se uchovávalo a uplatňovalo zemské právo.",
+          zh: "波希米亚邦议会和邦法院的所在地，贵族们在这里开会，王国的邦法也在这里保存和执行。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Vladislavsk%C3%A9_z%C5%99%C3%ADzen%C3%AD_zemsk%C3%A9",
+  },
 ];
 
 // Era-overview cards live in their own file (see historyOverviews.js).
