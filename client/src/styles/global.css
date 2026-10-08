@@ -911,6 +911,13 @@ html[data-lang="zh"]:not([data-zh-variant="tw"]) .explore-title {
      the same colour as the History panel behind it, so cards read as
      hollow outlines. A slightly darker warm paper gradient gives them
      their own surface on both the panel and the Explore page. */
+  /* History Timeline event panels: a touch warmer than --bg-card
+     (2026-10-09, user's sample colour). Dark theme uses --bg-card. */
+  --history-panel-bg: #f4eedf;
+  /* Era-overview and background-knowledge cards: warm yellow so they read
+     as asides next to the event panels (2026-10-09). Dark theme keeps its
+     own look (variable unset there). */
+  --history-aside-bg: #f6e7bd;
   --card-top: #f3e9d4;
   --card-bottom: #e8dabd;
   /* ...and a darker hard pixel shadow than the general --shadow. */

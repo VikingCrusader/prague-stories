@@ -251,7 +251,7 @@
    offset so scrollIntoView() (see HistoryPage) doesn't tuck a section's
    top edge under the app's sticky navbar. */
 .history-detail-panel {
-  background: var(--bg-card);
+  background: var(--history-panel-bg, var(--bg-card));
   border: 3px solid var(--border);
   border-radius: 6px;
   padding: 24px 28px;
@@ -276,7 +276,7 @@
    Deliberately not tied to --era-accent (unlike the divider) since this is
    a structural difference (aside vs. event), not a per-era theme. */
 .history-detail-panel--background {
-  background: color-mix(in srgb, var(--gold) 5%, transparent);
+  background: var(--history-aside-bg, color-mix(in srgb, var(--gold) 5%, transparent));
   border: 3px dashed var(--gold);
 }
 .history-event__background-tag {
@@ -578,6 +578,7 @@
    one ordinary paragraph. */
 .history-detail-panel--overview {
   position: relative;
+  background: var(--history-aside-bg, var(--history-panel-bg, var(--bg-card)));
   border-color: transparent;
   padding: 44px 52px;
 }
