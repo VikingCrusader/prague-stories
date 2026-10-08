@@ -391,7 +391,7 @@ export const HISTORY_ERAS = [
     key: 'rule-of-the-lords',
     order: 7,
     themeClass: 'era-rule-of-the-lords',
-    hasContent: false,
+    hasContent: true,
     title: {
       en: 'Rule of the Lords',
       cz: 'Vláda pánů',

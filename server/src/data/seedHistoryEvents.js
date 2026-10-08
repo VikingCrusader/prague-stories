@@ -21139,10 +21139,24 @@ export const historyEvents = [
       cz: "Na jaře 1471 zvonil v Praze umíráček dvakrát: nejdřív za arcibiskupa, kterého Řím nikdy neuznal, pak za krále, kterého Řím nikdy neuznal.",
       zh: "1471年春天，布拉格的丧钟敲了两次：先是为一位没被罗马承认的大主教，再是为一位没被罗马承认的国王。",
     },
+    quotes: [
+      {
+        text: {
+          en: "This George won the favour of as many people as possible, not by arms, but by the wisdom and diligence he never lacked.",
+          cz: "Tento Jiří nikoliv zbraněmi, nýbrž moudrostí a přičinlivostí, jež mu nechyběly, získal si přízeň co nejvíce lidí.",
+          zh: "这位伊日赢得了尽可能多的人的拥戴，靠的不是刀剑，而是他从不缺少的智慧与勤勉。",
+        },
+        attribution: {
+          en: "Peter Eschenloer, chronicler of Wrocław (from the Czech translation)",
+          cz: "Petr Eschenloer, vratislavský kronikář",
+          zh: "弗罗茨瓦夫编年史家彼得·埃申洛尔（据捷克文译本）",
+        },
+      },
+    ],
     summary: {
-      en: "In the spring of 1471 the funeral bells of Prague tolled twice.\n\nThe first time was on 22 February, for [[link:an-archbishop-never-consecrated-1435]]Rokycana[[/link]]. The Utraquists had elected him archbishop more than thirty years earlier, and Rome had never consecrated him. All his life he was an archbishop nobody recognised, just as his king was, all his life, a king nobody recognised.\n\nA month later it was George's turn.\n\nBy now he was gravely ill. His legs were so swollen that he could not leave his bed, and his body so heavy that he needed help even to turn over. He knew he did not have long. Yet to the very end he did not bow to Rome, and he did not give up the chalice.\n\nGeorge of Poděbrady died in Prague on 22 March 1471, a month short of his fifty-first birthday. He was buried in St. Vitus Cathedral, among the kings of Bohemia. [[b]]In Rome's records he died a deposed heretic; in the hearts of Praguers he died their own king.[[/b]]\n\nThe arrangements he left behind held. Two months later, on 27 May, the estates met at Kutná Hora and elected the fifteen-year-old Polish prince Vladislaus King of Bohemia. In August the boy was crowned in St. Vitus Cathedral.\n\nThirty-three years earlier the ten-year-old Casimir had been [[link:two-kings-1438]]chosen as King of Bohemia[[/link]] and never sat on its throne. Now his son finally did. [[b]]This age had opened with one Jagiellon prince who missed the crown, and it closed with another Jagiellon prince wearing it.[[/b]]\n\nAs for Matthias, he still called himself King of Bohemia, still held Moravia and Silesia, and would not let go. Bohemia's two kings would drag on for years yet. But that is a story for the next age.\n\nLooking back on George's life, he was never the man who was \"supposed\" to be king. He had no royal blood and no illustrious ancestors; he started out as a twenty-year-old at [[link:a-kingdom-without-a-king-1440]]Ptáček's side[[/link]]. Yet in an age when kings either died young or never turned up, it was he who pulled a broken country back together, and when popes, emperors, crusaders and a former son-in-law came knocking one after another, it was he who stood alone in their way.\n\n[[b]]The lone king guarded more than a crown.[[/b]]\n\nMore than a century after his death, the great golden chalice he had placed on the gable of Týn Church still shone over the Old Town. Later it was taken down, and a statue of the Virgin Mary was put up in its place. The gold of the melted chalice, it is said, went into the halo around her head.\n\nStand in Old Town Square today and look up, and that is the Virgin you will see. Few people know that the golden ring around her head was once the thing a Czech king spent his whole life defending.\n\nThe story has one more turn. In August 2017 a gilded chalice went back up on the façade of Týn Church, this time at the initiative of the Czech Catholic bishops themselves.\n\nPosterity remembered him in other ways too. In the main square of Poděbrady stands a great equestrian statue of him from 1896, the first thing anyone sees on arriving in the town centre. In Prague's Vinohrady, not far from Žižka's statue on Vítkov hill, a broad square bears his name. In its middle rises Plečnik's Church of the Sacred Heart, one of the finest modern churches in the city, and, as it happens, a Catholic one; the king of two peoples would probably not have minded. Under the square runs the metro, and the station bears his name too. Every day tens of thousands of people pass through it. How many of them still know who the man behind the name was?",
-      cz: "Na jaře 1471 zvonil v Praze umíráček dvakrát.\n\nPoprvé 22. února, za [[link:an-archbishop-never-consecrated-1435]]Rokycanu[[/link]]. Kališníci ho zvolili arcibiskupem před víc než třiceti lety a Řím ho nikdy nevysvětil. Celý život byl arcibiskupem, kterého nikdo neuznal, stejně jako jeho král byl celý život králem, kterého nikdo neuznal.\n\nO měsíc později přišel na řadu Jiří.\n\nTo už byl těžce nemocný. Nohy měl tak oteklé, že nemohl vstát z lůžka, a tělo tak těžké, že potřeboval pomoc, i když se chtěl jen obrátit. Věděl, že mu nezbývá mnoho času. Přesto se až do konce Římu nepoklonil a kalicha se nevzdal.\n\nJiří z Poděbrad zemřel v Praze 22. března 1471, měsíc před svými jednapadesátými narozeninami. Pohřbili ho ve svatovítské katedrále mezi českými králi. [[b]]V římských záznamech zemřel jako sesazený kacíř; v srdcích Pražanů zemřel jako jejich vlastní král.[[/b]]\n\nJeho opatření nepřišla vniveč. O dva měsíce později, 27. května, se stavové sešli v Kutné Hoře a zvolili patnáctiletého polského prince Vladislava českým králem. V srpnu byl chlapec korunován ve svatovítské katedrále.\n\nPřed třiceti třemi lety byl desetiletý Kazimír [[link:two-kings-1438]]zvolen českým králem[[/link]] a na trůn nikdy neusedl. Teď na něj konečně usedl jeho syn. [[b]]Tahle doba začala jagellonským princem, který korunu nezískal, a skončila jiným jagellonským princem, který ji nosil.[[/b]]\n\nA Matyáš? Dál se titulovál českým králem, dál držel Moravu a Slezsko a nehodlal ustoupit. Dva králové v Čechách vydrží ještě řadu let. To už je ale příběh další doby.\n\nKdyž se ohlédneme za Jiřího životem, nikdy nebyl tím, kdo „měl“ být králem. Neměl královskou krev ani slavné předky; začínal jako dvacetiletý mladík [[link:a-kingdom-without-a-king-1440]]po Ptáčkově boku[[/link]]. A přece v době, kdy králové buď umírali mladí, nebo vůbec nepřijeli, to byl on, kdo dal rozbitou zemi znovu dohromady, a když jeden po druhém klepali na dveře papežové, císař, křižáci i bývalý zeť, byl to on, kdo jim stál v cestě sám.\n\n[[b]]Osamělý král nehájil jen korunu.[[/b]]\n\nJeště víc než sto let po jeho smrti zářil nad Starým Městem zlatý kalich na štítu Týnského chrámu. Později ho sundali a na jeho místo postavili sochu Panny Marie. Zlato z roztaveného kalicha prý posloužilo na svatozář kolem její hlavy.\n\nKdyž dnes stojíte na Staroměstském náměstí a podíváte se nahoru, uvidíte právě tu Pannu Marii. Málokdo ví, že zlatý kruh kolem její hlavy byl kdysi tím, co český král celý život hájil.\n\nPříběh má ale ještě jeden obrat. V srpnu 2017 se na průčelí Týnského chrámu vrátil pozlacený kalich, tentokrát z podnětu samotných českých katolických biskupů.\n\nPotomci si ho připomínají i jinak. Na hlavním náměstí v Poděbradech stojí jeho velká jezdecká socha z roku 1896, první, co každý uvidí, když přijde do centra města. Na pražských Vinohradech, nedaleko Žižkova pomníku na Vítkově, nese jeho jméno rozlehlé náměstí. Uprostřed něj stojí Plečnikův kostel Nejsvětějšího Srdce Páně, jeden z nejkrásnějších moderních kostelů ve městě, a shodou okolností katolický; král dvojího lidu by se asi nezlobil. Pod náměstím jezdí metro a jeho jméno nese i stanice. Každý den jí projdou desítky tisíc lidí. Kolik z nich ještě ví, kdo se za tím jménem skrývá?",
-      zh: "1471年的春天，布拉格接连敲了两次丧钟。\n\n第一次是在2月22日，为[[link:an-archbishop-never-consecrated-1435]]罗基察纳[[/link]]。这位圣杯派选出来的大主教，等了三十多年，罗马始终没有为他祝圣。他一辈子都是一位“没被承认的大主教”，就像他的国王，一辈子都是一位“没被承认的国王”。\n\n一个月后，轮到了伊日。\n\n这时的他已经病得很重，腿肿得下不了床，身子沉得连翻身都要人扶。他知道自己撑不了多久了，可直到最后，他也没有向罗马低头，没有放弃圣杯。\n\n1471年3月22日，波杰布拉德的伊日在布拉格去世，离他五十一岁生日还差一个月。他被安葬在圣维特大教堂，和波希米亚历代国王躺在一起。[[b]]在罗马的档案里，他死的时候是个被罢免的异端；在布拉格人心里，他是他们自己的国王。[[/b]]\n\n他留下的安排，没有落空。两个月后的5月27日，各等级在库特纳霍拉开会，推选十五岁的波兰王子弗拉迪斯拉夫为波希米亚国王。8月，少年在圣维特大教堂加冕。\n\n三十三年前，十岁的卡齐米日[[link:two-kings-1438]]被推举为波希米亚国王[[/link]]，却始终没能坐上那个王位。如今，他的儿子终于坐上去了。[[b]]这个时代以一位落选的雅盖隆王子开场，以另一位雅盖隆王子加冕落幕。[[/b]]\n\n至于马蒂亚斯，他还顶着“波希米亚国王”的头衔，占着摩拉维亚和西里西亚，不肯罢手。两个国王的局面，又拖了好些年。可这些，已经是下一个时代的故事了。\n\n回头看伊日的一生，他从来不是“该当国王”的那个人。他没有王族血统，没有显赫的祖先，最初只是[[link:a-kingdom-without-a-king-1440]]普塔切克身边[[/link]]一个二十岁的年轻人。可在那个国王不是早死、就是缺席的年代，是他把一个四分五裂的国家收拾起来；在教皇、皇帝、十字军和前女婿轮番找上门的时候，是他一个人站在那里。\n\n[[b]]孤王守国，守的不只是一顶王冠。[[/b]]\n\n他死后一百多年，泰恩教堂山墙上的那只金色圣杯，还一直在老城的上空闪着光。后来，它被人摘了下来，换上了一尊圣母像。据说，圣杯熔掉的金子，后来被打成了圣母头上的光环。\n\n今天你站在老城广场上抬头，看到的就是那尊圣母。只是很少有人知道，她头顶的那圈金光，曾经是一位捷克国王守了一辈子的东西。\n\n不过，故事还有最后一个转折。2017年8月，一只镀金圣杯又回到了泰恩教堂的正面，这一次，发起者正是捷克的天主教主教们。\n\n后人也用别的方式记着他。波杰布拉迪的中心广场上，立着一尊1896年的伊日骑马像，每个来到这座小城中心的人，第一眼看到的就是他。布拉格的维诺赫拉迪，离维特科夫山上杰式卡的骑马像不远，有一个宽阔的广场以他命名。广场中央是普列赤尼克设计的耶稣圣心堂，布拉格最出色的现代教堂之一，而且碰巧是一座天主教堂；这位“两种子民的国王”大概不会介意。广场底下是地铁，站名也是他的名字，每天有成千上万的人从这里进出。可知道广场和地铁站名字背后的人是谁的，还剩多少？",
+      en: "In the spring of 1471 the funeral bells of Prague tolled twice.\n\nThe first time was on 22 February, for [[link:an-archbishop-never-consecrated-1435]]Rokycana[[/link]]. The Utraquists had elected him archbishop more than thirty years earlier, and Rome had never consecrated him. All his life he was an archbishop nobody recognised, just as his king was, all his life, a king nobody recognised.\n\nA month later it was George's turn.\n\nBy now he was gravely ill. His legs were so swollen that he could not leave his bed, and his body so heavy that he needed help even to turn over. He knew he did not have long. Yet to the very end he did not bow to Rome, and he did not give up the chalice.\n\nGeorge of Poděbrady died in Prague on 22 March 1471, a month short of his fifty-first birthday. He was buried in St. Vitus Cathedral, among the kings of Bohemia. [[b]]In Rome's records he died a deposed heretic; in the hearts of Praguers he died their own king.[[/b]]\n\nThe arrangements he left behind held. Two months later, on 27 May, the estates met at Kutná Hora and elected the fifteen-year-old Polish prince Vladislaus King of Bohemia. In August the boy was crowned in St. Vitus Cathedral.\n\nThirty-three years earlier the ten-year-old Casimir had been [[link:two-kings-1438]]chosen as King of Bohemia[[/link]] and never sat on its throne. Now his son finally did. [[b]]This age had opened with one Jagiellon prince who missed the crown, and it closed with another Jagiellon prince wearing it.[[/b]]\n\nAs for Matthias, he still called himself King of Bohemia, still held Moravia and Silesia, and would not let go. Bohemia's two kings would drag on for years yet. But that is a story for the next age.\n\nLooking back on George's life, he was never the man who was \"supposed\" to be king. He had no royal blood and no illustrious ancestors; he started out as a twenty-year-old at [[link:a-kingdom-without-a-king-1440]]Ptáček's side[[/link]]. Yet in an age when kings either died young or never turned up, it was he who pulled a broken country back together, and when popes, emperors, crusaders and a former son-in-law came knocking one after another, it was he who stood alone in their way. Even in Wrocław, the city that never accepted him as king, the chronicler Peter Eschenloer wrote:\n\n[[quote:0]]\n\n[[b]]The lone king guarded more than a crown.[[/b]]\n\nMore than a century after his death, the great golden chalice he had placed on the gable of Týn Church still shone over the Old Town. Later it was taken down, and a statue of the Virgin Mary was put up in its place. The gold of the melted chalice, it is said, went into the halo around her head.\n\nStand in Old Town Square today and look up, and that is the Virgin you will see. Few people know that the golden ring around her head was once the thing a Czech king spent his whole life defending.\n\nThe story has one more turn. In August 2017 a gilded chalice went back up on the façade of Týn Church, this time at the initiative of the Czech Catholic bishops themselves.\n\nPosterity remembered him in other ways too. In the main square of Poděbrady stands a great equestrian statue of him from 1896, the first thing anyone sees on arriving in the town centre. In Prague's Vinohrady, not far from Žižka's statue on Vítkov hill, a broad square bears his name. In its middle rises Plečnik's Church of the Sacred Heart, one of the finest modern churches in the city, and, as it happens, a Catholic one; the king of two peoples would probably not have minded. Under the square runs the metro, and the station bears his name too. Every day tens of thousands of people pass through it. How many of them still know who the man behind the name was?",
+      cz: "Na jaře 1471 zvonil v Praze umíráček dvakrát.\n\nPoprvé 22. února, za [[link:an-archbishop-never-consecrated-1435]]Rokycanu[[/link]]. Kališníci ho zvolili arcibiskupem před víc než třiceti lety a Řím ho nikdy nevysvětil. Celý život byl arcibiskupem, kterého nikdo neuznal, stejně jako jeho král byl celý život králem, kterého nikdo neuznal.\n\nO měsíc později přišel na řadu Jiří.\n\nTo už byl těžce nemocný. Nohy měl tak oteklé, že nemohl vstát z lůžka, a tělo tak těžké, že potřeboval pomoc, i když se chtěl jen obrátit. Věděl, že mu nezbývá mnoho času. Přesto se až do konce Římu nepoklonil a kalicha se nevzdal.\n\nJiří z Poděbrad zemřel v Praze 22. března 1471, měsíc před svými jednapadesátými narozeninami. Pohřbili ho ve svatovítské katedrále mezi českými králi. [[b]]V římských záznamech zemřel jako sesazený kacíř; v srdcích Pražanů zemřel jako jejich vlastní král.[[/b]]\n\nJeho opatření nepřišla vniveč. O dva měsíce později, 27. května, se stavové sešli v Kutné Hoře a zvolili patnáctiletého polského prince Vladislava českým králem. V srpnu byl chlapec korunován ve svatovítské katedrále.\n\nPřed třiceti třemi lety byl desetiletý Kazimír [[link:two-kings-1438]]zvolen českým králem[[/link]] a na trůn nikdy neusedl. Teď na něj konečně usedl jeho syn. [[b]]Tahle doba začala jagellonským princem, který korunu nezískal, a skončila jiným jagellonským princem, který ji nosil.[[/b]]\n\nA Matyáš? Dál se titulovál českým králem, dál držel Moravu a Slezsko a nehodlal ustoupit. Dva králové v Čechách vydrží ještě řadu let. To už je ale příběh další doby.\n\nKdyž se ohlédneme za Jiřího životem, nikdy nebyl tím, kdo „měl“ být králem. Neměl královskou krev ani slavné předky; začínal jako dvacetiletý mladík [[link:a-kingdom-without-a-king-1440]]po Ptáčkově boku[[/link]]. A přece v době, kdy králové buď umírali mladí, nebo vůbec nepřijeli, to byl on, kdo dal rozbitou zemi znovu dohromady, a když jeden po druhém klepali na dveře papežové, císař, křižáci i bývalý zeť, byl to on, kdo jim stál v cestě sám. I ve Vratislavi, městě, které ho za krále nikdy neuznalo, napsal kronikář Petr Eschenloer:\n\n[[quote:0]]\n\n[[b]]Osamělý král nehájil jen korunu.[[/b]]\n\nJeště víc než sto let po jeho smrti zářil nad Starým Městem zlatý kalich na štítu Týnského chrámu. Později ho sundali a na jeho místo postavili sochu Panny Marie. Zlato z roztaveného kalicha prý posloužilo na svatozář kolem její hlavy.\n\nKdyž dnes stojíte na Staroměstském náměstí a podíváte se nahoru, uvidíte právě tu Pannu Marii. Málokdo ví, že zlatý kruh kolem její hlavy byl kdysi tím, co český král celý život hájil.\n\nPříběh má ale ještě jeden obrat. V srpnu 2017 se na průčelí Týnského chrámu vrátil pozlacený kalich, tentokrát z podnětu samotných českých katolických biskupů.\n\nPotomci si ho připomínají i jinak. Na hlavním náměstí v Poděbradech stojí jeho velká jezdecká socha z roku 1896, první, co každý uvidí, když přijde do centra města. Na pražských Vinohradech, nedaleko Žižkova pomníku na Vítkově, nese jeho jméno rozlehlé náměstí. Uprostřed něj stojí Plečnikův kostel Nejsvětějšího Srdce Páně, jeden z nejkrásnějších moderních kostelů ve městě, a shodou okolností katolický; král dvojího lidu by se asi nezlobil. Pod náměstím jezdí metro a jeho jméno nese i stanice. Každý den jí projdou desítky tisíc lidí. Kolik z nich ještě ví, kdo se za tím jménem skrývá?",
+      zh: "1471年的春天，布拉格接连敲了两次丧钟。\n\n第一次是在2月22日，为[[link:an-archbishop-never-consecrated-1435]]罗基察纳[[/link]]。这位圣杯派选出来的大主教，等了三十多年，罗马始终没有为他祝圣。他一辈子都是一位“没被承认的大主教”，就像他的国王，一辈子都是一位“没被承认的国王”。\n\n一个月后，轮到了伊日。\n\n这时的他已经病得很重，腿肿得下不了床，身子沉得连翻身都要人扶。他知道自己撑不了多久了，可直到最后，他也没有向罗马低头，没有放弃圣杯。\n\n1471年3月22日，波杰布拉德的伊日在布拉格去世，离他五十一岁生日还差一个月。他被安葬在圣维特大教堂，和波希米亚历代国王躺在一起。[[b]]在罗马的档案里，他死的时候是个被罢免的异端；在布拉格人心里，他是他们自己的国王。[[/b]]\n\n他留下的安排，没有落空。两个月后的5月27日，各等级在库特纳霍拉开会，推选十五岁的波兰王子弗拉迪斯拉夫为波希米亚国王。8月，少年在圣维特大教堂加冕。\n\n三十三年前，十岁的卡齐米日[[link:two-kings-1438]]被推举为波希米亚国王[[/link]]，却始终没能坐上那个王位。如今，他的儿子终于坐上去了。[[b]]这个时代以一位落选的雅盖隆王子开场，以另一位雅盖隆王子加冕落幕。[[/b]]\n\n至于马蒂亚斯，他还顶着“波希米亚国王”的头衔，占着摩拉维亚和西里西亚，不肯罢手。两个国王的局面，又拖了好些年。可这些，已经是下一个时代的故事了。\n\n回头看伊日的一生，他从来不是“该当国王”的那个人。他没有王族血统，没有显赫的祖先，最初只是[[link:a-kingdom-without-a-king-1440]]普塔切克身边[[/link]]一个二十岁的年轻人。可在那个国王不是早死、就是缺席的年代，是他把一个四分五裂的国家收拾起来；在教皇、皇帝、十字军和前女婿轮番找上门的时候，是他一个人站在那里。就连始终不肯承认他这个国王的弗罗茨瓦夫，城里的编年史家埃申洛尔也这样写道：\n\n[[quote:0]]\n\n[[b]]孤王守国，守的不只是一顶王冠。[[/b]]\n\n他死后一百多年，泰恩教堂山墙上的那只金色圣杯，还一直在老城的上空闪着光。后来，它被人摘了下来，换上了一尊圣母像。据说，圣杯熔掉的金子，后来被打成了圣母头上的光环。\n\n今天你站在老城广场上抬头，看到的就是那尊圣母。只是很少有人知道，她头顶的那圈金光，曾经是一位捷克国王守了一辈子的东西。\n\n不过，故事还有最后一个转折。2017年8月，一只镀金圣杯又回到了泰恩教堂的正面，这一次，发起者正是捷克的天主教主教们。\n\n后人也用别的方式记着他。波杰布拉迪的中心广场上，立着一尊1896年的伊日骑马像，每个来到这座小城中心的人，第一眼看到的就是他。布拉格的维诺赫拉迪，离维特科夫山上杰式卡的骑马像不远，有一个宽阔的广场以他命名。广场中央是普列赤尼克设计的耶稣圣心堂，布拉格最出色的现代教堂之一，而且碰巧是一座天主教堂；这位“两种子民的国王”大概不会介意。广场底下是地铁，站名也是他的名字，每天有成千上万的人从这里进出。可知道广场和地铁站名字背后的人是谁的，还剩多少？",
     },
     relatedLandmarks: [
       {
@@ -21195,6 +21209,373 @@ export const historyEvents = [
       },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/George_of_Pod%C4%9Bbrady",
+  },
+  {
+    slug: "two-brothers-from-poland-1471",
+    era: "rule-of-the-lords",
+    images: ["/history/two-brothers-from-poland-1471.webp"],
+    imageCaptions: [
+      {
+        en: "Left, Prague, August 1471: the newly crowned Vladislaus says yes to the lords queuing up with their petitions. Right, Hungary, autumn 1471: his younger brother Casimir finds the town gates shut and nobody coming out to welcome him.",
+        cz: "Vlevo Praha, srpen 1471: čerstvě korunovaný Vladislav přikyvuje pánům, kteří se k němu řadí s prosbami. Vpravo Uhry, podzim 1471: jeho mladší bratr Kazimír nachází městské brány zavřené a nikdo mu nevychází vstříc.",
+        zh: "左：1471年8月，布拉格，刚加冕的弗拉迪斯拉夫对排队递请愿书的贵族们一一点头说好。右：1471年秋，匈牙利，他的弟弟小卡齐米日来到城下，城门紧闭，没有一个人出来迎接。",
+      },
+    ],
+    startYear: 1471.6,
+    year: {
+      en: "1471",
+      cz: "1471",
+      zh: "1471年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Two Brothers from Poland",
+      cz: "Dva bratři z Polska",
+      zh: "波兰来的兄弟俩",
+    },
+    hookLine: {
+      en: "One brother had just been crowned in Prague when the other was sent to grab a second crown in Hungary. The younger one never got his crown, but he did end up with a halo.",
+      cz: "Starší bratr byl sotva korunován v Praze a mladšího už posílali uchvátit druhou korunu v Uhrách. Korunu nakonec nezískal, zato svatozář ano.",
+      zh: "哥哥刚在布拉格戴上王冠，弟弟就被派去匈牙利抢另一顶。结果，弟弟没抢到王冠，倒是戴上了光环。",
+    },
+    summary: {
+      en: "On 22 August 1471 the fifteen-year-old Vladislaus was crowned in St. Vitus Cathedral. He inherited a kingdom that had been at war for years, and a rival in Buda who still called himself King of Bohemia.\n\nLuckily, he had not come alone. His father, King Casimir IV of Poland, was the same Casimir who thirty-three years earlier had been [[link:two-kings-1438]]chosen King of Bohemia at the age of ten[[/link]] and never got to sit on the throne. Now the crown he had missed was on his son's head, and the old king had no intention of letting anyone take it away again.\n\nThe Jagiellons had even bigger plans. That same autumn Casimir sent another son, thirteen-year-old Casimir the Younger, into Hungary with a Polish army. The excuse was that a group of Hungarian lords had had enough of Matthias and had invited the Poles to give them a new king. [[b]]One brother had only just taken the crown of Bohemia, and the other was already off to grab the crown of Hungary.[[/b]]\n\nIf it worked, Matthias would be caught on every side: Bohemia to the west, Poland to the north, and a Jagiellon king sitting in his own backyard.\n\nUnfortunately, Matthias moved too fast. Before the Poles had even found their feet, he had won back the Hungarian lords who had invited them, one by one. Young Casimir marched about Hungary, found that nobody was coming out to welcome him, and early the next year went home with nothing to show for it.\n\nThe boy never did become a king. He became a saint instead, and today he is the patron saint of Poland and Lithuania. [[b]]He failed to win a crown, and ended up with a halo.[[/b]]\n\nAs for his elder brother in Prague, that year he did just one thing: he sat down on the throne and said \"fine\" to everyone around him.",
+      cz: "22. srpna 1471 byl patnáctiletý Vladislav korunován ve svatovítské katedrále. Zdědil království, které už léta válčilo, a soka v Budíně, který se dál tituloval českým králem.\n\nNaštěstí nepřišel sám. Jeho otec, polský král Kazimír IV., byl tentýž Kazimír, kterého před třiatřiceti lety [[link:two-kings-1438]]v deseti letech zvolili českým králem[[/link]] a který na trůn nikdy neusedl. Teď měl tu zmeškanou korunu na hlavě jeho syn a starý král nehodlal dopustit, aby mu ji někdo znovu vzal.\n\nJagellonci měli plány ještě větší. Téhož podzimu poslal Kazimír do Uher s polským vojskem dalšího syna, třináctiletého Kazimíra mladšího. Záminkou bylo, že skupina uherských pánů měla Matyáše dost a pozvala Poláky, aby jim dali nového krále. [[b]]Jeden bratr právě získal českou korunu a druhý už vyrážel uchvátit tu uherskou.[[/b]]\n\nKdyby to vyšlo, měl by Matyáš nepřítele ze všech stran: Čechy na západě, Polsko na severu a jagellonského krále přímo na vlastním dvorku.\n\nMatyáš byl ale bohužel příliš rychlý. Než se Poláci vůbec rozkoukali, získal uherské pány, kteří je pozvali, jednoho po druhém zpátky na svou stranu. Mladý Kazimír chvíli táhl po Uhrách, zjistil, že ho nikdo nevítá, a začátkem příštího roku se vrátil domů s prázdnou.\n\nKrálem se ten chlapec nikdy nestal. Stal se zato svatým a dnes je patronem Polska a Litvy. [[b]]Korunu nezískal, a nakonec nosil svatozář.[[/b]]\n\nA jeho starší bratr v Praze? Ten toho roku udělal jedinou věc: usedl na trůn a všem kolem sebe říkal „dobře“.",
+      zh: "1471年8月22日，十五岁的弗拉迪斯拉夫在圣维特大教堂加冕。他接手的是一个打了好几年仗的王国，以及一个还在布达自称“波希米亚国王”的对手。\n\n好在他不是一个人来的。他的父亲，波兰国王卡齐米日四世，正是三十三年前那个[[link:two-kings-1438]]十岁就被推举为波希米亚国王[[/link]]、却始终没能坐上王位的人。当年没到手的王冠，如今戴在了儿子头上，老国王说什么也不能让它再被人抢走。\n\n雅盖隆家族的打算比这还要大。同一年秋天，卡齐米日又派出了另一个儿子，十三岁的小卡齐米日，带着一支波兰军队去了匈牙利。理由是，有一批匈牙利贵族受够了马蒂亚斯，请他们去换个国王。[[b]]哥哥刚拿下波希米亚的王冠，弟弟就去抢匈牙利的那一顶。[[/b]]\n\n如果成了，马蒂亚斯就会腹背受敌：西边是波希米亚，北边是波兰，自家后院还坐着一位雅盖隆国王。\n\n可惜，马蒂亚斯动作太快。那批请人的匈牙利贵族，还没等到波兰人站稳脚跟，就被他一个个收拾服帖了。小卡齐米日在匈牙利转了一圈，发现根本没人来迎接，第二年初只好灰溜溜地回了家。\n\n这位少年后来没当成国王，倒是当上了圣徒，成了波兰和立陶宛的主保圣人。[[b]]抢王冠没抢到，最后戴上的是光环。[[/b]]\n\n至于布拉格的那位哥哥，这一年他只做了一件事：坐上王座，然后对身边所有的人说“好”。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Where the fifteen-year-old Vladislaus Jagiellon was crowned King of Bohemia on 22 August 1471.",
+          cz: "Zde byl 22. srpna 1471 patnáctiletý Vladislav Jagellonský korunován českým králem.",
+          zh: "1471年8月22日，十五岁的弗拉迪斯拉夫·雅盖隆在这里加冕为波希米亚国王。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Saint_Casimir",
+  },
+  {
+    slug: "poland-and-lithuania-1471",
+    era: "rule-of-the-lords",
+    startYear: 1471.65,
+    cardType: "background",
+    year: {
+      en: "1385–1471",
+      cz: "1385–1471",
+      zh: "1385–1471年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Poland and Lithuania",
+      cz: "Polsko a Litva",
+      zh: "波兰和立陶宛",
+    },
+    hookLine: {
+      en: "One was a Catholic kingdom, the other the last pagan country in Europe. A single wedding tied them together.",
+      cz: "Jedno bylo katolické království, druhá poslední pohanská země Evropy. Svázala je jediná svatba.",
+      zh: "一个是天主教王国，一个是欧洲最后的异教国家。一场婚礼，把它们绑在了一起。",
+    },
+    summary: {
+      en: "In the 14th century Lithuania was the last pagan country in Europe, and also one of the largest. Its grand dukes still sacrificed to the old gods, yet they ruled from the Baltic coast deep into what is now Belarus and Ukraine, Kyiv included, over millions of Orthodox Slavs.\n\nNext door, the Kingdom of Poland had run out of kings. The last of the old Piast line, Casimir the Great, died in 1370, and in 1384 the Poles crowned his great-niece Jadwiga, a girl of about ten. They crowned her king, not queen, because Polish law had no place for a ruling queen.\n\nThe Polish lords then went looking for a husband who could defend them against the Teutonic Knights, and found Jogaila, Grand Duke of Lithuania. Under the Union of Krewo in 1385 he agreed to be baptised, to bring all of Lithuania into the Church and to marry Jadwiga. In 1386 he was crowned King of Poland as Władysław II Jagiełło, and the family he founded has been called the Jagiellons ever since. [[b]]Two countries now had one ruler: a personal union, not a merger, with each keeping its own laws, lords and capital.[[/b]]\n\nTogether they were formidable. In 1410 they crushed the Teutonic Knights at Grunwald, and for the rest of the century Poland and Lithuania kept [[link:importing-a-king-1421]]a prudent distance[[/link]] from every crusade against the Hussites.\n\nCasimir IV, Jagiełło's younger son, was Grand Duke of Lithuania from 1440 and King of Poland from 1447, and so ruled both. He married Elizabeth of Habsburg, daughter of Albert, the king Bohemia had chosen over him in 1438. She gave him thirteen children and became known as the \"Mother of Kings\": four of her sons would wear crowns, and one, Casimir, would be a saint instead.\n\nThe personal union lasted almost two centuries. In 1569, at Lublin, the two countries finally merged into a single state, the Polish-Lithuanian Commonwealth, one of the largest in Europe. It elected its kings, and its noble parliament grew so jealous of its liberties that in time a single member's \"no\" could block a whole session. The Commonwealth lasted until 1795, when Russia, Prussia and Austria partitioned it out of existence.\n\nSo when Vladislaus came to Prague in 1471, he came from a family that already ruled a vast stretch of Europe from the Baltic almost to the Black Sea. That is why his younger brother is patron saint of both Poland and Lithuania.",
+      cz: "Ve 14. století byla Litva poslední pohanskou zemí Evropy a zároveň jednou z největších. Její velkoknížata ještě obětovala starým bohům, a přitom vládla od baltského pobřeží hluboko do dnešního Běloruska a Ukrajiny, včetně Kyjeva, nad miliony pravoslavných Slovanů.\n\nVedlejšímu Polskému království mezitím došli králové. Poslední z dávného rodu Piastovců, Kazimír Veliký, zemřel roku 1370 a roku 1384 korunovali Poláci jeho praneteř Hedviku, asi desetiletou dívku. Korunovali ji na krále, ne na královnu, protože polské právo vládnoucí královnu neznalo.\n\nPolští páni jí pak hledali manžela, který by je ubránil před řádem německých rytířů, a našli Jagellu, litevského velkoknížete. Krevskou unií roku 1385 se zavázal dát se pokřtít, přivést celou Litvu do církve a vzít si Hedviku. Roku 1386 byl korunován polským králem jako Vladislav II. Jagello a rodu, který založil, se od té doby říká Jagellonci. [[b]]Dvě země tak měly jednoho vládce: šlo o personální unii, ne o splynutí, a každá si ponechala vlastní zákony, pány i hlavní město.[[/b]]\n\nSpolečně byly hrozivé. Roku 1410 rozdrtily řád německých rytířů u Grunwaldu a po zbytek století si Polsko a Litva od všech křížových výprav proti husitům držely [[link:importing-a-king-1421]]opatrný odstup[[/link]].\n\nKazimír IV., Jagellův mladší syn, byl od roku 1440 litevským velkoknížetem a od roku 1447 polským králem, takže vládl oběma zemím. Oženil se s Alžbětou Habsburskou, dcerou Albrechta, krále, kterého Čechy roku 1438 zvolily místo něj. Porodila mu třináct dětí a vešla ve známost jako „matka králů“: čtyři její synové nosili koruny a jeden, Kazimír, se místo toho stal svatým.\n\nPersonální unie vydržela skoro dvě století. Roku 1569 v Lublinu obě země konečně splynuly v jediný stát, Republiku obou národů, jeden z největších v Evropě. Své krále si volila a její šlechtický sněm tak žárlivě střežil své svobody, že časem mohlo jediné „ne“ jediného poslance zablokovat celé zasedání. Republika vydržela do roku 1795, kdy si ji Rusko, Prusko a Rakousko rozdělily a vymazaly z mapy.\n\nKdyž tedy Vladislav roku 1471 přišel do Prahy, pocházel z rodu, který už vládl obrovskému kusu Evropy od Baltu skoro k Černému moři. Proto je jeho mladší bratr patronem Polska i Litvy zároveň.",
+      zh: "14世纪的立陶宛，是欧洲最后一个异教国家，也是最大的国家之一。它的大公们还在向古老的神灵献祭，却统治着从波罗的海沿岸一直延伸到今天白俄罗斯和乌克兰腹地的大片土地，连基辅也在其中，治下是数以百万计信东正教的斯拉夫人。\n\n隔壁的波兰王国，这时却没国王了。古老的皮雅斯特王朝最后一位国王卡齐米日大帝1370年去世；1384年，波兰人给他的侄孙女雅德维加戴上了王冠，她当时大约只有十岁。他们加冕她为“国王”，而不是“女王”，因为波兰的法律里根本没有女性君主这个位置。\n\n接下来，波兰贵族要给她找一位能帮他们对付条顿骑士团的丈夫，看中了立陶宛大公约盖拉。1385年的克雷沃联合，约定他接受洗礼，让整个立陶宛皈依天主教，再迎娶雅德维加。1386年，他加冕为波兰国王，称瓦迪斯瓦夫二世·雅盖沃，他开创的家族从此被称为雅盖隆王朝。[[b]]两个国家从此有了同一位君主：这是共主联邦，不是合并，双方各有各的法律、贵族和都城。[[/b]]\n\n两家联手，实力惊人。1410年，他们在格伦瓦尔德大败条顿骑士团；之后的大半个世纪里，波兰和立陶宛对每一次讨伐胡斯派的十字军，都[[link:importing-a-king-1421]]保持着谨慎的距离[[/link]]。\n\n雅盖沃的小儿子卡齐米日四世，1440年起当立陶宛大公，1447年又当上波兰国王，两国都归他管。他娶了哈布斯堡家的伊丽莎白，她的父亲正是1438年和卡齐米日争波希米亚王位、最后胜出的阿尔布雷希特。伊丽莎白给他生了十三个孩子，人称“国王之母”：她有四个儿子后来都戴上了王冠，还有一个儿子卡齐米日，戴上的是光环。\n\n这种共主联邦维持了将近两个世纪。1569年，两国在卢布林正式合并成一个国家，即波兰立陶宛联邦，欧洲最大的国家之一。它的国王由选举产生，贵族议会把自己的自由看得极重，后来甚至只要一位议员说一声“不”，整场会议就开不下去。这个联邦一直存在到1795年，最终被俄国、普鲁士和奥地利瓜分，从地图上消失了。\n\n所以，1471年来到布拉格的弗拉迪斯拉夫，背后是一个从波罗的海几乎一直统治到黑海边上的大家族。这也是为什么，他的弟弟能同时是波兰和立陶宛两国的主保圣人。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Polish%E2%80%93Lithuanian_union",
+  },
+  {
+    slug: "the-king-who-said-fine-1474",
+    era: "rule-of-the-lords",
+    images: ["/history/the-king-who-said-fine-1474.webp"],
+    imageCaptions: [
+      {
+        en: "Wrocław, autumn 1474: on the walls Matthias and his men feast by the fire, while outside, in the rain, the hungry camp of Casimir IV and his son Vladislaus sinks into the mud and Hungarian horsemen set a granary ablaze.",
+        cz: "Vratislav, podzim 1474: na hradbách hoduje Matyáš se svými muži u ohně, zatímco venku v dešti se hladový tábor Kazimíra IV. a jeho syna Vladislava boří do bláta a uherští jezdci zapalují sýpku.",
+        zh: "1474年秋，弗罗茨瓦夫：马蒂亚斯和部下在城墙上围着炉火吃喝，城外的雨里，卡齐米日四世和儿子弗拉迪斯拉夫的大营陷在泥里饿着肚子，远处的匈牙利骑兵正放火烧粮仓。",
+      },
+    ],
+    startYear: 1474,
+    year: {
+      en: "1474",
+      cz: "1474",
+      zh: "1474年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Calm Inside, Frantic Outside",
+      cz: "Uvnitř klid, venku panika",
+      zh: "城里不急城外急",
+    },
+    hookLine: {
+      en: "Two kings and tens of thousands of men besieged Matthias in Wrocław. It was the besiegers who started to go hungry.",
+      cz: "Dva králové a desítky tisíc mužů obléhali Matyáše ve Vratislavi. Hladovět ale začali obléhatelé.",
+      zh: "两位国王、几万人马把马蒂亚斯围在了弗罗茨瓦夫。结果先饿肚子的，是围城的人。",
+    },
+    summary: {
+      en: "For the next few years the Jagiellon father and son and Matthias fought back and forth across Silesia and Moravia, and neither side could swallow the other.\n\nThe liveliest round came in the autumn of 1474. Matthias sat inside Wrocław with a fairly small army, while outside the walls camped the King of Poland and the King of Bohemia, father and son, with tens of thousands of men between them, it was said.\n\n[[b]]By rights, the besieged should have been the worried ones. This time it was the besiegers.[[/b]]\n\nMatthias simply refused to come out and fight. He sent his light horsemen roaming the countryside to burn granaries, cut supply lines and pick off stragglers. The huge army outside grew hungrier by the day in the autumn rain of Silesia; the people inside had food and drink, while the men outside could barely feed their horses. In the end father and son had to sit down and negotiate a truce with the man in the city, signed on 8 December 1474.\n\nAs for young Vladislaus, his part in all this was as mild as his later reputation. When his ministers asked him to decide something, he said \"fine\". When his father decided for him, he said \"fine\" too.\n\nTruce or no truce, the fighting went on, on and off. In the end both sides were worn out: Matthias also had Emperor Frederick to deal with, and the Jagiellons wanted to spend their strength elsewhere. In 1478 the two sides' envoys sat down at Olomouc and agreed a peace.\n\n[[b]]Seven years of war came to a stop.[[/b]] As for how the two \"Kings of Bohemia\" were to share one kingdom, the men at the negotiating table had a very creative idea.",
+      cz: "Následujících několik let se jagellonský otec se synem a Matyáš přetahovali o Slezsko a Moravu a ani jedna strana nedokázala tu druhou spolknout.\n\nNejrušnější kolo přišlo na podzim 1474. Matyáš seděl s nevelkým vojskem ve Vratislavi a před hradbami tábořili polský a český král, otec a syn, s desítkami tisíc mužů, jak se říkalo.\n\n[[b]]Podle všech pravidel měl mít starosti obléhaný. Tentokrát je ale měli obléhatelé.[[/b]]\n\nMatyáš prostě odmítl vyjít a bojovat. Rozeslal lehké jezdce po okolí, aby pálili sýpky, přerušovali zásobování a přepadali opozdilce. Obrovské vojsko venku v slezském podzimním dešti den ode dne víc hladovělo; lidé uvnitř měli co jíst a pít, kdežto muži venku sotva uživili koně. Nakonec museli otec se synem zasednout s mužem ve městě k jednání o příměří, které bylo podepsáno 8. prosince 1474.\n\nA mladý Vladislav? Jeho role v tom všem byla stejně mírná jako jeho pozdější pověst. Když ho rádci žádali o rozhodnutí, řekl „dobře“. Když za něj rozhodl otec, řekl také „dobře“.\n\nPříměří nepříměří, válčilo se dál, s přestávkami. Nakonec byly obě strany vyčerpané: Matyáš se musel vypořádat ještě s císařem Fridrichem a Jagellonci chtěli své síly využít jinde. Roku 1478 zasedli vyslanci obou stran v Olomouci a dohodli mír.\n\n[[b]]Sedm let války se zastavilo.[[/b]] A jak si mají dva „čeští králové“ rozdělit jedno království? Muži u jednacího stolu na to měli velmi vynalézavý nápad.",
+      zh: "接下来的几年，雅盖隆父子和马蒂亚斯在西里西亚、摩拉维亚之间来回拉锯，谁也吃不掉谁。\n\n最热闹的一回是在1474年秋天。马蒂亚斯带着一支不大的军队守在弗罗茨瓦夫城里，城外是波兰国王和波希米亚国王父子俩，据说两边的人马加起来有好几万。\n\n[[b]]按理说，被围的人该着急。可这一回，着急的是围城的人。[[/b]]\n\n马蒂亚斯根本不出来打。他派轻骑兵在城外四处游荡，烧粮仓、截补给、偷袭落单的队伍。几万人的大军在西里西亚的秋雨里越等越饿，城里的人有吃有喝，城外的人却连马都快喂不起了。最后，父子俩只好坐下来，跟城里那位谈停战，1474年12月8日签了停战协议。\n\n至于年轻的弗拉迪斯拉夫，他在这场戏里的表现，和他后来的名声一样温和。大臣们请他拿主意，他说“好”；父亲替他做决定，他也说“好”。\n\n停战归停战，仗还是断断续续地打。打到后来，双方都累了：马蒂亚斯还要对付皇帝腓特烈，雅盖隆家族也想把力气用在别的地方。1478年，双方的使节在奥洛穆茨坐了下来，谈成了和约。\n\n[[b]]七年的仗，就这样停了下来。[[/b]]至于两个“波希米亚国王”该怎么分这个国家，谈判桌上的人，还有一个很有创意的主意。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "olomouc",
+        relation: {
+          en: "Where envoys of Vladislaus and Matthias agreed the peace of 1478 that ended seven years of war.",
+          cz: "Zde se roku 1478 vyslanci Vladislava a Matyáše dohodli na míru, který ukončil sedm let války.",
+          zh: "1478年，弗拉迪斯拉夫和马蒂亚斯的使节在这里谈成和约，结束了七年的战争。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Bohemian%E2%80%93Hungarian_War_(1468%E2%80%931478)",
+  },
+  {
+    slug: "bohemia-splits-the-house-1479",
+    era: "rule-of-the-lords",
+    images: ["/history/bohemia-splits-the-house-1479.webp"],
+    imageCaptions: [
+      {
+        en: "Olomouc, July 1479: at a lavish banquet, Vladislaus and Matthias, both calling themselves King of Bohemia, sit at opposite ends of one table with a map of the Bohemian Crown lands split by a sword between them.",
+        cz: "Olomouc, červenec 1479: na okázalé hostině sedí Vladislav a Matyáš, kteří se oba nazývají českými králi, na opačných koncích jednoho stolu a mezi nimi leží mečem rozdělená mapa zemí Koruny české.",
+        zh: "1479年7月，奥洛穆茨：在一场奢华的宴会上，都自称“波希米亚国王”的弗拉迪斯拉夫和马蒂亚斯分坐长桌两头，中间是一张被一把剑一分为二的波希米亚王冠领地地图。",
+      },
+    ],
+    startYear: 1479,
+    year: {
+      en: "1479",
+      cz: "1479",
+      zh: "1479年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Bohemia Splits the House",
+      cz: "Čechy se dělí",
+      zh: "波希米亚分家了",
+    },
+    hookLine: {
+      en: "One kingdom, two kings. The negotiators found the simplest answer: keep both.",
+      cz: "Jedno království, dva králové. Vyjednavači našli nejjednodušší řešení: ponechat oba.",
+      zh: "一个王国，两个国王。谈判的人想出了最省事的办法：两个都留下。",
+    },
+    summary: {
+      en: "In July 1479 Olomouc was as lively as a fair.\n\nThe two \"Kings of Bohemia\" were finally going to meet: twenty-three-year-old Vladislaus coming from Prague, and thirty-six-year-old Matthias coming from Buda. Both, it was said, brought enormous retinues, and for days on end the city was full of banquets, tournaments and processions. Matthias in particular spared no expense and put on a bigger show than his host, as if to make sure everyone could see who was the richest king in these parts.\n\nFor all the noise, everyone knew the real star of the gathering was the treaty on the table, agreed the previous December and now to be solemnly confirmed.\n\nThe problem was simple: one kingdom, two kings. What to do?\n\n[[b]]The negotiators' answer was to keep both.[[/b]]\n\nBoth men could go on calling themselves King of Bohemia, and neither had to change his title. The country itself was split down the middle: Vladislaus kept Bohemia proper, while Moravia, Silesia and Upper and Lower Lusatia went to Matthias. The lands of the Bohemian Crown were cut in two, and each half had its own \"King of Bohemia\" sitting on it.\n\nThe treaty had one more clause. After Matthias's death, Bohemia could buy back the lands he held, for 400,000 gold florins. In those days that was an astronomical sum, and hardly anyone believed Bohemia would ever raise it.\n\nVladislaus read the terms and said what he said most often: \"Fine.\"\n\n[[b]]It was already the second time since 1438 that Bohemia had had two kings at once. Only this time, everyone agreed to stop fighting and simply live with it.[[/b]]\n\nTen years of war were over. The towns of Moravia and Silesia no longer had to be besieged by one side after the other, and the peasants could finally farm in peace. As for the 400,000 florins, for years they hung over every Czech head like a bill that would have to be paid sooner or later.\n\nIn the end, not a single coin of it was ever paid. Why not, Buda would reveal eleven years later.",
+      cz: "V červenci 1479 byla Olomouc rušná jako o pouti.\n\nOba „čeští králové“ se měli konečně setkat: třiadvacetiletý Vladislav přijížděl z Prahy a šestatřicetiletý Matyáš z Budína. Oba prý přivedli obrovské družiny a město bylo celé dny plné hostin, turnajů a průvodů. Zvlášť Matyáš nešetřil a předvedl větší okázalost než hostitel, jako by chtěl, aby všichni jasně viděli, kdo je v tomhle kraji nejbohatším králem.\n\nPři vší té slávě ale všichni věděli, že skutečnou hvězdou setkání je smlouva na stole, dohodnutá loni v prosinci a teď slavnostně stvrzovaná.\n\nProblém byl prostý: jedno království, dva králové. Co s tím?\n\n[[b]]Vyjednavači odpověděli, že si nechají oba.[[/b]]\n\nOba se mohli dál nazývat českými králi a ani jeden nemusel měnit titul. Samotnou zemi rozdělili napůl: Vladislav si ponechal vlastní Čechy, Morava, Slezsko a Horní i Dolní Lužice připadly Matyášovi. Země Koruny české byly rozťaty vedví a na každé polovině seděl jeden „český král“.\n\nSmlouva měla ještě jednu doložku. Po Matyášově smrti mohly Čechy jeho země vykoupit zpět, a to za 400 000 zlatých. Tehdy to byla astronomická částka a skoro nikdo nevěřil, že ji Čechy kdy sežene.\n\nVladislav si podmínky přečetl a řekl, co říkal nejčastěji: „Dobře.“\n\n[[b]]Od roku 1438 měly Čechy dva krále najednou už podruhé. Jenomže tentokrát se všichni dohodli, že přestanou bojovat a prostě s tím budou žít.[[/b]]\n\nDeset let války skončilo. Moravská a slezská města už nemusela snášet obléhání jednou od jedněch, podruhé od druhých a sedláci mohli konečně v klidu hospodařit. A těch 400 000 zlatých viselo léta nad hlavou každého Čecha jako účet, který bude dřív nebo později třeba zaplatit.\n\nNakonec se z nich nezaplatil ani groš. Proč, prozradí za jedenáct let Budín.",
+      zh: "1479年7月，奥洛穆茨热闹得像过节。\n\n两位“波希米亚国王”终于要见面了。一位是二十三岁的弗拉迪斯拉夫，从布拉格来；一位是三十六岁的马蒂亚斯，从布达来。据说两边都带来了浩浩荡荡的随从，城里一连好些天都是宴会、比武和游行。马蒂亚斯尤其舍得花钱，排场摆得比主人还大，好像要让所有人看清楚：谁才是这一带最阔气的国王。\n\n可热闹归热闹，大家心里都清楚，这场聚会真正的主角，是谈判桌上的那份和约。它前一年12月就已经谈妥，这回是来正式批准的。\n\n问题很简单：一个王国，两个国王，怎么办？\n\n[[b]]谈判的人想出的答案，是两个都留下。[[/b]]\n\n两个人都可以继续叫“波希米亚国王”，谁也不用改口。至于国家，一人一半：弗拉迪斯拉夫留着波希米亚本土；摩拉维亚、西里西亚和上下卢萨蒂亚，归马蒂亚斯。波希米亚王冠下的这片土地，就这样被一刀切成了两块，每一块上面都坐着一位“波希米亚国王”。\n\n和约里还有一条附加条款：将来马蒂亚斯去世后，波希米亚可以把他手里那几块地赎回来，价钱是四十万金币。这在当时是一笔天文数字，几乎没人相信波希米亚真能凑出来。\n\n弗拉迪斯拉夫看完条款，说了一句他最常说的话：“好。”\n\n[[b]]从1438年算起，这已经是波希米亚第二回同时有两个国王了。只不过这一回，大家决定不打了，就这么过下去。[[/b]]\n\n十年的仗终于停了。摩拉维亚和西里西亚的城市不用再被轮流围攻，农民也终于能安心种地。至于那四十万金币，在接下来的好些年里，一直挂在每个波希米亚人心头，像一张迟早要还的账单。\n\n不过，这笔钱最后一个铜板也没有付过。至于为什么，十一年后的布达会给出答案。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "olomouc",
+        relation: {
+          en: "Where Vladislaus and Matthias met in July 1479, amid days of feasts and tournaments, to confirm the peace that split the lands of the Bohemian Crown between them.",
+          cz: "Zde se v červenci 1479 setkali Vladislav s Matyášem a uprostřed dnů hostin a turnajů stvrdili mír, který mezi ně rozdělil země Koruny české.",
+          zh: "1479年7月，弗拉迪斯拉夫和马蒂亚斯在这里会面，在接连多日的宴会和比武中，正式批准了把波希米亚王冠领地一分为二的和约。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Peace_of_Olomouc",
+  },
+  {
+    slug: "the-window-opens-again-1483",
+    era: "rule-of-the-lords",
+    images: ["/history/the-window-opens-again-1483.webp"],
+    imageCaptions: [
+      {
+        en: "Old Town Square, 24 September 1483: the Old Town mayor clings to the window rail of the town hall as rebels try to pry him loose with a hammer, while the crowd below looks up and the bells of Týn Church ring the alarm.",
+        cz: "Staroměstské náměstí, 24. září 1483: staroměstský purkmistr se drží zábradlí v okně radnice, zatímco se ho vzbouřenci snaží kladivem odtrhnout, dav dole se dívá nahoru a zvony Týnského chrámu zvoní na poplach.",
+        zh: "1483年9月24日，老城广场：老城市长死死抓着市政厅的窗栏，起事的人举着锤子想把他撬下去；楼下的人群仰头看着，泰恩教堂的钟正在敲响警报。",
+      },
+    ],
+    startYear: 1483,
+    year: {
+      en: "1483",
+      cz: "1483",
+      zh: "1483年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Window Opens Again",
+      cz: "Okno se znovu otevírá",
+      zh: "窗户又开了",
+    },
+    hookLine: {
+      en: "Sixty-four years later, Prague remembered its favourite way of settling an argument.",
+      cz: "O šedesát čtyři let později si Praha vzpomněla na svůj oblíbený způsob, jak řešit spory.",
+      zh: "六十四年后，布拉格又想起了自己最拿手的解决争端的办法。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "The mayor played dead, and since they did not want him lying there like a carcass, they dragged him to the window to throw him off the town hall. But he grabbed hold of the window rail and would not let go, until they struck him across the hand with a hammer. He fell to the ground and lay by the town hall in nothing but his shirt, covered in blood.",
+          cz: "Purkmistr se tvářil jako mrtvý, a protože nechtěli, aby tam ležel jako mršina, táhli ho k oknu, že ho shodí z radnice, ale on se chytil zábradlí v okně a nechtěl se pustit, dokud ho přes ruku nepraštili kladivem. Dopadl na zem a ležel u radnice jen v košili a celý zkrvavený.",
+          zh: "市长装死，他们不想让他像具死尸一样躺在那儿，就把他拖到窗边，要把他从市政厅扔下去。可他死死抓住窗栏不撒手，直到有人用锤子砸了他的手。他摔到地上，只穿着一件衬衣，浑身是血，躺在市政厅旁边。",
+        },
+        attribution: {
+          en: "Old Czech Annals, on the Old Town mayor in 1483 (from a modern Czech rendering)",
+          cz: "Staré letopisy české (v novočeském převodu)",
+          zh: "《捷克古代编年史》，记1483年的老城市长（据现代捷克文译本）",
+        },
+      },
+    ],
+    summary: {
+      en: "The treaty was signed and the war was over, but life in Bohemia did not get any easier.\n\nThe king was simply too obliging. When the lords came asking for offices, he said \"fine\"; when they came asking for royal castles and estates, he said \"fine\" too. The crown lands that George had worked so hard to win back from the nobility trickled away again, one estate after another. The treasury grew emptier, the king grew poorer, and the lords' purses grew fatter.\n\n[[b]]A king who said \"fine\" to everything ended up with nothing left in his hands.[[/b]]\n\nThe towns were not doing well either. The lords began muscling in on trades that had always belonged to the towns, brewing their own beer and holding their own markets and taking the townspeople's living. The burghers of Prague watched it all with growing resentment.\n\nWhat worried them even more was religion. Vladislaus was a devout Catholic, which in itself was nothing new; George's queen had been a Catholic too. But the people around this king began, little by little, to change the rules in Prague. Utraquist town councillors were replaced and Catholic ones promoted, and Utraquist priests were driven out of some churches. Since [[link:the-bells-toll-twice-1471]]Rokycana's death[[/link]] the Utraquists had had no bishop at all to ordain their priests, and they could only watch their ranks grow thinner.\n\nIn the autumn of 1483 a terrible rumour began to spread through the city: the Catholic councillors were plotting to strike at night and do away with all the Utraquist leaders.\n\nIt was said that the plotters had a list of about eighty names, that they would mark their own houses with lights so as not to kill one another by mistake, and that they even had a password: \"The Lord God with us, light among us, and our faithful without their breeches.\" Whether the rumour was true, nobody can say even today. But at the time it fell like a spark into dry straw.\n\nOn 24 September 1483, at eight in the morning, the bells of Týn Church rang out the signal, and the bells of every other church in Prague answered. The Old Town, the New Town and the Lesser Town rose almost at the same moment. Angry citizens stormed the town halls and seized the councillors believed to be part of the \"plot\". Then they did something the people of Prague had done [[link:the-first-defenestration-1419]]sixty-four years before[[/link]].\n\n[[b]]The town hall windows were thrown open.[[/b]]\n\nIn the New Town, the councillors were killed and their bodies thrown out of the windows. In the Old Town, things went rather differently for the mayor, Jan of the Hats. The Old Czech Annals tell what happened to him:\n\n[[quote:0]]\n\nAnd he survived. This time, at least, one man got up again. The rioting went on for days: monasteries were attacked, Catholic burghers fled the city, and the Jewish Town was plundered too. The captured councillors were interrogated and confessed that they really had been planning to kill Utraquists, though how freely they confessed is another question. Two days later the executions began.\n\nCzech historians call it the Second Defenestration of Prague. [[b]]Prague, it turned out, had not forgotten its favourite way of settling an argument.[[/b]]\n\nWhen the news reached the king, even King Fine could not quite bring himself to say \"fine\". But there was little else he could do. The whole city stood together, and he had neither the money nor the soldiers to punish it. In the end, not one of the rebels was punished.\n\nThe king did make one decision, though. He had been living in the King's Court in the Old Town, the palace where [[link:four-years-this-time-1457]]Ladislaus had died[[/link]]. After this, he felt that living among the townspeople was not entirely safe. Soon afterwards he moved across the river to Prague Castle, and he never moved back; there he would later build the largest hall in all of Central Europe. Work also stopped on the grand new gate tower he had begun beside the King's Court, and it stood unfinished for almost four hundred years.\n\nThe windows had been emptied and the executions carried out, yet not a single problem had been solved. The Catholics could not drive out the Utraquists, and the Utraquists could not drive out the Catholics. They lived in the same city and the same kingdom, and neither could do without the other.\n\n[[b]]For more than sixty years the Czechs had been settling questions of faith with swords and windows. This time, some of them began to wonder: was there another way?[[/b]]",
+      cz: "Smlouva byla podepsaná, válka skončila, ale život v Čechách to nijak neulehčilo.\n\nKrál byl prostě příliš ochotný. Když za ním páni přišli pro úřady, řekl „dobře“; když přišli pro královské hrady a statky, řekl taky „dobře“. Korunní statky, které Jiří tak pracně získal od šlechty zpět, se zase jeden po druhém rozkutálely. Pokladna byla čím dál prázdnější, král čím dál chudší a měšce pánů čím dál plnější.\n\n[[b]]Král, který na všechno říkal „dobře“, nakonec zjistil, že mu v rukou nezbylo nic.[[/b]]\n\nNi městům se nevedlo dobře. Páni se začali plést do živností, které odjakživa patřily městům, vařili si vlastní pivo, pořádali vlastní trhy a brali měšťanům obživu. Pražští měšťané to sledovali se vzrůstající nevolí.\n\nJeště víc je ale znepokojovala víra. Vladislav byl zbožný katolík, což samo o sobě nebylo nic nového; i Jiřího královna byla katolička. Jenže lidé kolem tohoto krále začali v Praze krok za krokem měnit pravidla. Kališničtí konšelé byli nahrazováni a povyšovali se katoličtí, a z některých kostelů byli vyhnáni kališničtí kněží. Od [[link:the-bells-toll-twice-1471]]Rokycanovy smrti[[/link]] neměli kališníci jediného biskupa, který by jim světil kněze, a mohli jen přihlížet, jak jejich řady řídnou.\n\nNa podzim 1483 se městem začala šířit strašná pověst: katoličtí konšelé prý chystají v noci udeřit a zbavit se všech kališnických předáků.\n\nSpiklenci prý měli seznam asi osmdesáti jmen, své domy chtěli označit světly, aby se omylem nepobili mezi sebou, a měli dokonce heslo: „Pán Bůh s námi, světlo mezi námi a naši věrní bez hác.“ Zda byla pověst pravdivá, nikdo neví ani dnes. Tehdy ale padla jako jiskra do suché slámy.\n\n24. září 1483 v osm hodin ráno daly znamení zvony Týnského chrámu a hned po nich zvony všech ostatních pražských kostelů. Staré Město, Nové Město i Malá Strana povstaly skoro ve stejnou chvíli. Rozhněvaní měšťané vtrhli na radnice a zmocnili se konšelů, které považovali za účastníky „spiknutí“. A pak udělali něco, co Pražané udělali už [[link:the-first-defenestration-1419]]před šedesáti čtyřmi lety[[/link]].\n\n[[b]]Okna radnic se otevřela.[[/b]]\n\nNa Novém Městě konšely pobili a jejich těla vyházeli z oken. Na Starém Městě to s purkmistrem Janem od Klobouků dopadlo poněkud jinak. Staré letopisy české vyprávějí:\n\n[[quote:0]]\n\nA přežil. Tentokrát aspoň jeden muž zase vstal. Nepokoje trvaly několik dní: útočilo se na kláštery, katoličtí měšťané utíkali z města a vydrancováno bylo i Židovské Město. Zajatí konšelé byli vyslýcháni a přiznali, že skutečně chystali vraždy kališníků, i když jak dobrovolně se přiznávali, je jiná otázka. O dva dny později začaly popravy.\n\nČeští historici tomu říkají druhá pražská defenestrace. [[b]]Praha, jak se ukázalo, nezapomněla na svůj oblíbený způsob, jak řešit spory.[[/b]]\n\nKdyž se to doneslo králi, ani Král Dobře nedokázal říct „dobře“. Moc jiného ale udělat nemohl. Celé město drželo pohromadě a on neměl peníze ani vojáky, aby ho potrestal. Nakonec nebyl potrestán ani jeden ze vzbouřenců.\n\nJedno rozhodnutí ale přece udělal. Bydlel na Králově dvoře na Starém Městě, v paláci, kde kdysi [[link:four-years-this-time-1457]]zemřel Ladislav[[/link]]. Po tomhle usoudil, že bydlet mezi měšťany není tak docela bezpečné. Brzy nato se přestěhoval přes řeku na Pražský hrad a už se nikdy nevrátil; později si tam dal postavit největší sál ve střední Evropě. Zastavila se i stavba velkolepé nové branné věže, kterou u Králova dvora začal stavět, a ta pak stála nedokončená skoro čtyři sta let.\n\nOkna byla vyházena, popravy vykonány, a přesto se nevyřešil jediný problém. Katolíci nedokázali vyhnat kališníky a kališníci nedokázali vyhnat katolíky. Žili v jednom městě a v jednom království a jeden se bez druhého neobešel.\n\n[[b]]Přes šedesát let řešili Češi otázky víry meči a okny. Tentokrát začali někteří přemýšlet: nešlo by to jinak?[[/b]]",
+      zh: "和约签了，仗停了，可波希米亚的日子并没有因此变得轻松。\n\n国王太好说话了。贵族们来找他要官职，他说“好”；来找他要王室的城堡和领地，他也说“好”。伊日当年费了好大力气从贵族手里收回来的王室土地，一块一块又流了出去。国库越来越空，国王越来越穷，贵族们的腰包却越来越鼓。\n\n[[b]]一个什么都说“好”的国王，最后发现自己手里什么都不剩了。[[/b]]\n\n城市的日子也不好过。贵族们开始插手原本属于城市的买卖，还想自己酿啤酒、自己开集市，跟城里人抢饭碗。布拉格的市民们看在眼里，心里越来越不痛快。\n\n更让他们不安的，是信仰的事。弗拉迪斯拉夫是个虔诚的天主教徒，这本来不算什么，伊日的王后也是天主教徒。可这位国王身边的人，开始一点点改变布拉格的规矩：圣杯派的市议员被换下去，天主教一派的人被提拔上来；有些教堂的圣杯派神父被赶走了。[[link:the-bells-toll-twice-1471]]罗基察纳死后[[/link]]，圣杯派连一位能为神父祝圣的主教都没有，只能眼看着自己的队伍越来越弱。\n\n到了1483年秋天，城里开始流传一个可怕的传言：天主教一派的市议员们正在密谋，要趁夜里动手，把圣杯派的领头人统统除掉。\n\n据说，密谋的人列了一张八十来人的名单，打算在自家门口点上灯，免得误伤自己人，还定了一句暗号：“上帝与我们同在，光明在我们中间，我们的忠实同伴不穿裤子。”这个传言是真是假，到今天也说不清。可在当时，它就像一点火星落进了干草堆。\n\n1483年9月24日早上八点，泰恩教堂的钟声敲响了信号，紧接着，布拉格所有教堂的钟都跟着响了起来。老城、新城和小城几乎同时起事。愤怒的市民冲进市政厅，抓住那些被认为参与“密谋”的市议员。然后，他们做了一件[[link:the-first-defenestration-1419]]六十四年前[[/link]]的布拉格人也做过的事。\n\n[[b]]市政厅的窗户被推开了。[[/b]]\n\n新城那边，议员们先被杀死，尸体被从窗口扔了下去。老城那边，市长扬·克洛布克的遭遇就不太一样了。《捷克古代编年史》是这样记的：\n\n[[quote:0]]\n\n而他竟然活了下来。这一回，总算有人活着站了起来。暴乱持续了好几天，修道院被冲击，天主教一派的市民纷纷出逃，连犹太城也遭了殃。被抓的议员受审时招认，确实准备过除掉一批圣杯派，至于招供时有没有被用刑，那就不好说了。两天后，处决开始了。\n\n捷克的历史学家管这件事叫“第二次布拉格扔出窗外事件”。[[b]]布拉格果然还没忘记，自己最拿手的解决争端的办法是什么。[[/b]]\n\n消息传到国王耳朵里，这一回，就连“好的国王”也说不出“好”来了。可他也没有别的办法：城里的人都站在一边，国王手里既没钱也没兵，想罚也罚不了。最后，起事的人一个也没受惩罚。\n\n不过，国王还是做了一个决定。他原本住在老城的国王宫廷里，就是[[link:four-years-this-time-1457]]拉迪斯拉夫去世[[/link]]的那座宫殿。可经过这一回，他觉得住在市民中间实在不太安全。不久之后，他搬上了河对岸的布拉格城堡，再也没有搬回来，后来还在那里修起了一座全中欧最大的大厅。他在国王宫廷旁边动工修建的那座气派的新城门塔，也就此停了工，这一停就是将近四百年。\n\n窗户扔完了，人也处决了，可问题一个也没解决。天主教徒没法把圣杯派赶走，圣杯派也没法把天主教徒赶走；两边都住在同一座城里、同一个王国里，谁也离不开谁。\n\n[[b]]六十多年来，波希米亚人一直在用刀剑和窗户解决信仰问题。这一回，有人开始想：能不能换个办法？[[/b]]",
+    },
+    relatedLandmarks: [
+      {
+        slug: "novomestska-radnice",
+        relation: {
+          en: "Where, on 24 September 1483, the bodies of seven murdered councillors were thrown from the windows, sixty-four years after the first defenestration in the same building.",
+          cz: "Zde byla 24. září 1483 z oken vyhozena těla sedmi zavražděných konšelů, šedesát čtyři let po první defenestraci v téže budově.",
+          zh: "1483年9月24日，七名被杀议员的尸体从这里的窗口被扔了下去，距离同一栋楼里的第一次扔出窗外事件，正好六十四年。",
+        },
+      },
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "Where the Old Town mayor was thrown out of a window in 1483 and survived by pretending to be dead.",
+          cz: "Zde byl roku 1483 z okna vyhozen staroměstský purkmistr a přežil, protože dělal mrtvého.",
+          zh: "1483年，老城市长从这里的窗口被扔了出去，靠装死捡回一条命。",
+        },
+      },
+      {
+        slug: "municipal-house",
+        relation: {
+          en: "Built on the site of the King's Court, which Vladislaus abandoned after the 1483 uprising for the safety of Prague Castle.",
+          cz: "Stojí na místě Králova dvora, který Vladislav po povstání roku 1483 opustil a přesídlil do bezpečí Pražského hradu.",
+          zh: "建在“国王宫廷”的旧址上。1483年起事之后，弗拉迪斯拉夫离开这里，搬进了更安全的布拉格城堡。",
+        },
+      },
+      {
+        slug: "powder-tower",
+        relation: {
+          en: "The gate tower whose foundation stone Vladislaus laid in 1475 beside his King's Court. When he moved to the castle after the 1483 uprising, work stopped, and it stood unfinished until the 1880s.",
+          cz: "Branná věž, jejíž základní kámen položil Vladislav roku 1475 u svého Králova dvora. Když se po povstání roku 1483 přestěhoval na Hrad, stavba se zastavila a věž zůstala nedokončená až do 80. let 19. století.",
+          zh: "1475年弗拉迪斯拉夫在国王宫廷旁亲手奠基的城门塔。1483年起事后他搬去城堡，工程随之停摆，直到19世纪80年代才完工。",
+        },
+      },
+      {
+        slug: "old-royal-palace",
+        relation: {
+          en: "The royal palace at Prague Castle where Vladislaus moved after the uprising, and never left.",
+          cz: "Královský palác na Pražském hradě, kam se Vladislav po povstání přestěhoval a odkud se už nevrátil.",
+          zh: "布拉格城堡里的王宫。起事之后，弗拉迪斯拉夫搬到了这里，再也没有搬回去。",
+        },
+      },
+      {
+        slug: "vladislavsky-sal",
+        relation: {
+          en: "The great hall Vladislaus later built at Prague Castle (1493–1502), after he had left the Old Town for good.",
+          cz: "Velký sál, který si Vladislav později dal postavit na Pražském hradě (1493–1502), když už Staré Město natrvalo opustil.",
+          zh: "弗拉迪斯拉夫永远离开老城之后，在布拉格城堡修起的大厅（1493–1502年）。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Defenestrations_of_Prague",
+  },
+  {
+    slug: "a-peace-for-thirty-one-years-1485",
+    era: "rule-of-the-lords",
+    images: ["/history/a-peace-for-thirty-one-years-1485.webp"],
+    imageCaptions: [
+      {
+        en: "A Bohemian village, spring 1485: a Catholic lord can only watch from his horse as his own peasants walk past him into the Utraquist church, while his steward holds up the new peace that forbids him to interfere.",
+        cz: "Česká vesnice, jaro 1485: katolický pán může jen z koně přihlížet, jak jeho vlastní poddaní jdou kolem něj do kališnického kostela, zatímco mu správce ukazuje nový mír, který mu zakazuje zasahovat.",
+        zh: "1485年春，波希米亚的一个村子：一位天主教领主只能骑在马上，眼看着自家的农民从他面前走过，进了圣杯派的教堂；他的管家在一旁举着新和约，提醒他不许插手。",
+      },
+    ],
+    startYear: 1485,
+    year: {
+      en: "1485",
+      cz: "1485",
+      zh: "1485年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Peace for Thirty-One Years",
+      cz: "Mír na jedenatřicet let",
+      zh: "约好三十一年",
+    },
+    hookLine: {
+      en: "Thirty-two years before Luther, the Czechs agreed that a lord could not force his peasants to share his faith.",
+      cz: "Dvaatřicet let před Lutherem se Češi dohodli, že pán nesmí nutit své poddané k vlastní víře.",
+      zh: "比马丁·路德早三十二年，捷克人就约定好了：领主不许强迫农民跟着自己信教。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "That neither side should revile or oppress the other, whether lay or clergy, but that both keep love toward one another… let no one call anyone a heretic, nor revile them.",
+          cz: "Aby strana strany nehaněla ani utiskala, buď světských neb duchovních, než obojí k sobě lásku zachovajte… žádní žádných nekaceřujte ani hanějte.",
+          zh: "任何一方都不得辱骂或压迫另一方，无论是俗人还是教士，双方都要彼此相爱……谁也不许把谁叫作异端，谁也不许辱骂谁。",
+        },
+        attribution: {
+          en: "Resolution of the Diet of Kutná Hora, 13 March 1485",
+          cz: "Zápis sněmu Kutnohorského, 13. března 1485",
+          zh: "库特纳霍拉议会决议，1485年3月13日",
+        },
+      },
+    ],
+    summary: {
+      en: "In March 1485 the estates met at Kutná Hora.\n\nThe Czechs knew the silver town well: fourteen years earlier, [[link:the-bells-toll-twice-1471]]Vladislaus had been elected king here[[/link]]. This time Catholic and Utraquist lords sat in the same hall, and what they had to settle was not who should be king but something much harder: [[b]]how could people of two faiths live together in one country?[[/b]]\n\n[[link:the-window-opens-again-1483]]The riots in Prague[[/link]] two years earlier had frightened everyone. The Catholics had learned that the Utraquists could not be driven out, and the Utraquists had learned the same about the Catholics. If the fighting went on, the next window to be thrown open might be in their own castle.\n\nThe answer they reached was surprisingly simple. From now on Catholics and Utraquists were equal, and neither was to call the other heretics. Every church would stay with whichever side held it, and nobody was to seize anybody else's. [[link:what-did-the-compacts-grant-1436]]The Compacts[[/link]] remained in force, and whether to take communion from the chalice was each person's own choice. The resolution put it like this:\n\n[[quote:0]]\n\nThe most remarkable clause came last: this freedom was not only for the nobility but for ordinary people too. [[b]]A lord could not force the peasants on his estates to take up his faith.[[/b]] In the Europe of the time, this was almost unheard of. Seventy years later the Germans ended their own wars of religion with a famous peace that said the opposite: whoever rules the land decides its religion, and the people follow their lord. At Kutná Hora the Czechs had got there long before.\n\nVladislaus read the agreement and, as usual, said \"fine\". This time it was probably the best \"fine\" he ever said.\n\nThe peace was given a time limit: thirty-one years. It never ran out, though. In 1512, before the term was up, the diet simply made it permanent.\n\nNobody could know what was coming. Five years later, in the autumn of 1517, in a small German town, a monk called Martin Luther is said to have nailed a list of questions to a church door. All of Europe was about to fight over faith for more than a hundred years.\n\nIn Bohemia, the two sides had already learned to live together long before that.",
+      cz: "V březnu 1485 se stavové sešli v Kutné Hoře.\n\nTo stříbrné město Češi dobře znali: před čtrnácti lety tu byl [[link:the-bells-toll-twice-1471]]Vladislav zvolen králem[[/link]]. Tentokrát seděli katoličtí a kališničtí páni v jednom sále a měli vyřešit ne to, kdo bude králem, ale něco mnohem těžšího: [[b]]jak mohou lidé dvojí víry žít spolu v jedné zemi?[[/b]]\n\n[[link:the-window-opens-again-1483]]Pražské bouře[[/link]] před dvěma lety vyděsily všechny. Katolíci pochopili, že kališníky nevyženou, a kališníci pochopili totéž o katolících. Kdyby se bojovalo dál, příští otevřené okno mohlo být na jejich vlastním hradě.\n\nVýsledek byl překvapivě prostý. Katolíci a kališníci jsou si od nynějška rovni a nikdo nesmí toho druhého nazývat kacířem. Každý kostel zůstane té straně, které patří, a nikdo nesmí cizí brát. [[link:what-did-the-compacts-grant-1436]]Kompaktáta[[/link]] dál platí a přijímat z kalicha, nebo ne, je věcí každého. Sněmovní zápis to vyjádřil takto:\n\n[[quote:0]]\n\nNejpozoruhodnější článek přišel nakonec: ta svoboda nepatřila jen šlechtě, ale i prostým lidem. [[b]]Pán nesměl nutit poddané na svém panství k vlastní víře.[[/b]] V tehdejší Evropě to bylo skoro neslýchané. O sedmdesát let později ukončili Němci své náboženské války slavným mírem, který říkal opak: čí země, toho víra, a lid následuje svého pána. Češi v Kutné Hoře tam byli dávno předtím.\n\nVladislav si dohodu přečetl a jako obvykle řekl „dobře“. Tentokrát to bylo nejspíš to nejlepší „dobře“, jaké kdy řekl.\n\nMír dostal lhůtu: jedenatřicet let. Nikdy však nevypršel. Roku 1512, ještě než lhůta uplynula, ho sněm prostě prodloužil na věčné časy.\n\nNikdo netušil, co přijde. O pět let později, na podzim 1517, prý v jednom malém německém městě mnich jménem Martin Luther přibil na kostelní dveře seznam otázek. Celá Evropa se chystala válčit o víru přes sto let.\n\nV Čechách se obě strany naučily žít spolu už dávno předtím.",
+      zh: "1485年3月，各等级在库特纳霍拉开会。\n\n这座银矿城对捷克人来说并不陌生：十四年前，[[link:the-bells-toll-twice-1471]]弗拉迪斯拉夫就是在这里被推举为国王的[[/link]]。这一回，天主教贵族和圣杯派贵族坐在了同一个大厅里，要商量的不是谁当国王，而是一件比这更难的事：[[b]]两种信仰的人，怎样才能在一个国家里过下去？[[/b]]\n\n[[link:the-window-opens-again-1483]]两年前布拉格的那场暴乱[[/link]]，把所有人都吓着了。天主教徒发现，圣杯派根本赶不走；圣杯派也发现，天主教徒同样赶不走。再这么斗下去，下一扇被推开的窗户，说不定就在自家城堡里。\n\n谈出来的结果，简单得让人意外：天主教徒和圣杯派从此一律平等，谁也不许再骂对方是异端；每个教堂原来是哪一派的，就还归哪一派，谁也不许去抢；[[link:what-did-the-compacts-grant-1436]]《协定》[[/link]]照旧算数，领不领圣杯，各人自己决定。议会的决议是这样写的：\n\n[[quote:0]]\n\n最了不起的是最后一条：这份自由，不光是贵族的，也是老百姓的。[[b]]领主不许强迫自己庄园上的农民改信他的信仰。[[/b]]在当时的欧洲，这几乎是闻所未闻的事。七十年后，德意志人为了结束宗教战争，签了一份很有名的和约，规定的却是“谁的领地，信谁的教”，老百姓得跟着领主信。库特纳霍拉的捷克人，早就走到了前头。\n\n弗拉迪斯拉夫看完和约，照例说了一声“好”。这一次，大概是他这辈子说得最对的一个“好”字。\n\n和约定了一个期限：三十一年。不过它从来没有到期过：1512年，还没等期限届满，议会就干脆把它改成了永久有效。\n\n当时谁也不知道接下来会发生什么。又过了五年，1517年秋天，在德意志的一座小城里，据说一个叫马丁·路德的修士，把一份写满了问题的论纲钉在了教堂的大门上。整个欧洲，即将为了信仰打上一百多年。\n\n而在波希米亚，两派人早在那之前，就已经学会了一起过日子。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "kutna-hora",
+        relation: {
+          en: "Where the diet agreed the religious peace of March 1485, making Catholics and Utraquists equal and forbidding lords to force their faith on their peasants.",
+          cz: "Zde sněm v březnu 1485 uzavřel náboženský mír, který zrovnoprávnil katolíky a kališníky a zakázal pánům nutit poddané k vlastní víře.",
+          zh: "1485年3月，议会在这里达成宗教和约，让天主教徒和圣杯派一律平等，并禁止领主强迫农民改信自己的信仰。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Religious_peace_of_Kutn%C3%A1_Hora",
+  },
+  {
+    slug: "wanted-a-king-who-says-fine-1490",
+    era: "rule-of-the-lords",
+    images: ["/history/wanted-a-king-who-says-fine-1490.webp"],
+    imageCaptions: [
+      {
+        en: "Buda, 1490: the Hungarian lords \"interview\" the candidates for their vacant throne. Maximilian waves an old treaty, John Albert has brought his soldiers, young John Corvinus waits hopefully, and the lords all point at the smiling Vladislaus, with Queen Beatrice at his shoulder.",
+        cz: "Budín, 1490: uherští páni „pohovorují“ uchazeče o uprázdněný trůn. Maxmilián mává starou smlouvou, Jan Olbracht si přivedl vojáky, mladý Jan Korvín s nadějí čeká a páni všichni ukazují na usměvavého Vladislava, za nímž stojí královna Beatrix.",
+        zh: "1490年，布达：匈牙利贵族们给空着的王位“面试”候选人。马克西米利安挥着老条约，扬·奥尔布拉赫特带来了兵，少年扬·科尔温满怀期待地等着，贵族们却齐刷刷指向一脸微笑的弗拉迪斯拉夫，贝亚特丽丝王后就站在他身后。",
+      },
+    ],
+    startYear: 1490,
+    year: {
+      en: "1490",
+      cz: "1490",
+      zh: "1490年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Wanted: A King Who Says \"Fine\"",
+      cz: "Hledá se král, stačí umět říkat „dobře“",
+      zh: "招聘国王，只需会说“好”",
+    },
+    hookLine: {
+      en: "Matthias died, and Hungary needed a new king. The lords of Hungary knew exactly what they were looking for: a king who would say \"fine\".",
+      cz: "Matyáš zemřel a Uhry potřebovaly nového krále. Uherští páni přesně věděli, koho hledají: krále, který bude říkat „dobře“.",
+      zh: "马蒂亚斯死了，匈牙利需要一位新国王。匈牙利的贵族们很清楚自己要找什么样的人：一个会说“好”的国王。",
+    },
+    summary: {
+      en: "Having followed Vladislaus this far, let us turn to Bohemia's other king, the Hungarian one.\n\nIn the years after the peace, Matthias was riding high. In 1485 he even captured Vienna and moved his court into the emperor's own capital, while poor Frederick III wandered from town to town with his retinue. Matthias now held Hungary, Moravia and Silesia, and even the emperor's home was his. [[b]]It was the highest point of his life.[[/b]]\n\nThen, on 6 April 1490, Matthias died suddenly in Vienna, at the age of forty-seven.\n\nHe left no legitimate son, only an illegitimate one, John Corvinus. Matthias had worked hard to make the Hungarian lords accept the boy as their next king, but the moment he died, the men who had promised him changed their minds.\n\nThe Hungarian throne was empty, and the claimants queued up. The emperor's son Maximilian argued that an old treaty gave it to the Habsburgs. Vladislaus's own younger brother, John Albert, turned up with a Polish army, and the two brothers very nearly came to blows over it. And of course there was the good-natured king in Prague.\n\nThe great Hungarian lords talked it over and chose Vladislaus. Their reason was entirely practical: after thirty years under a strong, capable king like Matthias, they had had enough. [[b]]What they wanted was a king who said \"fine\" to everything.[[/b]] One Hungarian lord, it is said, put it more bluntly still: a king like that could be led about by the hair.\n\nTo make sure of winning, Vladislaus also did something not entirely respectable. He secretly went through a wedding with Matthias's widow, Queen Beatrice of Naples, to win over her party. The trouble was that he had already been married by proxy, back in 1476, to a princess of Brandenburg. The tangle dragged on for ten years, until in 1500 the pope finally declared both marriages void.\n\nIn September 1490 Vladislaus was crowned King of Hungary at Székesfehérvár.\n\nAnd with that, the puzzle left by [[link:bohemia-splits-the-house-1479]]the peace of Olomouc[[/link]] eleven years earlier solved itself. Moravia, Silesia and Lusatia had belonged to Matthias; now the new King of Hungary was the King of Bohemia himself, and nobody has to buy his own land back from himself. [[b]]Not a single coin of the 400,000 florins was ever paid.[[/b]]\n\nFrom then on Vladislaus lived in Buda and seldom came back to Prague. The King of Bohemia lived abroad, and the country was left to the lords to run. Three years later work began on the grand new hall at Prague Castle, but its owner would hardly ever be there to look at it.\n\nMaximilian, for his part, had not made the trip for nothing. The peace signed the following year contained one inconspicuous clause: [[b]]if Vladislaus died without a son, the crown of Hungary would go to the Habsburgs.[[/b]]\n\nAt the time, nobody paid it much attention.",
+      cz: "Když už jsme sledovali Vladislava, podívejme se teď na druhého českého krále, toho uherského.\n\nV letech po míru se Matyášovi dařilo skvěle. Roku 1485 dokonce dobyl Vídeň a přestěhoval svůj dvůr do císařova vlastního hlavního města, zatímco chudák Fridrich III. se se svou družinou potloukal od města k městu. Matyáš teď držel Uhry, Moravu i Slezsko a patřil mu i císařův domov. [[b]]Byl to vrchol jeho života.[[/b]]\n\nA pak 6. dubna 1490 Matyáš ve Vídni náhle zemřel, ve čtyřiceti sedmi letech.\n\nLegitimního syna neměl, jen nemanželského, Jana Korvína. Matyáš se hodně snažil, aby ho uherští páni přijali za příštího krále, jenže sotva zemřel, ti, kdo mu to slíbili, si to rozmysleli.\n\nUherský trůn byl prázdný a uchazeči stáli frontu. Císařův syn Maxmilián tvrdil, že podle staré smlouvy připadá Habsburkům. Vladislavův vlastní mladší bratr Jan Olbracht přitáhl s polským vojskem a oba bratři se kvůli tomu málem utkali. A samozřejmě tu byl i dobrácký král v Praze.\n\nVelcí uherští páni to probrali a zvolili Vladislava. Důvod byl ryze praktický: po třiceti letech pod silným a schopným Matyášem měli dost. [[b]]Chtěli krále, který na všechno řekne „dobře“.[[/b]] Jeden uherský pán to prý řekl ještě přímočařeji: takového krále můžeme vodit za vlasy.\n\nAby měl vítězství jisté, udělal Vladislav ještě jednu ne zcela důstojnou věc. Tajně se oddal s Matyášovou vdovou, královnou Beatrix Neapolskou, aby získal její stoupence. Háček byl v tom, že už roku 1476 byl v zastoupení oddán s jednou braniborskou princeznou. Ten zmatek se táhl deset let, až roku 1500 papež prohlásil oba sňatky za neplatné.\n\nV září 1490 byl Vladislav korunován uherským králem ve Stoličném Bělehradě.\n\nA tím se hádanka, kterou zanechal [[link:bohemia-splits-the-house-1479]]olomoucký mír[[/link]] před jedenácti lety, vyřešila sama. Morava, Slezsko a Lužice patřily Matyášovi; teď byl novým uherským králem sám český král, a nikdo si přece nevykupuje vlastní zemi sám od sebe. [[b]]Ze 400 000 zlatých nebyl zaplacen ani groš.[[/b]]\n\nOd té doby žil Vladislav v Budíně a do Prahy se vracel jen zřídka. Český král bydlel v cizině a zemi spravovali páni. O tři roky později se začal stavět velkolepý nový sál na Pražském hradě, ale jeho majitel se na něj sotva kdy přišel podívat.\n\nA Maxmilián? Ani on nepřijel nadarmo. Mír podepsaný příštího roku obsahoval jednu nenápadnou doložku: [[b]]pokud Vladislav zemře bez syna, připadne uherská koruna Habsburkům.[[/b]]\n\nTehdy tomu nikdo nevěnoval moc pozornosti.",
+      zh: "说完弗拉迪斯拉夫这边，我们再把目光转向波希米亚的第二位国王，那个匈牙利人。\n\n签完和约后的那几年，马蒂亚斯过得春风得意。1485年，他甚至攻下了维也纳，把宫廷搬进了皇帝的首都。可怜的腓特烈三世只好带着随从四处流浪，从这座城住到那座城。这时的马蒂亚斯，手里握着匈牙利、摩拉维亚、西里西亚，连皇帝的家都成了他的。[[b]]这是他一生站得最高的时候。[[/b]]\n\n然后，1490年4月6日，四十七岁的马蒂亚斯在维也纳突然去世。\n\n他没有合法的儿子，只有一个私生子扬·科尔温。马蒂亚斯生前费了好大力气，想让匈牙利贵族接受这个儿子当国王。可他一死，那些答应过他的人，转眼就改了主意。\n\n匈牙利的王位空了出来，想要的人排起了长队：皇帝的儿子马克西米利安，说按老条约该轮到哈布斯堡家；弗拉迪斯拉夫的亲弟弟扬·奥尔布拉赫特，也带着波兰军队赶来凑热闹，兄弟俩差点为此打起来。当然，还有布拉格那位“好好国王”。\n\n匈牙利的大贵族们商量了一圈，最后选了弗拉迪斯拉夫。理由很实在：在马蒂亚斯手底下憋屈了三十年，他们受够了强硬能干的国王。[[b]]他们想要的，是一个什么都说“好”的国王。[[/b]]据说有位匈牙利贵族说得更直白：这样的国王，我们抓着他的头发就能牵着走。\n\n为了确保赢得这场竞选，弗拉迪斯拉夫还做了一件不太体面的事：他悄悄和马蒂亚斯的遗孀、那不勒斯来的王后贝亚特丽丝举行了婚礼，好换取她手下那一派人的支持。问题是，他早在1476年就和一位勃兰登堡公主办过代理婚礼了。这桩糊涂账一拖就是十年，直到1500年，教皇才出面把两桩婚事统统宣布作废。\n\n1490年9月，弗拉迪斯拉夫在塞克什白堡加冕为匈牙利国王。\n\n这一下，十一年前[[link:bohemia-splits-the-house-1479]]奥洛穆茨和约[[/link]]留下的那道难题，自己解开了。摩拉维亚、西里西亚和卢萨蒂亚本来归马蒂亚斯，现在新的匈牙利国王就是波希米亚国王本人，自己的地不用跟自己赎。[[b]]那四十万金币，一个铜板也没付。[[/b]]\n\n从此，弗拉迪斯拉夫搬到了布达，很少再回布拉格。波希米亚的国王住在国外，国家交给了贵族们去打理。三年后，布拉格城堡里那座气派的新大厅开了工，可它的主人，却难得回来看上一眼。\n\n而在马克西米利安那边，哈布斯堡家族也没白跑一趟。第二年签的和约里，加了一条不起眼的条款：[[b]]如果弗拉迪斯拉夫将来没有儿子，匈牙利的王冠就归哈布斯堡家。[[/b]]\n\n当时谁也没太在意这一条。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "vladislavsky-sal",
+        relation: {
+          en: "The great hall begun at Prague Castle in 1493, three years after Vladislaus had moved to Buda; its owner was seldom there to see it.",
+          cz: "Velký sál na Pražském hradě, jehož stavba začala roku 1493, tři roky poté, co se Vladislav přestěhoval do Budína; jeho majitel ho vídal jen zřídka.",
+          zh: "1493年在布拉格城堡开工的大厅，这时弗拉迪斯拉夫已经搬去布达三年了；它的主人难得回来看一眼。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Vladislaus_II_of_Hungary",
   },
 ];
 

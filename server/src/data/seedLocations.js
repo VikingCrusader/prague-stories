@@ -33421,6 +33421,43 @@ Zbytek náměstí je obyčejný vinohradský obývák. Kostel obklopují lavičk
 🎁 彩蛋：20世纪20年代，马萨里克总统请来改造布拉格城堡的，也正是普列赤尼克。也就是说，在胡斯派国王的广场上设计这座天主教堂的人，也重新设计了波希米亚历代国王的居所。`,
     },
   },
+  {
+    // Added 2026-10-08 at the user's request (coordinates and rarity
+    // user-supplied), for the Vladislaus II arc of rule-of-the-lords.
+    name: 'Vladislav Hall',
+    slug: 'vladislavsky-sal',
+    localizedNames: { cz: 'Vladislavský sál', zh: '弗拉迪斯拉夫大厅' },
+    labels: ['palace', 'architecture', 'historical'],
+    coordinates: { lat: 50.09062342953756, lng: 14.40163297679456 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Vladislav_Hall',
+    description: {
+      en: `Welcome to Vladislav Hall, the great room at the heart of the Old Royal Palace, built by a king so famously agreeable that he answered almost every request with "fine". He clearly said "fine" to his architect too, because what he got was the largest secular hall in Central Europe at the time, with a ceiling that looks as if it is still growing.
+
+The hall was built between 1493 and 1502 by Benedikt Ried, the leading architect in Bohemia, for King Vladislaus II Jagiellon, who had moved up to Prague Castle after the townspeople of the Old Town proved a little too fond of throwing people out of windows. It is about 62 metres long, and not a single pillar holds up its roof. Instead, Ried spread a vault right across the whole width of the room, its stone ribs curling, crossing and looping into flower-like patterns, as if late Gothic were trying to show off one last time. Yet the big windows along its sides are already Renaissance, among the earliest Renaissance forms in Bohemia, so the hall stands with one foot in each age.
+
+It was built for show and for crowds. Coronation banquets were held here, and so were indoor tournaments, and under its vault merchants set up stalls selling art and luxury goods. Knights could ride straight in on horseback up the Riders' Staircase, whose broad, shallow steps were designed for hooves rather than feet. The hall still serves the state today: Czech presidents were elected here for decades, and it hosts presidential inaugurations and the country's grand ceremonies.
+
+🎁 Bonus: Look at the Riders' Staircase on your way in and imagine climbing it in full armour on a horse, then look up at the vault and try to follow a single rib from one wall to the other. Most visitors give up before the middle. Ried knew exactly what he was doing.`,
+
+      cz: `Vítejte ve Vladislavském sále, velké síni v srdci Starého královského paláce, kterou dal postavit král tak proslule ochotný, že skoro na každou prosbu odpovídal „dobře“. Zjevně řekl „dobře“ i svému architektovi, protože dostal největší světský sál tehdejší střední Evropy, se stropem, který vypadá, jako by pořád ještě rostl.
+
+Sál postavil v letech 1493 až 1502 Benedikt Ried, přední architekt v Čechách, pro krále Vladislava II. Jagellonského, který se přestěhoval na Pražský hrad poté, co staroměstští měšťané projevili až příliš velkou zálibu ve vyhazování lidí z oken. Je dlouhý asi 62 metrů a jeho klenbu nedrží ani jediný sloup. Ried místo toho rozepjal klenbu přes celou šířku sálu a její kamenná žebra se kroutí, kříží a splétají do květinových obrazců, jako by se pozdní gotika chtěla naposledy předvést. Velká okna po stranách jsou ale už renesanční, patří k nejranějším renesančním prvkům v Čechách, a tak sál stojí každou nohou v jiné době.
+
+Byl postaven pro okázalost a pro davy. Konaly se tu korunovační hostiny, rytířské turnaje pod střechou a pod klenbou si stavěli stánky obchodníci s uměním a luxusním zbožím. Rytíři mohli vjet dovnitř přímo na koni po Jezdeckých schodech, jejichž široké a nízké stupně byly navržené pro kopyta, ne pro nohy. Sál dodnes slouží státu: desítky let se tu volili čeští prezidenti a konají se tu prezidentské inaugurace a nejslavnostnější státní ceremonie.
+
+🎁 Bonus: Cestou dovnitř se podívejte na Jezdecké schody a představte si, že po nich v plné zbroji jedete na koni. Pak se podívejte nahoru na klenbu a zkuste sledovat jediné žebro od jedné zdi ke druhé. Většina návštěvníků to vzdá dřív, než dojde do poloviny. Ried přesně věděl, co dělá.`,
+
+      zh: `欢迎来到弗拉迪斯拉夫大厅，旧王宫正中央的那间大厅。下令修它的国王出了名地好说话，几乎对什么请求都只回一个“好”字。看来他对建筑师也说了“好”，因为他得到的，是当时中欧最大的世俗大厅，天花板看上去像是还在继续生长。
+
+大厅建于1493至1502年，设计者是当时波希米亚首屈一指的建筑师里德，主人是雅盖隆家族的国王弗拉迪斯拉夫二世。这位国王之所以搬上布拉格城堡，是因为老城的市民实在太喜欢把人往窗外扔了。大厅长约62米，整个屋顶下面没有一根柱子。里德让拱顶横跨整个大厅，石头肋条弯曲、交叉、缠绕，织成一朵朵花一样的图案，仿佛哥特式风格要在谢幕前最后炫一次技。可两侧的大窗户，却已经是文艺复兴式的了，是波希米亚最早的文艺复兴元素之一。于是这座大厅一只脚站在中世纪，一只脚已经迈进了新时代。
+
+它本来就是为了排场和人群而建的。这里办过加冕宴会，也办过室内的骑士比武，拱顶下还摆过卖艺术品和奢侈品的集市。骑士们可以骑着马，沿着“骑士阶梯”直接上来，那道楼梯的台阶又宽又矮，是给马蹄设计的，不是给人脚设计的。直到今天，大厅仍在为国家服务：几十年里，捷克总统都在这里选出，总统就职典礼和国家最隆重的仪式也在这里举行。
+
+🎁 彩蛋：进来的时候看一眼骑士阶梯，想象一下穿着全副盔甲骑马爬上来的样子。然后抬头看看拱顶，试着顺着一根肋条从一面墙看到另一面墙。大多数人还没看到一半就放弃了。里德可是清楚得很，他就是要你看晕。`,
+    },
+  },
 ];
 
 async function run() {

@@ -116,4 +116,22 @@ export const historyOverviews = [
       zh: "捷克人在1437年选出的那位哈布斯堡国王，只坐了不到两年，还没来得及在布拉格结下什么仇，就在征讨土耳其人的路上死于痢疾。他的儿子在父亲死后四个月才出生，一落地就有了两个王国的继承权，外加一位哈布斯堡亲戚当监护人，而这位亲戚压根没打算把孩子交出来。于是整个15世纪40年代，波希米亚干脆没有国王，各地由贵族结成的地区同盟管着，大家开会、吵架，偶尔互相围城。其中有一位来自波杰布拉迪的年轻贵族，十四岁就上过利帕尼战场，站的是赢的那一边。他没有王室血统，信的是圣杯派，还特别擅长趁夜摸进布拉格。日后要跟他打交道的那位教皇，是我们的老熟人：埃涅阿斯·西尔维乌斯·皮科洛米尼，当年给西吉斯蒙德写盖棺之论的那位，而他对圣杯自有一番看法。",
     },
   },
+  {
+    slug: "era-guide-rule-of-the-lords",
+    era: "rule-of-the-lords",
+    cardType: "overview",
+    startYear: 1471,
+    tone: "humorous",
+    year: { en: "1471–1526", cz: "1471–1526", zh: "1471年－1526年" },
+    title: {
+      en: "The King Who Said \"Fine\"",
+      cz: "Král Dobře",
+      zh: "国王说“好”",
+    },
+    summary: {
+      en: "The fifteen-year-old Polish prince the Czechs crown in 1471 inherits a kingdom, a war and a rival who still calls himself King of Bohemia from Buda, and it will take years of fighting and one very creative compromise before the two of them stop. Vladislaus is gentle, pious and so reluctant to refuse anyone that he answers almost every request with a single Latin word, bene, \"fine\", which is how the Czechs come to call him King Dobře, King Fine. The lords of Bohemia find this an excellent quality in a monarch. While they divide offices, castles and crown lands among themselves and quarrel with the royal towns over who gets to brew beer, Prague shows that it has not forgotten its favourite way of settling arguments, and the king builds the largest hall in Central Europe at Prague Castle, with a staircase wide enough for knights to ride up it on horseback. The Utraquists and the Catholics, meanwhile, sign a peace at Kutná Hora and discover they can live with each other after all. Up in the Ore Mountains a silver mine starts striking a big new coin, whose name will one day cross the ocean as the dollar. And somewhere to the south-east, the Turks have not gone away.",
+      cz: "Patnáctiletý polský princ, kterého Češi roku 1471 korunují, zdědí království, válku a soka, který se z Budína dál tituluje českým králem, a potrvá léta bojů a jeden velmi vynalézavý kompromis, než toho oba nechají. Vladislav je mírný, zbožný a tak nerad někoho odmítá, že skoro na každou žádost odpoví jediným latinským slovem, bene, a tak mu Češi začnou říkat Král Dobře. Čeští páni považují tuto vlastnost u panovníka za výbornou. Zatímco si mezi sebou dělí úřady, hrady a korunní statky a hádají se s královskými městy o to, kdo smí vařit pivo, Praha ukáže, že nezapomněla na svůj oblíbený způsob, jak řešit spory, a král dá na Pražském hradě postavit největší sál ve střední Evropě, se schodištěm tak širokým, že po něm rytíři mohou vyjet na koni. Kališníci a katolíci mezitím uzavřou v Kutné Hoře mír a zjistí, že spolu nakonec vyjít dokážou. Nahoře v Krušných horách začne stříbrný důl razit velkou novou minci, jejíž jméno jednou přepluje oceán jako dolar. A kdesi na jihovýchodě Turci pořád nikam neodešli.",
+      zh: "1471年加冕的这位十五岁波兰王子，接手的是一个王国、一场战争，外加一个还在布达自称“波希米亚国王”的对手；两人要打上好些年，再加上一个极富创意的妥协，才算罢手。弗拉迪斯拉夫性情温和、虔诚，又特别不好意思拒绝人，几乎对什么请求都只回一个拉丁词：bene，“好”。于是捷克人管他叫“好的国王”。波希米亚的贵族们觉得，这真是一位君主最难得的美德。他们忙着瓜分官职、城堡和王室领地，还跟王室城市吵谁有权酿啤酒；布拉格则证明，它还没忘记自己最拿手的解决争端的办法；国王呢，在布拉格城堡盖起了中欧最大的大厅，楼梯宽得能让骑士直接骑着马上去。与此同时，圣杯派和天主教徒在库特纳霍拉签了和约，发现原来彼此也能过得下去。北边的克鲁什内山里，一座银矿开始铸造一种大个头的新银币，它的名字有一天会漂洋过海，变成“美元”。而在东南方的某个地方，土耳其人一直都没走。",
+    },
+  },
 ];
