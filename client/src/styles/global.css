@@ -761,6 +761,18 @@ html:not([data-lang="zh"]) .loc-meta__distance,
 html:not([data-lang="zh"]) .loc-meta__xp {
   font-size: 16px;
 }
+/* Rarity and distance text bold in every language and both themes
+   (2026-10-08, user request): cards plus the map sidebar / detail meta. */
+html:not([data-lang="zh"]) .loc-card__xp,
+html:not([data-lang="zh"]) .loc-card__dist,
+html:not([data-lang="zh"]) .loc-meta__rarity,
+html:not([data-lang="zh"]) .loc-meta__distance,
+html[data-lang="zh"] .loc-card__xp,
+html[data-lang="zh"] .loc-card__dist,
+html[data-lang="zh"] .loc-meta__rarity,
+html[data-lang="zh"] .loc-meta__distance {
+  font-weight: 700;
+}
 
 /* Era-overview card subtitle (HistoryOverviewCard, history.css): the same
    serif faces as event titles, at a quieter size. */
@@ -849,12 +861,14 @@ html[data-lang="zh"] .history-event__year {
   --zh-sidebar-font: "Noto Sans SC", "Noto Sans TC", "PingFang SC", "Microsoft YaHei", sans-serif;
   --zh-sidebar-item-weight: 500;
   --zh-sidebar-year-weight: 700;
-  --rarity-common: #6b6355;
-  --rarity-rare: #1f7fae;
-  --rarity-superior: #2c8c03;
-  --rarity-epic: #9b3fb5;
-  --rarity-mythic: #c40202;
-  --rarity-legend: #b8860b;
+  /* Darkened so the small rarity/distance text on cards stays >= 4.5:1
+     against the rarity-tinted card surface (2026-10-08). */
+  --rarity-common: #4f4639;
+  --rarity-rare: #0e5578;
+  --rarity-superior: #1b5c07;
+  --rarity-epic: #6c2185;
+  --rarity-mythic: #8c0000;
+  --rarity-legend: #664400;
 }
 /* Label pills sit on the dark LABEL_COLORS backgrounds, so they keep
    light text in both themes. */
