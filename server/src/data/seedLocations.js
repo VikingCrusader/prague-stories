@@ -33384,6 +33384,43 @@ Rokycany se poprvé připomínají roku 1110 jako statek pražských biskupů a 
 🎁 彩蛋：罗基察纳大约1397年生在这里，后来再也没有回来长住，可最后还是这座小城占了上风：欧洲任何人写下他的名字，包括那些拒绝承认他的教皇，写的其实都是罗基察尼的名字。`,
     },
   },
+  {
+    // Added 2026-10-08 at the user's request (coordinates user-supplied), to
+    // link from the-bells-toll-twice-1471 (George of Poděbrady's legacy).
+    name: 'Jiřího z Poděbrad Square',
+    slug: 'namesti-jiriho-z-podebrad',
+    localizedNames: { cz: 'Náměstí Jiřího z Poděbrad', zh: '波杰布拉德的伊日广场' },
+    labels: ['square', 'architecture'],
+    coordinates: { lat: 50.077940831668215, lng: 14.44899532519572 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Ji%C5%99%C3%ADho_z_Pod%C4%9Bbrad_Square',
+    description: {
+      en: `Welcome to Jiřího z Poděbrad Square, "Jiřák" to the locals, a big leafy square in Vinohrady named after the Hussite king who spent much of his reign quarrelling with popes. Its centrepiece is, naturally, a Catholic church. George, who ruled a kingdom of two faiths and married two wives from Catholic families, would probably call that fair.
+
+The church is the Church of the Most Sacred Heart of Our Lord, built between 1928 and 1932 to a design by the Slovenian architect Josip Plečnik, and it looks like nothing else in Prague. Its long body resembles an ancient basilica crossed with an ocean liner: dark brick walls studded with jutting blocks of pale granite, under a white band and a great sloping roof. Instead of a spire it has a broad, flat tower 42 metres high, pierced by a round glass clock 7.6 metres across. It is often counted among the finest Czech buildings of the 20th century, and it has been proposed for the UNESCO World Heritage list.
+
+The rest of the square is an everyday Vinohrady living room. Benches, lawns and big old trees surround the church, and the park was recently reworked to soak up rainwater instead of shedding it into the drains. Several days a week the farmers' market fills the square with stalls of cheese, bread, vegetables and coffee, and it is one of the best-known markets in the city. Underneath runs metro line A, whose Jiřího z Poděbrad station opened in December 1980 and reopened after a full renovation in 2023.
+
+🎁 Bonus: Plečnik was also the architect President Masaryk chose to modernise Prague Castle in the 1920s, so the man who designed this Catholic church on the Hussite king's square also redesigned the seat of Bohemia's kings.`,
+
+      cz: `Vítejte na náměstí Jiřího z Poděbrad, kterému místní říkají „Jiřák“, velkém zeleném náměstí na Vinohradech pojmenovaném po husitském králi, který se velkou část své vlády přel s papeži. Jeho dominantou je, jak jinak, katolický kostel. Jiří, který vládl zemi dvojí víry a oženil se dvakrát s ženami z katolických rodin, by to nejspíš považoval za spravedlivé.
+
+Je to kostel Nejsvětějšího Srdce Páně, postavený v letech 1928 až 1932 podle návrhu slovinského architekta Josipa Plečnika, a nevypadá jako nic jiného v Praze. Jeho dlouhé tělo připomíná antickou baziliku zkříženou s zaoceánským parníkem: tmavé cihlové zdi poseté vystupujícími kvádry světlé žuly, nad nimi bílý pás a velká šikmá střecha. Místo věže se špičkou má širokou plochou věž vysokou 42 metrů, prolomenou kulatými skleněnými hodinami o průměru 7,6 metru. Často se řadí k nejlepším českým stavbám 20. století a byl navržen na seznam světového dědictví UNESCO.
+
+Zbytek náměstí je obyčejný vinohradský obývák. Kostel obklopují lavičky, trávníky a velké staré stromy a park byl nedávno přestavěn tak, aby dešťovou vodu zadržoval, místo aby ji posílal do kanálů. Několikrát týdně zaplní náměstí farmářský trh se stánky se sýry, chlebem, zeleninou a kávou, jeden z nejznámějších trhů ve městě. Pod náměstím vede linka metra A, jejíž stanice Jiřího z Poděbrad byla otevřena v prosinci 1980 a po kompletní rekonstrukci znovu zprovozněna roku 2023.
+
+🎁 Bonus: Plečnik byl také architekt, kterého si prezident Masaryk vybral ve 20. letech k modernizaci Pražského hradu. Muž, který navrhl tenhle katolický kostel na náměstí husitského krále, tedy přestavěl i sídlo českých králů.`,
+
+      zh: `欢迎来到波杰布拉德的伊日广场，本地人管它叫“伊日广场”。这是维诺赫拉迪一片绿树成荫的大广场，以一位大半辈子都在和教皇吵架的胡斯派国王命名，而广场的中心，偏偏是一座天主教堂。这位统治着两种信仰、两任妻子又都出身天主教家庭的国王，大概会觉得这很公平。
+
+这座教堂叫耶稣圣心堂，1928至1932年按斯洛文尼亚建筑师普列赤尼克的设计建成，在布拉格找不到第二座长这样的建筑。它长长的教堂主体，像是古罗马巴西利卡和远洋邮轮的混合体：深色的砖墙上嵌满凸出的浅色花岗岩块，上面是一道白色腰带和一个大坡屋顶。它没有尖塔，而是一座42米高的扁平宽塔，塔身上嵌着一面直径7.6米的圆形玻璃大钟。它常被列为捷克20世纪最出色的建筑之一，还被提名列入联合国教科文组织世界遗产名录。
+
+广场的其余部分，是维诺赫拉迪人的日常客厅。长椅、草坪和高大的老树围着教堂，公园前不久刚改造过，好把雨水留在地里，而不是一股脑排进下水道。每周有好几天，农夫市集会摆满广场，卖奶酪、面包、蔬菜和咖啡，是全城最有名的市集之一。广场底下是地铁A线，伊日站1980年12月开通，2023年全面翻修后重新启用。
+
+🎁 彩蛋：20世纪20年代，马萨里克总统请来改造布拉格城堡的，也正是普列赤尼克。也就是说，在胡斯派国王的广场上设计这座天主教堂的人，也重新设计了波希米亚历代国王的居所。`,
+    },
+  },
 ];
 
 async function run() {

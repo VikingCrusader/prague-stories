@@ -16439,6 +16439,14 @@ export const historyEvents = [
           zh: "1419年，柴利夫斯基的追随者在这座新城市政厅里把七名议员从窗户扔了出去；三年后，他自己也被处决。",
         },
       },
+      {
+        slug: "ulice-jana-zelivskeho",
+        relation: {
+          en: "The Žižkov street named after Jan Želivský, whose name is also carried by the Želivského station on metro line A.",
+          cz: "Žižkovská ulice pojmenovaná po Janu Želivském, jehož jméno nese i stanice metra A Želivského.",
+          zh: "日什科夫以扬·热利夫斯基命名的街道，地铁A线的热利夫斯基站也以他的名字命名。",
+        },
+      },
     ],
     wikipediaUrl: "https://cs.wikipedia.org/wiki/Jan_%C5%BDelivsk%C3%BD",
   },
@@ -20906,6 +20914,287 @@ export const historyEvents = [
       },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Zden%C4%9Bk_of_%C5%A0ternberk",
+  },
+  {
+    slug: "the-son-in-law-turns-enemy-1468",
+    era: "lone-king",
+    images: ["/history/the-son-in-law-turns-enemy-1468.webp"],
+    imageCaptions: [
+      {
+        en: "Spring 1468: Matthias Corvinus, in the blue surcoat with his family's raven, holds up his declaration of war at the head of his army on the edge of Moravia, under the papal and Hungarian banners.",
+        cz: "Jaro 1468: Matyáš Korvín v modrém plášti s rodovým havranem drží v čele svého vojska na okraji Moravy vyhlášení války, pod papežským a uherským praporem.",
+        zh: "1468年春，摩拉维亚边境：穿着绣有家族渡鸦的蓝色战袍的马蒂亚斯·科尔温，在教皇旗和匈牙利旗下，于大军阵前高举宣战书。",
+      },
+    ],
+    startYear: 1468,
+    year: {
+      en: "1468",
+      cz: "1468",
+      zh: "1468年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Son-in-Law Turns Enemy",
+      cz: "Zeť nepřítelem",
+      zh: "女婿成了敌人",
+    },
+    hookLine: {
+      en: "Ten years earlier George had sent a Hungarian boy home and given him his daughter. Ten years later the boy came back with a crusade, to take his father-in-law's crown.",
+      cz: "Před deseti lety poslal Jiří uherského chlapce domů a dal mu svou dceru. O deset let později se ten chlapec vrátil s křížovou výpravou, aby tchánovi vzal korunu.",
+      zh: "十年前，伊日放了一个匈牙利少年回家，还把女儿嫁给了他。十年后，这个少年带着十字军，回来要岳父的王冠。",
+    },
+    summary: {
+      en: "The pope's strongest card was called Matthias Corvinus.\n\nHe should be familiar by now: he was [[link:a-king-of-our-own-1458]]the fifteen-year-old Hungarian prisoner[[/link]] held in Prague, whom George sent home to be king, on condition, among other things, that he marry George's daughter Kunhuta. The wedding took place in 1463. The very next year Kunhuta died, aged just fourteen, and the strongest rope between father-in-law and son-in-law snapped with her.\n\nBy now Matthias was twenty-five and one of the most formidable young kings in Europe. He had money, a disciplined army of mercenaries, later known as the Black Army, and ambitions much bigger than Hungary. Four years earlier he had taken the pope's money and put [[link:a-europe-five-hundred-years-early-1464]]his father-in-law's letter[[/link]] aside. Now the pope had come to collect the favour.\n\nThe reward was tempting: whoever defeated the heretic George would be the new King of Bohemia. And the King of Bohemia was also one of the electors of the Holy Roman Empire. For a man who dreamed of becoming emperor, that crown was worth a great deal.\n\nThe excuse for war was handed to him by George's own son. Early in 1468 Victorin led his troops into Austria to make trouble for Emperor Frederick III. The emperor immediately called on his neighbour for help, and Matthias was only too happy to oblige.\n\nIn the spring of 1468 Matthias formally declared war on George. The declaration was full of fine words: he was defending the Church and fighting heresy, and so, regretfully, he had no choice but to march against his former father-in-law.\n\n[[b]]A man who had become a king thanks to George now meant to become a king a second time by defeating him.[[/b]]\n\nThe Hungarian army marched into Moravia and advanced astonishingly fast. Within a few months most of Moravia's towns and castles were in Matthias's hands. George's son Victorin was trapped in Třebíč, where the old abbey church was defended as a fortress, until in the end the whole town was burned. By the end of 1468 Moravia belonged, more or less, to the Hungarians.\n\nIn Bohemia itself, though, things would not go so smoothly.",
+      cz: "Nejsilnější papežova karta se jmenovala Matyáš Korvín.\n\nUž byste ho měli znát: byl to [[link:a-king-of-our-own-1458]]patnáctiletý uherský zajatec[[/link]] držený v Praze, kterého Jiří poslal domů kralovat, mimo jiné pod podmínkou, že si vezme Jiřího dceru Kunhutu. Svatba byla roku 1463. Hned příští rok Kunhuta zemřela, bylo jí teprve čtrnáct, a nejpevnější provaz mezi tchánem a zetěm se přetrhl s ní.\n\nMatyášovi teď bylo pětadvacet a patřil k nejschopnějším mladým králům Evropy. Měl peníze, ukázněné žoldnéřské vojsko, později zvané Černé vojsko, a ctižádost mnohem větší než Uhry. Před čtyřmi lety si vzal papežovy peníze a [[link:a-europe-five-hundred-years-early-1464]]tchánův dopis[[/link]] odložil stranou. Teď si papež přišel pro oplátku.\n\nOdměna byla lákavá: kdo porazí kacíře Jiřího, bude novým českým králem. A český král byl zároveň jedním z kurfiřtů Svaté říše římské. Pro muže, který snil o císařské koruně, měla ta koruna velkou cenu.\n\nZáminku k válce mu podal Jiřího vlastní syn. Začátkem roku 1468 vtrhl Viktorín s vojskem do Rakous, aby dělal potíže císaři Fridrichu III. Císař okamžitě požádal souseda o pomoc a Matyáš ochotně vyhověl.\n\nNa jaře 1468 vyhlásil Matyáš Jiřímu formálně válku. Vyhlášení bylo plné vznešených slov: hájí církev a bojuje proti kacířství, a proto musí, bohužel, vytáhnout proti svému bývalému tchánovi.\n\n[[b]]Muž, který se stal králem díky Jiřímu, se teď chtěl stát králem podruhé tím, že Jiřího porazí.[[/b]]\n\nUherské vojsko vtáhlo na Moravu a postupovalo neuvěřitelně rychle. Během několika měsíců měl Matyáš v rukou většinu moravských měst a hradů. Jiřího syn Viktorín uvízl v Třebíči, kde se starobylý klášterní kostel bránil jako pevnost, až nakonec lehlo popelem celé město. Do konce roku 1468 patřila Morava víceméně Uhrům.\n\nV samotných Čechách to ale tak hladce nepůjde.",
+      zh: "教皇手里最大的那张牌，叫马蒂亚斯·科尔温。\n\n你对他应该不陌生：他就是[[link:a-king-of-our-own-1458]]当年被关在布拉格的那个十五岁匈牙利俘虏[[/link]]，是伊日放他回国当了国王，条件之一是娶伊日的女儿昆胡塔。1463年，婚礼办了。可第二年，年仅十四岁的昆胡塔就去世了。翁婿之间那根最结实的绳子，也跟着断了。\n\n这时的马蒂亚斯已经二十五岁，是全欧洲最能打的年轻国王之一。他有钱，有一支纪律严明的雇佣军，后人称之为“黑军”，还有一颗比匈牙利大得多的野心。四年前，他收下了教皇的钱，把[[link:a-europe-five-hundred-years-early-1464]]岳父的信[[/link]]搁在了一边；现在，教皇来请他还这份人情了。\n\n报酬很诱人：谁打败了异端伊日，谁就是波希米亚的新国王。而波希米亚国王，还是神圣罗马帝国的选帝侯之一。对一个想当皇帝的人来说，这顶王冠太值钱了。\n\n开战的借口，是伊日的儿子维克托林自己送上门的。1468年初，维克托林带兵打进了奥地利，去找皇帝腓特烈三世的麻烦。皇帝立刻向邻居求救，马蒂亚斯一口答应。\n\n1468年春天，马蒂亚斯正式向伊日宣战。宣战书写得冠冕堂皇：他是为了保卫教会、讨伐异端，不得不对自己的前岳父动手。\n\n[[b]]一个靠伊日才当上国王的人，如今要靠打败伊日，再当一次国王。[[/b]]\n\n匈牙利军队开进了摩拉维亚，进展快得惊人。几个月里，摩拉维亚的大部分城市和城堡都落到了马蒂亚斯手里。伊日的儿子维克托林被困在特热比奇，城里那座古老的修道院教堂被当成了堡垒来守，最后整座城都被烧了。到1468年底，摩拉维亚基本归了匈牙利人。\n\n可到了波希米亚本土，事情就没那么顺利了。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "brno",
+        relation: {
+          en: "Moravia's leading city, which went over to Matthias in 1468 while the royal castle of Špilberk above it held out for George.",
+          cz: "Přední moravské město, které roku 1468 přešlo na Matyášovu stranu, zatímco královský hrad Špilberk nad ním dál držel Jiřího.",
+          zh: "摩拉维亚的头号城市，1468年倒向了马蒂亚斯，而城上的王室城堡施皮尔伯克仍为伊日坚守。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Bohemian%E2%80%93Hungarian_War_(1468%E2%80%931478)",
+  },
+  {
+    slug: "letting-the-tiger-go-1469",
+    era: "lone-king",
+    images: ["/history/letting-the-tiger-go-1469.webp"],
+    imageCaptions: [
+      {
+        en: "Úhrov, February 1469: in a burnt-out village forge, the trapped Matthias Corvinus swears a promise to George of Poděbrady across a cold anvil, while the Hungarian army shivers in the snow outside and George's wagons block the pass.",
+        cz: "Úhrov, únor 1469: ve vypálené vesnické kovárně se Matyáš Korvín, chycený v pasti, přes vychladlou kovadlinu zapřísahá Jiřímu z Poděbrad, zatímco uherské vojsko venku mrzne ve sněhu a Jiřího vozy hradí průsmyk.",
+        zh: "1469年2月，乌赫罗夫：在一间烧毁的乡村铁匠铺里，被困的马蒂亚斯隔着冰冷的铁砧向伊日许下承诺；门外，匈牙利军队在雪地里瑟瑟发抖，伊日的战车堵住了山口。",
+      },
+    ],
+    startYear: 1469.1,
+    year: {
+      en: "1469",
+      cz: "1469",
+      zh: "1469年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Letting the Tiger Go",
+      cz: "Tygr puštěný z klece",
+      zh: "放虎归山",
+    },
+    hookLine: {
+      en: "George had Matthias trapped in the frozen hills, a few days from victory. Then he let him go home, for the second time.",
+      cz: "Jiří měl Matyáše v pasti v zamrzlých kopcích, pár dní od vítězství. A pak ho podruhé pustil domů.",
+      zh: "伊日把马蒂亚斯困在了冰天雪地的山里，离胜利只差几天。然后，他第二次放他回了家。",
+    },
+    summary: {
+      en: "In February 1469 Matthias led his army deep into Bohemia and chased George's forces all the way into the hills around Vilémov.\n\nHe chased too fast. By the time he realised it, every mountain pass around him had been blocked by George's men, and the Hungarian army was stuck in the snow and ice, unable to move forward or back. [[b]]It was the closest George ever came to defeating Matthias for good.[[/b]] All he had to do was wait a few more days, and hunger and cold would finish the war for him.\n\nMatthias sent to ask for a meeting. The story goes that the two kings met in a burnt-out forge in the village of Úhrov: the father-in-law, now nearly fifty, and his former son-in-law of twenty-six. What they said to each other, nobody can say for certain. The version that has come down to us is that Matthias promised to plead George's case with the pope and bring Rome and Bohemia back together.\n\nGeorge believed him. He opened the passes and let the Hungarian army march away unharmed. [[b]]It was the second time he had sent Matthias home.[[/b]]\n\nAnd once he was home, Matthias did act quickly. Only, not quite in the way he had promised in that forge.",
+      cz: "V únoru 1469 vtáhl Matyáš s vojskem hluboko do Čech a hnal Jiřího lidi až do kopců u Vilémova.\n\nHnal se příliš rychle. Než se nadál, byly všechny průsmyky kolem obsazené Jiřího vojskem a uherská armáda uvízla ve sněhu a mrazu a nemohla ani dopředu, ani zpátky. [[b]]Nikdy v životě nebyl Jiří tak blízko tomu, aby Matyáše definitivně porazil.[[/b]] Stačilo počkat ještě pár dní a hlad se zimou by válku dobojovaly za něj.\n\nMatyáš požádal o schůzku. Vypráví se, že se oba králové sešli ve vypálené kovárně ve vsi Úhrov: tchán, kterému bylo skoro padesát, a jeho bývalý šestadvacetiletý zeť. Co si řekli, nikdo s jistotou neví. Podle verze, která se dochovala, Matyáš slíbil, že se za Jiřího přimluví u papeže a usmíří Řím s Čechami.\n\nJiří mu uvěřil. Otevřel průsmyky a nechal uherské vojsko bez úhony odtáhnout. [[b]]Už podruhé poslal Matyáše domů.[[/b]]\n\nA když byl Matyáš doma, opravdu se rychle dal do díla. Jenom ne tak, jak sliboval v té kovárně.",
+      zh: "1469年2月，马蒂亚斯带兵深入波希米亚，一路追到了维莱莫夫附近的山地里。\n\n他追得太急了。等他回过神来，发现四面的山口都被伊日的人马堵上了，匈牙利军队被困在冰天雪地里，进退不得。[[b]]这是伊日一生中离彻底打败马蒂亚斯最近的一次。[[/b]]只要再等几天，饥饿和寒冷就能替他把仗打完。\n\n马蒂亚斯派人来求见。据说，两位国王在乌赫罗夫村一间烧毁的铁匠铺里见了面，一个是年近五十的岳父，一个是二十六岁的前女婿。谈了些什么，没人说得清。传下来的版本是，马蒂亚斯答应替伊日去跟教皇说情，让罗马和波希米亚重归于好。\n\n伊日信了。他放开山口，让匈牙利军队全身而退。[[b]]这是他第二次放马蒂亚斯回家。[[/b]]\n\n而马蒂亚斯回去之后，确实很快就有了动作，只不过，和他在铁匠铺里说的不太一样。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Battle_of_Vil%C3%A9mov",
+    referenceMaps: {
+      links: [
+        {
+          label: "Aleš",
+          description: {
+            en: "Mikoláš Aleš's drawing of George and Matthias meeting in the forge at Úhrov (Wikimedia Commons)",
+            cz: "Kresba Mikoláše Alše: setkání Jiřího z Poděbrad s Matyášem Korvínem v kovárně v Úhrově (Wikimedia Commons)",
+            zh: "阿莱什描绘伊日与马蒂亚斯在乌赫罗夫铁匠铺会面的画作（维基共享资源）",
+          },
+          url: "https://commons.wikimedia.org/wiki/File:Ji%C5%99%C3%AD_of_Pod%C4%9Bbrady_and_Matthias_Corvinus_by_Mikol%C3%A1%C5%A1_Ale%C5%A1.jpg",
+        },
+      ],
+    },
+  },
+  {
+    slug: "two-kings-again-1469",
+    era: "lone-king",
+    images: ["/history/two-kings-again-1469.webp"],
+    imageCaptions: [
+      {
+        en: "Left, Olomouc, May 1469: the Catholic lords offer Matthias Corvinus the crown of Bohemia. Right, Prague, June 1469: George presents the Polish envoys to the diet, with a portrait of young Vladislaus Jagiellon, his chosen successor.",
+        cz: "Vlevo Olomouc, květen 1469: katoličtí páni nabízejí Matyáši Korvínovi českou korunu. Vpravo Praha, červen 1469: Jiří představuje sněmu polské vyslance s portrétem mladého Vladislava Jagellonského, svého vybraného nástupce.",
+        zh: "左：1469年5月，奥洛穆茨，天主教贵族向马蒂亚斯·科尔温献上波希米亚王冠。右：1469年6月，布拉格，伊日向议会介绍波兰使节，使节手里捧着他选定的继承人、少年弗拉迪斯拉夫·雅盖隆的画像。",
+      },
+    ],
+    startYear: 1469.4,
+    year: {
+      en: "1469",
+      cz: "1469",
+      zh: "1469年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Two Kings, Again",
+      cz: "Zase dva králové",
+      zh: "又是两个国王",
+    },
+    hookLine: {
+      en: "In February Matthias promised to plead George's case with the pope. In May he had himself made King of Bohemia.",
+      cz: "V únoru Matyáš slíbil, že se za Jiřího přimluví u papeže. V květnu se sám nechal zvolit českým králem.",
+      zh: "2月，马蒂亚斯答应替伊日去跟教皇说情。5月，他自己当上了波希米亚国王。",
+    },
+    summary: {
+      en: "George had heard plenty of lies in his life and seen promises broken more times than he could count. Yet faced with his former son-in-law's solemn word, he softened, believed him one more time, and hoped he might really bring peace to Bohemia.\n\nInstead, one more name went onto the list of people who had deceived him. Back home, Matthias went on attacking George as before, and on 3 May 1469, in Olomouc, the Catholic lords elected him King of Bohemia. Thirty-one years after 1438, Bohemia once again had two kings.\n\nIn June the Bohemian diet rejected the election as unlawful. On George's own proposal it named a different successor: not one of George's sons, but Vladislaus Jagiellon, son of the Polish King Casimir, the very boy who had once been [[link:two-kings-1438]]offered the crown at ten[[/link]]. There were conditions: Vladislaus was to marry George's daughter Ludmila and guarantee the Utraquists their freedom of worship.\n\nGeorge had several sons, but he knew perfectly well that as long as Rome regarded his family as heretics, the crown would never pass to them in peace. Handing it to Poland's Jagiellons would bring him a powerful ally and give the pope one less reason for war.\n\n[[b]]Eleven years earlier the Czechs had chosen George because they were tired of foreign kings. Now George himself chose a foreign king for Bohemia.[[/b]]\n\nThe scene of 1438 played out again in 1469: one king in Prague, another somewhere else, and their supporters fighting each other across Moravia and Silesia. Back in 1438 a young George had been among the lords who backed Casimir for the throne, and had fought for him. Thirty-one years later he was handing that same throne to Casimir's son.",
+      cz: "Jiří slyšel za svůj život spoustu lží a zažil víc porušených slibů, než by dokázal spočítat. Přesto ho slavnostní slovo bývalého zetě obměkčilo, uvěřil mu ještě jednou a doufal, že Čechám opravdu přinese mír.\n\nMísto toho přibylo na seznamu těch, kdo ho podvedli, další jméno. Doma Matyáš na Jiřího útočil dál a 3. května 1469 ho katoličtí páni v Olomouci zvolili českým králem. Jedenatřicet let po roce 1438 měly Čechy zase dva krále.\n\nV červnu český sněm volbu odmítl jako nezákonnou. Na Jiřího vlastní návrh jmenoval jiného nástupce: ne žádného z Jiřího synů, ale Vladislava Jagellonského, syna polského krále Kazimíra, toho chlapce, jemuž kdysi [[link:two-kings-1438]]v deseti letech nabízeli korunu[[/link]]. Mělo to podmínky: Vladislav si měl vzít Jiřího dceru Ludmilu a zaručit kališníkům svobodu vyznání.\n\nJiří měl několik synů, jenže dobře věděl, že dokud Řím pokládá jeho rod za kacíře, koruna na ně v klidu nepřejde. Když ji svěří polským Jagellovcům, získá mocného spojence a papež bude mít o jeden důvod k válce méně.\n\n[[b]]Před jedenácti lety si Češi zvolili Jiřího, protože už měli dost cizích králů. Teď Jiří sám vybral Čechám cizího krále.[[/b]]\n\nScéna z roku 1438 se roku 1469 odehrála znovu: jeden král v Praze, druhý jinde a jejich stoupenci se rvali na Moravě a ve Slezsku. Roku 1438 patřil mladý Jiří k pánům, kteří chtěli na trůn Kazimíra, a dokonce za něj bojoval. O jednatřicet let později dával tentýž trůn Kazimírovu synovi.",
+      zh: "伊日这一生听惯了各种谎言，经历过无数次出尔反尔，可面对前女婿的庄严承诺，他还是心软了，又信了他一次，盼着他真能为波希米亚带来和平。\n\n然而，被他信错了的人，名单上又多了一个。马蒂亚斯回国后照旧攻击伊日；同年5月3日，他还在奥洛穆茨被天主教贵族推选为波希米亚国王。时隔31年，波希米亚又一次同时有了两个国王。\n\n6月，议会否决了这场不合法的选举，并在伊日本人的提议下，另立了一位继承人：不是伊日自己的哪个儿子，而是波兰国王卡齐米日的儿子弗拉迪斯拉夫·雅盖隆。卡齐米日，正是当年[[link:two-kings-1438]]十岁就被送上王冠的那个小国王[[/link]]。这份安排也附了条件：弗拉迪斯拉夫要娶伊日的女儿卢德米拉，还要保证圣杯派的信仰自由。\n\n伊日有好几个儿子，可他心里清楚：只要他的家族还被罗马看作“异端”，这顶王冠就传不安稳。把它交给波兰的雅盖隆家族，既能拉来一个强大的盟友，也能让教皇少一个开战的理由。\n\n[[b]]十一年前，捷克人选伊日，是因为受够了外国国王。如今，伊日亲手为波希米亚选了一位外国国王。[[/b]]\n\n1438年的那一幕，在1469年又上演了一次：一个国王在布拉格，另一个在别处，双方的支持者在摩拉维亚和西里西亚打成一团。三十一年前，年轻的伊日正是拥立卡齐米日的那派贵族之一，还为他上过战场；三十一年后，他又亲手把这个王位许给了卡齐米日的儿子。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "olomouc",
+        relation: {
+          en: "Where the Catholic lords elected Matthias Corvinus King of Bohemia on 3 May 1469, giving the kingdom two kings once again.",
+          cz: "Zde katoličtí páni 3. května 1469 zvolili Matyáše Korvína českým králem, takže království mělo zase dva krále.",
+          zh: "1469年5月3日，天主教贵族在这里推选马蒂亚斯·科尔温为波希米亚国王，王国又一次同时有了两个国王。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Bohemian%E2%80%93Hungarian_War_(1468%E2%80%931478)",
+  },
+  {
+    slug: "the-queen-takes-the-field-1470",
+    era: "lone-king",
+    images: [
+      "/history/the-queen-takes-the-field-1470-uhersky-brod.webp",
+      "/history/the-queen-takes-the-field-1470.webp",
+    ],
+    imageCaptions: [
+      {
+        en: "Uherský Brod, 2 November 1469: George's son Henry, on a white horse, leads the Czech cavalry charge that drives Matthias Corvinus's horsemen from the field.",
+        cz: "Uherský Brod, 2. listopadu 1469: Jiřího syn Jindřich na bílém koni vede útok české jízdy, který zahání Matyášovy jezdce z bojiště.",
+        zh: "1469年11月2日，乌赫尔斯基布罗德：伊日的儿子亨利骑着白马，率领捷克骑兵冲锋，把马蒂亚斯的骑兵赶出了战场。",
+      },
+      {
+        en: "August 1470: with George away, Queen Joanna rides out of a Prague gate at the head of the kingdom's hastily summoned militia to drive Matthias Corvinus out of Bohemia.",
+        cz: "Srpen 1470: v Jiřího nepřítomnosti vyjíždí královna Johana z pražské brány v čele narychlo svolané zemské hotovosti, aby vyhnala Matyáše Korvína z Čech.",
+        zh: "1470年8月，趁伊日不在：王后约翰娜带着匆忙召集起来的全国民兵，骑马出了布拉格城门，要把马蒂亚斯赶出波希米亚。",
+      },
+    ],
+    startYear: 1470,
+    year: {
+      en: "1470",
+      cz: "1470",
+      zh: "1470年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Prince in Command, a Queen in the Saddle",
+      cz: "Princ velí, královna táhne do pole",
+      zh: "王子挂帅，王后亲征",
+    },
+    hookLine: {
+      en: "George had learned his lesson at Vilémov. This time Matthias would get no favours.",
+      cz: "Z Vilémova si Jiří vzal ponaučení. Tentokrát Matyáš žádnou shovívavost nedostane.",
+      zh: "维莱莫夫的教训，伊日记住了。这一回，他不再给马蒂亚斯留情面。",
+    },
+    summary: {
+      en: "By the summer of 1469 George's eldest son Victorin, never the most careful of commanders, had been captured by the Hungarians. So in the autumn George sent another son, Henry, to southern Moravia. On 2 November 1469, near Uherský Brod, Henry gave Matthias a sound beating. Carried away by success, the young man chased on into Hungary and swept through the lands along the Váh around Trenčín. [[b]]Matthias wanted his father-in-law's crown, and instead his brother-in-law came knocking at his own door.[[/b]]\n\nLocal legend in Moravian Slovácko says that Matthias escaped after the battle disguised as a woman. Some even trace the region's Ride of the Kings, a folk festival still held every spring and now on UNESCO's list of intangible heritage, back to that undignified getaway.\n\nIn August 1470, while George was away, Matthias saw his chance. Prague was empty, so he marched out of Olomouc and made straight for eastern Bohemia.\n\nWhat he had not expected was the queen standing in his way.\n\nGeorge's wife Joanna, the same queen who had once signed her brother's papers for his [[link:from-bohemia-to-the-end-of-the-world-1465]]study trip to the end of the world[[/link]], called out the kingdom's militia and rode out of Prague at its head. Matthias withdrew from Bohemia almost without a fight. [[b]]A man who wanted to be King of Bohemia could not even get past the Queen of Bohemia.[[/b]]\n\nThe war was going better and better, but George himself was going downhill. For years his body had been growing heavier, his legs badly swollen, until even riding had become an ordeal. He had beaten the pope's crusade and held off his former son-in-law's armies, and now he was beginning to realise that there was one opponent he could not hold off at all.",
+      cz: "V létě 1469 padl do uherského zajetí Jiřího nejstarší syn Viktorín, který nikdy nepatřil k nejopatrnějším vojevůdcům. Na podzim proto Jiří poslal na jižní Moravu jiného syna, Jindřicha. 2. listopadu 1469 Jindřich u Uherského Brodu Matyáše pořádně porazil. Úspěch mladého muže unesl a pronásledoval nepřítele až do Uher, kde prošel Povážím kolem Trenčína. [[b]]Matyáš chtěl tchánovu korunu, a místo toho mu švagr zaklepal na vlastní dveře.[[/b]]\n\nPodle slovácké pověsti Matyáš po bitvě utekl převlečený za ženu. Někteří od tohoto nedůstojného útěku odvozují i místní Jízdu králů, lidovou slavnost, která se koná každé jaro a dnes je zapsaná na seznamu nehmotného dědictví UNESCO.\n\nV srpnu 1470, když Jiří nebyl doma, zavětřil Matyáš příležitost. Praha byla prázdná, a tak vytáhl z Olomouce a zamířil rovnou do východních Čech.\n\nS čím nepočítal, byla královna, která mu stála v cestě.\n\nJiřího manželka Johana, tatáž královna, která kdysi bratrovi podepsala papíry na [[link:from-bohemia-to-the-end-of-the-world-1465]]studijní cestu na konec světa[[/link]], svolala zemskou hotovost a vyjela v jejím čele z Prahy. Matyáš z Čech odtáhl téměř bez boje. [[b]]Muž, který chtěl být českým králem, nedokázal přejít ani přes českou královnu.[[/b]]\n\nVálka šla čím dál lépe, Jiřímu samotnému však čím dál hůř. Jeho tělo léta těžklo, nohy mu otékaly, až se i jízda na koni stala trápením. Porazil papežovu křížovou výpravu, zadržel vojska bývalého zetě, a teď začínal chápat, že je jeden protivník, kterého zadržet nedokáže.",
+      zh: "1469年夏天，伊日的长子维克托林，这位向来不算谨慎的指挥官，已经落进了匈牙利人手里。于是到了秋天，伊日把另一个儿子亨利派去了南摩拉维亚。11月2日，亨利在乌赫尔斯基布罗德附近狠狠打了马蒂亚斯一仗，赢了。年轻人打得兴起，干脆一路追进了匈牙利，在瓦赫河沿岸的特伦钦一带把前妹夫的地盘扫荡了一遍。[[b]]马蒂亚斯想要岳父的王冠，结果先被大舅子打上了家门。[[/b]]\n\n摩拉维亚斯洛伐克地区的民间传说，马蒂亚斯输了这一仗，是男扮女装逃走的。还有人说，当地每年春天举行、如今已列入联合国教科文组织非物质文化遗产名录的“国王骑行”民俗节，就源于这场不太体面的逃亡。\n\n1470年8月，趁伊日不在，马蒂亚斯发觉机会来了。布拉格空着，他立刻从奥洛穆茨出兵，直扑东波希米亚。\n\n可他没想到，挡在路上的是王后。\n\n伊日的妻子约翰娜，也就是当年签字送弟弟去[[link:from-bohemia-to-the-end-of-the-world-1465]]世界尽头“游学”[[/link]]的那位王后，召集起全国的民兵，亲自带着队伍出了布拉格。马蒂亚斯几乎没怎么打，就从波希米亚撤走了。[[b]]一个想当波希米亚国王的人，连波希米亚的王后都没打过。[[/b]]\n\n仗是越打越顺了，可伊日自己却越来越不行了。这几年，他的身子一天比一天沉重，腿肿得厉害，连骑马都成了难事。打败了教皇的十字军，挡住了前女婿的大军，他却开始发现，有一个对手，是怎么也挡不住的。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Joanna_of_Ro%C5%BEmit%C3%A1l",
+    referenceMaps: {
+      links: [
+        {
+          label: "Černý",
+          description: {
+            en: "Věnceslav Černý's painting Henry of Poděbrady Defeats the Hungarians at Uherský Brod, 1469 (Wikimedia Commons)",
+            cz: "Obraz Věnceslava Černého Jindřich Poděbradský vítězí nad Uhry u Uherského Brodu roku 1469 (Wikimedia Commons)",
+            zh: "韦恩切斯拉夫·切尔尼的画作《亨利在乌赫尔斯基布罗德大败匈牙利人，1469年》（维基共享资源）",
+          },
+          url: "https://commons.wikimedia.org/wiki/File:Jind%C5%99ich_Pod%C4%9Bbradsk%C3%BD_v%C3%ADt%C4%9Bz%C3%AD_nad_Uhry_u_Uhersk%C3%A9ho_Brodu_roku_1469_(V._%C4%8Cern%C3%BD).png",
+        },
+      ],
+    },
+  },
+  {
+    slug: "the-bells-toll-twice-1471",
+    era: "lone-king",
+    images: ["/history/the-bells-toll-twice-1471.webp"],
+    imageCaptions: [
+      {
+        en: "Old Town Square, March 1471: as the funeral bells begin to toll, the market stops, black cloth hangs from the windows, and the golden chalice on Týn Church catches the last of the sunset.",
+        cz: "Staroměstské náměstí, březen 1471: když se rozezní umíráček, trh ztichne, z oken visí černé sukno a zlatý kalich na Týnském chrámu zachytí poslední paprsky západu slunce.",
+        zh: "1471年3月，老城广场：丧钟响起，集市停了下来，窗口垂下黑布，提恩教堂山墙上的金圣杯接住了最后一缕夕阳。",
+      },
+    ],
+    startYear: 1471,
+    year: {
+      en: "1471",
+      cz: "1471",
+      zh: "1471年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Bells Toll Twice",
+      cz: "Umíráček zvoní dvakrát",
+      zh: "两次丧钟",
+    },
+    hookLine: {
+      en: "In the spring of 1471 Prague's bells tolled twice: first for an archbishop Rome never recognised, then for a king Rome never recognised.",
+      cz: "Na jaře 1471 zvonil v Praze umíráček dvakrát: nejdřív za arcibiskupa, kterého Řím nikdy neuznal, pak za krále, kterého Řím nikdy neuznal.",
+      zh: "1471年春天，布拉格的丧钟敲了两次：先是为一位没被罗马承认的大主教，再是为一位没被罗马承认的国王。",
+    },
+    summary: {
+      en: "In the spring of 1471 the funeral bells of Prague tolled twice.\n\nThe first time was on 22 February, for [[link:an-archbishop-never-consecrated-1435]]Rokycana[[/link]]. The Utraquists had elected him archbishop more than thirty years earlier, and Rome had never consecrated him. All his life he was an archbishop nobody recognised, just as his king was, all his life, a king nobody recognised.\n\nA month later it was George's turn.\n\nBy now he was gravely ill. His legs were so swollen that he could not leave his bed, and his body so heavy that he needed help even to turn over. He knew he did not have long. Yet to the very end he did not bow to Rome, and he did not give up the chalice.\n\nGeorge of Poděbrady died in Prague on 22 March 1471, a month short of his fifty-first birthday. He was buried in St. Vitus Cathedral, among the kings of Bohemia. [[b]]In Rome's records he died a deposed heretic; in the hearts of Praguers he died their own king.[[/b]]\n\nThe arrangements he left behind held. Two months later, on 27 May, the estates met at Kutná Hora and elected the fifteen-year-old Polish prince Vladislaus King of Bohemia. In August the boy was crowned in St. Vitus Cathedral.\n\nThirty-three years earlier the ten-year-old Casimir had been [[link:two-kings-1438]]chosen as King of Bohemia[[/link]] and never sat on its throne. Now his son finally did. [[b]]This age had opened with one Jagiellon prince who missed the crown, and it closed with another Jagiellon prince wearing it.[[/b]]\n\nAs for Matthias, he still called himself King of Bohemia, still held Moravia and Silesia, and would not let go. Bohemia's two kings would drag on for years yet. But that is a story for the next age.\n\nLooking back on George's life, he was never the man who was \"supposed\" to be king. He had no royal blood and no illustrious ancestors; he started out as a twenty-year-old at [[link:a-kingdom-without-a-king-1440]]Ptáček's side[[/link]]. Yet in an age when kings either died young or never turned up, it was he who pulled a broken country back together, and when popes, emperors, crusaders and a former son-in-law came knocking one after another, it was he who stood alone in their way.\n\n[[b]]The lone king guarded more than a crown.[[/b]]\n\nMore than a century after his death, the great golden chalice he had placed on the gable of Týn Church still shone over the Old Town. Later it was taken down, and a statue of the Virgin Mary was put up in its place. The gold of the melted chalice, it is said, went into the halo around her head.\n\nStand in Old Town Square today and look up, and that is the Virgin you will see. Few people know that the golden ring around her head was once the thing a Czech king spent his whole life defending.\n\nThe story has one more turn. In August 2017 a gilded chalice went back up on the façade of Týn Church, this time at the initiative of the Czech Catholic bishops themselves.\n\nPosterity remembered him in other ways too. In the main square of Poděbrady stands a great equestrian statue of him from 1896, the first thing anyone sees on arriving in the town centre. In Prague's Vinohrady, not far from Žižka's statue on Vítkov hill, a broad square bears his name. In its middle rises Plečnik's Church of the Sacred Heart, one of the finest modern churches in the city, and, as it happens, a Catholic one; the king of two peoples would probably not have minded. Under the square runs the metro, and the station bears his name too. Every day tens of thousands of people pass through it. How many of them still know who the man behind the name was?",
+      cz: "Na jaře 1471 zvonil v Praze umíráček dvakrát.\n\nPoprvé 22. února, za [[link:an-archbishop-never-consecrated-1435]]Rokycanu[[/link]]. Kališníci ho zvolili arcibiskupem před víc než třiceti lety a Řím ho nikdy nevysvětil. Celý život byl arcibiskupem, kterého nikdo neuznal, stejně jako jeho král byl celý život králem, kterého nikdo neuznal.\n\nO měsíc později přišel na řadu Jiří.\n\nTo už byl těžce nemocný. Nohy měl tak oteklé, že nemohl vstát z lůžka, a tělo tak těžké, že potřeboval pomoc, i když se chtěl jen obrátit. Věděl, že mu nezbývá mnoho času. Přesto se až do konce Římu nepoklonil a kalicha se nevzdal.\n\nJiří z Poděbrad zemřel v Praze 22. března 1471, měsíc před svými jednapadesátými narozeninami. Pohřbili ho ve svatovítské katedrále mezi českými králi. [[b]]V římských záznamech zemřel jako sesazený kacíř; v srdcích Pražanů zemřel jako jejich vlastní král.[[/b]]\n\nJeho opatření nepřišla vniveč. O dva měsíce později, 27. května, se stavové sešli v Kutné Hoře a zvolili patnáctiletého polského prince Vladislava českým králem. V srpnu byl chlapec korunován ve svatovítské katedrále.\n\nPřed třiceti třemi lety byl desetiletý Kazimír [[link:two-kings-1438]]zvolen českým králem[[/link]] a na trůn nikdy neusedl. Teď na něj konečně usedl jeho syn. [[b]]Tahle doba začala jagellonským princem, který korunu nezískal, a skončila jiným jagellonským princem, který ji nosil.[[/b]]\n\nA Matyáš? Dál se titulovál českým králem, dál držel Moravu a Slezsko a nehodlal ustoupit. Dva králové v Čechách vydrží ještě řadu let. To už je ale příběh další doby.\n\nKdyž se ohlédneme za Jiřího životem, nikdy nebyl tím, kdo „měl“ být králem. Neměl královskou krev ani slavné předky; začínal jako dvacetiletý mladík [[link:a-kingdom-without-a-king-1440]]po Ptáčkově boku[[/link]]. A přece v době, kdy králové buď umírali mladí, nebo vůbec nepřijeli, to byl on, kdo dal rozbitou zemi znovu dohromady, a když jeden po druhém klepali na dveře papežové, císař, křižáci i bývalý zeť, byl to on, kdo jim stál v cestě sám.\n\n[[b]]Osamělý král nehájil jen korunu.[[/b]]\n\nJeště víc než sto let po jeho smrti zářil nad Starým Městem zlatý kalich na štítu Týnského chrámu. Později ho sundali a na jeho místo postavili sochu Panny Marie. Zlato z roztaveného kalicha prý posloužilo na svatozář kolem její hlavy.\n\nKdyž dnes stojíte na Staroměstském náměstí a podíváte se nahoru, uvidíte právě tu Pannu Marii. Málokdo ví, že zlatý kruh kolem její hlavy byl kdysi tím, co český král celý život hájil.\n\nPříběh má ale ještě jeden obrat. V srpnu 2017 se na průčelí Týnského chrámu vrátil pozlacený kalich, tentokrát z podnětu samotných českých katolických biskupů.\n\nPotomci si ho připomínají i jinak. Na hlavním náměstí v Poděbradech stojí jeho velká jezdecká socha z roku 1896, první, co každý uvidí, když přijde do centra města. Na pražských Vinohradech, nedaleko Žižkova pomníku na Vítkově, nese jeho jméno rozlehlé náměstí. Uprostřed něj stojí Plečnikův kostel Nejsvětějšího Srdce Páně, jeden z nejkrásnějších moderních kostelů ve městě, a shodou okolností katolický; král dvojího lidu by se asi nezlobil. Pod náměstím jezdí metro a jeho jméno nese i stanice. Každý den jí projdou desítky tisíc lidí. Kolik z nich ještě ví, kdo se za tím jménem skrývá?",
+      zh: "1471年的春天，布拉格接连敲了两次丧钟。\n\n第一次是在2月22日，为[[link:an-archbishop-never-consecrated-1435]]罗基察纳[[/link]]。这位圣杯派选出来的大主教，等了三十多年，罗马始终没有为他祝圣。他一辈子都是一位“没被承认的大主教”，就像他的国王，一辈子都是一位“没被承认的国王”。\n\n一个月后，轮到了伊日。\n\n这时的他已经病得很重，腿肿得下不了床，身子沉得连翻身都要人扶。他知道自己撑不了多久了，可直到最后，他也没有向罗马低头，没有放弃圣杯。\n\n1471年3月22日，波杰布拉德的伊日在布拉格去世，离他五十一岁生日还差一个月。他被安葬在圣维特大教堂，和波希米亚历代国王躺在一起。[[b]]在罗马的档案里，他死的时候是个被罢免的异端；在布拉格人心里，他是他们自己的国王。[[/b]]\n\n他留下的安排，没有落空。两个月后的5月27日，各等级在库特纳霍拉开会，推选十五岁的波兰王子弗拉迪斯拉夫为波希米亚国王。8月，少年在圣维特大教堂加冕。\n\n三十三年前，十岁的卡齐米日[[link:two-kings-1438]]被推举为波希米亚国王[[/link]]，却始终没能坐上那个王位。如今，他的儿子终于坐上去了。[[b]]这个时代以一位落选的雅盖隆王子开场，以另一位雅盖隆王子加冕落幕。[[/b]]\n\n至于马蒂亚斯，他还顶着“波希米亚国王”的头衔，占着摩拉维亚和西里西亚，不肯罢手。两个国王的局面，又拖了好些年。可这些，已经是下一个时代的故事了。\n\n回头看伊日的一生，他从来不是“该当国王”的那个人。他没有王族血统，没有显赫的祖先，最初只是[[link:a-kingdom-without-a-king-1440]]普塔切克身边[[/link]]一个二十岁的年轻人。可在那个国王不是早死、就是缺席的年代，是他把一个四分五裂的国家收拾起来；在教皇、皇帝、十字军和前女婿轮番找上门的时候，是他一个人站在那里。\n\n[[b]]孤王守国，守的不只是一顶王冠。[[/b]]\n\n他死后一百多年，泰恩教堂山墙上的那只金色圣杯，还一直在老城的上空闪着光。后来，它被人摘了下来，换上了一尊圣母像。据说，圣杯熔掉的金子，后来被打成了圣母头上的光环。\n\n今天你站在老城广场上抬头，看到的就是那尊圣母。只是很少有人知道，她头顶的那圈金光，曾经是一位捷克国王守了一辈子的东西。\n\n不过，故事还有最后一个转折。2017年8月，一只镀金圣杯又回到了泰恩教堂的正面，这一次，发起者正是捷克的天主教主教们。\n\n后人也用别的方式记着他。波杰布拉迪的中心广场上，立着一尊1896年的伊日骑马像，每个来到这座小城中心的人，第一眼看到的就是他。布拉格的维诺赫拉迪，离维特科夫山上杰式卡的骑马像不远，有一个宽阔的广场以他命名。广场中央是普列赤尼克设计的耶稣圣心堂，布拉格最出色的现代教堂之一，而且碰巧是一座天主教堂；这位“两种子民的国王”大概不会介意。广场底下是地铁，站名也是他的名字，每天有成千上万的人从这里进出。可知道广场和地铁站名字背后的人是谁的，还剩多少？",
+    },
+    relatedLandmarks: [
+      {
+        slug: "podebrady",
+        relation: {
+          en: "George's family seat, where a great equestrian statue of him from 1896 dominates the main square.",
+          cz: "Rodové sídlo Jiřího, kde na hlavním náměstí dominuje jeho velká jezdecká socha z roku 1896.",
+          zh: "伊日家族的领地，中心广场上矗立着他1896年的骑马像。",
+        },
+      },
+      {
+        slug: "namesti-jiriho-z-podebrad",
+        relation: {
+          en: "The Prague square named after George, with a metro station of the same name beneath it.",
+          cz: "Pražské náměstí pojmenované po Jiřím, pod nímž leží stejnojmenná stanice metra.",
+          zh: "以伊日命名的布拉格广场，底下的地铁站也叫这个名字。",
+        },
+      },
+      {
+        slug: "kostel-nejsvetejsiho-srdce-pane",
+        relation: {
+          en: "Plečnik's Catholic church in the middle of Jiřího z Poděbrad Square, the Prague square named after the Hussite king.",
+          cz: "Plečnikův katolický kostel uprostřed náměstí Jiřího z Poděbrad, pražského náměstí pojmenovaného po husitském králi.",
+          zh: "普列赤尼克设计的天主教堂，就坐落在以这位胡斯派国王命名的布拉格广场中央。",
+        },
+      },
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Where George was buried among the kings of Bohemia in March 1471, and where his chosen successor Vladislaus Jagiellon was crowned that August.",
+          cz: "Zde byl Jiří v březnu 1471 pohřben mezi českými králi a v srpnu téhož roku tu byl korunován jeho vybraný nástupce Vladislav Jagellonský.",
+          zh: "1471年3月，伊日被安葬在这里，与波希米亚历代国王为伴；同年8月，他选定的继承人弗拉迪斯拉夫·雅盖隆也在这里加冕。",
+        },
+      },
+      {
+        slug: "kutna-hora",
+        relation: {
+          en: "Where the estates elected the fifteen-year-old Vladislaus Jagiellon King of Bohemia on 27 May 1471.",
+          cz: "Zde stavové 27. května 1471 zvolili patnáctiletého Vladislava Jagellonského českým králem.",
+          zh: "1471年5月27日，各等级在这里推选十五岁的弗拉迪斯拉夫·雅盖隆为波希米亚国王。",
+        },
+      },
+      {
+        slug: "tyn-church",
+        relation: {
+          en: "Its gable carried George's great golden chalice until the 1620s, when it was replaced by the statue of the Virgin Mary that still looks down on Old Town Square.",
+          cz: "Na jejím štítu zářil Jiřího velký zlatý kalich až do 20. let 17. století, kdy ho nahradila socha Panny Marie, která dodnes shlíží na Staroměstské náměstí.",
+          zh: "山墙上曾挂着伊日的金色大圣杯，直到17世纪20年代才换成那尊至今俯瞰老城广场的圣母像。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/George_of_Pod%C4%9Bbrady",
   },
 ];
 
