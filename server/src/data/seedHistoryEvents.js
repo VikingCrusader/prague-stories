@@ -20423,6 +20423,490 @@ export const historyEvents = [
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Ladislaus_the_Posthumous",
   },
+  {
+    slug: "four-years-this-time-1457",
+    era: "lone-king",
+    images: ["/history/four-years-this-time-1457.webp"],
+    imageCaptions: [
+      {
+        en: "Prague, November 1457: a wedding procession has just entered the Old Town when it meets the black-robed mourners carrying the young King Ladislaus's coffin.",
+        cz: "Praha, listopad 1457: svatební průvod právě vjel na Staré Město, když se setkal s černě oděnými truchlícími, kteří nesou rakev mladého krále Ladislava.",
+        zh: "1457年11月的布拉格：迎亲的队伍刚进老城，迎面就撞上了一身黑袍、抬着少年国王拉迪斯拉夫灵柩的送葬人群。",
+      },
+    ],
+    startYear: 1457,
+    year: {
+      en: "1457",
+      cz: "1457",
+      zh: "1457年",
+    },
+    tone: "humorous",
+    title: {
+      en: "This Time the Crown Lasted Four Years",
+      cz: "Tentokrát koruna vydržela čtyři roky",
+      zh: "这一次王冠戴了四年",
+    },
+    hookLine: {
+      en: "Sigismund lasted a year on the Bohemian throne, and so did Albert. Ladislaus set a new record.",
+      cz: "Zikmund vydržel na českém trůnu rok, Albrecht taky. Ladislav vytvořil nový rekord.",
+      zh: "西吉斯蒙德在波希米亚王座上坐了一年，阿尔布雷希特也是一年。拉迪斯拉夫创了个新纪录。",
+    },
+    summary: {
+      en: "The boy king was growing up, and the older he got, the less he and his regent agreed.\n\nOn paper everything was in order. Before his coronation Ladislaus had confirmed the kingdom's old privileges and the Compacts, the deal that let the Czechs take communion from the chalice. But he made no secret of where he stood. He looked to Rome, he would not take the chalice himself, and he would not recognise Rokycana, the archbishop the Utraquists had elected. [[b]]A king who had sworn to protect the Compacts while openly siding with the Pope who wanted them gone left George, the Utraquist regent, in a very awkward position.[[/b]]\n\nFor the time being, distance kept the peace. In 1454 Ladislaus left Prague for Vienna, and Bohemia went on being run by George, just as before.\n\nThe real trouble came from Hungary. In July 1456 [[link:the-man-who-took-up-the-banner-1444]]John Hunyadi[[/link]] beat Sultan Mehmed II at Belgrade, three years after the fall of Constantinople, and a few weeks later he died of plague in his own camp. That November, in the same fortress, Hunyadi's elder son László killed the king's favourite, Ulrich of Celje. Ladislaus swore he would not take revenge. In March 1457 he had László beheaded in Buda anyway, and took the younger brother, fifteen-year-old Matthias, prisoner.\n\nHungary rose up, and the king left in a hurry: first to Vienna, then, in the autumn of 1457, to Prague. Matthias came along.\n\nIn Prague the talk was of a wedding. Ladislaus was engaged to Magdalena, daughter of King Charles VII of France, a grand French embassy was on its way, and the city was getting ready to celebrate.\n\nThen, in November, the seventeen-year-old fell ill with headaches, fever and painful swellings in the groin. A few days later he was dead. He died on 23 November 1457 at the King's Court, the royal residence in the Old Town, and was laid in the royal crypt of St. Vitus Cathedral.\n\nThe rumours started at once. The swellings looked like plague, but plague is rarely so convenient. And who gained most from a dead king? The regent, obviously, the man who already held the kingdom's seal. Some blamed Rokycana's party instead. German and Catholic chroniclers repeated the poison story for centuries, and in the 19th century the historian Palacký spent a good deal of ink defending George against it.\n\nOr perhaps it really was the crown. [[link:a-throne-for-one-year-1437]]Sigismund[[/link]] had lasted a year on it, [[link:a-cursed-crown-1439]]Albert[[/link]] a year, and now Ladislaus, crowned at thirteen and dead at seventeen, four.\n\nThe case stayed open for five hundred years. Then, in 1985, a study of the king's skeleton by the anthropologist Emanuel Vlček gave the answer: acute leukaemia. The swollen glands that had looked like plague, and like poison to anyone who wanted them to, were the illness itself.\n\nNobody had murdered the king. But in November 1457 Bohemia once again had an empty throne, and Prague had a fifteen-year-old Hungarian prisoner named Matthias, now in George's keeping.",
+      cz: "Chlapec na trůnu dospíval, a čím byl starší, tím méně se se svým správcem shodl.\n\nNa papíře bylo všechno v pořádku. Před korunovací Ladislav potvrdil stará zemská privilegia i kompaktáta, dohodu, která Čechům dovolovala přijímat z kalicha. Netajil se ale tím, kam patří. Hleděl k Římu, sám z kalicha přijímat nechtěl a Rokycanu, arcibiskupa zvoleného kališníky, odmítal uznat. [[b]]Král, který přísahal hájit kompaktáta a přitom se otevřeně stavěl na stranu papeže, jenž je chtěl zrušit, stavěl kališnického správce Jiřího do velmi nepříjemné situace.[[/b]]\n\nZatím mír udržovala vzdálenost. Roku 1454 odjel Ladislav z Prahy do Vídně a Čechy dál řídil Jiří, stejně jako předtím.\n\nSkutečné potíže přišly z Uher. V červenci 1456 porazil [[link:the-man-who-took-up-the-banner-1444]]Jan Hunyadi[[/link]] u Bělehradu sultána Mehmeda II., tři roky po pádu Konstantinopole, a o pár týdnů později zemřel ve vlastním táboře na mor. V listopadu zabil v téže pevnosti Hunyadiho starší syn Ladislav královského oblíbence Oldřicha Celjského. Král přísahal, že se mstít nebude. V březnu 1457 dal mladého Hunyadiho v Budíně přesto stít a jeho mladšího bratra, patnáctiletého Matyáše, zajal.\n\nUhry povstaly a král rychle odjel: nejdřív do Vídně a na podzim 1457 do Prahy. Matyáš jel s ním.\n\nV Praze se mluvilo o svatbě. Ladislav byl zasnoubený s Magdalénou, dcerou francouzského krále Karla VII., na cestě bylo velkolepé francouzské poselstvo a město se chystalo na oslavy.\n\nPak v listopadu sedmnáctiletý král onemocněl: bolesti hlavy, horečka a bolestivé otoky v tříslech. Za pár dní byl mrtvý. Zemřel 23. listopadu 1457 na Králově dvoře, královském sídle na Starém Městě, a byl uložen do královské hrobky ve svatovítské katedrále.\n\nPověsti se rozběhly okamžitě. Otoky vypadaly jako mor, jenže mor si málokdy vybere oběť tak vhodně. A kdo na mrtvém králi nejvíc vydělal? Správce země, samozřejmě, muž, který už držel královskou pečeť. Jiní vinili Rokycanovu stranu. Němečtí a katoličtí kronikáři opakovali příběh o jedu celá staletí a v 19. století strávil historik Palacký hodně inkoustu Jiřího obhajobou.\n\nNebo za to opravdu mohla koruna. [[link:a-throne-for-one-year-1437]]Zikmund[[/link]] na trůnu vydržel rok, [[link:a-cursed-crown-1439]]Albrecht[[/link]] rok a Ladislav, korunovaný ve třinácti a mrtvý v sedmnácti, čtyři.\n\nPřípad zůstal otevřený pět set let. Pak roku 1985 přinesl odpověď výzkum královy kostry, který provedl antropolog Emanuel Vlček: akutní leukémie. Oteklé uzliny, které vypadaly jako mor, a každému, kdo to tak chtěl vidět, jako jed, byly projevem samotné nemoci.\n\nKrále nikdo nezavraždil. V listopadu 1457 ale měly Čechy znovu prázdný trůn a Praha patnáctiletého uherského zajatce jménem Matyáš, teď v Jiřího péči.",
+      zh: "少年国王一天天长大，可他越长大，跟摄政伊日就越说不到一块儿去。\n\n纸面上倒是一切妥当。加冕之前，拉迪斯拉夫已经确认了王国的古老特权和《协定》，也就是那份允许捷克人领圣杯的协议。可他从不掩饰自己站在哪边：他心向罗马，自己不领圣杯，也不承认圣杯派选出来的大主教罗基察纳。[[b]]一个发誓要保护《协定》的国王，却公开站在一心想废掉《协定》的教皇那边，这让身为圣杯派的摄政伊日处境十分尴尬。[[/b]]\n\n好在暂时还隔着距离。1454年，拉迪斯拉夫离开布拉格去了维也纳，波希米亚照旧由伊日打理，跟以前没什么两样。\n\n真正的麻烦出在匈牙利。1456年7月，也就是君士坦丁堡陷落三年后，[[link:the-man-who-took-up-the-banner-1444]]匈雅提·亚诺什[[/link]]在贝尔格莱德打退了苏丹穆罕默德二世，几个星期后却在自己的营地里死于瘟疫。同年11月，就在同一座要塞里，匈雅提的长子拉斯洛杀了国王的宠臣策列伯爵乌尔里希。拉迪斯拉夫发誓绝不报复，转过年来的1457年3月，还是在布达砍了拉斯洛的头，又把他十五岁的弟弟马蒂亚斯抓了起来。\n\n匈牙利人起来造反，国王赶紧跑路，先去维也纳，1457年秋天又到了布拉格。马蒂亚斯也被一路带着。\n\n这时候的布拉格，大家都在聊一场婚礼。拉迪斯拉夫和法国国王查理七世的女儿玛德莲订了婚，一支隆重的法国使团已经在路上，全城都在准备庆祝。\n\n然后，11月，十七岁的国王病倒了：头痛、发烧，腹股沟肿得生疼。没过几天，人就没了。1457年11月23日，他死在老城的王室行宫“国王宫廷”，随后被安葬在圣维特大教堂的王室墓穴里。\n\n流言立刻就传开了。那几处肿块看着像鼠疫，可鼠疫哪会挑人挑得这么巧？国王一死，谁得的好处最多？当然是摄政，那个早就把国王印章攥在自己手里的人。也有人把账算在罗基察纳一派头上。德意志和天主教的编年史家把“毒死”的说法传了好几百年，到了19世纪，历史学家帕拉茨基还得花上大把笔墨替伊日辩白。\n\n又或者，真是那顶王冠在作怪。[[link:a-throne-for-one-year-1437]]西吉斯蒙德[[/link]]坐了一年，[[link:a-cursed-crown-1439]]阿尔布雷希特[[/link]]也是一年，如今十三岁加冕、十七岁去世的拉迪斯拉夫，坐了四年。\n\n这桩悬案一挂就是五百年。直到1985年，人类学家埃马努埃尔·弗尔切克对国王的遗骨做了研究，才给出答案：急性白血病。那些看着像鼠疫、在有心人眼里又像中毒的淋巴肿块，其实就是这病本身。\n\n国王不是被人害死的。可到了1457年11月，波希米亚的王座又空了，而布拉格城里，还多了一个十五岁的匈牙利俘虏，名叫马蒂亚斯，如今归伊日看管。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "municipal-house",
+        relation: {
+          en: "Built on the site of the King's Court, the royal residence in the Old Town where Ladislaus died on 23 November 1457.",
+          cz: "Stojí na místě Králova dvora, královského sídla na Starém Městě, kde Ladislav 23. listopadu 1457 zemřel.",
+          zh: "建在老城“国王宫廷”的旧址上。1457年11月23日，拉迪斯拉夫就死在那座王室行宫里。",
+        },
+      },
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Where Ladislaus was buried in the royal crypt, four years after being crowned in the same cathedral.",
+          cz: "Zde byl Ladislav pohřben v královské hrobce, čtyři roky poté, co byl ve stejné katedrále korunován.",
+          zh: "拉迪斯拉夫被安葬在这里的王室墓穴，距离他在同一座大教堂加冕，正好四年。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Ladislaus_the_Posthumous",
+  },
+  {
+    slug: "a-king-of-our-own-1458",
+    era: "lone-king",
+    images: ["/history/a-king-of-our-own-1458.webp"],
+    imageCaptions: [
+      {
+        en: "Old Town Hall, 2 March 1458: a lord points at George of Poděbrady and calls for the regent to be king, and the hall erupts in cheers.",
+        cz: "Staroměstská radnice, 2. března 1458: jeden z pánů ukazuje na Jiřího z Poděbrad a volá, ať je správce králem, a celá síň propukne v jásot.",
+        zh: "1458年3月2日，老城市政厅：一位贵族指着波杰布拉德的伊日，高喊让摄政当国王，满堂顿时欢呼起来。",
+      },
+    ],
+    startYear: 1458,
+    year: {
+      en: "1458",
+      cz: "1458",
+      zh: "1458年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A King of Our Own",
+      cz: "Náš vlastní král",
+      zh: "我们自己的国王",
+    },
+    hookLine: {
+      en: "This time Bohemia did not have to go abroad to find a king. The one it wanted was already running the country.",
+      cz: "Tentokrát nemusely Čechy hledat krále v cizině. Ten, kterého chtěly, už zemi dávno řídil.",
+      zh: "这一回，波希米亚不用再去国外找国王了。大家想要的那一位，早就在替他们管着这个国家。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "Lord Zdeněk stepped before George and cried in a loud voice into the suddenly silent hall: \"Let the lord administrator be our king!\"",
+          cz: "Pan Zdeněk, předstoupiv před Jiříka, zvolal hlučným hlasem do ztichlé náhle síně: „Ať pan správce je králem naším!“",
+          zh: "兹德涅克大人走到伊日面前，冲着骤然安静下来的大厅高声喊道：“让摄政大人做我们的国王！”",
+        },
+        attribution: {
+          en: "Rudolf Urbánek, Věk poděbradský (The Age of Poděbrady), retelling the election of 2 March 1458",
+          cz: "Rudolf Urbánek, Věk poděbradský, o volbě 2. března 1458",
+          zh: "鲁道夫·乌尔巴内克《波杰布拉德时代》，记述1458年3月2日的选举",
+        },
+      },
+    ],
+    summary: {
+      en: "The boy king everyone had waited so long for was dead before he even came of age, and by now the Czechs could be forgiven for losing count of their kings. Ladislaus left no children, so the throne was empty once again.\n\nThere was a procedure for this. Charles IV's laws of 1348 said that if the royal line died out, the estates were to elect a new king. In practice \"elect\" had always meant going abroad to find one, and the Bohemian lords had done it so many times by now that they could have run the whole process in their sleep.\n\nThere was no shortage of applicants. Duke William III of Saxony, husband of Ladislaus's elder sister Anne, was very keen. King Charles VII of France wanted the crown for his son, brother of [[link:four-years-this-time-1457]]the bride who never came[[/link]]. Emperor Frederick III, the boy's old guardian, was mentioned too, and so was King Casimir of Poland, now married to Ladislaus's other sister: the same Casimir who had been [[link:two-kings-1438]]offered the crown at ten[[/link]].\n\nBut many Czechs had had enough of foreign kings who spoke no Czech and, as often as not, looked to Rome and refused the chalice. In their minds the choice was made long ago. They wanted their regent, George.\n\nStill, the forms had to be observed. On 2 March 1458 the estates met in the Old Town Hall in Prague and elected George of Poděbrady King of Bohemia. The vote was unanimous; even the Catholic lords went along, probably after George promised to leave them the church lands they held. Nobody was surprised.\n\n[[quote:0]]\n\nThat left one loose end in Prague: the Hungarian prisoner. In January 1458, while he was still in George's keeping, fifteen-year-old Matthias, son of John Hunyadi, had been elected King of Hungary. George sent him home for a large ransom and a promise: Matthias would marry George's daughter Kunhuta. Central Europe now had two brand-new home-grown kings, and one of them owed the other his freedom.\n\nThen came the coronation, and an old problem. A king has to be anointed by a bishop, and Bohemia still had no consecrated archbishop: Rokycana had been [[link:an-archbishop-never-consecrated-1435]]elected but never consecrated[[/link]]. So two Hungarian bishops, Augustine of Győr and Vincent of Vác, came to Prague to do the job.\n\nOn the eve of the coronation, George and his wife Joanna swore a secret oath before the two bishops: to obey the Pope, to defend the unity of the faith, and to root out heresy. [[b]]Rome took the oath to mean that George was giving up the chalice; George took it as a promise against sectarians only, since in his eyes the Utraquists were already part of the Roman Church.[[/b]] For now, both sides were happy with their own reading.\n\nOn 7 May 1458 George was crowned in St. Vitus Cathedral. The Hussite regent was now the Hussite king, and the only King of Bohemia who did not come from a ruling dynasty.",
+      cz: "Chlapec na trůnu, na kterého všichni tak dlouho čekali, zemřel dřív, než vůbec dospěl, a Češi by se dnes dali omluvit, kdyby už ztratili přehled, kolik králů za posledních dvacet let měli. Ladislav nezanechal děti, a tak byl trůn znovu prázdný.\n\nNa to existoval postup. Zákony Karla IV. z roku 1348 stanovily, že když královský rod vymře, stavové zvolí nového krále. V praxi „zvolit“ vždycky znamenalo najít ho v cizině, a čeští páni to dělali už tolikrát, že by celý postup zvládli i ve spánku.\n\nUchazečů nebylo málo. Velký zájem projevoval saský vévoda Vilém III., manžel Ladislavovy starší sestry Anny. Francouzský král Karel VII. chtěl korunu pro svého syna, bratra [[link:four-years-this-time-1457]]nevěsty, která nikdy nedorazila[[/link]]. Mluvilo se i o císaři Fridrichu III., chlapcově bývalém poručníkovi, a o polském králi Kazimírovi, teď manželovi Ladislavovy druhé sestry: o tomtéž Kazimírovi, kterému kdysi [[link:two-kings-1438]]nabídli korunu v deseti letech[[/link]].\n\nMnoho Čechů už ale mělo dost cizích králů, kteří neuměli česky a navíc často hleděli k Římu a odmítali kalich. V duchu měli vybráno dávno. Chtěli svého správce, Jiřího.\n\nForma se ale dodržet musela. 2. března 1458 se stavové sešli na Staroměstské radnici a zvolili Jiřího z Poděbrad českým králem. Volba byla jednomyslná; přidali se i katoličtí páni, nejspíš poté, co jim Jiří slíbil ponechat církevní statky, které drželi. Nikoho to nepřekvapilo.\n\n[[quote:0]]\n\nV Praze zbýval ještě jeden nedořešený případ: uherský zajatec. V lednu 1458, ještě v Jiřího péči, byl patnáctiletý Matyáš, syn Jana Hunyadiho, zvolen uherským králem. Jiří ho poslal domů za vysoké výkupné a za slib, že si Matyáš vezme Jiřího dceru Kunhutu. Střední Evropa tak měla dva čerstvé domácí krále a jeden z nich vděčil druhému za svobodu.\n\nPak přišla korunovace a s ní starý problém. Krále musí pomazat biskup, a Čechy pořád neměly vysvěceného arcibiskupa: Rokycana byl [[link:an-archbishop-never-consecrated-1435]]zvolen, ale nikdy nevysvěcen[[/link]]. Do Prahy proto přijeli dva uherští biskupové, Augustin z Rábu a Vincenc z Vacova.\n\nV předvečer korunovace složili Jiří a jeho manželka Johana před oběma biskupy tajnou přísahu: že budou poslušni papeže, budou hájit jednotu víry a vymýtí kacířství. [[b]]Řím přísahu chápal tak, že se Jiří vzdává kalicha; Jiří ji chápal jen jako slib proti sektářům, protože kališníci podle něj už k římské církvi patřili.[[/b]] Zatím byly obě strany spokojené se svým výkladem.\n\n7. května 1458 byl Jiří korunován ve svatovítské katedrále. Z husitského správce se stal husitský král, jediný český král, který nepocházel z panovnického rodu.",
+      zh: "大家盼了那么久的少年国王，还没成年就撒手人寰。到这时候，波希米亚人已经记不清这二十年里到底换过几个国王了。拉迪斯拉夫没有留下子嗣，王座又一次空了出来。\n\n这种事早有章程。查理四世1348年定下的法律规定：王室血脉断绝时，由各等级选举新国王。只不过在实际操作里，“选举”向来就等于去国外挑一个。波希米亚的贵族们这套流程走了太多遍，闭着眼睛都能办完。\n\n想来的人可不少。萨克森公爵威廉三世娶了拉迪斯拉夫的姐姐安娜，对这顶王冠兴趣浓厚。法国国王查理七世想替自己的儿子争一争，那正是[[link:four-years-this-time-1457]]那位没能来成的新娘[[/link]]的哥哥。皇帝腓特烈三世，也就是这孩子当年的监护人，也被人提起过；还有波兰国王卡齐米日，他娶了拉迪斯拉夫的另一个姐姐，正是当年[[link:two-kings-1438]]十岁就被送上王冠[[/link]]的那个卡齐米日。\n\n可是，很多捷克人早就受够了外国国王：连捷克语都不会说，多半还心向罗马，不领圣杯。他们心里其实早有人选，就是他们的摄政，伊日。\n\n不过，流程还是要走。1458年3月2日，各等级在布拉格老城市政厅开会，推选波杰布拉德的伊日为波希米亚国王。全票通过，连天主教贵族也投了赞成票，大概是因为伊日答应让他们继续保有手里的教会地产。毫无悬念。\n\n[[quote:0]]\n\n布拉格城里还剩一件事没了结：那个匈牙利俘虏。1458年1月，还在伊日手里看管着的十五岁少年马蒂亚斯，也就是匈雅提·亚诺什的儿子，被选为了匈牙利国王。伊日放他回国，条件是一大笔赎金，外加一个承诺：马蒂亚斯要娶伊日的女儿昆胡塔。中欧一下子多了两位土生土长的新国王，其中一位的自由，还是另一位给的。\n\n接下来是加冕，又碰上了老问题。国王得由主教来施涂油礼，可波希米亚至今没有一位正式祝圣的大主教：罗基察纳是[[link:an-archbishop-never-consecrated-1435]]选上了，却一直没被祝圣[[/link]]。于是只好从匈牙利请来两位主教，杰尔主教奥古斯丁和瓦茨主教文森特，来布拉格主持仪式。\n\n加冕前夜，伊日和妻子约翰娜在这两位主教面前秘密宣誓：服从教皇，捍卫信仰的统一，铲除异端。[[b]]罗马把这份誓言理解为伊日要放弃圣杯；伊日自己却认为，这只是承诺打击宗派分子，因为在他看来，圣杯派本来就是罗马教会的一部分。[[/b]]眼下，双方都对自己的那种理解挺满意。\n\n1458年5月7日，伊日在圣维特大教堂加冕。胡斯派的摄政成了胡斯派的国王，也是波希米亚历史上唯一一位不出自统治王朝的国王。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "Where the estates unanimously elected George of Poděbrady King of Bohemia on 2 March 1458.",
+          cz: "Zde stavové 2. března 1458 jednomyslně zvolili Jiřího z Poděbrad českým králem.",
+          zh: "1458年3月2日，各等级在这里全票推选波杰布拉德的伊日为波希米亚国王。",
+        },
+      },
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Where two Hungarian bishops crowned George King of Bohemia on 7 May 1458.",
+          cz: "Zde dva uherští biskupové 7. května 1458 korunovali Jiřího českým králem.",
+          zh: "1458年5月7日，两位匈牙利主教在这里为伊日加冕为波希米亚国王。",
+        },
+      },
+      {
+        slug: "podebrady",
+        relation: {
+          en: "The family seat that gave George his name, and the town that still honours him as its most famous son.",
+          cz: "Rodové sídlo, po kterém nesl Jiří své jméno, a město, které ho dodnes ctí jako svého nejslavnějšího rodáka.",
+          zh: "伊日家族的领地，他的名号就来自这里。直到今天，这座小城仍把他当作最有名的子弟。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/George_of_Pod%C4%9Bbrady",
+  },
+  {
+    slug: "king-of-two-peoples-1460",
+    era: "lone-king",
+    images: ["/history/king-of-two-peoples-1460.webp"],
+    imageCaptions: [
+      {
+        en: "Prague's Old Town Square, around 1460: a Utraquist with a chalice badge buys bread from a Catholic stallholder, while one queue takes communion from the chalice and another goes in to Mass.",
+        cz: "Staroměstské náměstí v Praze kolem roku 1460: kališník s odznakem kalicha kupuje chleba u katolického trhovce, zatímco jedni stojí frontu na přijímání z kalicha a druzí jdou na mši.",
+        zh: "1460年前后，布拉格老城广场：一个别着圣杯徽章的圣杯派信徒在天主教摊贩那里买面包；广场一边有人排队领圣杯，另一边有人走进教堂望弥撒。",
+      },
+    ],
+    startYear: 1460,
+    year: {
+      en: "1458–1462",
+      cz: "1458–1462",
+      zh: "1458–1462年",
+    },
+    tone: "humorous",
+    title: {
+      en: "From Heretics to Neighbours",
+      cz: "Z kacířů sousedé",
+      zh: "异端变邻居",
+    },
+    hookLine: {
+      en: "For forty years Catholics and Utraquists had called each other heretics. Under George they had to get used to being neighbours.",
+      cz: "Čtyřicet let si katolíci a kališníci navzájem nadávali do kacířů. Za Jiřího si museli zvyknout, že jsou sousedé.",
+      zh: "四十年来，天主教徒和圣杯派一直互骂对方是异端。到了伊日手下，他们得学着做邻居了。",
+    },
+    summary: {
+      en: "In the first years after his coronation, George finally had the chance to show what kind of king he would be. Czech historians later gave him a nickname for it: the king of two peoples. One people took communion from the chalice, the other in one kind, and for forty years each had called the other heretics.\n\nGeorge governed strictly by [[link:what-did-the-compacts-grant-1436]]the Compacts[[/link]]. The Utraquist majority kept its chalice, the Catholic minority kept its churches, and neither was allowed to trample the other. Since the most powerful families were still Catholic, Catholic lords even held more of the highest offices than Utraquists did, and both of George's wives came from Catholic families too.\n\n[[b]]He chose his advisers for their ability, not for their birth or their faith.[[/b]] One of them, the German jurist Gregor of Heimburg, had already been excommunicated by the pope, which made him something of an expert in arguing with popes.\n\nThe kingdom prospered. The roads were safe again, trade picked up, and the royal towns became the backbone of George's power. Only the money beat him: however hard he tried, the coinage kept losing its value.\n\nMeanwhile Rome had a new pope, and an old acquaintance. In August 1458 the cardinals elected Pius II, whom the Czechs knew as Aeneas Silvius Piccolomini, the man who had written up [[link:the-last-man-on-sion-1437]]Roháč's last stand[[/link]] and had [[link:the-hussite-regent-1450]]visited Tábor[[/link]] feeling he was among barbarians. Few popes have known the Czechs so well, and few have liked them less. In his youth he had even worked for the Council of Basel, which granted the Compacts; as pope he preferred to forget it.\n\nHis great cause was a crusade against the Turks, though when he called Christendom's rulers to Mantua in 1459, almost nobody came. [[b]]To him, a Christendom that could not even agree to fight the Turks had no room for a king who took communion from the chalice.[[/b]] For now he was patient, and waited for George to keep his oath.\n\nBut everything George had built rested on a single piece of parchment: the Compacts made the chalice legal in the eyes of the Church, and Rome had never confirmed them. In 1462 George decided it was time to ask.",
+      cz: "V prvních letech po korunovaci měl Jiří konečně příležitost ukázat, jakým bude králem. Čeští historici mu za ně později dali přízvisko: král dvojího lidu. Jeden lid přijímal z kalicha, druhý pod jednou, a čtyřicet let si navzájem nadávali do kacířů.\n\nJiří vládl přísně podle [[link:what-did-the-compacts-grant-1436]]kompaktát[[/link]]. Kališnická většina si ponechala kalich, katolická menšina své kostely a žádná strana nesměla šlapat po druhé. Protože nejmocnější rody zůstávaly katolické, drželi katoličtí páni v nejvyšších úřadech dokonce víc míst než kališníci, a obě Jiřího manželky pocházely rovněž z katolických rodin.\n\n[[b]]Své rádce si vybíral podle schopností, ne podle původu nebo víry.[[/b]] Jednoho z nich, německého právníka Řehoře z Heimburku, už papež dal do klatby, takže měl s hádkami s papeži jisté zkušenosti.\n\nKrálovství prosperovalo. Cesty byly zase bezpečné, obchod ožil a královská města se stala páteří Jiřího moci. Porazily ho jen peníze: ať se snažil sebevíc, mince dál ztrácely hodnotu.\n\nŘím mezitím dostal nového papeže, a starého známého. V srpnu 1458 zvolili kardinálové Pia II., kterého Češi znali jako Enea Silvia Piccolominiho, muže, který sepsal [[link:the-last-man-on-sion-1437]]Roháčův poslední boj[[/link]] a [[link:the-hussite-regent-1450]]navštívil Tábor[[/link]] s pocitem, že je mezi barbary. Málokterý papež znal Čechy tak dobře, a málokterý je měl méně rád. V mládí dokonce pracoval pro basilejský koncil, který kompaktáta přiznal; jako papež na to raději zapomínal.\n\nJeho velkou věcí byla křížová výprava proti Turkům, jenže když roku 1459 svolal vládce křesťanstva do Mantovy, skoro nikdo nepřijel. [[b]]Podle něj křesťanstvo, které se nedokázalo shodnout ani na boji s Turky, nemělo místo pro krále, který přijímá z kalicha.[[/b]] Zatím byl trpělivý a čekal, až Jiří svou přísahu splní.\n\nVšechno, co Jiří vybudoval, ale stálo na jediném kusu pergamenu: kompaktáta činila kalich v očích církve legálním, a Řím je nikdy nepotvrdil. Roku 1462 se Jiří rozhodl, že je načase se zeptat.",
+      zh: "加冕之后的头几年，伊日终于有机会证明，自己是个什么样的国王。后来的捷克历史学家为此给了他一个称号：“两种子民的国王”。一种子民领圣杯，另一种只领饼，四十年来双方一直互骂对方是异端。\n\n伊日严格按照[[link:what-did-the-compacts-grant-1436]]《协定》[[/link]]治国。占多数的圣杯派保住了圣杯，占少数的天主教徒保住了自己的教堂，谁也不许欺负谁。因为最有权势的家族大多还是天主教徒，最高官职里天主教贵族占的位子反倒比圣杯派还多；伊日的两任妻子，也都出身天主教家庭。\n\n[[b]]他挑选顾问，看的是本事，不是出身，也不是信仰。[[/b]]其中一位，德意志法学家海姆堡的格雷戈尔，早就被教皇开除了教籍，跟教皇吵架算是有经验了。\n\n王国日渐兴旺。道路又安全了，商业红火起来，王室城市成了伊日权力的顶梁柱。只有钱的事，他也没辙：不管怎么努力，钱币还是一天天贬值。\n\n这时，罗马也换了一位新教皇，而且是位老熟人。1458年8月，枢机主教们选出了庇护二世，捷克人更熟悉他的另一个名字：埃涅阿斯·西尔维乌斯·皮科洛米尼。[[link:the-last-man-on-sion-1437]]罗哈奇的最后一战[[/link]]是他记下来的，他还[[link:the-hussite-regent-1450]]去过塔博尔[[/link]]，觉得自己像到了蛮荒之地。历代教皇里，像他这么了解捷克人的没几个，像他这么不喜欢捷克人的，也没几个。他年轻时甚至在给了捷克人《协定》的巴塞尔公会议当过差，当了教皇以后，就不太愿意提这段往事了。\n\n他心心念念的是一场打土耳其人的十字军，可1459年他召集基督教世界的君主们到曼托瓦开会，几乎没人来。[[b]]在他看来，一个连打土耳其人都谈不拢的基督教世界，更容不下一个领圣杯的国王。[[/b]]不过眼下，他还算有耐心，等着伊日兑现誓言。\n\n可伊日搭起来的这一切，都系在一张羊皮纸上：正是《协定》让圣杯在教会眼里合法，可罗马从来没有正式确认过它。1462年，伊日决定，是时候去问一问了。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "tyn-church",
+        relation: {
+          en: "Prague's leading Utraquist church in George's day, where Rokycana preached. A huge gilded chalice hung on its gable until the 1620s, when it was replaced by a statue of the Virgin Mary, traditionally said to be gilded with the melted-down chalice.",
+          cz: "Za Jiřího hlavní kališnický kostel Prahy, kde kázal Rokycana. Na jeho štítu visel obrovský zlacený kalich, dokud ho ve 20. letech 17. století nenahradila socha Panny Marie, k jejímuž zlacení byl podle tradice kalich roztaven.",
+          zh: "伊日时代布拉格首屈一指的圣杯派教堂，罗基察纳就在这里布道。它的山墙上曾挂着一只巨大的镀金圣杯，直到17世纪20年代才换成圣母像；相传圣母像上的金子，就是熔掉那只圣杯得来的。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/George_of_Pod%C4%9Bbrady",
+  },
+  {
+    slug: "the-chalice-and-the-pope-1462",
+    era: "lone-king",
+    images: ["/history/the-chalice-and-the-pope-1462.webp"],
+    imageCaptions: [
+      {
+        en: "The King's Court, Prague, August 1462: George springs up from his throne and points at the papal legate Fantino de Valle, who holds up the pope's demands in front of the assembled lords and bishops.",
+        cz: "Králův dvůr v Praze, srpen 1462: Jiří vyskočí z trůnu a ukazuje na papežského legáta Fantina de Valle, který před shromážděnými pány a biskupy drží papežovy požadavky.",
+        zh: "1462年8月，布拉格“国王宫廷”：伊日从王座上一跃而起，指着教皇使节范蒂诺；范蒂诺当着满堂贵族和主教的面，高举着教皇的要求。",
+      },
+    ],
+    startYear: 1462,
+    year: {
+      en: "1462",
+      cz: "1462",
+      zh: "1462年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Live and Die with the Chalice",
+      cz: "S kalichem žít i umírat",
+      zh: "与圣杯同生共死",
+    },
+    hookLine: {
+      en: "George sent his man to Rome to have the Compacts confirmed. The man came back as the pope's legate, and the Compacts did not come back at all.",
+      cz: "Jiří poslal svého člověka do Říma, aby mu potvrdili kompaktáta. Ten člověk se vrátil jako papežský legát a kompaktáta se nevrátila vůbec.",
+      zh: "伊日派自己的人去罗马确认《协定》。人回来了，成了教皇的使节；《协定》却没能回来。",
+    },
+    summary: {
+      en: "In the spring of 1462 George finally sent Rome the embassy of obedience that every new Catholic king owed the pope. It was a carefully mixed party: the Catholic chancellor Prokop of Rabštejn, George's trusted friend Zdeněk Kostka of Postupice, and the Utraquist priest Václav Koranda. In Rome they were joined by Fantino de Valle, a Dalmatian lawyer who served as George's own representative at the papal court. Besides their obedience, they brought one request: please confirm the Compacts.\n\nOn 31 March 1462, in a public consistory, Pius II gave his answer. The Compacts were void. Communion under both kinds was forbidden, and the king, his family and the whole nation were to give up the chalice.\n\nSo the man who had once worked for the Council of Basel tore up the most famous thing Basel had ever signed.\n\nThe two readings of the [[link:a-king-of-our-own-1458]]coronation-eve oath[[/link]] had finally met head-on. [[b]]Rome believed George had promised long ago to give up the chalice and was simply being reminded; George believed he had never promised anything of the kind.[[/b]]\n\nThe envoys came home with the bad news. Fantino stayed behind, and when he reached Prague that summer he came as the pope's legate. It was George's own envoys who had suggested him for the job, because he spoke Czech and could talk to the king without an interpreter. The man George had paid to speak for him in Rome now spoke for Rome.\n\nOn 12 August 1462 George opened a diet at the King's Court, his residence in Prague's Old Town. Catholic lords and bishops sat there alongside Utraquists. First the king read out his own coronation oath, to show that it took the chalice for granted rather than abolishing it. Then he told them plainly: [[b]]he had been born to communion in both kinds and raised in it, he would hold to it, and he, his wife and his children would live and die with it.[[/b]] He would not, he said, sell his faith for a kingdom.\n\nThe next day Fantino had his turn. He accused the king of breaking his oath, told him to obey the pope, to send his Utraquist priests away and to take communion in one kind with his family, and threatened him with the loss of his crown, all in front of the assembly, as if lecturing a disobedient schoolboy rather than a crowned king.\n\nOn 14 August George called him before the royal council to account for his work as the king's representative in Rome. Fantino replied that he had served the king only for as long as he hoped the king would keep his promises to the Holy See. At that George lost his temper and drew his sword on him.\n\nThe council found Fantino an unfaithful servant who deserved death. George spared his life out of respect for the pope and sent him to prison instead, first in the Old Town Hall, later at Poděbrady. He was not locking up a papal legate, George explained, but his own representative who had betrayed his master. Fantino was let out on 27 October, after the emperor and Duke Louis of Bavaria asked for it.\n\nAlmost five hundred years later, Alfons Mucha chose this very scene for one of the canvases of his Slav Epic.\n\nThat autumn brought a twist. In Vienna, Emperor [[link:the-stolen-crown-1440]]Frederick III[[/link]] was besieged in his own castle by the Viennese and by his own brother, Albert VI, with his wife and his three-year-old son Maximilian shut in with him, and food running low. The only ruler who came to help was George. In November he marched to Vienna with a Bohemian army, relieved the castle and then talked the two brothers into a peace.\n\nSo in the same few months the heretic king had jailed the pope's legate and rescued the emperor. Frederick was grateful. Rome was not impressed.\n\nGeorge knew what would come next. [[b]]With the Compacts gone, his Utraquists were heretics in Rome's eyes once again, however well they got along with the Catholics at home.[[/b]] Sooner or later the pope would call a crusade against him. He did not intend to sit and wait for it. Instead he came up with an idea that no king of his time had tried, and he meant to send it to every king in Europe.",
+      cz: "Na jaře 1462 vyslal Jiří konečně do Říma obedienční poselstvo, které každý nový katolický král dlužil papeži. Bylo pečlivě namíchané: katolický kancléř Prokop z Rabštejna, Jiřího věrný přítel Zdeněk Kostka z Postupic a kališnický kněz Václav Koranda. V Římě se k nim přidal Fantin de Valle, dalmatský právník, který u papežské kurie zastupoval přímo Jiřího. Kromě slibu poslušnosti vezli jedinou prosbu: potvrďte, prosím, kompaktáta.\n\n31. března 1462 dal Pius II. na veřejné konzistoři odpověď. Kompaktáta jsou neplatná. Přijímání pod obojí je zakázáno a král, jeho rodina i celý národ se mají kalicha vzdát.\n\nMuž, který kdysi pracoval pro basilejský koncil, tak roztrhal nejslavnější věc, jakou kdy Basilej podepsala.\n\nDva výklady [[link:a-king-of-our-own-1458]]přísahy z předvečera korunovace[[/link]] se konečně srazily čelem. [[b]]Řím věřil, že Jiří už dávno slíbil kalicha se vzdát a teď mu to jen připomínají; Jiří věřil, že nic takového nikdy neslíbil.[[/b]]\n\nVyslanci se vrátili domů se špatnou zprávou. Fantin zůstal v Římě, a když v létě dorazil do Prahy, přijel jako papežský legát. Navrhli ho na to sami Jiřího vyslanci, protože uměl česky a mohl s králem mluvit bez tlumočníka. Muž, kterého Jiří platil, aby za něj mluvil v Římě, teď mluvil za Řím.\n\n12. srpna 1462 zahájil Jiří sněm na Králově dvoře, svém sídle na pražském Starém Městě. Katoličtí páni a biskupové tu seděli vedle kališníků. Král nejdřív přečetl svou korunovační přísahu, aby ukázal, že kalich spíš předpokládá, než ruší. Pak jim jasně řekl: [[b]]pod obojí se narodil a v něm vyrostl, při něm zůstane a on, jeho manželka i jeho děti s ním budou žít i umírat.[[/b]] Svou víru prý za království neprodá.\n\nDruhý den přišel na řadu Fantin. Obvinil krále z křivé přísahy, vyzval ho k poslušnosti papeži, aby propustil své kališnické kněze a s rodinou přijímal pod jednou, a pohrozil mu ztrátou koruny, to vše před shromážděním, jako by kázal neposlušnému školákovi, a ne korunovanému králi.\n\n14. srpna ho Jiří předvolal před královskou radu, aby složil účet ze své služby královského zástupce v Římě. Fantin odpověděl, že králi sloužil jen potud, pokud doufal, že král dodrží své sliby Svaté stolici. Tu se Jiří rozlítil a tasil na něj meč.\n\nRada uznala Fantina za nevěrného služebníka hodného smrti. Jiří mu z ohledu na papeže život daroval a poslal ho místo toho do vězení, nejdřív na Staroměstskou radnici, později do Poděbrad. Nezavírá prý papežského legáta, vysvětloval Jiří, ale svého vlastního zástupce, který zradil svého pána. Fantin se dostal na svobodu 27. října, na přímluvu císaře a bavorského vévody Ludvíka.\n\nSkoro o pět set let později si právě tuto scénu vybral Alfons Mucha pro jedno z pláten své Slovanské epopeje.\n\nPodzim přinesl zvrat. Ve Vídni obléhali Vídeňané a jeho vlastní bratr Albrecht VI. císaře [[link:the-stolen-crown-1440]]Fridricha III.[[/link]] v jeho vlastním hradě a s ním byla zavřená i jeho manželka a tříletý syn Maxmilián, zatímco docházelo jídlo. Jediný panovník, který přišel na pomoc, byl Jiří. V listopadu přitáhl s českým vojskem k Vídni, hrad vysvobodil a pak oba bratry přiměl k míru.\n\nBěhem pár měsíců tak kacířský král uvěznil papežova legáta a zachránil císaře. Fridrich byl vděčný. Řím ohromený nebyl.\n\nJiří věděl, co přijde dál. [[b]]Se zrušením kompaktát byli jeho kališníci v očích Říma znovu kacíři, ať spolu s katolíky doma vycházeli sebelépe.[[/b]] Dřív nebo později papež vyhlásí proti němu křížovou výpravu. Nehodlal na ni čekat se založenýma rukama. Místo toho přišel s nápadem, o jaký se žádný král jeho doby ještě nepokusil, a chtěl ho poslat všem králům Evropy.",
+      zh: "1462年春天，伊日终于向罗马派出了“效忠使团”，这是每位新登基的天主教国王都欠教皇的一份礼数。使团的人选搭配得很用心：天主教徒的首相拉布什泰因的普罗科普，伊日的老朋友波斯图皮采的兹德涅克·科斯特卡，还有圣杯派神父瓦茨拉夫·科兰达。到了罗马，又加上了范蒂诺·德·瓦莱，一位达尔马提亚出身的法学家，是伊日自己派驻教廷的代理人。除了表示效忠，他们只带了一个请求：请确认《协定》。\n\n1462年3月31日，庇护二世在公开的枢机会议上给出了答复：《协定》无效。领圣杯从此禁止，国王、他的家人和整个民族都必须放弃圣杯。\n\n于是，这个当年在巴塞尔公会议当过差的人，亲手撕掉了巴塞尔签过的最有名的一份文件。\n\n[[link:a-king-of-our-own-1458]]加冕前夜那份誓言[[/link]]的两种理解，终于正面撞上了。[[b]]罗马认为伊日早就答应过要放弃圣杯，现在只是提醒他兑现；伊日则认为，自己从来没答应过这种事。[[/b]]\n\n使节们带着坏消息回了国。范蒂诺却留在了罗马，等他夏天再到布拉格时，身份已经变成了教皇的使节。推荐他当这个使节的，还正是伊日自己的使团，理由是他会说捷克语，跟国王谈话用不着翻译。伊日花钱请他在罗马替自己说话，如今他却替罗马说话来了。\n\n1462年8月12日，伊日在老城的“国王宫廷”，也就是他在布拉格的行宫，召开了议会。天主教贵族、主教和圣杯派坐在同一个大厅里。国王先当众念了一遍自己的加冕誓词，说明这份誓词默认了圣杯，而不是要废掉它。接着，他对众人说得明明白白：[[b]]他生来就领圣杯，也是领着圣杯长大的，他会守住它；他自己，还有他的妻子和孩子，都要和圣杯同生共死。[[/b]]他还说，他不会为了一个王国出卖自己的信仰。\n\n第二天轮到范蒂诺发言。他指责国王违背誓言，要他服从教皇，把圣杯派神父赶走，全家改领一种圣餐，还威胁说国王会因此丢掉王冠。这一切都是当着满堂的人说的，训国王就像训一个不听话的学生，而不是一位戴了王冠的国王。\n\n8月14日，伊日把他叫到御前会议上，要他交代自己当国王驻罗马代理人期间都干了些什么。范蒂诺回答说，他替国王办事，只到他还指望国王兑现对教廷的承诺为止。伊日勃然大怒，当场拔剑指向了他。\n\n御前会议判定范蒂诺是个不忠的仆人，罪当处死。伊日看在教皇的面子上饶了他一命，改判关押，先关在老城市政厅，后来又押到波杰布拉迪。照伊日的说法，他关的不是教皇的使节，而是自己手下一个背叛了主人的代理人。直到10月27日，经皇帝和巴伐利亚公爵路德维希说情，范蒂诺才被放了出来。\n\n差不多五百年后，阿尔丰斯·穆夏把这一幕画进了他的《斯拉夫史诗》。\n\n到了秋天，剧情又拐了个弯。在维也纳，皇帝[[link:the-stolen-crown-1440]]腓特烈三世[[/link]]被维也纳市民和他的亲弟弟阿尔布雷希特六世围困在自己的城堡里，皇后和三岁的儿子马克西米利安也被困在里面，粮食眼看就要吃完了。唯一赶来救驾的君主，就是伊日。11月，他率领波希米亚军队开到维也纳，给城堡解了围，又说服兄弟俩讲和。\n\n短短几个月里，这位“异端”国王一边把教皇的使节关进了大牢，一边把皇帝从围城里救了出来。腓特烈很感激，罗马却一点也不领情。\n\n伊日知道接下来会发生什么：[[b]]《协定》一作废，圣杯派在罗马眼里又成了异端，不管他们在波希米亚国内和天主教徒相处得多么融洽。[[/b]]教皇迟早要号召一场针对他的十字军。他可不打算坐等。他想出了一个当时还没有哪位国王试过的主意，而且打算把它送到欧洲每一位国王的手上。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "municipal-house",
+        relation: {
+          en: "Built on the site of the King's Court, where George told the estates in August 1462 that he would live and die with the chalice, and where the papal legate Fantino de Valle lectured him the next moment.",
+          cz: "Stojí na místě Králova dvora, kde Jiří v srpnu 1462 stavům prohlásil, že bude s kalichem žít i umírat, a kde ho vzápětí kázal papežský legát Fantin de Valle.",
+          zh: "建在“国王宫廷”的旧址上。1462年8月，伊日在这里向各等级宣布要与圣杯同生共死，教皇使节范蒂诺紧接着就在这里当众训斥了他。",
+        },
+      },
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "Where Fantino de Valle was first imprisoned in August 1462 after George drew his sword on him.",
+          cz: "Sem byl v srpnu 1462 nejprve uvězněn Fantin de Valle poté, co na něj Jiří tasil meč.",
+          zh: "1462年8月，伊日对范蒂诺拔剑之后，先把他关在了这里。",
+        },
+      },
+      {
+        slug: "podebrady",
+        relation: {
+          en: "Where Fantino was later held, in George's own castle, until his release on 27 October 1462.",
+          cz: "Zde, na Jiřího vlastním hradě, byl Fantin později držen až do propuštění 27. října 1462.",
+          zh: "范蒂诺后来被押到伊日自己在这里的城堡，一直关到1462年10月27日才获释。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/George_of_Pod%C4%9Bbrady",
+    referenceMaps: {
+      links: [
+        {
+          label: "1923",
+          description: {
+            en: "Alfons Mucha's Slav Epic canvas of this scene: The Hussite King Jiří of Poděbrady, \"Treaties Are to Be Respected\"",
+            cz: "Plátno Alfonse Muchy ze Slovanské epopeje zachycující tuto scénu: Husitský král Jiří z Poděbrad (Smlouvy se mají dodržovat)",
+            zh: "穆夏《斯拉夫史诗》中描绘这一幕的画作：《胡斯派国王波杰布拉德的伊日：条约必须遵守》",
+          },
+          url: "https://www.muchafoundation.org/gallery/browse-works/object/224",
+        },
+      ],
+    },
+  },
+  {
+    slug: "a-europe-five-hundred-years-early-1464",
+    era: "lone-king",
+    images: ["/history/a-europe-five-hundred-years-early-1464.webp"],
+    imageCaptions: [
+      {
+        en: "George sits alone at the head of a long table set for Europe's kings, his peace treaty in front of him, while Antonio Marini points hopefully down the row of empty chairs. In the pope's seat at the far end, a cat is asleep.",
+        cz: "Jiří sedí sám v čele dlouhého stolu prostřeného pro evropské krále, před sebou mírovou smlouvu, a Antonio Marini s nadějí ukazuje podél řady prázdných křesel. Na papežově místě na konci stolu spí kočka.",
+        zh: "伊日独自坐在为欧洲各国国王摆好的长桌桌首，面前摊着和平条约，马里尼满怀希望地指着一排空椅子；桌尾教皇的座位上，睡着一只猫。",
+      },
+    ],
+    startYear: 1464,
+    year: {
+      en: "1462–1464",
+      cz: "1462–1464",
+      zh: "1462–1464年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Europe Five Hundred Years Too Early",
+      cz: "Evropa o pět set let dřív",
+      zh: "写早了五百年的欧洲",
+    },
+    hookLine: {
+      en: "The pope could call a crusade against George at any moment. George answered by sending Europe's kings a draft of something very like the EU. Sadly, it took five hundred years to find anyone willing to sign.",
+      cz: "Papež mohl kdykoli vyhlásit proti Jiřímu křížovou výpravu. Jiří odpověděl tím, že poslal evropským králům návrh čehosi velmi podobného Evropské unii. Jen škoda, že ochotné podepsat našel až za pět set let.",
+      zh: "教皇随时可能号召十字军来打伊日，伊日却给全欧洲的国王寄去了一份“欧盟”草案。只可惜，这份草案在五百年后才找到愿意签字的人。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "Whether any one like it or mislike it, I will be on good terms with the King of Bohemia, and will enter into goodwill and friendship with him.",
+          cz: "Ať se to komu líbí nebo nelíbí, budu s králem českým zadobře a vejdu s ním v přízeň a přátelství.",
+          zh: "不管谁喜欢还是不喜欢，我都要和波希米亚国王交好，与他结下善意和友谊。",
+        },
+        attribution: {
+          en: "King Louis XI of France, as recorded in the diary of the Bohemian embassy, 1464",
+          cz: "Francouzský král Ludvík XI., podle deníku českého poselstva, 1464",
+          zh: "法王路易十一，据1464年波希米亚使团的日记",
+        },
+      },
+    ],
+    summary: {
+      en: "George had long expected that a break with Rome was only a matter of time. The pope had crusades, the Church and every Catholic monarch in Europe. What did George have? He had an adviser with a famously fertile imagination: Antonio Marini, a Frenchman from Grenoble.\n\nAs early as 1462 Marini had worked out the king's answer. If the pope meant to rally all of Europe against George, then George would rally all of Europe first, only without the pope.\n\nThe plan was called the Treaty on the Establishment of Peace throughout Christendom, and it was startlingly bold. Europe's monarchs would form a union, respect one another's sovereignty and stay out of one another's internal affairs. Quarrels between states would not be settled with swords but taken to a common court. The members would be grouped by nation, the French, the Germans, the Italians and so on, each group with one vote, and decisions would be made by voting around a table. And the union's first great task would be to drive the Turks out of Europe together. The pope kept talking about a crusade? Very well, George wanted to fight the Turks too, only this time the kings would be in charge.\n\nAs for the pope, his part in the draft was much like the cat's in the picture: he is there, but nobody expects him to do anything.\n\nThat was the cleverest thing about the plan, and also the thing that doomed it.\n\nFor the next two years Marini carried the draft around half of Europe: Venice, France, Burgundy, Poland, Hungary, Brandenburg, Saxony. Everywhere the answer sounded much the same.\n\nThe Venetians were very polite: a fine idea, but without the pope's blessing they dared not sign anything.\n\nThe Duke of Burgundy lost interest the moment he heard the King of France was on the list. Sit at one table with him and vote? He would rather fight the Turks.\n\nHungary was more awkward still. Its king was Matthias, [[link:a-king-of-our-own-1458]]the boy George had sent home from Prague[[/link]], who in 1463 had married George's daughter Kunhuta. But the pope was more generous than the father-in-law: he paid Matthias hard cash for his wars. The son-in-law took the pope's money, and the father-in-law's letter was put aside.\n\nThe only ones who showed real interest were a few German princes, the King of Poland and the King of France. In May 1464 George sent a splendid embassy of some forty people to France, led by the Bohemian lord Albrecht Kostka of Postupice, with Marini at his side. It was the plan's last hope.\n\nOne of the party, a young attaché named Jaroslav, kept a diary of the journey. In one French town, he wrote, the landlady found out they were Bohemians, drove them out of her inn into the rain and called them heretics.\n\nKing Louis XI received them warmly. His chancellor explained that this was a great matter and that it would not be fitting to answer it so soon. Then the king himself spoke:\n\n[[quote:0]]\n\nIn other words: a European union? Far too much trouble. Why don't the two of us just be friends?\n\nIn July 1464, at Dieppe, the embassy signed a bilateral treaty of friendship between France and Bohemia, and that was all it brought home. A union meant to hold all of Europe ended up holding exactly two countries.\n\nThat same summer Pius II was busy with two things. In June he summoned George to Rome to answer charges of heresy. Then he went to the port of Ancona on the Adriatic to wait for the Venetian fleet that was to carry him off to fight the Turks. The crusade he had dreamed of all his life was finally about to sail. The galleys were slow. By the time they arrived he was dying, and on the night of 14 to 15 August 1464 he died in Ancona. The crusade never sailed, and the summons to Rome died with him.\n\nSome say George could breathe a little easier. But Rome soon had a new pope, and this one liked George even less than Piccolomini had. He was no old acquaintance either.\n\nAs for the draft that all of Europe had politely turned down, later historians would call it one of the earliest blueprints for the United Nations and the European Union. Five hundred years later, Europeans finally did start sitting down at one table to vote.\n\n[[b]]Few of them probably remembered that the first man to propose it was a Czech king whom the pope called a heretic.[[/b]]",
+      cz: "Jiří už dávno tušil, že roztržka s Římem je jen otázkou času. Papež měl křížové výpravy, církev a všechny katolické panovníky Evropy. A co měl Jiří? Rádce s pověstně bujnou fantazií: Antonia Mariniho, Francouze z Grenoblu.\n\nUž roku 1462 měl Marini pro krále odpověď připravenou. Když chce papež poštvat proti Jiřímu celou Evropu, ať Jiří celou Evropu spojí dřív sám, jenom bez papeže.\n\nPlán se jmenoval Smlouva o nastolení míru v celém křesťanstvu a byl ohromujícím způsobem odvážný. Evropští panovníci by vytvořili svaz, respektovali by svrchovanost jeden druhého a nevměšovali by se si do vnitřních záležitostí. Spory mezi státy by se neřešily mečem, ale před společným soudem. Členové by byli rozděleni podle národů, Francouzi, Němci, Italové a tak dále, každá skupina s jedním hlasem, a o všem by se hlasovalo u jednoho stolu. A prvním velkým úkolem svazu by bylo společně vyhnat Turky z Evropy. Papež pořád mluví o křížové výpravě? Dobrá, Jiří chtěl s Turky bojovat taky, jenom tentokrát by o tom rozhodovali králové.\n\nA papež? Jeho role v návrhu se podobala roli kočky na obrázku: je tam, ale nikdo od něj nic nečeká.\n\nPrávě v tom byl celý plán nejchytřejší, a právě to ho také pohřbilo.\n\nDalší dva roky vozil Marini návrh po půlce Evropy: Benátky, Francie, Burgundsko, Polsko, Uhry, Braniborsko, Sasko. Všude zněla odpověď zhruba stejně.\n\nBenátčané byli velmi zdvořilí: skvělý nápad, ale bez papežova požehnání se neodváží nic podepsat.\n\nBurgundský vévoda ztratil zájem ve chvíli, kdy uslyšel, že na seznamu je i francouzský král. Sedět s ním u jednoho stolu a hlasovat? To raději půjde na Turky.\n\nV Uhrách to bylo ještě trapnější. Králem tam byl Matyáš, [[link:a-king-of-our-own-1458]]chlapec, kterého Jiří poslal z Prahy domů[[/link]] a který si roku 1463 vzal Jiřího dceru Kunhutu. Papež byl ale štědřejší než tchán: na Matyášovy války mu platil hotovými penězi. Zeť si vzal papežovy peníze a tchánův dopis odložil stranou.\n\nOpravdový zájem projevilo jen několik německých knížat, polský král a francouzský král. V květnu 1464 vyslal Jiří do Francie okázalé poselstvo o nějakých čtyřiceti lidech v čele s pánem Albrechtem Kostkou z Postupic a s Marinim po boku. Byla to poslední naděje celého plánu.\n\nJeden z účastníků, mladý Jaroslav, si o cestě vedl deník. V jednom francouzském městě, zapsal, se hostinská dozvěděla, že jsou Čechové, vyhnala je z hostince do deště a nadala jim kacířů.\n\nKrál Ludvík XI. je přijal vlídně. Jeho kancléř vysvětlil, že je to věc veliká a že by se neslušelo odpovídat na ni tak brzy. Pak promluvil sám král:\n\n[[quote:0]]\n\nJinými slovy: evropský svaz? To je moc starostí. Co kdybychom byli prostě přátelé my dva?\n\nV červenci 1464 podepsalo poselstvo v Dieppe dvoustrannou smlouvu o přátelství mezi Francií a Čechami, a to bylo všechno, co přivezlo domů. Ze svazu, do kterého se měla vejít celá Evropa, zbyly přesně dvě země.\n\nPius II. měl toho léta na práci dvě věci. V červnu předvolal Jiřího do Říma, aby se zodpovídal z kacířství. Pak odjel do přístavu Ancona na Jadranu čekat na benátské loďstvo, které ho mělo odvézt do boje s Turky. Křížová výprava, o které snil celý život, se konečně chystala vyplout. Galéry se ale loudaly. Než dorazily, papež už umíral, a v noci ze 14. na 15. srpna 1464 v Anconě zemřel. Výprava nikdy nevyplula a předvolání do Říma zemřelo s ním.\n\nNěkdo říká, že si Jiří mohl trochu oddechnout. Řím si ale brzy zvolil nového papeže, a ten měl Jiřího ještě méně rád než Piccolomini. A starý známý to nebyl.\n\nNávrh, který celá Evropa zdvořile odmítla, později historici označili za jeden z nejstarších předobrazů Organizace spojených národů i Evropské unie. O pět set let později si Evropané skutečně začali sedat k jednomu stolu a hlasovat.\n\n[[b]]Málokdo z nich si asi vzpomněl, že první to navrhl český král, kterého papež nazýval kacířem.[[/b]]",
+      zh: "伊日早就料到，和罗马翻脸只是时间问题。教皇有十字军，有教会，有全欧洲的天主教君主；伊日有什么？他有一位脑洞很大的顾问：来自法国格勒诺布尔的安东尼奥·马里尼。\n\n早在1462年，马里尼就替国王想好了对策。既然教皇要拉拢全欧洲来对付伊日，那伊日就先把全欧洲拉到一起，只不过，不带教皇玩。\n\n这份计划叫《建立基督教世界和平条约》，内容大胆得吓人：欧洲各国君主组成一个联盟，彼此尊重主权，互不干涉内政；国与国之间有了纠纷，不许动刀动枪，要交给一个共同的法庭来裁决；各国按民族分组，法兰西、日耳曼、意大利……每组一票，大家坐下来投票表决。至于这个联盟要干的第一件大事，是联手把土耳其人赶出欧洲。教皇不是天天念叨十字军吗？伊日也要打土耳其人，只不过，这回由国王们自己说了算。\n\n至于教皇，在这份草案里的戏份，大概和插图里那只猫差不多：有他，但没人指望他做什么。\n\n这正是整个计划最妙、也最要命的地方。\n\n接下来两年，马里尼揣着这份草案，跑遍了大半个欧洲：威尼斯、法国、勃艮第、波兰、匈牙利、勃兰登堡、萨克森。每到一处，反应都差不多。\n\n威尼斯人很客气：主意不错，不过没有教皇点头，我们什么也不敢签。\n\n勃艮第公爵听说法国国王也在名单上，当场就没了兴趣：要我和他坐在一张桌子上投票？不如去打土耳其人。\n\n匈牙利那边就更尴尬了。国王马蒂亚斯，正是[[link:a-king-of-our-own-1458]]当年伊日从布拉格放回去的那个少年[[/link]]，1463年又娶了伊日的女儿昆胡塔。可教皇出手比岳父大方：他直接掏钱资助马蒂亚斯打仗。女婿收下了教皇的钱，岳父的信就搁在了一边。\n\n真正感兴趣的，只有几位德意志诸侯、波兰国王，还有法国国王。1464年5月，伊日派出一支四十来人的豪华使团前往法国，领头的是波斯图皮采的阿尔布雷赫特·科斯特卡，马里尼也随行。这是整个计划最后的希望。\n\n使团里有个叫亚罗斯拉夫的年轻随员，一路记着日记。他写道，在法国的某个小城，客栈老板娘一听他们是波希米亚人，就把他们赶出门外淋雨，还骂他们是异端。\n\n法王路易十一倒是热情地接待了他们。他的大臣先说，这是一件大事，这么快就答复不太合适。然后国王亲自开了口：\n\n[[quote:0]]\n\n翻译一下就是：欧洲联盟？太麻烦了。不如咱们俩先交个朋友吧。\n\n1464年7月，使团在迪耶普签下了一份法国和波希米亚之间的双边友好条约，这就是他们带回来的全部成果。一个本想把整个欧洲装进去的联盟，最后只装下了两个国家。\n\n同一年夏天，庇护二世忙着两件事。6月，他传唤伊日到罗马，为异端罪名受审。随后，他来到亚得里亚海边的安科纳港，等着威尼斯的舰队来接他去打土耳其人。他心心念念了一辈子的十字军，终于要出发了。舰队来得很慢，等船开进港口，教皇已经病得起不来了。1464年8月14日夜里，他在安科纳去世。十字军始终没有起航，那张传唤伊日的传票，也跟着他一起作废了。\n\n有人说，伊日这下总算松了口气。可罗马很快就选出了新教皇。这一位，比皮科洛米尼更不喜欢伊日，而且，他可不是什么老熟人。\n\n至于那份被全欧洲婉拒的草案，后来的历史学家把它称作联合国和欧盟最早的雏形之一。五百年后，欧洲人终于开始坐在一张桌子上投票了。\n\n[[b]]只是，他们大概谁也没想起来，第一个提议这么做的，是一位被教皇骂作“异端”的捷克国王。[[/b]]",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Treaty_on_the_Establishment_of_Peace_throughout_Christendom",
+    referenceMaps: {
+      links: [
+        {
+          label: "1464",
+          description: {
+            en: "The diary of the Bohemian embassy to Louis XI, kept by the attaché Jaroslav (English translation)",
+            cz: "Deník českého poselstva k Ludvíku XI., který vedl Jaroslav (anglický překlad)",
+            zh: "随员亚罗斯拉夫记录的波希米亚使团出使路易十一日记（英译本）",
+          },
+          url: "https://en.wikisource.org/wiki/Diary_of_an_embassy_from_King_George_of_Bohemia_to_King_Louis_XI_of_France_in_the_year_of_grace_1464",
+        },
+      ],
+    },
+  },
+  {
+    slug: "from-bohemia-to-the-end-of-the-world-1465",
+    era: "lone-king",
+    images: ["/history/from-bohemia-to-the-end-of-the-world-1465.webp"],
+    imageCaptions: [
+      {
+        en: "Cape Finisterre, 1466: Jaroslav Lev of Rožmitál and his travel-worn knights from Bohemia stand on the cliffs and watch the sun set over the Atlantic.",
+        cz: "Mys Finisterre, 1466: Jaroslav Lev z Rožmitálu a jeho cestou unavení rytíři z Čech stojí na útesech a dívají se, jak nad Atlantikem zapadá slunce.",
+        zh: "1466年，菲尼斯特雷角：罗日米塔尔的雅罗斯拉夫·列夫和一路风尘的波希米亚骑士们站在悬崖上，看着太阳沉入大西洋。",
+      },
+    ],
+    startYear: 1465.9,
+    year: {
+      en: "1465–1467",
+      cz: "1465–1467",
+      zh: "1465–1467年",
+    },
+    tone: "humorous",
+    title: {
+      en: "From Bohemia to the End of the World",
+      cz: "Z Čech až na konec světa",
+      zh: "从波希米亚到世界尽头",
+    },
+    hookLine: {
+      en: "Europe's kings would not sit down at one table, so George sent people to knock on their doors one by one. Forty men and fifty-two horses rode all the way to the end of the world.",
+      cz: "Evropští králové si nechtěli sednout k jednomu stolu, a tak k nim Jiří poslal lidi zaklepat jednomu po druhém. Čtyřicet mužů a dvaapadesát koní dojelo až na konec světa.",
+      zh: "欧洲的国王们不肯坐到一张桌子上，伊日就派人挨个上门拜访。四十个人，五十二匹马，一路走到了世界尽头。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "The Queen sat alone at table on a costly golden chair. The Queen's mother and the King's sister had to stand some distance away… The meal lasted for three hours. All were silent and not a word was spoken.",
+          cz: "Královna seděla u stolu sama na drahocenném zlatém křesle. Královnina matka a králova sestra musely stát opodál… Hostina trvala tři hodiny. Všichni mlčeli a nepromluvilo se ani slovo.",
+          zh: "王后独自坐在一把华贵的金椅上用膳，王后的母亲和国王的妹妹只能远远站着……这顿饭吃了整整三个钟头，满座寂然，没有一个人说话。",
+        },
+        attribution: {
+          en: "Gabriel Tetzel of Nuremberg, who travelled with Lev of Rožmitál, on Queen Elizabeth Woodville's feast in 1466",
+          cz: "Gabriel Tetzel z Norimberka, účastník cesty Lva z Rožmitálu, o hostině královny Alžběty Woodvillové roku 1466",
+          zh: "随罗日米塔尔的列夫出行的纽伦堡人加布里埃尔·泰策尔，记1466年英格兰王后伊丽莎白·伍德维尔的宴会",
+        },
+      },
+    ],
+    summary: {
+      en: "The European union came to nothing, and George's troubles only grew. To many Europeans Bohemia was simply a country full of heretics. Even [[link:a-europe-five-hundred-years-early-1464]]a landlady in a small French town[[/link]] knew that Bohemians did not deserve shelter from the rain in her inn.\n\nSo George tried another approach. Last time it had been quiet diplomacy. This time he would show all of Europe, openly, what Czechs actually looked like.\n\nOfficially, though, the journey had nothing to do with the king. It was led by Jaroslav Lev of Rožmitál, brother of Queen Joanna, and the letter of safe conduct was issued by the queen herself. It explained that her beloved brother wished to visit the kingdoms, principalities and lands of the world for his knightly training, so that by learning the customs and manners of many peoples he might better order his life and gain proven knightly experience.\n\n[[b]]In plain words, it was a study trip abroad, approved by the queen and paid for by the crown, whose route just happened to pass through the court of every important monarch in Europe.[[/b]]\n\nThe party was carefully chosen: Czechs and Germans, Utraquists and Catholics, every one of them a well-bred knight, with chests full of costly gifts for the rulers they would meet. The company itself was a silent advertisement. This, it said, is the heretic kingdom you keep hearing about.\n\nIn late November 1465 some forty men, fifty-two horses and a wagon loaded with baggage set out from Prague.\n\nThey rode through Germany to the famously lavish court of the Duke of Burgundy, then crossed the sea to England. There they were invited to the feast celebrating Queen Elizabeth's churching after childbirth, and a German member of the party described it:\n\n[[quote:0]]\n\nWhen the queen spoke to her own mother, the mother knelt.\n\nFrom England they went to France, and from France to Spain, ever westward, until they reached Cape Finisterre on the Atlantic. In Latin the name means \"the end of the earth\", and to Europeans of the time there was nothing beyond it but sea. A band of knights from landlocked Bohemia stood on the cliffs and looked out over an ocean without end. It was probably the furthest from home any of them would ever be.\n\nThen they went on to Portugal, came back through Italy, called at the emperor's court and finally rode home, more than a year after they had set out. Four centuries later the writer Alois Jirásek retold their adventure under the same title as this card.\n\nAnd the result? Every court was gracious. The hospitality was generous, the banquets were splendid, and the kings listened to the Czechs' troubles and expressed their deep sympathy. Sympathy was the only thing the travellers brought home.\n\nAnd in Rome the new pope, Paul II, had not been idle either. By the time the knights reached the end of the world, his verdict on George was nearly written.",
+      cz: "Z evropského svazu nebylo nic a Jiřího starostí jen přibývalo. Pro mnoho Evropanů byly Čechy prostě zemí plnou kacířů. I [[link:a-europe-five-hundred-years-early-1464]]hostinská v malém francouzském městě[[/link]] věděla, že Čechové si nezaslouží schovat se v jejím hostinci před deštěm.\n\nJiří to tedy zkusil jinak. Minule to byla tichá diplomacie. Tentokrát chtěl celé Evropě otevřeně ukázat, jak Češi doopravdy vypadají.\n\nOficiálně ale cesta s králem neměla nic společného. Vedl ji Jaroslav Lev z Rožmitálu, bratr královny Johany, a průvodní list vydala sama královna. Stálo v něm, že její milý bratr se chystá navštívit různé končiny světa, království, knížectví a země pro rytířské vycvičení, aby poznáním lidských obyčejů a mravů z mnoha stran mohl lépe spořádat svůj život a nabýt osvědčených rytířských zkušeností.\n\n[[b]]Řečeno prostě: šlo o studijní cestu do ciziny schválenou královnou a placenou korunou, jejíž trasa shodou okolností vedla přes dvůr každého významného panovníka v Evropě.[[/b]]\n\nDružina byla pečlivě vybraná: Češi i Němci, kališníci i katolíci, samí urození rytíři, s truhlami plnými drahých darů pro panovníky, které navštíví. Už sama družina byla tichou reklamou. Tohle, říkala, je to kacířské království, o kterém pořád slyšíte.\n\nKoncem listopadu 1465 vyrazilo z Prahy asi čtyřicet mužů, dvaapadesát koní a vůz naložený zavazadly.\n\nProjeli Německem až k proslule nádhernému dvoru burgundského vévody a pak se přeplavili do Anglie. Tam je pozvali na hostinu k oslavě úvodu královny Alžběty po porodu a jeden německý účastník cesty ji popsal:\n\n[[quote:0]]\n\nKdyž královna promluvila s vlastní matkou, matka poklekla.\n\nZ Anglie jeli do Francie, z Francie do Španělska, pořád na západ, až dorazili na mys Finisterre u Atlantiku. Latinsky to jméno znamená „konec země“ a pro tehdejší Evropany za ním už nebylo nic než moře. Hlouček rytířů z vnitrozemských Čech stál na útesech a díval se na oceán bez konce. Nejspíš to bylo nejdál od domova, kam se kdy dostali.\n\nPak pokračovali do Portugalska, vraceli se přes Itálii, zastavili se u císařského dvora a nakonec dojeli domů, víc než rok poté, co vyrazili. O čtyři sta let později jejich dobrodružství převyprávěl Alois Jirásek pod stejným názvem, jaký nese tahle karta.\n\nA výsledek? Každý dvůr byl laskavý. Pohostinnost štědrá, hostiny skvělé, králové vyslechli české starosti a projevili hlubokou soustrast. Soustrast byla jediné, co si cestovatelé přivezli domů.\n\nA v Římě nový papež Pavel II. také nezahálel. Než rytíři dojeli na konec světa, jeho rozsudek nad Jiřím byl skoro napsaný.",
+      zh: "欧洲联盟没办成，可伊日的麻烦一点也没少。在许多欧洲人眼里，波希米亚就是个住满异端的地方，连[[link:a-europe-five-hundred-years-early-1464]]法国小城的客栈老板娘[[/link]]都知道，波希米亚人不配在她店里避雨。\n\n伊日决定换个法子。上一回是悄悄进行的外交，这一回，他要大大方方地让全欧洲看看，捷克人到底长什么样。\n\n不过，这趟出行在名义上和国王毫无关系。领队是王后约翰娜的弟弟，罗日米塔尔的雅罗斯拉夫·列夫，出行的通行文书也是王后亲自签发的。上面写得清清楚楚：她亲爱的弟弟打算游历世界各地的王国、公国和领地，接受骑士的历练，好从各方学习人情风俗，更好地安排自己的人生，积累实打实的骑士经验。\n\n[[b]]说白了，这是一次由王后批准、王室出钱的出国游学，只是游学的路线，恰好经过了欧洲每一位重要君主的宫廷。[[/b]]\n\n队伍是精心挑过的：有捷克人，也有德意志人；有圣杯派，也有天主教徒；个个都是体面的骑士，箱子里装满了送给各国君主的贵重礼物。这支队伍本身就是一句无声的广告：你们说的那个异端王国，就是我们这样的。\n\n1465年11月下旬，四十来个人、五十二匹马和一辆装满行李的补给车，从布拉格出发了。\n\n他们穿过德意志，到了勃艮第公爵那出了名奢华的宫廷，又渡海去了英格兰。在那里，他们赶上了庆祝王后伊丽莎白产后行感恩礼的宴会。随行的一位德意志人是这样记下来的：\n\n[[quote:0]]\n\n王后跟自己的母亲说话时，母亲得跪着回话。\n\n从英格兰到法国，从法国到西班牙，一路往西，一直走到了大西洋边上的菲尼斯特雷角。这个地名在拉丁语里的意思是“大地的尽头”，在当时的欧洲人看来，再往前，就只有海了。一群从内陆波希米亚来的骑士，站在悬崖上看着望不到边的大西洋。这大概是他们这辈子离家最远的时候。\n\n然后他们去了葡萄牙，又绕道意大利，经过皇帝的宫廷，一路走回了家，前前后后走了一年多。四百年后，作家伊拉塞克把这段经历写成了一本书，书名正是这张卡片的标题。\n\n结果呢？各国君主都很客气，招待周到，酒席丰盛，听完捷克人的处境，纷纷表示同情。同情，是他们这一路收到的唯一一样东西。\n\n而在罗马，新教皇保罗二世也没闲着。等这群骑士走到世界尽头的时候，他手里那份针对伊日的判决书，已经快写完了。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Jaroslav_Lev_of_Ro%C5%BEmit%C3%A1l",
+    referenceMaps: {
+      links: [
+        {
+          label: "Jirásek",
+          description: {
+            en: "Alois Jirásek's retelling of the journey, Z Čech až na konec světa, illustrated by Mikoláš Aleš (Czech, free e-book from the Prague City Library)",
+            cz: "Jiráskovo převyprávění cesty Z Čech až na konec světa s ilustracemi Mikoláše Alše (e-kniha Městské knihovny v Praze)",
+            zh: "伊拉塞克讲述这段旅程的书《从波希米亚到世界尽头》，阿莱什插图（捷克文，布拉格市立图书馆免费电子书）",
+          },
+          url: "https://web2.mlp.cz/koweb/00/03/92/94/92/z_cech_az_na_konec_sveta.pdf",
+        },
+      ],
+    },
+  },
+  {
+    slug: "a-sixth-time-1466",
+    era: "lone-king",
+    images: ["/history/a-sixth-time-1466.webp"],
+    imageCaptions: [
+      {
+        en: "A Prague tavern, winter 1466: a young messenger reads out the pope's call for a crusade against Bohemia, and a table of old Hussite veterans, their battle banner and flail still on the wall, bursts out laughing.",
+        cz: "Pražská krčma, zima 1466: mladý posel předčítá papežovu výzvu ke křížové výpravě proti Čechám a stůl starých husitských veteránů, kteří mají na zdi pořád svůj prapor a cep, vybuchne smíchy.",
+        zh: "1466年冬，布拉格的一家小酒馆：年轻的信使念出教皇讨伐波希米亚的十字军诏令，一桌胡斯派老兵哄堂大笑，他们当年的军旗和连枷还挂在墙上。",
+      },
+    ],
+    startYear: 1466.9,
+    year: {
+      en: "1466",
+      cz: "1466",
+      zh: "1466年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Sixth Time? Again?",
+      cz: "Pošesté? Zase?",
+      zh: "第六次，又来？",
+    },
+    hookLine: {
+      en: "The pope declared that George was no longer king and handed out passes to heaven to anyone who would fight him. The Czechs took one look and said: again?",
+      cz: "Papež prohlásil, že Jiří už není králem, a každému, kdo proti němu půjde, rozdával propustky do nebe. Češi se podívali a řekli si: zase?",
+      zh: "教皇宣布伊日不再是国王，还给讨伐他的人发了“去天堂的通行证”。捷克人一看：又来？",
+    },
+    summary: {
+      en: "The new pope, Paul II, was a Venetian from a family of rich merchants. He loved fine clothes and collected jewels, and the papal tiara he had made for himself was said to be worth more than a palace. Legend has it that on his election he wanted to call himself Formosus, \"the handsome one\". Luckily the cardinals talked him out of it: the last pope called Formosus had been dug up after his death and put on trial.\n\nThe handsome pope had no patience whatsoever with George. Piccolomini had at least dealt with the Czechs before and knew the proper order: talk first, then scold, and only then strike. Paul II skipped the first two steps.\n\nOn 23 December 1466, two days before Christmas, the pope passed sentence in Rome. George was a stubborn heretic and his crown was forfeit; his wife and children had no right to inherit it; and the people of Bohemia were released from their oaths to him. In other words, as far as Rome was concerned, Bohemia once again had no king.\n\nA sentence needs someone to carry it out. Straight after it the pope called a crusade against Bohemia, and his legates went preaching all over Germany: anyone who took up arms against the Czech heretics would earn the same indulgence as for fighting the Turks.\n\n[[b]]The crusade that had been meant for the Turks was finally on its way, only now its target was a Christian king.[[/b]]\n\nWhen the news reached Prague, plenty of old men probably laughed out loud.\n\nThirty and forty years earlier the Czechs had already seen five crusades. Emperor, pope and the knights of half of Europe had marched into Bohemia time after time, and time after time the Hussite wagon forts had sent them running and shedding their armour as they went. [[link:they-heard-them-coming-1431]]Once[[/link]], the crusaders had not even caught sight of the enemy: they heard the Hussites' battle hymn and turned and fled.\n\n[[b]]And now the sixth crusade was coming.[[/b]]",
+      cz: "Nový papež Pavel II. byl Benátčan z rodiny bohatých kupců. Miloval nádherné šaty a sbíral drahokamy a papežská tiára, kterou si dal udělat, prý měla větší cenu než palác. Podle pověsti si po zvolení chtěl dát jméno Formosus, „sličný“. Kardinálové mu to naštěstí rozmluvili: posledního papeže jménem Formosus po smrti vykopali z hrobu a postavili před soud.\n\nSličný papež neměl s Jiřím ani špetku trpělivosti. Piccolomini s Čechy aspoň dřív jednal a znal správné pořadí: nejdřív vyjednávat, pak hubovat a teprve potom udeřit. Pavel II. první dva kroky přeskočil.\n\n23. prosince 1466, dva dny před Vánoci, vynesl papež v Římě rozsudek. Jiří je zatvrzelý kacíř a o korunu přišel; jeho manželka a děti nemají právo ji zdědit; a lid českého království je zproštěn přísahy, kterou mu složil. Jinými slovy: z pohledu Říma byly Čechy zase bez krále.\n\nRozsudek ale potřebuje někoho, kdo ho vykoná. Hned nato vyhlásil papež proti Čechám křížovou výpravu a jeho legáti kázali po celém Německu: kdo vezme zbraň proti českým kacířům, dostane stejné odpustky jako za boj s Turky.\n\n[[b]]Křížová výprava chystaná na Turky konečně vyrážela, jenom jejím cílem byl teď křesťanský král.[[/b]]\n\nKdyž ta zpráva dorazila do Prahy, leckterý starý pamětník se nejspíš nahlas zasmál.\n\nPřed třiceti a čtyřiceti lety viděli Češi už pět křížových výprav. Císař, papež a rytíři z půlky Evropy táhli do Čech znovu a znovu a husitské vozové hradby je znovu a znovu hnaly zpátky, až z nich padala zbroj. [[link:they-heard-them-coming-1431]]Jednou[[/link]] křižáci nepřítele ani nezahlédli: uslyšeli husitskou válečnou píseň, otočili se a utekli.\n\n[[b]]A teď přicházela šestá křížová výprava.[[/b]]",
+      zh: "新教皇保罗二世是威尼斯人，出身富商家庭，爱穿华服，爱收藏珠宝，他给自己打造的教皇三重冠，据说比一座宫殿还值钱。传说他当选时本想给自己取名“福尔摩苏斯”，意思是“英俊的人”，好在被枢机们劝住了：上一位叫福尔摩苏斯的教皇，死后被人从坟里挖出来受了审。\n\n这位英俊的教皇对伊日没有半点耐心。皮科洛米尼好歹还跟捷克人打过交道，知道该先谈、再骂、最后才动手；保罗二世跳过了前两步。\n\n1466年12月23日，圣诞节前两天，教皇在罗马正式宣判：伊日是顽固不化的异端，他的王位作废；他的妻子儿女没有继承权；波希米亚的臣民从此不必再遵守对他的誓言。换句话说，在罗马看来，波希米亚又一次没有国王了。\n\n光判不够，还得有人去执行。紧接着，教皇正式号召十字军讨伐波希米亚。他的使节在德意志各地四处布道：凡是拿起武器去打捷克异端的人，都能得到和打土耳其人一样的赎罪券。\n\n[[b]]为了打土耳其人而准备的十字军，终于出发了，只不过，目标换成了一个基督教国王。[[/b]]\n\n这条消息传到布拉格，很多老人大概都笑出了声。\n\n三四十年前，捷克人已经见过整整五次十字军了。皇帝、教皇、半个欧洲的骑士，一次又一次开进波希米亚，又一次又一次被胡斯派的车堡打得丢盔弃甲。[[link:they-heard-them-coming-1431]]有一回[[/link]]，十字军还没见到敌人的影子，光是听见胡斯派的战歌，就掉头跑了。\n\n[[b]]如今，第六次十字军来了。[[/b]]",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Pope_Paul_II",
+  },
+  {
+    slug: "fire-in-the-backyard-1467",
+    era: "lone-king",
+    images: ["/history/fire-in-the-backyard-1467.webp"],
+    imageCaptions: [
+      {
+        en: "Summer 1467: George's soldiers haul the giant cannon they have captured from the crusaders up to the king, while the beaten crusaders and the League's men flee in the distance, leaving their banners in the mud.",
+        cz: "Léto 1467: Jiřího vojáci přivlékají ke králi obří dělo ukořistěné křižákům, zatímco poražení křižáci a muži jednoty v dálce prchají a jejich prapory zůstávají v blátě.",
+        zh: "1467年夏：伊日的士兵把从十字军手里缴获的巨炮拖到国王面前，远处战败的十字军和同盟军四散奔逃，旗子丢在了泥地里。",
+      },
+    ],
+    startYear: 1467,
+    year: {
+      en: "1467",
+      cz: "1467",
+      zh: "1467年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Fire in the Backyard",
+      cz: "Oheň za humny",
+      zh: "后院起火",
+    },
+    hookLine: {
+      en: "The first to answer the pope's call were not foreign crusaders but Czech lords, led by the man who had once been first to kneel before George.",
+      cz: "Na papežovu výzvu se první neozvali cizí křižáci, ale čeští páni, a vedl je muž, který kdysi před Jiřím pokleknul jako první.",
+      zh: "第一个响应教皇号召的不是外国十字军，而是捷克自己的贵族，领头的，正是当年第一个向伊日下跪效忠的人。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "And I too, King, could find plenty of rascals who would revile you even more than your tailor reviles me… You may well understand that I too know how to have things written. But I do not wish to, yet.",
+          cz: "A jáť bych, králi, také dosti chlapuov nalezl, kteříž by Vás ještě více haněli, než mne Váš krejčí haní… I můžete rozuměti tomu, žeť bych já také uměl rozkázati psáti: ale ještě nechci.",
+          zh: "国王啊，我也找得到一大帮无赖，骂起您来，比您那个裁缝骂我还厉害……您该明白，我也懂得叫人写东西。只是，我现在还不想。",
+        },
+        attribution: {
+          en: "Zdeněk of Šternberk, letter of defiance to King George, Zelená Hora, 2 March 1467",
+          cz: "Zdeněk ze Šternberka, odpovědní list králi Jiřímu, Zelená Hora, 2. března 1467",
+          zh: "什特恩贝克的兹德涅克致伊日国王的宣战书，泽列纳霍拉，1467年3月2日",
+        },
+      },
+    ],
+    summary: {
+      en: "A papal sentence needs someone to carry it out, and the first volunteers were already in Bohemia.\n\nTheir story had begun a year earlier. On 28 November 1465, just days after [[link:from-bohemia-to-the-end-of-the-world-1465]]Lev's embassy[[/link]] rode out of Prague, sixteen leading Catholic lords met at Zelená Hora castle and formed a league against the king. While the knights abroad smiled politely for Bohemia at every court in Europe, at home the two sides were close to fighting.\n\nTheir leader was Zdeněk of Šternberk, supreme burgrave of Prague. In 1458 this Catholic lord had backed his kinsman George for the throne, led him to his coronation and been the first to pay him homage. Now he was his chief enemy.\n\nGeorge had treated the Catholic lords generously, but their quarrel was less with his faith than with his power. He built up the royal towns, promoted capable lesser nobles, and tried to win back crown lands that earlier kings had pawned to the great families, and Zdeněk felt himself pushed aside. [[b]]Religion was simply a ready-made banner: a rebellion against a heretic king could count on the pope's support.[[/b]] And it did. In 1467 Paul II confirmed Zdeněk as supreme captain of all Bohemians who stood in obedience to the Holy Father. Catholic Plzeň joined the league too.\n\nThe war began with words. George had Zdeněk denounced before the diet, and his tailor, one Martinek, went about nailing letters accusing Zdeněk of treachery to the pillories. On 2 March 1467 Zdeněk replied from Zelená Hora with a long letter of defiance, which ended in a threat:\n\n[[quote:0]]\n\nSeven weeks later, on 22 April 1467, George declared war on the league.\n\nThis was exactly what the pope had hoped for, and crusaders from the neighbouring lands hurried in to pour oil on the fire. In May the Catholic burghers of Wrocław, Świdnica and Nysa in Silesia attacked Ząbkowice, a town belonging to George's own family. It held out for ten days and fell only when they hauled up an enormous cannon. In July George's army arrived, took the town back and confiscated the cannon, whose stone balls weighed a hundred kilograms each. The crusaders had brought their biggest gun to the war, and George took it home.\n\nInside Bohemia it went the same way. One after another the lords' castles fell to the king, and by the end of the year George's men were besieging Zdeněk's own seat at Konopiště.\n\nThe sixth crusade was going no better than the first five. But the pope had not yet played his strongest card.",
+      cz: "Papežský rozsudek potřebuje někoho, kdo ho vykoná, a první dobrovolníci už byli v Čechách.\n\nJejich příběh začal o rok dřív. 28. listopadu 1465, jen pár dní poté, co z Prahy vyjelo [[link:from-bohemia-to-the-end-of-the-world-1465]]Lvovo poselstvo[[/link]], se na hradě Zelená Hora sešlo šestnáct předních katolických pánů a uzavřeli jednotu proti králi. Zatímco se rytíři v cizině na každém evropském dvoře za Čechy zdvořile usmívali, doma se obě strany chystaly k boji.\n\nVedl je Zdeněk ze Šternberka, nejvyšší purkrabí pražský. Roku 1458 tento katolický pán podpořil na trůn svého příbuzného Jiřího, doprovodil ho ke korunovaci a jako první mu složil hold. Teď byl jeho úhlavním nepřítelem.\n\nJiří ke katolickým pánům přitom přistupoval velkoryse, jenže jim nevadila ani tak jeho víra jako jeho moc. Podporoval královská města, povyšoval schopné nižší šlechtice a snažil se získat zpět korunní statky, které dřívější králové zastavili velkým rodům, a Zdeněk se cítil odstrčený. [[b]]Víra byla jen hotový prapor: vzpoura proti kacířskému králi se mohla spolehnout na papežovu podporu.[[/b]] A spolehla se. Roku 1467 potvrdil Pavel II. Zdeňka za nejvyššího hejtmana všech Čechů stojících v poslušenství Svatého otce. K jednotě se přidala i katolická Plzeň.\n\nVálka začala slovy. Jiří dal Zdeňka pohanět na sněmu a jeho krejčí, jakýsi Martinek, přibíjel po pranýřích listy, které Zdeňka vinily ze zrady. 2. března 1467 odpověděl Zdeněk ze Zelené Hory dlouhým odpovědním listem, který skončil výhrůžkou:\n\n[[quote:0]]\n\nO sedm týdnů později, 22. dubna 1467, vyhlásil Jiří jednotě válku.\n\nPřesně tohle si papež přál, a křižáci ze sousedních zemí se přihnali přilít olej do ohně. V květnu napadli katoličtí měšťané slezské Vratislavi, Svídnice a Nisy Frankenštejn, město patřící Jiřího vlastnímu rodu. Vydrželo deset dní a padlo, až když přivlekli obrovské dělo. V červenci dorazilo Jiřího vojsko, město dobylo zpět a dělo, jehož kamenné koule vážily po sto kilogramech, zabavilo. Křižáci si do války přivezli své největší dělo a Jiří si ho odvezl domů.\n\nV Čechách to šlo stejně. Panské hrady padaly králi jeden za druhým a do konce roku už Jiřího lidé obléhali Zdeňkovo vlastní sídlo Konopiště.\n\nŠestá křížová výprava si nevedla o nic lépe než prvních pět. Papež ale ještě nevynesl svou nejsilnější kartu.",
+      zh: "教皇的判决得有人去执行，而第一批志愿者，就在波希米亚国内。\n\n他们的故事得从一年前讲起。1465年11月28日，[[link:from-bohemia-to-the-end-of-the-world-1465]]列夫的使团[[/link]]刚离开布拉格没几天，十六位天主教大贵族就在泽列纳霍拉城堡聚会，结成了反对国王的同盟。骑士们在欧洲各国的宫廷里替捷克人赔笑脸，家里却已经快打起来了。\n\n领头的是布拉格最高城堡伯爵，什特恩贝克的兹德涅克。1458年，这位天主教贵族支持自己的亲戚伊日登上王位，亲自领着他去加冕，还是第一个向他宣誓效忠的人。如今，他成了伊日头号的敌人。\n\n按理说，伊日对天主教贵族够宽厚了，可他们真正不满的不是他的信仰，而是他的权力。伊日扶持王室城市，提拔有本事的小贵族，还想把前几任国王抵押给大贵族的王室领地一块块收回来，兹德涅克觉得自己被挤到了一边。[[b]]宗教不过是一面现成的旗子：举着它反对一个“异端”国王，就能拿到教皇撑腰。[[/b]]教皇果然撑了腰。1467年，保罗二世正式确认兹德涅克为全波希米亚“服从圣父者”的最高统帅。信天主教的比尔森也加入了同盟。\n\n仗是从笔仗开始的。伊日让人在议会上痛斥兹德涅克，他手下一个叫马丁内克的裁缝，还四处往示众柱上钉告示，指控兹德涅克叛国。1467年3月2日，兹德涅克在泽列纳霍拉写了一封长长的宣战书回敬国王，结尾是一句威胁：\n\n[[quote:0]]\n\n七个星期后，1467年4月22日，伊日向同盟宣战。\n\n这正是教皇想看到的结果，邻国的十字军闻讯前来火上浇油。5月，西里西亚的天主教城市弗罗茨瓦夫、希维德尼察和尼萨的市民，围攻了伊日家族自己的城镇赞布科维采。小城守了十天，直到他们拖来一门巨炮才攻下来。7月，伊日的军队赶到，夺回了城，还顺手没收了那门巨炮，它的石弹每颗重达一百公斤。十字军把最大的炮带到了战场上，伊日把它带回了家。\n\n在波希米亚国内，情形也差不多。贵族们的城堡一座接一座落到国王手里，到年底，伊日的军队已经围住了兹德涅克自己的老窝科诺皮什切。\n\n第六次十字军，打得并不比前五次好。不过，教皇手里最大的那张牌，还没打出来。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "zamek-konopiste",
+        relation: {
+          en: "Zdeněk of Šternberk's own seat, besieged by George's troops at the end of 1467.",
+          cz: "Vlastní sídlo Zdeňka ze Šternberka, které Jiřího vojsko na konci roku 1467 oblehlo.",
+          zh: "什特恩贝克的兹德涅克自己的老窝，1467年底被伊日的军队围困。",
+        },
+      },
+      {
+        slug: "hrad-cesky-sternberk",
+        relation: {
+          en: "The ancestral castle of the Šternberk family, also attacked by George in his war against Zdeněk.",
+          cz: "Rodový hrad Šternberků, na který Jiří ve válce se Zdeňkem rovněž zaútočil.",
+          zh: "什特恩贝克家族的祖传城堡，伊日在讨伐兹德涅克时也攻打过这里。",
+        },
+      },
+      {
+        slug: "plzen",
+        relation: {
+          en: "The staunchly Catholic city that joined the League of Zelená Hora against George.",
+          cz: "Zarytě katolické město, které se přidalo k Zelenohorské jednotě proti Jiřímu.",
+          zh: "坚定的天主教城市，加入了反对伊日的泽列纳霍拉同盟。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Zden%C4%9Bk_of_%C5%A0ternberk",
+  },
 ];
 
 // Era-overview cards live in their own file (see historyOverviews.js).
