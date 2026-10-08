@@ -26,7 +26,7 @@ function Probe() {
       <div data-testid="state">{`${theme}/${lang}`}</div>
       <button onClick={() => setTheme(theme === 'light' ? 'dark' : 'light')}>toggle-theme</button>
       <button onClick={() => changeLang('cz')}>to-cz</button>
-      <button onClick={() => login('tok', { ...USER, preferences: { theme: 'dark', lang: 'en', zhVariant: null } })}>login</button>
+      <button onClick={() => login('tok', { ...USER, preferences: { theme: 'light', lang: 'en', zhVariant: null } })}>login</button>
     </div>
   );
 }
@@ -53,10 +53,10 @@ beforeEach(() => {
 
 test('a restored session applies the preferences saved on the account', async () => {
   localStorage.setItem('token', 'tok');
-  mockGetMe.mockResolvedValue({ data: { user: { ...USER, preferences: { theme: 'light', lang: 'cz', zhVariant: null } } } });
+  mockGetMe.mockResolvedValue({ data: { user: { ...USER, preferences: { theme: 'dark', lang: 'cz', zhVariant: null } } } });
   renderApp();
-  await waitFor(() => expect(screen.getByTestId('state')).toHaveTextContent('light/cz'));
-  expect(document.documentElement.getAttribute('data-theme')).toBe('light');
+  await waitFor(() => expect(screen.getByTestId('state')).toHaveTextContent('dark/cz'));
+  expect(document.documentElement.getAttribute('data-theme')).toBe('dark');
   expect(mockSavePreferences).not.toHaveBeenCalled();
 });
 
@@ -64,7 +64,7 @@ test('an account with no saved preferences gets the current ones', async () => {
   localStorage.setItem('token', 'tok');
   mockGetMe.mockResolvedValue({ data: { user: { ...USER, preferences: { theme: null, lang: null, zhVariant: null } } } });
   renderApp();
-  await waitFor(() => expect(mockSavePreferences).toHaveBeenCalledWith({ theme: 'dark', lang: 'en', zhVariant: 'cn' }));
+  await waitFor(() => expect(mockSavePreferences).toHaveBeenCalledWith({ theme: 'light', lang: 'en', zhVariant: 'cn' }));
 });
 
 test('changes made while signed in are saved', async () => {
@@ -80,9 +80,9 @@ test('changes made while signed in are saved', async () => {
 test('a choice made while signed out (login page) wins over the account and is saved', async () => {
   mockGetMe.mockRejectedValue(new Error('no session'));
   renderApp();
-  await userEvent.click(screen.getByText('toggle-theme')); // dark -> light
+  await userEvent.click(screen.getByText('toggle-theme')); // light -> dark
   await userEvent.click(screen.getByText('to-cz'));
-  await userEvent.click(screen.getByText('login'));     // account says dark/en
-  await waitFor(() => expect(mockSavePreferences).toHaveBeenCalledWith({ theme: 'light', lang: 'cz', zhVariant: 'cn' }));
-  expect(screen.getByTestId('state')).toHaveTextContent('light/cz');
+  await userEvent.click(screen.getByText('login'));     // account says light/en
+  await waitFor(() => expect(mockSavePreferences).toHaveBeenCalledWith({ theme: 'dark', lang: 'cz', zhVariant: 'cn' }));
+  expect(screen.getByTestId('state')).toHaveTextContent('dark/cz');
 });

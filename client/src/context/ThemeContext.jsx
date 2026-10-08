@@ -8,8 +8,9 @@ const THEME_COLOR = { dark: '#ffd700', light: '#9e1b1b' };
 
 const ThemeContext = createContext(null);
 
+// Light unless <html> says dark (light is the default since 2026-10-09).
 function readTheme() {
-  return document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+  return document.documentElement.getAttribute('data-theme') === 'dark' ? 'dark' : 'light';
 }
 
 export function ThemeProvider({ children }) {

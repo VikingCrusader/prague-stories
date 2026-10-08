@@ -26,13 +26,15 @@
     <meta name="apple-mobile-web-app-title" content="Prague" />
     <link rel="apple-touch-icon" href="/pixel-art/app-logo.webp" />
     <script>
-      // Apply the saved light/dark theme before first paint (see ThemeToggle.jsx).
-      try {
-        if (localStorage.getItem('theme') === 'light') {
-          document.documentElement.setAttribute('data-theme', 'light');
-          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#9e1b1b');
-        }
-      } catch (e) {}
+      // Apply the theme before first paint (see ThemeContext.jsx). Light is
+      // the default for new visitors and guests; only a saved 'dark' (or an
+      // account preference, applied after sign-in) gives the dark theme.
+      var theme = 'light';
+      try { if (localStorage.getItem('theme') === 'dark') theme = 'dark'; } catch (e) {}
+      document.documentElement.setAttribute('data-theme', theme);
+      if (theme === 'light') {
+        document.querySelector('meta[name="theme-color"]').setAttribute('content', '#9e1b1b');
+      }
     </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
