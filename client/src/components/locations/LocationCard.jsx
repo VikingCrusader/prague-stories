@@ -7,7 +7,10 @@ import { RARITY_VAR, RARITY_LABEL, lockClosedIcon, lockOpenIcon } from '../../ut
 import { playUnlockSound } from '../../utils/sound';
 import { formatDistance } from '../../utils/geolocation';
 
-function LocationCard({ location, onClick, distance }) {
+// `nearby` (Explore only): a still-locked card within NEARBY_REVEAL_M of the
+// user. It reveals its name, drops the grey filter everywhere except the
+// cover, and the lock wobbles (pixelart.css).
+function LocationCard({ location, onClick, distance, nearby = false }) {
   const { lang } = useLang();
   const convert = useConvert();
   const { labels = [], pixelArtKey, xpReward, rarity = 'common', unlocked, slug } = location;
@@ -22,6 +25,8 @@ function LocationCard({ location, onClick, distance }) {
   const [flipping,    setFlipping]    = useState(false);
   const prevUnlockedRef = useRef(unlocked);
   const labelRef = useRef(null);
+  const teasing = !unlocked && nearby;
+  const showName = unlocked || teasing;
 
   useEffect(() => {
     if (!prevUnlockedRef.current && unlocked) { setFlipping(true); playUnlockSound(rarity); }
@@ -57,14 +62,14 @@ function LocationCard({ location, onClick, distance }) {
 
   return (
     <div
-      className={`loc-card${(!unlocked || flipping) ? ' loc-card--locked' : ''}${flipping ? ' loc-card--flipping' : ''}`}
+      className={`loc-card${(!unlocked || flipping) ? ' loc-card--locked' : ''}${flipping ? ' loc-card--flipping' : ''}${teasing && !flipping ? ' loc-card--nearby' : ''}`}
       onClick={() => onClick(slug)}
-      title={unlocked ? name : '???'}
+      title={showName ? name : '???'}
       data-rarity={rarity}
       style={{ border: `3px solid ${RARITY_VAR[rarity]}` }}
       onAnimationEnd={e => { if (e.animationName === 'card-flip') setFlipping(false); }}
     >
-      <div className="loc-card__banner" style={{ background: color }}>
+      <div className="loc-card__banner" style={{ background: teasing ? 'var(--nearby-banner, #4a4a4a)' : color }}>
         {/* width/height give a lazy cover a square placeholder (covers are
             almost all square) so the card doesn't grow when it loads. */}
         {localCover && !localFailed ? (
@@ -104,10 +109,10 @@ function LocationCard({ location, onClick, distance }) {
       </div>
       <div className="loc-card__body">
         <div>
-          <div className="loc-card__name" style={!unlocked ? { textAlign: 'center' } : { color: RARITY_VAR[rarity] }}>
-            {unlocked ? name : '???'}
+          <div className="loc-card__name" style={!showName ? { textAlign: 'center' } : { color: RARITY_VAR[rarity] }}>
+            {showName ? name : '???'}
           </div>
-          {unlocked && lang !== 'cz' && location.localizedNames?.cz && (
+          {showName && lang !== 'cz' && location.localizedNames?.cz && (
             <div className="loc-card__cz-name">
               {location.localizedNames.cz}
             </div>
@@ -119,7 +124,7 @@ function LocationCard({ location, onClick, distance }) {
               ref={unlocked ? labelRef : null}
               className="label-pill-sm"
               title={unlocked ? LABEL_DEFINITIONS[firstLabel]?.en : undefined}
-              style={{ backgroundColor: unlocked ? (LABEL_COLORS[firstLabel] || 'var(--pill-fallback, rgba(255,255,255,0.07))') : 'var(--pill-fallback, rgba(255,255,255,0.05))' }}
+              style={{ backgroundColor: (unlocked || teasing) ? (LABEL_COLORS[firstLabel] || 'var(--pill-fallback, rgba(255,255,255,0.07))') : 'var(--pill-fallback, rgba(255,255,255,0.05))' }}
             >
               {unlocked
                 ? convert(LABEL_DEFINITIONS[firstLabel]?.[lang] || LABEL_DEFINITIONS[firstLabel]?.en || firstLabel)

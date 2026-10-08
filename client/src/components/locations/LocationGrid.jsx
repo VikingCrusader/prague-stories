@@ -3,6 +3,7 @@ import LocationCard from './LocationCard';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
 import { RARITY_VAR, RARITY_LABEL } from '../../utils/rarity';
+import { NEARBY_REVEAL_M } from '../../utils/geolocation';
 
 const RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
 const RARITY_ORDER = { legend: 0, mythic: 1, epic: 2, superior: 3, rare: 4, common: 5 };
@@ -266,7 +267,13 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
 
       <div className="location-grid">
         {filtered.slice(0, visibleCount).map(loc => (
-          <LocationCard key={loc._id} location={loc} onClick={onCardClick} distance={loc._distance} />
+          <LocationCard
+            key={loc._id}
+            location={loc}
+            onClick={onCardClick}
+            distance={loc._distance}
+            nearby={!loc.unlocked && loc._distance != null && loc._distance <= NEARBY_REVEAL_M}
+          />
         ))}
         {filtered.length === 0 && (
           <p style={{ color: 'var(--text-muted)', gridColumn: '1/-1', padding: 24 }}>

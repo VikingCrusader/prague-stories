@@ -1,3 +1,7 @@
+// Explore: a locked card this close to the user starts revealing itself
+// (name, colours, flickering cover; see LocationCard's `nearby`).
+export const NEARBY_REVEAL_M = 100;
+
 export function formatDistance(m) {
   return m < 1000 ? `${Math.round(m)} m` : `${(m / 1000).toFixed(1)} km`;
 }

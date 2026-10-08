@@ -118,6 +118,30 @@
 }
 .loc-card--locked:hover { filter: saturate(0.25); }
 
+/* Nearby teaser (Explore, locked card within 100 m, 2026-10-08): full
+   colour everywhere except the cover, which stays grey, and the lock
+   wobbles. The banner behind the cover is greyed inline
+   (LocationCard). */
+.loc-card--locked.loc-card--nearby,
+.loc-card--locked.loc-card--nearby:hover { filter: none; }
+.loc-card--nearby .loc-card__banner > img:not(.loc-card__lock),
+.loc-card--nearby .loc-card__banner > span {
+  filter: grayscale(1);
+}
+.loc-card--nearby .loc-card__lock {
+  animation: nearby-wobble 1.4s ease-in-out infinite;
+}
+@keyframes nearby-wobble {
+  0%, 100% { transform: translate(-50%, -50%) rotate(0deg); }
+  20%      { transform: translate(-50%, -50%) rotate(-7deg); }
+  40%      { transform: translate(-50%, -50%) rotate(6deg); }
+  60%      { transform: translate(-50%, -50%) rotate(-4deg); }
+  80%      { transform: translate(-50%, -50%) rotate(2deg); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .loc-card--nearby .loc-card__lock { animation: none; }
+}
+
 .loc-card__banner {
   padding: 20px 12px 16px;
   display: flex;

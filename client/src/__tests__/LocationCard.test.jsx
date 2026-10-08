@@ -14,16 +14,31 @@ const baseLocation = {
   xpReward: 100,
 };
 
-function renderCard(overrides = {}) {
+function renderCard(overrides = {}, props = {}) {
   const location = { ...baseLocation, ...overrides };
   return render(
     <LanguageProvider>
-      <LocationCard location={location} onClick={() => {}} />
+      <LocationCard location={location} onClick={() => {}} {...props} />
     </LanguageProvider>
   );
 }
 
 describe('LocationCard', () => {
+  test('a nearby locked card reveals its name but stays locked', () => {
+    const { container } = renderCard({ unlocked: false }, { nearby: true, distance: 60 });
+    expect(container.querySelector('.loc-card__name')).toHaveTextContent('Charles Bridge');
+    const card = container.querySelector('.loc-card');
+    expect(card).toHaveClass('loc-card--locked');
+    expect(card).toHaveClass('loc-card--nearby');
+    expect(container.querySelector('.loc-card__lock')).toBeInTheDocument();
+    expect(container.querySelector('.label-pill-sm')).toHaveTextContent('???');
+  });
+
+  test('nearby has no effect on an unlocked card', () => {
+    const { container } = renderCard({ unlocked: true }, { nearby: true });
+    expect(container.querySelector('.loc-card')).not.toHaveClass('loc-card--nearby');
+  });
+
   test('shows "???" instead of the real name when locked', () => {
     const { container } = renderCard({ unlocked: false });
     expect(container.querySelector('.loc-card__name')).toHaveTextContent('???');
