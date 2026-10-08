@@ -34,6 +34,18 @@ describe('LocationCard', () => {
     expect(container.querySelector('.label-pill-sm')).toHaveTextContent('???');
   });
 
+  test('shows NEW only for cards collected in the last 48 hours', () => {
+    const hoursAgo = (h) => new Date(Date.now() - h * 3600 * 1000).toISOString();
+    const recent = renderCard({ unlocked: true, _checkedInAt: hoursAgo(5) });
+    expect(recent.container.querySelector('.loc-card__new')).toHaveTextContent('NEW');
+    recent.unmount();
+    const old = renderCard({ unlocked: true, _checkedInAt: hoursAgo(49) });
+    expect(old.container.querySelector('.loc-card__new')).toBeNull();
+    old.unmount();
+    const never = renderCard({ unlocked: true });
+    expect(never.container.querySelector('.loc-card__new')).toBeNull();
+  });
+
   test('nearby has no effect on an unlocked card', () => {
     const { container } = renderCard({ unlocked: true }, { nearby: true });
     expect(container.querySelector('.loc-card')).not.toHaveClass('loc-card--nearby');

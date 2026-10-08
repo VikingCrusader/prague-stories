@@ -7,6 +7,9 @@ import { RARITY_VAR, RARITY_LABEL, lockClosedIcon, lockOpenIcon } from '../../ut
 import { playUnlockSound } from '../../utils/sound';
 import { formatDistance } from '../../utils/geolocation';
 
+// Cards the user collected within this window get a green "NEW" tag.
+const NEW_BADGE_MS = 48 * 60 * 60 * 1000;
+
 // `nearby` (Explore only): a still-locked card within NEARBY_REVEAL_M of the
 // user. It reveals its name, drops the grey filter everywhere except the
 // cover, and the lock wobbles (pixelart.css).
@@ -27,6 +30,8 @@ function LocationCard({ location, onClick, distance, nearby = false }) {
   const labelRef = useRef(null);
   const teasing = !unlocked && nearby;
   const showName = unlocked || teasing;
+  const checkedInMs = location._checkedInAt ? new Date(location._checkedInAt).getTime() : NaN;
+  const isNew = unlocked && !flipping && Date.now() - checkedInMs < NEW_BADGE_MS;
 
   useEffect(() => {
     if (!prevUnlockedRef.current && unlocked) { setFlipping(true); playUnlockSound(rarity); }
@@ -69,6 +74,7 @@ function LocationCard({ location, onClick, distance, nearby = false }) {
       style={{ border: `3px solid ${RARITY_VAR[rarity]}` }}
       onAnimationEnd={e => { if (e.animationName === 'card-flip') setFlipping(false); }}
     >
+      {isNew && <span className="loc-card__new">NEW</span>}
       <div className="loc-card__banner" style={{ background: teasing ? 'var(--nearby-banner, #4a4a4a)' : color }}>
         {/* width/height give a lazy cover a square placeholder (covers are
             almost all square) so the card doesn't grow when it loads. */}

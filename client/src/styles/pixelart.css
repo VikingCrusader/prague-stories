@@ -112,6 +112,33 @@
   .loc-card[data-rarity="legend"]::after { animation: none; display: none; }
 }
 
+/* "NEW" tag on cards collected in the last 48 h (LocationCard). */
+.loc-card__new {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  z-index: 3;
+  padding: 4px 6px 3px;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 8px;
+  line-height: 1;
+  letter-spacing: 1px;
+  color: #ffffff;
+  background: #24852a;
+  border: 2px solid #165c1a;
+  box-shadow: 2px 2px 0 var(--shadow), 0 0 6px 1px rgba(80, 230, 90, 0.55);
+  text-shadow: 0 0 4px rgba(190, 255, 190, 0.8);
+  pointer-events: none;
+  animation: new-glow 1.8s ease-in-out infinite;
+}
+@keyframes new-glow {
+  0%, 100% { box-shadow: 2px 2px 0 var(--shadow), 0 0 4px 0 rgba(80, 230, 90, 0.4); }
+  50%      { box-shadow: 2px 2px 0 var(--shadow), 0 0 12px 3px rgba(80, 230, 90, 0.85); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .loc-card__new { animation: none; }
+}
+
 .loc-card--locked {
   border-color: var(--border-strong, #333);
   filter: saturate(0.15);
