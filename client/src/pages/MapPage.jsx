@@ -253,7 +253,8 @@ function MapSidebarEmpty() {
   const t = useT();
   return (
     <div className="map-sidebar__empty">
-      <img src="/pixel-art/app-logo-transparent.webp" alt="" style={{ width: '75%', height: 'auto', marginBottom: 12 }} />
+      <img className="theme-dark-only" src="/pixel-art/app-logo-transparent.webp" alt="" style={{ width: '75%', height: 'auto', marginBottom: 12 }} />
+      <img className="theme-light-only" src="/app-logo-light.webp" alt="" style={{ width: '75%', height: 'auto', marginBottom: 12 }} />
       <p className="map-sidebar__hint" style={{ lineHeight: 2 }}>
         {t('map.clickMarker')}
       </p>

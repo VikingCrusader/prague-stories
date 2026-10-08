@@ -733,6 +733,10 @@ html:not([data-lang="zh"]) .loc-card__name {
 }
 .navbar__logo:hover { text-decoration: none; }
 .navbar__logo-icon { height: 48px; width: auto; flex-shrink: 0; }
+/* Show an element on one theme only (e.g. the gold logo on dark, its
+   wine-red copy /app-logo-light.webp on light). */
+:root:not([data-theme="light"]) .theme-light-only,
+:root[data-theme="light"] .theme-dark-only { display: none !important; }
 .navbar__links { display: flex; gap: 8px; margin-left: 16px; }
 .navbar__link {
   font-family: 'Press Start 2P', monospace;

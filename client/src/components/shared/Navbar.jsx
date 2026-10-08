@@ -14,7 +14,10 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <span className="navbar__logo" onClick={() => window.location.reload()} style={{ cursor: 'pointer' }}>
-        <img className="navbar__logo-icon" src="/pixel-art/app-logo-transparent.webp" alt="" />
+        {/* Gold logo on the dark theme, wine-red copy on the light theme;
+            CSS shows one or the other (pixelart.css). */}
+        <img className="navbar__logo-icon theme-dark-only" src="/pixel-art/app-logo-transparent.webp" alt="" />
+        <img className="navbar__logo-icon theme-light-only" src="/app-logo-light.webp" alt="" />
         {t('appName')}
       </span>
 
