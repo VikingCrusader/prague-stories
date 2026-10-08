@@ -556,10 +556,15 @@ const T = {
 
 const LanguageContext = createContext(null);
 
+// BCP 47 codes for <html lang>, so the browser hyphenates with the right
+// dictionary (Czech is "cs", not the app's own "cz" key).
+const HTML_LANG = { en: 'en', cz: 'cs', zh: 'zh' };
+
 export function LanguageProvider({ children }) {
   const [lang, setLang] = useState(() => {
     const saved = localStorage.getItem('lang') || 'en';
     document.documentElement.setAttribute('data-lang', saved);
+    document.documentElement.setAttribute('lang', HTML_LANG[saved] || 'en');
     return saved;
   });
   const [zhVariant, setZhVariant] = useState(() => localStorage.getItem('zhVariant') || 'cn');
@@ -568,6 +573,7 @@ export function LanguageProvider({ children }) {
     setLang(l);
     localStorage.setItem('lang', l);
     document.documentElement.setAttribute('data-lang', l);
+    document.documentElement.setAttribute('lang', HTML_LANG[l] || 'en');
   };
 
   const changeZhVariant = (v) => {

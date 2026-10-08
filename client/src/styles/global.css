@@ -364,13 +364,23 @@ html:not([data-lang="zh"]) .history-era-divider__title {
   font-weight: 700;
 }
 
-html:not([data-lang="zh"]) .detail-desc,
 html:not([data-lang="zh"]) .guide-body,
 html:not([data-lang="zh"]) .guide-cat,
 html:not([data-lang="zh"]) .guide-tip,
-html:not([data-lang="zh"]) .guide-faq__a,
-html:not([data-lang="zh"]) .history-event__summary {
+html:not([data-lang="zh"]) .guide-faq__a {
   font-family: "Crimson Pro", serif;
+}
+
+/* History Timeline body copy is Alegreya (2026-10-08, user's pick, after
+   trying EB Garamond and Literata), and Location descriptions too (both
+   LocationDetail and MapPage's sidebar use .detail-desc). EN/CZ only;
+   Guide stays on Crimson Pro. The Cinzel teaser (.detail-desc--teaser)
+   still wins via its compound selector. */
+html:not([data-lang="zh"]) .detail-desc,
+html:not([data-lang="zh"]) .history-event__summary {
+  font-family: "Alegreya", Georgia, serif;
+  /* Alegreya's word space is narrow; widened slightly (2026-10-08). */
+  word-spacing: 0.06em;
 }
 
 /* history.css sets .history-event__summary to 16px/1.6 with no explicit
@@ -382,9 +392,19 @@ html:not([data-lang="zh"]) .history-event__summary {
    swap above; ZH's body copy uses a different font stack and wasn't
    reported as an issue. */
 html:not([data-lang="zh"]) .history-event__summary {
-  font-size: 18px;
-  line-height: 1.75;
-  font-weight: 500;
+  /* User's spec (2026-10-08): warm off-white, 18px/1.7. A 68ch line-length
+     cap was tried and removed: it left a gap beside the full-width hook
+     and images. hyphens relies on <html lang>, set per language in
+     LanguageContext. */
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: #e6e1d3;
+  hyphens: auto;
+  text-wrap: pretty;
+}
+/* Keep the era-overview paragraph's own warmer beige (history.css). */
+html:not([data-lang="zh"]) .history-overview__text {
+  color: #e6d3a3;
 }
 
 /* ── Noto Serif SC/TC ("Source Han Serif") for History Timeline body
