@@ -1,26 +1,11 @@
-import { useState } from 'react';
 import { useT } from '../../context/LanguageContext';
+import { useTheme } from '../../context/ThemeContext';
 
-// Light/dark colour theme switch. The saved choice is applied to <html>
-// before first paint by the inline script in index.html; this only flips
-// it. Colours themselves live in global.css (:root[data-theme="light"]).
-const THEME_COLOR = { dark: '#ffd700', light: '#9e1b1b' };
-
-function readTheme() {
-  return document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
-}
-
+// Navbar sun/moon button that flips the colour theme (see ThemeContext).
 export default function ThemeToggle() {
   const t = useT();
-  const [theme, setTheme] = useState(readTheme);
-
-  const toggle = () => {
-    const next = theme === 'light' ? 'dark' : 'light';
-    setTheme(next);
-    document.documentElement.setAttribute('data-theme', next);
-    document.querySelector('meta[name="theme-color"]')?.setAttribute('content', THEME_COLOR[next]);
-    try { localStorage.setItem('theme', next); } catch { /* storage blocked */ }
-  };
+  const { theme, setTheme } = useTheme();
+  const toggle = () => setTheme(theme === 'light' ? 'dark' : 'light');
 
   const label = t(theme === 'light' ? 'nav.themeDark' : 'nav.themeLight');
   return (

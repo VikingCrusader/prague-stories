@@ -1,5 +1,6 @@
 import jwt from 'jsonwebtoken';
 import User from '../models/User.js';
+import { parsePreferences } from '../utils/preferences.js';
 
 function signToken(userId) {
   return jwt.sign({ id: userId }, process.env.JWT_SECRET, {
@@ -19,7 +20,10 @@ export async function register(req, res, next) {
       return res.status(409).json({ message: 'Email or username already in use' });
     }
 
-    const user = await User.create({ username, email, password });
+    // Display preferences chosen before signing up (optional; bad values
+    // are just dropped rather than failing the registration).
+    const { prefs } = parsePreferences(req.body.preferences);
+    const user = await User.create({ username, email, password, preferences: prefs });
     const token = signToken(user._id);
     res.status(201).json({ token, user: user.toPublicJSON() });
   } catch (err) {

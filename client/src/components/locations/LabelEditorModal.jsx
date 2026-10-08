@@ -35,7 +35,7 @@ export default function LabelEditorModal({ location, onClose, onUpdated }) {
       <div className="px-modal" style={{ maxWidth: 480 }}>
         <button className="px-modal__close" onClick={onClose}>✕</button>
         <div className="px-modal__header" style={{ background: 'var(--bg-surface)', padding: '20px 20px 16px' }}>
-          <h2 className="px-title" style={{ fontSize: 9 }}>Edit Labels — {location.name}</h2>
+          <h2 className="px-title" style={{ fontSize: 20 }}>Edit Labels — {location.name}</h2>
         </div>
         <div className="px-modal__body">
           <div className="label-filter__panel label-filter__panel--inline" style={{ marginBottom: 20 }}>

@@ -22,11 +22,11 @@ export default function ProgressRing({ percent, size = 160 }) {
       />
       {/* text */}
       <text x={cx} y={cx - 10} textAnchor="middle" fill="var(--gold)"
-        fontFamily="'Press Start 2P', monospace" fontSize={Math.round(size * 0.13)}>
+        fontFamily="var(--ui-font-text)" fontWeight="800" fontSize={Math.round(size * 0.2)}>
         {percent}%
       </text>
       <text x={cx} y={cx + 16} textAnchor="middle" fill="var(--text-muted)"
-        fontFamily="'Press Start 2P', monospace" fontSize={Math.round(size * 0.065)}>
+        fontFamily="var(--ui-font)" fontSize={Math.round(size * 0.1)}>
         UNLOCKED
       </text>
     </svg>

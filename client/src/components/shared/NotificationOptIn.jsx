@@ -22,7 +22,7 @@ export default function NotificationOptIn({ onEnable, onDismiss }) {
     }}>
       <span style={{ fontSize: '1.4rem', flexShrink: 0 }}>🔔</span>
       <div style={{ flex: 1, minWidth: 0 }}>
-        <p style={{ fontFamily: "'Press Start 2P'", fontSize: 7, color: 'var(--gold)', marginBottom: 4 }}>
+        <p style={{ fontFamily: "var(--ui-font)", fontSize: 13, color: 'var(--gold)', marginBottom: 4 }}>
           {t('notif.optInTitle')}
         </p>
         <p style={{ fontSize: 12, color: 'var(--text-muted)', lineHeight: 1.5 }}>

@@ -295,7 +295,7 @@ export default function GuidePage() {
   return (
     <div className="guide-page">
       <div className="guide-wrap">
-        <h1 className="px-title" style={{ fontSize: 13, marginBottom: 6 }}>{c.title}</h1>
+        <h1 className="px-title" style={{ fontSize: 26, marginBottom: 6 }}>{c.title}</h1>
         <p className="guide-intro">{c.tagline}</p>
 
         <div className="guide-challenge">

@@ -24,6 +24,17 @@ describe('POST /api/auth/register', () => {
     expect(res.body.user.password).toBeUndefined();
   });
 
+  test('stores valid display preferences sent at sign-up and drops bad ones', async () => {
+    const res = await request(app).post('/api/auth/register').send({
+      username: 'svoboda',
+      email: 'svoboda@test.com',
+      password: 'password123',
+      preferences: { theme: 'light', lang: 'cz', zhVariant: 'nope' },
+    });
+    expect(res.status).toBe(201);
+    expect(res.body.user.preferences).toEqual({ theme: 'light', lang: 'cz', zhVariant: null });
+  });
+
   test('persists a bcrypt-hashed password, not the plaintext', async () => {
     await request(app).post('/api/auth/register').send({
       username: 'novak',

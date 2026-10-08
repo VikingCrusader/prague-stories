@@ -184,8 +184,8 @@ export default function LocationDetail({
             <div className="spinner" />
             <span
               style={{
-                fontFamily: "'Press Start 2P'",
-                fontSize: 8,
+                fontFamily: "var(--ui-font)",
+                fontSize: 14,
                 color: "var(--text-muted)",
               }}
             >
@@ -288,37 +288,20 @@ export default function LocationDetail({
                     right: 0,
                     padding: "14px 18px",
                     background:
-                      "linear-gradient(transparent, rgba(0,0,0,0.85))",
+                      "linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0.6) 40%, rgba(0,0,0,0.9))",
+                    paddingTop: 36,
                     zIndex: 3,
                   }}
                 >
                   <h2
                     className="px-title detail-title-name"
                     style={{
-                      fontSize: 14,
-                      /* Was 2.4 — that huge value was standing in for the
-                         gap before .detail-title-czname below (see its
-                         marginBottom), leaning on the whitespace line-height
-                         adds below a line's glyphs. Line-height applies per
-                         wrapped line though, so a 2-line title got that gap
-                         inserted between its own two lines too, crowding
-                         the actual title-to-czname gap by comparison once a
-                         name wrapped past one line. A normal line-height
-                         plus a real fixed margin-bottom (below) keeps the
-                         gap constant regardless of how many lines wrap. */
-                      lineHeight: lang === "zh" ? undefined : 1.4,
-                      /* 16 is the EN fix above; zh never had the wrapping
-                         problem (its titles read fine at the original
-                         gap) so it stays pinned to the pre-fix value here
-                         rather than inheriting the EN number. */
-                      marginBottom: !loc.localizedNames?.cz
-                        ? 6
-                        : lang === "zh"
-                          ? 2
-                          : lang === "cz"
-                            ? 6
-                            : 16,
-                      color: RARITY_VAR[loc.rarity ?? "common"],
+                      /* Size, weight and shadow live in .detail-title-name
+                         (pixelart.css). The name always sits on a dark
+                         background (cover gradient or label colour), so it
+                         uses the bright rarity colours in both themes. */
+                      marginBottom: loc.localizedNames?.cz ? 4 : 6,
+                      color: `var(--rarity-on-dark-${loc.rarity ?? "common"})`,
                     }}
                   >
                     {locName}
@@ -327,9 +310,9 @@ export default function LocationDetail({
                     <p
                       className="detail-title-czname"
                       style={{
-                        fontFamily: "'Press Start 2P'",
-                        fontSize: 8,
-                        color: "rgba(255,255,255,0.6)",
+                        fontFamily: "var(--ui-font)",
+                        fontSize: 16,
+                        color: "rgba(255,255,255,0.8)",
                         marginBottom: 6,
                       }}
                     >
@@ -340,9 +323,9 @@ export default function LocationDetail({
                     <span
                       style={{
                         marginLeft: 8,
-                        fontSize: 7,
+                        fontSize: 13,
                         color: "#8eff8e",
-                        fontFamily: "'Press Start 2P'",
+                        fontFamily: "var(--ui-font)",
                       }}
                     >
                       {t("common.visited")}
@@ -439,22 +422,12 @@ export default function LocationDetail({
                   <h2
                     className="px-title detail-title-name"
                     style={{
-                      fontSize: 14,
-                      /* See the matching comment on the other instance of
-                         this h2 above — was 2.4, a line-height hack for
-                         title-to-czname spacing that grew per wrapped
-                         line instead of staying constant. */
-                      lineHeight: lang === "zh" ? undefined : 1.4,
-                      /* See the matching comment on the other instance —
-                         16 is EN-only; zh stays at the original 2. */
-                      marginBottom: !loc.localizedNames?.cz
-                        ? 10
-                        : lang === "zh"
-                          ? 2
-                          : lang === "cz"
-                            ? 10
-                            : 16,
-                      color: RARITY_VAR[loc.rarity ?? "common"],
+                      /* Size, weight and shadow live in .detail-title-name
+                         (pixelart.css). The name always sits on a dark
+                         background (cover gradient or label colour), so it
+                         uses the bright rarity colours in both themes. */
+                      marginBottom: loc.localizedNames?.cz ? 4 : 10,
+                      color: `var(--rarity-on-dark-${loc.rarity ?? "common"})`,
                     }}
                   >
                     {locName}
@@ -463,9 +436,9 @@ export default function LocationDetail({
                     <p
                       className="detail-title-czname"
                       style={{
-                        fontFamily: "'Press Start 2P'",
-                        fontSize: 8,
-                        color: "rgba(255,255,255,0.6)",
+                        fontFamily: "var(--ui-font)",
+                        fontSize: 16,
+                        color: "rgba(255,255,255,0.8)",
                         marginBottom: 10,
                       }}
                     >
@@ -476,9 +449,9 @@ export default function LocationDetail({
                     <span
                       style={{
                         marginLeft: 8,
-                        fontSize: 7,
+                        fontSize: 13,
                         color: "#8eff8e",
-                        fontFamily: "'Press Start 2P'",
+                        fontFamily: "var(--ui-font)",
                       }}
                     >
                       {t("common.visited")}
@@ -646,8 +619,8 @@ export default function LocationDetail({
                     <div style={{ textAlign: "center", minWidth: 160 }}>
                       <p
                         style={{
-                          fontFamily: "'Press Start 2P'",
-                          fontSize: 9,
+                          fontFamily: "var(--ui-font)",
+                          fontSize: 15,
                           color: "var(--success-text, #8eff8e)",
                           marginBottom: 8,
                           letterSpacing: 1,
@@ -657,8 +630,8 @@ export default function LocationDetail({
                       </p>
                       <p
                         style={{
-                          fontFamily: "'Press Start 2P'",
-                          fontSize: 8,
+                          fontFamily: "var(--ui-font)",
+                          fontSize: 14,
                           color: "var(--gold)",
                         }}
                       >
@@ -667,8 +640,8 @@ export default function LocationDetail({
                       {checkInResult.bonusApplied && (
                         <p
                           style={{
-                            fontFamily: "'Press Start 2P'",
-                            fontSize: 6,
+                            fontFamily: "var(--ui-font)",
+                            fontSize: 12,
                             color: "var(--pink-text, #ff8ed6)",
                             marginTop: 6,
                           }}
@@ -680,8 +653,8 @@ export default function LocationDetail({
                         <p
                           key={a.id}
                           style={{
-                            fontFamily: "'Press Start 2P'",
-                            fontSize: 6,
+                            fontFamily: "var(--ui-font)",
+                            fontSize: 12,
                             color: "var(--blue-text, #7ec8e3)",
                             marginTop: 6,
                           }}
@@ -704,8 +677,8 @@ export default function LocationDetail({
               {actionLoading && !checkInResult && (
                 <p
                   style={{
-                    fontFamily: "'Press Start 2P'",
-                    fontSize: 7,
+                    fontFamily: "var(--ui-font)",
+                    fontSize: 13,
                     color: "var(--text-muted)",
                     marginTop: 10,
                   }}
@@ -742,9 +715,9 @@ export default function LocationDetail({
                   {loc.createdAt && (
                     <span
                       style={{
-                        fontSize: 7,
+                        fontSize: 13,
                         color: "var(--gold)",
-                        fontFamily: "'Press Start 2P'",
+                        fontFamily: "var(--ui-font)",
                       }}
                     >
                       {`${t("detail.added")}${lang === "zh" ? "" : " "}${t("detail.at")}${lang === "zh" ? "" : " "}${formatDate(loc.createdAt)}`}

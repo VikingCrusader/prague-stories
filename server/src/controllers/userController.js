@@ -2,6 +2,7 @@ import User from '../models/User.js';
 import CheckIn from '../models/CheckIn.js';
 import Location from '../models/Location.js';
 import { ACHIEVEMENTS, LEVELS, calculateLevel, RANDOM_DRAW_WINDOW_MS } from '../services/gamification.js';
+import { parsePreferences } from '../utils/preferences.js';
 
 export async function getProfile(req, res) {
   res.json({ user: req.user.toPublicJSON() });
@@ -149,6 +150,23 @@ export async function getAchievements(req, res) {
     unlockedAt:     req.user?.achievements.find(a => a.id === ach.id)?.unlockedAt ?? null,
   }));
   res.json({ achievements: all, levels: LEVELS });
+}
+
+// Saves any of theme / lang / zhVariant. Partial updates are fine; unknown
+// keys are ignored and a bad value is a 400.
+export async function savePreferences(req, res, next) {
+  try {
+    const { prefs, error } = parsePreferences(req.body);
+    if (error) return res.status(400).json({ message: error });
+    if (Object.keys(prefs).length) {
+      const $set = Object.fromEntries(Object.entries(prefs).map(([k, v]) => [`preferences.${k}`, v]));
+      await User.updateOne({ _id: req.user._id }, { $set });
+    }
+    const user = await User.findById(req.user._id);
+    res.json({ preferences: user.toPublicJSON().preferences });
+  } catch (err) {
+    next(err);
+  }
 }
 
 export async function getHistoryProgress(req, res) {

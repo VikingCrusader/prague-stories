@@ -47,6 +47,7 @@ export const userAPI = {
   drawRandomLocation: () => api.post('/user/random-draw'),
   getHistoryProgress:  ()     => api.get('/user/history-progress'),
   saveHistoryProgress: (slug) => api.put('/user/history-progress', { slug }),
+  savePreferences:     (prefs) => api.put('/user/preferences', prefs),
 };
 
 // Same save as userAPI.saveHistoryProgress, but survives the page being

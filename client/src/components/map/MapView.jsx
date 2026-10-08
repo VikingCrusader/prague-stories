@@ -47,7 +47,7 @@ function Markers({ locations, selectedSlug, onLocationClick, lang, convert }) {
             eventHandlers={{ click: () => onLocationClick(loc.slug) }}
           >
             <Tooltip direction="top" offset={[0, -8]} opacity={0.95}>
-              <span style={{ fontFamily: 'VT323, monospace', fontSize: 16 }}>
+              <span style={{ fontFamily: 'var(--ui-font-text)', fontSize: 15 }}>
                 {loc.unlocked ? '★ ' : '🔒 '}{convert(getLocName(loc, lang))}
               </span>
             </Tooltip>

@@ -32,7 +32,7 @@ export default function AchievementBadge({ achievement, onClick }) {
           </div>
         )}
         {!unlocked && (
-          <div style={{ fontSize: 6, color: 'var(--text-dim, #555)', marginTop: 4, fontFamily: "'Press Start 2P'" }}>
+          <div style={{ fontSize: 12, color: 'var(--text-dim, #555)', marginTop: 4, fontFamily: "var(--ui-font)" }}>
             {t('common.locked')}
           </div>
         )}

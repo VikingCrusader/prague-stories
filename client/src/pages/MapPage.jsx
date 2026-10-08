@@ -292,7 +292,7 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
   if (loading) return (
     <div style={{ padding: 32, display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 12 }}>
       <div className="spinner" />
-      <span style={{ fontFamily: "'Press Start 2P'", fontSize: 7, color: 'var(--text-muted)' }}>{t('common.loading')}</span>
+      <span style={{ fontFamily: "var(--ui-font)", fontSize: 13, color: 'var(--text-muted)' }}>{t('common.loading')}</span>
     </div>
   );
   if (!loc) return null;
@@ -383,9 +383,9 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
       </ImgWrap>
 
       <div style={{ padding: 20 }}>
-        <h3 className="px-title" style={{ fontSize: 14, lineHeight: lang === 'zh' ? undefined : 2.4, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 4 : 12, color: RARITY_VAR[loc.rarity ?? 'common'] }}>{convert(getLocName(loc, lang))}</h3>
+        <h3 className="px-title" style={{ fontSize: 24, lineHeight: lang === 'zh' ? undefined : 1.25, marginBottom: lang !== 'cz' && loc.localizedNames?.cz ? 4 : 12, color: RARITY_VAR[loc.rarity ?? 'common'] }}>{convert(getLocName(loc, lang))}</h3>
         {lang !== 'cz' && loc.localizedNames?.cz && (
-          <p style={{ fontFamily: "'Press Start 2P'", fontSize: 8, color: 'var(--text-muted)', marginBottom: 12 }}>{loc.localizedNames.cz}</p>
+          <p style={{ fontFamily: "var(--ui-font)", fontSize: 14, color: 'var(--text-muted)', marginBottom: 12 }}>{loc.localizedNames.cz}</p>
         )}
         <div className="loc-meta-row" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 6, marginBottom: 4 }}>
           <div style={{ display: 'flex', alignItems: 'center', gap: 6 }}>
@@ -408,7 +408,7 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
         </div>
         {loc.unlocked && loc.checkedInAt && (
           <div style={{ marginBottom: 4 }}>
-            <span style={{ color: 'var(--success-text, #8eff8e)', fontFamily: "'Press Start 2P'", fontSize: 6 }}>
+            <span style={{ color: 'var(--success-text, #8eff8e)', fontFamily: "var(--ui-font)", fontSize: 12 }}>
               {t('common.visited')}
               {`${lang === 'zh' ? '' : ' '}${t('detail.at')}${lang === 'zh' ? '' : ' '}${formatDate(loc.checkedInAt)}`}
             </span>
@@ -466,7 +466,7 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
           </a>
           {loc.createdAt && (
             <div style={{ textAlign: 'right' }}>
-              <span style={{ fontSize: 7, color: 'var(--gold)', fontFamily: "'Press Start 2P'" }}>
+              <span style={{ fontSize: 13, color: 'var(--gold)', fontFamily: "var(--ui-font)" }}>
                 {`${t('detail.added')}${lang === 'zh' ? '' : ' '}${t('detail.at')}${lang === 'zh' ? '' : ' '}${formatDate(loc.createdAt)}`}
               </span>
             </div>

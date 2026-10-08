@@ -12,9 +12,13 @@ export function AuthProvider({ children }) {
   useEffect(() => {
     const token = localStorage.getItem('token');
     if (!token) { setLoading(false); return; }
+    // Only a 401 means the token itself is bad. A network error, a 5xx or
+    // the API cold-starting on Render keeps the token, so a flaky
+    // connection doesn't sign the user out; they're signed in again on the
+    // next load.
     authAPI.getMe()
       .then(res => setUser(res.data.user))
-      .catch(() => localStorage.removeItem('token'))
+      .catch(err => { if (err?.response?.status === 401) localStorage.removeItem('token'); })
       .finally(() => setLoading(false));
   }, []);
 

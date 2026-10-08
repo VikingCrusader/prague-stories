@@ -120,3 +120,30 @@ describe('/api/user/history-progress', () => {
     expect(res.status).toBe(400);
   });
 });
+
+describe('PUT /api/user/preferences', () => {
+  test('requires authentication', async () => {
+    expect((await request(app).put('/api/user/preferences').send({ theme: 'light' })).status).toBe(401);
+  });
+
+  test('starts empty, saves partial updates, and shows up on /auth/me', async () => {
+    const { token } = await createAuthedUser();
+    const auth = { Authorization: `Bearer ${token}` };
+    const before = await request(app).get('/api/auth/me').set(auth);
+    expect(before.body.user.preferences).toEqual({ theme: null, lang: null, zhVariant: null });
+
+    await request(app).put('/api/user/preferences').set(auth).send({ theme: 'light', lang: 'zh' });
+    const res = await request(app).put('/api/user/preferences').set(auth).send({ zhVariant: 'tw' });
+    expect(res.status).toBe(200);
+    expect(res.body.preferences).toEqual({ theme: 'light', lang: 'zh', zhVariant: 'tw' });
+
+    const me = await request(app).get('/api/auth/me').set(auth);
+    expect(me.body.user.preferences).toEqual({ theme: 'light', lang: 'zh', zhVariant: 'tw' });
+  });
+
+  test('rejects an invalid value', async () => {
+    const { token } = await createAuthedUser();
+    const res = await request(app).put('/api/user/preferences').set('Authorization', `Bearer ${token}`).send({ theme: 'purple' });
+    expect(res.status).toBe(400);
+  });
+});

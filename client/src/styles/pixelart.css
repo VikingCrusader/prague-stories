@@ -4,8 +4,8 @@
   align-items: center;
   gap: 6px;
   padding: 10px 18px;
-  font-family: 'Press Start 2P', monospace;
-  font-size: 9px;
+  font-family: var(--ui-font);
+  font-size: 15px;
   border: 3px solid;
   cursor: pointer;
   text-transform: uppercase;
@@ -44,8 +44,8 @@
 }
 .px-btn--danger:hover { background: #cc2222; transform: translate(-1px,-1px); }
 
-.px-btn--sm { padding: 7px 12px; font-size: 7px; }
-.px-btn--lg { padding: 14px 24px; font-size: 11px; }
+.px-btn--sm { padding: 7px 12px; font-size: 13px; }
+.px-btn--lg { padding: 14px 24px; font-size: 17px; }
 
 /* ── Pixel Cards ─────────────────────────────────────────── */
 .px-card {
@@ -119,8 +119,8 @@
   left: 8px;
   z-index: 3;
   padding: 4px 6px 3px;
-  font-family: 'Press Start 2P', monospace;
-  font-size: 8px;
+  font-family: var(--ui-font);
+  font-size: 14px;
   line-height: 1;
   letter-spacing: 1px;
   color: #ffffff;
@@ -275,29 +275,18 @@
 }
 .loc-card__body { padding: 10px 12px 12px; flex: 1; display: flex; flex-direction: column; gap: 8px; min-width: 0; }
 .loc-card__name {
-  font-family: 'Press Start 2P', monospace;
-  font-size: 10px;
+  font-family: var(--ui-font-text);
+  font-size: 17px;
+  font-weight: 800;
   color: var(--text-primary);
   line-height: 1.6;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* Taller glyphs without widening them — font-size scales both axes
-   together on a monospace pixel font, so there's no size number that
-   does this alone. scaleY stretches the rendered glyphs vertically only;
-   horizontal metrics (character width, nowrap/ellipsis truncation, which
-   are computed pre-transform) are untouched. EN/CZ only: .loc-card__name
-   shows the localized name in zh mode too, and stretching CJK glyphs
-   this way visibly distorts them (reported as "拉的那么长") in a way it
-   doesn't for Latin text. */
-html:not([data-lang="zh"]) .loc-card__name {
-  transform: scaleY(1.4);
-  transform-origin: left center;
-}
 .loc-card__cz-name {
-  font-family: 'ArkPixel', monospace;
-  font-size: 13px;
+  font-family: var(--ui-font-text);
+  font-size: 14px;
   font-weight: 600;
   color: var(--text-muted);
   margin-top: 0.5px;
@@ -345,8 +334,8 @@ html:not([data-lang="zh"]) .loc-card__name {
   align-items: center;
   gap: 4px;
   padding: 4px 10px;
-  font-family: 'Press Start 2P', monospace;
-  font-size: 7px;
+  font-family: var(--ui-font);
+  font-size: 13px;
   border: 2px solid var(--border);
   background: var(--bg-surface);
   color: var(--text-muted);
@@ -364,8 +353,8 @@ html:not([data-lang="zh"]) .loc-card__name {
   align-items: center;
   justify-content: center;
   padding: 8px 14px;
-  font-family: 'Press Start 2P', monospace;
-  font-size: 9px;
+  font-family: var(--ui-font);
+  font-size: 15px;
   line-height: 1.5;
   font-weight: 700;
   border: 2px solid var(--shadow);
@@ -412,6 +401,13 @@ html:not([data-lang="zh"]) .loc-card__name {
   font-size: 12px;
   border-width: 2px;
 }
+/* The language label-pill rules (e.g. EN Cinzel 18px in global.css) are
+   more specific than .draw-xp-pill and blew "RARITY 30 XP 90 XP" past the
+   card edge; this outranks them in every language. */
+html .loc-card__labels .label-pill-sm.draw-xp-pill {
+  font-size: 13px;
+  padding: 0 8px;
+}
 .draw-card__xp-old { position: relative; opacity: 0.7; }
 .draw-card__xp-old::after {
   content: '';
@@ -456,7 +452,7 @@ html:not([data-lang="zh"]) .loc-card__name {
 
 /* ── Pixel Title ────────────────────────────────────────── */
 .px-title {
-  font-family: 'Press Start 2P', monospace;
+  font-family: var(--ui-font-text);
   color: var(--gold);
   text-shadow: 2px 2px 0 var(--shadow);
   line-height: 1.6;
@@ -597,16 +593,16 @@ html:not([data-lang="zh"]) .loc-card__name {
 }
 .levelup-modal__inner { position: relative; z-index: 1; }
 .levelup-modal__title {
-  font-family: 'Press Start 2P', monospace;
-  font-size: 15px;
+  font-family: var(--ui-font);
+  font-size: 22px;
   letter-spacing: 1px;
   color: var(--gold);
   text-shadow: 2px 2px 0 var(--shadow), 0 0 12px color-mix(in srgb, var(--gold) 80%, transparent);
   animation: levelup-flicker 1.2s ease-in-out infinite;
 }
 .levelup-modal__num {
-  font-family: 'Press Start 2P', monospace;
-  font-size: 40px;
+  font-family: var(--ui-font-text);
+  font-size: 48px;
   color: #fff;
   text-shadow: 3px 3px 0 var(--shadow), 0 0 20px color-mix(in srgb, var(--gold) 90%, transparent);
   margin: 18px 0 10px;
@@ -674,8 +670,8 @@ html:not([data-lang="zh"]) .loc-card__name {
 .toast {
   padding: 14px 20px;
   border: 3px solid;
-  font-family: 'Press Start 2P', monospace;
-  font-size: 8px;
+  font-family: var(--ui-font);
+  font-size: 14px;
   box-shadow: 4px 4px 0 var(--shadow);
   animation: slideIn 0.2s ease;
   max-width: 320px;
@@ -724,7 +720,7 @@ html:not([data-lang="zh"]) .loc-card__name {
   display: inline-flex;
   align-items: flex-end;
   gap: 8px;
-  font-family: 'Press Start 2P', monospace;
+  font-family: var(--ui-font-text);
   font-size: 17px;
   color: var(--gold);
   text-shadow: 2px 2px 0 var(--shadow);
@@ -739,8 +735,8 @@ html:not([data-lang="zh"]) .loc-card__name {
 :root[data-theme="light"] .theme-dark-only { display: none !important; }
 .navbar__links { display: flex; gap: 8px; margin-left: 16px; }
 .navbar__link {
-  font-family: 'Press Start 2P', monospace;
-  font-size: 11px;
+  font-family: var(--ui-font);
+  font-size: 17px;
   color: var(--text-muted);
   padding: 7px 12px;
   border: 2px solid transparent;
@@ -751,7 +747,7 @@ html:not([data-lang="zh"]) .loc-card__name {
 .navbar__link--active { color: var(--gold); border-color: var(--gold); }
 .navbar__right { margin-left: auto; display: flex; align-items: center; gap: 12px; }
 .navbar__right .lang-tabs { margin-bottom: 0; }
-.navbar__user { font-family: 'Press Start 2P', monospace; font-size: 7px; color: var(--gold); }
+.navbar__user { font-family: var(--ui-font); font-size: 13px; color: var(--gold); }
 .navbar__github { display: flex; align-items: center; color: var(--gold); opacity: 0.85; transition: opacity 0.15s, transform 0.15s; }
 .navbar__github:hover { opacity: 1; transform: scale(1.1); }
 .navbar__theme { display: flex; align-items: center; background: none; border: none; padding: 0; cursor: pointer; color: var(--gold); opacity: 0.85; transition: opacity 0.15s, transform 0.15s; }
@@ -769,18 +765,18 @@ html:not([data-lang="zh"]) .loc-card__name {
    but scoping here too keeps the intent explicit. */
 @media (min-width: 601px) {
   html:not([data-lang="zh"]) .navbar__right .lang-tab:not(.lang-tab--zh) {
-    font-size: 10px;
+    font-size: 16px;
     padding: 6px 16px;
   }
   html:not([data-lang="zh"]) .navbar__user {
-    font-size: 11px;
+    font-size: 17px;
   }
   html:not([data-lang="zh"]) .navbar__right .px-btn--sm {
-    font-size: 10px;
+    font-size: 16px;
     padding: 8px 16px;
   }
   .navbar__right { gap: 14px; }
-  .navbar__github svg { width: 34px; height: 34px; } .navbar__theme svg { width: 30px; height: 30px; }
+  .navbar__github svg { width: 34px; height: 34px; }
   .navbar__theme svg { width: 30px; height: 30px; }
 }
 
@@ -800,10 +796,10 @@ html:not([data-lang="zh"]) .loc-card__name {
   box-shadow: 6px 6px 0 var(--shadow);
   padding: 36px 32px;
 }
-.auth-box h1 { font-size: 14px; margin-bottom: 8px; }
+.auth-box h1 { font-size: 26px; margin-bottom: 8px; }
 .auth-box .subtitle { font-size: 16px; color: var(--text-muted); margin-bottom: 28px; }
 .form-group { display: flex; flex-direction: column; gap: 6px; margin-bottom: 18px; }
-.form-label { font-family: 'Press Start 2P', monospace; font-size: 7px; color: var(--text-muted); }
+.form-label { font-family: var(--ui-font); font-size: 13px; color: var(--text-muted); }
 .form-error { font-size: 14px; color: var(--danger-text, #ff6b6b); margin-top: 6px; }
 .form-link { font-size: 15px; color: var(--text-muted); margin-top: 18px; text-align: center; }
 
@@ -841,8 +837,8 @@ html:not([data-lang="zh"]) .loc-card__name {
   border: 2px solid var(--border);
   background: var(--bg-surface);
   color: var(--text-muted);
-  font-family: 'Press Start 2P', monospace;
-  font-size: 7px;
+  font-family: var(--ui-font);
+  font-size: 13px;
   cursor: pointer;
   transition: all 0.1s;
 }
@@ -887,8 +883,8 @@ html:not([data-lang="zh"]) .loc-card__name {
   padding: 20px 24px;
 }
 .stat-card__label {
-  font-family: 'Press Start 2P', monospace;
-  font-size: 7px;
+  font-family: var(--ui-font);
+  font-size: 13px;
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -920,8 +916,8 @@ html:not([data-lang="zh"]) .loc-card__name {
 .ach-badge__icon { font-size: 28px; flex-shrink: 0; line-height: 1; }
 .ach-badge__text { flex: 1; min-width: 0; }
 .ach-badge__name {
-  font-family: 'Press Start 2P', monospace;
-  font-size: 7px;
+  font-family: var(--ui-font);
+  font-size: 13px;
   color: var(--text-primary);
   line-height: 1.6;
   margin-bottom: 6px;
@@ -952,8 +948,8 @@ html:not([data-lang="zh"]) .loc-card__name {
   background: var(--bg-card);
 }
 .level-badge__num {
-  font-family: 'Press Start 2P', monospace;
-  font-size: 22px;
+  font-family: var(--ui-font-text);
+  font-size: 30px;
   color: var(--gold);
   text-shadow: 2px 2px 0 var(--shadow);
   /* .level-badge is a flex item on narrow/mobile widths (its parent row
@@ -967,30 +963,22 @@ html:not([data-lang="zh"]) .loc-card__name {
 .level-badge__title { font-size: 18px; color: var(--text-primary); }
 
 /* ── Detail Panel (shared by modal + sidebar) ─────────────── */
+/* Location name in the detail view (cover overlay, or the label-coloured
+   header when there's no cover). Was the pixel font at 14px, which got
+   lost against busy cover art (2026-10-09). */
+.detail-title-name {
+  font-family: var(--ui-font-text);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.15;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9), 0 2px 12px rgba(0, 0, 0, 0.6);
+}
+.detail-title-czname { text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9); }
+html[data-lang="zh"] .detail-title-name {
+  font-size: 26px !important;
+  font-weight: 700 !important;
+}
 .detail-art { font-size: 5rem; line-height: 1; }
-/* Same scaleY treatment as .loc-card__name (see that rule's comment) —
-   taller glyphs, same character width, applied to both LocationDetail
-   layouts (cover-image overlay + no-cover-image fallback, which is why
-   this class shows up on two separate <h2>/<p> pairs in the JSX).
-   .detail-title-name is EN/CZ only, same reason as .loc-card__name — it
-   renders the localized (Chinese, in zh mode) name and stretching CJK
-   glyphs distorts them. .detail-title-czname always renders
-   loc.localizedNames.cz literally regardless of UI language, so it's
-   never Chinese text and doesn't need that same guard — but in zh mode
-   it's still scaled back down to 1.0 (below), a separate ask unrelated
-   to the CJK-distortion reason: at 1.4 it read too large sitting under
-   the Chinese name. */
-html:not([data-lang="zh"]) .detail-title-name {
-  transform: scaleY(1.4);
-  transform-origin: left center;
-}
-.detail-title-czname {
-  transform: scaleY(1.4);
-  transform-origin: left center;
-}
-html[data-lang="zh"] .detail-title-czname {
-  transform: scaleY(1);
-}
 .detail-desc { font-size: 18px; line-height: 1.7; color: var(--text-body); }
 /* The locked-card teaser lines ("🔒The archive seems to be locked...")
    appended after .detail-desc — italic by default, same as the inline
@@ -1013,14 +1001,14 @@ html[data-lang="zh"] .detail-title-czname {
   border: 2px solid var(--border);
   background: var(--bg-card);
   color: var(--text-muted);
-  font-family: 'Press Start 2P', 'Noto Sans SC', monospace;
-  font-size: 7px;
+  font-family: var(--ui-font);
+  font-size: 13px;
   cursor: pointer;
   margin-right: -2px;
 }
 .lang-tab--active { border-color: var(--gold); color: var(--gold); background: color-mix(in srgb, var(--gold) 8%, transparent); z-index: 1; }
 .lang-tab.lang-tab--zh {
-  font-family: 'ArkPixel', 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+  font-family: 'LXGW WenKai TC', 'PingFang SC', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
   font-size: 12px;
   font-weight: 700;
 }
@@ -1049,23 +1037,23 @@ html[data-lang="zh"] .detail-title-czname {
 }
 .guide-section { margin-bottom: 28px; }
 .guide-h2 {
-  font-family: 'Press Start 2P', monospace;
-  font-size: 9px;
+  font-family: var(--ui-font-text);
+  font-size: 18px;
   color: var(--gold);
   margin-bottom: 14px;
   letter-spacing: 1px;
 }
 .guide-h3 {
-  font-family: 'Press Start 2P', monospace;
-  font-size: 7px;
+  font-family: var(--ui-font-text);
+  font-size: 15px;
   color: var(--text-primary);
   margin-bottom: 8px;
 }
 .guide-body { font-size: 18px; line-height: 1.55; color: var(--text-primary); margin-bottom: 8px; }
 .guide-step { display: flex; gap: 12px; align-items: flex-start; margin-bottom: 8px; }
 .guide-step-num {
-  font-family: 'Press Start 2P', monospace;
-  font-size: 7px;
+  font-family: var(--ui-font);
+  font-size: 13px;
   color: var(--gold);
   background: color-mix(in srgb, var(--gold) 8%, transparent);
   border: 2px solid var(--gold);
@@ -1102,8 +1090,8 @@ html[data-lang="zh"] .detail-title-czname {
   box-shadow: 3px 3px 0 var(--shadow);
 }
 .guide-faq__q {
-  font-family: 'Press Start 2P', monospace;
-  font-size: 7px;
+  font-family: var(--ui-font-text);
+  font-size: 15px;
   color: var(--gold);
   margin-bottom: 8px;
   line-height: 1.8;
@@ -1146,8 +1134,8 @@ html[data-lang="zh"] .detail-title-czname {
 .draw-card--empty { border-color: var(--gold); }
 .draw-card__mystery-mark { font-size: 3.4rem; filter: grayscale(1) brightness(0.9); }
 .draw-card__mystery-label {
-  font-family: 'Press Start 2P', monospace;
-  font-size: 16px;
+  font-family: var(--ui-font);
+  font-size: 22px;
   letter-spacing: 3px;
   color: var(--text-dim, #555);
 }
@@ -1208,8 +1196,8 @@ html[data-lang="zh"] .detail-title-czname {
   gap: 8px;
 }
 .draw-countdown__time {
-  font-family: 'Press Start 2P', monospace;
-  font-size: 12px;
+  font-family: var(--ui-font);
+  font-size: 18px;
   color: var(--gold);
 }
 
@@ -1267,7 +1255,7 @@ html[data-lang="zh"] .detail-title-czname {
     padding-bottom: 4px;
     justify-content: center;
   }
-  .navbar__link { font-size: 6px; padding: 5px 8px; }
+  .navbar__link { font-size: 12px; padding: 5px 8px; }
   /* Mobile-only Cinzel swap for the nav links — desktop's .navbar__link
      (pixelart.css, outside this media query) stays on Press Start 2P.
      zh excluded, matching every other Cinzel rule in this project. 6px
@@ -1280,16 +1268,16 @@ html[data-lang="zh"] .detail-title-czname {
   }
   .navbar__user { display: none; }
   .lang-tabs { margin-bottom: 0; }
-  .lang-tab { padding: 7px 9px; font-size: 5.5px; }
+  .lang-tab { padding: 7px 9px; font-size: 12px; }
 
   /* Explore */
   .explore-page { padding: 12px 14px; }
   .explore-header__add { display: none; }
-  .filter-btn { font-size: 6px; padding: 5px 8px; }
+  .filter-btn { font-size: 12px; padding: 5px 8px; }
   .filter-bar { flex-direction: column; flex-wrap: nowrap; align-items: stretch; }
   .filter-bar__top { display: flex; gap: 8px; align-items: stretch; }
   .filter-bar__bottom { display: flex; gap: 8px; flex-wrap: wrap; }
-  .filter-bar__add-btn { display: inline-flex; padding: 5px 10px; font-size: 6px; }
+  .filter-bar__add-btn { display: inline-flex; padding: 5px 10px; font-size: 12px; }
   .filter-bar__search { min-width: 0; }
   .filter-bar__bottom > .filter-btn,
   .filter-bar__bottom > .label-filter { flex: 1 1 calc(50% - 4px); min-width: 0; }
@@ -1303,7 +1291,7 @@ html[data-lang="zh"] .detail-title-czname {
     margin-top: 4px;
   }
   .location-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
-  .loc-card__name { font-size: 7.5px; }
+  .loc-card__name { font-size: 15px; }
   .loc-card__cz-name { font-size: 10px; }
   /* Desktop's 16px (global.css, EN/CZ) was overflowing/getting cut off
      on the ~2-column mobile grid's narrower cards — "SUPERIOR 12.4 KM"
@@ -1326,7 +1314,7 @@ html[data-lang="zh"] .detail-title-czname {
   /* Auth + Dashboard + Guide */
   .auth-box { padding: 24px 16px; }
   .dashboard-page { padding: 12px; }
-  .dashboard-title { font-size: 9px !important; word-break: break-word; }
+  .dashboard-title { font-size: 20px !important; word-break: break-word; }
   /* The Locations stat card packs a 140px ring beside its text at
      alignItems: center (see DashboardPage.jsx's inline style) — on a
      narrow phone there isn't enough room left for the text to read
@@ -1337,8 +1325,8 @@ html[data-lang="zh"] .detail-title-czname {
   .rarity-strip-row { flex-wrap: wrap !important; justify-content: flex-start !important; gap: 10px !important; }
   .rarity-strip-row > div { font-size: 13px !important; }
   .guide-page { padding: 12px 14px; }
-  .guide-h2 { font-size: 7.5px; }
-  .guide-faq__q { font-size: 6.5px; }
+  .guide-h2 { font-size: 15px; }
+  .guide-faq__q { font-size: 14px; }
 
   /* Rarity/distance meta row: EN/CZ only — ZH already sized comfortably */
   html:not([data-lang="zh"]) .loc-meta-row {
@@ -1360,5 +1348,5 @@ html[data-lang="zh"] .detail-title-czname {
   html[data-lang="zh"] .label-pill   { font-size: 11px !important; }
   html[data-lang="zh"] .px-btn       { font-size: 12px !important; }
   html[data-lang="zh"] .px-btn--sm   { font-size: 11px !important; }
-  html[data-lang="zh"] .filter-bar__add-btn { font-size: 9px !important; }
+  html[data-lang="zh"] .filter-bar__add-btn { font-size: 13px !important; }
 }

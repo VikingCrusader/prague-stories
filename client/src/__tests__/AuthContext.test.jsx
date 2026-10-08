@@ -1,4 +1,4 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, waitFor } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import '@testing-library/jest-dom';
 
@@ -11,6 +11,7 @@ jest.mock('../services/api', () => ({
 }));
 
 import { AuthProvider, useAuth } from '../context/AuthContext';
+import { authAPI } from '../services/api';
 
 const BASE_USER = { _id: 'u1', username: 'explorer', totalXP: 40, explorerLevel: 1 };
 
@@ -106,5 +107,24 @@ describe('AuthContext — applyProgress', () => {
     // always reports level 2) should no longer count as crossing a boundary.
     await user.click(screen.getByRole('button', { name: 'checkin-level-up' }));
     expect(screen.getByTestId('levelup')).toHaveTextContent('none');
+  });
+});
+
+describe('session restore', () => {
+  afterEach(() => localStorage.clear());
+
+  test('a network error keeps the saved token', async () => {
+    localStorage.setItem('token', 'tok');
+    authAPI.getMe.mockImplementationOnce(() => Promise.reject(new Error('Network Error')));
+    renderHarness();
+    await waitFor(() => expect(authAPI.getMe).toHaveBeenCalled());
+    await waitFor(() => expect(localStorage.getItem('token')).toBe('tok'));
+  });
+
+  test('a 401 drops the saved token', async () => {
+    localStorage.setItem('token', 'tok');
+    authAPI.getMe.mockImplementationOnce(() => Promise.reject({ response: { status: 401 } }));
+    renderHarness();
+    await waitFor(() => expect(localStorage.getItem('token')).toBeNull());
   });
 });

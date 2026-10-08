@@ -124,7 +124,7 @@ export default function AddLocationForm({ onClose, onAdded }) {
           ) : (
             <div style={{ display: 'flex', alignItems: 'center', gap: 16, padding: '20px' }}>
               <span style={{ fontSize: '2rem' }}>📍</span>
-              <h2 className="px-title" style={{ fontSize: 10 }}>{t('add.title')}</h2>
+              <h2 className="px-title" style={{ fontSize: 22 }}>{t('add.title')}</h2>
             </div>
           )}
         </div>

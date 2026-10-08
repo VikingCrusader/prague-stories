@@ -28,6 +28,14 @@ const userSchema = new mongoose.Schema({
     updatedAt: { type: Date, default: null },
     _id: false,
   },
+  // Display preferences (colour theme, language, Chinese script), so they
+  // follow the user to any device. null = never chosen.
+  preferences: {
+    theme:     { type: String, enum: ['dark', 'light', null], default: null },
+    lang:      { type: String, enum: ['en', 'cz', 'zh', null], default: null },
+    zhVariant: { type: String, enum: ['cn', 'tw', null], default: null },
+    _id: false,
+  },
 }, { timestamps: true });
 
 userSchema.pre('save', async function (next) {
@@ -48,6 +56,11 @@ userSchema.methods.toPublicJSON = function () {
     totalXP:       this.totalXP,
     explorerLevel: calculateLevel(this.totalXP).level,
     achievements:  this.achievements,
+    preferences:   {
+      theme:     this.preferences?.theme ?? null,
+      lang:      this.preferences?.lang ?? null,
+      zhVariant: this.preferences?.zhVariant ?? null,
+    },
     createdAt:     this.createdAt,
   };
 };

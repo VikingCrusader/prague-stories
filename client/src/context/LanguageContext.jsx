@@ -575,7 +575,12 @@ export function LanguageProvider({ children }) {
     document.documentElement.setAttribute('lang', HTML_LANG[saved] || 'en');
     return saved;
   });
-  const [zhVariant, setZhVariant] = useState(() => localStorage.getItem('zhVariant') || 'cn');
+  const [zhVariant, setZhVariant] = useState(() => {
+    const saved = localStorage.getItem('zhVariant') || 'cn';
+    // Lets CSS pick fonts per script (e.g. a Simplified-only title font).
+    document.documentElement.setAttribute('data-zh-variant', saved);
+    return saved;
+  });
 
   const changeLang = (l) => {
     setLang(l);
@@ -587,6 +592,7 @@ export function LanguageProvider({ children }) {
   const changeZhVariant = (v) => {
     setZhVariant(v);
     localStorage.setItem('zhVariant', v);
+    document.documentElement.setAttribute('data-zh-variant', v);
   };
 
   return (

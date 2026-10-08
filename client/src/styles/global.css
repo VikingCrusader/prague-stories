@@ -17,6 +17,11 @@
   --gold-shadow: #7a6600;
   --border: #252a4a;
 
+  /* UI typefaces (2026-10-09): Alegreya Sans replaced the Press Start 2P
+     and VT323 pixel fonts; small-caps for labels/buttons. */
+  --ui-font: "Alegreya Sans SC", "Alegreya Sans", sans-serif;
+  --ui-font-text: "Alegreya Sans", sans-serif;
+
   /* Theme-able extras (see the light theme at the end of this file).
      Dark values match the colours these used to be hard-coded as. */
   --shadow: #000;
@@ -44,6 +49,14 @@
   --rarity-epic: #BA55D3;
   --rarity-mythic: #c40202;
   --rarity-legend: #FFD700;
+  /* Bright rarity colours for text that always sits on a dark surface
+     (detail-view title over the cover); not redefined in the light theme. */
+  --rarity-on-dark-common: #EBE8D9;
+  --rarity-on-dark-rare: #87CEEB;
+  --rarity-on-dark-superior: #5fd13a;
+  --rarity-on-dark-epic: #d68ae8;
+  --rarity-on-dark-mythic: #ff5a5a;
+  --rarity-on-dark-legend: #FFD700;
   color-scheme: dark;
 
   --cat-historical: #7a5210;
@@ -59,10 +72,10 @@ body {
 }
 
 body {
-  font-family: "VT323", monospace;
+  font-family: var(--ui-font-text);
   background: var(--bg-primary);
   color: var(--text-primary);
-  font-size: 20px;
+  font-size: 17px;
   line-height: 1.5;
 }
 
@@ -100,25 +113,12 @@ textarea {
   border-radius: 3px;
 }
 
-/* ── Ark Pixel Font (方舟像素字体) — auto-downloaded to client/public/fonts/ ── */
-@font-face {
-  font-family: "ArkPixel";
-  src: url("/fonts/ark-pixel-12px-zh.woff2") format("woff2");
-  font-display: swap;
-  unicode-range: U+3000-9FFF, U+F900-FAFF, U+FF00-FFEF, U+20000-2A6DF;
-}
-@font-face {
-  font-family: "ArkPixel";
-  src: url("/fonts/ark-pixel-12px-latin.woff2") format("woff2");
-  font-display: swap;
-  unicode-range:
-    U+0000-024F, U+0250-02FF, U+2000-206F, U+20A0-20CF, U+2100-214F;
-}
-
 /* ── Chinese font overrides ─────────────────────────────── */
+/* Chinese UI text was the ArkPixel pixel face; switched to LXGW WenKai TC
+   (kaishu) everywhere on 2026-10-09 at the user's request. */
 html[data-lang="zh"] body {
   font-family:
-    "ArkPixel", "Microsoft YaHei", "ZCOOL QingKe HuangYou", "Noto Sans SC",
+    "LXGW WenKai TC", "Microsoft YaHei", "ZCOOL QingKe HuangYou", "Noto Sans SC",
     "PingFang SC", "Hiragino Sans GB", "SimHei", sans-serif;
 }
 
@@ -139,15 +139,15 @@ html[data-lang="zh"] .guide-h3,
 html[data-lang="zh"] .guide-faq__q,
 html[data-lang="zh"] .toast {
   font-family:
-    "ArkPixel", "PingFang SC", "-apple-system", "Microsoft YaHei",
+    "LXGW WenKai TC", "PingFang SC", "-apple-system", "Microsoft YaHei",
     "Noto Sans SC", "SimHei", sans-serif !important;
   letter-spacing: 0 !important;
   text-transform: none !important;
 }
 
-html[data-lang="zh"] [style*="Press Start 2P"] {
+html[data-lang="zh"] [style*="--ui-font"] {
   font-family:
-    "ArkPixel", "PingFang SC", "-apple-system", "Microsoft YaHei",
+    "LXGW WenKai TC", "PingFang SC", "-apple-system", "Microsoft YaHei",
     "Noto Sans SC", "SimHei", sans-serif !important;
   letter-spacing: 0 !important;
 }
@@ -207,7 +207,9 @@ html[data-lang="zh"] .stat-card__label {
   font-size: 14px !important;
 }
 html[data-lang="zh"] .loc-card__name {
-  font-size: 16px !important;
+  font-size: 17px !important;
+  /* WenKai at 400 read too faint for card titles (2026-10-09). */
+  font-weight: 700 !important;
 }
 html[data-lang="zh"] .label-pill {
   font-size: 13px !important;
@@ -233,7 +235,7 @@ html[data-lang="zh"] .guide-faq__q {
   font-size: 15px !important;
   font-weight: 700;
 }
-html[data-lang="zh"] [style*="Press Start 2P"] {
+html[data-lang="zh"] [style*="--ui-font"] {
   font-size: 14px !important;
 }
 
@@ -259,7 +261,6 @@ html:not([data-lang="zh"]) .history-event__hook,
 html:not([data-lang="zh"]) .history-event__quote-text,
 html:not([data-lang="zh"]) .history-event__quote-attribution,
 html:not([data-lang="zh"]) .history-landmark-caption,
-html:not([data-lang="zh"]) .guide-intro,
 html:not([data-lang="zh"]) .history-era-divider__tagline,
 html:not([data-lang="zh"]) .history-era-divider__years,
 html:not([data-lang="zh"]) .history-event__reference-maps-label,
@@ -279,7 +280,6 @@ html:not([data-lang="zh"]) .explore-stats,
 html:not([data-lang="zh"]) .map-sidebar__count,
 html:not([data-lang="zh"]) .map-sidebar__hint,
 html:not([data-lang="zh"]) .map-sidebar__legend,
-html:not([data-lang="zh"]) .guide-challenge,
 html:not([data-lang="zh"]) .guide-h2,
 html:not([data-lang="zh"]) .guide-h3,
 /* Draw page's label + distance chips reuse .detail-label-pill (see
@@ -418,11 +418,19 @@ html:not([data-lang="zh"]) .history-era-divider__title {
   font-weight: 700;
 }
 
+/* Guide, Draw and Dashboard body text in Alegreya Sans (2026-10-09, user
+   request: Cinzel and Crimson Pro read too thin there). Headings on these
+   pages keep their own faces. */
 html:not([data-lang="zh"]) .guide-body,
 html:not([data-lang="zh"]) .guide-cat,
 html:not([data-lang="zh"]) .guide-tip,
-html:not([data-lang="zh"]) .guide-faq__a {
-  font-family: "Crimson Pro", serif;
+html:not([data-lang="zh"]) .guide-faq__a,
+html:not([data-lang="zh"]) .guide-intro,
+html:not([data-lang="zh"]) .guide-challenge {
+  font-family: var(--ui-font-text);
+}
+html:not([data-lang="zh"]) .guide-challenge {
+  font-weight: 500;
 }
 
 /* History Timeline body copy is Alegreya (2026-10-08, user's pick, after
@@ -719,7 +727,7 @@ html:not([data-lang="zh"]) .guide-faq__q {
    element's own declared font-family always wins over an inherited one
    regardless of specificity, so those stay untouched automatically. */
 html:not([data-lang="zh"]) .dashboard-page {
-  font-family: "Cinzel", serif;
+  font-family: var(--ui-font-text);
 }
 
 /* Draw page: all text except the titles goes Cinzel — scoped to
@@ -736,13 +744,13 @@ html:not([data-lang="zh"]) .dashboard-page {
    (h2 sub-titles) are the "titles" this excludes — both already pin
    their own font-family and are left alone. */
 html:not([data-lang="zh"]) .draw-page {
-  font-family: "Cinzel", serif;
+  font-family: var(--ui-font-text);
 }
 html:not([data-lang="zh"]) .draw-page .guide-body {
-  font-family: "Cinzel", serif;
+  font-family: var(--ui-font-text);
 }
 html:not([data-lang="zh"]) .draw-page .draw-countdown__time {
-  font-family: "Cinzel", serif;
+  font-family: var(--ui-font-text);
   font-weight: 700;
   font-size: 15px;
 }
@@ -805,6 +813,59 @@ html:not([data-lang="zh"]) .history-event__year,
 html[data-lang="zh"] .history-event__year {
   font-size: 16px;
   font-weight: 700;
+}
+
+/* Explore page heading in the blackletter Manufacturing Consent, English
+   and Czech (2026-10-09, user request; the font covers Czech diacritics).
+   The inline 13px was sized for the pixel font; blackletter needs much
+   more. */
+html:not([data-lang="zh"]) .explore-title {
+  font-family: "Manufacturing Consent", serif;
+  font-size: 34px !important;
+  font-weight: 400;
+  line-height: 1.2;
+  letter-spacing: 0.01em;
+}
+/* Navbar wordmark ("Prague Stories" / "Pražské příběhy") in the same
+   blackletter, English and Czech (2026-10-09, user request). */
+html:not([data-lang="zh"]) .navbar__logo {
+  font-family: "Manufacturing Consent", serif;
+  font-size: 30px;
+  line-height: 1;
+}
+@media (max-width: 600px) {
+  html:not([data-lang="zh"]) .navbar__logo { font-size: 22px; }
+}
+/* Chinese shows the English wordmark too (Navbar.jsx), so it needs the
+   same face; .navbar in the selector outranks the zh pixel-font and size
+   overrides (including pixelart.css's mobile one, which loads later). */
+html[data-lang="zh"] .navbar .navbar__logo {
+  font-family: "Manufacturing Consent", serif !important;
+  font-size: 30px !important;
+  font-weight: 400 !important;
+  letter-spacing: normal !important;
+  line-height: 1;
+}
+@media (max-width: 600px) {
+  html[data-lang="zh"] .navbar .navbar__logo { font-size: 22px !important; }
+}
+/* Chinese: LXGW WenKai TC bold (kaishu) for both Simplified and
+   Traditional (2026-10-09, user's pick over Ma Shan Zheng). !important to
+   beat the zh .px-title size and font overrides. */
+html[data-lang="zh"] .explore-title {
+  font-family: "LXGW WenKai TC", serif !important;
+  font-size: 34px !important;
+  font-weight: 700 !important;
+  line-height: 1.3;
+  letter-spacing: 0.04em !important;
+}
+/* Simplified: Zhi Mang Xing (xingshu), user's pick (2026-10-09). It has no
+   Traditional forms, so Traditional keeps WenKai above. */
+html[data-lang="zh"]:not([data-zh-variant="tw"]) .explore-title {
+  font-family: "Zhi Mang Xing", "LXGW WenKai TC", serif !important;
+  font-size: 40px !important;
+  font-weight: 400 !important;
+  letter-spacing: 0.02em !important;
 }
 
 /* ── Light theme (2026-10-08) ───────────────────────────────────────

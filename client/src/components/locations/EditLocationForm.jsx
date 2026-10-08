@@ -127,7 +127,7 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
           ) : (
             <div style={{ display: 'flex', alignItems: 'center', gap: 16, padding: '20px' }}>
               <span style={{ fontSize: '2rem' }}>✏️</span>
-              <h2 className="px-title" style={{ fontSize: 10 }}>Edit Location</h2>
+              <h2 className="px-title" style={{ fontSize: 22 }}>Edit Location</h2>
             </div>
           )}
         </div>

@@ -230,7 +230,7 @@ export default function RandomDrawPage() {
   return (
     <div className="guide-page draw-page">
       <div className="guide-wrap">
-        <h1 className="px-title" style={{ fontSize: 13, marginBottom: 6 }}>{t('draw.title')}</h1>
+        <h1 className="px-title" style={{ fontSize: 26, marginBottom: 6 }}>{t('draw.title')}</h1>
         <p className="guide-intro">{t('draw.tagline')}</p>
         <div className="guide-challenge">{t('draw.challenge')}</div>
 

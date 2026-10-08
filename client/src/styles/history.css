@@ -72,7 +72,7 @@
 .history-sidebar__era:last-child { border-bottom: none; }
 
 .history-sidebar__era-title {
-  font-family: 'Press Start 2P', monospace;
+  font-family: var(--ui-font-text);
   font-size: 13px;
   line-height: 1.6;
   color: var(--gold);
@@ -215,7 +215,7 @@
   padding: 0 4px;
 }
 .history-era-divider__title {
-  font-family: 'Press Start 2P', monospace;
+  font-family: var(--ui-font-text);
   font-size: 20px;
   line-height: 1.6;
   color: var(--era-accent, var(--gold));
@@ -339,7 +339,7 @@
   margin-bottom: 6px;
 }
 .history-event__title {
-  font-family: 'Press Start 2P', monospace;
+  font-family: var(--ui-font-text);
   font-size: 14px;
   line-height: 1.7;
   color: var(--text-primary);

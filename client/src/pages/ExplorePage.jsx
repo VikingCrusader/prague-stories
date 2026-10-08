@@ -98,7 +98,7 @@ export default function ExplorePage() {
       <div className="explore-header">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: 12 }}>
           <div>
-            <h1 className="px-title" style={{ fontSize: 13 }}>{t(guest ? 'explore.titleGuest' : 'explore.title')}</h1>
+            <h1 className="px-title explore-title" style={{ fontSize: 13 }}>{t(guest ? 'explore.titleGuest' : 'explore.title')}</h1>
           </div>
           {!guest && (
             <button className="px-btn px-btn--outline explore-header__add" onClick={() => setShowAdd(true)}>

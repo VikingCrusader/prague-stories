@@ -2,12 +2,15 @@ import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { authAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
-import { useT } from '../context/LanguageContext';
+import { useT, useLang } from '../context/LanguageContext';
+import { useTheme } from '../context/ThemeContext';
 
 export default function RegisterPage() {
   const { login } = useAuth();
   const navigate = useNavigate();
   const t = useT();
+  const { lang, zhVariant } = useLang();
+  const { theme } = useTheme();
   const [form, setForm]     = useState({ username: '', email: '', password: '' });
   const [error, setError]   = useState('');
   const [loading, setLoading] = useState(false);
@@ -18,7 +21,7 @@ export default function RegisterPage() {
     e.preventDefault();
     setError(''); setLoading(true);
     try {
-      const res = await authAPI.register(form);
+      const res = await authAPI.register({ ...form, preferences: { theme, lang, zhVariant } });
       login(res.data.token, res.data.user);
       navigate('/explore');
     } catch (err) {
@@ -31,7 +34,7 @@ export default function RegisterPage() {
   return (
     <div className="auth-page">
       <div className="auth-box">
-        <p className="px-title" style={{ fontSize: 15, textAlign: 'center', marginBottom: 20 }}>
+        <p className="px-title" style={{ fontSize: 24, textAlign: 'center', marginBottom: 20 }}>
           <span style={{ fontSize: 22 }}>⚔</span> {t('appName')}
         </p>
         <h1 className="px-title">{t('auth.register')}</h1>

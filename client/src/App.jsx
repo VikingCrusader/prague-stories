@@ -2,6 +2,8 @@ import { useEffect, useState } from 'react';
 import { BrowserRouter, Routes, Route, Navigate, useNavigate } from 'react-router-dom';
 import { AuthProvider, useAuth } from './context/AuthContext';
 import { LanguageProvider } from './context/LanguageContext';
+import { ThemeProvider } from './context/ThemeContext';
+import PreferenceSync from './components/shared/PreferenceSync';
 import Navbar from './components/shared/Navbar';
 import ProtectedRoute from './components/shared/ProtectedRoute';
 import NotificationOptIn from './components/shared/NotificationOptIn';
@@ -55,6 +57,8 @@ export default function App() {
     <BrowserRouter>
       <AuthProvider>
         <LanguageProvider>
+        <ThemeProvider>
+          <PreferenceSync />
           <Navbar />
           <ProximityDetector />
           <LevelUpModal />
@@ -70,6 +74,7 @@ export default function App() {
             <Route path="/history"   element={<ProtectedRoute guestOk><HistoryPage /></ProtectedRoute>} />
             <Route path="*"          element={<Navigate to="/explore" replace />} />
           </Routes>
+        </ThemeProvider>
         </LanguageProvider>
       </AuthProvider>
     </BrowserRouter>

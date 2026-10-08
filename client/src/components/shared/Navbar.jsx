@@ -1,6 +1,6 @@
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
-import { useT } from '../../context/LanguageContext';
+import { useT, useLang } from '../../context/LanguageContext';
 import LanguageSwitcher from './LanguageSwitcher';
 import ThemeToggle from './ThemeToggle';
 
@@ -8,6 +8,7 @@ export default function Navbar() {
   const { user, guest, logout } = useAuth();
   const navigate = useNavigate();
   const t = useT();
+  const { lang } = useLang();
 
   const handleLogout = () => { logout(); navigate('/login'); };
 
@@ -18,7 +19,9 @@ export default function Navbar() {
             CSS shows one or the other (pixelart.css). */}
         <img className="navbar__logo-icon theme-dark-only" src="/pixel-art/app-logo-transparent.webp" alt="" />
         <img className="navbar__logo-icon theme-light-only" src="/app-logo-light.webp" alt="" />
-        {t('appName')}
+        {/* Chinese keeps the English blackletter wordmark (no Chinese face
+            matches it); the page title etc. still use appName. */}
+        {lang === 'zh' ? 'Prague Stories' : t('appName')}
       </span>
 
       {(user || guest) && (

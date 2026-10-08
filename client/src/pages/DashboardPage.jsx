@@ -37,7 +37,7 @@ export default function DashboardPage() {
 
   return (
     <div className="dashboard-page">
-      <h1 className="px-title dashboard-title" style={{ fontSize: guest ? 10 : 13, marginBottom: 20 }}>
+      <h1 className="px-title dashboard-title" style={{ fontSize: guest ? 22 : 26, marginBottom: 20 }}>
         {guest && !user ? t('dashboard.titleGuest') : t('dashboard.title')}
       </h1>
 
@@ -104,7 +104,7 @@ export default function DashboardPage() {
                 {entries.map(([key, def]) => (
                   <div key={key} style={{
                     display: 'flex', alignItems: 'center', gap: 5,
-                    background: 'var(--bg-secondary, #1a1a1a)',
+                    background: 'var(--bg-surface)',
                     border: '2px solid var(--border, #333)',
                     padding: '4px 8px',
                     fontSize: 13,
@@ -150,7 +150,7 @@ export default function DashboardPage() {
 
       {/* Level roadmap */}
       <div style={{ marginTop: 28, marginBottom: 24 }}>
-        <h2 className="px-title" style={{ fontSize: 10, marginBottom: 14 }}>{t('dashboard.explorerLevels')}</h2>
+        <h2 className="px-title" style={{ fontSize: 22, marginBottom: 14 }}>{t('dashboard.explorerLevels')}</h2>
         <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
           {levels.map(lvl => (
             <div
@@ -162,7 +162,7 @@ export default function DashboardPage() {
                 boxShadow: levelInfo.level >= lvl.level ? '3px 3px 0 var(--shadow)' : 'none',
               }}
             >
-              <div style={{ fontFamily: "'Press Start 2P'", fontSize: 7, color: levelInfo.level >= lvl.level ? 'var(--gold)' : 'var(--text-dim, #555)' }}>
+              <div style={{ fontFamily: "var(--ui-font)", fontSize: 13, color: levelInfo.level >= lvl.level ? 'var(--gold)' : 'var(--text-dim, #555)' }}>
                 LVL {lvl.level}
               </div>
               <div style={{ fontSize: 14, color: levelInfo.level >= lvl.level ? 'var(--text-primary)' : 'var(--text-dim, #555)' }}>
@@ -175,7 +175,7 @@ export default function DashboardPage() {
       </div>
 
       {/* Achievements */}
-      <h2 className="px-title" style={{ fontSize: 10, marginBottom: 14 }}>{t('dashboard.achievements')}</h2>
+      <h2 className="px-title" style={{ fontSize: 22, marginBottom: 14 }}>{t('dashboard.achievements')}</h2>
       <div className="achievements-grid">
         {achievements.map(ach => (
           <AchievementBadge key={ach.id} achievement={ach} onClick={() => setSelectedAch(ach)} />
@@ -231,7 +231,7 @@ export default function DashboardPage() {
                   {ach.icon}
                 </span>
                 <div>
-                  <div style={{ fontFamily: "'Press Start 2P'", fontSize: 9, color: ach.unlocked ? 'var(--gold)' : 'var(--text-muted)', lineHeight: 1.6, marginBottom: 8 }}>
+                  <div style={{ fontFamily: "var(--ui-font)", fontSize: 15, color: ach.unlocked ? 'var(--gold)' : 'var(--text-muted)', lineHeight: 1.6, marginBottom: 8 }}>
                     {modalName}
                   </div>
                   {ach.unlocked && ach.unlockedAt && (
@@ -240,7 +240,7 @@ export default function DashboardPage() {
                     </div>
                   )}
                   {!ach.unlocked && (
-                    <div style={{ fontFamily: "'Press Start 2P'", fontSize: 6, color: 'var(--text-dim, #555)' }}>
+                    <div style={{ fontFamily: "var(--ui-font)", fontSize: 12, color: 'var(--text-dim, #555)' }}>
                       {t('common.locked')}
                     </div>
                   )}
