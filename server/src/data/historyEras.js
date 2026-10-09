@@ -223,6 +223,15 @@
 // "The Scramble for the Throne" / "Boje o knížecí stolec" (the standard Czech
 // phrase), naming the era's real story, Přemyslid relatives fighting over
 // the ducal seat, instead of just the polity.
+// And the last era: 'freedom-and-prosperity' (1990–present, 自由与繁荣) became
+// 'freedom-regained', 重获自由 / "Freedom Regained" / "Znovu nabytá svoboda",
+// 1989–present (shared year with 'occupation-and-dissent'). The user's
+// reasoning: the era's mood isn't oppressive, so the title drops the "X与Y"
+// pattern of the 20th-century eras before it, but it isn't plain sailing
+// either (the 2002 floods, the 2023 Charles University shooting), so no
+// "prosperity". The Velvet Divorce stays at the start of this era, not the
+// end of the previous one: it happened in an already free country, and the
+// previous era ends best on the Velvet Revolution.
 //
 // Final era added (2026-08-24, same session): 'freedom-and-prosperity'
 // (order 13) — the Velvet Divorce and everything since (NATO/EU accession,
@@ -755,24 +764,24 @@ export const HISTORY_ERAS = [
     },
   },
   {
-    key: 'freedom-and-prosperity',
+    key: 'freedom-regained',
     order: 21,
-    themeClass: 'era-freedom-and-prosperity',
+    themeClass: 'era-freedom-regained',
     hasContent: false,
     title: {
-      en: 'Freedom and Prosperity',
-      cz: 'Svoboda a prosperita',
-      zh: '自由与繁荣',
+      en: 'Freedom Regained',
+      cz: 'Znovu nabytá svoboda',
+      zh: '重获自由',
     },
     yearRange: {
-      en: '1990–present',
-      cz: '1990–dnes',
-      zh: '1990年－至今',
+      en: '1989–present',
+      cz: '1989–dnes',
+      zh: '1989年－至今',
     },
     tagline: {
-      en: "Communism falls, the country solves its biggest new problem by splitting in two, and the Czech Republic spends the three decades since joining NATO and the EU — while Prague, never quite losing its old-world charm, quietly becomes one of Europe's more comfortable places to live.",
-      cz: "Komunismus padne, země vyřeší svůj největší nový problém tím, že se rozdělí na dva státy, a Česká republika stráví další tři desetiletí vstupem do NATO a EU — zatímco si Praha, aniž by ztratila kus svého starobylého půvabu, tiše najde cestu mezi nejpříjemnější místa k životu v Evropě.",
-      zh: "共产主义倒台，这个国家靠分成两个国家解决了自己最大的新麻烦，此后三十年，捷克共和国一路加入北约、加入欧盟，而布拉格，在保持历史古韵的同时，悄悄把自己变成了欧洲生活最舒适的角落之一。",
+      en: "Communism falls, the country solves its biggest new problem by splitting in two, and the Czech Republic joins NATO and the EU. Not everything goes well: the Vltava still floods, and some years are hard to live through. But for the first time in a long while, Prague gets to face them free.",
+      cz: "Komunismus padne, země vyřeší svůj největší nový problém tím, že se rozdělí na dva státy, a Česká republika vstoupí do NATO a EU. Ne všechno se daří: Vltava se dál rozlévá a některé roky se snášejí těžko. Ale poprvé po dlouhé době jim Praha může čelit svobodná.",
+      zh: "共产主义倒台，这个国家靠分成两个国家解决了自己最大的新麻烦，捷克共和国加入了北约和欧盟。不是每件事都顺心：伏尔塔瓦河照样会涨水，有些年份也很难熬。但这是很久以来的第一次，布拉格可以自由地去面对它们。",
     },
   },
 ];
