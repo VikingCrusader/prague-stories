@@ -168,6 +168,18 @@
 // themselves called it okupace and the troops stayed until 1991. The start
 // year also moved from 1946 to 1945 to close the gap with era 14.
 //
+// Also 2026-10-09: 'habsburgs-move-in' (then 1526–1618) was split at 1583,
+// when Rudolf II moved the imperial court to Prague. 'habsburgs-move-in'
+// keeps "Under the Double-Headed Eagle" for 1526–1583; the new
+// 'age-of-wonders' (order 9, 1583–1618) is the user's 奇珍盛世 /
+// "An Age of Wonders" / "Věk divů", ending on the 1618 defenestration (shared
+// year with 'fire-and-ashes'). 盛世 means material and cultural splendour,
+// not good government (politically it was a slide: Rudolf's illness, the
+// brothers' quarrel, the 1611 Passau invasion). Not named after Rudolf on
+// purpose, see the rejected "Rudolf's Prague" above. Rejected alternatives:
+// 炼金盛世 (alchemy is only half the story and partly legend), 帝都盛世,
+// 浮华盛世, 星辰与炼金.
+//
 // Final era added (2026-08-24, same session): 'freedom-and-prosperity'
 // (order 13) — the Velvet Divorce and everything since (NATO/EU accession,
 // the post-Communist recovery). Tone returns to the earlier-era wry-but-light
@@ -436,19 +448,40 @@ export const HISTORY_ERAS = [
       zh: '双头鹰下',
     },
     yearRange: {
-      en: '1526–1618',
-      cz: '1526–1618',
-      zh: '1526年－1618年',
+      en: '1526–1583',
+      cz: '1526–1583',
+      zh: '1526年－1583年',
     },
     tagline: {
-      en: "A century of borrowed calm under a new royal house, until Prague's oldest political tradition, the window, gets one more memorable encore.",
-      cz: "Století vypůjčeného klidu pod novým královským rodem, než nejstarší pražská politická tradice, okno, zažije ještě jeden nezapomenutelný přídavek.",
-      zh: "在新王朝治下，波希米亚借来了将近一个世纪的平静，直到布拉格最古老的政治传统，也就是那扇窗户，又迎来一次令人难忘的加演。",
+      en: "In 1526 the Bohemian estates elect a Habsburg, and the new house settles in for a long stay. The castle burns, the estates rebel and lose, the Jesuits arrive, and a summer palace in the Italian style goes up in the royal garden.",
+      cz: "Roku 1526 zvolí čeští stavové Habsburka a nový rod se tu zabydlí nadlouho. Hrad vyhoří, stavové se vzbouří a prohrají, přijdou jezuité a v Královské zahradě vyroste letohrádek v italském stylu.",
+      zh: "1526年，波希米亚的等级们选了一位哈布斯堡家的人当国王，这一家就此住了下来，一住就是很久。城堡烧了一回，等级们造了一回反又输了，耶稣会来了，王家花园里盖起了一座意大利式的夏宫。",
+    },
+  },
+  {
+    key: 'age-of-wonders',
+    order: 9,
+    themeClass: 'era-age-of-wonders',
+    hasContent: false,
+    title: {
+      en: 'An Age of Wonders',
+      cz: 'Věk divů',
+      zh: '奇珍盛世',
+    },
+    yearRange: {
+      en: '1583–1618',
+      cz: '1583–1618',
+      zh: '1583年－1618年',
+    },
+    tagline: {
+      en: "An emperor who would rather collect than govern moves his court to Prague and fills the castle with astronomers, alchemists, painters and curiosities from across the world. Then the brothers fall out, the emperor dies, and Prague's oldest political tradition, the window, gets one more memorable encore.",
+      cz: "Císař, který raději sbírá, než vládne, přestěhuje dvůr do Prahy a zaplní hrad astronomy, alchymisty, malíři a kuriozitami z celého světa. Pak se bratři pohádají, císař umře a nejstarší pražská politická tradice, okno, zažije ještě jeden nezapomenutelný přídavek.",
+      zh: "一位爱收藏胜过爱治国的皇帝，把宫廷搬到了布拉格，让城堡里挤满了天文学家、炼金术士、画家，还有从世界各地搜罗来的奇珍异宝。然后兄弟反目，皇帝去世，布拉格最古老的政治传统，也就是那扇窗户，又迎来一次令人难忘的加演。",
     },
   },
   {
     key: 'fire-and-ashes',
-    order: 9,
+    order: 10,
     themeClass: 'era-fire-and-ashes',
     hasContent: false,
     title: {
@@ -469,7 +502,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'baroque-and-darkness',
-    order: 10,
+    order: 11,
     themeClass: 'era-baroque-and-darkness',
     hasContent: false,
     title: {
@@ -490,7 +523,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'age-of-absolutism',
-    order: 11,
+    order: 12,
     themeClass: 'era-age-of-absolutism',
     hasContent: false,
     title: {
@@ -511,7 +544,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'revival-industrialization',
-    order: 12,
+    order: 13,
     themeClass: 'era-revival-industrialization',
     hasContent: false,
     title: {
@@ -532,7 +565,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'brief-independence',
-    order: 13,
+    order: 14,
     themeClass: 'era-brief-independence',
     hasContent: false,
     title: {
@@ -553,7 +586,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'nazi-nightmare',
-    order: 14,
+    order: 15,
     themeClass: 'era-nazi-nightmare',
     hasContent: false,
     title: {
@@ -574,7 +607,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'cold-war-sorrow',
-    order: 15,
+    order: 16,
     themeClass: 'era-cold-war-sorrow',
     hasContent: false,
     title: {
@@ -595,7 +628,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'occupation-and-dissent',
-    order: 16,
+    order: 17,
     themeClass: 'era-occupation-and-dissent',
     hasContent: false,
     title: {
@@ -616,7 +649,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'freedom-and-prosperity',
-    order: 17,
+    order: 18,
     themeClass: 'era-freedom-and-prosperity',
     hasContent: false,
     title: {
