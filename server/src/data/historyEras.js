@@ -205,6 +205,16 @@
 // the user dropped as too cold and one-sided. The National Theatre was
 // considered for the title and rejected as only one card's worth.
 //
+// Also 2026-10-09: 'rise-of-a-kingdom' (then 1199–1346, 77 cards) was split
+// at the 1306 extinction of the Přemyslids. It keeps its key and title for
+// 1199–1306, closing on four-centuries-ended-1306 / seven-kings-then-none-1306;
+// the 25 cards from crowned-twice-1307 on moved to the new
+// 'crown-changes-hands' (order 4, 1306–1346), the user's 王冠易主 /
+// "The Crown Changes Hands" / "Koruna mění majitele". The user preferred it to
+// John-centred titles because several cards are about the 1306–1310
+// interregnum and civil war, not John, and because it shows at a glance that
+// the dynasty broke here.
+//
 // Final era added (2026-08-24, same session): 'freedom-and-prosperity'
 // (order 13) — the Velvet Divorce and everything since (NATO/EU accession,
 // the post-Communist recovery). Tone returns to the earlier-era wry-but-light
@@ -368,19 +378,40 @@ export const HISTORY_ERAS = [
       zh: '王国风云',
     },
     yearRange: {
-      en: '1199–1346',
-      cz: '1199–1346',
-      zh: '1199年－1346年',
+      en: '1199–1306',
+      cz: '1199–1306',
+      zh: '1199年－1306年',
     },
     tagline: {
-      en: "Three dynasties, one battlefield death after another, and a blind king who spends his whole reign setting up his son's punchline.",
-      cz: "Tři dynastie, jedna smrt na bojišti za druhou, a slepý král, který celou svou vládu stráví přípravou vtipu, jehož pointu pronese až jeho syn.",
-      zh: "三个王朝更迭，一次接一次地战死沙场，还有一位失明的国王——耗尽整个统治期，只为给儿子的黄金时代当垫脚石。",
+      en: "The crown finally stays put, silver turns up in the hills, and one king rides as far as the Adriatic. Then a dynasty four centuries old ends in a single afternoon in Olomouc.",
+      cz: "Koruna konečně drží, v kopcích se najde stříbro a jeden král dojede až k Jadranu. Pak čtyři sta let starý rod skončí během jediného odpoledne v Olomouci.",
+      zh: "王冠终于戴稳了，山里挖出了白银，一位国王一路打到了亚得里亚海边。然后，一个延续了四百年的王朝，在奥洛穆茨的一个下午突然断了。",
+    },
+  },
+  {
+    key: 'crown-changes-hands',
+    order: 4,
+    themeClass: 'era-crown-changes-hands',
+    hasContent: true,
+    title: {
+      en: 'The Crown Changes Hands',
+      cz: 'Koruna mění majitele',
+      zh: '王冠易主',
+    },
+    yearRange: {
+      en: '1306–1346',
+      cz: '1306–1346',
+      zh: '1306年－1346年',
+    },
+    tagline: {
+      en: "Foreign claimants take turns on an empty throne, a civil war or two later a family arrives from Luxembourg, and its blind king spends his whole reign setting up his son's punchline.",
+      cz: "Cizí uchazeči se střídají na prázdném trůnu, o občanskou válku či dvě později přichází rod z Lucemburska a jeho slepý král celou svou vládu stráví přípravou vtipu, jehož pointu pronese až jeho syn.",
+      zh: "外来的竞争者轮流坐上空出来的王位，打了一两场内战之后，一个家族从卢森堡来到了这里；它那位失明的国王，耗尽整个统治期，只为给儿子的黄金时代当垫脚石。",
     },
   },
   {
     key: 'kingdom-golden-age',
-    order: 4,
+    order: 5,
     themeClass: 'era-kingdom-golden-age',
     hasContent: true,
     title: {
@@ -401,7 +432,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'religious-turmoil',
-    order: 5,
+    order: 6,
     themeClass: 'era-religious-turmoil',
     hasContent: true,
     title: {
@@ -422,7 +453,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'lone-king',
-    order: 6,
+    order: 7,
     themeClass: 'era-lone-king',
     hasContent: true,
     title: {
@@ -443,7 +474,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'rule-of-the-lords',
-    order: 7,
+    order: 8,
     themeClass: 'era-rule-of-the-lords',
     hasContent: true,
     title: {
@@ -464,7 +495,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'habsburgs-move-in',
-    order: 8,
+    order: 9,
     themeClass: 'era-habsburgs-move-in',
     hasContent: false,
     title: {
@@ -485,7 +516,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'age-of-wonders',
-    order: 9,
+    order: 10,
     themeClass: 'era-age-of-wonders',
     hasContent: false,
     title: {
@@ -506,7 +537,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'fire-and-ashes',
-    order: 10,
+    order: 11,
     themeClass: 'era-fire-and-ashes',
     hasContent: false,
     title: {
@@ -527,7 +558,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'voiceless-years',
-    order: 11,
+    order: 12,
     themeClass: 'era-voiceless-years',
     hasContent: false,
     title: {
@@ -548,7 +579,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'baroque-and-darkness',
-    order: 12,
+    order: 13,
     themeClass: 'era-baroque-and-darkness',
     hasContent: false,
     title: {
@@ -569,7 +600,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'age-of-absolutism',
-    order: 13,
+    order: 14,
     themeClass: 'era-age-of-absolutism',
     hasContent: false,
     title: {
@@ -590,7 +621,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'revival-industrialization',
-    order: 14,
+    order: 15,
     themeClass: 'era-revival-industrialization',
     hasContent: false,
     title: {
@@ -611,7 +642,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'chimneys-and-song',
-    order: 15,
+    order: 16,
     themeClass: 'era-chimneys-and-song',
     hasContent: false,
     title: {
@@ -632,7 +663,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'brief-independence',
-    order: 16,
+    order: 17,
     themeClass: 'era-brief-independence',
     hasContent: false,
     title: {
@@ -653,7 +684,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'nazi-nightmare',
-    order: 17,
+    order: 18,
     themeClass: 'era-nazi-nightmare',
     hasContent: false,
     title: {
@@ -674,7 +705,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'cold-war-sorrow',
-    order: 18,
+    order: 19,
     themeClass: 'era-cold-war-sorrow',
     hasContent: false,
     title: {
@@ -695,7 +726,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'occupation-and-dissent',
-    order: 19,
+    order: 20,
     themeClass: 'era-occupation-and-dissent',
     hasContent: false,
     title: {
@@ -716,7 +747,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'freedom-and-prosperity',
-    order: 20,
+    order: 21,
     themeClass: 'era-freedom-and-prosperity',
     hasContent: false,
     title: {

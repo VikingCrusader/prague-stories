@@ -4889,7 +4889,7 @@ export const historyEvents = [
   },
   {
     slug: "crowned-twice-1307",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1306.3,
     year: {
       en: "1306–1307",
@@ -4947,7 +4947,7 @@ export const historyEvents = [
   },
   {
     slug: "thoroughly-incompetent-king-1307",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1307.5,
     year: {
       en: "1307–1310",
@@ -5014,7 +5014,7 @@ export const historyEvents = [
   },
   {
     slug: "the-fleeing-princess-1310",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1309.5,
     year: {
       en: "1309–1310",
@@ -5073,7 +5073,7 @@ export const historyEvents = [
   },
   {
     slug: "the-two-henrys-1308",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1309.8,
     cardType: "background",
     year: {
@@ -5104,7 +5104,7 @@ export const historyEvents = [
   },
   {
     slug: "capital-changed-hands-thrice-1310",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1310.6,
     year: {
       en: "1310",
@@ -5172,7 +5172,7 @@ export const historyEvents = [
   },
   {
     slug: "dawn-of-the-luxembourgs-1310",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1310.7,
     year: {
       en: "1310",
@@ -5230,7 +5230,7 @@ export const historyEvents = [
   },
   {
     slug: "a-king-who-spoke-no-czech-1311",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1311,
     year: {
       en: "1311",
@@ -5289,7 +5289,7 @@ export const historyEvents = [
   },
   {
     slug: "a-court-at-war-with-itself-1313",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1313,
     year: {
       en: "1313",
@@ -5326,7 +5326,7 @@ export const historyEvents = [
   },
   {
     slug: "the-two-queens-proxy-war-1315",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1315,
     year: {
       en: "1315–1318",
@@ -5415,7 +5415,7 @@ export const historyEvents = [
   },
   {
     slug: "a-marriage-falls-apart-1319",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1319.1,
     year: {
       en: "1319",
@@ -5490,7 +5490,7 @@ export const historyEvents = [
   },
   {
     slug: "a-king-who-stopped-caring-1319",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1319.2,
     year: {
       en: "1319–1321",
@@ -5548,7 +5548,7 @@ export const historyEvents = [
   },
   {
     slug: "egerland-endgame-1322",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1322,
     year: {
       en: "1322",
@@ -5615,7 +5615,7 @@ export const historyEvents = [
   },
   {
     slug: "diplomat-king-1331",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1331,
     year: {
       en: "1331",
@@ -5673,7 +5673,7 @@ export const historyEvents = [
   },
   {
     slug: "the-prince-who-came-to-put-out-the-fire-1333",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1333,
     images: ["/history/the-prince-who-came-to-put-out-the-fire-1333.webp"],
     imageCaptions: [
@@ -5752,7 +5752,7 @@ export const historyEvents = [
   },
   {
     slug: "so-much-to-rebuild-1334",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1334,
     images: ["/history/so-much-to-rebuild-1334-welcome.webp"],
     imageCaptions: [
@@ -5887,7 +5887,7 @@ export const historyEvents = [
   },
   {
     slug: "the-border-that-stuck-1335",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1335,
     imageCaptions: [
       {
@@ -5954,7 +5954,7 @@ export const historyEvents = [
   },
   {
     slug: "crusader-king-loses-his-sight-1336",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1336,
     images: ["/history/crusader-king-loses-his-sight-1336.webp"],
     imageCaptions: [
@@ -6016,7 +6016,7 @@ export const historyEvents = [
   },
   {
     slug: "an-alliance-with-france-1337",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1337,
     imageCaptions: [
       {
@@ -6074,7 +6074,7 @@ export const historyEvents = [
   },
   {
     slug: "what-was-the-hundred-years-war-1337",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1337.2,
     cardType: "background",
     year: {
@@ -6103,7 +6103,7 @@ export const historyEvents = [
   },
   {
     slug: "blindness-not-affection-1341",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1341,
     images: ["/history/blindness-not-affection-1341.webp"],
     imageCaptions: [
@@ -6139,7 +6139,7 @@ export const historyEvents = [
   },
   {
     slug: "father-and-son-at-odds-1342",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1342,
     images: ["/history/father-and-son-at-odds-1342.webp"],
     imageCaptions: [
@@ -6198,7 +6198,7 @@ export const historyEvents = [
   },
   {
     slug: "dawn-over-prague-1344",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1344,
     imageCaptions: [
       {
@@ -6267,7 +6267,7 @@ export const historyEvents = [
   },
   {
     slug: "bishopric-and-archbishopric-1344",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1344.1,
     cardType: "background",
     year: {
@@ -6296,7 +6296,7 @@ export const historyEvents = [
   },
   {
     slug: "a-day-worth-remembering-1346",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1345.9,
     imageCaptions: [
       {
@@ -6340,7 +6340,7 @@ export const historyEvents = [
   },
   {
     slug: "the-wandering-knight-kings-legacy-1346",
-    era: "rise-of-a-kingdom",
+    era: "crown-changes-hands",
     startYear: 1346,
     imageCaptions: [
       {

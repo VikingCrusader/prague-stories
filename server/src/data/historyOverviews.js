@@ -50,16 +50,34 @@ export const historyOverviews = [
     cardType: "overview",
     startYear: 1199,
     tone: "humorous",
-    year: { en: "1199–1346", cz: "1199–1346", zh: "1199年－1346年" },
+    year: { en: "1199–1306", cz: "1199–1306", zh: "1199年－1306年" },
     title: {
       en: "A Crown Worth Fighting For",
       cz: "Koruna, o kterou stálo za to bojovat",
       zh: "一顶值得争的王冠",
     },
     summary: {
-      en: "The crown finally stays put, and the Přemyslids immediately start testing how far it can reach. Silver turns up in the hills, German settlers arrive by invitation, and wooden Prague slowly turns to stone. A princess turns down an emperor, a king nicknamed \"Iron and Golden\" collects duchies all the way to the Adriatic, and a boy king turns silver into a coin the whole region ends up copying. Then the story changes hands: a new family arrives from Luxembourg with a fourteen-year-old king who speaks no Czech, and years later his son comes home to a kingdom badly in need of repairs.",
-      cz: "Koruna konečně drží a Přemyslovci okamžitě zkoušejí, kam až dosáhne. V kopcích se objeví stříbro, na pozvání přicházejí němečtí osadníci a dřevěná Praha se pomalu mění v kamennou. Princezna odmítne císaře, král přezdívaný „železný a zlatý“ sbírá vévodství až k Jadranu a chlapec na trůně promění stříbro v minci, kterou nakonec napodobí celý region. Pak příběh změní majitele: z Lucemburska přichází nový rod se čtrnáctiletým králem, který neumí česky, a o léta později se jeho syn vrací domů do království, které nutně potřebuje opravit.",
-      zh: "王冠终于戴稳了，普热米斯尔家族马上开始试探它的手能伸多远。山里挖出了白银，德意志移民受邀而来，木头搭的布拉格慢慢变成了石头城。一位公主拒绝了皇帝的求婚，一位外号“铁与金”的国王把公国一路收集到了亚得里亚海边，一位少年国王把白银铸成了整个地区后来都照着铸的钱币。然后，故事换了主人：一个新家族从卢森堡来到这里，带着一位不会说捷克语的十四岁国王。许多年后，他的儿子回到故土，看到的是一个急需修缮的王国。",
+      en: "The crown finally stays put, and the Přemyslids immediately start testing how far it can reach. Silver turns up in the hills, German settlers arrive by invitation, and wooden Prague slowly turns to stone. A princess turns down an emperor, a king nicknamed \"Iron and Golden\" collects duchies all the way to the Adriatic, and a boy king turns silver into a coin the whole region ends up copying. For a hundred years it looks as though the Přemyslids will never run out of heirs.",
+      cz: "Koruna konečně drží a Přemyslovci okamžitě zkoušejí, kam až dosáhne. V kopcích se objeví stříbro, na pozvání přicházejí němečtí osadníci a dřevěná Praha se pomalu mění v kamennou. Princezna odmítne císaře, král přezdívaný „železný a zlatý“ sbírá vévodství až k Jadranu a chlapec na trůně promění stříbro v minci, kterou nakonec napodobí celý region. Celých sto let to vypadá, že Přemyslovcům dědicové nikdy nedojdou.",
+      zh: "王冠终于戴稳了，普热米斯尔家族马上开始试探它的手能伸多远。山里挖出了白银，德意志移民受邀而来，木头搭的布拉格慢慢变成了石头城。一位公主拒绝了皇帝的求婚，一位外号“铁与金”的国王把公国一路收集到了亚得里亚海边，一位少年国王把白银铸成了整个地区后来都照着铸的钱币。整整一百年里，看上去普热米斯尔家族的继承人永远也用不完。",
+    },
+  },
+  {
+    slug: "era-guide-crown-changes-hands",
+    era: "crown-changes-hands",
+    cardType: "overview",
+    startYear: 1306,
+    tone: "humorous",
+    year: { en: "1306–1346", cz: "1306–1346", zh: "1306年－1346年" },
+    title: {
+      en: "Help Wanted: King",
+      cz: "Hledá se král",
+      zh: "诚聘国王",
+    },
+    summary: {
+      en: "With the old dynasty gone, the Bohemian crown goes to whoever can grab it. A Habsburg wears it for less than a year, a duke of Carinthia proves so useless that his own nobles go looking for a replacement, and a teenage princess slips out of Prague in secret to marry the replacement herself. The new family comes from Luxembourg, and its king is fourteen and speaks no Czech. He turns out to be a knight in love with tournaments, crusades and other people's wars, who comes home mostly when he needs money, while his queen, his barons and in the end his own son argue over who actually runs the kingdom.",
+      cz: "Starý rod je pryč a česká koruna připadne tomu, kdo ji dokáže urvat. Habsburk ji nosí necelý rok, korutanský vévoda se ukáže tak neschopný, že mu vlastní páni začnou hledat náhradu, a dospívající princezna tajně uprchne z Prahy, aby si tu náhradu sama vzala. Nový rod přichází z Lucemburska a jeho král je čtrnáctiletý a neumí česky. Ukáže se, že je to rytíř zamilovaný do turnajů, křížových výprav a cizích válek, který se domů vrací hlavně tehdy, když potřebuje peníze, zatímco jeho královna, jeho páni a nakonec i vlastní syn se přou o to, kdo tu vlastně vládne.",
+      zh: "老王朝没了，波希米亚的王冠成了谁抢到就归谁的东西。一位哈布斯堡家的人戴了不到一年，一位克恩滕公爵无能到连自己手下的贵族都开始替他物色接班人，一位十几岁的公主偷偷逃出布拉格，亲自去嫁给那个接班人。新的家族来自卢森堡，新国王十四岁，一句捷克语也不会说。后来大家发现，他是个迷恋比武、十字军和别人家战争的骑士，缺钱的时候才回家，留下王后、贵族，最后连他自己的儿子，为了到底谁说了算争个不停。",
     },
   },
   {
