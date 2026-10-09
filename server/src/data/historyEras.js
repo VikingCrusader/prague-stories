@@ -214,6 +214,10 @@
 // John-centred titles because several cards are about the 1306–1310
 // interregnum and civil war, not John, and because it shows at a glance that
 // the dynasty broke here.
+// Era 3 was then retitled from 王国风云 / "The Rise of a Kingdom" to 兴衰迭起 /
+// "Rises and Falls" / "Vzestupy a pády", so that two neighbouring ZH titles
+// don't both start with 王, and because the era rose and fell more than once
+// (Otakar II's empire and Marchfeld, Wenceslas II's revival, the 1306 end).
 //
 // Final era added (2026-08-24, same session): 'freedom-and-prosperity'
 // (order 13) — the Velvet Divorce and everything since (NATO/EU accession,
@@ -373,9 +377,9 @@ export const HISTORY_ERAS = [
     themeClass: 'era-rise-of-a-kingdom',
     hasContent: true,
     title: {
-      en: 'The Rise of a Kingdom',
-      cz: 'Vzestup království',
-      zh: '王国风云',
+      en: 'Rises and Falls',
+      cz: 'Vzestupy a pády',
+      zh: '兴衰迭起',
     },
     yearRange: {
       en: '1199–1306',
