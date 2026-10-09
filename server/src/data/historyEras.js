@@ -218,6 +218,11 @@
 // "Rises and Falls" / "Vzestupy a pády", so that two neighbouring ZH titles
 // don't both start with 王, and because the era rose and fell more than once
 // (Otakar II's empire and Marchfeld, Wenceslas II's revival, the 1306 end).
+// Same day, the first two eras got four-character ZH titles: 传说与起源 →
+// 传说溯源 (EN/CZ unchanged), and 波希米亚公国 / "Duchy of Bohemia" → 群公逐鹿 /
+// "The Scramble for the Throne" / "Boje o knížecí stolec" (the standard Czech
+// phrase), naming the era's real story, Přemyslid relatives fighting over
+// the ducal seat, instead of just the polity.
 //
 // Final era added (2026-08-24, same session): 'freedom-and-prosperity'
 // (order 13) — the Velvet Divorce and everything since (NATO/EU accession,
@@ -337,7 +342,7 @@ export const HISTORY_ERAS = [
     title: {
       en: 'Legends & Origins',
       cz: 'Legendy a počátky',
-      zh: '传说与起源',
+      zh: '传说溯源',
     },
     yearRange: {
       en: 'Prehistory – 800',
@@ -356,9 +361,9 @@ export const HISTORY_ERAS = [
     themeClass: 'era-bohemian-duchy',
     hasContent: true,
     title: {
-      en: 'Duchy of Bohemia',
-      cz: 'České knížectví',
-      zh: '波希米亚公国',
+      en: 'The Scramble for the Throne',
+      cz: 'Boje o knížecí stolec',
+      zh: '群公逐鹿',
     },
     yearRange: {
       en: '870–1198',
