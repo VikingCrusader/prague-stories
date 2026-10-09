@@ -33458,6 +33458,43 @@ Byl postaven pro okázalost a pro davy. Konaly se tu korunovační hostiny, ryt�
 🎁 彩蛋：进来的时候看一眼骑士阶梯，想象一下穿着全副盔甲骑马爬上来的样子。然后抬头看看拱顶，试着顺着一根肋条从一面墙看到另一面墙。大多数人还没看到一半就放弃了。里德可是清楚得很，他就是要你看晕。`,
     },
   },
+  {
+    // Added 2026-10-09 at the user's request (coordinates user-supplied).
+    // The former 1932 café of the Štvanice winter stadium, now a club.
+    name: 'Fuchs2',
+    slug: 'fuchs2',
+    localizedNames: { cz: 'Fuchs2', zh: 'Fuchs2俱乐部' },
+    labels: ['cultural', 'architecture', 'historical'],
+    coordinates: { lat: 50.09525067761187, lng: 14.436343038159771 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Zimn%C3%AD_stadion_%C5%A0tvanice',
+    description: {
+      en: `Welcome to Fuchs2, a small white functionalist building on Štvanice Island that has outlived the giant it was built to serve. It began as the café of Prague's famous winter stadium, then spent decades as a disco, and now hosts electronic and alternative music. The stadium is gone. The café is still dancing.
+
+The architect was Josef Fuchs, one of the designers of the Trade Fair Palace across the river in Holešovice. In 1930 he started work on a winter stadium for Štvanice, the first arena in Czechoslovakia with artificial ice. The first match was played on 17 January 1931, before the building was even finished, and seven thousand people came to watch. The stadium officially opened in November 1932, together with its café, built in the same clean, flat-roofed functionalist style. In 1947 the Czechoslovak national team won its first ever world championship on this ice. The stadium was roofed over in 1956, hosted its last championship in 1959, and after that served only for public skating.
+
+The café, meanwhile, found a second career. From the 1980s it was a disco, known in its heyday as Face2Face and later under names such as Kamikaze. The stadium itself, declared a cultural monument in 2000, was demolished in 2011 because of its poor condition, and only the café building with the old stand survived, thanks partly to Prague cultural groups who fought for it. Since December 2018 it has been Fuchs2, a club for up to 650 people, named after the architect.
+
+🎁 Bonus: Fuchs designed the stadium for hockey heroes and the café for their fans, but the building that survived is the one where people came to sit down. Today they come here to do the opposite.`,
+
+      cz: `Vítejte ve Fuchs2, malé bílé funkcionalistické stavbě na Štvanici, která přežila obra, kvůli němuž vznikla. Začínala jako kavárna slavného zimního stadionu, desítky let byla diskotékou a dnes tu hraje elektronická a alternativní hudba. Stadion je pryč. Kavárna pořád tančí.
+
+Architektem byl Josef Fuchs, jeden z autorů Veletržního paláce na druhém břehu v Holešovicích. Roku 1930 začal stavět zimní stadion na Štvanici, první arénu v Československu s umělým ledem. První zápas se tu hrál 17. ledna 1931, ještě než byla stavba hotová, a přišlo se na něj podívat sedm tisíc lidí. Oficiálně se stadion otevřel v listopadu 1932 i s kavárnou ve stejném čistém funkcionalistickém stylu s plochou střechou. Roku 1947 tu na ledě získala československá reprezentace svůj vůbec první titul mistrů světa. V roce 1956 dostal stadion střechu, poslední šampionát se tu odehrál v roce 1959 a pak už sloužil jen veřejnému bruslení.
+
+Kavárna si mezitím našla druhou kariéru. Od 80. let byla diskotékou, v době největší slávy známou jako Face2Face, později třeba jako Kamikaze. Samotný stadion, prohlášený roku 2000 za kulturní památku, byl v roce 2011 kvůli špatnému stavu zbořen a zůstala jen budova kavárny se starou tribunou, mimo jiné díky pražským kulturním spolkům, které se za ni postavily. Od prosince 2018 je z ní Fuchs2, klub pro 650 lidí pojmenovaný po svém architektovi.
+
+🎁 Bonus: Fuchs navrhl stadion pro hokejové hrdiny a kavárnu pro jejich fanoušky, jenže přežila právě ta budova, kam si lidé chodili sednout. Dnes sem chodí dělat pravý opak.`,
+
+      zh: `欢迎来到Fuchs2，施特瓦尼采岛上一栋白色的功能主义小楼。它当年是为一个庞然大物服务的，结果那个庞然大物没了，它还在。它起初是布拉格那座著名冰场的咖啡馆，后来当了几十年迪斯科舞厅，如今放的是电子乐和另类音乐。冰场拆了，咖啡馆还在跳舞。
+
+设计者是建筑师约瑟夫·福克斯，河对岸霍莱绍维采那座贸易博览宫，就有他的一份。1930年，他开始在岛上建造冬季体育场，这是捷克斯洛伐克第一座人工冰面的场馆。1931年1月17日，场馆还没完工，第一场比赛就开打了，来了七千名观众。1932年11月，体育场正式开放，旁边的咖啡馆也一同落成，同样是干净利落的平顶功能主义风格。1947年，捷克斯洛伐克国家队就在这块冰面上拿到了队史第一个世界冠军。1956年体育场加了顶棚，1959年办完最后一届锦标赛，此后只供市民滑冰。
+
+咖啡馆则另谋了出路。从20世纪80年代起，它成了迪斯科舞厅，最红的时候叫Face2Face，后来又叫过Kamikaze等名字。体育场本身在2000年被列为文化遗产，却还是因为年久失修，于2011年被拆除，只剩下咖啡馆和那座老看台，这也多亏了几个布拉格文化团体出面力保。2018年12月起，它改名Fuchs2，成了能容纳650人的俱乐部，名字取自它的建筑师。
+
+🎁 彩蛋：福克斯设计体育场是给冰球英雄的，设计咖啡馆是给看球的观众坐下歇脚的。结果活下来的偏偏是这栋让人坐着的楼，而如今人们来这儿，干的正好是相反的事。`,
+    },
+  },
 ];
 
 async function run() {

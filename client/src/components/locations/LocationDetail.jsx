@@ -321,6 +321,7 @@ export default function LocationDetail({
                   )}
                   {loc.unlocked && (
                     <span
+                      className="detail-collected"
                       style={{
                         marginLeft: 8,
                         fontSize: 13,
@@ -447,6 +448,7 @@ export default function LocationDetail({
                   )}
                   {loc.unlocked && (
                     <span
+                      className="detail-collected"
                       style={{
                         marginLeft: 8,
                         fontSize: 13,

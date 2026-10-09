@@ -108,7 +108,13 @@ function EventCard({ event, onOpenLandmark, onNavigateToEvent, sectionRef }) {
 
       {showBody && (
         <>
-          <p className="history-event__hook">{convert(event.hookLine[lang] || event.hookLine.en)}</p>
+          <p className="history-event__hook">
+            {/* Four ornamental corners (history.css). */}
+            {['tl', 'tr', 'bl', 'br'].map((c) => (
+              <span key={c} className={`history-event__hook-corner history-event__hook-corner--${c}`} aria-hidden="true" />
+            ))}
+            {convert(event.hookLine[lang] || event.hookLine.en)}
+          </p>
           {/* summary supports multi-paragraph text: split on \n and filter blank
               lines, same convention LocationDetail uses for `description`, so a
               '\n\n' in the source data renders as a paragraph break instead of

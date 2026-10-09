@@ -354,14 +354,35 @@
   text-decoration: none;
 }
 .history-event__title-link:hover { color: var(--gold); }
+/* Hook line: framed by four small ornamental corners instead of a border
+   (2026-10-09, user request; was a plain left bar, then briefly a double
+   line). Same mirrored-mask technique as the era-overview corners further
+   down, but a much quieter drawing (user: not showy): a thin rounded
+   bracket with one small dot inside the bend. Kept unlike the quote
+   box below (full single line, tinted fill, big quotation marks), so the
+   author's opening line never reads as a primary-source quote. */
 .history-event__hook {
+  position: relative;
   font-size: 17px;
   font-style: italic;
   color: var(--gold);
-  border-left: 3px solid var(--gold);
-  padding-left: 12px;
-  margin-bottom: 14px;
+  padding: 12px 22px;
+  margin: 4px 0 18px;
 }
+.history-event__hook-corner {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  background: var(--gold);
+  opacity: 0.7;
+  pointer-events: none;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27 fill=%27none%27 stroke=%27black%27 stroke-width=%271.5%27 stroke-linecap=%27round%27%3E%3Cpath d=%27M3 29 V10 Q3 3 10 3 H29%27/%3E%3Ccircle cx=%279%27 cy=%279%27 r=%271.6%27 fill=%27black%27 stroke=%27none%27/%3E%3C/svg%3E") no-repeat center / contain;
+          mask: url("data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 32 32%27 fill=%27none%27 stroke=%27black%27 stroke-width=%271.5%27 stroke-linecap=%27round%27%3E%3Cpath d=%27M3 29 V10 Q3 3 10 3 H29%27/%3E%3Ccircle cx=%279%27 cy=%279%27 r=%271.6%27 fill=%27black%27 stroke=%27none%27/%3E%3C/svg%3E") no-repeat center / contain;
+}
+.history-event__hook-corner--tl { top: 0; left: 0; }
+.history-event__hook-corner--tr { top: 0; right: 0; transform: scaleX(-1); }
+.history-event__hook-corner--bl { bottom: 0; left: 0; transform: scaleY(-1); }
+.history-event__hook-corner--br { bottom: 0; right: 0; transform: scale(-1, -1); }
 .history-event__summary {
   font-size: 16px;
   line-height: 1.6;

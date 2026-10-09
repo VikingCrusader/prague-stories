@@ -52,7 +52,7 @@ export default function Navbar() {
         <LanguageSwitcher />
         {user ? (
           <>
-            <span className="navbar__user">{user.totalXP}XP LV{user.explorerLevel}</span>
+            <span className="navbar__user">{(user.totalXP ?? 0).toLocaleString(lang === 'cz' ? 'cs-CZ' : 'en-US')} XP · Lv {user.explorerLevel}</span>
             <button className="px-btn px-btn--dark px-btn--sm" onClick={handleLogout}>{t('nav.logout')}</button>
           </>
         ) : guest ? (

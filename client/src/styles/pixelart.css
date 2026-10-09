@@ -284,6 +284,13 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+/* EN/CZ card names in the History Timeline title face (Palatino, bold;
+   2026-10-09, user request). The Czech subtitle line and ZH names keep
+   their own fonts. */
+html:not([data-lang="zh"]) .loc-card__name {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", serif;
+  font-weight: 700;
+}
 .loc-card__cz-name {
   font-family: var(--ui-font-text);
   font-size: 14px;
@@ -742,6 +749,13 @@ html .loc-card__labels .label-pill-sm.draw-xp-pill {
   border: 2px solid transparent;
   transition: color 0.15s, border-color 0.15s;
   text-decoration: none;
+}
+/* EN/CZ nav links use the History Timeline title face (Palatino, bold;
+   2026-10-09, user request). ZH keeps its own override in global.css. */
+html:not([data-lang="zh"]) .navbar__link {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", serif;
+  font-size: 18px;
+  font-weight: 700;
 }
 .navbar__link:hover { color: var(--text-primary); text-decoration: none; }
 .navbar__link--active { color: var(--gold); border-color: var(--gold); }
@@ -1256,15 +1270,9 @@ html[data-lang="zh"] .detail-title-name {
     justify-content: center;
   }
   .navbar__link { font-size: 12px; padding: 5px 8px; }
-  /* Mobile-only Cinzel swap for the nav links — desktop's .navbar__link
-     (pixelart.css, outside this media query) stays on Press Start 2P.
-     zh excluded, matching every other Cinzel rule in this project. 6px
-     (the plain rule right above, tuned for Press Start 2P) read too
-     small/thin in Cinzel, hence the bump here too. */
+  /* Mobile size for the EN/CZ Palatino nav links (desktop rule above). */
   html:not([data-lang="zh"]) .navbar__link {
-    font-family: "Cinzel", serif;
-    font-size: 9px;
-    font-weight: 700;
+    font-size: 13px;
   }
   .navbar__user { display: none; }
   .lang-tabs { margin-bottom: 0; }

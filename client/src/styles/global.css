@@ -613,8 +613,8 @@ html[data-lang="zh"] .history-event__quote-attribution {
    there's no synthetic-slant problem to guard against like the two rules
    above). */
 /* Face/weight come from --zh-caption-font/--zh-caption-weight: Kaiti 300
-   on dark, heiti 500 on light (2026-10-08, user request: the small
-   captions read too low-contrast on the light theme). Covers both the
+   on dark; on light, heiti 500 from 2026-10-08 (too low-contrast), then
+   Kaiti 400 in wine red (--zh-caption-color) from 2026-10-09. Covers both the
    landmark relation captions and the image captions. */
 html[data-lang="zh"] .history-landmark-caption {
   font-family: var(--zh-caption-font) !important;
@@ -623,7 +623,7 @@ html[data-lang="zh"] .history-landmark-caption {
      below, which bumps this class to solid white for the same reason:
      history.css's default var(--text-muted) #7a6e5f reads too thin/low-
      contrast against the dark background). */
-  color: var(--text-strong, #ffffff);
+  color: var(--zh-caption-color, var(--text-strong, #ffffff));
 }
 
 /* .history-event__landmarks-label ("See it for yourself" / "亲自去看看",
@@ -924,8 +924,10 @@ html[data-lang="zh"]:not([data-zh-variant="tw"]) .explore-title {
   --card-shadow: rgba(58, 38, 18, 0.6);
   --zh-body-font: "Noto Sans SC", "Noto Sans TC", "PingFang SC", "Microsoft YaHei", sans-serif;
   --zh-body-weight: 500;
-  --zh-caption-font: "Noto Sans SC", "Noto Sans TC", "PingFang SC", "Microsoft YaHei", sans-serif;
-  --zh-caption-weight: 500;
+  /* ZH captions back on Kaiti, in wine red (2026-10-09, user request). */
+  --zh-caption-font: "LXGW WenKai TC", "Noto Serif SC", "Noto Serif TC", serif;
+  --zh-caption-weight: 400;
+  --zh-caption-color: var(--gold);
   --zh-sidebar-font: "Noto Sans SC", "Noto Sans TC", "PingFang SC", "Microsoft YaHei", sans-serif;
   --zh-sidebar-item-weight: 500;
   --zh-sidebar-year-weight: 700;
@@ -943,4 +945,51 @@ html[data-lang="zh"]:not([data-zh-variant="tw"]) .explore-title {
 :root[data-theme="light"] .label-pill-sm,
 :root[data-theme="light"] .detail-label-pill {
   color: var(--on-label);
+}
+
+/* Location detail (2026-10-09, user request): Palatino, bold, for the
+   title name in EN/CZ, the Czech-name subtitle on the ZH UI (the one on
+   the EN UI keeps its own face), the label pills and the "Collected at"
+   line in EN/CZ. !important and the end-of-file position beat the inline
+   var(--ui-font) styles and the ZH [style*="--ui-font"] override. */
+html:not([data-lang="zh"]) .detail-title-name,
+html:not([data-lang="zh"]) .detail-label-pill,
+html:not([data-lang="zh"]) .detail-collected,
+html[data-lang="zh"] .detail-title-czname {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", serif !important;
+  font-weight: 700;
+}
+
+/* History Timeline quote box body text: Palatino, bold, EN/CZ
+   (2026-10-09, user request). */
+html:not([data-lang="zh"]) .history-event__quote-text {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", serif;
+  font-weight: 700;
+}
+
+/* Explore (and Map) filter buttons, their dropdown options and the Add
+   Location button, the search box and the collected/showing counts:
+   Palatino,
+   bold, EN/CZ (2026-10-09, user request). */
+html:not([data-lang="zh"]) .filter-btn,
+html:not([data-lang="zh"]) .label-filter__panel .label-pill,
+html:not([data-lang="zh"]) .filter-bar__search,
+html:not([data-lang="zh"]) .filter-bar__search::placeholder,
+html:not([data-lang="zh"]) .explore-stats,
+html:not([data-lang="zh"]) .explore-header__add {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", serif !important;
+  font-weight: 700;
+}
+
+/* Navbar XP/level readout: Palatino bold with lining, tabular figures
+   (the old-style figures of the UI font bounced up and down), all
+   languages since the text is digits plus "XP"/"Lv" (2026-10-09). */
+.navbar .navbar__user {
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", serif !important;
+  font-weight: 700;
+  font-variant-numeric: lining-nums tabular-nums;
+  white-space: nowrap;
+}
+html[data-lang="zh"] .navbar .navbar__user {
+  font-size: 16px !important;
 }
