@@ -180,6 +180,19 @@
 // 炼金盛世 (alchemy is only half the story and partly legend), 帝都盛世,
 // 浮华盛世, 星辰与炼金.
 //
+// Also 2026-10-09: 'baroque-and-darkness' (then 1648–1740, "Baroque and
+// Darkness") was split at the 1689 Great Fire of Prague. New 'voiceless-years'
+// (order 11, 1648–1689) is the user's 失语的岁月 / "The Voiceless Years" /
+// "Oněmělá léta": 失语 = losing both one's public voice and one's language.
+// 'baroque-and-darkness' keeps its key for 1689–1740, retitled 暗夜华章 /
+// "Splendour in the Dark" / "Nádhera v temnotě": High Baroque splendour while
+// the 'darkness' never lifts. Don't title the second half a "dawn"
+// (巴洛克黎明 was rejected): Baroque began long before 1689, and
+// Germanization deepened after 1740; the real dawn is the National Revival.
+// 1689 is a Prague event, which suits a city-history boundary even though it
+// was rejected as the end of the war era. Both titles lean toward the
+// contested "Temno" view, so the background card on that debate is still due.
+//
 // Final era added (2026-08-24, same session): 'freedom-and-prosperity'
 // (order 13) — the Velvet Divorce and everything since (NATO/EU accession,
 // the post-Communist recovery). Tone returns to the earlier-era wry-but-light
@@ -501,29 +514,50 @@ export const HISTORY_ERAS = [
     },
   },
   {
-    key: 'baroque-and-darkness',
+    key: 'voiceless-years',
     order: 11,
+    themeClass: 'era-voiceless-years',
+    hasContent: false,
+    title: {
+      en: 'The Voiceless Years',
+      cz: 'Oněmělá léta',
+      zh: '失语的岁月',
+    },
+    yearRange: {
+      en: '1648–1689',
+      cz: '1648–1689',
+      zh: '1648年－1689年',
+    },
+    tagline: {
+      en: "Those who will not convert slip into exile, the lords learn to speak German, and Czech retreats to the villages. Prague slowly heals its war wounds, until in 1689 a great fire burns much of it down again.",
+      cz: "Kdo nechce konvertovat, odchází do exilu, páni se učí mluvit německy a čeština ustupuje na venkov. Praha si pomalu léčí válečné rány, až ji roku 1689 velký požár z velké části znovu spálí.",
+      zh: "不肯改宗的人流亡他乡，贵族们学起了德语，捷克语退回了乡间。布拉格慢慢养着战争留下的伤，直到1689年，一场大火又把它烧掉了一大片。",
+    },
+  },
+  {
+    key: 'baroque-and-darkness',
+    order: 12,
     themeClass: 'era-baroque-and-darkness',
     hasContent: false,
     title: {
-      en: 'Baroque and Darkness',
-      cz: 'Baroko a temno',
-      zh: '巴洛克与黑暗',
+      en: 'Splendour in the Dark',
+      cz: 'Nádhera v temnotě',
+      zh: '暗夜华章',
     },
     yearRange: {
-      en: '1648–1740',
-      cz: '1648–1740',
-      zh: '1648年－1740年',
+      en: '1689–1740',
+      cz: '1689–1740',
+      zh: '1689年－1740年',
     },
     tagline: {
-      en: "Prague rebuilds itself in gold and stone and turns the man once thrown off its bridge into a saint, while those who will not convert slip into exile and Czech retreats to the countryside. Light and shadow, just as the Baroque painters liked it.",
-      cz: "Praha se přestaví ve zlatě a kameni a z muže, kterého kdysi shodili z jejího mostu, udělá světce, zatímco ti, kdo nechtějí konvertovat, odcházejí do exilu a čeština ustupuje na venkov. Světlo a stín, přesně jak to měli rádi barokní malíři.",
-      zh: "布拉格用黄金和石头把自己重建了一遍，还把当年从桥上被扔下河的那个人封成了圣人；与此同时，不肯改宗的人流亡他乡，捷克语也退回了乡间。光与影，正合巴洛克画家的口味。",
+      en: "Prague rebuilds itself in gold and stone and turns the man once thrown off its bridge into a saint, while Czech stays out in the villages. Light and shadow, just as the Baroque painters liked it.",
+      cz: "Praha se přestaví ve zlatě a kameni a z muže, kterého kdysi shodili z jejího mostu, udělá světce, zatímco čeština zůstává na venkově. Světlo a stín, přesně jak to měli rádi barokní malíři.",
+      zh: "布拉格用黄金和石头把自己重建了一遍，还把当年从桥上被扔下河的那个人封成了圣人，捷克语却仍待在乡间。光与影，正合巴洛克画家的口味。",
     },
   },
   {
     key: 'age-of-absolutism',
-    order: 12,
+    order: 13,
     themeClass: 'era-age-of-absolutism',
     hasContent: false,
     title: {
@@ -544,7 +578,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'revival-industrialization',
-    order: 13,
+    order: 14,
     themeClass: 'era-revival-industrialization',
     hasContent: false,
     title: {
@@ -565,7 +599,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'brief-independence',
-    order: 14,
+    order: 15,
     themeClass: 'era-brief-independence',
     hasContent: false,
     title: {
@@ -586,7 +620,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'nazi-nightmare',
-    order: 15,
+    order: 16,
     themeClass: 'era-nazi-nightmare',
     hasContent: false,
     title: {
@@ -607,7 +641,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'cold-war-sorrow',
-    order: 16,
+    order: 17,
     themeClass: 'era-cold-war-sorrow',
     hasContent: false,
     title: {
@@ -628,7 +662,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'occupation-and-dissent',
-    order: 17,
+    order: 18,
     themeClass: 'era-occupation-and-dissent',
     hasContent: false,
     title: {
@@ -649,7 +683,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'freedom-and-prosperity',
-    order: 18,
+    order: 19,
     themeClass: 'era-freedom-and-prosperity',
     hasContent: false,
     title: {
