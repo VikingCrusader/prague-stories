@@ -465,6 +465,23 @@ html:not([data-lang="zh"]) .history-event__summary {
   hyphens: auto;
   text-wrap: pretty;
 }
+/* Guide page body copy uses the History Timeline body spec above
+   (2026-10-09, user request): Alegreya 500, 18px/1.7, same colour and
+   spacing. EN/CZ only, like History. Draw shares .guide-body but keeps
+   its own face, hence :not(.draw-page). Inline rarity colours still win. */
+html:not([data-lang="zh"]) .guide-page:not(.draw-page) .guide-body,
+html:not([data-lang="zh"]) .guide-page:not(.draw-page) .guide-tip,
+html:not([data-lang="zh"]) .guide-page:not(.draw-page) .guide-faq__a {
+  font-family: "Alegreya", Georgia, serif;
+  font-weight: 500;
+  word-spacing: 0.06em;
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: var(--text-body);
+  hyphens: auto;
+  text-wrap: pretty;
+}
+
 /* Keep the era-overview paragraph's own warmer beige (history.css). */
 html:not([data-lang="zh"]) .history-overview__text {
   color: var(--text-overview, #e6d3a3);

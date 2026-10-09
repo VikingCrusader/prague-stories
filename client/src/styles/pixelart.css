@@ -1539,7 +1539,7 @@ html[data-lang="zh"] .detail-title-name {
 
 @media (max-width: 600px) {
   /* Navbar: logo + right on row 1, nav links full-width on row 2 */
-  .navbar { padding: 8px 14px; height: auto; flex-wrap: wrap; }
+  .navbar { padding: 8px 10px; height: auto; flex-wrap: wrap; }
   .navbar__logo { order: 1; font-size: 14px; }
   .navbar__logo-icon { height: 28px; }
   .navbar__right { order: 2; margin-left: auto; gap: 8px; }
@@ -1547,13 +1547,16 @@ html[data-lang="zh"] .detail-title-name {
     order: 3;
     width: 100%;
     margin-left: 0;
-    gap: 4px;
+    gap: 2px;
     border-top: 2px solid var(--border);
     padding-top: 6px;
     padding-bottom: 4px;
     justify-content: center;
+    /* Six links didn't quite fit a 390px phone (Dashboard overflowed by a
+       few px); tighter padding, and wrap rather than overflow on narrower. */
+    flex-wrap: wrap;
   }
-  .navbar__link { font-size: 12px; padding: 5px 8px; }
+  .navbar__link { font-size: 12px; padding: 5px 6px; }
   /* Mobile size for the EN/CZ Palatino nav links (desktop rule above). */
   html:not([data-lang="zh"]) .navbar__link {
     font-size: 13px;
