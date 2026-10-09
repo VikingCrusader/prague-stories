@@ -198,9 +198,12 @@
 // serfdom). It keeps its key for 1790–1848, now just 民族复兴 / "The National
 // Revival" / "Národní obrození", which matches the Czech historiographical
 // term's usual end date; the user's alternative 重拾文化 was less precise.
-// New 'roar-of-the-machines' (1848–1918) is the user's 机器轰鸣 / "The Roar of
-// the Machines" / "Hukot strojů". The National Theatre was considered for the
-// title and rejected as only one card's worth.
+// New 'chimneys-and-song' (1848–1918) is the user's 烟囱与歌 / "Smokestacks and
+// Songs" / "Komíny a písně": the chimneys for industry, the song both for the
+// era's operas and for the national movement's march toward the 1918
+// republic. It briefly shipped as 机器轰鸣 / "The Roar of the Machines", which
+// the user dropped as too cold and one-sided. The National Theatre was
+// considered for the title and rejected as only one card's worth.
 //
 // Final era added (2026-08-24, same session): 'freedom-and-prosperity'
 // (order 13) — the Velvet Divorce and everything since (NATO/EU accession,
@@ -607,14 +610,14 @@ export const HISTORY_ERAS = [
     },
   },
   {
-    key: 'roar-of-the-machines',
+    key: 'chimneys-and-song',
     order: 15,
-    themeClass: 'era-roar-of-the-machines',
+    themeClass: 'era-chimneys-and-song',
     hasContent: false,
     title: {
-      en: 'The Roar of the Machines',
-      cz: 'Hukot strojů',
-      zh: '机器轰鸣',
+      en: 'Smokestacks and Songs',
+      cz: 'Komíny a písně',
+      zh: '烟囱与歌',
     },
     yearRange: {
       en: '1848–1918',
