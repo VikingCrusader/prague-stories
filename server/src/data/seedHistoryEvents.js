@@ -21861,6 +21861,14 @@ export const historyEvents = [
   {
     slug: "one-man-against-a-city-1507",
     era: "rule-of-the-lords",
+    images: ["/history/one-man-against-a-city-1507.webp"],
+    imageCaptions: [
+      {
+        en: "On the road to Prague, 1507: Jiří Kopidlanský's men stop a convoy of Prague merchants and plunder it, while villages outside the city burn in the distance.",
+        cz: "Na cestě do Prahy, 1507: muži Jiřího Kopidlanského přepadnou karavanu pražských kupců a vyplení ji, zatímco v dálce hoří vesnice za městem.",
+        zh: "1507年，布拉格城外的大路上：乔治·科皮德尔诺的人马拦下了布拉格商人的车队，远处城外的村子正冒着黑烟。",
+      },
+    ],
     startYear: 1507,
     year: {
       en: "1507",
