@@ -21596,12 +21596,46 @@ export const historyEvents = [
       cz: "Jakmile si nasadil uherskou korunu, český král se domů vracel jen zřídka. Dřív na všechno říkal „dobře“; teď z něj Češi nedostali ani to „dobře“.",
       zh: "自从戴上了匈牙利的王冠，波希米亚国王就很少回家了。以前他什么都说“好”，后来，波希米亚人连他一声“好”都很难听到了。",
     },
+    quotes: [
+      {
+        text: {
+          en: "That same year, on the Tuesday before St. Wenceslas, the palace at Prague Castle was closed over, at the seventeenth hour.",
+          cz: "T. l. w auterý před S. Václavem zawřín palác na hradě Pražském w hodin 17.",
+          zh: "同年，圣瓦茨拉夫节前的星期二，布拉格城堡的宫殿合拢了，时在十七时。",
+        },
+        attribution: {
+          en: "Old Czech Annals",
+          cz: "Staré letopisy české",
+          zh: "《捷克古代编年史》",
+        },
+      },
+      {
+        text: {
+          en: "The Czech lords have more power than the Lord God: today they strip a man of his honour, and two days later they give it back to him.",
+          cz: "Čeští páni mají větší moc než Pán Bůh: dnes někoho zbaví cti a za dva dny mu ji zase vrátí.",
+          zh: "捷克的老爷们比上帝还有权力：今天剥夺一个人的名誉，过两天又还给他。",
+        },
+        attribution: {
+          en: "Old Czech Annals",
+          cz: "Staré letopisy české",
+          zh: "《捷克古代编年史》",
+        },
+      },
+    ],
     summary: {
-      en: "After 1490 Vladislaus was king of two kingdoms. But he was only one man, and he could only live in one place. He chose Buda.\n\nIt wasn't entirely his fault. Hungary was bigger than Bohemia, and it had more trouble too: to the south it bordered the Turks, and there was fighting on that frontier almost every year. His brother John Albert and Maximilian of Habsburg both still had their eyes on the crown. And when the Hungarian lords elected him, they had made it a condition that the king live in Hungary. Besides, Buda was the Renaissance court Matthias had left behind, with splendid palaces and rooms full of books. Compared with Prague, where people kept opening windows, it was a far more comfortable place to live.\n\n[[b]]He was happy there, and he did not miss Bohemia.[[/b]]\n\nSo when the Bohemians needed something, they had to write to Buda, or send envoys hundreds of kilometres to ask for an audience. The letters arrived, but the answers often never came. In the old days, whoever came to him, he would at least say \"fine\". Now even that one word took months to arrive, and sometimes it didn't arrive at all.\n\nWith the king away, someone else naturally ran the house. The great lords of Bohemia shared out the offices, the castles and the royal revenues among themselves, made their own rules and sat as their own judges. Life was not so easy for the towns and the peasants. The peasants were tied ever more tightly to the land: without their lord's consent, they could not even leave their village.\n\nIn 1496 a minor nobleman named Dalibor of Kozojedy decided he had seen enough. When the peasants of a neighbouring estate rose against their lord, Dalibor not only took them in but stood up for them, and led his men to occupy the estate. To the lords, this was nothing short of rebellion. He was soon arrested and locked up in a newly built round tower at Prague Castle, and in 1498 he was beheaded.\n\nLater a legend spread around Prague: Dalibor had been shut in the tower so long that, out of boredom, he learned to play the violin, and the music drifted down from the tower so that people below stopped to listen. Czech still has a saying about it: \"Necessity taught even Dalibor to fiddle.\" Some scholars point out, though, that the \"fiddle\" people talked about then may not have been an instrument at all but an instrument of torture, and \"fiddling\" meant being tortured. What really happened, nobody can say any more. But the round tower has been called the Dalibor Tower ever since, and it still stands on the castle walls.\n\nA king who was almost never at home, and a handful of lords who had the final say: things went on like this for ten years. By 1500 the lords felt that an unspoken understanding was no longer enough.\n\n[[b]]They decided to put their own rule down in black and white, as law.[[/b]]",
-      cz: "Po roce 1490 byl Vladislav králem dvou království. Byl ale jen jeden a bydlet mohl jen na jednom místě. Vybral si Budín.\n\nNebyla to tak úplně jeho vina. Uhry byly větší než Čechy a měly i víc starostí: na jihu sousedily s Turky a na té hranici se bojovalo skoro každý rok. Jeho bratr Jan Olbracht i Maxmilián Habsburský po té koruně pořád pokukovali. A když ho uherští páni volili, vymínili si, že král bude bydlet v Uhrách. Navíc Budín byl renesanční dvůr, který po sobě zanechal Matyáš, s nádhernými paláci a sály plnými knih. Ve srovnání s Prahou, kde lidé pořád otevírali okna, se tam žilo mnohem pohodlněji.\n\n[[b]]Bylo mu tam dobře a po Čechách se mu nestýskalo.[[/b]]\n\nKdyž tedy Češi něco potřebovali, museli psát do Budína, nebo posílat posly stovky kilometrů daleko, aby je král přijal. Dopisy došly, ale odpověď často nepřišla. Dřív, ať za ním přišel kdokoli, řekl aspoň „dobře“. Teď i na to jedno slovo se čekalo měsíce, a někdy nepřišlo vůbec.\n\nKdyž král není doma, dům spravuje někdo jiný. Velcí čeští páni si rozdělili úřady, hrady i královské příjmy, sami si psali pravidla a sami soudili. Města a sedláci se tak dobře neměli. Poddaní byli stále pevněji připoutáni k půdě: bez svolení pána nesměli ani odejít ze vsi.\n\nRoku 1496 to drobný šlechtic Dalibor z Kozojed už nevydržel. Když se poddaní sousedního panství vzbouřili proti svému pánovi, Dalibor je nejen přijal, ale i se jich zastal a se svými lidmi to panství obsadil. V očích pánů to byla čirá vzpoura. Brzy ho zatkli a zavřeli do nově postavené okrouhlé věže na Pražském hradě. Roku 1498 byl sťat.\n\nPozději se po Praze rozšířila pověst: Dalibor byl ve věži zavřený tak dlouho, že se z nudy naučil hrát na housle, a hudba se z věže nesla tak, že se lidé dole zastavovali a poslouchali. Čeština o tom dodnes má rčení: „Nouze naučila Dalibora housti.“ Někteří badatelé však upozorňují, že „housle“, o kterých se tehdy mluvilo, nemusely být hudební nástroj, ale mučicí nástroj, a „housti“ znamenalo být mučen. Jak to bylo doopravdy, už nikdo neřekne. Ta okrouhlá věž se ale od té doby jmenuje Daliborka a dodnes stojí na hradních hradbách.\n\nKrál skoro nikdy doma a hrstka pánů, kteří rozhodují: tak to šlo deset let. Roku 1500 páni usoudili, že tichá dohoda už nestačí.\n\n[[b]]Rozhodli se, že to, že rozhodují oni, sepíšou černé na bílém do zákona.[[/b]]",
-      zh: "1490年以后，弗拉迪斯拉夫成了两个王国的国王。可他只有一个人，只能住在一个地方。他选了布达。\n\n这也不全怪他。匈牙利比波希米亚大，麻烦也多：南边紧挨着土耳其人，边境上几乎年年有仗；弟弟扬·奥尔布拉赫特和哈布斯堡家的马克西米利安，都还盯着那顶王冠。匈牙利贵族选他的时候也说好了，国王得住在匈牙利。再说，布达是马蒂亚斯留下的文艺复兴宫廷，宫殿华丽，藏书满屋，比起那座动不动就推开窗户的布拉格，住着要舒心得多。\n\n[[b]]此间乐，不思波希米亚。[[/b]]\n\n于是，波希米亚人有事，只能写信去布达，或者干脆派使者走上好几百公里去求见。信送到了，回音却常常石沉大海。以前，不管谁来找他，他总会说一声“好”；现在，就连这一声“好”，都要等上好几个月，有时候根本等不来。\n\n国王不在家，家里的事自然有人管。波希米亚的大贵族们把官职、城堡和王室的收入分得干干净净，自己定规矩，自己当裁判。至于城市和农民，日子就没那么好过了。农民被越来越牢地绑在土地上，没有领主点头，连离开村子都不行。\n\n1496年，一个叫达利博尔的小贵族看不下去了。邻近庄园的农民起来反抗他们的领主，达利博尔不但收留了他们，还替他们出头，带人占了那片庄园。这在贵族们眼里简直是造反。他很快被抓了起来，关进了布拉格城堡新修的一座圆塔里，1498年被砍了头。\n\n后来，布拉格流传起一个传说：达利博尔在塔里关得太久，无聊之下学会了拉小提琴，琴声从塔上飘出去，城下的人都会停下来听。捷克语里至今还有一句俗语：“穷则生变，达利博尔都学会了拉琴。”不过也有学者指出，当时人们说的“琴”，可能根本不是乐器，而是一种刑具；所谓“拉琴”，说的其实是受刑。真相如何，已经没人说得清了。可那座圆塔从此就叫“达利博尔塔”，一直立在城堡的城墙上。\n\n一个国王常年不在家，一群贵族说了算，这样的日子过了十年。到了1500年，贵族们觉得，光靠默契已经不够了。\n\n[[b]]他们决定，把自己说了算这件事，白纸黑字地写进法律里。[[/b]]",
+      en: "After 1490 Vladislaus was king of two kingdoms. But he was only one man, and he could only live in one place. He chose Buda.\n\nIt wasn't entirely his fault. Hungary was bigger than Bohemia, and it had more trouble too: to the south it bordered the Turks, and there was fighting on that frontier almost every year. His brother John Albert and Maximilian of Habsburg both still had their eyes on the crown. And when the Hungarian lords elected him, they had made it a condition that the king live in Hungary. Besides, Buda was the Renaissance court Matthias had left behind, with splendid palaces and rooms full of books. Compared with Prague, where people kept opening windows, it was a far more comfortable place to live.\n\n[[b]]He was happy there, and he did not miss Bohemia.[[/b]]\n\nSo when the Bohemians needed something, they had to write to Buda, or send envoys hundreds of kilometres to ask for an audience. The letters arrived, but the answers often never came. In the old days, whoever came to him, he would at least say \"fine\". Now even that one word took months to arrive, and sometimes it didn't arrive at all.\n\nThe odd thing is that, at the very same time, he was building in Prague. In 1493 his architect Benedikt Ried began a new great hall for him at Prague Castle, and it took nearly ten years to finish: 62 metres long, 16 wide and 13 high, the largest secular hall in Central Europe at the time. The stone ribs of its vault twist and intertwine like vines, and up a broad, gently sloping staircase knights could ride straight in on horseback and joust under a roof. Even the windows looked like the ones in Buda: they are among the earliest Renaissance forms in Bohemia.\n\nWhen the vault was finally closed, a chronicler of the day recorded it in a single line:\n\n[[quote:0]]\n\nThe \"seventeenth hour\" was counted the old Bohemian way, from sunset the evening before, so it was around eleven in the morning.\n\n[[b]]The king built Prague the grandest hall it had ever had, and then hardly ever came to sit in it.[[/b]] It is still called the Vladislav Hall.\n\nWith the king away, someone else naturally ran the house. The great lords of Bohemia shared out the offices, the castles and the royal revenues among themselves, made their own rules and sat as their own judges. A chronicler of the time grumbled:\n\n[[quote:1]]\n\nLife was not so easy for the towns and the peasants. The peasants were tied ever more tightly to the land: without their lord's consent, they could not even leave their village.\n\nIn 1496 a minor nobleman named Dalibor of Kozojedy decided he had seen enough. When the peasants of a neighbouring estate rose against their lord, Dalibor not only took them in but stood up for them, and led his men to occupy the estate. To the lords, this was nothing short of rebellion. He was soon arrested and locked up in a newly built round tower at Prague Castle, and in 1498 he was beheaded.\n\nLater a legend spread around Prague: Dalibor had been shut in the tower so long that, out of boredom, he learned to play the violin, and the music drifted down from the tower so that people below stopped to listen. Czech still has a saying about it: \"Necessity taught even Dalibor to fiddle.\" Some scholars point out, though, that the \"fiddle\" people talked about then may not have been an instrument at all but an instrument of torture, and \"fiddling\" meant being tortured. What really happened, nobody can say any more. But the round tower has been called the Dalibor Tower ever since, and it still stands on the castle walls.\n\nA king who was almost never at home, and a handful of lords who had the final say: things went on like this for ten years. By 1500 the lords felt that an unspoken understanding was no longer enough.\n\n[[b]]They decided to put their own rule down in black and white, as law.[[/b]]",
+      cz: "Po roce 1490 byl Vladislav králem dvou království. Byl ale jen jeden a bydlet mohl jen na jednom místě. Vybral si Budín.\n\nNebyla to tak úplně jeho vina. Uhry byly větší než Čechy a měly i víc starostí: na jihu sousedily s Turky a na té hranici se bojovalo skoro každý rok. Jeho bratr Jan Olbracht i Maxmilián Habsburský po té koruně pořád pokukovali. A když ho uherští páni volili, vymínili si, že král bude bydlet v Uhrách. Navíc Budín byl renesanční dvůr, který po sobě zanechal Matyáš, s nádhernými paláci a sály plnými knih. Ve srovnání s Prahou, kde lidé pořád otevírali okna, se tam žilo mnohem pohodlněji.\n\n[[b]]Bylo mu tam dobře a po Čechách se mu nestýskalo.[[/b]]\n\nKdyž tedy Češi něco potřebovali, museli psát do Budína, nebo posílat posly stovky kilometrů daleko, aby je král přijal. Dopisy došly, ale odpověď často nepřišla. Dřív, ať za ním přišel kdokoli, řekl aspoň „dobře“. Teď i na to jedno slovo se čekalo měsíce, a někdy nepřišlo vůbec.\n\nZvláštní je, že ve stejné době v Praze stavěl. Roku 1493 mu architekt Benedikt Ried začal stavět na Pražském hradě nový velký sál a hotový byl až skoro po deseti letech: 62 metrů dlouhý, 16 široký a 13 vysoký, největší světský sál tehdejší střední Evropy. Kamenná žebra klenby se v něm proplétají jako úponky révy a po širokých, mírně stoupajících schodech mohli rytíři vjet rovnou dovnitř na koni a pořádat turnaje pod střechou. I okna vypadala jako ta v Budíně: patří k nejstarším renesančním prvkům v Čechách.\n\nKdyž se klenba sálu konečně uzavřela, tehdejší letopisec to zaznamenal jedinou větou:\n\n[[quote:0]]\n\nSedmnáctá hodina se tehdy počítala po staročesku, od západu slunce předchozího dne, takže to bylo zhruba v jedenáct dopoledne.\n\n[[b]]Král postavil Praze nejvelkolepější sál, jaký kdy měla, a pak v něm skoro nesedal.[[/b]] Dodnes se mu říká Vladislavský sál.\n\nKdyž král není doma, dům spravuje někdo jiný. Velcí čeští páni si rozdělili úřady, hrady i královské příjmy, sami si psali pravidla a sami soudili. Tehdejší letopisec si posteskl:\n\n[[quote:1]]\n\nMěsta a sedláci se tak dobře neměli. Poddaní byli stále pevněji připoutáni k půdě: bez svolení pána nesměli ani odejít ze vsi.\n\nRoku 1496 to drobný šlechtic Dalibor z Kozojed už nevydržel. Když se poddaní sousedního panství vzbouřili proti svému pánovi, Dalibor je nejen přijal, ale i se jich zastal a se svými lidmi to panství obsadil. V očích pánů to byla čirá vzpoura. Brzy ho zatkli a zavřeli do nově postavené okrouhlé věže na Pražském hradě. Roku 1498 byl sťat.\n\nPozději se po Praze rozšířila pověst: Dalibor byl ve věži zavřený tak dlouho, že se z nudy naučil hrát na housle, a hudba se z věže nesla tak, že se lidé dole zastavovali a poslouchali. Čeština o tom dodnes má rčení: „Nouze naučila Dalibora housti.“ Někteří badatelé však upozorňují, že „housle“, o kterých se tehdy mluvilo, nemusely být hudební nástroj, ale mučicí nástroj, a „housti“ znamenalo být mučen. Jak to bylo doopravdy, už nikdo neřekne. Ta okrouhlá věž se ale od té doby jmenuje Daliborka a dodnes stojí na hradních hradbách.\n\nKrál skoro nikdy doma a hrstka pánů, kteří rozhodují: tak to šlo deset let. Roku 1500 páni usoudili, že tichá dohoda už nestačí.\n\n[[b]]Rozhodli se, že to, že rozhodují oni, sepíšou černé na bílém do zákona.[[/b]]",
+      zh: "1490年以后，弗拉迪斯拉夫成了两个王国的国王。可他只有一个人，只能住在一个地方。他选了布达。\n\n这也不全怪他。匈牙利比波希米亚大，麻烦也多：南边紧挨着土耳其人，边境上几乎年年有仗；弟弟扬·奥尔布拉赫特和哈布斯堡家的马克西米利安，都还盯着那顶王冠。匈牙利贵族选他的时候也说好了，国王得住在匈牙利。再说，布达是马蒂亚斯留下的文艺复兴宫廷，宫殿华丽，藏书满屋，比起那座动不动就推开窗户的布拉格，住着要舒心得多。\n\n[[b]]此间乐，不思波希米亚。[[/b]]\n\n于是，波希米亚人有事，只能写信去布达，或者干脆派使者走上好几百公里去求见。信送到了，回音却常常石沉大海。以前，不管谁来找他，他总会说一声“好”；现在，就连这一声“好”，都要等上好几个月，有时候根本等不来。\n\n奇怪的是，人不回来，房子却照样在布拉格盖。1493年，建筑师本尼迪克特·里德在布拉格城堡里给他动工盖一座新的大厅，前后花了将近十年才完工：长62米，宽16米，高13米，是当时中欧最大的世俗大厅。石头拱顶上的肋条像葡萄藤一样缠来绕去；一道又宽又缓的台阶，能让骑士直接骑着马走进大厅，在屋顶底下比武。连窗户都长得像布达的：它们是波希米亚最早出现的文艺复兴样式之一。\n\n大厅的拱顶终于合拢时，当年的编年史只用一句话记下了这件事：\n\n[[quote:0]]\n\n这里的“十七时”是老波希米亚的算法，从前一天日落开始数，大约相当于上午十一点。\n\n[[b]]国王给布拉格盖了一座它从没有过的气派大厅，然后自己几乎从没来坐过。[[/b]]这座大厅，至今就叫弗拉迪斯拉夫大厅。\n\n国王不在家，家里的事自然有人管。波希米亚的大贵族们把官职、城堡和王室的收入分得干干净净，自己定规矩，自己当裁判。当年的编年史里，有人发过这样一句牢骚：\n\n[[quote:1]]\n\n至于城市和农民，日子就没那么好过了。农民被越来越牢地绑在土地上，没有领主点头，连离开村子都不行。\n\n1496年，一个叫达利博尔的小贵族看不下去了。邻近庄园的农民起来反抗他们的领主，达利博尔不但收留了他们，还替他们出头，带人占了那片庄园。这在贵族们眼里简直是造反。他很快被抓了起来，关进了布拉格城堡新修的一座圆塔里，1498年被砍了头。\n\n后来，布拉格流传起一个传说：达利博尔在塔里关得太久，无聊之下学会了拉小提琴，琴声从塔上飘出去，城下的人都会停下来听。捷克语里至今还有一句俗语：“穷则生变，达利博尔都学会了拉琴。”不过也有学者指出，当时人们说的“琴”，可能根本不是乐器，而是一种刑具；所谓“拉琴”，说的其实是受刑。真相如何，已经没人说得清了。可那座圆塔从此就叫“达利博尔塔”，一直立在城堡的城墙上。\n\n一个国王常年不在家，一群贵族说了算，这样的日子过了十年。到了1500年，贵族们觉得，光靠默契已经不够了。\n\n[[b]]他们决定，把自己说了算这件事，白纸黑字地写进法律里。[[/b]]",
     },
     relatedLandmarks: [
+      {
+        slug: "vladislavsky-sal",
+        relation: {
+          en: "The great hall Benedikt Ried began building for Vladislaus at Prague Castle in 1493, while the king himself was living in Buda.",
+          cz: "Velký sál, který Benedikt Ried začal Vladislavovi stavět na Pražském hradě roku 1493, zatímco král sám žil v Budíně.",
+          zh: "1493年起，本尼迪克特·里德在布拉格城堡里为弗拉迪斯拉夫盖的大厅；那些年，国王本人一直住在布达。",
+        },
+      },
       {
         slug: "dalibor-tower",
         relation: {
@@ -21947,6 +21981,202 @@ export const historyEvents = [
         },
       },
     ],
+  },
+  {
+    slug: "the-burghers-pay-for-the-crown-1509",
+    era: "rule-of-the-lords",
+    images: ["/history/the-burghers-pay-for-the-crown-1509.webp"],
+    imageCaptions: [
+      {
+        en: "St. Vitus Cathedral, 11 March 1509: two lords hold the St. Wenceslas Crown steady on the head of the not-yet-three-year-old Louis, while his ailing father watches from his chair and, off to one side, Prague's councillors stand by a money chest.",
+        cz: "Katedrála svatého Víta, 11. března 1509: dva páni přidržují svatováclavskou korunu na hlavě necelého tříletého Ludvíka, jeho nemocný otec to sleduje z křesla a opodál stojí u truhly s penězi pražští konšelé.",
+        zh: "1509年3月11日，圣维特大教堂：两位大臣伸手扶住不到三岁的路德维克头上的圣瓦茨拉夫王冠，病中的老国王坐在椅子上看着，一旁的布拉格议员们守着一只钱箱。",
+      },
+    ],
+    startYear: 1509,
+    year: {
+      en: "1509",
+      cz: "1509",
+      zh: "1509年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Burghers Pay for the Crown",
+      cz: "Korunu zaplatili měšťané",
+      zh: "市民买单的王冠",
+    },
+    hookLine: {
+      en: "Prague had waited three years for its king to come home. When he finally did, it wasn't to settle their case. It was to put a crown on his son.",
+      cz: "Praha čekala tři roky, až se král vrátí domů. Když konečně přijel, nepřijel soudit. Přijel korunovat syna.",
+      zh: "布拉格人等了三年，终于等来国王回家。可他不是回来断案的，是回来给儿子戴王冠的。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "Nothing that the knight Kopidlanský has done shall henceforth be held against him, for he did it all in defence of the knightly honour of his family.",
+          cz: "Rytíři Kopidlanskému nemá být nadále kladeno za zlé nic z toho, co spáchal, neboť to všechno učinil na obranu rytířské cti svého rodu.",
+          zh: "科皮德尔诺骑士为捍卫家族的骑士荣誉所做的一切，今后不得再追究。",
+        },
+        attribution: {
+          en: "Vladislaus II's ruling, 1509",
+          cz: "Rozhodnutí Vladislava II., 1509",
+          zh: "弗拉迪斯拉夫二世的裁决，1509年",
+        },
+      },
+    ],
+    summary: {
+      en: "Early in 1509, Vladislaus finally came back to Prague. With him he brought a little boy of two and a half.\n\nFar away in Buda, the king had never caught the smell of smoke over Prague. Three years earlier, when [[link:not-the-chalice-but-the-pedigree-1506]]a nobleman's head[[/link]] rolled on the Old Town Square, he had been busy watching over a cradle.\n\nOn 1 July 1506, good news came from the royal palace in Buda: at fifty, Vladislaus finally had a son.\n\nThe child came far too early, nearly two months before he was due, pitifully small and pitifully weak. The court feared he would not live more than a few days. A legend later went round that the royal physicians tried a homespun remedy: they slaughtered some animals and wrapped the prince inside the still-warm carcasses to keep him warm. [[b]]The Middle Ages had no incubators, so a freshly slaughtered beast had to do instead.[[/b]]\n\nThe child survived. His mother, Queen Anne, did not. She died a few weeks after the birth.\n\nThe boy was named Louis. For the old king, he had arrived just in time. Two years earlier Vladislaus had fallen gravely ill, and his health had never really recovered. He knew better than anyone that his time was running out.\n\nRemember [[link:wanted-a-king-who-says-fine-1490]]that inconspicuous clause[[/link]]? [[b]]If the king had no son, the crown of Hungary would go to the Habsburgs.[[/b]] Now there was a son, but the son had to get the crown on his head before his father died.\n\nIn June 1508, not yet two, Louis was crowned in Hungary. Now it was Bohemia's turn.\n\nOn 11 March 1509, in Prague's St. Vitus Cathedral, Louis, not yet three, was wrapped in a heavy ermine mantle and led up to the altar. The bishops placed the St. Wenceslas Crown on his head. The crown, it is said, was so big and heavy that the lords beside him had to keep holding it up, so that it would not slide down over the child's eyes.\n\n[[b]]A child who could barely walk, wearing the heaviest crown in the kingdom.[[/b]]\n\nWith the coronation over, the king at last found time for [[link:one-man-against-a-city-1507]]the quarrel[[/link]] that had dragged on for nearly three years. His ruling: the prisoners on both sides were all to be set free; Prague was to compensate the Kopidlanský family for its losses, said to be more than five thousand gold florins; and as for Jiří:\n\n[[quote:0]]\n\nThe Prague councillors were speechless with rage. They were the ones who had been robbed, they were the ones who had been burned out, and in the end they were the ones who paid.\n\nWhy did the king rule this way? Some historians suspect he needed the nobles' goodwill so that his son's throne would be secure. Next to a crown, Prague's grievances counted for little.\n\n[[b]]Prague's burned villages and severed hands all ended up as part of the price of a crown.[[/b]]",
+      cz: "Na začátku roku 1509 se Vladislav konečně vrátil do Prahy. S sebou přivezl chlapečka, kterému bylo něco přes dva roky.\n\nKouř nad Prahou král v dalekém Budíně nikdy neucítil. Před třemi lety, když na Staroměstském náměstí padla [[link:not-the-chalice-but-the-pedigree-1506]]šlechtická hlava[[/link]], měl plné ruce práce s kolébkou.\n\n1. července 1506 přišla z budínského paláce dobrá zpráva: padesátiletý Vladislav má konečně syna.\n\nDítě přišlo na svět příliš brzy, skoro o dva měsíce dřív, než mělo, a bylo žalostně malé a slabé. U dvora se báli, že nepřežije ani pár dní. Později se vyprávělo, že si královští lékaři poradili po domácku: dali porazit několik zvířat a prince zabalili do jejich ještě teplých útrob, aby ho zahřáli. [[b]]Středověk inkubátory neznal, a tak musel posloužit čerstvě poražený dobytek.[[/b]]\n\nDítě přežilo. Jeho matka, královna Anna, ne. Zemřela pár týdnů po porodu.\n\nChlapec dostal jméno Ludvík. Pro starého krále přišel právě včas. Před dvěma lety Vladislav těžce onemocněl a od té doby se už pořádně nevzpamatoval. Věděl líp než kdo jiný, že mu nezbývá mnoho času.\n\nPamatujete si na [[link:wanted-a-king-who-says-fine-1490]]tu nenápadnou klauzuli[[/link]]? [[b]]Pokud král nebude mít syna, uherská koruna připadne Habsburkům.[[/b]] Teď syn byl, jenže musel dostat korunu na hlavu dřív, než otec zemře.\n\nV červnu 1508 byl Ludvík, ještě ne dvouletý, korunován v Uhrách. Teď byly na řadě Čechy.\n\n11. března 1509 v pražské katedrále svatého Víta přivedli k oltáři necelého tříletého Ludvíka zabaleného do těžkého hermelínového pláště. Biskupové mu na hlavu vložili svatováclavskou korunu. Prý byla tak velká a těžká, že ji páni vedle něj museli celou dobu přidržovat, aby mu nesklouzla do očí.\n\n[[b]]Dítě, které sotva umělo chodit, a na hlavě nejtěžší koruna celého království.[[/b]]\n\nPo korunovaci si král konečně našel čas na [[link:one-man-against-a-city-1507]]spor[[/link]], který se táhl skoro tři roky. Rozhodl takto: všichni zajatci na obou stranách budou propuštěni; Praha nahradí rodu Kopidlanských škody, prý přes pět tisíc zlatých; a pokud jde o Jiřího:\n\n[[quote:0]]\n\nPražští konšelé nemohli vztekem ani promluvit: okradeni byli oni, vypáleni byli oni, a nakonec platili zase oni.\n\nProč král rozhodl právě takhle? Někteří historici se domnívají, že potřeboval přízeň pánů, aby jeho syn na trůně pevně seděl. Proti koruně vážila křivda Pražanů jen málo.\n\n[[b]]Vypálené vesnice a useknuté ruce Pražanů se nakonec započítaly do ceny jedné koruny.[[/b]]",
+      zh: "1509年初，弗拉迪斯拉夫终于回到了布拉格。他身边带着一个两岁多的小男孩。\n\n布拉格城里的火药味，远在布达的国王一直是闻不见的。三年前，老城广场砍下[[link:not-the-chalice-but-the-pedigree-1506]]那颗贵族的头[[/link]]的时候，他正忙着照看一个摇篮。\n\n1506年7月1日，布达王宫里传来了好消息：五十岁的弗拉迪斯拉夫，终于有儿子了。\n\n这个孩子来得太早了，比预产期早了将近两个月，小得可怜，也弱得可怜。宫廷里的人都担心他活不过几天。后来流传着一个传说：御医们想了个土办法，宰了几头牲口，趁热把王子裹进牲口的肚子里，靠那点余温给他保暖。[[b]]中世纪没有保温箱，只好拿一头刚宰的牲口来代替。[[/b]]\n\n孩子活了下来。他的母亲安娜王后却没能熬过去，生产后没几个星期就去世了。\n\n孩子取名路德维克。对老国王来说，这个儿子来得太及时了。两年前，弗拉迪斯拉夫大病了一场，身体从此再没好利索。他比谁都清楚，自己的时间不多了。\n\n还记得[[link:wanted-a-king-who-says-fine-1490]]那条不起眼的条款[[/link]]吗？[[b]]如果国王没有儿子，匈牙利的王冠就归哈布斯堡家。[[/b]]现在有了儿子，可这个儿子得赶在父亲去世之前，先把王冠戴上。\n\n1508年6月，不到两岁的路德维克在匈牙利加冕。现在，轮到波希米亚了。\n\n1509年3月11日，在布拉格的圣维特大教堂里，不到三岁的路德维克裹着一件沉甸甸的白鼬皮大氅，被领到了祭坛前。主教们把圣瓦茨拉夫王冠戴到他头上。据说王冠太大太重，旁边的大臣们只好一直伸手扶着，免得它滑下来，压住孩子的眼睛。\n\n[[b]]一个连路都还走不稳的孩子，头上戴着整个王国最重的王冠。[[/b]]\n\n加冕礼办完了，国王总算腾出手来，处理那桩[[link:one-man-against-a-city-1507]]拖了快三年的官司[[/link]]。他的裁决是：两边的俘虏统统放掉；布拉格要赔偿科皮德尔诺家的损失，据说有五千多金币；至于乔治：\n\n[[quote:0]]\n\n布拉格的议员们气得说不出话来：被抢的是他们，被烧的是他们，最后赔钱的，还是他们。\n\n国王为什么这样判？有历史学家猜测，他需要贵族们点头，好让儿子顺顺当当地坐稳王位。比起布拉格人的委屈，一顶王冠要紧得多。\n\n[[b]]布拉格被烧掉的村子、被砍掉的手，最后都算进了一顶王冠的价钱里。[[/b]]",
+    },
+    relatedLandmarks: [
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Where Louis, not yet three, was crowned King of Bohemia with the St. Wenceslas Crown on 11 March 1509.",
+          cz: "Zde byl 11. března 1509 necelý tříletý Ludvík korunován svatováclavskou korunou na českého krále.",
+          zh: "1509年3月11日，不到三岁的路德维克在这里戴上圣瓦茨拉夫王冠，加冕为波希米亚国王。",
+        },
+      },
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "The seat of the Old Town council, whose councillors were left to pay the Kopidlanský family's damages under the king's 1509 ruling.",
+          cz: "Sídlo staroměstské rady, jejíž konšelé museli podle královského rozhodnutí z roku 1509 zaplatit škody rodu Kopidlanských.",
+          zh: "老城议会所在地。按国王1509年的裁决，给科皮德尔诺家赔钱的，正是这里的议员们。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Ludv%C3%ADk_Jagellonsk%C3%BD",
+  },
+  {
+    slug: "the-heretic-kings-grandson-1513",
+    era: "rule-of-the-lords",
+    images: ["/history/the-heretic-kings-grandson-1513.webp"],
+    imageCaptions: [
+      {
+        en: "Left, Prague Castle, April 1512: the lords and knights walk out of the diet, Zdeněk Lev of Rožmitál at their head, leaving the town representatives on their benches. Right, Prague's town hall, 1513: Jan Pašek and Jan Hlavsa hand the commander's baton to Duke Bartholomew of Münsterberg, beneath a portrait of his grandfather, King George.",
+        cz: "Vlevo Pražský hrad, duben 1512: páni a rytíři v čele se Zdeňkem Lvem z Rožmitálu odcházejí ze sněmu a zástupci měst zůstávají sedět v lavicích. Vpravo pražská radnice, 1513: Jan Pašek a Jan Hlavsa podávají velitelskou hůl knížeti Bartoloměji Minsterberskému pod portrétem jeho děda, krále Jiřího.",
+        zh: "左：1512年4月，布拉格城堡，罗日米塔尔的兹德涅克·列夫领着领主和骑士们离席而去，城市代表们还坐在长凳上。右：1513年，布拉格市政厅，扬·帕谢克和扬·赫拉夫萨把指挥杖交给明斯特贝格公爵巴尔托洛梅伊，墙上挂着他祖父伊日国王的肖像。",
+      },
+    ],
+    startYear: 1512,
+    year: {
+      en: "1512–1513",
+      cz: "1512–1513",
+      zh: "1512–1513年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Heretic King's Grandson",
+      cz: "Vnuk kacířského krále",
+      zh: "异端国王的孙子",
+    },
+    hookLine: {
+      en: "The nobles refused to talk, so the townsmen found themselves a man who could fight. The commander they hired was the grandson of the \"heretic king\" George.",
+      cz: "Páni odmítli jednat, a tak si měšťané našli někoho, kdo umí bojovat. Jejich vrchním hejtmanem se stal vnuk „kacířského krále“ Jiřího.",
+      zh: "贵族们说不谈就不谈，城里人只好自己找个能打仗的人。他们请来的总司令，是那位“异端国王”伊日的亲孙子。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "What we did not advise on, we do not consent to either, and we will not help with it.",
+          cz: "K čemu sme neradili, k tomu také nesvolujem a pomáhati nechcem.",
+          zh: "我们没出过主意的事，我们也不同意，也不想帮忙。",
+        },
+        attribution: {
+          en: "Reply of the lords and knights at the diet, 1512 (after the Old Czech Annals, as cited)",
+          cz: "Odpověď pánů a rytířů na sněmu, 1512 (podle Starých letopisů českých, citováno zprostředkovaně)",
+          zh: "领主与骑士在邦议会上的答复，1512年（据《捷克古代编年史》，转引）",
+        },
+      },
+    ],
+    summary: {
+      en: "[[link:the-burghers-pay-for-the-crown-1509]]The ruling of 1509[[/link]] had made one thing clear to the people of Prague: there was no point counting on the king.\n\nOver the next few years, every time the towns and the nobles met at the diet, they quarrelled. In April 1512 the estates gathered at Prague Castle again, quite possibly in [[link:too-happy-to-come-home-1496]]the great hall[[/link]] finished only a few years before. The towns' representatives made their position plain: if we have no vote in the diet, we do not recognise any of the rules you make.\n\nA chronicler recorded the lords' answer:\n\n[[quote:0]]\n\nWith that the lords and knights got up and left, and the diet broke up in bad temper.\n\n[[b]]The king said \"fine\" to everything; his nobles said \"no\" to everything.[[/b]]\n\nTheir leader was Zdeněk Lev of Rožmitál, the Supreme Burgrave, the highest officer in the kingdom. He had no time for the towns at all. He simply left the burghers out and called the nobles to meetings of his own. The king sent orders from Buda forbidding it, and nobody paid the slightest attention.\n\nLong-time readers may find the name familiar. More than forty years earlier, a Jaroslav Lev of Rožmitál had set out with forty men and fifty-two horses and travelled [[link:from-bohemia-to-the-end-of-the-world-1465]]to the end of the world[[/link]] on King George's behalf. Zdeněk was his son, and [[link:the-queen-takes-the-field-1470]]Queen Joanna[[/link]], who had seen him off back then, was Zdeněk's aunt.\n\nOn the towns' side there were new men too. Two new faces appeared at Prague's town hall: Jan Hlavsa and Jan Pašek. A dozen years earlier the old councillors had watched the nobles write the [[link:the-lords-hold-the-pen-1500]]Land Ordinance[[/link]] and managed nothing but letters of protest; these two were far sharper. They knew that protest letters got nowhere. The towns needed an army of their own, and someone with enough weight to lead it.\n\nOn 15 June 1513 the league of towns formally appointed its commander-in-chief: Duke Bartholomew of Münsterberg.\n\nHis grandfather was George of Poděbrady.\n\nThe towns paid him a \"quite respectable fee\". The duke had his own reasons too: he was in a dispute with Wrocław and still had his eye on a piece of land he felt belonged to his family, and with the towns behind him he could bargain harder with the king. [[b]]The burghers bought a famous name, the duke sold one, and both sides thought they had got a good deal.[[/b]]\n\nAnd so, more than forty years on, two families from King George's circle stood together again, only this time face to face. On one side, the son of the knight who had travelled to the end of the world for him, leading the nobles; on the other, his own grandson, leading the burghers.\n\nGeorge had been the [[link:king-of-two-peoples-1460]]king of two peoples[[/link]], and had worked hard to let Catholics and Utraquists live in one country. Now his descendant, and the descendant of one of his closest men, were pulling the country in two over a different kind of division.\n\n[[b]]George spent his whole life settling the split over faith; the split over birth drew in even his grandson.[[/b]]",
+      cz: "[[link:the-burghers-pay-for-the-crown-1509]]Rozhodnutí z roku 1509[[/link]] ukázalo Pražanům jednu věc: na krále se spoléhat nedá.\n\nV dalších letech se města a šlechta na sněmu pohádala, kdykoli se sešla. V dubnu 1512 se stavové znovu sešli na Pražském hradě, docela možná v [[link:too-happy-to-come-home-1496]]tom velkém sále[[/link]], dostavěném teprve před pár lety. Zástupci měst řekli jasně: když nemáme na sněmu hlas, neuznáváme žádná pravidla, která si odhlasujete.\n\nOdpověď pánů zaznamenal letopisec:\n\n[[quote:0]]\n\nNato páni a rytíři vstali a odešli a sněm se rozešel ve zlém.\n\n[[b]]Král říkal na všechno „dobře“, jeho páni na všechno „ne“.[[/b]]\n\nV čele stál nejvyšší purkrabí Zdeněk Lev z Rožmitálu, nejvyšší úředník království. Města měl za nic. Měšťany prostě vynechal a svolával si sjezdy pánů sám. Král to z Budína zakázal, ale nikdo ten zákaz nebral vážně.\n\nTo jméno může stálým čtenářům znít povědomě. Před více než čtyřiceti lety se Jaroslav Lev z Rožmitálu vydal se čtyřiceti muži a dvaapadesáti koňmi jménem krále Jiřího [[link:from-bohemia-to-the-end-of-the-world-1465]]až na konec světa[[/link]]. Zdeněk byl jeho syn a [[link:the-queen-takes-the-field-1470]]královna Johana[[/link]], která ho tehdy vyprovázela, byla Zdeňkova teta.\n\nI na straně měst přišli noví lidé. Na pražské radnici se objevily dvě nové tváře: Jan Hlavsa a Jan Pašek. Staří konšelé před tuctem let jen přihlíželi, jak páni sepisují [[link:the-lords-hold-the-pen-1500]]zemské zřízení[[/link]], a zmohli se jen na protestní dopisy; tihle dva byli mnohem chytřejší. Věděli, že protestními dopisy se nic nezmůže. Města potřebovala vlastní vojsko a někoho dost váženého, kdo by ho vedl.\n\n15. června 1513 jmenovala jednota měst svého vrchního hejtmana: knížete Bartoloměje Minsterberského.\n\nJeho dědečkem byl Jiří z Poděbrad.\n\nMěsta mu dala „slušnou odměnu“. Kníže měl i vlastní počty: vedl spor s Vratislaví a myslel na kus země, který podle něj patřil jeho rodu, a s městy za zády mohl s králem vyjednávat ostřeji. [[b]]Měšťané si koupili slavné jméno, kníže ho prodal a obě strany měly pocit, že udělaly dobrý obchod.[[/b]]\n\nA tak se po více než čtyřiceti letech dva rody z okolí krále Jiřího znovu sešly, jenže tentokrát tváří v tvář. Na jedné straně syn rytíře, který pro něj došel na konec světa, v čele pánů; na druhé jeho vlastní vnuk, v čele měšťanů.\n\nJiří býval [[link:king-of-two-peoples-1460]]králem dvojího lidu[[/link]] a celý život se snažil, aby katolíci a kališníci mohli žít v jedné zemi. Teď jeho potomek a potomek jednoho z jeho nejbližších lidí táhli zemi na dvě strany kvůli jinému rozdělení.\n\n[[b]]Rozkol ve víře Jiří urovnával celý život; do rozkolu podle původu byl zatažen i jeho vnuk.[[/b]]",
+      zh: "[[link:the-burghers-pay-for-the-crown-1509]]1509年的那场裁决[[/link]]，让布拉格人看清了一件事：指望国王，是指望不上了。\n\n接下来的几年，城里人和贵族在邦议会上见一次吵一次。1512年4月，各等级又在布拉格城堡开会，很可能就在[[link:too-happy-to-come-home-1496]]那座刚落成没几年的大厅[[/link]]里。城市代表的态度很清楚：议会里没有我们的那一票，你们定的规矩我们一概不认。\n\n贵族们的回答，编年史家记了下来：\n\n[[quote:0]]\n\n说完，领主和骑士们起身走了，议会不欢而散。\n\n[[b]]好好国王对什么都说“好”，他的贵族们对什么都说“不”。[[/b]]\n\n带头的是最高城堡伯爵罗日米塔尔的兹德涅克·列夫，王国地位最高的官员。他压根不把城市放在眼里，干脆撇开城里人，自己召集贵族开会。国王从布达下令禁止，可谁也没把这道禁令当回事。\n\n这个名字，老读者可能有点眼熟。四十多年前，有一位罗日米塔尔的雅罗斯拉夫·列夫，带着四十个人、五十二匹马，替伊日国王一路[[link:from-bohemia-to-the-end-of-the-world-1465]]走到了世界尽头[[/link]]。兹德涅克就是他的儿子；当年送他出门的[[link:the-queen-takes-the-field-1470]]约翰娜王后[[/link]]，是他的姑妈。\n\n城里人这边，也换了一拨人。布拉格的市政厅里，冒出了两个新面孔：扬·赫拉夫萨和扬·帕谢克。十几年前，老议员们只能眼看着贵族写成了[[link:the-lords-hold-the-pen-1500]]《邦法》[[/link]]，然后一封接一封地寄抗议信；这两位新人可比他们精明得多。他们知道，光写抗议信是没用的，城市得有自己的军队，还得有一个镇得住场面的人来带兵。\n\n1513年6月15日，城市联盟正式任命了自己的最高统帅：明斯特贝格公爵巴尔托洛梅伊。\n\n他的祖父，正是波杰布拉德的伊日。\n\n城里人给了他一笔“相当体面的报酬”。公爵自己也有算盘：他正和弗罗茨瓦夫闹纠纷，还惦记着一块该归他家的领地，有了城市撑腰，跟国王讨价还价时说话也硬气些。[[b]]城里人买了一个响亮的姓氏，公爵卖了一个响亮的姓氏，这笔买卖两边都觉得划算。[[/b]]\n\n就这样，四十多年后，伊日国王身边的两家人又站到了一起，只不过这一回，是面对面。一边是替他走到世界尽头的那位骑士的儿子，领着贵族；另一边是他的亲孙子，领着市民。\n\n当年伊日是“[[link:king-of-two-peoples-1460]]两种子民的国王[[/link]]”，费尽心思让天主教徒和圣杯派住在一个国家里。如今，他的后人和他身边人的后人，正为了另一种分歧，把这个国家拉向两头。\n\n[[b]]信仰的分歧，伊日调停了一辈子；出身的分歧，连他的孙子都卷了进去。[[/b]]",
+    },
+    relatedLandmarks: [
+      {
+        slug: "vladislavsky-sal",
+        relation: {
+          en: "The April 1512 diet that broke up when the lords and knights walked out met at Prague Castle, quite possibly in this hall.",
+          cz: "Dubnový sněm roku 1512, který skončil odchodem pánů a rytířů, zasedal na Pražském hradě, docela možná právě v tomto sále.",
+          zh: "1512年4月那场领主和骑士拂袖而去的邦议会在布拉格城堡召开，很可能就在这座大厅里。",
+        },
+      },
+      {
+        slug: "podebrady",
+        relation: {
+          en: "The family seat of the lords of Poděbrady, the line of King George and of his grandson Duke Bartholomew of Münsterberg.",
+          cz: "Rodové sídlo pánů z Poděbrad, rodu krále Jiřího i jeho vnuka, knížete Bartoloměje Minsterberského.",
+          zh: "波杰布拉迪家族的老家，伊日国王和他的孙子明斯特贝格公爵巴尔托洛梅伊都出自这一家。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Bartolom%C4%9Bj_Minsterbersk%C3%BD",
+  },
+  {
+    slug: "reinforcements-slightly-late-1514",
+    era: "rule-of-the-lords",
+    images: ["/history/reinforcements-slightly-late-1514.webp"],
+    imageCaptions: [
+      {
+        en: "Hungary, late summer 1514: Duke Bartholomew rides up at the head of the Bohemian towns' relief force, only to find the peasant war long over; an envoy holds out a letter of thanks while Hungarian nobles raise their cups beside a heap of abandoned scythes and flails.",
+        cz: "Uhry, pozdní léto 1514: kníže Bartoloměj přijíždí v čele posily českých měst a zjišťuje, že selská válka dávno skončila; posel mu podává děkovný list a uherští páni vedle hromady odhozených kos a cepů zvedají poháry.",
+        zh: "1514年夏末，匈牙利：巴尔托洛梅伊公爵领着波希米亚城市的援军赶到，才发现农民战争早就结束了；信使递上一封感谢信，匈牙利贵族们在一堆丢弃的镰刀和连枷旁举杯致意。",
+      },
+    ],
+    startYear: 1514,
+    year: {
+      en: "1514",
+      cz: "1514",
+      zh: "1514年",
+    },
+    tone: "humorous",
+    title: {
+      en: "All That Way for a Thank-You",
+      cz: "Tak daleko pro jedno díky",
+      zh: "白跑一趟",
+    },
+    hookLine: {
+      en: "At home, the townsmen and the nobles were at each other's throats. Abroad, the townsmen volunteered to help Hungary's nobles put down their peasants. The king was touched. The only trouble was that by the time the help arrived, the war was over.",
+      cz: "Doma se měšťané se šlechtou rvali na život a na smrt. V cizině se ale sami přihlásili, že pomohou uherským pánům potlačit sedláky. Král byl dojat. Jen když posila dorazila, válka už skončila.",
+      zh: "在家里，城里人和贵族斗得你死我活；到了国外，他们却自告奋勇，要去帮匈牙利的贵族镇压农民。国王很感动，只可惜援军到的时候，仗已经打完了。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "King Vladislaus was very grateful for the men who had been sent to His Majesty.",
+          cz: "Král Vladislav velmi byl vděčen toho lidu, kterýž jest poslán byl JM.",
+          zh: "弗拉迪斯拉夫国王对派去给陛下的这支人马非常感激。",
+        },
+        attribution: {
+          en: "Old Czech Annals",
+          cz: "Staré letopisy české",
+          zh: "《捷克古代编年史》",
+        },
+      },
+      {
+        text: {
+          en: "Of Duke Bartholomew it is heard that he has fewer men every day.",
+          cz: "O kniežeti Bartolomějovi jest slyšeti, že mu den ode dne vždy lidí ubývá.",
+          zh: "听说巴尔托洛梅伊公爵手下的人，一天比一天少。",
+        },
+        attribution: {
+          en: "A letter from the Rožmberk correspondence, 1514",
+          cz: "Dopis z rožmberské korespondence, 1514",
+          zh: "罗日姆贝克家族往来书信，1514年",
+        },
+      },
+    ],
+    summary: {
+      en: "In the spring of 1514, something big happened in Hungary.\n\nThe Archbishop of Esztergom called the whole country to a crusade against the [[link:the-rise-of-the-ottomans-1453]]Turks[[/link]]. Hardly any knights signed up, but peasants came in their tens of thousands. They gathered with scythes and flails under a border soldier named György Dózsa. Once the army had come together, though, the peasants realised that what really weighed on them was not in Turkey at all. It was right on their own doorstep.\n\nThe crusade turned around. Within a few weeks manor houses were burning all over Hungary, and nobles were dragged out of their castles, some to be hanged, some to be impaled.\n\nThe news reached Bohemia: the king was in trouble in Buda.\n\nThe towns saw their chance at once. For years the nobles had pushed them around at the diet, and they could never get a word in with the king. Now the king was in trouble, and if the towns were the first to send troops, surely he would remember who could really be relied on. So the towns raised an army, put it under the commander they had hired the year before, [[link:the-heretic-kings-grandson-1513]]Duke Bartholomew[[/link]], and sent it off to Hungary.\n\nNot everyone was pleased. [[link:one-man-against-a-city-1507]]Petr of Rožmberk[[/link]], the great lord of South Bohemia, wrote letter after letter, to the king, to the people of Prague and in the end to the emperor himself, asking them to stop the duke.\n\n[[b]]At home the townsmen and the nobles were sworn enemies; abroad, the townsmen were rushing to help another country's nobles put down their peasants.[[/b]]\n\nThe Hungarian nobles, however, did not wait for them. In July the great magnate John Zápolya crushed the peasant army at Temesvár, and Dózsa was taken prisoner.\n\nThe nobles had a special execution in mind for him. They placed a red-hot iron crown on the head of this \"peasant king\". The throne he sat on, it is said, was red-hot iron too.\n\n[[b]]In 1514 Hungary had two crowns: a golden one on the head of eight-year-old Louis, and a red-hot iron one on the head of a peasant rebel.[[/b]]\n\nThe rising was crushed. That autumn the Hungarian diet passed a new law: from now on the peasants were bound to the land for ever, and could never again leave their lords.\n\nThe Bohemian towns' relief force, meanwhile, finished gathering in Prague at the beginning of August. The war had been over for a month.\n\nThe king, at least, was very gracious about it. The envoys sent to him came back and reported:\n\n[[quote:0]]\n\nGrateful or not, the army set off anyway. With no peasants left to fight, the duke's men found other things to do along the way: setting fires and helping themselves. The lords whose lands they passed through were furious, and the duke had to explain to Emperor Maximilian, item by item, what his men had burned and what they had taken. By the autumn he had dug himself in somewhere in Hungary, and the news that came back went like this:\n\n[[quote:1]]\n\nThe towns had sent out an army, and got back a \"very grateful\" and a pile of unpaid damages.\n\n[[b]]The help arrived late; the thanks arrived promptly. Still, the townsmen had no intention of giving up.[[/b]]",
+      cz: "Na jaře 1514 se v Uhrách stalo něco velkého.\n\nOstřihomský arcibiskup vyhlásil po celé zemi křížovou výpravu proti [[link:the-rise-of-the-ottomans-1453]]Turkům[[/link]]. Rytířů se přihlásilo jen pár, zato se sešly desítky tisíc sedláků. S kosami a cepy se shromáždili pod velením pohraničního vojáka Jiřího Dóži. Jenže když se vojsko sešlo, sedláci zjistili, že to, co je doopravdy tíží, není v Turecku. Je to hned za humny.\n\nKřižáci se obrátili. Během pár týdnů hořely po celých Uhrách panské dvory a šlechtice tahali z hradů; jedny věšeli, jiné naráželi na kůl.\n\nDo Čech dorazila zpráva: král má v Budíně potíže.\n\nMěsta v tom hned uviděla příležitost. Léta je páni na sněmu odstrkovali a u krále se nikdy nedostali ke slovu. Teď měl král potíže, a kdyby města poslala vojsko první, král si přece zapamatuje, na koho je opravdu spolehnutí. Města tedy dala dohromady vojsko, svěřila ho hejtmanovi, kterého si najala předloni, [[link:the-heretic-kings-grandson-1513]]knížeti Bartoloměji[[/link]], a poslala ho do Uher.\n\nNe všem se to líbilo. Mocný jihočeský pán [[link:one-man-against-a-city-1507]]Petr z Rožmberka[[/link]] psal jeden dopis za druhým, králi, Pražanům a nakonec i císaři, aby knížete zastavili.\n\n[[b]]Doma byli měšťané se šlechtou na nože; v cizině ale spěchali pomáhat cizím pánům potlačit jejich sedláky.[[/b]]\n\nUherští páni na ně ovšem nečekali. V červenci rozdrtil mocný velmož Jan Zápolský sedlácké vojsko u Temešváru a Dóža padl do zajetí.\n\nPáni pro něj vymysleli zvláštní popravu. Tomuhle „sedláckému králi“ nasadili na hlavu rozžhavenou železnou korunu. Prý i trůn, na kterém seděl, byl z rozžhaveného železa.\n\n[[b]]Uhry měly roku 1514 dvě koruny: zlatou na hlavě osmiletého Ludvíka a rozžhavenou železnou na hlavě vzbouřeného sedláka.[[/b]]\n\nPovstání bylo potlačeno. Na podzim přijal uherský sněm nový zákon: sedláci jsou napořád připoutáni k půdě a od svého pána už nikdy nesmějí odejít.\n\nPosila českých měst se mezitím v Praze sešla až začátkem srpna. Válka byla měsíc po konci.\n\nKrál se aspoň zachoval velmi zdvořile. Poslové, kteří k němu byli vysláni, se vrátili s touto zprávou:\n\n[[quote:0]]\n\nVděk nevděk, vojsko se stejně vydalo na cestu. Sedláci k bití už nebyli, a tak si knížecí lidé našli po cestě jinou zábavu: pálili a brali. Páni, přes jejichž panství táhli, zuřili, a kníže se musel císaři Maxmiliánovi bod po bodu vymlouvat, co jeho lidé spálili a co pobrali. Na podzim se kdesi v Uhrách zakopal a zprávy, které odtud přicházely, zněly takhle:\n\n[[quote:1]]\n\nMěsta vyslala vojsko a zpátky dostala „velmi byl vděčen“ a hromadu nezaplacených škod.\n\n[[b]]Pomoc přišla pozdě, poděkování přišlo hned. Měšťané to ale vzdávat nehodlali.[[/b]]",
+      zh: "1514年春天，匈牙利出了大事。\n\n埃斯泰尔戈姆大主教在全国号召十字军，去打[[link:the-rise-of-the-ottomans-1453]]土耳其人[[/link]]。报名的骑士没几个，涌来的却是成千上万的农民。他们扛着镰刀和连枷，在一位叫多饶·捷尔吉的边境军官手下集结起来。可等这支队伍拉起来，农民们发现，真正压在他们头上的，不在土耳其，就在自己家门口。\n\n十字军掉转了矛头。几个星期里，匈牙利各地的庄园一座接一座着了火，贵族们被拖出城堡，有的被吊死，有的被钉在木桩上。\n\n消息传到波希米亚：国王在布达有难了。\n\n城里人一下子看到了机会。这些年，他们在议会里被贵族撵来撵去，在国王面前怎么也说不上话。现在国王有难，要是城市能抢先出兵，国王总该记住，谁才是真正靠得住的人。于是，城市凑起了一支军队，交给去年刚聘的统帅[[link:the-heretic-kings-grandson-1513]]巴尔托洛梅伊公爵[[/link]]，开往匈牙利。\n\n不是人人都乐见其成。南波希米亚的大贵族[[link:one-man-against-a-city-1507]]罗日姆贝克的彼得[[/link]]一封接一封地写信，写给国王，写给布拉格人，最后干脆写给皇帝，请他们出面拦住这位公爵。\n\n[[b]]在家里，城里人跟贵族是死对头；出了国门，他们却赶着去替别国的贵族镇压农民。[[/b]]\n\n只是，匈牙利的贵族没等他们。7月，匈牙利大贵族扎波尧伊·亚诺什在蒂米什瓦拉击溃了农民军，多饶被俘。\n\n贵族们给他准备了一场特别的处决：把一顶烧红的铁王冠，戴在了这位“农民国王”的头上。据说，他坐的王座也是烧红的铁。\n\n[[b]]1514年的匈牙利有两顶王冠：一顶是金的，戴在八岁的路德维克头上；一顶是烧红的铁，戴在造反的农民头上。[[/b]]\n\n起义被镇压了下去。那年秋天，匈牙利议会通过了一部新法律：农民从此永远被绑在土地上，再也不许离开自己的领主。\n\n而波希米亚城市的援军，8月初才在布拉格集结完毕。这时候，仗已经打完一个月了。\n\n国王倒是很客气。派去见他的使者回来报告：\n\n[[quote:0]]\n\n感激归感激，队伍还是照样上了路。没有农民可打，公爵的人马一路上就自己找事干：放火，抢东西。沿途的领主们大为光火，公爵只好向皇帝马克西米利安一项一项地解释，自己的人烧了什么、拿了什么。到了秋天，他在匈牙利挖好壕沟扎下营来，传回来的消息是这样的：\n\n[[quote:1]]\n\n城里人送出去一支军队，换回来一句“非常感激”，外加一堆没赔完的烂账。\n\n[[b]]援军来晚了，谢意倒来得挺快。不过，城里人还没打算认输。[[/b]]",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/D%C3%B3%C5%BEovo_povst%C3%A1n%C3%AD",
   },
 ];
 
