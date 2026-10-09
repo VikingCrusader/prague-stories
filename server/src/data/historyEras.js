@@ -149,7 +149,11 @@
 // swapped for a more literary word (chose "nightmare"/梦魇 from several
 // offered alternatives), then simplified the whole title down to just "The
 // Nazi Nightmare" (纳粹梦魇) — don't assume the first framing offered is
-// the one that sticks; this took three iterations.
+// the one that sticks; this took three iterations. Renamed again 2026-10-09
+// to "Occupation and Resistance" / "Okupace a odboj" / 占领与抵抗: names the
+// era from the Czech side rather than the occupier's, matches the standard
+// Czech phrase, and keeps the restrained 20th-century tone. Four-character
+// ZH alternatives were rejected as less apt; the key stays 'nazi-nightmare'.
 //
 // Final era added (2026-08-24, same session): 'freedom-and-prosperity'
 // (order 13) — the Velvet Divorce and everything since (NATO/EU accession,
@@ -540,9 +544,9 @@ export const HISTORY_ERAS = [
     themeClass: 'era-nazi-nightmare',
     hasContent: false,
     title: {
-      en: 'The Nazi Nightmare',
-      cz: 'Nacistická noční můra',
-      zh: '纳粹梦魇',
+      en: 'Occupation and Resistance',
+      cz: 'Okupace a odboj',
+      zh: '占领与抵抗',
     },
     yearRange: {
       en: '1938–1945',
