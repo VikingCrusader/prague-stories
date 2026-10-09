@@ -15,7 +15,7 @@ import { useUserPosition } from "../../hooks/useUserPosition";
 import EditLocationForm from "./EditLocationForm";
 import {
   RARITY_VAR,
-  RARITY_LABEL,
+  RARITY_LABEL, RARITY_ICON,
   lockClosedIcon,
   lockOpenIcon,
 } from "../../utils/rarity";
@@ -489,6 +489,7 @@ export default function LocationDetail({
                     className="loc-meta__rarity"
                     style={{ color: RARITY_VAR[loc.rarity ?? "common"] }}
                   >
+                    {RARITY_ICON[loc.rarity ?? "common"]}{" "}
                     {convert(RARITY_LABEL[lang]?.[loc.rarity ?? "common"])}
                   </span>
                   <span className="loc-meta__xp" style={{ color: "var(--gold)" }}>

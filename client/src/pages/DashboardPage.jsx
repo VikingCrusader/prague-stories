@@ -3,7 +3,7 @@ import { userAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../utils/pixelArtMap';
-import { RARITY_VAR, RARITY_LABEL } from '../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL, RARITY_ICON } from '../utils/rarity';
 import ProgressRing from '../components/dashboard/ProgressRing';
 import AchievementBadge from '../components/dashboard/AchievementBadge';
 import { useWakeLock } from '../hooks/useWakeLock';
@@ -126,7 +126,7 @@ export default function DashboardPage() {
           <div className="rarity-strip-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             {['common', 'rare', 'superior', 'epic', 'mythic', 'legend'].map(r => (
               <div key={r} style={{ display: 'flex', alignItems: 'center', gap: 6, color: RARITY_VAR[r] }}>
-                <span style={{ fontSize: 16 }}>◆</span>
+                <span style={{ fontSize: 16 }}>{RARITY_ICON[r]}</span>
                 <span style={{ fontSize: 16 }}>{convert(RARITY_LABEL[lang]?.[r] ?? RARITY_LABEL.en[r])}</span>
                 <span style={{ fontSize: 18, fontWeight: 700 }}>
                   {rarityCount?.[r] ?? 0}

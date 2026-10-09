@@ -3,7 +3,7 @@ import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap
 import { getLocalCoverPath, toThumbPath, toCloudThumbUrl } from '../../utils/localCover';
 import { useLang, useConvert } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
-import { RARITY_VAR, RARITY_LABEL, lockClosedIcon, lockOpenIcon } from '../../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, lockClosedIcon, lockOpenIcon } from '../../utils/rarity';
 import { playUnlockSound } from '../../utils/sound';
 import { formatDistance } from '../../utils/geolocation';
 
@@ -74,6 +74,9 @@ function LocationCard({ location, onClick, distance, nearby = false }) {
       style={{ border: `3px solid ${RARITY_VAR[rarity]}` }}
       onAnimationEnd={e => { if (e.animationName === 'card-flip') setFlipping(false); }}
     >
+      {/* Static rarity frame (inner line, double line and corners as the
+          rarity rises), styled per data-rarity in pixelart.css. */}
+      <span className="loc-card__frame" aria-hidden="true" />
       {isNew && <span className="loc-card__new">NEW</span>}
       <div className="loc-card__banner" style={{ background: teasing ? 'var(--nearby-banner, #4a4a4a)' : color }}>
         {/* width/height give a lazy cover a square placeholder (covers are
@@ -140,12 +143,9 @@ function LocationCard({ location, onClick, distance, nearby = false }) {
         )}
         <div className="loc-card__footer">
           <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
-            <span style={{
-              display: 'inline-block', width: 8, height: 8,
-              background: RARITY_VAR[rarity],
-              clipPath: 'polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%)',
-              flexShrink: 0,
-            }} />
+            <span className="loc-card__rarity-icon" aria-hidden="true" style={{ color: RARITY_VAR[rarity] }}>
+              {RARITY_ICON[rarity]}
+            </span>
             <div className="loc-card__xp" style={{ color: RARITY_VAR[rarity] }}>
               {convert(RARITY_LABEL[lang]?.[rarity] ?? rarity)}
             </div>

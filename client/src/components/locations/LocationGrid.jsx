@@ -2,7 +2,7 @@ import { useState, useMemo, useEffect, useRef, useDeferredValue } from 'react';
 import LocationCard from './LocationCard';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
-import { RARITY_VAR, RARITY_LABEL } from '../../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL, RARITY_ICON } from '../../utils/rarity';
 import { NEARBY_REVEAL_M } from '../../utils/geolocation';
 
 const RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
@@ -220,7 +220,7 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
                       background: `color-mix(in srgb, ${RARITY_VAR[r]} 9%, transparent)`,
                     } : undefined}
                   >
-                    ◆ {convert(RARITY_LABEL[lang]?.[r] ?? r)}
+                    {RARITY_ICON[r]} {convert(RARITY_LABEL[lang]?.[r] ?? r)}
                   </button>
                 ))}
                 {activeRarities.size > 0 && (

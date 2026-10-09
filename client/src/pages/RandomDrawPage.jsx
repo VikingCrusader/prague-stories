@@ -78,6 +78,7 @@ function DrawnCard({ loc, name, lang, convert, onOpen }) {
   return (
     <>
       <div className="loc-card" data-rarity={rarity} style={{ border: `3px solid ${RARITY_VAR[rarity]}` }} onClick={onOpen}>
+        <span className="loc-card__frame" aria-hidden="true" />
         <div className="loc-card__banner" style={{ background: bannerColor, position: 'relative' }}>
           {useLocalCover ? (
             <img src={localCover} alt={name} onError={() => setLocalFailed(true)}

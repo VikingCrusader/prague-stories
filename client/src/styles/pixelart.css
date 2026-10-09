@@ -84,32 +84,269 @@
 .loc-card:hover { transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--card-shadow, var(--shadow)), var(--outer-glow, 0 0 0 transparent); }
 
 .loc-card[data-rarity="rare"]     { --rc: var(--rarity-rare);     --tint-top: 4%;  --tint-bottom: 9%; }
-.loc-card[data-rarity="superior"] { --rc: var(--rarity-superior); --tint-top: 5%;  --tint-bottom: 11%; }
+.loc-card[data-rarity="superior"] { --rc: var(--rarity-superior); --tint-top: 5%;  --tint-bottom: 11%; --glow: 14%; }
 .loc-card[data-rarity="epic"]     { --rc: var(--rarity-epic);     --tint-top: 7%;  --tint-bottom: 14%; --glow: 20%; }
 .loc-card[data-rarity="mythic"]   { --rc: var(--rarity-mythic);   --tint-top: 8%;  --tint-bottom: 17%; --glow: 26%;
   --outer-glow: 0 0 10px color-mix(in srgb, var(--rarity-mythic) 35%, transparent); }
-.loc-card[data-rarity="legend"]   { --rc: var(--rarity-legend);   --tint-top: 10%; --tint-bottom: 20%; --glow: 32%;
-  --outer-glow: 0 0 14px color-mix(in srgb, var(--rarity-legend) 45%, transparent); }
-/* Legend foil: a faint light band sweeping across the card every few
-   seconds. Sits above the content but ignores clicks. */
+/* Legend's surface colour can differ from its text colour: the light theme
+   keeps a dark --rarity-legend for readable text but tints and glows the
+   card with a bright gold (--rarity-legend-card, global.css). */
+.loc-card[data-rarity="legend"]   { --rc: var(--rarity-legend-card, var(--rarity-legend)); --tint-top: 10%; --tint-bottom: 20%; --glow: 32%;
+  --outer-glow: 0 0 14px color-mix(in srgb, var(--rarity-legend-card, var(--rarity-legend)) 45%, transparent); }
+/* Static rarity frame (2026-10-09, user request: show the climb in rank
+   without animating the lower tiers). A span inside every card
+   (.loc-card__frame), drawn just inside the border and above the cover:
+   - common: nothing;
+   - rare: one thin inner line;
+   - superior and up: a double inner line plus small L-shaped corner
+     pieces, so every tier keeps the decoration of the tiers below it.
+   Hidden on locked cards, like the animated effects. */
+.loc-card__frame {
+  position: absolute;
+  inset: 4px;
+  pointer-events: none;
+  z-index: 3;
+  display: none;
+}
+.loc-card[data-rarity="rare"] .loc-card__frame {
+  display: block;
+  border: 1px solid color-mix(in srgb, var(--rc) 55%, transparent);
+}
+.loc-card[data-rarity="superior"] .loc-card__frame,
+.loc-card[data-rarity="epic"] .loc-card__frame,
+.loc-card[data-rarity="mythic"] .loc-card__frame,
+.loc-card[data-rarity="legend"] .loc-card__frame {
+  display: block;
+  border: 3px double color-mix(in srgb, var(--rc) 60%, transparent);
+}
+.loc-card[data-rarity="superior"] .loc-card__frame::before,
+.loc-card[data-rarity="epic"] .loc-card__frame::before,
+.loc-card[data-rarity="mythic"] .loc-card__frame::before,
+.loc-card[data-rarity="legend"] .loc-card__frame::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  --c: linear-gradient(var(--rc), var(--rc));
+  background:
+    var(--c) top left / 12px 2px no-repeat,
+    var(--c) top left / 2px 12px no-repeat,
+    var(--c) top right / 12px 2px no-repeat,
+    var(--c) top right / 2px 12px no-repeat,
+    var(--c) bottom left / 12px 2px no-repeat,
+    var(--c) bottom left / 2px 12px no-repeat,
+    var(--c) bottom right / 12px 2px no-repeat,
+    var(--c) bottom right / 2px 12px no-repeat;
+}
+.loc-card--locked .loc-card__frame { display: none !important; }
+/* The tier symbol before the rarity name in the card footer. */
+.loc-card__rarity-icon {
+  font-size: 13px;
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+/* Legend (reworked 2026-10-09, user request: grander and more precious):
+   - a gold border instead of the theme's accent colour;
+   - ::before: a gold inner frame with a bright highlight that circles the
+     card (conic gradient on an animated angle, masked to a 3px ring);
+   - ::after: a warm golden foil band that sweeps down the card and back
+     up (vertical since 2026-10-09; it was a diagonal left-to-right sweep
+     before), plus a soft gold band drifting left and right like epic's
+     and mythic's;
+   - gold embers rising through the card body (.loc-card__body::before).
+   The foil used --fg-tint before, which is dark brown on the light theme,
+   so the "shine" read as a shadow there.
+   Toned down the same day (user: too showy, distracting from the cover):
+   dimmer highlight and foil, slower orbit, longer pause between sweeps.
+   All of it ignores clicks and is hidden on locked cards. Browsers without
+   @property show the ring without the circling highlight, and the foil and
+   band jump instead of gliding. */
+@property --legend-angle {
+  syntax: '<angle>';
+  inherits: false;
+  initial-value: 0deg;
+}
+.loc-card[data-rarity="legend"] {
+  border-color: var(--rarity-legend-card, var(--rarity-legend));
+}
+.loc-card[data-rarity="legend"]::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 3px;
+  pointer-events: none;
+  background:
+    conic-gradient(from var(--legend-angle),
+      transparent 0deg, color-mix(in srgb, #fffbe6 55%, transparent) 25deg, transparent 60deg,
+      transparent 180deg, color-mix(in srgb, #fffbe6 55%, transparent) 205deg, transparent 240deg),
+    linear-gradient(135deg,
+      color-mix(in srgb, var(--rarity-legend-card, var(--rarity-legend)) 70%, #fff),
+      var(--rarity-legend-card, var(--rarity-legend)) 50%,
+      color-mix(in srgb, var(--rarity-legend-card, var(--rarity-legend)) 75%, #000));
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0);
+  animation: legend-orbit 9s linear infinite;
+  z-index: 3;
+}
+/* Two independently timed layers in one pseudo-element: each animates its
+   own registered custom property (vertical foil, horizontal drifting band),
+   which a single background-position animation couldn't do. */
+@property --legend-foil-y {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 120%;
+}
+@property --legend-band-x {
+  syntax: '<percentage>';
+  inherits: false;
+  initial-value: 85%;
+}
 .loc-card[data-rarity="legend"]::after {
   content: '';
   position: absolute;
   inset: 0;
   pointer-events: none;
-  background: linear-gradient(115deg, transparent 40%, color-mix(in srgb, var(--fg-tint) 14%, transparent) 50%, transparent 60%);
-  background-size: 250% 100%;
-  background-position: 120% 0;
-  animation: legend-foil 6s ease-in-out infinite;
+  background:
+    linear-gradient(180deg,
+      transparent 38%,
+      color-mix(in srgb, #fff3c4 16%, transparent) 47%,
+      color-mix(in srgb, #ffffff 24%, transparent) 50%,
+      color-mix(in srgb, #fff3c4 16%, transparent) 53%,
+      transparent 62%) 0 var(--legend-foil-y) / 100% 250% no-repeat,
+    linear-gradient(90deg,
+      transparent 30%,
+      color-mix(in srgb, var(--rarity-legend-card, var(--rarity-legend)) 20%, transparent) 50%,
+      transparent 70%) var(--legend-band-x) 0 / 250% 100% no-repeat;
+  animation:
+    legend-foil 6s ease-in-out infinite alternate,
+    legend-drift 7s ease-in-out infinite alternate;
   z-index: 2;
 }
-.loc-card--locked[data-rarity="legend"]::after { display: none; }
-@keyframes legend-foil {
-  0%, 55% { background-position: 120% 0; }
-  100%    { background-position: -20% 0; }
+/* Gold embers rising through the lower (text) part of the card, a little
+   brighter than mythic's. Drawn on the card body so the cover stays clear. */
+.loc-card[data-rarity="legend"] .loc-card__body { position: relative; }
+.loc-card[data-rarity="legend"] .loc-card__body::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle, #ffe9a3 0 1.2px, transparent 2px),
+    radial-gradient(circle, #ffc23a 0 1px, transparent 1.8px);
+  background-size: 59px 97px, 79px 131px;
+  opacity: 0.85;
+  -webkit-mask-image: linear-gradient(to top, black 0%, transparent 90%);
+          mask-image: linear-gradient(to top, black 0%, transparent 90%);
+  animation: mythic-embers 9s linear infinite;
+  z-index: 2;
 }
+.loc-card--locked[data-rarity="legend"] .loc-card__body::before { display: none; }
+.loc-card--locked[data-rarity="legend"]::after { display: none; }
+@keyframes legend-orbit {
+  to { --legend-angle: 360deg; }
+}
+/* Top to bottom, then (alternate) bottom to top, resting off the card at
+   each end before the next pass. */
+@keyframes legend-foil {
+  0%, 15%   { --legend-foil-y: 120%; }
+  85%, 100% { --legend-foil-y: -20%; }
+}
+/* Same turnaround points as epic-drift: half the band stays on the card. */
+@keyframes legend-drift {
+  from { --legend-band-x: 85%; }
+  to   { --legend-band-x: 15%; }
+}
+
+/* Epic (2026-10-09, user request): a soft, slightly darker band of the
+   card's own purple that drifts slowly from left to right and back, the
+   quietest of the three animated tiers (epic < mythic < legend). A
+   twinkling-sparkle version was tried first and rejected. Hidden on locked
+   cards. */
+.loc-card[data-rarity="epic"]::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg,
+    transparent 30%,
+    color-mix(in srgb, var(--rarity-epic) 14%, transparent) 50%,
+    transparent 70%);
+  background-size: 250% 100%;
+  animation: epic-drift 9s ease-in-out infinite alternate;
+  z-index: 2;
+}
+.loc-card--locked[data-rarity="epic"]::after { display: none; }
+/* 85% and 15% put the band's centre just past each edge, so half of it
+   always stays on the card instead of vanishing at the turnaround. */
+@keyframes epic-drift {
+  from { background-position: 85% 0; }
+  to   { background-position: 15% 0; }
+}
+
+/* Mythic (2026-10-09, user request: it looked the same as epic):
+   - ::after: a crimson inner rim that slowly breathes, plus a soft darker
+     band of the card's red drifting left and right (like epic's, a little
+     stronger and faster). The breathing animates the box-shadow, not
+     opacity, so it doesn't also dim the band.
+   - ::before: a few faint embers drifting up from the bottom edge, masked
+     to the bottom part so they never reach the cover image.
+   Kept below legend: a dense, bright ember version was tried first and
+   rejected as louder than legend. Hidden on locked cards. */
+.loc-card[data-rarity="mythic"]::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(90deg,
+    transparent 30%,
+    color-mix(in srgb, var(--rarity-mythic) 18%, transparent) 50%,
+    transparent 70%);
+  background-size: 250% 100%;
+  box-shadow: inset 0 0 14px 1px color-mix(in srgb, var(--rarity-mythic) 25%, transparent);
+  animation: mythic-drift 7s ease-in-out infinite alternate, mythic-breathe 4s ease-in-out infinite;
+  z-index: 2;
+}
+.loc-card[data-rarity="mythic"]::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image:
+    radial-gradient(circle, #ffb35c 0 1.2px, transparent 2px),
+    radial-gradient(circle, #ff6a2a 0 1px, transparent 1.8px);
+  background-size: 59px 97px, 79px 131px;
+  opacity: 0.75;
+  -webkit-mask-image: linear-gradient(to top, black 0%, transparent 38%);
+          mask-image: linear-gradient(to top, black 0%, transparent 38%);
+  animation: mythic-embers 10s linear infinite;
+  z-index: 2;
+}
+.loc-card--locked[data-rarity="mythic"]::before,
+.loc-card--locked[data-rarity="mythic"]::after { display: none; }
+/* Same turnaround points as epic-drift: half the band stays on the card. */
+@keyframes mythic-drift {
+  from { background-position: 85% 0; }
+  to   { background-position: 15% 0; }
+}
+@keyframes mythic-breathe {
+  0%, 100% { box-shadow: inset 0 0 14px 1px color-mix(in srgb, var(--rarity-mythic) 25%, transparent); }
+  50%      { box-shadow: inset 0 0 14px 1px color-mix(in srgb, var(--rarity-mythic) 50%, transparent); }
+}
+/* Each ember layer moves up by a whole multiple of its own tile height,
+   so the loop is seamless. */
+@keyframes mythic-embers {
+  from { background-position: 0 0, 29px 0; }
+  to   { background-position: 0 -194px, 29px -262px; }
+}
+
 @media (prefers-reduced-motion: reduce) {
-  .loc-card[data-rarity="legend"]::after { animation: none; display: none; }
+  .loc-card[data-rarity="legend"]::before,
+  .loc-card[data-rarity="mythic"]::after { animation: none; }
+  .loc-card[data-rarity="legend"]::after,
+  .loc-card[data-rarity="legend"] .loc-card__body::before,
+  .loc-card[data-rarity="mythic"]::before { display: none; }
+  .loc-card[data-rarity="epic"]::after { animation: none; display: none; }
 }
 
 /* "NEW" tag on cards collected in the last 48 h (LocationCard). */

@@ -9,7 +9,7 @@ import { useUserPosition } from '../hooks/useUserPosition';
 import MapView from '../components/map/MapView';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../utils/pixelArtMap';
 import { getLocalCoverPath } from '../utils/localCover';
-import { RARITY_VAR, RARITY_LABEL, lockClosedIcon } from '../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, lockClosedIcon } from '../utils/rarity';
 import { playUnlockSound } from '../utils/sound';
 
 const RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
@@ -201,7 +201,7 @@ export default function MapPage() {
                         background: `color-mix(in srgb, ${RARITY_VAR[r]} 9%, transparent)`,
                       } : undefined}
                     >
-                      ◆ {convert(RARITY_LABEL[lang]?.[r] ?? r)}
+                      {RARITY_ICON[r]} {convert(RARITY_LABEL[lang]?.[r] ?? r)}
                     </button>
                   ))}
                   {activeRarities.size > 0 && (

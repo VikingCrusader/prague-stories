@@ -21,6 +21,19 @@ export const RARITY_VAR = Object.fromEntries(
   Object.keys(RARITY_COLOR).map((r) => [r, `var(--rarity-${r})`])
 );
 
+// One symbol per tier, getting fancier as the rarity rises (2026-10-09,
+// user request): circle, triangle, diamond, five-point star, six-point star,
+// crown. U+FE0E keeps the crown a text glyph (some platforms would draw it
+// as a colour emoji that ignores the rarity colour).
+export const RARITY_ICON = {
+  common:   '\u25CF',
+  rare:     '\u25B2',
+  superior: '\u25C6',
+  epic:     '\u2605',
+  mythic:   '\u2736',
+  legend:   '\u265B\uFE0E',
+};
+
 export const RARITY_LABEL = {
   en: { common: 'Common', rare: 'Rare', superior: 'Superior', epic: 'Epic', mythic: 'Mythic',     legend: 'Legendary' },
   cz: { common: 'Běžné',  rare: 'Vzácné', superior: 'Výjimečné', epic: 'Epické', mythic: 'Mýtické', legend: 'Legendární' },

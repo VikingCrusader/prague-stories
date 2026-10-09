@@ -939,6 +939,9 @@ html[data-lang="zh"]:not([data-zh-variant="tw"]) .explore-title {
   --rarity-epic: #6c2185;
   --rarity-mythic: #8c0000;
   --rarity-legend: #664400;
+  /* Legend card surface (tint and glow): a bright gold rather than the
+     dark text colour above (2026-10-09, user request). */
+  --rarity-legend-card: #f0c020;
 }
 /* Label pills sit on the dark LABEL_COLORS backgrounds, so they keep
    light text in both themes. */
