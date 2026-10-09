@@ -155,6 +155,19 @@
 // Czech phrase, and keeps the restrained 20th-century tone. Four-character
 // ZH alternatives were rejected as less apt; the key stays 'nazi-nightmare'.
 //
+// Same day, 'cold-war-sorrow' (then 1946–1989) was split at the August 1968
+// invasion: 'cold-war-sorrow' (order 15) is now "Dictatorship and Thaw"
+// (1945–1968, closing on the Prague Spring) and the new
+// 'occupation-and-dissent' (order 16) is "Occupation and Dissent"
+// (1968–1989, opening on the invasion). The three titles deliberately rhyme
+// (占领与抵抗 → 专政与解冻 → 占领与异见): the user saw 1938–1989 as one
+// continuous run of occupation and resistance under different oppressors.
+// The middle era says 专政 rather than 占领 on purpose, because 1945–1968 was
+// a homegrown regime (the 1946 election, the 1948 coup) with no Soviet troops
+// in the country; "occupation" is literal again from 1968, when Czechs
+// themselves called it okupace and the troops stayed until 1991. The start
+// year also moved from 1946 to 1945 to close the gap with era 14.
+//
 // Final era added (2026-08-24, same session): 'freedom-and-prosperity'
 // (order 13) — the Velvet Divorce and everything since (NATO/EU accession,
 // the post-Communist recovery). Tone returns to the earlier-era wry-but-light
@@ -565,24 +578,45 @@ export const HISTORY_ERAS = [
     themeClass: 'era-cold-war-sorrow',
     hasContent: false,
     title: {
-      en: "The Cold War's Sorrow",
-      cz: 'Žal studené války',
-      zh: '冷战之殇',
+      en: 'Dictatorship and Thaw',
+      cz: 'Diktatura a tání',
+      zh: '专政与解冻',
     },
     yearRange: {
-      en: '1946–1989',
-      cz: '1946–1989',
-      zh: '1946年－1989年',
+      en: '1945–1968',
+      cz: '1945–1968',
+      zh: '1945年－1968年',
     },
     tagline: {
-      en: "Forty-odd years of secret police, purges, and Soviet tanks rolling in whenever Prague gets too many ideas of its own — ending, eventually, in one remarkably polite revolution.",
-      cz: "Přes čtyřicet let tajné policie, čistek a sovětských tanků, které vyrazí pokaždé, když má Praha příliš mnoho vlastních nápadů — a nakonec to všechno skončí jednou nápadně slušnou revolucí.",
-      zh: "四十多年的秘密警察、政治清洗，外加每当布拉格自己的想法太多时就开进来的苏联坦克——最后，却以一场出奇有礼貌的革命收场。",
+      en: "Liberation, a free election in which the communists come first, and in February 1948 a coup that hands them everything else. Show trials, a giant Stalin on the hill above the river, and then, slowly, a thaw, until in 1968 Prague starts to believe that socialism could have a human face.",
+      cz: "Osvobození, svobodné volby, v nichž komunisté zvítězí, a v únoru 1948 převrat, který jim dá i všechno ostatní. Politické procesy, obří Stalin na pláni nad řekou a pak pomalé tání, až Praha v roce 1968 uvěří, že socialismus může mít lidskou tvář.",
+      zh: "解放，一场共产党拿了第一的自由选举，然后是1948年二月，一场政变把剩下的一切都交到了他们手里。政治审判，河边山坡上巨大的斯大林像，再然后，冰慢慢化了，直到1968年，布拉格开始相信，社会主义也可以有一张人的面孔。",
+    },
+  },
+  {
+    key: 'occupation-and-dissent',
+    order: 16,
+    themeClass: 'era-occupation-and-dissent',
+    hasContent: false,
+    title: {
+      en: 'Occupation and Dissent',
+      cz: 'Okupace a disent',
+      zh: '占领与异见',
+    },
+    yearRange: {
+      en: '1968–1989',
+      cz: '1968–1989',
+      zh: '1968年－1989年',
+    },
+    tagline: {
+      en: "In August 1968 the tanks come, and this time they stay. Twenty years of \"normalization\" follow: quiet conformity, a student who sets himself on fire in protest, a charter with a few hundred signatures, and at last, in November 1989, a whole city jingling its keys at a regime that leaves remarkably politely.",
+      cz: "V srpnu 1968 přijedou tanky a tentokrát zůstanou. Následuje dvacet let „normalizace“: tiché přizpůsobení, student, který se na protest zapálí, charta s několika sty podpisy a nakonec, v listopadu 1989, celé město, které zvoní klíči na režim, jenž odejde nápadně slušně.",
+      zh: "1968年8月，坦克开了进来，而且这一回没有走。接下来是二十年的“正常化”：沉默的顺从，一个为抗议而自焚的学生，一份只有几百人签名的宪章；最后，1989年11月，整座城市冲着政权摇响钥匙，而那个政权，出奇有礼貌地退了场。",
     },
   },
   {
     key: 'freedom-and-prosperity',
-    order: 16,
+    order: 17,
     themeClass: 'era-freedom-and-prosperity',
     hasContent: false,
     title: {
