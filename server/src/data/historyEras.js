@@ -238,6 +238,15 @@
 // fell without a fight and the state ceased to exist. EN/CZ unchanged
 // ("Occupation and Resistance" / "Okupace a odboj"), so the deliberate
 // Occupation/Occupation echo still stands in those two languages.
+// Finally the post-war eras became the user's six-character trilogy:
+// new 'third-republic' 从解放到铁幕 / "From Liberation to the Iron Curtain"
+// (1945–1948, Czechoslovakia's Third Republic, dense despite its length:
+// the expulsions, the 1946 election, the Marshall Plan U-turn, the February
+// coup, Jan Masaryk's fall from the Černín Palace window); 'cold-war-sorrow'
+// 从二月到春天 / "From February to Spring" (now 1948–1968); and
+// 'occupation-and-dissent' 从坦克到丝绒 / "From Tanks to Velvet" (1968–1989).
+// The earlier titles 专政与解冻 / 占领与异见 are kept as the planned
+// overview-card subtitles of those two eras.
 //
 // Final era added (2026-08-24, same session): 'freedom-and-prosperity'
 // (order 13) — the Velvet Divorce and everything since (NATO/EU accession,
@@ -728,35 +737,56 @@ export const HISTORY_ERAS = [
     },
   },
   {
-    key: 'cold-war-sorrow',
+    key: 'third-republic',
     order: 19,
+    themeClass: 'era-third-republic',
+    hasContent: false,
+    title: {
+      en: 'From Liberation to the Iron Curtain',
+      cz: 'Od osvobození k železné oponě',
+      zh: '从解放到铁幕',
+    },
+    yearRange: {
+      en: '1945–1948',
+      cz: '1945–1948',
+      zh: '1945年－1948年',
+    },
+    tagline: {
+      en: "Liberation comes in May 1945, the Germans of Bohemia are driven out, and a free election puts the communists in first place. Three years later they take everything else, and a foreign minister falls from a window.",
+      cz: "V květnu 1945 přijde osvobození, čeští Němci jsou vyhnáni a svobodné volby vynesou komunisty na první místo. O tři roky později si vezmou i všechno ostatní a ministr zahraničí vypadne z okna.",
+      zh: "1945年5月，解放来了，波希米亚的德意志人被赶走，一场自由选举把共产党推到了第一。三年后，他们拿走了剩下的一切，一位外交部长从窗口坠落。",
+    },
+  },
+  {
+    key: 'cold-war-sorrow',
+    order: 20,
     themeClass: 'era-cold-war-sorrow',
     hasContent: false,
     title: {
-      en: 'Dictatorship and Thaw',
-      cz: 'Diktatura a tání',
-      zh: '专政与解冻',
+      en: 'From February to Spring',
+      cz: 'Od Února k jaru',
+      zh: '从二月到春天',
     },
     yearRange: {
-      en: '1945–1968',
-      cz: '1945–1968',
-      zh: '1945年－1968年',
+      en: '1948–1968',
+      cz: '1948–1968',
+      zh: '1948年－1968年',
     },
     tagline: {
-      en: "Liberation, a free election in which the communists come first, and in February 1948 a coup that hands them everything else. Show trials, a giant Stalin on the hill above the river, and then, slowly, a thaw, until in 1968 Prague starts to believe that socialism could have a human face.",
-      cz: "Osvobození, svobodné volby, v nichž komunisté zvítězí, a v únoru 1948 převrat, který jim dá i všechno ostatní. Politické procesy, obří Stalin na pláni nad řekou a pak pomalé tání, až Praha v roce 1968 uvěří, že socialismus může mít lidskou tvář.",
-      zh: "解放，一场共产党拿了第一的自由选举，然后是1948年二月，一场政变把剩下的一切都交到了他们手里。政治审判，河边山坡上巨大的斯大林像，再然后，冰慢慢化了，直到1968年，布拉格开始相信，社会主义也可以有一张人的面孔。",
+      en: "From February 1948 the party runs everything. Show trials, a giant Stalin on the hill above the river, and then, slowly, a thaw, until in 1968 Prague starts to believe that socialism could have a human face.",
+      cz: "Od února 1948 rozhoduje o všem strana. Politické procesy, obří Stalin na pláni nad řekou a pak pomalé tání, až Praha v roce 1968 uvěří, že socialismus může mít lidskou tvář.",
+      zh: "1948年二月以后，一切都由党说了算。政治审判，河边山坡上巨大的斯大林像，再然后，冰慢慢化了，直到1968年，布拉格开始相信，社会主义也可以有一张人的面孔。",
     },
   },
   {
     key: 'occupation-and-dissent',
-    order: 20,
+    order: 21,
     themeClass: 'era-occupation-and-dissent',
     hasContent: false,
     title: {
-      en: 'Occupation and Dissent',
-      cz: 'Okupace a disent',
-      zh: '占领与异见',
+      en: 'From Tanks to Velvet',
+      cz: 'Od tanků k sametu',
+      zh: '从坦克到丝绒',
     },
     yearRange: {
       en: '1968–1989',
@@ -771,7 +801,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'freedom-regained',
-    order: 21,
+    order: 22,
     themeClass: 'era-freedom-regained',
     hasContent: false,
     title: {
