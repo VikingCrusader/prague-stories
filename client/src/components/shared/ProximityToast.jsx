@@ -50,7 +50,7 @@ export default function ProximityToast({ location, onDismiss }) {
           className="px-btn px-btn--gold"
           style={{ fontSize: 11, padding: '6px 12px' }}
           onClick={() => {
-            navigate('/explore', { state: { openSlug: location.slug } });
+            navigate('/explore', { state: { openSlug: location.slug, autoCheckIn: true } });
             onDismiss();
           }}
         >
