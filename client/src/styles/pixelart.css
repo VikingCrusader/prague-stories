@@ -1104,7 +1104,9 @@ html:not([data-lang="zh"]) .navbar__link {
 
 /* ── Map Page ─────────────────────────────────────────────── */
 .map-page { flex: 1; display: flex; overflow: hidden; }
-.map-container { flex: 1; }
+/* isolation: Leaflet's panes/controls use z-index 400-1000, which would
+   otherwise paint over the sticky navbar (z-index 100) when scrolling. */
+.map-container { flex: 1; isolation: isolate; }
 .map-sidebar {
   width: 380px;
   flex-shrink: 0;
@@ -1483,6 +1485,51 @@ html[data-lang="zh"] .detail-title-name {
 .flip-card__face--front { transform: rotateY(180deg); }
 
 /* ── Responsive ───────────────────────────────────────────── */
+/* Medium screens (landscape phones, tablets, small laptops): the one-row
+   navbar needs ~1160px (ZH) to ~1400px (CZ), so below that it overflowed
+   and phones zoomed the whole page out. Use the same two-row layout as
+   mobile (logo + right cluster, then the links) at desktop sizes. */
+@media (min-width: 601px) and (max-width: 1439px) {
+  .navbar { height: auto; flex-wrap: wrap; row-gap: 4px; padding-top: 8px; }
+  .navbar__logo { order: 1; }
+  .navbar__right { order: 2; margin-left: auto; }
+  .navbar__links {
+    order: 3;
+    width: 100%;
+    margin-left: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-top: 2px solid var(--border);
+    padding-top: 6px;
+  }
+}
+@media (min-width: 601px) and (max-width: 799px) {
+  .navbar__logo-icon { height: 36px; }
+  .navbar__right { gap: 10px; }
+}
+/* Landscape phones (short viewport): phone-sized navbar, and not sticky,
+   or the two rows would cover a third of a ~390px-tall screen. */
+@media (min-width: 601px) and (max-width: 1439px) and (max-height: 500px) {
+  .navbar { position: static; padding: 6px 14px; }
+  .navbar__logo-icon { height: 28px; }
+  html:not([data-lang="zh"]) .navbar__logo { font-size: 22px; }
+  html[data-lang="zh"] .navbar .navbar__logo { font-size: 22px !important; }
+  .navbar__right { gap: 8px; }
+  .navbar__github svg { width: 26px; height: 26px; }
+  .navbar__theme svg { width: 24px; height: 24px; }
+  html:not([data-lang="zh"]) .navbar__right .lang-tab:not(.lang-tab--zh),
+  .lang-tab { padding: 5px 9px; font-size: 12px; }
+  html[data-lang="zh"] .lang-tab { font-size: 12px !important; }
+  html:not([data-lang="zh"]) .navbar__user { font-size: 14px; }
+  html[data-lang="zh"] .navbar .navbar__user { font-size: 14px !important; }
+  html:not([data-lang="zh"]) .navbar__right .px-btn--sm { font-size: 12px; padding: 5px 10px; }
+  html[data-lang="zh"] .px-btn--sm { font-size: 12px !important; }
+  .navbar__links { padding-top: 4px; gap: 4px; }
+  .navbar__link { padding: 4px 10px; }
+  html:not([data-lang="zh"]) .navbar__link { font-size: 14px; }
+  html[data-lang="zh"] .navbar__link { font-size: 14px !important; }
+}
+
 @media (max-width: 900px) {
   .map-page { flex-direction: column; }
   .map-container { flex: none; height: 52vh; min-height: 260px; }

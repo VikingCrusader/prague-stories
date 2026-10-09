@@ -1,10 +1,10 @@
-import { useState, useEffect, useCallback, useMemo } from 'react';
+import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { locationAPI } from '../services/api';
 import { useT } from '../context/LanguageContext';
 import { useAuth } from '../context/AuthContext';
 import { useUserPosition } from '../hooks/useUserPosition';
-import { haversineDistance } from '../utils/geolocation';
+import { haversineDistance, NEARBY_REVEAL_M } from '../utils/geolocation';
 import LocationGrid from '../components/locations/LocationGrid';
 import LocationDetail from '../components/locations/LocationDetail';
 import AddLocationForm from '../components/locations/AddLocationForm';
@@ -14,7 +14,7 @@ let toastId = 0;
 
 export default function ExplorePage() {
   const t = useT();
-  const { guest } = useAuth();
+  const { user, guest } = useAuth();
   const { state, search } = useLocation();
   const navigate = useNavigate();
   const userPos                          = useUserPosition();
@@ -87,6 +87,20 @@ export default function ExplorePage() {
       .sort((a, b) => a._distance - b._distance);
   }, [locations, userPos]);
 
+  // Tapping a locked card within NEARBY_REVEAL_M (the wobbling lock) opens
+  // the detail and collects it, the same flow as the 50 m notification
+  // (autoCheckIn). Read through a ref so the handler stays stable for memo'd cards.
+  const latest = useRef({});
+  latest.current = { sortedLocations, user };
+
+  const handleCardClick = useCallback((slug) => {
+    const { sortedLocations: locs, user: u } = latest.current;
+    const loc = locs.find(l => l.slug === slug);
+    const nearby = loc && !loc.unlocked && loc._distance != null && loc._distance <= NEARBY_REVEAL_M;
+    setAutoCheckIn(!!(u && nearby));
+    setSelectedSlug(slug);
+  }, []);
+
   if (loading) return (
     <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <div className="spinner" />
@@ -108,7 +122,7 @@ export default function ExplorePage() {
         </div>
       </div>
 
-      <LocationGrid locations={sortedLocations} onCardClick={setSelectedSlug} onAddClick={guest ? null : () => setShowAdd(true)} />
+      <LocationGrid locations={sortedLocations} onCardClick={handleCardClick} onAddClick={guest ? null : () => setShowAdd(true)} />
 
       {selectedSlug && (
         <LocationDetail

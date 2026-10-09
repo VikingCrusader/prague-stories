@@ -43,7 +43,6 @@ export default function LocationDetail({
   const [localFailed, setLocalFailed] = useState(false);
   const [cloudFailed, setCloudFailed] = useState(false);
   const [checkInResult, setCheckInResult] = useState(null);
-  const [closing, setClosing] = useState(false);
   const [showEdit, setShowEdit] = useState(false);
   const autoCheckedIn = useRef(false);
   const prevUnlockedRef = useRef(null);
@@ -76,13 +75,6 @@ export default function LocationDetail({
     handleCheckIn();
   }, [loc, autoCheckIn]);
 
-  // Close modal after success display; cancelled if user manually closes first
-  useEffect(() => {
-    if (!closing) return;
-    const timer = setTimeout(onClose, 2500);
-    return () => clearTimeout(timer);
-  }, [closing]);
-
   const handleCheckIn = async () => {
     setActionLoading(true);
     setError("");
@@ -97,7 +89,6 @@ export default function LocationDetail({
       setCheckInResult(res.data);
       applyProgress(res.data.levelInfo, res.data.totalXP);
       onCheckIn(slug, res.data); // update grid immediately
-      setClosing(true); // start 2.5s close timer
     } catch (err) {
       setError(err.response?.data?.message || err.message || "Check-in failed");
     } finally {
