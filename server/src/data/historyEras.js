@@ -248,6 +248,15 @@
 // The earlier titles 专政与解冻 / 占领与异见 are kept as the planned
 // overview-card subtitles of those two eras.
 //
+// Also 2026-10-09: 'religious-turmoil' (圣杯乱世, then 1378–1437, 104 cards,
+// the biggest era) was split at the July 1419 defenestration. The 26 cards
+// before 1419 (Wenceslas IV, the Schism, Hus up to a-voice-that-wouldnt-burn-
+// 1415) moved to the new 'before-the-storm' (order 6), the user's 风暴前夕 /
+// "On the Eve of the Storm" / "Před bouří" (山雨欲来 was rejected as too
+// literary). 'religious-turmoil' keeps 圣杯乱世 for 1419–1437 and now opens on
+// the-rise-of-tabor-1419 and the-first-defenestration-1419; the chalice only
+// becomes a symbol from 1414 on, so the old title had arrived decades early.
+//
 // Final era added (2026-08-24, same session): 'freedom-and-prosperity'
 // (order 13) — the Velvet Divorce and everything since (NATO/EU accession,
 // the post-Communist recovery). Tone returns to the earlier-era wry-but-light
@@ -464,8 +473,29 @@ export const HISTORY_ERAS = [
     },
   },
   {
-    key: 'religious-turmoil',
+    key: 'before-the-storm',
     order: 6,
+    themeClass: 'era-before-the-storm',
+    hasContent: true,
+    title: {
+      en: 'On the Eve of the Storm',
+      cz: 'Před bouří',
+      zh: '风暴前夕',
+    },
+    yearRange: {
+      en: '1378–1419',
+      cz: '1378–1419',
+      zh: '1378年－1419年',
+    },
+    tagline: {
+      en: "The Church splits in two, the king is locked up twice, once by his own lords and once by his own brother, and a preacher in a Prague chapel starts saying out loud what everyone has been thinking. Then he goes to the stake, and Prague does not forget.",
+      cz: "Církev se rozštěpí vedví, krále dvakrát zavřou, jednou vlastní páni a jednou vlastní bratr, a kazatel v jedné pražské kapli začne nahlas říkat, co si všichni myslí. Pak skončí na hranici a Praha nezapomene.",
+      zh: "教会一分为二，国王被关过两次，一次是被自己的贵族，一次是被自己的亲弟弟。布拉格一座礼拜堂里的一位布道者，开始把大家心里想的话大声说出来。后来他被烧死在火刑柱上，而布拉格没有忘记。",
+    },
+  },
+  {
+    key: 'religious-turmoil',
+    order: 7,
     themeClass: 'era-religious-turmoil',
     hasContent: true,
     title: {
@@ -474,19 +504,19 @@ export const HISTORY_ERAS = [
       zh: '圣杯乱世',
     },
     yearRange: {
-      en: '1378–1437',
-      cz: '1378–1437',
-      zh: '1378年－1437年',
+      en: '1419–1437',
+      cz: '1419–1437',
+      zh: '1419年－1437年',
     },
     tagline: {
-      en: "The Church splits in two, Jan Hus goes to the stake, and Prague founds a new local tradition: councillors, out of the window. Eighteen years of war later, the cup of wine is still there, and almost everyone who fought over it is gone.",
-      cz: "Církev se rozštěpí vedví, Jan Hus skončí na hranici a Praha založí novou místní tradici: konšely z okna. Po osmnácti letech války kalich vína pořád stojí, ale skoro nikdo z těch, kdo o něj bojovali, už ne.",
-      zh: "教会一分为二，扬·胡斯被烧死在火刑柱上，布拉格开创了一项地方新传统：把议员扔出窗外。打了十八年仗之后，那杯葡萄酒还在，为它而战的人却几乎都不在了。",
+      en: "Prague founds a new local tradition: councillors, out of the window. Eighteen years of war later, the cup of wine is still there, and almost everyone who fought over it is gone.",
+      cz: "Praha založí novou místní tradici: konšely z okna. Po osmnácti letech války kalich vína pořád stojí, ale skoro nikdo z těch, kdo o něj bojovali, už ne.",
+      zh: "布拉格开创了一项地方新传统：把议员扔出窗外。打了十八年仗之后，那杯葡萄酒还在，为它而战的人却几乎都不在了。",
     },
   },
   {
     key: 'lone-king',
-    order: 7,
+    order: 8,
     themeClass: 'era-lone-king',
     hasContent: true,
     title: {
@@ -507,7 +537,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'rule-of-the-lords',
-    order: 8,
+    order: 9,
     themeClass: 'era-rule-of-the-lords',
     hasContent: true,
     title: {
@@ -528,7 +558,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'habsburgs-move-in',
-    order: 9,
+    order: 10,
     themeClass: 'era-habsburgs-move-in',
     hasContent: false,
     title: {
@@ -549,7 +579,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'age-of-wonders',
-    order: 10,
+    order: 11,
     themeClass: 'era-age-of-wonders',
     hasContent: false,
     title: {
@@ -570,7 +600,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'fire-and-ashes',
-    order: 11,
+    order: 12,
     themeClass: 'era-fire-and-ashes',
     hasContent: false,
     title: {
@@ -591,7 +621,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'voiceless-years',
-    order: 12,
+    order: 13,
     themeClass: 'era-voiceless-years',
     hasContent: false,
     title: {
@@ -612,7 +642,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'baroque-and-darkness',
-    order: 13,
+    order: 14,
     themeClass: 'era-baroque-and-darkness',
     hasContent: false,
     title: {
@@ -633,7 +663,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'age-of-absolutism',
-    order: 14,
+    order: 15,
     themeClass: 'era-age-of-absolutism',
     hasContent: false,
     title: {
@@ -654,7 +684,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'revival-industrialization',
-    order: 15,
+    order: 16,
     themeClass: 'era-revival-industrialization',
     hasContent: false,
     title: {
@@ -675,7 +705,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'chimneys-and-song',
-    order: 16,
+    order: 17,
     themeClass: 'era-chimneys-and-song',
     hasContent: false,
     title: {
@@ -696,7 +726,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'brief-independence',
-    order: 17,
+    order: 18,
     themeClass: 'era-brief-independence',
     hasContent: false,
     title: {
@@ -717,7 +747,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'nazi-nightmare',
-    order: 18,
+    order: 19,
     themeClass: 'era-nazi-nightmare',
     hasContent: false,
     title: {
@@ -738,7 +768,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'third-republic',
-    order: 19,
+    order: 20,
     themeClass: 'era-third-republic',
     hasContent: false,
     title: {
@@ -759,7 +789,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'cold-war-sorrow',
-    order: 20,
+    order: 21,
     themeClass: 'era-cold-war-sorrow',
     hasContent: false,
     title: {
@@ -780,7 +810,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'occupation-and-dissent',
-    order: 21,
+    order: 22,
     themeClass: 'era-occupation-and-dissent',
     hasContent: false,
     title: {
@@ -801,7 +831,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'freedom-regained',
-    order: 22,
+    order: 23,
     themeClass: 'era-freedom-regained',
     hasContent: false,
     title: {

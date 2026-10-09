@@ -9616,7 +9616,7 @@ export const historyEvents = [
   //   for Charles's own burial in the previous card.
   {
     slug: "the-papal-schism-1378",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1378.95,
     images: ["/history/the-papal-schism-1378.webp"],
     imageCaptions: [
@@ -9687,7 +9687,7 @@ export const historyEvents = [
   //   restatement of that card's own content.
   {
     slug: "the-indecisive-king-1382",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1382,
     images: ["/history/the-indecisive-king-1382.webp"],
     imageCaptions: [
@@ -9781,7 +9781,7 @@ export const historyEvents = [
   //   anchor the card to.
   {
     slug: "a-throne-on-shaky-ground-1386",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1386,
     images: ["/history/a-throne-on-shaky-ground-1386.webp"],
     imageCaptions: [
@@ -9869,7 +9869,7 @@ export const historyEvents = [
   //   Kara himself is buried under its oldest surviving gravestone.
   {
     slug: "bloody-easter-1389",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1389,
     images: ["/history/bloody-easter-1389.webp"],
     imageCaptions: [
@@ -9975,7 +9975,7 @@ export const historyEvents = [
   //   was created for this pass — mentioned only in running prose.
   {
     slug: "the-priest-thrown-into-the-river-1393",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1393,
     images: ["/history/the-priest-thrown-into-the-river-1393.webp"],
     imageCaptions: [
@@ -10088,7 +10088,7 @@ export const historyEvents = [
   //   image rather than the retired "another story" stock closer.
   {
     slug: "from-king-to-prisoner-1394",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1394,
     images: ["/history/from-king-to-prisoner-1394.webp"],
     imageCaptions: [
@@ -10205,7 +10205,7 @@ export const historyEvents = [
   //   same decimal-anchoring convention as other background cards.
   {
     slug: "the-five-roses-1394",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1394.5,
     cardType: "background",
     images: ["/history/the-five-roses-1394-coat-of-arms.webp"],
@@ -10288,7 +10288,7 @@ export const historyEvents = [
   // - No image yet — offer to generate one if the user wants it.
   {
     slug: "the-crown-they-took-away-1400",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1400,
     images: ["/history/the-crown-they-took-away-1400.webp"],
     imageCaptions: [
@@ -10424,7 +10424,7 @@ export const historyEvents = [
   //   below instead, since that's the scene it actually depicts.
   {
     slug: "two-brothers-one-crown-1402",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1402,
     images: [
       "/history/two-brothers-one-crown-1402.webp",
@@ -10493,7 +10493,7 @@ export const historyEvents = [
   },
   {
     slug: "the-siege-that-broke-kutna-hora-1402",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1402.6,
     year: {
       en: "1402–1403",
@@ -10578,7 +10578,7 @@ export const historyEvents = [
   },
   {
     slug: "the-robber-knights-of-1403",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1403.2,
     cardType: "background",
     year: {
@@ -10606,7 +10606,7 @@ export const historyEvents = [
   },
   {
     slug: "the-kings-great-escape-1403",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1403.9,
     imageCaptions: [
       {
@@ -10659,7 +10659,7 @@ export const historyEvents = [
   },
   {
     slug: "a-poisoned-peace-1404",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1404.5,
     // MERGED 2026-09-20 at the user's request: this card combines the old
     // 'a-poisoned-peppercorn-1404' (Znojmo siege, poisoned pepper) and
@@ -10729,7 +10729,7 @@ export const historyEvents = [
   },
   {
     slug: "the-brother-who-replaced-him-1410",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1409.5,
     images: ["/history/the-brother-who-replaced-him-1410-frankfurt.webp"],
     imageCaptions: [
@@ -10838,7 +10838,7 @@ export const historyEvents = [
   //   card's slug, never a Location slug.
   {
     slug: "salvation-priced-to-sell-1411",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1411,
     images: ["/history/salvation-priced-to-sell-1411.webp"],
     imageCaptions: [
@@ -10946,7 +10946,7 @@ export const historyEvents = [
   //   background cards, but none was requested this time.
   {
     slug: "what-are-indulgences-1411",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1411.5,
     cardType: "background",
     year: {
@@ -11047,7 +11047,7 @@ export const historyEvents = [
   //   itself now lives.
   {
     slug: "who-is-jan-hus-1412",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1412,
     images: ["/history/who-is-jan-hus-1412.webp"],
     imageCaptions: [
@@ -11148,7 +11148,7 @@ export const historyEvents = [
   //   spot, so not forced.
   {
     slug: "the-conflict-escalates-1412",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1412.5,
     images: [
       "/history/the-conflict-escalates-1412-bulls.webp",
@@ -11279,7 +11279,7 @@ export const historyEvents = [
   //   "correct" this again without the user raising it themselves.
   {
     slug: "only-christ-deserved-his-trust-1412",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1412.7,
     images: ["/history/only-christ-deserved-his-trust-1412.webp"],
     imageCaptions: [
@@ -11381,7 +11381,7 @@ export const historyEvents = [
   //   content (Rome, Canossa) sits inside the Czech Republic anyway.
   {
     slug: "how-powerful-was-the-church-1412",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1412.6,
     cardType: "background",
     year: {
@@ -11475,7 +11475,7 @@ export const historyEvents = [
   //   at bottom, its clergy) — the load-bearing thesis of the whole card.
   {
     slug: "the-ideas-they-couldnt-burn-1413",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1413,
     images: ["/history/the-ideas-they-couldnt-burn-1413.webp"],
     imageCaptions: [
@@ -11607,7 +11607,7 @@ export const historyEvents = [
   //   file.
   {
     slug: "the-safe-conduct-that-wasnt-enough-1414",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1414,
     images: ["/history/the-safe-conduct-that-wasnt-enough-1414.webp"],
     imageCaptions: [
@@ -11701,7 +11701,7 @@ export const historyEvents = [
   //   happens in Constance, outside the Czech Republic.
   {
     slug: "a-conscience-the-court-couldnt-break-1415",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1415,
     images: ["/history/a-conscience-the-court-couldnt-break-1415.webp"],
     imageCaptions: [
@@ -11782,7 +11782,7 @@ export const historyEvents = [
   //   room below for the still-unwritten execution card that follows it.
   {
     slug: "guilty-though-never-refuted-1415",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1415.1,
     images: ["/history/guilty-though-never-refuted-1415.webp"],
     imageCaptions: [
@@ -11869,7 +11869,7 @@ export const historyEvents = [
   //   stake — this card picks up exactly there.
   {
     slug: "the-goose-and-the-swan-1415",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1415.2,
     images: ["/history/the-goose-and-the-swan-1415.webp"],
     imageCaptions: [
@@ -12012,7 +12012,7 @@ export const historyEvents = [
   //   whole defenestration in motion.
   {
     slug: "a-voice-that-wouldnt-burn-1415",
-    era: "religious-turmoil",
+    era: "before-the-storm",
     startYear: 1415.3,
     images: ["/history/a-voice-that-wouldnt-burn-1415.webp"],
     imageCaptions: [
