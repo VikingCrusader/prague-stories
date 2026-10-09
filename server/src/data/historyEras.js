@@ -232,6 +232,12 @@
 // "prosperity". The Velvet Divorce stays at the start of this era, not the
 // end of the previous one: it happened in an already free country, and the
 // previous era ends best on the Velvet Revolution.
+// Then 1938–1945's ZH title changed from 占领与抵抗 to 沦陷与抵抗, so that 占领
+// doesn't appear twice in the ZH list (1968–1989 keeps 占领与异见, where the
+// occupation is the literal Soviet one). 沦陷 fits 1939 literally: Prague
+// fell without a fight and the state ceased to exist. EN/CZ unchanged
+// ("Occupation and Resistance" / "Okupace a odboj"), so the deliberate
+// Occupation/Occupation echo still stands in those two languages.
 //
 // Final era added (2026-08-24, same session): 'freedom-and-prosperity'
 // (order 13) — the Velvet Divorce and everything since (NATO/EU accession,
@@ -708,7 +714,7 @@ export const HISTORY_ERAS = [
     title: {
       en: 'Occupation and Resistance',
       cz: 'Okupace a odboj',
-      zh: '占领与抵抗',
+      zh: '沦陷与抵抗',
     },
     yearRange: {
       en: '1938–1945',
