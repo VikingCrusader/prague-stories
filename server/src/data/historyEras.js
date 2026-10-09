@@ -193,6 +193,15 @@
 // was rejected as the end of the war era. Both titles lean toward the
 // contested "Temno" view, so the background card on that debate is still due.
 //
+// Also 2026-10-09: 'revival-industrialization' (then 1790–1918) was split at
+// 1848 (the Slavic Congress and the Whitsun uprising in Prague, the end of
+// serfdom). It keeps its key for 1790–1848, now just 民族复兴 / "The National
+// Revival" / "Národní obrození", which matches the Czech historiographical
+// term's usual end date; the user's alternative 重拾文化 was less precise.
+// New 'roar-of-the-machines' (1848–1918) is the user's 机器轰鸣 / "The Roar of
+// the Machines" / "Hukot strojů". The National Theatre was considered for the
+// title and rejected as only one card's worth.
+//
 // Final era added (2026-08-24, same session): 'freedom-and-prosperity'
 // (order 13) — the Velvet Divorce and everything since (NATO/EU accession,
 // the post-Communist recovery). Tone returns to the earlier-era wry-but-light
@@ -582,24 +591,45 @@ export const HISTORY_ERAS = [
     themeClass: 'era-revival-industrialization',
     hasContent: false,
     title: {
-      en: 'National Revival & Industrialization',
-      cz: 'Národní obrození a industrializace',
-      zh: '民族复兴与工业化',
+      en: 'The National Revival',
+      cz: 'Národní obrození',
+      zh: '民族复兴',
     },
     yearRange: {
-      en: '1790–1918',
-      cz: '1790–1918',
-      zh: '1790年－1918年',
+      en: '1790–1848',
+      cz: '1790–1848',
+      zh: '1790年－1848年',
     },
     tagline: {
-      en: "Bohemia remembers it's a nation, industrializes faster than most of its neighbors, writes several very long operas about the whole thing, and eventually gets a country out of the deal.",
-      cz: "Čechy si vzpomenou, že jsou národ, industrializují se rychleji než většina sousedů, složí o tom všem několik pořádně dlouhých oper, a nakonec z toho vzejde i vlastní stát.",
-      zh: "波希米亚突然想起自己是个民族，工业化速度比大多数邻居都快，为这一切写了好几部超长的歌剧，最后还真换来了一个国家。",
+      en: "A handful of scholars set out to rescue a language the cities have nearly forgotten: dictionaries, grammars, a history of the nation and a song that will one day be the anthem. Then, in 1848, revolution reaches Prague, and the cannon on the heights across the river settle it in a few days.",
+      cz: "Hrstka učenců se pustí do záchrany jazyka, který města skoro zapomněla: slovníky, mluvnice, dějiny národa a písnička, ze které jednou bude hymna. Pak roku 1848 dorazí do Prahy revoluce a děla z výšin za řekou ji během pár dní vyřídí.",
+      zh: "几个学者着手抢救一门城里人快要忘掉的语言：词典、语法书、一部民族的历史，还有一首将来会成为国歌的歌。然后，1848年，革命来到了布拉格，河对岸高地上的大炮几天就把它摆平了。",
+    },
+  },
+  {
+    key: 'roar-of-the-machines',
+    order: 15,
+    themeClass: 'era-roar-of-the-machines',
+    hasContent: false,
+    title: {
+      en: 'The Roar of the Machines',
+      cz: 'Hukot strojů',
+      zh: '机器轰鸣',
+    },
+    yearRange: {
+      en: '1848–1918',
+      cz: '1848–1918',
+      zh: '1848年－1918年',
+    },
+    tagline: {
+      en: "Serfdom ends, the villages pour into the factories, and Prague, run in German at the start, ends up run in Czech. Railways, chimneys, several very long operas, and, when the empire finally falls apart, a country of its own.",
+      cz: "Nevolnictví skončí, venkov se nahrne do továren a Praha, kde zpočátku vládla němčina, nakonec mluví česky. Železnice, komíny, několik pořádně dlouhých oper a nakonec, když se říše rozpadne, i vlastní stát.",
+      zh: "农奴制废除了，乡下人涌进了工厂，布拉格从一座德语说了算的城市，变成了捷克语说了算的城市。铁路，烟囱，好几部超长的歌剧，最后，帝国散了架，捷克人有了自己的国家。",
     },
   },
   {
     key: 'brief-independence',
-    order: 15,
+    order: 16,
     themeClass: 'era-brief-independence',
     hasContent: false,
     title: {
@@ -620,7 +650,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'nazi-nightmare',
-    order: 16,
+    order: 17,
     themeClass: 'era-nazi-nightmare',
     hasContent: false,
     title: {
@@ -641,7 +671,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'cold-war-sorrow',
-    order: 17,
+    order: 18,
     themeClass: 'era-cold-war-sorrow',
     hasContent: false,
     title: {
@@ -662,7 +692,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'occupation-and-dissent',
-    order: 18,
+    order: 19,
     themeClass: 'era-occupation-and-dissent',
     hasContent: false,
     title: {
@@ -683,7 +713,7 @@ export const HISTORY_ERAS = [
   },
   {
     key: 'freedom-and-prosperity',
-    order: 19,
+    order: 20,
     themeClass: 'era-freedom-and-prosperity',
     hasContent: false,
     title: {
