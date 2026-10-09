@@ -72,7 +72,6 @@ export const SLUG_RARITY = {
   'kaple-svate-rodiny-praha':     'epic',  // obscure Old Catholic vineyard chapel, Vinohrady
   'lumbeho-zahrada':              'epic',  // walled presidential garden, Slavic cemetery, off-limits
   'dum-u-zlate-hrusky-a-u-zlateho-hroznu': 'epic', // Nový Svět artists' colony houses
-  'galerie-mnau':                 'epic',  // tiny cat-themed enamel/glass gallery, Pohořelec
   'sidliste-velka-ohrada':        'epic',  // last socialist housing estate, far SW, built 1988-98
   'panorama-hotel':               'epic',  // Brutalist StB-surveillance hotel highrise, Pankrác
   'socha-jezise-krista-petrin':   'epic',  // obscure 1746 wayside statue, Great Strahov Garden
@@ -214,7 +213,6 @@ export const SLUG_RARITY = {
   'tynsky-dvur-ungelt':           'rare',
   'klaster-kapucinu-hradcany':    'rare',
   'kasarna-na-pohorelci':         'rare',
-  'film-legends-museum':          'rare',
   'vysehrad-wall-walkway':        'rare',
   'svatovaclavska-vinice':        'rare',
   'dum-u-minuty':                 'rare',
@@ -350,7 +348,6 @@ export const SLUG_RARITY = {
 
   // ── Anděl / Smíchov shopping & offices batch (2026-07) ──────────────────
   'zenske-domovy':                'epic',  // 1933 women-only housing, patron Alice Masaryková
-  'kralovstvi-zeleznic':          'rare',  // largest model railway in Czech Republic
   'oc-novy-smichov':              'rare',  // built on former Ringhoffer railway-wagon works
   'smichov-gate':                 'rare',  // 2006 Class A office tower by Strahov Tunnel exit
   'green-point-smichov':          'rare',  // BREEAM Excellent office tower, Plzeňská
@@ -769,7 +766,6 @@ export const SLUG_RARITY = {
   'cerny-vrch':                     'rare',     // quiet Malvazinky hilltop, formerly Věneček, sparsely documented
 
   // ── New Town / Černý Most batch (2026-08) ────────────────────────────────
-  'museum-of-bricks':               'rare',     // Guinness-record private LEGO museum, former bank vault, Národní street
   'park-u-cenku':                   'epic',     // ~100ha recreational park on former farmland, far east Prague, little-known
 
   // ── Břevnov batch (2026-08) ───────────────────────────────────────────────

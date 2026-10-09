@@ -4489,76 +4489,6 @@ Od roku 1956 sídlil v kasárnách i jejich podivnější druhá role: byly domo
     },
   },
   {
-    name: 'Galerie Mňau',
-    slug: 'galerie-mnau',
-    localizedNames: { cz: 'Galerie Mňau', zh: '喵画廊' },
-    labels: ['cultural', 'hidden-gem'],
-    coordinates: { lat: 50.08779910103794, lng: 14.390534490516657 },
-    rarity: 'epic',
-    xpReward: 50,
-    wikipediaUrl: '',
-    description: {
-      en: `Brave adventurer, welcome to Galerie Mňau — a shop so small and so specific that its entire creative identity fits into one word: "meow." It sells precisely one thing with unwavering focus, and that thing is cats, rendered in enamel, glass, and velvet.
-
-Run as a working studio by enamel and glass artist Radka Urbanová, the gallery sits directly on Pohořelec square, a stone's throw from Strahov Monastery and the old barracks complex next door. Step inside and you'll find hand-fired enamel pieces, traditional Bohemian Jablonec glass jewellery, and — the shop's genuine signature item — handmade velvet cats stitched in the artist's own atelier, alongside other feline-themed keepsakes that exist for no reason other than someone, at some point, really committed to the bit.
-
-It's a working atelier as much as a shop, meaning the pieces on the shelves were very possibly made a few metres from where you're standing, by the same person ringing up your purchase.
-
-🥚 Easter Egg: Prague has dozens of galleries dedicated to Mucha, to Kafka, to Baroque saints, and to national heroes with equestrian statues — and exactly one, tucked onto a quiet square in Hradčany, dedicated entirely and unapologetically to cats. Somehow it took this long for someone to notice the gap in the market.`,
-
-      cz: `Statečný dobrodruhu, vítej v Galerii Mňau — obchůdku tak malém a tak úzce zaměřeném, že se jeho celá umělecká identita vejde do jediného slova: "mňau". Prodává se tu přesně jedna věc, a to s naprosto neochvějným zaměřením: kočky, ztvárněné ve smaltu, skle a plyši.
-
-Galerii vede jako svůj funkční ateliér smaltérka a sklářka Radka Urbanová a nachází se přímo na náměstí Pohořelec, co by kamenem dohodil od Strahovského kláštera i od sousedního areálu kasáren. Uvnitř najdeš ručně vypalované smaltové kousky, tradiční jabloneckou bižuterii ze skla a — skutečně charakteristický výrobek obchodu — ručně šité plyšové kočky z vlastního autorčina ateliéru, spolu s dalšími kočičími suvenýry, které existují z jediného důvodu: že se někdo v nějakou chvíli do tohoto tématu opravdu pustil naplno.
-
-Je to stejnou měrou funkční ateliér jako obchod, takže kousky na policích velmi pravděpodobně vznikly pár metrů od místa, kde právě stojíš, a to rukama téže osoby, která ti je u pokladny prodá.
-
-🥚 Velikonoční vajíčko: Praha má desítky galerií věnovaných Muchovi, Kafkovi, barokním světcům i národním hrdinům na koňských sochách — a přesně jednu, schovanou na tichém hradčanském náměstí, věnovanou zcela a bez servítků kočkám. Nějak trvalo hodně dlouho, než si někdo té mezery na trhu všiml.`,
-
-      zh: `勇敢的冒险家，欢迎来到"喵画廊"（Galerie Mňau）——一家小到极致、主题也精准到极致的店铺，它整个创作理念只需要一个词就能概括："喵"。这里卖的东西只有一种，而且专注到毫不动摇：猫，用珐琅、玻璃和天鹅绒呈现出来的猫。
-
-这间画廊由珐琅与玻璃艺术家拉德卡·乌尔巴诺娃（Radka Urbanová）亲自经营，兼作工作室使用，就坐落在波霍热莱茨广场（Pohořelec）上，与斯特拉霍夫修道院以及隔壁那座兵营仅几步之遥。走进店内，你会看到手工烧制的珐琅作品、传统的雅布洛内茨（Jablonec）玻璃饰品，以及——这家店真正的招牌商品——出自艺术家自己工作室、手工缝制的天鹅绒猫咪，还有其他各式猫主题纪念品，它们存在的理由只有一个：曾经有人对这个主题真的全情投入了。
-
-与其说这是一家商店，不如说这更是一间正在运作的工作室——也就是说，架子上的作品很可能就是在你脚下这几米之内制作出来的，而制作它们的人，很可能正是站在收银台后面结账的那个人。
-
-🥚 彩蛋：布拉格有几十家专门致力于穆夏、卡夫卡、巴洛克圣徒，以及骑马青铜像上民族英雄的画廊——却只有这唯一一家，藏在赫拉德恰尼一处安静的广场角落，毫不掩饰、全心全意地只献给"猫"这一个主题。也不知怎么，过了这么久才终于有人发现了这块市场空白。`,
-    },
-  },
-  {
-    name: 'Film Legends Museum of Prague',
-    slug: 'film-legends-museum',
-    localizedNames: { cz: 'Film Legends Museum Praha', zh: '布拉格电影传奇博物馆' },
-    labels: ['museum', 'cultural'],
-    coordinates: { lat: 50.0809296565979, lng: 14.429351066600328 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Film_Legends_Museum',
-    description: {
-      en: `Brave adventurer, welcome to the Film Legends Museum of Prague! Somewhere between a comic convention that forgot to end and a wax museum that traded kings for Klingons, this Opletalova Street collection packs in thousands of statues, busts, and replicas pulled straight from Hollywood's greatest hits — no ticket to a galaxy far, far away required.
-
-The whole operation is built around the private collection of Johnny Wolf, one of the largest personal hoards of film and pop-culture memorabilia anywhere in the world. It opened humbly in 2015 in the unglamorous district of Vysočany, then wandered — first to Poděbrady, then to branches in Kroměříž, Kutná Hora, and Český Krumlov — before finally settling into its current home two minutes from Prague's Main Train Station in 2023. More than 3,000 pieces are on display across the museum's five locations combined, and the Prague branch alone holds hundreds of exhibits with a level of paint and sculpting detail that makes you forget you're looking at resin instead of an actor.
-
-Expect dedicated corners for Disney villains, the Predator and Alien franchises, and the nightmarish biomechanical designs of H. R. Giger — plus a rotating cast of comic-book and fairy-tale characters standing frozen mid-battle, mid-spell, or mid-monologue in glass-free display halls built for close-up photography.
-
-🥚 Easter Egg: Before it found its permanent Opletalova Street address, the collection spent eight years bouncing between five Czech towns — Prague, Poděbrady, Kroměříž, Kutná Hora, Český Krumlov — like a Hollywood sequel searching for a studio willing to greenlight it. For a museum built entirely on cinema icons, its own origin story reads suspiciously like a road movie.`,
-
-      cz: `Statečný dobrodruhu, vítej ve Film Legends Museu Praha! Něco mezi comicsovým veletrhem, který zapomněl skončit, a voskovým muzeem, jež vyměnilo krále za Klingony — tahle sbírka na Opletalově ulici nacpává do svých sálů tisíce soch, bust a replik přímo z hollywoodských trháků. Vstupenka do galaxie daleko, předaleko není potřeba.
-
-Celý podnik stojí na soukromé sbírce Johnnyho Wolfa, jedné z největších osobních kolekcí filmových a popkulturních memorabilií na světě. Muzeum vzniklo skromně v roce 2015 v nedaleké okrajové Vysočanech, poté putovalo — nejprve do Poděbrad, pak k pobočkám v Kroměříži, Kutné Hoře a Českém Krumlově — než se v roce 2023 konečně usadilo dvě minuty od Hlavního nádraží. Napříč všemi pěti pobočkami je vystaveno přes 3 000 kousků a samotná pražská pobočka obsahuje stovky exponátů s takovou úrovní detailu barev a modelace, že snadno zapomenete, že se díváte na pryskyřici, a ne na skutečného herce.
-
-Čekají tě samostatné koutky věnované disneyovským záporákům, sérii Predátor a Vetřelec i nočně můrovým biomechanickým designům H. R. Gigera — plus proměnlivá sestava komiksových a pohádkových postav, zmrzlých uprostřed souboje, kouzla nebo monologu v sálech bez skla, uzpůsobených k fotografování zblízka.
-
-🥚 Velikonoční vajíčko: Než sbírka našla svou trvalou adresu na Opletalově ulici, strávila osm let poskakováním mezi pěti českými městy — Prahou, Poděbrady, Kroměříží, Kutnou Horou a Českým Krumlovem — jako hollywoodský sequel hledající studio ochotné dát mu zelenou. Pro muzeum postavené kompletně na filmových ikonách zní jeho vlastní vznik podezřele jako road movie.`,
-
-      zh: `勇敢的冒险家，欢迎来到布拉格电影传奇博物馆（Film Legends Museum）！这里介于一场永远不散场的漫展和一座把国王换成克林贡人的蜡像馆之间——坐落在奥普雷塔洛娃街（Opletalova）上的这间展馆，塞满了成千上万座取自好莱坞经典大片的雕像、半身像和复制品。想穿越到遥远的银河系？这里不需要机票。
-
-整个博物馆建立在收藏家约翰尼·沃尔夫（Johnny Wolf）的私人藏品之上，这是全世界最大的电影与流行文化周边私人收藏之一。博物馆2015年低调地在布拉格外围的维索恰尼（Vysočany）区开业，此后辗转迁移——先搬到波杰布拉迪（Poděbrady），又陆续在克罗梅日什（Kroměříž）、库特纳霍拉（Kutná Hora）和捷克克鲁姆洛夫（Český Krumlov）开设分馆——直到2023年终于在距布拉格中央火车站仅两分钟路程的地方安顿下来。五个分馆合计展出超过3000件展品，仅布拉格馆就有数百件展品，上色和雕刻的精细程度会让你一时忘记眼前看到的是树脂模型，而不是真人演员。
-
-这里设有迪士尼反派、《铁血战士》与《异形》系列，以及H·R·吉格尔（H. R. Giger）那些噩梦般生物机械设计的专属展区，还有轮换展出的漫画与童话角色，它们定格在战斗、施法或独白的瞬间，陈列在没有玻璃阻隔、专为近距离拍照设计的展厅里。
-
-🥚 彩蛋：在奥普雷塔洛娃街找到永久落脚点之前，这批藏品曾在八年间辗转五座捷克城市——布拉格、波杰布拉迪、克罗梅日什、库特纳霍拉、捷克克鲁姆洛夫——像一部到处找不到片场愿意开绿灯的好莱坞续集。对于一家完全建立在电影偶像之上的博物馆来说，它自己的起源故事读起来也颇有公路片的味道。`,
-    },
-  },
-  {
     name: 'Vyšehrad Wall Walkway and Viewpoint',
     slug: 'vysehrad-wall-walkway',
     localizedNames: { cz: 'Vyšehradské hradby a vyhlídka (Leopoldova bašta)', zh: '维谢赫拉德城墙步道与观景台' },
@@ -7070,41 +7000,6 @@ Osud budovy se poté výrazně zhoršil. Německé okupační jednotky ji za dru
 此后，这栋建筑的命运急转直下。二战期间，德国占领军将其改造成了一座医院；战后，原来的住户重新搬回，但1950年至1990年间长达四十年的共产主义时期疏于维护，让整个建筑群逐渐破败。1994年，布拉格5区将其出租给一家私人公司，该公司于2002年将其整体买下，并进行了彻底翻修，外墙在建筑师米罗斯拉夫·切赫（Miroslav Čech）的主持下得以恢复原貌。如今，它是一栋真正意义上的多功能建筑——住宅、办公、零售、餐厅与酒店，再度同处一个屋檐之下。
 
 🥚 彩蛋：这栋建筑的赞助人阿丽切·马萨里科娃，绝不只是一位把名字借给某项善举的总统之女——她是捷克斯洛伐克红十字会的创始主席，本人也是一位坚定的社会改革倡导者。这意味着，女子公寓身上留下的，是两战之间捷克斯洛伐克最具影响力的女性之一亲手留下的印记，专门为其他女性打造了一处属于自己的立足之地。`,
-    },
-  },
-  {
-    name: 'Kingdom of Railways',
-    slug: 'kralovstvi-zeleznic',
-    localizedNames: { cz: 'Království železnic', zh: '铁路王国' },
-    labels: ['museum', 'cultural'],
-    coordinates: { lat: 50.071251518966726, lng: 14.40262002309522 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: '',
-    description: {
-      en: `Brave adventurer, welcome to Království železnic (Kingdom of Railways)! Tucked into two underground floors near Anděl since 2009, this is the largest model railway in the Czech Republic — an entire miniature nation of trains, trams, and tiny commuters cycling endlessly through day and night.
-
-Opened to the public on 1 July 2009 beneath the Anděl City administrative building, the exhibition spans more than 600 square metres across its two subterranean levels, making it one of the largest model railway layouts anywhere in Europe. Up to 80 separate train sets, trams, cable cars, and metro trains run simultaneously through hundreds of metres of track, weaving past miniature recreations of significant Czech buildings and landmarks, all cycling through an artificial day-and-night lighting sequence that gives the whole thing a strangely convincing sense of real time passing.
-
-Beyond the trains themselves, the exhibition includes a permanent display on railway history and traditional railway crafts, alongside educational programming for school groups — treating model railways less as a hobbyist curiosity and more as a genuine window into how an entire country's transport network actually works.
-
-🥚 Easter Egg: With up to 80 vehicles running at once across hundreds of metres of track, this miniature kingdom technically manages more simultaneous, perfectly-timed rail traffic than most real regional lines could ever hope to coordinate without a single delay — which either says something impressive about model railway engineers, or something slightly less flattering about actual railway scheduling.`,
-
-      cz: `Statečný dobrodruhu, vítej v Království železnic! Ukryté ve dvou podzemních podlažích poblíž Anděla od roku 2009, jde o největší modelovou železnici v České republice — celý miniaturní národ vlaků, tramvají a drobných cestujících, kteří nekonečně cyklují dnem a nocí.
-
-Otevřené veřejnosti 1. července 2009 pod administrativní budovou Anděl City, expozice se na dvou podzemních podlažích rozkládá na více než 600 metrech čtverečních, čímž patří k největším modelovým železničním kolejištím kdekoli v Evropě. Až 80 samostatných vlakových souprav, tramvají, lanovek a vlaků metra jezdí současně po stovkách metrů kolejí, proplétá se kolem miniaturních rekonstrukcí významných českých budov a památek, vše prochází umělým cyklem denního a nočního osvětlení, který celku dodává podivně přesvědčivý pocit plynoucího reálného času.
-
-Kromě samotných vlaků expozice zahrnuje stálou výstavu o historii železnic a tradičních železničních řemeslech, spolu s výukovými programy pro školní skupiny — modelové železnice tu berou míň jako kuriozitu pro nadšence a víc jako opravdové okno do toho, jak vlastně funguje dopravní síť celé země.
-
-🥚 Velikonoční vajíčko: S až 80 vozidly jezdícími zároveň po stovkách metrů kolejí zvládá tohle miniaturní království technicky vzato koordinovat víc současné, dokonale načasované vlakové dopravy, než by kdy zvládla většina skutečných regionálních tratí bez jediného zpoždění — což buď vypovídá něco působivého o modelářích, nebo něco o něco méně lichotivého o skutečném jízdním řádu.`,
-
-      zh: `勇敢的冒险家，欢迎来到铁路王国（Království železnic）！自2009年起，它就藏身于安德尔附近的两层地下空间之中，是捷克共和国最大的模型铁路——一整个由火车、电车与微型通勤者组成的迷你国度，日夜不停地循环运转。
-
-这处展览于2009年7月1日在安德尔城（Anděl City）行政大楼地下正式向公众开放，占据两层地下空间、总面积超过600平方米，是欧洲规模最大的模型铁路布景之一。多达80辆独立运行的列车、电车、缆车与地铁列车，同时在数百米的轨道上穿梭往来，途经一座座微缩重现的捷克重要建筑与地标，整套系统还配有模拟昼夜交替的灯光效果，让整个场景带上一种奇异而真实的时间流逝感。
-
-除了列车本身，展览还设有一个关于铁路历史与传统铁路工艺的常设展区，并为学校团体提供教育课程——在这里，模型铁路不再只是发烧友的小众爱好，更像是一扇窗口，让人得以真正窥见一个国家的交通网络究竟是如何运转的。
-
-🥚 彩蛋：多达80辆车辆在数百米轨道上同时运行，这座微缩王国在技术层面上，协调的同步、精准定时的铁路交通，甚至比大多数真实的地区铁路线路都要更加"零延误"——这要么说明模型铁路工程师们的手艺相当了得，要么，多少也从侧面说明了现实中的铁路时刻表还有点差距。`,
     },
   },
   {
@@ -21021,41 +20916,6 @@ O Černém vrchu se toho kromě jeho jména a bývalého názvu píše překvapi
 关于黑山，除了它的名字和曾用名之外，几乎没有留下什么文字记载——就连布拉格本地的百科全书，提到它时也大多一笔带过。留下来的，只是这座山本身：安静的居民街道，别墅之间高大的树木，还有一处朴素的儿童游乐场，街区真正的日常生活就在那里发生，未经记录，也几乎没有人试图为它写下历史。
 
 🎁 彩蛋：从旧名字改为黑山，却没有留下任何明确的时间或原因记录——这正是布拉格最擅长留下的那种悬而未决的线索。在旧地图与今天的路牌之间的某个时刻，这座山悄悄换了身份，却没有人留下哪怕一块说明牌来解释原委。`,
-    },
-  },
-  {
-    name: 'Museum of Bricks',
-    slug: 'museum-of-bricks',
-    localizedNames: { cz: 'Muzeum kostek', zh: '积木博物馆' },
-    labels: ['museum', 'cultural'],
-    coordinates: { lat: 50.08265351842148, lng: 14.419413757259772 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: '',
-    description: {
-      en: `Brave adventurer, welcome to Museum of Bricks! Somewhere on a quiet stretch of Národní street, a former bank building traded its stacks of banknotes for stacks of tiny plastic bricks. The old vault downstairs still holds a fortune — it just happens to be built entirely out of LEGO instead of gold.
-
-The museum opened in 2016, the brainchild of Czech collector Miloš Křeček, and it now fills three floors and 420 square metres with more than twenty themed exhibitions. Over 3,000 individual models stand assembled from well over a million bricks, ranging from miniature recreations of Prague's own Charles Bridge and Prague Castle to full-scale global icons like Moscow's St. Basil's Cathedral and Rome's Trevi Fountain, rebuilt stud by stud.
-
-Křeček's collection doesn't stop here — this Prague location is the flagship of a small network of five brick museums, and together they hold roughly 9,000 exhibits built from an estimated 10 million pieces, enough to have earned a Guinness World Record for the largest private LEGO collection on the planet. Downstairs, a hands-on corner lets visiting kids — and honestly, plenty of adults — build their own creations, while the attached shop sells everything from boxed sets to loose bricks by the handful.
-
-🎁 Bonus: Part of the exhibition is genuinely housed inside the building's original bank vault — a room designed to protect gold and paper currency now spends its days guarding several tonnes of coloured plastic instead. Whoever poured that concrete in the early twentieth century almost certainly never imagined what kind of treasure it would eventually be asked to hold.`,
-
-      cz: `Statečný dobrodruhu, vítej v Muzeu kostek! Kdesi na klidném úseku Národní třídy vyměnila bývalá bankovní budova své svazky bankovek za hromady drobných plastových kostiček. Trezor v suterénu pořád ukrývá jmění — jenže tentokrát je celé postavené z LEGA, ne ze zlata.
-
-Muzeum otevřelo v roce 2016 jako nápad českého sběratele Miloše Křečka a dnes zabírá tři patra a 420 metrů čtverečních s více než dvaceti tematickými expozicemi. Přes 3 000 jednotlivých modelů je poskládáno z více než milionu kostiček — od zmenšenin pražského Karlova mostu a Pražského hradu až po skutečně velkolepé kopie světových ikon, jako je moskevský chrám Vasila Blaženého nebo římská Fontána di Trevi, postavené kostičku po kostičce.
-
-Křečkova sbírka tím ale nekončí — pražská pobočka je vlajkovou lodí malé sítě pěti muzeí kostek, které dohromady čítají zhruba 9 000 exponátů postavených z odhadovaných 10 milionů dílků, což jim vyneslo zápis do Guinnessovy knihy rekordů za největší soukromou sbírku LEGA na světě. V suterénu čeká interaktivní koutek, kde si děti — a upřímně i spousta dospělých — mohou postavit vlastní výtvory, a přilehlý obchod prodává vše od krabicových setů po volné kostičky na váhu.
-
-🎁 Bonus: Část expozice je doslova umístěna v původním bankovním trezoru budovy — místnost určená k ochraně zlata a bankovek dnes hlídá spíš několik tun barevného plastu. Ať už ten beton na počátku dvacátého století lil kdokoli, jen stěží tušil, jaký poklad v něm jednoho dne skončí.`,
-
-      zh: `勇敢的冒险家，欢迎来到积木博物馆！在民族大街一段安静的路段上，一栋曾经的银行大楼把成叠的钞票换成了成堆的小小塑料积木。楼下那间旧金库依然守护着一笔财富——只不过这一次，它是用乐高积木堆出来的，而不是黄金。
-
-这座博物馆于2016年由捷克收藏家米洛什·克热切克一手创办，如今占据三层楼、420平方米的空间，设有二十多个主题展区。超过3000件独立模型各自由上百万块积木拼砌而成，从布拉格自家查理大桥与布拉格城堡的微缩景观，到莫斯科圣瓦西里大教堂、罗马特雷维喷泉这样的世界级地标，全部一颗积木接一颗积木地重新搭建了出来。
-
-克热切克的收藏远不止于此——布拉格馆只是这个由五座积木博物馆组成的小型网络中的旗舰馆，五馆合计约有9000件展品，用掉了估计一千万块积木，也因此赢得了全球最大私人乐高收藏的吉尼斯世界纪录。楼下设有互动角，让来访的孩子——说实话，还有不少大人——可以动手拼出自己的作品，附设的商店里则从整盒套装到散装积木、迷你人偶一应俱全。
-
-🎁 彩蛋：部分展区确确实实设在大楼原本的银行金库里——一间本该守护黄金与纸币的房间，如今日复一日守护着好几吨彩色塑料。当年浇筑这块混凝土的人，恐怕怎么也想不到它有朝一日会被托付看守这样一种宝藏。`,
     },
   },
   {
