@@ -404,7 +404,6 @@ export const SLUG_RARITY = {
   'zvonicka-dacicka-horni-mecholupy': 'rare', // 1990 bell tower, bell salvaged from demolished Dolní Měcholupy
 
   // ── Vršovice / Záběhlice / Cukrák batch (2026-07) ───────────────────────
-  'transgas':                     'epic',  // demolished 2019 brutalist Cold War gas-pipeline HQ, 90s underground club scene
   'meteorologicka-vez-libus':     'superior', // Karel Hubáček (Ještěd architect) 1973-79 radar tower
   'praha-eden-nadrazi':           'common', // opened 2020, first four-track rail corridor in the country
   'kostel-narozeni-panny-marie-zabehlice': 'rare', // Romanesque origins, pseudo-Romanesque tower after 1874 lightning fire

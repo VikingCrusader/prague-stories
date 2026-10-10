@@ -10331,41 +10331,6 @@ Dnes, s něco přes 4 000 obyvateli, plní Dolní Měcholupy v životě města p
 
   // ── Vršovice / Záběhlice / Cukrák batch (2026-07) ───────────────────────
   {
-    name: 'Transgas Building',
-    slug: 'transgas',
-    localizedNames: { cz: 'Budova Transgasu', zh: '特兰斯加斯大楼' },
-    labels: ['communism', 'architecture', 'historical'],
-    coordinates: { lat: 50.07875055089017, lng: 14.433656696519297 },
-    rarity: 'epic',
-    xpReward: 50,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Transgas_(budova)',
-    description: {
-      en: `Brave adventurer, welcome to the site of the Transgas Building!
-
-Once here stood three hulking concrete towers built to keep a Soviet gas pipeline running smoothly — and then, in 2019, Prague quietly demolished one of its most photographed buildings while half the city was still arguing about whether to save it.
-
-Built between 1972 and 1978 to a design by Ivo Loos, Jindřich Malátek, Jan Eisenreich, and Václav Aulický, Transgas was never meant to charm anyone. It was the control centre for the vast pipeline network carrying Soviet natural gas across Czechoslovakia and onward into Western Europe, and it looked the part: three raw concrete towers perched on stilts above Vinohradská třída, right next door to Czech Radio's headquarters, as blunt and unapologetic as the industry it served. Praguers mostly ignored it for two decades — the way you ignore a strange uncle at a family reunion — until, sometime in the 1990s, its maze of corridors and basements quietly became an unofficial gathering point for the city's underground club scene, the kind of place nobody advertised but everybody somehow knew how to find.
-
-🥚 Easter Egg: When the site's owner, HB Reavis, applied to demolish Transgas in 2018, the heritage group Klub za starou Prahu scrambled to get the whole complex declared a protected monument. It didn't work. Demolition began in February 2019, and by the time the last tower came down about nine months later, the whole event had become slow-motion local news, with a rooftop webcam from Czech Radio livestreaming the destruction for anyone who wanted to watch. Prague has quietly torn down plenty of buildings nobody liked. Transgas may be the only one whose demolition drew a crowd of mourners.`,
-
-      cz: `Statečný dobrodruhu, vítej na místě, kde stávala budova Transgasu!
-
-Kdysi tu stály tři mohutné betonové věže postavené proto, aby hladce fungoval sovětský plynovod — a v roce 2019 Praha potichu zbourala jednu ze svých nejfotografovanějších budov, zatímco polovina města se ještě pořád hádala, jestli ji nemá spíš zachránit.
-
-Transgas vznikl v letech 1972 až 1978 podle návrhu Iva Loose, Jindřicha Malátka, Jana Eisenreicha a Václava Aulického a nikdy nebyl stavěn proto, aby se někomu líbil. Byl řídicím centrem obřího potrubního systému, který vedl sovětský zemní plyn přes Československo dál na západ Evropy, a odpovídajícím způsobem i vypadal: tři syrové betonové věže na sloupech nad Vinohradskou třídou, hned vedle sídla Českého rozhlasu, stejně strohé a bez omluvy jako obor, kterému sloužily. Pražané si jich dvě desetiletí většinou nevšímali — tak jako si člověk nevšímá podivného strýčka na rodinné sešlosti — dokud se někdy v devadesátých letech jejich spleť chodeb a suterénů tiše nestala neoficiálním srazištěm pražské klubové undergroundové scény, místem, které nikdo nikde neinzeroval, ale které nějak každý uměl najít.
-
-🥚 Velikonoční vajíčko: Když majitel pozemku, společnost HB Reavis, v roce 2018 požádala o demolici Transgasu, Klub za starou Prahu se pokusil narychlo prosadit prohlášení celého komplexu za památku. Nepovedlo se to. Demolice začala v únoru 2019 a než po zhruba devíti měsících padla poslední věž, stihla se z celé akce stát pomalu plynoucí místní zpravodajská událost — Český rozhlas dokonce vysílal bourání živě z kamery na střeše své budovy pro každého, kdo se chtěl dívat. Praha už potichu zbourala spoustu budov, které nikdo neměl rád. Transgas je možná jediná, jejíž demolice si vysloužila zástup truchlících.`,
-
-      zh: `勇敢的冒险家，欢迎来到特兰斯加斯大楼（Transgas）旧址！
-
-这里曾矗立着三座庞然大物般的混凝土高塔，专门负责让一条苏联天然气管道顺畅运转——而到了2019年，布拉格悄悄拆除了这座全城拍照率最高的建筑之一，当时半座城市还在争论到底该不该把它保留下来。
-
-特兰斯加斯大楼由伊沃·卢斯（Ivo Loos）、伊日·马拉泰克（Jindřich Malátek）、扬·艾森赖希（Jan Eisenreich）和瓦茨拉夫·奥利茨基（Václav Aulický）设计，于1972年至1978年间建成，从一开始就不是为了讨人喜欢而生的。它是一条庞大管道网络的控制中心，负责将苏联天然气输送穿越捷克斯洛伐克、一路输往西欧，而它的外观也完全对得起这个身份：三座裸露的混凝土高塔立在支柱之上，俯瞰着沃赫拉德斯卡大街（Vinohradská třída），紧邻捷克广播电台总部，粗粝而毫不掩饰，正如它所服务的那个行业。此后二十年间，布拉格人大多懒得多看它一眼——就像在家庭聚会上懒得搭理那个怪怪的叔叔一样——直到上世纪九十年代的某个时候，它迷宫般的走廊和地下室悄悄变成了这座城市地下俱乐部文化的非正式聚集地：一个从来没人打广告、却人人都知道怎么找到的地方。
-
-🥚 彩蛋：2018年，地皮业主HB Reavis公司申请拆除特兰斯加斯大楼时，古迹保护团体"老布拉格俱乐部"（Klub za starou Prahu）曾试图紧急争取将整个建筑群列为受保护古迹。这个努力没有成功。拆除工程于2019年2月开始，大约九个月后最后一座塔楼轰然倒下，整个过程也慢慢变成了一桩本地新闻事件——捷克广播电台甚至在自家楼顶架起摄像头，全程直播拆除过程，供任何想看的人观看。布拉格悄悄拆掉过不少没人喜欢的建筑。而特兰斯加斯大楼，大概是唯一一座拆除时引来一群"送葬者"围观的建筑。`,
-    },
-  },
-  {
     name: 'Libuš Meteorological Tower',
     slug: 'meteorologicka-vez-libus',
     localizedNames: { cz: 'Meteorologická věž Libuš', zh: '利布舍气象塔' },
@@ -33353,6 +33318,43 @@ Kavárna si mezitím našla druhou kariéru. Od 80. let byla diskotékou, v dob�
 咖啡馆则另谋了出路。从20世纪80年代起，它成了迪斯科舞厅，最红的时候叫Face2Face，后来又叫过Kamikaze等名字。体育场本身在2000年被列为文化遗产，却还是因为年久失修，于2011年被拆除，只剩下咖啡馆和那座老看台，这也多亏了几个布拉格文化团体出面力保。2018年12月起，它改名Fuchs2，成了能容纳650人的俱乐部，名字取自它的建筑师。
 
 🎁 彩蛋：福克斯设计体育场是给冰球英雄的，设计咖啡馆是给看球的观众坐下歇脚的。结果活下来的偏偏是这栋让人坐着的楼，而如今人们来这儿，干的正好是相反的事。`,
+    },
+  },
+  {
+    // Added 2026-10-10 at the user's request (coordinates user-supplied).
+    // Prague's oldest protected area (1951), an 18th-century Černín pheasantry.
+    name: 'Satalice Pheasantry',
+    slug: 'bazantnice-v-satalicich',
+    localizedNames: { cz: 'Bažantnice v Satalicích', zh: '萨塔利采雉苑' },
+    labels: ['nature', 'park'],
+    coordinates: { lat: 50.127142, lng: 14.575954 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Ba%C5%BEantnice_v_Satalic%C3%ADch',
+    description: {
+      en: `Welcome to Satalice Pheasantry, a patch of old forest on Prague's northern edge that was planted so aristocrats would have something to shoot at. The pheasants are long gone. The trees stayed, grew enormous, and in 1951 this became the very first protected nature area in Prague.
+
+Until the 18th century there was no forest here at all, just wet meadows and fields. Between about 1750 and 1786 Count Prokop Černín, owner of the neighbouring Vinoř estate, had the land planted with trees and laid out as a French-style pheasantry. Hunters added gooseberry bushes as cover for the birds, and the hunting guests were distinguished: Archduke Franz Ferdinand came here, and so did the young Archduke Charles, later the last Habsburg emperor. A long tree-lined avenue still runs from here to Vinoř's château park, and a 3.5 km nature trail now follows it.
+
+The forest's real treasure today is its age. In the central meadow stand three protected oaks, the largest a four-trunked giant about 230 years old with a girth of 6.75 metres. Four limes beside the small chapel of St. Anne, around 215 years old, are said to be the oldest and largest limes in Prague. Dead and rotting wood is left where it falls on purpose, and it feeds a beetle community rare enough to be compared with the Boubín primeval forest, along with ten legally protected beetle species and 248 recorded species of butterfly.
+
+🎁 Bonus: The count planted this wood so that birds would die in it. Two and a half centuries later, it is protected precisely so that its trees can die in peace, slowly, for the benefit of the beetles.`,
+
+      cz: `Vítejte v Bažantnici v Satalicích, kousku starého lesa na severním okraji Prahy, který vznikl proto, aby šlechta měla na co střílet. Bažanti jsou dávno pryč. Stromy zůstaly, vyrostly do obřích rozměrů a v roce 1951 se tohle místo stalo vůbec prvním chráněným územím přírody v Praze.
+
+Až do 18. století tu žádný les nebyl, jen podmáčené louky a pole. Zhruba v letech 1750 až 1786 dal hrabě Prokop Černín, majitel sousedního vinořského panství, pozemky osázet stromy a založit tu bažantnici ve francouzském stylu. Myslivci sem vysadili angrešt jako úkryt pro ptáky a hosté na honech byli vybraní: přijel sem arcivévoda František Ferdinand d'Este i mladý arcivévoda Karel, pozdější poslední habsburský císař. Odsud dodnes vede dlouhá alej až do vinořského zámeckého parku a po ní i 3,5 km dlouhá naučná stezka.
+
+Skutečným pokladem lesa je dnes jeho stáří. Na centrální louce stojí tři památné duby, z nichž největší je čtyřkmenný obr starý asi 230 let s obvodem 675 cm. Čtyři lípy u kapličky sv. Anny, staré kolem 215 let, jsou prý nejstarší a největší lípy v Praze. Mrtvé a tlející dřevo se tu záměrně nechává ležet a živí společenstvo brouků tak vzácné, že se srovnává s pralesy na Boubíně, včetně deseti zákonem chráněných druhů brouků. K tomu tu bylo zaznamenáno 248 druhů motýlů.
+
+🎁 Bonus: Hrabě tenhle les vysadil, aby v něm umírali ptáci. O dvě a půl století později je chráněný právě proto, aby v něm v klidu a pomalu mohly umírat stromy, ku prospěchu brouků.`,
+
+      zh: `欢迎来到萨塔利采雉苑，布拉格北郊的一片老林子。当年种下它，是为了让贵族们有东西可打。野鸡早就没了，树却留了下来，长成了参天大树。1951年，这里成了布拉格有史以来第一个自然保护区。
+
+18世纪以前，这里压根没有森林，只有湿漉漉的草甸和农田。大约1750年到1786年间，邻近维诺日庄园的主人普罗科普·切尔宁伯爵下令在这里植树，按法式风格建成了一座雉苑。猎场看守还种了醋栗灌木，给野鸡当藏身之处。来这里打猎的客人也很有分量：弗朗茨·斐迪南大公来过，年轻的卡尔大公也来过，他后来成了哈布斯堡王朝的最后一位皇帝。如今从这里仍有一条长长的林荫道通往维诺日的城堡花园，一条3.5公里长的自然步道就沿着它走。
+
+这片林子今天真正的宝贝，是它的年纪。中央草地上立着三棵受保护的橡树，最大的一棵有四根主干，树龄约230年，树围6.75米。圣安娜小礼拜堂旁的四棵椴树，树龄约215年，据说是布拉格最老、最大的椴树。枯死、腐烂的木头在这里被刻意留在原地，养活了一群相当稀有的甲虫，稀有到可以拿来和博乌宾原始森林相比，其中有十种是受法律保护的。此外，这里还记录到了248种蝴蝶。
+
+🎁 彩蛋：伯爵种下这片林子，是为了让鸟死在里面。两个半世纪后，它受到保护，恰恰是为了让树能在这里安安静静、慢慢地死去，好让甲虫们受益。`,
     },
   },
 ];
