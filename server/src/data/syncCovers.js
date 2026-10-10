@@ -2,7 +2,7 @@
  * Downloads Cloudinary cover images down into client/public/pixel-art/, so
  * the local-first cover loader (see CLAUDE.md) has an up-to-date copy.
  *
- * Two modes:
+ * Three modes:
  *   node src/data/syncCovers.js            fills in local files that are
  *                                           missing entirely (skips any slug
  *                                           that already has a local file,
@@ -16,6 +16,11 @@
  *                                           app, since local always wins over
  *                                           Cloudinary once a manifest entry
  *                                           exists
+ *   node src/data/syncCovers.js --stale     like --refresh, but only for
+ *                                           slugs with no local file or
+ *                                           whose Cloudinary upload is newer
+ *                                           than the local -v<timestamp>
+ *                                           (avoids re-downloading everything)
  *
  * Either mode writes `<slug>-v<timestamp>.webp`, the same cache-busting
  * naming convention the dev-mode upload endpoint uses, plus its card-sized
@@ -34,7 +39,16 @@ import { writeCoverThumb, removeCoverThumb } from '../utils/coverThumb.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const PIXEL_ART_DIR = path.resolve(__dirname, '../../../client/public/pixel-art');
-const REFRESH = process.argv.includes('--refresh');
+const STALE = process.argv.includes('--stale');
+const REFRESH = STALE || process.argv.includes('--refresh');
+
+// Cloudinary URL version is unix seconds, local filename version is ms.
+function isStale(existing, coverUrl) {
+  if (!existing.length) return true;
+  const cloud = Number((coverUrl.match(/\/upload\/v(\d+)\//) || [])[1]) * 1000;
+  const local = Math.max(...existing.map(f => Number((f.match(/-v(\d{9,})\./) || [])[1]) || 0));
+  return Boolean(cloud && local && cloud > local);
+}
 
 function escapeRegExp(s) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
@@ -73,7 +87,7 @@ async function run() {
     coverImage: { $regex: 'cloudinary\\.com' },
   }).lean();
 
-  console.log(`Found ${locations.length} location(s) with Cloudinary covers. Mode: ${REFRESH ? 'refresh (overwrite existing)' : 'fill gaps only'}\n`);
+  console.log(`Found ${locations.length} location(s) with Cloudinary covers. Mode: ${STALE ? 'stale only' : REFRESH ? 'refresh (overwrite existing)' : 'fill gaps only'}\n`);
 
   let downloaded = 0;
   let skipped = 0;
@@ -81,6 +95,11 @@ async function run() {
 
   for (const loc of locations) {
     const existing = localFilesFor(loc.slug);
+
+    if (STALE && !isStale(existing, loc.coverImage)) {
+      skipped++;
+      continue;
+    }
 
     if (existing.length && !REFRESH) {
       console.log(`  skip  ${loc.slug}  (${existing[0]} already exists)`);
