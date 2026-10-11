@@ -15,11 +15,14 @@ const SORT_KEY = { distance: 'grid.sortDistance', newest: 'grid.sortNewest', rar
 // every search keystroke stall.
 const PAGE_SIZE = 60;
 
-export default function LocationGrid({ locations, onCardClick, scopeToggle, hideOutsideLabel }) {
+export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
   const [discovered, setDiscovered]         = useState(false);
+  // "My Collections" lists every collected card, whatever the City only /
+  // area filter (ExplorePage passes the unscoped list for it).
+  const locations = discovered && collectionLocations ? collectionLocations : scopedLocations;
   const [activeLabels, setActiveLabels]     = useState(new Set());
   const [activeRarities, setActiveRarities] = useState(new Set());
   const [labelsOpen, setLabelsOpen]         = useState(false);

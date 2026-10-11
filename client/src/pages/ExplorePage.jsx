@@ -81,29 +81,31 @@ export default function ExplorePage() {
     addToast('Location updated.', 'success');
   };
 
-  const scopedLocations = useMemo(
-    () => (cityOnly ? locations.filter(l => isInCity(l) && matchesArea(l, area)) : locations),
-    [locations, cityOnly, area],
-  );
-
-  const sortedLocations = useMemo(() => {
-    if (!userPos) return scopedLocations;
-    return [...scopedLocations]
+  const sortedAll = useMemo(() => {
+    if (!userPos) return locations;
+    return [...locations]
       .map(l => ({
         ...l,
         _distance: haversineDistance(userPos.lat, userPos.lng, l.coordinates.lat, l.coordinates.lng),
       }))
       .sort((a, b) => a._distance - b._distance);
-  }, [scopedLocations, userPos]);
+  }, [locations, userPos]);
+
+  // City only / area filter. "My Collections" ignores it (LocationGrid gets
+  // sortedAll for that view): a collection shows everything collected.
+  const sortedLocations = useMemo(
+    () => (cityOnly ? sortedAll.filter(l => isInCity(l) && matchesArea(l, area)) : sortedAll),
+    [sortedAll, cityOnly, area],
+  );
 
   // Tapping a locked card within NEARBY_REVEAL_M (the wobbling lock) opens
   // the detail and collects it, the same flow as the 50 m notification
   // (autoCheckIn). Read through a ref so the handler stays stable for memo'd cards.
   const latest = useRef({});
-  latest.current = { sortedLocations, user };
+  latest.current = { sortedAll, user };
 
   const handleCardClick = useCallback((slug) => {
-    const { sortedLocations: locs, user: u } = latest.current;
+    const { sortedAll: locs, user: u } = latest.current;
     const loc = locs.find(l => l.slug === slug);
     const nearby = loc && !loc.unlocked && loc._distance != null && loc._distance <= NEARBY_REVEAL_M;
     setAutoCheckIn(!!(u && nearby));
@@ -150,7 +152,7 @@ export default function ExplorePage() {
         </div>
       </div>
 
-      <LocationGrid locations={sortedLocations} onCardClick={handleCardClick} scopeToggle={scopeToggle} hideOutsideLabel={cityOnly} />
+      <LocationGrid locations={sortedLocations} collectionLocations={sortedAll} onCardClick={handleCardClick} scopeToggle={scopeToggle} hideOutsideLabel={cityOnly} />
 
       {selectedSlug && (
         <LocationDetail
