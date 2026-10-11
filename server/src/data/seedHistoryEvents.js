@@ -22178,6 +22178,367 @@ export const historyEvents = [
     relatedLandmarks: [],
     wikipediaUrl: "https://cs.wikipedia.org/wiki/D%C3%B3%C5%BEovo_povst%C3%A1n%C3%AD",
   },
+  {
+    slug: "the-burghers-even-the-score-1515",
+    era: "rule-of-the-lords",
+    images: ["/history/the-burghers-even-the-score-1515.webp"],
+    imageCaptions: [
+      {
+        en: "Prague, May 1515: the land diet has just agreed that four directors will run the king's revenue; the plainly dressed townsmen cheer, while the richly dressed great lords on their bench look on in sour silence.",
+        cz: "Praha, květen 1515: zemský sněm právě odhlasoval, že královské důchody budou spravovat čtyři direktoři; prostě odění měšťané jásají, zatímco bohatě odění páni na své lavici kysele mlčí.",
+        zh: "1515年5月，布拉格邦议会：国王的收入改由四位总管打理的决议刚刚通过，穿着朴素的城里人欢呼庆祝，一旁衣着华贵的大贵族们满脸不悦。",
+      },
+    ],
+    startYear: 1515,
+    year: {
+      en: "1515",
+      cz: "1515",
+      zh: "1515年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Burghers Even the Score",
+      cz: "Měšťané srovnávají skóre",
+      zh: "市民扳回一城",
+    },
+    hookLine: {
+      en: "The relief force had marched to Hungary for nothing. A year later, at the diet in Prague, the townsmen finally got something back.",
+      cz: "Posila táhla do Uher nadarmo. O rok později na sněmu v Praze se ale měšťanům konečně něco vrátilo.",
+      zh: "援军白跑了一趟匈牙利。一年后的布拉格议会上，城里人总算捞回了点什么。",
+    },
+    summary: {
+      en: "The following May, the diet opened again in Prague. The king did not come himself. Presiding in his place was Duke Charles of Münsterberg, cousin of the very Bartholomew who had led the towns' troops to Hungary the year before.\n\nThis time, the townsmen finally evened the score. The estates agreed that the king's revenue would no longer be handed to whichever great lord happened to be in favour. Four \"directors\" would run it instead: one appointed by the king, and one chosen by each of the three estates. A few of the towns' demands finally made it into the resolutions, too.\n\nWas this the king repaying the towns? The chronicles don't say. Still, one cousin had marched the relief force all that way for nothing, and the other sat in the diet nodding things through in the king's name. Everyone could probably work out the rest.\n\n[[b]]The relief force had made the trip for nothing, but the diet had not. After more than a decade of quarrelling, the townsmen felt for the first time that someone was listening.[[/b]]",
+      cz: "V květnu následujícího roku se v Praze znovu sešel zemský sněm. Král nepřijel. Místo něj sněmu předsedal kníže Karel Minstrberský, bratranec onoho Bartoloměje, který před rokem vedl vojsko měst do Uher.\n\nTentokrát měšťané konečně srovnali skóre. Stavové se dohodli, že královské důchody už nebudou svěřovány tomu z velkých pánů, kdo je zrovna v přízni. Spravovat je budou čtyři „direktoři“: jednoho jmenuje král a po jednom zvolí každý ze tří stavů. Do usnesení se konečně dostala i část požadavků měst.\n\nByla to králova odplata městům? Kroniky mlčí. Jeden bratranec ale táhl s posilou do Uher nadarmo a druhý teď na sněmu jménem krále přikyvoval. Zbytek si asi domyslel každý.\n\n[[b]]Posila se trmácela nadarmo, sněm ale nadarmo nebyl. Po víc než deseti letech hádek měli měšťané poprvé pocit, že je někdo poslouchá.[[/b]]",
+      zh: "第二年5月，邦议会又在布拉格开幕了。国王没有亲自来，代表他主持议会的，是明斯特贝格公爵卡雷尔，也就是一年前替城里人带兵去匈牙利的巴尔托洛梅伊的堂兄弟。\n\n这一回，城里人总算扳回了一城。各等级同意，国王的收入不再随便交给哪位大贵族去管，改由四位“总管”打理：一位由国王指派，另外三位由各等级各推举一位。城市的几条要求，也总算有一部分被写进了决议。\n\n这算不算国王还给城里人的人情？史书没说。不过，一位堂兄弟带着援军白跑了一趟，另一位坐在议会上替国王点了头，这里面的事，大概谁心里都有数。\n\n[[b]]援军白跑了一趟，议会却没白开。吵了十几年，城里人第一次觉得，自己说的话有人听了。[[/b]]",
+    },
+    relatedLandmarks: [
+      {
+        slug: "vladislavsky-sal",
+        relation: {
+          en: "Bohemia's land diets met at Prague Castle, often in this great hall built for King Vladislaus; it is the most likely setting for the May 1515 session.",
+          cz: "Čeští zemští sněmy zasedaly na Pražském hradě, často v tomto velkém sále postaveném pro krále Vladislava; nejspíš právě tady se konal i sněm v květnu 1515.",
+          zh: "波希米亚的邦议会在布拉格城堡召开，常常就在这座为弗拉迪斯拉夫国王修建的大厅里；1515年5月那场议会，很可能也是在这里开的。",
+        },
+      },
+    ],
+    wikipediaUrl: "",
+  },
+  {
+    slug: "the-groom-was-grandpa-1515",
+    era: "rule-of-the-lords",
+    images: ["/history/the-groom-was-grandpa-1515.webp"],
+    imageCaptions: [
+      {
+        en: "St Stephen's Cathedral, Vienna, 22 July 1515: nine-year-old Louis and Mary exchange rings, the 56-year-old Emperor Maximilian takes Anne's hand on behalf of a grandson, and the ailing King Vladislaus watches from his chair.",
+        cz: "Chrám svatého Štěpána ve Vídni, 22. července 1515: devítiletí Ludvík a Marie si vyměňují prsteny, šestapadesátiletý císař Maxmilián bere za ruku Annu místo jednoho z vnuků a nemocný král Vladislav to sleduje ze svého křesla.",
+        zh: "1515年7月22日，维也纳圣斯德望大教堂：九岁的路德维克和玛丽亚交换戒指，五十六岁的马克西米利安皇帝替孙子牵起安娜的手，病重的弗拉迪斯拉夫国王坐在扶手椅里观礼。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "If the Emperor's grandson Ferdinand or Charles agrees to marry her within one year of the day this contract is made, the marriage between the Emperor and Anne shall be void.",
+          cz: "Pokud císařův vnuk Ferdinand nebo Karel svolí do jednoho roku ode dne uzavření této smlouvy, že si ji vezme, manželství císaře s Annou pozbývá platnosti.",
+          zh: "如果皇帝的孙子斐迪南或查理，在本约订立之日起一年之内同意娶她，皇帝与安娜的婚姻即告作废。",
+        },
+        attribution: {
+          en: "The Vienna marriage contract, article 2 (paraphrased), 22 July 1515",
+          cz: "Vídeňská svatební smlouva, článek 2 (volně), 22. července 1515",
+          zh: "维也纳婚约第2条大意，1515年7月22日",
+        },
+      },
+      {
+        text: {
+          en: "Bella gerant alii, tu felix Austria nube.\nLet others wage war; you, happy Austria, marry.",
+          cz: "Bella gerant alii, tu felix Austria nube.\nAť jiní vedou války, ty, šťastné Rakousko, uzavírej sňatky.",
+          zh: "Bella gerant alii, tu felix Austria nube.\n让别人去打仗吧，你，幸福的奥地利，结婚去吧。",
+        },
+        attribution: {
+          en: "A Latin saying, handed down later",
+          cz: "Latinské rčení z pozdější doby",
+          zh: "后世流传的拉丁语格言",
+        },
+      },
+    ],
+    startYear: 1515.5,
+    year: {
+      en: "1515",
+      cz: "1515",
+      zh: "1515年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Groom Was Grandpa",
+      cz: "Ženichem byl dědeček",
+      zh: "爷爷当新郎",
+    },
+    hookLine: {
+      en: "In Vienna's St Stephen's Cathedral, one wedding turned into two: one couple was nine years old, and in the other the groom was fifty-six and the bride one day short of twelve.",
+      cz: "Ve vídeňském chrámu svatého Štěpána se z jedné svatby staly dvě: jednomu páru bylo devět let, v druhém bylo ženichovi padesát šest a nevěstě chyběl den do dvanácti.",
+      zh: "维也纳圣斯德望大教堂里，一场婚礼办成了两场：一对新人九岁，另一对，新郎五十六岁，新娘还差一天满十二岁。",
+    },
+    summary: {
+      en: "In the summer of 1515, three monarchs met in Vienna: the gravely ill Vladislaus, his brother Sigismund, King of Poland, and the Holy Roman Emperor Maximilian. On the table was the future of two dynasties.\n\nOn 22 July, St Stephen's Cathedral hosted a double wedding.\n\nThe first couple were nine-year-old Louis and the emperor's granddaughter Mary, also nine. The two children exchanged rings and went home to their own families, to settle the rest once they were grown.\n\nThe second couple was more interesting. The bride was Louis's sister Anne, who would turn twelve the next day. The groom was to be one of the emperor's grandsons, but which one, Ferdinand or Charles, had not yet been decided. So the fifty-six-year-old Emperor Maximilian stepped up to the altar himself and married the little bride.\n\nThe contract included a clause written just for this:\n\n[[quote:0]]\n\n[[b]]Grandpa married the bride first, and let the grandsons work out later which of them would take over.[[/b]]\n\nIn the end it was Ferdinand. His older brother Charles was busy becoming King of Spain.\n\nOne more clause will raise a knowing smile among those who have followed Bohemia this far: each bride came with a dowry of 200,000 Hungarian florins, and the two cancelled each other out.\n\n[[b]]Another 400,000, and once again not a penny paid.[[/b]]\n\nBoth families felt they had done well: the Jagiellons married their son to the emperor's granddaughter, the Habsburgs secured a king's daughter for a grandson. But the real weight of the wedding lay in an older treaty it confirmed: whichever house ran out of male heirs first, its crowns would pass to the other.\n\nOn the Jagiellon side, there was one nine-year-old boy. On the Habsburg side, there were two grandsons.\n\nLater, people would sum up the Habsburg road to greatness in a single Latin line:\n\n[[quote:1]]",
+      cz: "V létě 1515 se ve Vídni sešli tři panovníci: těžce nemocný Vladislav, jeho bratr, polský král Zikmund, a římský císař Maxmilián. Šlo o budoucnost dvou rodů.\n\nDne 22. července se v chrámu svatého Štěpána konala dvojitá svatba.\n\nPrvním párem byli devítiletý Ludvík a císařova vnučka Marie, rovněž devítiletá. Děti si vyměnily prsteny a vrátily se každé ke své rodině; zbytek se měl vyřešit, až vyrostou.\n\nDruhý pár byl zajímavější. Nevěstou byla Ludvíkova sestra Anna, které měl druhý den být dvanáct. Ženichem měl být jeden z císařových vnuků, jenže který, Ferdinand, nebo Karel, ještě nebylo rozhodnuto. A tak k oltáři předstoupil sám šestapadesátiletý císař Maxmilián a malou nevěstu si vzal.\n\nSmlouva na to pamatovala zvláštním článkem:\n\n[[quote:0]]\n\n[[b]]Dědeček si nevěstu vzal napřed a vnuci se mohli v klidu domluvit, kdo ji převezme.[[/b]]\n\nNakonec to byl Ferdinand. Jeho starší bratr Karel měl zrovna plné ruce práce s tím, aby se stal španělským králem.\n\nJeště jeden článek vykouzlí úsměv každému, kdo české dějiny sleduje až sem: věno každé z nevěst činilo dvě stě tisíc uherských zlatých a obě částky se navzájem vyrovnaly.\n\n[[b]]Zase čtyři sta tisíc a zase se nezaplatil ani groš.[[/b]]\n\nOba rody měly pocit, že vyhrály: Jagellonci oženili syna s císařovou vnučkou, Habsburkové zajistili vnukovi královu dceru. Skutečná váha svatby ale ležela ve starší smlouvě, kterou potvrzovala: rod, který první vymře po meči, přenechá své koruny tomu druhému.\n\nNa jagellonské straně byl jediný devítiletý chlapec. Na habsburské dva vnuci.\n\nPozději se habsburská cesta k velikosti shrnovala jedinou latinskou větou:\n\n[[quote:1]]",
+      zh: "1515年夏天，三位君主在维也纳碰头：重病缠身的弗拉迪斯拉夫，他的弟弟、波兰国王齐格蒙特，还有神圣罗马帝国皇帝马克西米利安。他们要谈的，是两个家族的未来。\n\n7月22日，圣斯德望大教堂里办了一场双重婚礼。\n\n第一对新人是九岁的路德维克，和皇帝九岁的孙女玛丽亚。两个孩子交换了戒指，然后各回各家，等长大了再说。\n\n第二对就有意思了。新娘是路德维克的姐姐安娜，第二天才满十二岁。新郎是皇帝的孙子，可究竟是哪一个孙子，斐迪南还是查理，当时还没定下来。于是，五十六岁的皇帝马克西米利安亲自站上了圣坛，娶了这位小新娘。\n\n婚约里专门写了一条：\n\n[[quote:0]]\n\n[[b]]爷爷先替孙子把新娘娶回家，孙子们再慢慢商量谁来接手。[[/b]]\n\n最后接手的是斐迪南。他的哥哥查理忙着去当西班牙国王，没空。\n\n婚约里还有一条，波希米亚的老读者看了大概会会心一笑：两位新娘的嫁妆，各是二十万匈牙利弗罗林，两份互相抵消。\n\n[[b]]又是四十万，又是一分钱没付。[[/b]]\n\n两个家族都觉得自己赚了：雅盖隆家给儿子娶了皇帝的孙女，哈布斯堡家给孙子订下了国王的女儿。可这场婚礼真正的分量，藏在它确认的另一份老条约里：两家约定，谁家先断了男丁，王冠就归另一家。\n\n雅盖隆这边，只有一个九岁的男孩。哈布斯堡那边，孙子有两个。\n\n后来，人们常用一句拉丁语来形容哈布斯堡家族的发家之道：\n\n[[quote:1]]",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/First_Congress_of_Vienna",
+  },
+  {
+    slug: "the-last-fine-1516",
+    era: "rule-of-the-lords",
+    images: ["/history/the-last-fine-1516.webp"],
+    imageCaptions: [
+      {
+        en: "Prague Castle, May 1516: a great lord strikes the previous year's diet resolution out of the land code with one thick line, while the townsmen protest in vain and a black-draped portrait of the late King Vladislaus hangs on the wall.",
+        cz: "Pražský hrad, květen 1516: mocný pán jedinou silnou čarou škrtá v zemských deskách loňské sněmovní usnesení, měšťané marně protestují a ze stěny shlíží černě ovinutý portrét zesnulého krále Vladislava.",
+        zh: "1516年5月，布拉格城堡：一位大领主在邦法典上一笔划掉前一年的议会决议，城里人徒劳地抗议，墙上挂着蒙了黑纱的已故国王弗拉迪斯拉夫画像。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "The Czech lords have more power than the Lord God: today they strip a man of his honour, and two days later they give it back.",
+          cz: "čeští páni mají větší moc než Pán Bůh: dnes někoho zbaví cti a za dva dny mu ji zase vrátí.",
+          zh: "捷克的老爷们比上帝还有权力：今天剥夺一个人的名誉，过两天又还给他。",
+        },
+        attribution: {
+          en: "Old Czech Annals (modern Czech rendering)",
+          cz: "Staré letopisy české (v novočeském převodu)",
+          zh: "《捷克古代编年史》（现代捷克语本）",
+        },
+      },
+    ],
+    startYear: 1516,
+    year: {
+      en: "1516",
+      cz: "1516",
+      zh: "1516年",
+    },
+    tone: "humorous",
+    title: {
+      en: "One Last \"Fine\"",
+      cz: "Poslední „bene“",
+      zh: "最后一个“好”字",
+    },
+    hookLine: {
+      en: "On his deathbed the king said \"fine\" to the townsmen one last time. The moment he closed his eyes, the lords wiped that \"fine\" out of the land code.",
+      cz: "Na smrtelné posteli řekl král měšťanům ještě jedno „bene“. Jakmile zavřel oči, páni to „bene“ ze zemských desek vymazali.",
+      zh: "国王临死前，还替城里人说了一声“好”。可他一闭眼，贵族们就把这声“好”从法典里擦掉了。",
+    },
+    summary: {
+      en: "Less than eight months after the wedding in Vienna, on 13 March 1516, Vladislaus died in Buda. He had turned sixty just twelve days before.\n\nHe had been King of Bohemia for forty-five years, and for the last twenty-six of them King of Hungary as well. The Hungarians called him \"Dobzse László\", the Czechs [[link:wanted-a-king-who-says-fine-1490]]\"King Fine\"[[/link]], and in Latin documents he was \"Rex Bene\". Three languages, one nickname.\n\n[[b]]He said \"fine\" more times than anyone could count, and in the end even his nickname was just that one word.[[/b]]\n\nOn his deathbed one thing still weighed on him: the settlement reached at [[link:the-burghers-even-the-score-1515]]the diet a year earlier[[/link]]. The royal revenue had gone to four directors, and a few of the townsmen's demands had been written in: the first time in more than a decade the towns had won anything at a diet. But plenty of lords felt cheated and were clamouring to overturn it. The old king no longer had the strength to fight, and made only one request: that the resolution be kept at least until the next diet.\n\nIt was probably the last \"fine\" he ever said.\n\nWith the king dead, the crown passed to his son Louis, not yet ten. The boy was far away in Buda, surrounded by Hungarian guardians, and could not have managed Bohemia's affairs even if he had wanted to.\n\n[[b]]While the king lived, he said \"fine\" to everything. Once he was dead, the lords did not even need to wait for a \"fine\".[[/b]]\n\nIn May 1516 the diet opened in Prague. The first thing the lords did was strike the previous year's resolution out of the land code.\n\nThe townsmen protested on the spot. Nobody listened.\n\nA chronicler had seen through these gentlemen long before:\n\n[[quote:0]]\n\nOnly this time, what they had taken away, they had no intention of giving back.\n\nThe townsmen had won for one year, and now they were back where they started. The lords went on brewing beer, the lords went on running the diet, and the king who had at least been willing to say \"fine\" now lay in the royal tombs at Székesfehérvár.\n\n[[b]]The townsmen finally realised that without King Fine, there was no one left even to write to and complain.[[/b]]",
+      cz: "Necelých osm měsíců po vídeňské svatbě, 13. března 1516, zemřel Vladislav v Budíně. Šedesát mu bylo teprve před dvanácti dny.\n\nČeským králem byl pětačtyřicet let, z toho posledních šestadvacet zároveň i králem uherským. Maďaři mu říkali „Dobže László“, Češi [[link:wanted-a-king-who-says-fine-1490]]„král Bene“[[/link]] a v latinských listinách byl „Rex Bene“. Tři jazyky, jedna přezdívka.\n\n[[b]]Celý život říkal „bene“, až mu nakonec i z přezdívky zbylo jen to jediné slovo.[[/b]]\n\nNa smrtelné posteli ho ještě trápila jedna věc: úmluva, kterou přijal [[link:the-burghers-even-the-score-1515]]sněm o rok dřív[[/link]]. Královské důchody dostali na starost čtyři direktoři a do usnesení se dostalo i několik požadavků měst: poprvé za víc než deset let se městům na sněmu něco podařilo. Jenže mnozí páni se cítili ošizeni a dožadovali se, aby se to zrušilo. Starý král už neměl sílu se přít a vznesl jen jednu prosbu: aby se usnesení dodržovalo aspoň do příštího sněmu.\n\nBylo to nejspíš poslední „bene“ jeho života.\n\nPo králově smrti přešla koruna na jeho syna Ludvíka, kterému ještě nebylo deset. Chlapec byl daleko v Budíně, obklopený uherskými poručníky, a do českých věcí by mluvit nemohl, ani kdyby chtěl.\n\n[[b]]Dokud král žil, na všechno říkal „bene“. Jakmile zemřel, páni už na žádné „bene“ čekat nemuseli.[[/b]]\n\nV květnu 1516 se v Praze sešel zemský sněm. První, co páni udělali, bylo, že loňské sněmovní usnesení ze zemských desek škrtli.\n\nMěšťané na místě protestovali. Nikdo je neposlouchal.\n\nKronikář tyhle pány prokoukl už dávno:\n\n[[quote:0]]\n\nJenže tentokrát to, co vzali, vracet nehodlali.\n\nMěšťané rok vyhrávali a teď byli zase tam, kde začali. Pivo dál vařili páni, sněm dál řídili páni a král, který aspoň ještě uměl říct „bene“, už ležel v královské hrobce ve Stoličném Bělehradě.\n\n[[b]]Měšťané konečně pochopili, že bez krále Bene nemají komu ani napsat stížnost.[[/b]]",
+      zh: "维也纳的婚礼过后不到八个月，1516年3月13日，弗拉迪斯拉夫在布达去世。十二天前，他刚过完六十岁生日。\n\n他当了四十五年波希米亚国王，其中后二十六年，还兼着匈牙利国王。匈牙利人管他叫“好好拉斯洛”，捷克人管他叫[[link:wanted-a-king-who-says-fine-1490]]“好好国王”[[/link]]，拉丁语的文书里，他是“Rex Bene”。三种语言，同一个外号。\n\n[[b]]一辈子说了无数个“好”，最后连外号都只有这一个字。[[/b]]\n\n临终前，他还惦记着一件事：[[link:the-burghers-even-the-score-1515]]一年前那次议会[[/link]]定下的规矩。王室的收入交给四位总管打理，城里人的几条要求也写了进去，这是城市十几年来头一回在议会上赢了一把。可不少贵族觉得自己吃了亏，吵着要推翻。老国王已经无力再争，只提了一个请求：这份决议，至少要守到下一次开议会。\n\n这大概是他这辈子说的最后一个“好”。\n\n国王死了，王位交给了他不满十岁的儿子路德维克。孩子远在布达，身边围着一群匈牙利的监护人，波希米亚的事，他想管也管不了。\n\n[[b]]国王活着的时候，什么都说“好”；国王一死，贵族们连这个“好”字都不必等了。[[/b]]\n\n1516年5月，邦议会在布拉格开幕。领主们做的第一件事，就是把一年前那份议会决议，从邦法典里一笔划掉。\n\n城里人当场抗议。没有人理他们。\n\n编年史家早就看透了这群老爷：\n\n[[quote:0]]\n\n只不过这一回，他们收回去的东西，没打算再还回来。\n\n城里人赢了一年，又被打回了原形。啤酒照样是贵族在酿，议会照样是贵族说了算，而那位至少还肯说一声“好”的国王，已经躺进了塞克什白堡的王陵。\n\n[[b]]城里人终于发现，没有了好好国王，连一个可以写信抱怨的人都没有了。[[/b]]",
+    },
+    relatedLandmarks: [
+      {
+        slug: "vladislavsky-sal",
+        relation: {
+          en: "The great hall that still bears his name; the May 1516 diet that struck out the townsmen's victory very likely met here.",
+          cz: "Velký sál, který dodnes nese jeho jméno; sněm z května 1516, který měšťanům vítězství škrtl, se tu nejspíš konal.",
+          zh: "至今仍以他命名的大厅；1516年5月把城里人的胜利一笔划掉的那场邦议会，很可能就在这里召开。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Vladislaus_II_of_Hungary",
+  },
+  {
+    slug: "a-barrel-of-beer-for-a-vote-1517",
+    era: "rule-of-the-lords",
+    images: ["/history/a-barrel-of-beer-for-a-vote-1517.webp"],
+    imageCaptions: [
+      {
+        en: "Prague Castle, October 1517: lords and town representatives seal the St. Wenceslas Agreement; a townsman holds up the parchment with its three seals, while under the table a nobleman quietly pushes a beer barrel towards his own side.",
+        cz: "Pražský hrad, říjen 1517: páni a zástupci měst pečetí Svatováclavskou smlouvu; měšťan zvedá pergamen se třemi pečetěmi, zatímco pod stolem šlechtic nenápadně posunuje sud piva na svou stranu.",
+        zh: "1517年10月，布拉格城堡：贵族和城市代表在《圣瓦茨拉夫协议》上盖印，一位市民高举挂着三枚印章的羊皮纸，桌子底下，一位贵族悄悄把啤酒桶推向自己那边。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "When a burgher has a dispute with a burgher, they may seek justice under their own law.",
+          cz: "Když by měštěním s měštěnínem činiti měl, ti se hledati mohú právem svým.",
+          zh: "市民与市民之间若有纠纷，可以按他们自己的法律去讨公道。",
+        },
+        attribution: {
+          en: "St. Wenceslas Agreement, article 2, 1517",
+          cz: "Svatováclavská smlouva, článek 2, 1517",
+          zh: "《圣瓦茨拉夫协议》第2条，1517年",
+        },
+      },
+    ],
+    startYear: 1517,
+    year: {
+      en: "1517",
+      cz: "1517",
+      zh: "1517年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Barrel of Beer for One Vote",
+      cz: "Sud piva za jeden hlas",
+      zh: "一桶啤酒换一张票",
+    },
+    hookLine: {
+      en: "Fifteen years of quarrelling and one new king later, the lords and the townsmen finally sat down at the same table. But when the treaty was signed and everyone looked it over, the barrel of beer had never even made it onto the table.",
+      cz: "Po patnácti letech hádek a jednom novém králi si páni a měšťané konečně sedli k jednomu stolu. Když ale smlouvu podepsali a pročetli si ji, zjistili, že sud piva se na stůl vůbec nedostal.",
+      zh: "吵了十五年，换了一个国王，贵族和城里人终于坐到了一张桌子边上。可等和约签完，大家翻开一看：那桶啤酒，压根没摆上桌。",
+    },
+    summary: {
+      en: "After [[link:the-last-fine-1516]]that one stroke of the pen[[/link]] in May 1516, Bohemia was back to its old ways: the lords and the towns refused to deal with each other and could not stand the sight of one another.\n\nBy the following summer, things were about to get out of hand.\n\nIn July 1517 two noblemen, Boček of Kunštát and Burian Trčka of Lípa, fell out over a private grudge and each gathered men for a fight. One side was on very friendly terms with the townsmen, so the towns decided to send troops to help. In no time one family feud had dragged in the whole kingdom: the towns on one side, the lords on the other. By early September the two armies were gathering near Kolín and Kačina.\n\n[[b]]After fifteen years of shouting at each other, the townsmen and the lords were about to fight a real war.[[/b]]\n\nAnd just then, the peasants grew restless too. At the end of August, in the villages of Knovíz and Lešany near Křivoklát, the peasants rose against their lord. It was only a small local disturbance, but the High Burgrave treated it as a grave threat and led the troops against them himself. Every lord felt a jolt: they all remembered [[link:reinforcements-slightly-late-1514]]what had happened in Hungary three years before[[/link]].\n\nHowever bitterly the townsmen and the lords fought, both sides knew one thing: if the peasants really rose, nobody would come out of it well.\n\nOn 28 September 1517, St Wenceslas's Day, the diet opened in Prague. This time the two sides really did sit down and talk. The talking went on for four weeks.\n\nOn 24 October the treaty was finally signed. After the feast day on which the diet opened, it came to be known as the St. Wenceslas Agreement.\n\nOn the throne by now sat eleven-year-old Louis, far away in Buda. For this treaty, nobody even had to go looking for someone to say \"fine\".\n\nThe treaty ran to fifty-four densely written articles. The thing the townsmen cared about most was back: the \"third vote\" in the diet. From now on, one vote for the lords, one for the knights, one for the towns. The rules for going to court were laid down again too: nobles judged nobles, and burghers judged burghers:\n\n[[quote:0]]\n\nThe burgher who once [[link:the-beer-war-1502]]slapped a nobleman back[[/link]] and was dragged before a court of nobles until the lawsuit ruined him would, if he were still alive, probably have breathed a sigh of relief.\n\nAnother article declared the markets free from now on, open to anyone who wanted to trade. A full twenty more dealt with paying off the king's debts: someone had to settle the pile of bills King Fine had left behind.\n\nAnd the beer?\n\n[[b]]Open the treaty, and the article on brewing has been \"postponed for later discussion\". Nobody ever brought it up again.[[/b]]\n\nA fifteen-year war fought over beer, and when the peace was signed, beer was the one thing it skipped.\n\nBut postponing it meant, in practice, that the lords had won. The lords' breweries outside the town walls kept smoking, the peasants on their estates could still drink only their lord's beer, and nobody asked them to close down again. The townsmen got back a vote in the diet and lost a barrel of beer for good.\n\nWhen the news of the treaty reached Prague, the whole city celebrated. The townsmen felt they had finally won something back.\n\nLater historians were less cheerful. Many see it as the first great battle the royal towns lost: they got their vote back but lost their livelihood, and never managed to win it back.\n\n[[b]]When the townsmen raised their glasses to celebrate, the beer in them was probably already brewed by the lords.[[/b]]",
+      cz: "Po [[link:the-last-fine-1516]]onom škrtnutí pérem[[/link]] v květnu 1516 se Čechy vrátily do starých kolejí: páni a města se spolu nebavili a jedni nemohli vystát druhé.\n\nNásledující léto už to vypadalo, že se věci vymknou z rukou.\n\nV červenci 1517 se dva šlechtici, Boček z Kunštátu a Burian Trčka z Lípy, rozkmotřili kvůli soukromé při a každý začal shánět lidi k boji. Jedna strana měla s měšťany velmi dobré vztahy, a tak se města rozhodla poslat jí na pomoc vojsko. Soukromá šlechtická při během chvíle zatáhla celé království: města na jedné straně, páni na druhé. Začátkem září se už obě vojska shromažďovala u Kolína a u Kačiny.\n\n[[b]]Měšťané a páni se patnáct let hádali, a teď to vypadalo na opravdovou válku.[[/b]]\n\nA zrovna v té chvíli se začali bouřit i sedláci. Koncem srpna povstali proti vrchnosti sedláci ve vsích Knovíz a Lešany u Křivoklátu. Byla to jen malá místní vzpoura, nejvyšší purkrabí ji však bral jako vážné nebezpečí a sám proti nim vedl vojsko. Všem pánům přeběhl mráz po zádech: [[link:reinforcements-slightly-late-1514]]co se před třemi lety stalo v Uhrách[[/link]], si pamatovali dobře.\n\nAť se měšťané s pány rvali sebevíc, jedno věděly obě strany: kdyby se sedláci opravdu vzbouřili, nikdo z toho nevyjde dobře.\n\nDne 28. září 1517, na svátek svatého Václava, se v Praze sešel zemský sněm. Tentokrát si obě strany opravdu sedly a jednaly. Jednání trvala čtyři týdny.\n\nDne 24. října byla smlouva konečně podepsána. Podle svátku, kdy sněm začal, se jí začalo říkat Svatováclavská smlouva.\n\nNa trůně teď seděl jedenáctiletý Ludvík, daleko v Budíně. U téhle smlouvy už nebylo nutné ani hledat někoho, kdo by řekl „bene“.\n\nSmlouva měla padesát čtyři hustě popsaných článků. To, na čem měšťanům záleželo nejvíc, se vrátilo: „třetí hlas“ na sněmu. Od té doby měli jeden hlas páni, jeden rytíři a jeden města. Nově se ustanovila i pravidla soudů: šlechtu soudí šlechta, měšťany měšťané:\n\n[[quote:0]]\n\nOnen měšťan, který kdysi [[link:the-beer-war-1502]]vrátil šlechtici facku[[/link]] a pak ho šlechtický soud vláčel po soudech, až přišel na mizinu, by si nejspíš oddechl, kdyby ještě žil.\n\nDalší článek prohlašoval trhy za svobodné, otevřené každému, kdo chtěl obchodovat. Celých dvacet dalších se týkalo splácení králových dluhů: hromadu účtů, kterou po sobě zanechal král Bene, musel přece někdo vyrovnat.\n\nA co pivo?\n\n[[b]]Kdo smlouvu otevře, najde článek o vaření piva „odložený k dalšímu jednání“. Už nikdy se k němu nikdo nevrátil.[[/b]]\n\nPatnáct let války o pivo, a když se podepisoval mír, přeskočilo se zrovna pivo.\n\nJenže odložit to ve skutečnosti znamenalo, že vyhráli páni. Panské pivovary za hradbami se dál kouřily, sedláci na panstvích dál smělí pít jen pivo své vrchnosti a nikdo už po pánech nechtěl, aby je zavřeli. Měšťané získali zpátky hlas na sněmu a sud piva ztratili navždy.\n\nKdyž zpráva o smlouvě dorazila do Prahy, celé město jásalo. Měšťané měli pocit, že konečně něco vybojovali zpátky.\n\nPozdější historikové tak optimističtí nebyli. Mnozí v ní vidí první velkou bitvu, kterou královská města prohrála: hlas získala zpátky, ale přišla o živobytí, a to už nikdy nevybojovala.\n\n[[b]]Když měšťané zvedali číše na oslavu, měli v nich nejspíš už pivo z panského pivovaru.[[/b]]",
+      zh: "1516年5月[[link:the-last-fine-1516]]那一笔划下去[[/link]]，波希米亚又回到了老样子：贵族和城市谁也不理谁，互相看对方不顺眼。\n\n到了第二年夏天，事情眼看就要收不住了。\n\n1517年7月，两位贵族，昆什塔特的博切克和利帕的布里安·特尔奇卡，为了私怨闹翻，各自拉人马准备开打。有一边的贵族和城里人私交不浅，于是城里人打算派兵帮他们。一家贵族的私斗，转眼就把整个王国都卷了进去：城里人站一边，贵族站一边。到了9月初，两边的军队已经分别在科林和卡奇纳附近集结起来了。\n\n[[b]]城里人和贵族互相骂了十五年，眼看就要变成真的战争。[[/b]]\n\n偏偏这时候，农民也坐不住了。8月底，克日沃克拉特一带的克诺维兹和莱沙尼两个村子，农民起来反抗领主。说起来只是一场地方上的小乱子，最高城堡伯爵却如临大敌，亲自带兵去镇压。贵族们心里都咯噔了一下：[[link:reinforcements-slightly-late-1514]]三年前匈牙利的那一幕[[/link]]，他们可都还记得。\n\n城里人和贵族斗得再凶，有一件事两边都清楚：要是农民真闹起来，谁也落不着好。\n\n1517年9月28日，圣瓦茨拉夫节，邦议会在布拉格开幕。这一回，两边真的坐下来谈了。一谈就是四个星期。\n\n10月24日，和约终于签成了。后人按开会那天的节日，管它叫《圣瓦茨拉夫协议》。\n\n这时候，王座上坐的是十一岁的路德维克，人远在布达。这一份和约，连一个说“好”的人都不用找了。\n\n和约一共五十四条，写得密密麻麻。城里人最在乎的东西，回来了：议会里的“第三票”。从此，领主一票，骑士一票，城市一票。打官司的规矩也重新定了下来，贵族审贵族，市民审市民：\n\n[[quote:0]]\n\n当年那个[[link:the-beer-war-1502]]还了贵族一巴掌[[/link]]、被拖进贵族法庭打官司打到倾家荡产的市民，要是还活着，大概会松一口气。\n\n还有一条宣布集市从此自由，谁都可以去做买卖。另外足足二十条，讲的是怎么替国王还债：好好国王留下的那一屁股账，总得有人来算。\n\n那么，啤酒呢？\n\n[[b]]翻开和约，讲酿酒的那一条，被“押后再议”了。此后，再也没有人提起过它。[[/b]]\n\n一场为啤酒打了十五年的仗，签和约的时候，偏偏把啤酒跳了过去。\n\n可押后再议，其实就等于贵族赢了。城墙外的领主酒坊照样冒着烟，庄园上的农民照样只许喝领主酿的酒，谁也没再要求他们关门。城里人拿回了议会里的一张票，却永远丢掉了一桶啤酒。\n\n和约传到布拉格，满城欢天喜地。城里人觉得，自己总算赢回了一点什么。\n\n后来的历史学家没有这么乐观。不少人认为，这其实是王室城市输掉的第一场大仗：选票拿回来了，饭碗却丢了，而且再也没能抢回来。\n\n[[b]]城里人举杯庆祝的时候，杯子里装的，大概已经是贵族酿的啤酒了。[[/b]]",
+    },
+    relatedLandmarks: [
+      {
+        slug: "old-royal-palace",
+        relation: {
+          en: "The diet met here, and the treaty was entered in the land code kept here.",
+          cz: "Tady zasedal sněm a sem, do zemských desek, byla smlouva také zapsána.",
+          zh: "议会在这里召开，和约也登记在这里的邦法典里。",
+        },
+      },
+      {
+        slug: "krivoklat-castle",
+        relation: {
+          en: "The peasant rising broke out on its estates. The castle still stands, about fifty kilometres from Prague.",
+          cz: "Selská vzpoura vypukla na jeho panství. Hrad stojí dodnes, asi padesát kilometrů od Prahy.",
+          zh: "农民起义发生在它的庄园上，城堡今天还在，离布拉格大约五十公里。",
+        },
+      },
+      {
+        slug: "ceske-budejovice",
+        relation: {
+          en: "A royal town whose burghers had brewed beer since the Middle Ages: exactly the kind of brewing right the towns were fighting for in 1517. The quarrel over the name Budweiser, centuries later, starts here too.",
+          cz: "Královské město, jehož měšťané vařili pivo už od středověku: přesně o takové várečné právo města v roce 1517 bojovala. Odtud se o staletí později odvíjí i spor o jméno Budweiser.",
+          zh: "一座从中世纪起市民就靠酿酒过日子的王室城市，1517年城里人争的，正是这样的酿酒权。几百年后围绕\"百威\"这个名字的官司，也是从这里开始的。",
+        },
+      },
+      {
+        slug: "kolin",
+        relation: {
+          en: "In September 1517 one of the two armies, the towns' or the lords', was gathering near this town.",
+          cz: "V září 1517 se u tohoto města shromažďovalo jedno ze dvou vojsk, městské nebo panské.",
+          zh: "1517年9月，两支军队之一就在这座城市附近集结。",
+        },
+      },
+      {
+        slug: "zamek-kacina",
+        relation: {
+          en: "The other army gathered near Kačina in 1517. The white Empire palace standing here today came almost three centuries later.",
+          cz: "Druhé vojsko se roku 1517 shromažďovalo u Kačiny. Bílý empírový zámek, který tu stojí dnes, přišel až o skoro tři století později.",
+          zh: "1517年，另一支军队在卡奇纳附近集结。今天立在这里的那座白色帝政风格宫殿，要再过将近三百年才建起来。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Svatov%C3%A1clavsk%C3%A1_smlouva",
+  },
+  {
+    slug: "tearing-down-the-wall-1518",
+    era: "rule-of-the-lords",
+    startYear: 1518,
+    year: {
+      en: "1518",
+      cz: "1518",
+      zh: "1518年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Tearing Down the Wall",
+      cz: "Zbořit zeď",
+      zh: "拆掉一道墙",
+    },
+    hookLine: {
+      en: "Prague's Old Town and New Town had been quarrelling across a city wall for a hundred and fifty years. This time, the townsmen decided to knock the wall down.",
+      cz: "Pražské Staré a Nové Město se přes hradby hádaly sto padesát let. Tentokrát se měšťané rozhodli zeď zbořit.",
+      zh: "布拉格的老城和新城隔着一道城墙，吵了一百五十年。这一回，城里人决定把墙拆了。",
+    },
+    summary: {
+      en: "Prague had always really been two towns.\n\nOn this side of the river stood the Old Town, centuries old; outside it lay the New Town, laid out by Charles IV himself in 1348. The two towns sat right next to each other, yet each had its own town hall, its own council and its own walls. The Old Town wall ran straight between them: shut the gates, and they were two different worlds.\n\nThe two towns had disliked each other for more than a hundred years. Charles IV had already tried to merge them, ordering the wall pulled down in 1367; ten years later they split again. During the Hussite wars they joined once more, and within a few years they had parted again.\n\nNow, at last, the townsmen had a reason to become one: the lords.\n\nFor more than a decade the towns had been pushed around at the diet, dragged before noble courts and even robbed of their beer. One fist could not win a fight, but two fists together might make the lords think twice.\n\nThe man who made it happen was an old acquaintance, the Old Town's scribe [[link:the-heretic-kings-grandson-1513]]Jan Pašek[[/link]].\n\nHis background had nothing noble about it. Born to a poor family in a small town south of Prague, he had been a village schoolteacher, then went to the university in Prague, took his master's degree and even served a term as head of a college. After that he spent twelve years as scribe of the Old Town, practised as a lawyer on the side and built up a tidy fortune. He knew better than anyone that what the townsmen lacked was not arguments, but strength.\n\nIn 1518 the Old Town and the New Town formally merged. The two towns elected a single joint council, led by Pašek, and governing alongside him was Jan Hlavsa, who had risen together with him. The joint council chose the New Town Hall as its seat.\n\n[[b]]Ninety-nine years earlier, in this very building, the people of Prague had thrown councillors out of the window; now the same building became the council chamber of all Prague.[[/b]]\n\nIn their delight, the townsmen went straight at the wall: the St. Martin gate came down, so did a small gate on Perlová Street, and in places the moat was filled in too. The chronicles record it all with great excitement.\n\nThe wall, however, was never finished off. Halfway through, the enthusiasm wore off, and what was left of the wall stood there for several hundred more years.\n\n[[b]]Only half the wall came down. Whether the wall in people's heads came down too, they would find out soon enough.[[/b]]\n\nThe two earlier mergers had each lasted only about ten years. How long would this one last?",
+      cz: "Praha vlastně byla vždycky dvě města.\n\nNa tomhle břehu řeky leželo staleté Staré Město; za ním Nové Město, které roku 1348 vlastnoručně rozvrhl Karel IV. Obě města se dotýkala, a přesto měla každé svou radnici, svou radu a své hradby. Staroměstské hradby stály přímo mezi nimi: zavřely se brány, a byly to dva různé světy.\n\nObě města se nemohla vystát už přes sto let. Karel IV. je chtěl spojit už tehdy a roku 1367 dal zbořit hradby; o deset let později se zase rozdělila. Za husitských válek se spojila znovu a za pár let se opět rozešla.\n\nTeď měli měšťané konečně důvod spojit se v jedno: pány.\n\nVíc než deset let je páni na sněmu odstrkovali, vláčeli je před šlechtické soudy a sebrali jim i pivo. Jedna pěst nic nezmůže, ale dvě sevřené dohromady už leccos vydrží.\n\nKdo to dotáhl do konce, byl náš starý známý, staroměstský písař [[link:the-heretic-kings-grandson-1513]]Jan Pašek[[/link]].\n\nSe šlechtou neměl jeho původ nic společného. Narodil se v chudé rodině v malém městečku jižně od Prahy, byl venkovským učitelem, pak vystudoval pražskou univerzitu, získal titul mistra a jedno období byl dokonce kolejním proboštem. Potom dvanáct let sloužil jako staroměstský písař, vedle toho jako advokát vedl cizí pře a nashromáždil slušné jmění. Věděl lépe než kdo jiný, že měšťanům nechybějí argumenty, ale síla.\n\nRoku 1518 se Staré a Nové Město oficiálně spojily. Obě města zvolila společnou městskou radu, v jejímž čele stanul Pašek, a po jeho boku vládl Jan Hlavsa, který se kdysi prosadil spolu s ním. Sídlem společné rady se stala Novoměstská radnice.\n\n[[b]]Před devadesáti devíti lety v téhle budově Pražané vyhodili konšely z oken; teď se z téže budovy stala radnice celé Prahy.[[/b]]\n\nMěšťané se z radosti rovnou pustili do hradeb: padla Svatomartinská brána, padla i branka v Perlové ulici a místy dokonce zasypali příkop. Kronikáři to zapsali s velkým nadšením.\n\nHradby ale nakonec zbořené nebyly. V polovině nadšení opadlo a zbytek hradeb tu stál ještě několik set let.\n\n[[b]]Zeď padla jen napůl. Jestli padla i ta v hlavách, se mělo brzy ukázat.[[/b]]\n\nObě předchozí spojení vydržela jen asi deset let. Jak dlouho vydrží tohle?",
+      zh: "布拉格其实一直是两座城。\n\n河这边，是几百年前就有的老城；老城外面，是查理四世1348年亲手规划的新城。两座城挨在一起，却各有各的市政厅、各的议会、各的城墙。老城的城墙就立在两座城中间，城门一关，就是两个世界。\n\n两座城互相看不顺眼，也有一百多年了。查理四世当年就想把它们合成一座，1367年下令拆墙，结果十年后又分开了。胡斯战争时，两座城又合过一回，没几年也散了。\n\n如今，城里人终于有了一个合二为一的理由：贵族。\n\n十几年来，城市在议会上被贵族撵来撵去，打官司被拖进贵族的法庭，连啤酒都被抢走了。一个人的拳头打不过别人，两个人的拳头攥在一起，总能硬气一些。\n\n把这件事办成的，是我们的老熟人，老城的书记官[[link:the-heretic-kings-grandson-1513]]扬·帕谢克[[/link]]。\n\n他的出身跟贵族毫不沾边：生在布拉格南边一个小镇的穷人家，当过乡村教师，后来进了布拉格大学，拿了硕士学位，还当过一任学院院长。之后他去老城当书记官，一干就是十二年，又当律师替人打官司，攒下了一份不小的家业。他比谁都清楚，城里人缺的不是道理，而是力气。\n\n1518年，老城和新城正式合并。两城选出了一个共同的市议会，带头的就是帕谢克，和他并肩当家的，是当年和他一起冒头的扬·赫拉夫萨。联合议会的办公地点，选在了新城市政厅。\n\n[[b]]九十九年前，就在这栋楼里，布拉格人把议员扔出了窗外；如今，同一栋楼成了整个布拉格的议事厅。[[/b]]\n\n城里人一高兴，干脆动手拆起了墙：圣马丁城门拆了，珍珠街上的一道小门也拆了，有的地方连护城河都填平了。编年史里记得热热闹闹。\n\n不过，这面墙最后并没有拆完。拆到一半，大家的热情就退了，剩下的城墙，又在那里立了好几百年。\n\n[[b]]墙只拆了一半。至于人心里的那道墙，拆没拆掉，很快就会见分晓。[[/b]]\n\n前两次合并，都只撑了十年左右。这一次，能撑多久？",
+    },
+    relatedLandmarks: [
+      {
+        slug: "novomestska-radnice",
+        relation: {
+          en: "Seat of the joint council of the united Prague towns from 1518, and the scene of the first defenestration in 1419.",
+          cz: "Od roku 1518 sídlo společné rady spojených pražských měst a místo první defenestrace roku 1419.",
+          zh: "1518年起两城联合议会的所在地，也是1419年第一次抛窗事件的现场。",
+        },
+      },
+      {
+        slug: "na-prikope",
+        relation: {
+          en: "Its name means \"on the moat\": the street runs along the line of the old moat and wall between the Old Town and the New Town, the wall the townsmen began knocking down in 1518.",
+          cz: "Jméno znamená, že stojí „na příkopě“: ulice vede po linii někdejšího příkopu a hradeb mezi Starým a Novým Městem, těch, které měšťané roku 1518 začali bourat.",
+          zh: "街名的意思就是\"在护城河上\"：这条街顺着当年老城和新城之间的护城河和城墙走，正是1518年城里人动手拆的那道墙。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Jan_Pa%C5%A1ek_z_Vratu",
+  },
+  {
+    slug: "the-dollars-bohemian-home-1520",
+    era: "rule-of-the-lords",
+    images: ["/history/the-dollars-bohemian-home-1520.webp"],
+    imageCaptions: [
+      {
+        en: "Jáchymov, early 1520: in the mint a coiner hammers a big silver blank between the dies, while young Count Štěpán Šlik holds up a freshly struck thaler to the light; outside, the new mining town climbs the valley slopes beside smoking pit heads.",
+        cz: "Jáchymov, začátek roku 1520: v mincovně razič buší kladivem do velkého stříbrného střížku mezi razidly a mladý hrabě Štěpán Šlik zvedá proti světlu čerstvě vyražený tolar; venku šplhá nové hornické město po svazích údolí kolem kouřících šachet.",
+        zh: "1520年初，雅希莫夫：铸币工坊里，工匠抡锤把一块大银坯砸在模具之间，年轻的什捷潘·什利克伯爵举起一枚刚铸好的银币对着光端详；窗外，新矿城沿着山坡往上蔓延，矿井口冒着烟。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "AR · DOMI · SLI · STE · ET · FRA · COM · D · BAS\n(Front) The arms of the Šlik family: Štěpán and his brothers, Counts of Bassano.\nLVDOVICVS · PRIM · D · GRACIA · REX · BO\n(Back) Louis the First, by the grace of God King of Bohemia.",
+          cz: "AR · DOMI · SLI · STE · ET · FRA · COM · D · BAS\n(Líc) Erb pánů Šliků: Štěpána a jeho bratří, hrabat z Bassana.\nLVDOVICVS · PRIM · D · GRACIA · REX · BO\n(Rub) Ludvík První, z Boží milosti král český.",
+          zh: "AR · DOMI · SLI · STE · ET · FRA · COM · D · BAS\n（正面）什利克家族的纹章：什捷潘及其兄弟，巴萨诺伯爵。\nLVDOVICVS · PRIM · D · GRACIA · REX · BO\n（背面）路德维克一世，蒙上帝恩典，波希米亚国王。",
+        },
+        attribution: {
+          en: "Inscriptions on the Jáchymov thaler",
+          cz: "Opisy jáchymovského tolaru",
+          zh: "雅希莫夫银币铭文",
+        },
+      },
+    ],
+    startYear: 1520,
+    year: {
+      en: "1520",
+      cz: "1520",
+      zh: "1520年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Dollar's Bohemian Home",
+      cz: "Dolar pochází z Čech",
+      zh: "美元的老家在捷克",
+    },
+    hookLine: {
+      en: "In a new mining town up in the northern hills, a big new silver coin was struck. On the front, a noble family's coat of arms; only on the back, the king's name. Centuries later its name crossed the ocean and became the \"dollar\".",
+      cz: "V novém hornickém městě v severních horách se začala razit velká stříbrná mince. Na líci erb šlechtického rodu, teprve na rubu jméno krále. O staletí později její jméno přeplulo oceán a stalo se z něj „dolar“.",
+      zh: "北边山沟里的一座新矿城，铸出了一种大个头的银币。正面是贵族的纹章，背面才是国王的名字。几百年后，它的名字漂洋过海，变成了“美元”。",
+    },
+    summary: {
+      en: "While the people of Prague were busy pulling down gates and filling in the moat, in the hills more than a hundred kilometres to the north another crowd was busy digging down into the ground. What they cared about was not walls, but the rock under their feet.\n\nRemember the line planted at [[link:era-guide-rule-of-the-lords]]the start of this chapter[[/link]]? Up in the Ore Mountains to the north, a silver mine began striking a big new silver coin.\n\nThe story begins around 1512. On the southern slopes of the Ore Mountains (the Czechs call them the Krušné hory), near a small village called Konradsgrün, someone struck silver, and not just a little: a vast and astonishingly rich silver deposit.\n\nThe land belonged to a noble family on the way up: the Šliks. In 1516 the young Count Štěpán Šlik took over the estates there. He did not hesitate. He opened mines, built roads, brought in workers, and gave the valley a new name: St Joachim's Valley, Joachimsthal in German, known in Czech today as Jáchymov.\n\nMiners poured in from everywhere. In 1520 about five thousand people lived in the valley; within fifteen years there were more than eighteen thousand, making it the second-largest town in Bohemia after Prague.\n\nSo the silver was coming out of the ground. The next question was what to do with it.\n\nAt the end of 1519 the Šliks did something very much in the spirit of rule by the lords: without waiting for anyone's permission, they fired up the furnaces and began striking coins themselves.\n\n[[b]]Minting coins was supposed to be the king's privilege. But in an age when the king was far away in Buda and the lords ran things, the counts decided to strike first and ask later.[[/b]]\n\nA few weeks later it was all made \"legal\". On 6 January 1520 the thirteen-year-old King Louis issued a decree making Jáchymov a free mining town; three days later the diet formally allowed the Šliks to mint coins from the local silver. This time there was even someone on hand to say \"fine\".\n\nThe new coin was big: just over four centimetres across, about twenty-nine grams, more than nine-tenths pure silver. Turn it over and you will find its design rather telling:\n\n[[quote:0]]\n\n[[b]]On the front, St Joachim and the noble family's arms; only on the back, the Bohemian lion and the king's name. The lords had already been holding the pen for the king. Now they were minting his money too.[[/b]]\n\nThe coin soon spread all over Europe. Between 1520 and 1528 more than a million of them left through Leipzig for every corner of the continent. People called it the \"Joachimsthaler\", found that too long, and kept only the second half: thaler.\n\nThe Czechs called it a \"tolar\", the Italians a \"tallero\", the Dutch a \"daalder\", and in English mouths it became a \"dollar\". Later, Dutch silver coins sailed with the merchant ships to the colonies of North America. In 1785, when the newly independent United States chose a name for its currency, it picked this very word: dollar.\n\n[[b]]The name of the most famous currency in the world today comes from a valley in the north of Bohemia.[[/b]]",
+      cz: "Zatímco Pražané bourali brány a zasypávali příkop, o víc než sto kilometrů dál na sever, v horských údolích, se jiní lidé pilně prokopávali do země. Nezajímaly je hradby, ale kámen pod nohama.\n\nPamatujete si větu, kterou jsme zasadili na [[link:era-guide-rule-of-the-lords]]začátku této kapitoly[[/link]]? Na severu v Krušných horách začal stříbrný důl razit velkou novou stříbrnou minci.\n\nPříběh začíná kolem roku 1512. Na jižních svazích Krušných hor, nedaleko vesničky Konradsgrün, někdo narazil na stříbro, a ne na trochu: na rozlehlé a neuvěřitelně bohaté ložisko.\n\nKraj patřil šlechtickému rodu, který se právě dral nahoru: Šlikům. Roku 1516 převzal zdejší panství mladý hrabě Štěpán Šlik. Neváhal ani chvíli. Otevřel doly, postavil cesty, sehnal lidi a dal údolí nové jméno: údolí svatého Jáchyma, německy Joachimsthal, dnes česky Jáchymov.\n\nHorníci se sem hrnuli ze všech stran. Roku 1520 žilo v údolí asi pět tisíc lidí; za necelých patnáct let jich bylo přes osmnáct tisíc a Jáchymov se stal po Praze druhým největším městem v Čechách.\n\nStříbro se tedy těžilo. Zbývala otázka, co s ním.\n\nKoncem roku 1519 udělali Šlikové něco velmi „vladislavského“: aniž čekali na čí svolení, roztopili pece a začali razit mince sami.\n\n[[b]]Ražba mincí byla přitom výsadou krále. Jenže v době, kdy byl král daleko v Budíně a vládli páni, si hrabata řekla: nejdřív razit, pak se ptát.[[/b]]\n\nO pár týdnů později se to celé „legalizovalo“. Dne 6. ledna 1520 povýšil třináctiletý král Ludvík Jáchymov na svobodné horní město a o tři dny později sněm Šlikům oficiálně povolil razit minci z místního stříbra. Tentokrát byl dokonce po ruce i někdo, kdo řekl „bene“.\n\nNová mince byla velká: o kousek přes čtyři centimetry, asi dvacet devět gramů, víc než z devíti desetin stříbrná. Když ji obrátíte, zjistíte, že její podoba leccos prozrazuje:\n\n[[quote:0]]\n\n[[b]]Na líci svatý Jáchym a erb šlechtického rodu, teprve na rubu český lev a jméno krále. Páni už za krále drželi pero. Teď za něj razili i peníze.[[/b]]\n\nMince se brzy rozšířila po celé Evropě. Mezi lety 1520 a 1528 jich přes Lipsko odešlo do světa přes milion. Lidé jí říkali „jáchymovský tolar“, Joachimsthaler, a protože to bylo moc dlouhé, zbyla jen druhá polovina: thaler, tolar.\n\nČeši jí říkali „tolar“, Italové „tallero“, Holanďané „daalder“ a v ústech Angličanů se z ní stal „dollar“. Později se holandské stříbrné mince plavily s obchodními loděmi do kolonií Severní Ameriky. Když si roku 1785 čerstvě nezávislé Spojené státy vybíraly jméno pro svou novou měnu, sáhly právě po tomhle slově: dollar.\n\n[[b]]Jméno dnes nejslavnější měny světa pochází z jednoho údolí na severu Čech.[[/b]]",
+      zh: "布拉格人忙着拆城门、填护城河的时候，北边一百多公里外的山沟里，另一群人正忙着往地底下挖。他们关心的不是城墙，是脚底下的石头。\n\n还记得[[link:era-guide-rule-of-the-lords]]这一章开头[[/link]]埋下的那句话吗？北边的克鲁什内山里，一座银矿开始铸造一种大个头的新银币。\n\n故事要从1512年前后说起。厄尔士山（捷克人叫它克鲁什内山）南坡，一个叫康拉兹格林的小村子附近，有人挖出了银子，而且是一大片富得惊人的银矿。\n\n这片地方，归一户正在往上爬的贵族所有：什利克家族。1516年，年轻的伯爵什捷潘·什利克接手了这一带的庄园。他没有犹豫，马上开矿、修路、招人，还给这片山谷起了个新名字：圣约阿希姆谷，德语叫 Joachimsthal，今天的捷克语叫雅希莫夫。\n\n矿工们从四面八方涌来。1520年，山谷里大约住着五千人；不到十五年，就涨到了一万八千多人，成了波希米亚仅次于布拉格的第二大城市。\n\n银子挖出来了，接下来的问题是：拿它做什么？\n\n1519年底，什利克家族做了一件很“贵族之治”的事：没等任何人批准，他们自己就开炉铸起了银币。\n\n[[b]]铸币本来是国王的特权。可在这个国王远在布达、贵族说了算的年代，伯爵们觉得，先铸了再说。[[/b]]\n\n几个星期后，事情就被“合法化”了。1520年1月6日，十三岁的路德维克国王下诏，把雅希莫夫定为自由矿业城市；三天后，邦议会正式批准什利克家族用本地的银子铸币。这一回，连说“好”的人都是现成的。\n\n新银币个头很大，直径四厘米出头，重约二十九克，含银量超过九成。翻过来看，你会发现它的设计很耐人寻味：\n\n[[quote:0]]\n\n[[b]]正面是圣约阿希姆和贵族的纹章，背面才是波希米亚的狮子和国王的名字。“贵族替国王执笔”，这一回，贵族替国王铸了钱。[[/b]]\n\n这种银币很快就传遍了欧洲。从1520年到1528年，大约有一百多万枚经莱比锡流向四面八方。人们管它叫“约阿希姆斯塔勒”，叫着叫着嫌太长，就只剩下了后半截：塔勒。\n\n捷克人叫它“托拉尔”，意大利人叫它“塔莱罗”，荷兰人叫它“达尔德”，到了英国人嘴里，变成了“达勒”。后来，荷兰的银币跟着商船去了北美的殖民地。1785年，刚刚独立的美国给自己的新货币起名字时，选的就是这个词：dollar。\n\n[[b]]今天全世界最有名的一种货币，名字是从波希米亚北边一条山谷里来的。[[/b]]",
+    },
+    relatedLandmarks: [
+      {
+        slug: "jachymov",
+        relation: {
+          en: "The silver town where the thaler was first struck. The old royal mint on the main street is now the town museum.",
+          cz: "Stříbrné město, kde se razil první tolar. Stará královská mincovna na hlavní ulici je dnes městským muzeem.",
+          zh: "最早铸出塔勒银币的银矿小城，主街上的老皇家造币厂如今是镇上的博物馆。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Thaler",
+  },
 ];
 
 // Era-overview cards live in their own file (see historyOverviews.js).

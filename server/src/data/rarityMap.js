@@ -707,6 +707,8 @@ export const SLUG_RARITY = {
   'nymburk':                        'superior', // walled brick-Gothic Elbe town, Bohumil Hrabal's childhood home
   'podebrady':                      'superior', // spa town, birthplace of King George of Poděbrady
   'kolin':                          'superior', // 1757 Battle of Kolín, Parléř-workshop Gothic church, old Jewish quarter
+  'zamek-kacina':                 'epic',     // 1802-22 Empire palace of the Choteks near Kutná Hora, 227 m long
+  'jachymov':                     'epic',     // silver boom town of the thaler/dollar, first radon spa, uranium camps
 
   // ── New additions (2026-07) ──────────────────────────────────────────────
   'the-famous-log':                 'epic',     // mysterious Google Maps "landmark" above Prague Castle, unverified by anyone
