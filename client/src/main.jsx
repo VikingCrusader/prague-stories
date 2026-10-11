@@ -5,10 +5,12 @@ import './styles/global.css';
 import './styles/pixelart.css';
 import './styles/history.css';
 import App from './App';
+import { startAutoUpdate } from './utils/autoUpdate';
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('/sw.js').catch(() => {});
 }
+startAutoUpdate();
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

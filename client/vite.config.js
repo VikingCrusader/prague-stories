@@ -37,8 +37,23 @@ function regenerateAssetsOnChange() {
   };
 }
 
+// Each production build gets an id, baked into the bundle as __BUILD_ID__
+// and written to dist/version.json; src/utils/autoUpdate.js compares the two
+// to reload an installed PWA that was resumed after a new deploy.
+const BUILD_ID = `${Date.now()}`;
+function emitVersionFile() {
+  return {
+    name: 'emit-version-file',
+    apply: 'build',
+    generateBundle() {
+      this.emitFile({ type: 'asset', fileName: 'version.json', source: JSON.stringify({ build: BUILD_ID }) });
+    },
+  };
+}
+
 export default defineConfig({
-  plugins: [react(), regenerateAssetsOnChange()],
+  plugins: [react(), regenerateAssetsOnChange(), emitVersionFile()],
+  define: { __BUILD_ID__: JSON.stringify(BUILD_ID) },
   server: {
     proxy: {
       '/api': 'http://localhost:5000',

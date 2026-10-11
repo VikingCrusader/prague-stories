@@ -111,6 +111,8 @@ React 18 + Vite SPA, deployed to Vercel. `vercel.json` lives in `client/` (not r
 - `AuthContext` — `user` (JWT-authenticated), `guest` (sessionStorage flag), `loading`. The `guest` flag controls UI differences (no collect button, no add location, guest-specific titles).
 - `LanguageContext` — `lang` (`en`/`cz`/`zh`), `zhVariant` (`cn`/`tw`). `useT(key)` is the translation hook used everywhere. `useConvert()` applies opencc-js for Traditional Chinese conversion. Language persists in `localStorage`.
 
+**PWA auto-update (2026-10-11):** `public/sw.js` only handles notification clicks and caches nothing, but a phone keeps an installed PWA alive in memory, so after a deploy it showed the old version until a manual refresh. Each build now gets an id (`vite.config.js`: `__BUILD_ID__` in the bundle plus a generated `dist/version.json`, served `no-store` via `vercel.json`); `utils/autoUpdate.js` refetches `/version.json` whenever the page becomes visible (and every 10 minutes) and reloads if the id differs. Production only.
+
 **API layer** (`services/api.js`): Single axios instance pointing to `localhost:5000` in dev and `prague-stories-api.onrender.com` in prod. JWT attached via request interceptor from `localStorage`.
 
 **i18n:** All UI strings live in the `T` object in `LanguageContext.jsx`. Location display names follow the rule: `name` IS the English display field; generic terms (church, bridge) are translated, proper place/person names stay Czech. `localizedNames.cz` and `localizedNames.zh` are always set alongside any change to `name`.
