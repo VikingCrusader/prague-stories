@@ -9,6 +9,7 @@ import { haversineDistance, formatDistance } from '../utils/geolocation';
 import { useUserPosition } from '../hooks/useUserPosition';
 import { RARITY_VAR, RARITY_LABEL, lockClosedIcon } from '../utils/rarity';
 import LocationCard from '../components/locations/LocationCard';
+import RarityFrame from '../components/locations/RarityFrame';
 import LocationDetail from '../components/locations/LocationDetail';
 
 // Guest "try it out" draw: never touches the backend at all, since a guest
@@ -78,7 +79,7 @@ function DrawnCard({ loc, name, lang, convert, onOpen }) {
   return (
     <>
       <div className="loc-card" data-rarity={rarity} style={{ border: `3px solid ${RARITY_VAR[rarity]}` }} onClick={onOpen}>
-        <span className="loc-card__frame" aria-hidden="true" />
+        <RarityFrame />
         <div className="loc-card__banner" style={{ background: bannerColor, position: 'relative' }}>
           {useLocalCover ? (
             <img src={localCover} alt={name} onError={() => setLocalFailed(true)}
