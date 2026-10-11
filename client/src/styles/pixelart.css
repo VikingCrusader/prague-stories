@@ -158,7 +158,7 @@
 .loc-card[data-rarity="superior"] { --orn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.6'/%3E%3C/g%3E%3C/svg%3E"); --orn-size: 46px; }
 .loc-card[data-rarity="epic"]     { --orn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.6'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3C/g%3E%3C/svg%3E"); --orn-size: 58px; }
 .loc-card[data-rarity="mythic"]   { --orn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cpath d='M40 6C45 8 46 13 42 14C39.5 14.5 38.5 12.5 40 11.5'/%3E%3Cpath d='M6 40C8 45 13 46 14 42C14.5 39.5 12.5 38.5 11.5 40'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.6'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3Ccircle cx='50' cy='4' r='1.4'/%3E%3Ccircle cx='4' cy='50' r='1.4'/%3E%3Ccircle cx='57' cy='6' r='1'/%3E%3Ccircle cx='6' cy='57' r='1'/%3E%3Ccircle cx='22' cy='22' r='1.3'/%3E%3C/g%3E%3C/svg%3E"); --orn-size: 70px; }
-.loc-card[data-rarity="legend"]   { --orn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cpath d='M40 6C45 8 46 13 42 14C39.5 14.5 38.5 12.5 40 11.5'/%3E%3Cpath d='M6 40C8 45 13 46 14 42C14.5 39.5 12.5 38.5 11.5 40'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.6'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3Ccircle cx='50' cy='4' r='1.4'/%3E%3Ccircle cx='4' cy='50' r='1.4'/%3E%3Ccircle cx='57' cy='6' r='1'/%3E%3Ccircle cx='6' cy='57' r='1'/%3E%3Ccircle cx='22' cy='22' r='1.3'/%3E%3C/g%3E%3C/svg%3E"); --orn-size: 80px; }
+.loc-card[data-rarity="legend"]   { --orn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cpath d='M40 6C45 8 46 13 42 14C39.5 14.5 38.5 12.5 40 11.5'/%3E%3Cpath d='M6 40C8 45 13 46 14 42C14.5 39.5 12.5 38.5 11.5 40'/%3E%3Cg transform='translate(24 24) rotate(135) scale(0.8)'%3E%3Cpath d='M0 -10C3.5 -6 3.5 -2 0 1C-3.5 -2 -3.5 -6 0 -10Z' fill='black' stroke='none'/%3E%3Cpath d='M-1.5 1C-6 0 -9 -4 -6.5 -6.5C-4.5 -8 -3 -5.5 -4.5 -4M1.5 1C6 0 9 -4 6.5 -6.5C4.5 -8 3 -5.5 4.5 -4' stroke-width='2'/%3E%3Cpath d='M-4.5 1.5H4.5V3.6H-4.5Z' fill='black' stroke='none'/%3E%3Cpath d='M0 3.6V6.5C-2 8.5 -4.5 7.5 -3.5 6M0 6.5C2 8.5 4.5 7.5 3.5 6' stroke-width='1.8'/%3E%3C/g%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.8'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3Ccircle cx='49' cy='4' r='1.4'/%3E%3Ccircle cx='4' cy='49' r='1.4'/%3E%3C/g%3E%3C/svg%3E"); --orn-size: 68px; }
 .loc-card[data-rarity="superior"] .loc-card__frame::before,
 .loc-card[data-rarity="epic"] .loc-card__frame::before,
 .loc-card[data-rarity="mythic"] .loc-card__frame::before,
@@ -190,6 +190,13 @@
 .loc-card__orn--bottom { bottom: -12.5px; left: calc(50% - 42px); transform: scaleY(-1); }
 .loc-card__orn--left   { top: calc(50% - 11px); left: -43.5px; transform: rotate(-90deg); }
 .loc-card__orn--right  { top: calc(50% - 11px); right: -43.5px; transform: rotate(90deg); }
+/* Legend's own pieces (2026-10-11, user: legend and mythic frames looked
+   alike): the corner adds a fleur-de-lis pointing into the card (toned down
+   the same day: no beads, leaves or third scrolls); the edge ornament is a hollow diamond setting
+   (holding a dark-gold gem, .loc-card__gem) with scrolls curling both ways. */
+.loc-card[data-rarity="legend"] :is(.loc-card__orn--top, .loc-card__orn--bottom, .loc-card__orn--left, .loc-card__orn--right) {
+  --orn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 16' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M30 1.2L36.8 8L30 14.8L23.2 8Z' stroke-width='1.8'/%3E%3Cpath d='M22 8C17 8 14.5 4.5 17 3.2C19 2.4 20 4.6 18.4 5.2M22 8C17 8 14.5 11.5 17 12.8C19 13.6 20 11.4 18.4 10.8'/%3E%3Cpath d='M38 8C43 8 45.5 4.5 43 3.2C41 2.4 40 4.6 41.6 5.2M38 8C43 8 45.5 11.5 43 12.8C41 13.6 40 11.4 41.6 10.8'/%3E%3Cpath d='M3 8H13M47 8H57'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='13' cy='8' r='1.6'/%3E%3Ccircle cx='47' cy='8' r='1.6'/%3E%3Ccircle cx='7' cy='8' r='1.1'/%3E%3Ccircle cx='53' cy='8' r='1.1'/%3E%3C/g%3E%3C/svg%3E");
+}
 /* Mythic: a soft glint runs round the flourishes, one ornament after the
    other clockwise from the top-left corner, then rests (user's pick over
    rising embers, which stay legend's). Each ornament carries a highlight
@@ -210,9 +217,17 @@
    (corners and the four edge diamonds), clockwise from the top-left. */
 .loc-card[data-rarity="legend"] .loc-card__orn {
   --orn-c: color-mix(in srgb, var(--rc) 75%, white);
-  background: linear-gradient(115deg,
-    var(--orn-c) 0 38%, #ffffff 50%, var(--orn-c) 62% 100%)
-    100% 0 / 300% 100% no-repeat;
+  /* Glint band over a fixed metallic gradient (light and dark gold), so the
+     ornaments read as gilt rather than flat colour. The metallic layer is
+     100% sized, so the glint animation's position change leaves it still. */
+  background:
+    linear-gradient(115deg,
+      transparent 0 38%, #ffffff 50%, transparent 62% 100%)
+      100% 0 / 300% 100% no-repeat,
+    linear-gradient(135deg,
+      #fff3c4 0%, var(--orn-c) 30%, color-mix(in srgb, var(--rc) 70%, #6b4500) 55%,
+      var(--orn-c) 75%, #fff3c4 100%)
+      0 0 / 100% 100% no-repeat;
   animation: mythic-glint 8s ease-in-out infinite;
 }
 .loc-card[data-rarity="legend"] .loc-card__orn--top    { animation-delay: 0.3s; }
@@ -232,12 +247,32 @@
   .loc-card[data-rarity="superior"] { --orn-size: 36px; }
   .loc-card[data-rarity="epic"]     { --orn-size: 44px; }
   .loc-card[data-rarity="mythic"]   { --orn-size: 52px; }
-  .loc-card[data-rarity="legend"]   { --orn-size: 58px; }
+  .loc-card[data-rarity="legend"]   { --orn-size: 50px; }
   .loc-card__orn--top, .loc-card__orn--bottom, .loc-card__orn--left, .loc-card__orn--right { width: 64px; height: 17px; }
   .loc-card__orn--top    { top: -10px; left: calc(50% - 32px); }
   .loc-card__orn--bottom { bottom: -10px; left: calc(50% - 32px); }
   .loc-card__orn--left   { top: calc(50% - 8.5px); left: -33.5px; }
   .loc-card__orn--right  { top: calc(50% - 8.5px); right: -33.5px; }
+}
+/* Legend: a dark-gold gem set in each edge ornament. */
+.loc-card__gem {
+  display: none;
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  --h: 4.5px;
+  transform: rotate(45deg);
+  background: radial-gradient(circle at 35% 35%, #ffe7a8 0 12%, #b8860b 40%, #5c3d00 100%);
+  box-shadow: 0 0 0 1px color-mix(in srgb, var(--rc) 70%, white);
+  pointer-events: none;
+}
+.loc-card[data-rarity="legend"] .loc-card__gem { display: block; }
+.loc-card__gem--top    { top: calc(-1.5px - var(--h)); left: calc(50% - var(--h)); }
+.loc-card__gem--bottom { bottom: calc(-1.5px - var(--h)); left: calc(50% - var(--h)); }
+.loc-card__gem--left   { left: calc(-1.5px - var(--h)); top: calc(50% - var(--h)); }
+.loc-card__gem--right  { right: calc(-1.5px - var(--h)); top: calc(50% - var(--h)); }
+@media (max-width: 600px) {
+  .loc-card__gem { width: 7px; height: 7px; --h: 3.5px; }
 }
 
 
@@ -691,6 +726,12 @@ html:not([data-lang="zh"]) .loc-card__name {
    tier's flourish size). */
 .loc-card:is([data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"]) .loc-card__footer {
   padding-inline: calc(var(--orn-size) * 0.28);
+}
+/* Legend's corners carry a fleur-de-lis that reaches further into the
+   card, so its footer sits a little further in and up. */
+.loc-card[data-rarity="legend"] .loc-card__footer {
+  padding-inline: calc(var(--orn-size) * 0.34);
+  padding-bottom: 3px;
 }
 .loc-card__xp {
   font-size: 13px;
