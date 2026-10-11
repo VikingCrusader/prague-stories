@@ -121,14 +121,14 @@ export const AREA_BLURBS = {
       zh: '城堡下的小城：布拉格城堡、大主教、好几个政府部门，还有排队看换岗的人群。真正住在这里的人倒没几个。',
     },
     'Malá Strana': {
-      en: 'Founded by Otakar II in 1257, rebuilt in Baroque, and now home to both houses of parliament, a dozen embassies and a great many cobblestones.',
-      cz: 'Založena Otakarem II. roku 1257, přestavěna barokně, dnes sídlo obou komor parlamentu, tuctu velvyslanectví a nespočtu dlažebních kostek.',
-      zh: '1257年由奥托卡二世建立，后来整体换上巴洛克的装扮，如今住着议会两院、十几个大使馆，以及数不清的鹅卵石。',
+      en: 'Founded by Otakar II in 1257 for German settlers, and German-speaking for centuries. Today: both houses of parliament, a dozen embassies and a great many cobblestones.',
+      cz: 'Založena Otakarem II. roku 1257 pro německé osadníky a po staletí převážně německá. Dnes sídlo obou komor parlamentu, tuctu velvyslanectví a nespočtu dlažebních kostek.',
+      zh: '1257年由奥托卡二世为德意志移民所建，此后几百年都以德意志人为主。如今住着议会两院、十几个大使馆，以及数不清的鹅卵石。',
     },
     'Staré Město': {
-      en: 'The Old Town Square, the astronomical clock and a maze of medieval lanes. The clock has been ticking since 1410; the crowd under it seems about as permanent.',
-      cz: 'Staroměstské náměstí, orloj a bludiště středověkých uliček. Orloj tiká od roku 1410 a dav pod ním působí podobně trvale.',
-      zh: '老城广场、天文钟和一座中世纪小巷迷宫。天文钟从1410年走到今天，钟下的人群看起来也差不多一样永恒。',
+      en: "Prague's historic heart: the Old Town Square, the astronomical clock and a maze of medieval lanes. The clock has been ticking since 1410; the crowd under it seems about as permanent.",
+      cz: 'Historické srdce Prahy: Staroměstské náměstí, orloj a bludiště středověkých uliček. Orloj tiká od roku 1410 a dav pod ním působí podobně trvale.',
+      zh: '布拉格的历史中心：老城广场、天文钟和一座中世纪小巷迷宫。天文钟从1410年走到今天，钟下的人群看起来也差不多一样永恒。',
     },
     'Josefov': {
       en: 'The old Jewish Town, named after Joseph II and mostly demolished around 1900. The synagogues and the old cemetery survived, and so did the legend of the Golem.',
@@ -136,9 +136,9 @@ export const AREA_BLURBS = {
       zh: '昔日的犹太城，以约瑟夫二世命名，1900年前后大半被拆。犹太会堂和老墓地留了下来，魔像的传说也是。',
     },
     'Nové Město': {
-      en: "Founded by Charles IV in 1348, and 'new' ever since. Wenceslas Square started life as a horse market.",
-      cz: 'Založeno Karlem IV. roku 1348 a od té doby pořád „nové“. Václavské náměstí začínalo jako koňský trh.',
-      zh: '查理四世1348年建的城，从那以后就一直叫"新城"。瓦茨拉夫广场最早是个马市。',
+      en: "Founded by Charles IV in 1348, and 'new' ever since. In the Hussite years it was Prague's most radical quarter, and in 1419 and 1483 its town hall windows were unusually busy.",
+      cz: 'Založeno Karlem IV. roku 1348 a od té doby pořád „nové“. V husitských dobách nejradikálnější čtvrť Prahy; v letech 1419 a 1483 měla okna zdejší radnice nezvykle napilno.',
+      zh: '查理四世1348年建的城，从那以后就一直叫"新城"。胡斯运动时这里是布拉格最激进的地方，1419年和1483年，市政厅的窗户都格外忙碌。',
     },
     'Vyšehrad': {
       en: "Prague's legendary seat of Princess Libuše, though the archaeologists keep quiet on that point. Dvořák and Smetana rest in its cemetery.",
