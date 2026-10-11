@@ -1,6 +1,6 @@
 {
   "name": "Prague Stories",
-  "short_name": "Prague",
+  "short_name": "Prague Stories",
   "description": "A gamified city exploration diary for Prague",
   "start_url": "/",
   "display": "standalone",

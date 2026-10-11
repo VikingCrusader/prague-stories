@@ -183,7 +183,7 @@ export const LABEL_DEFINITIONS = {
   waterbody: { emoji: "🌊", en: "Waterbody", cz: "Vodní plocha", zh: "水体" },
   geology: { emoji: "🪨", en: "Geography", cz: "Geografie", zh: "地理" },
   homestead: { emoji: "🌾", en: "Homestead", cz: "Usedlost", zh: "庄园" },
-  outside: { emoji: "🧭", en: "Outside Prague", cz: "Mimo Prahu", zh: "界外" },
+  outside: { emoji: "🧭", en: "Outside Prague", cz: "Mimo Prahu", zh: "布拉格以外" },
   "castle and fortress": {
     emoji: "🏰",
     en: "Castle & Fortress",
