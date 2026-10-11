@@ -8052,43 +8052,6 @@ Jde o opravdu vzácný typ přežití: dělnický průmyslový areál dost star�
     },
   },
   {
-    name: 'Vnitroblock',
-    slug: 'vnitroblock',
-    localizedNames: { cz: 'Vnitroblock', zh: '内院文化空间（Vnitroblock）' },
-    labels: ['cultural', 'modern'],
-    district: 'Praha 7',
-    quarter: 'Holešovice',
-    coordinates: { lat: 50.10193341407649, lng: 14.449327080123108 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: '',
-    description: {
-      en: `Brave adventurer, welcome to Vnitroblock! Three friends took a stretch of abandoned workshops and warehouses between Tusarova and Dělnická streets and, in the autumn of 2016, turned it into one of Holešovice's most deliberately unpolished creative hubs — proof that sometimes the best renovation plan is barely renovating at all.
-
-Founders Jakub, Lukáš, and Kateřina made a point of not overdesigning the space, keeping as many original industrial details as possible and simply putting them to new use — original sheet-metal doors with their peepholes intact, iron ceiling beams repurposed as clothing racks. The result houses a genuinely wide mix of tenants under one roof: a café, streetwear and sneaker shops, the D&B Gallery, Sector dance studio, the ArtMoment artlab, plus a small cinema and a multimedia podcast studio, with the entrance alley off Dělnická adding a distillery, an underground barbershop, and a clothing store called Roam into the mix.
-
-It's less a single venue than a small, deliberately scrappy ecosystem — the kind of place that only works because nobody tried too hard to make it look finished.
-
-🥚 Easter Egg: The building's original iron ceiling beams were never removed for the renovation — they were simply repurposed as clothing racks, meaning the industrial skeleton that once supported machinery now quietly supports a rack of streetwear instead.`,
-
-      cz: `Statečný dobrodruhu, vítej ve Vnitrobloku! Tři kamarádi si na podzim roku 2016 vzali do parády pás opuštěných dílen a skladů mezi ulicemi Tusarova a Dělnická a proměnili ho v jeden z nejzáměrněji neučesaných kreativních prostorů v Holešovicích — důkaz, že někdy je nejlepší renovační plán skoro žádná renovace.
-
-Zakladatelé Jakub, Lukáš a Kateřina si dali záležet na tom, aby prostor moc nepředělávali, zachovali co nejvíc původních industriálních prvků a jednoduše je použili nově — originální plechové dveře s průzory zůstaly na místě, železné stropní trámy poslouží jako stojany na oblečení. Výsledkem je prostor, který pod jednou střechou nabízí opravdu pestrou směsku nájemců: kavárnu, obchody se streetwearem a teniskami, galerii D&B Gallery, taneční studio Sector, artlab ArtMoment, malé kino i multimediální podcastové studio, přičemž vstupní ulička z Dělnické přidává do mixu ještě palírnu, podzemní holičství a obchod s oblečením jménem Roam.
-
-Je to spíš malý, záměrně nedbale rozcuchaný ekosystém než jedno konkrétní místo — typ prostoru, který funguje jen proto, že se ho nikdo nesnažil moc uhladit.
-
-🥚 Velikonoční vajíčko: Původní železné stropní trámy budovy se při renovaci vůbec neodstranily — jednoduše je přeměnili na stojany na oblečení, takže industriální kostra, která kdysi nesla strojní zařízení, dnes tiše nese věšák se streetwearem.`,
-
-      zh: `勇敢的冒险家，欢迎来到Vnitroblock！2016年秋天，三位朋友接手了图萨罗瓦街（Tusarova）与杰尔尼茨卡街（Dělnická）之间一片废弃的工坊与仓库，将其打造成霍勒绍维采最刻意保留"未完工感"的创意空间之一——证明有时候最好的翻新计划，就是几乎不去翻新。
-
-创始人雅库布（Jakub）、卢卡什（Lukáš）与卡捷日娜（Kateřina）刻意避免对空间进行过度设计，尽可能保留原有的工业细节，并简单地赋予它们新用途——带观察孔的原始铁皮门原样保留，铁质天花横梁则被改造成挂衣架。最终的成果，是在同一屋檐下汇聚了极其多元的租户：一间咖啡馆、几家潮流服饰与球鞋店、D&B画廊、Sector舞蹈工作室、ArtMoment艺术实验室，还有一间小型电影院与一间多媒体播客录音室；而从杰尔尼茨卡街进入的入口小巷里，还藏着一家酿酒坊、一间地下理发店，以及一家名为Roam的服饰店。
-
-与其说这是一个单一场所，不如说它是一个刻意保持粗粝质感的小型生态系统——一个恰恰因为没有人试图把它"收拾利索"而得以运转的地方。
-
-🥚 彩蛋：这栋建筑原有的铁质天花横梁，在翻新过程中从未被拆除——它们只是被改造成了挂衣架，也就是说，这副曾经支撑机械设备的工业骨架，如今正悄悄支撑着一整排潮流服饰。`,
-    },
-  },
-  {
     name: 'Art Gen',
     slug: 'art-gen-holesovice',
     localizedNames: { cz: 'Art Gen', zh: '艺术基因大厦（Art Gen）' },
@@ -8123,43 +8086,6 @@ Skutečný zvrat spočívá v samotném umění: místo aby se s interiéry zach
 真正的意外之笔在于艺术本身：这片建筑群并未把室内空间仅仅当作行政办公场所来设计，而是特意让其兼具画廊功能，定期展出捷克及海外艺术家的作品，还举办时装秀与开幕酒会——让原本只是赶去开会的上班族，无意间成了画廊的观众。
 
 🥚 彩蛋：这栋因圆润造型而得名"Art"（艺术）的大楼，最终把这个名字兑现了两次——先是靠自身的建筑造型，后来又真的在大堂里挂上了货真价实的艺术作品，这要么是完美贴合品牌调性，要么就是一栋建筑在拼命证明自己名副其实，稍显用力过猛。`,
-    },
-  },
-  {
-    name: 'Industrial Holešovice',
-    slug: 'industrialni-holesovice',
-    localizedNames: { cz: 'Industriální Holešovice', zh: '工业霍勒绍维采' },
-    labels: ['historical', 'architecture'],
-    district: 'Praha 7',
-    quarter: 'Holešovice',
-    coordinates: { lat: 50.099392482077974, lng: 14.443432015109844 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: '',
-    description: {
-      en: `Brave adventurer, welcome to Industrial Holešovice! This whole stretch of the district was once an independent village of fishermen, farmers, and raftsmen — until the 19th century arrived, the railway and river port showed up right behind it, and Holešovice transformed almost overnight into one of Prague's great working-class industrial engines.
-
-Holešovice only joined Prague proper in 1884, but by then the Industrial Revolution had already reshaped it completely: its riverside location and rail connections attracted factories, a river port, and dense working-class housing that expanded fast enough to swallow the old village whole. For decades the skyline here was defined by factory chimneys rather than church towers, with early-20th-century industrial complexes and the sprawling former Central Slaughterhouse anchoring a genuinely productive corner of the city. That entire industrial identity has spent the last three decades quietly turning itself inside out: the old factory halls and slaughterhouse buildings have been strung together into a loose chain of galleries, museums, theatres, cafés, music clubs, and creative studios, earning the district a new, distinctly 21st-century nickname as Prague's "neighbourhood of art and culture."
-
-It's a genuinely rare kind of urban survival — a district that didn't demolish its industrial past to build a creative future, it just moved the creative future directly into the old machine halls.
-
-🥚 Easter Egg: The same brick walls that once echoed with factory machinery and the sounds of a working slaughterhouse now more commonly echo with gallery openings and espresso machines — Holešovice didn't erase its industrial soundtrack, it just changed the instruments.`,
-
-      cz: `Statečný dobrodruhu, vítej v industriálních Holešovicích! Celý tenhle kus čtvrti byl kdysi samostatnou vesnicí rybářů, zemědělců a vorařů — než přišlo 19. století, hned za ním železnice a říční přístav, a Holešovice se skoro přes noc proměnily v jeden z velkých dělnických průmyslových motorů Prahy.
-
-Holešovice se k Praze připojily až v roce 1884, ale do té doby už je průmyslová revoluce zcela přetvořila: poloha u řeky a železniční napojení přitáhly továrny, říční přístav i hustou dělnickou zástavbu, která se rozrůstala tak rychle, že do sebe pohltila celou starou vesnici. Panorama tu po desetiletí neurčovaly kostelní věže, ale tovární komíny, s průmyslovými komplexy z počátku 20. století a rozlehlým bývalým areálem ústředních jatek jako kotvou opravdu produktivního kusu města. Celá tahle průmyslová identita se za poslední tři desetiletí tiše obrátila naruby: staré tovární haly a jatecké budovy se propletly do volného řetězu galerií, muzeí, divadel, kaváren, hudebních klubů a kreativních ateliérů, díky čemuž si čtvrť vysloužila novou, výrazně jednadvacátistoletou přezdívku — "čtvrť umění a kultury".
-
-Jde o opravdu vzácný typ urbánního přežití — čtvrť, která svou průmyslovou minulost nezbourala kvůli kreativní budoucnosti, ale prostě tu kreativní budoucnost přestěhovala rovnou do starých strojoven.
-
-🥚 Velikonoční vajíčko: Stejné cihlové zdi, které kdysi rezonovaly hlukem továrních strojů a zvuky provozních jatek, dnes běžněji rezonují vernisážemi a espresovými kávovary — Holešovice svůj průmyslový soundtrack nevymazaly, jen mu vyměnily nástroje.`,
-
-      zh: `勇敢的冒险家，欢迎来到"工业霍勒绍维采"！这片街区曾经是一座独立的村庄，居民以渔业、农耕与放筏为生——直到19世纪到来，铁路与河港紧随其后，霍勒绍维采几乎在一夜之间，就转变为布拉格最重要的工人阶级工业引擎之一。
-
-霍勒绍维采直到1884年才正式并入布拉格，但那时工业革命早已将它彻底重塑：临河的地理位置与铁路连接吸引了工厂、河港，以及密集的工人阶级住宅区，其扩张速度之快，足以将旧日的村庄整个吞没。数十年间，这里的天际线由工厂烟囱而非教堂尖塔所定义，20世纪初的工业建筑群，以及那座规模庞大的前中央屠宰场，共同支撑起这座城市一个真正意义上的生产重镇。而在过去三十年间，这整套工业身份悄然发生了"由内而外"的转变：昔日的厂房与屠宰场建筑，被串联成一条松散的画廊、博物馆、剧院、咖啡馆、音乐俱乐部与创意工作室之链，让这片街区赢得了一个极具21世纪特色的新绰号——布拉格的"艺术与文化街区"。
-
-这是一种相当罕见的城市存续方式——这片街区并没有为了迎接创意的未来而拆除自己的工业过去，而是直接把创意的未来，搬进了旧日的机器大厅里。
-
-🥚 彩蛋：曾经回荡着工厂机器轰鸣与屠宰场作业声响的同一堵砖墙，如今更常回荡的是画展开幕式与咖啡机的声音——霍勒绍维采并没有抹去自己的"工业配乐"，它只是换了一套乐器。`,
     },
   },
   {
@@ -8644,43 +8570,6 @@ Mezi běžeckou dráhou na střeše a mateřskou školkou v areálu působí bud
     },
   },
   {
-    name: 'Letná Gardens',
-    slug: 'letenske-sady',
-    localizedNames: { cz: 'Letenské sady', zh: '莱特纳花园' },
-    labels: ['park', 'nature'],
-    district: 'Praha 7',
-    quarter: 'Holešovice',
-    coordinates: { lat: 50.09629382671198, lng: 14.41492111718586 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: '',
-    description: {
-      en: `Brave adventurer, welcome to Letenské sady! Before it was one of Prague's most beloved parks, this hilltop was a working vineyard, a military encampment, and a stone quarry — proof that a good park doesn't need a peaceful origin story, just enough time to leave one behind.
-
-Vineyards had cultivated the Letná slope since as far back as the 13th century, but the modern park's real beginning traces to Baron Jakub Wimmer (1754–1822), an enthusiastic humanist who owned most of the Letná plots in the early 19th century and set about renewing the old vineyards while planting the first fruit and ornamental trees around the Marian fortifications — turning a working hillside into a genuinely pleasant place to spend an afternoon. The park itself was formally founded, developed, and reshaped after 1860 in a historicising, neoclassical landscape style, with its late-1880s expansion tied closely to landscape gardener František Thomayer, then director of Prague's city parks and the same man who would later dream up a lake here that took over a century to actually get built.
-
-Today's sweeping lawns and tree-lined avenues sit directly on top of centuries of vineyards, soldiers' camps, and quarrying — a genuinely layered piece of ground doing a very good impression of having always been simple parkland.
-
-🥚 Easter Egg: The same hillside that now hosts picnics, skateboarders, and sunset views once alternated between growing wine grapes and housing armies — meaning Letná's current, thoroughly relaxed atmosphere is a fairly recent development for a hill with a considerably more restless past.`,
-
-      cz: `Statečný dobrodruhu, vítej v Letenských sadech! Než se z tohohle kopce stal jeden z nejoblíbenějších pražských parků, byla to fungující vinice, vojenské ležení a kamenolom — důkaz, že dobrý park nepotřebuje klidný počátek, jen dost času, aby ho nechal za sebou.
-
-Vinice obdělávaly letenský svah už od 13. století, ale skutečný počátek moderního parku sahá k baronu Jakubu Wimmerovi (1754–1822), nadšenému humanistovi, kterému na počátku 19. století patřila většina letenských pozemků a který se pustil do obnovy starých vinic a zároveň nechal kolem mariánského opevnění vysadit první ovocné a okrasné stromy — z pracovního svahu tak udělal opravdu příjemné místo k odpolednímu posezení. Samotný park byl formálně založen, rozvíjen a přetvářen po roce 1860 v historizujícím, neoklasicistním krajinářském stylu, přičemž jeho rozšíření z konce 80. let 19. století je úzce spjato se zahradním architektem Františkem Thomayerem, tehdejším ředitelem pražských městských sadů — a stejným mužem, který sem později vysnil jezero, jehož skutečná stavba trvala víc než sto let.
-
-Dnešní rozlehlé trávníky a stromořadí stojí přímo na staletích vinic, vojenských táborů a lomů — opravdu vrstevnatý kus země, který si dost dobře hraje na to, že tu vždycky bylo jen prosté parkové zázemí.
-
-🥚 Velikonoční vajíčko: Stejný svah, na kterém se dnes piknikuje, jezdí na skateboardech a kouká na západ slunce, kdysi střídavě pěstoval hrozny a hostil vojska — dnešní naprosto uvolněná atmosféra Letné je tak pro kopec s podstatně neklidnější minulostí docela nedávný vynález.`,
-
-      zh: `勇敢的冒险家，欢迎来到莱特纳花园（Letenské sady）！在成为布拉格最受喜爱的公园之一以前，这片高地曾是一片正在耕作的葡萄园、一处军队营地，也曾是一座采石场——这证明一座优秀的公园，未必需要一段宁静的起源故事，只需要足够的时间，把过去甩在身后。
-
-莱特纳山坡自13世纪起便种植着葡萄园，但现代公园真正的起点，要追溯到雅库布·维默尔男爵（Baron Jakub Wimmer，1754–1822）——19世纪初，这位热忱的人文主义者拥有莱特纳大部分地块，他着手更新老旧的葡萄园，同时在圣母防御工事周边栽种了最早的一批果树与观赏树木——将一片劳作的山坡，变成了一处真正适合消磨午后时光的好去处。公园本身在1860年后正式设立、发展并重塑为一种历史主义、新古典主义的景观风格，其19世纪80年代末的扩建，则与园林建筑师弗兰蒂谢克·托马耶尔（František Thomayer，时任布拉格市立公园主任）密切相关——正是同一个人，日后在这里构想了一片湖泊，而这个构想足足花了一个多世纪才真正落地。
-
-如今这里开阔的草坪与林荫大道，正叠压在数百年的葡萄园、军营与采石场之上——这是一片层次丰富的土地，却把"这里向来只是一片简单公园绿地"这件事，演得相当逼真。
-
-🥚 彩蛋：如今人们在这片山坡上野餐、玩滑板、看日落，可它曾经在种植葡萄与驻扎军队之间反复切换——莱特纳如今这份彻底放松的氛围，对于一座过往远称不上安稳的山丘来说，其实是相当"近期"的新鲜事。`,
-    },
-  },
-  {
     name: 'Bio Oko',
     slug: 'bio-oko',
     localizedNames: { cz: 'Bio Oko', zh: '奥科电影院（Bio Oko）' },
@@ -8792,43 +8681,6 @@ Je to opravdu vzácná věc: kus infrastruktury ze 16. století, který pořád 
     },
   },
   {
-    name: 'Pigeon House (Stromovka)',
-    slug: 'holubi-dum-stromovka',
-    localizedNames: { cz: 'Holubí dům (Stromovka)', zh: '鸽子屋（斯特罗莫夫卡公园）' },
-    labels: ['historical', 'hidden-gem'],
-    district: 'Praha 7',
-    quarter: 'Bubeneč',
-    coordinates: { lat: 50.103592981477846, lng: 14.418635221921619 },
-    rarity: 'epic',
-    xpReward: 50,
-    wikipediaUrl: '',
-    description: {
-      en: `Brave adventurer, welcome to Holubí dům — the Pigeon House! Tucked away inside Stromovka, Prague's sprawling former Royal Game Reserve, this modest little structure is exactly what generations of aristocratic hunting grounds tended to keep tucked in a corner: a purpose-built home for pigeons, on an estate that took its birds every bit as seriously as its deer.
-
-Stromovka's history as a managed hunting landscape stretches back centuries, with the reserve formally divided in 1559 into an eastern game park with its own hunting lodge and a western pheasantry used for raising pheasants and black grouse — the kind of estate where a dedicated pigeon house wasn't a curiosity, it was standard operating equipment. Pigeons served aristocratic estates in several practical roles at once: a reliable source of meat, working messenger birds, and simply another category of game to be bred and managed alongside the pheasants and deer roaming the wider reserve. Compared to Stromovka's grander landmarks — the Baroque Šlechtova restaurace, the Renaissance water engineering of Rudolfova štola — the Pigeon House has left barely a trace in the historical record, surviving today as one of the park's quieter, largely undocumented curiosities.
-
-It's a fitting kind of obscurity for a building whose entire original purpose was housing birds nobody paid much attention to either — a small structure built for tenants who were never going to be the main attraction.
-
-🥚 Easter Egg: Stromovka's grand restaurant hosted an emperor and its underground tunnel is a certified Renaissance engineering marvel — while this unassuming little building, built for pigeons, has quietly outlasted most of the paperwork that might explain exactly what it once was.`,
-
-      cz: `Statečný dobrodruhu, vítej u Holubího domu! Ukrytý uvnitř Stromovky, rozlehlé bývalé pražské Královské obory, je tenhle skromný domek přesně tím, co generace šlechtických honiteb obvykle měly schované někde v koutě: účelová stavba pro holuby, na panství, které bralo svoje ptáky stejně vážně jako svou zvěř.
-
-Historie Stromovky jako spravované loveckého krajiny sahá o staletí zpět, obora byla formálně rozdělena v roce 1559 na východní honitbu s vlastním loveckým zámečkem a západní bažantnici sloužící k chovu bažantů a tetřívků — na panství tohohle typu nebyl vlastní holubí dům žádnou kuriozitou, ale standardní součástí vybavení. Holubi šlechtickým panstvím sloužili hned v několika praktických rolích najednou: jako spolehlivý zdroj masa, pracovní poštovní ptáci a prostě další kategorie zvěře chovaná a spravovaná vedle bažantů a jelenů volně se pohybujících po zbytku obory. Ve srovnání s velkolepějšími dominantami Stromovky — barokní Šlechtovou restaurací, renesančním vodním dílem Rudolfovy štoly — zanechal Holubí dům v historických pramenech jen sotva stopu a dodnes přežívá jako jedna z tišších, převážně nezdokumentovaných kuriozit parku.
-
-Je to přiléhavý druh zapomnění pro budovu, jejímž jediným původním účelem bylo ubytovávat ptáky, kterým taky nikdo moc velkou pozornost nevěnoval — drobná stavba postavená pro nájemníky, kteří se nikdy neměli stát hlavní atrakcí.
-
-🥚 Velikonoční vajíčko: Velkolepá stromovecká restaurace hostila císaře a její podzemní štola je uznávaným renesančním inženýrským zázrakem — zatímco tahle nenápadná budova postavená pro holuby tiše přežila většinu papírů, které by mohly přesně vysvětlit, čím vlastně kdysi byla.`,
-
-      zh: `勇敢的冒险家，欢迎来到鸽子屋（Holubí dům）！这座朴素的小建筑，隐藏在斯特罗莫夫卡公园——布拉格昔日广袤的皇家猎苑——之中，正是几代贵族猎苑通常会在某个角落悄悄留存的那种建筑：一座专为鸽子建造的居所，坐落在一片对待鸟类几乎与对待鹿群同样认真的庄园之上。
-
-斯特罗莫夫卡作为一片被精心管理的狩猎场地，历史可追溯数百年，1559年，猎苑被正式划分为东侧的猎场（配有自己的狩猎行宫）与西侧的雉鸡园（用于饲养雉鸡与黑琴鸡）——在这样的庄园里，一座专属的鸽子屋并非什么稀罕物，而是标准配置的一部分。鸽子在贵族庄园中同时承担着好几种实际功能：可靠的肉食来源、传信的工作鸽，以及与雉鸡、鹿群一样，被纳入饲养与管理体系的另一类"猎物"。与斯特罗莫夫卡更为宏伟的地标相比——巴洛克风格的什莱赫塔餐厅、文艺复兴时期水利工程杰作鲁道夫水道——鸽子屋在历史记录中几乎没有留下什么痕迹，如今作为公园里较为安静、大体上未被详细记载的小小奇观留存至今。
-
-对于一座最初唯一用途就是安置那些同样无人在意的鸟儿的建筑来说，这种默默无闻，倒也恰如其分——一座小小的建筑，为那些注定不会成为主角的"住户"而建。
-
-🥚 彩蛋：斯特罗莫夫卡那座宏伟的餐厅款待过皇帝，它的地下隧道是公认的文艺复兴工程奇迹——而这座为鸽子而建、其貌不扬的小建筑，却悄悄"熬过"了大部分本该说清楚它究竟是什么的文献记录。`,
-    },
-  },
-  {
     name: "Rudolf's Pond",
     slug: 'rudolfuv-rybnik',
     localizedNames: { cz: 'Rudolfův rybník', zh: '鲁道夫池塘' },
@@ -8900,80 +8752,6 @@ Jeho příběh ještě nekončí: s aktuální podjezdnou výškou pouhých 5,4 
 它的故事尚未画上句号：由于目前仅5.4米的净空高度，无法满足航运运河上大型船只的通行需求，一座更高的固定式替代桥梁——由竞标获胜团队Nemec & Taller Architektur设计，净空高度将提升至7米——预计最迟于2028年动工，也就是说，如今这座桥，本身也只是这条不断被重建的通道中，最新的一个篇章而已。
 
 🥚 彩蛋：这座桥在不到一个世纪的时间里，已至少重建过两次，而每一次的原因都是前一代桥梁"跟不上了"——第一次是跟不上岁月，而如果2028年的计划顺利推进，下一次，将是跟不上现代船只的体量。`,
-    },
-  },
-  {
-    name: 'Underpass (Stromovka)',
-    slug: 'podchod-stromovka',
-    localizedNames: { cz: 'Podchod (Stromovka)', zh: '地下通道（斯特罗莫夫卡公园）' },
-    labels: ['hidden-gem', 'transport'],
-    district: 'Praha 7',
-    quarter: 'Bubeneč',
-    coordinates: { lat: 50.10941128298573, lng: 14.418496918058898 },
-    rarity: 'common',
-    xpReward: 10,
-    wikipediaUrl: '',
-    description: {
-      en: `Brave adventurer, welcome to the Stromovka underpass! A railway embankment slices straight through the middle of this former Royal Game Reserve, doing double duty as both a rail line and a flood defence wall — and this modest tunnel is one of just three passages that let park visitors walk straight through it instead of around it.
-
-The railway itself dates back to the mid-19th century, part of the Northern State Railway line linking Prague to Lovosice, and the resulting embankment has quietly split Stromovka into two halves ever since, with the section closest to the dog meadow and the bridges toward Císařský ostrov reachable only by ducking through one of these underpasses. It's a purely functional piece of infrastructure, unglamorous by design, doing nothing more exciting than letting joggers, dog walkers, and cyclists pass from one side of a 95-hectare park to the other without a detour.
-
-Small as it is, the underpass is a genuinely honest little reminder that even Prague's grandest green spaces are shaped as much by 19th-century railway engineering as by any landscape architect's original vision.
-
-🥚 Easter Egg: This unassuming tunnel exists purely because 19th-century railway planners needed to get a train line through Stromovka and couldn't be bothered rerouting around a royal hunting ground — meaning generations of dog walkers now duck daily through a compromise made over 150 years before any of them were born.`,
-
-      cz: `Statečný dobrodruhu, vítej u podchodu ve Stromovce! Železniční násep protíná bývalou Královskou oboru rovnou napříč a slouží zároveň jako trať i jako protipovodňová hráz — a tenhle skromný podchod je jedním z pouhých tří průchodů, které návštěvníkům parku dovolí projít rovnou skrz, místo aby museli obcházet.
-
-Samotná železnice pochází z poloviny 19. století, jako součást trati Severní státní dráhy spojující Prahu s Lovosicemi, a výsledný násep od té doby tiše rozděluje Stromovku na dvě poloviny, přičemž část nejblíž psí louce a mostům směrem na Císařský ostrov je dosažitelná jen protažením se jedním z těchhle podchodů. Jde o čistě funkční kus infrastruktury, záměrně nevzhledný, který nedělá nic vzrušenějšího, než že pouští běžce, psí vodiče a cyklisty z jedné strany 95hektarového parku na druhou bez zajížďky.
-
-Ať je jakkoli malý, podchod je opravdu poctivou drobnou připomínkou, že i nejvelkolepější pražská zeleň je formovaná stejnou měrou devatenáctistoletým železničním inženýrstvím jako původní vizí kteréhokoli zahradního architekta.
-
-🥚 Velikonoční vajíčko: Tenhle nenápadný tunel existuje čistě proto, že plánovači železnice v 19. století potřebovali protáhnout trať Stromovkou a nechtělo se jim objíždět kolem královské honitby — generace psích vodičů se tak dnes denně sklánějí kompromisem uzavřeným víc než 150 let předtím, než se kdokoli z nich narodil.`,
-
-      zh: `勇敢的冒险家，欢迎来到斯特罗莫夫卡地下通道！一道铁路路堤，径直穿越了这片昔日的皇家猎苑，同时兼具铁路线与防洪堤的双重功能——而这条朴素的隧道，正是仅有的三条能让公园游客直接穿行而过、而非绕道而行的通道之一。
-
-这条铁路本身可追溯至19世纪中叶，是连接布拉格与洛沃西采（Lovosice）的北方国家铁路线的一部分，而由此形成的路堤，自那时起便悄然将斯特罗莫夫卡一分为二——靠近狗狗草坪与通往皇帝岛桥梁的那一侧，只能通过弯腰穿过其中一条地下通道才能到达。这纯粹是一件功能性的基础设施，刻意保持着毫不起眼的姿态，除了让跑步者、遛狗人与骑行者，能够无需绕路便从这座95公顷公园的一侧走到另一侧之外，再无其他"戏剧性"可言。
-
-尽管规模不大，这条地下通道却是一个相当诚实的小小提醒：即便是布拉格最壮丽的绿地，其形态在很大程度上，也是由19世纪的铁路工程决定的，而非仅仅出自某位园林建筑师最初的构想。
-
-🥚 彩蛋：这条不起眼的隧道之所以存在，纯粹是因为19世纪的铁路规划者需要让一条铁路线穿过斯特罗莫夫卡，又懒得绕开一片皇家猎苑——如今，一代又一代遛狗的人每天弯腰穿行其中，走过的正是一个在他们出生前一百五十多年就已敲定的"权宜之计"。`,
-    },
-  },
-  {
-    name: 'Dog Meadow',
-    slug: 'psi-louka-stromovka',
-    localizedNames: { cz: 'Psí louka', zh: '狗狗草坪（Psí louka）' },
-    labels: ['park', 'nature'],
-    district: 'Praha 7',
-    quarter: 'Bubeneč',
-    coordinates: { lat: 50.105726630199975, lng: 14.40904603950969 },
-    rarity: 'common',
-    xpReward: 10,
-    wikipediaUrl: '',
-    description: {
-      en: `Brave adventurer, welcome to Psí louka — the Dog Meadow! Tucked into the Bubeneč side of Stromovka, reached through a tunnel beneath the railway embankment, this open meadow has become one of Prague's most generously sized spots for a dog to run in genuine, unleashed circles.
-
-Stromovka itself has centuries of pedigree as a managed hunting landscape, its history tied to kings from Jan of Luxembourg through Vladislaus Jagiellon to Rudolf II, and today the park holds over 200 species of trees across its roughly 95 hectares. Within that broader landscape, Prague has deliberately set aside an above-average share of dedicated off-leash space compared to other European capitals, and this particular meadow — accessible only by ducking through the underpass on the Bubeneč side — has become the anchor of that arrangement, equipped with a zip line and nearby fitness elements for the humans while the meadow itself does the real work for the dogs. In June 2008, the area even hosted an art academy sculpture symposium, where students carved works from fallen tree trunks scattered around the park.
-
-It's a genuinely rare kind of urban amenity: a meadow inside a former royal hunting ground, now handed over almost entirely to the actual descendants of the hounds that once worked that same ground centuries ago.
-
-🥚 Easter Egg: A meadow inside what was once one of Bohemia's most exclusive royal hunting grounds is now, functionally, the single most democratic patch of ground in the whole park — any dog in Prague, regardless of pedigree, gets to run free here exactly the same as any other.`,
-
-      cz: `Statečný dobrodruhu, vítej na Psí louce! Ukrytá na bubenečské straně Stromovky, dostupná tunelem pod železničním náspem, se z tohohle otevřeného prostranství stalo jedno z pražských nejvelkoryseji rozměrných míst, kde může pes opravdu volně pobíhat bez vodítka.
-
-Sama Stromovka má za sebou staletí jako spravovaná lovecká krajina, jejíž historie je spjatá s králi od Jana Lucemburského přes Vladislava Jagellonského až po Rudolfa II., a dnes park na svých zhruba 95 hektarech hostí přes 200 druhů stromů. V rámci téhle širší krajiny Praha záměrně vyhradila nadprůměrný podíl vyhrazeného prostoru pro volný pohyb psů ve srovnání s jinými evropskými metropolemi, a právě tahle louka — dostupná jen protažením se podchodem na bubenečské straně — se stala kotvou tohohle uspořádání, vybavená lanovkou a blízkými fitness prvky pro lidi, zatímco samotná louka odvádí tu skutečnou práci pro psy. V červnu 2008 tu dokonce proběhlo sochařské sympozium umělecké akademie, kde studenti tesali díla z padlých kmenů rozesetých po parku.
-
-Je to opravdu vzácný druh městské vymoženosti: louka uvnitř bývalé královské honitby, dnes téměř úplně předaná skutečným potomkům honičů, kteří na stejné půdě pracovali před staletími.
-
-🥚 Velikonoční vajíčko: Louka uvnitř toho, co bývalo jednou z nejexkluzivnějších českých královských honiteb, je dnes funkčně nejdemokratičtějším kouskem půdy v celém parku — kterýkoli pražský pes, bez ohledu na rodokmen, si tu může běhat úplně stejně volně jako kterýkoli jiný.`,
-
-      zh: `勇敢的冒险家，欢迎来到狗狗草坪（Psí louka）！这片开阔草地藏身于斯特罗莫夫卡公园靠近布本涅奇（Bubeneč）的一侧，需要穿过铁路路堤下的一条隧道才能抵达，如今已成为布拉格面积最为宽裕、真正能让狗狗撒开腿自由奔跑的场地之一。
-
-斯特罗莫夫卡本身作为一片被精心管理的狩猎场地，历史已长达数百年，从卢森堡的扬（Jan of Luxembourg）到弗拉季斯拉夫二世（Vladislaus Jagiellon），再到鲁道夫二世，历代君主都与这片土地有着渊源；如今，这座约95公顷的公园内，生长着超过200种树木。在这片更广阔的绿地之中，布拉格特意留出了一片高于欧洲其他首都平均水平的无绳自由活动区域，而这片草坪——只能通过布本涅奇一侧的地下通道弯腰穿行才能抵达——正是这一安排的核心所在：地面配有一条滑索与附近的健身设施供人使用，而草坪本身，则专注于为狗狗们完成真正的"正事"。2008年6月，这里甚至举办过一场艺术学院的雕塑研讨活动，学生们用散落在公园各处的倒伏树干雕刻作品。
-
-这是一种真正罕见的城市福利：一片曾属于皇家专属猎苑的草地，如今几乎完全交还给了几个世纪前曾在同一片土地上工作过的猎犬们的真正后代。
-
-🥚 彩蛋：这片草地，曾坐落在波希米亚最尊贵的皇家猎苑之一内，如今在功能上，却成了整座公园里最"平等"的一角——无论血统如何，布拉格的每一只狗，都能在这里获得完全同等的自由奔跑机会。`,
     },
   },
   {
@@ -9670,9 +9448,9 @@ Kůň byl osobním snem výtvarníka a grafika Ivana Nacvalače, který ho vlast
     },
   },
   {
-    name: 'Chapel of St. Clare (Troja)',
+    name: "St. Clare's Vineyard and Chapel",
     slug: 'kaple-svate-klary-troja',
-    localizedNames: { cz: 'Kaple svaté Kláry', zh: '圣克拉拉小教堂（特洛亚）' },
+    localizedNames: { cz: 'Vinice a kaple svaté Kláry', zh: '圣克拉拉葡萄园和小教堂' },
     labels: ['church', 'historical', 'architecture'],
     district: 'Praha 7',
     quarter: 'Troja',
@@ -9681,66 +9459,27 @@ Kůň byl osobním snem výtvarníka a grafika Ivana Nacvalače, který ho vlast
     xpReward: 20,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kaple_svat%C3%A9_Kl%C3%A1ry_(Troja)',
     description: {
-      en: `Brave adventurer, welcome to the Chapel of St. Clare (Kaple svaté Kláry)! Perched right at the top of a working vineyard above Troja Chateau, this small Baroque chapel exists for a wonderfully practical 17th-century reason: the neighbours kept getting flooded out of Mass.
+      en: `Welcome to St. Clare's Vineyard and Chapel: a hillside of vines above Troja Chateau, with a small Baroque chapel at the very top. The chapel was built for a thoroughly practical reason: the neighbours kept getting flooded out of Mass, so Mass moved uphill. For once in Troja, the grapes were not the point.
 
-Count Václav Vojtěch of Šternberk, the chateau's owner, first petitioned Prague's archbishop's consistory for building permission back in 1691, arguing that people living near his estate simply couldn't reach church reliably because of frequent flooding along the river below. Construction was likely finished around 1695, and Šternberk dedicated the new chapel to St. Clare — patron saint and namesake of his own wife, Klára Bernardina. The building itself keeps things modest: a rectangular floor plan, a flat ceiling, and a small turret, nothing that competes with the grand château down the hill. A fire in 1924 forced a rebuild, giving it its current roof and turret, and it was last restored in 1996.
+Count Václav Vojtěch of Šternberk, who built Troja Chateau, asked the archbishop's consistory for permission in 1691, arguing that floods on the river below too often cut his people off from church. The chapel was finished around 1695 and dedicated to St. Clare, patron saint of his wife, Klára Bernardina. It is a modest building, a rectangle with a flat ceiling and a small turret, with no ambition to compete with the palace below. After a fire in 1924 it was rebuilt with its present roof and turret, it was last restored in 1996, and Sunday Mass is still said here.
 
-Since 1995 the chapel has belonged, together with the adjoining St. Clare's Vineyard, to the Prague Botanical Garden, and it now falls under the Salesian parish in Kobylisy — Sunday Mass is still held here, more than three centuries after Šternberk's original petition.
+The slope beneath it is St. Clare's Vineyard, one of the oldest in Prague: vines grew on this hill as early as the 13th century, centuries before anyone dreamed of a château. A path once ran from the château up through the rows to the chapel door. Since 1995 the chapel and the vineyard have both belonged to the Prague Botanical Garden, which still makes wine from these slopes, so a visit here can end with a glass.
 
-🥚 Easter Egg: The flooding problem that got this chapel built was never actually solved — the chapel just relocated the churchgoers uphill, safely out of the water's reach. It may be the smartest, laziest flood-mitigation plan ever approved by a 17th-century archbishop's office.`,
+🎁 Bonus: the vineyard is the oldest resident of the hill by about four hundred years, older than both the château and the chapel. It simply took its name from the newest neighbour.`,
+      cz: `Vítej ve vinici a u kaple svaté Kláry: na svahu révy nad Trojským zámkem stojí na samém vrcholu malá barokní kaple. Vznikla z ryze praktického důvodu: sousedy pořád odřízla od mše povodeň, a tak se mše přestěhovala do kopce. Výjimečně tu tedy nešlo o víno.
 
-      cz: `Statečný dobrodruhu, vítej v Kapli svaté Kláry! Na samém vrcholu fungující vinice nad Trojským zámkem stojí tahle malá barokní kaplička z naprosto praktického důvodu ze 17. století: sousedé se kvůli povodním pořád nemohli dostat na mši.
+Hrabě Václav Vojtěch ze Šternberka, stavitel Trojského zámku, požádal arcibiskupskou konzistoř o povolení roku 1691 s tím, že záplavy na řece pod zámkem jeho lidi příliš často odřízly od kostela. Kaple byla dokončena kolem roku 1695 a zasvěcena svaté Kláře, patronce jeho manželky Kláry Bernardiny. Je to skromná stavba, obdélník s plochým stropem a malou věžičkou, která se se zámkem dole nijak neměří. Po požáru v roce 1924 dostala dnešní střechu a věžičku, naposledy byla obnovena v roce 1996 a nedělní mše se tu slouží dodnes.
 
-Hrabě Václav Vojtěch ze Šternberka, majitel zámku, požádal pražskou arcibiskupskou konzistoř o povolení stavby už v roce 1691 s odůvodněním, že lidé žijící u jeho panství se kvůli častým povodním na řece pod zámkem spolehlivě nedostanou do kostela. Stavba byla pravděpodobně dokončena kolem roku 1695 a Šternberk novou kapli zasvětil svaté Kláře — patronce a jmenovkyni své vlastní manželky, Kláry Bernardiny. Budova sama zůstává skromná: obdélníkový půdorys, plochý strop a drobná věžička, nic, co by konkurovalo honosnému zámku pod kopcem. Požár v roce 1924 si vynutil obnovu, při které kaple získala dnešní střechu a věžičku, naposledy byla opravena v roce 1996.
+Svah pod ní je vinice svaté Kláry, jedna z nejstarších v Praze: réva tu na kopci rostla už ve 13. století, staletí předtím, než někoho napadlo stavět zámek. Ze zámku kdysi vedla cesta mezi řádky révy až ke dveřím kaple. Od roku 1995 kaple i vinice patří Botanické zahradě hl. m. Prahy, která z těchto svahů dodnes vyrábí víno, takže návštěva tu může skončit sklenkou.
 
-Od roku 1995 patří kaple společně se sousední Vinicí svaté Kláry Pražské botanické zahradě a spadá pod salesiánskou farnost v Kobylisích — nedělní mše se tu konají dodnes, více než tři století po Šternberkově původní žádosti.
+🎁 Bonus: vinice je nejstarším obyvatelem kopce, o nějakých čtyři sta let starší než zámek i kaple. Jméno si prostě vzala po nejmladším sousedovi.`,
+      zh: `欢迎来到圣克拉拉葡萄园和小教堂。特洛亚宫上方的山坡种满了葡萄，坡顶立着一座巴洛克小教堂，修建它的理由非常实际：附近的居民总被洪水挡在弥撒门外，于是干脆把弥撒搬到了山上。在特洛亚，这回总算不是为了葡萄。
 
-🥚 Velikonoční vajíčko: Problém s povodněmi, kvůli kterému kaple vznikla, se ve skutečnosti nikdy nevyřešil — kaple jen přesunula věřící do kopce, bezpečně mimo dosah vody. Možná jde o nejchytřejší a zároveň nejlínější protipovodňové opatření, jaké kdy schválila arcibiskupská konzistoř v 17. století.`,
+建造特洛亚宫的什滕贝格伯爵瓦茨拉夫·沃伊捷赫，在1691年向大主教的宗教法庭申请许可，理由是山下河水泛滥，常常让他的人去不了教堂。小教堂大约在1695年建成，献给圣克拉拉，也就是他妻子克拉拉·贝尔纳迪娜的主保圣人。建筑本身很低调，长方形平面、平顶天花板，加一座小塔楼，完全无意和山下的宫殿争风头。1924年一场火灾之后，它换上了今天的屋顶和塔楼，最近一次修缮是在1996年，至今每个星期天仍在这里做弥撒。
 
-      zh: `勇敢的冒险家，欢迎来到圣克拉拉小教堂（Kaple svaté Kláry）！这座小巧的巴洛克教堂坐落在特洛亚城堡上方一片仍在耕作的葡萄园顶端，它的诞生原因十分实际，而且带着17世纪特有的无奈：附近居民总是因为发大水而没法去做弥撒。
+教堂脚下的山坡就是圣克拉拉葡萄园，布拉格最古老的葡萄园之一：早在13世纪，这座山上就种着葡萄，比任何人想到要建宫殿都早了好几百年。从前有一条小路从宫殿出发，穿过一行行葡萄藤，一直通到教堂门口。1995年起，教堂和葡萄园都归布拉格植物园所有，植物园至今仍用这片山坡上的葡萄酿酒，所以来这里的行程，可以用一杯酒收尾。
 
-城堡的主人——什滕贝格伯爵瓦茨拉夫·沃伊捷赫（Václav Vojtěch ze Šternberka）——早在1691年就向布拉格大主教座堂议事会申请建筑许可，理由是住在他庄园附近的居民，常因山下河流频繁泛滥而无法稳定地前往教堂。教堂大约在1695年建成，什滕贝格将这座新教堂献给了圣克拉拉——正是他妻子克拉拉·贝尔纳迪娜（Klára Bernardina）的主保圣人兼同名者。建筑本身十分低调：长方形平面、平顶天花板，加上一座小塔楼，丝毫无意与山下气派的城堡一较高下。1924年的一场火灾迫使教堂重建，由此得到了如今的屋顶与塔楼，最近一次修缮则是在1996年。
-
-自1995年起，这座教堂连同毗邻的圣克拉拉葡萄园一起，归属于布拉格植物园，如今隶属于科比利西（Kobylisy）的慈幼会堂区——三百多年后的今天，这里依然会举行主日弥撒，延续着什滕贝格当初申请建造它的初衷。
-
-🥚 彩蛋：当初促成这座教堂诞生的洪水问题，其实从未真正被解决——教堂不过是把信徒们搬到了山坡高处，让他们安全地远离水患而已。这大概是17世纪大主教座堂议事会批准过的、最聪明也最"偷懒"的一项防洪方案了。`,
-    },
-  },
-  {
-    name: "St. Clare's Vineyard",
-    slug: 'vinice-svate-klary',
-    localizedNames: { cz: 'Vinice svaté Kláry', zh: '圣克拉拉葡萄园' },
-    labels: ['historical', 'park'],
-    district: 'Praha 7',
-    quarter: 'Troja',
-    coordinates: { lat: 50.117391183671074, lng: 14.414277866136619 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Vinice_svat%C3%A9_Kl%C3%A1ry',
-    description: {
-      en: `Brave adventurer, welcome to St. Clare's Vineyard (Vinice svaté Kláry)! Prague isn't exactly famous for wine, but this sunny hillside above Troja Chateau has been quietly growing grapes since medieval monks first planted vines here — making it, remarkably, the only vineyard in the city cultivated almost continuously since its founding.
-
-The earliest written record of a vineyard on this hill dates back to roughly 1228, in a document concerning property belonging to St. George's Convent at Prague Castle — meaning monks were already tending vines here in the 13th century, some 450 years before the chateau even existed. When Count Václav Vojtěch of Šternberk built Troja Chateau between 1678 and 1685, along with the chapel crowning the hill above, the grapes from these same slopes were pressed in the château's cellars. A path once ran directly from the château up through the vineyard rows to the chapel, which the lady of the house, Klára Bernardina, dedicated to her own patron saint, St. Clare.
-
-Since 1995 the vineyard has belonged to the Prague Botanical Garden, and local wine is now produced in a newly built cellar on site. The historic vineyard house itself reopened in May 2024 after a careful refurbishment, pairing its original 17th-century rooms with a modern tasting room.
-
-🥚 Easter Egg: This hillside was already producing wine roughly 450 years before Troja Chateau was even built — meaning the vineyard, not the palace, is the actual senior resident of the neighbourhood, and every bottle poured here today descends from a tradition considerably older than the building it's named after.`,
-
-      cz: `Statečný dobrodruhu, vítej na Vinici svaté Kláry! Praha zrovna neproslula vínem, ale tenhle slunný svah nad Trojským zámkem tiše pěstuje víno už od chvíle, kdy tu středověcí mniši poprvé vysadili révu — díky čemuž jde pozoruhodně o jedinou vinici ve městě, která se obdělává téměř nepřetržitě od svého založení.
-
-Nejstarší písemná zmínka o vinici na tomto kopci pochází zhruba z roku 1228, z listiny týkající se majetku Svatojiřského kláštera na Pražském hradě — mniši tu tedy pěstovali révu už ve 13. století, zhruba 450 let předtím, než vůbec vznikl zámek. Když hrabě Václav Vojtěch ze Šternberka mezi lety 1678 a 1685 postavil Trojský zámek spolu s kaplí korunující kopec nad ním, hrozny z týchž svahů se lisovaly ve sklepích zámku. Ze zámku kdysi vedla cesta přímo nahoru vinicí ke kapli, kterou paní domu, Klára Bernardina, zasvětila své vlastní patronce, svaté Kláře.
-
-Od roku 1995 vinice patří Pražské botanické zahradě a místní víno se dnes vyrábí v nově vybudovaném sklepě přímo v areálu. Historický vinařský dům samotný se po pečlivé rekonstrukci znovu otevřel v květnu 2024 a spojuje své původní prostory ze 17. století s moderní degustační místností.
-
-🥚 Velikonoční vajíčko: Tenhle svah vyráběl víno zhruba 450 let předtím, než byl vůbec postaven Trojský zámek — vinice, ne palác, je tak skutečným nejstarším obyvatelem čtvrti, a každá lahev, která se tu dnes nalévá, navazuje na tradici podstatně starší, než je budova, po které vinice nese jméno.`,
-
-      zh: `勇敢的冒险家，欢迎来到圣克拉拉葡萄园（Vinice svaté Kláry）！布拉格向来并不以葡萄酒闻名，但特洛亚城堡上方这片朝阳山坡，自中世纪修士们最早在此栽种葡萄藤以来，就一直默默地种植着葡萄——这也让它成为全布拉格唯一一处自建园以来几乎从未间断耕种的葡萄园。
-
-关于这座山丘上葡萄园的最早文字记载，可以追溯到约1228年，出现在一份涉及布拉格城堡圣乔治修道院财产的文书中——也就是说，早在13世纪，修士们就已经在此培育葡萄藤，比城堡本身的建成还要早大约450年。什滕贝格伯爵瓦茨拉夫·沃伊捷赫在1678年至1685年间建造特洛亚城堡，以及矗立在山顶的那座小教堂时，同一片山坡产出的葡萄，正是在城堡的地窖中被压榨酿造的。曾经有一条小路，直接从城堡穿过层层葡萄藤通向山顶的教堂——那座教堂，是城堡女主人克拉拉·贝尔纳迪娜献给她自己的主保圣人圣克拉拉的。
-
-自1995年起，这座葡萄园归属布拉格植物园，如今当地葡萄酒就在园区内一座新建的酒窖中酿造。这座历史悠久的葡萄园老宅，在经过细致修缮后于2024年5月重新开放，将其17世纪的原始空间与一间现代品鉴室结合在了一起。
-
-🥚 彩蛋：这片山坡早在特洛亚城堡建成前大约450年就已经开始产酒——这意味着真正称得上是这片街区"资深居民"的，其实是葡萄园，而不是城堡本身；如今这里倒出的每一瓶酒，延续的都是一段比它所依附的建筑古老得多的传统。`,
+🎁 彩蛋：葡萄园才是这座山上最老的住户，比宫殿和教堂都早了大约四百年，只不过它的名字，是从最年轻的邻居那里借来的。`,
     },
   },
   {
@@ -34849,6 +34588,41 @@ Skutečným pokladem lesa je dnes jeho stáří. Na centrální louce stojí tř
 这片林子今天真正的宝贝，是它的年纪。中央草地上立着三棵受保护的橡树，最大的一棵有四根主干，树龄约230年，树围6.75米。圣安娜小礼拜堂旁的四棵椴树，树龄约215年，据说是布拉格最老、最大的椴树。枯死、腐烂的木头在这里被刻意留在原地，养活了一群相当稀有的甲虫，稀有到可以拿来和博乌宾原始森林相比，其中有十种是受法律保护的。此外，这里还记录到了248种蝴蝶。
 
 🎁 彩蛋：伯爵种下这片林子，是为了让鸟死在里面。两个半世纪后，它受到保护，恰恰是为了让树能在这里安安静静、慢慢地死去，好让甲虫们受益。`,
+    },
+  },
+  {
+    name: '"Humanita" by Jan Štursa',
+    slug: 'humanita-jan-stursa',
+    localizedNames: { cz: 'Humanita (Jan Štursa)', zh: '扬·什图尔萨《人道》' },
+    labels: ['monument', 'cultural', 'historical'],
+    district: 'Praha 7',
+    quarter: 'Holešovice',
+    coordinates: { lat: 50.09763789562436, lng: 14.43768520181251 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Jan_%C5%A0tursa',
+    description: {
+      en: `Welcome to Humanity, a granite giant standing guard at the Holešovice end of Hlávka Bridge. Most bridges make do with a lamp post or two. This one hired one of the best sculptors in the country and got a pair of muscle-bound colossi instead.
+
+The bridge, named after the builder and philanthropist Josef Hlávka, opened in 1912: a concrete design by the architect Pavel Janák that at first linked only Štvanice island with Holešovice. Its most memorable feature is the pair of monumental granite groups Jan Štursa made for this bridgehead in 1912–1913, Humanity here and its counterpart, Labour, across the approach. When the southern half of the bridge was rebuilt and widened in 1958–1962, part of its original decoration was lost, but Štursa's two groups stayed put.
+
+Štursa, a pupil of Josef Václav Myslbek, is often called the founder of modern Czech sculpture, and these figures show why. They are not polite allegories in togas but heavy, block-like bodies that seem to grow straight out of the stone, made to be taken in at the speed of a passing tram.
+
+🎁 Bonus: the First World War broke into Štursa's career soon after he finished these giants, and he served at the front. His later bronze The Wounded (1921), a soldier shot through the head in the act of falling, is about as far from the confident strength of the bridge figures as a sculptor can get.`,
+      cz: `Vítej u Humanity, žulového obra, který drží stráž na holešovickém konci Hlávkova mostu. Většina mostů si vystačí s lampou nebo dvěma. Tenhle si najal jednoho z nejlepších sochařů v zemi a dostal dvojici svalnatých kolosů.
+
+Most, pojmenovaný po staviteli a mecenáši Josefu Hlávkovi, byl otevřen roku 1912 jako betonová stavba podle návrhu architekta Pavla Janáka a zpočátku spojoval jen ostrov Štvanice s Holešovicemi. Jeho nejvýraznějším prvkem jsou dvě monumentální žulová sousoší, která pro toto předmostí vytvořil v letech 1912–1913 Jan Štursa: Humanita tady a její protějšek, Práce, na druhé straně nájezdu. Když byla v letech 1958–1962 jižní polovina mostu přestavěna a rozšířena, část původní výzdoby zmizela, Štursova sousoší ale zůstala na svém místě.
+
+Štursa, žák Josefa Václava Myslbeka, bývá označován za zakladatele moderního českého sochařství a tyhle postavy ukazují proč. Nejsou to zdvořilé alegorie v tógách, ale těžká, blokovitá těla, která jako by vyrůstala přímo z kamene, stvořená tak, aby je člověk pochopil i z projíždějící tramvaje.
+
+🎁 Bonus: brzy poté, co Štursa tyhle obry dokončil, mu do kariéry vtrhla první světová válka a on sloužil na frontě. Jeho pozdější bronz Raněný (1921), voják zasažený do hlavy v okamžiku pádu, je od sebejisté síly mostních postav tak daleko, jak jen sochař může zajít.`,
+      zh: `欢迎来到《人道》，一尊守在赫拉夫卡桥霍莱绍维采一端的花岗岩巨像。大多数桥有一两根路灯就够了，这座桥却请来了全国最好的雕塑家之一，换来一对肌肉发达的巨人。
+
+这座桥以建筑商兼慈善家约瑟夫·赫拉夫卡命名，1912年通车，是建筑师帕维尔·亚纳克设计的混凝土桥，起初只连接斯特万尼采岛和霍莱绍维采。桥上最令人难忘的，是扬·什图尔萨在1912至1913年为这处桥头创作的两组巨型花岗岩群像：这边是《人道》，引桥另一侧是与它成对的《劳动》。1958至1962年桥的南半段重建加宽时，原有的部分装饰没能保留下来，但什图尔萨的这两组雕像一直留在原地。
+
+什图尔萨是约瑟夫·瓦茨拉夫·米斯尔贝克的学生，常被称为捷克现代雕塑的奠基人，这两组雕像就能说明原因。它们不是穿着托加长袍、彬彬有礼的寓言人物，而是沉重、方块般的身体，仿佛直接从石头里长出来，坐在路过的电车上一眼就能看懂。
+
+🎁 彩蛋：什图尔萨完成这两组巨像后不久，第一次世界大战就闯进了他的创作生涯，他也上了前线。他后来的青铜像《伤者》（1921年）刻画一名头部中弹、正在倒下的士兵，和桥头雕像那种自信的力量相比，几乎是一个雕塑家能走到的另一个极端。`,
     },
   },
 ];

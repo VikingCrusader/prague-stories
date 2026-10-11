@@ -133,7 +133,7 @@ export const SLUG_RARITY = {
   'malostranska-mostecka-vez':    'rare',
   'faustuv-dum':                  'rare',
   'karlov-church':                'rare',
-  'stvanice-ostrov':              'rare',
+  'vodni-elektrarna-stvanice':    'superior',
   'zahrada-na-valech':            'rare',
   'vysehrad-railway-bridge':      'rare',
   'podolska-vodarna':             'rare',
@@ -287,9 +287,7 @@ export const SLUG_RARITY = {
   'delnicka-urazova-pojistovna':  'rare',  // 1920s Workers' Accident Insurance building, now tax office
   'la-fabrika':                   'rare',  // multi-use cultural venue in converted early-1900s factory halls
   'holesovicka-trznice':          'rare',  // former central slaughterhouse, now Prague's biggest market
-  'vnitroblock':                  'rare',  // deliberately unpolished creative hub, workshops/warehouses
   'art-gen-holesovice':           'rare',  // twin office/gallery towers near Holešovice market
-  'industrialni-holesovice':      'rare',  // district-wide industrial-to-culture transformation
   'delnicka-ulice':               'rare',  // 19th-century workers' colony street
   'lighthouse-tower-holesovice':  'rare',  // twin office towers at the old Holešovice port
   'chemistry-gallery':            'rare',  // contemporary art gallery, Holešovice market hall 40
@@ -302,15 +300,11 @@ export const SLUG_RARITY = {
   'statni-bezpecnost-bartolomejska': 'epic', // real StB HQ, "kachlíkárna", Cold War political repression
   'slechtova-restaurace':         'epic',  // Baroque imperial hunting lodge, twice burned, 2002-flooded ruin
   'rudolfova-stola':               'epic',  // hand-dug 1589-93 tunnel, still functional after 400+ years
-  'holubi-dum-stromovka':          'epic',  // obscure, undocumented pigeon house in the old royal reserve
   'ustredni-cistirna-odpadnich-vod': 'rare', // still-operating city sewage plant, walkable roof
   'visionary-holesovice':          'rare',  // first office building in mainland Europe with rooftop running track
-  'letenske-sady':                 'rare',  // Letná's historic vineyard-turned-park, Wimmer/Thomayer
   'bio-oko':                       'rare',  // 1940 functionalist neighbourhood cinema, bean-bag seating
   'rudolfuv-rybnik':               'rare',  // Rudolf II's Stromovka pond, fed by Rudolfova štola
   'novy-most-cisarsky-ostrov':     'rare',  // 2006 replacement bridge, sole road link to Imperial Island
-  'podchod-stromovka':             'common', // railway-embankment underpass splitting Stromovka in two
-  'psi-louka-stromovka':           'common', // off-leash dog meadow, Bubeneč side of Stromovka
 
   // ── Holešovice industrial batch (2026-07) ────────────────────────────────
   'teplarna-holesovice':          'epic',  // oldest still-operating power station in the Czech Republic
@@ -323,6 +317,7 @@ export const SLUG_RARITY = {
   'zlatnice-usedlost':            'epic',  // goldsmith's farmstead, "Osman Pasha" German-student inn, now ruin
   'stvanicka-lavka-holka':        'rare',  // 2023 footbridge, animal-head bronze railings, Holešovice-Karlín
   'hlavkuv-most':                 'rare',  // widest bridge in Czech Republic, built for the 1895 slaughterhouse
+  'humanita-jan-stursa':          'superior', // Štursa's 1912-13 granite group at the Hlávka Bridge head
   'evropska-trida':               'rare',  // Dejvice boulevard renamed five times across the 20th century
   'jugoslavskych-partyzanu':      'rare',  // street renamed five times, Yugoslav king to Tito's partisans
   'pamatnik-ceskoslovenskym-vojakum-2-svetove-valky': 'rare', // WWII memorial, Vítězné náměstí, 2004
@@ -357,7 +352,6 @@ export const SLUG_RARITY = {
   'privoz-podbaba-podhori':       'epic',  // P2 ferry, closed 1974-2006, reopened crossing
   'louka-velka-skala':            'epic',  // steppe meadow atop Proterozoic quartzite outcrop
   'kaple-svate-klary-troja':      'rare',  // 1695 Baroque chapel, Troja vineyard hilltop
-  'vinice-svate-klary':           'rare',  // Prague's only continuously-worked vineyard, since 1228
   'sklenik-fata-morgana':         'rare',  // S-shaped tropical greenhouse in a rock canyon, opened 2004
   'japonska-zahrada-troja':       'rare',  // 1997 Japanese garden, largest maple cultivar collection in CZ
   'bohnicka-vyhlidka':            'common', // meadow viewpoint over the Vltava bend
