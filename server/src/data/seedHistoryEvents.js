@@ -22438,6 +22438,14 @@ export const historyEvents = [
   {
     slug: "tearing-down-the-wall-1518",
     era: "rule-of-the-lords",
+    images: ["/history/tearing-down-the-wall-1518.webp"],
+    imageCaptions: [
+      {
+        en: "Prague, 1518: workmen tear down the gate and wall between the Old Town and the New Town while the crowd cheers and two town banners are tied to one pole; the new joint leaders Jan Pašek and Jan Hlavsa look on, one satisfied, one thoughtful.",
+        cz: "Praha, 1518: dělníci bourají bránu a hradby mezi Starým a Novým Městem, dav jásá a dva městské prapory se vážou na jednu žerď; noví společní představení Jan Pašek a Jan Hlavsa přihlížejí, jeden spokojeně, druhý zamyšleně.",
+        zh: "1518年，布拉格：工匠们拆除老城和新城之间的城门和城墙，人群欢呼，两面城市旗帜被绑在同一根旗杆上；新的联合当家人扬·帕谢克和扬·赫拉夫萨在一旁观看，一个满意，一个若有所思。",
+      },
+    ],
     startYear: 1518,
     year: {
       en: "1518",
