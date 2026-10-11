@@ -3,7 +3,7 @@
   python client/scripts/subsetTitleFonts.py
 
 - public/fonts/zhuque-title.woff2: 朱雀仿宋 (Zhuque Fangsong v0.212, OFL), cut
-  down to the characters the Chinese title can show, in Simplified and in
+  down to the characters the Chinese titles (Explore, History) can show, in Simplified and in
   Traditional (converted with opencc-js, as the app does): the zh title
   strings in LanguageContext.jsx, "布拉格{n}区", and the zh quarter names in
   utils/pragueQuarters.js. Rerun after changing any of those.
@@ -55,7 +55,8 @@ def title_chars():
     zh = lang[lang.index('  zh: {'):]
     zh = zh[:zh.index('\n  },')]
     text = ''
-    for key in ('explore.title', 'explore.titleCity', 'explore.titleGuest', 'detail.district'):
+    for key in ('explore.title', 'explore.titleCity', 'explore.titleGuest', 'detail.district',
+                'history.heroTitle'):
         m = re.search(r"'%s': '([^']*)'" % re.escape(key), zh)
         if not m:
             sys.exit('missing zh string ' + key)

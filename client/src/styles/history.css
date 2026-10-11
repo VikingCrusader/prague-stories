@@ -692,3 +692,20 @@
 .history-overview__chapter {
   margin-right: 0.6em;
 }
+
+/* Page heading (2026-10-11, HistoryHero.jsx): reuses Explore's title and
+   intro classes (blackletter for EN/CZ, 朱雀仿宋 for ZH). Desktop shows the
+   copy at the top of the feed column, aligned with the cards; phones, where
+   the sidebar stacks first, show the copy above the sidebar. */
+.history-hero { margin-bottom: 20px; }
+.history-hero .explore-title { margin-bottom: 8px; text-align: center; }
+/* Larger than Explore's title, to sit level with the chapter headings below
+   (Palatino / Noto Serif at 34 / 28px look bigger than the blackletter and
+   Zhuque at the same size). Phones still shrink it to fit one line. */
+html:not([data-lang="zh"]) .history-hero .explore-title { font-size: 46px !important; }
+html[data-lang="zh"] .history-hero .explore-title { font-size: 44px !important; }
+.history-hero--top { display: none; }
+@media (max-width: 820px) {
+  .history-hero--top { display: block; }
+  .history-hero--feed { display: none; }
+}

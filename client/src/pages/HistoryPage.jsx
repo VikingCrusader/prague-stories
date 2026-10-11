@@ -7,6 +7,7 @@ import HistorySidebar from '../components/history/HistorySidebar';
 import HistoryEventSection from '../components/history/HistoryEventSection';
 import HistoryEraDivider from '../components/history/HistoryEraDivider';
 import LocationDetail from '../components/locations/LocationDetail';
+import HistoryHero from '../components/history/HistoryHero';
 
 // Cards with their own sidebar entry. Background and era-overview cards
 // have none (see HistorySidebar), so scroll-spy and the initial highlight
@@ -232,6 +233,8 @@ export default function HistoryPage() {
       ) : data ? (
         <LanguageOverride lang={dataLang}>
         <WithLang>{({ lang: viewLang, convert: viewConvert, t: viewT }) => (
+        <>
+        <HistoryHero t={viewT} convert={viewConvert} placement="top" />
         <div className="history-layout">
           <HistorySidebar
             eras={data.eras}
@@ -246,6 +249,7 @@ export default function HistoryPage() {
             t={viewT}
           />
           <div className="history-feed">
+            <HistoryHero t={viewT} convert={viewConvert} placement="feed" />
             {data.events.map((event, i) => {
               // Only the sidebar shows era groupings by default — the feed
               // itself is one continuous scroll with no visual break, so a
@@ -279,6 +283,7 @@ export default function HistoryPage() {
             })}
           </div>
         </div>
+        </>
         )}</WithLang>
         </LanguageOverride>
       ) : null}
