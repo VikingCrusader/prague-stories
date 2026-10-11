@@ -44,7 +44,7 @@ export const userAPI = {
   getProgress:      () => api.get('/user/progress'),
   getAchievements:  () => api.get('/user/achievements'),
   getRandomDraw:    () => api.get('/user/random-draw'),
-  drawRandomLocation: () => api.post('/user/random-draw'),
+  drawRandomLocation: (includeOutside = false) => api.post('/user/random-draw', { includeOutside }),
   getHistoryProgress:  ()     => api.get('/user/history-progress'),
   saveHistoryProgress: (slug) => api.put('/user/history-progress', { slug }),
   savePreferences:     (prefs) => api.put('/user/preferences', prefs),

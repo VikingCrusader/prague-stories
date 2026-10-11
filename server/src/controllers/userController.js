@@ -108,8 +108,13 @@ export async function drawRandomLocation(req, res, next) {
     const checkins = await CheckIn.find({ user: user._id }).select('location').lean();
     const excludeIds = checkins.map(c => c.location);
 
+    // City cards only (no `outside` label) unless the user ticked
+    // "include cards outside Prague" on the Draw page.
+    const match = { _id: { $nin: excludeIds } };
+    if (!req.body?.includeOutside) match.labels = { $ne: 'outside' };
+
     const [picked] = await Location.aggregate([
-      { $match: { _id: { $nin: excludeIds } } },
+      { $match: match },
       { $sample: { size: 1 } },
     ]);
 

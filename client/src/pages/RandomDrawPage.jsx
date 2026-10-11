@@ -10,6 +10,7 @@ import { useUserPosition } from '../hooks/useUserPosition';
 import { RARITY_VAR, RARITY_LABEL, lockClosedIcon } from '../utils/rarity';
 import LocationCard from '../components/locations/LocationCard';
 import RarityFrame from '../components/locations/RarityFrame';
+import { isInCity } from '../components/locations/ScopeToggle';
 import LocationDetail from '../components/locations/LocationDetail';
 
 // Guest "try it out" draw: never touches the backend at all, since a guest
@@ -20,6 +21,7 @@ import LocationDetail from '../components/locations/LocationDetail';
 // Logging in or registering starts a real draw from scratch; nothing here
 // is carried over.
 const GUEST_DRAW_KEY = 'guestRandomDraw';
+const DRAW_SCOPE_KEY = 'drawIncludeOutside';
 const GUEST_DRAW_WINDOW_MS = 24 * 60 * 60 * 1000;
 
 function readGuestDraw() {
@@ -160,6 +162,14 @@ export default function RandomDrawPage() {
   const [drawing, setDrawing] = useState(false);
   const [now, setNow] = useState(Date.now());
   const [selectedSlug, setSelectedSlug] = useState(null);
+  // Draw only from the city proper by default (cards without the `outside`
+  // label); a ticked checkbox widens the pool to every card. Remembered
+  // across visits.
+  const [includeOutside, setIncludeOutside] = useState(() => localStorage.getItem(DRAW_SCOPE_KEY) === 'all');
+  const toggleIncludeOutside = e => {
+    setIncludeOutside(e.target.checked);
+    localStorage.setItem(DRAW_SCOPE_KEY, e.target.checked ? 'all' : 'city');
+  };
   const refreshingOnExpiry = useRef(false);
 
   const fetchStatus = useCallback(() => {
@@ -204,10 +214,11 @@ export default function RandomDrawPage() {
     setDrawing(true);
     if (isGuestMode) {
       // No account to exclude already-checked-in locations against — a guest
-      // has none — so this just samples from the full public location list.
+      // has none — so this just samples from the public location list
+      // (city cards only unless the checkbox is ticked).
       locationAPI.getAll()
         .then(res => {
-          const pool = res.data || [];
+          const pool = (res.data || []).filter(l => includeOutside || isInCity(l));
           if (!pool.length) return;
           const picked = pool[Math.floor(Math.random() * pool.length)];
           const drawnAt = new Date().toISOString();
@@ -217,7 +228,7 @@ export default function RandomDrawPage() {
         .finally(() => setDrawing(false));
       return;
     }
-    userAPI.drawRandomLocation()
+    userAPI.drawRandomLocation(includeOutside)
       .then(res => setStatus(res.data))
       .finally(() => setDrawing(false));
   };
@@ -329,6 +340,10 @@ export default function RandomDrawPage() {
                         >
                           {drawing ? t('draw.buttonDrawing') : t('draw.buttonDraw')}
                         </button>
+                        <label className="draw-scope">
+                          <input type="checkbox" checked={includeOutside} onChange={toggleIncludeOutside} />
+                          {t('draw.includeOutside')}
+                        </label>
                       </>
                     )}
                   </>

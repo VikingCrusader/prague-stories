@@ -147,3 +147,36 @@ describe('PUT /api/user/preferences', () => {
     expect(res.status).toBe(400);
   });
 });
+
+describe('POST /api/user/random-draw', () => {
+  async function seedCityAndOutside() {
+    await Location.create({ name: 'City', slug: 'city', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10, labels: ['church'] });
+    await Location.create({ name: 'Far', slug: 'far', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10, labels: ['castle', 'outside'] });
+  }
+
+  test('draws only city cards by default', async () => {
+    await seedCityAndOutside();
+    for (let i = 0; i < 5; i++) {
+      const { token } = await createAuthedUser();
+      const res = await request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${token}`).send({});
+      expect(res.status).toBe(200);
+      expect(res.body.location.slug).toBe('city');
+    }
+  });
+
+  test('can draw an outside card when includeOutside is set', async () => {
+    await seedCityAndOutside();
+    const { token } = await createAuthedUser();
+    expect((await checkIn(token, 'city')).status).toBe(201);
+    const res = await request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${token}`).send({ includeOutside: true });
+    expect(res.body.location.slug).toBe('far');
+  });
+
+  test('reports none left when only outside cards remain and the box is unticked', async () => {
+    await seedCityAndOutside();
+    const { token } = await createAuthedUser();
+    await checkIn(token, 'city');
+    const res = await request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${token}`).send({});
+    expect(res.body.noneLeft).toBe(true);
+  });
+});
