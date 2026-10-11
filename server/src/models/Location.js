@@ -10,6 +10,12 @@ const locationSchema = new mongoose.Schema({
   name:     { type: String, required: true, trim: true },
   slug:     { type: String, required: true, unique: true, lowercase: true },
   labels:   [{ type: String }],
+  // Prague správní obvod ("Praha 1" … "Praha 22") for cards inside the city
+  // boundary; empty for cards labelled `outside`.
+  district: { type: String, default: '' },
+  // Katastrální území (historical quarter: "Staré Město", "Smíchov", ...),
+  // official Czech name; empty for cards labelled `outside`.
+  quarter:  { type: String, default: '' },
   coordinates: {
     lat: { type: Number, required: true },
     lng: { type: Number, required: true },
