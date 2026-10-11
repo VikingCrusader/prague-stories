@@ -1063,6 +1063,7 @@ html:not([data-lang="zh"]) .navbar__link {
 .explore-page { flex: 1; padding: 20px 24px; max-width: 1600px; margin: 0 auto; width: 100%; }
 .explore-header { margin-bottom: 20px; }
 .explore-header h1 { font-size: 13px; margin-bottom: 8px; }
+.explore-title--fit { white-space: nowrap; }
 .explore-area-blurb {
   margin: 0;
   font-size: 15px;
@@ -1618,6 +1619,18 @@ html[data-lang="zh"] .detail-title-name {
   .filter-bar__bottom > .filter-btn,
   .filter-bar__bottom > .label-filter > .filter-btn { flex: 1 1 0; min-width: 0; }
   .filter-bar__bottom > .label-filter { display: contents; }
+  /* All five filter buttons (scope, district, collections, labels,
+     rarity) share one size on phones: one line each, smaller type and
+     side padding, so "My Collections" no longer wraps and makes its row
+     taller than the one above. */
+  html body .filter-bar .filter-btn {
+    font-size: 13px;
+    padding: 9px 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  html[data-lang="zh"] body .filter-bar .filter-btn { font-size: 13px !important; }
   .filter-bar__bottom .label-filter__panel {
     position: static;
     order: 99;

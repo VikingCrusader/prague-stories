@@ -10,6 +10,7 @@ import { haversineDistance, NEARBY_REVEAL_M } from '../utils/geolocation';
 import LocationGrid from '../components/locations/LocationGrid';
 import LocationDetail from '../components/locations/LocationDetail';
 import ToastContainer from '../components/shared/Toast';
+import { useFitOneLine } from '../hooks/useFitOneLine';
 import ScopeToggle, { isInCity } from '../components/locations/ScopeToggle';
 import AreaFilter, { matchesArea } from '../components/locations/AreaFilter';
 
@@ -112,6 +113,9 @@ export default function ExplorePage() {
   // With an area picked, the title becomes the area's name plus a short intro.
   const areaActive = cityOnly && area;
   const areaBlurb  = areaActive ? AREA_BLURBS[area.kind]?.[area.value] : null;
+  const titleText  = areaActive
+    ? convert(area.kind === 'district' ? t('detail.district', { n: area.value.slice(6) }) : quarterName(area.value, lang))
+    : t(guest ? 'explore.titleGuest' : cityOnly ? 'explore.titleCity' : 'explore.title');
 
   const changeScope = city => { setCityOnly(city); if (!city) setArea(null); };
   const scopeToggle = (
@@ -120,6 +124,11 @@ export default function ExplorePage() {
       {cityOnly && <AreaFilter area={area} onChange={setArea} />}
     </div>
   );
+
+  // The title always sits on exactly one line, filling it on phones. Area
+  // names are short, so they keep the base size and only ever shrink.
+  const titleRef = useRef(null);
+  useFitOneLine(titleRef, [titleText, lang, loading], { maxScale: areaActive ? 1 : 1.5 });
 
   if (loading) return (
     <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -132,19 +141,10 @@ export default function ExplorePage() {
       <div className="explore-header">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: 12 }}>
           <div style={{ flex: '1 1 320px', minWidth: 0 }}>
-            {areaActive ? (
-              <>
-                <h1 className="px-title explore-title" style={{ fontSize: 13 }}>
-                  {convert(area.kind === 'district' ? t('detail.district', { n: area.value.slice(6) }) : quarterName(area.value, lang))}
-                </h1>
-                {areaBlurb && <p className="explore-area-blurb">{convert(areaBlurb[lang] || areaBlurb.en)}</p>}
-              </>
-            ) : (
-              <>
-                <h1 className="px-title explore-title" style={{ fontSize: 13 }}>{t(guest ? 'explore.titleGuest' : cityOnly ? 'explore.titleCity' : 'explore.title')}</h1>
-                {!cityOnly && <p className="explore-area-blurb">{convert(t('explore.allBlurb'))}</p>}
-              </>
-            )}
+            <h1 ref={titleRef} className="px-title explore-title explore-title--fit">{titleText}</h1>
+            {areaActive
+              ? areaBlurb && <p className="explore-area-blurb">{convert(areaBlurb[lang] || areaBlurb.en)}</p>
+              : !cityOnly && <p className="explore-area-blurb">{convert(t('explore.allBlurb'))}</p>}
           </div>
           <div className="explore-header__scope">{scopeToggle}</div>
         </div>
