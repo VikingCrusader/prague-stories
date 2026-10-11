@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { userAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
@@ -9,7 +10,8 @@ import AchievementBadge from '../components/dashboard/AchievementBadge';
 import { useWakeLock } from '../hooks/useWakeLock';
 
 export default function DashboardPage() {
-  const { user, guest }  = useAuth();
+  const { user, guest, logout } = useAuth();
+  const navigate         = useNavigate();
   const t                = useT();
   const { lang }         = useLang();
   const convert          = useConvert();
@@ -37,9 +39,17 @@ export default function DashboardPage() {
 
   return (
     <div className="dashboard-page">
-      <h1 className="px-title dashboard-title" style={{ fontSize: guest ? 22 : 26, marginBottom: 20 }}>
-        {guest && !user ? t('dashboard.titleGuest') : t('dashboard.title')}
-      </h1>
+      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: 12, marginBottom: 20 }}>
+        <h1 className="px-title dashboard-title" style={{ fontSize: guest ? 22 : 26, margin: 0 }}>
+          {guest && !user ? t('dashboard.titleGuest') : t('dashboard.title')}
+        </h1>
+        {/* Logout lives here rather than in the navbar (2026-10-11). */}
+        {user && (
+          <button className="px-btn px-btn--dark px-btn--sm" style={{ flexShrink: 0 }} onClick={() => { logout(); navigate('/login'); }}>
+            {t('nav.logout')}
+          </button>
+        )}
+      </div>
 
       {/* Level + XP */}
       <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap', marginBottom: 24 }}>

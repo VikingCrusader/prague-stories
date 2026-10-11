@@ -42,7 +42,7 @@ test.beforeEach(async ({ page }) => {
 
 test.describe('Dashboard', () => {
   test('shows level, XP, and stat cards for a logged-in explorer', async ({ page }) => {
-    await expect(page.getByRole('heading', { name: 'Explorer Dashboard' })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Explorer Profile' })).toBeVisible();
     await expect(page.locator('.level-badge__num')).toHaveText('LVL 2');
     await expect(page.locator('.level-badge__title')).toHaveText('Apprentice Explorer');
     await expect(page.getByText('140 / 200')).toBeVisible();

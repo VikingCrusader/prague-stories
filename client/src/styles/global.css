@@ -850,8 +850,29 @@ html:not([data-lang="zh"]) .navbar__logo {
   font-size: 30px;
   line-height: 1;
 }
+/* Phones: the wordmark scales with the screen so it fills the navbar row
+   next to the right cluster; sized per language, since the Czech wordmark,
+   its logout label and the Chinese 简/繁 tabs all need more room. */
 @media (max-width: 600px) {
-  html:not([data-lang="zh"]) .navbar__logo { font-size: 22px; }
+  html[data-lang="en"] .navbar__logo { font-size: min(6.7vw, 30px); }
+  html[data-lang="cz"] .navbar__logo { font-size: min(5.5vw, 26px); }
+  /* Signed in, the cluster has no login/logout button (logout moved to
+     the Profile page), so the wordmark can take more of the row. */
+  html[data-lang="en"] .navbar--user .navbar__logo { font-size: min(7vw, 30px); }
+  html[data-lang="cz"] .navbar--user .navbar__logo { font-size: min(6.2vw, 28px); }
+  /* The language tabs share the logo's bottom edge and reach up to the
+     cap height of the wordmark's P and S: 0.84 × the wordmark size,
+     measured off the rendered Manufacturing Consent glyphs. */
+  .navbar.navbar--user .navbar__right .lang-tab {
+    display: flex;
+    align-items: center;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  .navbar.navbar--user .navbar__right { align-items: flex-end; }
+  html[data-lang="en"] .navbar--user .navbar__right .lang-tabs { height: calc(min(7vw, 30px) * 0.84); }
+  html[data-lang="cz"] .navbar--user .navbar__right .lang-tabs { height: calc(min(6.2vw, 28px) * 0.84); }
+  html[data-lang="zh"] .navbar--user .navbar__right .lang-tabs { height: calc(min(5.4vw, 26px) * 0.84); }
 }
 /* Chinese shows the English wordmark too (Navbar.jsx), so it needs the
    same face; .navbar in the selector outranks the zh pixel-font and size
@@ -864,7 +885,8 @@ html[data-lang="zh"] .navbar .navbar__logo {
   line-height: 1;
 }
 @media (max-width: 600px) {
-  html[data-lang="zh"] .navbar .navbar__logo { font-size: 22px !important; }
+  html[data-lang="zh"] .navbar .navbar__logo { font-size: min(5.1vw, 26px) !important; }
+  html[data-lang="zh"] .navbar.navbar--user .navbar__logo { font-size: min(5.4vw, 26px) !important; }
 }
 /* Chinese: LXGW WenKai TC bold (kaishu) for both Simplified and
    Traditional (2026-10-09, user's pick over Ma Shan Zheng). !important to
@@ -987,8 +1009,8 @@ html:not([data-lang="zh"]) .history-event__quote-text {
   font-weight: 700;
 }
 
-/* Explore (and Map) filter buttons, their dropdown options and the Add
-   Location button, the search box and the collected/showing counts:
+/* Explore (and Map) filter buttons (incl. the city/all toggle), their
+   dropdown options, the search box and the collected/showing counts:
    Palatino,
    bold, EN/CZ (2026-10-09, user request). */
 html:not([data-lang="zh"]) .filter-btn,
@@ -996,7 +1018,7 @@ html:not([data-lang="zh"]) .label-filter__panel .label-pill,
 html:not([data-lang="zh"]) .filter-bar__search,
 html:not([data-lang="zh"]) .filter-bar__search::placeholder,
 html:not([data-lang="zh"]) .explore-stats,
-html:not([data-lang="zh"]) .explore-header__add {
+html:not([data-lang="zh"]) .explore-area-blurb {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", serif !important;
   font-weight: 700;
 }

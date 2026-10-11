@@ -7,6 +7,9 @@ import { getLocName } from '../utils/locName';
 import { getCurrentPosition, haversineDistance, formatDistance } from '../utils/geolocation';
 import { useUserPosition } from '../hooks/useUserPosition';
 import MapView from '../components/map/MapView';
+import ScopeToggle, { isInCity } from '../components/locations/ScopeToggle';
+import AreaFilter, { matchesArea } from '../components/locations/AreaFilter';
+import DistrictLine, { descriptiveLabels } from '../components/locations/DistrictLine';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../utils/pixelArtMap';
 import { getLocalCoverPath } from '../utils/localCover';
 import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, lockClosedIcon } from '../utils/rarity';
@@ -29,6 +32,8 @@ export default function MapPage() {
   const [labelsOpen, setLabelsOpen]         = useState(false);
   const [raritiesOpen, setRaritiesOpen]     = useState(false);
   const [search, setSearch]                 = useState('');
+  const [cityOnly, setCityOnly]             = useState(true);
+  const [area, setArea]                     = useState(null);
   const filterPanelRef  = useRef(null);
   const rarityPanelRef  = useRef(null);
 
@@ -64,7 +69,7 @@ export default function MapPage() {
   }, [raritiesOpen]);
 
   const filteredLocations = useMemo(() => {
-    let list = locations;
+    let list = cityOnly ? locations.filter(l => isInCity(l) && matchesArea(l, area)) : locations;
     if (activeLabels.size > 0) {
       list = list.filter(l =>
         Array.from(activeLabels).every(lb => (l.labels || []).includes(lb))
@@ -82,7 +87,14 @@ export default function MapPage() {
       );
     }
     return list;
-  }, [locations, activeLabels, activeRarities, search]);
+  }, [locations, cityOnly, area, activeLabels, activeRarities, search]);
+
+  // An `outside` label filter would empty the map in "City only" mode.
+  useEffect(() => {
+    if (cityOnly && activeLabels.has('outside')) {
+      setActiveLabels(prev => { const next = new Set(prev); next.delete('outside'); return next; });
+    }
+  }, [cityOnly, activeLabels]);
 
   useEffect(() => {
     if (!selectedSlug) return;
@@ -137,6 +149,7 @@ export default function MapPage() {
           locations={filteredLocations}
           selectedSlug={selectedSlug}
           onLocationClick={setSelectedSlug}
+          cityOnly={cityOnly}
         />
       </div>
 
@@ -149,7 +162,7 @@ export default function MapPage() {
             value={search}
             onChange={e => setSearch(e.target.value)}
           />
-          <div style={{ display: 'flex', gap: 8 }}>
+          <div className="filter-row" style={{ display: 'flex', gap: 8 }}>
             <div className="label-filter" ref={filterPanelRef} style={{ flex: 1, minWidth: 0 }}>
               <button
                 className={`filter-btn${labelsOpen || activeLabels.size > 0 ? ' filter-btn--active' : ''}`}
@@ -160,7 +173,7 @@ export default function MapPage() {
               </button>
               {labelsOpen && (
                 <div className="label-filter__panel label-filter__panel--inline">
-                  {Object.entries(LABEL_DEFINITIONS).map(([key, def]) => (
+                  {Object.entries(LABEL_DEFINITIONS).filter(([key]) => !(cityOnly && key === 'outside')).map(([key, def]) => (
                     <button
                       key={key}
                       className={`label-pill${activeLabels.has(key) ? ' label-pill--active' : ''}`}
@@ -215,6 +228,10 @@ export default function MapPage() {
                 </div>
               )}
             </div>
+          </div>
+          <div style={{ display: 'flex', gap: 8, marginTop: 8, alignItems: 'flex-start' }}>
+            <ScopeToggle cityOnly={cityOnly} onChange={city => { setCityOnly(city); if (!city) setArea(null); }} style={{ flex: 1, minWidth: 0 }} />
+            {cityOnly && <AreaFilter area={area} onChange={setArea} style={{ flex: 1, minWidth: 0 }} />}
           </div>
           <p className="map-sidebar__count" style={{ marginTop: 8, color: 'var(--text-muted)' }}>
             {t('grid.showing')} {filteredLocations.length}
@@ -415,7 +432,7 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
           </div>
         )}
         <div className="loc-card__labels" style={{ marginBottom: 4 }}>
-          {(loc.labels || []).slice(0, 3).map((lb, i) => (
+          {descriptiveLabels(loc.labels).slice(0, 3).map((lb, i) => (
             <span
               key={lb}
               className={`detail-label-pill${i === 0 ? ' detail-label-pill--superior' : ''}`}
@@ -426,6 +443,7 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
             </span>
           ))}
         </div>
+        <DistrictLine loc={loc} style={{ marginBottom: 4 }} />
 
         {(() => {
           const paras = desc ? desc.split('\n').filter(l => l.trim()) : [];

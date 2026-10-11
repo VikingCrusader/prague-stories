@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { MapContainer, TileLayer, CircleMarker, Tooltip, useMap, useMapEvents } from 'react-leaflet';
 import { useLang, useConvert } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
@@ -58,7 +58,43 @@ function Markers({ locations, selectedSlug, onLocationClick, lang, convert }) {
   );
 }
 
-export default function MapView({ locations, selectedSlug, onLocationClick }) {
+// Bounding boxes: Prague's administrative boundary (OSM relation 435514)
+// and the Czech Republic.
+const PRAGUE_BOUNDS  = [[49.9419, 14.2244], [50.1774, 14.7068]];
+const CZECHIA_BOUNDS = [[48.55, 12.09], [51.06, 18.86]];
+// Grow a [[s, w], [n, e]] box by a fraction of its size on every side.
+const padBounds = ([[s, w], [n, e]], f) => {
+  const dy = (n - s) * f, dx = (e - w) * f;
+  return [[s - dy, w - dx], [n + dy, e + dx]];
+};
+
+// The map stays on the area in play, Prague ("City only") or the Czech
+// Republic ("Show all"): the minimum zoom just fits it in the current map
+// size (recomputed on resize), and panning is fenced to it with a margin.
+// Dragging past the fence meets some resistance and springs back, animated,
+// on release (Leaflet's maxBounds with a viscosity below 1).
+function MapAreaLimit({ cityOnly }) {
+  const map = useMap();
+  useEffect(() => {
+    const apply = () => {
+      // getBoundsZoom clamps to the current minZoom and maxBounds, so reset
+      // both first.
+      map.setMaxBounds(null);
+      map.setMinZoom(0);
+      const z = map.getBoundsZoom(cityOnly ? PRAGUE_BOUNDS : CZECHIA_BOUNDS);
+      map.setMinZoom(z);
+      map.options.maxBoundsViscosity = 0.6;
+      map.setMaxBounds(padBounds(cityOnly ? PRAGUE_BOUNDS : CZECHIA_BOUNDS, cityOnly ? 0.25 : 0.15));
+      if (map.getZoom() < z) map.setZoom(z);
+    };
+    apply();
+    map.on('resize', apply);
+    return () => { map.off('resize', apply); };
+  }, [map, cityOnly]);
+  return null;
+}
+
+export default function MapView({ locations, selectedSlug, onLocationClick, cityOnly = false }) {
   const { lang } = useLang();
   const convert = useConvert();
 
@@ -73,6 +109,7 @@ export default function MapView({ locations, selectedSlug, onLocationClick }) {
         attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
+      <MapAreaLimit cityOnly={cityOnly} />
       <Markers
         locations={locations}
         selectedSlug={selectedSlug}

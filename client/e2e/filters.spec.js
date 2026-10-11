@@ -72,17 +72,6 @@ test.describe('Explore grid — search & filters', () => {
     expect(names).toContain('Charles Bridge');
   });
 
-  test('the "All" button clears every active filter', async ({ page }) => {
-    await page.getByPlaceholder('Search locations...').fill('bridge');
-    await page.getByRole('button', { name: 'My Collections' }).click();
-    await expect(page.locator('.loc-card')).toHaveCount(1);
-
-    await page.getByRole('button', { name: 'All' }).click();
-
-    await expect(page.locator('.loc-card')).toHaveCount(4);
-    await expect(page.getByPlaceholder('Search locations...')).toHaveValue('');
-  });
-
   test('sorting by Top Rarity reorders the grid, legend first', async ({ page }) => {
     await page.getByRole('button', { name: 'Distance ▼' }).click();
     await page.locator('.label-filter__panel').getByRole('button', { name: 'Top Rarity' }).click();

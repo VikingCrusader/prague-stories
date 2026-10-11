@@ -15,7 +15,7 @@ const SORT_KEY = { distance: 'grid.sortDistance', newest: 'grid.sortNewest', rar
 // every search keystroke stall.
 const PAGE_SIZE = 60;
 
-export default function LocationGrid({ locations, onCardClick, onAddClick }) {
+export default function LocationGrid({ locations, onCardClick, scopeToggle, hideOutsideLabel }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -79,14 +79,6 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
     });
   };
 
-  const clearAll = () => {
-    setDiscovered(false);
-    setActiveLabels(new Set());
-    setActiveRarities(new Set());
-    setSearch('');
-    setSort('distance');
-  };
-
   const filtered = useMemo(() => {
     let list = locations;
     if (discovered) list = list.filter(l => l.unlocked);
@@ -121,6 +113,14 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
     setVisibleCount(PAGE_SIZE);
   }, [discovered, activeLabels, activeRarities, deferredSearch, sort]);
 
+  // "City only" hides every `outside` card, so an active `outside` filter
+  // would leave an empty grid; drop it when switching back to the city.
+  useEffect(() => {
+    if (hideOutsideLabel && activeLabels.has('outside')) {
+      setActiveLabels(prev => { const next = new Set(prev); next.delete('outside'); return next; });
+    }
+  }, [hideOutsideLabel, activeLabels]);
+
   const hasMore = visibleCount < filtered.length;
 
   useEffect(() => {
@@ -146,19 +146,9 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
             value={search}
             onChange={e => setSearch(e.target.value)}
           />
-          {onAddClick && (
-            <button className="px-btn px-btn--outline filter-bar__add-btn" onClick={onAddClick}>
-              {t('explore.addLocation')}
-            </button>
-          )}
+          {scopeToggle && <div className="filter-bar__scope">{scopeToggle}</div>}
         </div>
         <div className="filter-bar__bottom">
-          <button
-            className={`filter-btn${!discovered && activeLabels.size === 0 && activeRarities.size === 0 ? ' filter-btn--active' : ''}`}
-            onClick={clearAll}
-          >
-            {t('grid.filterAll')}
-          </button>
           <button
             className={`filter-btn${discovered ? ' filter-btn--active' : ''}`}
             onClick={() => {
@@ -180,7 +170,7 @@ export default function LocationGrid({ locations, onCardClick, onAddClick }) {
             </button>
             {labelsOpen && (
               <div className="label-filter__panel">
-                {Object.entries(LABEL_DEFINITIONS).map(([key, def]) => (
+                {Object.entries(LABEL_DEFINITIONS).filter(([key]) => !(hideOutsideLabel && key === 'outside')).map(([key, def]) => (
                   <button
                     key={key}
                     className={`label-pill${activeLabels.has(key) ? ' label-pill--active' : ''}`}

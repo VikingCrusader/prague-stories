@@ -13,6 +13,7 @@ import { getLocName } from "../../utils/locName";
 import { getCurrentPosition, haversineDistance, formatDistance } from "../../utils/geolocation";
 import { useUserPosition } from "../../hooks/useUserPosition";
 import EditLocationForm from "./EditLocationForm";
+import DistrictLine, { descriptiveLabels } from "./DistrictLine";
 import {
   RARITY_VAR,
   RARITY_LABEL, RARITY_ICON,
@@ -497,9 +498,9 @@ export default function LocationDetail({
                 )}
               </div>
 
-              {(loc.labels || []).length > 0 && (
-                <div className="loc-card__labels" style={{ marginBottom: 14 }}>
-                  {(loc.labels || []).map((lb, i) => (
+              {descriptiveLabels(loc.labels).length > 0 && (
+                <div className="loc-card__labels" style={{ marginBottom: 8 }}>
+                  {descriptiveLabels(loc.labels).map((lb, i) => (
                     <span
                       key={lb}
                       className={`detail-label-pill${i === 0 ? " detail-label-pill--superior" : ""}`}
@@ -517,6 +518,8 @@ export default function LocationDetail({
                   ))}
                 </div>
               )}
+
+              <DistrictLine loc={loc} style={{ marginBottom: 14 }} />
 
               {(() => {
                 const paras = description

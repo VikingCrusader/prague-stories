@@ -5,15 +5,14 @@ import LanguageSwitcher from './LanguageSwitcher';
 import ThemeToggle from './ThemeToggle';
 
 export default function Navbar() {
-  const { user, guest, logout } = useAuth();
+  const { user, guest } = useAuth();
   const navigate = useNavigate();
   const t = useT();
   const { lang } = useLang();
 
-  const handleLogout = () => { logout(); navigate('/login'); };
 
   return (
-    <nav className="navbar">
+    <nav className={`navbar${user ? ' navbar--user' : ''}`}>
       <span className="navbar__logo" onClick={() => window.location.reload()} style={{ cursor: 'pointer' }}>
         {/* Gold logo on the dark theme, wine-red copy on the light theme;
             CSS shows one or the other (pixelart.css). */}
@@ -51,10 +50,7 @@ export default function Navbar() {
         <ThemeToggle />
         <LanguageSwitcher />
         {user ? (
-          <>
-            <span className="navbar__user">{(user.totalXP ?? 0).toLocaleString(lang === 'cz' ? 'cs-CZ' : 'en-US')} XP · Lv {user.explorerLevel}</span>
-            <button className="px-btn px-btn--dark px-btn--sm" onClick={handleLogout}>{t('nav.logout')}</button>
-          </>
+          <span className="navbar__user">{(user.totalXP ?? 0).toLocaleString(lang === 'cz' ? 'cs-CZ' : 'en-US')} XP · Lv {user.explorerLevel}</span>
         ) : guest ? (
           <button className="px-btn px-btn--gold px-btn--sm" onClick={() => navigate('/login')}>{t('nav.login')}</button>
         ) : null}

@@ -74,7 +74,7 @@ test.describe('Level-up celebration — Explore page', () => {
 
     await page.goto('/explore');
     await page.locator('.loc-card').first().click();
-    await page.locator('.px-modal').getByRole('button', { name: '★ Collect' }).click();
+    // Within 50 m, opening a locked card collects it automatically (no Collect click).
 
     // The regular check-in summary still shows...
     await expect(page.locator('.px-modal').getByText('COLLECTED!')).toBeVisible();
@@ -116,7 +116,7 @@ test.describe('Level-up celebration — Explore page', () => {
 
     await page.goto('/explore');
     await page.locator('.loc-card').first().click();
-    await page.locator('.px-modal').getByRole('button', { name: '★ Collect' }).click();
+    // Within 50 m, opening a locked card collects it automatically (no Collect click).
 
     await expect(page.locator('.px-modal').getByText('COLLECTED!')).toBeVisible();
     await expect(page.locator('.levelup-modal')).toHaveCount(0);

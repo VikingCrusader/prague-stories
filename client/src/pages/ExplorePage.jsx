@@ -1,19 +1,24 @@
 import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { locationAPI } from '../services/api';
-import { useT } from '../context/LanguageContext';
+import { useT, useLang, useConvert } from '../context/LanguageContext';
+import { quarterName } from '../utils/pragueQuarters';
+import { AREA_BLURBS } from '../utils/areaBlurbs';
 import { useAuth } from '../context/AuthContext';
 import { useUserPosition } from '../hooks/useUserPosition';
 import { haversineDistance, NEARBY_REVEAL_M } from '../utils/geolocation';
 import LocationGrid from '../components/locations/LocationGrid';
 import LocationDetail from '../components/locations/LocationDetail';
-import AddLocationForm from '../components/locations/AddLocationForm';
 import ToastContainer from '../components/shared/Toast';
+import ScopeToggle, { isInCity } from '../components/locations/ScopeToggle';
+import AreaFilter, { matchesArea } from '../components/locations/AreaFilter';
 
 let toastId = 0;
 
 export default function ExplorePage() {
   const t = useT();
+  const { lang } = useLang();
+  const convert = useConvert();
   const { user, guest } = useAuth();
   const { state, search } = useLocation();
   const navigate = useNavigate();
@@ -21,7 +26,11 @@ export default function ExplorePage() {
   const [locations, setLocations]       = useState([]);
   const [selectedSlug, setSelectedSlug] = useState(null);
   const [autoCheckIn, setAutoCheckIn]   = useState(false);
-  const [showAdd, setShowAdd]           = useState(false);
+  // Default to the city proper: cards tagged `outside` lie beyond Prague's
+  // administrative boundary (day trips), shown only on "Show all".
+  const [cityOnly, setCityOnly]         = useState(true);
+  // District / historical-quarter filter; only offered in "City only" mode.
+  const [area, setArea]                 = useState(null);
   const [loading, setLoading]           = useState(true);
   const [toasts, setToasts]             = useState([]);
 
@@ -66,26 +75,25 @@ export default function ExplorePage() {
     );
   };
 
-  const handleLocationAdded = (newLoc) => {
-    setLocations(prev => [...prev, { ...newLoc, unlocked: false }]);
-    setShowAdd(false);
-    addToast('Location added! Check it in on the map.');
-  };
-
   const handleUpdate = (updatedLoc) => {
     setLocations(prev => prev.map(l => l.slug === updatedLoc.slug ? { ...l, ...updatedLoc } : l));
     addToast('Location updated.', 'success');
   };
 
+  const scopedLocations = useMemo(
+    () => (cityOnly ? locations.filter(l => isInCity(l) && matchesArea(l, area)) : locations),
+    [locations, cityOnly, area],
+  );
+
   const sortedLocations = useMemo(() => {
-    if (!userPos) return locations;
-    return [...locations]
+    if (!userPos) return scopedLocations;
+    return [...scopedLocations]
       .map(l => ({
         ...l,
         _distance: haversineDistance(userPos.lat, userPos.lng, l.coordinates.lat, l.coordinates.lng),
       }))
       .sort((a, b) => a._distance - b._distance);
-  }, [locations, userPos]);
+  }, [scopedLocations, userPos]);
 
   // Tapping a locked card within NEARBY_REVEAL_M (the wobbling lock) opens
   // the detail and collects it, the same flow as the 50 m notification
@@ -101,6 +109,18 @@ export default function ExplorePage() {
     setSelectedSlug(slug);
   }, []);
 
+  // With an area picked, the title becomes the area's name plus a short intro.
+  const areaActive = cityOnly && area;
+  const areaBlurb  = areaActive ? AREA_BLURBS[area.kind]?.[area.value] : null;
+
+  const changeScope = city => { setCityOnly(city); if (!city) setArea(null); };
+  const scopeToggle = (
+    <div className="scope-controls">
+      <ScopeToggle cityOnly={cityOnly} onChange={changeScope} />
+      {cityOnly && <AreaFilter area={area} onChange={setArea} />}
+    </div>
+  );
+
   if (loading) return (
     <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
       <div className="spinner" />
@@ -111,18 +131,26 @@ export default function ExplorePage() {
     <div className="explore-page">
       <div className="explore-header">
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', flexWrap: 'wrap', gap: 12 }}>
-          <div>
-            <h1 className="px-title explore-title" style={{ fontSize: 13 }}>{t(guest ? 'explore.titleGuest' : 'explore.title')}</h1>
+          <div style={{ flex: '1 1 320px', minWidth: 0 }}>
+            {areaActive ? (
+              <>
+                <h1 className="px-title explore-title" style={{ fontSize: 13 }}>
+                  {convert(area.kind === 'district' ? t('detail.district', { n: area.value.slice(6) }) : quarterName(area.value, lang))}
+                </h1>
+                {areaBlurb && <p className="explore-area-blurb">{convert(areaBlurb[lang] || areaBlurb.en)}</p>}
+              </>
+            ) : (
+              <>
+                <h1 className="px-title explore-title" style={{ fontSize: 13 }}>{t(guest ? 'explore.titleGuest' : cityOnly ? 'explore.titleCity' : 'explore.title')}</h1>
+                {!cityOnly && <p className="explore-area-blurb">{convert(t('explore.allBlurb'))}</p>}
+              </>
+            )}
           </div>
-          {!guest && (
-            <button className="px-btn px-btn--outline explore-header__add" onClick={() => setShowAdd(true)}>
-              {t('explore.addLocation')}
-            </button>
-          )}
+          <div className="explore-header__scope">{scopeToggle}</div>
         </div>
       </div>
 
-      <LocationGrid locations={sortedLocations} onCardClick={handleCardClick} onAddClick={guest ? null : () => setShowAdd(true)} />
+      <LocationGrid locations={sortedLocations} onCardClick={handleCardClick} scopeToggle={scopeToggle} hideOutsideLabel={cityOnly} />
 
       {selectedSlug && (
         <LocationDetail
@@ -131,13 +159,6 @@ export default function ExplorePage() {
           onCheckIn={handleCheckIn}
           onUpdate={handleUpdate}
           autoCheckIn={autoCheckIn}
-        />
-      )}
-
-      {showAdd && (
-        <AddLocationForm
-          onClose={() => setShowAdd(false)}
-          onAdded={handleLocationAdded}
         />
       )}
 

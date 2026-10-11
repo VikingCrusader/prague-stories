@@ -49,7 +49,7 @@ test.describe('Check-in flow', () => {
     await page.locator('.loc-card').first().click();
 
     const modal = page.locator('.px-modal');
-    await modal.getByRole('button', { name: '★ Collect' }).click();
+    // Within 50 m, opening a locked card collects it automatically (no Collect click).
 
     await expect(modal.getByText('COLLECTED!')).toBeVisible();
     await expect(modal.locator('p', { hasText: '+100 XP' })).toBeVisible();
@@ -88,7 +88,7 @@ test.describe('Check-in flow', () => {
 
     await page.goto('/explore');
     await page.locator('.loc-card').first().click();
-    await page.locator('.px-modal').getByRole('button', { name: '★ Collect' }).click();
+    // Within 50 m, opening a locked card collects it automatically (no Collect click).
 
     await expect(page.getByText('+100 XP earned! Apprentice Explorer')).toBeVisible();
     await expect(page.getByText('Achievement unlocked: first checkin')).toBeVisible();

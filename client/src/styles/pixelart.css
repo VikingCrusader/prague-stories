@@ -683,6 +683,11 @@ html .loc-card__labels .label-pill-sm.draw-xp-pill {
   min-width: 300px;
   max-width: 500px;
 }
+.filter-row { flex-wrap: wrap; }
+/* Map sidebar: same trick, an open panel takes the full row below. */
+.filter-row > .label-filter { display: contents; }
+.filter-row > .label-filter > .filter-btn { flex: 1 1 0; min-width: 0; }
+.filter-row .label-filter__panel { order: 99; flex: 1 1 100%; margin-top: 0; }
 .label-filter__panel--inline {
   position: static;
   border: 2px solid var(--border);
@@ -1058,6 +1063,12 @@ html:not([data-lang="zh"]) .navbar__link {
 .explore-page { flex: 1; padding: 20px 24px; max-width: 1600px; margin: 0 auto; width: 100%; }
 .explore-header { margin-bottom: 20px; }
 .explore-header h1 { font-size: 13px; margin-bottom: 8px; }
+.explore-area-blurb {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.55;
+  color: var(--text-muted);
+}
 .explore-stats { font-size: 17px; color: var(--text-muted); }
 .explore-stats span { color: var(--gold); }
 
@@ -1070,7 +1081,11 @@ html:not([data-lang="zh"]) .navbar__link {
 }
 .filter-bar__top { display: contents; }
 .filter-bar__bottom { display: contents; }
-.filter-bar__add-btn { display: none; }
+.filter-bar__scope { display: none; }
+.scope-toggle { flex-shrink: 0; white-space: nowrap; }
+.scope-controls { display: flex; gap: 8px; align-items: flex-start; }
+.area-filter__tabs { display: flex; gap: 6px; width: 100%; margin-bottom: 4px; }
+.area-filter__tabs > .filter-btn { flex: 1; }
 .filter-bar__search {
   background: var(--bg-input, #080a18);
   border: 3px solid var(--border);
@@ -1540,9 +1555,22 @@ html[data-lang="zh"] .detail-title-name {
 @media (max-width: 600px) {
   /* Navbar: logo + right on row 1, nav links full-width on row 2 */
   .navbar { padding: 8px 10px; height: auto; flex-wrap: wrap; }
-  .navbar__logo { order: 1; font-size: 14px; }
+  .navbar__logo { order: 1; font-size: 14px; white-space: nowrap; }
   .navbar__logo-icon { height: 28px; }
-  .navbar__right { order: 2; margin-left: auto; gap: 8px; }
+  /* No GitHub link on phones, so the logo and the right cluster fit on
+     one row instead of the cluster wrapping under a lonely logo. */
+  .navbar__github { display: none; }
+  .navbar { column-gap: 8px; }
+  .navbar__right { order: 2; margin-left: auto; gap: 4px; flex-wrap: nowrap; }
+  .navbar .navbar__right .lang-tab { padding: 5px 5px; letter-spacing: 0 !important; }
+  html[data-lang="zh"] .navbar .navbar__right .lang-tab { font-size: 12px !important; }
+  .navbar .navbar__right .px-btn--sm { padding: 5px 7px; letter-spacing: 0 !important; }
+  .navbar__logo { gap: 5px; }
+  .navbar__logo-icon { height: 1.3em; }
+  /* Signed in there is no login button, so the language tabs get proper
+     tap-sized padding instead of the tight guest sizing. */
+  .navbar.navbar--user .navbar__right .lang-tab { padding: 8px 11px; font-size: 13px; }
+  html[data-lang="zh"] .navbar.navbar--user .navbar__right .lang-tab { padding: 8px 8px; font-size: 13px !important; }
   .navbar__links {
     order: 3;
     width: 100%;
@@ -1567,23 +1595,37 @@ html[data-lang="zh"] .detail-title-name {
 
   /* Explore */
   .explore-page { padding: 12px 14px; }
-  .explore-header__add { display: none; }
+  .explore-header__scope { display: none; }
   .filter-btn { font-size: 12px; padding: 5px 8px; }
   .filter-bar { flex-direction: column; flex-wrap: nowrap; align-items: stretch; }
   .filter-bar__top { display: flex; gap: 8px; align-items: stretch; }
   .filter-bar__bottom { display: flex; gap: 8px; flex-wrap: wrap; }
-  .filter-bar__add-btn { display: inline-flex; padding: 5px 10px; font-size: 12px; }
+  .filter-bar__scope { display: flex; }
+  .filter-bar__scope .filter-btn { white-space: nowrap; }
+  /* Search gets its own full-width row; the scope + area buttons go on the
+     next row as two equal halves, lining up with the filter grid below. */
+  .filter-bar__top { flex-wrap: wrap; }
+  .filter-bar__top > .filter-bar__search { flex: 1 1 100%; }
+  .filter-bar__scope { flex: 1 1 100%; }
+  .filter-bar__scope .scope-controls { flex: 1; align-items: stretch; }
+  .filter-bar__scope .scope-controls > * { flex: 1 1 0; min-width: 0; }
+  .filter-bar__scope .area-filter { display: flex; }
   .filter-bar__search { min-width: 0; }
+  /* The dropdown wrappers drop out of the layout (display: contents), so
+     an open Labels/Rarity panel becomes its own full-width row under the
+     buttons, instead of a one-column strip inside its button's third of
+     the row that stretched My Collections to the panel's height. */
   .filter-bar__bottom > .filter-btn,
-  .filter-bar__bottom > .label-filter { flex: 1 1 calc(50% - 4px); min-width: 0; }
-  .filter-bar__bottom > .label-filter > .filter-btn { width: 100%; }
+  .filter-bar__bottom > .label-filter > .filter-btn { flex: 1 1 0; min-width: 0; }
+  .filter-bar__bottom > .label-filter { display: contents; }
   .filter-bar__bottom .label-filter__panel {
     position: static;
+    order: 99;
+    flex: 1 1 100%;
     min-width: 0;
-    width: 100%;
+    max-width: none;
     box-sizing: border-box;
     box-shadow: none;
-    margin-top: 4px;
   }
   .location-grid { grid-template-columns: repeat(2, 1fr); gap: 10px; }
   .loc-card__name { font-size: 15px; }
@@ -1643,5 +1685,16 @@ html[data-lang="zh"] .detail-title-name {
   html[data-lang="zh"] .label-pill   { font-size: 11px !important; }
   html[data-lang="zh"] .px-btn       { font-size: 12px !important; }
   html[data-lang="zh"] .px-btn--sm   { font-size: 11px !important; }
-  html[data-lang="zh"] .filter-bar__add-btn { font-size: 13px !important; }
+}
+
+/* Narrow phones (360px class): shrink the navbar row a little more so the
+   logo and the right cluster still share one line (EN/CZ/ZH). */
+@media (max-width: 380px) {
+  .navbar .navbar__right .lang-tab { padding: 4px 4px; font-size: 11px; }
+  html[data-lang="zh"] .navbar .navbar__right .lang-tab { font-size: 11px !important; }
+  .navbar .navbar__right .px-btn--sm { padding: 4px 5px; font-size: 11px; }
+  html[data-lang="zh"] .navbar .navbar__right .px-btn--sm { font-size: 11px !important; }
+  .navbar__theme svg { width: 20px; height: 20px; }
+  .navbar.navbar--user .navbar__right .lang-tab { padding: 7px 8px; font-size: 12px; }
+  html[data-lang="zh"] .navbar.navbar--user .navbar__right .lang-tab { padding: 7px 6px; font-size: 12px !important; }
 }

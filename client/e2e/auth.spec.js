@@ -38,7 +38,7 @@ test.describe('Register', () => {
     await page.getByRole('button', { name: '▶ Start Exploring' }).click();
 
     await expect(page).toHaveURL(/\/explore$/);
-    await expect(page.getByText('0XP LV1')).toBeVisible();
+    await expect(page.getByText('0 XP · Lv 1')).toBeVisible();
   });
 
   test('registering with a taken email shows the server error', async ({ page }) => {
@@ -89,7 +89,7 @@ test.describe('Login', () => {
     await page.getByRole('button', { name: '▶ Enter Prague' }).click();
 
     await expect(page).toHaveURL(/\/explore$/);
-    await expect(page.getByText('40XP LV2')).toBeVisible();
+    await expect(page.getByText('40 XP · Lv 2')).toBeVisible();
   });
 
   test('the guest fallback link on the login page skips auth entirely', async ({ page }) => {
@@ -112,8 +112,15 @@ test.describe('Logout', () => {
     await page.route('**/api/locations', route => route.fulfill({ json: [] }));
 
     await page.goto('/explore');
-    await expect(page.getByText('40XP LV2')).toBeVisible();
+    await expect(page.getByText('40 XP · Lv 2')).toBeVisible();
 
+    // Logout lives on the Profile page, not in the navbar.
+    await page.route('**/api/user/progress', route => route.fulfill({ json: {
+      levelInfo: { level: 2, title: 'Wanderer', progress: 10, nextLevelXP: 100 },
+      totalXP: 40, totalCheckins: 0, unlockPercent: 0, labelCount: {}, rarityCount: {}, totalPreset: 0,
+    } }));
+    await page.route('**/api/user/achievements', route => route.fulfill({ json: { achievements: [], levels: [] } }));
+    await page.getByRole('link', { name: 'Profile' }).click();
     await page.getByRole('button', { name: 'Logout' }).click();
 
     await expect(page).toHaveURL(/\/login$/);
