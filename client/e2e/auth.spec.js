@@ -127,3 +127,29 @@ test.describe('Logout', () => {
     await expect(await page.evaluate(() => localStorage.getItem('token'))).toBeNull();
   });
 });
+
+test.describe('Signed-in user and a cold-starting API', () => {
+  test('a failed /auth/me is retried, and the guest title gives way to the signed-in one', async ({ page }) => {
+    await page.addInitScript(() => localStorage.setItem('token', 'fake-jwt-token'));
+    let calls = 0;
+    await page.route('**/api/auth/me', route => {
+      calls += 1;
+      // The dev server runs React StrictMode, which fires the initial check
+      // twice, so fail the first two calls.
+      return calls <= 2
+        ? route.fulfill({ status: 503, body: 'waking up' })
+        : route.fulfill({ json: { user: { _id: 'u1', username: 'explorer', email: 'e@example.com', totalXP: 40, explorerLevel: 1 } } });
+    });
+    await page.route('**/api/locations', route => route.fulfill({ json: [] }));
+
+    await page.goto('/explore');
+    await expect(page.getByRole('heading', { name: 'Login to Explore Prague!' })).toBeVisible();
+    // The background retry (5 s) signs the user in without a reload.
+    await expect(page.getByRole('heading', { name: 'Login to Explore Prague!' })).toHaveCount(0, { timeout: 10000 });
+    await expect(page.getByText('40 XP', { exact: false }).first()).toBeVisible();
+
+    // A later reload in the same tab starts signed in, not as a leftover guest.
+    await page.reload();
+    await expect(page.getByRole('heading', { name: 'Login to Explore Prague!' })).toHaveCount(0);
+  });
+});

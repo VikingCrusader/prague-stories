@@ -35,11 +35,14 @@ export default function ExplorePage() {
   const [loading, setLoading]           = useState(true);
   const [toasts, setToasts]             = useState([]);
 
+  // Refetched when the signed-in user changes, e.g. when a sign-in that
+  // was retried in the background (AuthContext) lands after the first load.
+  const userId = user?._id;
   useEffect(() => {
     locationAPI.getAll()
       .then(res => setLocations(res.data))
       .finally(() => setLoading(false));
-  }, []);
+  }, [userId]);
 
   useEffect(() => {
     if (state?.openSlug) {

@@ -19,6 +19,8 @@ const RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
 const formatDate = (d) => new Date(d).toISOString().slice(0, 10);
 
 export default function MapPage() {
+  // Refetched when the signed-in user changes (see ExplorePage).
+  const userId = useAuth().user?._id;
   const { lang } = useLang();
   const t = useT();
   const convert = useConvert();
@@ -41,7 +43,7 @@ export default function MapPage() {
     locationAPI.getAll()
       .then(res => setLocations(res.data))
       .finally(() => setLoading(false));
-  }, []);
+  }, [userId]);
 
   useEffect(() => {
     const handler = (e) =>

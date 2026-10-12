@@ -128,3 +128,52 @@ describe('session restore', () => {
     await waitFor(() => expect(localStorage.getItem('token')).toBeNull());
   });
 });
+
+function GuestProbe() {
+  const { user, guest, loading } = useAuth();
+  return <div data-testid="state">{loading ? 'loading' : `${user ? 'user' : 'nouser'}/${guest ? 'guest' : 'noguest'}`}</div>;
+}
+
+describe('AuthContext — signed-in user vs leftover guest flag', () => {
+  beforeEach(() => {
+    localStorage.clear();
+    sessionStorage.clear();
+    authAPI.getMe.mockReset();
+  });
+  afterEach(() => jest.useRealTimers());
+
+  test('a valid token wins over a guest flag left in this tab', async () => {
+    // e.g. an earlier load fell back to guest mode while the API was cold-starting
+    sessionStorage.setItem('guest', 'true');
+    localStorage.setItem('token', 'tok');
+    authAPI.getMe.mockResolvedValue({ data: { user: BASE_USER } });
+    render(<AuthProvider><GuestProbe /></AuthProvider>);
+    await waitFor(() => expect(screen.getByTestId('state')).toHaveTextContent(/^user\/noguest$/));
+    expect(sessionStorage.getItem('guest')).toBeNull();
+  });
+
+  test('when /auth/me fails for a non-auth reason, it retries and signs the user in once it answers', async () => {
+    jest.useFakeTimers();
+    localStorage.setItem('token', 'tok');
+    authAPI.getMe
+      .mockRejectedValueOnce(new Error('Network Error'))
+      .mockResolvedValue({ data: { user: BASE_USER } });
+    render(<AuthProvider><GuestProbe /></AuthProvider>);
+    await waitFor(() => expect(screen.getByTestId('state')).toHaveTextContent(/^nouser\//));
+    await jest.advanceTimersByTimeAsync(10000);
+    await waitFor(() => expect(screen.getByTestId('state')).toHaveTextContent(/^user\/noguest$/));
+    jest.useRealTimers();
+  });
+
+  test('a 401 drops the token and does not retry', async () => {
+    jest.useFakeTimers();
+    localStorage.setItem('token', 'tok');
+    authAPI.getMe.mockRejectedValue({ response: { status: 401 } });
+    render(<AuthProvider><GuestProbe /></AuthProvider>);
+    await waitFor(() => expect(screen.getByTestId('state')).toHaveTextContent(/^nouser\//));
+    await jest.advanceTimersByTimeAsync(60000);
+    expect(authAPI.getMe).toHaveBeenCalledTimes(1);
+    expect(localStorage.getItem('token')).toBeNull();
+    jest.useRealTimers();
+  });
+});
