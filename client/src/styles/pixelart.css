@@ -2056,8 +2056,11 @@ html[data-lang="zh"] .detail-title-name {
 .leaderboard__name { font-weight: 700; overflow-wrap: anywhere; }
 .leaderboard__level { color: var(--text-muted); font-size: 14px; }
 .leaderboard__xp { text-align: right !important; font-variant-numeric: tabular-nums; font-weight: 700; color: var(--gold); white-space: nowrap; }
+.leaderboard__cards { text-align: right !important; font-variant-numeric: tabular-nums; white-space: nowrap; }
 .leaderboard__me td { background: color-mix(in srgb, var(--gold) 14%, transparent); }
 .leaderboard__you {
+  display: inline-block;
+  white-space: nowrap;
   margin-left: 8px;
   padding: 1px 6px;
   font-size: 12px;
@@ -2067,6 +2070,10 @@ html[data-lang="zh"] .detail-title-name {
 }
 .leaderboard__gap td { text-align: center; color: var(--text-muted); padding: 4px; }
 @media (max-width: 600px) {
-  .leaderboard th, .leaderboard td { padding: 8px 8px; }
+  .leaderboard th, .leaderboard td { padding: 8px 5px; }
+  .leaderboard__rank { width: 2em; }
   .leaderboard { font-size: 15px; }
+  /* Room for usernames and the cards column: level number only. */
+  .leaderboard__title { display: none; }
+  .leaderboard__level { white-space: nowrap; }
 }

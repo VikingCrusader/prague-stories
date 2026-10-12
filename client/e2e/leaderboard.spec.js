@@ -3,7 +3,7 @@ import { test, expect } from '@playwright/test';
 const USER = { _id: 'u1', username: 'explorer', email: 'e@example.com', totalXP: 140, explorerLevel: 2 };
 
 const row = (rank, username, totalXP, isMe = false) => ({
-  rank, username, totalXP, level: 2, title: 'Apprentice Explorer', title_zh: '见习探索者', isMe,
+  rank, username, totalXP, cards: Math.round(totalXP / 20), level: 2, title: 'Apprentice Explorer', title_zh: '见习探索者', isMe,
 });
 
 test.describe('Leaderboard', () => {
@@ -24,6 +24,7 @@ test.describe('Leaderboard', () => {
     await expect(rows).toHaveCount(5); // three entries, a gap row, and your own row
     await expect(rows.nth(0)).toContainText('ada');
     await expect(rows.nth(0)).toContainText('11,310');
+    await expect(rows.nth(0).locator('.leaderboard__cards')).toHaveText('566');
     await expect(rows.nth(2).locator('.leaderboard__rank')).toHaveText('2');
     await expect(page.locator('.leaderboard__me')).toContainText('explorer');
     await expect(page.locator('.leaderboard__me .leaderboard__you')).toHaveText('you');

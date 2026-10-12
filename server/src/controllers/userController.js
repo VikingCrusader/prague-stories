@@ -493,9 +493,9 @@ const LEADERBOARD_SIZE = 100;
 
 // XP leaderboard: every user with XP above zero (except accounts flagged
 // hideFromLeaderboard, e.g. test accounts), highest first, with their
-// level. Only the username is public, never the email. Tied XP shares a
-// rank (1, 2, 2, 4), ties listed oldest account first. A signed-in user
-// outside the top LEADERBOARD_SIZE gets their own row as `me`.
+// level and cards collected. Only the username is public, never the email.
+// Tied XP shares a rank (1, 2, 2, 4), ties listed oldest account first. A
+// signed-in user outside the top LEADERBOARD_SIZE gets their own row as `me`.
 export async function getLeaderboard(req, res, next) {
   try {
     const listed = { totalXP: { $gt: 0 }, hideFromLeaderboard: { $ne: true } };
@@ -505,12 +505,24 @@ export async function getLeaderboard(req, res, next) {
       .select('username totalXP')
       .lean();
     const meId = req.user?._id?.toString();
+    // Cards collected per user: check-ins on locations that still exist,
+    // counted the same way as the profile's card total.
+    const ids = top.map(u => u._id);
+    if (req.user) ids.push(req.user._id);
+    const counts = await CheckIn.aggregate([
+      { $match: { user: { $in: ids } } },
+      { $lookup: { from: 'locations', localField: 'location', foreignField: '_id', as: 'loc', pipeline: [{ $project: { _id: 1 } }] } },
+      { $match: { 'loc.0': { $exists: true } } },
+      { $group: { _id: '$user', n: { $sum: 1 } } },
+    ]);
+    const cardsOf = new Map(counts.map(c => [c._id.toString(), c.n]));
     const row = (u, rank) => {
       const lvl = calculateLevel(u.totalXP);
       return {
         rank,
         username: u.username,
         totalXP: u.totalXP,
+        cards: cardsOf.get(u._id.toString()) || 0,
         level: lvl.level,
         title: lvl.title,
         title_cz: lvl.title_cz,

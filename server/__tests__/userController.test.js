@@ -502,4 +502,14 @@ describe('GET /api/user/leaderboard', () => {
     const mine = res.body.entries.find(e => e.isMe);
     expect(mine).toMatchObject({ rank: 2, username: user.username, totalXP: 400 });
   });
+
+  test('counts each explorer\'s collected cards', async () => {
+    await Location.create({ name: 'A', slug: 'a', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10 });
+    await Location.create({ name: 'B', slug: 'b', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10 });
+    const { token, user } = await createAuthedUser();
+    await checkIn(token, 'a');
+    await checkIn(token, 'b');
+    const res = await request(app).get('/api/user/leaderboard');
+    expect(res.body.entries.find(e => e.username === user.username)).toMatchObject({ cards: 2, totalXP: 20 });
+  });
 });

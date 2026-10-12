@@ -15,7 +15,8 @@ function Row({ e, t, lang, convert }) {
         {e.username}
         {e.isMe && <span className="leaderboard__you">{t('leaderboard.you')}</span>}
       </td>
-      <td className="leaderboard__level">Lv {e.level} · {convert(title)}</td>
+      <td className="leaderboard__level">Lv {e.level}<span className="leaderboard__title"> · {convert(title)}</span></td>
+      <td className="leaderboard__cards">{(e.cards ?? 0).toLocaleString(lang === 'cz' ? 'cs-CZ' : 'en-US')}</td>
       <td className="leaderboard__xp">{e.totalXP.toLocaleString(lang === 'cz' ? 'cs-CZ' : 'en-US')}</td>
     </tr>
   );
@@ -58,6 +59,7 @@ export default function LeaderboardPage() {
                     <th>{t('leaderboard.rank')}</th>
                     <th>{t('leaderboard.explorer')}</th>
                     <th>{t('leaderboard.level')}</th>
+                    <th className="leaderboard__cards">{t('leaderboard.cards')}</th>
                     <th className="leaderboard__xp">{t('leaderboard.xp')}</th>
                   </tr>
                 </thead>
@@ -65,7 +67,7 @@ export default function LeaderboardPage() {
                   {data.entries.map(e => <Row key={e.username} e={e} t={t} lang={lang} convert={convert} />)}
                   {data.me && (
                     <>
-                      <tr className="leaderboard__gap"><td colSpan={4}>…</td></tr>
+                      <tr className="leaderboard__gap"><td colSpan={5}>…</td></tr>
                       <Row e={data.me} t={t} lang={lang} convert={convert} />
                     </>
                   )}
