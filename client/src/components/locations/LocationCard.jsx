@@ -46,6 +46,7 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
   // Long press (touch) or double click (mouse) on a collected card opens the
   // showcase. A mouse click on such a card waits DOUBLE_CLICK_MS for a
   // possible second click before opening the detail as usual.
+  // How the showcase was opened ('touch' or 'mouse'), or false when closed.
   const [showcaseOpen, setShowcaseOpen] = useState(false);
   const gestures = unlocked && !flipping && !showcase;
   const press = useRef({ timer: null, fired: false, x: 0, y: 0, pointer: 'mouse', clickTimer: null });
@@ -61,7 +62,7 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
     press.current.timer = setTimeout(() => {
       press.current.fired = true;
       navigator.vibrate?.(12);
-      setShowcaseOpen(true);
+      setShowcaseOpen('touch');
     }, LONG_PRESS_MS);
   };
   const handlePointerMove = e => {
@@ -77,7 +78,7 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
     if (press.current.clickTimer) {
       clearTimeout(press.current.clickTimer);
       press.current.clickTimer = null;
-      setShowcaseOpen(true);
+      setShowcaseOpen('mouse');
       return;
     }
     press.current.clickTimer = setTimeout(() => { press.current.clickTimer = null; onClick(slug); }, DOUBLE_CLICK_MS);
@@ -217,7 +218,7 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
       </div>
       </>)}
     </div>
-    {showcaseOpen && <CardShowcase location={location} onClose={() => setShowcaseOpen(false)} />}
+    {showcaseOpen && <CardShowcase location={location} openedBy={showcaseOpen} onClose={() => setShowcaseOpen(false)} />}
     </>
   );
 }

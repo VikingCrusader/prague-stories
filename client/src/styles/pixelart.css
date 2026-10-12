@@ -1785,6 +1785,72 @@ html[data-lang="zh"] .detail-title-name {
 }
 .flip-card__face--front { transform: rotateY(180deg); }
 
+/* Treasure hunt draw (DeckShuffle.jsx): the face-down card becomes a deck,
+   is shuffled twice and the top card is drawn, landing where .flip-card
+   sits. 2.3s in total (SHUFFLE_MS). Each card sits a little lower right
+   than the one above it (--s); the top card (--i 5) sits exactly on the
+   page's card. The halves swap which lands on top: left after the first
+   shuffle, right (with the drawn card) after the second. */
+.deck-shuffle {
+  position: relative;
+  width: 230px;
+  aspect-ratio: 644 / 912;
+}
+.deck-shuffle__card {
+  --s: calc((5 - var(--i)) * 2px);
+  position: absolute;
+  inset: 0;
+  z-index: var(--i);
+  animation: 2.3s ease-in-out both;
+  will-change: transform;
+}
+.deck-shuffle__card > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.35);
+  user-select: none;
+}
+.deck-shuffle__card--left  { animation-name: deck-left; }
+.deck-shuffle__card--right { animation-name: deck-right; }
+.deck-shuffle__card--drawn { animation-name: deck-drawn; }
+@keyframes deck-left {
+  0%   { transform: translate(0, 0); }
+  10%  { transform: translate(var(--s), var(--s)); }
+  20%, 27% { transform: translate(calc(var(--s) - 30%), calc(var(--s) - 6px)) rotate(-7deg); z-index: var(--i); }
+  29%  { z-index: calc(20 + var(--i)); }
+  38%  { transform: translate(var(--s), var(--s)); }
+  48%, 55% { transform: translate(calc(var(--s) - 30%), calc(var(--s) - 6px)) rotate(-7deg); z-index: calc(20 + var(--i)); }
+  57%  { z-index: var(--i); }
+  66%, 74% { transform: translate(var(--s), var(--s)); opacity: 1; }
+  90%, 100% { transform: translate(var(--s), calc(var(--s) + 28px)); opacity: 0; z-index: var(--i); }
+}
+@keyframes deck-right {
+  0%   { transform: translate(0, 0); }
+  10%  { transform: translate(var(--s), var(--s)); }
+  20%, 27% { transform: translate(calc(var(--s) + 30%), calc(var(--s) - 6px)) rotate(7deg); z-index: var(--i); }
+  38%  { transform: translate(var(--s), var(--s)); }
+  48%, 55% { transform: translate(calc(var(--s) + 30%), calc(var(--s) - 6px)) rotate(7deg); z-index: var(--i); }
+  57%  { z-index: calc(20 + var(--i)); }
+  66%, 74% { transform: translate(var(--s), var(--s)); opacity: 1; }
+  90%, 100% { transform: translate(var(--s), calc(var(--s) + 28px)); opacity: 0; z-index: calc(20 + var(--i)); }
+}
+@keyframes deck-drawn {
+  0%   { transform: translate(0, 0); }
+  10%  { transform: translate(0, 0); }
+  20%, 27% { transform: translate(30%, -6px) rotate(7deg); z-index: var(--i); }
+  38%  { transform: translate(0, 0); }
+  48%, 55% { transform: translate(30%, -6px) rotate(7deg); z-index: var(--i); }
+  57%  { z-index: 40; }
+  66%  { transform: translate(0, 0); }
+  76%, 86% { transform: translate(0, -36px) rotate(-3deg) scale(1.06); filter: drop-shadow(0 14px 12px rgba(0, 0, 0, 0.35)); z-index: 40; }
+  100% { transform: translate(0, 0); filter: none; z-index: 40; }
+}
+/* The halves swing out past the card's sides; keep that from widening the
+   page on a phone. */
+.draw-page { overflow-x: hidden; }
+
 /* ── Responsive ───────────────────────────────────────────── */
 /* Medium screens (landscape phones, tablets, small laptops): the one-row
    navbar needs ~1160px (ZH) to ~1400px (CZ), so below that it overflowed
@@ -2075,8 +2141,12 @@ html[data-lang="zh"] .detail-title-name {
    A collected card enlarged to the screen's height for admiring it: the
    card keeps its grid width and the draw page's 644:912 proportions, then
    the whole thing (frame, text, seal) is scaled up evenly. */
-.loc-card--holdable { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
-.loc-card--holdable img { -webkit-user-drag: none; }
+/* Cards are tapped and held, never read as selectable text: no text
+   selection, no iOS image callout or drag on any card, the enlarged one in
+   the showcase included (a held finger there used to select text or pick
+   up the cover). */
+.loc-card, .card-showcase { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
+.loc-card img, .card-showcase img { -webkit-user-drag: none; }
 .card-showcase {
   position: fixed;
   inset: 0;

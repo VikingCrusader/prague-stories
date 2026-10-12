@@ -8,6 +8,7 @@ import { useUserPosition } from '../hooks/useUserPosition';
 import LocationCard from '../components/locations/LocationCard';
 import LocationDetail from '../components/locations/LocationDetail';
 import TreasureHuntPanel from '../components/draw/TreasureHuntPanel';
+import DeckShuffle, { SHUFFLE_MS, prefersReducedMotion } from '../components/draw/DeckShuffle';
 
 function pad2(n) {
   return String(n).padStart(2, '0');
@@ -78,6 +79,15 @@ export default function TreasureHuntPage() {
   const refreshingOnExpiry = useRef(false);
   const [guessing, setGuessing] = useState(false);
   const [huntFlash, setHuntFlash] = useState(null);
+  // The deck is being shuffled and a card drawn (DeckShuffle), on a new hunt
+  // or a re-roll. The new hunt's status is only shown once the animation and
+  // the server have both finished.
+  const [shuffling, setShuffling] = useState(false);
+  const shuffleDone = () => {
+    if (prefersReducedMotion()) return Promise.resolve();
+    setShuffling(true);
+    return new Promise(resolve => setTimeout(resolve, SHUFFLE_MS));
+  };
   // Latest position for the hunt's distance clue, read by the poll below
   // without restarting it on every GPS update.
   const posRef = useRef(userPos);
@@ -155,10 +165,10 @@ export default function TreasureHuntPage() {
     if (!rerollConfirm) { setRerollConfirm(true); return; }
     setRerolling(true);
     setRerollError(null);
-    userAPI.rerollDraw(posRef.current)
-      .then(res => { setStatus(res.data); setHuntFlash(null); })
+    Promise.all([userAPI.rerollDraw(posRef.current), shuffleDone()])
+      .then(([res]) => { setStatus(res.data); setHuntFlash(null); })
       .catch(err => setRerollError(err.response?.data?.message || err.message))
-      .finally(() => { setRerolling(false); setRerollConfirm(false); });
+      .finally(() => { setShuffling(false); setRerolling(false); setRerollConfirm(false); });
   };
   const rerollButton = status?.canReroll ? (
     <div className="draw-reroll">
@@ -189,9 +199,10 @@ export default function TreasureHuntPage() {
   const handleStart = () => {
     setStarting(true);
     setHuntFlash(null);
-    userAPI.drawRandomLocation(posRef.current)
-      .then(res => setStatus(res.data))
-      .finally(() => setStarting(false));
+    Promise.all([userAPI.drawRandomLocation(posRef.current), shuffleDone()])
+      .then(([res]) => setStatus(res.data))
+      .catch(() => fetchStatus())
+      .finally(() => { setShuffling(false); setStarting(false); });
   };
 
   const handleCheckIn = (slug, result) => {
@@ -234,6 +245,7 @@ export default function TreasureHuntPage() {
                 {/* Persistent 3D flip card: the mystery back turns into the
                     found card once the treasure is collected. See .flip-card*
                     in pixelart.css. */}
+                {shuffling ? <DeckShuffle /> : (
                 <div className={`flip-card${solvedHunt ? ' flip-card--revealed' : ''}`}>
                   <div className="flip-card__inner">
                     <div className="flip-card__face flip-card__face--back">
@@ -254,6 +266,7 @@ export default function TreasureHuntPage() {
                     </div>
                   </div>
                 </div>
+                )}
 
                 {huntActive && status.hunt ? (
                   <>

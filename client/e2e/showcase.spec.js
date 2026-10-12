@@ -44,6 +44,12 @@ test('long press, story and flip on a collected card', async ({ page }) => {
   await page.waitForTimeout(300);
   await expect(showcase).toBeVisible();
   await expect(page.locator('.px-modal')).toHaveCount(0);
+  // A stray click from the opening press (iOS sends one after its own
+  // long-press handling) must not close it either; only a new tap does.
+  await page.mouse.click(10, 10);
+  await expect(showcase).toBeVisible();
+  // Nothing on the enlarged card is selectable.
+  expect(await page.locator('.card-showcase .loc-card').evaluate(e => getComputedStyle(e).userSelect)).toBe('none');
 
   const { width: W, height: H } = page.viewportSize();
   await swipe(W / 2, H / 2 + 100, W / 2, H / 2 - 50);
@@ -62,4 +68,9 @@ test('long press, story and flip on a collected card', async ({ page }) => {
   await swipe(W / 2 - 100, H / 2, W / 2 + 140, H / 2);
   await expect(page.locator('.card-showcase__flip')).toHaveAttribute('style', /rotateY\(180deg\)/, { timeout: 5000 });
   await expect(showcase).toBeVisible();
+
+  // A fresh tap outside the card puts it away.
+  await touch('touchStart', 10, 10);
+  await touch('touchEnd', 10, 10);
+  await expect(showcase).toHaveCount(0);
 });

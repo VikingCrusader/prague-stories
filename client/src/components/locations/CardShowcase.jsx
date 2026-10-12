@@ -37,7 +37,7 @@ const showsBack = deg => { const a = ((deg % 360) + 360) % 360; return a > 90 &&
 //   page's card back and back again. It follows the finger, then a spring
 //   settles it on the nearest face; a quick flick turns it over even after
 //   a short drag.
-export default function CardShowcase({ location, onClose }) {
+export default function CardShowcase({ location, openedBy = 'mouse', onClose }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -52,6 +52,13 @@ export default function CardShowcase({ location, onClose }) {
   const spin = useRef({ angle: 0, v: 0, raf: null });
   // Set after a mouse drag so the click that ends it doesn't close the view.
   const suppressClick = useRef(false);
+  // Only a press that starts after the showcase opened may close it. The
+  // finger that opened it with a long press is still down and lifts over
+  // the showcase; iOS in particular may then send a click (or a touchcancel
+  // and a click when its own long-press handling kicked in), which must not
+  // close it. A touch opener arms on a new touchstart only, since the
+  // browser emulates a mousedown when that first finger lifts.
+  const armed = useRef(false);
 
   useLayoutEffect(() => {
     const onResize = () => setScale(fitScale());
@@ -156,14 +163,16 @@ export default function CardShowcase({ location, onClose }) {
         // A portal still bubbles through the React tree: keep the click
         // from reaching whatever holds the card (a modal's backdrop, say).
         e.stopPropagation();
+        if (!armed.current) return;
         if (suppressClick.current) { suppressClick.current = false; return; }
         onClose();
       }}
-      onTouchStart={e => start(e.touches[0].clientX, e.touches[0].clientY)}
+      onTouchStart={e => { armed.current = true; start(e.touches[0].clientX, e.touches[0].clientY); }}
       onTouchMove={e => move(e.touches[0].clientX, e.touches[0].clientY)}
       onTouchEnd={e => end(e.changedTouches[0].clientX, e.changedTouches[0].clientY)}
       onTouchCancel={() => { if (drag.current?.axis === 'x') settle(0); drag.current = null; }}
-      onMouseDown={e => start(e.clientX, e.clientY)}
+      onMouseDown={e => { if (openedBy === 'mouse') armed.current = true; start(e.clientX, e.clientY); }}
+      onContextMenu={e => e.preventDefault()}
       onMouseMove={e => { if (e.buttons === 1) move(e.clientX, e.clientY); }}
       onMouseUp={e => { if (end(e.clientX, e.clientY)) suppressClick.current = true; }}
       role="dialog"
