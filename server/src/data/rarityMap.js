@@ -258,7 +258,7 @@ export const SLUG_RARITY = {
   // ── Karlín riverside / Libeň batch (2026-07) ────────────────────────────
   'amazon-court':                 'epic',  // River City Prague, DGNB Platinum atrium
   'river-city-praha':             'epic',  // umbrella riverside campus, ex-Karlín port
-  'rohansky-ostrov':              'epic',  // 1432 flood island, ex-Metrostav HQ, future park
+  'brana-na-rohansky-ostrov':     'rare',  // H3T timber festival gate (2018) with viewing platform, Rohan Island
   'praha-liben-dolni-nadrazi':    'epic',  // 1873 single-track crossing station, restored 2023
   'zamecek-rokoska':              'epic',  // vineyard-turned-sugar-factory-turned-hospital annex
   'borislavka-centrum':           'rare',  // crystal-form Dejvice mall/office, 2017-2021
@@ -537,7 +537,6 @@ export const SLUG_RARITY = {
   // ── Vysočany offices / Kolbenova batch (2026-07) ─────────────────────────
   'cesky-telekomunikacni-urad':    'rare',     // telecom regulator in a heritage-listed former ČKD admin building
   'prazska-sprava-socialniho-zabezpeceni': 'common', // Prague-wide social security office, ex-industrial Vysočany
-  'sokolovska':                    'rare',     // Karlín-to-Vysočany street, renamed for 1836 coronation, then 1943 battle
   'pragovka-art-district':         'epic',     // ex-ČKD/Praga car works, 50,000 workers, now artists' studios in Hall E
   'kolbenova':                     'superior', // Nazi-era "Kolbenwerkstraße", named for Kolben who died at Theresienstadt
   'cukrovar-vysocany':             'superior', // 1835 first Vysočany factory, Prague's first telephone line 1881
@@ -678,7 +677,6 @@ export const SLUG_RARITY = {
   'hvezdarna-dablice':              'rare',     // volunteer-built 1956 observatory from recycled first-panelák panels
   'zkamenely-slouha':               'epic',     // Prague's only menhir, "petrified farmhand" curse legend, Dolní Chabry
   'kostel-steti-sv-jana-krtitele-dolni-chabry': 'superior', // 4th building on site, 2nd-largest Bohemian Romanesque rotunda beneath it
-  'cimicka-tvrz':                   'rare',     // 13th-c fortified house foundations, excavated then reburied under parkland
 
   // ── Prague-adjacent batch (2026-07): outlets, monuments, castles, gold towns ─
   'fashion-arena-prague-outlet':    'rare',     // largest outlet centre in Czech Republic, Prague 10 edge

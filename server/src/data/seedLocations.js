@@ -6794,40 +6794,47 @@ Poté, co byla výstavba v podstatě dokončena, se projekt nedávno přejmenova
     },
   },
   {
-    name: 'Rohan Island',
-    slug: 'rohansky-ostrov',
-    localizedNames: { cz: 'Rohanský ostrov', zh: '罗汉岛' },
-    labels: ['historical', 'park'],
+    // Sources: archiweb.cz (Brána na Rohanský ostrov, H3T architekti, 2018,
+    // temporary timber structure in the Iva© system, viewing platform),
+    // landscape-festival.cz (Landscape Festival Praha 2018 site-specific
+    // installations: "the imaginary gateway to the new Rohan Island area"),
+    // Respekt 26/2018 (festival gate with a viewpoint on top; Sekyra Group's
+    // planned district for about 3,500 people). Island history carried over
+    // from the removed rohansky-ostrov card.
+    name: 'Gate to Rohan Island',
+    slug: 'brana-na-rohansky-ostrov',
+    localizedNames: { cz: 'Brána na Rohanský ostrov', zh: '罗汉岛之门' },
+    labels: ['architecture', 'modern'],
     district: 'Praha 8',
     quarter: 'Karlín',
-    coordinates: { lat: 50.09903726654709, lng: 14.4617852680427 },
-    rarity: 'epic',
-    xpReward: 50,
+    coordinates: { lat: 50.09903043470918, lng: 14.46178690371143 },
+    rarity: 'rare',
+    xpReward: 20,
     wikipediaUrl: '',
     description: {
-      en: `Brave adventurer, welcome to Rohanský ostrov (Rohan Island)! Born from a catastrophic flood in 1432 that dumped enough sediment into the Vltava to create solid new land, this island spent centuries as working river infrastructure before becoming, of all things, the secret staging ground for Prague's entire metro system.
+      en: `Welcome to the Gate to Rohan Island, a wooden gateway standing at the edge of a big riverside meadow. There's no wall on either side of it and nothing to lock. It's a door to a neighbourhood that, when the gate went up, didn't exist yet.
 
-The island takes its name from Josef Rohan, a nineteenth-century burgher and carpenter who owned the land after 1850, and it once sat beside a thriving Karlín port handling up to 280 ships a year of goods arriving by sail and steam. That river channel was filled in during the 1950s, and during the extensive Vltava regulation works of the 1920s, Rohanský ostrov was physically merged with the neighbouring Libeňský ostrov, erasing the boundary between what had once been two separate islands.
+The gate was built in June 2018 for Landscape Festival Praha, which filled Štvanice, Karlín and Žižkov with temporary installations that summer. The architects of H3T, a studio known for designing temporary structures and often building them with their own hands, called it the imaginary gateway to the new Rohan Island. It's made in their Iva© system: slender timber pieces joined with simple fasteners, light enough to put up quickly and take down again. You can climb to a viewing platform on top and look out over the whole site.
 
-From 1967 to 2006, the island effectively became Metrostav's operational headquarters for building the Prague metro — hosting production halls, warehouses, a concrete plant, a sawmill, worker housing, and even a football pitch, all while quietly serving as an unofficial dumping ground for the surrounding city. Long neglected and largely industrial in character, it's now the target of one of Prague's most ambitious revitalisation plans: a sprawling new riverside park connecting Karlín and Libeň, designed with flood-retention areas that let the Vltava safely spread across the land during high water, deliberately restoring something like the island's original wild character.
+And the site has a past. The island takes its name from Josef Rohan, a carpenter who owned the land after 1850, when Karlín's river port next door handled up to 280 ships a year. During the Vltava regulation of the 1920s it was joined to neighbouring Libeň Island, and the old river arm was filled in during the 1950s. From 1967 to 2006 the land served as Metrostav's base for building the Prague metro, with production halls, a concrete plant, a sawmill and worker housing, and later as an unofficial dump. Now the Rohan City district is rising at one end and a large flood-ready park is planned along the rest, which is exactly the change the gate was built to show.
 
-🥚 Easter Egg: For nearly forty years, the machinery that built Prague's entire metro network — the trains that now silently glide beneath the city carrying millions of passengers a year — was assembled, stored, and dispatched from a patch of land that started life as literal flood debris in 1432. Prague's underground transformation was quite literally staged on top of an island created by the river's own destructive power six centuries earlier.`,
+🎁 Bonus: the gate was designed to be temporary, a festival prop meant for one summer. The neighbourhood it pointed to was planned to take about twenty years.`,
 
-      cz: `Statečný dobrodruhu, vítej na Rohanském ostrově! Zrozený z katastrofální povodně v roce 1432, která do Vltavy nanesla dost naplavenin na vytvoření pevné nové pevniny, tenhle ostrov strávil staletí jako pracovní říční infrastruktura, než se stal, ze všeho na světě, tajným zázemím pro stavbu celého pražského metra.
+      cz: `Vítej u Brány na Rohanský ostrov, dřevěné brány na okraji velké louky u řeky. Po stranách nemá žádnou zeď a nedá se zamknout. Je to vstup do čtvrti, která v době, kdy brána vyrostla, ještě neexistovala.
 
-Ostrov nese jméno po Josefu Rohanovi, měšťanovi a truhláři z devatenáctého století, který pozemek vlastnil po roce 1850, a kdysi ležel vedle rušného karlínského přístavu, kde se ročně naložilo a vyložilo až 280 lodí se zbožím přivezeným plachetnicemi i parníky. Toto říční rameno bylo v 50. letech zasypáno a během rozsáhlé regulace Vltavy ve 20. letech se Rohanský ostrov fyzicky spojil se sousedním Libeňským ostrovem, čímž zmizela hranice mezi tím, co bývaly dva samostatné ostrovy.
+Brána vznikla v červnu 2018 pro Landscape festival Praha, který to léto zaplnil Štvanici, Karlín a Žižkov dočasnými instalacemi. Architekti z ateliéru H3T, který dočasné stavby rád navrhuje a často si je i sám staví, ji pojmenovali jako pomyslnou bránu do nové podoby Rohanského ostrova. Je postavená v jejich systému Iva©: ze subtilních dřevěných prvků spojených jednoduchými spojkami, dost lehkých na to, aby se daly rychle postavit i zase rozebrat. Nahoru se dá vylézt na vyhlídkovou plošinu a přehlédnout odtud celé území.
 
-Od roku 1967 do roku 2006 se ostrov fakticky stal provozní základnou Metrostavu pro stavbu pražského metra — hostil výrobní haly, sklady, betonárku, pilu, ubytovny dělníků a dokonce fotbalové hřiště, přičemž tiše sloužil i jako neoficiální skládka pro okolní město. Dlouho zanedbaný a převážně průmyslový charakter má dnes být cílem jednoho z nejambicióznějších pražských revitalizačních plánů: rozlehlého nového nábřežního parku spojujícího Karlín a Libeň, navrženého s protipovodňovými plochami, které umožní Vltavě při vysokém stavu bezpečně zaplavit část území — záměrné navrácení něčeho jako původního divokého charakteru ostrova.
+A to území má svou minulost. Ostrov nese jméno po Josefu Rohanovi, truhláři, který pozemky vlastnil po roce 1850, kdy vedlejší karlínský přístav odbavil až 280 lodí ročně. Při regulaci Vltavy ve 20. letech se spojil se sousedním Libeňským ostrovem a staré říční rameno bylo v 50. letech zasypáno. V letech 1967 až 2006 tu měl Metrostav základnu pro stavbu pražského metra, s výrobními halami, betonárkou, pilou a ubytovnami, a pak tu vznikla neoficiální skládka. Dnes na jednom konci roste čtvrť Rohan City a na zbytku se plánuje velký park připravený na povodně, tedy přesně ta proměna, kterou měla brána ukázat.
 
-🥚 Velikonoční vajíčko: Téměř čtyřicet let se stroje, které postavily celou síť pražského metra — vlaky, jež dnes tiše klouzají pod městem a vozí miliony cestujících ročně — montovaly, skladovaly a expedovaly z kousku země, který svůj život začal doslova jako povodňové naplaveniny v roce 1432. Proměna pražského podzemí se odehrávala doslova na vrcholu ostrova, který o šest století dříve stvořila ničivá síla samotné řeky.`,
+🎁 Bonus: brána byla navržená jako dočasná, festivalová kulisa na jedno léto. Čtvrť, do které vede, se měla stavět zhruba dvacet let.`,
 
-      zh: `勇敢的冒险家，欢迎来到罗汉岛（Rohanský ostrov）！这座岛屿诞生于1432年一场灾难性的洪水——洪水带来的大量泥沙淤积在伏尔塔瓦河中，硬生生"造出"了一片新陆地。此后几个世纪，它一直是繁忙的河运基础设施用地，后来又意外地成为了整个布拉格地铁系统建设的秘密"大本营"。
+      zh: `欢迎来到罗汉岛之门。这是一座立在河边大草地边上的木门，两边没有墙，也没有锁。它通向的是一个街区，而门立起来的时候，那个街区还根本不存在。
 
-这座岛屿得名于19世纪的市民兼木匠约瑟夫·罗汉（Josef Rohan），他自1850年后拥有这片土地。岛屿旁边曾是繁忙的卡林港，每年要装卸多达280艘由帆船与蒸汽船运来的货船。这条河汊在1950年代被填平；而在1920年代伏尔塔瓦河大规模河道整治工程期间，罗汉岛与相邻的利本岛（Libeňský ostrov）被物理性地合并在一起，抹去了原本两座独立岛屿之间的界线。
+这座门建于2018年6月，是为布拉格景观节搭的。那年夏天，斯特瓦尼采岛、卡林和日什科夫到处都是节日的临时装置。设计它的H3T建筑事务所向来喜欢做临时建筑，还常常亲手把它们搭起来；他们管这座门叫通往新罗汉岛的"想象之门"。它用的是事务所自己的Iva©体系：纤细的木构件，用简单的连接件拼起来，轻巧得可以很快搭好，也可以很快拆掉。人可以爬上顶部的观景平台，把整片场地尽收眼底。
 
-从1967年到2006年，这座岛实际上成为了"地铁建设公司"（Metrostav）修建布拉格地铁的运营总部——生产车间、仓库、混凝土搅拌站、锯木厂、工人宿舍，甚至一片足球场，全都设在岛上，与此同时它也悄悄充当着周边城市的非正式垃圾倾倒场。这座长期被忽视、以工业用途为主的岛屿，如今正是布拉格最雄心勃勃的城市更新计划之一的目标：一座连接卡林与利本的大型河滨新公园，其中还设计了蓄洪区，让伏尔塔瓦河在水位上涨时能够安全地漫入这片土地——刻意地重现出岛屿最初那种野性的原始风貌。
+而这片场地有它的来历。岛名来自木匠约瑟夫·罗汉，1850年后这片地归他所有，当时隔壁的卡林港每年要停靠多达280艘船。1920年代伏尔塔瓦河整治时，它和相邻的利本岛连成了一片，旧河汊则在1950年代被填平。1967年到2006年，这里是地铁建设公司修建布拉格地铁的基地，有生产车间、混凝土搅拌站、锯木厂和工人宿舍，后来又成了非正式的垃圾场。如今一头的罗汉城街区正在拔地而起，其余地方规划了一座能容纳洪水的大公园，这正是这座门当初要让人看到的变化。
 
-🥚 彩蛋：将近四十年时间里，建造布拉格整个地铁网络的机械设备——如今每年悄无声息地在城市地下运送数百万乘客的列车——都是在一片诞生于1432年洪水淤泥的土地上组装、储存与调配出发的。布拉格地下世界的巨变，几乎是字面意义上"发生在"一座由六个世纪前河流自身破坏力所创造出来的岛屿之上。`,
+🎁 彩蛋：这座门原本设计成临时的，是节日里只打算用一个夏天的道具。而它指向的那个街区，计划要建大约二十年。`,
     },
   },
   {
@@ -14450,43 +14457,6 @@ Bonus: Jedna jediná vysočanská ulice dnes na jedné straně hostí regionáln
     },
   },
   {
-    name: 'Sokolovská Street',
-    slug: 'sokolovska',
-    localizedNames: { cz: 'Sokolovská (ulice v Praze)', zh: '索科洛夫斯卡街' },
-    labels: ['street', 'historical'],
-    district: 'Praha 9',
-    quarter: 'Libeň',
-    coordinates: { lat: 50.104933076618394, lng: 14.483015498286294 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Sokolovsk%C3%A1_(ulice_v_Praze)',
-    description: {
-      en: `Welcome to Sokolovská Street, a long Prague thoroughfare that has been renamed twice in its life — first for a coronation procession, then for a Second World War battle — and now quietly stretches from Karlín all the way out to the factory districts of Vysočany without most people noticing it's the same road.
-
-The street began in 1817 as simply "Hlavní" (Main Street), the principal road of the newly founded Karlín district. In 1841 it was renamed "Královská" (Royal) to commemorate the coronation procession of Emperor Ferdinand I as King of Bohemia in 1836, which had passed along its length. It carried that name for over a century before receiving its current title in 1948, honouring the Ukrainian town of Sokolovo — site of a bloody 1943 battle where a Czechoslovak army unit fought alongside Soviet forces, the first major engagement of Czechoslovak troops on the Eastern Front.
-
-Today the street runs a genuinely long route: starting near Florenc and Těšnov, cutting through the heart of Karlín past Karlínské náměstí toward the Kaizlovy sady gardens by the old Invalidovna building, then continuing past Rustonka into Libeň at Palmovka and Balabenka, before finally reaching the former industrial heart of Vysočany.
-
-🎁 Bonus: A single street has now carried the name of a Habsburg coronation and, later, a Red Army battlefield — a fairly complete summary of twentieth-century Czechoslovakia's shifting loyalties, laid out end to end along one unbroken stretch of pavement.`,
-
-      cz: `Vítej na Sokolovské ulici, dlouhé pražské tepně, která byla ve svém životě dvakrát přejmenována — nejprve po korunovačním průvodu, později po bitvě druhé světové války — a dnes se tiše táhne od Karlína až k továrním čtvrtím Vysočan, aniž by si většina lidí všimla, že jde o tutéž ulici.
-
-Ulice začínala v roce 1817 jednoduše jako „Hlavní", hlavní komunikace nově založeného Karlína. V roce 1841 byla přejmenována na „Královskou" na počest korunovačního průvodu císaře Ferdinanda I. na českého krále v roce 1836, který touto ulicí procházel. Toto jméno nesla přes století, než v roce 1948 dostala svůj dnešní název na počest ukrajinského města Sokolovo — místa krvavé bitvy z roku 1943, kde po boku sovětských jednotek bojovala československá vojenská jednotka, první velké nasazení československých vojáků na východní frontě.
-
-Dnes vede ulice opravdu dlouhou trasou: začíná u Florence a Těšnova, protíná centrum Karlína kolem Karlínského náměstí směrem ke Kaizlovým sadům u staré Invalidovny, pak pokračuje kolem Rustonky do Libně na Palmovku a Balabenku, než konečně dorazí do bývalého průmyslového srdce Vysočan.
-
-Bonus: Jedna jediná ulice tak nesla jméno habsburské korunovace a později bitvy s účastí Rudé armády — poměrně úplné shrnutí proměnlivých loajalit dvacátého století Československa, rozložené na jednom nepřerušeném kusu chodníku.`,
-
-      zh: `欢迎来到索科洛夫斯卡街，一条漫长的布拉格干道——它一生中改过两次名字：先是为了纪念一场加冕游行，后来又为了纪念二战中的一场战役——如今它悄悄地从卡尔林一直延伸到维索恰尼的工业街区，大多数人甚至没意识到这其实是同一条街。
-
-这条街始于1817年，最初简单地叫做"主街"，是新建立的卡尔林区的主干道。1841年，为纪念1836年斐迪南一世加冕为波希米亚国王时途经此街的加冕游行，它被改名为"皇家街"。这个名字沿用了一个多世纪，直到1948年才改为如今的名字，以纪念乌克兰城镇索科洛沃——1943年一场血腥战役的发生地，捷克斯洛伐克军队在那里与苏联军队并肩作战，这是捷克斯洛伐克军队在东线的首次重大作战行动。
-
-如今这条街的路线相当漫长：从弗洛伦茨和杰什诺夫附近起步，穿过卡尔林中心、经过卡尔林广场，一直通向老荣军院旁的凯兹洛维花园，随后经过鲁斯通卡，进入利本区的帕尔莫夫卡和巴拉本卡，最终抵达曾经的维索恰尼工业中心地带。
-
-彩蛋：一条街如今先后承载过哈布斯堡王朝加冕典礼与红军战场的名字——这几乎完整浓缩了20世纪捷克斯洛伐克变幻不定的政治忠诚，全都铺陈在这同一条从未间断的人行道上。`,
-    },
-  },
-  {
     name: 'Pragovka Art District',
     slug: 'pragovka-art-district',
     localizedNames: { cz: 'Pragovka Art District (ČKD Kolbenova)', zh: 'Pragovka艺术区（ČKD科尔本诺瓦）' },
@@ -18327,49 +18297,6 @@ V roce 1905 restaurátorské práce znovu objevily vzácné románské malby ukr
 1905年的修复工程，在后殿重新发现了极为罕见的罗马式壁画——一幅描绘约公元1230至1240年间"曼多拉光轮中的基督"与使徒行列的壁画，以及波希米亚现存最古老的圣母题材壁画组图，绘于约1250至1260年间。这座教堂在胡斯战争中屋顶被焚毁，战后依照晚期哥特风格修复；三十年战争期间又遭受了进一步破坏——这场战争同时也终结了下哈布里独立教区的存在，此后这座教堂便一直作为附近普罗塞克（Prosek）教区的分堂存在至今。阁楼中发现的一处刻有1439年字样的标记，至今仍见证着那次胡斯战争之后的修复工程。
 
 🎁 彩蛋：在布拉格一处不起眼的郊区教区教堂地板之下，埋藏着三代更早建筑的遗迹，其中包括一座罗马式圆形教堂——它在当年，曾是整个波希米亚同类建筑中的第二大——这足以证明，布拉格一些最重要的中世纪建筑，其实就实实在在地藏在脚下。`,
-    },
-  },
-  {
-    name: 'Čimice Fortress',
-    slug: 'cimicka-tvrz',
-    localizedNames: { cz: 'Čimická tvrz', zh: '奇米采要塞' },
-    labels: ['ruin', 'historical'],
-    district: 'Praha 8',
-    quarter: 'Bohnice',
-    coordinates: { lat: 50.14298461445292, lng: 14.39941772922178 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C4%8Cimick%C3%A1_tvrz',
-    description: {
-      en: `Brave adventurer, welcome to Čimice Fortress (Čimická tvrz)!
-
-There's nothing standing above ground here anymore — just a quiet stretch of parkland by a village pond — but buried beneath the grass lies one of the earliest fortified stone residences known in the Prague area.
-
-The village of Čimice first appears in written records in 1334, held by Prague's cathedral provost, but archaeology tells an older story: a fortified stone house with dressed ashlar masonry already stood on this spot at the start of the 13th century, later rebuilt into a tower-like structure — a stone ground floor topped by a timber upper storey, an interior barely 6.8 by 4.4 metres, walls a full metre thick, ringed by a circular moat and palisade. It's a strong candidate for one of the oldest fortified residences of its kind in the whole region.
-
-That original fortress likely didn't survive the upheavals of 1420, when Prague's citizens seized Čimice during the Hussite Wars and later handed it to Bohuněk of Bohnice. A new fortified building rose on or near the same spot around the mid-16th century, passing through a rapid succession of owners — Adam ze Strašína, Zikmund Diviš z Hradešína, Jan Bryknar z Brukštejna — until Eliška Hofmannová transferred "the whole fortification and village" to her husband in 1609, the last time it's mentioned in any surviving document. Systematic excavation between 1975 and 1983 uncovered the rectangular stone foundations, the moat, and 16th-century ceramics, after which the remains were carefully reburied and the site landscaped into the parkland that covers it today.
-
-🎁 Bonus: Somewhere under a patch of ordinary-looking grass beside the Čimice pond sit the eight-hundred-year-old foundations of a fortified stone house — reburied on purpose after archaeologists finished studying it, so the ground you're standing on is protecting a monument you'll never actually see.`,
-
-      cz: `Statečný dobrodruhu, vítej u Čimické tvrze!
-
-Nad zemí už tu dnes nic nestojí — jen klidný pruh parku u návesního rybníka —, ale pod trávníkem se skrývají základy jednoho z nejstarších opevněných kamenných sídel v pražské oblasti.
-
-Vesnice Čimice se poprvé písemně zmiňuje v roce 1334, tehdy v držení pražského probošta, ale archeologie vypráví starší příběh: opevněný kamenný dům z opracovaných kvádrů zde stál už na počátku 13. století a byl později přestavěn na věžovitou stavbu — kamenné přízemí s dřevěným patrem, interiér o rozměrech pouhých 6,8 × 4,4 metru, zdi silné celý metr, obklopené kruhovým příkopem a palisádou. Jde o silného kandidáta na jedno z nejstarších opevněných sídel svého druhu v celém regionu.
-
-Původní tvrz zřejmě nepřežila zmatky roku 1420, kdy pražští měšťané za husitských válek Čimice zabrali a později je předali Bohuňkovi z Bohnic. Nová opevněná stavba vznikla na stejném nebo blízkém místě kolem poloviny 16. století a rychle střídala majitele — Adama ze Strašína, Zikmunda Diviše z Hradešína, Jana Bryknara z Brukštejna —, než Eliška Hofmannová v roce 1609 převedla "celou tvrz i s vesnicí" na svého manžela, což je poslední dochovaná zmínka o tvrzi vůbec. Systematický archeologický výzkum v letech 1975 až 1983 odkryl obdélné kamenné základy, příkop i keramiku ze 16. století; poté byly pozůstatky pečlivě znovu zasypány a plocha upravena na park, který místo pokrývá dodnes.
-
-🎁 Bonus: Někde pod obyčejně vyhlížejícím trávníkem u čimického rybníka leží osm set let staré základy opevněného kamenného domu — po skončení archeologického výzkumu úmyslně znovu zasypané, takže půda, na které stojíte, chrání památku, kterou nikdy na vlastní oči neuvidíte.`,
-
-      zh: `勇敢的冒险家，欢迎来到奇米采要塞（Čimická tvrz）！
-
-这里地面上如今已经空无一物——只剩下村塘边一片安静的绿地——但草皮之下，却埋藏着布拉格地区已知最早的设防石造居所之一。
-
-奇米采（Čimice）村最早见于1334年的文献记载，当时归布拉格教堂的教务长所有，但考古证据讲述了一个更早的故事：早在13世纪初，这里就已矗立着一座用琢石砌成的设防石屋，后来又被改建为塔楼式结构——石砌底层加木造上层，内部空间仅有6.8米乘4.4米，墙体厚达一整米，四周环绕着圆形壕沟与栅栏。它极有可能是整个地区同类设防居所中最古老的一座。
-
-这座最初的要塞很可能没能挺过1420年的动荡——胡斯战争期间，布拉格市民夺取了奇米采，后来又将其转交给博赫尼采（Bohnice）的博胡涅克（Bohuněk）。16世纪中叶前后，原址或附近又建起了一座新的设防建筑，此后业主更迭频繁——亚当·兹·斯特拉申（Adam ze Strašína）、齐格蒙德·迪维什·兹·赫拉德申（Zikmund Diviš z Hradešína）、扬·布里克纳尔·兹·布鲁克什泰因（Jan Bryknar z Brukštejna）相继易手——直到1609年，埃利什卡·霍夫曼诺娃（Eliška Hofmannová）将"整座要塞连同村庄"转交给了自己的丈夫，这是现存文献中关于这座要塞的最后一次记载。1975年至1983年间的系统考古发掘，出土了矩形石砌地基、壕沟以及16世纪的陶器；发掘结束后，遗迹被小心地重新掩埋，原址也被改造成了如今覆盖其上的这片公园绿地。
-
-🎁 彩蛋：在奇米采村塘边那片看似普通的草地之下，静静躺着一座已有八百年历史的设防石屋地基——考古学家研究完毕后特意将它重新掩埋，所以你脚下的这片土地，正守护着一处你永远无法亲眼看到的古迹。`,
     },
   },
   {
