@@ -6,16 +6,24 @@ import { getLocName } from '../../utils/locName';
 import { RARITY_VAR, RARITY_LABEL, lockClosedIcon, lockOpenIcon } from '../../utils/rarity';
 import RarityFrame from './RarityFrame';
 import WaxSeal from './WaxSeal';
+import CardShowcase from './CardShowcase';
 import { playUnlockSound } from '../../utils/sound';
 import { formatDistance } from '../../utils/geolocation';
 
 // Cards the user collected within this window get a green "NEW" tag.
 const NEW_BADGE_MS = 48 * 60 * 60 * 1000;
+// Showcase gestures on a collected card: hold this long on a touch screen,
+// or click twice within this long with a mouse.
+const LONG_PRESS_MS = 450;
+const DOUBLE_CLICK_MS = 250;
 
 // `nearby` (Explore only): a still-locked card within NEARBY_REVEAL_M of the
 // user. It reveals its name, drops the grey filter everywhere except the
 // cover, and the lock wobbles (pixelart.css).
-function LocationCard({ location, onClick, distance, nearby = false }) {
+// `showcase`: the enlarged copy inside CardShowcase (full-size cover, no
+// gestures of its own). `story` (showcase only): paragraphs that fill the
+// whole card in a scrolling panel, under the card's name; only the frame stays.
+function LocationCard({ location, onClick, distance, nearby = false, showcase = false, story = null }) {
   const { lang } = useLang();
   const convert = useConvert();
   const t = useT();
@@ -35,6 +43,42 @@ function LocationCard({ location, onClick, distance, nearby = false }) {
   const showName = unlocked || teasing;
   const checkedInMs = location._checkedInAt ? new Date(location._checkedInAt).getTime() : NaN;
   const isNew = unlocked && !flipping && Date.now() - checkedInMs < NEW_BADGE_MS;
+
+  // Long press (touch) or double click (mouse) on a collected card opens the
+  // showcase. A mouse click on such a card waits DOUBLE_CLICK_MS for a
+  // possible second click before opening the detail as usual.
+  const [showcaseOpen, setShowcaseOpen] = useState(false);
+  const gestures = unlocked && !flipping && !showcase;
+  const press = useRef({ timer: null, fired: false, x: 0, y: 0, pointer: 'mouse', clickTimer: null });
+  const clearPress = () => { clearTimeout(press.current.timer); press.current.timer = null; };
+  useEffect(() => () => { clearTimeout(press.current.timer); clearTimeout(press.current.clickTimer); }, []);
+  const handlePointerDown = e => {
+    press.current.pointer = e.pointerType;
+    if (!gestures || e.pointerType === 'mouse') return;
+    press.current.fired = false;
+    press.current.x = e.clientX;
+    press.current.y = e.clientY;
+    clearPress();
+    press.current.timer = setTimeout(() => {
+      press.current.fired = true;
+      navigator.vibrate?.(12);
+      setShowcaseOpen(true);
+    }, LONG_PRESS_MS);
+  };
+  const handlePointerMove = e => {
+    if (press.current.timer && Math.hypot(e.clientX - press.current.x, e.clientY - press.current.y) > 10) clearPress();
+  };
+  const handleClick = () => {
+    if (press.current.fired) { press.current.fired = false; return; }
+    if (!gestures || press.current.pointer !== 'mouse') { onClick(slug); return; }
+    if (press.current.clickTimer) {
+      clearTimeout(press.current.clickTimer);
+      press.current.clickTimer = null;
+      setShowcaseOpen(true);
+      return;
+    }
+    press.current.clickTimer = setTimeout(() => { press.current.clickTimer = null; onClick(slug); }, DOUBLE_CLICK_MS);
+  };
 
   useEffect(() => {
     if (!prevUnlockedRef.current && unlocked) { setFlipping(true); playUnlockSound(rarity); }
@@ -69,9 +113,16 @@ function LocationCard({ location, onClick, distance, nearby = false }) {
   }, [firstLabel, lang, unlocked]);
 
   return (
+    <>
     <div
-      className={`loc-card${(!unlocked || flipping) ? ' loc-card--locked' : ''}${flipping ? ' loc-card--flipping' : ''}${teasing && !flipping ? ' loc-card--nearby' : ''}`}
-      onClick={() => onClick(slug)}
+      className={`loc-card${(!unlocked || flipping) ? ' loc-card--locked' : ''}${flipping ? ' loc-card--flipping' : ''}${teasing && !flipping ? ' loc-card--nearby' : ''}${gestures ? ' loc-card--holdable' : ''}`}
+      onClick={handleClick}
+      onPointerDown={handlePointerDown}
+      onPointerMove={handlePointerMove}
+      onPointerUp={clearPress}
+      onPointerCancel={clearPress}
+      onPointerLeave={clearPress}
+      onContextMenu={gestures ? e => e.preventDefault() : undefined}
       title={showName ? name : '???'}
       data-rarity={rarity}
       style={{ border: `3px solid ${RARITY_VAR[rarity]}` }}
@@ -81,18 +132,26 @@ function LocationCard({ location, onClick, distance, nearby = false }) {
       {isNew && <span className="loc-card__new">NEW</span>}
       {/* Found through a treasure hunt: on which of the five guesses. The
           first guess gets a wax seal instead of the plain tag. */}
-      {unlocked && !flipping && location._guessAttempt === 1 && <WaxSeal slug={slug} />}
-      {unlocked && !flipping && location._guessAttempt >= 2 && location._guessAttempt <= 5 && (
+      {unlocked && !flipping && !story && location._guessAttempt === 1 && <WaxSeal slug={slug} />}
+      {unlocked && !flipping && !story && location._guessAttempt >= 2 && location._guessAttempt <= 5 && (
         <span className="loc-card__hunt">{convert(t(`card.guess${location._guessAttempt}`))}</span>
       )}
+      {story ? (
+        <div className="loc-card__story">
+          <div className="loc-card__story-title" style={{ color: RARITY_VAR[rarity] }}>{name}</div>
+          {lang !== 'cz' && location.localizedNames?.cz && <div className="loc-card__story-sub">{location.localizedNames.cz}</div>}
+          {story.map((p, i) => <p key={i}>{p}</p>)}
+        </div>
+      ) : (<>
       <div className="loc-card__banner" style={{ background: teasing ? 'var(--nearby-banner, #4a4a4a)' : color }}>
         {/* width/height give a lazy cover a square placeholder (covers are
             almost all square) so the card doesn't grow when it loads. */}
         {localCover && !localFailed ? (
           <img
-            src={thumbFailed ? localCover : toThumbPath(localCover)}
+            src={thumbFailed || showcase ? localCover : toThumbPath(localCover)}
             alt={name}
-            loading="lazy"
+            loading={showcase ? 'eager' : 'lazy'}
+            draggable={false}
             width={480}
             height={480}
             decoding="async"
@@ -101,9 +160,10 @@ function LocationCard({ location, onClick, distance, nearby = false }) {
           />
         ) : location.coverImage && !coverFailed ? (
           <img
-            src={toCloudThumbUrl(location.coverImage)}
+            src={showcase ? location.coverImage : toCloudThumbUrl(location.coverImage)}
             alt={name}
-            loading="lazy"
+            loading={showcase ? 'eager' : 'lazy'}
+            draggable={false}
             width={480}
             height={480}
             decoding="async"
@@ -157,7 +217,10 @@ function LocationCard({ location, onClick, distance, nearby = false }) {
           {distance != null && <div className="loc-card__dist" style={{ color: RARITY_VAR[rarity] }}>{formatDistance(distance)}</div>}
         </div>
       </div>
+      </>)}
     </div>
+    {showcaseOpen && <CardShowcase location={location} onClose={() => setShowcaseOpen(false)} />}
+    </>
   );
 }
 

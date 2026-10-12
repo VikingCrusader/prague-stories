@@ -2110,3 +2110,95 @@ html[data-lang="zh"] .detail-title-name {
 .leaderboard__link:hover { color: var(--gold); text-decoration-color: var(--gold); }
 .explorer-back { display: inline-block; font-size: 15px; color: var(--text-muted); text-decoration: none; }
 .explorer-back:hover { color: var(--gold); }
+
+/* ── Card showcase (CardShowcase.jsx) ────────────────────────
+   A collected card enlarged to the screen's height for admiring it: the
+   card keeps its grid width and the draw page's 644:912 proportions, then
+   the whole thing (frame, text, seal) is scaled up evenly. */
+.loc-card--holdable { -webkit-touch-callout: none; -webkit-user-select: none; user-select: none; }
+.loc-card--holdable img { -webkit-user-drag: none; }
+.card-showcase {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* Everything around the card dims, darkest at the edges, like a
+     spotlight on the card. */
+  background: radial-gradient(ellipse at center, rgba(6, 8, 18, 0.72) 0%, rgba(3, 4, 10, 0.95) 75%);
+  backdrop-filter: blur(6px) brightness(0.6);
+  -webkit-backdrop-filter: blur(6px) brightness(0.6);
+  animation: showcase-fade 0.2s ease-out both;
+  cursor: zoom-out;
+}
+.card-showcase__card {
+  width: 260px;
+  flex-shrink: 0;
+  transform: scale(var(--showcase-scale, 1));
+  animation: showcase-zoom 0.28s cubic-bezier(0.2, 0.8, 0.3, 1.1) both;
+}
+/* A soft glow in the card's rarity colour (--rc, set per rarity above). */
+/* A fixed height, not just aspect-ratio: a long story would otherwise
+   stretch the card. 260 x 912/644. */
+.card-showcase__card .loc-card { height: 368px; aspect-ratio: auto; cursor: zoom-out; box-shadow: 0 0 36px color-mix(in srgb, var(--rc, #fff) 45%, transparent), 0 6px 24px rgba(0, 0, 0, 0.6); }
+.card-showcase__card .loc-card__banner { flex: 1 1 auto; min-height: 0; }
+/* Sideways drag turns the card over (CardShowcase): two faces back to back
+   in 3D, the back being the draw page's card back. */
+.card-showcase__card { perspective: 1100px; }
+.card-showcase__flip { position: relative; transform-style: preserve-3d; will-change: transform; }
+.card-showcase__face { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+.card-showcase__face--back { position: absolute; inset: 0; transform: rotateY(180deg); }
+.card-showcase__face--back > img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 0 36px rgba(255, 215, 0, 0.3), 0 6px 24px rgba(0, 0, 0, 0.6);
+  -webkit-user-drag: none;
+  user-select: none;
+}
+.card-showcase__card .loc-card__body { flex: 0 0 auto; }
+@keyframes showcase-fade { from { opacity: 0; } to { opacity: 1; } }
+@keyframes showcase-zoom {
+  from { transform: scale(calc(var(--showcase-scale, 1) * 0.6)); opacity: 0; }
+  to   { transform: scale(var(--showcase-scale, 1)); opacity: 1; }
+}
+@media (prefers-reduced-motion: reduce) { .card-showcase, .card-showcase__card { animation: none; } }
+/* The story filling the whole card inside its frame (swipe up on a phone).
+   Sizes are in the card's unscaled box, so they grow with --showcase-scale
+   like the rest. */
+.loc-card__story {
+  flex: 1 1 auto;
+  min-height: 0;
+  margin: 10px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+  padding: 8px 10px;
+  background: var(--bg-card);
+  color: var(--text-primary);
+  font-size: 10px;
+  line-height: 1.55;
+  text-align: left;
+  animation: showcase-fade 0.2s ease-out both;
+}
+.loc-card__story > p { margin: 0 0 6px; }
+/* Clear of the legend frame's corner ornaments. */
+.loc-card[data-rarity="legend"] .loc-card__story { margin: 16px; }
+.loc-card__story-title { font-size: 14px; font-weight: 700; line-height: 1.3; }
+.loc-card__story-sub { font-size: 9px; color: var(--text-muted); margin-bottom: 8px; }
+.card-showcase--story { cursor: default; }
+.card-showcase--story .loc-card { cursor: default; }
+/* Swipe hints, touch screens only. */
+.card-showcase__hint {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 14px;
+  text-align: center;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.7);
+  pointer-events: none;
+}
+@media (hover: hover) and (pointer: fine) { .card-showcase__hint { display: none; } }

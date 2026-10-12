@@ -1,7 +1,12 @@
-import { render, screen } from '@testing-library/react';
+import { render, screen, fireEvent, act } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import LocationCard from '../components/locations/LocationCard';
 import { LanguageProvider } from '../context/LanguageContext';
+
+// The showcase fetches the card's story.
+jest.mock('../services/api', () => ({
+  locationAPI: { getOne: jest.fn(() => Promise.resolve({ data: { description: { en: 'A story.' } } })) },
+}));
 
 const baseLocation = {
   slug: 'charles-bridge',
@@ -83,4 +88,43 @@ describe('LocationCard', () => {
     const { container } = renderCard({ unlocked: true });
     expect(container.querySelector('.loc-card__name')).toHaveTextContent('Charles Bridge');
   });
+
+  describe('showcase', () => {
+    beforeEach(() => jest.useFakeTimers());
+    afterEach(() => jest.useRealTimers());
+
+    test('a double click on a collected card opens the showcase, not the detail', () => {
+      const onClick = jest.fn();
+      const { container } = renderCard({ unlocked: true }, { onClick });
+      const card = container.querySelector('.loc-card');
+      fireEvent.click(card);
+      fireEvent.click(card);
+      act(() => { jest.advanceTimersByTime(400); });
+      expect(onClick).not.toHaveBeenCalled();
+      expect(document.querySelector('.card-showcase .loc-card__name')).toHaveTextContent('Charles Bridge');
+      fireEvent.keyDown(window, { key: 'Escape' });
+      expect(document.querySelector('.card-showcase')).toBeNull();
+    });
+
+    test('a single click still opens the detail, a moment later', () => {
+      const onClick = jest.fn();
+      const { container } = renderCard({ unlocked: true }, { onClick });
+      fireEvent.click(container.querySelector('.loc-card'));
+      expect(onClick).not.toHaveBeenCalled();
+      act(() => { jest.advanceTimersByTime(300); });
+      expect(onClick).toHaveBeenCalledWith('charles-bridge');
+      expect(document.querySelector('.card-showcase')).toBeNull();
+    });
+
+    test('a locked card opens the detail right away and has no showcase', () => {
+      const onClick = jest.fn();
+      const { container } = renderCard({ unlocked: false }, { onClick });
+      const card = container.querySelector('.loc-card');
+      fireEvent.click(card);
+      fireEvent.click(card);
+      expect(onClick).toHaveBeenCalledTimes(2);
+      expect(document.querySelector('.card-showcase')).toBeNull();
+    });
+  });
 });
+
