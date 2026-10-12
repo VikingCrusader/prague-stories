@@ -3,6 +3,7 @@ import { MapContainer, TileLayer, CircleMarker, Tooltip, useMap, useMapEvents } 
 import { useLang, useConvert } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
 import { useUserPosition } from '../../hooks/useUserPosition';
+import { getCurrentPosition } from '../../utils/geolocation';
 
 const PRAGUE_CENTER = [50.0755, 14.4378];
 
@@ -94,6 +95,36 @@ function MapAreaLimit({ cityOnly }) {
   return null;
 }
 
+// On opening, the map starts on Prague's centre and moves to the user once
+// their first position comes in. It moves only once, only if the user hasn't
+// dragged the map yet, and only if they are inside the area in play
+// (otherwise MapAreaLimit's fence would pull the view straight back).
+const USER_ZOOM = 15;
+
+function CenterOnUser({ cityOnly }) {
+  const map = useMap();
+  const userPos = useUserPosition();
+  const [done, setDone] = useState(false);
+  // Signed-in users already have a position watcher (useProximityDetection);
+  // guests don't, so ask once here. The result reaches useUserPosition
+  // through the shared cache.
+  useEffect(() => { getCurrentPosition().catch(() => {}); }, []);
+  useEffect(() => {
+    const stop = () => setDone(true);
+    map.on('dragstart', stop);
+    return () => { map.off('dragstart', stop); };
+  }, [map]);
+  useEffect(() => {
+    if (done || !userPos) return;
+    setDone(true);
+    const area = padBounds(cityOnly ? PRAGUE_BOUNDS : CZECHIA_BOUNDS, cityOnly ? 0.25 : 0.15);
+    const [[s, w], [n, e]] = area;
+    if (userPos.lat < s || userPos.lat > n || userPos.lng < w || userPos.lng > e) return;
+    map.setView([userPos.lat, userPos.lng], Math.max(map.getZoom(), USER_ZOOM));
+  }, [map, userPos, done, cityOnly]);
+  return null;
+}
+
 export default function MapView({ locations, selectedSlug, onLocationClick, cityOnly = false }) {
   const { lang } = useLang();
   const convert = useConvert();
@@ -110,6 +141,7 @@ export default function MapView({ locations, selectedSlug, onLocationClick, city
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
       />
       <MapAreaLimit cityOnly={cityOnly} />
+      <CenterOnUser cityOnly={cityOnly} />
       <Markers
         locations={locations}
         selectedSlug={selectedSlug}

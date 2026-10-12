@@ -18,6 +18,7 @@ export function haversineDistance(lat1, lon1, lat2, lon2) {
 }
 
 // Shared position cache — populated by watchPosition in useProximityDetection
+// and by getCurrentPosition
 let _cachedPos = null;
 const _subs = new Set();
 
@@ -47,7 +48,7 @@ export function getCurrentPosition() {
       pos => {
         const lat = pos.coords.latitude;
         const lng = pos.coords.longitude;
-        _cachedPos = { lat, lng, ts: Date.now() };
+        setCachedPosition(lat, lng);
         resolve({ lat, lng });
       },
       err => {
