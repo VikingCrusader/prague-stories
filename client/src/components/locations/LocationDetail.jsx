@@ -86,6 +86,8 @@ export default function LocationDetail({
         ...prev,
         unlocked: true,
         checkedInAt: new Date().toISOString(),
+        guessAttempt: res.data.guessAttempt,
+        xpEarned: res.data.xpEarned,
       }));
       setCheckInResult(res.data);
       applyProgress(res.data.levelInfo, res.data.totalXP);
@@ -324,6 +326,7 @@ export default function LocationDetail({
                       {t("common.visited")}
                       {loc.checkedInAt &&
                         `${lang === "zh" ? "" : " "}${t("detail.at")}${lang === "zh" ? "" : " "}${formatDate(loc.checkedInAt)}`}
+                      {loc.guessAttempt > 0 && loc.xpEarned != null && t("detail.huntFind", { n: loc.guessAttempt, xp: loc.xpEarned })}
                     </span>
                   )}
                 </div>
@@ -451,6 +454,7 @@ export default function LocationDetail({
                       {t("common.visited")}
                       {loc.checkedInAt &&
                         `${lang === "zh" ? "" : " "}${t("detail.at")}${lang === "zh" ? "" : " "}${formatDate(loc.checkedInAt)}`}
+                      {loc.guessAttempt > 0 && loc.xpEarned != null && t("detail.huntFind", { n: loc.guessAttempt, xp: loc.xpEarned })}
                     </span>
                   )}
                 </div>

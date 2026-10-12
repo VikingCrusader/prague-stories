@@ -95,6 +95,14 @@ const CONTENT = {
       "♛︎ Legendary: a gold frame with a highlight circling it, a golden shine sweeping up and down, and gold embers rising through the card. Subtle it is not.",
     ],
     effectsOutro: "Locked cards show none of this. You have to earn the sparkle.",
+    showcaseTitle: "Showing Off",
+    showcaseIntro: "A collected card is more than a tile in a grid. Pick it up and have a proper look:",
+    showcase: [
+      { b: "Hold it up.", rest: " On a phone, press and hold a collected card; on a computer, double-click it. It fills the screen at full size and everything else dims, as if the rest of the city had stepped back out of respect." },
+      { b: "Turn it over.", rest: " Drag sideways (finger or mouse) and the card turns over to show its back. It follows your hand, then settles with a little wobble, and a quick flick sends it further. Entirely useless. Deeply satisfying." },
+      { b: "Read it.", rest: " On a phone, swipe up and the picture gives way to the card's story, right there inside the frame. Scroll to read, swipe down from the top to get the picture back." },
+    ],
+    showcaseOutro: "Tap anywhere outside the card to put it away. Locked cards can't be picked up; they just cling to their padlock a little harder. The My Collections filter on Explore is the natural place for this.",
     xpTitle: "XP & Levels",
     xpIntro: "Each location pays XP according to its rarity, a card-style tier that tells you how rare a find it really is:",
     diff: [
@@ -211,6 +219,14 @@ const CONTENT = {
       "♛︎ Legendární: zlatý rám s odleskem, který ho obíhá, zlatý lesk přejíždějící nahoru a dolů a zlaté jiskry stoupající kartou. Skromnost to není.",
     ],
     effectsOutro: "Zamčené karty nic z toho neukazují. Třpyt si musíš zasloužit.",
+    showcaseTitle: "Chlubení",
+    showcaseIntro: "Sesbíraná karta je víc než dlaždice v mřížce. Vezmi ji do ruky a pořádně si ji prohlédni:",
+    showcase: [
+      { b: "Zvedni ji.", rest: " Na telefonu podrž prst na sesbírané kartě, na počítači na ni dvakrát klikni. Roztáhne se přes celou obrazovku a všechno ostatní ztmavne, jako by celé město uctivě ustoupilo o krok." },
+      { b: "Otoč ji.", rest: " Táhni do strany (prstem nebo myší) a karta se otočí rubem nahoru. Jde ti za rukou, pak se s lehkým zakolébáním usadí a rychlé švihnutí ji pošle dál. Naprosto k ničemu. Hluboce uspokojivé." },
+      { b: "Přečti si ji.", rest: " Na telefonu přejeď nahoru a obrázek uvolní místo příběhu karty, přímo uvnitř rámečku. Posouváním čteš, přejetím dolů úplně nahoře se vrátíš k obrázku." },
+    ],
+    showcaseOutro: "Klepnutím kamkoli mimo kartu ji zase odložíš. Zamčené karty zvednout nejdou, jen se o něco pevněji drží svého zámku. Přirozené místo na tohle je filtr Moje sbírka na stránce Průzkum.",
     xpTitle: "XP a úrovně",
     xpIntro: "Každé místo vyplácí XP podle své vzácnosti, karetní úrovně, která říká, jak vzácný nález to doopravdy je:",
     diff: [
@@ -327,6 +343,14 @@ const CONTENT = {
       "♛︎ 传说：金色边框，一道高光绕着它转圈，一层金光上下扫过，金色火星在卡片里升腾。低调是不可能低调的。",
     ],
     effectsOutro: "上锁的卡片一样都没有。闪光是要靠自己挣的。",
+    showcaseTitle: "拿出来炫耀",
+    showcaseIntro: "收集到的卡片不只是网格里的一个格子。拿起来，好好看看：",
+    showcase: [
+      { b: "举起来。", rest: "手机上长按一张已收集的卡片，电脑上双击它。卡片会放大到整个屏幕，周围的一切都暗下去，仿佛整座城市都识趣地往后退了一步。" },
+      { b: "翻过来。", rest: "左右拖动（手指或鼠标都行），卡片就会翻到背面。它跟着你的手走，松手后晃两下才停稳，甩得快一点还能多转半圈。毫无用处，但非常解压。" },
+      { b: "读一读。", rest: "手机上往上划，卡面的图片会让位给这张卡的故事，就在卡框里面。上下滑动阅读，滑到顶部再往下划，图片就回来了。" },
+    ],
+    showcaseOutro: "点卡片外面任意地方就能收起来。上锁的卡片拿不起来，只会把锁抱得更紧一点。最适合这么玩的地方，是探索页的“我的收藏”。",
     xpTitle: "经验值与等级",
     xpIntro: "每个地点按稀有度给经验值。稀有度类似卡牌游戏的等级，告诉你这个发现到底有多难得：",
     diff: [
@@ -486,6 +510,11 @@ export default function GuidePage() {
           <p className="guide-body">{c.effectsIntro}</p>
           {steps(c.effects, rarityColor)}
           <p className="guide-body" style={{ marginTop: 10 }}>{c.effectsOutro}</p>
+
+          <h3 className="guide-h3" style={h3Gap}>{c.showcaseTitle}</h3>
+          <p className="guide-body">{c.showcaseIntro}</p>
+          {steps(c.showcase)}
+          <p className="guide-body" style={{ marginTop: 10 }}>{c.showcaseOutro}</p>
         </section>
 
         <hr className="px-divider" />

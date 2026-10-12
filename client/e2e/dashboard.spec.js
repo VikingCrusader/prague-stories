@@ -100,7 +100,7 @@ test.describe('Dashboard', () => {
     await expect(page.getByRole('link', { name: 'Start a treasure hunt.' })).toHaveAttribute('href', '/treasure-hunt');
   });
 
-  test('Treasure Hunt Finds shows each found card with the guess that found it', async ({ page }) => {
+  test('Treasure Hunt Finds shows each found card; its detail names the guess and XP', async ({ page }) => {
     const found = {
       _id: '9', name: 'Týn Church', slug: 'tyn-church', localizedNames: { cz: 'Týnský chrám', zh: '泰恩教堂' },
       labels: ['church'], coordinates: { lat: 50.0875, lng: 14.4224 }, rarity: 'rare', xpReward: 20,
@@ -110,6 +110,10 @@ test.describe('Dashboard', () => {
     await page.reload();
     await expect(page.getByRole('heading', { name: 'Treasure Hunt Finds (1)' })).toBeVisible();
     await expect(page.locator('.loc-card__name')).toHaveText('Týn Church');
-    await expect(page.locator('.loc-card__hunt')).toHaveText('2nd try');
+    await page.route('**/api/locations/tyn-church', route => route.fulfill({
+      json: { ...found, description: { en: 'A church.' }, checkedInAt: '2026-01-01T00:00:00.000Z', guessAttempt: 2, xpEarned: 100 },
+    }));
+    await page.locator('.loc-card').click();
+    await expect(page.getByText(/found on a treasure hunt on guess 2, \+100 XP/)).toBeVisible();
   });
 });

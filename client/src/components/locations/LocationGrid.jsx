@@ -15,7 +15,9 @@ const SORT_KEY = { distance: 'grid.sortDistance', newest: 'grid.sortNewest', rar
 // every search keystroke stall.
 const PAGE_SIZE = 60;
 
-export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel }) {
+// `onCollectionChange` (optional) hears whether "My Collections" is on, so
+// the page header can react to it (ExplorePage's showcase hint).
+export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -23,6 +25,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   // "My Collections" lists every collected card, whatever the City only /
   // area filter (ExplorePage passes the unscoped list for it).
   const locations = discovered && collectionLocations ? collectionLocations : scopedLocations;
+  useEffect(() => { onCollectionChange?.(discovered); }, [discovered, onCollectionChange]);
   const [activeLabels, setActiveLabels]     = useState(new Set());
   const [activeRarities, setActiveRarities] = useState(new Set());
   const [labelsOpen, setLabelsOpen]         = useState(false);

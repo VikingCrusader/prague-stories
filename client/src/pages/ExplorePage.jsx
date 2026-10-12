@@ -28,6 +28,9 @@ export default function ExplorePage() {
   const [locations, setLocations]       = useState([]);
   const [selectedSlug, setSelectedSlug] = useState(null);
   const [autoCheckIn, setAutoCheckIn]   = useState(false);
+  // "My Collections" is on (reported by LocationGrid): the header then adds a
+  // line about holding a card to admire it (CardShowcase).
+  const [inCollection, setInCollection] = useState(false);
   // Default to the city proper: cards tagged `outside` lie beyond Prague's
   // administrative boundary (day trips), shown only on "Show all".
   const [cityOnly, setCityOnly]         = useState(true);
@@ -94,6 +97,8 @@ export default function ExplorePage() {
       }))
       .sort((a, b) => a._distance - b._distance);
   }, [locations, userPos]);
+
+  const hasCollected = useMemo(() => locations.some(l => l.unlocked), [locations]);
 
   // City only / area filter. "My Collections" ignores it (LocationGrid gets
   // sortedAll for that view): a collection shows everything collected.
@@ -217,13 +222,23 @@ export default function ExplorePage() {
                     <span className="explore-blurb--wide">{convert(t('explore.cityBlurb'))}</span>
                     <span className="explore-blurb--narrow">{convert(t('explore.cityBlurbShort'))}</span>
                   </p>
-                : <p className="explore-area-blurb">{convert(t('explore.allBlurb'))}</p>}
+                // Show all: the day-trip pitch, but not inside My Collections,
+                // where the showcase hint below takes its place.
+                : !inCollection && <p className="explore-area-blurb">{convert(t('explore.allBlurb'))}</p>}
+            {inCollection && hasCollected && !areaActive && (
+              // Touch screens get the long-press version, mice the double click. Not
+              // shown under an area filter, where the area blurb has the space.
+              <p className="explore-showcase-hint">
+                <span className="explore-hint--touch">{convert(t('explore.showcaseHintTouch'))}</span>
+                <span className="explore-hint--mouse">{convert(t('explore.showcaseHintMouse'))}</span>
+              </p>
+            )}
           </div>
           <div className="explore-header__scope">{scopeToggle}</div>
         </div>
       </div>
 
-      <LocationGrid locations={sortedLocations} collectionLocations={sortedAll} onCardClick={handleCardClick} scopeToggle={scopeToggle} hideOutsideLabel={cityOnly} />
+      <LocationGrid locations={sortedLocations} collectionLocations={sortedAll} onCardClick={handleCardClick} scopeToggle={scopeToggle} hideOutsideLabel={cityOnly} onCollectionChange={setInCollection} />
 
       {selectedSlug && (
         <LocationDetail

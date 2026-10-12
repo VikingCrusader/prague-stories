@@ -116,13 +116,19 @@ export async function getLocation(req, res, next) {
 
     let unlocked = false;
     let checkedInAt = null;
+    // Found on a treasure hunt: which guess hit and the XP it paid, shown
+    // after the collection date in the detail view.
+    let guessAttempt = null;
+    let xpEarned = null;
     if (req.user) {
       const checkIn = await CheckIn.findOne({ user: req.user._id, location: location._id });
       unlocked = !!checkIn;
       checkedInAt = checkIn?.checkedInAt ?? null;
+      guessAttempt = checkIn?.guessAttempt ?? null;
+      xpEarned = checkIn?.xpEarned ?? null;
     }
 
-    res.json({ ...location.toObject(), unlocked, checkedInAt });
+    res.json({ ...location.toObject(), unlocked, checkedInAt, guessAttempt, xpEarned });
   } catch (err) {
     next(err);
   }

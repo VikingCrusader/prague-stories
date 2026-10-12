@@ -180,7 +180,8 @@ test.describe('Treasure hunt', () => {
 
     await expect(page.getByText('Found on guess 5! +40 XP')).toBeVisible();
     await expect(page.locator('.flip-card--revealed .loc-card__name')).toHaveText('Týn Church');
-    await expect(page.locator('.flip-card--revealed .loc-card__hunt')).toHaveText('5th try');
+    // The card itself carries no hunt badge; its detail view says it.
+    await expect(page.locator('.flip-card--revealed .loc-card__hunt')).toHaveCount(0);
   });
 
   test('an expired hunt shows its answer next to the start button', async ({ page }) => {

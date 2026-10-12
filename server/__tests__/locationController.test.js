@@ -115,6 +115,18 @@ describe('GET /api/locations/:slug', () => {
 
     expect(res.body.unlocked).toBe(true);
     expect(res.body.checkedInAt).not.toBeNull();
+    expect(res.body.guessAttempt).toBeNull();
+  });
+
+  test('reports the treasure-hunt guess and XP for a card found on a hunt', async () => {
+    const location = await createLocation({ description: { en: 'A bridge.', cz: 'Most.', zh: '桥。' } });
+    const { token, user } = await createAuthedUser();
+    await CheckIn.create({ user: user._id, location: location._id, guessAttempt: 2, xpEarned: 500 });
+
+    const res = await request(app).get('/api/locations/charles-bridge').set('Authorization', `Bearer ${token}`);
+
+    expect(res.body.guessAttempt).toBe(2);
+    expect(res.body.xpEarned).toBe(500);
   });
 });
 
