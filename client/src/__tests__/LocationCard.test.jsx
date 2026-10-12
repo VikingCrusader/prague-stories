@@ -47,9 +47,20 @@ describe('LocationCard', () => {
   });
 
   test('shows which treasure-hunt guess found the card', () => {
-    const found = renderCard({ unlocked: true, _guessAttempt: 1 });
-    expect(found.container.querySelector('.loc-card__hunt')).toHaveTextContent('1st try');
+    const found = renderCard({ unlocked: true, _guessAttempt: 2 });
+    expect(found.container.querySelector('.loc-card__hunt')).toHaveTextContent('2nd try');
     found.unmount();
+    // The first guess gets a wax seal instead of the plain tag, stamped
+    // down only the first time it is seen.
+    localStorage.removeItem('sealsStamped');
+    const first = renderCard({ unlocked: true, _guessAttempt: 1 });
+    expect(first.container.querySelector('.loc-card__hunt')).toBeNull();
+    expect(first.container.querySelector('.loc-card__seal')).toHaveTextContent('Bullseye!');
+    expect(first.container.querySelector('.loc-card__seal--stamp')).not.toBeNull();
+    first.unmount();
+    const again = renderCard({ unlocked: true, _guessAttempt: 1 });
+    expect(again.container.querySelector('.loc-card__seal--stamp')).toBeNull();
+    again.unmount();
     const plain = renderCard({ unlocked: true, _guessAttempt: null });
     expect(plain.container.querySelector('.loc-card__hunt')).toBeNull();
     plain.unmount();

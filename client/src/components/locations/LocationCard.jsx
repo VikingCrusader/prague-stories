@@ -5,6 +5,7 @@ import { useLang, useConvert, useT } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
 import { RARITY_VAR, RARITY_LABEL, lockClosedIcon, lockOpenIcon } from '../../utils/rarity';
 import RarityFrame from './RarityFrame';
+import WaxSeal from './WaxSeal';
 import { playUnlockSound } from '../../utils/sound';
 import { formatDistance } from '../../utils/geolocation';
 
@@ -78,9 +79,11 @@ function LocationCard({ location, onClick, distance, nearby = false }) {
     >
       <RarityFrame />
       {isNew && <span className="loc-card__new">NEW</span>}
-      {/* Found through a treasure hunt: on which of the three guesses. */}
-      {unlocked && !flipping && location._guessAttempt >= 1 && location._guessAttempt <= 5 && (
-        <span className="loc-card__hunt">🎯 {convert(t(`card.guess${location._guessAttempt}`))}</span>
+      {/* Found through a treasure hunt: on which of the five guesses. The
+          first guess gets a wax seal instead of the plain tag. */}
+      {unlocked && !flipping && location._guessAttempt === 1 && <WaxSeal slug={slug} />}
+      {unlocked && !flipping && location._guessAttempt >= 2 && location._guessAttempt <= 5 && (
+        <span className="loc-card__hunt">{convert(t(`card.guess${location._guessAttempt}`))}</span>
       )}
       <div className="loc-card__banner" style={{ background: teasing ? 'var(--nearby-banner, #4a4a4a)' : color }}>
         {/* width/height give a lazy cover a square placeholder (covers are

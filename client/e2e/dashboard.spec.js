@@ -89,6 +89,6 @@ test.describe('Dashboard', () => {
     await page.reload();
     await expect(page.getByRole('heading', { name: 'Treasure Hunt Finds (1)' })).toBeVisible();
     await expect(page.locator('.loc-card__name')).toHaveText('Týn Church');
-    await expect(page.locator('.loc-card__hunt')).toHaveText('🎯 2nd try');
+    await expect(page.locator('.loc-card__hunt')).toHaveText('2nd try');
   });
 });
