@@ -1,9 +1,10 @@
-import { useState, useEffect, useCallback, useMemo, useRef } from 'react';
+import { useState, useEffect, useLayoutEffect, useCallback, useMemo, useRef } from 'react';
 import { useLocation, useNavigate } from 'react-router-dom';
 import { locationAPI } from '../services/api';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
 import { quarterName } from '../utils/pragueQuarters';
 import { AREA_BLURBS } from '../utils/areaBlurbs';
+import { areaIn, loadPragueAreas } from '../utils/pragueAreas';
 import { useAuth } from '../context/AuthContext';
 import { useUserPosition } from '../hooks/useUserPosition';
 import { haversineDistance, NEARBY_REVEAL_M } from '../utils/geolocation';
@@ -115,6 +116,58 @@ export default function ExplorePage() {
     setSelectedSlug(slug);
   }, []);
 
+  // Where the signed-in user is standing ("Prague 7, Holešovice"), shown
+  // under the "Collect every card" title in place of the intro line. Worked
+  // out on the device from the quarter/district boundaries (loaded the first
+  // time a position is known). Guests, users without a position and users
+  // outside Prague keep the intro line.
+  const [areasData, setAreasData] = useState(null);
+  const hasPos = !!userPos;
+  useEffect(() => {
+    if (user && hasPos && !areasData) loadPragueAreas().then(setAreasData).catch(() => {});
+  }, [user, hasPos, areasData]);
+  const myArea = useMemo(
+    () => (user && areasData && userPos ? areaIn(areasData, userPos.lat, userPos.lng) : null),
+    [user, areasData, userPos?.lat, userPos?.lng],
+  );
+  // Chinese adds the Czech name in brackets, unless that would only fit a
+  // phone's row at a tiny size (compact, set by the fit below).
+  const [compact, setCompact] = useState(false);
+  let hereText = null;
+  let hereKey = null;
+  if (myArea) {
+    const quarter = quarterName(myArea.quarter, lang);
+    const district = myArea.district ? t('detail.district', { n: myArea.district.slice(6) }) : null;
+    hereKey = `${lang}|${myArea.district}|${myArea.quarter}`;
+    hereText = lang === 'zh'
+      ? `${district ? `${district}，` : ''}${quarter}${compact ? '' : `（${myArea.quarter}）`}`
+      : district ? `${district}, ${quarter}` : quarter;
+  }
+  useEffect(() => { setCompact(false); }, [hereKey]);
+
+  // The badge stays on one line: if the text doesn't fit the row (long
+  // quarter names on a phone), its font shrinks until it does. Should Chinese
+  // need less than 14px, the bracketed Czech name is dropped instead.
+  const hereRef = useRef(null);
+  useLayoutEffect(() => {
+    const el = hereRef.current;
+    if (!el) return undefined;
+    const fit = () => {
+      el.style.removeProperty('font-size');
+      let size = parseFloat(getComputedStyle(el).fontSize);
+      for (let i = 0; i < 24 && el.scrollWidth > el.clientWidth && size > 11; i++) {
+        size -= 0.5;
+        el.style.setProperty('font-size', `${size}px`, 'important');
+      }
+      if (lang === 'zh' && !compact && (size < 14 || el.scrollWidth > el.clientWidth)) setCompact(true);
+    };
+    fit();
+    const ro = typeof ResizeObserver !== 'undefined' ? new ResizeObserver(fit) : null;
+    ro?.observe(el.parentElement);
+    document.fonts?.ready.then(fit);
+    return () => ro?.disconnect();
+  }, [hereText, lang, compact]);
+
   // With an area picked, the title becomes the area's name plus a short intro.
   const areaActive = cityOnly && area;
   const areaBlurb  = areaActive ? AREA_BLURBS[area.kind]?.[area.value] : null;
@@ -149,6 +202,15 @@ export default function ExplorePage() {
             <h1 ref={titleRef} className="px-title explore-title explore-title--fit">{titleText}</h1>
             {areaActive
               ? areaBlurb && <p className="explore-area-blurb">{convert(areaBlurb[lang] || areaBlurb.en)}</p>
+              : cityOnly && hereText
+                ? (
+                  <p ref={hereRef} className="explore-here">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                      <path fill="currentColor" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" />
+                    </svg>
+                    <span>{convert(hereText)}</span>
+                  </p>
+                )
               : cityOnly
                 // Phones get a shorter line, so it fits on one line.
                 ? <p className="explore-area-blurb">

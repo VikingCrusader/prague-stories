@@ -1304,6 +1304,33 @@ button.level-badge--btn:hover { border-color: var(--gold); }
   line-height: 1.55;
   color: var(--text-muted);
 }
+/* Where the user is standing, under the "Collect every card" title: a
+   badge in the title's own colour (wine red on the light theme, gold on
+   the dark one) with a map pin. */
+.explore-here {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 6px 0 0;
+  padding: 6px 14px 6px 10px;
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 1.3;
+  color: var(--gold);
+  border: 2px solid var(--gold);
+  background: color-mix(in srgb, var(--gold) 9%, transparent);
+  box-shadow: 3px 3px 0 var(--shadow);
+  max-width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.explore-here > svg { width: 20px; height: 20px; flex-shrink: 0; }
+/* Phones: centred under the title, always one line (ExplorePage shrinks
+   the font of a long name until it fits). */
+@media (max-width: 600px) {
+  .explore-here { display: flex; width: fit-content; margin: 8px auto 0; font-size: 17px; padding: 5px 12px 5px 8px; }
+  .explore-here > svg { width: 18px; height: 18px; }
+}
 .explore-stats { font-size: 17px; color: var(--text-muted); }
 .explore-stats span { color: var(--gold); }
 
