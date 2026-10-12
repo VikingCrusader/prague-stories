@@ -68,6 +68,10 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
   const handlePointerMove = e => {
     if (press.current.timer && Math.hypot(e.clientX - press.current.x, e.clientY - press.current.y) > 10) clearPress();
   };
+  // The finger that opened the showcase lifts over it: cancel the mouse
+  // events and click the browser would emulate, or they land on the
+  // showcase and close it again at once.
+  const handleTouchEnd = e => { if (press.current.fired) e.preventDefault(); };
   const handleClick = () => {
     if (press.current.fired) { press.current.fired = false; return; }
     if (!gestures || press.current.pointer !== 'mouse') { onClick(slug); return; }
@@ -120,6 +124,7 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
       onPointerDown={handlePointerDown}
       onPointerMove={handlePointerMove}
       onPointerUp={clearPress}
+      onTouchEnd={handleTouchEnd}
       onPointerCancel={clearPress}
       onPointerLeave={clearPress}
       onContextMenu={gestures ? e => e.preventDefault() : undefined}

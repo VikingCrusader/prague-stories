@@ -143,12 +143,22 @@ export default function CardShowcase({ location, onClose }) {
   };
 
   const back = showsBack(angle);
+  // While the story is being read and the card lies still on its front, drop
+  // the 3D setup: iOS Safari won't scroll an overflow area by touch inside a
+  // preserve-3d / backface-hidden element. Any sideways drag brings it back.
+  const flat = storyOpen && angle % 360 === 0;
 
   return createPortal(
     <div
       ref={overlayRef}
       className={`card-showcase${storyOpen ? ' card-showcase--story' : ''}`}
-      onClick={() => { if (suppressClick.current) { suppressClick.current = false; return; } onClose(); }}
+      onClick={e => {
+        // A portal still bubbles through the React tree: keep the click
+        // from reaching whatever holds the card (a modal's backdrop, say).
+        e.stopPropagation();
+        if (suppressClick.current) { suppressClick.current = false; return; }
+        onClose();
+      }}
       onTouchStart={e => start(e.touches[0].clientX, e.touches[0].clientY)}
       onTouchMove={e => move(e.touches[0].clientX, e.touches[0].clientY)}
       onTouchEnd={e => end(e.changedTouches[0].clientX, e.changedTouches[0].clientY)}
@@ -160,7 +170,10 @@ export default function CardShowcase({ location, onClose }) {
       aria-modal="true"
     >
       <div className="card-showcase__card" style={{ '--showcase-scale': scale }}>
-        <div className="card-showcase__flip" style={{ transform: `rotateY(${angle}deg)` }}>
+        <div
+          className={`card-showcase__flip${flat ? ' card-showcase__flip--flat' : ''}`}
+          style={{ transform: flat ? 'none' : `rotateY(${angle}deg)` }}
+        >
           <div
             className="card-showcase__face"
             // While reading, taps on the card don't close the showcase.

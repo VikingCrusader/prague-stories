@@ -2131,7 +2131,14 @@ html[data-lang="zh"] .detail-title-name {
   -webkit-backdrop-filter: blur(6px) brightness(0.6);
   animation: showcase-fade 0.2s ease-out both;
   cursor: zoom-out;
+  /* Swipes belong to the showcase, not the browser (no page pan, pinch or
+     pull-to-refresh). While the story is open, vertical panning is left to
+     the browser so the story panel scrolls natively (Safari is stricter
+     than Chrome about an ancestor's touch-action: none). */
+  touch-action: none;
+  overscroll-behavior: none;
 }
+.card-showcase--story { touch-action: pan-y; }
 .card-showcase__card {
   width: 260px;
   flex-shrink: 0;
@@ -2148,6 +2155,11 @@ html[data-lang="zh"] .detail-title-name {
 .card-showcase__card { perspective: 1100px; }
 .card-showcase__flip { position: relative; transform-style: preserve-3d; will-change: transform; }
 .card-showcase__face { backface-visibility: hidden; -webkit-backface-visibility: hidden; }
+/* Reading the story on the front (CardShowcase): plain 2D, so the story
+   scrolls on iOS; the back isn't needed until the next sideways drag. */
+.card-showcase__flip--flat { transform-style: flat; will-change: auto; }
+.card-showcase__flip--flat > .card-showcase__face { backface-visibility: visible; -webkit-backface-visibility: visible; }
+.card-showcase__flip--flat > .card-showcase__face--back { display: none; }
 .card-showcase__face--back { position: absolute; inset: 0; transform: rotateY(180deg); }
 .card-showcase__face--back > img {
   display: block;
@@ -2174,6 +2186,7 @@ html[data-lang="zh"] .detail-title-name {
   margin: 10px;
   overflow-y: auto;
   overscroll-behavior: contain;
+  touch-action: pan-y;
   -webkit-overflow-scrolling: touch;
   padding: 8px 10px;
   background: var(--bg-card);
