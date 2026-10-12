@@ -67,13 +67,18 @@ export async function getLocations(req, res, next) {
       .lean();
 
     if (req.user) {
-      const checkins = await CheckIn.find({ user: req.user._id }).select('location checkedInAt').lean();
-      const checkinMap = new Map(checkins.map(c => [c.location.toString(), c.checkedInAt]));
-      return res.json(locations.map(loc => ({
-        ...loc,
-        unlocked: checkinMap.has(loc._id.toString()),
-        _checkedInAt: checkinMap.get(loc._id.toString()) ?? null,
-      })));
+      const checkins = await CheckIn.find({ user: req.user._id }).select('location checkedInAt guessAttempt').lean();
+      const checkinMap = new Map(checkins.map(c => [c.location.toString(), c]));
+      return res.json(locations.map(loc => {
+        const ci = checkinMap.get(loc._id.toString());
+        return {
+          ...loc,
+          unlocked: !!ci,
+          _checkedInAt: ci?.checkedInAt ?? null,
+          // Found through a treasure hunt: which guess hit (shown on the card).
+          _guessAttempt: ci?.guessAttempt ?? null,
+        };
+      }));
     }
 
     res.json(locations.map(loc => ({ ...loc, unlocked: false })));

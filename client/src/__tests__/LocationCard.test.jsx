@@ -46,6 +46,17 @@ describe('LocationCard', () => {
     expect(never.container.querySelector('.loc-card__new')).toBeNull();
   });
 
+  test('shows which treasure-hunt guess found the card', () => {
+    const found = renderCard({ unlocked: true, _guessAttempt: 1 });
+    expect(found.container.querySelector('.loc-card__hunt')).toHaveTextContent('1st try');
+    found.unmount();
+    const plain = renderCard({ unlocked: true, _guessAttempt: null });
+    expect(plain.container.querySelector('.loc-card__hunt')).toBeNull();
+    plain.unmount();
+    const locked = renderCard({ unlocked: false, _guessAttempt: 2 });
+    expect(locked.container.querySelector('.loc-card__hunt')).toBeNull();
+  });
+
   test('nearby has no effect on an unlocked card', () => {
     const { container } = renderCard({ unlocked: true }, { nearby: true });
     expect(container.querySelector('.loc-card')).not.toHaveClass('loc-card--nearby');

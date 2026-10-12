@@ -1,7 +1,13 @@
 import User from '../models/User.js';
 import CheckIn from '../models/CheckIn.js';
 import Location from '../models/Location.js';
-import { ACHIEVEMENTS, LEVELS, calculateLevel, RANDOM_DRAW_WINDOW_MS } from '../services/gamification.js';
+import {
+  ACHIEVEMENTS, LEVELS, calculateLevel, RANDOM_DRAW_WINDOW_MS,
+  HIDDEN_DRAW_MULTIPLIERS, HIDDEN_DRAW_RADII, HIDDEN_DRAW_HIT_M,
+  OLD_TOWN_SQUARE, HIDDEN_DRAW_NEAR_SQUARE_M, HIDDEN_DRAW_GOLDEN_MS, HIDDEN_DRAW_GOLDEN_BONUS, huntXp, huntStart,
+} from '../services/gamification.js';
+import { haversineDistance, compassDirection } from '../utils/geo.js';
+import { recordCheckIn } from './checkinController.js';
 import { parsePreferences } from '../utils/preferences.js';
 
 export async function getProfile(req, res) {
@@ -62,79 +68,264 @@ export async function getProgress(req, res, next) {
   }
 }
 
-// Builds the current random-draw status for a user: whether a draw is still
-// "active" (revealed, within the 24h window) or expired back to the mystery
-// state and free to draw again.
-async function buildDrawResponse(user) {
-  const draw = user.randomDraw || {};
-  const drawnAt = draw.drawnAt ? new Date(draw.drawnAt) : null;
-  const active = !!(drawnAt && Date.now() - drawnAt.getTime() < RANDOM_DRAW_WINDOW_MS);
+function parsePosition(src) {
+  const lat = Number(src?.lat);
+  const lng = Number(src?.lng);
+  if (src?.lat == null || src?.lng == null || !Number.isFinite(lat) || !Number.isFinite(lng)) return null;
+  return { lat, lng };
+}
 
-  if (!active) {
-    return { active: false, canDraw: true, location: null, drawnAt: null, expiresAt: null };
+function isDrawActive(draw) {
+  return !!(draw?.drawnAt && Date.now() - new Date(draw.drawnAt).getTime() < RANDOM_DRAW_WINDOW_MS);
+}
+
+// Treasure hunt, still unsolved: only the clues go to the client, never the
+// location or its coordinates (they'd be readable in devtools). Clues are
+// added a little at a time, one or two per guess:
+//   1. one label, which way it lies from Old Town Square, distance
+//   2. + rarity (and the XP figure, which would give it away), and the
+//        direction from each spot where a guess was pressed
+//   3. + a second label, the district (Praha N)
+//   4. + the quarter, the exact distance from each pressed spot, and the
+//        live direction from the user to the treasure
+//   5. + all labels, the exact live distance
+// Distance to the treasure is computed here from the position the client
+// reports: exact while outside the current guess radius, just "within" once
+// inside it (except on the last guess).
+function buildHuntClues(draw, location, pos) {
+  const { lat, lng } = location.coordinates;
+  const max = HIDDEN_DRAW_RADII.length;
+  const attempt = Math.min((draw.misses?.length || 0) + 1, max);
+  const labelOrder = draw.labelOrder?.length ? draw.labelOrder : (location.labels || []);
+  const shownLabels = attempt >= max ? labelOrder : labelOrder.slice(0, attempt >= 3 ? 2 : 1);
+  const showRarity = attempt >= 2;
+
+  let proximity = null;
+  if (pos) {
+    const radius = HIDDEN_DRAW_RADII[attempt - 1];
+    const d = haversineDistance(pos.lat, pos.lng, lat, lng);
+    const within = d <= radius;
+    proximity = {
+      within,
+      distance: within && attempt < max ? null : Math.round(d),
+      direction: attempt >= 4 ? compassDirection(pos.lat, pos.lng, lat, lng) : null,
+    };
+  }
+
+  const fromSquare = haversineDistance(OLD_TOWN_SQUARE.lat, OLD_TOWN_SQUARE.lng, lat, lng) < HIDDEN_DRAW_NEAR_SQUARE_M
+    ? { near: true, direction: null }
+    : { near: false, direction: compassDirection(OLD_TOWN_SQUARE.lat, OLD_TOWN_SQUARE.lng, lat, lng) };
+
+  return {
+    attempt,
+    maxAttempts: max,
+    multiplier: HIDDEN_DRAW_MULTIPLIERS[attempt - 1],
+    xpNow: showRarity ? huntXp(location.xpReward, attempt, huntStart(draw)) : null,
+    goldenUntil: new Date(huntStart(draw).getTime() + HIDDEN_DRAW_GOLDEN_MS).toISOString(),
+    goldenBonus: HIDDEN_DRAW_GOLDEN_BONUS,
+    radius: HIDDEN_DRAW_RADII[attempt - 1],
+    rarity: showRarity ? location.rarity : null,
+    xpReward: showRarity ? location.xpReward : null,
+    district: attempt >= 3 ? location.district : null,
+    quarter: attempt >= 4 ? location.quarter : null,
+    fromSquare,
+    labels: shownLabels,
+    misses: (draw.misses || []).map(m => ({ direction: m.direction, distance: attempt >= 4 ? m.distance : null })),
+    proximity,
+  };
+}
+
+// Builds the current random-draw status for a user: whether a draw is still
+// "active" (within the 24h window) or expired back to the mystery state and
+// free to draw again. `pos` (optional) is the user's current position, used
+// for a treasure hunt's distance clue.
+async function buildDrawResponse(user, pos = null) {
+  const draw = user.randomDraw || {};
+  const mode = draw.mode || 'open';
+  const drawnAt = draw.drawnAt ? new Date(draw.drawnAt) : null;
+
+  if (!isDrawActive(draw)) {
+    const res = { active: false, canDraw: true, location: null, drawnAt: null, expiresAt: null };
+    // A treasure hunt that ran out unsolved: reveal the answer until the
+    // next draw replaces it.
+    if (mode === 'hidden' && draw.slug && !draw.bonusUsed) {
+      const answer = await Location.findOne({ slug: draw.slug }).select('-description').lean();
+      if (answer) res.lastHunt = { location: answer };
+    }
+    return res;
   }
 
   const location = draw.slug
     ? await Location.findOne({ slug: draw.slug }).select('-description').lean()
     : null;
 
-  return {
+  const base = {
     active: true,
     canDraw: false,
-    location,
+    mode,
     drawnAt: drawnAt.toISOString(),
     expiresAt: new Date(drawnAt.getTime() + RANDOM_DRAW_WINDOW_MS).toISOString(),
     bonusUsed: !!draw.bonusUsed,
+    // One re-roll per draw, only while the card is still uncollected.
+    canReroll: !draw.bonusUsed && !draw.rerolled,
   };
+
+  if (mode === 'hidden' && !draw.bonusUsed) {
+    return { ...base, location: null, hunt: location ? buildHuntClues(draw, location, pos) : null };
+  }
+  if (mode === 'hidden') {
+    const ci = location && await CheckIn.findOne({ user: user._id, location: location._id }).select('xpEarned').lean();
+    return {
+      ...base,
+      location: location && { ...location, _guessAttempt: draw.solvedAttempt },
+      solvedAttempt: draw.solvedAttempt,
+      xpEarned: ci?.xpEarned ?? null,
+    };
+  }
+  return { ...base, location };
 }
 
 export async function getRandomDraw(req, res, next) {
   try {
-    res.json(await buildDrawResponse(req.user));
+    res.json(await buildDrawResponse(req.user, parsePosition(req.query)));
   } catch (err) {
     next(err);
   }
 }
 
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+// Picks a random card for a new draw, or null when none is left: one the
+// user hasn't collected, city-only unless `includeOutside`, and for a
+// treasure hunt always city-only with a quarter (its third clue). A re-roll
+// passes the current card as `excludeSlug`.
+async function pickDrawLocation(user, mode, includeOutside, excludeSlug = null) {
+  const checkins = await CheckIn.find({ user: user._id }).select('location').lean();
+  const match = { _id: { $nin: checkins.map(c => c.location) } };
+  if (excludeSlug) match.slug = { $ne: excludeSlug };
+  if (mode === 'hidden' || !includeOutside) match.labels = { $ne: 'outside' };
+  if (mode === 'hidden') match.quarter = { $nin: [null, ''] };
+  const [picked] = await Location.aggregate([{ $match: match }, { $sample: { size: 1 } }]);
+  return picked || null;
+}
+
+// The randomDraw fields for a freshly dealt card.
+function dealCard(picked, mode) {
+  return mode === 'hidden'
+    ? { slug: picked.slug, bonusUsed: false, mode, labelOrder: shuffle(picked.labels || []), misses: [], solvedAttempt: null }
+    : { slug: picked.slug, bonusUsed: false, mode, labelOrder: undefined, misses: undefined, solvedAttempt: null };
+}
+
 export async function drawRandomLocation(req, res, next) {
   try {
     const user = req.user;
+    const mode = req.body?.mode === 'hidden' ? 'hidden' : 'open';
 
     // Still within the 24h window — hand back the existing draw rather than
-    // re-rolling (guards against a double-click / repeated POST).
+    // re-rolling (guards against a double-click / repeated POST). The two
+    // modes share this one timer: a treasure hunt uses up the day's draw.
     const existing = await buildDrawResponse(user);
     if (existing.active) return res.json(existing);
 
-    const checkins = await CheckIn.find({ user: user._id }).select('location').lean();
-    const excludeIds = checkins.map(c => c.location);
-
-    // City cards only (no `outside` label) unless the user ticked
-    // "include cards outside Prague" on the Draw page.
-    const match = { _id: { $nin: excludeIds } };
-    if (!req.body?.includeOutside) match.labels = { $ne: 'outside' };
-
-    const [picked] = await Location.aggregate([
-      { $match: match },
-      { $sample: { size: 1 } },
-    ]);
-
+    const picked = await pickDrawLocation(user, mode, !!req.body?.includeOutside);
     if (!picked) {
       // User has checked in everywhere — nothing left to draw.
       return res.json({ active: false, canDraw: false, location: null, drawnAt: null, expiresAt: null, noneLeft: true });
     }
 
-    user.randomDraw = { slug: picked.slug, drawnAt: new Date(), bonusUsed: false };
+    const now = new Date();
+    user.randomDraw = { ...dealCard(picked, mode), drawnAt: now, rolledAt: now, rerolled: false };
     await user.save();
 
-    const location = await Location.findById(picked._id).select('-description').lean();
-    res.json({
-      active: true,
-      canDraw: false,
-      location,
-      drawnAt: user.randomDraw.drawnAt.toISOString(),
-      expiresAt: new Date(user.randomDraw.drawnAt.getTime() + RANDOM_DRAW_WINDOW_MS).toISOString(),
-      bonusUsed: false,
-    });
+    res.json(await buildDrawResponse(user, parsePosition(req.body)));
+  } catch (err) {
+    next(err);
+  }
+}
+
+// Swaps the current draw's card for another of the same mode, once per draw.
+// The 24h window keeps running from the original draw; a treasure hunt starts
+// over (no guesses used, golden time from now).
+export async function rerollDraw(req, res, next) {
+  try {
+    const user = await User.findById(req.user._id);
+    const draw = user.randomDraw || {};
+    if (!isDrawActive(draw)) return res.status(409).json({ message: 'No draw to re-roll' });
+    if (draw.bonusUsed) return res.status(409).json({ message: 'This card is already collected' });
+    if (draw.rerolled) return res.status(409).json({ message: 'Already re-rolled today' });
+
+    const mode = draw.mode || 'open';
+    const picked = await pickDrawLocation(user, mode, !!req.body?.includeOutside, draw.slug);
+    if (!picked) return res.status(409).json({ message: 'No other card left to draw' });
+
+    user.randomDraw = { ...dealCard(picked, mode), drawnAt: draw.drawnAt, rolledAt: new Date(), rerolled: true };
+    await user.save();
+
+    res.json(await buildDrawResponse(user, parsePosition(req.body)));
+  } catch (err) {
+    next(err);
+  }
+}
+
+// Treasure hunt guess: the user presses "here!" at their current position.
+// Allowed only inside the current guess's radius. Within HIDDEN_DRAW_HIT_M
+// of the target it collects the card at that guess's multiplier; otherwise
+// the guess is used up and the miss (direction from where it was pressed,
+// plus the exact distance from the fourth guess on) becomes a clue.
+export async function guessHiddenDraw(req, res, next) {
+  try {
+    const pos = parsePosition(req.body);
+    if (!pos) return res.status(400).json({ message: 'Location coordinates are required to guess' });
+
+    const user = await User.findById(req.user._id);
+    const draw = user.randomDraw || {};
+    if (draw.mode !== 'hidden' || !isDrawActive(draw) || draw.bonusUsed) {
+      return res.status(409).json({ message: 'No treasure hunt in progress' });
+    }
+
+    const location = await Location.findOne({ slug: draw.slug });
+    if (!location) return res.status(404).json({ message: 'Location not found' });
+
+    const missCount = draw.misses?.length || 0;
+    const attempt = missCount + 1;
+    const d = haversineDistance(pos.lat, pos.lng, location.coordinates.lat, location.coordinates.lng);
+
+    if (d <= HIDDEN_DRAW_HIT_M) {
+      const existing = await CheckIn.findOne({ user: user._id, location: location._id });
+      if (existing) return res.status(409).json({ message: 'Already checked in' });
+      const result = await recordCheckIn(user, location, {
+        xpEarned: huntXp(location.xpReward, attempt, huntStart(draw)),
+        guessAttempt: attempt,
+      });
+      return res.status(201).json({ hit: true, ...result, draw: await buildDrawResponse(user, pos) });
+    }
+
+    if (d > HIDDEN_DRAW_RADII[attempt - 1]) {
+      return res.status(403).json({ message: 'Not close enough to guess yet' });
+    }
+
+    // Conditional on the miss count so a double-tap can't burn two guesses.
+    const miss = {
+      lat: pos.lat,
+      lng: pos.lng,
+      distance: Math.round(d),
+      direction: compassDirection(pos.lat, pos.lng, location.coordinates.lat, location.coordinates.lng),
+      at: new Date(),
+    };
+    const updated = await User.findOneAndUpdate(
+      { _id: user._id, 'randomDraw.slug': draw.slug, $expr: { $eq: [{ $size: { $ifNull: ['$randomDraw.misses', []] } }, missCount] } },
+      { $push: { 'randomDraw.misses': miss } },
+      { new: true },
+    );
+    const current = updated || await User.findById(user._id);
+    res.json({ hit: false, draw: await buildDrawResponse(current, pos) });
   } catch (err) {
     next(err);
   }

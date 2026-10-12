@@ -1,7 +1,7 @@
 import { useState, useRef, useLayoutEffect, useEffect, memo } from 'react';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap';
 import { getLocalCoverPath, toThumbPath, toCloudThumbUrl } from '../../utils/localCover';
-import { useLang, useConvert } from '../../context/LanguageContext';
+import { useLang, useConvert, useT } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
 import { RARITY_VAR, RARITY_LABEL, lockClosedIcon, lockOpenIcon } from '../../utils/rarity';
 import RarityFrame from './RarityFrame';
@@ -17,6 +17,7 @@ const NEW_BADGE_MS = 48 * 60 * 60 * 1000;
 function LocationCard({ location, onClick, distance, nearby = false }) {
   const { lang } = useLang();
   const convert = useConvert();
+  const t = useT();
   const { labels = [], pixelArtKey, xpReward, rarity = 'common', unlocked, slug } = location;
   const name  = convert(getLocName(location, lang));
   const art   = getArt(pixelArtKey, labels);
@@ -77,6 +78,10 @@ function LocationCard({ location, onClick, distance, nearby = false }) {
     >
       <RarityFrame />
       {isNew && <span className="loc-card__new">NEW</span>}
+      {/* Found through a treasure hunt: on which of the three guesses. */}
+      {unlocked && !flipping && location._guessAttempt >= 1 && location._guessAttempt <= 5 && (
+        <span className="loc-card__hunt">🎯 {convert(t(`card.guess${location._guessAttempt}`))}</span>
+      )}
       <div className="loc-card__banner" style={{ background: teasing ? 'var(--nearby-banner, #4a4a4a)' : color }}>
         {/* width/height give a lazy cover a square placeholder (covers are
             almost all square) so the card doesn't grow when it loads. */}

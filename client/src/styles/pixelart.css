@@ -549,6 +549,22 @@
   .loc-card__new { animation: none; }
 }
 
+.loc-card__hunt {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  z-index: 3;
+  padding: 4px 6px 3px;
+  font-family: var(--ui-font);
+  font-size: 12px;
+  line-height: 1;
+  color: #1a1206;
+  background: var(--gold);
+  border: 2px solid color-mix(in srgb, var(--gold) 60%, #000);
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.45);
+  white-space: nowrap;
+}
+
 .loc-card--locked {
   border-color: var(--border-strong, #333);
   filter: saturate(0.15);
@@ -1653,6 +1669,64 @@ html[data-lang="zh"] .detail-title-name {
   user-select: none;
 }
 .draw-scope input { width: 16px; height: 16px; accent-color: var(--gold); cursor: pointer; margin: 0; }
+/* Game mode tabs at the top of the Draw page (明抽 / 寻宝). */
+.draw-mode-tabs { display: flex; justify-content: center; gap: 8px; margin: 0 0 18px; }
+/* .draw-page raises specificity over global.css's per-language .filter-btn
+   sizes; the zh one is !important there, so it needs it here too. */
+.draw-page .draw-mode-tabs > .filter-btn { flex: 0 1 160px; padding: 9px 16px; font-size: 16px; }
+html[data-lang="zh"] .draw-page .draw-mode-tabs > .filter-btn { font-size: 17px !important; }
+.draw-mode-tabs > .filter-btn:disabled { opacity: 0.45; cursor: not-allowed; }
+.draw-mode-tabs > .filter-btn:disabled:hover { border-color: var(--border); color: var(--text-muted); }
+.draw-mode-hint { text-align: center; max-width: 420px; color: var(--text-muted); font-size: 15px; margin: 0; }
+
+/* Treasure hunt clue panel (TreasureHuntPanel). */
+.hunt-panel {
+  width: 100%;
+  max-width: 440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  background: var(--bg-card);
+  border: 2px solid var(--gold);
+  box-shadow: 4px 4px 0 var(--shadow);
+}
+.hunt-panel__head {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 8px;
+  font-family: var(--ui-font);
+  font-size: 15px;
+  color: var(--gold);
+}
+.hunt-panel__clues { justify-content: center; flex-wrap: wrap; }
+.hunt-panel__clues > .detail-label-pill { border: 1px solid transparent; }
+.hunt-panel__golden { font-size: 15px; color: var(--text-muted); display: flex; align-items: center; gap: 8px; }
+.hunt-panel__misses {
+  width: 100%;
+  margin: 0;
+  padding: 0 0 0 18px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: var(--text-muted);
+}
+.hunt-panel__square { font-size: 16px; text-align: center; color: var(--text-primary); }
+.hunt-panel__distance { font-family: var(--ui-font-text); font-size: 20px; font-weight: 600; color: var(--text-primary); text-align: center; }
+.hunt-panel__flash { font-size: 15px; text-align: center; }
+.hunt-panel__range { font-size: 14px; color: var(--text-muted); text-align: center; margin-top: -4px; }
+.hunt-panel__flash--miss { color: #e0a040; }
+.hunt-panel__flash--error { color: #e05050; }
+.hunt-panel__confirm { display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center; }
+.hunt-panel__confirm-buttons { display: flex; gap: 10px; }
+.hunt-panel .px-btn:disabled { opacity: 0.45; cursor: not-allowed; box-shadow: none; transform: none; }
+.hunt-found { text-align: center; color: var(--gold); }
+/* One re-roll per draw, under the countdown. */
+.draw-reroll { display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center; max-width: 420px; }
+.draw-reroll__ask { font-size: 15px; color: var(--text-muted); }
+.draw-reroll__buttons { display: flex; gap: 10px; }
 .draw-countdown {
   font-size: 15px;
   color: var(--text-muted);

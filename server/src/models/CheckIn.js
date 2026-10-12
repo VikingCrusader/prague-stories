@@ -6,6 +6,7 @@ const checkInSchema = new mongoose.Schema({
   note:        { type: String, maxlength: 280, default: '' },
   checkedInAt: { type: Date, default: Date.now },
   xpEarned:    { type: Number }, // actual XP awarded (may be tripled by a random-draw bonus); absent on legacy check-ins
+  guessAttempt: { type: Number }, // set when found through a treasure hunt: which of the five guesses hit (1–5)
 });
 
 // One check-in per user per location

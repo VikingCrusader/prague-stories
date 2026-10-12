@@ -43,8 +43,11 @@ export const historyAPI = {
 export const userAPI = {
   getProgress:      () => api.get('/user/progress'),
   getAchievements:  () => api.get('/user/achievements'),
-  getRandomDraw:    () => api.get('/user/random-draw'),
-  drawRandomLocation: (includeOutside = false) => api.post('/user/random-draw', { includeOutside }),
+  // `pos` ({ lat, lng }, optional) lets the server compute a treasure hunt's distance clue.
+  getRandomDraw:    (pos) => api.get('/user/random-draw', { params: pos ? { lat: pos.lat, lng: pos.lng } : undefined }),
+  drawRandomLocation: (includeOutside = false, mode = 'open', pos) => api.post('/user/random-draw', { includeOutside, mode, ...(pos || {}) }),
+  rerollDraw:       (includeOutside = false, pos) => api.post('/user/random-draw/reroll', { includeOutside, ...(pos || {}) }),
+  guessTreasure:    (pos) => api.post('/user/random-draw/guess', pos),
   getHistoryProgress:  ()     => api.get('/user/history-progress'),
   saveHistoryProgress: (slug) => api.put('/user/history-progress', { slug }),
   savePreferences:     (prefs) => api.put('/user/preferences', prefs),

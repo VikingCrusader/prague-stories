@@ -5,13 +5,14 @@ import { useT, useLang, useConvert } from '../context/LanguageContext';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../utils/pixelArtMap';
 import { getLocalCoverPath } from '../utils/localCover';
 import { getLocName } from '../utils/locName';
-import { haversineDistance, formatDistance } from '../utils/geolocation';
+import { haversineDistance, formatDistance, getCurrentPosition } from '../utils/geolocation';
 import { useUserPosition } from '../hooks/useUserPosition';
 import { RARITY_VAR, RARITY_LABEL, lockClosedIcon } from '../utils/rarity';
 import LocationCard from '../components/locations/LocationCard';
 import RarityFrame from '../components/locations/RarityFrame';
 import { isInCity } from '../components/locations/ScopeToggle';
 import LocationDetail from '../components/locations/LocationDetail';
+import TreasureHuntPanel from '../components/draw/TreasureHuntPanel';
 
 // Guest "try it out" draw: never touches the backend at all, since a guest
 // has no account to persist a real draw against. Lives in sessionStorage —
@@ -22,6 +23,7 @@ import LocationDetail from '../components/locations/LocationDetail';
 // is carried over.
 const GUEST_DRAW_KEY = 'guestRandomDraw';
 const DRAW_SCOPE_KEY = 'drawIncludeOutside';
+const DRAW_MODE_KEY = 'drawMode';
 const GUEST_DRAW_WINDOW_MS = 24 * 60 * 60 * 1000;
 
 function readGuestDraw() {
@@ -170,14 +172,30 @@ export default function RandomDrawPage() {
     setIncludeOutside(e.target.checked);
     localStorage.setItem(DRAW_SCOPE_KEY, e.target.checked ? 'all' : 'city');
   };
+  // Game mode tab at the top of the page: 'open' (明抽) or 'hidden' (寻宝).
+  // Remembered across visits; while a draw is running the tab follows that
+  // draw's mode and can't be switched.
+  const [pickedMode, setPickedMode] = useState(() => {
+    try { return localStorage.getItem(DRAW_MODE_KEY) === 'hidden' ? 'hidden' : 'open'; } catch { return 'open'; }
+  });
+  const pickMode = m => {
+    setPickedMode(m);
+    try { localStorage.setItem(DRAW_MODE_KEY, m); } catch { /* ignore */ }
+  };
   const refreshingOnExpiry = useRef(false);
+  const [guessing, setGuessing] = useState(false);
+  const [huntFlash, setHuntFlash] = useState(null);
+  // Latest position for the treasure hunt's distance clue, read by the poll
+  // below without restarting it on every GPS update.
+  const posRef = useRef(userPos);
+  posRef.current = userPos;
 
   const fetchStatus = useCallback(() => {
     if (isGuestMode) {
       setStatus(buildGuestStatus());
       return Promise.resolve();
     }
-    return userAPI.getRandomDraw()
+    return userAPI.getRandomDraw(posRef.current)
       .then(res => setStatus(res.data))
       .catch(() => setStatus({ active: false, canDraw: true, location: null }));
   }, [isGuestMode]);
@@ -193,6 +211,68 @@ export default function RandomDrawPage() {
     const id = setInterval(() => setNow(Date.now()), 1000);
     return () => clearInterval(id);
   }, [status?.active]);
+
+  // Treasure hunt in progress: the distance clue is computed by the server
+  // (the client never gets the coordinates), so report the position every
+  // 10 s, and right away once the first GPS fix arrives.
+  const huntActive = !!(status?.active && status.mode === 'hidden' && !status.bonusUsed);
+  const hasPos = !!userPos;
+  useEffect(() => {
+    if (!huntActive || !hasPos) return;
+    const tick = () => {
+      if (!posRef.current) return;
+      userAPI.getRandomDraw(posRef.current).then(res => setStatus(res.data)).catch(() => {});
+    };
+    tick();
+    const id = setInterval(tick, 10000);
+    return () => clearInterval(id);
+  }, [huntActive, hasPos]);
+
+  const handleGuess = async () => {
+    setGuessing(true);
+    setHuntFlash(null);
+    try {
+      const pos = await getCurrentPosition();
+      const res = await userAPI.guessTreasure(pos);
+      if (res.data.hit) applyProgress(res.data.levelInfo, res.data.totalXP);
+      else setHuntFlash({ type: 'miss', text: t('draw.huntMissFlash') });
+      setStatus(res.data.draw);
+    } catch (err) {
+      setHuntFlash({ type: 'error', text: err.response?.data?.message || err.message });
+      fetchStatus();
+    } finally {
+      setGuessing(false);
+    }
+  };
+
+  // One re-roll per draw (see rerollDraw on the server). Two taps: the first
+  // asks for confirmation, since a treasure hunt's progress is lost.
+  const [rerollConfirm, setRerollConfirm] = useState(false);
+  const [rerolling, setRerolling] = useState(false);
+  const [rerollError, setRerollError] = useState(null);
+  const handleReroll = () => {
+    if (!rerollConfirm) { setRerollConfirm(true); return; }
+    setRerolling(true);
+    setRerollError(null);
+    userAPI.rerollDraw(includeOutside, posRef.current)
+      .then(res => { setStatus(res.data); setHuntFlash(null); })
+      .catch(err => setRerollError(err.response?.data?.message || err.message))
+      .finally(() => { setRerolling(false); setRerollConfirm(false); });
+  };
+  const rerollButton = status?.canReroll && !isGuestMode ? (
+    <div className="draw-reroll">
+      {rerollConfirm && (
+        <span className="draw-reroll__ask">{t(status.mode === 'hidden' ? 'draw.rerollConfirmHunt' : 'draw.rerollConfirm')}</span>
+      )}
+      <div className="draw-reroll__buttons">
+        <button className="px-btn" onClick={handleReroll} disabled={rerolling}>
+          {rerollConfirm ? t('draw.rerollYes') : t('draw.reroll')}
+        </button>
+        {rerollConfirm && <button className="px-btn" onClick={() => setRerollConfirm(false)}>{t('draw.huntCancel')}</button>}
+      </div>
+      {rerollError && <span className="hunt-panel__flash hunt-panel__flash--error">{rerollError}</span>}
+    </div>
+  ) : null;
 
   const expiresAt = status?.expiresAt ? new Date(status.expiresAt).getTime() : null;
   const msLeft = expiresAt ? expiresAt - now : 0;
@@ -210,8 +290,9 @@ export default function RandomDrawPage() {
     }
   }, [msLeft, status?.active, expiresAt, fetchStatus]);
 
-  const handleDraw = () => {
+  const handleDraw = (mode = 'open') => {
     setDrawing(true);
+    setHuntFlash(null);
     if (isGuestMode) {
       // No account to exclude already-checked-in locations against — a guest
       // has none — so this just samples from the public location list
@@ -228,7 +309,7 @@ export default function RandomDrawPage() {
         .finally(() => setDrawing(false));
       return;
     }
-    userAPI.drawRandomLocation(includeOutside)
+    userAPI.drawRandomLocation(includeOutside, mode, posRef.current)
       .then(res => setStatus(res.data))
       .finally(() => setDrawing(false));
   };
@@ -239,13 +320,34 @@ export default function RandomDrawPage() {
   };
 
   const rules = [t('draw.rule1'), t('draw.rule2'), t('draw.rule3'), t('draw.rule4')];
+  const huntRules = [t('draw.huntRule1'), t('draw.huntRule2'), t('draw.huntRule3'), t('draw.huntRule4'), t('draw.huntRule5'), t('draw.huntRule6')];
+  const modeLocked = !!status?.active;
+  const mode = modeLocked ? (status.mode || 'open') : pickedMode;
+  const solvedHunt = status?.active && status.mode === 'hidden' && status.bonusUsed && status.location;
 
   return (
     <div className="guide-page draw-page">
       <div className="guide-wrap">
-        <h1 className="px-title" style={{ fontSize: 26, marginBottom: 6 }}>{t('draw.title')}</h1>
-        <p className="guide-intro">{t('draw.tagline')}</p>
-        <div className="guide-challenge">{t('draw.challenge')}</div>
+        <div className="draw-mode-tabs" role="tablist">
+          {['open', 'hidden'].map(m => (
+            <button
+              key={m}
+              role="tab"
+              aria-selected={mode === m}
+              className={`filter-btn${mode === m ? ' filter-btn--active' : ''}`}
+              onClick={() => pickMode(m)}
+              disabled={modeLocked && mode !== m}
+              title={modeLocked && mode !== m ? t('draw.modeLocked') : undefined}
+            >
+              {t(m === 'open' ? 'draw.modeOpen' : 'draw.modeHunt')}
+            </button>
+          ))}
+        </div>
+        <h1 className="px-title" style={{ fontSize: 26, marginBottom: 6 }}>
+          {t(mode === 'hidden' ? 'draw.modeHunt' : 'draw.modeOpen')}
+        </h1>
+        <p className="guide-intro">{t(mode === 'hidden' ? 'draw.huntTagline' : 'draw.tagline')}</p>
+        <div className="guide-challenge">{t(mode === 'hidden' ? 'draw.huntChallenge' : 'draw.challenge')}</div>
 
         {isGuestMode && (
           <p className="guide-body" style={{ textAlign: 'center', maxWidth: 480, margin: '0 auto 14px', color: 'var(--text-muted)' }}>
@@ -309,7 +411,27 @@ export default function RandomDrawPage() {
                       <DrawnCardMeta loc={status.location} lang={lang} convert={convert} distance={distance} />
                     )}
 
-                    {status?.active && status.location ? (
+                    {huntActive && status.hunt ? (
+                      <>
+                        <TreasureHuntPanel hunt={status.hunt} onGuess={handleGuess} guessing={guessing} flash={huntFlash} now={now} />
+                        <div className="draw-countdown">
+                          {t('draw.cooldownLabel')} <span className="draw-countdown__time">{formatCountdown(msLeft)}</span>
+                        </div>
+                        {rerollButton}
+                      </>
+                    ) : solvedHunt ? (
+                      <>
+                        <p className="guide-body hunt-found" style={{ marginTop: 14, marginBottom: 4 }}>
+                          {t('draw.huntFound', {
+                            n: status.solvedAttempt,
+                            xp: status.xpEarned ?? 0,
+                          })}
+                        </p>
+                        <div className="draw-countdown">
+                          {t('draw.cooldownLabel')} <span className="draw-countdown__time">{formatCountdown(msLeft)}</span>
+                        </div>
+                      </>
+                    ) : status?.active && status.location ? (
                       <>
                         <p className="guide-body" style={{ marginTop: 14, marginBottom: 4 }}>
                           {t('draw.revealedHintPre')}
@@ -327,23 +449,51 @@ export default function RandomDrawPage() {
                         <div className="draw-countdown">
                           {t('draw.cooldownLabel')} <span className="draw-countdown__time">{formatCountdown(msLeft)}</span>
                         </div>
+                        {rerollButton}
                       </>
                     ) : (
                       <>
+                        {status?.lastHunt?.location && (
+                          <p className="guide-body" style={{ textAlign: 'center', maxWidth: 420 }}>
+                            {t('draw.huntLastAnswer')}
+                            <a
+                              href="#"
+                              onClick={e => { e.preventDefault(); setSelectedSlug(status.lastHunt.location.slug); }}
+                              style={{ textDecoration: 'underline' }}
+                            >
+                              {convert(getLocName(status.lastHunt.location, lang))}
+                            </a>
+                          </p>
+                        )}
                         <p className="guide-body" style={{ textAlign: 'center', maxWidth: 420, color: 'var(--text-muted)' }}>
-                          {t('draw.mysteryHint')}
+                          {t(mode === 'hidden' ? 'draw.huntMysteryHint' : 'draw.mysteryHint')}
                         </p>
-                        <button
-                          className="px-btn px-btn--gold px-btn--lg"
-                          onClick={handleDraw}
-                          disabled={drawing}
-                        >
-                          {drawing ? t('draw.buttonDrawing') : t('draw.buttonDraw')}
-                        </button>
-                        <label className="draw-scope">
-                          <input type="checkbox" checked={includeOutside} onChange={toggleIncludeOutside} />
-                          {t('draw.includeOutside')}
-                        </label>
+                        {mode === 'hidden' ? (
+                          <>
+                            <button
+                              className="px-btn px-btn--gold px-btn--lg"
+                              onClick={() => handleDraw('hidden')}
+                              disabled={drawing || isGuestMode}
+                            >
+                              {drawing ? t('draw.buttonDrawing') : t('draw.buttonHuntStart')}
+                            </button>
+                            {isGuestMode && <p className="guide-body draw-mode-hint">{t('draw.huntGuestOnly')}</p>}
+                          </>
+                        ) : (
+                          <>
+                            <button
+                              className="px-btn px-btn--gold px-btn--lg"
+                              onClick={() => handleDraw('open')}
+                              disabled={drawing}
+                            >
+                              {drawing ? t('draw.buttonDrawing') : t('draw.buttonDraw')}
+                            </button>
+                            <label className="draw-scope">
+                              <input type="checkbox" checked={includeOutside} onChange={toggleIncludeOutside} />
+                              {t('draw.includeOutside')}
+                            </label>
+                          </>
+                        )}
                       </>
                     )}
                   </>
@@ -353,22 +503,44 @@ export default function RandomDrawPage() {
 
             <hr className="px-divider" />
 
-            <section className="guide-section">
-              <p className="guide-body">{t('draw.intro1')}</p>
-              <p className="guide-body">{t('draw.intro2')}</p>
-            </section>
+            {mode === 'hidden' ? (
+              <>
+                <section className="guide-section">
+                  <p className="guide-body">{t('draw.huntIntro')}</p>
+                </section>
 
-            <hr className="px-divider" />
+                <hr className="px-divider" />
 
-            <section className="guide-section">
-              <h2 className="guide-h2">{t('draw.rulesTitle')}</h2>
-              {rules.map((rule, i) => (
-                <div key={i} className="guide-step">
-                  <span className="guide-step-num">{i + 1}</span>
-                  <p className="guide-body">{rule}</p>
-                </div>
-              ))}
-            </section>
+                <section className="guide-section">
+                  <h2 className="guide-h2">{t('draw.rulesTitle')}</h2>
+                  {huntRules.map((rule, i) => (
+                    <div key={i} className="guide-step">
+                      <span className="guide-step-num">{i + 1}</span>
+                      <p className="guide-body">{rule}</p>
+                    </div>
+                  ))}
+                </section>
+              </>
+            ) : (
+              <>
+                <section className="guide-section">
+                  <p className="guide-body">{t('draw.intro1')}</p>
+                  <p className="guide-body">{t('draw.intro2')}</p>
+                </section>
+
+                <hr className="px-divider" />
+
+                <section className="guide-section">
+                  <h2 className="guide-h2">{t('draw.rulesTitle')}</h2>
+                  {rules.map((rule, i) => (
+                    <div key={i} className="guide-step">
+                      <span className="guide-step-num">{i + 1}</span>
+                      <p className="guide-body">{rule}</p>
+                    </div>
+                  ))}
+                </section>
+              </>
+            )}
         </>
       </div>
 

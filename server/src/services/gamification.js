@@ -4,6 +4,34 @@
 export const RANDOM_DRAW_WINDOW_MS = 24 * 60 * 60 * 1000;
 export const RANDOM_DRAW_XP_MULTIPLIER = 3;
 
+// Treasure hunt ("寻宝"): the location stays hidden; the user gets five
+// guesses. Guess N is only allowed within HIDDEN_DRAW_RADII[N-1] of the
+// target and succeeds within HIDDEN_DRAW_HIT_M; a hit pays
+// HIDDEN_DRAW_MULTIPLIERS[N-1] times the card's XP. The last radius equals
+// the hit radius, so the last guess can't miss (it only lapses with the
+// 24h window). The early radii are wide on purpose: a player may burn a
+// guess from far away, trading XP for the next clues.
+export const HIDDEN_DRAW_MULTIPLIERS = [10, 7, 5, 3, 2];
+export const HIDDEN_DRAW_RADII = [3000, 2000, 1000, 500, 100];
+export const HIDDEN_DRAW_HIT_M = 100;
+// The first clue says which way the treasure lies from Old Town Square, or
+// just "near the square" when it's closer than HIDDEN_DRAW_NEAR_SQUARE_M.
+export const OLD_TOWN_SQUARE = { lat: 50.0875, lng: 14.4213 };
+export const HIDDEN_DRAW_NEAR_SQUARE_M = 1000;
+// Golden time: found within this long of starting the hunt, the XP gets an
+// extra multiplier on top of the guess's own.
+export const HIDDEN_DRAW_GOLDEN_MS = 2 * 60 * 60 * 1000;
+export const HIDDEN_DRAW_GOLDEN_BONUS = 1.5;
+
+/** When the current card of a draw was dealt (a re-roll deals a new one). */
+export const huntStart = draw => new Date(draw.rolledAt || draw.drawnAt);
+
+/** XP for collecting a treasure on guess `attempt`, at time `now`. */
+export function huntXp(xpReward, attempt, startedAt, now = Date.now()) {
+  const golden = now - new Date(startedAt).getTime() < HIDDEN_DRAW_GOLDEN_MS;
+  return Math.round(xpReward * HIDDEN_DRAW_MULTIPLIERS[attempt - 1] * (golden ? HIDDEN_DRAW_GOLDEN_BONUS : 1));
+}
+
 export const LEVELS = [
   { level: 1, title: "Newcomer", title_cz: "Nováček", title_zh: "新来者", xpRequired: 0 },
   { level: 2, title: "Tourist", title_cz: "Turista", title_zh: "游客", xpRequired: 80 },
