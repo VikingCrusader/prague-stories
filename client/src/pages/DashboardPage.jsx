@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { userAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
@@ -8,6 +8,8 @@ import { RARITY_VAR, RARITY_LABEL, RARITY_ICON } from '../utils/rarity';
 import ProgressRing from '../components/dashboard/ProgressRing';
 import AchievementBadge from '../components/dashboard/AchievementBadge';
 import { useWakeLock } from '../hooks/useWakeLock';
+import LocationCard from '../components/locations/LocationCard';
+import LocationDetail from '../components/locations/LocationDetail';
 
 export default function DashboardPage() {
   const { user, guest, logout } = useAuth();
@@ -20,12 +22,20 @@ export default function DashboardPage() {
   const [achData, setAchData]   = useState(null);
   const [selectedAch, setSelectedAch] = useState(null);
   const [loading, setLoading]   = useState(true);
+  // Cards found through a treasure hunt (signed-in users only).
+  const [treasures, setTreasures] = useState(null);
+  const [openSlug, setOpenSlug]   = useState(null);
 
   useEffect(() => {
     Promise.all([userAPI.getProgress(), userAPI.getAchievements()])
       .then(([p, a]) => { setProgress(p.data); setAchData(a.data); })
       .finally(() => setLoading(false));
   }, []);
+
+  useEffect(() => {
+    if (!user) return;
+    userAPI.getTreasures().then(res => setTreasures(res.data)).catch(() => setTreasures([]));
+  }, [user]);
 
   if (loading || !progress || !achData) return (
     <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
@@ -192,6 +202,26 @@ export default function DashboardPage() {
         ))}
       </div>
 
+      {/* Treasure hunt finds */}
+      {user && treasures && (
+        <section style={{ marginTop: 28 }}>
+          <h2 className="px-title" style={{ fontSize: 22, marginBottom: 14 }}>
+            {t('dashboard.treasures')} {treasures.length > 0 && <span style={{ color: 'var(--text-muted)' }}>({treasures.length})</span>}
+          </h2>
+          {treasures.length > 0 ? (
+            <div className="location-grid">
+              {treasures.map(loc => (
+                <LocationCard key={loc.slug} location={loc} onClick={setOpenSlug} />
+              ))}
+            </div>
+          ) : (
+            <p className="guide-body" style={{ color: 'var(--text-muted)' }}>
+              {t('dashboard.treasuresEmpty')} <Link to="/random-draw" style={{ textDecoration: 'underline' }}>{t('dashboard.treasuresLink')}</Link>
+            </p>
+          )}
+        </section>
+      )}
+
       {/* Wake lock toggle */}
       <div style={{ marginTop: 28, display: 'flex', justifyContent: 'flex-end' }}>
         {wakeLock.supported ? (
@@ -216,6 +246,8 @@ export default function DashboardPage() {
           <span style={{ fontSize: 12, color: 'var(--text-dim, #555)' }}>{convert(t('dashboard.wakeLockUnsupported'))}</span>
         )}
       </div>
+
+      {openSlug && <LocationDetail slug={openSlug} onClose={() => setOpenSlug(null)} />}
 
       {/* Achievement detail modal */}
       {selectedAch && (() => {

@@ -558,7 +558,7 @@
   font-family: var(--ui-font);
   font-size: 12px;
   line-height: 1;
-  color: #1a1206;
+  color: var(--bg-card);
   background: var(--gold);
   border: 2px solid color-mix(in srgb, var(--gold) 60%, #000);
   box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.45);

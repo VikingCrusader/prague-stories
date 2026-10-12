@@ -97,9 +97,14 @@ Many events end with a row of location cards: the real places where it all happe
 
 The page remembers where you stopped reading (across devices, if you're signed in), so you can pick up the Middle Ages exactly where you left them.
 
-### The Blind Draw
+### The Draw: Open Draw or Treasure Hunt
 
-For everyone who stares at the Explore grid for eleven minutes and still can't pick a location. Once every 24 hours, hit **Draw** and the app deals you one random card from everywhere you haven't found yet. Face down. No peeking, no re-rolls.
+For everyone who stares at the Explore grid for eleven minutes and still can't pick a location. Once every 24 hours, the **Draw** page decides for you, in one of two flavours:
+
+- **Open Draw** names a random place you haven't found yet and tells you to go.
+- **Treasure Hunt** names nothing at all. You get a clue, a direction and a distance, and the city turns into a very large escape room.
+
+One or the other, once a day. If fate deals you something truly unbearable, you get one re-roll. The Draw page has the fine print.
 
 What it's worth is explained in the XP section. Spoiler: a lot.
 
@@ -208,13 +213,13 @@ Each location has a **rarity**, a card-style tier that tells you how rare a find
 
 Rarity shows up everywhere: the symbol and colour on every card, the card border, the location name. Everything is colour-coded. The game wants you to feel things about a gold card.
 
-### Triple XP: the Blind Draw
+### Bonus XP: the Draw
 
-Your daily draw stays face down until you go and get it. **Collect it within 24 hours and that one visit pays triple XP.** A Legendary card drawn this way is worth 300 XP instead of 100.
+**An Open Draw collected within 24 hours pays triple XP.** A Legendary card drawn this way is worth 300 XP instead of 100. It doesn't matter how you collect it (shaking card, alert or Collect button).
 
-It doesn't matter how you collect it (shaking card, alert or Collect button); the bonus applies either way, once per draw.
+**A Treasure Hunt pays up to ten times as much**, if you find it on the first guess, and a little less with every guess after that. Each wrong guess buys you another clue, so you can trade glory for hints. Find it within two hours and there's a bit extra on top.
 
-Let the clock run out and the card quietly flips back to **???**. No penalty, no XP lost, just a fresh mystery waiting for your next draw. This is not a strategy. This is letting a random-number generator make your evening plans. No judgment; the XP is real either way.
+Run out of time and nothing is lost: an Open Draw quietly flips back to **???**, a Treasure Hunt reveals its answer. You keep your XP. Your pride is another matter.
 
 ### The Level Ladder
 
@@ -285,7 +290,7 @@ Custom locations work exactly like the built-in ones: same locks, same shaking, 
 
 - **Read the History Timeline before a day trip.** Every place is twice as good when you know who was thrown out of which window there.
 
-- **Can't decide? Let the Blind Draw decide.** Whatever it hands you pays triple XP if you collect it within 24 hours: the game's polite way of rewarding decisiveness over analysis paralysis.
+- **Can't decide? Let the Draw decide.** Open Draw pays triple XP if you collect it within 24 hours; Treasure Hunt pays more, if you're clever about it. Either way, the game rewards decisiveness over analysis paralysis.
 
 - **The Dashboard's category breakdown is a conscience.** If every entry is a church, the game is gently suggesting lunch.
 

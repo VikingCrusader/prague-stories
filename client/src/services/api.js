@@ -48,6 +48,7 @@ export const userAPI = {
   drawRandomLocation: (includeOutside = false, mode = 'open', pos) => api.post('/user/random-draw', { includeOutside, mode, ...(pos || {}) }),
   rerollDraw:       (includeOutside = false, pos) => api.post('/user/random-draw/reroll', { includeOutside, ...(pos || {}) }),
   guessTreasure:    (pos) => api.post('/user/random-draw/guess', pos),
+  getTreasures:     () => api.get('/user/treasures'),
   getHistoryProgress:  ()     => api.get('/user/history-progress'),
   saveHistoryProgress: (slug) => api.put('/user/history-progress', { slug }),
   savePreferences:     (prefs) => api.put('/user/preferences', prefs),

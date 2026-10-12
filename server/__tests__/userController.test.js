@@ -406,3 +406,26 @@ describe('POST /api/user/random-draw/reroll', () => {
     expect(status.body.canReroll).toBe(true);
   });
 });
+
+describe('GET /api/user/treasures', () => {
+  test('lists only cards found through a treasure hunt, with the guess that found them', async () => {
+    for (const slug of ['hunted', 'plain']) {
+      await Location.create({ name: slug, slug, coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10, labels: ['church'], quarter: 'Staré Město', description: { en: 'long text' } });
+    }
+    const { token } = await createAuthedUser();
+    // Make sure the hunt lands on 'hunted', then find it on the first guess.
+    await checkIn(token, 'plain');
+    await request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${token}`).send({ mode: 'hidden' });
+    await request(app).post('/api/user/random-draw/guess').set('Authorization', `Bearer ${token}`).send(CHARLES_BRIDGE);
+
+    const res = await request(app).get('/api/user/treasures').set('Authorization', `Bearer ${token}`);
+    expect(res.status).toBe(200);
+    expect(res.body).toHaveLength(1);
+    expect(res.body[0]).toMatchObject({ slug: 'hunted', unlocked: true, _guessAttempt: 1 });
+    expect(res.body[0].description).toBeUndefined();
+  });
+
+  test('requires auth', async () => {
+    expect((await request(app).get('/api/user/treasures')).status).toBe(401);
+  });
+});

@@ -331,6 +331,26 @@ export async function guessHiddenDraw(req, res, next) {
   }
 }
 
+// Cards the user found through a treasure hunt, newest first, for the
+// profile page's "Treasure Hunt Finds" section. Card fields only (no
+// description), shaped like GET /api/locations' unlocked entries.
+export async function getTreasures(req, res, next) {
+  try {
+    const checkins = await CheckIn.find({ user: req.user._id, guessAttempt: { $gte: 1 } })
+      .sort({ checkedInAt: -1 })
+      .populate({ path: 'location', select: '-description' })
+      .lean();
+    res.json(checkins.filter(c => c.location).map(c => ({
+      ...c.location,
+      unlocked: true,
+      _checkedInAt: c.checkedInAt,
+      _guessAttempt: c.guessAttempt,
+    })));
+  } catch (err) {
+    next(err);
+  }
+}
+
 export async function getAchievements(req, res) {
   const earned = req.user ? new Set(req.user.achievements.map(a => a.id)) : new Set();
   const all = ACHIEVEMENTS.map(ach => ({

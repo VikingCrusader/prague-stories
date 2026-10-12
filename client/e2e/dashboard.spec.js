@@ -37,6 +37,7 @@ test.beforeEach(async ({ page }) => {
   await page.route('**/api/auth/me', route => route.fulfill({ json: { user: USER } }));
   await page.route('**/api/user/progress', route => route.fulfill({ json: PROGRESS }));
   await page.route('**/api/user/achievements', route => route.fulfill({ json: ACHIEVEMENTS }));
+  await page.route('**/api/user/treasures', route => route.fulfill({ json: [] }));
   await page.goto('/dashboard');
 });
 
@@ -70,5 +71,24 @@ test.describe('Dashboard', () => {
     await expect(modal).toBeVisible();
     await expect(modal.getByText('Getting Serious')).toBeVisible();
     await expect(modal.getByText('LOCKED')).toBeVisible();
+  });
+
+  test('Treasure Hunt Finds is empty at first, with a pointer to the Draw page', async ({ page }) => {
+    await expect(page.getByRole('heading', { name: 'Treasure Hunt Finds' })).toBeVisible();
+    await expect(page.getByText('No treasure found yet.')).toBeVisible();
+    await expect(page.getByRole('link', { name: 'Start a hunt on the Draw page.' })).toHaveAttribute('href', '/random-draw');
+  });
+
+  test('Treasure Hunt Finds shows each found card with the guess that found it', async ({ page }) => {
+    const found = {
+      _id: '9', name: 'Týn Church', slug: 'tyn-church', localizedNames: { cz: 'Týnský chrám', zh: '泰恩教堂' },
+      labels: ['church'], coordinates: { lat: 50.0875, lng: 14.4224 }, rarity: 'rare', xpReward: 20,
+      coverImage: '', pixelArtKey: '', unlocked: true, _guessAttempt: 2, _checkedInAt: '2026-01-01T00:00:00.000Z',
+    };
+    await page.route('**/api/user/treasures', route => route.fulfill({ json: [found] }));
+    await page.reload();
+    await expect(page.getByRole('heading', { name: 'Treasure Hunt Finds (1)' })).toBeVisible();
+    await expect(page.locator('.loc-card__name')).toHaveText('Týn Church');
+    await expect(page.locator('.loc-card__hunt')).toHaveText('🎯 2nd try');
   });
 });
