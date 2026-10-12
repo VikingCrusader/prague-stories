@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getProfile, getProgress, getAchievements, getRandomDraw, drawRandomLocation, rerollDraw, getTreasures, guessHiddenDraw, skipHiddenDraw, getHistoryProgress, saveHistoryProgress, savePreferences, getLeaderboard } from '../controllers/userController.js';
+import { getProfile, getProgress, getAchievements, getRandomDraw, drawRandomLocation, rerollDraw, getTreasures, guessHiddenDraw, skipHiddenDraw, getHistoryProgress, saveHistoryProgress, savePreferences, getLeaderboard, getExplorer } from '../controllers/userController.js';
 import { protect, optionalAuth } from '../middleware/auth.js';
 
 const router = Router();
@@ -17,5 +17,6 @@ router.get('/history-progress', protect, getHistoryProgress);
 router.put('/history-progress', protect, saveHistoryProgress);
 router.put('/preferences', protect, savePreferences);
 router.get('/leaderboard', optionalAuth, getLeaderboard);
+router.get('/explorers/:username', optionalAuth, getExplorer);
 
 export default router;

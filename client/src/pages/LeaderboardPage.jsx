@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { userAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
@@ -12,7 +13,8 @@ function Row({ e, t, lang, convert }) {
     <tr className={e.isMe ? 'leaderboard__me' : undefined}>
       <td className={`leaderboard__rank ${MEDAL[e.rank] || ''}`}>{e.rank}</td>
       <td className="leaderboard__name">
-        {e.username}
+        {/* Opens their public profile (ExplorerPage). */}
+        <Link to={`/explorer/${encodeURIComponent(e.username)}`} className="leaderboard__link">{e.username}</Link>
         {e.isMe && <span className="leaderboard__you">{t('leaderboard.you')}</span>}
       </td>
       <td className="leaderboard__level">Lv {e.level}<span className="leaderboard__title"> · {convert(title)}</span></td>

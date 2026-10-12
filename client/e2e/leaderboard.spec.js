@@ -37,4 +37,34 @@ test.describe('Leaderboard', () => {
     await expect(page.locator('table.leaderboard tbody tr')).toHaveCount(1);
     await expect(page.getByText('Log in to join the leaderboard.')).toBeVisible();
   });
+
+  test('clicking a name opens that explorer\'s profile and collection', async ({ page }) => {
+    await page.route('**/api/locations', route => route.fulfill({ json: [] }));
+    await page.route('**/api/user/leaderboard', route => route.fulfill({ json: { entries: [row(1, 'ada', 11310)], me: null, total: 1 } }));
+    const card = (slug, name, rarity) => ({ _id: slug, slug, name, localizedNames: {}, labels: ['church'], rarity, xpReward: 20, coverImage: '', pixelArtKey: '', coordinates: { lat: 50.08, lng: 14.42 }, unlocked: true });
+    await page.route('**/api/user/explorers/ada', route => route.fulfill({ json: {
+      username: 'ada', totalXP: 11310, rank: 1, totalCards: 1300, totalAchievements: 20, isMe: false,
+      levelInfo: { level: 6, title: 'Cartographer', progress: 50, nextLevelXP: 20000 },
+      rarityCount: { common: 0, rare: 1, superior: 0, epic: 1, mythic: 0, legend: 0 },
+      achievements: [{ id: 'first', name: 'First Steps', description: 'x', icon: '🥾', unlocked: true, unlockedAt: '2026-01-01' }],
+      cards: [card('tyn-church', 'Týn Church', 'epic'), card('st-giles', 'St. Giles', 'rare')],
+    } }));
+    await page.goto('/leaderboard');
+    await page.getByRole('link', { name: 'ada' }).click();
+    await expect(page).toHaveURL(/\/explorer\/ada$/);
+    await expect(page.getByRole('heading', { name: 'ada' })).toBeVisible();
+    await expect(page.getByText('#1')).toBeVisible();
+    await expect(page.getByText('2 / 1,300')).toBeVisible();
+    await expect(page.locator('.location-grid .loc-card')).toHaveCount(2);
+    await expect(page.locator('.location-grid')).toContainText('Týn Church');
+    await page.getByRole('link', { name: '← Leaderboard' }).click();
+    await expect(page).toHaveURL(/\/leaderboard$/);
+  });
+
+  test('an unknown explorer shows a not-found message', async ({ page }) => {
+    await page.route('**/api/locations', route => route.fulfill({ json: [] }));
+    await page.route('**/api/user/explorers/ghost', route => route.fulfill({ status: 404, json: { message: 'Explorer not found' } }));
+    await page.goto('/explorer/ghost');
+    await expect(page.getByText('This explorer could not be found.')).toBeVisible();
+  });
 });

@@ -545,3 +545,57 @@ export async function getLeaderboard(req, res, next) {
     next(err);
   }
 }
+
+// Location fields a card in someone's collection needs (no description).
+const CARD_FIELDS = 'slug name localizedNames labels rarity xpReward coverImage pixelArtKey coordinates quarter district';
+
+// Another explorer's public profile, opened from the leaderboard: level,
+// XP, rank, cards collected (by rarity), unlocked achievements, and the
+// collected cards themselves, newest first. Only users the leaderboard
+// shows (XP above zero, not hideFromLeaderboard) can be looked up; anyone
+// else is a 404, so hidden test accounts stay hidden. No email.
+export async function getExplorer(req, res, next) {
+  try {
+    const target = await User.findOne({
+      username: req.params.username, totalXP: { $gt: 0 }, hideFromLeaderboard: { $ne: true },
+    }).select('username totalXP achievements createdAt').lean();
+    if (!target) return res.status(404).json({ message: 'Explorer not found' });
+
+    const checkins = await CheckIn.find({ user: target._id })
+      .sort({ checkedInAt: -1 })
+      .populate({ path: 'location', select: CARD_FIELDS })
+      .lean();
+    const cards = checkins.filter(c => c.location).map(c => ({
+      ...c.location,
+      unlocked: true,
+      _checkedInAt: c.checkedInAt,
+      _guessAttempt: c.guessAttempt,
+    }));
+    const rarityCount = { common: 0, rare: 0, superior: 0, epic: 0, mythic: 0, legend: 0 };
+    for (const c of cards) if ((c.rarity || 'common') in rarityCount) rarityCount[c.rarity || 'common']++;
+
+    const earned = new Map((target.achievements || []).map(a => [a.id, a.unlockedAt]));
+    const achievements = ACHIEVEMENTS.filter(a => earned.has(a.id)).map(a => ({
+      id: a.id, name: a.name, name_cz: a.name_cz, name_zh: a.name_zh,
+      description: a.description, description_cz: a.description_cz, description_zh: a.description_zh,
+      icon: a.icon, unlocked: true, unlockedAt: earned.get(a.id) ?? null,
+    }));
+
+    const ahead = await User.countDocuments({ totalXP: { $gt: target.totalXP }, hideFromLeaderboard: { $ne: true } });
+    res.json({
+      username: target.username,
+      totalXP: target.totalXP,
+      levelInfo: calculateLevel(target.totalXP),
+      rank: ahead + 1,
+      joinedAt: target.createdAt ?? null,
+      totalCards: await Location.countDocuments({}),
+      totalAchievements: ACHIEVEMENTS.length,
+      rarityCount,
+      achievements,
+      cards,
+      isMe: req.user?._id?.toString() === target._id.toString(),
+    });
+  } catch (err) {
+    next(err);
+  }
+}

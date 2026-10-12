@@ -44,6 +44,7 @@ export const userAPI = {
   getProgress:      () => api.get('/user/progress'),
   getAchievements:  () => api.get('/user/achievements'),
   getLeaderboard:   () => api.get('/user/leaderboard'),
+  getExplorer:      (username) => api.get(`/user/explorers/${encodeURIComponent(username)}`),
   // `pos` ({ lat, lng }, optional) lets the server compute a treasure hunt's distance clue.
   getRandomDraw:    (pos) => api.get('/user/random-draw', { params: pos ? { lat: pos.lat, lng: pos.lng } : undefined }),
   // Starts a treasure hunt (the route name dates from the retired open draw).

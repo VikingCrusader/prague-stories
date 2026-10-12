@@ -513,3 +513,35 @@ describe('GET /api/user/leaderboard', () => {
     expect(res.body.entries.find(e => e.username === user.username)).toMatchObject({ cards: 2, totalXP: 20 });
   });
 });
+
+describe('GET /api/user/explorers/:username', () => {
+  test('shows a listed explorer\'s level, rank, cards and achievements, without their email', async () => {
+    await Location.create({ name: 'A', slug: 'a', coordinates: CHARLES_BRIDGE, rarity: 'rare', xpReward: 20 });
+    await Location.create({ name: 'B', slug: 'b', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10 });
+    await Location.create({ name: 'C', slug: 'c', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10 });
+    const { token, user } = await createAuthedUser();
+    await checkIn(token, 'a');
+    await checkIn(token, 'b');
+
+    const res = await request(app).get(`/api/user/explorers/${encodeURIComponent(user.username)}`);
+    expect(res.status).toBe(200);
+    expect(res.body).toMatchObject({ username: user.username, totalXP: 30, rank: 1, totalCards: 3, isMe: false });
+    expect(res.body.rarityCount).toMatchObject({ rare: 1, common: 1 });
+    expect(res.body.cards.map(c => c.slug).sort()).toEqual(['a', 'b']);
+    expect(res.body.cards[0]).toMatchObject({ unlocked: true });
+    expect(res.body.cards[0].description).toBeUndefined();
+    expect(res.body.achievements.length).toBeGreaterThan(0); // first check-in
+    expect(JSON.stringify(res.body)).not.toContain(user.email);
+
+    const own = await request(app).get(`/api/user/explorers/${encodeURIComponent(user.username)}`).set('Authorization', `Bearer ${token}`);
+    expect(own.body.isMe).toBe(true);
+  });
+
+  test('404s for hidden, zero-XP and unknown users', async () => {
+    await User.create({ username: 'admin000', email: 'a@example.com', password: 'secret123', totalXP: 500, hideFromLeaderboard: true });
+    await User.create({ username: 'newbie', email: 'n@example.com', password: 'secret123', totalXP: 0 });
+    for (const name of ['admin000', 'newbie', 'nobody']) {
+      expect((await request(app).get(`/api/user/explorers/${name}`)).status).toBe(404);
+    }
+  });
+});

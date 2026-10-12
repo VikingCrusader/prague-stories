@@ -2104,3 +2104,9 @@ html[data-lang="zh"] .detail-title-name {
   .leaderboard__title { display: none; }
   .leaderboard__level { white-space: nowrap; }
 }
+
+/* Leaderboard names open the explorer's public profile (ExplorerPage). */
+.leaderboard__link { color: inherit; text-decoration: underline; text-decoration-color: color-mix(in srgb, currentColor 35%, transparent); text-underline-offset: 3px; }
+.leaderboard__link:hover { color: var(--gold); text-decoration-color: var(--gold); }
+.explorer-back { display: inline-block; font-size: 15px; color: var(--text-muted); text-decoration: none; }
+.explorer-back:hover { color: var(--gold); }
