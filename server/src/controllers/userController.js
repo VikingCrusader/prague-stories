@@ -487,3 +487,49 @@ export async function saveHistoryProgress(req, res, next) {
     next(err);
   }
 }
+
+// Leaderboard size: the top this many explorers by XP.
+const LEADERBOARD_SIZE = 100;
+
+// XP leaderboard: every user with XP above zero (except accounts flagged
+// hideFromLeaderboard, e.g. test accounts), highest first, with their
+// level. Only the username is public, never the email. Tied XP shares a
+// rank (1, 2, 2, 4), ties listed oldest account first. A signed-in user
+// outside the top LEADERBOARD_SIZE gets their own row as `me`.
+export async function getLeaderboard(req, res, next) {
+  try {
+    const listed = { totalXP: { $gt: 0 }, hideFromLeaderboard: { $ne: true } };
+    const top = await User.find(listed)
+      .sort({ totalXP: -1, _id: 1 })
+      .limit(LEADERBOARD_SIZE)
+      .select('username totalXP')
+      .lean();
+    const meId = req.user?._id?.toString();
+    const row = (u, rank) => {
+      const lvl = calculateLevel(u.totalXP);
+      return {
+        rank,
+        username: u.username,
+        totalXP: u.totalXP,
+        level: lvl.level,
+        title: lvl.title,
+        title_cz: lvl.title_cz,
+        title_zh: lvl.title_zh,
+        isMe: u._id.toString() === meId,
+      };
+    };
+    const entries = top.map((u, i) => row(u, i > 0 && u.totalXP === top[i - 1].totalXP ? null : i + 1));
+    // Fill tied ranks from the row above.
+    entries.forEach((e, i) => { if (e.rank === null) e.rank = entries[i - 1].rank; });
+
+    let me = null;
+    if (req.user && req.user.totalXP > 0 && !req.user.hideFromLeaderboard && !entries.some(e => e.isMe)) {
+      const ahead = await User.countDocuments({ ...listed, totalXP: { $gt: req.user.totalXP } });
+      me = row(req.user, ahead + 1);
+    }
+    const total = await User.countDocuments(listed);
+    res.json({ entries, me, total });
+  } catch (err) {
+    next(err);
+  }
+}

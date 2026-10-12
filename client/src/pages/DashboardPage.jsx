@@ -7,6 +7,7 @@ import { LABEL_DEFINITIONS } from '../utils/pixelArtMap';
 import { RARITY_VAR, RARITY_LABEL, RARITY_ICON } from '../utils/rarity';
 import ProgressRing from '../components/dashboard/ProgressRing';
 import AchievementBadge from '../components/dashboard/AchievementBadge';
+import LevelsModal from '../components/dashboard/LevelsModal';
 import { useWakeLock } from '../hooks/useWakeLock';
 import LocationCard from '../components/locations/LocationCard';
 import LocationDetail from '../components/locations/LocationDetail';
@@ -25,6 +26,9 @@ export default function DashboardPage() {
   // Cards found through a treasure hunt (signed-in users only).
   const [treasures, setTreasures] = useState(null);
   const [openSlug, setOpenSlug]   = useState(null);
+  // Every explorer level: opened from the level badge here or the navbar's
+  // XP · Lv figure (hidden on phones, so the badge is the way in there).
+  const [levelsOpen, setLevelsOpen] = useState(false);
 
   useEffect(() => {
     Promise.all([userAPI.getProgress(), userAPI.getAchievements()])
@@ -44,7 +48,7 @@ export default function DashboardPage() {
   );
 
   const { levelInfo, totalXP, totalCheckins, unlockPercent, labelCount, rarityCount, totalPreset } = progress;
-  const { achievements, levels } = achData;
+  const { achievements } = achData;
   const unlockedAch = achievements.filter(a => a.unlocked).length;
 
   return (
@@ -63,7 +67,7 @@ export default function DashboardPage() {
 
       {/* Level + XP */}
       <div style={{ display: 'flex', gap: 20, flexWrap: 'wrap', marginBottom: 24 }}>
-        <div className="level-badge">
+        <button type="button" className="level-badge level-badge--btn" onClick={() => setLevelsOpen(true)} title={t('nav.levelsHint')}>
           <span className="level-badge__num">LVL {levelInfo.level}</span>
           <div>
             <div className="level-badge__title">
@@ -73,7 +77,7 @@ export default function DashboardPage() {
               {user?.username}
             </div>
           </div>
-        </div>
+        </button>
 
         <div style={{ flex: 1, minWidth: 200, display: 'flex', flexDirection: 'column', justifyContent: 'center', gap: 8 }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 16 }}>
@@ -168,40 +172,6 @@ export default function DashboardPage() {
         </div>
       </div>
 
-      {/* Level roadmap */}
-      <div style={{ marginTop: 28, marginBottom: 24 }}>
-        <h2 className="px-title" style={{ fontSize: 22, marginBottom: 14 }}>{t('dashboard.explorerLevels')}</h2>
-        <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
-          {levels.map(lvl => (
-            <div
-              key={lvl.level}
-              style={{
-                padding: '8px 14px',
-                border: `3px solid ${levelInfo.level >= lvl.level ? 'var(--gold)' : 'var(--border-strong, #333)'}`,
-                background: levelInfo.level === lvl.level ? 'rgba(255,215,0,0.12)' : 'var(--bg-card)',
-                boxShadow: levelInfo.level >= lvl.level ? '3px 3px 0 var(--shadow)' : 'none',
-              }}
-            >
-              <div style={{ fontFamily: "var(--ui-font)", fontSize: 13, color: levelInfo.level >= lvl.level ? 'var(--gold)' : 'var(--text-dim, #555)' }}>
-                LVL {lvl.level}
-              </div>
-              <div style={{ fontSize: 14, color: levelInfo.level >= lvl.level ? 'var(--text-primary)' : 'var(--text-dim, #555)' }}>
-                {convert(lang === 'zh' ? (lvl.title_zh ?? lvl.title) : lang === 'cz' ? (lvl.title_cz ?? lvl.title) : lvl.title)}
-              </div>
-              <div style={{ fontSize: 12, color: 'var(--text-dim, #555)' }}>{lvl.xpRequired} XP</div>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      {/* Achievements */}
-      <h2 className="px-title" style={{ fontSize: 22, marginBottom: 14 }}>{t('dashboard.achievements')}</h2>
-      <div className="achievements-grid">
-        {achievements.map(ach => (
-          <AchievementBadge key={ach.id} achievement={ach} onClick={() => setSelectedAch(ach)} />
-        ))}
-      </div>
-
       {/* Treasure hunt finds */}
       {user && treasures && (
         <section style={{ marginTop: 28 }}>
@@ -221,6 +191,14 @@ export default function DashboardPage() {
           )}
         </section>
       )}
+
+      {/* Achievements */}
+      <h2 className="px-title" style={{ fontSize: 22, marginTop: 28, marginBottom: 14 }}>{t('dashboard.achievements')}</h2>
+      <div className="achievements-grid">
+        {achievements.map(ach => (
+          <AchievementBadge key={ach.id} achievement={ach} onClick={() => setSelectedAch(ach)} />
+        ))}
+      </div>
 
       {/* Wake lock toggle */}
       <div style={{ marginTop: 28, display: 'flex', justifyContent: 'flex-end' }}>
@@ -248,6 +226,7 @@ export default function DashboardPage() {
       </div>
 
       {openSlug && <LocationDetail slug={openSlug} onClose={() => setOpenSlug(null)} />}
+      {levelsOpen && <LevelsModal currentLevel={levelInfo.level} onClose={() => setLevelsOpen(false)} />}
 
       {/* Achievement detail modal */}
       {selectedAch && (() => {

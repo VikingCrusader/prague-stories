@@ -18,6 +18,7 @@ import MapPage from './pages/MapPage';
 import DashboardPage from './pages/DashboardPage';
 import GuidePage from './pages/GuidePage';
 import TreasureHuntPage from './pages/TreasureHuntPage';
+import LeaderboardPage from './pages/LeaderboardPage';
 import HistoryPage from './pages/HistoryPage';
 
 const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
@@ -71,6 +72,7 @@ export default function App() {
             <Route path="/dashboard" element={<ProtectedRoute guestOk><DashboardPage /></ProtectedRoute>} />
             <Route path="/guide"     element={<ProtectedRoute guestOk><GuidePage /></ProtectedRoute>} />
             <Route path="/treasure-hunt" element={<ProtectedRoute guestOk><TreasureHuntPage /></ProtectedRoute>} />
+            <Route path="/leaderboard" element={<ProtectedRoute guestOk><LeaderboardPage /></ProtectedRoute>} />
             {/* The page was "/random-draw" while it also offered an open draw. */}
             <Route path="/random-draw" element={<Navigate to="/treasure-hunt" replace />} />
             <Route path="/history"   element={<ProtectedRoute guestOk><HistoryPage /></ProtectedRoute>} />

@@ -472,3 +472,34 @@ describe('GET /api/user/treasures', () => {
     expect((await request(app).get('/api/user/treasures')).status).toBe(401);
   });
 });
+
+describe('GET /api/user/leaderboard', () => {
+  async function seedUsers() {
+    const people = [['ada', 500], ['bob', 300], ['cyd', 300], ['dan', 10], ['eve', 0], ['admin000', 46010]];
+    for (const [username, totalXP] of people) {
+      await User.create({ username, email: `${username}@example.com`, password: 'secret123', totalXP, hideFromLeaderboard: username === 'admin000' });
+    }
+  }
+
+  test('ranks users with XP, ties sharing a rank, without emails or hidden accounts', async () => {
+    await seedUsers();
+    const res = await request(app).get('/api/user/leaderboard');
+    expect(res.status).toBe(200);
+    expect(res.body.entries.map(e => [e.rank, e.username, e.totalXP])).toEqual([
+      [1, 'ada', 500], [2, 'bob', 300], [2, 'cyd', 300], [4, 'dan', 10],
+    ]);
+    expect(res.body.total).toBe(4);
+    expect(res.body.entries[0]).toMatchObject({ level: expect.any(Number), title: expect.any(String), isMe: false });
+    expect(JSON.stringify(res.body)).not.toContain('@example.com');
+    expect(res.body.me).toBeNull();
+  });
+
+  test('marks the signed-in user\'s own row', async () => {
+    await seedUsers();
+    const { token, user } = await createAuthedUser();
+    await User.updateOne({ _id: user._id }, { $set: { totalXP: 400 } });
+    const res = await request(app).get('/api/user/leaderboard').set('Authorization', `Bearer ${token}`);
+    const mine = res.body.entries.find(e => e.isMe);
+    expect(mine).toMatchObject({ rank: 2, username: user.username, totalXP: 400 });
+  });
+});

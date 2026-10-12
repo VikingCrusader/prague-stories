@@ -12,6 +12,8 @@ const userSchema = new mongoose.Schema({
   email:    { type: String, required: true, unique: true, trim: true, lowercase: true },
   password: { type: String, required: true, minlength: 6 },
   totalXP:       { type: Number, default: 0 },
+  // Kept off the XP leaderboard (test accounts such as admin/admin000).
+  hideFromLeaderboard: { type: Boolean, default: false },
   explorerLevel: { type: Number, default: 1 },
   achievements:  { type: [achievementSchema], default: [] },
   randomDraw: {

@@ -1225,6 +1225,14 @@ html:not([data-lang="zh"]) .navbar__link {
 .navbar__right { margin-left: auto; display: flex; align-items: center; gap: 12px; }
 .navbar__right .lang-tabs { margin-bottom: 0; }
 .navbar__user { font-family: var(--ui-font); font-size: 13px; color: var(--gold); }
+/* The XP · Lv figure is a button that opens LevelsModal. */
+button.navbar__user { background: none; border: none; padding: 0; cursor: pointer; }
+button.navbar__user:hover { text-decoration: underline; text-underline-offset: 3px; }
+.levels-modal { max-width: 560px; padding: 22px 24px 24px; }
+.levels-modal > .px-title { padding-right: 44px; }
+/* Profile level badge doubles as the way into LevelsModal. */
+button.level-badge--btn { font: inherit; color: inherit; text-align: left; cursor: pointer; }
+button.level-badge--btn:hover { border-color: var(--gold); }
 .navbar__github { display: flex; align-items: center; color: var(--gold); opacity: 0.85; transition: opacity 0.15s, transform 0.15s; }
 .navbar__github:hover { opacity: 1; transform: scale(1.1); }
 .navbar__theme { display: flex; align-items: center; background: none; border: none; padding: 0; cursor: pointer; color: var(--gold); opacity: 0.85; transition: opacity 0.15s, transform 0.15s; }
@@ -1876,10 +1884,27 @@ html[data-lang="zh"] .detail-title-name {
     flex-wrap: wrap;
   }
   .navbar__link { font-size: 12px; padding: 5px 6px; }
-  /* Mobile size for the EN/CZ Palatino nav links (desktop rule above). */
+  /* Mobile size for the EN/CZ Palatino nav links (desktop rule above).
+     Tight padding so all seven links fit one row on a 360-390px phone
+     (2026-10-12; at 6px padding EN needed 396px and CZ 407px of 370). Any
+     narrower phone scrolls the row sideways instead of wrapping. The links
+     are spread edge to edge (space-between), which, unlike center, never
+     cuts off the first links when the row overflows. Chinese is untouched. */
   html:not([data-lang="zh"]) .navbar__link {
-    font-size: 13px;
+    font-size: 12px;
+    padding: 5px 2px;
+    flex-shrink: 0;
   }
+  html:not([data-lang="zh"]) .navbar__links {
+    gap: 1px;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  html:not([data-lang="zh"]) .navbar__links::-webkit-scrollbar { display: none; }
+  /* Czech labels are the longest: a touch smaller on narrow phones. */
+  @media (max-width: 380px) { html[data-lang="cz"] .navbar__link { font-size: 11.2px; } }
   .navbar__user { display: none; }
   .lang-tabs { margin-bottom: 0; }
   .lang-tab { padding: 7px 9px; font-size: 12px; }
@@ -2000,4 +2025,48 @@ html[data-lang="zh"] .detail-title-name {
   .navbar__theme svg { width: 20px; height: 20px; }
   .navbar.navbar--user .navbar__right .lang-tab { padding: 7px 8px; font-size: 12px; }
   html[data-lang="zh"] .navbar.navbar--user .navbar__right .lang-tab { padding: 7px 6px; font-size: 12px !important; }
+}
+
+/* ── Leaderboard (LeaderboardPage) ───────────────────────── */
+.leaderboard__total { font-size: 15px; color: var(--text-muted); margin: 4px 0 10px; }
+.leaderboard__scroll { overflow-x: auto; }
+.leaderboard {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 16px;
+  color: var(--text-primary);
+  background: var(--bg-card);
+  border: 2px solid var(--border);
+  box-shadow: 4px 4px 0 var(--shadow);
+}
+.leaderboard th, .leaderboard td { padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--border); }
+.leaderboard th {
+  font-family: var(--ui-font);
+  font-weight: normal;
+  font-size: 14px;
+  color: var(--gold);
+  background: color-mix(in srgb, var(--gold) 8%, transparent);
+  white-space: nowrap;
+}
+.leaderboard tbody tr:last-child td { border-bottom: none; }
+.leaderboard__rank { width: 3.5em; text-align: center !important; font-weight: 700; color: var(--text-muted); }
+.leaderboard__rank--gold   { color: #d4a017; font-size: 20px; }
+.leaderboard__rank--silver { color: #9aa4ad; font-size: 19px; }
+.leaderboard__rank--bronze { color: #b87333; font-size: 18px; }
+.leaderboard__name { font-weight: 700; overflow-wrap: anywhere; }
+.leaderboard__level { color: var(--text-muted); font-size: 14px; }
+.leaderboard__xp { text-align: right !important; font-variant-numeric: tabular-nums; font-weight: 700; color: var(--gold); white-space: nowrap; }
+.leaderboard__me td { background: color-mix(in srgb, var(--gold) 14%, transparent); }
+.leaderboard__you {
+  margin-left: 8px;
+  padding: 1px 6px;
+  font-size: 12px;
+  font-weight: normal;
+  color: var(--bg-card);
+  background: var(--gold);
+}
+.leaderboard__gap td { text-align: center; color: var(--text-muted); padding: 4px; }
+@media (max-width: 600px) {
+  .leaderboard th, .leaderboard td { padding: 8px 8px; }
+  .leaderboard { font-size: 15px; }
 }

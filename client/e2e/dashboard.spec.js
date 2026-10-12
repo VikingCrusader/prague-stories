@@ -51,6 +51,27 @@ test.describe('Dashboard', () => {
     await expect(page.getByText('1 / 2')).toBeVisible(); // achievements unlocked count
   });
 
+  test('levels are listed from the navbar XP figure, not on the profile', async ({ page }) => {
+    await expect(page.getByText('1 / 2')).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Explorer Levels' })).toHaveCount(0);
+    // Treasure hunt finds sit above the achievements list.
+    const order = await page.locator('h2.px-title').allTextContents();
+    expect(order.findIndex(h => h.startsWith('Treasure Hunt Finds'))).toBeLessThan(order.indexOf('Achievements'));
+
+    await page.locator('.navbar__user').click();
+    const modal = page.locator('.levels-modal');
+    await expect(modal.getByRole('heading', { name: 'Explorer Levels' })).toBeVisible();
+    await expect(modal.locator('.levels-modal__level')).toHaveCount(2);
+    await expect(modal.getByText('Apprentice Explorer')).toBeVisible();
+    await page.keyboard.press('Escape');
+    await expect(modal).toHaveCount(0);
+
+    // The profile's level badge opens the same list (the navbar figure is
+    // hidden on phones).
+    await page.locator('.level-badge').click();
+    await expect(page.locator('.levels-modal .levels-modal__level')).toHaveCount(2);
+  });
+
   test('clicking an unlocked achievement opens a modal with its name, description, and date', async ({ page }) => {
     await page.locator('.ach-badge--unlocked').first().click();
 

@@ -1,5 +1,5 @@
 import { Router } from 'express';
-import { getProfile, getProgress, getAchievements, getRandomDraw, drawRandomLocation, rerollDraw, getTreasures, guessHiddenDraw, skipHiddenDraw, getHistoryProgress, saveHistoryProgress, savePreferences } from '../controllers/userController.js';
+import { getProfile, getProgress, getAchievements, getRandomDraw, drawRandomLocation, rerollDraw, getTreasures, guessHiddenDraw, skipHiddenDraw, getHistoryProgress, saveHistoryProgress, savePreferences, getLeaderboard } from '../controllers/userController.js';
 import { protect, optionalAuth } from '../middleware/auth.js';
 
 const router = Router();
@@ -16,5 +16,6 @@ router.post('/random-draw/skip', protect, skipHiddenDraw);
 router.get('/history-progress', protect, getHistoryProgress);
 router.put('/history-progress', protect, saveHistoryProgress);
 router.put('/preferences', protect, savePreferences);
+router.get('/leaderboard', optionalAuth, getLeaderboard);
 
 export default router;
