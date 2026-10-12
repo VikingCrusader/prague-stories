@@ -965,18 +965,23 @@ html .loc-card__labels .label-pill-sm.draw-xp-pill {
   align-items: flex-start;
   gap: 16px;
 }
+/* Sits on top of cover images of any colour, in either theme, so it carries
+   its own dark backing instead of relying on what's behind it. */
 .px-modal__close {
   position: absolute;
   top: 12px; right: 12px;
-  background: none;
-  border: 2px solid var(--border-strong, #444);
-  color: var(--text-strong, #fff);
-  width: 30px; height: 30px;
-  font-size: 16px;
+  background: rgba(10, 12, 24, 0.78);
+  border: 2px solid var(--gold);
+  color: #fff;
+  width: 36px; height: 36px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
   display: flex; align-items: center; justify-content: center;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.5);
   cursor: pointer; z-index: 1;
 }
-.px-modal__close:hover { border-color: var(--gold); color: var(--gold); }
+.px-modal__close:hover { background: rgba(10, 12, 24, 0.92); color: var(--gold); }
 .px-modal__body { padding: 20px 24px; }
 
 /* Cover-photo wrapper on the detail modal — a plain square by default
