@@ -149,7 +149,7 @@ export default function ExplorePage() {
             <h1 ref={titleRef} className="px-title explore-title explore-title--fit">{titleText}</h1>
             {areaActive
               ? areaBlurb && <p className="explore-area-blurb">{convert(areaBlurb[lang] || areaBlurb.en)}</p>
-              : !cityOnly && <p className="explore-area-blurb">{convert(t('explore.allBlurb'))}</p>}
+              : <p className="explore-area-blurb">{convert(t(cityOnly ? 'explore.cityBlurb' : 'explore.allBlurb'))}</p>}
           </div>
           <div className="explore-header__scope">{scopeToggle}</div>
         </div>
