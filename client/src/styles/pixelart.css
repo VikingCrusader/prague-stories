@@ -839,32 +839,6 @@ html:not([data-lang="zh"]) .loc-card__name {
   overflow: hidden;
 }
 
-/* Drawn-card label slot: rarity + crossed-out/tripled XP instead of the
-   location's real label. */
-.draw-xp-pill {
-  gap: 6px;
-  font-size: 12px;
-  border-width: 2px;
-}
-/* The language label-pill rules (e.g. EN Cinzel 18px in global.css) are
-   more specific than .draw-xp-pill and blew "RARITY 30 XP 90 XP" past the
-   card edge; this outranks them in every language. */
-html .loc-card__labels .label-pill-sm.draw-xp-pill {
-  font-size: 13px;
-  padding: 0 8px;
-}
-.draw-card__xp-old { position: relative; opacity: 0.7; }
-.draw-card__xp-old::after {
-  content: '';
-  position: absolute;
-  left: -3px;
-  right: -3px;
-  top: 50%;
-  height: 2px;
-  background: #ff4d4d;
-  transform: rotate(-14deg);
-}
-
 /* ── Label Filter ─────────────────────────────────────────── */
 .label-filter {
   position: relative;
@@ -1588,7 +1562,7 @@ html[data-lang="zh"] .detail-title-name {
 }
 .draw-card {
   /* Matches .draw-stage__card's width so the mystery card-back is the same
-     width as the revealed loc-card it flips into (see RandomDrawPage). */
+     width as the revealed loc-card it flips into (see TreasureHuntPage). */
   width: 230px;
   background: var(--bg-card);
   box-shadow: 5px 5px 0 var(--shadow);
@@ -1635,8 +1609,7 @@ html[data-lang="zh"] .detail-title-name {
   height: auto;
   display: block;
 }
-/* Revealed draw result reuses LocationCard once collected, or the custom
-   DrawnCard shell beforehand (see RandomDrawPage) — this pins either to the
+/* The found treasure (a LocationCard, see TreasureHuntPage), pinned to the
    same width as a grid card. */
 .draw-stage__card { width: 230px; }
 /* .loc-card__banner elsewhere (Explore grid, map sidebar) deliberately lets
@@ -1652,42 +1625,37 @@ html[data-lang="zh"] .detail-title-name {
 .draw-stage__card .loc-card { aspect-ratio: 644 / 912; }
 .draw-stage__card .loc-card__banner { flex: 1 1 auto; min-height: 0; }
 .draw-stage__card .loc-card__body { flex: 0 0 auto; }
-.draw-card__meta-row {
-  width: 230px;
-  display: flex;
-  align-items: stretch;
-  gap: 8px;
-  margin-top: 10px;
-}
-.draw-card__meta-row > .detail-label-pill {
-  flex: 1 1 0;
-  /* Match the font Explore's grid-card label pill (.label-pill-sm) uses —
-     .detail-label-pill defaults to the pixel 'Press Start 2P' face, which
-     reads inconsistently next to Explore's cards. */
-  font-family: inherit;
-  font-size: 15px;
-  line-height: 1.35;
-}
-/* "Include cards outside Prague" checkbox under the Draw button. */
-.draw-scope {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 15px;
-  color: var(--text-muted);
-  cursor: pointer;
-  user-select: none;
-}
-.draw-scope input { width: 16px; height: 16px; accent-color: var(--gold); cursor: pointer; margin: 0; }
-/* Game mode tabs at the top of the Draw page (明抽 / 寻宝). */
-.draw-mode-tabs { display: flex; justify-content: center; gap: 8px; margin: 0 0 18px; }
-/* .draw-page raises specificity over global.css's per-language .filter-btn
-   sizes; the zh one is !important there, so it needs it here too. */
-.draw-page .draw-mode-tabs > .filter-btn { flex: 0 1 160px; padding: 9px 16px; font-size: 16px; }
-html[data-lang="zh"] .draw-page .draw-mode-tabs > .filter-btn { font-size: 17px !important; }
-.draw-mode-tabs > .filter-btn:disabled { opacity: 0.45; cursor: not-allowed; }
-.draw-mode-tabs > .filter-btn:disabled:hover { border-color: var(--border); color: var(--text-muted); }
 .draw-mode-hint { text-align: center; max-width: 420px; color: var(--text-muted); font-size: 15px; margin: 0; }
+
+/* Treasure hunt rules: the per-guess table (HuntClueTable). Scrolls
+   sideways on its own on narrow screens rather than widening the page. */
+.hunt-table-wrap { margin: 4px 0 14px 38px; }
+.hunt-table-scroll { overflow-x: auto; }
+.hunt-table-scroll > .hunt-table { min-width: 520px; }
+.hunt-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 15px;
+  line-height: 1.4;
+  color: var(--text-primary);
+}
+.hunt-table th, .hunt-table td {
+  border: 1px solid var(--border);
+  padding: 6px 8px;
+  text-align: left;
+  vertical-align: top;
+}
+.hunt-table th {
+  font-family: var(--ui-font);
+  font-weight: normal;
+  color: var(--gold);
+  background: color-mix(in srgb, var(--gold) 8%, transparent);
+  white-space: nowrap;
+}
+.hunt-table__num { text-align: center !important; color: var(--gold); white-space: nowrap; }
+.hunt-table__nowrap { white-space: nowrap; }
+.hunt-table__note { font-size: 14px; line-height: 1.5; color: var(--text-muted); margin: 8px 0 0; }
+@media (max-width: 600px) { .hunt-table-wrap { margin-left: 0; } }
 
 /* Treasure hunt clue panel (TreasureHuntPanel). */
 .hunt-panel {
@@ -1714,7 +1682,6 @@ html[data-lang="zh"] .draw-page .draw-mode-tabs > .filter-btn { font-size: 17px 
 }
 .hunt-panel__clues { justify-content: center; flex-wrap: wrap; }
 .hunt-panel__clues > .detail-label-pill { border: 1px solid transparent; }
-.hunt-panel__golden { font-size: 15px; color: var(--text-muted); display: flex; align-items: center; gap: 8px; }
 .hunt-panel__misses {
   width: 100%;
   margin: 0;
@@ -1727,6 +1694,8 @@ html[data-lang="zh"] .draw-page .draw-mode-tabs > .filter-btn { font-size: 17px 
 .hunt-panel__distance { font-family: var(--ui-font-text); font-size: 20px; font-weight: 600; color: var(--text-primary); text-align: center; }
 .hunt-panel__flash { font-size: 15px; text-align: center; }
 .hunt-panel__range { font-size: 14px; color: var(--text-muted); text-align: center; margin-top: -4px; }
+/* "Give up this round, take the clues": a quiet secondary action under the guess button. */
+.hunt-panel__skip { font-size: 14px; padding: 6px 14px; margin-top: 4px; }
 .hunt-panel__flash--miss { color: #e0a040; }
 .hunt-panel__flash--error { color: #e05050; }
 .hunt-panel__confirm { display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center; }
@@ -1752,7 +1721,7 @@ html[data-lang="zh"] .draw-page .draw-mode-tabs > .filter-btn { font-size: 17px 
 
 /* Draw-reveal 3D flip: a persistent two-sided card (mystery back / actual
    result front) that stays mounted across the not-drawn <-> drawn
-   transition — RandomDrawPage toggles .flip-card--revealed once the draw
+   transition — TreasureHuntPage toggles .flip-card--revealed once the hunt
    API resolves, and the rotateY transition below does the rest. Both faces
    share the same box (644:912, see .draw-stage__card .loc-card above) so
    neither face jumps in size mid-flip. CSS transitions only play on a

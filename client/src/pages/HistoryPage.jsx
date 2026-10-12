@@ -31,7 +31,7 @@ export default function HistoryPage() {
   // smooth-scroll to land.
   const [activeSlug, setActiveSlug] = useState(null);
   // Slug of a related landmark opened from a section. Rendering
-  // LocationDetail here (same as RandomDrawPage does) shows the exact same
+  // LocationDetail here (same as TreasureHuntPage does) shows the exact same
   // card Explore uses, as an overlay on top of this page — no navigation
   // away.
   const [openLandmarkSlug, setOpenLandmarkSlug] = useState(null);

@@ -32,11 +32,10 @@ const active = extra => ({
 
 const hunt = extra => ({
   attempt: 1, maxAttempts: 5, multiplier: 10, radius: 3000,
-  goldenUntil: new Date(Date.now() + 90 * 60 * 1000).toISOString(), goldenBonus: 1.5,
   rarity: null, xpReward: null, quarter: null, district: null,
   fromSquare: { near: false, direction: 'NE' },
   labels: ['church'], misses: [],
-  proximity: { within: true, distance: null },
+  proximity: { within: true, distance: null, band: { min: 0, max: 3000 } },
   ...extra,
 });
 
@@ -52,10 +51,10 @@ test.describe('Treasure hunt', () => {
   test('start a hunt, miss the first guess, and get the new clues', async ({ page }) => {
     await loginAsUser(page);
     let state = { active: false, canDraw: true, location: null, drawnAt: null, expiresAt: null };
-    let drawBody = null;
+    let started = 0;
     await page.route(DRAW_RE, route => {
       if (route.request().method() === 'POST') {
-        drawBody = route.request().postDataJSON();
+        started += 1;
         state = active({ hunt: hunt() });
       }
       return route.fulfill({ json: state });
@@ -63,34 +62,32 @@ test.describe('Treasure hunt', () => {
     await page.route(GUESS_RE, route => {
       state = active({
         hunt: hunt({
-          attempt: 2, multiplier: 7, radius: 2000,
-          rarity: 'rare', xpReward: 20, labels: ['church'], misses: [{ direction: 'S', distance: null }],
-          proximity: { within: false, distance: 2655, direction: null },
+          attempt: 2, multiplier: 5, radius: 2000,
+          rarity: 'rare', xpReward: 20, labels: ['church'], misses: [{ direction: 'S' }],
+          proximity: { within: false, distance: null, band: { min: 2000, max: 3000 }, direction: null },
         }),
       });
       return route.fulfill({ json: { hit: false, draw: state } });
     });
 
+    // The old Draw page address still lands here.
     await page.goto('/random-draw');
-    // Open Draw is the default tab, with its outside-Prague checkbox.
-    await expect(page.getByText('Include cards outside Prague')).toBeVisible();
-    await page.getByRole('tab', { name: 'Treasure Hunt' }).click();
+    await expect(page).toHaveURL(/\/treasure-hunt$/);
     await expect(page.locator('h1')).toHaveText('Treasure Hunt');
     await expect(page.getByText('Things worth finding are hidden.')).toBeVisible();
-    await expect(page.getByText('Include cards outside Prague')).toHaveCount(0);
+    // No mode tabs any more: the hunt is the only game here.
+    await expect(page.getByRole('tab')).toHaveCount(0);
     await expect(page.getByText('A treasure hunt hides the location from you', { exact: false })).toBeVisible();
     await page.getByRole('button', { name: 'Start the Hunt' }).click();
-    expect(drawBody.mode).toBe('hidden');
-    // While the hunt runs, the Open Draw tab is locked.
-    await expect(page.getByRole('tab', { name: 'Open Draw' })).toBeDisabled();
+    expect(started).toBe(1);
 
     const panel = page.locator('.hunt-panel');
     await expect(panel.getByText('Guess 1 of 5')).toBeVisible();
     // No rarity, so no XP figure either (it would give the rarity away).
     await expect(panel.locator('.hunt-panel__reward')).toHaveText('10× XP');
-    await expect(panel.getByText('Golden time (another ×1.5):')).toBeVisible();
-    await expect(panel.getByText('Within 3 km')).toBeVisible();
-    await expect(panel.getByText('The treasure lies north-east of Old Town Square.')).toBeVisible();
+    // Guess 1 only gets a rough distance band.
+    await expect(panel.getByText('Distance from you: under 3 km', { exact: true })).toBeVisible();
+    await expect(panel.getByText('The treasure lies in the north-east of Prague (measured from Old Town Square).')).toBeVisible();
     // Just the one label, no rarity pill.
     await expect(panel.locator('.hunt-panel__clues .detail-label-pill')).toHaveCount(1);
     await expect(panel.getByText('Church & Cathedral')).toBeVisible();
@@ -102,27 +99,57 @@ test.describe('Treasure hunt', () => {
     await panel.getByRole('button', { name: 'Yes, here' }).click();
 
     await expect(panel.getByText('Guess 2 of 5')).toBeVisible();
-    // Only the direction from the miss so far; distances come on guess 4.
+    // A miss only ever gives its direction.
     await expect(panel.getByText('Guess 1: the treasure lies south of where you pressed.')).toBeVisible();
     // The area comes later too.
     await expect(panel.getByText('Prague 1')).toHaveCount(0);
-    await expect(panel.getByText('Distance: 2.7 km', { exact: true })).toBeVisible();
-    // Rarity and the XP figure (20 x 7 x 1.5) now show.
-    await expect(panel.locator('.hunt-panel__reward')).toHaveText('7× XP · 210 XP');
+    await expect(panel.getByText('Distance from you: 2–3 km', { exact: true })).toBeVisible();
+    // Rarity and the XP figure (20 x 5) now show.
+    await expect(panel.locator('.hunt-panel__reward')).toHaveText('5× XP · 100 XP');
     await expect(panel.getByText('Rare', { exact: true })).toBeVisible();
     await expect(panel.getByRole('button', { name: 'Get closer to guess' })).toBeDisabled();
     await expect(panel.getByText('Unlocks within 2 km of the treasure')).toBeVisible();
+  });
+
+  test('giving up a round asks first, then shows the next clues', async ({ page }) => {
+    await loginAsUser(page);
+    // Far away: the guess button stays locked, but giving up works anywhere.
+    let state = active({ hunt: hunt({ nextMultiplier: 5, proximity: { within: false, distance: null, band: { min: 5000, max: 10000 } } }) });
+    let skips = 0;
+    await page.route(DRAW_RE, route => route.fulfill({ json: state }));
+    await page.route(/\/api\/user\/random-draw\/skip$/, route => {
+      skips += 1;
+      state = active({
+        hunt: hunt({
+          attempt: 2, multiplier: 5, nextMultiplier: 3, radius: 2000, rarity: 'rare', xpReward: 20,
+          misses: [{ skipped: true }], proximity: { within: false, distance: null, band: { min: 3000, max: null } },
+        }),
+      });
+      return route.fulfill({ json: { draw: state } });
+    });
+
+    await page.goto('/treasure-hunt');
+    const panel = page.locator('.hunt-panel');
+    await expect(panel.getByRole('button', { name: 'Get closer to guess' })).toBeDisabled();
+    await panel.getByRole('button', { name: 'Give up this round, take the clues' }).click();
+    await expect(panel.getByText('Give up guess 1? You get the next clues right away, but a find pays only 5× from now on.')).toBeVisible();
+    expect(skips).toBe(0);
+    await panel.getByRole('button', { name: 'Yes, give up' }).click();
+
+    await expect(panel.getByText('Guess 2 of 5')).toBeVisible();
+    await expect(panel.getByText('Guess 1: given up.')).toBeVisible();
+    await expect(panel.getByText('Round given up. Here are the new clues.')).toBeVisible();
+    expect(skips).toBe(1);
   });
 
   test('the last guess needs no confirmation and reveals the card with its mark', async ({ page }) => {
     await loginAsUser(page);
     let state = active({
       hunt: hunt({
-        attempt: 5, multiplier: 2, radius: 100, quarter: 'Staré Město', district: 'Praha 1', rarity: 'rare', xpReward: 20,
+        attempt: 5, multiplier: 1, radius: 100, quarter: 'Staré Město', district: 'Praha 1', rarity: 'rare', xpReward: 20,
         labels: ['church', 'tower', 'historical'],
         misses: [
-          { direction: 'S', distance: 2480 }, { direction: 'S', distance: 1460 },
-          { direction: 'NE', distance: 742 }, { direction: 'W', distance: 310 },
+          { direction: 'S' }, { direction: 'S' }, { direction: 'NE' }, { direction: 'W' },
         ],
         fromSquare: { near: true, direction: null },
         proximity: { within: true, distance: 40, direction: 'N' },
@@ -141,12 +168,14 @@ test.describe('Treasure hunt', () => {
       });
     });
 
-    await page.goto('/random-draw');
+    await page.goto('/treasure-hunt');
     const panel = page.locator('.hunt-panel');
-    await expect(panel.getByText('Distance: 40 m · Head north')).toBeVisible();
-    await expect(panel.getByText('Guess 3: the treasure lies north-east of where you pressed, 742 m away.')).toBeVisible();
+    await expect(panel.getByText('Distance from you: 40 m · Head north')).toBeVisible();
+    await expect(panel.getByText('Guess 3: the treasure lies north-east of where you pressed.')).toBeVisible();
     await expect(panel.getByText('The treasure is near Old Town Square.')).toBeVisible();
     await expect(panel.getByText('Church & Cathedral')).toBeVisible();
+    // Nothing comes after the last guess, so it can't be given up.
+    await expect(panel.getByRole('button', { name: 'Give up this round, take the clues' })).toHaveCount(0);
     await panel.getByRole('button', { name: "It's here!" }).click();
 
     await expect(page.getByText('Found on guess 5! +40 XP')).toBeVisible();
@@ -154,42 +183,46 @@ test.describe('Treasure hunt', () => {
     await expect(page.locator('.flip-card--revealed .loc-card__hunt')).toHaveText('🎯 5th try');
   });
 
-  test('an expired hunt shows its answer next to the draw buttons', async ({ page }) => {
+  test('an expired hunt shows its answer next to the start button', async ({ page }) => {
     await loginAsUser(page);
     await page.route(DRAW_RE, route => route.fulfill({
       json: { active: false, canDraw: true, location: null, drawnAt: null, expiresAt: null, lastHunt: { location: TARGET } },
     }));
-    await page.goto('/random-draw');
+    await page.goto('/treasure-hunt');
     await expect(page.getByText('Your last treasure was:')).toBeVisible();
     await expect(page.getByRole('link', { name: 'Týn Church' })).toBeVisible();
-    await expect(page.getByRole('button', { name: 'Draw a Location' })).toBeEnabled();
+    await expect(page.getByRole('button', { name: 'Start the Hunt' })).toBeEnabled();
   });
 
-  test('a draw can be re-rolled once, after confirming', async ({ page }) => {
+  test('a guest sees the rules but has to log in to play', async ({ page }) => {
+    await page.route('**/api/locations', route => route.fulfill({ json: [] }));
+    await page.goto('/treasure-hunt');
+    await expect(page.getByRole('button', { name: 'Start the Hunt' })).toBeDisabled();
+    await expect(page.getByText('Log in to play Treasure Hunt.')).toBeVisible();
+    await expect(page.locator('.hunt-table tbody tr')).toHaveCount(5);
+  });
+
+  test('a hunt can be re-rolled once, after confirming', async ({ page }) => {
     await loginAsUser(page);
-    const OTHER = { ...TARGET, _id: '2', name: 'Powder Tower', slug: 'powder-tower', localizedNames: { cz: 'Prašná brána', zh: '火药塔' } };
-    const base = {
-      active: true, canDraw: false, mode: 'open', bonusUsed: false,
-      drawnAt: new Date().toISOString(), expiresAt: new Date(Date.now() + 20 * 3600 * 1000).toISOString(),
-    };
-    let state = { ...base, location: TARGET, canReroll: true };
+    let state = active({ hunt: hunt(), canReroll: true });
     let rerolls = 0;
     await page.route(DRAW_RE, route => route.fulfill({ json: state }));
     await page.route(/\/api\/user\/random-draw\/reroll$/, route => {
       rerolls += 1;
-      state = { ...base, location: OTHER, canReroll: false };
+      state = active({ hunt: hunt({ labels: ['tower'] }), canReroll: false });
       return route.fulfill({ json: state });
     });
 
-    await page.goto('/random-draw');
-    await expect(page.locator('.flip-card--revealed .loc-card__name')).toHaveText('Týn Church');
-    await page.getByRole('button', { name: 'Re-roll (once today)' }).click();
-    await expect(page.getByText('You only get one re-roll per draw.', { exact: false })).toBeVisible();
+    await page.goto('/treasure-hunt');
+    const panel = page.locator('.hunt-panel');
+    await expect(panel.getByText('Church & Cathedral')).toBeVisible();
+    await page.getByRole('button', { name: 'Re-roll (once per hunt)' }).click();
+    await expect(page.getByText('you only get one re-roll per hunt.', { exact: false })).toBeVisible();
     expect(rerolls).toBe(0);
     await page.getByRole('button', { name: 'Yes, re-roll' }).click();
 
-    await expect(page.locator('.flip-card--revealed .loc-card__name')).toHaveText('Powder Tower');
+    await expect(panel.getByText('Church & Cathedral')).toHaveCount(0);
     expect(rerolls).toBe(1);
-    await expect(page.getByRole('button', { name: 'Re-roll (once today)' })).toHaveCount(0);
+    await expect(page.getByRole('button', { name: 'Re-roll (once per hunt)' })).toHaveCount(0);
   });
 });

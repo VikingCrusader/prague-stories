@@ -17,7 +17,7 @@ import ExplorePage from './pages/ExplorePage';
 import MapPage from './pages/MapPage';
 import DashboardPage from './pages/DashboardPage';
 import GuidePage from './pages/GuidePage';
-import RandomDrawPage from './pages/RandomDrawPage';
+import TreasureHuntPage from './pages/TreasureHuntPage';
 import HistoryPage from './pages/HistoryPage';
 
 const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
@@ -70,7 +70,9 @@ export default function App() {
             <Route path="/map"       element={<ProtectedRoute guestOk><MapPage /></ProtectedRoute>} />
             <Route path="/dashboard" element={<ProtectedRoute guestOk><DashboardPage /></ProtectedRoute>} />
             <Route path="/guide"     element={<ProtectedRoute guestOk><GuidePage /></ProtectedRoute>} />
-            <Route path="/random-draw" element={<ProtectedRoute guestOk><RandomDrawPage /></ProtectedRoute>} />
+            <Route path="/treasure-hunt" element={<ProtectedRoute guestOk><TreasureHuntPage /></ProtectedRoute>} />
+            {/* The page was "/random-draw" while it also offered an open draw. */}
+            <Route path="/random-draw" element={<Navigate to="/treasure-hunt" replace />} />
             <Route path="/history"   element={<ProtectedRoute guestOk><HistoryPage /></ProtectedRoute>} />
             <Route path="*"          element={<Navigate to="/explore" replace />} />
           </Routes>

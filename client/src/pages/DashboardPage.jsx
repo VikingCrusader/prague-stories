@@ -216,7 +216,7 @@ export default function DashboardPage() {
             </div>
           ) : (
             <p className="guide-body" style={{ color: 'var(--text-muted)' }}>
-              {t('dashboard.treasuresEmpty')} <Link to="/random-draw" style={{ textDecoration: 'underline' }}>{t('dashboard.treasuresLink')}</Link>
+              {t('dashboard.treasuresEmpty')} <Link to="/treasure-hunt" style={{ textDecoration: 'underline' }}>{t('dashboard.treasuresLink')}</Link>
             </p>
           )}
         </section>

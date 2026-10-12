@@ -1,7 +1,7 @@
 import CheckIn from '../models/CheckIn.js';
 import Location from '../models/Location.js';
 import User from '../models/User.js';
-import { evaluateAchievements, calculateLevel, RANDOM_DRAW_WINDOW_MS, RANDOM_DRAW_XP_MULTIPLIER, huntXp, huntStart } from '../services/gamification.js';
+import { evaluateAchievements, calculateLevel, RANDOM_DRAW_WINDOW_MS, huntXp } from '../services/gamification.js';
 import { haversineDistance } from '../utils/geo.js';
 
 const MAX_DISTANCE_METERS = 100;
@@ -37,23 +37,22 @@ export async function checkIn(req, res, next) {
         return res.status(403).json({ message: 'You need to be at the location to check in!' });
       }
     }
-    // Random-draw bonus: this location is the user's active draw, still
-    // within its 24h window, and the bonus hasn't been claimed yet. For a
-    // treasure hunt, collecting the hidden target here (e.g. from Explore)
-    // counts as a hit on the current guess.
+    // Treasure hunt: this location is the user's hidden target, still within
+    // its 24h window and not yet found. Collecting it here (e.g. from
+    // Explore) counts as a hit on the current guess. (Draws from the retired
+    // open mode, mode 'open', no longer pay a bonus.)
     const user = await User.findById(req.user._id);
     const draw = user.randomDraw || {};
     const drawActive = draw.slug === location.slug
       && draw.drawnAt
       && Date.now() - new Date(draw.drawnAt).getTime() < RANDOM_DRAW_WINDOW_MS
-      && !draw.bonusUsed;
+      && !draw.bonusUsed
+      && draw.mode === 'hidden';
     let xpEarned = location.xpReward;
     let guessAttempt;
-    if (drawActive && draw.mode === 'hidden') {
+    if (drawActive) {
       guessAttempt = (draw.misses?.length || 0) + 1;
-      xpEarned = huntXp(location.xpReward, guessAttempt, huntStart(draw));
-    } else if (drawActive) {
-      xpEarned = location.xpReward * RANDOM_DRAW_XP_MULTIPLIER;
+      xpEarned = huntXp(location.xpReward, guessAttempt);
     }
 
     const result = await recordCheckIn(user, location, { note, xpEarned, guessAttempt });

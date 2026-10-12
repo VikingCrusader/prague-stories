@@ -1,8 +1,7 @@
-// Random Location Draw: one draw every 24h; check in on the drawn location
-// within that window for a tripled XP reward. See userController.getRandomDraw
-// / drawRandomLocation and checkinController.checkIn.
+// Treasure hunt: one every 24h (the "random draw" names in the code and API
+// date from the retired open draw, which revealed the card for 3x XP). See
+// userController.getRandomDraw / drawRandomLocation and checkinController.
 export const RANDOM_DRAW_WINDOW_MS = 24 * 60 * 60 * 1000;
-export const RANDOM_DRAW_XP_MULTIPLIER = 3;
 
 // Treasure hunt ("寻宝"): the location stays hidden; the user gets five
 // guesses. Guess N is only allowed within HIDDEN_DRAW_RADII[N-1] of the
@@ -11,25 +10,61 @@ export const RANDOM_DRAW_XP_MULTIPLIER = 3;
 // the hit radius, so the last guess can't miss (it only lapses with the
 // 24h window). The early radii are wide on purpose: a player may burn a
 // guess from far away, trading XP for the next clues.
-export const HIDDEN_DRAW_MULTIPLIERS = [10, 7, 5, 3, 2];
+export const HIDDEN_DRAW_MULTIPLIERS = [10, 5, 3, 2, 1];
 export const HIDDEN_DRAW_RADII = [3000, 2000, 1000, 500, 100];
 export const HIDDEN_DRAW_HIT_M = 100;
 // The first clue says which way the treasure lies from Old Town Square, or
 // just "near the square" when it's closer than HIDDEN_DRAW_NEAR_SQUARE_M.
 export const OLD_TOWN_SQUARE = { lat: 50.0875, lng: 14.4213 };
 export const HIDDEN_DRAW_NEAR_SQUARE_M = 1000;
-// Golden time: found within this long of starting the hunt, the XP gets an
-// extra multiplier on top of the guess's own.
-export const HIDDEN_DRAW_GOLDEN_MS = 2 * 60 * 60 * 1000;
-export const HIDDEN_DRAW_GOLDEN_BONUS = 1.5;
+// Guesses 1–4 give the distance to the treasure only as a band, never the
+// exact figure: an exact distance plus a label picks out one card on the
+// Explore page, and two readings a short walk apart triangulate it. Band
+// edges in metres per guess; the last band is open-ended ("over 5 km").
+// Each guess's first edge equals its HIDDEN_DRAW_RADII entry, so the
+// smallest band shown ("under 3 km") is exactly where the button unlocks.
+export const HIDDEN_DRAW_BANDS = [
+  [3000, 5000, 10000],
+  // Each later guess only comes after a miss pressed within the previous
+  // radius, so it needs no far bands.
+  [2000, 3000],
+  [1000, 2000],
+  [500, 1000],
+];
+// So the first clues never point at one card: on guess 1, at least this
+// many uncollected cards must fit them, or the distance band is widened
+// until they do. Later guesses narrow things down anyway, so no minimum.
+export const HIDDEN_DRAW_FIRST_MIN_CANDIDATES = 4;
+// A label on more than this share of the possible cards (e.g. "historical",
+// on over half of them) says next to nothing, so it is never the opening
+// clue while the card has a more telling one.
+export const HIDDEN_DRAW_GENERIC_LABEL_SHARE = 0.25;
+// Labels treated as generic however rare they are: "hidden-gem" says the
+// place is little known, not what it is.
+export const HIDDEN_DRAW_VAGUE_LABELS = ['hidden-gem'];
 
-/** When the current card of a draw was dealt (a re-roll deals a new one). */
-export const huntStart = draw => new Date(draw.rolledAt || draw.drawnAt);
+/**
+ * The order a treasure's labels are revealed in (first on guess 1, second on
+ * guess 3), given the label lists of every card it could be. Generic labels
+ * (on more than HIDDEN_DRAW_GENERIC_LABEL_SHARE of the cards, e.g.
+ * "historical", or in HIDDEN_DRAW_VAGUE_LABELS) go last: as an opening clue they make guess 1 pure
+ * guesswork. The rest go most common first, so a rare label like "jewish"
+ * isn't the opening clue that gives it away (guess 1's band is widened
+ * anyway if too few cards fit). A card with only generic labels opens with
+ * the least common of them. `shuffle` breaks ties.
+ */
+export function orderHuntLabels(labels, poolLabels, shuffle = a => [...a]) {
+  const count = lb => poolLabels.filter(ls => ls?.includes(lb)).length;
+  const generic = lb => HIDDEN_DRAW_VAGUE_LABELS.includes(lb) || count(lb) > poolLabels.length * HIDDEN_DRAW_GENERIC_LABEL_SHARE;
+  return shuffle(labels).sort((a, b) =>
+    (generic(a) - generic(b)) || (generic(a) ? count(a) - count(b) : count(b) - count(a)));
+}
+// No time bonus: a 2-hour "golden time" (x1.5) was dropped on 2026-10-12 so
+// a hard hunt doesn't feel rushed.
 
-/** XP for collecting a treasure on guess `attempt`, at time `now`. */
-export function huntXp(xpReward, attempt, startedAt, now = Date.now()) {
-  const golden = now - new Date(startedAt).getTime() < HIDDEN_DRAW_GOLDEN_MS;
-  return Math.round(xpReward * HIDDEN_DRAW_MULTIPLIERS[attempt - 1] * (golden ? HIDDEN_DRAW_GOLDEN_BONUS : 1));
+/** XP for collecting a treasure on guess `attempt`. */
+export function huntXp(xpReward, attempt) {
+  return xpReward * HIDDEN_DRAW_MULTIPLIERS[attempt - 1];
 }
 
 export const LEVELS = [

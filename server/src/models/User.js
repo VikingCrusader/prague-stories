@@ -17,21 +17,24 @@ const userSchema = new mongoose.Schema({
   randomDraw: {
     slug:      { type: String, default: null },
     drawnAt:   { type: Date, default: null },
-    bonusUsed: { type: Boolean, default: false }, // open: bonus claimed; hidden: solved
-    // 'open' = location revealed at draw time (3x XP); 'hidden' = mystery
-    // draw with three guesses (see HIDDEN_DRAW_* in gamification.js).
-    mode:      { type: String, enum: ['open', 'hidden'], default: 'open' },
+    bonusUsed: { type: Boolean, default: false }, // the treasure was found
+    // Always 'hidden' (a treasure hunt, see HIDDEN_DRAW_* in gamification.js).
+    // 'open' (location revealed, 3x XP) is retired but kept valid for old
+    // documents; such a draw counts as no draw at all.
+    mode:      { type: String, enum: ['open', 'hidden'], default: 'hidden' },
     // Hidden mode: the card's labels in the random order they get revealed
     // (one, then two from the third guess, then all on the last).
     labelOrder: { type: [String], default: undefined },
     // Hidden mode: wrong guesses so far, where they were pressed, and the
-    // target's direction and exact distance from that spot.
+    // target's direction and exact distance from that spot. A skipped guess
+    // ("give up this round for clues") is stored as { skipped: true } only.
     misses: {
       type: [{
         lat: Number,
         lng: Number,
         distance: Number,
         direction: String,
+        skipped: Boolean,
         at: { type: Date, default: Date.now },
         _id: false,
       }],
@@ -40,7 +43,7 @@ const userSchema = new mongoose.Schema({
     solvedAttempt: { type: Number, default: null },
     // One re-roll per draw (i.e. per day): swaps the card but keeps drawnAt,
     // so the 24h window doesn't restart. rolledAt is when the current card
-    // was dealt, which a treasure hunt's golden time counts from.
+    // was dealt.
     rerolled:  { type: Boolean, default: false },
     rolledAt:  { type: Date, default: null },
     _id: false,

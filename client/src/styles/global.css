@@ -282,11 +282,6 @@ html:not([data-lang="zh"]) .map-sidebar__hint,
 html:not([data-lang="zh"]) .map-sidebar__legend,
 html:not([data-lang="zh"]) .guide-h2,
 html:not([data-lang="zh"]) .guide-h3,
-/* Draw page's label + distance chips reuse .detail-label-pill (see
-   DrawnCardMeta in RandomDrawPage.jsx) — the same class LocationDetail's
-   "Ruin"/"Historical" tags use, which stays untouched. Scoped to
-   .draw-card__meta-row so only the Draw-page instances switch to Cinzel. */
-html:not([data-lang="zh"]) .draw-card__meta-row .detail-label-pill,
 /* .detail-desc.detail-desc--teaser (not just .detail-desc--teaser alone):
    the teaser <p> always carries both classes together, and .detail-desc
    below is styled Crimson Pro — an equal-specificity single-class
@@ -748,7 +743,7 @@ html:not([data-lang="zh"]) .dashboard-page {
 }
 
 /* Draw page: all text except the titles goes Cinzel — scoped to
-   .draw-page (the extra class RandomDrawPage.jsx's root carries
+   .draw-page (the extra class TreasureHuntPage.jsx's root carries
    alongside .guide-page) so this doesn't leak onto Guide's own instances
    of the same shared classes (.guide-body is Crimson Pro there; Draw's
    copy is short hints/notes rather than long paragraphs, so a uniform

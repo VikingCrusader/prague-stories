@@ -1,4 +1,4 @@
-import { calculateLevel, evaluateAchievements, LEVELS } from '../src/services/gamification.js';
+import { calculateLevel, evaluateAchievements, LEVELS, orderHuntLabels } from '../src/services/gamification.js';
 
 describe('calculateLevel', () => {
   describe('level thresholds', () => {
@@ -235,5 +235,32 @@ describe('evaluateAchievements', () => {
     expect(ids).not.toContain('first_step');
     expect(ids).not.toContain('explorer_10');
     expect(ids).toContain('adventurer_25');
+  });
+});
+
+describe('orderHuntLabels', () => {
+  // Label lists of 12 possible cards: "historical" on 8, "church" on 3,
+  // "jewish" on 1, "park" on 2.
+  const pool = [
+    ['historical', 'church', 'jewish'], ['historical', 'church'], ['historical', 'church'],
+    ['historical'], ['historical'], ['historical'], ['historical'], ['historical'],
+    ['park'], ['park'], ['architecture'], ['museum'],
+  ];
+
+  test('a label on most cards never opens', () => {
+    expect(orderHuntLabels(['historical', 'church'], pool)).toEqual(['church', 'historical']);
+  });
+
+  test('otherwise the most common label opens, not a rare giveaway', () => {
+    expect(orderHuntLabels(['jewish', 'historical', 'church'], pool)).toEqual(['church', 'jewish', 'historical']);
+  });
+
+  test('"hidden-gem" never opens either, however rare', () => {
+    expect(orderHuntLabels(['hidden-gem', 'park'], pool)).toEqual(['park', 'hidden-gem']);
+  });
+
+  test('a card with only generic labels opens with the least common one', () => {
+    const allOld = [['historical', 'architecture'], ['historical', 'architecture'], ['historical']];
+    expect(orderHuntLabels(['historical', 'architecture'], allOld)).toEqual(['architecture', 'historical']);
   });
 });

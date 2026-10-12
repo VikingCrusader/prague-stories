@@ -73,10 +73,10 @@ test.describe('Dashboard', () => {
     await expect(modal.getByText('LOCKED')).toBeVisible();
   });
 
-  test('Treasure Hunt Finds is empty at first, with a pointer to the Draw page', async ({ page }) => {
+  test('Treasure Hunt Finds is empty at first, with a pointer to the Treasure Hunt page', async ({ page }) => {
     await expect(page.getByRole('heading', { name: 'Treasure Hunt Finds' })).toBeVisible();
     await expect(page.getByText('No treasure found yet.')).toBeVisible();
-    await expect(page.getByRole('link', { name: 'Start a hunt on the Draw page.' })).toHaveAttribute('href', '/random-draw');
+    await expect(page.getByRole('link', { name: 'Start a treasure hunt.' })).toHaveAttribute('href', '/treasure-hunt');
   });
 
   test('Treasure Hunt Finds shows each found card with the guess that found it', async ({ page }) => {
