@@ -37,6 +37,8 @@ const T = {
     'draw.includeOutside': 'Include cards outside Prague',
     'explore.allBlurb': 'Beyond the city limits lies the rest of Bohemia: fairy-tale castles, battlefields that changed history and towns older than some capitals, most of them an easy day trip from Prague. Friendly reminder: your Prague city ticket probably won\'t get you there.',
     'explore.cityBlurb': 'Walk to real places around Prague, check in, and unlock each one\'s card and the story behind it.',
+    // Phone-width version, short enough for one line.
+    'explore.cityBlurbShort': 'Walk to real places, unlock cards and stories.',
     'area.button': 'District',
     'area.modern': 'Modern division',
     'area.historical': 'Historical division',
@@ -249,6 +251,8 @@ const T = {
     'draw.includeOutside': 'Zahrnout i karty mimo Prahu',
     'explore.allBlurb': 'Za hranicemi města čeká zbytek Čech: pohádkové hrady, bojiště, která změnila dějiny, a městečka starší než leckteré hlavní město, většinou na skok z Prahy. Malé upozornění: s pražskou jízdenkou tam nejspíš nedojedete.',
     'explore.cityBlurb': 'Vyraz na skutečná místa po Praze a odemkni kartu každého z nich i příběh, který se za ním skrývá.',
+    // Phone-width version, short enough for one line.
+    'explore.cityBlurbShort': 'Dojdi na místa, odemkni karty i příběhy.',
     'area.button': 'Čtvrť',
     'area.modern': 'Moderní členění',
     'area.historical': 'Historické členění',
@@ -461,6 +465,8 @@ const T = {
     'draw.includeOutside': '包含布拉格以外的卡片',
     'explore.allBlurb': '出了布拉格，还有一整个波希米亚：童话般的城堡、改写过历史的古战场、比不少首都还老的小镇，大多一日往返都来得及。温馨提示：手里那张布拉格市内票，多半不够你走这么远。',
     'explore.cityBlurb': '走到布拉格的真实地点打卡，解锁每一处的卡片和它背后的故事。',
+    // Phone-width version, short enough for one line.
+    'explore.cityBlurbShort': '走到真实地点打卡，解锁卡片和背后的故事。',
     'area.button': '区域',
     'area.modern': '现代分区',
     'area.historical': '历史分区',

@@ -149,7 +149,13 @@ export default function ExplorePage() {
             <h1 ref={titleRef} className="px-title explore-title explore-title--fit">{titleText}</h1>
             {areaActive
               ? areaBlurb && <p className="explore-area-blurb">{convert(areaBlurb[lang] || areaBlurb.en)}</p>
-              : <p className="explore-area-blurb">{convert(t(cityOnly ? 'explore.cityBlurb' : 'explore.allBlurb'))}</p>}
+              : cityOnly
+                // Phones get a shorter line, so it fits on one line.
+                ? <p className="explore-area-blurb">
+                    <span className="explore-blurb--wide">{convert(t('explore.cityBlurb'))}</span>
+                    <span className="explore-blurb--narrow">{convert(t('explore.cityBlurbShort'))}</span>
+                  </p>
+                : <p className="explore-area-blurb">{convert(t('explore.allBlurb'))}</p>}
           </div>
           <div className="explore-header__scope">{scopeToggle}</div>
         </div>

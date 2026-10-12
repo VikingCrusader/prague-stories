@@ -1270,6 +1270,11 @@ html:not([data-lang="zh"]) .navbar__link {
 .explore-header { margin-bottom: 20px; }
 .explore-header h1 { font-size: 13px; margin-bottom: 8px; }
 .explore-title--fit { white-space: nowrap; }
+.explore-blurb--narrow { display: none; }
+@media (max-width: 600px) {
+  .explore-blurb--wide { display: none; }
+  .explore-blurb--narrow { display: inline; }
+}
 .explore-area-blurb {
   margin: 0;
   font-size: 15px;
