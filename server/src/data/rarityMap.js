@@ -76,7 +76,6 @@ export const SLUG_RARITY = {
   'panorama-hotel':               'epic',  // Brutalist StB-surveillance hotel highrise, Pankrác
   'socha-jezise-krista-petrin':   'epic',  // obscure 1746 wayside statue, Great Strahov Garden
   'kaple-jezulatka-petrin':       'epic',  // hidden Carmelite garden chapel, Seminářská zahrada
-  'chuchelsky-haj':               'epic',  // forest nature reserve deep in Chuchle, far south
   'barrandovske-skaly':           'epic',  // Silurian-Devonian boundary geological monument, far SW
 
   // ── RARE (90 · 37.5%) ────────────────────────────────────────────────────
@@ -145,7 +144,6 @@ export const SLUG_RARITY = {
   'kostel-panny-marie-modrany':   'rare',
   'city-tower-prague':            'rare',
   'kobylisy':                     'rare',  // WWII shooting range memorial
-  'bazilika-sv-margarety':        'rare',  // Břevnov monastery, oldest in Bohemia
   'anthony':                      'rare',
   'kostel-sv-jana-na-skalce':     'rare',
   'pamatnik-palacha-zajice':      'rare',
@@ -376,17 +374,14 @@ export const SLUG_RARITY = {
   // ── Petrovice / Milíčov batch (2026-07) ─────────────────────────────────
   'prubeh-50-rovnobezky':         'epic',  // 50th-parallel marker curiosity, Písnice globe sculpture
   'zamek-petrovice':              'superior', // Baroque manor, Sellier & Bellot co-founder, Gestapo-seized
-  'prirodni-park-botic-milicov':  'superior', // 824ha, tied-oldest nature park in Prague, since 1984
   'kostel-svateho-jakuba-starsiho-petrovice': 'rare', // oldest monument in Petrovice, 13th-century church
   'zoopark-milicov':              'rare',  // petting-farm minizoo, closed 2026 for unlicensed operation
-  'milicovsky-rybnik':            'rare',  // 18th-century pond system, city-owned only since 2016
   'komunitni-centrum-matky-terezy': 'rare', // first CZ church dedicated to Mother Teresa, built 2005-07
   'krtkuv-svet':                  'common', // Krtek-themed family entertainment park, Horní Měcholupy
 
   // ── Old Hostivař batch (2026-07) ────────────────────────────────────────
   'meandry-botice':               'epic',  // protected natural monument since 1968, kingfisher habitat
   'kostel-steti-sv-jana-krtitele-hostivar': 'superior', // 11th/12th-c church, 13th-c wall paintings
-  'potok-botic':                  'superior', // Prague's longest stream, in the national anthem
   'toulcuv-dvur':                 'superior', // 1362 monastery farmstead, now eco-education centre
   'horejsi-a-dolejsi-mlyn-hostivar': 'superior', // Švehla family watermills, PM's father bought Upper Mill
   'zvonice-kostela-jana-krtitele-hostivar': 'rare', // 16th-c wooden bell tower, among oldest in Bohemia
@@ -403,7 +398,6 @@ export const SLUG_RARITY = {
   'kostel-narozeni-panny-marie-zabehlice': 'rare', // Romanesque origins, pseudo-Romanesque tower after 1874 lightning fire
   'zabehlicky-zamek':             'superior', // neo-Baroque chateau, medieval fortress origins, White Lady legend
   'tvrz-kralovice':                'epic',  // 1388 fortress tower, NPU-listed endangered monument
-  'stare-zabehlice':              'superior', // village annexed 1922, kept rural character in the Botič valley
   'hamersky-rybnik':              'epic',  // sunken Václav IV water fortress found during 1960 dredging
   'kulturni-dum-eden':            'superior', // 1987 Brutalist 1500-seat culture house, slated for demolition
   'vysilac-cukrak':                'epic',  // TV tower, main Prague transmitter during Aug 1968 invasion broadcasts
@@ -460,14 +454,12 @@ export const SLUG_RARITY = {
   'melantrichova':                 'rare',  // street renamed 4x, home of printer Melantrich since 1567
   'dum-u-peti-korun':              'rare',  // 1364, late-Renaissance rebuild, Karel Škréta's sister owned it
   'sex-machines-museum':           'rare',  // 2002, only museum of its kind, city officials complained
-  'muzeum-utrpneho-prava-a-mucicich-nastroju': 'rare', // Romanesque/Gothic cellars, Celetná St.
   'dum-u-lazara':                  'epic',  // 1366-83 first seat of Charles University's founding college
 
   // ── Havelské tržiště / Michalská batch (2026-07) ────────────────────────
   'havelske-trziste':              'superior', // 1232, last surviving medieval marketplace in old Prague
   'wimmerova-kasna':               'rare',  // 1797 fountain, relocated 5 times, settled at Uhelný trh 1951
   'kostel-svateho-michaela-archandela-stare-mesto': 'superior', // 1150-1200 Romanesque, deconsecrated 1789
-  'michalska':                     'common', // "riddled with seven holes", named for St. Michael's church
   'dum-u-zlateho-melounu':         'rare',  // 1401/1407 origins, Linka dance school from 1828
   'kostel-svate-vorsily':          'superior', // 1702-04 High Baroque, funded partly by F.A. Špork
   'hollar':                        'rare',  // Charles Univ. FSV building, ex-Hollar printmakers' society
@@ -508,7 +500,6 @@ export const SLUG_RARITY = {
 
   // ── Malešice batch (2026-07) ─────────────────────────────────────────────
   'byty-malesice':                 'rare',     // 1961 estate, Khrushchev's 1964 rooftop dance visit
-  'penzion-malesice':              'common',   // 1971 svobodárna turned guesthouse, closed 2013, flats planned
   'spalovna-malesice':             'rare',     // ZEVO waste-to-energy plant, GOLEM overhaul 2018-23
   'malesicky-park':                'common',   // 8.8ha 1970 park, 2011-13 wheelchair-accessible rebuild
   'jiraskova-vila-malesice':       'superior', // farmstead to industrialist's castle to botanical garden
@@ -555,7 +546,6 @@ export const SLUG_RARITY = {
   'kostel-svateho-remigia-cakovice': 'superior', // only Czech church dedicated to St. Remigius, Charles IV relic
   'prazsky-zlom':                  'epic',     // 60km fault, 900m Ordovician vertical displacement, Hloubětín outcrop
   'slany':                         'superior', // royal town since ~1300s, legendary salt-spring founding
-  'ranger-prague-shooting-range':  'common',   // 70,000m² outdoor range, largest in Czech Republic, est. 2019
   'hloubetinsky-zamek':            'superior', // Knights Hospitaller to neo-Gothic castle to first CZ baby box (2005)
   'urad-mc-praha-cakovice':        'rare',     // 1887 sugar-factory workers' children's shelter, now district office
   'zamek-cakovice':                'superior', // 1409 fortified manor to E-shaped Classicist chateau, Schoeller rebuild
@@ -568,7 +558,6 @@ export const SLUG_RARITY = {
   'ubytovna-areal-hloubetin':      'rare',     // 1971-80 ČKD worker dormitory, 7 blocks, 1,640 beds today
   'pva-expo-praha':                'rare',     // 105,000m² fairground on former aircraft-factory land
   'letiste-letnany':               'superior', // 1924 aircraft-industry hub, WWII Allied bombing target
-  'lesopark-letnany':              'rare',     // ex-warehouse/metro-spoil site turned 36ha forest park, 2008-12
   'cihelna-v-bazantnici':          'rare',     // ex-brickworks, Cretaceous fossil outcrop protected since 1988
   'prirodni-park-smetanka':        'rare',     // 2010 park, afforested 1910-14, Hořejší pond first recorded 1544
   'kyjsky-rybnik':                 'rare',     // 14th-c Rokytka pond, near-total silting, rebuilt 2007-2010
@@ -707,6 +696,11 @@ export const SLUG_RARITY = {
   'kolin':                          'superior', // 1757 Battle of Kolín, Parléř-workshop Gothic church, old Jewish quarter
   'zamek-kacina':                 'epic',     // 1802-22 Empire palace of the Choteks near Kutná Hora, 227 m long
   'jachymov':                     'epic',     // silver boom town of the thaler/dollar, first radon spa, uranium camps
+  'kaple-sv-anny-satalice':       'rare',     // c.1730 Baroque chapel (attr. K. I. Dientzenhofer), Špork birth legend of 1689
+  'radotin':                      'superior', // Berounka ford village, cement town, a town only 1967-74, seat of Prague 16
+  'kostel-steti-sv-jana-krtitele-orech': 'rare', // Ořech's Gothic/Baroque church, J. Š. Baar's parish
+  'stary-vitkovsky-tunel':        'superior', // 1870-72 railway tunnel through Vítkov, a foot/cycle path since 2010
+  'stara-hostivar':               'superior', // village core, Cosmas 1068, joined Prague 1922, Švehla's birthplace
 
   // ── New additions (2026-07) ──────────────────────────────────────────────
   'the-famous-log':                 'epic',     // mysterious Google Maps "landmark" above Prague Castle, unverified by anyone

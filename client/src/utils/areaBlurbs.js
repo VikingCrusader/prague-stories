@@ -14,9 +14,9 @@ export const AREA_BLURBS = {
       zh: '查理四世的新城、维谢赫拉德的传说、维诺赫拉迪最优雅的几条街。地图上不大，新艺术风格的立面倒是给得很大方。',
     },
     'Praha 3': {
-      en: 'Žižkov territory: a TV tower with giant babies crawling up it, a one-eyed general on a horse on Vítkov hill, and a pub on what feels like every corner.',
-      cz: 'Žižkovské území: televizní věž, po které lezou obří miminka, jednooký vojevůdce na koni na Vítkově a hospoda na každém druhém rohu.',
-      zh: '日什科夫的地盘：一座爬满巨型婴儿的电视塔，维特科夫山上骑着马的独眼将军，还有差不多每个街角都有的一家小酒馆。',
+      en: 'Žižkov territory: a TV tower with giant babies crawling up it, a one-eyed general on a horse on Vítkov hill, and a pub on what feels like every corner. A traditionally working-class district, full of Hussite sites, with streets named after Hussite figures.',
+      cz: 'Žižkovské území: televizní věž, po které lezou obří miminka, jednooký vojevůdce na koni na Vítkově a hospoda na každém druhém rohu. Tradiční dělnická čtvrť plná husitských míst, s ulicemi pojmenovanými po husitských osobnostech.',
+      zh: '日什科夫的地盘：一座爬满巨型婴儿的电视塔，维特科夫山上骑着马的独眼将军，还有差不多每个街角都有的一家小酒馆。这里是传统的工人街区，胡斯派相关的地点很多，街道也多以胡斯运动人物命名。',
     },
     'Praha 4': {
       en: "Prague's most populous district: a bridge with a metro line inside it, a swimming stadium, a brewery town that stopped brewing, and a great many housing blocks.",
@@ -156,9 +156,9 @@ export const AREA_BLURBS = {
       zh: '得名于查理四世在山坡上种下的王家葡萄园。如今葡萄藤大多换成了新艺术风格的公寓楼，还有非常多的咖啡馆。',
     },
     'Žižkov': {
-      en: "An independent town until 1922, named after the one-eyed Hussite general. Famous for its pubs, its rebellious streak and its TV tower.",
-      cz: 'Až do roku 1922 samostatné město, pojmenované po jednookém husitském vojevůdci. Proslulé hospodami, rebelstvím a televizní věží.',
-      zh: '1922年以前还是个独立城镇，名字来自那位独眼的胡斯派将军。以小酒馆、叛逆脾气和电视塔闻名。',
+      en: "An independent town until 1922, named after the one-eyed Hussite general. Full of Hussite sites, with streets named after other Hussite figures. A traditionally working-class quarter, famous for its pubs, its rebellious streak and its TV tower.",
+      cz: 'Až do roku 1922 samostatné město, pojmenované po jednookém husitském vojevůdci. Plné husitských míst, ulice nesou jména dalších husitských osobností. Tradiční dělnická čtvrť, proslulá hospodami, rebelstvím a televizní věží.',
+      zh: '1922年以前还是个独立城镇，名字来自那位独眼的胡斯派将军。胡斯派相关的地点很多，街道也多以其他胡斯运动人物命名。传统的工人街区，以小酒馆、叛逆脾气和电视塔闻名。',
     },
     'Karlín': {
       en: 'Named after Empress Caroline Augusta in 1817. The 2002 flood went through it badly; it came back as one of the trendiest quarters in Prague.',

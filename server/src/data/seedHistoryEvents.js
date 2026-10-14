@@ -1158,14 +1158,6 @@ export const historyEvents = [
         },
       },
       {
-        slug: "bazilika-sv-margarety",
-        relation: {
-          en: "The basilica itself: a soaring 18th-century Baroque hall by Christoph Dientzenhofer, replacing the original church Adalbert consecrated here in 993. Only the Romanesque crypt below survives from his own lifetime; everything above it is centuries younger than the man it's named for.",
-          cz: "Samotná bazilika: vzdušná barokní stavba Christopha Dientzenhofera z 18. století, která nahradila původní kostel, jenž tu Vojtěch vysvětil v roce 993. Z jeho vlastní doby se dochovala jen románská krypta pod ní; všechno nad ní je o staletí mladší než muž, po němž je pojmenována.",
-          zh: "圣殿建筑本身：克里斯托夫·迪岑霍费尔18世纪设计的宏伟巴洛克式大殿，取代了阿达尔伯特993年在此祝圣的那座原始教堂。只有殿下的罗马式地下墓室，是他自己那个年代留下的原物；地面以上的一切，都比这座教堂所纪念的这个人晚了好几个世纪。",
-        },
-      },
-      {
         slug: "pomnik-sv-vaclava",
         relation: {
           en: "The same [[link:wenceslas-life-and-reign]]Wenceslas[[/link]] memorial: Adalbert is one of the four saints standing at its base, alongside Ludmila, Procopius, and Agnes.",
@@ -14668,6 +14660,8 @@ export const historyEvents = [
   //   reins), rather than just describing a "panicked" or "bolting" horse
   //   and trusting that alone to imply he's falling.
   // - `potok-botic` ("Botič Brook," already seeded) added as a second
+  //   (2026-10-13: that card was deleted; now points at `meandry-botice`,
+  //   the other Botič card)
   //   relatedLandmarks entry at the user's own follow-up request — the
   //   general Location card for the stream, not a specific spot matching
   //   this event's own medieval crossing point (that card's own
@@ -14717,7 +14711,7 @@ export const historyEvents = [
         },
       },
       {
-        slug: "potok-botic",
+        slug: "meandry-botice",
         relation: {
           en: "The stream Mikuláš of Hus was crossing when his horse bolted, on his way out of Prague for good.",
           cz: "Potok, který Mikuláš z Husi přejížděl, když se mu splašil kůň, na cestě z Prahy pryč — natrvalo.",
