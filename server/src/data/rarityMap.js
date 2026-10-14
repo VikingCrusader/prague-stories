@@ -120,7 +120,6 @@ export const SLUG_RARITY = {
   'stromovka-park':               'rare',
   'troja-chateau-garden':         'rare',
   'prague-zoo':                   'rare',
-  'charles-university':           'rare',
   'kavarna-slavia':               'rare',
   'cafe-imperial':                'rare',
   'u-fleku-brewery':              'rare',
@@ -245,7 +244,6 @@ export const SLUG_RARITY = {
   // ── Smíchov / Košíře batch (2026-07) ────────────────────────────────────
   'musoleum-david-cerny':         'epic',  // David Černý gallery, former Zlíchov distillery
   'malostransky-hrbitov':         'epic',  // National Revival cemetery, largely forgotten
-  'zdymadlo-smichov':             'epic',  // Vltava weir & navigation lock, 1241 origins
   'park-sacre-coeur':             'rare',  // hidden convent-school park behind a shopping mall
   'klaster-sacre-coeur':          'rare',  // 1880s Beuronese-art convent, now event venue
   'letohradek-kinskych':          'rare',  // Kinský summer villa, Ethnographic Museum
