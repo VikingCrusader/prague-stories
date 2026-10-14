@@ -100,10 +100,14 @@ export default function ExplorePage() {
 
   const hasCollected = useMemo(() => locations.some(l => l.unlocked), [locations]);
 
-  // City only / area filter. "My Collections" ignores it (LocationGrid gets
-  // sortedAll for that view): a collection shows everything collected.
+  // City only / area filter. "My Collections" ignores City only, so a
+  // collection shows everything collected, but a picked area still narrows it.
   const sortedLocations = useMemo(
     () => (cityOnly ? sortedAll.filter(l => isInCity(l) && matchesArea(l, area)) : sortedAll),
+    [sortedAll, cityOnly, area],
+  );
+  const collectionLocations = useMemo(
+    () => (cityOnly && area ? sortedAll.filter(l => matchesArea(l, area)) : sortedAll),
     [sortedAll, cityOnly, area],
   );
 
@@ -238,7 +242,7 @@ export default function ExplorePage() {
         </div>
       </div>
 
-      <LocationGrid locations={sortedLocations} collectionLocations={sortedAll} onCardClick={handleCardClick} scopeToggle={scopeToggle} hideOutsideLabel={cityOnly} onCollectionChange={setInCollection} />
+      <LocationGrid locations={sortedLocations} collectionLocations={collectionLocations} onCardClick={handleCardClick} scopeToggle={scopeToggle} hideOutsideLabel={cityOnly} onCollectionChange={setInCollection} />
 
       {selectedSlug && (
         <LocationDetail

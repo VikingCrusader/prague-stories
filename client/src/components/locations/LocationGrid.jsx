@@ -22,8 +22,8 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   const { lang } = useLang();
   const convert = useConvert();
   const [discovered, setDiscovered]         = useState(false);
-  // "My Collections" lists every collected card, whatever the City only /
-  // area filter (ExplorePage passes the unscoped list for it).
+  // "My Collections" lists every collected card whatever City only says, but
+  // within a picked area (ExplorePage passes that list as collectionLocations).
   const locations = discovered && collectionLocations ? collectionLocations : scopedLocations;
   useEffect(() => { onCollectionChange?.(discovered); }, [discovered, onCollectionChange]);
   const [activeLabels, setActiveLabels]     = useState(new Set());

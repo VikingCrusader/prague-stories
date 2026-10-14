@@ -1284,13 +1284,27 @@ V listopadu 1989 zaplnily davy sametové revoluce náměstí přímo před ním 
     xpReward: 20,
     wikipediaUrl: '',
     description: {
-      en: `Brave adventurer, welcome to the Rezidence primátora — the Official Residence of the Lord Mayor of Prague!
+      en: `The Municipal Library building on Mariánské náměstí in the Old Town houses both the central branch of the Prague City Library and, on its top floor, the official residence of the Mayor of Prague, used for receptions and official visits.
 
-The position of primátor — Lord Mayor of Prague — is one of the oldest continuously held civic offices in Central Europe, tracing its origins to the medieval municipal institutions that governed the Old Town, New Town, Malá Strana, and Hradčany as four legally separate towns before their administrative unification in 1784. The person who holds this office today is the elected head of a capital city of 1.3 million people, responsible for a budget of considerable scale and a position that places them at the intersection of national politics, European urban policy, and the daily administrative reality of running one of the most visited cities on the continent. The residence is embedded in the civic fabric of the Old Town — authority housed not in isolated grandeur but in the neighbourhood it governs.
+The building was put up between 1925 and 1928 to designs by the architect František Roith, in a monumental style typical of public buildings of the First Republic, opposite the New Town Hall of Prague. The library inside it is one of the largest public libraries in the country, with reading rooms, a music department and a children's library, and the building also contains a concert hall and gallery spaces used by the Prague City Gallery. The mayor's residence on the upper floor serves for representation, with rooms where the city receives important guests.
 
-Prague's history of primátors is a compressed version of Czech history. The Habsburgs appointed compliant administrators. The First Republic produced mayors of genuine civic ambition who shaped the modern city. The Nazi Protectorate made the role a conduit for occupation. The Communist period transformed it into a party appointment. The post-1989 primátors have navigated rapid development, mass tourism, and European integration in a city rebuilding its civic identity from the ground up. The residence has housed representatives of all these eras — which is a way of saying it has housed both collaboration and courage, sometimes without distinguishing between them.
+Prague has had a single mayor only since 1784, when Emperor Joseph II united the four historic towns of Prague, the Old Town, New Town, Malá Strana and Hradčany, into one city.
 
-🥚 Easter Egg: The administrative unification of Prague's four historic towns in 1784 was an act of Habsburg rationalisation, part of the same Josephine reforms that dissolved the monasteries and reorganised the Church. The four towns had coexisted as legally separate entities for over four centuries, with their own councils, laws, and occasionally their own conflicts. Unification made administrative sense. It also, for the first time, created a single "Prague" that required a single mayor — and that required someone to decide what Prague actually was. That question has been argued about ever since, and the person who holds this office is, among other things, the latest answer.`,
+🎁 Bonus: The building's front is guarded by statues and decoration in the style of the 1920s, and the library inside lends not only books but also music, films and even games. The mayor upstairs and the readers downstairs share one of the busiest public buildings in the Old Town.`,
+      cz: `Budova Městské knihovny na Mariánském náměstí na Starém Městě ukrývá ústřední pobočku Městské knihovny v Praze a v horním patře oficiální rezidenci primátora hlavního města Prahy, která slouží k recepcím a oficiálním návštěvám.
+
+Budova vznikla v letech 1925 až 1928 podle návrhu architekta Františka Roitha v monumentálním stylu typickém pro veřejné stavby první republiky, naproti Nové radnici. Knihovna uvnitř patří k největším veřejným knihovnám v zemi se studovnami, hudebním oddělením a dětskou knihovnou a v budově je také koncertní sál a výstavní prostory, které užívá Galerie hlavního města Prahy. Rezidence primátora v horním patře slouží k reprezentaci, se sály, kde město přijímá významné hosty.
+
+Praha má jediného primátora teprve od roku 1784, kdy císař Josef II. spojil čtyři historická pražská města, Staré Město, Nové Město, Malou Stranu a Hradčany, v jedno město.
+
+🎁 Bonus: Průčelí budovy střeží sochy a výzdoba ve stylu 20. let a knihovna uvnitř půjčuje nejen knihy, ale i hudbu, filmy a dokonce hry. Primátor nahoře a čtenáři dole sdílejí jednu z nejrušnějších veřejných budov na Starém Městě.`,
+      zh: `老城马利亚广场上的市立图书馆大楼里，既有布拉格市立图书馆的总馆，顶层还有布拉格市长的官邸，用于招待会和正式访问。
+
+大楼在1925年至1928年间按建筑师弗朗蒂谢克·罗伊特的设计建成，是第一共和国时期公共建筑典型的宏伟风格，正对着新市政厅。楼里的图书馆是全国最大的公共图书馆之一，有阅览室、音乐部和儿童图书馆，大楼里还有一座音乐厅和布拉格市立美术馆使用的展览空间。顶层的市长官邸用于接待，有市政府迎接重要客人的厅堂。
+
+布拉格直到1784年才有了唯一的一位市长，那一年约瑟夫二世皇帝把布拉格的四座历史城镇，老城、新城、小城和城堡区，合并成了一座城市。
+
+🎁 彩蛋：大楼正面装饰着20年代风格的雕像和纹饰，楼里的图书馆不光借书，还借音乐、电影，甚至桌游。楼上的市长和楼下的读者，共享着老城最繁忙的公共建筑之一。`,
     },
   },
   {
@@ -1566,15 +1580,21 @@ Sochu vytvořil kolem roku 1910 Josef Mařatka, jeden z předních českých soc
     xpReward: 20,
     wikipediaUrl: '',
     description: {
-      en: `Brave adventurer, welcome to the Museum of Literature — home of the Památník národního písemnictví, an institution that spent seventy years locked inside a monastery before finally moving into a confiscated banker's villa. Even Czech literature, it turns out, needed a very long and complicated plot before reaching its happy ending.
+      en: `The Museum of Literature, run by the Museum of Czech Literature, has since 2022 had its home in an elegant villa in Bubeneč. After decades in a monastery and years in storage, the nation's literary memory has finally found a proper house.
 
-The institution was founded in 1952 after the Communist state seized Strahov Monastery and its library, folding in collections from other dissolved monasteries to build a state archive of Czech literary heritage. For nearly seventy years it operated out of Strahovské nádvoří, until the monastery was returned to the Premonstratensian order after 1989 and the collection was pushed into rented storage outside the city — a fairly undignified fate for the nation's literary memory.
+The institution was founded in the early 1950s, when the communist state took over Strahov Monastery and its library and used the premises for a national literary archive. For about seventy years it worked at Strahov. After 1989 the monastery was returned to the Premonstratensians, and the collections had to move out, much of them into storage outside the city. In 2022 the museum opened its new exhibition space in a villa in Bubeneč built in 1929 and 1930 to designs by the architect Max Spielmann for a member of the wealthy Petschek banking family. The Petscheks fled before the Nazi occupation in 1938, and their property was confiscated. After the war the villa served other institutions, including an embassy, before a long period of uncertainty and a thorough restoration.
 
-In 2022 it finally found a proper home: the third Petschkova vila in Bubeneč, an eclectic 1929–1930 villa built by architect Max Spielmann for Marianne Gellertová of the wealthy Petschek banking family. The Petscheks were forced to flee to England in 1938 as the Nazi occupation closed in, and their property was confiscated. The Chinese Embassy later used the building, before it sat empty and disputed for over a decade. A full 2017–2021 restoration finally turned it into what it is today: nearly 1,000 square metres of literary exhibition space.
+🎁 Bonus: The villa's story is a small history of the 20th century: a Jewish banking family driven out, years of foreign and state use, a long limbo, and finally a museum of the written word. It needs a whole archive just to tell its own tale.`,
+      cz: `Muzeum literatury, které provozuje Památník národního písemnictví, má od roku 2022 domov v elegantní vile v Bubenči. Po desítkách let v klášteře a letech v depozitářích tak národní literární paměť konečně našla pořádný dům.
 
-🥚 Easter Egg: The building's occupants form an almost absurd historical relay — a persecuted Jewish banking family, a communist-era foreign embassy, years of bureaucratic limbo, and finally a museum dedicated to preserving the written word. If the villa's walls could talk, they would need an entire library just to get through the twentieth century.`,
-      cz: '',
-      zh: '',
+Instituce vznikla na počátku 50. let, kdy komunistický stát převzal Strahovský klášter a jeho knihovnu a využil prostory pro národní literární archiv. Zhruba sedmdesát let působila na Strahově. Po roce 1989 byl klášter vrácen premonstrátům a sbírky se musely vystěhovat, velká část do depozitářů mimo město. Roku 2022 otevřelo muzeum nové výstavní prostory ve vile v Bubenči, postavené v letech 1929 a 1930 podle návrhu architekta Maxe Spielmanna pro člena bohaté bankéřské rodiny Petschků. Petschkové před nacistickou okupací roku 1938 uprchli a jejich majetek byl zabaven. Po válce vila sloužila jiným institucím včetně velvyslanectví, než přišlo dlouhé období nejistoty a důkladná obnova.
+
+🎁 Bonus: Příběh vily je malou historií 20. století: vyhnaná židovská bankéřská rodina, léta zahraničního a státního užívání, dlouhé čekání a nakonec muzeum psaného slova. Jen na vyprávění vlastního příběhu by potřebovala celý archiv.`,
+      zh: `由国家文学纪念馆运营的文学博物馆，从2022年起安家在布贝内奇的一座优雅别墅里。在修道院里待了几十年、又在库房里放了好几年之后，这个国家的文学记忆终于有了一个像样的家。
+
+这个机构成立于50年代初，当时共产主义国家接管了斯特拉霍夫修道院及其图书馆，把那里用作国家文学档案馆。它在斯特拉霍夫运作了大约七十年。1989年后修道院归还给普雷蒙特雷会，藏品只好搬出去，大部分进了城外的库房。2022年，博物馆在布贝内奇的一座别墅里开设了新展厅，这座别墅建于1929年和1930年，由建筑师马克斯·施皮尔曼为富有的佩切克银行家族的一位成员设计。佩切克家族在1938年纳粹占领前出逃，财产被没收。战后别墅先后为其他机构所用，其中包括一家大使馆，之后又经历了漫长的悬而未决和一次彻底的修复。
+
+🎁 彩蛋：这座别墅的故事就是一部20世纪小史：被赶走的犹太银行家家族、多年的外国和国家使用、漫长的悬置，最后成了一座文字的博物馆。光是讲它自己的故事，就得用上一整座档案馆。`,
     },
   },
   {
@@ -1670,15 +1690,21 @@ The parish was finally revived in 1786, and the current Classicist building on B
     xpReward: 20,
     wikipediaUrl: '',
     description: {
-      en: `Brave adventurer, welcome to the Ministry of Education, Youth and Sports — a stately Malá Strana palace that has quietly hosted actors, aristocrats, and bureaucrats in roughly that order, proving that Czech culture and Czech civil service have always shared surprisingly good real estate.
+      en: `The Ministry of Education, Youth and Sports has its seat in a stately palace in Malá Strana. Behind the calm Classicist front lie several older houses, joined together at the end of the 18th century, and the building has had a varied history before it filled with civil servants.
 
-The site originally held three separate houses, built around 1571 by the architect and stonemason Bonifác Wohlmut. One of them operated as a theatre hall between 1700 and 1713, staging German-language opera in a Malá Strana still very much under Habsburg cultural influence. By the 1790s the houses belonged to the Czernín family, who had them joined into a single palace in a 1796 reconstruction led by architect Josef Zobel.
+The site originally held separate burgher houses from the Renaissance period. Around 1700 one of them was used for a time as a theatre hall, where opera was performed for the nobility of Malá Strana. At the end of the 18th century the houses belonged to the Czernin family, who had them joined into a single palace in a reconstruction of 1796. In the 20th century the palace passed to the state, and since the Czech Ministry of Education was established it has been the national headquarters of the country's school administration, deciding among other things what Czech children learn.
 
-The palace's transformation into a government ministry came much later, once the modern Czechoslovak and then Czech state needed dignified premises for its education administration — the current Ministry of Education, Youth and Sports was established in 1969 and has occupied the building as its national headquarters ever since, turning a onetime opera house into the office that decides what the country's schoolchildren study.
+🎁 Bonus: A building where aristocrats once listened to opera now hosts meetings about school curricula and sports funding. The loudest performances in this palace have shifted, over three centuries, from arias to budget debates.`,
+      cz: `Ministerstvo školství, mládeže a tělovýchovy sídlí ve vznešeném paláci na Malé Straně. Za klidným klasicistním průčelím se skrývá několik starších domů, spojených koncem 18. století, a budova měla pestrou historii dřív, než se zaplnila úředníky.
 
-🥚 Easter Egg: A building that once staged imported German opera for the aristocracy now spends its days approving Czech school curricula — meaning the loudest performances in this palace shifted, over three centuries, from arias to budget meetings. Whether that counts as progress is left as an exercise for the visiting adventurer.`,
-      cz: '',
-      zh: '',
+Na místě stály původně samostatné renesanční měšťanské domy. Kolem roku 1700 sloužil jeden z nich nějaký čas jako divadelní sál, kde se pro malostranskou šlechtu hrála opera. Koncem 18. století patřily domy Černínům, kteří je při přestavbě roku 1796 spojili v jediný palác. Ve 20. století přešel palác na stát a od vzniku českého ministerstva školství je národním sídlem školské správy země, která mimo jiné rozhoduje o tom, co se české děti učí.
+
+🎁 Bonus: V budově, kde kdysi šlechtici poslouchali operu, se dnes konají porady o učebních osnovách a financování sportu. Nejhlasitější výstupy v tomto paláci se za tři století přesunuly od árií k rozpočtovým debatám.`,
+      zh: `捷克教育、青年和体育部设在小城的一座庄重宫殿里。平静的古典主义立面背后，是18世纪末合并起来的几栋更古老的房子，在被公务员填满之前，这栋楼的历史相当丰富。
+
+这里原本是几栋独立的文艺复兴时期市民住宅。约1700年前后，其中一栋曾一度用作剧场，为小城的贵族上演歌剧。18世纪末这些房子归切尔宁家族所有，他们在1796年的一次改建中把它们合并成一座宫殿。20世纪宫殿归了国家，自捷克教育部成立以来，这里一直是全国教育管理的总部，其中一项职责就是决定捷克孩子们学什么。
+
+🎁 彩蛋：一栋贵族们曾在里面听歌剧的楼，如今开的是关于课程大纲和体育经费的会议。三百年间，这座宫殿里最响亮的表演，从咏叹调变成了预算辩论。`,
     },
   },
   {
@@ -1693,15 +1719,21 @@ The palace's transformation into a government ministry came much later, once the
     xpReward: 50,
     wikipediaUrl: '',
     description: {
-      en: `Brave adventurer, welcome to Modřanská vinice — Prague's southernmost vineyard, a patch of hillside that has been growing grapes, on and off, since a medieval prince donated it to the church in 1178. Modern viticulture, it turns out, is just very old viticulture that occasionally took a nap.
+      en: `Modřanská vinice is the southernmost vineyard in Prague, on a sunny slope above the Vltava in Modřany. Vines have grown here, with interruptions, since the Middle Ages, and today the vineyard is tended by local growers and has a small restaurant.
 
-Prince Soběslav II gifted the vineyard to the Vyšehrad Chapter in 1178, beginning an ownership history split between church and crown for centuries. In 1715 it was formally named the Archbishop's Vineyard after passing to the Prague Archbishopric, which replanted and expanded it to roughly two hectares in the early 19th century. Its luck ran out in the 1920s: the vineyard was sold off, fell into neglect, and froze solid in the brutal winter of 1929, effectively ending centuries of continuous cultivation.
+According to records, the vineyard was given to the Vyšehrad Chapter in 1178 by Prince Soběslav II, and over the centuries it belonged to the Church and to other owners. In the 18th century it passed to the Prague Archbishopric and was known as the Archbishop's Vineyard, and in the early 19th century it was replanted and enlarged. In the 1920s it was sold and neglected, and the harsh winter of 1929 destroyed the vines. It lay dormant for almost sixty years until 1987, when members of a local gardening association began to restore it plot by plot. Today it is a patchwork of small parcels growing varieties such as Riesling, Pinot Noir and Traminer, with an orchard and a vineyard house with a restaurant.
 
-It stayed dormant for nearly six decades until 1987, when members of the Czech Gardening Association revived it plot by plot — a genuinely grassroots restoration rather than a state or church project this time. Today it's a patchwork of individually tended parcels growing traditional varieties like Riesling, Pinot Noir, Traminer, and Blue Portugal, alongside an orchard and a restored vineyard house with its own restaurant and barn.
+🎁 Bonus: A vineyard founded by a medieval prince was brought back to life by amateur gardeners eight centuries later. Prague's vineyards have often survived this way, thanks less to nobles than to people who simply love growing grapes.`,
+      cz: `Modřanská vinice je nejjižnější vinicí v Praze, na slunném svahu nad Vltavou v Modřanech. Réva tu s přestávkami roste od středověku a dnes o vinici pečují místní pěstitelé a je tu malá restaurace.
 
-🥚 Easter Egg: A vineyard founded by a 12th-century prince and revived by 20th-century garden-club hobbyists has effectively swapped one kind of nobility for another — the aristocracy of people willing to argue passionately about pruning technique. Eight centuries later, that turns out to be the more durable kind.`,
-      cz: '',
-      zh: '',
+Podle záznamů daroval vinici roku 1178 Vyšehradské kapitule kníže Soběslav II. a během staletí patřila církvi i jiným majitelům. V 18. století přešla na pražské arcibiskupství a říkalo se jí Arcibiskupská vinice a počátkem 19. století byla znovu osázena a rozšířena. Ve 20. letech 20. století byla prodána a zanedbána a krutá zima roku 1929 révu zničila. Téměř šedesát let ležela ladem, až roku 1987 ji členové místního zahrádkářského svazu začali parcelu po parcele obnovovat. Dnes je to mozaika malých parcel s odrůdami jako Ryzlink rýnský, Rulandské modré a Tramín, se sadem a viničním domkem s restaurací.
+
+🎁 Bonus: Vinici založenou středověkým knížetem vrátili k životu zahrádkáři o osm století později. Pražské vinice často přežily právě takhle, méně díky šlechtě a víc díky lidem, kteří prostě rádi pěstují víno.`,
+      zh: `摩德拉尼葡萄园是布拉格最南端的葡萄园，坐落在莫德扎尼伏尔塔瓦河上方一片向阳的山坡上。从中世纪起这里就断断续续种着葡萄，如今由当地种植者照料，还有一家小餐厅。
+
+据记载，1178年索别斯拉夫二世公爵把这片葡萄园赠给了维谢赫拉德教士团，此后几百年间它先后归教会和其他主人所有。18世纪它转归布拉格大主教区，被称为“大主教葡萄园”，19世纪初重新种植并扩大。20世纪20年代它被卖掉后荒废，1929年的严冬冻死了葡萄藤。它荒了将近六十年，直到1987年，当地园艺协会的成员们一块一块地把它恢复起来。如今这里是一片由小块地拼成的葡萄园，种着雷司令、黑皮诺、琼瑶浆等品种，还有一片果园和一座带餐厅的葡萄园小屋。
+
+🎁 彩蛋：一座由中世纪公爵建立的葡萄园，八百年后被业余园艺爱好者救活了。布拉格的葡萄园常常就是这样幸存下来的，靠的与其说是贵族，不如说是那些单纯热爱种葡萄的人。`,
     },
   },
   {
@@ -1716,15 +1748,27 @@ It stayed dormant for nearly six decades until 1987, when members of the Czech G
     xpReward: 50,
     wikipediaUrl: '',
     description: {
-      en: `Brave adventurer, welcome to Koleje Strahov — a vast concrete hillside of student dormitories that looks, from a distance, like a small Brutalist city-state. Thousands of Czech Technical University students have called this home. In 1967, a few thousand of them got very, very angry about the lights going out.
+      en: `The Strahov dormitories are a large complex of student halls on the hill above Strahov Monastery, built for the Czech Technical University. Thousands of students live here, and in 1967 a protest that began here over power cuts helped set the stage for the Prague Spring.
 
-Built from the 1950s onward on the hill above Strahov Monastery, this is one of the largest student dormitory complexes in Europe — a sprawling grid of housing blocks designed to warehouse the growing ranks of Czechoslovakia's technical university students. It remains a working ČVUT dormitory today, largely unchanged in spirit: cramped rooms, long corridors, and generations of engineering students pulling all-nighters within the same grey concrete walls.
+The complex grew up from the 1960s onward beside the great Strahov Stadium, a grid of concrete blocks built to house the growing numbers of students of Czechoslovakia's technical university, and it is still one of the largest student residences in Central Europe. Its residents have long been known for a lively community life, with their own clubs, bars and, in the 1990s, one of the first student computer networks in the country.
 
-On the night of 31 October 1967, one of Strahov's recurring electricity blackouts finally tipped students over the edge. Around 1,500 of them marched out of the dormitories toward the government seat in Malá Strana, chanting "We want light!" and "We want to study!" Riot police met them with tear gas and batons, reportedly sneering "here's your light" as they struck. It was meant to be a minor housing complaint. It did not stay that way.
+On the evening of 31 October 1967, after yet another blackout, about 1,500 students marched out of the dormitories toward the Castle, carrying candles and chanting "We want light!" Police met them with tear gas and batons. The brutal response caused public outrage and added to the pressure that brought down the hardline party leader Antonín Novotný a few months later and opened the way to the reforms of the Prague Spring.
 
-🥚 Easter Egg: The brutal police crackdown on this small student protest backfired spectacularly. Public outrage over Strahov helped force out hardline leader Antonín Novotný, clearing the way for Alexander Dubček's reformist rise and the Prague Spring of 1968. A blown fuse in a student dormitory helped set in motion one of the defining events of the Cold War — which is either a remarkable coincidence or proof that revolutions really can start with something as small as a light switch.`,
-      cz: '',
-      zh: '',
+🎁 Bonus: A protest about faulty lights in a student hall ended up helping to change the leadership of the country. In Czech history, the demand "We want light!" turned out to mean far more than electricity.`,
+      cz: `Strahovské koleje jsou velký komplex studentských kolejí na kopci nad Strahovským klášterem, postavený pro České vysoké učení technické. Bydlí tu tisíce studentů a roku 1967 tu začal protest kvůli výpadkům proudu, který pomohl připravit půdu pro pražské jaro.
+
+Komplex vyrůstal od 60. let vedle Velkého strahovského stadionu jako síť betonových bloků postavených pro rostoucí počet studentů československé techniky a dodnes patří k největším studentským kolejím ve střední Evropě. Jeho obyvatelé byli vždycky známí čilým komunitním životem s vlastními kluby, bary a v 90. letech i jednou z prvních studentských počítačových sítí v zemi.
+
+Večer 31. října 1967, po dalším výpadku proudu, vyšlo z kolejí asi 1 500 studentů se svíčkami směrem k Hradu a skandovali „Chceme světlo!“. Policie je přivítala slzným plynem a obušky. Brutální zásah vyvolal veřejné pobouření a přispěl k tlaku, který o několik měsíců později svrhl tvrdolinijního stranického vůdce Antonína Novotného a otevřel cestu reformám pražského jara.
+
+🎁 Bonus: Protest kvůli vadnému osvětlení na kolejích nakonec pomohl změnit vedení země. V českých dějinách znamenal požadavek „Chceme světlo!“ mnohem víc než elektřinu.`,
+      zh: `斯特拉霍夫学生宿舍是斯特拉霍夫修道院上方山坡上的一大片学生公寓，为捷克理工大学而建。这里住着成千上万的学生，1967年，一场从这里开始的因停电引发的抗议，为布拉格之春铺了路。
+
+这片建筑群从60年代起在斯特拉霍夫大球场旁边陆续建成，是一排排混凝土楼房，用来安置捷克斯洛伐克理工大学日益增多的学生，至今仍是中欧最大的学生宿舍之一。这里的住客向来以热闹的集体生活著称，有自己的俱乐部、酒吧，90年代还建起了全国最早的学生计算机网络之一。
+
+1967年10月31日晚，又一次停电之后，约1500名学生举着蜡烛走出宿舍，朝城堡方向行进，高喊“我们要光明！”警察用催泪瓦斯和警棍迎接他们。粗暴的镇压激起了公众愤怒，加大了压力，几个月后强硬派党魁安东宁·诺沃提尼下台，为布拉格之春的改革打开了道路。
+
+🎁 彩蛋：一场因为宿舍灯坏了而起的抗议，最后竟帮助改变了国家的领导层。在捷克历史上，“我们要光明！”这句口号的意义远远超出了电。`,
     },
   },
   {
@@ -2621,29 +2665,21 @@ Sochu vytvořil mladý kameník Michal Hoch a nejprve stála v nedalekém kostel
     xpReward: 50,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Domov_svat%C3%A9ho_Karla_Boromejsk%C3%A9ho_(%C5%98epy)',
     description: {
-      en: `Brave adventurer, welcome to St. Charles Borromeo's Home (Domov svatého Karla Boromejského)! In its 160-plus years, this Řepy complex has been a farmstead, an orphanage, an epidemic ward, a women's prison run by nuns, and a care home — which is an unusually eventful résumé for a building most people walk past without a second glance.
+      en: `The Home of St Charles Borromeo in Řepy is a large convent complex in the old village centre, run by the Sisters of Mercy of St Charles Borromeo. In about 160 years it has been an orphanage, a women's prison and a home for the sick and elderly.
 
-The Sisters of Mercy of St. Charles Borromeo arrived in Prague in 1837, and in 1858 they bought the old Taicman farmstead in the village of Řepy for 56,000 guilders, clearing the farm buildings to make room. Construction of a new two-storey building began in April 1859 under builder Jan Ripota, and by the summer of 1860 it was already finished enough to take in 188 orphans. Then, in 1864, a dangerous eye infection swept through the children living there, forcing many to be evacuated to the countryside for treatment; the remaining population shrank to just 25, who were relocated to a smaller home in Karlín.
+The sisters, a Catholic nursing order, came to Prague in 1837, and in 1858 they bought an old farmstead in the village of Řepy and built a large new building here, which opened in 1860 as an orphanage. A few years later an eye infection spread among the children, and many had to be moved away. The state then offered the sisters a lease to run a prison for women, and for decades the nuns supervised the inmates, who worked in sewing and rope-making workshops. In 1948 the communists closed the convent and drove the sisters out. After 1989 the building was returned and repaired, and since the 1990s the sisters have again cared for the sick, the elderly and the dying here, in a modern care home and hospice.
 
-With the building suddenly empty, the state stepped in with an offer nobody saw coming: a 25-year lease to house convicted women prisoners. The sisters adapted the building in 1865–66, installing workshops for seamstresses and rope-makers, and ran what amounted to a convent-prison hybrid for the better part of a century, until the communist government shut the whole operation down in 1948 for political reasons. After 1989, the damaged cloister was slowly restored, and in 1996 the sisters finally returned to their original mission of caring for the sick, poor, and marginalized. Today the home treats roughly 500 patients a year and also runs a day centre for seniors — plus, remarkably, it still maintains a division for women serving sentences, keeping one thread of its unlikely history alive.
+🎁 Bonus: Few buildings in Prague have had such a varied list of residents: orphans, women prisoners guarded by nuns, and today patients and seniors. Through all of it, the same order of sisters has kept coming back to the work of caring for people others had left behind.`,
+      cz: `Domov sv. Karla Boromejského v Řepích je velký klášterní areál ve starém jádru obce, který spravují Milosrdné sestry sv. Karla Boromejského. Za zhruba 160 let byl sirotčincem, ženskou věznicí i domovem pro nemocné a staré.
 
-🥚 Easter Egg: Somewhere in the paperwork of Czech religious history is the fact that a Catholic convent quietly ran a state-sanctioned women's prison for the better part of a century, with nuns supervising seamstress and rope-making workshops inside cells that had once housed orphaned children recovering from an eye epidemic. Few buildings in Prague can claim quite that specific a combination of occupants.`,
+Sestry, katolický ošetřovatelský řád, přišly do Prahy roku 1837 a roku 1858 koupily ve vsi Řepy starý statek a postavily tu velkou novou budovu, která se roku 1860 otevřela jako sirotčinec. O pár let později se mezi dětmi rozšířila oční infekce a mnohé musely být odvezeny jinam. Stát pak sestrám nabídl pronájem pro ženskou věznici a desítky let dohlížely řeholnice na trestankyně, které pracovaly v šicích a provaznických dílnách. Roku 1948 komunisté klášter zavřeli a sestry vyhnali. Po roce 1989 byla budova vrácena a opravena a od 90. let tu sestry znovu pečují o nemocné, staré a umírající v moderním domově a hospici.
 
-      cz: `Statečný dobrodruhu, vítej v Domově svatého Karla Boromejského! Za víc než 160 let existence prošel tento komplex v Řepích proměnou od selského statku přes sirotčinec, epidemickou ošetřovnu a ženskou věznici pod dohledem sester až po dnešní domov s pečovatelskou péčí — neobvykle bohaté curriculum vitae na budovu, kolem které většina lidí projde bez povšimnutí.
+🎁 Bonus: Málokterá pražská budova měla tak pestrý seznam obyvatel: sirotky, trestankyně hlídané řeholnicemi a dnes pacienty a seniory. Celou dobu se ke službě lidem, které ostatní opustili, vracel tentýž řád sester.`,
+      zh: `热皮的圣嘉禄·博罗梅奥之家是老村中心的一大片修道院建筑，由圣嘉禄·鲍荣茂仁慈修女会管理。大约一百六十年里，它当过孤儿院、女子监狱，也当过病人和老人的养护之家。
 
-Kongregace Milosrdných sester sv. Karla Boromejského přišla do Prahy v roce 1837 a v roce 1858 koupila v obci Řepy starý statek Taicmanů za 56 000 zlatých, aby na jeho místě po zbourání hospodářských budov vznikla nová stavební parcela. Stavba nové dvoupatrové budovy začala v dubnu 1859 pod vedením stavitele Jana Ripoty a už v létě 1860 byla hotová natolik, že sem mohlo být přestěhováno 188 sirotků. V roce 1864 se ale mezi dětmi rozšířila nebezpečná oční nákaza, kvůli které musela být řada z nich převezena na venkov k léčení; zbylých pouhých 25 dětí bylo přemístěno do menšího domova v Karlíně.
+修女们属于一个天主教护理修会，1837年来到布拉格，1858年在热皮村买下一座旧农庄，在这里建起了一栋大楼，1860年作为孤儿院启用。几年后孩子们中间传开了一种眼疾，许多孩子不得不被转走。随后国家提出把这里租给修女们开办女子监狱，此后几十年修女们看管着女犯，女犯们在缝纫和制绳作坊里劳动。1948年共产党关闭修道院，赶走了修女。1989年后大楼归还并修缮，从90年代起，修女们又在这里的现代养护院和临终关怀院里照顾病人、老人和临终者。
 
-Náhle vyprázdněnou budovu si stát vzápětí vyžádal k účelu, jaký by nikdo nečekal: na 25 let si ji pronajal jako věznici pro odsouzené ženy. Sestry budovu v letech 1865–1866 upravily a zřídily v ní švadlenské a provaznické dílny, a téměř celé jedno století tak provozovaly svérázný hybrid kláštera a věznice — až do roku 1948, kdy komunistický režim celý provoz z politických důvodů uzavřel. Po roce 1989 se poškozený klášter pomalu obnovoval a v roce 1996 se sestry konečně vrátily ke svému původnímu poslání péče o nemocné, chudé a lidi na okraji společnosti. Dnes domov ročně ošetří kolem 500 pacientů, provozuje také denní stacionář pro seniory — a pozoruhodně stále udržuje i oddělení pro ženy ve výkonu trestu, čímž zachovává jednu nit své nepravděpodobné historie.
-
-🥚 Velikonoční vajíčko: Někde v análech české církevní historie je zapsáno, že katolický klášter téměř celé století tiše provozoval státem posvěcenou ženskou věznici, kde sestry dohlížely na švadlenské a provaznické dílny v celách, které kdysi obývaly sirotčí děti zotavující se z oční epidemie. Jen málo pražských budov se může pochlubit tak specifickou kombinací obyvatel.`,
-
-      zh: `勇敢的冒险家，欢迎来到圣嘉禄·博罗梅奥之家（Domov svatého Karla Boromejského）！在160多年的历史里，这座位于热比（Řepy）的建筑群先后做过农庄、孤儿院、传染病隔离所、由修女管理的女子监狱，最后变成了今天的养老照护中心——对于一栋大多数人路过都不会多看一眼的建筑来说，这份履历相当丰富曲折。
-
-圣嘉禄·博罗梅奥慈善修女会于1837年来到布拉格，1858年又以56,000古尔登的价格买下热比村的泰茨曼老农庄，拆除农舍后腾出了一大片建筑用地。新的两层建筑于1859年4月在建筑师扬·里波塔（Jan Ripota）的主持下动工，到1860年夏天时已完工到足以接纳188名孤儿入住的程度。然而到了1864年，一场危险的眼疾在孩子们之间蔓延开来，许多人不得不被送往乡下治疗；留下来的孩子只剩25人，随后被转移到卡林（Karlín）一处更小的住所。
-
-建筑突然空了下来，国家随即提出了一个谁也没料到的用途：租期25年，用作关押女性囚犯的监狱。修女们于1865至1866年对建筑进行改造，设立了缝纫和制绳的工坊，此后近一个世纪，这里实际上运作成了一种修道院与监狱的混合体——直到1948年，共产党政府出于政治原因将其彻底关闭。1989年后，受损的修道院逐渐得到修复，1996年，修女们终于重新回归她们最初的使命：照顾病人、穷人和社会边缘群体。如今，这座养老院每年治疗约500名病患，还开设了一处日间老年活动中心——而且颇为难得的是，这里至今仍保留着一个女性服刑人员的分部，让它那段不可思议的历史仍留有一线延续。
-
-🥚 彩蛋：捷克教会历史的档案里记着这样一笔：一座天主教修道院，近一个世纪里悄悄运营着一座得到国家认可的女子监狱，修女们在曾经住满从眼疾中康复的孤儿的牢房里，监督着缝纫和制绳工坊的运作。布拉格能有这么一份"住客名单"的建筑，恐怕找不出几栋。`,
+🎁 彩蛋：布拉格很少有建筑住过这么五花八门的人：孤儿、由修女看管的女犯，如今是病人和老人。这一切当中，同一个修女会一次又一次回到这里，照料那些被别人抛下的人。`,
     },
   },
   {
@@ -5182,29 +5218,21 @@ Budova má i sama neobvyklou minulost. Byla založena v 80. letech 19. století 
     xpReward: 20,
     wikipediaUrl: '',
     description: {
-      en: `Brave adventurer, welcome to Park Sacré Coeur! Tucked behind a Smíchov shopping centre, this quiet green pocket has one of Prague's more unexpected origin stories: it began life in 1872 as the private grounds of a girls' convent school for aristocratic daughters, planted where vineyards once grew.
+      en: `Park Sacré Coeur is a quiet green space in Smíchov, tucked behind a shopping centre near Anděl. It began in the 19th century as the private garden of a convent school for girls from noble and wealthy families.
 
-The park formed part of a much larger complex built for the French Dames du Sacré Coeur congregation, funded partly by Dowager Empress Marie Anna herself and designed by architect Václav Láska on land that had belonged to Count Clary and industrialist Riedl von Riedelstein. When the German-speaking nuns left for Austria and Germany after 1919, the buildings passed into state hands, and the park that once belonged exclusively to convent pupils gradually opened up to the neighbourhood around it.
+In 1872 the French congregation of the Sisters of the Sacred Heart, an order devoted to educating girls, opened a convent and boarding school here, on land that had once been vineyards. The complex was built with support from the imperial family and designed by the architect Václav Láska, and its garden served the pupils. After the First World War the nuns left, and the buildings passed to the state and were used by various institutions. The garden slowly declined until it was restored and opened to the public in 2004, with paths, lawns and a children's playground.
 
-Left to decay for decades under a string of state institutions using the surrounding buildings, the park was finally revitalised in 2004 with a proper children's playground — meaning the grounds that once taught French and religion to girls from noble families now mostly host toddlers, dog walkers, and the occasional weekend DJ set nearby.
+🎁 Bonus: Locals like to say it is the park you can walk into straight from a shopping mall: a few steps take you from bright shop windows to the quiet garden where, a century and a half ago, convent girls learned French and needlework.`,
+      cz: `Park Sacré Coeur je klidný kousek zeleně na Smíchově, schovaný za obchodním centrem u Anděla. Začínal v 19. století jako soukromá zahrada klášterní školy pro dívky ze šlechtických a zámožných rodin.
 
-🥚 Easter Egg: Locals sometimes describe this place as the park you can walk straight into from inside a shopping mall — a slightly surreal transition from fluorescent retail lighting to convent-garden greenery in about ten steps, with more than a century of aristocratic education history sitting quietly underfoot the whole way.`,
+Roku 1872 tu francouzská kongregace sester Nejsvětějšího Srdce, řád věnující se výchově dívek, otevřela klášter a internátní školu na pozemcích, kde kdysi bývaly vinice. Areál vznikl s podporou císařské rodiny podle návrhu architekta Václava Lásky a jeho zahrada sloužila žačkám. Po první světové válce sestry odešly a budovy přešly na stát a užívaly je různé instituce. Zahrada pomalu chátrala, až byla roku 2004 obnovena a zpřístupněna veřejnosti s cestami, trávníky a dětským hřištěm.
 
-      cz: `Statečný dobrodruhu, vítej v parku Sacré Coeur! Schovaný za smíchovským obchodním centrem, tenhle tichý kousek zeleně má jeden z neočekávanějších pražských vznikových příběhů: svůj život začal v roce 1872 jako soukromý pozemek dívčí klášterní školy pro dcery šlechtických rodů, vysázený tam, kde dřív bývaly vinice.
+🎁 Bonus: Místní rádi říkají, že je to park, do kterého můžete vejít rovnou z obchodního centra: pár kroků vás dovede od zářivých výloh do tiché zahrady, kde se před půldruhým stoletím klášterní žačky učily francouzsky a vyšívat.`,
+      zh: `圣心公园是斯米霍夫一片安静的绿地，藏在安德尔附近一座购物中心的后面。它始于19世纪，原是一所为贵族和富家女孩开办的修道院学校的私家花园。
 
-Park tvořil součást mnohem většího komplexu postaveného pro francouzskou kongregaci Dames du Sacré Coeur, částečně financovaného přímo vdovou po císaři Marií Annou a navrženého architektem Václavem Láskou na pozemcích, které kdysi patřily hraběti Clarymu a průmyslníkovi Riedlovi z Riedelsteinu. Když po roce 1919 německy mluvící jeptišky odešly do Rakouska a Německa, budovy přešly do rukou státu a park, který dřív patřil výhradně klášterním žačkám, se postupně otevřel okolní čtvrti.
+1872年，致力于女子教育的法国圣心修女会在这片原本是葡萄园的土地上开设了一座修道院和寄宿学校。建筑群在皇室的资助下由建筑师瓦茨拉夫·拉斯卡设计，花园供女学生们使用。一战后修女们离开，建筑归了国家，先后由多家机构使用。花园渐渐荒芜，直到2004年才修复并向公众开放，有小路、草坪和儿童游乐场。
 
-Ponechaný desítky let napospas chátrání pod řadou státních institucí sídlících v okolních budovách, byl park konečně revitalizován v roce 2004, kdy tu přibylo pořádné dětské hřiště — takže pozemky, kde se dřív dívky ze šlechtických rodin učily francouzsky a nábožensky, dnes hostí především batolata, venčené psy a občas víkendový DJ set nablízku.
-
-🥚 Velikonoční vajíčko: Místní o tomhle místě někdy mluví jako o parku, do kterého se dá vejít rovnou z nákupního centra — trochu surreálný přechod od zářivkového osvětlení obchodů k zeleni klášterní zahrady během deseti kroků, přičemž víc než století šlechtické výchovy leží celou dobu tiše pod nohama.`,
-
-      zh: `勇敢的冒险家，欢迎来到圣心公园（Park Sacré Coeur）！这片藏在斯米霍夫某座购物中心背后的安静绿地，拥有布拉格最出人意料的"出身故事"之一：它诞生于1872年，最初是一所贵族女子修道院学校的私人庭院，种植在曾经是葡萄园的土地上。
-
-这座公园曾是一个规模大得多的建筑群的一部分，专为法国"耶稣圣心女修会"（Dames du Sacré Coeur）而建，部分资金来自太后玛丽亚·安娜本人，由建筑师瓦茨拉夫·拉斯卡（Václav Láska）设计，所在地原属克拉里伯爵（Count Clary）与实业家里德尔·冯·里德尔施泰因（Riedl von Riedelstein）。1919年后，说德语的修女们陆续离开前往奥地利和德国，这些建筑转归国家所有，而这座曾经只属于修道院女学生的花园，也逐渐向周边社区开放。
-
-在随后的数十年里，随着周边建筑被各种国家机构占用，公园一度荒废，直到2004年才真正得到修复，并新建了一个正规的儿童游乐场——于是，这片曾经教导贵族家庭女孩法语与宗教课程的土地，如今主要迎来的是蹒跚学步的孩子、遛狗的居民，以及偶尔在附近举办的周末DJ活动。
-
-🥚 彩蛋：当地人有时会把这里形容为"可以直接从商场里走进去的公园"——从荧光灯照明的零售空间，到修道院花园般的绿意，中间大概只隔着十步路，这种转换略带超现实感，而脚下则静静地叠压着一个多世纪的贵族教育史。`,
+🎁 彩蛋：当地人爱说这是一座可以直接从商场走进去的公园：几步路就从明亮的橱窗走进了安静的花园，一个半世纪前，修道院的女学生们就在这里学法语、做针线。`,
     },
   },
   {
@@ -6835,29 +6863,21 @@ Je to ulice, jejíž jméno nikdy nezpychlo, ani když kolem ní zpychly budovy 
     xpReward: 20,
     wikipediaUrl: '',
     description: {
-      en: `Brave adventurer, welcome to Lighthouse Towers! Rising on reclaimed ground at the old Holešovice port, right where traffic funnels onto the Libeň Bridge, these two 80-metre, nineteen-storey towers became the unofficial flagship of the whole harbourside district's transformation from working port to office skyline.
+      en: `Lighthouse Towers is an office complex on the edge of the old Holešovice port, near the approach to Libeň Bridge. Its glass tower, about 80 metres tall, was one of the first signs of the transformation of the old riverside industrial area into a business district.
 
-Built between 2001 and 2004, the complex now consists of a taller Building A and a shorter three-storey Building B, together offering roughly 21,000 square metres of fully air-conditioned, open-plan office space arranged around a representative central reception staffed around the clock. As one of the tallest structures in the neighbourhood, the towers deliver genuinely wide-reaching views over the Vltava and the surrounding rooftops — a fairly literal payoff for a building whose name promises exactly that kind of vantage point.
+The complex was built between 2001 and 2004 and consists of a nineteen-storey tower and a lower building beside it, with about 21,000 square metres of offices. From the upper floors there are wide views over the Vltava, Holešovice, Libeň and Karlín. The towers stand where the busy port of Holešovice once handled coal, timber and grain, and since their completion the whole surrounding riverside has gradually filled with new offices and flats.
 
-Its location matters as much as its height: standing precisely where the former Holešovice port met the approach to the Libeň Bridge, the complex became something of a symbolic gateway, marking the point where an old industrial waterfront visibly gave way to a new business district.
+🎁 Bonus: A building named "Lighthouse" stands right at the mouth of the old river harbour, where barges once needed guidance into port. The name is a quiet nod to the site's working past, even if no ship has needed it in decades.`,
+      cz: `Lighthouse Towers je kancelářský komplex na okraji starého holešovického přístavu, nedaleko nájezdu na Libeňský most. Jeho skleněná věž, vysoká asi 80 metrů, byla jedním z prvních znamení proměny staré průmyslové oblasti u řeky v obchodní čtvrť.
 
-🥚 Easter Egg: A building named "Lighthouse" sits at the exact spot where river traffic once entered Prague's working port — meaning the name is a fairly deliberate architectural pun on a site that used to genuinely need something to guide boats safely in.`,
+Komplex byl postaven v letech 2001 až 2004 a tvoří ho devatenáctipodlažní věž a nižší budova vedle ní s asi 21 000 metry čtverečními kanceláří. Z horních pater jsou široké výhledy na Vltavu, Holešovice, Libeň a Karlín. Věže stojí tam, kde kdysi rušný holešovický přístav překládal uhlí, dřevo a obilí, a od jejich dokončení se celé okolní nábřeží postupně zaplnilo novými kancelářemi a byty.
 
-      cz: `Statečný dobrodruhu, vítej u Lighthouse Towers! Tyčící se na navrácené půdě bývalého holešovického přístavu, přesně tam, kde se doprava vlévá na Libeňský most, staly se tyhle dvě osmdesátimetrové, devatenáctipodlažní věže neoficiální vlajkovou lodí proměny celé přístavní čtvrti z pracovního přístavu na kancelářské panorama.
+🎁 Bonus: Budova jménem „Maják“ stojí přímo u ústí starého říčního přístavu, kam kdysi čluny potřebovaly navést. Jméno tiše připomíná pracovní minulost místa, i když ho žádná loď už desítky let nepotřebovala.`,
+      zh: `灯塔大厦是霍勒绍维采老港边上、利本大桥引道附近的一组办公建筑。它约80米高的玻璃塔楼，是这片沿河老工业区转型为商务区最早的标志之一。
 
-Postavený v letech 2001 až 2004, tvoří komplex dnes vyšší budova A a nižší třípodlažní budova B, které dohromady nabízejí zhruba 21 000 metrů čtverečních plně klimatizovaných open-space kancelářských ploch uspořádaných kolem reprezentativní centrální recepce s nepřetržitou ostrahou. Jako jedna z nejvyšších staveb ve čtvrti nabízejí věže opravdu široké výhledy na Vltavu a okolní střechy — dost doslovná odměna pro budovu, jejíž jméno slibuje přesně tenhle typ rozhledu.
+建筑群在2001年至2004年间建成，由一座十九层的塔楼和旁边一栋较矮的楼组成，共有约两万一千平方米的办公空间。从高层可以远眺伏尔塔瓦河、霍勒绍维采、利本和卡尔林。大厦所在的地方，从前是繁忙的霍勒绍维采港装卸煤炭、木材和粮食的地方，大厦落成后，周围整片河岸逐渐被新的办公楼和住宅填满。
 
-Její poloha je stejně důležitá jako výška: komplex, stojící přesně v místě, kde bývalý holešovický přístav navazoval na příjezd k Libeňskému mostu, se stal jakousi symbolickou branou, označující bod, kde starý industriální břeh viditelně ustoupil nové byznysové čtvrti.
-
-🥚 Velikonoční vajíčko: Budova pojmenovaná "Lighthouse" (maják) stojí přesně v místě, kudy kdysi vplouvala říční doprava do pracovního pražského přístavu — jméno je tak vlastně docela záměrná architektonická slovní hříčka na místě, které kdysi opravdu potřebovalo něco, co by bezpečně navádělo lodě dovnitř.`,
-
-      zh: `勇敢的冒险家，欢迎来到灯塔大厦（Lighthouse Towers）！这两座高80米、共十九层的塔楼，矗立在旧霍勒绍维采港的填筑地上，恰好位于车流汇入利本大桥（Libeň Bridge）的入口处，已成为整个滨河街区从繁忙港口蜕变为办公天际线的非官方"旗舰"。
-
-这片建筑群建于2001年至2004年间，如今由较高的A栋与较矮的三层B栋组成，共提供约21,000平方米、全空调开放式办公空间，环绕着一座配有24小时安保、颇具代表性的中央前台。作为这片街区最高的建筑之一，这两座塔楼确实提供了极为开阔的视野，可俯瞰伏尔塔瓦河与周边的屋顶天际线——对于一栋名字本身就承诺了这种制高点的建筑来说，这份回报可谓相当"名副其实"。
-
-它的选址与高度同样重要：这片建筑群恰好矗立在昔日霍勒绍维采港与通往利本大桥入口交汇之处，因而具备了某种象征意义上的"门户"地位，标志着昔日的工业河岸，正在此处明显让位于崭新的商务街区。
-
-🥚 彩蛋：一栋名为"灯塔"（Lighthouse）的建筑，恰好矗立在昔日河运船只驶入布拉格港口的入口处——这个名字，几乎可以算是对这片曾经真正需要有东西为船只导航的场地，所开的一句相当刻意的建筑双关语。`,
+🎁 彩蛋：一栋名叫“灯塔”的楼，就立在老河港的入口处，那里当年的驳船需要引导才能进港。这个名字悄悄致敬了这个地方的劳作往事，尽管几十年来已经没有哪条船需要它了。`,
     },
   },
   {
@@ -7164,29 +7184,21 @@ Vznikla jako náhrada staré čistírny v Bubenči na druhé straně kanálu, kt
     xpReward: 20,
     wikipediaUrl: '',
     description: {
-      en: `Brave adventurer, welcome to Visionary! Most office buildings are content with a decent lobby and free coffee — this one decided the roof needed a full running track, making it the first administrative building in continental Europe to offer employees a lap or two above the traffic instead of on it.
+      en: `Visionary is an office building near the Nádraží Holešovice metro station, completed in 2018. Designed with a strong focus on the health and comfort of the people who work in it, it is best known for having a running track on its roof.
 
-Designed by Jakub Cigler Architekti and completed in 2018 at the corner of Plynární and Argentinská streets near Nádraží Holešovice metro station, the H-shaped building offers 22,400 square metres of space across seven above-ground floors, including 20,000 square metres of office space and 2,300 square metres of retail. It was purchased shortly after completion by Austrian firm CA Immo for €68 million, and now belongs to Czech company Conseq. The building holds LEED Platinum green certification and was the first in the Czech Republic to earn the WELL Gold "healthy office" standard, cutting electricity use by 43 percent compared to typical buildings and running entirely on wind and biomass power.
+The building was designed by the studio Jakub Cigler Architekti and stands at the corner of Plynární and Argentinská streets, in the area of former industrial land in Holešovice that is being transformed into a new urban quarter. It has seven floors with about 20,000 square metres of offices and shops on the ground floor, as well as a nursery and other facilities for employees. It was among the first buildings in the Czech Republic to receive the WELL certificate for healthy workplaces, alongside the top LEED Platinum rating for sustainable design.
 
-Between the rooftop running track and the on-site nursery, the building reads less like a conventional office block and more like an attempt to answer a fairly specific question: what if going to work didn't require leaving behind everything that makes a normal day feel liveable?
+🎁 Bonus: The rooftop running track was among the first of its kind on an office building in Europe. Somewhere above Holešovice, office workers jog laps in their lunch break directly above the desks they will return to afterwards.`,
+      cz: `Visionary je kancelářská budova u stanice metra Nádraží Holešovice, dokončená roku 2018. Navržená s velkým důrazem na zdraví a pohodlí lidí, kteří v ní pracují, je nejznámější tím, že má na střeše běžeckou dráhu.
 
-🥚 Easter Egg: This was the first office building on the entire European mainland to put a running track on its roof — meaning somewhere in Holešovice, office workers have been jogging in circles directly above their own desks since 2018, and the building's name suggests someone saw that coming.`,
+Budovu navrhl ateliér Jakub Cigler Architekti a stojí na rohu Plynární a Argentinské ulice v oblasti bývalých průmyslových pozemků v Holešovicích, která se mění v novou městskou čtvrť. Má sedm podlaží s asi 20 000 metry čtverečními kanceláří a obchody v přízemí, k tomu dětskou skupinu a další zázemí pro zaměstnance. Patřila k prvním budovám v České republice, které získaly certifikát WELL pro zdravá pracoviště, vedle nejvyššího hodnocení LEED Platinum za udržitelný design.
 
-      cz: `Statečný dobrodruhu, vítej u Visionary! Většině kancelářských budov stačí slušná recepce a zdarma káva — tahle usoudila, že potřebuje na střeše pořádnou běžeckou dráhu, čímž se stala první administrativní budovou na kontinentální Evropě, která zaměstnancům nabízí kolečko nebo dvě nad dopravou místo v ní.
+🎁 Bonus: Běžecká dráha na střeše byla jednou z prvních svého druhu na kancelářské budově v Evropě. Někde nad Holešovicemi běhají úředníci o polední pauze kolečka přímo nad stoly, ke kterým se pak vrátí.`,
+      zh: `远见大厦是霍勒绍维采火车站地铁站附近的一栋办公楼，2018年落成。它的设计非常注重在里面工作的人的健康与舒适，最出名的是屋顶上有一条跑道。
 
-Navržená ateliérem Jakub Cigler Architekti a dokončená v roce 2018 na rohu ulic Plynární a Argentinská poblíž stanice metra Nádraží Holešovice, nabízí budova ve tvaru H 22 400 metrů čtverečních ploch na sedmi nadzemních podlažích, včetně 20 000 metrů čtverečních kanceláří a 2 300 metrů čtverečních obchodních prostor. Krátce po dokončení ji koupila rakouská firma CA Immo za 68 milionů eur a dnes patří české společnosti Conseq. Budova drží zelenou certifikaci LEED Platinum a jako první v České republice získala standard WELL Gold pro "zdravou kancelář", díky čemuž má o 43 % nižší spotřebu elektřiny než běžné budovy a jede výhradně na energii z větru a biomasy.
+大楼由雅库布·齐格勒建筑事务所设计，位于普林纳尔尼街和阿根廷街的拐角，霍勒绍维采这片原工业用地正在转变为一个新城区。大楼共七层，约两万平方米办公空间，底层是商铺，还有托儿所和其他员工设施。它是捷克最早获得WELL健康建筑认证的建筑之一，同时获得了可持续设计的最高等级LEED铂金认证。
 
-Mezi běžeckou dráhou na střeše a mateřskou školkou v areálu působí budova míň jako klasický kancelářský blok a víc jako pokus odpovědět na docela konkrétní otázku: co kdyby chození do práce neznamenalo opustit všechno, co dělá normální den snesitelným?
-
-🥚 Velikonoční vajíčko: Šlo o vůbec první kancelářskou budovu na celé kontinentální Evropě, která si na střechu dala běžeckou dráhu — někde v Holešovicích tak od roku 2018 zaměstnanci běhají kolečka přímo nad vlastními stoly, a jméno budovy naznačuje, že to někdo dokázal předvídat.`,
-
-      zh: `勇敢的冒险家，欢迎来到远见大厦（Visionary）！大多数办公楼有个体面的大堂、免费咖啡就心满意足了——这栋楼却决定在屋顶修建一条完整的跑道，成为整个欧洲大陆第一座让员工可以"跑赢车流、而非置身其中"的办公建筑。
-
-这栋H形建筑由雅库布·齐格勒建筑事务所（Jakub Cigler Architekti）设计，2018年在普利纳尔尼街（Plynární）与阿根廷街（Argentinská）的转角落成，紧邻霍勒绍维采地铁站，地上七层，总面积达22,400平方米，其中办公面积20,000平方米，商业面积2,300平方米。建成后不久，这栋楼便被奥地利公司CA Immo以6800万欧元收购，如今归属于捷克公司Conseq旗下。这栋建筑获得了LEED铂金绿色认证，也是捷克首座获得WELL金级"健康办公"标准认证的建筑，其用电量比同类建筑低43%，且完全采用风能与生物质能供电。
-
-在屋顶跑道与厂内托儿所之间，这栋建筑读起来不太像一座传统的办公楼，更像是在尝试回答一个相当具体的问题：如果去上班不必因此放弃让日常生活变得可以忍受的一切，那会怎样？
-
-🥚 彩蛋：这是整个欧洲大陆第一座在屋顶设置跑道的办公建筑——也就是说，自2018年起，霍勒绍维采的某个角落，一直有上班族绕着自己的办公桌头顶跑圈，而这栋楼的名字"Visionary"（远见者），似乎早已预见到了这一切。`,
+🎁 彩蛋：屋顶跑道是欧洲办公楼里最早的此类设施之一。在霍勒绍维采上空的某处，上班族们利用午休跑圈，脚下正是他们待会儿要回去的办公桌。`,
     },
   },
   {
@@ -7714,29 +7726,21 @@ Vinice pokrývaly tento svah už na počátku 16. století a roku 1584 tu stála
     xpReward: 20,
     wikipediaUrl: '',
     description: {
-      en: `Brave adventurer, welcome to the Chapel of St. Michael the Archangel! Built by a gingerbread maker on the grounds of a former vineyard homestead, this small Baroque chapel has quietly survived state atheism, Academy of Sciences ownership, and a full early-21st-century reconstruction to remain a genuine working chapel today.
+      en: `The Chapel of St Michael the Archangel is a small Baroque chapel in Dejvice, standing in the grounds of the old Pernikářka estate. It was built at the end of the 17th century by a family of gingerbread makers, and after a careful restoration it is again a working chapel.
 
-The story begins in the mid-17th century, when Old Town merchant Václav Doležal — a perníkář, or gingerbread maker, by trade — bought the former vineyard and its homestead, later named Pernikářka after his profession. Several more gingerbread masters owned the property before a Baroque chapel finally went up on the estate grounds in 1691, consecrated on 6 October 1693. Until 1771 it was spiritually administered by the St. Vitus Chapter, then handed over to the parish priest of St. Matthew's. From the 1950s onward, the Czechoslovak Academy of Sciences took over the neighbouring Pernikářka homestead for its Institute of Experimental Botany, and the chapel was listed as a cultural monument in 1958. Ownership finally transferred to the city in 2008, triggering a complete 2009–2010 reconstruction that included new ceremonial lighting, and the chapel was reconsecrated on 29 September 2010 by Dejvice parish priest Krzysztof Tomasz Łabędź. Architecturally, it's a Baroque oval with a niche for the altar, capped by a dome-shaped vault and a small lantern tower.
+In the mid-17th century the Old Town merchant Václav Doležal, a gingerbread maker by trade, bought a former vineyard and farmstead here, which was later named Pernikářka, from the Czech word for a gingerbread maker. Several more gingerbread masters owned the property, and in 1691 a Baroque chapel was built in its grounds and consecrated in 1693. It has an oval plan with an altar niche, a domed vault and a small lantern on top. Later it was cared for by the parish of St Matthias in Šárka. From the 1950s the estate belonged to an institute of the Academy of Sciences, and the chapel slowly declined. In 2008 it passed to the city, and after reconstruction in 2009 and 2010 it was consecrated again.
 
-It's a small, quietly persistent building: named for a warrior archangel, but surviving three and a half centuries mostly through patient administrative handovers rather than anything resembling combat.
+🎁 Bonus: This chapel owes its existence to the profits of a 17th-century gingerbread business. Prague's famous honey gingerbread, decorated with icing, was a valued craft, and here it paid for a little house of prayer that has lasted more than three centuries.`,
+      cz: `Kaple sv. Michaela archanděla je malá barokní kaple v Dejvicích, stojící v areálu staré usedlosti Pernikářka. Postavila ji koncem 17. století rodina perníkářů a po pečlivé obnově je opět živou kaplí.
 
-🥚 Easter Egg: This chapel takes its name from an estate nicknamed after gingerbread-making, meaning one of Prague's more obscure surviving Baroque chapels owes its entire existence to a 17th-century pastry business rather than anything more conventionally sacred.`,
+V polovině 17. století koupil staroměstský měšťan Václav Doležal, povoláním perníkář, zdejší bývalou vinici a usedlost, které se později začalo říkat Pernikářka. Usedlost vlastnilo několik dalších perníkářských mistrů a roku 1691 byla v jejím areálu postavena barokní kaple, vysvěcená roku 1693. Má oválný půdorys s oltářní nikou, kupolovitou klenbu a malou lucernu nahoře. Později o ni pečovala farnost sv. Matěje v Šárce. Od 50. let patřila usedlost ústavu Akademie věd a kaple pomalu chátrala. Roku 2008 přešla na město a po rekonstrukci v letech 2009 a 2010 byla znovu vysvěcena.
 
-      cz: `Statečný dobrodruhu, vítej u kaple svatého Michaela archanděla! Postavená perníkářem na pozemcích bývalé viniční usedlosti, tahle malá barokní kaple tiše přežila státní ateismus, vlastnictví Akademie věd i kompletní rekonstrukci na počátku 21. století a dodnes zůstává skutečně fungující kaplí.
+🎁 Bonus: Tahle kaple vděčí za svou existenci zisku z perníkářského řemesla 17. století. Pražský medový perník zdobený polevou byl ceněným řemeslem a tady zaplatil malý dům modlitby, který vydržel víc než tři století.`,
+      zh: `圣米迦勒天使长小教堂是德伊维采一座小小的巴洛克礼拜堂，立在老佩尼卡日卡庄园里。它由一个做姜饼的家族在17世纪末建造，经过精心修复，如今又成了一座正常使用的礼拜堂。
 
-Příběh začíná v polovině 17. století, kdy staroměstský kupec Václav Doležal — perníkář z povolání — koupil bývalou vinici s usedlostí, později pojmenovanou Pernikářka podle jeho řemesla. Nemovitost pak vlastnilo ještě několik dalších perníkářských mistrů, než na pozemcích usedlosti konečně v roce 1691 vyrostla barokní kaple, vysvěcená 6. října 1693. Až do roku 1771 ji duchovně spravovala svatovítská kapitula, poté ji převzal farář od svatého Matěje. Od 50. let 20. století převzala sousední usedlost Pernikářku Československá akademie věd pro svůj Ústav experimentální botaniky a kaple byla v roce 1958 zapsána jako kulturní památka. Vlastnictví se konečně v roce 2008 přeneslo na město, což spustilo kompletní rekonstrukci v letech 2009–2010 včetně nového slavnostního osvětlení, a kaple byla znovu vysvěcena 29. září 2010 dejvickým farářem Krzysztofem Tomaszem Łabędźem. Architektonicky jde o barokní oválnou stavbu s výklenkem pro oltář, zaklenutou kupolovitou klenbou s malou lucernovou věžičkou.
+17世纪中叶，老城商人、以做姜饼为业的瓦茨拉夫·多莱扎尔买下了这里原来的葡萄园和农庄，后来这里就被叫作“佩尼卡日卡”，取自捷克语的“姜饼匠”。此后又有几位姜饼师傅拥有过这处产业，1691年庄园里建起了一座巴洛克礼拜堂，1693年祝圣。它平面呈椭圆形，有一个祭坛壁龛、一个穹顶和顶上的小采光亭。后来由沙尔卡的圣马提亚堂区照管。从50年代起，庄园归科学院的一个研究所所有，礼拜堂渐渐破败。2008年它转归市政府，2009年和2010年修复后重新祝圣。
 
-Je to malá, tiše vytrvalá budova: pojmenovaná po bojovném archandělovi, ale přežívající tři a půl století hlavně trpělivými administrativními předávkami, ne ničím, co by připomínalo boj.
-
-🥚 Velikonoční vajíčko: Tahle kaple nese jméno usedlosti přezdívané podle pečení perníku — jedna z nejobskurnějších dochovaných pražských barokních kaplí tak vděčí za celou svou existenci sedmnáctistoletému cukrářskému byznysu spíš než čemukoli obvykleji posvátnému.`,
-
-      zh: `勇敢的冒险家，欢迎来到圣米迦勒天使长小教堂！这座小巧的巴洛克教堂，由一位姜饼师傅建于一座昔日葡萄园庄园的土地之上，历经国家无神论时期、科学院的产权归属，以及21世纪初的全面重建，如今依然是一座真正在运作的教堂。
-
-故事始于17世纪中叶，老城商人瓦茨拉夫·多勒扎尔（Václav Doležal）——一位以制作姜饼为业的匠人——买下了这片旧葡萄园及其庄园，后来庄园便以他的行业得名"佩尔尼卡日卡"（Pernikářka，意为"姜饼庄园"）。此后又有几位姜饼师傅先后拥有这片产业，直到1691年，庄园土地上终于建起了一座巴洛克教堂，并于1693年10月6日举行祝圣仪式。直到1771年，教堂一直由圣维特主教座堂议会负责管理，此后转交给圣马太堂区神父。自1950年代起，捷克斯洛伐克科学院接管了邻近的佩尔尼卡日卡庄园，用作实验植物学研究所；教堂本身则于1958年被列入文物保护名录。产权最终于2008年移交给市政府，由此引发了2009年至2010年间的一次全面重建，其中包括新增的礼仪照明系统；2010年9月29日，教堂由德伊维采堂区神父克日什托夫·托马什·瓦本济（Krzysztof Tomasz Łabędź）重新祝圣。从建筑上看，这是一座巴洛克风格的椭圆形建筑，设有供奉祭坛的壁龛，顶部覆盖穹顶式拱顶，配有一座小型灯笼式塔楼。
-
-这是一座小巧却顽强存续的建筑：以一位征战天使长之名命名，却在三个半世纪的岁月里，主要靠着一次次耐心的行政移交，而非任何类似战斗的经历，得以延续至今。
-
-🥚 彩蛋：这座教堂的名字，源自一座以"制作姜饼"而得名的庄园——布拉格现存最为冷门的巴洛克教堂之一，其全部存在的理由，竟然更多归功于一门17世纪的糕点生意，而非什么更符合常规意义的神圣渊源。`,
+🎁 彩蛋：这座礼拜堂的存在，要归功于一门17世纪的姜饼生意。布拉格那种淋着糖霜的蜂蜜姜饼是一门受人看重的手艺，在这里，它出钱建起了一座屹立了三百多年的小小祈祷之所。`,
     },
   },
   {
@@ -7780,29 +7784,21 @@ V polovině 19. století vlastnil Jan Wiltsch sousední usedlost Hercovku. Proda
     xpReward: 20,
     wikipediaUrl: '',
     description: {
-      en: `Brave adventurer, welcome to Strakovka! This Dejvice homestead spent its early life as a patchwork of vineyards with names like "Little Poplar" and "Lower Baker's Wife," survived a brickworks that then mysteriously vanished, and eventually ended up named after a cathedral provost who never actually lived to enjoy it for long.
+      en: `Strakovka is an old homestead in Dejvice, a modest Classicist house on the slopes that were once covered with vineyards. Its long history includes vineyards with homely names, a church official, a short-lived brickworks and an architect owner.
 
-Older vineyards known as Kozlovská, Topolka, Malá Topolka, and Dolejší Pekařka were merged into a single holding at the start of the 17th century, with the Koutská vineyard added in 1622 by Jakub Kozel of Peclinovec. Ownership passed through the highest court judge Jindřich Volf Berka of Dubá by 1646 and, by 1696, to Rozina Geismüllerová, whose second husband Jiří František Liebe of Liebenfels built the residential house, repaired the boundary wall, and constructed farm buildings, stables, and storage. The homestead finally took its lasting name from František Kazimír Strachovský, a St. Vitus canon and later provost, who bought it in 1750. Court builder Jan Klement Zobel purchased it in 1837 intending to build a brickworks, and after his death Gustav Hoffman actually built one in 1845 — though it disappeared entirely under the next owner. In 1907, the plots were divided and architect Richard Klenka bought the section containing the house. Today the classicist, single-storey building sits under a hipped roof with dormers, protected as a cultural monument since 1958.
+In the early 17th century several small vineyards here were joined into a single property. In the late 17th century its owners built a house, farm buildings and stables, turning the vineyard into a homestead. In 1750 it was bought by František Kazimír Strachovský, a canon and later provost of St Vitus Cathedral, and the homestead still carries a version of his name. In the 19th century a brickworks was set up on the land, but it did not last long. In 1907 the land was divided, and the part with the house was bought by the architect Richard Klenka. Today the single-storey house with a hipped roof is a protected cultural monument.
 
-It's a genuinely tangled property history for one modest building: vineyards, a churchman's surname, a short-lived brickworks, and an architect-owner, all layered into the same patch of Dejvice ground.
+🎁 Bonus: Around Prague, dozens of old homesteads like this one survive among villas and housing estates, many of them named after a long-forgotten owner. Strakovka is a small reminder that the hills of Dejvice were once vineyards long before they were a city district.`,
+      cz: `Strakovka je stará usedlost v Dejvicích, skromný klasicistní dům na svazích, které kdysi pokrývaly vinice. Do její dlouhé historie patří vinice s domáckými jmény, církevní hodnostář, krátce existující cihelna i majitel architekt.
 
-🥚 Easter Egg: This homestead is named after a St. Vitus provost who bought it in 1750 — but the building spent nearly a century afterward as agricultural land, a brickworks, and eventually private property owned by an architect, meaning the name outlived almost every actual use the estate was ever put to.`,
+Na počátku 17. století tu bylo několik malých vinic spojeno v jediný majetek. Koncem 17. století postavili jeho majitelé dům, hospodářské budovy a stáje a z vinice se stala usedlost. Roku 1750 ji koupil František Kazimír Strachovský, kanovník a později probošt svatovítské kapituly, a usedlost dodnes nese obměnu jeho jména. V 19. století tu vznikla cihelna, ta ale dlouho nevydržela. Roku 1907 byl pozemek rozparcelován a část s domem koupil architekt Richard Klenka. Dnes je přízemní dům s valbovou střechou kulturní památkou.
 
-      cz: `Statečný dobrodruhu, vítej u Strakovky! Tahle dejvická usedlost strávila svá raná léta jako mozaika vinic s názvy jako "Topolka" a "Dolejší Pekařka", přežila cihelnu, která pak záhadně zmizela, a nakonec skončila pojmenovaná po svatovítském proboštovi, který si ji stejně dlouho neužil.
+🎁 Bonus: Kolem Prahy přežívají desítky starých usedlostí, jako je tahle, mezi vilami a sídlišti, mnohé pojmenované po dávno zapomenutém majiteli. Strakovka je malou připomínkou toho, že dejvické kopce byly vinicemi dávno předtím, než se z nich stala městská čtvrť.`,
+      zh: `斯特拉科夫卡是德伊维采的一座老庄园，一栋朴素的古典主义房子，坐落在曾经长满葡萄的山坡上。它漫长的历史里，有名字很家常的葡萄园、一位教会显贵、一座昙花一现的砖厂，还有一位当建筑师的主人。
 
-Starší vinice zvané Kozlovská, Topolka, Malá Topolka a Dolejší Pekařka byly sloučeny do jednoho celku na počátku 17. století, přičemž v roce 1622 přidal Jakub Kozel z Peclinovce ještě vinici Koutskou. Vlastnictví přešlo do roku 1646 na nejvyššího zemského soudce Jindřicha Volfa Berku z Dubé a do roku 1696 na Rozinu Geismüllerovou, jejíž druhý manžel Jiří František Liebe z Liebenfelsu postavil obytný dům, opravil hraniční zeď a vystavěl hospodářské budovy, stáje a sklady. Usedlost nakonec dostala své trvalé jméno po Františku Kazimíru Strachovském, svatovítském kanovníkovi a později proboštovi, který ji koupil v roce 1750. Dvorní stavitel Jan Klement Zobel ji koupil v roce 1837 se záměrem postavit cihelnu, a po jeho smrti ji v roce 1845 skutečně postavil Gustav Hoffman — ta ale pod dalším majitelem úplně zmizela. V roce 1907 byly pozemky rozděleny a architekt Richard Klenka koupil část s domem. Dnes stojí klasicistní, jednopodlažní budova pod valbovou střechou s vikýři, chráněná jako kulturní památka od roku 1958.
+17世纪初，这里的几块小葡萄园被合并成一处产业。17世纪末，主人们盖起了住宅、农舍和马厩，葡萄园变成了庄园。1750年，圣维特主教座堂的教士、后来的教长弗朗蒂谢克·卡齐米尔·斯特拉霍夫斯基买下了它，庄园的名字至今还带着他名字的变体。19世纪这块地上办过一座砖厂，但没开多久。1907年土地被分割，带房子的那一块被建筑师理查德·克伦卡买下。如今这栋带四坡顶的平房是受保护的文物。
 
-Je to pro jednu skromnou budovu opravdu spletitá majetková historie: vinice, příjmení duchovního, krátce žijící cihelna a majitel-architekt, to vše navrstvené na stejný kousek dejvické půdy.
-
-🥚 Velikonoční vajíčko: Tahle usedlost nese jméno po svatovítském proboštovi, který ji koupil v roce 1750 — budova ale strávila skoro další století jako zemědělská půda, cihelna a nakonec soukromý majetek architekta, takže jméno přežilo skoro každé skutečné využití, ke kterému kdy usedlost sloužila.`,
-
-      zh: `勇敢的冒险家，欢迎来到斯特拉科夫卡庄园（Strakovka）！这座德伊维采庄园早年是一块由"小杨树园"（Malá Topolka）与"下佩卡日卡"（Dolejší Pekařka）等名字拼凑而成的葡萄园地块，此后又经历了一座莫名消失的砖窑，最终以一位甚至没能长久享用它的圣维特教堂座堂长的名字命名。
-
-科兹洛夫斯卡（Kozlovská）、托波尔卡（Topolka）、小托波尔卡（Malá Topolka）与下佩卡日卡等几片古老的葡萄园，于17世纪初被合并为一整块地产，1622年，雅库布·科泽尔（Jakub Kozel of Peclinovec）又将科乌茨卡葡萄园（Koutská）并入其中。到1646年，产权转归最高法院法官因德日赫·沃尔夫·贝尔卡（Jindřich Volf Berka of Dubá）所有；到1696年，又转归罗齐娜·盖斯米勒罗娃（Rozina Geismüllerová）名下，她的第二任丈夫日日·弗兰蒂谢克·利贝（Jiří František Liebe of Liebenfels）建造了住宅楼，修缮了界墙，并新建了农用建筑、马厩与仓库。这座庄园最终以弗兰蒂谢克·卡济米尔·斯特拉霍夫斯基（František Kazimír Strachovský）之名永久命名——他是圣维特教堂座堂咏礼司铎，后来晋升为座堂长，于1750年买下这座庄园。宫廷建筑师扬·克莱门特·佐贝尔（Jan Klement Zobel）于1837年买下这里，本打算建一座砖窑；他去世后，古斯塔夫·霍夫曼（Gustav Hoffman）于1845年真的建起了砖窑——但这座砖窑在下一任业主手中却彻底消失了。1907年，地块被分割，建筑师理查德·克伦卡（Richard Klenka）买下了带有主屋的那一部分。如今，这座古典主义风格的单层建筑，屋顶为带老虎窗的四坡顶，自1958年起被列为文物保护单位。
-
-对于一栋朴素的建筑来说，这段产权历史堪称错综复杂：葡萄园、一位神职人员的姓氏、一座昙花一现的砖窑，以及一位建筑师业主，全都层层叠加在这同一片德伊维采的土地之上。
-
-🥚 彩蛋：这座庄园以1750年买下它的一位圣维特座堂长命名——但此后近一个世纪里，这里先后被用作农田、砖窑，最终成为一位建筑师的私人产业，也就是说，这个名字"存活"的时间，几乎超过了这座庄园曾经历过的每一种实际用途。`,
+🎁 彩蛋：在布拉格周边，还有几十座像这样的老庄园夹在别墅和住宅区之间幸存下来，许多都以早已被遗忘的主人命名。斯特拉科夫卡小小地提醒人们，德伊维采的山坡在变成城区之前很久，曾是一片葡萄园。`,
     },
   },
   {
@@ -7885,23 +7881,21 @@ Usedlost vyrostla na místě starého vinného lisu. Koncem 17. století patřil
     xpReward: 10,
     wikipediaUrl: '',
     description: {
-      en: `Brave adventurer, welcome to Bohnická vyhlídka (Bohnice Viewpoint)! This unassuming meadow ledge above the Vltava manages something most of Prague's famous lookouts can't: it lines up both Prague Castle and the distant Petřín Tower in a single glance, with zero ticket booths, gift shops, or queues involved.
+      en: `The Bohnice Viewpoint is a meadow on the slope above the Vltava in the north of Prague, with a wide view along the river valley. There are no ticket booths or gift shops here, just grass, sky and one of the most open panoramas in the city.
 
-Climb the gentle slope above the river's right bank and the reward is a long view upstream past Baba, Sedlec, and Roztoky, following the Vltava as it bends its way north out of the city. On a clear day the castle silhouette appears from an angle almost nobody photographs, tiny and precise across the water, while Petřín's tower pokes up on the horizon in the opposite direction — proof that Prague's two most recognisable landmarks are, geometrically speaking, never all that far apart. The surrounding meadows are wide, gently sloped, and entirely unfussy: locals come to picnic, jog, fly kites, or just sit, and the whole area connects onward by bike path to the neighbouring Podhorská viewpoint and the wooded Bohnice valley below.
+From the edge of the meadow you look out over the deep valley of the Vltava as it leaves Prague and heads north, with the villas of Baba and the rocks of Sedlec on the opposite bank and the river winding toward Roztoky. On a clear day you can pick out Prague Castle in the distance, seen from an angle that few people ever photograph. The surrounding meadows are popular with locals for picnics, running, kite flying and simply sitting in the sun, and paths and bike routes lead on to other viewpoints and down into the wooded valleys of Bohnice and Troja.
 
-🥚 Easter Egg: Bohnice actually has two named viewpoints, cheerfully labelled A and B, standing close enough that you could walk between them in a couple of minutes — yet they face just different enough angles of the river bend that regular visitors will swear, entirely sincerely, that one has the better view.`,
+🎁 Bonus: Bohnice actually has two named viewpoints, close enough to walk between in a few minutes but facing slightly different stretches of the river. Regulars will tell you, quite seriously, that one of them has the better view, though they rarely agree which.`,
+      cz: `Bohnická vyhlídka je louka na svahu nad Vltavou na severu Prahy se širokým výhledem do říčního údolí. Nejsou tu žádné pokladny ani obchody se suvenýry, jen tráva, nebe a jedno z nejotevřenějších panoramat ve městě.
 
-      cz: `Statečný dobrodruhu, vítej na Bohnické vyhlídce! Tahle nenápadná travnatá terasa nad Vltavou dokáže věc, o kterou se většina slavných pražských vyhlídek ani nepokouší: do jednoho záběru vměstná Pražský hrad i vzdálenou Petřínskou rozhlednu, a to bez jediné pokladny, obchodu se suvenýry nebo fronty.
+Z okraje louky se díváte do hlubokého údolí Vltavy, která opouští Prahu a míří na sever, s vilami na Babě a sedleckými skalami na protějším břehu a řekou vinoucí se k Roztokám. Za jasného dne rozeznáte v dálce Pražský hrad z úhlu, který málokdo fotí. Okolní louky jsou oblíbené u místních na pikniky, běh, pouštění draků i obyčejné sezení na slunci a cesty a cyklotrasy vedou dál k dalším vyhlídkám a dolů do zalesněných údolí Bohnic a Troje.
 
-Stačí vyjít mírný svah nad pravým břehem řeky a odměnou je dlouhý výhled proti proudu, kolem Baby, Sedlce a Roztok, jak se Vltava klikatí na sever z města ven. Za jasného počasí se siluetka hradu objeví z úhlu, který skoro nikdo nefotí, drobná a přesná přes hladinu, zatímco na opačné straně obzoru vykukuje Petřínská věž — důkaz, že dvě nejznámější pražské dominanty od sebe geometricky vlastně nejsou tak daleko. Okolní louky jsou široké, mírně svažité a naprosto nenáročné: místní sem chodí na piknik, na běh, pouštět draky nebo si jen tak sednout, a celá oblast se cyklostezkou napojuje na sousední Podhorskou vyhlídku a zalesněné Bohnické údolí pod ní.
+🎁 Bonus: Bohnice mají vlastně dvě pojmenované vyhlídky, tak blízko, že mezi nimi přejdete za pár minut, ale každá hledí na trochu jiný úsek řeky. Štamgasti vám zcela vážně řeknou, že jedna z nich má lepší výhled, jen se málokdy shodnou, která.`,
+      zh: `波赫尼采观景台是布拉格北部伏尔塔瓦河上方山坡上的一片草地，可以眺望宽阔的河谷。这里没有售票亭，也没有纪念品店，只有草地、天空和全城最开阔的全景之一。
 
-🥚 Velikonoční vajíčko: Bohnice mají dokonce dvě pojmenované vyhlídky, vesele označené A a B, stojící tak blízko u sebe, že mezi nimi dojdete pěšky za pár minut — a přesto míří na řeku pod natolik odlišným úhlem, že místní stálí návštěvníci naprosto vážně tvrdí, že ta jejich je lepší.`,
+站在草地边上，你可以俯瞰伏尔塔瓦河离开布拉格、向北流去的深谷，对岸是巴巴的别墅和塞德莱茨的岩石，河水蜿蜒流向罗兹托基。天气晴朗时，还能分辨出远处的布拉格城堡，这个角度几乎没人拍过。周围的草地很受当地人欢迎，野餐、跑步、放风筝，或者就坐着晒太阳，小路和自行车道通往其他观景点，也通往波赫尼采和特罗亚林木葱郁的山谷。
 
-      zh: `勇敢的冒险家，欢迎来到波赫尼采观景台（Bohnická vyhlídka）！这片伏尔塔瓦河畔毫不起眼的草坡，做到了布拉格大多数知名观景点都懒得尝试的事：无需买票、不用排队、也没有纪念品商店，只站在一片朴素的草地上，就能同时望见布拉格城堡与远处的佩特任瞭望塔。
-
-沿着河右岸的缓坡往上走，换来的是一段沿伏尔塔瓦河向上游延伸的开阔视野，越过巴巴（Baba）、塞德莱茨（Sedlec）与罗兹托基（Roztoky），一路看着河水蜿蜒向北流出城外。天气晴朗时，城堡的轮廓会从一个几乎没人拍过的角度出现，小巧而清晰地立在水面对岸，而佩特任瞭望塔则在相反方向的地平线上探出头来——证明布拉格这两座最具辨识度的地标，从几何角度来说其实相距并不遥远。周围的草地宽阔、坡度平缓，气氛毫不讲究：本地人来这里野餐、慢跑、放风筝，或者干脆坐着发呆，整片区域还有自行车道通往邻近的波多尔斯卡观景台（Podhorská vyhlídka）与山下林木茂密的波赫尼采山谷。
-
-🥚 彩蛋：波赫尼采其实有两座正式命名的观景台，欢快地被叫作A点和B点，彼此距离近到走路几分钟就能到——可它们面对河湾的角度却微妙地不同，以至于常客们都会一本正经地坚持，自己常去的那座视野更好。`,
+🎁 彩蛋：波赫尼采其实有两个有名字的观景台，近得几分钟就能走到，但各自朝着河的不同段落。常客们会一本正经地告诉你，其中一个景色更好，只是他们很少能在“是哪个”上达成一致。`,
     },
   },
   {
@@ -8457,29 +8451,21 @@ Obchodní centrum tu stojí od dob výstavby sídliště. V 10. letech 21. stole
     xpReward: 50,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pam%C3%A1tn%C3%ADk_Lidice',
     description: {
-      en: `Brave adventurer, welcome to the Museum of the Lidice Memorial. Standing beside the eastern wing of the memorial's colonnade, about a hundred metres from the main Prague–Kladno road, this building holds the exhibition that turns the empty ground of Lidice into something visitors can actually walk through and understand.
+      en: `The museum of the Lidice Memorial stands beside the memorial area of Lidice, the village west of Prague that the Nazis destroyed on 10 June 1942. Its exhibition tells the story of the village, its people and its fate, and helps visitors understand the empty fields they see outside.
 
-The museum was first built in 1962 to a design by architect František Marek. Decades later, in 2005, it underwent an extensive reconstruction and expansion, and its current multimedia exhibition, titled "A nevinní byli vinni..." ("And the Innocent Were Guilty..."), opened in 2006 — a presentation that traces the fate of Lidice's inhabitants alongside the destruction and eventual reconstruction of the village itself, and one that has since received multiple awards. The building underwent yet another major renovation beginning in 2005 and continuing intermittently for years, focused on structural reinforcement and replacing the exhibition's audiovisual technology; it reopened most recently on 1 September 2022 with a modernised reception area and updated displays.
+The museum building was first opened in 1962 as part of the memorial complex, with a colonnade overlooking the site of the destroyed village. In the 2000s it was thoroughly rebuilt, and its present multimedia exhibition, titled "And the Innocent Were Guilty...", tells the story of the inhabitants of Lidice: the men shot at the Horák farm, the women deported to the Ravensbrück concentration camp, the children murdered at Chełmno or given to German families, and the few who survived and returned after the war. It also tells of the worldwide response and of the building of the new Lidice. The exhibition has received several awards and was most recently modernised in 2022.
 
-The institution's stated mission is deliberately narrow and permanent: to preserve, for good, the memory of the destruction of Lidice and the suffering of its people, murdered and deported by Nazi forces on 10 June 1942.
+🎁 Bonus: The exhibition's title recalls the false accusation used to justify the massacre: the occupiers claimed that the village was linked to the assassination of Reinhard Heydrich, though no such link was ever found. Its quiet rooms ask visitors to remember each of the people of Lidice by name.`,
+      cz: `Muzeum Památníku Lidice stojí vedle pietního území Lidic, obce západně od Prahy, kterou nacisté zničili 10. června 1942. Jeho expozice vypráví příběh obce, jejích lidí a jejich osudu a pomáhá návštěvníkům pochopit prázdná pole, která vidí venku.
 
-🥚 Easter Egg: The museum's exhibition title, "A nevinní byli vinni..." — "And the Innocent Were Guilty..." — is a direct, bitter echo of the fabricated justification the Nazi regime gave for destroying an entire village: that its residents were somehow complicit in Reinhard Heydrich's assassination, despite no evidence ever tying Lidice to the attack at all.`,
+Budova muzea byla poprvé otevřena roku 1962 jako součást památníku s kolonádou s výhledem na místo zničené obce. Ve 2000. letech byla důkladně přestavěna a dnešní multimediální expozice s názvem „A nevinní byli vinni...“ vypráví příběh lidických obyvatel: mužů zastřelených na Horákově statku, žen deportovaných do koncentračního tábora Ravensbrück, dětí zavražděných v Chełmnu nebo daných německým rodinám a těch několika, kteří přežili a po válce se vrátili. Vypráví také o celosvětové odezvě a o výstavbě nových Lidic. Expozice získala několik ocenění a naposledy byla modernizována roku 2022.
 
-      cz: `Statečný dobrodruhu, vítej v Muzeu Památníku Lidice. Stojící vedle východního křídla památníkové kolonády, asi sto metrů od hlavní silnice Praha–Kladno, tahle budova ukrývá expozici, která z prázdné lidické pláně dělá místo, jímž lze doopravdy projít a pochopit ho.
+🎁 Bonus: Název expozice připomíná falešné obvinění, kterým byl masakr ospravedlňován: okupanti tvrdili, že obec měla souvislost s atentátem na Reinharda Heydricha, žádná taková souvislost se ale nikdy nenašla. Tiché sály vyzývají návštěvníky, aby si každého z lidických obyvatel připomněli jménem.`,
+      zh: `利迪策纪念馆博物馆坐落在利迪策纪念地旁边，利迪策是布拉格以西的一个村庄，1942年6月10日被纳粹摧毁。博物馆的展览讲述这个村庄、它的人民和他们的命运，帮助参观者理解自己在外面看到的那片空旷的田野。
 
-Muzeum bylo poprvé postaveno v roce 1962 podle návrhu architekta Františka Marka. O desetiletí později, v roce 2005, prošlo rozsáhlou rekonstrukcí a rozšířením a jeho současná multimediální expozice s názvem "A nevinní byli vinni..." byla otevřena v roce 2006 — prezentace, která sleduje osudy lidických obyvatel spolu se zničením a následnou obnovou samotné obce, a která od té doby získala několik ocenění. Budova prošla ještě další velkou rekonstrukcí, zahájenou v roce 2005 a s přestávkami pokračující řadu let, zaměřenou na statické zpevnění a výměnu audiovizuální techniky expozice; naposledy se znovu otevřela 1. září 2022 s modernizovaným recepčním prostorem a aktualizovanými expozicemi.
+博物馆建筑最早在1962年作为纪念建筑群的一部分启用，有一道俯瞰被毁村庄旧址的柱廊。2000年代它经过彻底改建，现在的多媒体展览名为《无辜者被判有罪……》，讲述利迪策居民的故事：在霍拉克农庄被枪杀的男人们，被押往拉文斯布吕克集中营的女人们，在海乌姆诺被杀害或被送给德国家庭的孩子们，以及战后少数幸存归来的人。展览还讲述了世界各地的回应和新利迪策的建设。展览获得过多个奖项，最近一次现代化改造是在2022年。
 
-Deklarovaným posláním instituce je záměrně úzký a trvalý úkol: navždy uchovávat památku zničení Lidic a utrpení jejich obyvatel, zavražděných a deportovaných nacistickými silami 10. června 1942.
-
-🥚 Velikonoční vajíčko: Název muzejní expozice, "A nevinní byli vinni...", je přímou, hořkou ozvěnou vykonstruovaného zdůvodnění, které nacistický režim použil pro zničení celé obce: že její obyvatelé byli údajně zapojeni do atentátu na Reinharda Heydricha, ačkoli žádný důkaz Lidice s útokem nikdy nespojoval.`,
-
-      zh: `勇敢的冒险家，欢迎来到利迪策纪念馆博物馆。这座建筑坐落在纪念馆柱廊东翼旁，距离布拉格－克拉德诺主干道约一百米，馆内的展览让利迪策这片空旷的土地，变成了访客真正能够走入、能够理解的地方。
-
-博物馆最初建于1962年，由建筑师弗兰蒂谢克·马雷克（František Marek）设计。数十年后的2005年，馆舍经历了一次大规模的重建与扩建，如今的多媒体展览"无辜者被定罪……"（A nevinní byli vinni...）于2006年正式开放——这场展览呈现了利迪策居民的命运，也呈现了村庄被摧毁及其后重建的历程，此后曾多次获奖。这座建筑还经历了另一轮始于2005年、断断续续持续多年的重大翻修，重点在于结构加固与更换展览的视听设备；最近一次重新开放是在2022年9月1日，接待区与展陈内容均已完成现代化更新。
-
-这座机构所宣示的使命，刻意而坚定地保持单一而永久：永远保存利迪策被摧毁、以及其民众于1942年6月10日遭纳粹军队杀害与驱逐这段记忆。
-
-🥚 彩蛋：博物馆展览的名字"无辜者被定罪……"，正是对纳粹政权当年摧毁整座村庄时所编造的"理由"，一种直接而苦涩的回响——他们声称村民与刺杀莱因哈德·海德里希（Reinhard Heydrich）的行动有牵连，尽管从未有任何证据能将利迪策与那次袭击联系在一起。`,
+🎁 彩蛋：展览的标题让人想起为屠杀开脱的那个莫须有的罪名：占领者声称这个村子与莱因哈德·海德里希遇刺有关，可从来没有找到任何这样的关联。安静的展厅请参观者一个一个地记住利迪策居民的名字。`,
     },
   },
   {
@@ -9247,29 +9233,21 @@ V 9. století tu bylo opevněné sídlo prvních přemyslovských knížat. Kole
     xpReward: 10,
     wikipediaUrl: '',
     description: {
-      en: `Brave adventurer, welcome to the headquarters of the Czech Meat Processors Association!
+      en: `In an ordinary office building on Libušská Street in Písnice, on the southern edge of Prague, sits the Czech Meat Processors Association. It is not a castle or a monument, but a small reminder of how much invisible work goes into feeding a country.
 
-Somewhere in this unassuming Prague 4 office building, a small team quietly represents the collective interests of the nation's sausage-makers, butchers, and meat-processing plants — proving that not every Prague landmark needs a castle, a ghost, or a plaque to earn its place on the map.
+The association was founded in 1991, in the years when the centrally planned meat industry of communist Czechoslovakia was being broken up and privatised. It is a voluntary trade body representing companies and individuals that buy, process and sell meat and meat products, from large plants to small family butchers. It sets standards, comments on new rules and regulations, and represents the industry in talks with the government and the European Union.
 
-Founded in 1991, right as Czechoslovakia's centrally planned meat industry was being pried apart into private hands, the Český svaz zpracovatelů masa (Czech Meat Processors Association) is a voluntary trade body representing companies and individuals involved in buying, processing, and selling slaughtered animals, meat, and meat products. It operates out of a modest office on Libušská street in Písnice, a world away from Old Town crowds, quietly doing the unglamorous work that keeps an entire national industry functioning: setting standards, lobbying on regulation, and generally making sure Czech meat processing runs smoothly enough that most people never have to think about it at all.
+🎁 Bonus: The Czech Republic has trade associations for brewers, bakers, millers and dozens of other crafts, a whole quiet network of organisations behind everyday food. Next time you eat a sausage at a Prague market stall, remember that somewhere there is an office making sure it was made by the rules.`,
+      cz: `V obyčejné kancelářské budově v Libušské ulici v Písnici, na jižním okraji Prahy, sídlí Český svaz zpracovatelů masa. Není to hrad ani pomník, ale malá připomínka toho, kolik neviditelné práce stojí za tím, aby se země nasytila.
 
-🥚 Easter Egg: The Czech Republic has a national association for meat processors, one for brewers, one for bakers, and dozens more besides — an entire invisible bureaucracy of trade groups quietly keeping the country fed. This building is a monument to none of them in particular, and to all of them at once: the unglamorous administrative backbone behind every klobása you've ever eaten in Prague.`,
+Svaz byl založen roku 1991, v letech, kdy se centrálně řízený masný průmysl komunistického Československa rozpadal a privatizoval. Je dobrovolným oborovým sdružením, které zastupuje firmy i jednotlivce, kteří vykupují, zpracovávají a prodávají maso a masné výrobky, od velkých závodů po malá rodinná řeznictví. Stanovuje standardy, připomínkuje nové předpisy a zastupuje obor při jednáních s vládou a Evropskou unií.
 
-      cz: `Statečný dobrodruhu, vítej u sídla Českého svazu zpracovatelů masa!
+🎁 Bonus: Česko má oborové svazy pro pivovarníky, pekaře, mlynáře a desítky dalších řemesel, celou tichou síť organizací za každodenním jídlem. Až si příště dáte klobásu u pražského stánku, vzpomeňte si, že někde je kancelář, která hlídá, aby byla vyrobena podle pravidel.`,
+      zh: `在布拉格南缘皮斯尼采利布什斯卡街上一栋普通的办公楼里，设着捷克肉类加工者协会。它不是城堡，也不是纪念碑，却小小地提醒着人们，一个国家吃饱饭背后有多少看不见的工作。
 
-Někde v téhle nenápadné kancelářské budově na Praze 4 malý tým tiše zastupuje společné zájmy českých uzenářů, řezníků a masozpracujících podniků — důkaz, že ne každá pražská památka potřebuje hrad, strašidlo nebo pamětní desku, aby si zasloužila místo na mapě.
+协会成立于1991年，那时共产主义捷克斯洛伐克计划经济下的肉类工业正在被拆分和私有化。它是一个自愿加入的行业组织，代表收购、加工和销售肉类及肉制品的企业和个人，从大型工厂到家庭小肉铺都有。它制定标准，对新法规提出意见，在与政府和欧盟的谈判中代表这个行业。
 
-Český svaz zpracovatelů masa vznikl v roce 1991, přesně v době, kdy se centrálně plánovaný masný průmysl Československa rozpadal do soukromých rukou, a je dobrovolným profesním svazem zastupujícím firmy i jednotlivce zabývající se nákupem, zpracováním a prodejem jatečných zvířat, masa a masných výrobků. Sídlí ve skromné kanceláři na Libušské ulici v Písnici, o světy dál od davů na Staroměstském náměstí, a tiše vykonává nenápadnou práci, díky které funguje celé odvětví: stanovuje standardy, prosazuje zájmy v legislativě a v podstatě dohlíží na to, aby zpracování masa v Česku běželo tak hladce, že o něm většina lidí nikdy nemusí přemýšlet.
-
-🥚 Velikonoční vajíčko: Česko má národní svaz zpracovatelů masa, jeden pro pivovarníky, jeden pro pekaře a desítky dalších navrch — celou neviditelnou byrokracii profesních svazů, která tiše stará o to, aby země měla co jíst. Tahle budova není pomníkem žádnému z nich konkrétně, a přitom je pomníkem jim všem najednou: nenápadnou administrativní páteří za každou klobásou, kterou jsi kdy v Praze snědl.`,
-
-      zh: `勇敢的冒险家，欢迎来到捷克肉类加工者协会总部！
-
-在布拉格4区这栋毫不起眼的办公楼里，一支小小的团队正悄悄代表着全国香肠制造商、屠夫和肉类加工企业的共同利益——这证明了，并非每一个布拉格"地标"都需要一座城堡、一个鬼故事或一块纪念牌匾才配得上出现在地图上。
-
-捷克肉类加工者协会（Český svaz zpracovatelů masa）成立于1991年，正值捷克斯洛伐克计划经济下的肉类工业逐步转入私营手中的关键时期，它是一个自愿性质的行业协会，代表着从事屠宰动物、肉类加工及销售业务的企业和个人。协会办公地点位于皮斯尼采（Písnice）的利布什斯卡街（Libušská），距离老城广场的人潮世界完全是另一个宇宙，日复一日默默做着让整个行业得以正常运转的、毫不光鲜的工作：制定标准、参与法规游说，基本上确保捷克的肉类加工行业运转得足够顺畅，以至于大多数人压根不用去想它的存在。
-
-🥚 彩蛋：捷克有全国性的肉类加工者协会，也有酿酒商协会、面包师协会，以及数十个类似的行业组织——一整套悄悄维系着全国人民"有得吃"的隐形官僚体系。这栋大楼并不是专门纪念哪一个协会的丰碑，却同时是它们所有协会共同的丰碑：是你在布拉格吃过的每一根香肠背后，那条毫不起眼却真实存在的行政脊梁。`,
+🎁 彩蛋：捷克有酿酒师、面包师、磨坊主等几十个行业的协会，日常吃食背后有一整张静悄悄的组织网络。下次你在布拉格的小摊上吃香肠时，不妨想一想，某个地方有一间办公室，正确保它是按规矩做出来的。`,
     },
   },
   {
@@ -9965,23 +9943,21 @@ V baroku stavěla řada českých měst morové sloupy a sochy jako tuto na pod�
     xpReward: 30,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Masarykovo_n%C3%A1b%C5%99e%C5%BE%C3%AD',
     description: {
-      en: `Brave adventurer, welcome to Masaryk Embankment! A riverside boulevard that has been renamed so many times it practically needs a family tree — from an emperor, to a patriot, to a Communist president, to a Nazi executioner, and finally to the founder of Czechoslovakia himself.
+      en: `Masarykovo nábřeží is the riverside boulevard of the New Town, running along the Vltava from the National Theatre to Jirásek Bridge, opposite Slovanský ostrov. Its row of grand apartment houses from around 1900 makes it one of the finest Art Nouveau streets in Prague, and its name has changed with almost every regime of the 20th century.
 
-Before the nineteenth century this stretch along the Vltava's right bank, facing Slovanský ostrov, was unregulated riverfront lined with mills and tanneries. Once embanked, it was named Františkovo nábřeží after Emperor Francis I, then Riegrovo nábřeží from 1905. During the Nazi occupation it was briefly folded into "Vltavské nábřeží" before the entire riverside was renamed Reinhard Heydrich Ufer from 1942 to 1945. Postwar Czechoslovakia renamed it Gottwaldovo nábřeží in 1946, after the country's first Communist president, before it finally received its current name in 1990, honouring Tomáš Garrigue Masaryk.
+Before the 19th century this stretch of bank was lined with mills, tanneries and timber yards. Once the river was embanked, it was named after Emperor Francis I, then from 1905 after the politician František Ladislav Rieger. During the Nazi occupation it was renamed, and from 1942 it even bore the name of Reinhard Heydrich. In 1946 it was named after the communist leader Klement Gottwald, and only in 1990 did it receive its present name, after Tomáš Garrigue Masaryk, the founder of Czechoslovakia. Along it stand richly decorated apartment houses, the Hlahol choir building with its striking Art Nouveau facade, and the Mánes gallery on the water.
 
-🥚 Easter Egg: Within one relatively short stretch of riverbank, Prague managed to commemorate a Habsburg emperor, a Czech patriot politician, one of the chief architects of the Holocaust, and a Stalinist president — before settling, three name changes and a century later, on the country's founding democrat. Few streets anywhere carry quite that much twentieth-century baggage in their signage alone.`,
+🎁 Bonus: Few streets anywhere have honoured such a mixed company: a Habsburg emperor, a Czech patriot, one of the architects of the Holocaust, a Stalinist president and finally the country's founding democrat. The street signs alone tell the story of Czech 20th-century history.`,
+      cz: `Masarykovo nábřeží je nábřežní třída Nového Města, která se táhne podél Vltavy od Národního divadla k Jiráskovu mostu naproti Slovanskému ostrovu. Řada velkolepých činžovních domů z doby kolem roku 1900 z ní dělá jednu z nejkrásnějších secesních ulic v Praze a její jméno se měnilo s téměř každým režimem 20. století.
 
-      cz: `Statečný dobrodruhu, vítej na Masarykově nábřeží! Nábřeží u řeky, které bylo tolikrát přejmenováno, že by si skoro zasloužilo vlastní rodokmen — od císaře přes vlastence a komunistického prezidenta až po nacistického kata, a nakonec po zakladatele Československa.
+Před 19. stoletím lemovaly tento úsek břehu mlýny, koželužny a dřevařské sklady. Když bylo nábřeží zregulováno, dostalo jméno po císaři Františku I., od roku 1905 po politikovi Františku Ladislavu Riegrovi. Za nacistické okupace bylo přejmenováno a od roku 1942 dokonce neslo jméno Reinharda Heydricha. Roku 1946 bylo pojmenováno po komunistickém vůdci Klementu Gottwaldovi a teprve roku 1990 dostalo dnešní jméno po Tomáši Garriguovi Masarykovi, zakladateli Československa. Stojí podél něj bohatě zdobené činžovní domy, budova pěveckého spolku Hlahol s výrazným secesním průčelím a galerie Mánes na vodě.
 
-Do devatenáctého století bylo toto místo na pravém břehu Vltavy naproti Slovanskému ostrovu neregulovaným nábřežím lemovaným mlýny a jirchárnami. Po zregulování se jmenovalo Františkovo nábřeží po císaři Františku I., od roku 1905 pak Riegrovo nábřeží. Za nacistické okupace bylo krátce součástí "Vltavského nábřeží", než bylo celé nábřeží v letech 1942–1945 přejmenováno na Reinhard Heydrich Ufer. Poválečné Československo je v roce 1946 přejmenovalo na Gottwaldovo nábřeží po prvním komunistickém prezidentovi, než konečně v roce 1990 dostalo současný název na počest Tomáše Garrigua Masaryka.
+🎁 Bonus: Málokterá ulice kdekoli uctila tak pestrou společnost: habsburského císaře, českého vlastence, jednoho z architektů holocaustu, stalinistického prezidenta a nakonec zakladatele demokratického státu. Už jen uliční cedule vyprávějí českou historii 20. století.`,
+      zh: `马萨里克滨河大道是新城沿伏尔塔瓦河的滨河大街，从国家剧院一直延伸到伊拉塞克大桥，对面是斯拉夫岛。沿街一排1900年前后的宏伟公寓楼，使它成为布拉格最美的新艺术风格街道之一，而它的名字几乎随着20世纪的每一个政权而改变。
 
-🥚 Velikonoční vajíčko: Na jednom relativně krátkém úseku nábřeží tak Praha stihla uctít habsburského císaře, českého vlastence, jednoho z hlavních architektů holokaustu a stalinistického prezidenta — než se po třech přejmenováních a jednom století usadila u zakládajícího demokrata republiky. Málokterá ulice kdekoli nese už jen ve svém názvu tolik dvacátého století.`,
+19世纪以前，这段河岸上排列着磨坊、制革厂和木料场。河岸整治后，它先以弗朗茨一世皇帝命名，1905年起改以政治家弗朗蒂谢克·拉迪斯拉夫·里格尔命名。纳粹占领期间它被改名，从1942年起甚至以莱因哈德·海德里希命名。1946年以共产党领导人克莱门特·哥特瓦尔德命名，直到1990年才有了现在的名字，纪念捷克斯洛伐克的缔造者托马斯·加里格·马萨里克。沿街有装饰华丽的公寓楼、立面醒目的新艺术风格“赫拉霍尔”合唱团大楼，还有水边的马内斯画廊。
 
-      zh: `勇敢的冒险家，欢迎来到马萨里克滨河大道！这条沿河大道改名的次数多到几乎需要一张家谱来梳理——从一位皇帝，到一位爱国者，再到一位共产党总统，又到一位纳粹刽子手，最终才落在了捷克斯洛伐克的缔造者本人身上。
-
-19世纪之前，这段位于伏尔塔瓦河右岸、正对斯拉夫岛的河岸尚未整治，沿岸分布着磨坊与制革作坊。整治完成后，这里最初以弗朗茨一世皇帝之名被称为"弗朗茨滨河大道"，1905年起改称"里格尔滨河大道"。纳粹占领期间，它一度被并入"伏尔塔瓦河滨河大道"，随后在1942至1945年间，整条河岸干脆被改名为"莱因哈德·海德里希河岸"。战后的捷克斯洛伐克于1946年将其改名为"哥特瓦尔德滨河大道"，以纪念该国第一位共产党总统；直到1990年，它才最终获得现在的名字，用以纪念托马什·马萨里克（Tomáš Garrigue Masaryk）。
-
-🥚 彩蛋：在这段相对不长的河岸上，布拉格竟先后用来纪念了一位哈布斯堡皇帝、一位捷克爱国政治家、大屠杀的主要策划者之一，以及一位斯大林主义总统——历经三次改名、跨越近一个世纪，才最终定格在这个国家的建国民主先驱身上。恐怕没有几条街道，光是名字本身就承载了这么多20世纪的沉重历史。`,
+🎁 彩蛋：世界上很少有街道纪念过这么五花八门的一群人：一位哈布斯堡皇帝、一位捷克爱国者、一位大屠杀的主要策划者、一位斯大林式的总统，最后才是开国的民主人士。光是路牌，就讲完了捷克的20世纪。`,
     },
   },
   {
@@ -10234,23 +10210,21 @@ Pozemek se uvolnil roku 1926, kdy byla zbořena stará bankovní budova. Od 30. 
     xpReward: 30,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_%C5%BDivnostensk%C3%A9_banky_(Na_P%C5%99%C3%ADkop%C4%9B_20)',
     description: {
-      en: `Brave adventurer, welcome to the Živnostenská Bank Palace! Home to the first bank in the entire Austro-Hungarian Empire financed purely by Czech capital — because sometimes the most radical act available to a nineteenth-century Czech patriot was simply opening a bank account somewhere Czech.
+      en: `The Živnostenská banka palace on Na Příkopě, at the corner of Nekázanka Street, was the headquarters of the first major bank founded with Czech capital in the Habsburg monarchy. Its grand halls are among the finest bank interiors in Prague.
 
-The site's history traces back to 1621, when an earlier palace rose at the corner of Na Příkopě and Nekázanka streets; after repeated rebuilding, it briefly housed the Patriotic Museum from 1845. In 1868, the Živnostenská banka pro Čechy a Moravu was founded here. Both bank buildings on the site were designed by architect Osvald Polívka: the older, Neo-Renaissance one built 1894–1896, and a younger, Art Nouveau addition completed in 1912, the two linked by covered bridges in matching styles. The Nekázanka-facing side elevation incorporates an original portal from the Nostitz Palace, with eagle and urn sculptures from the workshop of Baroque master Matyáš Bernard Braun.
+Živnostenská banka was founded in 1868 to finance Czech business at a time when the banking world of Bohemia was dominated by Vienna and German-speaking institutions, and it became one of the pillars of the Czech economy. Its headquarters was designed by the architect Osvald Polívka: the older, neo-Renaissance building of 1894 to 1896 on Na Příkopě, with a magnificent banking hall richly decorated with paintings and sculpture by leading Czech artists, and a later Art Nouveau building toward Nekázanka, completed around 1912, linked to the first by bridges. On the Nekázanka side the building incorporates an older Baroque portal with sculptures from the workshop of Matthias Bernhard Braun.
 
-🥚 Easter Egg: An eighteenth-century Baroque portal by one of Bohemia's greatest sculptors was salvaged and grafted onto a nineteenth-century bank facade — meaning the building's side entrance is technically a century older than the bank it was built to serve, quietly repurposed from Braun's workshop to Polívka's balance sheet.`,
+🎁 Bonus: For a Czech patriot of the 1860s, depositing money in a Czech bank was itself a small political act. The splendour of this building shows how much confidence that national bank had gained a generation later.`,
+      cz: `Palác Živnostenské banky v ulici Na Příkopě, na rohu Nekázanky, byl sídlem první velké banky založené českým kapitálem v habsburské monarchii. Jeho velkolepé sály patří k nejkrásnějším bankovním interiérům v Praze.
 
-      cz: `Statečný dobrodruhu, vítej v Paláci Živnostenské banky! Sídlo první banky v celé rakousko-uherské monarchii financované výhradně českým kapitálem — protože nejradikálnějším činem, který si mohl v 19. století dovolit český vlastenec, bylo někdy prostě založit si účet v české bance.
+Živnostenská banka byla založena roku 1868, aby financovala české podnikání v době, kdy bankovnictví v Čechách ovládala Vídeň a německy mluvící instituce, a stala se jedním z pilířů české ekonomiky. Její sídlo navrhl architekt Osvald Polívka: starší novorenesanční budovu z let 1894 až 1896 na Příkopě s nádhernou bankovní halou bohatě zdobenou malbami a sochami předních českých umělců a pozdější secesní budovu do Nekázanky, dokončenou kolem roku 1912, propojenou s první mosty. Na straně do Nekázanky budova zahrnuje starší barokní portál se sochami z dílny Matyáše Bernarda Brauna.
 
-Historie místa sahá až do roku 1621, kdy na rohu ulic Na Příkopě a Nekázanka vyrostl starší palác; po opakovaných přestavbách zde od roku 1845 krátce sídlilo Vlastenecké muzeum. V roce 1868 zde byla založena Živnostenská banka pro Čechy a Moravu. Obě bankovní budovy na místě navrhl architekt Osvald Polívka: starší, novorenesanční, postavenou v letech 1894–1896, a mladší, secesní přístavbu dokončenou v roce 1912, propojené krytými mosty ve shodných stylech. Boční průčelí do Nekázanky zahrnuje původní portál z Nostického paláce se sochami orlů a váz z dílny barokního mistra Matyáše Bernarda Brauna.
+🎁 Bonus: Pro českého vlastence 60. let 19. století byl už vklad peněz do české banky malým politickým činem. Nádhera této budovy ukazuje, jak velké sebevědomí ta národní banka o generaci později získala.`,
+      zh: `纳普日科佩街与内卡赞卡街拐角处的实业银行宫，是哈布斯堡王朝境内第一家用捷克资本创办的大银行的总部。它宏伟的大厅是布拉格最精美的银行室内空间之一。
 
-🥚 Velikonoční vajíčko: Barokní portál z 18. století od jednoho z nejvýznamnějších českých sochařů byl zachráněn a naroubován na fasádu devatenáctistoleté banky — boční vchod budovy je tak technicky o celé století starší než banka, které měl sloužit, tiše přesunutý z Braunovy dílny na Polívkovu bilanci.`,
+实业银行创立于1868年，那时波希米亚的银行业由维也纳和讲德语的机构把持，它就是为了给捷克企业融资而成立的，后来成了捷克经济的支柱之一。它的总部由建筑师奥斯瓦尔德·波利夫卡设计：纳普日科佩街上较早的一栋是1894年至1896年的新文艺复兴建筑，有一座由一流捷克艺术家以绘画和雕塑装饰得富丽堂皇的营业大厅；朝内卡赞卡街的是后来约1912年落成的新艺术风格大楼，两楼之间以天桥相连。在内卡赞卡街一侧，大楼嵌入了一座更古老的巴洛克门廊，上面的雕塑出自马蒂亚斯·伯恩哈德·布劳恩的作坊。
 
-      zh: `勇敢的冒险家，欢迎来到实业银行宫！这里曾是整个奥匈帝国境内第一家完全由捷克资本出资的银行——因为在19世纪，一位捷克爱国者能做出的最激进之举，有时候不过是在一家"捷克人的银行"里开一个账户。
-
-这块地皮的历史可追溯至1621年，当时Na Příkopě街与内卡赞卡街（Nekázanka）交汇处曾建有一座更早的宫殿；历经多次改建后，这里自1845年起短暂成为祖国博物馆的所在地。1868年，"捷克与摩拉维亚实业银行"（Živnostenská banka pro Čechy a Moravu）在此成立。地块上的两栋银行建筑均出自建筑师奥斯瓦尔德·波利夫卡（Osvald Polívka）之手：较早的一栋为新文艺复兴风格，建于1894至1896年间；较新的一栋为新艺术风格扩建，1912年完工，两栋建筑由风格相配的天桥相连。面向内卡赞卡街的侧立面上，还嵌有一座取自诺斯提茨宫（Nostitz Palace）的原始门廊，饰有巴洛克大师马佳什·伯纳德·布劳恩（Matyáš Bernard Braun）工坊制作的鹰与瓮雕塑。
-
-🥚 彩蛋：一座出自捷克最伟大雕塑家之一之手的18世纪巴洛克门廊，被完整保留下来并"嫁接"到了一栋19世纪银行建筑的立面上——也就是说，这栋建筑的侧门，严格算起来比它所服务的银行本身还要早上整整一个世纪，悄悄地从布劳恩的工坊，转移到了波利夫卡的资产负债表上。`,
+🎁 彩蛋：对19世纪60年代的捷克爱国者来说，把钱存进一家捷克银行本身就是一个小小的政治行动。这栋楼的华丽，显示了这家民族银行一代人之后积攒起了多大的自信。`,
     },
   },
   {
@@ -10952,23 +10926,21 @@ Ulice leží na stejné zakřivené linii jako Národní, Na Příkopě a 28. ř
     xpReward: 50,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_Batex',
     description: {
-      en: `Brave adventurer, welcome to Batex Palace! A functionalist office building that, tucked behind its unremarkable facade, once housed the single most important gathering place for Prague's gay and lesbian community during the entire First Czechoslovak Republic.
+      en: `Batex Palace is a Functionalist office building near Náměstí Republiky, built in 1928 and 1929. Behind its plain front, in the 1930s, was one of the main gathering places of Prague's gay and lesbian community in the years of the First Republic.
 
-Built in 1928–1929 to a design by architect Max Spielmann on land cleared by demolishing older residential buildings near Náměstí Republiky, the palace's most consequential tenant was a nightclub and theatrical hall called Batex. Run first by Stanislav Bartoš and later Antonín Steimar, it hosted evening parties and masquerade balls through the 1930s, including drag performances, and became the favoured venue for Prague's wealthier gay clientele. Lesbian rights activist Jana Mattuschová was also a regular, and editorial staff behind the magazine "Hlas sexuální menšiny" (Voice of the Sexual Minority) — published by Steimar and edited by brothers Vojtěch and František Černý — met there as well.
+The building was designed by the architect Max Spielmann on a plot where older houses had been demolished. One of its tenants was a club and dance hall called Batex, where in the 1930s evening parties and masked balls were held, and it became a favourite venue for gay men and lesbian women from Prague's better-off society. Activists of the early movement for the rights of sexual minorities met here, among them the people behind the magazine Hlas sexuální menšiny (The Voice of the Sexual Minority). This brief period of relative openness ended with the Munich Agreement and the Nazi occupation, when persecution of sexual minorities grew harsh.
 
-🥚 Easter Egg: This building was, for over a decade, an openly functioning centre of LGBT social life and activism in the middle of interwar Prague — decades before such a thing was legally or socially conceivable across most of Europe. That freedom ended abruptly with the Second Republic and Nazi occupation, when persecution of sexual minorities intensified sharply, making Batex's brief run a genuine historical rarity rather than the norm.`,
+🎁 Bonus: For a few years in the 1930s, a club in this ordinary-looking building was one of the freer places in Central Europe for people who did not fit the norms of their time. Today almost nothing on the outside hints at that chapter of its history.`,
+      cz: `Palác Batex je funkcionalistická kancelářská budova u náměstí Republiky, postavená v letech 1928 a 1929. Za jejím prostým průčelím bylo ve 30. letech jedno z hlavních míst setkávání pražské gay a lesbické komunity v době první republiky.
 
-      cz: `Statečný dobrodruhu, vítej v Paláci Batex! Funkcionalistická administrativní budova, která za svou nenápadnou fasádou kdysi ukrývala zdaleka nejvýznamnější setkávací místo pražské gay a lesbické komunity za celé první republiky.
+Budovu navrhl architekt Max Spielmann na pozemku, kde byly zbořeny starší domy. Jedním z jejích nájemců byl klub a taneční sál Batex, kde se ve 30. letech pořádaly večírky a maškarní plesy a který se stal oblíbeným místem gayů a lesbických žen z movitější pražské společnosti. Scházeli se tu aktivisté raného hnutí za práva sexuálních menšin, mezi nimi lidé kolem časopisu Hlas sexuální menšiny. Toto krátké období relativní otevřenosti skončilo s Mnichovem a nacistickou okupací, kdy pronásledování sexuálních menšin zesílilo.
 
-Palác postavený v letech 1928–1929 podle návrhu architekta Maxe Spielmanna na pozemku uvolněném demolicí starších obytných domů poblíž Náměstí Republiky měl svého nejvýznamnějšího nájemce v podobě nočního klubu a divadelního sálu Batex. Provozovaný nejprve Stanislavem Bartošem a později Antonínem Steimarem hostil ve 30. letech večírky a maškarní plesy včetně dragových vystoupení a stal se oblíbeným místem pro movitější pražskou gay klientelu. Pravidelně sem docházela i aktivistka za lesbická práva Jana Mattuschová a scházela se tu i redakce časopisu "Hlas sexuální menšiny", který vydával Steimar a redigovali bratři Vojtěch a František Černý.
+🎁 Bonus: Několik let ve 30. letech byl klub v této obyčejně vyhlížející budově jedním ze svobodnějších míst ve střední Evropě pro lidi, kteří nezapadali do norem své doby. Dnes na ni zvenku skoro nic tuto kapitolu její historie nepřipomíná.`,
+      zh: `巴泰克斯宫是共和国广场附近的一栋功能主义办公楼，建于1928年和1929年。30年代，在它朴素的门面背后，是第一共和国时期布拉格男女同性恋群体的主要聚会场所之一。
 
-🥚 Velikonoční vajíčko: Tato budova byla přes deset let otevřeně fungujícím centrem LGBT společenského života a aktivismu uprostřed meziválečné Prahy — o desítky let dřív, než bylo něco podobného právně nebo společensky myslitelné ve většině Evropy. Tato svoboda náhle skončila s druhou republikou a nacistickou okupací, kdy pronásledování sexuálních menšin prudce zesílilo, takže krátké fungování Batexu bylo spíš skutečnou historickou výjimkou než normou.`,
+大楼由建筑师马克斯·施皮尔曼设计，建在拆除了旧房子的地块上。楼里的租户之一是一家名叫“巴泰克斯”的俱乐部和舞厅，30年代这里举办晚会和化装舞会，成了布拉格较富裕阶层的男同性恋者和女同性恋者最爱去的地方。早期性少数群体权利运动的活动人士也在这里聚会，其中包括《性少数之声》杂志背后的人们。这段相对开放的短暂时光，随着慕尼黑协定和纳粹占领而结束，那时对性少数群体的迫害变得严酷起来。
 
-      zh: `勇敢的冒险家，欢迎来到巴泰克斯宫！这栋功能主义风格的办公楼，外表毫不起眼，却在捷克斯洛伐克第一共和国整个时期，曾是布拉格男女同性恋群体最重要的聚集地。
-
-这栋宫殿建于1928至1929年间，由建筑师马克斯·施皮尔曼（Max Spielmann）设计，建在共和国广场附近拆除旧民宅后腾出的地块上，其中最具影响力的租户是一家名为"Batex"的夜总会兼剧场厅。这里最初由斯坦尼斯拉夫·巴尔托什（Stanislav Bartoš）经营，后来由安东宁·施泰马尔（Antonín Steimar）接手，整个30年代举办过无数晚会与化装舞会，其中不乏变装表演，也成为布拉格较为富裕的男同性恋群体最青睐的场所。女同性恋权益活动家雅娜·马图绍娃（Jana Mattuschová）也是这里的常客，杂志《性少数之声》（Hlas sexuální menšiny，由施泰马尔出版，沃伊捷赫与弗兰季谢克·切尔尼兄弟编辑）的编辑团队也常在此聚会。
-
-🥚 彩蛋：这栋建筑曾在长达十多年的时间里，公开充当着两次大战之间布拉格LGBT社交与维权活动的中心——比欧洲大多数地区在法律或社会层面能够想象这种事情，早了整整几十年。这份自由随着第二共和国与纳粹占领戛然而止，当时针对性少数群体的迫害急剧加剧——这也让Batex那段短暂的存在，成了名副其实的历史特例，而非常态。`,
+🎁 彩蛋：30年代有那么几年，这栋外表平平无奇的楼里的俱乐部，是中欧对那些不合时代规范的人来说最自由的地方之一。如今从外面几乎看不出它历史上的这一章。`,
     },
   },
   {
@@ -11442,27 +11414,21 @@ Po zhruba padesáti letech bez větších investic byla budova v tak špatném s
     xpReward: 30,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/S%C3%ADdli%C5%A1t%C4%9B_Vlasta',
     description: {
-      en: `Brave adventurer, welcome to the Vlasta housing estate! Built to rehouse thousands of people evicted from their own town so the Soviet army could move in, its street names still quietly commemorate the Central Asian republics of a union that no longer exists.
+      en: `The Vlasta housing estate in Vršovice is a group of prefabricated apartment blocks built between 1968 and the early 1970s. Its origin is tied to the Soviet occupation of Czechoslovakia after August 1968.
 
-This panel-housing estate rose on the site of a large cavalry barracks complex built in the late nineteenth century and demolished in stages between the mid-1960s and early 1980s. Its residential blocks went up between 1968 and 1972, with administrative buildings following soon after, built as emergency housing for around 3,500 people evicted from a town that had just been requisitioned in its entirety to house the Soviet army garrison stationed in Czechoslovakia after the 1968 Warsaw Pact invasion.
+The estate stands on the site of large 19th-century barracks, demolished in stages from the 1960s. After the Warsaw Pact invasion in 1968, Soviet troops were stationed in Czechoslovakia, and their main base was set up in the military town of Milovice, north of Prague. Czechoslovak army families living there had to leave, and new housing was needed for them; the Vlasta estate was built partly for this purpose. Its streets are named after the Central Asian republics of the Soviet Union, such as Kazakh and Uzbek Street. The blocks are linked by passages and terraces, with shops and services on the lower floors, a kindergarten and a grocery store that gave the estate its name, and pieces of public sculpture scattered among the courtyards.
 
-The estate's five north–south blocks sit along streets named after Central Asian Soviet republics, a naming scheme that quietly announces the estate's military origin to anyone who bothers to read the signs. Shops and services were built into the basements and raised ground floors, connected by a network of passages, terraces, and walkways, along with a kindergarten, a parking structure, and a grocery store that gave the whole estate its name. The estate is also home to one of Prague's richer concentrations of housing-era public sculpture, scattered among its courtyards and playgrounds.
+🎁 Bonus: The street names still recall republics of a union that broke up in 1991, the same year the last Soviet soldiers left Czechoslovakia. The estate has outlasted both the empire and the occupation that brought it into being.`,
+      cz: `Sídliště Vlasta ve Vršovicích je skupina panelových domů postavených v letech 1968 až na počátku 70. let. Jeho vznik souvisí se sovětskou okupací Československa po srpnu 1968.
 
-🥚 Easter Egg: The residents rehoused here in 1968 ended up, in a strange way, better off than the town they left — that town stayed a closed Soviet garrison for over two decades and had to essentially rebuild itself from an emptied ghost town after the army finally departed in 1991. Their new estate, meanwhile, simply carried on, quietly outlasting both the empire that displaced them and the six Soviet republics still spelled out on its street signs.`,
-      cz: `Statečný dobrodruhu, vítej na sídlišti Vlasta! Postaveném, aby přijalo tisíce lidí vystěhovaných z vlastního města kvůli sovětské armádě — a jehož názvy ulic dodnes tiše připomínají středoasijské republiky svazu, který už neexistuje.
+Sídliště stojí na místě velkých kasáren z 19. století, bouraných postupně od 60. let. Po vpádu vojsk Varšavské smlouvy roku 1968 byla v Československu umístěna sovětská vojska a jejich hlavní základna vznikla ve vojenském městě Milovice severně od Prahy. Rodiny československých vojáků, které tam žily, musely odejít a bylo pro ně potřeba nové bydlení; sídliště Vlasta vzniklo zčásti právě za tímto účelem. Jeho ulice nesou jména středoasijských republik Sovětského svazu, jako Kazašská a Uzbecká. Domy propojují pasáže a terasy s obchody a službami v nižších podlažích, mateřskou školou a samoobsluhou, která dala sídlišti jméno, a mezi dvory jsou rozesety kusy veřejného sochařství.
 
-Toto panelové sídliště vyrostlo na místě rozsáhlého kavalerijního kasárenského komplexu postaveného na konci 19. století a postupně demolovaného od poloviny 60. do počátku 80. let. Obytné bloky vznikly v letech 1968–1972, správní budovy následovaly krátce poté, a to jako nouzové bydlení pro zhruba 3 500 lidí vystěhovaných z města, které bylo právě celé zabráno pro posádku sovětské armády v Československu po invazi vojsk Varšavské smlouvy v roce 1968.
+🎁 Bonus: Názvy ulic dodnes připomínají republiky svazu, který se rozpadl roku 1991, v tomtéž roce, kdy poslední sovětští vojáci opustili Československo. Sídliště přežilo impérium i okupaci, které ho přivedly na svět.`,
+      zh: `弗尔绍维采的Vlasta住宅区，是1968年至70年代初建成的一组预制板公寓楼。它的诞生与1968年8月后苏联占领捷克斯洛伐克有关。
 
-Pět severojižně orientovaných bloků sídliště leží podél ulic pojmenovaných po středoasijských sovětských republikách, což je pojmenování, které tichým způsobem prozrazuje vojenský původ sídliště každému, kdo si všimne názvů ulic. V suterénech a zvýšených přízemích byly zabudovány obchody a služby, propojené sítí pasáží, teras a lávek, doplněné mateřskou školkou, parkovacím domem a prodejnou potravin, po níž dostalo jméno celé sídliště. Sídliště je také domovem jedné z nejbohatších sbírek sídlištního sochařství v Praze, roztroušené po dvorech a hřištích.
+住宅区建在19世纪一大片营房的原址上，营房从60年代起分批拆除。1968年华约军队入侵后，苏联军队驻扎在捷克斯洛伐克，主要基地设在布拉格以北的军事城镇米洛维采。原本住在那里的捷克斯洛伐克军人家庭不得不搬走，需要新的住处；Vlasta住宅区部分就是为此而建的。它的街道以苏联的中亚加盟共和国命名，比如哈萨克街和乌兹别克街。楼与楼之间以通道和平台相连，底层是商店和服务设施，还有一所幼儿园和一家给住宅区起了名字的食品店，院落之间散落着一些公共雕塑。
 
-🥚 Velikonoční vajíčko: Lidé sem přestěhovaní v roce 1968 na tom nakonec byli zvláštním způsobem lépe než město, které opustili — to zůstalo uzavřeným sovětským posádkovým městem přes dvacet let a po konečném odchodu armády v roce 1991 se muselo v podstatě znovu postavit z vylidněného města duchů. Jejich nové sídliště zatím jednoduše fungovalo dál a tiše přežilo jak impérium, které je vystěhovalo, tak šest sovětských republik, jejichž jména dodnes nese na svých ulicích.`,
-      zh: `勇敢的冒险家，欢迎来到Vlasta住宅区！它的建造，是为了安置数千名因苏联军队进驻而被迫离开自己家乡的人们——而它的街道名字，至今仍在悄悄纪念着一个早已不复存在的联盟里的中亚加盟共和国。
-
-这片板式住宅区，建在一座建于19世纪末的大型骑兵营区旧址上，该营区于1960年代中期至1980年代初被分阶段拆除。住宅楼建于1968年至1972年间，行政楼紧随其后建成，其建造目的，是为大约3500名因1968年华沙条约组织入侵捷克斯洛伐克后、其所在城镇被完全征用为苏联驻军基地而被迫迁离的居民，提供紧急安置住房。
-
-住宅区的五栋南北朝向的楼群，沿着以中亚苏联加盟共和国命名的街道排列，这套命名方案，会不动声色地向任何留意路牌的人透露这片住宅区的军事出身。地下室与抬高的一层内嵌入了商店与各类服务设施，由一整套连廊、露台与天桥彼此相连，配有幼儿园、停车楼，还有一家食品店——正是整个住宅区名字的由来。这里也是布拉格公共雕塑最集中的住宅区之一，庭院与游乐场之间散布着大量雕塑作品。
-
-🥚 彩蛋：1968年被迁到这里的居民，从某种奇特的角度来看，最终反而比他们离开的那座城镇更"幸运"——那座城镇作为封闭的苏联驻军城镇整整存在了二十多年，直到1991年苏军最终撤离后，几乎要从一座被掏空的鬼城重新开始建设。而与此同时，他们在这里的新家，却一直平静地延续下去，悄悄地比那个曾经把他们赶走的帝国、也比至今仍写在街道路牌上的那六个苏联加盟共和国，都活得更久。`,
+🎁 彩蛋：这些街名至今还纪念着一个在1991年解体的联盟里的共和国，而同一年，最后一批苏联士兵离开了捷克斯洛伐克。这个住宅区比催生它的帝国和占领都活得长久。`,
     },
   },
   {
@@ -13704,23 +13670,21 @@ Bonus: Stanice, kterou vybombardovali, znovu postavili a při přestavbě fyzick
     xpReward: 50,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Brnky_(z%C3%A1mek)',
     description: {
-      en: `Brave adventurer, welcome to Brnky Chateau Ruin (Zámek Brnky)! This slowly collapsing manor near Zdiby has been a Gothic watchtower, a Renaissance stronghold, a Jesuit-owned Baroque residence, and is currently auditioning for the role of "cautionary tale about Central European property law." Six centuries of ownership drama, and it still hasn't found a happy ending.
+      en: `The Brnky chateau is a ruined manor house near Zdiby, just north of Prague. Over six centuries it has been a medieval fortress, a Renaissance residence and a Baroque seat, and for decades it has been slowly falling apart while its owners changed.
 
-A disputed 1227 document claims Brnky stood under papal protection, though the confirmed record starts later: a fortified tower here was already paying taxes to Břevnov Monastery by 1406. After a 1547 confiscation for anti-Habsburg rebellion, the estate passed to the Birka family in 1641, who began rebuilding the old Gothic foundations into a proper Renaissance chateau — a job the Jesuits of Prague's New Town college finished after buying the property in 1661, wrapping up construction by 1662. Field Marshal Damian Sickingen took over in 1721, followed by the Caretto-Millesimo family from 1764 to 1808, and then a long parade of private owners who, one by one, seem to have simply stopped maintaining it.
+A fortified tower stood here by the early 15th century, when it paid dues to the Břevnov monastery. In the 17th century the old fortress was rebuilt as a Renaissance chateau, and in 1661 it was bought by the Jesuits of the New Town college, who completed the work. In the 18th century it passed to noble owners, among them the Caretto-Millesimo family, and in the 19th and 20th centuries to a series of private owners, under whom the building gradually decayed. After 1989 several attempts were made to save it, including transferring it to an association set up for that purpose, but none succeeded, and the property became tangled in complicated ownership and debts.
 
-🎁 Bonus: The 20th century didn't do Brnky any favours. After 1989 restitution, the estate landed with owner Jan Caha, who in 2007 transferred it — for a symbolic 1 Czech crown — to an association formed specifically to save the castle. The rescue didn't take. In December 2019, the Czech Orthodox Church stepped in and bought the ruin outright for 10 million crowns, only to discover the property came with a 109-million-crown lien attached, held by a company called Silverdime Limited. Somewhere in Central Bohemia, there is a ruined chapel that was quietly deconsecrated in 1892, sitting inside a fortress that has now confused property lawyers for over three decades running.`,
+🎁 Bonus: Few ruins near Prague have had such a long run of bad luck with their owners. Brnky is a reminder that a historic building can survive wars and fires only to be defeated, slowly, by paperwork.`,
+      cz: `Zámek Brnky je zřícenina panského sídla u Zdib, kousek na sever od Prahy. Za šest století byl středověkou tvrzí, renesančním sídlem i barokní rezidencí a desítky let se pomalu rozpadá, zatímco se střídají jeho majitelé.
 
-      cz: `Statečný dobrodruhu, vítej u zříceniny zámku Brnky! Tato pomalu se hroutící tvrz nedaleko Zdib byla gotickou baštou, renesanční pevností, barokním sídlem jezuitů a v současnosti se uchází o titul "varovný příběh o středoevropském vlastnickém právu". Šest set let vlastnických dramat a pořád žádný šťastný konec.
+Opevněná věž tu stála už na počátku 15. století, kdy odváděla poplatky břevnovskému klášteru. V 17. století byla stará tvrz přestavěna na renesanční zámek a roku 1661 ji koupili jezuité novoměstské koleje, kteří stavbu dokončili. V 18. století přešla na šlechtické majitele, mezi nimi rod Caretto-Millesimo, a v 19. a 20. století na řadu soukromníků, za nichž budova postupně chátrala. Po roce 1989 bylo několik pokusů ji zachránit, včetně převodu na spolek založený za tímto účelem, ale žádný neuspěl a majetek se zapletl do složitých vlastnických vztahů a dluhů.
 
-Sporná listina z roku 1227 tvrdí, že Brnky stály pod papežskou ochranou, ale ověřené záznamy začínají později: opevněná tvrz zde už v roce 1406 odváděla daně břevnovskému klášteru. Po konfiskaci v roce 1547 za protihabsburské povstání přešlo panství v roce 1641 na rod Birků, kteří začali přestavovat staré gotické základy na skutečný renesanční zámek — dílo dokončili jezuité pražské novoměstské koleje poté, co panství koupili v roce 1661, se stavbou hotovou do roku 1662. V roce 1721 převzal zámek polní maršál Damian Sickingen, po něm v letech 1764 až 1808 rod Caretto-Millesimo, a nakonec dlouhá řada soukromých majitelů, kteří jeden po druhém jako by se prostě přestali starat o údržbu.
+🎁 Bonus: Málokterá zřícenina u Prahy měla tak dlouhou smůlu na majitele. Brnky připomínají, že historická stavba může přežít války i požáry, jen aby ji nakonec pomalu porazily papíry.`,
+      zh: `布尔尼基城堡是布拉格北边兹季比附近的一座庄园废墟。六百年来，它当过中世纪要塞、文艺复兴宅邸和巴洛克府邸，几十年来一直在主人更迭中慢慢坍塌。
 
-🎁 Bonus: Dvacáté století Brnkám nepřálo. Po restituci v roce 1989 se panství dostalo k majiteli Janu Cahovi, který jej v roce 2007 převedl — za symbolickou 1 korunu — na spolek založený speciálně za účelem záchrany zámku. Záchrana se nepovedla. V prosinci 2019 zasáhla Pravoslavná církev v českých zemích a zříceninu rovnou koupila za 10 milionů korun, jen aby zjistila, že nemovitost je zatížena zástavou ve výši 109 milionů korun ve prospěch společnosti Silverdime Limited. Někde ve středních Čechách tak stojí zřícená kaple, tiše zbavená posvěcení už v roce 1892, uvnitř tvrze, která už přes třicet let mate majetkové právníky.`,
+15世纪初这里已有一座设防塔楼，当时要向布热夫诺夫修道院缴纳赋税。17世纪，旧要塞被改建成文艺复兴城堡，1661年新城学院的耶稣会士买下了它并完成了工程。18世纪它归了贵族主人，其中有卡雷托-米莱西莫家族，19和20世纪又转手给一连串私人业主，建筑在他们手里日渐破败。1989年后曾有好几次拯救它的尝试，包括把它转给一个专为此成立的协会，但都没成功，产权也陷入了复杂的归属和债务纠纷之中。
 
-      zh: `勇敢的冒险家，欢迎来到布尔尼基城堡遗址（Zámek Brnky）！这座位于兹迪比（Zdiby）附近、正在缓慢坍塌的庄园，先后当过哥特式瞭望塔、文艺复兴式要塞、耶稣会名下的巴洛克宅邸，如今则在努力竞选"中欧产权法警世故事"的代言人。六百年的产权纠纷剧，至今仍没等到一个圆满结局。
-
-一份存在争议的1227年文件声称布尔尼基曾受教皇保护，但可靠的记录要晚得多：这里的一座设防要塞早在1406年就已经在向布热沃诺夫修道院（Břevnov）纳税。1547年因反哈布斯堡起义遭没收后，庄园于1641年转到比尔卡（Birka）家族手中，他们开始把古老的哥特式地基改建成真正的文艺复兴式城堡——这项工程在1661年由布拉格新城耶稣会学院买下庄园后接手完成，至1662年竣工。1721年，元帅达米安·西金根（Damian Sickingen）接管了城堡；1764至1808年间归卡雷托-米莱西莫（Caretto-Millesimo）家族所有；此后便是一长串私人业主接力入主，一个接一个地，似乎都渐渐停止了维护。
-
-🎁 彩蛋：二十世纪对布尔尼基毫不留情。1989年产权归还后，庄园落到了业主扬·查哈（Jan Caha）手中，他在2007年以象征性的1克朗，把它转让给了一个专为拯救这座城堡而成立的协会。这场拯救并未成功。2019年12月，捷克东正教会出手，直接以1000万克朗买下了这座遗址——却发现这处房产还附带着一笔高达1.09亿克朗、由一家名为Silverdime Limited的公司持有的留置权债务。就这样，中波希米亚的某个角落，一座早在1892年就悄悄被解除祝圣的小教堂废墟，如今仍矗立在一座已经让产权律师头疼了三十多年的要塞之中。`,
+🎁 彩蛋：布拉格附近很少有哪座废墟在主人这件事上倒霉了这么久。布尔尼基提醒人们，一座历史建筑可以熬过战争和火灾，最后却被一堆文件慢慢打败。`,
     },
   },
   {
@@ -16173,23 +16137,21 @@ Tři hlavní rybníky, Litovický, Kalý a Břevský, zabírají víc než sto h
     xpReward: 20,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hostivice_(z%C3%A1mek)',
     description: {
-      en: `Brave adventurer, welcome to Hostivice Chateau (Zámek Hostivice), a small Baroque residence that spent most of the twentieth century as a byword for neglect — until it clawed its way back onto Prague's heritage map.
+      en: `Hostivice Chateau is a small Baroque chateau in the town of Hostivice, just west of Prague. After decades of neglect it was so close to collapse that the authorities considered removing it from the list of protected monuments, but it was rescued and today houses the town hall.
 
-The first chateau on this site was a modest one-storey early Baroque building, raised between 1689 and 1697 by Countess Johana Eusebie Barbora Caretto-Millesimo. It reached its present two-storey form, built around a central hall running up through the roof, during a rebuilding campaign of 1732–1734 commissioned by Anna Maria Franziska, Grand Duchess of Tuscany, to a design by the Tuscan court architect Václav Špaček, under site foreman Jan Jiří Bauer. The painter Karel Josef Moravini decorated the main hall with frescoes, including a depiction of the Battle of White Mountain. From the later eighteenth century the chateau lost its aristocratic function and became housing for employees of the imperial estate; by the early twentieth century it belonged to the Austrian emperor as part of the Tachlovice estate, and was nationalised after 1918. Decades of neglect under state and collective-farm administration left it in such poor condition that in the 1970s the local authorities petitioned to have it struck from the register of protected monuments. Instead, it was rescued: a demanding reconstruction between 1977 and 1983 saved the building, which today houses the Hostivice town hall.
+The first chateau here was a modest single-storey Baroque building put up at the end of the 17th century. It was given its present two-storey form in the 1730s for Anna Maria Franziska, Grand Duchess of Tuscany, who owned the estate, to a design by the architect Václav Špaček. Its main hall was decorated with frescoes. From the late 18th century the chateau lost its noble function and was used to house estate employees, and in the 20th century, under state and collective-farm administration, it fell into ruin. In the 1970s it was almost written off, but a demanding reconstruction between 1977 and 1983 saved it, and it became the seat of the town council.
 
-🎁 Bonus: A nine-metre sandstone Marian column from 1734, decorated with reliefs and statues of saints, still stands in front of the chateau — almost exactly as old as the building's present Baroque form.`,
+🎁 Bonus: In front of the chateau stands a Baroque sandstone Marian column from 1734, decorated with statues of saints, almost exactly as old as the building's present form. The column and the chateau have kept each other company for nearly three centuries.`,
+      cz: `Zámek Hostivice je malý barokní zámek ve městě Hostivice, kousek na západ od Prahy. Po desetiletích zanedbání byl tak blízko zhroucení, že úřady uvažovaly o jeho vyškrtnutí ze seznamu kulturních památek, byl ale zachráněn a dnes v něm sídlí městský úřad.
 
-      cz: `Statečný dobrodruhu, vítej na Hostivickém zámku! Toto malé barokní sídlo strávilo většinu dvacátého století jako synonymum pro zanedbanost — než se mu podařilo probojovat zpět na mapu pražských památek.
+První zámek tu byl skromnou přízemní barokní stavbou z konce 17. století. Dnešní dvoupodlažní podobu dostal ve 30. letech 18. století pro Annu Marii Františku, velkovévodkyni toskánskou, která panství vlastnila, podle návrhu architekta Václava Špačka. Jeho hlavní sál zdobily fresky. Od konce 18. století zámek ztratil šlechtickou funkci a sloužil k bydlení zaměstnanců velkostatku a ve 20. století pod správou státu a JZD chátral. V 70. letech byl skoro odepsán, ale náročná rekonstrukce v letech 1977 až 1983 ho zachránila a stal se sídlem městské samosprávy.
 
-První zámek na tomto místě byla skromná jednopatrová raně barokní stavba, kterou v letech 1689 až 1697 nechala postavit hraběnka Johana Eusebie Barbora Caretto-Millesimová. Dnešní dvoupatrové podoby s centrální halou, procházející od prvního patra až po střešní nástavec, nabyl zámek při přestavbě v letech 1732 až 1734, kterou si objednala Anna Marie Františka, velkovévodkyně toskánská, podle projektu dvorního toskánského architekta Václava Špačka a pod vedením stavebního mistra Jana Jiřího Bauera. Malíř Karel Josef Moravini vyzdobil hlavní sál freskami, mimo jiné se zobrazením bitvy na Bílé hoře. Od druhé poloviny 18. století zámek ztratil svou šlechtickou funkci a proměnil se v ubytování pro zaměstnance císařského velkostatku; na počátku 20. století patřil rakouskému císaři jako součást tachlovického panství a po roce 1918 byl zestátněn. Desetiletí zanedbávání za správy státu a jednotného zemědělského družstva zámek přivedla do tak havarijního stavu, že místní úřady v 70. letech žádaly o jeho vyřazení ze seznamu kulturních památek. Místo toho byl zachráněn: náročná rekonstrukce v letech 1977 až 1983 budovu zachránila a dnes v ní sídlí hostivický městský úřad.
+🎁 Bonus: Před zámkem stojí barokní pískovcový mariánský sloup z roku 1734 zdobený sochami světců, skoro přesně stejně starý jako dnešní podoba budovy. Sloup a zámek si dělají společnost už téměř tři století.`,
+      zh: `霍斯季维采城堡是布拉格以西霍斯季维采镇上的一座小巴洛克城堡。荒废几十年后，它破败得几乎要倒塌，当局甚至考虑把它从文物名录上划掉，可它最终被救了下来，如今是镇政府所在地。
 
-🎁 Bonus: Před zámkem dodnes stojí devět metrů vysoký pískovcový mariánský sloup z roku 1734, zdobený reliéfy a sochami svatých — je tedy téměř stejně starý jako dnešní barokní podoba zámku.`,
+这里最早的城堡是17世纪末建的一座朴素的单层巴洛克建筑。18世纪30年代，庄园主人托斯卡纳大公夫人安娜·玛丽亚·弗朗齐斯卡请建筑师瓦茨拉夫·什帕切克把它改建成了如今的两层样子，主厅饰有壁画。从18世纪后期起，城堡失去了贵族府邸的功能，用来安置庄园雇员，20世纪在国家和集体农庄管理下日渐破败。70年代它几乎被放弃，但1977年至1983年一次艰难的重建救了它，它成了镇议会的所在地。
 
-      zh: `勇敢的冒险家，欢迎来到霍斯季维采城堡（Zámek Hostivice）！这座小巧的巴洛克式宅邸，在二十世纪的大半时间里都是"年久失修"的代名词——直到它奋力重新挤回布拉格的文物保护名录。
-
-这处宅邸最早的建筑，是1689年至1697年间由约翰娜·欧塞比亚·芭芭拉·卡雷托-米莱西莫伯爵夫人（Johana Eusebie Barbora Caretto-Millesimo）下令修建的一座朴素的单层早期巴洛克建筑。今天这座两层楼、中央大厅从一楼一直贯通到屋顶阁楼的模样，则成形于1732年至1734年的改建工程——由托斯卡纳大公夫人安娜·玛丽亚·弗兰齐斯卡（Anna Marie Františka）下令，由托斯卡纳宫廷建筑师瓦茨拉夫·什帕切克（Václav Špaček）设计，在工头扬·伊日·鲍尔（Jan Jiří Bauer）主持下施工。画家卡雷尔·约瑟夫·莫拉维尼（Karel Josef Moravini）为主厅绘制了壁画，其中一幅描绘的正是白山之战（Battle of White Mountain）。18世纪后半叶起，城堡失去了贵族居所的功能，沦为皇室庄园员工的宿舍；20世纪初，它作为塔赫洛维采（Tachlovice）庄园的一部分归属奥地利皇帝所有，1918年后被收归国有。此后数十年间在国家与合作社管理下的荒废，让城堡状况一度极为糟糕，以至于地方当局在20世纪70年代曾申请将其从文物保护名录中除名。但它最终还是被抢救了下来：1977年至1983年间一场艰巨的修复工程挽救了这座建筑，如今这里是霍斯季维采市政厅的所在地。
-
-🎁 彩蛋：一根建于1734年、高九米的砂岩圣母柱，柱身饰有浮雕与圣徒雕像，至今仍矗立在城堡前——它的年龄几乎与城堡现今的巴洛克外观一样古老。`,
+🎁 彩蛋：城堡前立着一根1734年的巴洛克砂岩圣母柱，饰有圣人雕像，几乎和这栋楼现在的模样同龄。柱子和城堡已经彼此作伴将近三百年了。`,
     },
   },
 
@@ -16235,23 +16197,21 @@ Vznikla kolem poloviny 12. století z malých, pečlivě opracovaných kvádří
     xpReward: 10,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kaple_svat%C3%A9ho_V%C3%A1clava_(Suchdol)',
     description: {
-      en: `Brave adventurer, welcome to the Chapel of St. Wenceslas (Kaple svatého Václava) in Suchdol, a small Baroque building with a plague pit, a Gestapo raid, and a set of hidden frescoes all tucked into its modest two-and-a-half-century history.
+      en: `The Chapel of St Wenceslas in Suchdol is a small Baroque chapel in the old village centre of Suchdol, on the northwestern edge of Prague. It grew out of a thanksgiving after a plague epidemic and was recently restored, revealing old paintings hidden on its walls.
 
-Its story begins in 1704, when Suchdol's village reeve, Martin Ježek, built a brick bell tower over a cemetery from the 1680 plague outbreak, as thanksgiving for the epidemic's end. The chapel proper followed in 1755, a simple Baroque structure on a rectangular plan with a semicircular east end, entered through a later Neo-Gothic vestibule on the west side, below a small bell turret. Closed and left to decay in 1786, it was bought and restored by the Suchdol miller Karel Trojan in 1807, then placed for decades under the administration of the Emmaus Monastery in Prague. During the Second World War, in 1942, the Benedictine monks who cared for it were expelled by the Gestapo; the chapel got a new bell in 1947, blessed by the Prague Archbishop Jan Beran. In 2020 the City of Prague transferred the chapel to the Prague-Suchdol district, which carried out a two-year restoration of the roof, ceiling, and facade.
+In 1704 the village reeve built a bell tower over a cemetery for victims of the plague of 1680, in thanks for the end of the epidemic. The chapel itself was built in 1755, a simple Baroque building with a rounded east end and a small bell turret. Closed in 1786 under the reforms of Joseph II, it decayed until a local miller bought and restored it in the early 19th century. Later it was looked after by the Benedictines of the Emmaus monastery in Prague, until the Gestapo expelled them in 1942. In 2020 the chapel passed to the Suchdol district, which restored its roof, ceiling and facade.
 
-🎁 Bonus: That 2020–2022 restoration turned up a genuine surprise — conservators uncovered original frescoes of saints and illusionistic architecture hidden beneath later layers on the chapel's walls, unseen for who knows how long before the scaffolding went up.`,
+🎁 Bonus: During the recent restoration, conservators uncovered original wall paintings of saints and painted architecture hidden under later layers of plaster. A small village chapel turned out to have been keeping a secret for generations.`,
+      cz: `Kaple sv. Václava v Suchdole je malá barokní kaple ve starém jádru Suchdola na severozápadním okraji Prahy. Vyrostla z díků po morové epidemii a při nedávné obnově odhalila staré malby skryté na svých stěnách.
 
-      cz: `Statečný dobrodruhu, vítej u kaple svatého Václava v Suchdole — malé barokní stavby, v jejíž skromné dvě a půl století dlouhé historii se skrývá morový hřbitov, gestapácký zásah i objevené fresky.
+Roku 1704 postavil rychtář nad hřbitovem obětí moru z roku 1680 zvonici na poděkování za konec epidemie. Samotná kaple vznikla roku 1755 jako prostá barokní stavba se zaobleným východním závěrem a malou zvoničkou. Roku 1786 byla v rámci josefínských reforem zavřena a chátrala, dokud ji počátkem 19. století nekoupil a neopravil místní mlynář. Později o ni pečovali benediktini z pražského Emauzského kláštera, dokud je roku 1942 nevyhnalo gestapo. Roku 2020 přešla kaple na městskou část Suchdol, která opravila střechu, strop i fasádu.
 
-Její příběh začíná v roce 1704, kdy suchdolský rychtář Martin Ježek nechal na hřbitově z doby morové epidemie z roku 1680 postavit zděnou zvonici jako díkuvzdání za zažehnání nákazy. Samotná kaple vznikla v roce 1755 jako jednoduchá barokní stavba na obdélném půdorysu s odsazeným půlkruhovým zakončením na východní straně, do níž se vstupuje pozdější novogotickou předsíňkou od západu, pod malou zvoničkou. Po zrušení v roce 1786 kaple chátrala, dokud ji v roce 1807 nekoupil a neopravil suchdolský mlynář Karel Trojan; po další desetiletí pak spadala pod správu pražského Emauzského kláštera. Za druhé světové války, v roce 1942, byli benediktinští mniši, kteří o ni pečovali, vyhnáni gestapem; v roce 1947 kaple dostala nový zvon, který posvětil pražský arcibiskup Jan Beran. V roce 2020 předalo hlavní město Prahu kapli do správy městské části Praha-Suchdol, která provedla dvouletou obnovu střechy, stropu i fasády.
+🎁 Bonus: Při nedávné obnově odkryli restaurátoři pod pozdějšími vrstvami omítky původní nástěnné malby světců a malované architektury. Malá vesnická kaple tak po generace skrývala tajemství.`,
+      zh: `苏赫多尔圣瓦茨拉夫小教堂是布拉格西北缘苏赫多尔老村中心的一座小巴洛克礼拜堂。它源于瘟疫过后的一份感恩，最近一次修复时，还揭开了藏在墙上的古老壁画。
 
-🎁 Bonus: Ona obnova z let 2020–2022 přinesla i skutečné překvapení — restaurátoři pod pozdějšími vrstvami omítky objevili původní fresky světců a iluzivní architektury, které nikdo neviděl bůhví jak dlouho, než se kolem kaple postavilo lešení.`,
+1704年，村长在1680年瘟疫死者的墓地上建了一座钟楼，感谢瘟疫结束。礼拜堂本身建于1755年，是一座朴素的巴洛克建筑，东端呈圆弧形，上面有一座小钟塔。1786年在约瑟夫改革中被关闭后日渐破败，直到19世纪初当地一位磨坊主买下并修缮了它。后来由布拉格埃毛斯修道院的本笃会士照管，直到1942年盖世太保把他们赶走。2020年礼拜堂转归苏赫多尔区，区里修复了屋顶、天花板和外墙。
 
-      zh: `勇敢的冒险家，欢迎来到苏赫多尔（Suchdol）的圣瓦茨拉夫小教堂（Kaple svatého Václava）——一座小巧的巴洛克建筑，两个半世纪的历史里，藏着一处瘟疫墓地、一次盖世太保突袭，还有一批意外重见天日的壁画。
-
-故事始于1704年，苏赫多尔的村长马丁·耶热克（Martin Ježek）在1680年瘟疫死难者的墓地上修建了一座砖砌钟楼，以感谢瘟疫的平息。教堂本体则建于1755年，是一座平面为矩形、东端呈半圆形收尾的简朴巴洛克建筑，西侧后来加建了新哥特式门厅作为入口，门厅上方是一座小钟塔。1786年教堂被关闭并逐渐荒废，直到1807年被苏赫多尔的磨坊主卡雷尔·特罗扬（Karel Trojan）买下修复；此后数十年间，它一直由布拉格的埃玛乌斯修道院（Emauzský klášter）管理。第二次世界大战期间的1942年，负责照管教堂的本笃会修士被盖世太保驱逐；1947年，教堂迎来一口新钟，由布拉格大主教扬·贝兰（Jan Beran）主持祝圣。2020年，布拉格市将教堂移交给苏赫多尔区管理，该区随后用两年时间修复了屋顶结构、天花板与外立面。
-
-🎁 彩蛋：2020至2022年的这次修复带来了一个真正的惊喜——修复人员在教堂墙壁的后期涂层之下，发现了描绘圣徒与幻视建筑图案的原始壁画，谁也不知道它们在脚手架搭起之前，究竟被遗忘了多久。`,
+🎁 彩蛋：在最近的修复中，修复师们在后来的灰泥层下面发现了原有的圣人壁画和彩绘的建筑图案。一座小小的乡村礼拜堂，竟然藏了好几代人的秘密。`,
     },
   },
 
@@ -16357,29 +16317,21 @@ Práce na štole začaly roku 1603 za císaře Rudolfa II. jako pokračování s
     xpReward: 20,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Ministerstvo_financ%C3%AD_%C4%8Cesk%C3%A9_republiky',
     description: {
-      en: `Brave adventurer, welcome to the Ministry of Finance (Ministerstvo financí) on Letenská street in Malá Strana — a government office working out of a 17th-century convent!
+      en: `The Ministry of Finance on Letenská Street in Malá Strana works out of a former 17th-century convent of the Discalced Carmelite nuns. Behind its Baroque walls, where nuns once lived in strict seclusion, the state budget is now prepared.
 
-The building began life in 1663 as a monastery for the Discalced Carmelites, designed by the noted architect Carlo Lurago; the nuns moved into the still-unfinished complex in December 1671. Its fate changed dramatically after Czechoslovak independence in 1918: the new state pressed hard to acquire the convent for government use, reportedly at the insistence of Finance Minister Alois Rašín, and Mother Superior Helena Šírková agreed to sell the entire property with its garden. The Carmelites finally relocated after Easter, on 28 April 1919, and the Ministry of Finance has been headquartered here since 1921. An extension designed by architect František Roith followed in 1928, adding a representative entrance hall with a facade of yellowish Mšená sandstone and interior cladding in Bohemian marble.
+The convent was built from 1663, to designs by the architect Carlo Lurago, and the nuns moved in in 1671. After Czechoslovakia became independent in 1918, the new state needed offices, and the Ministry of Finance, under minister Alois Rašín, acquired the convent; the sisters moved out in 1919, and the ministry has been here since the early 1920s. In 1928 the architect František Roith added an extension with a representative entrance hall. During the Nazi occupation a resistance group formed among the ministry's staff, whose leader, František Bürger, later played an important role in the Prague Uprising of May 1945, as recalled by a plaque in the entrance hall.
 
-The building has its own quiet wartime history too: during the Nazi occupation, an underground resistance cell among Ministry staff, codenamed "Bartoš," was led by former legionnaire František Burger-Bartoš, who went on to serve as chief of staff for the military command of Greater Prague during the Prague Uprising of May 1945 — a chapter now marked by a commemorative plaque in the entrance hall.
+🎁 Bonus: Once a year the ministry opens its doors to the public, and visitors can walk through the cloisters and halls of the old convent. It may be the only day when ordinary people come to the Ministry of Finance hoping to see something beautiful rather than to pay something.`,
+      cz: `Ministerstvo financí v Letenské ulici na Malé Straně sídlí v bývalém klášteře bosých karmelitek ze 17. století. Za jeho barokními zdmi, kde kdysi v přísné klauzuře žily řeholnice, se dnes připravuje státní rozpočet.
 
-🎁 Bonus: the Ministry of Finance still opens this former convent to the public once a year for a Den otevřených dveří (open house day), letting visitors wander the same halls the Carmelite sisters once walked.`,
+Klášter se stavěl od roku 1663 podle návrhu architekta Carla Lurága a řeholnice se do něj nastěhovaly roku 1671. Po vzniku Československa roku 1918 potřeboval nový stát úřady a ministerstvo financí v čele s ministrem Aloisem Rašínem klášter získalo; sestry se odstěhovaly roku 1919 a ministerstvo tu sídlí od počátku 20. let. Roku 1928 přidal architekt František Roith přístavbu s reprezentační vstupní halou. Za nacistické okupace vznikla mezi zaměstnanci ministerstva odbojová skupina, jejíž velitel František Bürger později sehrál významnou roli v Pražském povstání v květnu 1945, jak připomíná deska ve vstupní hale.
 
-      cz: `Statečný dobrodruhu, vítej u Ministerstva financí na Letenské ulici na Malé Straně — úřadu, který sídlí v bývalém klášteře ze 17. století!
+🎁 Bonus: Jednou ročně ministerstvo otevírá dveře veřejnosti a návštěvníci se mohou projít ambity a sály starého kláštera. Je to možná jediný den, kdy lidé chodí na ministerstvo financí v naději, že uvidí něco krásného, a ne že něco zaplatí.`,
+      zh: `小城莱滕斯卡街上的捷克财政部，办公地点是一座17世纪赤足加尔默罗会修女院的旧址。修女们曾在这巴洛克的围墙后面过着严格的隐修生活，如今这里编制着国家预算。
 
-Budova vznikla od roku 1663 jako klášter bosých karmelitek podle návrhu významného architekta Carla Luraga; jeptišky se do ještě nedostavěného komplexu nastěhovaly v prosinci 1671. Osud budovy se dramaticky změnil po vzniku Československa v roce 1918: nový stát usiloval o získání kláštera pro vládní účely, údajně na naléhání ministra financí Aloise Rašína, a představená Helena Šírková nakonec souhlasila s prodejem celého objektu i se zahradou. Karmelitky se odstěhovaly až po Velikonocích, 28. dubna 1919, a od roku 1921 zde sídlí Ministerstvo financí. V roce 1928 následovala přístavba podle architekta Františka Roitha, která přinesla reprezentativní vstupní halu s fasádou z nažloutlého mšenského pískovce a interiérovým obkladem z českého mramoru.
+修女院从1663年起按建筑师卡洛·卢拉戈的设计建造，修女们在1671年搬了进来。1918年捷克斯洛伐克独立后，新国家需要办公场所，由部长阿洛伊斯·拉辛领导的财政部取得了这座修女院；修女们在1919年迁出，财政部从20年代初起就设在这里。1928年，建筑师弗朗蒂谢克·罗伊特加建了一座带气派门厅的新楼。纳粹占领期间，财政部职员中形成了一个抵抗小组，它的领导人弗朗蒂谢克·比尔格后来在1945年5月的布拉格起义中发挥了重要作用，门厅里有一块纪念牌记着这段往事。
 
-Budova má i svou tichou válečnou historii: za nacistické okupace zde mezi zaměstnanci ministerstva působila ilegální odbojová skupina s krycím názvem "Bartoš", vedená bývalým legionářem Františkem Burgerem-Bartošem, který se později stal náčelníkem štábu vojenského velitelství Velké Prahy během Pražského povstání v květnu 1945 — tuto kapitolu dnes připomíná pamětní deska ve vestibulu.
-
-🎁 Bonus: Ministerstvo financí i dnes jednou ročně otevírá bývalý klášter veřejnosti při Dni otevřených dveří, kdy si návštěvníci mohou projít stejné chodby, kterými kdysi chodily karmelitky.`,
-
-      zh: `勇敢的冒险家，欢迎来到位于小城区（Malá Strana）莱坚斯卡街（Letenská）上的财政部（Ministerstvo financí）——一座在17世纪修道院里办公的政府机关！
-
-这座建筑始建于1663年，最初是赤足加尔默罗会修女（Bosé karmelitky）的修道院，由著名建筑师卡洛·卢拉戈（Carlo Lurago）设计；修女们早在1671年12月，建筑尚未完工时就已搬入。1918年捷克斯洛伐克独立后，这栋建筑的命运发生了戏剧性转折：新生的国家极力争取将修道院收归政府使用，据称是在财政部长阿洛伊斯·拉辛（Alois Rašín）的坚持推动下促成的，最终院长海莱娜·希尔科娃（Helena Šírková）同意将整座产业连同花园一并出售。修女们直到1919年复活节后的4月28日才搬离，财政部则自1921年起在此办公。1928年，建筑师弗兰蒂谢克·罗伊特（František Roith）主持了一次扩建，增建了一座气派的入口大厅，外立面采用淡黄色的姆舍纳（Mšená）砂岩，室内则以捷克大理石装饰。
-
-这栋楼还有一段低调的战时历史：纳粹占领期间，财政部员工中曾组建过一个代号"巴尔托什"（Bartoš）的地下抵抗小组，领导人是前军团战士弗兰蒂谢克·布尔格尔-巴尔托什（František Burger-Bartoš），他后来在1945年5月布拉格起义期间担任大布拉格军事指挥部的参谋长——这段历史如今由入口大厅里的一块纪念牌匾所铭记。
-
-🎁 彩蛋：财政部至今每年仍会举办一次"开放日"，把这座昔日的修道院向公众开放，让参观者走一走当年加尔默罗会修女们走过的同一条条走廊。`,
+🎁 彩蛋：财政部每年向公众开放一天，参观者可以走一走老修道院的回廊和厅堂。这大概是普通人唯一一次满怀期待地去财政部，为的是看看美丽的东西，而不是去交钱。`,
     },
   },
 
@@ -16743,23 +16695,21 @@ Zlenice, místními zvané také Hláska, byly postaveny kolem roku 1300 nad sou
     xpReward: 70,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/S%C3%A1zavsk%C3%BD_kl%C3%A1%C5%A1ter',
     description: {
-      en: `Brave adventurer, welcome to Sázava Monastery (Klášter Sázava), one of the most quietly remarkable religious sites in all of Bohemia — a place where monks once prayed in a language found almost nowhere else in Western Christendom.
+      en: `Sázava Monastery stands on the bank of the Sázava river, about fifty kilometres southeast of Prague. Founded in the 11th century by the hermit St Procopius, it was for a time one of the very last places in Western Christianity where the liturgy was sung in Old Church Slavonic rather than Latin.
 
-The monastery was founded in 1032 at the initiative of Prince Oldřich, Bishop Šebíř, and the hermit Prokop, who had already gathered a community of followers around him since roughly 1009. What made Sázava extraordinary was its liturgy: the monks celebrated the Roman rite, but in Old Church Slavonic rather than Latin, carrying forward the Cyril-and-Methodius tradition and maintaining close cultural ties with Kievan Rus at a time when nearly every other monastery in Latin Christendom used Latin exclusively. This unusual arrangement did not last. In 1096, the Slavonic-rite monks were expelled from Sázava, their books and writings destroyed, and the monastery was resettled by Latin-rite Benedictines from Břevnov. Prokop himself was canonized in 1204, after King Přemysl Otakar I petitioned Pope Innocent III shortly following his own coronation the year before. The monastery's buildings evolved across the centuries that followed: a Romanesque phase under Abbot Sylvester in the 12th century, then a Gothic rebuilding in the 14th century that was interrupted by the Hussite Wars before it could be completed. From this Gothic period survives the monastery's greatest artistic treasure — a chapter hall built around 1340 and decorated around 1370 with a remarkable cycle of frescoes, including the so-called Sázava Madonna, depicting the Virgin Mary instructing the infant Christ. Extensive Baroque renovations followed in the 17th century under Abbots Manner and Nigrin, before the monastery was dissolved in 1785 as part of Emperor Joseph II's monastic reforms and converted into a secular chateau, further remodeled in Neo-Renaissance style through 1870. Today the complex operates as a museum dedicated to its own thousand-year history, drawing over twelve thousand visitors a year to see the frescoes, the Gothic chapter hall, and the site where Bohemia's Slavonic liturgical tradition made its last stand.
+The monastery was founded around 1032 with the support of Duke Oldřich, around the hermit Procopius, who had gathered followers here in the forests. Its monks celebrated the Roman rite in Old Church Slavonic, carrying on the tradition of Saints Cyril and Methodius, and kept links with the Slavic world to the east. This did not last: in 1096 the Slavonic monks were expelled and replaced by Latin Benedictines. Procopius was canonised in 1204. The monastery was rebuilt in Gothic style in the 14th century, but the work was interrupted by the Hussite wars, and the unfinished church still stands as a ruin. In 1785 the monastery was dissolved and turned into a chateau. Today it is a museum, whose greatest treasure is the Gothic chapter hall with frescoes from around 1370, including the beautiful Sázava Madonna.
 
-🎁 Bonus: Prokop's cult grew so strong after his canonization that he became one of Bohemia's patron saints — meaning a hermit who founded a small monastery deep in the woods along the Sázava eventually found his name invoked alongside Wenceslas and Ludmila in the pantheon of Czech national saints.`,
+🎁 Bonus: A hermit who settled in the woods by the Sázava became one of the patron saints of Bohemia, invoked alongside Wenceslas and Ludmila. According to legend, he once harnessed the devil to a plough and made him till the monastery's fields.`,
+      cz: `Sázavský klášter stojí na břehu Sázavy, asi padesát kilometrů jihovýchodně od Prahy. Založil ho v 11. století poustevník sv. Prokop a byl nějaký čas jedním z úplně posledních míst západního křesťanstva, kde se liturgie zpívala ve staroslověnštině, a ne v latině.
 
-      cz: `Statečný dobrodruhu, vítej v Klášteře Sázava, jednom z nejpozoruhodnějších duchovních míst celých Čech - místě, kde se mniši kdysi modlili v jazyce, jaký téměř nikde jinde v západním křesťanstvu neuslyšíte.
+Klášter vznikl kolem roku 1032 s podporou knížete Oldřicha kolem poustevníka Prokopa, který tu v lesích shromáždil následovníky. Jeho mniši slavili římský obřad ve staroslověnštině, navazovali na tradici sv. Cyrila a Metoděje a udržovali vazby se slovanským světem na východě. Netrvalo to dlouho: roku 1096 byli slovanští mniši vyhnáni a nahrazeni latinskými benediktiny. Prokop byl svatořečen roku 1204. Ve 14. století byl klášter goticky přestavován, práce ale přerušily husitské války a nedokončený kostel dodnes stojí jako ruina. Roku 1785 byl klášter zrušen a přestavěn na zámek. Dnes je muzeem, jehož největším pokladem je gotická kapitulní síň s freskami z doby kolem roku 1370 včetně krásné Sázavské madony.
 
-Klášter byl založen roku 1032 z popudu knížete Oldřicha, biskupa Šebíře a poustevníka Prokopa, kolem něhož se již od zhruba roku 1009 shromažďovala komunita jeho následovníků. Sázavský klášter byl mimořádný svou liturgií: mniši slavili římský obřad, ale ve staroslověnštině místo latiny, čímž navazovali na cyrilometodějskou tradici a udržovali čilé kulturní styky s Kyjevskou Rusí v době, kdy téměř všechny ostatní kláštery latinského křesťanstva používaly výhradně latinu. Toto neobvyklé uspořádání ale netrvalo dlouho. V roce 1096 byli staroslověnští mniši ze Sázavy vyhnáni, jejich knihy a spisy zničeny a klášter osídlili latinští benediktini z Břevnova. Sám Prokop byl svatořečen roku 1204, poté co král Přemysl Otakar I. krátce po své korunovaci o rok dříve požádal papeže Inocence III. o jeho kanonizaci. Klášterní budovy se v následujících staletích proměňovaly: ve 12. století prošly románskou přestavbou za opata Silvestra, ve 14. století pak gotickou přestavbou, kterou přerušily husitské války dříve, než mohla být dokončena. Právě z tohoto gotického období se dochoval největší umělecký poklad kláštera - kapitulní síň postavená kolem roku 1340 a kolem roku 1370 vyzdobená pozoruhodným cyklem fresek, mezi nimi i takzvanou Sázavskou madonou, zobrazující Pannu Marii vyučující malého Ježíše. V 17. století následovaly rozsáhlé barokní úpravy za opatů Mannera a Nigrina, než byl klášter v roce 1785 v rámci josefínských reforem zrušen a přeměněn na světský zámek, dále upravovaný v novorenesančním stylu až do roku 1870. Dnes areál slouží jako muzeum vlastní tisícileté historie a ročně přiláká přes dvanáct tisíc návštěvníků, kteří si přijdou prohlédnout fresky, gotickou kapitulní síň i místo, kde se odehrál poslední velký příběh staroslověnské liturgie v Čechách.
+🎁 Bonus: Poustevník, který se usadil v lesích u Sázavy, se stal jedním z patronů Čech, vzývaným spolu s Václavem a Ludmilou. Podle legendy jednou zapřáhl do pluhu ďábla a nechal ho orat klášterní pole.`,
+      zh: `萨扎瓦修道院坐落在布拉格东南约五十公里处的萨扎瓦河畔。它由隐修士圣普罗科普在11世纪创建，有一段时间，它是西方基督教世界里最后几个用古教会斯拉夫语、而不是拉丁语咏唱礼仪的地方之一。
 
-🎁 Bonus: Prokopův kult po jeho svatořečení natolik zesílil, že se stal jedním z českých zemských patronů - poustevník, který založil skromný klášter hluboko v lesích podél Sázavy, tak nakonec skončil vzýván po boku svatého Václava a svaté Ludmily v panteonu českých národních světců.`,
+修道院约在1032年在奥德日赫公爵支持下建立，围绕着隐修士普罗科普，他在这片森林里聚集了一批追随者。修士们用古教会斯拉夫语举行罗马礼仪，延续了西里尔和美多德的传统，与东方的斯拉夫世界保持着联系。好景不长：1096年斯拉夫礼的修士们被驱逐，换成了拉丁礼的本笃会士。普罗科普在1204年被封为圣人。14世纪修道院按哥特式重建，工程被胡斯战争打断，未完工的教堂至今仍是一片废墟。1785年修道院被解散，改成了一座城堡。如今它是一座博物馆，最珍贵的是约1370年绘有壁画的哥特式会议厅，其中有美丽的“萨扎瓦圣母”。
 
-      zh: `勇敢的冒险家，欢迎来到萨扎瓦修道院（Klášter Sázava）！这是波希米亚最令人惊叹却又最不为人熟知的宗教圣地之一——曾几何时，这里的修士用一种在整个西方基督教世界几乎绝无仅有的语言祈祷。
-
-修道院始建于1032年，由奥德日赫大公（kníže Oldřich）、主教舍比日（biskup Šebíř）与隐修士普罗科普（Prokop，即圣普罗科皮乌斯）共同发起建立；早在约1009年，普罗科普身边就已聚集起一群追随者。萨扎瓦修道院最与众不同之处在于它的礼拜仪式：修士们采用罗马礼仪，却用教会斯拉夫语而非拉丁语进行，延续了西里尔与美多德的传统，并与基辅罗斯保持着密切的文化往来——而当时西方拉丁基督教世界的几乎所有修道院都只使用拉丁语。然而这种独特的安排并未持续太久。1096年，使用斯拉夫礼仪的修士被逐出萨扎瓦，他们的典籍与著作被焚毁，修道院随后由来自布热夫诺夫（Břevnov）的拉丁礼本笃会修士接管。普罗科普本人于1204年被封为圣人——此前一年，普热米斯尔·奥托卡一世国王（Přemysl Otakar I）在加冕后不久便向教宗英诺森三世请求为其封圣。此后数百年间，修道院建筑几经变迁：12世纪在西尔维斯特院长（opat Sylvestr）主持下进行了罗曼式改建，14世纪又开始哥特式重建，却因胡斯战争爆发而未能完工。正是从这一哥特时期，修道院保存下了它最珍贵的艺术瑰宝——一座约建于1340年的会议厅，约1370年绘制了一组罕见的湿壁画，其中包括描绘圣母教导幼年基督的著名"萨扎瓦圣母像"。17世纪，修道院在曼纳（Manner）与尼格林（Nigrin）两任院长主持下进行了大规模巴洛克式改建，直到1785年在约瑟夫二世的宗教改革中被解散，改建为世俗城堡，此后又持续以新文艺复兴风格改建至1870年。如今，这座建筑群作为展示自身千年历史的博物馆对外开放，每年吸引超过一万两千名游客前来参观湿壁画、哥特式会议厅，以及波希米亚斯拉夫礼仪传统最后落幕的地方。
-
-🎁 彩蛋：普罗科普封圣后声望日隆，最终成为波希米亚的守护圣人之一——这位曾在萨扎瓦河畔深林中创立一座简朴修道院的隐修士，最终与圣瓦茨拉夫（Wenceslas）、圣鲁德米拉（Ludmila）一同被供奉在捷克民族圣徒的殿堂之中。`,
+🎁 彩蛋：一位在萨扎瓦河边林中隐居的修士，成了波希米亚的主保圣人之一，与瓦茨拉夫和柳德米拉一同受人祈求。传说他有一次把魔鬼套上犁，让它为修道院耕田。`,
     },
   },
 
@@ -16960,23 +16910,27 @@ Marie Terezie vládla habsburským zemím čtyřicet let a zavedla dalekosáhlé
     xpReward: 30,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/J%C3%ADlov%C3%A9_u_Prahy',
     description: {
-      en: `Brave adventurer, welcome to Jílové u Prahy, a modest town southeast of the capital that spent roughly eight centuries sitting on quite a lot of actual, extractable gold.
+      en: `Jílové u Prahy is a small town southeast of Prague with a golden past: for some eight centuries, gold was mined from the hills around it, and at its peak in the Middle Ages it was one of the most important gold-mining towns in Bohemia.
 
-Deep mining here is confirmed by scattered historical sources going back at least to the twelfth century, but the real boom hit in the thirteenth century, peaking around its midpoint, when the Jílové mines briefly ranked among the most important gold deposits anywhere in Bohemia. Activity surged again in the sixteenth and eighteenth centuries, and mining continued in fits and starts all the way until 1968 — by which point an estimated eleven tons of gold had been pulled from the ground beneath and around the town. The Regional Museum, housed in a historic building known simply as "the Mint" on the lower end of Masaryk Square, traces its origins to 1891, when local-born collector Leopold Čihák donated his personal collection to the town and the council voted to found a museum around it that same December. Today the museum manages three of the old mining adits that visitors can actually walk into, along with an educational trail leading from the town centre out to the gold-bearing tunnels themselves — a rare case of a museum's most interesting exhibit being a hole in the ground you can enter.
+Gold mining here is documented from at least the 12th century, and the great boom came in the 13th century, when the Jílové mines were among the richest in the kingdom. Mining revived again in the 16th and 18th centuries and continued on and off until 1968, by which time an estimated eleven tonnes of gold had been taken from the ground. The town's Regional Museum, in a historic building called the Mint on the main square, was founded in 1891 from the collection of a local collector, Leopold Čihák. It tells the story of gold mining and looks after several old mining adits that visitors can enter, linked by an educational trail.
 
-🎁 Bonus: The museum's newest permanent gold exhibition only opened in September 2024, meaning the eight-hundred-year story of Jílové's gold rush is still, quite literally, being freshly curated.`,
+Around the town lie the wooded valleys of the Sázava, with the railway line and its tall viaducts, popular with hikers.
 
-      cz: `Statečný dobrodruhu, vítej v Jílovém u Prahy, skromném městě jihovýchodně od hlavního města, které zhruba osm století sedělo na nemalém množství skutečně vytěžitelného zlata.
+🎁 Bonus: In the museum's adits you can walk into the very tunnels where miners once hacked out gold-bearing rock by hand. It is one of the few museums where the most interesting exhibit is a hole in the ground.`,
+      cz: `Jílové u Prahy je městečko jihovýchodně od Prahy se zlatou minulostí: zhruba osm století se v okolních kopcích těžilo zlato a ve středověku, v době největšího rozkvětu, patřilo k nejvýznamnějším zlatonosným městům v Čechách.
 
-Hlubinné dolování je zde doloženo ojedinělými historickými prameny přinejmenším od 12. století, ale skutečný boom přišel ve 13. století s vrcholem kolem jeho poloviny, kdy jílovské doly na krátkou dobu patřily mezi nejvýznamnější zlaté doly v celých Čechách. Těžba se znovu vzedmula v 16. a 18. století a v menší míře pokračovala až do roku 1968 - do té doby se z podzemí pod městem a v jeho okolí odhadem vytěžilo jedenáct tun zlata. Regionální muzeum, umístěné v historické budově zvané prostě "Mince" v dolní části Masarykova náměstí, se datuje od roku 1891, kdy rodák Leopold Čihák věnoval městu svou soukromou sbírku a zastupitelstvo téhož prosince rozhodlo kolem ní založit muzeum. Dnes muzeum spravuje tři staré důlní štoly, do kterých se návštěvníci mohou skutečně vydat, spolu s naučnou stezkou vedoucí z centra města až ke zlatonosným štolám samotným - vzácný případ muzea, jehož nejzajímavějším exponátem je díra v zemi, do které lze vstoupit.
+Těžba zlata je tu doložena nejméně od 12. století a velký rozmach přišel ve 13. století, kdy jílovské doly patřily k nejbohatším v království. Těžba se znovu oživila v 16. a 18. století a s přestávkami pokračovala až do roku 1968, kdy už bylo ze země vytěženo odhadem jedenáct tun zlata. Regionální muzeum v historické budově zvané Mincovna na náměstí bylo založeno roku 1891 ze sbírky místního sběratele Leopolda Čiháka. Vypráví příběh těžby zlata a pečuje o několik starých štol, do kterých mohou návštěvníci vstoupit, propojených naučnou stezkou.
 
-🎁 Bonus: Nejnovější stálá expozice zlata se v muzeu otevřela teprve v září 2024 - osmisetletý příběh jílovské zlaté horečky se tedy doslova stále ještě čerstvě kurátoruje.`,
+Kolem města leží zalesněná údolí Posázaví s železniční tratí a jejími vysokými viadukty, oblíbená u turistů.
 
-      zh: `勇敢的冒险家，欢迎来到伊洛韦——这座位于首都东南方的朴素小镇，在大约八个世纪的时间里，脚下埋藏着相当可观的、真正可开采的黄金。
+🎁 Bonus: Ve štolách muzea můžete vejít přímo do chodeb, kde horníci kdysi ručně vylamovali zlatonosnou horninu. Je to jedno z mála muzeí, kde je nejzajímavějším exponátem díra v zemi.`,
+      zh: `伊洛韦是布拉格东南的一座小镇，有着金光闪闪的过去：大约八百年里，人们在周围的山里采金，中世纪鼎盛时期，它是波希米亚最重要的产金城镇之一。
 
-零星的历史文献证实，这里的深井采矿活动至少可追溯到12世纪，但真正的淘金热潮出现在13世纪，并在世纪中叶达到顶峰，当时伊洛韦的矿区一度跻身波希米亚最重要的金矿之列。16世纪与18世纪，采矿活动再度兴盛，此后断断续续一直持续到1968年——到那时为止，据估计已从小镇地下及周边开采出约十一吨黄金。坐落在马萨里克广场下端一座名为"铸币所"的历史建筑内的地区博物馆，其历史可追溯至1891年，当年本地出身的收藏家利奥波德·契哈克将自己的私人藏品捐赠给小镇，市议会当年12月便决定以此为基础创办博物馆。如今，博物馆管理着三条游客可以实际步入参观的旧矿坑，还有一条从镇中心通往这些含金矿坑本身的教育步道——博物馆最有趣的"展品"竟是一个可以走进去的地洞，这样的例子并不多见。
+这里采金至少从12世纪起就有记载，大繁荣出现在13世纪，那时伊洛韦的金矿是王国最富的矿之一。16和18世纪采矿再度兴旺，断断续续一直持续到1968年，到那时估计已从地下采出了约十一吨黄金。镇上的地区博物馆设在广场上一栋叫“铸币厂”的历史建筑里，1891年以当地收藏家莱奥波德·奇哈克的藏品为基础创立。它讲述采金的故事，还管理着几条游客可以进入的旧矿坑道，由一条科普步道串联起来。
 
-🎁 彩蛋：博物馆最新的黄金常设展直到2024年9月才正式开放，也就是说，伊洛韦这段长达八百年的淘金往事，至今仍在被"新鲜出炉"地重新策展。`,
+小镇周围是萨扎瓦河一带林木葱郁的山谷，铁路线和高大的高架桥穿行其间，很受徒步者欢迎。
+
+🎁 彩蛋：在博物馆的坑道里，你可以走进当年矿工们徒手凿取含金矿石的隧道。这是少数几个最有意思的展品就是地上一个洞的博物馆之一。`,
     },
   },
 
@@ -17018,23 +16972,21 @@ Postaven byl v letech 1898 a 1899 pro trať z Vraného nad Vltavou do Čerčan, 
     xpReward: 30,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Lobkovice_(z%C3%A1mek)',
     description: {
-      en: `Brave adventurer, welcome to Lobkovice Chateau, a riverside estate that has been rebuilt so many times by so many different owners that its walls read almost like a layered history of Bohemia itself.
+      en: `Lobkovice Chateau stands by the Elbe in Lobkovice, today part of Neratovice, north of Prague. It is the place that gave its name to the Lobkowicz family, one of the most important noble families of Bohemia, and later became a favourite retreat of the historian František Palacký.
 
-A fortress here is first documented in 1403, in the hands of a Prague burgher named Prokop Krukner, but the site's fortunes changed in 1409 when it passed to Mikuláš z Újezda, founder of the Lobkowicz family, who rebuilt it into a larger Gothic tower-house anchored by a three-storey rubble-stone prismatic tower. King Jiří z Poděbrad captured the fortress in 1450, and the Sekerka family later converted it into a Renaissance chateau, first documented under that new form in 1610. The Thirty Years' War left the building repeatedly plundered and derelict, and it was only rebuilt into the shape you see today in 1679, under Prince Ferdinand August of Lobkowicz, following designs by the Italian architect Antonio della Porta. In 1829 the Lobkowicz family sold the estate to a Prague lawyer, Jan Měchura, who remodelled it again; his daughter Terezie inherited it in 1840 and, as the wife of the historian František Palacký, made the chateau one of his favourite retreats. The Lobkowicz family regained the property, held it until nationalization in 1948, and after decades of use by Charles University's Faculty of Arts as a study centre and library depository, it was returned in the 1991 restitution to a descendant of the Roudnice branch of the family — Alexandre de Ridder-Lobkowicz, great-grandson of the tenth Prince Ferdinand Zdeněk.
+A fortress here is first recorded in 1403. In 1409 it passed to Mikuláš of Újezd, who took the name "of Lobkovice" from it and founded the Lobkowicz family, which went on to play a major role in Bohemian history for centuries. The fortress was captured during the wars of the 15th century and later rebuilt as a Renaissance chateau. After damage in the Thirty Years' War it was rebuilt in its present Baroque form in the late 17th century. In the 19th century the estate was sold to the Prague lawyer Jan Měchura, whose daughter Terezie married František Palacký, the "Father of the Nation", who often worked here. After 1948 the chateau was nationalised and used by Charles University, and after 1989 it was returned to the Lobkowicz family.
 
-🎁 Bonus: The Bohemian historian who all but invented the modern Czech national narrative spent some of his happiest working hours inside a chateau built by the very aristocratic family whose historical role he spent his career critically examining — a coincidence Palacký himself would surely have appreciated.`,
+🎁 Bonus: The historian who wrote the great story of the Czech nation spent some of his happiest working hours in the chateau from which one of Bohemia's grandest noble families took its name. History, as Palacký knew well, loves such neat coincidences.`,
+      cz: `Zámek Lobkovice stojí u Labe v Lobkovicích, dnes části Neratovic, severně od Prahy. Je to místo, které dalo jméno rodu Lobkoviců, jednomu z nejvýznamnějších šlechtických rodů v Čechách, a později se stalo oblíbeným útočištěm historika Františka Palackého.
 
-      cz: `Statečný dobrodruhu, vítej na Zámku Lobkovice, panství na břehu Labe, které bylo tolika různými majiteli tolikrát přestavěno, že jeho zdi lze číst téměř jako vrstevnatou historii samotných Čech.
+Tvrz je tu poprvé doložena roku 1403. Roku 1409 připadla Mikuláši z Újezda, který si podle ní dal přídomek „z Lobkovic“ a založil rod Lobkoviců, který pak po staletí hrál v českých dějinách velkou roli. Tvrz byla dobyta za válek 15. století a později přestavěna na renesanční zámek. Po poškození za třicetileté války byla koncem 17. století přestavěna do dnešní barokní podoby. V 19. století bylo panství prodáno pražskému advokátovi Janu Měchurovi, jehož dcera Terezie se provdala za Františka Palackého, „otce národa“, který tu často pracoval. Po roce 1948 byl zámek zestátněn a užívala ho Univerzita Karlova a po roce 1989 byl vrácen Lobkovicům.
 
-Tvrz na tomto místě je poprvé doložena v roce 1403 v držení pražského měšťana Prokopa Kruknera, ale osud místa se změnil v roce 1409, kdy je získal Mikuláš z Újezda, zakladatel rodu Lobkoviců, který ji nechal přestavět na rozsáhlejší gotické věžovité sídlo s třípatrovou hranolovou věží z lomového kamene. Král Jiří z Poděbrad tvrz v roce 1450 dobyl a rod Sekerků ji později přestavěl na renesanční zámek, poprvé doložený v této nové podobě v roce 1610. Třicetiletá válka zanechala budovu opakovaně vydrancovanou a zpustlou a do podoby, kterou znáte dnes, byla přestavěna teprve v roce 1679 za knížete Ferdinanda Augusta z Lobkovic podle plánů italského architekta Antonia della Porty. V roce 1829 Lobkovicové panství prodali pražskému advokátovi Janu Měchurovi, který je znovu přestavěl; jeho dcera Terezie je zdědila v roce 1840 a jako manželka historika Františka Palackého udělala ze zámku jedno z jeho oblíbených útočišť. Lobkovicové panství později znovu získali, drželi je až do znárodnění v roce 1948, a po desetiletích, kdy zámek sloužil Filozofické fakultě Univerzity Karlovy jako studijní středisko a depozitář knihoven, byl v restituci v roce 1991 vrácen potomkovi roudnické větve rodu - Alexandru de Ridder-Lobkowiczovi, pravnukovi desátého knížete Ferdinanda Zdeňka.
+🎁 Bonus: Historik, který sepsal velký příběh českého národa, strávil některé ze svých nejšťastnějších pracovních hodin na zámku, po němž dostal jméno jeden z nejvelkolepějších šlechtických rodů Čech. Dějiny, jak Palacký dobře věděl, mají takové úhledné náhody rády.`,
+      zh: `罗布科维茨城堡立在布拉格以北易北河畔的罗布科维采，如今属于内拉托维采。正是这个地方给了洛布科维茨家族名字，这是波希米亚最重要的贵族家族之一，后来这里又成了历史学家弗朗蒂谢克·帕拉茨基最爱的隐居之所。
 
-🎁 Bonus: Český historik, který svým dílem prakticky vytvořil moderní český národní příběh, strávil jedny z nejšťastnějších pracovních chvil na zámku postaveném právě tím šlechtickým rodem, jehož historickou roli po celou svou kariéru kriticky zkoumal - shoda okolností, kterou by sám Palacký jistě ocenil.`,
+这里的要塞最早见于1403年的记载。1409年它归了乌耶兹德的米库拉什，他以此地为号，自称“罗布科维茨的”，创立了洛布科维茨家族，这个家族此后几百年在波希米亚历史上举足轻重。要塞在15世纪的战争中被攻占，后来改建成文艺复兴城堡。三十年战争中受损后，17世纪末被改建成今天的巴洛克样子。19世纪庄园卖给了布拉格律师扬·梅胡拉，他的女儿特蕾齐耶嫁给了“民族之父”弗朗蒂谢克·帕拉茨基，帕拉茨基常在这里工作。1948年后城堡被收归国有，由查理大学使用，1989年后归还给了洛布科维茨家族。
 
-      zh: `勇敢的冒险家，欢迎来到罗布科维茨城堡——这座易北河畔的庄园，历经太多不同主人的一再改建，以至于它的墙壁几乎就是一部波希米亚历史的层叠缩影。
-
-这里最早的堡垒记载可追溯至1403年，当时归布拉格市民普罗科普·克鲁克纳所有，但1409年，随着罗布科维茨家族的创始人米库拉什·兹·乌耶兹达获得此地，命运开始转变——他将其扩建为一座更宏大的哥特式塔楼宅邸，核心是一座三层的碎石棱柱形塔楼。1450年，国王伊日·兹·波杰布拉德攻占了这座堡垒，此后色克尔卡家族将其改建为文艺复兴式城堡，这一新形态最早记载于1610年。三十年战争令这座建筑屡遭洗劫、日渐荒废，直到1679年，在费迪南德·奥古斯特·冯·罗布科维茨亲王主持下，依照意大利建筑师安东尼奥·德拉·波尔塔的设计重建，才形成了你今天所见的样貌。1829年，罗布科维茨家族将庄园卖给布拉格律师扬·梅胡拉，后者再次对其加以改建；他的女儿特雷齐于1840年继承了城堡，作为历史学家弗朗齐歇克·帕拉茨基的妻子，她让这座城堡成了丈夫最钟爱的隐居之所。此后罗布科维茨家族重新收回庄园，一直持有到1948年被收归国有；此后数十年间，城堡曾作为查理大学哲学院的研究中心与图书馆书库，直到1991年才在财产归还中，交还给罗布科维茨家族劳德尼采分支的后裔——第十代亲王费迪南德·兹德涅克的曾孙亚历山大·德·里德尔－罗布科维茨。
-
-🎁 彩蛋：这位几乎凭一己之力塑造了现代捷克民族叙事的历史学家，一生中最惬意的工作时光，恰恰是在他毕生都在批判性审视其历史角色的贵族家族所建的城堡里度过的——这份巧合，帕拉茨基本人想必也会欣然会心一笑。`,
+🎁 彩蛋：写下捷克民族宏大故事的历史学家，有些最惬意的工作时光，是在这座给了波希米亚最显赫贵族家族之一名字的城堡里度过的。正如帕拉茨基深知的那样，历史就爱这种工整的巧合。`,
     },
   },
 
@@ -17084,23 +17036,21 @@ Roku 1512 velkou část města zničil požár a za třicetileté války ho vojs
     xpReward: 30,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostelec_nad_%C4%8Cern%C3%BDmi_lesy_(z%C3%A1mek)',
     description: {
-      en: `Brave adventurer, welcome to Kostelec nad Černými lesy Chateau, a fortress-turned-palace that has spent the last century teaching forestry students rather than hosting dukes.
+      en: `The chateau of Kostelec nad Černými lesy, about thirty kilometres east of Prague, grew from a medieval royal fortress into a Renaissance and Baroque residence. For the last century it has belonged to a university and trained students of forestry, fitting for a town whose name means "Kostelec above the Black Forests".
 
-The site began as an important royal fortress founded in the second half of the thirteenth century, most likely to help defend the nearby town of Kouřim; the oldest surviving written mention dates to 1348, confirming its transfer to a lord named Ješek z Náchoda. A new line took over in 1415 under Jan ze Smržova, whose descendants ruled until 1492 — most notably Jindřich ze Smržova, who freed the estate from feudal obligations in 1475 and secured town privileges for a neighbouring village in 1489. Financial trouble then forced a cession of the entire estate to a creditor, Slavata z Chlumu a Košumberka, for a modest sum, and a severe fire in the autumn of 1549 gutted the fortress entirely. Its Renaissance rebuilding, overseen by imperial builder Hans Tyrol, tore down the surviving Gothic palace and replaced it with the four-winged structure whose outline still defines the chateau today. Emperor Ferdinand I sold the unfinished project in 1558 to Jaroslav Smiřický ze Smiřic, and after the Smiřický line's confiscation following the Battle of White Mountain in 1621, the estate passed through Albrecht z Valdštejna before being sold two years later to Prince Karel z Lichtenštejna, under whom it grew into an enormous dominion of sixty-three villages and two market towns. Starting in 1759, the castle was rebuilt in Baroque style under Tyrolean builder Josef Jäger and became the seat of Duchess Maria Theresa of Savoy-Liechtenstein's own court. Expropriated from the Liechtenstein family during the land reform following Czechoslovak independence in 1918, the estate passed to the state, which handed it to the forestry faculty of the Czech Technical University — and it remains in the hands of its successor, the Czech University of Life Sciences, to this day.
+The castle was founded in the second half of the 13th century and is first recorded in writing in 1348. It changed hands many times. After a fire in 1549 it was rebuilt as a four-winged Renaissance chateau, and it later belonged to the Smiřický family. After the Battle of White Mountain their estates were confiscated, and the chateau passed through Albrecht von Wallenstein to the Liechtensteins, who ruled a vast domain from here. In the 18th century it was rebuilt in Baroque style. After 1918 the estate was taken over by the state in the land reform and handed to the forestry faculty of the Czech technical university, and today it belongs to the Czech University of Life Sciences, which uses it for teaching, conferences and accommodation.
 
-🎁 Bonus: A castle built to defend a medieval town, rebuilt for a Renaissance emperor, and remodelled for a Baroque duchess now spends its days teaching students how to manage a forest — arguably the least dramatic ending of any Bohemian noble estate, and possibly the most useful one.`,
+🎁 Bonus: A castle built to guard a medieval region, rebuilt for Renaissance lords and remodelled for a Baroque duchess, now spends its days teaching young people how to look after forests. It may be the most useful retirement any Bohemian noble seat has found.`,
+      cz: `Zámek Kostelec nad Černými lesy, asi třicet kilometrů východně od Prahy, vyrostl ze středověkého královského hradu v renesanční a barokní sídlo. Posledních sto let patří univerzitě a vychovává studenty lesnictví, což se k městu, jehož jméno odkazuje na Černé lesy, výborně hodí.
 
-      cz: `Statečný dobrodruhu, vítej na Zámku Kostelec nad Černými lesy, pevnosti proměněné v zámek, který posledních sto let spíš vyučuje studenty lesnictví, než aby hostil vévody.
+Hrad byl založen ve druhé polovině 13. století a poprvé je písemně zmíněn roku 1348. Mnohokrát změnil majitele. Po požáru roku 1549 byl přestavěn na čtyřkřídlý renesanční zámek a později patřil Smiřickým. Po bitvě na Bílé hoře jim byla panství zkonfiskována a zámek přešel přes Albrechta z Valdštejna na Lichtenštejny, kteří odtud spravovali rozsáhlé dominium. V 18. století byl barokně přestavěn. Po roce 1918 převzal velkostatek v pozemkové reformě stát a předal ho lesnické fakultě české techniky a dnes patří České zemědělské univerzitě, která ho využívá k výuce, konferencím a ubytování.
 
-Místo začínalo jako významná královská tvrz založená ve druhé polovině 13. století, nejspíš na obranu nedaleké Kouřimi; nejstarší dochovaná písemná zmínka pochází z roku 1348 a potvrzuje její převod na pána jménem Ješek z Náchoda. V roce 1415 se vlády ujal nový rod v čele s Janem ze Smržova, jehož potomci vládli až do roku 1492 - nejvýrazněji se zapsal Jindřich ze Smržova, který v roce 1475 osvobodil panství od léna a v roce 1489 získal pro sousední ves městská práva. Finanční potíže pak přinutily postoupit celé panství věřiteli Slavatovi z Chlumu a Košumberka za skromnou částku a ničivý požár na podzim roku 1549 tvrz zcela vypálil. Její renesanční přestavbu, kterou vedl císařský stavitel Hans Tyrol, provázelo zboření zachovalého gotického paláce a jeho nahrazení čtyřkřídlou stavbou, jejíž půdorys dodnes zámek definuje. Císař Ferdinand I. nedokončenou stavbu v roce 1558 prodal Jaroslavovi Smiřickému ze Smiřic a po konfiskaci smiřického dědictví po bitvě na Bílé hoře v roce 1621 přešlo panství přes Albrechta z Valdštejna k Karlu z Lichtenštejna, který ho o dva roky později koupil a za jehož vlády se rozrostlo v obrovské dominium s třiašedesáti vesnicemi a dvěma městečky. Od roku 1759 byl zámek přestavěn v barokním slohu pod vedením tyrolského stavitele Josefa Jägera a stal se sídlem vlastního dvora vévodkyně Marie Terezie Savojsko-Lichtenštejnské. Po vzniku Československa byl v roce 1918 v rámci pozemkové reformy Lichtenštejnům zabaven a přešel do rukou státu, který jej svěřil lesnické fakultě Českého vysokého učení technického - a v rukou její nástupkyně, České zemědělské univerzity, zůstává dodnes.
+🎁 Bonus: Hrad postavený, aby střežil středověký kraj, přestavěný pro renesanční pány a upravený pro barokní vévodkyni, dnes tráví dny výukou mladých lidí, jak pečovat o lesy. Je to možná nejužitečnější penze, jakou kdy české šlechtické sídlo našlo.`,
+      zh: `黑林科斯特莱茨城堡位于布拉格以东约三十公里处，由一座中世纪王家城堡发展成文艺复兴和巴洛克风格的府邸。近一百年来它属于一所大学，培养林业专业的学生，这对一个名字意为“黑森林上方的科斯特莱茨”的小镇来说再合适不过。
 
-🎁 Bonus: Hrad postavený na obranu středověkého města, přestavěný pro renesančního císaře a upravený pro barokní vévodkyni dnes tráví dny vyučováním studentů, jak spravovat les - snad nejméně dramatický konec, jaký kdy potkal české šlechtické panství, a možná i ten nejužitečnější.`,
+城堡建于13世纪下半叶，最早的文字记载是1348年。它多次易主。1549年失火后被改建成一座四翼的文艺复兴城堡，后来归斯米日茨基家族所有。白山战役后，这个家族的领地被没收，城堡经阿尔布雷希特·冯·华伦斯坦之手转给了列支敦士登家族，他们从这里管理着一大片领地。18世纪城堡被改建为巴洛克风格。1918年后，国家在土地改革中接收了这片大庄园，把它交给了捷克理工大学的林业学院，如今它属于捷克生命科学大学，用于教学、会议和住宿。
 
-      zh: `勇敢的冒险家，欢迎来到科斯特莱茨城堡——这座由堡垒变身宫殿的建筑，过去一个世纪里教导的与其说是公爵贵胄，不如说是林业系的学生。
-
-这座建筑最初是13世纪下半叶建立的一座重要王室堡垒，很可能是为了协助防御附近的库日姆；现存最早的文字记载可追溯至1348年，确认了它转手给一位名叫耶谢克·兹·纳霍达的领主。1415年，扬·泽·斯姆尔若瓦家族接管此地，其后裔统治至1492年——其中最引人注目的是扬德日赫·泽·斯姆尔若瓦，他于1475年使庄园摆脱了封建义务，又在1489年为邻近村庄争取到了城镇特权。此后财务困境迫使庄园以微薄价格转让给债权人斯拉瓦塔·兹·赫卢穆－科舒姆贝尔卡，1549年秋天一场大火又将堡垒彻底烧毁。此后在皇家建筑师汉斯·蒂罗尔主持下进行的文艺复兴式重建，拆除了尚存的哥特式宫殿，代之以一座四翼建筑——这一格局至今仍定义着城堡的轮廓。1558年，皇帝斐迪南一世将这座未完工的建筑卖给雅罗斯拉夫·斯米日日茨基·泽·斯米日日茨，1621年白山战役后斯米日日茨基家族的遗产被没收，庄园辗转经阿尔布雷希特·冯·华伦斯坦之手，两年后被卖给卡雷尔·冯·列支敦士登亲王，在他治下庄园扩张成一个拥有六十三座村庄与两座集镇的庞大领地。自1759年起，城堡在蒂罗尔建筑师约瑟夫·耶格尔主持下按巴洛克风格重建，成为萨伏依－列支敦士登公爵夫人玛丽亚·特蕾莎自己宫廷的驻地。1918年捷克斯洛伐克独立后，庄园在土地改革中被没收，收归国有，随后交由捷克技术大学林学院管理——如今仍归其继承机构捷克生命科学大学所有。
-
-🎁 彩蛋：一座为保卫中世纪城镇而建、为文艺复兴皇帝重建、又为巴洛克公爵夫人翻修的城堡，如今每天的工作却是教学生如何管理森林——这大概是波希米亚贵族庄园里最不戏剧化的结局，却也可能是最实用的一个。`,
+🎁 彩蛋：一座为守卫中世纪地区而建、为文艺复兴领主重建、又为巴洛克公爵夫人改造过的城堡，如今每天都在教年轻人如何照料森林。这大概是波希米亚贵族府邸所能找到的最有用的退休生活了。`,
     },
   },
 
@@ -17236,23 +17186,21 @@ V dubnu 2024, po plném ruském vpádu na Ukrajinu, sochu vandalové polili čer
     xpReward: 20,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Obchodn%C3%AD_centrum_Europark_Praha',
     description: {
-      en: `Brave adventurer, welcome to Europark Prague, a shopping centre so committed to the retail basics that it opened with a hypermarket and a hardware superstore as its anchor tenants — proof that sometimes an adventure just means a really big trolley.
+      en: `Europark is a large shopping centre in Štěrboholy on the eastern edge of Prague, opened in 2002. It was built around a hypermarket and a big DIY store, with dozens of smaller shops around them, at the start of the boom in out-of-town shopping centres around Prague.
 
-Developed by the Austrian group SPAR European Shopping Centers and modelled on similar centres the company had already built in Salzburg and Maribor, Europark opened in Štěrboholy on September 25, 2002, anchored by a Globus hypermarket and an OBI hobby-and-DIY market alongside roughly seventy smaller shops. An additional indoor gallery wing with 23 more shops was added in 2008, and the site now offers over 2,000 parking spaces split between surface lots and an underground garage. SPAR remained the majority owner for its first seventeen years, until Czech developer group DBK Praha bought the centre in 2019 for roughly two billion crowns, with SPAR retaining a minority stake.
+The centre was developed by the Austrian SPAR group and opened on 25 September 2002, with a Globus hypermarket and an OBI home-improvement store as its anchors and around seventy other shops. A new gallery wing with more shops was added in 2008, and the centre has thousands of parking spaces. In 2019 a Czech developer bought the majority of it. Together with the nearby Fashion Arena outlet, it makes Štěrboholy one of the busiest shopping areas on the edge of Prague.
 
-🎁 Bonus: Europark sits in the same general Štěrboholy district where Prussian and Austrian armies fought a bloody battle of the Seven Years' War back in 1757 — nobody's found a receipt proving the mall stands on the exact battle line, but it's a fair bet that whoever picked this spot for a hypermarket wasn't thinking about the 250-year-old artillery duel underfoot.`,
+🎁 Bonus: On 6 May 1757, the fields around Štěrboholy were the scene of the Battle of Prague, one of the bloodiest battles of the Seven Years' War, between the Prussian army of Frederick the Great and the Austrians. Today the same fields are filled with car parks and shopping trolleys.`,
+      cz: `Europark je velké nákupní centrum ve Štěrboholech na východním okraji Prahy, otevřené roku 2002. Bylo postaveno kolem hypermarketu a velkého hobbymarketu s desítkami menších obchodů kolem nich, na začátku boomu nákupních center na okraji Prahy.
 
-      cz: `Statečný dobrodruhu, vítej v Obchodním centru Europark Praha, nákupním centru natolik oddaném základům maloobchodu, že jako své kotevní nájemce otevřelo hypermarket a hobbymarket — důkaz, že někdy dobrodružství znamená prostě jen opravdu velký nákupní vozík.
+Centrum postavila rakouská skupina SPAR a otevřelo se 25. září 2002 s hypermarketem Globus a hobbymarketem OBI jako hlavními nájemci a asi sedmdesáti dalšími obchody. Roku 2008 přibylo nové křídlo pasáže s dalšími obchody a centrum má tisíce parkovacích míst. Roku 2019 koupil jeho většinu český developer. Spolu s nedalekým outletem Fashion Arena dělá ze Štěrbohol jednu z nejrušnějších nákupních oblastí na okraji Prahy.
 
-Europark postavila rakouská skupina SPAR European Shopping Centers podle vzoru podobných center, která už dříve vybudovala v Salcburku a Mariboru, a ve Štěrboholích jej otevřela 25. září 2002 s hypermarketem Globus a hobbymarketem OBI jako hlavními nájemci, doplněnými zhruba sedmdesáti menšími obchody. V roce 2008 přibylo další křídlo krytého pasážového patra s 23 dalšími obchody a areál dnes nabízí přes 2 000 parkovacích míst rozdělených mezi povrchová stání a podzemní garáže. SPAR zůstal většinovým vlastníkem prvních sedmnáct let, než centrum v roce 2019 koupila česká developerská skupina DBK Praha za zhruba dvě miliardy korun, přičemž SPAR si ponechal menšinový podíl.
+🎁 Bonus: Dne 6. května 1757 se na polích kolem Štěrbohol odehrála bitva u Prahy, jedna z nejkrvavějších bitev sedmileté války, mezi pruským vojskem Fridricha Velikého a Rakušany. Dnes tatáž pole zaplňují parkoviště a nákupní vozíky.`,
+      zh: `欧洲公园是布拉格东缘什泰尔博霍利的一座大型购物中心，2002年开业。它围绕一家大卖场和一家大型建材超市而建，周围是几十家小店，正赶上布拉格周边城郊购物中心的兴建热潮。
 
-🎁 Bonus: Europark stojí v téže obecné oblasti Štěrbohol, kde se v roce 1757 za sedmileté války odehrála krvavá bitva pruských a rakouských vojsk — nikdo sice nemá doklad o tom, že by centrum stálo přesně na bitevní linii, ale je docela dobrá sázka, že kdo vybíral toto místo pro hypermarket, na dělostřeleckou přestřelku starou čtvrt tisíciletí pod nohama zrovna nemyslel.`,
+中心由奥地利SPAR集团开发，2002年9月25日开业，以环球大卖场和OBI家居建材超市为主力店，另有约七十家商店。2008年加建了一座有更多店铺的新商廊，中心有数千个停车位。2019年一家捷克开发商买下了它的多数股权。它和附近的时尚奥特莱斯一起，让什泰尔博霍利成了布拉格边缘最热闹的购物区之一。
 
-      zh: `勇敢的冒险家，欢迎来到布拉格欧洲公园购物中心——这座购物中心对"零售基本功"的执着程度，甚至让一家大卖场和一家五金建材超市成为了它的主力店铺，证明有时候所谓的冒险，不过就是推一辆特别大的购物车。
-
-欧洲公园购物中心由奥地利SPAR欧洲购物中心集团开发，仿照该集团此前已在萨尔茨堡与马里博尔建成的同类项目，于2002年9月25日在什捷尔博霍利开业，主力店为家乐超市（Globus）与欧倍德（OBI）五金家居市场，另配有约七十家小型商铺。2008年新增了一座带23家商铺的室内商场翼楼，如今园区共提供两千余个停车位，分布在地面停车场与地下车库。SPAR在开业后的头十七年里始终是大股东，直到2019年，捷克开发商集团DBK Praha以约合二十亿克朗的价格收购了这座购物中心，SPAR则保留了少数股权。
-
-🎁 彩蛋：欧洲公园购物中心所在的什捷尔博霍利一带，正是1757年七年战争期间普鲁士与奥地利军队浴血交锋之地——虽然没人能拿出证据证明商场恰好建在当年的战线之上，但可以合理猜测，当初选中这块地建大卖场的人，脚下这段两百五十年前的炮火交锋，恐怕完全不在他们的考虑范围之内。`,
+🎁 彩蛋：1757年5月6日，什泰尔博霍利周围的田野上发生了布拉格战役，这是七年战争中最血腥的战役之一，交战双方是腓特烈大帝的普鲁士军队和奥地利人。如今同一片田野上停满了汽车，推满了购物车。`,
     },
   },
 
@@ -17414,23 +17362,21 @@ Kostel je starší než jeho první písemná zmínka z roku 1350: románská hl
     xpReward: 50,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kou%C5%99im',
     description: {
-      en: `Brave adventurer, welcome to Kouřim, a town so old it had already peaked, declined, and rebuilt itself as something else entirely before most Bohemian castles had even laid their first stone.
+      en: `Kouřim is a small town about forty kilometres east of Prague with a remarkably long history. Near it lies one of the most important early medieval hillforts in Bohemia, and the town itself keeps a Gothic church, a fine town gate and some unusual bells.
 
-A kilometre east of today's town, the hillfort of Stará Kouřim was occupied as far back as the Eneolithic period, around 4800 BCE, but it hit its stride in the ninth century as a major regional power centre, defended by a double gateway, a moat twelve metres wide, and up to three concentric ramparts stretching over a kilometre in length. It was burned down around 900 CE, rebuilt, and then deliberately extinguished as a power centre in the mid-tenth century by Boleslav I, who built a replacement Přemyslid stronghold on a neighbouring hill instead. The medieval town that grew up nearby was founded as a royal settlement sometime between 1223 and 1250 and first documented in 1261; it became the seat of an entire administrative region, the Kouřim district, that lasted until 1848, and by the late sixteenth century it counted over 2,000 residents. The Thirty Years' War brought near-total destruction and repeated plundering by both Swedish and imperial troops, cutting the population by roughly three-quarters and costing the town its municipal privileges for over a century, and a major fire in 1811 tore through the square as well. Through all of it, the early Gothic Church of St. Stephen has survived in something close to its original form, and the town's early Gothic Prague Gate remains one of the best-preserved town gates of its kind in the country. A freestanding bell tower built in 1525 still rings its bells upside down, in a Dutch-style tradition shared with only one other Czech town, and the geographic reference point for Central European sunrise-and-sunset calculations — the intersection of 50 degrees north and 15 degrees east — happens to fall within Kouřim's own territory.
+A kilometre from the town lies the hillfort of Stará Kouřim, settled in prehistoric times and, in the 9th century, a powerful regional centre protected by massive ramparts. In the 10th century it lost its power as the Přemyslid dukes extended their rule. The medieval town of Kouřim was founded as a royal town in the first half of the 13th century and became the centre of a whole region, the Kouřim district, which lasted until 1848. The Thirty Years' War devastated it, and a great fire in 1811 damaged the square. Yet the early Gothic Church of St Stephen, with a remarkable crypt, and the Gothic Prague Gate have survived, along with a separate bell tower from 1525.
 
-🎁 Bonus: A town whose local hillfort traded with Greeks and Etruscans, whose bells have rung upside down since 1525, and whose exact coordinates quietly define sunrise across an entire continental time zone has, somehow, still not made it onto most people's map of Bohemia.`,
+🎁 Bonus: Kouřim's bells are rung in an old style in which the bell swings right round, mouth upward, a rare tradition in the Czech Republic. And not far from the town runs the crossing of 50 degrees north and 15 degrees east, a point once used as a reference for calculating the times of sunrise and sunset in Central Europe.`,
+      cz: `Kouřim je městečko asi čtyřicet kilometrů východně od Prahy s pozoruhodně dlouhou historií. Nedaleko leží jedno z nejvýznamnějších raně středověkých hradišť v Čechách a samotné město si uchovalo gotický kostel, krásnou městskou bránu a neobvyklé zvony.
 
-      cz: `Statečný dobrodruhu, vítej v Kouřimi, městě tak starém, že už dávno stihlo dosáhnout vrcholu, upadnout a přerodit se v něco úplně jiného, než většina českých hradů vůbec položila první kámen.
+Kilometr od města leží hradiště Stará Kouřim, osídlené už v pravěku a v 9. století mocné regionální centrum chráněné mohutnými valy. V 10. století ztratilo moc, když přemyslovská knížata rozšířila svou vládu. Středověké město Kouřim bylo založeno jako královské město v první polovině 13. století a stalo se centrem celého Kouřimského kraje, který vydržel až do roku 1848. Třicetiletá válka ho zpustošila a velký požár roku 1811 poškodil náměstí. Přesto přežil raně gotický kostel sv. Štěpána s pozoruhodnou kryptou a gotická Pražská brána spolu se samostatnou zvonicí z roku 1525.
 
-Kilometr východně od dnešního města bylo hradiště Stará Kouřim osídleno už v eneolitu, kolem roku 4800 př. n. l., ale svého vrcholu dosáhlo v 9. století jako významné regionální mocenské centrum, chráněné dvojitou branou, dvanáct metrů širokým příkopem a až třemi soustřednými valy o délce přes kilometr. Kolem roku 900 bylo vypáleno, znovu postaveno a poté, v polovině 10. století, jej Boleslav I. jako mocenské centrum záměrně vyřadil z provozu a postavil místo něj náhradní přemyslovské hradiště na sousedním kopci. Středověké město, které vyrostlo poblíž, bylo založeno jako královské sídliště někdy mezi lety 1223 a 1250 a poprvé doloženo v roce 1261; stalo se sídlem celého správního kraje, kouřimského kraje, který trval až do roku 1848, a na konci 16. století čítalo přes 2 000 obyvatel. Třicetiletá válka přinesla téměř úplné zničení a opakované plenění švédskými i císařskými vojsky, což snížilo počet obyvatel zhruba o tři čtvrtiny a stálo město jeho městská privilegia na více než století, a velký požár v roce 1811 se prohnal i náměstím. Přes to všechno se raně gotický kostel svatého Štěpána dochoval téměř v původní podobě a raně gotická Pražská brána města zůstává jednou z nejlépe dochovaných městských bran svého druhu v zemi. Samostatně stojící zvonice postavená v roce 1525 dodnes zvoní svými zvony vzhůru nohama, v tradici sdílené po nizozemském vzoru jen s jedním dalším českým městem, a geografický referenční bod pro výpočty východu a západu slunce ve střední Evropě — průsečík 50. rovnoběžky a 15. poledníku — náhodou padá přímo na území Kouřimi.
+🎁 Bonus: Kouřimské zvony se zvoní starým způsobem, při kterém se zvon přetočí dokola ústím vzhůru, což je v Česku vzácná tradice. A nedaleko města prochází průsečík 50. rovnoběžky a 15. poledníku, bod, který kdysi sloužil jako výchozí pro výpočty časů východu a západu slunce ve střední Evropě.`,
+      zh: `库日姆是布拉格以东约四十公里处的一座小镇，历史悠久得惊人。附近有波希米亚最重要的中世纪早期城寨之一，小镇本身则保留着一座哥特式教堂、一座漂亮的城门和几口不寻常的钟。
 
-🎁 Bonus: Město, jehož místní hradiště obchodovalo s Řeky a Etrusky, jehož zvony zvoní vzhůru nohama už od roku 1525 a jehož přesné souřadnice tiše určují východ slunce pro celé kontinentální časové pásmo, se přesto nějak stále nedostalo na mapu Čech ve větším povědomí lidí.`,
+离镇一公里处是旧库日姆城寨，史前时代就有人居住，9世纪时是一个由巨大土墙守护的强大地区中心。10世纪，随着普热米斯尔公爵们扩张统治，它失去了权势。中世纪的库日姆城在13世纪上半叶作为王家城市建立，成为整个库日姆地区的中心，这个行政区一直存在到1848年。三十年战争使它满目疮痍，1811年的一场大火又烧坏了广场。尽管如此，带有一座奇特地下墓室的早期哥特式圣斯德望教堂和哥特式布拉格门都保存了下来，还有一座1525年的独立钟楼。
 
-      zh: `勇敢的冒险家，欢迎来到库日姆——一座古老到早在多数波希米亚城堡还没打下第一块基石之前，就已经历过兴盛、衰落，并彻底转型成另一番模样的城镇。
-
-在如今城镇以东一公里处，"老库日姆"城寨早在公元前约4800年的铜石并用时代便已有人居住，但它真正的鼎盛期是在9世纪，彼时它是一处重要的区域权力中心，由双重城门、一道十二米宽的壕沟，以及最多三道总长逾一公里的同心壁垒共同守卫。约公元900年，城寨被焚毁，随后重建，但到10世纪中叶，博莱斯拉夫一世刻意让它的权力中心地位终结，转而在邻近山丘上建起了替代性的普热米斯尔城寨。在附近发展起来的中世纪城镇，大约建于1223年至1250年间，作为王室聚落而立，1261年首次见诸文献；它后来成为整个"库日姆州"这一行政区的驻地，一直延续到1848年，到16世纪末，城内居民已超过两千人。三十年战争给这座城镇带来了几近毁灭性的打击，瑞典与皇室军队反复劫掠，人口锐减约四分之三，城镇的自治特权也被剥夺长达一个多世纪；1811年的一场大火又席卷了城镇广场。尽管历经种种劫难，早期哥特式的圣斯特凡教堂几乎完好保存至今，城镇的早期哥特式"布拉格门"也仍是该国同类城门中保存最完好的之一。一座建于1525年的独立钟楼，至今仍以荷兰式的传统"倒挂"方式敲钟——这种做法在捷克境内仅有另一座城镇沿用；而中欧计算日出日落的地理参照点——北纬50度与东经15度的交汇处——恰好就落在库日姆的辖境之内。
-
-🎁 彩蛋：一座城寨曾与希腊人和伊特鲁里亚人通商、钟声自1525年起便"倒挂"长鸣、精确坐标又悄悄定义着整个大陆时区日出时刻的城镇，不知为何，至今仍未真正进入大多数人心目中的波希米亚地图。`,
+🎁 彩蛋：库日姆的钟是用一种古老的方式敲的，钟会整个翻转过来，钟口朝上，这在捷克是罕见的传统。小镇附近还穿过北纬50度与东经15度的交点，这个点曾被用作计算中欧日出日落时间的基准。`,
     },
   },
 
@@ -17538,29 +17484,21 @@ Od roku 1752 sloužil hrad armádě jako kasárna, a to téměř dvě století. 
     xpReward: 20,
     wikipediaUrl: 'https://en.wikipedia.org/wiki/%C5%A0koda_Museum',
     description: {
-      en: `Brave adventurer, welcome to the Škoda Museum (Muzeum Škoda)! Housed in the very factory halls where the cars were once built, this museum proves a company can turn 130 years of bicycles, racing cars, and self-deprecating jokes about reliability into one seriously good afternoon out.
+      en: `The Škoda Museum in Mladá Boleslav, about sixty kilometres northeast of Prague, tells the story of one of the oldest car makers in the world. It is housed in the old factory halls where the company's early cars were built.
 
-Václav Laurin and Václav Klement founded their bicycle workshop in Mladá Boleslav in 1895 — the venture that eventually became Škoda Auto is one of only a handful of carmakers in the world with an unbroken history stretching back to the 19th century. The museum itself opened in 1995 to mark the company's centenary, and it occupies the original production halls where Laurin & Klement, and later Škoda, built cars until 1928. An earlier exhibition, the AZNP Museum of Technology, had already opened nearby in 1975, timed to coincide with both the company's 80th anniversary and the 1,000th anniversary of Mladá Boleslav itself.
+In 1895 the mechanic Václav Laurin and the bookseller Václav Klement founded a bicycle workshop in Mladá Boleslav. They went on to motorcycles and, in 1905, their first car, the Voiturette A. In 1925 Laurin & Klement merged with the Škoda engineering works of Plzeň, and the cars took the Škoda name. The museum opened in 1995 for the company's centenary and was rebuilt in 2012. Its exhibition, arranged in three parts, follows the story from early bicycles and motorcycles through elegant pre-war cars to rally cars and modern models, with dozens of historic vehicles and a workshop where old cars are restored.
 
-A major reconstruction reopened the museum in its current form in autumn 2012, expanding it to roughly 1,800 square metres organised into three sections — Evolution, Tradition, and Precision — tracing the marque from an 1899 Slavia bicycle through the first Laurin & Klement Voiturette A car to modern racing machines. Around 340 exhibits are on display, including about 46 historic automobiles, and the museum now draws roughly 120,000 visitors a year.
+🎁 Bonus: For decades Škoda cars were the butt of countless jokes in Western Europe, but the company is one of the few car makers anywhere with a continuous history going back to the 19th century. In Mladá Boleslav, the joke is on the jokers.`,
+      cz: `Muzeum Škoda v Mladé Boleslavi, asi šedesát kilometrů severovýchodně od Prahy, vypráví příběh jednoho z nejstarších výrobců automobilů na světě. Sídlí ve starých továrních halách, kde se stavěly první vozy firmy.
 
-🎁 Bonus: The museum offers a joint discounted ticket with the Ferdinand Porsche birthplace museum in Vratislavice nad Nisou (part of Liberec), tying two giants of Central European automotive history together on one ticket.`,
+Roku 1895 založili mechanik Václav Laurin a knihkupec Václav Klement v Mladé Boleslavi dílnu na jízdní kola. Přešli k motocyklům a roku 1905 k prvnímu automobilu, voiturettě A. Roku 1925 se Laurin & Klement spojil s plzeňskými Škodovými závody a vozy převzaly jméno Škoda. Muzeum se otevřelo roku 1995 ke stému výročí firmy a roku 2012 bylo přestavěno. Jeho expozice ve třech částech sleduje příběh od prvních kol a motocyklů přes elegantní předválečné vozy po rallyové speciály a moderní modely, s desítkami historických vozidel a dílnou, kde se renovují stará auta.
 
-      cz: `Statečný dobrodruhu, vítej v muzeu Škoda! Umístěné přímo v továrních halách, kde se kdysi vyráběla auta, toto muzeum dokazuje, že firma dokáže ze 130 let jízdních kol, závodních vozů a sebeironických vtipů o spolehlivosti udělat pořádně dobré odpoledne.
+🎁 Bonus: Škodovky byly desítky let terčem nespočtu vtipů v západní Evropě, ale firma patří k několika málo výrobcům automobilů na světě s nepřetržitou historií sahající do 19. století. V Mladé Boleslavi se tak nakonec smějí ti, kdo se smějí naposled.`,
+      zh: `姆拉达-博莱斯拉夫的斯柯达博物馆位于布拉格东北约六十公里处，讲述世界上最古老的汽车制造商之一的故事。它设在公司早期汽车诞生的老厂房里。
 
-Václav Laurin a Václav Klement založili svou dílnu na výrobu jízdních kol v Mladé Boleslavi v roce 1895 — podnik, z něhož se nakonec stala automobilka Škoda Auto, patří mezi hrstku výrobců aut na světě s nepřerušenou historií sahající až do 19. století. Samotné muzeum bylo otevřeno v roce 1995 u příležitosti stého výročí založení firmy a sídlí přímo v původních výrobních halách, kde se automobily Laurin & Klement a později Škoda vyráběly až do roku 1928. Dřívější expozice, Muzeum techniky AZNP, byla nedaleko otevřena už v roce 1975, u příležitosti 80. výročí založení firmy a zároveň 1000. výročí založení Mladé Boleslavi.
+1895年，机械师瓦茨拉夫·劳林和书商瓦茨拉夫·克莱门特在姆拉达-博莱斯拉夫创办了一家自行车作坊。他们后来转向摩托车，1905年造出了第一辆汽车“Voiturette A”。1925年，劳林与克莱门特公司与比尔森的斯柯达工厂合并，汽车改用斯柯达的名字。博物馆在1995年公司百年之际开馆，2012年重建。它的展览分为三个部分，从早期的自行车和摩托车，到优雅的战前汽车，再到拉力赛车和现代车型，展出几十辆历史车辆，还有一个修复老车的工坊。
 
-Po rozsáhlé rekonstrukci se muzeum na podzim 2012 otevřelo v dnešní podobě, rozšířené na zhruba 1 800 metrů čtverečních rozdělených do tří sekcí — Evoluce, Tradice a Preciznost — které mapují značku od jízdního kola Slavia z roku 1899 přes první vůz Laurin & Klement Voiturette A až po moderní závodní vozy. K vidění je přibližně 340 exponátů včetně asi 46 historických automobilů a muzeum dnes ročně navštíví okolo 120 000 lidí.
-
-Bonus: Muzeum nabízí zvýhodněnou společnou vstupenku s rodným domem Ferdinanda Porsche ve Vratislavicích nad Nisou (dnes součást Liberce) — spojuje tak na jedné vstupence dvě velké kapitoly středoevropské automobilové historie.`,
-
-      zh: `勇敢的冒险家，欢迎来到斯柯达博物馆（Muzeum Škoda）！博物馆就设在当年真正生产汽车的厂房里，用130年的自行车、赛车和关于"可靠性"的自嘲笑话，证明一家公司完全可以把这些变成一个非常精彩的下午。
-
-瓦茨拉夫·劳林（Václav Laurin）和瓦茨拉夫·克莱门特（Václav Klement）于1895年在姆拉达-博莱斯拉夫创办了自行车作坊——这家企业最终发展成为斯柯达汽车（Škoda Auto），是世界上少数几家历史从19世纪延续至今、从未中断的汽车制造商之一。博物馆本身于1995年为纪念公司成立百年而开幕，就设在劳林与克莱门特公司（以及后来的斯柯达）一直生产汽车到1928年的原始厂房内。更早之前，一座名为"AZNP技术博物馆"的展馆已于1975年在附近开放，恰逢公司成立80周年与姆拉达-博莱斯拉夫建城1000周年。
-
-经过大规模改造，博物馆于2012年秋以现今的面貌重新开放，展区扩大到约1800平方米，分为"进化""传统""精密"三个部分，展示了从1899年的斯拉维亚（Slavia）自行车，到第一辆劳林与克莱门特Voiturette A型汽车，再到现代赛车的品牌历程。馆内共展出约340件展品，其中包括约46辆历史名车，如今每年吸引大约12万名参观者。
-
-🎁 彩蛋：博物馆与位于利贝雷茨（Liberec）弗拉季斯拉维采（Vratislavice nad Nisou）的费迪南德·保时捷（Ferdinand Porsche）故居博物馆推出联合优惠门票，把中欧汽车史上的两大传奇用一张票联系在了一起。`,
+🎁 彩蛋：几十年来，斯柯达汽车在西欧是无数笑话的笑柄，可这家公司是世界上少数几家历史可以不间断地追溯到19世纪的汽车制造商之一。在姆拉达-博莱斯拉夫，笑到最后的是被笑的那一方。`,
     },
   },
   {
@@ -19609,29 +19547,21 @@ Sochu vytvořil roku 1929 sochař Josef Franěk, žák Bohumila Kafky, a stupňo
     xpReward: 20,
     wikipediaUrl: '',
     description: {
-      en: `Brave adventurer, welcome to the Chasm of Time Fountain! Despite the ominous name, nobody actually falls through anything here — it is a perfectly civil, computer-programmed water feature on a quiet Smíchov square that pulses, glows, and occasionally soaks a passing toddler. The real drama on this exact patch of pavement happened decades before the water ever started flowing.
+      en: `The Chasm of Time fountain stands on Náměstí Kinských in Smíchov, a computer-controlled play of water and light on the spot where a Soviet tank once stood. Its name refers to the layers of history that lie under this one small square.
 
-Long before anyone programmed forty nozzles and a light show, this square carried the deeply unglamorous official name náměstí Sovětských tankistů, home to a five-metre pedestal holding a Soviet IS-2 tank, installed in 1945 to commemorate the Red Army's liberation of Prague. The tank sat on almost the exact spot where a Baroque bear fountain had stood since 1894, unceremoniously relocated to make room. In April 1991, an art student named David Černý climbed onto the tank overnight and painted it shocking pink, turning a solemn war memorial into one of the most argued-about artworks of the entire post-communist transition. He was briefly charged with hooliganism; a group of sympathetic members of parliament, shielded by parliamentary immunity, then repainted the tank pink themselves rather than let the authorities quietly restore it to green. The Russian embassy filed a formal protest. Within weeks the tank was removed from the square altogether and eventually installed at a military museum outside Prague.
+After 1945 a Soviet IS-2 tank was placed here on a tall pedestal as a memorial to the Red Army's liberation of Prague, and the square was renamed after the Soviet tank crews. In April 1991 the young artist David Černý painted the tank pink overnight, turning a solemn monument into one of the most debated artworks of the years after communism. He was briefly arrested; when the authorities repainted it green, a group of members of parliament, protected by their immunity, painted it pink again. Soon afterwards the tank was removed from the square and taken to a military museum. The empty pedestal stood here for a decade before the fountain, designed by the architects Jan Lauda and Petr Levý, was unveiled in 2002. Its jets shoot water several metres into the air in changing patterns, lit from below at night.
 
-The pedestal then sat empty for more than a decade before the site got a very different kind of monument. Unveiled in October 2002 and designed by architects Jan Lauda and Petr Levý with the LILA studio, the fountain uses forty outer cascade nozzles and twenty-four aeration jets to punch water columns more than eight metres into the air, choreographed by computer alongside underwater lighting. Its name and design were conceived explicitly as a meditation on the transience of time and of the history layered beneath this square — bear, tank, pedestal, and now water, each occupying the same patch of ground in turn.
+🎁 Bonus: Before the tank, this spot held the Baroque Bear Fountain, which was moved to make room for it. Bear, tank, empty pedestal and now a fountain: four very different monuments have taken turns on the same patch of Smíchov in less than a century.`,
+      cz: `Fontána Propadliště času stojí na náměstí Kinských na Smíchově, počítačem řízená hra vody a světla na místě, kde kdysi stál sovětský tank. Její jméno odkazuje na vrstvy dějin, které leží pod tímto jedním malým náměstím.
 
-🎁 Bonus: In August 2018, on the fiftieth anniversary of the 1968 Warsaw Pact invasion, David Černý returned to this same square and installed another tank — this one buried three-quarters into the ground nearby, as if the earth had finally swallowed it whole. Officially a temporary installation, it has lingered for years, which means an actual sinking, subsiding chasm of time now sits just a few metres from the fountain that only pretends to be one.`,
+Po roce 1945 tu byl na vysoký podstavec umístěn sovětský tank IS-2 jako pomník osvobození Prahy Rudou armádou a náměstí bylo přejmenováno po sovětských tankistech. V dubnu 1991 přes noc natřel mladý výtvarník David Černý tank narůžovo a z vážného pomníku udělal jedno z nejdiskutovanějších uměleckých děl let po komunismu. Byl krátce zatčen; když úřady tank přetřely zpět nazeleno, skupina poslanců chráněných imunitou ho natřela narůžovo znovu. Brzy nato byl tank z náměstí odstraněn a odvezen do vojenského muzea. Prázdný podstavec tu stál deset let, než byla roku 2002 odhalena fontána navržená architekty Janem Laudou a Petrem Levým. Její trysky stříkají vodu několik metrů vysoko v měnících se obrazcích a v noci jsou zespodu osvětlené.
 
-      cz: `Statečný dobrodruhu, vítej u Fontány Propadliště času! Navzdory zlověstnému názvu se tu nikam nepropadá — je to naprosto civilizovaná, počítačem řízená vodní atrakce na klidném smíchovském náměstí, která pulzuje, svítí a občas osprchuje projíždějící batole. Skutečné drama se na tomto konkrétním kousku dlažby odehrálo celá desetiletí předtím, než tu vůbec potekla voda.
+🎁 Bonus: Před tankem stála na tomto místě barokní Medvědí kašna, kterou kvůli němu přestěhovali. Medvědi, tank, prázdný podstavec a teď fontána: čtyři velmi odlišné pomníky se na stejném kousku Smíchova vystřídaly za necelé století.`,
+      zh: `时间深渊喷泉位于斯米霍夫的金斯基广场，是一座由电脑控制的水与光的表演，所在之处曾经立着一辆苏联坦克。它的名字指的正是这个小广场底下层层叠叠的历史。
 
-Dlouho předtím, než někdo naprogramoval čtyřicet trysek a světelnou show, neslo toto náměstí krajně nepůvabný úřední název náměstí Sovětských tankistů a stál tu pětimetrový podstavec s tankem IS-2, umístěným v roce 1945 na památku osvobození Prahy Rudou armádou. Tank stál téměř přesně na místě, kde od roku 1894 stávala barokní Medvědí kašna, kterou kvůli němu museli bez okolků přestěhovat. V dubnu 1991 na tank přes noc vylezl umělecký student David Černý a natřel ho jasně růžovou barvou, čímž ze seriózního válečného památníku udělal jedno z nejrozporuplnějších uměleckých děl celé porevoluční doby. Byl krátce obviněn z výtržnictví; skupina nakloněných poslanců, chráněná poslaneckou imunitou, pak tank sama znovu natřela na růžovo, aby ho úřady nemohly v tichosti vrátit do zelené barvy. Ruská ambasáda podala oficiální protest. Během několika týdnů byl tank z náměstí odstraněn úplně a nakonec skončil ve vojenském muzeu za Prahou.
+1945年后，这里一座高高的基座上安放了一辆苏联IS-2坦克，纪念红军解放布拉格，广场也改以苏联坦克兵命名。1991年4月，年轻艺术家大卫·切尔尼连夜把坦克涂成了粉红色，把一座庄严的纪念碑变成了后共产主义年代最具争议的艺术作品之一。他被短暂拘留；当局把坦克重新漆成绿色后，一群受议员豁免权保护的国会议员又把它涂回了粉红色。不久坦克被从广场上撤走，运进了一家军事博物馆。空基座在这里立了十年，2002年由建筑师扬·劳达和彼得·莱维设计的喷泉揭幕。它的喷头把水喷到几米高，变换着图案，夜里从下方打灯。
 
-Podstavec pak přes deset let zel prázdnotou, než místo dostalo zcela jiný druh památníku. Fontána byla slavnostně otevřena v říjnu 2002 podle návrhu architektů Jana Laudy a Petra Levého ve spolupráci s ateliérem LILA a pomocí čtyřiceti obvodových kaskádových trysek a čtyřiadvaceti provzdušňovacích trysek vytváří vodní sloupy vysoké přes osm metrů, řízené počítačem společně s podvodním osvětlením. Její název i koncept byly záměrně pojaty jako meditace o pomíjivosti času a dějin uložených pod tímto náměstím ve vrstvách — medvěd, tank, podstavec a teď voda, každý postupně na tom samém kousku země.
-
-🎁 Bonus: V srpnu 2018, u příležitosti padesátého výročí invaze vojsk Varšavské smlouvy z roku 1968, se David Černý na stejné náměstí vrátil a nedaleko odtud instaloval další tank — tentokrát ze tří čtvrtin zabořený do země, jako by ho země konečně pohltila celý. Oficiálně šlo o dočasnou instalaci, která tu ale vydržela roky, takže se skutečné, propadající se propadliště času nachází jen pár metrů od fontány, která si na něj jen hraje.`,
-
-      zh: `勇敢的冒险家，欢迎来到时间深渊喷泉！尽管名字听起来阴森恐怖，这里其实什么都不会塌陷——它只是斯米霍夫区一处安静广场上、由电脑程序控制的水景装置，会脉动、会发光，偶尔还会把路过的小朋友浇个正着。真正的戏剧性事件，早在这里喷出第一滴水之前的几十年，就已经在同一块地面上上演过了。
-
-早在有人为四十个喷嘴和灯光秀编写程序之前，这座广场曾顶着一个毫不浪漫的官方名字，广场中央矗立着一座五米高的基座，上面安放着一辆苏联IS-2坦克，于1945年设立，用以纪念红军解放布拉格。这辆坦克所占的位置，几乎正是自1894年起就矗立在此的巴洛克风格熊喷泉的原址——为了给坦克腾地方，那座喷泉被毫不客气地迁走了。1991年4月，一位艺术系学生大卫·切尔尼（David Černý）趁夜爬上坦克，把它漆成了鲜艳的粉红色，让一座庄重的战争纪念碑瞬间变成了后共产主义转型期间争议最大的艺术作品之一。他一度被以流氓罪起诉；一群同情他的议员随后动用自己的议员豁免权，亲自把坦克重新漆成粉红色，不让当局悄悄把它恢复成绿色。俄罗斯大使馆为此提出了正式抗议。几周之内，这辆坦克就被彻底移出了广场，最终被安置进布拉格郊外的一座军事博物馆。
-
-基座此后空置了十多年，这块地方才迎来了一种截然不同的纪念物。喷泉于2002年10月正式揭幕，由建筑师扬·劳达（Jan Lauda）与彼得·列维（Petr Levý）联手LILA工作室设计，利用四十个外圈瀑布喷嘴和二十四个曝气喷嘴，喷出高达八米以上的水柱，并由电脑统一调度水柱与水下灯光的节奏。它的名字与设计构思，从一开始就是对时间流逝、以及这块广场地下层层叠叠的历史的一种沉思——熊、坦克、基座，如今又是水，依次占据着同一块土地。
-
-🎁 彩蛋：2018年8月，正值1968年华沙条约组织入侵捷克斯洛伐克五十周年纪念，大卫·切尔尼又回到了这同一座广场，在附近安装了另一辆坦克——这一次，坦克车身四分之三都被埋进了地里，仿佛大地终于把它整个吞了下去。这原本只是一件临时装置，却在原地待了好几年，于是一处真正在下沉、真正在塌陷的"时间深渊"，如今就安放在这座只是假装塌陷的喷泉几米之外。`,
+🎁 彩蛋：在坦克之前，这里立着巴洛克风格的熊喷泉，为了给坦克腾地方被搬走了。熊、坦克、空基座，再到喷泉：不到一百年里，四座截然不同的纪念物轮流占据了斯米霍夫的同一小块地。`,
     },
   },
   {
