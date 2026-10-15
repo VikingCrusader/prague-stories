@@ -3723,41 +3723,6 @@ První dostih se tu běžel 28. září 1906, jen pár týdnů poté, co povode�
     },
   },
   {
-    name: 'National Monument to the Heroes of the Heydrich Terror',
-    slug: 'narodni-pamatnik-hrdinu-heydrichiady',
-    localizedNames: { cz: 'Národní památník hrdinů heydrichiády', zh: '海德里希暴政英雄纪念馆' },
-    labels: ['museum', 'historical', 'cultural'],
-    district: 'Praha 2',
-    quarter: 'Nové Město',
-    coordinates: { lat: 50.07592300023791, lng: 14.416677836699467 },
-    rarity: 'epic',
-    xpReward: 50,
-    wikipediaUrl: '',
-    description: {
-      en: `The National Monument to the Heroes of the Heydrich Terror lies in the crypt of the Orthodox Cathedral of Saints Cyril and Methodius on Resslova Street. In June 1942 seven Czechoslovak paratroopers hid here after the assassination of Reinhard Heydrich, and here they made their last stand.
-
-Heydrich, the Nazi ruler of the Protectorate of Bohemia and Moravia, was attacked on 27 May 1942 by paratroopers sent from London, Jan Kubiš and Jozef Gabčík, in what was called Operation Anthropoid. He died of his wounds a week later. The Orthodox clergy hid the attackers and five of their comrades in the crypt of this Baroque church. On 18 June, after they were betrayed, around 800 German troops surrounded the church. The paratroopers fought for hours, and when the Germans tried to flood the crypt with water from fire hoses, the last of them took their own lives rather than surrender. The bullet holes in the wall around the crypt window on Resslova Street are still there.
-
-The exhibition, opened in 1995 and rebuilt by the Military History Institute in 2010, follows the whole story, from Munich and the occupation to the attack and the terror that followed it. Entry is free.
-
-🎁 Bonus: The paratroopers were betrayed by one of their own, fellow parachutist Karel Čurda, who gave himself up to the Gestapo for the reward money. Bishop Gorazd, who took responsibility for sheltering them in an effort to protect his church, was executed that September along with the church's priests. The Orthodox Church later declared him a saint.`,
-      cz: `Národní památník hrdinů heydrichiády je v kryptě pravoslavného chrámu sv. Cyrila a Metoděje v Resslově ulici. V červnu 1942 se tu po atentátu na Reinharda Heydricha ukrývalo sedm československých parašutistů a právě tady svedli svůj poslední boj.
-
-Heydricha, nacistického vládce Protektorátu Čechy a Morava, napadli 27. května 1942 parašutisté vyslaní z Londýna, Jan Kubiš a Jozef Gabčík, v operaci nazvané Anthropoid. Na následky zranění zemřel o týden později. Pravoslavní duchovní ukryli útočníky a pět jejich druhů v kryptě tohoto barokního kostela. 18. června, po zradě, obklíčilo kostel na 800 německých vojáků. Parašutisté se bránili celé hodiny, a když se Němci pokusili kryptu zatopit vodou z hasičských hadic, poslední z nich si raději vzali život, než by se vzdali. Stopy po kulkách ve zdi kolem okénka krypty v Resslově ulici jsou vidět dodnes.
-
-Expozice otevřená v roce 1995 a v roce 2010 přepracovaná Vojenským historickým ústavem provází celým příběhem, od Mnichova a okupace po atentát a teror, který po něm následoval. Vstup je zdarma.
-
-🎁 Bonus: Parašutisty zradil jeden z nich, parašutista Karel Čurda, který se kvůli odměně sám přihlásil na gestapu. Biskup Gorazd, který vzal odpovědnost za jejich ukrytí na sebe, aby ochránil svou církev, byl v září popraven spolu s duchovními chrámu. Pravoslavná církev ho později prohlásila za svatého.`,
-      zh: `海德里希暴政英雄纪念馆位于雷斯洛瓦街圣西里尔和圣美多德东正教座堂的地下墓室里。1942年6月，七名捷克斯洛伐克伞兵在刺杀莱因哈德·海德里希之后藏身于此，也在这里进行了最后的战斗。
-
-海德里希是纳粹在波希米亚和摩拉维亚保护国的统治者。1942年5月27日，从伦敦派来的伞兵扬·库比什和约瑟夫·加布奇克对他发动了袭击，行动代号“类人猿”。一周后，他伤重而死。东正教神职人员把两名刺客和他们的五名战友藏进了这座巴洛克教堂的地下墓室。6月18日，由于遭到出卖，约800名德军包围了教堂。伞兵们抵抗了好几个小时，德军试图用消防水管往墓室里灌水时，最后几个人宁可自尽也不投降。雷斯洛瓦街那扇墓室小窗周围墙上的弹孔，至今仍清晰可见。
-
-展览1995年开放，2010年由军事历史研究所重新布置，从慕尼黑协定、德国占领一直讲到刺杀以及随后的恐怖统治。参观免费。
-
-🎁 彩蛋：出卖伞兵的是他们自己人，伞兵卡雷尔·丘尔达为了赏金主动向盖世太保自首。戈拉兹德主教为了保护自己的教会，把藏匿伞兵的责任揽到自己身上，当年9月与教堂的神父们一起被处决。东正教会后来把他封为圣人。`,
-    },
-  },
-  {
     name: 'Villa Lanna',
     slug: 'villa-lanna',
     localizedNames: { cz: 'Lannova vila', zh: '兰纳别墅' },
