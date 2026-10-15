@@ -109,8 +109,6 @@ const map = {
 };
 
 export const LABEL_DEFINITIONS = {
-  historical: { emoji: "🏛️", en: "Historical", cz: "Historické", zh: "历史" },
-  modern: { emoji: "🏙️", en: "Modern", cz: "Moderní", zh: "现代" },
   cultural: {
     emoji: "🎭",
     en: "Cultural & Art",
@@ -130,19 +128,30 @@ export const LABEL_DEFINITIONS = {
     cz: "Komunismus",
     zh: "共产主义与冷战",
   },
+  // Eras: for places that aren't mainly buildings (monuments, sites, battlefields)
+  prehistory: { emoji: "🏺", en: "Prehistory & Legend", cz: "Pravěk a pověsti", zh: "史前与传说" },
+  medieval: { emoji: "⚔️", en: "Medieval", cz: "Středověk", zh: "中世纪" },
+  "early-modern": { emoji: "📜", en: "Early Modern", cz: "Raný novověk", zh: "近代早期" },
+  "national-revival": { emoji: "🦁", en: "National Revival", cz: "Národní obrození", zh: "民族复兴" },
+  "world-wars": { emoji: "🎖️", en: "World Wars", cz: "Světové války", zh: "两次大战" },
+  // Architectural styles
+  romanesque: { emoji: "🧱", en: "Romanesque", cz: "Románský sloh", zh: "罗马式" },
+  gothic: { emoji: "🪟", en: "Gothic", cz: "Gotika", zh: "哥特式" },
+  renaissance: { emoji: "📐", en: "Renaissance", cz: "Renesance", zh: "文艺复兴式" },
+  baroque: { emoji: "👼", en: "Baroque", cz: "Baroko", zh: "巴洛克式" },
+  classicism: { emoji: "🏛️", en: "Classicism", cz: "Klasicismus", zh: "古典主义" },
+  historicism: { emoji: "🪞", en: "Historicism", cz: "Historismus", zh: "历史主义" },
+  "art-nouveau": { emoji: "🌸", en: "Art Nouveau", cz: "Secese", zh: "新艺术运动" },
+  cubism: { emoji: "🔷", en: "Cubism", cz: "Kubismus", zh: "立体主义" },
+  functionalism: { emoji: "⬜", en: "Functionalism", cz: "Funkcionalismus", zh: "功能主义" },
+  brutalism: { emoji: "🏢", en: "Brutalism", cz: "Brutalismus", zh: "粗野主义" },
+  contemporary: { emoji: "🌆", en: "Contemporary Architecture", cz: "Současná architektura", zh: "当代建筑" },
   church: { emoji: "⛪", en: "Church & Cathedral", cz: "Kostel", zh: "教堂" },
   bridge: { emoji: "🌉", en: "Bridge", cz: "Most", zh: "桥梁" },
   academy: { emoji: "📚", en: "Academy", cz: "Akademie", zh: "学术" },
-  architecture: {
-    emoji: "🏛️",
-    en: "Architecture",
-    cz: "Architektura",
-    zh: "建筑",
-  },
   landmark: { emoji: "📍", en: "Landmark", cz: "Dominanta", zh: "地标" },
   palace: { emoji: "🏯", en: "Palace", cz: "Palác", zh: "宫殿" },
   villa: { emoji: "🏡", en: "Villa", cz: "Vila", zh: "别墅" },
-  basilica: { emoji: "⛪", en: "Basilica", cz: "Bazilika", zh: "宗座圣殿" },
   monastery: { emoji: "🏯", en: "Monastery", cz: "Klášter", zh: "修道院" },
   park: {
     emoji: "🌳",
@@ -193,20 +202,32 @@ export const LABEL_DEFINITIONS = {
 };
 
 export const LABEL_COLORS = {
-  historical: "#7a5210",
-  modern: "#1a3a5a",
   cultural: "#5a1480",
   museum: "#2a1a50",
   monument: "#3a2a50",
   communism: "#6a0a0a",
+  prehistory: "#5a3a1a",
+  medieval: "#4a2a3a",
+  "early-modern": "#3a4a2a",
+  "national-revival": "#7a1a2a",
+  "world-wars": "#3a4a3a",
+  romanesque: "#6a4a3a",
+  gothic: "#2a2a5a",
+  renaissance: "#6a5a1a",
+  baroque: "#7a3a5a",
+  classicism: "#4a5a6a",
+  historicism: "#5a4a2a",
+  "art-nouveau": "#2a6a4a",
+  cubism: "#1a3a6a",
+  functionalism: "#3a5a5a",
+  brutalism: "#4a4a4a",
+  contemporary: "#1a5a7a",
   church: "#7a4a10",
   bridge: "#1a4a6a",
   academy: "#0a5050",
-  architecture: "#4a3a6a",
   landmark: "#8a3f3f",
   palace: "#5a2a1a",
   villa: "#6a4a2a",
-  basilica: "#7a4a10",
   monastery: "#5a2a1a",
   "village-and-town": "#3b7a5a",
   city: "#2a5a7a",
@@ -230,6 +251,34 @@ export const LABEL_COLORS = {
   outside: "#4a4a5a",
   "castle and fortress": "#5a2a1a",
 };
+
+// How the label filter groups its pills. Every LABEL_DEFINITIONS key should
+// appear in exactly one group; LabelFilterGroups puts any it misses at the end.
+export const LABEL_GROUPS = [
+  {
+    key: "era", en: "Era", cz: "Období", zh: "时代",
+    labels: ["prehistory", "medieval", "early-modern", "national-revival", "world-wars", "communism"],
+  },
+  {
+    key: "style", en: "Style", cz: "Sloh", zh: "风格",
+    labels: ["romanesque", "gothic", "renaissance", "baroque", "classicism", "historicism",
+      "art-nouveau", "cubism", "functionalism", "brutalism", "contemporary"],
+  },
+  {
+    key: "building", en: "Buildings", cz: "Stavby", zh: "建筑",
+    labels: ["church", "monastery", "castle and fortress", "palace", "villa", "homestead", "tower",
+      "bridge", "ruin", "museum", "academy", "municipal", "embassy", "factory"],
+  },
+  {
+    key: "place", en: "Places", cz: "Místa", zh: "地点",
+    labels: ["city", "village-and-town", "street", "square", "transport", "monument", "landmark"],
+  },
+  {
+    key: "other", en: "Other", cz: "Ostatní", zh: "其他",
+    labels: ["park", "nature", "waterbody", "geology", "cafe", "restaurants-and-cafes",
+      "cultural", "jewish", "hidden-gem", "outside"],
+  },
+];
 
 export function getArt(pixelArtKey, labels) {
   const firstLabel = Array.isArray(labels) ? labels[0] : labels;

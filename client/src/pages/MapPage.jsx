@@ -11,6 +11,7 @@ import ScopeToggle, { isInCity } from '../components/locations/ScopeToggle';
 import AreaFilter, { matchesArea } from '../components/locations/AreaFilter';
 import DistrictLine, { descriptiveLabels } from '../components/locations/DistrictLine';
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../utils/pixelArtMap';
+import LabelFilterGroups from '../components/locations/LabelFilterGroups';
 import { getLocalCoverPath } from '../utils/localCover';
 import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, lockClosedIcon } from '../utils/rarity';
 import { playUnlockSound } from '../utils/sound';
@@ -175,15 +176,11 @@ export default function MapPage() {
               </button>
               {labelsOpen && (
                 <div className="label-filter__panel label-filter__panel--inline">
-                  {Object.entries(LABEL_DEFINITIONS).filter(([key]) => !(cityOnly && key === 'outside')).map(([key, def]) => (
-                    <button
-                      key={key}
-                      className={`label-pill${activeLabels.has(key) ? ' label-pill--active' : ''}`}
-                      onClick={() => toggleLabel(key)}
-                    >
-                      {convert(lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en)}
-                    </button>
-                  ))}
+                  <LabelFilterGroups
+                    activeLabels={activeLabels}
+                    onToggle={toggleLabel}
+                    hidden={cityOnly ? ['outside'] : []}
+                  />
                   {activeLabels.size > 0 && (
                     <button
                       className="label-pill label-pill--clear"

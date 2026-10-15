@@ -35,13 +35,23 @@ export const HIDDEN_DRAW_BANDS = [
 // many uncollected cards must fit them, or the distance band is widened
 // until they do. Later guesses narrow things down anyway, so no minimum.
 export const HIDDEN_DRAW_FIRST_MIN_CANDIDATES = 4;
-// A label on more than this share of the possible cards (e.g. "historical",
-// on over half of them) says next to nothing, so it is never the opening
+// A label on more than this share of the possible cards (e.g. the old
+// catch-all "historical", once on over half of them) says next to nothing, so it is never the opening
 // clue while the card has a more telling one.
 export const HIDDEN_DRAW_GENERIC_LABEL_SHARE = 0.25;
 // Labels treated as generic however rare they are: "hidden-gem" says the
 // place is little known, not what it is.
 export const HIDDEN_DRAW_VAGUE_LABELS = ['hidden-gem'];
+
+// A card with any of these counts as a "historical location" for the
+// History Fan achievement: the era and architectural-style labels that
+// replaced the old catch-all "historical" label (2026-10-15).
+export const HISTORY_LABELS = new Set([
+  'communism',
+  'prehistory', 'medieval', 'early-modern', 'national-revival', 'world-wars',
+  'romanesque', 'gothic', 'renaissance', 'baroque', 'classicism', 'historicism',
+  'art-nouveau', 'cubism', 'functionalism', 'brutalism',
+]);
 
 /**
  * The order a treasure's labels are revealed in (first on guess 1, second on
@@ -202,7 +212,7 @@ export const ACHIEVEMENTS = [
     description_cz: "Přihlaste se na 30 historických míst.",
     description_zh: "打卡30个历史地点。",
     difficulty: "medium",
-    check: ({ labelCount }) => (labelCount["historical"] || 0) >= 30,
+    check: ({ historyCount }) => (historyCount || 0) >= 30,
   },
   // Leisure Seeker: Check in to 30 Entertainment and Leisure locations.
   {

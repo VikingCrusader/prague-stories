@@ -842,6 +842,23 @@ html:not([data-lang="zh"]) .loc-card__name {
   min-width: 300px;
   max-width: 500px;
 }
+/* Label filter groups (era, style, buildings, ...): each takes a full row. */
+.label-filter__group { flex: 1 1 100%; min-width: 0; }
+.label-filter__group + .label-filter__group {
+  padding-top: 8px;
+  border-top: 1px solid var(--border);
+}
+.label-filter__group-title {
+  margin-bottom: 6px;
+  font-family: var(--ui-font);
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+html[data-lang="zh"] .label-filter__group-title { font-size: 13px; letter-spacing: 0.1em; }
+.label-filter__group-pills { display: flex; flex-wrap: wrap; gap: 6px; }
 .filter-row { flex-wrap: wrap; }
 /* Map sidebar: same trick, an open panel takes the full row below. */
 .filter-row > .label-filter { display: contents; }

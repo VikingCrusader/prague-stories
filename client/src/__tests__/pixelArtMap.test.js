@@ -1,4 +1,4 @@
-import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../utils/pixelArtMap.js';
+import { getArt, LABEL_DEFINITIONS, LABEL_COLORS, LABEL_GROUPS } from '../utils/pixelArtMap.js';
 
 describe('getArt', () => {
   describe('known pixelArtKey', () => {
@@ -7,7 +7,7 @@ describe('getArt', () => {
     });
 
     test('bridge key returns bridge emoji', () => {
-      expect(getArt('bridge', 'historical')).toBe('🌉');
+      expect(getArt('bridge', 'gothic')).toBe('🌉');
     });
 
     test('pub key returns beer emoji regardless of label', () => {
@@ -25,7 +25,7 @@ describe('getArt', () => {
     });
 
     test('falls back using first element of an array label', () => {
-      expect(getArt('nonexistent-key', ['historical', 'cultural'])).toBe('🏛️');
+      expect(getArt('nonexistent-key', ['baroque', 'cultural'])).toBe('👼');
     });
 
     test('ignores subsequent labels — only first is used', () => {
@@ -68,7 +68,7 @@ describe('LABEL_DEFINITIONS', () => {
 
   test('includes core label types', () => {
     expect(LABEL_DEFINITIONS).toHaveProperty('church');
-    expect(LABEL_DEFINITIONS).toHaveProperty('historical');
+    expect(LABEL_DEFINITIONS).toHaveProperty('gothic');
     expect(LABEL_DEFINITIONS).toHaveProperty('park');
     expect(LABEL_DEFINITIONS).toHaveProperty('hidden-gem');
     expect(LABEL_DEFINITIONS).toHaveProperty('landmark');
@@ -85,5 +85,19 @@ describe('LABEL_COLORS', () => {
   test('all LABEL_DEFINITIONS keys also have a LABEL_COLORS entry', () => {
     const missing = Object.keys(LABEL_DEFINITIONS).filter(k => !(k in LABEL_COLORS));
     expect(missing).toEqual([]);
+  });
+});
+
+describe('LABEL_GROUPS', () => {
+  test('every label sits in exactly one filter group', () => {
+    const all = LABEL_GROUPS.flatMap(g => g.labels);
+    expect(new Set(all).size).toBe(all.length);
+    expect([...all].sort()).toEqual(Object.keys(LABEL_DEFINITIONS).sort());
+  });
+
+  test('every group has a name in all three languages', () => {
+    for (const g of LABEL_GROUPS) {
+      expect(g.en && g.cz && g.zh).toBeTruthy();
+    }
   });
 });

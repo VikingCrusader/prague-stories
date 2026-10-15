@@ -1,7 +1,7 @@
 import CheckIn from '../models/CheckIn.js';
 import Location from '../models/Location.js';
 import User from '../models/User.js';
-import { evaluateAchievements, calculateLevel, RANDOM_DRAW_WINDOW_MS, huntXp } from '../services/gamification.js';
+import { evaluateAchievements, calculateLevel, RANDOM_DRAW_WINDOW_MS, huntXp, HISTORY_LABELS } from '../services/gamification.js';
 import { haversineDistance } from '../utils/geo.js';
 
 const MAX_DISTANCE_METERS = 100;
@@ -83,12 +83,14 @@ export async function recordCheckIn(user, location, { note = '', xpEarned, guess
   const labelCount = {};
   const checkedSlugs = [];
   let presetCheckins = 0;
+  let historyCount = 0;
 
   for (const ci of allCheckins) {
     if (!ci.location) continue;
     for (const lb of (ci.location.labels || [])) {
       labelCount[lb] = (labelCount[lb] || 0) + 1;
     }
+    if ((ci.location.labels || []).some(lb => HISTORY_LABELS.has(lb))) historyCount++;
     checkedSlugs.push(ci.location.slug);
     if (!ci.location.addedBy) presetCheckins++;
   }
@@ -103,6 +105,7 @@ export async function recordCheckIn(user, location, { note = '', xpEarned, guess
     presetCheckins,
     totalLocations,
     labelCount,
+    historyCount,
     checkedSlugs,
     customLocations,
   };

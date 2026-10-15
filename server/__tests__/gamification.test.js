@@ -192,12 +192,12 @@ describe('evaluateAchievements', () => {
   });
 
   test('unlocks history_buff at exactly 30 historical check-ins', () => {
-    const stats = { ...baseStats, labelCount: { historical: 30 } };
+    const stats = { ...baseStats, historyCount: 30 };
     expect(evaluateAchievements(stats, []).map(a => a.id)).toContain('history_buff');
   });
 
   test('does not unlock history_buff at 29 historical check-ins', () => {
-    const stats = { ...baseStats, labelCount: { historical: 29 } };
+    const stats = { ...baseStats, historyCount: 29 };
     expect(evaluateAchievements(stats, []).map(a => a.id)).not.toContain('history_buff');
   });
 

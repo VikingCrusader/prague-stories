@@ -1,7 +1,7 @@
 import { useState, useMemo, useEffect, useRef, useDeferredValue } from 'react';
 import LocationCard from './LocationCard';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
-import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
+import LabelFilterGroups from './LabelFilterGroups';
 import { RARITY_VAR, RARITY_LABEL, RARITY_ICON } from '../../utils/rarity';
 import { NEARBY_REVEAL_M } from '../../utils/geolocation';
 
@@ -176,15 +176,11 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
             </button>
             {labelsOpen && (
               <div className="label-filter__panel">
-                {Object.entries(LABEL_DEFINITIONS).filter(([key]) => !(hideOutsideLabel && key === 'outside')).map(([key, def]) => (
-                  <button
-                    key={key}
-                    className={`label-pill${activeLabels.has(key) ? ' label-pill--active' : ''}`}
-                    onClick={() => toggleLabel(key)}
-                  >
-                    {convert(lang === 'zh' ? def.zh : lang === 'cz' ? def.cz : def.en)}
-                  </button>
-                ))}
+                <LabelFilterGroups
+                  activeLabels={activeLabels}
+                  onToggle={toggleLabel}
+                  hidden={hideOutsideLabel ? ['outside'] : []}
+                />
                 {activeLabels.size > 0 && (
                   <button
                     className="label-pill label-pill--clear"
