@@ -33,9 +33,9 @@ const active = extra => ({
 const hunt = extra => ({
   attempt: 1, maxAttempts: 5, multiplier: 10, radius: 3000,
   rarity: null, xpReward: null, quarter: null, district: null,
-  fromSquare: { near: false, direction: 'NE' },
+  riverSide: 'oldTown',
   labels: ['church'], misses: [],
-  proximity: { within: true, distance: null, band: { min: 0, max: 3000 } },
+  proximity: { within: true, distance: null, band: null },
   ...extra,
 });
 
@@ -75,8 +75,9 @@ test.describe('Treasure hunt', () => {
     await expect(page).toHaveURL(/\/treasure-hunt$/);
     await expect(page.locator('h1')).toHaveText('Treasure Hunt');
     await expect(page.getByText('Things worth finding are hidden.')).toBeVisible();
-    // No mode tabs any more: the hunt is the only game here.
-    await expect(page.getByRole('tab')).toHaveCount(0);
+    // Clues and Hardcore tabs, Clues by default.
+    await expect(page.getByRole('tab')).toHaveCount(2);
+    await expect(page.getByRole('tab', { name: 'Clues' })).toHaveAttribute('aria-selected', 'true');
     await expect(page.getByText('A treasure hunt hides the location from you', { exact: false })).toBeVisible();
     await page.getByRole('button', { name: 'Start the Hunt' }).click();
     expect(started).toBe(1);
@@ -85,9 +86,9 @@ test.describe('Treasure hunt', () => {
     await expect(panel.getByText('Guess 1 of 5')).toBeVisible();
     // No rarity, so no XP figure either (it would give the rarity away).
     await expect(panel.locator('.hunt-panel__reward')).toHaveText('10× XP');
-    // Guess 1 only gets a rough distance band.
-    await expect(panel.getByText('Distance from you: under 3 km', { exact: true })).toBeVisible();
-    await expect(panel.getByText('The treasure lies in the north-east of Prague (measured from Old Town Square).')).toBeVisible();
+    // Guess 1 shows no distance band, only "within" once the button unlocks.
+    await expect(panel.getByText('Within 3 km', { exact: true })).toBeVisible();
+    await expect(panel.getByText('The treasure is on the right bank of the Vltava (the Old Town side).')).toBeVisible();
     // Just the one label, no rarity pill.
     await expect(panel.locator('.hunt-panel__clues .detail-label-pill')).toHaveCount(1);
     await expect(panel.getByText('Church & Cathedral')).toBeVisible();
@@ -151,7 +152,7 @@ test.describe('Treasure hunt', () => {
         misses: [
           { direction: 'S' }, { direction: 'S' }, { direction: 'NE' }, { direction: 'W' },
         ],
-        fromSquare: { near: true, direction: null },
+        riverSide: 'oldTown',
         proximity: { within: true, distance: 40, direction: 'N' },
       }),
     });
@@ -172,7 +173,7 @@ test.describe('Treasure hunt', () => {
     const panel = page.locator('.hunt-panel');
     await expect(panel.getByText('Distance from you: 40 m · Head north')).toBeVisible();
     await expect(panel.getByText('Guess 3: the treasure lies north-east of where you pressed.')).toBeVisible();
-    await expect(panel.getByText('The treasure is near Old Town Square.')).toBeVisible();
+    await expect(panel.getByText('The treasure is on the right bank of the Vltava (the Old Town side).')).toBeVisible();
     await expect(panel.getByText('Church & Cathedral')).toBeVisible();
     // Nothing comes after the last guess, so it can't be given up.
     await expect(panel.getByRole('button', { name: 'Give up this round, take the clues' })).toHaveCount(0);
@@ -225,5 +226,14 @@ test.describe('Treasure hunt', () => {
     await expect(panel.getByText('Church & Cathedral')).toHaveCount(0);
     expect(rerolls).toBe(1);
     await expect(page.getByRole('button', { name: 'Re-roll (once per hunt)' })).toHaveCount(0);
+  });
+  test('the luck rule links to Hardcore mode', async ({ page }) => {
+    await loginAsUser(page);
+    await page.route(DRAW_RE, route => route.fulfill({ json: { active: false, canDraw: true } }));
+    await page.route(/\/api\/user\/hardcore-hunt(\?.*)?$/, route => route.fulfill({ json: { active: false, canDraw: true } }));
+    await page.goto('/treasure-hunt');
+    await page.getByRole('link', { name: 'Hardcore mode' }).click();
+    await expect(page.getByRole('tab', { name: 'Hardcore' })).toHaveAttribute('aria-selected', 'true');
+    await expect(page.locator('h1')).toHaveText('Hardcore Hunt');
   });
 });

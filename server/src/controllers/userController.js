@@ -4,8 +4,8 @@ import Location from '../models/Location.js';
 import {
   ACHIEVEMENTS, LEVELS, calculateLevel, RANDOM_DRAW_WINDOW_MS,
   HIDDEN_DRAW_MULTIPLIERS, HIDDEN_DRAW_RADII, HIDDEN_DRAW_HIT_M,
-  HIDDEN_DRAW_BANDS, HIDDEN_DRAW_FIRST_MIN_CANDIDATES,
-  OLD_TOWN_SQUARE, HIDDEN_DRAW_NEAR_SQUARE_M, orderHuntLabels, huntXp,
+  HIDDEN_DRAW_BANDS, HUNT_EXCLUDED_SLUGS, riverSideOf, orderHuntLabels, huntXp,
+  HARDCORE_MULTIPLIERS, HARDCORE_GUESS_RADIUS, HARDCORE_REVEAL_M, hardcoreReading, hardcoreXp, isHardcoreLive,
 } from '../services/gamification.js';
 import { haversineDistance, compassDirection } from '../utils/geo.js';
 import { recordCheckIn } from './checkinController.js';
@@ -82,66 +82,37 @@ function isDrawActive(draw) {
   return !!(draw?.drawnAt && draw.mode === 'hidden' && Date.now() - new Date(draw.drawnAt).getTime() < RANDOM_DRAW_WINDOW_MS);
 }
 
-function fromSquareOf({ lat, lng }) {
-  return haversineDistance(OLD_TOWN_SQUARE.lat, OLD_TOWN_SQUARE.lng, lat, lng) < HIDDEN_DRAW_NEAR_SQUARE_M
-    ? { near: true, direction: null }
-    : { near: false, direction: compassDirection(OLD_TOWN_SQUARE.lat, OLD_TOWN_SQUARE.lng, lat, lng) };
-}
-
 // The cards a treasure hunt can hide (and so the ones a player has to tell
-// apart): uncollected, inside Prague, with a quarter.
-async function huntPoolMatch(user) {
+// apart): uncollected, inside Prague, with a quarter (which gives the river
+// side), and not on the river itself (HUNT_EXCLUDED_SLUGS). The hardcore
+// hunt gives no river-side clue, so it may hide on a bridge or island too.
+async function huntPoolMatch(user, { hardcore = false } = {}) {
   const checkins = await CheckIn.find({ user: user._id }).select('location').lean();
-  return { _id: { $nin: checkins.map(c => c.location) }, labels: { $ne: 'outside' }, quarter: { $nin: [null, ''] } };
+  return {
+    _id: { $nin: checkins.map(c => c.location) },
+    slug: { $nin: hardcore ? [] : HUNT_EXCLUDED_SLUGS },
+    labels: { $ne: 'outside' },
+    quarter: { $nin: [null, ''] },
+  };
 }
 
 async function huntPool(user) {
   return Location.find(await huntPoolMatch(user)).select('slug labels rarity district coordinates').lean();
 }
 
-// The distance band the treasure is in on guesses 1–4 ({ min, max } in
+// The distance band the treasure is in on guesses 2–4 ({ min, max } in
 // metres, max null = open). Outside the guess radius, anything below it is
 // already ruled out, so the band starts no lower than `floor`.
 function bandOf(attempt, d, floor) {
-  const edges = [0, ...HIDDEN_DRAW_BANDS[attempt - 1], null];
+  const edges = [0, ...HIDDEN_DRAW_BANDS[attempt - 2], null];
   const i = edges.findIndex((e, k) => k < edges.length - 1 && d >= e && (edges[k + 1] === null || d < edges[k + 1]));
   return { min: Math.max(edges[i], floor), max: edges[i + 1] };
-}
-
-// The first guess's band: the band the treasure is in, widened over
-// neighbouring bands (narrowest first, lower first) until at least
-// HIDDEN_DRAW_FIRST_MIN_CANDIDATES cards from `pool` fit it along with the
-// other first clues (label, direction from Old Town Square, and whether the
-// user is inside the first guess radius, which the guess button gives away).
-// Deterministic, so polling from one spot can't narrow it down. Null when
-// nothing short of "anywhere" leaves enough cards. Later guesses skip this:
-// their clues narrow things down anyway.
-function firstGuessBand(d, within, shown, pool, pos) {
-  const dist = c => haversineDistance(pos.lat, pos.lng, c.coordinates.lat, c.coordinates.lng);
-  const candidates = pool.filter(c => {
-    if (!shown.labels.every(lb => c.labels?.includes(lb))) return false;
-    const sq = fromSquareOf(c.coordinates);
-    if (sq.near !== shown.fromSquare.near || sq.direction !== shown.fromSquare.direction) return false;
-    return (dist(c) <= HIDDEN_DRAW_RADII[0]) === within;
-  }).map(dist);
-  const edges = [0, ...HIDDEN_DRAW_BANDS[0], null];
-  const n = edges.length - 1;
-  const i = edges.findIndex((e, k) => k < n && d >= e && (edges[k + 1] === null || d < edges[k + 1]));
-  for (let span = 1; span < n; span++) {
-    for (let a = Math.max(0, i - span + 1); a <= Math.min(i, n - span); a++) {
-      const min = edges[a];
-      const max = edges[a + span];
-      const fit = candidates.filter(cd => cd >= min && (max === null || cd < max)).length;
-      if (fit >= HIDDEN_DRAW_FIRST_MIN_CANDIDATES) return { min, max };
-    }
-  }
-  return null;
 }
 
 // Treasure hunt, still unsolved: only the clues go to the client, never the
 // location or its coordinates (they'd be readable in devtools). Clues are
 // added a little at a time, one or two per guess:
-//   1. one label, which way it lies from Old Town Square, distance band
+//   1. one label, which side of the Vltava it is on (riverSide), no distance
 //   2. + rarity (and the XP figure, which would give it away), and the
 //        direction from each spot where a guess was pressed
 //   3. + a second label, the district (Praha N)
@@ -150,11 +121,10 @@ function firstGuessBand(d, within, shown, pool, pos) {
 // spots would let a player triangulate the treasure.
 //   5. + all labels
 // Distance to the treasure is computed here from the position the client
-// reports. Guess 1 always shows a band (HIDDEN_DRAW_BANDS); guesses 2–4 a
-// band outside the guess radius and "within" inside it; guess 5 the exact
-// figure.
-// `pool` (the cards it could be, see huntPool) is needed for guess 1's band.
-function buildHuntClues(draw, location, pos, pool = null) {
+// reports. Guess 1 shows none beyond "within" once the button unlocks;
+// guesses 2–4 a band outside the guess radius (HIDDEN_DRAW_BANDS) and
+// "within" inside it; guess 5 the exact figure.
+function buildHuntClues(draw, location, pos) {
   const { lat, lng } = location.coordinates;
   const max = HIDDEN_DRAW_RADII.length;
   const attempt = Math.min((draw.misses?.length || 0) + 1, max);
@@ -162,7 +132,6 @@ function buildHuntClues(draw, location, pos, pool = null) {
   const shownLabels = attempt >= max ? labelOrder : labelOrder.slice(0, attempt >= 3 ? 2 : 1);
   const showRarity = attempt >= 2;
   const radius = HIDDEN_DRAW_RADII[attempt - 1];
-  const fromSquare = fromSquareOf(location.coordinates);
 
   let proximity = null;
   if (pos) {
@@ -174,8 +143,7 @@ function buildHuntClues(draw, location, pos, pool = null) {
       band: null,
       direction: attempt >= 4 ? compassDirection(pos.lat, pos.lng, lat, lng) : null,
     };
-    if (attempt === 1) proximity.band = firstGuessBand(d, within, { labels: shownLabels, fromSquare }, pool || [location], pos);
-    else if (attempt <= HIDDEN_DRAW_BANDS.length && !within) proximity.band = bandOf(attempt, d, radius);
+    if (attempt >= 2 && attempt <= HIDDEN_DRAW_BANDS.length + 1 && !within) proximity.band = bandOf(attempt, d, radius);
   }
 
   return {
@@ -189,7 +157,7 @@ function buildHuntClues(draw, location, pos, pool = null) {
     xpReward: showRarity ? location.xpReward : null,
     district: attempt >= 3 ? location.district : null,
     quarter: attempt >= 4 ? location.quarter : null,
-    fromSquare,
+    riverSide: riverSideOf(location.quarter),
     labels: shownLabels,
     misses: (draw.misses || []).map(m => (m.skipped ? { skipped: true } : { direction: m.direction })),
     proximity,
@@ -232,8 +200,7 @@ async function buildDrawResponse(user, pos = null) {
 
   if (!draw.bonusUsed) {
     if (!location) return { ...base, location: null, hunt: null };
-    const pool = pos && !draw.misses?.length ? await huntPool(user) : null;
-    return { ...base, location: null, hunt: buildHuntClues(draw, location, pos, pool) };
+    return { ...base, location: null, hunt: buildHuntClues(draw, location, pos) };
   }
   const ci = location && await CheckIn.findOne({ user: user._id, location: location._id }).select('xpEarned').lean();
   return {
@@ -262,11 +229,15 @@ function shuffle(arr) {
 }
 
 // Picks a random treasure, or null when none is left: from huntPool's
-// cards (uncollected, inside Prague, with a quarter). A re-roll passes the
-// current card as `excludeSlug`.
-async function pickDrawLocation(user, excludeSlug = null) {
-  const match = await huntPoolMatch(user);
-  if (excludeSlug) match.slug = { $ne: excludeSlug };
+// cards (uncollected, inside Prague, with a quarter, not on the river). A
+// re-roll passes the current card as `excludeSlug`. The other mode's live
+// treasure is skipped too, so one check-in never settles both hunts.
+async function pickDrawLocation(user, excludeSlug = null, { hardcore = false } = {}) {
+  const match = await huntPoolMatch(user, { hardcore });
+  const other = hardcore
+    ? (isDrawActive(user.randomDraw) && !user.randomDraw.bonusUsed ? user.randomDraw.slug : null)
+    : (isHardcoreLive(user.hardcoreDraw) ? user.hardcoreDraw.slug : null);
+  match.slug.$nin = [...match.slug.$nin, ...[excludeSlug, other].filter(Boolean)];
   const [picked] = await Location.aggregate([{ $match: match }, { $sample: { size: 1 } }]);
   return picked || null;
 }
@@ -412,6 +383,139 @@ export async function skipHiddenDraw(req, res, next) {
   }
 }
 
+// Hardcore treasure hunt (see HARDCORE_* in gamification.js). Status:
+// nothing about the card goes out but the rough distance and, once the
+// player has been within 1 km / 500 m, the clues that unlocks. A reported
+// position within those distances raises `revealed` for good.
+async function buildHardcoreResponse(user, pos = null) {
+  const hd = user.hardcoreDraw || {};
+  const inWindow = hd.slug && hd.drawnAt && Date.now() - new Date(hd.drawnAt).getTime() < RANDOM_DRAW_WINDOW_MS;
+  const location = hd.slug ? await Location.findOne({ slug: hd.slug }).select('-description').lean() : null;
+
+  if (!inWindow) {
+    const res = { active: false, canDraw: true };
+    // Ran out of time unsolved: show the answer until the next hunt.
+    if (location && !hd.found) res.lastHunt = { location };
+    return res;
+  }
+  const base = {
+    active: true,
+    canDraw: false,
+    expiresAt: new Date(new Date(hd.drawnAt).getTime() + RANDOM_DRAW_WINDOW_MS).toISOString(),
+  };
+  if (!location) return { ...base, hunt: null };
+  if (hd.found) {
+    const ci = await CheckIn.findOne({ user: user._id, location: location._id }).select('xpEarned').lean();
+    return { ...base, found: true, location: { ...location, _guessAttempt: hd.solvedAttempt }, solvedAttempt: hd.solvedAttempt, xpEarned: ci?.xpEarned ?? null };
+  }
+  if (hd.failed) return { ...base, failed: true, location };
+
+  let revealed = hd.revealed || 0;
+  let reading = null;
+  let canGuess = false;
+  if (pos) {
+    const d = haversineDistance(pos.lat, pos.lng, location.coordinates.lat, location.coordinates.lng);
+    reading = hardcoreReading(d);
+    canGuess = d <= HARDCORE_GUESS_RADIUS;
+    const reach = d < HARDCORE_REVEAL_M[1] ? 2 : d < HARDCORE_REVEAL_M[0] ? 1 : 0;
+    if (reach > revealed) {
+      revealed = reach;
+      await User.updateOne({ _id: user._id, 'hardcoreDraw.slug': hd.slug }, { $max: { 'hardcoreDraw.revealed': reach } });
+    }
+  }
+  const misses = hd.misses?.length || 0;
+  return {
+    ...base,
+    hunt: {
+      attempt: misses + 1,
+      maxAttempts: HARDCORE_MULTIPLIERS.length,
+      multiplier: HARDCORE_MULTIPLIERS[misses],
+      radius: HARDCORE_GUESS_RADIUS,
+      reading,
+      canGuess,
+      labels: (hd.labelOrder || []).slice(0, revealed),
+      quarter: revealed >= 1 ? location.quarter : null,
+      rarity: revealed >= 2 ? location.rarity : null,
+      xpReward: revealed >= 2 ? location.xpReward : null,
+    },
+  };
+}
+
+export async function getHardcoreHunt(req, res, next) {
+  try {
+    res.json(await buildHardcoreResponse(req.user, parsePosition(req.query)));
+  } catch (err) {
+    next(err);
+  }
+}
+
+export async function startHardcoreHunt(req, res, next) {
+  try {
+    const user = req.user;
+    const existing = await buildHardcoreResponse(user);
+    if (existing.active) return res.json(existing);
+
+    const picked = await pickDrawLocation(user, null, { hardcore: true });
+    if (!picked) return res.json({ active: false, canDraw: false, noneLeft: true });
+
+    user.hardcoreDraw = {
+      slug: picked.slug, drawnAt: new Date(), found: false, failed: false,
+      labelOrder: shuffle((picked.labels || []).filter(l => l !== 'outside')),
+      revealed: 0, misses: [], solvedAttempt: null,
+    };
+    await user.save();
+    res.json(await buildHardcoreResponse(user, parsePosition(req.body)));
+  } catch (err) {
+    next(err);
+  }
+}
+
+// A press of the hardcore hunt's button: only within HARDCORE_GUESS_RADIUS;
+// a hit within HIDDEN_DRAW_HIT_M collects the card at this press's
+// multiplier, a miss only says so, and the last miss ends the hunt.
+export async function guessHardcoreHunt(req, res, next) {
+  try {
+    const pos = parsePosition(req.body);
+    if (!pos) return res.status(400).json({ message: 'Location coordinates are required to guess' });
+
+    const user = await User.findById(req.user._id);
+    const hd = user.hardcoreDraw || {};
+    if (!isHardcoreLive(hd)) return res.status(409).json({ message: 'No hardcore hunt in progress' });
+
+    const location = await Location.findOne({ slug: hd.slug });
+    if (!location) return res.status(404).json({ message: 'Location not found' });
+
+    const missCount = hd.misses?.length || 0;
+    const attempt = missCount + 1;
+    const d = haversineDistance(pos.lat, pos.lng, location.coordinates.lat, location.coordinates.lng);
+
+    if (d <= HIDDEN_DRAW_HIT_M) {
+      const existing = await CheckIn.findOne({ user: user._id, location: location._id });
+      if (existing) return res.status(409).json({ message: 'Already checked in' });
+      const result = await recordCheckIn(user, location, {
+        xpEarned: hardcoreXp(location.xpReward, attempt), guessAttempt: attempt, huntMode: 'hardcore',
+      });
+      return res.status(201).json({ hit: true, ...result, hunt: await buildHardcoreResponse(user, pos) });
+    }
+    if (d > HARDCORE_GUESS_RADIUS) return res.status(403).json({ message: 'Not close enough to guess yet' });
+
+    // Conditional on the miss count so a double-tap can't burn two presses.
+    const last = attempt >= HARDCORE_MULTIPLIERS.length;
+    const updated = await User.findOneAndUpdate(
+      { _id: user._id, 'hardcoreDraw.slug': hd.slug, $expr: { $eq: [{ $size: { $ifNull: ['$hardcoreDraw.misses', []] } }, missCount] } },
+      {
+        $push: { 'hardcoreDraw.misses': { lat: pos.lat, lng: pos.lng, distance: Math.round(d), at: new Date() } },
+        ...(last ? { $set: { 'hardcoreDraw.failed': true } } : {}),
+      },
+      { new: true },
+    );
+    const current = updated || await User.findById(user._id);
+    res.json({ hit: false, hunt: await buildHardcoreResponse(current, pos) });
+  } catch (err) {
+    next(err);
+  }
+}
+
 // Cards the user found through a treasure hunt, newest first, for the
 // profile page's "Treasure Hunt Finds" section. Card fields only (no
 // description), shaped like GET /api/locations' unlocked entries.
@@ -426,6 +530,7 @@ export async function getTreasures(req, res, next) {
       unlocked: true,
       _checkedInAt: c.checkedInAt,
       _guessAttempt: c.guessAttempt,
+      _huntMode: c.huntMode ?? null,
     })));
   } catch (err) {
     next(err);

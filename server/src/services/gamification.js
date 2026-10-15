@@ -13,28 +13,60 @@ export const RANDOM_DRAW_WINDOW_MS = 24 * 60 * 60 * 1000;
 export const HIDDEN_DRAW_MULTIPLIERS = [10, 5, 3, 2, 1];
 export const HIDDEN_DRAW_RADII = [3000, 2000, 1000, 500, 100];
 export const HIDDEN_DRAW_HIT_M = 100;
-// The first clue says which way the treasure lies from Old Town Square, or
-// just "near the square" when it's closer than HIDDEN_DRAW_NEAR_SQUARE_M.
-export const OLD_TOWN_SQUARE = { lat: 50.0875, lng: 14.4213 };
-export const HIDDEN_DRAW_NEAR_SQUARE_M = 1000;
-// Guesses 1–4 give the distance to the treasure only as a band, never the
+// The first clue besides a label: which side of the Vltava the treasure is
+// on (2026-10-15; it replaced the direction from Old Town Square, which with
+// the fine-grained era/style labels narrowed guess 1 to a handful of cards).
+// Every katastrální území with a hunt card lies wholly on one bank, so the
+// side comes from the card's `quarter`. These are the left-bank ("castle
+// side") quarters; every other Prague quarter is on the right bank ("Old
+// Town side"). Left/right, not west/east: in the north the river runs
+// east-west, with Holešovice and Bubeneč on the left bank facing Troja.
+export const LEFT_BANK_QUARTERS = new Set([
+  'Malá Strana', 'Hradčany', 'Smíchov', 'Holešovice', 'Bubeneč', 'Dejvice', 'Střešovice',
+  'Břevnov', 'Vokovice', 'Veleslavín', 'Liboc', 'Ruzyně', 'Řepy', 'Zličín', 'Sobín',
+  'Třebonice', 'Stodůlky', 'Jinonice', 'Radlice', 'Košíře', 'Motol', 'Hlubočepy',
+  'Slivenec', 'Holyně', 'Řeporyje', 'Lochkov', 'Velká Chuchle', 'Malá Chuchle', 'Radotín',
+  'Lahovice', 'Lipence', 'Zbraslav', 'Sedlec', 'Suchdol', 'Lysolaje', 'Nebušice',
+  'Přední Kopanina', 'Zadní Kopanina',
+]);
+// Cards that are on neither bank (bridges over the Vltava, the statues on
+// Charles Bridge, the islands and what stands on them, the Old Town Weir, the
+// Podbaba ferry) can't be hunted: the side clue would mislead (user's call,
+// 2026-10-15). Bridges over other water (Nusle Bridge, the Hlubočepy
+// viaducts) and bridge towers on a bank stay in.
+export const HUNT_EXCLUDED_SLUGS = [
+  // bridges over the Vltava and what stands on them
+  'charles-bridge', 'socha-svateho-jana-nepomuckeho', 'socha-sv-ludmily-karluv-most',
+  'socha-sv-vojtecha-karluv-most', 'cechuv-most', 'sochy-geniu-cechuv-most', 'most-legii',
+  'manesuv-most', 'jiraskuv-most', 'palackeho-most', 'stefanikuv-most', 'hlavkuv-most',
+  'stvanicka-lavka-holka', 'negrelliho-viadukt', 'libensky-most', 'most-barikadniku',
+  'trojsky-most', 'trojska-lavka', 'novy-most-cisarsky-ostrov', 'vysehrad-railway-bridge',
+  'dvorecky-most', 'branicky-most', 'barrandovsky-most', 'radotinsky-most', 'most-zavodu-miru',
+  // islands and what stands on them
+  'kampa-island', 'museum-kampa-1782563427306', 'liechtenstein-palace-on-kampa-1782495483416',
+  'strelecky-ostrov', 'slovansky-ostrov', 'palac-zofin', 'galerie-manes', 'cisarsky-ostrov',
+  'vodni-elektrarna-stvanice', 'fuchs2', 'detsky-ostrov',
+  // across the river
+  'staromestsky-jez', 'privoz-podbaba-podhori',
+];
+export function riverSideOf(quarter) {
+  if (!quarter) return null;
+  return LEFT_BANK_QUARTERS.has(quarter) ? 'castle' : 'oldTown';
+}
+// Guesses 2–4 give the distance to the treasure only as a band, never the
 // exact figure: an exact distance plus a label picks out one card on the
-// Explore page, and two readings a short walk apart triangulate it. Band
-// edges in metres per guess; the last band is open-ended ("over 5 km").
+// Explore page, and two readings a short walk apart triangulate it. Guess 1
+// shows no distance at all, only "within 3 km" once the button unlocks.
+// Band edges in metres for guesses 2, 3 and 4; the last band is open-ended.
 // Each guess's first edge equals its HIDDEN_DRAW_RADII entry, so the
-// smallest band shown ("under 3 km") is exactly where the button unlocks.
+// smallest band shown ("under 2 km") is exactly where the button unlocks.
+// Each guess only comes after a miss pressed within the previous radius, so
+// no far bands are needed.
 export const HIDDEN_DRAW_BANDS = [
-  [3000, 5000, 10000],
-  // Each later guess only comes after a miss pressed within the previous
-  // radius, so it needs no far bands.
   [2000, 3000],
   [1000, 2000],
   [500, 1000],
 ];
-// So the first clues never point at one card: on guess 1, at least this
-// many uncollected cards must fit them, or the distance band is widened
-// until they do. Later guesses narrow things down anyway, so no minimum.
-export const HIDDEN_DRAW_FIRST_MIN_CANDIDATES = 4;
 // A label on more than this share of the possible cards (e.g. the old
 // catch-all "historical", once on over half of them) says next to nothing, so it is never the opening
 // clue while the card has a more telling one.
@@ -75,6 +107,40 @@ export function orderHuntLabels(labels, poolLabels, shuffle = a => [...a]) {
 /** XP for collecting a treasure on guess `attempt`. */
 export function huntXp(xpReward, attempt) {
   return xpReward * HIDDEN_DRAW_MULTIPLIERS[attempt - 1];
+}
+
+// Hardcore treasure hunt (硬核寻宝, 2026-10-15): a second, separate hunt,
+// one per 24h of its own, from the same card pool. No clues at all, only a
+// rough distance (hardcoreReading). Getting within 1 km once reveals one
+// random label and the quarter, within 500 m a second label and the rarity;
+// they stay revealed if the player walks away again. The button unlocks
+// within HARDCORE_GUESS_RADIUS and hits within HIDDEN_DRAW_HIT_M; three
+// presses, paying HARDCORE_MULTIPLIERS, and the third miss ends the hunt.
+// A miss says nothing beyond "not here". No re-roll.
+export const HARDCORE_MULTIPLIERS = [10, 5, 2];
+export const HARDCORE_GUESS_RADIUS = 500;
+export const HARDCORE_REVEAL_M = [1000, 500];
+
+// A hardcore hunt still running: within its 24h window, neither found nor failed.
+export function isHardcoreLive(hd) {
+  return !!(hd?.slug && hd.drawnAt && !hd.found && !hd.failed
+    && Date.now() - new Date(hd.drawnAt).getTime() < RANDOM_DRAW_WINDOW_MS);
+}
+
+export function hardcoreXp(xpReward, attempt) {
+  return xpReward * HARDCORE_MULTIPLIERS[attempt - 1];
+}
+
+// The hardcore hunt's only distance clue: over 10 km; about N km (whole km
+// from 3 km up); about 2.5 / 2 / 1.5 / 1 km; then about 800 / 600 / 400 /
+// 200 m inside 1 km. The fine steps inside 1 km (2026-10-15) keep the last
+// stretch a hot-and-cold search: the label and quarter revealed at 1 km plus
+// the card distances on Explore would otherwise give the answer away there.
+export function hardcoreReading(d) {
+  if (d < 1000) return { about: d >= 700 ? 800 : d >= 500 ? 600 : d >= 300 ? 400 : 200 };
+  if (d >= 10000) return { over: 10000 };
+  if (d >= 2750) return { about: Math.round(d / 1000) * 1000 };
+  return { about: Math.round(d / 500) * 500 };
 }
 
 export const LEVELS = [

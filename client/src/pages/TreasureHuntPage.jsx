@@ -8,6 +8,7 @@ import { useUserPosition } from '../hooks/useUserPosition';
 import LocationCard from '../components/locations/LocationCard';
 import LocationDetail from '../components/locations/LocationDetail';
 import TreasureHuntPanel from '../components/draw/TreasureHuntPanel';
+import HardcoreHunt from '../components/draw/HardcoreHunt';
 import DeckShuffle, { SHUFFLE_MS, prefersReducedMotion } from '../components/draw/DeckShuffle';
 
 function pad2(n) {
@@ -59,6 +60,20 @@ function HuntClueTable({ t }) {
   );
 }
 
+// A rule may wrap a phrase in [[hardcore]]…[[/hardcore]]: it becomes a link
+// that switches to the Hardcore tab.
+function renderRule(rule, onHardcore) {
+  const m = rule.match(/^([\s\S]*)\[\[hardcore\]\]([\s\S]*)\[\[\/hardcore\]\]([\s\S]*)$/);
+  if (!m) return rule;
+  return (
+    <>
+      {m[1]}
+      <a href="#" onClick={e => { e.preventDefault(); onHardcore(); }} style={{ textDecoration: 'underline' }}>{m[2]}</a>
+      {m[3]}
+    </>
+  );
+}
+
 // Treasure hunt, one every 24 hours: a random uncollected card is hidden and
 // the user tracks it down from clues (see TreasureHuntPanel and
 // buildHuntClues on the server). The API still uses the old "random draw"
@@ -71,6 +86,12 @@ export default function TreasureHuntPage() {
   const convert = useConvert();
   const userPos = useUserPosition();
 
+  // Clue hunt (线索模式) or the hardcore one (HardcoreHunt), remembered per device.
+  const [mode, setMode] = useState(() => {
+    try { return localStorage.getItem('huntMode') === 'hardcore' ? 'hardcore' : 'normal'; } catch { return 'normal'; }
+  });
+  const switchMode = m => { setMode(m); try { localStorage.setItem('huntMode', m); } catch { /* private mode */ } };
+  const [hardcoreRefresh, setHardcoreRefresh] = useState(0);
   const [status, setStatus] = useState(null);
   const [loading, setLoading] = useState(true);
   const [starting, setStarting] = useState(false);
@@ -117,8 +138,9 @@ export default function TreasureHuntPage() {
   // and right away once the first GPS fix arrives.
   const huntActive = !!(status?.active && !status.bonusUsed);
   const hasPos = !!userPos;
+  const classicShown = mode === 'normal';
   useEffect(() => {
-    if (!huntActive || !hasPos) return;
+    if (!huntActive || !hasPos || !classicShown) return;
     const tick = () => {
       if (!posRef.current) return;
       userAPI.getRandomDraw(posRef.current).then(res => setStatus(res.data)).catch(() => {});
@@ -126,7 +148,7 @@ export default function TreasureHuntPage() {
     tick();
     const id = setInterval(tick, 10000);
     return () => clearInterval(id);
-  }, [huntActive, hasPos]);
+  }, [huntActive, hasPos, classicShown]);
 
   const handleGuess = async () => {
     setGuessing(true);
@@ -211,7 +233,8 @@ export default function TreasureHuntPage() {
   };
 
   // Rule 3 introduces the per-guess table rendered right under it.
-  const huntRules = [t('draw.huntRule1'), t('draw.huntRule2'), t('draw.huntRule3'), t('draw.huntRule6')];
+  const huntRules = [t('draw.huntRule1'), t('draw.huntRule2'), t('draw.huntRule3'), t('draw.huntRuleLuck'), t('draw.huntRule6')];
+  const hardcoreRules = [t('draw.hcRule1'), t('draw.hcRule2'), t('draw.hcRule3'), t('draw.hcRule4')];
   const solvedHunt = status?.active && status.bonusUsed && status.location;
   const countdown = (
     <div className="draw-countdown">
@@ -222,11 +245,27 @@ export default function TreasureHuntPage() {
   return (
     <div className="guide-page draw-page">
       <div className="guide-wrap">
-        <h1 className="px-title" style={{ fontSize: 26, marginBottom: 6 }}>{t('draw.modeHunt')}</h1>
-        <p className="guide-intro">{t('draw.huntTagline')}</p>
-        <div className="guide-challenge">{t('draw.huntChallenge')}</div>
+        <h1 className="px-title" style={{ fontSize: 26, marginBottom: 6 }}>{t(mode === 'hardcore' ? 'draw.hcTitle' : 'draw.modeHunt')}</h1>
+        <p className="guide-intro">{t(mode === 'hardcore' ? 'draw.hcTagline' : 'draw.huntTagline')}</p>
+        <div className="guide-challenge">{t(mode === 'hardcore' ? 'draw.hcChallenge' : 'draw.huntChallenge')}</div>
 
-        {loading ? (
+        <div className="hunt-tabs" role="tablist">
+          {['normal', 'hardcore'].map(m => (
+            <button
+              key={m}
+              role="tab"
+              aria-selected={mode === m}
+              className={`hunt-tabs__tab${mode === m ? ' hunt-tabs__tab--active' : ''}`}
+              onClick={() => switchMode(m)}
+            >
+              {t(m === 'hardcore' ? 'draw.tabHardcore' : 'draw.tabNormal')}
+            </button>
+          ))}
+        </div>
+
+        {mode === 'hardcore' ? (
+          <HardcoreHunt onOpen={setSelectedSlug} refreshKey={hardcoreRefresh} />
+        ) : loading ? (
           <div style={{ display: 'flex', justifyContent: 'center', padding: 40 }}>
             <div className="spinner" />
           </div>
@@ -311,21 +350,24 @@ export default function TreasureHuntPage() {
 
         <hr className="px-divider" />
 
-        <section className="guide-section">
-          <p className="guide-body">{t('draw.huntIntro')}</p>
-        </section>
-
-        <hr className="px-divider" />
+        {mode === 'normal' && (
+          <>
+            <section className="guide-section">
+              <p className="guide-body">{t('draw.huntIntro')}</p>
+            </section>
+            <hr className="px-divider" />
+          </>
+        )}
 
         <section className="guide-section">
           <h2 className="guide-h2">{t('draw.rulesTitle')}</h2>
-          {huntRules.map((rule, i) => (
+          {(mode === 'hardcore' ? hardcoreRules : huntRules).map((rule, i) => (
             <div key={i}>
               <div className="guide-step">
                 <span className="guide-step-num">{i + 1}</span>
-                <p className="guide-body">{rule}</p>
+                <p className="guide-body">{renderRule(rule, () => { switchMode('hardcore'); window.scrollTo({ top: 0, behavior: 'smooth' }); })}</p>
               </div>
-              {i === 2 && <HuntClueTable t={t} />}
+              {mode === 'normal' && i === 2 && <HuntClueTable t={t} />}
             </div>
           ))}
         </section>
@@ -334,7 +376,7 @@ export default function TreasureHuntPage() {
       {selectedSlug && (
         <LocationDetail
           slug={selectedSlug}
-          onClose={() => { setSelectedSlug(null); fetchStatus(); }}
+          onClose={() => { setSelectedSlug(null); fetchStatus(); setHardcoreRefresh(k => k + 1); }}
           onCheckIn={handleCheckIn}
         />
       )}

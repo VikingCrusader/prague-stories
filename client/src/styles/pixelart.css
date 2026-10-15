@@ -2262,3 +2262,26 @@ html[data-lang="zh"] .detail-title-name {
   pointer-events: none;
 }
 @media (hover: hover) and (pointer: fine) { .card-showcase__hint { display: none; } }
+
+/* Treasure hunt page: Classic / Hardcore mode switch. */
+.hunt-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 0;
+  margin: 18px auto 6px;
+  width: fit-content;
+  border: 2px solid var(--border);
+}
+.hunt-tabs__tab {
+  padding: 8px 22px;
+  font-family: var(--ui-font);
+  font-size: 15px;
+  font-weight: 700;
+  background: var(--bg-surface);
+  color: var(--text-muted);
+  border: none;
+  cursor: pointer;
+}
+.hunt-tabs__tab + .hunt-tabs__tab { border-left: 2px solid var(--border); }
+.hunt-tabs__tab:hover { color: var(--text-primary); }
+.hunt-tabs__tab--active { background: color-mix(in srgb, var(--gold) 14%, transparent); color: var(--gold); }

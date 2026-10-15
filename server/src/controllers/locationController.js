@@ -120,15 +120,17 @@ export async function getLocation(req, res, next) {
     // after the collection date in the detail view.
     let guessAttempt = null;
     let xpEarned = null;
+    let huntMode = null;
     if (req.user) {
       const checkIn = await CheckIn.findOne({ user: req.user._id, location: location._id });
       unlocked = !!checkIn;
       checkedInAt = checkIn?.checkedInAt ?? null;
       guessAttempt = checkIn?.guessAttempt ?? null;
       xpEarned = checkIn?.xpEarned ?? null;
+      huntMode = checkIn?.huntMode ?? null;
     }
 
-    res.json({ ...location.toObject(), unlocked, checkedInAt, guessAttempt, xpEarned });
+    res.json({ ...location.toObject(), unlocked, checkedInAt, guessAttempt, xpEarned, huntMode });
   } catch (err) {
     next(err);
   }

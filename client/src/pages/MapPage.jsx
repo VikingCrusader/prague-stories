@@ -340,7 +340,7 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
     try {
       const coords = await getCurrentPosition();
       const res = await checkinAPI.checkIn(slug, coords);
-      setLoc(prev => ({ ...prev, unlocked: true, checkedInAt: new Date().toISOString(), guessAttempt: res.data.guessAttempt, xpEarned: res.data.xpEarned }));
+      setLoc(prev => ({ ...prev, unlocked: true, checkedInAt: new Date().toISOString(), guessAttempt: res.data.guessAttempt, huntMode: res.data.huntMode, xpEarned: res.data.xpEarned }));
       playUnlockSound(loc.rarity);
       applyProgress(res.data.levelInfo, res.data.totalXP);
       onCheckIn(slug, res.data);
@@ -427,7 +427,7 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
             <span style={{ color: 'var(--success-text, #8eff8e)', fontFamily: "var(--ui-font)", fontSize: 12 }}>
               {t('common.visited')}
               {`${lang === 'zh' ? '' : ' '}${t('detail.at')}${lang === 'zh' ? '' : ' '}${formatDate(loc.checkedInAt)}`}
-              {loc.guessAttempt > 0 && loc.xpEarned != null && t('detail.huntFind', { n: loc.guessAttempt, xp: loc.xpEarned })}
+              {loc.guessAttempt > 0 && loc.xpEarned != null && t(loc.huntMode === 'hardcore' ? 'detail.huntFindHardcore' : 'detail.huntFind', { n: loc.guessAttempt, xp: loc.xpEarned })}
             </span>
           </div>
         )}

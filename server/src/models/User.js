@@ -50,6 +50,25 @@ const userSchema = new mongoose.Schema({
     rolledAt:  { type: Date, default: null },
     _id: false,
   },
+  // Hardcore treasure hunt (see HARDCORE_* in gamification.js): separate
+  // from randomDraw, with its own 24h window.
+  hardcoreDraw: {
+    slug:      { type: String, default: null },
+    drawnAt:   { type: Date, default: null },
+    found:     { type: Boolean, default: false },
+    failed:    { type: Boolean, default: false }, // all three presses missed
+    // Labels in a random reveal order: the first at 1 km, the second at 500 m.
+    labelOrder: { type: [String], default: undefined },
+    // How close the player has been: 0, 1 (within 1 km) or 2 (within 500 m).
+    // Only ever goes up, so revealed clues stay revealed.
+    revealed:  { type: Number, default: 0 },
+    misses: {
+      type: [{ lat: Number, lng: Number, distance: Number, at: { type: Date, default: Date.now }, _id: false }],
+      default: undefined,
+    },
+    solvedAttempt: { type: Number, default: null },
+    _id: false,
+  },
   // Where the user last was in the History Timeline feed, so /history can
   // reopen at that event on any device. `updatedAt` lets the client pick
   // between this and its own localStorage copy, whichever is newer.

@@ -177,8 +177,8 @@ describe('treasure hunt', () => {
     // No rarity or XP figure on the first guess, just one label.
     expect(res.body.hunt).toMatchObject({ attempt: 1, multiplier: 10, xpNow: null, rarity: null, xpReward: null, quarter: null, district: null });
     expect(res.body.hunt.labels).toHaveLength(1);
-    // Charles Bridge is ~700 m from Old Town Square.
-    expect(res.body.hunt.fromSquare).toEqual({ near: true, direction: null });
+    // Staré Město is on the right bank.
+    expect(res.body.hunt.riverSide).toBe('oldTown');
     const raw = JSON.stringify(res.body);
     expect(raw).not.toContain('target');
     expect(raw).not.toContain(String(CHARLES_BRIDGE.lat));
@@ -192,58 +192,31 @@ describe('treasure hunt', () => {
     expect(res.body.noneLeft).toBe(true);
   });
 
-  // Cards a few metres east of the target that fit its first clues.
-  async function seedDecoys(n, labels = ['church']) {
-    for (let i = 1; i <= n; i++) {
-      await Location.create({
-        name: `Decoy ${i}`, slug: `decoy-${i}`, coordinates: { lat: CHARLES_BRIDGE.lat, lng: CHARLES_BRIDGE.lng + i * 0.0003 },
-        rarity: 'common', xpReward: 10, labels, quarter: 'Staré Město', district: 'Praha 1',
-      });
-    }
-  }
+  test('gives the castle side for a left-bank quarter', async () => {
+    await seedTarget({ quarter: 'Malá Strana' });
+    const { token } = await createAuthedUser();
+    const res = await startHunt(token);
+    expect(res.body.hunt.riverSide).toBe('castle');
+  });
+
+  test('never hides the treasure on a bridge or island', async () => {
+    await seedTarget({ slug: 'charles-bridge' });
+    await Location.create({ name: 'Kampa', slug: 'kampa-island', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10, labels: ['park'], quarter: 'Malá Strana' });
+    const { token } = await createAuthedUser();
+    const res = await startHunt(token);
+    expect(res.body.noneLeft).toBe(true);
+  });
 
   const status = (token, pos) => request(app).get('/api/user/random-draw').query(pos).set('Authorization', `Bearer ${token}`);
 
-  test('the first guess only gets a distance band, inside the radius too', async () => {
+  test('the first guess shows no distance, only "within" once the button unlocks', async () => {
     await seedTarget({ labels: ['church'] });
-    await seedDecoys(4);
     const { token } = await createAuthedUser();
     await startHunt(token);
-    const r1 = await status(token, north(3500));
-    expect(r1.body.hunt.proximity).toEqual({ within: false, distance: null, band: { min: 3000, max: 5000 }, direction: null });
-    const r2 = await status(token, north(6000));
-    expect(r2.body.hunt.proximity.band).toEqual({ min: 5000, max: 10000 });
-    const r4 = await status(token, north(11000));
-    expect(r4.body.hunt.proximity.band).toEqual({ min: 10000, max: null });
-    const r3 = await status(token, north(1500));
-    expect(r3.body.hunt.proximity).toEqual({ within: true, distance: null, band: { min: 0, max: 3000 }, direction: null });
-  });
-
-  test('widens the band until enough cards fit the clues', async () => {
-    await seedTarget({ labels: ['church'] });
-    await seedDecoys(1);
-    // Two more cards near Old Town Square, ~900 m south of it: over 5 km
-    // from where the user stands, while the target and decoy are 3–5 km.
-    for (let i = 1; i <= 2; i++) {
-      await Location.create({
-        name: `South ${i}`, slug: `south-${i}`, coordinates: { lat: 50.0875 - 0.008, lng: 14.4213 + 0.0003 * i },
-        rarity: 'common', xpReward: 10, labels: ['church'], quarter: 'Nové Město',
-      });
-    }
-    const { token } = await createAuthedUser();
-    await startHunt(token);
-    // "3–5 km" fits only two cards, so it widens to "3–10 km".
-    const r = await status(token, north(4500));
-    expect(r.body.hunt.proximity.band).toEqual({ min: 3000, max: 10000 });
-  });
-
-  test('gives no band at all when even the widest one leaves too few cards', async () => {
-    await seedTarget({ labels: ['church'] });
-    await seedDecoys(2);
-    const { token } = await createAuthedUser();
-    await startHunt(token);
-    const r = await status(token, north(3500));
-    expect(r.body.hunt.proximity).toEqual({ within: false, distance: null, band: null, direction: null });
+    const far = await status(token, north(6000));
+    expect(far.body.hunt.proximity).toEqual({ within: false, distance: null, band: null, direction: null });
+    const near = await status(token, north(1500));
+    expect(near.body.hunt.proximity).toEqual({ within: true, distance: null, band: null, direction: null });
   });
 
   test('refuses a guess outside the current radius', async () => {
@@ -543,5 +516,91 @@ describe('GET /api/user/explorers/:username', () => {
     for (const name of ['admin000', 'newbie', 'nobody']) {
       expect((await request(app).get(`/api/user/explorers/${name}`)).status).toBe(404);
     }
+  });
+});
+
+describe('hardcore treasure hunt', () => {
+  const north = m => ({ lat: CHARLES_BRIDGE.lat + m / 111195, lng: CHARLES_BRIDGE.lng });
+  const seedTarget = (extra = {}) => Location.create({
+    name: 'Target', slug: 'target', coordinates: CHARLES_BRIDGE, rarity: 'rare', xpReward: 20,
+    labels: ['church', 'gothic'], quarter: 'Staré Město', district: 'Praha 1', ...extra,
+  });
+  const start = (token, pos) => request(app).post('/api/user/hardcore-hunt').set('Authorization', `Bearer ${token}`).send(pos || {});
+  const status = (token, pos) => request(app).get('/api/user/hardcore-hunt').query(pos).set('Authorization', `Bearer ${token}`);
+  const press = (token, pos) => request(app).post('/api/user/hardcore-hunt/guess').set('Authorization', `Bearer ${token}`).send(pos);
+
+  test('gives no clues at all from afar, only a rough distance', async () => {
+    await seedTarget();
+    const { token } = await createAuthedUser();
+    const res = await start(token, north(12000));
+    expect(res.body.active).toBe(true);
+    expect(res.body.location).toBeUndefined();
+    expect(res.body.hunt).toMatchObject({ attempt: 1, maxAttempts: 3, multiplier: 10, labels: [], quarter: null, rarity: null, canGuess: false });
+    expect(res.body.hunt.reading).toEqual({ over: 10000 });
+    expect((await status(token, north(4400))).body.hunt.reading).toEqual({ about: 4000 });
+    expect((await status(token, north(2300))).body.hunt.reading).toEqual({ about: 2500 });
+    expect(JSON.stringify(res.body)).not.toContain('target');
+  });
+
+  test('reveals a label and the quarter within 1 km, more within 500 m, and keeps them', async () => {
+    await seedTarget();
+    const { token } = await createAuthedUser();
+    await start(token);
+    const at800 = (await status(token, north(800))).body.hunt;
+    expect(at800).toMatchObject({ reading: { about: 800 }, quarter: 'Staré Město', rarity: null, canGuess: false });
+    expect(at800.labels).toHaveLength(1);
+    const at350 = (await status(token, north(350))).body.hunt;
+    expect(at350).toMatchObject({ reading: { about: 400 }, rarity: 'rare', canGuess: true });
+    expect(at350.labels).toHaveLength(2);
+    // Walking away again keeps what was revealed.
+    const back = (await status(token, north(5000))).body.hunt;
+    expect(back).toMatchObject({ quarter: 'Staré Město', rarity: 'rare', canGuess: false });
+    expect(back.labels).toHaveLength(2);
+  });
+
+  test('three misses end the hunt and reveal the answer', async () => {
+    await seedTarget();
+    const { token } = await createAuthedUser();
+    await start(token);
+    expect((await press(token, north(800))).status).toBe(403);
+    const m1 = await press(token, north(300));
+    expect(m1.body).toMatchObject({ hit: false, hunt: { hunt: { attempt: 2, multiplier: 5 } } });
+    await press(token, north(300));
+    const m3 = await press(token, north(300));
+    expect(m3.body.hunt).toMatchObject({ failed: true, location: { slug: 'target' } });
+    expect((await press(token, north(10))).status).toBe(409);
+  });
+
+  test('a hit pays the press multiplier and is marked hardcore', async () => {
+    await seedTarget();
+    const { token, user } = await createAuthedUser();
+    await start(token);
+    await press(token, north(300));
+    const hit = await press(token, north(20));
+    expect(hit.status).toBe(201);
+    expect(hit.body).toMatchObject({ hit: true, xpEarned: 100, guessAttempt: 2 });
+    expect(hit.body.hunt).toMatchObject({ found: true, solvedAttempt: 2 });
+    const detail = await request(app).get('/api/locations/target').set('Authorization', `Bearer ${token}`);
+    expect(detail.body).toMatchObject({ guessAttempt: 2, huntMode: 'hardcore' });
+    expect((await User.findById(user._id)).totalXP).toBe(100);
+  });
+
+  test('never hides the same card as the running normal hunt', async () => {
+    await seedTarget();
+    const { token } = await createAuthedUser();
+    await request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${token}`).send({});
+    const res = await start(token);
+    expect(res.body.noneLeft).toBe(true);
+  });
+});
+
+describe('hardcore hunt pool', () => {
+  test('can hide on a bridge or island, unlike the classic hunt', async () => {
+    await Location.create({ name: 'Charles Bridge', slug: 'charles-bridge', coordinates: CHARLES_BRIDGE, rarity: 'legend', xpReward: 100, labels: ['bridge'], quarter: 'Staré Město' });
+    const { token } = await createAuthedUser();
+    const classic = await request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${token}`).send({});
+    expect(classic.body.noneLeft).toBe(true);
+    const hard = await request(app).post('/api/user/hardcore-hunt').set('Authorization', `Bearer ${token}`).send({});
+    expect(hard.body.active).toBe(true);
   });
 });

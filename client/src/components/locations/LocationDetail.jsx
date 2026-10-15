@@ -87,6 +87,7 @@ export default function LocationDetail({
         unlocked: true,
         checkedInAt: new Date().toISOString(),
         guessAttempt: res.data.guessAttempt,
+        huntMode: res.data.huntMode,
         xpEarned: res.data.xpEarned,
       }));
       setCheckInResult(res.data);
@@ -326,7 +327,7 @@ export default function LocationDetail({
                       {t("common.visited")}
                       {loc.checkedInAt &&
                         `${lang === "zh" ? "" : " "}${t("detail.at")}${lang === "zh" ? "" : " "}${formatDate(loc.checkedInAt)}`}
-                      {loc.guessAttempt > 0 && loc.xpEarned != null && t("detail.huntFind", { n: loc.guessAttempt, xp: loc.xpEarned })}
+                      {loc.guessAttempt > 0 && loc.xpEarned != null && t(loc.huntMode === "hardcore" ? "detail.huntFindHardcore" : "detail.huntFind", { n: loc.guessAttempt, xp: loc.xpEarned })}
                     </span>
                   )}
                 </div>
@@ -454,7 +455,7 @@ export default function LocationDetail({
                       {t("common.visited")}
                       {loc.checkedInAt &&
                         `${lang === "zh" ? "" : " "}${t("detail.at")}${lang === "zh" ? "" : " "}${formatDate(loc.checkedInAt)}`}
-                      {loc.guessAttempt > 0 && loc.xpEarned != null && t("detail.huntFind", { n: loc.guessAttempt, xp: loc.xpEarned })}
+                      {loc.guessAttempt > 0 && loc.xpEarned != null && t(loc.huntMode === "hardcore" ? "detail.huntFindHardcore" : "detail.huntFind", { n: loc.guessAttempt, xp: loc.xpEarned })}
                     </span>
                   )}
                 </div>
