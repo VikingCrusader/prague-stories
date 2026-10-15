@@ -20,9 +20,12 @@ const DOUBLE_CLICK_MS = 250;
 // user. It reveals its name, drops the grey filter everywhere except the
 // cover, and the lock wobbles (pixelart.css).
 // `showcase`: the enlarged copy inside CardShowcase (full-size cover, no
-// gestures of its own). `story` (showcase only): paragraphs that fill the
+// gestures of its own). `holdable`: false turns the showcase gestures off
+// (History forces `unlocked` on every landmark for display, so it passes the
+// real collected state here; otherwise an uncollected card's story could be
+// read in the showcase). `story` (showcase only): paragraphs that fill the
 // whole card in a scrolling panel, under the card's name; only the frame stays.
-function LocationCard({ location, onClick, distance, nearby = false, showcase = false, story = null }) {
+function LocationCard({ location, onClick, distance, nearby = false, showcase = false, story = null, holdable = true }) {
   const { lang } = useLang();
   const convert = useConvert();
   const t = useT();
@@ -48,7 +51,7 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
   // possible second click before opening the detail as usual.
   // How the showcase was opened ('touch' or 'mouse'), or false when closed.
   const [showcaseOpen, setShowcaseOpen] = useState(false);
-  const gestures = unlocked && !flipping && !showcase;
+  const gestures = holdable && unlocked && !flipping && !showcase;
   const press = useRef({ timer: null, fired: false, x: 0, y: 0, pointer: 'mouse', clickTimer: null });
   const clearPress = () => { clearTimeout(press.current.timer); press.current.timer = null; };
   useEffect(() => () => { clearTimeout(press.current.timer); clearTimeout(press.current.clickTimer); }, []);

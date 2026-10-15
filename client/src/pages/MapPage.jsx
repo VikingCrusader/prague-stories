@@ -341,6 +341,8 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
       const coords = await getCurrentPosition();
       const res = await checkinAPI.checkIn(slug, coords);
       setLoc(prev => ({ ...prev, unlocked: true, checkedInAt: new Date().toISOString(), guessAttempt: res.data.guessAttempt, huntMode: res.data.huntMode, xpEarned: res.data.xpEarned }));
+      // The server only sent a preview of the story until now: fetch it whole.
+      locationAPI.getOne(slug).then(r => setLoc(prev => ({ ...prev, description: r.data.description, storyLocked: r.data.storyLocked }))).catch(() => {});
       playUnlockSound(loc.rarity);
       applyProgress(res.data.levelInfo, res.data.totalXP);
       onCheckIn(slug, res.data);
@@ -453,7 +455,8 @@ function SidebarDetail({ slug, onCheckIn, onViewDetail }) {
           const enParas = (loc.description?.en || '').split('\n').filter(l => l.trim());
           const firstEnWords = enParas[0] ? enParas[0].trim().split(/\s+/).length : 0;
           const showCount = paras.length <= 3 || firstEnWords > 30 ? 1 : 2;
-          const visible = loc.unlocked ? paras : paras.slice(0, showCount);
+          // storyLocked: the server already cut it to the preview.
+          const visible = loc.unlocked || loc.storyLocked ? paras : paras.slice(0, showCount);
           return (
             <div style={{ marginTop: 14, marginBottom: 16 }}>
               {visible.map((para, i) => (

@@ -170,4 +170,22 @@ export const historyOverviews = [
       zh: "1471年加冕的这位十五岁波兰王子，接手的是一个王国、一场战争，外加一个还在布达自称“波希米亚国王”的对手；两人要打上好些年，再加上一个极富创意的妥协，才算罢手。弗拉迪斯拉夫性情温和、虔诚，又特别不好意思拒绝人，几乎对什么请求都只回一个拉丁词：bene，“好”。于是捷克人管他叫“好的国王”。波希米亚的贵族们觉得，这真是一位君主最难得的美德。他们忙着瓜分官职、城堡和王室领地，还跟王室城市吵谁有权酿啤酒；布拉格则证明，它还没忘记自己最拿手的解决争端的办法；国王呢，在布拉格城堡盖起了中欧最大的大厅，楼梯宽得能让骑士直接骑着马上去。与此同时，圣杯派和天主教徒在库特纳霍拉签了和约，发现原来彼此也能过得下去。北边的克鲁什内山里，一座银矿开始铸造一种大个头的新银币，它的名字有一天会漂洋过海，变成“美元”。而在东南方的某个地方，土耳其人一直都没走。",
     },
   },
+  {
+    slug: "era-guide-habsburgs-move-in",
+    era: "habsburgs-move-in",
+    cardType: "overview",
+    startYear: 1526,
+    tone: "humorous",
+    year: { en: "1526–1583", cz: "1526–1583", zh: "1526年－1583年" },
+    title: {
+      en: "The Guest Who Came to Stay",
+      cz: "Host, který zůstal",
+      zh: "来了就不走的客人",
+    },
+    summary: {
+      en: "In the autumn of 1526 the Bohemian estates sit down and solemnly elect a new king, Archduke Ferdinand of Austria, and make him sign a paper confirming that the crown was given by election, not inheritance. Ferdinand signs it cheerfully, then turns round and explains that the crown actually came to him as the dowry of his wife Anne, the very girl who, eleven years earlier in Vienna, had been married to his grandfather. Each side is sure it has won, and the understanding holds for quite a while. The first thing the new king does that Prague remembers is to show Jan Pašek the door of the town hall. Then he starts building his queen an Italian summer palace in the garden north of the castle; before it is finished, the castle and the Lesser Town burn down, and with them the land registry of the whole kingdom, so the lords have to re-declare their own estates from memory and whatever copies they can find. One day the estates finally work up the courage to take on the king, and the result is written on the square in front of the castle. The king's second son comes to Prague as governor, builds a hunting lodge in the shape of a six-pointed star and secretly marries a merchant's daughter from Augsburg; the Jesuits arrive too, take over a monastery in the Old Town and open a school. Utraquists, Lutherans, the Brethren and Catholics crowd into one city, each saying their own prayers, until the next king promises, out loud only, that everyone may believe as they please; why he never writes it down, he does not explain. And all of this, once again, happens under a king who does not live in Prague. The last one lived in Buda; this one lives in Vienna.",
+      cz: "Na podzim 1526 zasednou čeští stavové a slavnostně zvolí nového krále, rakouského arcivévodu Ferdinanda, a nechají ho podepsat listinu, že korunu dostal volbou, ne dědictvím. Ferdinand ji ochotně podepíše, pak se otočí a vysvětlí, že koruna mu vlastně připadla jako věno jeho ženy Anny, té dívky, kterou si před jedenácti lety ve Vídni vzal jeho dědeček. Obě strany jsou si jisté, že vyhrály, a tahle shoda vydrží docela dlouho. První věc, kterou si Praha z nového krále zapamatuje, je, že Janu Paškovi ukáže dveře radnice. Pak začne své královně stavět v zahradě severně od hradu italský letohrádek; než ho dostaví, vyhoří hrad i Malá Strana a s nimi zemské desky celého království, takže páni musejí své statky přiznávat znovu, zpaměti a z opisů, které se kde najdou. Jednoho dne stavové konečně seberou odvahu a postaví se králi, a jak to dopadne, se dá přečíst na náměstí před hradem. Králův druhý syn přijde do Prahy jako místodržitel, postaví si letohrádek ve tvaru šesticípé hvězdy a tajně se ožení s dcerou augsburského kupce; přijdou i jezuité, zaberou klášter na Starém Městě a otevřou školu. Kališníci, luteráni, bratři a katolíci se tísní v jednom městě a každý se modlí po svém, dokud další král neslíbí, ovšem jen ústně, že každý smí věřit, jak chce; proč to nikdy nedá písemně, nevysvětlí. A to všechno se zase jednou děje pod vládou krále, který v Praze nebydlí. Ten minulý bydlel v Budíně, tenhle bydlí ve Vídni.",
+      zh: "1526年秋天，波希米亚的等级们坐下来，郑重其事地选了一位新国王：奥地利大公斐迪南，还特意让他签字承认，这顶王冠是选出来的，不是继承来的。斐迪南痛痛快快地签了，转过身又跟大家解释，这顶王冠其实是他妻子安娜带过来的嫁妆。安娜，就是十一年前在维也纳嫁给了他爷爷的那个小新娘。两边都认定自己赢了，这份默契居然维持了好些年。新国王头一件让布拉格人记住的事，是把扬·帕谢克请出了市政厅。接着，他在城堡北边的花园里给王后盖一座意大利式的夏宫；夏宫还没盖完，城堡和小城先烧了一场大火，整个王国的地产登记簿也跟着烧没了，老爷们只好凭着记忆和东拼西凑的抄本，把自家的田产重新报一遍。后来，等级们终于鼓起勇气，跟国王较了一回劲，结果就写在城堡前面的广场上。国王的二儿子来布拉格当总督，盖了一座六角星形的猎宫，还偷偷娶了一位奥格斯堡商人的女儿；耶稣会士也来了，在老城占下一座修道院，办起了学校。圣杯派、路德派、弟兄会和天主教徒挤在同一座城里，各念各的经，直到下一任国王开口答应：大家爱信什么就信什么。只不过是口头答应，至于为什么不写下来，他没解释。而这一切，又一次发生在一个不住在布拉格的国王治下。上一位住在布达，这一位住在维也纳。",
+    },
+  },
 ];

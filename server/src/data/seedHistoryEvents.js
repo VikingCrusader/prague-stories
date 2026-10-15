@@ -22541,6 +22541,519 @@ export const historyEvents = [
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Thaler",
   },
+  {
+    slug: "the-german-speaking-hussite-1520",
+    era: "rule-of-the-lords",
+    images: ["/history/the-german-speaking-hussite-1520.webp"],
+    imageCaptions: [
+      {
+        en: "Leipzig, summer 1519: in the castle hall Johann Eck points across at Martin Luther and compares him to Hus; Duke George of Saxony presides, and Wittenberg students with halberds stand behind Luther.",
+        cz: "Lipsko, léto 1519: v hradním sále ukazuje Johann Eck na Martina Luthera a přirovnává ho k Husovi; disputaci předsedá saský vévoda Jiří a za Lutherem stojí wittenberští studenti s halapartnami.",
+        zh: "1519年夏天，莱比锡：城堡大厅里，约翰·埃克隔着讲台指向马丁·路德，说他跟胡斯没有两样；萨克森公爵格奥尔格坐在上首主持，路德身后站着拿长戟的维滕堡学生。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "We are all Hussites without knowing it.",
+          cz: "Všichni jsme husité, aniž bychom to věděli.",
+          zh: "我们都是胡斯派，只是自己不知道罢了。",
+        },
+        attribution: {
+          en: "Martin Luther, letter to Spalatin, February 1520",
+          cz: "Martin Luther, dopis Spalatinovi, únor 1520",
+          zh: "马丁·路德致斯帕拉丁的信，1520年2月",
+        },
+      },
+    ],
+    startYear: 1520.5,
+    year: {
+      en: "1519–1520",
+      cz: "1519–1520",
+      zh: "1519–1520年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The German-Speaking \"Hussite\"",
+      cz: "Německy mluvící „husita“",
+      zh: "讲德语的“胡斯派”",
+    },
+    hookLine: {
+      en: "A German monk was called a \"Hussite\" as an insult, went home, read Hus's books and found the insult was spot on. Prague was overjoyed to hear it.",
+      cz: "Jednomu německému mnichovi nadávali do „husitů“. Šel domů, přečetl si Husovy knihy a zjistil, že nadávka sedí přesně. Praha z toho měla obrovskou radost.",
+      zh: "一个德意志修士被人骂成“胡斯派”，回家读了胡斯的书，发现骂得一点没错。布拉格人听说以后，高兴坏了。",
+    },
+    summary: {
+      en: "Cartload after cartload, the Jáchymov thalers rolled north to Leipzig in Saxony. In those same years, just as the silver mines were opening, Leipzig had something far more sensational going on.\n\nIn the summer of 1519 a hall in the city's castle was packed with people who had come to watch a theological debate. On one side stood the Catholic theologian Johann Eck; on the other, Martin Luther, the monk who two years earlier had posted his Ninety-Five Theses in Wittenberg.\n\nEck soon found the most damaging label he could pin on Luther: what you are saying, how is it any different from that Bohemian heretic Hus, the one [[link:the-goose-and-the-swan-1415]]burned at Constance[[/link]] a hundred years ago?\n\nTo German ears, \"Hussite\" meant heresy, rebellion and crusades, all in one word. At first Luther tried to distance himself. But after the debate he got hold of Hus's books and read them carefully, cover to cover.\n\nThen he wrote to his friend Spalatin:\n\n[[quote:0]]\n\nAll these years, he wrote, he had been teaching what Hus had taught without even realising it. By that measure, even the apostle Paul and St Augustine were Hussites.\n\n[[b]]A hundred years earlier Hus had been burned at Constance; a hundred years later a German monk announced that he had been Hus's pupil all along.[[/b]]\n\nWhen the news reached Prague, the Utraquist priests were overjoyed. After a hundred years of being called heretics by all of Europe, here at last was a famous German saying out loud that they had been right.\n\nLuther himself never came to Prague. But a year and a half later, a man who called himself his pupil did.",
+      cz: "Jáchymovské tolary putovaly vůz za vozem na sever, do saského Lipska. A právě v letech, kdy se stříbrné doly teprve otevíraly, se v Lipsku stalo něco mnohem senzačnějšího.\n\nV létě 1519 se v sále tamního hradu tlačily davy lidí, které přišly na teologickou disputaci. Na jedné straně katolický teolog Johann Eck, na druhé mnich Martin Luther, který o dva roky dřív ve Wittenbergu vyvěsil svých devadesát pět tezí.\n\nEck brzy našel tu nejúčinnější nálepku, jakou mohl Lutherovi přišít: čím se to, co říkáš, liší od toho českého kacíře Husa, kterého [[link:the-goose-and-the-swan-1415]]upálili v Kostnici[[/link]] před sto lety?\n\nNěmeckým uším znělo slovo „husita“ jako kacířství, vzpoura a křížové výpravy v jednom. Luther se zpočátku snažil distancovat. Po disputaci si ale sehnal Husovy knihy a pečlivě je přečetl.\n\nA pak napsal svému příteli Spalatinovi:\n\n[[quote:0]]\n\nV dopise píše, že celé ty roky, aniž to tušil, učil to, co učil Hus. Když se to vezme takhle, pak i apoštol Pavel a svatý Augustin byli husité.\n\n[[b]]Před sto lety upálili Husa v Kostnici; o sto let později prohlásil jeden německý mnich, že byl celou dobu jeho žákem.[[/b]]\n\nKdyž se zpráva donesla do Prahy, kališničtí kněží měli obrovskou radost. Sto let jim celá Evropa nadávala do kacířů, a teď konečně vystoupil slavný Němec a řekl: měli pravdu.\n\nLuther sám do Prahy nikdy nepřišel. Zato o rok a půl později přišel muž, který se vydával za jeho žáka.",
+      zh: "雅希莫夫的银币一车接一车往北运，运到了萨克森的莱比锡。就在银矿刚刚开挖的那几年，莱比锡还出了一件更轰动的事。\n\n1519年夏天，城堡的大厅里挤满了人，来看一场神学辩论。一边是天主教神学家约翰·埃克，另一边，是两年前在维滕堡贴出《九十五条论纲》的修士马丁·路德。\n\n埃克很快找到了一顶最有杀伤力的帽子，扣在了路德头上：你说的这些，跟一百年前[[link:the-goose-and-the-swan-1415]]在康斯坦茨被烧死[[/link]]的那个波希米亚异端胡斯，有什么区别？\n\n在德意志人听来，“胡斯派”就是异端、叛乱、十字军的同义词。路德一开始还想撇清。可辩论结束以后，他找来了胡斯的书，认认真真地读了一遍。\n\n然后，他给朋友斯帕拉丁写了一封信：\n\n[[quote:0]]\n\n他在信里说，原来这么多年来，他一直不知不觉地在教胡斯教过的东西。照这么说，连使徒保罗和圣奥古斯丁都算得上是胡斯派。\n\n[[b]]一百年前，胡斯在康斯坦茨被烧死；一百年后，一个德意志修士说，自己原来是他的学生。[[/b]]\n\n消息传到布拉格，圣杯派的神父们高兴坏了。被全欧洲骂了一百年“异端”，现在终于有个大名鼎鼎的德意志人站出来说：他们是对的。\n\n路德本人一直没有来过布拉格。不过一年多以后，来了一个自称是他学生的人。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Leipzig_Debate",
+  },
+  {
+    slug: "who-was-martin-luther-1521",
+    era: "rule-of-the-lords",
+    cardType: "background",
+    images: [],
+    imageCaptions: [],
+    quotes: [
+      {
+        text: {
+          en: "Why does the pope, whose wealth today is greater than that of the richest Crassus, not build this one basilica of St Peter with his own money rather than with the money of poor believers?",
+          cz: "Proč papež, jehož bohatství je dnes větší než bohatství nejbohatšího Crassa, nestaví tu jedinou baziliku svatého Petra raději ze svých peněz než z peněz chudých věřících?",
+          zh: "教皇今天的财富比最富有的克拉苏还要多，他为什么不用自己的钱，而偏要用穷苦信徒的钱，来盖这一座圣伯多禄大殿？",
+        },
+        attribution: {
+          en: "Martin Luther, Ninety-Five Theses, Thesis 86 (1517)",
+          cz: "Martin Luther, Devadesát pět tezí, teze 86 (1517)",
+          zh: "马丁·路德，《九十五条论纲》，第86条（1517年）",
+        },
+      },
+      {
+        text: {
+          en: "Therefore I cannot and will not recant anything, since to act against conscience is burdensome, unwholesome and dangerous. God help me. Amen.",
+          cz: "Proto nemohu a nechci nic odvolat, neboť jednat proti svědomí je obtížné, nespasitelné a nebezpečné. Bůh mi pomoz. Amen.",
+          zh: "所以我不能、也不愿收回任何东西，因为违背良心行事，既艰难，又无益，还危险。愿上帝帮助我。阿们。",
+        },
+        attribution: {
+          en: "Martin Luther at the Diet of Worms, 18 April 1521, as recorded in the imperial diet's acts",
+          cz: "Martin Luther na říšském sněmu ve Wormsu, 18. dubna 1521, podle sněmovních akt",
+          zh: "马丁·路德在沃尔姆斯帝国会议上的回答，1521年4月18日，据帝国会议记录",
+        },
+      },
+    ],
+    startYear: 1520.9,
+    year: {
+      en: "1483–1522",
+      cz: "1483–1522",
+      zh: "1483–1522年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Martin Luther and the Ninety-Five Theses",
+      cz: "Martin Luther a devadesát pět tezí",
+      zh: "马丁·路德和《九十五条论纲》",
+    },
+    hookLine: {
+      en: "A miner's son became a monk because of a thunderstorm, then, thanks to a list of points for an academic debate, the most famous outlaw in Europe.",
+      cz: "Syn horníka se kvůli bouřce stal mnichem a pak, díky seznamu bodů k akademické disputaci, nejslavnějším psancem Evropy.",
+      zh: "一个矿工的儿子，因为一场雷雨当了修士，又因为一份学术辩论提纲，成了全欧洲最出名的通缉犯。",
+    },
+    summary: {
+      en: "Martin Luther was born in 1483 in Eisleben in Saxony. His father Hans ran copper mines and smelters in the Mansfeld hills and did well enough out of it to plan his son's future: law school in Erfurt, then a career as a lawyer, a credit to the family.\n\nIn July 1505, walking back to Erfurt from his parents' house, the 21-year-old Luther was caught in a violent thunderstorm, and lightning struck close beside him. Terrified, he cried out: \"Help, St Anne, I will become a monk!\" St Anne happened to be the patron saint of miners. Two weeks later he really did enter the Augustinian friary in Erfurt. His father was furious.\n\nAs a friar Luther was famously scrupulous. He could spend hours in confession and still come away convinced he was far too sinful for heaven. Eventually he was sent to Wittenberg, to teach the Bible at its brand-new university.\n\nThat was when the [[link:what-are-indulgences-1411]]indulgence[[/link]] sellers arrived. In 1517, raising money for the new St Peter's Basilica in Rome, the friar Johann Tetzel was doing a roaring trade just across the Saxon border, and the people of Wittenberg were walking over to buy.\n\nOn 31 October 1517 Luther wrote ninety-five theses in Latin, inviting scholars to a debate on what indulgences could actually do. The same day he sent them to Archbishop Albrecht of Mainz. Whether he also nailed them to the door of Wittenberg's Castle Church, the most famous scene of all, is still argued over: the story was first told by his colleague Melanchthon, after Luther's death.\n\nSeveral of the theses were far from polite. This one, for example:\n\n[[quote:0]]\n\nLuther only meant to have an argument at his university. But this was the age of the printing press. The theses were translated into German and within about two weeks had spread across Germany; within a few months, across Europe. An academic debate had turned into a public one.\n\nIn 1520 the pope issued a bull giving him sixty days to recant. Luther's answer came on 10 December: outside a Wittenberg gate, in front of his students, he threw the bull into a bonfire. In January 1521 he was formally excommunicated.\n\nIn April 1521 the young Emperor Charles V summoned him to the imperial diet at Worms and asked him in front of everyone: are these your books, and will you take back what is in them? Luther asked for a day to think. The next day he answered:\n\n[[quote:1]]\n\nThe line everyone remembers, \"Here I stand, I can do no other\", is not in the record of what he said; most historians hold that it was added when the speech went to print. [[b]]What he actually said was less quotable, but it meant the same thing: unless Scripture and plain reason proved him wrong, he would not take back a word.[[/b]]\n\nThe emperor declared him an outlaw: anyone could seize him, and no one was allowed to shelter him. On the road home a band of horsemen \"kidnapped\" him. The kidnappers had been sent by his own protector, Elector Frederick the Wise of Saxony, and they hid him in Wartburg Castle.\n\nThere Luther grew a beard, went by the name \"Junker Jörg\", and in about eleven weeks translated the New Testament into German. It came out in September 1522.\n\n[[b]]So in the summer of 1521 the real Luther was hiding in a castle in Thuringia, under a false name and behind a brand-new beard. Meanwhile, a man who called himself his pupil was on the road to Prague.[[/b]]",
+      cz: "Martin Luther se narodil roku 1483 v saském Eislebenu. Jeho otec Hans provozoval v okolí Mansfeldu měděné doly a hutě a vydělal na tom dost na to, aby synovi naplánoval budoucnost: práva v Erfurtu, pak dráhu advokáta, rodině ke cti.\n\nV červenci 1505 se jednadvacetiletý Luther vracel od rodičů do Erfurtu, když ho zastihla prudká bouřka a blesk udeřil těsně vedle něj. Vyděšeně vykřikl: „Pomoz, svatá Anno, stanu se mnichem!“ Svatá Anna byla shodou okolností patronkou horníků. O dva týdny později opravdu vstoupil do augustiniánského kláštera v Erfurtu. Otec zuřil.\n\nJako mnich byl Luther pověstně úzkostlivý. Dokázal strávit u zpovědi celé hodiny a stejně odcházel přesvědčený, že je na nebe příliš hříšný. Nakonec ho poslali do Wittenbergu, aby na tamní zbrusu nové univerzitě učil Bibli.\n\nA právě tehdy dorazili prodavači [[link:what-are-indulgences-1411]]odpustků[[/link]]. Roku 1517 vybíral dominikán Johann Tetzel peníze na novou baziliku svatého Petra v Římě a hned za saskou hranicí mu obchod jen kvetl. Wittenberští tam chodili nakupovat.\n\nDne 31. října 1517 sepsal Luther latinsky devadesát pět tezí a pozval učence k disputaci o tom, co odpustky vlastně dokážou. Téhož dne je poslal mohučskému arcibiskupovi Albrechtovi. Jestli je také přibil na dveře wittenberského zámeckého kostela, tu nejslavnější scénu ze všech, se dodnes vedou spory: poprvé ji vylíčil jeho kolega Melanchthon, až po Lutherově smrti.\n\nNěkteré teze nebyly zrovna zdvořilé. Například tahle:\n\n[[quote:0]]\n\nLuther se chtěl jen přít na své univerzitě. Jenže byla doba knihtisku. Teze někdo přeložil do němčiny a zhruba za dva týdny byly po celém Německu, za pár měsíců po celé Evropě. Z učené disputace se stala veřejná debata.\n\nRoku 1520 vydal papež bulu, která mu dávala šedesát dní na odvolání. Luther odpověděl 10. prosince: za jednou z wittenberských bran ji před svými studenty hodil do ohně. V lednu 1521 byl formálně exkomunikován.\n\nV dubnu 1521 si ho mladý císař Karel V. předvolal na říšský sněm do Wormsu a zeptal se ho přede všemi: jsou to tvoje knihy a odvoláš, co v nich stojí? Luther si vyžádal den na rozmyšlenou. Druhý den odpověděl:\n\n[[quote:1]]\n\nVěta, kterou si pamatují všichni, „Zde stojím, nemohu jinak“, v záznamu jeho slov není; většina historiků má za to, že přibyla, až když šla řeč do tisku. [[b]]To, co opravdu řekl, se tak dobře necituje, ale znamená totéž: dokud ho Písmo a zdravý rozum nepřesvědčí o omylu, neodvolá ani slovo.[[/b]]\n\nCísař ho prohlásil za psance: kdokoli ho smí zajmout a nikdo ho nesmí ukrývat. Cestou domů ho tlupa jezdců „unesla“. Únosce ale poslal jeho vlastní ochránce, saský kurfiřt Fridrich Moudrý, a ukryli ho na hradě Wartburg.\n\nTam si Luther nechal narůst vousy, vystupoval jako „junker Jörg“ a zhruba za jedenáct týdnů přeložil Nový zákon do němčiny. Vyšel v září 1522.\n\n[[b]]V létě 1521 tedy seděl skutečný Luther schovaný na hradě v Durynsku, pod falešným jménem a za zbrusu novými vousy. A mezitím byl na cestě do Prahy muž, který se vydával za jeho žáka.[[/b]]",
+      zh: "马丁·路德1483年生在萨克森的艾斯莱本。父亲汉斯在曼斯费尔德一带开铜矿、办冶炼厂，挣了些家底，早早给儿子规划好了前程：去埃尔福特读法律，将来当律师，光宗耀祖。\n\n1505年7月，21岁的路德从父母家回埃尔福特，路上遇到一场大雷雨，一道闪电劈在他身边。他吓得大喊：“救救我，圣安娜，我要去当修士！”圣安娜恰好是矿工的主保圣人。两个星期后，他真的进了埃尔福特的奥古斯丁修道院。父亲气坏了。\n\n修道院里的路德，是出了名的较真。他一忏悔就是几个小时，出来还是觉得自己罪孽深重，怎么都不够格进天堂。后来，他被派到维滕堡，在新办的大学里教《圣经》。\n\n就在这时，卖[[link:what-are-indulgences-1411]]赎罪券[[/link]]的人来了。1517年，为了给罗马的新圣伯多禄大殿筹钱，修士约翰·特策尔就在萨克森边境外头大卖特卖，维滕堡的老百姓纷纷跑过去买。\n\n1517年10月31日，路德用拉丁文写了九十五条论纲，邀请学者们来辩一辩：赎罪券到底管不管用。同一天，他把论纲寄给了美因茨大主教阿尔布雷希特。至于他有没有亲手把论纲钉在维滕堡城堡教堂的大门上，这个最出名的画面至今还有争议：它最早是路德死后，由他的同事梅兰希通讲出来的。\n\n论纲里有好几条，问得一点也不客气。比如这一条：\n\n[[quote:0]]\n\n路德本来只想在大学里辩一辩。可这是印刷术的时代。论纲被人翻成德语，大约两个星期就传遍了德意志，几个月后传遍了欧洲。一场学术辩论，变成了一场全民大讨论。\n\n1520年，教皇发出诏书，限他六十天内认错。路德的回答是：12月10日，在维滕堡的城门外，当着学生们的面，把诏书扔进了火堆。1521年1月，他被正式开除教籍。\n\n1521年4月，年轻的皇帝查理五世在沃尔姆斯召开帝国会议，把路德叫来，当众问他：这些书是不是你写的？里面的话，你收不收回？路德要了一天时间考虑。第二天，他回答：\n\n[[quote:1]]\n\n后世流传最广的那句“这就是我的立场，我别无选择”，会议记录里并没有；多数史学家认为，这是讲稿付印时才加上去的。[[b]]他真正说的话没那么响亮，意思却一样：除非用《圣经》和明白的道理证明他错了，否则一个字也不收回。[[/b]]\n\n皇帝宣布路德为帝国罪犯：人人都可以抓他，谁也不许收留他。回家的路上，一伙骑手半路把他“绑”走了。绑匪是他的保护人、萨克森选帝侯智者腓特烈派来的，把他藏进了瓦特堡城堡。\n\n路德在城堡里留起了大胡子，化名“约尔格骑士”，用大约十一个星期，把《新约》译成了德语。1522年9月，这本书出版了。\n\n[[b]]所以1521年夏天，真正的路德正躲在图林根的一座城堡里，顶着假名字，留着一脸新胡子。而一个自称是他学生的人，正在去布拉格的路上。[[/b]]",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Ninety-five_Theses",
+  },
+  {
+    slug: "master-thomas-the-lutheran-1521",
+    era: "rule-of-the-lords",
+    images: ["/history/master-thomas-the-lutheran-1521.webp"],
+    imageCaptions: [
+      {
+        en: "Prague, summer 1521: Thomas Müntzer preaches in German from the pulpit of the Bethlehem Chapel while a Czech scholar relays his words to the puzzled crowd; in the middle of the hall, a ragged lay preacher glares at him with folded arms.",
+        cz: "Praha, léto 1521: Tomáš Müntzer káže německy z kazatelny Betlémské kaple a český učenec jeho slova tlumočí zmatenému davu; uprostřed sálu si ho se založenýma rukama měří otrhaný laický kazatel.",
+        zh: "1521年夏天，布拉格：托马斯·闵采尔在伯利恒礼拜堂的讲坛上用德语布道，一位捷克学者在下面向一脸茫然的听众转述；大厅中间，一个衣衫褴褛的平信徒布道人抱着胳膊瞪着他。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "I, Thomas Müntzer of Stolberg, residing in Prague, in the place of the dear and holy warrior Master Jan Hus…",
+          cz: "Já Tomáš Mincieř z Štolberku, bytem v Praze, na místě drahého a svatého bojovníka mistra Jana Husi…",
+          zh: "我，施托尔贝格的托马斯·闵采尔，现居布拉格，接替亲爱而神圣的战士胡斯大师的位置……",
+        },
+        attribution: {
+          en: "Thomas Müntzer, Prague Manifesto, contemporary Czech translation",
+          cz: "Tomáš Müntzer, Pražský manifest, dobový český překlad",
+          zh: "托马斯·闵采尔，《布拉格宣言》，当时的捷克语译本",
+        },
+      },
+      {
+        text: {
+          en: "They say that in some questions of the gospel the Czechs go no further, but stand still; and that is just what drove you on further…",
+          cz: "Říká se, že v některých otázkách evangelia Češi už nejdou dál, ale zůstávají stát; což Tebe naopak hnalo dál…",
+          zh: "人们说，在福音的某些问题上，捷克人不再往前走，而是停了下来；而这恰恰把你推得更远……",
+        },
+        attribution: {
+          en: "Franz Günther, pastor at Lochau, letter to Müntzer, 25 November 1522",
+          cz: "Franz Günther, farář v Lochau, dopis Müntzerovi, 25. listopadu 1522",
+          zh: "洛豪的牧师弗朗茨·京特致闵采尔的信，1522年11月25日",
+        },
+      },
+    ],
+    startYear: 1521,
+    year: {
+      en: "1521",
+      cz: "1521",
+      zh: "1521年",
+    },
+    tone: "humorous",
+    title: {
+      en: "From Guest of Honour to Unwanted Guest",
+      cz: "Od čestného hosta k nevítanému",
+      zh: "从贵宾到恶客",
+    },
+    hookLine: {
+      en: "Prague went out in procession to welcome a \"Lutheran\". Within a few weeks it wanted him gone.",
+      cz: "Praha slavnostně vyšla vstříc „lutheránovi“. Za pár týdnů se ho chtěla zbavit.",
+      zh: "布拉格敲锣打鼓地迎来了一位“路德派”，没过几个星期，就想把他送走了。",
+    },
+    summary: {
+      en: "In June 1521 a German who called himself a disciple of Luther arrived in Prague. His name was Thomas Müntzer.\n\nUntil shortly before, he had been a preacher in Zwickau in Saxony, until the town council dismissed him because his sermons were stirring up too much trouble. He came to Bohemia with a plan. As he saw it, the end of the world was near, the Turkish army was already approaching the Danube, and he had to light a new fire in Hus's homeland before time ran out.\n\nPrague gave him the red-carpet treatment. The humanist Jan Hodějovský recorded that the city went out in procession to welcome \"Master Thomas the Lutheran\", fresh from Wittenberg. Prague's scholars took him for a loyal follower of Luther. The university masters paid to put him up in the guest rooms of the Karolinum and invited him to preach.\n\nHe preached in the university's two chapels: Corpus Christi in the New Town and the Bethlehem Chapel in the Old Town. More than a hundred years earlier, Hus himself had preached in the Bethlehem Chapel. Sermons there were always in Czech; this time a German was let into the pulpit.\n\nThere was just one problem: Müntzer spoke no Czech. He preached in German and Latin, while two Czech scholars translated for the crowd, sentence by sentence.\n\nThe celebrations soon turned sour. Hodějovský wrote that one morning he heard Müntzer preach in German at Corpus Christi, and after lunch in Latin at the Bethlehem Chapel; that evening Müntzer picked a quarrel with a radical local lay preacher, Matthew the Hermit, and ended up knocked to the ground in a brawl.\n\nOn 7 July, just after the feast in Hus's memory, a crowd stormed the monasteries, dragged their images and statues through the streets and dumped them in the mud. The dean of the university's arts faculty set the riot side by side with Müntzer's sermons in his chronicle, though without saying that Müntzer had started it.\n\n[[b]]Prague had invited \"Luther's man\". What it got was a prophet who believed the Holy Spirit spoke to him directly.[[/b]]\n\nMüntzer taught that the chosen learn God's word straight from the Spirit, not just from the written Bible. For Utraquist masters who had spent a century defending their faith with the Bible in their hands, that was hard to swallow.\n\nHis hosts soon had enough of their guest. Before long he was out of the Karolinum. For nearly three months after that he lodged with a Prague townsman whose name the sources do not give.\n\nWith no pulpit, he buried himself in books. One volume he had bound by a Prague bookbinder that year is the only book from his large library that survives today, its margins full of his notes.\n\nIn the autumn he tried another way: if he could not speak, he would write. He drafted a long open letter for all the people of Bohemia, one version in Latin, a short and a long one in German, and had it translated into Czech. The Czech version began like this:\n\n[[quote:0]]\n\nThe renewed apostolic church, he wrote, would begin in Bohemia and spread from there to the whole world. He called the Roman clergy \"parsons and apes\" and demanded of the Czechs: \"Give me room to preach!\" He also warned them that if they did not listen to him, God would let the Turks slaughter them the very next year. Sultan Suleiman had just taken Belgrade that August, so the threat did not sound entirely mad.\n\nWhether the letter ever reached the public at all is still unclear. The Czech translation is clumsy, and it breaks off in the middle of a sentence and was never finished.\n\nThat winter Müntzer left Prague. A year later a German friend summed up the Bohemian journey in a letter to him:\n\n[[quote:1]]\n\n[[b]]He called himself Hus's successor, and the Czechs could not even understand what he was saying.[[/b]]",
+      cz: "V červnu 1521 přišel do Prahy Němec, který se vydával za Lutherova žáka. Jmenoval se Tomáš Müntzer.\n\nJeště nedávno kázal v saském Cvikově, dokud ho městská rada nepropustila, protože jeho kázání vyvolávala příliš mnoho neklidu. Do Čech přišel s plánem. Podle něj se blížil konec světa, turecká vojska už stála kousek od Dunaje a on musel v Husově vlasti zažehnout nový oheň, dokud je čas.\n\nPraha ho přijala jako vzácného hosta. Humanista Jan Hodějovský zaznamenal, že mu město slavnostně vyšlo vstříc jako „mistru Tomáši Lutheránovi“, který právě přišel z Wittenbergu. Pražští učenci ho měli za věrného Lutherova stoupence. Univerzitní mistři ho na své náklady ubytovali v hostinských pokojích Karolina a pozvali ho kázat.\n\nKázal v obou univerzitních kaplích: v kapli Božího těla na Novém Městě a v Betlémské kapli na Starém Městě. V Betlémské kapli kázal před víc než sto lety Hus. Kázalo se tam vždycky česky; tentokrát pustili na kazatelnu Němce.\n\nJen jeden háček: Müntzer neuměl česky. Kázal německy a latinsky a dva čeští učenci to lidem větu po větě překládali.\n\nSlavnost se brzy zvrtla. Hodějovský píše, že jednoho dne ráno slyšel Müntzerovo německé kázání u Božího těla a po obědě latinské v Betlémské kapli; večer se Müntzer pustil do radikálního místního laického kazatele Matěje Poustevníka a ve rvačce skončil na zemi.\n\n7. července, hned po slavnosti na Husovu památku, vtrhl dav do klášterů, vláčel obrazy a sochy ulicemi a házel je do bláta. Děkan artistické fakulty postavil ve své kronice tyto bouře vedle Müntzerových kázání, aniž by tvrdil, že je vyvolal on.\n\n[[b]]Praha si pozvala „Lutherova člověka“. Dostala proroka, který věřil, že k němu Duch svatý mluví přímo.[[/b]]\n\nMüntzer učil, že vyvolení se Boží slovo učí přímo od Ducha, ne jen z psané Bible. Pro kališnické mistry, kteří celé století hájili svou víru s Biblí v ruce, to bylo těžké sousto.\n\nHostitelé měli svého hosta brzy dost. Zanedlouho musel z Karolina odejít. Pak skoro čtvrt roku bydlel u jednoho pražského měšťana, jehož jméno prameny neuvádějí.\n\nKdyž nemohl kázat, zavrtal se do knih. Svazek, který si toho roku nechal svázat u pražského knihvazače, je jediná kniha z jeho rozsáhlé knihovny, která se zachovala, a okraje má plné jeho poznámek.\n\nNa podzim to zkusil jinak: když nesmí mluvit, bude psát. Sepsal dlouhý otevřený dopis všem Čechům, jednu verzi latinsky, kratší a delší německy, a nechal ho přeložit do češtiny. Česká verze začínala takto:\n\n[[quote:0]]\n\nPíše v něm, že obnovená apoštolská církev začne v Čechách a odtud se rozšíří do celého světa. Římské kněze nazval „popy a opicemi“ a Čechy vyzval: „Dejte mně prostor ke kázání!“ A varoval je, že pokud ho neposlechnou, dopustí Bůh, aby je hned příští rok pobili Turci. Sultán Sulejman tehdy v srpnu právě dobyl Bělehrad, takže to neznělo úplně šíleně.\n\nJestli se dopis vůbec někdy dostal na veřejnost, dodnes nevíme. Český překlad je neohrabaný, uprostřed věty se přerušuje a nikdy nebyl dokončen.\n\nTé zimy Müntzer z Prahy odešel. O rok později mu jeden německý přítel shrnul celou českou cestu v dopise:\n\n[[quote:1]]\n\n[[b]]Prohlašoval se za Husova nástupce, a Češi mu ani nerozuměli.[[/b]]",
+      zh: "1521年6月，一个自称路德门生的德意志人来到了布拉格。他叫托马斯·闵采尔。\n\n不久前，他还在萨克森的茨维考当布道人，因为布道太火爆、惹出了乱子，被市议会撤了职。他来波希米亚，是有备而来的：在他看来，世界末日就要到了，土耳其大军已经逼近多瑙河，他得赶在末日之前，在胡斯的故乡点起一把新火。\n\n布拉格人给了他贵宾待遇。人文学者扬·霍杰约夫斯基记下，全城隆重出迎这位“路德派的托马斯硕士”，说他刚从维滕堡来。在布拉格的学者们看来，来的是路德的忠实门徒。大学的硕士们自掏腰包，把他安排在卡罗林学院的客房里住下，还请他去布道。\n\n他在大学的两座礼拜堂里布道：新城的基督圣体礼拜堂，和老城的伯利恒礼拜堂。一百多年前，胡斯就是在伯利恒礼拜堂布道的。那里向来只讲捷克语，这一回，破例让一个德意志人上了讲坛。\n\n只是，闵采尔不会说捷克语。他用德语和拉丁语讲，旁边的两位捷克学者一句一句翻译。\n\n热闹很快就变了味。据霍杰约夫斯基记载，有一天上午，他在基督圣体礼拜堂听了闵采尔的德语布道，午饭后又在伯利恒礼拜堂听了他的拉丁语布道；到了晚上，闵采尔去招惹本地一个激进的平信徒布道人“隐士马捷伊”，在一场扭打中被打翻在地。\n\n7月7日，胡斯纪念日刚过，一群人冲进修道院，把圣像和雕塑拖到街上，扔进泥里。大学文学院的院长在编年史里，把这场骚乱和闵采尔的布道写在了一处，不过没说是他挑起来的。\n\n[[b]]布拉格人请来的是“路德的人”，来的却是一个自认为圣灵直接跟他说话的先知。[[/b]]\n\n闵采尔认为，选民可以直接从圣灵那里领受上帝的话，不必只靠写在纸上的《圣经》。圣杯派的硕士们捧着《圣经》替自己的信仰辩护了一百年，这一套，他们很难咽得下去。\n\n东道主们很快就受够了这位客人。没过多久，他就搬出了卡罗林学院。之后差不多三个月，他寄住在一位布拉格市民家里，史料没留下这人的名字。\n\n没法布道，他就埋头读书。那一年他请布拉格的装订匠装订的一本书，是他庞大藏书里唯一留存至今的一本，页边写满了他的批注。\n\n到了秋天，他换了个办法：既然不让讲，那就写。他写了一封长信，要给全体波希米亚人看，拉丁文一版，德文长短两版，还找人译成了捷克语。捷克语译本开头是这样写的：\n\n[[quote:0]]\n\n他在信里说，新的使徒教会将从波希米亚开始，传遍全世界。他把罗马的神父骂作“神棍和猴子”，冲着捷克人喊：“给我布道的地方！”还警告他们：要是不听他的，上帝明年就会让土耳其人把他们杀光。那年8月，苏莱曼刚刚攻下贝尔格莱德，这话在当时听来，倒也不全是疯话。\n\n可这封信到底有没有传到公众手里，至今都说不清。捷克语译本译得磕磕绊绊，在一句话的中间断掉了，再也没有译完。\n\n这年冬天，闵采尔离开了布拉格。一年后，一位德意志朋友在给他的信里，替这趟波希米亚之行做了个总结：\n\n[[quote:1]]\n\n[[b]]他自称是胡斯的接班人，可捷克人连他的话都听不懂。[[/b]]",
+    },
+    relatedLandmarks: [
+      {
+        slug: "bethlehem-chapel",
+        relation: {
+          en: "Hus's own pulpit, where Müntzer preached in German and Latin in the summer of 1521 while Czech scholars translated.",
+          cz: "Husova kazatelna, kde Müntzer v létě 1521 kázal německy a latinsky a čeští učenci překládali.",
+          zh: "胡斯当年的讲坛。1521年夏天，闵采尔在这里用德语和拉丁语布道，捷克学者在旁翻译。",
+        },
+      },
+      {
+        slug: "karolinum",
+        relation: {
+          en: "The university's Great College, where the masters put Müntzer up at their own expense when he arrived, and from which he was soon asked to leave.",
+          cz: "Velké kolegium univerzity, kde Müntzera po příchodu na své náklady ubytovali univerzitní mistři a odkud musel brzy odejít.",
+          zh: "大学的主学院。闵采尔刚到布拉格时，大学的硕士们自掏腰包让他住在这里，没过多久又请他搬了出去。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Pra%C5%BEsk%C3%BD_manifest_(1521)",
+  },
+  {
+    slug: "the-king-comes-home-1522",
+    era: "rule-of-the-lords",
+    images: ["/history/the-king-comes-home-1522.webp"],
+    imageCaptions: [
+      {
+        en: "St Vitus Cathedral, 1 June 1522: fifteen-year-old King Louis walks in with the crown on his head, the sceptre in one hand and the orb in the other; Queen Mary walks beside him with a small orb and two gilded loaves, while a page holds the empty crown cushion and the lords’ benches stand empty.",
+        cz: "Katedrála svatého Víta, 1. června 1522: patnáctiletý král Ludvík vchází s korunou na hlavě, žezlem v jedné ruce a jablkem v druhé; královna Marie kráčí vedle něj s malým jablkem a dvěma pozlacenými chlebíčky, páže drží prázdný polštář na korunu a lavice pánů zejí prázdnotou.",
+        zh: "1522年6月1日，圣维特大教堂：十五岁的路德维克国王头戴王冠，一手权杖，一手金球，自己走了进来；王后玛丽亚走在他身旁，捧着小金球和两个镀金的小面包。一旁的侍从抱着空空的王冠垫子，领主们的座位空无一人。",
+      },
+    ],
+    quotes: [],
+    startYear: 1522,
+    year: {
+      en: "1522",
+      cz: "1522",
+      zh: "1522年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The King Finally Comes Home",
+      cz: "Král se konečně vrátil domů",
+      zh: "国王终于回家了",
+    },
+    hookLine: {
+      en: "The last time the king had been in Prague, he was a toddler being held up under a crown. Thirteen years later he rode back on his own horse, with a queen at his side.",
+      cz: "Když byl král v Praze naposledy, bylo to batole, kterému někdo přidržoval korunu. O třináct let později přijel zpátky na vlastním koni a po boku měl královnu.",
+      zh: "上一次国王来布拉格，还是被人抱着戴上王冠的三岁孩子。十三年后，他自己骑着马回来了，身边还带着王后。",
+    },
+    summary: {
+      en: "In the spring of 1522 Prague got something it had not seen in years: the king was coming home.\n\nThe last time Louis had been in Prague was [[link:the-burghers-pay-for-the-crown-1509]]in 1509[[/link]]. He was not yet three, wrapped in an ermine mantle while the lords held the crown steady on his head, and he dozed his way into becoming King of Bohemia. After that he lived in Buda and never came back.\n\nNow he was fifteen. And he had someone with him: Queen Mary, the nine-year-old girl who [[link:the-groom-was-grandpa-1515]]had exchanged rings with him[[/link]] in St Stephen's Cathedral in Vienna seven years earlier.\n\nThe royal party left Buda on 24 February and reached Prague on 28 March. The whole city turned out. Armed guards lined the streets, the guilds carried their banners, priests and university masters stood along the route, and every bell in town rang. Outside the city the Jewish community came to meet him singing hymns, and asked the king to touch the tablets of the Ten Commandments with his riding whip. Inside, the townswomen pushed their way to the front row and boldly shook the king's hand.\n\nThe biggest show was on the bridge: right in front of the king and queen, four Praguers jumped into the Vltava sitting in wooden tubs. It certainly made an impression. Unfortunately, one of them did not make it back to shore.\n\n[[b]]The \"fine\" king had moved to Buda and never moved home again. His son, at last, had come back.[[/b]]\n\nOn 1 June Mary was crowned Queen of Bohemia in St Vitus Cathedral. The coronation had been put off again and again, because the lords and the knights could not agree on who had the right to carry the crown, the sceptre and the orb. In the end the young king solved it himself: he walked into the cathedral wearing the crown, the sceptre in his right hand and the orb in his left. The queen followed with a little golden orb in one hand and two gilded loaves of bread in the other.\n\nThe lords, upstaged, sulked and stayed away, turning up only after the banquet was over.\n\nAfter the coronation the king knighted a group of men, among them two in particular: Jan Pašek and Jan Hlavsa. They were citizens of Prague, not noblemen.",
+      cz: "Na jaře 1522 zažila Praha vzácnou věc: král se vracel domů.\n\nNaposledy byl Ludvík v Praze [[link:the-burghers-pay-for-the-crown-1509]]roku 1509[[/link]]. Nebyly mu ještě ani tři roky, byl zabalený do hermelínového pláště, páni mu přidržovali korunu a on se napůl v polospánku stal českým králem. Pak žil v Budíně a už se nevrátil.\n\nTeď mu bylo patnáct. A někoho si přivezl: královnu Marii, tu devítiletou holčičku, která si s ním před sedmi lety [[link:the-groom-was-grandpa-1515]]vyměnila prsteny[[/link]] ve vídeňské katedrále svatého Štěpána.\n\nKrálovský průvod vyjel z Budína 24. února a do Prahy dorazil 28. března. Vyšlo celé město. Podél ulic stála ozbrojená stráž, cechy nesly své korouhve, kněží a univerzitní mistři stáli u cesty a zvonily všechny zvony. Před městem vyšla králi vstříc židovská obec se zbožnými písněmi a prosila ho, aby se svým jezdeckým bičíkem dotkl desek Desatera. Ve městě se do první řady prodraly měšťanky a směle králi podávaly ruce.\n\nNejvětší podívaná se odehrála na mostě: čtyři Pražané před očima krále a královny skočili v neckách do Vltavy. Dojem to jistě udělalo. Jeden z nich se ale už živý na břeh nedostal.\n\n[[b]]Král „Dobře“ se kdysi odstěhoval do Budína a domů se už nikdy nevrátil. Jeho syn se konečně vrátil.[[/b]]\n\n1. června byla Marie ve svatovítské katedrále korunována českou královnou. Korunovace se pořád odkládala, protože se páni s rytíři nemohli dohodnout, kdo smí nést korunu, žezlo a jablko. Nakonec to mladý král vyřešil sám: vešel do katedrály s korunou na hlavě, se žezlem v pravé ruce a jablkem v levé. Královna šla za ním s malým zlatým jablkem v jedné ruce a dvěma bochníčky pozlaceného chleba v druhé.\n\nUražení páni na korunovaci nepřišli a objevili se až po skončení hostiny.\n\nPo korunovaci král pasoval několik mužů na rytíře, mezi nimi dva muže: Jana Paška a Jana Hlavsu. Byli to pražští měšťané, ne šlechtici.",
+      zh: "1522年的春天，布拉格人迎来了一件稀罕事：国王要回家了。\n\n上一次路德维克来布拉格，还是[[link:the-burghers-pay-for-the-crown-1509]]1509年[[/link]]。那时他不到三岁，被裹在白鼬皮大氅里，由大臣们扶着王冠，迷迷糊糊地当上了波希米亚国王。之后他就一直住在布达，再也没回来过。\n\n如今，他十五岁了。他身边还多了一个人：王后玛丽亚，就是七年前在维也纳圣斯德望大教堂里，[[link:the-groom-was-grandpa-1515]]跟他交换戒指[[/link]]的那个九岁小姑娘。\n\n2月24日，国王一行从布达出发，浩浩荡荡地往北走；3月28日，到了布拉格。整座城都出来了：武装卫兵沿街列队，各个行会举着自家的旗帜，神父们、大学的老师们站在路边，全城的钟一齐敲响。城外，犹太社区的人唱着赞美诗迎上来，请国王用马鞭碰一碰他们捧着的十诫石板。城里，妇女们挤到了最前排，大大方方地跟国王握手。\n\n最热闹的一出戏在桥上：四个布拉格人当着国王和王后的面，坐在木盆里从桥上跳进了伏尔塔瓦河。场面确实轰动，可惜其中一个人，没能活着上岸。\n\n[[b]]好好国王当年去了布达，就再也没把家搬回来。他的儿子，总算回来了。[[/b]]\n\n6月1日，玛丽亚在圣维特大教堂加冕为波希米亚王后。这场加冕礼一拖再拖，因为领主们和骑士们为了谁有资格捧王冠、权杖和金球，吵得不可开交。最后，年轻的国王自己把问题解决了：他头戴王冠，右手握权杖，左手托金球，自己走进了大教堂。王后跟在后面，一手拿着小金球，一手捧着两个镀金的小面包。\n\n被抢了风头的领主们赌气没来，一直到宴会散了才露面。\n\n加冕礼之后，国王封了一批骑士，里面有两个人：扬·帕谢克和扬·赫拉夫萨。他们是布拉格的市民，而不是贵族。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Where Queen Mary was crowned on 1 June 1522, after Louis walked in wearing the crown himself to end the quarrel over who would carry it.",
+          cz: "Zde byla 1. června 1522 korunována královna Marie, když Ludvík ukončil spor o nesení insignií tím, že vešel s korunou na hlavě sám.",
+          zh: "1522年6月1日，玛丽亚王后在这里加冕。为了平息谁来捧王冠的争吵，路德维克干脆自己戴着王冠走了进来。",
+        },
+      },
+      {
+        slug: "vladislavsky-sal",
+        relation: {
+          en: "The great hall of the castle palace, through which the coronation procession passed on its way to the diet hall next door.",
+          cz: "Velký sál královského paláce, kterým prošel korunovační průvod do vedlejší sněmovní síně.",
+          zh: "城堡王宫的大厅，加冕队伍从这里穿过，进入隔壁的议会厅。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Ludv%C3%ADk_Jagellonsk%C3%BD",
+  },
+  {
+    slug: "the-king-who-learned-to-say-no-1523",
+    era: "rule-of-the-lords",
+    images: ["/history/the-king-who-learned-to-say-no-1523.webp"],
+    imageCaptions: [
+      {
+        en: "Prague Castle, February 1523: Zdeněk Lev of Rožmitál hands sixteen-year-old King Louis the resignations of all the high officers of the land, and the king simply passes the stack to a clerk; behind them the other officers look on in alarm, and at the back the land archive is already being locked and sealed.",
+        cz: "Pražský hrad, únor 1523: Zdeněk Lev z Rožmitálu podává šestnáctiletému králi Ludvíkovi rezignaci všech nejvyšších zemských úředníků a král celý balík prostě předá písaři; ostatní úředníci za nimi se zděšeně dívají a vzadu už se zemský archiv zamyká a pečetí.",
+        zh: "1523年2月，布拉格城堡：罗日米塔尔的兹德涅克·列夫把全体邦国高级官员的辞呈递给十六岁的路德维克国王，国王顺手就交给了一旁的书记官。列夫身后的官员们面面相觑，大厅后头，邦国档案已经在上锁、贴封条了。",
+      },
+    ],
+    quotes: [],
+    startYear: 1523,
+    year: {
+      en: "1523",
+      cz: "1523",
+      zh: "1523年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The King Who Learned to Say No",
+      cz: "Král, který se naučil říkat ne",
+      zh: "学会说“不”的国王",
+    },
+    hookLine: {
+      en: "For fifteen years one lord had run the kingdom’s money, and even Prague Castle was registered in his name. The sixteen-year-old king took it all back in a single winter.",
+      cz: "Jeden velmož patnáct let spravoval královské peníze a i Pražský hrad měl zapsaný na sebe. Šestnáctiletý král mu to všechno vzal zpátky za jedinou zimu.",
+      zh: "一位大贵族替国王管了十五年的钱，连布拉格城堡都登记在他名下。十六岁的国王只用了一个冬天，就把这一切收了回来。",
+    },
+    summary: {
+      en: "Louis had not come just for a coronation. He stayed in Prague for almost a year, and found that in all the years without a king, the kingdom had been turned into a family business by a handful of great lords.\n\nThe one who had run it longest was the Supreme Burgrave, [[link:the-heretic-kings-grandson-1513]]Zdeněk Lev of Rožmitál[[/link]], son of the [[link:from-bohemia-to-the-end-of-the-world-1465]]Jaroslav Lev[[/link]] who had travelled to the end of the world, and nephew of King George's Queen Joanna. He had held the post for fifteen years. The royal revenues passed in and out through his hands, and nobody could say how much ended up in the treasury and how much in his own pocket. Even Prague Castle was registered in his name.\n\nAs soon as the king arrived, the towns demanded a public, line-by-line account of every tax collected in those years. Lev flatly refused.\n\nIn January 1523 the diet met again. As it happened, the commissioners the king had sent to run the diets in Moravia, Silesia and Lusatia were mostly Lev's men, and Lev himself was not there either. This diet decided that the royal castles pawned off over the years were to be taken back, and that Prague Castle would no longer be registered to Lev: its captain would swear loyalty to the king alone.\n\nBy the time Lev got back to Prague, things had changed. In early February he offered the king his resignation, in the name of all the high officers of the kingdom.\n\nThe king accepted it, and kept none of them on. The young king did something his father had never done in his whole life: he said \"no\" to the lords.\n\nEvery high officer and every judge of the land court was dismissed, and the land records were locked away under the seals of the king and the estates. On 3 March the king named a new set of officers. The new Supreme Burgrave was Jan of Wartenberg. Of the lords close to Lev, the king put not a single one on the land court. While he was away, Duke Charles of Münsterberg would govern in his place.\n\n[[b]]The father had only ever known how to say \"fine\"; in his first year home, the son learned to say \"no\".[[/b]]\n\nIt was quite a shake-up for its day. Only now did the lords realise that this young king might not be quite like his father.\n\nIt was not only the lords who were replaced. On 14 March the king went to the Old Town Hall in person to choose new councillors for the united city. Nine of the eighteen were replaced. Pašek was left out, and Hlavsa became first burgomaster. Along the way the king gave his after-the-fact blessing to [[link:tearing-down-the-wall-1518]]the merger of the two towns[[/link]], which had happened five years earlier without his consent.\n\nTwo days later, on 16 March, the king left Prague. In the south the Turks were pressing ever closer, Hungary was in turmoil, and envoys from Buda kept arriving to hurry him back.\n\nHe left behind a set of new officers and a large stock of old grudges. The ousted Zdeněk Lev was not a man who accepted defeat. And in Prague itself, the string between Pašek and Hlavsa was being pulled tighter and tighter.\n\nThe king was gone. This time he never came back.",
+      cz: "Ludvík nepřijel jen kvůli korunovaci. V Praze zůstal skoro rok a zjistil, že za léta bez krále si z království několik velkých pánů udělalo rodinný podnik.\n\nNejdéle ho vedl nejvyšší purkrabí [[link:the-heretic-kings-grandson-1513]]Zdeněk Lev z Rožmitálu[[/link]], syn toho [[link:from-bohemia-to-the-end-of-the-world-1465]]Jaroslava Lva[[/link]], který dojel až na konec světa, a synovec královny Johany, manželky krále Jiřího. V úřadě seděl už patnáct let. Královské příjmy mu procházely rukama sem a tam a nikdo nedokázal říct, kolik z nich skončilo v pokladně a kolik v jeho vlastní kapse. I Pražský hrad byl zapsán na jeho jméno.\n\nSotva král přijel, města žádala, aby se veřejně, položku po položce, vyúčtovaly všechny berně vybrané za ta léta. Lev to rázně odmítl.\n\nV lednu 1523 se sešel další sněm. Shodou okolností byli královi komisaři, které poslal řídit sněmy na Moravu, do Slezska a do Lužice, většinou Lvovi lidé, a ani Lev sám na sněmu nebyl. Sněm rozhodl, že zastavené královské hrady se vrátí králi a že Pražský hrad už nebude zapsán na Lva: jeho hejtman bude přísahat jen králi.\n\nKdyž se Lev vrátil do Prahy, bylo všechno jinak. Začátkem února nabídl králi rezignaci, a to jménem všech nejvyšších zemských úředníků.\n\nKrál ji přijal a nenechal si ani jednoho z nich. Mladý král udělal něco, co jeho otec za celý život neudělal: řekl pánům „ne“.\n\nVšichni nejvyšší úředníci i všichni zemští soudci byli propuštěni a zemské desky zavřeny pod pečetí krále a stavů. 3. března jmenoval král nové úředníky. Nejvyšším purkrabím se stal Jan z Vartenberka. Do zemského soudu nepovolal ani jednoho z pánů, kteří měli blízko ke Lvovi. Po dobu jeho nepřítomnosti měl zemi spravovat kníže Karel Minsterberský.\n\n[[b]]Otec uměl za celý život říkat jen „dobře“; syn se hned první rok doma naučil říkat „ne“.[[/b]]\n\nNa tehdejší poměry to bylo pořádné zemětřesení. Teprve teď páni pochopili, že tenhle mladý král asi nebude jako jeho otec.\n\nNevyměnil přitom jen pány. 14. března přišel král osobně na Staroměstskou radnici, aby vybral nové konšely spojeného města. Z osmnácti jich vyměnil devět. Pašek už se do rady nevrátil a prvním purkmistrem se stal Hlavsa. Král tím zpětně posvětil i [[link:tearing-down-the-wall-1518]]spojení obou měst[[/link]], ke kterému před pěti lety došlo bez jeho svolení.\n\nO dva dny později, 16. března, král z Prahy odjel. Na jihu Turci tlačili čím dál víc, v Uhrách byl zmatek a poslové z Budína ho jeden za druhým naléhavě volali zpátky.\n\nZanechal tu sadu nových úředníků a velkou zásobu starých křivd. Sesazený Zdeněk Lev nebyl muž, který by se smířil s porážkou. A v samotné Praze se struna mezi Paškem a Hlavsou napínala čím dál víc.\n\nKrál odjel. Tentokrát už se nevrátil nikdy.",
+      zh: "路德维克这次回来，可不只是为了一场加冕礼。他在布拉格一住就是差不多一年，发现这个王国在没有国王的年月里，早就被几位大贵族管成了自家的买卖。\n\n管得最久的，是最高城堡伯爵[[link:the-heretic-kings-grandson-1513]]罗日米塔尔的兹德涅克·列夫[[/link]]。他是那位一路走到“世界尽头”的[[link:from-bohemia-to-the-end-of-the-world-1465]]雅罗斯拉夫·列夫[[/link]]的儿子，也是乔治国王的王后约翰娜的侄子。他坐这个位子已经十五年了，王室的收入经他的手进进出出，谁也说不清到底有多少流进了国库，又有多少流进了他自己的口袋。连布拉格城堡，都登记在他的名下。\n\n国王一来，城市的代表们就要求把这些年收的税一笔一笔公开对账。列夫一口回绝。\n\n1523年1月，邦议会又开了一次。巧的是，国王派去摩拉维亚、西里西亚和卢萨蒂亚主持议会的钦差，大多是列夫一派的人，列夫本人也不在场。这次议会决定：抵押出去的王室城堡统统收回；布拉格城堡也不再登记在列夫名下，城堡的守将从此只向国王一个人宣誓。\n\n等列夫回到布拉格，情况已经变了。2月初，他以全体邦国高级官员的名义，向国王递上了辞呈。\n\n国王收下了，而且一个也没留。年轻的国王做了一件他父亲一辈子都没做过的事：他对老爷们说了一声“不”。\n\n所有的邦国高级官员和邦法院的法官统统免职，邦国档案被锁了起来，贴上了国王和各等级的封印。3月3日，国王任命了一批新官员，接替最高城堡伯爵的，是瓦尔滕贝格的扬。邦法院里跟列夫走得近的人，国王一个都不用。国王不在的时候，由明斯特贝格公爵卡雷尔替他坐镇。\n\n[[b]]父亲一辈子只会说“好”，儿子回家第一年，就学会了说“不”。[[/b]]\n\n这在当时算是一场不小的大换血。贵族们这才意识到，这位年轻国王，好像跟他父亲不太一样。\n\n换掉的不只是贵族。3月14日，国王亲自来到老城市政厅，挑选联合市议会的议员。十八个议员换了九个，帕谢克落选，赫拉夫萨当上了首席市长。顺带着，五年前那次没经国王同意的[[link:tearing-down-the-wall-1518]]两城合并[[/link]]，也算是被国王追认了。\n\n两天后，3月16日，国王离开了布拉格。南边的土耳其人越逼越紧，匈牙利那边也乱成一团，布达派来的使者一趟接一趟地催他回去。\n\n他留下了一批新官员，和一大笔旧仇。被赶下台的兹德涅克·列夫，可不是一个会认输的人。而在布拉格城里，帕谢克和赫拉夫萨之间的那根弦，也绷得越来越紧了。\n\n国王走了。这一回，他再也没有回来。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "vladislavsky-sal",
+        relation: {
+          en: "The great hall of the castle palace; next door, in the diet hall, met the diets that brought down Zdeněk Lev.",
+          cz: "Velký sál královského paláce; ve vedlejší sněmovní síni zasedaly sněmy, které svrhly Zdeňka Lva.",
+          zh: "城堡王宫的大厅。扳倒兹德涅克·列夫的几次邦议会，就在隔壁的议会厅里召开。",
+        },
+      },
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "Where Louis came in person on 14 March 1523 to choose the councillors of the united city, leaving Pašek out and making Hlavsa first burgomaster.",
+          cz: "Sem přišel Ludvík 14. března 1523 osobně vybrat konšely spojeného města; Paška vynechal a prvním purkmistrem udělal Hlavsu.",
+          zh: "1523年3月14日，路德维克亲自来到这里挑选联合市议会的议员：帕谢克落选，赫拉夫萨当上了首席市长。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Zden%C4%9Bk_Lev_z_Ro%C5%BEmit%C3%A1lu",
+  },
+  {
+    slug: "the-citys-own-king-1524",
+    era: "rule-of-the-lords",
+    images: ["/history/the-citys-own-king-1524.webp"],
+    imageCaptions: [
+      {
+        en: "Old Town Hall, August 1524: the butcher Ziga hands the town seal to Jan Pašek, who raises a hand in modest refusal while taking it with the other; behind them Ziga’s men lead away Jan Hlavsa and the councillors.",
+        cz: "Staroměstská radnice, srpen 1524: řezník Ziga podává městskou pečeť Janu Paškovi, který se jednou rukou skromně brání a druhou si ji bere; za nimi Zigovi lidé odvádějí Jana Hlavsu a konšely.",
+        zh: "1524年8月，老城市政厅：屠夫齐加把市政厅的印章递给扬·帕谢克，帕谢克一只手摆着推辞，另一只手已经接了过来；他们身后，齐加的人正押走扬·赫拉夫萨和议员们。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "…trip him up, so that he falls by himself.",
+          cz: "…podtrhniž mu nohy, až sám upadne.",
+          zh: "……绊他一脚，让他自己摔倒。",
+        },
+        attribution: {
+          en: "Jan Pašek’s motto, as recorded in the chronicle of Bartoš the Scribe",
+          cz: "Krédo Jana Paška podle kroniky Bartoše písaře",
+          zh: "扬·帕谢克的处世格言，见书记官巴尔托什的编年史",
+        },
+      },
+      {
+        text: {
+          en: "…that man was a great terror and dread to many honourable people, and a delight to the restless, the unjust and the disorderly…",
+          cz: "…ten člověk byl veliké strašidlo a bázeň lidí mnohých šlechetných a potěšení nepokojných, nespravedlivých i jiných nepořádných…",
+          zh: "……这个人是个大怪物，让许多正派人心惊胆战，却让那些不安分、不公道、不守规矩的人拍手称快……",
+        },
+        attribution: {
+          en: "Bartoš the Scribe, Prague Chronicle",
+          cz: "Bartoš písař, Kronika pražská",
+          zh: "书记官巴尔托什，《布拉格编年史》",
+        },
+      },
+    ],
+    startYear: 1524,
+    year: {
+      en: "1524",
+      cz: "1524",
+      zh: "1524年",
+    },
+    tone: "humorous",
+    title: {
+      en: "New Master at the Town Hall",
+      cz: "Radnice má nového pána",
+      zh: "市政厅换了主人",
+    },
+    hookLine: {
+      en: "The council the king had picked by hand was tripped up a year later. After fifteen years of fighting the lords, the townsmen finally had a strongman of their own, and the first people he went after were townsmen.",
+      cz: "Radu, kterou král vybral vlastní rukou, o rok později někdo podrazil. Po patnácti letech bojů s pány měli měšťané konečně vlastního silného muže, a první, s kým si to vyřídil, byli zase měšťané.",
+      zh: "国王亲手换掉的市议会，一年后被人一脚绊倒了。城里人跟贵族斗了十五年，总算出了一个自己的强人，可他上台后头一个收拾的，是城里的自己人。",
+    },
+    summary: {
+      en: "The king’s party had barely left Prague when someone in the city started counting the days.\n\nJust two days before he left, the king had walked into the Old Town Hall himself and [[link:the-king-who-learned-to-say-no-1523]]replaced half the council[[/link]], making Hlavsa first burgomaster and leaving Pašek out. Hlavsa and his circle were reading more and more of Luther, and felt the Utraquists ought to take one more step forward. Pašek was an old-school Utraquist who did not want to take a single step more.\n\nPašek did not argue with him. According to his enemies, he had a motto for such occasions:\n\n[[quote:0]]\n\nIn other words: don’t waste words on an opponent. Wait until he is crossing a narrow plank, then just stick out your foot.\n\nHe waited almost a year and a half. The council the king had chosen was still sitting, but the king who had stood behind it was far away in Buda and never came back. In August 1524 Pašek decided the time had come, and stuck out his foot.\n\nHis brother-in-law, the butcher Ziga, burst into the Old Town Hall with a crowd, publicly accused the burgomaster and councillors of plotting a revolt, and had them all locked up. Only then did Pašek walk in, modestly protest a little, and take the town hall’s seal. Not a drop of blood was spilled. And this time nobody was [[link:the-window-opens-again-1483]]thrown out of a window[[/link]].\n\nFor the next four years, Pašek ran Prague. Hlavsa’s party was thrown off the council, and before long could not even stay in the city. Pašek also claimed that an “Anabaptist” plot was brewing in Prague; people were arrested and tortured, and in the end several were sent to the stake, among them Mikuláš the spindle-maker and a widow named Klára.\n\nThe party he drove out hated him to the bone. Their scribe Bartoš (himself banished from Prague a year later) wrote a chronicle that curses him on almost every page:\n\n[[quote:1]]\n\nIn Bartoš’s pages Pašek is Herod, Cain and Nebuchadnezzar. And there was an even cheaper insult to hand: the name Pašek sounds a lot like the Czech word for a piglet, so in the chronicle he keeps turning into a pig.\n\n[[b]]For fifteen years the townsmen had fought the lords, and at last they had won. In the end, the ones who drove townsmen out of the city were townsmen themselves.[[/b]]\n\nThe following year, the other man the king had removed came back too: Zdeněk Lev took up the post of Supreme Burgrave once more. His most valuable ally inside Prague was none other than Pašek.\n\n[[b]]The king had spent a year in Prague and removed two men. The moment he left, the two of them came back hand in hand.[[/b]]\n\nAs for the king, the council he had chosen himself had been tripped up with one foot. Eighteen-year-old Louis, far away in Buda, ordered the people of Prague several times to make peace and return the confiscated property. As usual, Pašek ignored every letter.\n\nHe probably never imagined that the young king he had brushed aside would, two years later, be asking him for soldiers.",
+      cz: "Královský průvod sotva opustil Prahu a ve městě už někdo začal počítat dny.\n\nJen dva dny před odjezdem přišel král osobně na Staroměstskou radnici a [[link:the-king-who-learned-to-say-no-1523]]vyměnil půl rady[[/link]]: prvním purkmistrem udělal Hlavsu, Pašek se do rady nedostal. Hlavsa a jeho lidé čím dál víc četli Luthera a mysleli si, že by utrakvisté měli udělat ještě jeden krok dopředu. Pašek byl utrakvista staré školy a ani o krok dál jít nechtěl.\n\nPašek se s ním nehádal. Podle jeho odpůrců měl pro takové chvíle životní krédo:\n\n[[quote:0]]\n\nJinými slovy: s protivníkem neztrácej slova. Počkej, až půjde přes lávku, a pak jen nastrč nohu.\n\nČekal skoro rok a půl. Rada, kterou král vybral, pořád zasedala, ale král, který za ní stál, byl daleko v Budíně a už se nevrátil. V srpnu 1524 Pašek usoudil, že nastal čas, a nohu nastrčil.\n\nJeho švagr, řezník Ziga, vtrhl s davem na Staroměstskou radnici, veřejně obvinil purkmistra a konšely ze spiknutí a dal je všechny zavřít. Teprve pak vešel Pašek, chvíli se skromně zdráhal a převzal radniční pečeť. Nebyla prolita ani kapka krve. A tentokrát nikoho ani [[link:the-window-opens-again-1483]]nevyhodili z okna[[/link]].\n\nDalší čtyři roky vládl Praze Pašek. Hlavsovu stranu vyhnali z rady a brzy nemohla zůstat ani ve městě. Pašek navíc tvrdil, že se v Praze chystá „novokřtěnecké“ spiknutí; lidé byli zatýkáni a mučeni a několik jich nakonec skončilo na hranici, mezi nimi Mikuláš vřetenář a vdova Klára.\n\nVyhnaná strana Paška nenáviděla z hloubi duše. Její písař Bartoš (sám byl o rok později z Prahy vypovězen) sepsal kroniku, ve které mu spílá skoro na každé stránce:\n\n[[quote:1]]\n\nU Bartoše je Pašek Herodes, Kain i Nabuchodonozor. A po ruce byla i ta nejlacinější nadávka: jméno Pašek zní skoro jako pašík, a tak se v kronice co chvíli mění v prase.\n\n[[b]]Měšťané se patnáct let rvali s pány a konečně jednou vyhráli. Nakonec ale měšťany z města vyhnali zase jen měšťané.[[/b]]\n\nNásledujícího roku se vrátil i druhý muž, kterého král sesadil: Zdeněk Lev znovu usedl do úřadu nejvyššího purkrabího. Jeho nejcennějším spojencem v Praze nebyl nikdo jiný než Pašek.\n\n[[b]]Král strávil v Praze rok a sesadil dva muže. Sotva odjel, vrátili se oba ruku v ruce.[[/b]]\n\nA král? Radu, kterou si sám vybral, někdo podrazil jednou nohou. Osmnáctiletý Ludvík z dalekého Budína několikrát nařídil Pražanům, aby se smířili a vrátili zabavený majetek. Pašek jako obvykle neodpověděl ani na jeden list.\n\nNejspíš ho ani nenapadlo, že mladý král, kterého takhle odbyl, ho za dva roky bude prosit o vojáky.",
+      zh: "国王的马队刚出布拉格，城里就有人开始数日子了。\n\n就在临走前两天，国王还亲自走进老城市政厅，[[link:the-king-who-learned-to-say-no-1523]]换掉了半个议会[[/link]]，让赫拉夫萨当上了首席市长，帕谢克落了选。赫拉夫萨和他身边的人越来越迷路德的书，觉得圣杯派也该再往前走一步。帕谢克却是个老派的圣杯派，一步也不想多走。\n\n帕谢克没有跟他吵。据他的对头们记载，他有一句处世格言：\n\n[[quote:0]]\n\n意思是，跟对手不必多费口舌，等他走上独木桥的时候，伸脚绊一下就行。\n\n他等了将近一年半。国王亲手选的议会还在，可替它撑腰的国王远在布达，再也没有回来过。1524年8月，帕谢克觉得时候到了，伸出了这只脚。\n\n他的姻亲、屠夫齐加带着一群人冲进老城市政厅，当众指控市长和议员们密谋造反，把他们统统关了起来。帕谢克这才走进来，客气地推辞了一番，接过了市政厅的印章。没有流一滴血。这一回，也没有人被[[link:the-window-opens-again-1483]]扔出窗外[[/link]]。\n\n接下来的四年，布拉格是帕谢克说了算。赫拉夫萨一派被赶出了议会，后来连布拉格都待不下去了。帕谢克还说城里有人在搞“再洗礼派”的阴谋，抓了人严刑逼供，最后把几个人送上了火刑柱，其中有一个纺锤匠米库拉什，还有一个叫克拉拉的寡妇。\n\n被赶走的那一派，把帕谢克恨到了骨子里。他们的书记官巴尔托什（他自己第二年也被赶出了布拉格）写了一部编年史，几乎每一页都在骂他：\n\n[[quote:1]]\n\n在巴尔托什笔下，帕谢克是“希律王”，是“该隐”，是“尼布甲尼撒”。还有一个最省事的骂法：Pašek 这个名字，听起来就像捷克语里的“小猪仔”，于是在他的编年史里，帕谢克动不动就变成了一头猪。\n\n[[b]]城里人跟贵族斗了十五年，好不容易赢了一回。到头来，把城里人赶出城的，是城里人自己。[[/b]]\n\n第二年，另一个被国王撤了职的人也回来了：兹德涅克·列夫重新坐上了最高城堡伯爵的位子。他在布拉格城里最得力的盟友，正是帕谢克。\n\n[[b]]国王在布拉格住了一年，撤掉了两个人。他前脚刚走，这两个人就手拉着手回来了。[[/b]]\n\n至于国王，他亲手安排的议会，就这样被人一脚绊倒了。十八岁的路德维克远在布达，几次下令要布拉格人讲和、归还抄没的财产。帕谢克照旧一封也不理。\n\n他大概没想到，这位被他晾在一边的年轻国王，再过两年，就要向他借兵了。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "Where in 1524 the butcher Ziga’s crowd arrested the burgomaster and councillors, and Pašek took over the town hall’s seal.",
+          cz: "Zde roku 1524 dav řezníka Zigy zatkl purkmistra a konšely a Pašek převzal radniční pečeť.",
+          zh: "1524年，屠夫齐加带人在这里抓走了市长和议员们，帕谢克接过了市政厅的印章。",
+        },
+      },
+      {
+        slug: "tyn-church",
+        relation: {
+          en: "The great Utraquist church of the Old Town, where Jan Pašek was buried after his death in 1533.",
+          cz: "Hlavní utrakvistický chrám Starého Města, kde byl Jan Pašek roku 1533 pohřben.",
+          zh: "老城圣杯派的大教堂，扬·帕谢克1533年去世后就葬在这里。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Jan_Pa%C5%A1ek_z_Vratu",
+  },
+  {
+    slug: "the-king-asks-for-soldiers-1526",
+    era: "rule-of-the-lords",
+    images: ["/history/the-king-asks-for-soldiers-1526.webp"],
+    imageCaptions: [
+      {
+        en: "Summer 1526, two Bohemian forces: on the left, the town infantry of the “Kolín side” under Jakub Kyšperský hurries south with its war wagons; on the right, Zdeněk Lev’s larger “Prague side” rests in camp while a messenger hands him yet another letter.",
+        cz: "Léto 1526, dvě české výpravy: vlevo spěchají městští pěšáci „kolínské strany“ pod Jakubem Kyšperským s vozy na jih; vpravo odpočívá v táboře početnější „pražská strana“ Zdeňka Lva a posel mu podává další dopis.",
+        zh: "1526年夏天，波希米亚的两支队伍：左边，基什佩尔斯基带着“科林方面”的城市步兵和战车，一路往南急行军；右边，人数更多的“布拉格方面”在营地里歇着，信使又给兹德涅克·列夫递上了一封信。",
+      },
+    ],
+    quotes: [],
+    startYear: 1526,
+    year: {
+      en: "1526",
+      cz: "1526",
+      zh: "1526年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The King Asks for Soldiers",
+      cz: "Král prosí o vojáky",
+      zh: "国王借兵",
+    },
+    hookLine: {
+      en: "The Turks were at the door, and the twenty-year-old king begged for help everywhere. All of Europe sympathised; nobody came. His kingdom of Bohemia sent two forces: one marched fast, the other slow.",
+      cz: "Turci stáli přede dveřmi a dvacetiletý král prosil o pomoc, kde mohl. Celá Evropa soucítila, jen nikdo nepřišel. Jeho České království vyslalo dvě výpravy: jedna šla rychle, druhá pomalu.",
+      zh: "土耳其人打到了家门口，二十岁的国王四处求援。全欧洲都很同情，只是没人来。他的波希米亚王国派了两支队伍，一支走得快，一支走得慢。",
+    },
+    summary: {
+      en: "In March 1523, when Louis left Prague, the Turks were pressing ever closer in the south, and envoys from Buda kept arriving one after another to hurry him back. He probably thought that once things down there were settled, he would come back.\n\nHe never did.\n\nThree years later he thought of Prague once more. Only this time what he wanted was not a crown, nor new officials, but soldiers.\n\nThe story begins five years earlier.\n\nIn the summer of 1521 Suleiman, the new sultan, suddenly marched north and took Belgrade. It was the strongest fortress in southern Hungary, guarding the Danube’s gateway into the Hungarian heartland. Once that gate was broken, nothing stood in the way anywhere in the south of the kingdom.\n\nThat year the people of Prague were busy listening to [[link:master-thomas-the-lutheran-1521]]Müntzer’s sermons[[/link]] and quarrelling over Luther’s books. Few of them noticed the great crash far away to the south.\n\n[[b]]Remember the warning Müntzer gave in his Prague Manifesto? If the Czechs did not listen to him, God would let the Turks destroy them. He said “next year”. He was just a little early.[[/b]]\n\nAt the end of 1525 the news kept arriving in Buda, one report after another: the Turks were coming again.\n\nIn April 1526 Suleiman set out from Constantinople at the head of a great army. It was said to number a hundred thousand men and three hundred guns.\n\nTwenty-year-old Louis had almost nothing to meet it with. The treasury was empty and deep in debt. Hungary had no standing army, so every war meant hastily calling up the nobles, hiring mercenaries and begging for help abroad.\n\nHe wrote to the rulers of Europe for help. The replies were all very polite, but nobody came. The pope promised money. King Henry VIII of England did actually send aid, only it arrived the following year. And those who should have helped most, his two brothers-in-law, Emperor Charles V and Archduke Ferdinand of Austria, had their armies tied up in a war in Italy.\n\n[[b]]Eleven years earlier, at the wedding in Vienna, the two families had agreed to look after each other. When the moment came, the Habsburg armies were all in Italy.[[/b]]\n\nHe also turned to his other kingdom for help: Bohemia.\n\nThe king had hoped that Bohemia and Moravia would send sixteen thousand men. In the end perhaps four thousand came.\n\nThe Bohemian lords were in no hurry. For one thing, the Hungarian nobles had never thought much of them, so why should they fight Hungary’s war? For another, their enemies at home had not yet been dealt with, and nobody wanted to send his men a thousand kilometres away and let his rivals help themselves at home.\n\nIn the end, Bohemia scraped together two forces.\n\nOne was called the “Kolín side”. Its men came from royal towns such as Tábor, Louny, Žatec, Kadaň and Most: about 750 foot soldiers and 200 horsemen, led by Jakub Kyšperský, the royal official in charge of the royal towns. They set out as early as 13 July and marched south at speed.\n\nA few nobles also rode off with their own men to join the king, among them [[link:the-dollars-bohemian-home-1520]]Count Štěpán Šlik[[/link]] of Jáchymov.\n\nThe other was called the “Prague side”. Its men came from towns such as Prague, Plzeň, Beroun and Slaný, and there were more of them: 1,600 foot and 400 horse. Its commander was the Supreme Burgrave, Zdeněk Lev.\n\nThe very man Louis had [[link:the-king-who-learned-to-say-no-1523]]removed with his own hands[[/link]] three years earlier, and who had got his post back the year before.\n\nThis force did not leave Prague until 28 July.\n\nIn Buda, meanwhile, the king could wait no longer. On 20 July he left Buda with three or four thousand men, gathering more along the way, and headed south to meet the Turks.\n\n[[b]]Twelve years earlier the towns had sent an army to help once before; it arrived a month late and marched for nothing. This time they set out before anyone else.[[/b]]",
+      cz: "V březnu 1523, když Ludvík odjížděl z Prahy, Turci na jihu tlačili čím dál víc a poslové z Budína ho jeden za druhým naléhavě volali zpátky. Nejspíš si myslel, že až to tam dole vyřídí, zase se vrátí.\n\nUž se nikdy nevrátil.\n\nO tři roky později si na Prahu znovu vzpomněl. Jenže tentokrát nechtěl korunu ani nové úředníky, ale vojáky.\n\nPříběh začíná o pět let dřív.\n\nV létě 1521 vytáhl nový sultán Sulejman nečekaně na sever a dobyl Bělehrad. Byla to nejsilnější pevnost jižních Uher, která hlídala dunajskou bránu do nitra země. Jakmile padla, nestálo už na celém jihu království nic, co by Turky zastavilo.\n\nPražané měli toho roku plné ruce práce s [[link:master-thomas-the-lutheran-1521]]Müntzerovými kázáními[[/link]] a s hádkami o Lutherovy knihy. Té veliké rány daleko na jihu si všiml jen málokdo.\n\n[[b]]Vzpomínáte na Müntzerovo varování z Pražského manifestu? Když ho Češi nebudou poslouchat, Bůh dopustí, aby je pobili Turci. Řekl „příští rok“. Byl jen trochu napřed.[[/b]]\n\nKoncem roku 1525 přicházela do Budína jedna zpráva za druhou: Turci se chystají znovu.\n\nV dubnu 1526 vytáhl Sulejman z Cařihradu v čele velkého vojska. Prý měl sto tisíc mužů a tři sta děl.\n\nDvacetiletý Ludvík neměl skoro nic. Pokladna byla prázdná a plná dluhů. Uhry neměly stálé vojsko, takže na každou válku se muselo narychlo svolat šlechtu, najmout žoldnéře a prosit o pomoc v cizině.\n\nPsal o pomoc panovníkům celé Evropy. Odpovědi byly velmi zdvořilé, jenže nikdo nepřišel. Papež slíbil peníze. Anglický král Jindřich VIII. pomoc opravdu poslal, jenže dorazila až příští rok. A ti, kdo měli pomoci nejvíc, jeho dva švagři, císař Karel V. a rakouský arcivévoda Ferdinand, měli vojska zaměstnaná válkou v Itálii.\n\n[[b]]Před jedenácti lety se obě rodiny na svatbě ve Vídni dohodly, že si budou pomáhat. Když přišlo na věc, habsburská vojska byla všechna v Itálii.[[/b]]\n\nObrátil se tedy i na své druhé království: na Čechy.\n\nKrál doufal, že mu Čechy a Morava pošlou šestnáct tisíc mužů. Nakonec jich přišly možná čtyři tisíce.\n\nČeští páni nijak nespěchali. Za prvé, uherská šlechta je odjakživa neměla za moc, tak proč by za ni měli bojovat? A za druhé, doma ještě nebyli hotovi se svými nepřáteli a nikdo nechtěl poslat své lidi tisíc kilometrů daleko, aby si soupeři mezitím doma posloužili.\n\nNakonec Čechy daly dohromady dvě výpravy.\n\nPrvní se říkalo „kolínská strana“. Muži pocházeli z královských měst jako Tábor, Louny, Žatec, Kadaň a Most, asi 750 pěšáků a 200 jezdců, a vedl je královský podkomoří Jakub Kyšperský. Vyrazili už 13. července a hnali se na jih.\n\nKe králi se s vlastními lidmi vydalo i několik šlechticů, mezi nimi [[link:the-dollars-bohemian-home-1520]]hrabě Štěpán Šlik[[/link]] z Jáchymova.\n\nDruhé se říkalo „pražská strana“. Muži pocházeli z Prahy, Plzně, Berouna, Slaného a dalších měst a bylo jich víc: 1 600 pěšáků a 400 jezdců. Velel jim nejvyšší purkrabí Zdeněk Lev.\n\nTentýž muž, kterého Ludvík před třemi lety [[link:the-king-who-learned-to-say-no-1523]]vlastní rukou sesadil[[/link]] a který se loni do úřadu vrátil.\n\nTahle výprava vyrazila z Prahy až 28. července.\n\nKrál v Budíně už čekat nemohl. 20. července vyrazil z Budína se třemi či čtyřmi tisíci muži, cestou sbíral další a táhl na jih vstříc Turkům.\n\n[[b]]Před dvanácti lety poslala města pomoc už jednou; dorazila o měsíc pozdě a táhla zbytečně. Tentokrát vyrazila dřív než kdokoli jiný.[[/b]]",
+      zh: "1523年3月，路德维克离开布拉格的时候，南边的土耳其人越逼越紧，布达派来的使者一趟接一趟地催他回去。他大概以为，等那边的事情忙完了，自己还会回来。\n\n但他再也没有回来。\n\n三年后，他又一次想起了布拉格。只不过这一回，他要的不是王冠，也不是新官员，而是兵。\n\n故事要从五年前说起。\n\n1521年夏天，刚即位不久的苏丹苏莱曼，突然带兵北上，攻下了贝尔格莱德。那是匈牙利南边最坚固的一座要塞，守着多瑙河通往匈牙利腹地的大门。门一破，匈牙利的整个南方，就再也没有什么挡得住了。\n\n那一年，布拉格人正忙着听[[link:master-thomas-the-lutheran-1521]]闵采尔布道[[/link]]，忙着为路德的书吵架。远在南边的这一声巨响，没有多少人留意。\n\n[[b]]还记得闵采尔在《布拉格宣言》里的那句警告吗？要是捷克人不听他的，上帝就会让土耳其人打败他们。他说的是“明年”，他说早了。[[/b]]\n\n1525年底，一个接一个的消息传到布达：土耳其人又要来了。\n\n1526年4月，苏莱曼亲自带着大军，从君士坦丁堡出发了。据说他带了十万人，三百门炮。\n\n二十岁的路德维克手里，几乎什么都没有。国库是空的，欠着一屁股债；匈牙利没有常备军，打仗得临时召集贵族、雇佣兵，再向外国求援。\n\n他给欧洲各国的君主写信求救。回信都很客气，人却没有一个来。教皇答应出一笔钱；英国国王亨利八世倒是真派了援助，只是第二年才到；最该帮忙的，是他的两位大舅子，皇帝查理五世和奥地利大公斐迪南，可他们的军队正在意大利打仗，抽不出身。\n\n[[b]]十一年前，维也纳的婚礼上，两家人约好了要互相照应。真到了要人的时候，哈布斯堡家的军队，都在意大利。[[/b]]\n\n他也向自己的另一个王国求援：波希米亚。\n\n国王原本指望，波希米亚和摩拉维亚能派来一万六千人。最后来的，大概只有四千。\n\n波希米亚的老爷们并不着急。一来，匈牙利的贵族向来不把他们放在眼里，凭什么要替他们打仗；二来，家里的仇人还没收拾干净，谁也不想把自己的人马派到千里之外，让对手在家里捡便宜。\n\n最后，波希米亚凑出了两支队伍。\n\n一支叫“科林方面”，兵是塔博尔、洛乌尼、扎泰茨、卡丹、莫斯特这些王室城市出的，大约七百五十名步兵、两百名骑兵，由掌管王室城市的大臣雅库布·基什佩尔斯基带队。他们7月13日就出发了，一路往南急行军。\n\n还有几位贵族，带着自家的人马去投奔国王，其中就有雅希莫夫的[[link:the-dollars-bohemian-home-1520]]什捷潘·什利克伯爵[[/link]]。\n\n另一支叫“布拉格方面”，兵是布拉格、比尔森、贝龙、斯拉尼这些城市出的，人更多，一千六百名步兵、四百名骑兵。带队的，是最高城堡伯爵兹德涅克·列夫。\n\n就是三年前被路德维克[[link:the-king-who-learned-to-say-no-1523]]亲手撤掉[[/link]]、去年又官复原职的那一位。\n\n这支队伍，7月28日才从布拉格出发。\n\n而在布达，国王已经等不及了。7月20日，他带着三四千人离开了布达，一边走一边收拢队伍，往南去迎土耳其人。\n\n[[b]]城里人十二年前派过一次援军，晚到了一个月，白跑一趟。这一回，他们出发得比谁都早。[[/b]]",
+    },
+    relatedLandmarks: [
+      {
+        slug: "kolin",
+        relation: {
+          en: "The town that gave its name to the “Kolín side”, the Bohemian force that set out first in 1526 and reached the king in time.",
+          cz: "Město, po kterém dostala jméno „kolínská strana“, česká výprava, která roku 1526 vyrazila první a ke králi dorazila včas.",
+          zh: "“科林方面”就得名于这座城。1526年，这支队伍最先出发，也按时赶到了国王身边。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Bitva_u_Moh%C3%A1%C4%8De",
+  },
+  {
+    slug: "a-dynasty-drowned-in-a-stream-1526",
+    era: "rule-of-the-lords",
+    images: [
+      "/history/a-dynasty-drowned-in-a-stream-1526.webp",
+      "/history/a-dynasty-drowned-in-a-stream-1526-2.webp",
+    ],
+    imageCaptions: [
+      {
+        en: "Mohács, 29 August 1526: under a sky hidden by gunpowder smoke, the Czech town infantry under Jakub Kyšperský hold out behind their wagons and pavises as the janissaries advance, with the Ottoman cannon line burning behind them.",
+        cz: "Moháč, 29. srpna 1526: pod oblohou zakrytou dýmem střelného prachu se čeští městští pěšáci Jakuba Kyšperského drží za vozy a pavézami, zatímco se blíží janičáři a za nimi hoří řada tureckých děl.",
+        zh: "1526年8月29日，莫哈奇：硝烟遮住了天空，基什佩尔斯基带着捷克的城市步兵守在战车和大盾后面；对面，土耳其近卫军正压上来，身后是一排冒着火的大炮。",
+      },
+      {
+        en: "The evening of 29 August 1526: fleeing the battlefield, twenty-year-old King Louis is thrown from his horse on the muddy bank of the Csele stream, wearing the locket Queen Mary gave him; his companions are too far behind to help.",
+        cz: "Večer 29. srpna 1526: dvacetiletý král Ludvík na útěku z bojiště padá z koně na blátivém břehu potoka Csele, na krku medailonek od královny Marie; jeho průvodci jsou příliš daleko, aby mu pomohli.",
+        zh: "1526年8月29日傍晚：从战场上逃出来的二十岁的路德维克，在切莱溪泥泞的岸边从马上摔了下来，脖子上还挂着王后玛丽亚送的挂坠盒；随从们远在坡顶，来不及救他。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "…behind walls of wagons, after the war order of the old Tábor school…",
+          cz: "…v hradbách vozových, podle řádu válečné někdy školy táborské…",
+          zh: "……在战车筑成的墙后面，照着当年塔博尔派的兵法……",
+        },
+        attribution: {
+          en: "Old Czech Annals",
+          cz: "Staří letopisové čeští",
+          zh: "《捷克古代编年史》",
+        },
+      },
+      {
+        text: {
+          en: "Everyone here is using me as an excuse to save his own skin.",
+          cz: "Kdekdo tady užívá moji osobu jako záminku, aby si chránil kůži.",
+          zh: "这里人人都拿我当借口，好保住自己的皮。",
+        },
+        attribution: {
+          en: "King Louis at the war council",
+          cz: "Král Ludvík na válečné radě",
+          zh: "路德维克国王在军事会议上",
+        },
+      },
+      {
+        text: {
+          en: "For the smoke, the sky could not be seen for a long while.",
+          cz: "Pro dejm za veliký čas nebe vidíno nebylo.",
+          zh: "因为硝烟，很长时间里，连天都看不见。",
+        },
+        attribution: {
+          en: "Albín Šlik",
+          cz: "Albín Šlik",
+          zh: "阿尔宾·什利克",
+        },
+      },
+      {
+        text: {
+          en: "…he led the foot soldiers of the royal towns, and shutting himself in with them behind the pavises, was killed by the Turks along with the others.",
+          cz: "…ten lid pěší z královských měst vedl, a při nich v pavézách zavřev se, od Turků zabit s jinými.",
+          zh: "……他带着王室城市的步兵，同他们一道守在大盾后面，和其他人一起，被土耳其人杀死了。",
+        },
+        attribution: {
+          en: "Old Czech Annals",
+          cz: "Staří letopisové čeští",
+          zh: "《捷克古代编年史》",
+        },
+      },
+    ],
+    startYear: 1526.5,
+    year: {
+      en: "1526",
+      cz: "1526",
+      zh: "1526年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Dynasty Drowned in a Stream",
+      cz: "Dynastie, která utonula v potoce",
+      zh: "倒在小溪里的王朝",
+    },
+    hookLine: {
+      en: "Two hours, and the battle was over. The twenty-year-old king did not die under a Turkish sword: he went down, horse and all, into a stream. And the Jagiellonian dynasty in Bohemia sank with him.",
+      cz: "Dvě hodiny a bylo po bitvě. Dvacetiletý král nezemřel pod tureckou šavlí, ale zřítil se i s koněm do potoka. A s ním se potopila i jagellonská dynastie v Čechách.",
+      zh: "两个小时，一场仗就打完了。二十岁的国王没有死在土耳其人的刀下，而是连人带马，倒进了一条小溪。雅盖隆家族在波希米亚的王朝，也跟着他一起沉了下去。",
+    },
+    summary: {
+      en: "At the end of August the king’s forces finally came together on the plain of Mohács beside the Danube: Hungarian nobles, Polish horsemen, Moravian and German mercenaries, a little over twenty thousand men in all, with some eighty guns.\n\nFacing them was Suleiman, said to have seventy thousand men and three hundred guns.\n\nSeveral contingents that should have come had still not arrived. John Zápolya of Transylvania, with more than ten thousand men, failed to get there in time, and of the Croatian reinforcements only a small part turned up.\n\nOf the two Bohemian forces, one arrived. The town infantry of the “Kolín side”, which had set out on 13 July, reached Tolna as early as 6 August and joined the king’s army. They drew up their wagons the old way, by the same book as a hundred years before:\n\n[[quote:0]]\n\nThe other force never came.\n\nZdeněk Lev’s “Prague side” stopped and started all the way and never joined the king. Some said he was avoiding him on purpose. When the battle began, his two thousand men were still at Földvár, further north, waiting for orders.\n\nThe king held one last council of war. Some urged him to fall back to Buda and wait until all the reinforcements had arrived. Others said that the king’s precious person had no business going into battle at all. The young king had had enough:\n\n[[quote:1]]\n\nHe decided to fight.\n\nOn the afternoon of 29 August 1526 the battle began on a muddy plain. The Hungarian cavalry charged first, straight at the Turkish guns. But Suleiman had chained his cannon together in a line, with janissaries carrying arquebuses behind them. When the guns opened fire, the whole plain vanished in smoke. A Czech nobleman named Albín Šlik, who survived, later recalled:\n\n[[quote:2]]\n\nThe cavalry charge collapsed. The commander-in-chief, Archbishop Tomori, led the last of his men forward and was killed. The second line, where the king stood, broke as well.\n\nThe Czech, Moravian and Polish infantry did not run. They crouched behind their wagons and big shields and fought to the end. Of Jakub Kyšperský, who had brought the town infantry, the chronicle says:\n\n[[quote:3]]\n\n[[b]]Twelve years earlier the towns’ relief army had arrived a month late and marched for nothing. This time they arrived before anyone else, and died more thoroughly than anyone else.[[/b]]\n\nThe whole thing was over in barely two hours. More than ten thousand men lay dead on the plain, seven bishops among them.\n\nThe king fled north with a few companions. To cover his escape, one of them swapped helmets and horses with him. Among his companions was Count Štěpán Šlik, the man who had struck the first thaler. He rode ahead to scout the way and was cut down by the pursuers. The back of his silver coin bore the king’s name; now he had died just a little way ahead of the king.\n\nAs night was falling, the king reached a stream called the Csele. It was swollen with rain, and its banks were deep in mud. It is said that the king’s horse lowered its head to drink, the king pulled on the reins, and the horse reared and slipped in the mud.\n\nThe king fell into the stream. His armour was too heavy, and he never got up again. Into the stream with him went the Jagiellonian dynasty, which had ruled Bohemia for fifty-five years.\n\nHe was twenty.\n\nIt was weeks before he was found in the mud by the stream. Around his neck still hung a small locket holding a lock of Queen Mary’s hair, her gift to him before he left for the war.\n\nIt is said that when Suleiman heard of the king’s death, he remarked that he had not wished the young man to die like this.\n\n[[b]]Remember the line at the start of this chapter? “And somewhere to the south-east, the Turks have not gone away.” They had not gone away, and now they had come. Müntzer had said they would come “next year”; he was four years early.[[/b]]\n\nWhen the news reached Prague, the city was in uproar. Later, Pašek’s enemies wrote in memoirs and songs that by dragging his feet and refusing to send troops he had cost the king his life. How much of that was true and how much was hatred, nobody can say any more.\n\nBut one thing was clear to everyone.\n\nEleven years earlier, at the [[link:the-groom-was-grandpa-1515]]double wedding in Vienna[[/link]], the two families had confirmed an agreement: whichever house ran out of male heirs first, its crowns would go to the other.\n\nLouis had no son. Not a single male Jagiellonian was left in Bohemia.\n\n[[b]]The throne of Bohemia was empty again.[[/b]]",
+      cz: "Koncem srpna se královo vojsko konečně sešlo na mohačské pláni u Dunaje: uherská šlechta, polští jezdci, moravští a němečtí žoldnéři, dohromady přes dvacet tisíc mužů a kolem osmdesáti děl.\n\nNaproti stál Sulejman. Prý se sedmdesáti tisíci muži a třemi sty děly.\n\nNěkolik oddílů, které měly přijít, pořád chybělo. Sedmihradský Jan Zápolský s více než deseti tisíci muži nestihl dorazit včas a z chorvatských posil přišla jen malá část.\n\nZe dvou českých výprav jedna dorazila. Městští pěšáci „kolínské strany“ vyrazili 13. července a už 6. srpna byli v Tolně u královského vojska. Postavili vozovou hradbu postaru, podle stejného řádu jako před sto lety:\n\n[[quote:0]]\n\nDruhá výprava nepřišla.\n\n„Pražská strana“ Zdeňka Lva táhla s přestávkami a s králem se nikdy nespojila. Někteří tvrdili, že se mu vyhýbala úmyslně. Když bitva začala, stály jeho dva tisíce mužů ještě severněji u Földváru a čekaly na rozkazy.\n\nKrál svolal poslední válečnou radu. Jedni mu radili ustoupit k Budínu a počkat, až dorazí všechny posily. Jiní tvrdili, že vzácná osoba krále do bitvy vůbec nepatří. Mladý král toho měl dost:\n\n[[quote:1]]\n\nRozhodl se bojovat.\n\nOdpoledne 29. srpna 1526 začala na blátivé pláni bitva. Uherská jízda vyrazila první, přímo na turecká děla. Jenže Sulejman měl děla pospojovaná řetězy do řady a za nimi janičáry s ručnicemi. Když děla spustila, celou pláň zahalil dým. Český šlechtic Albín Šlik, který bitvu přežil, později vzpomínal:\n\n[[quote:2]]\n\nÚtok jízdy se zhroutil. Vrchní velitel, arcibiskup Tomori, vedl do útoku poslední muže a padl. Zhroutila se i druhá linie, kde stál král.\n\nČeští, moravští a polští pěšáci neutekli. Krčili se za vozy a pavézami a bojovali do posledního. O Jakubu Kyšperském, který přivedl městské pěšáky, píše kronika:\n\n[[quote:3]]\n\n[[b]]Před dvanácti lety přišla městská pomoc o měsíc pozdě a táhla zbytečně. Tentokrát dorazila dřív než kdokoli jiný a padla důkladněji než kdokoli jiný.[[/b]]\n\nZa necelé dvě hodiny bylo po všem. Na pláni zůstalo přes deset tisíc mrtvých, mezi nimi sedm biskupů.\n\nKrál prchal s několika průvodci na sever. Aby ho kryl, jeden z nich si s ním vyměnil přilbu i koně. Mezi průvodci byl i hrabě Štěpán Šlik, muž, který dal razit první tolar. Vyjel napřed obhlédnout cestu a pronásledovatelé ho zabili. Na rubu jeho stříbrné mince stálo jméno krále; teď padl jen kousek před ním.\n\nKdyž se stmívalo, dorazil král k potoku Csele. Byl rozvodněný po deštích a břehy tonuly v bahně. Prý se jeho kůň sklonil, aby se napil, král trhl uzdou, kůň se vzepjal a v bahně uklouzl.\n\nKrál spadl do potoka. Zbroj byla příliš těžká a už se nezvedl. Spolu s ním do potoka spadla i jagellonská dynastie, která vládla Čechám pětapadesát let.\n\nBylo mu dvacet.\n\nTeprve po několika týdnech ho našli v bahně u potoka. Na krku mu ještě visel malý medailonek s pramenem vlasů královny Marie, který mu dala, než odjel do války.\n\nPrý když se Sulejman dozvěděl o králově smrti, řekl, že si nepřál, aby ten mladý muž zemřel takhle.\n\n[[b]]Pamatujete na větu ze začátku této kapitoly? „A kdesi na jihovýchodě Turci pořád nikam neodešli.“ Neodešli, a teď přišli. Müntzer tvrdil, že přijdou „příští rok“; byl o čtyři roky napřed.[[/b]]\n\nKdyž zpráva dorazila do Prahy, město se ocitlo ve zmatku. Paškovi nepřátelé později v pamětech i v písních psali, že tím, že otálel a vojsko nechtěl poslat, krále „o hrdlo připravil“. Kolik je na tom pravdy a kolik nenávisti, už se říct nedá.\n\nJedna věc ale byla jasná všem.\n\nPřed jedenácti lety si obě rodiny na [[link:the-groom-was-grandpa-1515]]dvojité svatbě ve Vídni[[/link]] potvrdily dohodu: který rod dřív vymře po meči, toho koruny připadnou druhému.\n\nLudvík neměl syna. V Čechách nezůstal jediný Jagellonec mužského rodu.\n\n[[b]]Český trůn byl zase prázdný.[[/b]]",
+      zh: "8月底，国王的人马终于在多瑙河边的莫哈奇平原上凑齐了。匈牙利的贵族、波兰的骑兵、摩拉维亚和德意志的雇佣兵，加起来两万多人，八十几门炮。\n\n对面是苏莱曼。据说有七万人，三百门炮。\n\n本该赶来的人，还有好几支没到：特兰西瓦尼亚的扎波尧伊带着上万人，没能及时赶到；克罗地亚的援军，也只来了一小部分。\n\n波希米亚的两支队伍，一支到了。“科林方面”的城市步兵7月13日出发，8月6日就赶到了托尔瑙，跟国王的大军会合。他们按老规矩排出了战车阵，用的还是一百年前的那一套：\n\n[[quote:0]]\n\n另一支，没有来。\n\n兹德涅克·列夫带着的“布拉格方面”，一路走走停停，始终没有跟国王会合。有人说，他是有意避开的。大战打响的时候，这两千人还在北边的费尔德堡，等着上面的命令。\n\n国王召开了最后一次军事会议。有人劝他退回布达，等援军到齐再说。也有人说，国王千金之躯，不该亲自上阵。年轻的国王听烦了：\n\n[[quote:1]]\n\n他决定：打。\n\n1526年8月29日下午，战斗在一片泥泞的平原上打响了。匈牙利的骑兵先冲了出去，直扑土耳其人的炮阵。可苏莱曼早就把大炮用铁链连成一排，炮后面是端着火枪的近卫军。炮声一响，整片平原都被硝烟罩住了。一位叫阿尔宾·什利克的捷克贵族活了下来，后来回忆说：\n\n[[quote:2]]\n\n骑兵的冲锋垮了。总指挥托莫里大主教带着最后一批人冲上去，战死了。国王所在的第二线，也跟着崩溃。\n\n捷克、摩拉维亚和波兰的步兵没有逃。他们缩在战车和大盾后面，一直打到最后。带着城市步兵来的雅库布·基什佩尔斯基，编年史里是这样写他的：\n\n[[quote:3]]\n\n[[b]]十二年前，城里人的援军来晚了一个月，白跑一趟。这一回，他们来得比谁都早，也死得比谁都干净。[[/b]]\n\n前后不过两个小时，仗就打完了。一万多人倒在了平原上，其中有七位主教。\n\n国王带着几个随从往北逃。为了掩护他，有人跟他换了头盔，换了马。随从里有一个人，正是铸出第一枚“塔勒”的什捷潘·什利克伯爵。他骑马去前面探路，被追兵杀死了。他的银币背面，刻着国王的名字；如今，他死在了国王前面一点点的地方。\n\n天快黑的时候，国王逃到了一条叫切莱的小溪边。溪水被雨水涨满了，岸边全是烂泥。据说，国王的马低下头去喝水，他一拉缰绳，马猛地一扬，在泥里滑倒了。\n\n国王掉进了溪里。身上的盔甲太重，他再也没有站起来。跟着他一起掉进溪里的，还有统治了波希米亚五十五年的雅盖隆王朝。\n\n他二十岁。\n\n几个星期后，人们才在河边的泥里找到他。他身上还挂着一个小小的挂坠盒，里面是王后玛丽亚出征前送给他的一缕头发。\n\n据说，苏莱曼听到国王的死讯，说了一句：他并不希望这个年轻人就这样死去。\n\n[[b]]还记得这一章开头的那句话吗？“而在东南方的某个地方，土耳其人一直都没走。”他们没走，而且来了。闵采尔说他们“明年”就会来，他说早了四年。[[/b]]\n\n消息传回布拉格，城里乱成一团。后来，帕谢克的对头们在回忆录和歌谣里说，是他拖着不肯派兵，把国王“送上了绝路”。这话有几分是真、几分是恨，已经说不清了。\n\n可有一件事，是谁都清楚的。\n\n十一年前，在[[link:the-groom-was-grandpa-1515]]维也纳的双重婚礼[[/link]]上，两个家族确认过一份约定：谁家先断了男丁，王冠就归另一家。\n\n路德维克没有儿子。雅盖隆家族在波希米亚，一个男丁都没剩下。\n\n[[b]]波希米亚的王座，又空了。[[/b]]",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Bitva_u_Moh%C3%A1%C4%8De",
+  },
 ];
 
 // Era-overview cards live in their own file (see historyOverviews.js).

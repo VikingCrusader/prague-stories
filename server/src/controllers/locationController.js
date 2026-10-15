@@ -87,6 +87,30 @@ export async function getLocations(req, res, next) {
   }
 }
 
+// A card's story is only for those who collected it themselves (user's
+// rule, 2026-10-16), or who added the card: everyone else gets just the
+// opening paragraph or two, cut here so the rest never leaves the server.
+// One paragraph when the story is short (3 paragraphs or fewer) or the EN
+// opening is already long (over 20 words), else two.
+const paras = text => (text || '').split('\n').filter(l => l.trim());
+export function storyTeaser(description = {}) {
+  const firstEnWords = paras(description.en)[0]?.trim().split(/\s+/).length || 0;
+  const out = {};
+  for (const lang of ['en', 'cz', 'zh']) {
+    const p = paras(description[lang]);
+    out[lang] = p.slice(0, p.length <= 3 || firstEnWords > 20 ? 1 : 2).join('\n\n');
+  }
+  return out;
+}
+const isOwnCard = (location, user) => !!(user && location.addedBy && String(location.addedBy) === String(user._id));
+// The location as returned after an edit or cover upload: still only the
+// preview of the story for someone who hasn't collected the card.
+async function forEditor(location, user) {
+  const body = location.toObject();
+  if (isOwnCard(location, user) || await CheckIn.exists({ user: user._id, location: location._id })) return body;
+  return { ...body, description: storyTeaser(body.description), storyLocked: true };
+}
+
 export async function getLocation(req, res, next) {
   try {
     const location = await Location.findOne({ slug: req.params.slug });
@@ -130,7 +154,12 @@ export async function getLocation(req, res, next) {
       huntMode = checkIn?.huntMode ?? null;
     }
 
-    res.json({ ...location.toObject(), unlocked, checkedInAt, guessAttempt, xpEarned, huntMode });
+    const body = { ...location.toObject(), unlocked, checkedInAt, guessAttempt, xpEarned, huntMode };
+    if (!unlocked && !isOwnCard(location, req.user)) {
+      body.description = storyTeaser(body.description);
+      body.storyLocked = true;
+    }
+    res.json(body);
   } catch (err) {
     next(err);
   }
@@ -176,6 +205,10 @@ export async function updateLocation(req, res, next) {
       location.markModified('localizedNames');
     }
     if (description) {
+      // Same rule as reading: only the story of a card you collected (or added).
+      if (!isOwnCard(location, req.user) && !(await CheckIn.exists({ user: req.user._id, location: location._id }))) {
+        return res.status(403).json({ message: 'Collect this card before editing its story' });
+      }
       if (description.en !== undefined) location.description.en = description.en;
       if (description.cz !== undefined) location.description.cz = description.cz;
       if (description.zh !== undefined) location.description.zh = description.zh;
@@ -183,7 +216,7 @@ export async function updateLocation(req, res, next) {
     }
 
     await location.save();
-    res.json(location.toObject());
+    res.json(await forEditor(location, req.user));
   } catch (err) {
     next(err);
   }
@@ -263,7 +296,7 @@ export async function uploadCoverImage(req, res, next) {
     location.coverImage = result.secure_url;
     await location.save();
 
-    res.json(location.toObject());
+    res.json(await forEditor(location, req.user));
   } catch (err) {
     next(err);
   }

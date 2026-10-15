@@ -101,7 +101,9 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
         coordinates:    { lat, lng },
         wikipediaUrl:   form.wikipediaUrl,
         rarity:         form.rarity,
-        description:    { en: form.descEn, cz: form.descCz, zh: form.descZh },
+        // Uncollected card: the server only sent a preview of the story and
+        // won't take a new one, so leave the story out (cover, names etc. still save).
+        ...(location.storyLocked ? {} : { description: { en: form.descEn, cz: form.descCz, zh: form.descZh } }),
       });
       let updated = res.data;
       if (coverFile) {
@@ -204,6 +206,9 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
               <input className="px-input" name="wikipediaUrl" value={form.wikipediaUrl} onChange={handle} type="url" placeholder="https://en.wikipedia.org/wiki/..." />
             </div>
 
+            {location.storyLocked ? (
+              <p className="form-label" style={{ color: 'var(--text-muted)' }}>Description: collect this card to edit its story.</p>
+            ) : (<>
             <div className="form-group">
               <label className="form-label">Description (EN)</label>
               <textarea className="px-input" name="descEn" value={form.descEn} onChange={handle} onPaste={handleDescPaste('descEn', 'en')} rows={3} style={{ resize: 'vertical', minHeight: 72 }} />
@@ -216,6 +221,7 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
               <label className="form-label">Description (ZH)</label>
               <textarea className="px-input" name="descZh" value={form.descZh} onChange={handle} onPaste={handleDescPaste('descZh', 'zh')} rows={3} style={{ resize: 'vertical', minHeight: 72 }} />
             </div>
+            </>)}
 
             <div className="form-group">
               <label className="form-label">Cover Photo</label>

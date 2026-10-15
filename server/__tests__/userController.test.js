@@ -609,12 +609,32 @@ describe('hardcore treasure hunt', () => {
     expect((await status(token, north(800))).body.hunt.trend).toBeNull();
   });
 
-  test('never hides the same card as the running normal hunt', async () => {
+  test('only one mode at a time: neither starts while the other is being played', async () => {
     await seedTarget();
+    await Location.create({ name: 'Other', slug: 'other', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10, labels: ['park'], quarter: 'Staré Město', district: 'Praha 1' });
     const { token } = await createAuthedUser();
-    await request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${token}`).send({});
-    const res = await start(token);
-    expect(res.body.noneLeft).toBe(true);
+    const clue = (t2) => request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${t2}`).send({});
+    expect((await clue(token)).body.active).toBe(true);
+    expect((await status(token)).body).toMatchObject({ active: false, blockedBy: 'clues' });
+    const blocked = await start(token);
+    expect(blocked.status).toBe(409);
+    expect(blocked.body.blockedBy).toBe('clues');
+
+    const { token: t2 } = await createAuthedUser();
+    expect((await start(t2)).body.active).toBe(true);
+    const draw = await request(app).get('/api/user/random-draw').set('Authorization', `Bearer ${t2}`);
+    expect(draw.body.blockedBy).toBe('hardcore');
+    expect((await clue(t2)).status).toBe(409);
+  });
+
+  test('the other mode may start once a hunt is over', async () => {
+    await seedTarget();
+    await Location.create({ name: 'Other', slug: 'other', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10, labels: ['park'], quarter: 'Staré Město', district: 'Praha 1' });
+    const { token } = await createAuthedUser();
+    await start(token);
+    await press(token, north(20)); // both cards sit on the same spot, so this hits
+    const clue = await request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${token}`).send({});
+    expect(clue.body.active).toBe(true);
   });
 });
 

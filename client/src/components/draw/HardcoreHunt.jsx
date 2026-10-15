@@ -31,7 +31,7 @@ function readingText(r, t) {
 // second label + the rarity). Three presses within 500 m. Everything comes
 // from the server (buildHardcoreResponse); the card stays secret until found
 // or failed. `onOpen(slug)` opens a card's detail on the parent page.
-export default function HardcoreHunt({ onOpen, refreshKey }) {
+export default function HardcoreHunt({ onOpen, refreshKey, onSwitch }) {
   const { user, applyProgress } = useAuth();
   const t = useT();
   const { lang } = useLang();
@@ -247,9 +247,17 @@ export default function HardcoreHunt({ onOpen, refreshKey }) {
             </p>
           )}
           <p className="guide-body" style={{ textAlign: 'center', maxWidth: 420, color: 'var(--text-muted)' }}>{t('draw.hcHint')}</p>
-          <button className="px-btn px-btn--gold px-btn--lg" onClick={handleStart} disabled={starting || !user}>
+          <button className="px-btn px-btn--gold px-btn--lg" onClick={handleStart} disabled={starting || !user || !!status?.blockedBy}>
             {starting ? t('draw.buttonDrawing') : t('draw.hcStart')}
           </button>
+          {status?.blockedBy && (
+            <p className="guide-body draw-mode-hint">
+              {(() => {
+                const m = t('draw.blockedByClues').match(/^([\s\S]*)\[\[clues\]\]([\s\S]*)\[\[\/clues\]\]([\s\S]*)$/);
+                return m ? <>{m[1]}<a href="#" onClick={e => { e.preventDefault(); onSwitch?.(); }} style={{ textDecoration: 'underline' }}>{m[2]}</a>{m[3]}</> : t('draw.blockedByClues');
+              })()}
+            </p>
+          )}
           {!user && <p className="guide-body draw-mode-hint">{t('draw.huntGuestOnly')}</p>}
         </>
       )}

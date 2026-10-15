@@ -91,6 +91,10 @@ export default function LocationDetail({
         xpEarned: res.data.xpEarned,
       }));
       setCheckInResult(res.data);
+      // The server only sent a preview of the story until now: fetch it whole.
+      locationAPI.getOne(slug)
+        .then((r) => setLoc((prev) => ({ ...prev, description: r.data.description, storyLocked: r.data.storyLocked })))
+        .catch(() => {});
       applyProgress(res.data.levelInfo, res.data.totalXP);
       onCheckIn(slug, res.data); // update grid immediately
     } catch (err) {
@@ -550,9 +554,10 @@ export default function LocationDetail({
                   : 0;
                 const showCount =
                   paras.length <= 3 || firstEnWords > 20 ? 1 : 2;
-                const visible = !loc.unlocked
-                  ? paras.slice(0, showCount)
-                  : paras;
+                // storyLocked: the server already cut it to the preview.
+                const visible = loc.unlocked || loc.storyLocked
+                  ? paras
+                  : paras.slice(0, showCount);
                 return (
                   <div style={{ marginBottom: 20 }}>
                     {visible.map((para, i) => (

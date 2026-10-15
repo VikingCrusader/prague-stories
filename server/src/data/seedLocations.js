@@ -31444,6 +31444,286 @@ Dnešní velikosti, skoro 14 000 metrů čtverečních, dosáhl ostrov v letech 
 🎁 彩蛋：每年万灵节前，伏尔塔瓦人协会都会在岛上为在捷克河流中溺亡的人献上花圈，这个传统1934年起就在这里举行。现在这座人行桥建于1939年，桥墩原本是为一座始终没建成的公路桥准备的。`,
     },
   },
+  {
+    name: 'Franciscan Garden',
+    slug: 'frantiskanska-zahrada',
+    localizedNames: { cz: 'Františkánská zahrada', zh: '方济各会花园' },
+    labels: ['park', 'baroque', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.08228986081894, lng: 14.423797403688159 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Franti%C5%A1k%C3%A1nsk%C3%A1_zahrada',
+    description: {
+      en: `A few steps from Wenceslas Square, where half the tourists in Europe seem to be walking at any given moment, lies a walled garden with roses, hedges and benches that is almost never crowded. The reason is simple: most people have no idea how to get in.
+
+The garden began around 1348 as the kitchen garden of the monastery beside the Church of Our Lady of the Snows, founded by Charles IV for the Carmelites. The Franciscans took over the monastery in 1604 and kept restoring the garden, and in the Baroque period it was laid out as a formal French-style park with a chapel in the middle. During the Second World War the German occupiers dug a large fire-fighting reservoir here. In 1950 the communist regime interned the friars in the mass operation against the monasteries, and the garden opened to the public. The chapel became a garden pavilion with a shop.
+
+After 1989 the monastery went back to the Franciscans, but the garden stayed with Prague 1, which had it rebuilt between 1989 and 1992. Today it is an inner-block park of roughly 190 by 190 metres, with a herb garden around the central pavilion, rose beds, a fountain and a playground. The ways in are the real attraction: from Jungmannovo náměstí past the church, or through the Alfa and Světozor arcades from Wenceslas Square and Vodičková Street, which join just before the gate. It is open all year and closes only at night.
+
+🎁 Bonus: The gate from the arcades carries 24 reliefs from the life of St. Francis, based on Giotto's frescoes. The sculptor Petr Císařovský carved them over about two years in the early 1990s, in a cottage in the Kokořín forests.`,
+      cz: `Pár kroků od Václavského náměstí, kudy v každé chvíli prochází snad polovina turistů Evropy, leží zahrada s růžemi, živými ploty a lavičkami, kde skoro nikdy není plno. Důvod je prostý: většina lidí netuší, kudy se do ní vchází.
+
+Zahrada vznikla kolem roku 1348 jako užitková zahrada kláštera u kostela Panny Marie Sněžné, který Karel IV. založil pro karmelitány. Františkáni klášter převzali roku 1604 a zahradu opakovaně obnovovali, v baroku z ní udělali pravidelný park ve francouzském stylu s kaplí uprostřed. Za druhé světové války tu němečtí okupanti vykopali velkou požární nádrž. Roku 1950 komunistický režim při Akci K internoval řeholníky a zahrada se otevřela veřejnosti. Z kaple se stal zahradní altán s obchodem.
+
+Po roce 1989 se klášter vrátil františkánům, zahrada ale zůstala Praze 1, která ji v letech 1989 až 1992 nechala obnovit. Dnes je to vnitroblokový park zhruba 190 na 190 metrů s bylinkovou zahrádkou kolem středového pavilonu, růžemi, fontánou a hřištěm. Skutečnou atrakcí jsou ovšem vchody: z Jungmannova náměstí kolem kostela, nebo pasážemi Alfa a Světozor z Václavského náměstí a Vodičkovy ulice, které se spojí těsně před branou. Otevřeno je celý rok, zavírá se jen na noc.
+
+🎁 Bonus: Brána od pasáží nese 24 reliéfů ze života svatého Františka podle Giottových fresek. Sochař Petr Císařovský je na začátku 90. let vyřezával asi dva roky v chalupě v kokořínských lesích.`,
+      zh: `离瓦茨拉夫广场只有几步路，那边随时都像有半个欧洲的游客在走，这里却藏着一座有玫瑰、绿篱和长椅的围墙花园，几乎从来不挤。原因很简单：大多数人根本不知道从哪儿进去。
+
+花园大约始于1348年，原本是雪地圣母教堂旁修道院的菜园。修道院是查理四世为加尔默罗会建的，1604年由方济各会接手，他们一次次修缮花园，到巴洛克时期把它改成了一座规整的法式园林，正中还有一座小礼拜堂。二战期间，德国占领者在这里挖了一个大型消防蓄水池。1950年，共产党政权在取缔修道院的行动中拘禁了修士们，花园就此对公众开放，小礼拜堂也成了带小店的园中亭子。
+
+1989年后，修道院归还给了方济各会，花园却留在了布拉格1区手里，并在1989到1992年间重新整修。如今它是一座大约190米见方的街区内部公园，中央亭子周围是香草园，还有玫瑰花坛、喷泉和儿童游乐场。真正的看点其实是入口：可以从容格曼广场绕过教堂进去，也可以从瓦茨拉夫广场和沃迪奇科娃街分别穿过阿尔法拱廊和斯韦托佐尔拱廊，两条拱廊在花园门前汇合。花园全年开放，只在夜里关门。
+
+🎁 彩蛋：拱廊这边的大门上有24幅圣方济各生平浮雕，参照的是乔托的壁画。雕塑家彼得·奇萨若夫斯基在90年代初，躲在科科日因森林里的一间小屋里，花了大约两年才把它们刻完。`,
+    },
+  },
+  {
+    name: 'Petrská Tower',
+    slug: 'petrska-vez',
+    localizedNames: { cz: 'Petrská věž', zh: '圣彼得钟楼' },
+    labels: ['tower', 'gothic'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.09141909617058, lng: 14.433808020340477 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Petrsk%C3%A1_v%C4%9B%C5%BE',
+    description: {
+      en: `Next to the Church of St. Peter at Poříčí stands a stocky stone bell tower that has its own little square and its own fan club of pigeons. It was paid for by the parishioners themselves, it has burned more often than seems fair, and it once left a famous poet with a scar on his face.
+
+The parish built the tower in 1598, in a late Gothic style that was already old-fashioned in Rudolfine Prague, and a Latin inscription proudly records that it went up at public and private expense. Its luck with fire was poor. It was damaged during the Swedish siege of 1648, lost its bells when a great fire swept the church in 1680, and burned again in 1689, after which it got the Baroque roof it still wears. The bells hanging in it today were cast after that: Peter in 1691 and Paul in 1724, both by Zachariáš Dietrich. A third bell, John the Baptist from 1733, was taken and melted down during the war, and a small death knell hangs at the top. The clock is dated 1717.
+
+The tower is the centrepiece of the Petrská čtvrť, a quiet pocket of old houses between Na Poříčí and Těšnov that most visitors never reach, although it is only a few minutes from the Powder Tower.
+
+🎁 Bonus: Karel Hynek Mácha, the poet of "May", helped ring the bells here as a boy. He fell from a beam and hurt his face, and as an adult he grew a beard partly to hide the scars.`,
+      cz: `Vedle kostela svatého Petra na Poříčí stojí zavalitá kamenná zvonice, která má svoje vlastní náměstíčko a svůj vlastní fanklub holubů. Zaplatili ji sami farníci, hořela častěji, než by bylo spravedlivé, a jednomu slavnému básníkovi nechala na tváři jizvu.
+
+Farnost věž postavila roku 1598 v pozdně gotickém slohu, který byl v rudolfínské Praze už trochu staromódní, a latinský nápis hrdě oznamuje, že vznikla nákladem obecním i soukromým. Se štěstím na oheň na tom byla špatně. Poškodilo ji švédské obléhání roku 1648, při velkém požáru kostela roku 1680 přišla o zvony a roku 1689 hořela znovu, načež dostala barokní střechu, kterou nosí dodnes. Zvony, které v ní visí dnes, vznikly až potom: Petr roku 1691 a Pavel roku 1724, oba od Zachariáše Dietricha. Třetí zvon, Jan Křtitel z roku 1733, za války zrekvírovali a roztavili, nahoře visí ještě malý umíráček. Hodiny jsou z roku 1717.
+
+Zvonice je středem Petrské čtvrti, tiché enklávy starých domů mezi Na Poříčí a Těšnovem, kam většina návštěvníků nikdy nedojde, přestože je jen pár minut od Prašné brány.
+
+🎁 Bonus: Karel Hynek Mácha tu jako kluk pomáhal zvonit. Spadl z trámu a poranil si obličej, a v dospělosti si nechal narůst plnovous mimo jiné proto, aby jizvy zakryl.`,
+      zh: `波日奇圣彼得教堂旁边，立着一座敦实的石砌钟楼，它有自己的小广场，也有自己的一群鸽子粉丝。它是教区居民自掏腰包盖的，着火的次数多得有点不公平，还曾在一位大诗人的脸上留下过一道疤。
+
+钟楼建于1598年，教区选了晚期哥特式，这在鲁道夫二世时代的布拉格已经有点过时了。楼上的拉丁文铭文骄傲地写着，它是靠公款和私人捐款一起建成的。它跟火的缘分很差：1648年在瑞典人围城时受损，1680年教堂大火时烧掉了钟，1689年又烧了一次，修复时才戴上了沿用至今的巴洛克式屋顶。现在挂着的钟都是那之后铸的：彼得钟铸于1691年，保罗钟铸于1724年，都出自扎哈里亚什·迪特里希之手。第三口钟施洗约翰钟铸于1733年，战争期间被征走熔掉了，楼顶还挂着一口报丧用的小钟。钟楼上的时钟是1717年的。
+
+钟楼是彼得街区的中心。这片老房子组成的安静角落夹在波日奇街和泰什诺夫之间，离火药塔只有几分钟路，大多数游客却从来走不到这里。
+
+🎁 彩蛋：写出《五月》的诗人卡雷尔·希内克·马哈小时候在这里帮忙敲过钟。他从一根横梁上摔下来伤了脸，长大后留起胡子，一部分原因就是为了遮住那些疤。`,
+    },
+  },
+  {
+    name: 'Czech Musicians',
+    slug: 'cesti-muzikanti',
+    localizedNames: { cz: 'Čeští muzikanti', zh: '捷克乐手' },
+    labels: ['monument', 'contemporary'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.085912633427775, lng: 14.43227002986808 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: null,
+    description: {
+      en: `In the park on Senovážné náměstí, four bronze musicians stand around a round stone fountain and play for the pigeons, the office workers on their lunch break and anyone waiting for a tram. They never take a break, never pass the hat, and have been at it since 2002.
+
+The figures are by Anna Chromy, a sculptor born in 1940 in Český Krumlov who grew up in Austria after 1945 and later worked mostly in Italy and France. She gave them to Prague free of charge, and the architect Jan Wagner designed the fountain they stand on. Until then the square had neither a sculpture nor a fountain. The musicians, playing a mandolin, a flute, a violin and a trumpet, stand on sandstone pedestals. The sculptor also called the group Music of the Rivers and named the four after the Ganges, the Amazon, the Danube and the Mississippi, with a dancer for the Nile. The bronze was originally coloured, but weather and traffic fumes have since turned it green.
+
+Not everyone was charmed. In 2003 the artist Milan Knížák, then director of the National Gallery, and students of the Academy of Fine Arts publicly called the group kitsch. Passers-by mostly ignored the debate and kept sitting on the fountain's edge.
+
+🎁 Bonus: Anna Chromy is also the author of the empty hooded cloak in front of the Estates Theatre, "Il Commendatore", made for the theatre where Mozart's Don Giovanni had its premiere. Casts of both works stand in several other cities, so these musicians have relatives abroad.`,
+      cz: `V parku na Senovážném náměstí stojí kolem kulaté kamenné fontány čtyři bronzoví muzikanti a hrají holubům, úředníkům na obědové pauze a každému, kdo čeká na tramvaj. Nikdy si nedají pauzu, nikdy neobcházejí s kloboukem a hrají tu od roku 2002.
+
+Sochy vytvořila Anna Chromy, sochařka narozená roku 1940 v Českém Krumlově, která po roce 1945 vyrostla v Rakousku a později působila hlavně v Itálii a Francii. Praze je darovala zdarma a fontánu, na níž stojí, navrhl architekt Jan Wagner. Do té doby na náměstí nebyla socha ani kašna. Muzikanti s mandolínou, flétnou, houslemi a trubkou stojí na pískovcových podstavcích. Autorka skupinu nazvala také Hudba řek a čtyři postavy pojmenovala po Ganze, Amazonce, Dunaji a Mississippi, Nil představuje tanečnice. Bronz byl původně barevný, ale počasí a výfukové plyny ho mezitím zbarvily do zelena.
+
+Ne každého si získali. Roku 2003 je výtvarník Milan Knížák, tehdy ředitel Národní galerie, spolu se studenty Akademie výtvarných umění veřejně označil za kýč. Kolemjdoucí debatu většinou přešli a dál si sedali na okraj kašny.
+
+🎁 Bonus: Anna Chromy je i autorkou prázdného pláště s kápí před Stavovským divadlem, sochy Il Commendatore, vytvořené pro divadlo, kde měl premiéru Mozartův Don Giovanni. Odlitky obou děl stojí i v dalších městech, takže tihle muzikanti mají příbuzné v cizině.`,
+      zh: `塞诺瓦日内广场的小公园里，四个青铜乐手围着一座圆形石头喷泉，为鸽子、午休的上班族和所有等电车的人演奏。他们从不休息，也从不拿帽子收钱，从2002年一直演到现在。
+
+雕像出自安娜·赫罗米之手。她1940年生于克鲁姆洛夫，1945年后在奥地利长大，后来主要在意大利和法国工作。她把这组雕像无偿送给了布拉格，下面的喷泉则由建筑师扬·瓦格纳设计。在这之前，广场上既没有雕像也没有喷泉。四位乐手分别拿着曼陀林、长笛、小提琴和小号，站在砂岩底座上。雕塑家还给这组作品起名叫《河流之歌》，把四个人分别命名为恒河、亚马孙河、多瑙河和密西西比河，尼罗河则由一位舞者代表。青铜原本是上了色的，后来被风雨和汽车尾气慢慢染成了绿色。
+
+并不是人人都买账。2003年，时任国家美术馆馆长的艺术家米兰·克尼扎克和美术学院的学生们公开批评它是媚俗之作。路人大多没理会这场争论，照样坐在喷泉边上歇脚。
+
+🎁 彩蛋：等级剧院门前那件空荡荡的连帽斗篷《骑士长》也是安娜·赫罗米的作品，是为莫扎特《唐璜》首演的那座剧院做的。这两件作品在别的城市也立着复制品，所以这几位乐手在国外还有亲戚。`,
+    },
+  },
+  {
+    name: 'Těšnov Park',
+    slug: 'park-tesnov',
+    localizedNames: { cz: 'Park Těšnov', zh: '泰什诺夫公园' },
+    labels: ['park', 'communism'],
+    district: 'Praha 8',
+    quarter: 'Karlín',
+    coordinates: { lat: 50.09156488263274, lng: 14.436976093366894 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Praha-T%C4%9B%C5%A1nov',
+    description: {
+      en: `Těšnov Park is a patch of grass and trees where Prague changes its mind. To the west lie the old houses and Baroque church towers of the New Town, to the east the concrete and practical blocks around Florenc, and right beside it a motorway flyover carries traffic across the city from north to south.
+
+Until the 1870s this was a suburb outside the New Town walls. When the walls and the Poříčí Gate came down, the Austrian Northwestern Railway built its Prague terminus here, opened in 1875 to a design by Karel Schlimp. Těšnov station was one of the grandest in the city, with a front modelled on a triumphal arch and statues of Trade, Science, Industry and Economy. Then came the North-South Arterial Road. Passenger trains stopped in 1972, the north wing was pulled down for the flyover, and although architects and historians fought to save the rest, the Communist Party's Prague committee had it struck off the monument list without the Ministry of Culture's consent. On 16 March 1985 the station was blown up.
+
+What was left is this park, which honestly is more of an empty plot covered in greenery: part of it has served as a car park and a tram loop, and homeless people rest on its benches. Just beside it, the Museum of Prague's main building from 1898 lost its station neighbour and gained a view of the flyover.
+
+🎁 Bonus: In October 2025 the Museum of Prague marked the station's 150th birthday with a light and sound installation on the very spot where it stood, letting the long-gone trains roll in once more. Plans for a new museum building on the site have been drawn up again and again.`,
+      cz: `Park Těšnov je kus trávy a stromů, kde Praha mění názor. Na západ leží staré domy a barokní věže Nového Města, na východ beton a účelové bloky kolem Florence a hned vedle vede estakáda magistrály, po níž jezdí doprava napříč městem od severu k jihu.
+
+Až do 70. let 19. století tu bylo předměstí za novoměstskými hradbami. Když hradby i Poříčská brána padly, postavila tu Rakouská severozápadní dráha svou pražskou konečnou, otevřenou roku 1875 podle návrhu Karla Schlimpa. Těšnovské nádraží patřilo k nejvelkolepějším ve městě, s průčelím podle vítězného oblouku a sochami Obchodu, Vědy, Průmyslu a Hospodářství. Pak přišla severojižní magistrála. Osobní vlaky přestaly jezdit roku 1972, severní křídlo zbourali kvůli estakádě, a přestože se architekti a historici o záchranu zbytku bili, pražský výbor KSČ ho nechal vyškrtnout ze seznamu památek bez souhlasu ministerstva kultury. Dne 16. března 1985 bylo nádraží odstřeleno.
+
+Zbyl tento park, který je upřímně spíš prázdná parcela porostlá zelení: část sloužila jako parkoviště a tramvajová smyčka a na lavičkách odpočívají bezdomovci. Hned vedle přišla hlavní budova Muzea hlavního města Prahy z roku 1898 o nádražního souseda a získala výhled na estakádu.
+
+🎁 Bonus: V říjnu 2025 oslavilo Muzeum Prahy 150. narozeniny nádraží světelnou a zvukovou instalací přímo na místě, kde stálo, a nechalo dávno zmizelé vlaky ještě jednou přijet. Plány na novou budovu muzea na tomto pozemku se kreslily už mnohokrát.`,
+      zh: `泰什诺夫公园是一片草地和树木，布拉格在这里换了一副面孔。西边是新城的老房子和巴洛克教堂尖塔，东边是弗洛伦茨一带的水泥楼和实用主义街区，旁边还有一座高架立交桥，载着车流从北到南穿过整座城市。
+
+直到19世纪70年代，这里都还是新城城墙外的郊区。城墙和波日奇门拆掉以后，奥地利西北铁路在这里修了它在布拉格的终点站，1875年开通，设计师是卡雷尔·施林普。泰什诺夫火车站是全城最气派的车站之一，正面仿照凯旋门，还立着象征商业、科学、工业和经济的雕像。后来，南北干道来了。1972年客运停运，北翼为了修高架桥被拆掉。尽管建筑师和历史学家拼命想保住剩下的部分，布拉格的共产党委员会还是在没有文化部同意的情况下，把它从文物名录上划掉了。1985年3月16日，车站被炸毁。
+
+剩下的就是这座公园。说实话，它更像一块长满绿植的空地：一部分当过停车场和电车掉头环线，长椅上常有流浪汉歇脚。紧挨着它的布拉格市博物馆主楼建于1898年，失去了火车站这个邻居，换来了一扇正对高架桥的窗景。
+
+🎁 彩蛋：2025年10月，布拉格市博物馆就在车站原址上办了一场声光装置展，为它庆祝150岁生日，让早已消失的火车又开进站了一回。在这块地上给博物馆盖新楼的方案，已经画过一轮又一轮了。`,
+    },
+  },
+  {
+    name: 'Bílá labuť Department Store',
+    slug: 'bila-labut',
+    localizedNames: { cz: 'Obchodní dům Bílá labuť', zh: '白天鹅百货' },
+    labels: ['functionalism', 'world-wars'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.09011076729603, lng: 14.434339188269842 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/B%C3%ADl%C3%A1_labu%C5%A5',
+    description: {
+      en: `On Na Poříčí a neon swan eight metres long has been turning on the roof of a glass department store since 1939, which makes it the oldest neon sign in Prague. The store opened at about the worst moment imaginable, and it has kept selling things through every regime since.
+
+In the 1930s Jaroslav Brouk, of the department store chain Brouk a Babka, bought the old U Podušků inn and brewery here. Its buildings had been known as the White Swan after a swan statue on the facade, and the name moved over to the new store. The architects Josef Kittrich and Josef Hrubý designed it as a pure functionalist block of eleven floors, six of them for shopping. The street front is one huge window of 180 panes of silver-grey glass, about 33 by 18 metres, at the time the largest glazed surface in Central Europe. It had the first escalator in Prague, and it was the biggest and most modern store in Central and Eastern Europe.
+
+It opened in March 1939, just days after the German army marched into Prague on 15 March. It went on trading through the occupation, through nationalisation under the communists and through the shopping fever after 1989. A careful reconstruction that began in 2017 restored the glass front, and the building is a protected cultural monument.
+
+🎁 Bonus: The store has a fictional sister. The TV Nova series "Zlatá labuť" (The Golden Swan) is set in a department store modelled on this one, although it moves the grand opening to the eve of the occupation, presumably because three days after it would have been too gloomy even for television.`,
+      cz: `Na Poříčí se na střeše skleněného obchodního domu od roku 1939 otáčí osmimetrová neonová labuť, nejstarší neonová reklama v Praze. Obchoďák se otevřel v asi nejhorší myslitelné chvíli a od té doby prodává za všech režimů.
+
+Ve 30. letech koupil Jaroslav Brouk z obchodní firmy Brouk a Babka zdejší starý hostinec a pivovar U Podušků. Jeho domům se říkalo U Bílé labutě podle sochy labutě na fasádě a jméno přešlo i na nový obchodní dům. Architekti Josef Kittrich a Josef Hrubý ho navrhli jako čistě funkcionalistický blok o jedenácti podlažích, z nichž šest sloužilo prodeji. Průčelí do ulice tvoří jediné obrovské okno ze 180 tabulí stříbrošedého skla, zhruba 33 na 18 metrů, tehdy největší prosklená plocha ve střední Evropě. Měl první eskalátor v Praze a byl největším a nejmodernějším obchodním domem ve střední a východní Evropě.
+
+Otevřel se v březnu 1939, jen pár dní poté, co 15. března vstoupila do Prahy německá armáda. Prodával dál za okupace, po znárodnění za komunistů i v nákupní horečce po roce 1989. Pečlivá rekonstrukce zahájená roku 2017 obnovila skleněné průčelí a budova je chráněnou kulturní památkou.
+
+🎁 Bonus: Obchoďák má smyšlenou sestru. Seriál TV Nova Zlatá labuť se odehrává v obchodním domě podle tohoto vzoru, jen slavnostní otevření přesouvá na předvečer okupace, nejspíš proto, že tři dny po ní by to bylo smutné i na televizi.`,
+      zh: `在波日奇街上，一栋玻璃百货大楼的屋顶上，有一只八米长的霓虹天鹅从1939年转到现在，是布拉格最古老的霓虹招牌。这家百货开张的时机差得不能再差，此后却在每一个政权下都照常卖东西。
+
+20世纪30年代，百货连锁店“布鲁克与巴布卡”的老板雅罗斯拉夫·布鲁克买下了这里的老旅店兼啤酒厂。那几栋老房子因为外墙上的一尊天鹅雕像，一直被叫作“白天鹅”，这个名字也就顺理成章地传给了新百货。建筑师约瑟夫·基特里赫和约瑟夫·赫鲁比把它设计成一座纯粹的功能主义大楼，共十一层，其中六层是卖场。临街的正面是一整扇巨大的窗户，由180块银灰色玻璃拼成，大约33米宽、18米高，是当时中欧面积最大的玻璃墙面。它有布拉格第一部自动扶梯，也是中东欧最大、最现代的百货商店。
+
+它在1939年3月开业，就在德军3月15日开进布拉格的几天之后。此后它熬过了占领、熬过了共产党时期的国有化，也赶上了1989年后的购物热潮。2017年开始的一次精心修复让玻璃正面恢复了原样，这栋楼也是受保护的文物建筑。
+
+🎁 彩蛋：这家百货还有个虚构的姐妹。Nova电视台的剧集《金天鹅》就以一家照着它设计的百货商店为背景，只不过把开业典礼挪到了占领前夜，大概是因为占领三天后才开张，就连电视剧都嫌太丧气。`,
+    },
+  },
+  {
+    name: 'Sugar Industry Palace',
+    slug: 'cukrovarnicky-palac',
+    localizedNames: { cz: 'Cukrovarnický palác', zh: '制糖业宫' },
+    labels: ['palace', 'historicism'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.085644421173136, lng: 14.430628283259177 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: null,
+    description: {
+      en: `On Senovážné náměstí stands a grand stone palace built not for a prince but for sugar beet. It was paid for by Bohemia's sugar factories, later housed a ministry, a parliament for a few dramatic days and a bank that collapsed, and today it is a five-star hotel.
+
+In the 19th century sugar from beet was one of the great businesses of the Czech lands, and in 1861 well over two hundred sugar factories joined one association that also acted as their insurer. Between 1912 and 1916 the association built itself this headquarters, designed by Josef Zasche, the German-Bohemian architect who later worked on the Adria Palace. The style is a stern, monumental late neoclassicism with a touch of the geometric, and the facade is heavy with reliefs and figures; several sources name the sculptor Franz Metzner, others call the author unknown.
+
+After 1945 the palace became the Ministry of Nutrition. In 1968 the National Assembly met here, and after the August invasion some deputies even lived in the building for a while. After 1989 it went to the Investiční a poštovní banka, which remodelled it in 1991–1992; police entered with a court administrator when that bank collapsed in 2000. Several owners and hotel plans later, the Austrian developer UBM finished the conversion, and in March 2022 the Andaz Prague opened here as the first Hyatt hotel in the Czech Republic, keeping the original windows, doors, stucco and fireplaces.
+
+🎁 Bonus: The square outside is named after hay, not sugar: Senovážné náměstí means Hay Market Square, after the hay scales that once stood here.`,
+      cz: `Na Senovážném náměstí stojí velkolepý kamenný palác, který nevznikl pro knížete, ale pro cukrovou řepu. Zaplatily ho české cukrovary, později v něm sídlilo ministerstvo, na pár dramatických dní parlament a banka, která zkrachovala, a dnes je z něj pětihvězdičkový hotel.
+
+V 19. století byl řepný cukr jedním z velkých byznysů českých zemí a roku 1861 se přes dvě stě cukrovarů spojilo v jeden spolek, který byl zároveň jejich pojišťovnou. V letech 1912 až 1916 si spolek postavil toto sídlo podle návrhu Josefa Zascheho, německočeského architekta, který později pracoval i na paláci Adria. Sloh je přísný, monumentální pozdní neoklasicismus s nádechem geometrie a fasádu zdobí bohaté reliéfy a figury; některé prameny jako sochaře uvádějí Franze Metznera, jiné autora označují za neznámého.
+
+Po roce 1945 palác připadl ministerstvu výživy. Roku 1968 tu zasedalo Národní shromáždění a po srpnové invazi tu někteří poslanci dokonce nějakou dobu bydleli. Po roce 1989 ho získala Investiční a poštovní banka, která ho v letech 1991–1992 přestavěla; když roku 2000 padla, vstoupila sem policie spolu se soudním správcem. Po několika majitelích a hotelových plánech dokončil přestavbu rakouský developer UBM a v březnu 2022 se tu otevřel Andaz Prague, první hotel řetězce Hyatt v Česku, který zachoval původní okna, dveře, štuky i krby.
+
+🎁 Bonus: Náměstí před palácem nese jméno po senu, ne po cukru: Senovážné se mu říká podle váhy na seno, která tu kdysi stávala.`,
+      zh: `塞诺瓦日内广场上立着一座气派的石头宫殿，它不是为哪位王公盖的，而是为了甜菜。出钱的是波希米亚的制糖厂，后来这里住过一个部委，住过几天惊心动魄的议会，还住过一家倒闭的银行，如今则是一家五星级酒店。
+
+19世纪，甜菜制糖是捷克地区的大生意之一。1861年，两百多家糖厂联合成立了一个协会，这个协会同时也是它们的保险公司。1912到1916年间，协会给自己盖了这座总部，设计师是德裔波希米亚建筑师约瑟夫·扎舍，他后来还参与设计了阿德里亚宫。它的风格是严肃厚重的晚期新古典主义，带一点几何感，立面上满是浮雕和人像。有些资料说雕塑出自弗朗茨·梅茨纳之手，也有资料说作者不详。
+
+1945年以后，宫殿归了营养部。1968年国民议会在这里开会，八月入侵之后，一些议员甚至在楼里住过一阵。1989年后，它到了投资与邮政银行手里，银行在1991到1992年间把它改建了一遍；2000年银行倒闭时，警察跟着法院指派的管理人一起进了楼。又换过几任主人、搁浅过几次酒店计划之后，奥地利开发商UBM完成了改造。2022年3月，安达仕布拉格酒店在这里开业，这是凯悦集团在捷克的第一家酒店，原有的窗户、门、灰泥装饰和壁炉都保留了下来。
+
+🎁 彩蛋：门前这座广场的名字跟糖无关，而是跟干草有关。塞诺瓦日内广场的意思是“干草秤广场”，因为这里从前立着一台称干草的秤。`,
+    },
+  },
+  {
+    name: 'North-South Arterial Road',
+    slug: 'severojizni-magistrala',
+    localizedNames: { cz: 'Severojižní magistrála', zh: '南北干道' },
+    labels: ['transport', 'communism'],
+    district: 'Praha 8',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.09071091638146, lng: 14.437807438575204 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Severoji%C5%BEn%C3%AD_magistr%C3%A1la',
+    description: {
+      en: `Here the North-South Arterial Road, known to every Prague driver simply as the magistrála, flies over Florenc on concrete legs at about the height of the neighbours' second-floor windows. It is not beautiful, nobody claims it is, and up to a hundred thousand vehicles a day still use it to cross the city.
+
+The road came out of the traffic plans of the 1960s and was built in stages through the 1970s: the Nusle Bridge to Rumunská Street in 1973, from there to the Hlávka Bridge in 1978. To push a motorway-sized road through the historic centre, the planners took Wilsonova Street past the main station and the National Museum and lifted it over Florenc on this flyover. The price was high. Těšnov station, once called the most beautiful station in Central Europe, was pulled down for it, the parks around Florenc were cut apart, and the Museum of Prague was left looking straight at the traffic. Even the street's name had a story: under the communists it was Vítězného února, after the February 1948 coup, and only after 1989 did it go back to honouring Woodrow Wilson.
+
+Since then the city has been arguing about what to do with it. A study by the Danish urbanist Jan Gehl, approved in 2017, proposed calming it step by step and reconnecting the National Museum with Wenceslas Square. The speed limit came down to 50 km/h in 2019, and the debate goes on.
+
+🎁 Bonus: Woodrow Wilson has his statue just up the road, by the main station. The original by Albin Polasek, unveiled on 4 July 1928, was torn down by the German occupiers during the war; a new casting came back in 2011, so the president once again looks out over the road that carries his name.`,
+      cz: `Tady severojižní magistrála, kterou každý pražský řidič zná prostě jako magistrálu, přelétá Florenc na betonových nohách zhruba ve výšce oken ve druhém patře sousedních domů. Hezká není, nikdo to netvrdí, a přesto po ní denně projede až sto tisíc vozidel napříč městem.
+
+Silnice vzešla z dopravních plánů 60. let a stavěla se po etapách během 70. let: od Nuselského mostu k Rumunské ulici roku 1973, odtud k Hlávkovu mostu roku 1978. Aby protlačili silnici dálničních rozměrů historickým centrem, vedli projektanti Wilsonovou ulicí kolem hlavního nádraží a Národního muzea a nad Florencí ji zvedli na tuto estakádu. Cena byla vysoká. Padlo kvůli ní Těšnovské nádraží, kdysi označované za nejkrásnější nádraží ve střední Evropě, parky kolem Florence byly rozťaty a Muzeum hlavního města Prahy zůstalo koukat přímo do provozu. I jméno ulice má svůj příběh: za komunistů se jmenovala Vítězného února, podle převratu v únoru 1948, a teprve po roce 1989 se vrátila k Woodrowu Wilsonovi.
+
+Od té doby se město přou, co s ní. Studie dánského urbanisty Jana Gehla, schválená roku 2017, navrhla magistrálu postupně zklidnit a znovu propojit Národní muzeum s Václavským náměstím. Rychlost se roku 2019 snížila na 50 km/h a debata pokračuje.
+
+🎁 Bonus: Woodrow Wilson má svou sochu kousek odsud, u hlavního nádraží. Originál od Albína Poláška, odhalený 4. července 1928, za války strhli němečtí okupanti, nový odlitek se vrátil roku 2011, takže prezident zase shlíží na silnici, která nese jeho jméno.`,
+      zh: `在这里，南北干道（布拉格的司机们都直接叫它“干道”）踩着水泥桥墩从弗洛伦茨上空飞过，高度差不多和旁边楼房的三楼窗户齐平。它不好看，也没人说它好看，可每天还是有多达十万辆车靠它穿城而过。
+
+这条路源自20世纪60年代的交通规划，在70年代分段建成：1973年通了努塞尔桥到鲁穆恩斯卡街一段，1978年又从那里通到赫拉夫卡桥。为了让一条高速公路级别的大路穿过历史城区，规划者让它沿着威尔逊街经过中央火车站和国家博物馆，到了弗洛伦茨再用这座高架桥抬起来。代价很大。泰什诺夫火车站，这座曾被称为中欧最美的车站，因此被拆掉；弗洛伦茨一带的公园被切得七零八落；布拉格市博物馆从此正对着车流。连这条街的名字都有故事：共产党时期它叫“胜利的二月街”，纪念1948年的二月政变，直到1989年以后才重新改回纪念伍德罗·威尔逊的名字。
+
+此后，布拉格一直在争论该拿它怎么办。丹麦城市规划师扬·盖尔的研究方案在2017年获批，建议逐步给它降温，并重新把国家博物馆和瓦茨拉夫广场连起来。2019年限速降到了每小时50公里，争论还在继续。
+
+🎁 彩蛋：伍德罗·威尔逊的雕像就在沿路往前一点、中央火车站旁边。原作出自阿尔宾·波拉谢克之手，1928年7月4日揭幕，战争期间被德国占领者拆掉；2011年新铸的雕像回到了这里，于是这位总统又能俯瞰这条以他命名的大路了。`,
+    },
+  },
+  {
+    name: 'Florenc',
+    slug: 'florenc',
+    localizedNames: { cz: 'Florenc', zh: '弗洛伦茨' },
+    labels: ['transport', 'national-revival'],
+    district: 'Praha 8',
+    quarter: 'Karlín',
+    coordinates: { lat: 50.0909471251954, lng: 14.438962712212977 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Florenc',
+    description: {
+      en: `Florenc is the bit of Prague where the New Town turns into Karlín, a knot of bus platforms, metro escalators, tram stops and a flyover. Nothing about it looks Italian, yet it is named after Florence, and nobody can say exactly where it begins or ends.
+
+The name appears in the 15th century. It most likely goes back to Charles IV's founding of the New Town in 1348, when Italians from Florence and Venice were allowed to settle here. At first it seems to have meant the area around today's Na Florenci Street, but over time it spread to Těšnov and part of Karlín, and it has never been an official district. In the 19th century Florenc became Prague's railway doorstep: the Northern State Railway ran through from 1845, and from 1875 the Northwestern Railway's Těšnov station stood here, until its last train left on 1 July 1972 and the building was blown up in 1985. Workers walked through Florenc every day from the Old and New Towns to the factories of Karlín.
+
+The modern Florenc grew up around transport. The metro arrived in 1974 with a station first called Sokolovská; line B ended here from 1985, and only in 1990 was the station renamed Florenc. Next door is the central bus station. In August 2002 the Vltava flood poured into the area and the metro, and several houses in nearby Karlín collapsed.
+
+🎁 Bonus: Florenc has its own film. "Florenc 13.30", a 1957 comedy by Josef Mach with a young Jiřina Bohdalová, follows the passengers of a bus from Prague to Karlovy Vary, and its title is simply the departure time, so it also shows what the bus station looked like in the 1950s. Strictly speaking the noun is feminine in Czech, but Prague people have always treated it as masculine.`,
+      cz: `Florenc je ten kus Prahy, kde se Nové Město mění v Karlín, uzel autobusových nástupišť, eskalátorů metra, tramvajových zastávek a estakády. Nic tu nevypadá italsky, a přece se jmenuje po Florencii, a nikdo přesně neví, kde začíná a kde končí.
+
+Jméno se objevuje v 15. století. Nejspíš sahá k založení Nového Města Karlem IV. roku 1348, kdy se tu směli usadit Italové z Florencie a Benátek. Zprvu zřejmě označovalo okolí dnešní ulice Na Florenci, časem se ale rozlezlo i na Těšnov a část Karlína a samostatnou čtvrtí nikdy nebylo. V 19. století se Florenc stala železničním zápražím Prahy: od roku 1845 tudy jezdila Severní státní dráha a od roku 1875 tu stálo Těšnovské nádraží Severozápadní dráhy, dokud z něj 1. července 1972 neodjel poslední vlak a budova nebyla roku 1985 odstřelena. Dělníci přes Florenc denně chodili ze Starého a Nového Města do karlínských továren.
+
+Dnešní Florenc vyrostla kolem dopravy. Metro sem dorazilo roku 1974 se stanicí, která se nejdřív jmenovala Sokolovská; od roku 1985 tu končila linka B a teprve roku 1990 dostala stanice jméno Florenc. Hned vedle je ústřední autobusové nádraží. V srpnu 2002 se sem i do metra vlila povodeň a v nedalekém Karlíně se zřítilo několik domů.
+
+🎁 Bonus: Florenc má i svůj film. Komedie Josefa Macha Florenc 13,30 z roku 1957, s mladou Jiřinou Bohdalovou, sleduje cestující autobusu z Prahy do Karlových Varů a její název je prostě čas odjezdu, takže ukazuje i to, jak autobusové nádraží vypadalo v 50. letech. Spisovně je to slovo ženského rodu, ale Pražané s ním odjakživa zacházejí jako s mužským.`,
+      zh: `弗洛伦茨是布拉格新城过渡到卡林的那一段，长途汽车站台、地铁扶梯、电车站和高架桥全都缠在一起。这里没有一处看着像意大利，可它偏偏是以佛罗伦萨命名的，而且谁也说不清它从哪儿开始、到哪儿结束。
+
+这个名字最早出现在15世纪，很可能要追溯到1348年查理四世建立新城的时候，当时来自佛罗伦萨和威尼斯的意大利人获准在这里定居。起初它大概只指今天“在弗洛伦茨”街一带，后来慢慢扩展到泰什诺夫和卡林的一部分，却从来不是一个正式的城区。19世纪，弗洛伦茨成了布拉格的铁路门户：1845年起北方国有铁路从这里经过，1875年起西北铁路的泰什诺夫火车站就立在这里，直到1972年7月1日最后一班火车开走，1985年车站被炸毁。那些年里，工人们每天从老城和新城穿过弗洛伦茨，走到卡林的工厂上班。
+
+今天的弗洛伦茨是围着交通长起来的。地铁1974年通到这里，车站最初叫索科洛夫斯卡；1985年起这里是B线的终点，直到1990年车站才改名叫弗洛伦茨。旁边就是中央长途汽车站。2002年8月，伏尔塔瓦河的洪水灌进了这一带和地铁，附近的卡林还有几栋房子塌了。
+
+🎁 彩蛋：弗洛伦茨还有一部以它命名的电影。1957年约瑟夫·马赫导演的喜剧《弗洛伦茨13:30》，讲的是一辆从布拉格开往卡罗维发利的大巴上的乘客们，年轻的伊日娜·博赫达洛娃也在里面。片名就是发车时间，所以它也留下了50年代长途汽车站的模样。按捷克语规范，这个词其实是阴性的，可布拉格人一直都把它当阳性用。`,
+    },
+  },
 ];
 
 async function run() {

@@ -126,6 +126,9 @@ export default function TreasureHuntPage() {
     setLoading(true);
     fetchStatus().finally(() => setLoading(false));
   }, [user, fetchStatus]);
+  // Only one mode runs at a time: coming back to this tab, recheck whether
+  // the hardcore hunt has ended in the meantime.
+  useEffect(() => { if (mode === 'normal') fetchStatus(); }, [mode, fetchStatus]);
 
   useEffect(() => {
     if (!status?.active) return;
@@ -264,7 +267,7 @@ export default function TreasureHuntPage() {
         </div>
 
         {mode === 'hardcore' ? (
-          <HardcoreHunt onOpen={setSelectedSlug} refreshKey={hardcoreRefresh} />
+          <HardcoreHunt onOpen={setSelectedSlug} refreshKey={hardcoreRefresh} onSwitch={() => switchMode('normal')} />
         ) : loading ? (
           <div style={{ display: 'flex', justifyContent: 'center', padding: 40 }}>
             <div className="spinner" />
@@ -337,9 +340,14 @@ export default function TreasureHuntPage() {
                     <p className="guide-body" style={{ textAlign: 'center', maxWidth: 420, color: 'var(--text-muted)' }}>
                       {t('draw.huntMysteryHint')}
                     </p>
-                    <button className="px-btn px-btn--gold px-btn--lg" onClick={handleStart} disabled={starting || !user}>
+                    <button className="px-btn px-btn--gold px-btn--lg" onClick={handleStart} disabled={starting || !user || !!status?.blockedBy}>
                       {starting ? t('draw.buttonDrawing') : t('draw.buttonHuntStart')}
                     </button>
+                    {status?.blockedBy && (
+                      <p className="guide-body draw-mode-hint">
+                        {renderRule(t('draw.blockedByHardcore'), () => switchMode('hardcore'))}
+                      </p>
+                    )}
                     {!user && <p className="guide-body draw-mode-hint">{t('draw.huntGuestOnly')}</p>}
                   </>
                 )}

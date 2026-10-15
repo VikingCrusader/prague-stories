@@ -81,6 +81,14 @@ function parsePosition(src) {
 function isDrawActive(draw) {
   return !!(draw?.drawnAt && draw.mode === 'hidden' && Date.now() - new Date(draw.drawnAt).getTime() < RANDOM_DRAW_WINDOW_MS);
 }
+// A clue hunt still being played: in its window and not yet found.
+function isClueHuntLive(draw) {
+  return isDrawActive(draw) && !draw.bonusUsed;
+}
+// Only one hunt at a time (user's call, 2026-10-15): while one mode is still
+// being played (neither found, failed nor timed out), the other can't start.
+// Each mode keeps its own 24h window, so once one is over the other may
+// start the same day.
 
 // The cards a treasure hunt can hide (and so the ones a player has to tell
 // apart): uncollected, inside Prague, with a quarter (which gives the river
@@ -173,6 +181,7 @@ async function buildDrawResponse(user, pos = null) {
 
   if (!isDrawActive(draw)) {
     const res = { active: false, canDraw: true, location: null, drawnAt: null, expiresAt: null };
+    if (isHardcoreLive(user.hardcoreDraw)) res.blockedBy = 'hardcore';
     // A treasure hunt that ran out unsolved: reveal the answer until the
     // next draw replaces it.
     if (draw.mode === 'hidden' && draw.slug && !draw.bonusUsed) {
@@ -229,14 +238,11 @@ function shuffle(arr) {
 
 // Picks a random treasure, or null when none is left: from huntPool's
 // cards (uncollected, inside Prague, with a quarter, not on the river). A
-// re-roll passes the current card as `excludeSlug`. The other mode's live
-// treasure is skipped too, so one check-in never settles both hunts.
-async function pickDrawLocation(user, excludeSlug = null, { hardcore = false } = {}) {
+// re-roll passes the current card as `excludeSlug`. The two modes never run
+// at once, so there is no other live treasure to avoid.
+async function pickDrawLocation(user, excludeSlug = null) {
   const match = await huntPoolMatch(user);
-  const other = hardcore
-    ? (isDrawActive(user.randomDraw) && !user.randomDraw.bonusUsed ? user.randomDraw.slug : null)
-    : (isHardcoreLive(user.hardcoreDraw) ? user.hardcoreDraw.slug : null);
-  match.slug.$nin = [...match.slug.$nin, ...[excludeSlug, other].filter(Boolean)];
+  if (excludeSlug) match.slug.$nin = [...match.slug.$nin, excludeSlug];
   const [picked] = await Location.aggregate([{ $match: match }, { $sample: { size: 1 } }]);
   return picked || null;
 }
@@ -257,6 +263,7 @@ export async function drawRandomLocation(req, res, next) {
     // starting another (guards against a double-click / repeated POST).
     const existing = await buildDrawResponse(user);
     if (existing.active) return res.json(existing);
+    if (existing.blockedBy) return res.status(409).json({ message: 'A hardcore hunt is still in progress', blockedBy: existing.blockedBy });
 
     const picked = await pickDrawLocation(user);
     if (!picked) {
@@ -394,6 +401,7 @@ async function buildHardcoreResponse(user, pos = null) {
 
   if (!inWindow) {
     const res = { active: false, canDraw: true };
+    if (isClueHuntLive(user.randomDraw)) res.blockedBy = 'clues';
     // Ran out of time unsolved: show the answer until the next hunt.
     if (location && !hd.found) res.lastHunt = { location };
     return res;
@@ -483,8 +491,9 @@ export async function startHardcoreHunt(req, res, next) {
     const user = req.user;
     const existing = await buildHardcoreResponse(user);
     if (existing.active) return res.json(existing);
+    if (existing.blockedBy) return res.status(409).json({ message: 'A clue hunt is still in progress', blockedBy: existing.blockedBy });
 
-    const picked = await pickDrawLocation(user, null, { hardcore: true });
+    const picked = await pickDrawLocation(user);
     if (!picked) return res.json({ active: false, canDraw: false, noneLeft: true });
 
     user.hardcoreDraw = {

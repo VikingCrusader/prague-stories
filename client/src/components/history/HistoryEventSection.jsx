@@ -256,6 +256,7 @@ function EventCard({ event, onOpenLandmark, onNavigateToEvent, sectionRef }) {
                     <div key={landmark.slug} className="history-landmark-item">
                       <LocationCard
                         location={{ ...landmark, unlocked: true }}
+                        holdable={!!landmark.unlocked}
                         distance={distance}
                         onClick={() => onOpenLandmark(landmark.slug)}
                       />

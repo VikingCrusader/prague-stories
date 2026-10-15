@@ -118,6 +118,31 @@ describe('GET /api/locations/:slug', () => {
     expect(res.body.guessAttempt).toBeNull();
   });
 
+  test('sends an uncollected card only the opening of its story', async () => {
+    const story = l => ['Opening.', 'Second.', 'Third.', 'Fourth.', 'Bonus.'].map(x => `${l} ${x}`).join('\n\n');
+    const location = await createLocation({ description: { en: story('EN'), cz: story('CZ'), zh: story('ZH') } });
+    const guest = await request(app).get('/api/locations/charles-bridge');
+    expect(guest.body.storyLocked).toBe(true);
+    expect(guest.body.description.en).toBe('EN Opening.\n\nEN Second.');
+    expect(guest.body.description.zh).toBe('ZH Opening.\n\nZH Second.');
+    expect(JSON.stringify(guest.body)).not.toContain('Bonus');
+
+    const { token, user } = await createAuthedUser();
+    expect((await request(app).get('/api/locations/charles-bridge').set('Authorization', `Bearer ${token}`)).body.storyLocked).toBe(true);
+    await CheckIn.create({ user: user._id, location: location._id });
+    const mine = await request(app).get('/api/locations/charles-bridge').set('Authorization', `Bearer ${token}`);
+    expect(mine.body.storyLocked).toBeUndefined();
+    expect(mine.body.description.en).toBe(story('EN'));
+  });
+
+  test('the user who added a card can read its whole story', async () => {
+    const { token, user } = await createAuthedUser();
+    await createLocation({ addedBy: user._id, description: { en: 'One.\n\nTwo.\n\nThree.\n\nFour.', cz: '', zh: '' } });
+    const res = await request(app).get('/api/locations/charles-bridge').set('Authorization', `Bearer ${token}`);
+    expect(res.body.storyLocked).toBeUndefined();
+    expect(res.body.description.en).toContain('Four.');
+  });
+
   test('reports the treasure-hunt guess and XP for a card found on a hunt', async () => {
     const location = await createLocation({ description: { en: 'A bridge.', cz: 'Most.', zh: '桥。' } });
     const { token, user } = await createAuthedUser();
@@ -207,6 +232,18 @@ describe('PUT /api/locations/:slug', () => {
     expect(res.body.xpReward).toBe(70);
     expect(res.body.localizedNames.cz).toBe('Karlův most');
     expect(res.body.coordinates.lat).toBe(50.1);
+  });
+
+  test("refuses to change the story of a card the user hasn't collected", async () => {
+    const location = await createLocation({ description: { en: 'A bridge.', cz: 'Most.', zh: '桥。' } });
+    const { token, user } = await createAuthedUser();
+    const put = () => request(app).put('/api/locations/charles-bridge').set('Authorization', `Bearer ${token}`)
+      .send({ description: { en: 'Changed.' } });
+    expect((await put()).status).toBe(403);
+    await CheckIn.create({ user: user._id, location: location._id });
+    const ok = await put();
+    expect(ok.status).toBe(200);
+    expect(ok.body.description.en).toBe('Changed.');
   });
 });
 
