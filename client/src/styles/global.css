@@ -120,6 +120,14 @@ html[data-lang="zh"] body {
   font-family:
     "LXGW WenKai TC", "Microsoft YaHei", "ZCOOL QingKe HuangYou", "Noto Sans SC",
     "PingFang SC", "Hiragino Sans GB", "SimHei", sans-serif;
+  /* Latin UI fonts (Alegreya Sans) default to old-style figures, which next
+     to Chinese characters look like subscripts ("布拉格1区"). */
+  font-variant-numeric: lining-nums;
+}
+html[data-lang="zh"] button,
+html[data-lang="zh"] input,
+html[data-lang="zh"] select {
+  font-variant-numeric: lining-nums;
 }
 
 html[data-lang="zh"] .px-title,

@@ -53,16 +53,18 @@ export function riverSideOf(quarter) {
   if (!quarter) return null;
   return LEFT_BANK_QUARTERS.has(quarter) ? 'castle' : 'oldTown';
 }
-// Guesses 2–4 give the distance to the treasure only as a band, never the
+// Guesses 1–4 give the distance to the treasure only as a band, never the
 // exact figure: an exact distance plus a label picks out one card on the
-// Explore page, and two readings a short walk apart triangulate it. Guess 1
-// shows no distance at all, only "within 3 km" once the button unlocks.
-// Band edges in metres for guesses 2, 3 and 4; the last band is open-ended.
+// Explore page, and two readings a short walk apart triangulate it.
+// Band edges in metres for guesses 1, 2, 3 and 4; the last band is open-ended.
+// Guess 1's bands (under 3 km / 3–10 km / over 10 km) only tell a player
+// roughly how far to travel (user's call, 2026-10-15).
 // Each guess's first edge equals its HIDDEN_DRAW_RADII entry, so the
 // smallest band shown ("under 2 km") is exactly where the button unlocks.
 // Each guess only comes after a miss pressed within the previous radius, so
 // no far bands are needed.
 export const HIDDEN_DRAW_BANDS = [
+  [3000, 10000],
   [2000, 3000],
   [1000, 2000],
   [500, 1000],
@@ -110,8 +112,15 @@ export function huntXp(xpReward, attempt) {
 }
 
 // Hardcore treasure hunt (硬核寻宝, 2026-10-15): a second, separate hunt,
-// one per 24h of its own, from the same card pool. No clues at all, only a
-// rough distance (hardcoreReading). Getting within 1 km once reveals one
+// one per 24h of its own, from the same card pool (no bridges or islands
+// either, since the river side is a clue here too). Few clues, mostly a
+// rough distance (hardcoreReading). Getting within 3 km once reveals which
+// bank of the Vltava it is on (HARDCORE_SIDE_M); outside 1 km, every
+// HARDCORE_TREND_STEP_M walked, the player is told whether they got closer
+// or farther (a hot-and-cold hint, no figure, no direction), so a wrong
+// heading shows after a short walk, not after a whole kilometre (both added
+// 2026-10-15 after the user's playtest: the stretch before 1 km was too
+// blind, the part inside 1 km was fine). Getting within 1 km once reveals one
 // random label and the quarter, within 500 m a second label and the rarity;
 // they stay revealed if the player walks away again. The button unlocks
 // within HARDCORE_GUESS_RADIUS and hits within HIDDEN_DRAW_HIT_M; three
@@ -120,6 +129,10 @@ export function huntXp(xpReward, attempt) {
 export const HARDCORE_MULTIPLIERS = [10, 5, 2];
 export const HARDCORE_GUESS_RADIUS = 500;
 export const HARDCORE_REVEAL_M = [1000, 500];
+export const HARDCORE_SIDE_M = 3000;
+export const HARDCORE_TREND_STEP_M = 100;
+// A change smaller than this over one step reads as "about the same".
+export const HARDCORE_TREND_SAME_M = 40;
 
 // A hardcore hunt still running: within its 24h window, neither found nor failed.
 export function isHardcoreLive(hd) {

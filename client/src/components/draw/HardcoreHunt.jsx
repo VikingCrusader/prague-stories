@@ -25,8 +25,9 @@ function readingText(r, t) {
   return t('draw.hcAbout', { d: km(r.about) });
 }
 
-// Hardcore treasure hunt (硬核寻宝): no clues, only a rough distance, until
-// the player has been within 1 km (one label + the quarter) and 500 m (a
+// Hardcore treasure hunt (硬核寻宝): few clues, mostly a rough distance plus,
+// outside 1 km, whether the last stretch walked got closer or farther. The
+// river side appears within 3 km, then within 1 km one label + the quarter, and 500 m (a
 // second label + the rarity). Three presses within 500 m. Everything comes
 // from the server (buildHardcoreResponse); the card stays secret until found
 // or failed. `onOpen(slug)` opens a card's detail on the parent page.
@@ -173,7 +174,14 @@ export default function HardcoreHunt({ onOpen, refreshKey }) {
 
             <div className="hunt-panel__distance">
               {hunt.reading ? t('draw.huntDistance', { d: readingText(hunt.reading, t) }) : t('draw.huntLocating')}
+              {hunt.reading && hunt.trend && <> · {t(`draw.hcTrend.${hunt.trend}`)}</>}
             </div>
+
+            {hunt.riverSide && (
+              <div className="hunt-panel__square">
+                {t(hunt.riverSide === 'castle' ? 'draw.huntSideCastle' : 'draw.huntSideOldTown')}
+              </div>
+            )}
 
             {hunt.labels.length === 0 ? (
               <div className="hunt-panel__square">{t('draw.hcNoClues')}</div>

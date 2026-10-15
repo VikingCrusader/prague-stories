@@ -5,7 +5,7 @@ import {
   ACHIEVEMENTS, LEVELS, calculateLevel, RANDOM_DRAW_WINDOW_MS,
   HIDDEN_DRAW_MULTIPLIERS, HIDDEN_DRAW_RADII, HIDDEN_DRAW_HIT_M,
   HIDDEN_DRAW_BANDS, HUNT_EXCLUDED_SLUGS, riverSideOf, orderHuntLabels, huntXp,
-  HARDCORE_MULTIPLIERS, HARDCORE_GUESS_RADIUS, HARDCORE_REVEAL_M, hardcoreReading, hardcoreXp, isHardcoreLive,
+  HARDCORE_MULTIPLIERS, HARDCORE_GUESS_RADIUS, HARDCORE_REVEAL_M, HARDCORE_SIDE_M, HARDCORE_TREND_STEP_M, HARDCORE_TREND_SAME_M, hardcoreReading, hardcoreXp, isHardcoreLive,
 } from '../services/gamification.js';
 import { haversineDistance, compassDirection } from '../utils/geo.js';
 import { recordCheckIn } from './checkinController.js';
@@ -84,13 +84,13 @@ function isDrawActive(draw) {
 
 // The cards a treasure hunt can hide (and so the ones a player has to tell
 // apart): uncollected, inside Prague, with a quarter (which gives the river
-// side), and not on the river itself (HUNT_EXCLUDED_SLUGS). The hardcore
-// hunt gives no river-side clue, so it may hide on a bridge or island too.
-async function huntPoolMatch(user, { hardcore = false } = {}) {
+// side), and not on the river itself (HUNT_EXCLUDED_SLUGS). Both hunts
+// give the river side as a clue, so both leave the river out.
+async function huntPoolMatch(user) {
   const checkins = await CheckIn.find({ user: user._id }).select('location').lean();
   return {
     _id: { $nin: checkins.map(c => c.location) },
-    slug: { $nin: hardcore ? [] : HUNT_EXCLUDED_SLUGS },
+    slug: { $nin: HUNT_EXCLUDED_SLUGS },
     labels: { $ne: 'outside' },
     quarter: { $nin: [null, ''] },
   };
@@ -100,11 +100,11 @@ async function huntPool(user) {
   return Location.find(await huntPoolMatch(user)).select('slug labels rarity district coordinates').lean();
 }
 
-// The distance band the treasure is in on guesses 2–4 ({ min, max } in
+// The distance band the treasure is in on guesses 1–4 ({ min, max } in
 // metres, max null = open). Outside the guess radius, anything below it is
 // already ruled out, so the band starts no lower than `floor`.
 function bandOf(attempt, d, floor) {
-  const edges = [0, ...HIDDEN_DRAW_BANDS[attempt - 2], null];
+  const edges = [0, ...HIDDEN_DRAW_BANDS[attempt - 1], null];
   const i = edges.findIndex((e, k) => k < edges.length - 1 && d >= e && (edges[k + 1] === null || d < edges[k + 1]));
   return { min: Math.max(edges[i], floor), max: edges[i + 1] };
 }
@@ -112,7 +112,7 @@ function bandOf(attempt, d, floor) {
 // Treasure hunt, still unsolved: only the clues go to the client, never the
 // location or its coordinates (they'd be readable in devtools). Clues are
 // added a little at a time, one or two per guess:
-//   1. one label, which side of the Vltava it is on (riverSide), no distance
+//   1. one label, which side of the Vltava it is on (riverSide)
 //   2. + rarity (and the XP figure, which would give it away), and the
 //        direction from each spot where a guess was pressed
 //   3. + a second label, the district (Praha N)
@@ -121,8 +121,7 @@ function bandOf(attempt, d, floor) {
 // spots would let a player triangulate the treasure.
 //   5. + all labels
 // Distance to the treasure is computed here from the position the client
-// reports. Guess 1 shows none beyond "within" once the button unlocks;
-// guesses 2–4 a band outside the guess radius (HIDDEN_DRAW_BANDS) and
+// reports. Guesses 1–4 show a band outside the guess radius (HIDDEN_DRAW_BANDS) and
 // "within" inside it; guess 5 the exact figure.
 function buildHuntClues(draw, location, pos) {
   const { lat, lng } = location.coordinates;
@@ -143,7 +142,7 @@ function buildHuntClues(draw, location, pos) {
       band: null,
       direction: attempt >= 4 ? compassDirection(pos.lat, pos.lng, lat, lng) : null,
     };
-    if (attempt >= 2 && attempt <= HIDDEN_DRAW_BANDS.length + 1 && !within) proximity.band = bandOf(attempt, d, radius);
+    if (attempt <= HIDDEN_DRAW_BANDS.length && !within) proximity.band = bandOf(attempt, d, radius);
   }
 
   return {
@@ -233,7 +232,7 @@ function shuffle(arr) {
 // re-roll passes the current card as `excludeSlug`. The other mode's live
 // treasure is skipped too, so one check-in never settles both hunts.
 async function pickDrawLocation(user, excludeSlug = null, { hardcore = false } = {}) {
-  const match = await huntPoolMatch(user, { hardcore });
+  const match = await huntPoolMatch(user);
   const other = hardcore
     ? (isDrawActive(user.randomDraw) && !user.randomDraw.bonusUsed ? user.randomDraw.slug : null)
     : (isHardcoreLive(user.hardcoreDraw) ? user.hardcoreDraw.slug : null);
@@ -384,9 +383,10 @@ export async function skipHiddenDraw(req, res, next) {
 }
 
 // Hardcore treasure hunt (see HARDCORE_* in gamification.js). Status:
-// nothing about the card goes out but the rough distance and, once the
-// player has been within 1 km / 500 m, the clues that unlocks. A reported
-// position within those distances raises `revealed` for good.
+// nothing about the card goes out but the rough distance, the hot-and-cold
+// trend outside 1 km and, once the player has been within 3 km / 1 km /
+// 500 m, the clues that unlocks. A reported position within those distances
+// raises `sideRevealed` / `revealed` for good.
 async function buildHardcoreResponse(user, pos = null) {
   const hd = user.hardcoreDraw || {};
   const inWindow = hd.slug && hd.drawnAt && Date.now() - new Date(hd.drawnAt).getTime() < RANDOM_DRAW_WINDOW_MS;
@@ -411,16 +411,43 @@ async function buildHardcoreResponse(user, pos = null) {
   if (hd.failed) return { ...base, failed: true, location };
 
   let revealed = hd.revealed || 0;
+  let sideRevealed = !!hd.sideRevealed;
+  let trend = hd.trend || null;
   let reading = null;
   let canGuess = false;
   if (pos) {
     const d = haversineDistance(pos.lat, pos.lng, location.coordinates.lat, location.coordinates.lng);
     reading = hardcoreReading(d);
     canGuess = d <= HARDCORE_GUESS_RADIUS;
+    const set = {};
     const reach = d < HARDCORE_REVEAL_M[1] ? 2 : d < HARDCORE_REVEAL_M[0] ? 1 : 0;
     if (reach > revealed) {
       revealed = reach;
-      await User.updateOne({ _id: user._id, 'hardcoreDraw.slug': hd.slug }, { $max: { 'hardcoreDraw.revealed': reach } });
+    }
+    if (!sideRevealed && d < HARDCORE_SIDE_M) {
+      sideRevealed = true;
+      set['hardcoreDraw.sideRevealed'] = true;
+    }
+    // Hot and cold, outside 1 km only: once the player is a step away from
+    // the last reference reading, compare and move the reference here.
+    const ref = hd.trendRef;
+    const here = { lat: pos.lat, lng: pos.lng, distance: Math.round(d) };
+    if (d < HARDCORE_REVEAL_M[0]) {
+      trend = null;
+      if (ref?.lat != null || hd.trend) Object.assign(set, { 'hardcoreDraw.trendRef': null, 'hardcoreDraw.trend': null });
+    } else if (ref?.lat == null) {
+      set['hardcoreDraw.trendRef'] = here;
+    } else if (haversineDistance(pos.lat, pos.lng, ref.lat, ref.lng) >= HARDCORE_TREND_STEP_M) {
+      const delta = d - ref.distance;
+      trend = Math.abs(delta) < HARDCORE_TREND_SAME_M ? 'same' : delta < 0 ? 'closer' : 'farther';
+      Object.assign(set, { 'hardcoreDraw.trendRef': here, 'hardcoreDraw.trend': trend });
+    }
+    const raise = reach > (hd.revealed || 0);
+    if (raise || Object.keys(set).length) {
+      await User.updateOne({ _id: user._id, 'hardcoreDraw.slug': hd.slug }, {
+        ...(Object.keys(set).length ? { $set: set } : {}),
+        ...(raise ? { $max: { 'hardcoreDraw.revealed': reach } } : {}),
+      });
     }
   }
   const misses = hd.misses?.length || 0;
@@ -433,6 +460,8 @@ async function buildHardcoreResponse(user, pos = null) {
       radius: HARDCORE_GUESS_RADIUS,
       reading,
       canGuess,
+      trend,
+      riverSide: sideRevealed ? riverSideOf(location.quarter) : null,
       labels: (hd.labelOrder || []).slice(0, revealed),
       quarter: revealed >= 1 ? location.quarter : null,
       rarity: revealed >= 2 ? location.rarity : null,
@@ -461,7 +490,7 @@ export async function startHardcoreHunt(req, res, next) {
     user.hardcoreDraw = {
       slug: picked.slug, drawnAt: new Date(), found: false, failed: false,
       labelOrder: shuffle((picked.labels || []).filter(l => l !== 'outside')),
-      revealed: 0, misses: [], solvedAttempt: null,
+      revealed: 0, sideRevealed: false, trendRef: null, trend: null, misses: [], solvedAttempt: null,
     };
     await user.save();
     res.json(await buildHardcoreResponse(user, parsePosition(req.body)));

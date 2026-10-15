@@ -209,12 +209,14 @@ describe('treasure hunt', () => {
 
   const status = (token, pos) => request(app).get('/api/user/random-draw').query(pos).set('Authorization', `Bearer ${token}`);
 
-  test('the first guess shows no distance, only "within" once the button unlocks', async () => {
+  test('the first guess shows a rough band (3–10 km, over 10 km), then "within" once the button unlocks', async () => {
     await seedTarget({ labels: ['church'] });
     const { token } = await createAuthedUser();
     await startHunt(token);
     const far = await status(token, north(6000));
-    expect(far.body.hunt.proximity).toEqual({ within: false, distance: null, band: null, direction: null });
+    expect(far.body.hunt.proximity).toEqual({ within: false, distance: null, band: { min: 3000, max: 10000 }, direction: null });
+    const farther = await status(token, north(12000));
+    expect(farther.body.hunt.proximity.band).toEqual({ min: 10000, max: null });
     const near = await status(token, north(1500));
     expect(near.body.hunt.proximity).toEqual({ within: true, distance: null, band: null, direction: null });
   });
@@ -585,6 +587,28 @@ describe('hardcore treasure hunt', () => {
     expect((await User.findById(user._id)).totalXP).toBe(100);
   });
 
+  test('reveals the river side within 3 km and keeps it', async () => {
+    await seedTarget();
+    const { token } = await createAuthedUser();
+    expect((await start(token, north(5000))).body.hunt.riverSide).toBeNull();
+    expect((await status(token, north(2500))).body.hunt.riverSide).toBe('oldTown');
+    expect((await status(token, north(6000))).body.hunt.riverSide).toBe('oldTown');
+  });
+
+  test('says closer or farther after each step outside 1 km, nothing inside it', async () => {
+    await seedTarget();
+    const { token } = await createAuthedUser();
+    expect((await start(token, north(5000))).body.hunt.trend).toBeNull();
+    // Less than a step away: no verdict yet.
+    expect((await status(token, north(4950))).body.hunt.trend).toBeNull();
+    expect((await status(token, north(4850))).body.hunt.trend).toBe('closer');
+    expect((await status(token, north(5100))).body.hunt.trend).toBe('farther');
+    // Sideways, the distance barely changes.
+    const side = { lat: north(5100).lat, lng: CHARLES_BRIDGE.lng + 200 / (111195 * Math.cos(CHARLES_BRIDGE.lat * Math.PI / 180)) };
+    expect((await status(token, side)).body.hunt.trend).toBe('same');
+    expect((await status(token, north(800))).body.hunt.trend).toBeNull();
+  });
+
   test('never hides the same card as the running normal hunt', async () => {
     await seedTarget();
     const { token } = await createAuthedUser();
@@ -595,12 +619,12 @@ describe('hardcore treasure hunt', () => {
 });
 
 describe('hardcore hunt pool', () => {
-  test('can hide on a bridge or island, unlike the classic hunt', async () => {
+  test('leaves bridges and islands out, like the classic hunt', async () => {
     await Location.create({ name: 'Charles Bridge', slug: 'charles-bridge', coordinates: CHARLES_BRIDGE, rarity: 'legend', xpReward: 100, labels: ['bridge'], quarter: 'Staré Město' });
     const { token } = await createAuthedUser();
     const classic = await request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${token}`).send({});
     expect(classic.body.noneLeft).toBe(true);
     const hard = await request(app).post('/api/user/hardcore-hunt').set('Authorization', `Bearer ${token}`).send({});
-    expect(hard.body.active).toBe(true);
+    expect(hard.body.noneLeft).toBe(true);
   });
 });

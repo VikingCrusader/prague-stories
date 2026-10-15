@@ -18,9 +18,8 @@ function formatBand({ min, max }, t) {
 // the server's `hunt` clue object (the location itself is never sent until it
 // is found), added a little each guess (see buildHuntClues on the server):
 // labels, which side of the Vltava it is on, rarity, district then quarter,
-// each miss's direction, and the distance to the treasure: nothing on guess 1
-// beyond "within" once the button unlocks, a band outside the radius on
-// guesses 2–4, "within" inside it, exact on guess 5 (plus, from the fourth
+// each miss's direction, and the distance to the treasure: a band outside
+// the radius on guesses 1–4, "within" inside it, exact on guess 5 (plus, from the fourth
 // guess on, the live direction to it).
 export default function TreasureHuntPanel({ hunt, onGuess, onSkip, guessing, flash }) {
   const t = useT();

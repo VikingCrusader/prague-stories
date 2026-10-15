@@ -62,6 +62,12 @@ const userSchema = new mongoose.Schema({
     // How close the player has been: 0, 1 (within 1 km) or 2 (within 500 m).
     // Only ever goes up, so revealed clues stay revealed.
     revealed:  { type: Number, default: 0 },
+    // Has been within 3 km: the river side is shown. Only ever goes up.
+    sideRevealed: { type: Boolean, default: false },
+    // Hot-and-cold hint outside 1 km: where the last reading was taken, and
+    // whether the one after it was 'closer', 'farther' or 'same'.
+    trendRef: { lat: Number, lng: Number, distance: Number },
+    trend: { type: String, default: null },
     misses: {
       type: [{ lat: Number, lng: Number, distance: Number, at: { type: Date, default: Date.now }, _id: false }],
       default: undefined,
