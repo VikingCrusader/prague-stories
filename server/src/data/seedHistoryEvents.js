@@ -23054,6 +23054,81 @@ export const historyEvents = [
     relatedLandmarks: [],
     wikipediaUrl: "https://cs.wikipedia.org/wiki/Bitva_u_Moh%C3%A1%C4%8De",
   },
+  // Era 10 'habsburgs-move-in', first event (user's text, 2026-10-16).
+  // Checked: 24 electors, eight from each estate (České sněmy I, no. 24,
+  // the articles of 8 Oct 1526); election date given as 22, 23 or 24 Oct
+  // depending on the source (cs.wikipedia: 23 Oct, unanimous), so the
+  // card keeps the user's "sworn on the 23rd, announced on the 24th";
+  // coronation 24 Feb 1527 by Bishop Stanislav Thurzo of Olomouc. Not
+  // independently verified: the Bavarian 300,000 gold pieces, the 50,000
+  // for Zdeněk Lev, and the envoys' "Volba nemá být dražbou" (user-supplied).
+  {
+    slug: "the-habsburgs-come-in-1526",
+    era: "habsburgs-move-in",
+    images: ["/history/the-habsburgs-come-in-1526.webp"],
+    imageCaptions: [
+      {
+        en: "Prague Castle, autumn 1526: Ferdinand's envoy loudly denounces the Bavarians for trying to buy the crown while handing a bag of gold to Zdeněk Lev; the Bavarian envoys each hold up a portrait of their own duke, and a gavel lies beside the crown.",
+        cz: "Pražský hrad, podzim 1526: Ferdinandův vyslanec hlasitě odsuzuje Bavory, že chtějí korunu koupit, a přitom podává Zdeňku Lvovi měšec zlata; bavorští vyslanci drží každý portrét svého vévody a vedle koruny leží dražební kladívko.",
+        zh: "1526年秋，布拉格城堡：斐迪南的使者一边当众怒斥巴伐利亚人拿钱买王冠，一边把一袋金币递给兹德涅克·列夫；巴伐利亚使者各自举着自家公爵的画像，台上的王冠旁边放着一把拍卖槌。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "An election should not be an auction.",
+          cz: "Volba nemá být dražbou.",
+          zh: "选举不该变成拍卖。",
+        },
+        attribution: {
+          en: "Ferdinand's envoys, protesting, 1526",
+          cz: "Protest Ferdinandových vyslanců, 1526",
+          zh: "斐迪南使者的抗议，1526年",
+        },
+      },
+    ],
+    startYear: 1526.6,
+    year: {
+      en: "1526",
+      cz: "1526",
+      zh: "1526年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Habsburgs Come In",
+      cz: "Habsburkové vstupují",
+      zh: "哈布斯堡进门了",
+    },
+    hookLine: {
+      en: "The throne stood empty, and a long queue formed of people who wanted to sit on it. This time, the Bohemians decided, they would choose the king themselves.",
+      cz: "Trůn osiřel a zájemci o něj se řadili do dlouhé fronty. Češi se rozhodli, že tentokrát si krále vyberou sami.",
+      zh: "王座空了，想坐上去的人排起了长队。波希米亚人决定，这一回，国王由他们来选。",
+    },
+    summary: {
+      en: "At Mohács the flower of the Hungarian army was all but wiped out. Suleiman pressed north on the strength of it and in September marched into Buda. The palace where Vladislaus had spent twenty-odd years [[link:too-happy-to-come-home-1496]]too happy to come home[[/link]] was looted bare.\n\nBut the sultan did not stay. Winter was coming, his army was a very long way from Constantinople and its supplies could not keep up. Once it had taken enough, it turned round and went home.\n\nWhat he left behind was a Hungary in pieces. Within a few months the Hungarian nobles had elected two kings, John Zápolya and Ferdinand, and the two of them were soon at war. And the Turks could come back at any time.\n\nSo why didn't the Turks march all the way to Prague?\n\nIn the end, because it was too far. Every spring the Ottoman army set out from Constantinople, and by the time it reached Hungary it was already summer; push on further north, and winter would send men and horses back home. And between Hungary and Bohemia stood Vienna.\n\n[[b]]Vienna became a door. Outside it stood the sultan; inside it lay Bohemia. And the key to that door was in Habsburg hands.[[/b]]\n\nThat was one of the reasons why the lords of Bohemia, in the end, had to take the Habsburgs seriously.\n\nBarely two months after the news of Mohács reached Prague, the candidates had all lined up: Ferdinand of Habsburg, the two dukes of Bavaria, the princes of Saxony and Brandenburg, and even the King of Poland put his name down.\n\nFerdinand had not wanted to stand for “election” at all. He held an old agreement from [[link:the-forged-archduke-1358]]1364[[/link]] and the marriage contract from [[link:the-groom-was-grandpa-1515]]Vienna eleven years earlier[[/link]], and as he saw it the crown should simply come to him. The lords of Bohemia would not have it: whoever wanted to be king would have to be chosen by them.\n\nThe Bavarians tried hardest. They promised to pay off the kingdom's debts and to keep an army at their own expense, and by one account the whole campaign cost the dukes three hundred thousand gold pieces. But to the very end, the two ducal brothers never managed to agree which of them would actually be king.\n\nFerdinand's envoys made a public show of their disgust:\n\n[[quote:0]]\n\nThen they went off and handed out money to the lords.\n\nThe man who mattered most was, once again, [[link:the-king-who-learned-to-say-no-1523]]Zdeněk Lev[[/link]]. He did not want to be king himself; he wanted to be the man who decided who would be. Ferdinand's envoys promised that he would keep every office he held, that the past would be forgotten, and that he would get back fifty thousand gold pieces he had “lent to the old king”. The Pernštejns received much the same.\n\nLev was won over. Rather than let the whole diet argue on and on, he proposed, let a committee decide.\n\nOn 23 October twenty-four electors took their oath in the St Wenceslas Chapel of St Vitus Cathedral, eight each from the lords, the knights and the towns. The next day the result was announced, to general surprise: Ferdinand, elected unanimously.\n\n[[b]]At the auction, the man who had shouted loudest that this was no auction turned out to be the highest bidder.[[/b]]\n\nThe estates also had Ferdinand sign a document acknowledging that the crown had been given to him by election, not inherited. Ferdinand signed. What he really thought of it would become clear later.\n\nIn February 1527 he was crowned in St Vitus Cathedral. The new king would spend most of his life in Vienna.",
+      cz: "U Moháče padl skoro celý výkvět uherského vojska. Sulejman využil vítězství, táhl na sever a v září vstoupil do Budína. Palác, kde Vladislav strávil přes dvacet let [[link:too-happy-to-come-home-1496]]tak spokojeně, že se mu nechtělo domů[[/link]], byl vydrancován do posledního kousku.\n\nSultán ale nezůstal. Blížila se zima, jeho vojsko bylo příliš daleko od Cařihradu a zásoby nestačily. Když nabralo kořisti dost, otočilo se a táhlo domů.\n\nZanechal po sobě rozvrácené Uhry. Za pár měsíců si uherská šlechta zvolila dva krále, Jana Zápolského a Ferdinanda, a ti dva se brzy pustili do války. A Turci se mohli kdykoli vrátit.\n\nProč tedy Turci nedošli až do Prahy?\n\nNakonec proto, že to bylo moc daleko. Osmanské vojsko vyráželo z Cařihradu každé jaro, a než došlo do Uher, bylo už léto; kdyby táhlo dál na sever, zima by muže i koně poslala zpátky domů. A mezi Uhrami a Čechami stála Vídeň.\n\n[[b]]Vídeň se stala dveřmi. Před nimi stál sultán, za nimi ležely Čechy. A klíč od těch dveří držel habsburský rod.[[/b]]\n\nI proto museli čeští páni nakonec brát Habsburky vážně.\n\nZpráva o Moháči byla v Praze sotva dva měsíce a kandidáti už stáli v řadě: Ferdinand Habsburský, oba bavorští vévodové, saská a braniborská knížata, a přihlásil se dokonce i polský král.\n\nFerdinand se původně „volby“ účastnit nechtěl. Měl v ruce starou smlouvu z [[link:the-forged-archduke-1358]]roku 1364[[/link]] a svatební smlouvu z [[link:the-groom-was-grandpa-1515]]Vídně před jedenácti lety[[/link]] a podle něj mu koruna prostě patřila. Čeští páni o tom ale nechtěli ani slyšet: kdo chce být králem, toho si musí zvolit.\n\nNejvíc se snažili Bavoři. Slíbili, že zaplatí dluhy království a na vlastní náklady vydrží vojsko, a vévody to prý celé vyšlo na tři sta tisíc zlatých. Jenže oba vévodští bratři se až do konce nedohodli, který z nich má vlastně být králem.\n\nFerdinandovi vyslanci dali veřejně najevo své pohrdání:\n\n[[quote:0]]\n\nA pak šli rozdávat pánům peníze.\n\nNejdůležitější byl zase jednou [[link:the-king-who-learned-to-say-no-1523]]Zdeněk Lev[[/link]]. Sám králem být nechtěl, chtěl být tím, kdo rozhodne, kdo jím bude. Ferdinandovi vyslanci mu slíbili, že si ponechá všechny úřady, že se na nic staré nebude vzpomínat a že dostane zpátky padesát tisíc zlatých, které prý „půjčil starému králi“. Pernštejnové dostali skoro totéž.\n\nLev se dal přesvědčit. Navrhl, ať se celý sněm nehádá do nekonečna a ať to rozhodne výbor.\n\n23. října složilo ve Svatováclavské kapli katedrály svatého Víta přísahu čtyřiadvacet volitelů, po osmi z pánů, rytířů a měst. Druhý den byl oznámen výsledek a všechny překvapil: Ferdinand, zvolen jednomyslně.\n\n[[b]]Na dražbě nakonec nejvíc přihodil ten, kdo nejhlasitěji křičel, že tohle žádná dražba není.[[/b]]\n\nStavové ještě nechali Ferdinanda podepsat listinu, že korunu dostal volbou, ne dědictvím. Ferdinand podepsal. Co si o tom doopravdy myslel, se teprve ukáže.\n\nV únoru 1527 byl korunován v katedrále svatého Víta. Nový král strávil většinu života ve Vídni.",
+      zh: "莫哈奇一战，匈牙利的精锐几乎全军覆没。苏莱曼乘胜北上，9月就开进了布达，那座弗拉迪斯拉夫住了二十多年、[[link:too-happy-to-come-home-1496]]“乐不思蜀”[[/link]]的王宫，被洗劫一空。\n\n可苏丹没有留下来。冬天快到了，他的大军离君士坦丁堡太远，补给跟不上，抢够了就掉头回了家。\n\n他留下的，是一个四分五裂的匈牙利。没过几个月，匈牙利的贵族就选出了两个国王，一个是扎波尧伊，一个是斐迪南，两人很快就打了起来。而土耳其人，随时都可能回来。\n\n那么，土耳其人为什么没有一路打到布拉格？\n\n说到底，是太远了。奥斯曼的大军每年春天从君士坦丁堡出发，走到匈牙利，就已经是夏天了；再往北打，冬天一来，人马都得往回撤。而在匈牙利和波希米亚之间，还隔着一座维也纳。\n\n[[b]]维也纳成了一道门。门外是苏丹，门里是波希米亚。而这道门的钥匙，握在哈布斯堡家的手里。[[/b]]\n\n这也是波希米亚的老爷们，最后不得不认真考虑哈布斯堡的原因之一。\n\n莫哈奇的消息传回布拉格才两个月，候选人就到齐了：哈布斯堡家的斐迪南，巴伐利亚的两位公爵，萨克森、勃兰登堡的诸侯，连波兰国王都报了名。\n\n斐迪南本来不想参加“选举”。他手里有一份[[link:the-forged-archduke-1358]]1364年的老约定[[/link]]，还有[[link:the-groom-was-grandpa-1515]]十一年前维也纳的那份婚约[[/link]]，在他看来，王冠本该直接归他。可波希米亚的老爷们偏不认这个账：要当国王，就得让我们选。\n\n最卖力的是巴伐利亚人。他们许诺替王国还清欠债，还出钱养一支军队，据说前前后后花掉了公爵三十万金币。可两位公爵兄弟到最后都没商量好，到底由谁出来当国王。\n\n斐迪南的使者当众表示不齿：\n\n[[quote:0]]\n\n说完，他们转身就去给贵族们送钱。\n\n最关键的那一位，又是[[link:the-king-who-learned-to-say-no-1523]]兹德涅克·列夫[[/link]]。他自己不想当国王，只想当那个决定谁当国王的人。斐迪南的使者许诺他保住所有官职，既往不咎，还能拿回一笔“当年借给老国王”的五万金币。佩尔恩施泰因家族也收到了差不多的好处。\n\n列夫被说动了。他提议：别让整个议会吵来吵去了，选一个委员会来定。\n\n10月23日，二十四位选举人在圣维特大教堂的圣瓦茨拉夫礼拜堂里宣誓：领主、骑士、城市，各出八人。第二天，结果公布，全场意外：斐迪南全票当选。\n\n[[b]]拍卖会上，喊“不准拍卖”喊得最响的人，最后出价最高。[[/b]]\n\n等级们还让斐迪南签字承认：这顶王冠是他们选出来的，不是他继承来的。斐迪南签了。至于他心里怎么想，以后会知道的。\n\n1527年2月，他在圣维特大教堂加冕。这位新国王，这辈子大部分时间都会住在维也纳。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "In its St Wenceslas Chapel the twenty-four electors swore their oath in October 1526; in February 1527 Ferdinand was crowned here.",
+          cz: "V její Svatováclavské kapli přísahalo v říjnu 1526 čtyřiadvacet volitelů; v únoru 1527 tu byl Ferdinand korunován.",
+          zh: "1526年10月，二十四位选举人在这里的圣瓦茨拉夫礼拜堂宣誓；1527年2月，斐迪南在这里加冕。",
+        },
+      },
+      {
+        slug: "vladislavsky-sal",
+        relation: {
+          en: "The great hall of the royal palace at Prague Castle, built for Vladislaus, the king who preferred Buda. In 1526 the estates gathered at the castle to choose who would take the throne his son had left empty.",
+          cz: "Velký sál královského paláce na Pražském hradě, postavený pro Vladislava, krále, kterému se víc líbilo v Budíně. Roku 1526 se na hradě sešli stavové, aby vybrali, kdo usedne na trůn, který po jeho synovi zůstal prázdný.",
+          zh: "布拉格城堡王宫里的大厅，是给那位更爱住在布达的弗拉迪斯拉夫盖的。1526年，等级们就在城堡里聚会，挑选谁来坐他儿子空出来的王位。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Ferdinand_I._Habsbursk%C3%BD",
+  },
 ];
 
 // Era-overview cards live in their own file (see historyOverviews.js).

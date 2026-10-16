@@ -560,7 +560,7 @@ export const HISTORY_ERAS = [
     key: 'habsburgs-move-in',
     order: 10,
     themeClass: 'era-habsburgs-move-in',
-    hasContent: false,
+    hasContent: true,
     title: {
       en: 'Under the Double-Headed Eagle',
       cz: 'Pod dvouhlavým orlem',
