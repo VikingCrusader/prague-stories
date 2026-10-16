@@ -1,4 +1,4 @@
-import { RARITY_XP, RARITY_COLOR, RARITY_LABEL } from '../utils/rarity.js';
+import { RARITY_XP, RARITY_COLOR, RARITY_LABEL, expeditionGem } from '../utils/rarity.js';
 
 const TIERS = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
 
@@ -20,8 +20,8 @@ describe('RARITY_XP', () => {
 });
 
 describe('RARITY_COLOR', () => {
-  test('has an entry for every tier', () => {
-    expect(Object.keys(RARITY_COLOR)).toEqual(TIERS);
+  test('has an entry for every tier, plus expedition', () => {
+    expect(Object.keys(RARITY_COLOR)).toEqual([...TIERS, 'expedition']);
   });
 
   test('every value is a valid six-digit hex colour', () => {
@@ -43,10 +43,11 @@ describe('RARITY_LABEL', () => {
     expect(Object.keys(RARITY_LABEL)).toEqual(expect.arrayContaining(['en', 'cz', 'zh']));
   });
 
-  test('each language covers all six tiers', () => {
+  test('each language covers all six tiers, plus expedition', () => {
     for (const labels of Object.values(RARITY_LABEL)) {
-      expect(Object.keys(labels)).toEqual(TIERS);
+      expect(Object.keys(labels)).toEqual([...TIERS, 'expedition']);
     }
+    expect(RARITY_LABEL.zh.expedition).toBe('远征');
   });
 
   test('no label value is an empty string', () => {
@@ -54,5 +55,15 @@ describe('RARITY_LABEL', () => {
       Object.entries(labels).filter(([, v]) => !v).map(([k]) => `${lang}.${k}`)
     );
     expect(empty).toEqual([]);
+  });
+});
+
+describe('expeditionGem', () => {
+  test('maps each XP step to its stone', () => {
+    expect([60, 120, 180, 240, 300].map(expeditionGem)).toEqual(['bronze', 'obsidian', 'emerald', 'ruby', 'diamond']);
+  });
+  test('falls back to bronze for a missing or odd value', () => {
+    expect(expeditionGem(undefined)).toBe('bronze');
+    expect(expeditionGem(200)).toBe('emerald');
   });
 });

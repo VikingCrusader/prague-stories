@@ -7,7 +7,8 @@
     "start": "node src/index.js",
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "export:locations": "node src/data/exportLocations.js",
-    "sync:covers": "node src/data/syncCovers.js"
+    "sync:covers": "node src/data/syncCovers.js",
+    "sync:expedition": "node src/data/syncExpedition.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",

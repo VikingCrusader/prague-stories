@@ -2,6 +2,7 @@ import 'dotenv/config';
 import { pathToFileURL } from 'url';
 import { connectDB } from '../config/db.js';
 import Location from '../models/Location.js';
+import { resolveRarity } from './rarityMap.js';
 
 export const locations = [
   {
@@ -31734,7 +31735,8 @@ async function run() {
     try {
       const result = await Location.findOneAndUpdate(
         { slug: data.slug },
-        { $setOnInsert: data },
+        // Outside cards are always expedition, priced by distance (rarityMap.js).
+        { $setOnInsert: { ...data, ...resolveRarity(data) } },
         { upsert: true, new: true }
       );
       const wasNew = result.createdAt.getTime() === result.updatedAt.getTime();

@@ -194,6 +194,17 @@ describe('POST /api/locations', () => {
     expect(res.body.rarity).toBe('common');
     expect(res.body.xpReward).toBe(10);
   });
+
+  test('makes an outside card expedition, priced by its distance, whatever rarity is sent', async () => {
+    const { token } = await createAuthedUser();
+    const res = await request(app)
+      .post('/api/locations')
+      .set('Authorization', `Bearer ${token}`)
+      .send({ name: 'Far Castle', labels: ['castle', 'outside'], coordinates: { lat: 49.0, lng: 14.4 }, rarity: 'legend' });
+
+    expect(res.body.rarity).toBe('expedition');
+    expect(res.body.xpReward).toBe(240); // ~121 km from Charles Bridge
+  });
 });
 
 describe('PUT /api/locations/:slug', () => {
@@ -232,6 +243,23 @@ describe('PUT /api/locations/:slug', () => {
     expect(res.body.xpReward).toBe(70);
     expect(res.body.localizedNames.cz).toBe('Karlův most');
     expect(res.body.coordinates.lat).toBe(50.1);
+  });
+
+  test('adding the outside label turns a card into expedition, removing it drops it to common', async () => {
+    await createLocation();
+    const { token } = await createAuthedUser();
+    const put = body => request(app).put('/api/locations/charles-bridge').set('Authorization', `Bearer ${token}`).send(body);
+
+    let res = await put({ labels: ['castle', 'outside'], coordinates: { lat: 50.3, lng: 14.4 } });
+    expect(res.body.rarity).toBe('expedition');
+    expect(res.body.xpReward).toBe(60); // ~24 km
+
+    res = await put({ rarity: 'mythic' });
+    expect(res.body.rarity).toBe('expedition'); // a city tier can't be picked for an outside card
+
+    res = await put({ labels: ['castle'] });
+    expect(res.body.rarity).toBe('common');
+    expect(res.body.xpReward).toBe(10);
   });
 
   test("refuses to change the story of a card the user hasn't collected", async () => {

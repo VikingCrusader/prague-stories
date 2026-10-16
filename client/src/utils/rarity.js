@@ -1,6 +1,6 @@
 export const RARITY_XP = { common: 10, rare: 20, superior: 30, epic: 50, mythic: 70, legend: 100 };
 
-export const KING_LOCK_RARITIES = ['epic', 'mythic', 'legend'];
+export const KING_LOCK_RARITIES = ['epic', 'mythic', 'legend', 'expedition'];
 export const isKingLockRarity = (rarity) => KING_LOCK_RARITIES.includes(rarity);
 export const lockClosedIcon = (rarity) => isKingLockRarity(rarity) ? '/pixel-art/lock-closed-king.webp' : '/pixel-art/lock-closed.webp';
 export const lockOpenIcon = (rarity) => isKingLockRarity(rarity) ? '/pixel-art/lock-open-king.webp' : '/pixel-art/lock-open.webp';
@@ -12,6 +12,7 @@ export const RARITY_COLOR = {
   epic:     '#BA55D3',
   mythic:   '#c40202',
   legend:   '#FFD700',
+  expedition: '#C9D1DB',
 };
 
 // CSS-variable form of RARITY_COLOR for inline styles, so the colours
@@ -32,10 +33,23 @@ export const RARITY_ICON = {
   epic:     '\u2605',
   mythic:   '\u2736',
   legend:   '\u265B\uFE0E',
+  expedition: '\u2756',
 };
 
 export const RARITY_LABEL = {
-  en: { common: 'Common', rare: 'Rare', superior: 'Superior', epic: 'Epic', mythic: 'Mythic',     legend: 'Legendary' },
-  cz: { common: 'Běžné',  rare: 'Vzácné', superior: 'Výjimečné', epic: 'Epické', mythic: 'Mýtické', legend: 'Legendární' },
-  zh: { common: '常见',   rare: '稀有',   superior: '卓越',       epic: '史诗',   mythic: '神话',     legend: '传说' },
+  en: { common: 'Common', rare: 'Rare', superior: 'Superior', epic: 'Epic', mythic: 'Mythic',     legend: 'Legendary',  expedition: 'Expedition' },
+  cz: { common: 'Běžné',  rare: 'Vzácné', superior: 'Výjimečné', epic: 'Epické', mythic: 'Mýtické', legend: 'Legendární', expedition: 'Výprava' },
+  zh: { common: '常见',   rare: '稀有',   superior: '卓越',       epic: '史诗',   mythic: '神话',     legend: '传说',       expedition: '远征' },
+};
+
+// Expedition (远征, 2026-10-16): the one rarity for cards outside Prague,
+// with a silver frame. Its XP is set by distance (server rarityMap.js), and
+// each of its five XP steps sets a different stone in the frame.
+export const CITY_RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
+export const ALL_RARITIES = [...CITY_RARITIES, 'expedition'];
+export const EXPEDITION_GEMS = { 60: 'bronze', 120: 'obsidian', 180: 'emerald', 240: 'ruby', 300: 'diamond' };
+export const expeditionGem = (xp) => {
+  const steps = Object.keys(EXPEDITION_GEMS).map(Number);
+  const step = steps.filter(s => s <= (xp ?? 0)).pop() ?? steps[0];
+  return EXPEDITION_GEMS[step];
 };

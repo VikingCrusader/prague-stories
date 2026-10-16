@@ -113,7 +113,8 @@
 .loc-card[data-rarity="superior"] .loc-card__frame,
 .loc-card[data-rarity="epic"] .loc-card__frame,
 .loc-card[data-rarity="mythic"] .loc-card__frame,
-.loc-card[data-rarity="legend"] .loc-card__frame {
+.loc-card[data-rarity="legend"] .loc-card__frame,
+.loc-card[data-rarity="expedition"] .loc-card__frame {
   display: block;
   border: 3px double color-mix(in srgb, var(--rc) 60%, transparent);
 }
@@ -162,7 +163,8 @@
 .loc-card[data-rarity="superior"] .loc-card__frame::before,
 .loc-card[data-rarity="epic"] .loc-card__frame::before,
 .loc-card[data-rarity="mythic"] .loc-card__frame::before,
-.loc-card[data-rarity="legend"] .loc-card__frame::before { display: none; }
+.loc-card[data-rarity="legend"] .loc-card__frame::before,
+.loc-card[data-rarity="expedition"] .loc-card__frame::before { display: none; }
 .loc-card:is([data-rarity="superior"], [data-rarity="epic"], [data-rarity="mythic"], [data-rarity="legend"])
   :is(.loc-card__orn--tl, .loc-card__orn--tr, .loc-card__orn--bl, .loc-card__orn--br),
 .loc-card[data-rarity="mythic"] :is(.loc-card__orn--top, .loc-card__orn--bottom),
@@ -273,6 +275,64 @@
 .loc-card__gem--right  { right: calc(-1.5px - var(--h)); top: calc(50% - var(--h)); }
 @media (max-width: 600px) {
   .loc-card__gem { width: 7px; height: 7px; --h: 3.5px; }
+}
+
+/* Expedition (远征, 2026-10-16): the one rarity for cards outside Prague.
+   Always a silver frame: a polished silver border and double line, silver
+   scroll corners, and a setting in the middle of each edge holding a stone
+   that shows the card's XP step (LocationCard's data-gem, from xpReward):
+   60 a bronze rivet, 120 obsidian, 180 emerald, 240 ruby, 300 a pale blue
+   diamond, the only one that sparkles. Like the city tiers, nothing here
+   shows on a locked card. */
+.loc-card[data-rarity="expedition"] {
+  --rc: var(--rarity-expedition-card, var(--rarity-expedition));
+  --tint-top: 6%; --tint-bottom: 13%; --glow: 18%;
+  --outer-glow: 0 0 10px color-mix(in srgb, var(--rarity-expedition-card, var(--rarity-expedition)) 35%, transparent);
+  --orn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' fill='none' stroke='black' stroke-width='2.6' stroke-linecap='round'%3E%3Cpath d='M6 26V12Q6 6 12 6H26'/%3E%3Cpath d='M12 6C19 6 22 10 20 14C18 17 13.5 16 13.5 12.5C13.5 10.5 15.5 10 16.5 11.5'/%3E%3Cpath d='M6 12C6 19 10 22 14 20C17 18 16 13.5 12.5 13.5C10.5 13.5 10 15.5 11.5 16.5'/%3E%3Cpath d='M26 6C32 6 35 2.5 32.5 1.5C30.5 1 29.5 3.5 31.5 4'/%3E%3Cpath d='M6 26C6 32 2.5 35 1.5 32.5C1 30.5 3.5 29.5 4 31.5'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='9' cy='9' r='1.6'/%3E%3Ccircle cx='38' cy='3.5' r='1.3'/%3E%3Ccircle cx='3.5' cy='38' r='1.3'/%3E%3C/g%3E%3C/svg%3E"); --orn-size: 58px;
+}
+.loc-card[data-rarity="expedition"] :is(.loc-card__orn--tl, .loc-card__orn--tr, .loc-card__orn--bl, .loc-card__orn--br),
+.loc-card[data-rarity="expedition"] :is(.loc-card__orn--top, .loc-card__orn--bottom, .loc-card__orn--left, .loc-card__orn--right) {
+  display: block;
+  /* Polished silver: light and dark bands rather than a flat grey. */
+  background: linear-gradient(135deg,
+    #ffffff 0%, #d4dae2 28%, #7d8794 52%, #d4dae2 74%, #ffffff 100%) 0 0 / 100% 100% no-repeat;
+}
+.loc-card[data-rarity="expedition"] :is(.loc-card__orn--top, .loc-card__orn--bottom, .loc-card__orn--left, .loc-card__orn--right) {
+  --orn: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 60 16' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M30 1.2L36.8 8L30 14.8L23.2 8Z' stroke-width='1.8'/%3E%3Cpath d='M22 8C17 8 14.5 4.5 17 3.2C19 2.4 20 4.6 18.4 5.2M22 8C17 8 14.5 11.5 17 12.8C19 13.6 20 11.4 18.4 10.8'/%3E%3Cpath d='M38 8C43 8 45.5 4.5 43 3.2C41 2.4 40 4.6 41.6 5.2M38 8C43 8 45.5 11.5 43 12.8C41 13.6 40 11.4 41.6 10.8'/%3E%3Cpath d='M3 8H13M47 8H57'/%3E%3Cg fill='black' stroke='none'%3E%3Ccircle cx='13' cy='8' r='1.6'/%3E%3Ccircle cx='47' cy='8' r='1.6'/%3E%3Ccircle cx='7' cy='8' r='1.1'/%3E%3Ccircle cx='53' cy='8' r='1.1'/%3E%3C/g%3E%3C/svg%3E");
+}
+/* A little larger than legend's gem: the stone is what tells the steps apart. */
+.loc-card[data-rarity="expedition"] .loc-card__gem { display: block; width: 11px; height: 11px; --h: 5.5px; box-shadow: 0 0 0 1px #e6ebf1; }
+.loc-card[data-gem="bronze"] .loc-card__gem {
+  border-radius: 50%;
+  transform: none;
+  background: radial-gradient(circle at 35% 35%, #ffd9a8 0 14%, #b8732f 45%, #4d2608 100%);
+}
+.loc-card[data-gem="obsidian"] .loc-card__gem {
+  background: radial-gradient(circle at 35% 35%, #9a93b0 0 10%, #2a2733 40%, #050507 100%);
+}
+.loc-card[data-gem="emerald"] .loc-card__gem {
+  background: radial-gradient(circle at 35% 35%, #c9ffd9 0 12%, #1fae57 42%, #054a20 100%);
+}
+.loc-card[data-gem="ruby"] .loc-card__gem {
+  background: radial-gradient(circle at 35% 35%, #ffd0d5 0 12%, #d81233 42%, #560010 100%);
+}
+.loc-card[data-gem="diamond"] .loc-card__gem {
+  background: radial-gradient(circle at 35% 35%, #ffffff 0 18%, #c4ecff 45%, #5fb9e6 100%);
+  animation: diamond-twinkle 4s ease-in-out infinite;
+}
+.loc-card[data-gem="diamond"] .loc-card__gem--right  { animation-delay: 1s; }
+.loc-card[data-gem="diamond"] .loc-card__gem--bottom { animation-delay: 2s; }
+.loc-card[data-gem="diamond"] .loc-card__gem--left   { animation-delay: 3s; }
+@keyframes diamond-twinkle {
+  0%, 70%, 100% { box-shadow: 0 0 0 1px #e6ebf1; filter: none; }
+  80%           { box-shadow: 0 0 0 1px #ffffff, 0 0 7px 2px #bfeaff; filter: brightness(1.25); }
+}
+@media (max-width: 600px) {
+  .loc-card[data-rarity="expedition"] { --orn-size: 44px; }
+  .loc-card[data-rarity="expedition"] .loc-card__gem { width: 9px; height: 9px; --h: 4.5px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .loc-card[data-gem="diamond"] .loc-card__gem { animation: none; }
 }
 
 

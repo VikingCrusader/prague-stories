@@ -49,6 +49,7 @@
   --rarity-epic: #BA55D3;
   --rarity-mythic: #c40202;
   --rarity-legend: #FFD700;
+  --rarity-expedition: #C9D1DB;
   /* Bright rarity colours for text that always sits on a dark surface
      (detail-view title over the cover); not redefined in the light theme. */
   --rarity-on-dark-common: #EBE8D9;
@@ -57,6 +58,7 @@
   --rarity-on-dark-epic: #d68ae8;
   --rarity-on-dark-mythic: #ff5a5a;
   --rarity-on-dark-legend: #FFD700;
+  --rarity-on-dark-expedition: #dfe5ec;
   color-scheme: dark;
 
   --cat-historical: #7a5210;
@@ -1006,6 +1008,9 @@ html[data-lang="zh"] .explore-title {
   /* Legend card surface (tint and glow): a bright gold rather than the
      dark text colour above (2026-10-09, user request). */
   --rarity-legend-card: #f0c020;
+  /* Expedition: dark slate text, a cool silver for the frame and tint. */
+  --rarity-expedition: #46505e;
+  --rarity-expedition-card: #9aa5b4;
 }
 /* Label pills sit on the dark LABEL_COLORS backgrounds, so they keep
    light text in both themes. */

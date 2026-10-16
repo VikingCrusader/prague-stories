@@ -13,10 +13,9 @@ import DistrictLine, { descriptiveLabels } from '../components/locations/Distric
 import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../utils/pixelArtMap';
 import LabelFilterGroups from '../components/locations/LabelFilterGroups';
 import { getLocalCoverPath } from '../utils/localCover';
-import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, lockClosedIcon } from '../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, CITY_RARITIES, ALL_RARITIES, lockClosedIcon } from '../utils/rarity';
 import { playUnlockSound } from '../utils/sound';
 
-const RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
 const formatDate = (d) => new Date(d).toISOString().slice(0, 10);
 
 export default function MapPage() {
@@ -98,6 +97,13 @@ export default function MapPage() {
       setActiveLabels(prev => { const next = new Set(prev); next.delete('outside'); return next; });
     }
   }, [cityOnly, activeLabels]);
+  // Expedition is the outside cards' rarity: only offered with "Show all".
+  useEffect(() => {
+    if (cityOnly && activeRarities.has('expedition')) {
+      setActiveRarities(prev => { const next = new Set(prev); next.delete('expedition'); return next; });
+    }
+  }, [cityOnly, activeRarities]);
+  const rarityOptions = cityOnly ? CITY_RARITIES : ALL_RARITIES;
 
   useEffect(() => {
     if (!selectedSlug) return;
@@ -202,7 +208,7 @@ export default function MapPage() {
               </button>
               {raritiesOpen && (
                 <div className="label-filter__panel label-filter__panel--inline">
-                  {RARITIES.map(r => (
+                  {rarityOptions.map(r => (
                     <button
                       key={r}
                       className={`label-pill${activeRarities.has(r) ? ' label-pill--active' : ''}`}

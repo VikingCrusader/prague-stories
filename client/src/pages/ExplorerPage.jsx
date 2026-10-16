@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { userAPI } from '../services/api';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
-import { RARITY_VAR, RARITY_LABEL, RARITY_ICON } from '../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, ALL_RARITIES } from '../utils/rarity';
 import AchievementBadge from '../components/dashboard/AchievementBadge';
 import LocationCard from '../components/locations/LocationCard';
 import LocationDetail from '../components/locations/LocationDetail';
@@ -82,7 +82,7 @@ export default function ExplorerPage() {
         <div className="stat-card" style={{ gridColumn: '1 / -1', padding: '12px 20px' }}>
           <div className="stat-card__label" style={{ marginBottom: 10 }}>{t('dashboard.rarityBreakdown')}</div>
           <div className="rarity-strip-row" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            {['common', 'rare', 'superior', 'epic', 'mythic', 'legend'].map(r => (
+            {ALL_RARITIES.map(r => (
               <div key={r} style={{ display: 'flex', alignItems: 'center', gap: 6, color: RARITY_VAR[r] }}>
                 <span style={{ fontSize: 16 }}>{RARITY_ICON[r]}</span>
                 <span style={{ fontSize: 16 }}>{convert(RARITY_LABEL[lang]?.[r] ?? RARITY_LABEL.en[r])}</span>

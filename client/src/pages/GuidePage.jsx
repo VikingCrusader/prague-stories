@@ -1,7 +1,7 @@
 import { useLang, useConvert } from '../context/LanguageContext';
 import { RARITY_VAR } from '../utils/rarity';
 
-const DIFF_RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
+const DIFF_RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend', 'expedition'];
 
 function deepConvert(obj, fn) {
   if (typeof obj === 'string') return fn(obj);
@@ -107,12 +107,14 @@ const CONTENT = {
     xpIntro: "Each location pays XP according to its rarity, a card-style tier that tells you how rare a find it really is:",
     diff: [
       "● Common: +10 XP. Not ordinary, just Prague-ordinary. Any other city would put these on a postcard.",
-      "▲ Rare: +20 XP. Worth seeking out. Smart tourists find them; first-timers mostly walk past.",
-      "◆ Superior: +30 XP. A step above rare. Not on the standard tourist radar, but rewarding for anyone willing to look just left of the obvious.",
-      "★ Epic: +50 XP. Hidden gems that locals know and tourists don't. Requires effort, curiosity and occasionally two tram transfers.",
+      "▲ Rare: +20 XP. The kind of place that makes you look twice as you walk past: either it has an unusual shape, or there's a gripping story behind it.",
+      "◆ Superior: +30 XP. One step above rare. Just as eye-catching, only harder to find.",
+      "★ Epic: +50 XP. Grand and lavish, usually one of the most striking buildings in its part of town, with a story good enough to earn the name.",
       "✶ Mythic: +70 XP. Hard to find, rarely visited, yet historically or culturally significant. You will not stumble upon these.",
-      "♛︎ Legendary: +100 XP. The most magnificent landmarks of Prague and Bohemia. If you haven't been here, you haven't really been here.",
+      "♛︎ Legendary: +100 XP. The most magnificent landmarks of Prague. If you haven't been here, you haven't really been to Prague.",
+      "❖ Expedition: +60 to +300 XP. Castles, old towns and countryside beyond the city limits, all in a silver frame. The further from Charles Bridge, the more it pays, and the stone set in the frame tells you what the trip is worth: bronze, obsidian, emerald, ruby and, at the very top, diamond. A few especially famous places skip ahead. These cards only appear with Show all.",
     ],
+    diffBeyond: "Seen enough of the city? Look further out, to the rest of Bohemia around it: longer drives, finer views, more XP.",
     xpOutro: "There are 60 levels, from Newcomer at 0 XP to Prague Legend at 40,000 XP. The early ones come quickly. The later ones are a long-term project, on purpose, because the map keeps growing.",
     tripleTitle: "Bonus XP: the Treasure Hunt",
     triple: "A Treasure Hunt pays up to ten times as much, if you find it on the first guess, and a little less with every guess after that. Each wrong guess buys you another clue, so you can trade glory for hints. Run out of time and the answer is revealed. You lose nothing but your pride.",
@@ -231,12 +233,14 @@ const CONTENT = {
     xpIntro: "Každé místo vyplácí XP podle své vzácnosti, karetní úrovně, která říká, jak vzácný nález to doopravdy je:",
     diff: [
       "● Běžné: +10 XP. Ne obyčejné, jen obyčejné na pražské poměry. Kdekoli jinde by z nich dělali pohlednice.",
-      "▲ Vzácné: +20 XP. Stojí za to je hledat. Chytří turisté je najdou, nováčci většinou projdou kolem.",
-      "◆ Výjimečné: +30 XP. O stupeň výš než vzácné. Mimo běžný turistický radar, ale odmění každého, kdo se podívá kousek vedle toho, co je na očích.",
-      "★ Epické: +50 XP. Skryté klenoty, které znají místní, a turisté ne. Chce to úsilí, zvědavost a občas dva přestupy v tramvaji.",
+      "▲ Vzácné: +20 XP. Místa, kvůli kterým se na ulici otočíš: buď mají neobvyklý tvar, nebo za nimi stojí strhující příběh.",
+      "◆ Výjimečné: +30 XP. O stupeň výš než vzácné. Upoutají stejně, jen se hůř hledají.",
+      "★ Epické: +50 XP. Velkolepé a honosné, obvykle jedna z nejnápadnějších staveb celé čtvrti, s příběhem, který si to jméno zaslouží.",
       "✶ Mýtické: +70 XP. Těžko k nalezení, málo navštěvované, a přesto historicky či kulturně zásadní. Na tahle místa náhodou nenarazíš.",
-      "♛︎ Legendární: +100 XP. Nejvelkolepější památky Prahy a Čech. Kdo tu nebyl, jako by tu nebyl.",
+      "♛︎ Legendární: +100 XP. Nejvelkolepější památky Prahy. Kdo tu nebyl, jako by v Praze nebyl.",
+      "❖ Výprava: +60 až +300 XP. Hrady, stará města a krajina za hranicemi Prahy, všechno ve stříbrném rámu. Čím dál od Karlova mostu, tím víc platí, a kámen zasazený v rámu prozradí, kolik ta cesta stojí: bronz, obsidián, smaragd, rubín a úplně nahoře diamant. Pár zvlášť slavných míst předběhne svou vzdálenost. Tyhle karty se ukážou jen s volbou Vše.",
     ],
+    diffBeyond: "Máš-li města dost, podívej se dál, na celé Čechy kolem: delší cesta, krásnější krajina, víc XP.",
     xpOutro: "Úrovní je 60, od Nováčka s 0 XP po Pražskou legendu se 40 000 XP. Ty první přijdou rychle. Ty pozdější jsou dlouhodobý projekt, a to záměrně, protože mapa pořád roste.",
     tripleTitle: "Bonusové XP: Hledání pokladu",
     triple: "Hledání pokladu vyplatí až desetinásobek, pokud poklad najdeš hned napoprvé, a s každým dalším pokusem o něco méně. Každý vedle trefený pokus ti ale koupí další nápovědu, takže slávu můžeš vyměnit za rady. Když čas vyprší, odpověď se odhalí. Nepřijdeš o nic kromě hrdosti.",
@@ -354,13 +358,15 @@ const CONTENT = {
     xpTitle: "经验值与等级",
     xpIntro: "每个地点按稀有度给经验值。稀有度类似卡牌游戏的等级，告诉你这个发现到底有多难得：",
     diff: [
-      "● 常见：+10 XP。并非真的普通，只是布拉格标准下的普通。换个城市，每一处都能上明信片。",
-      "▲ 稀有：+20 XP。值得专程前往。有经验的游客能找到，第一次来的人大多擦肩而过。",
-      "◆ 卓越：+30 XP。比稀有更高一级。不在常规旅游路线上，但只要你愿意往显眼处旁边多看一眼，就会有收获。",
-      "★ 史诗：+50 XP。当地人知道、游客不知道的隐藏宝藏。需要努力、好奇心，有时还要换乘两次电车。",
-      "✶ 神话：+70 XP。极难寻觅，鲜有人至，却有重要的历史或文化意义。你不会碰巧路过这些地方。",
-      "♛︎ 传说：+100 XP。布拉格和波西米亚最宏伟的地标。没来过这里，就等于没来过这里。",
+      "● 常见：+10 XP。并不真的普通，只是按布拉格的标准算普通。放到别的城市，每一处都够格上明信片。",
+      "▲ 稀有：+20 XP。走在街上会让你忍不住多看一眼的地方：要么造型别致，要么背后藏着一段引人入胜的故事。",
+      "◆ 卓越：+30 XP。比稀有再高一级。一样吸引眼球，只是没那么好找。",
+      "★ 史诗：+50 XP。宏伟华丽，往往是一片城区里最醒目的建筑之一，背后的故事也足够精彩，担得起“史诗”二字。",
+      "✶ 神话：+70 XP。极难寻觅，鲜有人至，却承载着重要的历史或文化意义。这些地方，你不会碰巧路过。",
+      "♛︎ 传说：+100 XP。布拉格最宏伟的地标。没来过这里，就不算真正来过布拉格。",
+      "❖ 远征：+60 到 +300 XP。布拉格市界以外的城堡、古镇和山野，一律镶银框。离查理大桥越远，经验值越高，框上镶的石头会告诉你这一趟值多少：青铜、黑曜石、翡翠、红宝石，最顶上是钻石。少数名气特别大的地方还会越级。这些卡只在「显示全部」时出现。",
     ],
+    diffBeyond: "如果城里已经逛够了，不妨把目光投向布拉格周围的整个波希米亚：车程更远，风景更美，经验值也更多。",
     xpOutro: "一共60级，从0经验值的「新来者」到40,000经验值的「布拉格传奇」。前面几级升得很快，后面几级是长期工程，这是故意的，因为地图一直在变大。",
     tripleTitle: "额外经验：寻宝",
     triple: "寻宝最高十倍，前提是第一次就猜中，之后每多猜一次，奖励就少一点。不过每次猜错都能换来新线索，所以你可以拿荣耀换提示。时间到了还没找到，答案会揭晓。你损失的只有面子。",
@@ -397,11 +403,11 @@ export default function GuidePage() {
   const convert = useConvert();
   const c = deepConvert(CONTENT[lang] || CONTENT.en, convert);
 
-  const steps = (items, colorOf) => items.map((item, i) => (
-    <div key={i} className="guide-step">
-      <span className="guide-step-num">{i + 1}</span>
+  const steps = (items, colorOf, offset = 0) => items.map((item, i) => (
+    <div key={i + offset} className="guide-step">
+      <span className="guide-step-num">{i + offset + 1}</span>
       {typeof item === 'string'
-        ? <p className="guide-body" style={colorOf ? { color: colorOf(i) } : undefined}>{item}</p>
+        ? <p className="guide-body" style={colorOf ? { color: colorOf(i + offset) } : undefined}>{item}</p>
         : <p className="guide-body"><strong>{item.b}</strong>{item.rest}</p>}
     </div>
   ));
@@ -522,7 +528,10 @@ export default function GuidePage() {
         <section className="guide-section">
           <h2 className="guide-h2">{c.xpTitle}</h2>
           <p className="guide-body">{c.xpIntro}</p>
-          {steps(c.diff, rarityColor)}
+          {/* The six city tiers, then a line leading out of town to Expedition. */}
+          {steps(c.diff.slice(0, 6), rarityColor)}
+          <p className="guide-body" style={{ margin: '12px 0' }}>{c.diffBeyond}</p>
+          {steps(c.diff.slice(6), rarityColor, 6)}
           <p className="guide-body" style={{ marginTop: 10 }}>{c.xpOutro}</p>
 
           <h3 className="guide-h3" style={h3Gap}>{c.tripleTitle}</h3>

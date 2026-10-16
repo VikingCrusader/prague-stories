@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { locationAPI } from '../../services/api';
 import { LABEL_DEFINITIONS } from '../../utils/pixelArtMap';
 import { useLang } from '../../context/LanguageContext';
-import { RARITY_XP, RARITY_VAR, RARITY_LABEL } from '../../utils/rarity';
+import { RARITY_XP, RARITY_VAR, RARITY_LABEL, CITY_RARITIES } from '../../utils/rarity';
 
 export default function EditLocationForm({ location, onClose, onUpdated }) {
   const { lang } = useLang();
@@ -191,14 +191,21 @@ export default function EditLocationForm({ location, onClose, onUpdated }) {
 
             <div className="form-group">
               <label className="form-label">Rarity</label>
-              <select className="px-input" name="rarity" value={form.rarity} onChange={handle}
-                style={{ color: RARITY_VAR[form.rarity] }}>
-                {['common', 'rare', 'superior', 'epic', 'mythic', 'legend'].map(r => (
-                  <option key={r} value={r} style={{ color: RARITY_VAR[r] }}>
-                    {RARITY_LABEL.en[r]} — +{RARITY_XP[r]} XP
-                  </option>
-                ))}
-              </select>
+              {selectedLabels.includes('outside') ? (
+                // Outside cards are always Expedition, priced by distance on the server.
+                <span style={{ fontSize: 13, color: RARITY_VAR.expedition }}>
+                  {RARITY_LABEL.en.expedition}{location.rarity === 'expedition' ? ` — +${location.xpReward} XP` : ''} (set by distance from Charles Bridge)
+                </span>
+              ) : (
+                <select className="px-input" name="rarity" value={CITY_RARITIES.includes(form.rarity) ? form.rarity : 'common'} onChange={handle}
+                  style={{ color: RARITY_VAR[form.rarity] }}>
+                  {CITY_RARITIES.map(r => (
+                    <option key={r} value={r} style={{ color: RARITY_VAR[r] }}>
+                      {RARITY_LABEL.en[r]} — +{RARITY_XP[r]} XP
+                    </option>
+                  ))}
+                </select>
+              )}
             </div>
 
             <div className="form-group">

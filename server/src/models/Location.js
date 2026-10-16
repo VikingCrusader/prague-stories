@@ -1,4 +1,5 @@
 import mongoose from 'mongoose';
+import { resolveRarity } from '../data/rarityMap.js';
 
 const descriptionSchema = new mongoose.Schema({
   en: { type: String, default: '' },
@@ -31,8 +32,14 @@ const locationSchema = new mongoose.Schema({
   pixelArtKey:  { type: String, default: '' },
   addedBy:      { type: mongoose.Schema.Types.ObjectId, ref: 'User', default: null },
   xpReward:     { type: Number, default: 10 },
-  rarity:       { type: String, enum: ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'], default: 'common' },
+  rarity:       { type: String, enum: ['common', 'rare', 'superior', 'epic', 'mythic', 'legend', 'expedition'], default: 'common' },
 }, { timestamps: true });
+
+// Keeps rarity and xpReward in step with the labels and coordinates on every
+// save: `outside` cards are always expedition, priced by distance (rarityMap.js).
+locationSchema.pre('validate', function () {
+  Object.assign(this, resolveRarity(this));
+});
 
 locationSchema.index({ labels: 1 });
 locationSchema.index({ addedBy: 1 });

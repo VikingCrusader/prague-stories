@@ -3,7 +3,7 @@
 // IDE autocomplete/hover when working on model-shaped data (e.g. seedLocations.js).
 import type { Types } from 'mongoose';
 
-export type Rarity = 'common' | 'rare' | 'superior' | 'epic' | 'mythic' | 'legend';
+export type Rarity = 'common' | 'rare' | 'superior' | 'epic' | 'mythic' | 'legend' | 'expedition';
 
 export interface Coordinates {
   lat: number;

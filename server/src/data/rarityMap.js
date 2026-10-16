@@ -784,3 +784,77 @@ export const SLUG_RARITY = {
 export function getRarity(slug) {
   return SLUG_RARITY[slug] ?? 'common';
 }
+
+// ── EXPEDITION (远征, 2026-10-16) ───────────────────────────────────────────
+// The one rarity for every card outside Prague (label `outside`), kept apart
+// from the six city tiers. Its XP comes from the straight-line distance to
+// Charles Bridge, in five steps, unless EXPEDITION_XP_OVERRIDES names the
+// card: grand or famous places step up (Karlštejn is 23 km out but pays 240),
+// and small sights that come in a bundle with a bigger card step down. Never
+// below 60. The client draws the gem on the silver frame from the XP (60
+// bronze, 120 obsidian, 180 emerald, 240 ruby, 300 diamond).
+export const CHARLES_BRIDGE = { lat: 50.0865, lng: 14.4114 };
+
+export const EXPEDITION_XP_STEPS = [
+  { maxKm: 25,       xp: 60 },
+  { maxKm: 50,       xp: 120 },
+  { maxKm: 100,      xp: 180 },
+  { maxKm: 150,      xp: 240 },
+  { maxKm: Infinity, xp: 300 },
+];
+
+export const EXPEDITION_XP_OVERRIDES = {
+  // Up: famous or monumental for their distance
+  'karlstejn-castle':                       240, // 23 km
+  'pruhonice-park':                         120, // 14 km, UNESCO
+  'stara-boleslav':                         120, // 22 km, where Wenceslas was killed, national pilgrimage
+  'lidice':                                 120, // 17 km, national memorial (its smaller memorial cards stay 60)
+  'krivoklat-castle':                       180, // 39 km, royal castle
+  'zamek-konopiste':                        180, // 38 km, Franz Ferdinand's chateau
+  'hrad-cesky-sternberk':                   180, // 48 km
+  'kostel-svate-barbory':                   240, // 63 km, UNESCO
+  'cesky-krumlov-castle':                   300, // 142 km, UNESCO
+  'zamek-hluboka-nad-vltavou':              300, // 115 km
+  // Down: small sights bundled with a bigger card nearby
+  'rybnik-vezak':                           60,  // Trosky / Kingdom Come batch
+  'rybnik-vidlak':                          60,
+  'troskovice':                             60,
+  'tachov-troskovice':                      60,
+  'zelejov':                                60,
+  'nebakov':                                60,
+  'podseminsky-mlyn':                       60,
+  'hradiste-semin':                         60,
+  'koupaliste-dachova':                     60,  // smallest of the three Hořice cards
+  'sousosi-sv-vojtecha-a-radima-libice':    60,  // next to hradiste-libice
+  'kriz-svate-ludmily-tetin':               60,  // smallest of the Tetín cards
+  'kostel-sv-jana-nepomuckeho-tetin':       60,
+  'socha-premysla-otakara-ii':              120, // a statue beside the ceske-budejovice card
+  'pernstynske-namesti-pardubice':          120, // beside zamek-pardubice
+  'vlassky-dvur':                           120, // Kutná Hora: six cards in one day
+  'letohradek-belveder-kutna-hora':         120,
+};
+
+export function distanceKm(a, b = CHARLES_BRIDGE) {
+  const rad = d => (d * Math.PI) / 180;
+  const dLat = rad(b.lat - a.lat);
+  const dLng = rad(b.lng - a.lng);
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(rad(a.lat)) * Math.cos(rad(b.lat)) * Math.sin(dLng / 2) ** 2;
+  return 2 * 6371 * Math.asin(Math.sqrt(h));
+}
+
+export function expeditionXP(slug, coordinates) {
+  if (EXPEDITION_XP_OVERRIDES[slug]) return EXPEDITION_XP_OVERRIDES[slug];
+  if (coordinates?.lat == null || coordinates?.lng == null) return EXPEDITION_XP_STEPS[0].xp;
+  const km = distanceKm(coordinates);
+  return EXPEDITION_XP_STEPS.find(s => km < s.maxKm).xp;
+}
+
+// Rarity and XP a card must carry: expedition for `outside` cards, otherwise
+// the chosen city tier (a card that lost its `outside` label drops to common).
+export function resolveRarity({ slug, labels, coordinates, rarity }) {
+  if ((labels || []).includes('outside')) {
+    return { rarity: 'expedition', xpReward: expeditionXP(slug, coordinates) };
+  }
+  const r = RARITY_XP[rarity] ? rarity : 'common';
+  return { rarity: r, xpReward: RARITY_XP[r] };
+}

@@ -3,7 +3,7 @@ import { getArt, LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap
 import { getLocalCoverPath, toThumbPath, toCloudThumbUrl } from '../../utils/localCover';
 import { useLang, useConvert, useT } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
-import { RARITY_VAR, RARITY_LABEL, lockClosedIcon, lockOpenIcon } from '../../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL, lockClosedIcon, lockOpenIcon, expeditionGem } from '../../utils/rarity';
 import RarityFrame from './RarityFrame';
 import CardShowcase from './CardShowcase';
 import { playUnlockSound } from '../../utils/sound';
@@ -133,7 +133,8 @@ function LocationCard({ location, onClick, distance, nearby = false, showcase = 
       onContextMenu={gestures ? e => e.preventDefault() : undefined}
       title={showName ? name : '???'}
       data-rarity={rarity}
-      style={{ border: `3px solid ${RARITY_VAR[rarity]}` }}
+      data-gem={rarity === 'expedition' ? expeditionGem(xpReward) : undefined}
+      style={{ border: `3px solid ${rarity === 'expedition' ? 'var(--rarity-expedition-card, var(--rarity-expedition))' : RARITY_VAR[rarity]}` }}
       onAnimationEnd={e => { if (e.animationName === 'card-flip') setFlipping(false); }}
     >
       <RarityFrame />

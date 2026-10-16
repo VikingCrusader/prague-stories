@@ -2,11 +2,11 @@ import { useState, useMemo, useEffect, useRef, useDeferredValue } from 'react';
 import LocationCard from './LocationCard';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import LabelFilterGroups from './LabelFilterGroups';
-import { RARITY_VAR, RARITY_LABEL, RARITY_ICON } from '../../utils/rarity';
+import { RARITY_VAR, RARITY_LABEL, RARITY_ICON, CITY_RARITIES, ALL_RARITIES } from '../../utils/rarity';
 import { NEARBY_REVEAL_M } from '../../utils/geolocation';
 
-const RARITIES = ['common', 'rare', 'superior', 'epic', 'mythic', 'legend'];
-const RARITY_ORDER = { legend: 0, mythic: 1, epic: 2, superior: 3, rare: 4, common: 5 };
+// Expedition sorts first (it pays 60-300 XP), highest XP first among them.
+const RARITY_ORDER = { expedition: -1, legend: 0, mythic: 1, epic: 2, superior: 3, rare: 4, common: 5 };
 const SORT_MODES = ['distance', 'newest', 'rarity'];
 const SORT_MODES_COLLECTED = ['distance', 'newest', 'rarity', 'checkin'];
 const SORT_KEY = { distance: 'grid.sortDistance', newest: 'grid.sortNewest', rarity: 'grid.sortRarity', checkin: 'grid.sortCheckin' };
@@ -108,7 +108,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
     list = [...list].sort((a, b) => {
       if (sort === 'distance') return (a._distance ?? Infinity) - (b._distance ?? Infinity);
       if (sort === 'newest')   return new Date(b.createdAt) - new Date(a.createdAt);
-      if (sort === 'rarity')   return (RARITY_ORDER[a.rarity] ?? 4) - (RARITY_ORDER[b.rarity] ?? 4);
+      if (sort === 'rarity')   return (RARITY_ORDER[a.rarity] ?? 4) - (RARITY_ORDER[b.rarity] ?? 4) || (b.xpReward ?? 0) - (a.xpReward ?? 0);
       if (sort === 'checkin')  return new Date(b._checkedInAt ?? 0) - new Date(a._checkedInAt ?? 0);
       return 0;
     });
@@ -126,6 +126,14 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
       setActiveLabels(prev => { const next = new Set(prev); next.delete('outside'); return next; });
     }
   }, [hideOutsideLabel, activeLabels]);
+  // Same for the expedition rarity, which only outside cards carry; its
+  // filter option only shows with "Show all".
+  useEffect(() => {
+    if (hideOutsideLabel && activeRarities.has('expedition')) {
+      setActiveRarities(prev => { const next = new Set(prev); next.delete('expedition'); return next; });
+    }
+  }, [hideOutsideLabel, activeRarities]);
+  const rarityOptions = hideOutsideLabel ? CITY_RARITIES : ALL_RARITIES;
 
   const hasMore = visibleCount < filtered.length;
 
@@ -201,7 +209,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
             </button>
             {raritiesOpen && (
               <div className="label-filter__panel">
-                {RARITIES.map(r => (
+                {rarityOptions.map(r => (
                   <button
                     key={r}
                     className={`label-pill${activeRarities.has(r) ? ' label-pill--active' : ''}`}

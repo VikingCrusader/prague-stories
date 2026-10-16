@@ -1,4 +1,4 @@
-import { getRarity, RARITY_XP } from '../src/data/rarityMap.js';
+import { getRarity, RARITY_XP, expeditionXP, resolveRarity, EXPEDITION_XP_OVERRIDES } from '../src/data/rarityMap.js';
 
 describe('RARITY_XP', () => {
   test('has all six tiers', () => {
@@ -58,5 +58,36 @@ describe('getRarity', () => {
     for (const slug of ['prague-castle', 'pinkas-synagogue', 'husuv-sbor-vinohrady', 'unknown']) {
       expect(validTiers.has(getRarity(slug))).toBe(true);
     }
+  });
+});
+
+describe('expedition (outside Prague)', () => {
+  const at = km => ({ lat: 50.0865 + km / 111.2, lng: 14.4114 }); // due north of Charles Bridge
+
+  test('steps by distance from Charles Bridge: 60 / 120 / 180 / 240 / 300', () => {
+    expect(expeditionXP('x', at(10))).toBe(60);
+    expect(expeditionXP('x', at(30))).toBe(120);
+    expect(expeditionXP('x', at(75))).toBe(180);
+    expect(expeditionXP('x', at(120))).toBe(240);
+    expect(expeditionXP('x', at(200))).toBe(300);
+  });
+
+  test('overrides win over distance (Karlštejn is 23 km out but pays 240)', () => {
+    expect(expeditionXP('karlstejn-castle', at(23))).toBe(240);
+    expect(expeditionXP('troskovice', at(75))).toBe(60);
+  });
+
+  test('every override is one of the five steps', () => {
+    const steps = new Set([60, 120, 180, 240, 300]);
+    expect(Object.values(EXPEDITION_XP_OVERRIDES).filter(v => !steps.has(v))).toEqual([]);
+  });
+
+  test('resolveRarity: outside cards are expedition, city cards keep their tier', () => {
+    expect(resolveRarity({ slug: 'x', labels: ['castle', 'outside'], coordinates: at(30), rarity: 'legend' }))
+      .toEqual({ rarity: 'expedition', xpReward: 120 });
+    expect(resolveRarity({ slug: 'x', labels: ['castle'], coordinates: at(1), rarity: 'epic' }))
+      .toEqual({ rarity: 'epic', xpReward: 50 });
+    expect(resolveRarity({ slug: 'x', labels: ['castle'], coordinates: at(1), rarity: 'expedition' }))
+      .toEqual({ rarity: 'common', xpReward: 10 });
   });
 });

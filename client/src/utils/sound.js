@@ -4,7 +4,7 @@ function ctx() {
   return _ctx;
 }
 
-const EPIC_TIERS = new Set(['epic', 'mythic', 'legend']);
+const EPIC_TIERS = new Set(['epic', 'mythic', 'legend', 'expedition']);
 
 function playSimpleArpeggio(ac) {
   // C5 E5 G5 C6 — major arpeggio
