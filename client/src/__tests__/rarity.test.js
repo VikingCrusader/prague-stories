@@ -60,10 +60,10 @@ describe('RARITY_LABEL', () => {
 
 describe('expeditionGem', () => {
   test('maps each XP step to its stone', () => {
-    expect([60, 120, 180, 240, 300].map(expeditionGem)).toEqual(['bronze', 'obsidian', 'emerald', 'ruby', 'diamond']);
+    expect([60, 120, 180, 240, 300].map(expeditionGem)).toEqual(['bronze', 'ruby', 'diamond', 'diamond', 'diamond']);
   });
   test('falls back to bronze for a missing or odd value', () => {
     expect(expeditionGem(undefined)).toBe('bronze');
-    expect(expeditionGem(200)).toBe('emerald');
+    expect(expeditionGem(150)).toBe('ruby');
   });
 });

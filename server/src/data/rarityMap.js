@@ -792,7 +792,7 @@ export function getRarity(slug) {
 // card: grand or famous places step up (Karlštejn is 23 km out but pays 240),
 // and small sights that come in a bundle with a bigger card step down. Never
 // below 60. The client draws the gem on the silver frame from the XP (60
-// bronze, 120 obsidian, 180 emerald, 240 ruby, 300 diamond).
+// bronze, 120 ruby, 180 and up diamond).
 export const CHARLES_BRIDGE = { lat: 50.0865, lng: 14.4114 };
 
 export const EXPEDITION_XP_STEPS = [
