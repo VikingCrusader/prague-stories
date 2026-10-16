@@ -34,6 +34,9 @@ test('Expedition is only offered as a rarity filter with Show all', async ({ pag
   await page.getByRole('button', { name: /^Rarity/ }).click();
   await panel.getByRole('button', { name: /Expedition/ }).click();
   await expect(page.locator('.loc-card')).toHaveCount(6);
+  // Its description replaces the day-trip intro line instead of joining it.
+  await expect(page.locator('.explore-rarity-blurb')).toContainText('beyond the city limits');
+  await expect(page.locator('.explore-area-blurb')).toHaveCount(0);
 
   // Back to City only: the expedition filter is dropped, not left emptying the grid.
   await page.getByRole('button', { name: /^Rarity/ }).click();

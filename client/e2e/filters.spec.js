@@ -72,6 +72,34 @@ test.describe('Explore grid — search & filters', () => {
     expect(names).toContain('Charles Bridge');
   });
 
+  test('one rarity at a time, with its description under the title', async ({ page }) => {
+    await page.getByRole('button', { name: /^Rarity/ }).click();
+    const panel = page.locator('.label-filter__panel');
+    await panel.getByRole('button', { name: /Legend/ }).click();
+    await expect(page.locator('.explore-rarity-blurb')).toContainText('The most magnificent landmarks of Prague.');
+    await expect(page.locator('.explore-area-blurb')).toHaveCount(0); // the intro line gives way
+
+    // Picking another rarity replaces the first instead of adding to it.
+    await panel.getByRole('button', { name: /Rare/ }).click();
+    await expect(page.locator('.loc-card')).toHaveCount(1);
+    await expect(page.locator('.loc-card__name')).toHaveText('Petřín Tower');
+    await expect(page.locator('.explore-rarity-blurb')).toContainText('makes you look twice');
+
+    // Picking it again clears the filter and the description.
+    await panel.getByRole('button', { name: /Rare/ }).click();
+    await expect(page.locator('.loc-card')).toHaveCount(4);
+    await expect(page.locator('.explore-rarity-blurb')).toHaveCount(0);
+  });
+
+  test('the rarity description wins over the My Collections hint', async ({ page }) => {
+    await page.getByRole('button', { name: 'My Collections' }).click();
+    await expect(page.locator('.explore-showcase-hint')).toBeVisible();
+    await page.getByRole('button', { name: /^Rarity/ }).click();
+    await page.locator('.label-filter__panel').getByRole('button', { name: /Legend/ }).click();
+    await expect(page.locator('.explore-rarity-blurb')).toBeVisible();
+    await expect(page.locator('.explore-showcase-hint')).toHaveCount(0);
+  });
+
   test('sorting by Top Rarity reorders the grid, legend first', async ({ page }) => {
     await page.getByRole('button', { name: 'Distance ▼' }).click();
     await page.locator('.label-filter__panel').getByRole('button', { name: 'Top Rarity' }).click();

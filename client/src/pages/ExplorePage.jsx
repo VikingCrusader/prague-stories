@@ -4,6 +4,7 @@ import { locationAPI } from '../services/api';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
 import { quarterName } from '../utils/pragueQuarters';
 import { AREA_BLURBS } from '../utils/areaBlurbs';
+import { RARITY_BLURB } from '../utils/rarityBlurbs';
 import { areaIn, loadPragueAreas } from '../utils/pragueAreas';
 import { useAuth } from '../context/AuthContext';
 import { useUserPosition } from '../hooks/useUserPosition';
@@ -31,6 +32,9 @@ export default function ExplorePage() {
   // "My Collections" is on (reported by LocationGrid): the header then adds a
   // line about holding a card to admire it (CardShowcase).
   const [inCollection, setInCollection] = useState(false);
+  // The rarity picked in LocationGrid's filter (one at a time), or null: its
+  // description (the Guide's line) shows under the title.
+  const [rarity, setRarity]             = useState(null);
   // Default to the city proper: cards tagged `outside` lie beyond Prague's
   // administrative boundary (day trips), shown only on "Show all".
   const [cityOnly, setCityOnly]         = useState(true);
@@ -180,6 +184,9 @@ export default function ExplorePage() {
   // With an area picked, the title becomes the area's name plus a short intro.
   const areaActive = cityOnly && area;
   const areaBlurb  = areaActive ? AREA_BLURBS[area.kind]?.[area.value] : null;
+  // Under the title / "where you are" line, one description at a time: the
+  // picked rarity's first, then the area's, then the My Collections hint.
+  const rarityBlurb = rarity ? (RARITY_BLURB[lang] || RARITY_BLURB.en)[rarity] : null;
   const titleText  = areaActive
     ? convert(area.kind === 'district' ? t('detail.district', { n: area.value.slice(6) }) : quarterName(area.value, lang))
     : t(guest ? 'explore.titleGuest' : cityOnly ? 'explore.titleCity' : 'explore.title');
@@ -210,7 +217,7 @@ export default function ExplorePage() {
           <div style={{ flex: '1 1 320px', minWidth: 0 }}>
             <h1 ref={titleRef} className="px-title explore-title explore-title--fit">{titleText}</h1>
             {areaActive
-              ? areaBlurb && <p className="explore-area-blurb">{convert(areaBlurb[lang] || areaBlurb.en)}</p>
+              ? areaBlurb && !rarityBlurb && <p className="explore-area-blurb">{convert(areaBlurb[lang] || areaBlurb.en)}</p>
               : cityOnly && hereText
                 ? (
                   <p ref={hereRef} className="explore-here">
@@ -220,6 +227,8 @@ export default function ExplorePage() {
                     <span>{convert(hereText)}</span>
                   </p>
                 )
+              // With a rarity picked, its description replaces the intro line.
+              : rarityBlurb ? null
               : cityOnly
                 // Phones get a shorter line, so it fits on one line.
                 ? <p className="explore-area-blurb">
@@ -229,7 +238,8 @@ export default function ExplorePage() {
                 // Show all: the day-trip pitch, but not inside My Collections,
                 // where the showcase hint below takes its place.
                 : !inCollection && <p className="explore-area-blurb">{convert(t('explore.allBlurb'))}</p>}
-            {inCollection && hasCollected && !areaActive && (
+            {rarityBlurb && <p className="explore-rarity-blurb">{convert(rarityBlurb)}</p>}
+            {inCollection && hasCollected && !areaActive && !rarityBlurb && (
               // Touch screens get the long-press version, mice the double click. Not
               // shown under an area filter, where the area blurb has the space.
               <p className="explore-showcase-hint">
@@ -242,7 +252,7 @@ export default function ExplorePage() {
         </div>
       </div>
 
-      <LocationGrid locations={sortedLocations} collectionLocations={collectionLocations} onCardClick={handleCardClick} scopeToggle={scopeToggle} hideOutsideLabel={cityOnly} onCollectionChange={setInCollection} />
+      <LocationGrid locations={sortedLocations} collectionLocations={collectionLocations} onCardClick={handleCardClick} scopeToggle={scopeToggle} hideOutsideLabel={cityOnly} onCollectionChange={setInCollection} onRarityChange={setRarity} />
 
       {selectedSlug && (
         <LocationDetail

@@ -1390,8 +1390,10 @@ button.level-badge--btn:hover { border-color: var(--gold); }
   .explore-here > svg { width: 18px; height: 18px; }
 }
 /* Under the header while "My Collections" is on: a small aside on holding
-   a card to admire it (CardShowcase). Touch and mouse get their own wording. */
-.explore-showcase-hint {
+   a card to admire it (CardShowcase). Touch and mouse get their own wording.
+   The picked rarity's description takes the same place and look. */
+.explore-showcase-hint,
+.explore-rarity-blurb {
   margin: 10px 0 0;
   font-size: 17px;
   font-weight: 700;

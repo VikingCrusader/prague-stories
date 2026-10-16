@@ -1050,7 +1050,8 @@ html:not([data-lang="zh"]) .filter-bar__search::placeholder,
 html:not([data-lang="zh"]) .explore-stats,
 html:not([data-lang="zh"]) .explore-area-blurb,
 html:not([data-lang="zh"]) .explore-here,
-html:not([data-lang="zh"]) .explore-showcase-hint {
+html:not([data-lang="zh"]) .explore-showcase-hint,
+html:not([data-lang="zh"]) .explore-rarity-blurb {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, "URW Palladio L", serif !important;
   font-weight: 700;
 }

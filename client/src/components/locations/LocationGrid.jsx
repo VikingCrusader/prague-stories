@@ -17,7 +17,7 @@ const PAGE_SIZE = 60;
 
 // `onCollectionChange` (optional) hears whether "My Collections" is on, so
 // the page header can react to it (ExplorePage's showcase hint).
-export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange }) {
+export default function LocationGrid({ locations: scopedLocations, collectionLocations, onCardClick, scopeToggle, hideOutsideLabel, onCollectionChange, onRarityChange }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
@@ -28,6 +28,9 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   useEffect(() => { onCollectionChange?.(discovered); }, [discovered, onCollectionChange]);
   const [activeLabels, setActiveLabels]     = useState(new Set());
   const [activeRarities, setActiveRarities] = useState(new Set());
+  // The picked rarity (or null), so ExplorePage can show its description.
+  const activeRarity = activeRarities.size ? [...activeRarities][0] : null;
+  useEffect(() => { onRarityChange?.(activeRarity); }, [activeRarity, onRarityChange]);
   const [labelsOpen, setLabelsOpen]         = useState(false);
   const [raritiesOpen, setRaritiesOpen]     = useState(false);
   const [sortOpen, setSortOpen]             = useState(false);
@@ -77,12 +80,10 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
     });
   };
 
+  // One rarity at a time (2026-10-16): picking another replaces it, picking
+  // the active one again clears it.
   const toggleRarity = r => {
-    setActiveRarities(prev => {
-      const next = new Set(prev);
-      if (next.has(r)) next.delete(r); else next.add(r);
-      return next;
-    });
+    setActiveRarities(prev => (prev.has(r) ? new Set() : new Set([r])));
   };
 
   const filtered = useMemo(() => {
