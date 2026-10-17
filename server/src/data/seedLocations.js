@@ -4287,35 +4287,6 @@ Věž byla dokončena v 50. letech 18. století spolu s kostelem, ale patřila m
     },
   },
   {
-    name: 'Statue of Jesus Christ Carrying the Cross',
-    slug: 'socha-jezise-krista-petrin',
-    localizedNames: { cz: 'Socha Ježíše Krista na kříži', zh: '耶稣背十字架像' },
-    labels: ['monument', 'baroque'],
-    district: 'Praha 1',
-    quarter: 'Hradčany',
-    coordinates: { lat: 50.08431108018582, lng: 14.391198276421784 },
-    rarity: 'epic',
-    xpReward: 50,
-    wikipediaUrl: '',
-    description: {
-      en: `On the slope of the Great Strahov Garden, below Strahov Monastery, stands a weathered Baroque statue of Christ carrying the cross. It has been shouldering its burden here since the middle of the 18th century, with the medieval Hunger Wall and a scatter of fruit trees for company, and few passers-by stop to look.
-
-The statue is a modest piece: a rectangular stone base, a many-sided shaft, and above a simple cornice the figure of Christ bent under the cross. It names no sculptor and has no grand setting. It is a devotional marker of the kind that once stood by the hundred in the orchards and vineyards of Bohemian monasteries, this one on land belonging to the Premonstratensians of Strahov. Most of the others disappeared long ago. This one did not.
-
-🎁 Bonus: Nearby runs the Hunger Wall, built by Charles IV in 1360 to 1362. Legend says he built it to give work and bread to the poor during a famine, which is how it got its name, though historians think its real purpose was simply to defend Malá Strana. The wall and the statue have shared this hillside for centuries, one built, so the story goes, to feed hungry Praguers, the other to give them somewhere to pray.`,
-      cz: `Na svahu Velké strahovské zahrady pod Strahovským klášterem stojí ošlehaná barokní socha Krista nesoucího kříž. Nese své břemeno tady od poloviny 18. století, ve společnosti středověké Hladové zdi a pár ovocných stromů, a málokdo z kolemjdoucích se zastaví.
-
-Socha je skromná: obdélný kamenný podstavec, mnohoboký dřík a nad jednoduchou římsou postava Krista sehnutého pod křížem. Neuvádí žádného sochaře a nemá žádné velkolepé okolí. Je to zbožné znamení toho druhu, jaké kdysi stávalo po stovkách v sadech a vinicích českých klášterů, tohle na pozemku strahovských premonstrátů. Většina ostatních dávno zmizela. Tohle ne.
-
-🎁 Bonus: Nedaleko vede Hladová zeď, kterou dal Karel IV. postavit v letech 1360 až 1362. Pověst říká, že ji stavěl, aby dal chudým za hladomoru práci a chléb, odtud její jméno, i když historici soudí, že měla prostě bránit Malou Stranu. Zeď a socha sdílejí tenhle svah po staletí, jedna postavená, jak se vypráví, aby nasytila hladové Pražany, druhá, aby měli kde se pomodlit.`,
-      zh: `斯特拉霍夫修道院下方，大斯特拉霍夫花园的山坡上，立着一尊饱经风雨的巴洛克雕像：背着十字架的基督。从18世纪中叶起，他就在这里扛着重负，身边只有中世纪的饥饿墙和几棵果树作伴，很少有路人停下来看一眼。
-
-雕像很朴素：一个长方形石座，一根多边形柱身，简单的檐口之上，是被十字架压弯了腰的基督。它没有署名，也没有什么气派的环境。这是那种当年在波希米亚各修道院的果园和葡萄园里成百上千地立着的虔诚标记，这一尊就在斯特拉霍夫普雷蒙特雷会的土地上。其余的大多早已消失，唯独这一尊留了下来。
-
-🎁 彩蛋：附近延伸着饥饿墙，那是查理四世在1360年至1362年间修建的。传说他修墙是为了在饥荒时给穷人活干、给他们饭吃，名字也由此而来，不过历史学家认为它真正的用途只是保卫小城区。几百年来，墙和雕像共享着这片山坡，据说一个是为了让饥饿的布拉格人吃上饭，一个是为了让他们有地方祈祷。`,
-    },
-  },
-  {
     name: 'Chapel of the Infant Jesus',
     slug: 'kaple-jezulatka-petrin',
     localizedNames: { cz: 'Kaple Jezulátka (Seminářská zahrada)', zh: '耶稣圣婴小教堂（神学院花园）' },
@@ -9874,10 +9845,10 @@ Alois Jirásek (1851–1930) byl velkým historickým romanopiscem českého ná
     },
   },
   {
-    name: 'Sylva-Taroucca Palace',
+    name: 'Savarin Palace (Mucha Museum)',
     slug: 'palac-sylva-taroucca',
-    localizedNames: { cz: 'Palác Sylva-Taroucca', zh: '西尔瓦-塔鲁卡宫' },
-    labels: ['palace', 'baroque'],
+    localizedNames: { cz: 'Palác Savarin (Muchovo muzeum)', zh: '萨瓦兰宫（慕夏博物馆）' },
+    labels: ['palace', 'baroque', 'museum', 'art-nouveau'],
     district: 'Praha 1',
     quarter: 'Nové Město',
     coordinates: { lat: 50.08492371431868, lng: 14.424991837282922 },
@@ -9885,21 +9856,33 @@ Alois Jirásek (1851–1930) byl velkým historickým romanopiscem českého ná
     xpReward: 30,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Pal%C3%A1c_Sylva-Taroucca',
     description: {
-      en: `Sylva-Taroucca Palace stands on Na Příkopě, one of the grandest streets in the centre, and it is one of the finest Rococo palaces in Prague. Many people know it by another name, the Savarin, after a later café and restaurant inside.
+      en: `The Savarin is one of the finest Rococo palaces in Prague, yet it is named after a café that closed decades ago. Since 2025 it has also been home to a Mucha museum, which is suing another Mucha museum a few streets away over the name.
 
-It was built between 1743 and 1752 for Count Ottavio Piccolomini on a site where older houses had stood since the 16th century. The design is by Kilián Ignác Dientzenhofer, the leading architect of the Prague Baroque. He died in 1751 before it was done, and his son-in-law Anselmo Lurago finished the work. Behind a long, monumental three-storey front with bold pilasters lie two square courtyards. The sculptor Ignác František Platzer made the statues for the façade and the stairway, among them satyrs, nymphs and a swan, now valued originals of Czech late Baroque sculpture. The palace takes its present name from the Sylva-Taroucca family, who owned it later.
+It was built between 1743 and 1752 for Prince Ottavio Piccolomini, probably to a design by Kilián Ignác Dientzenhofer, the leading architect of the Prague Baroque. He died in 1751 before it was done, and his son-in-law Anselmo Lurago finished the work. Behind the long three-storey front lie two square courtyards, and the sculptor Ignác František Platzer made the statues for the façade and the stairway, among them satyrs, nymphs and a swan.
 
-🎁 Bonus: Most people walking past know this Dientzenhofer palace by the name of a long-gone café rather than the noble families who built and owned it. That is very Prague: the city's greatest buildings often end up named after whatever was served inside.`,
-      cz: `Palác Sylva-Taroucca stojí na Příkopě, jedné z nejvelkolepějších ulic centra, a patří k nejkrásnějším rokokovým palácům v Praze. Mnoho lidí ho zná pod jiným jménem, Savarin, podle pozdější kavárny a restaurace uvnitř.
+Later owners included the Nostitz counts, and from 1846 to 1892 the National Museum kept its collections here. In 1885 the palace passed by marriage to the Sylva-Taroucca family, whose name it still officially carries. The city bought it in 1908, and in 1927 the Savarin café opened in the old Baroque garden, named after the French gourmet Brillat-Savarin. The café is long gone, but its name stuck to the whole building. After 1948 the palace served as a state cultural house; in 2015 the developer Crestyl bought it and restored it between 2021 and 2024.
 
-Postaven byl v letech 1743 až 1752 pro hraběte Ottavia Piccolominiho na místě, kde od 16. století stály starší domy. Návrh pochází od Kiliána Ignáce Dientzenhofera, předního architekta pražského baroka. Zemřel roku 1751, než byla stavba hotová, a dokončil ji jeho zeť Anselmo Lurago. Za dlouhým monumentálním trojpodlažním průčelím s mohutnými pilastry leží dvě čtvercová nádvoří. Sochař Ignác František Platzer vytvořil sochy na fasádu a schodiště, mezi nimi satyry, nymfy a labuť, dnes cenné originály českého pozdně barokního sochařství. Dnešní jméno má palác po rodu Sylva-Taroucců, kterému později patřil.
+Inside, the Mucha Foundation, run by the painter's own family, opened its museum in early 2025, in a space about twice the size of the Kaunitz Palace on Panská Street, where it had shown its collection since 1998 until the partnership there ended in a dispute. Its first exhibition, curated by Tomoko Sato, shows about 150 works, some 90 of them originals: The Seasons of 1896, the poster of Princess Hyacinth from 1911, early oil paintings, studio photographs, studies for The Slav Epic and objects from Mucha's life as a Freemason.
 
-🎁 Bonus: Většina kolemjdoucích zná tenhle Dientzenhoferův palác podle jména dávno zaniklé kavárny, ne podle šlechtických rodů, které ho postavily a vlastnily. Což je velmi pražské: největší stavby města často nakonec nesou jméno toho, co se v nich podávalo.`,
-      zh: `西尔瓦-塔鲁卡宫位于市中心最气派的街道之一“护城河街”上，是布拉格最精美的洛可可宫殿之一。很多人知道它的另一个名字“萨瓦兰”，那是后来开在里面的一家咖啡馆兼餐厅。
+🎁 Bonus: The Slav Epic itself, twenty giant canvases Mucha gave to the city of Prague, still has no permanent home. One plan would put it in a new underground gallery right here at the Savarin, and the family hopes it could open in 2028, a hundred years after the cycle was finished. One of Mucha's granddaughters has gone to court against it, so the paintings are still waiting for the argument to end.`,
+      cz: `Savarin patří k nejkrásnějším rokokovým palácům v Praze, a přesto se jmenuje po kavárně, která zanikla před desítkami let. Od roku 2025 v něm sídlí také Muchovo muzeum, které se o jméno soudí s jiným Muchovým muzeem o pár ulic dál.
 
-宫殿建于1743年至1752年，主人是奥塔维奥·皮科洛米尼伯爵，这块地从16世纪起就有老房子。设计出自布拉格巴洛克的头号建筑师基利安·伊格纳茨·丁岑霍费尔。他在1751年去世，没能看到完工，是他的女婿安塞尔莫·卢拉戈把它建完的。长长的三层立面气势恢宏，壁柱粗壮有力，背后是两个方形庭院。雕塑家伊格纳茨·弗朗蒂谢克·普拉策为立面和楼梯制作了雕像，其中有萨提尔、宁芙和一只天鹅，如今都是捷克晚期巴洛克雕塑的珍贵原作。宫殿现在的名字来自后来拥有它的西尔瓦-塔鲁卡家族。
+Postaven byl v letech 1743 až 1752 pro knížete Ottavia Piccolominiho, nejspíš podle návrhu Kiliána Ignáce Dientzenhofera, předního architekta pražského baroka. Ten zemřel roku 1751, než byla stavba hotová, a dokončil ji jeho zeť Anselmo Lurago. Za dlouhým trojpodlažním průčelím leží dvě čtvercová nádvoří a sochař Ignác František Platzer vytvořil sochy na fasádu a schodiště, mezi nimi satyry, nymfy a labuť.
 
-🎁 彩蛋：大多数路人知道这座丁岑霍费尔设计的宫殿，靠的是一家早已关门的咖啡馆的名字，而不是建造和拥有它的贵族世家。这很布拉格：城里最了不起的建筑，最后往往以里面卖过的东西命名。`,
+Později palác patřil mimo jiné hrabatům z Nostic a v letech 1846 až 1892 v něm mělo své sbírky Národní muzeum. Roku 1885 přešel sňatkem na rod Sylva-Taroucců, jehož jméno oficiálně nese dodnes. Roku 1908 ho koupilo město a roku 1927 se v bývalé barokní zahradě otevřela kavárna Savarin, pojmenovaná po francouzském gurmánovi Brillat-Savarinovi. Kavárna je dávno pryč, ale její jméno zůstalo celé budově. Po roce 1948 sloužil palác jako státní kulturní dům; roku 2015 ho koupil developer Crestyl a v letech 2021 až 2024 ho obnovil.
+
+Uvnitř otevřela začátkem roku 2025 své muzeum Nadace Mucha, kterou vede malířova vlastní rodina. Má tu zhruba dvakrát víc místa než v Kaunickém paláci v Panské ulici, kde sbírku vystavovala od roku 1998, než tamní spolupráce skončila sporem. První výstava kurátorky Tomoko Sato ukazuje asi 150 děl, z toho kolem 90 originálů: Roční doby z roku 1896, plakát Princezna Hyacinta z roku 1911, rané olejomalby, fotografie z ateliéru, studie ke Slovanské epopeji i předměty z Muchova života svobodného zednáře.
+
+🎁 Bonus: Samotná Slovanská epopej, dvacet obřích pláten, která Mucha daroval městu Praze, dodnes nemá stálý domov. Jeden plán by ji umístil do nové podzemní galerie právě tady v Savarinu a rodina doufá, že by se mohla otevřít roku 2028, sto let po dokončení cyklu. Jedna z Muchových vnuček se proti tomu obrátila na soud, takže obrazy pořád čekají, až spor skončí.`,
+      zh: `萨瓦兰宫是布拉格最精美的洛可可宫殿之一，名字却来自一家几十年前就关门的咖啡馆。2025年起，这里还住进了一座慕夏博物馆，而它正和几条街外的另一座慕夏博物馆为名字打官司。
+
+宫殿建于1743年至1752年，主人是奥塔维奥·皮科洛米尼亲王，设计多半出自布拉格巴洛克的头号建筑师基利安·伊格纳茨·丁岑霍费尔。他在1751年去世，没能看到完工，是他的女婿安塞尔莫·卢拉戈把它建完的。长长的三层立面背后是两个方形庭院，雕塑家伊格纳茨·弗朗蒂谢克·普拉策为立面和楼梯制作了雕像，其中有萨提尔、宁芙和一只天鹅。
+
+后来的主人里有诺斯蒂茨伯爵家族，1846到1892年间，国家博物馆还把藏品存放在这里。1885年，宫殿通过联姻传到西尔瓦-塔鲁卡家族手里，官方名称至今还是他们的姓氏。1908年市政府买下了它；1927年，原来的巴洛克花园里开了一家萨瓦兰咖啡馆，名字取自法国美食家布里亚-萨瓦兰。咖啡馆早就没了，它的名字却留给了整座宫殿。1948年以后，这里成了国营文化宫；2015年开发商Crestyl买下它，并在2021到2024年间完成修复。
+
+宫里的慕夏基金会由画家本人的家族经营，2025年初在这里开馆。新馆的面积差不多是潘斯卡街考尼茨宫的两倍，基金会从1998年起一直在那里展出藏品，直到和那边的合作闹翻。首展由策展人佐藤智子布置，展出约150件作品，其中约90件是原作：1896年的《四季》、1911年的海报《风信子公主》、早期油画、画室老照片、《斯拉夫史诗》的习作，还有慕夏作为共济会成员留下的物件。
+
+🎁 彩蛋：《斯拉夫史诗》本身，也就是慕夏赠给布拉格市的二十幅巨幅油画，至今还没有固定的家。有个方案打算把它放进萨瓦兰这里新建的地下展厅，家族希望能在2028年开放，正好是这组画完成一百周年。可慕夏的一位孙女为此告上了法庭，所以这些画还在等这场争论有个结果。`,
     },
   },
   {
@@ -20526,7 +20509,7 @@ Samotný příkop byl zasypán v roce 1760, osázen kaštany a proměněn v prvn
     labels: ['palace', 'museum', 'gothic'],
     district: 'Praha 1',
     quarter: 'Hradčany',
-    coordinates: { lat: 50.0906, lng: 14.402 },
+    coordinates: { lat: 50.09060364411322, lng: 14.401226065603778 },
     rarity: 'epic',
     xpReward: 50,
     wikipediaUrl: 'https://en.wikipedia.org/wiki/Old_Royal_Palace_(Prague)',
@@ -31828,6 +31811,126 @@ Jméno připomíná hraběte Františka Antonína Šporka, velkého barokního m
 小巷的名字是为了纪念弗朗蒂舍克·安东宁·施波克伯爵。这位巴洛克时代的大赞助人酷爱打猎，1695年为狂热的猎人们创立了圣胡贝特骑士团。胡贝特是7世纪的一位主教，自己当年也是个打猎迷，传说直到有一天，林子里一头角间顶着十字架的雄鹿拦住了他，他才皈依了信仰。所以这里纪念猎人的主保圣人，用的正是鹿。
 
 🎁 彩蛋：宫里的“红鹿”餐厅也是以这些鹿命名的。它2019年开业，开在约瑟夫·戈恰尔20年代为英捷银行设计的营业大厅和金库里。餐厅里那座铜啤酒罐塔据说是全国最高的，最后一只红色的罐子上还顶着一对鹿角。`,
+    },
+  },
+  {
+    name: 'Premium Outlet Prague Airport',
+    slug: 'premium-outlet-prague-airport',
+    localizedNames: { cz: 'Premium Outlet Prague Airport', zh: '布拉格机场高级奥特莱斯' },
+    labels: ['contemporary', 'outside'],
+    coordinates: { lat: 50.12559265933989, lng: 14.280926360760667 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: null,
+    description: {
+      en: `Premium Outlet Prague Airport sits in a field in Tuchoměřice, just past the western edge of Prague, a few minutes from Václav Havel Airport. Planes come in low over the car park, so you can watch the people who just bought a cheap suitcase here and the people who will fly off with it.
+
+The centre was built by the Spanish developer Neinver and opened as Prague The Style Outlets. It was soon named the best new shopping centre of the year at the Czech Best of Realty awards. In October 2018 the Czech investment group Kaprain, founded by the financier Karel Pražák, bought it, and in March 2019 it took its present name. Around seventy shops sell some two hundred brands at reduced prices on about 20,000 square metres, laid out as an open-air street rather than a closed mall, and the covered car park holds 2,400 cars. Buses run here from the airport terminals and from the Nádraží Veleslavín metro station.
+
+🎁 Bonus: Not everything here is for sale. The centre also houses the Dinosauria Museum, with life-size dinosaur models and fossils, and Majaland, an indoor amusement park for children, so one half of a family can shop for shoes while the other half meets a Tyrannosaurus.`,
+      cz: `Premium Outlet Prague Airport stojí na poli v Tuchoměřicích, kousek za západním okrajem Prahy a pár minut od letiště Václava Havla. Letadla tu přistávají nízko nad parkovištěm, takže lze sledovat zároveň lidi, kteří si tu právě koupili levný kufr, i ty, kteří s ním odletí.
+
+Centrum postavil španělský developer Neinver a otevřelo se pod jménem Prague The Style Outlets. Brzy získalo v soutěži Best of Realty titul nejlepšího nového obchodního centra roku. V říjnu 2018 ho koupila česká investiční skupina Kaprain, kterou založil finančník Karel Pražák, a v březnu 2019 dostalo dnešní jméno. Asi sedmdesát obchodů tu na zhruba 20 000 metrech čtverečních prodává kolem dvou set značek za snížené ceny, uspořádaných jako otevřená ulice, ne jako uzavřený obchodní dům, a krytý parking pojme 2 400 aut. Jezdí sem autobusy z letištních terminálů i od stanice metra Nádraží Veleslavín.
+
+🎁 Bonus: Ne všechno tu je na prodej. V centru sídlí i muzeum Dinosauria s modely dinosaurů v životní velikosti a zkamenělinami a Majaland, krytý zábavní park pro děti, takže jedna půlka rodiny může vybírat boty, zatímco druhá se seznamuje s tyranosaurem.`,
+      zh: `布拉格机场高级奥特莱斯坐落在图霍梅日采的一片田野上，刚出布拉格西边的城界，离瓦茨拉夫·哈维尔机场只有几分钟路程。飞机就从停车场上空低低地飞过去降落，所以在这里能同时看到刚买了便宜行李箱的人，和马上要拖着它飞走的人。
+
+这座购物中心由西班牙开发商Neinver建造，开业时叫“Prague The Style Outlets”，没多久就在捷克的Best of Realty评选中拿下了年度最佳新购物中心。2018年10月，金融家卡雷尔·普拉扎克创立的捷克投资集团Kaprain把它买了下来，2019年3月改成了现在的名字。约七十家店铺在两万平方米左右的场地上以折扣价出售大约两百个品牌，整体布局是一条露天街道，而不是封闭的商场；有顶的停车场能停2400辆车。从机场航站楼和地铁韦莱斯拉温站都有公交车开过来。
+
+🎁 彩蛋：这里不是所有东西都能买。购物中心里还有一座“恐龙博物馆”，摆着等身大小的恐龙模型和化石，另外还有儿童室内游乐园Majaland。于是一家人可以兵分两路：一半人去挑鞋，另一半人去见霸王龙。`,
+    },
+  },
+  {
+    name: 'Prague Castle Touch Model',
+    slug: 'hapticky-model-prazskeho-hradu',
+    localizedNames: { cz: 'Haptický model Pražského hradu', zh: '布拉格城堡触摸模型' },
+    labels: ['monument', 'contemporary', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.08038154357369, lng: 14.412408718543759 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: null,
+    description: {
+      en: `At the tip of Slavonic Island, just past Žofín Palace, the whole of Prague Castle fits on a pedestal at about waist height. It is a scale model, and unlike almost everything else in a museum city, you are meant to touch it: run a finger along the roofs, over the spires of St. Vitus and down the long line of the palaces.
+
+The model was made for blind and partially sighted people, so they can feel the shape of a building that is otherwise only something to look at. It is the first piece of "Touch Prague's History", a project of the Rotary Club Praha City, inspired by similar touch models in other European cities, and it was placed here at the start of the 2020s. An identical copy stands inside the castle itself, in the Lobkowicz Palace. For sighted visitors it works as a map: from the island you can see the real castle up on the hill across the river and pick out on the model where each part of it is.
+
+🎁 Bonus: The castle model was such a success that the club made a second one. In June 2024 a round bronze model of Old Town Square, a metre across at a scale of 1:330, with about two hundred houses, three churches and the Old Town Hall with its astronomical clock, was unveiled in the little park behind the Old Town Hall.`,
+      cz: `Na špičce Slovanského ostrova, kousek za Žofínem, se celý Pražský hrad vejde na podstavec zhruba ve výšce pasu. Je to zmenšený model a na rozdíl od skoro všeho ostatního v tomhle muzejním městě se ho máte dotýkat: přejet prstem po střechách, přes věže svatého Víta a podél dlouhé řady paláců.
+
+Model vznikl pro nevidomé a slabozraké, aby si mohli ohmatat tvar stavby, na kterou se jinak dá jen dívat. Je prvním kusem projektu „Dotkni se pražské historie“ Rotary klubu Praha City, inspirovaného podobnými hmatovými modely v jiných evropských městech, a stojí tu od začátku 20. let. Stejná kopie je přímo na Hradě, v Lobkovickém paláci. Vidícím návštěvníkům poslouží jako mapa: z ostrova je vidět skutečný Hrad na kopci za řekou a na modelu si můžete najít, kde je která jeho část.
+
+🎁 Bonus: Model Hradu měl takový úspěch, že klub nechal udělat druhý. V červnu 2024 byl v parčíku za Staroměstskou radnicí odhalen kulatý bronzový model Staroměstského náměstí o průměru jednoho metru v měřítku 1 : 330, s asi dvěma sty domy, třemi kostely a radnicí s orlojem.`,
+      zh: `在斯拉夫岛的岛尖上，刚走过若芬宫，整座布拉格城堡就摆在一个齐腰高的底座上。这是一座按比例缩小的模型，而在这座处处都是“请勿触摸”的博物馆之城里，它偏偏是让人摸的：手指可以划过一片片屋顶，越过圣维特大教堂的尖塔，再沿着长长的一排宫殿一路摸下去。
+
+这座模型是为盲人和视力不好的人做的，让他们能用手感受到一座平时只能用眼睛看的建筑的形状。它是布拉格城市扶轮社“触摸布拉格历史”项目的第一件作品，灵感来自欧洲其他城市类似的触摸模型，2020年代初安放在这里。城堡里面的洛布科维茨宫还有一座一模一样的复制品。对看得见的游客来说，它也是一张地图：站在岛上就能望见河对岸山上真正的城堡，再在模型上找出每一部分各在哪里。
+
+🎁 彩蛋：城堡模型大受欢迎，扶轮社又做了第二座。2024年6月，老城市政厅背后的小公园里揭幕了一座圆形青铜的老城广场模型，直径一米，比例1:330，上面有约两百栋房子、三座教堂，还有带天文钟的老市政厅。`,
+    },
+  },
+  {
+    name: 'Prosek Rocks Viewpoint',
+    slug: 'prosecka-vyhlidka',
+    localizedNames: { cz: 'Prosecká vyhlídka', zh: '普罗塞克观景台' },
+    labels: ['nature', 'geology', 'hidden-gem'],
+    district: 'Praha 9',
+    quarter: 'Prosek',
+    coordinates: { lat: 50.116976718157275, lng: 14.488450070794144 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Prosecké_skály',
+    description: {
+      en: `On the edge of the Prosek housing estates, a stone terrace and a steel footbridge stick out over a sandstone cliff, and the whole of Libeň, Vysočany and the city centre opens up below. Few people outside Prague 9 know it is here, which is a shame, because it is one of the best free views in town.
+
+The cliff is the Prosek Rocks, a nature monument since 1968. The sandstone was laid down on the floor of a shallow sea in the Cretaceous, around 95 million years ago, and it still holds fossil plants. The rock face itself is man-made: from the 18th century people dug sand here, first in open pits along the edge of the plateau and from the late 19th century underground, mostly by hand. One of the sand mines was turned into an air-raid shelter in the Second World War. The surviving underground system, called Močálka, is about 700 metres long, and bats spend the winter in it. The viewing terrace with its footbridge was opened in 2016, and a second, natural lookout named after the opera singer Ema Destinnová is a short walk further along the path.
+
+🎁 Bonus: Locals long told stories of a vast tunnel network under Prosek, one of them supposedly used by Napoleon to travel underground all the way to Stará Boleslav. Napoleon never came to Prague. Surveys in the 1960s and a tunnel dug in 2000 and 2001 found no sign of the giant labyrinth, only the old sand mines, though the legend still turns up on information boards.`,
+      cz: `Na okraji proseckého sídliště vybíhá nad pískovcový sráz kamenná terasa s ocelovou lávkou a pod ní se otevře celá Libeň, Vysočany i centrum města. Mimo Prahu 9 o ní málokdo ví, a to je škoda, protože je to jeden z nejlepších výhledů ve městě zadarmo.
+
+Sráz tvoří Prosecké skály, přírodní památka od roku 1968. Pískovec se usadil na dně mělkého moře v křídě, asi před 95 miliony let, a dodnes v něm jsou zkamenělé rostliny. Samotná skalní stěna je ale dílem lidí: od 18. století se tu kopal písek, nejdřív v lomech podél okraje plošiny a od konce 19. století i v podzemí, většinou ručně. Jedna z pískoven se za druhé světové války proměnila v protiletecký kryt. Zachovaný podzemní systém zvaný Močálka měří asi 700 metrů a zimují v něm netopýři. Vyhlídková terasa s lávkou byla otevřena roku 2016 a kousek dál po cestě je druhá, přírodní vyhlídka pojmenovaná po operní pěvkyni Emě Destinnové.
+
+🎁 Bonus: Místní dlouho vyprávěli o obrovské síti chodeb pod Prosekem; jednou z nich měl podzemím projet až do Staré Boleslavi sám Napoleon. Napoleon v Praze nikdy nebyl. Průzkumy v 60. letech a štola vyražená v letech 2000 a 2001 žádný obří labyrint nenašly, jen staré pískovny, legenda se ale na informačních tabulích objevuje dodnes.`,
+      zh: `在普罗塞克住宅区的边上，一座石砌平台和一道钢制栈桥探出砂岩崖壁，下面利本、维索恰尼一直到市中心尽收眼底。布拉格9区以外很少有人知道这个地方，实在可惜，因为这是城里最好的免费观景点之一。
+
+这道崖壁叫普罗塞克岩，1968年起被列为自然保护地。这里的砂岩是大约9500万年前白垩纪时沉积在一片浅海海底的，至今还能找到植物化石。不过崖壁本身是人挖出来的：从18世纪起人们就在这里挖沙，先是沿着台地边缘露天开采，19世纪末起又转入地下，大多靠手工。二战期间，其中一座沙矿被改成了防空洞。保存下来的地下坑道叫“莫恰尔卡”，长约700米，冬天有蝙蝠在里面过冬。带栈桥的观景平台2016年开放，沿小路再走几步，还有一处以歌剧女高音埃玛·戴斯汀诺娃命名的天然观景点。
+
+🎁 彩蛋：当地人一直流传着普罗塞克地下有一张巨大地道网的说法，据说拿破仑还曾从其中一条地道一路钻到斯塔拉博莱斯拉夫。可拿破仑根本没来过布拉格。1960年代的勘察和2000到2001年挖的一条坑道都没找到什么巨型迷宫，只有老沙矿，但这个传说至今还会出现在路边的解说牌上。`,
+    },
+  },
+  {
+    name: 'Štefánik Observatory',
+    slug: 'stefanikova-hvezdarna',
+    localizedNames: { cz: 'Štefánikova hvězdárna', zh: '什特凡尼克天文台' },
+    labels: ['cultural', 'world-wars'],
+    district: 'Praha 1',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.08130714528987, lng: 14.397909925697615 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C5%A0tef%C3%A1nikova_hv%C4%9Bzd%C3%A1rna',
+    description: {
+      en: `Halfway up Petřín, three white domes sit on the Hunger Wall like mushrooms on an old log. This is Štefánik Observatory, Prague's public observatory, where anyone can look through a century-old telescope at the Sun by day and at the Moon and planets by night.
+
+Amateur astronomers had wanted a public observatory since the Czech Astronomical Society was founded in 1917, but money and permits kept failing. For a while they observed from an artificial cave in a Vinohrady garden and stored their telescopes in the Clementinum's astronomical tower. In 1927 the city finally gave them a plot by the Hunger Wall and paid for the building, designed by the society member Václav Veselík. The first dome opened on 24 June 1928, the public came in from 1929, and the main dome, set on one of the wall's towers, was finished in 1930. The observatory is named after Milan Rastislav Štefánik, the Slovak astronomer who observed from Meudon and Mont Blanc, became a French general and a founder of Czechoslovakia, and died in a plane crash in 1919.
+
+The main dome holds the König double astrograph, made by Zeiss in 1905 to 1907 for the Viennese Moon mapper Rudolf König. It was taken to Jena for restoration in 2022 and came back in 2024. A renovation in 2018 opened the old library and workshops to visitors and added a small bistro.
+
+🎁 Bonus: The telescope in the main dome stands on a concrete pillar 15 metres tall, and the pillar holds more than the telescope: the ashes of two astronomers, Jaroslav Štych and Karel Anděl, are kept inside it. They spent their lives looking at the sky from this building, and they still have the best seat in the house.`,
+      cz: `V polovině Petřína sedí na Hladové zdi tři bílé kopule jako houby na starém kmeni. To je Štefánikova hvězdárna, pražská lidová hvězdárna, kde se může kdokoli podívat stoletým dalekohledem ve dne na Slunce a v noci na Měsíc a planety.
+
+Amatérští astronomové chtěli lidovou hvězdárnu od založení České astronomické společnosti roku 1917, jenže pořád chyběly peníze a povolení. Nějakou dobu pozorovali z umělé jeskyně v jedné vinohradské zahradě a dalekohledy měli uložené v astronomické věži Klementina. Roku 1927 jim město konečně dalo pozemek u Hladové zdi a zaplatilo stavbu, kterou navrhl člen společnosti Václav Veselík. První kopule se otevřela 24. června 1928, veřejnost sem chodí od roku 1929 a hlavní kopule, posazená na jedné z věží zdi, byla hotová roku 1930. Hvězdárna nese jméno Milana Rastislava Štefánika, slovenského astronoma, který pozoroval v Meudonu i na Mont Blancu, stal se francouzským generálem a jedním ze zakladatelů Československa a zahynul roku 1919 při letecké havárii.
+
+V hlavní kopuli stojí Königův dvojitý astrograf, který vyrobila firma Zeiss v letech 1905 až 1907 pro vídeňského selenografa Rudolfa Königa. Roku 2022 odjel na restaurování do Jeny a roku 2024 se vrátil. Rekonstrukce roku 2018 zpřístupnila návštěvníkům bývalou knihovnu a dílny a přibylo i malé bistro.
+
+🎁 Bonus: Dalekohled v hlavní kopuli stojí na betonovém pilíři vysokém 15 metrů a ten pilíř nese víc než jen dalekohled: jsou v něm uloženy urny dvou astronomů, Jaroslava Štycha a Karla Anděla. Celý život se z této budovy dívali na oblohu a dodnes tu mají nejlepší místo.`,
+      zh: `佩特任山半山腰的饥饿墙上，坐着三个白色圆顶，像老树干上冒出的蘑菇。这就是什特凡尼克天文台，布拉格的公众天文台，任何人都可以在这里用一台百年老望远镜，白天看太阳，晚上看月亮和行星。
+
+捷克天文学会1917年一成立，业余天文爱好者们就想要一座公众天文台，可钱和许可总是落空。有一阵子他们在维诺赫拉迪一座花园的人造岩洞里观测，望远镜则寄存在克莱门特学院的天文塔里。1927年，市政府终于在饥饿墙边给了他们一块地，还出钱盖楼，设计者是学会会员瓦茨拉夫·韦塞利克。第一个圆顶在1928年6月24日启用，1929年起向公众开放，坐在城墙一座塔楼上的主圆顶则在1930年完工。天文台以米兰·拉斯季斯拉夫·什特凡尼克命名，这位斯洛伐克天文学家曾在默东和勃朗峰上观测，后来当上法国将军，又成了捷克斯洛伐克的缔造者之一，1919年死于一场空难。
+
+主圆顶里是一台柯尼希双筒天体照相仪，由蔡司在1905到1907年间为维也纳的月面测绘家鲁道夫·柯尼希制造。它2022年被送到耶拿修复，2024年才回来。2018年的翻修把原来的图书室和工作间也向游客开放，还添了一间小餐馆。
+
+🎁 彩蛋：主圆顶的望远镜立在一根15米高的混凝土柱子上，而这根柱子里装的不只是望远镜的底座：天文学家雅罗斯拉夫·什蒂赫和卡雷尔·安德尔的骨灰就安放在里面。他们一辈子都在这栋楼里仰望星空，如今依然占着全馆最好的位置。`,
     },
   },
 ];

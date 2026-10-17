@@ -74,7 +74,6 @@ export const SLUG_RARITY = {
   'dum-u-zlate-hrusky-a-u-zlateho-hroznu': 'epic', // Nový Svět artists' colony houses
   'sidliste-velka-ohrada':        'epic',  // last socialist housing estate, far SW, built 1988-98
   'panorama-hotel':               'epic',  // Brutalist StB-surveillance hotel highrise, Pankrác
-  'socha-jezise-krista-petrin':   'epic',  // obscure 1746 wayside statue, Great Strahov Garden
   'kaple-jezulatka-petrin':       'epic',  // hidden Carmelite garden chapel, Seminářská zahrada
   'barrandovske-skaly':           'epic',  // Silurian-Devonian boundary geological monument, far SW
 
@@ -175,7 +174,6 @@ export const SLUG_RARITY = {
   'vyton':                        'rare',
   'kostel-sv-havla':              'rare',
   'celetna':                      'rare',
-  'strahov-monastery-church':     'rare',
   'holesovicky-pivovar':          'rare',
   'u-zlateho-tygra':              'rare',
   'hrzansky-palac':               'rare',
