@@ -45,7 +45,7 @@ export const HUNT_EXCLUDED_SLUGS = [
   // islands and what stands on them
   'kampa-island', 'museum-kampa-1782563427306', 'liechtenstein-palace-on-kampa-1782495483416',
   'strelecky-ostrov', 'slovansky-ostrov', 'palac-zofin', 'galerie-manes', 'cisarsky-ostrov',
-  'vodni-elektrarna-stvanice', 'fuchs2', 'detsky-ostrov',
+  'vodni-elektrarna-stvanice', 'fuchs2', 'detsky-ostrov', 'socha-vltavy',
   // across the river
   'staromestsky-jez', 'privoz-podbaba-podhori',
 ];

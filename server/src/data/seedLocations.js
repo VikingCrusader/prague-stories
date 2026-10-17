@@ -31725,6 +31725,111 @@ Dnešní Florenc vyrostla kolem dopravy. Metro sem dorazilo roku 1974 se stanic�
 🎁 彩蛋：弗洛伦茨还有一部以它命名的电影。1957年约瑟夫·马赫导演的喜剧《弗洛伦茨13:30》，讲的是一辆从布拉格开往卡罗维发利的大巴上的乘客们，年轻的伊日娜·博赫达洛娃也在里面。片名就是发车时间，所以它也留下了50年代长途汽车站的模样。按捷克语规范，这个词其实是阴性的，可布拉格人一直都把它当阳性用。`,
     },
   },
+  {
+    name: 'Slavonic House Garden',
+    slug: 'zahrada-slovanskeho-domu',
+    localizedNames: { cz: 'Zahrada Slovanského domu', zh: '斯拉夫大厦花园' },
+    labels: ['park', 'baroque', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.08575394218509, lng: 14.428319342275763 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Slovansk%C3%BD_d%C5%AFm',
+    description: {
+      en: `Walk off Na Příkopě, Prague's busiest shopping street, through a gateway, and the noise simply stops. Behind the Slavonic House lies a formal garden shaded by plane trees that have been standing here longer than any of the shops out front, and most people hurrying past have no idea it exists.
+
+The site first turns up in a New Town court book in 1414, as two burgher houses. Some historians link the smaller one to a buyer recorded as "Janek Jednooký", one-eyed Janek, and wonder whether that was Jan Žižka, but nobody has proved it. After 1695 Baron Jan Bartoloměj Vernier de Rougemont, an imperial cavalry captain, joined the two houses into a Baroque palace and laid out a geometric French garden behind it, running all the way through the block to Jindřišská Street. Back then Na Příkopě was still the moat between the Old and New Towns, and the land around was ditches, gardens and open fields. The garden is the last green piece of that landscape.
+
+The palace changed hands many times. In 1799 it housed the headquarters of the Russian army passing through Bohemia, with Grand Duke Konstantin and General Suvorov in residence. From the 1870s it was the German Casino, the club of German-speaking Prague, and after 1945 it became the Slavonic House. In the early 1990s the courtyard was a cheap, crowded beer garden; the big reconstruction of 1998 to 2001 turned the complex into shops, a cinema and restaurants, but kept most of the old trees.
+
+🎁 Bonus: Suvorov arrived in Prague as one of the most famous generals in Europe, fresh from his Italian and Swiss campaigns of 1799. He spent part of that winter in this palace, so the quiet garden where people now drink coffee once had Russian staff officers walking under the same plane trees.`,
+      cz: `Stačí z Na Příkopě, nejrušnější nákupní ulice Prahy, projít průjezdem a hluk prostě zmizí. Za Slovanským domem leží pravidelná zahrada ve stínu platanů, které tu stojí déle než kterýkoli obchod vepředu, a většina lidí, kteří kolem spěchají, o ní vůbec neví.
+
+Místo se poprvé objevuje v novoměstské soudní knize roku 1414, jako dva měšťanské domy. Někteří historici spojují ten menší s kupcem zapsaným jako „Janek Jednooký“ a uvažují, jestli to nebyl Jan Žižka, ale nikdo to nedokázal. Po roce 1695 spojil baron Jan Bartoloměj Vernier de Rougemont, císařský rytmistr, oba domy v barokní palác a za ním založil geometrickou francouzskou zahradu, která vedla napříč celým blokem až k Jindřišské ulici. Na Příkopě byl tehdy ještě příkop mezi Starým a Novým Městem a kolem byly strouhy, zahrady a pole. Zahrada je posledním zeleným kouskem té krajiny.
+
+Palác mnohokrát změnil majitele. Roku 1799 v něm sídlil hlavní stan ruské armády táhnoucí přes Čechy, s velkoknížetem Konstantinem a generálem Suvorovem. Od 70. let 19. století tu bylo Německé kasino, klub německy mluvící Prahy, a po roce 1945 se z něj stal Slovanský dům. Na začátku 90. let byla na dvoře levná, přeplněná pivní zahrada; velká rekonstrukce v letech 1998 až 2001 proměnila areál v obchody, kino a restaurace, ale většinu starých stromů zachovala.
+
+🎁 Bonus: Suvorov přijel do Prahy jako jeden z nejslavnějších generálů Evropy, rovnou ze svého italského a švýcarského tažení roku 1799. Část té zimy strávil v tomto paláci, takže v tiché zahradě, kde dnes lidé pijí kávu, se pod stejnými platany kdysi procházeli ruští štábní důstojníci.`,
+      zh: `从布拉格最热闹的购物街“在护城河上”街拐进一道门洞，喧闹声就这么消失了。斯拉夫大厦背后藏着一座规整的花园，几棵悬铃木撑开浓荫，它们在这里站的年头比街面上任何一家店都长，可匆匆路过的人大多根本不知道它的存在。
+
+这块地最早出现在1414年新城的一本法庭簿册里，当时是两座市民住宅。有些历史学家把其中较小的一座和一位记作“独眼小扬”的买主联系起来，猜想那会不会就是扬·杰士卡，但谁也没能证明。1695年以后，帝国骑兵上尉扬·巴尔托洛梅伊·韦尔尼耶·德·鲁热蒙男爵把两座房子合成一座巴洛克宫殿，又在后面修了一座几何对称的法式花园，一直穿过整个街区通到因德日什卡街。那时“在护城河上”街还真是老城和新城之间的护城河，周围是沟渠、园子和田地。这座花园就是那片风景留下的最后一块绿地。
+
+宫殿后来多次易主。1799年，途经波希米亚的俄国军队把司令部设在这里，康斯坦丁大公和苏沃洛夫将军都住了进来。19世纪70年代起，这里是“德意志俱乐部”，说德语的布拉格上流社会的聚会场所；1945年以后，它成了斯拉夫大厦。90年代初，院子里是一座便宜又挤满人的啤酒花园；1998到2001年的大改造把整片建筑变成了商店、电影院和餐厅，但大部分老树都留了下来。
+
+🎁 彩蛋：苏沃洛夫来到布拉格时，已是全欧洲最有名的将军之一，刚刚打完1799年的意大利和瑞士战役。那年冬天他有一段时间就住在这座宫殿里，所以如今人们喝咖啡的这座安静花园，当年曾有俄国参谋军官在同一批悬铃木下散步。`,
+    },
+  },
+  {
+    name: 'Statue of the Vltava',
+    slug: 'socha-vltavy',
+    localizedNames: { cz: 'Socha Vltavy', zh: '伏尔塔瓦河雕像' },
+    labels: ['monument', 'national-revival'],
+    district: 'Praha 5',
+    quarter: 'Smíchov',
+    coordinates: { lat: 50.080469614343535, lng: 14.408637612187881 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Socha_Vltavy',
+    description: {
+      en: `On the tip of the island by the Smíchov lock, a bronze girl dances on top of a granite pillar, naked, with a long strip of cloth streaming behind her. She is the Vltava herself, and she has picked a good spot: the river she stands for flows past on both sides, and she has the best view of the National Theatre in town.
+
+The statue was made in 1916 by the sculptor Josef Václav Pekárek, with the architect František Sander and the stonemason Palouš, in the years when the Smíchov lock was being built and the island reshaped around it. It was only put up in 1927. The bronze figure is about 2.8 metres tall and stands on a granite obelisk, with an anchor at her feet. She faces the Legion Bridge and looks across Střelecký ostrov towards the theatre.
+
+Around the pillar, four smaller girls stand for the Vltava's main tributaries, one on each side. On the north the Otava pans for gold, since gold was washed from that river for centuries. On the east the Sázava holds a fish, on the south the Lužnice carries a bouquet, and on the west the Berounka holds a cogwheel, for the mills and ironworks along its banks. The whole group has been a protected cultural monument since 1964.
+
+🎁 Bonus: Prague has more than one Vltava. The oldest is Terezka, a fountain figure by Václav Prachner from 1812 in a niche of the Clam-Gallas Palace; another reclines on the ramp of the National Museum, and a tall sandstone one by Ladislav Novák guards the Podolí waterworks. This is the only one standing in the river itself.`,
+      cz: `Na špičce ostrova u smíchovského zdymadla tančí na žulovém pilíři bronzová dívka, nahá, s dlouhým pruhem látky vlajícím za ní. Je to sama Vltava a vybrala si dobře: řeka, kterou představuje, jí teče po obou stranách a má odsud nejlepší výhled na Národní divadlo v celém městě.
+
+Sochu vytvořil roku 1916 sochař Josef Václav Pekárek spolu s architektem Františkem Sanderem a kameníkem Paloušem, v letech, kdy se stavělo smíchovské zdymadlo a ostrov kolem něj se přetvářel. Postavena byla až roku 1927. Bronzová postava je vysoká asi 2,8 metru, stojí na žulovém obelisku a u nohou má kotvu. Dívá se k mostu Legií a přes Střelecký ostrov směrem k divadlu.
+
+Kolem pilíře stojí čtyři menší dívky, které představují hlavní přítoky Vltavy, na každé straně jedna. Na severu Otava rýžuje zlato, protože se z této řeky zlato po staletí rýžovalo. Na východě drží Sázava rybu, na jihu nese Lužnice kytici a na západě má Berounka ozubené kolo, za mlýny a hamry na jejích březích. Celé sousoší je od roku 1964 chráněnou kulturní památkou.
+
+🎁 Bonus: Praha má Vltav víc. Nejstarší je Terezka, kašnová postava od Václava Prachnera z roku 1812 ve výklenku Clam-Gallasova paláce; další spočívá na rampě Národního muzea a vysoká pískovcová od Ladislava Nováka hlídá podolskou vodárnu. Tahle je jediná, která stojí přímo v řece.`,
+      zh: `斯米霍夫船闸旁的小岛尖上，一个青铜少女在花岗岩石柱顶上起舞，一丝不挂，身后飘着一条长长的布带。她就是伏尔塔瓦河本尊，而且很会挑地方：她所代表的这条河从她两边流过，全城看国家剧院最好的位置也在她这里。
+
+雕像由雕塑家约瑟夫·瓦茨拉夫·佩卡雷克在1916年完成，合作的还有建筑师弗朗蒂舍克·桑德尔和石匠帕卢什。那几年正好在修斯米霍夫船闸，小岛也随之被重新塑形。可雕像直到1927年才立起来。青铜少女高约2.8米，站在一座花岗岩方尖碑上，脚边放着一只锚。她面朝军团桥，越过射手岛望向国家剧院。
+
+石柱四面各站着一个小一些的姑娘，代表伏尔塔瓦河的四条主要支流。北面是奥塔瓦河，她在淘金，因为几百年来人们一直在这条河里淘金。东面的萨扎瓦河手里拿着一条鱼，南面的卢日尼采河捧着一束花，西面的贝龙卡河拿着一个齿轮，代表河岸上的磨坊和锻锤作坊。整组雕像自1964年起就是受保护的文化古迹。
+
+🎁 彩蛋：布拉格的“伏尔塔瓦”可不止这一位。最老的是“特雷兹卡”，瓦茨拉夫·普拉赫纳1812年做的喷泉人像，立在克拉姆-加拉斯宫的壁龛里；国家博物馆的坡道上还斜倚着一位；拉迪斯拉夫·诺瓦克的高大砂岩像则守着波多利水厂。只有眼前这一位，是真正站在河里的。`,
+    },
+  },
+  {
+    name: "St. Hubert's Lane",
+    slug: 'ulicka-sv-huberta',
+    localizedNames: { cz: 'Ulička sv. Huberta', zh: '圣胡贝特小巷' },
+    labels: ['street', 'contemporary', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.08820924771883, lng: 14.430698398893782 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Sw%C3%A9erts-Sporck%C5%AFv_pal%C3%A1c',
+    description: {
+      en: `St. Hubert's Lane is a short dead-end passage off V Celnici where you are told to look up, and for once there is a good reason: bright red deer with wings are flying over your head. Nobody is quite sure where they are going, but they have been popular with tourists since the day they took off.
+
+The lane is new. It was created between the Old Customs House and the back of the Sporck Palace when the palace complex on Hybernská Street was rebuilt to a design by Stanislav Fiala's studio, finished in 2018. The project opened up the old blocks, linked them to the buildings on V Celnici and won that year's Building of the Year award for the revival of a historic building. The flying sculptures are by Michal Gabriel, from 2018: two winged deer and a winged bull, all painted signal red.
+
+The name honours Count František Antonín Špork, the great Baroque patron who loved the hunt and in 1695 founded the Order of St. Hubert for passionate hunters. Hubert, a 7th-century bishop, was a keen hunter himself until, the legend says, a stag with a cross between its antlers stopped him in the forest and turned him to the faith. That is why the patron saint of hunters is remembered here by deer.
+
+🎁 Bonus: The deer also gave their name to the Red Deer restaurant in the palace, opened in 2019 in the banking hall and vault that Josef Gočár designed in the 1920s for the Anglo-Czechoslovak Bank. Its tower of copper beer tanks is said to be the tallest in the country, and the last, red tank wears a pair of antlers.`,
+      cz: `Ulička sv. Huberta je krátký slepý průchod z ulice V Celnici, kde se vyplatí zvednout hlavu: nad vámi létají jasně rudí jeleni s křídly. Kam míří, nikdo přesně neví, ale u turistů jsou oblíbení ode dne, kdy vzlétli.
+
+Ulička je nová. Vznikla mezi Starou celnicí a zadní částí Sporkova paláce při přestavbě palácového souboru v Hybernské ulici podle návrhu ateliéru Stanislava Fialy, dokončené roku 2018. Projekt staré bloky otevřel, propojil je s budovami ve V Celnici a ten rok získal titul Stavba roku za oživení historické stavby. Létající sochy jsou dílem Michala Gabriela z roku 2018: dva okřídlení jeleni a okřídlený býk, natření signální červení.
+
+Jméno připomíná hraběte Františka Antonína Šporka, velkého barokního mecenáše, který miloval lov a roku 1695 založil Řád sv. Huberta pro vášnivé myslivce. Hubert, biskup ze 7. století, byl sám vášnivý lovec, dokud ho podle legendy v lese nezastavil jelen s křížem mezi parohy a neobrátil ho na víru. Proto tu patrona myslivců připomínají právě jeleni.
+
+🎁 Bonus: Po jelenech se jmenuje i restaurace Červený jelen v paláci, otevřená roku 2019 v bankovním sále a trezoru, které ve 20. letech navrhl Josef Gočár pro Anglo-československou banku. Její věž z měděných pivních tanků má být nejvyšší v zemi a poslední, červený tank nosí parohy.`,
+      zh: `圣胡贝特小巷是“海关街”边上一条短短的死胡同，走进去最好抬头看，因为这回是真有东西可看：几头长着翅膀的鲜红色鹿正从你头顶飞过。它们要飞到哪儿去谁也说不清，可从起飞那天起，游客就很喜欢它们。
+
+这条小巷是新的。希伯尼亚街上的施波克宫建筑群按斯坦尼斯拉夫·菲亚拉事务所的设计改造，2018年完工，小巷就是那时在老海关和施波克宫后部之间开出来的。这个项目打通了老街区，把它们和海关街上的建筑连了起来，当年还拿下了“年度建筑”奖的历史建筑复兴类。飞翔的雕塑出自米哈尔·加布里埃尔之手，作于2018年：两头带翅膀的鹿和一头带翅膀的公牛，全都漆成了信号红。
+
+小巷的名字是为了纪念弗朗蒂舍克·安东宁·施波克伯爵。这位巴洛克时代的大赞助人酷爱打猎，1695年为狂热的猎人们创立了圣胡贝特骑士团。胡贝特是7世纪的一位主教，自己当年也是个打猎迷，传说直到有一天，林子里一头角间顶着十字架的雄鹿拦住了他，他才皈依了信仰。所以这里纪念猎人的主保圣人，用的正是鹿。
+
+🎁 彩蛋：宫里的“红鹿”餐厅也是以这些鹿命名的。它2019年开业，开在约瑟夫·戈恰尔20年代为英捷银行设计的营业大厅和金库里。餐厅里那座铜啤酒罐塔据说是全国最高的，最后一只红色的罐子上还顶着一对鹿角。`,
+    },
+  },
 ];
 
 async function run() {

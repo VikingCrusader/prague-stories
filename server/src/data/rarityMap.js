@@ -90,7 +90,7 @@ export const SLUG_RARITY = {
   'czech-museum-of-music':        'rare',
   'veletrzni-palace':             'rare',
   'laterna-magika':               'rare',
-  'museum-of-communism':          'rare',
+  'stara-celnice':                'rare',
   'state-opera':                  'rare',
   'estates-theatre':              'rare',
   'naprstek-museum':              'rare',
