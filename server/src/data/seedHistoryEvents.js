@@ -25408,7 +25408,7 @@ export const historyEvents = [
     ],
     wikipediaUrl: "https://cs.wikipedia.org/wiki/Libe%C5%88sk%C3%BD_m%C3%ADr",
   },
-  // 2026-10-18, title by the user. Sources: cs.wikipedia Rudolfův majestát
+  // 2026-10-18, title by the user (first "从口头答应变成白纸黑字", shortened the same day). Sources: cs.wikipedia Rudolfův majestát
   // (9 July 1609 at Prague Castle; confirms the Bohemian Confession promised
   // only orally in 1575; no one may be forced in faith, for lords, royal towns
   // and subjects; churches and schools; the consistory and the university to
@@ -25453,9 +25453,9 @@ export const historyEvents = [
     },
     tone: "humorous",
     title: {
-      en: "From Word of Mouth to Black and White",
-      cz: "Od slibu ústy k černému na bílém",
-      zh: "从口头答应变成白纸黑字",
+      en: "In Black and White",
+      cz: "Černé na bílém",
+      zh: "白纸黑字",
     },
     hookLine: {
       en: "For thirty-four years the Bohemians' religious freedom existed only as something a king had said. In 1609 they made his son write it down.",
