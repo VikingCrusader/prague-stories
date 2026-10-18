@@ -488,35 +488,6 @@ Strašnice jsou stará obec, ale až do vzniku Československa tu nebyla ani far
     },
   },
   {
-    name: 'Church of Our Lady of the Angels',
-    slug: 'kostel-panny-marie-andelske',
-    localizedNames: { cz: 'Kostel Panny Marie Andělské', zh: '天使圣母教堂' },
-    labels: ['church', 'baroque'],
-    district: 'Praha 1',
-    quarter: 'Hradčany',
-    coordinates: { lat: 50.08991302365088, lng: 14.3904806618152 },
-    rarity: 'common',
-    xpReward: 10,
-    wikipediaUrl: '',
-    description: {
-      en: `The Church of Our Lady of the Angels stands in a quiet corner of Hradčany, next to the Loreto, as part of the oldest Capuchin monastery in Bohemia. The Capuchins arrived here in 1600, and they have been living by their rule of poverty in the shadow of Prague Castle ever since.
-
-The Capuchins are a branch of the Franciscan family: brown habits, sandals, and a strict commitment to poverty and simplicity going back to St. Francis of Assisi. Their church shows it. After the theatrical gold of Prague's great Baroque interiors, walking in here is like going from a full orchestra to a single held note: plain walls, wooden altars, very little decoration. The dedication points back to Assisi as well. Our Lady of the Angels is the name of the basilica that encloses the Porziuncola, the tiny chapel where the Franciscan movement began and where Francis died in 1226. Capuchin communities carried the dedication across Europe.
-
-🎁 Bonus: Every Christmas season the church displays a famous Nativity scene, a large Baroque crib with dozens of life-size figures that has been set up here for well over two hundred years. It is one of the best-known cribs in Central Europe, and it has survived Joseph II's closures of monasteries, two world wars and forty years of communism, still drawing Praguers every December.`,
-      cz: `Kostel Panny Marie Andělské stojí v tichém koutě Hradčan vedle Lorety jako součást nejstaršího kapucínského kláštera v Čechách. Kapucíni sem přišli roku 1600 a od té doby tu ve stínu Pražského hradu žijí podle své řehole chudoby.
-
-Kapucíni jsou větví františkánské rodiny: hnědé hábity, sandály a přísný slib chudoby a prostoty, který sahá až ke svatému Františku z Assisi. Na jejich kostele je to znát. Po divadelním zlatu velkých pražských barokních interiérů je vstup sem jako přechod od celého orchestru k jediné držené notě: prosté zdi, dřevěné oltáře, minimum výzdoby. I zasvěcení míří do Assisi. Panna Marie Andělská je jméno baziliky, která uzavírá Porciunkuli, maličkou kapli, kde františkánské hnutí začalo a kde František roku 1226 zemřel. Kapucínské komunity toto zasvěcení roznesly po celé Evropě.
-
-🎁 Bonus: Každé Vánoce je v kostele k vidění slavný betlém, velký barokní betlém s desítkami figur v životní velikosti, který se tu staví už přes dvě stě let. Patří k nejznámějším betlémům ve střední Evropě a přežil josefinské rušení klášterů, dvě světové války i čtyřicet let komunismu, a každý prosinec sem pořád táhne Pražany.`,
-      zh: `天使圣母教堂位于城堡区一个安静的角落，紧挨着洛雷塔教堂，属于波西米亚最古老的嘉布遣会修道院。嘉布遣会士1600年来到这里，从那以后就一直在布拉格城堡脚下按照守贫的会规生活。
-
-嘉布遣会是方济各大家庭的一支：褐色会衣、凉鞋，严格奉行一直可以追溯到阿西西的圣方济各的守贫和简朴。他们的教堂把这一点表现得清清楚楚。看惯了布拉格那些富丽堂皇的巴洛克金色内饰，走进这里就像从整支管弦乐团转到一个长长的单音：素墙、木祭坛，几乎没有装饰。教堂的献名也指向阿西西。“天使圣母”是包裹着小堂“波尔齐翁库拉”的那座大殿的名字，方济各运动就从这座小小的礼拜堂开始，方济各本人也于1226年在那里去世。嘉布遣会的修院把这个献名带到了整个欧洲。
-
-🎁 彩蛋：每到圣诞季，教堂里都会摆出一组有名的耶稣诞生场景，这是一组巨大的巴洛克马槽，有几十个真人大小的人物，在这里已经摆了两百多年。它是中欧最著名的马槽之一，熬过了约瑟夫二世关闭修道院、两次世界大战和四十年共产主义，每年十二月依然吸引着布拉格人前来。`,
-    },
-  },
-  {
     name: 'Monastery Church of Our Lady — U Kajetánů',
     slug: 'u-kajetanu',
     localizedNames: { cz: 'Klášterní kostel Panny Marie — U Kajetánů', zh: '嘉耶当修道院圣母教堂' },
@@ -3965,7 +3936,7 @@ Ten kupec, městský radní Karel Leopold Bepta, kapli zaplatil sám a svěřil 
     name: 'Capuchin Monastery (Hradčany)',
     slug: 'klaster-kapucinu-hradcany',
     localizedNames: { cz: 'Klášter kapucínů Hradčany', zh: '赫拉德恰尼嘉布遣会修道院' },
-    labels: ['monastery', 'baroque'],
+    labels: ['monastery', 'church', 'baroque'],
     district: 'Praha 1',
     quarter: 'Hradčany',
     coordinates: { lat: 50.08990533567678, lng: 14.39189169556788 },
@@ -3973,21 +3944,33 @@ Ten kupec, městský radní Karel Leopold Bepta, kapli zaplatil sám a svěřil 
     xpReward: 20,
     wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kl%C3%A1%C5%A1ter_kapuc%C3%ADn%C5%AF_(Hrad%C4%8Dany)',
     description: {
-      en: `The Capuchin Monastery in Hradčany, next to the Loreto, is the oldest Capuchin monastery in Bohemia. It was founded in 1600 by a friar who later became a saint, and it has since survived a Prussian siege, a world war and a communist expulsion.
+      en: `Next to the Loreto, behind a plain yellow wall, stands the oldest Capuchin monastery in Bohemia and its church, Our Lady of the Angels. The friars moved in around 1600 and still live here by their rule of poverty, a few steps from the tour groups queueing for the Loreto's gold.
 
-In 1599 a group of Capuchin friars arrived in Prague led by Lawrence of Brindisi, a brilliant Italian preacher and scholar who was later canonised and even declared a Doctor of the Church. Under his leadership they built this first monastery and its church, Our Lady of the Angels, on land given by the Archbishop of Prague. True to their rule of poverty, the buildings are plain and modest, a striking contrast to the lavish Loreto next door, which the Capuchins have looked after for centuries and which is linked to the monastery by a covered passage. History did not leave them in peace: during the Prussian siege of 1757 the area was shelled, and in 1950 the communist regime drove out the friars, as it did monks across the country, and handed the buildings to the state. The Capuchins came back only in 1990.
+In 1599 a group of Capuchins arrived in Prague led by Lawrence of Brindisi, an Italian preacher and scholar who was later canonised and even declared a Doctor of the Church. On land given by the Archbishop of Prague they built this first monastery. True to their rule, it is plain and modest, a striking contrast to the lavish Loreto next door, which the Capuchins have looked after for centuries and which is linked to the monastery by a covered passage.
 
-🎁 Bonus: The monastery's crypt holds the remains of Vratislav Eusebius of Pernštejn, the last male member of the Pernštejn family, one of the greatest noble houses of Bohemia and Moravia, who died in 1631. An entire dynasty's line ends quietly here, a few steps from the tour groups filing into the Loreto.`,
-      cz: `Kapucínský klášter na Hradčanech vedle Lorety je nejstarším kapucínským klášterem v Čechách. Založil ho roku 1600 řeholník, který se později stal světcem, a od té doby přežil pruské obléhání, světovou válku i komunistické vyhnání.
+The church shows the same spirit. After the theatrical gold of Prague's great Baroque interiors, walking in here is like going from a full orchestra to a single held note: plain walls, wooden altars, very little decoration. Even the dedication points back to Assisi. Our Lady of the Angels is the name of the basilica that encloses the Porziuncola, the tiny chapel where the Franciscan movement began and where Francis died in 1226, and Capuchin communities carried the name across Europe.
 
-Roku 1599 přišla do Prahy skupina kapucínů vedená Vavřincem z Brindisi, skvělým italským kazatelem a učencem, který byl později svatořečen a dokonce prohlášen učitelem církve. Pod jeho vedením postavili tento první klášter a jeho kostel Panny Marie Andělské na pozemku, který jim daroval pražský arcibiskup. Věrné jejich řeholi chudoby jsou budovy prosté a skromné, nápadný kontrast k okázalé Loretě vedle, o kterou se kapucíni po staletí starají a se kterou je klášter spojen krytou chodbou. Dějiny je nenechaly na pokoji: během pruského obléhání roku 1757 byla oblast ostřelována a roku 1950 komunistický režim řeholníky vyhnal, stejně jako mnichy po celé zemi, a budovy převzal stát. Kapucíni se vrátili až roku 1990.
+History did not leave the friars in peace. During the Prussian siege of 1757 the area was shelled, and in 1950 the communist regime drove them out, as it did monks across the country, and handed the buildings to the state. The Capuchins came back only in 1990.
 
-🎁 Bonus: V klášterní kryptě odpočívají ostatky Vratislava Eusebia z Pernštejna, posledního mužského příslušníka Pernštejnů, jednoho z největších šlechtických rodů Čech a Moravy, který zemřel roku 1631. Celý rod tu tiše končí pár kroků od výprav turistů, které proudí do Lorety.`,
-      zh: `城堡区紧挨着洛雷塔的嘉布遣会修道院，是波希米亚最古老的嘉布遣会修道院。它由一位后来被封为圣人的修士在1600年创立，此后熬过了普鲁士人的围城、一场世界大战，还有共产党的驱逐。
+🎁 Bonus: Every Christmas the church sets up its famous Baroque Nativity scene, with 32 human and 16 animal figures, the tallest of them life-size, made mostly of papier mâché, wood and glued textile. The oldest figures probably date from the first half of the 18th century, and for a long time nobody knew who made them; recent research points to a Capuchin friar, Oliver Steigerle.`,
+      cz: `Vedle Lorety, za prostou žlutou zdí, stojí nejstarší kapucínský klášter v Čechách a jeho kostel Panny Marie Andělské. Řeholníci se sem nastěhovali kolem roku 1600 a dodnes tu žijí podle své řehole chudoby, pár kroků od výprav, které stojí frontu na zlato Lorety.
 
-1599年，一群嘉布遣会修士在布林迪西的劳伦斯带领下来到布拉格，他是一位才华横溢的意大利布道家和学者，后来被封圣，甚至被尊为教会圣师。在他的带领下，他们在布拉格总主教捐赠的土地上建起了这第一座修道院和它的天使圣母教堂。按照他们守贫的会规，建筑朴素简单，和隔壁富丽堂皇的洛雷塔形成鲜明对比，几百年来一直是嘉布遣会在照管洛雷塔，两者之间还有一条有顶的走廊相连。历史并没有放过他们：1757年普鲁士围城时这一带遭到炮击，1950年共产党政权像对待全国的修士一样把他们赶走，建筑收归国有。嘉布遣会士直到1990年才回来。
+Roku 1599 přišla do Prahy skupina kapucínů vedená Vavřincem z Brindisi, italským kazatelem a učencem, který byl později svatořečen a dokonce prohlášen učitelem církve. Na pozemku, který jim daroval pražský arcibiskup, postavili tento první klášter. Věrný jejich řeholi je prostý a skromný, nápadný kontrast k okázalé Loretě vedle, o kterou se kapucíni po staletí starají a se kterou je klášter spojen krytou chodbou.
 
-🎁 彩蛋：修道院的地下墓室里安葬着佩恩施泰因的弗拉蒂斯拉夫·欧塞比乌斯，他是佩恩施泰因家族最后一位男性成员，这个家族是波希米亚和摩拉维亚最显赫的贵族之一，他死于1631年。整整一个王朝的血脉，就在这里悄悄终结，离涌进洛雷塔的旅游团只有几步之遥。`,
+Stejného ducha má i kostel. Po divadelním zlatu velkých pražských barokních interiérů je vstup sem jako přechod od celého orchestru k jediné držené notě: prosté zdi, dřevěné oltáře, minimum výzdoby. I zasvěcení míří do Assisi. Panna Marie Andělská je jméno baziliky, která uzavírá Porciunkuli, maličkou kapli, kde františkánské hnutí začalo a kde František roku 1226 zemřel, a kapucínské komunity toto jméno roznesly po celé Evropě.
+
+Dějiny řeholníky nenechaly na pokoji. Během pruského obléhání roku 1757 byla oblast ostřelována a roku 1950 je komunistický režim vyhnal, stejně jako mnichy po celé zemi, a budovy převzal stát. Kapucíni se vrátili až roku 1990.
+
+🎁 Bonus: Každé Vánoce se v kostele staví slavný barokní betlém s 32 postavami lidí a 16 zvířaty; ty největší jsou v životní velikosti a jsou většinou z papírové hmoty, dřeva a klíženého textilu. Nejstarší figury pocházejí nejspíš z první poloviny 18. století a jejich autor byl dlouho neznámý; nový výzkum ukazuje na kapucína Olivera Steigerleho.`,
+      zh: `洛雷塔教堂隔壁，一道朴素的黄墙后面，是波希米亚最古老的嘉布遣会修道院和它的天使圣母教堂。修士们大约1600年搬进来，至今仍按守贫的会规住在这里，离排队去看洛雷塔满堂金饰的旅游团只有几步路。
+
+1599年，一群嘉布遣会修士在布林迪西的劳伦斯带领下来到布拉格。他是一位意大利布道家和学者，后来被封圣，甚至被尊为教会圣师。他们在布拉格总主教捐赠的土地上建起了这第一座修道院。按照会规，它朴素简单，和隔壁富丽堂皇的洛雷塔形成鲜明对比。几百年来一直是嘉布遣会在照管洛雷塔，两者之间还有一条有顶的走廊相连。
+
+教堂也是同样的气质。看惯了布拉格那些富丽堂皇的巴洛克金色内饰，走进这里就像从整支管弦乐团转到一个长长的单音：素墙、木祭坛，几乎没有装饰。连献名也指向阿西西。“天使圣母”是包裹着小堂“波尔齐翁库拉”的那座大殿的名字，方济各运动就从这座小小的礼拜堂开始，方济各本人也于1226年在那里去世，嘉布遣会的修院把这个名字带到了整个欧洲。
+
+历史并没有放过这些修士。1757年普鲁士围城时这一带遭到炮击，1950年共产党政权像对待全国的修士一样把他们赶走，建筑收归国有。嘉布遣会士直到1990年才回来。
+
+🎁 彩蛋：每到圣诞，教堂里都会摆出那组有名的巴洛克马槽，有32个人物和16只动物，最大的和真人一样高，大多用纸浆、木头和浸胶的布料做成。最老的人物大概出自18世纪上半叶，作者是谁很长时间没人知道，最新的研究指向一位名叫奥利弗·施泰格勒的嘉布遣会修士。`,
     },
   },
   {
@@ -31931,6 +31914,267 @@ V hlavní kopuli stojí Königův dvojitý astrograf, který vyrobila firma Zeis
 主圆顶里是一台柯尼希双筒天体照相仪，由蔡司在1905到1907年间为维也纳的月面测绘家鲁道夫·柯尼希制造。它2022年被送到耶拿修复，2024年才回来。2018年的翻修把原来的图书室和工作间也向游客开放，还添了一间小餐馆。
 
 🎁 彩蛋：主圆顶的望远镜立在一根15米高的混凝土柱子上，而这根柱子里装的不只是望远镜的底座：天文学家雅罗斯拉夫·什蒂赫和卡雷尔·安德尔的骨灰就安放在里面。他们一辈子都在这栋楼里仰望星空，如今依然占着全馆最好的位置。`,
+    },
+  },
+  {
+    name: 'Plečnik Viewpoint',
+    slug: 'plecnikova-vyhlidka',
+    localizedNames: { cz: 'Plečnikova vyhlídka', zh: '普列赤尼克观景台' },
+    labels: ['park', 'world-wars', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.08986874705212, lng: 14.40187098274965 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Zahrada_Na_Valech',
+    description: {
+      en: `Every tour group at Prague Castle stops at the railing on Hradčany Square and takes the same photo, elbow to elbow. A few hundred metres east, below the castle's south wing, a semicircular stone terrace has almost the same view and a fraction of the people. Most visitors never find the stairs down.
+
+The terrace is part of the Garden on the Ramparts, which the Slovenian architect Jože Plečnik remodelled in the 1920s for President Masaryk. Masaryk wanted the old royal castle to feel like the seat of a democratic republic, open to the city below rather than shut off from it. Plečnik began by lowering the defensive wall of 1849, which had blocked the view between the castle and Malá Strana, and then laid out a promenade along the ramparts with a string of lookouts. This one sits on the axis of the garden, marked by a slender stone pyramid, one of the antique and Egyptian touches Plečnik scattered all over the castle. From the edge you look straight down onto the red roofs of Malá Strana, the green dome of St Nicholas and, beyond them, Petřín.
+
+🎁 Bonus: The easiest way here is Plečnik's Bull Staircase, which drops from the third courtyard straight into the garden. Its little canopy rests on stylised bulls, so you get a second Plečnik curiosity on the way down.`,
+      cz: `Každá výprava na Pražském hradě se zastaví u zábradlí na Hradčanském náměstí a udělá tu samou fotku, loket na loktu. Pár set metrů na východ, pod jižním křídlem Hradu, je půlkruhová kamenná terasa s téměř stejným výhledem a se zlomkem lidí. Většina návštěvníků schody dolů nikdy nenajde.
+
+Terasa patří k zahradě Na Valech, kterou ve 20. letech pro prezidenta Masaryka přestavěl slovinský architekt Josip Plečnik. Masaryk chtěl, aby starý královský hrad působil jako sídlo demokratické republiky, otevřené městu pod sebou, a ne od něj odříznuté. Plečnik začal tím, že snížil obrannou zeď z roku 1849, která bránila výhledu mezi Hradem a Malou Stranou, a pak podél valů vedl promenádu s řadou vyhlídek. Tahle leží v ose zahrady a označuje ji štíhlá kamenná pyramida, jeden z antických a egyptských motivů, které Plečnik po Hradě rozesel. Z okraje se díváte rovnou dolů na červené střechy Malé Strany, zelenou kopuli svatého Mikuláše a za nimi na Petřín.
+
+🎁 Bonus: Nejsnáz se sem dostanete Plečnikovým Býčím schodištěm, které vede z třetího nádvoří přímo do zahrady. Jeho stříška spočívá na stylizovaných býcích, takže cestou dolů uvidíte ještě jednu Plečnikovu kuriozitu.`,
+      zh: `布拉格城堡的每个旅行团，都会在城堡广场的栏杆边停下，肩挨着肩拍同一张照片。往东几百米，在城堡南翼下方，有一座半圆形的石砌平台，景色几乎一模一样，人却少得多。大多数游客根本找不到下去的台阶。
+
+这座平台属于城垛花园。20世纪20年代，斯洛文尼亚建筑师约热·普列赤尼克受马萨里克总统之托改造了这里。马萨里克希望这座古老的王宫看起来像一个民主共和国的总统府，向脚下的城市敞开，而不是把自己关起来。普列赤尼克先把1849年修的那道挡住城堡与小城区之间视线的防御墙降低，然后沿着城垛铺了一条散步道，串起一连串观景点。这一处正对花园的中轴，由一座细长的石制金字塔标出，普列赤尼克在城堡各处都撒下了这类古典和埃及式的小装饰。站在边上往下看，就是小城区的红屋顶、圣尼古拉教堂的绿色穹顶，再远一点是佩特任山。
+
+🎁 彩蛋：来这里最方便的路，是普列赤尼克设计的公牛阶梯，它从城堡第三庭院直接通到花园里。阶梯上方的小顶棚由几头造型古朴的公牛托着，下楼的路上还能顺便再看一件普列赤尼克的奇思妙想。`,
+    },
+  },
+  {
+    name: 'Slavata Obelisk',
+    slug: 'slavatuv-obelisk',
+    localizedNames: { cz: 'Slavatův obelisk', zh: '斯拉瓦塔方尖碑' },
+    labels: ['monument', 'early-modern'],
+    district: 'Praha 1',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.09017336952639, lng: 14.401891768689406 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/T%C5%99et%C3%AD_pra%C5%BEsk%C3%A1_defenestrace',
+    description: {
+      en: `A modest sandstone obelisk on a lawn in the castle gardens, easy to walk past. It marks, supposedly to the metre, where an imperial governor hit the ground on 23 May 1618, after a group of angry Protestant nobles threw him out of a window above. The Thirty Years' War started here.
+
+That morning the Protestant estates, furious at the Habsburgs for breaking the promises on religious freedom, marched into the Bohemian Chancellery in the Old Royal Palace. After a heated argument they seized two of the emperor's governors, Vilém Slavata of Chlum and Jaroslav Bořita of Martinic, and threw them out of the window, then their secretary Philipp Fabricius after them. The drop was more than 15 metres, and all three survived. Martinic landed right under the windows; Slavata, who struck his head on the way down, rolled on down the slope of the old castle moat, which is why his obelisk stands out in the open garden, away from the wall. Martinic's stands nearby, closer to the palace. Both are early Baroque and were put up on imperial orders in the 17th century (sources disagree on whether under Ferdinand II or Ferdinand III). In the 1920s Plečnik, remodelling the garden, gave Slavata's obelisk a polished granite railing.
+
+🎁 Bonus: Catholic writers said angels, or the Virgin Mary, caught the three men in mid-air; the Protestant retort was that they had landed in a dung heap. Fabricius got no obelisk, but the emperor ennobled him with the title "von Hohenfall", "of the High Fall".`,
+      cz: `Skromný pískovcový obelisk na trávníku v hradní zahradě, kolem kterého se dá snadno přejít. Označuje, prý na metr přesně, místo, kam 23. května 1618 dopadl císařský místodržící poté, co ho skupina rozlícených protestantských šlechticů vyhodila z okna nad ním. Tady začala třicetiletá válka.
+
+Toho rána vtrhli protestantští stavové, rozzlobení, že Habsburkové porušují sliby o náboženské svobodě, do České kanceláře ve Starém královském paláci. Po vyhrocené hádce popadli dva císařovy místodržící, Viléma Slavatu z Chlumu a Jaroslava Bořitu z Martinic, a vyhodili je z okna, za nimi i jejich písaře Filipa Fabricia. Pád měřil přes 15 metrů a všichni tři přežili. Martinic dopadl přímo pod okny; Slavata, který si cestou rozbil hlavu, se skutálel dál po svahu bývalého hradního příkopu, a proto jeho obelisk stojí volně v zahradě, dál od zdi. Martinicův obelisk stojí opodál, blíž k paláci. Oba jsou raně barokní a v 17. století je dal vztyčit císař (prameny se rozcházejí, zda Ferdinand II., nebo Ferdinand III.). Ve 20. letech dal Plečnik při přestavbě zahrady Slavatovu obelisku leštěné žulové zábradlí.
+
+🎁 Bonus: Katoličtí autoři tvrdili, že všechny tři zachytili ve vzduchu andělé, nebo Panna Marie; protestanti odpovídali, že spadli na hnůj. Fabricius obelisk nedostal, zato ho císař povýšil do šlechtického stavu s přídomkem „von Hohenfall“, tedy „z Vysokého pádu“.`,
+      zh: `城堡花园草坪上一座不起眼的砂岩方尖碑，很容易就走过去了。据说它分毫不差地标出了1618年5月23日一位皇帝的总督落地的位置：就在那天，一群愤怒的新教贵族把他从头顶的窗户扔了出来。三十年战争就从这里开始。
+
+那天上午，因哈布斯堡家族违背宗教自由的承诺而怒火中烧的新教等级代表，闯进了旧王宫里的波希米亚宫廷大臣办公室。一番激烈争吵之后，他们抓住皇帝的两位总督，赫卢姆的维莱姆·斯拉瓦塔和马丁尼采的雅罗斯拉夫·博日塔，把两人扔出窗外，又把他们的秘书菲利普·法布里齐乌斯也扔了下去。落差超过15米，三个人却都活了下来。博日塔正好摔在窗下；斯拉瓦塔下落时撞破了头，又顺着当年城堡壕沟的斜坡一路滚了下去，所以他的方尖碑孤零零立在花园中间，离墙有段距离。博日塔的那座就在附近，离王宫更近。两座碑都是早期巴洛克风格，17世纪奉皇帝之命竖立（至于是斐迪南二世还是斐迪南三世，说法不一）。20世纪20年代，普列赤尼克改造花园时，给斯拉瓦塔的方尖碑加了一圈磨光的花岗岩栏杆。
+
+🎁 彩蛋：天主教作者说，是天使或圣母马利亚在半空中接住了这三个人；新教那边则反唇相讥，说他们是掉进了粪堆里。法布里齐乌斯没有得到方尖碑，不过皇帝封了他一个贵族头衔，叫“冯·霍恩法尔”，意思是“高坠者”。`,
+    },
+  },
+  {
+    name: 'Lázně Toušeň',
+    slug: 'lazne-tousen',
+    localizedNames: { cz: 'Lázně Toušeň', zh: '图什尼温泉镇' },
+    labels: ['city', 'hidden-gem', 'outside'],
+    coordinates: { lat: 50.169365013506074, lng: 14.716462889971236 },
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/L%C3%A1zn%C4%9B_Tou%C5%A1e%C5%88',
+    description: {
+      en: `A small spa town on the Elbe, right opposite the mouth of the Jizera, where people come to lie in warm black mud and call it medicine. Long before the mud baths it was a river crossing, a castle and, for a few years, the country home of the most hated man in Prague, or so his enemies said.
+
+People have lived here for some five thousand years: a gold hair ornament from around 3000 BC, one of the oldest gold objects found in Central Europe, turned up near the town. The written record starts in 1293, when Queen Guta gave away the income from the local ferry. The castle above the crossing passed from the lords of Michalovice to Charles IV's brother John Henry, then to a string of noble owners and to George of Poděbrady; in 1421 Prague's troops took it after a three-day siege. Around 1518 it was bought by Jan Pašek of Vrat, a Prague lawyer who went on to run the city. He rebuilt the castle as a Renaissance château and laid out vineyards, hop gardens and fishponds, and after the king banished him from Prague in 1530 he lived here until his death in March 1533. Even a chronicler who loathed him admitted that Toušeň had never gleamed with so much new brick.
+
+It did not last. The Crown took the estate in 1547, and in the Thirty Years' War the abandoned château was destroyed; nothing of it stands today. The town's second life began in 1868, when Jan Králík opened mud baths here, and from 1899 sulphur-iron mud became the main cure. The spa house dates from 1899, the colonnade from 1912 and the neo-Gothic church of St Florian from 1888–90. The spa still treats bad backs and joints and patients recovering from spinal surgery, and only in 1991 did the town officially put the spa into its name.
+
+🎁 Bonus: The famous mud is not from Toušeň at all. It is dug from a peat basin at Labiště near Čelákovice, a few kilometres upstream, and brought over. Toušeň supplies the baths, the colonnade and the patience.`,
+      cz: `Malé lázeňské městečko na Labi, přímo naproti ústí Jizery, kam lidé jezdí ležet v teplém černém bahně a říkají tomu léčba. Dávno před bahenními koupelemi tu byl brod a přívoz, hrad a na pár let i venkovský domov nejnenáviděnějšího muže Prahy, aspoň podle jeho nepřátel.
+
+Lidé tu žijí asi pět tisíc let: nedaleko městečka se našla zlatá vlasová ozdoba z doby kolem roku 3000 př. n. l., jeden z nejstarších zlatých předmětů nalezených ve střední Evropě. Písemné dějiny začínají roku 1293, kdy královna Guta darovala výnos ze zdejšího přívozu. Hrad nad přechodem přešel od pánů z Michalovic na bratra Karla IV. Jana Jindřicha, pak na řadu šlechtických majitelů a na Jiřího z Poděbrad; roku 1421 ho po třídenním obléhání dobyla pražská vojska. Kolem roku 1518 ho koupil Jan Pašek z Vratu, pražský právník, který pak město ovládl. Přestavěl hrad na renesanční zámek, založil vinice, chmelnice a rybníky, a když ho král roku 1530 vypověděl z Prahy, žil tu až do své smrti v březnu 1533. I kronikář, který ho z duše nenáviděl, uznal, že se Toušeň nikdy tak neskvěla novými cihlami.
+
+Netrvalo to dlouho. Roku 1547 panství připadlo koruně a za třicetileté války byl opuštěný zámek zničen; dnes z něj nestojí nic. Druhý život městečka začal roku 1868, kdy tu Jan Králík otevřel bahenní lázně, a od roku 1899 se hlavní léčbou staly koupele v sirnoželezitém bahně. Lázeňský dům pochází z roku 1899, kolonáda z roku 1912 a novogotický kostel sv. Floriána z let 1888–1890. Lázně dodnes léčí bolavá záda a klouby i pacienty po operacích páteře a lázně má městečko oficiálně v názvu teprve od roku 1991.
+
+🎁 Bonus: Slavné bahno vůbec není z Toušeně. Těží se v rašelinné pánvi v Labišti u Čelákovic, pár kilometrů proti proudu, a sem se přiváží. Toušeň dodává koupele, kolonádu a trpělivost.`,
+      zh: `易北河边的一座温泉小镇，正对着伊泽拉河的河口。人们到这里来，躺进温热的黑泥里，管这叫治病。早在有泥浴之前，这里是渡口，是城堡，还有那么几年，是布拉格最招人恨的那个人在乡下的家（至少他的对头们这么说）。
+
+这一带有人居住已有五千年左右：镇子附近出土过一件约公元前3000年的金发饰，是中欧发现的最古老的金器之一。有文字记载的历史始于1293年，那一年，王后古塔把本地渡口的收入赐了出去。渡口上方的城堡先后归米哈洛维采家族、查理四世的弟弟扬·亨利，后来又换了好几任贵族主人，也落到过波杰布拉迪的伊日手里；1421年，布拉格的军队围攻三天，拿下了它。1518年前后，布拉格律师扬·帕谢克买下了这里，后来正是他把持了布拉格。他把城堡改建成文艺复兴式的府邸，种葡萄、种啤酒花、挖鱼塘；1530年被国王逐出布拉格以后，他就住在这里，直到1533年3月去世。连恨他入骨的编年史家都承认，图什尼从没这样满眼新砖新瓦过。
+
+好景不长。1547年，庄园被王室收走，三十年战争中，荒废的府邸被彻底毁掉，如今一点也没留下。小镇的第二段人生开始于1868年：那一年，扬·克拉利克在这里开了泥浴疗养院，1899年起，含硫含铁的泥浴成了这里的招牌。疗养楼建于1899年，柱廊建于1912年，新哥特式的圣弗洛里安教堂建于1888至1890年。如今的疗养院仍专治腰背和关节，也接收脊椎手术后来康复的病人。直到1991年，小镇才正式把“温泉”写进了名字。
+
+🎁 彩蛋：这里出名的泥，其实根本不是图什尼本地的。它挖自上游几公里外、切拉科维采附近拉比什捷的一片泥炭盆地，再运过来。图什尼出的，是浴池、柱廊和耐心。`,
+    },
+  },
+  {
+    name: 'Sternberg Palace (Malá Strana)',
+    slug: 'sternbersky-palac-mala-strana',
+    localizedNames: { cz: 'Šternberský palác (Malá Strana)', zh: '什切尔恩贝格宫（小城）' },
+    labels: ['palace', 'baroque', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.08868335640639, lng: 14.404397156756515 },
+    rarity: 'rare',
+    xpReward: 20,
+    coverImage: 'https://res.cloudinary.com/djravajgw/image/upload/v1792239527/prague-stories/covers/sternbersky-palac.webp',
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C5%A0ternbersk%C3%BD_pal%C3%A1c_(Mal%C3%A1_Strana)',
+    description: {
+      en: `A handsome Baroque palace with a row of arcades on the upper side of the Lesser Town square, now part of the Czech Parliament. It is easy to confuse with the other Sternberg Palace up by the castle gates, and few of the people who walk past know that the worst fire in Prague's history started on this very spot.
+
+On 2 June 1541 fire broke out by the kitchen chimney of a house called Na Baště, which stood here and belonged to Ludvík of Gutštejn. Within two hours it had burned two-thirds of the Lesser Town, much of Hradčany and Prague Castle, and with the castle the Land Tables, the kingdom's register of noble property. Two Renaissance houses later rose on the old Gothic walls. In 1664 Count Oldřich Adolf Vratislav of Šternberk bought the burned plot, then the house next door, and between 1703 and 1719 his heir František Damián joined the two into the present palace, most likely to a design by Giovanni Battista Alliprandi. The facade still carries a Baroque painting of the Coronation of the Virgin and the Šternberk arms with the chain of the Golden Fleece.
+
+In the late 18th century the palace became a meeting place for scholars: in 1770 a private learned society was founded here that grew into the Royal Bohemian Society of Sciences, and later the naturalist Kašpar of Šternberk gathered the men of the Czech National Revival around him, a circle out of which the idea of a National Museum grew.
+
+🎁 Bonus: After 1541 the plot where the fire started was thought to be cursed, and it went unsold for a long time. It took the Šternberks, more than a century later, to decide that a good address on the square was worth a little bad luck.`,
+      cz: `Pohledný barokní palác s řadou arkád na horní straně Malostranského náměstí, dnes součást Poslanecké sněmovny. Snadno se plete s druhým Šternberským palácem nahoře u hradní brány a jen málokdo z kolemjdoucích ví, že právě tady začal nejhorší požár v dějinách Prahy.
+
+Dne 2. června 1541 vyšel oheň u komína od kuchyně v domě zvaném Na Baště, který tu stál a patřil Ludvíkovi z Gutštejna. Během dvou hodin strávil dvě třetiny Malé Strany, velkou část Hradčan i Pražský hrad a s hradem i zemské desky, rejstřík šlechtického majetku celého království. Na starých gotických zdech pak vyrostly dva renesanční domy. Roku 1664 koupil spáleniště hrabě Oldřich Adolf Vratislav ze Šternberka, později i sousední dům, a v letech 1703–1719 je jeho dědic František Damián spojil v dnešní palác, nejspíš podle návrhu Giovanniho Battisty Alliprandiho. Na průčelí dodnes zůstal barokní obraz Korunování Panny Marie a šternberský erb s řetězem Řádu zlatého rouna.
+
+Koncem 18. století se palác stal místem učenců: roku 1770 tu vznikla soukromá učená společnost, z níž vyrostla Královská česká společnost nauk, a později kolem sebe přírodovědec Kašpar ze Šternberka shromažďoval muže národního obrození, v jejichž kruhu se zrodila myšlenka Národního muzea.
+
+🎁 Bonus: Po roce 1541 se parcela, kde požár začal, považovala za prokletou a dlouho se ji nedařilo prodat. Až Šternberkové o víc než sto let později usoudili, že dobrá adresa na náměstí za trochu smůly stojí.`,
+      zh: `小城广场上侧一座带一排拱廊的漂亮巴洛克宫殿，如今是捷克众议院的一部分。它很容易和城堡大门边上那座同名的什切尔恩贝格宫搞混；从门前走过的人里，也很少有人知道，布拉格历史上最惨烈的那场大火，就是从这块地皮上烧起来的。
+
+1541年6月2日，这里原有的一栋叫“棱堡”的房子，厨房烟囱旁边起了火，房主是古特施泰因家的路德维克。两个钟头里，大火烧掉了小城三分之二的房子、城堡区的一大片和整座布拉格城堡，连同城堡里记录全国贵族地产的土地册。后来，原来的哥特式墙基上又盖起了两栋文艺复兴式的房子。1664年，什切尔恩贝格家的奥尔德日赫·阿道夫·弗拉蒂斯拉夫伯爵买下了这块烧过的地皮，后来又买下隔壁那栋房子；1703至1719年，他的继承人弗朗齐歇克·达米安把两栋房子连成了今天这座宫殿，设计者很可能是乔瓦尼·巴蒂斯塔·阿利普兰迪。宫殿正面至今还留着一幅巴洛克时代的《圣母加冕》，以及挂着金羊毛勋章项链的什切尔恩贝格家族纹章。
+
+18世纪后期，这里成了学者聚会的地方：1770年，一个私人学会在这里成立，后来发展成了王家波希米亚科学会；再往后，博物学家卡什帕尔·什切尔恩贝格把捷克民族复兴的一批人聚在身边，国家博物馆的设想，就是从这个圈子里来的。
+
+🎁 彩蛋：1541年以后，起火的这块地皮被当成了凶宅，很长时间都没人敢买。直到一百多年后，什切尔恩贝格家才拿定主意：广场上的好地段，沾点晦气也值。`,
+    },
+  },
+  {
+    name: 'Black Tower',
+    slug: 'cerna-vez-prazsky-hrad',
+    localizedNames: { cz: 'Černá věž', zh: '黑塔' },
+    labels: ['tower', 'romanesque', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.09192462150065, lng: 14.40505081601662 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C4%8Cern%C3%A1_v%C4%9B%C5%BE_(Pra%C5%BEsk%C3%BD_hrad)',
+    description: {
+      en: `A square, sturdy stone tower at the eastern end of Prague Castle, right where the Old Castle Stairs come up from the Lesser Town. It is the oldest survivor of the castle's defences, and it owes its name not to anything sinister but to soot: in the great fire of 1541 it did not burn down, it just turned black.
+
+It was probably built soon after 1135, when Duke Soběslav I moved his seat back from Vyšehrad to the castle and ringed it with stone walls. It was one of three similar towers guarding the gates; its own gate was walled up in the 13th century, and from then on it served as a defensive tower with a watchman on the top floor. Under Charles IV its pyramid roof was covered in gilded lead, and people called it the Golden Tower. After lightning set it alight in 1538, its first-floor room was probably turned into a prison, and three years later the great fire of 1541 blackened its walls for good. In 1547, after the failed rising of the Bohemian estates against Ferdinand I, more than six hundred people were arrested, and some of them ended up here, among them the Old Town chancellor Sixt of Ottersdorf, who later wrote his own history of those two restless years.
+
+The tower is about 26 metres tall, with walls up to three metres thick, and it is the only tower of the original Romanesque fortifications that survives complete.
+
+🎁 Bonus: Today the Black Tower is closed to visitors. It serves as a store for archaeological finds from Prague Castle, which makes it, in a way, the castle's attic.`,
+      cz: `Hranatá, statná kamenná věž na východním konci Pražského hradu, přesně tam, kde ústí Staré zámecké schody od Malé Strany. Je to nejstarší dochovaná část hradního opevnění a své jméno nemá z ničeho zlověstného, ale ze sazí: při velkém požáru roku 1541 nevyhořela, jen zčernala.
+
+Postavena byla nejspíš brzy po roce 1135, kdy kníže Soběslav I. přenesl své sídlo z Vyšehradu zpět na hrad a obehnal ho kamennými hradbami. Byla jednou ze tří podobných věží, které střežily brány; její vlastní brána byla ve 13. století zazděna a věž pak sloužila obraně, s hláskou v horním patře. Za Karla IV. dostala jehlancová střecha pozlacené olověné plechy a lidé věži říkali Zlatá. Když ji roku 1538 zapálil blesk, byla světnice v prvním patře nejspíš přestavěna na vězení, a o tři roky později jí velký požár roku 1541 natrvalo zčernal zdi. Roku 1547, po nezdařeném odboji českých stavů proti Ferdinandovi I., bylo zatčeno přes šest set lidí a někteří z nich skončili tady, mezi nimi staroměstský kancléř Sixt z Ottersdorfu, který pak sepsal vlastní historii oněch dvou nepokojných let.
+
+Věž je vysoká asi 26 metrů, zdi má silné až tři metry a je jedinou úplně dochovanou věží původního románského opevnění.
+
+🎁 Bonus: Dnes je Černá věž pro návštěvníky zavřená. Slouží jako depozitář archeologických nálezů z Pražského hradu, takže je to tak trochu hradní půda.`,
+      zh: `布拉格城堡东头一座方方正正、敦敦实实的石塔，就立在从小城上来的旧城堡阶梯尽头。它是城堡防御工事里留存至今最古老的一部分；名字听着吓人，其实来历很平常，是烟熏出来的：1541年那场大火没把它烧塌，只把它熏黑了。
+
+它大概建于1135年之后不久，那时索别斯拉夫一世公爵把驻地从维谢赫拉德搬回城堡，给城堡围上了石墙。它是守卫城门的三座相似的塔楼之一；13世纪，塔下的城门被砌死，从此它只管防守，顶层住着一个守望人。查理四世时代，它那金字塔形的屋顶铺上了镀金的铅皮，人们管它叫“金塔”。1538年，一道雷电让它起了火，此后一楼的屋子大概被改成了牢房；三年后，1541年的大火把它的墙熏得漆黑，再也没白回来。1547年，波希米亚等级反抗斐迪南一世的起义失败，六百多人被捕，其中一些人就关在这里，老城的书记官锡克斯特也在其中，他后来自己写了一部书，记下那两个动荡之年。
+
+塔高约26米，墙最厚处有3米，是城堡原有的罗马式防御工事里，唯一一座完整保存下来的塔楼。
+
+🎁 彩蛋：如今黑塔不对游客开放，里面存放着布拉格城堡出土的考古文物，某种意义上，它算是城堡的阁楼。`,
+    },
+  },
+  {
+    name: 'White Tower',
+    slug: 'bila-vez-prazsky-hrad',
+    localizedNames: { cz: 'Bílá věž', zh: '白塔' },
+    labels: ['tower', 'gothic', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.09199213244092, lng: 14.403354592946702 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/B%C3%ADl%C3%A1_v%C4%9B%C5%BE_(Pra%C5%BEsk%C3%BD_hrad)',
+    description: {
+      en: `A tall, horseshoe-shaped tower in the northern wall of Prague Castle, at the end of Golden Lane between Dalibor Tower and the Mihulka. Visitors stroll past the tiny coloured houses towards it without much thought, but for a long time this was where the castle kept its state prisoners, and its very name is second-hand.
+
+It was built after 1486, when Vladislaus Jagiellon had the castle's northern side fortified, probably by his master builder Benedikt Ried, and in 1522 it gained another, thinner-walled floor. In 1586 and 1587 it was turned into a prison and inherited the name of the old Romanesque White Tower at the castle's western gate, which had served as the prison until then. Its grimmest chapter came after the Battle of White Mountain: in 1621 leading nobles and burghers of the defeated estates were locked up here, among them Vilém the Elder of Lobkowicz, Václav Budovec and Diviš Černín. One of them, Martin Fruwein, tried to escape through a dormer window onto the roof and fell into the Deer Moat below; the sentence was carried out on his body all the same.
+
+Inside, the ground floor held a torture chamber, with a shaft leading down to a lower prison and, below that, a pit for those left to starve. The upper floors keep their original stove and painted ceiling, and their walls are covered with inscriptions and drawings left by prisoners of the 16th and 17th centuries.
+
+🎁 Bonus: The tower that has been called the White Tower for over four centuries only borrowed the name; the original White Tower, on the other side of the castle, has long since disappeared.`,
+      cz: `Vysoká podkovovitá věž v severní hradbě Pražského hradu, na konci Zlaté uličky mezi Daliborkou a Mihulkou. Návštěvníci k ní kolem drobných barevných domků přicházejí bez velkého přemýšlení, jenže dlouho tu hrad držel své státní vězně a i samotné jméno má věž z druhé ruky.
+
+Postavena byla po roce 1486, kdy dal Vladislav Jagellonský opevnit severní stranu hradu, nejspíš jeho stavitelem Benediktem Rejtem, a roku 1522 přibylo další patro se slabšími zdmi. V letech 1586–1587 byla přestavěna na vězení a zdědila jméno staré románské Bílé věže u západní brány hradu, která do té doby jako vězení sloužila. Nejtemnější kapitola přišla po Bílé hoře: roku 1621 tu byli uvězněni přední šlechtici a měšťané poražených stavů, mezi nimi Vilém starší z Lobkovic, Václav Budovec a Diviš Černín. Jeden z nich, Martin Fruwein, se pokusil utéct vikýřem na střechu a zřítil se do Jeleního příkopu; rozsudek byl přesto vykonán na jeho mrtvém těle.
+
+Uvnitř byla v přízemí mučírna, ze které vedla šachta do dolního vězení a pod ním ještě do hladomorny. Horní patra si zachovala původní kamna i malovaný strop a jejich zdi pokrývají nápisy a kresby vězňů ze 16. a 17. století.
+
+🎁 Bonus: Věž, které se přes čtyři sta let říká Bílá, si to jméno jen vypůjčila; původní Bílá věž na druhé straně hradu už dávno zmizela.`,
+      zh: `布拉格城堡北墙上一座高高的马蹄形塔楼，在黄金巷的尽头，夹在达利博尔塔和米胡尔卡塔之间。游客们从一排排彩色小房子旁边走向它，多半不会多想；可在很长一段时间里，城堡就把国家要犯关在这里，就连“白塔”这个名字，都是从别处借来的。
+
+它建于1486年以后。那时弗拉迪斯拉夫国王下令加固城堡北侧，设计者大概是他的建筑师贝内迪克特·里德；1522年，塔上又加了一层墙壁薄得多的楼。1586至1587年，它被改成了监狱，也继承了城堡西门那座罗马式老白塔的名字，老白塔在那之前一直当监狱用。它最黑暗的一页，是在白山战役之后：1621年，战败一方的一批头面贵族和市民被关进这里，其中有老维莱姆·洛布科维茨、瓦茨拉夫·布多韦茨和迪维什·切尔宁。其中一人马丁·弗鲁万想从天窗爬上屋顶逃走，结果摔进了下面的鹿沟；可判决照样执行在了他的尸体上。
+
+塔里的底层是刑讯室，一条竖井通到下面的牢房，再往下，还有一个饿死犯人的地牢。上面几层还留着当年的炉子和彩绘天花板，墙上满是16、17世纪囚犯留下的字迹和涂画。
+
+🎁 彩蛋：这座被叫了四百多年“白塔”的塔，名字其实是借来的；真正的老白塔在城堡另一头，早就不在了。`,
+    },
+  },
+  {
+    name: 'Březnice Castle',
+    slug: 'zamek-breznice',
+    localizedNames: { cz: 'Zámek Březnice', zh: '布热兹尼采城堡' },
+    labels: ['castle and fortress', 'renaissance', 'outside'],
+    coordinates: { lat: 49.55763326583221, lng: 13.956413123396961 },
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/B%C5%99eznice_(z%C3%A1mek)',
+    description: {
+      en: `A Renaissance château with sgraffito walls in the small town of Březnice in Central Bohemia, about seventy kilometres south of Prague. It looks like a calm, respectable country house, which is exactly what made it the right place for one of the most carefully kept secrets of the Habsburg family: a wedding nobody was supposed to know about.
+
+It began as a Gothic stronghold, probably founded in the second half of the 13th century; a Budislav of Březnice is recorded from 1224. From 1415 it belonged for nearly a century to the Zmrzlíks of Svojšín, who rebuilt it after the Hussite wars, and from 1506 to the Malovecs, who joined the estates' revolt against Ferdinand I and lost it to the Crown in 1547. Jiří of Lokšan, a deputy imperial chancellor, then turned it into a Renaissance residence, and his widow Kateřina carried on the work and made Březnice a lively social centre. Kateřina's niece was Philippine Welser, the beautiful daughter of a rich Augsburg merchant family, and it was here, in January 1557, that Archduke Ferdinand of Tyrol, son of King Ferdinand I, secretly married her. Their elder son Andreas, later a cardinal, was born here in 1558. The Lokšans also founded a library in 1558. In 1623 the castle passed to Přibík Jeníšek of Újezd, who built its chapel and laid out the garden; later owners included the Kolowrats and the Pálffys.
+
+Since 1945 the castle has belonged to the state, and the National Heritage Institute has restored it towards its Renaissance appearance. It is open to visitors.
+
+🎁 Bonus: In 1889–1890 the Pálffys gave the castle new neo-Renaissance sgraffito decoration, and in 1933 they covered it all with plain grey plaster. Getting the castle's Renaissance face back has been the restorers' work ever since.`,
+      cz: `Renesanční zámek se sgrafitovými zdmi v městečku Březnice ve středních Čechách, asi sedmdesát kilometrů jižně od Prahy. Vypadá jako klidné, spořádané venkovské sídlo, a právě proto se hodil pro jedno z nejpečlivěji střežených tajemství habsburského rodu: svatbu, o které se nikdo neměl dozvědět.
+
+Začínal jako gotická tvrz, založená nejspíš ve druhé polovině 13. století; Budislav z Březnice je zmiňován od roku 1224. Od roku 1415 patřil skoro celé století Zmrzlíkům ze Svojšína, kteří ho po husitských válkách přestavěli, a od roku 1506 Malovcům, kteří se přidali ke stavovskému odboji proti Ferdinandovi I. a roku 1547 o něj přišli ve prospěch koruny. Jiří z Lokšan, místokancléř říšské dvorské kanceláře, ho pak přestavěl na renesanční sídlo a jeho vdova Kateřina v díle pokračovala a udělala z Březnice živé společenské centrum. Kateřininou neteří byla Filipína Welserová, krásná dcera bohatého augsburského kupeckého rodu, a právě tady se s ní v lednu 1557 tajně oženil arcivévoda Ferdinand Tyrolský, syn krále Ferdinanda I. Jejich starší syn Ondřej, pozdější kardinál, se tu narodil roku 1558. Lokšanové tu roku 1558 založili i knihovnu. Roku 1623 získal zámek Přibík Jeníšek z Újezda, který dal postavit kapli a založil zahradu; mezi pozdějšími majiteli byli Kolovratové a Pálffyové.
+
+Od roku 1945 patří zámek státu a Národní památkový ústav ho obnovil směrem k renesanční podobě. Je přístupný veřejnosti.
+
+🎁 Bonus: V letech 1889–1890 dali Pálffyové zámku novou novorenesanční sgrafitovou výzdobu a roku 1933 ji celou zakryli hladkou šedou omítkou. Vrátit zámku renesanční tvář je od té doby prací restaurátorů.`,
+      zh: `中波希米亚小城布热兹尼采里的一座文艺复兴城堡，墙上满是刮画装饰，离布拉格往南大约七十公里。它看上去就是一座安安静静、规规矩矩的乡间宅邸，也正因为如此，它才最适合藏下哈布斯堡家族一个保守得最严的秘密：一场谁都不该知道的婚礼。
+
+它最早是一座哥特式的设防庄园，大概建于13世纪下半叶；1224年起，史料里就有了“布热兹尼采的布迪斯拉夫”。从1415年起，它在兹姆尔兹利克家族手里待了将近一百年，他们在胡斯战争后把它重建了一遍；1506年，它归了马洛韦茨家族，这一家后来加入了反对斐迪南一世的等级起义，1547年城堡被王室没收。接手的帝国副首相伊日·洛克山，把它改建成了文艺复兴式的府邸，他的遗孀卡特日娜接着往下修，还让布热兹尼采成了热闹的社交场所。卡特日娜的侄女，就是奥格斯堡富商家的美丽女儿菲莉皮内·韦尔泽；1557年1月，斐迪南一世国王的儿子、蒂罗尔的斐迪南大公，就在这里秘密娶了她。他们的长子、后来当上枢机主教的安德烈亚斯，1558年也生在这里。同一年，洛克山家还在城堡里建起了一座藏书室。1623年，城堡归了乌耶兹德的普日比克·耶尼谢克，他修了城堡礼拜堂，辟了花园；后来的主人还有科洛夫拉特家族和帕尔菲家族。
+
+1945年起，城堡收归国有，国家文物研究所按文艺复兴时期的样子把它修复了一遍。如今对游客开放。
+
+🎁 彩蛋：1889至1890年，帕尔菲家给城堡做了一套新的仿文艺复兴刮画装饰，到了1933年，又把它统统抹上了一层素灰色的灰泥。把城堡的文艺复兴面貌找回来，从那以后就成了修复师们的活儿。`,
+    },
+  },
+  {
+    name: 'Malostranská beseda (Old Lesser Town Hall)',
+    slug: 'malostranska-beseda',
+    localizedNames: { cz: 'Malostranská beseda', zh: '小城议事厅（旧小城市政厅）' },
+    labels: ['municipal', 'renaissance', 'cultural'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.08841532191847, lng: 14.40486587945018 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Malostransk%C3%A1_beseda',
+    description: {
+      en: `A handsome arcaded building with two little towers on the east side of the Lesser Town square. Today it is a concert hall, a restaurant and a café, but for centuries it was the town hall of the Lesser Town, and in 1575 the Protestant estates of Bohemia sat in its council hall writing down their shared faith.
+
+The Lesser Town had a town hall from at least 1407, but that first one burned when the Hussites attacked in November 1419. In 1478 the townspeople bought this plot and put up a Gothic town hall in under two years; two of its cellars, once the town jail, still survive. A fire in 1503 damaged it badly, but the great fire of 1541 passed it by; in fact two roofers working on its roof were the first to spot that fire. In 1575 the Bohemian Confession, the joint statement of faith of the New Utraquists, Lutherans and Brethren, was drafted in its council hall, and a bronze plaque recalls it. Between 1617 and 1622 the building was rebuilt in its present late Renaissance to early Baroque form under Giovanni Battista Bossi, and in 1648 Swedish soldiers plundered it before it was even finished. When Prague's towns were merged in 1784, the town council moved to the Old Town Hall and the building lost its purpose.
+
+From the mid-19th century it housed the Malostranská beseda, a patriotic social club with a pub, which gave the building its present name. In the 1820s its towers were taken down for safety; after a long renovation in 2006–2009 they were rebuilt from an engraving of 1743. Since 2024 it has been a national cultural monument.
+
+🎁 Bonus: During the clear-out after 1784, a whole humanist library that had belonged to Václav Vřesovec of Vřesovice was discovered in the building's basement.`,
+      cz: `Pohledná budova s arkádami a dvěma věžičkami na východní straně Malostranského náměstí. Dnes je tu koncertní sál, restaurace a kavárna, ale po staletí to byla malostranská radnice a roku 1575 tu v radní síni seděli protestantští stavové a sepisovali svou společnou víru.
+
+Radnici měla Malá Strana nejpozději od roku 1407, ta první však shořela při husitském útoku v listopadu 1419. Roku 1478 koupili měšťané tento pozemek a za necelé dva roky tu postavili gotickou radnici; dva její sklepy, kdysi městské vězení, se zachovaly. Požár roku 1503 ji těžce poškodil, ale velký požár roku 1541 se jí vyhnul; právě dva pokrývači na její střeše si ho dokonce všimli jako první. Roku 1575 se v radní síni sepisovala Česká konfese, společné vyznání novoutrakvistů, luteránů a bratří, a připomíná to bronzová deska. V letech 1617–1622 byla budova pod vedením Giovanniho Battisty Bossiho přestavěna do dnešní pozdně renesanční až raně barokní podoby a roku 1648 ji ještě nedostavěnou vyplenili Švédové. Když se roku 1784 pražská města spojila, přesídlila městská rada na Staroměstskou radnici a budova ztratila svůj účel.
+
+Od poloviny 19. století v ní sídlila Malostranská beseda, vlastenecký spolek s hostincem, od něhož má budova dnešní jméno. Ve 20. letech 19. století byly věže z bezpečnostních důvodů sneseny; po dlouhé rekonstrukci v letech 2006–2009 byly obnoveny podle rytiny z roku 1743. Od roku 2024 je národní kulturní památkou.
+
+🎁 Bonus: Při vyklízení po roce 1784 se ve sklepě budovy našla celá humanistická knihovna, která patřila Václavu Vřesovcovi z Vřesovic.`,
+      zh: `小城广场东侧一栋带拱廊、顶着两座小塔的漂亮楼房。如今这里是音乐厅、餐厅和咖啡馆，可在好几百年里，它是小城的市政厅；1575年，波希米亚的新教各等级，就坐在它的议事厅里，把他们共同的信仰写成了文字。
+
+小城最晚从1407年起就有了市政厅，可那第一座在1419年11月胡斯派攻城时烧掉了。1478年，市民们买下这块地，不到两年就盖起了一座哥特式市政厅；它的两间地窖，当年是城里的监狱，至今还在。1503年的一场火把它烧得不轻，1541年的大火倒是放过了它；当年最先发现那场大火的，正是在它屋顶上干活的两个盖瓦匠。1575年，新圣杯派、路德派和弟兄会的共同信仰声明《波希米亚信纲》，就是在它的议事厅里起草的，墙上至今挂着一块铜牌纪念此事。1617至1622年，在建筑师博西的主持下，它被改建成今天这副晚期文艺复兴到早期巴洛克的模样；1648年，楼还没完工，就被瑞典兵洗劫了一遍。1784年布拉格几座城合并，市议会搬进了老城市政厅，这栋楼也就没了用处。
+
+19世纪中叶起，一个叫“小城议事会”的爱国社团在这里落脚，还开了一家酒馆，楼的名字就是这么来的。19世纪20年代，两座小塔因为不安全被拆掉了；2006至2009年一场漫长的修缮之后，又照着1743年的一幅版画重新立了起来。2024年起，它被列为国家文化遗产。
+
+🎁 彩蛋：1784年以后清理楼房时，人们在地下室里发现了一整座人文主义藏书室，它原本属于弗热索维采的瓦茨拉夫·弗热索维茨。`,
     },
   },
 ];
