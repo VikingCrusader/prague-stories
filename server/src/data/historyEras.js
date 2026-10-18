@@ -602,7 +602,7 @@ export const HISTORY_ERAS = [
     key: 'fire-and-ashes',
     order: 12,
     themeClass: 'era-fire-and-ashes',
-    hasContent: false,
+    hasContent: true,
     title: {
       en: 'Fire and Ashes',
       cz: 'Oheň a popel',

@@ -810,7 +810,7 @@ export const EXPEDITION_XP_OVERRIDES = {
   'zamek-konopiste':                        180, // 38 km, Franz Ferdinand's chateau
   'hrad-cesky-sternberk':                   180, // 48 km
   'kostel-svate-barbory':                   240, // 63 km, UNESCO
-  'cesky-krumlov-castle':                   300, // 142 km, UNESCO
+  'cesky-krumlov':                          300, // 142 km, UNESCO (town card; castle card merged in 2026-10-18)
   'zamek-hluboka-nad-vltavou':              300, // 115 km
   // Down: small sights bundled with a bigger card nearby
   'rybnik-vezak':                           60,  // Trosky / Kingdom Come batch

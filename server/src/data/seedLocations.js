@@ -9528,7 +9528,7 @@ Sál bez sloupů slouží divákům dodnes, nyní jako sídlo Divadla Studio DVA
   {
     name: 'Josef Jungmann Monument',
     slug: 'pomnik-josefa-jungmanna',
-    localizedNames: { cz: 'Pomník Josefa Jungmanna', zh: '约瑟夫·永曼纪念碑' },
+    localizedNames: { cz: 'Pomník Josefa Jungmanna', zh: '约瑟夫·荣格曼纪念碑' },
     labels: ['monument', 'national-revival'],
     district: 'Praha 1',
     quarter: 'Nové Město',
@@ -9547,9 +9547,9 @@ Josef Jungmann (1773–1847) was a teacher, translator and linguist. At a time w
 Josef Jungmann (1773–1847) byl učitel, překladatel a jazykovědec. V době, kdy vzdělaní lidé v Čechách psali převážně německy, si předsevzal dokázat, že čeština může být plnohodnotným literárním jazykem. Přeložil do češtiny Miltonův Ztracený ráj a další klasická díla a jeho pětisvazkový Slovník česko-německý s víc než 120 000 hesly dal jazyku pevný základ. Pomník iniciovali František Palacký a František Ladislav Rieger, základní kámen byl položen roku 1873 a odhalen byl 15. května 1878 před velkým davem. Sedící bronzová postava je dílem sochaře Ludvíka Šimka, podstavec navrhl Antonín Barvitius.
 
 🎁 Bonus: Pár kroků odtud na stejném náměstí stojí slavná kubistická lucerna, kterou kolem let 1912 a 1913 navrhl Emil Králíček a která je prý jediná svého druhu na světě. Toto malé náměstí tak hostí pomník muže, který zachránil česká slova, i lampu ve slohu, který byl téměř výlučně český.`,
-      zh: `约瑟夫·永曼纪念碑立在永曼广场中央，就在瓦茨拉夫广场旁边。它纪念的这个人，一生最大的成就是一部词典，这也说明语言对捷克民族复兴有多么重要。
+      zh: `约瑟夫·荣格曼纪念碑立在荣格曼广场中央，就在瓦茨拉夫广场旁边。它纪念的这个人，一生最大的成就是一部词典，这也说明语言对捷克民族复兴有多么重要。
 
-约瑟夫·永曼（1773–1847）是教师、翻译家和语言学家。当时波希米亚受过教育的人大多用德语写作，他立志要证明捷克语可以成为一门完整的文学语言。他把弥尔顿的《失乐园》等经典译成捷克语，他编纂的五卷本《捷德词典》收词十二万余条，为这门语言打下了坚实的基础。纪念碑由弗朗蒂谢克·帕拉茨基和弗朗蒂谢克·拉迪斯拉夫·里格尔发起，1873年奠基，1878年5月15日在大批民众面前揭幕。青铜坐像出自雕塑家卢德维克·希麦克之手，基座由安东宁·巴尔维蒂乌斯设计。
+约瑟夫·荣格曼（1773–1847）是教师、翻译家和语言学家。当时波希米亚受过教育的人大多用德语写作，他立志要证明捷克语可以成为一门完整的文学语言。他把弥尔顿的《失乐园》等经典译成捷克语，他编纂的五卷本《捷德词典》收词十二万余条，为这门语言打下了坚实的基础。纪念碑由弗朗蒂谢克·帕拉茨基和弗朗蒂谢克·拉迪斯拉夫·里格尔发起，1873年奠基，1878年5月15日在大批民众面前揭幕。青铜坐像出自雕塑家卢德维克·希麦克之手，基座由安东宁·巴尔维蒂乌斯设计。
 
 🎁 彩蛋：同一广场上几步之外，立着一盏有名的立体主义路灯，由埃米尔·克拉利切克在1912年至1913年前后设计，据说是世界上独一无二的。于是这个小广场上，既有拯救捷克词语的人的纪念碑，也有一盏几乎只属于捷克的风格的路灯。`,
     },
@@ -10397,7 +10397,7 @@ Vytesal ji z pískovce roku 1797 sochař František Xaver Lederer na objednávku
 🎁 Bonus: Jakub Wimmer také platil veřejné promenády a výsadby v Praze, v době, kdy byly parky otevřené všem ještě novinkou. Muž, který utrácel peníze za kašny a zahrady pro všechny, je vzácný druh dobrodince a jeho kašna ho přežila o víc než dvě století, i když musela pořád měnit adresu.`,
       zh: `维默尔喷泉立在老城煤市的正中央。这是一座18世纪末的古典主义喷泉，搬家的次数比大多数布拉格居民都多：大约两个世纪里换了五个地方。
 
-它是雕塑家弗朗蒂谢克·克萨韦尔·莱德雷尔在1797年用砂岩雕成的，订制人是雅库布·维默尔，一位富有的军需供应商和慈善家，为改善布拉格的公园和公共空间出了很多力。它最初立在维默尔位于今天民族大街上的宅邸前，后来先后搬到永曼广场、伯利恒广场和中央火车站前的花园，1951年才在煤市安顿下来。它中央的柱子做成缠着葡萄藤的棕榈树干，周围立着象征葡萄种植和农业的雕像。原来的人像被破坏后换成了复制品。
+它是雕塑家弗朗蒂谢克·克萨韦尔·莱德雷尔在1797年用砂岩雕成的，订制人是雅库布·维默尔，一位富有的军需供应商和慈善家，为改善布拉格的公园和公共空间出了很多力。它最初立在维默尔位于今天民族大街上的宅邸前，后来先后搬到荣格曼广场、伯利恒广场和中央火车站前的花园，1951年才在煤市安顿下来。它中央的柱子做成缠着葡萄藤的棕榈树干，周围立着象征葡萄种植和农业的雕像。原来的人像被破坏后换成了复制品。
 
 🎁 彩蛋：雅库布·维默尔还出钱在布拉格修建公共林荫步道、种植树木，那时向所有人开放的公园还是新鲜事。一个把钱花在给大家修喷泉、建花园上的人，是一种难得的善人，他的喷泉比他多活了两百多年，哪怕一直在换地址。`,
     },
@@ -22504,69 +22504,6 @@ Svůj dnešní nápadný vzhled vděčí velké barokní přestavbě dokončené
     },
   },
   {
-    // Added 2026-09-02 to support 'from-king-to-prisoner-1394's
-    // relatedLandmarks — one of the Rožmberk strongholds where Wenceslas
-    // IV was held during his 1394 captivity, before Karlštejn's 1397
-    // murders and Křivoklát's ransom-handover in the same card. User
-    // supplied the name and coordinates directly; everything else
-    // (Vítkovci-Krumlov-branch origin before 1250, passing to the
-    // Rožmberk branch on that branch's 1302 extinction, the Eggenberg
-    // 1611 and Schwarzenberg 1719 successions, the working 18th-century
-    // Baroque theatre, the Cloak Bridge, and the bear moat/Orsini legend)
-    // confirmed via WebSearch.
-    // Scope note: Český Krumlov itself has no Location card yet in this
-    // DB (checked before adding this) — flagged rather than silently
-    // treated as settled, since a full town card would normally need its
-    // own scope discussion (the town is a genuine UNESCO-tier attraction
-    // but sits ~170km from Prague, well past this project's usual
-    // day-trip framing — the same stretch already flagged and accepted
-    // for `kladrubsky-klaster`). This entry is just the castle itself,
-    // added for its direct tie to a specific History Timeline event, not
-    // a decision that Český Krumlov as a town clears any of this
-    // project's scope exceptions.
-    // rarity: `legend` — one of the largest castle complexes in the
-    // country, second only to Prague Castle, consistent with the
-    // `zamek-hluboka-nad-vltavou` precedent for genuinely monumental
-    // buildings outside Prague.
-    name: 'Český Krumlov Castle',
-    slug: 'cesky-krumlov-castle',
-    localizedNames: { cz: 'Zámek Český Krumlov', zh: '捷克克鲁姆洛夫城堡' },
-    labels: ['castle and fortress', 'renaissance', 'baroque', 'outside'],
-    coordinates: { lat: 48.812677083666266, lng: 14.313276534064332 },
-    rarity: 'legend',
-    xpReward: 100,
-    wikipediaUrl: 'https://en.wikipedia.org/wiki/%C4%8Cesk%C3%BD_Krumlov_Castle',
-    description: {
-      en: `Welcome to Český Krumlov Castle, the second-largest castle complex in the Czech Republic, beaten only by Prague Castle itself, and one of the very few places in the country where the wildlife living in the moat gets almost as much attention from visitors as the nobility who used to live upstairs.
-
-A branch of the Vítkovci family built the first stronghold here, on a rocky spur wrapped almost entirely by a bend in the Vltava, sometime before 1250. When that branch died out in 1302, the castle passed to their own cousins, the Rožmberk branch of the same family, who made it their principal seat and spent the next three centuries expanding it, piece by piece, into the sprawling complex of roughly forty buildings and five courtyards that still stands today.
-
-The castle's most dramatic royal guest arrived uninvited. In May 1394, King Wenceslas IV was seized by a coalition of rebellious nobles and marched from castle to castle across South Bohemia on his way to a prison cell in Austria, and Český Krumlov was one of several Rožmberk strongholds where he was briefly held along the route, a king reduced, for a few days, to having no say at all in his own comings and goings.
-
-The Rožmberks eventually died out too, in 1611, and the castle passed first to the Eggenberg family, then in 1719 to the Schwarzenbergs, who added its most theatrical touch: a genuine 18th-century Baroque theatre, still fitted with its original scenery, costumes, and stage machinery, one of only a handful anywhere in the world still working in close to its original condition. Reaching it means crossing the Cloak Bridge, a dramatic three-tiered covered walkway strung high across a deep ravine to connect the upper castle with the garden and theatre beyond, probably the second most photographed structure in town after the castle's own painted tower.
-
-🎁 Bonus: the moat below the castle has housed live bears since the late 16th century, a vanity project of the Rožmberk family meant to advertise a supposed, and almost certainly invented, family connection to Rome's own Orsini clan, whose name in Italian sounds close enough to "bear" to make the claim. The bears, who did not consent to this branding exercise, are still there today, still with no idea they're four centuries deep into someone else's joke about their own coat of arms.`,
-      cz: `Vítej na zámku Český Krumlov, druhém největším hradním a zámeckém komplexu v Česku, který předčí jedině samotný Pražský hrad, a jednom z mála míst v zemi, kde zvířata žijící v příkopu přitahují návštěvníky skoro stejně jako šlechta, která kdysi bydlela o patro výš.
-
-Větev rodu Vítkovců tu na skalním ostrohu, který téměř celý obtéká zákrut Vltavy, postavila první pevnost ještě před rokem 1250. Když tahle větev v roce 1302 vymřela, hrad připadl jejich vlastním bratrancům, rožmberské větvi téhož rodu, kteří si z něj udělali hlavní sídlo a další tři století ho po kouscích rozšiřovali do rozlehlého komplexu zhruba čtyřiceti budov a pěti nádvoří, jaký stojí dodnes.
-
-Nejdramatičtější královský host na hrad dorazil bez pozvání. V květnu 1394 zajala krále Václava IV. koalice vzbouřených šlechticů a vedla ho z hradu na hrad napříč jižními Čechami na cestě do vězeňské cely v Rakousku, a Český Krumlov byl jedním z několika rožmberských pevností, kde ho po cestě na pár dní drželi, král na chvíli zbavený jakéhokoli slova do vlastních příchodů a odchodů.
-
-Rožmberkové nakonec také vymřeli, v roce 1611, a hrad přešel nejdřív na rod Eggenbergů a v roce 1719 na Schwarzenbergy, kteří přidali jeho nejdivadelnější prvek: skutečné barokní divadlo z 18. století, dodnes vybavené původními kulisami, kostýmy a jevištní technikou, jedno z mála na světě, které stále funguje téměř v původním stavu. Cesta k němu vede přes Plášťový most, dramatickou třípatrovou krytou lávku vedenou vysoko nad hlubokou roklí, spojující horní hrad se zahradou a divadlem za ní, patrně druhou nejvyfocenější stavbu ve městě hned po malované zámecké věži.
-
-🎁 Bonus: v příkopu pod hradem žijí živí medvědi už od konce 16. století, marnivý projekt rodu Rožmberků, který měl podpořit údajné, a téměř jistě vymyšlené, příbuzenství s římským rodem Orsini, jehož jméno v italštině zní dost podobně jako slovo pro medvěda, aby to tvrzení znělo věrohodně. Medvědi s touhle reklamní kampaní nikdy nesouhlasili a dodnes o ní netuší, že jsou už čtyři století hluboko v cizím vtipu o cizím erbu.`,
-      zh: `欢迎来到克鲁姆洛夫城堡，捷克境内规模第二大的城堡建筑群，仅次于布拉格城堡本身，也是这个国家少数几个地方之一：护城河里住的野生动物，吸引游客的目光几乎不输给曾经住在楼上的贵族。
-
-维特科维奇家族的一支，早在1250年之前，就在这处几乎被伏尔塔瓦河河湾整个环绕的岩石高地上，建起了最早的堡垒。1302年，这一支绝嗣后，城堡传给了同族的堂亲，罗森贝格支系，他们把这里定为主要居所，此后三个世纪里一点点扩建，才有了今天这座由约四十栋建筑、五个庭院组成的庞大建筑群。
-
-城堡迎来的最富戏剧性的一位王室访客，是不请自来的。1394年5月，国王瓦茨拉夫四世被一群叛乱贵族擒获，在押往奥地利监狱的路上，被押解着走遍南波希米亚的一座座城堡，克鲁姆洛夫正是他途中短暂被关押过的几座罗森贝格城堡之一，堂堂一位国王，一连几天，连自己的行踪都做不了主。
-
-罗森贝格家族最终也绝嗣了，那是1611年的事，城堡先后传给了埃根堡家族，又在1719年传给了施瓦岑贝格家族，后者为城堡添上了最富戏剧性的一笔：一座真正的18世纪巴洛克剧院，至今还保留着原装的布景、戏服和舞台机械，是世界上少数几座仍能以接近原貌运作的剧院之一。要走到剧院，得先穿过"斗篷桥"，一座架在深谷高处的三层有顶廊桥，把上城堡和后方的花园、剧院连接起来，大概是这座小城里除了那座彩绘城堡塔楼之外，被拍照次数第二多的建筑。
-
-🎁 彩蛋：城堡下方的护城河里，从16世纪末起就养着活熊，这是罗森贝格家族的一项面子工程，用来给自己一个据称、而且几乎可以肯定是编造的身世背书，说自己与罗马的奥尔西尼家族沾亲带故，而"奥尔西尼"这个姓氏，在意大利语里听着跟"熊"这个词相当接近，正好拿来做文章。那些熊从没同意过这场公关行动，直到今天，也完全不知道自己已经在别人家纹章的这个老笑话里，住了整整四个世纪。`,
-    },
-  },
-  {
     // Added at the user's explicit request (2026-09-02) to support
     // 'the-priest-thrown-into-the-river-1393's relatedLandmarks — the
     // actual statue itself, distinct from the general 'charles-bridge'
@@ -32274,6 +32211,98 @@ Doma to byla těžká léta. Roku 1611 mu zemřel malý syn a pak i manželka. P
 家里的日子却很难熬。1611年，他年幼的儿子去世，接着妻子也走了。1612年鲁道夫去世后，开普勒离开了布拉格。他只回来过一次，是在1627年，把鲁道夫当年下令编纂、以鲁道夫命名的行星星表，呈给了斐迪南二世皇帝。
 
 🎁 彩蛋：内院里有一座小喷泉，是一个由金属圆环组成的球，2002年由雕塑家科拉日斯基和查理大学数学物理学院的学生一起做的。2009到2017年，院子里还开过一家小小的开普勒博物馆，现在已经关了，所以今天最稳妥能看到的，就是街上那块纪念牌。`,
+    },
+  },
+  // Matthias Gate (2026-10-18, coordinates and rarity from the user).
+  // Sources: en.wikipedia Matthias Gate (1614; inscription "D. Matthias El.
+  // Rom. Imp. S. Aug. Hung. Boh. Rex etc. F. F. Ano MDCXIV"; design attributed
+  // to Giovanni Maria Filippi; the sculpture on it is largely early-20th-
+  // century work by Čeněk Vosmík and Antonín Procházka after Baroque
+  // originals); travel listings call it one of the first Baroque buildings in
+  // Bohemia. It stood free in front of the castle until Pacassi's rebuilding
+  // in the 1760s took it into the new wing.
+  {
+    name: 'Matthias Gate',
+    slug: 'matyasova-brana',
+    localizedNames: { cz: 'Matyášova brána', zh: '马蒂亚斯门' },
+    labels: ['castle and fortress', 'baroque'],
+    district: 'Praha 1',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.08995519709517, lng: 14.398829810705601 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Matthias_Gate',
+    description: {
+      en: `Walk into Prague Castle from Castle Square and, after the first courtyard, you pass through a grand stone gateway with a long Latin inscription over it. Most visitors photograph it without reading it. It says, in short, that Matthias built this, and it was his way of announcing that the castle had a new master.
+
+The gate was finished in 1614 and is usually credited to the Italian architect Giovanni Maria Filippi. Shaped like a Roman triumphal arch, it is counted among the very first Baroque buildings in Bohemia. The inscription across the top lists Matthias's titles, elected Roman emperor, king of Hungary and Bohemia, and ends with the year, MDCXIV. When it was built it stood on its own in front of the castle; only in the 1760s, when the architect Nicolò Pacassi rebuilt the castle for Maria Theresa, was it set into the long uniform wing you see today. Much of the sculpture on it is early-20th-century work by Čeněk Vosmík and Antonín Procházka, copied from the Baroque originals.
+
+Matthias had good reason to want his name over the door. In 1611 he had taken the Bohemian crown from his elder brother, Emperor Rudolf II, who was still living in this very castle. Rudolf died the following year, and Matthias moved in.
+
+🎁 Bonus: A staircase off the gate's passage leads up to the Spanish Hall, the great hall Rudolf built for his collections. The new owner put his name on the front door; the old one's rooms are still just up the stairs.`,
+      cz: `Když vejdete na Pražský hrad z Hradčanského náměstí, projdete za prvním nádvořím velkolepou kamennou branou s dlouhým latinským nápisem. Většina návštěvníků si ji vyfotí, aniž by ho četla. Říká stručně, že tohle postavil Matyáš, a byl to jeho způsob, jak ohlásit, že hrad má nového pána.
+
+Brána byla dokončena roku 1614 a obvykle se připisuje italskému architektovi Giovannimu Marii Filippimu. Má podobu římského vítězného oblouku a počítá se k úplně prvním barokním stavbám v Čechách. Nápis nahoře vypočítává Matyášovy tituly, zvolený římský císař, král uherský a český, a končí letopočtem MDCXIV. Když ji postavili, stála před hradem volně; teprve v 60. letech 18. století, když architekt Nicolò Pacassi přestavoval hrad pro Marii Terezii, byla zasazena do dlouhého jednotného křídla, které vidíte dnes. Velká část sochařské výzdoby je dílem Čeňka Vosmíka a Antonína Procházky z počátku 20. století, podle barokních originálů.
+
+Matyáš měl dobrý důvod chtít mít své jméno nad vchodem. Roku 1611 vzal českou korunu svému staršímu bratrovi, císaři Rudolfovi II., který na tomhle hradě pořád bydlel. Rudolf o rok později zemřel a Matyáš se nastěhoval.
+
+🎁 Bonus: Z průjezdu brány vede schodiště nahoru do Španělského sálu, velkého sálu, který si Rudolf postavil pro své sbírky. Nový majitel si dal jméno nad hlavní vchod; komnaty toho starého jsou pořád hned nahoře po schodech.`,
+      zh: `从城堡广场走进布拉格城堡，穿过第一庭院，你会经过一道气派的石头大门，门楣上刻着一长串拉丁文。大多数游客拍了照就走，很少有人去读。那段话说穿了就一句：这是马蒂亚斯造的。这是他在告诉所有人：城堡换主人了。
+
+这道门1614年建成，通常认为出自意大利建筑师菲利皮之手。它照着古罗马凯旋门的样子造，被算作波希米亚最早的巴洛克建筑之一。门楣上的铭文列着马蒂亚斯的头衔：当选的罗马皇帝，匈牙利和波希米亚国王，最后落款是年份MDCXIV。刚建成时，它孤零零地立在城堡前面；直到18世纪60年代，建筑师帕卡西替玛丽亚·特蕾莎改建城堡，才把它砌进了今天看到的这一长排整齐的侧楼里。门上的雕像，大多是20世纪初沃斯米克和普罗哈兹卡照着巴洛克原作重新雕的。
+
+马蒂亚斯想把名字刻在大门上，是有原因的。1611年，他从哥哥鲁道夫二世皇帝手里拿走了波希米亚王冠，而那时鲁道夫还住在这座城堡里。第二年鲁道夫去世，马蒂亚斯就搬了进来。
+
+🎁 彩蛋：从门洞里有一道楼梯，通往西班牙厅，就是鲁道夫当年为放收藏而修的那座大厅。新主人把名字刻在了大门上，老主人的房间，就在楼梯上面。`,
+    },
+  },
+  // Český Krumlov town card (2026-10-18, coordinates from the user; the user
+  // asked for a town card in addition to cesky-krumlov-castle, to link from
+  // the 1611 Passau card). Kept to the town so it doesn't repeat the castle
+  // card: Petr Vok of Rožmberk sold the estate to Rudolf II in 1602; Rudolf's
+  // illegitimate son Don Julius Caesar was confined here from 1607 and killed
+  // the barber's daughter Markéta Pichlerová in 1608, dying in 1609; the
+  // Passau troops took the town in 1611; Egon Schiele lived here in 1911;
+  // UNESCO 1992. Merged the same day with cesky-krumlov-castle, which was deleted
+  // (user's call): its castle content folded in here, its check-in moved, its
+  // 300 XP override moved to this slug.
+  {
+    name: 'Český Krumlov',
+    slug: 'cesky-krumlov',
+    localizedNames: { cz: 'Český Krumlov', zh: '克鲁姆洛夫' },
+    labels: ['city', 'castle and fortress', 'renaissance', 'outside'],
+    coordinates: { lat: 48.81066678772401, lng: 14.315045243434646 },
+    rarity: 'expedition',
+    xpReward: 300,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%BD_Krumlov',
+    description: {
+      en: `Český Krumlov is what happens when the Vltava cannot make up its mind: the river loops round the old town in a tight S, so that the red roofs, the church tower and the painted castle tower above them all sit on a little island of land. It looks so much like a model town that visitors keep checking whether anyone actually lives there. A few people do.
+
+Above the town stands the second-largest castle complex in the country, beaten only by Prague Castle. A branch of the Vítkovci family built the first stronghold on the rock before 1250; when that branch died out in 1302, it passed to their cousins the Rožmberks, the most powerful family in South Bohemia, who made it their main seat and spent three centuries enlarging it into some forty buildings round five courtyards. The town grew up at its feet, and its narrow lanes, arcaded houses and painted façades still date largely from the Rožmberk years. In May 1394 the castle had an unwilling royal guest: King Wenceslas IV, seized by rebellious lords, was held here for a few days on his way to captivity in Austria.
+
+In 1602 the last of the Rožmberks, Petr Vok, deep in debt, sold the whole estate to Emperor Rudolf II. Rudolf found a use for it: from 1607 he kept his illegitimate son, Don Julius Caesar of Austria, here, well away from Prague. In 1608 the young man, who was mentally ill, murdered Markéta Pichlerová, the daughter of the local barber, and he died in confinement in the castle the following year. In 1611 the town was taken by the Passau mercenaries on their way to Prague. Later the castle passed to the Eggenbergs and in 1719 to the Schwarzenbergs, who added its most theatrical touch: a real 18th-century Baroque theatre that still has its original scenery, costumes and stage machinery, reached across the Cloak Bridge, a three-storey covered passage strung high over a ravine.
+
+For most of its history Krumlov was a German-speaking town. In 1911 the painter Egon Schiele, whose mother came from here, moved in to paint its crooked roofs; the townspeople soon drove him out, scandalised that he was living with his model and painting local girls. After the Second World War the German population was expelled, and under communism the old town slowly decayed. After 1989 it was restored, and in 1992 it was added to the UNESCO World Heritage List. Its emblem is still the Rožmberks' red five-petalled rose, and every June the Five-Petalled Rose Festival turns the old town back into the 16th century for a weekend.
+
+🎁 Bonus: Bears have lived in the castle moat since the late 16th century. The Rožmberks kept them to advertise a supposed, and almost certainly invented, kinship with the Roman Orsini family, whose name sounds like the Italian for bear. The bears were never asked, and they are still there, four centuries into somebody else's joke about a coat of arms.`,
+      cz: `Český Krumlov je to, co se stane, když se Vltava nemůže rozhodnout: obtéká staré město v těsné esovité smyčce, takže červené střechy, kostelní věž i malovaná zámecká věž nad nimi sedí na malém ostrůvku pevniny. Vypadá tak moc jako model města, že se návštěvníci pořád ujišťují, jestli tu vůbec někdo bydlí. Pár lidí ano.
+
+Nad městem stojí druhý největší hradní a zámecký komplex v zemi, který předčí jen Pražský hrad. Větev rodu Vítkovců postavila na skále první pevnost ještě před rokem 1250; když roku 1302 vymřela, připadla jejich bratrancům Rožmberkům, nejmocnějšímu rodu jižních Čech, kteří si z ní udělali hlavní sídlo a tři století ji rozšiřovali na zhruba čtyřicet budov kolem pěti nádvoří. Město vyrostlo u jejích nohou a úzké uličky, domy s podloubím a malované fasády pocházejí z velké části právě z rožmberských časů. V květnu 1394 měl hrad nedobrovolného královského hosta: krále Václava IV., kterého zajali vzbouření páni a na cestě do zajetí v Rakousku ho tu pár dní drželi.
+
+Roku 1602 prodal poslední z Rožmberků, zadlužený Petr Vok, celé panství císaři Rudolfovi II. Rudolf pro ně našel využití: od roku 1607 tu držel svého nemanželského syna dona Julia Caesara Rakouského, pěkně daleko od Prahy. Roku 1608 duševně nemocný mladík zavraždil Markétu Pichlerovou, dceru místního lazebníka, a následujícího roku zemřel v zámeckém vězení. Roku 1611 obsadili město pasovští žoldnéři na cestě do Prahy. Později připadl zámek Eggenberkům a roku 1719 Schwarzenberkům, kteří mu přidali jeho nejdivadelnější prvek: skutečné barokní divadlo z 18. století, dodnes s původními kulisami, kostýmy a jevištní technikou, kam se jde přes Plášťový most, třípatrovou krytou chodbu vysoko nad roklí.
+
+Po většinu svých dějin byl Krumlov německy mluvícím městem. Roku 1911 se sem přistěhoval malíř Egon Schiele, jehož matka odsud pocházela, aby maloval zdejší křivolaké střechy; měšťané ho brzy vyštvali, pohoršeni tím, že žije se svou modelkou a maluje místní dívky. Po druhé světové válce bylo německé obyvatelstvo odsunuto a za komunismu staré město pomalu chátralo. Po roce 1989 bylo obnoveno a roku 1992 zapsáno na seznam světového dědictví UNESCO. Znakem města je dodnes červená pětilistá růže Rožmberků a každý červen promění Slavnosti pětilisté růže staré město na víkend zpátky v 16. století.
+
+🎁 Bonus: V zámeckém příkopu žijí medvědi už od konce 16. století. Rožmberkové je chovali, aby podpořili údajné, a téměř jistě vymyšlené, příbuzenství s římským rodem Orsini, jehož jméno zní podobně jako italské slovo pro medvěda. Medvědů se nikdo neptal, a jsou tu pořád, čtyři století v cizím vtipu o cizím erbu.`,
+      zh: `克鲁姆洛夫，就是伏尔塔瓦河拿不定主意时的样子：河水绕着老城拐了一个紧紧的S形弯，红屋顶、教堂钟楼，还有上面那座彩绘的城堡塔楼，全都挤在一小块被河水围住的陆地上。它看起来实在太像一座模型城市，游客们总忍不住怀疑，这里到底有没有人住。还真有几户。
+
+小城上方，是全国第二大的城堡建筑群，仅次于布拉格城堡。1250年以前，维特科维奇家族的一支就在这块岩石上建起了最早的堡垒；1302年这一支绝嗣，城堡传给了他们的堂亲罗森贝格家族。这个南波希米亚最有权势的家族把这里定为主要居所，花了三百年，把它扩建成环绕五个庭院、四十来栋建筑的一大片。小城就在城堡脚下长了起来，今天那些窄巷、带拱廊的房子和彩绘的立面，大多还是罗森贝格时代留下的。1394年5月，城堡还接待过一位不情愿的王室客人：国王瓦茨拉夫四世被叛乱的贵族擒住，押往奥地利的路上，在这里被关了几天。
+
+1602年，罗森贝格家族的最后一人彼得·沃克债台高筑，把整片领地卖给了鲁道夫二世皇帝。鲁道夫倒是给它找到了用处：从1607年起，他把自己的私生子唐·尤利乌斯·凯撒安置在这里，离布拉格远远的。1608年，这个患有精神病的年轻人杀害了当地理发师的女儿玛尔凯塔·皮赫勒罗娃，第二年死在了城堡的软禁之中。1611年，开往布拉格的帕绍雇佣兵占领了这座城。后来，城堡先归了埃根贝格家族，1719年又归了施瓦岑贝格家族。施瓦岑贝格家给它添了最有戏剧性的一笔：一座货真价实的18世纪巴洛克剧院，至今还保留着原装的布景、戏服和舞台机械；要去剧院，得先穿过“斗篷桥”，一座高高架在深谷上的三层有顶廊桥。
+
+在历史上的大部分时间里，克鲁姆洛夫是一座说德语的小城。1911年，画家埃贡·席勒搬到这里，画这座城弯弯曲曲的屋顶，他的母亲就是本地人。可没过多久，市民们就把他赶走了：他跟模特同居，还画本地的姑娘，让大家看不下去。二战以后，城里的德意志居民被驱逐，共产党时期，老城一点点破败下去。1989年以后，小城重新修缮，1992年被列入联合国教科文组织世界遗产名录。小城的城徽至今还是罗森贝格家族那朵红色的五瓣玫瑰，每年六月的“五瓣玫瑰节”，整座老城都会回到16世纪过一个周末。
+
+🎁 彩蛋：从16世纪末起，城堡的护城河里就养着熊。罗森贝格家族养它们，是为了给一段据称、而且几乎可以肯定是编出来的身世背书：说自家跟罗马的奥尔西尼家族沾亲带故，而“奥尔西尼”听起来就像意大利语里的“熊”。那些熊从来没被问过愿不愿意，如今还住在那里，在别人家纹章的老笑话里，一住就是四百年。`,
     },
   },
 ];

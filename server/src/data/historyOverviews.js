@@ -206,4 +206,25 @@ export const historyOverviews = [
       zh: "1583年，一位二十五岁上下就戴上皇冠、却怎么也提不起劲来治国的年轻皇帝，觉得维也纳实在无聊透顶，干脆把整个帝国宫廷搬到了布拉格。布拉格一夜之间成了神圣罗马帝国的首都，城堡里很快挤满了这位皇帝最喜欢的那种人：画家、钟表匠、宝石匠、天文学家、占星师，还有一大群自称能把铅炼成金子的炼金术士，其中一位据说因为造假被割掉了耳朵，照样混得风生水起。皇帝的珍奇屋里，摆着独角兽的角（其实是一角鲸的牙）、据说能解百毒的胃石，还有小人会自己动的机械钟；城堡里，还养着一头狮子。一位意大利画家用水果和蔬菜拼出了皇帝的肖像，据说皇帝看了还挺高兴。一位戴着金属假鼻子的丹麦天文学家来了，据说后来是在宴席上憋着不肯离席，活活憋死的；他的德意志助手接过他的观测记录，算出了行星绕着太阳走的是椭圆。犹太城迎来了自己的黄金时代，后来那个拉比捏泥人的传说，讲的正是这几十年里的事。皇帝一辈子没结婚，国事能拖就拖，遇到烦心事，就把自己关在屋里谁也不见。他的弟弟马蒂亚斯看不下去了，开始把哥哥的王冠一顶一顶地收走。波希米亚人趁机从他手里讨来了一张等了三十多年的纸。纸是签了，可谁也没因此睡得更踏实；到了最后，城堡里有几位老爷，开始格外留意起一扇窗户来。",
     },
   },
+  // 2026-10-18, the user asked for a slightly more restrained voice for this
+  // era. Hints rather than names (White Mountain, the 1621 executions,
+  // Wallenstein); the defenestration's survivors are kept for the opening card.
+  {
+    slug: "era-guide-fire-and-ashes",
+    era: "fire-and-ashes",
+    cardType: "overview",
+    startYear: 1618,
+    tone: "serious",
+    year: { en: "1618–1648", cz: "1618–1648", zh: "1618年－1648年" },
+    title: {
+      en: "It Began at a Window",
+      cz: "Začalo to oknem",
+      zh: "从一扇窗开始",
+    },
+    summary: {
+      en: "One May morning in 1618, a window was thrown open in Prague Castle. The war that began at that window lasted thirty years. The Bohemian estates stopped recognising their Habsburg king and fetched a young Protestant prince from Germany to wear the crown instead; people later gave him a nickname, saying he had been king for a single winter. In the autumn of 1620, on a low hill on the western edge of Prague, a battle of about two hours decided what the kingdom would look like for centuries to come. The following summer a scaffold went up on the Old Town Square. After that Prague changed its masters and its faith: some changed their religion, some stayed and kept their mouths shut, and some packed their books and their children and left home, never to return. A general born in Bohemia rose high on the war and built himself a palace in the Lesser Town grander than the castle, though his end was anything but grand. The fire spread from Bohemia across half of Europe and, in its very last year, came back to Prague: in the summer of 1648 Swedish soldiers climbed into the Lesser Town and the castle and loaded the treasures the emperors had spent decades collecting onto their wagons, while across the river the students, townsmen and Jews of the Old Town held the stone bridge until word came that a peace had been signed far away. The war began in Prague, and it ended in Prague.",
+      cz: "Jednoho květnového rána roku 1618 se na Pražském hradě otevřelo okno. Válka, která tím oknem začala, trvala třicet let. Čeští stavové přestali uznávat svého habsburského krále a z Německa si přivedli mladého protestantského knížete, aby místo něj nosil korunu; lidé mu později dali přezdívku, podle níž byl králem jedinou zimu. Na podzim 1620 rozhodla na nízkém návrší na západním okraji Prahy bitva, která trvala asi dvě hodiny, o tom, jak bude království vypadat na staletí dopředu. Příštího léta vyrostlo na Staroměstském náměstí popraviště. Od té doby Praha vyměnila pány i víru: někdo změnil vyznání, někdo zůstal a mlčel a někdo sbalil knihy a děti a odešel z domova, aby se už nikdy nevrátil. Generál, rodák z Čech, vystoupal na té válce vysoko a postavil si na Malé Straně palác okázalejší než hrad, i když jeho konec byl všechno, jen ne okázalý. Požár se z Čech rozšířil přes půl Evropy a v úplně posledním roce se vrátil do Prahy: v létě 1648 přelezli švédští vojáci na Malou Stranu a na hrad a naložili na vozy poklady, které císaři celá desetiletí shromažďovali, zatímco na druhém břehu drželi studenti, měšťané a Židé ze Starého Města kamenný most, dokud nepřišla zpráva, že kdesi daleko byl podepsán mír. Válka začala v Praze a v Praze také skončila.",
+      zh: "1618年5月的一个早晨，布拉格城堡里的一扇窗户被推开了。从这扇窗开始的战争，打了整整三十年。波希米亚的等级们不再承认哈布斯堡家的国王，从德意志请来一位年轻的新教亲王，把王冠戴到了他的头上；后来人们给他起了个外号，说他只当了一个冬天的国王。1620年秋天，布拉格西郊一座不高的山岗上，一场打了两个钟头左右的仗，决定了这个王国此后几百年的样子。第二年夏天，老城广场上搭起了刑台。从那以后，布拉格换了主人，也换了信仰：有人改了宗，有人留了下来、闭上了嘴，也有人带着书和孩子离开了家乡，再也没能回来。一位出身波希米亚的将军借着这场战争飞黄腾达，在小城盖起了一座比城堡还气派的宫殿，结局却一点也不体面。战火从波希米亚一直烧到了半个欧洲，又在最后一年烧回了布拉格：1648年夏天，瑞典兵翻进了小城和城堡，把皇帝们攒了几十年的珍宝装上了马车；河对岸，老城的学生、市民和犹太人守着那座石桥，一直守到远方签订和约的消息传来。这场战争从布拉格开始，也在布拉格结束。",
+    },
+  },
 ];

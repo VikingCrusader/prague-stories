@@ -10177,11 +10177,11 @@ export const historyEvents = [
         },
       },
       {
-        slug: "cesky-krumlov-castle",
+        slug: "cesky-krumlov",
         relation: {
-          en: "One of the Rožmberk strongholds where Wenceslas was briefly held on the road to his Austrian prison.",
-          cz: "Jeden z rožmberských hradů, kde Václava po cestě do rakouského vězení nakrátko drželi.",
-          zh: "瓦茨拉夫被押往奥地利监狱途中，曾在这座罗森贝格家族的城堡里短暂关押过。",
+          en: "Its castle, a Rožmberk stronghold, was one of the places where Wenceslas was briefly held on the road to his Austrian prison.",
+          cz: "Zdejší rožmberský hrad byl jedním z míst, kde Václava po cestě do rakouského vězení nakrátko drželi.",
+          zh: "瓦茨拉夫被押往奥地利监狱途中，曾在这里的罗森贝格家族城堡里短暂关押过。",
         },
       },
       {
@@ -10246,7 +10246,7 @@ export const historyEvents = [
   //   the Hussite Wars.
   // - Hard rule for background cards followed: no image, no
   //   relatedLandmarks, despite the obvious temptation to link
-  //   cesky-krumlov-castle here — that link already lives on
+  //   cesky-krumlov here — that link already lives on
   //   from-king-to-prisoner-1394, where it belongs as a dated event.
   // - startYear 1394.5: sorts immediately after 'from-king-to-
   //   prisoner-1394' and ahead of the still-unwritten 1400 deposition,
@@ -10521,11 +10521,11 @@ export const historyEvents = [
         },
       },
       {
-        slug: "cesky-krumlov-castle",
+        slug: "cesky-krumlov",
         relation: {
-          en: "The Rožmberk stronghold a captive Wenceslas was marched through on his way south, before Schaunberg Castle and, eventually, Vienna.",
-          cz: "Rožmberská pevnost, kterou byl zajatý Václav hnán na cestě na jih, ještě předtím, než skončil na hradě Schaunberk a nakonec ve Vídni.",
-          zh: "被押解南下的瓦茨拉夫途经的这座罗森贝格家族要塞，之后他才被送往绍恩贝格城堡，最终关进维也纳。",
+          en: "Its Rožmberk castle was one of the strongholds a captive Wenceslas was marched through on his way south, before Schaunberg Castle and, eventually, Vienna.",
+          cz: "Zdejší rožmberský hrad byl jednou z pevností, kterými byl zajatý Václav hnán na cestě na jih, ještě předtím, než skončil na hradě Schaunberk a nakonec ve Vídni.",
+          zh: "被押解南下的瓦茨拉夫，途经这里的罗森贝格家族城堡，之后他才被送往绍恩贝格城堡，最终关进维也纳。",
         },
       },
       {
@@ -24957,6 +24957,19 @@ export const historyEvents = [
         },
       },
     ],
+    referenceMaps: {
+      links: [
+        {
+          label: "UPM",
+          description: {
+            en: "Museum of Decorative Arts in Prague, hall B, “Microworlds: The Imperial Kunstkammer”: objects from Rudolf II's court workshops, such as a glass goblet engraved in Prague in 1605, a jasper bowl by the court gem-cutter Miseroni and a stone-inlay view of Prague Castle",
+            cz: "Uměleckoprůmyslové museum v Praze, sál B „Mikrosvěty: Panovnická kunstkomora“: předměty z dílen Rudolfova dvora, například pohár z rytého skla z Prahy roku 1605, jaspisová mísa dvorního brusiče Miseroniho a florentská mozaika s pohledem na Pražský hrad",
+            zh: "布拉格工艺美术博物馆B厅“微观世界：帝王的珍奇屋”：展出鲁道夫二世宫廷作坊里出来的珍品，比如1605年在布拉格雕刻的玻璃杯、宫廷宝石匠米塞罗尼做的碧玉碗，还有用彩色石头镶嵌出来的布拉格城堡风景",
+          },
+          url: "https://www.upm.cz/art-life/sal-b/",
+        },
+      ],
+    },
     wikipediaUrl: "https://cs.wikipedia.org/wiki/Rudolf%C3%ADnsk%C3%A9_sb%C3%ADrky",
   },
   // Split from the-emperors-storeroom-1590 (2026-10-18). Vertumnus: oil on
@@ -25444,6 +25457,18 @@ export const historyEvents = [
           zh: "鲁道夫二世《宗教自由诏书》，1609年",
         },
       },
+      {
+        text: {
+          en: "The churches opened,\nthe Czechs rejoiced;\nwhat Maximilian promised,\nRudolf deigned to fulfil.",
+          cz: "Kostelové otevříni,\nČechové obveseleni,\nCo Maxmilián slíbiti,\nTo Rudolf ráčil splniti.",
+          zh: "教堂都打开了，\n捷克人都欢喜了；\n马克西米利安许下的，\n鲁道夫赏脸兑现了。",
+        },
+        attribution: {
+          en: "Comenius, recalling the years after the Letter of Majesty, in his History of the Grievous Persecutions of the Bohemian Church",
+          cz: "Jan Amos Komenský, Historie o těžkých protivenstvích církve české",
+          zh: "夸美纽斯回忆诏书颁布后的光景，见《捷克教会苦难史》",
+        },
+      },
     ],
     startYear: 1609,
     year: {
@@ -25453,9 +25478,9 @@ export const historyEvents = [
     },
     tone: "humorous",
     title: {
-      en: "In Black and White",
-      cz: "Černé na bílém",
-      zh: "白纸黑字",
+      en: "Freedom in Black and White",
+      cz: "Svoboda černé na bílém",
+      zh: "白纸黑字的自由",
     },
     hookLine: {
       en: "For thirty-four years the Bohemians' religious freedom existed only as something a king had said. In 1609 they made his son write it down.",
@@ -25463,9 +25488,9 @@ export const historyEvents = [
       zh: "三十四年来，波希米亚人的宗教自由，只是一位国王嘴上说过的一句话。1609年，他们逼着他的儿子把它写了下来。",
     },
     summary: {
-      en: "In 1608 the emperor had handed the Bohemians an [[link:the-brothers-split-the-house-1608]]IOU[[/link]]. In 1609 they came to collect.\n\nAs soon as the diet opened, the Protestant lords put their demand on the table: take the sentence [[link:a-promise-by-word-of-mouth-1575]]promised by word of mouth[[/link]] thirty-four years earlier, write it down, sign it and seal it.\n\nThe emperor tried to stall again. His brother's troops had gone home, so the IOU no longer seemed quite so urgent.\n\nThis time, though, the estates would not wait. They met on their own, chose their own leaders and began raising troops, making it plain that there would be no peace until he signed. Up in the castle, the emperor still had no army of his own.\n\n[[b]]This time it was the subjects waiting for the emperor's answer, and they were waiting with soldiers.[[/b]]\n\nOn 9 July 1609, at Prague Castle, Rudolf signed a charter that came to be known as the Letter of Majesty.\n\nWhat did it say? Nobody could be forced into the Catholic faith or any other. Lords, royal towns and even ordinary peasants were free to worship as they chose. Protestants could build their own churches and open their own schools, and the university of Prague and the running of their church were handed to them. The charter was even entered into the Land Tables, which made it the law of the kingdom.\n\nThe most curious part is one sentence in it. To show that the Bohemian Confession had counted all along, Rudolf took care to mention:\n\n[[quote:0]]\n\nSo the father who would only promise by word of mouth had, it turns out, put something in writing after all, in his own hand.\n\n[[b]]After thirty-four years of waiting, a promise by word of mouth had become black and white.[[/b]]\n\nPrague's Protestants set to work at once. The German Lutherans of the Old Town began building the Church of the Holy Saviour, and those of the Lesser Town the Church of the Holy Trinity. A few years later the Unity of the Brethren took over the Bethlehem Chapel, where Jan Hus had once preached.\n\nNot everyone at the castle was pleased, though. Several Catholic councillors refused to put their names to it. Two of them were called Slavata and Martinic.\n\nThose two names are worth remembering. Nine years later, they will turn up again.",
-      cz: "Roku 1608 dal císař Čechům [[link:the-brothers-split-the-house-1608]]dlužní úpis[[/link]]. Roku 1609 si ho přišli vybrat.\n\nHned jak se sešel sněm, položili protestantští páni na stůl svůj požadavek: větu, která byla před třiceti čtyřmi lety [[link:a-promise-by-word-of-mouth-1575]]slíbena jen ústně[[/link]], napsat, podepsat a zpečetit.\n\nCísař to zase chtěl odložit. Bratrovo vojsko odtáhlo domů, takže dlužní úpis už se nezdál tak naléhavý.\n\nTentokrát ale stavové čekat nechtěli. Sešli se sami, zvolili si vlastní vůdce a začali verbovat vojáky, aby bylo jasné, že pokoj nebude, dokud nepodepíše. Císař nahoře na hradě vlastní vojsko pořád neměl.\n\n[[b]]Tentokrát čekali na císařovu odpověď poddaní, a čekali s vojskem.[[/b]]\n\nDne 9. července 1609 podepsal Rudolf na Pražském hradě listinu, které se začalo říkat Rudolfův majestát.\n\nCo v něm stálo? Nikoho nelze nutit ke katolické víře ani k žádné jiné. Páni, královská města, a dokonce i obyčejní poddaní mohou věřit, jak chtějí. Protestanti smějí stavět vlastní kostely a otevírat vlastní školy a pražská univerzita i správa jejich církve se svěřuje jim. Majestát byl dokonce vložen do zemských desk, a stal se tak zákonem království.\n\nNejzajímavější je v něm jedna věta. Aby ukázal, že Česká konfese platila odjakživa, Rudolf pečlivě uvedl:\n\n[[quote:0]]\n\nOtec, který chtěl slibovat jen ústy, tedy nakonec přece jen něco napsal, a to vlastní rukou.\n\n[[b]]Po třiceti čtyřech letech čekání se ze slibu ústy stalo černé na bílém.[[/b]]\n\nPražští protestanti se hned pustili do práce. Němečtí luteráni na Starém Městě začali stavět kostel sv. Salvátora, ti na Malé Straně kostel Nejsvětější Trojice. O pár let později převzala Jednota bratrská Betlémskou kapli, kde kdysi kázal Jan Hus.\n\nNe všichni na hradě však byli spokojení. Několik katolických rad odmítlo připojit své podpisy. Dva z nich se jmenovali Slavata a Martinic.\n\nTa dvě jména si stojí za to zapamatovat. Za devět let se objeví znovu.",
-      zh: "1608年，皇帝给波希米亚人打了一张[[link:the-brothers-split-the-house-1608]]欠条[[/link]]。1609年，他们来要账了。\n\n议会一开，新教贵族们就把要求摆上了桌：三十四年前那句[[link:a-promise-by-word-of-mouth-1575]]口头答应[[/link]]的话，写下来，签上字，盖上章。\n\n皇帝又想拖。弟弟的兵已经撤了，这张欠条，好像也就没那么急着还了。\n\n可这一回，等级们不等了。他们自己开会，自己推举领头人，还开始招兵买马，摆明了：不签字，就别想安生。城堡里的皇帝，手里照旧没有一兵一卒。\n\n[[b]]这一次，是臣民在等皇帝表态，而且是带着兵在等。[[/b]]\n\n1609年7月9日，鲁道夫在布拉格城堡签下了一份诏书，后人管它叫《宗教自由诏书》。\n\n诏书里写了什么？谁也不能被强迫改信天主教，或者别的什么教；贵族、王室城市，连普通的农民，都可以按自己的意思信仰；新教徒可以盖自己的教堂、办自己的学校，布拉格的大学和新教的教会事务，也交给他们自己管。这份诏书还被抄进了土地册，成了王国的正式法律。\n\n诏书里最有意思的，是这么一句话。为了说明那份信纲早就算数，鲁道夫特意写道：\n\n[[quote:0]]\n\n原来，当年那位只肯动嘴、不肯动笔的父亲，私下里其实是写过的，还是亲笔写的。\n\n[[b]]等了三十四年，口头答应终于变成了白纸黑字。[[/b]]\n\n布拉格的新教徒马上动了起来。老城的德意志路德派开始盖救世主教堂，小城的路德派盖起了圣三一教堂。又过了几年，弟兄会接管了当年胡斯讲道的伯利恒礼拜堂。\n\n不过，城堡里也有人不高兴。几位天主教大臣拒绝在上面签字，其中两位，一个叫斯拉瓦塔，一个叫马丁尼茨。\n\n这两个名字，最好先记住。九年以后，它们还会出现。",
+      en: "In 1608 the emperor had handed the Bohemians an [[link:the-brothers-split-the-house-1608]]IOU[[/link]]. In 1609 they came to collect.\n\nAs soon as the diet opened, the Protestant lords put their demand on the table: take the sentence [[link:a-promise-by-word-of-mouth-1575]]promised by word of mouth[[/link]] thirty-four years earlier, write it down, sign it and seal it.\n\nThe emperor tried to stall again. His brother's troops had gone home, so the IOU no longer seemed quite so urgent.\n\nThis time, though, the estates would not wait. They met on their own, chose their own leaders and began raising troops, making it plain that there would be no peace until he signed. Up in the castle, the emperor still had no army of his own.\n\n[[b]]This time it was the subjects waiting for the emperor's answer, and they were waiting with soldiers.[[/b]]\n\nOn 9 July 1609, at Prague Castle, Rudolf signed a charter that came to be known as the Letter of Majesty.\n\nWhat did it say? Nobody could be forced into the Catholic faith or any other. Lords, royal towns and even ordinary peasants were free to worship as they chose. Protestants could build their own churches and open their own schools, and the university of Prague and the running of their church were handed to them. The charter was even entered into the Land Tables, which made it the law of the kingdom.\n\nThe most curious part is one sentence in it. To show that the Bohemian Confession had counted all along, Rudolf took care to mention:\n\n[[quote:0]]\n\nSo the father who would only promise by word of mouth had, it turns out, put something in writing after all, in his own hand.\n\n[[b]]After thirty-four years of waiting, a promise by word of mouth had become black and white.[[/b]]\n\nPrague's Protestants set to work at once. The German Lutherans of the Old Town began building the Church of the Holy Saviour, and those of the Lesser Town the Church of the Holy Trinity. A few years later the Unity of the Brethren took over the Bethlehem Chapel, where Jan Hus had once preached.\n\nYears later, Comenius looked back on that time like this:\n\n[[quote:1]]\n\nThe last line is beautifully polite. “Deigned” stands for ráčil, the courtly word for what a monarch graciously condescends to do. It sounds deferential, and it carries a small dig: what the father had promised, the son had at last been gracious enough to keep.\n\nNot everyone at the castle was pleased, though. Several Catholic councillors refused to put their names to it. Two of them were called Slavata and Martinic.\n\nThose two names are worth remembering. Nine years later, they will turn up again.",
+      cz: "Roku 1608 dal císař Čechům [[link:the-brothers-split-the-house-1608]]dlužní úpis[[/link]]. Roku 1609 si ho přišli vybrat.\n\nHned jak se sešel sněm, položili protestantští páni na stůl svůj požadavek: větu, která byla před třiceti čtyřmi lety [[link:a-promise-by-word-of-mouth-1575]]slíbena jen ústně[[/link]], napsat, podepsat a zpečetit.\n\nCísař to zase chtěl odložit. Bratrovo vojsko odtáhlo domů, takže dlužní úpis už se nezdál tak naléhavý.\n\nTentokrát ale stavové čekat nechtěli. Sešli se sami, zvolili si vlastní vůdce a začali verbovat vojáky, aby bylo jasné, že pokoj nebude, dokud nepodepíše. Císař nahoře na hradě vlastní vojsko pořád neměl.\n\n[[b]]Tentokrát čekali na císařovu odpověď poddaní, a čekali s vojskem.[[/b]]\n\nDne 9. července 1609 podepsal Rudolf na Pražském hradě listinu, které se začalo říkat Rudolfův majestát.\n\nCo v něm stálo? Nikoho nelze nutit ke katolické víře ani k žádné jiné. Páni, královská města, a dokonce i obyčejní poddaní mohou věřit, jak chtějí. Protestanti smějí stavět vlastní kostely a otevírat vlastní školy a pražská univerzita i správa jejich církve se svěřuje jim. Majestát byl dokonce vložen do zemských desk, a stal se tak zákonem království.\n\nNejzajímavější je v něm jedna věta. Aby ukázal, že Česká konfese platila odjakživa, Rudolf pečlivě uvedl:\n\n[[quote:0]]\n\nOtec, který chtěl slibovat jen ústy, tedy nakonec přece jen něco napsal, a to vlastní rukou.\n\n[[b]]Po třiceti čtyřech letech čekání se ze slibu ústy stalo černé na bílém.[[/b]]\n\nPražští protestanti se hned pustili do práce. Němečtí luteráni na Starém Městě začali stavět kostel sv. Salvátora, ti na Malé Straně kostel Nejsvětější Trojice. O pár let později převzala Jednota bratrská Betlémskou kapli, kde kdysi kázal Jan Hus.\n\nKomenský na tu dobu o mnoho let později vzpomínal takhle:\n\n[[quote:1]]\n\nPoslední verš je krásně zdvořilý. „Ráčil“ se říkalo o tom, co panovník milostivě uráčí udělat. Zní to uctivě, a přece je v tom kousek posměšku: co otec slíbil, syn konečně ráčil splnit.\n\nNe všichni na hradě však byli spokojení. Několik katolických rad odmítlo připojit své podpisy. Dva z nich se jmenovali Slavata a Martinic.\n\nTa dvě jména si stojí za to zapamatovat. Za devět let se objeví znovu.",
+      zh: "1608年，皇帝给波希米亚人打了一张[[link:the-brothers-split-the-house-1608]]欠条[[/link]]。1609年，他们来要账了。\n\n议会一开，新教贵族们就把要求摆上了桌：三十四年前那句[[link:a-promise-by-word-of-mouth-1575]]口头答应[[/link]]的话，写下来，签上字，盖上章。\n\n皇帝又想拖。弟弟的兵已经撤了，这张欠条，好像也就没那么急着还了。\n\n可这一回，等级们不等了。他们自己开会，自己推举领头人，还开始招兵买马，摆明了：不签字，就别想安生。城堡里的皇帝，手里照旧没有一兵一卒。\n\n[[b]]这一次，是臣民在等皇帝表态，而且是带着兵在等。[[/b]]\n\n1609年7月9日，鲁道夫在布拉格城堡签下了一份诏书，后人管它叫《宗教自由诏书》。\n\n诏书里写了什么？谁也不能被强迫改信天主教，或者别的什么教；贵族、王室城市，连普通的农民，都可以按自己的意思信仰；新教徒可以盖自己的教堂、办自己的学校，布拉格的大学和新教的教会事务，也交给他们自己管。这份诏书还被抄进了土地册，成了王国的正式法律。\n\n诏书里最有意思的，是这么一句话。为了说明那份信纲早就算数，鲁道夫特意写道：\n\n[[quote:0]]\n\n原来，当年那位只肯动嘴、不肯动笔的父亲，私下里其实是写过的，还是亲笔写的。\n\n[[b]]等了三十四年，口头答应终于变成了白纸黑字。[[/b]]\n\n布拉格的新教徒马上动了起来。老城的德意志路德派开始盖救世主教堂，小城的路德派盖起了圣三一教堂。又过了几年，弟兄会接管了当年胡斯讲道的伯利恒礼拜堂。\n\n多年以后，夸美纽斯回忆起那几年，是这么写的：\n\n[[quote:1]]\n\n最后一句里的“赏脸”，原文是捷克语里对君主的敬语，意思是“陛下屈尊”。话说得恭恭敬敬，听着却有那么一点调侃：父亲许下的愿，儿子总算赏脸兑现了。\n\n不过，城堡里也有人不高兴。几位天主教大臣拒绝在上面签字，其中两位，一个叫斯拉瓦塔，一个叫马丁尼茨。\n\n这两个名字，最好先记住。九年以后，它们还会出现。",
     },
     relatedLandmarks: [
       {
@@ -25502,6 +25527,553 @@ export const historyEvents = [
       },
     ],
     wikipediaUrl: "https://cs.wikipedia.org/wiki/Rudolf%C5%AFv_majest%C3%A1t",
+  },
+  // Draft by the user (2026-10-18), polished. Sources: Sněmy české XV/1
+  // (psp.cz, 1611 Prague newspaper reports: the emperor long refused to admit
+  // the army was raised at his expense; the Passau troops took Budějovice,
+  // Krumlov, Tábor and Týn; they were calmed with money from the emperor's own
+  // reserves, 280,000 guilders and then 220,000 ducats; they slipped out of
+  // Prague by night around 11 March 1611). The fourteen Franciscans of Our
+  // Lady of the Snows (15 Feb 1611) were beatified in 2012. Matthias entered
+  // Prague on 24 March and was crowned on 23 May 1611. Rudolf's curse is a
+  // legend; the user's Czech text is kept and labelled as legend. "Three
+  // crowns" became "three lands": Austria and Moravia were not kingdoms.
+  {
+    slug: "easy-to-invite-hard-to-send-away-1611",
+    era: "age-of-wonders",
+    images: ["/history/easy-to-invite-hard-to-send-away-1611.webp"],
+    imageCaptions: [
+      {
+        en: "February 1611: unpaid Passau mercenaries loot the Lesser Town below the castle, smoke rises over the snowy roofs, and across the river the Old Town has shut the gate of its bridge tower.",
+        cz: "Únor 1611: nezaplacení pasovští žoldnéři plení Malou Stranu pod hradem, nad zasněženými střechami stoupá kouř a na druhém břehu zavřelo Staré Město bránu své mostecké věže.",
+        zh: "1611年2月：拿不到军饷的帕绍雇佣兵在城堡脚下的小城里烧抢，雪后的屋顶上冒起黑烟；河对岸，老城已经关上了桥头塔的城门。",
+      },
+    ],
+    startYear: 1611,
+    year: {
+      en: "1611",
+      cz: "1611",
+      zh: "1611年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Easy to Invite, Hard to Send Away",
+      cz: "Snadno pozvat, těžko vyprovodit",
+      zh: "请神容易送神难",
+    },
+    hookLine: {
+      en: "The emperor sent for an army to settle his scores. His rescuers sacked his own city first, and in the end he had to pay them to leave.",
+      cz: "Císař si pozval vojsko, aby si vyřídil účty. Jeho zachránci nejdřív vyplenili jeho vlastní město a nakonec jim musel zaplatit, aby odešli.",
+      zh: "皇帝想请一支军队来帮自己出口气。结果救兵先把自家的城抢了一遍，最后还得他自己掏钱请走。",
+    },
+    summary: {
+      en: "After signing the [[link:in-black-and-white-1609]]Letter of Majesty[[/link]] in 1609, the emperor was seething.\n\nHungary, Austria and Moravia had gone to his [[link:the-brothers-split-the-house-1608]]younger brother[[/link]]; the charter in Bohemia had been forced out of him by the estates. He could not swallow it.\n\nThe emperor had no troops, but he did have a cousin: Archduke Leopold, Bishop of Passau. Bishops are not supposed to command armies, but this one had raised a mercenary army at Passau, supposedly to fight a succession dispute in western Germany.\n\nThe emperor began to wonder: what if those troops marched into Bohemia instead, drove out his brother and brought the estates to heel?\n\nExactly what the two of them agreed, nobody can say; the emperor always refused to admit that the army had been raised for him. But early in 1611 the “Passau troops” really did march into Bohemia.\n\n[[b]]The emperor wanted a rescue party. What he got was a mob of mercenaries who had not been paid.[[/b]]\n\nThe soldiers had gone without wages for months. They fought their way up from South Bohemia, taking Krumlov, Budějovice and Tábor, and in mid-February they reached Prague and burst into the Lesser Town below the castle.\n\nThe Lesser Town paid for it. Houses were looted, shops smashed, and people fled for their lives.\n\nAcross the river, the Old Town and the New Town slammed their gates shut and the townsmen took up arms. Their fury grew by the hour. A mob decided that the Catholic monks must be in league with the men from Passau, stormed the friary at the Church of Our Lady of the Snows in the New Town, and killed fourteen Franciscan friars.\n\nAll Prague was in uproar. And the emperor sat in his castle, right above it all.\n\nThe estates decided enough was enough and sent for Matthias.\n\nAnd how did the Passau troops finally leave? Funnily enough, the emperor paid them to go. According to the Prague newspapers of the time, the money came out of his own treasury, several hundred thousand in all. In the middle of March the men from Passau slipped out of Prague by night.\n\n[[b]]He had brought in the soldiers at his own expense, and he had to pay them to go away again.[[/b]]\n\nAnd the man the estates had sent for was already on his way.",
+      cz: "Po podpisu [[link:in-black-and-white-1609]]Majestátu[[/link]] roku 1609 v císaři všechno vřelo.\n\nUhry, Rakousy a Moravu dostal jeho [[link:the-brothers-split-the-house-1608]]mladší bratr[[/link]]; majestát v Čechách z něj vymohli stavové. Tohle spolknout nedokázal.\n\nCísař vojsko neměl, měl ale bratrance: arcivévodu Leopolda, pasovského biskupa. Biskupové by armády velet neměli, jenže tenhle si v Pasově naverboval žoldnéře, prý kvůli sporu o dědictví na západě Německa.\n\nCísař začal přemýšlet: co kdyby to vojsko místo toho vtáhlo do Čech, vyhnalo bratra a umravnilo stavy?\n\nNa čem se ti dva přesně domluvili, nikdo neví; císař vždycky odmítal přiznat, že vojsko bylo naverbováno pro něj. Začátkem roku 1611 ale „Pasovští“ do Čech opravdu vtáhli.\n\n[[b]]Císař chtěl záchranu. Dostal hordu žoldnéřů, kterým nikdo nezaplatil.[[/b]]\n\nVojáci už měsíce nedostali žold. Probojovali se z jižních Čech, obsadili Krumlov, Budějovice a Tábor a v polovině února dorazili k Praze a vtrhli na Malou Stranu pod hradem.\n\nMalá Strana to odnesla. Domy byly vyrabovány, krámy rozbité a lidé utíkali, aby si zachránili život.\n\nNa druhém břehu zabouchlo Staré i Nové Město brány a měšťané se chopili zbraní. Jejich zloba rostla každou hodinou. Dav usoudil, že katoličtí mniši musejí být s Pasovskými spolčeni, vtrhl do kláštera u kostela Panny Marie Sněžné na Novém Městě a zabil čtrnáct františkánů.\n\nCelá Praha byla vzhůru nohama. A císař seděl na hradě přímo nad tím vším.\n\nStavové usoudili, že tohle už je moc, a poslali pro Matyáše.\n\nA jak Pasovští nakonec odešli? Je to až k smíchu: císař jim za odchod zaplatil. Podle tehdejších pražských novin šly peníze z jeho vlastní pokladny, dohromady několik set tisíc. V polovině března se Pasovští v noci z Prahy vytratili.\n\n[[b]]Vojsko si přivedl na vlastní náklady, a na vlastní náklady ho musel zase poslat pryč.[[/b]]\n\nA ten, pro koho si stavové poslali, už byl na cestě.",
+      zh: "1609年签完[[link:in-black-and-white-1609]]《宗教自由诏书》[[/link]]，皇帝心里憋着一口气。\n\n匈牙利、奥地利、摩拉维亚，三片领地都给了[[link:the-brothers-split-the-house-1608]]弟弟[[/link]]；波希米亚的诏书，是被等级们逼着签的。这口气，他咽不下去。\n\n皇帝手里没兵，可他有个堂弟：利奥波德大公，帕绍的主教。主教本不该带兵，可这位大公偏偏在帕绍招了一支雇佣军，号称是要去德意志西边打一场争遗产的官司。\n\n皇帝动了心思：要是这支兵能开进波希米亚，替他把弟弟赶走、把等级们收拾服帖，那该多好？\n\n两人到底是怎么商量的，谁也说不清楚，皇帝自己一直不肯承认这支兵是替他招的。可1611年初，这支“帕绍兵”真的开进了波希米亚。\n\n[[b]]皇帝想请的是救兵，来的是一群讨薪的雇佣兵。[[/b]]\n\n这群兵已经好几个月没拿到军饷了。他们从南波希米亚一路打过来，占了克鲁姆洛夫、布杰约维采和塔博尔，2月中旬开到布拉格，一口气冲进了城堡脚下的小城。\n\n小城遭了殃。房子被抢，铺子被砸，老百姓四处逃命。\n\n河对岸的老城和新城赶紧关上城门，市民们拿起了武器。城里的火气越烧越旺，一群暴民认定修道院里的天主教僧侣跟帕绍兵是一伙的，冲进新城雪地圣母教堂旁的修道院，杀死了十四名方济各会修士。\n\n整个布拉格乱成了一锅粥。而城堡里的皇帝，就坐在这锅粥的正上方。\n\n等级们一看，这还了得，赶紧派人去请马蒂亚斯。\n\n帕绍兵最后是怎么走的？说来好笑：皇帝自己掏钱，把他们打发走了。据当时布拉格的报纸说，钱是从皇帝自己的金库里拿的，前前后后几十万。3月中旬，帕绍兵趁着夜色撤出了布拉格。\n\n[[b]]请神容易送神难：花钱请来的兵，最后还得自己花钱送走。[[/b]]\n\n而等级们请来的那位，已经在路上了。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "kostel-panny-marie-snezne",
+        relation: {
+          en: "In February 1611 fourteen Franciscan friars were killed in the friary here. The Church beatified them in 2012 as the Fourteen Martyrs of Prague.",
+          cz: "V únoru 1611 tu bylo v klášteře zabito čtrnáct františkánů. Církev je roku 2012 blahořečila jako Čtrnáct pražských mučedníků.",
+          zh: "1611年2月，十四名方济各会修士在这里的修道院遇害。2012年，天主教会把他们列为真福，称作“布拉格的十四位殉道者”。",
+        },
+      },
+      {
+        slug: "cesky-krumlov",
+        relation: {
+          en: "One of the first towns the Passau troops took on their march through South Bohemia.",
+          cz: "Jedno z prvních měst, která Pasovští obsadili na tažení jižními Čechami.",
+          zh: "帕绍兵从南波希米亚一路打过来，最先占领的城市之一。",
+        },
+      },
+      {
+        slug: "ceske-budejovice",
+        relation: {
+          en: "The royal town of South Bohemia, which the Passau troops also took on their march north to Prague.",
+          cz: "Královské město jižních Čech, které Pasovští obsadili také, na pochodu na sever k Praze.",
+          zh: "南波希米亚的王室城市；帕绍兵一路北上开往布拉格时，也占了这里。",
+        },
+      },
+      {
+        slug: "tabor",
+        relation: {
+          en: "The old Hussite stronghold, another town the Passau troops took on their way to Prague.",
+          cz: "Staré husitské město, další z měst, která Pasovští obsadili cestou do Prahy.",
+          zh: "当年胡斯派的大本营；帕绍兵开往布拉格的路上，也把它拿下了。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Vp%C3%A1d_Pasovsk%C3%BDch",
+  },
+  // Split from the Passau card on 2026-10-18 (user's call): Matthias's entry,
+  // Rudolf's legendary curse and the 23 May 1611 coronation. startYear 1611.3
+  // keeps it after easy-to-invite-hard-to-send-away-1611.
+  {
+    slug: "the-bohemian-crown-goes-too-1611",
+    era: "age-of-wonders",
+    images: ["/history/the-bohemian-crown-goes-too-1611.webp"],
+    imageCaptions: [
+      {
+        en: "1611: on the left, Matthias kneels in St Vitus Cathedral to be crowned King of Bohemia; on the right, Rudolf stands alone among his treasures, his old lion at his feet, and curses the city from his window.",
+        cz: "1611: vlevo klečí Matyáš v katedrále sv. Víta a je korunován českým králem; vpravo stojí Rudolf sám mezi svými poklady, u nohou starého lva, a z okna proklíná město.",
+        zh: "1611年：左边，马蒂亚斯跪在圣维特大教堂里，加冕为波希米亚国王；右边，鲁道夫孤零零地站在他的珍宝之间，老狮子趴在脚边，他对着窗外的城市念起了诅咒。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "Prague, Prague, ungrateful Prague! I raised you up, and now you drive out your benefactor. May the vengeance of God and a curse fall on you and on all Bohemia!",
+          cz: "Praho, Praho, nevděčná Praho, mnou jsi byla povýšena, a nyní zapuzuješ svého dobrodince. Ať tě stihne pomsta Boží a kletba na tebe i na celé Čechy!",
+          zh: "布拉格啊布拉格，忘恩负义的布拉格！是我让你飞黄腾达，如今你却赶走了你的恩人。愿上帝的报复和诅咒，落到你的头上，落到整个波希米亚的头上！",
+        },
+        attribution: {
+          en: "Rudolf II's curse on Prague, according to legend, 1611",
+          cz: "Rudolfova kletba na Prahu podle pověsti, 1611",
+          zh: "传说中鲁道夫二世对布拉格的诅咒，1611年",
+        },
+      },
+    ],
+    startYear: 1611.3,
+    year: {
+      en: "1611",
+      cz: "1611",
+      zh: "1611年",
+    },
+    tone: "humorous",
+    title: {
+      en: "No Kingdoms, Just an Empire",
+      cz: "Bez královské koruny, jen s císařskou",
+      zh: "没有王冠，只剩皇冠",
+    },
+    hookLine: {
+      en: "The younger brother rode in and was crowned king. The elder stood at a castle window and laid a curse on the city below.",
+      cz: "Mladší bratr vjel do Prahy a byl korunován králem. Starší stál u okna hradu a proklel město pod sebou.",
+      zh: "弟弟进了城，戴上了王冠；哥哥站在城堡的窗前，对着脚下的城市念起了诅咒。",
+    },
+    summary: {
+      en: "The [[link:easy-to-invite-hard-to-send-away-1611]]men from Passau[[/link]] had barely left when, at the end of March, Matthias rode into Prague with his army, welcomed with open arms by the estates. This time the emperor in his castle had nothing left to bargain with.\n\nIt is said that he stood at a window of the castle, looked down at the city below, and laid a curse on it:\n\n[[quote:0]]\n\nWhether he really said it, nobody can tell. But seven years later, people who remembered it could not help a shiver.\n\nOn 23 May 1611 Matthias was crowned King of Bohemia in St Vitus Cathedral.\n\nRudolf still lived in the castle and still bore the title of Holy Roman Emperor, but he had not a single crown left.\n\n[[b]]The emperor who wanted to collect everything could not even keep his own crowns.[[/b]]\n\nHe still had his lion, though.",
+      cz: "[[link:easy-to-invite-hard-to-send-away-1611]]Pasovští[[/link]] sotva odtáhli, a koncem března už vjížděl do Prahy s vojskem Matyáš a stavové ho vítali s otevřenou náručí. Tentokrát už neměl císař na hradě čím smlouvat.\n\nŘíká se, že stál u okna hradu, díval se dolů na město a proklel ho:\n\n[[quote:0]]\n\nJestli to opravdu řekl, nikdo neví. Ale o sedm let později se ti, kdo si na to vzpomněli, neubránili zachvění.\n\nDne 23. května 1611 byl Matyáš v katedrále sv. Víta korunován českým králem.\n\nRudolf pořád bydlel na hradě a pořád nosil titul císaře Svaté říše římské, ale nezbyla mu ani jediná koruna.\n\n[[b]]Císař, který chtěl sbírat všechno, si nedokázal udržet ani vlastní koruny.[[/b]]\n\nLva ale pořád měl.",
+      zh: "[[link:easy-to-invite-hard-to-send-away-1611]]帕绍兵[[/link]]前脚刚走，3月底，马蒂亚斯就带着军队进了布拉格，等级们夹道欢迎。这一回，城堡里的皇帝连讨价还价的本钱都没有了。\n\n据说，他站在城堡的窗前，望着脚下的城市，留下了一段诅咒：\n\n[[quote:0]]\n\n这段话是真是假，没人说得准。可七年以后，人们回想起来，难免会打个寒战。\n\n1611年5月23日，马蒂亚斯在圣维特大教堂加冕为波希米亚国王。\n\n鲁道夫还住在城堡里，还挂着神圣罗马皇帝的头衔，可他手里，一顶王冠都不剩了。\n\n[[b]]一个什么都想收进来的皇帝，最后连自己的王冠都没留住。[[/b]]\n\n不过，他还有他的狮子。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "matyasova-brana",
+        relation: {
+          en: "Built in 1614 and named after the castle's new master, it is one of the first Baroque buildings in Prague. His brother's castle got a new front door.",
+          cz: "Postavena roku 1614 a pojmenována po novém pánovi hradu, patří k prvním barokním stavbám v Praze. Bratrův hrad dostal nové hlavní dveře.",
+          zh: "1614年建成，以城堡的新主人命名，是布拉格最早的巴洛克建筑之一。哥哥的城堡，从此换了一道新大门。",
+        },
+      },
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Where Matthias was crowned King of Bohemia on 23 May 1611, with Rudolf still living a few steps away.",
+          cz: "Kde byl Matyáš 23. května 1611 korunován českým králem, zatímco Rudolf bydlel pár kroků odtud.",
+          zh: "1611年5月23日，马蒂亚斯在这里加冕为波希米亚国王，而鲁道夫就住在几步之外。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Maty%C3%A1%C5%A1_Habsbursk%C3%BD",
+  },
+  // Draft by the user (2026-10-18), polished. Rudolf died at Prague Castle
+  // on 20 January 1612, aged 59 (Britannica 1911); prague.eu's chronology has
+  // the lion Mohamed dying three days before him and credits Tycho Brahe with
+  // the horoscope that bound their fates. Matthias moved the court back to
+  // Vienna soon after (no exact year given). Kepler left for Linz in 1612.
+  // The recap paragraph links back to the era's earlier cards; the last line
+  // points at the 1618 defenestration without naming it.
+  {
+    slug: "the-lion-went-first-1612",
+    era: "age-of-wonders",
+    images: ["/history/the-lion-went-first-1612.webp"],
+    imageCaptions: [
+      {
+        en: "Early 1612, Rudolf's treasure room after his death: servants pack his clocks, paintings, globe and stuffed crocodile into crates to be sold for his debts while a merchant prices them in a ledger, the old lion's collar lies on an empty cushion, and a Catholic nobleman stands at the window, lost in thought.",
+        cz: "Začátek roku 1612, Rudolfova kunstkomora po jeho smrti: sluhové balí do beden jeho hodiny, obrazy, glóbus a vycpaného krokodýla, které se prodají na jeho dluhy, kupec je oceňuje v účetní knize, obojek starého lva leží na prázdném polštáři a katolický šlechtic stojí zamyšleně u okna.",
+        zh: "1612年初，鲁道夫死后的珍宝屋：仆从们把他的钟表、油画、地球仪和鳄鱼标本装进木箱，准备拿去卖钱还债，一个商人在账本上一件件估价；老狮子的项圈搁在一只空垫子上；一位天主教贵族站在窗前，若有所思。",
+      },
+    ],
+    startYear: 1612,
+    year: {
+      en: "1612",
+      cz: "1612",
+      zh: "1612年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Lion Went First",
+      cz: "Lev odešel první",
+      zh: "狮子先走了",
+    },
+    hookLine: {
+      en: "Legend said the emperor's life was bound to his lion's. In January 1612 the lion died. Three days later, so did the emperor.",
+      cz: "Podle pověsti byl císařův život svázán se životem jeho lva. V lednu 1612 lev uhynul. O tři dny později zemřel i císař.",
+      zh: "传说皇帝的命和他的狮子连在一起。1612年1月，狮子死了。三天后，皇帝也走了。",
+    },
+    summary: {
+      en: "After losing [[link:the-bohemian-crown-goes-too-1611]]his last crown[[/link]], Rudolf rarely went out at all.\n\nHe still lived in the castle and still bore the title of emperor, but one by one the people of his court drifted away. His ministers went to court the new king, and the foreign ambassadors turned to knock on Matthias's door instead. In all that great castle, the emperor's only company was his paintings, his clocks, his precious stones and his old lion, Mohamed.\n\nAbout that lion, Prague had a story. The astronomer [[link:a-nose-an-elk-and-an-ellipse-1601]]Tycho Brahe[[/link]], it was said, had read the stars for the emperor and found that his fate and the lion's were bound together. As long as the lion lived, so would the emperor; if the lion died, the emperor would not outlive it by long.\n\nWhether the emperor believed it, nobody knows. But he certainly doted on the lion: he fed it well, built it a [[link:the-emperor-moves-house-1583]]house of its own[[/link]] and treated it as a kindred spirit.\n\n[[b]]All his life this emperor had little trust in people, but he trusted the stars, and he trusted a lion.[[/b]]\n\nIn January 1612 the lion Mohamed died.\n\nThree days later, on 20 January, Rudolf died at Prague Castle, at the age of fifty-nine.\n\nHe never married and left no legitimate children. The questions he had wanted answered, why the stars move as they do, why some stones are precious, why people die, he never did answer. But he left Prague a stretch of years no other city had: for a while the cleverest, strangest and most accomplished swindlers in Europe were all crowded into this one town.\n\n[[b]]With the emperor gone, the age of marvels broke up too.[[/b]]\n\nAnd it broke up fast.\n\nMatthias took the imperial crown, but he had no great love for Prague. Before long he moved the court back to Vienna. Prague had been the capital of the empire for nearly thirty years, and just like that it was a provincial city again.\n\nSome of the treasures in the cabinets of curiosities were loaded onto wagons for Vienna, some were sold off to pay debts, and the rest were locked away in the castle to gather dust. Kepler packed his bags and his great pile of Tycho's observations and moved to Linz in Austria. The alchemists went off to find new patrons.\n\n[[b]]In 1583 one emperor had moved the whole court to Prague; in 1612 the next one moved it back.[[/b]]\n\nRudolf was buried in the royal crypt of St Vitus Cathedral, a few steps from the rooms he had lived in for nearly thirty years.\n\nLook back over those thirty years. He received a man who [[link:the-gold-that-never-came-1584]]talked to angels[[/link]], listened to a rabbi from [[link:the-emperor-behind-the-curtain-1592]]behind a curtain[[/link]], had a painting [[link:the-emperors-storeroom-1590]]carried over the Alps[[/link]], was turned into [[link:the-vegetable-emperor-1591]]a plate of vegetables[[/link]] by a painter, and [[link:ten-days-gone-1584]]deleted ten days[[/link]] for an entire country.\n\nAnd not one ounce of gold was ever made.\n\n[[b]]Prague's liveliest, strangest, most entertaining decades end here.[[/b]]\n\nThe lion was gone, the emperor was gone, the court had moved away. But the windows of the old royal palace were still there.",
+      cz: "Když přišel o [[link:the-bohemian-crown-goes-too-1611]]poslední korunu[[/link]], vycházel Rudolf ven jen málokdy.\n\nPořád bydlel na hradě a pořád nosil titul císaře, ale lidé od dvora se jeden po druhém vytráceli. Ministři se šli zalíbit novému králi a cizí vyslanci teď klepali na Matyášovy dveře. V celém tom velkém hradě císaři dělaly společnost jen jeho obrazy, hodiny, drahé kameny a starý lev Mohamed.\n\nO tom lvovi si Praha vyprávěla jednu věc. Astronom [[link:a-nose-an-elk-and-an-ellipse-1601]]Tycho Brahe[[/link]] prý císaři vyložil hvězdy a zjistil, že jeho osud a osud lva jsou spolu svázané. Dokud lev žije, bude žít i císař; když lev zemře, císař ho dlouho nepřežije.\n\nJestli tomu císař věřil, nikdo neví. Ale na lvovi mu rozhodně záleželo: dobře ho krmil, postavil mu [[link:the-emperor-moves-house-1583]]vlastní dům[[/link]] a měl ho za spřízněnou duši.\n\n[[b]]Celý život tenhle císař lidem moc nevěřil, ale věřil hvězdám, a věřil lvovi.[[/b]]\n\nV lednu 1612 lev Mohamed uhynul.\n\nO tři dny později, 20. ledna, zemřel Rudolf na Pražském hradě ve věku padesáti devíti let.\n\nNikdy se neoženil a nezanechal žádné legitimní děti. Na otázky, na které chtěl znát odpověď, proč se hvězdy pohybují tak, jak se pohybují, proč jsou některé kameny drahé, proč lidé umírají, odpověď nikdy nenašel. Praze ale zanechal léta, jaká nezažilo žádné jiné město: na čas se v tomhle jediném městě tísnili nejchytřejší, nejpodivnější a nejzdatnější podvodníci celé Evropy.\n\n[[b]]S císařem odešel i věk divů.[[/b]]\n\nA odešel rychle.\n\nMatyáš převzal císařskou korunu, ale k Praze žádnou velkou lásku necítil. Zanedlouho přestěhoval dvůr zpátky do Vídně. Praha byla skoro třicet let hlavním městem říše, a najednou z ní bylo zase provinční město.\n\nČást pokladů z kunstkomor se naložila na vozy do Vídně, část se rozprodala na splátky dluhů a zbytek se zamkl na hradě a sedal na něj prach. Kepler si sbalil kufry i velký balík Tychonových pozorování a odešel do rakouského Lince. I alchymisté si šli hledat nové pány.\n\n[[b]]Roku 1583 přestěhoval jeden císař celý dvůr do Prahy; roku 1612 ho další přestěhoval zpátky.[[/b]]\n\nRudolf byl pohřben v královské hrobce katedrály sv. Víta, pár kroků od komnat, ve kterých skoro třicet let žil.\n\nOhlédněte se za těmi třiceti lety. Přijal muže, který [[link:the-gold-that-never-came-1584]]mluvil s anděly[[/link]], poslouchal rabína [[link:the-emperor-behind-the-curtain-1592]]zpoza závěsu[[/link]], nechal obraz [[link:the-emperors-storeroom-1590]]přenést přes Alpy[[/link]], malíř z něj udělal [[link:the-vegetable-emperor-1591]]talíř zeleniny[[/link]] a celé zemi [[link:ten-days-gone-1584]]vymazal deset dní[[/link]].\n\nA zlata se nevyrobilo ani zrnko.\n\n[[b]]Nejživější, nejpodivnější a nejzábavnější pražská desetiletí tady končí.[[/b]]\n\nLev byl pryč, císař byl pryč, dvůr se odstěhoval. Ale okna starého královského paláce tu zůstala.",
+      zh: "丢了[[link:the-bohemian-crown-goes-too-1611]]最后一顶王冠[[/link]]以后，鲁道夫就很少出门了。\n\n他还住在城堡里，还挂着皇帝的头衔，可宫里的人一个接一个地走了。大臣们去讨好新国王，各国的大使也转身去敲马蒂亚斯的门。偌大的城堡里，陪着皇帝的，只剩下他的画、他的钟表、他的宝石，还有那头老狮子穆罕默德。\n\n关于这头狮子，布拉格一直流传着一个说法：据说天文学家[[link:a-nose-an-elk-and-an-ellipse-1601]]第谷[[/link]]替皇帝看过星象，说他和这头狮子的命是连在一起的。狮子活着，皇帝就活着；狮子要是死了，皇帝也活不长。\n\n皇帝信不信，没人知道。不过，他对这头狮子确实上心：好吃好喝地养着，专门[[link:the-emperor-moves-house-1583]]盖了房子[[/link]]给它住，把它当成自己的知己。\n\n[[b]]这位皇帝一辈子不太信人，却信星星，也信一头狮子。[[/b]]\n\n1612年1月，狮子穆罕默德死了。\n\n三天后，1月20日，鲁道夫在布拉格城堡里去世，终年五十九岁。\n\n他一辈子没有结婚，没有留下合法的子女。他想弄明白的那些问题，星星为什么这样转、石头为什么有的值钱、人为什么会死，到最后也没弄明白。可他给布拉格留下了一段别的城市都没有的日子：那些年里，全欧洲最聪明的人、最古怪的人、最会骗人的人，都挤在这座城里。\n\n[[b]]皇帝走了，奇人异事的时代也跟着散场了。[[/b]]\n\n散场得很快。\n\n马蒂亚斯接过了皇冠，但他对布拉格没什么感情。没过多久，他就把宫廷搬回了维也纳。布拉格当了将近三十年帝国的首都，就这么又变回了一座外省的城市。\n\n珍奇屋里的宝贝，有的被装上马车运往维也纳，有的被拿去变卖抵债，剩下的，就锁在城堡里落灰。天文学家开普勒收拾好行李和那一大摞第谷的数据，去了奥地利的林茨。炼金术士们也纷纷另找东家。\n\n[[b]]1583年，皇帝把整个宫廷搬进了布拉格；1612年，新皇帝又把它搬了回去。[[/b]]\n\n鲁道夫被葬在了圣维特大教堂的王室墓穴里，离他住了将近三十年的屋子，只有几步路。\n\n回头看看这将近三十年：他请来过[[link:the-gold-that-never-came-1584]]跟天使说话的人[[/link]]，躲在[[link:the-emperor-behind-the-curtain-1592]]帘子后面[[/link]]听过拉比讲学，让人[[link:the-emperors-storeroom-1590]]扛着一幅画[[/link]]翻过阿尔卑斯山，被一个画家拼成了[[link:the-vegetable-emperor-1591]]一盘蔬菜[[/link]]，还[[link:ten-days-gone-1584]]删掉了全国人的十天[[/link]]。\n\n金子，一块都没炼出来。\n\n[[b]]布拉格最热闹、最古怪、最好玩的那几十年，到这里就讲完了。[[/b]]\n\n狮子走了，皇帝走了，宫廷也搬走了。可老王宫的那几扇窗户，还在。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "kralovska-zahrada",
+        relation: {
+          en: "The Lion Court where Mohamed lived still stands at the entrance to the Royal Garden.",
+          cz: "Lví dvůr, kde žil Mohamed, dodnes stojí u vstupu do Královské zahrady.",
+          zh: "穆罕默德住过的狮子院，至今还立在皇家花园的入口旁。",
+        },
+      },
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Rudolf lies in the royal crypt beneath the cathedral, a few steps from the rooms he lived in.",
+          cz: "Rudolf leží v královské hrobce pod katedrálou, pár kroků od komnat, ve kterých žil.",
+          zh: "鲁道夫葬在大教堂下面的王室墓穴里，离他生前住的屋子只有几步路。",
+        },
+      },
+      {
+        slug: "new-royal-palace",
+        relation: {
+          en: "The wing Rudolf built for his collections, with the Spanish Hall and the Rudolf Gallery; after 1612 its treasures were scattered.",
+          cz: "Křídlo, které si Rudolf postavil pro své sbírky, se Španělským sálem a Rudolfovou galerií; po roce 1612 se jeho poklady rozptýlily.",
+          zh: "鲁道夫为收藏修的宫殿，有西班牙厅和鲁道夫画廊；1612年以后，里面的宝贝就散了。",
+        },
+      },
+      {
+        slug: "dum-u-francouzske-koruny",
+        relation: {
+          en: "Kepler's house on Karlova Street, which he left for Linz after Rudolf's death.",
+          cz: "Keplerův dům v Karlově ulici, odkud po Rudolfově smrti odešel do Lince.",
+          zh: "开普勒在卡尔路的家；鲁道夫死后，他就从这里搬去了林茨。",
+        },
+      },
+      {
+        slug: "old-royal-palace",
+        relation: {
+          en: "The old royal palace of Prague Castle. Its windows still have a part to play.",
+          cz: "Starý královský palác Pražského hradu. Jeho okna ještě sehrají svou roli.",
+          zh: "布拉格城堡的老王宫。它的窗户，后面还有戏份。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Rudolf_II.",
+  },
+  // 2026-10-18, written at the user's request. Source: cs.wikipedia
+  // "Jazykový zákon z roku 1615" (article "O zachování starožitného jazyka
+  // českého a vzdělání jeho", adopted 15 June 1615 at a general diet; printed
+  // in Artikulové sněmu království českého, Prague 1615; provisions: Czech
+  // required for residence and town citizenship, newcomers and descendants to
+  // the third generation barred from office and courts, courts in Czech,
+  // parishes and schools that used Czech for ten years keep Czech clergy and
+  // teachers, double inheritance shares for Czech speakers, six months to
+  // leave for deliberate refusers, "obec německá" banned; German-speaking
+  // members who knew no Czech also voted for it; never enforced, valid
+  // 1615–1627; cited in the first Hlasatel český, 1806). The 1615 diet's
+  // failed talks on common taxes and defence are not stated as fact: no
+  // source was found, so the text only says the emperor wanted money and men.
+  // The Sněmy české edition has no volume for 1612–1617.
+  {
+    slug: "learn-czech-first-1615",
+    era: "age-of-wonders",
+    images: ["/history/learn-czech-first-1615.webp"],
+    imageCaptions: [
+      {
+        en: "The Diet Hall of Prague Castle, June 1615: a clerk reads out the long law on the Czech language, the lords raise their hands in favour, and in the corner a few German-speaking noblemen raise theirs too, without quite understanding what they are voting for.",
+        cz: "Sněmovna Pražského hradu, červen 1615: písař předčítá dlouhý zákon o českém jazyce, páni zvedají ruce pro, a v rohu je zvedá i několik německy mluvících šlechticů, aniž by úplně rozuměli, pro co vlastně hlasují.",
+        zh: "1615年6月，布拉格城堡的议会厅：书记官念着那条长长的捷克语法令，贵族们纷纷举手赞成；角落里几位说德语的贵族也举起了手，至于自己赞成的到底是什么，他们并不太明白。",
+      },
+    ],
+    startYear: 1615,
+    year: {
+      en: "1615",
+      cz: "1615",
+      zh: "1615年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Learn Czech First",
+      cz: "Nejdřív se naučte česky",
+      zh: "先学会捷克语再说",
+    },
+    hookLine: {
+      en: "With the emperor gone to Vienna, Prague began to ask itself who it was. In 1615 the diet came up with an answer: learn Czech first.",
+      cz: "Když císař odešel do Vídně, začala se Praha ptát, kdo vlastně je. Roku 1615 přišel sněm s odpovědí: nejdřív se naučte česky.",
+      zh: "皇帝去了维也纳，布拉格人开始琢磨：我们到底是谁？1615年，议会给出了一个答案：先学会捷克语再说。",
+    },
+    summary: {
+      en: "Once the court had [[link:the-lion-went-first-1612]]moved back to Vienna[[/link]], Prague grew a good deal quieter.\n\nAnd in the quiet, the people of Prague began to wonder: the emperor no longer lived here, nor did his ministers, so why should Vienna decide Bohemia's affairs? And who, for that matter, were they?\n\nPlenty of outsiders had come to Prague with the court over the past thirty years: German nobles, Italian craftsmen, Spanish councillors. German was heard more and more often in the city, and here and there a parish found itself with a priest who could not speak Czech. Some Czech lords watched with alarm: if this went on, would Czech be squeezed out altogether?\n\nIn the summer of 1615 the estates met in Prague. The emperor's side wanted to talk about money and soldiers. On 15 June the estates also passed a law with a very solemn title: On the Preservation of the Ancient Czech Language and Its Cultivation.\n\nThe rules were spelled out one by one. A foreigner who wanted to settle in Bohemia or become a townsman had to learn Czech first, and newcomers, together with their descendants down to the third generation, were barred from public office and from the courts. Every court was to hear its cases in Czech. Parishes and schools that had used Czech for the past ten years were not to be given priests or teachers who could not speak it. And nobody in the towns was to call himself a member of a “German community” any more.\n\nThe best clause was about inheritance. When a family divided its land, a child who spoke good Czech was to receive twice the share of one who did not; the one who did not would be paid off in money.\n\n[[b]]Want a bigger share of the estate? Learn your Czech.[[/b]]\n\nThere was more: anyone who deliberately refused to speak Czech, and urged others not to speak it either, had six months to leave the country.\n\nThe vote was the best part of all. The German-speaking lords in the diet who did not know any Czech voted in favour too. Whether they understood what they were voting for is another matter.\n\n[[b]]Even the men who could not speak Czech voted for speaking Czech.[[/b]]\n\nIn practice the law was never really enforced. But it said something about the mood of those years: Bohemia cared more and more about what was its own, its language, its faith, its rules. The more Vienna wanted to decide, the more Prague wanted to hold on to.\n\nTwo hundred years later, the men of the Czech National Revival dug the law out again and treated it like a treasure.\n\nIn 1615, though, people were only quarrelling about which language to speak. Within two years, the quarrel would be about a great deal more than words.",
+      cz: "Když se dvůr [[link:the-lion-went-first-1612]]odstěhoval zpátky do Vídně[[/link]], Praha se hodně ztišila.\n\nA v tom tichu začali Pražané přemýšlet: císař tu už nebydlí, ministři taky ne, tak proč by měla o českých věcech rozhodovat Vídeň? A kdo vlastně jsme?\n\nS dvorem přišlo do Prahy za posledních třicet let spousta cizinců: němečtí šlechtici, italští řemeslníci, španělští rádci. Němčina se ve městě ozývala čím dál častěji a tu a tam dostala fara kněze, který neuměl česky. Někteří čeští páni to sledovali se znepokojením: jestli to tak půjde dál, nevytlačí to češtinu docela?\n\nV létě 1615 se v Praze sešli stavové. Císařova strana chtěla jednat o penězích a vojácích. Dne 15. června ale stavové schválili i zákon s velmi slavnostním názvem: O zachování starožitného jazyka českého a vzdělání jeho.\n\nPravidla byla vypsaná jedno po druhém. Cizinec, který se chtěl v Čechách usadit nebo stát měšťanem, se musel nejdřív naučit česky, a nově přijatí cizinci i se svými potomky do třetího kolena nesměli zastávat úřady ani zasedat v soudech. Všechny soudy měly jednat česky. Na fary a do škol, kde se posledních deset let užívala čeština, se nesměli dosazovat kněží a učitelé, kteří česky neuměli. A ve městech se už nikdo neměl hlásit k žádné „obci německé“.\n\nNejlepší byla klauzule o dědictví. Při dělení statků mělo dítě, které umělo dobře česky, dostat dvojnásobný díl proti tomu, které neumělo; to, které neumělo, se mělo vyplatit penězi.\n\n[[b]]Chcete větší díl dědictví? Naučte se česky.[[/b]]\n\nA ještě něco: kdo by úmyslně odmítal mluvit česky a navíc k tomu nabádal ostatní, měl do půl roku opustit zemi.\n\nNejlepší ze všeho bylo hlasování. Pro zákon hlasovali i německy mluvící páni na sněmu, kteří česky vůbec neuměli. Jestli rozuměli, pro co hlasují, je jiná věc.\n\n[[b]]I ti, kdo česky neuměli, hlasovali pro češtinu.[[/b]]\n\nV praxi se zákon nikdy pořádně nedodržoval. Řekl ale něco o náladě těch let: Čechy si čím dál víc cenily toho, co je jejich, svého jazyka, své víry, svých pravidel. Čím víc chtěla rozhodovat Vídeň, tím víc si to chtěla Praha udržet.\n\nO dvě stě let později zákon vyhrabali muži národního obrození a zacházeli s ním jako s pokladem.\n\nRoku 1615 se ale lidé zatím jen hádali o to, jakou řečí mluvit. Do dvou let se měli hádat o mnohem víc než o slova.",
+      zh: "宫廷[[link:the-lion-went-first-1612]]搬回维也纳[[/link]]以后，布拉格安静了不少。\n\n可安静下来的布拉格人，开始琢磨一件事：皇帝不住这儿了，大臣也不住这儿了，波希米亚的事，凭什么由维也纳说了算？再说了，我们到底是谁？\n\n这三十年里，跟着宫廷涌进布拉格的外地人可不少：德意志的贵族、意大利的工匠、西班牙的大臣。城里说德语的人越来越多，有的教区还换上了不会说捷克语的神父。一些捷克贵族看着着急：再这么下去，捷克语会不会被挤没了？\n\n1615年夏天，等级们在布拉格开会。皇帝那边想谈的是钱和兵。可到了6月15日，等级们还顺手通过了一条法令，名字起得十分郑重：《关于保存古老的捷克语及其教化》。\n\n规矩一条一条写得明明白白：外来的人想在波希米亚落户、当市民，先得学会捷克语；新来的外国人，连同他们的子孙，三代以内不许当官，也不许进法庭；所有法庭，一律用捷克语审案；过去十年说捷克语的教区和学校，不许换上不会说捷克语的神父和老师；城里也不许再有人自称“德意志公社”。\n\n最妙的是遗产那一条：家里分地产的时候，会说一口好捷克语的孩子，分到的是不会说的孩子的两倍；不会说的那个，拿钱打发。\n\n[[b]]想多分一份家产？先把捷克语学好。[[/b]]\n\n还有一条：谁要是故意不说捷克语，还劝别人也别说，半年之内就得离开这个国家。\n\n最有意思的是投票。议会里那些压根不会说捷克语的德意志贵族，也都投了赞成票。至于他们听没听懂自己赞成的是什么，那就不好说了。\n\n[[b]]连不会说捷克语的人，都投票支持说捷克语。[[/b]]\n\n这条法令，其实从来没真正执行过。可它说明了那几年的风气：波希米亚越来越在乎“我们自己的”东西，我们的语言、我们的信仰、我们的规矩。维也纳想管的越多，布拉格就越想守住自己的。\n\n两百年后，民族复兴运动的捷克人又把这条法令翻了出来，当成了宝贝。\n\n不过在1615年，大家还只是为说什么话吵吵嘴。没过两年，吵的就不只是话了。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "vladislavsky-sal",
+        relation: {
+          en: "The great hall of the royal palace at Prague Castle; the old Diet Hall where the estates met and made their laws is right next to it.",
+          cz: "Velký sál královského paláce na Pražském hradě; hned vedle je stará sněmovna, kde stavové zasedali a schvalovali zákony.",
+          zh: "布拉格城堡王宫里最大的大厅；等级们开会立法的老议会厅，就在它旁边。",
+        },
+      },
+      {
+        slug: "pomnik-josefa-jungmanna",
+        relation: {
+          en: "Josef Jungmann, one of the leaders of the National Revival who rescued Czech two centuries later, when the 1615 law was rediscovered as a treasure.",
+          cz: "Josef Jungmann, jeden z vůdců národního obrození, který o dvě stě let později zachraňoval češtinu, když byl zákon z roku 1615 znovu objeven jako poklad.",
+          zh: "约瑟夫·荣格曼，民族复兴运动的领头人之一；两百年后，正是他们把捷克语救了回来，1615年这条法令也被翻出来当成了宝贝。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Jazykov%C3%BD_z%C3%A1kon_z_roku_1615",
+  },
+  // 2026-10-18, written at the user's request ("直接把矛盾激化"). Sources:
+  // cs.wikipedia Jindřich Matyáš Thurn (lost the Karlštejn burgraviate in
+  // June 1617 over the estates' rejection of Ferdinand; successor Jaroslav
+  // Bořita z Martinic); Plašil (Oñate treaty, 6 June 1617, Ferdinand adopted
+  // as Matthias's stepson); habsburger.net (Ferdinand's Counter-Reformation in
+  // Inner Austria). The acceptance ("přijetí") versus election dispute, the
+  // 29 June 1617 coronation, the ten governors (seven Catholic, three
+  // Protestant) and Ferdinand's oath to the privileges are the standard
+  // account. The desert line is a well-known attribution, labelled "said".
+  // The ending hands over to the Broumov/Hrob churches card.
+  {
+    slug: "the-new-king-1617",
+    era: "age-of-wonders",
+    images: ["/history/the-new-king-1617.webp"],
+    imageCaptions: [
+      {
+        en: "Prague Castle, June 1617: the ailing Emperor Matthias presents Ferdinand of Styria, a Jesuit at his back, while an envoy holds up the sealed decision; the Bohemian lords bow and nod reluctantly, Count Thurn alone stands with folded arms, and Martinic watches him from beside the dais.",
+        cz: "Pražský hrad, červen 1617: churavý císař Matyáš představuje Ferdinanda Štýrského, za nímž stojí jezuita, a vyslanec drží zpečetěné rozhodnutí; čeští páni se neochotně uklánějí a přikyvují, jen hrabě Thurn stojí se založenýma rukama a Martinic ho od stupňů trůnu pozoruje.",
+        zh: "1617年6月，布拉格城堡：病弱的皇帝马蒂亚斯向众人介绍斐迪南，他身后站着一位耶稣会士，使者举着盖好大印的文书；波希米亚贵族们不情不愿地鞠躬点头，只有图尔恩伯爵抱着胳膊站得笔直，马丁尼茨在台边盯着他。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "I would rather rule over a desert than over a country full of heretics.",
+          cz: "Raději budu vládnout poušti než zemi plné kacířů.",
+          zh: "我宁可统治一片荒漠，也不统治一个满是异端的国家。",
+        },
+        attribution: {
+          en: "Attributed to Ferdinand of Styria",
+          cz: "Připisováno Ferdinandovi Štýrskému",
+          zh: "据说是施蒂利亚的斐迪南的话",
+        },
+      },
+    ],
+    startYear: 1617,
+    year: {
+      en: "1617",
+      cz: "1617",
+      zh: "1617年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A New King Who Meant Trouble",
+      cz: "Nový král, který nevěstil nic dobrého",
+      zh: "来者不善的新国王",
+    },
+    hookLine: {
+      en: "Matthias was old and had no sons. The Habsburgs picked Bohemia's next king for it: a man who would rather rule a desert than a land of heretics.",
+      cz: "Matyáš byl starý a neměl syny. Habsburkové vybrali Čechám příštího krále sami: muže, který by raději vládl poušti než zemi kacířů.",
+      zh: "马蒂亚斯老了，膝下没有儿子。哈布斯堡家替波希米亚挑好了下一位国王：一个宁可统治荒漠、也不愿统治异端的人。",
+    },
+    summary: {
+      en: "By 1617 Emperor Matthias was sixty, in poor health and without a single child. His brothers had no sons either. The Habsburgs needed to settle on an heir, and soon.\n\nThe family chose a cousin: Archduke Ferdinand of Styria, not yet forty.\n\nFerdinand had already made a name for himself at home in Styria, in the south of Austria: he had driven out the Protestant preachers and had Protestant books piled up in the streets and burned. He had been schooled by the Jesuits and would not give an inch where faith was concerned.\n\nHe is said to have put it like this:\n\n[[quote:0]]\n\n[[b]]And this was the king who was now to rule a kingdom where most people were Protestants.[[/b]]\n\nIn June 1617 the Bohemian diet met. By old custom the estates elected their king; this time Vienna's line was that Ferdinand was not there to be elected, only to be “accepted”.\n\nMost of the estates hesitated, and then nodded. Their reasons varied: some were afraid of offending the emperor, some thought the title meant little while Matthias was still alive, some reassured themselves that Ferdinand would swear to uphold the kingdom's privileges, the Letter of Majesty included. And Ferdinand did swear it.\n\nOnly a handful spoke against him to his face, and the loudest was Count Thurn. Soon afterwards Thurn lost his proudest office, that of Burgrave of Karlštejn, keeper of the crown and the kingdom's charters. It went to another man: [[link:in-black-and-white-1609]]Martinic[[/link]].\n\n[[b]]The man who said no lost his post, and the post went to a Catholic councillor.[[/b]]\n\nOn 29 June 1617 Ferdinand was crowned in St Vitus Cathedral.\n\nThat summer Matthias and Ferdinand both left for Vienna. Before they went, they handed Bohemia over to ten governors: seven Catholics and three Protestants. [[link:in-black-and-white-1609]]Slavata[[/link]] and Martinic were among them.\n\nThe Protestant lords soon felt the difference. In the royal towns, Protestant councillors were replaced one after another by Catholics, and Protestants who wanted to print a book or get anything done now had to get past a Catholic official first.\n\nThe charter was still there, and the oath had been sworn. But the Protestant lords felt more and more that the freedom on paper was being taken back, bit by bit. By the end of the year, two churches would be in trouble.",
+      cz: "Roku 1617 bylo císaři Matyášovi šedesát, měl chatrné zdraví a ani jedno dítě. Ani jeho bratři neměli syny. Habsburkové museli určit dědice, a to brzy.\n\nRodina vybrala bratrance: štýrského arcivévodu Ferdinanda, kterému ještě nebylo čtyřicet.\n\nFerdinand se proslavil už doma ve Štýrsku, na jihu Rakouska: vyhnal protestantské kazatele a protestantské knihy nechal skládat na hromady v ulicích a pálit. Vychovali ho jezuité a ve víře neustoupil ani o píď.\n\nPrý to řekl takhle:\n\n[[quote:0]]\n\n[[b]]A právě tenhle král měl teď vládnout království, kde byla většina lidí protestanty.[[/b]]\n\nV červnu 1617 se sešel český sněm. Podle starého zvyku si stavové krále volili; tentokrát ale Vídeň tvrdila, že Ferdinand nepřichází, aby byl zvolen, ale jen aby byl „přijat“.\n\nVětšina stavů zaváhala a pak přikývla. Důvody měli různé: někdo se bál znepřátelit si císaře, někdo myslel, že dokud Matyáš žije, titul mnoho neznamená, a někdo se uklidňoval tím, že Ferdinand přísahá dodržovat zemské svobody, včetně majestátu. A Ferdinand opravdu přísahal.\n\nJen hrstka mu odporovala do očí a nejhlasitěji hrabě Thurn. Zanedlouho přišel Thurn o svůj nejčestnější úřad, úřad karlštejnského purkrabího, strážce koruny a zemských listin. Dostal ho jiný muž: [[link:in-black-and-white-1609]]Martinic[[/link]].\n\n[[b]]Kdo řekl ne, přišel o úřad, a úřad připadl katolickému radovi.[[/b]]\n\nDne 29. června 1617 byl Ferdinand korunován v katedrále sv. Víta.\n\nTo léto odjeli Matyáš i Ferdinand do Vídně. Než odjeli, svěřili Čechy deseti místodržícím: sedmi katolíkům a třem protestantům. Byli mezi nimi i [[link:in-black-and-white-1609]]Slavata[[/link]] a Martinic.\n\nProtestantští páni ten rozdíl brzy pocítili. V královských městech nahrazovali katolíci protestantské konšely jednoho po druhém, a protestant, který chtěl vytisknout knihu nebo cokoli vyřídit, musel teď nejdřív projít přes katolického úředníka.\n\nMajestát tu pořád byl a přísaha zazněla. Jenže protestantští páni měli čím dál silnější pocit, že svobodu na papíře jim někdo kousek po kousku bere zpátky. Do konce roku se dostaly do potíží dva kostely.",
+      zh: "1617年，皇帝马蒂亚斯已经六十岁了，身体不好，膝下一个孩子也没有。他的几个兄弟，也都没有儿子。哈布斯堡家族得赶紧定下接班人。\n\n家族选中的是一位堂弟：施蒂利亚的斐迪南大公，还不到四十岁。\n\n斐迪南在奥地利南部的施蒂利亚当家时，就已经出了名：他把新教牧师统统赶走，把新教的书堆在街上一把火烧掉。他是耶稣会士教出来的学生，在信仰上一步也不让。\n\n据说，他说过这么一句话：\n\n[[quote:0]]\n\n[[b]]这样一位国王，偏偏要来统治一个大半都是新教徒的王国。[[/b]]\n\n1617年6月，波希米亚议会开会。照老规矩，国王是等级们选出来的；可这一回，维也纳的说法是：斐迪南不是来让你们选的，是来让你们“接受”的。\n\n大部分等级犹豫了一下，还是点了头。理由各不相同：有人怕得罪皇帝；有人觉得，只要马蒂亚斯还活着，这个头衔就没多大分量；还有人安慰自己，斐迪南会宣誓遵守王国的各项特权，《宗教自由诏书》也在里面。斐迪南也确实宣了誓。\n\n当面反对的只有寥寥几个人，嗓门最大的是图尔恩伯爵。没过多久，图尔恩就丢了他最体面的职位：卡尔施泰因城堡的城堡伯爵，也就是看守王冠和王国文书的人。这个位子，交给了另一个人：[[link:in-black-and-white-1609]]马丁尼茨[[/link]]。\n\n[[b]]说“不”的人丢了官，丢掉的官，落到了一位天主教大臣手里。[[/b]]\n\n1617年6月29日，斐迪南在圣维特大教堂加冕。\n\n这年夏天，马蒂亚斯和斐迪南都去了维也纳。走之前，他们把波希米亚交给了十位总督代管：七个天主教徒，三个新教徒。[[link:in-black-and-white-1609]]斯拉瓦塔[[/link]]和马丁尼茨，都在其中。\n\n新教贵族们很快就尝到了滋味。王室城市的市政府里，新教徒的位子一个接一个换成了天主教徒；新教徒想印本书、办件事，都得先过天主教官员这一关。\n\n诏书还在，誓也发了。可新教贵族们越来越觉得，纸上写着的自由，正在被一点一点地收回去。到了这年年底，有两座教堂出了事。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Where Ferdinand was crowned King of Bohemia on 29 June 1617.",
+          cz: "Kde byl Ferdinand 29. června 1617 korunován českým králem.",
+          zh: "1617年6月29日，斐迪南在这里加冕为波希米亚国王。",
+        },
+      },
+      {
+        slug: "karlstejn-castle",
+        relation: {
+          en: "Where the crown and the kingdom's charters were kept; in 1617 its burgrave's office was taken from Thurn and given to Martinic.",
+          cz: "Kde se uchovávala koruna a zemské listiny; roku 1617 byl úřad jeho purkrabího Thurnovi odebrán a dán Martinicovi.",
+          zh: "王冠和王国文书就收藏在这里；1617年，这里城堡伯爵的职位从图尔恩手里拿走，交给了马丁尼茨。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Ferdinand_II._%C5%A0t%C3%BDrsk%C3%BD",
+  },
+  // 2026-10-18, written at the user's request. Source: Jan Kilián, "Boj o
+  // kostely" (Historický časopis 66/2, 2018), from archival study; his
+  // monograph is "11. 12. 1617. Zboření kostela v Hrobu. Na cestě k
+  // defenestraci" (2007). Hrob: subject town of the Osek estate, owned by the
+  // Prague archbishopric since 1579–80; church begun September 1611, first
+  // service 5 June 1614 with twelve armed townsmen keeping order; sealed by
+  // the steward on 27 September 1614, a seal torn off; Matthias (1616): church
+  // subjects may not build churches; appellate ruling October 1617 gave the
+  // church to the archbishop; steward Mauskönig came on 11 December 1617 with
+  // about a hundred armed men, demolition took three days; the silver chalice
+  // went to St Barbara's. Broumov: subject town of the Břevnov-Broumov
+  // Benedictine abbot Wolfgang Selender (Zelendar); building began early 1611
+  // despite his ban, he forbade the sale of quarry stone; order to close in
+  // November 1617 ignored; six townsmen summoned, three came without keys and
+  // were jailed; a commission of three arrived about 8 March 1618, the crowd
+  // (some armed or with stones) blocked them, the frightened pastor would not
+  // speak, the church stayed in Protestant hands. Kilián stresses that the
+  // usual claim that the Broumov church was closed before spring 1618 is
+  // inaccurate; the card says so. The ending hands over to the 1618 card
+  // (Vienna's reply and the ban on assembly).
+  {
+    slug: "two-churches-1617",
+    era: "age-of-wonders",
+    images: ["/history/two-churches-1617.webp"],
+    imageCaptions: [
+      {
+        en: "Left: Hrob, December 1617, the archbishop's men tear down the Protestant church in the snow while the townspeople look on. Right: Broumov, March 1618, three royal commissioners arrive with a padlock and keys, but the townspeople crowd the churchyard and the frightened pastor cannot say a word.",
+        cz: "Vlevo: Hrob, prosinec 1617, arcibiskupovi lidé bourají ve sněhu protestantský kostel a měšťané jen přihlížejí. Vpravo: Broumov, březen 1618, tři císařští komisaři přijíždějí se zámkem a klíči, ale hřbitov u kostela je plný měšťanů a vyděšený pastor nedokáže promluvit.",
+        zh: "左边：1617年12月的赫罗布，大主教的人在雪地里拆新教教堂，镇上的人只能在一旁看着。右边：1618年3月的布劳莫夫，三位皇家委员带着挂锁和钥匙赶来，可墓园里早已挤满了镇上的人，吓坏了的牧师一句话也说不出来。",
+      },
+    ],
+    startYear: 1617.9,
+    year: {
+      en: "1611–1618",
+      cz: "1611–1618",
+      zh: "1611–1618年",
+    },
+    tone: "humorous",
+    title: {
+      en: "“One Torn Down, One Shut”",
+      cz: "„Jeden zbořili, druhý zavřeli“",
+      zh: "“一座拆了，一座封了”",
+    },
+    hookLine: {
+      en: "The charter said Protestants could build churches. It did not say on whose land. Two small towns built them anyway: one church was torn down in three days, and nobody ever got hold of the keys to the other.",
+      cz: "Majestát říkal, že protestanti smějí stavět kostely. Neříkal, na čí půdě. Dvě malá města je postavila stejně: jeden kostel zbořili za tři dny a klíče od druhého nikdy nikdo nedostal.",
+      zh: "诏书说新教徒可以盖教堂，可没说清楚盖在谁的地上。两座小城照样盖了：一座三天就被拆光，另一座的钥匙，谁也没能拿到手。",
+    },
+    summary: {
+      en: "After the [[link:in-black-and-white-1609]]Letter of Majesty[[/link]] was signed, Protestants were allowed to build their own churches. But the charter had a gap in it. It allowed the free royal towns to build; what about the little towns that belonged to a monastery or an archbishop?\n\nThe Protestants said yes, they counted too: church estates, in the end, were the king's estates. The Catholics said no: our land, our rules.\n\n[[b]]The same piece of paper, read two different ways.[[/b]]\n\nThe fiercest fights were in two small border towns.\n\nOne was Hrob in northern Bohemia, a little mining town whose lord was the Archbishop of Prague. In the autumn of 1611 its Lutherans began building a stone church behind the town hall, scraping the money together, borrowing it, leaving it in their wills. At the first service, in June 1614, the church was so packed that twelve men had to stand guard with weapons to keep order.\n\nThe archbishop would not have it. That September his steward arrived with armed men, locked the church and fixed the archbishop's seals to the door. The townspeople tore one of them off.\n\nThe other was Broumov, on the north-eastern border, whose lord was a Benedictine abbot. Its Protestants started building in 1611; the abbot forbade the quarries on his estate to sell them stone, and the church went up anyway.\n\nThe complaints went all the way to the emperor. In 1616 Matthias gave his answer: subjects on church estates had no right to build churches of their own.\n\nIn October 1617 the court ruled that the church at Hrob was the archbishop's to deal with as he pleased.\n\nOn 11 December 1617 the archbishop's steward rode into Hrob with about a hundred armed men. Three days later the church was gone. Its silver chalice was handed over to the town's Catholic church.\n\n[[b]]Building the church had taken more than two years; tearing it down took three days.[[/b]]\n\nAt Broumov the emperor gave orders too: close the church and hand over the keys. Six townsmen were summoned to Prague. Only three came, without a single key, and they went straight to prison.\n\nIn March 1618 three royal commissioners arrived in Broumov to lock the church themselves. The churchyard was already packed with people, some with weapons, some with stones in their fists. The commissioners asked the new pastor to calm the crowd; the pastor was too frightened to open his mouth. The commissioners went home empty-handed.\n\nSo the Broumov church was never actually locked. But in the mouths of the Protestant lords in Prague, the two stories soon became one: the Catholics had torn down one of our churches and shut the other.\n\n[[b]]One church really was torn down and the other never was locked; but by the time the stories reached Prague, both were proof of persecution.[[/b]]\n\nThe defensors, the Protestant estates' guardians of the Letter of Majesty, protested to the emperor once again on behalf of the two towns. This time Vienna's reply came quickly, and it was harsh.",
+      cz: "Po podpisu [[link:in-black-and-white-1609]]majestátu[[/link]] si protestanti směli stavět vlastní kostely. Listina však měla mezeru. Stavět dovolovala svobodným královským městům; a co městečka, která patřila klášteru nebo arcibiskupovi?\n\nProtestanti říkali, že i ta se počítají: církevní statky jsou nakonec statky královské. Katolíci říkali, že ne: naše půda, naše pravidla.\n\n[[b]]Tentýž kus papíru, přečtený dvěma různými způsoby.[[/b]]\n\nNejtvrdší spory se vedly ve dvou malých pohraničních městech.\n\nJedním byl Hrob v severních Čechách, malé horní město, jehož vrchností byl pražský arcibiskup. Na podzim 1611 tu luteráni začali za radnicí stavět kamenný kostel; peníze skládali dohromady, půjčovali si je, odkazovali je v závětích. Při první bohoslužbě v červnu 1614 byl kostel tak plný, že dvanáct mužů muselo se zbraní hlídat pořádek.\n\nTo arcibiskup nestrpěl. V září přijel jeho hejtman s ozbrojenci, kostel zamkl a na dveře připevnil arcibiskupské pečeti. Měšťané jednu z nich strhli.\n\nDruhým byl Broumov na severovýchodní hranici, jehož vrchností byl benediktinský opat. Tamější protestanti začali stavět roku 1611; opat zakázal lomům na svém panství prodávat jim kámen, a kostel vyrostl stejně.\n\nStížnosti došly až k císaři. Roku 1616 dal Matyáš odpověď: poddaní na církevních panstvích nemají právo stavět si vlastní kostely.\n\nV říjnu 1617 rozhodl soud, že s kostelem v Hrobu může arcibiskup naložit, jak uzná za vhodné.\n\nDne 11. prosince 1617 vjel arcibiskupův hejtman do Hrobu se zhruba stovkou ozbrojenců. O tři dny později byl kostel pryč. Jeho stříbrný kalich byl předán do zdejšího katolického kostela.\n\n[[b]]Stavba kostela trvala přes dva roky; zbourat ho trvalo tři dny.[[/b]]\n\nDo Broumova poslal císař také rozkaz: kostel zavřít a odevzdat klíče. Šest měšťanů bylo předvoláno do Prahy. Přijeli jen tři, bez jediného klíče, a hned putovali do vězení.\n\nV březnu 1618 přijeli do Broumova tři císařští komisaři, aby kostel zamkli sami. Hřbitov u kostela už byl plný lidí, někteří se zbraněmi, jiní s kameny v pěstech. Komisaři požádali nového pastora, aby dav uklidnil; pastor byl tak vyděšený, že nedokázal promluvit. Komisaři odjeli s prázdnou.\n\nBroumovský kostel tedy nikdy zamčen nebyl. Jenže v ústech protestantských pánů v Praze se oba příběhy brzy slily v jeden: katolíci nám jeden kostel zbořili a druhý zavřeli.\n\n[[b]]Jeden kostel opravdu zbořili a druhý nikdy nezamkli; ale než ty příběhy došly do Prahy, oba se staly důkazem útlaku.[[/b]]\n\nDefenzoři, strážci majestátu z řad protestantských stavů, se za obě města znovu ohradili u císaře. Tentokrát přišla odpověď z Vídně rychle, a byla tvrdá.",
+      zh: "[[link:in-black-and-white-1609]]《宗教自由诏书》[[/link]]签了以后，新教徒可以盖自己的教堂了。可诏书里有个漏洞：它说的是自由的王室城市可以盖；那些属于修道院、属于大主教的小城，算不算？\n\n新教徒说：算。教会的领地，说到底也是国王的领地。天主教这边说：不算。我们的地，我们说了算。\n\n[[b]]同一张纸，两边读出了两种意思。[[/b]]\n\n吵得最凶的，是两座边境小城。\n\n一座是北波希米亚的赫罗布，一个小小的矿山镇，领主是布拉格大主教。1611年秋天，镇上的路德派在市政厅后面盖起了一座石头教堂，钱是大家一点一点凑的、借的，还有人写进了遗嘱。1614年6月第一次做礼拜，人挤得满满当当，还得派十二个人带着武器维持秩序。\n\n大主教可不答应。这年9月，他的管家带着兵赶来，把教堂锁上，在门上贴了大主教的封条。镇上的人撕掉了其中一张。\n\n另一座是东北边境的布劳莫夫，领主是本笃会的修道院院长。这里的新教徒也是1611年开工，院长下令自家领地上的采石场不许卖石头给他们，教堂照样盖了起来。\n\n两边的状子一直告到了皇帝那里。1616年，马蒂亚斯给了答复：教会领地上的臣民，没有权利自己盖教堂。\n\n1617年10月，法院判定：赫罗布的教堂，由大主教随意处置。\n\n1617年12月11日，大主教的管家带着大约一百个武装人员开进赫罗布。三天以后，教堂没了。教堂里的银圣杯，被送进了镇上的天主教堂。\n\n[[b]]盖了两年多的教堂，拆起来只用了三天。[[/b]]\n\n布劳莫夫那边，皇帝也下了命令：关门，交钥匙。六个市民被传到布拉格，只来了三个，钥匙一把也没带，当场就被关进了监狱。\n\n1618年3月，三位皇家委员来到布劳莫夫，要亲手把教堂锁上。教堂前的墓园里早就挤满了人，有的拿着武器，有的手里攥着石头。委员们想让新来的牧师出面劝劝大家，牧师吓得一句话也说不出来。委员们只好空着手回去了。\n\n所以，布劳莫夫的教堂其实一直没锁上。可到了布拉格新教贵族的嘴里，这两件事很快就成了同一句话：天主教徒把我们的教堂，一座拆了，一座封了。\n\n[[b]]一座真拆了，一座根本没锁上；可传到布拉格，两座都成了受迫害的铁证。[[/b]]\n\n新教等级里负责守护诏书的“护法人”们，又一次替两座小城向皇帝抗议。这一回，维也纳的回信来得很快，口气也很硬。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "archbishops-palace",
+        relation: {
+          en: "The residence of the Archbishop of Prague, the lord of Hrob whose steward had its Protestant church torn down in December 1617.",
+          cz: "Sídlo pražského arcibiskupa, vrchnosti Hrobu, jehož hejtman dal v prosinci 1617 zbořit tamní protestantský kostel.",
+          zh: "布拉格大主教的府邸；赫罗布的领主就是大主教，1617年12月拆掉那座新教教堂的，正是他的管家。",
+        },
+      },
+      {
+        slug: "bevnov-monastery-1782583396582",
+        relation: {
+          en: "The Benedictine abbey whose abbot was also the lord of Broumov, the man the Broumov Protestants were defying.",
+          cz: "Benediktinský klášter, jehož opat byl zároveň vrchností Broumova, tím, komu broumovští protestanti vzdorovali.",
+          zh: "本笃会的修道院；它的院长同时也是布劳莫夫的领主，布劳莫夫的新教徒顶撞的，就是他。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Rudolf%C5%AFv_majest%C3%A1t",
+  },
+  // Draft by the user (2026-10-18), polished; the chapter's closing card. The
+  // two quotes and their attribution (the Czech history "Bílá hora") are the
+  // user's and could not be checked against the book. The March 1618 Karolinum
+  // assembly, the emperor's reply banning the May meeting, the estates'
+  // suspicion that the governors had drafted it, the 21 May assembly and the
+  // 22 May night meeting at the Smiřický Palace are the standard account.
+  // Fixes: the Karolinum is in the Old Town, not the New Town; "a few days
+  // later Prague knew their conclusion" contradicted "first thing tomorrow",
+  // so it now says the next morning showed their conclusion; 1419 to 1618 is
+  // 199 years, hence "almost". The window itself opens the next era.
+  {
+    slug: "an-old-remedy-1618",
+    era: "age-of-wonders",
+    images: ["/history/an-old-remedy-1618.webp"],
+    imageCaptions: [
+      {
+        en: "The night of 22 May 1618 in the Smiřický Palace: by candlelight, Count Thurn presses his finger on an old chronicle open at a picture of 1419, while the other Protestant lords lean in, and through the window the castle waits on its hill.",
+        cz: "Noc na 23. května 1618 ve Smiřickém paláci: hrabě Thurn při svíčkách tiskne prst na starou kroniku otevřenou u obrázku z roku 1419, ostatní protestantští páni se naklánějí blíž a za oknem čeká na kopci hrad.",
+        zh: "1618年5月22日夜里，斯米日茨基宫：烛光下，图尔恩伯爵的手指按在一本旧编年史上，那一页画的是1419年的事；其他新教贵族凑过来看；窗外，城堡静静地立在山上。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "…lest the same fire be kindled any further…",
+          cz: "…nežli by týž oheň víceji vznícen byl…",
+          zh: "……以免这把火烧得更旺……",
+        },
+        attribution: {
+          en: "Order banning the Protestant estates' May assembly, 1618 (as quoted in the Czech history Bílá hora)",
+          cz: "Zákaz květnového sjezdu protestantských stavů, 1618 (podle knihy Bílá hora)",
+          zh: "禁止新教等级5月集会的命令，1618年（转引自捷克史书《白山》）",
+        },
+      },
+      {
+        text: {
+          en: "…that the Lord God may deign to incline the heart of His Imperial Majesty, our lord and king, to grace and love toward his faithful subjects.",
+          cz: "…aby Pán Bůh ráčil srdce J. M. Cís. pána a krále našeho k milosti a lásce svých věrných poddaných nakloniti.",
+          zh: "……愿上主垂怜，使我们的皇帝和国王陛下的心，转向他忠实臣民的恩典与爱。",
+        },
+        attribution: {
+          en: "Prayer read in Prague's Protestant churches before the May 1618 assembly (as quoted in the Czech history Bílá hora)",
+          cz: "Modlitba čtená v pražských protestantských kostelích před květnovým sjezdem 1618 (podle knihy Bílá hora)",
+          zh: "1618年5月集会前，布拉格各新教教堂宣读的祷词（转引自捷克史书《白山》）",
+        },
+      },
+    ],
+    startYear: 1618,
+    year: {
+      en: "1618",
+      cz: "1618",
+      zh: "1618年",
+    },
+    tone: "humorous",
+    title: {
+      en: "An Old Remedy",
+      cz: "Starý osvědčený recept",
+      zh: "老办法",
+    },
+    hookLine: {
+      en: "The emperor forbade them to meet. They met anyway. By the end of the meeting, someone had remembered an old remedy.",
+      cz: "Císař jim zakázal se scházet. Sešli se stejně. Na konci schůze si kdosi vzpomněl na starý osvědčený recept.",
+      zh: "皇帝不许他们开会。他们还是开了。会开到最后，有人想起了一个老办法。",
+    },
+    summary: {
+      en: "In March 1618 the Karolinum in Prague's Old Town filled up with Protestant lords.\n\nThe meeting had been called by the defensors, the guardians the Letter of Majesty had appointed, and it had a single item on the agenda: the church at Hrob had been torn down and the townsmen of Broumov thrown into prison, so did the charter still count or not?\n\nThey wrote a letter of protest to the emperor in Vienna, went home, and waited for an answer.\n\nThe answer came.\n\nThe emperor's letter was cold and hard. The protest was groundless; what had been done at Hrob and Broumov was lawful and proper. As for the further meeting the Protestant estates planned for May, it was forbidden outright, so that:\n\n[[quote:0]]\n\n[[b]]The Protestants had asked whether the charter still counted. The emperor's answer was: be quiet.[[/b]]\n\nWhen the Protestant lords read the letter, their first thought was not anger at the emperor but suspicion: had this letter really been written in Vienna?\n\nThe emperor was far away; how much did he know about Bohemia? The Catholic governors at the castle, on the other hand, watched the Protestants every day and wrote to Vienna constantly. Many were convinced that the letter was the work of men at the castle, putting words into the emperor's mouth.\n\nAnd at the castle sat the two men who had once [[link:in-black-and-white-1609]]refused to sign[[/link]] the charter: Slavata and Martinic.\n\n[[b]]The men who would not sign the charter nine years before were now the prime suspects behind the emperor's reply.[[/b]]\n\nBan or no ban, the meeting would go ahead. Before it did, the pastors in Prague's Protestant churches read out a prayer to the whole city, in Czech and in German:\n\n[[quote:1]]\n\nOn 21 May the Protestant estates gathered at the Karolinum all the same. The governors sent word that they were to disperse. Nobody did.\n\nThe next day, 22 May, after dark, a few of the leading lords quietly made their way to the Smiřický Palace on the Lesser Town Square. Among them was Count Thurn, the man who had [[link:the-new-king-1617]]lost his office at Karlštejn[[/link]] the year before, along with several other great Protestant lords.\n\nThe door was shut, and the candles were lit.\n\nNo full record of what they said that night survives. But what happened the next morning made their conclusion perfectly clear: writing letters had got them nowhere, so first thing tomorrow they would go up to the castle and have it out with the governors face to face.\n\n[[b]]Someone, it is said, also brought up an old remedy.[[/b]]\n\nAlmost exactly two hundred years earlier, in [[link:the-first-defenestration-1419]]1419[[/link]], the people of Prague had done much the same thing: they had gone to see a few officials who would not listen to reason.\n\nEarly in the morning of 23 May 1618, a band of lords with swords at their sides walked out of the Lesser Town and up the long flight of steps to the castle, one step at a time.\n\nAt the castle, the Bohemian Chancellery in the old royal palace had already opened for business. Slavata and Martinic sat as usual at the table by the window.",
+      cz: "V březnu 1618 se Karolinum na Starém Městě pražském zaplnilo protestantskými pány.\n\nSchůzi svolali defenzoři, strážci určení majestátem, a měla jediný bod programu: v Hrobu zbořili kostel a broumovské měšťany zavřeli do vězení, platí tedy majestát ještě, nebo ne?\n\nNapsali císaři do Vídně protestní list, rozjeli se domů a čekali na odpověď.\n\nOdpověď přišla.\n\nCísařův list byl chladný a tvrdý. Protest je nepodložený; to, co se stalo v Hrobu a v Broumově, bylo zákonné a v pořádku. A další schůze, kterou protestantští stavové chystali na květen, se zakazuje rovnou, aby:\n\n[[quote:0]]\n\n[[b]]Protestanti se ptali, jestli majestát ještě platí. Císař odpověděl: mlčte.[[/b]]\n\nKdyž protestantští páni list dočetli, jejich první myšlenkou nebyla zlost na císaře, ale podezření: napsali ten list opravdu ve Vídni?\n\nCísař byl daleko; co věděl o Čechách? Zato katoličtí místodržící na hradě protestanty hlídali každý den a s Vídní si neustále dopisovali. Mnozí byli přesvědčeni, že ten list je dílem lidí z hradu, kteří vkládají slova do císařových úst.\n\nA na hradě seděli ti dva, kteří kdysi [[link:in-black-and-white-1609]]odmítli podepsat[[/link]] majestát: Slavata a Martinic.\n\n[[b]]Ti, kdo před devíti lety majestát nepodepsali, byli teď hlavními podezřelými z císařovy odpovědi.[[/b]]\n\nZákaz nezákaz, schůze se konat bude. Ještě předtím přečetli kazatelé v pražských protestantských kostelích celému městu česky i německy modlitbu:\n\n[[quote:1]]\n\nDne 21. května se protestantští stavové přesto sešli v Karolinu. Místodržící jim vzkázali, ať se rozejdou. Nikdo se nerozešel.\n\nDruhý den, 22. května, po setmění, se několik předních pánů potichu vydalo do Smiřického paláce na Malostranském náměstí. Byl mezi nimi hrabě Thurn, ten, který rok předtím [[link:the-new-king-1617]]přišel o karlštejnský úřad[[/link]], a několik dalších velkých protestantských pánů.\n\nDveře se zavřely a zapálily se svíčky.\n\nÚplný záznam toho, co si té noci řekli, se nedochoval. Ale to, co se stalo druhý den ráno, jejich závěr ukázalo naprosto jasně: psaním dopisů nic nezmohli, a tak hned zítra ráno půjdou na hrad a vyřídí si to s místodržícími z očí do očí.\n\n[[b]]Prý se tehdy také připomněl jeden starý osvědčený recept.[[/b]]\n\nSkoro přesně před dvěma sty lety, roku [[link:the-first-defenestration-1419]]1419[[/link]], udělali Pražané něco podobného: šli si to vyřídit s několika pány, kteří nechtěli slyšet rozumné slovo.\n\nČasně ráno 23. května 1618 vyšla z Malé Strany skupina pánů s meči u boku a stoupala krok za krokem po dlouhých schodech na hrad.\n\nNa hradě už ve Starém královském paláci otevřela česká kancelář. Slavata a Martinic seděli jako obvykle u stolu u okna.",
+      zh: "1618年3月，布拉格老城的卡罗利努姆里，坐满了新教贵族。\n\n召集这次会议的，是《宗教自由诏书》指定的“护法人”。会议只有一个议题：赫罗布的教堂被拆了，布劳莫夫的市民被关了，诏书到底还算不算数？\n\n他们给远在维也纳的皇帝写了一封抗议信，然后各自回家，等回音。\n\n回音来了。\n\n皇帝的信写得又冷又硬：抗议没有道理，赫罗布和布劳莫夫的事办得合法合规。至于新教等级打算5月再开的会，统统不许开，理由是：\n\n[[quote:0]]\n\n[[b]]新教徒问的是：诏书还算不算数？皇帝的回答是：你们闭嘴。[[/b]]\n\n新教贵族们读完信，第一个念头不是生皇帝的气，而是起了疑心：这封信，真是维也纳写的吗？\n\n皇帝远在维也纳，对波希米亚的事知道多少？倒是城堡里那几位天主教总督，天天盯着新教徒，跟维也纳书信不断。许多人认定：这封信，八成是城堡里的人替皇帝出的主意。\n\n而城堡里，就坐着当年[[link:in-black-and-white-1609]]拒绝签字[[/link]]的那两位：斯拉瓦塔和马丁尼茨。\n\n[[b]]九年前没在诏书上签字的人，如今成了替皇帝写回信的头号嫌疑人。[[/b]]\n\n禁令归禁令，会还是要开。开会之前，布拉格的新教教堂里，牧师们用捷克语和德语，向全城宣读了一段祷词：\n\n[[quote:1]]\n\n5月21日，新教等级照样聚到了卡罗利努姆。总督们派人来，要他们散会。没人散。\n\n第二天，5月22日，天黑以后，几位领头的贵族悄悄来到小城广场边上的斯米日茨基宫。屋里有图尔恩伯爵，就是去年[[link:the-new-king-1617]]丢了卡尔施泰因官职[[/link]]的那位，还有其他几位新教大贵族。\n\n门关上了，蜡烛点起来了。\n\n那天夜里，他们到底说了些什么，没有留下完整的记录。可第二天早上发生的事，把他们的结论说得明明白白：光写信没有用，明天一早，去城堡，当面找那几位总督算账。\n\n[[b]]据说，有人还提起了一个老办法。[[/b]]\n\n差不多两百年前，[[link:the-first-defenestration-1419]]1419年[[/link]]，布拉格人也是这样，跑去找了几位不肯讲理的官老爷。\n\n1618年5月23日，清晨。一群佩着剑的贵族走出小城，沿着长长的台阶，一步一步往城堡上走。\n\n城堡里，旧王宫的总理府已经开门办公。斯拉瓦塔和马丁尼茨，像往常一样，坐在靠窗的那张桌子旁边。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "palc-smiickch-czech-parliament-1782397003111",
+        relation: {
+          en: "On the night of 22 May 1618 the Protestant lords settled the next day's plan here. The palace still stands on the Lesser Town Square.",
+          cz: "V noci na 23. května 1618 tu protestantští páni dohodli plán na další den. Palác dodnes stojí na Malostranském náměstí.",
+          zh: "1618年5月22日夜里，新教贵族们就是在这里定下了第二天的计划。这座宫殿至今还立在小城广场边上。",
+        },
+      },
+      {
+        slug: "old-castle-stairs-1782582571631",
+        relation: {
+          en: "The old steps from the Lesser Town up to the castle's east gate take about ten minutes to climb; the lords that morning probably took about as long.",
+          cz: "Starými schody z Malé Strany ke východní bráně hradu se jde asi deset minut; páni toho rána šli nejspíš zhruba stejně dlouho.",
+          zh: "从小城通往布拉格城堡东门的老台阶，走上去要十来分钟。当年那群贵族，大概也走了这么久。",
+        },
+      },
+      {
+        slug: "karolinum",
+        relation: {
+          en: "The Protestant estates met here twice in 1618, in March and in May. It was the meeting here that the emperor forbade.",
+          cz: "Protestantští stavové se tu roku 1618 sešli dvakrát, v březnu a v květnu. Právě schůzi tady císař zakázal.",
+          zh: "1618年3月和5月，新教等级两次在这里开会。皇帝不许他们开的，就是这里的会。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Druh%C3%A1_pra%C5%BEsk%C3%A1_defenestrace",
   },
 ];
 
