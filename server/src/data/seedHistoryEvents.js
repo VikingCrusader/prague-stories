@@ -23185,6 +23185,1357 @@ export const historyEvents = [
     ],
     wikipediaUrl: "https://cs.wikipedia.org/wiki/Ferdinand_I._Habsbursk%C3%BD",
   },
+  // 2026-10-17. Sources: Matouš Vanča, "Veliké strašidlo, Herodes a mrcha
+  // ohyzdná" (Historie – otázky – problémy 2/2020), quoting the Chronicle of
+  // Bartoš the Scribe (FRB VI, pp. 249, 253, 255, 247, 274); IPR Praha's
+  // timeline for 9 Sept 1528 (new councils, ban on the great assemblies);
+  // Vlastenský slovník historický for Hlavsa's return (1529), Pašek's
+  // banishment (1530) and his death (22 March 1533; Tomek's later 15 March
+  // is a slip, per Vanča). The procession and the two executions two days
+  // before it come from one popular source only (Český rozhlas Dvojka,
+  // "Podtrhniž mu nohu"), hence "so the story goes"; Vanča counts no
+  // executions under Pašek beyond the burned Anabaptists and Lopatský.
+  {
+    slug: "the-ten-year-rule-1528",
+    era: "habsburgs-move-in",
+    images: ["/history/the-ten-year-rule-1528.webp"],
+    imageCaptions: [
+      {
+        en: "Prague, 1528: Pašek rides proudly at the head of the procession celebrating ten years of the united towns, while in a shadowed corner a royal messenger slips away with a sealed document, heading for the city gate.",
+        cz: "Praha, 1528: Pašek hrdě jede v čele průvodu, který slaví deset let spojených měst, zatímco se ve stínu na rohu ulice královský posel se zapečetěnou listinou nenápadně vytrácí k městské bráně.",
+        zh: "1528年，布拉格：帕谢克骑马走在庆祝两城合并十周年的游行队伍最前面，满脸得意；街角的阴影里，一位国王的信使拿着一卷盖着火漆的文书，悄悄朝城门走去。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "Such hard-browed men have been well and truly humbled.",
+          cz: "Takoví tvrdočelové hodně jsou poníženi.",
+          zh: "这等铁石脑门的人，可算是被狠狠地按低了头。",
+        },
+        attribution: {
+          en: "Bartoš the Scribe, Prague Chronicle",
+          cz: "Bartoš písař, Kronika pražská",
+          zh: "书记官巴尔托什，《布拉格编年史》",
+        },
+      },
+      {
+        text: {
+          en: "Since you would have no pity at all, not only on old, grey-haired and respectable men, but not even on those born in that city, and least of all when some of them knelt before you, begging you for the sake of the most high God for mercy, it is neither fitting nor right that mercy should be shown to you.",
+          cz: "Poněvadž jsi ty nechtěl míti lítosti žádné, netoliko nad starými a šedivými a tu zachovalými lidmi, ale také ani nad rodilými v tom městě a zvláště tehdáž, když jsou někteří před tebou klekali, prosíce tebe pro nejvyššího boha za milost, že není slušné ani hodné, aby tobě byla ukázána.",
+          zh: "既然你自己不肯有半点怜悯，不怜悯那些白发苍苍、德高望重的老人，连生在这座城里的人也不怜悯，尤其是有人跪在你面前、看在至高的上帝份上求你开恩的时候，那么对你开恩，也就既不合适，也不应当。",
+        },
+        attribution: {
+          en: "King Ferdinand's answer to Pašek, 1530, as recorded by Bartoš the Scribe",
+          cz: "Odpověď krále Ferdinanda Paškovi, 1530, podle kroniky Bartoše písaře",
+          zh: "斐迪南国王答帕谢克，1530年，见书记官巴尔托什的编年史",
+        },
+      },
+    ],
+    startYear: 1528,
+    year: {
+      en: "1528",
+      cz: "1528",
+      zh: "1528年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Together, Then Apart Again",
+      cz: "Spojeni, a zase rozděleni",
+      zh: "合久必分",
+    },
+    hookLine: {
+      en: "Prague's earlier unions had lasted ten years at most. This time Pašek threw a tenth-birthday party for his own, and when the party was over, so was the union.",
+      cz: "Dřívější spojení pražských měst vydržela nanejvýš deset let. Tentokrát Pašek tomu svému sám vystrojil desáté narozeniny, a když oslava skončila, skončilo i spojení.",
+      zh: "前两次合并，布拉格最多撑了十年。这一回，帕谢克亲手办了一场十周年庆典。庆典办完，合并也到头了。",
+    },
+    summary: {
+      en: "In February 1527 Ferdinand was crowned in St Vitus Cathedral, and the next day it was Queen Anne's turn. Soon after the ceremonies the new king was gone again: there was a Hungarian crown to fight for as well.\n\nPrague, meanwhile, carried on doing as Pašek said. He had held the united “Greater Prague” of the two towns in his hand for four years now.\n\nIn 1528 the union of the two towns turned ten. Pašek decided to celebrate properly: a procession through the whole city, everyone out on the streets, so that the king too could see how united and how strong Prague was.\n\nTwo days before the celebration, so the story goes, he had two of his opponents executed.\n\n[[b]]He wanted the king to see a united city. What the king saw was a city that listened to one man.[[/b]]\n\nFerdinand was no [[link:wanted-a-king-who-says-fine-1490]]King Fine[[/link]]. A Prague that merged itself without asking the king, threw its own celebrations and cut off its own heads looked far too dangerous to him.\n\nOn 9 September 1528 he struck. The king appointed new councils for the Old Town and the New Town, and Pašek and his people were out. The union went with them: Prague was two towns again, with two town halls and two sets of rules. And the great assemblies of the townsmen were not to meet again without the king's consent.\n\nRenewing town councils was a perfectly routine royal right. The man who had spent his life tripping others up did not even need to be tripped: the king simply did his paperwork.\n\nBartoš, the scribe Pašek had driven out of Prague, could barely contain his glee:\n\n[[quote:0]]\n\nPašek fell ill; his conscience was gnawing at him, according to Bartoš. He tried to put the union back together, failed, and, in the chronicle's words, hung his head and let his ears droop.\n\nThe next year the king let Hlavsa and his party back into Prague.\n\nIn 1530 it was Pašek's turn to be banished from the city. He was an old lawyer and knew there was no point in arguing, so he begged the king for mercy, pleading his age. According to Bartoš, the king answered:\n\n[[quote:1]]\n\n[[b]]When others had knelt before him, he showed no pity. Now it was his turn to ask, and the king showed none either.[[/b]]\n\nThe words were harsh, the sentence mild: no prison, no scaffold, only an order not to live in Prague.\n\nHe withdrew to his estate at Toušeň, northeast of Prague, which he had long since done up very nicely. Even Bartoš noted sourly that in fifty years Toušeň had never glittered with so much brick and new building.\n\nBut few good years were left. His wife and children died before him, and fire swept through Toušeň. In March 1533 Pašek died there, leaving no heir.\n\n[[b]]Charles IV's union lasted ten years, the Hussites' barely a few. Pašek's made it just past its tenth birthday.[[/b]]\n\nThe next time Prague's towns were joined would be 256 years later.",
+      cz: "V únoru 1527 byl Ferdinand korunován v katedrále svatého Víta a druhý den přišla na řadu královna Anna. Krátce po slavnostech byl nový král zase pryč: o uherskou korunu se musel ještě poprat.\n\nPraha mezitím dál poslouchala Paška. Spojenou „velkou Prahu“ obou měst držel pevně v rukou už čtvrtým rokem.\n\nRoku 1528 bylo spojení obou měst staré přesně deset let. Pašek se rozhodl to pořádně oslavit: průvod celým městem, všichni do ulic, ať i král vidí, jak je Praha jednotná a silná.\n\nDva dny před slavností dal prý popravit dva své odpůrce.\n\n[[b]]Chtěl králi ukázat jednotné město. Král uviděl město, které poslouchá jediného muže.[[/b]]\n\nFerdinand nebyl žádný [[link:wanted-a-king-who-says-fine-1490]]král Bene[[/link]]. Praha, která se bez královského svolení sama spojí, sama slaví a sama stíná hlavy, mu připadala až příliš nebezpečná.\n\n9. září 1528 udeřil. Král jmenoval Starému i Novému Městu nové rady a Pašek se svými lidmi byl venku. Spolu s nimi padla i jednota měst: Praha byla zase dvě města, se dvěma radnicemi a dvojími pořádky. A velké obce se bez královského svolení už scházet nesměly.\n\nObnovování městských rad přitom bylo docela běžné královské právo. Muž, který celý život podtrhával nohy jiným, nakonec ani podtrhnout nepotřeboval: král jen vyřídil úřední věc.\n\nBartoš písař, kterého Pašek z Prahy vyhnal, škodolibost ani neskrýval:\n\n[[quote:0]]\n\nPašek se roznemohl; podle Bartoše ho hryzalo svědomí. Pokusil se jednotu obnovit, nepovedlo se mu to a pak, slovy kroniky, „hlavu svěsil a uši ochlépil“.\n\nPříští rok pustil král Hlavsu a jeho stranu zpátky do Prahy.\n\nRoku 1530 přišla řada na Paška: král ho z Prahy vypověděl. Starý právník věděl, že obhajoba nemá smysl, a tak krále prosil o milost a dovolával se svého stáří. Podle Bartoše mu král odpověděl:\n\n[[quote:1]]\n\n[[b]]Když před ním klečeli jiní, slitování neměl. Teď prosil on a ani král slitování neměl.[[/b]]\n\nSlova byla tvrdá, trest mírný: žádné vězení, žádné popraviště, jen zákaz bydlet v Praze.\n\nOdešel na své panství v Toušeni severovýchodně od Prahy, které si už dávno pěkně zvelebil. I Bartoš kysele poznamenal, že se Toušeň za padesát let tak neskvěla cihlami a novými stavbami.\n\nDobrých let mu ale moc nezbývalo. Žena i děti zemřely dřív než on a Toušeň vyhořela. V březnu 1533 tam Pašek zemřel a nezanechal dědice.\n\n[[b]]Spojení Karla IV. vydrželo deset let, husitské sotva pár. To Paškovo se dožilo právě desátých narozenin.[[/b]]\n\nPříště se pražská města spojí až o 256 let později.",
+      zh: "1527年2月，斐迪南在圣维特大教堂加冕，第二天轮到王后安娜。典礼办完没多久，新国王就又走了：匈牙利那顶王冠，他还得亲自去抢。\n\n布拉格照旧是帕谢克说了算。两城合并以后的“大布拉格”，由他一手把持，已经四年了。\n\n1528年，两城合并整整十年。帕谢克决定好好庆祝一下：全城游行，人人上街，让国王也看看，布拉格是多么团结、多么强大。\n\n据说，就在庆典前两天，他下令处决了两个对头。\n\n[[b]]他想让国王看到一座团结的城市。国王看到的，是一座只听一个人的话的城市。[[/b]]\n\n斐迪南可不是[[link:wanted-a-king-who-says-fine-1490]]好好国王[[/link]]。一个不经国王点头就自己合并、自己办庆典、自己砍人头的布拉格，在他眼里太危险了。\n\n1528年9月9日，他动手了。国王给老城和新城重新任命了议会，帕谢克和他的人统统出局。两城合并也跟着一笔勾销：从此，布拉格又变回了两座城、两座市政厅、两套规矩。全城市民的大会，没有国王点头，也不许再开了。\n\n其实，换一届市议会，本来就是国王的老规矩。绊了别人一辈子的人，到头来连绊都不用绊：国王只是照章办了一回公事。\n\n被帕谢克赶出布拉格的书记官巴尔托什，这下可乐坏了：\n\n[[quote:0]]\n\n帕谢克病倒了。巴尔托什说，是良心在啃他。他还想把两城重新合起来，没成，用编年史的话说，只好“耷拉着脑袋，垂下了耳朵”。\n\n第二年，国王把赫拉夫萨一派放回了布拉格。\n\n1530年，轮到帕谢克自己被赶出布拉格。他是个老律师，知道辩也没用，干脆向国王求饶，说自己年纪大了。据巴尔托什记载，国王是这样回答的：\n\n[[quote:1]]\n\n[[b]]当年别人跪着求他，他没有心软。如今轮到他求国王，国王也没有。[[/b]]\n\n话说得狠，罚得却不重：没有监狱，没有刑场，只是不许他再住在布拉格。\n\n他回到了布拉格东北边图什尼的庄园。那里早就被他经营得有模有样，连巴尔托什都酸溜溜地写道，图什尼五十年来从没像这样满眼砖瓦、新房林立。\n\n可好日子没剩几年。妻子和儿女先他而去，图什尼又着了一场大火。1533年3月，帕谢克在那里去世，没有留下继承人。\n\n[[b]]查理四世的合并撑了十年，胡斯派的合并没撑几年。帕谢克的合并，刚好过完十周年。[[/b]]\n\n布拉格的几座城下一次合并，要等到二百五十六年以后。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "novomestska-radnice",
+        relation: {
+          en: "From 1518 the seat of the joint council of the united Prague towns. In September 1528 the king dissolved it, and the New Town had a council of its own again.",
+          cz: "Od roku 1518 sídlo společné rady spojených pražských měst. V září 1528 ji král rozpustil a Nové Město mělo zase vlastní radu.",
+          zh: "1518年起两城联合议会的所在地。1528年9月，国王解散了联合议会，新城又有了自己的议会。",
+        },
+      },
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "Where Pašek took the town seal in 1524. In September 1528 the Old Town got a council of its own here again, without him.",
+          cz: "Tady Pašek roku 1524 převzal městskou pečeť. V září 1528 tu Staré Město dostalo zase vlastní radu, už bez něj.",
+          zh: "1524年帕谢克在这里接过了市政厅的印章。1528年9月，老城在这里重新有了自己的议会，只是这一回没有他。",
+        },
+      },
+      {
+        slug: "lazne-tousen",
+        relation: {
+          en: "Pašek's country estate, which he had done up handsomely. Banished from Prague in 1530, he lived here until his death in 1533.",
+          cz: "Paškovo venkovské panství, které si pěkně zvelebil. Když byl roku 1530 vypovězen z Prahy, žil tu až do své smrti roku 1533.",
+          zh: "帕谢克经营得有模有样的乡下庄园。1530年被逐出布拉格后，他一直住在这里，直到1533年去世。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Jan_Pa%C5%A1ek_z_Vratu",
+  },
+  // 2026-10-17. Both quotes are from the resolution of the Bohemian diet of
+  // St Francis's Day (opened 4 October 1529), České sněmy I, no. 214
+  // (psp.cz/eknih/snemy/v010/1529/t021400.htm): relief for besieged Vienna,
+  // muster at Znojmo "ve čtvrtek na den svatých Simona a Judy" (Thursday
+  // 28 October 1529), two months' pay, home earlier if the need is over.
+  // Czech garrison figures (Brandenstein's regiment of about 2,000 in four
+  // companies, Hardegg's 250 horse, about 2,800 in all) and "6,000 foot and
+  // 1,000 horse, the king also asking for every tenth man" from
+  // stoplusjednicka.cz after Tajemství české minulosti; bellum.cz instead
+  // says the estates hired 2,000 men and never called the levy, hence the
+  // card only says the king asked for it. Ferdinand "withdrawn to the safety
+  // of Bohemia" per en.wikipedia; his exact itinerary was not verified, so
+  // the card says Bohemia, not Prague.
+  {
+    slug: "the-door-held-1529",
+    era: "habsburgs-move-in",
+    images: ["/history/the-door-held-1529.webp"],
+    imageCaptions: [
+      {
+        en: "Vienna, October 1529, in the rain: on the surface the defenders hold the wall against the Janissaries; below ground, a few peas jumping on a drum and ripples in a bowl of water warn that Ottoman sappers are tunnelling towards them.",
+        cz: "Vídeň, říjen 1529, v dešti: nahoře obránci drží hradbu proti janičárům; pod zemí poskakující hrách na bubnu a vlnky v míse s vodou prozrazují, že se k nim prokopávají osmanští zákopníci.",
+        zh: "1529年10月，雨中的维也纳：地面上，守军顶住了近卫军的进攻；地底下，鼓面上跳动的豌豆和水盆里的波纹，暴露了正朝这边挖来的土耳其工兵。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "…that we should rise in arms for the defence of the holy Christian faith and for the rescue of Vienna, which is besieged by the same emperor…",
+          cz: "…abychom vojensky se vyzdvihli pro potřebu obrany svaté víry křesťanské a k retování Vídně, kteráž jest od téhož císaře obehnána…",
+          zh: "……要我们起兵，保卫神圣的基督信仰，解救被那位皇帝围困的维也纳……",
+        },
+        attribution: {
+          en: "Resolution of the Bohemian diet, October 1529",
+          cz: "Usnesení českého sněmu, říjen 1529",
+          zh: "波希米亚议会决议，1529年10月",
+        },
+      },
+      {
+        text: {
+          en: "…and should the need be done with sooner, they may all go home again…",
+          cz: "…pakli by se prvé ta potřeba vykonala, tehdy mohou se zase ti všichni do domův svých navrátiti…",
+          zh: "……倘若不到期限事情就办完了，大家便都可以回家去……",
+        },
+        attribution: {
+          en: "The same resolution",
+          cz: "Totéž usnesení",
+          zh: "同一份决议",
+        },
+      },
+    ],
+    startYear: 1529,
+    year: {
+      en: "1529",
+      cz: "1529",
+      zh: "1529年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Door Held",
+      cz: "Dveře vydržely",
+      zh: "守住了门",
+    },
+    hookLine: {
+      en: "Three years earlier, Vienna had become the door between the sultan and Bohemia. This year, the sultan came knocking. Quite a few of the men holding the door had come from Bohemia.",
+      cz: "Před třemi lety se Vídeň stala dveřmi mezi sultánem a Čechami. Letos sultán zaklepal. Nemálo z těch, kdo dveře drželi, přišlo z Čech.",
+      zh: "三年前，维也纳是挡在苏丹和波希米亚之间的一道门。这一年，苏丹真的来敲门了。守门的人里，有不少是从波希米亚来的。",
+    },
+    summary: {
+      en: "In May 1529 Suleiman set out from Constantinople once again. This time his target was not Buda, but Vienna, [[link:the-habsburgs-come-in-1526]]the door[[/link]] itself.\n\nBut the heavens were not on his side. That spring the Balkans saw the heaviest rains in years, and the roads turned into swamps. The biggest siege guns sank into the mud and could not be dragged out, so they were left behind on the way; the camels brought from the east died one after another. When the army finally reached Vienna at the end of September, the heavy guns it needed most for a siege were gone.\n\nInside the city were fewer than twenty thousand men, led by the seventy-year-old veteran Count Niklas Salm. And King Ferdinand? He was not in the city. He had withdrawn to the safety of Bohemia, to raise men and money there.\n\n[[b]]A king who lived in Vienna had taken cover in Bohemia; a troop of soldiers from Bohemia was holding Vienna.[[/b]]\n\nThis time, for once, Bohemia did not drag its feet. The estates paid for six thousand foot and a thousand horse, and the king even asked for the land levy to be called up, one man in every ten. Among the defenders was a full regiment of about two thousand men recruited in the Bohemian lands, and with the horsemen from Moravia and Silesia, the Bohemian crown's men in the garrison came to nearly three thousand.\n\nShort of heavy guns, the Turks went underground instead, digging tunnels to blow up the walls. The defenders had an answer: they set out bowls of water, or scattered a few peas on the skin of a drum. When the peas jumped or the water trembled, someone was digging below, and the defenders dug across to meet the tunnel and block it. There was as much fighting under the ground as above it.\n\nOn 14 October the sultan launched his last great assault. The pikes and handguns held.\n\nThe next day Suleiman ordered the retreat. Winter had come early, supplies were about to run out, and even the elite Janissaries had begun to grumble. On the way home, heavy snow began to fall.\n\nMeanwhile, back in Bohemia, the diet had met in early October, a week into the siege, and voted for a relief army:\n\n[[quote:0]]\n\nThe muster was set for Znojmo, in southern Moravia, on Thursday 28 October. By then the sultan had been gone for almost two weeks. Fortunately the resolution had already thought of that:\n\n[[quote:1]]\n\n[[b]]Three years earlier, at Mohács, the Turks had won a whole battle in two hours. Three years later they spent more than two weeks outside Vienna, and in the end it was a rainstorm and a snowstorm that sent them home.[[/b]]\n\nOld Count Salm had been wounded in the last assault. He died the following spring.\n\nThe door had held. Behind it, Bohemia was safe again. Ferdinand returned to Vienna, went on fighting Zápolya over Hungary, and went on living in his Vienna.",
+      cz: "V květnu 1529 vyrazil Sulejman z Cařihradu znovu. Tentokrát nemířil na Budín, ale na samotnou Vídeň, [[link:the-habsburgs-come-in-1526]]ty dveře[[/link]].\n\nNebe ale nestálo na jeho straně. Na jaře toho roku pršelo na Balkáně víc než za mnoho let předtím a cesty se proměnily v bažiny. Nejtěžší obléhací děla zapadla do bláta a nedala se vytáhnout, takže zůstala po cestě; velbloudi přivedení z východu hynuli jeden za druhým. Když vojsko koncem září konečně dorazilo k Vídni, těžká děla, která k obléhání potřebovalo nejvíc, už nemělo.\n\nVe městě bylo necelých dvacet tisíc mužů a velel jim sedmdesátiletý ostřílený hrabě Mikuláš ze Salmu. A král Ferdinand? Ten ve městě nebyl. Stáhl se do bezpečí Čech, aby tam sháněl vojáky a peníze.\n\n[[b]]Král, který bydlel ve Vídni, se schoval v Čechách; vojáci z Čech drželi Vídeň.[[/b]]\n\nTentokrát Čechy výjimečně nezdržovaly. Stavové zaplatili šest tisíc pěších a tisíc jezdců a král dokonce žádal svolání zemské hotovosti, každého desátého muže. Mezi obránci byl celý pluk asi dvou tisíc mužů naverbovaných v českých zemích, a s jezdci z Moravy a Slezska měly země Koruny české v posádce skoro tři tisíce mužů.\n\nTěžká děla Turkům chyběla, a tak šli do podzemí: kopali chodby, aby hradby vyhodili do povětří. Obránci si věděli rady: rozestavili mísy s vodou nebo nasypali pár hrachů na blánu bubnu. Když hrách poskočil nebo se voda zachvěla, někdo pod zemí kopal, a obránci se prokopali naproti a chodbu zasypali. Bojovalo se pod zemí stejně jako nad ní.\n\n14. října zahájil sultán poslední velký útok. Píky a ručnice vydržely.\n\nDruhý den dal Sulejman rozkaz k ústupu. Zima přišla brzy, zásoby docházely a reptat začali i elitní janičáři. Na cestě domů začalo hustě sněžit.\n\nV Čechách se mezitím na začátku října, týden po začátku obléhání, sešel sněm a odhlasoval pomocné vojsko:\n\n[[quote:0]]\n\nShromáždit se mělo u Znojma na jižní Moravě, ve čtvrtek 28. října. To už byl sultán skoro dva týdny pryč. Usnesení s tím naštěstí počítalo předem:\n\n[[quote:1]]\n\n[[b]]Před třemi lety u Moháče vyhráli Turci celou bitvu za dvě hodiny. O tři roky později strávili přes dva týdny před Vídní a domů je nakonec poslal liják a sněhová vánice.[[/b]]\n\nStarý hrabě Salm byl při posledním útoku raněn. Zemřel na jaře příštího roku.\n\nDveře vydržely. Čechy za nimi byly zase v bezpečí. Ferdinand se vrátil do Vídně, dál válčil se Zápolským o Uhry a dál bydlel ve své Vídni.",
+      zh: "1529年5月，苏莱曼又一次从君士坦丁堡出发了。这一回，他的目标不是布达，而是维也纳，[[link:the-habsburgs-come-in-1526]]那道门[[/link]]本身。\n\n可老天爷不站在他这边。那年春天，巴尔干下了多年未见的大雨，大路变成了烂泥塘。最重的攻城大炮陷在泥里拖不动，只好扔在半路；从东方带来的骆驼，一头接一头地倒毙。等大军9月底赶到维也纳城下，攻城最需要的那批重炮，已经没了。\n\n城里的守军不到两万人，带头的是七十岁的老将萨尔姆伯爵。国王斐迪南呢？他不在城里。他退到了更安全的波希米亚，在那里招兵、筹钱。\n\n[[b]]一个住在维也纳的国王，躲到了波希米亚；一群波希米亚来的兵，守在了维也纳。[[/b]]\n\n波希米亚这一回，倒是没有拖后腿。各等级出钱养了六千步兵和一千骑兵，国王甚至要求召集邦国民兵，每十个人里抽一个。守城的队伍里，有一个两千人上下、在波希米亚王冠领地招募的团，加上摩拉维亚和西里西亚来的骑兵，来自波希米亚王冠领地的守军有将近三千人。\n\n大炮不够，土耳其人就往地底下挖，想把城墙炸塌。守军也有办法：他们在地上摆一盆水，或者在鼓面上撒几粒豌豆，豆子一跳，水面一抖，就知道底下有人在挖地道，赶紧挖过去把它堵上。地面上打得热闹，地底下也打得热闹。\n\n10月14日，苏丹发动了最后一次总攻。长矛和火枪顶住了。\n\n第二天，苏莱曼下令撤军。冬天提早来了，补给眼看就要断，连最精锐的近卫军都开始闹事。撤退的路上，又下起了大雪。\n\n那么，波希米亚本土这边呢？10月初，围城才开始一个星期，波希米亚议会就开了会，投票决定出兵：\n\n[[quote:0]]\n\n集合地点定在南摩拉维亚的兹诺伊莫，日期是10月28日，星期四。到那一天，苏丹已经走了快两个星期了。好在决议里早有准备：\n\n[[quote:1]]\n\n[[b]]三年前，土耳其人在莫哈奇两个小时就打完了一场仗；三年后，他们在维也纳城下耗了半个多月，最后被一场雨和一场雪赶了回去。[[/b]]\n\n老将萨尔姆在最后一次总攻中受了伤，第二年春天去世了。\n\n维也纳这道门，守住了。门里的波希米亚，又安稳了下来。斐迪南回到维也纳，接着跟匈牙利的扎波尧伊打仗，接着住在他的维也纳。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "znojmo",
+        relation: {
+          en: "The muster point the Bohemian diet set for its relief army: Thursday 28 October 1529, almost two weeks after the sultan had left Vienna.",
+          cz: "Místo, kde se podle usnesení českého sněmu mělo shromáždit pomocné vojsko: ve čtvrtek 28. října 1529, skoro dva týdny poté, co sultán od Vídně odtáhl.",
+          zh: "波希米亚议会给援军定下的集合地点：1529年10月28日，星期四，那时苏丹已经离开维也纳快两个星期了。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Prvn%C3%AD_obl%C3%A9h%C3%A1n%C3%AD_V%C3%ADdn%C4%9B",
+  },
+  // 2026-10-17. Agricola quote: De re metallica (1556), Book VI, in the
+  // Hoovers' 1912 translation (Project Gutenberg #38015); his Jáchymov years
+  // (town physician from 1527, left about 1530) and Bermannus (Basel 1530)
+  // from the same edition's introduction. Zdeněk Lev held the supreme
+  // burgraviate 1525–1530 (not lost in 1528 as first drafted), died
+  // 14 July 1535, debts his sons could not pay. Belvedere: begun April 1538
+  // (Giovanni Spazio, Paolo della Stella), upper floor by Wohlmut after
+  // about 1554, finished about 1565; cs.wikipedia calls the "built for
+  // Queen Anne" story a 19th-century myth unsupported by sources.
+  {
+    slug: "a-rare-quiet-decade-1538",
+    era: "habsburgs-move-in",
+    images: ["/history/a-rare-quiet-decade-1538.webp"],
+    imageCaptions: [
+      {
+        en: "Three scenes from the 1530s: Italian masons raise the arcade of the summer palace in Prague's new Royal Garden while Queen Anne looks on with a baby in her arms; Agricola sketches a mine windlass in Jáchymov; an Anabaptist commune brings in the harvest in Moravia.",
+        cz: "Tři výjevy ze 30. let 16. století: italští kameníci stavějí arkády letohrádku v nové Královské zahradě a královna Anna s miminkem v náručí se dívá; Agricola v Jáchymově kreslí důlní rumpál; novokřtěnecká obec na Moravě sklízí obilí.",
+        zh: "1530年代的三个场景：布拉格新开辟的御花园里，意大利石匠在搭夏宫的拱廊，安娜王后抱着婴儿在一旁观看；雅希莫夫的矿井口，阿格里科拉在本子上画绞盘；摩拉维亚的田野上，再洗礼派公社的人在收麦子。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "…the dust which is stirred and beaten up by digging penetrates into the windpipe and lungs… hence in the mines of the Carpathian Mountains women are found who have married seven husbands, all of whom this terrible consumption has carried off to a premature death.",
+          cz: "…prach, který se při kopání zvedá a víří, vniká do průdušnice a plic… proto se v dolech v Karpatech najdou ženy, které se vdaly za sedm mužů, a všechny je ta strašná souchotina předčasně odnesla do hrobu.",
+          zh: "……挖掘时扬起、搅动的粉尘钻进气管和肺里……所以在喀尔巴阡山的矿区，能找到嫁过七个丈夫的女人，七个丈夫全都被这可怕的痨病早早夺去了性命。",
+        },
+        attribution: {
+          en: "Georgius Agricola, De re metallica, Book VI (1556)",
+          cz: "Georgius Agricola, De re metallica, kniha VI. (1556)",
+          zh: "阿格里科拉，《论矿冶》第六卷，1556年",
+        },
+      },
+    ],
+    startYear: 1538,
+    year: {
+      en: "1530–1540",
+      cz: "1530–1540",
+      zh: "1530年－1540年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Rare Quiet",
+      cz: "Vzácný klid",
+      zh: "难得的安稳",
+    },
+    hookLine: {
+      en: "The Turks were gone, Pašek was gone, and the townsmen and the lords had run out of breath for quarrelling, at least for now. Bohemia was in for ten rare years of quiet.",
+      cz: "Turci byli pryč, Pašek byl pryč a měšťané i páni neměli na hádky dech, aspoň zatím. Čechy čekalo vzácných deset let klidu.",
+      zh: "土耳其人走了，帕谢克走了，城里人和贵族也暂时没力气吵了。波希米亚过上了难得安稳的十年。",
+    },
+    summary: {
+      en: "Once Vienna had held, Ferdinand suddenly had his hands full. In 1531 he was elected King of the Romans, his brother Charles V's successor in the Empire; over in Hungary he was still at war with Zápolya. Bohemia saw little of him.\n\nBut he was not idle there either. As early as 1527 he had set up the Bohemian Chamber in Prague, an office for nothing but royal revenue, and it set about clawing back, one item at a time, the royal estates and incomes that in [[link:wanted-a-king-who-says-fine-1490]]King Fine[[/link]]'s day had been pawned off and drained into the lords' pockets. [[link:the-king-who-learned-to-say-no-1523]]Zdeněk Lev[[/link]], once the man who made and unmade kings, lost the office of Supreme Burgrave once more around 1530. He died in 1535, leaving debts that his sons could not pay.\n\n[[b]]King Fine had only ever said “fine”. Ferdinand hardly said anything; he just kept the books.[[/b]]\n\nIn town and country, life went its own way. Up north in [[link:the-dollars-bohemian-home-1520]]Jáchymov[[/link]] the mines were still producing silver. From 1527 the town's physician was a German named Agricola, who treated the miners and, in all his spare time, went down the shafts and into the smelting works, writing down everything he saw. In 1530 he published a dialogue about mining; then he spent another twenty-odd years on what became the classic work of mining and metallurgy, De re metallica. It has a good deal to say about miners' health, too:\n\n[[quote:0]]\n\nTo the east, in Moravia, Anabaptists driven out of one land after another kept arriving, and on the estates of tolerant lords they set up communes of their own, where all property was held in common. The Unity of the Brethren also plucked up its courage: in 1535 it set out its beliefs in a written confession and presented it to the king. Three years later Martin Luther himself wrote the preface to its Latin edition.\n\nThe king and queen, at least, were very happy together. Anne had a child almost every year, fifteen in all.\n\nIn 1534, north of the castle, on the far side of the moat, a Royal Garden was laid out. In 1538 the king brought in Italian masons to build a summer palace in the garden, wrapped all round by a light, slender arcade, quite unlike the pointed Gothic houses of the city below. It is often called the purest Italian Renaissance building north of the Alps.\n\nLater generations called it Queen Anne's Summer Palace and said it was the king's gift to his wife. Yet not one document of the time says it was built for her; that story only appeared some three hundred years later.\n\nThe summer palace would take many years to build, nearly thirty in all. The queen did not live to see it finished: she died in 1547.\n\nAnd one summer, three years after work began, smoke rose from a house in the Lesser Town, just across from the castle.",
+      cz: "Když Vídeň vydržela, měl Ferdinand najednou plné ruce práce. Roku 1531 byl zvolen římským králem, nástupcem svého bratra Karla V. v říši; v Uhrách ještě pořád válčil se Zápolským. Do Čech se dostal málokdy.\n\nAni tady ale nezahálel. Už roku 1527 zřídil v Praze českou komoru, úřad jen pro královské příjmy, a ta začala kus po kusu vymáhat zpět královské statky a důchody, které za [[link:wanted-a-king-who-says-fine-1490]]krále Bene[[/link]] skončily v zástavě a v kapsách pánů. [[link:the-king-who-learned-to-say-no-1523]]Zdeněk Lev[[/link]], kdysi muž, který dosazoval i sesazoval krále, přišel kolem roku 1530 znovu o úřad nejvyššího purkrabí. Zemřel roku 1535 a zanechal dluhy, které jeho synové nedokázali splatit.\n\n[[b]]Král Bene na všechno říkal jen „dobře“. Ferdinand skoro nic neříkal, jen vedl účty.[[/b]]\n\nVe městech i na venkově šel život svou cestou. Na severu v [[link:the-dollars-bohemian-home-1520]]Jáchymově[[/link]] doly pořád dávaly stříbro. Od roku 1527 tu byl městským lékařem Němec jménem Agricola, který léčil horníky a každou volnou chvíli fáral do šachet a chodil do hutí a všechno, co viděl, si zapisoval. Roku 1530 vydal dialog o hornictví; pak strávil dalších dvacet let a víc na díle, z něhož se stala klasická kniha o hornictví a hutnictví, De re metallica. Píše se v ní hodně i o zdraví horníků:\n\n[[quote:0]]\n\nNa východ, na Moravu, přicházeli jeden zástup za druhým novokřtěnci vyhnaní ze všech možných zemí a na panstvích snášenlivých pánů si zakládali vlastní obce, kde byl veškerý majetek společný. I Jednota bratrská sebrala odvahu: roku 1535 sepsala svou víru do konfese a předložila ji králi. O tři roky později napsal k jejímu latinskému vydání předmluvu sám Martin Luther.\n\nKrál a královna spolu aspoň žili šťastně. Anna rodila skoro každý rok, celkem patnáct dětí.\n\nRoku 1534 byla severně od hradu, na druhé straně příkopu, založena Královská zahrada. Roku 1538 povolal král italské kameníky, aby mu v zahradě postavili letohrádek, obehnaný ze všech stran lehkými, štíhlými arkádami, naprosto jiný než špičaté gotické domy ve městě pod hradem. Často se o něm říká, že je to nejčistší stavba italské renesance na sever od Alp.\n\nPozdější generace mu říkaly Letohrádek královny Anny a tvrdily, že to byl králův dar manželce. Žádná dobová listina ale neříká, že by se stavěl pro ni; ta historka se objevila až zhruba o tři sta let později.\n\nLetohrádek se měl stavět mnoho let, celkem skoro třicet. Královna se jeho dokončení nedožila: zemřela roku 1547.\n\nA jednoho léta, tři roky po začátku stavby, se nad jedním domem na Malé Straně, přímo naproti hradu, vyvalil kouř.",
+      zh: "维也纳守住以后，斐迪南的日子一下子忙了起来。1531年，他被选为“罗马人的国王”，成了哥哥查理五世在帝国的接班人；匈牙利那头，他还在跟扎波尧伊打仗。波希米亚，他很少回来。\n\n可他在这边也没闲着。早在1527年，他就在布拉格设了波希米亚财务署，专管王室收入。财务署把[[link:wanted-a-king-who-says-fine-1490]]好好国王[[/link]]时代押出去、流进贵族口袋的王室庄园和进项，一笔一笔往回收。当年那位呼风唤雨的[[link:the-king-who-learned-to-say-no-1523]]兹德涅克·列夫[[/link]]，1530年前后再一次丢了最高城堡伯爵的位子，1535年去世，留下一屁股债，儿子们怎么也还不清。\n\n[[b]]好好国王只会说“好”，斐迪南不怎么说话，只管记账。[[/b]]\n\n城里城外，各过各的日子。北边的[[link:the-dollars-bohemian-home-1520]]雅希莫夫[[/link]]，银矿还在出银子。1527年起，城里的医生是一个叫阿格里科拉的德意志人，他一边给矿工看病，一边一有空就下矿井、进冶炼坊，把看到的一样一样记下来。1530年，他先出了一本讲矿山的对话录；后来又花了二十多年，写成了矿冶学的名著《论矿冶》。书里也写了不少矿工的病：\n\n[[quote:0]]\n\n东边的摩拉维亚，一批又一批被各地赶出来的再洗礼派教徒逃到这里，在开明贵族的庄园上建起了自己的公社，财产归大家所有。弟兄会也鼓起勇气，1535年把自己的信条写成一份文书，呈给了国王。三年后，马丁·路德亲自给它的拉丁文版写了序。\n\n国王和王后，倒是过得很恩爱。安娜几乎每年都生一个孩子，一共生了十五个。\n\n1534年，城堡北边，护城沟的另一头，开辟了一座御花园。1538年，国王请来意大利的石匠，在花园里盖一座夏宫，四面围着一圈细细的拱廊，和布拉格城里那些尖顶的哥特式房子都不一样。它常被称作阿尔卑斯山以北最纯正的意大利文艺复兴建筑。\n\n后人都叫它“安娜王后夏宫”，说这是国王送给王后的礼物。可当年的文献里，找不到一个字说它是为王后盖的；这个说法，是三百年后才有的。\n\n这座夏宫要修很多年，前前后后将近三十年。王后没能等到它完工，1547年就去世了。\n\n而在它开工三年后的一个夏天，城堡对面小城里的一间屋子，冒起了烟。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "queen-annes-summer-palace-1782584407663",
+        relation: {
+          en: "Begun in 1538 by Italian masons in the new Royal Garden, and finished nearly thirty years later. The name linking it to Queen Anne came only in the 19th century.",
+          cz: "Začali ho stavět italští kameníci roku 1538 v nové Královské zahradě a dokončen byl skoro o třicet let později. Jméno spojující ho s královnou Annou se objevilo až v 19. století.",
+          zh: "1538年由意大利石匠在新开辟的御花园里动工，将近三十年后才完工。把它和安娜王后连在一起的名字，19世纪才出现。",
+        },
+      },
+      {
+        slug: "prasny-most",
+        relation: {
+          en: "Built in 1534–1538 for Ferdinand: a covered wooden bridge on stone pillars across the Stag Moat, linking the castle with the new Royal Garden. It burned in the fire of 1541.",
+          cz: "Postaven v letech 1534–1538 pro Ferdinanda: krytý dřevěný most na kamenných pilířích přes Jelení příkop, který spojil hrad s novou Královskou zahradou. Shořel při požáru roku 1541.",
+          zh: "1534至1538年为斐迪南修建：一座架在石墩上的带顶木桥，跨过鹿沟，把城堡和新开辟的御花园连了起来。1541年的大火中，它被烧毁了。",
+        },
+      },
+      {
+        slug: "jachymov",
+        relation: {
+          en: "The silver town where Georgius Agricola was town physician from 1527 and began the studies that became De re metallica.",
+          cz: "Stříbrné město, kde byl Georgius Agricola od roku 1527 městským lékařem a kde začal se studiem, z něhož vzniklo De re metallica.",
+          zh: "银矿小城。1527年起，阿格里科拉在这里当城市医生，也是在这里开始了后来写成《论矿冶》的研究。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Letohr%C3%A1dek_kr%C3%A1lovny_Anny",
+  },
+  // 2026-10-18. Background card after a-rare-quiet-decade-1538, introducing
+  // the Unity of the Brethren before its many later appearances. Kunvald
+  // 1457 or 1458, a group of Rokycana's listeners (cs.wikipedia Kunvald);
+  // Brother Řehoř (Rokycana's nephew), Chelčický's ideas, the 1467 synod at
+  // Lhotka electing their own priests, the 1490s relaxation under Lukáš
+  // Pražský, the St James Mandate of 1508 and the nickname "Pikarts" are
+  // standard accounts.
+  {
+    slug: "who-were-the-brethren-1538",
+    era: "habsburgs-move-in",
+    cardType: "background",
+    images: [],
+    imageCaptions: [],
+    startYear: 1538.5,
+    year: {
+      en: "1457–1538",
+      cz: "1457–1538",
+      zh: "1457–1538年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Who Were the Brethren?",
+      cz: "Kdo byli bratři?",
+      zh: "弟兄会是什么人",
+    },
+    hookLine: {
+      en: "They did not want to fight, swear oaths or hold office. In the Bohemia of the Hussite wars, that was the most radical position of all.",
+      cz: "Nechtěli bojovat, přísahat ani zastávat úřady. V Čechách po husitských válkách to byl ten nejradikálnější postoj ze všech.",
+      zh: "他们不打仗、不发誓、不当官。在打了半辈子仗的胡斯派波希米亚，这反倒是最激进的主张。",
+    },
+    summary: {
+      en: "Around 1457, a small group of people who had been listening to [[link:an-archbishop-never-consecrated-1435]]Rokycana[[/link]]'s sermons in Prague left the city for Kunvald, a village in eastern Bohemia. They were led by a man known as Brother Řehoř, said to be Rokycana's own nephew. They called themselves simply “brothers and sisters”; later the community became the Unity of the Brethren.\n\nTheir ideas came largely from a South Bohemian thinker, Petr Chelčický, who had watched the Hussite wars and drawn his own conclusions. A true Christian, he taught, does not fight, does not take oaths, does not sit in courts or hold office, and does not lord it over others; the Church went wrong the day it got mixed up with power and money.\n\n[[b]]After decades of Hussites fighting for God with flails and war wagons, a group of Christians had decided to put down their weapons altogether.[[/b]]\n\nIn 1467 they took the step that made them a church of their own: at a synod at Lhotka they chose their own priests by lot and ordained them themselves, without any bishop, Catholic or Utraquist. To the Utraquists that was as unforgivable as it was to Rome. King George had them persecuted, Brother Řehoř was tortured, and their enemies called them “Pikarts”, the old name for the most extreme heretics.\n\nOver time the strict rules softened. In the 1490s, under Brother Lukáš of Prague, the Unity decided that its members might, after all, take oaths, serve in office and even be noblemen. From then on lords and knights began to join, and with them came castles, presses and protection. In 1508 King Vladislaus issued a mandate banning them; in practice it held only where local lords chose to enforce it.\n\nBy the 1530s the Brethren were no longer a few families hiding in the hills, but a small, disciplined, well-educated church with powerful friends. In 1535 they felt strong enough to set out their faith in a written confession and present it to the king. They were stricter than the Utraquists, more independent than the Lutherans, and trusted by nobody in power, which is why, when trouble came, they were always the first to be blamed.",
+      cz: "Kolem roku 1457 odešla z Prahy do Kunvaldu, vesnice ve východních Čechách, malá skupina lidí, kteří chodili na kázání [[link:an-archbishop-never-consecrated-1435]]Rokycanova[[/link]]. Vedl je muž známý jako bratr Řehoř, prý Rokycanův synovec. Říkali si prostě „bratři a sestry“; později z jejich společenství vznikla Jednota bratrská.\n\nJejich myšlenky pocházely z velké části od jihočeského myslitele Petra Chelčického, který husitské války viděl na vlastní oči a vyvodil z nich vlastní závěry. Pravý křesťan podle něj nebojuje, nepřísahá, nesedí na soudech ani v úřadech a nepanuje nad druhými; církev se zkazila v den, kdy se spolčila s mocí a penězi.\n\n[[b]]Po desetiletích, kdy husité bojovali za Boha cepy a válečnými vozy, se skupina křesťanů rozhodla zbraně odložit úplně.[[/b]]\n\nRoku 1467 udělali krok, kterým se stali samostatnou církví: na synodu ve Lhotce si losem zvolili vlastní kněze a sami je vysvětili, bez jakéhokoli biskupa, katolického i kališnického. Kališníkům to bylo stejně neodpustitelné jako Římu. Král Jiří je dal pronásledovat, bratra Řehoře mučili a nepřátelé jim nadávali „pikharti“, starým jménem pro nejkrajnější kacíře.\n\nS časem se přísná pravidla zmírnila. V 90. letech 15. století se Jednota pod vedením bratra Lukáše Pražského usnesla, že její členové přece jen smějí přísahat, zastávat úřady a dokonce být šlechtici. Od té doby se k ní začali přidávat páni a rytíři a s nimi přišly hrady, tiskárny i ochrana. Roku 1508 je král Vladislav zakázal mandátem; v praxi platil jen tam, kde ho místní páni chtěli prosadit.\n\nVe 30. letech 16. století už bratři nebyli pár rodin ukrytých v kopcích, ale malá, ukázněná a vzdělaná církev s mocnými přáteli. Roku 1535 se cítili dost silní, aby svou víru sepsali do konfese a předložili ji králi. Byli přísnější než kališníci, samostatnější než luteráni a moc jim nedůvěřovala, a proto, když přišly potíže, padala vina vždycky nejdřív na ně.",
+      zh: "1457年前后，一小群常去听[[link:an-archbishop-never-consecrated-1435]]罗基察纳[[/link]]讲道的人，离开布拉格，搬到了波希米亚东部的小村昆瓦尔德。带头的人叫“弟兄雷霍尔”，据说是罗基察纳的亲戚。他们管自己就叫“弟兄姊妹”；后来，这个团体成了“弟兄会”。\n\n他们的想法，大多来自南波希米亚的一位思想家，彼得·赫尔契茨基。他亲眼看过胡斯战争，得出了自己的结论：真正的基督徒，不打仗，不发誓，不上法庭，不当官，也不骑在别人头上；教会坏就坏在跟权力和钱搅到了一起。\n\n[[b]]胡斯派拿着连枷、开着战车，为上帝打了几十年仗；这群基督徒却决定，干脆把武器全放下。[[/b]]\n\n1467年，他们迈出了自立门户的一步：在洛特卡的一次聚会上，他们抽签选出自己的神父，自己给他们祝圣，既不要天主教的主教，也不要圣杯派的主教。这在圣杯派眼里，跟在罗马眼里一样不可饶恕。伊日国王下令迫害他们，雷霍尔被用了刑，对头们骂他们是“皮卡特派”，那是从前骂最极端的异端用的名字。\n\n日子久了，那些严格的规矩也慢慢松了。15世纪90年代，在布拉格的卢卡什弟兄带领下，弟兄会决定：会里的人，原来也可以发誓、当官，甚至当贵族。从那以后，领主和骑士陆续加入进来，带来了城堡、印刷所，也带来了保护。1508年，弗拉迪斯拉夫国王下令取缔他们；可实际上，只有当地老爷愿意执行的地方，这道命令才算数。\n\n到了16世纪30年代，弟兄会已经不再是躲在山里的几户人家，而是一个规矩严、读书多、还有权贵撑腰的小教会。1535年，他们觉得自己够硬气了，把信条写成文书，呈给了国王。他们比圣杯派更严格，比路德派更自成一体，当权的人谁也不信任他们；所以，一出事，头一个挨罚的，总是他们。",
+    },
+    relatedLandmarks: [],
+  },
+  // 2026-10-17. Course of the fire and the Hájek quote from his pamphlet
+  // "O nešťastné příhodě, kteráž se stala skrze oheň v Menším Městě pražském
+  // a na hradě svatého Václava i na Hradčanech léta 1541", as quoted in
+  // František Záruba's panel for the Institute of Art History (hiu.cas.cz,
+  // 05_pozary_1.pdf): very hot and dry, about 3 pm, house "Bašta", seen first
+  // by two roofers on the Malá Strana town hall, back kitchen chimney; 155
+  // houses in Malá Strana and 42 in Hradčany within two hours, more than 50
+  // dead (other sources give about 20 or 23). Diet quote and the repair
+  // rules (3 years and 18 weeks, public readings, punishment "na cti, hrdle
+  // neb statku", a new land seal) from České sněmy I, no. 294, resolution of
+  // 5 December 1541. "One volume survived because it was on loan" is from a
+  // single search summary, hence "so it is said".
+  {
+    slug: "when-the-books-burned-1541",
+    era: "habsburgs-move-in",
+    images: ["/history/when-the-books-burned-1541.webp"],
+    imageCaptions: [
+      {
+        en: "2 June 1541: two roofers on the Lesser Town hall spot the fire at a neighbouring kitchen chimney; driven by the wind, it races across the roofs and up to Prague Castle, where pages of the Land Tables are swept up into the smoke.",
+        cz: "2. června 1541: dva pokrývači na malostranské radnici zahlédnou oheň u sousedního komína od kuchyně; vítr ho žene přes střechy až na Pražský hrad, kde listy zemských desk vylétají do kouře.",
+        zh: "1541年6月2日：小城市政厅屋顶上的两个盖瓦匠，看见隔壁厨房的烟囱起了火；大火借着风越过一片片屋顶，烧上布拉格城堡，土地册的书页被卷进了浓烟里。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "What the cause of such a calamity may have been, I do not intend to search out, save that it was above all for the sins of men that such a visitation of God came upon people…",
+          cz: "Co by za příčinu takové příhody býti mělo, toho vyhledati nemíním, než že zvláště pro hříchy lidské takové přišlo na lidi Božské dopuštění…",
+          zh: "至于这场灾祸到底因何而起，我无意去追究；只知道，主要是因为世人的罪孽，上帝才让这样的事降到人们头上……",
+        },
+        attribution: {
+          en: "Václav Hájek of Libočany, On the Unhappy Event that Befell through Fire, 1541",
+          cz: "Václav Hájek z Libočan, O nešťastné příhodě, kteráž se stala skrze oheň, 1541",
+          zh: "哈耶克，《火灾不幸记》，1541年",
+        },
+      },
+      {
+        text: {
+          en: "Whereas by the leave of the Lord God Almighty a fall by fire has come upon the Land Tables, by which fire they all burned and came to ruin at Prague Castle, at the time when the said castle burned down entirely…",
+          cz: "Jakož jest z dopuštění pána Boha všemohúcího pád ohněm na dsky zemské přišel, kterýmžto ohněm všecky na hradě pražském tehdáž, když jest týž hrad veškeren vyhořel, shořely a v zkázu přišly jsou…",
+          zh: "鉴于全能的主上帝允许一场火灾降临到土地册上，当布拉格城堡整个烧毁之时，土地册也在这场火里全数焚毁、尽归毁灭……",
+        },
+        attribution: {
+          en: "Resolution of the Bohemian diet on repairing the burned Land Tables, 5 December 1541",
+          cz: "Usnesení sněmu o napravení pohořelých desk zemských, 5. prosince 1541",
+          zh: "波希米亚议会《关于修补烧毁的土地册》决议，1541年12月5日",
+        },
+      },
+    ],
+    startYear: 1541.4,
+    year: {
+      en: "1541",
+      cz: "1541",
+      zh: "1541年",
+    },
+    tone: "serious",
+    title: {
+      en: "When the Books Burned",
+      cz: "Když shořely desky",
+      zh: "账本烧了",
+    },
+    hookLine: {
+      en: "One hot afternoon, a kitchen chimney in the Lesser Town caught fire. By evening the castle had burned, and with it the record of who in the kingdom owned what.",
+      cz: "Jednoho horkého odpoledne chytil na Malé Straně komín od kuchyně. Do večera vyhořel hrad a s ním i záznam o tom, komu v království co patří.",
+      zh: "一个炎热的下午，小城一户人家厨房的烟囱起了火。到了傍晚，城堡烧光了，整个王国“谁家有什么”的记录，也跟着烧光了。",
+    },
+    summary: {
+      en: "Thursday 2 June 1541, three days before Whitsun. The day, wrote Václav Hájek, was unusually hot and unusually dry.\n\nAt about three in the afternoon, fire broke out by the back kitchen chimney of a house called the Bašta, on the Lesser Town square. The first to see it were two roofers at work next door, on the roof of the Lesser Town hall. The household servants rushed to put it out, but it was beyond them.\n\nThe wind carried the flames onto the neighbouring roofs, and the fire ran north and west. The Lesser Town's houses stood packed together, with wooden beams and wooden roofs, and they caught one after another.\n\nSoon the fire climbed the castle hill. First the wooden galleries and bastions on the walls went up, then the roof of the All Saints Chapel, then the Old Royal Palace. St Vitus Cathedral did not escape either: the choir survived, but the unfinished western part was badly burned. In the end the whole castle burned, and the fire went on into Hradčany.\n\nWithin two hours 155 houses had burned in the Lesser Town and 42 in Hradčany, and more than fifty people were dead.\n\nHájek, the man whose Bohemian Chronicle had come out that same year, wrote a pamphlet afterwards describing the fire from start to finish, with a list of the dead. On its cause he had this to say:\n\n[[quote:0]]\n\nBut the fire took more than houses.\n\nIn the Old Royal Palace there was a room that held the Land Tables of Bohemia: great ledgers recording centuries of the nobility's land sales, mortgages, dowries and wills, and the resolutions of the diet as well. How every estate had come to its owner, who owed whom how much, it was all written there. The whole kingdom's property rested on their word.\n\nIn that one fire, they all burned. Only a few odd volumes survived; one, so it is said, only because someone had borrowed it and taken it away.\n\n[[b]]Ferdinand had spent more than ten years going through the accounts item by item. In one afternoon, the kingdom's books went up in smoke.[[/b]]\n\nThat December the diet met in the burned-out castle to decide what to do. Its resolution opens with a sigh:\n\n[[quote:1]]\n\nThe remedy was for everyone to register everything again. Anyone holding a sealed extract from the Land Tables was to bring it in to be copied back; anyone without one was to find the seller or witnesses, and if the seller had died, his heirs. Every new entry was to be read out in public twice a year, so that anyone with an objection could step forward. The deadline was three years and eighteen weeks, and whoever had held an estate in peace, unchallenged, for three years and eighteen weeks before the fire, was to keep it.\n\nThe great fear was that someone would fish in troubled waters. The resolution was blunt: anyone who used the burning of the Tables to forge documents or lay claim to another man's land would answer for it with his honour, his neck or his property.\n\nOne small detail more: the land seal used on the Tables had burned too, and a new one had to be made.\n\n[[b]]What burned in one afternoon took the kingdom years to repair. Some of it could never be repaired at all.[[/b]] Historians still mourn those Tables: centuries of medieval records lost in a single day.\n\nOnce the ashes were cleared, the Lesser Town and Hradčany had a great deal of empty ground. Noble families bought up neighbouring burned plots, merged them, and built Renaissance palaces at the foot of the castle. Work also went on at the summer palace in the Royal Garden. The face of Prague on this side of the river began to change from here.",
+      cz: "Čtvrtek 2. června 1541, tři dny před svatodušními svátky. Ten den byl podle Václava Hájka „velmi velké horko a sucho nad obyčej“.\n\nKolem třetí hodiny odpoledne vyšel oheň u zadního komína od kuchyně v domě zvaném Bašta na malostranském náměstí. Jako první ho spatřili dva pokrývači, kteří pracovali vedle na střeše malostranské radnice. Služebnictvo domu se ho snažilo uhasit, ale bylo to nad jeho síly.\n\nVítr přenesl plameny na sousední střechy a oheň se hnal k severu a k západu. Malostranské domy stály natěsno vedle sebe, s dřevěnými trámy a dřevěnými střechami, a chytaly jeden za druhým.\n\nBrzy se oheň vyšplhal na hradní kopec. Nejdřív vzplály dřevěné pavlače a bašty na hradbách, pak krov kaple Všech svatých a pak Starý královský palác. Neušetřil ani katedrálu svatého Víta: chór přežil, ale nedokončená západní část těžce vyhořela. Nakonec vyhořel celý hrad a oheň pokračoval na Hradčany.\n\nBěhem dvou hodin shořelo na Malé Straně 155 domů a na Hradčanech 42 a zemřelo přes padesát lidí.\n\nHájek, jehož Kronika česká vyšla právě toho roku, potom sepsal spis, v němž požár popsal od začátku do konce i se seznamem mrtvých. O jeho příčině napsal:\n\n[[quote:0]]\n\nOheň ale nevzal jen domy.\n\nVe Starém královském paláci byla místnost, kde se uchovávaly zemské desky: velké knihy, do nichž se po staletí zapisovaly šlechtické prodeje statků, zástavy, věna a kšafty i usnesení sněmů. Jak který statek přišel ke svému pánovi, kdo komu kolik dluží, všechno stálo v nich. Na jejich slově stál majetek celého království.\n\nV tom jediném požáru shořely všechny. Zachovalo se jen několik roztroušených svazků; jeden prý jen proto, že si ho někdo vypůjčil a odnesl.\n\n[[b]]Ferdinand přes deset let procházel účty položku po položce. Za jedno odpoledne shořely knihy celého království.[[/b]]\n\nV prosinci se v ohořelém hradě sešel sněm, aby se poradil, co dál. Jeho usnesení začíná povzdechem:\n\n[[quote:1]]\n\nNáprava spočívala v tom, že si všichni dají všechno zapsat znovu. Kdo měl z desk výpis pod pečetí, měl ho přinést, aby se znovu vepsal; kdo ho neměl, měl vyhledat prodávajícího nebo svědky, a byl-li prodávající mrtev, jeho dědice. Každý nový zápis se měl dvakrát do roka veřejně přečíst, aby se každý, kdo měl námitku, mohl ozvat. Lhůta byla tři léta a osmnáct neděl, a kdo před shořením desk držel statek tři léta a osmnáct neděl pokojně a bez naříkání, tomu měl zůstat.\n\nNejvíc se báli, že někdo bude lovit v kalných vodách. Usnesení mluví jasně: kdo by pád desk zneužil, aby falšoval listiny nebo se zmocnil cizího statku, bude trestán na cti, hrdle neb statku.\n\nA ještě jedna drobnost: shořela i zemská pečeť, kterou se desky pečetily, a musela se udělat nová.\n\n[[b]]Co shořelo za jedno odpoledne, to království spravovalo celá léta. Něco už se spravit nedalo nikdy.[[/b]] Historici ty desky oplakávají dodnes: staletí středověkých záznamů zmizela za jediný den.\n\nKdyž se odklidil popel, zůstalo na Malé Straně a na Hradčanech mnoho volného místa. Šlechtické rody skupovaly sousední spáleniště, spojovaly je a stavěly pod hradem renesanční paláce. V Královské zahradě se dál stavěl letohrádek. Tvář Prahy na tomhle břehu se odtud začala měnit.",
+      zh: "1541年6月2日，星期四，离圣灵降临节还有三天。哈耶克记载，这一天“热得出奇，也干得出奇”。\n\n下午三点左右，小城广场边上一栋名叫“棱堡”的房子，厨房后面的烟囱旁边起了火。最先看见的，是在隔壁小城市政厅屋顶上干活的两个盖瓦匠。房子里的仆人们赶紧去扑，可火已经扑不灭了。\n\n风把火苗吹上了邻居家的屋顶，火一路往北、往西烧。小城的房子挤成一片，木头房梁、木头屋顶，一栋接一栋地烧了起来。\n\n火很快爬上了城堡山。先烧着的是城墙上的木回廊和棱堡，接着是诸圣礼拜堂的屋顶，然后是旧王宫。圣维特大教堂也没能幸免：唱诗堂保住了，没完工的西半边烧得最惨。到最后，整座城堡都烧了，火又接着烧进了城堡区。\n\n两个钟头里，小城烧掉了155栋房子，城堡区烧掉了42栋，死了五十多人。\n\n哈耶克的《波希米亚编年史》正好也在这一年出版。火灾过后，他写了一本小册子，把这场火从头到尾记了下来，还开列了死者的名单。说到起火的原因，他是这么写的：\n\n[[quote:0]]\n\n可这场火烧掉的，不只是房子。\n\n旧王宫里有一间屋子，存放着波希米亚的“土地册”：一本本大账簿，几百年来，贵族们买卖庄园、抵押、嫁妆、遗嘱，还有议会的决议，都记在里面。谁家的庄园是怎么来的、谁欠了谁多少钱，全写得清清楚楚。整个王国的家底，就靠它作证。\n\n这一把火，全烧光了。只剩下零星几册；据说其中一册，是因为被人借出了门，才逃过一劫。\n\n[[b]]斐迪南花了十几年，一笔一笔地对账。一个下午，整个王国的账本都烧成了灰。[[/b]]\n\n那年12月，议会在烧得只剩四壁的城堡里开会，商量怎么补救。决议一开头，先叹了一口气：\n\n[[quote:1]]\n\n补救的办法，是大家把手里的东西重新登记一遍。手里有盖了章的土地册抄本的，拿来重新抄进去；没有抄本的，就去找当年的卖主、找证人；卖主已经死了的，就找他的继承人。新登记的每一条，都要当众念出来，一年念两回，谁有异议，尽管站出来说。期限是三年零十八个星期。谁家的地，只要火灾前已经太太平平地占了三年零十八个星期、没人告过，就还算谁的。\n\n最怕的，是有人趁乱浑水摸鱼。决议写得明明白白：谁要是趁着土地册烧了，伪造文书、冒领别人的地，就拿名誉、脑袋或者家产来抵。\n\n还有一件小事：连给土地册盖章的那枚邦国大印，也在火里烧没了，得重新刻一枚。\n\n[[b]]一个下午烧掉的东西，王国花了好几年来补。有些东西，再也补不回来了。[[/b]]历史学家至今还在为这批土地册叹气：几百年的中世纪档案，一天之内就没了。\n\n灰烬清走以后，小城和城堡区空出了一大片地。贵族们把相邻的几块烧毁的地皮买下来，并成一块，在城堡脚下盖起了文艺复兴式的宫殿。御花园里那座夏宫，也接着往下修。河这边的布拉格，从这时候起，开始换了一副模样。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "sternbersky-palac-mala-strana",
+        relation: {
+          en: "Where it started: the house Na Baště, whose kitchen chimney caught fire on 2 June 1541, stood on this plot. The Šternberks built their palace here in 1703–1719.",
+          cz: "Tady to začalo: na této parcele stál dům Na Baště, u jehož komína od kuchyně 2. června 1541 vyšel oheň. Šternberkové tu v letech 1703–1719 postavili svůj palác.",
+          zh: "大火就从这里烧起：1541年6月2日厨房烟囱起火的那栋“棱堡”，就在这块地皮上。1703至1719年，什切尔恩贝格家族在这里盖起了自己的宫殿。",
+        },
+      },
+      {
+        slug: "old-royal-palace",
+        relation: {
+          en: "The Land Tables were kept here. In June 1541 the palace burned, and the Tables with it.",
+          cz: "Tady se uchovávaly zemské desky. V červnu 1541 palác vyhořel a desky s ním.",
+          zh: "土地册就存放在这里。1541年6月，旧王宫起火，土地册也跟着烧光了。",
+        },
+      },
+      {
+        slug: "cerna-vez-prazsky-hrad",
+        relation: {
+          en: "The castle's old Romanesque tower, once called the Golden Tower. It did not burn down in 1541, but the fire blackened its walls so badly that it has been the Black Tower ever since.",
+          cz: "Stará románská věž hradu, kdysi zvaná Zlatá. Roku 1541 nevyhořela, ale požár jí tak zčernal zdi, že je od té doby Černou věží.",
+          zh: "城堡的老罗马式塔楼，从前叫“金塔”。1541年的大火没把它烧塌，却把墙熏得漆黑，从此它就成了“黑塔”。",
+        },
+      },
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "The fire of 1541 badly burned its unfinished western part; the choir survived.",
+          cz: "Požár roku 1541 těžce poškodil její nedokončenou západní část; chór přežil.",
+          zh: "1541年的大火把它没完工的西半边烧得很惨，唱诗堂保住了。",
+        },
+      },
+      {
+        slug: "velka-jizni-vez-katedraly",
+        relation: {
+          en: "A bell at the castle was lost in the fire of 1541; eight years later Tomáš Jaroš cast the great bell Zikmund for this tower, still the largest bell in the country.",
+          cz: "Požár roku 1541 zničil na hradě zvon; o osm let později odlil Tomáš Jaroš pro tuto věž velký zvon Zikmund, dodnes největší zvon v zemi.",
+          zh: "1541年的大火毁掉了城堡里的一口钟；八年后，托马什·亚罗什为这座塔铸成了大钟齐格蒙德，至今仍是全国最大的钟。",
+        },
+      },
+      {
+        slug: "novy-svet",
+        relation: {
+          en: "Most of this little street in Hradčany burned in 1541 and was rebuilt in the decades that followed.",
+          cz: "Většina téhle uličky na Hradčanech roku 1541 vyhořela a v dalších desetiletích byla znovu postavena.",
+          zh: "城堡区的这条小街，1541年大半被烧毁，此后几十年里又重新盖了起来。",
+        },
+      },
+      {
+        slug: "st-thomas-church-1782394995826",
+        relation: {
+          en: "The Gothic church in the Lesser Town was damaged in the great fire of 1541.",
+          cz: "Gotický kostel na Malé Straně poškodil velký požár roku 1541.",
+          zh: "小城的这座哥特式教堂，在1541年的大火中受了损。",
+        },
+      },
+      {
+        slug: "rozmbersky-palac-ustav-slechticen",
+        relation: {
+          en: "Built in 1545–1574 for the Rožmberks at the castle, on ground cleared by the fire of 1541.",
+          cz: "Postaven v letech 1545–1574 pro Rožmberky na hradě, na místě uvolněném požárem roku 1541.",
+          zh: "1545至1574年为罗森贝格家族在城堡里修建，地皮正是1541年大火烧出来的空地。",
+        },
+      },
+      {
+        slug: "schwarzenberg-palace",
+        relation: {
+          en: "Four medieval houses on this site were damaged in the fire of 1541. In 1545 Jan Popel of Lobkowicz bought the plots and built this Renaissance palace, finished in 1567.",
+          cz: "Čtyři středověké domy na tomto místě poškodil požár roku 1541. Roku 1545 parcely koupil Jan Popel z Lobkovic a postavil tu renesanční palác, dokončený roku 1567.",
+          zh: "这里原有四栋中世纪房子，在1541年的大火中受了损。1545年，扬·波佩尔·洛布科维茨买下这几块地皮，盖起了这座文艺复兴宫殿，1567年完工。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Po%C5%BE%C3%A1r_Mal%C3%A9_Strany_a_Hrad%C4%8Dan",
+  },
+  // 2026-10-17. All from České sněmy II (psp.cz/eknih/snemy/v020/1547/):
+  // no. 18, the Old Town commune's six-point refusal of the king's mandate
+  // (both quotes; the mandate itself dated at Prague Castle "v středu před
+  // sv. Šťastným", 12 January 1547, per no. 26); no. 15, Anne's death after
+  // the birth of a daughter; no. 26, the league of the lords and knights of
+  // ten regions and the three Prague towns, 15 February 1547; no. 125, the
+  // king's summons from Litoměřice, 1 July (he had left Prague Castle on
+  // 5 February; the towns rang the forbidden great bell and met in the
+  // Carolinum; after he "peacefully" reached the castle they dug trenches,
+  // fired on his men and let peasants into the city); no. 128, the hearing
+  // of 8 July, 100 men each from the Old and New Towns and 40 from the
+  // Lesser Town giving themselves up "na milost i ne na milost". Kašpar
+  // Pflug of Rabštejn as the estates' commander per nos. 59 and 70.
+  // Ferdinand fought at Mühlberg with Charles V.
+  {
+    slug: "whatever-happened-to-freedom-1547",
+    era: "habsburgs-move-in",
+    images: ["/history/whatever-happened-to-freedom-1547.webp"],
+    imageCaptions: [
+      {
+        en: "Left, February 1547: in Prague, with the forbidden great bell ringing, three lords seal the estates' league in defence of the kingdom's freedoms. Right, after Mühlberg: the same three scramble to kneel before King Ferdinand, one hiding the sealed charter behind his back.",
+        cz: "Vlevo únor 1547: v Praze za zvuku zakázaného velkého zvonu pečetí tři páni stavovskou úmluvu na obranu svobod království. Vpravo po Mühlberku: titíž tři se předhánějí, kdo dřív poklekne před králem Ferdinandem, a jeden schovává zapečetěnou listinu za zády.",
+        zh: "左：1547年2月，布拉格，被禁的大钟敲响了，三位贵族在保卫王国自由的盟约上盖印。右：米尔贝格之战以后，同样这三个人抢着跪到斐迪南国王面前，其中一个把盖了印的盟约藏到了背后。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "…if we gave help or marched ourselves against His Grace Duke John, who with all his subjects receives the body and blood of the Lord Christ in both kinds…, we fear we should not escape God's terrible vengeance for shedding the blood of our dear brothers…",
+          cz: "…kdybychom pomoc dali neb sami táhli proti J. M. knížeti Hanušovi, kterýžto se všemi svými poddanými tělo a krev pána Krista pod obojí způsobou přijímá…, bojíme se, že bychom pomsty hrozné od pána Boha neušli, pro to vylévání krve svých milých bratří…",
+          zh: "……倘若我们出力相助，甚至亲自出兵去打约翰公爵殿下，而他和他所有的臣民，都是以两种形式领受主基督的圣体和圣血的……我们怕是逃不过上帝可怕的报应，因为流的是我们自己亲爱的弟兄的血……",
+        },
+        attribution: {
+          en: "Reply of the whole commune of the Old Town of Prague to the king's mandate, January 1547",
+          cz: "Odpověď vší obce Starého města Pražského na královský mandát, leden 1547",
+          zh: "布拉格老城全体市民对国王命令的答复，1547年1月",
+        },
+      },
+      {
+        text: {
+          en: "…should we consent to this mandate without a resolution of the general diet…, then not only our freedoms but those of this whole kingdom would fall, and the ancient general diets would have to perish, and all of us inhabitants of this kingdom… would be worse off than peasants…",
+          cz: "…kdybychom pak bez obecního sněmovního snesení tomuto mandátu své povolení dali…, již svobody netoliko naše ale i také všeho tohoto království by klesly a sněmové obecní starobylí zahynouti by musili, a my všichni obyvatelé tohoto království… horší bychom byli než sedláci…",
+          zh: "……倘若我们不经全国议会决议，就答应了这道命令……那么不但我们的自由，连整个王国的自由都要垮掉，自古以来的全国议会也只能就此消亡，我们这个王国的所有居民……就连农民都不如了……",
+        },
+        attribution: {
+          en: "The same reply",
+          cz: "Táž odpověď",
+          zh: "同一份答复",
+        },
+      },
+    ],
+    startYear: 1547,
+    year: {
+      en: "1547",
+      cz: "1547",
+      zh: "1547年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Rising, Gone Overnight",
+      cz: "Povstání, které zmizelo přes noc",
+      zh: "起义，一夜散伙",
+    },
+    hookLine: {
+      en: "Twenty-one years earlier, the Bohemians had made Ferdinand sign that the crown was theirs to give. This year they wanted to find out whether the king they had elected could also be kept in check.",
+      cz: "Před jednadvaceti lety nechali Češi Ferdinanda podepsat, že korunu dostal jejich volbou. Letos si chtěli vyzkoušet, jestli zvoleného krále dokážou také udržet na uzdě.",
+      zh: "二十一年前，波希米亚人让斐迪南签字承认：王冠是我们选的。这一年，他们想试试，选出来的国王，能不能也被他们管住。",
+    },
+    summary: {
+      en: "In January 1547 the king issued an order from Prague Castle: Bohemians, take up arms and follow me against Saxony.\n\nGermany was already at war. Emperor Charles V had set out to deal with the Lutheran princes, much as Sigismund, a century before, had set out to deal with Bohemia's [[link:from-crusaders-to-heretics-1420]]heretics[[/link]]. Bohemia's northern neighbour, the Elector John Frederick of Saxony, was one of their leaders. Ferdinand meant to help his brother.\n\nBut the order had two flaws.\n\nThe first was that it had never gone before the diet. By Bohemia's old custom, the king could not drag men off to fight abroad without the diet's consent. The second was that the neighbour they were to fight believed much as the Bohemian lords did. Nine Bohemian noblemen in ten were not Catholics by now: there were Utraquists, Brethren, and new followers of Luther.\n\nThe whole commune of the Old Town spoke first. In a joint reply they listed six reasons why they could not possibly obey. One of them:\n\n[[quote:0]]\n\nThe last reason went further still:\n\n[[quote:1]]\n\nThat same month Queen Anne gave birth to her fifteenth child, a daughter, and died a few days later. Her summer palace was still unfinished.\n\nOn 5 February the king left Prague Castle to join his brother in Saxony. Barely a week later the great bell rang out in the city. It was the bell that summoned the whole commune to assembly, and the king had forbidden it; it had not been rung for years. Time and again the townsmen gathered in the Carolinum to deliberate.\n\nOn 15 February the lords and knights of ten regions and the three towns of Prague signed a league together, declaring that the king's order went against the laws and freedoms of the kingdom. The nobles of the Brethren stood in the front rank. In March the estates met in Prague without the king, chose a council to run affairs and a commander, Kašpar Pflug of Rabštejn, and sent their levy out to the border. It was, the estates said, [[b]]to defend the freedoms of the kingdom.[[/b]] To the king, it was rebellion.\n\n[[b]]Twenty-one years earlier they had made Ferdinand sign that the crown was theirs to give. Now they wanted to see whether the king they had elected could be kept in check as well.[[/b]]\n\nThe king was in no hurry, and did not come back to argue with them. He stayed with the emperor's army in Saxony, fighting his war, and waited for the result.\n\nOn 24 April the result came. At Mühlberg on the Elbe, Emperor Charles V routed the Elector of Saxony in a single battle and took him prisoner. Ferdinand was there at his brother's side.\n\nThe Bohemian lords panicked. Men who yesterday had been meeting to talk about “the freedoms of the kingdom” were today running to the king one after another, falling over each other to declare their loyalty. The rising fell apart almost overnight.\n\nIn the end only the towns of Prague held out.\n\nOn 1 July the king's troops occupied Prague Castle and the Lesser Town without a fight, and the king followed them in. The townsmen, meanwhile, dug trenches in the streets, set up their guns and opened fire on the king's men, killing several. But they were few, and the shooting stopped the next day.\n\nOn 8 July a hundred leading men each from the Old and New Towns, and forty from the Lesser Town, stood before the king at the castle. They did not argue their case. They simply put themselves at the king's mercy, “to be shown mercy or no mercy”.\n\nPrague handed over its weapons and guns, and all the charters of privileges of the towns and the guilds, to be “reviewed” by the king.\n\nNext came the reckoning.",
+      cz: "V lednu 1547 vydal král na Pražském hradě mandát: Češi, chopte se zbraní a táhněte se mnou proti Sasku.\n\nV Německu už se válčilo. Císař Karel V. se chystal zatočit s luteránskými knížaty, tak jako se před sto lety Zikmund chystal zatočit s českými [[link:from-crusaders-to-heretics-1420]]kacíři[[/link]]. Severní soused Čech, saský kurfiřt Jan Fridrich, patřil k jejich vůdcům. Ferdinand chtěl bratrovi pomoci.\n\nTen mandát měl ale dvě vady.\n\nZaprvé nikdy neprošel sněmem. Podle starého českého pořádku nesměl král bez svolení sněmu táhnout s lidmi do války za hranice. Zadruhé soused, proti němuž se mělo táhnout, věřil skoro tak jako čeští páni. Z deseti českých šlechticů už devět nebylo katolíky: byli mezi nimi kališníci, bratři i noví stoupenci Lutherovi.\n\nPrvní se ozvala všecka obec Starého města. Ve společné odpovědi vypočítala šest příčin, proč se podle mandátu zachovat nemůže. Jedna z nich:\n\n[[quote:0]]\n\nPoslední příčina šla ještě dál:\n\n[[quote:1]]\n\nTýž měsíc porodila královna Anna své patnácté dítě, dceru, a za pár dní zemřela. Její letohrádek ještě nebyl dostavěn.\n\n5. února odjel král z Pražského hradu za bratrem do Saska. Sotva týden nato se ve městě rozezněl velký zvon. Byl to zvon, kterým se svolávala celá obec, a král ho zakázal; léta nezazněl. Měšťané se pak znovu a znovu scházeli k poradám v Karolinu.\n\n15. února podepsali páni a rytíři z deseti krajů a všechna tři pražská města společnou úmluvu a prohlásili, že královský mandát odporuje právům a svobodám království. V první řadě stáli šlechtici z Jednoty bratrské. V březnu se stavové sešli v Praze bez krále, zvolili rady, které měly vést věci, a hejtmana Kašpara Pfluga z Rabštejna a vypravili svou hotovost k hranicím. Bylo to prý [[b]]na obranu svobod království.[[/b]] Pro krále to byla vzpoura.\n\n[[b]]Před jednadvaceti lety nechali Ferdinanda podepsat, že korunu dostal jejich volbou. Teď chtěli vidět, jestli zvoleného krále dokážou také udržet na uzdě.[[/b]]\n\nKrál nespěchal a nevrátil se, aby se s nimi hádal. Zůstal u císařova vojska v Sasku, válčil svou válku a čekal na výsledek.\n\n24. dubna výsledek přišel. U Mühlberku na Labi rozdrtil císař Karel V. saského kurfiřta v jediné bitvě a zajal ho. Ferdinand stál po bratrově boku.\n\nČeští páni zpanikařili. Kdo ještě včera zasedal a mluvil o „svobodách království“, ten dnes jeden za druhým utíkal ke králi a předháněl se v projevech věrnosti. Povstání se rozpadlo skoro přes noc.\n\nNakonec vydržela jen pražská města.\n\n1. července obsadilo královské vojsko bez boje Pražský hrad a Malou Stranu a král přijel za ním. Měšťané zatím kopali v ulicích šance, vystavili děla a stříleli na královský lid, několik mužů zastřelili. Bylo jich ale málo a druhý den střelba ustala.\n\n8. července stálo před králem na hradě po sto předních mužích ze Starého a Nového Města a čtyřicet z Malé Strany. Nic neobhajovali. Prostě se králi vydali „na milost i ne na milost“.\n\nPraha odevzdala zbraně a děla i všechna privilegia měst a cechů, aby je král „přehlédl“.\n\nPak přišlo účtování.",
+      zh: "1547年1月，国王在布拉格城堡发下一道命令：波希米亚人，带上兵马，跟我去打萨克森。\n\n这时候的德意志，已经打起来了。皇帝查理五世要收拾那些信路德教的诸侯，就像一百多年前西吉斯蒙德要收拾波希米亚的[[link:from-crusaders-to-heretics-1420]]“异端”[[/link]]一样。波希米亚北边的邻居、萨克森选帝侯约翰·腓特烈，正是其中带头的一个。斐迪南要帮哥哥。\n\n可这道命令有两个毛病。\n\n第一，它没经过议会。照波希米亚的老规矩，国王不经议会同意，不能拉人出国打仗。第二，要打的这位邻居，跟波希米亚的老爷们信的差不多。这时候的波希米亚，十个贵族里有九个不是天主教徒：有圣杯派，有弟兄会，有新跟着路德走的。\n\n老城的全体市民先开了口。他们联名写了一份答复，列了六条理由，说什么也不能照办。其中一条是：\n\n[[quote:0]]\n\n最后一条，说得更重：\n\n[[quote:1]]\n\n也是在这个月，王后安娜生下了第十五个孩子，一个女儿，没过几天就去世了。她的夏宫还没修完。\n\n2月5日，国王离开布拉格城堡，去萨克森跟哥哥会合。他前脚刚走，才过了一个星期，城里就敲响了那口大钟。这口钟是召集全城市民开大会用的，国王早就禁了，已经好多年没响过。市民们一次又一次地聚到卡罗林学院里开会。\n\n2月15日，十个州的领主、骑士，和布拉格三座城一起签了盟约，宣布国王的命令违背了王国的法律和自由。信弟兄会的贵族们站在最前面。3月，各等级撇开国王，自己在布拉格开会，选出了一个管事的委员会，又推举卡什帕尔·普夫卢格当统帅，把民兵开到了边境。等级们说，[[b]]这是为了保卫王国的自由。[[/b]]在国王看来，这就是造反。\n\n[[b]]二十一年前，他们让斐迪南签字承认，王冠是他们选的。现在他们想看看，选出来的国王，能不能也被他们管住。[[/b]]\n\n国王不急，也不回来跟他们吵。他跟着皇帝的大军，在萨克森打他的仗，等着一个结果。\n\n4月24日，结果来了。在易北河边的米尔贝格，皇帝查理五世一战击溃了萨克森选帝侯，连人都活捉了。斐迪南就站在哥哥身边。\n\n波希米亚的老爷们一下子慌了。昨天还在开会谈“王国的自由”的人，今天一个接一个地往国王那里跑，抢着表忠心。起义几乎在一夜之间散了架。\n\n最后还硬撑着的，只剩下布拉格的几座城。\n\n7月1日，国王的军队没费一枪一弹，就占了布拉格城堡和小城，国王随后也进了城堡。城里人却在街上挖壕沟、架大炮，还朝国王的兵开了枪，打死了几个人。可城里人兵少，第二天，枪声就停了。\n\n7月8日，老城和新城各一百名头面人物、小城四十名，站到了城堡里的国王面前。他们没有辩解，只是把自己交给国王发落：“开恩也好，不开恩也罢”。\n\n布拉格交出了武器、大炮，还有城市和行会的全部特权文书，一并交给国王“审查”。\n\n接下来，是清算。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "karolinum",
+        relation: {
+          en: "In the spring of 1547 the townsmen of Prague met here again and again, against the king's will, to deliberate on the rising.",
+          cz: "Na jaře 1547 se tu pražští měšťané proti králově vůli znovu a znovu scházeli k poradám o povstání.",
+          zh: "1547年春天，布拉格的市民们不顾国王的禁令，一次又一次地聚到这里，商量起义的事。",
+        },
+      },
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "The Old Town commune, which in January 1547 refused the king's mandate in six points and asked for the great bell to call the whole commune together again.",
+          cz: "Obec Starého města, která v lednu 1547 odmítla královský mandát v šesti bodech a žádala, aby celou obec zase svolával velký zvon.",
+          zh: "1547年1月，老城全体市民在这里用六条理由回绝了国王的命令，还要求重新用大钟召集全城大会。",
+        },
+      },
+      {
+        slug: "charles-bridge",
+        relation: {
+          en: "In July 1547 the king's men and the townsmen of Prague clashed at the bridgehead.",
+          cz: "V červenci 1547 se u mostu střetli královi muži s pražskými měšťany.",
+          zh: "1547年7月，国王的人马和布拉格市民在桥头交过手。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Stavovsk%C3%BD_odboj_roku_1547",
+  },
+  // 2026-10-17. České sněmy II, 1547: no. 159 (list of the punished:
+  // nobles' life confinement in their own houses "damit sie ihren Weib und
+  // Kindern beiwohnen mögen", two-thirds of their goods to the king and the
+  // rest made a fief; the towns' privileges, lands, tolls and guns taken,
+  // "ein ewig Biergeld" of one white groschen per barrel of beer and per
+  // strich of malt; the four "an Leib gestraft": Pětipeský, Fikar, Barchanec,
+  // Václav Jílemnický, a New Town clothier); no. 164 (diet opened 23 August);
+  // no. 167 (both diets of April and May to be erased from the Land Tables,
+  // the estates to take their seals back from the league charters); no. 168
+  // (no side leagues "nyní i na budúcí věčné časy" on pain of losing one's
+  // neck; diets and regional assemblies only by the king's leave; the
+  // kingdom to pass "k dědicuom J. M. Kr. a nejinač"). Fikar from
+  // cs.wikipedia: Pašek's kinsman and successor as Old Town mayor, absent
+  // from Prague and urging surrender, seized in Klatovy, tortured
+  // 20 August, beheaded 22 August at Hradčany. Sixt of Ottersdorf: two
+  // months in the Black Tower, then his "Akta aneb knihy památné čili
+  // historie oněch dvou nepokojných let" (cs.wikipedia). The first draft's
+  // flogging, 600 Prague burghers and the Moravian lords' intercession for
+  // Sixt could not be verified and were left out. Archduke Ferdinand was
+  // born in 1529, so 18 in 1547.
+  {
+    slug: "the-bloody-diet-1547",
+    era: "habsburgs-move-in",
+    images: ["/history/the-bloody-diet-1547.webp", "/history/the-bloody-diet-1547-2.webp"],
+    imageCaptions: [
+      {
+        en: "Hradčany, 22 August 1547: the seventy-year-old Old Town mayor Jakub Fikar is led up onto the scaffold in front of the castle; the townspeople bow their heads, and a group of lords stands in the shadow of the castle gate. Around the square, houses burned in 1541 and a new palace under scaffolding.",
+        cz: "Hradčany, 22. srpna 1547: sedmdesátiletého staroměstského primátora Jakuba Fikara vedou na popraviště před hradem; měšťané sklánějí hlavy a v stínu hradní brány stojí hlouček pánů. Kolem náměstí domy vyhořelé roku 1541 a nový palác v lešení.",
+        zh: "1547年8月22日，城堡广场：七十岁的老城市长雅库布·菲卡尔被押上城堡前的断头台；市民们低着头，一群贵族站在城堡大门的阴影里。广场四周，是1541年烧毁的房子和一座搭着脚手架的新宫殿。",
+      },
+      {
+        en: "The diet of 23 August 1547: one by one the estates come up to sign, a crown on a cushion beside the document; King Ferdinand watches from his throne with his eighteen-year-old son, while a clerk scrapes the spring's diets out of the Land Tables beside a pile of seals cut from the league charters.",
+        cz: "Sněm 23. srpna 1547: stavové jeden po druhém přicházejí podepsat, vedle listiny leží na polštáři koruna; král Ferdinand přihlíží z trůnu se svým osmnáctiletým synem a písař vedle hromádky pečetí odřezaných z úmluv vyškrabuje z desk zemských jarní sněmy.",
+        zh: "1547年8月23日的议会：等级们一个接一个上前签字，文书旁边的垫子上放着一顶王冠；斐迪南国王和十八岁的儿子在王座上看着，一旁的书记官守着一堆从盟约上割下来的蜡封，正把春天那两次议会从土地册上刮掉。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "…that the estates erase from the Land Tables those diets which they held and concluded at Prague Castle without His Majesty's leave and presence…",
+          cz: "…tyto sněmy, kteréž jsou bez povolení a přítomnosti J. M. Kr. tíž stavové na hradě Pražském… drželi a zavřeli, aby z desk zemských vymazali…",
+          zh: "……各等级未经国王陛下准许、也不在陛下面前，在布拉格城堡自行召开、自行议决的那几次议会，要从土地册上抹掉……",
+        },
+        attribution: {
+          en: "The king's demand to the diet, entered in the Land Tables, 23 August 1547",
+          cz: "Králova žádost na sněmu, zapsaná do desk zemských, 23. srpna 1547",
+          zh: "国王向议会提出的要求，载入土地册，1547年8月23日",
+        },
+      },
+      {
+        text: {
+          en: "…that no side agreements or leagues shall be made by any person of any estate in this kingdom against His Majesty, his heirs and future kings of Bohemia, or against order and law, now and for all eternal times. And should anyone nevertheless do so…, he shall lose his neck.",
+          cz: "…aby žádných postranních zápisuov a puntování od žádných osob z stavu neb z stavuov v tomto královstvie proti J. M. Kr. dědicuom a budoucím králuom českým a proti řádu a právu se nedalo, nyní i na budúcí věčné časy. Pakliby se toho přes to kdož koli dopustil…, ten aby hrdlo ztratil.",
+          zh: "……本王国任何等级、任何人，不得私下立约结盟，反对国王陛下、陛下的继承人和未来的波希米亚国王，反对秩序和法律，现在如此，永世如此。倘若有人胆敢违犯……就要掉脑袋。",
+        },
+        attribution: {
+          en: "Resolution of the Bohemian diet, 23 August 1547",
+          cz: "Usnesení českého sněmu, 23. srpna 1547",
+          zh: "波希米亚议会决议，1547年8月23日",
+        },
+      },
+    ],
+    startYear: 1547.6,
+    year: {
+      en: "1547",
+      cz: "1547",
+      zh: "1547年",
+    },
+    tone: "serious",
+    title: {
+      en: "Two Quarrel, the King Laughs",
+      cz: "Kde se dva perou, král se směje",
+      zh: "鹬蚌相争，国王得利",
+    },
+    hookLine: {
+      en: "Twenty-one years earlier, Ferdinand had signed that the crown was elected. This summer it was the Bohemians' turn to sign.",
+      cz: "Před jednadvaceti lety podepsal Ferdinand, že koruna je volená. Letos v létě přišla řada podepisovat na Čechy.",
+      zh: "二十一年前，斐迪南签字承认：王冠是选出来的。这一年夏天，轮到波希米亚人签字了。",
+    },
+    summary: {
+      en: "Once he was in the city, the king was in no hurry to cut off heads. First he did the accounts.\n\nFrom late July the hearings at the castle went on day after day. About thirty noblemen were summoned. A few of the leaders had already fled, among them Albin Šlik, the man who had come back alive from the smoke of [[link:a-dynasty-drowned-in-a-stream-1526]]Mohács[[/link]]. Those who fled were declared to have forfeited their honour, their lives and their property, to be seized wherever they were found and handed over to the king.\n\nThe nobles who stayed and surrendered were confined to their own houses for life. The sentence was careful to call this the king's mercy: it allowed them to go on living with their wives and children. Two-thirds of their property went to the king, and the remaining third became a fief held from him.\n\nThe towns got off far less lightly. Prague and the other royal towns lost all their privileges, all their lands, all their tolls, all their guns and ammunition, and had to pay a heavy fine on top. A royal judge was installed in every town to watch over the council. And there was a “perpetual beer tax”: for every barrel of beer sold, one white groschen to the king, and for every measure of malt, another.\n\n[[b]]For fifteen years the townsmen had fought the lords over beer. In the end, the beer money went to the king.[[/b]]\n\nMore than six hundred people were arrested that summer. Sixt of Ottersdorf, the Old Town's chancellor, who had written for the estates during the rising, was locked up in the castle's Black Tower for two months. After his release he secretly wrote a history of those “two restless years”, answering the official version the king's side had printed.\n\nOn 22 August a scaffold went up on the square in front of the castle.\n\nFour men were brought up: two knights, a clothier from the New Town, and an old man of about seventy.\n\nThe old man was Jakub Fikar, and his name too ended in “of Vrat”. He was a kinsman of [[link:the-ten-year-rule-1528]]Pašek[[/link]], and after Pašek's fall he had succeeded him as mayor of the Old Town. In the worst days of the rising he had not even been in Prague: he had been riding from town to town, writing letters urging the people of Prague to surrender to the king. He was seized in Klatovy, brought back to Prague and tortured, and confessed nothing. His sentence still named his crimes: rebellion against the king, and abandoning his city in its hour of need.\n\n[[b]]The estates had finally plucked up the courage to take on the king, and the result was written that day on the square in front of the castle.[[/b]]\n\nThe next day, 23 August, the diet opened at the castle. Later generations called it the Bloody Diet.\n\nThe king's conditions were laid on the table one by one, and no one dared say no. The first: the estates were to take their seals back from the league charters they had lodged with the Land Tables, and the two diets they had held that spring without the king were to be struck out:\n\n[[quote:0]]\n\n[[b]]Six years earlier a fire had burned the Land Tables, and the estates had spent years writing them back entry by entry. This time they struck out the page themselves.[[/b]]\n\nThen came the next:\n\n[[quote:1]]\n\nFrom now on, whether a diet met at all was up to the king; without his leave no one was to call even a regional assembly, again on pain of death. The towns' voice in the diet, the “third vote”, would count for little from now on. And there was the crown: the estates wrote that the kingdom was to pass, as Charles IV's Golden Bull and the king's own charter laid down, “to His Majesty's heirs, and not otherwise”.\n\nTwenty-one years earlier, Ferdinand had signed that the crown was [[link:the-habsburgs-come-in-1526]]elected[[/link]]. Now it was the estates' turn to sign that it would pass to his sons.\n\nThe following year the Unity of the Brethren was driven out of the kingdom. Many of its members went to Poland and Prussia and never came back.\n\nFor half a century the townsmen and the lords had fought, from beer to votes, from the courts to the town halls. In the end both sides lost, and the king won.\n\nFerdinand did not stay long in Prague. He handed Bohemia over to his second son, a young man of eighteen who shared his name, and went back to Vienna.",
+      cz: "Když byl král ve městě, se stínáním nespěchal. Nejdřív dělal účty.\n\nOd konce července zasedal na hradě soud den za dnem. Obesláno bylo asi třicet šlechticů. Několik vůdců už uteklo, mezi nimi Albín Šlik, muž, který se vrátil živ z dýmu [[link:a-dynasty-drowned-in-a-stream-1526]]Moháče[[/link]]. Ti, kdo utekli, byli odsouzeni ke ztrátě cti, hrdla i statku, a kdekoli by byli dopadeni, měli být vydáni králi.\n\nŠlechtici, kteří zůstali a vzdali se, dostali doživotní vězení ve vlastních domech. Rozsudek pečlivě zdůrazňoval, že je to králova milost: aby mohli dál bydlet se ženami a dětmi. Dvě třetiny jejich statků připadly králi a zbylá třetina se stala lénem od krále.\n\nMěsta tak lacino nevyvázla. Praha i ostatní královská města přišla o všechna privilegia, všechny statky, všechna cla, všechna děla i střelivo a musela navíc zaplatit velkou pokutu. V každém městě usedl královský rychtář, aby dohlížel na radu. A k tomu přibylo „věčné posudné“: z každého sudu piva bílý groš králi a z každého strychu sladu další.\n\n[[b]]Patnáct let se měšťané s pány přeli o pivo. Nakonec peníze za pivo dostal král.[[/b]]\n\nToho léta bylo zatčeno přes šest set lidí. Sixt z Ottersdorfu, kancléř Starého Města, který za povstání psal za stavy, strávil dva měsíce v hradní Černé věži. Po propuštění potají sepsal historii „oněch dvou nepokojných let“ jako odpověď na oficiální verzi, kterou vytiskla královská strana.\n\n22. srpna vyrostlo na náměstí před hradem popraviště.\n\nPřivedli čtyři muže: dva rytíře, soukeníka z Nového Města a asi sedmdesátiletého starce.\n\nTím starcem byl Jakub Fikar a jeho jméno také končilo „z Vratu“. Byl příbuzným [[link:the-ten-year-rule-1528]]Paškovým[[/link]] a po Paškově pádu ho vystřídal jako staroměstský primátor. V nejhorších dnech povstání vůbec nebyl v Praze: jezdil od města k městu a psal Pražanům, ať se králi vzdají. Zatkli ho v Klatovech, přivezli do Prahy a mučili, nic nevyznal. Rozsudek mu přesto vyčetl jeho viny: vzpouru proti králi a to, že v čas nouze opustil své město.\n\n[[b]]Stavové konečně sebrali odvahu a postavili se králi, a jak to dopadlo, se toho dne dalo přečíst na náměstí před hradem.[[/b]]\n\nDruhý den, 23. srpna, se na hradě sešel sněm. Pozdější generace mu říkaly Krvavý sněm.\n\nKrálovy podmínky ležely na stole jedna za druhou a nikdo se neodvážil říct ne. První: stavové si měli vzít zpět své pečeti z úmluv uložených při deskách zemských a oba sněmy, které na jaře drželi bez krále, se měly vymazat:\n\n[[quote:0]]\n\n[[b]]Před šesti lety shořely zemské desky a stavové je celá léta zápis po zápisu obnovovali. Tentokrát tu stránku vymazali sami.[[/b]]\n\nPak přišla další:\n\n[[quote:1]]\n\nOd té doby záleželo na králi, jestli se sněm vůbec sejde; bez jeho svolení nesměl nikdo svolat ani krajský sjezd, opět pod ztrátou hrdla. Hlas měst na sněmu, „třetí hlas“, už od té doby moc neznamenal. A pak koruna: stavové zapsali, že se království má podle zlaté buly Karla IV. a králova vlastního reversu chovat „k dědicuom J. M. Kr. a nejinač“.\n\nPřed jednadvaceti lety podepsal Ferdinand, že koruna je [[link:the-habsburgs-come-in-1526]]volená[[/link]]. Teď museli stavové podepsat, že přejde na jeho syny.\n\nPříští rok byla z království vypovězena Jednota bratrská. Mnoho jejích členů odešlo do Polska a Pruska a už se nevrátilo.\n\nPůl století se měšťané s pány přeli, od piva po hlasy, od soudů po radnice. Nakonec prohráli oba a vyhrál král.\n\nFerdinand v Praze dlouho nezůstal. Čechy svěřil svému druhému synovi, osmnáctiletému mladíkovi stejného jména, a vrátil se do Vídně.",
+      zh: "国王进城以后，没有急着砍人。他先算账。\n\n从7月下旬起，城堡里天天开审。被传唤的贵族有三十来个。带头的几个早就跑了，其中就有阿尔宾·什利克，那个从[[link:a-dynasty-drowned-in-a-stream-1526]]莫哈奇[[/link]]的硝烟里活着回来的人。跑掉的人被判丧失名誉、性命和家产，不管在哪儿抓到，都要押送给国王。\n\n留下来投降的贵族，被关在自己家里，终身不许离开。判决书还特意写明，这是国王的恩典：好让他们能跟老婆孩子住在一起。他们的家产，三分之二归了国王；剩下的三分之一，从此也变成了国王的封地。\n\n城里人就没这么轻巧了。布拉格和各王室城市，被拿走了全部特权、全部田产、全部关卡税、全部大炮弹药，还要另交一大笔罚款。每座城里都派驻了国王的法官，盯着市议会。再加上一笔“永久啤酒税”：每卖一桶啤酒，交国王一个白格罗申；每卖一斗麦芽，再交一个。\n\n[[b]]城里人为了啤酒跟贵族斗了十五年，最后把啤酒的钱，交给了国王。[[/b]]\n\n这一年夏天，被抓的有六百多人。老城的书记官锡克斯特，起义时替等级们执笔，这下被关进了城堡的黑塔，一关就是两个月。放出来以后，他偷偷写了一部书，记下这“两个动荡之年”的来龙去脉，专门跟国王那边印发的官方版本唱反调。\n\n8月22日，城堡前面的广场上搭起了断头台。\n\n四个人被押了上来：两位骑士，一位新城的呢绒商，还有一位七十来岁的老人。\n\n老人叫雅库布·菲卡尔，名字后面也挂着那个“z Vratu”。他是[[link:the-ten-year-rule-1528]]帕谢克[[/link]]的亲戚，帕谢克倒台以后，接替他当了老城的市长。起义最乱的那几天，他根本不在布拉格，而是在各城之间奔走，写信劝布拉格人向国王投降。他在克拉托维被抓，押回布拉格，受了刑，什么也没招。可判决书上照样写着他的罪名：叛逆国王，危难之时弃城而去。\n\n[[b]]等级们终于鼓起勇气跟国王较了一回劲，这一天，结果就写在了城堡前面的广场上。[[/b]]\n\n第二天，8月23日，议会在城堡里开幕。后人管它叫“血腥议会”。\n\n国王的条件，一条一条摆在桌上，没人敢说一个不字。头一条：各等级存放在土地册那里的盟约，各自把自己的印章取回来；春天撇开国王开的那两次议会，要从土地册上抹掉：\n\n[[quote:0]]\n\n[[b]]六年前，一场大火烧掉了土地册，等级们花了好几年，一条一条补了回来。这一回，是他们自己动手，把这一页抹掉。[[/b]]\n\n接着是下一条：\n\n[[quote:1]]\n\n从此以后，开不开议会，由国王说了算；没有国王点头，谁也不许召集地方上的大会，违者同样掉脑袋。城市在议会里的那张“第三票”，从此说话就不怎么算数了。还有王冠：等级们写明，这个王国要照查理四世的金玺诏书和国王的承诺，“传给国王陛下的继承人，不得有别”。\n\n二十一年前，斐迪南签字承认，这顶王冠是[[link:the-habsburgs-come-in-1526]]选出来的[[/link]]。如今，轮到等级们签字承认：它要传给他的儿子们。\n\n第二年，弟兄会被逐出了王国。他们中的许多人远走波兰和普鲁士，再也没有回来。\n\n城里人和贵族斗了半个世纪，从啤酒斗到选票，从法庭斗到市政厅。最后，两边都输了，赢的是国王。\n\n斐迪南没有在布拉格久留。他把波希米亚交给了二儿子，一个跟他同名、才十八岁的年轻人，自己回维也纳去了。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "vyhlidka-hradcanske-namesti",
+        relation: {
+          en: "On 22 August 1547 a scaffold stood on this square in front of the castle, and four leaders of the rising were beheaded here.",
+          cz: "22. srpna 1547 stálo na tomto náměstí před hradem popraviště a byli tu sťati čtyři vůdci povstání.",
+          zh: "1547年8月22日，城堡前面的这片广场上搭起了断头台，四位起义的领头人在这里被斩首。",
+        },
+      },
+      {
+        slug: "cerna-vez-prazsky-hrad",
+        relation: {
+          en: "After the rising some of the six hundred arrested were held here, among them the Old Town chancellor Sixt of Ottersdorf, for two months.",
+          cz: "Po povstání tu byli drženi někteří z šesti set zatčených, mezi nimi dva měsíce i staroměstský kancléř Sixt z Ottersdorfu.",
+          zh: "起义失败后，被捕的六百多人里，有一些就关在这里，老城书记官锡克斯特在这里被关了两个月。",
+        },
+      },
+      {
+        slug: "vladislavsky-sal",
+        relation: {
+          en: "The diet that opened at the castle on 23 August 1547, later known as the Bloody Diet, met in the royal palace.",
+          cz: "Sněm zahájený na hradě 23. srpna 1547, později zvaný Krvavý sněm, zasedal v královském paláci.",
+          zh: "1547年8月23日在城堡开幕的那次议会，后来被称为“血腥议会”，就在王宫里召开。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Jakub_Fikar_z_Vratu",
+  },
+  // 2026-10-17. Hvězda from cs/en.wikipedia (Letohrádek Hvězda): foundation
+  // stone 27 June 1555, laid by the archduke himself; plan probably his own;
+  // built by Aostalli and Lucchese, continued by Hans Tirol and Wohlmut;
+  // 334 stucco fields with the Aeneas story at the centre; four levels. The
+  // archduke was born in 1529 (18 in 1547, 26 in 1555). Wohlmut's organ loft
+  // in St Vitus (1557–1561), the Belvedere's upper floor and the rebuilt Diet
+  // hall are standard attributions. No contemporary quotation was found (no
+  // foundation inscription text, no verifiable visitor account), so the card
+  // has none.
+  {
+    slug: "a-star-1555",
+    era: "habsburgs-move-in",
+    images: ["/history/a-star-1555.webp"],
+    imageCaptions: [
+      {
+        en: "The star-shaped summer palace in the Hvězda game park, west of Prague Castle, which Archduke Ferdinand founded in 1555; deer graze in the clearing, a hunting party rides past, and the castle rises on the horizon beyond White Mountain.",
+        cz: "Letohrádek ve tvaru hvězdy v oboře Hvězda západně od Pražského hradu, jehož základní kámen položil arcivévoda Ferdinand roku 1555; na mýtině se pasou jeleni, kolem projíždí lovecká družina a na obzoru za Bílou horou se zvedá hrad.",
+        zh: "布拉格城堡西边星形猎苑里的六角星形猎宫，1555年由斐迪南大公奠基；林间空地上鹿群在吃草，一队猎人骑马经过，白山后面的地平线上，能望见布拉格城堡。",
+      },
+    ],
+    startYear: 1555,
+    year: {
+      en: "1555",
+      cz: "1555",
+      zh: "1555年",
+    },
+    tone: "humorous",
+    title: {
+      en: "An Italian Wind Blows into Prague",
+      cz: "Italský vítr zavál do Prahy",
+      zh: "刮到布拉格的一阵意大利风",
+    },
+    hookLine: {
+      en: "After the Bloody Diet, the kingdom went quiet. The young new governor did not care for war or for diets. He cared for building.",
+      cz: "Po Krvavém sněmu se království utišilo. Nový mladý místodržitel neměl rád války ani sněmy. Měl rád stavění.",
+      zh: "血腥议会散了，王国安静了下来。新来的年轻总督不爱打仗，也不爱开会，他爱盖房子。",
+    },
+    summary: {
+      en: "Ferdinand went back to Vienna. The man he left at Prague Castle was his second son, Archduke Ferdinand, later called “of Tyrol”, who had arrived at eighteen.\n\nThe young man was nothing like his father. The father was busy with accounts and with fighting the Turks; the son loved tournaments, carnivals, Italian paintings and antiquities, and threw one banquet after another at the castle. After the summer of 1547, the Bohemian lords were probably glad enough to have a governor who only wanted to enjoy life.\n\n[[b]]The father had come to Prague to settle accounts. The son came to Prague to spend.[[/b]]\n\nWest of the castle, at the foot of White Mountain, lay a game park the king had walled in years before. On 27 June 1555 the archduke, now twenty-six, laid a foundation stone there with his own hands.\n\nThe hunting lodge he meant to build was, so it is said, his own design: a six-pointed star. Seen from the sky, the whole building is a star, its six points reaching out in six directions. It has four levels, and on the ground floor the ceilings were covered with 334 fields of delicate Italian stucco, with the story of Aeneas in the middle. Both the lodge and the park have been called “the Star”, Hvězda, ever since.\n\nThe castle, too, rang with hammers. In St Vitus Cathedral, damaged by the fire, the architect Bonifác Wohlmut built a new organ loft; he rebuilt the burned Diet hall, and on the summer palace in the Royal Garden, which the queen had not lived to see finished, he added a whole upper floor.\n\nPrague's [[link:what-was-the-renaissance-1555]]Renaissance[[/link]] was going up one building at a time.\n\n[[b]]The archduke can hardly have guessed that some sixty-five years later, right outside the windows of his star, Bohemia would fight the battle that decided its fate.[[/b]]",
+      cz: "Ferdinand se vrátil do Vídně. Na Pražském hradě po sobě nechal druhého syna, arcivévodu Ferdinanda, později zvaného Tyrolský, který sem přišel jako osmnáctiletý.\n\nMladík se otci vůbec nepodobal. Otec měl plnou hlavu účtů a válek s Turky; syn miloval turnaje, masopusty, italské obrazy a starožitnosti a na hradě pořádal jednu hostinu za druhou. Po létě roku 1547 byli čeští páni nejspíš docela rádi, že mají místodržitele, který chce jen dobře žít.\n\n[[b]]Otec přišel do Prahy účtovat. Syn přišel do Prahy utrácet.[[/b]]\n\nZápadně od hradu, pod Bílou horou, ležela obora, kterou král kdysi obehnal zdí. 27. června 1555 tu šestadvacetiletý arcivévoda vlastní rukou položil základní kámen.\n\nLetohrádek, který chtěl postavit, si prý navrhl sám: šesticípou hvězdu. Při pohledu z nebe je celá stavba hvězdou, jejíž cípy míří šesti směry. Má čtyři podlaží a stropy v přízemí pokrylo 334 polí jemné italské štukatury, uprostřed s příběhem Aenea. Letohrádku i oboře se od té doby říká Hvězda.\n\nI na hradě znělo kladivo. V katedrále svatého Víta, poškozené požárem, postavil architekt Bonifác Wohlmut novou varhanní kruchtu; obnovil vyhořelou sněmovnu a letohrádku v Královské zahradě, jehož dokončení se královna nedožila, přistavěl celé horní patro.\n\nPražská [[link:what-was-the-renaissance-1555]]renesance[[/link]] tak rostla stavbu po stavbě.\n\n[[b]]Arcivévoda sotva tušil, že asi o pětašedesát let později, přímo za okny jeho hvězdy, svede Čechy bitvu, která rozhodne o jejich osudu.[[/b]]",
+      zh: "斐迪南回了维也纳。留在布拉格城堡里的，是他的二儿子斐迪南大公，后人管他叫“蒂罗尔的斐迪南”。他来布拉格的时候，才十八岁。\n\n这位年轻人跟他父亲很不一样。父亲忙着对账、打土耳其人；儿子喜欢比武、狂欢节、意大利的油画和古董，在城堡里办了一场又一场宴会。经过1547年那个夏天，布拉格的老爷们大概也乐得有这么一位只想过好日子的总督。\n\n[[b]]父亲来布拉格是来算账的，儿子来布拉格，是来花钱的。[[/b]]\n\n城堡西边，白山脚下，有一片国王早年圈起来的猎苑。1555年6月27日，已经二十六岁的大公，亲手在这里放下了一块奠基石。\n\n他要盖的这座猎宫，据说是他自己画的图：一颗六角星。从天上往下看，整座楼就是一颗星星，六个尖角朝着六个方向伸出去。楼里一共四层，底层的天花板上，布满了334格精细的意大利灰泥浮雕，正中间讲的是埃涅阿斯的故事。猎苑和猎宫，从此都叫“星星”。\n\n城堡里也在叮叮当当地施工。大火烧坏的圣维特大教堂里，建筑师沃尔穆特修起了新的管风琴楼厢；烧毁的议会厅，也是他重修的；御花园里那座王后没能等到完工的夏宫，他又往上加了整整一层。\n\n布拉格的[[link:what-was-the-renaissance-1555]]文艺复兴[[/link]]，就这样一座房子接一座房子地盖了起来。\n\n[[b]]大公大概没想到，六十多年后，就在这颗星星的窗外，波希米亚会打一场决定它命运的大仗。[[/b]]",
+    },
+    relatedLandmarks: [
+      {
+        slug: "hvezda-game-reserve",
+        relation: {
+          en: "The game park Ferdinand I founded in 1534; on 27 June 1555 his son laid the foundation stone of the star-shaped summer palace here.",
+          cz: "Obora, kterou roku 1534 založil Ferdinand I.; 27. června 1555 tu jeho syn položil základní kámen letohrádku ve tvaru hvězdy.",
+          zh: "斐迪南一世1534年圈起的猎苑；1555年6月27日，他的儿子在这里为星形猎宫放下了奠基石。",
+        },
+      },
+      {
+        slug: "queen-annes-summer-palace-1782584407663",
+        relation: {
+          en: "Begun in 1538 and still unfinished when Anne died; in the 1550s Bonifác Wohlmut gave it its upper floor and ship's-hull roof.",
+          cz: "Stavěl se od roku 1538 a při Annině smrti nebyl dokončen; v 50. letech mu Bonifác Wohlmut přistavěl horní patro se střechou jako trup lodi.",
+          zh: "1538年动工，安娜去世时还没完工；1550年代，沃尔穆特给它加了上层，盖上了那座像倒扣船身的屋顶。",
+        },
+      },
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "After the fire of 1541, Bonifác Wohlmut built a new Renaissance organ loft inside the cathedral.",
+          cz: "Po požáru roku 1541 postavil Bonifác Wohlmut v katedrále novou renesanční varhanní kruchtu.",
+          zh: "1541年大火之后，沃尔穆特在大教堂里修起了一座新的文艺复兴式管风琴楼厢。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Letohr%C3%A1dek_Hv%C4%9Bzda",
+  },
+  // 2026-10-17. Background card after a-star-1555. Petrarch callback to
+  // the-forged-archduke-1358 (he laughed at Rudolf IV's forged charters);
+  // Ried's Renaissance windows in the Vladislav Hall (1490s) are usually
+  // counted among the earliest north of the Alps; Vlašská ulice in the
+  // Lesser Town is named after the Italian builders who settled there.
+  {
+    slug: "what-was-the-renaissance-1555",
+    era: "habsburgs-move-in",
+    cardType: "background",
+    images: [],
+    imageCaptions: [],
+    startYear: 1555.5,
+    year: {
+      en: "1300s–1500s",
+      cz: "14.–16. století",
+      zh: "14–16世纪",
+    },
+    tone: "humorous",
+    title: {
+      en: "What Was the Renaissance?",
+      cz: "Co byla renesance?",
+      zh: "什么是文艺复兴",
+    },
+    hookLine: {
+      en: "The word means “rebirth”. What was being reborn had been dead for about a thousand years.",
+      cz: "To slovo znamená „znovuzrození“. A to, co se znovu rodilo, bylo mrtvé zhruba tisíc let.",
+      zh: "这个词的意思是“再生”。而再生的那样东西，已经死了一千来年。",
+    },
+    summary: {
+      en: "“Renaissance” means rebirth. What was reborn was the learning and art of ancient Greece and Rome, more than a thousand years old.\n\nThe story begins in 14th-century Italy. Scholars there dug out the old books and decided that the ancients had written, built and painted better than anyone since. One of the first was [[link:the-forged-archduke-1358]]Petrarch[[/link]], the man Charles IV once asked to look over some forged charters, and who laughed at them.\n\nThese people came to be called humanists. Rather than heaven, they cared about people: how people speak, think and live. Painters began to work with perspective, and the figures they painted gained bones and muscles. Architects dropped Gothic pointed arches and spires for round arches, columns, symmetry and proportion, and their buildings came out square and balanced, like Roman temples. In the mid-15th century printing made all these new ideas travel fast.\n\n[[b]]A Gothic cathedral asks you to look up at the sky. A Renaissance building invites you to stand on the ground and take a good look at people.[[/b]]\n\nThe new wind took its time crossing the Alps. Bohemia, busy with the Hussite wars and a century of quarrelling with Rome, was later still. The first Renaissance windows appeared in the walls of the [[link:too-happy-to-come-home-1496]]Vladislav Hall[[/link]] at the end of the 15th century, early for anywhere north of the Alps. A building that was Italian from top to bottom had to wait until 1538, when Ferdinand began the summer palace in the Royal Garden.\n\nIn the decades that followed, Italian stonemasons, plasterers and painters came to Prague one group after another, and many of them stayed. A street in the Lesser Town is still called Vlašská, the Italian Street.",
+      cz: "„Renesance“ znamená znovuzrození. Znovu se rodila učenost a umění starověkého Řecka a Říma, staré víc než tisíc let.\n\nPříběh začíná v Itálii 14. století. Tamní učenci vyhrabali staré knihy a usoudili, že staří psali, stavěli i malovali lépe než kdokoli po nich. Jedním z prvních byl [[link:the-forged-archduke-1358]]Petrarca[[/link]], ten, koho Karel IV. kdysi požádal, aby se podíval na pár padělaných listin, a který se jim vysmál.\n\nTěmto lidem se začalo říkat humanisté. Víc než nebe je zajímal člověk: jak mluví, jak myslí, jak žije. Malíři začali pracovat s perspektivou a postavy na jejich obrazech dostaly kosti a svaly. Architekti odložili gotické lomené oblouky a věže a sáhli po půlkruhových obloucích, sloupech, souměrnosti a proporcích; jejich stavby vycházely pravidelné a vyvážené jako římské chrámy. V polovině 15. století pak knihtisk rozvál nové myšlenky rychle po světě.\n\n[[b]]Gotická katedrála vás vybízí dívat se vzhůru k nebi. Renesanční stavba vás zve postavit se na zem a pořádně se podívat na člověka.[[/b]]\n\nNový vítr se přes Alpy nijak nehnal. Čechy, zaměstnané husitskými válkami a stoletou hádkou s Římem, byly na řadě ještě později. První renesanční okna se objevila ve zdech [[link:too-happy-to-come-home-1496]]Vladislavského sálu[[/link]] na konci 15. století, na sever od Alp hodně brzy. Na stavbu italskou od základů po střechu se muselo čekat do roku 1538, kdy Ferdinand začal stavět letohrádek v Královské zahradě.\n\nV dalších desetiletích přicházeli do Prahy italští kameníci, štukatéři a malíři jedna skupina za druhou a mnozí z nich tu zůstali. Jedné ulici na Malé Straně se dodnes říká Vlašská.",
+      zh: "“文艺复兴”这个词，意思是“再生”。再生的，是一千多年前古希腊、古罗马的学问和艺术。\n\n故事要从14世纪的意大利讲起。那里的学者翻出古书，觉得古人写文章、盖房子、画画，样样都比后来的人高明。最早带头的人之一，就是当年查理四世请来鉴定伪造文书、结果笑得停不下来的那位[[link:the-forged-archduke-1358]]彼特拉克[[/link]]。\n\n这些人后来被叫作“人文主义者”。比起天上的事，他们更关心人：人怎么说话，怎么思考，怎么活。画家开始讲究透视，画出来的人有了骨骼和肌肉；建筑师丢掉了哥特式的尖拱和尖塔，改用圆拱、柱子、对称和比例，盖出来的房子方方正正，像古罗马的神庙。到了15世纪中叶，印刷术又让这些新想法跑得飞快。\n\n[[b]]哥特式的大教堂让你抬头望天，文艺复兴的房子请你站在地上，好好看看人。[[/b]]\n\n这股风翻过阿尔卑斯山，花了不少时间。波希米亚又正赶上胡斯战争，跟罗马吵了一百年，新风来得就更晚了。最早的几扇文艺复兴式窗户，出现在[[link:too-happy-to-come-home-1496]]弗拉迪斯拉夫大厅[[/link]]的墙上，那是15世纪末，在阿尔卑斯山以北已经算很早了。从头到脚都是意大利式的房子，要等到1538年，斐迪南在御花园里开工的那座夏宫。\n\n此后几十年，意大利的石匠、灰泥匠、画家一批接一批来到布拉格，不少人干脆就住了下来。小城有一条街，至今还叫“意大利街”。",
+    },
+    relatedLandmarks: [],
+  },
+  // 2026-10-17. Klementinum per cs.wikipedia: twelve Jesuits arrived from
+  // Rome on 21 April 1556, invited by the Catholic party in Bohemia (Brus of
+  // Mohelnice and others, 1554) and by Ferdinand I (still King of the
+  // Romans; emperor only from 1558); the derelict Dominican house of
+  // St Clement was given to them; college founded 20 June, teaching from
+  // 7 July 1556; by 1620 they had bought 32 houses, 7 courtyards and
+  // 2 gardens; second-largest complex in Prague after the castle. Stones
+  // thrown into the church while Canisius said Mass in Prague: Catholic
+  // Encyclopedia (1911), hence "so it is said". Jesuit schools charged no
+  // fees. The first draft's "Czech teaching three years later" could not be
+  // verified and was left out. No primary-source quotation was found.
+  {
+    slug: "twelve-new-faces-1556",
+    era: "habsburgs-move-in",
+    images: ["/history/twelve-new-faces-1556.webp"],
+    imageCaptions: [
+      {
+        en: "The new Jesuit college in the old Dominican monastery of St Clement by the stone bridge, 1556: under a papal banner, boys recite from identical little books while a Utraquist father, chalice pendant on his chest, brings his son to the free school.",
+        cz: "Nová jezuitská kolej ve starém dominikánském klášteře u svatého Klimenta u kamenného mostu, 1556: pod papežským praporem odříkávají chlapci z úplně stejných knížek a kališnický otec s kalichem na prsou přivádí syna do školy, která nic nestojí.",
+        zh: "1556年，石桥边旧圣克莱门特多明我会修道院里新开的耶稣会学院：教皇旗下，孩子们捧着一模一样的小书齐声背诵；一位胸前挂着圣杯吊坠的圣杯派父亲，把儿子送进这所不收学费的学校。",
+      },
+    ],
+    startYear: 1556.3,
+    year: {
+      en: "1556",
+      cz: "1556",
+      zh: "1556年",
+    },
+    tone: "humorous",
+    title: {
+      en: "It Starts in the Classroom",
+      cz: "Začíná se ve třídě",
+      zh: "从课堂开始",
+    },
+    hookLine: {
+      en: "That spring, twelve foreigners in black robes arrived in Prague. Hardly anyone paid them much attention at the time.",
+      cz: "Toho jara přišlo do Prahy dvanáct cizinců v černých hábitech. Tehdy jim skoro nikdo nevěnoval pozornost.",
+      zh: "这一年春天，布拉格来了十二个穿黑袍的外国人。当时没有多少人在意他们。",
+    },
+    summary: {
+      en: "The wind from Italy brought more than arcades and stucco ceilings. New palaces were going up one after another, but the people living in them, the books the city read and the sermons from its pulpits were all just as before. What Ferdinand wanted was a renovation from the inside out: new buildings, new schools, and if possible new hearts and minds as well.\n\nIn the south, the Catholic Church was busy putting its own house in order; the Council of Trent had already been sitting on and off for years, and the aim was to win back the souls Luther had taken. Ferdinand decided to start in Prague.\n\nOn 21 April 1556 twelve men walked into Prague. They were Jesuits, members of a Catholic order founded barely sixteen years earlier, and they had been invited by King Ferdinand and by Bohemia's Catholics.\n\nIn this city the Catholics had long been a minority. Utraquists, Lutherans, and the Brethren, [[link:the-bloody-diet-1547]]driven out[[/link]] and quietly drifting back, none of them took the twelve newcomers very seriously.\n\nNot that they had arrived entirely unnoticed. The year before, the Jesuit Peter Canisius had come ahead to look the city over, and, so it is said, while he was saying Mass someone threw stones into the church.\n\nThe Jesuits were in no hurry to quarrel with anyone. The king gave them a derelict old Dominican monastery, St Clement's, by the stone bridge in the Old Town. In June their college was formally founded, and on 7 July the first pupils sat down to lessons. The teaching was good and it cost nothing, and plenty of Protestant families were happy to send their children there too.\n\n[[b]]For more than a century, Prague had fought over faith with pulpits, diets and windows. The Jesuits tried another way: first, teach your children to read.[[/b]]\n\nOf course, the Jesuits had not opened a school because the Catholic Church had suddenly turned charitable. The lessons were free so that as many children as possible would come through the door, and once inside they learned Latin and rhetoric, and Catholic doctrine along with them. [[b]]What the Jesuits really wanted was to win all of Bohemia back for Rome, one child at a time.[[/b]]\n\nThe old monastery kept growing, bit by bit. By 1620 the Jesuits had bought up thirty-two houses around it, seven courtyards and two gardens. A century after that it had become the largest group of buildings in Prague after the castle itself: the Clementinum.",
+      cz: "Vítr z Itálie nepřinesl jen arkády a štukové stropy. Nové paláce rostly jeden za druhým, jenže lidé, kteří v nich bydleli, knihy, které město četlo, i kázání z jeho kazatelen zůstávaly při starém. Ferdinand chtěl obnovu zevnitř i zvenku: nové stavby, nové školy, a kdyby to šlo, i nové smýšlení.\n\nNa jihu katolická církev právě dávala do pořádku svůj vlastní dům; tridentský koncil zasedal s přestávkami už léta a cílem bylo získat zpět duše, které vzal Luther. Ferdinand se rozhodl začít v Praze.\n\n21. dubna 1556 vešlo do Prahy dvanáct mužů. Byli to jezuité, členové katolického řádu založeného sotva před šestnácti lety, a pozvali je král Ferdinand a čeští katolíci.\n\nKatolíci byli v tomto městě už dávno v menšině. Kališníci, luteráni i bratři, kteří byli [[link:the-bloody-diet-1547]]vypovězeni[[/link]] a potichu se vraceli, nikdo z nich ty dvanáct příchozích nebral moc vážně.\n\nNe že by přišli úplně bez povšimnutí. Rok předtím se sem přijel podívat jezuita Petr Canisius, a když sloužil mši, prý mu někdo házel do kostela kamení.\n\nJezuité se s nikým hádat nespěchali. Král jim daroval zchátralý starý dominikánský klášter u svatého Klimenta, na Starém Městě u kamenného mostu. V červnu byla kolej slavnostně založena a 7. července usedli k vyučování první žáci. Učilo se tu dobře a zadarmo, a tak sem leckteré protestantské rodiny rády posílaly své děti.\n\n[[b]]Víc než sto let se Praha o víru přela kazatelnami, sněmy a okny. Jezuité to zkusili jinak: nejdřív naučit vaše děti číst.[[/b]]\n\nJezuité ovšem neotevřeli školu proto, že by katolická církev náhle zjihla. Učilo se zadarmo, aby dveřmi prošlo co nejvíc dětí, a uvnitř se děti učily latinu a rétoriku a s nimi i katolickou víru. [[b]]Ve skutečnosti chtěli jezuité získat pro Řím zpátky celé Čechy, jedno dítě po druhém.[[/b]]\n\nStarý klášter se kousek po kousku rozrůstal. Do roku 1620 skoupili jezuité kolem něj dvaatřicet domů, sedm dvorů a dvě zahrady. O sto let později z něj byl po hradě největší stavební komplex v Praze: Klementinum.",
+      zh: "从意大利刮来的风，吹来的不只是拱廊和灰泥浮雕。新式的宫殿一座座盖起来了，可住在宫殿里的人、城里念的书、讲道台上讲的话，都还是老样子。斐迪南想要的，是一场从里到外的翻新：房子要换，学校要换，最好连人心也一起换一换。\n\n在南边，天主教会正忙着整顿自家门户，特伦托会议已经断断续续开了好几年，为的是把被路德抢走的人心争回来。斐迪南决定，就从布拉格开始。\n\n1556年4月21日，十二个人走进了布拉格。他们是耶稣会士，属于一个成立才十几年的天主教修会；请他们来的，是国王斐迪南和波希米亚的天主教人士。\n\n在这座城里，天主教徒早就是少数了。圣杯派、路德派，还有[[link:the-bloody-diet-1547]]刚被赶走[[/link]]、又悄悄回来的弟兄会，谁也没把这十二个人放在眼里。\n\n倒也不是完全没人搭理他们。前一年，耶稣会的卡尼修斯先来布拉格探路，据说他在教堂里做弥撒的时候，有人往里面扔石头。\n\n耶稣会士也不急着跟谁吵架。国王把老城石桥边上一座破败的多明我会旧修道院，也就是圣克莱门特修道院，送给了他们。6月，学院正式成立；7月7日，第一批学生开始上课。这里教得好，还不收学费，连不少新教家庭都愿意把孩子送过来念书。\n\n[[b]]一百多年来，布拉格人吵信仰，靠的是讲道台、议会和窗户。耶稣会士换了个办法：先教你的孩子读书。[[/b]]\n\n当然，耶稣会士办学，可不是天主教会忽然发了善心。不收学费，是为了让更多的孩子走进这扇门；走进来以后，孩子们学的是拉丁文和修辞，捎带着，也学天主教的教义。[[b]]他们真正想要的，是让整个波希米亚重新回到罗马的怀抱，一个孩子接一个孩子地来。[[/b]]\n\n那座旧修道院，后来一点一点往外扩：到1620年，耶稣会士已经买下了周围三十二栋房子、七个院子和两座花园。又过了一百年，它成了布拉格城里仅次于城堡的第二大建筑群：克莱门特学院。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "national-library-czech-republic",
+        relation: {
+          en: "The derelict Dominican monastery of St Clement that the king gave the Jesuits in 1556; over the next two centuries it grew into the Clementinum.",
+          cz: "Zchátralý dominikánský klášter u svatého Klimenta, který král roku 1556 daroval jezuitům; během dalších dvou století z něj vyrostlo Klementinum.",
+          zh: "1556年国王送给耶稣会士的那座破败的圣克莱门特多明我会修道院；此后两百年里，它慢慢长成了克莱门特学院。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Klementinum",
+  },
+  // 2026-10-17. de.wikipedia (Philippine Welser): Augsburg patrician
+  // family; first documented meeting at a masked ball in Pilsen, February
+  // 1555; Ferdinand's own document of 1576 dates the wedding to January
+  // 1557, at Březnice; by 1559 Ferdinand I knew and agreed (secrecy, no
+  // succession, property and arms for the children); the children were
+  // officially taken in at the castle as foundlings; twins died in infancy;
+  // Andreas born 1558 at Březnice, Karl 1560 at Křivoklát; recognition in
+  // 1576 because Andreas needed proof of legitimate birth for the
+  // cardinalate; she died at Ambras on 24 April 1580; cookbook and medicine
+  // book attributed to her. Karl of Burgau sold Ambras and its collections
+  // to his cousin Rudolf II in 1606. Rudolf was born on 18 July 1552, so four
+  // in January 1557. "Furious, ordered a divorce" is not in the sources,
+  // hence "so it is said". No quotation found.
+  {
+    slug: "the-foundling-at-the-gate-1557",
+    era: "habsburgs-move-in",
+    images: ["/history/the-foundling-at-the-gate-1557.webp"],
+    imageCaptions: [
+      {
+        en: "A frosty dawn at the castle gate: a servant theatrically “discovers” a baby in a lace-trimmed basket, while Philippine Welser and Archduke Ferdinand look on from the gateway and the midwife tiptoes away, finger to her lips.",
+        cz: "Mrazivé svítání u brány zámku: sluha divadelně „objevuje“ miminko v košíku s krajkou, Filipína Welserová s arcivévodou Ferdinandem přihlížejí z brány a porodní bába se s prstem na rtech po špičkách vytrácí.",
+        zh: "结霜的清晨，城堡门口：仆人夸张地“发现”了蕾丝边篮子里的婴儿，菲莉皮内和斐迪南大公站在门洞里看着，接生婆竖着手指，踮着脚溜走了。",
+      },
+    ],
+    startYear: 1557,
+    year: {
+      en: "1557",
+      cz: "1557",
+      zh: "1557年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Blood Before Grandsons",
+      cz: "Krev má přednost před vnuky",
+      zh: "血统比孙子要紧",
+    },
+    hookLine: {
+      en: "The king's son fell in love with a merchant's daughter. He married her, but could not tell a soul, and even their children had to be “found” on the doorstep.",
+      cz: "Králův syn se zamiloval do kupecké dcery. Oženil se s ní, ale nesměl to nikomu říct, a i jejich děti se musely „najít“ přede dveřmi.",
+      zh: "国王的儿子爱上了一个商人的女儿。他娶了她，却不能告诉任何人，连他们的孩子，都只能“捡”回家。",
+    },
+    summary: {
+      en: "Philippine Welser came from the Welsers of Augsburg, one of the richest merchant families in all Europe. She was beautiful, clever and well read, perfect in every way except one: she was not of noble birth.\n\nBy the rules of the court, a king's son could only marry a princess.\n\n[[link:a-star-1555]]Archduke Ferdinand[[/link]] did not care for the rules. The two had first met at a masked ball in Pilsen in 1555. In January 1557, at Březnice Castle south of Prague, they were secretly married, with, so it is said, only a priest and a few of their most trusted people present.\n\n[[b]]At the foot of White Mountain he had built himself a star. One winter he quietly married another.[[/b]]\n\nThey were married, but no one could be told. When his father found out, he was, so it is said, furious, but in the end he gave way. By 1559 father and son had come to an agreement: the marriage must stay secret; there could be children, and they could have property and the Habsburg arms, but none of them would ever inherit the throne.\n\nThe trouble began when the children were born. Philippine could not admit to having had any. So each baby, as the story goes, was quietly carried out and left at the castle gate, and the next morning a servant “happened” to find a foundling, whom the kind-hearted lady of the house took in. That is how the elder son, Andreas, was “found” at Březnice in 1558, and the younger, Karl, at Křivoklát Castle in 1560. A pair of twins did not survive.\n\n[[b]]In the House of Habsburg the crown recognised only blood. To keep that rule intact, the emperor's own grandsons had to be “foundlings”.[[/b]]\n\nLater the archduke took over Tyrol, and the family moved to Ambras Castle near Innsbruck. He filled a cabinet of curiosities there with everything he had collected in his life: armour, paintings, treasures and all kinds of oddities. Philippine grew herbs at the castle, made up medicines, and left her name on a handwritten cookbook.\n\nIn 1576 the elder son Andreas was to become a cardinal and had to prove he was born in wedlock. Only then did the pope release the archduke from his oath of secrecy, and the marriage was finally recognised, nineteen years after the wedding. Four years later Philippine died.\n\nWhen the archduke died, Ambras and its rooms full of treasures passed to Karl, the boy once “found” at the castle gate. In 1606 Karl sold the lot to his cousin, a man who loved collecting even more than his father had.\n\nIn that winter of 1557, this cousin was still a four-year-old boy at the court in Vienna.",
+      cz: "Filipína Welserová pocházela z augsburských Welserů, jednoho z nejbohatších kupeckých rodů celé Evropy. Byla krásná, chytrá a vzdělaná, dokonalá ve všem až na jedno: nebyla šlechtického rodu.\n\nPodle dvorských pravidel si královský syn směl vzít jen princeznu.\n\n[[link:a-star-1555]]Arcivévoda Ferdinand[[/link]] na pravidla nedbal. Poprvé se ti dva setkali na maškarním plese v Plzni roku 1555. V lednu 1557 se na zámku Březnice jižně od Prahy tajně vzali a byli při tom prý jen kněz a pár nejdůvěrnějších lidí.\n\n[[b]]Pod Bílou horou si postavil jednu hvězdu. Jedné zimy si potají vzal druhou.[[/b]]\n\nSvatba byla, ale nikdo se to nesměl dozvědět. Když na to otec přišel, prý zuřil, ale nakonec povolil. Do roku 1559 se otec se synem dohodli: manželství zůstane tajné; děti být smějí a dostanou statky i habsburský erb, ale trůn nezdědí žádné z nich.\n\nPotíže začaly, když se děti narodily. Filipína se nesměla přiznat, že nějaké porodila. A tak podle vyprávění každé dítě potají odnesli a nechali u brány zámku a ráno ho sluha „náhodou“ našel jako nalezence, kterého si dobrosrdečná paní ujala. Tak byl roku 1558 v Březnici „nalezen“ starší syn Ondřej a roku 1560 na hradě Křivoklát mladší Karel. Dvojčata nepřežila.\n\n[[b]]V habsburském rodě uznávala koruna jen krev. Aby to pravidlo zůstalo nedotčené, museli být vlastní císařovi vnuci „nalezenci“.[[/b]]\n\nPozději převzal arcivévoda Tyrolsko a rodina se přestěhovala na zámek Ambras u Innsbrucku. Do tamní kunstkomory dal všechno, co za život nasbíral: zbroj, obrazy, poklady a nejrůznější kuriozity. Filipína na zámku pěstovala byliny, připravovala léky a její jméno nese rukopisná kuchařka.\n\nRoku 1576 se měl starší syn Ondřej stát kardinálem a musel doložit, že se narodil z platného manželství. Teprve tehdy zprostil papež arcivévodu přísahy mlčení a manželství bylo konečně uznáno, devatenáct let po svatbě. O čtyři roky později Filipína zemřela.\n\nPo arcivévodově smrti připadl Ambras i jeho místnosti plné pokladů Karlovi, chlapci kdysi „nalezenému“ u brány zámku. Roku 1606 to všechno Karel prodal svému bratranci, muži, který sbíral ještě vášnivěji než jeho otec.\n\nTé zimy roku 1557 byl ten bratranec ještě čtyřletý chlapec na vídeňském dvoře.",
+      zh: "菲莉皮内·韦尔泽，出身德意志奥格斯堡的韦尔泽家族，那是当时全欧洲最有钱的商人家族之一。她美丽、聪明、读过书，什么都好，就是有一样不行：她不是贵族。\n\n按照宫廷的规矩，国王的儿子只能娶公主。\n\n[[link:a-star-1555]]斐迪南大公[[/link]]偏不管这一套。两人早在1555年比尔森的一场化装舞会上就认识了。1557年1月，在布拉格南边的布热兹尼采城堡，两个人秘密成了婚；据说在场的，只有一位神父和几个最信得过的人。\n\n[[b]]他在白山脚下给自己盖了一颗星星，又在一个冬天，偷偷娶回了另一颗。[[/b]]\n\n婚是结了，可谁也不能说。父亲后来知道了，据说气得不轻，可最后还是让了步。到1559年，父子俩达成了约定：这桩婚事必须保密；孩子可以生，可以拿家产、用哈布斯堡的纹章，但谁也别想继承王位。\n\n孩子出生的时候，麻烦就来了。菲莉皮内不能承认自己生过孩子。于是，照后来流传的说法，孩子一出生，就被悄悄抱出去，放在城堡门口；第二天早上，仆人“碰巧”发现了一个弃婴，心地善良的女主人，就把他“收养”了下来。长子安德烈亚斯1558年在布热兹尼采被“捡”了回来，次子卡尔1560年在克日沃克拉特城堡被“捡”了回来。还有一对双胞胎，没能活下来。\n\n[[b]]在哈布斯堡家，王冠只认血统。为了保住这条规矩，皇帝的亲孙子，只能当“捡来的孩子”。[[/b]]\n\n后来，大公接管了蒂罗尔，一家人搬到了因斯布鲁克附近的安布拉斯城堡。大公把一辈子收来的盔甲、油画、珍宝和稀奇古怪的东西，统统摆进了城堡里的一座珍奇屋。菲莉皮内在城堡里种草药、配药方，名下还留下了一本手抄的食谱。\n\n1576年，长子安德烈亚斯要当枢机主教，得证明自己是合法婚生的。教皇这才解除了大公保密的誓言，这桩婚事总算被正式承认，离那场婚礼已经过去了十九年。四年后，菲莉皮内去世。\n\n大公死后，安布拉斯城堡和那满屋子的珍藏，传给了当年在城堡门口被“捡”回来的卡尔。1606年，卡尔把这一切，都卖给了自己的堂兄，一位比他父亲还要爱收藏的人。\n\n而在1557年那个冬天，这位堂兄还只是维也纳宫里一个四岁的孩子。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "zamek-breznice",
+        relation: {
+          en: "The castle of Philippine's aunt Kateřina of Lokšan, where the archduke and Philippine were secretly married in January 1557; their elder son Andreas was born, and “found”, here in 1558.",
+          cz: "Zámek Filipíniny tety Kateřiny z Lokšan, kde se arcivévoda s Filipínou v lednu 1557 tajně vzali; jejich starší syn Ondřej se tu roku 1558 narodil a byl tu „nalezen“.",
+          zh: "菲莉皮内的姑妈卡特日娜·洛克山的城堡。1557年1月，大公和菲莉皮内在这里秘密成婚；1558年，他们的长子安德烈亚斯在这里出生，也在这里被“捡”了回来。",
+        },
+      },
+      {
+        slug: "krivoklat-castle",
+        relation: {
+          en: "Philippine and the archduke lived here for years; their younger son Karl was born, and duly “found” as a foundling, here in 1560.",
+          cz: "Filipína s arcivévodou tu žili řadu let; jejich mladší syn Karel se tu roku 1560 narodil a byl tu řádně „nalezen“.",
+          zh: "菲莉皮内和大公在这里住了好几年；1560年，他们的次子卡尔在这里出生，又在这里被正式“捡”了回来。",
+        },
+      },
+      {
+        slug: "hvezda-game-reserve",
+        relation: {
+          en: "The archduke's star-shaped summer palace, begun in 1555, the same year he first met Philippine at a masked ball in Pilsen.",
+          cz: "Arcivévodův letohrádek ve tvaru hvězdy, započatý roku 1555, téhož roku, kdy poprvé potkal Filipínu na maškarním plese v Plzni.",
+          zh: "大公的星形猎宫，1555年动工；就在同一年，他在比尔森的化装舞会上第一次见到了菲莉皮内。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Filip%C3%ADna_Welserov%C3%A1",
+  },
+  // 2026-10-18. cs.wikipedia (Antonín Brus z Mohelnice), incl. the quoted
+  // chronicle of Marek Bydžovský z Florentina (Svět za tří českých králů,
+  // ed. Kolár 1987, p. 91): proclamation on 23 December 1561 in the court
+  // room at Prague Castle before Ferdinand and the estates, the Utraquist
+  // administrators and consistory summoned too; see vacant since Conrad of
+  // Vechta (excommunicated 1421, deposed 1425); diocesan property seized,
+  // the Knights of the Cross funding the archdiocese for some 120 years;
+  // with Ferdinand he obtained the lay chalice from the pope in 1564, his
+  // hope of a mass Utraquist return unfulfilled; crowned Maximilian II
+  // (1562) and Rudolf II (1575). Archbishop's Palace: the Gryspek house,
+  // bought by Ferdinand in 1562 and given to Brus (DB card). Brus among
+  // those who asked Ignatius for Jesuits in 1554 (cs.wikipedia Klementinum).
+  {
+    slug: "an-archbishop-at-last-1561",
+    era: "habsburgs-move-in",
+    images: ["/history/an-archbishop-at-last-1561.webp"],
+    imageCaptions: [
+      {
+        en: "Prague Castle, December 1561: servants beat a hundred and forty years of dust out of the archbishop's throne while Antonín Brus waits to sit down; Emperor Ferdinand looks on, and the summoned Utraquist administrators stand in a corner with folded arms.",
+        cz: "Pražský hrad, prosinec 1561: sluhové vytloukají z arcibiskupského stolce sto čtyřicet let prachu a Antonín Brus čeká, až se bude moci posadit; císař Ferdinand přihlíží a obeslaní kališničtí administrátoři stojí v koutě se založenými rukama.",
+        zh: "1561年12月，布拉格城堡：仆人们从大主教宝座上拍打出一百四十年的灰尘，安东宁·布鲁斯在一旁等着坐下；斐迪南皇帝在上面看着，被召来的圣杯派管理人抱着胳膊站在角落里。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "In the same year, on the 23rd day of December, the archbishopric of Prague was restored, by the will of Emperor Ferdinand and with the leave of the supreme pontiff, through the proclamation as archbishop of Prague of a lord worthy of all honour, Lord Antonín of Müglitz, bishop of Vienna and imperial legate at the Council of Trent. It took place in the court room at Prague Castle, in the presence of His Imperial Majesty Ferdinand as King of Bohemia and of the estates of the same kingdom. The administrators and the consistory of Prague, and the prelates of the church of Prague Castle, had also been summoned there.",
+          cz: "Téhož léta 23. dne měsíce prosince arcibiskupství pražské z vůle císaře Ferdinanda a s dovolením nejvyššího biskupa vyhlášením za arcibiskupa pražského vší poctivosti hodného pána, pana Antonína z Muglic, vídeňského biskupa a na koncilium tridentském legáta císařského, jest obnoveno. Stalo se v soudné světnici na Hradě pražském v přítomnosti Jeho Milosti císařské Ferdinanda jakožto krále českého a stavův téhož království. Kdež i administrátorové a konsistoř pražská, též i preláti kostela Hradu pražského obesláni byli.",
+          zh: "同年12月23日，奉斐迪南皇帝之命，经至高的主教准许，布拉格大主教之位得以恢复：可敬的安东宁·冯·米格利茨大人，维也纳主教、皇帝派驻特伦托公会议的使节，被宣布为布拉格大主教。此事在布拉格城堡的审判厅里进行，皇帝陛下斐迪南以波希米亚国王的身份在场，王国的各等级也都在场。布拉格的管理人和宗教委员会，还有城堡教堂的高级神职人员，也都被召来了。",
+        },
+        attribution: {
+          en: "Marek Bydžovský of Florentin, chronicle",
+          cz: "Marek Bydžovský z Florentina, kronika",
+          zh: "马雷克·比德若夫斯基编年史",
+        },
+      },
+    ],
+    startYear: 1561.9,
+    year: {
+      en: "1561",
+      cz: "1561",
+      zh: "1561年",
+    },
+    tone: "humorous",
+    title: {
+      en: "An Archbishop at Last",
+      cz: "Konečně zase arcibiskup",
+      zh: "终于又有大主教了",
+    },
+    hookLine: {
+      en: "For a hundred and forty years the archbishop's throne in Prague had stood empty. Now someone was finally going to sit in it.",
+      cz: "Sto čtyřicet let stál pražský arcibiskupský stolec prázdný. Teď si na něj konečně měl někdo sednout.",
+      zh: "布拉格的大主教座，空了一百四十年。这一回，终于有人要坐上去了。",
+    },
+    summary: {
+      en: "In 1421 Prague's last archbishop, [[link:the-siege-that-broke-kutna-hora-1402]]Conrad of Vechta[[/link]], went over to the Hussites. From then on, the archbishop's throne in Prague stood empty.\n\nThe Utraquists did elect one of their own, [[link:an-archbishop-never-consecrated-1435]]Rokycana[[/link]], but Rome never agreed to consecrate him. On the Catholic side, the diocese was merely run by administrators. The seat stayed empty for a hundred and forty years.\n\n[[b]]For a hundred and forty years, the only thing sitting on the archbishop's throne in Prague was dust.[[/b]]\n\nIn 1561 Ferdinand decided to set the chair upright again. The man he chose was Antonín Brus, from Mohelnice in Moravia: Grand Master of the Knights of the Cross with the Red Star, once an army preacher in the wars against the Turks in Hungary, and the king's own confessor. He was also among those who, a few years earlier, had asked for the [[link:twelve-new-faces-1556]]Jesuits[[/link]] to be sent to Prague.\n\nOn 23 December, in the court room at Prague Castle, before the emperor and the estates, the news was made official. A chronicler of the day recorded it:\n\n[[quote:0]]\n\nNote that last line: the Utraquist administrators and their consistory had been summoned too. They were there to watch with their own eyes as a Catholic archbishop returned to the city where, for a hundred and forty years, they had run things themselves.\n\nThe next year the emperor bought a Renaissance house on the square in front of the castle and gave it to him as his residence. It is today's Archbishop's Palace.\n\nBut what the new archbishop took over was little more than an empty shell. The diocese's lands had long since been carved up, there were pitifully few priests, and most of the townspeople were Utraquists. For the next hundred and twenty years the archdiocese would live largely on money from his own order of knights.\n\nBrus did not want to force anything. In 1564 he and Ferdinand persuaded the pope that the Catholics of Bohemia, too, might now receive the chalice. Surely, he hoped, if they were given even the chalice, the Utraquists would come back.\n\n[[b]]A century earlier, a pope had [[/b]][[link:the-chalice-and-the-pope-1462]]declared the chalice void[[/link]][[b]]. Now a pope was handing it over himself. Hardly any Utraquists came back.[[/b]]",
+      cz: "Roku 1421 přešel poslední pražský arcibiskup [[link:the-siege-that-broke-kutna-hora-1402]]Konrád z Vechty[[/link]] k husitům. Od té doby stál pražský arcibiskupský stolec prázdný.\n\nKališníci si sice zvolili vlastního, [[link:an-archbishop-never-consecrated-1435]]Rokycanu[[/link]], ale Řím ho nikdy nechtěl vysvětit. Na katolické straně diecézi jen spravovali administrátoři. Stolec zůstal prázdný sto čtyřicet let.\n\n[[b]]Sto čtyřicet let seděl na pražském arcibiskupském stolci jen prach.[[/b]]\n\nRoku 1561 se Ferdinand rozhodl tu židli zase postavit. Vybral si Antonína Bruse z Mohelnice na Moravě: velmistra křižovníků s červenou hvězdou, kdysi polního kazatele ve válkách s Turky v Uhrách a králova zpovědníka. Patřil také k těm, kdo o pár let dřív žádali, aby do Prahy poslali [[link:twelve-new-faces-1556]]jezuity[[/link]].\n\n23. prosince to bylo v soudné světnici na Pražském hradě, před císařem a stavy, slavnostně vyhlášeno. Tehdejší kronikář to zapsal:\n\n[[quote:0]]\n\nVšimněte si poslední věty: obesláni byli i kališničtí administrátoři a jejich konzistoř. Měli na vlastní oči vidět, jak se katolický arcibiskup vrací do města, kde si sto čtyřicet let vládli sami.\n\nPříští rok koupil císař renesanční dům na náměstí před hradem a dal mu ho za sídlo. Je to dnešní Arcibiskupský palác.\n\nNový arcibiskup ale převzal sotva víc než prázdnou skořápku. Statky arcidiecéze byly dávno rozebrány, kněží bylo žalostně málo a většina obyvatel byli kališníci. Příštích sto dvacet let žila arcidiecéze z velké části z peněz jeho vlastního rytířského řádu.\n\nBrus nechtěl nic lámat přes koleno. Roku 1564 s Ferdinandem přesvědčil papeže, aby i katolíci v Čechách směli přijímat z kalicha. Doufal, že když dostanou i kalich, kališníci se přece vrátí.\n\n[[b]]O sto let dřív papež [[/b]][[link:the-chalice-and-the-pope-1462]]kalich zrušil[[/link]][[b]]. Teď ho papež sám podával. Kališníků se vrátilo jen málo.[[/b]]",
+      zh: "1421年，布拉格的最后一位大主教[[link:the-siege-that-broke-kutna-hora-1402]]康拉德·冯·韦希塔[[/link]]倒向了胡斯派。从那以后，布拉格的大主教座就一直空着。\n\n圣杯派倒是自己选过一位，[[link:an-archbishop-never-consecrated-1435]]罗基察纳[[/link]]，可罗马始终不肯给他祝圣。天主教这边，只派人代管教区。这把椅子，一空就是一百四十年。\n\n[[b]]整整一百四十年，布拉格的大主教座上，只坐着灰尘。[[/b]]\n\n1561年，斐迪南决定把这把椅子扶起来。他挑中的人，是安东宁·布鲁斯：摩拉维亚莫赫尔尼采人，红星十字骑士团的大团长，在匈牙利打土耳其人的时候当过随军布道师，还是国王的听告解神父。前几年请[[link:twelve-new-faces-1556]]耶稣会士[[/link]]来布拉格的人里，也有他一个。\n\n那年12月23日，在城堡的审判厅里，当着皇帝和各等级的面，这件事正式宣布了。当时的一位编年史家记下了这一天：\n\n[[quote:0]]\n\n留意最后一句：连圣杯派的管理人和宗教委员会，也被召来了。他们来，是要亲眼看着一位天主教大主教，回到这座他们自己做了一百四十年主的城市。\n\n第二年，皇帝买下城堡广场边上的一栋文艺复兴宅子，送给他当府邸，这就是今天的大主教宫。\n\n可新大主教接手的，几乎是个空壳：教区的田产早被瓜分光了，神父少得可怜，城里的老百姓大多是圣杯派。往后一百二十年，大主教区的开销，主要靠他自己那个骑士团来贴补。\n\n布鲁斯不想硬来。1564年，他和斐迪南一起说动了教皇：波希米亚的天主教徒，从此也可以领圣杯。他盼着，连圣杯都给了，圣杯派总该回来了吧。\n\n[[b]]一百年前，教皇[[/b]][[link:the-chalice-and-the-pope-1462]]宣布圣杯作废[[/link]][[b]]；如今，教皇亲手把它递了过来。可圣杯派，没几个人回头。[[/b]]",
+    },
+    relatedLandmarks: [
+      {
+        slug: "archbishops-palace",
+        relation: {
+          en: "The Renaissance Gryspek house on the castle square, which Ferdinand bought in 1562 and gave to Brus as the new archbishop's residence.",
+          cz: "Renesanční Gryspekovský dům na Hradčanském náměstí, který Ferdinand roku 1562 koupil a dal Brusovi jako sídlo nového arcibiskupa.",
+          zh: "城堡广场边上那栋文艺复兴式的格里斯佩克宅子，1562年斐迪南买下来，送给布鲁斯当新大主教的府邸。",
+        },
+      },
+      {
+        slug: "kostel-sv-frantiska-z-assisi",
+        relation: {
+          en: "Headquarters of the Knights of the Cross with the Red Star, Brus's own order, which largely paid for the restored archdiocese for some 120 years.",
+          cz: "Sídlo křižovníků s červenou hvězdou, Brusova vlastního řádu, který obnovenou arcidiecézi zhruba sto dvacet let z velké části platil.",
+          zh: "红星十字骑士团的总部。这是布鲁斯自己的骑士团，此后约一百二十年里，恢复后的大主教区主要靠它贴补开销。",
+        },
+      },
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Brus, the first archbishop of Prague in a hundred and forty years, is buried in its chapel of St John the Baptist.",
+          cz: "Brus, první pražský arcibiskup po sto čtyřiceti letech, je pohřben v její kapli svatého Jana Křtitele.",
+          zh: "布鲁斯是一百四十年来布拉格的第一位大主教，他葬在这里的施洗约翰礼拜堂。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Anton%C3%ADn_Brus_z_Mohelnice",
+  },
+  // 2026-10-18. Text and the three quotations supplied by the user, cited to
+  // České sněmy III (1567 is not in the psp.cz online edition, which stops
+  // at 1565, so the wording could not be checked). The substance is
+  // confirmed by the editors' introduction in České sněmy XI/1 (1605,
+  // psp.cz v11a/1605/t000005): in 1567 the non-Catholic estates obtained the
+  // removal of the Compacts from the land privileges, but under the
+  // emperor's pressure a clause was added that no erring sects were to be
+  // brought in "mimo víru svatou křesťanskou pod jednou a pod obojí
+  // způsobou". Pius IV allowed the lay chalice in April 1564; Ferdinand I
+  // died in Vienna on 25 July 1564; Maximilian crowned in Prague in 1562.
+  {
+    slug: "the-chalice-laid-down-1567",
+    era: "habsburgs-move-in",
+    images: ["/history/the-chalice-laid-down-1567.webp"],
+    imageCaptions: [
+      {
+        en: "The diet of 1567: Utraquist lords lay their old chalice banner down on the table and a clerk cuts the seal from the Compacts, while Maximilian II nods and raises a finger to add his condition; through the window, the towers of the Týn Church.",
+        cz: "Sněm roku 1567: kališničtí páni pokládají na stůl svůj starý prapor s kalichem a písař odřezává pečeť z kompaktát, zatímco Maxmilián II. přikyvuje a zvedá prst, aby připojil svou podmínku; oknem jsou vidět věže Týnského chrámu.",
+        zh: "1567年的议会：圣杯派贵族把那面老圣杯旗放倒在桌上，书记官割下《巴塞尔协约》上的蜡封；马克西米利安二世点着头，又竖起一根手指，补上他的条件。窗外是泰恩教堂的双塔。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "…that the whole article on the Compacts be struck out altogether…",
+          cz: "…aby ten celý artikul o kompaktátech docela vypuštěn…",
+          zh: "……把关于协约的那一整条，全部删掉……",
+        },
+        attribution: {
+          en: "Petition of the Utraquist estates to Maximilian II, 1567, České sněmy III",
+          cz: "Žádost stavů pod obojí Maxmiliánovi II., 1567, České sněmy III",
+          zh: "圣杯派各等级致马克西米利安二世的请愿书，1567年，《波希米亚议会文献》第三卷",
+        },
+      },
+      {
+        text: {
+          en: "…for it burdened their conscience, and was very hard for them to accept, indeed impossible.",
+          cz: "…pro ztížení svědomí jich, přijíti velice ztížné a nemožné bylo.",
+          zh: "……这让我们的良心为难，实在难以接受，也不可能接受。",
+        },
+        attribution: {
+          en: "The same petition",
+          cz: "Táž žádost",
+          zh: "同上",
+        },
+      },
+      {
+        text: {
+          en: "…that in this kingdom no other faith or religion besides the party of those receiving in one kind and in both kinds…",
+          cz: "…aby v tomto království žádná jiná víra neboližto religie mimo stranu pod jednú a pod obojí zpuosobou přijímajících…",
+          zh: "……在这个王国里，除了领一种圣餐和领两种圣餐的这两派，不得有任何别的信仰……",
+        },
+        attribution: {
+          en: "Maximilian II's answer to the petition, 1567, České sněmy III",
+          cz: "Odpověď Maxmiliána II. na žádost, 1567, České sněmy III",
+          zh: "马克西米利安二世对请愿的答复，1567年，《波希米亚议会文献》第三卷",
+        },
+      },
+    ],
+    startYear: 1567,
+    year: {
+      en: "1567",
+      cz: "1567",
+      zh: "1567年",
+    },
+    tone: "humorous",
+    title: {
+      en: "They Laid Down the Chalice Themselves",
+      cz: "Kalich odložili sami",
+      zh: "圣杯自己放下了",
+    },
+    hookLine: {
+      en: "The charm the Hussites had won with more than a decade of war was in the end taken off by the Hussites' own heirs.",
+      cz: "Talisman, který husité vybojovali víc než desetiletou válkou, si nakonec sundali husitští dědicové sami.",
+      zh: "胡斯派打了十几年仗换来的护身符，最后是胡斯派自己摘下来的。",
+    },
+    summary: {
+      en: "In the spring of 1564 the pope finally allowed the Bohemians the chalice. In July of the same year Ferdinand died in Vienna. In his last years he had kept trying to win the Utraquists back. He got the chalice; he did not get the people.\n\nHis successor was his eldest son, Maximilian II. Maximilian had been crowned two years earlier, and the man who set the Bohemian crown on his head was none other than the newly appointed archbishop of Prague, [[link:an-archbishop-at-last-1561]]Antonín Brus[[/link]]. This time the throne changed hands with no election and no bargaining, perfectly quietly.\n\nBut the new king was the Habsburg famous for being “not quite Catholic”. As a young man he had kept a Lutheran preacher at his court, and only sent him away when his father forced him to. Plenty of people wondered in private which side the new king really believed in.\n\n[[b]]The new king had barely been on the throne a few years when the Utraquists themselves pulled down an old piece of furniture.[[/b]]\n\nThat piece of furniture was the [[link:what-did-the-compacts-grant-1436]]Compacts of Basel[[/link]] of 1436. The Hussites had fought for more than a decade to make a church council agree that the Bohemians might receive the chalice. In 1462 the pope [[link:the-chalice-and-the-pope-1462]]declared them void[[/link]], but the Bohemians refused to accept it and kept them written into the law of the land. Every new king had to confirm them.\n\nThe trouble was that, a hundred and thirty years on, the Utraquists had changed.\n\nLuther's books poured in from Germany, and many Utraquist lords and priests who still called themselves Utraquists had long since become Lutherans at heart. The Compacts protected only the old-style Utraquists: communion in both kinds was fine, but in everything else they had to stay close to Rome, their priests had to be ordained by Catholic bishops, and in the end Rome had the final word.\n\nAs long as Prague had no archbishop, that clause was just words on paper. But now Brus sat in the archbishop's chair, and the pope had handed over the chalice too. Go by the Compacts, and the Utraquist priests would have to place themselves meekly under the archbishop.\n\n[[b]]They had worn the charm for a hundred and thirty years, and it had turned into a bridle.[[/b]]\n\nAt the diet of 1567 the Utraquists of all three estates jointly petitioned the king to strike the Compacts out of the law of the land:\n\n[[quote:0]]\n\nThe reason they gave was blunt: keeping them any longer went against their conscience and was simply impossible to accept.\n\n[[quote:1]]\n\nMaximilian agreed, but he kept something back:\n\n[[quote:2]]\n\nIn other words, the Compacts could go, but the only lawful faiths in the kingdom were still the two old ones, Catholics and Utraquists. The Lutherans did not count, and neither did the Brethren, whom Ferdinand had [[link:the-bloody-diet-1547]]driven out[[/link]] twenty years before.\n\n[[b]]A hundred and thirty years of the chalice, bought with Bohemian blood, the agreement King George had sworn to [[/b]][[link:the-chalice-and-the-pope-1462]]live and die with[[/link]][[b]]: this time no one took it from them. They laid it down themselves.[[/b]]",
+      cz: "Na jaře 1564 papež konečně povolil Čechům kalich. V červenci téhož roku zemřel Ferdinand ve Vídni. V posledních letech se stále snažil získat kališníky zpět. Kalich vyprosil, lidi nezískal.\n\nNastoupil jeho nejstarší syn Maxmilián II. Korunován byl už před dvěma lety a českou korunu mu na hlavu vsadil nikdo jiný než čerstvě jmenovaný pražský arcibiskup [[link:an-archbishop-at-last-1561]]Antonín Brus[[/link]]. Tentokrát se trůn předal bez volby a bez smlouvání, docela poklidně.\n\nNový král byl ovšem ten Habsburk, o němž se vědělo, že je „tak trochu nekatolický“. Za mlada držel u dvora luteránského kazatele a poslal ho pryč, až když ho k tomu otec donutil. Leckdo si potichu kladl otázku, čemu nový král doopravdy věří.\n\n[[b]]Nový král nevládl ani pár let a kališníci sami strhli jeden starý kus nábytku.[[/b]]\n\nTím kusem nábytku byla [[link:what-did-the-compacts-grant-1436]]basilejská kompaktáta[[/link]] z roku 1436. Husité víc než deset let válčili, aby koncil přikývl, že Čechové smějí přijímat z kalicha. Roku 1462 je papež [[link:the-chalice-and-the-pope-1462]]prohlásil za neplatná[[/link]], ale Čechové to neuznali a dál je drželi zapsaná v zemském právu. Každý nový král je musel potvrdit.\n\nPotíž byla v tom, že se kališníci za sto třicet let změnili.\n\nZ Německa sem proudily Lutherovy knihy a mnoho kališnických pánů i kněží, kteří si dál říkali kališníci, bylo v srdci dávno luterány. Kompaktáta však chránila jen kališníky starého ražení: přijímání pod obojí ano, ale ve všem ostatním se měli držet blízko Říma, jejich kněze měli světit katoličtí biskupové a poslední slovo měl nakonec Řím.\n\nDokud Praha neměla arcibiskupa, byl ten článek jen písmenem na papíře. Teď však v arcibiskupském křesle seděl Brus a papež podal i kalich. Podle kompaktát by se kališničtí kněží měli poslušně podřídit arcibiskupovi.\n\n[[b]]Talisman nosili sto třicet let a stala se z něj uzda.[[/b]]\n\nNa sněmu roku 1567 požádali kališníci ze všech tří stavů společně krále, aby kompaktáta vypustil ze zemského práva:\n\n[[quote:0]]\n\nDůvod napsali bez obalu: ponechat je dál jim bylo proti svědomí a prostě nemožné.\n\n[[quote:1]]\n\nMaxmilián svolil, ale něco si nechal v záloze:\n\n[[quote:2]]\n\nJinými slovy: kompaktáta mohla jít, ale zákonné víry zůstaly v království dál jen dvě, katolíci a kališníci. Luteráni se nepočítali a bratři, které Ferdinand před dvaceti lety [[link:the-bloody-diet-1547]]vypověděl[[/link]], také ne.\n\n[[b]]Sto třicet let kalicha, vykoupeného českou krví, úmluva, s níž chtěl král Jiří [[/b]][[link:the-chalice-and-the-pope-1462]]žít i umřít[[/link]][[b]]: tentokrát jim ji nikdo nebral. Odložili ji sami.[[/b]]",
+      zh: "1564年春天，教皇终于准许波希米亚人领圣杯。同年7月，斐迪南在维也纳去世。他晚年一直想把圣杯派拉回来，结果圣杯讨来了，人却没回来。\n\n接班的是他的长子马克西米利安二世。马克西米利安两年前就已经加冕，给他戴上波希米亚王冠的，正是刚刚就任布拉格大主教的[[link:an-archbishop-at-last-1561]]安东宁·布鲁斯[[/link]]。这一回，王位交接没有选举，也没有讨价还价，平平静静。\n\n可这位新国王，是哈布斯堡家出了名的“不太像天主教徒”的一位。他年轻时在宫里养着一位路德派布道师，后来是父亲硬逼着，才把人送走。不少人私下嘀咕：这位国王心里，到底信的是哪一边？\n\n[[b]]新国王登基没几年，圣杯派自己先动手，拆掉了一件老家具。[[/b]]\n\n这件老家具，就是1436年的[[link:what-did-the-compacts-grant-1436]]《巴塞尔协约》[[/link]]。当年胡斯派打了十几年仗，才让公会议点头：波希米亚人可以领圣杯。1462年，教皇[[link:the-chalice-and-the-pope-1462]]宣布它作废[[/link]]，可波希米亚人不认，一直把它写在国家法律里。历代国王登基，都要确认一遍。\n\n问题是，一百三十年过去了，圣杯派已经变了。\n\n路德的书从德意志源源不断地传进来，许多圣杯派贵族和神父，嘴上还叫“圣杯派”，心里早就成了路德派。而协约保护的，只是老一代的圣杯派：领两种圣餐可以，其他方面还得跟罗马差不多，神父要由天主教主教祝圣，说到底，还是罗马说了算。\n\n以前布拉格没有大主教，这一条只是写在纸上。可如今布鲁斯坐上了大主教的椅子，教皇也把圣杯递了过来。照协约办，圣杯派的神父就得乖乖归到大主教手下。\n\n[[b]]护身符戴了一百三十年，戴成了缰绳。[[/b]]\n\n1567年的议会上，三个等级里的圣杯派联名上书，请国王把协约从国家法律里删掉：\n\n[[quote:0]]\n\n理由也写得很直白：再留着它，有违良心，实在难以接受。\n\n[[quote:1]]\n\n马克西米利安答应了，可答应得留了一手：\n\n[[quote:2]]\n\n意思是：协约可以删，但王国里合法的信仰，依然只有两家，天主教和圣杯派。路德派不算，二十年前被斐迪南[[link:the-bloody-diet-1547]]赶走[[/link]]的弟兄会，也不算。\n\n[[b]]一百三十年的圣杯，用波希米亚人自己的鲜血换来；伊日国王曾发誓要与它[[/b]][[link:the-chalice-and-the-pope-1462]]“同生共死”[[/link]][[b]]的那一纸协定，这一次没有人来抢，是他们自己放下了。[[/b]]",
+    },
+    relatedLandmarks: [
+      {
+        slug: "tyn-church",
+        relation: {
+          en: "The Utraquists' leading church in Prague, whose gable carried a huge gilded chalice above the Old Town Square.",
+          cz: "Přední kališnický kostel v Praze, na jehož štítu se nad Staroměstským náměstím skvěl obrovský pozlacený kalich.",
+          zh: "布拉格圣杯派最重要的教堂，山墙上那只巨大的镀金圣杯，在老城广场上远远就能看见。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Basilejsk%C3%A1_kompakt%C3%A1ta",
+  },
+  // 2026-10-18. Background card after the-chalice-laid-down-1567.
+  {
+    slug: "lutherans-and-utraquists-1567",
+    era: "habsburgs-move-in",
+    cardType: "background",
+    images: [],
+    imageCaptions: [],
+    startYear: 1567.5,
+    year: {
+      en: "1415–1567",
+      cz: "1415–1567",
+      zh: "1415–1567年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Lutherans and Utraquists: What's the Difference?",
+      cz: "Luteráni a kališníci: jaký je v tom rozdíl?",
+      zh: "路德派和圣杯派，有什么区别？",
+    },
+    hookLine: {
+      en: "Both took the chalice, both had quarrelled with Rome. Yet one had taken half a step, and the other had walked out of the house.",
+      cz: "Oba přijímali z kalicha, oba se pohádali s Římem. Jenže jeden udělal půl kroku a druhý vyšel z domu.",
+      zh: "两边都领圣杯，两边都跟罗马吵过架。可一个只迈出了半步，另一个直接出了门。",
+    },
+    summary: {
+      en: "From the outside they looked much alike. Both gave the laity the chalice, both preached in the people's own language, and both had fallen out with Rome. But the [[link:what-is-utraquism-1414]]Utraquists[[/link]] and [[link:who-was-martin-luther-1521]]Luther[[/link]]'s followers had quarrelled with Rome over very different things.\n\nThe Utraquists came out of the Hussite movement a century before Luther. What they wanted most of all was the chalice: communion in both kinds, bread and wine, for everyone. Apart from that they stayed remarkably Catholic. They kept the Mass and all seven sacraments, prayed to the saints and the Virgin, and wanted their priests ordained by proper Catholic bishops in the old succession. What they asked of Rome was not a divorce but recognition: let us keep the chalice, and we remain part of the Church.\n\nLuther went much further. For him, a person is saved by faith alone, not by good works, pilgrimages or indulgences, and the only authority is the Bible, not the pope or church councils. Of the seven sacraments he kept two, baptism and communion. Monasteries were unnecessary, priests could marry, and the Church needed no pope at all.\n\n[[b]]The Utraquists wanted to stay in the Catholic house with a chalice in their hands. The Lutherans walked out of the house and built their own.[[/b]]\n\nBy the 16th century the line between the two had blurred. Luther himself admitted he owed a debt to Hus, and many Bohemian Utraquists read his books and drifted, often without changing their name, towards his teaching. Historians call them the “New Utraquists”; those who stayed true to the old ways are the “Old Utraquists”. Alongside both stood a third group, the Unity of the Brethren, stricter and more independent than either.\n\nThat is why the Compacts had become so awkward by 1567: they protected exactly the half-Catholic Utraquism that many Utraquists no longer believed in.",
+      cz: "Zvenku vypadali dost podobně. Oba podávali laikům kalich, oba kázali v jazyce lidu a oba se rozešli s Římem. Jenže [[link:what-is-utraquism-1414]]kališníci[[/link]] a stoupenci [[link:who-was-martin-luther-1521]]Lutherovi[[/link]] se s Římem přeli o hodně rozdílné věci.\n\nKališníci vzešli z husitského hnutí o sto let dřív než Luther. Nejvíc ze všeho chtěli kalich: přijímání pod obojí způsobou, chleba i víno, pro všechny. Jinak zůstali pozoruhodně katoličtí. Drželi mši i všech sedm svátostí, modlili se ke svatým a k Panně Marii a chtěli, aby jejich kněze světili řádní katoličtí biskupové v apoštolské posloupnosti. Od Říma nežádali rozvod, ale uznání: nechte nám kalich a zůstaneme součástí církve.\n\nLuther šel mnohem dál. Podle něj člověka spasí jen víra, ne dobré skutky, poutě ani odpustky, a jedinou autoritou je Bible, ne papež ani koncily. Ze sedmi svátostí ponechal dvě, křest a večeři Páně. Kláštery nebyly potřeba, kněží se mohli ženit a církev žádného papeže nepotřebovala.\n\n[[b]]Kališníci chtěli zůstat v katolickém domě s kalichem v ruce. Luteráni z domu odešli a postavili si vlastní.[[/b]]\n\nV 16. století se hranice mezi nimi rozmazala. Sám Luther přiznával, že vděčí Husovi, a mnoho českých kališníků četlo jeho knihy a posouvalo se, často aniž by změnili jméno, k jeho učení. Historici jim říkají novoutrakvisté; ti, kdo zůstali při starém, jsou staroutrakvisté. Vedle obou stála ještě třetí skupina, Jednota bratrská, přísnější a samostatnější než oni.\n\nProto byla kompaktáta roku 1567 tak nepohodlná: chránila právě ten napůl katolický utrakvismus, kterému mnoho kališníků už nevěřilo.",
+      zh: "从外面看，两边挺像：都给平信徒领圣杯，都用老百姓自己的语言讲道，也都跟罗马闹翻过。可[[link:what-is-utraquism-1414]]圣杯派[[/link]]和[[link:who-was-martin-luther-1521]]路德[[/link]]的追随者，跟罗马吵的，其实是很不一样的事。\n\n圣杯派出自胡斯运动，比路德早了一百年。他们最想要的，就是那只圣杯：领圣餐时饼和酒都要，人人都有份。除此之外，他们天主教得出奇：弥撒照做，七件圣事一件不少，照样向圣徒和圣母祈祷，还盼着自己的神父能由正经的天主教主教、按使徒传承来祝圣。他们向罗马要的不是离婚，而是承认：把圣杯留给我们，我们就还是教会的一分子。\n\n路德走得远多了。在他看来，人得救只靠信，不靠善功、朝圣和赎罪券；唯一的权威是《圣经》，不是教皇，也不是公会议。七件圣事，他只留下两件：洗礼和圣餐。修道院不必有，神父可以娶妻，教会也根本用不着教皇。\n\n[[b]]圣杯派想端着圣杯，留在天主教的屋子里；路德派干脆出了门，另盖了一座房子。[[/b]]\n\n到了16世纪，两边的界线越来越模糊。路德自己就承认欠了胡斯一份情；许多波希米亚的圣杯派读着他的书，往往连名字都没改，就一点点靠到了他那边。历史学家管这些人叫“新圣杯派”，守着老规矩的，叫“老圣杯派”。此外还有第三家，弟兄会，比这两家都更严格，也更自成一体。\n\n所以，到了1567年，那份协约才会那么别扭：它保护的，恰恰是许多圣杯派自己都不再相信的那种半天主教的圣杯派。",
+    },
+    relatedLandmarks: [],
+  },
+  // 2026-10-18. Quote and the visit (Sunday 9 Adar I = 4 February 1571)
+  // supplied by the user from the Hebrew Chronicle of Prague (c. 1615),
+  // trans. L. J. Weinberger. Expulsions per Jewish Encyclopedia and YIVO:
+  // 1541 from the royal towns (YIVO says Prague was exempted, other
+  // accounts disagree, so the card does not claim it for Prague); 1557
+  // Ferdinand's own order for Prague, his reported oath never to suffer Jews
+  // there, Pius IV releasing him from it after a petition, most Jews gone by
+  // 1559, return from about 1562; 1566 Maximilian's decree that they should
+  // never again be expelled. Italian/Bohemian hours count from the previous
+  // sunset, so the 22nd hour is about two hours before sunset. High
+  // Synagogue 1568 with Maisel's support (DB card). Rabbi Loew moved to
+  // Prague in 1573.
+  {
+    slug: "the-emperor-came-by-sleigh-1571",
+    era: "habsburgs-move-in",
+    images: ["/history/the-emperor-came-by-sleigh-1571.webp"],
+    imageCaptions: [
+      {
+        en: "4 February 1571: Emperor Maximilian II and Empress Maria glide through the snow-covered Jewish Town in a gilded sleigh, past the stepped brick gable of the Old-New Synagogue, as the townspeople watch from their doorways.",
+        cz: "4. února 1571: císař Maxmilián II. a císařovna Marie projíždějí na pozlacených saních zasněženým Židovským Městem kolem stupňovitého cihlového štítu Staronové synagogy a obyvatelé je pozorují ze dveří.",
+        zh: "1571年2月4日：马克西米利安二世皇帝和玛丽亚皇后坐着镀金的雪橇，滑过白雪覆盖的犹太城，经过老新犹太会堂那面阶梯状的砖砌山墙，居民们站在门口看着。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "On Sunday, the 9th of Adar I [4 February], Emperor Maximilian and his wife, the empress, Madam Maria, paraded down the Judenstrasse accompanied by all the royal dignitaries, [riding] on wagons called Schlitten in German, going from gate to gate in the twenty-second hour.",
+          cz: "V neděli 9. adaru I. [4. února] projel císař Maxmilián se svou chotí, císařovnou paní Marií, v doprovodu všech královských hodnostářů Židovskou ulicí, [jedouce] na vozech, kterým se německy říká Schlitten, od brány k bráně, ve dvaadvacáté hodině.",
+          zh: "亚达月第一月初九，星期日（2月4日），马克西米利安皇帝和他的妻子玛丽亚皇后，在全体王室显贵的陪同下，沿着犹太大街巡游而过。他们乘坐的，是德语里叫作“雪橇”的车，从一道门一直走到另一道门，时间是第二十二个钟头。",
+        },
+        attribution: {
+          en: "Hebrew Chronicle of Prague, c. 1615 (trans. L. J. Weinberger)",
+          cz: "Hebrejská kronika pražská, kolem 1615 (anglický překlad L. J. Weinberger)",
+          zh: "《布拉格希伯来编年史》，约1615年（英译：L. J. 温伯格）",
+        },
+      },
+    ],
+    startYear: 1571,
+    year: {
+      en: "1571",
+      cz: "1571",
+      zh: "1571年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Emperor Came by Sleigh",
+      cz: "Císař přijel na saních",
+      zh: "坐着雪橇来串门",
+    },
+    hookLine: {
+      en: "The father had sworn never again to suffer them in Prague. The son came to visit, with the empress, by sleigh.",
+      cz: "Otec přísahal, že je už v Praze nestrpí. Syn za nimi přijel na návštěvu, s císařovnou, na saních.",
+      zh: "父亲发誓，再也不让他们留在布拉格。儿子却带着皇后，坐着雪橇来做客了。",
+    },
+    summary: {
+      en: "The [[link:prague-was-never-one-city-1348]]Jewish Town[[/link]] north of the Old Town had lived on edge under Ferdinand. By the old rules the Jews were the [[link:one-emperor-two-fates-1349]]king's property[[/link]], and how well they were protected depended entirely on the king's mood.\n\nFerdinand's mood was not good. In 1541, amid loud demands from the townsmen, he ordered the Jews out of Bohemia's royal towns. In 1557 he gave the order himself, and this time Prague was not spared; he is even said to have sworn never again to suffer Jews in the city. By 1559 the Jewish Town had all but emptied. The Prague Jews sent a petition to Rome, and the pope released the king from his oath. Around 1562, when the king's eldest son Maximilian took over Bohemia, the Jews began to come back.\n\n[[b]]The father showed them the door. The son opened it again.[[/b]]\n\nMaximilian's attitude to the Jews was quite unlike his father's. In 1566 he decreed that the Jews of Prague would never again be expelled.\n\nOne Sunday in February 1571 he even came in person. A Hebrew chronicle of the time recorded the day:\n\n[[quote:0]]\n\nThe “twenty-second hour” is the old way of counting the hours from the previous sunset: it means that afternoon, about two hours before the sun went down.\n\nPrague in February was deep in snow. The emperor and empress glided by sleigh from the gate at one end of the Jewish Town to the gate at the other. Fifty years earlier the Jews had gone out of the city with the tablets of the Ten Commandments to greet [[link:the-king-comes-home-1522]]King Louis[[/link]]; this time the emperor came to their door himself.\n\nEven more remarkable was the empress. Maria was the daughter of Charles V, raised at the Spanish court and famous for her Catholic piety. Even she came.\n\n[[b]]The last king had sworn not to let them stay. This emperor dropped in by sleigh.[[/b]]\n\nIn those years a few men who would later become famous were making their names in the Jewish Town. A merchant named Maisel was doing better and better; he would become the richest man in the Jewish Town, and build it a town hall and pave its streets. In 1573 a rabbi moved to Prague from Mikulov in Moravia, Judah Loew. Centuries later people would say it was he who shaped a man of clay from the mud of the Vltava and made it walk.\n\nBut that is a later story. The Jewish Town's true golden age would have to wait another decade or so, for an emperor even fonder of marvels and oddities than Maximilian to move into the city.\n\nAs for Maximilian: he was so generous to the Jews; would he be just as generous to his own Lutheran subjects in Bohemia? Four years later, the answer came.",
+      cz: "[[link:prague-was-never-one-city-1348]]Židovské Město[[/link]] severně od Starého Města žilo za Ferdinanda ve strachu. Podle starých pravidel byli Židé [[link:one-emperor-two-fates-1349]]majetkem krále[[/link]] a jak dobře je chránil, záviselo jen na jeho náladě.\n\nFerdinandova nálada dobrá nebyla. Roku 1541 nařídil za hlasitého volání měšťanů vyhnat Židy z českých královských měst. Roku 1557 vydal příkaz sám od sebe, tentokrát i pro Prahu, a prý dokonce přísahal, že už ve městě žádné Židy nestrpí. Do roku 1559 se Židovské Město skoro vyprázdnilo. Pražští Židé poslali do Říma prosbu a papež krále přísahy zprostil. Kolem roku 1562, když Čechy převzal králův nejstarší syn Maxmilián, se Židé začali vracet.\n\n[[b]]Otec jim ukázal dveře. Syn je zase otevřel.[[/b]]\n\nMaxmilián se k Židům choval úplně jinak než otec. Roku 1566 nařídil, že pražští Židé už nikdy nebudou vypovězeni.\n\nJedné únorové neděle roku 1571 se dokonce přijel podívat osobně. Hebrejská kronika té doby ten den zapsala:\n\n[[quote:0]]\n\n„Dvaadvacátá hodina“ se počítá po staru od předchozího západu slunce: znamená to odpoledne, asi dvě hodiny před soumrakem.\n\nÚnorová Praha byla zapadaná sněhem. Císař s císařovnou projeli na saních Židovským Městem od brány na jednom konci k bráně na druhém. Před padesáti lety vyšli Židé s deskami Desatera před město vítat [[link:the-king-comes-home-1522]]krále Ludvíka[[/link]]; tentokrát přijel císař sám až k nim.\n\nJeště pozoruhodnější byla císařovna. Marie byla dcera Karla V., vyrostla na španělském dvoře a proslula katolickou zbožností. A i ona přijela.\n\n[[b]]Minulý král přísahal, že je tu nenechá. Tenhle císař se k nim zastavil na saních.[[/b]]\n\nV těch letech se v Židovském Městě prosazovalo několik mužů, kteří později proslavili jeho jméno. Kupec jménem Maisel byl čím dál úspěšnější; stal se nejbohatším mužem Židovského Města, postavil mu radnici a vydláždil ulice. Roku 1573 se do Prahy přestěhoval z moravského Mikulova rabín Jehuda Löw. O staletí později se bude vyprávět, že právě on uhnětl z vltavského bahna hliněného muže a rozpohyboval ho.\n\nTo už je ale jiný příběh. Na skutečný zlatý věk si Židovské Město muselo počkat ještě asi deset let, až se do města nastěhuje císař, který měl divy a kuriozity rád ještě víc než Maxmilián.\n\nA Maxmilián? Byl k Židům tak štědrý; bude stejně štědrý i ke svým českým poddaným luteránům? Odpověď přišla o čtyři roky později.",
+      zh: "老城北边的[[link:prague-was-never-one-city-1348]]犹太城[[/link]]，在斐迪南手下一直过得提心吊胆。照老规矩，犹太人算是[[link:one-emperor-two-fates-1349]]“国王的财产”[[/link]]，保护得好不好，全看国王的心情。\n\n斐迪南的心情不太好。1541年，在市民的一片呼声中，他下令把犹太人赶出波希米亚的各个王室城市。1557年，他又亲自下令，这一回连布拉格也不放过，据说他还发了誓，再也不让犹太人留在这座城里。到1559年，犹太城几乎走空了。布拉格的犹太人派人去罗马求情，教皇解除了国王的誓言。1562年前后，国王的长子马克西米利安接手波希米亚，犹太人才陆续回来。\n\n[[b]]父亲赶人，儿子开门。[[/b]]\n\n马克西米利安对犹太人的态度，跟父亲完全不一样。1566年，他下令：布拉格的犹太人，从此不会再被驱逐。\n\n1571年2月的一个星期天，他还亲自来了。当时的一部希伯来编年史记下了这一天：\n\n[[quote:0]]\n\n“第二十二个钟头”是当时的老计时法，从前一天日落算起，大约是这天下午，离太阳落山还有两个钟头左右。\n\n二月的布拉格，满街是雪。皇帝和皇后坐着雪橇，从犹太城这一头的城门，一路滑到那一头的城门。五十年前，犹太人捧着十诫石板，到城外迎接过[[link:the-king-comes-home-1522]]路德维克国王[[/link]]；这一回，是皇帝自己找上门来了。\n\n更有意思的是这位皇后。玛丽亚是查理五世的女儿，在西班牙宫廷里长大，是出了名的虔诚天主教徒。连她都来了。\n\n[[b]]上一代国王发誓不让他们留下；这一代皇帝，坐着雪橇来串门。[[/b]]\n\n那几年，犹太城里正冒出几个后来名气很大的人。一位叫迈瑟尔的商人生意越做越大，后来成了犹太城的首富，给城里修了市政厅、铺了路。1573年，一位拉比从摩拉维亚的米库洛夫搬到了布拉格，他叫犹大·罗乌。几百年后，人们会说，是他用伏尔塔瓦河的泥巴，捏出了一个会动的泥人。\n\n不过那是后话了。犹太城真正的黄金时代，还要再等十几年，等一位比马克西米利安更爱奇人异事的皇帝搬进城来。\n\n至于马克西米利安：他对犹太人这么大方，对自己那些信路德派的波希米亚臣民，会不会也一样大方？四年后，答案揭晓了。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "old-new-synagogue-1782601630704",
+        relation: {
+          en: "The oldest synagogue in Europe still in use, built in the 13th century. Legend says Rabbi Loew's Golem still lies in its attic.",
+          cz: "Nejstarší dosud užívaná synagoga v Evropě, postavená ve 13. století. Podle pověsti leží Golem rabiho Löwa dodnes na její půdě.",
+          zh: "欧洲现存最古老、至今仍在使用的犹太会堂，建于13世纪。传说罗乌拉比的泥人，至今还躺在它的阁楼里。",
+        },
+      },
+      {
+        slug: "old-jewish-cemetery",
+        relation: {
+          en: "More than ten thousand gravestones lean and crowd together here: with no room to spare in the town, the dead had to be buried layer upon layer. Rabbi Loew and the merchant Maisel both lie here.",
+          cz: "Přes deset tisíc náhrobků se tu naklání a tísní: ve městě nebylo místo, a tak se mrtví museli pohřbívat ve vrstvách nad sebou. Leží tu rabi Löw i kupec Maisel.",
+          zh: "一万多块墓碑歪歪斜斜挤在一起，因为城里地方不够，死人只能一层压一层地埋。罗乌拉比和富商迈瑟尔都葬在这里。",
+        },
+      },
+      {
+        slug: "vysoka-synagoga",
+        relation: {
+          en: "Built in 1568, with the support of Mordecai Maisel, as the prayer room of the Jewish Town's leaders, in the years when the community was coming back.",
+          cz: "Postavena roku 1568 s podporou Mordechaje Maisela jako modlitebna představených Židovského Města, v letech, kdy se obec vracela.",
+          zh: "1568年在迈瑟尔的资助下建成，是犹太城首领们的祈祷室，那正是犹太人陆续回到布拉格的年头。",
+        },
+      },
+      {
+        slug: "zidovska-radnice",
+        relation: {
+          en: "The first town hall here was paid for by Mordecai Maisel, the merchant who became the richest man in the Jewish Town.",
+          cz: "První radnici tu zaplatil Mordechaj Maisel, kupec, který se stal nejbohatším mužem Židovského Města.",
+          zh: "这里的第一座市政厅，是迈瑟尔出钱盖的，他后来成了犹太城的首富。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Maxmili%C3%A1n_II._Habsbursk%C3%BD",
+  },
+  // 2026-10-18. Draft supplied by the user. cs.wikipedia (Česká konfese):
+  // diet opened 21 February 1575; drafted in early May by Pressius and
+  // Dvorský (New Utraquists) with Strejc for the Brethren, the Old
+  // Utraquists refusing to take part; structure close to the Augsburg
+  // Confession; presented 18 May 1575; Rudolf accepted 20 September and
+  // crowned 22 September 1575; the diet left with only an oral promise;
+  // printing banned by mandate of 5 October 1575. Quote verified on
+  // cs.wikisource (Majestát Rudolfa II. na náboženské svobody, 1609):
+  // Rudolf cites letters in Maximilian's own hand. Since 1547 the crown went
+  // to the king's heirs, but the estates still had to accept a new king at
+  // a diet, so the draft's "always elected" was reworded. Maximilian died at
+  // Regensburg on 12 October 1576, reportedly refusing the last rites.
+  {
+    slug: "a-promise-by-word-of-mouth-1575",
+    era: "habsburgs-move-in",
+    images: ["/history/a-promise-by-word-of-mouth-1575.webp"],
+    imageCaptions: [
+      {
+        en: "The diet of 1575: the estates hold up the long Bohemian Confession and point to where the signature should go; Maximilian II, hand on heart, promises by word of mouth, while the quill and inkwell beside him stay untouched and young Rudolf watches from behind the throne.",
+        cz: "Sněm roku 1575: stavové drží dlouhou Českou konfesi a ukazují, kam patří podpis; Maxmilián II. s rukou na srdci slibuje ústy, brk i kalamář vedle něj zůstávají nedotčené a mladý Rudolf to sleduje zpoza trůnu.",
+        zh: "1575年的议会：等级们捧着长长的《波希米亚信纲》，指着该签名的地方；马克西米利安二世手捂胸口，嘴上答应了，手边的羽毛笔和墨水瓶却原封未动，年轻的鲁道夫站在王座后面看着。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "…(which, as We have received sure report and have also understood from letters written in the very own hand of His Imperial Majesty, Our dearest lord father, and as some worthy records have also been found in the Land Tables, was approved by His Majesty right there and then)…",
+          cz: "…(kteráž tak, jakž jsme toho jistou zprávu vzíti i také z psaní, vlastní rukou Jeho císařské milosti pana otce našeho nejmilejšího psaných, vyrozuměti ráčili, ano i některé hodné paměti při dckách zemských toho se vynašly, i hned tehdáž od Jeho milosti povolena byla)…",
+          zh: "……（这份信纲）我们已得到确切的消息，也从我们最亲爱的父亲皇帝陛下亲笔写的信里得知，土地册里也找到了一些可信的记录：它当时就已经得到了陛下的准许……",
+        },
+        attribution: {
+          en: "Rudolf II, Letter of Majesty on religious freedom, 1609",
+          cz: "Rudolf II., Majestát na náboženské svobody, 1609",
+          zh: "鲁道夫二世《宗教自由诏书》，1609年",
+        },
+      },
+    ],
+    startYear: 1575,
+    year: {
+      en: "1575",
+      cz: "1575",
+      zh: "1575年",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Promise by Word of Mouth",
+      cz: "Slib jen ústy",
+      zh: "口头答应",
+    },
+    hookLine: {
+      en: "The Utraquists handed up their faith in writing. The king nodded, but would not pick up the pen.",
+      cz: "Kališníci podali svou víru sepsanou. Král přikývl, ale pero do ruky nevzal.",
+      zh: "圣杯派把写好的信仰递了上去，国王点了点头，可就是不肯落笔签字。",
+    },
+    summary: {
+      en: "Maximilian was generous to the Jews, and he was not stingy with the Lutherans either, at least in Austria.\n\nIn 1571 he gave the Lutheran lords of Lower Austria a written guarantee: they could worship in the Lutheran way in their own castles and on their own estates. Black on white, and sealed.\n\nThe Bohemians had seen it all. Four years earlier they had [[link:the-chalice-laid-down-1567]]struck the Compacts of Basel out of their own law[[/link]], and the king had only conceded that “apart from Catholics and Utraquists, nothing else counts”. Why should the Austrians have what they did not?\n\nTheir chance came soon. Maximilian's health was failing, he knew he had little time left, and he was eager to hand on his crowns to his eldest son Rudolf while he still lived. In 1572 Rudolf had already been crowned in Hungary; Bohemia was next. Since [[link:the-bloody-diet-1547]]1547[[/link]] the Bohemian crown was to pass to the king's heirs, but a new king still had to be formally accepted by the estates at a diet. And on top of that the king wanted them to pay for the war against the Turks.\n\n[[b]]The king wanted a throne and money. What the estates wanted was a piece of paper.[[/b]]\n\nIn February 1575 the diet opened. This time the New Utraquists and the Lutherans, joined by the Brethren, always treated as heretics until now, for once sat down together and put together a joint statement of faith: the Bohemian Confession. It was modelled largely on the Lutherans' Augsburg Confession, with Hussite and Brethren elements worked in. Only the Old Utraquists refused to take part. The three groups had quarrelled for a century and more, and this time they had finally written the same thing.\n\nOn 18 May the confession was laid before the emperor.\n\nMaximilian was in a bind. In his heart he may not have objected, but three great weights pressed down on him: the pope in Rome; the king of Spain in Madrid, who was both his brother-in-law and his cousin; and Bohemia's own Catholic lords. Worse still, that autumn the Empire was to choose the next emperor, and to have Rudolf elected he needed the votes of the Catholic electors. And at a moment like this he was supposed to sign a Protestant confession with his own hand?\n\n[[b]]He found a way to offend no one: say yes with his mouth, and sign nothing with his hand.[[/b]]\n\nIn front of the estates he promised by word of mouth that those who held to the confession would not be persecuted for their faith. As for a written document, there was none; and the confession itself was not to be printed or circulated.\n\nThe estates took his word and gave their consent. That September Rudolf was crowned King of Bohemia in St Vitus Cathedral, and the man who set the crown on his head was [[link:an-archbishop-at-last-1561]]Archbishop Brus[[/link]]. A month later he was elected King of the Romans, one step away from the imperial throne.\n\nMaximilian had won on both fronts: his son had a crown, and he had not lost the electors' votes.\n\nBut how long would a spoken promise hold? Once the man who spoke it was dead, would it still count?\n\nThe next autumn Maximilian died in Regensburg, and Rudolf took his place. On his deathbed, it is said, he refused the last sacraments from a Catholic priest. The “not quite Catholic” emperor went to his grave without anyone ever being sure which side he truly believed in.\n\nYears later his son would write:\n\n[[quote:0]]\n\n[[b]]The Bohemians waited thirty-four years for that sentence, until someone finally put it down on paper.[[/b]] And by then it turned out that the father who would not sign anything had been writing letters in his own hand after all.",
+      cz: "Maxmilián byl štědrý k Židům a ani k luteránům nebyl skoupý, aspoň v Rakousku.\n\nRoku 1571 dal luteránským pánům v Dolních Rakousích písemnou záruku: na svých hradech a statcích smějí konat bohoslužby po luteránsku. Černé na bílém a pod pečetí.\n\nČeši to všechno viděli. Před čtyřmi lety sami [[link:the-chalice-laid-down-1567]]vypustili basilejská kompaktáta ze svého práva[[/link]] a král jim přiznal jen to, že „mimo katolíky a kališníky se nic jiného nepočítá“. Proč by Rakušané měli mít, co oni nemají?\n\nPříležitost přišla brzy. Maxmiliánovo zdraví chřadlo, věděl, že mu nezbývá mnoho času, a chtěl ještě za živa předat koruny nejstaršímu synovi Rudolfovi. Roku 1572 byl Rudolf korunován v Uhrách; na řadě byly Čechy. Od roku [[link:the-bloody-diet-1547]]1547[[/link]] měla česká koruna přecházet na králova dědice, ale nového krále museli stavové na sněmu ještě formálně přijmout. A k tomu po nich král chtěl peníze na válku s Turky.\n\n[[b]]Král chtěl trůn a peníze. Stavové chtěli kus papíru.[[/b]]\n\nV únoru 1575 se sešel sněm. Tentokrát novoutrakvisté a luteráni, k nimž se přidali i bratři, dosud vždy pokládaní za kacíře, si poprvé sedli k jednomu stolu a sestavili společné vyznání víry: Českou konfesi. Stavbou se do velké míry držela luteránské augsburské konfese a vpletly se do ní husitské a bratrské prvky. Jen staroutrakvisté se odmítli zúčastnit. Ty tři skupiny se přely přes sto let a tentokrát konečně napsaly totéž.\n\n18. května byla konfese předložena císaři.\n\nMaxmilián se ocitl v úzkých. V srdci možná nic proti ní neměl, ale tlačila na něj tři velká břemena: papež v Římě; španělský král v Madridu, jeho švagr a zároveň bratranec; a čeští katoličtí páni. Navíc měla na podzim říše volit dalšího císaře, a aby byl zvolen Rudolf, potřeboval hlasy katolických kurfiřtů. A v takové chvíli měl vlastní rukou podepsat protestantskou konfesi?\n\n[[b]]Našel způsob, jak nikoho neurazit: ústy slíbit, rukou nic nepodepsat.[[/b]]\n\nPřed stavy ústně slíbil, že ti, kdo se ke konfesi hlásí, nebudou pro víru utiskováni. Písemná listina nebyla žádná; a samotnou konfesi bylo zakázáno tisknout a šířit.\n\nStavové se slibem spokojili a přikývli. V září byl Rudolf v katedrále svatého Víta korunován českým králem a korunu mu na hlavu vsadil [[link:an-archbishop-at-last-1561]]arcibiskup Brus[[/link]]. O měsíc později byl zvolen římským králem, krok od císařského trůnu.\n\nMaxmilián vyhrál na obou frontách: syn měl korunu a hlasy kurfiřtů nepřišly nazmar.\n\nJak dlouho ale vydrží slib vyslovený ústy? Platí ještě, když ten, kdo ho vyslovil, zemře?\n\nPříštího podzimu zemřel Maxmilián v Řezně a na trůn usedl Rudolf. Na smrtelné posteli prý odmítl poslední pomazání od katolického kněze. „Tak trochu nekatolický“ císař odešel do hrobu, aniž by kdo s jistotou věděl, čemu doopravdy věřil.\n\nO mnoho let později napsal jeho syn:\n\n[[quote:0]]\n\n[[b]]Na tu větu čekali Češi třicet čtyři let, než ji někdo konečně napsal na papír.[[/b]] A tehdy se ukázalo, že otec, který nechtěl nic podepsat, přece jen psal dopisy vlastní rukou.",
+      zh: "马克西米利安对犹太人大方，对路德派其实也不小气，至少在奥地利是这样。\n\n1571年，他给下奥地利的路德派贵族发了一份书面保证：你们可以在自己的城堡和庄园里，照路德的方式做礼拜。白纸黑字，盖了印。\n\n波希米亚人都看在眼里：四年前，他们自己[[link:the-chalice-laid-down-1567]]把《巴塞尔协约》从法律里删了[[/link]]，国王却只答应“除了天主教和圣杯派，别的都不算”。奥地利人有的，凭什么我们没有？\n\n机会很快就来了。马克西米利安身体越来越差，知道自己时日无多，急着在生前把位子传给长子鲁道夫。1572年，鲁道夫已经戴上了匈牙利的王冠，下一步是波希米亚。照[[link:the-bloody-diet-1547]]1547年[[/link]]的约定，波希米亚的王冠要传给国王的继承人，可新国王登基之前，还得各等级在议会上正式“接受”他才行。何况国王还要他们掏钱，跟土耳其人打仗。\n\n[[b]]国王要王位，要钱；各等级要的，是一张纸。[[/b]]\n\n1575年2月，议会开幕。这一回，新圣杯派、路德派，再加上一直被当成异端的弟兄会，破天荒地坐到了一起，凑出了一份共同的信仰声明，这就是《波希米亚信纲》。它大体照着路德派《奥格斯堡信纲》的样子写，又揉进了胡斯派和弟兄会的东西；只有老圣杯派不肯参加。三家人吵了一百多年，这回总算写出了同一份东西。\n\n5月18日，信纲被递到了皇帝面前。\n\n马克西米利安犯了难。他心里未必反对，可他头上还压着三座大山：罗马的教皇；马德里的西班牙国王，他的大舅子兼表兄；还有波希米亚自己的天主教贵族。更要命的是，这年秋天，帝国就要选下一任皇帝了，他要让鲁道夫当选，手里少不了天主教选帝侯的票。偏偏在这个节骨眼上，要他亲手在一份新教信纲上签字？\n\n[[b]]他想了一个两头都不得罪的办法：嘴上答应，手上不签。[[/b]]\n\n他当着各等级的面口头保证：信这份信纲的人，不会因为信仰受到打压。至于书面文件，没有；信纲本身，也不许印刷，不许散发。\n\n各等级拿到了这句话，也就点了头。那年9月，鲁道夫在圣维特大教堂加冕为波希米亚国王，为他戴上王冠的，就是[[link:an-archbishop-at-last-1561]]布鲁斯大主教[[/link]]。一个月后，他又被选为罗马人的国王，离皇位只差一步。\n\n马克西米利安两头都赢了：儿子有了王冠，选帝侯的票也没丢。\n\n可一句口头承诺能管多久？说出口的人一死，还算不算数？\n\n第二年秋天，马克西米利安在雷根斯堡去世，鲁道夫坐上了王位。据说临终前，他拒绝了天主教神父送来的最后圣礼。这位“不太像天主教徒”的皇帝，到死都没让人看清，他心里信的到底是哪一边。\n\n许多年以后，他的儿子写下了这样一句话：\n\n[[quote:0]]\n\n[[b]]这句话，波希米亚人整整等了三十四年，才终于等到有人把它写在纸上。[[/b]]到那时人们才发现，那位什么都不肯签的父亲，原来还是亲笔写过信的。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "malostranska-beseda",
+        relation: {
+          en: "The old Lesser Town Hall, in whose council hall the Bohemian Confession was drafted in 1575; a bronze plaque on the wall still recalls it.",
+          cz: "Stará malostranská radnice, v jejíž radní síni se roku 1575 sepisovala Česká konfese; připomíná to dodnes bronzová deska na zdi.",
+          zh: "旧小城市政厅。1575年，《波希米亚信纲》就是在它的议事厅里起草的，墙上至今挂着一块纪念铜牌。",
+        },
+      },
+      {
+        slug: "old-royal-palace",
+        relation: {
+          en: "The diets of the Bohemian estates met in the royal palace at Prague Castle; here, in 1575, the Bohemian Confession was laid before Maximilian II.",
+          cz: "V královském paláci na Pražském hradě zasedaly sněmy českých stavů; tady byla roku 1575 Maxmiliánovi II. předložena Česká konfese.",
+          zh: "波希米亚各等级的议会在布拉格城堡的王宫里召开；1575年，《波希米亚信纲》就是在这里呈到了马克西米利安二世面前。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_konfese",
+  },
+  // 2026-10-18. cs.wikipedia (Bible kralická): Brethren press moved from
+  // Ivančice to Kralice nad Oslavou in 1578 under Jan of Žerotín; six
+  // volumes 1579–1594, the Pentateuch first (1579); first Czech Bible
+  // translated straight from Hebrew, Aramaic and Greek; marginal notes; its
+  // language the model for Czech until the National Revival. Genesis 1:1 as
+  // printed there quoted from the same article. Veleslavín (cs.wikipedia):
+  // born 1546 at Veleslavín, master at the university 1569–1576, married
+  // Melantrich's daughter in 1576, Kalendář historický 1578, Latin-Czech
+  // dictionary 1579, the "Veleslavín era". Rudolf: raised at Philip II's
+  // court in Spain from 1563 to 1571 (general knowledge, kept general).
+  {
+    slug: "czech-in-print-1579",
+    era: "habsburgs-move-in",
+    quotes: [
+      {
+        text: {
+          en: "Na počátku stvořil Bůh nebe a zemi.\nIn the beginning God created the heaven and the earth.",
+          cz: "Na počátku stvořil Bůh nebe a zemi.",
+          zh: "Na počátku stvořil Bůh nebe a zemi.\n起初，神创造天地。",
+        },
+        attribution: {
+          en: "Genesis 1:1, the first line of the Kralice Bible, 1579",
+          cz: "Genesis 1,1, první věta Bible kralické, 1579",
+          zh: "《创世记》1:1，《克拉利采圣经》的第一句，1579年",
+        },
+      },
+    ],
+    startYear: 1579,
+    year: {
+      en: "1579",
+      cz: "1579",
+      zh: "1579年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Czech in Print",
+      cz: "Čeština v tisku",
+      zh: "印成铅字的捷克语",
+    },
+    hookLine: {
+      en: "The Brethren had been driven out of Bohemia. In a Moravian village they set about writing the rules for the whole Czech language.",
+      cz: "Bratry z Čech vyhnali. V jedné moravské vesnici se pustili do toho, že dají pravidla celé češtině.",
+      zh: "弟兄会被赶出了波希米亚。他们躲进摩拉维亚的一个小村子，给整个捷克语立起了规矩。",
+    },
+    summary: {
+      en: "In 1579, in the Moravian village of Kralice, a small press printed the first volume of a book. Open it, and the first sentence reads:\n\n[[quote:0]]\n\nThe press belonged to the Unity of the Brethren. [[link:the-bloody-diet-1547]]Driven out of Bohemia[[/link]] three decades earlier, the Brethren had found refuge on the estates of friendly Moravian lords; in 1578 the lord Jan of Žerotín took their press under his protection and it moved to Kralice.\n\nWhat they were printing was the Bible. Earlier Czech Bibles had been translated from the Latin; this time a team of Brethren scholars went back to the Hebrew, Aramaic and Greek, the first Czech Bible ever translated straight from the original languages. The margins were packed with notes and explanations. Six volumes came out between 1579 and 1594.\n\nIts language turned out to matter even more than its theology. For more than two centuries, until the National Revival, the Czech of the Kralice Bible was the model of what good written Czech should look like.\n\n[[b]]Driven out of Bohemia, hiding in a Moravian village, the Brethren set the standard for the whole Czech language.[[/b]]\n\nPrague was not idle either. In 1576 a young university master named Daniel Adam of Veleslavín married the daughter of the great printer Melantrich and went to work in his father-in-law's press. In 1578 he published his Historical Calendar, and in 1579, the year of the first Kralice volume, a Latin–Czech dictionary. Books in fine, polished Czech kept coming off his presses, and literary historians still call these decades the Veleslavín era.\n\nAnd the new king? Rudolf had spent eight of his teenage years at his uncle's court in Spain. He came back reserved, formal and quiet. He cared more for paintings, clocks, precious stones and the stars than for diets and petitions, and he left the daily business of government to his councillors. As for the promise his father had made by word of mouth, he neither confirmed it nor broke it; he simply let it be.\n\nA king who did not interfere much at least left the presses room to breathe.\n\nFor now, though, the young Rudolf, only a few years after his coronation, was turning something over in his mind: he found Vienna rather dull.",
+      cz: "Roku 1579 vytiskla v moravské vesnici Kralice malá tiskárna první díl jedné knihy. Když ji otevřete, první věta zní:\n\n[[quote:0]]\n\nTiskárna patřila Jednotě bratrské. Bratři, před třemi desetiletími [[link:the-bloody-diet-1547]]vypovězení z Čech[[/link]], našli útočiště na panstvích přátelských moravských pánů; roku 1578 vzal jejich tiskárnu pod ochranu pan Jan ze Žerotína a ta se přestěhovala do Kralic.\n\nTiskli Bibli. Dřívější české Bible se překládaly z latiny; tentokrát se skupina bratrských učenců vrátila k hebrejštině, aramejštině a řečtině a vznikla první česká Bible přeložená přímo z původních jazyků. Okraje byly plné poznámek a vysvětlivek. V letech 1579–1594 vyšlo šest dílů.\n\nJejí jazyk se ukázal ještě důležitější než její teologie. Přes dvě stě let, až do národního obrození, byla čeština Bible kralické vzorem toho, jak má vypadat dobrá psaná čeština.\n\n[[b]]Bratři, vyhnaní z Čech a ukrytí v moravské vesnici, dali měřítko celé češtině.[[/b]]\n\nAni Praha nezahálela. Roku 1576 se mladý univerzitní mistr Daniel Adam z Veleslavína oženil s dcerou velkého tiskaře Melantricha a začal pracovat v tchánově tiskárně. Roku 1578 vydal svůj Kalendář historický a roku 1579, v roce prvního kralického dílu, latinsko-český slovník. Z jeho lisů vycházela jedna kniha vytříbenou češtinou za druhou a literární historici těm desetiletím dodnes říkají doba veleslavínská.\n\nA nový král? Rudolf strávil osm let svého mládí na strýcově dvoře ve Španělsku. Vrátil se zdrženlivý, formální a tichý. Víc ho zajímaly obrazy, hodiny, drahé kameny a hvězdy než sněmy a suppliky a každodenní vládu nechával svým radům. Slib, který otec dal ústy, ani nepotvrdil, ani neporušil; prostě ho nechal být.\n\nKrál, který se do ničeho moc nepletl, aspoň nechal tiskárnám prostor nadechnout se.\n\nZatím však mladý Rudolf, pár let po korunovaci, přemítal o jedné věci: Vídeň mu připadala poněkud nudná.",
+      zh: "1579年，摩拉维亚的小村克拉利采，一家小印刷所印出了一本书的第一卷。翻开来，第一句话是：\n\n[[quote:0]]\n\n这家印刷所属于弟兄会。三十年前，弟兄会被[[link:the-bloody-diet-1547]]赶出了波希米亚[[/link]]，在摩拉维亚几位开明贵族的庄园上找到了落脚的地方；1578年，日罗廷家的扬老爷把他们的印刷所护了下来，搬到了克拉利采。\n\n他们印的，是《圣经》。以前的捷克语《圣经》，都是从拉丁文转译的；这一回，一群弟兄会的学者直接回到希伯来文、亚兰文和希腊文，译出了第一部从原文直译的捷克语《圣经》，书页的边上还挤满了注释。从1579年到1594年，一共出了六卷。\n\n后来证明，比起神学，它的语言更要紧。此后两百多年，一直到民族复兴运动，《克拉利采圣经》里的捷克语，就是“好的书面捷克语”该有的样子。\n\n[[b]]被赶出波希米亚的弟兄会，躲在摩拉维亚的一个小村子里，给整个捷克语立了规矩。[[/b]]\n\n布拉格这边也没闲着。1576年，一位叫丹尼尔·亚当·维莱斯拉温的年轻大学教师，娶了大印刷商梅兰特里赫的女儿，进了岳父的印刷所。1578年，他出了一本《历史年历》；1579年，也就是克拉利采印出第一卷的那一年，他又出了一部拉丁语—捷克语词典。他的印刷机里，一本接一本地印出文字讲究的捷克语书；直到今天，文学史家还管那几十年叫“维莱斯拉温时代”。\n\n那么新国王呢？鲁道夫十几岁的时候，在西班牙的舅舅宫里住了八年，回来以后，拘谨、讲排场、话不多。比起议会和请愿书，他更喜欢油画、钟表、宝石和星星，日常的国事，都交给大臣们去办。至于父亲那个口头答应，他既不确认，也不推翻，就那么放着。\n\n国王不怎么管事，倒也给了印刷所喘口气的工夫。\n\n而眼下，年轻的鲁道夫，戴上王冠才没几年，就在琢磨一件事情：他觉得维也纳有点太无聊了。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "melantrichova",
+        relation: {
+          en: "The lane named after Jiří Melantrich, the great Renaissance printer whose press his son-in-law Daniel Adam of Veleslavín carried on.",
+          cz: "Ulice pojmenovaná po Jiřím Melantrichovi, velkém renesančním tiskaři, v jehož tiskárně pokračoval jeho zeť Daniel Adam z Veleslavína.",
+          zh: "以文艺复兴时期的大印刷商梅兰特里赫命名的小街；他的女婿维莱斯拉温，接手了他的印刷所。",
+        },
+      },
+      {
+        slug: "zamek-veleslavin",
+        relation: {
+          en: "Veleslavín, the village on the edge of Prague from which Daniel Adam of Veleslavín, born there in 1546, took his name.",
+          cz: "Veleslavín, ves na okraji Prahy, odkud pocházel a podle níž se psal Daniel Adam z Veleslavína, narozený tu roku 1546.",
+          zh: "布拉格边上的维莱斯拉温村，丹尼尔·亚当1546年生在这里，名字后面的“维莱斯拉温”就是从这里来的。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Bible_kralick%C3%A1",
+  },
 ];
 
 // Era-overview cards live in their own file (see historyOverviews.js).
