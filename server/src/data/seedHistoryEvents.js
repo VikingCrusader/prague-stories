@@ -4056,7 +4056,7 @@ export const historyEvents = [
     summary: {
       en: "Once Záviš was in chains, Wenceslas's first real move wasn't a purge: it was a careful swap.\n\nZáviš's own network of appointees and loyalists got replaced, piece by piece, with men Wenceslas actually trusted: some slots went to nobles who'd always leaned pro-Habsburg, and others went to men who'd been squarely inside Záviš's own camp right up until the moment it stopped being useful to stay there.\n\nWenceslas didn't seem to care much where any given noble's loyalty had been pointed a year earlier, only where it was pointed now.\n\nThe crown seized Záviš's ill-gotten property, but not all the way down to the studs: some of it got handed straight back out, a deliberate concession aimed at keeping the kingdom's more important nobles firmly on side rather than pushed into a corner.\n\nThe real broker here was Henry of Rožmberk, by this point the most important living member of the Vítkovci family, who personally negotiated on his own relatives' behalf.\n\nHis intervention spared most of the wider family from serious punishment; Záviš's own brothers got off with the cheapest possible sentence available: surrender your property, leave the country, and don't come back.\n\nIt worked. Rather than dragging on into the kind of prolonged noble civil war Bohemia had already lived through more than once this century, the kingdom settled down fast from 1290 onward.\n\nThe 19th-century historian František Palacký, looking back on this exact stretch centuries later, called it something genuinely rare for the era:\n\n[[quote:0]]\n\n[[b]]This, more than the arrest or the execution, was Wenceslas's real moment as a statesman: he had every justification in the world to make this a bloodbath, and chose the cheapest peace instead.[[/b]]",
       cz: "Jakmile byl Záviš v poutech, Václavovým prvním skutečným tahem nebyla čistka: byla to promyšlená výměna.\n\nZávišova vlastní síť dosazenců a věrných byla postupně nahrazována muži, kterým Václav skutečně důvěřoval: některá místa připadla šlechticům, kteří vždycky tíhli k Habsburkům, jiná zase mužům, kteří byli až do chvíle, kdy se to přestalo vyplácet, přímo součástí Závišova vlastního tábora.\n\nVáclavovi zjevně příliš nezáleželo na tom, kam mířila loajalita toho kterého šlechtice před rokem, jen na tom, kam mířila teď.\n\nKoruna zabavila Závišův nekale nabytý majetek, ale ne úplně do posledního kamene: část se rovnou vrátila zpátky, promyšlené ústupky mířené na to, udržet si důležitější šlechtice pevně na své straně, místo aby je zahnala do kouta.\n\nSkutečným vyjednavačem tu byl Jindřich z Rožmberka, v té době nejvýznamnější žijící člen rodu Vítkovců, který osobně vyjednával jménem vlastních příbuzných.\n\nJeho zásah ušetřil širší rodinu vážnějšího trestu; Závišovi vlastní bratři vyvázli s nejlevnějším možným trestem: vzdát se majetku, opustit zemi a nevracet se.\n\nFungovalo to. Místo aby se to protáhlo do dalšího z těch dlouhých šlechtických občanských válek, které Čechy tohle století už zažily víc než jednou, se království od roku 1290 rychle uklidnilo.\n\nHistorik František Palacký, když se o staletí později ohlížel přesně za tímhle obdobím, to nazval něčím pro tu dobu opravdu vzácným:\n\n[[quote:0]]\n\n[[b]]Tohle, víc než samotné zatčení nebo poprava, byl Václavův skutečný okamžik státníka: měl na to všechny důvody na světě udělat z toho krveprolití, a místo toho zvolil nejlevnější možný mír.[[/b]]",
-      zh: "扎维什一戴上镣铐，瓦茨拉夫真正做的第一件事，不是清算，而是一次精打细算的换血。\n\n扎维什自己那套亲信和任命网络，被一点一点替换成瓦茨拉夫真正信得过的人：一部分位置给了那些一贯亲哈布斯堡的贵族，另一部分则给了那些一直都是扎维什阵营核心成员、直到留在那边不再划算才转向的人。\n\n瓦茨拉夫显然并不太在意某位贵族一年前的忠诚指向哪里，他在意的，只是现在指向哪里。\n\n王室没收了扎维什的不义之财，但并没有连根拔起、一分不剩：其中一部分被有意识地重新放出去，目的是把更重要的贵族牢牢留在自己这边，而不是把他们逼到墙角。\n\n真正出面斡旋的人是罗日姆贝克的金德里奇，当时维特科维奇家族里在世的最重要成员，他亲自出面替自己的亲族谈判。\n\n他的斡旋让这个大家族的大部分成员都免于严厉惩罚；扎维什自己的兄弟们得到的是能拿到的最轻处罚：交出财产、离开这个国家、不得再回来。\n\n这招奏效了。波希米亚没有像这个世纪已经不止一次经历过的那样，陷入一场旷日持久的贵族内战，反而从1290年起迅速平静了下来。\n\n19世纪历史学家弗朗齐歇克·帕拉茨基，几个世纪后回顾这段时期时，称之为那个年代里相当罕见的现象：\n\n[[quote:0]]\n\n[[b]]这一点，比逮捕本身、比处决本身，更是瓦茨拉夫真正作为一位政治家的高光时刻：他手里握着足够充分的理由，大可以把这变成一场血洗，却选择了代价最小的和平方案。[[/b]]",
+      zh: "扎维什一戴上镣铐，瓦茨拉夫真正做的第一件事，不是清算，而是一次精打细算的换血。\n\n扎维什自己那套亲信和任命网络，被一点一点替换成瓦茨拉夫真正信得过的人：一部分位置给了那些一贯亲哈布斯堡的贵族，另一部分则给了那些一直都是扎维什阵营核心成员、直到留在那边不再划算才转向的人。\n\n瓦茨拉夫显然并不太在意某位贵族一年前的忠诚指向哪里，他在意的，只是现在指向哪里。\n\n王室没收了扎维什的不义之财，但并没有连根拔起、一分不剩：其中一部分被有意识地重新放出去，目的是把更重要的贵族牢牢留在自己这边，而不是把他们逼到墙角。\n\n真正出面斡旋的人是罗森贝格的金德里奇，当时维特科维奇家族里在世的最重要成员，他亲自出面替自己的亲族谈判。\n\n他的斡旋让这个大家族的大部分成员都免于严厉惩罚；扎维什自己的兄弟们得到的是能拿到的最轻处罚：交出财产、离开这个国家、不得再回来。\n\n这招奏效了。波希米亚没有像这个世纪已经不止一次经历过的那样，陷入一场旷日持久的贵族内战，反而从1290年起迅速平静了下来。\n\n19世纪历史学家弗朗齐歇克·帕拉茨基，几个世纪后回顾这段时期时，称之为那个年代里相当罕见的现象：\n\n[[quote:0]]\n\n[[b]]这一点，比逮捕本身、比处决本身，更是瓦茨拉夫真正作为一位政治家的高光时刻：他手里握着足够充分的理由，大可以把这变成一场血洗，却选择了代价最小的和平方案。[[/b]]",
     },
     quotes: [
       {
@@ -17898,7 +17898,7 @@ export const historyEvents = [
     summary: {
       en: "Bechyně sits on a rock above the point where the little Smutná runs into the Lužnice, a spot people had been fortifying since the Bronze Age. King Otakar II built a royal castle there in 1268, partly to keep an eye on the [[link:who-are-the-vitkovci-1276]]Vítkovci[[/link]].\n\nBy the 1420s it belonged to the Lefls of Lažany, a Catholic family, and it had a history with the Hussites that went back to the very start.\n\nIn 1419 the first great open-air gatherings of radical Hussites had met on a hill near Bechyně that the faithful renamed Mount Tábor, and the whole movement was still named after it. In 1422 a Hussite army burned the town of Bechyně. The castle held.\n\nBy 1428 the lord of Bechyně, Hynek Lefl of Lažany, had fallen out with [[link:one-jailbreak-two-castles-1420]]Oldřich of Rožmberk[[/link]], the most powerful Catholic lord in the south and the one man with an army close enough to help. It was a bad year for it.\n\nOn 8 July Prokop arrived with the entire Táborite army and split it into four camps around the castle. According to the Old Czech Annals, he had his guns set crosswise so that their fire would cross over the town.\n\nThe earthworks of one of those camps can still be traced on the ridge south of the castle. The bombardment went on week after week, and in late September the besiegers were still there, writing letters from the camp:\n\n[[quote:0]]\n\nThe man actually running the siege comes fourth on that list, simply as \"the priest Prokop.\" It was costing him.\n\nJaroslav of Trocnov, Žižka's only known brother, died at Bechyně; according to a German history of 1609 he was shot from the walls while making the rounds of the guard posts. An older monastic note has him beheaded at České Budějovice instead, so even his death is disputed.\n\nJaroslav of Bukovina, the Taborites' supreme field captain, signed the September letter and then disappears from the record. He may have died there too.\n\nBy the end of September it was clear that Bechyně could not hold much longer. After some fifteen weeks the castle gave up, in the annals' words, \"for great distress.\"\n\nA truce came into force in mid-October, and the hundred or so surviving defenders were allowed to march out free. Prokop made Jan Bleh of Těšnice captain of Bechyně, and the Taborites held it for the next nine years.\n\n[[b]]The castle a king had built to watch over the south now belonged to the movement that had taken its name from the hill next door.[[/b]]\n\nBy the end of the year the balance had flipped. Sigismund, who had spent eight years sending armies into Bohemia, was now sending envoys instead, inviting the Hussites to come and talk.",
       cz: "Bechyně stojí na skále nad místem, kde se říčka Smutná vlévá do Lužnice, a lidé to místo opevňovali už v době bronzové. Přemysl Otakar II. tu roku 1268 postavil královský hrad, mimo jiné proto, aby měl na očích [[link:who-are-the-vitkovci-1276]]Vítkovce[[/link]].\n\nVe dvacátých letech 15. století patřila Leflům z Lažan, katolickému rodu, a s husity měla účty už od samého začátku.\n\nRoku 1419 se na vrchu u Bechyně, který poutníci přejmenovali na horu Tábor, scházela první velká lidová shromáždění radikálních husitů, a celé hnutí se po něm jmenovalo dál. Roku 1422 husitské vojsko vypálilo město Bechyni. Hrad vydržel.\n\nRoku 1428 byl pán na Bechyni, Hynek Lefl z Lažan, rozkmotřený s [[link:one-jailbreak-two-castles-1420]]Oldřichem z Rožmberka[[/link]], nejmocnějším katolickým pánem na jihu a jediným, kdo měl vojsko dost blízko, aby pomohl. Na to si vybral špatný rok.\n\n8. července dorazil Prokop s celým táborským vojskem a rozdělil ho kolem hradu do čtyř ležení. Podle Starých letopisů českých dal pušky zasadit křížem, aby jejich oheň šel na město křížem.\n\nValy jednoho z těch ležení lze dodnes vysledovat na ostrohu jižně od hradu. Ostřelování pokračovalo týden za týdnem a koncem září tu obléhající byli pořád a psali z ležení dopisy:\n\n[[quote:0]]\n\nMuž, který obléhání ve skutečnosti řídil, je v tom výčtu až čtvrtý, prostě jako „kněz Prokop“. Stálo ho to hodně.\n\nU Bechyně zahynul Jaroslav z Trocnova, jediný doložený Žižkův bratr; podle německých dějin z roku 1609 ho zastřelili z hradeb, když obcházel stráže. Starší klášterní záznam ho naopak nechává sťít v Českých Budějovicích, takže i o jeho smrti se vede spor.\n\nJaroslav z Bukoviny, vrchní polní hejtman táborů, zářijový list podepsal a pak z pramenů mizí. Možná tam padl také.\n\nKoncem září bylo jasné, že Bechyně dlouho nevydrží. Asi po patnácti týdnech se hrad vzdal, slovy letopisce „pro veliké súžení“.\n\nV polovině října vstoupilo v platnost příměří a zhruba stovka přeživších obránců mohla volně odejít. Prokop dosadil na Bechyni za hejtmana Jana Bleha z Těšnice a táboři ji pak drželi devět let.\n\n[[b]]Hrad, který král postavil, aby hlídal jih, teď patřil hnutí, které si vzalo jméno od vrchu hned vedle.[[/b]]\n\nDo konce roku se poměry obrátily. Zikmund, který osm let posílal do Čech vojska, teď posílal posly a zval husity k jednání.",
-      zh: "贝希涅建在一块岩石上，脚下是小河斯穆特纳汇入卢日尼采河的地方，早在青铜时代，人们就开始在这里修筑防御。1268年，国王普热米斯尔·奥托卡二世在这里修了一座王室城堡，用意之一，就是盯住[[link:who-are-the-vitkovci-1276]]维特科维奇家族[[/link]]。\n\n到了15世纪20年代，城堡归拉扎尼的莱夫尔家族所有，这是个天主教家族。贝希涅和胡斯派的恩怨，从一开始就结下了。\n\n1419年，激进的胡斯派在贝希涅附近的一座山上举行了最早的几次大规模露天集会，信众把那座山改名为“塔博尔山”，整个运动也一直沿用着这个名字。1422年，一支胡斯军烧了贝希涅城，城堡却守住了。\n\n到了1428年，贝希涅的主人、拉扎尼的海涅克·莱夫尔已经和[[link:one-jailbreak-two-castles-1420]]罗日姆贝克的奥尔德日赫[[/link]]闹翻了。奥尔德日赫是南方最有势力的天主教贵族，也是唯一一个手里有兵、离得又近、能来救他的人。这架吵得实在不是时候。\n\n7月8日，普罗科普带着整支塔博尔军赶到，在城堡四周分设四座营地。据《古捷克编年史》记载，他把大炮交叉布置，让炮火从两个方向交叉落进城里。\n\n其中一座营地的土垒，今天在城堡南边的山脊上还能辨认出来。炮击一周接着一周，到了9月底，围城的人还在营地里，还在往外写信：\n\n[[quote:0]]\n\n真正指挥这场围城的人，在名单上排第四，署名只是“神父普罗科普”。这场围城让他付出了不小的代价。\n\n杰式卡唯一有据可查的弟弟、特罗茨诺夫的雅罗斯拉夫死在了贝希涅城下。据1609年的一部德文史书记载，他是在巡查岗哨时被城墙上射来的子弹打死的。不过更早的一条修道院记录却说，他是在捷克布杰约维采被砍头的，所以连他怎么死的都有争议。\n\n塔博尔野战军的最高指挥官、布科维纳的雅罗斯拉夫，在9月那封信上签了名，之后就从史料里消失了，很可能也死在了这里。\n\n9月底，谁都看得出来，贝希涅撑不了多久了。围了大约十五个星期之后，城堡投降了，用编年史的话说，是“苦不堪言”。\n\n10月中旬，停战协议生效，剩下的约一百名守军获准自由离开。普罗科普任命特什尼采的扬·布莱赫为贝希涅的指挥官，此后九年，这里一直在塔博尔派手里。\n\n[[b]]一位国王为了看住南方而修的城堡，最后落到了以隔壁那座山命名的运动手里。[[/b]]\n\n到年底，形势已经彻底翻了过来。八年来一直往波希米亚派军队的西吉斯蒙德，这回改派使者了，请胡斯派坐下来谈一谈。",
+      zh: "贝希涅建在一块岩石上，脚下是小河斯穆特纳汇入卢日尼采河的地方，早在青铜时代，人们就开始在这里修筑防御。1268年，国王普热米斯尔·奥托卡二世在这里修了一座王室城堡，用意之一，就是盯住[[link:who-are-the-vitkovci-1276]]维特科维奇家族[[/link]]。\n\n到了15世纪20年代，城堡归拉扎尼的莱夫尔家族所有，这是个天主教家族。贝希涅和胡斯派的恩怨，从一开始就结下了。\n\n1419年，激进的胡斯派在贝希涅附近的一座山上举行了最早的几次大规模露天集会，信众把那座山改名为“塔博尔山”，整个运动也一直沿用着这个名字。1422年，一支胡斯军烧了贝希涅城，城堡却守住了。\n\n到了1428年，贝希涅的主人、拉扎尼的海涅克·莱夫尔已经和[[link:one-jailbreak-two-castles-1420]]罗森贝格的奥尔德日赫[[/link]]闹翻了。奥尔德日赫是南方最有势力的天主教贵族，也是唯一一个手里有兵、离得又近、能来救他的人。这架吵得实在不是时候。\n\n7月8日，普罗科普带着整支塔博尔军赶到，在城堡四周分设四座营地。据《古捷克编年史》记载，他把大炮交叉布置，让炮火从两个方向交叉落进城里。\n\n其中一座营地的土垒，今天在城堡南边的山脊上还能辨认出来。炮击一周接着一周，到了9月底，围城的人还在营地里，还在往外写信：\n\n[[quote:0]]\n\n真正指挥这场围城的人，在名单上排第四，署名只是“神父普罗科普”。这场围城让他付出了不小的代价。\n\n杰式卡唯一有据可查的弟弟、特罗茨诺夫的雅罗斯拉夫死在了贝希涅城下。据1609年的一部德文史书记载，他是在巡查岗哨时被城墙上射来的子弹打死的。不过更早的一条修道院记录却说，他是在捷克布杰约维采被砍头的，所以连他怎么死的都有争议。\n\n塔博尔野战军的最高指挥官、布科维纳的雅罗斯拉夫，在9月那封信上签了名，之后就从史料里消失了，很可能也死在了这里。\n\n9月底，谁都看得出来，贝希涅撑不了多久了。围了大约十五个星期之后，城堡投降了，用编年史的话说，是“苦不堪言”。\n\n10月中旬，停战协议生效，剩下的约一百名守军获准自由离开。普罗科普任命特什尼采的扬·布莱赫为贝希涅的指挥官，此后九年，这里一直在塔博尔派手里。\n\n[[b]]一位国王为了看住南方而修的城堡，最后落到了以隔壁那座山命名的运动手里。[[/b]]\n\n到年底，形势已经彻底翻了过来。八年来一直往波希米亚派军队的西吉斯蒙德，这回改派使者了，请胡斯派坐下来谈一谈。",
     },
     quotes: [
       {
@@ -18610,7 +18610,7 @@ export const historyEvents = [
     summary: {
       en: "The Church had tried stamping out the heresy by force four times, and four times it was the crusaders who ended up running home. Out of better ideas, it was now trying something new: asking the Hussites to sit down and talk.\n\nWhat finally got Prokop out of bed was exactly that: an invitation to Basel.\n\nIn October 1431 the Church's general council meeting there, chaired by Cardinal Cesarini, the same man who had fled from Domažlice in disguise that summer, had invited the Bohemians to come and argue their case, with a promise of safe passage.\n\nThe council's to-do list read: stamp out heresy (in practice, the Hussites); make the Christian princes stop fighting one another; reform the Church \"in head and members\", where the head could only mean the pope, which goes some way to explaining why the pope was not a fan; and, before long, end the nearly four-hundred-year split with the Greek Church, because the Byzantine Empire, by now little more than Constantinople and a few scraps of Greece, badly needed Western help and hoped reunion would buy it.\n\nIt was a list that would have kept a whole century busy, never mind one meeting. There is more about it in the background card [[link:what-was-the-council-of-basel-1431]]What Was the Council of Basel?[[/link]] above.\n\nOn New Year's Day 1432 the diet met in the New Town hall in Prague, and not one Táborite came.\n\nOn the invitation it said yes in principle, provided the envoys' safety was guaranteed, but it refused to give a firm answer until the Táborite leaders had said what they thought.\n\n[[b]]The reason was simple: what frightened the Church was Prokop's army, not the Prague diet.[[/b]]\n\nSo Bohemia's reply to the entire Catholic Church was waiting on one man, the same man Prague had just offered to send the executioner.\n\nProkop had his own doubts about Basel. The Táborites had no wish to let a church council sit in judgment on their faith as though it had the right to. But if they stayed away, someone else would be speaking for Bohemia.\n\nBy January 1432 he was up again, and moving fast. He called the Táborite captains together, then rode south to Třeboň to see [[link:one-jailbreak-two-castles-1420]]Oldřich of Rožmberk[[/link]], the most powerful Catholic lord in the kingdom and Tábor's neighbour and enemy for more than ten years.\n\nThey agreed a year's truce and an exchange of prisoners, and Prokop even suggested that Oldřich come to Basel with the Hussite delegation. Nothing came of it, but the offer shows how Prokop now saw things: if the whole kingdom was going to talk to the Church, it had better talk with one voice.\n\nOn 10 February the great diet met in Prague, and this time everyone came. Táborites, Orphans, Praguers and lords sat in one room for the first time in months.\n\nIt was a stormy meeting, with the old accusations still hanging in the air, but it ended with an agreement to go to Basel together, and Prokop was among the envoys chosen.\n\n[[b]]Two months after being offered an executioner, Prokop was once again the man who would speak for Bohemia.[[/b]]\n\nNot everyone left reassured. Some of the Utraquist lords had begun to wonder, quietly, whether the Catholic lords might make better allies against Tábor than Tábor did against anyone.",
       cz: "Vymýtit kacířství mečem zkusila církev už čtyřikrát a pokaždé nakonec utíkali domů křižáci. Protože jí došly lepší nápady, zkoušela teď něco nového: pozvat husity, ať si sednou a promluví si.\n\nZ postele Prokopa nakonec vytáhlo právě tohle: pozvání do Basileje.\n\nV říjnu 1431 tamní obecný koncil církve, jemuž předsedal kardinál Cesarini, týž, který v létě v přestrojení utekl od Domažlic, pozval Čechy, aby přijeli obhájit své učení, a slíbil jim bezpečný průchod.\n\nSeznam úkolů koncilu zněl: vymýtit kacířství (v praxi tedy husity); přimět křesťanské panovníky, aby se přestali navzájem rvát; reformovat církev „v hlavě i v údech“, přičemž hlavou mohl být míněn jedině papež, což leccos vysvětluje na tom, proč z koncilu neměl radost; a zanedlouho přibylo i ukončení skoro čtyři sta let starého rozkolu s řeckou církví, protože Byzantská říše, scvrklá tou dobou skoro jen na Konstantinopol a pár útržků Řecka, nutně potřebovala pomoc ze Západu a doufala, že si ji sjednocením koupí.\n\nTakový seznam by zaměstnal celé století, natož jedno shromáždění. Víc se o něm dozvíte v kartě s pozadím [[link:what-was-the-council-of-basel-1431]]Co byl basilejský koncil?[[/link]] výše.\n\nNa Nový rok 1432 se na Novoměstské radnici v Praze sešel sněm a nepřišel na něj jediný tábor.\n\nK pozvání se vyjádřil tak, že v zásadě ano, bude-li vyslancům zaručena bezpečnost, ale pevnou odpověď odmítl dát, dokud se nevysloví táborští předáci.\n\n[[b]]Důvod byl prostý: církev se bála Prokopova vojska, ne pražského sněmu.[[/b]]\n\nOdpověď Čech celé katolické církvi tak čekala na jednoho člověka, na téhož, kterému Praha právě nabídla kata.\n\nProkop měl k Basileji vlastní výhrady. Táboři nestáli o to, aby jejich víru soudil církevní koncil, jako by na to měl právo. Kdyby ale zůstali doma, mluvil by za Čechy někdo jiný.\n\nV lednu 1432 byl zase na nohou a jednal rychle. Svolal táborské hejtmany a pak zajel na jih do Třeboně za [[link:one-jailbreak-two-castles-1420]]Oldřichem z Rožmberka[[/link]], nejmocnějším katolickým pánem v zemi a už přes deset let táborským sousedem i nepřítelem.\n\nDohodli roční příměří a výměnu zajatců a Prokop dokonce navrhl, aby Oldřich jel do Basileje s husitským poselstvem. Nic z toho nebylo, ale ten návrh ukazuje, jak teď Prokop věci viděl: když už má celé království mluvit s církví, ať mluví jedním hlasem.\n\nDesátého února se v Praze sešel velký sněm a tentokrát přišli všichni. Táboři, sirotci, Pražané i páni poprvé po mnoha měsících seděli v jedné místnosti.\n\nZasedání bylo bouřlivé a stará obvinění pořád visela ve vzduchu, ale skončilo dohodou, že do Basileje pojedou společně, a mezi zvolenými vyslanci byl i Prokop.\n\n[[b]]Dva měsíce poté, co mu nabízeli kata, byl Prokop znovu tím, kdo bude mluvit za Čechy.[[/b]]\n\nNe každý odcházel uklidněn. Někteří kališničtí páni začali potichu uvažovat, jestli by katoličtí páni nebyli proti Táboru lepšími spojenci, než byl Tábor proti komukoli.",
-      zh: "用刀剑铲除异端，教会已经试了四次，四次都是十字军自己先跑回了家。实在没了办法，这回只好换个路子：请胡斯派坐下来，好好讲讲道理。\n\n最后把普罗科普从病床上拽起来的，正是这份来自巴塞尔的邀请。\n\n1431年10月，在那里召开的教会公会议邀请波希米亚人前去陈述自己的主张，并保证他们来去平安；主持会议的，正是那年夏天乔装逃离多马日利采的红衣主教切萨里尼。\n\n公会议的待办清单是这样写的：铲除异端（说白了就是胡斯派）；让基督教各国君主别再互相打仗；对教会进行“从头到肢体”的改革，而这个“头”，指的只能是教皇，难怪教皇对这次会议怎么都高兴不起来；没过多久又添了一条：结束和希腊教会那场将近四百年的分裂。拜占庭帝国这时只剩下君士坦丁堡和希腊的几块零星土地，急需西方的援军，指望拿教会合一去换。\n\n这份清单够忙活一整个世纪的，更别说一次会议了。想了解更多，请看上面的背景知识卡片[[link:what-was-the-council-of-basel-1431]]巴塞尔公会议，到底是怎么回事？[[/link]]\n\n1432年元旦，议会在布拉格新城市政厅开幕，塔博尔派一个人都没来。\n\n对于巴塞尔的邀请，议会的表态是：原则上愿意去，只要代表团的安全有保障；可正式答复，得等塔博尔派的头领们发了话再说。\n\n[[b]]道理很简单：能让教会害怕的，是普罗科普的军队，不是布拉格的议会。[[/b]]\n\n就这样，波希米亚要怎么回复整个天主教会，就看一个人的意思了，而这个人，布拉格刚刚还说要给他派刽子手。\n\n普罗科普自己对巴塞尔也有疑虑：塔博尔派可不想让一场教会会议摆出权威的架势，来审判他们的信仰。可要是不去，代表波希米亚说话的就成了别人。\n\n1432年1月，他重新站了起来，而且动作很快。他先把塔博尔派的头领们召集到一起，然后骑马南下特热邦，去见[[link:one-jailbreak-two-castles-1420]]罗日姆贝克的奥尔德日赫[[/link]]。此人是王国里势力最大的天主教贵族，也是塔博尔做了十多年的邻居兼死对头。\n\n两人订了一年的停战协议，还商定交换俘虏。普罗科普甚至提议，请奥尔德日赫跟胡斯派代表团一起去巴塞尔。这个提议后来不了了之，但它说明了普罗科普现在怎么看问题：既然整个王国都要去跟教会谈，那最好用同一个声音说话。\n\n2月10日，大议会在布拉格开幕，这一次谁都来了。塔博尔派、孤儿军、布拉格人和贵族们，几个月来第一次坐进了同一间屋子。\n\n会上吵得不可开交，旧账还悬在半空，但最后总算达成一致：一起去巴塞尔，普罗科普也在选出的代表之列。\n\n[[b]]两个月前还有人要给他派刽子手，如今他又成了代表波希米亚说话的人。[[/b]]\n\n不过，并不是每个人离开时都放下了心。一些圣杯派贵族已经开始悄悄琢磨：要对付塔博尔派，天主教贵族会不会是比塔博尔派更好的盟友。",
+      zh: "用刀剑铲除异端，教会已经试了四次，四次都是十字军自己先跑回了家。实在没了办法，这回只好换个路子：请胡斯派坐下来，好好讲讲道理。\n\n最后把普罗科普从病床上拽起来的，正是这份来自巴塞尔的邀请。\n\n1431年10月，在那里召开的教会公会议邀请波希米亚人前去陈述自己的主张，并保证他们来去平安；主持会议的，正是那年夏天乔装逃离多马日利采的红衣主教切萨里尼。\n\n公会议的待办清单是这样写的：铲除异端（说白了就是胡斯派）；让基督教各国君主别再互相打仗；对教会进行“从头到肢体”的改革，而这个“头”，指的只能是教皇，难怪教皇对这次会议怎么都高兴不起来；没过多久又添了一条：结束和希腊教会那场将近四百年的分裂。拜占庭帝国这时只剩下君士坦丁堡和希腊的几块零星土地，急需西方的援军，指望拿教会合一去换。\n\n这份清单够忙活一整个世纪的，更别说一次会议了。想了解更多，请看上面的背景知识卡片[[link:what-was-the-council-of-basel-1431]]巴塞尔公会议，到底是怎么回事？[[/link]]\n\n1432年元旦，议会在布拉格新城市政厅开幕，塔博尔派一个人都没来。\n\n对于巴塞尔的邀请，议会的表态是：原则上愿意去，只要代表团的安全有保障；可正式答复，得等塔博尔派的头领们发了话再说。\n\n[[b]]道理很简单：能让教会害怕的，是普罗科普的军队，不是布拉格的议会。[[/b]]\n\n就这样，波希米亚要怎么回复整个天主教会，就看一个人的意思了，而这个人，布拉格刚刚还说要给他派刽子手。\n\n普罗科普自己对巴塞尔也有疑虑：塔博尔派可不想让一场教会会议摆出权威的架势，来审判他们的信仰。可要是不去，代表波希米亚说话的就成了别人。\n\n1432年1月，他重新站了起来，而且动作很快。他先把塔博尔派的头领们召集到一起，然后骑马南下特热邦，去见[[link:one-jailbreak-two-castles-1420]]罗森贝格的奥尔德日赫[[/link]]。此人是王国里势力最大的天主教贵族，也是塔博尔做了十多年的邻居兼死对头。\n\n两人订了一年的停战协议，还商定交换俘虏。普罗科普甚至提议，请奥尔德日赫跟胡斯派代表团一起去巴塞尔。这个提议后来不了了之，但它说明了普罗科普现在怎么看问题：既然整个王国都要去跟教会谈，那最好用同一个声音说话。\n\n2月10日，大议会在布拉格开幕，这一次谁都来了。塔博尔派、孤儿军、布拉格人和贵族们，几个月来第一次坐进了同一间屋子。\n\n会上吵得不可开交，旧账还悬在半空，但最后总算达成一致：一起去巴塞尔，普罗科普也在选出的代表之列。\n\n[[b]]两个月前还有人要给他派刽子手，如今他又成了代表波希米亚说话的人。[[/b]]\n\n不过，并不是每个人离开时都放下了心。一些圣杯派贵族已经开始悄悄琢磨：要对付塔博尔派，天主教贵族会不会是比塔博尔派更好的盟友。",
     },
     relatedLandmarks: [
       {
@@ -18626,7 +18626,7 @@ export const historyEvents = [
         relation: {
           en: "The walled Rožmberk town where, in January 1432, Prokop got out of his sickbed long enough to make a year's truce with Oldřich of Rožmberk.",
           cz: "Opevněné rožmberské město, kde Prokop v lednu 1432, sotva vstal z lůžka, uzavřel s Oldřichem z Rožmberka roční příměří.",
-          zh: "罗日姆贝克家族的设防城镇。1432年1月，普罗科普刚从病床上爬起来，就赶到这里和罗日姆贝克的奥尔德日赫订了一年的停战协议。",
+          zh: "罗森贝格家族的设防城镇。1432年1月，普罗科普刚从病床上爬起来，就赶到这里和罗森贝格的奥尔德日赫订了一年的停战协议。",
         },
       },
     ],
@@ -19031,7 +19031,7 @@ export const historyEvents = [
     title: {
       en: "Who Was Oldřich of Rožmberk?",
       cz: "Kdo byl Oldřich z Rožmberka?",
-      zh: "罗日姆贝克的奥尔德日赫是谁？",
+      zh: "罗森贝格的奥尔德日赫是谁？",
     },
     hookLine: {
       en: "He never won a famous battle, yet he outlasted everyone who did. His favourite weapon was a pen, and a real talent for producing very old documents.",
@@ -19041,7 +19041,7 @@ export const historyEvents = [
     summary: {
       en: "The Rožmberks have been hovering at the edge of the story for a long time.\n\nThey were one of the [[link:the-five-roses-1394]]five branches[[/link]] of the [[link:who-are-the-vitkovci-1276]]Vítkovci[[/link]], the South Bohemian clan that Otakar II tried to hem in with a royal monastery at [[link:iron-and-golden-king-1266]]Zlatá Koruna[[/link]] and a royal town at České Budějovice, and whose most famous son, Záviš of Falkenstein, [[link:meadow-below-hluboka-1290]]lost his head[[/link]] in 1290.\n\nBy the 1420s the Rožmberk branch had absorbed most of its cousins' lands and ruled South Bohemia from Český Krumlov. Its head was Oldřich II.\n\nOldřich was born in 1403 and took charge of the family at fifteen, just before the revolution broke out. His guardian, [[link:enemies-closer-to-home-1423]]Čeněk of Vartenberk[[/link]], had flirted with the Hussite cause, and so for a while had Oldřich.\n\nThen in 1420 the radicals founded Tábor on the northern edge of the Rožmberk lands, and his mind was made up.\n\nHe became Sigismund's man in the south, lost two castles to [[link:one-jailbreak-two-castles-1420]]a single jailbreak[[/link]] that same year, and learned quickly that he could not beat the Táborites in the field.\n\nSo he did something rarer. He signed truce after truce with them, kept his own lands fairly quiet for fourteen years, and made sure that Sigismund ended up owing him a great deal of money.\n\nHis real talent was paperwork. Oldřich had documents forged on an impressive scale: charters in which earlier kings granted his family privileges they had never granted.\n\nOne of them, supposedly issued by Charles IV in 1360, made the Rožmberk estates indivisible and always ruled by the eldest male of the family. It was entered into the land records in 1493 and obeyed until the family died out in 1611.\n\nAnother forgery helped him keep Zlatá Koruna, the very monastery Otakar II had founded to keep his ancestors in check.\n\nHe also gave the family a Roman pedigree, claiming descent from the Orsini of Rome, and then persuaded the real Orsini to sign an agreement confirming that they were indeed related.\n\n[[b]]Contemporaries called him the pillar of the kingdom and its mightiest member, and in the spring of 1434 the pillar finally moved.[[/b]]\n\nWith Oldřich in it, the lords' league had the whole Catholic south behind it, and his troops, under his burgrave Mikuláš Krchlebec, were already on their way to join the lords' army. In the battle to come they would play the decisive part.\n\nHe lived until 1462, spent most of his remaining years fighting George of Poděbrady for control of the kingdom, and died at Český Krumlov, old, rich and still in possession of everything he had started with, which by the standards of this period was an achievement in itself.",
       cz: "Rožmberkové se na okraji příběhu pohybují už hodně dlouho.\n\nByli jednou z [[link:the-five-roses-1394]]pěti větví[[/link]] [[link:who-are-the-vitkovci-1276]]Vítkovců[[/link]], jihočeského rodu, který se Přemysl Otakar II. snažil sevřít královským klášterem ve [[link:iron-and-golden-king-1266]]Zlaté Koruně[[/link]] a královským městem České Budějovice a jehož nejslavnější syn Záviš z Falkenštejna roku 1290 [[link:meadow-below-hluboka-1290]]přišel o hlavu[[/link]].\n\nVe dvacátých letech 15. století měla rožmberská větev v rukou většinu statků svých bratranců a vládla jižním Čechám z Českého Krumlova. V jejím čele stál Oldřich II.\n\nOldřich se narodil roku 1403 a v patnácti letech se ujal vlády nad rodem, krátce před vypuknutím revoluce. Jeho poručník [[link:enemies-closer-to-home-1423]]Čeněk z Vartenberka[[/link]] s husitstvím koketoval a nějakou dobu i Oldřich.\n\nPak ale radikálové roku 1420 založili Tábor na samé severní hranici rožmberského panství a Oldřich měl jasno.\n\nStal se Zikmundovým mužem na jihu, ještě téhož roku přišel o dva hrady kvůli [[link:one-jailbreak-two-castles-1420]]jedinému útěku z vězení[[/link]] a rychle pochopil, že tábory v poli neporazí.\n\nUdělal tedy něco vzácnějšího. Uzavíral s nimi jedno příměří za druhým, čtrnáct let udržel na svých panstvích relativní klid a postaral se, aby mu Zikmund nakonec dlužil hodně peněz.\n\nJeho skutečným talentem byla úřední agenda. Oldřich nechal ve velkém falšovat listiny: privilegia, jež jeho rodu údajně udělili dřívější králové, ačkoli je nikdy neudělili.\n\nJedna z nich, prý vydaná Karlem IV. roku 1360, prohlašovala rožmberské dominium za nedělitelné a svěřovala vládu nad ním vždy nejstaršímu muži rodu. Roku 1493 byla zapsána do zemských desk a platila, dokud rod roku 1611 nevymřel.\n\nJiný falzifikát mu pomohl udržet Zlatou Korunu, tedy právě ten klášter, který Přemysl Otakar II. založil, aby jeho předky držel na uzdě.\n\nRodu také opatřil římský původ, prohlásil, že pochází od římských Orsiniů, a pak přesvědčil skutečné Orsinie, aby podepsali dohodu, že spolu opravdu jsou příbuzní.\n\n[[b]]Současníci ho nazývali sloupem království a jeho nejmocnějším údem, a na jaře 1434 se ten sloup konečně pohnul.[[/b]]\n\nS Oldřichem měla panská jednota za zády celý katolický jih a jeho vojáci pod velením purkrabího Mikuláše Krchlebce už byli na cestě k panskému vojsku. V nadcházející bitvě sehrají rozhodující roli.\n\nDožil se roku 1462, většinu zbývajících let strávil zápasem s Jiřím z Poděbrad o moc v království a zemřel v Českém Krumlově, starý, bohatý a stále v držení všeho, s čím začínal, což bylo na poměry té doby samo o sobě úspěchem.",
-      zh: "罗日姆贝克家族在这个故事的边上徘徊已经很久了。\n\n他们是[[link:who-are-the-vitkovci-1276]]维特科维奇家族[[/link]][[link:the-five-roses-1394]]五个分支[[/link]]之一。这个南波希米亚的大家族，当年让普热米斯尔·奥托卡二世伤透脑筋，国王只好在[[link:iron-and-golden-king-1266]]兹拉塔科鲁纳[[/link]]建了一座王室修道院、又建了捷克布杰约维采这座王室城市，想把他们围住；家族里最出名的扎维什，1290年[[link:meadow-below-hluboka-1290]]掉了脑袋[[/link]]。\n\n到了15世纪20年代，罗日姆贝克这一支已经吞下了各房堂亲的大部分领地，坐镇克鲁姆洛夫，统治着南波希米亚。当家的，就是奥尔德日赫二世。\n\n奥尔德日赫生于1403年，十五岁就接掌了家族，没过多久革命就爆发了。他的监护人[[link:enemies-closer-to-home-1423]]瓦尔滕贝格的切涅克[[/link]]曾经对胡斯派动过心，奥尔德日赫自己也一度如此。\n\n可是1420年，激进派在罗日姆贝克领地的北部边缘建起了塔博尔，他的主意也就拿定了。\n\n他成了西吉斯蒙德在南方的代理人，同一年就因为[[link:one-jailbreak-two-castles-1420]]一次越狱[[/link]]丢了两座城堡，也很快明白了自己在战场上打不过塔博尔派。\n\n于是他做了一件更难得的事：跟塔博尔派签了一份又一份停战协议，让自己的领地在十四年里大体保持安宁，还确保西吉斯蒙德最后欠了他一大笔钱。\n\n他真正的本事在文书上。奥尔德日赫大规模地伪造文件：一份份特许状上写着，历代国王曾赐给他的家族种种特权，而这些特权其实从来没有赐过。\n\n其中一份据称是查理四世在1360年颁发的，规定罗日姆贝克家族的领地不可分割，永远由家族中最年长的男子掌管。这份文书在1493年被正式登入土地登记簿，一直沿用到1611年家族绝嗣为止。\n\n另一份伪造文书帮他保住了兹拉塔科鲁纳，正是当年奥托卡二世为了看住他的祖先而建的那座修道院。\n\n他还给家族编了一个罗马祖先，声称自己是罗马奥尔西尼家族的后裔，然后居然说动了真正的奥尔西尼家族，签了一份协议，承认双方确实是亲戚。\n\n[[b]]同时代的人称他为“王国的支柱、最有权势的一员”。1434年春天，这根支柱终于挪动了。[[/b]]\n\n这根支柱一动，贵族联盟背后就站上了整个天主教南方。他手下由城堡伯爵米库拉什·克尔赫莱贝茨统领的部队，已经在赶去和贵族联军会合的路上，在接下来那场大战里，他们将起决定性的作用。\n\n他一直活到1462年，余生大多在和波杰布拉迪的伊日争夺王国的控制权，最后在克鲁姆洛夫去世。死的时候，他年事已高、家财万贯，起家时拥有的一切一样也没丢，在那个年代，这本身就是一项成就。",
+      zh: "罗森贝格家族在这个故事的边上徘徊已经很久了。\n\n他们是[[link:who-are-the-vitkovci-1276]]维特科维奇家族[[/link]][[link:the-five-roses-1394]]五个分支[[/link]]之一。这个南波希米亚的大家族，当年让普热米斯尔·奥托卡二世伤透脑筋，国王只好在[[link:iron-and-golden-king-1266]]兹拉塔科鲁纳[[/link]]建了一座王室修道院、又建了捷克布杰约维采这座王室城市，想把他们围住；家族里最出名的扎维什，1290年[[link:meadow-below-hluboka-1290]]掉了脑袋[[/link]]。\n\n到了15世纪20年代，罗森贝格这一支已经吞下了各房堂亲的大部分领地，坐镇克鲁姆洛夫，统治着南波希米亚。当家的，就是奥尔德日赫二世。\n\n奥尔德日赫生于1403年，十五岁就接掌了家族，没过多久革命就爆发了。他的监护人[[link:enemies-closer-to-home-1423]]瓦尔滕贝格的切涅克[[/link]]曾经对胡斯派动过心，奥尔德日赫自己也一度如此。\n\n可是1420年，激进派在罗森贝格领地的北部边缘建起了塔博尔，他的主意也就拿定了。\n\n他成了西吉斯蒙德在南方的代理人，同一年就因为[[link:one-jailbreak-two-castles-1420]]一次越狱[[/link]]丢了两座城堡，也很快明白了自己在战场上打不过塔博尔派。\n\n于是他做了一件更难得的事：跟塔博尔派签了一份又一份停战协议，让自己的领地在十四年里大体保持安宁，还确保西吉斯蒙德最后欠了他一大笔钱。\n\n他真正的本事在文书上。奥尔德日赫大规模地伪造文件：一份份特许状上写着，历代国王曾赐给他的家族种种特权，而这些特权其实从来没有赐过。\n\n其中一份据称是查理四世在1360年颁发的，规定罗森贝格家族的领地不可分割，永远由家族中最年长的男子掌管。这份文书在1493年被正式登入土地登记簿，一直沿用到1611年家族绝嗣为止。\n\n另一份伪造文书帮他保住了兹拉塔科鲁纳，正是当年奥托卡二世为了看住他的祖先而建的那座修道院。\n\n他还给家族编了一个罗马祖先，声称自己是罗马奥尔西尼家族的后裔，然后居然说动了真正的奥尔西尼家族，签了一份协议，承认双方确实是亲戚。\n\n[[b]]同时代的人称他为“王国的支柱、最有权势的一员”。1434年春天，这根支柱终于挪动了。[[/b]]\n\n这根支柱一动，贵族联盟背后就站上了整个天主教南方。他手下由城堡伯爵米库拉什·克尔赫莱贝茨统领的部队，已经在赶去和贵族联军会合的路上，在接下来那场大战里，他们将起决定性的作用。\n\n他一直活到1462年，余生大多在和波杰布拉迪的伊日争夺王国的控制权，最后在克鲁姆洛夫去世。死的时候，他年事已高、家财万贯，起家时拥有的一切一样也没丢，在那个年代，这本身就是一项成就。",
     },
     relatedLandmarks: [],
     wikipediaUrl: "https://cs.wikipedia.org/wiki/Old%C5%99ich_II._z_Ro%C5%BEmberka",
@@ -19091,7 +19091,7 @@ export const historyEvents = [
     summary: {
       en: "Prague's Old Town was mostly in moderate hands, but the New Town had always been the radicals' stronghold in the capital.\n\nIt was in the New Town that Želivský's followers [[link:the-first-defenestration-1419]]threw the councillors out of the window[[/link]] in 1419, and in the Old Town that Želivský himself was [[link:thanks-for-saving-the-city-1422]]lured in and executed[[/link]] three years later, after which the New Town [[link:enemies-closer-to-home-1423]]let the Táborites in[[/link]].\n\nThe two towns stood wall to wall, and the grudges between them went back fifteen years.\n\nThe lords' quiet talk did not stay quiet for long, especially once someone else offered to pay.\n\nThe Council of Basel, which had already won the moderates over [[link:how-to-tame-a-horse-1433]]with the chalice[[/link]], was now putting up gold for their army as well.\n\nThe regent, Aleš Vřešťovský of Rýzmburk, had been elected the winter before to restore order, but he had no way of making the field armies obey him, and the army outside Plzeň was still living off villages that had come to hate it.\n\nIn March the Utraquist lords, led by Diviš Bořek of Miletínek and [[link:holy-peace-1427]]Vilém Kostka of Postupice[[/link]], met in secret and agreed that the field armies would have to lay down their arms. The Old Town of Prague joined them straight away. Through [[link:a-crown-with-conditions-1429]]Menhart of Hradec[[/link]], so did the Catholic lords, led by [[link:who-was-oldrich-of-rozmberk-1434]]Oldřich of Rožmberk[[/link]] and backed by Sigismund.\n\nThe Táborites and Orphans were told to disarm. If they obeyed, they would be pardoned. If not, there would be war.\n\nBy the end of April more than two hundred lords and some six thousand men had gathered near Kutná Hora under the regent's command.\n\nThis time the New Town refused to join the league. Its citizens seized two of the Old Town's gates, the Poříčí Gate and the Mountain Gate, where the Powder Tower stands today, put gunners in the church towers and opened fire.\n\nThe Old Town sent for help. On 5 May the lords' army, which had gathered near Kutná Hora, forded the Vltava at Libeň and slipped round to Malá Strana and the castle quarter on the far bank.\n\nOn 6 May it crossed back over the stone bridge, picking its way carefully, since the bridge was still badly damaged from the flood of 1432. The soldiers quickly took the walls between the Old Town and the New.\n\nThe key to the New Town's defence was the bell tower of the Church of Our Lady of the Snows, Želivský's old church, and the Old Town's gunners soon shot the bell right out of it.\n\nAfter a few hours of fighting the New Town fell, with less bloodshed than anyone had feared. Prokop, who had been in the city, got out just in time. Somewhere on the road south he wrote to Prokop the Lesser, who commanded the army outside Plzeň:\n\n[[quote:0]]\n\nThe letter never reached him. It seems to have been intercepted by Oldřich of Rožmberk's men.\n\nIt hardly mattered.\n\nThe news reached Plzeň anyway, and on the night of 8 to 9 May the besiegers burned their own tents, wrecked their siege works and marched away after nine months with nothing to show for it. [[b]]Plzeň had not fallen, and meanwhile the radicals had lost Prague behind their backs.[[/b]]\n\nThe field armies gathered whatever they could, from Tábor, from the Orphan towns around Hradec Králové and from the thirty or so cities still loyal to them, and turned towards the capital. The lords, safe behind its walls, waited for their reinforcements.",
       cz: "Staré Město pražské měli z větší části v rukou umírnění, Nové Město však bylo odjakživa baštou radikálů v hlavním městě.\n\nPrávě na Novém Městě vyhodili Želivského stoupenci roku 1419 [[link:the-first-defenestration-1419]]konšely z okna[[/link]] a právě na Starém Městě byl o tři roky později sám Želivský [[link:thanks-for-saving-the-city-1422]]vlákán do pasti a popraven[[/link]]. Nové Město pak [[link:enemies-closer-to-home-1423]]pustilo do Prahy tábory[[/link]].\n\nObě města dělila jen hradba a účty mezi nimi sahaly patnáct let nazpět.\n\nTiché domlouvání pánů nezůstalo dlouho tiché, zvlášť když se našel někdo, kdo byl ochoten platit.\n\nBasilejský koncil, který si umírněné už předtím získal [[link:how-to-tame-a-horse-1433]]kalichem[[/link]], teď přispíval zlatem i na jejich vojsko.\n\nZemského správce Aleše Vřešťovského z Rýzmburka zvolili předchozí zimy, aby v zemi zjednal pořádek, jenže polní vojska ho neposlouchala a vojsko před Plzní dál žilo z vesnic, které ho už nenáviděly.\n\nV březnu se kališničtí páni v čele s Divišem Bořkem z Miletínka a [[link:holy-peace-1427]]Vilémem Kostkou z Postupic[[/link]] tajně sešli a dohodli se, že polní vojska musí složit zbraně. Staré Město pražské se k nim hned přidalo. Prostřednictvím [[link:a-crown-with-conditions-1429]]Menharta z Hradce[[/link]] přistoupili i katoličtí páni v čele s [[link:who-was-oldrich-of-rozmberk-1434]]Oldřichem z Rožmberka[[/link]] a za nimi stál Zikmund.\n\nTáborům a sirotkům vzkázali, ať se odzbrojí. Když uposlechnou, dostanou milost. Když ne, bude válka.\n\nDo konce dubna se u Kutné Hory pod velením zemského správce sešlo přes dvě stě pánů a asi šest tisíc mužů.\n\nTentokrát Nové Město do jednoty vstoupit odmítlo. Jeho měšťané obsadili dvě brány Starého Města, Poříčskou a Horskou, na jejímž místě dnes stojí Prašná brána, na kostelní věže postavili střelce a zahájili palbu.\n\nStaré Město poslalo pro pomoc. Panské vojsko, shromážděné u Kutné Hory, se 5. května přebrodilo u Libně přes Vltavu a obešlo město na Malou Stranu a Hradčany.\n\n6. května pak opatrně přešlo zpátky po kamenném mostě, který byl ještě vážně poškozený po povodni roku 1432. Vojáci rychle obsadili hradby mezi Starým a Novým Městem.\n\nKlíčem novoměstské obrany byla zvonice kostela Panny Marie Sněžné, bývalého Želivského kostela, a staroměstští střelci z ní brzy sestřelili zvon.\n\nPo několika hodinách boje Nové Město padlo, s menším krveprolitím, než se kdo obával. Prokop, který byl ve městě, unikl na poslední chvíli. Někde na cestě na jih napsal Prokopovi Malému, který velel vojsku před Plzní:\n\n[[quote:0]]\n\nDopis nikdy nedošel. Zřejmě ho zachytili muži Oldřicha z Rožmberka.\n\nNa tom už moc nezáleželo.\n\nZpráva se do Plzně dostala i tak a v noci z 8. na 9. května obléhající spálili vlastní stany, rozbili obléhací práce a po devíti měsících odtáhli s prázdnou. [[b]]Plzeň nepadla, a radikálové mezitím za svými zády ztratili Prahu.[[/b]]\n\nPolní vojska sebrala, co se dalo, z Tábora, ze sirotčích měst kolem Hradce Králové a z třiceti či kolika měst, která jim zůstala věrná, a obrátila se k hlavnímu městu. Páni, v bezpečí za jeho hradbami, čekali na posily.",
-      zh: "布拉格的老城大体握在温和派手里，新城却一直是激进派在首都的大本营。\n\n1419年，柴利夫斯基的信徒就是在新城[[link:the-first-defenestration-1419]]把市议员扔出了窗外[[/link]]；三年后，柴利夫斯基本人却在老城[[link:thanks-for-saving-the-city-1422]]被诱捕处死[[/link]]，新城随后又[[link:enemies-closer-to-home-1423]]把塔博尔军请进了城[[/link]]。\n\n两座城只隔着一道城墙，彼此的旧账已经积了十五年。\n\n贵族们私下的商量，没过多久就摆到了台面上，何况还有人肯出钱。\n\n巴塞尔公会议先前已经[[link:how-to-tame-a-horse-1433]]用圣杯[[/link]]把温和派拉了过去，这时又掏出金币，替他们的军队买单。\n\n摄政雷兹姆布尔克的阿莱什·弗热什佐夫斯基是前一年冬天选出来恢复秩序的，可他根本管不住野战军，皮尔森城外那支大军还在搜刮早就恨透了他们的村子。\n\n3月，以米莱廷的迪维什·博雷克和[[link:holy-peace-1427]]波斯图皮采的维莱姆·科斯特卡[[/link]]为首的圣杯派贵族秘密碰了头，商定要逼野战军放下武器。布拉格老城马上就加入了。经[[link:a-crown-with-conditions-1429]]赫拉德茨的门哈特[[/link]]牵线，以[[link:who-was-oldrich-of-rozmberk-1434]]罗日姆贝克的奥尔德日赫[[/link]]为首的天主教贵族也加入进来，背后还有西吉斯蒙德撑腰。\n\n塔博尔派和孤儿军接到通知：交出武器，既往不咎；不交，就开战。\n\n到4月底，两百多名贵族带着约六千人马，在摄政的指挥下聚到了库特纳霍拉附近。\n\n这一次，新城拒绝加入贵族联盟。城里的市民夺下了老城的两座城门：波日奇门和山门，也就是今天火药塔所在的地方。他们在教堂塔楼上布置了炮手，开火了。\n\n老城派人求援。原本集结在库特纳霍拉附近的贵族联军，5月5日在利本涉水渡过伏尔塔瓦河，悄悄绕到了对岸的小城区和城堡区。\n\n5月6日，他们又踩着石桥过河回来。这座桥两年前被大水冲坏，还没修好，士兵们只能小心翼翼地走。他们很快占领了老城和新城之间的城墙。\n\n新城防线的关键是雪地圣母教堂的钟楼，也就是柴利夫斯基当年讲道的那座教堂，老城的枪手没多久就把钟楼上的钟打了下来。\n\n打了几个小时，新城就失守了，流的血比所有人担心的都要少。普罗科普当时就在城里，千钧一发之际逃了出去。在南下的路上，他给正在皮尔森城外统兵的小普罗科普写了一封信：\n\n[[quote:0]]\n\n这封信始终没有送到。它似乎被罗日姆贝克的奥尔德日赫的人截下了。\n\n不过这已经无关紧要了。\n\n消息还是传到了皮尔森。5月8日夜里至9日，围城部队烧掉了自己的帐篷，拆毁了攻城工事，在城外耗了九个月之后，一无所获地撤走了。[[b]]皮尔森没有攻下来，激进派反倒在背后丢掉了布拉格。[[/b]]\n\n野战军从塔博尔、从赫拉德茨-克拉洛韦一带的孤儿军城市、从三十来座仍然效忠他们的城市，能召集的都召集起来，转头向首都开去。而贵族们安坐城墙之内，等着援军到来。",
+      zh: "布拉格的老城大体握在温和派手里，新城却一直是激进派在首都的大本营。\n\n1419年，柴利夫斯基的信徒就是在新城[[link:the-first-defenestration-1419]]把市议员扔出了窗外[[/link]]；三年后，柴利夫斯基本人却在老城[[link:thanks-for-saving-the-city-1422]]被诱捕处死[[/link]]，新城随后又[[link:enemies-closer-to-home-1423]]把塔博尔军请进了城[[/link]]。\n\n两座城只隔着一道城墙，彼此的旧账已经积了十五年。\n\n贵族们私下的商量，没过多久就摆到了台面上，何况还有人肯出钱。\n\n巴塞尔公会议先前已经[[link:how-to-tame-a-horse-1433]]用圣杯[[/link]]把温和派拉了过去，这时又掏出金币，替他们的军队买单。\n\n摄政雷兹姆布尔克的阿莱什·弗热什佐夫斯基是前一年冬天选出来恢复秩序的，可他根本管不住野战军，皮尔森城外那支大军还在搜刮早就恨透了他们的村子。\n\n3月，以米莱廷的迪维什·博雷克和[[link:holy-peace-1427]]波斯图皮采的维莱姆·科斯特卡[[/link]]为首的圣杯派贵族秘密碰了头，商定要逼野战军放下武器。布拉格老城马上就加入了。经[[link:a-crown-with-conditions-1429]]赫拉德茨的门哈特[[/link]]牵线，以[[link:who-was-oldrich-of-rozmberk-1434]]罗森贝格的奥尔德日赫[[/link]]为首的天主教贵族也加入进来，背后还有西吉斯蒙德撑腰。\n\n塔博尔派和孤儿军接到通知：交出武器，既往不咎；不交，就开战。\n\n到4月底，两百多名贵族带着约六千人马，在摄政的指挥下聚到了库特纳霍拉附近。\n\n这一次，新城拒绝加入贵族联盟。城里的市民夺下了老城的两座城门：波日奇门和山门，也就是今天火药塔所在的地方。他们在教堂塔楼上布置了炮手，开火了。\n\n老城派人求援。原本集结在库特纳霍拉附近的贵族联军，5月5日在利本涉水渡过伏尔塔瓦河，悄悄绕到了对岸的小城区和城堡区。\n\n5月6日，他们又踩着石桥过河回来。这座桥两年前被大水冲坏，还没修好，士兵们只能小心翼翼地走。他们很快占领了老城和新城之间的城墙。\n\n新城防线的关键是雪地圣母教堂的钟楼，也就是柴利夫斯基当年讲道的那座教堂，老城的枪手没多久就把钟楼上的钟打了下来。\n\n打了几个小时，新城就失守了，流的血比所有人担心的都要少。普罗科普当时就在城里，千钧一发之际逃了出去。在南下的路上，他给正在皮尔森城外统兵的小普罗科普写了一封信：\n\n[[quote:0]]\n\n这封信始终没有送到。它似乎被罗森贝格的奥尔德日赫的人截下了。\n\n不过这已经无关紧要了。\n\n消息还是传到了皮尔森。5月8日夜里至9日，围城部队烧掉了自己的帐篷，拆毁了攻城工事，在城外耗了九个月之后，一无所获地撤走了。[[b]]皮尔森没有攻下来，激进派反倒在背后丢掉了布拉格。[[/b]]\n\n野战军从塔博尔、从赫拉德茨-克拉洛韦一带的孤儿军城市、从三十来座仍然效忠他们的城市，能召集的都召集起来，转头向首都开去。而贵族们安坐城墙之内，等着援军到来。",
     },
     quotes: [
       {
@@ -19216,7 +19216,7 @@ export const historyEvents = [
     summary: {
       en: "The two armies met at the end of May on the rolling farmland east of Prague, between Český Brod and Kolín.\n\nThe field armies under Prokop, perhaps ten thousand foot and seven hundred horse with nearly five hundred wagons, drew up their wagon fort on the slopes of the Lipská hora hill near the village of Lipany, a position of the kind that had beaten far larger armies.\n\nAgainst them stood the league: the Utraquist lords under Diviš Bořek of Miletínek, who had once been one of Žižka's own captains, the Prague towns, the men of Plzeň, the royal garrison of Karlštejn and the Rožmberk contingent, some twelve or thirteen thousand foot and twelve hundred horse. Among the Utraquist lords was a young George of Poděbrady.\n\nOn 29 May the lords tried one last time to talk. The talks failed, and someone on the radical side is said to have ended them with the words: then we will settle it with our fists.\n\nThe battle was won with a trick the Hussites knew better than anyone. On Sunday 30 May the Rožmberk commander Mikuláš Krchlebec led the league's vanguard up towards the wagon fort, traded fire with it, and then turned and ran.\n\nSeeing the enemy apparently in flight, the Táborites and Orphans did what [[link:enemies-closer-to-home-1423]]Žižka's own rules[[/link]] had always forbidden. They opened the wagon fort and poured out in pursuit.\n\nKrchlebec's men stopped and turned, and at the same moment the league's heavy cavalry broke into the half-empty fort from the flank, climbing over or breaking the chains between the wagons. The Hussites were caught in the open, with the enemy already inside their own walls.\n\nWhat followed was a slaughter. Jan Čapek of Sány rode off towards Kolín with the cavalry he commanded.\n\nTo many at the time, and to generations afterwards, that made him the traitor of Lipany, although modern historians doubt that his horsemen could have saved the day.\n\nProkop and Prokop the Lesser stayed with the wagons and died there, with most of the Táborite and Orphan priests. [[link:undefeated-until-the-plague-1424]]Aeneas Silvius Piccolomini[[/link]] had no love for the Hussites, yet he wrote of Prokop's end with something close to admiration:\n\n[[quote:0]]\n\n[[link:orphans-grow-up-fast-1425]]Jan Roháč of Dubá[[/link]] was taken prisoner. The league lost perhaps two hundred men; the field armies lost well over a thousand in the fighting alone.\n\nThat evening hundreds of prisoners, many of them peasants the radicals had brought along to tend the horses and wagons, were herded into barns in the nearby villages, and the barns were set alight. Who gave the order is still disputed.\n\n[[b]]The armies that no crusade had been able to defeat were destroyed in a single afternoon, by Czechs.[[/b]] An eighteenth-century Czech historian put it bitterly: the Bohemians, invincible to every foreign enemy, could be beaten only by other Bohemians.\n\nLater generations remembered Prokop as a hero rather than a heretic. In the nineteenth century the poet Jaroslav Vrchlický pictured him at Lipany, standing on his wagon:\n\n[[quote:1]]\n\nIn 1881 Czech patriots raised a stone memorial topped with a chalice on the Lipská hora hill, and in 1898 the painter Luděk Marold painted the battle as a panorama ninety-five metres long, which still hangs in its own pavilion at the Prague Exhibition Grounds.",
       cz: "Obě vojska se koncem května setkala ve zvlněné zemědělské krajině východně od Prahy, mezi Českým Brodem a Kolínem.\n\nPolní vojska pod Prokopovým velením, snad deset tisíc pěších a sedm set jezdců s téměř pěti sty vozy, rozestavila vozovou hradbu na svazích Lipské hory u vsi Lipany, v postavení toho druhu, v jakém porážela mnohem větší armády.\n\nProti nim stála jednota: kališničtí páni v čele s Divišem Bořkem z Miletínka, kdysi jedním ze Žižkových hejtmanů, pražská města, Plzeňští, královská posádka Karlštejna a rožmberský sbor, na dvanáct až třináct tisíc pěších a dvanáct set jezdců. Mezi kališnickými pány byl i mladý Jiří z Poděbrad.\n\n29. května se páni naposledy pokusili vyjednávat. Rozhovory ztroskotaly a kdosi z radikální strany je prý ukončil slovy: tak to tedy rozhodneme pěstmi.\n\nBitvu rozhodl trik, který husité znali lépe než kdokoli jiný. V neděli 30. května vedl rožmberský hejtman Mikuláš Krchlebec předvoj jednoty k vozové hradbě, vyměnil si s ní palbu a pak se otočil a dal se na útěk.\n\nKdyž táboři a sirotci viděli nepřítele zdánlivě prchat, udělali to, co [[link:enemies-closer-to-home-1423]]Žižkův vlastní řád[[/link]] vždy zakazoval. Otevřeli vozovou hradbu a vyrazili za ním.\n\nKrchlebcovi muži se zastavili a obrátili a v tutéž chvíli vtrhla těžká jízda jednoty z boku do poloprázdné hradby, přes řetězy mezi vozy nebo skrz ně. Husité zůstali v otevřeném poli a nepřítel už byl uvnitř jejich vlastních zdí.\n\nNásledovala řež. Jan Čapek ze Sán odjel s jízdou, které velel, ke Kolínu.\n\nPro mnohé současníky i pro další generace se tím stal lipanským zrádcem, ačkoli moderní historici pochybují, že by jeho jezdci bitvu zachránili.\n\nProkop a Prokop Malý zůstali u vozů a padli tam spolu s většinou táborských a sirotčích kněží. [[link:undefeated-until-the-plague-1424]]Enea Silvio Piccolomini[[/link]] husity rozhodně nemiloval, a přesto psal o Prokopově konci s něčím, co se blíží obdivu:\n\n[[quote:0]]\n\n[[link:orphans-grow-up-fast-1425]]Jan Roháč z Dubé[[/link]] padl do zajetí. Jednota ztratila snad dvě stě mužů, polní vojska jen v boji přes tisíc.\n\nTéhož večera byly stovky zajatců, mezi nimi mnoho sedláků, které radikálové vzali s sebou ke koním a vozům, nahnány do stodol v okolních vsích a stodoly byly zapáleny. O tom, kdo dal rozkaz, se dodnes vedou spory.\n\n[[b]]Vojska, která nedokázala porazit žádná křížová výprava, byla zničena za jediné odpoledne, a to Čechy.[[/b]] Jeden český historik 18. století to vyjádřil hořce: Čechy, nepřemožitelné pro každého cizího nepřítele, mohli porazit jen zase Čechové.\n\nPozdější generace si Prokopa pamatovaly spíš jako hrdinu než jako kacíře. Básník Jaroslav Vrchlický ho v 19. století viděl u Lipan stát na voze:\n\n[[quote:1]]\n\nRoku 1881 vztyčili čeští vlastenci na Lipské hoře kamennou mohylu s kalichem a roku 1898 namaloval malíř Luděk Marold bitvu jako panorama dlouhé devadesát pět metrů, které dodnes visí ve vlastním pavilonu na pražském Výstavišti.",
-      zh: "5月底，双方在布拉格以东、捷克布罗德和科林之间的一片起伏农田上相遇。\n\n普罗科普率领的野战军约有一万步兵、七百骑兵和近五百辆战车，在利帕尼村附近的利普斯卡山坡上摆开了车阵。这种阵地，他们曾在上面打败过比自己庞大得多的军队。\n\n对面是贵族联盟：由米莱廷的迪维什·博雷克率领的圣杯派贵族（博雷克当年也是杰式卡手下的指挥官之一），布拉格各城，皮尔森人，卡尔什泰因的王室守军，还有罗日姆贝克家族的部队，共约一万二三千步兵和一千二百骑兵。圣杯派贵族当中，还有一位年轻的波杰布拉迪的伊日。\n\n5月29日，贵族们最后一次尝试谈判。谈判破裂了，据说激进派那边有人撂下一句话：那就用拳头来解决吧。\n\n赢下这一仗的，是一个胡斯派自己比谁都熟悉的招数。5月30日星期天，罗日姆贝克家族的指挥官米库拉什·克尔赫莱贝茨率领联盟前锋逼近车阵，和对方对射了一轮，然后转身就跑。\n\n塔博尔派和孤儿军眼看敌人像是溃逃了，便做了一件[[link:enemies-closer-to-home-1423]]杰式卡的军规[[/link]]历来严禁的事：打开车阵，冲出去追击。\n\n克尔赫莱贝茨的人马随即停下、掉头；与此同时，联盟的重骑兵从侧翼杀进了几乎空了的车阵，有的翻过、有的砸断了车与车之间的铁链。胡斯派被困在开阔地上，而敌人已经进了他们自己的城墙。\n\n接下来是一场屠杀。扬·恰佩克带着他指挥的骑兵往科林方向撤走了。\n\n在当时许多人、以及后来好几代人的眼里，这让他成了“利帕尼的叛徒”，不过现代史学家怀疑，他的骑兵其实也挽回不了败局。\n\n普罗科普和小普罗科普都留在战车旁，和塔博尔派、孤儿军的大多数神父一起战死。[[link:undefeated-until-the-plague-1424]]埃涅阿斯·西尔维乌斯·皮科洛米尼[[/link]]对胡斯派毫无好感，可他写起普罗科普的结局，笔下却几乎带着敬意：\n\n[[quote:0]]\n\n[[link:orphans-grow-up-fast-1425]]杜巴的扬·罗哈奇[[/link]]被俘。联盟一方大约只损失了两百人，野战军仅在战斗中就损失了一千多人。\n\n当天晚上，数百名俘虏，其中很多是激进派带来照看马匹和车辆的农民，被驱赶进附近村子的谷仓里，谷仓随即被点着了。究竟是谁下的命令，至今仍有争议。\n\n[[b]]没有哪一支十字军打败过的军队，在一个下午之内被毁灭了，毁灭它的是捷克人。[[/b]]一位18世纪的捷克历史学家说得很沉痛：波希米亚人面对任何外敌都战无不胜，能打败波希米亚人的，只有波希米亚人自己。\n\n后世记住的普罗科普，更像一位英雄，而不是异端。19世纪的诗人雅罗斯拉夫·弗尔赫利茨基，想象他在利帕尼站在战车上的样子：\n\n[[quote:1]]\n\n1881年，捷克爱国者在利普斯卡山上立起一座顶着圣杯的石砌纪念丘；1898年，画家卢德克·马罗尔德把这场战役画成了一幅长达九十五米的全景画，至今仍陈列在布拉格展览中心的专门展馆里。",
+      zh: "5月底，双方在布拉格以东、捷克布罗德和科林之间的一片起伏农田上相遇。\n\n普罗科普率领的野战军约有一万步兵、七百骑兵和近五百辆战车，在利帕尼村附近的利普斯卡山坡上摆开了车阵。这种阵地，他们曾在上面打败过比自己庞大得多的军队。\n\n对面是贵族联盟：由米莱廷的迪维什·博雷克率领的圣杯派贵族（博雷克当年也是杰式卡手下的指挥官之一），布拉格各城，皮尔森人，卡尔什泰因的王室守军，还有罗森贝格家族的部队，共约一万二三千步兵和一千二百骑兵。圣杯派贵族当中，还有一位年轻的波杰布拉迪的伊日。\n\n5月29日，贵族们最后一次尝试谈判。谈判破裂了，据说激进派那边有人撂下一句话：那就用拳头来解决吧。\n\n赢下这一仗的，是一个胡斯派自己比谁都熟悉的招数。5月30日星期天，罗森贝格家族的指挥官米库拉什·克尔赫莱贝茨率领联盟前锋逼近车阵，和对方对射了一轮，然后转身就跑。\n\n塔博尔派和孤儿军眼看敌人像是溃逃了，便做了一件[[link:enemies-closer-to-home-1423]]杰式卡的军规[[/link]]历来严禁的事：打开车阵，冲出去追击。\n\n克尔赫莱贝茨的人马随即停下、掉头；与此同时，联盟的重骑兵从侧翼杀进了几乎空了的车阵，有的翻过、有的砸断了车与车之间的铁链。胡斯派被困在开阔地上，而敌人已经进了他们自己的城墙。\n\n接下来是一场屠杀。扬·恰佩克带着他指挥的骑兵往科林方向撤走了。\n\n在当时许多人、以及后来好几代人的眼里，这让他成了“利帕尼的叛徒”，不过现代史学家怀疑，他的骑兵其实也挽回不了败局。\n\n普罗科普和小普罗科普都留在战车旁，和塔博尔派、孤儿军的大多数神父一起战死。[[link:undefeated-until-the-plague-1424]]埃涅阿斯·西尔维乌斯·皮科洛米尼[[/link]]对胡斯派毫无好感，可他写起普罗科普的结局，笔下却几乎带着敬意：\n\n[[quote:0]]\n\n[[link:orphans-grow-up-fast-1425]]杜巴的扬·罗哈奇[[/link]]被俘。联盟一方大约只损失了两百人，野战军仅在战斗中就损失了一千多人。\n\n当天晚上，数百名俘虏，其中很多是激进派带来照看马匹和车辆的农民，被驱赶进附近村子的谷仓里，谷仓随即被点着了。究竟是谁下的命令，至今仍有争议。\n\n[[b]]没有哪一支十字军打败过的军队，在一个下午之内被毁灭了，毁灭它的是捷克人。[[/b]]一位18世纪的捷克历史学家说得很沉痛：波希米亚人面对任何外敌都战无不胜，能打败波希米亚人的，只有波希米亚人自己。\n\n后世记住的普罗科普，更像一位英雄，而不是异端。19世纪的诗人雅罗斯拉夫·弗尔赫利茨基，想象他在利帕尼站在战车上的样子：\n\n[[quote:1]]\n\n1881年，捷克爱国者在利普斯卡山上立起一座顶着圣杯的石砌纪念丘；1898年，画家卢德克·马罗尔德把这场战役画成了一幅长达九十五米的全景画，至今仍陈列在布拉格展览中心的专门展馆里。",
     },
     quotes: [
       {
@@ -19559,7 +19559,7 @@ export const historyEvents = [
     summary: {
       en: "Sigismund was now the lawful King of Bohemia as well as Holy Roman Emperor, and Prague became the emperor's home again, for the first time since Charles IV.\n\nThe Empire had no official capital, but wherever the emperor kept his court was its capital in all but name, and for the next year that meant Prague.\n\nHe set up court in the King's Court and chose as his court church St James in the Old Town, where he saw personally to the return of the Franciscan friars. Catholic priests reappeared in Prague's churches, monasteries began to reclaim their property, and exiles who had fled the city in the 1420s came home.\n\nTábor, meanwhile, had run out of armies. After Lipany its remaining forces were beaten again at Křeč in August 1435, this time by the troops of [[link:who-was-oldrich-of-rozmberk-1434]]Oldřich of Rožmberk[[/link]], and the city came to terms with the king.\n\nIn 1437 Sigismund made [[link:the-rise-of-tabor-1419]]Tábor[[/link]], the town the radicals had founded on a hill to wait for the end of the world, a royal town with privileges of its own.\n\nThe end of the world had not arrived, and a royal charter was the next best thing.\n\nNot everyone was reconciled. Hradec Králové, under its radical priest Ambrož, held out against the king until the spring of 1437.\n\nAnd one old captain would not come to terms at all. [[link:orphans-grow-up-fast-1425]]Jan Roháč of Dubá[[/link]], captured at Lipany and released a few weeks later, had tried and failed to lead what was left of Tábor.\n\nIn the autumn of 1435 he withdrew to his castle of Sion near Kutná Hora and carried on a small private war against the king, raiding the royal estates. [[b]]Sigismund could put up with a great deal, but not with an old Hussite in a castle stealing from him.[[/b]] In February 1437 the diet called out the land levy against Sion.",
       cz: "Zikmund byl teď vedle císaře Svaté říše římské i právoplatným českým králem a Praha se znovu stala císařským sídlem, poprvé od dob Karla IV.\n\nŘíše žádné oficiální hlavní město neměla, ale kde držel císař dvůr, tam bylo fakticky její centrum, a na příští rok to znamenalo Prahu.\n\nUsadil svůj dvůr v Králově dvoře a za dvorský kostel si vybral svatého Jakuba na Starém Městě, kam osobně prosadil návrat františkánů. Do pražských kostelů se vraceli katoličtí kněží, kláštery začaly vymáhat zpět svůj majetek a domů se vraceli exulanti, kteří z města utekli ve dvacátých letech.\n\nTábor mezitím došla vojska. Po Lipanech byly jeho zbylé síly v srpnu 1435 znovu poraženy u Křeče, tentokrát vojskem [[link:who-was-oldrich-of-rozmberk-1434]]Oldřicha z Rožmberka[[/link]], a město se s králem dohodlo.\n\nRoku 1437 udělal Zikmund z [[link:the-rise-of-tabor-1419]]Tábora[[/link]], města, které radikálové založili na kopci, aby tam čekali na konec světa, královské město s vlastními výsadami.\n\nKonec světa nepřišel, a královská listina byla nejlepší náhradou.\n\nNe všichni se smířili. Hradec Králové pod vedením radikálního kněze Ambrože se králi bránil až do jara 1437.\n\nA jeden starý hejtman se nedohodl vůbec. [[link:orphans-grow-up-fast-1425]]Jan Roháč z Dubé[[/link]], zajatý u Lipan a za několik týdnů propuštěný, se marně pokusil vést to, co z Tábora zbylo.\n\nNa podzim 1435 se uchýlil na svůj hrad Sion u Kutné Hory a vedl odtud malou soukromou válku proti králi, pustošil královské statky. [[b]]Zikmund dokázal snést leccos, ale ne starého husitu na hradě, který ho okrádá.[[/b]] V únoru 1437 svolal sněm proti Sionu zemskou hotovost.",
-      zh: "西吉斯蒙德如今既是神圣罗马帝国皇帝，又是名正言顺的波希米亚国王，布拉格也顺理成章地再次成了皇帝的驻地，这是查理四世之后的头一回。\n\n帝国本没有法定的首都，可皇帝在哪里设朝，哪里就是事实上的帝国中心；接下来的一年，这个地方就是布拉格。\n\n他把朝廷安在国王宫，选了老城的圣雅各教堂做宫廷教堂，还亲自安排方济各会修士回到那里。天主教神父重新出现在布拉格的各个教堂里，修道院开始讨回自己的产业，20年代逃离布拉格的流亡者也陆续回家。\n\n与此同时，塔博尔已经没有军队了。利帕尼之后，它残余的部队又在1435年8月的克热奇之战中被打败，这一次打败他们的是[[link:who-was-oldrich-of-rozmberk-1434]]罗日姆贝克的奥尔德日赫[[/link]]的人马，塔博尔城只好和国王讲和。\n\n1437年，西吉斯蒙德把[[link:the-rise-of-tabor-1419]]塔博尔[[/link]]，这座激进派当年建在山头上、专门用来等待世界末日的城市，升格为享有特权的王室城市。\n\n世界末日没有来，一纸王室特许状，也算退而求其次了。\n\n并不是所有人都认了命。赫拉德茨-克拉洛韦在激进派神父安布罗日的带领下，一直顶到了1437年春天。\n\n还有一位老指挥官，压根就不肯讲和。[[link:orphans-grow-up-fast-1425]]杜巴的扬·罗哈奇[[/link]]在利帕尼被俘，几周后获释，想领导塔博尔的残部，没能成功。\n\n1435年秋天，他退守到库特纳霍拉附近自己的锡永城堡，从那里对国王打起了一场小小的私人战争，专门袭扰王室领地。[[b]]西吉斯蒙德什么都能忍，就是忍不了一个待在城堡里偷他东西的老胡斯派。[[/b]]1437年2月，议会下令征召全国民兵，讨伐锡永。",
+      zh: "西吉斯蒙德如今既是神圣罗马帝国皇帝，又是名正言顺的波希米亚国王，布拉格也顺理成章地再次成了皇帝的驻地，这是查理四世之后的头一回。\n\n帝国本没有法定的首都，可皇帝在哪里设朝，哪里就是事实上的帝国中心；接下来的一年，这个地方就是布拉格。\n\n他把朝廷安在国王宫，选了老城的圣雅各教堂做宫廷教堂，还亲自安排方济各会修士回到那里。天主教神父重新出现在布拉格的各个教堂里，修道院开始讨回自己的产业，20年代逃离布拉格的流亡者也陆续回家。\n\n与此同时，塔博尔已经没有军队了。利帕尼之后，它残余的部队又在1435年8月的克热奇之战中被打败，这一次打败他们的是[[link:who-was-oldrich-of-rozmberk-1434]]罗森贝格的奥尔德日赫[[/link]]的人马，塔博尔城只好和国王讲和。\n\n1437年，西吉斯蒙德把[[link:the-rise-of-tabor-1419]]塔博尔[[/link]]，这座激进派当年建在山头上、专门用来等待世界末日的城市，升格为享有特权的王室城市。\n\n世界末日没有来，一纸王室特许状，也算退而求其次了。\n\n并不是所有人都认了命。赫拉德茨-克拉洛韦在激进派神父安布罗日的带领下，一直顶到了1437年春天。\n\n还有一位老指挥官，压根就不肯讲和。[[link:orphans-grow-up-fast-1425]]杜巴的扬·罗哈奇[[/link]]在利帕尼被俘，几周后获释，想领导塔博尔的残部，没能成功。\n\n1435年秋天，他退守到库特纳霍拉附近自己的锡永城堡，从那里对国王打起了一场小小的私人战争，专门袭扰王室领地。[[b]]西吉斯蒙德什么都能忍，就是忍不了一个待在城堡里偷他东西的老胡斯派。[[/b]]1437年2月，议会下令征召全国民兵，讨伐锡永。",
     },
     relatedLandmarks: [
       {
@@ -20000,7 +20000,7 @@ export const historyEvents = [
     summary: {
       en: "When the news reached Prague, the people with most reason to cheer were the party that had backed Casimir: the king they had opposed was dead. The cheering did not last long. The Poles had already turned to the fight for Hungary and had no time left for Bohemia. [[b]]Their enemy was gone, and so was their backing.[[/b]]\n\nAs for the newborn baby, by Albert's hereditary claim he was heir to Bohemia too. But he was still being breastfed, he lived in Wiener Neustadt, and the Bohemian estates were not about to let the crown simply pass down the family.\n\nIn January 1440 the estates met in Prague and, for once, did not fall out. At Ptáček's urging the diet confirmed the Compacts and recognised Rokycana's election as archbishop, and Catholics and Utraquists agreed not to start killing each other again.\n\nThe question of a king was harder. The estates elected Duke Albert III of Bavaria, and the duke politely said no. Perhaps he had been counting how long the last two had lasted.\n\nSo Bohemia settled into life without one. Lords, knights and towns formed regional peace unions, landfrídy in Czech, which collected their own taxes, raised their own troops, kept order and settled disputes. Each region became, more or less, a small state run by its nobles.\n\nThe kingdom split up accordingly. The Plzeň region in the west and [[link:who-was-oldrich-of-rozmberk-1434]]Oldřich of Rožmberk[[/link]] in the south stood with the Catholics.\n\nThe highest office in the land, Supreme Burgrave of Prague, belonged to the Catholic lord Menhart of Hradec, who was also burgrave of Karlštejn, where the crown was kept.\n\nThe east was Utraquist country. On 17 March 1440, at Čáslav, four regional unions joined into one, and at its head stood an old acquaintance: [[link:two-kings-1438]]Ptáček[[/link]].\n\nUnder him served a young man who turned twenty that year. Six years earlier, at fourteen, he had fought at Lipany, on the side that won.\n\n[[b]]His name was George of Poděbrady.[[/b]]",
       cz: "Když zpráva dorazila do Prahy, nejvíc důvodů k radosti měla strana, která podporovala Kazimíra: král, proti kterému stáli, byl mrtvý. Radost ale dlouho nevydržela. Poláci se už pustili do boje o Uhry a na Čechy neměli čas. [[b]]Nepřítel byl pryč, jenže opora taky.[[/b]]\n\nA novorozeně? Podle Albrechtova dědického nároku bylo i dědicem českého trůnu. Jenže ho ještě kojili, bydlelo ve Vídeňském Novém Městě a čeští stavové nehodlali dopustit, aby se koruna prostě předala v rodině.\n\nV lednu 1440 se stavové sešli v Praze a tentokrát se nepohádali. Na Ptáčkův popud sněm potvrdil kompaktáta a uznal Rokycanovu volbu arcibiskupem a katolíci s kališníky se dohodli, že se zase nezačnou zabíjet.\n\nS králem to bylo těžší. Stavové zvolili bavorského vévodu Albrechta III. a vévoda zdvořile odmítl. Možná si spočítal, jak dlouho vydrželi poslední dva.\n\nČechy si tedy zvykaly žít bez krále. Páni, rytíři a města uzavírali krajské landfrídy, mírové jednoty, které samy vybíraly daně, najímaly vojsko, udržovaly pořádek a soudily spory. Z každého kraje se víceméně stal malý stát, kterému vládla šlechta.\n\nKrálovství se podle toho rozdělilo. Plzeňsko na západě a [[link:who-was-oldrich-of-rozmberk-1434]]Oldřich z Rožmberka[[/link]] na jihu stáli na straně katolíků.\n\nNejvyšší úřad v zemi, nejvyššího purkrabího pražského, držel katolický pán Menhart z Hradce, zároveň purkrabí na Karlštejně, kde byla uložena koruna.\n\nVýchod patřil kališníkům. 17. března 1440 se v Čáslavi spojily čtyři krajské landfrídy v jeden a v jeho čele stál starý známý: [[link:two-kings-1438]]Ptáček[[/link]].\n\nPod ním sloužil mladý muž, kterému toho roku bylo dvacet. Před šesti lety bojoval ve čtrnácti u Lipan, na straně, která vyhrála.\n\n[[b]]Jmenoval se Jiří z Poděbrad.[[/b]]",
-      zh: "消息传到布拉格，最该高兴的是当初拥立卡齐米日的那一派：他们反对的国王死了。可没高兴多久，他们就发现波兰人已经转身去匈牙利争王位，顾不上波希米亚了。[[b]]反对的人没了，撑腰的人也走了。[[/b]]\n\n至于那个刚出生的孩子，按阿尔布雷希特的继承权，他同样是波希米亚王位的继承人。可他还在吃奶，人在维也纳新城，捷克各等级也不打算让王冠就这么在一家人里传下去。\n\n1440年1月，各等级在布拉格开会，这回难得没有吵翻。在普塔切克的推动下，会议确认了《协定》，也承认了罗基察纳当选大主教的结果，天主教徒和圣杯派总算说好了不再动刀子。\n\n国王的事却难办得多。各等级推选巴伐利亚公爵阿尔布雷希特三世为国王，公爵客客气气地谢绝了。也许他一直在数，前两位国王各自坐了多久。\n\n于是，波希米亚过起了没有国王的日子。各地的贵族、骑士和城市结成了地区性的“和平联盟”，自己收税、自己养兵、自己维持治安、调解纠纷。每个地区差不多都成了一个由贵族说了算的小国。\n\n王国也就这样分成了几块。西边的比尔森一带和南边的[[link:who-was-oldrich-of-rozmberk-1434]]罗日姆贝克的奥尔德日赫[[/link]]站在天主教一边。\n\n全国最高的官职布拉格最高城堡伯爵，握在天主教贵族赫拉德茨的门哈特手里，他同时还兼任卡尔施泰因城堡的城堡伯爵，波希米亚王冠就锁在那里。\n\n东边则是圣杯派的天下。1440年3月17日，四个地区的联盟在恰斯拉夫合而为一，领头的正是我们的老熟人[[link:two-kings-1438]]普塔切克[[/link]]。\n\n他手下有个年轻人，这一年刚满二十岁。六年前在利帕尼，他十四岁就上了战场，站在赢的那一边。\n\n[[b]]他叫波杰布拉德的伊日。[[/b]]",
+      zh: "消息传到布拉格，最该高兴的是当初拥立卡齐米日的那一派：他们反对的国王死了。可没高兴多久，他们就发现波兰人已经转身去匈牙利争王位，顾不上波希米亚了。[[b]]反对的人没了，撑腰的人也走了。[[/b]]\n\n至于那个刚出生的孩子，按阿尔布雷希特的继承权，他同样是波希米亚王位的继承人。可他还在吃奶，人在维也纳新城，捷克各等级也不打算让王冠就这么在一家人里传下去。\n\n1440年1月，各等级在布拉格开会，这回难得没有吵翻。在普塔切克的推动下，会议确认了《协定》，也承认了罗基察纳当选大主教的结果，天主教徒和圣杯派总算说好了不再动刀子。\n\n国王的事却难办得多。各等级推选巴伐利亚公爵阿尔布雷希特三世为国王，公爵客客气气地谢绝了。也许他一直在数，前两位国王各自坐了多久。\n\n于是，波希米亚过起了没有国王的日子。各地的贵族、骑士和城市结成了地区性的“和平联盟”，自己收税、自己养兵、自己维持治安、调解纠纷。每个地区差不多都成了一个由贵族说了算的小国。\n\n王国也就这样分成了几块。西边的比尔森一带和南边的[[link:who-was-oldrich-of-rozmberk-1434]]罗森贝格的奥尔德日赫[[/link]]站在天主教一边。\n\n全国最高的官职布拉格最高城堡伯爵，握在天主教贵族赫拉德茨的门哈特手里，他同时还兼任卡尔施泰因城堡的城堡伯爵，波希米亚王冠就锁在那里。\n\n东边则是圣杯派的天下。1440年3月17日，四个地区的联盟在恰斯拉夫合而为一，领头的正是我们的老熟人[[link:two-kings-1438]]普塔切克[[/link]]。\n\n他手下有个年轻人，这一年刚满二十岁。六年前在利帕尼，他十四岁就上了战场，站在赢的那一边。\n\n[[b]]他叫波杰布拉德的伊日。[[/b]]",
     },
     relatedLandmarks: [
       {
@@ -20185,7 +20185,7 @@ export const historyEvents = [
     summary: {
       en: "The Church, it turned out, kept its word about as well as Sigismund had. The Compacts that the older generation had paid for in blood meant nothing to Rome, and nobody was angrier about it than George and his eastern union.\n\nHis party had trusted the promises made at Basel; that was why they had joined the Catholic lords to crush the field armies at Lipany. Now that battle looked as if it had been fought for nothing.\n\nIn the summer of 1448 George gathered an army at Kutná Hora, officially for a campaign against Saxony. But at the end of August the troops did not head for Saxony. They marched west and made camp south-east of Prague, around Běchovice and Dolní Počernice.\n\nOn the night of 2 September 1448 he struck. A force made up mostly of men from Hradec Králové stormed the weakly held fortress of Vyšehrad, quickly overpowered the startled garrison, opened one of the city gates and sounded the trumpets.\n\nA second column slipped into the city near Karlov and, shouting \"Kunštát, charge! Hradec, charge!\", marched through the New Town almost unopposed, all the way to the Old Town Square, where it took the Old Town Hall.\n\nWhen the Praguers woke up the next morning, the streets were full of East Bohemian soldiers. [[b]]By most accounts only one or two men died that night, and the capital of a kingdom changed hands.[[/b]]\n\nMenhart hid for a few days before someone gave him away. He spent five months in prison, fell ill, and was released on 1 February 1449. Two days later he died at Říčany, on his way to Karlštejn. The Catholic side later accused George of poisoning him, but nobody ever proved it.\n\n[[link:a-throne-for-one-year-1437]]Rokycana[[/link]], driven out of Prague eleven years earlier, came back from Hradec Králové on 10 September and returned to the pulpit of the Týn church. Later a huge golden chalice was raised high on the Týn church's gable, where the whole Old Town could see it.\n\nThe Catholic lords were furious. In February 1449 they formed a league at Strakonice in South Bohemia, led by the [[link:who-was-oldrich-of-rozmberk-1434]]Rožmberks[[/link]], to settle accounts with George.\n\n[[b]]None of that changed one fact: Bohemia still had no king, but its capital now had a master.[[/b]]",
       cz: "Ukázalo se, že církev drží slovo asi tak jako kdysi Zikmund. Kompaktáta, která starší generace vykoupila krví, pro Řím nic neznamenala, a nikdo se kvůli tomu nezlobil víc než Jiří a jeho východní jednota.\n\nJeho strana věřila slibům z Basileje; právě proto se spojila s katolickými pány a u Lipan rozdrtila polní vojska. Teď to vypadalo, že ta bitva byla k ničemu.\n\nV létě 1448 shromáždil Jiří vojsko v Kutné Hoře, oficiálně na tažení proti Sasku. Koncem srpna však vojsko do Saska nezamířilo. Táhlo na západ a utábořilo se jihovýchodně od Prahy, u Běchovic a Dolních Počernic.\n\nV noci na 3. září 1448 udeřil. Oddíl složený hlavně z Hradečanů přepadl slabě hájený Vyšehrad, rychle přemohl zaskočenou posádku, otevřel jednu z městských bran a dal troubit.\n\nDruhý proud pronikl do města u Karlova a s pokřikem „Kunštát hr! Hradec hr!“ prošel téměř bez odporu Novým Městem až na Staroměstské náměstí, kde obsadil Staroměstskou radnici.\n\nKdyž se Pražané druhý den ráno probudili, ulice byly plné východočeských vojáků. [[b]]Té noci prý padli jen jeden nebo dva muži, a hlavní město království změnilo pána.[[/b]]\n\nMenhart se několik dní skrýval, než ho někdo prozradil. Pět měsíců strávil ve vězení, onemocněl a 1. února 1449 byl propuštěn. O dva dny později zemřel v Říčanech, na cestě na Karlštejn. Katolická strana později obvinila Jiřího, že ho otrávil, ale nikdo to nikdy nedokázal.\n\n[[link:a-throne-for-one-year-1437]]Rokycana[[/link]], kterého z Prahy vyhnali před jedenácti lety, se 10. září vrátil z Hradce Králové a znovu stanul na kazatelně Týnského chrámu. Později byl vysoko na štítu Týnského chrámu vztyčen obrovský zlatý kalich, který bylo vidět z celého Starého Města.\n\nKatoličtí páni zuřili. V únoru 1449 uzavřeli ve Strakonicích v jižních Čechách jednotu, v jejímž čele stáli [[link:who-was-oldrich-of-rozmberk-1434]]Rožmberkové[[/link]], aby si to s Jiřím vyřídili.\n\n[[b]]Na jednom faktu to už nic nezměnilo: Čechy pořád neměly krále, ale jejich hlavní město teď mělo pána.[[/b]]",
-      zh: "教会和西吉斯蒙德一样不讲信用。前辈们用鲜血换来的协定，罗马根本不当回事，最气不过的就是伊日和他东边的联盟。\n\n当年他们这一派正是信了巴塞尔的承诺，才和天主教贵族联手，在利帕尼打垮了野战军。如今看来，那一仗像是白打了。\n\n1448年夏天，伊日在库特纳霍拉集结军队，对外宣称是要去打萨克森。可到了8月底，队伍并没有往萨克森去，而是掉头向西，在布拉格东南的贝霍维采和下波切尔尼采一带扎下了营。\n\n1448年9月2日夜里，他动手了。一支以赫拉德茨-克拉洛韦人为主的队伍突袭了防守薄弱的维谢赫拉德，很快制服了措手不及的守军，打开一座城门，吹起号角报捷。\n\n另一路人马从卡尔洛夫附近摸进城，一路喊着“昆什塔特，冲啊！赫拉德茨，冲啊！”，几乎没遇到抵抗就穿过了新城，直抵老城广场，占领了老城市政厅。\n\n等布拉格人第二天早上醒来，街上已经站满了东波希米亚的士兵。[[b]]据说这一夜只死了一两个人，一个王国的首都就这样换了主人。[[/b]]\n\n门哈特躲了几天，还是被人出卖，抓了起来。他在牢里关了五个月，病倒了，1449年2月1日获释，两天后就死在了前往卡尔施泰因途中的里查尼。天主教一方后来指控伊日毒死了他，可这件事始终拿不出证据。\n\n被赶出布拉格十一年的[[link:a-throne-for-one-year-1437]]罗基察纳[[/link]]，9月10日从赫拉德茨-克拉洛韦回来了，重新站上了泰恩教堂的讲台。后来，泰恩教堂高高的山墙上竖起了一只巨大的金色圣杯，整座老城抬头就能看见。\n\n天主教贵族们气坏了。1449年2月，他们在南波希米亚的斯特拉科尼采结成同盟，由[[link:who-was-oldrich-of-rozmberk-1434]]罗日姆贝克家族[[/link]]领头，要跟伊日算账。\n\n[[b]]但这已经改变不了一个事实：波希米亚仍然没有国王，可它的首都，如今有了一个主人。[[/b]]",
+      zh: "教会和西吉斯蒙德一样不讲信用。前辈们用鲜血换来的协定，罗马根本不当回事，最气不过的就是伊日和他东边的联盟。\n\n当年他们这一派正是信了巴塞尔的承诺，才和天主教贵族联手，在利帕尼打垮了野战军。如今看来，那一仗像是白打了。\n\n1448年夏天，伊日在库特纳霍拉集结军队，对外宣称是要去打萨克森。可到了8月底，队伍并没有往萨克森去，而是掉头向西，在布拉格东南的贝霍维采和下波切尔尼采一带扎下了营。\n\n1448年9月2日夜里，他动手了。一支以赫拉德茨-克拉洛韦人为主的队伍突袭了防守薄弱的维谢赫拉德，很快制服了措手不及的守军，打开一座城门，吹起号角报捷。\n\n另一路人马从卡尔洛夫附近摸进城，一路喊着“昆什塔特，冲啊！赫拉德茨，冲啊！”，几乎没遇到抵抗就穿过了新城，直抵老城广场，占领了老城市政厅。\n\n等布拉格人第二天早上醒来，街上已经站满了东波希米亚的士兵。[[b]]据说这一夜只死了一两个人，一个王国的首都就这样换了主人。[[/b]]\n\n门哈特躲了几天，还是被人出卖，抓了起来。他在牢里关了五个月，病倒了，1449年2月1日获释，两天后就死在了前往卡尔施泰因途中的里查尼。天主教一方后来指控伊日毒死了他，可这件事始终拿不出证据。\n\n被赶出布拉格十一年的[[link:a-throne-for-one-year-1437]]罗基察纳[[/link]]，9月10日从赫拉德茨-克拉洛韦回来了，重新站上了泰恩教堂的讲台。后来，泰恩教堂高高的山墙上竖起了一只巨大的金色圣杯，整座老城抬头就能看见。\n\n天主教贵族们气坏了。1449年2月，他们在南波希米亚的斯特拉科尼采结成同盟，由[[link:who-was-oldrich-of-rozmberk-1434]]罗森贝格家族[[/link]]领头，要跟伊日算账。\n\n[[b]]但这已经改变不了一个事实：波希米亚仍然没有国王，可它的首都，如今有了一个主人。[[/b]]",
     },
     relatedLandmarks: [
       {
@@ -20317,7 +20317,7 @@ export const historyEvents = [
     summary: {
       en: "The Strakonice league made a lot of noise, but once the fighting started, the Rožmberks found George much harder to deal with than they had expected.\n\nOn 4 June 1450, near Rokycany, his army attacked the league's forces and, mostly thanks to its guns, sent them running. The league asked for a truce, and by 1451 it had more or less fallen apart. One by one the Catholic lords came back to the negotiating table, much as the crusaders once had.\n\nThere was an irony in it. At fourteen, George had helped destroy the Hussite field armies at Lipany. Twenty years on, nobody in Bohemia handled their way of fighting, wagons and guns together, better than he did.\n\nIn July 1451 a familiar visitor came to the diet at Benešov as the emperor's envoy: [[link:undefeated-until-the-plague-1424]]Aeneas Silvius Piccolomini[[/link]]. He talked with George through an interpreter and was impressed. He was less impressed by Tábor, which he also visited:\n\n[[quote:0]]\n\nThat autumn Emperor Frederick III, who still had no intention of handing over young Ladislaus, recognised George as administrator of the kingdom instead. On 27 April 1452, at the St. George's diet in Prague, the estates made it official and elected him administrator for two years. Bohemia still had no king, but it now had a regent everyone, more or less, had agreed to.\n\n[[b]]A Utraquist lord was running Bohemia, and the emperor had put his name to it: for the first time, the Hussite side had a regent the emperor himself recognised, not just some \"heretic\".[[/b]]",
       cz: "Strakonická jednota nadělala hodně hluku, ale jakmile se začalo bojovat, Rožmberkové zjistili, že Jiří je mnohem tvrdší oříšek, než čekali.\n\n4. června 1450 u Rokycan zaútočilo jeho vojsko na oddíly jednoty a hlavně díky dělům je zahnalo na útěk. Jednota požádala o příměří a do roku 1451 se víceméně rozpadla. Katoličtí páni se jeden po druhém vraceli k jednacímu stolu, podobně jako kdysi křižáci.\n\nByla v tom ironie. Ve čtrnácti Jiří pomáhal u Lipan zničit husitská polní vojska. O dvacet let později nikdo v Čechách neovládal jejich způsob boje, vozy a děla dohromady, lépe než on.\n\nV červenci 1451 přijel na sněm do Benešova jako císařův vyslanec starý známý: [[link:undefeated-until-the-plague-1424]]Enea Silvio Piccolomini[[/link]]. S Jiřím mluvil přes tlumočníka a udělal na něj velký dojem. Méně ho nadchl Tábor, který také navštívil:\n\n[[quote:0]]\n\nNa podzim pak císař Fridrich III., který mladého Ladislava pořád nehodlal vydat, uznal Jiřího alespoň za správce království. 27. dubna 1452 to stavové na svatojiřském sněmu v Praze zpečetili a zvolili ho zemským správcem na dva roky. Čechy pořád neměly krále, ale měly správce, na kterém se víceméně všichni shodli.\n\n[[b]]Čechy spravoval kališnický pán a císař k tomu připojil svůj podpis: poprvé měla husitská strana správce země, kterého uznal sám císař, a ne nějakého „kacíře“.[[/b]]",
-      zh: "斯特拉科尼采同盟来势汹汹，可真打起来，罗日姆贝克家族很快发现，伊日比他们想象的难对付得多。\n\n1450年6月4日，在罗基察尼附近，伊日的军队向同盟的人马发起进攻，主要靠着火炮把他们打得四散奔逃。同盟只好求和，到1451年，基本已经散了架。天主教贵族一个接一个回到谈判桌前，就像当年的十字军一样。\n\n这里头有点讽刺。伊日十四岁时，在利帕尼帮着打垮了胡斯派的野战军；二十年后，在整个波希米亚，把胡斯派那套战车加火炮的打法用得最熟的，偏偏就是他。\n\n1451年7月，一位老熟人作为皇帝的使节来到贝内绍夫参加议会：[[link:undefeated-until-the-plague-1424]]埃涅阿斯·西尔维乌斯·皮科洛米尼[[/link]]。他通过翻译和伊日谈了一番，对他印象很好。他还顺路去了一趟塔博尔，印象就没那么好了：\n\n[[quote:0]]\n\n这年秋天，皇帝腓特烈三世仍然不肯交出年幼的拉迪斯拉夫，于是退而求其次，承认伊日为王国的管理者。1452年4月27日，在布拉格的圣乔治议会上，各等级正式选举伊日为摄政，任期两年。波希米亚还是没有国王，可总算有了一位大家多少都认可的摄政。\n\n[[b]]一个圣杯派贵族当上了波希米亚的摄政，而且连皇帝都签字认了：胡斯派这一边，头一回有了一位被皇帝亲自承认的摄政，而不是什么“异端”了。[[/b]]",
+      zh: "斯特拉科尼采同盟来势汹汹，可真打起来，罗森贝格家族很快发现，伊日比他们想象的难对付得多。\n\n1450年6月4日，在罗基察尼附近，伊日的军队向同盟的人马发起进攻，主要靠着火炮把他们打得四散奔逃。同盟只好求和，到1451年，基本已经散了架。天主教贵族一个接一个回到谈判桌前，就像当年的十字军一样。\n\n这里头有点讽刺。伊日十四岁时，在利帕尼帮着打垮了胡斯派的野战军；二十年后，在整个波希米亚，把胡斯派那套战车加火炮的打法用得最熟的，偏偏就是他。\n\n1451年7月，一位老熟人作为皇帝的使节来到贝内绍夫参加议会：[[link:undefeated-until-the-plague-1424]]埃涅阿斯·西尔维乌斯·皮科洛米尼[[/link]]。他通过翻译和伊日谈了一番，对他印象很好。他还顺路去了一趟塔博尔，印象就没那么好了：\n\n[[quote:0]]\n\n这年秋天，皇帝腓特烈三世仍然不肯交出年幼的拉迪斯拉夫，于是退而求其次，承认伊日为王国的管理者。1452年4月27日，在布拉格的圣乔治议会上，各等级正式选举伊日为摄政，任期两年。波希米亚还是没有国王，可总算有了一位大家多少都认可的摄政。\n\n[[b]]一个圣杯派贵族当上了波希米亚的摄政，而且连皇帝都签字认了：胡斯派这一边，头一回有了一位被皇帝亲自承认的摄政，而不是什么“异端”了。[[/b]]",
     },
     quotes: [
       {
@@ -21980,7 +21980,7 @@ export const historyEvents = [
         attribution: {
           en: "Petr of Rožmberk, letter to Prague, 1507",
           cz: "Petr z Rožmberka, dopis Pražanům, 1507",
-          zh: "罗日姆贝克的彼得致布拉格的信，1507年",
+          zh: "罗森贝格的彼得致布拉格的信，1507年",
         },
       },
       {
@@ -22011,7 +22011,7 @@ export const historyEvents = [
     summary: {
       en: "In the spring of 1507, Jiří Kopidlanský first signed his family's lands over to his mother and his younger brother, so that his family would not go down with him. Then he wrote to the king and solemnly announced that from now on he was Prague's enemy.\n\nThere was a special term for this at the time: an \"enemy of the land\". In plain words, he had declared himself public enemy of the whole kingdom.\n\nHe soon raised a band of men. Petr of Rožmberk, a powerful lord of the region, wrote to warn the people of Prague:\n\n[[quote:0]]\n\nJiří did not attack the city itself; he went for softer targets. He laid ambushes on the roads into Prague and stopped Prague merchants and carters. He took their goods, cut off a hand or an ear, and sent them back into the city for the councillors to have a good look at. Outside Prague one village after another went up in flames: Michle, Běchovice… The closest call came when his riders charged right up to the walls of the New Town; if the guards had not shut the gate in time, they would have been inside.\n\nThe people of Prague hit back, and sent troops to raid the Kopidlanský family seat. But Jiří kept appearing and vanishing outside the city: no sooner had one fire burned out than smoke rose somewhere else.\n\n[[b]]A capital of tens of thousands had been turned into a city under siege by one knight and a few hundred mercenaries.[[/b]]\n\nAnd what were the rest of Bohemia's lords doing? A later chronicler put it bluntly:\n\n[[quote:1]]\n\nThe people of Prague had no choice but to turn to the king. Letter after letter went off to Buda.\n\nAt last the king replied. His letter did not mention Jiří at all. It simply reminded the people of Prague to follow the rules:\n\n[[quote:2]]\n\nThe land government was made up entirely of lords, and the [[link:the-lords-hold-the-pen-1500]]Land Ordinance[[/link]] was the one the lords had written on the king's behalf.\n\n[[b]]It was burghers who were robbed and burghers who were burned out, and the king's advice to the burghers was: do as the lords say.[[/b]]\n\nWhen they had read the letter, the people of Prague probably understood at last that the king's mind was simply not on them.\n\nThey were right. Far away in Buda, the king's mind was entirely on a cradle.",
       cz: "Na jaře 1507 převedl Jiří Kopidlanský nejprve rodové statky na matku a mladšího bratra, aby rodinu nestrhl s sebou. Pak napsal králi a slavnostně oznámil, že je od té chvíle nepřítelem Prahy.\n\nTehdy se pro to užíval zvláštní výraz: „zemský škůdce“. Zkrátka se sám prohlásil za nepřítele celé země.\n\nBrzy dal dohromady vojsko. Petr z Rožmberka, mocný pán z okolí, Pražany varoval dopisem:\n\n[[quote:0]]\n\nJiří na město neútočil, šel po snadnější kořisti. Na cestách do Prahy číhal na pražské kupce a vozky. Zboží jim sebral, usekl ruku nebo uřízl ucho a poslal je zpátky do města, ať se konšelé dobře podívají. Vesnice za Prahou hořely jedna za druhou: Michle, Běchovice… Nejblíž to bylo, když jeho jezdci vyrazili až pod hradby Nového Města; kdyby stráže včas nezavřely bránu, byli by uvnitř.\n\nPražané nezůstali pozadu a poslali vojsko vyplenit rodové sídlo Kopidlanských. Jiří se ale za městem dál objevoval a mizel: sotva tady dohořelo, už se kouřilo jinde.\n\n[[b]]Hlavní město s desítkami tisíc obyvatel se kvůli jednomu rytíři a několika stovkám žoldnéřů ocitlo jako v obležení.[[/b]]\n\nA co dělali ostatní čeští páni? Pozdější kronikář to napsal bez obalu:\n\n[[quote:1]]\n\nPražanům nezbylo než obrátit se na krále. Do Budína odcházel jeden dopis za druhým.\n\nKrál konečně odpověděl. O Jiřím v dopise nepadlo ani slovo, jen Pražany nabádal, aby dodržovali pravidla:\n\n[[quote:2]]\n\nV zemské vládě seděli samí páni a [[link:the-lords-hold-the-pen-1500]]zemské zřízení[[/link]] za krále sepsali páni.\n\n[[b]]Okrádali měšťany, vypalovali měšťany, a král měšťanům radil: poslouchejte pány.[[/b]]\n\nKdyž Pražané dopis dočetli, nejspíš konečně pochopili, že král má myšlenky úplně jinde.\n\nMěli pravdu. Král daleko v Budíně myslel jen na jednu kolébku.",
-      zh: "1507年春天，乔治·科皮德尔诺先把家里的田产转到了母亲和弟弟名下，免得连累家人。然后，他写信给国王，郑重宣布：从此与布拉格为敌。\n\n这在当时有个专门的说法，叫“邦国的祸害”。说白了，就是自己宣布自己是全国公敌。\n\n他很快拉起了一支队伍。邻近的大贵族罗日姆贝克的彼得写信提醒布拉格人：\n\n[[quote:0]]\n\n乔治不攻城，专挑软的下手。他在通往布拉格的大路上设伏，拦下布拉格的商人和车夫，货抢走，人砍掉一只手、割掉一只耳朵，再放回城里，让议员们好好看看。布拉格城外的村子一个接一个着了火，米赫莱、别霍维采……最近的一回，他的人马一直冲到了新城的城墙下，要不是守卫及时关上城门，差点就杀进城里。\n\n布拉格人也不甘示弱，派兵去抄了科皮德尔诺家的老窝。可乔治照样在城外神出鬼没，这边刚烧完，那边又冒烟。\n\n[[b]]一座几万人的首都，被一个骑士和几百个雇佣兵，围成了一座孤城。[[/b]]\n\n波希米亚的其他贵族在干什么呢？后来的一位编年史家写得很直白：\n\n[[quote:1]]\n\n布拉格人只好去找国王。信一封接一封地往布达寄。\n\n国王终于回信了。信里没有一个字提到乔治，只是叮嘱布拉格人要守规矩：\n\n[[quote:2]]\n\n邦国政府，坐的全是贵族；[[link:the-lords-hold-the-pen-1500]]邦法[[/link]]，是贵族替国王写的。\n\n[[b]]被抢的是市民，被烧的是市民，国王给市民的建议是：听贵族的话。[[/b]]\n\n布拉格人读完这封信，大概终于明白了：国王的心思，根本不在这里。\n\n布拉格人是对的，此时远在布达的国王，心思全在一个摇篮上。",
+      zh: "1507年春天，乔治·科皮德尔诺先把家里的田产转到了母亲和弟弟名下，免得连累家人。然后，他写信给国王，郑重宣布：从此与布拉格为敌。\n\n这在当时有个专门的说法，叫“邦国的祸害”。说白了，就是自己宣布自己是全国公敌。\n\n他很快拉起了一支队伍。邻近的大贵族罗森贝格的彼得写信提醒布拉格人：\n\n[[quote:0]]\n\n乔治不攻城，专挑软的下手。他在通往布拉格的大路上设伏，拦下布拉格的商人和车夫，货抢走，人砍掉一只手、割掉一只耳朵，再放回城里，让议员们好好看看。布拉格城外的村子一个接一个着了火，米赫莱、别霍维采……最近的一回，他的人马一直冲到了新城的城墙下，要不是守卫及时关上城门，差点就杀进城里。\n\n布拉格人也不甘示弱，派兵去抄了科皮德尔诺家的老窝。可乔治照样在城外神出鬼没，这边刚烧完，那边又冒烟。\n\n[[b]]一座几万人的首都，被一个骑士和几百个雇佣兵，围成了一座孤城。[[/b]]\n\n波希米亚的其他贵族在干什么呢？后来的一位编年史家写得很直白：\n\n[[quote:1]]\n\n布拉格人只好去找国王。信一封接一封地往布达寄。\n\n国王终于回信了。信里没有一个字提到乔治，只是叮嘱布拉格人要守规矩：\n\n[[quote:2]]\n\n邦国政府，坐的全是贵族；[[link:the-lords-hold-the-pen-1500]]邦法[[/link]]，是贵族替国王写的。\n\n[[b]]被抢的是市民，被烧的是市民，国王给市民的建议是：听贵族的话。[[/b]]\n\n布拉格人读完这封信，大概终于明白了：国王的心思，根本不在这里。\n\n布拉格人是对的，此时远在布达的国王，心思全在一个摇篮上。",
     },
     relatedLandmarks: [
       {
@@ -22216,14 +22216,14 @@ export const historyEvents = [
         attribution: {
           en: "A letter from the Rožmberk correspondence, 1514",
           cz: "Dopis z rožmberské korespondence, 1514",
-          zh: "罗日姆贝克家族往来书信，1514年",
+          zh: "罗森贝格家族往来书信，1514年",
         },
       },
     ],
     summary: {
       en: "In the spring of 1514, something big happened in Hungary.\n\nThe Archbishop of Esztergom called the whole country to a crusade against the [[link:the-rise-of-the-ottomans-1453]]Turks[[/link]]. Hardly any knights signed up, but peasants came in their tens of thousands. They gathered with scythes and flails under a border soldier named György Dózsa. Once the army had come together, though, the peasants realised that what really weighed on them was not in Turkey at all. It was right on their own doorstep.\n\nThe crusade turned around. Within a few weeks manor houses were burning all over Hungary, and nobles were dragged out of their castles, some to be hanged, some to be impaled.\n\nThe news reached Bohemia: the king was in trouble in Buda.\n\nThe towns saw their chance at once. For years the nobles had pushed them around at the diet, and they could never get a word in with the king. Now the king was in trouble, and if the towns were the first to send troops, surely he would remember who could really be relied on. So the towns raised an army, put it under the commander they had hired the year before, [[link:the-heretic-kings-grandson-1513]]Duke Bartholomew[[/link]], and sent it off to Hungary.\n\nNot everyone was pleased. [[link:one-man-against-a-city-1507]]Petr of Rožmberk[[/link]], the great lord of South Bohemia, wrote letter after letter, to the king, to the people of Prague and in the end to the emperor himself, asking them to stop the duke.\n\n[[b]]At home the townsmen and the nobles were sworn enemies; abroad, the townsmen were rushing to help another country's nobles put down their peasants.[[/b]]\n\nThe Hungarian nobles, however, did not wait for them. In July the great magnate John Zápolya crushed the peasant army at Temesvár, and Dózsa was taken prisoner.\n\nThe nobles had a special execution in mind for him. They placed a red-hot iron crown on the head of this \"peasant king\". The throne he sat on, it is said, was red-hot iron too.\n\n[[b]]In 1514 Hungary had two crowns: a golden one on the head of eight-year-old Louis, and a red-hot iron one on the head of a peasant rebel.[[/b]]\n\nThe rising was crushed. That autumn the Hungarian diet passed a new law: from now on the peasants were bound to the land for ever, and could never again leave their lords.\n\nThe Bohemian towns' relief force, meanwhile, finished gathering in Prague at the beginning of August. The war had been over for a month.\n\nThe king, at least, was very gracious about it. The envoys sent to him came back and reported:\n\n[[quote:0]]\n\nGrateful or not, the army set off anyway. With no peasants left to fight, the duke's men found other things to do along the way: setting fires and helping themselves. The lords whose lands they passed through were furious, and the duke had to explain to Emperor Maximilian, item by item, what his men had burned and what they had taken. By the autumn he had dug himself in somewhere in Hungary, and the news that came back went like this:\n\n[[quote:1]]\n\nThe towns had sent out an army, and got back a \"very grateful\" and a pile of unpaid damages.\n\n[[b]]The help arrived late; the thanks arrived promptly. Still, the townsmen had no intention of giving up.[[/b]]",
       cz: "Na jaře 1514 se v Uhrách stalo něco velkého.\n\nOstřihomský arcibiskup vyhlásil po celé zemi křížovou výpravu proti [[link:the-rise-of-the-ottomans-1453]]Turkům[[/link]]. Rytířů se přihlásilo jen pár, zato se sešly desítky tisíc sedláků. S kosami a cepy se shromáždili pod velením pohraničního vojáka Jiřího Dóži. Jenže když se vojsko sešlo, sedláci zjistili, že to, co je doopravdy tíží, není v Turecku. Je to hned za humny.\n\nKřižáci se obrátili. Během pár týdnů hořely po celých Uhrách panské dvory a šlechtice tahali z hradů; jedny věšeli, jiné naráželi na kůl.\n\nDo Čech dorazila zpráva: král má v Budíně potíže.\n\nMěsta v tom hned uviděla příležitost. Léta je páni na sněmu odstrkovali a u krále se nikdy nedostali ke slovu. Teď měl král potíže, a kdyby města poslala vojsko první, král si přece zapamatuje, na koho je opravdu spolehnutí. Města tedy dala dohromady vojsko, svěřila ho hejtmanovi, kterého si najala předloni, [[link:the-heretic-kings-grandson-1513]]knížeti Bartoloměji[[/link]], a poslala ho do Uher.\n\nNe všem se to líbilo. Mocný jihočeský pán [[link:one-man-against-a-city-1507]]Petr z Rožmberka[[/link]] psal jeden dopis za druhým, králi, Pražanům a nakonec i císaři, aby knížete zastavili.\n\n[[b]]Doma byli měšťané se šlechtou na nože; v cizině ale spěchali pomáhat cizím pánům potlačit jejich sedláky.[[/b]]\n\nUherští páni na ně ovšem nečekali. V červenci rozdrtil mocný velmož Jan Zápolský sedlácké vojsko u Temešváru a Dóža padl do zajetí.\n\nPáni pro něj vymysleli zvláštní popravu. Tomuhle „sedláckému králi“ nasadili na hlavu rozžhavenou železnou korunu. Prý i trůn, na kterém seděl, byl z rozžhaveného železa.\n\n[[b]]Uhry měly roku 1514 dvě koruny: zlatou na hlavě osmiletého Ludvíka a rozžhavenou železnou na hlavě vzbouřeného sedláka.[[/b]]\n\nPovstání bylo potlačeno. Na podzim přijal uherský sněm nový zákon: sedláci jsou napořád připoutáni k půdě a od svého pána už nikdy nesmějí odejít.\n\nPosila českých měst se mezitím v Praze sešla až začátkem srpna. Válka byla měsíc po konci.\n\nKrál se aspoň zachoval velmi zdvořile. Poslové, kteří k němu byli vysláni, se vrátili s touto zprávou:\n\n[[quote:0]]\n\nVděk nevděk, vojsko se stejně vydalo na cestu. Sedláci k bití už nebyli, a tak si knížecí lidé našli po cestě jinou zábavu: pálili a brali. Páni, přes jejichž panství táhli, zuřili, a kníže se musel císaři Maxmiliánovi bod po bodu vymlouvat, co jeho lidé spálili a co pobrali. Na podzim se kdesi v Uhrách zakopal a zprávy, které odtud přicházely, zněly takhle:\n\n[[quote:1]]\n\nMěsta vyslala vojsko a zpátky dostala „velmi byl vděčen“ a hromadu nezaplacených škod.\n\n[[b]]Pomoc přišla pozdě, poděkování přišlo hned. Měšťané to ale vzdávat nehodlali.[[/b]]",
-      zh: "1514年春天，匈牙利出了大事。\n\n埃斯泰尔戈姆大主教在全国号召十字军，去打[[link:the-rise-of-the-ottomans-1453]]土耳其人[[/link]]。报名的骑士没几个，涌来的却是成千上万的农民。他们扛着镰刀和连枷，在一位叫多饶·捷尔吉的边境军官手下集结起来。可等这支队伍拉起来，农民们发现，真正压在他们头上的，不在土耳其，就在自己家门口。\n\n十字军掉转了矛头。几个星期里，匈牙利各地的庄园一座接一座着了火，贵族们被拖出城堡，有的被吊死，有的被钉在木桩上。\n\n消息传到波希米亚：国王在布达有难了。\n\n城里人一下子看到了机会。这些年，他们在议会里被贵族撵来撵去，在国王面前怎么也说不上话。现在国王有难，要是城市能抢先出兵，国王总该记住，谁才是真正靠得住的人。于是，城市凑起了一支军队，交给去年刚聘的统帅[[link:the-heretic-kings-grandson-1513]]巴尔托洛梅伊公爵[[/link]]，开往匈牙利。\n\n不是人人都乐见其成。南波希米亚的大贵族[[link:one-man-against-a-city-1507]]罗日姆贝克的彼得[[/link]]一封接一封地写信，写给国王，写给布拉格人，最后干脆写给皇帝，请他们出面拦住这位公爵。\n\n[[b]]在家里，城里人跟贵族是死对头；出了国门，他们却赶着去替别国的贵族镇压农民。[[/b]]\n\n只是，匈牙利的贵族没等他们。7月，匈牙利大贵族扎波尧伊·亚诺什在蒂米什瓦拉击溃了农民军，多饶被俘。\n\n贵族们给他准备了一场特别的处决：把一顶烧红的铁王冠，戴在了这位“农民国王”的头上。据说，他坐的王座也是烧红的铁。\n\n[[b]]1514年的匈牙利有两顶王冠：一顶是金的，戴在八岁的路德维克头上；一顶是烧红的铁，戴在造反的农民头上。[[/b]]\n\n起义被镇压了下去。那年秋天，匈牙利议会通过了一部新法律：农民从此永远被绑在土地上，再也不许离开自己的领主。\n\n而波希米亚城市的援军，8月初才在布拉格集结完毕。这时候，仗已经打完一个月了。\n\n国王倒是很客气。派去见他的使者回来报告：\n\n[[quote:0]]\n\n感激归感激，队伍还是照样上了路。没有农民可打，公爵的人马一路上就自己找事干：放火，抢东西。沿途的领主们大为光火，公爵只好向皇帝马克西米利安一项一项地解释，自己的人烧了什么、拿了什么。到了秋天，他在匈牙利挖好壕沟扎下营来，传回来的消息是这样的：\n\n[[quote:1]]\n\n城里人送出去一支军队，换回来一句“非常感激”，外加一堆没赔完的烂账。\n\n[[b]]援军来晚了，谢意倒来得挺快。不过，城里人还没打算认输。[[/b]]",
+      zh: "1514年春天，匈牙利出了大事。\n\n埃斯泰尔戈姆大主教在全国号召十字军，去打[[link:the-rise-of-the-ottomans-1453]]土耳其人[[/link]]。报名的骑士没几个，涌来的却是成千上万的农民。他们扛着镰刀和连枷，在一位叫多饶·捷尔吉的边境军官手下集结起来。可等这支队伍拉起来，农民们发现，真正压在他们头上的，不在土耳其，就在自己家门口。\n\n十字军掉转了矛头。几个星期里，匈牙利各地的庄园一座接一座着了火，贵族们被拖出城堡，有的被吊死，有的被钉在木桩上。\n\n消息传到波希米亚：国王在布达有难了。\n\n城里人一下子看到了机会。这些年，他们在议会里被贵族撵来撵去，在国王面前怎么也说不上话。现在国王有难，要是城市能抢先出兵，国王总该记住，谁才是真正靠得住的人。于是，城市凑起了一支军队，交给去年刚聘的统帅[[link:the-heretic-kings-grandson-1513]]巴尔托洛梅伊公爵[[/link]]，开往匈牙利。\n\n不是人人都乐见其成。南波希米亚的大贵族[[link:one-man-against-a-city-1507]]罗森贝格的彼得[[/link]]一封接一封地写信，写给国王，写给布拉格人，最后干脆写给皇帝，请他们出面拦住这位公爵。\n\n[[b]]在家里，城里人跟贵族是死对头；出了国门，他们却赶着去替别国的贵族镇压农民。[[/b]]\n\n只是，匈牙利的贵族没等他们。7月，匈牙利大贵族扎波尧伊·亚诺什在蒂米什瓦拉击溃了农民军，多饶被俘。\n\n贵族们给他准备了一场特别的处决：把一顶烧红的铁王冠，戴在了这位“农民国王”的头上。据说，他坐的王座也是烧红的铁。\n\n[[b]]1514年的匈牙利有两顶王冠：一顶是金的，戴在八岁的路德维克头上；一顶是烧红的铁，戴在造反的农民头上。[[/b]]\n\n起义被镇压了下去。那年秋天，匈牙利议会通过了一部新法律：农民从此永远被绑在土地上，再也不许离开自己的领主。\n\n而波希米亚城市的援军，8月初才在布拉格集结完毕。这时候，仗已经打完一个月了。\n\n国王倒是很客气。派去见他的使者回来报告：\n\n[[quote:0]]\n\n感激归感激，队伍还是照样上了路。没有农民可打，公爵的人马一路上就自己找事干：放火，抢东西。沿途的领主们大为光火，公爵只好向皇帝马克西米利安一项一项地解释，自己的人烧了什么、拿了什么。到了秋天，他在匈牙利挖好壕沟扎下营来，传回来的消息是这样的：\n\n[[quote:1]]\n\n城里人送出去一支军队，换回来一句“非常感激”，外加一堆没赔完的烂账。\n\n[[b]]援军来晚了，谢意倒来得挺快。不过，城里人还没打算认输。[[/b]]",
     },
     relatedLandmarks: [],
     wikipediaUrl: "https://cs.wikipedia.org/wiki/D%C3%B3%C5%BEovo_povst%C3%A1n%C3%AD",
@@ -23424,6 +23424,14 @@ export const historyEvents = [
     },
     relatedLandmarks: [
       {
+        slug: "kralovska-zahrada",
+        relation: {
+          en: "Laid out for Ferdinand in 1534 on old vineyards north of the castle, across the moat; the summer palace went up at its eastern end.",
+          cz: "Založena pro Ferdinanda roku 1534 na starých vinicích severně od hradu, za příkopem; na jejím východním konci vyrostl letohrádek.",
+          zh: "1534年，斐迪南在城堡北边、鹿沟对面的老葡萄园上开辟的花园；夏宫就盖在它的东头。",
+        },
+      },
+      {
         slug: "queen-annes-summer-palace-1782584407663",
         relation: {
           en: "Begun in 1538 by Italian masons in the new Royal Garden, and finished nearly thirty years later. The name linking it to Queen Anne came only in the 19th century.",
@@ -24400,6 +24408,8 @@ export const historyEvents = [
   // to the king's heirs, but the estates still had to accept a new king at
   // a diet, so the draft's "always elected" was reworded. Maximilian died at
   // Regensburg on 12 October 1576, reportedly refusing the last rites.
+  // The 1609 Letter of Majesty quote was moved out on 2026-10-18 (spoiler);
+  // keep it for the 1609 card (see CLAUDE.md).
   {
     slug: "a-promise-by-word-of-mouth-1575",
     era: "habsburgs-move-in",
@@ -24409,20 +24419,6 @@ export const historyEvents = [
         en: "The diet of 1575: the estates hold up the long Bohemian Confession and point to where the signature should go; Maximilian II, hand on heart, promises by word of mouth, while the quill and inkwell beside him stay untouched and young Rudolf watches from behind the throne.",
         cz: "Sněm roku 1575: stavové drží dlouhou Českou konfesi a ukazují, kam patří podpis; Maxmilián II. s rukou na srdci slibuje ústy, brk i kalamář vedle něj zůstávají nedotčené a mladý Rudolf to sleduje zpoza trůnu.",
         zh: "1575年的议会：等级们捧着长长的《波希米亚信纲》，指着该签名的地方；马克西米利安二世手捂胸口，嘴上答应了，手边的羽毛笔和墨水瓶却原封未动，年轻的鲁道夫站在王座后面看着。",
-      },
-    ],
-    quotes: [
-      {
-        text: {
-          en: "…(which, as We have received sure report and have also understood from letters written in the very own hand of His Imperial Majesty, Our dearest lord father, and as some worthy records have also been found in the Land Tables, was approved by His Majesty right there and then)…",
-          cz: "…(kteráž tak, jakž jsme toho jistou zprávu vzíti i také z psaní, vlastní rukou Jeho císařské milosti pana otce našeho nejmilejšího psaných, vyrozuměti ráčili, ano i některé hodné paměti při dckách zemských toho se vynašly, i hned tehdáž od Jeho milosti povolena byla)…",
-          zh: "……（这份信纲）我们已得到确切的消息，也从我们最亲爱的父亲皇帝陛下亲笔写的信里得知，土地册里也找到了一些可信的记录：它当时就已经得到了陛下的准许……",
-        },
-        attribution: {
-          en: "Rudolf II, Letter of Majesty on religious freedom, 1609",
-          cz: "Rudolf II., Majestát na náboženské svobody, 1609",
-          zh: "鲁道夫二世《宗教自由诏书》，1609年",
-        },
       },
     ],
     startYear: 1575,
@@ -24443,9 +24439,9 @@ export const historyEvents = [
       zh: "圣杯派把写好的信仰递了上去，国王点了点头，可就是不肯落笔签字。",
     },
     summary: {
-      en: "Maximilian was generous to the Jews, and he was not stingy with the Lutherans either, at least in Austria.\n\nIn 1571 he gave the Lutheran lords of Lower Austria a written guarantee: they could worship in the Lutheran way in their own castles and on their own estates. Black on white, and sealed.\n\nThe Bohemians had seen it all. Four years earlier they had [[link:the-chalice-laid-down-1567]]struck the Compacts of Basel out of their own law[[/link]], and the king had only conceded that “apart from Catholics and Utraquists, nothing else counts”. Why should the Austrians have what they did not?\n\nTheir chance came soon. Maximilian's health was failing, he knew he had little time left, and he was eager to hand on his crowns to his eldest son Rudolf while he still lived. In 1572 Rudolf had already been crowned in Hungary; Bohemia was next. Since [[link:the-bloody-diet-1547]]1547[[/link]] the Bohemian crown was to pass to the king's heirs, but a new king still had to be formally accepted by the estates at a diet. And on top of that the king wanted them to pay for the war against the Turks.\n\n[[b]]The king wanted a throne and money. What the estates wanted was a piece of paper.[[/b]]\n\nIn February 1575 the diet opened. This time the New Utraquists and the Lutherans, joined by the Brethren, always treated as heretics until now, for once sat down together and put together a joint statement of faith: the Bohemian Confession. It was modelled largely on the Lutherans' Augsburg Confession, with Hussite and Brethren elements worked in. Only the Old Utraquists refused to take part. The three groups had quarrelled for a century and more, and this time they had finally written the same thing.\n\nOn 18 May the confession was laid before the emperor.\n\nMaximilian was in a bind. In his heart he may not have objected, but three great weights pressed down on him: the pope in Rome; the king of Spain in Madrid, who was both his brother-in-law and his cousin; and Bohemia's own Catholic lords. Worse still, that autumn the Empire was to choose the next emperor, and to have Rudolf elected he needed the votes of the Catholic electors. And at a moment like this he was supposed to sign a Protestant confession with his own hand?\n\n[[b]]He found a way to offend no one: say yes with his mouth, and sign nothing with his hand.[[/b]]\n\nIn front of the estates he promised by word of mouth that those who held to the confession would not be persecuted for their faith. As for a written document, there was none; and the confession itself was not to be printed or circulated.\n\nThe estates took his word and gave their consent. That September Rudolf was crowned King of Bohemia in St Vitus Cathedral, and the man who set the crown on his head was [[link:an-archbishop-at-last-1561]]Archbishop Brus[[/link]]. A month later he was elected King of the Romans, one step away from the imperial throne.\n\nMaximilian had won on both fronts: his son had a crown, and he had not lost the electors' votes.\n\nBut how long would a spoken promise hold? Once the man who spoke it was dead, would it still count?\n\nThe next autumn Maximilian died in Regensburg, and Rudolf took his place. On his deathbed, it is said, he refused the last sacraments from a Catholic priest. The “not quite Catholic” emperor went to his grave without anyone ever being sure which side he truly believed in.\n\nYears later his son would write:\n\n[[quote:0]]\n\n[[b]]The Bohemians waited thirty-four years for that sentence, until someone finally put it down on paper.[[/b]] And by then it turned out that the father who would not sign anything had been writing letters in his own hand after all.",
-      cz: "Maxmilián byl štědrý k Židům a ani k luteránům nebyl skoupý, aspoň v Rakousku.\n\nRoku 1571 dal luteránským pánům v Dolních Rakousích písemnou záruku: na svých hradech a statcích smějí konat bohoslužby po luteránsku. Černé na bílém a pod pečetí.\n\nČeši to všechno viděli. Před čtyřmi lety sami [[link:the-chalice-laid-down-1567]]vypustili basilejská kompaktáta ze svého práva[[/link]] a král jim přiznal jen to, že „mimo katolíky a kališníky se nic jiného nepočítá“. Proč by Rakušané měli mít, co oni nemají?\n\nPříležitost přišla brzy. Maxmiliánovo zdraví chřadlo, věděl, že mu nezbývá mnoho času, a chtěl ještě za živa předat koruny nejstaršímu synovi Rudolfovi. Roku 1572 byl Rudolf korunován v Uhrách; na řadě byly Čechy. Od roku [[link:the-bloody-diet-1547]]1547[[/link]] měla česká koruna přecházet na králova dědice, ale nového krále museli stavové na sněmu ještě formálně přijmout. A k tomu po nich král chtěl peníze na válku s Turky.\n\n[[b]]Král chtěl trůn a peníze. Stavové chtěli kus papíru.[[/b]]\n\nV únoru 1575 se sešel sněm. Tentokrát novoutrakvisté a luteráni, k nimž se přidali i bratři, dosud vždy pokládaní za kacíře, si poprvé sedli k jednomu stolu a sestavili společné vyznání víry: Českou konfesi. Stavbou se do velké míry držela luteránské augsburské konfese a vpletly se do ní husitské a bratrské prvky. Jen staroutrakvisté se odmítli zúčastnit. Ty tři skupiny se přely přes sto let a tentokrát konečně napsaly totéž.\n\n18. května byla konfese předložena císaři.\n\nMaxmilián se ocitl v úzkých. V srdci možná nic proti ní neměl, ale tlačila na něj tři velká břemena: papež v Římě; španělský král v Madridu, jeho švagr a zároveň bratranec; a čeští katoličtí páni. Navíc měla na podzim říše volit dalšího císaře, a aby byl zvolen Rudolf, potřeboval hlasy katolických kurfiřtů. A v takové chvíli měl vlastní rukou podepsat protestantskou konfesi?\n\n[[b]]Našel způsob, jak nikoho neurazit: ústy slíbit, rukou nic nepodepsat.[[/b]]\n\nPřed stavy ústně slíbil, že ti, kdo se ke konfesi hlásí, nebudou pro víru utiskováni. Písemná listina nebyla žádná; a samotnou konfesi bylo zakázáno tisknout a šířit.\n\nStavové se slibem spokojili a přikývli. V září byl Rudolf v katedrále svatého Víta korunován českým králem a korunu mu na hlavu vsadil [[link:an-archbishop-at-last-1561]]arcibiskup Brus[[/link]]. O měsíc později byl zvolen římským králem, krok od císařského trůnu.\n\nMaxmilián vyhrál na obou frontách: syn měl korunu a hlasy kurfiřtů nepřišly nazmar.\n\nJak dlouho ale vydrží slib vyslovený ústy? Platí ještě, když ten, kdo ho vyslovil, zemře?\n\nPříštího podzimu zemřel Maxmilián v Řezně a na trůn usedl Rudolf. Na smrtelné posteli prý odmítl poslední pomazání od katolického kněze. „Tak trochu nekatolický“ císař odešel do hrobu, aniž by kdo s jistotou věděl, čemu doopravdy věřil.\n\nO mnoho let později napsal jeho syn:\n\n[[quote:0]]\n\n[[b]]Na tu větu čekali Češi třicet čtyři let, než ji někdo konečně napsal na papír.[[/b]] A tehdy se ukázalo, že otec, který nechtěl nic podepsat, přece jen psal dopisy vlastní rukou.",
-      zh: "马克西米利安对犹太人大方，对路德派其实也不小气，至少在奥地利是这样。\n\n1571年，他给下奥地利的路德派贵族发了一份书面保证：你们可以在自己的城堡和庄园里，照路德的方式做礼拜。白纸黑字，盖了印。\n\n波希米亚人都看在眼里：四年前，他们自己[[link:the-chalice-laid-down-1567]]把《巴塞尔协约》从法律里删了[[/link]]，国王却只答应“除了天主教和圣杯派，别的都不算”。奥地利人有的，凭什么我们没有？\n\n机会很快就来了。马克西米利安身体越来越差，知道自己时日无多，急着在生前把位子传给长子鲁道夫。1572年，鲁道夫已经戴上了匈牙利的王冠，下一步是波希米亚。照[[link:the-bloody-diet-1547]]1547年[[/link]]的约定，波希米亚的王冠要传给国王的继承人，可新国王登基之前，还得各等级在议会上正式“接受”他才行。何况国王还要他们掏钱，跟土耳其人打仗。\n\n[[b]]国王要王位，要钱；各等级要的，是一张纸。[[/b]]\n\n1575年2月，议会开幕。这一回，新圣杯派、路德派，再加上一直被当成异端的弟兄会，破天荒地坐到了一起，凑出了一份共同的信仰声明，这就是《波希米亚信纲》。它大体照着路德派《奥格斯堡信纲》的样子写，又揉进了胡斯派和弟兄会的东西；只有老圣杯派不肯参加。三家人吵了一百多年，这回总算写出了同一份东西。\n\n5月18日，信纲被递到了皇帝面前。\n\n马克西米利安犯了难。他心里未必反对，可他头上还压着三座大山：罗马的教皇；马德里的西班牙国王，他的大舅子兼表兄；还有波希米亚自己的天主教贵族。更要命的是，这年秋天，帝国就要选下一任皇帝了，他要让鲁道夫当选，手里少不了天主教选帝侯的票。偏偏在这个节骨眼上，要他亲手在一份新教信纲上签字？\n\n[[b]]他想了一个两头都不得罪的办法：嘴上答应，手上不签。[[/b]]\n\n他当着各等级的面口头保证：信这份信纲的人，不会因为信仰受到打压。至于书面文件，没有；信纲本身，也不许印刷，不许散发。\n\n各等级拿到了这句话，也就点了头。那年9月，鲁道夫在圣维特大教堂加冕为波希米亚国王，为他戴上王冠的，就是[[link:an-archbishop-at-last-1561]]布鲁斯大主教[[/link]]。一个月后，他又被选为罗马人的国王，离皇位只差一步。\n\n马克西米利安两头都赢了：儿子有了王冠，选帝侯的票也没丢。\n\n可一句口头承诺能管多久？说出口的人一死，还算不算数？\n\n第二年秋天，马克西米利安在雷根斯堡去世，鲁道夫坐上了王位。据说临终前，他拒绝了天主教神父送来的最后圣礼。这位“不太像天主教徒”的皇帝，到死都没让人看清，他心里信的到底是哪一边。\n\n许多年以后，他的儿子写下了这样一句话：\n\n[[quote:0]]\n\n[[b]]这句话，波希米亚人整整等了三十四年，才终于等到有人把它写在纸上。[[/b]]到那时人们才发现，那位什么都不肯签的父亲，原来还是亲笔写过信的。",
+      en: "Maximilian was generous to the Jews, and he was not stingy with the Lutherans either, at least in Austria.\n\nIn 1571 he gave the Lutheran lords of Lower Austria a written guarantee: they could worship in the Lutheran way in their own castles and on their own estates. Black on white, and sealed.\n\nThe Bohemians had seen it all. Four years earlier they had [[link:the-chalice-laid-down-1567]]struck the Compacts of Basel out of their own law[[/link]], and the king had only conceded that “apart from Catholics and Utraquists, nothing else counts”. Why should the Austrians have what they did not?\n\nTheir chance came soon. Maximilian's health was failing, he knew he had little time left, and he was eager to hand on his crowns to his eldest son Rudolf while he still lived. In 1572 Rudolf had already been crowned in Hungary; Bohemia was next. Since [[link:the-bloody-diet-1547]]1547[[/link]] the Bohemian crown was to pass to the king's heirs, but a new king still had to be formally accepted by the estates at a diet. And on top of that the king wanted them to pay for the war against the Turks.\n\n[[b]]The king wanted a throne and money. What the estates wanted was a piece of paper.[[/b]]\n\nIn February 1575 the diet opened. This time the New Utraquists and the Lutherans, joined by the Brethren, always treated as heretics until now, for once sat down together and put together a joint statement of faith: the Bohemian Confession. It was modelled largely on the Lutherans' Augsburg Confession, with Hussite and Brethren elements worked in. Only the Old Utraquists refused to take part. The three groups had quarrelled for a century and more, and this time they had finally written the same thing.\n\nOn 18 May the confession was laid before the emperor.\n\nMaximilian was in a bind. In his heart he may not have objected, but three great weights pressed down on him: the pope in Rome; the king of Spain in Madrid, who was both his brother-in-law and his cousin; and Bohemia's own Catholic lords. Worse still, that autumn the Empire was to choose the next emperor, and to have Rudolf elected he needed the votes of the Catholic electors. And at a moment like this he was supposed to sign a Protestant confession with his own hand?\n\n[[b]]He found a way to offend no one: say yes with his mouth, and sign nothing with his hand.[[/b]]\n\nIn front of the estates he promised by word of mouth that those who held to the confession would not be persecuted for their faith. As for a written document, there was none; and the confession itself was not to be printed or circulated.\n\nThe estates took his word and gave their consent. That September Rudolf was crowned King of Bohemia in St Vitus Cathedral, and the man who set the crown on his head was [[link:an-archbishop-at-last-1561]]Archbishop Brus[[/link]]. A month later he was elected King of the Romans, one step away from the imperial throne.\n\nMaximilian had won on both fronts: his son had a crown, and he had not lost the electors' votes.\n\nBut how long would a spoken promise hold? Once the man who spoke it was dead, would it still count?\n\nThe next autumn Maximilian died in Regensburg, and Rudolf took his place. On his deathbed, it is said, he refused the last sacraments from a Catholic priest. The “not quite Catholic” emperor went to his grave without anyone ever being sure which side he truly believed in.\n\nWhat he left his son was a crown, and a sentence that had never been written down. [[b]]Whether that sentence counted for anything, the Bohemians would have to wait many years to find out.[[/b]]",
+      cz: "Maxmilián byl štědrý k Židům a ani k luteránům nebyl skoupý, aspoň v Rakousku.\n\nRoku 1571 dal luteránským pánům v Dolních Rakousích písemnou záruku: na svých hradech a statcích smějí konat bohoslužby po luteránsku. Černé na bílém a pod pečetí.\n\nČeši to všechno viděli. Před čtyřmi lety sami [[link:the-chalice-laid-down-1567]]vypustili basilejská kompaktáta ze svého práva[[/link]] a král jim přiznal jen to, že „mimo katolíky a kališníky se nic jiného nepočítá“. Proč by Rakušané měli mít, co oni nemají?\n\nPříležitost přišla brzy. Maxmiliánovo zdraví chřadlo, věděl, že mu nezbývá mnoho času, a chtěl ještě za živa předat koruny nejstaršímu synovi Rudolfovi. Roku 1572 byl Rudolf korunován v Uhrách; na řadě byly Čechy. Od roku [[link:the-bloody-diet-1547]]1547[[/link]] měla česká koruna přecházet na králova dědice, ale nového krále museli stavové na sněmu ještě formálně přijmout. A k tomu po nich král chtěl peníze na válku s Turky.\n\n[[b]]Král chtěl trůn a peníze. Stavové chtěli kus papíru.[[/b]]\n\nV únoru 1575 se sešel sněm. Tentokrát novoutrakvisté a luteráni, k nimž se přidali i bratři, dosud vždy pokládaní za kacíře, si poprvé sedli k jednomu stolu a sestavili společné vyznání víry: Českou konfesi. Stavbou se do velké míry držela luteránské augsburské konfese a vpletly se do ní husitské a bratrské prvky. Jen staroutrakvisté se odmítli zúčastnit. Ty tři skupiny se přely přes sto let a tentokrát konečně napsaly totéž.\n\n18. května byla konfese předložena císaři.\n\nMaxmilián se ocitl v úzkých. V srdci možná nic proti ní neměl, ale tlačila na něj tři velká břemena: papež v Římě; španělský král v Madridu, jeho švagr a zároveň bratranec; a čeští katoličtí páni. Navíc měla na podzim říše volit dalšího císaře, a aby byl zvolen Rudolf, potřeboval hlasy katolických kurfiřtů. A v takové chvíli měl vlastní rukou podepsat protestantskou konfesi?\n\n[[b]]Našel způsob, jak nikoho neurazit: ústy slíbit, rukou nic nepodepsat.[[/b]]\n\nPřed stavy ústně slíbil, že ti, kdo se ke konfesi hlásí, nebudou pro víru utiskováni. Písemná listina nebyla žádná; a samotnou konfesi bylo zakázáno tisknout a šířit.\n\nStavové se slibem spokojili a přikývli. V září byl Rudolf v katedrále svatého Víta korunován českým králem a korunu mu na hlavu vsadil [[link:an-archbishop-at-last-1561]]arcibiskup Brus[[/link]]. O měsíc později byl zvolen římským králem, krok od císařského trůnu.\n\nMaxmilián vyhrál na obou frontách: syn měl korunu a hlasy kurfiřtů nepřišly nazmar.\n\nJak dlouho ale vydrží slib vyslovený ústy? Platí ještě, když ten, kdo ho vyslovil, zemře?\n\nPříštího podzimu zemřel Maxmilián v Řezně a na trůn usedl Rudolf. Na smrtelné posteli prý odmítl poslední pomazání od katolického kněze. „Tak trochu nekatolický“ císař odešel do hrobu, aniž by kdo s jistotou věděl, čemu doopravdy věřil.\n\nSynovi zanechal korunu a jednu větu, která nikdy nebyla zapsána. [[b]]Jestli ta věta něco platí, na to si Češi museli počkat ještě mnoho let.[[/b]]",
+      zh: "马克西米利安对犹太人大方，对路德派其实也不小气，至少在奥地利是这样。\n\n1571年，他给下奥地利的路德派贵族发了一份书面保证：你们可以在自己的城堡和庄园里，照路德的方式做礼拜。白纸黑字，盖了印。\n\n波希米亚人都看在眼里：四年前，他们自己[[link:the-chalice-laid-down-1567]]把《巴塞尔协约》从法律里删了[[/link]]，国王却只答应“除了天主教和圣杯派，别的都不算”。奥地利人有的，凭什么我们没有？\n\n机会很快就来了。马克西米利安身体越来越差，知道自己时日无多，急着在生前把位子传给长子鲁道夫。1572年，鲁道夫已经戴上了匈牙利的王冠，下一步是波希米亚。照[[link:the-bloody-diet-1547]]1547年[[/link]]的约定，波希米亚的王冠要传给国王的继承人，可新国王登基之前，还得各等级在议会上正式“接受”他才行。何况国王还要他们掏钱，跟土耳其人打仗。\n\n[[b]]国王要王位，要钱；各等级要的，是一张纸。[[/b]]\n\n1575年2月，议会开幕。这一回，新圣杯派、路德派，再加上一直被当成异端的弟兄会，破天荒地坐到了一起，凑出了一份共同的信仰声明，这就是《波希米亚信纲》。它大体照着路德派《奥格斯堡信纲》的样子写，又揉进了胡斯派和弟兄会的东西；只有老圣杯派不肯参加。三家人吵了一百多年，这回总算写出了同一份东西。\n\n5月18日，信纲被递到了皇帝面前。\n\n马克西米利安犯了难。他心里未必反对，可他头上还压着三座大山：罗马的教皇；马德里的西班牙国王，他的大舅子兼表兄；还有波希米亚自己的天主教贵族。更要命的是，这年秋天，帝国就要选下一任皇帝了，他要让鲁道夫当选，手里少不了天主教选帝侯的票。偏偏在这个节骨眼上，要他亲手在一份新教信纲上签字？\n\n[[b]]他想了一个两头都不得罪的办法：嘴上答应，手上不签。[[/b]]\n\n他当着各等级的面口头保证：信这份信纲的人，不会因为信仰受到打压。至于书面文件，没有；信纲本身，也不许印刷，不许散发。\n\n各等级拿到了这句话，也就点了头。那年9月，鲁道夫在圣维特大教堂加冕为波希米亚国王，为他戴上王冠的，就是[[link:an-archbishop-at-last-1561]]布鲁斯大主教[[/link]]。一个月后，他又被选为罗马人的国王，离皇位只差一步。\n\n马克西米利安两头都赢了：儿子有了王冠，选帝侯的票也没丢。\n\n可一句口头承诺能管多久？说出口的人一死，还算不算数？\n\n第二年秋天，马克西米利安在雷根斯堡去世，鲁道夫坐上了王位。据说临终前，他拒绝了天主教神父送来的最后圣礼。这位“不太像天主教徒”的皇帝，到死都没让人看清，他心里信的到底是哪一边。\n\n他留给儿子的，是一顶王冠，和一句没有写在纸上的话。[[b]]这句话到底算不算数，波希米亚人还要等上很多年，才能等到一个答案。[[/b]]",
     },
     relatedLandmarks: [
       {
@@ -24480,6 +24476,14 @@ export const historyEvents = [
   {
     slug: "czech-in-print-1579",
     era: "habsburgs-move-in",
+    images: ["/history/czech-in-print-1579.webp"],
+    imageCaptions: [
+      {
+        en: "The Brethren's print shop in Kralice: a printer holds up a freshly printed page, another pulls the bar of the press while young apprentices look on, freshly printed sheets hang drying under the beams, and at the table the Brethren's scholars check the translation line by line.",
+        cz: "Bratrská tiskárna v Kralicích: jeden tiskař zvedá právě vytištěný arch, druhý táhne za páku lisu a mladí učni se dívají, pod trámy visí čerstvě potištěné archy a u stolu bratrští učenci kontrolují překlad řádek po řádku.",
+        zh: "克拉利采的弟兄会印刷所：一个印工举起刚印好的一页，另一个扳着印刷机的压杆，几个小学徒在旁边看着；房梁下晾着刚印好的纸，桌边弟兄会的学者们正一行一行地核对译文。",
+      },
+    ],
     quotes: [
       {
         text: {
@@ -24535,6 +24539,969 @@ export const historyEvents = [
       },
     ],
     wikipediaUrl: "https://cs.wikipedia.org/wiki/Bible_kralick%C3%A1",
+  },
+  // ── An Age of Wonders (1583–1618) ──
+  // Draft by the user (2026-10-18), polished. Sources: the plague mandate is
+  // Sněmy české VI, no. 164 (Vienna, 19 Nov 1582, psp.cz/eknih/snemy/v060);
+  // reasons for the move (Turkish threat, Rudolf's fondness for Prague) per
+  // Czech Radio. Maria left for Spain in 1581 (landed at Collioure Dec 1581,
+  // Descalzas Reales in Madrid from 1582; NDB names tensions with Rudolf).
+  // The Lví dvůr dates to 1581 per prague.eu ("probably 1581" per Archaeologica
+  // Historica 26, 2001), hence "around 1581"; Mohamed is the lion who died in
+  // 1612, so the text says he was the most famous one, not the first. The
+  // user's line that Rudolf called Prague his "first residence" was dropped:
+  // no source found.
+  {
+    slug: "the-emperor-moves-house-1583",
+    era: "age-of-wonders",
+    images: ["/history/the-emperor-moves-house-1583.webp"],
+    imageCaptions: [
+      {
+        en: "Rudolf II rides into the Royal Garden at the head of a train of carts loaded with clocks, paintings and curiosities, while his lion is already lounging on the terrace of its new Renaissance house.",
+        cz: "Rudolf II. vjíždí do Královské zahrady v čele vozů naložených hodinami, obrazy a kuriozitami, zatímco jeho lev už si hoví na terase svého nového renesančního domu.",
+        zh: "鲁道夫二世骑着马走进皇家花园，身后跟着一长串车队，车上堆满了钟表、油画和各种珍奇；他的狮子早已趴在自己那座文艺复兴式新房子的平台上，悠闲得很。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "…the plague air (sent by God)…\n…under real punishment.",
+          cz: "…morovým povětřím…\n…pod skutečným trestáním.",
+          zh: "……（上帝降下的）瘟疫之气……\n……违者，必受真正的惩罚。",
+        },
+        attribution: {
+          en: "Rudolf II, plague mandate to the royal towns of Bohemia, Vienna, 19 November 1582 (Sněmy české, vol. VI)",
+          cz: "Rudolf II., mandát proti moru královským městům v Čechách, Vídeň, 19. listopadu 1582 (Sněmy české, sv. VI)",
+          zh: "鲁道夫二世致波希米亚各王室城市的防疫令，维也纳，1582年11月19日，《波希米亚议会文献》第六卷",
+        },
+      },
+    ],
+    startYear: 1583,
+    year: {
+      en: "1583",
+      cz: "1583",
+      zh: "1583年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Emperor Moves House",
+      cz: "Císař se stěhuje",
+      zh: "皇帝搬家",
+    },
+    hookLine: {
+      en: "The emperor found Vienna too dull, so he packed up and moved the whole empire to Prague.",
+      cz: "Císaři připadala Vídeň příliš nudná, a tak se sbalil a přestěhoval i s celou říší do Prahy.",
+      zh: "皇帝嫌维也纳太无聊，于是收拾收拾，带着整个帝国搬进了布拉格。",
+    },
+    summary: {
+      en: "In November 1582 the emperor sat down in Vienna and wrote a letter to Bohemia.\n\nThat year Bohemia was in the grip of plague, and the emperor was concerned. His letter told everyone what to do: the plague was God's punishment, so repent and pray; wash clothes and bedding and hang them out to air; smoke out the houses; clear the dung heaps and the mud from the streets; cover the burial pits properly with earth. Anyone who did not comply would face real punishment.\n\n[[quote:0]]\n\nIt was a thoughtful letter, written in the tone of a parent a long way from home.\n\n[[b]]One year he was in Vienna, telling the Bohemians how to smoke out their houses. The next year he moved in himself.[[/b]]\n\nWhy move? There was more than one reason.\n\nThe first: Vienna was too close to the Turks. Little more than fifty years earlier, the sultan's army had [[link:the-door-held-1529]]stood at its walls[[/link]]. The city had held, but who wants to live on the front line?\n\nThe second: the emperor simply liked Prague.\n\nThe third never made it into any official paper, but the timing is hard to miss. In 1581 his devout mother, the Dowager Empress Maria, packed her bags and went home to Spain, and settled in a convent in Madrid. She was the empress who, ten years earlier, had [[link:the-emperor-came-by-sleigh-1571]]toured the Jewish Town by sleigh[[/link]]. Mother and son, it is said, had not been getting on.\n\nNo sooner had the mother left than the son moved house.\n\nStill, there is evidence that he had been planning it for some time. Around 1581 he had a splendid enclosure built beside the Royal Garden, north of the castle, for his lions. The most famous of them would later have a name of his own: Mohamed.\n\n[[b]]Before the emperor had moved in, his lions already had a house.[[/b]]\n\nIn 1583 their master finally moved in too. From then on Prague Castle was home to an emperor, a lion and a collection of treasures that kept growing and growing.",
+      cz: "V listopadu 1582 sedl císař ve Vídni a napsal do Čech dopis.\n\nTen rok řádil v Čechách mor a císař měl starost. V dopise všem přikazoval: mor je trest Boží, je třeba činit pokání a modlit se; šaty a lůžkoviny vyprat a vyvětrat; domy vykouřit; hnůj a bláto z ulic odklidit; jámy s mrtvými pořádně zasypat hlínou. Kdo neuposlechne, toho čeká skutečný trest.\n\n[[quote:0]]\n\nDopis to byl starostlivý, psaný tónem rodiče, který je daleko od domova.\n\n[[b]]Jeden rok radil Čechům z Vídně, jak vykouřit dům. Druhý rok se k nim nastěhoval sám.[[/b]]\n\nProč se stěhovat? Důvodů bylo víc.\n\nZaprvé: Vídeň byla moc blízko Turkům. Před něco víc než padesáti lety [[link:the-door-held-1529]]stálo sultánovo vojsko pod jejími hradbami[[/link]]. Město sice odolalo, ale kdo by chtěl bydlet na frontě?\n\nZadruhé: císař měl Prahu prostě rád.\n\nTřetí důvod se do žádné úřední listiny nedostal, ale načasování je nápadné. Roku 1581 si jeho zbožná matka, císařovna vdova Marie, sbalila kufry, odjela domů do Španělska a usadila se v jednom madridském klášteře. Byla to ta císařovna, která před deseti lety [[link:the-emperor-came-by-sleigh-1571]]projela Židovským Městem na saních[[/link]]. Matka a syn spolu prý zrovna dobře nevycházeli.\n\nSotva matka odjela, syn se stěhoval.\n\nŽe to měl císař naplánované už nějakou dobu, ale také něco nasvědčuje. Kolem roku 1581 si u Královské zahrady severně od hradu nechal postavit nádherný výběh pro své lvy. Ten nejslavnější z nich měl později i jméno: Mohamed.\n\n[[b]]Císař se ještě nenastěhoval, a jeho lvi už měli dům.[[/b]]\n\nRoku 1583 se konečně nastěhoval i jejich pán. Od té doby bydlel na Pražském hradě císař, lev a sbírka pokladů, která pořád rostla a rostla.",
+      zh: "1582年11月，皇帝坐在维也纳，给波希米亚写了一封信。\n\n那一年，波希米亚闹瘟疫，皇帝很关心。他在信里叮嘱大家：瘟疫是上帝降下的惩罚，要悔改、要祈祷；衣服被褥要洗干净、拿出去晾；屋子要用烟熏一熏；街上的粪堆、烂泥，统统清走；埋死人的坑，要用土盖严实。谁不照办，就要“受真正的惩罚”。\n\n[[quote:0]]\n\n信写得很周到，口气也很像一位远在外地的家长。\n\n[[b]]前一年，他还在维也纳教大家怎么熏屋子；第二年，他自己搬来了。[[/b]]\n\n为什么要搬？理由可以列出好几条。\n\n第一条，维也纳离土耳其人太近了。五十多年前，苏丹的大军就[[link:the-door-held-1529]]打到过城下[[/link]]。虽说城是守住了，可谁愿意天天住在前线？\n\n第二条，皇帝就是喜欢布拉格。\n\n第三条没人写进公文里，但时间凑得很巧：1581年，他那位虔诚的母亲玛丽亚皇太后收拾行李回了西班牙，后来住进了马德里的一座修道院。就是十年前[[link:the-emperor-came-by-sleigh-1571]]坐着雪橇逛犹太城[[/link]]的那位。据说，母子俩那几年处得并不愉快。\n\n妈妈前脚刚走，儿子后脚就搬了家。\n\n不过，要说皇帝早有打算，也不是没有证据。1581年前后，他就让人在城堡北边的皇家花园旁，盖了一座豪华的兽苑，专门给他的狮子住。其中后来最出名的一头，有名有姓，叫穆罕默德。\n\n[[b]]皇帝本人还没搬进来，狮子的房子已经先盖好了。[[/b]]\n\n1583年，主人终于也住了进来。从这一年起，布拉格城堡里住着一位皇帝、一头狮子，还有一屋子越堆越多的宝贝。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "kralovska-zahrada",
+        relation: {
+          en: "The garden north of the castle; Rudolf's lion house, the Lion Court, still stands at its entrance.",
+          cz: "Zahrada severně od hradu; u jejího vstupu dodnes stojí Rudolfův Lví dvůr.",
+          zh: "城堡北边的花园；鲁道夫的狮子院，至今还立在花园入口旁。",
+        },
+      },
+      {
+        slug: "nova-oranzerie",
+        relation: {
+          en: "A modern greenhouse in the Royal Garden, standing on the site of the orangery where Rudolf II grew his citrus fruit.",
+          cz: "Moderní skleník v Královské zahradě, stojící na místě oranžerie, kde si Rudolf II. pěstoval citrusy.",
+          zh: "皇家花园里的现代温室，原址就是鲁道夫二世当年种柑橘的橘园。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Rudolf_II.",
+  },
+  // Draft by the user (2026-10-18), polished. Rudolf (born July 1552) left
+  // for Spain in 1563 at 11 and returned in 1571 at 19; the Escorial was begun
+  // in 1563; Maximilian's elephant Suleiman crossed the Alps and entered
+  // Vienna in 1552. His seclusion (weeks-long waits for audiences) belongs
+  // mostly to the 1590s and after his 1600 breakdown, so the text says it got
+  // worse over time rather than presenting it as the 1583 situation.
+  {
+    slug: "the-emperor-who-watched-the-stars-1583",
+    era: "age-of-wonders",
+    images: ["/history/the-emperor-who-watched-the-stars-1583.webp"],
+    imageCaptions: [
+      {
+        en: "Late at night in his room of treasures, among clocks, globes, gemstones and a stuffed crocodile, Rudolf II holds up a brass astrolabe to the stars, while down in the snowy courtyard ministers and envoys queue at the gate, still waiting to be received.",
+        cz: "Pozdě v noci ve své komnatě plné pokladů, mezi hodinami, glóby, drahokamy a vycpaným krokodýlem, zvedá Rudolf II. ke hvězdám mosazný astroláb, zatímco dole na zasněženém nádvoří stojí u brány fronta ministrů a vyslanců, kteří pořád čekají na audienci.",
+        zh: "深夜，鲁道夫二世站在堆满钟表、地球仪、宝石和鳄鱼标本的屋子里，举着一只黄铜星盘对着星空；楼下积雪的院子里，大臣和使节们在大门口排着长队，还在等着觐见。",
+      },
+    ],
+    startYear: 1583.5,
+    year: {
+      en: "1583",
+      cz: "1583",
+      zh: "1583年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Emperor Who Watched the Stars",
+      cz: "Císař, který hleděl do hvězd",
+      zh: "喜欢看星星的皇帝",
+    },
+    hookLine: {
+      en: "The emperor had moved into Prague Castle, but the city soon found that getting to see him was harder than seeing an angel.",
+      cz: "Císař se nastěhoval na Pražský hrad, ale město brzy zjistilo, že spatřit ho je těžší než spatřit anděla.",
+      zh: "皇帝搬进了布拉格城堡，可城里的人很快发现：想见他一面，比见天使还难。",
+    },
+    summary: {
+      en: "In 1583 the emperor settled into Prague Castle, and Prague got busy.\n\nThe capital of the Holy Roman Empire had shifted from the Danube to the Vltava. Ambassadors, nobles hunting for offices, merchants looking for business and artists hoping for commissions all poured into the city. Houses in the Lesser Town were suddenly in demand, and everyone living below the castle became a landlord.\n\nThe people of Prague had expected that with an emperor in town there would be processions, banquets and tournaments every day. They waited and waited, and the emperor hardly ever came out of the castle gate.\n\nHe did not like going out, and he did not like seeing people, and it only got worse as the years went by. In the end a minister who wanted to see him had to be announced through layer after layer of courtiers, and a foreign envoy might wait weeks for an audience. Even then the emperor would sit there in black, say little, ask a few questions with no expression on his face and send the visitor away.\n\nSo what did he do all day?\n\nHe looked at paintings, at clocks, at precious stones, at globes. And at the stars.\n\n[[b]]Prague had an emperor now, and the people of Prague almost never saw him.[[/b]]\n\nHow had he turned out like this? For that we have to go back twenty years.\n\nIn 1563 the eleven-year-old Rudolf was sent to Spain, to live at the court of his uncle Philip II. His mother Maria wanted her son to learn proper manners at the heart of the Catholic world, and not grow too close to the Lutherans the way his father had.\n\nThe Spanish court was a different world from Vienna: black clothes, few words, slow steps, blank faces. The king himself worked behind closed doors, and ordinary people never saw him at all. Philip II was also a great collector, and his palaces were hung with Titian's paintings. In the very year Rudolf set out, he began building a vast palace and monastery outside Madrid, the Escorial, which would later fill up with books, paintings and treasures of every kind.\n\nRudolf stayed there for eight years.\n\n[[b]]In Spain he learned two things: how to make sure nobody could see him, and how to fill an entire palace with treasures.[[/b]]\n\nIn 1571 the nineteen-year-old Rudolf came back to Vienna. His father Maximilian took one look and was dismayed: his son was dressed in black, spoke stiffly, held himself rigidly, and looked like a smaller copy of Philip II. Maximilian was famously easygoing, and the two of them never found much to talk about.\n\nStill, Spain cannot take all the blame for the collecting. The Habsburgs had always been collectors. His grandfather Ferdinand had gathered a room full of curiosities in Vienna; his uncle, [[link:the-foundling-at-the-gate-1557]]Archduke Ferdinand[[/link]], had crammed Ambras Castle full; his father Maximilian kept animals and rare plants, and in the year Rudolf was born he brought an elephant back from Spain, walked it over the Alps and paraded it into Vienna.\n\n[[b]]Ever since his grandfather's day, this family had wanted to bring home anything and everything.[[/b]]\n\nWith Rudolf, though, wanting to have everything turned into wanting to understand everything.\n\nWhy did the stars move as they did? Why were some stones ordinary and others precious? Why did people fall ill, and why did they die? He believed all these questions had answers, hidden somewhere nobody had found yet. So he collected paintings and clocks; he collected precious stones, and the men who could calculate the stars.\n\nAn emperor who spent his days looking up at the sky took the heavens very seriously.\n\nAnd the heavens, just then, had a problem: the sun up in the sky and the calendar down on earth no longer agreed.",
+      cz: "Roku 1583 se císař usadil na Pražském hradě a Praha ožila.\n\nHlavní město Svaté říše římské se přesunulo od Dunaje k Vltavě. Do města se hrnuli vyslanci, šlechtici, kteří sháněli úřady, kupci, kteří hledali obchody, a umělci, kteří doufali v zakázky. Domy na Malé Straně byly najednou k nezaplacení a kdo bydlel pod hradem, stal se domácím.\n\nPražané čekali, že když teď mají ve městě císaře, budou tu každý den průvody, hostiny a turnaje. Čekali a čekali, a císař skoro nevycházel ani z hradní brány.\n\nNerad chodil mezi lidi a nerad lidi přijímal, a s léty to bylo čím dál horší. Nakonec se k němu ministr musel nechat ohlásit přes celou řadu dvořanů a cizí vyslanec čekal na audienci i několik týdnů. A i když se k němu dostal, císař seděl v černém, mluvil málo, s nehybnou tváří položil pár otázek a návštěvu propustil.\n\nCo tedy dělal celé dny?\n\nDíval se na obrazy, na hodiny, na drahé kameny, na glóby. A na hvězdy.\n\n[[b]]Praha měla císaře, a Pražané ho skoro neviděli.[[/b]]\n\nJak se z něj takový člověk stal? Na to se musíme vrátit o dvacet let.\n\nRoku 1563 poslali jedenáctiletého Rudolfa do Španělska, ke dvoru jeho strýce Filipa II. Matka Marie chtěla, aby se syn naučil způsobům v srdci katolického světa a nesblížil se s luterány tak jako jeho otec.\n\nŠpanělský dvůr byl úplně jiný svět než Vídeň: černé šaty, málo slov, pomalý krok, kamenné tváře. Sám král vládl za zavřenými dveřmi a obyčejní lidé ho vůbec neviděli. Filip II. byl navíc velký sběratel a v jeho palácích visely Tizianovy obrazy. Právě v roce, kdy se Rudolf vydal na cestu, začal stavět za Madridem obrovský palác s klášterem, Escorial, který se později zaplnil knihami, obrazy a poklady všeho druhu.\n\nRudolf tam zůstal osm let.\n\n[[b]]Ve Španělsku se naučil dvě věci: jak zařídit, aby ho nikdo neviděl, a jak naplnit poklady celý palác.[[/b]]\n\nRoku 1571 se devatenáctiletý Rudolf vrátil do Vídně. Otec Maxmilián se na něj podíval a zhrozil se: syn chodil v černém, mluvil strojeně, držel se ztuhle a vypadal jako zmenšený Filip II. Maxmilián byl pověstně bodrý a se synem si nikdy neměl moc co říct.\n\nSběratelství ale nelze svádět jen na Španělsko. Habsburkové sbírali odjakživa. Děd Ferdinand nashromáždil ve Vídni celou komnatu kuriozit; strýc, [[link:the-foundling-at-the-gate-1557]]arcivévoda Ferdinand[[/link]], nacpal až po střechu zámek Ambras; otec Maxmilián choval zvířata a vzácné rostliny a v roce, kdy se Rudolf narodil, přivezl ze Španělska slona, převedl ho přes Alpy a slavnostně s ním vjel do Vídně.\n\n[[b]]Od dědových časů chtěla tahle rodina přitáhnout domů všechno, co se dalo.[[/b]]\n\nU Rudolfa se ale z touhy všechno mít stala touha všemu porozumět.\n\nProč se hvězdy pohybují tak, jak se pohybují? Proč jsou některé kameny obyčejné a jiné drahé? Proč lidé onemocní a proč umírají? Věřil, že na všechny ty otázky existuje odpověď, jen je schovaná někde, kde ji ještě nikdo nenašel. Proto sbíral obrazy i hodiny; sbíral drahé kameny i lidi, kteří uměli počítat hvězdy.\n\nCísař, který celé dny hleděl k nebi, bral nebeské věci velmi vážně.\n\nA na nebi se zrovna objevil problém: slunce na obloze a kalendář na zemi spolu přestaly souhlasit.",
+      zh: "1583年，皇帝在布拉格城堡住了下来，布拉格一下子热闹了。\n\n神圣罗马帝国的首都，就这么从多瑙河边挪到了伏尔塔瓦河边。各国的大使、求官的贵族、找生意的商人、想讨赏的艺术家，一窝蜂地往布拉格涌。小城的房子一下子抢手起来，城堡底下的街坊，个个都成了房东。\n\n布拉格人本以为，皇帝来了，城里天天都会有游行、宴会、比武大会。结果大家等来等去，皇帝连城堡大门都很少出。\n\n他本来就不爱上街，也不爱见人，而且越往后越厉害。到后来，大臣要见他，得层层通报；外国使节要见他，得排上好几个星期。就算见着了，皇帝也是一身黑衣，话不多，表情淡淡的，问完几句就让人退下。\n\n那他整天在屋里做什么？\n\n看画，看钟表，看宝石，看地球仪，还看星星。\n\n[[b]]布拉格来了一位皇帝，可布拉格人几乎见不着他。[[/b]]\n\n他为什么会变成这样？这得倒回去二十年说。\n\n1563年，十一岁的鲁道夫被送去了西班牙，住在舅舅腓力二世的宫里。母亲玛丽亚希望儿子在天主教的大本营里学规矩，别像父亲那样，跟路德派走得太近。\n\n西班牙的宫廷，跟维也纳完全是两个世界：穿黑衣，少说话，走路慢，表情淡。国王本人更是关起门来办事，平常人连面都见不着。腓力二世还是个大收藏家，宫里挂满了提香的画。就在鲁道夫动身的那一年，他开始在马德里城外修一座巨大的宫殿兼修道院，叫埃斯科里亚尔，后来那里也装满了书、画和各种珍宝。\n\n鲁道夫在那里一住就是八年。\n\n[[b]]他在西班牙学会了两件事：一是怎么让别人见不着自己，二是怎么把宝贝堆满一整座宫殿。[[/b]]\n\n1571年，十九岁的鲁道夫回到维也纳。父亲马克西米利安一看，傻眼了：儿子一身黑衣，言语拘谨，举止僵硬，活像一个小号的腓力二世。马克西米利安是出了名的随和，跟儿子怎么都聊不到一块去。\n\n不过，收藏这件事倒也不能全怪西班牙。哈布斯堡家本来就祖传爱收藏：爷爷斐迪南在维也纳攒了一屋子的珍奇；叔叔[[link:the-foundling-at-the-gate-1557]]斐迪南大公[[/link]]把安布拉斯城堡堆得满满当当；父亲马克西米利安养动物、养花草，鲁道夫出生那年，他还从西班牙带回来一头大象，一路翻过阿尔卑斯山，开进了维也纳。\n\n[[b]]这一家人，从爷爷开始，就什么都想往家里搬。[[/b]]\n\n只是到了鲁道夫这里，“什么都想要”变成了“什么都想弄明白”。\n\n星星为什么这样转？石头为什么有的普通、有的值钱？人为什么会生病，为什么会死？他相信这些问题都有答案，只是藏在什么地方，还没有人找到。所以他收画，也收钟表；收宝石，也收算星星的人。\n\n一个整天抬头看星星的皇帝，对天上的事格外较真。\n\n而天上的事，最近正好出了点问题：天上的太阳，跟地上的日历，对不上了。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "new-royal-palace",
+        relation: {
+          en: "The castle wing where Rudolf built the Spanish Hall and the Rudolf Gallery to display his collections. The treasures were later scattered and sold off, and a few decades on, a band of uninvited guests from the north carried off a great many more.",
+          cz: "Hradní křídlo, kde si Rudolf postavil Španělský sál a Rudolfovu galerii pro své sbírky. Poklady se později rozptýlily a rozprodaly a o pár desítek let později jich spoustu odvezla skupina nezvaných hostů ze severu.",
+          zh: "鲁道夫在这里修了西班牙厅和鲁道夫画廊，专门陈列他的收藏。这些宝贝后来散的散、卖的卖，几十年后又被来自北欧的一群不速之客抢走了一大批。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Rudolf_II.",
+  },
+  // Draft by the user (2026-10-18), polished. Sources: Sněmy české VI,
+  // introduction to 1583 and no. 244 (mandate, Prague Castle, 3 Dec 1583,
+  // issued while the November diet was sitting and with the estates'
+  // knowledge). The May diet resolved to agree the change with the
+  // neighbouring princes and towns first, for the sake of trade; Saxony and
+  // Brandenburg were reluctant because adopting it would concede a right to the
+  // pope (that objection was theirs, not the Bohemian estates', so the draft's
+  // wording was adjusted). The November diet passed nothing on it. The mandate
+  // postpones the court and chamber sessions that fell near the dropped days;
+  // it says nothing about rents or birthdays (the joke stays a joke). Protestant
+  // Germany switched in 1700.
+  {
+    slug: "ten-days-gone-1584",
+    era: "age-of-wonders",
+    images: ["/history/ten-days-gone-1584.webp"],
+    imageCaptions: [
+      {
+        en: "January 1584, under the astronomical clock on the Old Town Square: ambassadors, office-seeking noblemen with their petitions, merchants, artists and Prague townsfolk crowd together, look up at the clock and whisper about the ten missing days, some laughing, some baffled.",
+        cz: "Leden 1584 pod orlojem na Staroměstském náměstí: vyslanci, šlechtici s žádostmi o úřad, kupci, umělci i pražští měšťané se tísní pohromadě, hledí na orloj a šeptají si o deseti ztracených dnech, někteří se smějí, jiní nechápou.",
+        zh: "1584年1月，老城广场的天文钟下：各国使节、攥着请愿书求官的贵族、商人、艺术家和布拉格市民挤成一团，抬头看着天文钟，交头接耳地议论那消失的十天，有人在笑，有人一脸不解。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "…(the calendar) has been corrected and changed by ten days…",
+          cz: "…o deset dní napraven a změněn jest…",
+          zh: "……（历法）已校正、改动了十天……",
+        },
+        attribution: {
+          en: "Rudolf II, mandate on the new calendar, Prague Castle, 3 December 1583 (Sněmy české, vol. VI)",
+          cz: "Rudolf II., mandát o zavedení nového kalendáře, Pražský hrad, 3. prosince 1583 (Sněmy české, sv. VI)",
+          zh: "鲁道夫二世关于改用新历的诏令，布拉格城堡，1583年12月3日，《波希米亚议会文献》第六卷",
+        },
+      },
+      {
+        text: {
+          en: "…the seventeenth day of January…",
+          cz: "…sedmnáctého dne Januarii…",
+          zh: "……一月十七日……",
+        },
+        attribution: {
+          en: "Ibid.",
+          cz: "Tamtéž",
+          zh: "同上",
+        },
+      },
+    ],
+    startYear: 1584,
+    year: {
+      en: "1584",
+      cz: "1584",
+      zh: "1584年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Ten Days Gone",
+      cz: "Deset ztracených dní",
+      zh: "消失的十天",
+    },
+    hookLine: {
+      en: "On the evening of 6 January the people of Prague went to bed as usual. When they woke up the next morning, it was 17 January.",
+      cz: "Večer 6. ledna šli Pražané spát jako obvykle. Když se ráno probudili, byl 17. leden.",
+      zh: "1月6日晚上，布拉格人照常上床睡觉；第二天一早醒来，已经是1月17日了。",
+    },
+    summary: {
+      en: "The first thing the emperor did that the whole city noticed had nothing to do with governing Bohemia or holding off the Turks. He set Prague a new puzzle: changing the calendar.\n\nThe story starts in Rome. Europe was still using the calendar Julius Caesar had introduced more than sixteen hundred years earlier. It was slightly off: every year it ran about eleven minutes longer than the sun's. Eleven minutes does not sound like much, but over many centuries it had added up, and the calendar was now a full ten days out of step with the sky. Easter kept drifting, and the Church was alarmed.\n\nIn 1582 Pope Gregory XIII settled it: ten days would simply be cut out, and from then on everyone would use the new calendar.\n\nThe Catholic countries fell into line. The emperor wanted to as well, but the Bohemian estates were in no hurry. Next door, Saxony and Brandenburg were ruled by Protestant princes, who saw it as the pope's calendar and had no intention of adopting it, since that would mean admitting the pope had a say. And if Bohemia changed and its neighbours did not, how was anyone to trade when the two sides could not even agree on the date?\n\nIn May 1583 the diet discussed it and concluded that the matter should first be agreed with the neighbouring princes and towns. In November the diet met again, and again nothing came of it.\n\n[[b]]The emperor ran out of patience: if they could not agree, he would simply give the order.[[/b]]\n\nOn 3 December, with the diet still sitting, the emperor issued a mandate from Prague Castle announcing that the calendar had been put right by ten whole days:\n\n[[quote:0]]\n\nHow would it work? On 6 January 1584, the Feast of the Three Kings, everyone would celebrate and go to bed as usual. When they woke up, the calendar would not say the 7th of January. It would say:\n\n[[quote:1]]\n\n[[b]]The ten days in between simply vanished.[[/b]]\n\nWhat about people whose birthdays fell in those ten days? Was rent due for them? The mandate did not say a word about any of that. It did, thoughtfully, postpone the court sessions that happened to fall around those days.\n\nTravel was the real headache. Head north from Prague, cross the border into Saxony, and the calendar jumped back ten days. Merchants writing letters and signing contracts often had to add a note to the date saying whether it was new style or old.\n\nThe Saxons stayed ten days behind for more than a century. Only in 1700 did the Protestant German princes finally make the change.\n\nThe people of Prague soon got used to it. After all, the city had plenty of things stranger than its calendar to talk about just then.\n\nThat summer, two Englishmen arrived in Prague. One wanted to talk to angels. The other claimed he could pass the messages on, and turn lead into gold as well.",
+      cz: "První věc, kterou císař v Praze udělal a které si všimlo celé město, neměla nic společného se správou Čech ani s obranou proti Turkům. Zadal Praze novou hádanku: změnit kalendář.\n\nVšechno začalo v Římě. Evropa pořád používala kalendář, který před víc než šestnácti sty lety zavedl Julius Caesar. Nebyl úplně přesný: každý rok byl asi o jedenáct minut delší než sluneční. Jedenáct minut nezní jako moc, ale za ta staletí se to nasčítalo a kalendář se už o celých deset dní rozcházel s oblohou. Velikonoce se čím dál víc posouvaly a církev byla zděšená.\n\nRoku 1582 to papež Řehoř XIII. rozsekl: deset dní se prostě vyškrtne a odteď se bude počítat podle nového kalendáře.\n\nKatolické země poslechly. Císař chtěl taky, ale čeští stavové nikam nespěchali. Za hranicemi, v Sasku a Braniborsku, vládla protestantská knížata, která v tom viděla papežův kalendář a neměla v úmyslu ho přijmout, protože by tím uznala, že papež má do čeho mluvit. A kdyby Čechy kalendář změnily a sousedé ne, jak se má obchodovat, když se obě strany nedohodnou ani na datu?\n\nV květnu 1583 to sněm probral a usnesl se, že se věc musí nejdřív domluvit s okolními knížaty a městy. V listopadu se sněm sešel znovu a zase z toho nic nebylo.\n\n[[b]]Císaři došla trpělivost: když se nedokážou dohodnout, prostě to nařídí.[[/b]]\n\nDne 3. prosince, kdy sněm ještě zasedal, vydal císař z Pražského hradu mandát, že kalendář byl napraven o celých deset dní:\n\n[[quote:0]]\n\nJak to mělo vypadat? 6. ledna 1584, na Tři krále, všichni oslaví svátek a jdou spát jako obvykle. Když se probudí, v kalendáři nebude stát 7. ledna, ale:\n\n[[quote:1]]\n\n[[b]]Deset dní mezi tím prostě zmizelo.[[/b]]\n\nA co lidé, kteří měli narozeniny v těch deseti dnech? Platí se za ně nájem? O tom mandát neříká ani slovo. Zato ohleduplně odložil soudy, které na ty dny zrovna připadly.\n\nHorší bylo cestování. Stačilo vyrazit z Prahy na sever, překročit hranici do Saska, a kalendář skočil o deset dní zpátky. Kupci, kteří psali dopisy a podepisovali smlouvy, často museli k datu připsat, jestli je podle nového, nebo starého kalendáře.\n\nSasové zůstali o deset dní pozadu víc než sto let. Teprve roku 1700 přešla na nový kalendář i protestantská německá knížata.\n\nPražané si rychle zvykli. Koneckonců se ve městě zrovna děly věci mnohem podivnější než kalendář.\n\nToho léta přijeli do Prahy dva Angličané. Jeden chtěl mluvit s anděly. Druhý tvrdil, že mu jejich vzkazy umí tlumočit, a navíc že dokáže udělat z olova zlato.",
+      zh: "皇帝在布拉格安顿下来以后，头一件让全城都记住的事，既不是处理波希米亚的政务，也不是琢磨怎么防着土耳其人，而是给全城出了一道新题目：改日历。\n\n事情还得从罗马说起。当时欧洲用的，是一千六百多年前恺撒定下的历法。这套历法算得不太准，每年都比太阳多出十一分钟左右。十一分钟听起来不多，可积攒了这么多个世纪，日历跟天上的太阳已经差出了整整十天。复活节越算越偏，教会急得不行。\n\n1582年，教皇格里高利十三世一拍板：直接删掉十天，从此改用新历。\n\n天主教国家纷纷照办。皇帝也想照办，可波希米亚的等级们不着急。隔壁的萨克森、勃兰登堡都是新教诸侯，人家嫌这是教皇的历法，改了就等于认了教皇的账，根本不打算改。我们这边改了，邻居没改，跟人家做生意，连日子都对不上，那怎么办？\n\n1583年5月，议会商量了一回，结论是：先跟周围的诸侯和城市商量好再说。11月，议会又开了，还是没商量出结果。\n\n[[b]]皇帝等不及了：商量不出来，那就下命令。[[/b]]\n\n12月3日，议会还没散，皇帝就从布拉格城堡发出一道诏令，宣布日历“整整改正了十天”：\n\n[[quote:0]]\n\n具体怎么改？1584年1月6日，三王节，大家照常过节、照常睡觉。第二天醒来，日历上写的不是1月7日，而是：\n\n[[quote:1]]\n\n[[b]]中间那十天，就这么凭空消失了。[[/b]]\n\n那十天里过生日的人怎么办？那十天的房租要不要交？这些问题，诏令里一个字都没提。不过它倒是很体贴，把正好赶在那几天开庭的法院往后推了推。\n\n更麻烦的是出门。从布拉格往北走，一过边境进了萨克森，日历就倒退回了十天前。商人写信、签合同，常常得在日期后面注明一句：这是新历，还是旧历。\n\n萨克森人这一倒退，就是一百多年。直到1700年，德意志的新教诸侯才跟着改了过来。\n\n至于布拉格人，很快就习惯了。毕竟这座城里，眼下比日历更稀奇的事情多着呢。\n\n就在这一年夏天，两个英国人来到了布拉格。一个想跟天使说话；另一个自称能替他传话，顺便还能把铅变成金子。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "astronomical-clock",
+        relation: {
+          en: "Where the people of Prague read the hour and the date. The ring of golden numerals on its outer edge still shows Old Bohemian time, counted from sunset.",
+          cz: "Místo, kde Pražané odečítali hodinu i den. Prstenec zlatých číslic na jeho okraji dodnes ukazuje staročeský čas, počítaný od západu slunce.",
+          zh: "布拉格人看时辰、看日子的地方。外圈那一圈金色数字，显示的还是“老波希米亚时间”，从日落开始算。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Gregori%C3%A1nsk%C3%BD_kalend%C3%A1%C5%99",
+  },
+  // Draft by the user (2026-10-18), polished. Both quotes are from Dee's own
+  // record of his audience with Rudolf (3 Sept 1584) in Casaubon's A True &
+  // Faithful Relation (1659), checked in the archive.org scan
+  // (truefaithfulrela00deej); "The Emperour said, at another time, he would
+  // hear and understand more." Kelley scried in a crystal shew-stone (the
+  // obsidian "black mirror" is Dee's, so the hook was adjusted). Expulsion
+  // 1586 under the nuncio's pressure; Třeboň from 1586 and the wife-swap
+  // order there in 1587; Dee back to England in 1589. Kelley knighted c.
+  // 1589/90; duel and arrest in May 1591; Křivoklát and Hněvín escapes with a
+  // broken leg each time per prague.eu; death at Hněvín, most likely Nov 1597
+  // (Nicholl, LRB). The 600-ducat Voynich purchase rests on Marci's 1665 letter;
+  // Dee as seller is a guess, hence "some suspect".
+  {
+    slug: "the-gold-that-never-came-1584",
+    era: "age-of-wonders",
+    images: ["/history/the-gold-that-never-came-1584.webp"],
+    imageCaptions: [
+      {
+        en: "Prague Castle, September 1584: John Dee kneels before Rudolf II and passes on the angels' warning with his hand raised to heaven, while the emperor, seated beside a silver chest and Dee's own book, politely puts him off until another time.",
+        cz: "Pražský hrad, září 1584: John Dee klečí před Rudolfem II. a s rukou zdviženou k nebi tlumočí varování andělů, zatímco císař, sedící vedle stříbrné truhly a Deeovy knihy, ho zdvořile odkáže na jindy.",
+        zh: "1584年9月，布拉格城堡：约翰·迪伊跪在鲁道夫二世面前，一只手举向天空，转达天使的警告；皇帝坐在银箱和迪伊献上的书旁边，很有礼貌地请他改天再说。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "The Angel of the Lord hath appeared to me, and rebuketh you for your sins. If you will hear me, and believe me, you shall triumph: if you will not hear me, the Lord, the God that made Heaven and Earth … putteth his foot against your breast, and will throw you headlong down from your seat.",
+          cz: "Anděl Páně se mi zjevil a kárá vás pro vaše hříchy. Budete-li mě slyšet a věřit mi, zvítězíte; nebudete-li mě slyšet, Pán, Bůh, který stvořil nebe i zemi, … vám opře nohu o prsa a svrhne vás střemhlav z vašeho trůnu.",
+          zh: "上主的天使向我显现，责备你的罪。你若听我、信我，必将得胜；你若不听，那创造天地的上主……就要把脚抵在你胸口，把你从宝座上一头掀下去。",
+        },
+        attribution: {
+          en: "John Dee to Emperor Rudolf II, Prague Castle, 3 September 1584, in Dee's own record (A True & Faithful Relation, 1659)",
+          cz: "John Dee císaři Rudolfovi II., Pražský hrad, 3. září 1584, podle Deeova vlastního záznamu (A True & Faithful Relation, 1659)",
+          zh: "约翰·迪伊对鲁道夫二世所说，布拉格城堡，1584年9月3日，据迪伊本人的记录（《真实忠实的记述》，1659年）",
+        },
+      },
+      {
+        text: {
+          en: "The Emperour said, at another time, he would hear and understand more.",
+          cz: "Císař řekl, že jindy si vyslechne a pochopí víc.",
+          zh: "皇帝说，改天他再多听听、多了解一些。",
+        },
+        attribution: {
+          en: "Ibid.",
+          cz: "Tamtéž",
+          zh: "同上",
+        },
+      },
+    ],
+    startYear: 1584.6,
+    year: {
+      en: "1584",
+      cz: "1584",
+      zh: "1584年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Gold That Never Came",
+      cz: "Zlato, které nepřišlo",
+      zh: "炼不出来的金子",
+    },
+    hookLine: {
+      en: "One wanted to talk to angels; the other said the angels would only talk to him. Two Englishmen with a crystal stone came to Prague to find the emperor.",
+      cz: "Jeden chtěl mluvit s anděly, druhý tvrdil, že andělé mluví jen s ním. Dva Angličané s křišťálovým kamenem přijeli do Prahy za císařem.",
+      zh: "一个想跟天使说话，一个说天使只肯跟他说话。两个英国人揣着一块水晶石，来布拉格找皇帝了。",
+    },
+    summary: {
+      en: "The emperor loved watching the stars, and he loved alchemy too. He is said to have set up workshops for alchemists at the castle, and anyone who claimed he could turn lead into gold could count on the emperor paying for him to try.\n\nWord spread across Europe, and alchemists packed their bags and headed for Prague. In 1584 two Englishmen arrived.\n\nThe elder was John Dee, a great scholar at the court of Queen Elizabeth I, at home in mathematics, geography and astrology alike. But the thing he wanted most in life could not be found in books: he wanted to talk to angels.\n\nThe younger was Edward Kelley, the medium Dee had hired. Kelley would gaze into a crystal stone, see the angels in it, and pass on what they said to Dee. As a young man, it is said, he had both his ears cut off for forging documents.\n\n[[b]]One asked the questions and the other gave the answers; what the angels said depended entirely on Kelley.[[/b]]\n\nIn September 1584 Dee was received by the emperor. He did not make him any gold. Instead he brought him a message from the angels:\n\n[[quote:0]]\n\nThe emperor heard him out politely, said that he believed him, and told him there was no need to keep kneeling. As for the angels' message:\n\n[[quote:1]]\n\nThat other time never came. In 1586, under pressure from the pope's envoy, the emperor ordered both men out of Prague.\n\n[[b]]The emperor collected everything except lectures.[[/b]]\n\nLuckily a great lord of South Bohemia, Vilém of the [[link:the-five-roses-1394]]Rožmberk family[[/link]], took them in at his castle at Třeboň. There the angels made another outrageous demand: gentlemen, swap wives. After that the two men slowly went their separate ways. In 1589 Dee went home to England.\n\nKelley stayed, and did better and better. It is said that in front of the emperor he turned a pot of mercury into gold. The delighted emperor made him a knight. The forger with no ears had become Sir Edward Kelley.\n\nThe trouble with the alchemy business, though, is that sooner or later you have to deliver.\n\nThe gold kept not arriving, and the emperor grew more and more suspicious. In 1591 Kelley killed a man in a duel and was thrown into prison. He is said to have tried to escape twice, and broken a leg each time. In 1597 he died in prison.\n\nAs for the emperor, he went through one alchemist after another, and the gold never came. He did, however, get plenty of strange things from these strange men. Legend has it that he once paid six hundred ducats for a strange book that nobody could read, and some suspect it was Dee who sold it to him.\n\nNobody has managed to read that book to this day. Today it is called the Voynich manuscript.",
+      cz: "Císař rád pozoroval hvězdy a stejně rád měl alchymii. Prý pro alchymisty zřídil na hradě dílny, a kdo tvrdil, že umí udělat z olova zlato, mohl počítat s tím, že mu císař pokus zaplatí.\n\nZpráva se roznesla po celé Evropě a alchymisté si balili kufry a mířili do Prahy. Roku 1584 přijeli dva Angličané.\n\nTen starší se jmenoval John Dee, velký učenec ze dvora královny Alžběty I., doma v matematice, zeměpisu i astrologii. Jenže to, po čem v životě toužil nejvíc, se v knihách najít nedalo: chtěl mluvit s anděly.\n\nTen mladší se jmenoval Edward Kelley a byl médiem, které si Dee najal. Kelley se zahleděl do křišťálového kamene, spatřil v něm anděly a jejich slova tlumočil Deeovi. Prý mu v mládí za padělání listin uřízli obě uši.\n\n[[b]]Jeden se ptal, druhý odpovídal; co andělé řekli, záleželo jen na Kelleym.[[/b]]\n\nV září 1584 přijal Deeho císař. Dee mu žádné zlato neudělal. Místo toho mu přinesl vzkaz od andělů:\n\n[[quote:0]]\n\nCísař ho zdvořile vyslechl, řekl, že mu věří, a dodal, že nemusí pořád klečet. A k andělskému vzkazu:\n\n[[quote:1]]\n\nTo „jindy“ už nepřišlo. Roku 1586 vykázal císař pod tlakem papežského nuncia oba muže z Prahy.\n\n[[b]]Císař sbíral všechno, jen ne kázání.[[/b]]\n\nNaštěstí je přijal velký jihočeský pán Vilém z [[link:the-five-roses-1394]]rodu Rožmberků[[/link]] na svém zámku v Třeboni. Tam andělé přišli s dalším nehorázným požadavkem: pánové, vyměňte si manželky. Potom se cesty obou mužů pomalu rozešly. Roku 1589 se Dee vrátil do Anglie.\n\nKelley zůstal a dařilo se mu čím dál líp. Prý před císařem proměnil hrnec rtuti ve zlato. Potěšený císař ho povýšil na rytíře. Z padělatele bez uší se stal sir Edward Kelley.\n\nPotíž s alchymistickým řemeslem ale je, že dřív nebo později musíte dodat zboží.\n\nZlato pořád nepřicházelo a císař byl čím dál podezíravější. Roku 1591 Kelley zabil v souboji člověka a skončil ve vězení. Prý se dvakrát pokusil o útěk a pokaždé si zlomil nohu. Roku 1597 ve vězení zemřel.\n\nA císař? Vystřídal jednoho alchymistu za druhým a zlato nepřišlo nikdy. Od těch podivných mužů ale získal spoustu podivných věcí. Podle pověsti kdysi zaplatil šest set dukátů za podivnou knihu, kterou nikdo nedokázal přečíst, a někteří mají za to, že mu ji prodal právě Dee.\n\nTu knihu dodnes nikdo nepřečetl. Dnes se jí říká Voynichův rukopis.",
+      zh: "皇帝爱看星星，也爱炼金。据说他在城堡里专门给炼金术士开了作坊，谁要是自称能把铅变成金子，皇帝就肯掏钱让他试一试。\n\n消息传遍了欧洲，炼金术士们纷纷收拾行李，往布拉格赶。1584年，来了两个英国人。\n\n年长的那位叫约翰·迪伊，英国女王伊丽莎白一世身边的大学者，数学、地理、占星样样精通。可他这辈子最想做的事，书里找不到答案：他想跟天使说话。\n\n年轻的那位叫爱德华·凯利，是迪伊雇来的“通灵人”。他盯着一块水晶石，就能看见天使，再把天使的话转述给迪伊。据说他年轻时因为伪造文书，被割掉了两只耳朵。\n\n[[b]]一个负责问，一个负责答；天使说了什么，全凭凯利一张嘴。[[/b]]\n\n1584年9月，迪伊见到了皇帝。他没给皇帝变金子，而是带来了天使的口信：\n\n[[quote:0]]\n\n皇帝很有礼貌地听完，说他相信迪伊，还说用不着老是下跪。至于天使的口信嘛：\n\n[[quote:1]]\n\n这个“改天”，一直没等来。1586年，在教皇使节的施压下，皇帝下令把两人赶出了布拉格。\n\n[[b]]皇帝什么都收，就是不收训话。[[/b]]\n\n好在南波希米亚的大领主、[[link:the-five-roses-1394]]罗森贝格家[[/link]]的威廉，把两人接到了自己的特热邦城堡。在那里，天使又提了个过分的要求：两位先生，交换一下妻子吧。这之后，两人就渐渐分道扬镳了。1589年，迪伊回了英国。\n\n凯利却留下来，越混越好。据说他当着皇帝的面，把一锅水银变成了金子。皇帝一高兴，封他做了爵士。没耳朵的伪造犯，摇身一变成了“凯利爵士”。\n\n可炼金术这门生意，难就难在早晚要交货。\n\n金子迟迟不来，皇帝的疑心越来越重。1591年，凯利又在决斗里杀了人，被关进了监狱。据说他两次越狱，两次摔断了腿。1597年，他死在狱中。\n\n至于皇帝，炼金术士换了一个又一个，金子始终没炼出来。不过，他倒从这群怪人手里收到了不少怪东西。传说他曾花六百枚金币，买下一本谁也看不懂的怪书，有人猜就是迪伊卖给他的。\n\n那本书至今没人读懂。今天，人们管它叫“伏尼契手稿”。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "prasna-vez-mihulka",
+        relation: {
+          en: "The round artillery tower on the castle's northern edge; tradition says Rudolf's alchemists kept their furnaces here.",
+          cz: "Okrouhlá dělová věž na severním okraji hradu; podle tradice tu měli své pece Rudolfovi alchymisté.",
+          zh: "城堡北边的圆形炮塔；传说鲁道夫的炼金术士，就在这里生炉子干活。",
+        },
+      },
+      {
+        slug: "golden-lane",
+        relation: {
+          en: "Legend has Rudolf's alchemists making gold in these tiny houses. In fact they were built in the late 16th century for the castle guards, and the name comes from the goldsmiths said to have lived here.",
+          cz: "Podle pověsti tu v malých domcích vyráběli zlato Rudolfovi alchymisté. Ve skutečnosti je na konci 16. století postavili pro hradní stráž a jméno ulička dostala po zlatnících, kteří tu prý bydleli.",
+          zh: "传说鲁道夫的炼金术士就在这些小房子里炼金。其实它们是16世纪末给城堡卫兵盖的，“黄金”这个名字，据说来自住过这里的金匠。",
+        },
+      },
+      {
+        slug: "faustuv-dum",
+        relation: {
+          en: "Prague's most famous wizard's house. Kelley is said to have lived and kept an alchemical workshop here; the later legend of a poor student carried off by the devil through a hole in the ceiling gave it the name Faust House.",
+          cz: "Nejslavnější pražský dům čarodějů. Prý tu bydlel Kelley a měl tu alchymistickou dílnu; pozdější pověst o chudém studentovi, kterého čert odnesl dírou ve stropě, mu dala jméno Faustův dům.",
+          zh: "布拉格最有名的“魔法师之家”。传说凯利在这里住过，还开过炼金作坊；后来又有传说，一个穷学生在这里被魔鬼从天花板的洞里抓走了，这房子就有了“浮士德之家”的名字。",
+        },
+      },
+      {
+        slug: "trebon",
+        relation: {
+          en: "The Rožmberks' town and castle. Dee and Kelley lived here from 1586 for more than two years, and it was here that the angels made their outrageous demand.",
+          cz: "Rožmberské město a zámek. Dee a Kelley tu od roku 1586 žili přes dva roky a právě tady vznesli andělé svůj nehorázný požadavek.",
+          zh: "罗森贝格家族的城和城堡。1586年起，迪伊和凯利在这里住了两年多，天使那个过分的要求，就是在这里提出来的。",
+        },
+      },
+      {
+        slug: "hrad-hnevin",
+        relation: {
+          en: "Where Kelley was last imprisoned and died. Legend says that before he died he cursed the castle and the town of Most below it, and both were later razed: the castle in the 17th century, the old town in the 20th, to make way for coal mining. The castle on the hill today is a replica built in 1906.",
+          cz: "Tady byl Kelley naposledy vězněn a tady zemřel. Podle pověsti před smrtí proklel hrad i město Most pod ním a obojí bylo později srovnáno se zemí: hrad v 17. století, staré město ve 20. století kvůli těžbě uhlí. Dnešní hrad na kopci je replika z roku 1906.",
+          zh: "凯利最后被关押、也死在这里。传说他临死前诅咒了这座城堡和山下的莫斯特城，说它们终将被夷为平地。后来城堡在17世纪真的被拆了，老城也在20世纪为了挖煤被整个推平。今天山上那座城堡，是1906年仿建的。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Edward_Kelley",
+  },
+  // Background card after the-gold-that-never-came-1584. Draft by the user
+  // (2026-10-18), polished. Newton's alchemical papers run to about a
+  // million words.
+  {
+    slug: "was-alchemy-a-swindle-1584",
+    era: "age-of-wonders",
+    cardType: "background",
+    images: [],
+    imageCaptions: [],
+    startYear: 1584.7,
+    year: {
+      en: "16th century",
+      cz: "16. století",
+      zh: "16世纪",
+    },
+    tone: "humorous",
+    title: {
+      en: "Was Alchemy a Swindle?",
+      cz: "Byla alchymie podvod?",
+      zh: "炼金术，是骗术吗？",
+    },
+    hookLine: {
+      en: "There were swindlers, but not only swindlers. In those days alchemy and chemistry had not yet gone their separate ways.",
+      cz: "Byli mezi nimi podvodníci, ale nejen podvodníci. Alchymie a chemie se tehdy ještě nerozdělily.",
+      zh: "有骗子，但不全是骗子。在那个年代，炼金术和化学还没有分家。",
+    },
+    summary: {
+      en: "Mention alchemy today and most people think of the lead-into-gold con trick. In the 16th century, though, it was a serious field of learning.\n\nPeople then believed that everything in the world was made of a few basic elements, mixed in different proportions. Lead and gold were both metals, so if you could only find a way to adjust the mixture, why shouldn't lead become gold? The idea is wrong, as we now know, but at the time most scholars accepted it, just as they accepted that the earth was the centre of the universe.\n\nTo find that way, alchemists spent their days in their workshops distilling, dissolving, heating and purifying. They never made gold, but along the way they made a great deal else: purer acids, better medicines, more accurate scales, and a whole method of doing experiments. Chemistry grew out of those workshops, little by little.\n\n[[b]]The alchemists never found gold, but they built chemistry its laboratory bench.[[/b]]\n\nOf course, the trade had its share of swindlers too. They would hide gold dust in the bottom of a crucible, conjure up gold in front of some great lord, collect their reward and run. The real scholars and the frauds often wore the same robes and worked in the same castle.\n\nEven Isaac Newton, who discovered universal gravitation a century later, left private notes on alchemy running to about a million words.",
+      cz: "Když se dnes řekne alchymie, většina lidí si vybaví podvod s proměnou olova ve zlato. V 16. století to ale byl seriózní obor.\n\nTehdejší lidé věřili, že všechno na světě se skládá z několika základních prvků, jen smíchaných v různém poměru. Olovo i zlato jsou kovy, takže kdyby se našel způsob, jak poměr upravit, proč by se olovo nemohlo stát zlatem? Dnes víme, že je to omyl, ale tehdy to přijímala většina učenců, stejně jako to, že Země je středem vesmíru.\n\nAby ten způsob našli, alchymisté celé dny ve svých dílnách destilovali, rozpouštěli, zahřívali a čistili. Zlato nikdy neudělali, ale mimochodem vyrobili spoustu jiných věcí: čistší kyseliny, lepší léky, přesnější váhy a celou metodu, jak dělat pokusy. Z těch dílen pomalu, kousek po kousku, vyrostla chemie.\n\n[[b]]Alchymisté zlato nenašli, ale chemii postavili laboratorní stůl.[[/b]]\n\nV tom řemesle se ovšem našla i spousta podvodníků. Na dno kelímku schovali zlatý prach, před nějakým velmožem „vyrobili“ zlato, shrábli odměnu a zmizeli. Skuteční učenci a podvodníci často nosili stejné pláště a pracovali na stejném hradě.\n\nI Isaac Newton, který o sto let později objevil všeobecnou gravitaci, zanechal soukromé alchymistické poznámky v rozsahu asi milionu slov.",
+      zh: "今天说起炼金术，大家想到的多半是“把铅变成金子”的骗局。可在16世纪，它是一门正经学问。\n\n那时候的人相信，世上万物都是由几种基本元素组成的，只是比例不同。既然铅和金子都是金属，那只要找到办法调一调比例，铅为什么不能变成金子？这套想法今天看来是错的，但在当时，它跟“地球是宇宙的中心”一样，是大多数学者都接受的道理。\n\n为了找到这个办法，炼金术士整天在作坊里蒸馏、溶解、加热、提纯。金子没炼出来，可他们顺手做出了许多别的东西：更纯的酸，更好的药，更准的天平，还有一套做实验的方法。后来的化学，就是从这些作坊里一点一点长出来的。\n\n[[b]]炼金术士没找到金子，却给化学搭好了实验台。[[/b]]\n\n当然，这一行里也混着不少骗子。他们在坩埚底下藏好金粉，当着贵人的面“变”出金子来，领了赏钱就跑。真学者和骗子，往往穿着同样的长袍，在同一座城堡里干活。\n\n就连一百年后发现万有引力的牛顿，私下写的炼金术笔记，也多达上百万字。",
+    },
+    relatedLandmarks: [],
+  },
+  // Draft by the user (2026-10-18), polished; split in two the same day at
+  // the user's call. The storeroom card covers Rudolf's collecting over his
+  // whole reign (Dürer's Feast of the Rose Garlands, 1506, for San Bartolomeo
+  // in Venice, bought in 1606 and carried upright over the Alps by porters,
+  // now in the National Gallery, Šternberk Palace; Ambras bought from Karl of
+  // Burgau in 1606), so its year reads 1583–1612 and startYear 1590 only sets
+  // its place in the feed.
+  {
+    slug: "the-emperors-storeroom-1590",
+    era: "age-of-wonders",
+    images: ["/history/the-emperors-storeroom-1590.webp"],
+    imageCaptions: [
+      {
+        en: "1606: porters carry Dürer's Feast of the Rose Garlands upright over a snowy Alpine pass on its way from Venice to Prague, while the emperor's agent fusses beside it and a carter wonders why nobody wants his cart.",
+        cz: "1606: nosiči nesou Dürerovu Růžencovou slavnost nastojato přes zasněžený alpský průsmyk z Benátek do Prahy, císařův zmocněnec se kolem obrazu úzkostlivě točí a vozka nechápe, proč nikdo nechce jeho vůz.",
+        zh: "1606年：几个挑夫把丢勒的《玫瑰花冠节》竖着扛过白雪覆盖的阿尔卑斯山口，从威尼斯运往布拉格；皇帝派来的人在一旁提心吊胆，赶车的人却想不通，怎么谁都不肯用他的车。",
+      },
+    ],
+    startYear: 1590,
+    year: {
+      en: "1583–1612",
+      cz: "1583–1612",
+      zh: "1583–1612年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Emperor's Storeroom",
+      cz: "Císařova komora",
+      zh: "皇帝的储物间",
+    },
+    hookLine: {
+      en: "The emperor moved into the castle, and the builders moved in with him. They were not building bedrooms or chapels, but room after room to keep things in.",
+      cz: "Císař se nastěhoval na hrad a s ním i stavaři. Nestavěli ložnice ani kaple, ale jednu místnost za druhou, aby bylo kam dávat věci.",
+      zh: "皇帝搬进了城堡，工匠也跟着住了进来。他们盖的不是寝宫，也不是礼拜堂，而是一间又一间放东西的屋子。",
+    },
+    summary: {
+      en: "Once the emperor had moved into Prague Castle, the builders never left.\n\nThey were not building bedrooms or chapels. They were building room after room just for keeping things in. Later generations called them the cabinet of curiosities.\n\nKeeping what? Everything.\n\nPaintings, clocks, precious stones, terrestrial and celestial globes, musical instruments, weapons, and more besides: unicorn horns (narwhal tusks, in fact), bezoar stones said to cure any poison, coconut shells mounted in gold as drinking cups, a stuffed crocodile, mandrake roots that looked like little people, mechanical figures that walked, beat drums and rolled their eyes. If it was rare and strange, the emperor wanted it.\n\n[[b]]Prague had become the capital of the empire, and the castle had become the emperor's storeroom.[[/b]]\n\nWhen it came to paintings, the emperor was famous for not counting the cost. He fell for The Feast of the Rose Garlands, a celebrated painting by Albrecht Dürer that hung in a church in Venice. Once he had bought it, he would not risk it being jolted about in a cart. Instead he hired a team of porters to carry it upright on their shoulders, step by step, over the Alps to Prague.\n\nAnother time he bought a whole castle's collection at once. In 1606 his cousin Karl sold him [[link:the-foundling-at-the-gate-1557]]Ambras Castle[[/link]] with every treasure in it. The cousin who loved collecting even more than Karl's father had was Rudolf.\n\n[[b]]Other people collected treasures to look at them. The emperor collected them to bring the whole world into his rooms.[[/b]]\n\nThe storerooms kept filling up, but the strangest thing in them was a painting.",
+      cz: "Jakmile se císař nastěhoval na Pražský hrad, stavaři už z něj neodešli.\n\nNestavěli ložnice ani kaple. Stavěli jednu místnost za druhou jen proto, aby bylo kam dávat věci. Pozdější generace jim říkaly kunstkomora.\n\nA co do nich dávat? Všechno.\n\nObrazy, hodiny, drahé kameny, glóby zemské i nebeské, hudební nástroje, zbraně, a k tomu ještě: rohy jednorožců (ve skutečnosti kly narvala), bezoárové kameny, které prý léčily jakýkoli jed, kokosové ořechy zasazené do zlata jako poháry, vycpaného krokodýla, kořeny mandragory, které vypadaly jako malí človíčci, mechanické figurky, které chodily, bubnovaly a koulely očima. Cokoli vzácného a podivného, císař to chtěl.\n\n[[b]]Praha se stala hlavním městem říše a hrad císařovou komorou.[[/b]]\n\nKdyž šlo o obrazy, císař byl pověstný tím, že nešetřil. Zalíbil se mu slavný obraz Albrechta Dürera Růžencová slavnost, který visel v jednom benátském kostele. Když ho koupil, nechtěl riskovat, že se obraz na voze otřese. Najal proto skupinu nosičů, kteří ho na ramenou, nastojato, krok za krokem přenesli přes Alpy až do Prahy.\n\nJindy koupil najednou sbírku celého hradu. Roku 1606 mu jeho bratranec Karel prodal [[link:the-foundling-at-the-gate-1557]]zámek Ambras[[/link]] i se všemi poklady. Tím bratrancem, který sbíral ještě vášnivěji než Karlův otec, byl Rudolf.\n\n[[b]]Jiní sbírali poklady, aby se na ně dívali. Císař je sbíral, aby si do svých komnat přenesl celý svět.[[/b]]\n\nKomory se plnily dál, ale tou nejpodivnější věcí v nich byl obraz.",
+      zh: "皇帝搬进布拉格城堡后，城堡就一直在盖房子。\n\n盖的不是寝宫，也不是礼拜堂，而是一间又一间专门用来放东西的屋子。后人管它们叫“珍奇屋”。\n\n放什么东西？什么都放。\n\n画、钟表、宝石、地球仪、天球仪、乐器、兵器，还有：独角兽的角（其实是一角鲸的牙），能解百毒的胃石，用椰子壳镶金边做成的酒杯，鳄鱼标本，长得像小人的曼德拉草根，会自己走路、敲鼓、转眼珠的机械小人……只要是稀奇古怪的东西，皇帝都想要。\n\n[[b]]布拉格成了帝国的首都；城堡，成了皇帝的储物间。[[/b]]\n\n买画的时候，皇帝更是出了名的舍得。他看中了丢勒的名画《玫瑰花冠节》，那幅画挂在威尼斯的一座教堂里。买下来以后，他怕路上颠坏了，不肯用马车拉，而是雇了一队人，把画竖着扛在肩上，一步一步翻过阿尔卑斯山，走到了布拉格。\n\n还有一回，他一口气买下了一整座城堡的收藏。1606年，堂弟卡尔把[[link:the-foundling-at-the-gate-1557]]安布拉斯城堡[[/link]]连同满屋的珍藏，全都卖给了他。那位“比卡尔的父亲还要爱收藏”的堂兄，说的就是鲁道夫。\n\n[[b]]别人收藏宝贝，是为了好看；皇帝收藏宝贝，是想把整个世界都搬进自己的屋子。[[/b]]\n\n珍奇屋里的东西越堆越多，可要说最怪的一件，还得是一幅画。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "new-royal-palace",
+        relation: {
+          en: "The wing Rudolf built for his collections, with the Spanish Hall and the Rudolf Gallery. The Prague Castle Picture Gallery below them holds what is left in Prague, though only a handful of pieces come from Rudolf's own collection; the rest were bought later to fill the gaps.",
+          cz: "Křídlo, které si Rudolf postavil pro své sbírky, se Španělským sálem a Rudolfovou galerií. Obrazárna Pražského hradu pod nimi ukazuje, co v Praze zůstalo, z Rudolfovy vlastní sbírky je ale jen pár kusů; zbytek se dokupoval později, aby se zaplnily mezery.",
+          zh: "鲁道夫专门为收藏修的宫殿，里面有西班牙厅和鲁道夫画廊。楼下的城堡画廊，挂着留在布拉格的一部分藏画，不过真正出自鲁道夫原收藏的只有寥寥几件，其余大多是后来为了填补空缺买进的。",
+        },
+      },
+      {
+        slug: "sternbersky-palac",
+        relation: {
+          en: "The National Gallery's home for old masters. Dürer's Feast of the Rose Garlands, the painting carried over the Alps on porters' shoulders, hangs here today.",
+          cz: "Sídlo sbírky starých mistrů Národní galerie. Dürerova Růžencová slavnost, kterou nosiči přenesli na ramenou přes Alpy, tu visí dodnes.",
+          zh: "国家美术馆的古典大师馆。丢勒那幅被人一路扛过阿尔卑斯山的《玫瑰花冠节》，如今就挂在这里。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Rudolf%C3%ADnsk%C3%A9_sb%C3%ADrky",
+  },
+  // Split from the-emperors-storeroom-1590 (2026-10-18). Vertumnus: oil on
+  // panel, c. 1590–91, painted in Milan and presented to Rudolf in 1591, now
+  // at Skokloster Castle, Sweden (taken in 1648); Arcimboldo was made a count
+  // palatine in 1592. Comanini's 1591 poem on the painting was looked for as a
+  // quote, but no verifiable Italian text was found.
+  {
+    slug: "the-vegetable-emperor-1591",
+    era: "age-of-wonders",
+    images: ["/history/the-emperors-storeroom-1590-unveiling.webp"],
+    imageCaptions: [
+      {
+        en: "In his cabinet of curiosities, among the stuffed crocodile, mandrake roots and globes, Rudolf II sees Arcimboldo's fruit-and-vegetable portrait of himself for the first time and is delighted, while his courtiers look on in horror.",
+        cz: "Ve své kunstkomoře, mezi vycpaným krokodýlem, kořeny mandragory a glóby, vidí Rudolf II. poprvé Arcimboldův portrét sebe sama z ovoce a zeleniny a je nadšený, zatímco dvořané přihlížejí zděšeně.",
+        zh: "珍奇屋里，鳄鱼标本、曼德拉草根和地球仪之间，鲁道夫二世第一次看到阿尔钦博托用水果蔬菜拼成的自己，满脸欢喜；身边的大臣们却吓得不轻。",
+      },
+    ],
+    startYear: 1591,
+    year: {
+      en: "1591",
+      cz: "1591",
+      zh: "1591年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Vegetable Emperor",
+      cz: "Zeleninový císař",
+      zh: "蔬菜皇帝",
+    },
+    hookLine: {
+      en: "The emperor's collection held every strange thing imaginable. The strangest of all was the emperor himself, made of fruit and vegetables.",
+      cz: "V císařových sbírkách byla každá podivnost, jakou si dovedete představit. Tou nejpodivnější byl sám císař, složený z ovoce a zeleniny.",
+      zh: "皇帝的珍藏里，什么怪东西都有。最怪的一件，是皇帝自己：用水果和蔬菜拼出来的。",
+    },
+    summary: {
+      en: "The painter was an Italian, Giuseppe Arcimboldo. He had been court painter in Vienna to the emperor's grandfather and father, and for a few years to the emperor himself, and each picture he painted was stranger than the last: Spring as a face made of flowers, Water as a face made of fish and shellfish, a librarian made of books. Later he went home to Milan, but the emperor did not forget him.\n\nIn 1591 a new painting arrived in Prague from Milan. It was a portrait of the emperor.\n\nThe emperor's face was a heap of fruit and vegetables: apples for cheeks, a pear for a nose, cherries for lips, pea pods for eyelids, hair of grapes and ears of wheat, a big gourd for a chest. The painter called it Vertumnus, after the Roman god of the seasons and the orchards.\n\nWith any other emperor, the painter would probably have been running for his life by then.\n\nRudolf, it is said, was rather pleased. The next year he made Arcimboldo a count.\n\n[[b]]Other emperors wanted portraits full of majesty. Rudolf wanted a face that grew grapes.[[/b]]\n\nThe painting is no longer in Prague. It hangs in a castle in Sweden. How it got there is a story for later.",
+      cz: "Namaloval ho Ital Giuseppe Arcimboldo. Ve Vídni byl dvorním malířem císařova děda a otce a několik let i samotného císaře a každý jeho obraz byl podivnější než ten předchozí: Jaro jako tvář z květin, Voda jako tvář z ryb a mořských živočichů, knihovník složený z knih. Později se vrátil domů do Milána, ale císař na něj nezapomněl.\n\nRoku 1591 dorazil z Milána do Prahy nový obraz. Byl to portrét císaře.\n\nCísařova tvář byla hromada ovoce a zeleniny: jablka místo tváří, hruška místo nosu, třešně místo rtů, hráškové lusky místo víček, vlasy z hroznů a klasů, velká tykev místo hrudi. Malíř obraz nazval Vertumnus, podle římského boha ročních období a sadů.\n\nU kteréhokoli jiného císaře by malíř touhle dobou nejspíš už utíkal, co mu nohy stačily.\n\nRudolf byl prý docela potěšen. Hned příští rok udělil Arcimboldovi hraběcí titul.\n\n[[b]]Jiní císaři chtěli majestátní portréty. Rudolf chtěl tvář, na které rostou hrozny.[[/b]]\n\nObraz už v Praze není. Visí na jednom zámku ve Švédsku. Jak se tam dostal, to je příběh na později.",
+      zh: "画这幅画的，是意大利画家阿尔钦博托。他在维也纳给皇帝的爷爷、父亲当过宫廷画家，后来也给皇帝本人画过几年。他画的东西一幅比一幅怪：用花朵拼出春天的人脸，用鱼虾拼出水的人脸，用书本拼出图书管理员。后来他回了米兰，可皇帝还惦记着他。\n\n1591年，一幅新画从米兰送到了布拉格。画的是皇帝本人。\n\n皇帝的脸是一堆水果和蔬菜：苹果是脸颊，梨子是鼻子，樱桃是嘴唇，豌豆荚是眼皮，头发是一串串葡萄和麦穗，胸口是一个大南瓜。画家给这幅画起名《维尔图努斯》，那是古罗马神话里掌管四季和果园的神。\n\n换了别的皇帝，画家这会儿大概已经在逃命的路上了。\n\n可鲁道夫看了，据说挺高兴。第二年，他还给阿尔钦博托封了个伯爵。\n\n[[b]]别的皇帝要的是威风凛凛的肖像；鲁道夫要的，是一张会长出葡萄的脸。[[/b]]\n\n如今，这幅画已经不在布拉格了。它挂在瑞典的一座城堡里。它是怎么跑到那里去的，后面再说。",
+    },
+    relatedLandmarks: [],
+    referenceMaps: {
+      links: [
+        {
+          label: "1591",
+          description: {
+            en: "Giuseppe Arcimboldo's Vertumnus, Rudolf II as the god of the seasons, now at Skokloster Castle, Sweden (Swedish History Museums collections)",
+            cz: "Vertumnus Giuseppa Arcimbolda, Rudolf II. jako bůh ročních období, dnes na zámku Skokloster ve Švédsku (sbírky Švédských historických muzeí)",
+            zh: "阿尔钦博托的《维尔图努斯》，扮作四季之神的鲁道夫二世，现藏瑞典斯科克洛斯特城堡（瑞典历史博物馆藏品库）",
+          },
+          url: "https://samlingar.shm.se/object/BD10473C-4D1B-4D89-82D9-4ADD890B7941",
+        },
+      ],
+    },
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Vertumnus_(Arcimboldo)",
+  },
+  // Draft by the user (2026-10-18), polished. The audience: 10 Adar 5352 =
+  // Sunday 23 February 1592 (Jewish Encyclopedia: Loew went with his brother
+  // Sinai and his son-in-law Isaac Cohen, Prince Bertier present). The
+  // curtain account is the son-in-law's, as quoted in Egon Erwin Kisch,
+  // Geschichten aus sieben Ghettos (1934); Bertier passed the order to
+  // Mordecai Maisel and Isak Weisl. The German wording could not be checked
+  // verbatim (Projekt Gutenberg blocks downloads), but search-engine extracts
+  // of Kisch's chapter match its content, so the quotes are given as
+  // translations only. Maisel's estate was seized by the treasury after his
+  // death in 1601. The Golem was attached to Loew only in the 19th century.
+  {
+    slug: "the-emperor-behind-the-curtain-1592",
+    era: "age-of-wonders",
+    images: ["/history/the-emperor-behind-the-curtain-1592.webp"],
+    imageCaptions: [
+      {
+        en: "Prague Castle, 23 February 1592: Prince Bertier questions Rabbi Loew in an unnaturally loud voice, with the rabbi's brother and son-in-law behind him, while the emperor listens from behind the red curtain, given away only by his shoes.",
+        cz: "Pražský hrad, 23. února 1592: kníže Bertier se nepřirozeně hlasitě vyptává rabiho Löwa, za nímž stojí jeho bratr a zeť, a císař poslouchá za červeným závěsem, prozrazený jen svými botami.",
+        zh: "1592年2月23日，布拉格城堡：贝尔蒂埃亲王扯着嗓子向罗乌拉比发问，拉比的弟弟和女婿站在身后；皇帝躲在红色的帘子后面听着，只露出了一双鞋。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "The prince questioned him about hidden matters, but spoke so loudly that we could hear everything … so that the emperor, who was standing behind a curtain, could hear the whole conversation.",
+          cz: "Kníže se ho vyptával na tajemné věci, mluvil však tak hlasitě, že jsme všechno slyšeli … aby císař, který stál za závěsem, mohl slyšet celý rozhovor.",
+          zh: "亲王向他请教那些神秘的事情，说话的声音很大，大到我们都听得一清二楚……好让站在帘子后面的皇帝，也能把整段谈话听全。",
+        },
+        attribution: {
+          en: "Isaac Cohen, Rabbi Loew's son-in-law, on the audience of 23 February 1592, as quoted in Egon Erwin Kisch, Tales from Seven Ghettos (1934)",
+          cz: "Izák Kohen, zeť rabiho Löwa, o audienci 23. února 1592, podle Egona Erwina Kische, Příběhy ze sedmi ghett (1934)",
+          zh: "罗乌的女婿伊萨克·科恩记1592年2月23日的召见，据基希《七个犹太区的故事》（1934年）转引",
+        },
+      },
+      {
+        text: {
+          en: "Suddenly the curtain opened, His Majesty stepped forward … and then withdrew again behind the curtain.",
+          cz: "Náhle se závěs rozhrnul, Jeho Veličenstvo vystoupilo … a pak se zase stáhlo za závěs.",
+          zh: "突然，帘子拉开了，陛下走了出来……随后又退回到了帘子后面。",
+        },
+        attribution: {
+          en: "Ibid.",
+          cz: "Tamtéž",
+          zh: "同上",
+        },
+      },
+    ],
+    startYear: 1592,
+    year: {
+      en: "1592",
+      cz: "1592",
+      zh: "1592年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Learning from Behind a Curtain",
+      cz: "Učení za závěsem",
+      zh: "帘后求教",
+    },
+    hookLine: {
+      en: "The emperor sent for the most learned rabbi in the Jewish Town. While they talked, the emperor himself hid behind a curtain.",
+      cz: "Císař si dal zavolat nejučenějšího rabína Židovského Města. Během rozhovoru se sám schovával za závěsem.",
+      zh: "皇帝召见了犹太城最有学问的拉比。谈话的时候，皇帝本人躲在一道帘子后面。",
+    },
+    summary: {
+      en: "When Maximilian came [[link:the-emperor-came-by-sleigh-1571]]visiting by sleigh[[/link]], a few men who would later become famous were just making their names in the Jewish Town. Twenty years on, they had become its pillars.\n\nOne was the merchant Mordecai Maisel. He lent money and traded, did better and better, and became the richest man in the Jewish Town and its leading figure. He had money and was not afraid to spend it: he paved the streets, built a town hall, a bathhouse and a hospital, and paid for a synagogue out of his own pocket. Whenever the emperor was short of money, he often borrowed from Maisel too.\n\nThe other was Rabbi Judah Loew. He was a scholar of immense learning who studied everything from the Talmud to astronomy, from philosophy to education. People called him “the High Rabbi Loew”.\n\n[[b]]One looked after the Jewish Town's money, the other after its learning.[[/b]]\n\nTo the Christian townsfolk of Prague, the Jews hardly counted. They were packed into the few lanes of the Jewish Town and had to wear a yellow ring sewn onto their clothes, and whenever trouble broke out in the city, they were usually the first to suffer.\n\nBut the emperor up at the castle, curious about everything as ever, was different. The very people the townsfolk would not deign to look at, he wanted to learn from, and he was hungry for it.\n\nOn Sunday 23 February 1592, the emperor's confidant Prince Bertier sent word through Maisel: Rabbi Loew was to come up to the castle.\n\nThe rabbi went with his brother Sinai and his son-in-law Isaac Cohen, and the son-in-law later wrote down what happened that day:\n\n[[quote:0]]\n\nIn other words, the prince asked the questions, and the one really listening was the emperor, hiding behind a curtain.\n\n[[b]]The emperor wanted to meet the rabbi without the rabbi meeting him.[[/b]]\n\nHalfway through, the curtain was suddenly drawn back. The emperor stepped out, asked the rabbi a few questions himself, and then went back behind the curtain.\n\n[[quote:1]]\n\nAs for what the two of them actually talked about, the son-in-law wrote only that, as was the custom at court, it had to stay secret. The rabbi himself left not a single word about it.\n\n[[b]]A conversation nobody knew anything about went on to become Prague's most famous legend.[[/b]]\n\nThe legend goes like this. Rabbi Loew took clay from the banks of the Vltava and shaped it into a man. He put a slip of paper bearing the name of God into its mouth, and the clay man came to life. It was called the Golem. It was enormously strong, and it guarded the Jewish Town, did its heavy work and protected its people. But one day it went out of control and ran amok, and the rabbi had to take the paper out of its mouth, and the Golem turned back into a heap of clay. Its remains, they say, still lie in the attic of the Old-New Synagogue.\n\nIn fact the legend was attached to Rabbi Loew only some two hundred years later. But the people of Prague prefer to believe that on that day, behind the curtain, this may have been exactly what the emperor wanted to ask about.\n\nAs for the rich merchant Maisel, his ending was rather less legendary. He died in 1601, leaving a great fortune and no children. The emperor's view was that the Jews were the [[link:one-emperor-two-fates-1349]]king's property[[/link]] anyway, so their money was his too. Most of Maisel's estate went into the imperial treasury.\n\nWhen it came to borrowing money, the emperor never held back. When it came to collecting it, he did not hold back either.\n\nTwo years before Maisel died, another guest had come to the castle. He came from the north, he was the most accurate observer of the stars in Europe, and his nose was made of metal.",
+      cz: "Když Maxmilián [[link:the-emperor-came-by-sleigh-1571]]přijel na saních[[/link]], prosazovalo se v Židovském Městě několik mužů, kteří později proslavili jeho jméno. O dvacet let později z nich byly jeho pilíře.\n\nJedním byl kupec Mordechaj Maisel. Půjčoval peníze a obchodoval, dařilo se mu čím dál líp a stal se nejbohatším mužem Židovského Města a jeho přední osobností. Peníze měl a nebál se je utrácet: vydláždil ulice, postavil radnici, lázně a špitál a z vlastní kapsy zaplatil synagogu. Když měl císař hluboko do kapsy, často si půjčoval právě od něj.\n\nTím druhým byl rabi Jehuda Löw. Byl to nesmírně učený muž, který studoval všechno od Talmudu po astronomii, od filozofie po výchovu. Lidé mu říkali „vysoký rabi Löw“.\n\n[[b]]Jeden se staral o peníze Židovského Města, druhý o jeho učenost.[[/b]]\n\nPro pražské křesťanské měšťany Židé mnoho neznamenali. Tísnili se v několika uličkách Židovského Města, na šatech museli nosit našitý žlutý kruh, a kdykoli se ve městě strhly nepokoje, obvykle to odnesli jako první.\n\nJenže císař nahoře na hradě, zvědavý na všechno jako vždycky, byl jiný. Na lidi, na které se měšťané ani nepodívali, byl zvědavý on, a jejich učenosti se nemohl nabažit.\n\nV neděli 23. února 1592 vzkázal císařův důvěrník kníže Bertier přes Maisela: rabi Löw ať přijde nahoru na hrad.\n\nRabín šel se svým bratrem Sinajem a se zetěm Izákem Kohenem a zeť pak ten den popsal:\n\n[[quote:0]]\n\nJinými slovy: ptal se kníže, a ten, kdo doopravdy poslouchal, byl císař schovaný za závěsem.\n\n[[b]]Císař se chtěl s rabínem setkat tak, aby se rabín nesetkal s ním.[[/b]]\n\nV půli rozhovoru se závěs najednou rozhrnul. Císař vystoupil, položil rabínovi sám několik otázek a pak se vrátil za závěs.\n\n[[quote:1]]\n\nO čem spolu doopravdy mluvili, napsal zeť jen tolik, že to podle dvorského zvyku musí zůstat tajemstvím. Sám rabín o tom nezanechal ani slovo.\n\n[[b]]Z rozhovoru, o kterém nikdo nic nevěděl, se stala nejslavnější pražská pověst.[[/b]]\n\nPověst vypráví tohle. Rabi Löw vzal hlínu z břehu Vltavy a vymodeloval z ní muže. Do úst mu vložil lístek s Božím jménem a hliněný muž ožil. Říkalo se mu Golem. Byl nesmírně silný, hlídal Židovské Město, dělal těžkou práci a chránil jeho obyvatele. Jednoho dne se ale vymkl kontrole a začal řádit, a rabín mu musel lístek z úst vytáhnout, a Golem se znovu proměnil v hromadu hlíny. Jeho pozůstatky prý dodnes leží na půdě Staronové synagogy.\n\nVe skutečnosti se ta pověst k rabimu Löwovi přidala až asi o dvě stě let později. Pražané ale raději věří, že tehdy za závěsem se císař mohl ptát právě na tohle.\n\nA bohatý kupec Maisel? Jeho konec byl mnohem méně legendární. Zemřel roku 1601 a zanechal velké jmění a žádné děti. Císař byl toho názoru, že Židé jsou beztak [[link:one-emperor-two-fates-1349]]majetkem krále[[/link]], takže i jejich peníze jsou jeho. Většina Maiselova jmění skončila v císařské pokladně.\n\nKdyž šlo o půjčování peněz, císař se nikdy nedržel zpátky. Když šlo o jejich vybírání, taky ne.\n\nDva roky před Maiselovou smrtí přijel na hrad další host. Přišel ze severu, byl nejpřesnějším pozorovatelem hvězd v celé Evropě a nos měl z kovu.",
+      zh: "当年马克西米利安[[link:the-emperor-came-by-sleigh-1571]]坐着雪橇来串门[[/link]]的时候，犹太城里正冒出几个后来名气很大的人。二十年过去，他们都成了犹太城的顶梁柱。\n\n一位是商人迈瑟尔。他放贷、做买卖，越做越大，成了犹太城的首富，也是犹太城的头面人物。他有钱也舍得花：给城里铺路，修市政厅，盖澡堂、盖医院，还自掏腰包盖了一座会堂。皇帝手头紧的时候，也常常找他借钱。\n\n另一位，是拉比犹大·罗乌。他学问极深，从《塔木德》到天文，从哲学到教育，什么都钻研，人们尊称他为“至高的拉比罗乌”。\n\n[[b]]一个管犹太城的钱，一个管犹太城的学问。[[/b]]\n\n在布拉格的基督徒市民眼里，犹太人向来不算什么。他们只能挤在犹太城那几条巷子里，衣服上还得缝一个黄色的圆圈；城里一闹事，最先遭殃的往往就是他们。\n\n可城堡里那位什么都好奇的皇帝，偏偏不一样。市民们懒得正眼看的人，他却惦记上了人家肚子里的学问，惦记得如饥似渴。\n\n1592年2月23日，一个星期天，皇帝的亲信贝尔蒂埃亲王通过迈瑟尔传下话来：请罗乌拉比到城堡来一趟。\n\n拉比带着弟弟西奈和女婿伊萨克·科恩一起去了。女婿后来把那天的经过记了下来：\n\n[[quote:0]]\n\n也就是说，问话的是亲王，真正在听的，是躲在帘子后面的皇帝。\n\n[[b]]皇帝想见拉比，又不想让拉比见到自己。[[/b]]\n\n谈到一半，帘子突然拉开了。皇帝走出来，亲自问了拉比几个问题，然后又回到了帘子后面。\n\n[[quote:1]]\n\n至于两人到底谈了些什么，女婿只写了一句：按照宫里的规矩，这是秘密。罗乌拉比自己，也没留下一个字。\n\n[[b]]一场谁也不知道内容的谈话，后来变成了布拉格最有名的传说。[[/b]]\n\n传说是这样的：罗乌拉比用伏尔塔瓦河岸边的泥巴，捏出了一个泥人，在它嘴里放了一张写着神名的纸条，泥人就活了。它叫“魔像”，力大无穷，替犹太城看门、干活、保护犹太人。可有一天它失控了，横冲直撞，拉比只好取出纸条，泥人又变回了一堆泥。据说，它的残骸至今还躺在老新会堂的阁楼上。\n\n这个传说其实是两百多年后才安到罗乌拉比头上的。可布拉格人更愿意相信：那天在帘子后面，皇帝问的，说不定就是这件事。\n\n至于富商迈瑟尔，他的结局就没那么传奇了。1601年他去世，留下了一大笔遗产，却没有子女。皇帝的说法是：犹太人本来就是[[link:one-emperor-two-fates-1349]]国王的财产[[/link]]，他们的钱，自然也是我的。于是，迈瑟尔的大部分家产被收进了皇帝的国库。\n\n借钱的时候，皇帝从来不手软；收钱的时候，也一样。\n\n就在迈瑟尔去世前两年，城堡里又来了一位客人。他从北方来，是全欧洲看星星最准的人，鼻子却是金属做的。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "socha-rabiho-lowa",
+        relation: {
+          en: "Ladislav Šaloun's statue of Rabbi Loew on the corner of the New Town Hall, showing the legend of his death: Death hidden in a rose, held out by a little girl.",
+          cz: "Šalounova socha rabiho Löwa na rohu Nové radnice, zachycující pověst o jeho smrti: Smrt ukrytou v růži, kterou mu podává malá dívka.",
+          zh: "沙隆为罗乌拉比雕的像，立在新市政厅的转角上；刻的是他死亡的传说：死神藏在一朵玫瑰里，由一个小姑娘递到他面前。",
+        },
+      },
+      {
+        slug: "old-new-synagogue-1782601630704",
+        relation: {
+          en: "Where Rabbi Loew taught and prayed; legend says the Golem's remains still lie in its attic.",
+          cz: "Kde rabi Löw učil a modlil se; podle pověsti leží na její půdě dodnes Golemovy pozůstatky.",
+          zh: "罗乌拉比讲学、祈祷的地方；传说魔像的残骸，至今还躺在它的阁楼上。",
+        },
+      },
+      {
+        slug: "old-jewish-cemetery",
+        relation: {
+          en: "Rabbi Loew was buried here in 1609, and his tomb is still the most visited in the cemetery. Maisel lies here too.",
+          cz: "Rabi Löw tu byl pohřben roku 1609 a jeho hrob je dodnes nejnavštěvovanější na celém hřbitově. Leží tu i Maisel.",
+          zh: "罗乌拉比1609年葬在这里，他的墓至今仍是整座墓地里来人最多的一座。迈瑟尔也葬在这里。",
+        },
+      },
+      {
+        slug: "maiselova-synagoga",
+        relation: {
+          en: "The synagogue Maisel built out of his own pocket, opened in 1592, the year of the audience.",
+          cz: "Synagoga, kterou Maisel postavil z vlastní kapsy, otevřená roku 1592, v roce audience.",
+          zh: "迈瑟尔自掏腰包盖的会堂，1592年落成，正是召见的那一年。",
+        },
+      },
+      {
+        slug: "zidovska-radnice",
+        relation: {
+          en: "The Jewish Town Hall, first built with Maisel's money; its lower clock runs backwards, because Hebrew is read from right to left.",
+          cz: "Židovská radnice, poprvé postavená za Maiselovy peníze; její spodní hodiny jdou pozpátku, protože hebrejština se čte zprava doleva.",
+          zh: "犹太市政厅，最早就是迈瑟尔出钱盖的；钟楼上下层那只钟是倒着走的，因为希伯来文是从右往左读的。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Jehuda_L%C3%B6w_ben_Becalel",
+  },
+  // Background card after the-emperor-behind-the-curtain-1592 (2026-10-18,
+  // the user's request). The quote is Mishnah, Pirkei Avot 1:6 (Joshua ben
+  // Perachiah), "aseh lecha rav", in which "rav" is the same word as rabbi.
+  {
+    slug: "what-is-a-rabbi-1592",
+    era: "age-of-wonders",
+    cardType: "background",
+    images: [],
+    imageCaptions: [],
+    quotes: [
+      {
+        text: {
+          en: "Make for yourself a teacher, and acquire for yourself a friend.",
+          cz: "Opatři si učitele a získej si přítele.",
+          zh: "为自己找一位老师，为自己交一位朋友。",
+        },
+        attribution: {
+          en: "Mishnah, Ethics of the Fathers 1:6",
+          cz: "Mišna, Výroky otců 1,6",
+          zh: "《密西拿·先贤篇》1:6",
+        },
+      },
+    ],
+    startYear: 1592.5,
+    year: {
+      en: "Since antiquity",
+      cz: "Od starověku",
+      zh: "古代至今",
+    },
+    tone: "humorous",
+    title: {
+      en: "What Is a Rabbi?",
+      cz: "Kdo je rabín?",
+      zh: "拉比是什么人？",
+    },
+    hookLine: {
+      en: "A rabbi is not a priest. He baptizes no one and hears no confessions. He is a teacher, a judge, and the most learned reader in the whole community.",
+      cz: "Rabín není kněz. Nikoho nekřtí a nikoho nezpovídá. Je to učitel, soudce a nejsečtělejší člověk v celé obci.",
+      zh: "拉比不是神父，不管洗礼，也不听告解。他是老师，是法官，也是整个社区里书读得最多的人。",
+    },
+    summary: {
+      en: "The word “rabbi” comes from Hebrew and means “my teacher”.\n\nThe ancient Jewish sages put it like this:\n\n[[quote:0]]\n\nMany people imagine a rabbi as a kind of Jewish priest. He isn't. A Christian priest stands between the faithful and God: he celebrates the sacraments and absolves sins. A rabbi has no such powers and needs none. In Judaism people pray to God directly, and the person leading the prayers in the synagogue is often a cantor, not the rabbi.\n\nSo what does a rabbi do? In the end, he is the one who has read the most.\n\nAncient Judaism did once have priests, who offered sacrifices in the Temple in Jerusalem. In the year 70 the Romans burned the Temple down, and the priests had nothing left to do. From then on what held the Jews together was no longer a temple but books: the Torah, the five books of Moses, and the discussions and commentaries that generation after generation of scholars wrote about it, gathered into the great volumes of the Talmud.\n\n[[b]]The Temple was gone, but the books remained, and the men who kept them were the rabbis.[[/b]]\n\nIn 16th-century Prague a rabbi had plenty to do. He taught young men to read the Talmud. He sat as a judge in the rabbinical court, which dealt with everything from weddings and inheritances to business disputes. And his neighbours brought him every question they were unsure about: was this pot of meat still fit to eat, was that deal allowed by the law?\n\nRabbis did not have to stay single, either. They married, had children and lived ordinary family lives. When Rabbi Loew went up to see the emperor, the man at his side was his son-in-law.\n\nSo when the emperor wanted to learn from a Jew, the person he sent for was, naturally, a rabbi.",
+      cz: "Slovo „rabín“ pochází z hebrejštiny a znamená „můj učitel“.\n\nStaří židovští mudrci to řekli takhle:\n\n[[quote:0]]\n\nMnoho lidí si rabína představuje jako jakéhosi židovského kněze. Není jím. Křesťanský kněz stojí mezi věřícími a Bohem: slouží svátosti a rozhřešuje hříchy. Rabín takovou moc nemá a nepotřebuje ji. V judaismu se lidé modlí k Bohu přímo a modlitby v synagoze často vede kantor, ne rabín.\n\nCo tedy rabín dělá? Nakonec je to ten, kdo toho nejvíc přečetl.\n\nStarověký judaismus kdysi kněze měl; přinášeli oběti v jeruzalémském chrámu. Roku 70 Římané chrám vypálili a kněží neměli co dělat. Od té doby Židy nedržel pohromadě chrám, ale knihy: Tóra, pět knih Mojžíšových, a rozpravy a výklady, které o ní psala generace za generací učenců a které se shromáždily v mohutných svazcích Talmudu.\n\n[[b]]Chrám zmizel, ale knihy zůstaly, a ti, kdo je opatrovali, byli rabíni.[[/b]]\n\nV Praze 16. století měl rabín práce dost. Učil mladé muže číst Talmud. Zasedal jako soudce v rabínském soudu, který řešil všechno od svateb a dědictví po obchodní spory. A sousedé za ním chodili se vším, v čem si nebyli jistí: dá se tenhle hrnec masa ještě jíst, je tamten obchod podle zákona?\n\nRabíni navíc nemuseli žít v celibátu. Ženili se, měli děti a žili obyčejným rodinným životem. Když rabi Löw šel na hrad za císařem, po jeho boku kráčel jeho zeť.\n\nKdyž se tedy císař chtěl od Žida něčemu naučit, poslal si samozřejmě pro rabína.",
+      zh: "“拉比”这个词来自希伯来语，原意是“我的老师”。\n\n古代的犹太贤哲有一句话：\n\n[[quote:0]]\n\n很多人以为，拉比就是犹太人的神父。其实不是。基督教的神父站在信徒和上帝之间，主持圣礼，替人赦罪；拉比没有这样的权力，也用不着。犹太教里，人可以直接向上帝祈祷，会堂里领着大家念祷文的，也常常是专门的领诵人，不一定是拉比。\n\n那拉比是做什么的？说到底，他就是读书最多的那个人。\n\n古代的犹太教本来也有祭司，在耶路撒冷的圣殿里献祭。公元70年，罗马人一把火烧了圣殿，祭司就没了用武之地。从那以后，把犹太人维系在一起的，不再是圣殿，而是书：《托拉》，也就是《摩西五经》，还有后来一代又一代学者对它的讨论和注释，汇编成厚厚的《塔木德》。\n\n[[b]]圣殿没了，书还在；守着这些书的人，就是拉比。[[/b]]\n\n在16世纪的布拉格，拉比要做的事可不少：在学堂里教年轻人读《塔木德》；坐在拉比法庭上断案，从婚丧嫁娶到生意纠纷，什么都管；街坊邻居拿不准的事，比如这锅肉还能不能吃、那笔买卖合不合律法，也都来问他。\n\n拉比也不用守独身。他们娶妻生子，过的是普通人家的日子。罗乌拉比上城堡觐见皇帝的时候，跟在他身边的，就是他的女婿。\n\n所以，皇帝想向犹太人请教学问，请的自然就是拉比。",
+    },
+    relatedLandmarks: [],
+  },
+  // 2026-10-18, written at the user's request. Sources: en.wikipedia Tycho
+  // Brahe (duel with Manderup Parsberg, 29 Dec 1566; the elk per Gassendi;
+  // Benátky for about a year; died 24 Oct 1601, buried in Týn); prague.eu
+  // (Golden Griffin inn on Nový Svět; observing from the Belvedere); Charles
+  // University / Live Science on the 2010 exhumation (mercury far below a
+  // lethal dose; the nose was brass); natur.cuni.cz (the banquet was Petr
+  // Vok of Rožmberk's, 11 days of illness). Kepler arrived at Benátky on 3 or
+  // 4 February 1600 (the two location cards differ), hence "early February".
+  // "Ne frustra vixisse videar" is the line Kepler recorded from Tycho's last
+  // delirium. Rudolphine Tables: begun 1601, printed 1627.
+  {
+    slug: "a-nose-an-elk-and-an-ellipse-1601",
+    era: "age-of-wonders",
+    images: ["/history/a-nose-an-elk-and-an-ellipse-1601.webp"],
+    imageCaptions: [
+      {
+        en: "A night on the arcade of the summer palace in the Royal Garden: Tycho Brahe, his book of observations clamped under his arm, calls out a reading from his great brass quadrant, while Johannes Kepler looks up from his calculations, quill in hand.",
+        cz: "Noc na arkádě letohrádku v Královské zahradě: Tycho Brahe, s knihou pozorování sevřenou pod paží, hlásí údaj ze svého velkého mosazného kvadrantu a Johannes Kepler zvedá od výpočtů oči, s brkem v ruce.",
+        zh: "皇家花园夏宫的拱廊上，一个夜晚：第谷把观测记录本紧紧夹在胳膊底下，站在巨大的黄铜象限仪旁报出读数；开普勒从演算纸上抬起头，手里还握着羽毛笔。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "Ne frustra vixisse videar.\nLet me not seem to have lived in vain.",
+          cz: "Ne frustra vixisse videar.\nAť se nezdá, že jsem žil nadarmo.",
+          zh: "Ne frustra vixisse videar.\n但愿我没有白活一场。",
+        },
+        attribution: {
+          en: "Tycho Brahe in his last delirium, October 1601, as recorded by Johannes Kepler",
+          cz: "Tycho Brahe v posledním blouznění, říjen 1601, podle záznamu Johanna Keplera",
+          zh: "第谷·布拉赫临终昏迷中的话，1601年10月，据开普勒记载",
+        },
+      },
+    ],
+    startYear: 1601,
+    year: {
+      en: "1599–1601",
+      cz: "1599–1601",
+      zh: "1599–1601年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Guest from the North with a False Nose",
+      cz: "Host ze severu s falešným nosem",
+      zh: "戴假鼻子的北方贵客",
+    },
+    hookLine: {
+      en: "The most accurate stargazer in Europe came to Prague. His data had no equal; his nose was made of metal.",
+      cz: "Do Prahy přijel nejpřesnější pozorovatel hvězd v Evropě. Jeho data neměla obdoby, nos měl z kovu.",
+      zh: "全欧洲看星星最准的人来到了布拉格。他的数据举世无双，鼻子却是金属做的。",
+    },
+    summary: {
+      en: "Tycho Brahe was a great Danish nobleman and the most accurate observer of the stars in Europe. There were no telescopes yet. With nothing but his own eyes and the huge instruments he had built himself, he had recorded the positions of the planets for more than twenty years, more precisely than anyone before him.\n\nHis temper was famous too. At twenty, as a student in Germany, he quarrelled with a distant cousin, it is said over a point of mathematics, and the two of them settled it with swords. Tycho lost part of the bridge of his nose. For the rest of his life he wore a metal one.\n\nHe also kept a tame elk. One evening, the story goes, it drank too much beer at a dinner, fell down the stairs and died.\n\n[[b]]A nobleman with a metal nose and a drunken elk: exactly the kind of man Rudolf liked best.[[/b]]\n\nIn Denmark Tycho had built a splendid observatory on an island the king had given him. After the old king died, the new one had no time for him, so Tycho packed up his instruments and more than twenty years of observations and left. In 1599 he arrived in Bohemia. Rudolf made him imperial mathematician, promised him a generous salary and gave him the castle of Benátky, north-east of Prague, for his observatory.\n\nIn early February 1600 a thin, short-sighted and very poor German mathematician arrived at Benátky, hoping to become Tycho's assistant. His name was Johannes Kepler.\n\nThe two were made for each other, and they could not stand each other. Tycho had the best data in the world but could not make sense of it; Kepler could make sense of it but had no data. And Tycho guarded his observations like his life, handing Kepler only a little at a time. Kepler lost his temper and stormed off, then wrote to apologise.\n\n[[b]]One had the data, the other knew what to do with it; sadly, the one with the data would not let go.[[/b]]\n\nIn the autumn of 1600 Tycho moved into Prague itself. He lived in the lanes of Hradčany west of the castle and watched the sky from the summer palace in the Royal Garden.\n\nHe had only a year left. On 13 October 1601 Tycho went to dinner at the house of Petr Vok of Rožmberk. Kepler later wrote down what happened: at the table Tycho badly needed to relieve himself, but leaving in front of such distinguished company would have been bad manners, so he held on. When he got home, he could no longer pass water at all.\n\nEleven days of pain, sleeplessness and fever followed. On his last night, in delirium, he kept repeating one sentence in Latin:\n\n[[quote:0]]\n\nTycho died on 24 October 1601 and was buried in the Týn Church on the Old Town Square.\n\nFor centuries people suspected that he had been poisoned with mercury, and some even pointed at Kepler. In 2010 Czech and Danish scientists opened his tomb. The tests showed that the mercury in his body was nowhere near a deadly dose. They settled one more question while they were at it: the famous false nose was made neither of gold nor of silver, but of brass.\n\nWith Tycho gone, his precious observations finally passed to Kepler, along with the post of imperial mathematician. Kepler spent years on the data for Mars, and in the end he worked it out: the planets do not go round the sun in circles, but in ellipses.\n\n[[b]]Tycho had not lived in vain after all: the data he gathered let Kepler redraw the sky.[[/b]]\n\nKepler also promised the emperor a set of tables of the planets, more accurate than any before, to be called the Rudolphine Tables. They took another twenty-six years to finish. By the time they were printed, the castle had long since had a new master.",
+      cz: "Tycho Brahe byl dánský velmož a nejpřesnější pozorovatel hvězd v celé Evropě. Dalekohledy ještě neexistovaly. Jen vlastníma očima a obrovskými přístroji, které si sám postavil, zaznamenával přes dvacet let polohy planet, přesněji než kdokoli před ním.\n\nProslulá byla i jeho povaha. Ve dvaceti, jako student v Německu, se pohádal se vzdáleným bratrancem, prý kvůli nějaké matematické otázce, a spor vyřešili meči. Tycho přišel o kus nosního hřbetu. Do konce života pak nosil nos z kovu.\n\nChoval také ochočeného losa. Jednou večer, jak se vypráví, se los na hostině napil příliš mnoho piva, spadl ze schodů a zabil se.\n\n[[b]]Velmož s kovovým nosem a opilým losem: přesně takového člověka měl Rudolf nejradši.[[/b]]\n\nV Dánsku si Tycho postavil skvělou hvězdárnu na ostrově, který mu daroval král. Po smrti starého krále o něj nový neměl zájem, a tak si Tycho sbalil přístroje a přes dvacet let pozorování a odešel. Roku 1599 přijel do Čech. Rudolf ho jmenoval císařským matematikem, slíbil mu štědrý plat a dal mu pro hvězdárnu zámek Benátky severovýchodně od Prahy.\n\nZačátkem února 1600 dorazil do Benátek hubený, krátkozraký a velmi chudý německý matematik, který chtěl dělat Tychonovi pomocníka. Jmenoval se Johannes Kepler.\n\nTi dva byli jako stvoření jeden pro druhého, a přitom se nemohli vystát. Tycho měl nejlepší data na světě, ale neuměl z nich nic vyčíst; Kepler to vyčíst uměl, ale data neměl. A Tycho svá pozorování hlídal jako oko v hlavě a dával Keplerovi vždycky jen kousek. Kepler se rozzlobil a odjel, pak mu napsal omluvný dopis.\n\n[[b]]Jeden měl data, druhý věděl, co s nimi; škoda jen, že ten s daty je nechtěl pustit z ruky.[[/b]]\n\nNa podzim 1600 se Tycho přestěhoval přímo do Prahy. Bydlel v uličkách Hradčan západně od hradu a hvězdy pozoroval z letohrádku v Královské zahradě.\n\nZbýval mu jen rok. Dne 13. října 1601 šel Tycho na hostinu k Petru Vokovi z Rožmberka. Kepler později zapsal, co se stalo: u stolu Tycho naléhavě potřeboval odejít, ale vstát od stolu před tak vznešenou společností by bylo nezdvořilé, a tak vydržel. Když přišel domů, nemohl už vůbec močit.\n\nNásledovalo jedenáct dní bolestí, nespavosti a horečky. Poslední noc v blouznění pořád opakoval jednu latinskou větu:\n\n[[quote:0]]\n\nTycho zemřel 24. října 1601 a byl pohřben v Týnském chrámu na Staroměstském náměstí.\n\nCelá staletí se mělo za to, že ho otrávili rtutí, a někteří podezírali dokonce Keplera. Roku 2010 čeští a dánští vědci jeho hrob otevřeli. Rozbory ukázaly, že rtuti měl v těle zdaleka ne smrtelnou dávku. A mimochodem vyřešili ještě jednu otázku: slavný falešný nos nebyl zlatý ani stříbrný, ale mosazný.\n\nPo Tychonově smrti konečně připadla jeho vzácná pozorování Keplerovi, a s nimi i místo císařského matematika. Kepler nad daty o Marsu strávil roky a nakonec na to přišel: planety neobíhají kolem Slunce po kružnicích, ale po elipsách.\n\n[[b]]Tycho tedy nežil nadarmo: data, která nasbíral, umožnila Keplerovi nakreslit oblohu nanovo.[[/b]]\n\nKepler navíc slíbil císaři tabulky planet, přesnější než všechny dosavadní, které se měly jmenovat Rudolfinské tabulky. Dokončit je trvalo ještě dvacet šest let. Než vyšly tiskem, měl hrad už dávno nového pána.",
+      zh: "第谷·布拉赫是丹麦的大贵族，也是当时全欧洲看星星最准的人。那时候还没有望远镜，他全凭一双肉眼和自己造的大型仪器，把行星的位置记了二十多年，精确得前无古人。\n\n他的脾气也是出了名的。二十岁那年，他在德意志念书，跟一位远房表亲吵了起来，据说是为了一道数学题，两人干脆拔剑决斗。第谷的鼻梁被削掉了一截。从此，他脸上一直戴着一个金属做的假鼻子。\n\n他还养过一头驯服的麋鹿。据说有一回，麋鹿在宴会上喝多了啤酒，下楼梯时一脚踩空，就这么摔死了。\n\n[[b]]戴金属鼻子、养醉酒麋鹿的贵族，正是鲁道夫最喜欢的那种人。[[/b]]\n\n第谷原本在丹麦国王送他的一座小岛上，盖了一座气派的天文台。老国王死后，新国王跟他合不来，第谷就收拾起仪器和二十多年的观测记录，离开了丹麦。1599年，他来到波希米亚。鲁道夫封他做“帝国数学家”，答应给他一份丰厚的年俸，还把布拉格东北边的贝纳特基城堡拨给他建天文台。\n\n1600年2月初，一个瘦弱、近视、穷得叮当响的德意志数学家来到贝纳特基，想给第谷当助手。他叫约翰内斯·开普勒。\n\n这两个人，简直是天生一对，也是一对冤家。第谷手里有全世界最好的数据，却算不明白；开普勒算得明白，手里却没有数据。偏偏第谷把这些数据看得比命还紧，每次只肯给开普勒一点点。开普勒急了就跟他吵，摔门走人，过后又写信道歉。\n\n[[b]]一个有数据，一个会算；可惜有数据的那个，偏偏不肯撒手。[[/b]]\n\n1600年秋天，第谷搬进了布拉格城里，住在城堡西边赫拉德恰尼的小巷子里，晚上就在皇家花园的夏宫里观测星空。\n\n可他在布拉格只剩下一年了。1601年10月13日，第谷去罗森贝格家的彼得·沃克府上赴宴。开普勒后来记下了那天的事：宴席上，第谷早就憋不住想上厕所，可当着满座贵客离席，实在不合礼数，他就一直忍着。回到家，他再也尿不出来了。\n\n接下来是十一天的剧痛、失眠和高烧。临终前的那一夜，他在昏迷中一遍又一遍地念着一句拉丁语：\n\n[[quote:0]]\n\n1601年10月24日，第谷去世，葬在老城广场上的提恩教堂。\n\n几百年来，一直有人怀疑他是被人用汞毒死的，有人甚至怀疑到开普勒头上。2010年，捷克和丹麦的科学家打开了他的墓。化验结果显示，他体内的汞远远不到致命的程度。顺带还查清了另一件事：那个著名的假鼻子，既不是金的，也不是银的，是黄铜的。\n\n第谷一死，那些宝贝数据终于全归了开普勒，“帝国数学家”的位子也一并归了他。开普勒盯着火星的数据算了好几年，最后算出：行星绕着太阳走的，不是正圆，而是椭圆。\n\n[[b]]第谷到底没有白活：他攒下的数据，让开普勒重新画出了天空。[[/b]]\n\n开普勒还答应皇帝，要用这些数据编一部前所未有的精确星表，名字就叫《鲁道夫星表》。这部星表又编了整整二十六年。等它印出来的时候，城堡早就换了主人。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "tycho-brahe-kepler-monument",
+        relation: {
+          en: "The double statue of Tycho and Kepler on Pohořelec, close to where the two once shared a house.",
+          cz: "Dvojsocha Tychona a Keplera na Pohořelci, nedaleko místa, kde spolu kdysi bydleli.",
+          zh: "第谷和开普勒的双人雕像，立在城堡西边的波霍热莱茨，离两人当年合住的地方不远。",
+        },
+      },
+      {
+        slug: "tyn-church",
+        relation: {
+          en: "Tycho is buried here; his tombstone, by a pillar of the nave, shows him in armour.",
+          cz: "Tady je Tycho pohřben; jeho náhrobek u pilíře hlavní lodi ho zobrazuje v brnění.",
+          zh: "第谷就葬在这里；他的墓碑在中殿的一根柱子旁，上面刻着他身穿盔甲的样子。",
+        },
+      },
+      {
+        slug: "novy-svet",
+        relation: {
+          en: "The little lane in Hradčany where Tycho lodged at the Golden Griffin after moving to Prague.",
+          cz: "Uličky na Hradčanech, kde Tycho po příchodu do Prahy bydlel v domě U Zlatého gryfa.",
+          zh: "赫拉德恰尼的小街；第谷搬进布拉格后，在这里的“金狮鹫”住过一阵。",
+        },
+      },
+      {
+        slug: "queen-annes-summer-palace-1782584407663",
+        relation: {
+          en: "The summer palace in the Royal Garden, from which Tycho observed the sky in his last year.",
+          cz: "Letohrádek v Královské zahradě, odkud Tycho v posledním roce života pozoroval oblohu.",
+          zh: "皇家花园里的夏宫；第谷生命的最后一年，就在这里观测星空。",
+        },
+      },
+      {
+        slug: "zamek-benatky-nad-jizerou",
+        relation: {
+          en: "The castle Rudolf gave Tycho for his observatory, where Kepler joined him in February 1600.",
+          cz: "Zámek, který Rudolf daroval Tychonovi pro hvězdárnu a kam za ním v únoru 1600 přijel Kepler.",
+          zh: "鲁道夫拨给第谷建天文台的城堡；1600年2月，开普勒就是在这里第一次见到了他。",
+        },
+      },
+      {
+        slug: "dum-u-francouzske-koruny",
+        relation: {
+          en: "Kepler's house on Karlova Street from 1607 to 1612, where he prepared the book on elliptical orbits.",
+          cz: "Keplerův dům v Karlově ulici v letech 1607–1612, kde připravil knihu o eliptických drahách.",
+          zh: "开普勒1607到1612年住在卡尔路的家；那本讲椭圆轨道的书，就是在这里准备出版的。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Tycho_Brahe",
+  },
+  // Draft by the user (2026-10-18), polished. Sources: Austria-Forum
+  // "Raaberkreuz" (Raab/Győr retaken 29 March 1598 under Adolf of
+  // Schwarzenberg and Miklós Pálffy; Rudolf's decree prescribed the
+  // inscription "Sag Gott dem Herrn Lob und Danck, dass Raab wieder kommen in
+  // der Christen Handt"); en.wikipedia Peace of Zsitvatorok (11 Nov 1606,
+  // signed for the Habsburgs by Matthias; the annual tribute of 30,000
+  // florins replaced by a one-off "gift" of 200,000; the sultan addressed the
+  // emperor as padishah, his equal, instead of "King of Vienna"; Ottomans kept
+  // Kanizsa and Eger) and Treaty of Vienna (23 June 1606, with Bocskai);
+  // en.wikipedia Maximilian Ernest (the archdukes' secret document of 25 April
+  // 1606 in Vienna declaring Rudolf unfit). The secret meeting came before
+  // the treaty, so the ending says "back in the spring of that year".
+  {
+    slug: "the-sultan-says-emperor-1606",
+    era: "age-of-wonders",
+    images: ["/history/the-sultan-says-emperor-1606.webp"],
+    imageCaptions: [
+      {
+        en: "Zsitvatorok, November 1606: in a peace tent on the riverbank an imperial envoy leans over to check the word the sultan's scribe is writing, servants carry in a chest of gold as the sultan's “gift”, and outside the exhausted soldiers of both armies sit in the mud.",
+        cz: "Žitvatorok, listopad 1606: v mírovém stanu na břehu řeky se císařský vyslanec naklání, aby zkontroloval slovo, které píše sultánův písař, sluhové nesou truhlu zlata jako „dar“ pro sultána a venku sedí v blátě vyčerpaní vojáci obou armád.",
+        zh: "1606年11月，日特瓦托罗克：河边的议和帐篷里，帝国使节探过身去，盯着苏丹的书记官写下的那个词；仆人抬进一箱金币，那是送给苏丹的“礼金”；帐篷外，两边的士兵都累得瘫坐在泥地里。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "Give praise and thanks to the Lord God that Raab has come back into Christian hands.",
+          cz: "Vzdejte Pánu Bohu chválu a díky, že se Ráb vrátil do křesťanských rukou.",
+          zh: "感谢赞美上主：拉布又回到了基督徒的手中。",
+        },
+        attribution: {
+          en: "Inscription Rudolf II prescribed for the Raab crosses, 1598",
+          cz: "Nápis, který Rudolf II. předepsal pro rábské kříže, 1598",
+          zh: "鲁道夫二世为“拉布十字架”规定的铭文，1598年",
+        },
+      },
+    ],
+    startYear: 1606,
+    year: {
+      en: "1593–1606",
+      cz: "1593–1606",
+      zh: "1593–1606年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Sultan Says “Emperor”",
+      cz: "Sultán řekl „císaři“",
+      zh: "苏丹改口叫“皇帝”",
+    },
+    hookLine: {
+      en: "The emperor watched the stars in his castle while the empire fought in Hungary. The war lasted thirteen years, and in the end it bought one thing: the sultan agreed to call him emperor.",
+      cz: "Císař na hradě pozoroval hvězdy a říše mezitím válčila v Uhrách. Válka trvala třináct let a nakonec přinesla jedinou věc: sultán ho začal oslovovat císaři.",
+      zh: "皇帝在城堡里看星星，帝国在匈牙利打仗。这一仗打了十三年，最后换来的，是苏丹改口叫了他一声“皇帝”。",
+    },
+    summary: {
+      en: "One of the emperor's reasons for [[link:the-emperor-moves-house-1583]]moving to Prague[[/link]] had been that Vienna was too close to the Turks.\n\nBut he could avoid Vienna; he could not avoid Hungary. While Rudolf was happily discussing the heavens with his astronomers and his alchemists, the Ottomans and the Habsburgs went to war again on the Hungarian border. The war went on for thirteen years, and history calls it the Long Turkish War.\n\nIt was a busy war, and a frustrating one. One year you took a fortress, the next year they took back a town; one summer the emperor's army won a great victory, the next the sultan's army won it all back. The border line on the map shifted back and forth for thirteen years and ended up more or less where it had started. As for the emperor himself, he had no intention of going to the front to take a look. He still found the stars and his lion more interesting.\n\n[[b]]In those thirteen years, the thing that took the worst beating was not the army but the emperor's purse.[[/b]]\n\nWars cost money. Where was it to come from?\n\nEvery year the Bohemian diet met, and every year it was asked to pay. The lords paid, and grumbled while they paid. When the emperor was short, he borrowed from [[link:the-emperor-behind-the-curtain-1592]]Maisel[[/link]] in the Jewish Town; when Maisel's money was used up, he borrowed from somebody else. Across the empire, church bells rang every noon as the “Turkish bell”, to remind people to pray for the front, and, while they were at it, not to forget their taxes.\n\nWhen news from the front reached Prague, the emperor's mood rose and fell with it. On 29 March 1598 the imperial army retook the Hungarian fortress of Raab, today's Győr. The emperor was overjoyed and ordered memorial crosses to be put up all over his lands, each bearing the same words:\n\n[[quote:0]]\n\nBut a few years later the bad news began to arrive again, one item after another.\n\nThe emperor had never liked seeing people, and now he shut himself away completely. Around 1600 he seemed to fall apart altogether: suspicious, short-tempered, forever dismissing the men around him, convinced that someone had put a spell on him. Foreign ambassadors waited in Prague for months without catching a glimpse of him.\n\n[[b]]At the front they were fighting the Turks; at home the emperor was fighting himself.[[/b]]\n\nThe bigger trouble, though, was inside the family.\n\nIn 1604 the Protestant nobles of Hungary had had enough of the court's pressure on them. They rose in revolt and even flirted with the Turks. Fighting the sultan on one side and his own subjects on the other, the emperor could no longer carry on the war.\n\nHe would neither make peace nor deal with the problem. His younger brother Matthias lost patience and stepped in himself: first he made peace with the Hungarians, then with the Turks.\n\nIn 1606 the two sides finally signed a treaty at Zsitvatorok, a small place in Hungary. After thirteen years of fighting, neither had gained much. The emperor's side paid the sultan a single lump-sum “gift” and no longer had to send him tribute every year. The sultan, for his part, agreed that from now on his letters would address the Habsburg ruler as an emperor, his equal. Until then, the sultan's court had called him merely the King of Vienna, though he did not even live in Vienna.\n\n[[b]]Thirteen years and who knows how much money, and what they got for it was a new way of being addressed.[[/b]]\n\nThe treaty was signed, but the emperor was not pleased in the least, because it was not his doing.\n\nIn fact, back in the spring of that year, several Habsburg archdukes had quietly met in Vienna. The meeting had a single item on the agenda: their elder brother was seriously ill. Was it time for somebody else to run the family?",
+      cz: "Jedním z důvodů, proč se císař [[link:the-emperor-moves-house-1583]]přestěhoval do Prahy[[/link]], bylo, že Vídeň ležela moc blízko Turkům.\n\nVídni se vyhnout mohl, Uhrám ne. Zatímco Rudolf v Praze zaujatě rozmlouval o nebesích se svými astronomy a alchymisty, Osmané a Habsburkové se na uherské hranici znovu pustili do války. Trvala třináct let a dějiny jí říkají dlouhá turecká válka.\n\nByla to rušná válka, a dost marná. Jeden rok jste dobyli pevnost, druhý rok oni vzali zpátky město; jedno léto císařské vojsko slavně zvítězilo, příští léto sultánova armáda všechno vyhrála zpět. Hranice na mapě se třináct let posouvala sem a tam a nakonec skončila víceméně tam, kde začala. A sám císař? Na frontu se podívat nehodlal. Hvězdy a jeho lev ho zajímaly pořád víc.\n\n[[b]]Za těch třináct let nedostalo nejvíc zabrat vojsko, ale císařův měšec.[[/b]]\n\nVálka stojí peníze. Kde je vzít?\n\nČeský sněm zasedal každý rok a každý rok měl platit. Páni platili a u toho bručeli. Když měl císař hluboko do kapsy, půjčil si od [[link:the-emperor-behind-the-curtain-1592]]Maisela[[/link]] v Židovském Městě; když Maiselovy peníze došly, půjčil si od někoho jiného. Po celé říši se každé poledne rozezněly zvony jako „turecký zvon“, aby lidem připomněly modlit se za frontu, a mimochodem i nezapomenout na daně.\n\nKdyž do Prahy dorazily zprávy z fronty, císařova nálada stoupala a klesala s nimi. Dne 29. března 1598 dobylo císařské vojsko zpět uherskou pevnost Ráb, dnešní Győr. Císař měl ohromnou radost a nařídil po svých zemích postavit pamětní kříže, všechny se stejnými slovy:\n\n[[quote:0]]\n\nJenže o pár let později začaly zase chodit špatné zprávy, jedna za druhou.\n\nCísař nikdy nerad přijímal lidi, a teď se zavřel úplně. Kolem roku 1600 se jako by celý zhroutil: podezíravý, prchlivý, pořád propouštěl lidi kolem sebe a byl přesvědčený, že ho někdo očaroval. Cizí vyslanci čekali v Praze celé měsíce, a císaře ani nezahlédli.\n\n[[b]]Na frontě se bojovalo s Turky; doma bojoval císař sám se sebou.[[/b]]\n\nJeště větší potíže však byly v rodině.\n\nRoku 1604 měli uherští protestantští šlechtici dost tlaku ze strany dvora. Povstali a dokonce koketovali s Turky. Se sultánem na jedné straně a vlastními poddanými na druhé už císař válku vést nemohl.\n\nMír uzavřít nechtěl a problém řešit taky ne. Jeho mladší bratr Matyáš ztratil trpělivost a ujal se toho sám: nejdřív uzavřel mír s Uhry, potom s Turky.\n\nRoku 1606 obě strany konečně podepsaly mír v Žitvatoroku, malém místě v Uhrách. Po třinácti letech bojů ani jedna strana moc nezískala. Císařova strana zaplatila sultánovi jednorázový „dar“ a už mu nemusela každý rok odvádět tribut. Sultán zase přislíbil, že ho napříště bude ve svých listech titulovat jako císaře, sobě rovného. Do té doby mu sultánův dvůr říkal jen vídeňský král, ačkoli ve Vídni vůbec nebydlel.\n\n[[b]]Třináct let a kdovíkolik peněz, a výsledkem bylo nové oslovení.[[/b]]\n\nMír byl podepsán, jenže císař z něj neměl ani trochu radost, protože to nebyla jeho zásluha.\n\nNa jaře toho roku se totiž ve Vídni potichu sešlo několik habsburských arcivévodů. Schůzka měla jediný bod programu: starší bratr je vážně nemocný. Není načase, aby rodinu vedl někdo jiný?",
+      zh: "皇帝[[link:the-emperor-moves-house-1583]]搬进布拉格[[/link]]，有一条理由是维也纳离土耳其人太近了。\n\n可躲得了维也纳，躲不了匈牙利。正当鲁道夫在布拉格跟天文学家、炼金术士们聊得兴致勃勃的时候，奥斯曼帝国和哈布斯堡家又在匈牙利边境打了起来。这一打就是十三年，史书上管它叫“长土耳其战争”。\n\n这场仗打得很热闹，也很憋屈。今天你攻下一座要塞，明天我夺回一座城；今年皇帝的军队大胜一场，明年苏丹的大军又赢回一阵。地图上的边境线挪来挪去，挪了十三年，最后差不多还在老地方。至于皇帝本人，他压根没打算去前线看一眼；比起战场，他还是觉得星星和狮子更有意思。\n\n[[b]]十三年里，打得最凶的不是军队，是皇帝的钱袋子。[[/b]]\n\n打仗要钱，钱从哪里来？\n\n波希米亚的议会年年开会，年年被要求掏钱。贵族们一边掏，一边嘟囔。皇帝手头紧了，就找犹太城的[[link:the-emperor-behind-the-curtain-1592]]迈瑟尔[[/link]]借；迈瑟尔借完了，再找别人借。帝国各地的教堂，每天中午都要敲一阵“土耳其钟”，提醒老百姓为前线祈祷，顺便也提醒他们：别忘了交税。\n\n前线的消息传到布拉格，皇帝的心情就跟着忽上忽下。1598年3月29日，帝国军队夺回了匈牙利的要塞拉布，也就是今天的杰尔。皇帝高兴坏了，下令在各地立起纪念十字架，上面统一刻着一句话：\n\n[[quote:0]]\n\n可没过几年，坏消息又一个接一个地来了。\n\n皇帝本来就不爱见人，这下更是把自己关得严严实实。1600年前后，他好像整个人都垮了：疑神疑鬼，脾气暴躁，动不动就把身边的大臣赶走，还怀疑有人对他下了巫术。各国大使在布拉格一等就是好几个月，连皇帝的面都见不着。\n\n[[b]]前线在跟土耳其人打仗，后方的皇帝在跟自己打仗。[[/b]]\n\n更大的麻烦，出在自己家里。\n\n1604年，匈牙利的新教贵族受够了宫廷对他们的打压，干脆起兵造反，还跟土耳其人眉来眼去。前面跟苏丹打，后面跟自己人打，这仗彻底打不下去了。\n\n皇帝不肯谈和，也不肯管事。他的弟弟马蒂亚斯看不下去了，自己出面，先跟匈牙利人讲和，再跟土耳其人讲和。\n\n1606年，双方终于在匈牙利一个叫日特瓦托罗克的小地方签了和约。十三年打下来，谁也没占到多大便宜。皇帝这边一次性给苏丹送了一笔“礼金”，从此不用再年年进贡；苏丹那边，答应以后在国书里把哈布斯堡的君主称作“皇帝”，跟自己平起平坐。在这之前，苏丹的宫廷只管他叫“维也纳国王”，虽然他压根就不住在维也纳。\n\n[[b]]打了十三年，花了不知多少钱，换来了苏丹的一个称呼。[[/b]]\n\n和约是签了，可皇帝本人一点都不高兴，因为这事不是他办的。\n\n其实早在这一年春天，哈布斯堡家的几位大公就悄悄聚到维也纳，开了个小会。会议只有一个议题：哥哥病得不轻，这个家，是不是该换个人来当了？",
+    },
+    relatedLandmarks: [
+      {
+        slug: "trebon",
+        relation: {
+          en: "The fountain in the chateau courtyard bears the Schwarzenberg arms: a raven pecking out a Turk's eye, granted to Adolf of Schwarzenberg for retaking Raab in 1598.",
+          cz: "Kašna na zámeckém nádvoří nese schwarzenberský erb: havrana, který kluje oko Turkovi, udělený Adolfu ze Schwarzenberga za dobytí Rábu roku 1598.",
+          zh: "城堡庭院里的喷泉上，刻着施瓦岑贝格家的纹章：一只渡鸦在啄土耳其人的眼睛。这枚纹章，正是为表彰阿道夫·冯·施瓦岑贝格1598年夺回拉布而授予的。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Dlouh%C3%A1_tureck%C3%A1_v%C3%A1lka",
+  },
+  // 2026-10-18, written at the user's request ("注意承上启下"). Sources:
+  // prague.eu and Praha 8 on the Peace of Libeň (25 June 1608; Matthias's army
+  // camped at Štěrboholy and Malešice, east of Prague; Rudolf kept Bohemia,
+  // Silesia and Lusatia and promised Matthias the Bohemian succession);
+  // cs.wikipedia Karel starší ze Žerotína (son of Jan starší ze Žerotína, who
+  // gave the Brethren's press its Kralice refuge in 1578; Karel helped build
+  // the Austro-Hungarian-Moravian confederation behind Matthias and was a key
+  // figure at Libeň). The Bohemian Protestant estates' price for backing
+  // Rudolf (religious freedom, deferred to the next diet) is kept general,
+  // without dates or names. Sets up the 1609 Letter of Majesty.
+  {
+    slug: "the-brothers-split-the-house-1608",
+    era: "age-of-wonders",
+    images: ["/history/the-brothers-split-the-house-1608.webp"],
+    imageCaptions: [
+      {
+        en: "Prague Castle, summer 1608: Matthias's men carry the Holy Crown of Hungary and chests of treasure out to a waiting wagon while Matthias checks them off on his list, and Rudolf watches sulkily from a window, clutching a gilded clock to his chest.",
+        cz: "Pražský hrad, léto 1608: Matyášovi muži vynášejí ke čekajícímu vozu uherskou korunu a truhly s poklady, Matyáš je odškrtává na seznamu a Rudolf to mrzutě sleduje z okna a tiskne k hrudi pozlacené hodiny.",
+        zh: "1608年夏天，布拉格城堡：马蒂亚斯的人把匈牙利王冠和一箱箱宝贝抬上等在院子里的马车，马蒂亚斯骑在马上照着清单一一核对；鲁道夫在楼上窗口闷闷不乐地看着，怀里还紧紧抱着一只镀金的钟。",
+      },
+    ],
+    startYear: 1608,
+    year: {
+      en: "1608",
+      cz: "1608",
+      zh: "1608年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Brothers Split the House",
+      cz: "Bratři se dělí",
+      zh: "兄弟分家",
+    },
+    hookLine: {
+      en: "The family had decided the emperor was too ill to rule. The emperor disagreed, so his brother came to Prague with an army.",
+      cz: "Rodina usoudila, že císař je příliš nemocný, aby vládl. Císař s tím nesouhlasil, a tak bratr přitáhl k Praze s vojskem.",
+      zh: "家里人认定皇帝病得没法治国了。皇帝不认，弟弟就带着军队来到了布拉格城外。",
+    },
+    summary: {
+      en: "The archdukes' [[link:the-sultan-says-emperor-1606]]quiet meeting[[/link]] in Vienna in the spring of 1606 ended with a secret document: the emperor was ill and unfit to rule, and from now on his younger brother Matthias would speak for the family.\n\nRudolf, of course, would have none of it. He refused to recognise the document, he refused to recognise the peace his brother had made, and he even talked of going back to war with the Turks.\n\nThat alarmed the Hungarians: the guns had only just fallen silent, and now the emperor wanted to start again? The lords of Austria and Moravia had also had enough of a ruler who shut himself in his castle and saw nobody. Early in 1608 they formed an alliance with Matthias. The Moravians were led by Karel the Elder of Žerotín, son of the lord who had once taken the [[link:czech-in-print-1579]]Brethren's press[[/link]] under his protection.\n\n[[b]]The emperor had locked his door against everyone, so they came and knocked on it.[[/b]]\n\nIn the spring of 1608 Matthias marched into Bohemia with an army and pitched camp just east of Prague.\n\nThe emperor had no troops of his own. He had only one card left to play: the Bohemian estates. As long as they stood by him, his brother could not get into Prague.\n\nThe estates agreed, but at a price. The Protestant lords seized the moment: the religious freedom his father had [[link:a-promise-by-word-of-mouth-1575]]promised by word of mouth[[/link]] more than thirty years before, they said, should finally be put on paper. The emperor had no choice. He promised to settle the matter properly at the next diet.\n\n[[b]]The price of keeping his crown was an IOU.[[/b]]\n\nWith the Bohemians behind the emperor, Matthias could not take Prague; but the emperor could not drive his brother away either. In the end the terms were agreed at a small castle in Libeň, just outside the city.\n\nThe Peace of Libeň was signed on 25 June 1608. Rudolf handed Hungary, Austria and Moravia over to his brother and promised that Matthias would one day succeed him on the Bohemian throne as well. He himself kept only Bohemia, Silesia and Lusatia.\n\nThe Holy Crown of Hungary, which had been kept at Prague Castle for years, was packed up too and left with Matthias.\n\n[[b]]The emperor who loved collecting things had, for the first time, things carried out of his house instead of in.[[/b]]\n\nStill, he had Prague left. He had his castle, his lion and his cabinets of curiosities.\n\nAs for the IOU the Bohemians were holding, they came to collect the very next year.",
+      cz: "[[link:the-sultan-says-emperor-1606]]Tichá schůzka[[/link]] arcivévodů ve Vídni na jaře 1606 skončila tajnou listinou: císař je nemocný a vládnout nemůže, a napříště bude za rodinu mluvit jeho mladší bratr Matyáš.\n\nRudolf o tom samozřejmě nechtěl ani slyšet. Listinu neuznal, mír, který bratr uzavřel, také ne, a dokonce mluvil o tom, že bude s Turky válčit dál.\n\nTo vyděsilo Uhry: zbraně sotva utichly, a císař chce začít znovu? I rakouští a moravští páni měli dost panovníka, který se zavřel na hradě a nikoho nepřijímal. Začátkem roku 1608 uzavřeli s Matyášem spojenectví. Moravany vedl Karel starší ze Žerotína, syn pána, který kdysi vzal pod ochranu [[link:czech-in-print-1579]]bratrskou tiskárnu[[/link]].\n\n[[b]]Císař se zamkl před celým světem, a tak mu svět přišel zabušit na dveře.[[/b]]\n\nNa jaře 1608 vtáhl Matyáš s vojskem do Čech a utábořil se kousek na východ od Prahy.\n\nCísař vlastní vojsko neměl. Zbývala mu jediná karta: čeští stavové. Dokud stáli při něm, bratr se do Prahy nedostal.\n\nStavové souhlasili, ale ne zadarmo. Protestantští páni se chopili příležitosti: náboženská svoboda, kterou jeho otec před víc než třiceti lety [[link:a-promise-by-word-of-mouth-1575]]slíbil jen ústně[[/link]], musí být konečně na papíře. Císař neměl na vybranou. Slíbil, že se to pořádně projedná na příštím sněmu.\n\n[[b]]Cenou za udrženou korunu byl dlužní úpis.[[/b]]\n\nS Čechy za zády nemohl Matyáš Prahu dobýt; jenže ani císař nemohl bratra vyhnat. Nakonec se podmínky dojednaly na malém zámku v Libni, kousek za městem.\n\nLibeňský mír byl podepsán 25. června 1608. Rudolf předal bratrovi Uhry, Rakousy a Moravu a slíbil, že Matyáš po něm jednou zdědí i český trůn. Sám si ponechal jen Čechy, Slezsko a Lužici.\n\nSvatoštěpánská koruna, která se léta uchovávala na Pražském hradě, se také zabalila a odjela s Matyášem.\n\n[[b]]Císař, který tak rád sbíral, poprvé zažil, že se mu věci z domu vynášejí, a ne přinášejí.[[/b]]\n\nPraha mu ale zůstala. Měl svůj hrad, svého lva a své kunstkomory.\n\nA dlužní úpis, který drželi Češi? Ten si přišli vybrat hned příští rok.",
+      zh: "1606年春天，几位大公在维也纳[[link:the-sultan-says-emperor-1606]]悄悄开的那个会[[/link]]，最后签下了一份秘密文件：皇帝病了，没法治国，从今往后，家里的事由弟弟马蒂亚斯做主。\n\n鲁道夫当然不认。他不认那份文件，也不认弟弟谈下来的和约，甚至还嚷嚷着要跟土耳其人接着打。\n\n这下匈牙利人急了：好不容易停了火，皇帝又要开战？奥地利和摩拉维亚的贵族们，也早就受够了这位关在城堡里谁也不见的君主。1608年初，他们跟马蒂亚斯结成了同盟。摩拉维亚贵族的带头人，是老卡雷尔·日罗廷，他的父亲，就是当年把[[link:czech-in-print-1579]]弟兄会的印刷所[[/link]]护下来的那位扬老爷。\n\n[[b]]皇帝关起门来谁也不见，人家就打上门来了。[[/b]]\n\n1608年春天，马蒂亚斯带着军队开进了波希米亚，在布拉格东边扎下了营。\n\n皇帝手里没兵，只剩最后一张牌：波希米亚的等级们。只要他们站在皇帝这边，弟弟就进不了布拉格。\n\n等级们答应了，不过有条件。新教贵族们趁机提出：三十多年前，他父亲[[link:a-promise-by-word-of-mouth-1575]]口头答应过[[/link]]的宗教自由，该落到纸上了。皇帝没办法，只好答应：等下一次议会，再好好商量。\n\n[[b]]保住王冠的代价，是一张欠条。[[/b]]\n\n有波希米亚人撑腰，马蒂亚斯拿不下布拉格；可皇帝也赶不走弟弟。最后，条件是在布拉格城外利本的一座小城堡里谈妥的。\n\n1608年6月25日，《利本和约》签订。鲁道夫把匈牙利、奥地利和摩拉维亚都交给了弟弟，还答应让他将来继承波希米亚的王位。他自己手里，只剩下波希米亚、西里西亚和卢萨蒂亚。\n\n这些年一直收在布拉格城堡里的匈牙利圣冠，也被装上马车，跟着马蒂亚斯走了。\n\n[[b]]一个最爱往家里搬东西的皇帝，头一回眼看着东西被人从家里往外搬。[[/b]]\n\n不过，布拉格还在他手里。他还有他的城堡、他的狮子，还有他的珍奇屋。\n\n至于波希米亚人手里那张欠条，他们第二年就来要账了。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "libensky-zamek-radnice",
+        relation: {
+          en: "The little castle in Libeň, then just outside Prague, where the brothers' peace was concluded on 25 June 1608. Today it is the town hall of Prague 8.",
+          cz: "Zámeček v Libni, tehdy kousek za Prahou, kde byl 25. června 1608 uzavřen mír mezi bratry. Dnes je to radnice Prahy 8.",
+          zh: "利本的这座小城堡，当年还在布拉格城外；1608年6月25日，兄弟俩的和约就是在这里签订的。如今，它是布拉格第8区的区政府。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Libe%C5%88sk%C3%BD_m%C3%ADr",
+  },
+  // 2026-10-18, title by the user. Sources: cs.wikipedia Rudolfův majestát
+  // (9 July 1609 at Prague Castle; confirms the Bohemian Confession promised
+  // only orally in 1575; no one may be forced in faith, for lords, royal towns
+  // and subjects; churches and schools; the consistory and the university to
+  // the estates, with defensors; entered in the Land Tables; original in the
+  // National Archives, Archiv České koruny no. 2293); staletapraha.cz (the
+  // Brethren took over the Bethlehem Chapel a few years after 1609);
+  // location cards for the Holy Saviour (1611–14) and Holy Trinity, now Our
+  // Lady Victorious (1611–13). The quote is the passage the user saved on
+  // 2026-10-18 from cs.wikisource, removed from the 1575 card to avoid a
+  // spoiler. Slavata and Martinic refusing to sign is the standard account;
+  // the hook stays vague about 1618 on purpose.
+  {
+    slug: "in-black-and-white-1609",
+    era: "age-of-wonders",
+    images: ["/history/in-black-and-white-1609.webp"],
+    imageCaptions: [
+      {
+        en: "Prague Castle, 9 July 1609: Rudolf reluctantly takes up the quill while the Protestant lords crowd round him with the charter, the ink and the sealing wax, their armed men wait in the courtyard, and two Catholic councillors stand aside with folded arms.",
+        cz: "Pražský hrad, 9. července 1609: Rudolf neochotně bere do ruky brk, protestantští páni se kolem něj tlačí s listinou, inkoustem a pečetním voskem, jejich ozbrojenci čekají na nádvoří a dva katoličtí radové stojí stranou se založenýma rukama.",
+        zh: "1609年7月9日，布拉格城堡：鲁道夫不情不愿地提起羽毛笔，新教贵族们围在他身边，有的按着诏书，有的递墨水，有的备好了封蜡；他们带来的兵就等在院子里，两位天主教大臣抱着胳膊站在一旁。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "…(which, as We have received sure report and have also understood from letters written in the very own hand of His Imperial Majesty, Our dearest lord father, and as some worthy records have also been found in the Land Tables, was approved by His Majesty right there and then)…",
+          cz: "…(kteráž tak, jakž jsme toho jistou zprávu vzíti i také z psaní, vlastní rukou Jeho císařské milosti pana otce našeho nejmilejšího psaných, vyrozuměti ráčili, ano i některé hodné paměti při dckách zemských toho se vynašly, i hned tehdáž od Jeho milosti povolena byla)…",
+          zh: "……（这份信纲）我们已得到确切的消息，也从我们最亲爱的父亲皇帝陛下亲笔写的信里得知，土地册里也找到了一些可信的记录：它当时就已经得到了陛下的准许……",
+        },
+        attribution: {
+          en: "Rudolf II, Letter of Majesty on religious freedom, 1609",
+          cz: "Rudolf II., Majestát na náboženské svobody, 1609",
+          zh: "鲁道夫二世《宗教自由诏书》，1609年",
+        },
+      },
+    ],
+    startYear: 1609,
+    year: {
+      en: "1609",
+      cz: "1609",
+      zh: "1609年",
+    },
+    tone: "humorous",
+    title: {
+      en: "From Word of Mouth to Black and White",
+      cz: "Od slibu ústy k černému na bílém",
+      zh: "从口头答应变成白纸黑字",
+    },
+    hookLine: {
+      en: "For thirty-four years the Bohemians' religious freedom existed only as something a king had said. In 1609 they made his son write it down.",
+      cz: "Třicet čtyři let existovala náboženská svoboda Čechů jen jako něco, co král řekl. Roku 1609 přiměli jeho syna, aby to napsal.",
+      zh: "三十四年来，波希米亚人的宗教自由，只是一位国王嘴上说过的一句话。1609年，他们逼着他的儿子把它写了下来。",
+    },
+    summary: {
+      en: "In 1608 the emperor had handed the Bohemians an [[link:the-brothers-split-the-house-1608]]IOU[[/link]]. In 1609 they came to collect.\n\nAs soon as the diet opened, the Protestant lords put their demand on the table: take the sentence [[link:a-promise-by-word-of-mouth-1575]]promised by word of mouth[[/link]] thirty-four years earlier, write it down, sign it and seal it.\n\nThe emperor tried to stall again. His brother's troops had gone home, so the IOU no longer seemed quite so urgent.\n\nThis time, though, the estates would not wait. They met on their own, chose their own leaders and began raising troops, making it plain that there would be no peace until he signed. Up in the castle, the emperor still had no army of his own.\n\n[[b]]This time it was the subjects waiting for the emperor's answer, and they were waiting with soldiers.[[/b]]\n\nOn 9 July 1609, at Prague Castle, Rudolf signed a charter that came to be known as the Letter of Majesty.\n\nWhat did it say? Nobody could be forced into the Catholic faith or any other. Lords, royal towns and even ordinary peasants were free to worship as they chose. Protestants could build their own churches and open their own schools, and the university of Prague and the running of their church were handed to them. The charter was even entered into the Land Tables, which made it the law of the kingdom.\n\nThe most curious part is one sentence in it. To show that the Bohemian Confession had counted all along, Rudolf took care to mention:\n\n[[quote:0]]\n\nSo the father who would only promise by word of mouth had, it turns out, put something in writing after all, in his own hand.\n\n[[b]]After thirty-four years of waiting, a promise by word of mouth had become black and white.[[/b]]\n\nPrague's Protestants set to work at once. The German Lutherans of the Old Town began building the Church of the Holy Saviour, and those of the Lesser Town the Church of the Holy Trinity. A few years later the Unity of the Brethren took over the Bethlehem Chapel, where Jan Hus had once preached.\n\nNot everyone at the castle was pleased, though. Several Catholic councillors refused to put their names to it. Two of them were called Slavata and Martinic.\n\nThose two names are worth remembering. Nine years later, they will turn up again.",
+      cz: "Roku 1608 dal císař Čechům [[link:the-brothers-split-the-house-1608]]dlužní úpis[[/link]]. Roku 1609 si ho přišli vybrat.\n\nHned jak se sešel sněm, položili protestantští páni na stůl svůj požadavek: větu, která byla před třiceti čtyřmi lety [[link:a-promise-by-word-of-mouth-1575]]slíbena jen ústně[[/link]], napsat, podepsat a zpečetit.\n\nCísař to zase chtěl odložit. Bratrovo vojsko odtáhlo domů, takže dlužní úpis už se nezdál tak naléhavý.\n\nTentokrát ale stavové čekat nechtěli. Sešli se sami, zvolili si vlastní vůdce a začali verbovat vojáky, aby bylo jasné, že pokoj nebude, dokud nepodepíše. Císař nahoře na hradě vlastní vojsko pořád neměl.\n\n[[b]]Tentokrát čekali na císařovu odpověď poddaní, a čekali s vojskem.[[/b]]\n\nDne 9. července 1609 podepsal Rudolf na Pražském hradě listinu, které se začalo říkat Rudolfův majestát.\n\nCo v něm stálo? Nikoho nelze nutit ke katolické víře ani k žádné jiné. Páni, královská města, a dokonce i obyčejní poddaní mohou věřit, jak chtějí. Protestanti smějí stavět vlastní kostely a otevírat vlastní školy a pražská univerzita i správa jejich církve se svěřuje jim. Majestát byl dokonce vložen do zemských desk, a stal se tak zákonem království.\n\nNejzajímavější je v něm jedna věta. Aby ukázal, že Česká konfese platila odjakživa, Rudolf pečlivě uvedl:\n\n[[quote:0]]\n\nOtec, který chtěl slibovat jen ústy, tedy nakonec přece jen něco napsal, a to vlastní rukou.\n\n[[b]]Po třiceti čtyřech letech čekání se ze slibu ústy stalo černé na bílém.[[/b]]\n\nPražští protestanti se hned pustili do práce. Němečtí luteráni na Starém Městě začali stavět kostel sv. Salvátora, ti na Malé Straně kostel Nejsvětější Trojice. O pár let později převzala Jednota bratrská Betlémskou kapli, kde kdysi kázal Jan Hus.\n\nNe všichni na hradě však byli spokojení. Několik katolických rad odmítlo připojit své podpisy. Dva z nich se jmenovali Slavata a Martinic.\n\nTa dvě jména si stojí za to zapamatovat. Za devět let se objeví znovu.",
+      zh: "1608年，皇帝给波希米亚人打了一张[[link:the-brothers-split-the-house-1608]]欠条[[/link]]。1609年，他们来要账了。\n\n议会一开，新教贵族们就把要求摆上了桌：三十四年前那句[[link:a-promise-by-word-of-mouth-1575]]口头答应[[/link]]的话，写下来，签上字，盖上章。\n\n皇帝又想拖。弟弟的兵已经撤了，这张欠条，好像也就没那么急着还了。\n\n可这一回，等级们不等了。他们自己开会，自己推举领头人，还开始招兵买马，摆明了：不签字，就别想安生。城堡里的皇帝，手里照旧没有一兵一卒。\n\n[[b]]这一次，是臣民在等皇帝表态，而且是带着兵在等。[[/b]]\n\n1609年7月9日，鲁道夫在布拉格城堡签下了一份诏书，后人管它叫《宗教自由诏书》。\n\n诏书里写了什么？谁也不能被强迫改信天主教，或者别的什么教；贵族、王室城市，连普通的农民，都可以按自己的意思信仰；新教徒可以盖自己的教堂、办自己的学校，布拉格的大学和新教的教会事务，也交给他们自己管。这份诏书还被抄进了土地册，成了王国的正式法律。\n\n诏书里最有意思的，是这么一句话。为了说明那份信纲早就算数，鲁道夫特意写道：\n\n[[quote:0]]\n\n原来，当年那位只肯动嘴、不肯动笔的父亲，私下里其实是写过的，还是亲笔写的。\n\n[[b]]等了三十四年，口头答应终于变成了白纸黑字。[[/b]]\n\n布拉格的新教徒马上动了起来。老城的德意志路德派开始盖救世主教堂，小城的路德派盖起了圣三一教堂。又过了几年，弟兄会接管了当年胡斯讲道的伯利恒礼拜堂。\n\n不过，城堡里也有人不高兴。几位天主教大臣拒绝在上面签字，其中两位，一个叫斯拉瓦塔，一个叫马丁尼茨。\n\n这两个名字，最好先记住。九年以后，它们还会出现。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "kostel-sv-salvatora-salvatorska",
+        relation: {
+          en: "Built in 1611–1614 by the German Lutherans of the Old Town under the Letter of Majesty, one of the very few Prague churches built for Protestants.",
+          cz: "Postaven v letech 1611–1614 staroměstskými německými luterány na základě majestátu, jeden z mála pražských kostelů postavených pro protestanty.",
+          zh: "老城的德意志路德派依据诏书，在1611至1614年间盖起的教堂，是布拉格少有的、一开始就为新教徒建的教堂。",
+        },
+      },
+      {
+        slug: "church-of-our-lady-victorious-and-the-infant-jesus-of-prague-1782392094990",
+        relation: {
+          en: "Built in 1611–1613 by the Lesser Town's German Lutherans as the Church of the Holy Trinity; after 1620 it passed to the Carmelites, and today it is home to the Infant Jesus of Prague.",
+          cz: "Postaven v letech 1611–1613 malostranskými německými luterány jako kostel Nejsvětější Trojice; po roce 1620 připadl karmelitánům a dnes v něm sídlí Pražské Jezulátko.",
+          zh: "小城的德意志路德派在1611至1613年间盖的圣三一教堂；1620年后归了加尔默罗会，今天“布拉格圣婴”就供奉在这里。",
+        },
+      },
+      {
+        slug: "bethlehem-chapel",
+        relation: {
+          en: "Where Jan Hus once preached; a few years after the Letter of Majesty it passed to the Unity of the Brethren.",
+          cz: "Kde kdysi kázal Jan Hus; pár let po vydání majestátu ji převzala Jednota bratrská.",
+          zh: "当年胡斯讲道的地方；诏书颁布几年后，弟兄会接管了这里。",
+        },
+      },
+      {
+        slug: "karolinum",
+        relation: {
+          en: "The seat of Prague University, which the Letter of Majesty placed under the Protestant estates.",
+          cz: "Sídlo pražské univerzity, kterou majestát svěřil protestantským stavům.",
+          zh: "布拉格大学的所在地；《宗教自由诏书》把这所大学交给了新教等级们去管。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Rudolf%C5%AFv_majest%C3%A1t",
   },
 ];
 

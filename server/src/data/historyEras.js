@@ -581,7 +581,7 @@ export const HISTORY_ERAS = [
     key: 'age-of-wonders',
     order: 11,
     themeClass: 'era-age-of-wonders',
-    hasContent: false,
+    hasContent: true,
     title: {
       en: 'An Age of Wonders',
       cz: 'Věk divů',

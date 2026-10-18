@@ -202,7 +202,6 @@ export const SLUG_RARITY = {
   'dostihove-zavodiste-velka-chuchle': 'rare',
   'villa-lanna':                  'rare',
   'skroupovo-namesti':            'rare',
-  'zpivajici-fontana':            'rare',
   'toskansky-palac':              'rare',
   'astronomicka-vez-klementina':  'rare',
   'tynsky-dvur-ungelt':           'rare',

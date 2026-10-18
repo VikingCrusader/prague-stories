@@ -2406,7 +2406,7 @@ Dnešní budova pochází z roku 1694, kdy nahradila starší jízdárnu. Navrhl
   {
     name: 'Rosenberg Palace — Institute of Noblewomen',
     slug: 'rozmbersky-palac-ustav-slechticen',
-    localizedNames: { cz: 'Rožmberský palác – Ústav šlechtičen', zh: '罗森堡宫——贵族女子学院' },
+    localizedNames: { cz: 'Rožmberský palác – Ústav šlechtičen', zh: '罗森贝格宫——贵族女子学院' },
     labels: ['palace', 'academy', 'museum', 'renaissance'],
     district: 'Praha 1',
     quarter: 'Hradčany',
@@ -2425,9 +2425,9 @@ The Renaissance palace was built between 1545 and 1574 for the powerful Rožmber
 Renesanční palác vznikl v letech 1545 až 1574 pro mocné Rožmberky na půdě, kterou uvolnil velký požár roku 1541. Roku 1600 ho poslední z rodu, Petr Vok z Rožmberka, prodal císaři Rudolfu II., který ho krytou chodbou spojil s Královským palácem. V polovině 18. století ho císařovna Marie Terezie dala důkladně přestavět a založila v něm Ústav šlechtičen, dobročinnou nadaci, která poskytovala domov asi třiceti neprovdaným ženám ze šlechtických rodin, jež přišly o jmění. Tuto úlohu plnil až do konce monarchie roku 1918, potom ho stát užíval jako úřad. Po dlouhé obnově se roku 2010 otevřel návštěvníkům s místnostmi, které ukazují, jak šlechtičny žily.
 
 🎁 Bonus: V čele ústavu stála abatyše a tato funkce byla vyhrazena arcivévodkyni z císařské rodiny. První byla Marie Anna, vlastní dcera Marie Terezie, takže císařovna postavila do čela své nové nadace člena rodiny, zcela v duchu panovnice proslulé tím, jak životy svých šestnácti dětí řídila do posledního detailu.`,
-      zh: `罗森堡宫位于布拉格城堡之内，紧挨着圣乔治圣殿。它为波希米亚最显赫的贵族之一而建，后来的大部分时光却是“贵族女子学院”，让家道中落的贵族家庭的未婚女儿能体面地生活。
+      zh: `罗森贝格宫位于布拉格城堡之内，紧挨着圣乔治圣殿。它为波希米亚最显赫的贵族之一而建，后来的大部分时光却是“贵族女子学院”，让家道中落的贵族家庭的未婚女儿能体面地生活。
 
-这座文艺复兴式宫殿建于1545年至1574年，主人是权势显赫的罗森堡家族，所在的地块是1541年大火后清出来的。1600年，家族最后一人彼得·沃克·罗森堡把它卖给了鲁道夫二世皇帝，皇帝用一条有顶的廊道把它和王宫连了起来。18世纪中叶，女皇玛丽亚·特蕾西亚下令彻底改建，并在这里创办了贵族女子学院，这是一个慈善基金会，为大约三十位出身贵族、家财散尽的未婚女子提供住所。它一直承担这个角色，直到1918年君主制结束，此后国家把它用作办公楼。经过长期修复，它于2010年向游客开放，展示贵族女子们当年的生活。
+这座文艺复兴式宫殿建于1545年至1574年，主人是权势显赫的罗森贝格家族，所在的地块是1541年大火后清出来的。1600年，家族最后一人彼得·沃克·罗森贝格把它卖给了鲁道夫二世皇帝，皇帝用一条有顶的廊道把它和王宫连了起来。18世纪中叶，女皇玛丽亚·特蕾西亚下令彻底改建，并在这里创办了贵族女子学院，这是一个慈善基金会，为大约三十位出身贵族、家财散尽的未婚女子提供住所。它一直承担这个角色，直到1918年君主制结束，此后国家把它用作办公楼。经过长期修复，它于2010年向游客开放，展示贵族女子们当年的生活。
 
 🎁 彩蛋：学院由一位女院长领导，这个职位专属于皇室的大公夫人。第一任院长是玛丽亚·安娜，也就是玛丽亚·特蕾西亚的亲生女儿，女皇把自家人安排来掌管她的新基金会，这很符合这位以把十六个孩子的人生安排到最后一个细节而闻名的君主的作风。`,
     },
@@ -3779,41 +3779,6 @@ Když vyhrál soutěž na pomník Jana Husa na Staroměstském náměstí, uvěd
 赢得老城广场扬·胡斯纪念碑的设计竞赛后，沙隆意识到自己的工作室根本放不下那么大的作品。于是他自己设计了一座，有一个挑高的工作大厅，旁边连着住宅，1908年至1910年建成，并用他雕塑中那种梦幻而富有象征意味的风格加以装饰。这间工作室成了当时捷克艺术界的聚会场所：画家阿尔丰斯·穆夏、歌剧演唱家埃玛·德斯丁诺娃、小提琴家扬·库贝利克、作家阿洛伊斯·伊拉塞克和雅罗斯拉夫·弗尔赫利茨基，还有雕塑家弗朗蒂谢克·比莱克都来过这里。很久以后，工作室和家宅分开，归了国家，2001年美术学院把它买下修复，如今用来接待来自国外的访问艺术家和教师。
 
 🎁 彩蛋：据艺术家约瑟夫·瓦哈尔的回忆录记载，沙隆的圈子也按当时的风尚在这里举行过招魂会。所以，布拉格那座最著名的改革家扬·胡斯纪念碑成形的地方，说不定顺带还请过几回鬼魂。`,
-    },
-  },
-  {
-    name: 'Singing Fountain',
-    slug: 'zpivajici-fontana',
-    localizedNames: { cz: 'Zpívající fontána', zh: '会唱歌的喷泉' },
-    labels: ['monument', 'waterbody', 'renaissance'],
-    district: 'Praha 1',
-    quarter: 'Hradčany',
-    coordinates: { lat: 50.09362676711793, lng: 14.40483010882407 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Zp%C3%ADvaj%C3%ADc%C3%AD_font%C3%A1na_(Praha)',
-    description: {
-      en: `The Singing Fountain stands in front of the Royal Summer Palace, the Belvedere, at the end of the Royal Garden of Prague Castle. It is a Renaissance bronze fountain that took more than a decade, a change of emperor and a lot of patience to get water flowing.
-
-Emperor Ferdinand I ordered it in 1562, the Italian Francesco Terzi designed it, and the master bell-founder Tomáš Jaroš of Brno cast it in bronze: two basins, one above the other, decorated with figures and animals, and a little bagpiper standing at the very top. Ferdinand died in 1564 without seeing it finished. The fountain was cast in 1568 and installed in front of the Belvedere, and only in the 1570s, more than a decade after the order, did water finally run through it.
-
-The singing comes from acoustics, not magic. Water dripping from the upper basin onto the bronze bowl below makes it ring with a soft, bell-like tone. Crouch down with your ear close to the lower basin and you will hear it, said by some to sound like distant church bells.
-
-🎁 Bonus: The Royal Garden is said to be where tulips were first grown in Central Europe, brought from the Ottoman Empire in the 16th century, decades before the Dutch went mad for them. So the fountain may have splashed the ancestors of the flower that later set off the most famous financial bubble in history.`,
-      cz: `Zpívající fontána stojí před Královským letohrádkem, Belvederem, na konci Královské zahrady Pražského hradu. Je to renesanční bronzová kašna, které trvalo přes deset let, výměnu císaře a spoustu trpělivosti, než jí začala téct voda.
-
-Císař Ferdinand I. ji objednal roku 1562, navrhl ji Ital Francesco Terzi a do bronzu ji odlil brněnský zvonař mistr Tomáš Jaroš: dvě mísy nad sebou zdobené postavami a zvířaty a nahoře malý dudák. Ferdinand zemřel roku 1564 a hotovou ji neviděl. Fontána byla odlita roku 1568 a postavena před Belvederem a voda jí konečně protekla až v 70. letech 16. století, víc než deset let po objednávce.
-
-Zpívání má na svědomí akustika, ne kouzla. Voda kapající z horní mísy na bronzovou mísu dole ji rozeznívá jemným tónem podobným zvonu. Když si dřepnete a přiložíte ucho k dolní míse, uslyšíte ho, a někdo v tom slyší vzdálené kostelní zvony.
-
-🎁 Bonus: Královská zahrada je prý místem, kde se ve střední Evropě poprvé pěstovaly tulipány, přivezené v 16. století z Osmanské říše, desítky let předtím, než se z nich zbláznili Holanďané. Fontána tak možná kropila předky květiny, která později spustila nejslavnější finanční bublinu v dějinách.`,
-      zh: `会唱歌的喷泉立在布拉格城堡皇家花园尽头的皇家夏宫，也就是观景楼的前面。这是一座文艺复兴时期的青铜喷泉，从订造到出水，花了十多年、换了一位皇帝，还耗费了大量耐心。
-
-1562年斐迪南一世皇帝下令建造，意大利人弗朗切斯科·泰尔齐设计，布尔诺的铸钟大师托马什·亚罗什用青铜浇铸：上下两层水盘，饰满人物和动物，最顶上站着一个吹风笛的小人。斐迪南在1564年去世，没能看到它完工。喷泉于1568年铸成并安放在观景楼前，直到16世纪70年代才终于通上了水，距下单已过去十多年。
-
-“唱歌”靠的是声学，不是魔法。水从上层水盘滴落到下面的青铜盘上，让它发出一种柔和的、钟声般的鸣响。蹲下来把耳朵凑近下层水盘，你就能听到，有人说那像远处教堂的钟声。
-
-🎁 彩蛋：据说皇家花园是中欧最早种植郁金香的地方，16世纪从奥斯曼帝国引进，比荷兰人为它疯狂早了几十年。这么说，这座喷泉溅湿过的，可能正是后来引发史上最著名金融泡沫的那种花的祖先。`,
     },
   },
   {
@@ -29484,13 +29449,13 @@ Roku 1569 panství koupil Petr Vok z Rožmberka, poslední svého rodu, a v lete
 
 🎁 Bonus: 14. února 1580, tedy na svatého Valentýna, se tu Petr Vok oženil s Kateřinou z Ludanic. Jemu bylo skoro 41 let, jí 14 nebo 15 a patřila k nejbohatším dědičkám na Moravě. Dědice se nedočkali a rod Rožmberků s Vokem roku 1611 vymřel, ale zdá se, že šlo o skutečné pouto: když archeologové otevřeli rožmberskou hrobku ve Vyšším Brodě, našli v ní snubní prsten manželů. Jeden ze zámeckých sálů dodnes nese jméno po té svatbě.`,
 
-      zh: `欢迎来到贝希涅城堡。它坐落在两条河交汇处的一块岩石上，这种地方，人类已经连续修了大约三千年的防御工事。国王、胡斯派、一位坠入爱河的罗日姆贝克，还有一个替哈布斯堡家族管邮政的家族，都曾把它当作自己的地盘。最后比他们谁都活得久的，是这块岩石。
+      zh: `欢迎来到贝希涅城堡。它坐落在两条河交汇处的一块岩石上，这种地方，人类已经连续修了大约三千年的防御工事。国王、胡斯派、一位坠入爱河的罗森贝格，还有一个替哈布斯堡家族管邮政的家族，都曾把它当作自己的地盘。最后比他们谁都活得久的，是这块岩石。
 
 小河斯穆特纳在这里汇入卢日尼采河，交汇处上方的这片高地，早在青铜时代就已经筑起了防御，后来又成了凯尔特人的要塞城镇。11至12世纪，贝希涅是普热美斯尔王朝的一处重要行政中心；1268年，国王普热米斯尔·奥托卡二世在这里修建了一座哥特式王室城堡，用意之一，就是盯住南波希米亚势力强大的维特科维奇家族。到了胡斯战争时期，城堡归信奉天主教的拉扎尼家族所有。1419年，激进的胡斯派在贝希涅附近的一座山上举行了最早的几次大规模露天集会，还把这座山改名为“塔博尔山”，从此整个运动和他们后来建起的新城，都用上了这个名字。1422年，一支胡斯军烧毁了贝希涅城，城堡却守住了。1428年7月，大普罗科普带着整支塔博尔军卷土重来，在城堡四周扎下四座营地，连续炮轰了大约十五个星期。据说，杰式卡的弟弟雅罗斯拉夫就是在这次围城中被城墙上射来的子弹打死的。10月，剩下的约一百名守军投降，获准自由离开。
 
-1569年，罗日姆贝克家族的最后一代传人彼得·沃克买下了这片领地，并在1581至1584年间请意大利建筑师巴尔达萨雷·马吉把老城堡改建成了文艺复兴风格的府邸，外墙上的彩绘和刮画装饰，在国内少有能与之相比的。可惜沃克花钱的本事远远超过了挣钱的本事，1596年只好把它卖掉。此后一百多年，贝希涅归什特恩贝克家族所有；1715年又通过联姻传给了帕尔家族，一直到1948年被共产党政府没收。1989年后，城堡归还帕尔家族，后来又被转手卖出，如今重新对游客开放：有凿进岩石里的护城壕，有俯瞰两河交汇处的炮台，有文艺复兴时期的大厅，还有设在旧粮仓里的展览，其中包括雕塑家弗拉基米尔·普雷茨利克的作品。山下的小城里，1928年建成的“彩虹桥”至今仍用一道混凝土拱，同时托着公路和铁路跨过卢日尼采河。桥上这条从塔博尔到贝希涅的铁路，1903年通车，是整个奥匈帝国第一条电气化铁路，设计者是发明家弗朗蒂舍克·克日日克。
+1569年，罗森贝格家族的最后一代传人彼得·沃克买下了这片领地，并在1581至1584年间请意大利建筑师巴尔达萨雷·马吉把老城堡改建成了文艺复兴风格的府邸，外墙上的彩绘和刮画装饰，在国内少有能与之相比的。可惜沃克花钱的本事远远超过了挣钱的本事，1596年只好把它卖掉。此后一百多年，贝希涅归什特恩贝克家族所有；1715年又通过联姻传给了帕尔家族，一直到1948年被共产党政府没收。1989年后，城堡归还帕尔家族，后来又被转手卖出，如今重新对游客开放：有凿进岩石里的护城壕，有俯瞰两河交汇处的炮台，有文艺复兴时期的大厅，还有设在旧粮仓里的展览，其中包括雕塑家弗拉基米尔·普雷茨利克的作品。山下的小城里，1928年建成的“彩虹桥”至今仍用一道混凝土拱，同时托着公路和铁路跨过卢日尼采河。桥上这条从塔博尔到贝希涅的铁路，1903年通车，是整个奥匈帝国第一条电气化铁路，设计者是发明家弗朗蒂舍克·克日日克。
 
-🎁 彩蛋：1580年2月14日，也就是情人节那天，彼得·沃克在这里迎娶了卢达尼采的卡特日娜。新郎快四十一岁，新娘只有十四五岁，是摩拉维亚最富有的女继承人之一。两人没能生下继承人，1611年沃克去世，罗日姆贝克家族也随之绝嗣。不过这段婚姻看来是有真感情的：考古学家打开维希布罗德的罗日姆贝克家族墓穴时，找到了两人的结婚戒指。城堡里至今还有一间大厅，以这场婚礼命名。`,
+🎁 彩蛋：1580年2月14日，也就是情人节那天，彼得·沃克在这里迎娶了卢达尼采的卡特日娜。新郎快四十一岁，新娘只有十四五岁，是摩拉维亚最富有的女继承人之一。两人没能生下继承人，1611年沃克去世，罗森贝格家族也随之绝嗣。不过这段婚姻看来是有真感情的：考古学家打开维希布罗德的罗森贝格家族墓穴时，找到了两人的结婚戒指。城堡里至今还有一间大厅，以这场婚礼命名。`,
     },
   },
   {
@@ -29526,9 +29491,9 @@ Poslední Rožmberk, Petr Vok, si roku 1602 zvolil zdejší zámek za sídlo a r
 
       zh: `欢迎来到特热邦。这座南波希米亚的设防小城四周全是水，有时候真分不清哪里是风景，哪里是养鱼场。五百年来，这里的领主一直在养鲤鱼，直到今天，每一顿捷克圣诞晚餐都还欠着这个地方一点人情。
 
-12世纪末，这里已经有了一个集市聚落。1366年，它归入南波希米亚最有权势的贵族罗日姆贝克家族名下。罗日姆贝克家族把它建成了城镇，1367年，家族的四兄弟在这里创办了奥斯定会修道院。修道院的圣吉尔斯教堂里，曾经供奉着“特热邦祭坛画大师”的祭坛画板，那是欧洲最出色的哥特式绘画之一，如今收藏在布拉格的国家美术馆。城里的啤酒厂始建于1379年，至今仍在酿酒。到14世纪末，特热邦已经有了石砌城墙和护城壕，再加上四周都是沼泽，想打下来非常难：胡斯军在1423年和1425年两次围城，两次都没能攻破。16世纪，罗日姆贝克家族的领地总管什捷潘内克·内托利茨基和雅库布·克尔钦，把城外的沼泽地改造成了一张由水渠串联起来的鱼塘网。克尔钦主持修建的罗日姆贝克塘建于1584至1590年，至今仍是捷克面积最大的池塘。
+12世纪末，这里已经有了一个集市聚落。1366年，它归入南波希米亚最有权势的贵族罗森贝格家族名下。罗森贝格家族把它建成了城镇，1367年，家族的四兄弟在这里创办了奥斯定会修道院。修道院的圣吉尔斯教堂里，曾经供奉着“特热邦祭坛画大师”的祭坛画板，那是欧洲最出色的哥特式绘画之一，如今收藏在布拉格的国家美术馆。城里的啤酒厂始建于1379年，至今仍在酿酒。到14世纪末，特热邦已经有了石砌城墙和护城壕，再加上四周都是沼泽，想打下来非常难：胡斯军在1423年和1425年两次围城，两次都没能攻破。16世纪，罗森贝格家族的领地总管什捷潘内克·内托利茨基和雅库布·克尔钦，把城外的沼泽地改造成了一张由水渠串联起来的鱼塘网。克尔钦主持修建的罗森贝格塘建于1584至1590年，至今仍是捷克面积最大的池塘。
 
-罗日姆贝克家族的最后一代传人彼得·沃克，1602年把这里的城堡当作自己的府邸，1611年在此去世，身后没有留下继承人。他的哥哥维莱姆在16世纪80年代还在城里开过一间炼金工坊，英格兰炼金术士爱德华·凯利就在那里干过活。从1660年起，特热邦归施瓦岑贝格家族所有，他们在池塘对岸的多马宁修了一座新哥特式家族墓。19世纪，本地教师瓦茨拉夫·胡采克和女儿贝尔塔开办了第一家泥炭疗养浴场，特热邦从此成了一座疗养城。如今，这座文艺复兴城堡开放参观，里面还设有州立档案馆，收藏着罗日姆贝克家族档案，最早的文件可以追溯到1184年。
+罗森贝格家族的最后一代传人彼得·沃克，1602年把这里的城堡当作自己的府邸，1611年在此去世，身后没有留下继承人。他的哥哥维莱姆在16世纪80年代还在城里开过一间炼金工坊，英格兰炼金术士爱德华·凯利就在那里干过活。从1660年起，特热邦归施瓦岑贝格家族所有，他们在池塘对岸的多马宁修了一座新哥特式家族墓。19世纪，本地教师瓦茨拉夫·胡采克和女儿贝尔塔开办了第一家泥炭疗养浴场，特热邦从此成了一座疗养城。如今，这座文艺复兴城堡开放参观，里面还设有州立档案馆，收藏着罗森贝格家族档案，最早的文件可以追溯到1184年。
 
 🎁 彩蛋：留意一下城堡庭院里那座1712年的喷泉。上面的浮雕是一只乌鸦，正在啄一颗被砍下的土耳其人头颅的眼睛。这是施瓦岑贝格家族的纹章：1598年，阿道夫·冯·施瓦岑贝格从奥斯曼人手里夺下了匈牙利要塞杰尔，才得了这枚纹章。从那以后，它就一直默默地让来庭院办婚礼的宾客心里发毛。`,
     },
@@ -30787,7 +30752,7 @@ Nejstarší části jsou románské. Kostel sv. Prokopa se začal stavět ve dva
 
 城堡建于13世纪二三十年代，建造者是当地的贵族巴沃尔家族，选址在沃林卡河汇入奥塔瓦河的地方。1243年，巴沃尔一世和妻子把城堡东半部捐给了医院骑士团，也就是圣约翰骑士团，后来人们更熟悉它的另一个名字：马耳他骑士团。1402年，骑士团拿下了整座城堡；它在布拉格的会所毁于胡斯战争之后，斯特拉科尼采就成了骑士团波希米亚大修道院的驻地，一驻就是好几个世纪。1449年，这座城堡还把名字借给了“斯特拉科尼采同盟”，那是天主教贵族在波杰布拉德的伊日夺取布拉格之后，为了对抗他而结成的联盟，到1451年就已经被打败。
 
-城堡最古老的部分是罗马式的。圣普罗科普教堂始建于13世纪20年代，教堂回廊里绘于约1310至1340年的壁画，是阿尔卑斯山以北同类壁画组中最古老的之一。带着粗壮扶壁的哥特式塔楼“伦帕尔塔”建于14世纪初；另一座塔楼“鹿塔”则是1500年后由一位出身罗日姆贝克家族的骑士团分团长加建的。如今城堡里是中波塔维博物馆，其中还有一个2022年开放的马耳他骑士团展览。
+城堡最古老的部分是罗马式的。圣普罗科普教堂始建于13世纪20年代，教堂回廊里绘于约1310至1340年的壁画，是阿尔卑斯山以北同类壁画组中最古老的之一。带着粗壮扶壁的哥特式塔楼“伦帕尔塔”建于14世纪初；另一座塔楼“鹿塔”则是1500年后由一位出身罗森贝格家族的骑士团分团长加建的。如今城堡里是中波塔维博物馆，其中还有一个2022年开放的马耳他骑士团展览。
 
 🎁 彩蛋：斯特拉科尼采从1967年起举办国际风笛节，捷克剧作家蒂尔1847年的剧作《斯特拉科尼采的风笛手》也以这里为背景，讲一个风笛手离乡闯荡、寻找好运的故事。这座城的其他“出口产品”就没那么有音乐性了：ČZ工厂造摩托车和枪，当地的毡帽厂则把土耳其毡帽卖到了整个伊斯兰世界。`,
     },
@@ -32175,6 +32140,140 @@ Od poloviny 19. století v ní sídlila Malostranská beseda, vlastenecký spole
 19世纪中叶起，一个叫“小城议事会”的爱国社团在这里落脚，还开了一家酒馆，楼的名字就是这么来的。19世纪20年代，两座小塔因为不安全被拆掉了；2006至2009年一场漫长的修缮之后，又照着1743年的一幅版画重新立了起来。2024年起，它被列为国家文化遗产。
 
 🎁 彩蛋：1784年以后清理楼房时，人们在地下室里发现了一整座人文主义藏书室，它原本属于弗热索维采的瓦茨拉夫·弗热索维茨。`,
+    },
+  },
+  // Royal Garden (2026-10-18, coordinates from the user). Sources:
+  // cs.wikipedia "Královská zahrada" (founded 1534 by Ferdinand I on old
+  // vineyards; fig house 1572 by Aostalli; Wolmut's ball-game hall; Rudolf's
+  // orangery and Lví dvůr, Prague's first zoo, kept until 1740; Bergeron 1603
+  // on the hidden passage over the covered bridge; Esprinchard 1597 on the
+  // deer), prague.eu (English landscape layout from the mid-19th century).
+  {
+    name: 'Royal Garden',
+    slug: 'kralovska-zahrada',
+    localizedNames: { cz: 'Královská zahrada', zh: '皇家花园' },
+    labels: ['park', 'renaissance'],
+    district: 'Praha 1',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.09322118986762, lng: 14.40248228815487 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kr%C3%A1lovsk%C3%A1_zahrada',
+    description: {
+      en: `Across the Deer Moat from Prague Castle lies a long, neat garden that kings once kept for themselves. Today anyone may stroll through it in the warmer months, past rare trees, a hall built for ball games and a fountain that sings. The lions, sadly, moved out long ago.
+
+King Ferdinand I founded the garden in 1534 on old vineyards north of the moat and laid it out on Italian Renaissance models, with trees and plants that did not grow anywhere else in Central Europe. Over the following decades it filled up with buildings: Queen Anne's Summer Palace at its eastern end, the long ball-game hall by Bonifác Wolmut with its walls covered in sgraffito, and a fig house built for Maximilian II in 1572. Rudolf II grew citrus fruit in the orangery and, around 1581, built the Lion Court by the entrance, Prague's first zoo, which kept animals until 1740.
+
+In front of the summer palace stands the Singing Fountain. Ferdinand ordered it in 1562, the Italian Francesco Terzi designed it and the bell-founder Tomáš Jaroš of Brno cast it in bronze in 1568: two basins, one above the other, with a little bagpiper on top. Ferdinand did not live to see it, and water only ran through it in the 1570s. The singing is acoustics, not magic: water dripping from the upper basin makes the bronze bowl below ring softly, and you can hear it if you crouch with your ear close to the lower basin.
+
+Later centuries added Baroque statues, such as Matthias Bernhard Braun's Allegory of Night in front of the ball-game hall and Jan Jiří Bendl's Hercules. In the mid-19th century the strict Renaissance beds gave way to a looser English-style landscape garden, and that is largely what you walk through today. The Lion Court is now a restaurant, and a small villa in the garden serves the Czech president as a retreat. The garden closes completely in winter.
+
+🎁 Bonus: In 1603 the French traveller Pierre Bergeron noticed that the covered wooden bridge from the castle to the garden had a hidden passage on top, so the emperor could walk to his garden without being seen and watch whoever he liked along the way.`,
+      cz: `Za Jelením příkopem naproti Pražskému hradu se táhne dlouhá upravená zahrada, kterou si kdysi králové nechávali jen pro sebe. Dnes se jí v teplých měsících může projít kdokoli, kolem vzácných stromů, sálu pro míčové hry a fontány, která zpívá. Lvi se bohužel odstěhovali už dávno.
+
+Zahradu založil král Ferdinand I. roku 1534 na starých vinicích severně od příkopu a nechal ji upravit podle italských renesančních vzorů, se stromy a rostlinami, jaké jinde ve střední Evropě nerostly. V dalších desetiletích přibývaly stavby: Letohrádek královny Anny na východním konci, dlouhá Míčovna Bonifáce Wolmuta se sgrafity po celých zdech a fíkovna, postavená pro Maxmiliána II. roku 1572. Rudolf II. pěstoval v oranžerii citrusy a kolem roku 1581 postavil u vstupu Lví dvůr, první pražskou zoo, kde se zvířata chovala až do roku 1740.
+
+Před letohrádkem stojí Zpívající fontána. Objednal ji Ferdinand roku 1562, navrhl ji Ital Francesco Terzi a zvonař Tomáš Jaroš z Brna ji roku 1568 odlil z bronzu: dvě mísy nad sebou a nahoře malý dudák. Ferdinand se jí nedožil a voda jí poprvé protekla až v 70. letech 16. století. Zpívání není kouzlo, ale akustika: voda kapající z horní mísy rozeznívá bronzovou mísu pod ní tichým zvukem a uslyšíte ho, když se k dolní míse skloníte s uchem až u ní.
+
+Další staletí přidala barokní sochy, například Braunovu Alegorii Noci před Míčovnou a Bendlova Herkula. V polovině 19. století vystřídal přísné renesanční záhony volnější anglický krajinářský park a ten je z velké části k vidění dodnes. Ve Lvím dvoře je dnes restaurace a malá vila v zahradě slouží českému prezidentovi k odpočinku. V zimě je zahrada úplně zavřená.
+
+🎁 Bonus: Roku 1603 si francouzský cestovatel Pierre Bergeron všiml, že krytý dřevěný most z hradu do zahrady má nahoře skrytou chodbu. Císař tak mohl dojít do své zahrady, aniž ho kdo viděl, a cestou pozorovat, koho se mu zachtělo.`,
+      zh: `隔着鹿沟，布拉格城堡对面躺着一座狭长、齐整的花园，从前是国王们留给自己的。如今天气暖和的月份，谁都可以进去走走：看看稀罕的树、一座专门打球用的大厅，还有一座会唱歌的喷泉。至于狮子，可惜早就搬走了。
+
+1534年，斐迪南一世国王在鹿沟北边的老葡萄园上建起这座花园，照着意大利文艺复兴的样子布置，种的都是中欧别处见不到的树木花草。接下来的几十年里，园子里的房子越来越多：东头是安娜王后夏宫，中间是建筑师沃尔穆特设计的长长的球戏厅，满墙刻着灰泥刻画；1572年，又给马克西米利安二世盖了一座无花果房。鲁道夫二世在温室里种柑橘，1581年前后又在入口旁修了狮子院，这是布拉格的第一座动物园，一直养动物养到1740年。
+
+夏宫前面，立着那座“会唱歌的喷泉”。1562年斐迪南下的订单，意大利人泰尔齐设计，布尔诺的铸钟匠雅罗什在1568年用青铜铸成：上下两层水盆，最顶上站着一个吹风笛的小人。斐迪南没等到它完工，喷泉真正出水，已经是16世纪70年代的事了。它会唱歌，靠的不是魔法，是声学：水从上层盆里滴下来，打在下层的青铜盆上，发出轻轻的嗡鸣。蹲下身，把耳朵凑到下层水盆边，就能听见。
+
+后来的几百年，园子里又添了巴洛克雕像，比如球戏厅前布劳恩的《夜的寓言》和本德尔的《赫拉克勒斯》。19世纪中叶，规规矩矩的文艺复兴花坛改成了更随性的英式风景园，今天走在里面看到的，大体就是那时的样子。狮子院如今是一家餐厅；园子里还有一栋小别墅，是捷克总统休息的地方。冬天，花园整个关门。
+
+🎁 彩蛋：1603年，法国旅行家皮埃尔·贝尔热龙注意到，从城堡通往花园的那座带顶的木桥上面，还藏着一条暗道。皇帝从这里去花园，谁也看不见他，他却能一路看着自己想看的人。`,
+    },
+  },
+  // Statue of Rabbi Löw (2026-10-18, coordinates from the user). Sources:
+  // visitczechia.com (Šaloun chose Loew over allegorical figures as a symbol of
+  // the whole Jewish Quarter; about 6 m with pedestal, the stone figure 360 cm;
+  // town hall by Osvald Polívka, 1909–1911), en.wikipedia "Statue of Judah
+  // Loew ben Bezalel" (theme is his death: a nude young girl holds out a rose
+  // whose scent brings his end; a small dog on the other side; a 1914 replica
+  // in the Maisel Synagogue). The statue's own date is given variously
+  // (c. 1910–1913), so the text avoids a single year.
+  {
+    name: 'Statue of Rabbi Löw',
+    slug: 'socha-rabiho-lowa',
+    localizedNames: { cz: 'Socha rabiho Löwa', zh: '罗乌拉比像' },
+    labels: ['monument', 'art-nouveau', 'jewish'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.086968724888315, lng: 14.417919556188842 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Statue_of_Judah_Loew_ben_Bezalel',
+    description: {
+      en: `On the corner of Prague's New Town Hall, a tall, stern old man in a long robe looks down at the people crossing Mariánské Square. He is Rabbi Judah Löw, the most famous rabbi in Prague's history. The naked girl reaching up to him with a rose is not a granddaughter come to visit. She is Death.
+
+The new town hall was built in 1909–1911 by the architect Osvald Polívka, and the sculptor Ladislav Šaloun was asked to decorate it. Instead of the usual allegorical figures, Šaloun picked characters from Prague's own legends: the faceless Iron Knight for one corner and Rabbi Löw for this one, as a symbol of the whole old Jewish Town, which had just been almost entirely demolished in the slum clearance around 1900. The stone rabbi alone is 3.6 metres tall, and with his pedestal he reaches about six.
+
+Rabbi Löw, who died in 1609, was a great scholar; Emperor Rudolf II received him at the castle in 1592, and later legend made him the creator of the Golem. Šaloun chose a different legend, the story of his death. Death could not get near the old rabbi, who never stopped studying, so it hid inside a rose, and a little girl held the rose out to him. He breathed in its scent and died. The statue shows the moment he understands. On his other side sits a small dog, whose meaning nobody has ever explained.
+
+🎁 Bonus: A smaller version of the statue, made in 1914, stands in the Maisel Synagogue in the Jewish Town, with a plaque that explains the rose. Here on the street, passers-by still regularly mistake the rabbi for the Golem himself.`,
+      cz: `Na rohu Nové radnice shlíží na lidi na Mariánském náměstí vysoký, přísný stařec v dlouhém plášti. Je to rabi Jehuda Löw, nejslavnější rabín v dějinách Prahy. Nahá dívka, která se k němu natahuje s růží, není vnučka na návštěvě. Je to Smrt.
+
+Novou radnici postavil v letech 1909–1911 architekt Osvald Polívka a výzdobou pověřil sochaře Ladislava Šalouna. Místo obvyklých alegorických postav si Šaloun vybral postavy z pražských pověstí: na jeden roh bezejmenného Železného rytíře a na tento rabiho Löwa, jako symbol celého starého Židovského Města, které bylo právě v asanaci kolem roku 1900 skoro celé zbořeno. Samotný kamenný rabín měří 3,6 metru a i s podstavcem asi šest.
+
+Rabi Löw, který zemřel roku 1609, byl velký učenec; císař Rudolf II. ho roku 1592 přijal na hradě a pozdější pověst z něj udělala tvůrce Golema. Šaloun si vybral jinou pověst, příběh o jeho smrti. Smrt se ke starému rabínovi, který pořád studoval, nemohla dostat, a tak se schovala do růže a malá dívka mu ji podala. Rabín přivoněl a zemřel. Socha zachycuje okamžik, kdy to pochopí. Po jeho druhém boku sedí malý pes, jehož význam nikdo nikdy nevysvětlil.
+
+🎁 Bonus: Menší verze sochy z roku 1914 stojí v Maiselově synagoze v Židovském Městě, s tabulkou, která růži vysvětluje. Tady na ulici si kolemjdoucí rabína dodnes běžně pletou se samotným Golemem.`,
+      zh: `在新市政厅的转角上，一位高大、严肃的老人，穿着长袍，低头看着玛丽亚广场上来来往往的人。他就是布拉格历史上最有名的拉比：犹大·罗乌。那个光着身子、举着一朵玫瑰向他伸手的小姑娘，可不是来串门的孙女。她是死神。
+
+新市政厅是建筑师波利夫卡在1909到1911年间盖的，雕刻师沙隆受邀来做装饰。他没用惯常的那些寓意人物，而是从布拉格自己的传说里挑了两个角色：一个转角站着没有脸的“铁骑士”，另一个转角就是罗乌拉比。拉比在这里代表的是整座老犹太城，而那座城，刚在1900年前后的旧城改造里被拆得几乎一干二净。光是石头拉比就有3.6米高，连底座差不多六米。
+
+罗乌拉比1609年去世，是位大学者；1592年，鲁道夫二世皇帝还在城堡里召见过他。后来的传说，又让他成了泥人“魔像”的创造者。沙隆选的却是另一个传说，讲他是怎么死的：老拉比整天埋头读书，死神怎么也靠近不了他，只好藏进一朵玫瑰，让一个小姑娘递给他。拉比闻了闻花香，就倒下了。雕像刻的，正是他明白过来的那一刻。他的另一边，还蹲着一只小狗；它是什么意思，从来没人说清楚过。
+
+🎁 彩蛋：这尊雕像还有一个1914年做的小号版本，放在犹太城的迈瑟尔会堂里，旁边的说明牌把玫瑰的故事讲得明明白白。而这里街上的行人，到今天还常常把这位拉比当成魔像本尊。`,
+    },
+  },
+  // House at the French Crown (2026-10-18, coordinates and rarity from the
+  // user). Sources: prague.eu "Krátkozraký muž, který nahlédl do nebe" (Kepler
+  // moved here with his family in 1607; bronze plaque on the façade; courtyard
+  // fountain by Zdeněk Kolářský with MFF UK students; horoscopes for Rudolf and
+  // for Wallenstein, who sent his birth data anonymously; left after Rudolf's
+  // death in 1612; back in 1627 to deliver the tables to Ferdinand II),
+  // astro.cz press release (lived here 1607–1612, prepared Astronomia nova
+  // here; museum in the second courtyard from 2009), en.wikipedia Kepler
+  // Museum (closed 2017). His son Friedrich and wife Barbara died in 1611.
+  {
+    name: 'House at the French Crown',
+    slug: 'dum-u-francouzske-koruny',
+    localizedNames: { cz: 'Dům U Francouzské koruny', zh: '法兰西王冠之家' },
+    labels: ['early-modern', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.08594774223706, lng: 14.414766871926963 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Kepler_Museum',
+    description: {
+      en: `On busy Karlova Street, between Charles Bridge and Old Town Square, the crowds stream past a house with a large bronze plaque that hardly anyone stops to read. From 1607 to 1612 this was the home of Johannes Kepler, a short-sighted mathematician who worked out how the planets move.
+
+Kepler came to Prague in 1600 as assistant to the Danish astronomer Tycho Brahe at the court of Rudolf II. When Tycho died the following year, Kepler inherited his post as imperial mathematician and, more importantly, his many years of precise observations of the planets. In 1607 he moved into this house with his family, and here he prepared Astronomia nova, published in 1609, the book that set out the first two of his laws: the planets travel round the sun not in circles but in ellipses, and they move faster the nearer they are to it. To pay the bills he also cast horoscopes, for the emperor and for anyone else who paid, though he did not think much of them. One was for a nobleman who sent in his birth date anonymously; it turned out to be Albrecht of Wallenstein.
+
+At home, these were hard years. In 1611 his young son died, and then his wife. After Rudolf's death in 1612 Kepler left Prague. He came back only once, in 1627, to present to Emperor Ferdinand II the great planetary tables Rudolf had commissioned years before and which bear Rudolf's name.
+
+🎁 Bonus: In the inner courtyard stands a small fountain, a sphere made of metal rings, made in 2002 by the sculptor Zdeněk Kolářský with students of the Faculty of Mathematics and Physics of Charles University. A small Kepler museum also operated in the courtyard from 2009 to 2017, so today the plaque on the street is the surest thing to see.`,
+      cz: `V rušné Karlově ulici, mezi Karlovým mostem a Staroměstským náměstím, proudí davy kolem domu s velkou bronzovou deskou, u které se skoro nikdo nezastaví. V letech 1607 až 1612 tu bydlel Johannes Kepler, krátkozraký matematik, který přišel na to, jak se pohybují planety.
+
+Kepler přišel do Prahy roku 1600 jako pomocník dánského astronoma Tychona Brahe na dvoře Rudolfa II. Když Tycho následujícího roku zemřel, Kepler po něm zdědil místo císařského matematika a hlavně jeho dlouholetá přesná pozorování planet. Roku 1607 se do tohoto domu nastěhoval s rodinou a připravil tu Astronomii novu, vydanou roku 1609, knihu, v níž formuloval první dva ze svých zákonů: planety obíhají kolem Slunce ne po kružnicích, ale po elipsách, a čím jsou mu blíž, tím se pohybují rychleji. Aby vyžil, sestavoval také horoskopy, pro císaře i pro kohokoli, kdo zaplatil, i když si o nich moc nemyslel. Jeden byl pro šlechtice, který své datum narození poslal anonymně; ukázalo se, že to byl Albrecht z Valdštejna.
+
+Doma to byla těžká léta. Roku 1611 mu zemřel malý syn a pak i manželka. Po Rudolfově smrti roku 1612 Kepler z Prahy odešel. Vrátil se jen jednou, roku 1627, aby císaři Ferdinandovi II. předal velké planetární tabulky, které si Rudolf kdysi objednal a které nesou jeho jméno.
+
+🎁 Bonus: Na vnitřním nádvoří stojí malá fontána, koule z kovových prstenců, kterou roku 2002 vytvořil sochař Zdeněk Kolářský se studenty Matematicko-fyzikální fakulty Univerzity Karlovy. V letech 2009 až 2017 tu na nádvoří fungovalo i malé Keplerovo muzeum, takže dnes je nejjistější podívanou deska na ulici.`,
+      zh: `卡尔路是从查理大桥通往老城广场的那条街，整天人挤人。人流从一栋房子前面淌过，门上挂着一块大大的青铜纪念牌，几乎没人停下来读。1607到1612年，这里住着约翰内斯·开普勒，一个近视眼的数学家，就是他弄明白了行星是怎么转的。
+
+1600年，开普勒来到鲁道夫二世的宫廷，给丹麦天文学家第谷·布拉赫当助手。第二年第谷去世，开普勒接过了他“帝国数学家”的位子，更要紧的是，接过了他多年积攒下来的精确行星观测数据。1607年，他带着一家人搬进这栋房子，在这里准备出版了1609年问世的《新天文学》。书里提出了他的前两条定律：行星绕太阳走的不是正圆，而是椭圆；离太阳越近，走得越快。为了糊口，他也替人算星盘，给皇帝算，也给任何付钱的人算，虽然他自己并不怎么信。有一回，一位贵族匿名寄来了自己的生辰，后来才知道，那人就是阿尔布雷希特·冯·华伦斯坦。
+
+家里的日子却很难熬。1611年，他年幼的儿子去世，接着妻子也走了。1612年鲁道夫去世后，开普勒离开了布拉格。他只回来过一次，是在1627年，把鲁道夫当年下令编纂、以鲁道夫命名的行星星表，呈给了斐迪南二世皇帝。
+
+🎁 彩蛋：内院里有一座小喷泉，是一个由金属圆环组成的球，2002年由雕塑家科拉日斯基和查理大学数学物理学院的学生一起做的。2009到2017年，院子里还开过一家小小的开普勒博物馆，现在已经关了，所以今天最稳妥能看到的，就是街上那块纪念牌。`,
     },
   },
 ];
