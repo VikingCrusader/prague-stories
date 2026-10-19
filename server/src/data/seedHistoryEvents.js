@@ -26075,6 +26075,779 @@ export const historyEvents = [
     ],
     wikipediaUrl: "https://cs.wikipedia.org/wiki/Druh%C3%A1_pra%C5%BEsk%C3%A1_defenestrace",
   },
+  // The eyewitness quotes and details (8:30, nine o'clock, the hat, thirty
+  // cubits, Slavata's fingers, Thurn seizing Slavata) are from the anonymous
+  // account in Documenta Bohemica Bellum Tricennale Illustrantia II, pp. 42–49,
+  // as translated by GHDI. The "good old Bohemian fashion" shout is not in it;
+  // it comes from Hutton's History of the Moravian Church (1909).
+  {
+    slug: "the-good-old-bohemian-way-1618",
+    era: "fire-and-ashes",
+    images: ["/history/the-good-old-bohemian-way-1618.webp"],
+    imageCaptions: [
+      {
+        en: "23 May 1618: Martinic goes out of the chancellery window head first, hat and all. Slavata, held up behind him, is next.",
+        cz: "23. května 1618: Martinic letí z okna kanceláře hlavou napřed, i s kloboukem. Slavata, kterého drží nad hlavami, je na řadě.",
+        zh: "1618年5月23日，马丁尼茨头朝下被扔出总理府的窗口，连帽子一起飞了出去；被高高举起的斯拉瓦塔是下一个。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "You are enemies of us and our religion, who wanted to keep us from our Majesty's letter.",
+          cz: "Jste nepřátelé nás i našeho náboženství, kteří nás chtěli připravit o majestát Jeho Milosti.",
+          zh: "你们是我们和我们信仰的敌人，想把陛下给我们的诏书夺走！",
+        },
+        attribution: {
+          en: "An eyewitness account of 23 May 1618 (English translation: German History in Documents and Images)",
+          cz: "Zpráva očitého svědka o 23. květnu 1618 (podle edice Documenta Bohemica Bellum Tricennale Illustrantia)",
+          zh: "一位目击者对1618年5月23日的记述（英译据《德意志历史文献与图像》）",
+        },
+      },
+      {
+        text: {
+          en: "Out of the window with them, in the good old Bohemian fashion!",
+          cz: "Z okna s nimi, podle starého dobrého českého zvyku!",
+          zh: "按照波希米亚的老规矩，把他们扔出窗外！",
+        },
+        attribution: {
+          en: "As told in J. E. Hutton, A History of the Moravian Church (1909)",
+          cz: "Podle J. E. Huttona, Dějiny Moravské církve (1909)",
+          zh: "据胡顿《摩拉维亚教会史》（1909年）的记载",
+        },
+      },
+      {
+        text: {
+          en: "Jesus, Son of God, have mercy on me, Mother of God, remember me!",
+          cz: "Ježíši, Synu Boží, smiluj se nade mnou, Matko Boží, pamatuj na mne!",
+          zh: "耶稣，天主之子，怜悯我！天主之母，记得我！",
+        },
+        attribution: {
+          en: "Martinic at the window, in the same eyewitness account",
+          cz: "Martinic u okna, podle téže zprávy očitého svědka",
+          zh: "马丁尼茨在窗前的呼喊，据同一位目击者的记述",
+        },
+      },
+    ],
+    startYear: 1618.4,
+    year: {
+      en: "23 May 1618",
+      cz: "23. května 1618",
+      zh: "1618年5月23日",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Good Old Bohemian Way",
+      cz: "Starý dobrý zvyk",
+      zh: "老规矩",
+    },
+    hookLine: {
+      en: "23 May 1618, Prague Castle. Three men were thrown out of a window. Someone there, so the story goes, called it the good old Bohemian way.",
+      cz: "23. května 1618, Pražský hrad. Tři muže vyhodili z okna. Kdosi to prý nazval starým dobrým českým zvykem.",
+      zh: "1618年5月23日，布拉格城堡。三个人被从窗口扔了出去。据说，当时有人管这叫“波希米亚的老规矩”。",
+    },
+    summary: {
+      en: "At half past eight that morning, the governors were at work in the chancellery of the Old Royal Palace, at the table by the window.\n\nThere were ten governors in all, and only four had come in that day. Two were older men: old Šternberk and Lobkowicz. The other two were the Protestants' prime suspects: Slavata and Martinic.\n\nAround nine, footsteps sounded on the stairs. The lords of the Protestant estates had come up to the castle with their retinues, and a whole crowd squeezed into the chancellery's not very large room.\n\nFirst there was arguing, then shouting. The old grievances came out one by one: Hrob, Broumov, the letter from Vienna. In the end every finger pointed at Slavata and Martinic. One man in the room later wrote down what the lords told them:\n\n[[quote:0]]\n\nThe two older governors were shown out of the room. They had little to do with any of it, and could go.\n\nThat left Slavata, Martinic and an unlucky secretary named Fabricius.\n\n[[b]]Last time the lords had written a letter, and the answer had been: be quiet. This time they were done with letters.[[/b]]\n\nAt this point, so the story goes, someone in the crowd shouted:\n\n[[quote:1]]\n\nWhat followed happened fast.\n\nSeveral lords seized Martinic and dragged him to the window. He struggled and prayed out loud:\n\n[[quote:2]]\n\nBefore he had finished, he was out of the window, without even his hat, falling thirty cubits, some seventeen metres, straight into the castle moat below.\n\nNext was Slavata. Count Thurn himself took hold of him. Slavata clung to the window frame and would not let go, so they beat his fingers until they bled, and he let go.\n\nLast came Fabricius, the secretary. He had signed nothing and written nothing. He had simply been at work in that room that day.\n\nOne after another, three men vanished through the window. It all looked rather familiar.\n\nNearly two hundred years earlier, in [[link:the-first-defenestration-1419]]1419[[/link]], the people of Prague had thrown councillors out of the New Town Hall window. A hundred and thirty-five years earlier, in [[link:the-window-opens-again-1483]]1483[[/link]], they had thrown the Old Town mayor out of the Old Town Hall window. Now it was the turn of a window in the Old Royal Palace.\n\n[[b]]The good old way was still the good old way. This made three.[[/b]]\n\nThe window filled with people craning their necks to look down.\n\nNone of them had noticed that, that morning, something happened to be piled up in the castle moat. Something that smelled.",
+      cz: "V půl deváté ráno už místodržící seděli v kanceláři Starého královského paláce, u stolu u okna.\n\nMístodržících bylo celkem deset, ten den jich přišli jen čtyři. Dva starší pánové, starý Šternberk a Lobkovic. A dva, které protestanti podezírali nejvíc: Slavata a Martinic.\n\nKolem deváté se na schodech ozvaly kroky. Páni z protestantských stavů přišli na hrad i s družinou a do nevelké místnosti kanceláře se jich natlačil celý zástup.\n\nNejdřív se hádali, pak křičeli. Staré křivdy přišly na řadu jedna po druhé: Hrob, Broumov, dopis z Vídně. Nakonec všechny prsty ukazovaly na Slavatu a Martinice. Jeden z přítomných si později zapsal, co jim páni řekli:\n\n[[quote:0]]\n\nObou starších místodržících se páni zdvořile zbavili a vyvedli je ven. S celou věcí měli málo společného, mohli jít.\n\nV místnosti zůstali Slavata, Martinic a nešťastný písař Fabricius.\n\n[[b]]Minule páni napsali dopis a dostali odpověď: mlčte. Tentokrát už psát nechtěli.[[/b]]\n\nV tu chvíli prý kdosi ze zástupu vykřikl:\n\n[[quote:1]]\n\nPak už to šlo rychle.\n\nNěkolik pánů popadlo Martinice a vleklo ho k oknu. Bránil se a nahlas se modlil:\n\n[[quote:2]]\n\nNež stačil domluvit, letěl z okna, ani klobouk si nevzal, třicet loket, asi sedmnáct metrů, rovnou do hradního příkopu.\n\nPak přišel na řadu Slavata. Toho se chopil sám hrabě Thurn. Slavata se zuby nehty držel okenního rámu a nechtěl se pustit, a tak mu tloukli do prstů, až mu tekla krev. Pak se pustil.\n\nJako poslední šel písař Fabricius. Nic nepodepsal, nic nenapsal. Ten den byl prostě v té místnosti v práci.\n\nTři muži jeden po druhém zmizeli za oknem. Celé to vypadalo nějak povědomě.\n\nSkoro před dvěma sty lety, v roce [[link:the-first-defenestration-1419]]1419[[/link]], vyhodili Pražané z okna Novoměstské radnice konšely. Před sto pětatřiceti lety, v roce [[link:the-window-opens-again-1483]]1483[[/link]], vyhodili z okna Staroměstské radnice staroměstského purkmistra. A teď přišlo na řadu okno Starého královského paláce.\n\n[[b]]Starý dobrý zvyk zůstal starým dobrým zvykem. Bylo to potřetí.[[/b]]\n\nV okně se tlačili lidé a natahovali krky, aby viděli dolů.\n\nNikdo z nich si nevšiml, že toho rána v hradním příkopu náhodou ležela hromada něčeho. Něčeho, co páchlo.",
+      zh: "那天早上八点半，旧王宫的总理府里，总督们已经坐在了那张靠窗的桌子旁边。\n\n总督一共有十位，这天在场的只有四位。两位年纪大一些：老施特恩贝格和洛布科维茨。另外两位，就是新教徒们心里的头号嫌疑人：斯拉瓦塔和马丁尼茨。\n\n九点前后，楼梯上传来了脚步声。新教等级的贵族们带着随从，一大群人涌进了城堡，挤进了总理府那间不大的屋子。\n\n屋里先是吵，后是骂。旧账一条一条地翻出来，从赫罗布到布劳莫夫，再到维也纳的那封回信。说到最后，矛头全都指向了斯拉瓦塔和马丁尼茨。一位在场的人后来记下了贵族们的话：\n\n[[quote:0]]\n\n两位老总督被人请出了屋子。他们跟这件事关系不大，可以先走。\n\n屋里只剩下斯拉瓦塔、马丁尼茨，还有一位倒霉的书记官法布里修斯。\n\n[[b]]上一回，他们写了信，等来的是一句“闭嘴”。这一回，他们不打算再写信了。[[/b]]\n\n据说，这时人群里有人喊了一句：\n\n[[quote:1]]\n\n接下来的事，发生得很快。\n\n几位贵族一把揪住了马丁尼茨，把他拖到窗前。马丁尼茨一边挣扎，一边高声祈祷：\n\n[[quote:2]]\n\n话音未落，他就被扔了出去，帽子都没来得及戴，从三十肘尺、大约十七米高的窗口，直直地掉进了城堡下面的壕沟。\n\n接着是斯拉瓦塔。这一回，图尔恩伯爵亲自动手。斯拉瓦塔死死抓住窗框不肯撒手，贵族们就砸他的手指，砸得鲜血直流，他才松开。\n\n最后是书记官法布里修斯。他什么也没签过，什么也没写过，只是那天刚好在屋里上班。\n\n三个人，一个接一个，消失在窗外。这一幕，似曾相识。\n\n差不多两百年前，[[link:the-first-defenestration-1419]]1419年[[/link]]，布拉格人把市政官扔出了新城市政厅的窗户；一百三十五年前，[[link:the-window-opens-again-1483]]1483年[[/link]]，他们又把老城市长扔出了老城市政厅的窗户。而今天，轮到了城堡旧王宫的窗户。\n\n[[b]]老规矩，还是老规矩。这是第三次了。[[/b]]\n\n窗口挤满了人，大家探着头往下看。\n\n他们谁也没注意到，那天早上，城堡的壕沟里，刚好堆着一样东西，臭烘烘的。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "old-royal-palace",
+        relation: {
+          en: "The chancellery is through a doorway in the corner of Vladislav Hall. The three men went out of one of its windows.",
+          cz: "Do kanceláře se vchází dveřmi v rohu Vladislavského sálu. Tři muži vyletěli jedním z jejích oken.",
+          zh: "从弗拉迪斯拉夫大厅角落的一扇门进去，就是当年的总理府。三个人就是从这里的一扇窗户被扔出去的。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/Druh%C3%A1_pra%C5%BEsk%C3%A1_defenestrace",
+  },
+  {
+    slug: "dung-or-angels-1618",
+    era: "fire-and-ashes",
+    images: ["/history/dung-or-angels-1618.webp"],
+    imageCaptions: [
+      {
+        en: "Two versions of 23 May 1618: on the left, the Virgin's cloak and two angels lower the three men gently to the ground; on the right, they have landed on the rubbish and dung heap in the castle moat, Slavata bleeding from the head, Fabricius already running, while a noble fires down from the window.",
+        cz: "Dvě verze 23. května 1618: vlevo snáší Panna Maria pláštěm a dva andělé všechny tři muže zlehka k zemi; vpravo dopadli na hromadu odpadků a hnoje v hradním příkopu, Slavata krvácí z hlavy, Fabricius už utíká a z okna po nich kdosi střílí.",
+        zh: "1618年5月23日之后的两种说法：左边，圣母用斗篷、天使用翅膀把三人轻轻托下；右边，三人摔在城堡壕沟的垃圾和粪堆上，斯拉瓦塔头破血流，法布里修斯已经跑了，楼上还有人朝下开枪。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "Calling without cease on the names of Jesus and Mary, he came down to the ground as gently as if he were sitting down, and so, through the intercession of the Virgin Mary and God's protection, he took no harm from that terrible fall, stout as he was. And there were pious and trustworthy people who testified that, crossing the great bridge in a procession at that moment, they saw with their own eyes the Most Holy Virgin Mary holding that lord up in the air with her cloak and bringing him down to the ground.",
+          cz: "Vzývaje bez ustání jméno Ježíše a Marie, snesl se na zem tak zlehka, jako by si sedal, a tak skrze přímluvu Panny Marie a ochranu Boží v tom strašném pádu žádné škody neutrpěl, ač byl tělnatý. A byli lidé pobožní a hodnověrní, kteří dosvědčili, že jdouce tehdy s procesím přes velký most viděli na vlastní oči Nejsvětější Pannu Marii, kterak toho pána svým pláštěm v povětří držela a na zem jej snesla.",
+          zh: "他一边不停地呼喊耶稣和玛利亚的名字，一边轻轻地落到地上，就像坐下来一样。靠着圣母的代祷和天主的保佑，他虽然身子肥胖，从那么可怕的高处摔下来，却毫发无伤。还有几位虔诚可信的人作证说，他们当时正随着游行队伍走过大桥，亲眼看见至圣童贞玛利亚用她的斗篷在半空中托住这位大人，把他稳稳放到了地上。",
+        },
+        attribution: {
+          en: "Vilém Slavata's own account of the defenestration",
+          cz: "Vilém Slavata ve vlastním líčení defenestrace",
+          zh: "斯拉瓦塔本人对这次掷出窗外事件的记述",
+        },
+      },
+    ],
+    startYear: 1618.41,
+    year: {
+      en: "23 May 1618",
+      cz: "23. května 1618",
+      zh: "1618年5月23日",
+    },
+    tone: "humorous",
+    title: {
+      en: "Dung or Angels?",
+      cz: "Hnůj, nebo andělé?",
+      zh: "“屎”还是“天使”？",
+    },
+    hookLine: {
+      en: "Thrown from a window seventeen metres up, all three men lived. Who had saved them was something Catholics and Protestants argued about for years.",
+      cz: "Vyhodili je z okna ve výšce sedmnácti metrů a všichni tři přežili. Kdo je zachránil, o tom se katolíci s protestanty přeli ještě léta.",
+      zh: "从十七米高的窗口扔下去，三个人都活了。至于是谁救了他们，天主教和新教吵了好多年。",
+    },
+    summary: {
+      en: "The people at the window leaned out, expecting to see three corpses.\n\nBut down in the moat, someone moved.\n\nFirst Martinic. He had landed right under the window, and a stout man at that. He felt himself over and found that his bones all seemed to be where they belonged. Then Fabricius the secretary, who scrambled to his feet without even stopping to brush himself off. Slavata was hurt worst. He had struck his head on the way down, and after landing he kept rolling, down the slope of the moat and a long way from the wall. His face was covered in blood. But he was still breathing too.\n\nUpstairs, the lords came to their senses. Someone fired a shot down at them. It missed.\n\n[[b]]The men at the window had wanted three lives, and they got none.[[/b]]\n\nBut how? Seventeen metres!\n\nThe answer lay at the bottom of the moat. The castle's rubbish, the kitchen slops and the muck from the stables were all usually tipped into this moat, and over time it had piled up into one large, deep heap.\n\nThe three gentlemen had landed right on it. It is also the most famous heap of dung in European history.\n\n[[b]]The men who threw them had worked out exactly how high the window was. They hadn't worked out what was underneath it.[[/b]]\n\nThe Catholic side, of course, told it differently. It was a miracle, they said. Martinic had called on the Mother of God all the way down, and heaven had reached out to catch them. Some said angels spread their wings and bore them up. Slavata later put it more precisely:\n\n[[quote:0]]\n\nBefore long, pamphlets and prints were circulating, showing the three officials floating gently down in the care of heaven.\n\nThe pictures, naturally, left out the heap.\n\n[[b]]Under the same window, the Catholics saw angels, and the Protestants smelled dung.[[/b]]\n\nBy then, Fabricius had already climbed out of the heap and was running for Vienna.",
+      cz: "Lidé v okně se naklonili ven a čekali, že dole uvidí tři mrtvoly.\n\nJenže na dně příkopu se někdo pohnul.\n\nNejdřív Martinic. Dopadl přímo pod okno, a to byl pán dost tělnatý. Ohmatal se a zjistil, že kosti má nejspíš všechny na svém místě. Pak písař Fabricius, který se vyškrábal na nohy a ani se neoprášil. Nejhůř dopadl Slavata. Cestou dolů se uhodil do hlavy a po dopadu se ještě kutálel dál, po svahu příkopu, kus daleko od zdi. Obličej měl celý od krve. Ale i on ještě dýchal.\n\nNahoře se páni vzpamatovali. Kdosi za nimi vystřelil. Netrefil.\n\n[[b]]Ti u okna chtěli tři životy a nedostali ani jeden.[[/b]]\n\nJak je to možné? Sedmnáct metrů!\n\nOdpověď ležela na dně příkopu. Hradní odpadky, splašky z kuchyně i hnůj ze stájí se obvykle sypaly právě do tohoto příkopu a časem se z nich nakupila pořádně vysoká hromada.\n\nTři páni dopadli přímo na ni. Je to zároveň nejslavnější hromada hnoje v evropských dějinách.\n\n[[b]]Ti, kdo je vyhazovali, si přesně spočítali, jak vysoko je okno. Nespočítali si, co je pod ním.[[/b]]\n\nKatolická strana to ovšem vyprávěla jinak. Byl to prý zázrak. Martinic celou cestu dolů vzýval Matku Boží a nebesa vztáhla ruku, aby je zachytila. Někdo tvrdil, že je na křídlech zachytili andělé. Slavata to později popsal přesněji:\n\n[[quote:0]]\n\nZanedlouho kolovaly letáky a rytiny, na nichž se tři úředníci v péči nebes zlehka snášejí k zemi.\n\nHromada na nich pochopitelně chyběla.\n\n[[b]]Pod stejným oknem viděli katolíci anděly a protestanti cítili hnůj.[[/b]]\n\nTo už se Fabricius vyhrabal z hromady a utíkal do Vídně.",
+      zh: "窗口的人们探着头往下看，等着看见三具尸体。\n\n可壕沟底下，有人动了。\n\n先是马丁尼茨。他正好落在窗户底下，身子还挺胖。他摸了摸自己，发现骨头好像都还在。接着是书记官法布里修斯，他一骨碌爬起来，连身上的土都顾不上拍。斯拉瓦塔伤得最重：往下掉的时候头撞破了，落地以后又顺着壕沟的斜坡一路滚下去，滚出去老远，满脸是血，可他也还在喘气。\n\n楼上的人回过神来，有人朝下面开了枪，没打中。\n\n[[b]]扔的人想要三条命，结果一条也没拿到。[[/b]]\n\n可这到底是怎么回事？十七米啊。\n\n答案就在壕沟底下。城堡里的垃圾、厨房的泔水、马厩里的粪肥，平常都往这道壕沟里倒，日积月累，堆成了厚厚的一大堆。\n\n三位大人，正好掉在了这堆粪上。这也是欧洲历史上最有名的一堆粪。\n\n[[b]]扔的人算准了窗户有多高，却没算到窗户底下有什么。[[/b]]\n\n当然，天主教那边可不这么说。他们说，这是奇迹：马丁尼茨往下掉的时候，一直在呼喊圣母的名字，于是上天伸出了援手。有人说，是天使展开翅膀托住了他们。斯拉瓦塔后来写得更具体：\n\n[[quote:0]]\n\n没过多久，各地就印出了小册子和版画，画上的三位官员，正被天上的力量轻轻地托着往下落。\n\n画里当然没有那堆粪。\n\n[[b]]同一扇窗户底下，天主教看见了天使，新教闻到了粪味。[[/b]]\n\n这时候，法布里修斯早已从粪堆里爬出来，拔腿往维也纳跑了。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "zahrada-na-valech",
+        relation: {
+          en: "Where the old moat was. Two small obelisks stand in the garden, said to mark where Martinic and Slavata landed.",
+          cz: "Místo bývalého příkopu. V zahradě stojí dva malé obelisky, které prý označují místa, kam dopadli Martinic a Slavata.",
+          zh: "当年的壕沟一带。花园里立着两座小方尖碑，据说标的就是马丁尼茨和斯拉瓦塔落地的地方。",
+        },
+      },
+      {
+        slug: "slavatuv-obelisk",
+        relation: {
+          en: "Slavata's obelisk, out in the open garden: after striking his head, he rolled on down the slope of the moat.",
+          cz: "Slavatův obelisk stojí volně v zahradě: Slavata se po úderu do hlavy skutálel ještě kus po svahu příkopu.",
+          zh: "斯拉瓦塔的方尖碑立在花园中间：他磕破了头之后，又顺着壕沟的斜坡滚下去了一段。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Defenestrations_of_Prague",
+  },
+  {
+    slug: "a-government-of-thirty-1618",
+    era: "fire-and-ashes",
+    images: ["/history/a-government-of-thirty-1618.webp"],
+    imageCaptions: [
+      {
+        en: "The directors' council in late May 1618: Roupov at the head of the table, palms raised to keep the peace; lords on one side, knights on the other, townsmen in front, and the one Catholic at the far end. Thurn stands rather than sits, and Hohenlohe, behind him, is watching him. On the wall, Matthias's portrait still hangs.",
+        cz: "Zasedání direktorů koncem května 1618: Václav Vilém z Roupova v čele stolu zvedá dlaně a uklidňuje spory; na jedné straně páni, na druhé rytíři, vpředu zástupci měst a na konci stolu jediný katolík. Thurn nesedí, stojí stranou a Hohenlohe za ním ho bedlivě sleduje. Na stěně dál visí Matyášův portrét.",
+        zh: "1618年5月，执政府开会：主位上的鲁波夫两手一摊打圆场，左边是贵族，右边是骑士，前排是城市代表，桌尾坐着唯一的天主教徒；图尔恩没入座，站在一旁，身后的霍恩洛厄正盯着他。墙上挂着的，仍是马蒂亚斯的画像。",
+      },
+    ],
+    startYear: 1618.45,
+    year: {
+      en: "May–June 1618",
+      cz: "Květen až červen 1618",
+      zh: "1618年5月至6月",
+    },
+    tone: "humorous",
+    title: {
+      en: "A Government of Thirty",
+      cz: "Vláda třiceti",
+      zh: "三十个人的政府",
+    },
+    hookLine: {
+      en: "After the window, the Protestant lords chose thirty men to run the country. They still called themselves the king's loyal subjects, and they were already hiring soldiers.",
+      cz: "Po okně si protestantští páni zvolili třicet mužů, kteří měli spravovat zemi. Pořád se nazývali věrnými poddanými krále, a už najímali vojáky.",
+      zh: "窗户事件之后，新教贵族们选出三十个人来管国家。他们嘴上仍说自己是国王忠实的臣民，手上已经在招兵买马。",
+    },
+    summary: {
+      en: "Fabricius was running for Vienna. The other two were not so quick.\n\nSlavata couldn't walk. He was carried into the Lobkowicz house, inside the castle and not far from the chancellery. The lady of the house, Polyxena, was a devout Catholic noblewoman. When the rebels came looking for him, so the story goes, she hid Slavata, stood in the doorway herself and sent them away.\n\nMartinic, not long after, slipped out of Bohemia in disguise.\n\nThrowing the men out had taken a few minutes. What to do next was harder.\n\nOn 25 May the Protestant estates met in Prague and elected thirty directors to run the country.\n\nHow do you split thirty? Ten lords, ten knights and ten men from the towns: one share for each estate, so nobody could complain. Almost all of them were Protestants. One Catholic was let in, as a gesture.\n\nAt their head they put Václav Vilém of Roupov, chosen mainly because every side could just about live with him.\n\nCount Thurn, the real driving force, did not take a seat among the thirty. He wanted a different job: commander of the army.\n\nThe directors knew their count. So they also appointed Count Hohenlohe to look after defence, so that Thurn would not be the only one giving orders.\n\n[[b]]One of the new government's first acts was to find someone to keep an eye on its own general.[[/b]]\n\nAnd they still would not call it a rebellion. They went on treating Matthias as their king, with every courtesy. Not even Ferdinand, accepted as king only the year before, was declared deposed.\n\nThey printed a defence of what they had done, the Apology, in Czech, German, Latin and Dutch, and sent a copy to the emperor. It said, more or less: this was no rebellion. We only punished two traitors who broke the Letter of Majesty, the men behind [[link:two-churches-1617]]Hrob and Broumov[[/link]]. Your Majesty, we remain your loyal subjects.\n\n[[b]]They said there was no rebellion, and meanwhile they set up a government of their own.[[/b]]\n\nBut a government needs more than words. It needs money and soldiers.\n\nThe money was easy: the taxes that should have gone to the Habsburg treasury were simply kept in Bohemia.\n\nThe soldiers were harder. The directors ordered every tenth peasant and every eighth townsman to serve in a militia. Hardly anyone did. In the end they paid for mercenaries, and in June Thurn had about four thousand men.\n\nThey also found time for something Protestants had wanted for years: the Jesuits were thrown out of Prague.\n\nNot the whole kingdom went along, though. Three towns, Plzeň, Český Krumlov and České Budějovice, stayed on the emperor's side. Next door, Moravia would not join either; Karel of Žerotín talked its estates into staying neutral.\n\nThe government of thirty was up and running. In Vienna, nobody had yet decided what to do about it.",
+      cz: "Fabricius utíkal do Vídně. Ti druzí dva tak rychlí nebyli.\n\nSlavata chodit nemohl. Odnesli ho do lobkovického domu na hradě, nedaleko kanceláře. Paní domu, Polyxena, byla zbožná katolická šlechtična. Když ho povstalci přišli hledat, prý Slavatu ukryla, sama se postavila do dveří a poslala je pryč.\n\nMartinic zanedlouho v přestrojení potají utekl z Čech.\n\nVyhodit je z okna trvalo pár minut. Co dál, to už bylo těžší.\n\nDvacátého pátého května se protestantští stavové sešli v Praze a zvolili třicet direktorů, kteří měli spravovat zemi.\n\nJak rozdělit třicet míst? Deset pánů, deset rytířů a deset zástupců měst: každý stav stejný díl, aby si nikdo nemohl stěžovat. Skoro všichni byli protestanti. Jednoho katolíka mezi sebe pustili, pro dobrý dojem.\n\nV čele stanul Václav Vilém z Roupova, zvolený hlavně proto, že ho všechny strany jakžtakž snesly.\n\nHrabě Thurn, skutečný hybatel, mezi třicet direktorů nezasedl. Chtěl jiné místo: velitele vojska.\n\nDirektoři svého hraběte znali. Jmenovali proto ještě hraběte Hohenloheho, aby měl na starosti obranu a Thurn nevelel úplně sám.\n\n[[b]]Jedním z prvních kroků nové vlády bylo najít někoho, kdo by hlídal jejího vlastního generála.[[/b]]\n\nA pořád to nechtěli nazvat vzpourou. Matyáše dál uctivě považovali za svého krále. Ani Ferdinanda, teprve loni přijatého za krále, za sesazeného neprohlásili.\n\nVytiskli obhajobu svého činu, Apologii, česky, německy, latinsky a nizozemsky, a jeden výtisk poslali císaři. Stálo v ní zhruba tohle: žádná vzpoura to nebyla. Jen jsme potrestali dva zrádce, kteří porušili Majestát, ty, kdo stáli za [[link:two-churches-1617]]Hrobem a Broumovem[[/link]]. Vaše Milosti, zůstáváme vašimi věrnými poddanými.\n\n[[b]]Tvrdili, že žádná vzpoura není, a přitom si postavili vlastní vládu.[[/b]]\n\nJenže vláda potřebuje víc než slova. Potřebuje peníze a vojáky.\n\nS penězi to bylo snadné: daně, které měly jít do habsburské pokladny, si prostě nechali v Čechách.\n\nS vojáky to bylo horší. Direktoři nařídili, aby do zemské hotovosti nastoupil každý desátý sedlák a každý osmý měšťan. Skoro nikdo nepřišel. Nakonec najali žoldnéře a v červnu měl Thurn asi čtyři tisíce mužů.\n\nNašli si čas i na věc, po které protestanti toužili léta: jezuity vyhnali z Prahy.\n\nCelé království se ale nepřidalo. Tři města, Plzeň, Český Krumlov a České Budějovice, zůstala na straně císaře. Ani sousední Morava se nepřipojila; Karel z Žerotína přemluvil tamní stavy k neutralitě.\n\nVláda třiceti stála. Ve Vídni se ale ještě nikdo nerozhodl, co s ní.",
+      zh: "法布里修斯在往维也纳跑，另外两位可没那么快。\n\n斯拉瓦塔走不动，被人抬进了城堡里离总理府不远的洛布科维茨府。府上的女主人波利克塞娜，是一位虔诚的天主教贵妇。据说追兵上门搜人的时候，她把斯拉瓦塔藏好，自己站在门口，硬是把人挡了回去。\n\n马丁尼茨没过多久也乔装打扮，悄悄逃出了波希米亚。\n\n把人扔出去，只用了几分钟。接下来怎么办，可就没那么简单了。\n\n5月25日，新教等级在布拉格开会，选出了三十位执政官，把国家交给他们来管。\n\n三十个位子怎么分？贵族十个，骑士十个，城市十个，三个等级一家一份，谁也挑不出理。这些人几乎清一色是新教徒，只放进了一位天主教徒，算是做个姿态。\n\n带头的是鲁波夫的瓦茨拉夫·维莱姆。他能当选，主要是因为各方都还勉强能接受他。\n\n真正的主心骨图尔恩伯爵，反倒没进这三十个人。他要的是另一个位子：军队总司令。\n\n执政官们也知道这位伯爵的脾气，于是又任命了一位霍恩洛厄伯爵来管防务，好让图尔恩别一个人说了算。\n\n[[b]]新政府最早办的几件事里，就有一件是：找个人看住自己的将军。[[/b]]\n\n说起来，他们还是不承认自己在造反。他们照样把马蒂亚斯当作国王，客客气气；连去年刚被“接受”的斐迪南，他们也没有宣布废掉。\n\n他们还印了一份《辩护书》，用捷克语、德语、拉丁语和荷兰语四种文字发了出去，也给皇帝送去一份。意思大概是：我们这不是造反，只是惩罚了两个违反《诏书》的叛徒，[[link:two-churches-1617]]赫罗布和布劳莫夫[[/link]]的事就是他们干的。陛下，我们还是您忠实的臣民。\n\n[[b]]嘴上说没有造反，手上已经搭起了自己的政府。[[/b]]\n\n可光有政府还不够，还得有钱，有兵。\n\n钱好办：原来该交给哈布斯堡国库的税，直接留在波希米亚自己用。\n\n兵就难了。执政官们下令，每十个农民出一个，每八个市民出一个，组成民兵。结果几乎没人理会。最后还是得花钱雇佣兵，到6月，图尔恩手下大约有了四千人。\n\n他们还顺手办了一件新教徒想了很多年的事：把耶稣会士赶出了布拉格。\n\n不过，整个王国并不是都跟着走。比尔森、克鲁姆洛夫和捷克布杰约维采三座城市，仍然站在皇帝一边。隔壁的摩拉维亚也不肯入伙，日罗廷劝那里的等级保持中立。\n\n三十个人的政府搭起来了。只是在维也纳，还没有人决定该拿它怎么办。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "lobkowicz-palace",
+        relation: {
+          en: "The house Slavata was carried into, where its lady, Polyxena, hid him. Today it is the Lobkowicz family's museum, full of the family's collections.",
+          cz: "Dům, do kterého Slavatu odnesli a kde ho paní Polyxena ukryla. Dnes je tu muzeum rodu Lobkoviců s mnoha rodinnými sbírkami.",
+          zh: "斯拉瓦塔被抬进的就是这座府邸，女主人波利克塞娜在这里把他藏了起来。如今是洛布科维茨家族的博物馆，馆里有不少家族收藏。",
+        },
+      },
+      {
+        slug: "plzen",
+        relation: {
+          en: "One of the three towns that stayed loyal to the emperor in 1618.",
+          cz: "Jedno ze tří měst, která v roce 1618 zůstala věrná císaři.",
+          zh: "1618年仍然站在皇帝一边的三座城市之一。",
+        },
+      },
+      {
+        slug: "cesky-krumlov",
+        relation: {
+          en: "One of the three towns that stayed loyal to the emperor in 1618.",
+          cz: "Jedno ze tří měst, která v roce 1618 zůstala věrná císaři.",
+          zh: "1618年仍然站在皇帝一边的三座城市之一。",
+        },
+      },
+      {
+        slug: "ceske-budejovice",
+        relation: {
+          en: "One of the three towns that stayed loyal to the emperor in 1618.",
+          cz: "Jedno ze tří měst, která v roce 1618 zůstala věrná císaři.",
+          zh: "1618年仍然站在皇帝一边的三座城市之一。",
+        },
+      },
+    ],
+    referenceMaps: {
+      links: [
+        {
+          label: "1892",
+          description: {
+            en: "Václav Brožík's painting of Polyxena of Lobkowicz hiding Slavata and Martinic after the defenestration",
+            cz: "Obraz Václava Brožíka: Polyxena z Lobkovic ukrývá místodržící Slavatu a Martinice po defenestraci",
+            zh: "布罗日克的油画：洛布科维茨的波利克塞娜在掷出窗外事件后藏起斯拉瓦塔和马丁尼茨",
+          },
+          url: "https://galeriekodl.cz/en/polozka/2940",
+        },
+      ],
+    },
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A9_stavovsk%C3%A9_povst%C3%A1n%C3%AD",
+  },
+  {
+    slug: "the-cardinal-in-the-antechamber-1618",
+    era: "fire-and-ashes",
+    images: ["/history/the-cardinal-in-the-antechamber-1618.webp"],
+    imageCaptions: [
+      {
+        en: "The Hofburg, Vienna, 20 July 1618: guards haul Cardinal Khlesl out of the emperor's antechamber while Ferdinand and the emperor's brother, Archduke Maximilian, look on, and servants carry off his chest of money for the war. Through the door, the ailing Matthias knows nothing of it.",
+        cz: "Vídeňský Hofburg, 20. července 1618: stráže odvádějí kardinála Khlesla z císařova předpokoje, Ferdinand a císařův bratr arcivévoda Maxmilián přihlížejí a sluhové odnášejí jeho truhlu s penězi na válku. Za dveřmi o ničem z toho neví nemocný Matyáš.",
+        zh: "1618年7月20日，维也纳霍夫堡：红衣主教克莱斯尔在皇帝的前厅被卫兵架走，斐迪南和皇帝的弟弟马克西米利安大公在一旁看着，仆人把他的钱箱搬去充作军费；门里，卧病的马蒂亚斯对这一切毫不知情。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "I see clearly that my husband is living too long for you: is this the thanks he gets for having given you two crowns?",
+          cz: "Vidím jasně, že můj manžel žije na váš vkus příliš dlouho. To je jeho odměna za to, že vám dal dvě koruny?",
+          zh: "我算是看明白了，我丈夫活得太久，碍着你了。他给了你两顶王冠，你就是这么报答他的？",
+        },
+        attribution: {
+          en: "Empress Anna to Ferdinand (quoted in Peter H. Wilson, Europe's Tragedy, 2009)",
+          cz: "Císařovna Anna Ferdinandovi (podle Petera H. Wilsona, Europe's Tragedy, 2009)",
+          zh: "皇后安娜对斐迪南说的话（据彼得·威尔逊《欧洲的悲剧》，2009年）",
+        },
+      },
+    ],
+    startYear: 1618.5,
+    year: {
+      en: "May–July 1618",
+      cz: "Květen až červenec 1618",
+      zh: "1618年5月至7月",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Peacemaker Vanishes",
+      cz: "Zastánce míru zmizel",
+      zh: "主和的人不见了",
+    },
+    hookLine: {
+      en: "Vienna split over whether to talk or to fight, and the man who wanted to talk was arrested on his way to see the emperor.",
+      cz: "Vídeň se rozdělila na ty, kdo chtěli jednat, a ty, kdo chtěli bojovat. Muže, který chtěl jednat, zatkli cestou k císaři.",
+      zh: "维也纳为了该谈还是该打吵成了两派，结果主张谈的那个人，在去见皇帝的路上被抓走了。",
+    },
+    summary: {
+      en: "Fabricius ran all the way to Vienna. He was one of the first to bring the news to the imperial court. The emperor later made him a nobleman, with the title \"von Hohenfall\": \"of the High Fall\".\n\nSoon afterwards the Apology arrived from Prague as well.\n\nSo Vienna had two reports on its desk: one that had come out of a dung heap, and one that had come off a printing press. The court split in two.\n\nOn one side stood Emperor Matthias himself. He was sixty-one, old, ill and childless, and he wanted his last few years to be quiet. His most trusted adviser, Cardinal Khlesl, wanted to talk: give a little ground, find mediators both Catholics and Protestants could accept, and put the fire out. Matthias even offered to go to Bohemia himself to talk things over.\n\nOn the other side stood [[link:the-new-king-1617]]Ferdinand[[/link]], accepted as king of Bohemia only the year before, together with Archduke Maximilian, the emperor's own brother. They wanted to use force. They also had an old score with Khlesl, who had spent years putting off the question of Ferdinand's succession.\n\nOn 1 July Ferdinand was crowned king of Hungary in Pressburg. At the coronation banquet, a bullet narrowly missed Khlesl's head. Nobody ever found out who fired it.\n\n[[b]]That year, it seems, nobody's bullets hit anything.[[/b]]\n\nThe archdukes decided on a quieter method.\n\nOn 20 July 1618 Khlesl went to see the emperor as usual. In the emperor's antechamber, the archdukes' men stopped him and arrested him. The emperor knew nothing about it.\n\nKhlesl was hurried out of Vienna, through Styria and Carinthia to Tyrol, and locked up in Ambras Castle. His cash and jewels, worth some 300,000 florins, went straight into the nearly empty imperial war chest.\n\n[[b]]The man who wanted peace was locked up, and his money went to pay for the war.[[/b]]\n\nMatthias was in bed, ill, and could do nothing. His wife, Empress Anna, could not let it go. She turned on Ferdinand:\n\n[[quote:0]]\n\nThe two crowns were Bohemia and Hungary. Matthias had seen to both.\n\n[[b]]In Prague, the emperor's governors had gone out of a window. In Vienna, the emperor's adviser had been dragged out of his antechamber. Neither had been the emperor's idea.[[/b]]\n\nOld Matthias was still on his throne in Vienna. From now on, though, he was no longer the one making the decisions.\n\nWith the man who wanted to talk gone, only the men who wanted to fight were left.",
+      cz: "Fabricius doběhl až do Vídně. Byl jedním z prvních, kdo tu zprávu donesl na císařský dvůr. Císař ho později povýšil do šlechtického stavu s přídomkem „von Hohenfall“, tedy „z Vysokého pádu“.\n\nBrzy nato dorazila z Prahy i Apologie.\n\nVe Vídni tak měli na stole dvě zprávy: jednu, která vylezla z hromady hnoje, a druhou, která vyjela z tiskařského lisu. Dvůr se rozdělil na dva tábory.\n\nNa jedné straně stál sám císař Matyáš. Bylo mu jedenašedesát, byl starý, nemocný a bezdětný a chtěl mít poslední léta klid. Jeho nejbližší rádce, kardinál Khlesl, chtěl jednat: trochu ustoupit, najít prostředníky, které přijmou katolíci i protestanti, a oheň uhasit. Matyáš dokonce nabízel, že do Čech přijede vyjednávat osobně.\n\nNa druhé straně stál [[link:the-new-king-1617]]Ferdinand[[/link]], teprve loni přijatý za českého krále, a s ním arcivévoda Maxmilián, císařův vlastní bratr. Ti chtěli sáhnout po síle. A s Khleslem měli ještě staré účty: léta odkládal otázku Ferdinandova nástupnictví.\n\nPrvního července byl Ferdinand v Prešpurku korunován uherským králem. Na korunovační hostině prolétla kulka těsně kolem Khleslovy hlavy. Kdo vystřelil, se nikdy nezjistilo.\n\n[[b]]Ten rok se, zdá se, nikdo netrefil.[[/b]]\n\nArcivévodové se rozhodli pro tišší způsob.\n\nDvacátého července 1618 šel Khlesl jako obvykle za císařem. V císařově předpokoji ho lidé arcivévodů zastavili a zatkli. Císař o tom nic nevěděl.\n\nKhlesla narychlo odvezli z Vídně přes Štýrsko a Korutany až do Tyrolska a zavřeli na zámku Ambras. Jeho hotovost a šperky v hodnotě asi tří set tisíc zlatých putovaly rovnou do skoro prázdné císařské válečné pokladny.\n\n[[b]]Muže, který chtěl mír, zavřeli a jeho peníze šly na válku.[[/b]]\n\nMatyáš ležel nemocný v posteli a nemohl dělat nic. Jeho žena, císařovna Anna, to tak nenechala. Obořila se na Ferdinanda:\n\n[[quote:0]]\n\nTy dvě koruny byly česká a uherská. O obě se postaral Matyáš.\n\n[[b]]V Praze vyletěli z okna císařovi místodržící. Ve Vídni vyvlekli z předpokoje císařova rádce. Ani jedno nebyl císařův nápad.[[/b]]\n\nStarý Matyáš ve Vídni dál seděl na trůnu. Jenže od té chvíle už nerozhodoval on.\n\nKdyž zmizel ten, kdo chtěl jednat, zůstali jen ti, kdo chtěli bojovat.",
+      zh: "法布里修斯一口气跑到了维也纳。他是最早把这个消息带进皇宫的人之一。后来皇帝封他做了贵族，封号叫“冯·霍恩法尔”，意思是“高处坠落”。\n\n没过多久，布拉格的《辩护书》也送到了。\n\n于是维也纳的桌上摆了两份报告：一份是从粪堆里爬出来的，一份是从印刷机里印出来的。宫里也分成了两派。\n\n一边是马蒂亚斯皇帝本人。他六十一岁了，又老又病，膝下无子，只想把最后几年太太平平地过完。他最信任的谋士，红衣主教克莱斯尔，主张谈：让一点步，找几位天主教和新教都能接受的人出面调停，先把火压下去。马蒂亚斯甚至表示，愿意亲自去一趟波希米亚，当面谈。\n\n另一边是去年刚被“接受”为波希米亚国王的[[link:the-new-king-1617]]斐迪南[[/link]]，还有皇帝的亲弟弟马克西米利安大公。他们主张动武。而且他们跟克莱斯尔还有一笔旧账：斐迪南的继承问题，这些年一直被他拖着。\n\n7月1日，斐迪南在普雷斯堡加冕为匈牙利国王。庆功宴上，一颗子弹擦着克莱斯尔的脑袋飞了过去。是谁开的枪，始终没查出来。\n\n[[b]]这一年的子弹，好像都打不准。[[/b]]\n\n两位大公决定换个安静点的办法。\n\n1618年7月20日，克莱斯尔像往常一样去见皇帝。走到皇帝的前厅，他被两位大公的人拦下，当场抓了起来。皇帝事先一点也不知道。\n\n克莱斯尔被匆匆押出维也纳，经过施蒂里亚和克恩滕，一路送到蒂罗尔，关进了安布拉斯城堡。他的现金和珠宝，价值约三十万弗罗林，全都进了几乎见底的皇家军费。\n\n[[b]]主和的人被关了起来，他的钱拿去打仗了。[[/b]]\n\n马蒂亚斯这时卧病在床，什么也做不了。皇后安娜咽不下这口气，当面质问斐迪南：\n\n[[quote:0]]\n\n两顶王冠，一顶是波希米亚的，一顶是匈牙利的，都是马蒂亚斯给他安排的。\n\n[[b]]在布拉格，皇帝的总督被扔出了窗外；在维也纳，皇帝的谋士被拖出了前厅。两件事，都不是皇帝的主意。[[/b]]\n\n老皇帝马蒂亚斯还坐在维也纳的宝座上。只是从这时起，拿主意的已经不是他了。\n\n主和的人不见了，剩下的就只有主战的了。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Melchior_Klesl",
+  },
+  {
+    slug: "the-first-reinforcements-1618",
+    era: "fire-and-ashes",
+    images: ["/history/the-first-reinforcements-1618.webp"],
+    imageCaptions: [
+      {
+        en: "Turin, summer 1618: Charles Emmanuel I of Savoy, rosary in one hand, hands Mansfeld a purse of gold with the other. Beside the coins on the table, a sealed letter waits for whoever pays the other half. On the wall hangs his father-in-law, King Philip II of Spain; beyond the window, the mercenaries march north under the white cross of Savoy.",
+        cz: "Turín, léto 1618: savojský vévoda Karel Emanuel I. drží v jedné ruce růženec a druhou podává Mansfeldovi měšec zlata. Vedle mincí na stole čeká zapečetěný dopis na toho, kdo zaplatí druhou polovinu. Na stěně visí jeho tchán, španělský král Filip II.; za oknem táhnou žoldnéři na sever pod bílým křížem Savojska.",
+        zh: "1618年夏，都灵：萨伏依公爵卡洛·埃马努埃莱一世一手攥着念珠，一手把一袋金币递给曼斯菲尔德；桌上的金币旁边，放着一封封好的信，等着另一半军饷的出钱人。墙上挂着他的岳父、西班牙国王腓力二世的画像；窗外，雇佣兵正举着萨伏依的白十字旗往北开拔。",
+      },
+    ],
+    startYear: 1618.8,
+    year: {
+      en: "August–September 1618",
+      cz: "Srpen až září 1618",
+      zh: "1618年8月至9月",
+    },
+    tone: "humorous",
+    title: {
+      en: "The First Reinforcements",
+      cz: "První posily",
+      zh: "第一支援军",
+    },
+    hookLine: {
+      en: "The emperor's troops marched into Bohemia, and Prague had neither the men nor the money. The first reinforcements arrived, paid for by a Catholic duke.",
+      cz: "Císařská vojska vtáhla do Čech a Praha neměla dost mužů ani peněz. Přišly první posily a zaplatil je katolický vévoda.",
+      zh: "皇帝的军队开进了波希米亚，布拉格却兵不够、钱也不够。第一支援兵来了，出钱雇他们的，却是一位天主教公爵。",
+    },
+    summary: {
+      en: "In Vienna the war party had won, and the emperor's troops were soon on the march into Bohemia.\n\nIn August the first imperial army, under General Dampierre, crossed the border to open the road to the three loyal towns. Around Jindřichův Hradec it got nowhere, and Thurn's men pushed it back.\n\nBut Prague was short of men and short of money. Thurn's few thousand soldiers could hold off an attack. Winning a war was another matter.\n\nThen help arrived from the west.\n\nIt was led by Ernst von Mansfeld, the illegitimate son of a count, who had grown up in army camps and spent half his life at war. He would fight for anyone, as long as someone paid.\n\nThis time the paymaster was the Duke of Savoy, far away in Italy: Charles Emmanuel I.\n\nThe duke was a Catholic, famous for his temper; people called him \"Hothead\". His wife had been a daughter of King Philip II of Spain. By faith and by family, he belonged on the Habsburg side.\n\nHe did not see it that way.\n\nFor years he had been fighting the Spanish Habsburgs over Montferrat, a patch of land in northern Italy. Mansfeld's men were the very army he had hired to fight the Spaniards. The war ended in 1617, the soldiers were still on his payroll, and the duke was wondering what to do with them.\n\nThen Bohemia rose in revolt.\n\nTo the duke, the Habsburgs' trouble was his opportunity. He offered to lend Mansfeld's army to Prague and pay half its wages, with the other half to come from a German Protestant prince, Frederick, Elector Palatine.\n\nHe also had a bigger sum in mind: if the Habsburgs came to grief in Bohemia, the imperial crown might one day land on his own head.\n\nSo Mansfeld marched into Bohemia with some two thousand men.\n\n[[b]]The Protestants' first reinforcements were paid for by a Catholic duke. He was not doing it for his faith. He just wanted to make life hard for the Habsburgs.[[/b]]\n\nMansfeld's first target was Plzeň, in western Bohemia.",
+      cz: "Ve Vídni zvítězila válečná strana a císařská vojska brzy táhla do Čech.\n\nV srpnu překročilo hranici první císařské vojsko pod velením generála Dampierra, aby si prorazilo cestu k těm třem věrným městům. U Jindřichova Hradce nepochodilo a Thurnovi vojáci ho zatlačili zpátky.\n\nPraha ale neměla dost vojáků ani peněz. Thurnových pár tisíc mužů dokázalo útok odrazit. Vyhrát válku byla jiná věc.\n\nA tehdy přišla pomoc ze západu.\n\nVedl ji Arnošt z Mansfeldu, nemanželský syn jednoho hraběte, který vyrostl ve vojenských táborech a půl života strávil ve válce. Bojoval za kohokoli, jen když mu někdo platil.\n\nTentokrát platil savojský vévoda z daleké Itálie, Karel Emanuel I.\n\nVévoda byl katolík a proslulý horká hlava; tak mu také přezdívali. Za ženu měl dceru španělského krále Filipa II. Vírou i příbuzenstvím patřil na stranu Habsburků.\n\nOn to tak ale neviděl.\n\nCelé roky válčil se španělskými Habsburky o Montferrat, kus země v severní Itálii. Mansfeldovi muži byli právě to vojsko, které si najal proti Španělům. V roce 1617 válka skončila, vojáci mu dál zůstávali na výplatní listině a vévoda nevěděl, co s nimi.\n\nA tehdy se vzbouřily Čechy.\n\nPro vévodu byly habsburské potíže jeho příležitostí. Nabídl, že Mansfeldovo vojsko půjčí Praze a zaplatí polovinu žoldu; druhou polovinu měl platit německý protestantský kníže Fridrich Falcký.\n\nV hlavě měl ještě větší účet: kdyby Habsburkové v Čechách padli na nos, mohla by jednou císařská koruna dopadnout na jeho vlastní hlavu.\n\nMansfeld tedy vtáhl do Čech asi se dvěma tisíci muži.\n\n[[b]]První posily protestantů zaplatil katolický vévoda. Nešlo mu o víru. Chtěl jen zavařit Habsburkům.[[/b]]\n\nMansfeldovým prvním cílem byla Plzeň na západě Čech.",
+      zh: "维也纳那边主战派占了上风，皇帝的军队很快就开进了波希米亚。\n\n8月，第一支皇帝的军队在当皮埃尔将军的率领下越过了边境，想打通去那三座忠于皇帝的城市的路。结果在因德日赫城堡一带没能得手，被图尔恩的人挡了回去。\n\n可布拉格这边，兵还没招齐，钱也不够花。图尔恩手下那几千人，挡一挡还行，要打胜仗，还差得远。\n\n就在这时，一支援兵从西边来了。\n\n带兵的人叫恩斯特·冯·曼斯菲尔德。他是一位伯爵的私生子，从小在军营里长大，打了半辈子仗，替谁打都行，只要有人出钱。\n\n这一回出钱的，是远在意大利的萨伏依公爵，卡洛·埃马努埃莱一世。\n\n这位公爵是个天主教徒，脾气出了名的火爆，外号就叫“火爆脑袋”。他娶的，还是西班牙国王腓力二世的女儿。论信仰，论亲戚，他都该站在哈布斯堡家那边。\n\n可他偏不。\n\n这些年，为了意大利北部蒙费拉托的一块地盘，他跟西班牙的哈布斯堡家打了好几年仗。曼斯菲尔德手下这支兵，本来就是他雇来打西班牙人的。1617年仗打完了，兵还养着，公爵正发愁怎么处置。\n\n这时，波希米亚反了。\n\n在公爵看来，哈布斯堡家的麻烦，就是他的机会。他答应把曼斯菲尔德的兵借给布拉格，军饷他出一半，另一半由德意志的新教诸侯普法尔茨选帝侯腓特烈来出。\n\n他心里还有一笔更大的账：哈布斯堡家要是在波希米亚栽了跟头，说不定有朝一日，皇冠能落到他自己头上。\n\n于是，曼斯菲尔德带着两千来人，进了波希米亚。\n\n[[b]]新教徒的第一支援军，是一位天主教公爵出的钱。他图的不是信仰，只是给哈布斯堡家添堵。[[/b]]\n\n曼斯菲尔德的第一个目标，是西波希米亚的比尔森。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "jindrichuv-hradec",
+        relation: {
+          en: "Where the first imperial army got stuck in August 1618.",
+          cz: "Tady v srpnu 1618 uvízlo první císařské vojsko.",
+          zh: "1618年8月，皇帝的第一支军队在这一带碰了壁。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Ernst_von_Mansfeld",
+  },
+  {
+    slug: "a-first-victory-1618",
+    era: "fire-and-ashes",
+    images: ["/history/a-first-victory-1618.webp"],
+    imageCaptions: [
+      {
+        en: "Plzeň, 21 November 1618: after a two-month siege, Mansfeld's heavy guns have opened a breach beside the Prague Gate and his mercenaries storm across the moat. The emperor's double-headed eagle flies over the town; outside it fly the white lion of Bohemia and the white cross of Mansfeld's Savoyard troops.",
+        cz: "Plzeň, 21. listopadu 1618: po dvou měsících obléhání prorazila Mansfeldova těžká děla hradby u Pražské brány a žoldnéři se ženou přes příkop do města. Nad městem vlaje císařská dvouhlavá orlice, venku český bílý lev a bílý kříž Mansfeldových savojských oddílů.",
+        zh: "1618年11月21日，比尔森：围了两个月之后，曼斯菲尔德的重炮在布拉格门旁轰开缺口，雇佣兵越过护城河冲进城去；城头插着皇帝的双头鹰旗，城外是波希米亚的白狮旗和萨伏依援军的白十字旗。",
+      },
+    ],
+    startYear: 1618.85,
+    year: {
+      en: "September–November 1618",
+      cz: "Září až listopad 1618",
+      zh: "1618年9月至11月",
+    },
+    tone: "humorous",
+    title: {
+      en: "A First Victory",
+      cz: "První vítězství",
+      zh: "初战告捷",
+    },
+    hookLine: {
+      en: "The first town Mansfeld took in Bohemia was a Catholic stronghold that not even the Hussites had managed to break.",
+      cz: "Prvním městem, které Mansfeld v Čechách dobyl, byla katolická bašta, kterou nezlomili ani husité.",
+      zh: "曼斯菲尔德到了波希米亚，打下的第一座城，是一座连胡斯派都没能攻破的天主教城市。",
+    },
+    summary: {
+      en: "Plzeň was one of the kingdom's great towns and its best-known Catholic stronghold. Nearly two hundred years earlier, in the Hussite Wars, the Hussites had [[link:the-besiegers-go-hungry-1433]]besieged it for months[[/link]] and never got in. Now the [[link:a-government-of-thirty-1618]]government of thirty[[/link]] sent envoys asking it to join them, or at least stay neutral. Plzeň flatly refused, and let in a detachment of the emperor's troops.\n\nIn September Mansfeld surrounded Plzeň.\n\nThe town held out hard. Its walls were old, but a river and deep water-filled ditches lay in front of them, and the townspeople stood together. After two months of siege, the town still had not fallen.\n\n[[b]]This town kept even Mansfeld busy for two months.[[/b]]\n\nMansfeld waited for his heavy guns and turned them on the walls day after day. The walls cracked in several places, and at last a breach opened near the Prague Gate.\n\nOn 21 November 1618 Mansfeld ordered a general assault, and his mercenaries poured in through the gap. Even then the defenders would not give up. They set fire to the town and dug in on the square, and the attackers had to break their way forward through the walls of one house after another. In the end the garrison fell back into the Franciscan monastery, and Plzeň surrendered.\n\n[[b]]The town the Hussites could not take, the Protestants took.[[/b]]\n\nWhat happened next surprised a good many people. Soldiers who fought for pay did not usually leave a captured town empty-handed. This time, under repeated orders from Prague, Mansfeld kept his men in hand, and the town was not sacked.\n\nHe did not leave empty-handed either, of course. He demanded 120,000 gold gulden from Plzeň in war damages, plus another 47,000 florins as the price of not burning the town down.\n\nThe town was not looted. It was simply sent a bill.\n\nWhen the news reached Prague, the Protestant lords breathed a huge sigh of relief. The war had barely begun, and they had already cracked the hardest nut in the kingdom.\n\n[[b]]Half a year after the window, the Protestants had finally won a proper fight.[[/b]]\n\nThat winter, whether by coincidence or not, a huge comet appeared in the sky, trailing a long tail, and hung over Europe for weeks.\n\nPeople in Prague craned their necks and argued about it. The Protestants said heaven had lit a lamp for their victory. The Catholics said it was an omen of disaster. In Linz, Kepler saw it too, and later wrote a book about that year's comets.\n\nEvents would prove the Catholics half right: disaster was indeed on its way. Nobody yet knew whose heads it would fall on.\n\nFor now, Thurn was already turning over another idea: if we can hold them off, why not take the war to them?",
+      cz: "Plzeň patřila k velkým městům království a byla jeho nejznámější katolickou baštou. Skoro před dvěma sty lety ji za husitských válek husité [[link:the-besiegers-go-hungry-1433]]obléhali celé měsíce[[/link]], a dovnitř se nedostali. Teď za ní [[link:a-government-of-thirty-1618]]vláda třiceti[[/link]] poslala vyslance s výzvou, aby se přidala, nebo aspoň zůstala neutrální. Plzeň rozhodně odmítla a vpustila si do hradeb oddíl císařských vojáků.\n\nV září Mansfeld Plzeň oblehl.\n\nMěsto se drželo tuze. Hradby mělo staré, ale před nimi tekla řeka a vedly hluboké vodní příkopy a měšťané drželi pohromadě. Po dvou měsících obléhání město pořád nepadlo.\n\n[[b]]Tohle město dalo dva měsíce práce i Mansfeldovi.[[/b]]\n\nMansfeld se dočkal těžkých děl a obrátil je den co den proti hradbám. Hradby popraskaly na několika místech a u Pražské brány se nakonec otevřel průlom.\n\nDvacátého prvního listopadu 1618 vyhlásil Mansfeld generální útok a jeho žoldnéři se průlomem hrnuli do města. Obránci se ani pak nevzdali. Zapálili město a opevnili se na náměstí, takže útočníci se museli prosekávat zdmi jednoho domu za druhým. Nakonec se posádka stáhla do františkánského kláštera a Plzeň kapitulovala.\n\n[[b]]Město, které nedobyli husité, dobyli protestanti.[[/b]]\n\nTo, co přišlo potom, leckoho překvapilo. Vojáci, kteří bojovali za peníze, obvykle z dobytého města neodcházeli s prázdnou. Tentokrát Mansfeld na opakované pokyny z Prahy své muže udržel na uzdě a město vypleněno nebylo.\n\nS prázdnou ovšem neodešel ani on. Požadoval po Plzni 120 000 zlatých válečné náhrady a k tomu dalších 47 000 zlatých jako cenu za to, že město nevypálí.\n\nMěsto nevyrabovali. Jen mu poslali účet.\n\nKdyž zpráva dorazila do Prahy, protestantští páni si ulehčeně oddechli. Válka sotva začala, a už rozlouskli nejtvrdší oříšek v království.\n\n[[b]]Půl roku po okně vyhráli protestanti konečně pořádnou bitvu.[[/b]]\n\nTé zimy se, ať už náhodou, nebo ne, objevila na obloze obrovská kometa s dlouhým ohonem a týdny visela nad Evropou.\n\nPražané zakláněli hlavy a dohadovali se. Protestanti říkali, že nebesa rozsvítila lampu na oslavu jejich vítězství. Katolíci, že je to znamení neštěstí. V Linci ji viděl i Kepler a později o kometách toho roku napsal knihu.\n\nUkázalo se, že katolíci měli napůl pravdu: neštěstí opravdu přicházelo. Jen nikdo ještě nevěděl, na čí hlavu dopadne.\n\nThurn už mezitím přemýšlel o něčem jiném: když je dokážeme zastavit, proč nejít na ně?",
+      zh: "比尔森是波希米亚的大城，也是王国里出了名的天主教堡垒。将近两百年前胡斯战争的时候，胡斯派[[link:the-besiegers-go-hungry-1433]]围了它好几个月[[/link]]，也没能打进去。这一回，[[link:a-government-of-thirty-1618]]三十个人的政府[[/link]]派人去劝它入伙，至少保持中立，比尔森人一口回绝了，还把一支皇帝的援兵放进了城。\n\n9月，曼斯菲尔德把比尔森团团围住。\n\n比尔森人守得很硬。城墙虽然老了，可墙外有河，还有又深又宽的护城河，市民也齐心。围了两个月，城还是没破。\n\n[[b]]这座城，曼斯菲尔德也啃了两个月。[[/b]]\n\n曼斯菲尔德等来了重炮，对着城墙日夜轰击。城墙好几处被打坏，布拉格门一带终于被轰开了一个缺口。\n\n1618年11月21日，曼斯菲尔德下令总攻，雇佣兵们从缺口冲进了城里。守军还是不肯认输，他们在城里放了火，退到广场上死守，进攻的一方只好一栋房子接一栋房子地凿穿墙壁往前推。最后，守军退进了方济各会修道院，比尔森投降了。\n\n[[b]]胡斯派没打下来的城，新教徒打下来了。[[/b]]\n\n接下来的事，让不少人意外。这群拿钱打仗的兵，打下一座城，通常不会空着手出去。可这一回，布拉格方面一再叮嘱，曼斯菲尔德也管住了手下，城里没有遭到洗劫。\n\n当然，他自己也没空着手。他向比尔森要了十二万金古尔登的战争赔款，又另外要了四万七千弗罗林，算是不放火烧城的价钱。\n\n城没被抢，只是收到了一张账单。\n\n消息传到布拉格，新教贵族们松了一大口气：仗刚开打，就拿下了王国里最硬的一块骨头。\n\n[[b]]窗户扔出去半年，新教徒总算打了一场漂亮仗。[[/b]]\n\n那年冬天，不知道是不是巧合，天上出现了一颗巨大的彗星，拖着长长的尾巴，挂在欧洲的夜空里好几个星期。\n\n布拉格人仰着头看，议论纷纷。新教徒说，这是上天在为他们的胜利点灯；天主教徒说，这是灾祸的预兆。远在林茨的开普勒也看见了，后来还专门写书讨论了这一年的彗星。\n\n后来的事证明，天主教徒说对了一半：灾祸确实要来了，只是不知道会落到谁头上。\n\n而眼下，图尔恩已经在琢磨另一件事：既然守得住，为什么不打出去？",
+    },
+    relatedLandmarks: [
+      {
+        slug: "plzen",
+        relation: {
+          en: "The Catholic stronghold Mansfeld took on 21 November 1618, after two months of siege.",
+          cz: "Katolická bašta, kterou Mansfeld dobyl 21. listopadu 1618 po dvou měsících obléhání.",
+          zh: "1618年11月21日，曼斯菲尔德围了两个月之后打下的那座天主教堡垒。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Siege_of_Pilsen",
+  },
+  {
+    slug: "at-the-gates-of-vienna-1619",
+    era: "fire-and-ashes",
+    images: ["/history/at-the-gates-of-vienna-1619.webp"],
+    imageCaptions: [
+      {
+        en: "The Hofburg, Vienna, 5 June 1619: Lower Austrian Protestant nobles have forced their way in, and one of them grabs Ferdinand by the buttons and shouts in his face while Ferdinand clutches his rosary and will not give in. The crucifix hangs on the wall; beyond the window fly the white-lion banners of the Bohemian army besieging the city.",
+        cz: "Vídeňský Hofburg, 5. června 1619: dolnorakouští protestantští páni vtrhli dovnitř, jeden z nich popadl Ferdinanda za knoflíky a křičí mu do tváře, zatímco Ferdinand svírá růženec a nepovolí. Na stěně visí krucifix, za oknem vlají prapory s bílým lvem českého vojska, které oblehlo město.",
+        zh: "1619年6月5日，维也纳霍夫堡：下奥地利的新教贵族闯进宫来，一位贵族揪住斐迪南的衣扣冲他大喊，斐迪南攥着念珠不肯松口；墙上挂着那座十字架，窗外远处，是围城的波希米亚军队的白狮旗。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "Nandl, give in!",
+          cz: "Nandle, vzdej se!",
+          zh: "小斐迪，认了吧！",
+        },
+        attribution: {
+          en: "Said to have been shouted at Ferdinand by a Lower Austrian Protestant noble, 5 June 1619",
+          cz: "Prý to na Ferdinanda zakřičel jeden dolnorakouský protestantský šlechtic, 5. června 1619",
+          zh: "据说是一位下奥地利新教贵族冲斐迪南喊的话，1619年6月5日",
+        },
+      },
+      {
+        text: {
+          en: "Ferdinande, non te deseram.\nFerdinand, I will not forsake you.",
+          cz: "Ferdinande, non te deseram.\nFerdinande, neopustím tě.",
+          zh: "Ferdinande, non te deseram.\n斐迪南，我不会离弃你。",
+        },
+        attribution: {
+          en: "A legend told on the Catholic side, June 1619",
+          cz: "Legenda tradovaná na katolické straně, červen 1619",
+          zh: "天主教一方流传的传说，1619年6月",
+        },
+      },
+    ],
+    startYear: 1619.3,
+    year: {
+      en: "March–June 1619",
+      cz: "Březen až červen 1619",
+      zh: "1619年3月至6月",
+    },
+    tone: "humorous",
+    title: {
+      en: "At the Gates of Vienna",
+      cz: "Před branami Vídně",
+      zh: "兵临维也纳",
+    },
+    hookLine: {
+      en: "Ninety years earlier, the Turks had reached the walls of Vienna. This time it was the Bohemians.",
+      cz: "Před devadesáti lety stáli pod hradbami Vídně Turci. Tentokrát to byli Češi.",
+      zh: "九十年前，土耳其人打到了维也纳城下。这一回，打到城下的是波希米亚人。",
+    },
+    summary: {
+      en: "With Plzeň gone, the emperor had only two towns left in Bohemia he could count on, both in the south: České Budějovice and Český Krumlov. Thurn kept up the pressure and pushed the emperor's general Bucquoy steadily south, and by winter nearly all of Bucquoy's men had shut themselves up behind the walls of Budějovice.\n\nIn Prague the directors wrote letters and sent envoys in search of allies. The estates of Silesia and of Upper and Lower Lusatia declared, one after another, that they stood with Bohemia. Some of the Protestant princes of Germany said yes and some waited to see, but at least none of them took the emperor's side.\n\n[[b]]Less than a year after the window, most of the kingdom no longer took orders from Vienna.[[/b]]\n\nMoney was getting tight, and the mercenaries often went unpaid. Still, that winter most people in Prague felt that the wind was blowing their way.\n\nIn Vienna it was blowing the other way.\n\nOn 20 March 1619 old Emperor Matthias died in Vienna.\n\nBy then there was hardly anyone left around him who mattered. Khlesl, the man of peace, was still locked up in Tyrol, and Empress Anna had died a few months before him. Austria, Hungary and Bohemia all fell to Ferdinand, and the imperial crown looked set to follow.\n\nTo the Bohemians, though, Ferdinand was not their king. He was their enemy.\n\nThurn decided not to wait.\n\nIn April he marched into Moravia. Moravia had been holding to neutrality, but once Thurn's troops arrived, its Protestant lords went over to Prague and joined the revolt. At the end of May Thurn turned south into Austria, and in early June the Bohemian army stood outside Vienna.\n\nThe last time a Bohemian army had come to Vienna was in 1462, when King [[link:the-chalice-and-the-pope-1462]]George of Poděbrady[[/link]] arrived to rescue a besieged emperor. This time it had come to besiege one.\n\n[[b]]Ninety years earlier, Vienna had hidden behind its walls from the Turks. Now it was hiding behind them from the Bohemians.[[/b]]\n\nThe city was in a panic. Ferdinand had few soldiers, and Vienna itself was divided: many of the Lower Austrian nobles were Protestants who wanted much the same as the Bohemians outside.\n\nOn 5 June a group of Lower Austrian Protestant nobles forced their way into the Hofburg and demanded that Ferdinand promise them, there and then, freedom for Protestants and peace with the Bohemians.\n\nOne of them, so the story goes, grabbed Ferdinand by the buttons of his doublet and shouted at him, using his childhood nickname:\n\n[[quote:0]]\n\nFerdinand did not give in. In those days, so the legend says, he spent whole nights on his knees praying before a crucifix, until the Christ on the cross spoke to him:\n\n[[quote:1]]\n\n[[b]]Bohemians outside the walls, nobles inside the palace pulling at his buttons, and all Ferdinand had left was a crucifix.[[/b]]\n\nOutside the walls, the Bohemians were already making plans: march into Vienna, make Ferdinand sign up to [[link:in-black-and-white-1609]]the Letter of Majesty[[/link]] in black and white, and then throw a proper feast in the Hofburg.\n\nIt did not last.",
+      cz: "Po ztrátě Plzně zbyla císaři v Čechách jen dvě města, na která se mohl spolehnout, obě na jihu: České Budějovice a Český Krumlov. Thurn nepolevoval a tlačil císařského generála Buquoye stále dál na jih, až se na zimu skoro všichni Buquoyovi vojáci zavřeli za hradbami Budějovic.\n\nDirektoři v Praze psali dopisy a rozesílali posly a sháněli spojence. Stavové Slezska a Horní i Dolní Lužice se jeden po druhém přihlásili k Čechám. Protestantská knížata v Německu zčásti přikývla a zčásti vyčkávala, ale aspoň se nikdo z nich nepostavil na stranu císaře.\n\n[[b]]Necelý rok po okně už většina království Vídeň neposlouchala.[[/b]]\n\nPeněz ubývalo a žoldnéři často zůstávali bez žoldu. Přesto té zimy většina Pražanů cítila, že vítr fouká jejich směrem.\n\nVe Vídni foukal opačně.\n\nDvacátého března 1619 zemřel ve Vídni starý císař Matyáš.\n\nKolem něj už tehdy skoro nezbyl nikdo, na kom by záleželo. Khlesl, muž míru, byl pořád zavřený v Tyrolsku a císařovna Anna zemřela pár měsíců před ním. Rakousko, Uhry i Čechy připadly Ferdinandovi a zdálo se, že ho nemine ani císařská koruna.\n\nJenže pro Čechy nebyl Ferdinand jejich král. Byl to jejich nepřítel.\n\nThurn se rozhodl nečekat.\n\nV dubnu vtáhl na Moravu. Morava se do té doby držela neutrality, ale jakmile tam dorazili Thurnovi vojáci, tamní protestantští páni přešli na stranu Prahy a připojili se k povstání. Koncem května se Thurn obrátil na jih do Rakous a začátkem června stálo české vojsko před Vídní.\n\nNaposledy přitáhlo české vojsko k Vídni v roce 1462, kdy král [[link:the-chalice-and-the-pope-1462]]Jiří z Poděbrad[[/link]] přišel obleženému císaři na pomoc. Tentokrát přišlo císaře obléhat.\n\n[[b]]Před devadesáti lety se Vídeň schovávala za hradbami před Turky. Teď se za nimi schovávala před Čechy.[[/b]]\n\nVe městě vypukla panika. Ferdinand měl málo vojáků a ani Vídeň nebyla jednotná: mnoho dolnorakouských šlechticů byli protestanti, kteří chtěli v podstatě totéž co Češi za hradbami.\n\nPátého června vtrhla skupina dolnorakouských protestantských pánů do Hofburgu a žádala, aby jim Ferdinand hned na místě slíbil svobodu pro protestanty a mír s Čechy.\n\nJeden z nich prý popadl Ferdinanda za knoflíky kabátce a zakřičel na něj jeho dětskou přezdívkou:\n\n[[quote:0]]\n\nFerdinand se nevzdal. Podle legendy tehdy celé noci klečel a modlil se před krucifixem, až k němu Kristus na kříži promluvil:\n\n[[quote:1]]\n\n[[b]]Za hradbami Češi, v paláci páni, kteří mu tahali za knoflíky, a Ferdinandovi zbyl jen krucifix.[[/b]]\n\nČeši za hradbami už plánovali, jak vtáhnou do Vídně, donutí Ferdinanda potvrdit [[link:in-black-and-white-1609]]Majestát[[/link]] černé na bílém a pak v Hofburgu uspořádají pořádnou hostinu.\n\nJenže dlouho to nevydrželo.",
+      zh: "比尔森一丢，皇帝在波希米亚就只剩两座靠得住的城了，都在南边：捷克布杰约维采和克鲁姆洛夫。图尔恩趁热打铁，把皇帝的将军布夸伊一路往南压。到了冬天，布夸伊的兵几乎全缩进了布杰约维采的城墙里。\n\n布拉格的执政官们四处写信、派人，拉帮手。西里西亚和上下卢萨蒂亚的等级先后表态，愿意跟波希米亚站在一起。德意志的新教诸侯，有的点头，有的观望，可至少没人站到皇帝那边去。\n\n[[b]]窗户扔出去不到一年，王国里大半的地方，已经不听维也纳的了。[[/b]]\n\n钱越来越紧，雇佣兵的军饷常常发不出来。可在那个冬天，布拉格的人们大多觉得：风，是往自己这边吹的。\n\n而在维也纳，风向正好相反。\n\n1619年3月20日，老皇帝马蒂亚斯在维也纳去世了。\n\n他死的时候，身边已经没剩几个说得上话的人。主和的克莱斯尔还关在蒂罗尔，皇后安娜几个月前也先他一步走了。奥地利、匈牙利、波希米亚，这一大摊子全落到了斐迪南手里，皇冠看样子也跑不了。\n\n可在波希米亚人看来，斐迪南不是他们的国王，而是他们的敌人。\n\n图尔恩决定不等了。\n\n4月，他带兵开进了摩拉维亚。摩拉维亚原本守着中立，可图尔恩的兵一到，摩拉维亚的新教贵族就倒向了布拉格，一起反了。5月底，图尔恩挥师南下，直奔奥地利。6月初，波希米亚的军队已经出现在维也纳城外了。\n\n上一次波希米亚军队开到维也纳，还是1462年，那一回，国王[[link:the-chalice-and-the-pope-1462]]波杰布拉德的伊日[[/link]]是来给被围的皇帝解围的。这一回，是来围皇帝的。\n\n[[b]]九十年前，维也纳在城墙后面躲土耳其人；九十年后，它在城墙后面躲波希米亚人。[[/b]]\n\n城里一片慌乱。斐迪南手里没多少兵，城里的人心也不齐：下奥地利的不少贵族本身就是新教徒，跟城外的波希米亚人想的是一回事。\n\n6月5日，一群下奥地利的新教贵族闯进了霍夫堡皇宫，要斐迪南当面答应他们的要求：保障新教徒的自由，跟波希米亚人讲和。\n\n据说，有个贵族情急之下一把揪住了斐迪南的衣扣，叫着他的小名冲他喊：\n\n[[quote:0]]\n\n斐迪南没有认。据说那几天，他整夜跪在一座十字架前祈祷，十字架上的耶稣忽然开口，对他说了一句话：\n\n[[quote:1]]\n\n[[b]]城外是波希米亚人，屋里是揪着衣扣的贵族，斐迪南手里只剩下一座十字架。[[/b]]\n\n城外的波希米亚人已经在盘算：打进维也纳，逼斐迪南白纸黑字地认下那份[[link:in-black-and-white-1609]]《诏书》[[/link]]，再在霍夫堡里好吃好喝地庆祝一番。\n\n可惜，好景不长。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "ceske-budejovice",
+        relation: {
+          en: "Where Bucquoy's imperial army shut itself up for the winter of 1618–19.",
+          cz: "Sem se na zimu 1618–1619 zavřelo Buquoyovo císařské vojsko.",
+          zh: "1618年到1619年的那个冬天，布夸伊的皇家军队就缩在这里的城墙后面。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Bohemian_Revolt",
+  },
+  {
+    slug: "just-in-time-1619",
+    era: "fire-and-ashes",
+    images: ["/history/just-in-time-1619.webp"],
+    imageCaptions: [
+      {
+        en: "The Hofburg, Vienna, 5 June 1619: Dampierre's cuirassiers, led by the old colonel Saint-Hilaire, clatter into the courtyard and the Protestant nobles who had just been cornering Ferdinand scatter, while Ferdinand watches from a window above, rosary in hand. In the distance, the boats that brought the troops lie on the Danube; beyond the walls is the Bohemian camp.",
+        cz: "Vídeňský Hofburg, 5. června 1619: Dampierrovi kyrysníci v čele se starým plukovníkem Saint-Hilairem vjíždějí na nádvoří a protestantští páni, kteří ještě před chvílí zahnali Ferdinanda do kouta, se rozprchnou; Ferdinand to s růžencem v ruce sleduje z okna. V dálce kotví na Dunaji lodě, které vojáky přivezly, a za hradbami leží české ležení.",
+        zh: "1619年6月5日，维也纳霍夫堡：当皮埃尔团的胸甲骑兵在老上校圣伊莱尔带领下冲进院子，刚才还在逼宫的新教贵族一哄而散，斐迪南在楼上窗口攥着念珠看着；远处多瑙河边停着运兵的船，城外是围城的波希米亚军营。",
+      },
+    ],
+    startYear: 1619.45,
+    year: {
+      en: "June 1619",
+      cz: "Červen 1619",
+      zh: "1619年6月",
+    },
+    tone: "humorous",
+    title: {
+      en: "Just in Time",
+      cz: "Na poslední chvíli",
+      zh: "千钧一发",
+    },
+    hookLine: {
+      en: "Ferdinand was cornered in his own palace and about to give way. Then hooves sounded in the courtyard below.",
+      cz: "Ferdinand byl zahnaný do kouta ve vlastním paláci a už už povoloval. Vtom se z nádvoří ozval dusot kopyt.",
+      zh: "斐迪南被堵在自己的皇宫里，眼看就要撑不住了。就在这时，楼下传来了马蹄声。",
+    },
+    summary: {
+      en: "The Hofburg, Vienna, 5 June 1619. The nobles still had Ferdinand cornered when a miracle came, or something that looked very like one.\n\nWhile the nobles were still shouting in the palace, hooves sounded below.\n\nThurn had sealed off every road into Vienna, but he had forgotten the Danube. Several hundred of Dampierre's horsemen came down the river by boat from Krems, entered the city through the Fishermen's Gate and rode straight into the courtyard of the Hofburg. They were led by Saint-Hilaire, the old colonel in charge of the arsenal.\n\n[[b]]Thurn had blocked the roads, but not the river.[[/b]]\n\nThe several dozen nobles in the palace fell silent. Thinking Ferdinand was about to have them arrested, they slipped away one by one, and the petition came to nothing.\n\nFerdinand had escaped. Later he would say that it was the crucifix that saved him.\n\nThurn, outside the walls, had not lost yet. What made him pull back was bad news from Bohemia.\n\nOn 10 June Mansfeld, with some three thousand men, was hurrying to České Budějovice to help Hohenlohe, who was besieging the town. At Záblatí the emperor's general Bucquoy cut him off with five thousand. Mansfeld lost fifteen hundred foot soldiers and his whole baggage train in one go, and only just escaped being taken prisoner himself. The siege of Budějovice had to be lifted.\n\n[[b]]Vienna had not fallen, and meanwhile someone had kicked in their own front door.[[/b]]\n\nPrague panicked and called Thurn home.\n\nThe Bohemians withdrew from Vienna. Ferdinand breathed again, packed his bags and set off for Frankfurt.\n\nIn Prague, meanwhile, the estates were not idle either. If Vienna could not be taken, they would first put their own house in order: Bohemia, Moravia, Silesia and Lusatia had to be bound together as one.",
+      cz: "Vídeňský Hofburg, 5. června 1619. Páni Ferdinanda pořád nepouštěli, když přišel zázrak, nebo aspoň něco, co tak vypadalo.\n\nZatímco se páni v paláci ještě překřikovali, zdola se ozval dusot kopyt.\n\nThurn uzavřel do Vídně všechny cesty, ale zapomněl na Dunaj. Několik set Dampierrových jezdců připlulo po řece na lodích z Kremže, vjelo do města Rybářskou branou a rovnou na nádvoří Hofburgu. Vedl je Saint-Hilaire, starý plukovník, který měl na starosti zbrojnici.\n\n[[b]]Thurn uhlídal cesty, ale ne řeku.[[/b]]\n\nNěkolik desítek pánů v paláci zmlklo. Mysleli si, že je Ferdinand dá zatknout, jeden po druhém se vytratili a z petice nebylo nic.\n\nFerdinand se zachránil. Později říkal, že ho zachránil ten krucifix.\n\nThurn za hradbami ale ještě neprohrál. Ustoupit ho přiměla až špatná zpráva z Čech.\n\nDesátého června spěchal Mansfeld asi se třemi tisíci muži k Českým Budějovicím na pomoc Hohenlohemu, který město obléhal. U Záblatí mu císařský generál Buquoy s pěti tisíci muži zastoupil cestu. Mansfeld přišel naráz o patnáct set pěšáků i o celý vozový tábor a sám jen o vlásek unikl zajetí. Obléhání Budějovic se muselo zrušit.\n\n[[b]]Vídeň nepadla, a zatím jim někdo vykopl dveře doma.[[/b]]\n\nV Praze zpanikařili a povolali Thurna zpátky.\n\nČeši od Vídně odtáhli. Ferdinand si oddechl, sbalil se a vydal se do Frankfurtu.\n\nAni stavové v Praze nezaháleli. Když nepadla Vídeň, bylo třeba nejdřív si udělat pořádek doma: Čechy, Morava, Slezsko a Lužice se musely semknout v jeden celek.",
+      zh: "1619年6月5日，维也纳霍夫堡。贵族们还揪着斐迪南不放，奇迹就来了，至少看起来像是奇迹。\n\n就在贵族们在宫里吵成一团的时候，楼下传来了马蹄声。\n\n图尔恩把维也纳的陆路围得严严实实，却漏了多瑙河。几百名当皮埃尔团的骑兵，从上游的克雷姆斯坐船顺流而下，从渔夫门进了城，一路冲进了霍夫堡的院子。带队的，是军械库的老上校圣伊莱尔。\n\n[[b]]图尔恩守住了路，没守住河。[[/b]]\n\n宫里那几十位贵族一下子没了声音。他们以为斐迪南要抓人，一个个溜走了，请愿也就不了了之。\n\n斐迪南逃过了一劫。后来他说，救了他的，是那座十字架。\n\n可城外的图尔恩，还没有输。真正让他撤兵的，是从波希米亚传来的一个坏消息。\n\n6月10日，曼斯菲尔德带着三千来人，正赶去捷克布杰约维采，给在那里围城的霍恩洛厄帮忙。走到扎布拉蒂，皇帝的将军布夸伊带着五千人把他截住了。曼斯菲尔德一下子折了一千五百名步兵，辎重也全丢了，他本人差一点被活捉，狼狈地逃了出来。布杰约维采的围，也只好撤了。\n\n[[b]]维也纳没打下来，家里的门倒先被人踹了一脚。[[/b]]\n\n布拉格急了，连忙把图尔恩叫了回去。\n\n波希米亚人从维也纳城下撤了兵。斐迪南松了一口气，收拾行装，动身去了法兰克福。\n\n布拉格这边，等级们也没闲着。维也纳没打下来，那就先把自家的门户收拾好：波希米亚、摩拉维亚、西里西亚、卢萨蒂亚，这几块地方，得先拧成一股绳。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "ceske-budejovice",
+        relation: {
+          en: "The town Mansfeld was marching to help besiege when Bucquoy caught him at Záblatí; after the defeat the siege was lifted.",
+          cz: "Město, k jehož obléhání Mansfeld spěchal, když ho Buquoy zaskočil u Záblatí; po porážce se obléhání zrušilo.",
+          zh: "曼斯菲尔德正赶去帮忙围攻的那座城。他在扎布拉蒂被布夸伊截住之后，这里的围也撤了。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Battle_of_Sablat",
+  },
+  {
+    slug: "the-diet-decides-1619",
+    era: "fire-and-ashes",
+    images: ["/history/the-diet-decides-1619.webp"],
+    imageCaptions: [
+      {
+        en: "The Old Diet Hall at Prague Castle, 31 July 1619: the banners of Bohemia, Moravia, Silesia, Upper Lusatia and Lower Lusatia hang side by side as delegates sign the Confederation, its seals dangling over the table, with Roupov presiding. On the dais the royal throne stands empty, a crown resting on its cushion.",
+        cz: "Stará sněmovna na Pražském hradě, 31. července 1619: vedle sebe visí prapory Čech, Moravy, Slezska, Horní a Dolní Lužice a zástupci zemí podepisují konfederační listinu s řadou pečetí, v čele stolu Václav Vilém z Roupova. Královský trůn na stupních zůstává prázdný, jen na podušce leží koruna.",
+        zh: "1619年7月31日，布拉格城堡旧议会厅：波希米亚、摩拉维亚、西里西亚、上卢萨蒂亚和下卢萨蒂亚的旗帜并排挂在墙上，各地代表在长桌前签下挂满印章的邦联文书，鲁波夫居中主持；台上的国王宝座空着，只有垫子上放着一顶王冠。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "…these lands, namely Bohemia, Moravia, Silesia and Upper and Lower Lusatia, have bound themselves to one another for all time: to hold firmly and steadily together, in every need to stand as one man, and to stake their goods, their necks and all they have for one another.",
+          cz: "…tyto země, totiž česká, moravská, slezská a hořejší i dolejší Lužice, sobě vespolek na věčné časy zavázaly, že při sobě pevně a stále držeti, ve všech potřebách dle této konfederací za jednoho člověka státi, statky, hrdla, všechno své jedni při druhých vynasaditi mají.",
+          zh: "……这几块地方，即波希米亚、摩拉维亚、西里西亚和上下卢萨蒂亚，彼此立约，永世不渝：要紧紧地、始终如一地抱在一起，遇到任何难处，都要像一个人那样站在一起，财产、性命、所有的一切，都要为彼此押上。",
+        },
+        attribution: {
+          en: "The Confederation of the lands of the Bohemian Crown, article 55, 31 July 1619",
+          cz: "Konfederace stavů zemí Koruny české, čl. LV, 31. července 1619",
+          zh: "《波希米亚邦联》第55条，1619年7月31日",
+        },
+      },
+      {
+        text: {
+          en: "…and especially if a King of Bohemia is to be elected, they shall be held jointly; and without all the lands present, namely Bohemia, Moravia, Silesia and Upper and Lower Lusatia, no proposal shall be heard, much less considered…",
+          cz: "…a obzvláště kdyby král český volen byl aneb volen býti měl, společně držány, a bez přítomnosti všech zemí, totiž české, moravské, slezské, hořejších i dolejších Lužic, žádná proposicí slyšána, mnohem méně uvažována býti nemá…",
+          zh: "……尤其是选举波希米亚国王的时候，要大家一起商议；波希米亚、摩拉维亚、西里西亚、上下卢萨蒂亚，各地不到齐，任何提议都不许听，更不许议……",
+        },
+        attribution: {
+          en: "The Confederation of the lands of the Bohemian Crown, article 26",
+          cz: "Konfederace stavů zemí Koruny české, čl. XXVI",
+          zh: "《波希米亚邦联》第26条",
+        },
+      },
+      {
+        text: {
+          en: "Should he, against all hope, undertake or intend anything against the free exercise of religion, against this union and this Confederation, so that the lands were forced to defend themselves, then all the estates of these united kingdoms and lands shall at once be released from their oaths, and whatever they then undertake shall not be counted against them as any offence to the royal dignity and majesty.",
+          cz: "Jestližeby pak mimo všechnu naději proti svobodnému provozování náboženství, sjednocení a této učiněné konfederací něco takového, což by proti tomu všemu čelilo, před sebe vzal nebo vzíti chtěl, tak žeby země k defensí přinuceny byly, v takové příčině všickni stavové těchto sjednocených království a zemí ihned svých přísah mají osvobozeni býti, a to, co by budoucně před sebe vzali, nemá jim k žádné urážce důstojnosti a vyvýšenosti královské vykládáno anebo přičítáno býti.",
+          zh: "如果他出乎所有人的意料，做出或者打算做出违背宗教自由、违背这一联合和这份邦联的事，以致各地不得不起来自卫，那么，这些联合起来的王国和领地的全体等级，立即解除对他的誓言；他们此后所做的一切，都不得被算作冒犯国王的尊严。",
+        },
+        attribution: {
+          en: "The Confederation of the lands of the Bohemian Crown, article 30",
+          cz: "Konfederace stavů zemí Koruny české, čl. XXX",
+          zh: "《波希米亚邦联》第30条",
+        },
+      },
+      {
+        text: {
+          en: "…the king is graciously to keep in view the privileges, letters of majesty, settlements and unions, and all the articles contained in this Confederation, to govern accordingly, and in matters of religion and justice to protect all the lands alike, without distinction of religion.",
+          cz: "…král, pokudž privilegia, majestáty, porovnání a sjednocení i také všecky artikule, v této konfederací obsažené, milostivě na pozoru míti, podle toho svůj regiment říditi, i také u věcech náboženství a spravedlnosti se dotýkajících všecky země bez rozdílu náboženství jednostejně chrániti ráčí.",
+          zh: "……国王要好好遵守各项特权、诏书、协定和联合，以及这份邦联里的每一条，依此治国；在宗教和司法的事情上，要不分信仰，一视同仁地保护各地。",
+        },
+        attribution: {
+          en: "The Confederation of the lands of the Bohemian Crown, article 2",
+          cz: "Konfederace stavů zemí Koruny české, čl. II",
+          zh: "《波希米亚邦联》第2条",
+        },
+      },
+      {
+        text: {
+          en: "And the Jesuits shall never again, for all time, be brought into these united lands under any pretext, guise or order; and should they or their pupils still be staying anywhere, or have crept in secretly, they are to be driven out.",
+          cz: "A nemají jezuvitové již více na věčné časy do těchto sjednocených zemí pod jakýmkoliv zámyslem a barvou nebo řeholou uvozování býti, a pokudžby oni neb učedlníci jich ještě kde zůstávali neb tajně se vloudili, mají odtud vybiti býti.",
+          zh: "耶稣会士永世不得再以任何借口、任何名目、任何修会的身份，被带进这些联合起来的领地；如果他们或者他们的门徒还留在哪里，或者偷偷溜了进来，都要被赶出去。",
+        },
+        attribution: {
+          en: "The Confederation of the lands of the Bohemian Crown, article 4",
+          cz: "Konfederace stavů zemí Koruny české, čl. IV",
+          zh: "《波希米亚邦联》第4条",
+        },
+      },
+    ],
+    startYear: 1619.55,
+    year: {
+      en: "31 July 1619",
+      cz: "31. července 1619",
+      zh: "1619年7月31日",
+    },
+    tone: "humorous",
+    title: {
+      en: "Do Sit Down, Your Majesty: the Diet Decides",
+      cz: "Posaďte se, Veličenstvo, rozhoduje sněm",
+      zh: "国王请坐，议会说了算",
+    },
+    hookLine: {
+      en: "Five lands sat down at one table and wrote themselves new rules: from now on, the king would be chosen by all of them, and power would be shared by all of them.",
+      cz: "Pět zemí zasedlo k jednomu stolu a sepsalo si nová pravidla: krále si odteď zvolí všechny společně a o moc se budou dělit všechny společně.",
+      zh: "五块地方坐到了一张桌子前，写下了一份新的规矩：从今往后，国王要大家一起选，权力要大家一起管。",
+    },
+    summary: {
+      en: "The Crown of Bohemia had never covered Bohemia alone.\n\nThere was Moravia, there was Silesia, and there were Upper and Lower Lusatia. For centuries these five lands had shared one crown while running their own affairs: each with its own diet, each with its own laws, and every so often a quarrel among them.\n\nWhat had always held them together was the king.\n\nNow the king was the enemy. So what would hold them together?\n\nIn July 1619 delegates from all five lands gathered at Prague Castle. Their aim was to turn a loose union under one crown into a real confederation.\n\nOn 31 July the document was signed. Later generations called it the Bohemian Confederation. One of its articles says, in so many words, that the five lands would stand as one:\n\n[[quote:0]]\n\n[[b]]Before, a king had bound the five lands together. This time the five lands bound themselves.[[/b]]\n\nThe document laid down quite a few new rules.\n\nFirst, the king would be elected by all five lands together. Bohemia alone would not decide: the estates of Moravia, Silesia and Lusatia would have their say too.\n\n[[quote:1]]\n\nSecond, the king could no longer do as he pleased. Without the lands' consent he could not start a war or raise troops. If he moved against religious freedom or the Confederation, the estates were released from their oaths to him.\n\n[[quote:2]]\n\nThird, religious freedom was written into the fundamental law. The Protestants' rights no longer rested on one king's word, or on a single [[link:in-black-and-white-1609]]Letter of Majesty[[/link]].\n\n[[quote:3]]\n\nFourth, the king was not to take counsel with any Jesuit, and the Jesuits were never, \"for all time\", to come back.\n\n[[quote:4]]\n\nFrom now on the five lands would decide together and fight together. Apart from Bohemia keeping its old place at the head of the table, none was to lord it over another.\n\n[[b]]There would still be a king, but the ones really sitting under the crown were now the estates themselves.[[/b]]\n\nIn [[link:the-habsburgs-come-in-1526]]1526[[/link]] the Bohemian estates, sitting in their diet, had elected Ferdinand I of Habsburg, the grandfather of the present Ferdinand. They had given the crown away themselves.\n\nNinety-odd years later they took the right to choose their king back up, and this time they wrote it down more clearly and more firmly than ever.\n\nSome have called it practically a noble republic: the king kept his title, but the diet ran the country. In the Europe of the day such states were rare. To the east, the nobles of Poland-Lithuania also elected their king. To the north-west the Dutch were fighting Spain for their independence. To the south, up in the Alps, were the Swiss.\n\nWithin a few weeks the Protestant estates of Upper and Lower Austria had made an alliance with the new Confederation as well.\n\nThe rules were written. The allies were found.\n\nOnly one thing was left: the crown itself was still on Ferdinand's head.",
+      cz: "Pod českou korunou nikdy nebyly jen samotné Čechy.\n\nByla tu Morava, bylo tu Slezsko a byla tu Horní a Dolní Lužice. Po staletí nosilo těchto pět zemí jednu korunu, ale každá si vedla své: každá měla svůj sněm, každá své zákony a čas od času se mezi sebou i pohádaly.\n\nDosud je k sobě poutal král.\n\nTeď se z krále stal nepřítel. Co je tedy bude držet pohromadě?\n\nV červenci 1619 se na Pražském hradě sešli zástupci všech pěti zemí. Chtěli z volného svazku pod jednou korunou udělat skutečnou konfederaci.\n\nDne 31. července byla listina podepsána. Potomci jí říkají česká konfederace. Jeden z jejích článků doslova říká, že pět zemí bude stát za jednoho člověka:\n\n[[quote:0]]\n\n[[b]]Dřív spojoval pět zemí král. Tentokrát se spojily samy.[[/b]]\n\nListina zavedla řadu nových pravidel.\n\nZaprvé: krále budou volit všech pět zemí společně. Nerozhodnou jen Čechy, slovo budou mít i stavové z Moravy, Slezska a Lužice.\n\n[[quote:1]]\n\nZadruhé: král už nesmí dělat, co se mu zlíbí. Bez svolení zemí nesmí začít válku ani verbovat vojsko. Kdyby se obrátil proti svobodě náboženství nebo proti konfederaci, stavové jsou zproštěni přísah, které mu složili.\n\n[[quote:2]]\n\nZatřetí: svoboda náboženství se stala součástí základního zákona. Práva protestantů už nestála jen na slibu jednoho krále nebo na jednom [[link:in-black-and-white-1609]]Majestátu[[/link]].\n\n[[quote:3]]\n\nZačtvrté: král se nesmí radit s žádným jezuitou a jezuité se už „na věčné časy“ nesmějí vrátit.\n\n[[quote:4]]\n\nOdteď mělo pět zemí rozhodovat společně a bojovat společně. Kromě starobylé přednosti Čech si žádná země neměla osobovat vrchnost nad druhou.\n\n[[b]]Král měl být dál, ale pod korunou teď ve skutečnosti seděli stavové sami.[[/b]]\n\nRoku [[link:the-habsburgs-come-in-1526]]1526[[/link]] zvolili čeští stavové na sněmu Habsburka Ferdinanda I., děda dnešního Ferdinanda. Korunu dali z ruky sami.\n\nO devadesát let později si právo volit krále vzali zpátky, a tentokrát ho sepsali jasněji a pevněji než kdy dřív.\n\nNěkteří tomu říkají skoro šlechtická republika: král si nechal titul, ale zemi vedl sněm. V tehdejší Evropě takových států mnoho nebylo. Na východě si krále volila šlechta v Polsku-Litvě. Na severozápadě bojovali Nizozemci se Španělskem o nezávislost. Na jihu, v Alpách, byli Švýcaři.\n\nZa pár týdnů se s novou konfederací spojili i protestantští stavové Horních a Dolních Rakous.\n\nPravidla byla sepsána. Spojenci byli nalezeni.\n\nZbývala jediná věc: koruna dosud seděla na Ferdinandově hlavě.",
+      zh: "波希米亚王冠底下，从来不只是波希米亚一块地方。\n\n还有摩拉维亚，还有西里西亚，还有上卢萨蒂亚和下卢萨蒂亚。几百年来，这五块地方共戴一顶王冠，可各管各的事：各开各的议会，各有各的法律，彼此之间也时不时闹点别扭。\n\n以前，把它们拴在一起的，是国王。\n\n现在，国王成了敌人。那还拿什么把大家拴在一起？\n\n1619年7月，五块地方的代表聚到了布拉格城堡。他们要做的，是把一个松松垮垮的王冠之下的联盟，变成一个真正的邦联。\n\n7月31日，文件签好了。后人管它叫《波希米亚邦联》。其中有一条，写的正是“拧成一股绳”：\n\n[[quote:0]]\n\n[[b]]以前，是国王把五块地方拴在一起；这一回，是五块地方自己把自己拴在了一起。[[/b]]\n\n这份文件里写了不少新规矩。\n\n第一条，国王要五块地方一起选。不光是波希米亚说了算，摩拉维亚、西里西亚、卢萨蒂亚的等级，也都有一票。\n\n[[quote:1]]\n\n第二条，国王不能想干什么就干什么。没有各地同意，他不能开战，也不能招兵。他要是跟宗教自由、跟这份邦联对着干，等级们就不再受效忠誓言的约束。\n\n[[quote:2]]\n\n第三条，宗教自由写进了根本大法。新教徒的权利，不再只靠一位国王的一句承诺，或者一张[[link:in-black-and-white-1609]]《诏书》[[/link]]。\n\n[[quote:3]]\n\n第四条，国王不许跟耶稣会士商量国事，耶稣会士也“永远”不许再回来。\n\n[[quote:4]]\n\n五块地方从此有事一起商量，有仗一起打。除了波希米亚照老规矩排在头一位，谁也不许压谁一头。\n\n[[b]]国王还是要有的，可王冠底下坐着的，已经是等级们自己了。[[/b]]\n\n[[link:the-habsburgs-come-in-1526]]1526年[[/link]]，波希米亚的等级们坐在议会里，选出了哈布斯堡家的斐迪南一世，也就是现在这位斐迪南的祖父。王冠，是他们选出去的。\n\n九十多年后，他们把选王冠的规矩重新捡了起来，而且写得比以前更清楚、更硬气。\n\n有人说，这几乎就是一个贵族共和国了：国王只剩下一个头衔，真正当家的，是议会。在当时的欧洲，这样的国家并不多见：东边的波兰-立陶宛，国王也是贵族们选出来的；西北边，荷兰人正跟西班牙闹独立；南边，阿尔卑斯山里还有瑞士。\n\n没过几周，上奥地利和下奥地利的新教等级，也跟这个新邦联结了盟。\n\n规矩写好了，盟友找齐了。\n\n接下来，只剩最后一件事：那顶王冠，现在还戴在斐迪南的头上。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "vladislavsky-sal",
+        relation: {
+          en: "The diet chamber where the Bohemian estates met is right next to this hall. In the summer of 1619 the delegates of the five lands signed the Confederation here at the castle.",
+          cz: "Hned vedle tohoto sálu je sněmovna, kde zasedali čeští stavové. V létě 1619 tu na hradě zástupci pěti zemí podepsali konfederaci.",
+          zh: "波希米亚等级开会的地方就在大厅旁边。1619年夏天，五块地方的代表就是在城堡里，签下了这份邦联文件。",
+        },
+      },
+      {
+        slug: "narodni-archiv",
+        relation: {
+          en: "The original Confederation charter is kept here: a sheet of parchment with 96 seals hanging from it, the same archive that holds the Golden Bull of Sicily.",
+          cz: "Tady se uchovává originál konfederační listiny: pergamen s 96 přivěšenými pečetěmi, ve stejném archivu jako Zlatá bula sicilská.",
+          zh: "《波希米亚邦联》的原件就保存在这里：一张羊皮纸，下面挂着96枚印章。它和《西西里金玺诏书》存在同一座档案馆里。",
+        },
+      },
+    ],
+    referenceMaps: {
+      links: [
+        {
+          label: "1619",
+          description: {
+            en: "The original Confederation charter, on parchment with 96 seals hanging from it, digitised page by page (National Archives, Prague)",
+            cz: "Originál konfederační listiny na pergamenu s 96 přivěšenými pečetěmi, digitalizovaný list po listu (Národní archiv, Praha)",
+            zh: "《波希米亚邦联》原件：羊皮纸，下面挂着96枚印章，已逐页数字化（布拉格国家档案馆）",
+          },
+          url: "https://monasterium.net/mom/CZ-NA/ACK/2330/charter",
+        },
+        {
+          label: "1619",
+          description: {
+            en: "The full text of the Confederation in Czech (library of the Czech Parliament)",
+            cz: "Úplný text konfederace (knihovna Poslanecké sněmovny)",
+            zh: "《波希米亚邦联》捷克语全文（捷克议会图书馆）",
+          },
+          url: "https://psp.cz/eknih/snemy/konfeder.htm",
+        },
+      ],
+    },
+    wikipediaUrl: "https://cs.wikipedia.org/wiki/%C4%8Cesk%C3%A1_konfederace",
+  },
+  {
+    slug: "the-deposed-king-becomes-emperor-1619",
+    era: "fire-and-ashes",
+    images: ["/history/the-deposed-king-becomes-emperor-1619.webp"],
+    imageCaptions: [
+      {
+        en: "Ten days in August 1619. Top left, 19 August: the estates in Prague take Ferdinand's portrait down from the wall. Bottom left, 26 August: the crown is set before a portrait of the new king, Frederick, a birthday wreath on its frame, next to his father-in-law, King James I of England. Right, 28 August: in Frankfurt the electors declare for Ferdinand, who points to himself as he casts his own vote, while the Bohemian envoys are kept outside the door.",
+        cz: "Deset srpnových dní roku 1619. Vlevo nahoře, 19. srpna: stavové v Praze snímají ze stěny Ferdinandův portrét. Vlevo dole, 26. srpna: koruna leží před portrétem nového krále Fridricha s narozeninovým věncem na rámu, vedle jeho tchána, anglického krále Jakuba I. Vpravo, 28. srpna: ve Frankfurtu se kurfiřti hlásí k Ferdinandovi, který ukazuje sám na sebe a dává hlas sobě, zatímco české poselstvo zůstává za dveřmi.",
+        zh: "1619年8月的十天：左上，8月19日，布拉格的等级们把斐迪南的画像从墙上摘下；左下，8月26日，王冠摆在新国王腓特烈的画像前，画框上挂着生日花环，旁边是他的岳父、英国国王詹姆斯一世；右边，8月28日，法兰克福的选帝侯们齐齐表态，斐迪南指着自己投了自己一票，布拉格来的使团被挡在门外。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "…whereby he forfeited all he could there pretend unto, after the death of the Emperor Matthias; and so did absolutely dissolve and loose the oath of fidelity given him by that kingdom, and those provinces.",
+          cz: "…čímž pozbyl všeho, čeho se tam po smrti císaře Matyáše mohl domáhat, a tak naprosto rozvázal a zrušil přísahu věrnosti, kterou mu to království a ty země složily.",
+          zh: "……他因此丧失了马蒂亚斯皇帝死后他在那里所能主张的一切，也彻底解除了那个王国和各地对他发过的效忠誓言。",
+        },
+        attribution: {
+          en: "The Bohemian estates' declaration of why they rejected Ferdinand (English translation printed at Dort, 1619)",
+          cz: "Prohlášení českých stavů o důvodech zavržení Ferdinanda (anglický překlad vytištěný v Dordrechtu roku 1619)",
+          zh: "波希米亚等级说明为何拒绝斐迪南的声明（1619年在多德雷赫特印行的英译本）",
+        },
+      },
+      {
+        text: {
+          en: "…it is clear to every man's understanding that he is not only not in debt, and that of his revenue he can lay something up, but also that the King of Great Britain is his father-in-law; the King of Denmark his near ally… the Prince of Orange his uncle…",
+          cz: "…každému je jasné, že nejenže nemá dluhy a ze svých příjmů si dokáže něco odložit, ale že král Velké Británie je jeho tchán, král dánský jeho blízký spojenec… princ Oranžský jeho strýc…",
+          zh: "……谁都看得明白：他不但没有欠债，每年的收入还能攒下一些；更何况，大不列颠国王是他的岳父，丹麦国王是他的近亲盟友……奥兰治亲王是他的舅舅……",
+        },
+        attribution: {
+          en: "The proposal to elect the Elector Palatine, made in the Bohemian diet, August 1619 (same English pamphlet)",
+          cz: "Návrh na volbu falckého kurfiřta přednesený na českém sněmu, srpen 1619 (týž anglický tisk)",
+          zh: "在波希米亚议会上推举普法尔茨选帝侯的提议，1619年8月（同一本英译小册子）",
+        },
+      },
+    ],
+    startYear: 1619.62,
+    year: {
+      en: "19–28 August 1619",
+      cz: "19.–28. srpna 1619",
+      zh: "1619年8月19日至28日",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Deposed King Becomes Emperor",
+      cz: "Sesazený král se stal císařem",
+      zh: "废掉的国王成了皇帝",
+    },
+    hookLine: {
+      en: "Prague deposed one king and elected another. Two days later, the deposed king became emperor.",
+      cz: "Praha sesadila jednoho krále a zvolila jiného. O dva dny později se ze sesazeného krále stal císař.",
+      zh: "布拉格废掉了一位国王，又选出了一位新国王。两天后，那位被废掉的国王，当上了皇帝。",
+    },
+    summary: {
+      en: "The rules of the [[link:the-diet-decides-1619]]Confederation[[/link]] were written, and article 30 said it plainly: if the king acted against religious freedom or against the Confederation, the estates were released from their oaths to him.\n\nIn the estates' view, Ferdinand had done exactly that long ago.\n\nOn 19 August 1619 the delegates of the five lands, meeting in Prague, formally declared that Ferdinand was no longer King of Bohemia. They also printed a declaration explaining to all Europe why:\n\n[[quote:0]]\n\n[[b]]Two years earlier they had \"accepted\" him. Two years later they sent him back.[[/b]]\n\nThe crown was vacant, and someone had to wear it.\n\nThere were several candidates. The Lutheran Elector of Saxony was too close to the emperor. The [[link:the-first-reinforcements-1618]]Duke of Savoy[[/link]], the man paying for Mansfeld, had been hoping for this day for a long time, but he was a Catholic, and far away in Italy.\n\nIn the end the estates chose a young man: Frederick V, Elector Palatine.\n\nHe was a Calvinist and the head of the Protestant Union in Germany. Most important of all, his father-in-law was King James I of England.\n\nWhen he was put forward, someone listed his advantages one by one:\n\n[[quote:1]]\n\nThe estates' reckoning was simple: choose him, and England would come in with him.\n\nOn 26 August Frederick was elected King of Bohemia. It was his twenty-third birthday.\n\n[[b]]Prague had chosen not just a king, but a king's son-in-law.[[/b]]\n\nThat same week, more than four hundred kilometres away in Frankfurt, the seven electors of the Empire were also meeting, to choose a new Holy Roman Emperor.\n\nThere was only one candidate: Ferdinand.\n\nThe Bohemian estates sent envoys hurrying to Frankfurt to tell the electors that Ferdinand was no longer King of Bohemia and had no right to vote as Bohemia's elector.\n\nThe electors refused even to see them.\n\nOn 28 August the voting began.\n\nThe vote most determined to stop Ferdinand was the Palatinate's, in other words that of Frederick, elected King of Bohemia just two days before. His envoy first cast his vote for Duke Maximilian of Bavaria. But Maximilian did not want the job, and one elector after another came down on Ferdinand's side.\n\nSeeing that the game was up, the Palatine envoy withdrew his vote and gave it to Ferdinand.\n\nThere was one more vote: Bohemia's. And the man who cast it was Ferdinand himself.\n\nAll seven votes went to Ferdinand.\n\n[[b]]Prague said he was no longer king. Frankfurt made him emperor, and Bohemia's vote was one he cast for himself.[[/b]]\n\nSo, in less than ten days:\n\nOn 19 August, in Prague, Ferdinand lost a crown.\n\nOn 26 August, in Prague, Frederick gained one.\n\nOn 28 August, in Frankfurt, Ferdinand gained the imperial crown, with Frederick's vote among the rest.\n\nA king just deposed had turned round and become emperor of the whole Empire. And the king just elected would now have to fight that emperor for his crown.\n\nWhen the news reached Frederick, he was still at Amberg in the Upper Palatinate.\n\nShould he go to Prague? He hesitated.",
+      cz: "Pravidla [[link:the-diet-decides-1619]]konfederace[[/link]] byla sepsána a článek 30 to říkal jasně: kdyby král jednal proti svobodě náboženství nebo proti konfederaci, stavové jsou zproštěni přísah, které mu složili.\n\nPodle stavů to Ferdinand udělal už dávno.\n\nDne 19. srpna 1619 prohlásili zástupci pěti zemí shromáždění v Praze, že Ferdinand už není českým králem. Vytiskli také prohlášení, ve kterém celé Evropě vysvětlovali proč:\n\n[[quote:0]]\n\n[[b]]Před dvěma lety ho „přijali“. Po dvou letech ho vrátili.[[/b]]\n\nKoruna zůstala volná a někdo ji nosit musel.\n\nKandidátů bylo několik. Luteránský saský kurfiřt měl příliš blízko k císaři. [[link:the-first-reinforcements-1618]]Savojský vévoda[[/link]], ten, který platil Mansfelda, na tenhle den čekal už dlouho, jenže byl katolík a seděl daleko v Itálii.\n\nNakonec si stavové vybrali mladého muže: falckého kurfiřta Fridricha V.\n\nByl kalvinista a stál v čele německé protestantské Unie. A hlavně: jeho tchánem byl anglický král Jakub I.\n\nKdyž ho navrhovali, kdosi vyjmenoval jeho přednosti jednu po druhé:\n\n[[quote:1]]\n\nPočty stavů byly jednoduché: zvolí-li jeho, přitáhnou s ním i Anglii.\n\nDne 26. srpna byl Fridrich zvolen českým králem. Byly to právě jeho třiadvacáté narozeniny.\n\n[[b]]Praha si nevybrala jen krále, ale i královského zetě.[[/b]]\n\nTéhož týdne, přes čtyři sta kilometrů daleko ve Frankfurtu, zasedalo i sedm říšských kurfiřtů, aby zvolili nového císaře Svaté říše římské.\n\nKandidát byl jen jeden: Ferdinand.\n\nČeští stavové poslali do Frankfurtu poselstvo, které mělo kurfiřtům říct, že Ferdinand už není českým králem a nemá právo hlasovat jako český kurfiřt.\n\nKurfiřti ho vůbec nepřijali.\n\nDne 28. srpna začala volba.\n\nNejvíc chtěl Ferdinanda zastavit falcký hlas, tedy hlas Fridricha, kterého před dvěma dny zvolili českým králem. Jeho vyslanec dal nejdřív hlas bavorskému vévodovi Maxmiliánovi. Jenže Maxmilián sám nechtěl a jeden kurfiřt za druhým se přidával k Ferdinandovi.\n\nKdyž falcký vyslanec viděl, že je prohráno, vzal svůj hlas zpátky a dal ho Ferdinandovi.\n\nZbýval ještě jeden hlas: český. A odevzdal ho sám Ferdinand.\n\nVšech sedm hlasů dostal Ferdinand.\n\n[[b]]Praha řekla, že už není král. Frankfurt z něj udělal císaře, a český hlas si dal sám.[[/b]]\n\nTakže za necelých deset dní:\n\n19. srpna přišel Ferdinand v Praze o korunu.\n\n26. srpna získal Fridrich v Praze korunu.\n\n28. srpna získal Ferdinand ve Frankfurtu korunu císařskou, i s Fridrichovým hlasem.\n\nKrál, kterého právě sesadili, se mezitím stal císařem celé říše. A král, kterého právě zvolili, se teď s tímhle císařem musel o korunu utkat.\n\nZpráva zastihla Fridricha ještě v Amberku v Horní Falci.\n\nMá jet do Prahy? Zaváhal.",
+      zh: "[[link:the-diet-decides-1619]]邦联[[/link]]的规矩写好了，第30条也写得明明白白：国王要是违背宗教自由、违背邦联，等级们就可以解除对他的誓言。\n\n在等级们看来，斐迪南早就违背了。\n\n1619年8月19日，五块地方的代表在布拉格开会，正式宣布：斐迪南不再是波希米亚的国王。他们还印了一份声明，向全欧洲解释为什么：\n\n[[quote:0]]\n\n[[b]]两年前，他们“接受”了他；两年后，他们把他退了回去。[[/b]]\n\n王冠空了出来，总得有人戴。\n\n候选人有好几位：信路德宗的萨克森选帝侯，可他跟皇帝走得太近；[[link:the-first-reinforcements-1618]]萨伏依公爵[[/link]]，就是出钱给曼斯菲尔德的那位，早就盼着这一天，可他是天主教徒，又远在意大利。\n\n最后，等级们选中了一个年轻人：普法尔茨选帝侯腓特烈五世。\n\n他信加尔文宗，是德意志新教联盟的首领。最要紧的是，他的岳父，是英国国王詹姆斯一世。\n\n推举他的时候，有人把他的好处一条一条列了出来：\n\n[[quote:1]]\n\n等级们心里的算盘很简单：选了他，就等于把英国拉了进来。\n\n8月26日，腓特烈当选为波希米亚国王。这一天，正好是他二十三岁的生日。\n\n[[b]]布拉格选的不只是一位国王，还是一位国王的女婿。[[/b]]\n\n就在同一个星期，四百多公里外的法兰克福，帝国的七位选帝侯也在开会，要选新的神圣罗马皇帝。\n\n候选人只有一位：斐迪南。\n\n布拉格的等级们派了使团赶到法兰克福，想告诉选帝侯们：斐迪南已经不是波希米亚国王了，他没有资格以波希米亚选帝侯的身份投票。\n\n选帝侯们根本不见他们。\n\n8月28日，投票开始。\n\n最想挡住斐迪南的，是普法尔茨的那一票，也就是两天前刚当选波希米亚国王的腓特烈。他的代表先把票投给了巴伐利亚公爵马克西米利安。可马克西米利安自己不想当，别的选帝侯也一个接一个站到了斐迪南那边。\n\n普法尔茨的代表一看大势已去，收回了那一票，改投斐迪南。\n\n还有一票，是波希米亚的。投这一票的，就是斐迪南自己。\n\n七票全部投给了斐迪南。\n\n[[b]]布拉格说他不是国王了；法兰克福让他当了皇帝，波希米亚那一票，还是他自己投给自己的。[[/b]]\n\n就这样，前后不到十天：\n\n8月19日，斐迪南在布拉格丢了王冠；\n\n8月26日，腓特烈在布拉格得到了王冠；\n\n8月28日，斐迪南在法兰克福得到了皇冠，连腓特烈那一票，也投给了他。\n\n一个刚被废掉的国王，转身成了整个帝国的皇帝。而那个刚被选出来的国王，要去跟这位皇帝抢王冠。\n\n腓特烈接到消息的时候，还在上普法尔茨的安贝格。\n\n要不要去布拉格？他犹豫了。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "old-royal-palace",
+        relation: {
+          en: "The general diet that deposed Ferdinand and elected Frederick met at Prague Castle in August 1619.",
+          cz: "Generální sněm, který sesadil Ferdinanda a zvolil Fridricha, zasedal v srpnu 1619 na Pražském hradě.",
+          zh: "1619年8月，废黜斐迪南、选出腓特烈的那次总议会，就是在布拉格城堡开的。",
+        },
+      },
+    ],
+    referenceMaps: {
+      links: [
+        {
+          label: "1619",
+          description: {
+            en: "The full 1619 English pamphlet: the estates' reasons for rejecting Ferdinand and the proposal to elect Frederick (Text Creation Partnership)",
+            cz: "Celý anglický tisk z roku 1619: důvody zavržení Ferdinanda a návrh na volbu Fridricha (Text Creation Partnership)",
+            zh: "1619年英译小册子全文：等级们拒绝斐迪南的理由，以及推举腓特烈的提议（Text Creation Partnership）",
+          },
+          url: "https://github.com/textcreationpartnership/A68953",
+        },
+      ],
+    },
+    wikipediaUrl: "https://en.wikipedia.org/wiki/1619_imperial_election",
+  },
+  {
+    slug: "a-new-king-from-the-rhine-1619",
+    era: "fire-and-ashes",
+    images: ["/history/a-new-king-from-the-rhine-1619.webp"],
+    imageCaptions: [
+      {
+        en: "Prague, 31 October 1619: the new king Frederick and Queen Elizabeth ride into the city in a gilded carriage, Frederick leaning out to wave to the crowd, the queen in the latest London fashion with a little monkey at her side. The houses are hung with the white lion of Bohemia and the gold lion of the Palatinate; townspeople cheer and clap, while a few buttoned-up noblewomen whisper behind their fans.",
+        cz: "Praha, 31. října 1619: nový král Fridrich a královna Alžběta vjíždějí do města ve zlaceném kočáře, Fridrich se vyklání a mává davu, královna v poslední londýnské módě má vedle sebe malou opičku. Domy zdobí prapory s českým bílým lvem a falckým zlatým lvem, měšťané jásají a tleskají a několik pečlivě zahalených šlechtičen si za vějíři šušká.",
+        zh: "1619年10月31日，布拉格：新国王腓特烈和王后伊丽莎白乘着镀金马车进城，腓特烈探出身子向人群挥手，王后一身伦敦时兴的华服，身边还带着一只小猴子；街边挂满了波希米亚的白狮旗和普法尔茨的金狮旗，市民们欢呼鼓掌，几位裹得严严实实的贵妇拿扇子挡着嘴窃窃私语。",
+      },
+    ],
+    quotes: [
+      {
+        text: {
+          en: "Better to eat sauerkraut with a king than roast meat with an elector.",
+          cz: "Raději jíst kyselé zelí s králem než pečeni s kurfiřtem.",
+          zh: "宁可跟一位国王一起吃酸菜，也不跟一位选帝侯一起吃烤肉。",
+        },
+        attribution: {
+          en: "Said to have been Elizabeth's words to her husband, 1619 (a later legend)",
+          cz: "Prý Alžbětina slova manželovi, 1619 (pozdější legenda)",
+          zh: "据说是伊丽莎白对丈夫说的话，1619年（后世流传的说法）",
+        },
+      },
+    ],
+    startYear: 1619.8,
+    year: {
+      en: "September–December 1619",
+      cz: "Září až prosinec 1619",
+      zh: "1619年9月至12月",
+    },
+    tone: "humorous",
+    title: {
+      en: "A New King from the Rhine",
+      cz: "Nový král od Rýna",
+      zh: "从莱茵河来的新国王",
+    },
+    hookLine: {
+      en: "A twenty-three-year-old king came to Prague from Germany with an English princess. Prague had never seen a king like him, or a queen like her.",
+      cz: "Třiadvacetiletý král přijel z Německa do Prahy s anglickou princeznou. Takového krále Praha ještě neviděla, a takovou královnu taky ne.",
+      zh: "一位二十三岁的年轻国王，带着一位英国公主，从德意志来到了布拉格。布拉格人从来没见过这样的国王，也没见过这样的王后。",
+    },
+    summary: {
+      en: "At Amberg, Frederick received the news: Prague has chosen you as king.\n\nShould he take the crown or not?\n\nHis circle was in uproar. Some said it was heaven's doing: a Protestant crown had been delivered to his door, and how could he refuse it? Others said it was plainly a trap: take it, and he would be at war with the emperor, with Spain, with the whole Catholic world.\n\nWhy Spain? Because the King of Spain was a Habsburg too. Some sixty years earlier the family had split into two branches, one ruling from Vienna and the other from Madrid. They were cousins and always backed each other up: only two years before, Spain had signed a secret treaty with Ferdinand, promising him money and troops.\n\nHis father-in-law in London, James I, was the clearest of all: don't take it. England did not want to be dragged into this mess.\n\nAs for his wife, the English princess Elizabeth, she is supposed to have said:\n\n[[quote:0]]\n\nThere is no evidence she ever said it. It was most likely made up later on the Catholic side, to lay the disaster at a woman's door. Frederick's own reason was that this was God's calling, and not to be refused.\n\n[[b]]His father-in-law said no; in the legend, his wife said yes. In the end, Frederick said yes.[[/b]]\n\nAt the end of September he finally wrote back to Prague: I accept the crown.\n\nOn 31 October Frederick entered Prague with Elizabeth.\n\nThe whole city turned out to watch. Carriages, horsemen, servants and baggage made a long procession. The people of Prague lined the streets and craned their necks to see their new king: young, refined, with a friendly smile.\n\nOn 4 November Frederick was crowned in St Vitus Cathedral. The crown was set on his head not by the Catholic Archbishop of Prague but by clergy of the Utraquist church and the Unity of the Brethren.\n\nThree days later Elizabeth was crowned queen. By then she was heavily pregnant, with her baby nearly due.\n\n[[b]]For the first time, Protestant clergy had crowned a king in St Vitus Cathedral.[[/b]]\n\nOver the next few months, Prague had its eyes opened.\n\nThe new king cared little for ceremony. He liked tennis, riding and strolling about the city. The next summer, so it was said, he went swimming naked in the Vltava while the queen and her ladies watched from the bank. Prague shook its head.\n\nThe queen was even more of a shock. She wore the latest fashions of the London court, with very low necklines, and kept a whole household of dogs and monkeys. The ladies of Prague noticed, said nothing aloud, and muttered to themselves: is that any way for a queen to behave?\n\nThe castle took on a new look too. English servants and German courtiers, speaking English, German and French; hardly anyone spoke Czech.\n\nOn 27 December Elizabeth gave birth to a son at Prague Castle. They named him Rupert.\n\nPeople in Prague said it was a good omen: the new king had a new heir, and the new dynasty had put down roots in Prague.\n\nOutside the city, some saw it differently.\n\nThe Jesuits had been driven out of Prague, but their brethren outside gave the new king a nickname: \"the Winter King\".\n\nMeaning: once the snow melted, he would be gone too.",
+      cz: "V Amberku dostal Fridrich zprávu: Praha si tě zvolila za krále.\n\nVzít tu korunu, nebo ne?\n\nJeho okolí se rozhádalo. Jedni říkali, že je to Boží řízení: protestantská koruna mu přišla až ke dveřím, jak by ji mohl odmítnout? Druzí říkali, že je to jasná past: vezme-li ji, bude ve válce s císařem, se Španělskem, s celým katolickým světem.\n\nProč se Španělskem? Protože i španělský král byl Habsburk. Asi před šedesáti lety se rod rozdělil na dvě větve, jedna vládla z Vídně a druhá z Madridu. Byli to příbuzní a vždycky si vzájemně kryli záda: teprve před dvěma lety uzavřelo Španělsko s Ferdinandem tajnou smlouvu a slíbilo mu peníze i vojsko.\n\nNejjasněji se vyjádřil jeho tchán v Londýně, Jakub I.: neber ji. Anglie se do té šlamastyky zatahovat nechtěla.\n\nA jeho žena, anglická princezna Alžběta, prý řekla:\n\n[[quote:0]]\n\nŽe to kdy řekla, ale nic nedokládá. Nejspíš si to později vymysleli na katolické straně, aby celou pohromu svalili na ženu. Sám Fridrich tvrdil, že je to Boží povolání, kterému se nesmí vzepřít.\n\n[[b]]Tchán řekl ne, žena podle legendy ano. Nakonec řekl ano Fridrich.[[/b]]\n\nKoncem září konečně do Prahy odepsal: korunu přijímám.\n\nDne 31. října vjel Fridrich s Alžbětou do Prahy.\n\nCelé město se přišlo podívat. Kočáry, jezdci, služebnictvo a zavazadla tvořily dlouhý průvod. Pražané stáli podél ulic a natahovali krky, aby viděli nového krále: mladého, uhlazeného, s přívětivým úsměvem.\n\nDne 4. listopadu byl Fridrich korunován ve svatovítské katedrále. Korunu mu na hlavu nevložil katolický pražský arcibiskup, ale duchovní utrakvistické církve a Jednoty bratrské.\n\nO tři dny později byla korunována i Alžběta. To už byla v pokročilém těhotenství a porod se blížil.\n\n[[b]]Poprvé ve svatovítské katedrále korunovali krále protestantští duchovní.[[/b]]\n\nV dalších měsících Pražané koukali.\n\nNový král si nepotrpěl na okázalost. Hrál tenis, jezdil na koni a procházel se po městě. Příštího léta se prý koupal nahý ve Vltavě, zatímco královna a její dvorní dámy přihlížely ze břehu. Praha nad tím kroutila hlavou.\n\nKrálovna byla ještě větší šok. Nosila poslední módu londýnského dvora s hlubokými výstřihy a chovala celou smečku psů a opic. Pražské šlechtičny to viděly, nahlas nic neřekly a v duchu si bručely: takhle že se chová královna?\n\nI hrad dostal novou tvář. Angličtí sluhové, němečtí dvořané, mluvilo se anglicky, německy a francouzsky; česky skoro nikdo.\n\nDne 27. prosince porodila Alžběta na Pražském hradě syna. Dali mu jméno Ruprecht.\n\nPražané říkali, že je to dobré znamení: nový král má nového dědice a nová dynastie v Praze zapustila kořeny.\n\nZa městem to někteří viděli jinak.\n\nJezuité byli z Prahy vyhnáni, ale jejich spolubratři venku dali novému králi přezdívku: „zimní král“.\n\nTo jest: až roztaje sníh, bude pryč i on.",
+      zh: "腓特烈在安贝格接到了消息：布拉格选你当国王了。\n\n这顶王冠，接还是不接？\n\n他身边的人吵成了一团。有人说，这是上天的安排，新教徒的王冠送上门来，岂有不接的道理；有人说，这分明是一个陷阱，接了它，就是跟皇帝、跟西班牙、跟整个天主教世界开战。\n\n怎么又扯上了西班牙？因为西班牙国王，也姓哈布斯堡。六十多年前，哈布斯堡家分成了两支，一支坐镇维也纳，一支坐镇马德里。两边是亲戚，向来互相撑腰：就在两年前，西班牙还跟斐迪南签了一份密约，答应给他出钱、出兵。\n\n远在伦敦的岳父詹姆斯一世，态度最明确：别接。英国不想卷进这场麻烦。\n\n至于他的妻子，英国公主伊丽莎白，据说说了这么一句话：\n\n[[quote:0]]\n\n可这句话查无实据，多半是后来天主教一方编出来的，好把这场祸事算到一个女人头上。腓特烈自己给的理由是：这是上帝的召唤，不能违抗。\n\n[[b]]岳父说别接，传说里妻子说接。最后，腓特烈接了。[[/b]]\n\n9月底，他终于给布拉格回了信：这顶王冠，我接了。\n\n10月31日，腓特烈带着伊丽莎白，进了布拉格。\n\n全城都出来看热闹。马车、骑兵、仆从、行李，排了长长的一队。布拉格人站在街边，伸着脖子看他们的新国王：年轻，斯文，笑起来很和气。\n\n11月4日，腓特烈在圣维特大教堂加冕。给他戴上王冠的，不是天主教的布拉格大主教，而是圣杯派和弟兄会的教士。\n\n三天后，伊丽莎白也加冕为王后。那时候，她已经挺着大肚子，快要生了。\n\n[[b]]圣维特大教堂里头一回，由新教的教士给国王戴上了王冠。[[/b]]\n\n接下来的几个月，布拉格人开了眼界。\n\n新国王不讲排场，喜欢打网球、骑马、在城里随便走走。据说第二年夏天，他还光着身子下伏尔塔瓦河游泳，王后和宫女们就在岸边看着。布拉格人听说了，直摇头。\n\n王后更让人目瞪口呆。她穿的是伦敦宫廷最时兴的衣裳，领口开得很低，身边还养着一群狗和猴子。布拉格的贵妇们看在眼里，嘴上不说，心里直嘀咕：这哪像一位王后？\n\n城堡里也换了新气象。英国来的仆人，德意志来的廷臣，说英语的、说德语的、说法语的，就是很少有人说捷克语。\n\n12月27日，伊丽莎白在布拉格城堡里生下了一个儿子，取名鲁珀特。\n\n布拉格人都说，这是个好兆头：新国王有了新继承人，新王朝在布拉格扎下了根。\n\n可城外有人不这么看。\n\n布拉格的耶稣会士已经被赶走了，可他们留在城外的同道，给这位新国王起了个外号：“冬王。”\n\n意思是，等雪一化，他也就该走了。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Where Frederick was crowned on 4 November 1619, by Protestant clergy, and Elizabeth three days later.",
+          cz: "Tady byl Fridrich 4. listopadu 1619 korunován protestantskými duchovními a o tři dny později i Alžběta.",
+          zh: "1619年11月4日，腓特烈在这里由新教教士加冕；三天后，伊丽莎白也在这里加冕为王后。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Frederick_V_of_the_Palatinate",
+  },
 ];
 
 // Era-overview cards live in their own file (see historyOverviews.js).
