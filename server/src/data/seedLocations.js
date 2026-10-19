@@ -32305,6 +32305,76 @@ Po většinu svých dějin byl Krumlov německy mluvícím městem. Roku 1911 se
 🎁 彩蛋：从16世纪末起，城堡的护城河里就养着熊。罗森贝格家族养它们，是为了给一段据称、而且几乎可以肯定是编出来的身世背书：说自家跟罗马的奥尔西尼家族沾亲带故，而“奥尔西尼”听起来就像意大利语里的“熊”。那些熊从来没被问过愿不愿意，如今还住在那里，在别人家纹章的老笑话里，一住就是四百年。`,
     },
   },
+  {
+    name: 'Deer Moat',
+    slug: 'jeleni-prikop',
+    localizedNames: { cz: 'Jelení příkop', zh: '鹿沟' },
+    labels: ['park', 'nature', 'early-modern'],
+    district: 'Praha 1',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.09176000860406, lng: 14.400781559840656 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Deer_Moat',
+    description: {
+      en: `Prague Castle is famous for its crowds, which makes this one of the strangest places in the city: a deep green ravine right under the castle's north wall, with a stream, old trees and almost nobody in it. The castle's builders didn't dig it. They just found it there and decided it would make a very good moat.
+
+The ravine was carved by the little Brusnice stream long before anyone built a castle above it, and for centuries it served as the castle's natural northern defence. In 1535–1536 Ferdinand I had a bridge thrown across it to reach his new Royal Garden on the far side, and in the late 16th century, under Rudolf II, the ravine was stocked with deer and other game for the court to hunt, which is where the name comes from. Rudolf, who never did anything by halves, also built the Lion Court on its edge to house his big cats, and in 1601 one of the first orangeries in Bohemia.
+
+In 1771, under Maria Theresa, the bridge was buried under an earth embankment, the Powder Bridge you walk along today, and the moat was cut in two, with the stream sent through a culvert underneath. Under communism the whole ravine was closed to the public. Václav Havel opened the lower part in 1999, and in 2002 a pedestrian tunnel designed by Josef Pleskot was bored through the embankment, joining the two halves again for the first time in more than two centuries. It is usually open from spring to autumn and costs nothing to enter.
+
+🎁 Bonus: In the 1920s President Masaryk had a bear pit built in the moat for bears that Czechoslovak legionnaires had brought home from Russia as gifts. The president of a brand-new republic, living in a royal castle, keeping bears in a royal hunting ground: some traditions survive a change of regime better than others.`,
+      cz: `Pražský hrad je proslulý davy turistů, a tak je tohle jedno z nejpodivnějších míst ve městě: hluboká zelená rokle přímo pod severní hradbou, s potokem, starými stromy a skoro bez lidí. Stavitelé hradu ji nevykopali. Prostě ji tu našli a usoudili, že z ní bude výborný příkop.
+
+Rokli vyhloubil potůček Brusnice dávno předtím, než nad ní kdokoli postavil hrad, a po staletí sloužila jako přirozená obrana hradu ze severu. V letech 1535–1536 přes ni dal Ferdinand I. postavit most, aby se dostal do své nové Královské zahrady na druhé straně, a koncem 16. století, za Rudolfa II., sem byla vypuštěna jelení a jiná zvěř, na kterou dvůr pořádal hony. Odtud jméno. Rudolf, který nic nedělal napůl, postavil na okraji příkopu také Lví dvůr pro své šelmy a roku 1601 jednu z prvních oranžerií v Čechách.
+
+Roku 1771, za Marie Terezie, byl most zasypán zemním náspem, dnešním Prašným mostem, po kterém se chodí dodnes, a příkop se rozdělil na dvě části; potok teče pod náspem propustí. Za komunismu byla celá rokle veřejnosti uzavřena. Václav Havel otevřel dolní část roku 1999 a roku 2002 byl náspem proražen pěší tunel podle návrhu Josefa Pleskota, který obě poloviny po více než dvou stoletích znovu spojil. Obvykle je otevřeno od jara do podzimu a vstup je zdarma.
+
+🎁 Bonus: Ve dvacátých letech dal prezident Masaryk v příkopu zřídit medvědinec pro medvědy, které mu jako dar přivezli z Ruska českoslovenští legionáři. Prezident zbrusu nové republiky, bydlící na královském hradě, chová medvědy v královské oboře: některé tradice přečkají změnu režimu lépe než jiné.`,
+      zh: `布拉格城堡以人山人海出名，所以这里算得上全城最奇怪的地方之一：就在城堡北墙底下，一道深深的绿色山沟，有小溪，有老树，几乎看不到人。这条沟不是城堡的建造者挖的。他们只是发现它就在那儿，觉得拿来当护城壕再好不过。
+
+这道沟是布鲁斯尼采小溪冲出来的，比上面的城堡早得多。几百年里，它一直是城堡北面的天然屏障。1535到1536年，斐迪南一世在沟上架了一座桥，好走到对面新修的皇家花园。到了16世纪末鲁道夫二世在位时，沟里放养了鹿和别的猎物，供宫廷打猎，鹿沟的名字就是这么来的。做什么都不肯只做一半的鲁道夫，还在沟边盖了一座“狮子院”来养他的猛兽，1601年又建起了波希米亚最早的橘园之一。
+
+1771年，玛丽亚·特蕾莎在位时，那座桥被一道土堤整个埋了起来，就是今天大家走过的“火药桥”。鹿沟从此一分为二，小溪改从土堤底下的涵洞穿过去。共产党时期，整道山沟都不对外开放。1999年，哈维尔开放了下半段；2002年，按约瑟夫·普列斯科特的设计，在土堤底下打通了一条步行隧道，两半鹿沟在两百多年后第一次重新连在一起。这里一般从春天开到秋天，免费进入。
+
+🎁 彩蛋：20世纪20年代，马萨里克总统在鹿沟里修了一座熊苑，养的是捷克斯洛伐克军团从俄国带回来送给他的熊。一个崭新共和国的总统，住在国王的城堡里，在国王的猎场里养熊：有些传统，换了政权也照样活得好好的。`,
+    },
+  },
+  {
+    name: 'Babies (David Černý)',
+    slug: 'miminka-kampa',
+    localizedNames: { cz: 'Miminka (David Černý)', zh: '婴儿（大卫·切尔尼）' },
+    labels: ['monument'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.08414626707594, lng: 14.408417403065325 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Babies_(%C4%8Cern%C3%BD)',
+    description: {
+      en: `On the grass by the Kampa museum, three enormous bronze babies are crawling towards the river. Each is about the size of a small car, and none of them has a face: where the face should be, there is a flat panel stamped like a barcode. Children climb on them happily. Adults tend to take a second look.
+
+The babies are by David Černý, Prague's best-known provocateur in sculpture. The first one was made in the mid-1990s for an exhibition in Chicago, but the idea became famous in 2000, when ten black fibreglass babies were fixed to the legs of the Žižkov Television Tower, crawling up the most disliked building in the city. They were meant to be temporary. People grew so attached to them that they stayed.
+
+The bronze versions came to Kampa in 2008, here on the lawn next to Museum Kampa. Up close they are easier to read than on the tower: plump, ordinary babies, except for the faces, which look less like faces than like products waiting to be scanned. Černý has never offered one official meaning, which is probably the point.
+
+🎁 Bonus: The babies you see on the TV tower today are not the originals. In 2017 the first set was taken down for cleaning and checks, and in 2019 identical copies went back up in their places. The babies have been climbing that tower for over twenty years, and the current ones only joined halfway.`,
+      cz: `Na trávníku u Musea Kampa lezou k řece tři obrovská bronzová miminka. Každé je zhruba velké jako malé auto a žádné nemá obličej: tam, kde by měl být, je placka s vyraženým čárovým kódem. Děti na ně šplhají s nadšením. Dospělí se většinou podívají ještě jednou.
+
+Miminka jsou dílem Davida Černého, nejznámějšího pražského provokatéra mezi sochaři. První vzniklo v polovině devadesátých let pro výstavu v Chicagu, slavným se ale nápad stal roku 2000, kdy deset černých laminátových miminek přichytili na nohy Žižkovského vysílače, aby lezla po nejnenáviděnější stavbě ve městě. Měla tam být jen dočasně. Lidé si je ale tak oblíbili, že zůstala.
+
+Bronzové verze se na Kampu dostaly roku 2008, sem na trávník vedle Musea Kampa. Zblízka se čtou lépe než na věži: baculatá, docela obyčejná miminka, až na obličeje, které víc než obličeje připomínají zboží, jež čeká na naskenování. Černý nikdy nenabídl jeden oficiální výklad, a o to nejspíš jde.
+
+🎁 Bonus: Miminka, která dnes vidíte na vysílači, nejsou původní. Roku 2017 byla první sada sundána kvůli čištění a kontrole a roku 2019 se na stejná místa vrátily jejich přesné kopie. Miminka lezou po věži přes dvacet let a ta dnešní se k tomu přidala až v polovině cesty.`,
+      zh: `在坎帕博物馆旁边的草地上，三个巨大的青铜婴儿正朝河边爬去。每个都有一辆小汽车那么大，却都没有脸：本该是脸的地方，是一块压着条形码的平板。小孩子们爬上去玩得很开心，大人们则往往会多看一眼。
+
+这些婴儿出自大卫·切尔尼之手，他是布拉格最有名的“挑衅派”雕塑家。第一个婴儿是90年代中期为芝加哥的一场展览做的，但让这个创意出名的是2000年：十个黑色玻璃钢婴儿被固定在日什科夫电视塔的塔柱上，沿着全城最招人嫌的建筑往上爬。它们本来只是临时展出，结果大家实在太喜欢，就一直留了下来。
+
+青铜版在2008年来到坎帕，就放在坎帕博物馆旁的这片草地上。近看比在塔上更好懂：圆滚滚的、普普通通的婴儿，只除了那张脸，看上去不像脸，倒像一件等着扫码的商品。切尔尼从来没给过一个官方解释，这大概正是他想要的。
+
+🎁 彩蛋：今天电视塔上的婴儿并不是原版。2017年，第一批婴儿被取下来清洗检查，2019年换上了一模一样的复制品，装回原来的位置。婴儿们在那座塔上爬了二十多年，现在这一批是半路才接上班的。`,
+    },
+  },
 ];
 
 async function run() {
