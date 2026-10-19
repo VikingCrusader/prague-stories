@@ -19742,6 +19742,41 @@ Socha vznikla kolem let 1720 až 1730, nejspíš v dílně Matyáše Bernarda Br
     },
   },
   {
+    name: 'Calvary (Charles Bridge)',
+    slug: 'kalvarie-karluv-most',
+    localizedNames: { cz: 'Sousoší sv. Kříže s Kalvárií', zh: '查理大桥圣十字架与各各他群像' },
+    labels: ['monument', 'cultural', 'baroque'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.086449058127634, lng: 14.412396319492517 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Calvary,_Charles_Bridge',
+    description: {
+      en: `For more than six centuries something has stood on this spot of Charles Bridge to remind passers-by of the Crucifixion, long before any of the thirty saints arrived. It is the bridge's oldest resident, and it has been smashed, replaced, defended and argued over more often than any of them.
+
+A wooden cross stood here as early as the 14th century, under Charles IV. It was probably destroyed by the Hussites in 1419 and later put back; in 1619, so the story goes, the Calvinists around the new Winter King wanted it gone, and the people of Prague would not let anyone touch it. A new crucifix went up in 1629 and was badly damaged by the Swedes at the end of the Thirty Years' War. The bronze Christ you see today was cast in Dresden in 1628 by Hans Hillger after a model by Wolf Ernst Brohn, bought by Prague and set up here in 1657. The stone Calvary hill beneath it followed in 1707, and the sandstone Virgin Mary and St John on either side were added by Emanuel Max in 1861.
+
+The gilded Hebrew letters around Christ's head have a darker story. In 1696 Elias Backoffen, a leader of Prague's Jewish community, was accused of mocking the cross, and as his punishment he was made to pay for the inscription: "Holy, holy, holy is the Lord of hosts", from the prophet Isaiah, set around the crucifix as a public humiliation of the Jewish town. Since 2009 plaques in Czech, English and Hebrew explain what the words are doing there.
+
+🎁 Bonus: Look closely at the Hebrew. The letter aleph in the last word is the wrong way round. The Nazis took the letters down during the occupation, and when they were put back after the war, that one went up backwards.`,
+      cz: `Už přes šest set let stojí na tomhle místě Karlova mostu něco, co kolemjdoucím připomíná ukřižování, dávno předtím, než sem dorazil kterýkoli z třiceti světců. Je to nejstarší obyvatel mostu a rozbíjeli ho, nahrazovali, bránili a hádali se o něj častěji než o kohokoli z nich.
+
+Dřevěný kříž tu stál už ve 14. století, za Karla IV. Nejspíš ho roku 1419 zničili husité a později byl obnoven; v roce 1619 ho prý chtěli odstranit kalvinisté z okolí nového zimního krále, ale Pražané nedovolili, aby na něj kdokoli sáhl. Nový krucifix tu vztyčili roku 1629 a na konci třicetileté války ho těžce poškodili Švédové. Bronzového Krista, kterého vidíte dnes, odlil roku 1628 v Drážďanech Hans Hillger podle modelu Wolfa Ernsta Brohna; Praha ho koupila a roku 1657 tu ho postavila. Kamenný kalvárský pahorek pod ním přibyl roku 1707 a pískovcové sochy Panny Marie a svatého Jana po stranách doplnil roku 1861 Emanuel Max.
+
+Zlacená hebrejská písmena kolem Kristovy hlavy mají temnější příběh. Roku 1696 byl Eliáš Backoffen, jeden z představených pražské židovské obce, obviněn, že se kříži posmíval, a za trest musel nápis zaplatit: „Svatý, svatý, svatý je Hospodin zástupů“ ze slov proroka Izajáše, umístěný kolem krucifixu jako veřejné ponížení židovského města. Od roku 2009 vysvětlují, co tu ta slova dělají, desky v češtině, angličtině a hebrejštině.
+
+🎁 Bonus: Podívejte se pozorně na hebrejský nápis. Písmeno alef v posledním slově je obráceně. Nacisté písmena za okupace sundali, a když je po válce vraceli, tohle jedno přišlo na místo naopak.`,
+      zh: `六百多年来，查理大桥的这个位置上一直立着点什么，提醒过桥的人想起耶稣受难，比桥上那三十尊圣人像来得都早。它是这座桥上最老的住户，被砸过、换过、护过、吵过的次数，也比它们谁都多。
+
+早在14世纪查理四世的时候，这里就立着一座木十字架。1419年，它多半毁在了胡斯派手里，后来又重新立了起来；据说1619年，新来的“冬王”身边那些加尔文宗的人想把它拆掉，布拉格市民硬是没让动。1629年，这里又换上了一座新十字架，三十年战争快结束时被瑞典人打得残破不堪。今天看到的这尊铜铸耶稣像，是1628年在德累斯顿铸的：沃尔夫·恩斯特·布罗恩做模型，汉斯·希尔格浇铸，布拉格把它买了回来，1657年立在这里。底下那座石头的各各他山丘是1707年加的，两旁的圣母和圣约翰砂岩像，则是埃马努埃尔·马克斯1861年补上的。
+
+耶稣头顶那圈镀金的希伯来文，背后的故事要沉重得多。1696年，布拉格犹太社区的首领之一埃利亚斯·巴克奥芬被指控嘲弄十字架，作为惩罚，他被迫出钱做了这段铭文：“圣哉，圣哉，圣哉，万军之耶和华”，出自先知以赛亚。它被安在十字架周围，是对犹太城的公开羞辱。2009年起，旁边立了捷克文、英文和希伯来文的说明牌，讲清楚这几个字为什么会出现在这里。
+
+🎁 彩蛋：仔细看那行希伯来文。最后一个词里的字母“阿列夫”是反的。纳粹占领期间，这些字母被拆了下来；战后装回去的时候，这一个装反了。`,
+    },
+  },
+  {
     name: 'Basilica of St. Ludmila',
     slug: 'namesti-miru',
     localizedNames: { cz: 'Bazilika sv. Ludmily', zh: '圣鲁德米拉圣殿' },

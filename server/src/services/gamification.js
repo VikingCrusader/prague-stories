@@ -36,7 +36,7 @@ export const LEFT_BANK_QUARTERS = new Set([
 // viaducts) and bridge towers on a bank stay in.
 export const HUNT_EXCLUDED_SLUGS = [
   // bridges over the Vltava and what stands on them
-  'charles-bridge', 'socha-svateho-jana-nepomuckeho', 'socha-sv-ludmily-karluv-most',
+  'charles-bridge', 'socha-svateho-jana-nepomuckeho', 'socha-sv-ludmily-karluv-most', 'kalvarie-karluv-most',
   'socha-sv-vojtecha-karluv-most', 'cechuv-most', 'sochy-geniu-cechuv-most', 'most-legii',
   'manesuv-most', 'jiraskuv-most', 'palackeho-most', 'stefanikuv-most', 'hlavkuv-most',
   'stvanicka-lavka-holka', 'negrelliho-viadukt', 'libensky-most', 'most-barikadniku',

@@ -26856,6 +26856,145 @@ export const historyEvents = [
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Frederick_V_of_the_Palatinate",
   },
+  {
+    slug: "the-new-preachers-clean-up-1619",
+    era: "fire-and-ashes",
+    quotes: [
+      {
+        text: {
+          en: "And should many of them see a crucifix hewn in pieces or burned to ashes, oh, how their very hearts would bleed for grief! This is indeed truly to do reverence and honour unto images, and make idols of them.",
+          cz: "A kdyby mnozí z nich viděli krucifix rozsekaný na kusy nebo spálený na popel, ach, jak by jim samým žalem krvácelo srdce! A to je právě ta pravá úcta a pocta obrazům, to je dělat z nich modly.",
+          zh: "他们当中许多人，要是看见一个十字架被劈成碎片、烧成灰，哎呀，心都要疼得滴血！这恰恰就是在敬拜圣像，把它们当成了偶像。",
+        },
+        attribution: {
+          en: "Abraham Scultetus, sermon on the clearing of the castle church in Prague, 12 December 1619 (English translation, 1620)",
+          cz: "Abraham Scultetus, kázání o vyklizení hradního chrámu v Praze, 12. prosince 1619 (anglický překlad, 1620)",
+          zh: "斯库尔特图斯为清理布拉格城堡大教堂所讲的道，1619年12月12日（1620年英译本）",
+        },
+      },
+    ],
+    startYear: 1619.9,
+    year: {
+      en: "December 1619",
+      cz: "Prosinec 1619",
+      zh: "1619年12月",
+    },
+    tone: "humorous",
+    title: {
+      en: "The New Preacher's Big Clean-Up",
+      cz: "Velký úklid nového kazatele",
+      zh: "新牧师的“大扫除”",
+    },
+    hookLine: {
+      en: "The new king brought a new preacher. He walked into St Vitus Cathedral, looked around and said: this place is a mess, it needs a good clean-up.",
+      cz: "Nový král si přivezl nového kazatele. Ten vešel do svatovítské katedrály, rozhlédl se a řekl: je tu nepořádek, musí se tu pořádně uklidit.",
+      zh: "新国王带来了一位新牧师。他走进圣维特大教堂，看了一圈，说：这里太乱了，得好好收拾一下。",
+    },
+    summary: {
+      en: "Frederick had brought plenty of people with him from Heidelberg, and the most important of them was his court preacher, Abraham Scultetus.\n\nScultetus was a Calvinist theologian with a name in Germany. Calvinists were not like the Protestants of Prague. Utraquists and Lutherans alike still had paintings, statues and altars in their churches; to a Calvinist, all of these were \"idols\". God was to be worshipped in the heart, not by bowing down before a piece of wood or a painted picture.\n\n[[b]]Prague's Protestants saw images as decoration. The new king's preacher saw them as idols.[[/b]]\n\nSt Vitus Cathedral was the holiest place in the kingdom. For centuries kings had been crowned there and buried there. It was full of paintings, statues and altars.\n\nTo Scultetus it looked like a warehouse of idols.\n\nOn Sunday 12 December 1619, by the king's command, he went into the cathedral with his men.\n\nAltars were pulled down, images carried off, paintings taken down from the walls one by one, statues toppled. Some things were smashed, some thrown outside; a few fine paintings were carefully cut from their frames and put away in the castle's storerooms. The clearing was still going on after Christmas.\n\nScultetus also preached a sermon explaining why it all had to go, and took the chance to mock those who would miss it:\n\n[[quote:0]]\n\n[[b]]Two hundred years earlier the Hussites had smashed churches too. This time the man doing it was the king's own preacher.[[/b]]\n\nAs the news spread, Prague was in uproar.\n\nThe Catholics shook with rage; that was only to be expected. What the new king had not expected was that Prague's own Protestants would shake with rage as well.\n\nThe Utraquists said: St Vitus is our cathedral, built by Charles IV, the resting place of St Wenceslas; who is this preacher from Germany to tear it apart as he pleases? The Lutherans said: we are Protestants, but we are not Calvinists, and our churches have paintings and statues too; will we be next?\n\nSomeone, so the story goes, even had designs on the crucifix on Charles Bridge and wanted it taken down as well. This time the people of Prague put their foot down and would not let anyone touch it. The crucifix stayed.\n\n[[b]]The new king had been in the city for two months, and he had united everyone, whatever their faith: united in being annoyed.[[/b]]\n\nFrederick did not lift a finger himself, but he had brought the man, and the order was his. From that day on, whatever goodwill Prague had felt for its new king slowly began to cool.\n\nA cathedral can be put back in order. Hearts are harder to win back.\n\nStill, that autumn, good news had come from far away.\n\nSomeone had already fought his way to the gates of Vienna on Frederick's behalf.",
+      cz: "Fridrich si z Heidelberku přivedl spoustu lidí a nejdůležitější z nich byl jeho dvorní kazatel Abraham Scultetus.\n\nScultetus byl kalvínský teolog a v Německu měl jméno. Kalvinisté nebyli jako pražští protestanti. Utrakvisté i luteráni měli v kostelech dál obrazy, sochy a oltáře; pro kalvinistu to všechno byly „modly“. Bohu se má sloužit v srdci, ne se klanět kusu dřeva nebo malovanému obrázku.\n\n[[b]]Pražští protestanti brali obrazy jako výzdobu. Kazatel nového krále v nich viděl modly.[[/b]]\n\nSvatovítská katedrála byla nejposvátnějším místem království. Po staletí tu krále korunovali a pohřbívali. Visely v ní obrazy, stály sochy a oltáře.\n\nScultetovi připadala jako sklad model.\n\nV neděli 12. prosince 1619 vešel na králův rozkaz se svými lidmi do katedrály.\n\nOltáře byly strženy, obrazy odneseny, malby jedna po druhé sundány ze zdí, sochy povaleny. Něco se rozbilo, něco vyházelo ven; několik vzácných obrazů bylo pečlivě vyříznuto z rámů a uloženo v hradních skladech. Vyklízelo se ještě po Vánocích.\n\nScultetus k tomu ještě kázal, proč to všechno muselo pryč, a mimochodem se vysmál těm, komu to bude líto:\n\n[[quote:0]]\n\n[[b]]Před dvěma sty lety ničili kostely husité. Tentokrát to byl králův vlastní kazatel.[[/b]]\n\nJakmile se zpráva rozkřikla, Praha se rozbouřila.\n\nKatolíci se třásli vzteky, to se dalo čekat. S čím nový král nepočítal, bylo, že vzteky se budou třást i pražští protestanti.\n\nUtrakvisté říkali: svatý Vít je naše katedrála, postavil ji Karel IV., odpočívá v ní svatý Václav; kdo je ten kazatel z Německa, aby ji podle libosti bořil? Luteráni říkali: jsme protestanti, ale ne kalvinisté, i v našich kostelech jsou obrazy a sochy; přijdeme na řadu my?\n\nKdosi si prý dokonce brousil zuby i na krucifix na Karlově mostě a chtěl ho také odstranit. Tentokrát se Pražané postavili na zadní a nedovolili na něj sáhnout. Krucifix zůstal.\n\n[[b]]Nový král byl ve městě dva měsíce a dokázal sjednotit všechny bez rozdílu víry: v nespokojenosti.[[/b]]\n\nFridrich sám ruku nepřiložil, ale toho muže přivedl on a rozkaz dal také on. Od toho dne začala náklonnost Pražanů k novému králi pomalu chladnout.\n\nKatedrálu lze dát zase do pořádku. Srdce se získávají zpátky hůř.\n\nToho podzimu ale přišla z dálky i jedna dobrá zpráva.\n\nKdosi už za Fridricha dotáhl až k hradbám Vídně.",
+      zh: "腓特烈从海德堡带来了不少人，其中最要紧的一位，是他的宫廷牧师：亚伯拉罕·斯库尔特图斯。\n\n斯库尔特图斯是加尔文宗的神学家，在德意志颇有名气。加尔文宗跟布拉格本地的新教徒不太一样：圣杯派也好，路德派也好，教堂里照样挂画、立像、摆祭坛；可在加尔文宗看来，这些统统是“偶像”。上帝只该在心里敬拜，不该对着一块木头、一张画磕头。\n\n[[b]]布拉格的新教徒把圣像当装饰，新国王的牧师把圣像当偶像。[[/b]]\n\n圣维特大教堂是王国最神圣的地方，几百年来，国王在这里加冕，在这里下葬。教堂里挂满了画，立满了像，摆满了祭坛。\n\n在斯库尔特图斯眼里，这简直是一座偶像仓库。\n\n1619年12月12日，一个星期天，奉国王之命，他带着人进了大教堂。\n\n祭坛被拆了，圣像被搬走了，墙上的画一幅幅摘下来，雕像一座座推倒。有的东西被砸了，有的被扔到了外面；也有几幅名画，被人小心地从画框里裁下来，收进了城堡的库房。一直到圣诞节过后，这场清理还没停。\n\n斯库尔特图斯还专门讲了一篇道，说明这些东西为什么非清走不可，顺便挖苦了那些舍不得的人：\n\n[[quote:0]]\n\n[[b]]两百年前，胡斯派也砸过教堂；这一回砸教堂的，是国王自己的牧师。[[/b]]\n\n消息一传开，布拉格炸了锅。\n\n天主教徒气得发抖，这在意料之中。可让新国王没想到的是，布拉格本地的新教徒，也气得发抖。\n\n圣杯派的人说：圣维特大教堂是我们的大教堂，是查理四世盖的，是圣瓦茨拉夫安息的地方，凭什么由一个德意志来的牧师说拆就拆？路德派的人说：我们是新教徒，可我们不是加尔文宗，我们的教堂里也有画、有像，难道下一个就轮到我们？\n\n据说，有人还打起了查理大桥上那座十字架的主意，打算把它也拆掉。这一回，布拉格的市民们不干了，坚决不让动手。十字架总算保了下来。\n\n[[b]]新国王进城才两个月，就让全城的人，不管信什么，都站到了一起：一起不高兴。[[/b]]\n\n腓特烈本人没有亲自动手，可人是他带来的，命令是他下的。布拉格人心里那点对新国王的好感，从这一天起，开始一点一点地凉了下去。\n\n教堂可以重新收拾，人心却没那么容易收回来。\n\n好在这一年秋天，远方还传来过一个好消息。\n\n有人已经替腓特烈，打到了维也纳城下。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "st-vitus-cathedral",
+        relation: {
+          en: "Stripped of its altars, statues and paintings in December 1619 on the orders of the new Calvinist king.",
+          cz: "V prosinci 1619 ji na rozkaz nového kalvínského krále vyklidili od oltářů, soch a obrazů.",
+          zh: "1619年12月，奉新来的加尔文宗国王之命，这里的祭坛、雕像和画被清了个干净。",
+        },
+      },
+      {
+        slug: "kalvarie-karluv-most",
+        relation: {
+          en: "The crucifix on Charles Bridge which, so the story goes, the people of Prague refused to let anyone take down in 1619. The bronze Christ there today dates from 1657.",
+          cz: "Krucifix na Karlově mostě, na který podle vyprávění Pražané v roce 1619 nedovolili nikomu sáhnout. Dnešní bronzový Kristus tu stojí od roku 1657.",
+          zh: "查理大桥上的那座十字架。据说1619年有人想拆它，布拉格市民硬是没让动。今天桥上那尊铜铸耶稣像，是1657年立起来的。",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Abraham_Scultetus",
+    images: ["/history/the-new-preachers-clean-up-1619.webp"],
+    imageCaptions: [
+      {
+        en: "St Vitus Cathedral, December 1619: Abraham Scultetus directs his men as they strip the altars and topple the statues, while the people of Prague look on in dismay.",
+        cz: "Svatovítská katedrála, prosinec 1619: Abraham Scultetus řídí své lidi, kteří strhávají oltáře a povalují sochy, a Pražané přihlížejí se zděšením.",
+        zh: "1619年12月，圣维特大教堂：斯库尔特图斯指挥手下拆祭坛、推雕像，一旁的布拉格人看得目瞪口呆。",
+      },
+    ],
+  },
+  {
+    slug: "vienna-besieged-again-1619",
+    era: "fire-and-ashes",
+    startYear: 1619.92,
+    year: {
+      en: "August 1619 – January 1620",
+      cz: "Srpen 1619 – leden 1620",
+      zh: "1619年8月至1620年1月",
+    },
+    tone: "humorous",
+    title: {
+      en: "Vienna, Besieged Again",
+      cz: "Vídeň znovu v obležení",
+      zh: "维也纳又被围了",
+    },
+    hookLine: {
+      en: "Frederick's relatives and allies were all still waiting to see. Instead, a man nobody had counted on came marching in with an army from the east of Hungary.",
+      cz: "Fridrichovi příbuzní a spojenci pořád jen vyčkávali. Zato muž, se kterým nikdo nepočítal, přitáhl s vojskem z východních Uher.",
+      zh: "腓特烈的亲戚盟友都还在观望，倒是一位谁也没指望的人，从匈牙利东边带兵杀了过来。",
+    },
+    summary: {
+      en: "The man fighting Frederick's war came from the far east of Hungary, a land called Transylvania, today part of Romania.\n\nHe was its prince, Gabriel Bethlen. He was a Calvinist, of the same church as Frederick; he was nominally a vassal of the Ottoman sultan, and he had never got on with the Habsburgs.\n\nIn the summer that Prague deposed Ferdinand, Bethlen made his move too.\n\nIn August 1619 he marched into Habsburg Hungary. Protestant nobles everywhere went over to him, and town after town surrendered without a fight. In October he took Pressburg, where the Hungarian diet met, today's Bratislava.\n\nIn Pressburg he picked up something else as well: the Holy Crown of Hungary.\n\n[[b]]Prague had taken one of Ferdinand's crowns away. Bethlen simply carried the other one home.[[/b]]\n\nBethlen pushed west, Thurn came down from the north, and the two armies met on the Danube.\n\nAt the end of November, Vienna was surrounded once again.\n\nIt was the [[link:at-the-gates-of-vienna-1619]]second time[[/link]] in under six months that Vienna had seen campfires outside its walls. Winter came early that year. It was bitterly cold, the city was short of food, and the soldiers outside were freezing too.\n\n[[b]]Twice in six months, Vienna was under siege.[[/b]]\n\nFerdinand sent north for help in a hurry. The King of Poland said yes.\n\nThe Poles sent no troops to Vienna. Instead they let loose a force of light cavalry famous for its ferocity, which crossed the mountains to the north and burst straight into the lands Bethlen had left behind in north-eastern Hungary. At the end of November the commander he had left there was beaten at Humenné.\n\nWith fire at his own front door, Bethlen had to abandon Vienna and hurry home. Thurn could not hold the siege on his own, and had to pull back as well.\n\nThe following January Bethlen went as far as signing a truce with the emperor. A few months later the Hungarian estates elected him king, but he never had himself crowned, and he was only ever half-hearted about the Bohemian cause.\n\n[[b]]The one ally who had actually come was cut off from behind, and went away again.[[/b]]\n\nVienna had escaped a second time.\n\nBut this time Ferdinand did not mean to rely on luck again. In fact, in the very weeks when Bethlen was closing in on Vienna, he had already been out looking for helpers.",
+      cz: "Muž, který za Fridricha bojoval, přišel z nejzazšího východu Uher, ze země zvané Sedmihradsko, která dnes patří k Rumunsku.\n\nByl tam knížetem a jmenoval se Gabriel Betlen. Byl kalvinista, stejného vyznání jako Fridrich; formálně byl vazalem tureckého sultána a s Habsburky si odjakživa nerozuměl.\n\nToho léta, kdy Praha sesadila Ferdinanda, udeřil i Betlen.\n\nV srpnu 1619 vtrhl do habsburských Uher. Protestantská šlechta k němu všude přecházela a jedno město za druhým se vzdávalo bez boje. V říjnu dobyl Prešpurk, kde zasedal uherský sněm, dnešní Bratislavu.\n\nV Prešpurku získal ještě jednu věc: uherskou svatou korunu.\n\n[[b]]Praha Ferdinandovi jednu korunu vzala. Betlen si tu druhou rovnou odnesl domů.[[/b]]\n\nBetlen táhl na západ, Thurn od severu na jih a obě vojska se spojila na Dunaji.\n\nKoncem listopadu byla Vídeň znovu obklíčena.\n\nBylo to už [[link:at-the-gates-of-vienna-1619]]podruhé[[/link]] za necelého půl roku, co Vídeň viděla za hradbami táborové ohně. Zima toho roku přišla brzy. Mrzlo, až praštělo, ve městě docházelo jídlo a vojáci za hradbami mrzli také.\n\n[[b]]Za půl roku byla Vídeň obležena dvakrát.[[/b]]\n\nFerdinand spěšně poslal o pomoc na sever. Polský král přikývl.\n\nPoláci do Vídně vojsko neposlali. Místo toho vypustili oddíl lehké jízdy, proslulé svou divokostí, který přešel hory na severu a vtrhl rovnou do Betlenových držav v severovýchodních Uhrách. Koncem listopadu tam velitel, kterého Betlen nechal doma, prohrál bitvu u Humenného.\n\nKdyž mu hořelo za humny, musel Betlen Vídeň opustit a spěchat domů. Thurn sám obležení neudržel a musel také ustoupit.\n\nV lednu následujícího roku Betlen s císařem dokonce uzavřel příměří. O několik měsíců později ho uherští stavové zvolili králem, korunovat se ale nikdy nedal a české věci se věnoval jen napůl.\n\n[[b]]Jediný spojenec, který opravdu přišel, dostal úder do týla a zase odtáhl.[[/b]]\n\nVídeň vyvázla podruhé.\n\nTentokrát se ale Ferdinand nehodlal znovu spoléhat na štěstí. Ve skutečnosti už v těch týdnech, kdy se Betlen k Vídni blížil krok za krokem, sháněl pomocníky.",
+      zh: "替腓特烈打仗的这个人，来自匈牙利的最东边，一个叫特兰西瓦尼亚的地方，如今在罗马尼亚境内。\n\n他是那里的亲王，叫拜特伦·加博尔。他信加尔文宗，跟腓特烈是一个教派；他名义上向土耳其苏丹称臣，跟哈布斯堡家素来不对付。\n\n布拉格废掉斐迪南的那个夏天，拜特伦也动了手。\n\n1619年8月，他带兵杀进了哈布斯堡统治下的匈牙利。各地的新教贵族纷纷倒向他，一座座城市不战而降。10月，他拿下了匈牙利的议会所在地普雷斯堡，也就是今天的布拉迪斯拉发。\n\n在普雷斯堡，他还拿到了一样东西：匈牙利的圣冠。\n\n[[b]]布拉格把斐迪南的一顶王冠拿走了；拜特伦把另一顶，直接抱回了自己家。[[/b]]\n\n拜特伦一路向西，图尔恩从北边南下，两支大军在多瑙河边会合了。\n\n11月底，维也纳又一次被围了起来。\n\n这是不到半年里，维也纳[[link:at-the-gates-of-vienna-1619]]第二次[[/link]]看见城外的营火。那年冬天来得早，天寒地冻，城里缺粮，城外的兵也冻得够呛。\n\n[[b]]半年之内，维也纳被围了两回。[[/b]]\n\n斐迪南急忙向北边求救。波兰国王答应了。\n\n波兰人没往维也纳派兵，而是放出了一支以凶悍出名的轻骑兵，翻过北边的山，直接冲进了拜特伦留在匈牙利东北部的地盘。11月底，拜特伦留守的部将在胡缅内吃了败仗。\n\n家门口起火了，拜特伦只好丢下维也纳，回兵救家。图尔恩一个人围不住，也只得撤了。\n\n第二年1月，拜特伦干脆跟皇帝签了停战协定。几个月后，匈牙利的等级选他当了国王，可他始终没有加冕，在波希米亚的事上，也一直有一搭没一搭。\n\n[[b]]唯一真正来了的盟友，被人抄了后路，又走了。[[/b]]\n\n维也纳躲过了第二劫。\n\n可这一回，斐迪南不打算再靠运气了。其实，就在拜特伦一步步逼近维也纳的那几个星期里，他已经在四处找帮手了。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Gabriel_Bethlen",
+    images: ["/history/vienna-besieged-again-1619.webp"],
+    imageCaptions: [
+      {
+        en: "Outside Vienna, late November 1619, in heavy snow: Gabriel Bethlen rides away from the city walls while his frozen cavalry huddle round a fire, and a messenger gallops in with news from home: Polish cavalry are raiding the prince's own lands.",
+        cz: "Před Vídní, konec listopadu 1619, v hustém sněžení: Gabriel Betlen odjíždí od městských hradeb, jeho promrzlí jezdci se tisknou k ohni a od východu cválá posel se zprávou z domova: do knížecích držav vpadla polská jízda.",
+        zh: "1619年11月底，维也纳城外，大雪纷飞：拜特伦骑着马，离开了维也纳的城墙，冻僵的骑兵围着火堆取暖；远处，一名信使正迎着风雪送来家里告急的消息：波兰骑兵杀进了拜特伦的老家。",
+      },
+    ],
+  },
+  {
+    slug: "help-at-a-price-1619",
+    era: "fire-and-ashes",
+    startYear: 1619.95,
+    year: {
+      en: "October 1619 – spring 1620",
+      cz: "Říjen 1619 – jaro 1620",
+      zh: "1619年10月至1620年春",
+    },
+    tone: "humorous",
+    title: {
+      en: "Help, at a Price",
+      cz: "Pomoc za úplatu",
+      zh: "开了价，才来帮皇帝",
+    },
+    hookLine: {
+      en: "The new emperor had no money and few soldiers. He went looking for helpers, and they all came, each one carrying a price list.",
+      cz: "Nový císař neměl peníze a vojáků jen pár. Sháněl pomocníky a ti přišli všichni, každý s ceníkem v ruce.",
+      zh: "新皇帝手里没钱，也没多少兵。他四处找帮手，帮手们都来了，每一位都带着一张价目单。",
+    },
+    summary: {
+      en: "We have to turn the clock back a little. At the end of August, Ferdinand had barely won the imperial crown in Frankfurt when the news from Prague caught up with him.\n\nHe was furious.\n\nAs he saw it, the whole business was outrageous from start to finish. He was the [[link:the-new-king-1617]]formally \"accepted\"[[/link]], formally crowned King of Bohemia, and the people of Prague had deposed him with a single document. He was the emperor, elected unanimously by all seven electors of the Empire, and the people of Prague had simply ignored that and set up another king.\n\nAnd this new king, of all things, was a Calvinist.\n\nTo a devout Catholic like Ferdinand, Lutherans were bad enough, and Calvinists were worse still: they tore down altars, smashed images, and did not even believe that Christ's body was truly present in the Eucharist. Even Lutheran princes looked down their noses at Calvinists a little. Now one of them was sitting in Prague Castle, and his preacher had given St Vitus Cathedral a thorough \"clean-up\".\n\n[[b]]Prague had not only deposed him; it had found a heretic among heretics to sit in his place.[[/b]]\n\nFerdinand was famous for saying he would rather rule a desert than a country full of heretics. Now the country full of heretics did not even want him.\n\nThis he could not swallow.\n\nBut anger alone would get him nowhere. Under that crown there was almost nothing.\n\nThe Protestants of Austria had turned their backs on him, and Hungary was in turmoil too: Bethlen was marching on Vienna, and Thurn was closing in from the north. Ferdinand barely had the troops to hold Vienna.\n\nFirst he had to save Vienna. Once it was safe, he would strike back into Bohemia and deal properly with this nest of \"heretics among heretics\".\n\nFor either job, he needed help.\n\n[[b]]Ferdinand had titles to spare. What he lacked was soldiers and money.[[/b]]\n\nThe first helper was Duke Maximilian of Bavaria.\n\nHe was Ferdinand's cousin and old schoolfellow: as young men both had studied with the Jesuits at Ingolstadt. He was also the head of the Catholic League, with a well-drilled army commanded by a sixty-year-old veteran called Tilly.\n\nIn October 1619, on his way home from Frankfurt, Ferdinand stopped in Munich, and the two signed a treaty there. Maximilian agreed to send his army, on these terms:\n\nThe emperor would repay every penny the war cost; until he did, any Austrian land the army took would stay in Bavarian hands as a pledge. In the end, that meant Upper Austria.\n\nAnd one term was not written into the open text: once the war was won, Frederick's electoral title would go to Maximilian.\n\n[[b]]Bavaria's price was a piece of land, plus somebody else's hat.[[/b]]\n\nThe second helper was Spain.\n\nThe King of Spain was a Habsburg too, and had signed a secret treaty with Ferdinand two years before. This time Madrid paid money and moved troops from the Netherlands. The Spanish general Spinola had his eye on Frederick's homeland, the Palatinate on the Rhine. It held crossings over the Rhine right beside the road by which Spain marched its troops from Italy to the Netherlands.\n\n[[b]]Spain joined in, and built itself a road along the way.[[/b]]\n\nThe third helper was the biggest surprise: John George, Elector of Saxony.\n\nHe was a Lutheran, the highest-ranking Protestant prince in Germany. By rights he should have stood with Frederick. The Bohemians had even asked him first whether he wanted the crown, and he had said no.\n\nBut he did not like Calvinists. He liked a young Calvinist wearing the Bohemian crown even less, and he did not like people deposing kings whenever they felt like it.\n\nThe price the emperor offered him was Lusatia: land of the Bohemian Crown, and one of the five lands of the [[link:the-diet-decides-1619]]Confederation[[/link]].\n\n[[b]]The first prince of the Protestants was bought by the emperor with a Protestant land.[[/b]]\n\nThere were smaller helpers too. The Pope in Rome sent money. The King of Poland said yes as well: the light cavalry that later fell on Bethlen's rear was his.\n\nBy the spring of 1620 the emperor's price list was full.\n\nBavaria wanted Upper Austria and an electoral title, Spain wanted the Palatinate's road, Saxony wanted Lusatia.\n\nLook closely at that list. Of everything the emperor had promised, only one item was his own. The rest all belonged to somebody else: Frederick's title, Frederick's homeland, Bohemia's land.\n\n[[b]]The emperor was paying his helpers' wages out of his enemy's belongings.[[/b]]\n\nWhether the list would ever be paid depended on one thing only: winning the war.\n\nAs for Frederick, he had a list of his own, full of the names of relatives and allies.",
+      cz: "Musíme vrátit hodiny o kousek zpátky. Koncem srpna Ferdinand sotva stačil ve Frankfurtu získat císařskou korunu, když ho dostihly zprávy z Prahy.\n\nZuřil.\n\nPodle něj to celé od začátku do konce nemělo obdoby. Byl to on, kdo byl [[link:the-new-king-1617]]řádně „přijat“[[/link]] a řádně korunován českým králem, a Pražané ho sesadili jedním lejstrem. Byl to on, koho všech sedm kurfiřtů říše jednomyslně zvolilo císařem, a Pražané to přešli mávnutím ruky a dosadili si jiného krále.\n\nA ten nový král byl navíc kalvinista.\n\nPro tak zbožného katolíka, jako byl Ferdinand, byli luteráni dost zlí, ale kalvinisté ještě horší: strhávali oltáře, rozbíjeli obrazy a nevěřili ani tomu, že je v eucharistii skutečně přítomno Kristovo tělo. I luteránská knížata se na kalvinisty dívala trochu skrz prsty. A teď takový člověk seděl na Pražském hradě a jeho kazatel svatovítskou katedrálu pořádně „uklidil“.\n\n[[b]]Praha ho nejen sesadila, ale na jeho místo posadila kacíře mezi kacíři.[[/b]]\n\nFerdinand proslul výrokem, že raději bude vládnout poušti než zemi plné kacířů. Teď ho ta země plná kacířů nechtěla ani za krále.\n\nTohle spolknout nedokázal.\n\nJenže samotný vztek nic nevyřeší. Pod tou korunou nebylo skoro nic.\n\nRakouští protestanti se od něj odvrátili a neklid byl i v Uhrách: Betlen táhl na Vídeň a od severu se blížil i Thurn. Ferdinand měl sotva dost vojáků, aby uhájil Vídeň.\n\nNejdřív musel zachránit Vídeň. Až bude v bezpečí, vrátí se do Čech a pořádně si to s těmi „kacíři mezi kacíři“ vyřídí.\n\nNa obojí potřeboval pomocníky.\n\n[[b]]Titulů měl Ferdinand nazbyt. Chyběli mu vojáci a peníze.[[/b]]\n\nPrvním pomocníkem byl bavorský vévoda Maxmilián.\n\nByl to Ferdinandův bratranec a starý spolužák: oba jako mladíci studovali u jezuitů v Ingolstadtu. Navíc stál v čele Katolické ligy a měl dobře vycvičené vojsko, kterému velel šedesátiletý ostřílený vojevůdce jménem Tilly.\n\nV říjnu 1619 se Ferdinand cestou z Frankfurtu zastavil v Mnichově a oba tam podepsali smlouvu. Maxmilián slíbil vojsko za těchto podmínek:\n\nVálečné náklady mu císař do haléře uhradí; dokud je neuhradí, zůstane každá dobytá rakouská země v zástavě v bavorských rukou. Nakonec to byly Horní Rakousy.\n\nA jedna podmínka se do veřejného textu nedostala: po vítězné válce připadne Fridrichův kurfiřtský titul Maxmiliánovi.\n\n[[b]]Bavorsko si řeklo o kus země a k tomu o cizí klobouk.[[/b]]\n\nDruhým pomocníkem bylo Španělsko.\n\nŠpanělský král byl také Habsburk a už před dvěma lety s Ferdinandem uzavřel tajnou smlouvu. Tentokrát Madrid platil a přesouval vojáky z Nizozemí. Španělský generál Spinola si vyhlédl Fridrichovu domovinu, Falc na Rýně. Ta držela přechody přes Rýn hned vedle cesty, po které Španělsko posílalo vojska z Itálie do Nizozemí.\n\n[[b]]Španělsko se přidalo a cestou si postavilo silnici.[[/b]]\n\nTřetí pomocník překvapil nejvíc: saský kurfiřt Jan Jiří.\n\nByl to luterán, nejvýše postavený protestantský kníže v Německu. Správně by měl stát na Fridrichově straně. Češi se ho dokonce nejdřív sami ptali, jestli o korunu stojí, a on odmítl.\n\nJenže kalvinisty neměl rád. Ještě míň se mu líbilo, že českou korunu nosí mladý kalvinista, a vůbec se mu nelíbilo, když někdo sesazuje krále, jak se mu zachce.\n\nCenou, kterou mu císař nabídl, byla Lužice: země Koruny české a jedna z pěti zemí [[link:the-diet-decides-1619]]konfederace[[/link]].\n\n[[b]]Prvního z protestantských knížat si císař koupil protestantskou zemí.[[/b]]\n\nByli i menší pomocníci. Papež v Římě poslal peníze. Polský král také přikývl: lehká jízda, která později vpadla Betlenovi do týla, byla jeho.\n\nNa jaře 1620 byl císařův ceník plný.\n\nBavorsko chtělo Horní Rakousy a kurfiřtský titul, Španělsko cestu přes Falc, Sasko Lužici.\n\nPodívejte se na ten seznam pozorně. Ze všeho, co císař slíbil, patřila jemu jediná položka. Všechno ostatní patřilo někomu jinému: Fridrichův titul, Fridrichova domovina, česká země.\n\n[[b]]Císař platil svým pomocníkům mzdu z majetku svého nepřítele.[[/b]]\n\nJestli se ten ceník někdy zaplatí, záviselo na jediném: vyhrát válku.\n\nA Fridrich? I on měl svůj seznam, plný jmen příbuzných a spojenců.",
+      zh: "时间还得往回拨一点。那年8月底，斐迪南刚在法兰克福戴上皇冠，布拉格的消息就追了过来。\n\n他气坏了。\n\n在他看来，这件事从头到尾都不像话：他是[[link:the-new-king-1617]]正式“接受”[[/link]]、正式加冕的波希米亚国王，布拉格人一纸文书就把他废了；他是全帝国七位选帝侯一致选出来的皇帝，布拉格人照样不当回事，转身另立了一个国王。\n\n偏偏这个新国王，还是个加尔文宗。\n\n对斐迪南这样虔诚的天主教徒来说，路德宗已经够糟了，加尔文宗更是糟上加糟：拆祭坛，砸圣像，连圣餐里有基督的真身都不信。就连信路德宗的诸侯，都对加尔文宗有几分嫌弃。如今，这样一个人坐进了布拉格城堡，他的牧师还把圣维特大教堂“打扫”了个干净。\n\n[[b]]布拉格不但废了他，还找来了一个异端中的异端，坐他的位子。[[/b]]\n\n斐迪南有句出了名的话：宁可统治一片荒漠，也不统治一个满是异端的国家。现在，这个满是异端的国家，连他都不要了。\n\n这口气，他咽不下。\n\n可光生气没用。这顶皇冠底下，几乎是空的。\n\n奥地利的新教徒跟他离心离德，匈牙利也在闹：拜特伦正带兵往维也纳打，图尔恩也从北边压了过来。斐迪南手里那点兵，守维也纳都勉强。\n\n他得先保住维也纳。保住了，再杀回波希米亚，好好收拾一下这群“异端中的异端”。\n\n两件事，哪一件都得找帮手。\n\n[[b]]斐迪南有的是头衔，缺的是兵和钱。[[/b]]\n\n第一位帮手，是巴伐利亚公爵马克西米利安。\n\n他是斐迪南的表兄，也是老同学，两人少年时都在英戈尔施塔特跟着耶稣会士读书。他还是天主教联盟的首领，手里有一支训练有素的大军，统帅是一位六十岁的老将，叫蒂利。\n\n1619年10月，斐迪南从法兰克福回家，路过慕尼黑，两人在那里签了一份条约。马克西米利安答应出兵，条件是：\n\n打仗的花销，皇帝全额报销；报销之前，打下来的奥地利地盘先押在巴伐利亚手里。后来押过去的，是上奥地利。\n\n还有一条没写进明面上：打赢以后，腓特烈的选帝侯头衔，归马克西米利安。\n\n[[b]]巴伐利亚出兵，要的是一块地，外加别人的一顶帽子。[[/b]]\n\n第二位帮手，是西班牙。\n\n西班牙国王也姓哈布斯堡，两年前就跟斐迪南签过密约。这一回，马德里出钱，还从尼德兰调兵。西班牙的将军斯皮诺拉，盯上的是腓特烈的老家：莱茵河边的普法尔茨。那里守着莱茵河上的渡口，正挨着西班牙从意大利往尼德兰运兵的那条路。\n\n[[b]]西班牙出兵，顺路给自己修一条路。[[/b]]\n\n第三位帮手最让人意外：萨克森选帝侯约翰·格奥尔格。\n\n他是路德宗，是德意志新教诸侯里地位最高的一位。照理说，他该站在腓特烈那一边。波希米亚人当初甚至先问过他要不要这顶王冠，他没接。\n\n可他不喜欢加尔文宗，更不喜欢一个加尔文宗的年轻人戴上波希米亚的王冠，也不喜欢有人随随便便把国王废掉。\n\n皇帝许给他的价钱是：卢萨蒂亚。那本来是波希米亚王冠底下的地方，也是[[link:the-diet-decides-1619]]邦联[[/link]]里的五块地方之一。\n\n[[b]]新教徒的头号诸侯，被皇帝用一块新教的地方买走了。[[/b]]\n\n还有些小一点的帮手：罗马的教皇出了钱；波兰国王也答应了，后来抄了拜特伦后路的，就是他放出的那支轻骑兵。\n\n到1620年春天，皇帝的价目单已经列得满满当当。\n\n巴伐利亚要上奥地利和选帝侯头衔，西班牙要普法尔茨的路，萨克森要卢萨蒂亚。\n\n仔细看这张单子，皇帝许出去的东西里，只有一样是他自己家的，其余的，全是别人家的：腓特烈的头衔，腓特烈的老家，波希米亚的地。\n\n[[b]]皇帝这一仗，是拿对手的家当，付帮手的工钱。[[/b]]\n\n而这张单子能不能兑现，只看一件事：仗打不打得赢。\n\n至于腓特烈那边，他手里也有一张单子，上面写满了亲戚和盟友的名字。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Treaty_of_Munich_(1619)",
+    images: ["/history/help-at-a-price-1619.webp"],
+    imageCaptions: [
+      {
+        en: "The Hofburg, autumn 1619: Emperor Ferdinand II ponders a long bill while his helpers stake their claims: a Spanish envoy rules a line along the Rhine, Maximilian of Bavaria puts his finger on Upper Austria, and John George of Saxony clutches Lusatia.",
+        cz: "Hofburg, podzim 1619: císař Ferdinand II. hloubá nad dlouhým účtem a jeho pomocníci si zatím zabírají své: španělský vyslanec rýsuje čáru podél Rýna, Maxmilián Bavorský drží prst na Horních Rakousích a Jan Jiří Saský svírá v náruči Lužici.",
+        zh: "1619年秋，霍夫堡：斐迪南二世对着一张长账单发愁，帮手们各自认领好处：西班牙使节沿着莱茵河画线，巴伐利亚的马克西米利安按住上奥地利，萨克森的约翰·格奥尔格把卢萨蒂亚抱在怀里。",
+      },
+    ],
+  },
 ];
 
 // Era-overview cards live in their own file (see historyOverviews.js).
