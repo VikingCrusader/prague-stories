@@ -24848,6 +24848,14 @@ export const historyEvents = [
         },
       },
       {
+        slug: "speculum-alchemiae",
+        relation: {
+          en: "An alchemist's workshop in a cellar below an Old Town house, found only after the 2002 flood. Legend links it to Rudolf's alchemists, and today it is a museum, though whether it really dates from his time is not settled.",
+          cz: "Alchymistická dílna ve sklepě staroměstského domu, objevená teprve po povodni roku 2002. Pověst ji spojuje s Rudolfovými alchymisty a dnes je tu muzeum; zda opravdu pochází z jeho doby, ale jisté není.",
+          zh: "老城一座房子地下的炼金工坊，2002年大洪水之后才被人发现。传说这里是鲁道夫手下的炼金术士干活的地方，如今开成了博物馆；不过，它到底是不是那个年代的，并没有定论。",
+        },
+      },
+      {
         slug: "trebon",
         relation: {
           en: "The Rožmberks' town and castle. Dee and Kelley lived here from 1586 for more than two years, and it was here that the angels made their outrageous demand.",
