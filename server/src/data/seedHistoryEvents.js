@@ -27642,9 +27642,9 @@ export const historyEvents = [
     },
     tone: "serious",
     title: {
-      en: "The Reckoning After Winter",
-      cz: "Zúčtování po zimě",
-      zh: "冬后算账",
+      en: "The Reckoning in the New Year",
+      cz: "Zúčtování v novém roce",
+      zh: "年后算账",
     },
     hookLine: {
       en: "A winter of leniency was followed by a sudden round-up. Of the names on the list still in Prague, almost none got away.",
