@@ -26934,9 +26934,9 @@ export const historyEvents = [
     },
     tone: "humorous",
     title: {
-      en: "Vienna, Besieged Again",
-      cz: "Vídeň znovu v obležení",
-      zh: "维也纳又被围了",
+      en: "Came and Went",
+      cz: "Přišel a odešel",
+      zh: "来了，又走了",
     },
     hookLine: {
       en: "Frederick's relatives and allies were all still waiting to see. Instead, a man nobody had counted on came marching in with an army from the east of Hungary.",
