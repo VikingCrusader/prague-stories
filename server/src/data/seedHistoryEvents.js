@@ -27823,6 +27823,14 @@ export const historyEvents = [
       ],
     },
     wikipediaUrl: "https://en.wikipedia.org/wiki/Old_Town_Square_execution",
+    images: ["/history/twenty-seven-1621.webp"],
+    imageCaptions: [
+      {
+        en: "Dawn on 21 June 1621, Old Town Square: a faint rainbow hangs over the Old Town Hall as Kašpar Kaplíř, eighty-six, is helped up the steps of the black-draped scaffold. The executioner waits at the top, Liechtenstein watches from his tribune, and the packed square stands silent behind rings of soldiers.",
+        cz: "Svítání 21. června 1621 na Staroměstském náměstí: nad radnicí visí bledá duha a šestaosmdesátiletého Kašpara Kaplíře vedou pod paží po schodech na černě potažené popraviště. Nahoře čeká kat, Lichtenštejn přihlíží ze své tribuny a nabité náměstí mlčí za řadami vojáků.",
+        zh: "1621年6月21日清晨，老城广场：一道淡淡的彩虹挂在老城市政厅上空，八十六岁的卡普利日被人搀着走上蒙着黑布的刑台。刽子手在台上等着，列支敦士登坐在看台上旁观，挤满广场的人群隔着一圈圈士兵，一声不响。",
+      },
+    ],
   },
 ];
 
