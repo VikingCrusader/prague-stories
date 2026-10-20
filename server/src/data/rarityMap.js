@@ -114,7 +114,6 @@ export const SLUG_RARITY = {
   'john-lennon-wall':             'rare',
   'kampa-island':                 'rare',
   'nusle-bridge':                 'rare',
-  'petrin-hill':                  'rare',
   'botanical-garden':             'rare',
   'stromovka-park':               'rare',
   'troja-chateau-garden':         'rare',
