@@ -25889,9 +25889,9 @@ export const historyEvents = [
       zh: "马蒂亚斯老了，膝下没有儿子。哈布斯堡家替波希米亚挑好了下一位国王：一个宁可统治荒漠、也不愿统治异端的人。",
     },
     summary: {
-      en: "By 1617 Emperor Matthias was sixty, in poor health and without a single child. His brothers had no sons either. The Habsburgs needed to settle on an heir, and soon.\n\nThe family chose a cousin: Archduke Ferdinand of Styria, not yet forty.\n\nFerdinand had already made a name for himself at home in Styria, in the south of Austria: he had driven out the Protestant preachers and had Protestant books piled up in the streets and burned. He had been schooled by the Jesuits and would not give an inch where faith was concerned.\n\nHe is said to have put it like this:\n\n[[quote:0]]\n\n[[b]]And this was the king who was now to rule a kingdom where most people were Protestants.[[/b]]\n\nIn June 1617 the Bohemian diet met. By old custom the estates elected their king; this time Vienna's line was that Ferdinand was not there to be elected, only to be “accepted”.\n\nMost of the estates hesitated, and then nodded. Their reasons varied: some were afraid of offending the emperor, some thought the title meant little while Matthias was still alive, some reassured themselves that Ferdinand would swear to uphold the kingdom's privileges, the Letter of Majesty included. And Ferdinand did swear it.\n\nOnly a handful spoke against him to his face, and the loudest was Count Thurn. Soon afterwards Thurn lost his proudest office, that of Burgrave of Karlštejn, keeper of the crown and the kingdom's charters. It went to another man: [[link:in-black-and-white-1609]]Martinic[[/link]].\n\n[[b]]The man who said no lost his post, and the post went to a Catholic councillor.[[/b]]\n\nOn 29 June 1617 Ferdinand was crowned in St Vitus Cathedral.\n\nThat summer Matthias and Ferdinand both left for Vienna. Before they went, they handed Bohemia over to ten governors: seven Catholics and three Protestants. [[link:in-black-and-white-1609]]Slavata[[/link]] and Martinic were among them.\n\nThe Protestant lords soon felt the difference. In the royal towns, Protestant councillors were replaced one after another by Catholics, and Protestants who wanted to print a book or get anything done now had to get past a Catholic official first.\n\nThe charter was still there, and the oath had been sworn. But the Protestant lords felt more and more that the freedom on paper was being taken back, bit by bit. By the end of the year, two churches would be in trouble.",
-      cz: "Roku 1617 bylo císaři Matyášovi šedesát, měl chatrné zdraví a ani jedno dítě. Ani jeho bratři neměli syny. Habsburkové museli určit dědice, a to brzy.\n\nRodina vybrala bratrance: štýrského arcivévodu Ferdinanda, kterému ještě nebylo čtyřicet.\n\nFerdinand se proslavil už doma ve Štýrsku, na jihu Rakouska: vyhnal protestantské kazatele a protestantské knihy nechal skládat na hromady v ulicích a pálit. Vychovali ho jezuité a ve víře neustoupil ani o píď.\n\nPrý to řekl takhle:\n\n[[quote:0]]\n\n[[b]]A právě tenhle král měl teď vládnout království, kde byla většina lidí protestanty.[[/b]]\n\nV červnu 1617 se sešel český sněm. Podle starého zvyku si stavové krále volili; tentokrát ale Vídeň tvrdila, že Ferdinand nepřichází, aby byl zvolen, ale jen aby byl „přijat“.\n\nVětšina stavů zaváhala a pak přikývla. Důvody měli různé: někdo se bál znepřátelit si císaře, někdo myslel, že dokud Matyáš žije, titul mnoho neznamená, a někdo se uklidňoval tím, že Ferdinand přísahá dodržovat zemské svobody, včetně majestátu. A Ferdinand opravdu přísahal.\n\nJen hrstka mu odporovala do očí a nejhlasitěji hrabě Thurn. Zanedlouho přišel Thurn o svůj nejčestnější úřad, úřad karlštejnského purkrabího, strážce koruny a zemských listin. Dostal ho jiný muž: [[link:in-black-and-white-1609]]Martinic[[/link]].\n\n[[b]]Kdo řekl ne, přišel o úřad, a úřad připadl katolickému radovi.[[/b]]\n\nDne 29. června 1617 byl Ferdinand korunován v katedrále sv. Víta.\n\nTo léto odjeli Matyáš i Ferdinand do Vídně. Než odjeli, svěřili Čechy deseti místodržícím: sedmi katolíkům a třem protestantům. Byli mezi nimi i [[link:in-black-and-white-1609]]Slavata[[/link]] a Martinic.\n\nProtestantští páni ten rozdíl brzy pocítili. V královských městech nahrazovali katolíci protestantské konšely jednoho po druhém, a protestant, který chtěl vytisknout knihu nebo cokoli vyřídit, musel teď nejdřív projít přes katolického úředníka.\n\nMajestát tu pořád byl a přísaha zazněla. Jenže protestantští páni měli čím dál silnější pocit, že svobodu na papíře jim někdo kousek po kousku bere zpátky. Do konce roku se dostaly do potíží dva kostely.",
-      zh: "1617年，皇帝马蒂亚斯已经六十岁了，身体不好，膝下一个孩子也没有。他的几个兄弟，也都没有儿子。哈布斯堡家族得赶紧定下接班人。\n\n家族选中的是一位堂弟：施蒂利亚的斐迪南大公，还不到四十岁。\n\n斐迪南在奥地利南部的施蒂利亚当家时，就已经出了名：他把新教牧师统统赶走，把新教的书堆在街上一把火烧掉。他是耶稣会士教出来的学生，在信仰上一步也不让。\n\n据说，他说过这么一句话：\n\n[[quote:0]]\n\n[[b]]这样一位国王，偏偏要来统治一个大半都是新教徒的王国。[[/b]]\n\n1617年6月，波希米亚议会开会。照老规矩，国王是等级们选出来的；可这一回，维也纳的说法是：斐迪南不是来让你们选的，是来让你们“接受”的。\n\n大部分等级犹豫了一下，还是点了头。理由各不相同：有人怕得罪皇帝；有人觉得，只要马蒂亚斯还活着，这个头衔就没多大分量；还有人安慰自己，斐迪南会宣誓遵守王国的各项特权，《宗教自由诏书》也在里面。斐迪南也确实宣了誓。\n\n当面反对的只有寥寥几个人，嗓门最大的是图尔恩伯爵。没过多久，图尔恩就丢了他最体面的职位：卡尔施泰因城堡的城堡伯爵，也就是看守王冠和王国文书的人。这个位子，交给了另一个人：[[link:in-black-and-white-1609]]马丁尼茨[[/link]]。\n\n[[b]]说“不”的人丢了官，丢掉的官，落到了一位天主教大臣手里。[[/b]]\n\n1617年6月29日，斐迪南在圣维特大教堂加冕。\n\n这年夏天，马蒂亚斯和斐迪南都去了维也纳。走之前，他们把波希米亚交给了十位总督代管：七个天主教徒，三个新教徒。[[link:in-black-and-white-1609]]斯拉瓦塔[[/link]]和马丁尼茨，都在其中。\n\n新教贵族们很快就尝到了滋味。王室城市的市政府里，新教徒的位子一个接一个换成了天主教徒；新教徒想印本书、办件事，都得先过天主教官员这一关。\n\n诏书还在，誓也发了。可新教贵族们越来越觉得，纸上写着的自由，正在被一点一点地收回去。到了这年年底，有两座教堂出了事。",
+      en: "By 1617 Emperor Matthias was sixty, in poor health and without a single child. His brothers had no sons either. The Habsburgs needed to settle on an heir, and soon.\n\nThe family chose a cousin: Archduke Ferdinand of Styria, not yet forty.\n\nFerdinand had already made a name for himself at home in Styria, in the south of Austria: he had driven out the Protestant preachers and had Protestant books piled up in the streets and burned. He had been schooled by the Jesuits and would not give an inch where faith was concerned.\n\nHe is said to have put it like this:\n\n[[quote:0]]\n\n[[b]]And this was the king who was now to rule a kingdom where most people were Protestants.[[/b]]\n\nIn June 1617 the Bohemian diet met. By old custom the estates elected their king; this time Vienna's line was that Ferdinand was not there to be elected, only to be “accepted”.\n\nMost of the estates hesitated, and then nodded. Their reasons varied: some were afraid of offending the emperor, some thought the title meant little while Matthias was still alive, some reassured themselves that Ferdinand would swear to uphold the kingdom's privileges, the Letter of Majesty included. And Ferdinand did swear it.\n\nOnly a handful spoke against him to his face, and the loudest was Count Thurn.\n\nOddly enough, Thurn was not Bohemian at all. He was born in Innsbruck in the Tyrol and grew up in Carniola, among people who spoke German, Italian and Slovene. He only bought an estate in Bohemia in 1605, and he never learned to speak Czech properly.\n\n[[b]]The loudest voice for Bohemia's privileges belonged to an outsider who could barely speak Czech.[[/b]]\n\nSoon afterwards Thurn lost his proudest office, that of Burgrave of Karlštejn, keeper of the crown and the kingdom's charters. It went to another man: [[link:in-black-and-white-1609]]Martinic[[/link]].\n\n[[b]]The man who said no lost his post, and the post went to a Catholic councillor.[[/b]]\n\nOn 29 June 1617 Ferdinand was crowned in St Vitus Cathedral.\n\nThat summer Matthias and Ferdinand both left for Vienna. Before they went, they handed Bohemia over to ten governors: seven Catholics and three Protestants. [[link:in-black-and-white-1609]]Slavata[[/link]] and Martinic were among them.\n\nThe Protestant lords soon felt the difference. In the royal towns, Protestant councillors were replaced one after another by Catholics, and Protestants who wanted to print a book or get anything done now had to get past a Catholic official first.\n\nThe charter was still there, and the oath had been sworn. But the Protestant lords felt more and more that the freedom on paper was being taken back, bit by bit. By the end of the year, two churches would be in trouble.",
+      cz: "Roku 1617 bylo císaři Matyášovi šedesát, měl chatrné zdraví a ani jedno dítě. Ani jeho bratři neměli syny. Habsburkové museli určit dědice, a to brzy.\n\nRodina vybrala bratrance: štýrského arcivévodu Ferdinanda, kterému ještě nebylo čtyřicet.\n\nFerdinand se proslavil už doma ve Štýrsku, na jihu Rakouska: vyhnal protestantské kazatele a protestantské knihy nechal skládat na hromady v ulicích a pálit. Vychovali ho jezuité a ve víře neustoupil ani o píď.\n\nPrý to řekl takhle:\n\n[[quote:0]]\n\n[[b]]A právě tenhle král měl teď vládnout království, kde byla většina lidí protestanty.[[/b]]\n\nV červnu 1617 se sešel český sněm. Podle starého zvyku si stavové krále volili; tentokrát ale Vídeň tvrdila, že Ferdinand nepřichází, aby byl zvolen, ale jen aby byl „přijat“.\n\nVětšina stavů zaváhala a pak přikývla. Důvody měli různé: někdo se bál znepřátelit si císaře, někdo myslel, že dokud Matyáš žije, titul mnoho neznamená, a někdo se uklidňoval tím, že Ferdinand přísahá dodržovat zemské svobody, včetně majestátu. A Ferdinand opravdu přísahal.\n\nJen hrstka mu odporovala do očí a nejhlasitěji hrabě Thurn.\n\nKupodivu Thurn vůbec nebyl Čech. Narodil se v tyrolském Innsbrucku a vyrůstal v Kraňsku, mezi lidmi, kteří mluvili německy, italsky a slovinsky. Panství v Čechách si koupil teprve roku 1605 a česky se pořádně nenaučil nikdy.\n\n[[b]]Za česká privilegia se nejhlasitěji bil cizinec, který sotva uměl česky.[[/b]]\n\nZanedlouho přišel Thurn o svůj nejčestnější úřad, úřad karlštejnského purkrabího, strážce koruny a zemských listin. Dostal ho jiný muž: [[link:in-black-and-white-1609]]Martinic[[/link]].\n\n[[b]]Kdo řekl ne, přišel o úřad, a úřad připadl katolickému radovi.[[/b]]\n\nDne 29. června 1617 byl Ferdinand korunován v katedrále sv. Víta.\n\nTo léto odjeli Matyáš i Ferdinand do Vídně. Než odjeli, svěřili Čechy deseti místodržícím: sedmi katolíkům a třem protestantům. Byli mezi nimi i [[link:in-black-and-white-1609]]Slavata[[/link]] a Martinic.\n\nProtestantští páni ten rozdíl brzy pocítili. V královských městech nahrazovali katolíci protestantské konšely jednoho po druhém, a protestant, který chtěl vytisknout knihu nebo cokoli vyřídit, musel teď nejdřív projít přes katolického úředníka.\n\nMajestát tu pořád byl a přísaha zazněla. Jenže protestantští páni měli čím dál silnější pocit, že svobodu na papíře jim někdo kousek po kousku bere zpátky. Do konce roku se dostaly do potíží dva kostely.",
+      zh: "1617年，皇帝马蒂亚斯已经六十岁了，身体不好，膝下一个孩子也没有。他的几个兄弟，也都没有儿子。哈布斯堡家族得赶紧定下接班人。\n\n家族选中的是一位堂弟：施蒂利亚的斐迪南大公，还不到四十岁。\n\n斐迪南在奥地利南部的施蒂利亚当家时，就已经出了名：他把新教牧师统统赶走，把新教的书堆在街上一把火烧掉。他是耶稣会士教出来的学生，在信仰上一步也不让。\n\n据说，他说过这么一句话：\n\n[[quote:0]]\n\n[[b]]这样一位国王，偏偏要来统治一个大半都是新教徒的王国。[[/b]]\n\n1617年6月，波希米亚议会开会。照老规矩，国王是等级们选出来的；可这一回，维也纳的说法是：斐迪南不是来让你们选的，是来让你们“接受”的。\n\n大部分等级犹豫了一下，还是点了头。理由各不相同：有人怕得罪皇帝；有人觉得，只要马蒂亚斯还活着，这个头衔就没多大分量；还有人安慰自己，斐迪南会宣誓遵守王国的各项特权，《宗教自由诏书》也在里面。斐迪南也确实宣了誓。\n\n当面反对的只有寥寥几个人，嗓门最大的是图尔恩伯爵。\n\n说来也怪，图尔恩并不是波希米亚人。他生在蒂罗尔的因斯布鲁克，在卡尼奥拉长大，身边人说的是德语、意大利语和斯洛文尼亚语。他1605年才在波希米亚买下庄园，捷克语一辈子也没说好。\n\n[[b]]替波希米亚争特权、嗓门最大的，偏偏是个连捷克话都说不利索的外来人。[[/b]]\n\n没过多久，图尔恩就丢了他最体面的职位：卡尔施泰因城堡的城堡伯爵，也就是看守王冠和王国文书的人。这个位子，交给了另一个人：[[link:in-black-and-white-1609]]马丁尼茨[[/link]]。\n\n[[b]]说“不”的人丢了官，丢掉的官，落到了一位天主教大臣手里。[[/b]]\n\n1617年6月29日，斐迪南在圣维特大教堂加冕。\n\n这年夏天，马蒂亚斯和斐迪南都去了维也纳。走之前，他们把波希米亚交给了十位总督代管：七个天主教徒，三个新教徒。[[link:in-black-and-white-1609]]斯拉瓦塔[[/link]]和马丁尼茨，都在其中。\n\n新教贵族们很快就尝到了滋味。王室城市的市政府里，新教徒的位子一个接一个换成了天主教徒；新教徒想印本书、办件事，都得先过天主教官员这一关。\n\n诏书还在，誓也发了。可新教贵族们越来越觉得，纸上写着的自由，正在被一点一点地收回去。到了这年年底，有两座教堂出了事。",
     },
     relatedLandmarks: [
       {
@@ -26944,9 +26944,9 @@ export const historyEvents = [
       zh: "腓特烈的亲戚盟友都还在观望，倒是一位谁也没指望的人，从匈牙利东边带兵杀了过来。",
     },
     summary: {
-      en: "The man fighting Frederick's war came from the far east of Hungary, a land called Transylvania, today part of Romania.\n\nHe was its prince, Gabriel Bethlen. He was a Calvinist, of the same church as Frederick; he was nominally a vassal of the Ottoman sultan, and he had never got on with the Habsburgs.\n\nIn the summer that Prague deposed Ferdinand, Bethlen made his move too.\n\nIn August 1619 he marched into Habsburg Hungary. Protestant nobles everywhere went over to him, and town after town surrendered without a fight. In October he took Pressburg, where the Hungarian diet met, today's Bratislava.\n\nIn Pressburg he picked up something else as well: the Holy Crown of Hungary.\n\n[[b]]Prague had taken one of Ferdinand's crowns away. Bethlen simply carried the other one home.[[/b]]\n\nBethlen pushed west, Thurn came down from the north, and the two armies met on the Danube.\n\nAt the end of November, Vienna was surrounded once again.\n\nIt was the [[link:at-the-gates-of-vienna-1619]]second time[[/link]] in under six months that Vienna had seen campfires outside its walls. Winter came early that year. It was bitterly cold, the city was short of food, and the soldiers outside were freezing too.\n\n[[b]]Twice in six months, Vienna was under siege.[[/b]]\n\nFerdinand sent north for help in a hurry. The King of Poland said yes.\n\nThe Poles sent no troops to Vienna. Instead they let loose a force of light cavalry famous for its ferocity, which crossed the mountains to the north and burst straight into the lands Bethlen had left behind in north-eastern Hungary. At the end of November the commander he had left there was beaten at Humenné.\n\nWith fire at his own front door, Bethlen had to abandon Vienna and hurry home. Thurn could not hold the siege on his own, and had to pull back as well.\n\nThe following January Bethlen went as far as signing a truce with the emperor. A few months later the Hungarian estates elected him king, but he never had himself crowned, and he was only ever half-hearted about the Bohemian cause.\n\n[[b]]The first ally to actually march to their aid was cut off from behind, and went away again.[[/b]]\n\nVienna had escaped a second time.\n\nBut this time Ferdinand did not mean to rely on luck again. In fact, in the very weeks when Bethlen was closing in on Vienna, he had already been out looking for helpers.",
-      cz: "Muž, který za Fridricha bojoval, přišel z nejzazšího východu Uher, ze země zvané Sedmihradsko, která dnes patří k Rumunsku.\n\nByl tam knížetem a jmenoval se Gabriel Betlen. Byl kalvinista, stejného vyznání jako Fridrich; formálně byl vazalem tureckého sultána a s Habsburky si odjakživa nerozuměl.\n\nToho léta, kdy Praha sesadila Ferdinanda, udeřil i Betlen.\n\nV srpnu 1619 vtrhl do habsburských Uher. Protestantská šlechta k němu všude přecházela a jedno město za druhým se vzdávalo bez boje. V říjnu dobyl Prešpurk, kde zasedal uherský sněm, dnešní Bratislavu.\n\nV Prešpurku získal ještě jednu věc: uherskou svatou korunu.\n\n[[b]]Praha Ferdinandovi jednu korunu vzala. Betlen si tu druhou rovnou odnesl domů.[[/b]]\n\nBetlen táhl na západ, Thurn od severu na jih a obě vojska se spojila na Dunaji.\n\nKoncem listopadu byla Vídeň znovu obklíčena.\n\nBylo to už [[link:at-the-gates-of-vienna-1619]]podruhé[[/link]] za necelého půl roku, co Vídeň viděla za hradbami táborové ohně. Zima toho roku přišla brzy. Mrzlo, až praštělo, ve městě docházelo jídlo a vojáci za hradbami mrzli také.\n\n[[b]]Za půl roku byla Vídeň obležena dvakrát.[[/b]]\n\nFerdinand spěšně poslal o pomoc na sever. Polský král přikývl.\n\nPoláci do Vídně vojsko neposlali. Místo toho vypustili oddíl lehké jízdy, proslulé svou divokostí, který přešel hory na severu a vtrhl rovnou do Betlenových držav v severovýchodních Uhrách. Koncem listopadu tam velitel, kterého Betlen nechal doma, prohrál bitvu u Humenného.\n\nKdyž mu hořelo za humny, musel Betlen Vídeň opustit a spěchat domů. Thurn sám obležení neudržel a musel také ustoupit.\n\nV lednu následujícího roku Betlen s císařem dokonce uzavřel příměří. O několik měsíců později ho uherští stavové zvolili králem, korunovat se ale nikdy nedal a české věci se věnoval jen napůl.\n\n[[b]]První spojenec, který opravdu přitáhl s vojskem, dostal úder do týla a zase odtáhl.[[/b]]\n\nVídeň vyvázla podruhé.\n\nTentokrát se ale Ferdinand nehodlal znovu spoléhat na štěstí. Ve skutečnosti už v těch týdnech, kdy se Betlen k Vídni blížil krok za krokem, sháněl pomocníky.",
-      zh: "替腓特烈打仗的这个人，来自匈牙利的最东边，一个叫特兰西瓦尼亚的地方，如今在罗马尼亚境内。\n\n他是那里的亲王，叫拜特伦·加博尔。他信加尔文宗，跟腓特烈是一个教派；他名义上向土耳其苏丹称臣，跟哈布斯堡家素来不对付。\n\n布拉格废掉斐迪南的那个夏天，拜特伦也动了手。\n\n1619年8月，他带兵杀进了哈布斯堡统治下的匈牙利。各地的新教贵族纷纷倒向他，一座座城市不战而降。10月，他拿下了匈牙利的议会所在地普雷斯堡，也就是今天的布拉迪斯拉发。\n\n在普雷斯堡，他还拿到了一样东西：匈牙利的圣冠。\n\n[[b]]布拉格把斐迪南的一顶王冠拿走了；拜特伦把另一顶，直接抱回了自己家。[[/b]]\n\n拜特伦一路向西，图尔恩从北边南下，两支大军在多瑙河边会合了。\n\n11月底，维也纳又一次被围了起来。\n\n这是不到半年里，维也纳[[link:at-the-gates-of-vienna-1619]]第二次[[/link]]看见城外的营火。那年冬天来得早，天寒地冻，城里缺粮，城外的兵也冻得够呛。\n\n[[b]]半年之内，维也纳被围了两回。[[/b]]\n\n斐迪南急忙向北边求救。波兰国王答应了。\n\n波兰人没往维也纳派兵，而是放出了一支以凶悍出名的轻骑兵，翻过北边的山，直接冲进了拜特伦留在匈牙利东北部的地盘。11月底，拜特伦留守的部将在胡缅内吃了败仗。\n\n家门口起火了，拜特伦只好丢下维也纳，回兵救家。图尔恩一个人围不住，也只得撤了。\n\n第二年1月，拜特伦干脆跟皇帝签了停战协定。几个月后，匈牙利的等级选他当了国王，可他始终没有加冕，在波希米亚的事上，也一直有一搭没一搭。\n\n[[b]]第一个真正带兵打过来的盟友，被人抄了后路，又走了。[[/b]]\n\n维也纳躲过了第二劫。\n\n可这一回，斐迪南不打算再靠运气了。其实，就在拜特伦一步步逼近维也纳的那几个星期里，他已经在四处找帮手了。",
+      en: "The man fighting Frederick's war came from the far east of Hungary, a land called Transylvania, today part of Romania.\n\nHe was its prince, Gabriel Bethlen. He was a Calvinist, of the same church as Frederick; he was nominally a vassal of the Ottoman sultan, and he had never got on with the Habsburgs.\n\nIn the summer that Prague deposed Ferdinand, Bethlen made his move too.\n\nIn August 1619 he marched into Habsburg Hungary. Protestant nobles everywhere went over to him, and town after town surrendered without a fight. In October he took Pressburg, where the Hungarian diet met, today's Bratislava.\n\nIn Pressburg he picked up something else as well: the Holy Crown of Hungary.\n\n[[b]]Prague had taken one of Ferdinand's crowns away. Bethlen simply carried the other one home.[[/b]]\n\nBethlen pushed west, Thurn came down from the north, and the two armies met on the Danube.\n\nAt the end of November, Vienna was surrounded once again.\n\nIt was the [[link:at-the-gates-of-vienna-1619]]second time[[/link]] in under six months that Vienna had seen campfires outside its walls. Winter came early that year. It was bitterly cold, the city was short of food, and the soldiers outside were freezing too.\n\n[[b]]Twice in six months, Vienna was under siege.[[/b]]\n\nFerdinand sent north for help in a hurry. The King of Poland said yes.\n\nThe Poles sent no troops to Vienna. Instead they let loose a force of light cavalry famous for its ferocity, which crossed the mountains to the north and burst straight into the lands Bethlen had left behind in north-eastern Hungary. At the end of November the commander he had left there was beaten at Humenné.\n\nWith fire at his own front door, Bethlen had to abandon Vienna and hurry home. Thurn could not hold the siege on his own, and had to pull back as well.\n\nThurn must have found this familiar. Half a year earlier he had been outside Vienna too, when trouble at home sent him [[link:just-in-time-1619]]hurrying back[[/link]]. Two sieges of Vienna, and both times someone broke into the house while they were out. Anyone who wanted to take Vienna, it seemed, had better lock their own door first.\n\nThe following January Bethlen went as far as signing a truce with the emperor. A few months later the Hungarian estates elected him king, but he never had himself crowned, and he was only ever half-hearted about the Bohemian cause.\n\n[[b]]The first ally to actually march to their aid was cut off from behind, and went away again.[[/b]]\n\nVienna had escaped a second time.\n\nBut this time Ferdinand did not mean to rely on luck again. In fact, in the very weeks when Bethlen was closing in on Vienna, he had already been out looking for helpers.",
+      cz: "Muž, který za Fridricha bojoval, přišel z nejzazšího východu Uher, ze země zvané Sedmihradsko, která dnes patří k Rumunsku.\n\nByl tam knížetem a jmenoval se Gabriel Betlen. Byl kalvinista, stejného vyznání jako Fridrich; formálně byl vazalem tureckého sultána a s Habsburky si odjakživa nerozuměl.\n\nToho léta, kdy Praha sesadila Ferdinanda, udeřil i Betlen.\n\nV srpnu 1619 vtrhl do habsburských Uher. Protestantská šlechta k němu všude přecházela a jedno město za druhým se vzdávalo bez boje. V říjnu dobyl Prešpurk, kde zasedal uherský sněm, dnešní Bratislavu.\n\nV Prešpurku získal ještě jednu věc: uherskou svatou korunu.\n\n[[b]]Praha Ferdinandovi jednu korunu vzala. Betlen si tu druhou rovnou odnesl domů.[[/b]]\n\nBetlen táhl na západ, Thurn od severu na jih a obě vojska se spojila na Dunaji.\n\nKoncem listopadu byla Vídeň znovu obklíčena.\n\nBylo to už [[link:at-the-gates-of-vienna-1619]]podruhé[[/link]] za necelého půl roku, co Vídeň viděla za hradbami táborové ohně. Zima toho roku přišla brzy. Mrzlo, až praštělo, ve městě docházelo jídlo a vojáci za hradbami mrzli také.\n\n[[b]]Za půl roku byla Vídeň obležena dvakrát.[[/b]]\n\nFerdinand spěšně poslal o pomoc na sever. Polský král přikývl.\n\nPoláci do Vídně vojsko neposlali. Místo toho vypustili oddíl lehké jízdy, proslulé svou divokostí, který přešel hory na severu a vtrhl rovnou do Betlenových držav v severovýchodních Uhrách. Koncem listopadu tam velitel, kterého Betlen nechal doma, prohrál bitvu u Humenného.\n\nKdyž mu hořelo za humny, musel Betlen Vídeň opustit a spěchat domů. Thurn sám obležení neudržel a musel také ustoupit.\n\nThurnovi to muselo připadat povědomé. Před půl rokem stál před Vídní také a kvůli potížím doma musel [[link:just-in-time-1619]]spěchat zpátky[[/link]]. Dvakrát obléhali Vídeň a pokaždé jim mezitím někdo vykradl dům. Kdo chtěl dobýt Vídeň, měl si zřejmě nejdřív zamknout vlastní dveře.\n\nV lednu následujícího roku Betlen s císařem dokonce uzavřel příměří. O několik měsíců později ho uherští stavové zvolili králem, korunovat se ale nikdy nedal a české věci se věnoval jen napůl.\n\n[[b]]První spojenec, který opravdu přitáhl s vojskem, dostal úder do týla a zase odtáhl.[[/b]]\n\nVídeň vyvázla podruhé.\n\nTentokrát se ale Ferdinand nehodlal znovu spoléhat na štěstí. Ve skutečnosti už v těch týdnech, kdy se Betlen k Vídni blížil krok za krokem, sháněl pomocníky.",
+      zh: "替腓特烈打仗的这个人，来自匈牙利的最东边，一个叫特兰西瓦尼亚的地方，如今在罗马尼亚境内。\n\n他是那里的亲王，叫拜特伦·加博尔。他信加尔文宗，跟腓特烈是一个教派；他名义上向土耳其苏丹称臣，跟哈布斯堡家素来不对付。\n\n布拉格废掉斐迪南的那个夏天，拜特伦也动了手。\n\n1619年8月，他带兵杀进了哈布斯堡统治下的匈牙利。各地的新教贵族纷纷倒向他，一座座城市不战而降。10月，他拿下了匈牙利的议会所在地普雷斯堡，也就是今天的布拉迪斯拉发。\n\n在普雷斯堡，他还拿到了一样东西：匈牙利的圣冠。\n\n[[b]]布拉格把斐迪南的一顶王冠拿走了；拜特伦把另一顶，直接抱回了自己家。[[/b]]\n\n拜特伦一路向西，图尔恩从北边南下，两支大军在多瑙河边会合了。\n\n11月底，维也纳又一次被围了起来。\n\n这是不到半年里，维也纳[[link:at-the-gates-of-vienna-1619]]第二次[[/link]]看见城外的营火。那年冬天来得早，天寒地冻，城里缺粮，城外的兵也冻得够呛。\n\n[[b]]半年之内，维也纳被围了两回。[[/b]]\n\n斐迪南急忙向北边求救。波兰国王答应了。\n\n波兰人没往维也纳派兵，而是放出了一支以凶悍出名的轻骑兵，翻过北边的山，直接冲进了拜特伦留在匈牙利东北部的地盘。11月底，拜特伦留守的部将在胡缅内吃了败仗。\n\n家门口起火了，拜特伦只好丢下维也纳，回兵救家。图尔恩一个人围不住，也只得撤了。\n\n这一幕，图尔恩大概很眼熟。半年前，他也是正围着维也纳，家里先出了事，只好[[link:just-in-time-1619]]掉头回家[[/link]]。两回围维也纳，两回都是家被偷了。看来想打维也纳，得先把自家的门锁好。\n\n第二年1月，拜特伦干脆跟皇帝签了停战协定。几个月后，匈牙利的等级选他当了国王，可他始终没有加冕，在波希米亚的事上，也一直有一搭没一搭。\n\n[[b]]第一个真正带兵打过来的盟友，被人抄了后路，又走了。[[/b]]\n\n维也纳躲过了第二劫。\n\n可这一回，斐迪南不打算再靠运气了。其实，就在拜特伦一步步逼近维也纳的那几个星期里，他已经在四处找帮手了。",
     },
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Gabriel_Bethlen",
@@ -26980,9 +26980,9 @@ export const historyEvents = [
       zh: "新皇帝手里没钱，也没多少兵。他四处找帮手，帮手们都来了，每一位都带着一张价目单。",
     },
     summary: {
-      en: "We have to turn the clock back a little. At the end of August, Ferdinand had barely won the imperial crown in Frankfurt when the news from Prague caught up with him.\n\nHe was furious.\n\nAs he saw it, the whole business was outrageous from start to finish. He was the [[link:the-new-king-1617]]formally \"accepted\"[[/link]], formally crowned King of Bohemia, and the people of Prague had deposed him with a single document. He was the emperor, elected unanimously by all seven electors of the Empire, and the people of Prague had simply ignored that and set up another king.\n\nAnd this new king, of all things, was a Calvinist.\n\nTo a devout Catholic like Ferdinand, Lutherans were bad enough, and Calvinists were worse still: they tore down altars, smashed images, and did not even believe that Christ's body was truly present in the Eucharist. Even Lutheran princes looked down their noses at Calvinists a little. Now one of them was sitting in Prague Castle, and his preacher had given St Vitus Cathedral a thorough \"clean-up\".\n\n[[b]]Prague had not only deposed him; it had found a heretic among heretics to sit in his place.[[/b]]\n\nFerdinand was famous for saying he would rather rule a desert than a country full of heretics. Now the country full of heretics did not even want him.\n\nThis he could not swallow.\n\nBut anger alone would get him nowhere. Under that crown there was almost nothing.\n\nThe Protestants of Austria had turned their backs on him, and Hungary was in turmoil too: Bethlen was marching on Vienna, and Thurn was closing in from the north. Ferdinand barely had the troops to hold Vienna.\n\nFirst he had to save Vienna. Once it was safe, he would strike back into Bohemia and deal properly with this nest of \"heretics among heretics\".\n\nFor either job, he needed help.\n\n[[b]]Ferdinand had titles to spare. What he lacked was soldiers and money.[[/b]]\n\nThe first helper was Duke Maximilian of Bavaria.\n\nHe was Ferdinand's cousin and old schoolfellow: as young men both had studied with the Jesuits at Ingolstadt. He was also the head of the Catholic League, with a well-drilled army commanded by a sixty-year-old veteran called Tilly.\n\nIn October 1619, on his way home from Frankfurt, Ferdinand stopped in Munich, and the two signed a treaty there. Maximilian agreed to send his army, on these terms:\n\nThe emperor would repay every penny the war cost; until he did, any Austrian land the army took would stay in Bavarian hands as a pledge. In the end, that meant Upper Austria.\n\nAnd one term was not written into the open text: once the war was won, Frederick's electoral title would go to Maximilian.\n\n[[b]]Bavaria's price was a piece of land, plus somebody else's hat.[[/b]]\n\nThe second helper was Spain.\n\nThe King of Spain was a Habsburg too, and had signed a secret treaty with Ferdinand two years before. This time Madrid paid money and moved troops from the Netherlands. The Spanish general Spinola had his eye on Frederick's homeland, the Palatinate on the Rhine. It held crossings over the Rhine right beside the road by which Spain marched its troops from Italy to the Netherlands.\n\n[[b]]Spain joined in, and built itself a road along the way.[[/b]]\n\nThe third helper was the biggest surprise: John George, Elector of Saxony.\n\nHe was a Lutheran, the highest-ranking Protestant prince in Germany. By rights he should have stood with Frederick. The Bohemians had even asked him first whether he wanted the crown, and he had said no.\n\nBut he did not like Calvinists. He liked a young Calvinist wearing the Bohemian crown even less, and he did not like people deposing kings whenever they felt like it.\n\nThe price the emperor offered him was Lusatia: land of the Bohemian Crown, and one of the five lands of the [[link:the-diet-decides-1619]]Confederation[[/link]].\n\n[[b]]The first prince of the Protestants was bought by the emperor with a Protestant land.[[/b]]\n\nThere were smaller helpers too. The Pope in Rome sent money. The King of Poland said yes as well: the light cavalry that later fell on Bethlen's rear was his.\n\nBy the spring of 1620 the emperor's price list was full.\n\nBavaria wanted Upper Austria and an electoral title, Spain wanted the Palatinate's road, Saxony wanted Lusatia.\n\nLook closely at that list. Of everything the emperor had promised, only one item was his own. The rest all belonged to somebody else: Frederick's title, Frederick's homeland, Bohemia's land.\n\n[[b]]The emperor was paying his helpers' wages out of his enemy's belongings.[[/b]]\n\nWhether the list would ever be paid depended on one thing only: winning the war.\n\nAs for Frederick, he had a list of his own, full of the names of relatives and allies.",
-      cz: "Musíme vrátit hodiny o kousek zpátky. Koncem srpna Ferdinand sotva stačil ve Frankfurtu získat císařskou korunu, když ho dostihly zprávy z Prahy.\n\nZuřil.\n\nPodle něj to celé od začátku do konce nemělo obdoby. Byl to on, kdo byl [[link:the-new-king-1617]]řádně „přijat“[[/link]] a řádně korunován českým králem, a Pražané ho sesadili jedním lejstrem. Byl to on, koho všech sedm kurfiřtů říše jednomyslně zvolilo císařem, a Pražané to přešli mávnutím ruky a dosadili si jiného krále.\n\nA ten nový král byl navíc kalvinista.\n\nPro tak zbožného katolíka, jako byl Ferdinand, byli luteráni dost zlí, ale kalvinisté ještě horší: strhávali oltáře, rozbíjeli obrazy a nevěřili ani tomu, že je v eucharistii skutečně přítomno Kristovo tělo. I luteránská knížata se na kalvinisty dívala trochu skrz prsty. A teď takový člověk seděl na Pražském hradě a jeho kazatel svatovítskou katedrálu pořádně „uklidil“.\n\n[[b]]Praha ho nejen sesadila, ale na jeho místo posadila kacíře mezi kacíři.[[/b]]\n\nFerdinand proslul výrokem, že raději bude vládnout poušti než zemi plné kacířů. Teď ho ta země plná kacířů nechtěla ani za krále.\n\nTohle spolknout nedokázal.\n\nJenže samotný vztek nic nevyřeší. Pod tou korunou nebylo skoro nic.\n\nRakouští protestanti se od něj odvrátili a neklid byl i v Uhrách: Betlen táhl na Vídeň a od severu se blížil i Thurn. Ferdinand měl sotva dost vojáků, aby uhájil Vídeň.\n\nNejdřív musel zachránit Vídeň. Až bude v bezpečí, vrátí se do Čech a pořádně si to s těmi „kacíři mezi kacíři“ vyřídí.\n\nNa obojí potřeboval pomocníky.\n\n[[b]]Titulů měl Ferdinand nazbyt. Chyběli mu vojáci a peníze.[[/b]]\n\nPrvním pomocníkem byl bavorský vévoda Maxmilián.\n\nByl to Ferdinandův bratranec a starý spolužák: oba jako mladíci studovali u jezuitů v Ingolstadtu. Navíc stál v čele Katolické ligy a měl dobře vycvičené vojsko, kterému velel šedesátiletý ostřílený vojevůdce jménem Tilly.\n\nV říjnu 1619 se Ferdinand cestou z Frankfurtu zastavil v Mnichově a oba tam podepsali smlouvu. Maxmilián slíbil vojsko za těchto podmínek:\n\nVálečné náklady mu císař do haléře uhradí; dokud je neuhradí, zůstane každá dobytá rakouská země v zástavě v bavorských rukou. Nakonec to byly Horní Rakousy.\n\nA jedna podmínka se do veřejného textu nedostala: po vítězné válce připadne Fridrichův kurfiřtský titul Maxmiliánovi.\n\n[[b]]Bavorsko si řeklo o kus země a k tomu o cizí klobouk.[[/b]]\n\nDruhým pomocníkem bylo Španělsko.\n\nŠpanělský král byl také Habsburk a už před dvěma lety s Ferdinandem uzavřel tajnou smlouvu. Tentokrát Madrid platil a přesouval vojáky z Nizozemí. Španělský generál Spinola si vyhlédl Fridrichovu domovinu, Falc na Rýně. Ta držela přechody přes Rýn hned vedle cesty, po které Španělsko posílalo vojska z Itálie do Nizozemí.\n\n[[b]]Španělsko se přidalo a cestou si postavilo silnici.[[/b]]\n\nTřetí pomocník překvapil nejvíc: saský kurfiřt Jan Jiří.\n\nByl to luterán, nejvýše postavený protestantský kníže v Německu. Správně by měl stát na Fridrichově straně. Češi se ho dokonce nejdřív sami ptali, jestli o korunu stojí, a on odmítl.\n\nJenže kalvinisty neměl rád. Ještě míň se mu líbilo, že českou korunu nosí mladý kalvinista, a vůbec se mu nelíbilo, když někdo sesazuje krále, jak se mu zachce.\n\nCenou, kterou mu císař nabídl, byla Lužice: země Koruny české a jedna z pěti zemí [[link:the-diet-decides-1619]]konfederace[[/link]].\n\n[[b]]Prvního z protestantských knížat si císař koupil protestantskou zemí.[[/b]]\n\nByli i menší pomocníci. Papež v Římě poslal peníze. Polský král také přikývl: lehká jízda, která později vpadla Betlenovi do týla, byla jeho.\n\nNa jaře 1620 byl císařův ceník plný.\n\nBavorsko chtělo Horní Rakousy a kurfiřtský titul, Španělsko cestu přes Falc, Sasko Lužici.\n\nPodívejte se na ten seznam pozorně. Ze všeho, co císař slíbil, patřila jemu jediná položka. Všechno ostatní patřilo někomu jinému: Fridrichův titul, Fridrichova domovina, česká země.\n\n[[b]]Císař platil svým pomocníkům mzdu z majetku svého nepřítele.[[/b]]\n\nJestli se ten ceník někdy zaplatí, záviselo na jediném: vyhrát válku.\n\nA Fridrich? I on měl svůj seznam, plný jmen příbuzných a spojenců.",
-      zh: "时间还得往回拨一点。那年8月底，斐迪南刚在法兰克福戴上皇冠，布拉格的消息就追了过来。\n\n他气坏了。\n\n在他看来，这件事从头到尾都不像话：他是[[link:the-new-king-1617]]正式“接受”[[/link]]、正式加冕的波希米亚国王，布拉格人一纸文书就把他废了；他是全帝国七位选帝侯一致选出来的皇帝，布拉格人照样不当回事，转身另立了一个国王。\n\n偏偏这个新国王，还是个加尔文宗。\n\n对斐迪南这样虔诚的天主教徒来说，路德宗已经够糟了，加尔文宗更是糟上加糟：拆祭坛，砸圣像，连圣餐里有基督的真身都不信。就连信路德宗的诸侯，都对加尔文宗有几分嫌弃。如今，这样一个人坐进了布拉格城堡，他的牧师还把圣维特大教堂“打扫”了个干净。\n\n[[b]]布拉格不但废了他，还找来了一个异端中的异端，坐他的位子。[[/b]]\n\n斐迪南有句出了名的话：宁可统治一片荒漠，也不统治一个满是异端的国家。现在，这个满是异端的国家，连他都不要了。\n\n这口气，他咽不下。\n\n可光生气没用。这顶皇冠底下，几乎是空的。\n\n奥地利的新教徒跟他离心离德，匈牙利也在闹：拜特伦正带兵往维也纳打，图尔恩也从北边压了过来。斐迪南手里那点兵，守维也纳都勉强。\n\n他得先保住维也纳。保住了，再杀回波希米亚，好好收拾一下这群“异端中的异端”。\n\n两件事，哪一件都得找帮手。\n\n[[b]]斐迪南有的是头衔，缺的是兵和钱。[[/b]]\n\n第一位帮手，是巴伐利亚公爵马克西米利安。\n\n他是斐迪南的表兄，也是老同学，两人少年时都在英戈尔施塔特跟着耶稣会士读书。他还是天主教联盟的首领，手里有一支训练有素的大军，统帅是一位六十岁的老将，叫蒂利。\n\n1619年10月，斐迪南从法兰克福回家，路过慕尼黑，两人在那里签了一份条约。马克西米利安答应出兵，条件是：\n\n打仗的花销，皇帝全额报销；报销之前，打下来的奥地利地盘先押在巴伐利亚手里。后来押过去的，是上奥地利。\n\n还有一条没写进明面上：打赢以后，腓特烈的选帝侯头衔，归马克西米利安。\n\n[[b]]巴伐利亚出兵，要的是一块地，外加别人的一顶帽子。[[/b]]\n\n第二位帮手，是西班牙。\n\n西班牙国王也姓哈布斯堡，两年前就跟斐迪南签过密约。这一回，马德里出钱，还从尼德兰调兵。西班牙的将军斯皮诺拉，盯上的是腓特烈的老家：莱茵河边的普法尔茨。那里守着莱茵河上的渡口，正挨着西班牙从意大利往尼德兰运兵的那条路。\n\n[[b]]西班牙出兵，顺路给自己修一条路。[[/b]]\n\n第三位帮手最让人意外：萨克森选帝侯约翰·格奥尔格。\n\n他是路德宗，是德意志新教诸侯里地位最高的一位。照理说，他该站在腓特烈那一边。波希米亚人当初甚至先问过他要不要这顶王冠，他没接。\n\n可他不喜欢加尔文宗，更不喜欢一个加尔文宗的年轻人戴上波希米亚的王冠，也不喜欢有人随随便便把国王废掉。\n\n皇帝许给他的价钱是：卢萨蒂亚。那本来是波希米亚王冠底下的地方，也是[[link:the-diet-decides-1619]]邦联[[/link]]里的五块地方之一。\n\n[[b]]新教徒的头号诸侯，被皇帝用一块新教的地方买走了。[[/b]]\n\n还有些小一点的帮手：罗马的教皇出了钱；波兰国王也答应了，后来抄了拜特伦后路的，就是他放出的那支轻骑兵。\n\n到1620年春天，皇帝的价目单已经列得满满当当。\n\n巴伐利亚要上奥地利和选帝侯头衔，西班牙要普法尔茨的路，萨克森要卢萨蒂亚。\n\n仔细看这张单子，皇帝许出去的东西里，只有一样是他自己家的，其余的，全是别人家的：腓特烈的头衔，腓特烈的老家，波希米亚的地。\n\n[[b]]皇帝这一仗，是拿对手的家当，付帮手的工钱。[[/b]]\n\n而这张单子能不能兑现，只看一件事：仗打不打得赢。\n\n至于腓特烈那边，他手里也有一张单子，上面写满了亲戚和盟友的名字。",
+      en: "We have to turn the clock back a little. At the end of August, Ferdinand had barely won the imperial crown in Frankfurt when the news from Prague caught up with him.\n\nHe was furious.\n\nAs he saw it, the whole business was outrageous from start to finish. He was the [[link:the-new-king-1617]]formally \"accepted\"[[/link]], formally crowned King of Bohemia, and the people of Prague had deposed him with a single document. He was the emperor, elected unanimously by all seven electors of the Empire, and the people of Prague had simply ignored that and set up another king.\n\nAnd this new king, of all things, was a Calvinist.\n\nTo a devout Catholic like Ferdinand, Lutherans were bad enough, and Calvinists were worse still: they tore down altars, smashed images, and did not even believe that Christ's body was truly present in the Eucharist. Even Lutheran princes looked down their noses at Calvinists a little. Now one of them was sitting in Prague Castle, and his preacher had given St Vitus Cathedral a thorough \"clean-up\".\n\n[[b]]Prague had not only deposed him; it had found a heretic among heretics to sit in his place.[[/b]]\n\nFerdinand was famous for saying he would rather rule a desert than a country full of heretics. Now the country full of heretics did not even want him.\n\nThis he could not swallow.\n\nBut anger alone would get him nowhere. Under that crown there was almost nothing.\n\nThe Protestants of Austria had turned their backs on him, and Hungary was in turmoil too: Bethlen was marching on Vienna, and Thurn was closing in from the north. At that point nobody had yet fallen on Bethlen from behind. Ferdinand barely had the troops to hold Vienna.\n\nFirst he had to save Vienna. Once it was safe, he would strike back into Bohemia and deal properly with this nest of \"heretics among heretics\".\n\nFor either job, he needed help.\n\n[[b]]Ferdinand had titles to spare. What he lacked was soldiers and money.[[/b]]\n\nThe first helper was Duke Maximilian of Bavaria.\n\nHe was Ferdinand's cousin and old schoolfellow: as young men both had studied with the Jesuits at Ingolstadt. He was also the head of the Catholic League, with a well-drilled army commanded by a sixty-year-old veteran called Tilly.\n\nIn October 1619, on his way home from Frankfurt, Ferdinand stopped in Munich, and the two signed a treaty there. Maximilian agreed to send his army, on these terms:\n\nThe emperor would repay every penny the war cost; until he did, any Austrian land the army took would stay in Bavarian hands as a pledge. In the end, that meant Upper Austria.\n\nAnd one term was not written into the open text: once the war was won, Frederick's electoral title would go to Maximilian.\n\n[[b]]Bavaria's price was a piece of land, plus somebody else's hat.[[/b]]\n\nThe second helper was Spain.\n\nThe King of Spain was a Habsburg too, and had signed a secret treaty with Ferdinand two years before. This time Madrid paid money and moved troops from the Netherlands. The Spanish general Spinola had his eye on Frederick's homeland, the Palatinate on the Rhine. It held crossings over the Rhine right beside the road by which Spain marched its troops from Italy to the Netherlands.\n\n[[b]]Spain joined in, and built itself a road along the way.[[/b]]\n\nThe third helper was the biggest surprise: John George, Elector of Saxony.\n\nHe was a Lutheran, the highest-ranking Protestant prince in Germany. By rights he should have stood with Frederick. The Bohemians had even asked him first whether he wanted the crown, and he had said no.\n\nBut he did not like Calvinists. He liked a young Calvinist wearing the Bohemian crown even less, and he did not like people deposing kings whenever they felt like it.\n\nThe price the emperor offered him was Lusatia: land of the Bohemian Crown, and one of the five lands of the [[link:the-diet-decides-1619]]Confederation[[/link]].\n\n[[b]]The first prince of the Protestants was bought by the emperor with a Protestant land.[[/b]]\n\nThere were smaller helpers too. The Pope in Rome sent money. The King of Poland said yes as well: the light cavalry that later fell on Bethlen's rear was his.\n\nBy the spring of 1620 the emperor's price list was full.\n\nBavaria wanted Upper Austria and an electoral title, Spain wanted the Palatinate's road, Saxony wanted Lusatia.\n\nLook closely at that list. Of everything the emperor had promised, only one item was his own. The rest all belonged to somebody else: Frederick's title, Frederick's homeland, Bohemia's land.\n\n[[b]]The emperor was paying his helpers' wages out of his enemy's belongings.[[/b]]\n\nWhether the list would ever be paid depended on one thing only: winning the war.\n\nAs for Frederick, he had a list of his own, full of the names of relatives and allies.",
+      cz: "Musíme vrátit hodiny o kousek zpátky. Koncem srpna Ferdinand sotva stačil ve Frankfurtu získat císařskou korunu, když ho dostihly zprávy z Prahy.\n\nZuřil.\n\nPodle něj to celé od začátku do konce nemělo obdoby. Byl to on, kdo byl [[link:the-new-king-1617]]řádně „přijat“[[/link]] a řádně korunován českým králem, a Pražané ho sesadili jedním lejstrem. Byl to on, koho všech sedm kurfiřtů říše jednomyslně zvolilo císařem, a Pražané to přešli mávnutím ruky a dosadili si jiného krále.\n\nA ten nový král byl navíc kalvinista.\n\nPro tak zbožného katolíka, jako byl Ferdinand, byli luteráni dost zlí, ale kalvinisté ještě horší: strhávali oltáře, rozbíjeli obrazy a nevěřili ani tomu, že je v eucharistii skutečně přítomno Kristovo tělo. I luteránská knížata se na kalvinisty dívala trochu skrz prsty. A teď takový člověk seděl na Pražském hradě a jeho kazatel svatovítskou katedrálu pořádně „uklidil“.\n\n[[b]]Praha ho nejen sesadila, ale na jeho místo posadila kacíře mezi kacíři.[[/b]]\n\nFerdinand proslul výrokem, že raději bude vládnout poušti než zemi plné kacířů. Teď ho ta země plná kacířů nechtěla ani za krále.\n\nTohle spolknout nedokázal.\n\nJenže samotný vztek nic nevyřeší. Pod tou korunou nebylo skoro nic.\n\nRakouští protestanti se od něj odvrátili a neklid byl i v Uhrách: Betlen táhl na Vídeň a od severu se blížil i Thurn. Tehdy ještě nikdo Betlenovi nevpadl do týla. Ferdinand měl sotva dost vojáků, aby uhájil Vídeň.\n\nNejdřív musel zachránit Vídeň. Až bude v bezpečí, vrátí se do Čech a pořádně si to s těmi „kacíři mezi kacíři“ vyřídí.\n\nNa obojí potřeboval pomocníky.\n\n[[b]]Titulů měl Ferdinand nazbyt. Chyběli mu vojáci a peníze.[[/b]]\n\nPrvním pomocníkem byl bavorský vévoda Maxmilián.\n\nByl to Ferdinandův bratranec a starý spolužák: oba jako mladíci studovali u jezuitů v Ingolstadtu. Navíc stál v čele Katolické ligy a měl dobře vycvičené vojsko, kterému velel šedesátiletý ostřílený vojevůdce jménem Tilly.\n\nV říjnu 1619 se Ferdinand cestou z Frankfurtu zastavil v Mnichově a oba tam podepsali smlouvu. Maxmilián slíbil vojsko za těchto podmínek:\n\nVálečné náklady mu císař do haléře uhradí; dokud je neuhradí, zůstane každá dobytá rakouská země v zástavě v bavorských rukou. Nakonec to byly Horní Rakousy.\n\nA jedna podmínka se do veřejného textu nedostala: po vítězné válce připadne Fridrichův kurfiřtský titul Maxmiliánovi.\n\n[[b]]Bavorsko si řeklo o kus země a k tomu o cizí klobouk.[[/b]]\n\nDruhým pomocníkem bylo Španělsko.\n\nŠpanělský král byl také Habsburk a už před dvěma lety s Ferdinandem uzavřel tajnou smlouvu. Tentokrát Madrid platil a přesouval vojáky z Nizozemí. Španělský generál Spinola si vyhlédl Fridrichovu domovinu, Falc na Rýně. Ta držela přechody přes Rýn hned vedle cesty, po které Španělsko posílalo vojska z Itálie do Nizozemí.\n\n[[b]]Španělsko se přidalo a cestou si postavilo silnici.[[/b]]\n\nTřetí pomocník překvapil nejvíc: saský kurfiřt Jan Jiří.\n\nByl to luterán, nejvýše postavený protestantský kníže v Německu. Správně by měl stát na Fridrichově straně. Češi se ho dokonce nejdřív sami ptali, jestli o korunu stojí, a on odmítl.\n\nJenže kalvinisty neměl rád. Ještě míň se mu líbilo, že českou korunu nosí mladý kalvinista, a vůbec se mu nelíbilo, když někdo sesazuje krále, jak se mu zachce.\n\nCenou, kterou mu císař nabídl, byla Lužice: země Koruny české a jedna z pěti zemí [[link:the-diet-decides-1619]]konfederace[[/link]].\n\n[[b]]Prvního z protestantských knížat si císař koupil protestantskou zemí.[[/b]]\n\nByli i menší pomocníci. Papež v Římě poslal peníze. Polský král také přikývl: lehká jízda, která později vpadla Betlenovi do týla, byla jeho.\n\nNa jaře 1620 byl císařův ceník plný.\n\nBavorsko chtělo Horní Rakousy a kurfiřtský titul, Španělsko cestu přes Falc, Sasko Lužici.\n\nPodívejte se na ten seznam pozorně. Ze všeho, co císař slíbil, patřila jemu jediná položka. Všechno ostatní patřilo někomu jinému: Fridrichův titul, Fridrichova domovina, česká země.\n\n[[b]]Císař platil svým pomocníkům mzdu z majetku svého nepřítele.[[/b]]\n\nJestli se ten ceník někdy zaplatí, záviselo na jediném: vyhrát válku.\n\nA Fridrich? I on měl svůj seznam, plný jmen příbuzných a spojenců.",
+      zh: "时间还得往回拨一点。那年8月底，斐迪南刚在法兰克福戴上皇冠，布拉格的消息就追了过来。\n\n他气坏了。\n\n在他看来，这件事从头到尾都不像话：他是[[link:the-new-king-1617]]正式“接受”[[/link]]、正式加冕的波希米亚国王，布拉格人一纸文书就把他废了；他是全帝国七位选帝侯一致选出来的皇帝，布拉格人照样不当回事，转身另立了一个国王。\n\n偏偏这个新国王，还是个加尔文宗。\n\n对斐迪南这样虔诚的天主教徒来说，路德宗已经够糟了，加尔文宗更是糟上加糟：拆祭坛，砸圣像，连圣餐里有基督的真身都不信。就连信路德宗的诸侯，都对加尔文宗有几分嫌弃。如今，这样一个人坐进了布拉格城堡，他的牧师还把圣维特大教堂“打扫”了个干净。\n\n[[b]]布拉格不但废了他，还找来了一个异端中的异端，坐他的位子。[[/b]]\n\n斐迪南有句出了名的话：宁可统治一片荒漠，也不统治一个满是异端的国家。现在，这个满是异端的国家，连他都不要了。\n\n这口气，他咽不下。\n\n可光生气没用。这顶皇冠底下，几乎是空的。\n\n奥地利的新教徒跟他离心离德，匈牙利也在闹：拜特伦正带兵往维也纳打，图尔恩也从北边压了过来。那会儿，还没有人去抄拜特伦的后路。斐迪南手里那点兵，守维也纳都勉强。\n\n他得先保住维也纳。保住了，再杀回波希米亚，好好收拾一下这群“异端中的异端”。\n\n两件事，哪一件都得找帮手。\n\n[[b]]斐迪南有的是头衔，缺的是兵和钱。[[/b]]\n\n第一位帮手，是巴伐利亚公爵马克西米利安。\n\n他是斐迪南的表兄，也是老同学，两人少年时都在英戈尔施塔特跟着耶稣会士读书。他还是天主教联盟的首领，手里有一支训练有素的大军，统帅是一位六十岁的老将，叫蒂利。\n\n1619年10月，斐迪南从法兰克福回家，路过慕尼黑，两人在那里签了一份条约。马克西米利安答应出兵，条件是：\n\n打仗的花销，皇帝全额报销；报销之前，打下来的奥地利地盘先押在巴伐利亚手里。后来押过去的，是上奥地利。\n\n还有一条没写进明面上：打赢以后，腓特烈的选帝侯头衔，归马克西米利安。\n\n[[b]]巴伐利亚出兵，要的是一块地，外加别人的一顶帽子。[[/b]]\n\n第二位帮手，是西班牙。\n\n西班牙国王也姓哈布斯堡，两年前就跟斐迪南签过密约。这一回，马德里出钱，还从尼德兰调兵。西班牙的将军斯皮诺拉，盯上的是腓特烈的老家：莱茵河边的普法尔茨。那里守着莱茵河上的渡口，正挨着西班牙从意大利往尼德兰运兵的那条路。\n\n[[b]]西班牙出兵，顺路给自己修一条路。[[/b]]\n\n第三位帮手最让人意外：萨克森选帝侯约翰·格奥尔格。\n\n他是路德宗，是德意志新教诸侯里地位最高的一位。照理说，他该站在腓特烈那一边。波希米亚人当初甚至先问过他要不要这顶王冠，他没接。\n\n可他不喜欢加尔文宗，更不喜欢一个加尔文宗的年轻人戴上波希米亚的王冠，也不喜欢有人随随便便把国王废掉。\n\n皇帝许给他的价钱是：卢萨蒂亚。那本来是波希米亚王冠底下的地方，也是[[link:the-diet-decides-1619]]邦联[[/link]]里的五块地方之一。\n\n[[b]]新教徒的头号诸侯，被皇帝用一块新教的地方买走了。[[/b]]\n\n还有些小一点的帮手：罗马的教皇出了钱；波兰国王也答应了，后来抄了拜特伦后路的，就是他放出的那支轻骑兵。\n\n到1620年春天，皇帝的价目单已经列得满满当当。\n\n巴伐利亚要上奥地利和选帝侯头衔，西班牙要普法尔茨的路，萨克森要卢萨蒂亚。\n\n仔细看这张单子，皇帝许出去的东西里，只有一样是他自己家的，其余的，全是别人家的：腓特烈的头衔，腓特烈的老家，波希米亚的地。\n\n[[b]]皇帝这一仗，是拿对手的家当，付帮手的工钱。[[/b]]\n\n而这张单子能不能兑现，只看一件事：仗打不打得赢。\n\n至于腓特烈那边，他手里也有一张单子，上面写满了亲戚和盟友的名字。",
     },
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Treaty_of_Munich_(1619)",
@@ -26994,6 +26994,714 @@ export const historyEvents = [
         zh: "1619年秋，霍夫堡：斐迪南二世对着一张长账单发愁，帮手们各自认领好处：西班牙使节沿着莱茵河画线，巴伐利亚的马克西米利安按住上奥地利，萨克森的约翰·格奥尔格把卢萨蒂亚抱在怀里。",
       },
     ],
+  },
+  // Background card placed right after help-at-a-price-1619 (user's request,
+  // 2026-10-20): why the emperor's Spanish helper was family. Explains the
+  // 1617 Oñate treaty that the 1619 card only calls "a secret treaty".
+  // - cardType: 'background', so no relatedLandmarks (hard rule).
+  // - Quote: Charles V's abdication speech, Brussels, 25 Oct 1555, via GHDI
+  //   (Kohler, Quellen zur Geschichte Karls V., trans. Thomas A. Brady Jr.).
+  // - The Yuste clocks remark is a well-known story, not attested; framed as
+  //   "the story goes".
+  // - The "Bella gerant alii" saying is not repeated here: it is already the
+  //   closing quote of the-groom-was-grandpa-1515, which this card links.
+  {
+    slug: "two-habsburg-houses-1556",
+    era: "fire-and-ashes",
+    cardType: "background",
+    images: [],
+    imageCaptions: [],
+    quotes: [
+      {
+        text: {
+          en: "Nine times to Germany, six times to Spain, seven times to Italy, four times to France, twice to England, and twice to Africa.",
+          cz: "Devětkrát do Německa, šestkrát do Španělska, sedmkrát do Itálie, čtyřikrát do Francie, dvakrát do Anglie a dvakrát do Afriky.",
+          zh: "九次去德意志，六次去西班牙，七次去意大利，四次去法国，两次去英格兰，两次去非洲。",
+        },
+        attribution: {
+          en: "Charles V, abdication speech, Brussels, 25 October 1555",
+          cz: "Karel V., abdikační řeč, Brusel, 25. října 1555",
+          zh: "查理五世的退位演说，布鲁塞尔，1555年10月25日",
+        },
+      },
+    ],
+    startYear: 1619.96,
+    year: {
+      en: "1477–1617",
+      cz: "1477–1617",
+      zh: "1477–1617年",
+    },
+    tone: "humorous",
+    title: {
+      en: "The Habsburg Split",
+      cz: "Jak se Habsburkové rozdělili",
+      zh: "哈布斯堡的“王朝分裂”",
+    },
+    hookLine: {
+      en: "One of the emperor's helpers was the King of Spain in Madrid, and he was a Habsburg too. Why did one family have two capitals? Because for a while it owned more than one man could carry.",
+      cz: "Jedním z císařových pomocníků byl španělský král v Madridu, a i on byl Habsburk. Proč měl jeden rod dvě hlavní města? Protože nějakou dobu vlastnil víc, než jeden člověk unesl.",
+      zh: "帮皇帝出钱出兵的，有一位是马德里的西班牙国王，他也姓哈布斯堡。一个家族，为什么有两个首都？因为它一度攒下的家业，一个人根本扛不动。",
+    },
+    summary: {
+      en: "Around 1500 the Habsburgs were still collecting crowns the way they always had: by [[link:the-groom-was-grandpa-1515]]marrying[[/link]].\n\nEmperor Maximilian I married Mary of Burgundy, heiress of the rich Netherlands. Their son Philip married Joanna, heiress of Castile and Aragon.\n\nThe grandson of these two marriages was Charles, born in Ghent in 1500. He inherited one piece after another: the Netherlands at six; Spain at fifteen, together with Naples, Sicily and the newly found lands across the Atlantic; and at nineteen, his grandfather's Austrian lands. That same year the electors made him emperor as well. This was Charles V.\n\n[[b]]No one had ever held so much of Europe in one pair of hands, and, as it turned out, no one could hold on to it.[[/b]]\n\nCharles spent almost his whole life on the road. When he stepped down, he counted it up himself:\n\n[[quote:0]]\n\nSo early on he handed a share of the family business to his younger brother Ferdinand. In 1521 and 1522 Ferdinand received the Austrian lands, and a few years later he became [[link:the-habsburgs-come-in-1526]]King of Bohemia and Hungary[[/link]] as well.\n\nThe odd thing is that Ferdinand had been born and raised in Spain, while Charles grew up in Flanders. When Charles first set foot in Spain, at seventeen, he could barely speak Spanish. In the end the brother raised in Spain went to rule from Vienna, and the brother raised in Flanders ruled from Madrid.\n\nThe brothers did not always see eye to eye. Charles wanted his son Philip to follow Ferdinand as emperor; Ferdinand wanted the crown for his own son, Maximilian. In 1550 and 1551 the family argued about it for months at Augsburg, and it took their sister Mary to calm things down. She was the nine-year-old bride of 1515, later Queen of Hungary, and a widow since Mohács. Philip never became emperor.\n\nIn 1555 and 1556, worn out, Charles abdicated. Spain, the Netherlands, Italy and the New World went to his son, Philip II. The imperial crown went to his brother Ferdinand.\n\nCharles himself moved into the monastery of Yuste in Spain and took his clocks with him. The story goes that he could never get two of them to tick in time, and sighed that he had once thought he could make whole nations agree.\n\n[[b]]From then on there were two Habsburg houses. Madrid had the silver and the fleets; Vienna had the imperial title, and the Turks on its doorstep.[[/b]]\n\nTo stay close, the two branches kept marrying each other. Charles's daughter Maria married Ferdinand's son, Maximilian II. Their daughter Anna married her own uncle, Philip II, as his fourth wife. Their son Rudolf was [[link:the-emperor-who-watched-the-stars-1583]]sent to Madrid[[/link]] to grow up. Generations of marrying cousins and nieces did nothing to soften the family's famous jutting chin.\n\nBy 1617 all this closeness had caused a small problem. Matthias had no children, and King Philip III of Spain was his own nephew, the son of his sister Anna. By blood, Philip had at least as good a claim to the crowns of Bohemia and Hungary as Ferdinand of Styria.\n\nSo the two branches signed a private agreement, named after the Spanish ambassador, Count Oñate. Spain gave up its claim to both crowns in Ferdinand's favour. In return, Ferdinand promised Spain the Habsburg lands in Alsace and a few places in Italy.\n\nThat was the [[link:help-at-a-price-1619]]secret treaty[[/link]] Ferdinand could count on in 1619. Spain also had reasons of its own: its truce with the Dutch ran out in 1621, and the road to the Netherlands had to stay open.\n\n[[b]]When the Bohemian estates deposed one Habsburg, they had in fact taken on two.[[/b]]",
+      cz: "Kolem roku 1500 sbírali Habsburkové koruny pořád po starém: [[link:the-groom-was-grandpa-1515]]sňatky[[/link]].\n\nCísař Maxmilián I. si vzal Marii Burgundskou, dědičku bohatého Nizozemí. Jejich syn Filip si vzal Johanu, dědičku Kastilie a Aragonu.\n\nVnukem z těchto dvou sňatků byl Karel, narozený roku 1500 v Gentu. Dědil jedno za druhým: v šesti letech Nizozemí; v patnácti Španělsko a k němu Neapol, Sicílii a nově objevené země za Atlantikem; v devatenácti dědečkovy rakouské země. Téhož roku ho kurfiřti zvolili i císařem. Byl to Karel V.\n\n[[b]]Ještě nikdo nedržel tolik Evropy v jedněch rukou, a jak se ukázalo, nikdo ji udržet nedokázal.[[/b]]\n\nKarel strávil skoro celý život na cestách. Když odstupoval, sám si to spočítal:\n\n[[quote:0]]\n\nProto brzy předal část rodinného podniku mladšímu bratrovi Ferdinandovi. V letech 1521 a 1522 dostal Ferdinand rakouské země a o pár let později se stal i [[link:the-habsburgs-come-in-1526]]českým a uherským králem[[/link]].\n\nZvláštní je, že Ferdinand se narodil a vyrůstal ve Španělsku, kdežto Karel vyrostl ve Flandrech. Když Karel v sedmnácti poprvé vstoupil do Španělska, sotva uměl španělsky. Nakonec tedy bratr vychovaný ve Španělsku vládl z Vídně a bratr vychovaný ve Flandrech z Madridu.\n\nBratři se vždycky neshodli. Karel chtěl, aby po Ferdinandovi nastoupil na císařský trůn jeho syn Filip; Ferdinand chtěl korunu pro vlastního syna Maxmiliána. V letech 1550 a 1551 se o to rodina celé měsíce hádala v Augsburgu a uklidnit to musela až jejich sestra Marie. Byla to ta devítiletá nevěsta z roku 1515, později uherská královna a od Moháče vdova. Filip se císařem nikdy nestal.\n\nV letech 1555 a 1556 Karel vyčerpaný abdikoval. Španělsko, Nizozemí, Itálie a Nový svět připadly jeho synovi Filipovi II. Císařská koruna připadla bratrovi Ferdinandovi.\n\nSám Karel se odstěhoval do kláštera Yuste ve Španělsku a vzal si s sebou své hodiny. Traduje se, že nikdy nedokázal sladit dvoje z nich, aby tikaly stejně, a povzdechl si, že kdysi myslel, že dokáže sladit celé národy.\n\n[[b]]Od té doby existovaly dva habsburské domy. Madrid měl stříbro a loďstva; Vídeň měla císařský titul a Turky za humny.[[/b]]\n\nAby si zůstaly blízko, obě větve se mezi sebou dál ženily a vdávaly. Karlova dcera Marie si vzala Ferdinandova syna Maxmiliána II. Jejich dcera Anna se provdala za vlastního strýce Filipa II. jako jeho čtvrtá manželka. Jejich syn Rudolf byl [[link:the-emperor-who-watched-the-stars-1583]]poslán do Madridu[[/link]], aby tam vyrůstal. Generace sňatků mezi bratranci a neteřemi slavnou vystrčenou rodovou bradu nijak nezjemnily.\n\nRoku 1617 způsobila všechna ta blízkost malý problém. Matyáš neměl děti a španělský král Filip III. byl jeho vlastní synovec, syn jeho sestry Anny. Podle krve měl Filip na českou a uherskou korunu přinejmenším stejné právo jako Ferdinand Štýrský.\n\nObě větve proto podepsaly soukromou dohodu, pojmenovanou po španělském vyslanci hraběti Oñatovi. Španělsko se svého nároku na obě koruny vzdalo ve Ferdinandův prospěch. Ferdinand za to Španělsku slíbil habsburské državy v Alsasku a několik míst v Itálii.\n\nTo byla ta [[link:help-at-a-price-1619]]tajná smlouva[[/link]], na kterou se Ferdinand mohl roku 1619 spolehnout. Španělsko k tomu mělo i vlastní důvody: jeho příměří s Nizozemci vypršelo roku 1621 a cesta do Nizozemí musela zůstat otevřená.\n\n[[b]]Když čeští stavové sesadili jednoho Habsburka, ve skutečnosti si naráz znepřátelili dva.[[/b]]",
+      zh: "1500年前后，哈布斯堡家攒王冠，靠的还是老办法：[[link:the-groom-was-grandpa-1515]]结婚[[/link]]。\n\n皇帝马克西米利安一世娶了勃艮第的玛丽，她是富得流油的尼德兰的继承人。他们的儿子腓力，又娶了胡安娜，她是卡斯蒂利亚和阿拉贡的继承人。\n\n这两桩婚事传下来的孙子，叫查理，1500年生在根特。他的家业是一块一块继承来的：6岁，尼德兰；15岁，西班牙，外加那不勒斯、西西里，还有大西洋对岸刚发现的新大陆；19岁，祖父留下的奥地利。同一年，选帝侯们又把他选成了皇帝。这就是查理五世。\n\n[[b]]从来没有人把大半个欧洲攥在一双手里；后来证明，也没有人攥得住。[[/b]]\n\n查理这一辈子，几乎都在路上。退位的时候，他自己算过一笔账：\n\n[[quote:0]]\n\n所以，他很早就把一份家业分给了弟弟斐迪南。1521年和1522年，斐迪南拿到了奥地利；没过几年，他又当上了[[link:the-habsburgs-come-in-1526]]波希米亚和匈牙利的国王[[/link]]。\n\n有意思的是，斐迪南是在西班牙出生、长大的，查理却是在佛兰德长大的。查理17岁头一回踏上西班牙的时候，西班牙语都说不利索。结果，西班牙长大的弟弟去了维也纳，佛兰德长大的哥哥坐镇马德里。\n\n兄弟俩也不总是一条心。查理想让儿子腓力在斐迪南之后接着当皇帝，斐迪南却想把皇冠留给自己的儿子马克西米利安。1550年到1551年，一家人在奥格斯堡吵了好几个月，最后还得靠妹妹玛丽亚从中说和。她就是1515年那位九岁的小新娘，后来当了匈牙利王后，莫哈奇之后守了寡。腓力到最后也没当上皇帝。\n\n1555年到1556年，查理累垮了，退了位。西班牙、尼德兰、意大利和新大陆，归了儿子腓力二世；皇冠，归了弟弟斐迪南。\n\n查理自己搬进了西班牙的尤斯特修道院，随身带着他的一堆钟表。据说，他怎么也没法让其中两只钟走得一样快，于是感叹：当年自己竟以为，能让那么多民族想到一块去。\n\n[[b]]从此，哈布斯堡家有了两个家：马德里有白银和船队，维也纳有皇帝的头衔，门外还守着土耳其人。[[/b]]\n\n为了不走远，两边一直亲上加亲。查理的女儿玛丽亚，嫁给了斐迪南的儿子马克西米利安二世；他们的女儿安娜，又嫁给了自己的舅舅腓力二世，当了他的第四任妻子；他们的儿子鲁道夫，也被[[link:the-emperor-who-watched-the-stars-1583]]送到了马德里[[/link]]长大。一代又一代表亲、舅甥结亲，家族那出了名的大下巴，倒是一点也没见收敛。\n\n到了1617年，这门亲戚出了点小麻烦。马蒂亚斯没有孩子，而西班牙国王腓力三世，正是他的亲外甥，他妹妹安娜的儿子。论血统，腓力对波希米亚和匈牙利的王冠，并不比施蒂利亚的斐迪南差。\n\n于是两边私下签了一份协议，以西班牙大使奥尼亚特伯爵的名字命名：西班牙放弃这两顶王冠，让给斐迪南；作为交换，斐迪南答应把哈布斯堡家在阿尔萨斯的领地，还有意大利的几块地方，许给西班牙。\n\n这就是1619年斐迪南能指望得上的那份[[link:help-at-a-price-1619]]密约[[/link]]。何况西班牙自己也有一笔账：它跟荷兰人的停战协定，1621年就要到期，通往尼德兰的那条路，非得畅通不可。\n\n[[b]]波希米亚的等级们废掉了一个哈布斯堡，其实一下子惹上了两个。[[/b]]",
+    },
+    relatedLandmarks: [],
+  },
+  // The user's draft (2026-10-20), lightly corrected:
+  // - The draft said the British volunteers never reached Bohemia. Vere's
+  //   ~2,000 went to the Palatinate, but Sir Andrew Gray's Anglo-Scottish
+  //   regiment (raised spring 1620, ~2,000–2,500) did reach Lusatia and was at
+  //   Plzeň by December 1620 (SSNE 378), so both are mentioned.
+  // - Ulm (3 July 1620, French mediation): the draft said the Union "didn't
+  //   even mean to defend the Palatinate"; the real gap is that the treaty
+  //   bound only the two leagues, not Spain, so Spinola was free to go in.
+  // - Hook "半年过去" → "快一年过去" (Aug 1619 → summer 1620).
+  // - The quote repeats quote 1 of the-deposed-king-becomes-emperor-1619 on
+  //   purpose (the card opens by calling it back).
+  // - "The only one who came has gone" = Bethlen (vienna-besieged-again-1619);
+  //   true for summer 1620. His Hungarian horse returns that autumn, so the
+  //   White Mountain card must not call Bethlen absent.
+  {
+    slug: "allies-on-paper-1620",
+    era: "fire-and-ashes",
+    startYear: 1620.4,
+    year: {
+      en: "1620",
+      cz: "1620",
+      zh: "1620年",
+    },
+    tone: "humorous",
+    title: {
+      en: "Allies on Paper",
+      cz: "Spojenci na papíře",
+      zh: "靠不住的盟友",
+    },
+    hookLine: {
+      en: "When they proposed Frederick, the estates had listed a long line of powerful backers. Almost a year later, one name after another on that list had come to nothing.",
+      cz: "Když stavové navrhovali Fridricha, vyjmenovali dlouhou řadu jeho mocných zastánců. Skoro po roce se jedno jméno z toho seznamu za druhým ukázalo jako planý slib.",
+      zh: "推举腓特烈的时候，等级们列了一长串他的靠山。快一年过去，单子上的名字一个个都落了空。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "…it is clear to every man's understanding that he is not only not in debt, and that of his revenue he can lay something up, but also that the King of Great Britain is his father-in-law; the King of Denmark his near ally… the Prince of Orange his uncle…",
+          cz: "…každému je jasné, že nejenže nemá dluhy a ze svých příjmů si dokáže něco odložit, ale že král Velké Británie je jeho tchán, král dánský jeho blízký spojenec… princ Oranžský jeho strýc…",
+          zh: "……谁都看得明白：他不但没有欠债，每年的收入还能攒下一些；更何况，大不列颠国王是他的岳父，丹麦国王是他的近亲盟友……奥兰治亲王是他的舅舅……",
+        },
+        attribution: {
+          en: "The proposal to elect the Elector Palatine, made in the Bohemian diet, August 1619 (English translation, 1619)",
+          cz: "Návrh na volbu falckého kurfiřta přednesený na českém sněmu, srpen 1619 (anglický překlad, 1619)",
+          zh: "在波希米亚议会上推举普法尔茨选帝侯的提议，1619年8月（1619年英译小册子）",
+        },
+      },
+    ],
+    summary: {
+      en: "Remember how the estates praised Frederick when they [[link:the-deposed-king-becomes-emperor-1619]]proposed him[[/link]]?\n\n[[quote:0]]\n\nIt was a fine list. But the people on a list only count if they actually turn up.\n\n[[b]]The emperor's helpers had been bought with money. The king's allies were supposed to come out of family feeling.[[/b]]\n\nFirst, the father-in-law: King James I of England.\n\nJames had been against his son-in-law taking the crown from the start. He liked to call himself a peacemaker, he wanted good relations with Spain, and he was busy arranging for his son to marry a Spanish princess. A son-in-law in Prague fighting the Habsburgs could only spoil his plans.\n\nThe streets of London were lively enough. People prayed for Elizabeth, \"the Queen of Bohemia\", sang songs for her in the taverns and gave money of their own accord. But the king himself would not send a single soldier; he only let Englishmen go and help as volunteers.\n\nOf the volunteers who actually set out, the best known, under Sir Horace Vere, went to guard the Palatinate and never came near Bohemia. Another regiment of some two thousand English and Scots, under Sir Andrew Gray, did make it all the way to Bohemia. But a couple of thousand men were a drop in the ocean.\n\n[[b]]The father-in-law could see to his daughter's dowry. His son-in-law's crown was another matter.[[/b]]\n\nNext, the two uncles.\n\nKing Christian IV of Denmark was Elizabeth's uncle, and a Protestant himself. But Denmark lay on the far side of half of Germany, he had plans of his own, and in the end he did not come.\n\nPrince Maurice of Orange in the Netherlands was Frederick's uncle. The Dutch did put up some money, but their twelve-year truce with Spain ran out the following year, and they needed their soldiers to guard their own front door.\n\nLast came the Protestant Union in Germany, which Frederick himself was supposed to lead.\n\nIn July 1620, with French envoys bringing the two sides together, the Protestant Union and the Catholic League signed a treaty at Ulm: neither would attack the other inside the Empire.\n\nIt sounded like good news. But the treaty had a large hole in it: it covered Germany, not Bohemia.\n\nOnce it was signed, the Catholic League no longer had to worry about fire in its own backyard. Tilly's army was free to march east, towards Austria, towards Bohemia.\n\nAnd the treaty bound only the two leagues. It did not bind Spain. Spinola's army could still march into the Palatinate, and the Union's own leader looked likely to lose his homeland.\n\n[[b]]By signing a peace, the Protestant Union had simply stepped aside and cleared the road for the Catholic League.[[/b]]\n\nThe outside world could not be relied on, and things at home were no better.\n\nThe Bohemian estates had stood together nicely against the emperor. When it came to paying, they stood together rather less. Taxes went uncollected, wages went unpaid, the mercenaries mutinied every few days, and some of them simply took to plundering the countryside. The peasants were even less willing to go and fight for their lords.\n\nMansfeld sat in Plzeň and did not move. It was said that while he took Prague's money, he was also making eyes at the emperor's side, to see who would pay more.\n\nIn the summer of 1620 Frederick looked down his list of backers. The father-in-law had not come, the uncles had not come, the Union had stepped aside, and [[link:vienna-besieged-again-1619]]the only one who had come[[/link]] had already gone home.\n\nMeanwhile, the names on the emperor's [[link:help-at-a-price-1619]]price list[[/link]] had set out, one after another.",
+      cz: "Pamatujete si, jak stavové Fridricha chválili, když ho [[link:the-deposed-king-becomes-emperor-1619]]navrhovali[[/link]]?\n\n[[quote:0]]\n\nSeznam to byl pěkný. Jenže lidé na seznamu se počítají, jen když opravdu přijdou.\n\n[[b]]Císařovy pomocníky koupily peníze. Královy spojence měly přivést rodinné svazky.[[/b]]\n\nNejdřív tchán, anglický král Jakub I.\n\nJakub byl od začátku proti tomu, aby zeť korunu přijal. Rád o sobě mluvil jako o mírotvorci, chtěl mít dobré vztahy se Španělskem a zrovna se snažil oženit syna se španělskou princeznou. Zeť, který v Praze válčí s Habsburky, mu mohl všechno jen pokazit.\n\nV londýnských ulicích bylo živo. Lidé se modlili za Alžbětu, „českou královnu“, zpívali jí v hospodách písně pro povzbuzení a sami od sebe dávali peníze. Král ale neposlal ani jednoho vojáka; jen dovolil Angličanům, aby šli pomáhat jako dobrovolníci.\n\nZ dobrovolníků, kteří opravdu vyrazili, šel ten nejznámější oddíl pod sirem Horacem Verem bránit Falc a do Čech se ani nepřiblížil. Jiný pluk asi dvou tisíc Angličanů a Skotů pod sirem Andrewem Grayem do Čech opravdu došel. Jenže pár tisíc mužů byla kapka v moři.\n\n[[b]]Tchán se mohl postarat o dceřino věno. O zeťovu korunu už ne.[[/b]]\n\nPak dva strýcové.\n\nDánský král Kristián IV. byl Alžbětin strýc a sám protestant. Dánsko ale leželo za půlkou Německa, měl své vlastní plány a nakonec nepřišel.\n\nMořic Oranžský v Nizozemí byl Fridrichův strýc. Nizozemci sice dali trochu peněz, ale jejich dvanáctileté příměří se Španělskem příští rok vypršelo a vojáky potřebovali na obranu vlastního prahu.\n\nNakonec Protestantská unie v Německu, v jejímž čele měl stát sám Fridrich.\n\nV červenci 1620 podepsaly Protestantská unie a Katolická liga za přispění francouzských vyslanců smlouvu v Ulmu: v říši na sebe ani jedna strana nezaútočí.\n\nZnělo to jako dobrá zpráva. Smlouva ale měla velkou díru: týkala se Německa, ne Čech.\n\nJakmile byla podepsána, nemusela se Katolická liga bát, že jí začne hořet za humny. Tillyho vojsko mohlo klidně táhnout na východ, k Rakousům, k Čechám.\n\nA smlouva vázala jen obě uskupení. Španělsko nevázala. Spinolovo vojsko mohlo dál vtrhnout do Falce a vůdce unie nejspíš přijde i o vlastní domovinu.\n\n[[b]]Tím, že podepsala mír, Protestantská unie prostě ustoupila stranou a uvolnila Katolické lize cestu.[[/b]]\n\nNa cizinu nebylo spolehnutí, a doma to nebylo o nic lepší.\n\nČeští stavové drželi proti císaři pěkně při sobě. Když se mělo platit, drželi při sobě o poznání méně. Daně se nevybíraly, žold se nevyplácel, žoldnéři se co chvíli bouřili a někteří rovnou začali plenit venkov. Sedláci se do války za své pány hrnuli ještě méně.\n\nMansfeld seděl v Plzni a ani se nehnul. Říkalo se, že bere peníze od Prahy a přitom pokukuje po císařské straně, kdo nabídne víc.\n\nV létě 1620 projel Fridrich očima svůj seznam zastánců. Tchán nepřišel, strýcové nepřišli, unie ustoupila stranou a [[link:vienna-besieged-again-1619]]jediný, kdo přišel[[/link]], už zase odtáhl.\n\nMezitím se jména z císařova [[link:help-at-a-price-1619]]ceníku[[/link]] jedno po druhém dávala na pochod.",
+      zh: "还记得[[link:the-deposed-king-becomes-emperor-1619]]推举腓特烈[[/link]]的时候，等级们是怎么夸他的吗？\n\n[[quote:0]]\n\n单子列得漂亮，可单子上的人，得真来了才算数。\n\n[[b]]皇帝的帮手是花钱请来的；国王的盟友，是指望着亲戚关系请来的。[[/b]]\n\n先说岳父，英国国王詹姆斯一世。\n\n詹姆斯从一开始就不赞成女婿接这顶王冠。他自称“和平的缔造者”，一心想跟西班牙搞好关系，正忙着替儿子张罗，要娶一位西班牙公主。女婿在布拉格跟哈布斯堡家打仗，在他看来只会坏他的大事。\n\n伦敦的街头倒是热闹：有人为“波希米亚王后”伊丽莎白祈祷，有人在酒馆里唱歌给她打气，还有人自愿捐钱。可国王本人一个兵也不肯派，只准英国人自愿去帮忙。\n\n真出发的志愿兵里，最有名的一支由维尔爵士带着，去守的是普法尔茨，压根没到波希米亚。另有一个两千来人的英格兰、苏格兰志愿团，由格雷爵士带着，倒是一路走到了波希米亚。可这点人，杯水车薪。\n\n[[b]]岳父管得了女儿的嫁妆，管不了女婿的王冠。[[/b]]\n\n再说两位舅舅。\n\n丹麦国王克里斯蒂安四世是伊丽莎白的舅舅，自己也是新教徒，可丹麦隔着大半个德意志，他有自己的算盘，最后没来。\n\n荷兰的奥兰治亲王莫里斯是腓特烈的舅舅。荷兰人倒是出了点钱，可他们跟西班牙的十二年停战，第二年就要到期，兵得留着守自家门口。\n\n最后是德意志的新教联盟，腓特烈本来就是它的首领。\n\n1620年7月，在法国使节的撮合下，新教联盟和天主教联盟在乌尔姆签了一份条约：双方在帝国境内互不进攻。\n\n听上去是好事，可这份条约有个大漏洞：它只管德意志，不管波希米亚。\n\n条约一签，天主教联盟就不用担心后院起火了。蒂利的大军可以放心大胆地往东开，开向奥地利，开向波希米亚。\n\n而且，条约管的只是两个联盟，管不着西班牙。斯皮诺拉的大军照样可以开进普法尔茨，新教联盟首领的老家，眼看也要保不住了。\n\n[[b]]新教联盟签了和约，等于替天主教联盟把路让开了。[[/b]]\n\n外面靠不住，家里也不让人省心。\n\n波希米亚的等级们反皇帝的时候很齐心，到了掏钱的时候就没那么齐心了。税收不上来，军饷发不出，雇佣兵三天两头闹事，有的干脆在乡下抢起了老百姓。农民们更不愿意替贵族老爷们去打仗。\n\n曼斯菲尔德守在比尔森，按兵不动。据说他一边拿着布拉格的钱，一边跟皇帝那边的人眉来眼去，看谁出的价更高。\n\n1620年夏天，腓特烈翻开那张靠山的单子：岳父没来，舅舅没来，联盟让了路，[[link:vienna-besieged-again-1619]]唯一来了的那一位[[/link]]，也已经走了。\n\n而皇帝那张[[link:help-at-a-price-1619]]价目单[[/link]]上的人，已经一个接一个地出发了。",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Treaty_of_Ulm_(1620)",
+    images: ["/history/allies-on-paper-1620.webp"],
+    imageCaptions: [
+      {
+        en: "Prague Castle, summer 1620: Frederick and Elizabeth sit alone at the head of a feast laid for their allies. Under the flags of England, Denmark and the Dutch Republic the chairs stay empty (the Dutch left only a small purse); the grandest chair, the Protestant Union's, has been pushed away from the table with a sealed treaty on its seat; one place has been used and abandoned. Through the window, the emperor's helpers are already on the march.",
+        cz: "Pražský hrad, léto 1620: Fridrich a Alžběta sedí sami v čele hostiny prostřené pro jejich spojence. Pod vlajkami Anglie, Dánska a Nizozemské republiky zůstávají židle prázdné (Nizozemci nechali jen malý měšec); nejvznešenější židle, ta Protestantské unie, je odsunutá od stolu a na sedadle leží zapečetěná smlouva; jedno místo bylo použito a opuštěno. Za oknem už táhnou císařovi pomocníci.",
+        zh: "1620年夏，布拉格城堡：腓特烈和伊丽莎白独自坐在一桌为盟友摆好的宴席上首。英格兰、丹麦和荷兰的旗帜下，椅子都空着（荷兰人只留下了一个小钱袋）；最气派的那把椅子属于新教联盟，被推离了餐桌，座位上放着一份封好的条约；还有一个座位，有人坐过，又走了。窗外，皇帝的帮手们已经开拔了。",
+      },
+    ],
+  },
+  // The user's draft (2026-10-20), lightly corrected:
+  // - Maximilian entered Upper Austria on 24 July 1620 (the draft said early
+  //   August); the estates submitted at Linz on 20 August. Year shown as July
+  //   to November accordingly.
+  // - Písek: bombarded from 29 Sept 1620 by Maximilian and Bucquoy, held by
+  //   ~300 foot and 40 horse plus a hasty levy of townsmen; stormed, the men
+  //   killed. The "only twenty men survived, hiding in the river under the
+  //   weir" detail is local tradition (nasregion.cz, after the academia.edu
+  //   study "Písek 1619–1620: trojí dobytí města"), framed as "it is said".
+  // - "The Bohemian army was no smaller" softened to "not far apart": figures
+  //   vary, roughly 21,000 Bohemians vs 25,000+ on the Catholic side at
+  //   White Mountain.
+  // - Bethlen's Hungarian cavalry joined Anhalt that autumn but is not
+  //   mentioned here; the White Mountain card must account for it.
+  // - No primary-source quote: two searches (Písek 1620, Skála ze Zhoře)
+  //   found nothing quotable.
+  {
+    slug: "closing-in-from-three-sides-1620",
+    era: "fire-and-ashes",
+    startYear: 1620.6,
+    year: {
+      en: "July – November 1620",
+      cz: "Červenec – listopad 1620",
+      zh: "1620年7月至11月",
+    },
+    tone: "humorous",
+    title: {
+      en: "Closing In from Three Sides",
+      cz: "Sevření ze tří stran",
+      zh: "三路合围",
+    },
+    hookLine: {
+      en: "The helpers on the emperor's price list came to do their jobs: one from the south, one from the west, one from the north.",
+      cz: "Pomocníci z císařova ceníku se dali do práce: jeden od jihu, jeden od západu, jeden od severu.",
+      zh: "皇帝价目单上的帮手们，上门干活来了：一路从南，一路从西，一路从北。",
+    },
+    summary: {
+      en: "At the end of the summer of 1620, the helpers on the emperor's [[link:help-at-a-price-1619]]price list[[/link]] split into three and struck from three directions at once.\n\nThe first was Bavaria.\n\nAt the end of July, Maximilian led Tilly's army into Upper Austria in person. Only the year before, the Protestant estates of Upper Austria had made an alliance with Bohemia. Now they took one look at the soldiers outside their towns and gave in almost without a fight.\n\nMaximilian collected his first instalment of \"wages\": Upper Austria, held by him as a pledge.\n\nThe second was Spain.\n\nAt the end of August, Spinola marched south from the Netherlands along the Rhine with more than twenty thousand men and entered Frederick's homeland, the Palatinate. The Protestant Union had [[link:allies-on-paper-1620]]just signed its treaty[[/link]]. It watched its own leader's lands fall piece by piece, and nobody moved.\n\nThe third was Saxony.\n\nIn September the Lutheran Elector of Saxony marched into Lusatia and laid siege to Bautzen. A month later, Bautzen opened its gates.\n\n[[b]]In little more than a month, fires had broken out on three sides at once: Upper Austria to the south, the Palatinate to the west, Lusatia to the north.[[/b]]\n\nOf the three, the Bavarian thrust was the deadliest.\n\nOnce Upper Austria was taken, Maximilian joined forces with the emperor's general, Bucquoy, and together they marched into South Bohemia. On 29 September they reached Písek, which refused to open its gates.\n\nThe town was held by a few hundred mercenaries and townsmen called up in a hurry. The guns pounded it for a day and a night until they opened a breach in the walls. When the town fell, almost all its men were killed. It is said that only about twenty survived, by hiding in the river under the weir.\n\nAs the news spread, the towns of South Bohemia opened their gates one after another.\n\nTwo hundred years earlier, Bohemia had also faced enemies on every side, and had beaten off [[link:the-last-man-on-sion-1437]]five crusades[[/link]]. Back then, its armies were led by Žižka and by Prokop.\n\nThis time, the army was led by Frederick's trusted adviser, Prince Christian of Anhalt. In numbers the two sides were not far apart, but his soldiers were owed their pay and their spirits were low. All he could do was fall back, circling round the enemy along the way. At the end of October the two armies faced each other for several days around Rakovník, and neither dared make the first move.\n\n[[b]]The two great armies circled each other through the countryside, drawing ever closer to Prague.[[/b]]\n\nAt the beginning of November the emperor's army suddenly broke off the standoff and made straight for Prague.\n\nAnhalt panicked. He marched his men back through the night and just managed to get there first, to the west of the city.\n\nOn the evening of 7 November the Bohemian army made camp on a small hill west of Prague. It was not high. Its top was a flat plateau, and at its foot ran the main road into Prague.\n\nThe hill had a very simple name. Yet for the next three hundred years, whenever Czechs spoke of it, it came with tears and sighs of helplessness.\n\nThe hill was called the White Mountain.",
+      cz: "Koncem léta 1620 se pomocníci z císařova [[link:help-at-a-price-1619]]ceníku[[/link]] rozdělili na tři proudy a udeřili ze tří stran najednou.\n\nPrvní bylo Bavorsko.\n\nKoncem července vedl Maxmilián osobně Tillyho vojsko do Horních Rakous. Hornorakouští protestantští stavové se teprve loni s Čechy spojili. Teď se podívali na vojáky za hradbami a vzdali se skoro bez boje.\n\nMaxmilián si vybral první splátku „mzdy“: Horní Rakousy, které teď držel v zástavě.\n\nDruhé bylo Španělsko.\n\nKoncem srpna táhl Spinola s více než dvaceti tisíci muži z Nizozemí na jih podél Rýna a vtrhl do Fridrichovy domoviny, do Falce. Protestantská unie [[link:allies-on-paper-1620]]právě podepsala smlouvu[[/link]]. Dívala se, jak země jejího vlastního vůdce padají kus po kuse, a nikdo se nehnul.\n\nTřetí bylo Sasko.\n\nV září vtrhl luterský saský kurfiřt do Lužice a oblehl Budyšín. O měsíc později Budyšín otevřel brány.\n\n[[b]]Za něco málo přes měsíc začalo hořet ze tří stran najednou: na jihu Horní Rakousy, na západě Falc, na severu Lužice.[[/b]]\n\nZe všech tří byl nejnebezpečnější bavorský útok.\n\nKdyž byly Horní Rakousy dobyty, spojil se Maxmilián s císařským generálem Buquoyem a společně vtrhli do jižních Čech. Dne 29. září stanuli před Pískem, který jim odmítl otevřít brány.\n\nMěsto bránilo jen pár set žoldnéřů a narychlo povolaní měšťané. Děla ho bombardovala den a noc, až prorazila v hradbách díru. Když město padlo, byli skoro všichni jeho muži pobiti. Traduje se, že přežilo jen asi dvacet, kteří se schovali v řece pod jezem.\n\nJak se zpráva šířila, jihočeská města otevírala brány jedno za druhým.\n\nPřed dvěma sty lety čelily Čechy nepřátelům ze všech stran také a odrazily [[link:the-last-man-on-sion-1437]]pět křížových výprav[[/link]]. Tehdy vedli vojsko Žižka a Prokop.\n\nTentokrát vojsku velel Fridrichův důvěrný rádce, kníže Kristián z Anhaltu. Počtem si obě strany příliš nezadaly, jenže jeho vojáci čekali na žold a neměli chuť do boje. Mohl jen ustupovat a cestou s nepřítelem kroužit. Koncem října stála obě vojska několik dní proti sobě u Rakovníka a ani jedno se neodvážilo udeřit první.\n\n[[b]]Dvě velká vojska kroužila krajinou kolem sebe a byla Praze čím dál blíž.[[/b]]\n\nPočátkem listopadu císařské vojsko náhle od Rakovníka odtáhlo a zamířilo rovnou na Prahu.\n\nAnhalt zpanikařil. Hnal své muže zpátky celou noc a jen tak tak dorazil první, na západní okraj města.\n\nVečer 7. listopadu se české vojsko utábořilo na malém návrší západně od Prahy. Nebylo vysoké. Nahoře byla rovná pláň a pod ní vedla hlavní silnice do Prahy.\n\nTo návrší mělo docela prosté jméno. Po celých dalších tři sta let se ale Čechům při každé zmínce o něm vybavovaly bezmocné slzy a povzdechy.\n\nTo návrší se jmenovalo Bílá hora.",
+      zh: "1620年夏末，皇帝[[link:help-at-a-price-1619]]价目单[[/link]]上的帮手们兵分三路，从三个方向一起动了手。\n\n第一路，是巴伐利亚。\n\n7月底，马克西米利安亲自带着蒂利的大军，开进了上奥地利。上奥地利的新教等级去年还跟波希米亚结了盟，这时看看城外的兵，没打几仗就投降了。\n\n马克西米利安也拿到了第一笔“工钱”：上奥地利，先押在他手里。\n\n第二路，是西班牙。\n\n8月底，斯皮诺拉带着两万多人，从尼德兰沿着莱茵河南下，开进了腓特烈的老家普法尔茨。新教联盟[[link:allies-on-paper-1620]]刚签完条约[[/link]]，眼睁睁看着首领的老家一块块丢掉，谁也没动。\n\n第三路，是萨克森。\n\n9月，信路德宗的萨克森选帝侯开进了卢萨蒂亚，围住了包岑。一个月后，包岑开了城门。\n\n[[b]]短短一个多月，南边的上奥地利、西边的普法尔茨、北边的卢萨蒂亚，三面一起起了火。[[/b]]\n\n三路里，最要命的还是巴伐利亚那一路。\n\n拿下上奥地利以后，马克西米利安跟皇帝的将军布夸伊会合，一起开进了南波希米亚。9月29日，他们兵临皮塞克城下，城里不肯开门。\n\n守城的只有几百名雇佣兵，加上临时拉来的市民。大炮轰了一天一夜，终于在城墙上轰开了一个口子。城破之后，城里的男人几乎被杀光。据说，最后只有二十来个人躲在河里的堰底下，活了下来。\n\n消息传开，南波希米亚的城市一座接一座地开了门。\n\n两百年前，波希米亚也曾四面受敌，挡住了[[link:the-last-man-on-sion-1437]]五次十字军[[/link]]。那时候，带兵的是杰式卡，是普罗科普。\n\n这一回，带兵的是腓特烈的心腹、安哈尔特亲王克里斯蒂安。两边人数相差不多，可士兵欠饷、士气低落，只能一边退，一边在路上跟敌人兜圈子。10月底，两军在拉科夫尼克一带对峙了好几天，谁也没敢先动手。\n\n[[b]]两支大军在乡间兜着圈子，离布拉格越来越近。[[/b]]\n\n11月初，皇帝的军队忽然撇下对峙，直扑布拉格。\n\n安哈尔特急了，带着兵连夜往回赶，总算抢在前面，回到了布拉格城西。\n\n11月7日晚上，波希米亚军队在城西的一座小山上扎了营。山不高，坡顶是一片平地，脚下是通往布拉格的大路。\n\n那座小山，有一个很简单的名字。可在接下来的三百年里，捷克人每一次提起它，都伴着无奈的泪水和叹息。\n\n那座小山，叫白山。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "pisek",
+        relation: {
+          en: "Stormed on 29–30 September 1620; its 13th-century stone bridge, the oldest surviving in the Czech lands, saw it all",
+          cz: "Dobyt 29.–30. září 1620; jeho kamenný most ze 13. století, nejstarší dochovaný v českých zemích, to všechno viděl",
+          zh: "1620年9月29日至30日被攻破；城里那座13世纪的石桥，捷克现存最古老的石桥，见证了这场浩劫",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Bohemian_Revolt",
+    images: ["/history/closing-in-from-three-sides-1620.webp"],
+    imageCaptions: [
+      {
+        en: "The night of 7 November 1620, on the White Mountain west of Prague: under the banners of Bohemia and the Palatinate, the Bohemian soldiers huddle round a few small fires on the hilltop, while the campfires of the emperor's and Bavaria's armies fill the plain below. Behind them, faint in the mist, lies Prague.",
+        cz: "Noc ze 7. na 8. listopadu 1620 na Bílé hoře západně od Prahy: pod korouhvemi Čech a Falce se čeští vojáci tisknou k několika malým ohňům na návrší a dole na pláni hoří nespočet ohňů císařského a bavorského vojska. Za nimi se v mlze rýsuje Praha.",
+        zh: "1620年11月7日夜，布拉格城西的白山：波希米亚和普法尔茨的旗帜下，波希米亚士兵围着山顶上的几堆小火取暖；山下的平原上，皇帝和巴伐利亚大军的营火连成一片。在他们身后，布拉格隐没在雾里。",
+      },
+    ],
+  },
+  // The Battle of White Mountain, the user's draft (2026-10-20), lightly
+  // corrected:
+  // - All four quotes checked against the MPESE transcript of "A Relation of
+  //   the manner of the loss of Prague by an English Gentleman there & then
+  //   present", 21 Nov 1620 Old Style, British Library Harley MS 389
+  //   (mpese.ac.uk/t/RelationPrague1621). Spelling modernised in EN. The
+  //   account calls the friar "a Dominican"; he was the Discalced Carmelite
+  //   Dominic of Jesus and Mary. The half-hour line refers to the Hungarian
+  //   rout. The same account says Anhalt and Hohenlohe fled into the city
+  //   early while old Thurn stayed till nightfall (not used here).
+  // - "Frederick's guard inside the park wall" dropped (unverified).
+  // - "Almost no one survived" softened to "most fell": Šlik's Moravian
+  //   banner did not die to the last man. "Bodies as high as the wall" is
+  //   framed as "it is said".
+  // - Hungarians "shooting arrows" dropped; the account has them throwing
+  //   away pistols and swords.
+  // - The Bethlen thread pays off here: his Hungarians are the first to run.
+  {
+    slug: "two-hours-1620",
+    era: "fire-and-ashes",
+    startYear: 1620.85,
+    year: {
+      en: "8 November 1620",
+      cz: "8. listopadu 1620",
+      zh: "1620年11月8日",
+    },
+    tone: "serious",
+    title: {
+      en: "Two Hours",
+      cz: "Dvě hodiny",
+      zh: "两个钟头",
+    },
+    hookLine: {
+      en: "On 8 November 1620, two great armies fought on a small hill west of Prague. From the first cannon shot to the last man falling, it took less than two hours.",
+      cz: "Osmého listopadu 1620 se na malém návrší západně od Prahy utkala dvě velká vojska. Od prvního výstřelu z děla po posledního padlého to netrvalo ani dvě hodiny.",
+      zh: "1620年11月8日，布拉格城西的一座小山上，两支大军打了一仗。从第一声炮响到最后一个人倒下，前后不到两个钟头。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "But while we were at our cups, the enemy was upon a march towards us.",
+          cz: "Ale zatímco jsme seděli u pohárů, nepřítel už byl na pochodu proti nám.",
+          zh: "可就在我们推杯换盏的时候，敌人已经朝我们开过来了。",
+        },
+        attribution: {
+          en: "An English gentleman then in Prague, A Relation of the manner of the loss of Prague, November 1620 (British Library, Harley MS 389)",
+          cz: "Anglický šlechtic, který byl tehdy v Praze, Zpráva o tom, jak byla ztracena Praha, listopad 1620 (Britská knihovna, rukopis Harley 389)",
+          zh: "一位当时在布拉格的英国绅士，《布拉格失陷记》，1620年11月（大英图书馆，哈利手稿389号）",
+        },
+      },
+      {
+        text: {
+          en: "…forsook their horses, their pistols, their swords, leapt down headlong to their own ruin, took rivers that served to choke them…",
+          cz: "…opouštěli koně, pistole i meče, vrhali se střemhlav do vlastní záhuby, vbíhali do řek, v nichž se dusili…",
+          zh: "……扔下了马，扔下了手枪和刀剑，一头栽下去，自取灭亡；有的冲进河里，被河水呛死……",
+        },
+        attribution: {
+          en: "The same account",
+          cz: "Tentýž záznam",
+          zh: "同一份记述",
+        },
+      },
+      {
+        text: {
+          en: "…they have the honour of their deaths carved upon their bodies in great characters.",
+          cz: "…čest své smrti mají velkými písmeny vepsánu do vlastních těl.",
+          zh: "……他们战死的荣耀，用大大的字，刻在了自己的身上。",
+        },
+        attribution: {
+          en: "The same account, on the Moravians",
+          cz: "Tentýž záznam o Moravanech",
+          zh: "同一份记述，写摩拉维亚人",
+        },
+      },
+      {
+        text: {
+          en: "…in less than half an hour all the Kingdom of Bohemia was lost.",
+          cz: "…za necelou půlhodinu bylo ztraceno celé Království české.",
+          zh: "……不到半个钟头，整个波希米亚王国就丢了。",
+        },
+        attribution: {
+          en: "The same account",
+          cz: "Tentýž záznam",
+          zh: "同一份记述",
+        },
+      },
+    ],
+    summary: {
+      en: "Sunday, 8 November. At first light, fog settled over the White Mountain.\n\nOn the hilltop stood the army of the Bohemian estates, about twenty-one thousand men. In overall command was Frederick's trusted adviser, Prince Christian of Anhalt.\n\nThey had only arrived the night before, cold and worn out. The soldiers dug trenches through the night, but the ground was frozen hard, and after a whole night's work all they had was a shallow bank of earth.\n\nThe line ran north from the hilltop as far as the wall of a game park. This was the Star Park: some sixty-five years earlier, [[link:a-star-1555]]Archduke Ferdinand of Tyrol[[/link]] had built his little six-pointed star of a summer palace here, for hunting and banquets.\n\nInside the wall stood the Moravian infantry regiment.\n\n[[b]]Sixty-odd years earlier this had been a Habsburg archduke's hunting ground. That day it was the right wing of the Bohemian army.[[/b]]\n\nBelow the hill stood the armies of the emperor and the Catholic League, about twenty-six thousand men. On the left was Bucquoy with the imperial army; on the right, Tilly and Duke Maximilian of Bavaria with the League.\n\nThe fog slowly lifted. The generals below looked up the slope with some unease: the enemy held the high ground, and charging uphill was no joke.\n\nThey argued for a long time. Bucquoy, wounded a few days earlier, wanted to wait. Tilly and Maximilian wanted to attack at once, before the other side could settle in.\n\nAt that point, so the story goes, a Spanish Carmelite friar in the camp, called Dominic, held up a painting for the generals to see. It had been found in the castle of Strakonice in South Bohemia, and someone had gouged out the eyes of the Virgin and St Joseph with a knife.\n\nGod is on our side, he told them. Fight.\n\n[[b]]Below the hill, they had made up their minds. On top of it, they were still waiting for the enemy to move first.[[/b]]\n\nMeanwhile, at Prague Castle, Frederick was having lunch.\n\nHe had ridden out to the camp the day before and decided the enemy would not dare attack any time soon. That noon he kept the English envoys to dine with him. An English gentleman at the castle later wrote:\n\n[[quote:0]]\n\nJust after twelve, the army below began to push up the slope.\n\nFirst the guns on both sides opened fire. Then the imperial and League troops climbed the hillside step by step in their great squares.\n\nFrom the hilltop, Anhalt's son, the young Prince of Anhalt, led his cavalry down in a charge.\n\nIt was a fierce charge. The leading imperial regiments were thrown into disorder, and some turned and ran. Only one regiment of Walloon infantry held its ground.\n\nFor a moment, it looked as if the Bohemians might win.\n\n[[b]]It was the only success the Bohemians had all day, and it lasted a few minutes.[[/b]]\n\nTilly at once sent his own cavalry round the flank. Outnumbered, young Anhalt's horsemen were scattered; he himself was wounded and taken prisoner.\n\nWhat followed was one collapse after another.\n\nThe first to break were the Hungarian horsemen whom [[link:vienna-besieged-again-1619]]Bethlen[[/link]] had sent to help. They were good at riding in, harrying the enemy and riding off again, but not at this kind of head-on fight. As soon as the enemy pressed forward, they wheeled round and fled, crashing through their own infantry behind them.\n\nThe English gentleman saw what became of them:\n\n[[quote:1]]\n\nNext to break was Thurn's infantry regiment. Then one regiment after another.\n\nThe soldiers had not been paid for months, and many had no wish to die for these lords. When the men in front ran, the men behind ran too, throwing away muskets and flags as they fled towards the city.\n\n[[b]]An army of over twenty thousand was not beaten to pieces. It simply fell apart.[[/b]]\n\nOnly one place was still fighting: the wall of the Star Park.\n\nThe Moravian regiment there was made up mostly of German mercenaries hired by the Moravian estates. Everyone else had run; they did not. Perhaps they refused to. Perhaps, with the wall at their backs, there was nowhere to run.\n\nThey held the wall and fought it out against the imperial and League troops coming at them.\n\nThe enemy closed in from three sides. Along the wall and inside the park, most of them fell where they stood. It is said that by the stream beside the park the dead lay piled as high as the wall.\n\nThe English gentleman gave them a single line:\n\n[[quote:2]]\n\n[[b]]In the whole army, the men who fought to the last were outsiders fighting for pay.[[/b]]\n\nBy about half past one, not a single Bohemian unit was left in order on the White Mountain.\n\nOnly then did Frederick, up at the castle, hear the news. He rode to the western gate of the city and ran straight into wave after wave of soldiers fleeing in.\n\nHis English guest later summed up the battle in a single line:\n\n[[quote:3]]\n\nHalf an hour was an exaggeration. But from the first cannon shot to the last musket shot, it took no more than two hours.\n\nThat evening, up at the castle, Frederick and Elizabeth began to pack.",
+      cz: "Neděle 8. listopadu. Za úsvitu padla na Bílou horu mlha.\n\nNahoře na návrší stálo vojsko českých stavů, asi jednadvacet tisíc mužů. Vrchním velitelem byl Fridrichův důvěrný rádce, kníže Kristián z Anhaltu.\n\nDorazili teprve předchozí noci, prokřehlí a vyčerpaní. Vojáci celou noc kopali zákopy, jenže zem byla zmrzlá na kost, a po celonoční práci z toho byl jen mělký val hlíny.\n\nŠik se táhl z návrší na sever až ke zdi obory. Byla to obora Hvězda: asi před pětašedesáti lety tu [[link:a-star-1555]]arcivévoda Ferdinand Tyrolský[[/link]] postavil svůj malý letohrádek ve tvaru šesticípé hvězdy, na hony a hostiny.\n\nZa zdí stál moravský pěší pluk.\n\n[[b]]Před šedesáti lety tu měl habsburský arcivévoda lovecký revír. Toho dne to bylo pravé křídlo českého vojska.[[/b]]\n\nPod návrším stálo vojsko císaře a Katolické ligy, asi šestadvacet tisíc mužů. Vlevo Buquoy s císařskými, vpravo Tilly a vévoda Maxmilián Bavorský s ligou.\n\nMlha se pomalu zvedala. Generálové dole hleděli do svahu a nebylo jim do smíchu: nepřítel držel výšinu a útočit do kopce nebyla žádná legrace.\n\nDlouho se přeli. Buquoy, před pár dny raněný, chtěl vyčkat. Tilly a Maxmilián chtěli zaútočit hned, dokud se protivník neusadil.\n\nTehdy prý jeden španělský karmelitán z tábora, jménem Dominik, ukázal generálům obraz. Našli ho na hradě ve Strakonicích v jižních Čechách a někdo Panně Marii a svatému Josefovi vypíchal nožem oči.\n\nBůh je na naší straně, řekl jim. Bojujte.\n\n[[b]]Pod návrším se rozhodli. Nahoře pořád čekali, až se nepřítel pohne první.[[/b]]\n\nA na Pražském hradě zatím Fridrich obědval.\n\nDen předtím se zajel do tábora podívat a usoudil, že se nepřítel tak brzy zaútočit neodváží. Toho poledne si ke stolu nechal anglické vyslance. Jeden anglický šlechtic, který byl tehdy na hradě, později napsal:\n\n[[quote:0]]\n\nKrátce po poledni se vojsko zdola dalo do pohybu vzhůru.\n\nNejdřív zahřměla děla na obou stranách. Pak stoupaly císařské a ligistické šiky krok za krokem do svahu.\n\nZ návrší vyrazil se svou jízdou dolů Anhaltův syn, mladý kníže z Anhaltu.\n\nByl to prudký útok. Přední císařské pluky se rozvrátily a některé se daly na útěk. Jen jeden valonský pěší pluk vydržel.\n\nNa okamžik to vypadalo, že by Češi mohli vyhrát.\n\n[[b]]Byl to jediný úspěch, kterého Češi za celý den dosáhli, a trval pár minut.[[/b]]\n\nTilly okamžitě poslal vlastní jízdu do boku. Přečíslení jezdci mladého Anhalta byli rozprášeni a on sám padl raněný do zajetí.\n\nPak přišel jeden kolaps za druhým.\n\nPrvní se zlomila uherská jízda, kterou na pomoc poslal [[link:vienna-besieged-again-1619]]Betlen[[/link]]. Uměla přijet, nepřítele dráždit a zase odjet, ale na takový boj tváří v tvář zvyklá nebyla. Jakmile se nepřítel pohnul vpřed, otočila koně a dala se na útěk, rovnou přes vlastní pěchotu za sebou.\n\nAnglický šlechtic viděl, jak skončila:\n\n[[quote:1]]\n\nPak se zlomil Thurnův pěší pluk. A potom jeden pluk za druhým.\n\nVojáci neviděli žold celé měsíce a mnozí neměli chuť umírat za tyhle pány. Když utíkali ti vpředu, utíkali i ti vzadu, odhazovali muškety i prapory a prchali k městu.\n\n[[b]]Vojsko o více než dvaceti tisících mužích nebylo rozbito. Prostě se rozpadlo.[[/b]]\n\nBojovalo se už jen na jediném místě: u zdi obory Hvězda.\n\nMoravský pluk, který tu stál, tvořili většinou němečtí žoldnéři najatí moravskými stavy. Všichni ostatní utekli; oni ne. Možná nechtěli. Možná se zdí v zádech neměli kam.\n\nDrželi zeď a bili se s císařskými a ligisty, kteří na ně útočili.\n\nNepřítel je sevřel ze tří stran. U zdi a uvnitř obory jich většina padla tam, kde stáli. Traduje se, že u potoka vedle obory ležela těla nakupená až do výše zdi.\n\nAnglický šlechtic jim věnoval jedinou větu:\n\n[[quote:2]]\n\n[[b]]Z celého vojska bojovali do posledního cizinci, kteří bojovali za peníze.[[/b]]\n\nKolem půl druhé už na Bílé hoře nezůstal jediný český oddíl v pořádku.\n\nTeprve tehdy se Fridrich na hradě dozvěděl, co se stalo. Vyjel k západní bráně města a narazil na jednu vlnu prchajících vojáků za druhou.\n\nJeho anglický host později shrnul bitvu jedinou větou:\n\n[[quote:3]]\n\nPůlhodina byla nadsázka. Ale od prvního výstřelu z děla po poslední výstřel z mušket to netrvalo víc než dvě hodiny.\n\nToho večera začali Fridrich a Alžběta na hradě balit.",
+      zh: "11月8日，星期天。天刚亮，白山上起了雾。\n\n山顶上，是波希米亚等级的军队，大约两万一千人。总指挥是腓特烈的心腹，安哈尔特亲王克里斯蒂安。\n\n他们是前一天夜里才赶到的，又冷又累。士兵们连夜挖壕沟，可土冻得硬邦邦的，挖了一夜，也只挖出一道浅浅的土坎。\n\n阵地从山顶往北，一直拉到一座猎苑的围墙边上。那就是星形猎苑：六十多年前，[[link:a-star-1555]]蒂罗尔的斐迪南大公[[/link]]在这里盖起了那座六角星形的小宫殿，在这里打猎、办宴会。\n\n围墙里面，驻着摩拉维亚的步兵团。\n\n[[b]]六十多年前，这里是哈布斯堡大公的猎场；这一天，它成了波希米亚军队的右翼。[[/b]]\n\n山下，是皇帝和天主教联盟的军队，大约两万六千人。左边是布夸伊的皇帝军，右边是蒂利和巴伐利亚公爵马克西米利安的联盟军。\n\n雾一点点散开。山下的将军们抬头往上看，心里也在打鼓：对方占着高地，从下往上冲，可不是闹着玩的。\n\n将军们争了很久。布夸伊前些天刚受了伤，主张稳一稳；蒂利和马克西米利安主张，趁对方还没站稳，马上打。\n\n据说，这时候营里有一位从西班牙来的加尔默罗会修士，叫多明我。他举起一幅画给将军们看：这幅画是在南波希米亚的斯特拉科尼采城堡里找到的，画上圣母和圣约瑟的眼睛，被人用刀戳瞎了。\n\n他说，天主站在我们这一边，打吧。\n\n[[b]]山下的人拿定了主意；山上的人，还在等着对方先动手。[[/b]]\n\n而布拉格城堡里，腓特烈正在吃午饭。\n\n他前一天还骑马去营里看过，觉得对方一时半会儿不敢进攻。这天中午，他留下英国来的使节，一起用餐。当时在城堡里的一位英国绅士，后来写道：\n\n[[quote:0]]\n\n中午十二点刚过，山下的军队开始往上压。\n\n两边的炮先响了。接着，皇帝军和联盟军排着方阵，一步一步往山坡上走。\n\n山顶上，安哈尔特的儿子、年轻的小安哈尔特，带着骑兵冲了下去。\n\n这一冲很猛。皇帝军最前面的几个团被冲乱了，有的扭头就跑。只有一个瓦隆人的步兵团，硬是顶住没退。\n\n那一刻，波希米亚人好像要赢了。\n\n[[b]]整场战斗里，波希米亚人只赢过这一回，前后不过几分钟。[[/b]]\n\n蒂利马上派出了自己的骑兵，从侧面包了过去。小安哈尔特的骑兵寡不敌众，被打散了，他本人受了伤，被人俘虏。\n\n接下来，是一连串的崩溃。\n\n先垮的，是匈牙利骑兵。他们是[[link:vienna-besieged-again-1619]]拜特伦[[/link]]派来帮忙的，擅长骑着马来回奔袭、骚扰，却不惯这种面对面的硬仗。对方一压上来，他们拨转马头就跑，一路冲乱了自家后面的步兵。\n\n那位英国绅士亲眼看见了他们的下场：\n\n[[quote:1]]\n\n接着垮的，是图尔恩的步兵团。再接着，是一个团跟着一个团。\n\n士兵们本来就几个月没拿到军饷，许多人根本不想为这些贵族老爷们拼命。一看前面的人跑了，后面的人也跟着跑，扔下枪，扔下旗，一路往布拉格城里逃。\n\n[[b]]两万多人的军队，不是被打垮的，是自己散的。[[/b]]\n\n只有一个地方还在打：星形猎苑的围墙边上。\n\n驻在那里的摩拉维亚步兵团，大多是摩拉维亚等级花钱雇来的德意志雇佣兵。别人都跑了，他们没跑。也许是不肯跑，也许是背靠着围墙，根本没地方跑。\n\n他们守着围墙，跟冲上来的皇帝军和联盟军死战。\n\n敌人从三面围了上来。围墙边上，猎苑里面，他们大多倒在了原地。据说，猎苑旁边小溪边的尸体，堆得跟围墙一样高。\n\n那位英国绅士对他们的评价只有一句：\n\n[[quote:2]]\n\n[[b]]整支军队里，死战到底的，是一群拿钱打仗的外乡人。[[/b]]\n\n下午一点半前后，白山上已经没有成建制的波希米亚军队了。\n\n城堡里的腓特烈，这才听到消息。他骑马赶到城西的城门边，迎面看见的，是一群又一群往城里逃的溃兵。\n\n他的那位英国客人，后来把这一仗写成了一句话：\n\n[[quote:3]]\n\n半个钟头是夸张了。可从第一声炮响，到最后一声枪响，前后也不过两个钟头。\n\n那天傍晚，城堡里的腓特烈和伊丽莎白，开始收拾行李。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "hvezda-game-reserve",
+        relation: {
+          en: "The Moravian regiment's last stand along the park wall, 8 November 1620; information boards on the trail through the park tell the story",
+          cz: "Poslední boj moravského pluku u zdi obory, 8. listopadu 1620; naučná stezka oborou o něm vypráví na informačních tabulích",
+          zh: "1620年11月8日，摩拉维亚步兵团在猎苑的围墙边死战到底；猎苑步道上的说明牌，至今还讲着这场战斗",
+        },
+      },
+      {
+        slug: "mohyla-bile-hory",
+        relation: {
+          en: "The memorial mound and stone on the battlefield's high ground; to the east lies the city the army was meant to defend",
+          cz: "Pamětní mohyla a kámen na výšině bojiště; na východě leží město, které mělo vojsko bránit",
+          zh: "白山战场高处的纪念土丘和纪念石；往东，就是这支军队本该守住的那座城",
+        },
+      },
+      {
+        slug: "the-pilgrimage-site-of-our-lady-of-victory-on-white-mountain-1783352113593",
+        relation: {
+          en: "Built by the winning side on the battlefield and dedicated to Our Lady of Victory",
+          cz: "Postaveno vítěznou stranou na bojišti a zasvěceno Panně Marii Vítězné",
+          zh: "得胜的一方在战场上修建，献给“得胜之母”圣母",
+        },
+      },
+    ],
+    referenceMaps: {
+      links: [
+        {
+          label: "1620",
+          description: {
+            en: "The English gentleman's eyewitness account, full transcript (Manuscript Pamphleteering in Early Stuart England)",
+            cz: "Svědectví anglického šlechtice, úplný přepis (projekt Manuscript Pamphleteering in Early Stuart England)",
+            zh: "那位英国绅士的亲历记述，全文抄本（“斯图亚特早期英格兰手抄小册子”项目）",
+          },
+          url: "https://mpese.ac.uk/t/RelationPrague1621.html",
+        },
+      ],
+    },
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Battle_of_White_Mountain",
+    images: ["/history/two-hours-1620.webp"],
+    imageCaptions: [
+      {
+        en: "The White Mountain, early afternoon on 8 November 1620: under their blue banner with the chequered eagle, the Moravian regiment stands with its back to the wall of the Star Park while imperial, Bavarian and Spanish-flagged troops close in from three sides. A Bohemian lion banner lies trampled in their path. Beyond, the rest of the army streams away towards Prague.",
+        cz: "Bílá hora, časné odpoledne 8. listopadu 1620: pod modrou korouhví s šachovanou orlicí stojí moravský pluk zády ke zdi obory Hvězda a ze tří stran ho svírají císařští, Bavoři a oddíly pod španělskou vlajkou. V jejich cestě leží pošlapaná korouhev s českým lvem. Dál za nimi prchá zbytek vojska k Praze.",
+        zh: "1620年11月8日午后，白山：摩拉维亚步兵团举着蓝底红白格鹰旗，背靠星形猎苑的围墙；皇帝军、巴伐利亚军和打着西班牙旗的部队，正从三面围上来。他们的进军路上，一面波希米亚狮子旗被扔在泥里。更远处，其余的部队正一路往布拉格逃去。",
+      },
+    ],
+  },
+  // Frederick's flight, the user's draft (2026-10-20), corrected:
+  // - The house in the Old Town: "U Tří konví", today No. 476/I in
+  //   Melantrichova street (Prague City Museum, Staroměstská exekuce site).
+  //   He left on 9 Nov by the Horská brána; the crown jewels and part of the
+  //   state archive stayed at the Old Town Hall (same source), added here.
+  // - Route: via Hradec Králové and Kladsko into Silesia (Breslau). The
+  //   draft's rest at Nymburk could not be confirmed, so it was dropped.
+  // - "The queen's carriages were plundered by their own soldiers" could not
+  //   be confirmed; replaced by the Ralph Hopton story (she rode on his
+  //   horse), framed as "it is said". Rupert nearly left behind: "it is said".
+  // - "Still no reply at nine" dropped (no source for the hour).
+  // - Weston quote: as quoted from Akkerman in Marzek, "The Letters of
+  //   Elizabeth of Bohemia" (UF thesis). Elizabeth's letter: written in
+  //   French from Breslau, Ellis, Original Letters, 1st ser., iii, 112–14
+  //   (Lansdowne MS 1237, f. 50), checked against the archive.org scan.
+  // - The Garter was found among the baggage taken on the battlefield, not
+  //   on the escape road (the MPESE text: "taken all the Kings carriadges").
+  // - Ending: the nickname card said he would go once the snow melted. He
+  //   outlasted the melt and fell before the second winter's snow.
+  {
+    slug: "a-king-for-one-winter-1620",
+    era: "fire-and-ashes",
+    startYear: 1620.9,
+    year: {
+      en: "8–9 November 1620",
+      cz: "8.–9. listopadu 1620",
+      zh: "1620年11月8日至9日",
+    },
+    tone: "serious",
+    title: {
+      en: "A King for One Winter",
+      cz: "Král na jednu zimu",
+      zh: "一个冬天的国王",
+    },
+    hookLine: {
+      en: "A year earlier he had entered Prague in splendour. A year later, early one morning, he hurried out of the city with his pregnant wife and his small children.",
+      cz: "Před rokem vjížděl do Prahy v plné slávě. O rok později jednoho časného rána z města spěšně prchal s těhotnou ženou a malými dětmi.",
+      zh: "一年前，他风风光光地进了布拉格。一年后的一个清晨，他带着怀孕的妻子和年幼的孩子，匆匆出了城。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "…did not let fall herself below the dignity of a queen, and kept the freedom of her countenance and discourse, with such an unchangeable temper…",
+          cz: "…nedopustila, aby klesla pod důstojnost královny, a uchovala si volnost tváře i řeči s tak neochvějnou myslí…",
+          zh: "……她始终没有让自己失掉一位王后的体面，神色和言谈一如往常，心绪丝毫不乱……",
+        },
+        attribution: {
+          en: "Weston, one of the English envoys, on the queen during the flight from Prague, 1620 (as quoted by Nadine Akkerman)",
+          cz: "Weston, jeden z anglických vyslanců, o královně na útěku z Prahy, 1620 (podle Nadine Akkerman)",
+          zh: "英国使节韦斯顿，写出逃路上的王后，1620年（据纳迪娜·阿克尔曼转引）",
+        },
+      },
+      {
+        text: {
+          en: "As to myself, I am resolved not to leave him: for if he should perish, I will perish also, with him.",
+          cz: "Pokud jde o mne, jsem rozhodnuta ho neopustit: neboť zahyne-li on, zahynu i já s ním.",
+          zh: "至于我自己，我已经下定决心，绝不离开他；他要是死了，我也跟他一起死。",
+        },
+        attribution: {
+          en: "Elizabeth to her father, James I, Breslau, November 1620 (written in French; Ellis, Original Letters, 1st series, vol. III)",
+          cz: "Alžběta otci Jakubovi I., Vratislav, listopad 1620 (psáno francouzsky; Ellis, Original Letters, 1. řada, sv. III)",
+          zh: "伊丽莎白致父亲詹姆斯一世的信，布雷斯劳，1620年11月（原信为法文，收于埃利斯编《英国史原始信件集》第一辑第三卷）",
+        },
+      },
+      {
+        text: {
+          en: "…amongst which they found a garter of his Order of St George.",
+          cz: "…a mezi nimi našli podvazek jeho Řádu svatého Jiří.",
+          zh: "……他们在车里找到了一条他的圣乔治嘉德勋带。",
+        },
+        attribution: {
+          en: "A Relation of the manner of the loss of Prague, by an English gentleman then present, November 1620",
+          cz: "Zpráva o tom, jak byla ztracena Praha, od anglického šlechtice, který byl při tom, listopad 1620",
+          zh: "《布拉格失陷记》，一位当时在场的英国绅士所写，1620年11月",
+        },
+      },
+    ],
+    summary: {
+      en: "On the evening of 8 November, the firing on the White Mountain stopped.\n\nBand after band of beaten soldiers poured in through the western gate of Prague. They were covered in mud; some had lost their muskets, some their boots, and all they could say was: it's over, it's all over.\n\nThe castle stood on the hill above the Lesser Town, too close to the western side of the city to be safe any more. Before dark, Frederick took Elizabeth, the children and his ministers down the hill, across the Charles Bridge, and into hiding in a burgher's house in the Old Town on the far bank: the house At the Three Jugs, in today's Melantrichova street.\n\nThat night the English envoys, Conway and Weston, found them there. The room was packed: the king, the queen, the army's commanders and the ministers of the estates, every face grey.\n\n[[b]]A year earlier the castle had been his palace. That night he could not even go back to it.[[/b]]\n\nWhat now?\n\nAt first Frederick wanted to hold the city. Prague's walls still stood, the Old and New Towns together held plenty of people, and if they could hold out for a few days, something might yet turn up.\n\nBut the city had lost its nerve. The soldiers were owed their pay, the townspeople were afraid of being plundered, and the lords of the estates sat with their heads down. Nobody wanted to be the first to say \"fight\".\n\nThat night they sent letters to Maximilian and Bucquoy on the other side, hoping to talk and to gain a few days.\n\nThe night passed without the answer they hoped for.\n\nOn the morning of 9 November, the final decision took no longer than a single breath: go.\n\n[[b]]The plan to hold the city lasted about as long as one breath.[[/b]]\n\nElizabeth went first. She was more than seven months pregnant, and the ministers gave her a troop of cavalry as an escort.\n\nIt is said that in the panic someone was nearly left behind: little Rupert, not yet a year old. The coaches were already moving off when a courtier ran back into the house, scooped up the child and threw him into the last coach.\n\nThen Frederick and the remaining commanders and ministers rode out through the city gate too, heading east, by way of Hradec Králové and over the mountains into Silesia.\n\nThe roads were deep in mud. It is said that at one point the queen simply climbed onto the horse of a young English officer, Ralph Hopton, and rode behind him for a long stretch of the way.\n\nThe English princess neither wept nor panicked. One of the English envoys wrote:\n\n[[quote:0]]\n\nIn Breslau, the capital of Silesia, she wrote to her father in London. Again and again the letter begged him to send help. Then she wrote:\n\n[[quote:1]]\n\n[[b]]The line about eating sauerkraut with a king was most likely made up by others. This one she wrote herself.[[/b]]\n\nThey had left in such a hurry that a great deal was left behind.\n\nOn the White Mountain the enemy had taken the guns and the king's baggage carts. The English gentleman who wrote the [[link:two-hours-1620]]account of the loss of Prague[[/link]] noted what they found inside:\n\n[[quote:2]]\n\nThe Garter is England's highest order of knighthood, and it was his father-in-law, James, who had given it to him.\n\n[[b]]His father-in-law's soldiers never came. His father-in-law's order, he left behind on the battlefield.[[/b]]\n\nSomething far bigger was left in the Old Town Hall: the crown of Bohemia.\n\nFrom his coronation in November 1619 to his flight in November 1620, Frederick had been King of Bohemia in Prague for exactly one year.\n\nA year earlier, the Jesuits outside the city had given him a nickname: he would last one winter, and once the snow melted, he would be gone.\n\nThey got only one thing wrong. When the snow melted he was still there, and he held on for most of another year. But before the second winter's snow had fallen, he was gone.\n\nFrom then on, all of Europe called him the Winter King.",
+      cz: "Večer 8. listopadu na Bílé hoře utichla střelba.\n\nZápadní branou se do Prahy valil jeden houf poražených vojáků za druhým. Byli od bláta, někteří bez mušket, někteří bez bot, a dokázali říct jen jedno: je konec, všechno je ztraceno.\n\nHrad stál na kopci nad Malou Stranou, příliš blízko západního okraje města, než aby byl ještě bezpečný. Ještě před setměním sešel Fridrich s Alžbětou, dětmi a rádci z kopce, přešel Karlův most a ukryl se v měšťanském domě na Starém Městě na druhém břehu: v domě U Tří konví, v dnešní Melantrichově ulici.\n\nTé noci je tam našli angličtí vyslanci Conway a Weston. Místnost byla plná: král, královna, velitelé vojska a stavovští direktoři, všichni bledí jako stěna.\n\n[[b]]Před rokem byl hrad jeho palácem. Té noci se do něj nemohl ani vrátit.[[/b]]\n\nCo teď?\n\nFridrich chtěl nejdřív město bránit. Pražské hradby stály, Staré a Nové Město dohromady měly dost lidí, a kdyby vydrželi pár dní, mohl se ještě najít nějaký obrat.\n\nJenže město ztratilo odvahu. Vojáci čekali na žold, měšťané se báli drancování a stavovští páni seděli se sklopenými hlavami. Nikdo nechtěl jako první říct „bojovat“.\n\nTé noci poslali dopisy Maxmiliánovi a Buquoyovi na druhé straně v naději, že se dá jednat a získat pár dní.\n\nNoc uplynula a odpověď, v jakou doufali, nepřišla.\n\nRáno 9. listopadu trvalo konečné rozhodnutí jen jeden nádech: pryč.\n\n[[b]]Plán bránit město vydržel zhruba na jeden nádech.[[/b]]\n\nJako první odjela Alžběta. Byla ve více než sedmém měsíci a rádci jí přidělili oddíl jízdy jako doprovod.\n\nTraduje se, že ve zmatku málem někoho zapomněli: malého Ruprechta, kterému ještě nebyl ani rok. Kočáry se už rozjížděly, když se jeden dvořan vrátil do domu, popadl dítě a hodil ho do posledního kočáru.\n\nPak vyjel městskou branou i Fridrich se zbylými veliteli a rádci, na východ, přes Hradec Králové a přes hory do Slezska.\n\nCesty byly rozbahněné. Traduje se, že královna si nakonec prostě sedla na koně mladého anglického důstojníka Ralpha Hoptona a kus cesty jela za ním.\n\nAnglická princezna neplakala ani nepanikařila. Jeden z anglických vyslanců napsal:\n\n[[quote:0]]\n\nVe Vratislavi, hlavním městě Slezska, napsala otci do Londýna. Dopis ho znovu a znovu prosil, aby poslal pomoc. A pak napsala:\n\n[[quote:1]]\n\n[[b]]Větu o tom, že raději bude jíst se svým králem kyselé zelí, si nejspíš vymysleli jiní. Tuhle napsala sama.[[/b]]\n\nOdjížděli tak narychlo, že spoustu věcí nechali za sebou.\n\nNa Bílé hoře nepřítel ukořistil děla i královy vozy se zavazadly. Anglický šlechtic, který sepsal [[link:two-hours-1620]]zprávu o ztrátě Prahy[[/link]], zaznamenal, co v nich našli:\n\n[[quote:2]]\n\nPodvazkový řád je nejvyšší anglický rytířský řád a udělil mu ho tchán Jakub.\n\n[[b]]Tchánovi vojáci nikdy nepřišli. Tchánův řád nechal ležet na bojišti.[[/b]]\n\nNěco mnohem většího zůstalo na Staroměstské radnici: česká koruna.\n\nOd korunovace v listopadu 1619 po útěk v listopadu 1620 byl Fridrich českým králem v Praze přesně jeden rok.\n\nPřed rokem mu jezuité za městem dali přezdívku: vydrží jednu zimu, a až roztaje sníh, bude pryč.\n\nSpletli se jen v jednom. Když sníh roztál, byl tu pořád a vydržel skoro další rok. Ale než napadl sníh druhé zimy, byl pryč.\n\nOd té doby mu celá Evropa říkala Zimní král.",
+      zh: "11月8日傍晚，白山上的枪声停了。\n\n溃兵一群接一群地涌进布拉格城西的城门。他们浑身是泥，有的没了枪，有的没了鞋，嘴里只喊着一句话：完了，全完了。\n\n城堡在小城的山上，离城西太近，已经不安全了。天黑之前，腓特烈带着伊丽莎白、孩子和大臣们下了山，过了查理大桥，躲进了河对岸老城的一户市民家里：那座房子叫“三只壶之家”，就在今天的梅兰特里霍娃街上。\n\n那天晚上，英国使节康韦和韦斯顿找到了他们。屋子里挤满了人：国王，王后，还有军队的将领和议会的大臣们，一个个脸色铁青。\n\n[[b]]一年前，城堡是他的宫殿；这一夜，他连城堡都回不去了。[[/b]]\n\n接下来该怎么办？\n\n腓特烈起初想守城。布拉格城墙还在，老城和新城加起来人也不少，只要撑上几天，说不定还能等来转机。\n\n可城里的人已经没了斗志。士兵欠着饷，市民怕被抢，议会里的老爷们一个个低着头，谁也不肯先开口说“打”。\n\n当晚，他们给对面的马克西米利安和布夸伊送去了信，想先谈一谈，拖几天。\n\n一夜过去，没有等来想要的回音。\n\n11月9日早上，最后的决定只用了一口气的工夫：走。\n\n[[b]]守城的打算，只撑了一口气。[[/b]]\n\n先走的是伊丽莎白。她已经有了七个多月的身孕，大臣们给她安排了一队骑兵护送。\n\n据说，慌乱之中，差点有人被落下：不满一岁的小鲁珀特。马车都已经要动了，一位侍从冲回屋里，一把抱起孩子，扔进了最后一辆马车。\n\n接着，腓特烈和剩下的将领、大臣们，也出了城门，一路往东，经过赫拉德茨-克拉洛韦，翻过大山，进了西里西亚。\n\n路上满是泥泞。据说，王后后来干脆坐上了一位年轻英国军官拉尔夫·霍普顿的马，跟在他身后，骑了好长一段路。\n\n这位英国公主没有哭，也没有慌。一位英国使节写道：\n\n[[quote:0]]\n\n到了西里西亚的首府布雷斯劳，她给远在伦敦的父亲写了一封信。信里一遍又一遍地求父亲派兵来救，然后写道：\n\n[[quote:1]]\n\n[[b]]那句“宁可跟国王吃酸菜”多半是别人编的；可这一句，是她亲笔写的。[[/b]]\n\n他们走得太急，落下了不少东西。\n\n白山上，敌人缴了大炮，又截下了国王的辎重车。那位写[[link:two-hours-1620]]《布拉格失陷记》[[/link]]的英国绅士记了一笔，他们在车里翻出了一样东西：\n\n[[quote:2]]\n\n嘉德勋章，是英国最尊贵的骑士勋章，是岳父詹姆斯授给他的。\n\n[[b]]岳父的兵没有来；岳父的勋章，倒被他丢在了战场上。[[/b]]\n\n更大的一样东西，留在了老城市政厅里：波希米亚的王冠。\n\n从1619年11月加冕，到1620年11月出逃，腓特烈在布拉格当了整整一年国王。\n\n一年前，城外的耶稣会士给他起了个外号，说他只能撑过一个冬天，雪一化，他就该走了。\n\n他们只说错了一点：雪化了，他还在，又撑了大半年。可第二个冬天的雪还没下，他就走了。\n\n从此，全欧洲都叫他“冬王”。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "staromestska-mostecka-vez",
+        relation: {
+          en: "On the evening of 8 November 1620 Frederick's family came down from the castle, crossed the Charles Bridge and passed through this tower into the Old Town: his last crossing of the bridge as king",
+          cz: "Večer 8. listopadu 1620 sešla Fridrichova rodina z hradu, přešla Karlův most a touto věží vstoupila do Starého Města: jeho poslední cesta přes most jako krále",
+          zh: "1620年11月8日傍晚，腓特烈一家从城堡下山，过了查理大桥，穿过这座桥塔进了老城。这是他作为国王最后一次过桥",
+        },
+      },
+      {
+        slug: "sex-machines-museum",
+        relation: {
+          en: "The house At the Three Jugs, where Frederick spent his last night in Prague; today it is a rather unusual museum",
+          cz: "Dům U Tří konví, kde Fridrich strávil poslední noc v Praze; dnes v něm sídlí poněkud neobvyklé muzeum",
+          zh: "腓特烈在布拉格的最后一夜，就是在这栋“三只壶之家”里度过的；如今，这里是一家颇为另类的博物馆",
+        },
+      },
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "When Frederick fled, the Bohemian crown jewels and part of the kingdom's archive were left behind here",
+          cz: "Když Fridrich prchal, zůstaly tu české korunovační klenoty a část zemského archivu",
+          zh: "腓特烈出逃时，波希米亚的王冠和一部分王国档案，被留在了这里",
+        },
+      },
+      {
+        slug: "powder-tower",
+        relation: {
+          en: "On the morning of 9 November 1620 the king's road out of the city ran under this tower, along today's Hybernská street to the Mountain Gate (Horská brána), which stood where Masaryk Station is now",
+          cz: "Ráno 9. listopadu 1620 vedla králova cesta z města pod touto branou a dnešní Hybernskou ulicí k Horské bráně, která stála v místech dnešního Masarykova nádraží",
+          zh: "1620年11月9日早上，国王出城的路就从这座塔下经过，沿着今天的希伯尔尼亚街往东，出了山门。山门的旧址，就在今天的马萨里克火车站一带",
+        },
+      },
+      {
+        slug: "masarykovo-nadrazi",
+        relation: {
+          en: "The station stands on the site of the Mountain Gate (Horská brána), whose two towers archaeologists found under the street and the tracks; the fleeing king left Prague through it on 9 November 1620",
+          cz: "Nádraží stojí v místech Horské brány, jejíž dvě věže archeologové našli pod ulicí a pod kolejemi; prchající král jí 9. listopadu 1620 opustil Prahu",
+          zh: "车站就建在山门的旧址上，考古学家在马路和铁轨底下找到了山门的两座塔楼。1620年11月9日，出逃的国王就是从这里出的布拉格",
+        },
+      },
+      {
+        slug: "hradec-kralove",
+        relation: {
+          en: "On the road east: the fleeing king passed this way into Silesia",
+          cz: "Na cestě na východ: prchající král tudy projel do Slezska",
+          zh: "往东的路上：出逃的国王经过这里，去了西里西亚",
+        },
+      },
+    ],
+    referenceMaps: {
+      links: [
+        {
+          label: "1620",
+          description: {
+            en: "Elizabeth's letter to her father from Breslau, in French with an English translation (Ellis, Original Letters, 1st series, vol. III, pp. 112–14)",
+            cz: "Alžbětin dopis otci z Vratislavi, francouzsky s anglickým překladem (Ellis, Original Letters, 1. řada, sv. III, s. 112–14)",
+            zh: "伊丽莎白从布雷斯劳写给父亲的信，法文原文附英译（埃利斯编《英国史原始信件集》第一辑第三卷，第112至114页）",
+          },
+          url: "https://archive.org/details/originalletters03elliuoft/page/112/mode/2up",
+        },
+      ],
+    },
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Frederick_V_of_the_Palatinate",
+    images: ["/history/a-king-for-one-winter-1620.webp"],
+    imageCaptions: [
+      {
+        en: "Early morning, 9 November 1620, outside Prague's eastern gate: a courtier hands little Rupert into the last coach, the heavily pregnant Elizabeth rides on calm and upright, and Frederick follows beside her. The castle stands in the mist behind the walls. In the mud of the road lies a dropped Garter.",
+        cz: "Časné ráno 9. listopadu 1620 před východní pražskou branou: dvořan podává malého Ruprechta do posledního kočáru, těhotná Alžběta jede klidně a vzpřímeně a Fridrich jede vedle ní. Za hradbami se v mlze rýsuje hrad. V blátě na cestě leží ztracený podvazek.",
+        zh: "1620年11月9日清晨，布拉格东面的城门外：一位侍从把小鲁珀特递进最后一辆马车；挺着肚子的伊丽莎白骑在马上，神色平静，腰杆笔直；腓特烈骑马跟在她身边。城墙后面，城堡隐在雾里。路上的泥地里，落着一条嘉德勋带。",
+      },
+    ],
+  },
+  // The sack of Prague, the user's draft (2026-10-20), split in two at the
+  // user's call: this card ends on Maximilian finding "an unexpected
+  // treasure" at the castle; "the-list-1620" picks up from there.
+  // - Duration: the draft said "several days". Alessia Ceccarelli, "La
+  //   battaglia della Montagna Bianca e il sacco di Praga nei dispacci di
+  //   alcuni diplomatici alla corte di Vienna" (Cuadernos de Historia Moderna
+  //   49/2, 2024), quotes the Bavarian-side pamphlet "Dicchiaratione et
+  //   aggiunta di molte particolarità" (Milan 1621): Bucquoy kept the
+  //   imperial army in the city "four whole weeks", "contra la parola data".
+  //   It is partisan (Bavaria blaming Bucquoy), which the card says.
+  // - Della Torre quote: Genoese ambassador's dispatch of 20 Dec 1620 (ASGe,
+  //   Archivio segreto 2541), via Ceccarelli; Italian original: "li soldati,
+  //   così imperiali, come sassoni [e] valloni, fatti insolenti dalla
+  //   vittoria, l'hanno commesse in furore sceleraggini, non solo di
+  //   spogliamenti di case ma anco di violamenti di Matrone e di vergini
+  //   etiandio Cattoliche, non perdonano a cosa alcuna."
+  // - No Location exists for Malostranské náměstí itself; the old Lesser
+  //   Town hall on the square stands in for it.
+  {
+    slug: "the-gates-opened-1620",
+    era: "fire-and-ashes",
+    startYear: 1620.92,
+    year: {
+      en: "November – December 1620",
+      cz: "Listopad – prosinec 1620",
+      zh: "1620年11月至12月",
+    },
+    tone: "serious",
+    title: {
+      en: "The Gates Open",
+      cz: "Brány se otevřely",
+      zh: "城门开了",
+    },
+    hookLine: {
+      en: "The king left by the eastern gate, and the emperor's soldiers arrived at the western one. Prague did not resist. It simply opened its gates.",
+      cz: "Král odjel východní branou a k západní dorazili císařovi vojáci. Praha se nebránila. Prostě otevřela brány.",
+      zh: "国王从东门走了，皇帝的兵到了西门。布拉格没有抵抗，城门就这么开了。",
+    },
+    quotes: [{"text":{"en":"The soldiers, imperial as well as Saxon and Walloon, made insolent by victory, have committed crimes in their fury: not only stripping houses but also violating matrons and maidens, Catholic ones too. They spare nothing.","cz":"Vojáci, císařští stejně jako saští a valonští, zpupní vítězstvím, se v zuřivosti dopouštějí zločinů: nejen vykrádají domy, ale znásilňují i počestné ženy a panny, i katolické. Nešetří ničeho.","zh":"士兵们，不管是皇帝的，还是萨克森的、瓦隆的，打了胜仗便目中无人，在狂怒中犯下种种恶行：不光洗劫房屋，还奸污妇人和少女，连天主教徒家的也不例外。他们什么都不放过。"},"attribution":{"en":"Lelio Della Torre, Genoese ambassador in Vienna, to his government, 20 December 1620 (quoted by Alessia Ceccarelli, 2024)","cz":"Lelio Della Torre, janovský vyslanec ve Vídni, své vládě, 20. prosince 1620 (podle Alessie Ceccarelli, 2024)","zh":"热那亚驻维也纳大使莱利奥·德拉托雷致本国政府，1620年12月20日（据切卡雷利2024年的论文转引）"}},{"text":{"en":"…he kept the imperial army there four whole weeks… during which time, contrary to the word given, many houses and inhabitants of the city were stripped and robbed of… many hundreds of thousands of scudi.","cz":"…držel tam císařské vojsko celé čtyři týdny… a během té doby, proti danému slovu, bylo mnoho domů i obyvatel města oloupeno a připraveno o… mnoho set tisíc scud.","zh":"……他让皇帝的军队在那里整整待了四个星期……这期间，违背了许下的诺言，城里许多房屋和居民被洗劫一空，被抢走了……数十万斯库多。"},"attribution":{"en":"A Bavarian-side pamphlet on Bucquoy, Dicchiaratione et aggiunta di molte particolarità, Milan, 1621 (quoted by Ceccarelli)","cz":"Pamflet z bavorské strany o Buquoyovi, Dicchiaratione et aggiunta di molte particolarità, Milán, 1621 (podle Ceccarelli)","zh":"巴伐利亚一方谈布夸伊的小册子《声明与补遗》，米兰，1621年（据切卡雷利转引）"}}],
+    summary: {"en":"The battle was lost, the king had fled, and the emperor's soldiers were coming into the city.\n\nOn 9 November, not long after Frederick's coaches had left by the Mountain Gate in the east, the armies of the emperor and the Catholic League arrived outside the gates in the west.\n\nNobody defended the city.\n\nOf the lords who had argued the night before over whether to fight, some had fled with the king, and some had shut themselves up in their own houses and bolted the doors. The soldiers had long since melted away. The townspeople who were left were mostly unarmed. All they could do was bolt their doors and pray that, once the emperor's soldiers were inside, they would be spared.\n\nThe Old Town and the New Town sent men out to surrender to Maximilian and Bucquoy.\n\nThe gates opened.\n\n[[b]]Two years earlier, this city had thrown the emperor's governors out of a window. Two years later, it opened its gates to the emperor's army with its own hands.[[/b]]\n\nThe first to suffer were the Lesser Town and the streets below the castle.\n\nThey lay nearest to the White Mountain, and this was where most of the nobility's great houses stood. A year earlier, Frederick's courtiers had lived here. Now the quarter was the victors' spoils.\n\nThe soldiers who came in were Germans, Walloons, Italians, Spaniards and Poles, and many of them mercenaries who had not been paid for months. They smashed every door they came to and broke open every chest.\n\nThe nobles' houses were turned upside down: silver, tapestries, clothes, horses. Whatever could be carried was taken, and whatever could not was smashed. Ordinary households fared no better. Pots and pans, bedding, shoes and stockings all became the soldiers' \"spoils\".\n\nWhen the houses had been stripped, they turned on the people. Some were stripped naked in the street; some were forced to hand over money they had hidden, and those who could not were beaten, or simply killed. The women suffered most of all. In the lanes of the Lesser Town, for days on end, the screaming did not stop.\n\nThe Catholic monasteries and churches were given guards. But many of the soldiers could not tell a Catholic from a Protestant, and did not bother to try.\n\n[[b]]The soldiers who broke into the city did not ask what you believed. They asked what you had.[[/b]]\n\nGenoa was one of the emperor's allies, and its ambassador in Vienna, Lelio Della Torre, wrote in a report to his government:\n\n[[quote:0]]\n\nBucquoy's imperial army stayed in the city for four whole weeks, and for four weeks the plundering went on, on and off.\n\nLater, the Bavarian side printed a pamphlet that laid the whole bill at Bucquoy's door:\n\n[[quote:1]]\n\n[[b]]They had won the battle together. Nobody wanted to own the plunder.[[/b]]\n\nWhile the soldiers were turning the city upside down, Duke Maximilian of Bavaria moved into Prague Castle. There, he too came across an unexpected treasure.","cz":"Bitva byla prohraná, král utekl a do města táhli císařovi vojáci.\n\nDeváté listopadu, nedlouho poté, co Fridrichovy kočáry vyjely východní Horskou branou, stanula před západními branami vojska císaře a Katolické ligy.\n\nNikdo město nebránil.\n\nZ pánů, kteří se předchozí noci přeli, zda bojovat, někteří utekli s králem a jiní se zavřeli ve svých domech a zastrčili závory. Vojáci se dávno rozutekli. Měšťané, kteří zůstali, byli většinou beze zbraně. Mohli jen zavřít dveře a modlit se, aby je císařovo vojsko po vstupu do města ušetřilo.\n\nStaré a Nové Město vyslaly muže, aby se vzdali Maxmiliánovi a Buquoyovi.\n\nBrány se otevřely.\n\n[[b]]Před dvěma lety toto město vyhodilo císařovy místodržící z okna. O dva roky později otevřelo císařovu vojsku brány vlastníma rukama.[[/b]]\n\nJako první to odnesla Malá Strana a ulice pod hradem.\n\nLežely nejblíž Bílé hoře a stály tu skoro všechny velké šlechtické domy. Před rokem tu bydleli Fridrichovi dvořané. Teď byla celá čtvrť kořistí vítězů.\n\nVojáci, kteří vtáhli do města, byli Němci, Valoni, Italové, Španělé a Poláci, mnozí z nich žoldnéři, kteří měsíce neviděli žold. Vyráželi každé dveře a páčili každou truhlu.\n\nŠlechtické domy byly obráceny vzhůru nohama: stříbro, tapiserie, šaty, koně. Co se dalo odnést, odnesli, co ne, rozbili. Obyčejné domácnosti na tom nebyly o nic lépe. Hrnce a pánve, peřiny, boty i punčochy, všechno se stalo vojenskou „kořistí“.\n\nKdyž byly domy vybrané, přišli na řadu lidé. Některé svlékli na ulici donaha, jiné nutili vydat ukryté peníze, a kdo je vydat nemohl, toho zbili, nebo rovnou zabili. Nejvíc vytrpěly ženy. V uličkách Malé Strany celé dny neutichal křik a pláč.\n\nKatolické kláštery a kostely dostaly stráže. Jenže mnozí vojáci katolíka od protestanta nerozeznali a ani se o to nepokoušeli.\n\n[[b]]Vojáci, kteří vtrhli do města, se neptali, čemu věříš. Ptali se, co máš.[[/b]]\n\nJanov byl císařovým spojencem a jeho vyslanec ve Vídni Lelio Della Torre napsal ve zprávě své vládě:\n\n[[quote:0]]\n\nBuquoyovo císařské vojsko zůstalo ve městě celé čtyři týdny a čtyři týdny s přestávkami trvalo i plenění.\n\nPozději vydala bavorská strana pamflet, který celý účet připsal Buquoyovi:\n\n[[quote:1]]\n\n[[b]]Bitvu vyhráli společně. K plenění se nechtěl hlásit nikdo.[[/b]]\n\nZatímco vojáci obraceli město vzhůru nohama, nastěhoval se bavorský vévoda Maxmilián na Pražský hrad. I on tam narazil na nečekaný poklad.","zh":"仗打输了，国王跑了，皇帝的兵进城了。\n\n11月9日，腓特烈的马车刚出东边的山门没多久，西边的城门外，皇帝和天主教联盟的大军就到了。\n\n没有人守城。\n\n前一天晚上还在争论“打不打”的那些贵族老爷，有的跟着国王跑了，有的躲进了自家的宅子，把门闩得死死的。士兵们早就散了。剩下的市民大多手无寸铁，只能关起门来祈祷：但愿这些皇帝的兵进了城，能给自己留一条活路。\n\n老城和新城派人出城，向马克西米利安和布夸伊投降。\n\n城门开了。\n\n[[b]]两年前，这座城把皇帝的总督扔出了窗户；两年后，它亲手给皇帝的军队打开了城门。[[/b]]\n\n最先遭殃的，是小城和城堡底下的那一片。\n\n这里离白山最近，又是贵族府邸最集中的地方。一年前，腓特烈的廷臣们就住在这一带；如今，这里成了胜利者的战利品。\n\n进城的士兵，有德意志人、瓦隆人、意大利人、西班牙人、波兰人，许多是几个月没拿到军饷的雇佣兵。他们见门就砸，见箱子就撬。\n\n贵族的府邸被翻了个底朝天，银器、挂毯、衣裳、马匹，能拿的全拿走，拿不走的就砸烂。普通人家也没能幸免，锅碗瓢盆、被褥鞋袜，都成了兵爷们的“战利品”。\n\n抢完了屋子，就抢人。有人被当街剥光衣服，有人被逼着交出藏起来的钱，交不出来的，就挨打，甚至直接被杀。妇女们遭的罪最多。小城的街巷里，一连好多天，哭喊声都没停过。\n\n天主教的修道院和教堂，倒是被派了兵守着。可对很多士兵来说，谁是天主教徒、谁是新教徒，他们分不清，也懒得分。\n\n[[b]]打进城的兵不问你信什么，只问你有什么。[[/b]]\n\n热那亚是皇帝的盟友，它派驻维也纳的大使德拉托雷，在给本国政府的报告里写道：\n\n[[quote:0]]\n\n布夸伊的皇帝军在城里一住就是整整四个星期，抢掠也就断断续续闹了四个星期。\n\n后来，巴伐利亚一方印了一本小册子，把这笔账全记在了布夸伊的头上：\n\n[[quote:1]]\n\n[[b]]仗是一起打赢的；抢劫的账，谁都不想认。[[/b]]\n\n就在士兵们满城翻箱倒柜的时候，巴伐利亚公爵马克西米利安住进了布拉格城堡。他在城堡里，也翻到了一样意外的宝贝。"},
+    relatedLandmarks: [
+      {
+        slug: "malostranska-beseda",
+        relation: {
+          en: "The old Lesser Town hall on Malostranské náměstí, at the heart of the quarter plundered for weeks in November 1620",
+          cz: "Stará malostranská radnice na Malostranském náměstí, uprostřed čtvrti, kterou v listopadu 1620 celé týdny plenili",
+          zh: "小城的老市政厅，就在小城广场上；1620年11月，这一带被抢了好几个星期",
+        },
+      },
+    ],
+    referenceMaps: {
+      links: [
+        {
+          label: "2024",
+          description: {
+            en: "Alessia Ceccarelli on the sack of Prague as reported by foreign diplomats in Vienna (in Italian, with an English abstract)",
+            cz: "Alessia Ceccarelli o plenění Prahy ve zprávách cizích diplomatů ve Vídni (italsky, s anglickým abstraktem)",
+            zh: "亚历山德拉·切卡雷利的论文：维也纳的外国外交官怎样报告1620年布拉格遭劫（意大利文，附英文摘要）",
+          },
+          url: "https://revistas.ucm.es/index.php/CHMO/article/view/96076",
+        },
+      ],
+    },
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Battle_of_White_Mountain#Aftermath",
+    images: ["/history/the-gates-opened-1620.webp"],
+    imageCaptions: [
+      {
+        en: "A lane in the Lesser Town, November 1620: mercenaries carry a chest, tapestries and silver out of a nobleman's house and lead away his white horse, while an old servant kneels on the steps begging them to stop. A mother and child watch from an upper window. Above the rooftops, the emperor's double-headed eagle flies near the castle.",
+        cz: "Ulička na Malé Straně, listopad 1620: žoldnéři vynášejí ze šlechtického domu truhlu, tapiserie a stříbro a odvádějí pánova bílého koně, zatímco starý sluha na schodech klečí a prosí, aby přestali. Z horního okna se dívá matka s dítětem. Nad střechami u hradu vlaje císařská dvouhlavá orlice.",
+        zh: "1620年11月，小城的一条窄巷：雇佣兵们从一座贵族府邸里抬出箱子、挂毯和银器，还牵走了主人的白马；一位老仆人跪在台阶上，合着手求他们住手。楼上的窗口里，一位母亲抱着孩子往下看。屋顶上方，城堡边已经飘起了皇帝的双头鹰旗。",
+      },
+    ],
+  },
+  // "The List": the second half of the user's draft for the-gates-opened-1620,
+  // split off at the user's call (2026-10-20). Opens on what Maximilian found,
+  // ends on someone copying names from the captured papers; the February 1621
+  // arrests are the next card.
+  // - The Anhalt papers were printed in 1621 as "Fürstl: Anhaltische
+  //   gehaimbe Cantzley. Das ist: Gegründte anzaig der verdeckten
+  //   unteutschen nachtheiligen consilien, anschläg und practicken…",
+  //   compiled by Wilhelm Jocher (HÜB Heidelberg; Tübingen copy Fo XIIa
+  //   347a); a Latin edition, "Cancellaria Secreta Anhaltina", followed.
+  //   The quote box is the German title in translation.
+  // - Wotton quote: Sir Henry Wotton to Francis Bacon, from Vienna, late 1620
+  //   (the letter that also describes Kepler's tent camera obscura), checked
+  //   against the TCP text of Reliquiae Wottonianae (1672), spelling
+  //   modernised. The same letter goes on: "when I revolve what great things
+  //   Zisca did in the first troubles of his Countrey, that were grounded upon
+  //   conscience..." (not used, a possible later callback).
+  // - Liechtenstein: the draft called him "a Czech noble" and "the new
+  //   governor". He held lands in Moravia and Austria (Lutheran until 1599)
+  //   and became governor (místodržící) only in 1622; here he is the man the
+  //   emperor left in charge. He used a house on Malostranské náměstí right
+  //   after White Mountain and bought the houses of today's palace in
+  //   1622–23 (Fučíková, NPÚ Kroměříž; prague.eu).
+  // - "Notices posted in the city" softened to "word went round".
+  {
+    slug: "the-list-1620",
+    era: "fire-and-ashes",
+    startYear: 1620.95,
+    year: {
+      en: "November 1620 – early 1621",
+      cz: "Listopad 1620 – začátek roku 1621",
+      zh: "1620年11月至1621年初",
+    },
+    tone: "serious",
+    title: {
+      en: "A Quiet Winter",
+      cz: "Tichá zima",
+      zh: "一个安静的冬天",
+    },
+    hookLine: {
+      en: "In the castle the victors found chests of letters. The letters were full of names.",
+      cz: "Vítězové našli na hradě truhly dopisů. A dopisy byly plné jmen.",
+      zh: "胜利者在城堡里翻出了几箱信。信里，写满了名字。",
+    },
+    quotes: [{"text":{"en":"The Princely Anhalt Secret Chancery, that is: a well-founded disclosure of the hidden, un-German, harmful counsels, plots and intrigues pursued by the heads and directors of the corresponding Union in the Bohemian unrest… found in the original in the Anhalt secret chancery, by God's special ordinance, through the Bohemian defeat before Prague on the 8th of November last, and made known to the world…","cz":"Knížecí anhaltská tajná kancelář, to jest: Podložené odhalení skrytých, neněmeckých a škodlivých rad, úkladů a pletich, které hlavy a direktoři korespondující unie vedli v českém nepokoji… z boží zvláštní prozřetelnosti díky české porážce před Prahou dne 8. listopadu nalezené v originále v anhaltské tajné kanceláři a dané světu na vědomí…","zh":"《安哈尔特侯爵秘密文书》，即：确凿揭露联盟首脑与领袖们在波希米亚动乱中那些隐秘的、不德意志的、有害的谋划、算计与阴谋……经上帝的特别安排，借11月8日布拉格城下波希米亚人的惨败，在安哈尔特的秘密文书房中寻获原件，昭告天下……"},"attribution":{"en":"Title of the book printed in 1621 from the captured papers, compiled by Wilhelm Jocher","cz":"Titul knihy vydané roku 1621 z ukořistěných listin, sestavil Wilhelm Jocher","zh":"1621年用缴获文件印成的那本书的书名，编者威廉·约赫尔"}},{"text":{"en":"Here, by a slight battle full of miserable errors (if I had leisure to set them down), all is reduced, or near the point. In the provinces there is nothing but fluctuation and submission, the ordinary consequences of victory.","cz":"Zde jedna nevelká bitva plná žalostných chyb (kdybych měl čas je sepsat) všechno srovnala, nebo skoro všechno. V zemích není nic než kolísání a podrobování, obvyklé následky vítězství.","zh":"这里，一场充满可悲错误的小仗（我若有空，真想把这些错误一条条写下来），就让一切都平定了，或者差不多了。各地只剩下摇摆和归顺，这是胜利之后的寻常景象。"},"attribution":{"en":"Sir Henry Wotton, English ambassador in Vienna, to Francis Bacon, late 1620 (Reliquiae Wottonianae, 1672)","cz":"Sir Henry Wotton, anglický vyslanec ve Vídni, Francisi Baconovi, konec roku 1620 (Reliquiae Wottonianae, 1672)","zh":"英国驻维也纳大使亨利·沃顿致弗朗西斯·培根的信，1620年末（收于《沃顿遗稿》，1672年）"}}],
+    summary: {"en":"The treasure Maximilian found was whole chests of papers that Prince Christian of Anhalt had had no time to take with him, full of the letters, schemes and plans that had passed between the Protestant princes over the past few years.\n\nThe Duke of Bavaria could hardly believe his luck. The next year one of his men, Wilhelm Jocher, edited the letters into a book, and it was printed and sent all over Europe, so that everyone could see what these \"heretics\" had been plotting behind the emperor's back. The title alone ran to this:\n\n[[quote:0]]\n\nMaximilian himself did not stay long in Prague. Before long he set off home to Munich with great wagonloads of loot.\n\n[[b]]Bavaria's wages were beginning to be paid, one instalment at a time.[[/b]]\n\nThe Bohemian lords and town representatives who had stayed behind came forward one after another to ask for pardon.\n\nThey bowed their heads before their new masters, signed declarations of loyalty and swore to be faithful from now on to the Emperor Ferdinand II. Some said they had been forced into it, some said they had never been in favour of the rebellion, and some heaped all the blame on the few who had already fled.\n\nOf the names they pushed forward, some belonged to men who had already escaped abroad. Others belonged to men still in the city.\n\nThe English ambassador in Vienna, Sir Henry Wotton, wrote in a letter:\n\n[[quote:1]]\n\nThe man the emperor left in charge in Prague was Karl von Liechtenstein, a great lord with wide lands in Moravia and Austria. He had once been a Protestant himself, had become a Catholic, and had stood by the emperor ever since.\n\nHe was in no hurry to act. Word went round the city, meant to calm people down: the emperor was generous, and as long as everyone behaved, everything could be settled.\n\nMany people breathed a sigh of relief and thought the worst was over.\n\nThat winter, Prague grew quiet.\n\nBut in a room up at the castle, someone was turning over the captured papers page by page, and copying down, one by one, every name that appeared in them.","cz":"Poklad, na který Maxmilián narazil, byly celé truhly listin, které kníže Kristián z Anhaltu nestihl odvézt, plné dopisů, plánů a záměrů, které si protestantská knížata v posledních letech vyměňovala.\n\nBavorský vévoda tomu nemohl uvěřit. Hned příští rok sestavil jeden z jeho mužů, Wilhelm Jocher, z dopisů knihu, která vyšla tiskem a rozletěla se po celé Evropě, aby každý viděl, co ti „kacíři“ za císařovými zády chystali. Už jen titul zněl takto:\n\n[[quote:0]]\n\nSám Maxmilián v Praze dlouho nepobyl. Brzy se vydal domů do Mnichova s celými vozy kořisti.\n\n[[b]]Bavorská mzda se začala vyplácet, splátku po splátce.[[/b]]\n\nČeští páni a zástupci měst, kteří zůstali, předstupovali jeden za druhým a prosili o milost.\n\nSkláněli hlavy před novými pány, podepisovali prohlášení věrnosti a přísahali, že odteď budou věrni císaři Ferdinandovi II. Jedni tvrdili, že k tomu byli donuceni, jiní, že s povstáním nikdy nesouhlasili, a další házeli všechnu vinu na těch pár, kteří už utekli.\n\nZ jmen, která tak vystrkovali dopředu, patřila některá mužům, kteří už byli v cizině. Jiná mužům, kteří zůstali ve městě.\n\nAnglický vyslanec ve Vídni, sir Henry Wotton, napsal v dopise:\n\n[[quote:1]]\n\nV Praze nechal císař vládnout Karla z Lichtenštejna, velmože s rozsáhlými statky na Moravě i v Rakousích. I on býval kdysi protestantem, pak přestoupil ke katolíkům a od té doby stál při císaři.\n\nNikam nespěchal. Městem se rozneslo, aby se lidé uklidnili: císař je velkorysý, a když se budou všichni chovat slušně, dá se všechno vyřešit.\n\nMnozí si oddechli a mysleli, že to nejhorší je za nimi.\n\nTé zimy Praha utichla.\n\nJenže v jedné místnosti na hradě kdosi obracel ukořistěné listiny list po listu a jedno po druhém si opisoval každé jméno, které se v nich objevilo.","zh":"马克西米利安发现的宝贝，是安哈尔特亲王来不及带走的整箱文件，里面是这几年新教诸侯们来来往往的密信、盘算和计划。\n\n这位巴伐利亚公爵如获至宝。第二年，他手下的约赫尔把这些信件编成了一本书，印出来发往欧洲各地，让全天下的人都看看：这些“异端”背着皇帝，都在打什么算盘。光是书名，就有这么长：\n\n[[quote:0]]\n\n马克西米利安自己没在布拉格待太久。没过多久，他就带着大批战利品回了慕尼黑。\n\n[[b]]巴伐利亚的工钱，开始一笔一笔地兑现了。[[/b]]\n\n留在城里的波希米亚贵族和城市代表，一个接一个地出来请罪。\n\n他们在新主子面前低着头，签下效忠书，发誓从此忠于皇帝斐迪南二世。有人说自己是被逼的，有人说自己从来没赞成过造反，还有人把责任一股脑推给了已经逃走的那几位。\n\n那些被他们推出去的名字，有的已经逃到了国外，有的还留在城里。\n\n英国驻维也纳的大使亨利·沃顿，在一封信里写道：\n\n[[quote:1]]\n\n皇帝留在布拉格主事的，是卡尔·冯·列支敦士登。他在摩拉维亚和奥地利都有大片领地，早年也是新教徒，后来改信了天主教，一直站在皇帝这边。\n\n他没有急着动手。城里传出话来，安抚人心：皇帝宽宏大量，只要大家安分守己，一切都好商量。\n\n许多人松了一口气，以为最坏的时候已经过去了。\n\n这个冬天的布拉格，安静了下来。\n\n可在城堡的一间屋子里，有人正一页一页地翻着那些缴获的文件，把上面出现过的名字，一个一个地抄下来。"},
+    relatedLandmarks: [
+      {
+        slug: "liechtenstein-palace-mala-strana-1782581902637",
+        relation: {
+          en: "Karl von Liechtenstein used a house on this square right after the White Mountain; in 1622–23 he bought the houses that became this palace, his seat while he governed Bohemia",
+          cz: "Karel z Lichtenštejna užíval dům na tomto náměstí hned po Bílé hoře; v letech 1622–23 koupil domy, z nichž vznikl tento palác, jeho sídlo v době, kdy spravoval Čechy",
+          zh: "白山之战刚结束，列支敦士登就住进了小城广场边的一座宅子；1622至1623年，他买下了这里的几栋房子，合成了这座宫殿，此后他治理波希米亚，就住在这里",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Karl_I,_Prince_of_Liechtenstein",
+    images: ["/history/the-list-1620.webp"],
+    imageCaptions: [
+      {
+        en: "Left: winter on the Old Town Square, where a herald reads out the emperor's message of goodwill beside Karl von Liechtenstein, and the townspeople breathe a sigh of relief. Right: at the same time, by candlelight in a room at the castle, a clerk copies names from the captured letters into a ledger.",
+        cz: "Vlevo: zima na Staroměstském náměstí, kde hlasatel vedle Karla z Lichtenštejna předčítá císařovo smířlivé poselství a měšťané si oddechnou. Vpravo: ve stejnou dobu při svíčce v jedné místnosti na hradě opisuje písař z ukořistěných dopisů jména do knihy.",
+        zh: "左边：冬天的老城广场上，传令官站在列支敦士登身旁，宣读皇帝宽宏大量的口信，市民们松了一口气。右边：与此同时，城堡的一间屋子里，一位书记员在烛光下，把缴获信件里的名字一个个抄进账簿。",
+      },
+    ],
+  },
+  // The arrests and the trial, the user's draft (2026-10-20), corrected:
+  // - Arrests on 20 Feb 1621 (Ferdinand's order of 5 Feb): 61 people on the
+  //   list; lords and knights held in the White Tower at the castle,
+  //   burghers in the town halls (cs.wikipedia "Staroměstská exekuce";
+  //   ceskenarodnilisty). The draft's "at night" is not in the sources found,
+  //   so the card just gives the date.
+  // - Šlik: the draft had him hiding in Lusatia and handed over by Saxony.
+  //   cs.wikipedia: he left the country briefly, came back in secret, hid
+  //   with his nephew Kryštof of Redern at Frýdlant, was caught by Saxon
+  //   agents in March 1621 and taken to Dresden; the emperor asked the
+  //   elector for him in writing. Both kept, in that order.
+  // - Sentences: the commission issued 51 verdicts, 43 of them death
+  //   sentences (many on men who had fled); Ferdinand reviewed them himself
+  //   on 26 May 1621, sparing a few and softening others; 27 were executed
+  //   (iprima.cz; denik.cz). Verdicts read in Prague on 19 June; the
+  //   scaffold about twenty paces each way, draped in black (cs.wikipedia,
+  //   and Dačický: "suknem černým obestřeném").
+  // - The draft's "Ferdinand prayed all night in his chapel" has no source
+  //   found; a weak one says he hesitated and consulted his confessor before
+  //   signing. Kept as "it is said", without the chapel.
+  // - Quote: Mikuláš Dačický z Heslova, Paměti (cs.wikisource, 1621), on
+  //   Liechtenstein's mandates ordering the exiles (Thurn, Berka and others)
+  //   back within six weeks. CZ shows the original.
+  {
+    slug: "the-reckoning-after-winter-1621",
+    era: "fire-and-ashes",
+    startYear: 1621.2,
+    year: {
+      en: "February – June 1621",
+      cz: "Únor – červen 1621",
+      zh: "1621年2月至6月",
+    },
+    tone: "serious",
+    title: {
+      en: "The Reckoning After Winter",
+      cz: "Zúčtování po zimě",
+      zh: "冬后算账",
+    },
+    hookLine: {
+      en: "A winter of leniency was followed by a sudden round-up. Of the names on the list still in Prague, almost none got away.",
+      cz: "Po zimě shovívavosti přišlo náhlé zatýkání. Ze jmen na seznamu, která zůstala v Praze, skoro nikdo neunikl.",
+      zh: "一个冬天的宽大，换来了一场突然的抓捕。名单上还留在布拉格的人，几乎一个也没跑掉。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "But none of them wanted to walk into those pincers, and none of them turned up.",
+          cz: "Ale žádný z nich do těch klepet nechtěl a jse nenacházel.",
+          zh: "可他们没有一个人愿意往那把钳子里钻，也没有一个人露面。",
+        },
+        attribution: {
+          en: "Mikuláš Dačický of Heslov, chronicler of Kutná Hora, Memoirs, 1621",
+          cz: "Mikuláš Dačický z Heslova, Paměti, 1621",
+          zh: "库特纳霍拉的编年史家米库拉什·达契茨基，《回忆录》，1621年",
+        },
+      },
+    ],
+    summary: {
+      en: "That winter, Prague was strangely calm.\n\nSome of the rebellion's leaders had fled long before. Count Thurn had escaped from Bohemia with his family, and Roupov, the head of the government of thirty, had gone abroad too.\n\nIn the emperor's name, Liechtenstein issued orders that those who had fled must return within six weeks or face heavy penalties. A chronicler of the day noted the result:\n\n[[quote:0]]\n\nBut many others had not fled.\n\nThey had stayed. Some could not bear to leave their property, some thought they had done nothing worth dying for, and some truly believed the word that had gone round the city: the emperor was generous, and as long as everyone behaved, everything could be settled.\n\nMonths passed, and nothing happened. They grew more and more at ease.\n\n[[b]]The most dangerous moment is not when the sword is raised. It is when you think it has been put away.[[/b]]\n\nThe emperor's secret order had arrived weeks before. On 20 February 1621, Liechtenstein gave the word, and the emperor's soldiers set out in several squads.\n\nThey carried a list. It had sixty-one names on it.\n\nOne door after another was knocked open. Lords, knights and townsmen were led away one by one. The lords and knights were locked in the White Tower at the castle, the townsmen in the town halls. Of the names on the list still in Prague, almost all were taken.\n\nEven those who had got away were not safe. The old Count Šlik had first left the country, then slipped back in secret and hidden at Frýdlant in the north, in the house of his nephew. In March, Saxon agents found him and carried him off to Dresden. The emperor wrote to ask for him, and the Elector of Saxony, that Lutheran Protestant prince, did not hesitate long before handing him over.\n\n[[b]]A whole winter of mercy had only served to keep the people on the list at home.[[/b]]\n\nThen came the trial.\n\nThe emperor set up a special court in Prague, with Liechtenstein presiding. The prisoners were brought in for questioning one after another.\n\nMuch of the evidence came from those chests of captured papers: who had signed what, who had written to whom, who had paid for what, who had said what in the diet. It was all there in black and white.\n\nSome pleaded that they had only acted under the Letter of Majesty and the laws of Bohemia. Some said they had been against deposing the king from the very start. Others went down on their knees and begged for mercy.\n\nThe court did not listen.\n\nThe verdicts came one after another. There were more than forty death sentences alone, many of them passed on men who had already fled. The verdicts were sent to Vienna for the emperor to sign.\n\nIt is said that when Ferdinand received them he hesitated for a long time, and went to ask his confessor what to do.\n\nOn 26 May he took up his pen and changed a few of the verdicts: a few men were spared death, and a few had their punishment softened. The rest, he signed.\n\nIn the end, twenty-seven men were to go to the scaffold.\n\n[[b]]The list had shrunk from dozens to twenty-seven. But not one of those twenty-seven was pardoned.[[/b]]\n\nOn 19 June the verdicts were read out in Prague.\n\nOn the Old Town Square, carpenters began to put up a tall wooden platform, about twenty paces long and twenty wide, draped in black cloth, right in front of the Old Town Hall.\n\nThe people of Prague walked past it, and nobody dared look at it for long.",
+      cz: "Té zimy byla Praha podivně klidná.\n\nNěkteří vůdci povstání dávno utekli. Hrabě Thurn uprchl z Čech i s rodinou a do ciziny odešel i Roupovský, hlava třicetičlenné vlády.\n\nLichtenštejn jménem císaře vydal mandáty, aby se uprchlí do šesti neděl vrátili, jinak je stihnou těžké tresty. Kronikář té doby zaznamenal, jak to dopadlo:\n\n[[quote:0]]\n\nJenže mnozí neutekli.\n\nZůstali. Někteří nedokázali opustit majetek, jiní si mysleli, že za nic, co udělali, smrt nehrozí, a další opravdu uvěřili tomu, co se rozneslo městem: císař je velkorysý, a když se budou všichni chovat slušně, dá se všechno vyřešit.\n\nUplynuly měsíce a nic se nedělo. Byli čím dál klidnější.\n\n[[b]]Nejnebezpečnější chvíle nenastává, když se meč zvedá. Nastává, když si myslíš, že už ho schovali.[[/b]]\n\nTajný císařův rozkaz přišel už před několika týdny. Dvacátého února 1621 dal Lichtenštejn pokyn a císařští vojáci vyrazili v několika oddílech.\n\nMěli s sebou seznam. Stálo na něm jednašedesát jmen.\n\nJedny dveře za druhými se otevíraly. Páni, rytíři i měšťané byli jeden po druhém odváděni. Páni a rytíři skončili v Bílé věži na hradě, měšťané na radnicích. Z těch na seznamu, kteří zůstali v Praze, odvedli skoro všechny.\n\nAni ti, kdo utekli, nebyli v bezpečí. Starý hrabě Šlik nejdřív odešel ze země, pak se tajně vrátil a skrýval se na Frýdlantě u svého synovce. V březnu ho saští špehové vypátrali a odvlekli do Drážďan. Císař si o něj písemně požádal a saský kurfiřt, ten luterský protestantský kníže, ho dlouho neváhal vydat.\n\n[[b]]Celá zima milosti posloužila jen k tomu, aby lidé ze seznamu zůstali doma.[[/b]]\n\nPak přišel soud.\n\nCísař zřídil v Praze zvláštní soud, kterému předsedal Lichtenštejn. Vězně předváděli k výslechu jednoho po druhém.\n\nVelká část důkazů pocházela z oněch truhel ukořistěných listin: kdo co podepsal, kdo komu psal, kdo co platil, kdo co řekl na sněmu. Všechno černé na bílém.\n\nNěkteří se hájili, že jednali jen podle Majestátu a českých zákonů. Jiní tvrdili, že byli od samého začátku proti sesazení krále. Další padali na kolena a prosili o milost.\n\nSoud neposlouchal.\n\nRozsudky padaly jeden za druhým. Jen rozsudků smrti bylo přes čtyřicet, mnohé z nich nad muži, kteří už utekli. Rozsudky odešly do Vídně, aby je podepsal císař.\n\nTraduje se, že když je Ferdinand dostal, dlouho váhal a šel se poradit se svým zpovědníkem.\n\nDvacátého šestého května vzal pero a několik rozsudků změnil: pár mužů ušetřil smrti, několika zmírnil trest. Zbytek podepsal.\n\nNakonec mělo na popraviště jít sedmadvacet mužů.\n\n[[b]]Seznam se scvrkl z desítek jmen na sedmadvacet. Ale z těch sedmadvaceti nebyl omilostněn ani jeden.[[/b]]\n\nDevatenáctého června byly rozsudky v Praze přečteny.\n\nNa Staroměstském náměstí začali tesaři stavět vysoké dřevěné lešení, asi dvacet kroků dlouhé i široké, potažené černým suknem, přímo před Staroměstskou radnicí.\n\nPražané chodili kolem a nikdo se neodvážil podívat se na ně déle.",
+      zh: "这个冬天，布拉格过得出奇地平静。\n\n起义的领袖们，有的早就跑了：图尔恩伯爵带着家人逃出了波希米亚，三十人政府的头儿鲁波夫也去了国外。\n\n列支敦士登以皇帝的名义发出告示，命令逃走的人六个星期之内回来，否则重罚。一位当时的编年史家记下了结果：\n\n[[quote:0]]\n\n可还有许多人没跑。\n\n他们留了下来。有的是舍不得家产，有的是觉得自己罪不至死，还有的，是真信了城里传开的那句话：皇帝宽宏大量，只要安分守己，一切都好商量。\n\n几个月过去，什么事也没发生。他们越来越放心了。\n\n[[b]]最危险的，不是刀已经举起来，而是你以为刀已经收起来了。[[/b]]\n\n皇帝的密令，几个星期前就已经到了。1621年2月20日，列支敦士登一声令下，皇帝的兵分成好几队出了营房。\n\n他们手里拿着一张名单，上面有六十一个名字。\n\n一扇扇门被敲开了。贵族、骑士、市民，一个接一个被押了出去。贵族和骑士关进了城堡的白塔，市民关进了各城的市政厅。名单上还留在布拉格的人，几乎都被带走了。\n\n跑到外地的也没能幸免。老施利克伯爵先是逃出了国，后来又偷偷回来，躲在北边弗里德兰特的外甥家里。3月，萨克森的探子找到了他，把他押到了德累斯顿。皇帝写信来要人，萨克森选帝侯，那位信路德宗的新教诸侯，没犹豫多久，就把他交了出来。\n\n[[b]]一个冬天的宽恕，只是为了让名单上的人都留在家里。[[/b]]\n\n接下来是审判。\n\n皇帝在布拉格设了一个特别法庭，由列支敦士登主持。被关起来的人一个接一个地被提审。\n\n审判的证据，有一大半就来自那几箱缴获的文件：谁签过字，谁写过信，谁出过钱，谁在议会上说过什么，白纸黑字，一清二楚。\n\n有人辩解说，自己只是依照《宗教自由诏书》和波希米亚的法律办事；有人说，自己从头到尾都反对废掉国王；还有人跪下来求饶。\n\n法庭不听这些。\n\n判决一份接一份地出来，光是死刑就有四十多个，其中不少是判给已经逃走的人的。判决书送到了维也纳，等皇帝签字。\n\n据说，斐迪南拿到判决书，犹豫了很久，还去请教了自己的告解神父。\n\n5月26日，他拿起笔，改了几份判决：有几个人免了死罪，有几个人的刑罚改轻了。剩下的，他签了字。\n\n最后要上刑台的，是二十七个人。\n\n[[b]]名单从几十个人，缩成了二十七个；可这二十七个人，一个也没有被赦免。[[/b]]\n\n6月19日，判决在布拉格当众宣读。\n\n老城广场上，工匠们开始搭一座高高的木台子，长宽各有二十来步，蒙着黑布，就在老城市政厅的前面。\n\n布拉格人从台子旁边走过，谁也不敢多看一眼。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "bila-vez-prazsky-hrad",
+        relation: {
+          en: "After the arrests of 20 February 1621, the lords and knights on the list were held in this tower",
+          cz: "Po zatýkání 20. února 1621 tu byli vězněni páni a rytíři ze seznamu",
+          zh: "1621年2月20日大逮捕之后，名单上的贵族和骑士，就关在这座塔里",
+        },
+      },
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "Townsmen arrested in 1621 were held in the town halls; in June the black-draped scaffold went up in front of this one",
+          cz: "Měšťany zatčené roku 1621 drželi na radnicích; v červnu vyrostlo před touto radnicí lešení potažené černým suknem",
+          zh: "1621年被捕的市民，关在各城的市政厅里；6月，蒙着黑布的刑台，就搭在这座市政厅门前",
+        },
+      },
+    ],
+    referenceMaps: {
+      links: [
+        {
+          label: "1621",
+          description: {
+            en: "Mikuláš Dačický of Heslov's memoirs for 1621–1626, in the original Czech (Wikisource)",
+            cz: "Paměti Mikuláše Dačického z Heslova, léta 1621–1626 (Wikizdroje)",
+            zh: "达契茨基《回忆录》1621至1626年部分，捷克语原文（维基文库）",
+          },
+          url: "https://cs.wikisource.org/wiki/Pam%C4%9Bti/1621%E2%80%931626",
+        },
+      ],
+    },
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Old_Town_Square_execution",
   },
 ];
 

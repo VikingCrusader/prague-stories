@@ -10287,10 +10287,10 @@ Domovní znamení jako tohle byla adresním systémem staré Prahy: než se v 18
     },
   },
   {
-    name: 'Sex Machines Museum',
+    name: 'House at the Three Jugs',
     slug: 'sex-machines-museum',
-    localizedNames: { cz: 'Sex Machines Museum', zh: '性爱机器博物馆' },
-    labels: ['museum'],
+    localizedNames: { cz: 'Dům U Tří konví', zh: '三只壶之家' },
+    labels: ['museum', 'early-modern'],
     district: 'Praha 1',
     quarter: 'Staré Město',
     coordinates: { lat: 50.08633000665065, lng: 14.42075625182345 },
@@ -10298,21 +10298,33 @@ Domovní znamení jako tohle byla adresním systémem staré Prahy: než se v 18
     xpReward: 20,
     wikipediaUrl: 'https://en.wikipedia.org/wiki/Sex_Machines_Museum',
     description: {
-      en: `The Sex Machines Museum on Melantrichova Street, between Old Town Square and the Estates Theatre, is a museum devoted entirely to mechanical devices made for erotic purposes. It is one of Prague's more unusual attractions, and it has drawn curious visitors since it opened in 2002.
+      en: `This building is today home to a rather unusual museum: three floors of the mechanical contraptions people have invented over the centuries for one particular purpose, from sixteenth-century oddities to erotic films from the early 1900s. Visitors go in curious and come out with complicated expressions. But the house has a much older story to tell.
 
-The collection was assembled by the Italian businessman Oriano Bizzocchi, who came across historical erotic objects while looking for curiosities for another museum project. Spread over three floors of a historic house, the museum displays several hundred objects, some from as early as the 16th century, from strange contraptions to items of clothing, along with a small cinema showing early erotic films from the beginning of the 20th century. The displays are presented with a mix of historical seriousness and humour.
+It is a Gothic house, remodelled in the Renaissance, that runs deep through the block. As early as the 15th century it was called At the Jugs, or At the Three Jugs. Later it came to an arrangement with its neighbour: one house would hang out a silver jug and the other a golden one. That is why it is known today as At the Silver Jug, with At the Golden Jug next door.
 
-🎁 Bonus: Soon after it opened, some city officials criticised the museum as distasteful. The complaints did nothing to close it and gave it a great deal of free publicity, and it has remained one of the most talked-about addresses on Melantrichova ever since.`,
-      cz: `Sex Machines Museum v Melantrichově ulici, mezi Staroměstským náměstím a Stavovským divadlem, je muzeum věnované výhradně mechanickým pomůckám určeným k erotickým účelům. Patří k neobvyklejším pražským atrakcím a od svého otevření roku 2002 přitahuje zvědavé návštěvníky.
+On the evening of 8 November 1620, after the defeat at the White Mountain, Frederick, King of Bohemia, came down from the castle with his pregnant queen Elizabeth, their children and his ministers, crossed the Charles Bridge and, according to the Prague City Museum, took refuge in this house. Here they argued over whether to defend the city, sent letters to the enemy commanders in the hope of buying time, and sat out the whole night. Early next morning the family hurried out of Prague towards Silesia. Frederick never came back, and all of Europe came to call him the Winter King.
 
-Sbírku shromáždil italský podnikatel Oriano Bizzocchi, který na historické erotické předměty narazil, když hledal kuriozity pro jiný muzejní projekt. Na třech podlažích historického domu muzeum vystavuje několik stovek předmětů, některé už ze 16. století, od podivných přístrojů po součásti oblečení, a malé kino promítá rané erotické filmy z počátku 20. století. Expozice je podaná se směsí historické vážnosti a humoru.
+The museum opened in 2002. Soon afterwards some city officials denounced it as distasteful. The complaints did not close it; they gave it a great deal of free publicity.
 
-🎁 Bonus: Brzy po otevření kritizovali někteří městští činitelé muzeum jako nevkusné. Stížnosti ho nijak nezavřely a přinesly mu spoustu reklamy zdarma, a od té doby patří k nejprobíranějším adresám v Melantrichově ulici.`,
-      zh: `性爱机器博物馆位于老城广场和等级剧院之间的梅兰特里霍娃街，专门展示为情色用途制造的机械器具。它是布拉格比较另类的景点之一，自2002年开馆以来一直吸引着好奇的游客。
+🎁 Bonus: If anyone asks you which house in Prague has the oddest guest book, here is your answer: a fleeing king and several hundred erotic machines. The king stayed one night. The machines have been here for more than twenty years.`,
+      cz: `V tomhle domě dnes sídlí poněkud neobvyklé muzeum: tři patra mechanických vynálezů, které lidé během staletí vymysleli k jednomu docela určitému účelu, od podivných pomůcek ze 16. století po erotické filmy z počátku 20. století. Návštěvníci vcházejí zvědaví a vycházejí s rozpačitým výrazem. Jenže dům má za sebou mnohem starší příběh.
 
-藏品由意大利商人奥里亚诺·比佐基收集，他在为另一个博物馆项目寻找奇珍时偶然接触到历史上的情色物品。博物馆分布在一栋老房子的三层楼里，展出几百件物品，有些早至16世纪，从古怪的装置到衣物都有，还有一个小影厅放映20世纪初的早期情色电影。展览的呈现方式既有历史的严肃，也带着几分幽默。
+Je to gotický dům, renesančně přestavěný, který se táhne hluboko do bloku. Už na počátku 15. století se mu říkalo U Konvů nebo U Tří konví. Později se se sousedem dohodl: jeden dům vyvěsí stříbrnou konvici, druhý zlatou. Proto se mu dnes říká U Stříbrné konvice a vedle stojí dům U Zlaté konvice.
 
-🎁 彩蛋：开馆后不久，一些市政官员批评这座博物馆有伤风化。这些抱怨丝毫没能让它关门，反倒给它做了大把免费宣传，从此它一直是梅兰特里霍娃街上最受议论的门牌之一。`,
+Večer 8. listopadu 1620, po porážce na Bílé hoře, sešel český král Fridrich s těhotnou královnou Alžbětou, dětmi a rádci z hradu, přešel Karlův most a podle Muzea hlavního města Prahy se ukryl právě v tomto domě. Tady se přeli, zda město bránit, posílali dopisy nepřátelským velitelům v naději, že získají čas, a přečkali celou noc. Časně ráno rodina spěšně opustila Prahu směrem do Slezska. Fridrich se už nikdy nevrátil a celá Evropa mu začala říkat Zimní král.
+
+Muzeum se otevřelo roku 2002. Brzy nato ho někteří městští činitelé odsoudili jako nevkusné. Stížnosti ho nezavřely; udělaly mu spoustu reklamy zadarmo.
+
+🎁 Bonus: Kdyby se vás někdo zeptal, který pražský dům má nejpodivnější knihu hostů, máte odpověď: prchající král a několik set erotických strojů. Král tu přespal jednu noc. Stroje tu jsou už přes dvacet let.`,
+      zh: `这栋楼今天是一家颇为另类的博物馆：三层楼里，摆满了几百年来人类为某件特定的事发明的各种机械，从十六世纪的古怪器具，到二十世纪初的情色老电影。游客进门时一脸好奇，出门时一脸复杂。可这栋楼的故事，比楼里的展品要老得多。
+
+这是一栋哥特式的老房子，文艺复兴时期改建过，一直往里延伸，穿过大半个街区。早在十五世纪初，它就叫“壶之家”，也叫“三只壶之家”。后来，它和隔壁商量好：一家挂银壶，一家挂金壶。所以这栋楼今天叫“银壶之家”，隔壁就是“金壶之家”。
+
+1620年11月8日傍晚，白山战役刚刚打输，波希米亚国王腓特烈带着怀孕的王后伊丽莎白、孩子和大臣们，从城堡下山，过了查理大桥。据布拉格城市博物馆的说法，他们躲进的就是这栋房子。就在这里，他们争论要不要守城，给敌方将领写信，想拖延几天，就这样熬过了一整夜。第二天一早，一家人匆匆出城，往西里西亚逃去。腓特烈从此再没回过布拉格，全欧洲都叫他“冬王”。
+
+博物馆是2002年开张的。开馆后不久，一些市政官员批评它有伤风化。抱怨没能让它关门，反倒给它做了大把免费宣传。
+
+🎁 彩蛋：要是有人问你，布拉格哪栋楼的“住客名单”最离奇，答案就在这里：一位逃亡的国王，和几百台情色机器。国王只住了一晚，机器已经在这儿住了二十多年。`,
     },
   },
   {
@@ -32408,6 +32420,111 @@ Bronzové verze se na Kampu dostaly roku 2008, sem na trávník vedle Musea Kamp
 青铜版在2008年来到坎帕，就放在坎帕博物馆旁的这片草地上。近看比在塔上更好懂：圆滚滚的、普普通通的婴儿，只除了那张脸，看上去不像脸，倒像一件等着扫码的商品。切尔尼从来没给过一个官方解释，这大概正是他想要的。
 
 🎁 彩蛋：今天电视塔上的婴儿并不是原版。2017年，第一批婴儿被取下来清洗检查，2019年换上了一模一样的复制品，装回原来的位置。婴儿们在那座塔上爬了二十多年，现在这一批是半路才接上班的。`,
+    },
+  },
+  {
+    name: 'Ladronka',
+    slug: 'ladronka',
+    localizedNames: { cz: 'Ladronka', zh: '拉德龙卡' },
+    labels: ['park', 'homestead'],
+    district: 'Praha 6',
+    quarter: 'Břevnov',
+    coordinates: { lat: 50.0785922, lng: 14.3565425 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Ladronka',
+    description: {
+      en: `On a fine weekend, half of Prague 6 seems to be gliding round this park on wheels: inline skaters, scooters, prams and the occasional brave grandparent. At the top of the meadow sits the old farmstead that gave the place its name, now a calm community centre with a café. Its past was rather less calm.
+
+The site is old: Charles IV is said to have founded a wine press here in the 14th century, and later a coaching inn served travellers on the road west out of Prague. In 1688 the land was sold to Count Filip Ferdinand de la Crone, and the usual explanation is that "Ladronka" is his name, worn smooth by Czech mouths; the other one links it to the Italian ladrone, a robber. During the plague of 1713, when the Břevnov cemetery was full, victims were buried in a mass grave nearby. The Knights of Malta owned the farmstead from the early 18th century until 1922, when it passed to the city.
+
+The 20th century was hard on it. Listed as a monument in 1964, it kept falling apart anyway, and in 1993 anarchist squatters moved in and ran a non-commercial cultural centre until city police evicted them in November 2000. The city then restored the buildings (they reopened in 2005 and won the Building of the Year award in 2006) and laid an asphalt loop through the park. Extended in 2010, the main circuit is now about 4.2 km long, roughly a tenth of a marathon, and Ladronka became Prague's best-known skating spot.
+
+🎁 Bonus: Locals once voted Ladronka the "seventh wonder of Prague 6". Not bad for a place whose name may simply mean "the robbers' place".`,
+      cz: `O pěkném víkendu tu na kolečkách krouží snad půlka Prahy 6: bruslaři, koloběžky, kočárky a občas i odvážný dědeček. Nahoře na louce stojí starý statek, který místu dal jméno, dnes klidné kulturní centrum s kavárnou. Jeho minulost tak klidná nebyla.
+
+Místo je staré: Karel IV. tu prý ve 14. století založil vinný lis a později tu stál zájezdní hostinec pro pocestné na cestě z Prahy na západ. Roku 1688 koupil pozemky hrabě Filip Ferdinand de la Crone a obvykle se uvádí, že „Ladronka“ je jeho jméno, obroušené českou výslovností. Jiný výklad ho spojuje s italským ladrone, lupič. Za morové epidemie roku 1713, kdy byl břevnovský hřbitov plný, pohřbívali oběti do hromadného hrobu nedaleko odsud. Maltézští rytíři vlastnili statek od počátku 18. století až do roku 1922, kdy přešel na město.
+
+Dvacáté století k němu bylo kruté. Roku 1964 se stal kulturní památkou, a přesto dál chátral. V roce 1993 ho obsadili anarchističtí squatteři a provozovali tu nekomerční kulturní centrum, dokud je v listopadu 2000 nevystěhovala městská policie. Město pak budovy opravilo (otevřely se roku 2005 a v roce 2006 získaly titul Stavba roku) a parkem vedlo asfaltový okruh. Po rozšíření v roce 2010 měří hlavní okruh asi 4,2 km, zhruba desetinu maratonu, a Ladronka se stala nejznámějším bruslařským místem v Praze.
+
+🎁 Bonus: Místní kdysi zvolili Ladronku „sedmým divem Prahy 6“. Na místo, jehož jméno možná znamená jen „lupičárna“, to není špatné.`,
+      zh: `天气好的周末，布拉格六区好像有一半的人都在这座公园里转圈：玩轮滑的、踩滑板车的、推婴儿车的，偶尔还有一位胆子不小的老爷爷。草坡顶上是给这里起了名字的老庄园，如今是一座安安静静、带咖啡馆的社区文化中心。不过它的过去，可没这么安静。
+
+这块地方很有年头：据说查理四世在14世纪就在这里建过一座葡萄压榨坊，后来这里又开过驿站客栈，招待从布拉格往西走的旅人。1688年，土地卖给了菲利普·费迪南德·德拉克罗内伯爵。通常的说法是，“拉德龙卡”就是他的姓氏被捷克人念走了样；另一种说法则把它和意大利语里的“强盗”扯在一起。1713年闹瘟疫，布热夫诺夫的墓地埋满了，死者就被葬进了附近的一座万人坑。从18世纪初到1922年，庄园归马耳他骑士团所有，之后才转到市政府手里。
+
+20世纪对它可不客气。1964年它被列为文物，却照样一天天破败下去。1993年，一群无政府主义的占屋者住了进来，办起了不收钱的文化中心，直到2000年11月被城市警察清了出去。之后市政府把房子修好（2005年重新开放，2006年还拿了“年度建筑”奖），又在公园里铺了一圈沥青跑道。2010年扩建之后，主环线大约4.2公里，差不多是马拉松的十分之一，拉德龙卡也就成了布拉格最有名的轮滑胜地。
+
+🎁 彩蛋：本地人曾把拉德龙卡评为“布拉格六区第七大奇迹”。一个名字说不定只是“强盗窝”的地方，混成这样已经很不错了。`,
+    },
+  },
+  {
+    name: 'Clam-Gallas Palace',
+    slug: 'clam-gallasuv-palac',
+    localizedNames: { cz: 'Clam-Gallasův palác', zh: '克拉姆-加拉斯宫' },
+    labels: ['palace', 'baroque'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.0863856, lng: 14.4178606 },
+    rarity: 'epic',
+    xpReward: 50,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Clam-Gallas_Palace',
+    description: {
+      en: `Husova is a narrow Old Town street, which makes the doorway of this palace all the more startling: pairs of stone giants hold up its portals, straining under the weight like removal men who have just been told the piano goes upstairs. They have been at it for three hundred years, and nobody has offered to help.
+
+The palace was built in 1713–1719 for Count Jan Václav Gallas, an imperial diplomat who was briefly Viceroy of Naples, to a design by Johann Bernhard Fischer von Erlach, the leading architect of Vienna's Baroque. The giants (Atlantes, in the trade) and the Triton fountain in the courtyard come from the workshop of Matthias Bernhard Braun, who also gave Charles Bridge some of its finest saints. Inside, a grand staircase rises under a ceiling fresco of the Triumph of Apollo. From 1757 the family was called Clam-Gallas, and the palace kept the name.
+
+It was also a house of music. Beethoven performed here in 1796, and Mozart is said to have played here in 1787 with the singer Josefína Dušková, though that visit is less well documented. After the Old Town Hall burned in May 1945, the Prague City Archives moved in and stayed until 2017. The city has owned the palace since 1993 and now uses it for exhibitions, concerts and events. Of the two portals on Husova, only one is a real way in: the other is blind, there just to keep the facade symmetrical.
+
+🎁 Bonus: The staircase and halls have played other places on screen, including in the 2022 film Il Boemo about the Czech composer Josef Mysliveček, a friend of Mozart. A building where Mozart may or may not have played, standing in for the world Mozart really lived in.`,
+      cz: `Husova je úzká staroměstská ulice, a o to víc překvapí vchod do tohoto paláce: portály tu nesou páry kamenných obrů, kteří se pod tíhou napínají jako stěhováci, jimž právě řekli, že klavír jde do patra. Dělají to už tři sta let a pomoc jim zatím nikdo nenabídl.
+
+Palác vznikl v letech 1713–1719 pro hraběte Jana Václava Gallase, císařského diplomata a krátce i neapolského místokrále, podle návrhu Johanna Bernharda Fischera z Erlachu, předního architekta vídeňského baroka. Obři (odborně atlanti) a fontána s Tritonem na nádvoří pocházejí z dílny Matyáše Bernarda Brauna, od něhož má i Karlův most několik svých nejkrásnějších světců. Uvnitř stoupá velké schodiště pod stropní freskou Apollónova triumfu. Od roku 1757 se rod jmenoval Clam-Gallas a palác si to jméno ponechal.
+
+Byl to i dům hudby. Roku 1796 tu vystoupil Beethoven a Mozart tu prý hrál v roce 1787 se zpěvačkou Josefínou Duškovou, i když tahle návštěva je doložená hůř. Po požáru Staroměstské radnice v květnu 1945 se sem nastěhoval Archiv hlavního města Prahy a zůstal tu až do roku 2017. Město palác vlastní od roku 1993 a dnes v něm pořádá výstavy, koncerty a akce. Ze dvou portálů v Husově ulici vede dovnitř jen jeden, druhý je slepý a je tu jen kvůli souměrnosti průčelí.
+
+🎁 Bonus: Schodiště a sály si ve filmu zahrály i jiná místa, mimo jiné ve snímku Il Boemo (2022) o českém skladateli Josefu Myslivečkovi, Mozartově příteli. Dům, kde Mozart možná hrál a možná nehrál, tak hraje svět, ve kterém Mozart opravdu žil.`,
+      zh: `胡斯街是老城一条窄窄的街，所以这座宫殿的大门才格外让人一惊：一对对石头巨人扛着门廊，绷着全身的劲儿，活像刚被告知“钢琴要搬上楼”的搬家工人。他们已经这么扛了三百年，还没人过来搭把手。
+
+宫殿建于1713到1719年，主人是扬·瓦茨拉夫·加拉斯伯爵，一位帝国外交官，还短暂当过那不勒斯总督。设计者是维也纳巴洛克建筑的头号人物约翰·伯恩哈德·菲舍尔·冯·埃拉赫。门口的巨人（行话叫“阿特拉斯像”）和庭院里的特里同喷泉，出自马蒂亚斯·伯恩哈德·布劳恩的作坊，查理大桥上几尊最精彩的圣徒像也是他的手笔。宫里有一座气派的大楼梯，头顶是《阿波罗的凯旋》天顶画。从1757年起，这个家族改称克拉姆-加拉斯，宫殿也就跟着叫了这个名字。
+
+这里也是一座音乐之家。1796年贝多芬在这里演出过；据说1787年莫扎特也和女高音约瑟法·杜舍克在这里演奏过，不过这一次的记载要少一些。1945年5月老城市政厅被大火烧毁后，布拉格市档案馆搬了进来，一直待到2017年。市政府从1993年起拥有这座宫殿，现在用来办展览、音乐会和各种活动。胡斯街上的两座门廊只有一座能进去，另一座是假门，只是为了让立面左右对称。
+
+🎁 彩蛋：这里的楼梯和大厅在银幕上扮演过别的地方，比如2022年讲捷克作曲家约瑟夫·米斯利维切克的电影《波希米亚人》，他是莫扎特的朋友。一座莫扎特可能来过、也可能没来过的房子，就这样替莫扎特真正生活过的那个世界出镜了。`,
+    },
+  },
+  {
+    name: 'Quo Vadis (David Černý)',
+    slug: 'quo-vadis-trabant',
+    localizedNames: { cz: 'Quo vadis (David Černý)', zh: 'Quo Vadis 长腿特拉比' },
+    labels: ['monument', 'communism', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.0868519, lng: 14.3978647 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://www.davidcerny.cz/work/quo-vadis-trabant',
+    description: {
+      en: `In the garden of the German Embassy, a Trabant, the little plastic car of East Germany, stands on four long human legs, mid-stride, as if it had finally had enough of waiting and decided to walk to the West on its own. You can't go into the garden, but you can see the car from the public path on the Petřín side.
+
+The sculpture is by David Černý and remembers the autumn of 1989. East Germans could travel to Czechoslovakia, so thousands drove to Prague, left their cars in the streets of Malá Strana and climbed over the fence into this garden, then the West German embassy. By the end of September about four thousand people were camping here in the mud. On 30 September foreign minister Hans-Dietrich Genscher announced from the palace balcony that they could leave, and special trains took them west. Behind them, the streets were full of abandoned Trabants and Wartburgs.
+
+Černý made the first version in 1990 from fibreglass and metal, and it was shown in Old Town Square. In 2001 it was replaced here by a bronze cast that could stand up to the weather; Černý called it the largest bronze casting made in the country since 1990. The original went to the Forum of Contemporary History in Leipzig, in the former East Germany, where most of its passengers had come from.
+
+🎁 Bonus: The title is Latin for "Where are you going?", the question Peter asks Christ in the old legend as he flees Rome. For a car built in a country that didn't let its people go anywhere, the legs are the answer.`,
+      cz: `V zahradě německého velvyslanectví stojí trabant, malé plastové auto z NDR, na čtyřech dlouhých lidských nohách, uprostřed kroku, jako by ho čekání konečně omrzelo a rozhodl se dojít na Západ sám. Do zahrady se nesmí, ale z veřejné cesty od Petřína je auto vidět.
+
+Socha je dílem Davida Černého a připomíná podzim 1989. Východní Němci mohli cestovat do Československa, a tak tisíce z nich přijely do Prahy, nechaly auta stát v malostranských ulicích a přelezly plot do této zahrady, tehdy západoněmeckého velvyslanectví. Koncem září tu v blátě tábořilo asi čtyři tisíce lidí. Třicátého září oznámil ministr zahraničí Hans-Dietrich Genscher z balkonu paláce, že mohou odjet, a zvláštní vlaky je odvezly na Západ. Za nimi zůstaly ulice plné opuštěných trabantů a wartburgů.
+
+První verzi vytvořil Černý v roce 1990 ze sklolaminátu a kovu a byla vystavena na Staroměstském náměstí. Roku 2001 ji tu nahradil bronzový odlitek, který vydrží nepohodu; podle Černého šlo o největší bronzový odlitek vyrobený v zemi od roku 1990. Originál odešel do Fóra soudobých dějin v Lipsku, v bývalé NDR, odkud byla většina jeho pasažérů.
+
+🎁 Bonus: Název je latinsky „Kam jdeš?“, otázka, kterou podle staré legendy klade Petr Kristu, když prchá z Říma. U auta ze země, která své lidi nikam nepouštěla, odpovídají nohy.`,
+      zh: `德国大使馆的花园里，站着一辆特拉比，就是东德那种小小的塑料车，下面长着四条长长的人腿，正迈着步子，好像终于等烦了，决定自己走去西方。花园进不去，但从佩特任山那一侧的公共小路上就能看见它。
+
+这件雕塑出自大卫·切尔尼之手，纪念的是1989年秋天。那时东德人可以去捷克斯洛伐克旅行，于是成千上万的人开车来到布拉格，把车往小城区的街上一扔，翻过栅栏跳进这座花园，也就是当时的西德大使馆。到9月底，大约四千人在这里的泥地里搭帐篷过日子。9月30日，西德外长根舍在宫殿的阳台上宣布他们可以走了，专列把他们送往西方。身后的街上，留下满地被丢弃的特拉比和瓦特堡。
+
+切尔尼1990年用玻璃钢和金属做了第一版，在老城广场展出过。2001年，这里换上了一件不怕风吹雨淋的青铜铸件；切尔尼说，这是1990年以来国内铸造的最大一件青铜作品。原版则去了莱比锡的当代历史论坛，也就是前东德，它那些乘客大多正是从那儿来的。
+
+🎁 彩蛋：标题是拉丁语“你往哪里去？”，传说中彼得逃离罗马时向基督问的就是这句话。对一辆出自“哪儿也不让去”的国家的车来说，这四条腿就是回答。`,
     },
   },
 ];
