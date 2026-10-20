@@ -27702,6 +27702,14 @@ export const historyEvents = [
       ],
     },
     wikipediaUrl: "https://en.wikipedia.org/wiki/Old_Town_Square_execution",
+    images: ["/history/the-reckoning-after-winter-1621.webp"],
+    imageCaptions: [
+      {
+        en: "Before dawn on 20 February 1621, in an Old Town street: an officer reads from the list by lantern light while two soldiers lead an elderly nobleman, still in his nightshirt under a fur gown, out of his house. His wife watches from the doorway with a candle, neighbours peer from behind their shutters, and further down the street another squad is knocking at another door.",
+        cz: "Před svítáním 20. února 1621 v ulici na Starém Městě: důstojník čte při světle lucerny ze seznamu a dva vojáci vyvádějí z domu starého šlechtice, ještě v noční košili pod kožešinovým pláštěm. Jeho žena se dívá ze dveří se svíčkou, sousedé vykukují zpoza okenic a o kus dál v ulici buší další oddíl na jiné dveře.",
+        zh: "1621年2月20日天亮之前，老城的一条街上：一名军官就着灯笼的光念着名单，两个士兵把一位老贵族押出家门，他睡衣外面只匆匆披了件皮袍。他的妻子举着蜡烛站在门口，邻居们躲在百叶窗后偷看；街道更远处，另一队士兵正在敲另一扇门。",
+      },
+    ],
   },
 ];
 
