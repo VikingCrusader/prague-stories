@@ -32527,6 +32527,41 @@ První verzi vytvořil Černý v roce 1990 ze sklolaminátu a kovu a byla vystav
 🎁 彩蛋：标题是拉丁语“你往哪里去？”，传说中彼得逃离罗马时向基督问的就是这句话。对一辆出自“哪儿也不让去”的国家的车来说，这四条腿就是回答。`,
     },
   },
+  {
+    name: '27 Crosses on Old Town Square',
+    slug: '27-krizu-staromestske-namesti',
+    localizedNames: { cz: '27 křížů na Staroměstském náměstí', zh: '老城广场上的二十七个十字' },
+    labels: ['monument', 'early-modern'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.0872100600146, lng: 14.420767029253126 },
+    rarity: 'superior',
+    xpReward: 30,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Old_Town_Square_execution',
+    description: {
+      en: `In front of the Old Town Hall, under the astronomical clock, crowds gather every hour, faces turned upward, waiting for the figures to move. Few people look down. Set into the paving at their feet are twenty-seven white crosses. They mark the place where a scaffold stood on 21 June 1621.
+
+After the defeat at the White Mountain in 1620, the leaders of the Bohemian uprising were arrested and tried. On the morning of 21 June 1621 a cannon shot from the castle gave the signal, and between five and nine o'clock twenty-seven men were put to death here: three lords, seven knights and seventeen burghers. Among them were the scholar and diplomat Václav Budovec, the traveller and composer Kryštof Harant, the eighty-six-year-old Kašpar Kaplíř and the physician Jan Jesenius, once rector of the university. The heads of twelve of them were hung in iron baskets on the Old Town Bridge Tower, where they stayed for ten years.
+
+The white crosses were set into the pavement after the Second World War, during repairs to the town hall, together with crossed swords and a crown of thorns. A plaque on the east wall of the town hall gives the names of the executed. Today there are in fact twenty-eight crosses: the extra one remembers Martin Fruwein, who died in a fall from the White Tower at the castle before he could be brought to trial.
+
+🎁 Bonus: Flowers and candles still appear on the crosses, especially around 21 June. Next time you wait under the clock for the hour to strike, look down for a moment.`,
+      cz: `Před Staroměstskou radnicí, pod orlojem, se každou celou hodinu shlukují davy s hlavami zakloněnými vzhůru a čekají, až se figurky pohnou. Málokdo se podívá pod nohy. V dlažbě tam je vsazeno sedmadvacet bílých křížů. Označují místo, kde 21. června 1621 stálo popraviště.
+
+Po porážce na Bílé hoře roku 1620 byli vůdci stavovského povstání zatčeni a souzeni. Ráno 21. června 1621 dal výstřel z hradního děla znamení a mezi pátou a devátou hodinou zde bylo popraveno sedmadvacet mužů: tři páni, sedm rytířů a sedmnáct měšťanů. Byli mezi nimi učenec a diplomat Václav Budovec, cestovatel a skladatel Kryštof Harant, šestaosmdesátiletý Kašpar Kaplíř a lékař Jan Jesenius, někdejší rektor univerzity. Hlavy dvanácti z nich byly v železných koších vystaveny na Staroměstské mostecké věži a zůstaly tam deset let.
+
+Bílé kříže byly do dlažby vsazeny po druhé světové válce při opravě radnice, spolu se zkříženými meči a trnovou korunou. Na východní stěně radnice připomíná jména popravených pamětní deska. Dnes je tu křížů ve skutečnosti dvacet osm: ten navíc připomíná Martina Fruweina, který zemřel pádem z Bílé věže na Pražském hradě dřív, než mohl být postaven před soud.
+
+🎁 Bonus: Na křížích se dodnes objevují květiny a svíčky, zvlášť kolem 21. června. Až budete příště pod orlojem čekat, až odbije hodina, podívejte se na chvíli pod nohy.`,
+      zh: `老城市政厅前，天文钟底下，每到整点都挤满了仰着头等报时的游客。很少有人低头。就在他们脚下的石板路上，嵌着二十七个白色的十字。它们标出的，是1621年6月21日那座刑台站过的地方。
+
+1620年白山之战以后，波希米亚起义的领袖们被捕受审。1621年6月21日清晨，城堡上一声炮响，从五点到九点，二十七个人在这里被处决：三位贵族、七位骑士、十七位市民。其中有学者兼外交家布多韦茨、旅行家兼作曲家哈兰特、八十六岁的卡普利日，还有当过大学校长的医生耶森纽斯。其中十二个人的头，被装进铁笼，挂在了老城桥塔上，一挂就是十年。
+
+这些白十字是二战以后修缮市政厅时嵌进去的，旁边还有交叉的剑和荆棘冠的图案。市政厅东面的墙上，有一块纪念牌，刻着他们的名字。如今这里其实有二十八个十字：多出来的一个，纪念的是马丁·弗鲁温。他在受审之前，就从城堡的白塔上坠下身亡。
+
+🎁 彩蛋：直到今天，十字上还常有人放下鲜花和蜡烛，6月21日前后尤其多。下次站在天文钟下等报时，不妨低头看一眼。`,
+    },
+  },
 ];
 
 async function run() {

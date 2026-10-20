@@ -27711,6 +27711,119 @@ export const historyEvents = [
       },
     ],
   },
+  // The Old Town Square execution, 21 June 1621, the user's draft
+  // (2026-10-20), lightly corrected:
+  // - Rainbow quote: Comenius, "Historie o těžkých protivenstvích církve
+  //   české" ("A hned při samém východu slunce zvěstováno, že velmi pěkná duha
+  //   na nebi se ukázala"); he was hiding in Moravia, not in Prague. Same
+  //   source: Jan Kutnauer told the others God was showing them the way to
+  //   heaven; Kutnauer was one of the three hanged, used here.
+  // - Most scaffold details (5 a.m. cannon, done by nine, Šlik's pastors,
+  //   prayer book, servant, black velvet coat, blood on the crucifix,
+  //   Kaplíř helped up and his last words) follow Echo24, "Mistrovská
+  //   choreografie smrti" (2021), itself retelling the period accounts;
+  //   Kaplíř's words are framed as "as later accounts record".
+  // - Šlik: beheaded first, then his right hand cut off (the draft had the
+  //   hand first); head and hand on the bridge tower.
+  // - Wallenstein's regiment around the scaffold: the praha1.cz review of
+  //   Jan Kilián's book. Not named on purpose (the user's hint, "few yet
+  //   remembered his name"); pay off at Wallenstein's entrance.
+  // - Budovec was 70 (born 1551), not "over seventy". The heads stayed ten
+  //   years (removed in 1631); the card says "many years" so the 1631 card
+  //   can tell it. "Facing the castle where they threw men out of the
+  //   window" was dropped as unverified; the heads hung over the bridge.
+  {
+    slug: "twenty-seven-1621",
+    era: "fire-and-ashes",
+    startYear: 1621.47,
+    year: {
+      en: "21 June 1621",
+      cz: "21. června 1621",
+      zh: "1621年6月21日",
+    },
+    tone: "serious",
+    title: {
+      en: "Twenty-Seven on the Old Town Square",
+      cz: "Sedmadvacet na Staroměstském náměstí",
+      zh: "老城广场的二十七个人",
+    },
+    hookLine: {
+      en: "At five in the morning on 21 June 1621, a cannon fired at the castle. Four hours later, on the Old Town Square, not one of the twenty-seven was left alive.",
+      cz: "Dvacátého prvního června 1621 v pět ráno zahřmělo na hradě dělo. O čtyři hodiny později nezůstal na Staroměstském náměstí naživu ani jeden ze sedmadvaceti.",
+      zh: "1621年6月21日，清晨五点，城堡上响了一炮。四个钟头后，老城广场上，二十七个人一个也不在了。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "And at the very moment the sun rose, word came that a very beautiful rainbow had appeared in the sky.",
+          cz: "A hned při samém východu slunce zvěstováno, že velmi pěkná duha na nebi se ukázala.",
+          zh: "太阳刚刚升起，就有人来报，说天上出现了一道非常美丽的彩虹。",
+        },
+        attribution: {
+          en: "Jan Amos Comenius, History of the Severe Persecutions of the Bohemian Church (he was hiding in Moravia, not in Prague, that day)",
+          cz: "Jan Amos Komenský, Historie o těžkých protivenstvích církve české (sám byl toho dne ukryt na Moravě, ne v Praze)",
+          zh: "夸美纽斯《波希米亚教会苦难史》（那天他躲在摩拉维亚，不在布拉格）",
+        },
+      },
+      {
+        text: {
+          en: "In God's name! I have waited long enough already!",
+          cz: "Ve jméno Boží, však jsem se již dlouho načekal!",
+          zh: "以上帝的名义！我已经等了很久了！",
+        },
+        attribution: {
+          en: "Kašpar Kaplíř's last words on the scaffold, as later accounts record them",
+          cz: "Poslední slova Kašpara Kaplíře na popravišti, jak je zaznamenávají pozdější vyprávění",
+          zh: "卡普利日在刑台上的最后一句话（据后来的记载）",
+        },
+      },
+    ],
+    summary: {
+      en: "Monday, 21 June.\n\nJust after daybreak, a rainbow appeared over Prague.\n\nThe weather had been clear and dry for days, with no rain at all. Yet just as the sun came up, a rainbow hung over the city. Years later the exiled Comenius wrote it into his book:\n\n[[quote:0]]\n\nThe condemned men, locked in the Old Town Hall, heard about it too. One of them, a townsman named Kutnauer, told the others: God is showing us that He is on our side, and pointing us the way to heaven.\n\nSome later said heaven had been weeping; others said it had been comforting them; others still, that it was a sign God stood with the victors.\n\nOn the Old Town Square, the black-draped scaffold was ready.\n\nRing after ring of soldiers surrounded it. The emperor wanted no trouble: no slogans, no disturbance, and above all no attempt to snatch the prisoners. Among the troops guarding the scaffold was a regiment that a Czech nobleman had raised at his own expense. At the time, few people could remember his name.\n\nThe square was packed with people, and no one spoke.\n\n[[b]]That morning, the busiest square in the city was so quiet you could hear the pigeons' wings.[[/b]]\n\nAt five o'clock sharp, a cannon fired at the castle.\n\nThe execution had begun.\n\nThe twenty-seven men were held in the Old Town Hall. In the order of the sentences, they were brought out one by one and led up onto the scaffold.\n\nThe executioner was Jan Mydlář, Prague's old headsman. He himself was a Utraquist, like many of the men on the scaffold, and before he did his work he could pray with them.\n\nThe first to climb the scaffold was the old Count Šlik.\n\nHe was fifty-two, one of the leaders of the rising. Less than two years earlier, when Frederick was crowned, he had been one of the grandest lords at the new court. Two Lutheran pastors walked beside him, and he held a prayer book. His servant undid the buttons of his black velvet coat, and he knelt on the black cloth.\n\nWhen the sword fell, his blood spattered the crucifix at the edge of the platform.\n\nThen his right hand was cut off too. Later, head and hand were hung together on the Old Town Bridge Tower.\n\n[[b]]Less than two years earlier he had stood beside the new king. That morning he was the first to climb the scaffold.[[/b]]\n\nThen came one after another.\n\nLords, knights and townsmen. Some prayed, some sang hymns, some said nothing at all.\n\nOne of them was Václav Budovec, seventy years old, a famous scholar. As a young man he had travelled half of Europe and been to Constantinople, and he had written books. Twelve years earlier, when Rudolf was pushed into signing the [[link:in-black-and-white-1609]]Letter of Majesty[[/link]], he had done more than almost anyone to make it happen.\n\nAnother was Kryštof Harant, a composer and a traveller. He had been to Venice, to Egypt and to Jerusalem, and came home to write a thick book about his journey.\n\nThe oldest was Kašpar Kaplíř, eighty-six. He could no longer walk on his own, and had to be helped up onto the scaffold.\n\nOnce he was up, he called out:\n\n[[quote:1]]\n\n[[b]]An old man of eighty-six had waited all his life, and what came at last was a sword.[[/b]]\n\nThe cruellest fate was the physician Jesenius's.\n\nMore than twenty years earlier he had performed a public dissection of a human body in Prague, and the whole city had come to watch. He had been rector of the university, and during the rising he had gone to Hungary as the estates' envoy.\n\nHis sentence was heavier than anyone's: first his tongue was cut out, then his head was cut off. After his death his body was cut into four and nailed to stakes outside the city.\n\n[[b]]Once he had opened up a body in public at the university. This time, others opened up his.[[/b]]\n\nNot all of them were beheaded.\n\nThree townsmen were sentenced to hang, and were hanged from a beam jutting out of a window of the Old Town Hall. Kutnauer, who that morning had called the rainbow a good sign, was one of them. To people of the time, this was the most shameful death of all.\n\nThe Old Town clerk Diviš was not put to death, but he was sentenced to have his tongue nailed to the gallows for an hour. His crime: more than a year before, he had welcomed the new king Frederick on behalf of the Old Town.\n\nOne after another. About nine minutes for each man.\n\nBy nine o'clock it was all over.\n\nOn the scaffold there was nothing left but black cloth, blood and a heap of sawdust.\n\nOf the twenty-seven, twelve had their heads put into iron baskets and hung on the Old Town Bridge Tower by the Charles Bridge, right above the head of everyone who crossed.\n\nThey would hang there for many years.",
+      cz: "Pondělí 21. června.\n\nKrátce po rozednění se nad Prahou objevila duha.\n\nUž několik dní bylo jasno a sucho, ani kapka deště. A přece, právě když vyšlo slunce, se nad městem klenula duha. Po letech ji vyhnanec Komenský zapsal do své knihy:\n\n[[quote:0]]\n\nDozvěděli se o ní i odsouzení, zavření ve Staroměstské radnici. Jeden z nich, měšťan Kutnauer, řekl ostatním: Bůh se k nám přiznává a ukazuje nám cestu k nebi.\n\nPozději jedni říkali, že nebe plakalo, jiní, že je utěšovalo, a další, že to bylo znamení, že Bůh stojí při vítězích.\n\nNa Staroměstském náměstí už stálo hotové popraviště potažené černým suknem.\n\nObkružovala je jedna řada vojáků za druhou. Císař nechtěl žádné potíže: žádné výkřiky, žádný nepokoj a už vůbec ne pokus vězně osvobodit. Mezi vojáky, kteří hlídali popraviště, byl i pluk, který si jeden český šlechtic naverboval za vlastní peníze. Tehdy si jeho jméno pamatoval málokdo.\n\nNáměstí bylo plné lidí a nikdo nemluvil.\n\n[[b]]Nejrušnější náměstí ve městě bylo toho rána tak tiché, že bylo slyšet křídla holubů.[[/b]]\n\nPřesně v pět zahřmělo na hradě dělo.\n\nPoprava začala.\n\nSedmadvacet mužů drželi ve Staroměstské radnici. V pořadí podle rozsudků je vyváděli jednoho po druhém na popraviště.\n\nKatem byl Jan Mydlář, starý pražský kat. Sám byl utrakvista jako mnozí z mužů na lešení, a než se dal do práce, mohl se s nimi pomodlit.\n\nPrvní vystoupil na popraviště starý hrabě Šlik.\n\nBylo mu dvaapadesát a patřil k vůdcům povstání. Necelé dva roky předtím, když byl Fridrich korunován, byl jedním z nejpřednějších pánů nového dvora. Po boku mu šli dva luterští kazatelé a v ruce držel modlitební knížku. Sluha mu rozepnul černý sametový kabátec a on poklekl na černé sukno.\n\nKdyž meč dopadl, jeho krev potřísnila krucifix na okraji lešení.\n\nPak mu uťali i pravou ruku. Hlava i ruka později visely spolu na Staroměstské mostecké věži.\n\n[[b]]Necelé dva roky předtím stál po boku nového krále. Toho rána vystoupil na popraviště jako první.[[/b]]\n\nPak jeden za druhým.\n\nPáni, rytíři i měšťané. Jedni se modlili, jiní zpívali žalmy, další neřekli ani slovo.\n\nByl mezi nimi Václav Budovec, sedmdesátiletý, proslulý učenec. Za mlada procestoval půl Evropy, byl v Cařihradu a psal knihy. Před dvanácti lety, když byl Rudolf dotlačen k podpisu [[link:in-black-and-white-1609]]Majestátu[[/link]], udělal pro to snad víc než kdokoli jiný.\n\nDalší byl Kryštof Harant, skladatel a cestovatel. Byl v Benátkách, v Egyptě i v Jeruzalémě a po návratu o své cestě napsal tlustou knihu.\n\nNejstarší byl šestaosmdesátiletý Kašpar Kaplíř. Sám už chodit nemohl a na popraviště ho museli podpírat.\n\nKdyž byl nahoře, zvolal:\n\n[[quote:1]]\n\n[[b]]Šestaosmdesátiletý stařec čekal celý život, a nakonec se dočkal meče.[[/b]]\n\nNejkrutější byl osud lékaře Jesenia.\n\nPřed více než dvaceti lety v Praze veřejně pitval lidské tělo a celé město se na to přišlo podívat. Byl rektorem univerzity a za povstání jezdil jako vyslanec stavů do Uher.\n\nJeho rozsudek byl těžší než všechny ostatní: nejdřív mu vyřízli jazyk, pak ho sťali. Po smrti jeho tělo rozčtvrtili a přibili na kůly za městem.\n\n[[b]]Kdysi na univerzitě veřejně otevřel cizí tělo. Tentokrát otevřeli veřejně to jeho.[[/b]]\n\nNe všichni byli sťati.\n\nTři měšťané byli odsouzeni k oběšení a pověsili je na trám vystrčený z okna Staroměstské radnice. Jedním z nich byl Kutnauer, ten, kdo ráno nazval duhu dobrým znamením. Pro tehdejší lidi to byla ta nejpotupnější smrt.\n\nStaroměstský písař Diviš popraven nebyl, ale byl odsouzen k tomu, aby měl hodinu jazyk přibitý k šibenici. Jeho zločin: před více než rokem jménem Starého Města uvítal nového krále Fridricha.\n\nJeden za druhým. Na každého asi devět minut.\n\nV devět bylo hotovo.\n\nNa lešení zbylo jen černé sukno, krev a hromádka pilin.\n\nZe sedmadvaceti mělo dvanáct hlavy vložené do železných košů a vyvěšené na Staroměstské mostecké věži u Karlova mostu, přímo nad hlavou každého, kdo šel přes most.\n\nVisely tam mnoho let.",
+      zh: "6月21日，星期一。\n\n天刚亮，布拉格的上空出现了一道彩虹。\n\n那几天一直是晴天，空气干燥，好几天没下过一滴雨。偏偏就在太阳刚出来的时候，一道彩虹挂在了城市上空。多年以后，流亡在外的夸美纽斯把它写进了书里：\n\n[[quote:0]]\n\n关在老城市政厅里的死囚们也听说了。其中一位叫库特瑙尔的市民，对同伴们说：上帝这是在向我们表明心意，给我们指出通往天堂的路。\n\n后来，有人说那是上天在哭，有人说是上天在安慰这些人，也有人说，那是上帝站在胜利者一边的记号。\n\n老城广场上，那座蒙着黑布的刑台，已经搭好了。\n\n台子四周，围着一圈又一圈的士兵。皇帝不想出任何乱子：不许有人喊口号，不许有人闹事，更不许有人劫法场。守在台子边的，有一个团，是一位捷克贵族自己花钱招来的兵。那时候，还没几个人记得住他的名字。\n\n广场上挤满了人，可没有人说话。\n\n[[b]]一座城里最热闹的广场，这天早上，安静得能听见鸽子扑翅膀。[[/b]]\n\n五点整，城堡上传来一声炮响。\n\n行刑开始了。\n\n二十七个人关在老城市政厅里，按照判决书上的次序，一个接一个地被带出来，走上刑台。\n\n刽子手叫扬·米德拉日，是布拉格的老刽子手。他自己信的也是圣杯派，跟台上的许多人一样，行刑之前，还能跟他们一起祈祷。\n\n第一个走上刑台的，是老施利克伯爵。\n\n他五十二岁，是起义的领袖之一。不到两年前，腓特烈加冕的时候，他是新朝廷里最显赫的贵族之一。他身边跟着两位路德宗的牧师，手里拿着一本祈祷书。他的仆人替他解开黑丝绒外衣的扣子，他在黑布上跪了下来。\n\n刀落下的时候，血溅到了台边的十字架上。\n\n随后，他的右手也被砍了下来。头和手，后来一起挂上了老城桥塔。\n\n[[b]]不到两年前，他站在新国王身边；这天早上，他第一个走上了刑台。[[/b]]\n\n接着是一个又一个。\n\n有贵族，有骑士，也有市民。有人祷告，有人唱圣歌，有人一言不发。\n\n其中有一位，叫瓦茨拉夫·布多韦茨，七十岁了，是有名的学者，年轻时游历过半个欧洲，去过君士坦丁堡，写过书。十二年前，鲁道夫被逼着签下[[link:in-black-and-white-1609]]《宗教自由诏书》[[/link]]，他是出力最多的人之一。\n\n还有一位，叫克里斯托夫·哈兰特，是作曲家，也是旅行家。他去过威尼斯，去过埃及，还去过耶路撒冷，回来写了一本厚厚的游记。\n\n年纪最大的，是卡斯帕尔·卡普利日，八十六岁。他已经走不动了，得由人搀着才上得了刑台。\n\n他上了台，喊出了一句话：\n\n[[quote:1]]\n\n[[b]]八十六岁的老人等了一辈子，等来的是一把刀。[[/b]]\n\n最惨的，是医生耶森纽斯。\n\n二十多年前，他在布拉格当众解剖过一具尸体，全城的人都去看。他当过布拉格大学的校长，起义的时候，还替等级们出使过匈牙利。\n\n判决给他的，比别人都重：先割舌头，再砍头。死后，他的身子还被分成四块，钉在了城外的木桩上。\n\n[[b]]当年，他在大学里当众剖开别人的身体；这一回，轮到别人当众剖开了他。[[/b]]\n\n不是所有人都被砍了头。\n\n有三位市民被判了绞刑，吊死在了老城市政厅窗口伸出来的横梁上。早上说彩虹是好兆头的库特瑙尔，就是其中一个。对当时的人来说，这是最不体面的死法。\n\n老城的书记官迪维什，没有被处死，可他被判把舌头钉在绞架上，钉了一个钟头。他的罪名是：一年多以前，他代表老城，欢迎过新国王腓特烈。\n\n一个接一个。每个人，大约九分钟。\n\n九点钟，一切都结束了。\n\n刑台上只剩下黑布、血，和一堆木屑。\n\n二十七个人里，有十二个人的头被装进了铁笼子，挂在了查理大桥边的老城桥塔上，就在每个过桥的人头顶上。\n\n它们在那里，一挂就挂了很多年。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "27-krizu-staromestske-namesti",
+        relation: {
+          en: "Twenty-seven white crosses in the paving in front of the Old Town Hall mark where the scaffold stood",
+          cz: "Sedmadvacet bílých křížů v dlažbě před Staroměstskou radnicí označuje místo, kde stálo popraviště",
+          zh: "老城市政厅前的石板路上，二十七个白色的十字，标着当年刑台所在的地方",
+        },
+      },
+      {
+        slug: "old-town-hall",
+        relation: {
+          en: "The condemned were held here and led out one by one; three were hanged from a beam at one of its windows",
+          cz: "Odsouzení tu byli drženi a vyváděni jeden po druhém; tři pověsili na trám u jednoho z jejích oken",
+          zh: "死囚们就关在这里，一个接一个被带出去；有三个人，被吊死在它窗口伸出的横梁上",
+        },
+      },
+      {
+        slug: "staromestska-mostecka-vez",
+        relation: {
+          en: "Twelve of the heads hung here in iron baskets. Seven months earlier, the Winter King's family had passed through this tower into the Old Town",
+          cz: "Dvanáct hlav tu viselo v železných koších. Před sedmi měsíci tudy do Starého Města prošla rodina Zimního krále",
+          zh: "十二颗人头被装进铁笼，挂在这座桥塔上。七个多月以前，冬王一家就是从这里过桥进的老城",
+        },
+      },
+    ],
+    referenceMaps: {
+      links: [
+        {
+          label: "2021",
+          description: {
+            en: "\"A masterly choreography of death\": a detailed account of the execution, 400 years on (Echo24, in Czech)",
+            cz: "„Mistrovská choreografie smrti“: podrobné líčení popravy ke 400. výročí (Echo24)",
+            zh: "《精心编排的死亡》：400周年时对这场处决的详细叙述（Echo24，捷克文）",
+          },
+          url: "https://www.echo24.cz/a/Sq8cm/mistrovska-choreografie-smrti-poprava-na-staromestskem-namesti",
+        },
+      ],
+    },
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Old_Town_Square_execution",
+  },
 ];
 
 // Era-overview cards live in their own file (see historyOverviews.js).
