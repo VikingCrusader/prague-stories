@@ -28079,9 +28079,9 @@ export const historyEvents = [
     },
     tone: "serious",
     title: {
-      en: "Why Him?",
-      cz: "Proč zrovna on?",
-      zh: "凭什么是他",
+      en: "The Emperor's Czech Commander",
+      cz: "Císařův český vojevůdce",
+      zh: "皇帝的捷克统帅",
     },
     hookLine: {
       en: "A Czech, and a Protestant only a few years before. Yet the emperor handed him an entire army.",
