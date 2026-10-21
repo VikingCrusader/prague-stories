@@ -28297,7 +28297,11 @@ export const historyEvents = [
         }
       }
     ],
-    "wikipediaUrl": "https://cs.wikipedia.org/wiki/Rekatolizace"
+    "wikipediaUrl": "https://cs.wikipedia.org/wiki/Rekatolizace",
+    "images": ["/history/convert-or-leave-1627.webp"],
+    "imageCaptions": [
+      {"en": "Prague, Old Town Square, in the years of the forced conversions. On the Týn Church gable the king's statue and the golden chalice come down and a statue of the Virgin goes up, while the Catholic crowd cheers and a Jesuit gives his blessing. Under the arcade on the right, Protestant families with their bundles, Comenius among them, look back at the city before leaving.", "cz": "Praha, Staroměstské náměstí, v letech násilných konverzí. Ze štítu Týnského chrámu sjíždí socha krále a zlatý kalich a nahoru stoupá socha Panny Marie; katolický dav jásá a jezuita žehná. Pod podloubím vpravo se protestantské rodiny s uzlíky, mezi nimi Komenský, naposledy ohlížejí po městě, než odejdou.", "zh": "强制改宗那几年的布拉格老城广场。泰恩教堂的山墙上，国王像和金色圣杯被吊了下来，圣母像被拉了上去；天主教的人群在欢呼，一位耶稣会士举手祝福。右边的拱廊下，背着行李的新教家庭准备离开，夸美纽斯也在其中，他们回过头，最后再看一眼这座城市。"}
+    ]
   },
   // Split from convert-or-leave-1627 at the user's call (2026-10-21): that
   // card is about faith, this one about the state. Title the user's pick.
