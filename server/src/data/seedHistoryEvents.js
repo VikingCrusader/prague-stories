@@ -28210,6 +28210,95 @@ export const historyEvents = [
       },
     ],
   },
+  // Written 2026-10-21 from Claude's draft (user's outline: bridge from 1622,
+  // the Týn chalice, a quote). Facts: Calvinist preachers expelled March
+  // 1621, Utraquist and Brethren clergy end of 1621, German Lutherans a year
+  // later (Maček, ETF UK); Týn to the Jesuits 1623, the king's statue and the
+  // chalice replaced by Bechteler's Madonna 1626 (prague.eu; the halo and the
+  // 2017 chalice are told in the-bells-toll-twice-1471, not retold here);
+  // Our Lady Victorious rededicated 8 Sept 1624, Infant Jesus given by
+  // Polyxena 1628; patent of 9 April 1624; Renewed Land Ordinance May 1627;
+  // nobles' patent 31 July 1627 (six months: common textbook figure, not
+  // checked in a primary source); "a quarter of noble families stayed"
+  // (en.wikipedia, Czech nobility); Comenius left 4 Feb 1628, the kneeling at
+  // the border is tradition (place disputed). Quote: Kšaft (1650), the
+  // passage confirmed via the English translation; Czech wording as usually
+  // cited.
+  {
+    "slug": "convert-or-leave-1627",
+    "era": "fire-and-ashes",
+    "startYear": 1627,
+    "year": {
+      "en": "1621–1628",
+      "cz": "1621–1628",
+      "zh": "1621年至1628年"
+    },
+    "tone": "serious",
+    "title": {
+      "en": "Convert or Leave",
+      "cz": "Konvertovat, nebo odejít",
+      "zh": "要么改宗，要么离开"
+    },
+    "hookLine": {
+      "en": "The emperor gave the Bohemians two roads: become a Catholic, or leave the land.",
+      "cz": "Císař dal Čechům dvě cesty: stát se katolíkem, nebo opustit zemi.",
+      "zh": "皇帝给了波希米亚人两条路：改信天主教，或者离开这片土地。"
+    },
+    "summary": {
+      "en": "In fact, these accounts had started to be settled before the scaffold ever went up on the Old Town Square.\n\nIn March 1621 the emperor drove the Calvinist preachers out of Bohemia. At the end of that year it was the turn of the Utraquist and Brethren clergy. The German Lutheran preachers, who had the Elector of Saxony speaking up for them, were allowed a year's grace, and then they were driven out too.\n\n[[b]]For the first time in two hundred years, since Hus, no Utraquist voice was heard from the pulpits of Prague.[[/b]]\n\nWith the pulpits empty, the churches and schools changed hands.\n\nCharles University, where [[link:who-is-jan-hus-1412]]Hus[[/link]] had once been rector, was handed to the Jesuits. The Týn Church in the Old Town, the Utraquists' stronghold for two hundred years, went to the Jesuits in 1623.\n\nIn the Lesser Town stood a church that German Lutherans had finished building only a dozen years before. In 1624 the emperor gave it to the Carmelite friars, who renamed it the Church of Our Lady Victorious, in honour of the victory at White Mountain. [[link:two-hours-1620]]Friar Dominic[[/link]], who had held up the painting on the battlefield, belonged to the same order.\n\nIn April that year the emperor issued a decree: in Bohemia only one faith was allowed, the Catholic one. No one who was not a Catholic could be a citizen of a royal town or join a guild.\n\nSometimes a squad of soldiers was quartered in the house of a family that would not convert, eating their food and drinking their beer. They moved out when the family changed its mind.\n\nIn 1626 it was the turn of the Týn Church gable.\n\nFor over a hundred and fifty years, high above the Old Town where everyone could see it, there had stood the statue of a king, with a huge gilded chalice above his head. The king was [[link:the-bells-toll-twice-1471]]George of Poděbrady[[/link]].\n\nThat year the Jesuits had scaffolding put up, and the king and the chalice were taken down together. In their place went a statue of the Virgin.\n\n[[b]]The chalice over the Old Town was gone.[[/b]]\n\nBut the last step was still to come.\n\nIn May 1627 the emperor proclaimed the Renewed Land Ordinance. From now on the king of Bohemia would no longer be elected by the diet; the crown would pass by inheritance in the House of Habsburg. German was made equal to Czech. Catholicism was the only lawful faith.\n\nOf the [[link:the-diet-decides-1619]]rules the diet had written for itself[[/link]] eight years before, not one was left.\n\nIn July another decree followed, this time aimed at the nobility: within six months they were to become Catholics, or sell their estates and leave the country.\n\nThe peasants did not even have that choice. They were not allowed to leave; they could only convert.\n\nWhat Ferdinand had [[link:the-new-king-1617]]once said[[/link]] had come true.\n\nThousands chose to leave. Nobles, townspeople, pastors, teachers and craftsmen set off with carts and bundles for Saxony, Silesia, Lusatia and Poland. By one estimate, only about a quarter of the noble families of Bohemia before White Mountain stayed on.\n\nIn February 1628 a pastor of the Brethren took the road as well. His name was Jan Amos Comenius. He was thirty-five and had spent several years in hiding at home. He crossed the border to Leszno in Poland. It is said that on a hillside at the border he stopped, knelt, and looked back at Bohemia one last time.\n\nHe never came back. More than twenty years later, still in exile, he wrote:\n\n[[quote:0]]\n\nIn the very year Comenius left, the Church of Our Lady Victorious in the Lesser Town received a gift. It came from [[link:dung-or-angels-1618]]Polyxena[[/link]], who ten years earlier had hidden Slavata in her palace after his fall from the window. What she gave the friars was a small statue of the Christ Child. It became the Infant Jesus of Prague, known to Catholics all over the world.\n\nOne man left; one statue arrived.\n\nWhen those who were leaving looked back at Prague for the last time, there was no longer a chalice on the gable of the Týn Church.",
+      "cz": "Ve skutečnosti se tyhle účty začaly vyrovnávat už dřív, než na Staroměstském náměstí vyrostlo popraviště.\n\nV březnu 1621 vyhnal císař z Čech kalvínské kazatele. Koncem téhož roku přišli na řadu kněží podobojí a bratrští. Němečtí luteránští kazatelé, za které se přimlouval saský kurfiřt, směli zůstat o rok déle, a pak byli vyhnáni také.\n\n[[b]]Poprvé za dvě stě let, od Husových časů, nezazněl z pražských kazatelen hlas kališníků.[[/b]]\n\nKazatelny osiřely a kostely i školy dostaly nové pány.\n\nKarlova univerzita, kde byl kdysi [[link:who-is-jan-hus-1412]]Hus[[/link]] rektorem, připadla jezuitům. Týnský chrám na Starém Městě, dvě stě let bašta kališníků, dostali jezuité roku 1623.\n\nNa Malé Straně stál kostel, který němečtí luteráni dostavěli teprve před tuctem let. Roku 1624 ho císař dal karmelitánům a ti ho zasvětili Panně Marii Vítězné, na památku vítězství na Bílé hoře. [[link:two-hours-1620]]Fráter Dominik[[/link]], který na bojišti držel nad hlavou ten obraz, patřil k témuž řádu.\n\nV dubnu téhož roku vydal císař patent: v Čechách je dovolena jen jedna víra, katolická. Kdo nebyl katolík, nemohl být měšťanem v královském městě ani vstoupit do cechu.\n\nRodině, která nechtěla konvertovat, se občas do domu nastěhoval oddíl vojáků, jedl jejich jídlo a pil jejich pivo. Odstěhoval se, až když rodina změnila názor.\n\nRoku 1626 přišel na řadu štít Týnského chrámu.\n\nPřes sto padesát let stála vysoko nad Starým Městem, kde ji každý viděl, socha krále a nad jeho hlavou obrovský pozlacený kalich. Tím králem byl [[link:the-bells-toll-twice-1471]]Jiří z Poděbrad[[/link]].\n\nToho roku dali jezuité postavit lešení a krále i s kalichem sundali. Na jejich místo přišla socha Panny Marie.\n\n[[b]]Kalich nad Starým Městem zmizel.[[/b]]\n\nJenže poslední krok měl teprve přijít.\n\nV květnu 1627 vyhlásil císař Obnovené zřízení zemské. Českého krále od té doby nevolil sněm; koruna se dědila v habsburském rodě. Němčina se stala rovnoprávnou s češtinou. Katolická víra byla jedinou povolenou.\n\nZ [[link:the-diet-decides-1619]]pravidel, která si sněm sám napsal[[/link]] před osmi lety, nezůstalo nic.\n\nV červenci přišel další patent, tentokrát na šlechtu: do šesti měsíců se stát katolíky, nebo prodat statky a odejít ze země.\n\nPoddaní neměli ani tuhle volbu. Odejít nesměli; mohli jen konvertovat.\n\nCo Ferdinand [[link:the-new-king-1617]]kdysi řekl[[/link]], se splnilo.\n\nTisíce lidí se rozhodly odejít. Šlechtici, měšťané, kněží, učitelé a řemeslníci se s vozy a uzlíky vydali do Saska, Slezska, Lužice a Polska. Podle jednoho odhadu zůstala v zemi jen asi čtvrtina šlechtických rodů z doby před Bílou horou.\n\nV únoru 1628 se na cestu vydal i jeden bratrský kněz. Jmenoval se Jan Amos Komenský, bylo mu pětatřicet a už několik let se doma skrýval. Přešel hranice do polského Lešna. Prý se na stráni u hranic zastavil, poklekl a naposledy se ohlédl po Čechách.\n\nUž se nevrátil. O víc než dvacet let později, stále v exilu, napsal:\n\n[[quote:0]]\n\nPrávě v roce, kdy Komenský odešel, dostal kostel Panny Marie Vítězné na Malé Straně dar. Poslala ho [[link:dung-or-angels-1618]]Polyxena[[/link]], která před deseti lety ve svém paláci ukryla Slavatu po pádu z okna. Karmelitánům darovala malou sošku Ježíška. Z ní se stalo Pražské Jezulátko, které znají katolíci po celém světě.\n\nJeden člověk odešel, jedna soška přišla.\n\nKdyž se ti, kdo odcházeli, naposledy ohlédli po Praze, na štítu Týnského chrámu už žádný kalich nebyl.",
+      "zh": "其实，这一笔账，早在老城广场搭起刑台之前就已经开始算了。\n\n1621年3月，皇帝先把加尔文宗的牧师赶出了波希米亚。那年年底，轮到了圣杯派和弟兄会的牧师。德意志路德宗的牧师有萨克森选帝侯说情，多留了一年，到头来也一样被赶走了。\n\n[[b]]从胡斯算起，两百年来，布拉格的讲坛上第一次听不到圣杯派的声音。[[/b]]\n\n讲坛空了，教堂和学校也就换了主人。\n\n[[link:who-is-jan-hus-1412]]胡斯[[/link]]当过校长的查理大学，交给了耶稣会。老城的泰恩教堂，两百年来一直是圣杯派的大本营，1623年也归了耶稣会。\n\n小城有一座教堂，是德意志路德宗信徒十来年前才盖好的。1624年，皇帝把它交给了加尔默罗会的修士，改名叫“胜利圣母教堂”，纪念的正是白山那一场胜利。白山战场上举着那幅画的[[link:two-hours-1620]]多明我修士[[/link]]，就是这个修会的人。\n\n同一年4月，皇帝颁布诏令：在波希米亚，只许有一种信仰，就是天主教。不是天主教徒，就不能在王室城市当市民，也进不了行会。\n\n不肯改宗的人家里，有时会住进来一队士兵，吃他的，喝他的。什么时候改口，什么时候搬走。\n\n1626年，轮到了泰恩教堂的山墙。\n\n一百五十多年来，老城上空最显眼的地方，站着一位国王的雕像，他头顶上是一只巨大的镀金圣杯。那位国王，就是[[link:the-bells-toll-twice-1471]]波杰布拉德的伊日[[/link]]。\n\n这一年，耶稣会让人搭起脚手架，把国王和圣杯一起拆了下来。山墙上，换上了一尊圣母像。\n\n[[b]]老城上空的那只圣杯，不见了。[[/b]]\n\n可最后一步，还在后头。\n\n1627年5月，皇帝颁布了《新订邦法》。从此，波希米亚的国王不再由议会选举，王位归哈布斯堡家族世代承袭；德语和捷克语平起平坐；天主教是唯一合法的信仰。\n\n八年前议会[[link:the-diet-decides-1619]]自己定下的规矩[[/link]]，一条也没剩下。\n\n7月，又一道诏令下来，这一次是冲着贵族来的：限期半年，要么改信天主教，要么卖掉庄园，离开这个国家。\n\n农民连这样的选择都没有。他们不许走，只能改宗。\n\n斐迪南[[link:the-new-king-1617]]当年说过的那句话[[/link]]，就这样兑现了。\n\n成千上万的人选择了离开。贵族、市民、牧师、教师、工匠，赶着大车，背着包袱，往萨克森、西里西亚、卢萨蒂亚和波兰去。据估计，白山之前的贵族家庭，后来留在本地的只剩四分之一左右。\n\n1628年2月，一位弟兄会的牧师也上了路。他叫扬·阿莫斯·夸美纽斯，那年三十五岁，已经在国内东躲西藏了好几年。他越过边境，去了波兰的莱什诺。据说，走到边境的山坡上，他停下来，跪下，最后一次回头望了望波希米亚。\n\n他再也没能回来。二十多年后，还在流亡中的他写下了这样一句话：\n\n[[quote:0]]\n\n就在夸美纽斯离开的那一年，小城的胜利圣母教堂收到了一件礼物。送礼的是[[link:dung-or-angels-1618]]波利克塞娜[[/link]]，十年前，就是她把从窗口摔下来的斯拉瓦塔藏进了自己的府邸。她送给修士们的，是一尊小小的圣婴像。后来，它成了全世界天主教徒都知道的“布拉格圣婴”。\n\n一个人走了，一尊像来了。\n\n那些离开的人，最后一次回头望布拉格的时候，泰恩教堂的山墙上，已经没有圣杯了。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "I too believe before God that, once the storms of wrath that our sins brought down upon our heads have passed, the rule of your own affairs will return to you, O Czech people!",
+          "cz": "Věřímť i já Bohu, že po přejití vichřic hněvu, hříchy našimi na hlavy naše uvedeného, vláda věcí tvých k tobě se zase navrátí, ó lide český!",
+          "zh": "我也向上帝相信：等我们的罪招来的这场愤怒的风暴过去，你自己的事，终将重新由你自己做主，捷克的人民啊！"
+        },
+        "attribution": {
+          "en": "Jan Amos Comenius, The Bequest of the Dying Mother, the Unity of Brethren (1650), written in exile",
+          "cz": "Jan Amos Komenský, Kšaft umírající matky Jednoty bratrské (1650), psáno v exilu",
+          "zh": "夸美纽斯《垂死的母亲弟兄会的遗嘱》（1650年，写于流亡中）"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "tyn-church",
+        "relation": {
+          "en": "The Utraquists' stronghold for two hundred years; the Jesuits took it over in 1623, and in 1626 the statue of King George and the gilded chalice were taken down from its gable",
+          "cz": "Dvě stě let bašta kališníků; roku 1623 ho převzali jezuité a roku 1626 sňali ze štítu sochu krále Jiřího a pozlacený kalich",
+          "zh": "两百年来圣杯派的大本营。1623年归了耶稣会，1626年，伊日国王的雕像和镀金圣杯从山墙上被拆了下来"
+        }
+      },
+      {
+        "slug": "church-of-our-lady-victorious-and-the-infant-jesus-of-prague-1782392094990",
+        "relation": {
+          "en": "Built by German Lutherans and dedicated to the Holy Trinity; given to the Carmelites and renamed for the White Mountain victory in 1624. In 1628 Polyxena of Lobkowicz gave it the statue that became the Infant Jesus of Prague",
+          "cz": "Postavili ho němečtí luteráni a zasvětili Nejsvětější Trojici; roku 1624 ho dostali karmelitáni a zasvětili ho na památku vítězství na Bílé hoře. Roku 1628 mu Polyxena z Lobkovic darovala sošku, z níž se stalo Pražské Jezulátko",
+          "zh": "原是德意志路德宗信徒建的圣三一教堂，1624年交给加尔默罗会，为纪念白山之胜改名。1628年，洛布科维茨家的波利克塞娜把后来的“布拉格圣婴”像送到了这里"
+        }
+      },
+      {
+        "slug": "karolinum",
+        "relation": {
+          "en": "The heart of Charles University, where Hus was once rector; after White Mountain the university was handed to the Jesuits",
+          "cz": "Srdce Karlovy univerzity, kde byl kdysi Hus rektorem; po Bílé hoře byla univerzita předána jezuitům",
+          "zh": "查理大学的心脏，胡斯当年在这里当过校长。白山之后，大学交到了耶稣会手里"
+        }
+      },
+      {
+        "slug": "narodni-pedagogicke-muzeum-komenskeho",
+        "relation": {
+          "en": "A museum devoted to Comenius, the Brethren pastor and teacher who left Bohemia in 1628 and never came back",
+          "cz": "Muzeum věnované Komenskému, bratrskému knězi a učiteli, který roku 1628 opustil Čechy a už se nevrátil",
+          "zh": "纪念夸美纽斯的博物馆。这位弟兄会的牧师和教育家1628年离开波希米亚，再也没能回来"
+        }
+      }
+    ],
+    "wikipediaUrl": "https://cs.wikipedia.org/wiki/Obnoven%C3%A9_z%C5%99%C3%ADzen%C3%AD_zemsk%C3%A9"
+  },
 ];
 
 // Era-overview cards live in their own file (see historyOverviews.js).
