@@ -28056,6 +28056,14 @@ export const historyEvents = [
     },
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Thirty_Years%27_War",
+    images: ["/history/the-fire-spreads-1624.webp"],
+    imageCaptions: [
+      {
+        en: "Northern Germany, 1625. On the right, King Christian IV of Denmark leads his army south under the Danish flag, with the Dutch money convoy behind; on the left, Tilly waits with the Catholic League under the Bavarian colours. Behind them, burning villages lead back to a small city on a far hill, where the first smoke rose.",
+        cz: "Severní Německo, 1625. Vpravo vede dánský král Kristián IV. své vojsko na jih pod dánskou vlajkou, za ním nizozemský konvoj s penězi; vlevo čeká Tilly s Katolickou ligou pod bavorskými barvami. Za nimi vedou hořící vesnice až k malému městu na vzdáleném kopci, odkud stoupal první kouř.",
+        zh: "1625年的德意志北部。右边，丹麦国王克里斯蒂安四世在丹麦国旗下率军南下，后面跟着荷兰人的运钱车队；左边，蒂利带着天主教同盟军，在巴伐利亚的旗帜下严阵以待。他们身后，一座座燃烧的村庄一路排向远方山上的一座小城，第一缕烟就是从那里升起的。",
+      },
+    ],
   },
   // Written 2026-10-21 from Claude's draft (split from the-fire-spreads-1624).
   // Quotes: Schiller, Die Piccolomini (1799), I.2 and II.7, checked against
