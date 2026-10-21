@@ -27852,6 +27852,12 @@ export const historyEvents = [
   //   the Švamberks; he died at Nové Zámky in July 1621. The Buquoy Palace
   //   link is framed as "his descendants bought it in 1748" (built from 1667
   //   by the Valdštejns), per the CLAUDE.md reminder.
+  // - Confiscated estates linked (user's request): Smiřický palace and
+  //   Uhříněves (Smiřický → Liechtenstein 1622), Rožmberk (Švamberk →
+  //   Bucquoy), and Wallenstein's Liberec (Redern, 1622), Bezděz (Berka of
+  //   Dubá) and Jičín (Smiřický, 1621). Relations keep him unnamed; Wallenstein
+  //   Palace is left off since its card name would name him. Veliš, Thurn's
+  //   own estate, also went to Wallenstein (no Location yet).
   {
     slug: "coins-cut-with-copper-1622",
     era: "fire-and-ashes",
@@ -27887,11 +27893,59 @@ export const historyEvents = [
         },
       },
       {
+        slug: "palc-smiickch-czech-parliament-1782397003111",
+        relation: {
+          en: "The Prague palace of the Smiřický family, among the richest Protestant nobles in Bohemia. After the rising their huge estates were confiscated and shared out, much of them to Liechtenstein and to the consortium's Czech nobleman",
+          cz: "Pražský palác Smiřických, jednoho z nejbohatších evangelických rodů v Čechách. Po povstání jim obrovská panství zabavili a rozdělili, z velké části mezi Lichtenštejna a českého šlechtice z konsorcia",
+          zh: "斯米日茨基家族在布拉格的府邸。这个家族是波希米亚最富的新教贵族之一，起义之后，他们的大片领地被没收、瓜分，很大一部分落到了列支敦士登和财团里那位捷克贵族的手里",
+        },
+      },
+      {
+        slug: "uhrineves",
+        relation: {
+          en: "A Smiřický estate that went to Liechtenstein in 1622; his family kept it for almost three hundred years",
+          cz: "Panství Smiřických, které roku 1622 připadlo Lichtenštejnovi; jeho rod ho držel skoro tři sta let",
+          zh: "原是斯米日茨基家族的领地，1622年归了列支敦士登，他的家族一拿就是将近三百年",
+        },
+      },
+      {
+        slug: "hrad-rozmberk",
+        relation: {
+          en: "Taken from the rebel Švamberks and given to Bucquoy in 1620, together with Nové Hrady; his family held it until 1945",
+          cz: "Vzbouřeným Švamberkům zabraný hrad, který roku 1620 dostal Buquoy spolu s Novými Hrady; jeho rod ho držel až do roku 1945",
+          zh: "从起义的施万贝格家族手里没收，1620年连同新赫拉德一起给了布夸伊；他的家族一直拥有到1945年",
+        },
+      },
+      {
         slug: "buquoy-palace-embassy-of-france-1782407266228",
         relation: {
           en: "Bucquoy's descendants, still rich from the south Bohemian estates, bought this Malá Strana palace in 1748; today it is the French embassy",
           cz: "Buquoyovi potomci, stále bohatí z jihočeských panství, koupili tento malostranský palác roku 1748; dnes v něm sídlí francouzské velvyslanectví",
           zh: "布夸伊的后人靠着南波希米亚的领地一直很富裕，1748年买下了小城的这座宫殿；如今这里是法国大使馆",
+        },
+      },
+      {
+        slug: "liberec",
+        relation: {
+          en: "Kryštof of Redern fled after White Mountain, and in 1622 his Frýdlant and Liberec estates went to the consortium's Czech nobleman",
+          cz: "Kryštof z Redernu po Bílé hoře uprchl a roku 1622 jeho frýdlantské a liberecké panství připadlo českému šlechtici z konsorcia",
+          zh: "白山战役后，雷德恩家族的克里斯托夫逃走了。1622年，他的弗里德兰和利贝雷茨领地，落到了财团里那位捷克贵族手里",
+        },
+      },
+      {
+        slug: "bezdez-castle",
+        relation: {
+          en: "Part of an estate confiscated from Bohuchval Berka of Dubá, a leader of the rising, and sold cheaply to the same Czech nobleman",
+          cz: "Patřil k panství zabranému Bohuchvalu Berkovi z Dubé, jednomu z vůdců povstání, a lacino prodanému témuž českému šlechtici",
+          zh: "原属起义领袖之一贝尔卡家族的领地，没收之后，便宜卖给了同一位捷克贵族",
+        },
+      },
+      {
+        slug: "jicin",
+        relation: {
+          en: "Once Smiřický land; it fell to the same Czech nobleman in 1621, and he later made it the capital of his own duchy",
+          cz: "Kdysi panství Smiřických; roku 1621 připadlo témuž českému šlechtici, který z něj později udělal sídlo vlastního vévodství",
+          zh: "原是斯米日茨基家族的领地，1621年落到了同一位捷克贵族手里，后来被他建成了自己公国的首府",
         },
       },
     ],
