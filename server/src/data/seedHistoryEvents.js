@@ -27854,10 +27854,8 @@ export const historyEvents = [
   //   by the Valdštejns), per the CLAUDE.md reminder.
   // - Confiscated estates linked (user's request): Smiřický palace and
   //   Uhříněves (Smiřický → Liechtenstein 1622), Rožmberk (Švamberk →
-  //   Bucquoy), and Wallenstein's Liberec (Redern, 1622), Bezděz (Berka of
-  //   Dubá) and Jičín (Smiřický, 1621). Relations keep him unnamed; Wallenstein
-  //   Palace is left off since its card name would name him. Veliš, Thurn's
-  //   own estate, also went to Wallenstein (no Location yet).
+  //   Bucquoy). Wallenstein's own purchases (Liberec, Bezděz, Jičín) are held
+  //   for the next card, at the user's call.
   {
     slug: "coins-cut-with-copper-1622",
     era: "fire-and-ashes",
@@ -27922,30 +27920,6 @@ export const historyEvents = [
           en: "Bucquoy's descendants, still rich from the south Bohemian estates, bought this Malá Strana palace in 1748; today it is the French embassy",
           cz: "Buquoyovi potomci, stále bohatí z jihočeských panství, koupili tento malostranský palác roku 1748; dnes v něm sídlí francouzské velvyslanectví",
           zh: "布夸伊的后人靠着南波希米亚的领地一直很富裕，1748年买下了小城的这座宫殿；如今这里是法国大使馆",
-        },
-      },
-      {
-        slug: "liberec",
-        relation: {
-          en: "Kryštof of Redern fled after White Mountain, and in 1622 his Frýdlant and Liberec estates went to the consortium's Czech nobleman",
-          cz: "Kryštof z Redernu po Bílé hoře uprchl a roku 1622 jeho frýdlantské a liberecké panství připadlo českému šlechtici z konsorcia",
-          zh: "白山战役后，雷德恩家族的克里斯托夫逃走了。1622年，他的弗里德兰和利贝雷茨领地，落到了财团里那位捷克贵族手里",
-        },
-      },
-      {
-        slug: "bezdez-castle",
-        relation: {
-          en: "Part of an estate confiscated from Bohuchval Berka of Dubá, a leader of the rising, and sold cheaply to the same Czech nobleman",
-          cz: "Patřil k panství zabranému Bohuchvalu Berkovi z Dubé, jednomu z vůdců povstání, a lacino prodanému témuž českému šlechtici",
-          zh: "原属起义领袖之一贝尔卡家族的领地，没收之后，便宜卖给了同一位捷克贵族",
-        },
-      },
-      {
-        slug: "jicin",
-        relation: {
-          en: "Once Smiřický land; it fell to the same Czech nobleman in 1621, and he later made it the capital of his own duchy",
-          cz: "Kdysi panství Smiřických; roku 1621 připadlo témuž českému šlechtici, který z něj později udělal sídlo vlastního vévodství",
-          zh: "原是斯米日茨基家族的领地，1621年落到了同一位捷克贵族手里，后来被他建成了自己公国的首府",
         },
       },
     ],
