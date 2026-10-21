@@ -32562,6 +32562,38 @@ Bílé kříže byly do dlažby vsazeny po druhé světové válce při opravě 
 🎁 彩蛋：直到今天，十字上还常有人放下鲜花和蜡烛，6月21日前后尤其多。下次站在天文钟下等报时，不妨低头看一眼。`,
     },
   },
+  {
+    name: 'Frýdlant Castle',
+    slug: 'hrad-a-zamek-frydlant',
+    localizedNames: { cz: 'Hrad a zámek Frýdlant', zh: '弗里德兰城堡' },
+    labels: ['castle and fortress', 'gothic', 'renaissance', 'outside'],
+    coordinates: { lat: 50.9155922, lng: 15.0835903 },
+    rarity: 'expedition',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Fr%C3%BDdlant_Castle',
+    description: {
+      en: `High on a basalt rock above the little town of Frýdlant, in the far north of Bohemia, sits a castle that looks like two buildings stacked on each other. That is because it is: a Gothic castle on top, a Renaissance chateau tucked in below, and a family tree of owners that reads like a summary of Czech history.
+
+The castle was founded in the 13th century and from 1278 belonged to the Biberštejns for almost three hundred years. In 1558 it passed to the Rederns, who built the Renaissance chateau at its foot around 1600. Their luck ran out with the Bohemian uprising: after White Mountain the estate was confiscated, and in 1622 Albrecht von Wallenstein bought it for 150,000 gulden. He liked the name enough to give it to his whole domain, the Duchy of Friedland. When he was murdered in 1634, the emperor handed Frýdlant to one of the generals who had turned against him, Matthias Gallas, and Gallas's heirs, the Clam-Gallas family, kept it until 1945.
+
+In 1801 the Clam-Gallases opened part of the castle to the public, which makes Frýdlant one of the very first castle museums in Central Europe. Inside there are armour, portraits and old furniture.
+
+🎁 Bonus: Wallenstein owned dozens of estates, but the one he named his duchy after was this one. Few people who have seen the name "Friedland" in Schiller's plays know it is a small town near the Polish border.`,
+      cz: `Vysoko na čedičové skále nad městečkem Frýdlant, na samém severu Čech, stojí hrad, který vypadá jako dvě stavby postavené na sobě. A taky je: nahoře gotický hrad, pod ním přitulený renesanční zámek, a k tomu rodokmen majitelů, který se čte jako shrnutí českých dějin.
+
+Hrad vznikl ve 13. století a od roku 1278 ho skoro tři sta let drželi Bibrštejnové. Roku 1558 přešel na Redernovy, kteří kolem roku 1600 postavili pod ním renesanční zámek. Jejich štěstí skončilo se stavovským povstáním: po Bílé hoře jim panství zabavili a roku 1622 ho za 150 000 zlatých koupil Albrecht z Valdštejna. Jméno se mu líbilo natolik, že jím pojmenoval celé své území, Frýdlantské vévodství. Když byl roku 1634 zavražděn, dal císař Frýdlant jednomu z generálů, kteří se proti němu obrátili, Matyáši Gallasovi, a jeho dědicové Clam-Gallasové ho drželi až do roku 1945.
+
+Roku 1801 zpřístupnili Clam-Gallasové část hradu veřejnosti, a tak je Frýdlant jedním z vůbec prvních hradních muzeí ve střední Evropě. Uvnitř jsou zbroje, portréty a starý nábytek.
+
+🎁 Bonus: Valdštejn vlastnil desítky panství, ale své vévodství pojmenoval právě po tomhle. Málokdo, kdo zná jméno „Friedland“ ze Schillerových her, ví, že je to městečko u polských hranic.`,
+      zh: `在波希米亚最北边的小城弗里德兰，一块玄武岩高高耸起，岩顶上的城堡看上去像两座房子叠在一起。事实也正是如此：上面是一座哥特式城堡，下面依偎着一座文艺复兴式府邸，一代代主人的家谱，读起来就像一部捷克历史的简编。
+
+城堡建于13世纪，1278年起归比伯什泰因家族所有，一拿就是将近三百年。1558年它转到了雷德恩家族手里，他们在1600年前后，在城堡脚下盖起了文艺复兴式的府邸。可他们的好运气，随着波希米亚起义一起到了头：白山之战以后，领地被没收，1622年，华伦斯坦花十五万古尔登把它买了下来。他大概很喜欢这个名字，干脆用它给自己的整片领地命了名：弗里德兰公国。1634年华伦斯坦遇刺后，皇帝把弗里德兰赏给了倒戈对付他的将军加拉斯，加拉斯的继承人克拉姆-加拉斯家族一直拥有它，直到1945年。
+
+1801年，克拉姆-加拉斯家族把城堡的一部分向公众开放，弗里德兰因此成了中欧最早的城堡博物馆之一。里面有盔甲、肖像和老家具。
+
+🎁 彩蛋：华伦斯坦的庄园有几十处，可他偏偏用这一处给自己的公国命名。在席勒的剧本里读到“弗里德兰”的人，很少有人知道，它其实是波兰边境旁的一座小城。`,
+    },
+  },
 ];
 
 async function run() {

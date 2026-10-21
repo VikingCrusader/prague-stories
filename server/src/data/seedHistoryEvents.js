@@ -27933,6 +27933,94 @@ export const historyEvents = [
       },
     ],
   },
+  // The user's draft (2026-10-21), Wallenstein's entrance. Pays off the
+  // Thurn contrast planted in the-new-king-1617 and the unnamed regiment at
+  // the scaffold in twenty-seven-1621. Checked / changed:
+  // - Father spoke German, mother preferred Czech, he spoke Czech better than
+  //   German as a child, "is said" to have cursed in Czech: en.wikipedia.
+  // - The 1619 Moravian colonel was 35, so "young" was dropped. The emperor
+  //   sent the treasury back to the Moravian estates (en.wikipedia).
+  // - Veliš (Thurn's own estate) going to Wallenstein added for the irony
+  //   (noted in CLAUDE.md 2026-10-21 as the user's idea).
+  // - Frýdlant: bought 1622 for 150,000 gulden from the confiscated Redern
+  //   estates, with Liberec; Kepler's horoscope dates from 1608.
+  {
+    slug: "the-man-who-bet-right-1623",
+    era: "fire-and-ashes",
+    startYear: 1623,
+    year: {
+      en: "1623",
+      cz: "1623",
+      zh: "1623年",
+    },
+    tone: "serious",
+    title: {
+      en: "The Man Who Bet Right",
+      cz: "Muž, který vsadil správně",
+      zh: "押对宝的人",
+    },
+    hookLine: {
+      en: "Others lost their heads and their land in this war. One man walked out of it with a duchy.",
+      cz: "Jiní v téhle válce přišli o hlavu a o půdu. Jeden muž si z ní odnesl celé vévodství.",
+      zh: "别人在这场战争里丢了脑袋、丢了土地。有一个人，从里面捡走了一个公国。",
+    },
+    summary: {
+      en: "Frýdlant Castle in the north, Jičín in the north-east, one confiscated estate after another: they all ended up in the hands of the same man.\n\nHis name was Albrecht von Wallenstein.\n\nIn Czech he was Albrecht Václav of Valdštejn. The Valdštejns were old Bohemian nobility who had lived on this land for centuries. He was born in a small castle in eastern Bohemia. His father spoke German, his mother preferred Czech, and as a boy his Czech was better than his German. It is said that even as an old man, when he swore, he swore in Czech.\n\nHe was brought up a Protestant, too. His parents died young, and he was sent to a school of the Unity of the Brethren, and later to a Protestant university in Germany.\n\nBut at twenty-three he became a Catholic. From then on he did his business in German, wrote his letters in German, and signed his name the German way, \"Waldstein\". The ruler he served was the German-speaking emperor in Vienna.\n\n[[b]]A Czech born and bred, writing his own name in German, fighting the Bohemians for the emperor in Vienna.[[/b]]\n\nOn the other side, as it happened, stood [[link:the-new-king-1617]]Count Thurn[[/link]].\n\nThurn was born in Innsbruck in Austria, to a family from northern Italy, and only as a grown man bought land in Bohemia and became a Bohemian lord. His Czech, it is said, was never very good.\n\nYet it was Thurn who had burst into the chancellery and [[link:the-good-old-bohemian-way-1618]]thrown men out of the window[[/link]], and Thurn who had twice led a Bohemian army [[link:at-the-gates-of-vienna-1619]]to the gates of Vienna[[/link]].\n\n[[b]]An outsider who could barely speak Czech fought a war for the Protestants of Bohemia; a local who grew up speaking Czech helped the emperor win it.[[/b]]\n\nNow Thurn had fled abroad, his property seized and his name on a sentence.\n\nAnd Wallenstein was using [[link:coins-cut-with-copper-1622]]coins cut with copper[[/link]] to buy up the land that the Thurns of this world had left behind. Thurn's own estate at Veliš was among it.\n\nRemember the regiment standing round [[link:twenty-seven-1621]]the scaffold on the Old Town Square[[/link]]? Those were his men.\n\nGo back a little further. In the spring of 1619, when Moravia went over to Prague's side, one Moravian colonel refused to go with it. He took his soldiers, helped himself to the Moravian estates' war chest on the way, and rode off to Vienna by night.\n\nThat was him too.\n\nThe emperor sent the money back to the Moravians. But he did not forget the loyalty.\n\nFrom that day on, Wallenstein had bet on the right horse.\n\nBy now he was about forty: tall, pale, with an odd temper and a deep faith in the stars. His horoscope had once been cast by none other than [[link:a-nose-an-elk-and-an-ellipse-1601]]Kepler[[/link]].\n\nHe had land, and he had money. What he wanted next was an army.",
+      cz: "Hrad Frýdlant na severu, Jičín na severovýchodě, jedno zabavené panství za druhým: všechno skončilo v rukou jednoho muže.\n\nJmenoval se Albrecht z Valdštejna.\n\nPo česky Albrecht Václav z Valdštejna, Němci mu říkali Wallenstein. Valdštejnové byli starý český panský rod, který na téhle zemi žil celá staletí. Narodil se na malé tvrzi ve východních Čechách. Otec mluvil německy, matka nejraději česky a jako chlapec uměl česky líp než německy. Prý i na stará kolena, když nadával, nadával česky.\n\nI on byl vychován jako protestant. Rodiče mu brzy zemřeli a poslali ho do školy jednoty bratrské, později na protestantskou univerzitu v Německu.\n\nJenže ve třiadvaceti přestoupil ke katolické víře. Od té doby úřadoval německy, psal dopisy německy a podepisoval se po německu „Waldstein“. Sloužil německy mluvícímu císaři ve Vídni.\n\n[[b]]Rodilý Čech, který své jméno psal německy a za vídeňského císaře bojoval proti Čechům.[[/b]]\n\nNa druhé straně stál shodou okolností [[link:the-new-king-1617]]hrabě Thurn[[/link]].\n\nThurn se narodil v rakouském Innsbrucku do rodu ze severní Itálie a teprve jako dospělý si koupil půdu v Čechách a stal se českým pánem. Česky prý nikdy pořádně neuměl.\n\nA přece to byl Thurn, kdo vtrhl do kanceláře a [[link:the-good-old-bohemian-way-1618]]vyhazoval muže z okna[[/link]], a Thurn, kdo dvakrát dovedl české vojsko [[link:at-the-gates-of-vienna-1619]]až k hradbám Vídně[[/link]].\n\n[[b]]Cizinec, který sotva uměl česky, vedl válku za české protestanty; domácí, který vyrostl v češtině, pomohl císaři ji vyhrát.[[/b]]\n\nTeď byl Thurn v cizině, majetek mu zabavili a jeho jméno stálo v rozsudku.\n\nA Valdštejn za [[link:coins-cut-with-copper-1622]]mince s příměsí mědi[[/link]] skupoval půdu, která po Thurnech a jim podobných zůstala. Bylo mezi ní i Thurnovo vlastní panství Veliš.\n\nPamatujete na pluk, který stál kolem [[link:twenty-seven-1621]]popraviště na Staroměstském náměstí[[/link]]? To byli jeho vojáci.\n\nVraťme se ještě o kus dál. Na jaře 1619, když se Morava přidala k Praze, jeden moravský plukovník odmítl jít s ní. Vzal své vojáky, cestou si přibral moravskou stavovskou pokladnu a v noci odjel do Vídně.\n\nI to byl on.\n\nCísař peníze Moravanům vrátil. Tu věrnost si ale zapamatoval.\n\nOd toho dne vsadil Valdštejn na správného koně.\n\nTeď mu bylo kolem čtyřiceti: vysoký, bledý, podivínské povahy a s pevnou vírou ve hvězdy. Horoskop mu kdysi sestavil sám [[link:a-nose-an-elk-and-an-ellipse-1601]]Kepler[[/link]].\n\nMěl půdu, měl peníze. Teď chtěl vojsko.",
+      zh: "北边的弗里德兰城堡，东北边的吉钦，一整片一整片被没收的土地，都落到了同一个人手里。\n\n他的名字，叫阿尔布雷希特·冯·华伦斯坦。\n\n在捷克语里，他叫阿尔布雷希特·瓦茨拉夫·瓦尔德什泰因。瓦尔德什泰因家是波希米亚的老贵族，几百年来都住在这片土地上。他生在东波希米亚的一座小城堡里，父亲说德语，母亲最爱说捷克语，他小时候的捷克语说得比德语还好。据说，他到老骂人的时候，骂的都是捷克语。\n\n他小时候信的也是新教。父母早逝，他被送进弟兄会的学校念书，后来又去了德意志的新教大学。\n\n可二十三岁那年，他改信了天主教。从那以后，他办事用德语，写信用德语，签名也写成德语的“Waldstein”。他效忠的，是说德语的维也纳皇帝。\n\n[[b]]一个土生土长的捷克人，用德语写自己的名字，替维也纳的皇帝打波希米亚人。[[/b]]\n\n站在他对面的，正好是[[link:the-new-king-1617]]图尔恩伯爵[[/link]]。\n\n图尔恩生在奥地利的因斯布鲁克，家族来自意大利北部，长大以后才在波希米亚买了地，成了波希米亚的贵族。据说，他的捷克语一直说得不太好。\n\n可当年冲进总理府、[[link:the-good-old-bohemian-way-1618]]把人扔出窗外[[/link]]的，是他；带着波希米亚人的军队两次[[link:at-the-gates-of-vienna-1619]]打到维也纳城下[[/link]]的，也是他。\n\n[[b]]一个说不好捷克语的外乡人，替波希米亚的新教徒打了一场仗；一个说着捷克语长大的本地人，帮皇帝把这场仗打赢了。[[/b]]\n\n如今，图尔恩已经逃到了国外，家产被没收，名字上了判决书。\n\n而华伦斯坦，正在用[[link:coins-cut-with-copper-1622]]掺了铜的钱[[/link]]，买下图尔恩们留下的土地。图尔恩自己在韦利什的庄园，也在其中。\n\n还记得[[link:twenty-seven-1621]]老城广场刑台[[/link]]边上的那个团吗？就是他的兵。\n\n再往前一点，1619年春天，摩拉维亚倒向布拉格的时候，有一位摩拉维亚上校不肯跟着走。他带着自己的兵，还顺手卷走了摩拉维亚等级的钱箱，连夜投奔了维也纳。\n\n那也是他。\n\n钱，皇帝后来原样还给了摩拉维亚人。可这份忠心，皇帝记下了。\n\n从那一天起，他就押对了宝。\n\n这时候的华伦斯坦，四十岁上下，个子高，脸色苍白，脾气古怪，最信星象。他的星盘，当年还是[[link:a-nose-an-elk-and-an-ellipse-1601]]开普勒[[/link]]替他排的。\n\n手里有了地，有了钱，接下来，他想要的是兵。",
+    },
+    relatedLandmarks: [
+      {
+        slug: "wallenstein-palace",
+        relation: {
+          en: "Built with the money of these years: some two dozen houses in Malá Strana were pulled down to make room for a palace meant to rival Prague Castle. Today it is the seat of the Czech Senate, and the garden is free to visit",
+          cz: "Postavený za peníze z těchto let: na Malé Straně kvůli němu strhli přes dvacet domů, aby vznikl palác, který měl soupeřit s Pražským hradem. Dnes sídlo Senátu, zahrada je přístupná zdarma",
+          zh: "华伦斯坦用这几年赚来的钱，在小城拆掉了二十多座房子，盖起了这座要跟布拉格城堡比气派的宫殿。如今是捷克参议院的所在地，花园可以免费参观",
+        },
+      },
+      {
+        slug: "hrad-a-zamek-frydlant",
+        relation: {
+          en: "One of the first estates he bought, in 1622, from the confiscated lands of the Rederns. His duchy was later named after it: the Duchy of Friedland",
+          cz: "Jedno z prvních panství, která koupil, roku 1622 ze zabavených statků Redernů. Podle něj se později jmenovalo jeho vévodství: Frýdlantské",
+          zh: "华伦斯坦1622年从雷德恩家族被没收的领地里买下的第一批庄园之一。后来，他的公国就叫“弗里德兰公国”",
+        },
+      },
+      {
+        slug: "liberec",
+        relation: {
+          en: "Bought in 1622 together with Frýdlant, from the same confiscated Redern estate",
+          cz: "Koupený roku 1622 spolu s Frýdlantem, ze stejného zabaveného redernského panství",
+          zh: "1622年和弗里德兰一起买下，原是雷德恩家族同一片被没收的领地",
+        },
+      },
+      {
+        slug: "jicin",
+        relation: {
+          en: "Taken from the confiscated Smiřický lands. Wallenstein meant to make it the capital of his duchy, with a palace, a new square and an avenue lined with four rows of limes",
+          cz: "Ze zabavených statků Smiřických. Valdštejn z něj chtěl udělat hlavní město svého vévodství, s palácem, novým náměstím a alejí o čtyřech řadách lip",
+          zh: "原是斯米日茨基家族被没收的领地。华伦斯坦想把这座小城建成自己公国的首都，修了宫殿、广场和一条四排椴树夹着的林荫道",
+        },
+      },
+      {
+        slug: "bezdez-castle",
+        relation: {
+          en: "Part of the Bělá estate confiscated from the Berkas of Dubá, another of his purchases",
+          cz: "Součást panství Bělá zabaveného Berkům z Dubé, další z jeho nákupů",
+          zh: "原属贝尔卡家族被没收的贝拉领地，也被他买了下来",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Albrecht_von_Wallenstein",
+    images: ["/history/the-man-who-bet-right-1623.webp"],
+    imageCaptions: [
+      {
+        en: "Prague, 1623. Late at night in his study, Wallenstein holds one of the new thin coins up to the candle, his other hand resting on a stack of land deeds. Around him lie sealed deeds, castle plans and bags of money; on the wall hangs his horoscope.",
+        cz: "Praha, 1623. Pozdě v noci ve své pracovně drží Valdštejn proti svíčce jednu z nových tenkých mincí a druhou rukou se opírá o hromadu listin na panství. Kolem leží zapečetěné listiny, plány hradů a měšce peněz; na stěně visí jeho horoskop.",
+        zh: "1623年的布拉格。深夜，华伦斯坦在书房里把一枚薄薄的新钱举到烛光前端详，另一只手按着一摞地契。桌上堆着盖了火漆印的契约、城堡图纸和一袋袋钱币，墙上挂着他的星盘。",
+      },
+    ],
+  },
 ];
 
 // Era-overview cards live in their own file (see historyOverviews.js).
