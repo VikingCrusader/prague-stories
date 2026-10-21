@@ -28095,6 +28095,14 @@ export const historyEvents = [
     },
     relatedLandmarks: [],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Albrecht_von_Wallenstein",
+    images: ["/history/why-him-1625.webp"],
+    imageCaptions: [
+      {
+        en: "Autumn 1625, near Eger (Cheb) in western Bohemia, where the new army gathered before marching north. Wallenstein, newly commander of all the imperial forces, rides along its ranks under the black double-headed eagle of the emperor.",
+        cz: "Podzim 1625 u Chebu v západních Čechách, kde se nové vojsko shromáždilo, než vytáhlo na sever. Valdštejn, čerstvý velitel všech císařských vojsk, projíždí podél jeho řad pod černým dvouhlavým císařským orlem.",
+        zh: "1625年秋天，波希米亚西部的海布附近，新军在这里集结，准备开赴北方。刚当上帝国全军统帅的华伦斯坦，在皇帝的黑色双头鹰旗下，骑马检阅他的军队。",
+      },
+    ],
   },
   // Written 2026-10-21 from Claude's draft (split from the-fire-spreads-1624).
   // Quotes: Schiller, Die Piccolomini (1799), I.2 and II.7, checked against
