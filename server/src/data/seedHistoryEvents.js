@@ -28369,7 +28369,11 @@ export const historyEvents = [
         }
       }
     ],
-    "wikipediaUrl": "https://cs.wikipedia.org/wiki/Obnoven%C3%A9_z%C5%99%C3%ADzen%C3%AD_zemsk%C3%A9"
+    "wikipediaUrl": "https://cs.wikipedia.org/wiki/Obnoven%C3%A9_z%C5%99%C3%ADzen%C3%AD_zemsk%C3%A9",
+    "images": ["/history/no-more-elected-kings-1627.webp"],
+    "imageCaptions": [
+      {"en": "Prague Castle, the Vladislav Hall, November 1627. Before the coronation, the estates kneel and swear allegiance to their new hereditary king, nineteen-year-old Ferdinand, seated beside his father the emperor. The clergy, now the first estate, kneel at the front; a herald holds up the sealed new Land Ordinance. Behind the thrones hangs the Habsburg eagle, with the Bohemian lion beside it, much smaller.", "cz": "Pražský hrad, Vladislavský sál, listopad 1627. Před korunovací stavové klečí a přísahají věrnost novému dědičnému králi, devatenáctiletému Ferdinandovi, který sedí vedle svého otce císaře. Duchovenstvo, nyní první stav, klečí vpředu; herold drží zapečetěné Obnovené zřízení zemské. Za trůny visí habsburský orel a vedle něj, mnohem menší, český lev.", "zh": "1627年11月，布拉格城堡的弗拉迪斯拉夫大厅。加冕之前，各等级跪地向新的世袭国王宣誓效忠：十九岁的斐迪南坐在父亲皇帝身旁。如今成了第一等级的教士跪在前头，传令官捧着盖了印的《新订邦法》。王座后挂着哈布斯堡的双头鹰，旁边是小得多的波希米亚狮子旗。"}
+    ]
   },
 ];
 
