@@ -28193,6 +28193,22 @@ export const historyEvents = [
       },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Battle_of_Dessau_Bridge",
+    images: [
+      "/history/war-feeds-war-1625.webp",
+      "/history/war-feeds-war-1625-dessau.webp",
+    ],
+    imageCaptions: [
+      {
+        en: "Left: a town in northern Germany pays its contribution. The army's commissary reads out the bill, the councillors count out coins, and soldiers load grain, beer, hay and livestock onto wagons. Right: Jičín, capital of the Duchy of Friedland, where no soldiers are quartered; under the arcades, craftsmen make boots, bread and cloth, and carts carry them off to the front.",
+        cz: "Vlevo: město v severním Německu platí kontribuci. Komisař vojska předčítá účet, konšelé odpočítávají mince a vojáci nakládají na vozy obilí, pivo, seno a dobytek. Vpravo: Jičín, hlavní město Frýdlantského vévodství, kde se vojáci neubytovávají; pod podloubím řemeslníci vyrábějí boty, chléb a sukno a vozy je odvážejí na frontu.",
+        zh: "左：德意志北部的一座小城在交摊派。军需官念着账单，市政官员数着钱币，士兵把粮食、啤酒、干草和牲口装上大车。右：弗里德兰公国的首都吉钦，这里不许驻兵；拱廊下的工匠们做靴子、烤面包、织布，一车车运往前线。",
+      },
+      {
+        en: "Dessau, 25 April 1626, the evening after the battle. Wallenstein's soldiers cheer by the fortified bridgehead on the Elbe and throw captured flags down before his horse, while the remains of Mansfeld's army trail away eastward in the distance.",
+        cz: "Desava, 25. dubna 1626, večer po bitvě. Valdštejnovi vojáci jásají u opevněného předmostí na Labi a házejí ukořistěné prapory před jeho koně, zatímco v dálce se na východ vleče, co zbylo z Mansfeldova vojska.",
+        zh: "1626年4月25日，德绍，战斗结束后的傍晚。华伦斯坦的士兵在易北河边的桥头堡前欢呼，把缴获的敌旗扔在他的马前；远处，曼斯菲尔德的残兵正往东撤去。",
+      },
+    ],
   },
 ];
 
