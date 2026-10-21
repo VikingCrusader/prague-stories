@@ -10856,41 +10856,6 @@ Koncem 14. století tu král Václav IV. postavil královské sídlo, Králův d
     },
   },
   {
-    name: 'ROXY Prague',
-    slug: 'roxy-prague',
-    localizedNames: { cz: 'Roxy', zh: '罗克西夜店（ROXY Prague）' },
-    labels: ['cafe', 'cultural'],
-    district: 'Praha 1',
-    quarter: 'Staré Město',
-    coordinates: { lat: 50.090716150551245, lng: 14.425883808460522 },
-    rarity: 'rare',
-    xpReward: 20,
-    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Roxy_%28klub_v_Praze%29',
-    description: {
-      en: `Roxy is a club in Dlouhá Street in the Old Town, hidden behind an ordinary front. Inside is a former cinema that in the 1990s became one of the best-known music clubs in Central Europe.
-
-The building opened as a cinema in the late 1920s. After 1989, when the old controls over what people could watch, hear and dance to disappeared, it reopened in 1992 as Roxy. Its first concert, by most accounts, was the American band Fugazi in June 1992. Since then Roxy has been a home for electronic music, live bands and unusual programming, and well-known names from abroad have played here. In 2011 it was briefly closed after complaints about noise and safety, but it soon reopened.
-
-Upstairs is NoD, an experimental space with a café, gallery and small stage, run under the same roof and often busy long before the club downstairs gets going.
-
-🎁 Bonus: Fugazi were famous for refusing to sign with big record labels and for keeping their ticket prices very low. It seems right that a band that answered to no one played the first show in a newly reopened club, in a newly free country, less than three years after the fall of communism.`,
-      cz: `Roxy je klub v Dlouhé ulici na Starém Městě, schovaný za obyčejným průčelím. Uvnitř je bývalé kino, které se v 90. letech stalo jedním z nejznámějších hudebních klubů ve střední Evropě.
-
-Budova se otevřela jako kino koncem 20. let. Po roce 1989, kdy zmizel starý dohled nad tím, na co se lidé smějí dívat, co smějí poslouchat a na co tančit, se roku 1992 znovu otevřela jako Roxy. Jejím prvním koncertem byla podle většiny zdrojů americká kapela Fugazi v červnu 1992. Od té doby je Roxy domovem elektronické hudby, živých kapel a neobvyklého programu a hrála tu i řada známých jmen ze zahraničí. Roku 2011 byla po stížnostech na hluk a bezpečnost krátce zavřená, ale brzy se znovu otevřela.
-
-Nahoře je NoD, experimentální prostor s kavárnou, galerií a malou scénou, který funguje pod stejnou střechou a často je plný dávno předtím, než se klub dole rozjede.
-
-🎁 Bonus: Fugazi byli proslulí tím, že odmítali podepsat smlouvu s velkými vydavatelstvími a drželi ceny vstupenek velmi nízko. Zdá se správné, že kapela, která se nikomu nezodpovídala, odehrála první koncert ve znovu otevřeném klubu ve znovu svobodné zemi, necelé tři roky po pádu komunismu.`,
-      zh: `罗克西是老城长街上的一家俱乐部，藏在一道普普通通的门面后面。里面是一座旧电影院，90年代变成了中欧最有名的音乐俱乐部之一。
-
-这栋楼在20年代末作为电影院开张。1989年后，过去对人们能看什么、听什么、跳什么舞的管控消失了，它在1992年以“罗克西”的名字重新开业。据大多数说法，这里的第一场演出是美国乐队Fugazi在1992年6月的演唱会。从那以后，罗克西一直是电子音乐、现场乐队和各种另类节目的大本营，不少国外知名音乐人也在这里演出过。2011年它因噪音和安全投诉被短暂关停，但很快又重新开门。
-
-楼上是NoD，一个集咖啡馆、画廊和小舞台于一体的实验空间，和俱乐部同在一个屋檐下，往往楼下俱乐部还没热闹起来，这里就已经坐满了人。
-
-🎁 彩蛋：Fugazi以拒绝和大唱片公司签约、把票价压得极低而出名。一支谁的账都不买的乐队，在一个重新开张的俱乐部、一个刚刚获得自由的国家，在共产主义倒台不到三年时演出首场，似乎再合适不过。`,
-    },
-  },
-  {
     name: 'Theatre in Dlouhá Street',
     slug: 'divadlo-v-dlouhe',
     localizedNames: { cz: 'Divadlo v Dlouhé', zh: '德劳哈街剧院' },
@@ -32592,6 +32557,41 @@ Roku 1801 zpřístupnili Clam-Gallasové část hradu veřejnosti, a tak je Frý
 1801年，克拉姆-加拉斯家族把城堡的一部分向公众开放，弗里德兰因此成了中欧最早的城堡博物馆之一。里面有盔甲、肖像和老家具。
 
 🎁 彩蛋：华伦斯坦的庄园有几十处，可他偏偏用这一处给自己的公国命名。在席勒的剧本里读到“弗里德兰”的人，很少有人知道，它其实是波兰边境旁的一座小城。`,
+    },
+  },
+  {
+    name: 'Hradčanská Metro Station',
+    slug: 'hradcanska-stanice-metra',
+    localizedNames: { cz: 'Hradčanská (stanice metra)', zh: '城堡区地铁站' },
+    labels: ['transport', 'communism'],
+    district: 'Praha 6',
+    quarter: 'Dejvice',
+    coordinates: { lat: 50.09721389, lng: 14.40456944 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Hrad%C4%8Dansk%C3%A1_(stanice_metra)',
+    description: {
+      en: `Hradčanská means, more or less, "the Castle station". So the first thing many visitors do when they come up the escalators is turn slowly on the spot and ask: where is the castle? Not here. The station is actually in Dejvice, Prague 6, and the castle is a good fifteen-minute walk away, out of sight.
+
+The station opened on 12 August 1978 with the very first stretch of line A, from Dejvická to Náměstí Míru. While it was being built it was called Obránců míru ("Defenders of Peace"), after the street above, which had that name under communism and is now Milady Horákové. The platform lies 43 metres underground, and its walls carry the anodised aluminium panels, orange fading into champagne gold, that all the stations of line A's first section share.
+
+The vestibule is the more interesting part. Its walls are clad in yellow opuka stone, with reliefs by Petr Honzátko, Slavoj Nejdl and Jiří Prádler. One recalls the coronation of Vratislav II in 1085, the first king of Bohemia, with a scene taken from the Vyšehrad Codex and the Latin words "In die ordinationis regis". Another shows the socialist state emblem and the slogan "All power in the ČSSR belongs to the working people".
+
+🎁 Bonus: A second entrance toward Dejvická street was planned for around 1992, but it was cancelled after 1989. So the Castle station still has a single exit, and as any lost tourist will tell you, that one doesn't lead to the castle either.`,
+      cz: `Hradčanská zní jako stanice, ze které je to kousek na Hrad. Proto se tu mnoho turistů po výjezdu z eskalátorů pomalu otočí dokola a ptá se: a kde je ten hrad? Tady ne. Stanice ve skutečnosti leží v Dejvicích, na Praze 6, a Hrad je odsud dobrých patnáct minut pěšky a vůbec na něj není vidět.
+
+Stanice se otevřela 12. srpna 1978 spolu s úplně prvním úsekem trasy A, z Dejvické na Náměstí Míru. Během stavby se jmenovala Obránců míru, podle ulice nad ní, která se tak za komunismu jmenovala a dnes nese jméno Milady Horákové. Nástupiště leží 43 metrů pod zemí a jeho stěny zdobí eloxované hliníkové panely, oranžové přecházející do šampaňsky zlaté, společné všem stanicím prvního úseku trasy A.
+
+Zajímavější je ale vestibul. Jeho stěny jsou obložené žlutou opukou s reliéfy Petra Honzátka, Slavoje Nejdla a Jiřího Prádlera. Jeden připomíná korunovaci Vratislava II. roku 1085, prvního českého krále, výjevem převzatým z Kodexu vyšehradského a latinskými slovy „In die ordinationis regis“. Na jiném je socialistický státní znak a heslo „Veškerá moc v ČSSR patří pracujícímu lidu“.
+
+🎁 Bonus: Kolem roku 1992 se počítalo s druhým vestibulem směrem do Dejvické ulice, ale po roce 1989 z něj sešlo. Hradčanská tak dodnes má jediný východ, a jak vám potvrdí každý zabloudilý turista, ani ten na Hrad nevede.`,
+      zh: `Hradčanská的意思，差不多就是"城堡站"。所以不少游客坐扶梯上来以后做的第一件事，就是原地慢慢转一圈，然后发问：城堡在哪儿？不在这儿。这座车站其实位于布拉格6区的德伊维采，离城堡还得走上足足十五分钟，站在这里连城堡的影子都看不见。
+
+车站于1978年8月12日随地铁A线最早的一段开通，那一段从德伊维采站通到和平广场站。修建期间，它叫"和平捍卫者站"，名字取自头顶那条街：共产党时期它就叫这个名字，如今改名为米拉达·霍拉科娃大街。站台位于地下43米，墙面贴着阳极氧化铝板，颜色由橙色渐变为香槟金，这是A线第一期所有车站共有的样式。
+
+更有意思的是站厅。墙面贴着黄色的泥灰岩石板，上面有彼得·洪扎特科、斯拉沃伊·内伊德尔和伊日·普拉德勒创作的浮雕。其中一幅纪念1085年弗拉季斯拉夫二世加冕，他是波希米亚的第一位国王，画面取自《维谢赫拉德法典》，还刻着拉丁文"In die ordinationis regis"（"在国王受膏之日"）。另一面墙上则是社会主义时期的国徽，以及一句标语："捷克斯洛伐克社会主义共和国的一切权力属于劳动人民"。
+
+🎁 彩蛋：原本计划在1992年前后朝德伊维采大街方向再修一个出口，1989年以后就取消了。于是这座"城堡站"至今只有一个出口，而每一位迷了路的游客都会告诉你：这个出口也不通往城堡。`,
     },
   },
 ];
