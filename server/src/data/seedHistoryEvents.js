@@ -28021,6 +28021,117 @@ export const historyEvents = [
       },
     ],
   },
+  // Written 2026-10-21 from Claude's draft, opening asked for by the user
+  // (the timeline had not left Prague since White Mountain); split at the
+  // user's call so this card ends on Wallenstein's offer. Facts: Heidelberg
+  // fell Sept 1622, the Bibliotheca Palatina went to the pope (1623);
+  // electoral title to Maximilian Feb 1623 (Regensburg); Stadtlohn Aug 1623
+  // (Christian of Brunswick, left unnamed); Christian IV, Elizabeth's uncle
+  // (see allies-on-paper-1620), Lower Saxon Circle commander 1625, fell from
+  // the rampart at Hameln in July 1625.
+  {
+    slug: "the-fire-spreads-1624",
+    era: "fire-and-ashes",
+    startYear: 1624,
+    year: {
+      en: "1620–1625",
+      cz: "1620–1625",
+      zh: "1620年至1625年",
+    },
+    tone: "serious",
+    title: {
+      en: "The Fire Spreads",
+      cz: "Požár se šíří",
+      zh: "越烧越远",
+    },
+    hookLine: {
+      en: "After White Mountain the war did not end. It just left Bohemia.",
+      cz: "Po Bílé hoře válka neskončila. Jen opustila Čechy.",
+      zh: "白山之后，战争并没有结束，只是离开了波希米亚。",
+    },
+    summary: {
+      en: "After White Mountain, the emperor and his allies did not stop at Prague.\n\nMoravia and Silesia soon submitted. Lusatia was pledged to Saxony, as the Elector of Saxony's fee. And at the end of 1621 [[link:vienna-besieged-again-1619]]Gabriel Bethlen[[/link]] made peace with the emperor too.\n\nNext the war moved into Frederick's own homeland, the Palatinate. West of the Rhine, Spinola and the Spaniards had taken over before White Mountain was even fought; now Tilly and the Catholic League took the Upper Palatinate as well. In the autumn of 1622 the capital, Heidelberg, fell. Its famous library was packed up, crate after crate, and carted off to Rome as a present for the pope.\n\n[[b]]Frederick had lost his kingdom, then his homeland, and not even his books were spared.[[/b]]\n\nHe and Elizabeth went into exile in The Hague. In 1623 his electoral title went to [[link:help-at-a-price-1619]]Maximilian of Bavaria[[/link]], just as the emperor had once promised.\n\nAll Frederick had left were a few hired armies roaming about Germany, Mansfeld's among them. Tilly chased them all the way to the north-west, and in 1623, at Stadtlohn near the Dutch border, he smashed one of them.\n\nAnd so the Catholic armies came to stand on the doorstep of the Protestant princes of northern Germany.\n\nIn 1625 the north could sit still no longer.\n\nKing Christian IV of Denmark, Elizabeth's [[link:allies-on-paper-1620]]uncle[[/link]], was also Duke of Holstein in northern Germany. He was a Lutheran, and Tilly's troops were at his door. That spring the Protestant princes of Lower Saxony made him their commander, and the English and the Dutch promised money. He marched south.\n\n[[b]]It had started with a window in Prague. Seven years later, half of Europe was at war.[[/b]]\n\nIt was not the best of starts. In July, inspecting the walls of Hameln, he fell off the rampart, horse and all, and lay unconscious for hours.\n\nBut the Danes came all the same.\n\nThe trouble was that the emperor had almost no army of his own. The fighting of these years had been done mainly by the Duke of Bavaria's Catholic League: Tilly in command, Maximilian paying. That bill had not been settled yet, and the emperor did not want to owe Bavaria any more.\n\nAt this moment Wallenstein spoke up. He would raise an army for the emperor, and he would front the money himself.\n\n[[b]]The emperor was short of soldiers and short of money. Wallenstein had land and money, and lacked only the right to lead an army.[[/b]]",
+      cz: "Po Bílé hoře se císař a jeho spojenci v Praze nezastavili.\n\nMorava a Slezsko se brzy podrobily. Lužice připadla do zástavy Sasku jako odměna saskému kurfiřtovi. A koncem roku 1621 uzavřel s císařem mír i [[link:vienna-besieged-again-1619]]Gabriel Betlen[[/link]].\n\nPak se válka přenesla do Fridrichovy vlastní domoviny, do Falce. Na západ od Rýna ji Spinola se Španěly obsadil ještě před Bílou horou; teď Tilly s Katolickou ligou dobyl i Horní Falc. Na podzim 1622 padlo hlavní město Heidelberg. Jeho slavnou knihovnu zabalili, bednu za bednou, a odvezli do Říma jako dar papeži.\n\n[[b]]Fridrich přišel o království, pak o domovinu, a nezůstaly mu ani knihy.[[/b]]\n\nS Alžbětou odešel do exilu v Haagu. Roku 1623 dostal jeho kurfiřtský titul [[link:help-at-a-price-1619]]Maxmilián Bavorský[[/link]], přesně jak mu císař kdysi slíbil.\n\nFridrichovi zbylo jen pár najatých armád, které se toulaly Německem, mezi nimi Mansfeldova. Tilly je hnal až na severozápad a roku 1623 u Stadtlohnu nedaleko nizozemských hranic jednu z nich rozdrtil.\n\nA tak stála katolická vojska na prahu protestantských knížat severního Německa.\n\nRoku 1625 už sever v klidu nevydržel.\n\nDánský král Kristián IV., Alžbětin [[link:allies-on-paper-1620]]strýc[[/link]], byl zároveň vévodou holštýnským v severním Německu. Byl luterán a Tillyho vojáci mu stáli za dveřmi. Toho jara ho protestantská knížata Dolního Saska zvolila svým velitelem a Angličané s Nizozemci slíbili peníze. Vytáhl na jih.\n\n[[b]]Začalo to oknem v Praze. O sedm let později válčila půlka Evropy.[[/b]]\n\nZačátek se mu zrovna nevydařil. V červenci si prohlížel hradby Hamelnu a i s koněm spadl z valu. Několik hodin ležel v bezvědomí.\n\nDánové ale přišli stejně.\n\nPotíž byla v tom, že císař neměl skoro žádné vlastní vojsko. Války těch let vedla hlavně Katolická liga bavorského vévody: velel Tilly, platil Maxmilián. Ten účet ještě nebyl vyrovnán a císař nechtěl být Bavorsku dlužen ještě víc.\n\nV tu chvíli se ozval Valdštejn. Postaví císaři vojsko a peníze zatím založí sám.\n\n[[b]]Císař neměl vojáky ani peníze. Valdštejn měl půdu i peníze a chybělo mu jen právo vést vojsko.[[/b]]",
+      zh: "白山之战以后，皇帝和他的盟友没有停在布拉格。\n\n摩拉维亚和西里西亚很快就低了头。卢萨蒂亚押给了萨克森，算是付给萨克森选帝侯的酬劳。[[link:vienna-besieged-again-1619]]拜特伦·加博尔[[/link]]也在1621年底跟皇帝讲了和。\n\n接着，战火烧进了腓特烈的老家普法尔茨。莱茵河西岸，西班牙的斯皮诺拉早在白山之前就占了；蒂利带着天主教同盟军，又打下了上普法尔茨。1622年秋天，首府海德堡也陷落了。城里那座有名的图书馆，被装了一箱又一箱，运到罗马送给了教皇。\n\n[[b]]腓特烈丢了王国，又丢了老家，连书都没保住。[[/b]]\n\n他带着伊丽莎白流亡到了荷兰海牙。1623年，他的选帝侯头衔也给了[[link:help-at-a-price-1619]]巴伐利亚的马克西米利安[[/link]]，兑现了皇帝当年的许诺。\n\n腓特烈手里只剩几支雇来的军队，在德意志各地东奔西走，曼斯菲尔德就是其中一支。蒂利在后面追，一路追到了德意志西北。1623年，他在荷兰边境附近的施塔特洛恩打垮了其中的一支。\n\n天主教的军队，就这样站到了德意志北部新教诸侯的家门口。\n\n1625年，北边坐不住了。\n\n丹麦国王克里斯蒂安四世，是伊丽莎白的[[link:allies-on-paper-1620]]舅舅[[/link]]，同时还是德意志北部荷尔斯泰因的公爵。他是路德宗，眼看蒂利的兵就在家门口。那年春天，下萨克森的新教诸侯推他当了统帅，英国人和荷兰人答应出钱。他带兵南下。\n\n[[b]]从布拉格的一扇窗户开始，七年后，战火已经烧到了半个欧洲。[[/b]]\n\n出师不太顺。7月，他在哈默尔恩视察城墙，连人带马从墙上摔了下去，昏迷了好几个钟头。\n\n可丹麦人还是来了。\n\n麻烦的是，皇帝手里几乎没有自己的军队。这几年的仗，靠的主要是巴伐利亚公爵的天主教同盟军，指挥是蒂利，出钱的是马克西米利安。那笔账还没算完，皇帝不想再欠巴伐利亚更多了。\n\n就在这时候，华伦斯坦开了口：他来替皇帝拉一支军队，钱先由他垫。\n\n[[b]]皇帝缺兵，也缺钱；华伦斯坦有地，有钱，就缺一个带兵的名分。[[/b]]",
+    },
+    relatedLandmarks: [],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Thirty_Years%27_War",
+  },
+  // Written 2026-10-21 from Claude's draft (split from the-fire-spreads-1624).
+  // Quotes: Schiller, Die Piccolomini (1799), I.2 and II.7, checked against
+  // the Gutenberg German text (ebook 6525) and translated here; the "War
+  // feeds war" line is Isolani's in the play, not a documented saying of
+  // Wallenstein's, so the card attributes it to "one of his generals".
+  // Facts: commander 7 April 1625, Duke of Friedland June 1625; first-year
+  // strength sources vary 20,000–50,000, hence "twenty-odd thousand, over
+  // fifty thousand two years later"; de Witte was his main creditor (his 1630
+  // bankruptcy and suicide held for later); Friedland exempt from quartering;
+  // Dessau Bridge 25 April 1626 (flank attack from a wood, Britannica/
+  // en.wikipedia); Mansfeld died Nov 1626 in Bosnia ("standing" kept as
+  // "it is said"); Peace of Pressburg Dec 1626; Lutter 27 Aug 1626.
+  {
+    slug: "war-feeds-war-1625",
+    era: "fire-and-ashes",
+    startYear: 1625,
+    year: {
+      en: "1625–1626",
+      cz: "1625–1626",
+      zh: "1625年至1626年",
+    },
+    tone: "serious",
+    title: {
+      en: "War Feeds War",
+      cz: "Válka živí válku",
+      zh: "以战养战",
+    },
+    hookLine: {
+      en: "Wallenstein got his army. How to feed it, he had already worked out.",
+      cz: "Valdštejn dostal své vojsko. Jak ho uživit, už měl vymyšleno.",
+      zh: "华伦斯坦拿到了军队。怎么养活它，他早就想好了。",
+    },
+    summary: {
+      en: "In April 1625 the emperor took up Wallenstein's offer and made him commander of all the imperial forces. In June Friedland was raised to a duchy. From now on he was the Duke of Friedland.\n\nWhere did the money come from? Partly from his own estates, partly from loans. His biggest creditor was Hans de Witte, the Antwerp banker from the [[link:coins-cut-with-copper-1622]]minting consortium[[/link]]. Land bought with copper-laced coins was now pledged for an army.\n\nBut loans alone could not feed an army that kept growing. It started at twenty-odd thousand men; two years later it was over fifty thousand.\n\nWallenstein's answer was simple: wherever the army went, that place paid for it.\n\nThese were called contributions. Wherever his troops arrived, his commissaries handed the local towns and lords a bill: so much money a month, so much bread, so much beer, so much fodder. Whoever did not pay had the soldiers move in and help themselves.\n\nProtestant princes or Catholic ones, enemy land or the land of the emperor's own friends: it made no difference.\n\nTwo hundred years later, Schiller had one of Wallenstein's generals sum the system up in a line:\n\n[[quote:0]]\n\nThere was one exception: Friedland. No soldiers were quartered in his duchy. Its workshops baked bread, made shoes and wove cloth for the front, and his capital, Jičín, became the army's storehouse.\n\n[[b]]Other people's land fed his soldiers; his own land made their shoes.[[/b]]\n\nOn 25 April 1626 the new army fought its first real battle.\n\nIt was at the bridge over the Elbe at Dessau. Wallenstein had taken the bridge the autumn before and fortified its end. The man who came to attack it was an old acquaintance: [[link:a-first-victory-1618]]Mansfeld[[/link]].\n\nMansfeld threw his men at the bridgehead again and again, and each time they were driven back. In the end Wallenstein's cavalry came out of an unguarded wood and fell on his flank. Mansfeld's army broke; his men were cut down or surrendered.\n\nMansfeld fled east with what was left, through Silesia, hoping to join [[link:vienna-besieged-again-1619]]Bethlen[[/link]] in Hungary. Wallenstein followed him all the way.\n\nAt the end of the year Bethlen made peace with the emperor once again. Mansfeld did not live to see it. In November he died of illness in the mountains of Bosnia. He died, it is said, on his feet and in armour, held up by two of his officers.\n\nThat summer, further north, Tilly had crushed the King of Denmark at Lutter.\n\nWallenstein now commanded the emperor's own army, had won his battle, and had a duchy that kept his soldiers in shoes.\n\nIn the spring of 1619 he had been a Moravian colonel riding to Vienna by night with a war chest. Now the whole Empire knew his name: some said it with admiration, far more with a curse.\n\nSchiller later gave him the boast himself:\n\n[[quote:1]]\n\nIt had not cost the emperor a penny. It had cost the princes whose lands the army crossed a great deal, and they were keeping the accounts.",
+      cz: "V dubnu 1625 přijal císař Valdštejnovu nabídku a jmenoval ho velitelem všech císařských vojsk. V červnu povýšil Frýdlantsko na vévodství. Od té doby byl Valdštejn vévodou frýdlantským.\n\nKde se vzaly peníze? Zčásti z jeho vlastních panství, zčásti z půjček. Jeho největším věřitelem byl Hans de Witte, antverpský bankéř z [[link:coins-cut-with-copper-1622]]mincovního konsorcia[[/link]]. Půda koupená za mince s mědí teď ručila za vojsko.\n\nJenže ze samých půjček se vojsko, které pořád rostlo, uživit nedalo. Začínalo na dvaceti a něco tisících mužů; o dva roky později jich bylo přes padesát tisíc.\n\nValdštejnova odpověď byla jednoduchá: kam vojsko přijde, tam ho zaplatí.\n\nŘíkalo se tomu kontribuce. Kamkoli jeho vojáci dorazili, dali jeho komisaři místním městům a pánům účet: tolik peněz měsíčně, tolik chleba, tolik piva, tolik píce. Kdo nezaplatil, tomu se vojáci nastěhovali a vzali si sami.\n\nProtestantská knížata nebo katolická, nepřátelská země nebo země císařových vlastních přátel: na tom nezáleželo.\n\nO dvě stě let později shrnul Schiller ten systém do jednoho verše, který vložil do úst jednomu z Valdštejnových generálů:\n\n[[quote:0]]\n\nJen jedno místo bylo výjimkou: Frýdlantsko. Ve vévodství se nesměli ubytovat vojáci. Jeho dílny pekly chléb, šily boty a tkaly sukno pro frontu a hlavní město Jičín se stalo skladištěm celé armády.\n\n[[b]]Cizí země živila jeho vojáky; jeho vlastní jim šila boty.[[/b]]\n\nDne 25. dubna 1626 svedlo nové vojsko svou první skutečnou bitvu.\n\nBylo to u mostu přes Labe u Desavy. Valdštejn most obsadil už předchozího podzimu a jeho předmostí opevnil. Zaútočit na něj přišel starý známý: [[link:a-first-victory-1618]]Mansfeld[[/link]].\n\nMansfeld hnal své muže na předmostí znovu a znovu a pokaždé byli odraženi. Nakonec vyjela Valdštejnova jízda z nestřeženého lesa a vpadla mu do boku. Mansfeldovo vojsko se rozpadlo; jeho muži padli nebo se vzdali.\n\nMansfeld se zbytkem utekl na východ přes Slezsko a doufal, že se v Uhrách spojí s [[link:vienna-besieged-again-1619]]Betlenem[[/link]]. Valdštejn ho pronásledoval celou cestu.\n\nKoncem roku uzavřel Betlen s císařem znovu mír. Mansfeld se toho nedožil. V listopadu zemřel na nemoc v horách Bosny. Zemřel prý vestoje a v brnění, podpírán dvěma svými důstojníky.\n\nToho léta už Tilly dále na severu rozdrtil dánského krále u Lutteru.\n\nValdštejn teď velel císařovu vlastnímu vojsku, vyhrál svou bitvu a měl vévodství, které jeho vojákům dávalo boty.\n\nNa jaře 1619 byl moravským plukovníkem, který v noci ujížděl s pokladnou do Vídně. Teď znala jeho jméno celá říše: někdo ho vyslovoval s obdivem, mnohem víc lidí s kletbou.\n\nSchiller mu později to chlubení vložil do úst samotnému:\n\n[[quote:1]]\n\nCísaře to nestálo ani groš. Knížata, přes jejichž země vojsko táhlo, to stálo hodně, a ta si vedla účty.",
+      zh: "1625年4月，皇帝接受了华伦斯坦的提议，任命他为帝国全军的统帅。6月，又把他的弗里德兰升格为公国。从此，他是弗里德兰公爵了。\n\n钱从哪里来？一部分来自他自己的庄园，一部分来自借款。他最大的债主，就是[[link:coins-cut-with-copper-1622]]造币财团[[/link]]里那位安特卫普银行家汉斯·德·维特。掺了铜的钱买来的地，又押出了一支军队。\n\n可光靠借，养不起一支越拉越大的军队。起初两万多人，两年后已经过了五万。\n\n华伦斯坦的办法很简单：军队开到哪里，就让哪里出钱出粮。\n\n这叫“摊派”。每到一地，他的军需官就给当地的城镇和领主开出单子：每个月交多少钱，多少面包，多少啤酒，多少马料。不交，军队就住下来自己拿。\n\n不管是新教诸侯，还是天主教诸侯；不管是敌人的地，还是皇帝自己人的地。\n\n两百年后，席勒在剧本里让华伦斯坦手下的一个将军，把这套办法说成了一句话：\n\n[[quote:0]]\n\n只有一个地方例外：弗里德兰。他的公国里不许驻兵。那里的作坊替前线烤面包、做鞋、织布，他的首都吉钦，成了这支军队的后方仓库。\n\n[[b]]别人的土地养着他的兵，他自己的土地，给他的兵做鞋。[[/b]]\n\n1626年4月25日，这支军队第一次真正上了阵。\n\n地点在易北河上的德绍桥。华伦斯坦早在前一年秋天就占住了这座桥，在桥头修起了工事。来攻桥的，是我们的老熟人[[link:a-first-victory-1618]]曼斯菲尔德[[/link]]。\n\n曼斯菲尔德一次又一次往桥头冲，都被挡了回来。最后，华伦斯坦的骑兵从一片没人防守的树林里绕出来，扑向他的侧翼。曼斯菲尔德的队伍垮了，死的死，降的降。\n\n曼斯菲尔德带着残兵往东跑，想穿过西里西亚，去匈牙利投奔[[link:vienna-besieged-again-1619]]拜特伦[[/link]]。华伦斯坦一路追了过去。\n\n那年年底，拜特伦又一次跟皇帝讲了和。曼斯菲尔德没等到这一天。11月，他病死在波斯尼亚的山里。据说，他是穿着盔甲、让两个部下扶着，站着死的。\n\n那年夏天，在北边，蒂利已经在卢特打垮了丹麦国王。\n\n这时候的华伦斯坦，统率着皇帝自己的军队，打赢了仗，还有一个给他的兵做鞋的公国。\n\n1619年春天，他还是摩拉维亚的一个上校，卷着钱箱连夜投奔维也纳。如今，整个帝国都在念他的名字，有人是佩服，更多的人是在骂。\n\n后来，席勒让他自己夸了这么一句：\n\n[[quote:1]]\n\n皇帝确实一个子儿没花。花钱的，是这支军队走过的那些诸侯。这笔账，他们一笔一笔都记着。",
+    },
+    quotes: [
+      {
+        text: {
+          en: "ISOLANI: War feeds war. If peasants go to ruin,\nwhy, then the emperor gains more soldiers.\nQUESTENBERG: And is the poorer by as many subjects!",
+          cz: "ISOLANI: Válka živí válku. Když sedláci zajdou,\ninu, císař získá víc vojáků.\nQUESTENBERG: A o tolik poddaných zchudne!",
+          zh: "伊索拉尼：以战养战。农民垮了，\n嘿，皇帝倒多了兵源。\n奎斯滕贝格：也就少了那么多臣民！",
+        },
+        attribution: {
+          en: "Friedrich Schiller, The Piccolomini (1799), Act I, Scene 2: Isolani, one of Wallenstein's generals, and Questenberg, the emperor's envoy",
+          cz: "Friedrich Schiller, Piccolominiové (1799), 1. jednání, 2. výstup: Isolani, jeden z Valdštejnových generálů, a Questenberg, císařův vyslanec",
+          zh: "席勒《皮科洛米尼父子》（1799）第一幕第二场：华伦斯坦手下的将军伊索拉尼，和皇帝的使者奎斯滕贝格",
+        },
+      },
+      {
+        text: {
+          en: "In the Danish war I raised a force for him\nof forty thousand men, or fifty,\nthat cost him not a farthing\nout of his own purse.",
+          cz: "Za dánské války jsem mu postavil moc\nčtyřiceti tisíc hlav, ne-li padesáti,\nkterá ho z vlastního měšce\nnestála ani groš.",
+          zh: "那年丹麦战争，我给他拉起一支\n四万人、也许五万人的大军，\n没让他从自己的钱袋里\n掏过一个子儿。",
+        },
+        attribution: {
+          en: "Friedrich Schiller, The Piccolomini (1799), Act II, Scene 7: Wallenstein looking back on these years",
+          cz: "Friedrich Schiller, Piccolominiové (1799), 2. jednání, 7. výstup: Valdštejn vzpomíná na tato léta",
+          zh: "席勒《皮科洛米尼父子》（1799）第二幕第七场：华伦斯坦回忆这几年",
+        },
+      },
+    ],
+    relatedLandmarks: [
+      {
+        slug: "jicin",
+        relation: {
+          en: "The capital of the Duchy of Friedland and the army's storehouse: bread, shoes and cloth for Wallenstein's soldiers came from his duchy",
+          cz: "Hlavní město Frýdlantského vévodství a skladiště armády: chléb, boty a sukno pro Valdštejnovy vojáky pocházely z jeho vévodství",
+          zh: "弗里德兰公国的首都，也是华伦斯坦军队的后方仓库：前线的面包、鞋和布，都出自他的公国",
+        },
+      },
+    ],
+    wikipediaUrl: "https://en.wikipedia.org/wiki/Battle_of_Dessau_Bridge",
+  },
 ];
 
 // Era-overview cards live in their own file (see historyOverviews.js).
