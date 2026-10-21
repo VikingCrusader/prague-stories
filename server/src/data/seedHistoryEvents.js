@@ -28136,9 +28136,9 @@ export const historyEvents = [
     era: "fire-and-ashes",
     startYear: 1625.5,
     year: {
-      en: "1625–1626",
-      cz: "1625–1626",
-      zh: "1625年至1626年",
+      en: "1626",
+      cz: "1626",
+      zh: "1626年",
     },
     tone: "serious",
     title: {
