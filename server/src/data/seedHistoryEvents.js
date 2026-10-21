@@ -27924,6 +27924,14 @@ export const historyEvents = [
       },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Kipper_und_Wipper",
+    images: ["/history/coins-cut-with-copper-1622.webp"],
+    imageCaptions: [
+      {
+        en: "Bohemia, 1622. In the mint, a worker tips a basket of copper into a crucible holding only a little silver, while Liechtenstein and two of his partners look on. In a Prague bakery, a woman's double handful of coins buys a single small roll. At the commission's table, a buyer in a black cloak slides over a small bag of the new money and takes a whole stack of confiscated estates.",
+        cz: "Čechy, 1622. V mincovně dělník vysypává koš mědi do tavicího kelímku, ve kterém je jen trocha stříbra, a Lichtenštejn se dvěma společníky přihlíží. V pražském krámě pekaře dostane žena za dvě hrsti mincí jedinou malou housku. U stolu komise přisouvá kupec v černém plášti malý měšec nových peněz a odnáší si celou hromadu zabavených panství.",
+        zh: "1622年的波希米亚。造币厂里，工人把一筐铜倒进只剩一点银水的坩埚，列支敦士登和两个合伙人在一旁看着。布拉格的面包铺里，一位妇人捧着满满两把钱，只换到一个小面包。委员会的桌前，一个披黑斗篷的买主推过去一小袋新钱，拿走了一整摞没收来的庄园。",
+      },
+    ],
   },
 ];
 
