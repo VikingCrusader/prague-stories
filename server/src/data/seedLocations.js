@@ -32594,6 +32594,74 @@ Zajímavější je ale vestibul. Jeho stěny jsou obložené žlutou opukou s re
 🎁 彩蛋：原本计划在1992年前后朝德伊维采大街方向再修一个出口，1989年以后就取消了。于是这座"城堡站"至今只有一个出口，而每一位迷了路的游客都会告诉你：这个出口也不通往城堡。`,
     },
   },
+  {
+    name: 'Hradčanská Office Center',
+    slug: 'hradcanska-office-center',
+    localizedNames: { cz: 'Hradčanská Office Center', zh: '城堡区办公中心' },
+    labels: ['brutalism'],
+    district: 'Praha 6',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.097084638557384, lng: 14.405090599250439 },
+    rarity: 'common',
+    xpReward: 10,
+    description: {
+      en: `Most office blocks are built for a tenant. This one outlived its tenant before it was even finished. Rising beside the railway line at Hradčanská, it was meant to house a communist ministry, and by the time the concrete set, the ministry, the regime and very nearly the country had gone.
+
+Work began in the late 1980s on offices for the federal ministry of the electrical industry. The sources disagree on when it was done: some date it to 1989, others to soon after 1992. Either way, the ministry it was drawn for never really moved in. Škoda Export did instead, the foreign-trade arm of the engineering giant, and the building spent the next decades selling trams and turbines abroad. When Škoda left, it was refurbished into ordinary rentable offices: two linked buildings with more than 9,000 square metres of space.
+
+The architecture is the reason to look up. It is late brutalism at its most composed: long horizontal bands of windows, a facade hung out in front of the structure, heavy volumes stepped to different heights, and a slanted, overhanging mass that seems to lean out over the trams, cars and trains passing underneath. In some light the pale cladding turns almost milky.
+
+🎁 Bonus: The building stands just inside the cadastral area of Hradčany, so on paper this office block is in Hradčany, while the metro station next door, the one named after Hradčany, is actually in Dejvice.`,
+      cz: `Většina kancelářských budov se staví pro nájemce. Tahle svého nájemce přežila ještě dřív, než byla hotová. Vyrůstá u železniční trati na Hradčanské a mělo v ní sídlit komunistické ministerstvo, jenže než beton ztvrdl, bylo pryč ministerstvo, režim a skoro i celý stát.
+
+Stavět se začalo koncem 80. let, jako sídlo federálního ministerstva elektrotechnického průmyslu. Kdy přesně byla hotová, se prameny neshodnou: jedny uvádějí rok 1989, jiné až dobu krátce po roce 1992. Tak či onak, ministerstvo, pro které ji navrhli, se sem nikdy pořádně nenastěhovalo. Místo něj přišla Škoda Export, zahraničně obchodní firma strojírenského koncernu, a budova pak desítky let prodávala do světa tramvaje a turbíny. Když Škoda odešla, prošla rekonstrukcí na běžné kanceláře k pronájmu: dvě propojené budovy s více než 9 000 metry čtverečními plochy.
+
+Podívat se vzhůru stojí hlavně kvůli architektuře. Je to pozdní brutalismus v té nejvyladěnější podobě: dlouhé vodorovné pásy oken, fasáda předsazená před konstrukci, těžké hmoty odstupňované do různých výšek a zkosený převislý objem, který se jako by naklání nad tramvaje, auta a vlaky pod ním. Za určitého světla dostane světlý obklad skoro mléčný tón.
+
+🎁 Bonus: Budova stojí těsně uvnitř katastrálního území Hradčany, takže na papíře leží na Hradčanech ona, kdežto sousední stanice metra, která se po Hradčanech jmenuje, leží ve skutečnosti v Dejvicích.`,
+      zh: `大多数写字楼是为了某个租户而盖的。这一栋还没完工，就先把它的租户熬没了。它立在城堡区站旁的铁路边上，原本是要给一个共产党时期的部委办公用的，可等到水泥干透，那个部、那个政权，连那个国家都差不多没了。
+
+工程始于1980年代末，是给联邦电气工业部盖的办公楼。至于什么时候完工，各方说法不一：有的说是1989年，有的说是1992年之后不久。不管哪一年，为它设计的那个部委都没真正搬进来过。搬进来的是斯柯达出口公司，也就是这家机械巨头负责对外贸易的部门，此后几十年，这栋楼一直在往世界各地卖电车和涡轮机。斯柯达搬走以后，它被改造成普通的出租写字楼：两栋相连的楼，可出租面积超过九千平方米。
+
+值得抬头看的，是它的建筑。这是晚期粗野主义里最讲究的一类：长长的水平带窗，挂在结构外面的立面，高低错落的厚重体块，还有一块斜切出挑的体量，像是要探身到底下来往的电车、汽车和火车上方。某些光线下，浅色的外墙几乎泛出乳白。
+
+🎁 彩蛋：这栋楼刚好落在城堡区的地籍范围之内，所以在纸面上，属于城堡区的是这栋写字楼；隔壁那座以城堡区命名的地铁站，实际上却在德伊维采。`,
+    },
+  },
+  {
+    name: 'Vinok Sculpture (Ukraine Mothers)',
+    slug: 'vinok-sculpture',
+    localizedNames: { cz: 'Socha Vinok (ukrajinským matkám)', zh: '花冠雕塑（致乌克兰母亲）' },
+    labels: ['monument', 'contemporary', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.090617077156935, lng: 14.42592821187203 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Most people walk the length of Dlouhá street without noticing her, because she isn't at eye level. Look up outside the Roxy club and the NoD gallery: about ten metres above the pavement, strung between two buildings, a woman made of wire floats in the air, a wreath of flowers on her head.
+
+The sculpture is Vinok by the Czech artist Veronika Psotková, who has been shaping figures out of galvanised wire mesh since 2007. It went up in July 2022, a few months after Russia's full-scale invasion of Ukraine, and she dedicated it "to all mothers in the war for Ukraine", those already touched by the war and those who would yet be touched by its consequences. The idea came in the first days of the war, from photographs of Ukrainian women wearing the traditional flower crown.
+
+The vinok itself began as a pagan spring ornament worn by girls and young unmarried women. Over the centuries it came to stand for youth, femininity and the land itself, and after 2014 it became a symbol of Ukrainian identity and resistance. Seen from below against the sky, the open mesh makes the figure almost transparent, a little like a ghost. NoD's curator Pavel Kubesa called the piece beautiful and terrifying at the same time.
+
+🎁 Bonus: Vinok was only supposed to hang over Dlouhá for the summer of 2022, until September at the latest. A year later she was still there, which is about how long most of Prague's temporary arrangements end up lasting.`,
+      cz: `Většina lidí projde celou Dlouhou ulicí a vůbec si jí nevšimne, protože nevisí ve výšce očí. Stačí se ale před klubem Roxy a galerií NoD podívat nahoru: asi deset metrů nad chodníkem, zavěšená mezi dvěma domy, se ve vzduchu vznáší žena z drátu s věncem květin na hlavě.
+
+Je to socha Vinok české výtvarnice Veroniky Psotkové, která z pozinkovaného drátěného pletiva tvoří postavy od roku 2007. Zavěsili ji v červenci 2022, pár měsíců po začátku ruské invaze na Ukrajinu, a autorka ji věnovala „všem matkám ve válce za Ukrajinu“, těm, kterých se válka už dotkla, i těm, kterých se ještě dotknou její následky. Nápad dostala v prvních dnech války, když viděla fotografie Ukrajinek s tradičním květinovým věncem.
+
+Samotný vinok vznikl jako pohanská jarní ozdoba, kterou nosily dívky a mladé svobodné ženy. Postupně se stal symbolem mládí, ženskosti i samotné země a po roce 2014 i znakem ukrajinské identity a odporu. Zespodu proti obloze je řídké pletivo skoro průhledné a postava působí trochu jako přízrak. Kurátor NoD Pavel Kubesa o ní řekl, že je krásná a děsivá zároveň.
+
+🎁 Bonus: Vinok měl nad Dlouhou viset jen přes léto 2022, nejpozději do září. O rok později tam visel pořád, což je zhruba tak dlouho, jak v Praze vydrží většina dočasných řešení.`,
+      zh: `大多数人从长街走到头都不会注意到她，因为她不在视线的高度上。在罗克西俱乐部和NoD画廊门口抬头看：离人行道大约十米高的地方，两栋楼之间悬着一位铁丝做成的女子，头上戴着一圈花冠，浮在半空。
+
+这件雕塑名叫《花冠》，作者是捷克艺术家韦罗妮卡·普索特科娃，她从2007年起就用镀锌铁丝网编出一个个人形。它是2022年7月挂上去的，那时俄罗斯全面入侵乌克兰才过去几个月。她把它献给"所有在乌克兰战争中的母亲"，既包括已经被战争波及的人，也包括将来还会承受战争后果的人。灵感来自战争刚开始的那几天：她看到了一些照片，照片里的乌克兰女性戴着传统的花冠。
+
+花冠最早是异教时代春天节日里的饰物，由少女和未婚的年轻女子佩戴。几百年下来，它渐渐代表青春、女性，乃至土地本身；2014年以后，它又成了乌克兰身份认同和抵抗的象征。从下面对着天空看，稀疏的铁丝网让这个人形几乎透明，有点像一个幽灵。NoD画廊的策展人帕维尔·库贝萨说，这件作品既美丽，又令人害怕。
+
+🎁 彩蛋：按原计划，《花冠》只在长街上空挂2022年一个夏天，最晚挂到9月。一年以后她还在那儿。布拉格大多数"临时安排"，差不多都是这么个临时法。`,
+    },
+  },
 ];
 
 async function run() {
