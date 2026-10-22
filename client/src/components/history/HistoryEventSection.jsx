@@ -21,19 +21,10 @@ import HistoryOverviewCard from './HistoryOverviewCard';
 // Related landmarks render inside the shared `.location-grid` class from
 // Explore, so column widths/gaps still match Explore's grid — but each
 // LocationCard is now paired with its relation caption in a single
-// `.history-landmark-item` wrapper (flex column: card, then caption right
-// underneath it), and it's that wrapper, not the bare card, that's the
-// grid item. An earlier version kept the cards as direct, unwrapped grid
-// children (with captions rendered in a wholly separate second grid below)
-// specifically to preserve CSS Grid's default `align-items: stretch`,
-// which made every card in a row exactly the row's height. Wrapping broke
-// that — `.loc-card` no longer sits directly in the grid, so it stretches
-// along the wrapper's cross axis (width) rather than its main axis
-// (height), and reverts to its natural content height instead. That's an
-// accepted, deliberate trade-off here: the point of this section is each
-// landmark read as one card+caption unit, not a uniform card row, so a
-// little natural height variance between cards is fine — pairing them
-// correctly is the actual requirement.
+// `.history-landmark-item` wrapper (card, then caption right underneath
+// it), and it's that wrapper, not the bare card, that's the grid item.
+// The wrapper is a two-row subgrid (see history.css), so the cards in a
+// row still stretch to equal heights and the captions line up below them.
 //
 // Unlike Explore, though, this isn't a discovery/gamification context: the
 // event text already names the place, so `unlocked` is forced on for
@@ -42,6 +33,22 @@ import HistoryOverviewCard from './HistoryOverviewCard';
 // actually checked in there yet. Clicking a card still opens the full
 // LocationDetail overlay on top of this page (see HistoryPage, which owns
 // the selected-slug state), not a navigation away.
+// Rows for the landmark wall (2026-10-22): full rows of `cols` cards, except
+// that a lone card left on the last row of a 3-wide grid pulls one card down
+// from the row above (4 → 2+2, 7 → 3+2+2). Returns each card's starting
+// track in the 2-tracks-per-card grid (see history.css), or null for auto;
+// only the first card of a short row needs one, to centre that row.
+function landmarkStarts(n, cols) {
+  const rows = [];
+  let left = n;
+  while (left > 0) {
+    const k = cols === 3 && left === 4 ? 2 : Math.min(cols, left);
+    rows.push(k);
+    left -= k;
+  }
+  return rows.flatMap(k => Array.from({ length: k }, (_, i) => (i === 0 && k < cols ? cols - k + 1 : null)));
+}
+
 export default function HistoryEventSection({ event, era, chapter, onOpenLandmark, onNavigateToEvent, sectionRef }) {
   // Era-overview cards (cardType 'overview') have a structure of their own.
   if (event.cardType === 'overview') {
@@ -247,13 +254,19 @@ function EventCard({ event, onOpenLandmark, onNavigateToEvent, sectionRef }) {
             <div className="history-event__landmarks">
               <div className="history-event__landmarks-label">{t('history.relatedLandmarksLabel')}</div>
 
-              <div className="location-grid">
-                {event.relatedLandmarks.map(({ landmark, relation }) => {
+              <div className="location-grid history-landmark-grid">
+                {event.relatedLandmarks.map(({ landmark, relation }, i, all) => {
                   const distance = userPos
                     ? haversineDistance(userPos.lat, userPos.lng, landmark.coordinates.lat, landmark.coordinates.lng)
                     : null;
+                  const start3 = landmarkStarts(all.length, 3)[i];
+                  const start2 = landmarkStarts(all.length, 2)[i];
                   return (
-                    <div key={landmark.slug} className="history-landmark-item">
+                    <div
+                      key={landmark.slug}
+                      className="history-landmark-item"
+                      style={{ '--start-3': start3 ?? 'auto', '--start-2': start2 ?? 'auto' }}
+                    >
                       <LocationCard
                         location={{ ...landmark, unlocked: true }}
                         holdable={!!landmark.unlocked}

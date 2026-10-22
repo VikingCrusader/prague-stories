@@ -525,14 +525,14 @@
   letter-spacing: 0.5px;
   color: var(--gold);
   margin-bottom: 12px;
+  text-align: center;
 }
 
 /* .location-grid itself is the shared, unmodified rule from pixelart.css —
    reused as-is here (see HistoryEventSection) so column widths/gaps match
    Explore's grid. Each grid item is a .history-landmark-item wrapper
-   (card + caption stacked), not a bare LocationCard — see the component
-   comment for why that costs the row its equal-card-height stretch, and
-   why that trade-off is intentional here. */
+   (card + caption stacked), not a bare LocationCard. The subgrid rule
+   below gives the cards in a row equal heights again. */
 .history-landmark-item {
   display: flex;
   flex-direction: column;
@@ -552,6 +552,40 @@
   color: var(--text-muted);
   line-height: 1.4;
   margin: 8px 0 0;
+}
+/* Equal card heights per row (2026-10-22): each wrapper spans two rows of
+   the parent grid as a subgrid (card row, caption row), so the cards in a
+   row stretch to the tallest one and the captions start on one line. The
+   flex column above stays as the fallback where subgrid is unsupported. */
+/* Balanced, centred rows (2026-10-22): each card spans two narrow tracks,
+   so a short row can start one track in and sit centred. Three cards per
+   row once the section is as wide as Explore's grid would fit three
+   (3 × 230px + gaps), two below that; HistoryEventSection works out the
+   rows (4 → 2+2, 7 → 3+2+2) and passes each card's start as --start-3 /
+   --start-2. */
+.history-event__landmarks { container-type: inline-size; }
+.location-grid.history-landmark-grid { grid-template-columns: repeat(4, 1fr); }
+.history-landmark-grid > .history-landmark-item { grid-column: var(--start-2, auto) / span 2; }
+@container (min-width: 722px) {
+  .location-grid.history-landmark-grid { grid-template-columns: repeat(6, 1fr); }
+  .history-landmark-grid > .history-landmark-item { grid-column: var(--start-3, auto) / span 2; }
+}
+/* Phones keep everything left-aligned, as before (user's call): the
+   heading, and a lone card on the last row. */
+@media (max-width: 600px) {
+  .history-event__landmarks-label { text-align: left; }
+  .history-landmark-grid > .history-landmark-item { grid-column: auto / span 2; }
+}
+@supports (grid-template-rows: subgrid) {
+  .history-landmark-item {
+    display: grid;
+    grid-row: span 2;
+    grid-template-rows: subgrid;
+    /* Not the implicit `auto` column, which a long unbroken name widens
+       past the card's share of the row. */
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 0;
+  }
 }
 
 @media (max-width: 820px) {
