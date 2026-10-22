@@ -8,19 +8,20 @@ Walk to a real place, stand there, and collect its card. More than 1,100 locatio
 
 **User guide:** [GUIDE.md](GUIDE.md)
 
-![Explore: rarity-framed cards around the Lesser Town, collected and locked](docs/screenshots/explore.webp)
+![Explore near the Wallenstein Palace: collected cards in their rarity frames, nearby locked ones starting to reveal themselves](docs/screenshots/explore.webp)
 
 | Location story | Map |
 |---|---|
-| ![Location detail of the Church of Our Lady before Týn](docs/screenshots/location-detail.webp) | ![Map with collected (gold) and locked (grey) places, the New Town Hall open in the sidebar](docs/screenshots/map.webp) |
+| ![Location detail of the Church of Our Lady before Týn](docs/screenshots/location-detail.webp) | ![Map centred on the user (red dot) next to the selected New Town Hall, open in the sidebar](docs/screenshots/map.webp) |
 
-**On your phone:** browse by district (here Prague 3, with its introduction), long-press a collected card to show it off, and go treasure hunting.
+**On your phone:** a first visit asks before using your location, then browse by district (here Prague 3, with its introduction), long-press a collected card to show it off, and go treasure hunting.
 
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/phone-explore.webp" alt="Explore filtered to Prague 3, with the district's introduction" width="260"></td>
-    <td align="center"><img src="docs/screenshots/phone-showcase.webp" alt="Card showcase: the Church of the Holy Saviour, a Superior card" width="260"></td>
-    <td align="center"><img src="docs/screenshots/phone-treasure.webp" alt="Treasure hunt start page" width="260"></td>
+    <td align="center"><img src="docs/screenshots/phone-consent.webp" alt="First visit: the location-consent dialog with two equal choices" width="200"></td>
+    <td align="center"><img src="docs/screenshots/phone-explore.webp" alt="Explore filtered to Prague 3, with the district's introduction" width="200"></td>
+    <td align="center"><img src="docs/screenshots/phone-showcase.webp" alt="Card showcase: the Church of the Holy Saviour, a Superior card" width="200"></td>
+    <td align="center"><img src="docs/screenshots/phone-treasure.webp" alt="Treasure hunt start page" width="200"></td>
   </tr>
 </table>
 
