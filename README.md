@@ -8,15 +8,25 @@ Walk to a real place, stand there, and collect its card. More than 1,100 locatio
 
 **User guide:** [GUIDE.md](GUIDE.md)
 
-![Explore: rarity-framed cards around Old Town Square, collected and locked](docs/screenshots/explore.webp)
+![Explore: rarity-framed cards around the Lesser Town, collected and locked](docs/screenshots/explore.webp)
 
-| Card showcase | Location story |
+| Location story | Map |
 |---|---|
-| ![A collected card shown full screen](docs/screenshots/showcase.webp) | ![Location detail with its story](docs/screenshots/location-detail.webp) |
+| ![Location detail of the Church of Our Lady before Týn](docs/screenshots/location-detail.webp) | ![Map with collected (gold) and locked (grey) places, the New Town Hall open in the sidebar](docs/screenshots/map.webp) |
 
-| History Timeline | Map |
-|---|---|
-| ![History Timeline event with a primary-source quote](docs/screenshots/history.webp) | ![Map with collected (gold) and locked (grey) locations](docs/screenshots/map.webp) |
+**On your phone:** browse by district (here Prague 3, with its introduction), long-press a collected card to show it off, and go treasure hunting.
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/phone-explore.webp" alt="Explore filtered to Prague 3, with the district's introduction" width="260"></td>
+    <td align="center"><img src="docs/screenshots/phone-showcase.webp" alt="Card showcase: the Church of the Holy Saviour, a Superior card" width="260"></td>
+    <td align="center"><img src="docs/screenshots/phone-treasure.webp" alt="Treasure hunt start page" width="260"></td>
+  </tr>
+</table>
+
+**History Timeline:** each event has a primary-source quote, an illustration and links to the real places, whose cards open in place.
+
+<p align="center"><img src="docs/screenshots/history.webp" alt="History Timeline event: Libuše's Prophecy, with quote, illustration and related places" width="520"></p>
 
 ---
 
