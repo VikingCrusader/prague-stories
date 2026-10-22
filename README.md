@@ -2,7 +2,7 @@
 
 A location-based city-exploration game for Prague, built on the MERN stack and installable as a PWA.
 
-Walk to a real place, stand there, and collect its card. More than 1,100 location cards across Prague and Bohemia, each with a hand-written story in English, Czech and Chinese (Simplified/Traditional), plus a History Timeline that tells the story of Bohemia from its legends to the Thirty Years' War. Go there. Stand there. The app notices.
+Walk to a real place, stand there, and collect its card. More than 1,100 location cards across Prague and Bohemia, each with a hand-written story in English, Czech and Chinese (Simplified/Traditional), plus a History Timeline that tells the story of Prague and Bohemia, era by era. Go there. Stand there. The app notices.
 
 **Live:** https://prague-stories.vercel.app
 
@@ -86,7 +86,7 @@ One hunt a day, two modes. The target's location never reaches the client: the s
 
 ### History Timeline
 
-- **370+ hand-written events in 23 eras**, from the legends of Libuše to the Thirty Years' War, all in three languages, with illustrations, primary-source quote boxes, background-knowledge cards and an overview card per era.
+- **Hand-written events grouped into eras**, all in three languages, with illustrations, primary-source quote boxes, background-knowledge cards and an overview card per era. It is still being written: new events and eras are added as the story moves forward.
 - Each event links the real places where it happened; their cards open in place.
 - Remembers where you stopped reading, across devices for signed-in users.
 
