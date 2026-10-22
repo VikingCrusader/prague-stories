@@ -28134,7 +28134,7 @@ export const historyEvents = [
   {
     slug: "war-feeds-war-1625",
     era: "fire-and-ashes",
-    startYear: 1625.5,
+    startYear: 1626,
     year: {
       en: "1626",
       cz: "1626",
@@ -28323,9 +28323,9 @@ export const historyEvents = [
     },
     "tone": "serious",
     "title": {
-      "en": "No More Elected Kings",
-      "cz": "Krále už nikdo nevolí",
-      "zh": "从此不再选王"
+      "en": "The Crown in Prague, the Say in Vienna",
+      "cz": "Koruna v Praze, slovo ve Vídni",
+      "zh": "布拉格的王冠，维也纳说了算"
     },
     "hookLine": {
       "en": "The churches had changed hands. Now it was the turn of the kingdom itself.",
