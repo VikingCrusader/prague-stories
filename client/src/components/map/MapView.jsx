@@ -23,14 +23,6 @@ function Markers({ locations, selectedSlug, onLocationClick, lang, convert }) {
 
   return (
     <>
-{userPos && (
-        <CircleMarker
-          center={[userPos.lat, userPos.lng]}
-          radius={(ZOOM_RADIUS[Math.min(Math.max(zoom, 10), 18)] ?? 3) + 4}
-          pathOptions={{ color: '#fff', fillColor: '#e63946', fillOpacity: 1, weight: 2 }}
-          interactive={false}
-        />
-      )}
       {locations.map(loc => {
         const isSelected = loc.slug === selectedSlug;
         const color = loc.unlocked ? '#FFD700' : '#555';
@@ -56,6 +48,16 @@ function Markers({ locations, selectedSlug, onLocationClick, lang, convert }) {
           </CircleMarker>
         );
       })}
+      {/* Drawn last, so the user's own dot stays on top of the place
+          markers instead of disappearing under them in the city centre. */}
+      {userPos && (
+        <CircleMarker
+          center={[userPos.lat, userPos.lng]}
+          radius={(ZOOM_RADIUS[Math.min(Math.max(zoom, 10), 18)] ?? 3) + 4}
+          pathOptions={{ color: '#fff', fillColor: '#e63946', fillOpacity: 1, weight: 2 }}
+          interactive={false}
+        />
+      )}
     </>
   );
 }
