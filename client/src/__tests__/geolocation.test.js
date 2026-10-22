@@ -67,10 +67,14 @@ describe('haversineDistance', () => {
 // The module holds shared state (_cachedPos, _subs). Each test gets a
 // fresh instance via jest.resetModules() + require() so state never leaks.
 describe('position cache and subscriptions', () => {
-  let setCachedPosition, subscribeToPosition, getCurrentPosition;
+  let setCachedPosition, subscribeToPosition, getCurrentPosition, consent;
 
+  // Location consent given, unless a test withdraws it (see 'location consent').
   beforeEach(() => {
     jest.resetModules();
+    localStorage.clear();
+    consent = require('../utils/locationConsent.js');
+    consent.setLocationConsent(true);
     ({ setCachedPosition, subscribeToPosition, getCurrentPosition } =
       require('../utils/geolocation.js'));
   });
@@ -197,6 +201,62 @@ describe('position cache and subscriptions', () => {
     test('rejects when navigator.geolocation is unavailable', async () => {
       global.navigator = {};
       await expect(getCurrentPosition()).rejects.toThrow('Geolocation is not supported');
+    });
+  });
+
+  describe('location consent', () => {
+    const fakeGps = () => {
+      const gps = jest.fn(success => success({ coords: { latitude: 51, longitude: 15 } }));
+      global.navigator = { geolocation: { getCurrentPosition: gps } };
+      return gps;
+    };
+
+    test('without consent, asks first and never touches the GPS after "Not now"', async () => {
+      consent.setLocationConsent(false);
+      const gps = fakeGps();
+      const pending = getCurrentPosition();
+      expect(consent.isLocationConsentRequested()).toBe(true);
+      consent.setLocationConsent(false);
+      await expect(pending).rejects.toThrow('Location use is turned off');
+      expect(gps).not.toHaveBeenCalled();
+    });
+
+    test('reads the position once the user allows it from the dialog', async () => {
+      consent.setLocationConsent(false);
+      const gps = fakeGps();
+      const pending = getCurrentPosition();
+      consent.setLocationConsent(true);
+      await expect(pending).resolves.toEqual({ lat: 51, lng: 15 });
+      expect(gps).toHaveBeenCalledTimes(1);
+      expect(consent.isLocationConsentRequested()).toBe(false);
+    });
+
+    test('withdrawing consent forgets the cached position', async () => {
+      const cb = jest.fn();
+      setCachedPosition(50, 14);
+      subscribeToPosition(cb);
+      cb.mockClear();
+      consent.setLocationConsent(false);
+      expect(cb).toHaveBeenCalledWith(null);
+      const gps = fakeGps();
+      const pending = getCurrentPosition(); // the stale fix must not be reused
+      consent.setLocationConsent(false);
+      await expect(pending).rejects.toThrow('Location use is turned off');
+      expect(gps).not.toHaveBeenCalled();
+    });
+
+    test('a decision on an older notice version counts as no decision', () => {
+      localStorage.setItem('locationConsent', JSON.stringify({ granted: true, version: 0, at: '2026-01-01T00:00:00.000Z' }));
+      jest.resetModules();
+      const fresh = require('../utils/locationConsent.js');
+      expect(fresh.getLocationConsent()).toBeNull();
+      expect(fresh.hasLocationConsent()).toBe(false);
+    });
+
+    test('remembers the decision with its version and time', () => {
+      const c = consent.setLocationConsent(true, '2026-10-22T10:00:00.000Z');
+      expect(c).toEqual({ granted: true, version: consent.LOCATION_CONSENT_VERSION, at: '2026-10-22T10:00:00.000Z' });
+      expect(JSON.parse(localStorage.getItem('locationConsent'))).toEqual(c);
     });
   });
 });

@@ -11,6 +11,9 @@ import ProximityToast from './components/shared/ProximityToast';
 import LevelUpModal from './components/shared/LevelUpModal';
 import { useProximityDetection } from './hooks/useProximityDetection';
 import { useNotificationPermission } from './hooks/useNotificationPermission';
+import { useLocationConsent } from './hooks/useLocationConsent';
+import LocationConsentDialog from './components/shared/LocationConsentDialog';
+import LocationConsentSync from './components/shared/LocationConsentSync';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import ExplorePage from './pages/ExplorePage';
@@ -21,6 +24,7 @@ import TreasureHuntPage from './pages/TreasureHuntPage';
 import LeaderboardPage from './pages/LeaderboardPage';
 import ExplorerPage from './pages/ExplorerPage';
 import HistoryPage from './pages/HistoryPage';
+import PrivacyPage from './pages/PrivacyPage';
 
 const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
 
@@ -29,8 +33,10 @@ function ProximityDetector() {
   const navigate = useNavigate();
   const { showPrompt, request, dismiss: dismissOptIn } = useNotificationPermission();
   const [nearbyLoc, setNearbyLoc] = useState(null);
+  // No position is read until the user has agreed (LocationConsentDialog).
+  const locationAllowed = useLocationConsent().consent?.granted === true;
 
-  useProximityDetection(!!user, { onNearby: isMobile ? undefined : setNearbyLoc });
+  useProximityDetection(!!user && locationAllowed, { onNearby: isMobile ? undefined : setNearbyLoc });
 
   useEffect(() => {
     if (!navigator.serviceWorker) return;
@@ -61,6 +67,8 @@ export default function App() {
         <LanguageProvider>
         <ThemeProvider>
           <PreferenceSync />
+          <LocationConsentSync />
+          <LocationConsentDialog />
           <Navbar />
           <ProximityDetector />
           <LevelUpModal />
@@ -78,6 +86,7 @@ export default function App() {
             {/* The page was "/random-draw" while it also offered an open draw. */}
             <Route path="/random-draw" element={<Navigate to="/treasure-hunt" replace />} />
             <Route path="/history"   element={<ProtectedRoute guestOk><HistoryPage /></ProtectedRoute>} />
+            <Route path="/privacy"   element={<PrivacyPage />} />
             <Route path="*"          element={<Navigate to="/explore" replace />} />
           </Routes>
         </ThemeProvider>

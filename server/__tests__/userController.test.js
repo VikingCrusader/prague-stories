@@ -149,6 +149,34 @@ describe('PUT /api/user/preferences', () => {
   });
 });
 
+describe('PUT /api/user/location-consent', () => {
+  test('requires authentication', async () => {
+    expect((await request(app).put('/api/user/location-consent').send({ granted: true, version: 1 })).status).toBe(401);
+  });
+
+  test('starts undecided, records the decision with its version and time, and shows up on /auth/me', async () => {
+    const { token } = await createAuthedUser();
+    const auth = { Authorization: `Bearer ${token}` };
+    const before = await request(app).get('/api/auth/me').set(auth);
+    expect(before.body.user.locationConsent).toEqual({ granted: null, version: null, decidedAt: null });
+
+    const res = await request(app).put('/api/user/location-consent').set(auth).send({ granted: true, version: 1 });
+    expect(res.status).toBe(200);
+    expect(res.body.locationConsent).toMatchObject({ granted: true, version: 1 });
+    expect(Date.parse(res.body.locationConsent.decidedAt)).not.toBeNaN();
+
+    const me = await request(app).get('/api/auth/me').set(auth);
+    expect(me.body.user.locationConsent).toMatchObject({ granted: true, version: 1 });
+  });
+
+  test('rejects a missing or malformed decision', async () => {
+    const { token } = await createAuthedUser();
+    const auth = { Authorization: `Bearer ${token}` };
+    expect((await request(app).put('/api/user/location-consent').set(auth).send({ granted: 'yes', version: 1 })).status).toBe(400);
+    expect((await request(app).put('/api/user/location-consent').set(auth).send({ granted: true })).status).toBe(400);
+  });
+});
+
 describe('treasure hunt', () => {
   // Offsets north of CHARLES_BRIDGE; 0.009° of latitude ≈ 1 km.
   const north = m => ({ lat: CHARLES_BRIDGE.lat + m / 111195, lng: CHARLES_BRIDGE.lng });
@@ -542,6 +570,26 @@ describe('hardcore treasure hunt', () => {
     expect((await status(token, north(4400))).body.hunt.reading).toEqual({ about: 4000 });
     expect((await status(token, north(2300))).body.hunt.reading).toEqual({ about: 2500 });
     expect(JSON.stringify(res.body)).not.toContain('target');
+  });
+
+  test('keeps no position for a miss, and drops the trend reference point when consent is withdrawn', async () => {
+    await seedTarget();
+    const { token, user } = await createAuthedUser();
+    await start(token);
+    await status(token, north(2000));
+    expect((await User.findById(user._id).lean()).hardcoreDraw.trendRef).toMatchObject({ distance: 2000 });
+
+    await press(token, north(300));
+    const afterMiss = await User.collection.findOne({ _id: (await User.findById(user._id))._id });
+    expect(afterMiss.hardcoreDraw.misses).toHaveLength(1);
+    expect(afterMiss.hardcoreDraw.misses[0].lat).toBeUndefined();
+    expect(afterMiss.hardcoreDraw.misses[0].lng).toBeUndefined();
+
+    await request(app).put('/api/user/location-consent').set('Authorization', `Bearer ${token}`).send({ granted: false, version: 1 });
+    const after = await User.findById(user._id).lean();
+    expect(after.hardcoreDraw.trendRef).toBeNull();
+    expect(after.hardcoreDraw.misses).toHaveLength(1); // the hunt itself goes on
+    expect(after.locationConsent).toMatchObject({ granted: false, version: 1 });
   });
 
   test('reveals a label and the quarter within 1 km, more within 500 m, and keeps them', async () => {

@@ -12,7 +12,12 @@ function toTW(str) {
   if (!_toTW) _toTW = OpenCC.Converter({ from: 'cn', to: 'tw' });
   let result = _toTW(str);
   for (const [from, to] of TW_OVERRIDES) result = result.replaceAll(from, to);
-  return result;
+  // Metres are 公尺 in Taiwan. Only a 米 right after a number is a length
+  // ("100米", "三百米"), so names like 斯米霍夫 or 米蘭 stay as they are.
+  // 千米 (kilometre) becomes 公里, not 千公尺.
+  return result
+    .replace(/([0-9〇零一二三四五六七八九十百萬])(\s*)千米/g, '$1$2公里')
+    .replace(/([0-9〇零一二三四五六七八九十百千萬])(\s*)米(?![蘭開])/g, '$1$2公尺');
 }
 
 const T = {
@@ -152,6 +157,23 @@ const T = {
     'common.checkIn': '★ Collect',
     'common.locked': 'LOCKED',
     'common.cancel': 'Cancel',
+    'auth.privacyNote': 'How we handle your data:',
+    'consent.title': 'May we use your location?',
+    'consent.why': 'Prague Stories uses your phone\'s position to check you in at places, run the treasure hunts, alert you when an undiscovered place is near and show you on the map.',
+    'consent.what': 'It is only read while the app is open. To confirm a check-in or a treasure-hunt guess, your position is sent to our server, which does not store it with the check-in (a hardcore hunt keeps one reference point until it ends). It is never shared or used for ads.',
+    'consent.optional': 'This is optional: without it you can still browse every card, the map and the history. You can change your mind at any time on the Privacy page.',
+    'consent.allow': 'Allow location',
+    'consent.deny': 'Not now',
+    'consent.policyLink': 'Privacy policy',
+    'consent.offNotice': 'Treasure hunts need your location, and location is turned off.',
+    'privacy.title': 'Privacy',
+    'privacy.updated': 'Last updated {date}',
+    'privacy.consentTitle': 'Location',
+    'privacy.statusNone': 'You haven\'t decided yet. The app does not read your location.',
+    'privacy.statusOn': 'Allowed since {date}.',
+    'privacy.statusOff': 'Turned off since {date}. The app does not read your location.',
+    'privacy.withdraw': 'Withdraw consent',
+    'privacy.browserHint': 'This is the app\'s own setting. Your browser also keeps a location permission for this site, which you can remove in its settings.',
     'auth.login': 'Login',
     'auth.loginSubtitle': 'Welcome back, explorer',
     'auth.register': 'Register',
@@ -408,6 +430,23 @@ const T = {
     'common.checkIn': '★ Sbírat',
     'common.locked': 'UZAMČENO',
     'common.cancel': 'Zrušit',
+    'auth.privacyNote': 'Jak zacházíme s tvými údaji:',
+    'consent.title': 'Smíme používat tvou polohu?',
+    'consent.why': 'Prague Stories používá polohu tvého telefonu k zápisu návštěvy míst, k hledání pokladů, k upozornění na neobjevené místo poblíž a k zobrazení na mapě.',
+    'consent.what': 'Čte se jen tehdy, když je aplikace otevřená. K ověření návštěvy nebo tipu při hledání pokladu se poloha pošle na náš server, který ji k návštěvě neukládá (hardcore hledání si drží jeden referenční bod, dokud neskončí). Nikdy ji nesdílíme ani nepoužíváme k reklamě.',
+    'consent.optional': 'Je to dobrovolné: i bez polohy si můžeš prohlížet všechny karty, mapu i historii. Rozmyslet si to můžeš kdykoli na stránce Soukromí.',
+    'consent.allow': 'Povolit polohu',
+    'consent.deny': 'Teď ne',
+    'consent.policyLink': 'Zásady ochrany soukromí',
+    'consent.offNotice': 'Hledání pokladů potřebuje tvou polohu, a ta je vypnutá.',
+    'privacy.title': 'Soukromí',
+    'privacy.updated': 'Naposledy upraveno {date}',
+    'privacy.consentTitle': 'Poloha',
+    'privacy.statusNone': 'Zatím není rozhodnuto. Aplikace tvou polohu nečte.',
+    'privacy.statusOn': 'Povoleno od {date}.',
+    'privacy.statusOff': 'Vypnuto od {date}. Aplikace tvou polohu nečte.',
+    'privacy.withdraw': 'Odvolat souhlas',
+    'privacy.browserHint': 'Tohle je nastavení aplikace. Prohlížeč si pro tento web drží i vlastní oprávnění k poloze, které můžeš odebrat v jeho nastavení.',
     'auth.login': 'Přihlášení',
     'auth.loginSubtitle': 'Vítej zpět, průzkumníku',
     'auth.register': 'Registrace',
@@ -664,6 +703,23 @@ const T = {
     'common.checkIn': '★ 打卡',
     'common.locked': '已锁定',
     'common.cancel': '取消',
+    'auth.privacyNote': '我们如何处理你的数据：',
+    'consent.title': '可以使用你的位置吗？',
+    'consent.why': 'Prague Stories 需要用手机的位置来为你打卡、进行寻宝、在附近有未发现的地点时提醒你，以及在地图上显示你的位置。',
+    'consent.what': '位置只在应用打开时读取。打卡或寻宝猜测时，位置会发送到我们的服务器进行确认，不会随打卡记录保存（硬核寻宝会保留一个参考点，寻宝结束即删除）。你的位置绝不会被分享或用于广告。',
+    'consent.optional': '定位是可选的：不开定位，你仍然可以浏览所有卡片、地图和历史。你可以随时在“隐私”页面改变主意。',
+    'consent.allow': '允许定位',
+    'consent.deny': '暂不',
+    'consent.policyLink': '隐私政策',
+    'consent.offNotice': '寻宝需要你的位置，但定位目前是关闭的。',
+    'privacy.title': '隐私',
+    'privacy.updated': '最后更新：{date}',
+    'privacy.consentTitle': '定位',
+    'privacy.statusNone': '你还没有做出选择。应用不会读取你的位置。',
+    'privacy.statusOn': '自 {date} 起已允许。',
+    'privacy.statusOff': '自 {date} 起已关闭。应用不会读取你的位置。',
+    'privacy.withdraw': '撤回同意',
+    'privacy.browserHint': '这是应用自己的设置。浏览器还为本网站单独保存了定位权限，可以在浏览器设置中移除。',
     'auth.login': '登录',
     'auth.loginSubtitle': '欢迎回来，探索者',
     'auth.register': '注册',

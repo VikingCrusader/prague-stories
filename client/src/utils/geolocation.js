@@ -1,3 +1,5 @@
+import { hasLocationConsent, requestLocationConsent, subscribeToLocationConsent } from './locationConsent';
+
 // Explore: a locked card this close to the user starts revealing itself
 // (name, colours, flickering cover; see LocationCard's `nearby`).
 export const NEARBY_REVEAL_M = 100;
@@ -18,7 +20,7 @@ export function haversineDistance(lat1, lon1, lat2, lon2) {
 }
 
 // Shared position cache — populated by watchPosition in useProximityDetection
-// and by getCurrentPosition
+// and by getCurrentPosition. Emptied when location consent is withdrawn.
 let _cachedPos = null;
 const _subs = new Set();
 
@@ -33,7 +35,25 @@ export function subscribeToPosition(cb) {
   return () => _subs.delete(cb);
 }
 
-export function getCurrentPosition() {
+// Forget the last known position; subscribers get null.
+export function clearCachedPosition() {
+  _cachedPos = null;
+  _subs.forEach(cb => cb(null));
+}
+
+subscribeToLocationConsent(() => {
+  if (!hasLocationConsent()) clearCachedPosition();
+});
+
+// Asks the browser for the position only once the user has agreed to
+// location use (utils/locationConsent.js); without that, the consent dialog
+// opens first and a "Not now" rejects without touching the GPS. Only call
+// this for something the user started (a check-in, a guess), since it may
+// open that dialog; background callers check hasLocationConsent() first.
+export async function getCurrentPosition() {
+  if (!hasLocationConsent() && !(await requestLocationConsent())) {
+    throw new Error('Location use is turned off. You can allow it under Privacy.');
+  }
   return new Promise((resolve, reject) => {
     // Use watchPosition's last result if it's less than 60 seconds old
     if (_cachedPos && Date.now() - _cachedPos.ts < 60_000) {

@@ -50,6 +50,9 @@ export default function LoginPage() {
         <p className="form-link">
           {t('auth.noAccount')} <Link to="/register">{t('auth.registerHere')}</Link>
         </p>
+        <p className="form-link">
+          <Link to="/privacy">{t('consent.policyLink')}</Link>
+        </p>
         <button
           className="px-btn px-btn--dark"
           style={{ width: '100%', marginTop: 8 }}

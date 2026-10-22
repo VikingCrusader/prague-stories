@@ -60,6 +60,7 @@ export const userAPI = {
   getHistoryProgress:  ()     => api.get('/user/history-progress'),
   saveHistoryProgress: (slug) => api.put('/user/history-progress', { slug }),
   savePreferences:     (prefs) => api.put('/user/preferences', prefs),
+  saveLocationConsent: (decision) => api.put('/user/location-consent', decision),
 };
 
 // Same save as userAPI.saveHistoryProgress, but survives the page being

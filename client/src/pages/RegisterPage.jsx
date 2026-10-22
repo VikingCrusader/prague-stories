@@ -64,6 +64,9 @@ export default function RegisterPage() {
         <p className="form-link">
           {t('auth.haveAccount')} <Link to="/login">{t('auth.loginHere')}</Link>
         </p>
+        <p className="form-link">
+          {t('auth.privacyNote')} <Link to="/privacy">{t('consent.policyLink')}</Link>
+        </p>
       </div>
     </div>
   );

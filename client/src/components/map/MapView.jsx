@@ -4,6 +4,7 @@ import { useLang, useConvert } from '../../context/LanguageContext';
 import { getLocName } from '../../utils/locName';
 import { useUserPosition } from '../../hooks/useUserPosition';
 import { getCurrentPosition } from '../../utils/geolocation';
+import { hasLocationConsent } from '../../utils/locationConsent';
 
 const PRAGUE_CENTER = [50.0755, 14.4378];
 
@@ -107,8 +108,9 @@ function CenterOnUser({ cityOnly }) {
   const [done, setDone] = useState(false);
   // Signed-in users already have a position watcher (useProximityDetection);
   // guests don't, so ask once here. The result reaches useUserPosition
-  // through the shared cache.
-  useEffect(() => { getCurrentPosition().catch(() => {}); }, []);
+  // through the shared cache. Only with location consent: opening the map
+  // doesn't bring up the consent dialog.
+  useEffect(() => { if (hasLocationConsent()) getCurrentPosition().catch(() => {}); }, []);
   useEffect(() => {
     const stop = () => setDone(true);
     map.on('dragstart', stop);

@@ -343,8 +343,6 @@ export async function guessHiddenDraw(req, res, next) {
 
     // Conditional on the miss count so a double-tap can't burn two guesses.
     const miss = {
-      lat: pos.lat,
-      lng: pos.lng,
       distance: Math.round(d),
       direction: compassDirection(pos.lat, pos.lng, location.coordinates.lat, location.coordinates.lng),
       at: new Date(),
@@ -400,6 +398,11 @@ async function buildHardcoreResponse(user, pos = null) {
   const location = hd.slug ? await Location.findOne({ slug: hd.slug }).select('-description').lean() : null;
 
   if (!inWindow) {
+    // Timed out: drop the hot-and-cold reference point (a position) now that
+    // the hunt is over. purgeHuntPositions.js catches users who never return.
+    if (hd.trendRef?.lat != null) {
+      await User.updateOne({ _id: user._id, 'hardcoreDraw.slug': hd.slug }, { $set: { 'hardcoreDraw.trendRef': null, 'hardcoreDraw.trend': null } });
+    }
     const res = { active: false, canDraw: true };
     if (isClueHuntLive(user.randomDraw)) res.blockedBy = 'clues';
     // Ran out of time unsolved: show the answer until the next hunt.
@@ -542,8 +545,8 @@ export async function guessHardcoreHunt(req, res, next) {
     const updated = await User.findOneAndUpdate(
       { _id: user._id, 'hardcoreDraw.slug': hd.slug, $expr: { $eq: [{ $size: { $ifNull: ['$hardcoreDraw.misses', []] } }, missCount] } },
       {
-        $push: { 'hardcoreDraw.misses': { lat: pos.lat, lng: pos.lng, distance: Math.round(d), at: new Date() } },
-        ...(last ? { $set: { 'hardcoreDraw.failed': true } } : {}),
+        $push: { 'hardcoreDraw.misses': { distance: Math.round(d), at: new Date() } },
+        ...(last ? { $set: { 'hardcoreDraw.failed': true, 'hardcoreDraw.trendRef': null, 'hardcoreDraw.trend': null } } : {}),
       },
       { new: true },
     );
@@ -604,6 +607,27 @@ export async function savePreferences(req, res, next) {
     }
     const user = await User.findById(req.user._id);
     res.json({ preferences: user.toPublicJSON().preferences });
+  } catch (err) {
+    next(err);
+  }
+}
+
+// Records the user's decision on location use (GDPR art. 7(1): the app must
+// be able to show that consent was given, for which notice and when).
+// Withdrawing (granted: false) also erases the one position the server still
+// keeps, the hardcore hunt's hot-and-cold reference point (art. 7(3) and
+// 17(1)(b)); the hunt itself goes on, its trend hint just starts over.
+export async function saveLocationConsent(req, res, next) {
+  try {
+    const { granted, version } = req.body ?? {};
+    if (typeof granted !== 'boolean' || !Number.isInteger(version) || version < 1) {
+      return res.status(400).json({ message: 'granted (boolean) and version (positive integer) are required' });
+    }
+    const locationConsent = { granted, version, decidedAt: new Date() };
+    const $set = { locationConsent };
+    if (!granted) Object.assign($set, { 'hardcoreDraw.trendRef': null, 'hardcoreDraw.trend': null });
+    await User.updateOne({ _id: req.user._id }, { $set }, { writeConcern: { w: 'majority', j: true } });
+    res.json({ locationConsent });
   } catch (err) {
     next(err);
   }

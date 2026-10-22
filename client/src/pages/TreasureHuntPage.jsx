@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react';
 import { userAPI } from '../services/api';
 import { useAuth } from '../context/AuthContext';
+import LocationOffNotice from '../components/shared/LocationOffNotice';
 import { useT, useLang, useConvert } from '../context/LanguageContext';
 import { getLocName } from '../utils/locName';
 import { haversineDistance, getCurrentPosition } from '../utils/geolocation';
@@ -265,6 +266,8 @@ export default function TreasureHuntPage() {
             </button>
           ))}
         </div>
+
+        {user && <LocationOffNotice />}
 
         {mode === 'hardcore' ? (
           <HardcoreHunt onOpen={setSelectedSlug} refreshKey={hardcoreRefresh} onSwitch={() => switchMode('normal')} />

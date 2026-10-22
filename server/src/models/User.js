@@ -27,13 +27,12 @@ const userSchema = new mongoose.Schema({
     // Hidden mode: the card's labels in the random order they get revealed
     // (one, then two from the third guess, then all on the last).
     labelOrder: { type: [String], default: undefined },
-    // Hidden mode: wrong guesses so far, where they were pressed, and the
-    // target's direction and exact distance from that spot. A skipped guess
-    // ("give up this round for clues") is stored as { skipped: true } only.
+    // Hidden mode: wrong guesses so far, with the target's direction and
+    // exact distance from the spot pressed. The spot itself is not kept
+    // (nothing reads it; GDPR data minimisation). A skipped guess ("give up
+    // this round for clues") is stored as { skipped: true } only.
     misses: {
       type: [{
-        lat: Number,
-        lng: Number,
         distance: Number,
         direction: String,
         skipped: Boolean,
@@ -68,8 +67,9 @@ const userSchema = new mongoose.Schema({
     // whether the one after it was 'closer', 'farther' or 'same'.
     trendRef: { lat: Number, lng: Number, distance: Number },
     trend: { type: String, default: null },
+    // Presses that missed; only the count is read, so no position is kept.
     misses: {
-      type: [{ lat: Number, lng: Number, distance: Number, at: { type: Date, default: Date.now }, _id: false }],
+      type: [{ distance: Number, at: { type: Date, default: Date.now }, _id: false }],
       default: undefined,
     },
     solvedAttempt: { type: Number, default: null },
@@ -89,6 +89,16 @@ const userSchema = new mongoose.Schema({
     theme:     { type: String, enum: ['dark', 'light', null], default: null },
     lang:      { type: String, enum: ['en', 'cz', 'zh', null], default: null },
     zhVariant: { type: String, enum: ['cn', 'tw', null], default: null },
+    _id: false,
+  },
+  // The user's decision on letting the app use their device's location
+  // (GDPR art. 6(1)(a) and 7(1): consent, and proof of it). `version` is the
+  // version of the notice they saw (LOCATION_CONSENT_VERSION on the client).
+  // granted null = never decided on this account. See saveLocationConsent.
+  locationConsent: {
+    granted:   { type: Boolean, default: null },
+    version:   { type: Number, default: null },
+    decidedAt: { type: Date, default: null },
     _id: false,
   },
 }, { timestamps: true });
@@ -115,6 +125,11 @@ userSchema.methods.toPublicJSON = function () {
       theme:     this.preferences?.theme ?? null,
       lang:      this.preferences?.lang ?? null,
       zhVariant: this.preferences?.zhVariant ?? null,
+    },
+    locationConsent: {
+      granted:   this.locationConsent?.granted ?? null,
+      version:   this.locationConsent?.version ?? null,
+      decidedAt: this.locationConsent?.decidedAt ?? null,
     },
     createdAt:     this.createdAt,
   };

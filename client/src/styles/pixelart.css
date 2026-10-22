@@ -1640,6 +1640,32 @@ html[data-lang="zh"] .detail-title-name {
   line-height: 1.5;
 }
 .guide-section { margin-bottom: 28px; }
+
+/* Location consent (LocationConsentDialog, PrivacyPage, LocationOffNotice).
+   Both answers share one style on purpose: no nudging towards "allow". */
+.location-consent__box { max-width: 480px; padding: 22px 24px 20px; }
+.location-consent__box p { font-size: 15px; line-height: 1.55; color: var(--text-primary); margin-bottom: 10px; }
+.location-consent__title { font-size: 20px; margin: 0 0 12px; }
+.location-consent__actions { display: flex; gap: 10px; flex-wrap: wrap; margin: 14px 0 10px; }
+.location-consent__actions .px-btn { flex: 1 1 140px; justify-content: center; text-align: center; font-size: 15px; padding: 10px 16px; }
+.location-consent__policy { font-size: 14px; color: var(--text-muted); text-decoration: underline; }
+.location-off {
+  border: 2px dashed var(--border);
+  padding: 10px 14px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.location-off__actions { display: flex; align-items: center; gap: 14px; margin-top: 8px; font-size: 14px; }
+.location-off__actions a { color: var(--text-muted); text-decoration: underline; }
+.privacy-consent {
+  border: 2px solid var(--gold);
+  padding: 14px 16px 6px;
+  margin-bottom: 28px;
+}
+.privacy-consent p, .privacy-section p { font-size: 16px; line-height: 1.6; margin-bottom: 10px; }
+.privacy-consent .location-consent__actions .px-btn { flex: 0 1 auto; }
+.privacy-consent__hint { color: var(--text-muted); font-size: 14px !important; }
 .guide-h2 {
   font-family: var(--ui-font-text);
   font-size: 18px;

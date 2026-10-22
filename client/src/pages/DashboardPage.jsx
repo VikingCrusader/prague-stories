@@ -57,12 +57,16 @@ export default function DashboardPage() {
         <h1 className="px-title dashboard-title" style={{ fontSize: guest ? 22 : 26, margin: 0 }}>
           {guest && !user ? t('dashboard.titleGuest') : t('dashboard.title')}
         </h1>
-        {/* Logout lives here rather than in the navbar (2026-10-11). */}
-        {user && (
-          <button className="px-btn px-btn--dark px-btn--sm" style={{ flexShrink: 0 }} onClick={() => { logout(); navigate('/login'); }}>
-            {t('nav.logout')}
-          </button>
-        )}
+        {/* Logout lives here rather than in the navbar (2026-10-11), and so
+            does the way to the Privacy page (location consent). */}
+        <div style={{ display: 'flex', gap: 8, flexShrink: 0 }}>
+          <Link to="/privacy" className="px-btn px-btn--dark px-btn--sm">{t('privacy.title')}</Link>
+          {user && (
+            <button className="px-btn px-btn--dark px-btn--sm" onClick={() => { logout(); navigate('/login'); }}>
+              {t('nav.logout')}
+            </button>
+          )}
+        </div>
       </div>
 
       {/* Level + XP */}

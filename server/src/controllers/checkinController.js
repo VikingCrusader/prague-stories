@@ -87,6 +87,9 @@ export async function recordCheckIn(user, location, { note = '', xpEarned, guess
   if (isHardcoreLive(user.hardcoreDraw) && user.hardcoreDraw.slug === location.slug) {
     user.hardcoreDraw.found = true;
     if (huntMode === 'hardcore') user.hardcoreDraw.solvedAttempt = guessAttempt;
+    // The hunt is over: drop the hot-and-cold reference point (a position).
+    user.hardcoreDraw.trendRef = null;
+    user.hardcoreDraw.trend = null;
   }
 
   // Gather stats for achievement evaluation
