@@ -22,8 +22,8 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
   const { lang } = useLang();
   const convert = useConvert();
   const [discovered, setDiscovered]         = useState(false);
-  // "My Collections" lists every collected card whatever City only says, but
-  // within a picked area (ExplorePage passes that list as collectionLocations).
+  // "My Collections" lists every collected card, city or outside, whatever
+  // City only says (ExplorePage passes that list as collectionLocations).
   const locations = discovered && collectionLocations ? collectionLocations : scopedLocations;
   useEffect(() => { onCollectionChange?.(discovered); }, [discovered, onCollectionChange]);
   const [activeLabels, setActiveLabels]     = useState(new Set());
@@ -120,21 +120,23 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
     setVisibleCount(PAGE_SIZE);
   }, [discovered, activeLabels, activeRarities, deferredSearch, sort]);
 
+  // City only's filter restrictions don't apply inside My Collections.
+  const cityScoped = hideOutsideLabel && !discovered;
   // "City only" hides every `outside` card, so an active `outside` filter
   // would leave an empty grid; drop it when switching back to the city.
   useEffect(() => {
-    if (hideOutsideLabel && activeLabels.has('outside')) {
+    if (cityScoped && activeLabels.has('outside')) {
       setActiveLabels(prev => { const next = new Set(prev); next.delete('outside'); return next; });
     }
-  }, [hideOutsideLabel, activeLabels]);
+  }, [cityScoped, activeLabels]);
   // Same for the expedition rarity, which only outside cards carry; its
   // filter option only shows with "Show all".
   useEffect(() => {
-    if (hideOutsideLabel && activeRarities.has('expedition')) {
+    if (cityScoped && activeRarities.has('expedition')) {
       setActiveRarities(prev => { const next = new Set(prev); next.delete('expedition'); return next; });
     }
-  }, [hideOutsideLabel, activeRarities]);
-  const rarityOptions = hideOutsideLabel ? CITY_RARITIES : ALL_RARITIES;
+  }, [cityScoped, activeRarities]);
+  const rarityOptions = cityScoped ? CITY_RARITIES : ALL_RARITIES;
 
   const hasMore = visibleCount < filtered.length;
 
@@ -188,7 +190,7 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
                 <LabelFilterGroups
                   activeLabels={activeLabels}
                   onToggle={toggleLabel}
-                  hidden={hideOutsideLabel ? ['outside'] : []}
+                  hidden={cityScoped ? ['outside'] : []}
                 />
                 {activeLabels.size > 0 && (
                   <button
@@ -240,8 +242,8 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
 
       <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: 16 }}>
         <p className="explore-stats" style={{ margin: 0 }}>
-          <span>{unlocked}</span> / <span>{total}</span> {t('explore.statsLabel')}
-          <br />{t('grid.showing')} <span>{filtered.length}</span>
+          <span>{unlocked}</span>{!discovered && <> / <span>{total}</span></>} {t('explore.statsLabel')}
+          {!discovered && total > 0 && <><br />{t('explore.progress')} <span>{(unlocked / total * 100).toFixed(1)}%</span></>}
         </p>
         <div className="label-filter" ref={sortPanelRef}>
           <button

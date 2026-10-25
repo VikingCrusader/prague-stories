@@ -104,14 +104,11 @@ export default function ExplorePage() {
 
   const hasCollected = useMemo(() => locations.some(l => l.unlocked), [locations]);
 
-  // City only / area filter. "My Collections" ignores City only, so a
-  // collection shows everything collected, but a picked area still narrows it.
+  // City only / area filter. "My Collections" always lists every collected
+  // card, city or outside, and hides both controls (it gets sortedAll);
+  // leaving it brings back the scope and area picked before.
   const sortedLocations = useMemo(
     () => (cityOnly ? sortedAll.filter(l => isInCity(l) && matchesArea(l, area)) : sortedAll),
-    [sortedAll, cityOnly, area],
-  );
-  const collectionLocations = useMemo(
-    () => (cityOnly && area ? sortedAll.filter(l => matchesArea(l, area)) : sortedAll),
     [sortedAll, cityOnly, area],
   );
 
@@ -182,7 +179,7 @@ export default function ExplorePage() {
   }, [hereText, lang, compact]);
 
   // With an area picked, the title becomes the area's name plus a short intro.
-  const areaActive = cityOnly && area;
+  const areaActive = cityOnly && !inCollection && area;
   const areaBlurb  = areaActive ? AREA_BLURBS[area.kind]?.[area.value] : null;
   // Under the title / "where you are" line, one description at a time: the
   // picked rarity's first, then the area's, then the My Collections hint.
@@ -192,7 +189,8 @@ export default function ExplorePage() {
     : t(guest ? 'explore.titleGuest' : cityOnly ? 'explore.titleCity' : 'explore.title');
 
   const changeScope = city => { setCityOnly(city); if (!city) setArea(null); };
-  const scopeToggle = (
+  // My Collections shows every collected card, so it has neither control.
+  const scopeToggle = inCollection ? null : (
     <div className="scope-controls">
       <ScopeToggle cityOnly={cityOnly} onChange={changeScope} />
       {cityOnly && <AreaFilter area={area} onChange={setArea} />}
@@ -252,7 +250,7 @@ export default function ExplorePage() {
         </div>
       </div>
 
-      <LocationGrid locations={sortedLocations} collectionLocations={collectionLocations} onCardClick={handleCardClick} scopeToggle={scopeToggle} hideOutsideLabel={cityOnly} onCollectionChange={setInCollection} onRarityChange={setRarity} />
+      <LocationGrid locations={sortedLocations} collectionLocations={sortedAll} onCardClick={handleCardClick} scopeToggle={scopeToggle} hideOutsideLabel={cityOnly} onCollectionChange={setInCollection} onRarityChange={setRarity} />
 
       {selectedSlug && (
         <LocationDetail
