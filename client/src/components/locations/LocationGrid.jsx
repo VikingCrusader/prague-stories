@@ -150,8 +150,9 @@ export default function LocationGrid({ locations: scopedLocations, collectionLoc
     return () => io.disconnect();
   }, [hasMore, visibleCount]);
 
-  const unlocked = locations.filter(l => l.unlocked).length;
-  const total    = locations.length;
+  // Counted over what the filters and search leave, so the stats follow them.
+  const unlocked = filtered.filter(l => l.unlocked).length;
+  const total    = filtered.length;
 
   return (
     <>
