@@ -32662,6 +32662,146 @@ Samotný vinok vznikl jako pohanská jarní ozdoba, kterou nosily dívky a mlad�
 🎁 彩蛋：按原计划，《花冠》只在长街上空挂2022年一个夏天，最晚挂到9月。一年以后她还在那儿。布拉格大多数"临时安排"，差不多都是这么个临时法。`,
     },
   },
+  {
+    name: "Sophie Chotek's Fan",
+    slug: 'vejir-zofie-chotkove',
+    localizedNames: { cz: 'Vějíř Žofie Chotkové', zh: '索菲·霍泰克之扇' },
+    labels: ['monument', 'contemporary', 'hidden-gem'],
+    district: 'Praha 6',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.0945810396601, lng: 14.405997739232973 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Just outside the Písek Gate stands a rusty iron fan taller than most of the people walking past it. On a hot summer day it does what a fan is for: it cools you down, by puffing a fine mist of water at anyone who comes close. It is also a memorial, to a woman who was never quite allowed to stand next to her husband.
+
+Sophie Chotek was a Czech countess from an old Bohemian noble family, and a lady-in-waiting to an archduchess. In 1900 she married the heir to the throne, Archduke Franz Ferdinand, and the court never forgave the mismatch. The marriage was morganatic: her children could not inherit, and at official occasions she walked far behind her husband. They died together in Sarajevo on 28 June 1914, shot in the same car. Even at their lying-in-state in Vienna her coffin was set lower than his, and on it lay a fan and a pair of gloves, the marks of a lady-in-waiting, as if to remind everyone what she had been.
+
+The sculptor Martina Hozová, with Jan Paclík, picked up exactly that fan. Their fountain was unveiled on 17 June 2019: 1.75 metres of grey cast iron, the old material of park benches and railings, left to take on a rust-coloured patina that stands for the faded glory of the Habsburgs. The spot is a family one too. Sophie's grandfather, Count Karel Chotek, built the winding road up from Klárov to this gate in the 1830s and turned the slope beside it into the Chotek Gardens, Prague's first public park.
+
+🎁 Bonus: Of all the honours the Habsburg court denied her, this is the one she got in the end: a monument in Prague, a few steps from the castle, that is genuinely useful to everyone in July.`,
+      cz: `Kousek za Píseckou branou stojí rezavý železný vějíř, vyšší než většina lidí, kteří kolem něj chodí. V horkém letním dni dělá přesně to, co vějíř dělat má: chladí. Na každého, kdo se přiblíží, vypouští jemnou vodní mlhu. Je to ale i pomník, a to ženě, která nikdy nesměla stát po boku svého manžela.
+
+Žofie Chotková pocházela ze starého českého šlechtického rodu a byla dvorní dámou arcivévodkyně. Roku 1900 se provdala za následníka trůnu Františka Ferdinanda d'Este a vídeňský dvůr jí to nerovné manželství nikdy neodpustil. Sňatek byl morganatický: její děti nesměly dědit a při oficiálních příležitostech chodila daleko za manželem. Zemřeli spolu 28. června 1914 v Sarajevu, zastřeleni v tomtéž voze. I při posledním rozloučení ve Vídni stála její rakev níž než jeho a ležel na ní vějíř a rukavice, znamení dvorní dámy, jako by všem připomínaly, čím kdysi byla.
+
+Právě ten vějíř si vybrala sochařka Martina Hozová, spoluautorem je Jan Paclík. Fontánu odhalili 17. června 2019: 1,75 metru šedé litiny, starého materiálu laviček a zábradlí, nechané zarůst rezavou patinou, která má připomínat vybledlou slávu Habsburků. I místo je rodinné. Žofiin dědeček, hrabě Karel Chotek, dal ve 30. letech 19. století postavit klikatou silnici z Klárova až k této bráně a svah vedle ní proměnil v Chotkovy sady, první veřejný park v Praze.
+
+🎁 Bonus: Ze všech poct, které jí habsburský dvůr upřel, se nakonec dočkala aspoň téhle: pomníku v Praze, pár kroků od Hradu, který je v červenci opravdu užitečný úplně každému.`,
+      zh: `皮塞克门外不远，立着一把生了锈的铁扇子，比从旁边走过的大多数人都高。炎热的夏天里，它干的正是扇子该干的事：给人降温。谁走近，它就朝谁喷出一阵细细的水雾。不过它也是一座纪念碑，纪念的是一位从来不被允许站在丈夫身边的女人。
+
+索菲·霍泰克出身波希米亚的古老贵族世家，是一位大公夫人的宫廷女官。1900年，她嫁给了皇储弗朗茨·斐迪南，而维也纳宫廷从来没有原谅这门不相称的婚事。这是一桩贵贱通婚：她的孩子没有继承权，正式场合里她得远远走在丈夫后面。1914年6月28日，两人在萨拉热窝死在同一辆车上。即便在维也纳停灵的时候，她的棺木也比他的摆得低，上面放着一把扇子和一副手套，那是宫廷女官的标志，好像在提醒所有人她原本是什么身份。
+
+雕塑家马丁娜·霍佐娃和合作者扬·帕茨利克选中的，正是这把扇子。喷泉于2019年6月17日揭幕：高1.75米，用灰铸铁铸成，这是从前公园长椅和栏杆常用的老材料；表面任它长出锈色的包浆，象征哈布斯堡王朝褪了色的荣光。这个地点也和她的家族有关。索菲的祖父卡雷尔·霍泰克伯爵在19世纪30年代修了从克拉罗夫一路盘到这座城门的山路，又把路边的山坡改成了霍特科维花园，也就是布拉格第一座公共公园。
+
+🎁 彩蛋：哈布斯堡宫廷不肯给她的种种荣誉里，她最后总算得到了这一样：在布拉格、离城堡几步远的地方，有一座到了七月对谁都真正有用的纪念碑。`,
+    },
+  },
+  {
+    name: "President's House",
+    slug: 'prezidentsky-domek',
+    localizedNames: { cz: 'Prezidentský domek', zh: '总统小屋' },
+    labels: ['villa', 'communism'],
+    district: 'Praha 1',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.09258054318191, lng: 14.399995214149403 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Prague Castle has hundreds of rooms, several palaces and a cathedral, and for forty years the men who ran the country chose to sleep in a modest house at the edge of the Royal Garden. People called it simply the domek, "the little house". It looks like a garden pavilion that grew a pair of wings, which is more or less what it is.
+
+The story starts with a greenhouse. In 1731 a large orangery went up along the garden's southern terrace wall, its final form shaped by Kilián Ignác Dientzenhofer. The Prussian bombardment of 1757 wrecked it, and the builder Anselmo Haffenecker kept only the central entrance pavilion and a small tower. The idea of turning the remains into a home for the head of state is said to go back to Edvard Beneš, who did not want to live in Masaryk's old flat in the castle. The castle architect Pavel Janák built it in 1947–1950, keeping the old pavilion as its core, and counted it among his major works. By the time it was ready, the president moving in was Klement Gottwald.
+
+After him came Zápotocký, Novotný, Svoboda and Husák, one communist president after another. Under Husák the whole garden around the house was closed to the public for security. Václav Havel lived here only briefly, while his own house a few streets away was being finished. For years afterwards the house was the seat of Václav and Livia Klaus's foundation. Its plans and archive stayed secret until the 1990s.
+
+🎁 Bonus: The garden that Husák kept locked is now open to anyone in the warm months, so you can stroll right past the president's front door, which for most of the 20th century was the one place in Prague where nobody was allowed to stroll.`,
+      cz: `Pražský hrad má stovky místností, několik paláců a katedrálu, a přesto lidé, kteří čtyřicet let vládli zemi, spávali ve skromném domě na kraji Královské zahrady. Říkalo se mu prostě domek. Vypadá jako zahradní pavilon, kterému narostla dvě křídla, a víceméně to tak i je.
+
+Začíná to skleníkem. Roku 1731 vyrostla podél jižní terasové zdi zahrady velká oranžérie, jejíž konečnou podobu ovlivnil Kilián Ignác Dientzenhofer. Pruské ostřelování roku 1757 ji zničilo a stavitel Anselmo Haffenecker z ní zachoval jen střední vstupní pavilon a malou věžičku. Nápad proměnit zbytky v sídlo hlavy státu prý pochází od Edvarda Beneše, který nechtěl bydlet v Masarykově bývalém bytě na Hradě. Hradní architekt Pavel Janák dům postavil v letech 1947–1950, starý pavilon ponechal jako jeho jádro a řadil ho mezi svá hlavní díla. Když byl hotový, stěhoval se do něj prezident Klement Gottwald.
+
+Po něm přišli Zápotocký, Novotný, Svoboda a Husák, jeden komunistický prezident za druhým. Za Husáka byla celá zahrada kolem domu z bezpečnostních důvodů pro veřejnost uzavřená. Václav Havel tu bydlel jen krátce, než se dodělal jeho vlastní dům o pár ulic dál. Dlouhá léta potom v domku sídlila nadace Václava a Livie Klausových. Jeho plány a archiv zůstaly utajené až do 90. let.
+
+🎁 Bonus: Zahrada, kterou Husák držel zamčenou, je dnes v teplých měsících otevřená všem. Můžete se tak projít přímo kolem prezidentských dveří, tedy po místě, kde se po většinu 20. století v Praze procházet nesmělo.`,
+      zh: `布拉格城堡有几百个房间、好几座宫殿和一座大教堂，可整整四十年，掌管这个国家的人却选择睡在皇家花园边上一栋不起眼的房子里。大家就叫它"小屋"。它看上去像一座长出了两只翅膀的花园亭子，事实上也差不多就是这么回事。
+
+故事要从一座温室说起。1731年，花园南侧的台地墙边建起了一座大型橘园，最终的样子出自基利安·伊格纳茨·丁岑霍费尔之手。1757年普鲁士人炮轰布拉格，把它毁了，建筑师安塞尔莫·哈芬内克只保留了中间的入口亭和一座小塔楼。据说把这些残余改成国家元首住所的主意来自爱德华·贝奈斯，他不想住进马萨里克在城堡里的旧寓所。城堡建筑师帕维尔·亚纳克在1947到1950年间把它建成，以老亭子为核心，并把它算作自己的代表作之一。等房子完工，搬进来的总统已经是克莱门特·哥特瓦尔德了。
+
+在他之后，萨波托茨基、诺沃提尼、斯沃博达、胡萨克，一位共产党总统接着一位住了进来。胡萨克时期，小屋周围的整座花园出于安全考虑对公众关闭。瓦茨拉夫·哈维尔只在这里短暂住过，等几条街外他自己的房子完工。此后多年，这里是瓦茨拉夫·克劳斯和利维娅·克劳索娃基金会的所在地。它的图纸和档案一直保密，直到1990年代才公开。
+
+🎁 彩蛋：当年被胡萨克锁起来的花园，如今在暖和的月份对所有人开放。你可以直接从总统家门口溜达过去，而在20世纪的大部分时间里，这里正是全布拉格唯一不许人溜达的地方。`,
+    },
+  },
+  {
+    name: 'Chapel of the Holy Cross (Prague Castle)',
+    slug: 'kaple-sv-krize-prazsky-hrad',
+    localizedNames: { cz: 'Kaple sv. Kříže (Pražský hrad)', zh: '圣十字小教堂（布拉格城堡）' },
+    labels: ['church', 'classicism'],
+    district: 'Praha 1',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.09014652876005, lng: 14.399349655278424 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: '',
+    description: {
+      en: `Most people cross the Second Courtyard of Prague Castle at speed, heading for the cathedral, and walk straight past a church. It doesn't look like one. The Chapel of the Holy Cross is built into the courtyard's middle wing, its facade lined up with the palace around it, and only the two saints standing on it give the game away.
+
+It went up in 1758–1763, during Maria Theresa's great rebuilding of the castle, to a design by the court architect Nicolò Pacassi, with Anselmo Lurago in charge of the building. It replaced older buildings on the spot, among them the castle's building office and the kitchen built for Charles VI's coronation in 1723; archaeologists digging beneath it later found remains going back to the early medieval fortifications. In the 1850s, when the abdicated Emperor Ferdinand was living at the castle, the chapel got a Classicist makeover: Emanuel Max's statues of Saints Peter and Paul on the outside, wall paintings by Josef Navrátil and Vilém Kandler inside. The main altarpiece, a life-size Crucifixion by František Xaver Balko, dates from 1762, and Ignác František Platzer carved the angels on the marble altar.
+
+For much of its recent life the chapel was not used as a chapel at all. From 1961 to 1990, and again from 2011 to 2020, it was the castle's treasury, showing pieces of the St. Vitus Treasure. In 2020 the treasure went back to the cathedral, and today the chapel opens now and then for concerts and other events.
+
+🎁 Bonus: For decades, many visitors who saw the Crucifixion inside had come in for the gold and the relics, not the altar. The Holy Cross Chapel may be the only church in Prague better known as a treasury than as a church.`,
+      cz: `Většina lidí přechází druhé nádvoří Pražského hradu rychlým krokem ke katedrále a projde přímo kolem kostela, aniž by si ho všimla. Nevypadá totiž jako kostel. Kaple sv. Kříže je vestavěná do středního křídla nádvoří, průčelím srovnaná s okolním palácem, a prozradí ji jen dva světci, kteří na ní stojí.
+
+Postavili ji v letech 1758–1763, za velké tereziánské přestavby Hradu, podle projektu dvorního architekta Nicola Pacassiho; stavbu vedl Anselmo Lurago. Nahradila starší stavby, mimo jiné hradní stavební úřad a kuchyni postavenou pro korunovaci Karla VI. roku 1723. Archeologové pod ní později našli pozůstatky sahající až k raně středověkému opevnění. V 50. letech 19. století, kdy na Hradě žil abdikovaný císař Ferdinand, prošla kaple klasicistní úpravou: zvenku dostala sochy sv. Petra a Pavla od Emanuela Maxe, uvnitř nástěnné malby Josefa Navrátila a Viléma Kandlera. Hlavní oltářní obraz, Ukřižovaný v životní velikosti od Františka Xavera Balka, pochází z roku 1762 a anděly na mramorovém oltáři vytesal Ignác František Platzer.
+
+Po velkou část nedávné doby ale kaple jako kaple vůbec nesloužila. V letech 1961–1990 a znovu 2011–2020 tu byla hradní klenotnice s ukázkami Svatovítského pokladu. Roku 2020 se poklad vrátil do katedrály a kaple se dnes otevírá jen občas, na koncerty a jiné akce.
+
+🎁 Bonus: Celá desetiletí sem návštěvníci chodili kvůli zlatu a relikviím, ne kvůli oltáři. Kaple sv. Kříže je možná jediný pražský kostel, který je známější jako klenotnice než jako kostel.`,
+      zh: `大多数人穿过布拉格城堡第二庭院时都是一路快走，直奔大教堂，结果从一座教堂门口径直走了过去。它看上去不像教堂。圣十字小教堂嵌在庭院中间那排楼里，立面和周围的宫殿排得整整齐齐，只有立面上站着的两位圣人泄露了它的身份。
+
+它建于1758到1763年，正值玛丽亚·特蕾西亚大规模改建城堡的时候，由宫廷建筑师尼科洛·帕卡西设计，安塞尔莫·卢拉戈主持施工。它取代了原址上的一些老建筑，其中有城堡的营造署，还有为1723年查理六世加冕专门修的厨房；后来考古学家在它底下发掘，找到的遗迹一直可以追溯到中世纪早期的城防。19世纪50年代，已经退位的斐迪南皇帝住在城堡里，这座小教堂经历了一次古典主义风格的翻新：外墙上添了埃马努埃尔·马克斯雕的圣彼得和圣保罗像，里面画上了约瑟夫·纳夫拉蒂尔和维莱姆·坎德勒的壁画。主祭坛画是弗朗蒂谢克·克萨韦尔·巴尔科1762年画的真人大小的《十字架上的基督》，大理石祭坛上的天使则出自伊格纳茨·弗朗蒂谢克·普拉策之手。
+
+不过在近几十年的大部分时间里，这座小教堂根本没被当作教堂用。1961到1990年，以及2011到2020年，它都是城堡的珍宝馆，展出圣维特宝藏中的珍品。2020年宝藏搬回了大教堂，如今小教堂只是偶尔开放，办音乐会和其他活动。
+
+🎁 彩蛋：几十年里，走进这里的游客大多是冲着黄金和圣物来的，而不是冲着祭坛。圣十字小教堂大概是布拉格唯一一座作为珍宝馆比作为教堂更出名的教堂。`,
+    },
+  },
+  {
+    name: 'New Provost Residence',
+    slug: 'nove-probostvi',
+    localizedNames: { cz: 'Nové proboštství', zh: '新教长府' },
+    labels: ['historicism', 'cafe'],
+    district: 'Praha 1',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.091373815177434, lng: 14.401901006599486 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: '',
+    description: {
+      en: `Right beside the north side of St. Vitus Cathedral stands a neo-Gothic house that spent most of the 20th century falling apart within sight of the most visited building in the country. Today it has been rescued, extended with two new wings, and given a courtyard with one of the castle's quieter views. And a Starbucks.
+
+The New Provost Residence was built in 1877–1878 to plans by Josef Mocker, the architect who was then completing the cathedral next door, as a home for the cathedral chapter's provost. It replaced two late-medieval houses that had belonged to the castle captain and the supreme scribe of the kingdom. From the Second World War on, it was left to decay. In the 1980s it was turned into a canteen for the staff of the president's office, and after 1989 it got stuck in a long dispute over whether it belonged to the state or to the Church, which meant nobody could repair it.
+
+In 2016 it was returned to the Metropolitan Chapter of St. Vitus. The renovation, by the studio Acht under the architect Václav Hlaváček, took seven years and brought back the coffered ceilings, tiled stoves, doors and floors. The two new extensions, clad in sandstone and glass, follow wings that Mocker had drawn but never built. When it reopened at the end of 2023, the courtyard, closed to the public for decades, opened with it: a stone terrace with a fountain, looking out over the Deer Moat to the Ball Game Hall in the Royal Garden. It is the only courtyard on the castle's north wall that anyone can walk into.
+
+🎁 Bonus: One of the new wings holds a Starbucks with a summer terrace, which Czech media promptly called the chain's most lucrative spot in the country. Mocker spent years making the cathedral look as medieval as possible; a hundred and fifty years later, his neighbour serves pumpkin spice lattes.`,
+      cz: `Hned u severní strany katedrály sv. Víta stojí novogotický dům, který se většinu 20. století rozpadal na dohled od nejnavštěvovanější stavby v zemi. Dnes je zachráněný, má dvě nová křídla a nádvoří s jedním z klidnějších výhledů na Hradě. A Starbucks.
+
+Nové proboštství postavili v letech 1877–1878 podle plánů Josefa Mockera, architekta, který tehdy dostavoval sousední katedrálu, jako sídlo probošta svatovítské kapituly. Nahradilo dva pozdně středověké domy, které patřily hradnímu hejtmanovi a nejvyššímu písaři království. Od druhé světové války chátralo. V 80. letech z něj udělali jídelnu pro zaměstnance prezidentské kanceláře a po roce 1989 uvízlo v dlouhém sporu, zda patří státu, nebo církvi, takže ho nikdo nemohl opravit.
+
+Roku 2016 se vrátilo Metropolitní kapitule u sv. Víta. Rekonstrukce ateliéru Acht pod vedením architekta Václava Hlaváčka trvala sedm let a vrátila domu kazetové stropy, kachlová kamna, dveře i podlahy. Dvě nové přístavby, obložené pískovcem a sklem, navazují na křídla, která Mocker nakreslil, ale nikdy nepostavil. Když se dům na konci roku 2023 znovu otevřel, otevřelo se s ním i nádvoří, desítky let pro veřejnost zavřené: kamenná terasa s fontánou a výhledem přes Jelení příkop na Míčovnu v Královské zahradě. Je to jediné nádvoří na severní hradbě Hradu, kam může vejít kdokoli.
+
+🎁 Bonus: V jedné z nových přístaveb je Starbucks s letní terasou, který česká média hned označila za nejlukrativnější místo řetězce v zemi. Mocker strávil roky tím, aby katedrála vypadala co nejstředověčeji; o sto padesát let později jeho soused prodává dýňové latté.`,
+      zh: `圣维特大教堂北侧紧挨着一栋新哥特式的房子，20世纪的大部分时间里，它就在全国游客最多的建筑眼皮底下一点点破败下去。如今它被救了回来，添了两座新翼楼，还多了一个庭院，能看到城堡里比较清静的一片风景。外加一家星巴克。
+
+新教长府建于1877到1878年，设计者是约瑟夫·莫克尔，他当时正在续建隔壁的大教堂；这栋房子是给主教座堂教士团的教长住的。它取代了两栋中世纪晚期的房子，原主人分别是城堡的统领和王国的最高书记官。二战以后，它就被撂在那里任其破败。1980年代，它被改成了总统府职员的食堂；1989年以后，又陷入一场旷日持久的争议：它到底归国家还是归教会？结果谁都没法动手修。
+
+2016年，它被归还给圣维特都主教座堂教士团。修缮由Acht事务所的建筑师瓦茨拉夫·赫拉瓦切克主持，前后花了七年，恢复了藻井天花板、瓷砖炉子、门和地板。两座新翼楼外覆砂岩和玻璃，依据的是莫克尔当年画了却没盖的两翼。2023年底重新开放时，几十年不对外的庭院也一起开放了：一座带喷泉的石砌平台，越过鹿沟望向皇家花园里的球场馆。这是城堡北墙上唯一一个谁都能走进去的庭院。
+
+🎁 彩蛋：其中一座新翼楼里开了一家带夏季露台的星巴克，捷克媒体随即称它是这家连锁店在全国最值钱的位置。莫克尔花了好多年，让大教堂看起来尽可能地中世纪；一百五十年后，他的邻居卖起了南瓜拿铁。`,
+    },
+  },
 ];
 
 async function run() {

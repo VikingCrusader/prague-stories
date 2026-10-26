@@ -191,7 +191,7 @@ export default function CardShowcase({ location, openedBy = 'mouse', onClose }) 
             <LocationCard location={location} onClick={() => {}} showcase story={storyOpen ? story : null} />
           </div>
           <div className="card-showcase__face card-showcase__face--back" aria-hidden={!back}>
-            <img src="/pixel-art/cardback.webp" alt="" draggable={false} />
+            <img src="/pixel-art/cardback-plain.webp" alt="" draggable={false} />
           </div>
         </div>
       </div>
