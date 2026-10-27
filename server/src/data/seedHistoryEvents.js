@@ -27971,14 +27971,6 @@ export const historyEvents = [
     },
     relatedLandmarks: [
       {
-        slug: "wallenstein-palace",
-        relation: {
-          en: "Built with the money of these years: some two dozen houses in Malá Strana were pulled down to make room for a palace meant to rival Prague Castle. Today it is the seat of the Czech Senate, and the garden is free to visit",
-          cz: "Postavený za peníze z těchto let: na Malé Straně kvůli němu strhli přes dvacet domů, aby vznikl palác, který měl soupeřit s Pražským hradem. Dnes sídlo Senátu, zahrada je přístupná zdarma",
-          zh: "华伦斯坦用这几年赚来的钱，在小城拆掉了二十多座房子，盖起了这座要跟布拉格城堡比气派的宫殿。如今是捷克参议院的所在地，花园可以免费参观",
-        },
-      },
-      {
         slug: "hrad-a-zamek-frydlant",
         relation: {
           en: "One of the first estates he bought, in 1622, from the confiscated lands of the Rederns. His duchy was later named after it: the Duchy of Friedland",
@@ -28558,6 +28550,509 @@ export const historyEvents = [
     "images": [],
     "imageCaptions": [],
     "relatedLandmarks": []
+  },
+  // Wallenstein back in Prague, set against ordinary Bohemians after 1620
+  // and 1627 (user's request, 2026-10-27). Palace facts: site bought up from
+  // 1623, 23–26 houses, several gardens and a brick kiln cleared (sources
+  // differ: pragitecture 25 houses/7 gardens, others 23/3); Spezza, Pieroni,
+  // Sebregondi; Baccio del Bianco's main-hall ceiling shows him as Mars.
+  // Quote: Schiller, Geschichte des dreißigjährigen Kriegs, Zweites Buch
+  // (Projekt Gutenberg ch. 7), "Sechs Pforten führten zu dem Palaste …";
+  // the "hundred houses" is his exaggeration, said so in the text. Ordinary
+  // people: 1627 deadlines, fire sales, peasants bound to the land, hidden
+  // Kralice Bibles, billeting; German equal under the 1627 Ordinance. Pirna
+  // as the exiles' main refuge. Ends before the Saxon entry of Nov 1631.
+  {
+    "slug": "inside-and-outside-the-walls-1630",
+    "era": "fire-and-ashes",
+    "startYear": 1630.8,
+    "year": {
+      "en": "1630–1631",
+      "cz": "1630–1631",
+      "zh": "1630年－1631年"
+    },
+    "tone": "serious",
+    "title": {
+      "en": "Inside and Outside the Palace Walls",
+      "cz": "Uvnitř a vně palácových zdí",
+      "zh": "宫墙内外"
+    },
+    "hookLine": {
+      "en": "Inside the walls, a ceiling painted with the god of war and streets kept silent. Outside, those who had left, those who had changed their faith, and those who were hiding.",
+      "cz": "Uvnitř zdí strop s bohem války a ulice, kde se nesmělo hlučet. Venku ti, kdo odešli, ti, kdo změnili víru, a ti, kdo se skrývali.",
+      "zh": "宫墙里面，是画着战神的天花板和不许出声的街道；宫墙外面，是走了的人、改了口的人和躲起来的人。"
+    },
+    "summary": {
+      "en": "In the autumn of 1630 the dismissed Wallenstein came home to Bohemia. He lived now at Jičín, now in Prague, and looked like a man who finally had time on his hands.\n\nHis Prague home stood in the Lesser Town, below the castle. Seven years earlier his agents had begun buying up the ground plot by plot. More than twenty houses, several gardens and a brick kiln were cleared, and architects and painters were brought from Italy. In 1630 the palace was finished, big enough to measure itself against Prague Castle on the hill above.\n\nOn the ceiling of the great hall Mars, the god of war, rides in his chariot, and the face is Wallenstein's own. In the garden there were bronze statues, a great aviary and a strange wall built to look like the inside of a dripstone cave, and next to it a riding school for his horses.\n\nWriting about the palace a hundred and sixty years later, Schiller could not resist laying it on thick:\n\n[[quote:0]]\n\nA hundred houses was Schiller's exaggeration; there were twenty-odd. But that he could not bear noise, and that he never laughed, many people said.\n\nOutside the palace walls, Prague looked very different.\n\nThose who left had gone. Under the [[link:convert-or-leave-1627]]conversion orders[[/link]], nobles and burghers who refused to turn Catholic had a deadline to sell up and leave. When it ran out, whatever was left went for next to nothing, and the buyers were mostly the new Catholic lords and officers. Tens of thousands crossed the mountains into Saxony and Lusatia.\n\nThe peasants could not leave. They were bound to their lords' land. Of those who stayed, some truly converted. Others told their rosaries in public and at night took the [[link:czech-in-print-1579]]Kralice Bible[[/link]] out of a hole in the wall or from behind the stove and read it in secret. Those who were caught lost their books, paid fines and had soldiers quartered in their homes.\n\nThe sound of the streets was changing too. The [[link:no-more-elected-kings-1627]]Renewed Land Ordinance[[/link]] had made German equal to Czech. Many of the new lords, officials, officers and friars did not speak a word of Czech. At the castle, in the offices and in the new nobles' palaces, more and more German was spoken. Czech was still there, in kitchens, in the markets and in the villages, but it was slowly leaving the places where respectable people talked.\n\nFor men who had backed the winning side, like Wallenstein, the decade after White Mountain was a decade of fortunes. They bought the exiles' land with [[link:coins-cut-with-copper-1622]]coins cut with copper[[/link]] and built palaces on it. [[b]]Inside the walls they were painting ceilings; outside, people were hiding books.[[/b]]\n\nAcross the border, the Saxon town of Pirna was crowded with people who had fled Bohemia. In 1631 they asked the same question every day: how far had the Swedish king got?",
+      "cz": "Na podzim 1630 se propuštěný Valdštejn vrátil do Čech. Žil hned v Jičíně, hned v Praze a vypadal jako člověk, který má konečně čas.\n\nJeho pražský dům stál na Malé Straně pod Hradem. Před sedmi lety tu jeho lidé začali skupovat pozemek po pozemku. Zbořilo se přes dvacet domů, několik zahrad a cihelna a z Itálie přijeli architekti a malíři. Roku 1630 byl palác hotový, tak velký, že se mohl měřit s Pražským hradem nad ním.\n\nNa stropě velkého sálu jede ve voze Mars, bůh války, a ta tvář patří Valdštejnovi. V zahradě stály bronzové sochy, velká voliéra a podivná zeď, která vypadala jako vnitřek krápníkové jeskyně, a vedle jízdárna pro jeho koně.\n\nO sto šedesát let později, když o paláci psal Schiller, neodolal a přidal:\n\n[[quote:0]]\n\nSto domů je Schillerova nadsázka; bylo jich něco přes dvacet. Ale že nesnesl hluk a že se nikdy nesmál, to říkala spousta lidí.\n\nVenku za palácovými zdmi vypadala Praha úplně jinak.\n\nKdo odešel, odešel. Podle [[link:convert-or-leave-1627]]nařízení o konverzi[[/link]] měli šlechtici a měšťané, kteří odmítli přestoupit ke katolictví, lhůtu, aby prodali majetek a odešli. Když vypršela, šlo, co zbylo, skoro za nic a kupovali většinou noví katoličtí páni a důstojníci. Desítky tisíc lidí přešly hory do Saska a Lužice.\n\nSedláci odejít nemohli. Byli připoutáni k panské půdě. Z těch, kdo zůstali, někteří opravdu konvertovali. Jiní se na veřejnosti modlili růženec a v noci vytahovali [[link:czech-in-print-1579]]Bibli kralickou[[/link]] z díry ve zdi nebo zpoza kamen a potají v ní četli. Komu na to přišli, tomu knihy vzali, zaplatil pokutu a do domu mu nastěhovali vojáky.\n\nMěnil se i zvuk ulic. [[link:no-more-elected-kings-1627]]Obnovené zřízení zemské[[/link]] postavilo němčinu na roveň češtině. Mnozí noví páni, úředníci, důstojníci a řeholníci neuměli česky ani slovo. Na Hradě, v úřadech a v palácích nové šlechty se mluvilo čím dál víc německy. Čeština tu pořád byla, v kuchyních, na trzích a na vesnicích, ale pomalu odcházela z míst, kde mluvili vážení lidé.\n\nPro ty, kdo vsadili na vítěznou stranu, jako Valdštejn, bylo desetiletí po Bílé hoře desetiletím zbohatnutí. Kupovali půdu exulantů za [[link:coins-cut-with-copper-1622]]mince s mědí[[/link]] a stavěli na ní paláce. [[b]]Uvnitř zdí se malovaly stropy, venku se schovávaly knihy.[[/b]]\n\nZa hranicí, v saské Pirně, bylo plno lidí, kteří utekli z Čech. Roku 1631 se každý den ptali na totéž: kam už došel švédský král?",
+      "zh": "1630年秋天，被免了职的华伦斯坦回到了波希米亚。他时而住在吉钦，时而住在布拉格，看上去像个终于闲下来的人。\n\n他在布拉格的家，就在城堡脚下的小城区。七年前，他的人开始在这里一块一块地买地，拆掉了二十多座房子、几座花园和一座砖窑，又从意大利请来了建筑师和画匠。1630年，宫殿落成了，大得能和山上的布拉格城堡比一比。\n\n大厅的天花板上，战神马尔斯驾着战车，那张脸就是华伦斯坦自己。花园里有青铜雕像、一座大鸟笼、一面造得像钟乳石洞内壁的怪墙，旁边还有一座给他的马用的骑术学校。\n\n一百六十年后，席勒写到这座宫殿，忍不住添油加醋：\n\n[[quote:0]]\n\n一百座房子是席勒夸大了，实际是二十几座。不过，他受不了吵，从来不笑，这倒是不少人都这么说。\n\n宫墙外面的布拉格，是另一番光景。\n\n走的人已经走了。按照[[link:convert-or-leave-1627]]改宗令[[/link]]，不肯改信天主教的贵族和市民，要在限期内变卖家产、离开国境。期限一到，剩下的东西只能贱卖，买家多半是新来的天主教贵族和军官。成千上万的人翻过山，去了萨克森和卢萨蒂亚。\n\n农民走不了，他们被绑在领主的土地上。留下来的人里，有的真心改了宗；有的在人前念着玫瑰经，夜里再把[[link:czech-in-print-1579]]《克拉利采圣经》[[/link]]从墙洞里、炉灶后面取出来，偷偷地读。被发现的，书被收走，人要交罚款，家里还要住进士兵。\n\n街上的声音也在变。[[link:no-more-elected-kings-1627]]《新订邦法》[[/link]]让德语和捷克语平起平坐。新来的贵族、官员、军官和修士，很多人一句捷克语也不会说。城堡里、衙门里、新贵的宫殿里，德语越来越多。捷克语还在，在厨房里，在集市上，在乡下的村子里；可它正一点一点退出体面人说话的地方。\n\n对华伦斯坦这样押对了宝的人来说，白山之后的十年，是发财的十年。他们用[[link:coins-cut-with-copper-1622]]掺了铜的钱[[/link]]买下流亡者的土地，在上面盖起宫殿。[[b]]宫墙里面的人在画天花板，宫墙外面的人在藏书。[[/b]]\n\n边境那边，萨克森的皮尔纳，挤满了从波希米亚逃出去的人。1631年，他们每天都在打听同一件事：北边那位瑞典国王，走到哪里了？"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "Six gates led to the palace he lived in at Prague, and a hundred houses had to be pulled down to make room for its courtyard. […] Twelve patrols went the rounds of his palace to keep off every noise. His ever-working head needed silence; […] and the streets were not seldom closed off with chains.",
+          "cz": "K paláci, který obýval v Praze, vedlo šest bran a sto domů muselo být strženo, aby se uvolnilo místo pro nádvoří. […] Dvanáct hlídek obcházelo jeho palác, aby odvrátily každý hluk. Jeho stále pracující hlava potřebovala ticho; […] a ulice byly nezřídka uzavírány řetězy.",
+          "zh": "通向他在布拉格所住宫殿的大门有六道，为了给宫院腾出地方，一百座房子被拆掉了。……十二队巡逻兵绕着他的宫殿转，挡住一切声响。他那颗永远在运转的脑袋需要安静；……街道也常常被铁链封起来。"
+        },
+        "attribution": {
+          "en": "Friedrich Schiller, History of the Thirty Years' War, 1791",
+          "cz": "Friedrich Schiller, Dějiny třicetileté války, 1791",
+          "zh": "弗里德里希·席勒，《三十年战争史》，1791年"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "wallenstein-palace",
+        "relation": {
+          "en": "Wallenstein's Prague palace, finished in 1630, where he lived after his dismissal; the great hall's ceiling shows him as Mars",
+          "cz": "Valdštejnův pražský palác, dokončený roku 1630, kde po propuštění žil; strop velkého sálu ho ukazuje jako Marta",
+          "zh": "华伦斯坦在布拉格的宫殿，1630年落成，他被免职后住在这里；大厅天花板上画的战神马尔斯就是他"
+        }
+      },
+      {
+        "slug": "wallenstein-garden-1783750953785",
+        "relation": {
+          "en": "The palace garden, with its bronze statues, aviary and sala terrena",
+          "cz": "Palácová zahrada s bronzovými sochami, voliérou a salou terrenou",
+          "zh": "宫殿的花园，有青铜雕像、大鸟笼和敞廊"
+        }
+      },
+      {
+        "slug": "artificial-stalactite-wall-1783751377817",
+        "relation": {
+          "en": "The garden wall built to look like the inside of a dripstone cave",
+          "cz": "Zahradní zeď, která vypadá jako vnitřek krápníkové jeskyně",
+          "zh": "花园里那面造得像钟乳石洞内壁的怪墙"
+        }
+      },
+      {
+        "slug": "valdstejnska-jizdarna",
+        "relation": {
+          "en": "The palace's riding school, built for Wallenstein's horses",
+          "cz": "Palácová jízdárna, postavená pro Valdštejnovy koně",
+          "zh": "宫殿的骑术学校，为华伦斯坦的马而建"
+        }
+      }
+    ],
+    "wikipediaUrl": "https://cs.wikipedia.org/wiki/Vald%C5%A1tejnsk%C3%BD_pal%C3%A1c",
+    "images": ["/history/inside-and-outside-the-walls-1630.webp"],
+    "imageCaptions": [
+      {"en":"Prague, one night around 1630. Left: in the great hall of Wallenstein's palace, under a ceiling painted with Mars in his chariot, Wallenstein sits alone at a long table with his horoscope. Right: a family takes a Bible out of its hiding place in the wall; the girl holds the candle, the mother keeps watch at the shutters, and the picture of the Virgin and the rosary are for outsiders to see.","cz":"Praha, jedna noc kolem roku 1630. Vlevo: ve velkém sále Valdštejnova paláce, pod stropem s Martem ve voze, sedí Valdštejn sám u dlouhého stolu se svým horoskopem. Vpravo: rodina vytahuje Bibli z úkrytu ve zdi; dívka drží svíčku, matka hlídá u okenic a obrázek Panny Marie s růžencem jsou na odiv pro cizí oči.","zh":"布拉格，1630年前后的同一个夜晚。左：华伦斯坦宫的大厅里，天花板上是驾着战车的战神马尔斯，华伦斯坦独坐长桌边，面前摊着星象图。右：一户人家把藏在墙洞里的圣经取出来，女儿举着蜡烛，母亲在窗缝边望风，墙上的圣母像和念珠是给外人看的。"}
+    ]
+  },
+  // The Saxons in Prague, autumn 1631 (user's request). Breitenfeld 17 Sept
+  // 1631 kept to a sentence. Arnim had served under Wallenstein (the
+  // Stralsund letter was to him); Ranke ch. 9: he took Wallenstein's Bohemian
+  // estates under his protection, and the two met at "Schloss Kaunitz" at
+  // the end of November 1631 (which Kounice is unclear, so unnamed).
+  // cs.wikipedia: Saxon troops looted, Praguers gave the exiles little
+  // support. Skulls: novinky.cz ("Kam zmizely lebky popravených českých
+  // pánů"): Sunday 30 Nov 1631, taken down by Mikuláš Diviš of Doubravín
+  // (tongue nailed in 1621, see twenty-seven-1621), who had noted their
+  // order; procession to Týn, sermon by Samuel Martinius of Dražov; buried
+  // by trusted men in a secret place never found. Thurn's return over
+  // the bridge: Schiller, Drittes Buch (Projekt Gutenberg ch. 12), quote 0. Ending (rewritten 2026-10-27 at the
+  // user's request) explains why the Saxons spared him (Arnim his old
+  // officer; Saxony wanted a separate peace; W. had opposed the Edict of
+  // Restitution) and why the emperor turned to him; the next card's
+  // opening was trimmed so the reasoning isn't told twice.
+  {
+    "slug": "the-saxons-come-1631",
+    "era": "fire-and-ashes",
+    "startYear": 1631.87,
+    "year": {
+      "en": "1631",
+      "cz": "1631",
+      "zh": "1631年"
+    },
+    "tone": "serious",
+    "title": {
+      "en": "The Exiles Come Home",
+      "cz": "Exulanti se vracejí",
+      "zh": "流亡的人回来了"
+    },
+    "hookLine": {
+      "en": "The exiles came home behind a foreign army. Their first task was to take down twelve heads.",
+      "cz": "Exulanti se vrátili za cizím vojskem. Prvním úkolem bylo sundat dvanáct hlav.",
+      "zh": "流亡的人跟着一支外国军队回来了。他们要办的头一件事，是把十二颗头颅取下来。"
+    },
+    "summary": {
+      "en": "In September 1631 the news reached Pirna at last. At Breitenfeld, north of Leipzig, the Swedish king had routed Tilly's army.\n\nFighting beside him was the Elector of Saxony, [[link:help-at-a-price-1619]]John George[[/link]], who eleven years earlier had helped the emperor against Bohemia for the price of Lusatia. When Tilly's troops marched into his own land that summer, he changed sides.\n\nAfter the battle the Swedish king headed west, into the heart of Germany. The Saxon army went south-east, over the mountains into Bohemia. It was led by Hans Georg von Arnim, who only a few years before had served under Wallenstein and [[link:general-of-the-seas-1628]]besieged Stralsund[[/link]] for him.\n\nIn mid-November the Saxons stood before Prague. There was hardly a garrison to speak of. The emperor's officials, the Catholic lords and the Jesuits had fled, and the city opened its gates without a fight.\n\nBehind the Saxon army came the exiles. Lords and burghers who had been away for ten years went back to the doors of their confiscated houses and asked for them back. Protestant preachers climbed into the pulpits again.\n\nAmong those who came back was [[link:the-new-king-1617]]Count Thurn[[/link]]. Thirteen years earlier he had led the men who threw the governors out of the window; after White Mountain he had fled abroad, and his name had gone on a sentence. Now in his sixties and a general in the Swedish king's service, he came back with the winners. Schiller later described his return like this:\n\n[[quote:0]]\n\nTaking down those heads was indeed one of the first things the returning exiles set about.\n\nOn Sunday 30 November, in the afternoon, a crowd gathered at the Old Town Bridge Tower. The sons, grandsons, relatives and friends of the men executed in 1621 had come for the twelve heads that had hung there in iron cages for ten years.\n\nThe man who took them down was the former Old Town clerk [[link:twenty-seven-1621]]Diviš[[/link]]. [[b]]Ten years earlier his tongue had been nailed to the gallows; now it was he who took the heads down with his own hands.[[/b]] Over the years he had kept a careful note of their order on the tower:\n\n[[quote:1]]\n\nThe skulls were laid in one coffin, and thousands followed it to the Týn Church, where the Protestant preacher Samuel Martinius gave the sermon. Afterwards the coffin was handed to a few trusted men to bury in a secret place, so that no one could ever dishonour them again. That place has never been found.\n\nNot everyone in Prague was celebrating. The Saxon soldiers looted too. The exiles wanted their houses back, and the people now living in them had nowhere else to go. Many kept their heads down and wondered how long this would last.\n\nOne house the Saxons did not touch: Wallenstein's.\n\nThe two sides were enemies, so why the restraint? For one thing, Arnim had served under him, and the two were on good terms. For another, the Elector of Saxony had never been keen to follow the Swedes; what he really wanted was a separate peace with the emperor. The dismissed Wallenstein was by now a private nobleman living at home, and he had always been against the emperor's order to take back the Church lands. To the Saxons he looked like just the man to put in a word for them in Vienna. At the end of November he and Arnim met in secret at a castle. What they said, no one knows for certain.\n\nWhen the news reached Vienna, the emperor could not sit still. Prague was lost, Bohemia looked lost too, and between Prague and Vienna there was no army worth the name. Nor did the emperor have one: Tilly's had been destroyed at Breitenfeld, the Catholic League's army answered to Bavaria, Spain was far away and the treasury was empty.\n\nThe emperor knew only one man who could raise a great army out of nothing in a few months and make it feed itself. Six years earlier that man had done it for him once already, by [[link:war-feeds-war-1625]]making war feed war[[/link]].\n\nThat winter, the emperor sent for Wallenstein again.",
+      "cz": "V září 1631 dorazila do Pirny konečně zpráva. U Breitenfeldu severně od Lipska rozdrtil švédský král Tillyho vojsko.\n\nPo jeho boku bojoval saský kurfiřt [[link:help-at-a-price-1619]]Jan Jiří[[/link]], ten, kdo před jedenácti lety pomohl císaři proti Čechám za cenu Lužice. Když mu toho léta Tillyho vojáci vtrhli do země, přešel na druhou stranu.\n\nPo bitvě zamířil švédský král na západ, do srdce Německa. Saské vojsko šlo na jihovýchod, přes hory do Čech. Vedl ho Hans Georg von Arnim, který ještě před pár lety sloužil pod Valdštejnem a [[link:general-of-the-seas-1628]]obléhal pro něj Stralsund[[/link]].\n\nV polovině listopadu stáli Sasové před Prahou. Posádka tu skoro žádná nebyla. Císařští úředníci, katoličtí páni i jezuité utekli a město otevřelo brány bez boje.\n\nZa saským vojskem přišli exulanti. Páni a měšťané, kteří byli deset let pryč, se vraceli ke dveřím svých zabavených domů a žádali je zpět. Evangeličtí kazatelé znovu vystoupili na kazatelny.\n\nMezi těmi, kdo se vrátili, byl i [[link:the-new-king-1617]]hrabě Thurn[[/link]]. Před třinácti lety vedl muže, kteří vyhodili místodržící z okna; po Bílé hoře utekl do ciziny a jeho jméno se ocitlo v rozsudku. Teď, po šedesátce a jako generál ve službách švédského krále, se vrátil s vítězi. Schiller později jeho návrat popsal takto:\n\n[[quote:0]]\n\nSundat ty hlavy byla opravdu jedna z prvních věcí, do kterých se navrátilci pustili.\n\nV neděli 30. listopadu odpoledne se u Staroměstské mostecké věže sešel zástup. Synové, vnuci, příbuzní a přátelé mužů popravených roku 1621 přišli pro dvanáct hlav, které tam deset let visely v železných koších.\n\nSundával je bývalý staroměstský písař [[link:twenty-seven-1621]]Diviš[[/link]]. [[b]]Před deseti lety mu přibili jazyk k šibenici; teď to byl on, kdo ty hlavy vlastníma rukama sundal.[[/b]] Celé ty roky si pečlivě zapisoval, v jakém pořadí na věži visí:\n\n[[quote:1]]\n\nLebky uložili do jedné rakve a tisíce lidí ji doprovodily do Týnského chrámu, kde kázal evangelický kněz Samuel Martinius. Pak rakev svěřili několika důvěryhodným mužům, aby ji pohřbili na tajném místě a nikdo už ostatky nemohl zneuctít. To místo se dodnes nenašlo.\n\nNe všichni v Praze slavili. Saští vojáci také drancovali. Exulanti chtěli své domy zpátky a lidé, kteří v nich teď bydleli, neměli kam jít. Mnozí raději mlčeli a přemýšleli, jak dlouho to vydrží.\n\nJeden dům Sasové nechali na pokoji: Valdštejnův.\n\nObě strany byly nepřátelé, tak proč ta šetrnost? Zaprvé Arnim kdysi sloužil pod ním a oba si rozuměli. Zadruhé saský kurfiřt za Švédy nikdy moc netáhl; ve skutečnosti chtěl s císařem uzavřít separátní mír. Propuštěný Valdštejn byl teď šlechtic, který seděl doma, a vždycky byl proti císařovu nařízení vrátit církevní statky. Sasům připadal jako ten pravý, kdo by se za ně ve Vídni přimluvil. Koncem listopadu se s Arnimem tajně sešli na jednom zámku. O čem mluvili, s jistotou neví nikdo.\n\nKdyž zpráva dorazila do Vídně, císař neposeděl. Praha byla ztracená, Čechy vypadaly ztracené taky a mezi Prahou a Vídní nestálo žádné pořádné vojsko. Ani císař žádné neměl: Tillyho vojsko bylo u Breitenfeldu rozbité, vojsko Katolické ligy poslouchalo Bavorsko, Španělsko bylo daleko a pokladna prázdná.\n\nCísař znal jediného člověka, který dokázal za pár měsíců postavit z ničeho velké vojsko a nechat ho, aby se uživilo samo. Před šesti lety to pro něj ten muž už jednou udělal, když [[link:war-feeds-war-1625]]válka živila válku[[/link]].\n\nTu zimu poslal císař pro Valdštejna znovu.",
+      "zh": "1631年9月，皮尔纳的流亡者终于等来了消息：瑞典国王在莱比锡北边的布赖滕费尔德，把蒂利的大军打得大败。\n\n和他并肩作战的，是萨克森选帝侯[[link:help-at-a-price-1619]]约翰·格奥尔格[[/link]]。十一年前，正是他为了卢萨蒂亚，帮皇帝打过波希米亚。这年夏天，蒂利的军队开进了他自己的地盘，他就换了边。\n\n打完仗，瑞典国王往西，去了德意志的腹地；萨克森军往东南，翻过山进了波希米亚。带兵的是汉斯·格奥尔格·冯·阿尼姆，几年前他还在华伦斯坦手下当差，替他[[link:general-of-the-seas-1628]]围过施特拉尔松德[[/link]]。\n\n11月中旬，萨克森军队开到了布拉格城下。城里几乎没有守军，皇帝的官员、天主教贵族和耶稣会士，能跑的都跑了。布拉格没有抵抗，开了城门。\n\n跟在萨克森军队后面回来的，是流亡的人。离开了十年的贵族和市民，回到自己被没收的宅子门口，要求物归原主。新教的牧师，重新登上了讲坛。\n\n回来的人里，也有[[link:the-new-king-1617]]图尔恩伯爵[[/link]]。十三年前，正是他带头把总督们扔出了窗外；白山之后，他逃到国外，名字上了判决书。如今他已经六十多岁，以瑞典国王麾下将领的身份，跟着胜利者回来了。席勒后来这样写他的归来：\n\n[[quote:0]]\n\n取下那些头颅，确实是回来的人最先要办的事之一。\n\n11月30日，星期天下午，老城桥塔下聚起了一群人。他们是1621年被处死的那些人的儿子、孙子、亲戚和朋友。在那里的铁笼子里挂了十年的十二颗头颅，他们要接回去。\n\n爬上去取头颅的，是当年老城的书记官[[link:twenty-seven-1621]]迪维什[[/link]]。[[b]]十年前，他的舌头被钉在绞架上；十年后，是他亲手把这些头颅取了下来。[[/b]]这些年里，他一直仔细记着它们在塔上的顺序：\n\n[[quote:1]]\n\n头颅被放进同一口棺材，成千上万的人跟着它走到泰恩教堂，新教牧师萨穆埃尔·马蒂尼乌斯在那里讲道。之后，棺材交给几个靠得住的人，埋在一个秘密的地方，免得它们再遭人羞辱。那个地方，到今天也没有人找到。\n\n并不是所有布拉格人都在庆祝。萨克森兵也抢东西。流亡者要回自己的房子，住在房子里的人又能去哪儿？许多人只是低着头过日子，心里盘算：这一回，能撑多久？\n\n有一座宅子，萨克森人一点没碰：华伦斯坦的。\n\n两边明明是敌人，为什么手下留情？一来，带兵的阿尼姆是他的老部下，两人交情不浅。二来，萨克森选帝侯本就不情愿跟着瑞典人走，他真正想要的，是和皇帝单独讲和。被免了职的华伦斯坦，这时只是个闲居在家的贵族，又一向反对皇帝收回教会财产，在萨克森人眼里，正是能替他们在维也纳说上话的人。11月底，阿尼姆和他在一座城堡里秘密见了一面。谈了些什么，没有人说得清。\n\n消息传到维也纳，皇帝坐不住了。布拉格丢了，波希米亚眼看也保不住，从布拉格到维也纳，中间再没有一支像样的军队。皇帝自己也没有：蒂利的兵在布赖滕费尔德打光了，天主教联盟的军队听巴伐利亚的，西班牙远在天边，国库里也拿不出钱。\n\n能在几个月里凭空拉起一支大军、还能让它自己养活自己的人，皇帝只认识一个。六年前，这个人就用[[link:war-feeds-war-1625]]以战养战[[/link]]的办法，替他做成过一回。\n\n那年冬天，皇帝又派人去找华伦斯坦了。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "Count Thurn, the notorious author of the Bohemian revolt, lived to see the glory of showing himself as victor on the very scene of his crime and his condemnation. Over the same bridge where the impaled heads of his followers had painted, in terrible colours, the fate awaiting him, he now made his triumphal entry, and his first business was to remove these images of horror.",
+          "cz": "Hrabě Thurn, nechvalně proslulý původce českého povstání, se dožil té slávy, že se na dřívějším dějišti svého zločinu a svého odsouzení mohl ukázat jako vítěz. Přes týž most, kde mu nabodnuté hlavy jeho stoupenců hrozivě malovaly před očima osud, který čekal i jeho, teď slavně vjížděl, a jeho prvním úkolem bylo ty děsivé obrazy odstranit.",
+          "zh": "图尔恩伯爵，这个臭名昭著的波希米亚叛乱祸首，居然有幸在他当年犯罪、受审的舞台上，以胜利者的身份露面。当年，就在这座桥上，他那些追随者被挑起来的头颅，曾可怕地向他描绘出等着他自己的命运；如今，他从同一座桥上凯旋入城，头一件事，就是把这些吓人的东西移走。"
+        },
+        "attribution": {
+          "en": "Friedrich Schiller, History of the Thirty Years' War, 1791",
+          "cz": "Friedrich Schiller, Dějiny třicetileté války, 1791",
+          "zh": "弗里德里希·席勒，《三十年战争史》，1791年"
+        }
+      },
+      {
+        "text": {
+          "en": "So that it could be known which head belongs to which of the lords directors.",
+          "cz": "Aby se věděti mohlo, kterého z pánů direktorů která hlava jest.",
+          "zh": "好叫人知道，哪一颗头是哪一位督政官大人的。"
+        },
+        "attribution": {
+          "en": "Mikuláš Diviš of Doubravín, former Old Town clerk, on the order of the heads on the bridge tower",
+          "cz": "Mikuláš Diviš z Doubravína, bývalý staroměstský písař, o pořadí hlav na mostecké věži",
+          "zh": "前老城书记官米库拉什·迪维什，记桥塔上头颅的顺序"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "staromestska-mostecka-vez",
+        "relation": {
+          "en": "Where the twelve heads hung for ten years, until the exiles took them down on 30 November 1631",
+          "cz": "Zde deset let visely dvanáct hlav, dokud je exulanti 30. listopadu 1631 nesundali",
+          "zh": "十二颗头颅在这里挂了十年，直到1631年11月30日被流亡归来的人取下"
+        }
+      },
+      {
+        "slug": "tyn-church",
+        "relation": {
+          "en": "Where thousands followed the coffin of skulls for a Protestant funeral sermon, before it was buried in a secret place never found",
+          "cz": "Sem tisíce lidí doprovodily rakev s lebkami k evangelickému kázání, než ji pohřbili na tajném místě, které se nikdy nenašlo",
+          "zh": "成千上万的人跟着装着头颅的棺材来到这里听新教牧师讲道，之后棺材被埋在一个至今没找到的秘密地点"
+        }
+      }
+    ],
+    "wikipediaUrl": "https://cs.wikipedia.org/wiki/Starom%C4%9Bstsk%C3%A1_exekuce",
+    "images": ["/history/the-saxons-come-1631.webp"],
+    "imageCaptions": [
+      {"en":"The Old Town Bridge Tower, November 1631. Returning exiles and the families of the executed gather on the bridge as the former Old Town clerk Diviš climbs a ladder and takes down, one by one, the heads that had hung there for ten years, to be laid in the coffin on the cart. The rider watching at the side is Count Thurn; his triumphal entry and the taking down of the heads were separate events, combined here.","cz":"Staroměstská mostecká věž, listopad 1631. Navrátilí exulanti a příbuzní popravených se shromáždili na mostě, zatímco bývalý staroměstský písař Diviš šplhá po žebříku a jednu po druhé sundává hlavy, které tu deset let visely, aby je uložili do rakve na voze. Jezdec přihlížející stranou je hrabě Thurn; jeho slavný vjezd a sundání hlav byly dvě různé události, na obraze spojené.","zh":"1631年11月，老城桥塔。流亡归来的人和死者的亲属聚在桥上，当年的老城书记官迪维什爬上梯子，把挂了十年的头颅一一取下，放进车上的棺材。骑马立在一旁的是图尔恩伯爵，他凯旋入城和取下头颅本是两件事，画中合在了一处。"}
+    ]
+  },
+  // Background card (user's request, 2026-10-27): the two sides by late
+  // 1631, Bohemia's divided attitude, Gustavus's record before Lützen, and
+  // the "Lion of the North". No Alte Veste (Wallenstein's return comes
+  // next) and nothing about Lützen. Bärwalde, Jan 1631: 400,000 Reichstaler
+  // a year, Catholic worship to be respected. Brandenburg pressed in June
+  // 1631 with Swedish guns before Berlin. Lech crossing at Rain, April 1632,
+  // Tilly mortally wounded (died 30 April); Munich entered May 1632 with
+  // Frederick V in the king's party. The lion prophecy: Paul Grebner
+  // (en.wikipedia), modelled on Paracelsus; "Mitternacht" = north. The
+  // imperial "Snow King" jibe was not verified, so left out.
+  {
+    "slug": "who-stood-where-1631",
+    "era": "fire-and-ashes",
+    "cardType": "background",
+    "startYear": 1631.9,
+    "year": {
+      "en": "1618–1632",
+      "cz": "1618–1632",
+      "zh": "1618年－1632年"
+    },
+    "tone": "humorous",
+    "title": {
+      "en": "Who Stood Where?",
+      "cz": "Kdo stál na které straně?",
+      "zh": "谁站在哪一边？"
+    },
+    "hookLine": {
+      "en": "Saxons at the gates of Prague, Swedes deep in Germany. Thirteen years in, the war was no longer Bohemia's alone.",
+      "cz": "Sasové před branami Prahy, Švédové hluboko v Německu. Po třinácti letech už válka nebyla jen věcí Čech.",
+      "zh": "布拉格城门口是萨克森人，德意志腹地是瑞典人。打了十三年，这场仗早就不是波希米亚一家的事了。"
+    },
+    "summary": {
+      "en": "Counting from that window in Prague, the war had been going on for thirteen years. By the end of 1631 it was no longer Bohemia's affair alone. So who stood on which side?\n\nOn one side stood the emperor, Ferdinand II in Vienna, with his [[link:two-habsburg-houses-1556]]Spanish cousins[[/link]] in Madrid supplying money and men. Beside him stood the Catholic League of the German Catholic princes, led by Maximilian of Bavaria, whose army was commanded by old Tilly.\n\nOn the other side, the list of enemies kept growing. The Swedish king Gustavus Adolphus led the way. The two Protestant electors, of Saxony and of Brandenburg, had hoped to stay out of it; in 1631, pushed by Tilly's troops on one side and Swedish guns on the other, both ended up on Sweden's side. A string of smaller Protestant princes, Hesse among them, followed.\n\nSome paid without fighting. The Dutch, at war with Spain, were happy to fund anyone who fought the Habsburgs. The English king Charles I, brother of the Winter Queen Elizabeth, did little, but thousands of Scots came on their own to fight for the Swedish king.\n\nThe most surprising paymaster was France. In January 1631 Cardinal Richelieu signed a treaty with Sweden: France would pay 400,000 thalers a year, on condition, among others, that the Swedes respected Catholic worship where they went. [[b]]A Catholic cardinal was paying a Lutheran king to fight a Catholic emperor.[[/b]] For Richelieu faith came second; what mattered was that the Habsburgs must not squeeze France from both sides.\n\nSome had left the stage. The King of Denmark had made his [[link:general-of-the-seas-1628]]peace at Lübeck[[/link]] and gone home. Poland had a truce with Sweden and sat watching. Even Pope Urban VIII in Rome leaned more toward France.\n\nAnd Bohemia? Many of those [[link:inside-and-outside-the-walls-1630]]outside the palace walls[[/link]] quietly breathed again: families with a Bible hidden in the wall, townspeople forced to convert, peasants bent under heavy labour dues. They hoped the Protestant armies from the north would bring them something.\n\nBut the people running Bohemia were someone else: the new Catholic lords and officers who had come after White Mountain. Many of their estates had been confiscated from the exiles and bought cheap. Every exile who came back might cost them a piece of land. The closer the Protestant armies came, the more nervous they grew. Wallenstein held more of that land than any of them.\n\nAs for the Swedish king: in the summer of 1630 he had landed in Pomerania with only about thirteen thousand men, and the German princes did not quite believe in him. A little over a year later he was the hero of Protestant Europe.\n\nIn September 1631 at Breitenfeld he crushed Tilly, who had never before lost a great battle. By the end of the year he was on the Rhine and wintering at Mainz. In April 1632 he forced a crossing of the Lech; Tilly's thigh was smashed by a cannonball, and within a fortnight he was dead. In May the king rode into Munich, the Bavarian capital. Riding with him was [[link:a-king-for-one-winter-1620]]Frederick, the Winter King[[/link]], entering the capital of the man who had taken his electoral title.\n\nIt was not just luck. Many of his soldiers were conscripts from Sweden itself, and his army was known for its discipline. He broke up the heavy old squares into smaller, more flexible formations, had his musketeers fire in volleys, and gave every regiment a few light guns of its own. Later generations called him the father of modern warfare.\n\nThe Protestant pamphleteers had been waiting for such a man. A prophecy had been going round since the last century, said to go back to Paracelsus and later reworked by a schoolmaster named Paul Grebner: one day a lion would come out of \"midnight\", which in old German meant the north, and bring down the eagle. The eagle was the emperor's. The Swedish royal arms already carried lions. After Breitenfeld, pamphlets all over Germany said the same thing: the Lion of the North had come.\n\nThat is how the name stuck. And the emperor had only one man left to turn to: the one he had just dismissed.",
+      "cz": "Počítáno od toho okna v Praze, válka trvala už třináct let. Koncem roku 1631 už nebyla jen věcí Čech. Kdo tedy stál na které straně?\n\nNa jedné straně stál císař, Ferdinand II. ve Vídni, a za ním jeho [[link:two-habsburg-houses-1556]]španělští příbuzní[[/link]] v Madridu, kteří dodávali peníze i vojáky. Vedle něj stála Katolická liga německých katolických knížat v čele s Maxmiliánem Bavorským, jejíž vojsko vedl starý Tilly.\n\nNa druhé straně nepřátel přibývalo. V čele šel švédský král Gustav II. Adolf. Oba protestantští kurfiřti, saský a braniborský, chtěli zůstat stranou; roku 1631 je z jedné strany tlačili Tillyho vojáci a z druhé švédská děla, a tak oba skončili na švédské straně. Přidala se řada menších protestantských knížat, mezi nimi Hesensko.\n\nNěkteří platili, ale nebojovali. Nizozemci, kteří válčili se Španělskem, rádi podporovali každého, kdo šel proti Habsburkům. Anglický král Karel I., bratr Zimní královny Alžběty, udělal málo, zato tisíce Skotů přišly samy sloužit švédskému králi.\n\nNejpřekvapivějším plátcem byla Francie. V lednu 1631 podepsal kardinál Richelieu se Švédskem smlouvu: Francie bude platit 400 000 tolarů ročně, mimo jiné pod podmínkou, že Švédové budou tam, kam přijdou, respektovat katolické bohoslužby. [[b]]Katolický kardinál platil luteránskému králi, aby bojoval proti katolickému císaři.[[/b]] Pro Richelieua byla víra až na druhém místě; šlo o to, aby Habsburkové nesevřeli Francii z obou stran.\n\nNěkteří ze scény odešli. Dánský král uzavřel [[link:general-of-the-seas-1628]]mír v Lübecku[[/link]] a šel domů. Polsko mělo se Švédskem příměří a přihlíželo. I papež Urban VIII. v Římě se klonil spíš k Francii.\n\nA Čechy? Mnozí [[link:inside-and-outside-the-walls-1630]]za palácovými zdmi[[/link]] si potichu oddechli: rodiny s Biblí schovanou ve zdi, měšťané donucení ke konverzi, sedláci shrbení pod těžkou robotou. Doufali, že protestantská vojska ze severu jim něco přinesou.\n\nJenže Čechám vládl někdo jiný: noví katoličtí páni a důstojníci, kteří přišli po Bílé hoře. Mnoho jejich statků bylo zabaveno exulantům a koupeno levně. Každý exulant, který se vrátil, je mohl stát kus půdy. Čím blíž byla protestantská vojska, tím víc byli nervózní. A nejvíc té půdy ze všech měl Valdštejn.\n\nA švédský král? V létě 1630 se vylodil v Pomořansku jen asi se třinácti tisíci muži a německá knížata mu moc nevěřila. O něco víc než rok později byl hrdinou protestantské Evropy.\n\nV září 1631 u Breitenfeldu rozdrtil Tillyho, který do té doby žádnou velkou bitvu neprohrál. Do konce roku byl na Rýně a zimoval v Mohuči. V dubnu 1632 si vynutil přechod přes Lech; Tillymu rozdrtila stehno dělová koule a do dvou týdnů byl mrtev. V květnu král vjel do Mnichova, hlavního města Bavorska. S ním jel [[link:a-king-for-one-winter-1620]]Fridrich, Zimní král[[/link]], do hlavního města muže, který mu vzal kurfiřtský titul.\n\nNebylo to jen štěstí. Mnoho jeho vojáků byli odvedenci přímo ze Švédska a jeho vojsko bylo známé kázní. Těžké staré čtverce rozdělil na menší a pohyblivější útvary, mušketýry nechal pálit v salvách a každému pluku dal pár lehkých děl. Pozdější generace ho nazvaly otcem moderního válečnictví.\n\nProtestantští autoři letáků na takového muže čekali. Od minulého století kolovalo proroctví, prý už od Paracelsa a později přepracované učitelem Paulem Grebnerem: jednou přijde od „půlnoci“, což ve staré němčině znamenalo od severu, lev a srazí orla. Orel byl císařův. Ve švédském královském znaku lvi už byli. Po Breitenfeldu psaly letáky po celém Německu totéž: přišel Lev ze severu.\n\nTak se to jméno ujalo. A císaři zbýval jediný člověk, na kterého se mohl obrátit: ten, kterého právě propustil.",
+      "zh": "从布拉格的那扇窗户算起，这场仗已经打了十三年。到1631年底，它早就不是波希米亚一家的事了。那么，两边各站着谁？\n\n一边是皇帝，维也纳的斐迪南二世，背后是马德里的[[link:two-habsburg-houses-1556]]西班牙亲戚[[/link]]，出钱又出兵。和他站在一起的，是德意志天主教诸侯结成的“天主教联盟”，领头的是巴伐利亚的马克西米利安，联盟的大军由老将蒂利统领。\n\n另一边，对手越凑越多。打头阵的是瑞典国王古斯塔夫·阿道夫。萨克森和勃兰登堡两位新教选帝侯，原本只想两不相帮；1631年，一边被蒂利的兵逼着，一边被瑞典人的炮口对着，两人最后都站到了瑞典这边。黑森等一串新教小诸侯，也跟了上来。\n\n还有出钱不出人的。荷兰正和西班牙打仗，乐得资助任何跟哈布斯堡作对的人。英国国王查理一世是“冬后”伊丽莎白的弟弟，出的力不多；倒是成千上万的苏格兰人自己跑来，给瑞典国王当兵。\n\n最出人意料的金主，是法国。1631年1月，黎塞留枢机和瑞典签了条约：法国每年给瑞典四十万塔勒，条件之一是瑞典人打到哪里，都要尊重那里的天主教礼拜。[[b]]一个天主教的枢机，出钱请一个路德宗的国王，去打一个天主教的皇帝。[[/b]]对黎塞留来说，信仰排在后面，要紧的是别让哈布斯堡家从东西两边把法国夹住。\n\n也有退场的。丹麦国王在吕贝克[[link:general-of-the-seas-1628]]签了和约[[/link]]，回家去了；波兰和瑞典停了战，坐在一边看。就连罗马的教皇乌尔班八世，心里也更向着法国。\n\n那么波希米亚呢？[[link:inside-and-outside-the-walls-1630]]宫墙外面[[/link]]，不少人偷偷松了口气：墙洞里藏着圣经的人家，被逼着改了宗的市民，被沉重劳役压弯了腰的农民，都盼着北方来的新教军队能带来点什么。\n\n可眼下管着波希米亚的，是另一群人：白山之后新来的天主教贵族和军官。他们手里的庄园，很多正是从流亡者那里没收、又贱价买来的。流亡者每回来一个，他们就可能丢一块地。新教联军离得越近，他们心里越慌。而这群人里，地最多的，就是华伦斯坦。\n\n至于那位瑞典国王：1630年夏天，他只带着一万三千来人在波美拉尼亚上岸，德意志的诸侯们对他半信半疑。一年多以后，他已经是整个新教欧洲的英雄。\n\n1631年9月，在布赖滕费尔德，他把此前从没输过大仗的蒂利打得落花流水。年底，他已经到了莱茵河边，在美因茨过冬。1632年4月，他强渡莱希河，蒂利的大腿被一发炮弹打碎，不到半个月就死了。5月，他骑马进了巴伐利亚的首都慕尼黑。跟在他身边的，是[[link:a-king-for-one-winter-1620]]“冬王”腓特烈[[/link]]，走进了那个夺走自己选帝侯头衔的人的都城。\n\n他能赢，不全靠运气。他的兵里有一大批是从瑞典本国征来的，军纪出了名地严。他把笨重的老式方阵拆成更小、更灵活的队形，让火枪手轮番齐射，还给每个团配了几门轻便的小炮。后人称他是“近代战争之父”。\n\n新教的小册子作者们，早就在等这样一个人。上个世纪就流传着一则预言，据说源自帕拉塞尔苏斯，后来又被一位名叫保罗·格雷布纳的教书先生加工过：总有一天，会有一头狮子从“午夜”的方向出来，打倒那只鹰。在老德语里，“午夜”指的就是北方；那只鹰，就是皇帝的鹰。瑞典王室的纹章上本来就有狮子。布赖滕费尔德之后，满德意志的传单都在说同一句话：北方的狮子来了。\n\n“北方雄狮”这个名号，就这样叫开了。而皇帝能指望的，只剩下一个人：那个刚被他亲手免了职的人。"
+    },
+    "quotes": [],
+    "images": [],
+    "imageCaptions": [],
+    "relatedLandmarks": []
+  },
+  // Wallenstein's recall and the retaking of Prague (Dec 1631–May 1632).
+  // Ranke, Geschichte Wallensteins, ch. 9: Eggenberg at Znaim in December
+  // 1631; W. agreed only for some months, to form the army; second meeting
+  // on 13 April 1632 midway between Znaim and Vienna (Göllersdorf): full
+  // command, the young King of Hungary kept away, the right of confiscation
+  // and pardon, Glogau as an interim pledge for Mecklenburg; he asked to be
+  // generalissimo of both Habsburg lines for life, which was not confirmed;
+  // no original of the terms has ever come to light. Ch. 10: Prague attacked
+  // before dawn on 25 May 1632, surrendered by noon, the garrison disarmed
+  // and sent off without honours; W. went on negotiating with Saxony.
+  // cs.wikipedia (Thurn; Saský vpád do Čech): the Saxons and the exiles had
+  // to leave again, further confiscations followed. Title (user's pick,
+  // 2026-10-27) from Lu Xun; first titled "送神容易请神难", slug kept. Ends turning toward Gustavus.
+  {
+    "slug": "easy-to-dismiss-hard-to-recall-1632",
+    "era": "fire-and-ashes",
+    "startYear": 1632.4,
+    "year": {
+      "en": "1631–1632",
+      "cz": "1631–1632",
+      "zh": "1631年－1632年"
+    },
+    "tone": "serious",
+    "title": {
+      "en": "Another Flag over the City",
+      "cz": "Nad městem zase jiný prapor",
+      "zh": "城头变幻大王旗"
+    },
+    "hookLine": {
+      "en": "Little more than a year earlier the emperor had sent him home. Now the emperor had to send someone to his door to ask him back.",
+      "cz": "Před něco víc než rokem ho císař poslal domů. Teď musel posílat lidi k jeho dveřím, aby ho prosili o návrat.",
+      "zh": "一年多以前，皇帝把他打发回了家。如今，皇帝得派人登门去请他回来。"
+    },
+    "summary": {
+      "en": "In December 1631 Prince Eggenberg, the emperor's chief minister, arrived at Znojmo in southern Moravia. The man he had come to see was Wallenstein, whom the emperor had dismissed a little over a year before.\n\nThe emperor had no one else to turn to. This visit was to ask a favour.\n\nWallenstein did not say yes at once. He would raise an army for the emperor and lead it for a few months, no more, and then they would see.\n\nA few months later the army was there. On 13 April 1632 Eggenberg came again, and at Göllersdorf, halfway between Znojmo and Vienna, the two sat down to settle the terms.\n\nThis time Wallenstein's price was far higher than before. He wanted command of the whole army, with no one else interfering. The emperor's son, the young King of Hungary, had better stay away from the camp. In conquered lands it would be he who decided whose property was confiscated and who was pardoned. He even asked to be supreme commander of both branches of the House of Habsburg for life. Since Mecklenburg was lost, the emperor pledged him the Silesian duchy of Głogów in the meantime.\n\nThe emperor did not grant the \"for life\". The rest has had to be pieced together from copies, because no original of the agreement has ever come to light. [[b]]A year and a half earlier the emperor had sent him home without wasting a word; now, to get him back, he had to agree to his terms one by one.[[/b]]\n\nThe first thing Wallenstein did was take Bohemia back. On 25 May 1632, before dawn, he ordered the attack on Prague. The Saxons had counted on holding the Lesser Town and the bridge for a while. The guns opened up, and by noon the whole city had surrendered. The Saxon garrison was disarmed and sent out of the city without military honours.\n\nThe exiles who had come back with the Saxons six months earlier had to leave again. Thurn left, and so did the lords and burghers who had only just got their houses back. Those who did not get away in time lost their houses and land a second time. At least the heads they had taken down from the bridge tower were already buried where no one could find them.\n\nIn half a year the gates of Prague had opened twice: once to the north, once to Vienna.\n\nWallenstein did not stay long in Prague. The Saxons fell back into the mountains, and he did not chase them hard; even now he kept talking with them. Instead he turned his army south-west. There the Lion of the North was waiting for him.",
+      "cz": "V prosinci 1631 přijel do Znojma na jižní Moravě kníže Eggenberg, císařův první ministr. Muž, za kterým přijel, byl Valdštejn, kterého císař před něco víc než rokem propustil.\n\nCísař už neměl na koho jiného se obrátit. Tahle cesta byla prosebná.\n\nValdštejn hned nesvolil. Postaví císaři vojsko a povede ho pár měsíců, víc ne, a pak se uvidí.\n\nZa několik měsíců tu vojsko bylo. 13. dubna 1632 přijel Eggenberg znovu a v Göllersdorfu, na půl cesty mezi Znojmem a Vídní, si oba sedli, aby dohodli podmínky.\n\nTentokrát byla Valdštejnova cena mnohem vyšší než předtím. Chtěl velení nad celým vojskem a nikdo jiný se do něj neměl plést. Císařův syn, mladý uherský král, měl raději zůstat z tábora pryč. V dobytých zemích měl o tom, komu se majetek zabaví a komu se odpustí, rozhodovat on. Dokonce žádal, aby byl doživotním vrchním velitelem obou větví habsburského rodu. Protože Meklenbursko bylo ztracené, dal mu císař zatím do zástavy slezské knížectví Hlohov.\n\nTo „doživotně“ mu císař nepovolil. Zbytek se musel skládat z opisů, protože originál dohody se nikdy nenašel. [[b]]Před rokem a půl ho císař poslal domů bez dlouhých řečí; teď, aby ho dostal zpátky, musel jeho podmínky odsouhlasit jednu po druhé.[[/b]]\n\nPrvní, co Valdštejn udělal, bylo dobýt zpět Čechy. 25. května 1632 před svítáním dal rozkaz k útoku na Prahu. Sasové počítali s tím, že Malou Stranu a most chvíli udrží. Spustila děla a do poledne se kapitulovalo celé město. Saskou posádku odzbrojili a poslali z města bez vojenských poct.\n\nExulanti, kteří se se Sasy vrátili před půl rokem, museli zase odejít. Odešel Thurn, odešli páni a měšťané, kteří teprve dostali zpátky své domy. Kdo nestihl utéct, přišel o dům a půdu podruhé. Aspoň že hlavy, které sundali z mostecké věže, už ležely pohřbené tam, kde je nikdo nenajde.\n\nZa půl roku se pražské brány otevřely dvakrát: jednou k severu, jednou k Vídni.\n\nValdštejn se v Praze dlouho nezdržel. Sasové ustoupili do hor a on je moc nepronásledoval; i teď s nimi dál vyjednával. Místo toho obrátil vojsko na jihozápad. Tam na něj čekal Lev ze severu.",
+      "zh": "1631年12月，皇帝的首席大臣埃根贝格亲王，来到了摩拉维亚南部的兹诺伊莫。他要见的，是一年多以前被皇帝亲手免了职的华伦斯坦。\n\n皇帝已经找不到别人了。这一趟，是来低头的。\n\n华伦斯坦没有马上答应。他只肯先替皇帝把军队招起来，带上几个月，到时候再说。\n\n几个月后，大军真的招起来了。1632年4月13日，埃根贝格又来了。在兹诺伊莫和维也纳中间的格勒斯多夫，两个人坐下来，谈正式的条件。\n\n这一回，华伦斯坦开的价，比上一回高得多。整支军队归他一个人指挥，谁也不许插手；皇帝的儿子，那位年轻的匈牙利国王，最好别到军中来；打下来的地方，没收谁的家产、赦免谁，由他说了算。他甚至还要当哈布斯堡家族两个分支的终身大元帅。梅克伦堡已经丢了，皇帝就先把西里西亚的格沃古夫公国押给他，算是补偿。\n\n“终身”那一条，皇帝没有答应。其余的条件，后人只能从抄本里去拼，因为这份协议的原件，从来没有人见过。[[b]]一年半以前，皇帝打发他回家，一句多余的话都不用说；如今要请他回来，得一条一条地答应他的条件。[[/b]]\n\n华伦斯坦回来办的头一件事，是收回波希米亚。1632年5月25日，天还没亮，他下令攻打布拉格。萨克森人原以为小城区和桥能守上一阵子，结果大炮一响，不到中午，全城就投降了。萨克森守军被缴了械，没有任何军礼，就被打发出了城。\n\n半年前跟着萨克森人回来的流亡者，又得走了。图尔恩走了，那些刚刚要回自家宅子的贵族和市民，也走了。没来得及走的，房子和土地被第二次没收。好在他们取下的那些头颅，已经埋在了没人找得到的地方。\n\n半年之内，布拉格的城门开了两回：一回朝着北方，一回朝着维也纳。\n\n华伦斯坦没有在布拉格多停。萨克森人退回了北边的山里，他也没有穷追，甚至一边打，一边还在和萨克森人谈。他掉转方向，带着大军往西南去了。在那里，北方雄狮正等着他。"
+    },
+    "quotes": [],
+    "relatedLandmarks": [
+      {
+        "slug": "znojmo",
+        "relation": {
+          "en": "Where the emperor's chief minister came in December 1631 to ask the dismissed Wallenstein to raise a new army",
+          "cz": "Sem přijel v prosinci 1631 císařův první ministr prosit propuštěného Valdštejna, aby postavil nové vojsko",
+          "zh": "1631年12月，皇帝的首席大臣来到这里，请被免职的华伦斯坦重新招兵"
+        }
+      },
+      {
+        "slug": "malostranska-mostecka-vez",
+        "relation": {
+          "en": "The Saxons hoped to hold the Lesser Town and the bridge when Wallenstein attacked on 25 May 1632; by noon the city had surrendered",
+          "cz": "Sasové doufali, že při Valdštejnově útoku 25. května 1632 udrží Malou Stranu a most; do poledne se město vzdalo",
+          "zh": "1632年5月25日华伦斯坦攻城时，萨克森人指望守住小城区和这座桥，结果不到中午全城就投降了"
+        }
+      }
+    ],
+    "wikipediaUrl": "https://cs.wikipedia.org/wiki/Albrecht_z_Vald%C5%A1tejna",
+    "images": ["/history/easy-to-dismiss-hard-to-recall-1632.webp"],
+    "imageCaptions": [
+      {"en":"The Lesser Town Bridge Tower, Prague, 25 May 1632. With the city just surrendered, the Saxon flag comes down from the tower and the imperial double-headed eagle goes up; disarmed Saxon soldiers and exiles fleeing for the second time leave through the gate, while Wallenstein on a black horse rides in with the imperial cavalry.","cz":"Malostranská mostecká věž, Praha, 25. května 1632. Město se právě vzdalo: saský prapor jde z věže dolů a císařský dvouhlavý orel nahoru; odzbrojení saští vojáci a exulanti, kteří prchají podruhé, odcházejí branou, zatímco Valdštejn na černém koni vjíždí s císařskou jízdou do města.","zh":"1632年5月25日，布拉格小城区桥塔。城刚投降，塔顶的萨克森旗降下，帝国的双头鹰旗升起；被缴了械的萨克森兵和又一次出逃的流亡者从城门下离开，骑黑马的华伦斯坦带着帝国骑兵进城。"}
+    ]
+  },
+  // Nuremberg/Alte Veste and Lützen, 1632 (outside Bohemia, kept short).
+  // Schiller, Geschichte des dreißigjährigen Kriegs, ch. 13 (Projekt
+  // Gutenberg): W. refused to attack ("Schlachten hat man genug geliefert",
+  // paraphrased), the ten-hour assault on the Alte Feste, ~2,000 Swedish
+  // dead, the king withdrew. Ch. 14: fog till noon; the king hit in the
+  // arm, then shot in the back, died among Croats, his bloodied riderless
+  // horse told the Swedes, who fought on in fury; Pappenheim's dying words
+  // (quote 0); W. fell back to Leipzig without guns or colours. Gustavus
+  // wore no cuirass after his 1627 neck wound at Dirschau. The buff coat,
+  // shirts and the horse Streiff are in the Livrustkammaren, Stockholm (the
+  // "taken to Vienna, returned 1920" story did not verify, so left out).
+  // Ends on W. back in Bohemia looking for someone to blame (the Prague
+  // court-martial of Feb 1633 opens his last card).
+  {
+    "slug": "the-lion-falls-1632",
+    "era": "fire-and-ashes",
+    "startYear": 1632.85,
+    "year": {
+      "en": "1632",
+      "cz": "1632",
+      "zh": "1632年"
+    },
+    "tone": "serious",
+    "title": {
+      "en": "The Lion of the North Falls",
+      "cz": "Lev ze severu padl",
+      "zh": "北方雄狮倒下了"
+    },
+    "hookLine": {
+      "en": "He won the battle. He did not live to see it.",
+      "cz": "Bitvu vyhrál. Nedožil se toho.",
+      "zh": "这一仗，他赢了，却没能活着看见。"
+    },
+    "summary": {
+      "en": "In the summer of 1632 King Gustavus of Sweden and Wallenstein, once again the emperor's commander-in-chief, finally met, outside Nuremberg.\n\nWallenstein would not fight. He dug in on the hills west of the city and sat there for more than two months while the Swedish king offered battle below. When his officers urged him to attack, he answered that enough battles had been fought; it was time to try another way. In both camps food ran short, and every day more men died of hunger and disease.\n\nIn early September Gustavus lost patience and stormed the old castle on the heights, the Alte Veste. The fighting went on for some ten hours. Again and again the Swedes climbed the slope, and again and again they were thrown back, leaving about two thousand dead. It was the first time the Lion of the North had come up against a wall, and the wall was Wallenstein.\n\nAfterwards Wallenstein turned north to punish Saxony, and Gustavus followed. On 16 November 1632 the two armies met at Lützen, south-west of Leipzig.\n\nThat morning a thick fog lay over the field and did not lift until nearly noon. Gustavus wore no breastplate. A few years earlier, in Poland, he had been shot in the neck, and since then he could not bear iron armour; he went into battle in a coat of elk leather.\n\nIn the afternoon the fog came down again. Hearing that his left wing was in trouble, he rode into the fog with a few companions to help and lost touch with his own men. A shot hit him in the arm, another in the back. He fell from his horse, and enemy horsemen closed in and shot him again. His horse ran back to the Swedish lines with blood on the saddle and no one on its back.\n\nThe news ran through the Swedish army. It did not break. It fought on in fury. Bernhard of Saxe-Weimar took command, and by nightfall the Swedes had taken Wallenstein's guns.\n\nThe emperor's side lost a great commander too. Pappenheim, his cavalry general, had ridden through the night from Halle, and soon after he charged he was hit and mortally wounded. Before he died he heard that the Swedish king had fallen:\n\n[[quote:0]]\n\nIn the night Wallenstein ordered the retreat. The guns and colours were lost, and what followed him the next morning was a scattered remnant of an army. He fell back to Leipzig, and then all the way to Bohemia.\n\n[[b]]The Swedes had won the field and lost their king.[[/b]] The elk-leather coat and the bloodstained shirts he wore that day are now in the Royal Armoury in Stockholm, and so is Streiff, the horse he rode.\n\nThe Lion of the North was thirty-seven when he fell, not yet two and a half years after he had landed in Pomerania.\n\nWallenstein was back in Bohemia. He had lost the battle, and his greatest rival was gone. But first, back in Prague, he wanted someone to answer for Lützen.",
+      "cz": "V létě 1632 se švédský král Gustav Adolf a Valdštejn, znovu vrchní velitel císařského vojska, konečně setkali, před Norimberkem.\n\nValdštejn bojovat nechtěl. Zakopal se na kopcích západně od města a seděl tam víc než dva měsíce, zatímco ho švédský král dole vyzýval k bitvě. Když ho důstojníci nabádali k útoku, odpověděl, že bitev už bylo svedeno dost; je čas zkusit to jinak. V obou táborech docházelo jídlo a každý den víc mužů umíralo hladem a nemocemi.\n\nZačátkem září ztratil Gustav Adolf trpělivost a dal zaútočit na starý hrad na výšinách, Alte Veste. Boj trval asi deset hodin. Švédové se znovu a znovu drápali do svahu a znovu a znovu byli sraženi; zůstalo jich tam ležet asi dva tisíce. Poprvé narazil Lev ze severu na zeď, a tou zdí byl Valdštejn.\n\nPotom se Valdštejn obrátil na sever, aby potrestal Sasko, a Gustav Adolf šel za ním. 16. listopadu 1632 se obě vojska střetla u Lützenu jihozápadně od Lipska.\n\nToho rána ležela nad bojištěm hustá mlha a zvedla se až skoro v poledne. Gustav Adolf neměl kyrys. Před pár lety ho v Polsku střelili do krku a od té doby nesnesl železnou zbroj; do bitvy jezdil v kabátci z losí kůže.\n\nOdpoledne mlha znovu zhoustla. Když slyšel, že jeho levé křídlo je v úzkých, vjel s několika průvodci do mlhy na pomoc a ztratil spojení se svými. Jedna kulka ho zasáhla do paže, druhá do zad. Spadl z koně, nepřátelští jezdci se k němu sjeli a stříleli dál. Jeho kůň přiběhl zpátky ke švédským řadám, se sedlem od krve a bez jezdce.\n\nZpráva proběhla švédským vojskem. Nezlomila ho. Bojovalo dál v zuřivosti. Velení převzal Bernard Sasko-Výmarský a do setmění Švédové dobyli Valdštejnova děla.\n\nI císařská strana přišla o velkého vojevůdce. Pappenheim, velitel jízdy, přijel přes noc z Halle a brzy po prvním útoku byl smrtelně raněn. Než zemřel, dozvěděl se, že švédský král padl:\n\n[[quote:0]]\n\nV noci dal Valdštejn rozkaz k ústupu. Děla i prapory byly ztraceny a ráno za ním šel jen rozptýlený zbytek vojska. Ustoupil do Lipska a odtud až do Čech.\n\n[[b]]Švédové vyhráli bojiště a ztratili krále.[[/b]] Kabátec z losí kůže a krví potřísněné košile, které měl ten den na sobě, jsou dnes ve stockholmské Královské zbrojnici, a s nimi i Streiff, kůň, na kterém jel.\n\nLev ze severu padl v sedmatřiceti letech, necelé dva a půl roku poté, co se vylodil v Pomořansku.\n\nValdštejn byl zpátky v Čechách. Bitvu prohrál a jeho největší soupeř byl pryč. Jenže nejdřív chtěl v Praze najít, kdo za Lützen zaplatí.",
+      "zh": "1632年夏天，瑞典国王古斯塔夫和重新当上帝国元帅的华伦斯坦，终于在纽伦堡城外碰了头。\n\n华伦斯坦不肯打。他在城西的山上挖壕筑垒，一守就是两个多月，任凭瑞典国王在山下叫阵。部下劝他出击，他回答说：仗已经打得够多了，该换个法子了。两边营里的粮食越来越少，饿死、病死的人一天比一天多。\n\n9月初，古斯塔夫沉不住气了，下令强攻山上的旧堡阵地。这一仗打了将近十个钟头。瑞典人一次又一次冲上山坡，又一次又一次被打下来，丢下了两千来具尸体。北方雄狮这是头一回碰了钉子，碰他的，正是华伦斯坦。\n\n之后，华伦斯坦掉头北上，去收拾萨克森；古斯塔夫随后追来。1632年11月16日，两军在莱比锡西南的吕岑相遇。\n\n那天早上，战场上起了大雾，快到中午才散。古斯塔夫没有穿胸甲。几年前在波兰，他脖子上中过一枪，从此受不了铁甲的分量，上阵只套一件麋鹿皮外套。\n\n到了下午，雾又浓了起来。听说左翼吃紧，他带着几个随从冲进雾里去救，和自己的人走散了。一枪打中他的胳膊，又一枪打在背上。他从马上摔了下来，敌人的骑兵围上来，又补了几枪。他的马跑回了瑞典人的阵地，鞍上全是血，背上没有人。\n\n消息很快传遍了瑞典军。他们没有散，反而红了眼。魏玛的伯恩哈德接过指挥，瑞典人一直打到天黑，夺下了华伦斯坦的炮兵阵地。\n\n帝国这边，也折了一员大将。骑兵统帅帕彭海姆从哈雷连夜赶来，冲锋没多久就中弹倒下，伤重不治。临死前，他听说瑞典国王也死了：\n\n[[quote:0]]\n\n夜里，华伦斯坦下令撤退。大炮和军旗都丢了，第二天早上跟上来的，只是一支七零八落的残兵。他先退到莱比锡，又一路退回了波希米亚。\n\n[[b]]瑞典人赢下了战场，却丢了国王。[[/b]]他那天穿的麋鹿皮外套和染血的衬衣，如今收在斯德哥尔摩的王家武库里，他骑的那匹马施特赖夫，也在那里。\n\n北方雄狮倒下的时候，只有三十七岁，离他在波美拉尼亚上岸，还不到两年半。\n\n华伦斯坦回到了波希米亚。这一仗他输了，可最大的对手没了。不过回到布拉格，他要先找人为吕岑这一仗算账。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "Then let the Duke of Friedland be told that I lie here with no hope of life, but that I go gladly, for I know that this implacable enemy of my faith has fallen on the same day as I.",
+          "cz": "Tak ať se vyřídí vévodovi frýdlantskému, že tu ležím bez naděje na život, ale odcházím rád, neboť vím, že tento nesmiřitelný nepřítel mé víry padl týž den co já.",
+          "zh": "那就去告诉弗里德兰公爵：我躺在这里，已经没有活下去的指望，可我走得高高兴兴，因为我知道，我信仰的这个不共戴天的敌人，和我在同一天倒下了。"
+        },
+        "attribution": {
+          "en": "Pappenheim's last words, as given by Friedrich Schiller, History of the Thirty Years' War, 1792",
+          "cz": "Pappenheimova poslední slova podle Friedricha Schillera, Dějiny třicetileté války, 1792",
+          "zh": "帕彭海姆临终之言，据弗里德里希·席勒《三十年战争史》，1792年"
+        }
+      }
+    ],
+    "relatedLandmarks": [],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Battle_of_L%C3%BCtzen_(1632)",
+    "images": ["/history/the-lion-falls-1632.webp"],
+    "imageCaptions": [
+      {"en":"Lützen, 16 November 1632. In the middle of the field King Gustavus, shot in the back, slumps on his horse as the Swedes nearest him rush to help; on the right, imperial musketeers in red sashes have turned to fire at him. Beyond them stand the windmills where the imperial guns were placed, and the town of Lützen burns. Several moments of the battle are combined in one scene.","cz":"Lützen, 16. listopadu 1632. Uprostřed pole se král Gustav Adolf, střelený do zad, hroutí na koni a nejbližší Švédové mu běží na pomoc; vpravo se císařští mušketýři s červenými šerpami otočili a střílejí po něm. Za nimi stojí větrné mlýny, u nichž stála císařská děla, a hoří městečko Lützen. Obraz spojuje několik okamžiků bitvy.","zh":"1632年11月16日，吕岑。战场中央，古斯塔夫国王背后中弹，在马上栽倒，离他最近的瑞典士兵慌忙上前营救；右边系红肩带的帝国火枪手转身朝他开了枪。远处是帝国炮兵阵地旁的一排风车，吕岑镇正在燃烧。画面将战场上不同时刻的情景合在了一起。"}
+    ]
+  },
+  // Split from the-night-at-eger-1634 at the user's request (2026-10-27);
+  // first titled "皇帝的猜疑", retitled the same day since the emperor's
+  // suspicion was justified (slug kept):
+  // Wallenstein's last year up to his departure for Eger. Sources as noted
+  // on that card (Schiller ch. 16; Pilsen oath 12 Jan, secret patent 24
+  // Jan, public patent 18 Feb 1634). The 1633 talks (Arnim, the pre-1618
+  // terms, the Jesuit line to Burgsdorff, Kinsky and Feuquières urging him
+  // to take the Bohemian crown, Oxenstierna's disbelief, the 'hint one thing,
+  // do another' habit): Ranke chs. 11–12. Steinau: Schiller ch. 16 (Projekt Gutenberg), quote 1: the half hour,
+  // the bloodless surrender, Thurn freed to spoil the Jesuits' pleasure; the
+  // 'freedom for fortresses' trade did not verify, so not claimed.
+  {
+    "slug": "the-emperors-doubts-1633",
+    "era": "fire-and-ashes",
+    "startYear": 1633.8,
+    "year": {
+      "en": "1633–1634",
+      "cz": "1633–1634",
+      "zh": "1633年－1634年"
+    },
+    "tone": "serious",
+    "title": {
+      "en": "The Emperor and His General Drift Apart",
+      "cz": "Císař a jeho generál se rozcházejí",
+      "zh": "君臣离心"
+    },
+    "hookLine": {
+      "en": "After Lützen Wallenstein fought less and wrote more letters.",
+      "cz": "Po Lützenu Valdštejn méně bojoval a víc psal dopisy.",
+      "zh": "吕岑之后，华伦斯坦仗打得少了，信却写得多了。"
+    },
+    "summary": {
+      "en": "After Lützen the war went on. The Swedes, without their king, were led by the chancellor Oxenstierna, and Bernhard of Saxe-Weimar fought his way deep into Bavaria, taking Regensburg on the Danube in November 1633. Downstream from Regensburg lay Austria, and Vienna. The emperor and Wallenstein wanted the same thing: to see these northerners go home. They just had very different ideas of how.\n\nEarlier that year, back in Bohemia, the first thing Wallenstein had done was hold a court-martial over the men who had wavered at Lützen. Those found guilty were sentenced to death without mercy.\n\nIn the year that followed, though, he hardly fought at all. He agreed a truce with his old officer Arnim of Saxony and sat down to talk peace: a peace that would put the Empire back as it had been before 1618, with freedom of worship for the Protestants included. To an envoy from Brandenburg he said this:\n\n[[quote:0]]\n\nIf the emperor would not make peace, he added, he would force him to.\n\nThe Bohemian exiles went further. Count Kinsky, living in Dresden, worked with the French and urged Wallenstein to set the crown of Bohemia on his own head. Wallenstein left that proposal unanswered from summer to the end of the year. When the Swedish chancellor Oxenstierna heard the terms Wallenstein was offering, he did not believe a word: they were too good for the Protestant side to be true.\n\nWhat he really wanted, no one at the time could say. Ranke says he had a habit of hinting at one thing and doing another. When the emperor urged him to go to Bavaria's rescue, he did not go.\n\nIn October 1633 at Steinau in Silesia he surrounded an enemy army. Its commander was none other than [[link:the-new-king-1617]]Count Thurn[[/link]], the man Vienna called the author of the Bohemian rebellion, and Vienna had long been waiting to see him on the scaffold. Schiller tells what happened next:\n\n[[quote:1]]\n\nVienna had been hunting the ringleader of the rebellion for fifteen years. Now he had finally fallen into the hands of its own general, and Wallenstein simply let him go.\n\nIn Vienna the suspicion kept growing. In January 1634 Wallenstein called his colonels to Plzeň and had them sign an oath of loyalty to him personally. The emperor answered with a secret order removing him from command. In February he was publicly declared a traitor. Was he really one? Did he truly mean to go over to the enemy? Historians have argued about it for nearly four hundred years without settling it. Perhaps only Wallenstein himself knew.\n\nIn the last days of February Wallenstein left Plzeň with about a thousand men and went west to the border town of Eger. Nine years earlier his first great army had [[link:why-him-1625]]gathered there[[/link]]. This time he hoped to join the Swedes. With him rode his brother-in-law Adam Trčka, Count Kinsky, and two close officers, Illo and Niemann.\n\nHe did not know that the commander of Eger had already received the emperor's orders.",
+      "cz": "Po Lützenu válka pokračovala. Švédy, kteří přišli o krále, vedl kancléř Oxenstierna a Bernard Sasko-Výmarský se probil hluboko do Bavorska; v listopadu 1633 dobyl Řezno na Dunaji. Po proudu Dunaje leželo Rakousko a Vídeň. Císař i Valdštejn chtěli totéž: aby se ti seveřané vrátili domů. Jen si každý představoval úplně jinou cestu.\n\nUž na začátku toho roku, hned po návratu do Čech, Valdštejn svolal válečný soud nad těmi, kdo u Lützenu zakolísali. Ty, které uznali vinnými, odsoudili bez slitování k smrti.\n\nV následujícím roce ale sám skoro nebojoval. Se svým bývalým důstojníkem Arnimem ze Saska uzavřel příměří a sedl si k jednání o míru: o míru, který by vrátil říši do stavu před rokem 1618, včetně svobody vyznání pro protestanty. Vyslanci z Braniborska řekl tohle:\n\n[[quote:0]]\n\nKdyby císař mír nechtěl, dodal, donutí ho k němu.\n\nČeští exulanti šli ještě dál. Hrabě Kinský, který žil v Drážďanech, se spojil s Francouzi a přemlouval Valdštejna, aby si českou korunu nasadil sám. Valdštejn ten návrh nechal od léta do konce roku bez odpovědi. Když švédský kancléř Oxenstierna slyšel Valdštejnovy podmínky, nevěřil ani slovo: byly pro protestantskou stranu příliš výhodné, než aby byly pravdivé.\n\nCo doopravdy chtěl, nedokázal tehdy říct nikdo. Ranke píše, že měl ve zvyku dávat najevo jedno a dělat druhé. Když ho císař naléhal, aby šel na pomoc Bavorsku, nešel.\n\nV říjnu 1633 u Stínavy ve Slezsku obklíčil nepřátelské vojsko. Velel mu nikdo jiný než [[link:the-new-king-1617]]hrabě Thurn[[/link]], muž, kterého ve Vídni nazývali původcem českého povstání, a Vídeň už dlouho čekala, že ho uvidí na popravišti. Co se stalo dál, popisuje Schiller:\n\n[[quote:1]]\n\nVídeň patnáct let pronásledovala vůdce povstání. Teď konečně padl do rukou jejího vlastního generála, a Valdštejn ho prostě pustil.\n\nVe Vídni podezření rostlo. V lednu 1634 svolal Valdštejn své plukovníky do Plzně a dal jim podepsat přísahu věrnosti jemu osobně. Císař odpověděl tajným nařízením, které ho zbavilo velení. V únoru byl veřejně prohlášen za zrádce. Byl jím doopravdy? Chtěl skutečně přejít k nepříteli? Historici se o to přou skoro čtyři sta let a jasno nemají. Odpověď znal možná jen Valdštejn sám.\n\nV posledních únorových dnech opustil Valdštejn Plzeň asi s tisícem mužů a vydal se na západ do pohraničního Chebu. Před devíti lety se tu [[link:why-him-1625]]shromáždilo[[/link]] jeho první velké vojsko. Tentokrát doufal, že se spojí se Švédy. S ním jeli jeho švagr Adam Trčka, hrabě Kinský a dva blízcí důstojníci, Ilow a Niemann.\n\nNevěděl, že velitel Chebu už dostal císařovy rozkazy.",
+      "zh": "吕岑之后，仗还在打。瑞典人没了国王，由首相奥克森谢尔纳主持大局；魏玛的伯恩哈德一路打进巴伐利亚，1633年11月拿下了多瑙河上的雷根斯堡。顺着多瑙河往下，就是奥地利，就是维也纳。皇帝和华伦斯坦想的是同一件事：怎么把这些北方人送走。只是，两个人想的办法很不一样。\n\n早在这一年年初，华伦斯坦刚回到波希米亚，头一件事就是开军事法庭，追究吕岑那天动摇退缩的人。凡是被判有罪的，一律判了死刑，毫不手软。\n\n可接下来的一年，他自己却很少打仗。他和萨克森的老部下阿尼姆停了火，坐下来谈和，谈的是把帝国恢复到1618年以前的样子，新教徒的信仰自由也在里头。他还对勃兰登堡来的使者说过这样的话：\n\n[[quote:0]]\n\n要是皇帝不肯讲和，他说，他就逼皇帝讲和。\n\n波希米亚的流亡者想得更远。住在德累斯顿的金斯基伯爵联络法国人，劝华伦斯坦干脆把波希米亚的王冠戴到自己头上。这份建议，他从夏天放到年底，一直没有回。瑞典首相奥克森谢尔纳听了他开的条件，压根不信：对新教这边这么有利，不像是真的。\n\n他到底想干什么，连当时的人也说不清。兰克说，他做事有个习惯：嘴上说的是一件事，手里做的是另一件。皇帝催他去救巴伐利亚，他也不去。\n\n1633年10月，他在西里西亚的施泰瑙，把一支敌军团团围住。领兵的不是别人，正是[[link:the-new-king-1617]]图尔恩伯爵[[/link]]，维也纳眼中波希米亚叛乱的祸首。维也纳早就等着看他上刑场了。接下来的事，席勒是这样写的：\n\n[[quote:1]]\n\n维也纳追了十五年的叛乱头子，好不容易落到了自家统帅的手里；华伦斯坦一句话，就把他放走了。\n\n维也纳的怀疑越积越多。1634年1月，华伦斯坦把手下的上校们召到皮尔森，让他们签字发誓，效忠他本人。皇帝的回答，是一道解除他兵权的密令。2月，皇帝又公开宣布他是叛徒。他到底算不算叛徒，是不是真打算投敌？史学家为这件事争了快四百年，到今天也没争出个结果。答案，大概只有华伦斯坦自己知道。\n\n2月下旬，华伦斯坦带着一千来人离开皮尔森，往西去了边城海布。九年前，他的第一支大军就是在这里[[link:why-him-1625]]集结[[/link]]的。这一回，他是想去和瑞典人会合。跟着他的，有他的连襟亚当·特尔奇卡、金斯基伯爵，还有两员心腹伊洛和尼曼。\n\n他不知道，海布城的守将，已经接到了皇帝的命令。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "I am so angry with the Jesuits that I mean to chase them all out of the Empire.",
+          "cz": "Na jezuity mám takovou zlost, že je chci všechny vyhnat z říše.",
+          "zh": "我对耶稣会士恨透了，我要把他们统统赶出帝国。"
+        },
+        "attribution": {
+          "en": "Wallenstein to the Brandenburg envoy Burgsdorff, 1633, as reported by Leopold von Ranke",
+          "cz": "Valdštejn braniborskému vyslanci Burgsdorffovi, 1633, podle Leopolda von Ranke",
+          "zh": "华伦斯坦对勃兰登堡使者布格斯多夫所言，1633年，据利奥波德·冯·兰克记述"
+        }
+      },
+      {
+        "text": {
+          "en": "Wallenstein gave Count Thurn half an hour to consider whether to defend himself with two and a half thousand men against more than twenty thousand, or to surrender at discretion. In such circumstances there could be no choice. The whole army gives itself up, and without a drop of blood the most complete victory is won. […] But to spoil the Jesuits' pleasure was a far sweeter triumph, and Thurn received his freedom.",
+          "cz": "Valdštejn dal hraběti Thurnovi půl hodiny na rozmyšlenou, zda se bude se dvěma a půl tisíci muži bránit proti více než dvaceti tisícům, nebo se vzdá na milost a nemilost. Za takových okolností nebylo z čeho volit. Celé vojsko se vzdává do zajetí a bez kapky krve je vybojováno to nejdokonalejší vítězství. […] Ale pokazit jezuitům tu radost byl mnohem sladší triumf, a Thurn dostal svobodu.",
+          "zh": "华伦斯坦给了图尔恩伯爵半个钟头考虑：是带着两千五百人去抵挡两万多人，还是无条件投降。到了这一步，已经没有什么可选的了。全军投降，一滴血没流，就打了一场再完满不过的胜仗。……可是，让耶稣会士们空欢喜一场，才是更甜美的胜利，于是图尔恩重获了自由。"
+        },
+        "attribution": {
+          "en": "Friedrich Schiller, History of the Thirty Years' War, 1791",
+          "cz": "Friedrich Schiller, Dějiny třicetileté války, 1791",
+          "zh": "弗里德里希·席勒，《三十年战争史》，1791年"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "plzen",
+        "relation": {
+          "en": "Where in January 1634 Wallenstein had his colonels sign an oath of loyalty to him personally, and from where he set out for Eger",
+          "cz": "Zde dal Valdštejn v lednu 1634 svým plukovníkům podepsat přísahu věrnosti jemu osobně a odtud vyrazil do Chebu",
+          "zh": "1634年1月，华伦斯坦在这里让上校们签字发誓效忠他本人，随后从这里动身前往海布"
+        }
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Albrecht_von_Wallenstein"
+  },
+  // Wallenstein's murder at Eger, 25 February 1634 (his last year before it
+  // is the-emperors-doubts-1633, split off 2026-10-27).
+  // Schiller, Geschichte des dreißigjährigen Kriegs: ch. 16 (court-martial
+  // after Lützen with death sentences, place not named; Steinau, Oct 1633,
+  // the whole army surrendered and Thurn was released), ch. 17 (the banquet
+  // killing of Terzky, Kinsky, Illo, Neumann; Devereux's words and the
+  // silent death, quote 0; the verdict "So fiel Wallenstein, nicht weil er
+  // Rebell war, sondern er rebellierte, weil er fiel", quote 1). Schiller
+  // swaps the plotters' nationalities; the card follows the usual account
+  // (Gordon and Leslie Scots, Butler and Devereux Irish). Pilsen oath 12
+  // Jan 1634, secret patent 24 Jan, public patent 18 Feb. Buried at his own
+  // Carthusian foundation at Valdice by Jičín. Thurn died 1640 at Pernau.
+  // The 3,000 masses kept as hearsay. Ends with the army handed to the
+  // emperor's son (Nördlingen and the Peace of Prague come next).
+  {
+    "slug": "the-night-at-eger-1634",
+    "era": "fire-and-ashes",
+    "startYear": 1634.15,
+    "year": {
+      "en": "1634",
+      "cz": "1634",
+      "zh": "1634年"
+    },
+    "tone": "serious",
+    "title": {
+      "en": "The Night at Eger",
+      "cz": "Noc v Chebu",
+      "zh": "海布之夜"
+    },
+    "hookLine": {
+      "en": "He had grown rich on other men's confiscated land. Now his own was to be handed out.",
+      "cz": "Zbohatl na půdě, kterou zabavili jiným. Teď se měla rozdávat ta jeho.",
+      "zh": "他靠没收来的土地发了家。如今，轮到他自己的土地被拿去分了。"
+    },
+    "summary": {
+      "en": "On 24 February 1634 Wallenstein and his party reached Eger. The commander of the town was a Scot named Gordon, and with him were another Scot, Leslie, and an Irish colonel, Butler. All three had received the emperor's orders.\n\nOn the evening of 25 February Gordon gave a supper at the castle for Trčka, Kinsky, Illo and Niemann. After a few rounds of wine soldiers burst in, and all four were killed on the spot.\n\nWallenstein had not come to the supper. He was ill with gout and lodging in a house on the square. That night an Irish captain named Devereux broke down his door with a few soldiers:\n\n[[quote:0]]\n\nHe was fifty. His body was rolled in a carpet and dragged down the stairs. He was later buried at Valdice, in the Carthusian monastery he himself had founded beside Jičín.\n\nThe men who killed him were rewarded, and what they received were the confiscated estates of Wallenstein and his followers. It is said the emperor also ordered three thousand masses for his soul. [[b]]He had made his fortune from other men's confiscated land; now his own land became someone else's reward.[[/b]]\n\nThurn, the man he had let go, outlived him by six years and died far away on the shores of the Baltic.\n\nSchiller later summed him up in one line:\n\n[[quote:1]]\n\nThe emperor would never again have to bargain with anyone. His army passed into the hands of his own son.",
+      "cz": "24. února 1634 dorazil Valdštejn se svou družinou do Chebu. Velitelem města byl Skot jménem Gordon a s ním další Skot, Leslie, a irský plukovník Butler. Všichni tři dostali císařovy rozkazy.\n\nVečer 25. února pozval Gordon na hrad k večeři Trčku, Kinského, Ilowa a Niemanna. Po několika přípitcích vtrhli dovnitř vojáci a všichni čtyři byli na místě zabiti.\n\nValdštejn na večeři nepřišel. Trápila ho dna a bydlel v domě na náměstí. V noci k němu irský hejtman Devereux s několika vojáky vyrazil dveře:\n\n[[quote:0]]\n\nBylo mu padesát. Jeho tělo zabalili do koberce a stáhli ze schodů. Později ho pohřbili ve Valdicích, v kartouzském klášteře, který sám založil u Jičína.\n\nVrazi dostali odměnu, a tou byly zabavené statky Valdštejna a jeho stoupenců. Prý dal císař za jeho duši sloužit také tři tisíce mší. [[b]]Zbohatl na zabavené půdě jiných; teď se jeho vlastní půda stala odměnou pro někoho jiného.[[/b]]\n\nThurn, kterého propustil, ho přežil o šest let a zemřel daleko na břehu Baltu.\n\nSchiller ho později shrnul jedinou větou:\n\n[[quote:1]]\n\nCísař už nikdy nemusel s nikým vyjednávat. Jeho vojsko přešlo do rukou jeho vlastního syna.",
+      "zh": "1634年2月24日，华伦斯坦一行到了海布。城里的守将是苏格兰人戈登，身边还有另一个苏格兰人莱斯利和爱尔兰上校巴特勒。三个人都接到了皇帝的命令。\n\n2月25日晚上，戈登在城堡里设宴，请特尔奇卡、金斯基、伊洛和尼曼赴宴。酒过几巡，士兵们冲了进来，四个人当场被杀。\n\n华伦斯坦没有去赴宴。他正犯着痛风，住在广场边的一户人家里。夜里，爱尔兰上尉德弗罗带着几个兵，撞开了他的房门：\n\n[[quote:0]]\n\n那一年，他五十岁。尸体用一条地毯裹着，从楼梯上拖了下去。后来，他被葬在瓦尔迪采，就在吉钦旁边，那座他自己出钱建起的加尔都西会修道院里。\n\n动手的人都得了赏，赏的正是华伦斯坦和他那些亲信被没收的庄园。据说，皇帝还下令为他的灵魂做了三千台弥撒。[[b]]当年他靠没收别人的土地发了家；如今，他自己的土地也成了别人的赏赐。[[/b]]\n\n被他放走的图尔恩，比他多活了六年，最后死在了遥远的波罗的海边。\n\n席勒后来用一句话总结了他：\n\n[[quote:1]]\n\n从此，皇帝再也不用跟谁讲条件了。他的军队，交到了自己儿子的手里。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "\"Are you the rogue who means to take the emperor's army over to the enemy and tear the crown from His Majesty's head? Now you must die.\" […] Spreading his arms wide, he took the fatal thrust of the halberd full in the chest, and fell in his blood without a sound.",
+          "cz": "„Jsi to ty, ten lotr, který chce převést císařovo vojsko k nepříteli a strhnout Jeho Veličenstvu korunu z hlavy? Teď musíš zemřít.“ […] S rukama široce rozpřaženýma přijal smrtelný úder partyzány přímo do prsou a padl ve své krvi, aniž vydal hlásku.",
+          "zh": "“你就是那个要把皇帝的军队带去投敌、要把陛下头上的王冠扯下来的无赖吗？现在你得死了。”……他张开双臂，胸口迎着那一戟，倒在了血泊里，一声没吭。"
+        },
+        "attribution": {
+          "en": "Friedrich Schiller, History of the Thirty Years' War, 1792",
+          "cz": "Friedrich Schiller, Dějiny třicetileté války, 1792",
+          "zh": "弗里德里希·席勒，《三十年战争史》，1792年"
+        }
+      },
+      {
+        "text": {
+          "en": "So Wallenstein fell, not because he was a rebel; he rebelled because he fell.",
+          "cz": "Tak padl Valdštejn: ne proto, že byl rebel, ale rebeloval, protože padal.",
+          "zh": "华伦斯坦倒下，不是因为他是叛徒；他成了叛徒，是因为他正在倒下。"
+        },
+        "attribution": {
+          "en": "Friedrich Schiller, History of the Thirty Years' War, 1792",
+          "cz": "Friedrich Schiller, Dějiny třicetileté války, 1792",
+          "zh": "弗里德里希·席勒，《三十年战争史》，1792年"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "cheb",
+        "relation": {
+          "en": "Where Wallenstein was killed on the night of 25 February 1634, in a house on the square, nine years after his first army had gathered here",
+          "cz": "Zde byl Valdštejn v noci 25. února 1634 zabit v domě na náměstí, devět let poté, co se tu shromáždilo jeho první vojsko",
+          "zh": "1634年2月25日夜里，华伦斯坦在这里广场边的一座房子里被杀，距他的第一支大军在此集结，正好九年"
+        }
+      },
+      {
+        "slug": "cheb-castle",
+        "relation": {
+          "en": "Where Trčka, Kinsky, Illo and Niemann were killed at Gordon's supper that same evening",
+          "cz": "Zde byli téhož večera na Gordonově večeři zabiti Trčka, Kinský, Ilow a Niemann",
+          "zh": "同一天晚上，特尔奇卡、金斯基、伊洛和尼曼在戈登设的晚宴上被杀"
+        }
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Assassination_of_Wallenstein"
   },
 ];
 
