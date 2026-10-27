@@ -28333,9 +28333,9 @@ export const historyEvents = [
       "zh": "教堂换了主人。接下来，轮到了王国本身。"
     },
     "summary": {
-      "en": "Those who left had gone. Those who stayed found that it was not only the churches that had changed. The country itself had changed.\n\nIn May 1627 the emperor proclaimed the Renewed Land Ordinance. It was a new fundamental law for the Kingdom of Bohemia, and clause by clause it rewrote the kingdom's old rules.\n\nThe most important clause was this: from now on the crown of Bohemia would pass by inheritance in the House of Habsburg. The diet would elect no more kings.\n\nEight years earlier, in the [[link:the-diet-decides-1619]]Confederation[[/link]], the diet had written: do sit down, Your Majesty, the diet decides. Now it was the other way round: the king decides, and the diet may sit down.\n\nThe power to make laws belonged from now on to the king alone. The diet's main remaining task was to approve the taxes the emperor wanted to raise.\n\n[[quote:0]]\n\nOther rules changed too. The clergy returned to the diet and took the first place, ahead of the nobles. German was made equal to Czech, and year by year more of the government's business was done in German. Catholicism was the only lawful faith.\n\nThe court chancery that handled Bohemian affairs had already moved to Vienna in 1624. From now on, Bohemia's important business was decided in Vienna.\n\nThat autumn the emperor came to Prague with his family. In November his nineteen-year-old son Ferdinand was crowned King of Bohemia in St Vitus Cathedral. The old king was still alive, and the son did not need anyone to elect him. He simply put on the crown.\n\nThe Archbishop of Prague who crowned him, Ernst Adalbert von Harrach, was Wallenstein's brother-in-law.\n\nTen years earlier his father had come to Prague to be [[link:the-new-king-1617]]\"accepted\", not elected[[/link]]; that time, the diet at least had to nod. This time it did not even have to nod.\n\n[[b]]The kingdom was still there, and so was the crown. But who would wear it was no longer for the Bohemians to decide.[[/b]]\n\nLater Czech historians often saw 1627 as the end of Bohemia's independent statehood. Strictly speaking, the kingdom did not disappear: it still had its own crown, its own diet and its own laws. But all of it was now held in Vienna's hands.\n\nFrom that year on, for almost three hundred years, the kings of Bohemia came from the same family and lived in Vienna.",
-      "cz": "Kdo odešel, odešel. Kdo zůstal, zjistil, že se nezměnily jen kostely. Změnila se sama země.\n\nV květnu 1627 vyhlásil císař Obnovené zřízení zemské. Byl to nový základní zákon Českého království a článek po článku přepsal staré pořádky království.\n\nNejdůležitější byl tento článek: česká koruna se od nynějška dědí v habsburském rodě. Sněm už krále volit nebude.\n\nPřed osmi lety si sněm v [[link:the-diet-decides-1619]]Konfederaci[[/link]] napsal: posaďte se, Vaše Veličenstvo, rozhoduje sněm. Teď to bylo naopak: rozhoduje král a sněm si může sednout.\n\nMoc dávat zákony patřila od nynějška jen králi. Sněmu zbyl hlavně jeden úkol: povolovat daně, které chtěl císař vybírat.\n\n[[quote:0]]\n\nZměnily se i další pořádky. Duchovenstvo se vrátilo do sněmu a zaujalo první místo, před šlechtou. Němčina se stala rovnoprávnou s češtinou a v úřadech jí rok od roku přibývalo. Katolická víra byla jedinou povolenou.\n\nDvorská kancelář, která spravovala české záležitosti, sídlila ve Vídni už od roku 1624. Od té doby se o důležitých věcech Čech rozhodovalo ve Vídni.\n\nToho podzimu přijel císař s rodinou do Prahy. V listopadu byl jeho devatenáctiletý syn Ferdinand korunován v katedrále sv. Víta českým králem. Starý král ještě žil a syna nemusel nikdo volit. Prostě si nasadil korunu.\n\nPražský arcibiskup, který ho korunoval, Arnošt Vojtěch z Harrachu, byl Valdštejnův švagr.\n\nPřed deseti lety přijel jeho otec do Prahy, aby byl [[link:the-new-king-1617]]„přijat“, a ne zvolen[[/link]]; tehdy musel sněm aspoň kývnout. Teď nemusel ani kývnout.\n\n[[b]]Království tu pořád bylo a koruna také. Jenže o tom, kdo ji ponese, už nerozhodovali Češi.[[/b]]\n\nPozdější čeští historici často viděli v roce 1627 konec samostatného českého státu. Přesně vzato království nezmizelo: mělo dál svou korunu, svůj sněm i své zákony. Jenže to všechno teď drželi ve svých rukou ve Vídni.\n\nOd toho roku, skoro tři sta let, pocházeli čeští králové z jednoho rodu a sídlili ve Vídni.",
-      "zh": "走的人走了。留下来的人发现，变的不只是教堂，这个国家本身也变了。\n\n1627年5月，皇帝颁布了《新订邦法》。这是波希米亚王国的一部新“根本大法”，一条一条，把王国过去的规矩改写了一遍。\n\n最要紧的是这一条：波希米亚的王位，从此由哈布斯堡家族世代继承。议会不再选王。\n\n八年前，议会在[[link:the-diet-decides-1619]]《联邦法》[[/link]]里写下的，是“国王请坐，议会说了算”。如今倒了过来：国王说了算，议会请坐。\n\n制定法律的权力，从此只归国王一个人。议会剩下的主要差事，是批准皇帝要收的税。\n\n[[quote:0]]\n\n别的规矩也跟着变了。教士重新坐回议会，排在贵族前头，成了第一等级。德语和捷克语从此平起平坐，官府里的德语，一年比一年多。天主教，是唯一合法的信仰。\n\n管波希米亚事务的宫廷文书院，早在1624年就搬去了维也纳。从此，波希米亚的大事，在维也纳定。\n\n这一年秋天，皇帝带着一家人来到布拉格。11月，他十九岁的儿子斐迪南在圣维特大教堂加冕，成了波希米亚国王。老国王还活着，儿子用不着谁来选，直接戴上了王冠。\n\n为他加冕的布拉格大主教恩斯特·阿达尔贝特·冯·哈拉赫，是华伦斯坦的大舅子。\n\n十年前，他的父亲来布拉格，是[[link:the-new-king-1617]]“被接受”而不是“被选举”[[/link]]的；那一回，议会至少还得点个头。这一回，连头都不用点了。\n\n[[b]]王国还在，王冠也还在。只是这顶王冠给谁戴，已经不由波希米亚人说了算了。[[/b]]\n\n后来的捷克史家，常把1627年看作波希米亚国家独立的终点。严格说来，王国并没有消失：它还有自己的王冠、自己的议会、自己的法律。只是这一切，都握在了维也纳的手里。\n\n从这一年起，将近三百年，波希米亚的国王都出自同一个家族，住在维也纳。"
+      "en": "Those who left had gone. Those who stayed found that it was not only the churches that had changed. The country itself had changed.\n\nIn May 1627 the emperor proclaimed the Renewed Land Ordinance. It was a new fundamental law for the Kingdom of Bohemia, and clause by clause it rewrote the kingdom's old rules.\n\nThe most important clause was this: from now on the crown of Bohemia would pass by inheritance in the House of Habsburg. The diet would elect no more kings.\n\nEight years earlier, in the [[link:the-diet-decides-1619]]Confederation[[/link]], the diet had written: do sit down, Your Majesty, the diet decides. Now it was the other way round: the king decides, and the diet may sit down.\n\nThe power to make laws belonged from now on to the king alone. The diet's main remaining task was to approve the taxes the emperor wanted to raise.\n\n[[quote:0]]\n\nOther rules changed too. The clergy returned to the diet and took the first place, ahead of the nobles. German was made equal to Czech, and year by year more of the government's business was done in German. Catholicism was the only lawful faith.\n\nThe court chancery that handled Bohemian affairs had already moved to Vienna in 1624. From now on, Bohemia's important business was decided in Vienna.\n\nThat autumn the emperor came to Prague with his family. In November his nineteen-year-old son Ferdinand was crowned King of Bohemia in St Vitus Cathedral. The old king was still alive, and the son did not need anyone to elect him. He simply put on the crown.\n\nThe Archbishop of Prague who crowned him, Ernst Adalbert von Harrach, was Wallenstein's brother-in-law.\n\nTen years earlier his father had come to Prague to be [[link:the-new-king-1617]]\"accepted\", not elected[[/link]]; that time, the diet at least had to nod. This time it did not even have to nod.\n\n[[b]]The kingdom was still there, and so was the crown. But who would wear it was no longer for the Bohemians to decide.[[/b]]\n\nLater Czech historians often saw 1627 as the end of Bohemia's independent statehood. Strictly speaking, the kingdom did not disappear: it still had its own crown, its own diet and its own laws. But all of it was now held in Vienna's hands.\n\nFrom that year on, for almost three hundred years, the kings of Bohemia came from the same family and lived in Vienna.\n\nWhile Prague was busy with a coronation, Wallenstein's army was chasing the King of Denmark across the north, all the way to the sea. By the time Wallenstein got there, he wanted more than soldiers.",
+      "cz": "Kdo odešel, odešel. Kdo zůstal, zjistil, že se nezměnily jen kostely. Změnila se sama země.\n\nV květnu 1627 vyhlásil císař Obnovené zřízení zemské. Byl to nový základní zákon Českého království a článek po článku přepsal staré pořádky království.\n\nNejdůležitější byl tento článek: česká koruna se od nynějška dědí v habsburském rodě. Sněm už krále volit nebude.\n\nPřed osmi lety si sněm v [[link:the-diet-decides-1619]]Konfederaci[[/link]] napsal: posaďte se, Vaše Veličenstvo, rozhoduje sněm. Teď to bylo naopak: rozhoduje král a sněm si může sednout.\n\nMoc dávat zákony patřila od nynějška jen králi. Sněmu zbyl hlavně jeden úkol: povolovat daně, které chtěl císař vybírat.\n\n[[quote:0]]\n\nZměnily se i další pořádky. Duchovenstvo se vrátilo do sněmu a zaujalo první místo, před šlechtou. Němčina se stala rovnoprávnou s češtinou a v úřadech jí rok od roku přibývalo. Katolická víra byla jedinou povolenou.\n\nDvorská kancelář, která spravovala české záležitosti, sídlila ve Vídni už od roku 1624. Od té doby se o důležitých věcech Čech rozhodovalo ve Vídni.\n\nToho podzimu přijel císař s rodinou do Prahy. V listopadu byl jeho devatenáctiletý syn Ferdinand korunován v katedrále sv. Víta českým králem. Starý král ještě žil a syna nemusel nikdo volit. Prostě si nasadil korunu.\n\nPražský arcibiskup, který ho korunoval, Arnošt Vojtěch z Harrachu, byl Valdštejnův švagr.\n\nPřed deseti lety přijel jeho otec do Prahy, aby byl [[link:the-new-king-1617]]„přijat“, a ne zvolen[[/link]]; tehdy musel sněm aspoň kývnout. Teď nemusel ani kývnout.\n\n[[b]]Království tu pořád bylo a koruna také. Jenže o tom, kdo ji ponese, už nerozhodovali Češi.[[/b]]\n\nPozdější čeští historici často viděli v roce 1627 konec samostatného českého státu. Přesně vzato království nezmizelo: mělo dál svou korunu, svůj sněm i své zákony. Jenže to všechno teď drželi ve svých rukou ve Vídni.\n\nOd toho roku, skoro tři sta let, pocházeli čeští králové z jednoho rodu a sídlili ve Vídni.\n\nZatímco se Praha chystala na korunovaci, Valdštejnovo vojsko hnalo dánského krále přes celý sever až k moři. Když tam Valdštejn dorazil, chtěl už víc než jen vojáky.",
+      "zh": "走的人走了。留下来的人发现，变的不只是教堂，这个国家本身也变了。\n\n1627年5月，皇帝颁布了《新订邦法》。这是波希米亚王国的一部新“根本大法”，一条一条，把王国过去的规矩改写了一遍。\n\n最要紧的是这一条：波希米亚的王位，从此由哈布斯堡家族世代继承。议会不再选王。\n\n八年前，议会在[[link:the-diet-decides-1619]]《联邦法》[[/link]]里写下的，是“国王请坐，议会说了算”。如今倒了过来：国王说了算，议会请坐。\n\n制定法律的权力，从此只归国王一个人。议会剩下的主要差事，是批准皇帝要收的税。\n\n[[quote:0]]\n\n别的规矩也跟着变了。教士重新坐回议会，排在贵族前头，成了第一等级。德语和捷克语从此平起平坐，官府里的德语，一年比一年多。天主教，是唯一合法的信仰。\n\n管波希米亚事务的宫廷文书院，早在1624年就搬去了维也纳。从此，波希米亚的大事，在维也纳定。\n\n这一年秋天，皇帝带着一家人来到布拉格。11月，他十九岁的儿子斐迪南在圣维特大教堂加冕，成了波希米亚国王。老国王还活着，儿子用不着谁来选，直接戴上了王冠。\n\n为他加冕的布拉格大主教恩斯特·阿达尔贝特·冯·哈拉赫，是华伦斯坦的大舅子。\n\n十年前，他的父亲来布拉格，是[[link:the-new-king-1617]]“被接受”而不是“被选举”[[/link]]的；那一回，议会至少还得点个头。这一回，连头都不用点了。\n\n[[b]]王国还在，王冠也还在。只是这顶王冠给谁戴，已经不由波希米亚人说了算了。[[/b]]\n\n后来的捷克史家，常把1627年看作波希米亚国家独立的终点。严格说来，王国并没有消失：它还有自己的王冠、自己的议会、自己的法律。只是这一切，都握在了维也纳的手里。\n\n从这一年起，将近三百年，波希米亚的国王都出自同一个家族，住在维也纳。\n\n布拉格忙着加冕的时候，华伦斯坦的大军正在北方追着丹麦国王跑，一路追到了海边。到了海边，他想要的，已经不只是兵了。"
     },
     "quotes": [
       {
@@ -28374,6 +28374,190 @@ export const historyEvents = [
     "imageCaptions": [
       {"en": "Prague Castle, the Vladislav Hall, November 1627. Before the coronation, the estates kneel and swear allegiance to their new hereditary king, nineteen-year-old Ferdinand, seated beside his father the emperor. The clergy, now the first estate, kneel at the front; a herald holds up the sealed new Land Ordinance. Behind the thrones hangs the Habsburg eagle, with the Bohemian lion beside it, much smaller.", "cz": "Pražský hrad, Vladislavský sál, listopad 1627. Před korunovací stavové klečí a přísahají věrnost novému dědičnému králi, devatenáctiletému Ferdinandovi, který sedí vedle svého otce císaře. Duchovenstvo, nyní první stav, klečí vpředu; herold drží zapečetěné Obnovené zřízení zemské. Za trůny visí habsburský orel a vedle něj, mnohem menší, český lev.", "zh": "1627年11月，布拉格城堡的弗拉迪斯拉夫大厅。加冕之前，各等级跪地向新的世袭国王宣誓效忠：十九岁的斐迪南坐在父亲皇帝身旁。如今成了第一等级的教士跪在前头，传令官捧着盖了印的《新订邦法》。王座后挂着哈布斯堡的双头鹰，旁边是小得多的波希米亚狮子旗。"}
     ]
+  },
+  // Wallenstein in the north, 1627–1629 (outside Bohemia, kept short at the
+  // user's request). Facts and quote from Ranke, Geschichte Wallensteins
+  // (1869), ch. 6: the "chained to heaven" saying is attributed but has no
+  // credible witness; Wallenstein to Arnim, Prenzlau 28 June 1628 ("Ich will
+  // mit den Stralsundern unterhandeln … denn sie sind Schelme"); Danish and
+  // Swedish relief by sea in July, the works abandoned in early August; first
+  // edict as Duke of Mecklenburg 20 June 1629. Title "General of the Oceanic
+  // and Baltic Seas" April 1628. Ends on Regensburg 1630 (his dismissal is
+  // the next card), echoing the accounts in war-feeds-war-1625.
+  {
+    "slug": "general-of-the-seas-1628",
+    "era": "fire-and-ashes",
+    "startYear": 1628,
+    "year": {
+      "en": "1627–1629",
+      "cz": "1627–1629",
+      "zh": "1627年－1629年"
+    },
+    "tone": "humorous",
+    "title": {
+      "en": "A General of the Seas, Without a Fleet",
+      "cz": "Generál moří bez loďstva",
+      "zh": "没有舰队的海上将军"
+    },
+    "hookLine": {
+      "en": "He had reached the sea. He had no ships.",
+      "cz": "Dorazil k moři. Lodě ale neměl.",
+      "zh": "海边到了。可是，他没有船。"
+    },
+    "summary": {
+      "en": "In the autumn of 1627 Wallenstein's army chased King Christian IV of Denmark to the far end of the Jutland peninsula. The king fell back across the straits to his islands; his capital, Copenhagen, lay over there on Zealand. Wallenstein could only watch from the shore. He had no ships.\n\nThe emperor's rewards came quickly. The two dukes of Mecklenburg had sided with the Danish king and were declared guilty. Early in 1628 their duchy was first pledged to Wallenstein, then given to him outright. A Bohemian nobleman had become a duke of the Empire.\n\nThat April he got another title: General of the Oceanic and Baltic Seas. A man from a country with no coast was now a general of the sea. He planned to build an imperial fleet on the Baltic together with the Spanish. The title sounded grand. The fleet never really appeared.\n\nWithout ships, trouble came soon. Stralsund, a port on the Baltic, refused to take an imperial garrison, and in May 1628 Wallenstein's troops laid siege to it. Later a boast was put in his mouth: he would take the town even if it were chained to heaven.\n\n[[quote:0]]\n\nHis own letter was more down to earth: he would rather negotiate, but if he could land them a blow he would not hold back, \"for they are rogues.\"\n\nThe town was saved from the sea. Danish and then Swedish ships brought in men and grain, while the besiegers watched from the shore. By early August their earthworks stood empty, one after another. Stralsund allied itself with Sweden and later became Swedish, for nearly two hundred years. King Gustavus Adolphus of Sweden had his first foothold on the German coast.\n\nAgainst Denmark the war was still won. In the Peace of Lübeck in May 1629 Christian IV got back every piece of land he had lost and paid nothing, promising only to keep out of German affairs. The terms were mild because Wallenstein wanted the war over before the Swedes joined in.\n\nThat year Wallenstein was forty-five. He commanded the largest army in the Empire and wore a duke's coronet. To the princes of the Empire this looked less pleasing. [[b]]If the emperor could depose two dukes today and give their land to his general, whose turn would it be tomorrow?[[/b]] Besides, for years his army had eaten and lodged at their expense.\n\nIn the summer of 1630 the emperor called the electors to Regensburg. He wanted his son elected King of the Romans. The electors agreed to come. They brought their accounts.",
+      "cz": "Na podzim 1627 hnalo Valdštejnovo vojsko dánského krále Kristiána IV. až na samý konec Jutského poloostrova. Král se stáhl za úžinu na ostrovy, kde na Sjællandu leželo i hlavní město Kodaň. Valdštejn se mohl jen dívat z břehu. Neměl lodě.\n\nCísařovy odměny přišly rychle. Oba meklenburští vévodové stáli na straně dánského krále a byli prohlášeni za viníky. Začátkem roku 1628 dostal Valdštejn jejich vévodství nejprve do zástavy, pak rovnou v léno. Český šlechtic se stal říšským vévodou.\n\nV dubnu k tomu přibyl další titul: generál Oceánského a Baltského moře. Muž ze země bez moře se stal generálem na moři. Chtěl spolu se Španěly postavit na Baltu císařské loďstvo. Titul zněl velkolepě. Loďstvo ale nikdy pořádně nevzniklo.\n\nBez lodí na sebe potíže nenechaly dlouho čekat. Přístav Stralsund na Baltu odmítl přijmout císařskou posádku a v květnu 1628 ho Valdštejnovo vojsko oblehlo. Později se mu přisuzoval chvástavý výrok: vezme to město, i kdyby bylo řetězy přivázáno k nebi.\n\n[[quote:0]]\n\nVe vlastním dopise byl mnohem střízlivější: raději bude vyjednávat, ale když jim bude moci zasadit ránu, nezdrží se, „neboť jsou to lotři“.\n\nMěsto zachránilo moře. Dánské a pak švédské lodě do něj vozily vojáky i obilí a obléhatelé se mohli jen dívat z břehu. Začátkem srpna byly jejich šance jedna po druhé prázdné. Stralsund se spojil se Švédskem a později mu připadl, na skoro dvě stě let. Švédský král Gustav II. Adolf tak získal první oporu na německém pobřeží.\n\nS Dánskem se válka přece jen vyhrála. V květnu 1629 dostal Kristián IV. lübeckým mírem zpět všechna ztracená území, nic nezaplatil a slíbil jen, že se už nebude plést do říšských záležitostí. Podmínky byly tak mírné, protože Valdštejn chtěl válku ukončit dřív, než se do ní zapojí Švédové.\n\nToho roku bylo Valdštejnovi pětačtyřicet. Velel největšímu vojsku v říši a nosil vévodskou korunku. Říšským knížatům se to ale líbilo méně. [[b]]Když císař dnes může sesadit dva vévody a dát jejich zemi svému generálovi, na koho dojde zítra?[[/b]] A navíc jeho vojsko už léta jedlo a bydlelo na jejich účet.\n\nV létě 1630 svolal císař kurfiřty do Řezna. Chtěl, aby zvolili jeho syna římským králem. Kurfiřti slíbili, že přijedou. Přivezli si s sebou účty.",
+      "zh": "1627年秋天，华伦斯坦的大军追着丹麦国王克里斯蒂安四世，一直打到了日德兰半岛的尽头。国王退到了海峡对岸的岛上，首都哥本哈根就在那边的西兰岛上。华伦斯坦只能站在岸边看着。他没有船。\n\n皇帝的赏赐倒是来得很快。梅克伦堡的两位公爵站在丹麦国王一边，被宣布有罪。1628年初，他们的公国先是抵押给了华伦斯坦，后来干脆封给了他。一个波希米亚贵族，成了帝国的公爵。\n\n这年4月，他又多了一个头衔：“大洋与波罗的海将军”。一个来自没有海的国家的人，当上了海上的将军。他打算和西班牙人一起，在波罗的海上建一支帝国舰队。头衔很响亮，舰队却始终没建起来。\n\n没有船，麻烦很快就来了。波罗的海边的施特拉尔松德不肯接受帝国驻军，1628年5月，华伦斯坦的军队把城围了起来。后来流传着他的一句狠话：哪怕这座城是用铁链拴在天上的，他也要把它拿下来。\n\n[[quote:0]]\n\n他自己在信里说得倒实在得多：能谈就谈，可要是能给他们一下子，他也不会客气，“因为他们都是无赖”。\n\n城是从海上救下来的。丹麦人的船、接着是瑞典人的船，把兵员和粮食一批批送进城里，围城的人只能在岸上干看着。到了8月初，围城的营垒一座接一座撤空了。施特拉尔松德随即和瑞典结了盟，后来归了瑞典，一归就是近两百年。瑞典国王古斯塔夫·阿道夫，就这样在德意志的海岸上踩住了第一个落脚点。\n\n对丹麦，仗还是打赢了。1629年5月签下《吕贝克和约》，克里斯蒂安四世丢掉的土地全数拿回，一分钱没赔，只答应以后不再插手德意志的事。条件这么宽，是因为华伦斯坦急着收场，不想把瑞典人也招进来。\n\n这一年，华伦斯坦四十五岁，手里是帝国最大的一支军队，头上是梅克伦堡的公爵冠。可在帝国诸侯眼里，这件事就没那么好看了。[[b]]皇帝今天能把两位公爵赶下台，把领地赏给自己的将军，明天会轮到谁？[[/b]]何况这支军队几年来吃的、住的，都记在他们的账上。\n\n1630年夏天，皇帝要在雷根斯堡召开选帝侯会议，想让儿子当选罗马人的国王。选帝侯们答应来。他们是带着账本来的。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "The saying is attributed to him: it must come down, even if it were bound to heaven with iron chains. But no credible testimony for it can be found.",
+          "cz": "Připisuje se mu výrok: musí padnout, i kdyby bylo železnými řetězy přivázáno k nebi. Věrohodné svědectví se pro to však nenajde.",
+          "zh": "人们把这句话安在他头上：哪怕它是用铁链拴在天上的，也得把它拉下来。可是，找不到任何可信的证据。"
+        },
+        "attribution": {
+          "en": "Leopold von Ranke, History of Wallenstein, 1869",
+          "cz": "Leopold von Ranke, Dějiny Valdštejna, 1869",
+          "zh": "利奥波德·冯·兰克，《华伦斯坦史》，1869年"
+        }
+      }
+    ],
+    "relatedLandmarks": [],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Siege_of_Stralsund_(1628)",
+    "images": ["/history/general-of-the-seas-1628.webp"],
+    "imageCaptions": [
+      {"en":"Outside Stralsund, summer 1628. Imperial troops dig in on the shore while Danish and Swedish ships land soldiers and grain in the harbour; Wallenstein watches from an earthwork, with a single rowing boat at his feet.","cz":"Před Stralsundem, léto 1628. Císařští se zakopávají na břehu, zatímco dánské a švédské lodě vykládají v přístavu vojáky a obilí; Valdštejn to sleduje z valu a u nohou mu leží jediná loďka.","zh":"1628年夏，施特拉尔松德城外。帝国军队在岸上挖壕围城，港口里丹麦和瑞典的船只正把士兵和粮食送进城去；华伦斯坦站在土垒上望着，脚边只有一条小划艇。"}
+    ]
+  },
+  // Wallenstein's dismissal, Regensburg Electoral Diet 1630. Facts and quote
+  // from Ranke, Geschichte Wallensteins (1869), ch. 8: the Catholic electors
+  // wanted him removed from command; on 13 August 1630 the emperor agreed to
+  // "change the war directorate"; Werdenberg and Questenberg sent to him
+  // (ADB: at Memmingen, September 1630); "die Sterne deuten an, daß der
+  // Geist des Baiern den Geist des Kaisers beherrschen wird"; Gustavus landed
+  // in Pomerania during the diet; the son's election made no progress; he
+  // went to Gitschin (Jičín). Father Joseph = the original "éminence grise".
+  // Ends on the newly finished Prague palace, the next card.
+  {
+    "slug": "the-stars-saw-it-coming-1630",
+    "era": "fire-and-ashes",
+    "startYear": 1630,
+    "year": {
+      "en": "1630",
+      "cz": "1630",
+      "zh": "1630年"
+    },
+    "tone": "humorous",
+    "title": {
+      "en": "The General Gets the Sack",
+      "cz": "Generál dostal padáka",
+      "zh": "临阵换将"
+    },
+    "hookLine": {
+      "en": "The electors had brought their accounts. The first item was Wallenstein.",
+      "cz": "Kurfiřti přivezli účty. První položkou byl Valdštejn.",
+      "zh": "选帝侯们带着账本来了。账上的第一项，是华伦斯坦。"
+    },
+    "summary": {
+      "en": "In July 1630 the electors sat down at Regensburg. The emperor wanted two things from them: his son elected King of the Romans, and the Empire's money and men for his wars elsewhere.\n\nThe electors wanted one thing: Wallenstein gone.\n\nThey had been keeping this account for years. His army had taken their grain, their quarters and their money, and a Bohemian nobleman had suddenly become a duke on a level with them. Leading them was the Elector [[link:help-at-a-price-1619]]Maximilian of Bavaria[[/link]], the emperor's biggest helper at White Mountain. The Protestant electors did not even come in person: they were still angry about the emperor's order of the year before to take back the Church lands.\n\nSomeone else was moving about outside the meeting hall: Father Joseph, a Capuchin friar sent from France, passing messages between the electors for Cardinal Richelieu. The French call a man who pulls the strings from behind the scenes an \"éminence grise\", a grey eminence. The first one was him, in his grey friar's habit.\n\nWhile the electors talked, in early July, King Gustavus Adolphus of Sweden landed with an army on the coast of Pomerania, not far from [[link:general-of-the-seas-1628]]Stralsund[[/link]].\n\nThe emperor gave way all the same. On 13 August he agreed to replace the commander of his army. [[b]]The Swedes had just come ashore, and the emperor handed over his best general.[[/b]]\n\nIn September two envoys reached Wallenstein's quarters at Memmingen. One of them was his old friend at court. They had prepared a great many explanations. Wallenstein spared them the trouble. He received them courteously and brought out his astrological charts:\n\n[[quote:0]]\n\nIn other words, it was not the emperor's fault. It was written in the sky.\n\nHe did not resist. He handed over his command, and the army went to old Tilly, which is to say, to Bavaria.\n\nThe emperor's son was not elected in the end either. The emperor had given up his general and got nothing he had come for.\n\nWallenstein went home to Bohemia, to his Duchy of Friedland. Below Prague Castle his new palace had just been finished.",
+      "cz": "V červenci 1630 zasedli kurfiřti v Řezně. Císař od nich chtěl dvě věci: aby zvolili jeho syna římským králem a aby mu říše dala peníze a vojáky na jeho války jinde.\n\nKurfiřti chtěli jedinou věc: aby Valdštejn odešel.\n\nTenhle účet si vedli už léta. Jeho vojsko u nich bralo obilí, ubytování i peníze a z českého šlechtice se najednou stal vévoda, který s nimi stál na stejné úrovni. V jejich čele stál kurfiřt [[link:help-at-a-price-1619]]Maxmilián Bavorský[[/link]], na Bílé hoře císařův největší pomocník. Protestantští kurfiřti ani nepřijeli osobně: pořád se zlobili kvůli císařovu loňskému nařízení, že církevní statky se mají vrátit.\n\nZa dveřmi jednání se pohyboval ještě někdo: otec Josef, kapucín vyslaný z Francie, který pro kardinála Richelieua nosil vzkazy mezi kurfiřty. Francouzi člověku, který tahá za nitky ze zákulisí, říkají „éminence grise“, šedá eminence. Ta první byl on, ve své šedé řeholní kutně.\n\nZatímco kurfiřti jednali, začátkem července, přistál švédský král Gustav II. Adolf s vojskem na pomořanském pobřeží, nedaleko od [[link:general-of-the-seas-1628]]Stralsundu[[/link]].\n\nCísař přesto ustoupil. 13. srpna svolil, že vrchního velitele svého vojska vymění. [[b]]Švédové se právě vylodili a císař vydal svého nejlepšího generála.[[/b]]\n\nV září dorazili dva vyslanci do Valdštejnova hlavního stanu v Memmingenu. Jeden z nich byl jeho starý přítel u dvora. Měli připravenou spoustu vysvětlování. Valdštejn jim tu námahu ušetřil. Přijal je zdvořile a vytáhl své horoskopy:\n\n[[quote:0]]\n\nJinými slovy: císař za to nemůže. Stojí to psáno na nebi.\n\nNebránil se. Velení odevzdal a vojsko připadlo starému Tillymu, tedy Bavorsku.\n\nCísařův syn nakonec zvolen nebyl. Císař vydal svého generála a nedostal nic z toho, kvůli čemu přijel.\n\nValdštejn se vrátil do Čech, do svého Frýdlantského vévodství. Pod Pražským hradem mu právě dostavěli nový palác.",
+      "zh": "1630年7月，选帝侯们在雷根斯堡坐了下来。皇帝想要两样东西：让儿子当选罗马人的国王，再让帝国出钱出兵，帮他打别处的仗。\n\n选帝侯们只想要一样：华伦斯坦走人。\n\n这笔账，他们记了好几年。他的军队在他们的地盘上征粮、住宿、收钱；一个波希米亚贵族，转眼成了和他们平起平坐的公爵。带头的是巴伐利亚选帝侯[[link:help-at-a-price-1619]]马克西米利安[[/link]]，白山之战时皇帝最大的帮手。新教的选帝侯们干脆没有亲自来，他们还在为前一年皇帝下令收回教会财产的事生气。\n\n会场外面还有一个人在走动：法国派来的嘉布遣会修士约瑟夫神父，替黎塞留枢机在选帝侯之间传话。法国人管在幕后牵线的人叫“灰衣主教”，头一个就是他，因为他穿着一身灰色的修士袍。\n\n就在选帝侯们开会的时候，7月初，瑞典国王古斯塔夫·阿道夫带着军队，在波美拉尼亚的海岸登陆了，离[[link:general-of-the-seas-1628]]施特拉尔松德[[/link]]不远。\n\n皇帝还是让步了。8月13日，他答应换掉军队的统帅。[[b]]瑞典人刚刚上岸，皇帝就把自己最能打的将军交了出去。[[/b]]\n\n9月，两位使者到了华伦斯坦驻扎的梅明根，其中一位还是他在宫里的老朋友。他们准备了一肚子的解释。华伦斯坦没让他们费口舌，客客气气地招待了他们，拿出了自己的星象图：\n\n[[quote:0]]\n\n言下之意：这不怪皇帝，是天上早就写好了的。\n\n他没有反抗，交出了兵权。军队归了老将蒂利，也就是归了巴伐利亚。\n\n皇帝的儿子，最后也没有选上。皇帝交出了自己的统帅，想要的东西一样也没拿到。\n\n华伦斯坦回到了波希米亚，回到了他的弗里德兰公国。布拉格城堡脚下，他的新宫殿刚刚落成。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "The stars show that the spirit of the Bavarian will rule the spirit of the emperor.",
+          "cz": "Hvězdy ukazují, že duch Bavora ovládne ducha císařova.",
+          "zh": "星象显示，巴伐利亚人的心思，将会压过皇帝的心思。"
+        },
+        "attribution": {
+          "en": "Wallenstein to the emperor's envoys, 1630, as reported by Leopold von Ranke",
+          "cz": "Valdštejn císařským vyslancům, 1630, podle Leopolda von Ranke",
+          "zh": "华伦斯坦对皇帝使者所言，1630年，据利奥波德·冯·兰克记述"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "jicin",
+        "relation": {
+          "en": "The capital of Wallenstein's Duchy of Friedland, where he withdrew after his dismissal in 1630",
+          "cz": "Hlavní město Valdštejnova Frýdlantského vévodství, kam se po propuštění roku 1630 stáhl",
+          "zh": "华伦斯坦弗里德兰公国的首府。1630年被免职后，他回到了这里"
+        }
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Diet_of_Regensburg_(1630)",
+    "images": ["/history/the-stars-saw-it-coming-1630.webp"],
+    "imageCaptions": [
+      {"en":"Memmingen, September 1630. Having heard the emperor's envoys out, Wallenstein hands over his commander's baton, his horoscope spread on the table. Beyond the window, an imagined glimpse of the Swedish army on the march under a storm sky; in fact it had just landed far to the north, in Pomerania.","cz":"Memmingen, září 1630. Valdštejn vyslechl císařské vyslance a odevzdává jim velitelskou hůl; na stole leží jeho horoskop. Za oknem je jen představa švédského vojska na pochodu pod bouřkovým nebem; ve skutečnosti se právě vylodilo daleko na severu, v Pomořansku.","zh":"1630年9月，梅明根。华伦斯坦听完皇帝使者的来意，把指挥杖交了出去，桌上摊着他的星象图。窗外暴风雨下行进的瑞典大军是想象的画面，这时他们其实刚在北方的波美拉尼亚登陆。"}
+    ]
+  },
+  // Background card (user's request, 2026-10-27): why Sweden came to Germany.
+  // No spoilers past 1630 (no Breitenfeld, Lützen, 1648). Quotes from
+  // Geijer, The History of the Swedes (Runeberg, pp. 283–284), English
+  // translation of Gustavus's letters to Oxenstierna (1 April 1628 and
+  // 5 March 1629; page OCR not proofread). Knäred 1613 (Älvsborg ransom, one
+  // million riksdaler); Sigismund III, King of Sweden 1592–99, deposed by
+  // Charles IX, married Anna and then Constance of Austria; Trzciana/
+  // Honigfelde 1629, Gustavus nearly captured; Altmark truce Sept 1629 under
+  // French mediation; French subsidies (Bärwalde, Jan 1631) left out on purpose (user, 2026-10-27): they belong to the next card.
+  {
+    "slug": "why-sweden-came-1630",
+    "era": "fire-and-ashes",
+    "cardType": "background",
+    "startYear": 1630.5,
+    "year": {
+      "en": "1611–1630",
+      "cz": "1611–1630",
+      "zh": "1611年－1630年"
+    },
+    "tone": "humorous",
+    "title": {
+      "en": "Why Did the Swedes Come?",
+      "cz": "Proč přišli Švédové?",
+      "zh": "瑞典人为什么要来？"
+    },
+    "hookLine": {
+      "en": "Sweden lay far to the north, across the sea. Why didn't it stay home and guard its own door, instead of coming all the way to Germany to fight?",
+      "cz": "Švédsko leželo daleko na severu, za mořem. Proč nezůstalo doma a nehlídalo si vlastní dveře, místo aby táhlo až do Německa?",
+      "zh": "瑞典远在欧洲北边，隔着一片海。它为什么不守着自家门口，偏要大老远跑到德意志来打仗？"
+    },
+    "summary": {
+      "en": "Sweden lay at the far north of Europe. Even counting Finland, it had little more than a million people. The winters were long, the soil poor and the treasury usually empty. Why would such a country cross the sea to fight the emperor in Germany?\n\nFirst, what it was not. It was not revenge for the King of Denmark. Sweden and Denmark had been enemies for centuries and had fought again from 1611 to 1613. Sweden lost, and paid a million thalers to buy back its only harbour on the west coast. If the Danish king had been beaten in Germany, no Swede was going to weep for him.\n\nWhat kept Sweden awake at night was the Baltic. Its copper, iron, grain and customs revenue all depended on that sea, and Gustavus Adolphus wanted to make it a Swedish lake. Now the emperor's general sat on its shore with the title [[link:general-of-the-seas-1628]]General of the Oceanic and Baltic Seas[[/link]], planning a fleet with the Spanish.\n\nTo the south lay Poland. King Sigismund III of Poland was Gustavus's cousin and a Catholic. He had once been King of Sweden too, until Gustavus's father pushed him off the throne, and he never accepted it. He had married two Habsburg archduchesses, one after the other. In 1629 the emperor sent troops to help Poland against Sweden, and Gustavus was nearly captured on the battlefield.\n\nAs Gustavus saw it, Poland, the emperor and Spain at sea had long since joined into one:\n\n[[quote:0]]\n\nThat autumn, with France mediating, Sweden and Poland signed a six-year truce. Gustavus had his hands free.\n\nThe remaining question was where to fight. The Swedish council debated whether to wait for the enemy at home or go out to meet him. The king's view was clear:\n\n[[quote:1]]\n\nProtestantism was the banner. Gustavus was a devout Lutheran, and in 1629 the emperor had ordered the Protestant princes to give back the Church lands they had taken; German Protestants feared what would come next. Marching to protect his brothers in faith gave the war a good name. [[b]]The faith was real, but under the banner lay the Baltic ports and Sweden's own safety.[[/b]]\n\nMoney was the hardest part. Sweden could not afford a large army. How to fill that gap, Gustavus still had to work out.\n\nSo the Swedes did not stay at home. To guard their own door in the north, they believed, they had to go to Germany first. Whether the Protestant princes of Germany would welcome this protector from afar, not even the princes were sure yet.",
+      "cz": "Švédsko leželo na samém severu Evropy. I s Finskem mělo jen něco přes milion obyvatel. Zimy byly dlouhé, půda chudá a pokladna obvykle prázdná. Proč by taková země přeplouvala moře, aby v Německu bojovala s císařem?\n\nNejdřív to, o co nešlo. Nešlo o pomstu za dánského krále. Švédsko a Dánsko byly odvěcí nepřátelé a v letech 1611–1613 spolu znovu válčily. Švédsko prohrálo a za milion tolarů si muselo vykoupit svůj jediný přístav na západním pobřeží. Když dánský král v Německu prohrál, žádný Švéd pro něj neplakal.\n\nCo Švédům nedalo spát, bylo Baltské moře. Jejich měď, železo, obilí i cla, to všechno záviselo na něm, a Gustav II. Adolf z něj chtěl udělat švédské jezero. Teď na jeho břehu seděl císařův generál s titulem [[link:general-of-the-seas-1628]]generál Oceánského a Baltského moře[[/link]] a se Španěly chystal loďstvo.\n\nNa jihu bylo Polsko. Polský král Zikmund III. byl Gustavův bratranec a katolík. Kdysi byl i švédským králem, než ho Gustavův otec svrhl z trůnu, a s tím se nikdy nesmířil. Postupně si vzal dvě habsburské arcivévodkyně. Roku 1629 poslal císař Polsku vojsko na pomoc proti Švédsku a Gustav Adolf v bitvě málem padl do zajetí.\n\nJak to Gustav Adolf viděl, Polsko, císař a Španělsko na moři se už dávno spojily v jedno:\n\n[[quote:0]]\n\nNa podzim téhož roku podepsalo Švédsko s Polskem za francouzského zprostředkování šestileté příměří. Gustav Adolf měl volné ruce.\n\nZbývala otázka, kde bojovat. Švédská rada se přela, zda čekat na nepřítele doma, nebo mu vyjít naproti. Král měl jasno:\n\n[[quote:1]]\n\nProtestantská víra byla prapor. Gustav Adolf byl zbožný luterán a roku 1629 nařídil císař protestantským knížatům vrátit zabrané církevní statky; němečtí protestanti se báli, co přijde dál. Tažení na ochranu souvěrců mělo dobré jméno. [[b]]Víra byla skutečná, ale pod praporem ležely baltské přístavy a bezpečí samotného Švédska.[[/b]]\n\nNejtěžší byly peníze. Velké vojsko si Švédsko dovolit nemohlo. Jak tuhle díru zalepit, musel Gustav Adolf teprve vymyslet.\n\nŠvédové tedy doma nezůstali. Aby uhájili své dveře na severu, museli podle sebe nejdřív do Německa. Jestli je protestantská knížata v Německu jako ochránce z dálky přivítají, nevěděla zatím ani ta knížata sama.",
+      "zh": "瑞典在欧洲的最北边，连同芬兰在内，也不过一百多万人。冬天漫长，土地贫瘠，国库常年见底。这样一个国家，为什么要跨过大海，到德意志去和皇帝打仗？\n\n先说不是为了什么。不是为了给丹麦国王报仇。瑞典和丹麦是几百年的冤家，1611年到1613年刚打过一仗。瑞典打输了，花了一百万塔勒，才把自己在西海岸唯一的出海港赎了回来。丹麦国王在德意志吃了败仗，瑞典人不会替他难过。\n\n真正让瑞典睡不着觉的，是波罗的海。瑞典的铜、铁、粮食和关税，全靠这片海，古斯塔夫·阿道夫想让它变成瑞典的内湖。如今，皇帝的将军却坐在了海边，顶着[[link:general-of-the-seas-1628]]“大洋与波罗的海将军”[[/link]]的头衔，还打算和西班牙人一起建舰队。\n\n南边还有波兰。波兰国王西吉斯蒙德三世是古斯塔夫的堂兄，信天主教。他当年也做过瑞典国王，后来被古斯塔夫的父亲赶下了台，这笔账他一直不认。他先后娶了两位哈布斯堡公主。1629年，皇帝派兵去帮波兰打瑞典，古斯塔夫在战场上差一点被俘。\n\n在古斯塔夫看来，北边的波兰、南边的皇帝，再加上海上的西班牙，早就连成了一片：\n\n[[quote:0]]\n\n同一年秋天，法国人出面调停，瑞典和波兰签了六年停战协定。古斯塔夫腾出了手。\n\n剩下的问题是：在哪里打？瑞典的大臣们争论过，是在家里等敌人打上门来，还是先出去打。国王的意见很明确：\n\n[[quote:1]]\n\n新教，是这场仗的旗号。古斯塔夫是虔诚的路德宗信徒；1629年，皇帝下令新教诸侯交还占去的教会财产，德意志的新教徒人人自危。打着保护新教兄弟的名义出兵，名正言顺。[[b]]信仰是真的，可旗号底下，是波罗的海的港口和瑞典自己的安全。[[/b]]\n\n钱，是最大的难处。瑞典养不起一支大军。这个缺口怎么补，古斯塔夫还得另想办法。\n\n于是，瑞典人没有守着自家门口。在他们看来，要守住北方的家门，得先到德意志去。至于德意志的新教诸侯欢不欢迎这位远道而来的“保护者”，诸侯们自己也还拿不准。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "All the wars that are waged in Europe are mingled together and have become one.",
+          "cz": "Všechny války, které se v Evropě vedou, se navzájem prolínají a stávají se jednou válkou.",
+          "zh": "如今欧洲打的所有战争，都已经搅在了一起，成了同一场战争。"
+        },
+        "attribution": {
+          "en": "Gustavus Adolphus to Axel Oxenstierna, 1 April 1628",
+          "cz": "Gustav II. Adolf Axelu Oxenstiernovi, 1. dubna 1628",
+          "zh": "古斯塔夫·阿道夫致阿克塞尔·奥克森谢尔纳的信，1628年4月1日"
+        }
+      },
+      {
+        "text": {
+          "en": "We must move the seat of the war to some other quarter than Sweden, for we are nowhere weaker than in Sweden. […] If we do not wrest the ports from the enemy by land, I see no means of defending the kingdom in the long run.",
+          "cz": "Musíme válku přenést jinam než do Švédska, protože nikde nejsme slabší než ve Švédsku. […] Nevyrveme-li nepříteli přístavy po souši, nevidím, jak bychom mohli království dlouho uhájit.",
+          "zh": "我们必须把战场挪到瑞典以外的地方去，因为我们哪儿都不如在瑞典本土弱。……如果不从陆上把港口从敌人手里夺过来，我看不出有什么办法能长久守住这个王国。"
+        },
+        "attribution": {
+          "en": "Gustavus Adolphus to Axel Oxenstierna, 5 March 1629",
+          "cz": "Gustav II. Adolf Axelu Oxenstiernovi, 5. března 1629",
+          "zh": "古斯塔夫·阿道夫致阿克塞尔·奥克森谢尔纳的信，1629年3月5日"
+        }
+      }
+    ],
+    "images": [],
+    "imageCaptions": [],
+    "relatedLandmarks": []
   },
 ];
 
