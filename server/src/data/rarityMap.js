@@ -828,6 +828,7 @@ export const EXPEDITION_XP_OVERRIDES = {
   'pernstynske-namesti-pardubice':          120, // beside zamek-pardubice
   'vlassky-dvur':                           120, // Kutná Hora: six cards in one day
   'letohradek-belveder-kutna-hora':         120,
+  'kartuziansky-klaster-valdice':           120, // beside the jicin card, seen from outside only (a prison)
 };
 
 export function distanceKm(a, b = CHARLES_BRIDGE) {

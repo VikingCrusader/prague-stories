@@ -28002,6 +28002,14 @@ export const historyEvents = [
           zh: "原属贝尔卡家族被没收的贝拉领地，也被他买了下来",
         },
       },
+      {
+        slug: "hrad-valdstejn",
+        relation: {
+          en: "The castle his family was named after. After the uprising it passed to him with the Smiřický lands around it",
+          cz: "Hrad, po kterém se jeho rod jmenoval. Po povstání připadl i se smiřickými statky v okolí jemu",
+          zh: "他的家族就是以这座城堡命名的。起义失败后，它和周围斯米日茨基家族的领地一起落到了他手里",
+        },
+      },
     ],
     wikipediaUrl: "https://en.wikipedia.org/wiki/Albrecht_von_Wallenstein",
     images: ["/history/the-man-who-bet-right-1623.webp"],
@@ -28967,7 +28975,11 @@ export const historyEvents = [
         }
       }
     ],
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Albrecht_von_Wallenstein"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Albrecht_von_Wallenstein",
+    "images": ["/history/the-emperors-doubts-1633.webp"],
+    "imageCaptions": [
+      {"en":"Winter 1634. Left, in Vienna: Emperor Ferdinand II signs the secret order removing Wallenstein from command, a Jesuit at his shoulder and a councillor sealing a copy. Right, in Plzeň: Wallenstein, his gouty foot bandaged, watches his colonels line up to sign their oath of loyalty to him personally.","cz":"Zima 1634. Vlevo ve Vídni podepisuje císař Ferdinand II. tajné nařízení, které Valdštejna zbavuje velení; za ramenem mu stojí jezuita a rada pečetí opis. Vpravo v Plzni sleduje Valdštejn s nohou obvázanou kvůli dně, jak se jeho plukovníci řadí k podpisu přísahy věrnosti jemu osobně.","zh":"1634年冬。左边是维也纳：皇帝斐迪南二世签下解除华伦斯坦兵权的密令，身后站着一位耶稣会士，一名大臣正给副本盖上火漆印。右边是皮尔森：华伦斯坦犯着痛风，一只脚缠着绷带，看着手下的上校们排队签字，宣誓效忠他本人。"}
+    ]
   },
   // Wallenstein's murder at Eger, 25 February 1634 (his last year before it
   // is the-emperors-doubts-1633, split off 2026-10-27).
@@ -29050,9 +29062,388 @@ export const historyEvents = [
           "cz": "Zde byli téhož večera na Gordonově večeři zabiti Trčka, Kinský, Ilow a Niemann",
           "zh": "同一天晚上，特尔奇卡、金斯基、伊洛和尼曼在戈登设的晚宴上被杀"
         }
+      },
+      {
+        "slug": "kartuziansky-klaster-valdice",
+        "relation": {
+          "en": "The Carthusian monastery Wallenstein founded for his own grave; his body was laid in its crypt in 1636",
+          "cz": "Kartouza, kterou Valdštejn založil pro svůj hrob; jeho tělo sem uložili do krypty roku 1636",
+          "zh": "华伦斯坦为自己的坟墓创建的加尔都西会修道院，1636年他的遗体被安放进这里的地下墓室"
+        }
       }
     ],
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Assassination_of_Wallenstein"
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Assassination_of_Wallenstein",
+    "images": ["/history/the-night-at-eger-1634.webp"],
+    "imageCaptions": [
+      {"en":"Eger, the night of 25 February 1634. Captain Devereux and his soldiers have broken down the door of Wallenstein's bedroom; Wallenstein, in his nightshirt, his gouty foot bandaged, stands by the window and spreads his arms. Through the window, the castle where his four companions had been killed at supper a few hours earlier.","cz":"Cheb, noc 25. února 1634. Hejtman Devereux a jeho vojáci vyrazili dveře Valdštejnovy ložnice; Valdštejn v noční košili, s nohou obvázanou kvůli dně, stojí u okna a rozpřahuje ruce. Za oknem hrad, kde o několik hodin dřív při večeři zabili jeho čtyři druhy.","zh":"1634年2月25日夜，海布。德弗罗上尉带着士兵撞开了华伦斯坦卧室的门；穿着睡衣、痛风的脚上缠着绷带的华伦斯坦站在窗边，张开了双臂。窗外是城堡，几个钟头前，他的四个同伴就在那里的晚宴上被杀。"}
+    ]
+  },
+  // Nördlingen, 5–6 September 1634 (short card, 2026-10-27). Schiller,
+  // Geschichte des dreißigjährigen Kriegs, ch. 18 (Projekt Gutenberg): the
+  // king of Hungary given the command with Gallas actually leading, the
+  // Cardinal-Infante's arrival from Italy, Bernhard's regiment attacking
+  // seven times (quote 0), Horn captured with three other generals, Saxony's
+  // peace (first at Pirna, then Prague 1635). Numbers from en.wikipedia
+  // (33,000+ vs ~26,000; 12,000–14,000 Protestant killed or captured,
+  // ~3,500 Imperial-Spanish losses). Ferdinand III (b. 1608) and the
+  // Cardinal-Infante (b. 1609) were first cousins (the latter's mother was
+  // Ferdinand II's sister), and Ferdinand had married his cousin's elder
+  // sister Maria Anna in 1631. Gallas got Frýdlant in 1634. Ends before the
+  // Peace of Prague (the next card).
+  // The next card (Peace of Prague) opens with, or takes as its hookLine
+  // (user's line, 2026-10-27; no [[link]] in a hookLine): "三年半以前，萨克森人
+  // 是打进布拉格的；这一回，他们是来谈和的。" (link the-saxons-come-1631 if in
+  // the summary).
+  {
+    "slug": "two-ferdinands-1634",
+    "era": "fire-and-ashes",
+    "startYear": 1634.7,
+    "year": {
+      "en": "1634",
+      "cz": "1634",
+      "zh": "1634年"
+    },
+    "title": {
+      "en": "Two Ferdinands",
+      "cz": "Dva Ferdinandové",
+      "zh": "两个斐迪南"
+    },
+    "hookLine": {
+      "en": "Without Wallenstein, the emperor's army won one of the greatest victories of the war.",
+      "cz": "Bez Valdštejna vyhrálo císařovo vojsko jedno z největších vítězství celé války.",
+      "zh": "没了华伦斯坦，皇帝的军队反倒打赢了整场战争里最大的胜仗之一。"
+    },
+    "summary": {
+      "en": "After Wallenstein's death the emperor's army needed a new commander. Ferdinand II gave it to his son, also called Ferdinand. He was twenty-six, already King of Hungary, and King of Bohemia too, [[link:no-more-elected-kings-1627]]crowned in Prague[[/link]] seven years before. He had never commanded in a war. The man who really led the army was the veteran general Gallas, one of those who had turned against Wallenstein. As a reward he had just been given Wallenstein's Frýdlant.\n\nThe young king began well. In July 1634 he took back Regensburg, the Danube city the Swedes had captured the autumn before.\n\nThat summer a second Ferdinand came over the Alps from Italy. He was the King of Spain's younger brother, a cardinal who had never been a priest, on his way with a Spanish army to govern the Netherlands. He was the young king's cousin, and his brother-in-law as well: three years earlier the king had married his sister.\n\nThe two Ferdinands joined forces before Nördlingen, a Protestant town in Swabia held by the Swedes, and laid siege to it. The Swedish commanders Horn and Bernhard of Saxe-Weimar marched to its relief. On the morning of 6 September they stormed a hill south of the town, held by Spanish veterans. Schiller writes:\n\n[[quote:0]]\n\nBy late morning the Swedes could take no more. Their retreat turned into a rout. Between twelve and fourteen thousand of them were killed or taken prisoner, against about three and a half thousand on the other side. Horn himself was captured; Bernhard got away with what was left.\n\n[[b]]Most of what Gustavus Adolphus had won in southern Germany was lost in a single morning.[[/b]] The Protestant princes who had sided with Sweden began to think about their own safety. The first to start talking to the emperor was the Elector of Saxony. The talks were to be held in Prague.",
+      "cz": "Po Valdštejnově smrti potřebovalo císařovo vojsko nového velitele. Ferdinand II. ho svěřil svému synovi, který se také jmenoval Ferdinand. Bylo mu dvacet šest let a byl už uherským králem, a také králem českým, [[link:no-more-elected-kings-1627]]korunovaným v Praze[[/link]] před sedmi lety. Ve válce nikdy nevelel. Doopravdy vedl vojsko zkušený generál Gallas, jeden z těch, kdo se obrátili proti Valdštejnovi. Za odměnu právě dostal Valdštejnův Frýdlant.\n\nMladý král začal dobře. V červenci 1634 dobyl zpět Řezno, dunajské město, které Švédové obsadili předchozí podzim.\n\nTo léto přišel přes Alpy z Itálie druhý Ferdinand. Byl to mladší bratr španělského krále, kardinál, který nikdy nebyl knězem, a se španělským vojskem byl na cestě do Nizozemí, kde měl vládnout. S mladým králem byli bratranci, a zároveň švagři: král si před třemi lety vzal jeho sestru.\n\nOba Ferdinandové spojili síly před Nördlingenem, protestantským městem ve Švábsku, které drželi Švédové, a oblehli ho. Švédští velitelé Horn a Bernard Sasko-Výmarský táhli městu na pomoc. Ráno 6. září zaútočili na kopec jižně od města, který drželi španělští veteráni. Schiller píše:\n\n[[quote:0]]\n\nDopoledne už Švédové nemohli dál. Ústup se změnil v útěk. Padlo nebo bylo zajato dvanáct až čtrnáct tisíc z nich, proti zhruba třem a půl tisíci na druhé straně. Horn sám padl do zajetí; Bernard unikl s tím, co zbylo.\n\n[[b]]Většinu toho, co Gustav Adolf dobyl v jižním Německu, Švédové ztratili za jediné dopoledne.[[/b]] Protestantská knížata, která stála při Švédsku, začala myslet na vlastní bezpečí. Jako první začal s císařem jednat saský kurfiřt. Jednat se mělo v Praze.",
+      "zh": "华伦斯坦死后，皇帝的军队得有个新统帅。斐迪南二世把它交给了自己的儿子，也叫斐迪南。他二十六岁，已经是匈牙利国王，也是波希米亚国王，七年前[[link:no-more-elected-kings-1627]]在布拉格加冕[[/link]]。可他从没带兵打过仗，真正指挥军队的，是老将加拉斯。加拉斯是当初倒戈对付华伦斯坦的将领之一，刚刚得了赏：华伦斯坦的弗里德兰。\n\n年轻的国王开局不错。1634年7月，他夺回了雷根斯堡，就是瑞典人头一年秋天拿下的那座多瑙河城市。\n\n这年夏天，又一个斐迪南从意大利翻过阿尔卑斯山来了。他是西班牙国王的弟弟，一位从没当过神父的红衣主教，正带着一支西班牙军队，赶去尼德兰当总督。他是年轻国王的表弟，还是他的小舅子：三年前，国王娶了他的姐姐。\n\n两个斐迪南在讷德林根城下会了师。这是施瓦本的一座新教城市，正由瑞典人守着，两人把它团团围住。瑞典统帅霍恩和魏玛的伯恩哈德赶来解围。9月6日早上，他们猛攻城南的一座小山，守山的是西班牙老兵。席勒写道：\n\n[[quote:0]]\n\n到了上午，瑞典人撑不住了，撤退变成了溃逃。他们有一万二到一万四千人战死或被俘，对面只损失了三千五百人左右。霍恩本人当了俘虏，伯恩哈德带着残兵逃了出去。\n\n[[b]]古斯塔夫·阿道夫在南德打下的江山，一个上午就丢了大半。[[/b]]跟着瑞典人走的新教诸侯，开始替自己打算了。头一个去找皇帝谈的，是萨克森选帝侯。谈判的地点，就选在布拉格。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "A regiment sent up by Bernhard charges seven times, and seven times it is driven back.",
+          "cz": "Pluk, který sem poslal Bernard, útočí sedmkrát, a sedmkrát je zahnán zpět.",
+          "zh": "伯恩哈德派上去的一个团，冲了七次，七次都被打了回来。"
+        },
+        "attribution": {
+          "en": "Friedrich Schiller, History of the Thirty Years' War, 1792",
+          "cz": "Friedrich Schiller, Dějiny třicetileté války, 1792",
+          "zh": "弗里德里希·席勒，《三十年战争史》，1792年"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "hrad-a-zamek-frydlant",
+        "relation": {
+          "en": "Wallenstein's Frýdlant, given in 1634 to Gallas, the general who really commanded at Nördlingen",
+          "cz": "Valdštejnův Frýdlant, který roku 1634 dostal Gallas, generál, jenž u Nördlingenu doopravdy velel",
+          "zh": "华伦斯坦的弗里德兰，1634年赏给了加拉斯，就是在讷德林根真正指挥作战的那位将军"
+        }
+      }
+    ],
+    "referenceMaps": {
+      "links": [
+        {
+          "label": "1635",
+          "description": {
+            "en": "Rubens, The Meeting at Nördlingen: the two Ferdinands greet each other before the battle, painted for the Cardinal-Infante's entry into Antwerp (Kunsthistorisches Museum, Vienna)",
+            "cz": "Rubens, Setkání u Nördlingenu: oba Ferdinandové se zdraví před bitvou, malováno pro kardinálův vjezd do Antverp (Kunsthistorisches Museum, Vídeň)",
+            "zh": "鲁本斯《讷德林根的会面》：两个斐迪南在战前相见，为红衣主教亲王进入安特卫普的入城式而画（维也纳艺术史博物馆）"
+          },
+          "url": "https://www.khm.at/en/artworks/the-meeting-at-noerdlingen-1635"
+        },
+        {
+          "label": "1634–1635",
+          "description": {
+            "en": "Rubens, The Cardinal-Infante Ferdinand at the Battle of Nördlingen: the victor on horseback, the battle below him (Museo del Prado, Madrid)",
+            "cz": "Rubens, Kardinál-infant Ferdinand v bitvě u Nördlingenu: vítěz na koni, pod ním bitva (Museo del Prado, Madrid)",
+            "zh": "鲁本斯《讷德林根战役中的红衣主教亲王斐迪南》：胜利者骑在马上，脚下是战场（马德里普拉多博物馆）"
+          },
+          "url": "https://www.museodelprado.es/en/the-collection/art-work/cardinal-infante-ferdinand-of-austria-at-the/12b22e77-77f2-486c-84a3-692647f6b135"
+        }
+      ]
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Battle_of_N%C3%B6rdlingen_(1634)",
+    "images": ["/history/two-ferdinands-1634.webp"],
+    "imageCaptions": [
+      {"en":"Nördlingen, 6 September 1634. In the foreground the two Ferdinands: the young King of Hungary and Bohemia in black armour on a black horse, beside him the Cardinal-Infante in a scarlet cape on a white horse. Spanish pikemen hold the entrenched hill in the centre while the Swedish and Weimar brigades storm it from the right; the walled town of Nördlingen lies behind.","cz":"Nördlingen, 6. září 1634. V popředí oba Ferdinandové: mladý uherský a český král v černé zbroji na černém koni a vedle něj kardinál-infant v šarlatovém plášti na bílém koni. Španělští pikenýři drží opevněný kopec uprostřed a švédské a výmarské brigády na něj útočí zprava; vzadu leží opevněné město Nördlingen.","zh":"1634年9月6日，讷德林根。前景是两个斐迪南：身穿黑甲、骑黑马的年轻国王，身兼匈牙利和波希米亚两国王位；他身边是披着猩红斗篷、骑白马的红衣主教亲王。中间的小山筑着工事，由西班牙长枪兵把守，瑞典和魏玛的步兵从右边往上猛攻；远处是有城墙环绕的讷德林根城。"}
+    ]
+  },
+  // The Peace of Prague, 30 May 1635 (title the user's, 2026-10-27; opening
+  // line the user's, kept from the Nördlingen card). Signed at Prague Castle
+  // after preliminaries at Pirna (Nov 1634). Terms (en.wikipedia): no
+  // alliances, one imperial army, church lands as of 12 Nov 1627, amnesty
+  // from 1630 except the Palatine family and the affairs of Bohemia; Lusatia
+  // to Saxony (ceded in perpetuity 1636, as a Bohemian fief). Both quotes are
+  // the treaty's articles as printed in English in Justus Asterius (Stella),
+  // A Bewailing of the Peace of Germany (London, 1637; EEBO-TCP A12952).
+  // Upper Lusatia joined under John (diplomat-king-1331), Lower Lusatia under
+  // Charles IV (the-same-trick-twice-1370). Pirna as the exiles' refuge:
+  // inside-and-outside-the-walls-1630. France declared war on Spain on
+  // 19 May 1635 (the hook into the France background card).
+  {
+    "slug": "the-peace-of-prague-1635",
+    "era": "fire-and-ashes",
+    "startYear": 1635.4,
+    "year": {
+      "en": "1635",
+      "cz": "1635",
+      "zh": "1635年"
+    },
+    "title": {
+      "en": "The Peace of Prague, Without Prague",
+      "cz": "Pražský mír bez Prahy",
+      "zh": "布拉格和约，不包括布拉格"
+    },
+    "hookLine": {
+      "en": "Saxony came away with Lusatia. The Bohemian exiles came away with nothing.",
+      "cz": "Sasko si odneslo Lužici. Čeští exulanti neodnesli nic.",
+      "zh": "萨克森换回了卢萨蒂亚，波希米亚的流亡者什么也没换到。"
+    },
+    "summary": {
+      "en": "Three and a half years earlier the Saxons had [[link:the-saxons-come-1631]]marched into Prague[[/link]]. This time they came to make peace.\n\nOn 30 May 1635 the representatives of the emperor and the Elector of Saxony signed the treaty at Prague Castle. The terms were practical. The princes of the Empire were no longer allowed to make alliances of their own, and their troops were to join a single imperial army. In return the emperor stopped pressing the Protestant princes to hand back the church lands they held: whatever someone had owned in 1627 he could keep. One German prince after another signed up.\n\nThe treaty also offered an amnesty: whoever had fought the emperor since 1630 was forgiven. With two exceptions:\n\n[[quote:0]]\n\nAnd on Bohemia there was one more article:\n\n[[quote:1]]\n\nThat in itself was not news. In Bohemia the Lutheran faith had [[link:convert-or-leave-1627]]long been banned[[/link]]. The news was who signed it. For years the Elector of Saxony had been the leading Lutheran prince in Germany, and now he put his own name to it.\n\n[[b]]The peace was named after Prague and signed in Prague, and it left Bohemia out.[[/b]]\n\nSaxony did not sign for nothing. Upper and Lower Lusatia, which the emperor had [[link:help-at-a-price-1619]]pledged to Saxony[[/link]] for its help in 1620, now became Saxon for good. Upper Lusatia had joined the Bohemian crown under [[link:diplomat-king-1331]]King John[[/link]], Lower Lusatia under [[link:the-same-trick-twice-1370]]Charles IV[[/link]]; both had belonged to it for some three hundred years. They never came back.\n\nThe most bitter were the Czech exiles in Saxony, crowded into [[link:inside-and-outside-the-walls-1630]]Pirna[[/link]] and the towns around it. They had come home with the Saxon army once and left again with it. Ever since, they had hoped Saxony would speak up for them. Saxony spoke up for itself.\n\nGermany now looked a little more like peace. The war went on all the same: eleven days before the signing, France had declared war on Spain.",
+      "cz": "Před třemi a půl lety Sasové [[link:the-saxons-come-1631]]vtáhli do Prahy[[/link]]. Tentokrát přišli uzavřít mír.\n\n30. května 1635 podepsali zástupci císaře a saského kurfiřta smlouvu na Pražském hradě. Podmínky byly praktické. Říšská knížata už nesměla uzavírat vlastní spolky a jejich vojska se měla spojit v jedno císařské vojsko. Za to císař přestal tlačit na protestantská knížata, aby vrátila církevní statky, které držela: co kdo vlastnil roku 1627, mohl si nechat. Jedno německé knížectví za druhým k míru přistupovalo.\n\nSmlouva nabízela i amnestii: kdo bojoval proti císaři od roku 1630, tomu se odpouštělo. Se dvěma výjimkami:\n\n[[quote:0]]\n\nA o Čechách tam byl ještě jeden článek:\n\n[[quote:1]]\n\nTo samo o sobě nebyla novinka. Luterská víra byla v Čechách [[link:convert-or-leave-1627]]dávno zakázána[[/link]]. Novinkou bylo, kdo to podepsal. Saský kurfiřt byl léta předním luterským knížetem v Německu, a teď k tomu připojil své jméno.\n\n[[b]]Mír nesl jméno Prahy a byl podepsán v Praze, a Čechy z něj vynechal.[[/b]]\n\nSasko nepodepsalo zadarmo. Horní a Dolní Lužice, které mu císař roku 1620 [[link:help-at-a-price-1619]]zastavil[[/link]] za pomoc, teď připadly Sasku natrvalo. Horní Lužice se ke koruně české připojila za [[link:diplomat-king-1331]]krále Jana[[/link]], Dolní za [[link:the-same-trick-twice-1370]]Karla IV.[[/link]]; obě k ní patřily kolem tří set let. Už se nikdy nevrátily.\n\nNejvíc hořkosti zažili čeští exulanti v Sasku, natěsnaní v [[link:inside-and-outside-the-walls-1630]]Pirně[[/link]] a okolních městech. Jednou se se saským vojskem vrátili domů a s ním zase odešli. Od té doby doufali, že se za ně Sasko přimluví. Sasko se přimluvilo za sebe.\n\nNěmecko teď trochu víc připomínalo mír. Válka ale šla dál: jedenáct dní před podpisem vyhlásila Francie válku Španělsku.",
+      "zh": "三年半以前，萨克森人是[[link:the-saxons-come-1631]]打进布拉格[[/link]]的；这一回，他们是来谈和的。\n\n1635年5月30日，皇帝和萨克森选帝侯的代表在布拉格城堡签了字。条件谈得很实在：帝国的诸侯从此不许私下结盟，各家的兵都要并进皇帝的一支大军；作为交换，皇帝不再逼新教诸侯交还他们手里的教会土地，1627年时谁占着，就还归谁。德意志的诸侯一家接一家，都签了进来。\n\n和约还开了一道大赦：1630年以来跟皇帝作对的，一笔勾销。只是有两个例外：\n\n[[quote:0]]\n\n关于波希米亚，和约里还有一条：\n\n[[quote:1]]\n\n这本身算不上新闻，路德宗在波希米亚[[link:convert-or-leave-1627]]早就被禁了[[/link]]。新闻是签字的人。这么多年来，萨克森选帝侯一直是德意志路德宗诸侯的头面人物，如今，他亲手在这一条底下签了名。\n\n[[b]]这份和约以布拉格命名，在布拉格签字，偏偏把波希米亚撇在了外面。[[/b]]\n\n萨克森当然不是白签的。上下卢萨蒂亚，是皇帝1620年[[link:help-at-a-price-1619]]押给萨克森[[/link]]换它出兵的，这下成了萨克森永久的领地。上卢萨蒂亚是[[link:diplomat-king-1331]]约翰国王[[/link]]时并进波希米亚王冠的，下卢萨蒂亚是[[link:the-same-trick-twice-1370]]查理四世[[/link]]时并进来的，前后都有三百年上下。从此，它们再也没有回来。\n\n最心寒的，是住在萨克森的捷克流亡者。他们挤在[[link:inside-and-outside-the-walls-1630]]皮尔纳[[/link]]和周围的小城里，跟着萨克森军队回过一次家，又跟着它离开。这几年，他们一直盼着萨克森替他们说句话。萨克森是说了话，替它自己。\n\n德意志总算有了点和平的样子，仗却没有停：和约签字前十一天，法国已经向西班牙宣了战。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "The Emperor hath excluded out of this Amnestia, the Affairs and Differences of Bohemia, and of the Palatinate: for since that his Imperial Majesty, for the quieting of them, hath been constrained to put himself to very great charges, he will seek for reparation of his Damages upon them, who have been the causers of them, and upon their Promoters and Assistants.",
+          "cz": "Císař z této amnestie vyjímá záležitosti a spory Čech a Falce: neboť jelikož byl Jeho císařská Milost nucen vynaložit na jejich utišení velmi veliké náklady, bude hledat náhradu svých škod na těch, kdo je způsobili, a na jejich podporovatelích a pomocnících.",
+          "zh": "皇帝把波希米亚和普法尔茨的事务与纷争排除在这次大赦之外：因为皇帝陛下为平息这些事端，不得不付出了极大的花费，他要向那些惹出事端的人，以及他们的支持者和帮手，讨回自己的损失。"
+        },
+        "attribution": {
+          "en": "The Peace of Prague, 1635, in the English translation printed in London in 1637",
+          "cz": "Pražský mír, 1635, podle anglického překladu vytištěného v Londýně roku 1637",
+          "zh": "《布拉格和约》，1635年，据1637年伦敦出版的英译本"
+        }
+      },
+      {
+        "text": {
+          "en": "The free exercise of the Confession of Auspurgh shall no more be tolerated for the time to come in the Kingdom of Bohemia, nor in the other Hereditary Countries of the Emperor.",
+          "cz": "Svobodné vyznávání augsburské konfese nebude napříště trpěno v Království českém ani v ostatních dědičných zemích císařových.",
+          "zh": "今后，在波希米亚王国，以及皇帝的其他世袭领地，都不再容许自由信奉《奥格斯堡信纲》。"
+        },
+        "attribution": {
+          "en": "The Peace of Prague, 1635, in the English translation printed in London in 1637",
+          "cz": "Pražský mír, 1635, podle anglického překladu vytištěného v Londýně roku 1637",
+          "zh": "《布拉格和约》，1635年，据1637年伦敦出版的英译本"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "trauttmansdorffsky-palac",
+        "relation": {
+          "en": "The Hradčany house of the Trčkas, Wallenstein's in-laws. In 1636 the emperor gave it to Count Maximilian von Trauttmansdorff, who had negotiated the Peace of Prague for him",
+          "cz": "Hradčanský dům Trčků, Valdštejnových příbuzných. Roku 1636 ho císař dal hraběti Maxmiliánu z Trauttmansdorffu, který pro něj Pražský mír vyjednal",
+          "zh": "华伦斯坦的姻亲特尔奇卡家族在城堡区的宅子。1636年，皇帝把它赏给了替他谈成《布拉格和约》的特劳特曼斯多夫伯爵"
+        }
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peace_of_Prague_(1635)",
+    "images": ["/history/the-peace-of-prague-1635.webp"],
+    "imageCaptions": [
+      {"en":"Prague Castle, May 1635. At the table the emperor's envoy, the Elector of Saxony and another German prince sign the peace under the imperial eagle and the Saxon colours. A shabby Bohemian exile with a petition tries to speak; the envoy silences him with a raised finger. The exile and the small Bohemian lion banner are symbolic: Bohemia had no seat at the table.","cz":"Pražský hrad, květen 1635. U stolu podepisují mír císařův vyslanec, saský kurfiřt a další německý kníže, pod císařskou orlicí a saskými barvami. Ošuntělý český exulant s prosebným listem se snaží promluvit; vyslanec ho zdviženým prstem umlčí. Exulant i malý prapor s českým lvem jsou symbolické: Čechy u stolu místo neměly.","zh":"1635年5月，布拉格城堡。桌边，皇帝的使者、萨克森选帝侯和另一位德意志诸侯，在帝国鹰旗和萨克森旗帜下签署和约。一个衣衫破旧的波希米亚流亡者举着请愿书想开口，使者竖起一根手指，叫他闭嘴。流亡者和那面小小的波希米亚狮旗都是象征：谈判桌上，本来就没有波希米亚的位子。"}
+    ]
+  },
+  // France enters the war and Ferdinand II dies, 1635–1637 (event card at the
+  // first titled "红衣主教对红衣主教", retitled "法国亲自下场" the same day to
+  // put France's entry first; slug kept;
+  // user's request, 2026-10-27, light and simple, with a Bohemian thread).
+  // The herald at Brussels on 19 May 1635 (Jean Gratiollet; nobody would
+  // receive him, the courtier fled, he threw the declaration into the crowd
+  // and on the 21st fixed two copies to a post at the border, as his
+  // instructions allowed): Randall Lesaffer, "Defensive Warfare, Prevention
+  // and Hegemony" (iilj.org). The pretext was Spain's seizure of the Elector
+  // of Trier. French subsidies to Sweden since Bärwalde (1631). Corbie:
+  // taken by the Cardinal-Infante's army 15 Aug 1636, Paris panicked, retaken
+  // 14 Nov by an army Richelieu led himself (en.wikipedia, First and Second
+  // siege of Corbie). Ferdinand III elected King of the Romans at Regensburg
+  // 22 Dec 1636; Ferdinand II died in Vienna 15 Feb 1637, aged 58 (NDB).
+  // Made a background card 2026-10-27 (user's call); Ferdinand II's death
+  // and Ferdinand III moved to the opening of the 1639 card. Its image
+  // (cardinal-against-cardinal-1636.webp) is kept in client/public/history/
+  // but no longer used. No
+  // quote: only fragments of the French declaration were found in modern
+  // translation.
+  {
+    "slug": "cardinal-against-cardinal-1636",
+    "era": "fire-and-ashes",
+    "cardType": "background",
+    "startYear": 1635.5,
+    "year": {
+      "en": "1635–1636",
+      "cz": "1635–1636",
+      "zh": "1635年－1636年"
+    },
+    "title": {
+      "en": "Why Did France Step In?",
+      "cz": "Proč do války vstoupila Francie?",
+      "zh": "法国为什么要下场？"
+    },
+    "hookLine": {
+      "en": "Spain's governor would not even accept the declaration of war, so France threw it into the crowd.",
+      "cz": "Španělský místodržitel nechtěl převzít ani vyhlášení války, a tak ho Francie hodila do davu.",
+      "zh": "西班牙的总督连宣战书都不肯接，法国只好把它扔进了人群。"
+    },
+    "summary": {
+      "en": "Eleven days before the Peace of Prague was signed, France declared war on Spain. By the old custom, war had to be declared by a herald, who handed the declaration to the enemy in person. On 19 May 1635 a French herald rode into Brussels and asked to see the governor of the Spanish Netherlands, the cardinal we last saw at [[link:two-ferdinands-1634]]Nördlingen[[/link]].\n\nAll day he was told the governor would see him shortly. He never did. Towards evening the herald tried to hand the paper to one of the governor's gentlemen, who took one look at it and ran. So the herald got on his horse, threw the declaration into the crowd, and rode home. To be on the safe side, he also nailed two copies to a post at the border.\n\nWhy would Catholic France fight Catholic Spain and the Catholic emperor? Look at a map. Spain lay to the south, the Spanish Netherlands to the north, the emperor and his German allies to the east: France was ringed by one family, the Habsburgs. Its chief minister, Cardinal Richelieu, was a prince of the Church, but to him France came first. A Habsburg family that kept growing frightened him far more than any Protestant.\n\nFrance had in fact been in the war for years, only from behind the curtain. French money had helped pay for Gustavus Adolphus's march into Germany. [[link:the-emperors-doubts-1633]]Two years earlier[[/link]] French agents, working through Count Kinsky, had even urged Wallenstein to take the crown of Bohemia. Now France stepped out from behind the curtain.\n\nThe next summer the Cardinal-Infante struck back. His army came down from the Netherlands, took the town of Corbie in northern France, and his cavalry raided so close to Paris that Parisians began to flee. In the autumn the French took Corbie back, and the army that did it was led by Richelieu himself. [[b]]So in a war supposedly between Protestants and Catholics, one cardinal took a town from another.[[/b]]",
+      "cz": "Jedenáct dní před podpisem Pražského míru vyhlásila Francie válku Španělsku. Podle starého zvyku musel válku vyhlásit herold, který nepříteli předal vyhlášení osobně. 19. května 1635 přijel francouzský herold do Bruselu a žádal o slyšení u místodržitele Španělského Nizozemí, kardinála, kterého jsme naposledy viděli u [[link:two-ferdinands-1634]]Nördlingenu[[/link]].\n\nCelý den mu říkali, že ho místodržitel hned přijme. Nepřijal ho nikdy. K večeru se herold pokusil dát listinu jednomu z místodržitelových šlechticů; ten se na ni jednou podíval a utekl. Herold tedy nasedl na koně, hodil vyhlášení do davu a odjel domů. Pro jistotu přibil ještě dva opisy na kůl na hranici.\n\nProč by katolická Francie bojovala proti katolickému Španělsku a katolickému císaři? Stačí se podívat na mapu. Na jihu Španělsko, na severu Španělské Nizozemí, na východě císař a jeho němečtí spojenci: Francii obkličoval jediný rod, Habsburkové. Její první ministr, kardinál Richelieu, byl knížetem církve, ale pro něj byla na prvním místě Francie. Rod Habsburků, který pořád rostl, ho děsil mnohem víc než kterýkoli protestant.\n\nFrancie ve válce ve skutečnosti byla už léta, jen za oponou. Francouzské peníze pomohly zaplatit tažení Gustava Adolfa do Německa. [[link:the-emperors-doubts-1633]]Před dvěma lety[[/link]] francouzští agenti přes hraběte Kinského dokonce přemlouvali Valdštejna, aby si vzal českou korunu. Teď Francie vystoupila zpoza opony.\n\nPříští léto kardinál-infant vrátil úder. Jeho vojsko přitáhlo z Nizozemí, dobylo městečko Corbie na severu Francie a jeho jízda pronikla tak blízko k Paříži, že Pařížané začali utíkat. Na podzim Francouzi Corbie dobyli zpět a vojsko, které to dokázalo, vedl sám Richelieu. [[b]]Ve válce, která byla údajně mezi protestanty a katolíky, tak jeden kardinál dobyl město na druhém.[[/b]]",
+      "zh": "《布拉格和约》签字前十一天，法国向西班牙宣了战。按老规矩，宣战得派一位传令官，把战书当面交到对方手上。1635年5月19日，法国传令官骑马进了布鲁塞尔，求见西属尼德兰的总督，也就是我们在[[link:two-ferdinands-1634]]讷德林根[[/link]]见过的那位红衣主教亲王。\n\n对方一整天都说“马上就见”，可就是不见。傍晚，传令官想把战书交给总督手下的一位绅士，那人看了一眼是什么东西，扭头就跑。传令官只好上马，把战书往围观的人群里一扔，回法国去了。保险起见，到了边境，他又往一根木桩上钉了两份。\n\n天主教的法国，凭什么打天主教的西班牙和皇帝？看一眼地图就明白了。南边是西班牙，北边是西属尼德兰，东边是皇帝和他在德意志的盟友：法国被一个家族团团围在中间，这个家族就是哈布斯堡。法国首相黎塞留是天主教的红衣主教，可在他心里，法国排在第一位。一个越长越大的哈布斯堡家族，比任何新教徒都让他害怕。\n\n其实法国早就在这场仗里了，只是一直躲在幕后。古斯塔夫·阿道夫打进德意志，花的就有法国的钱。[[link:the-emperors-doubts-1633]]两年前[[/link]]，法国人还通过金斯基伯爵，劝华伦斯坦把波希米亚的王冠戴到自己头上。这一回，法国从幕后走到了台前。\n\n第二年夏天，红衣主教亲王打了回来。他的军队从尼德兰南下，拿下了法国北部的小城科尔比，骑兵一直跑到巴黎附近，吓得巴黎人纷纷往外逃。到了秋天，法国人把科尔比夺了回来，领兵的正是黎塞留本人。[[b]]于是，在这场据说是新教和天主教之间的战争里，一位红衣主教从另一位红衣主教手里夺回了一座城。[[/b]]"
+    },
+    "relatedLandmarks": [],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Franco-Spanish_War_(1635%E2%80%931659)"
+  },
+  // Banér in Bohemia, 1639–1640 (user's plan, 2026-10-27: open with Saxony
+  // paying for its switch, then Banér's campaign). Sources: cs.wikipedia
+  // "Bitva u Lobkovic" (Wittstock 4 Oct 1636; Chemnitz 14 Apr 1639;
+  // vanguard into Bohemia 23 Apr, Děčín; main army at Litoměřice, printed
+  // proclamation promising freedom; Mělník 27 May; Lobkovice 29 May,
+  // Hofkirchen and Montecuccoli captured; Prague refused him, helped by the
+  // fortified imperial camp on White Mountain; siege given up 2 June for
+  // want of infantry and heavy guns; HQ at Brandýs castle); Vlastenský
+  // slovník historický, "Banér" (bombardment for several days, summons
+  // refused; a second attempt on the Old Town, New Town and Vyšehrad beaten
+  // off by the burghers); pardubicednes.cz (Pardubice held out against a
+  // siege from 4 June led by the exile Zdeněk of Hodice); Saturka (the order
+  // of late October 1639 for systematic devastation); rod-nebeskych-a-
+  // cackych.cz (driven out in spring 1640). No primary quote found.
+  // Torstensson's litter: he commanded from one because of gout.
+  // Opens with Ferdinand II's death (moved here from the France background
+  // card, 2026-10-27).
+  {
+    "slug": "here-come-the-liberators-1639",
+    "era": "fire-and-ashes",
+    "startYear": 1639.3,
+    "year": {
+      "en": "1637–1640",
+      "cz": "1637–1640",
+      "zh": "1637年－1640年"
+    },
+    "title": {
+      "en": "Liberators? Or Robbers?",
+      "cz": "Osvoboditelé? Nebo lupiči?",
+      "zh": "解放者？还是强盗？"
+    },
+    "hookLine": {
+      "en": "The Swedes arrived with a printed promise of freedom. They left behind scorched earth.",
+      "cz": "Švédové přišli s tištěným slibem svobody. Odešli a nechali za sebou spálenou zemi.",
+      "zh": "瑞典人来的时候，贴出了许诺自由的告示；走的时候，留下的是一路焦土。"
+    },
+    "summary": {
+      "en": "In 1635 France [[link:cardinal-against-cardinal-1636]]declared war on Spain[[/link]] and stepped out from behind the curtain; from then on the emperor had France against him as well as Sweden. Ferdinand II did not live to see how the war ended. At the end of 1636 he had his son elected King of the Romans, so the succession was settled. On 15 February 1637 he died in Vienna, aged fifty-eight.\n\nIn Bohemia he had done most of what he set out to do. He had once said he would rather rule [[link:the-new-king-1617]]a desert[[/link]] than a land of heretics; now Bohemia had only Catholics left, and its kings were [[link:no-more-elected-kings-1627]]no longer elected[[/link]] by its diet. The new emperor, his son Ferdinand III, twenty-eight years old, had been crowned King of Bohemia in Prague ten years before. He inherited a war that had lasted almost twenty years and was still growing.\n\nSaxony, meanwhile, soon learned the price of changing sides. The new Swedish commander, Johan Banér, was one of Gustavus Adolphus's old generals. In 1636 at Wittstock he crushed the combined Saxon and imperial army, and in April 1639 he beat the Saxons again at Chemnitz. South of Saxony, over the Ore Mountains, lay Bohemia.\n\nIn late April the Swedish vanguard crossed into Bohemia and took Děčín. By mid-May Banér's main army had settled in at Litoměřice. There he had a proclamation printed, promising the people of Bohemia their freedom.\n\nAt the end of May the Swedes took Mělník, then beat the imperial force sent to stop them at Lobkovice near Brandýs. Both imperial commanders were taken prisoner. One of them, Raimondo Montecuccoli, would later become one of the emperor's most famous generals; for now he was just a young officer who had lost a battle.\n\nThen Banér came to Prague. He shelled the city for several days and called on it to surrender. Prague did not open its gates. West of the city an imperial army sat in a fortified camp on [[link:two-hours-1620]]White Mountain[[/link]]: nineteen years earlier the hill where Prague had been lost, now the hill that helped keep it. Short of infantry and heavy guns, Banér gave up the siege on 2 June.\n\nWith the liberation off, Banér changed his approach. He set up his headquarters in the castle at Brandýs and sent his men out along the Elbe in every direction. Czech exiles came with him, some as officers in the Swedish army. In June one of them, Zdeněk of Hodice, laid siege to Pardubice; the town held out.\n\nIn the autumn Banér tried Prague once more, attacking the Old Town, the New Town and Vyšehrad, and once more the townspeople drove him off. At the end of October he ordered the systematic devastation of the towns and villages he held. [[b]]The proclamation had promised freedom; what the Swedes left in Bohemia was scorched earth.[[/b]] For Bohemia it was probably the worst stretch of the whole war. Only in the spring of 1640 did the imperial army drive the Swedes back into Saxony.\n\nBanér died the following year. The man who took over the Swedish army was so crippled by gout that he often commanded from a litter.",
+      "cz": "Roku 1635 Francie [[link:cardinal-against-cardinal-1636]]vyhlásila válku Španělsku[[/link]] a vystoupila zpoza opony; od té doby stála proti císaři vedle Švédska i Francie. Ferdinand II. se konce války nedožil. Na sklonku roku 1636 dal svého syna v Řezně zvolit římským králem, takže nástupnictví bylo zajištěné. 15. února 1637 zemřel ve Vídni, ve věku padesáti osmi let.\n\nV Čechách udělal většinu toho, co si předsevzal. Kdysi řekl, že raději bude vládnout [[link:the-new-king-1617]]poušti[[/link]] než zemi kacířů; teď v Čechách zůstali jen katolíci a jejich krále už [[link:no-more-elected-kings-1627]]nevolil sněm[[/link]]. Novým císařem se stal jeho osmadvacetiletý syn Ferdinand III., který byl před deseti lety v Praze korunován českým králem. Zdědil válku, která trvala skoro dvacet let a pořád se rozrůstala.\n\nSasko mezitím brzy poznalo, co stojí změna strany. Novým švédským velitelem byl Johan Banér, jeden ze starých generálů Gustava Adolfa. Roku 1636 u Wittstocku rozdrtil spojené saské a císařské vojsko a v dubnu 1639 porazil Sasy znovu u Saské Kamenice. Jižně od Saska, za Krušnými horami, ležely Čechy.\n\nKoncem dubna vstoupil švédský předvoj do Čech a obsadil Děčín. V polovině května se Banérovo hlavní vojsko usadilo v Litoměřicích. Tam dal vytisknout provolání, které obyvatelům Čech slibovalo svobodu.\n\nKoncem května Švédové dobyli Mělník a pak u Lobkovic nedaleko Brandýsa porazili císařské vojsko, které je mělo zastavit. Oba císařští velitelé padli do zajetí. Jeden z nich, Raimondo Montecuccoli, se později stal jedním z nejslavnějších císařových vojevůdců; zatím byl jen mladý důstojník, který prohrál bitvu.\n\nPak Banér přitáhl k Praze. Několik dní na město střílel a vyzýval ho, aby se vzdalo. Praha brány neotevřela. Západně od města stálo v opevněném táboře na [[link:two-hours-1620]]Bílé hoře[[/link]] císařské vojsko: před devatenácti lety kopec, kde byla Praha ztracena, teď kopec, který ji pomohl udržet. Banér měl málo pěchoty a těžkých děl, a 2. června obléhání vzdal.\n\nKdyž osvobození nevyšlo, Banér to zkusil jinak. Hlavní stan si zřídil na zámku v Brandýse a své muže rozesílal podél Labe na všechny strany. Přišli s ním i čeští exulanti, někteří jako důstojníci švédského vojska. V červnu jeden z nich, Zdeněk z Hodic, oblehl Pardubice; město odolalo.\n\nNa podzim to Banér zkusil s Prahou ještě jednou, zaútočil na Staré Město, Nové Město i Vyšehrad, a měšťané ho znovu odrazili. Koncem října nařídil soustavně pustošit města a vesnice, které držel. [[b]]Provolání slibovalo svobodu; Švédové po sobě v Čechách nechali spálenou zemi.[[/b]] Pro Čechy to bylo nejspíš nejhorší období celé války. Teprve na jaře 1640 zatlačilo císařské vojsko Švédy zpátky do Saska.\n\nBanér příští rok zemřel. Švédské vojsko po něm převzal muž, kterého dna trápila tak, že často velel z nosítek.",
+      "zh": "1635年，法国[[link:cardinal-against-cardinal-1636]]向西班牙宣了战[[/link]]，从幕后走到了台前；从此，跟皇帝作对的，除了瑞典，又多了一个法国。斐迪南二世没能看到这场仗的结局。1636年底，他让儿子在雷根斯堡当选为罗马人的国王，接班的事算是安排妥当了。1637年2月15日，他在维也纳去世，五十八岁。\n\n他在波希米亚想办的事，大都办成了。他说过，宁可统治[[link:the-new-king-1617]]一片荒漠[[/link]]，也不统治一国异端；如今波希米亚只剩下了天主教徒，国王也[[link:no-more-elected-kings-1627]]不再由议会选举[[/link]]。接班的是他二十八岁的儿子斐迪南三世，十年前就在布拉格戴上了波希米亚的王冠。新皇帝接手的，是一场打了快二十年、还在越打越大的仗。\n\n另一边，签了《布拉格和约》的萨克森，很快就尝到了换边站的滋味。瑞典军的新统帅巴内尔，是古斯塔夫·阿道夫手下的老将。1636年，他在维特施托克把萨克森和帝国的联军打得大败；1639年4月，又在开姆尼茨打垮了萨克森军。从萨克森往南翻过厄尔士山，就是波希米亚。\n\n4月下旬，瑞典前锋进了波希米亚，拿下杰钦；到5月中，巴内尔的大军已经在利托梅日采住了下来。他在这里印了一份告示，向波希米亚人许诺自由。\n\n5月底，瑞典人拿下梅尔尼克，又在布兰迪斯附近的洛布科维采，打垮了赶来拦截的帝国军，两员帝国将领都成了俘虏。其中一个叫蒙特库科利，后来成了皇帝手下最有名的统帅之一；这时候，他还只是个打了败仗的年轻军官。\n\n接着，巴内尔兵临布拉格。他朝城里打了几天炮，要求投降，布拉格就是不开门。城西的[[link:two-hours-1620]]白山[[/link]]上，驻着一座筑了工事的帝国军营盘：十九年前，布拉格就是在这座山上丢的；这一回，它帮布拉格守住了城。巴内尔的步兵不够，重炮也不够，6月2日撤了围。\n\n解放没解放成，巴内尔换了个办法。他把大本营设在布兰迪斯的城堡里，派兵沿着易北河往四面八方去抢。跟他一起来的，还有不少捷克流亡者，有的就在瑞典军里当军官。6月，其中一位，霍迪采的兹德涅克，领兵围攻帕尔杜比采，没有打下来。\n\n秋天，巴内尔又来打了一次布拉格，攻老城、新城和维谢赫拉德，又一次被市民打了回去。10月底，他下令把占着的城镇和乡村挨个烧光抢光。[[b]]告示上许诺的是自由，瑞典人留给波希米亚的，却是一路焦土。[[/b]]对波希米亚来说，这恐怕是整场战争里最难熬的一段日子。直到1640年春天，帝国军才把瑞典人赶回了萨克森。\n\n第二年，巴内尔死了。接手瑞典军队的，是一个痛风痛得厉害、常常得躺在担架上指挥打仗的人。"
+    },
+    "relatedLandmarks": [
+      {
+        "slug": "zamek-lobkovice",
+        "relation": {
+          "en": "Near here on 29 May 1639 the Swedes beat the imperial army and took both its commanders prisoner; the château and the village were burned",
+          "cz": "Nedaleko odtud Švédové 29. května 1639 porazili císařské vojsko a zajali oba jeho velitele; zámek i ves lehly popelem",
+          "zh": "1639年5月29日，瑞典人在这附近打垮了帝国军，俘虏了两员主将；城堡和村子都被烧了"
+        }
+      },
+      {
+        "slug": "mohyla-bile-hory",
+        "relation": {
+          "en": "In 1639 an imperial army sat in a fortified camp on White Mountain and helped keep the Swedes out of Prague",
+          "cz": "Roku 1639 stálo na Bílé hoře v opevněném táboře císařské vojsko a pomohlo udržet Švédy mimo Prahu",
+          "zh": "1639年，帝国军在白山上扎下了营盘，帮布拉格挡住了瑞典人"
+        }
+      },
+      {
+        "slug": "zamek-brandys-nad-labem",
+        "relation": {
+          "en": "Banér's headquarters in 1639, from which his men plundered the country along the Elbe",
+          "cz": "Banérův hlavní stan roku 1639, odkud jeho muži plenili kraj podél Labe",
+          "zh": "1639年巴内尔的大本营，他的兵就是从这里出发，沿着易北河四处抢掠"
+        }
+      },
+      {
+        "slug": "zamek-pardubice",
+        "relation": {
+          "en": "Pardubice held out in June 1639 against a Swedish siege led by the Czech exile Zdeněk of Hodice",
+          "cz": "Pardubice v červnu 1639 odolaly švédskému obléhání, které vedl český exulant Zdeněk z Hodic",
+          "zh": "1639年6月，捷克流亡者霍迪采的兹德涅克领着瑞典军围攻帕尔杜比采，城没有被攻下"
+        }
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Johan_Ban%C3%A9r",
+    "images": ["/history/here-come-the-liberators-1639.webp"],
+    "imageCaptions": [
+      {"en":"Left: Litoměřice, May 1639. Banér's herald reads out the printed promise of freedom on the market square, under the cup-shaped turret of the House at the Chalice, while an old woman holds on tight to her goose. Right: late October 1639. Swedish soldiers loot and burn a Bohemian town, the same proclamation still nailed to the arcade.","cz":"Vlevo: Litoměřice, květen 1639. Banérův herold čte na náměstí pod kalichovitou věžičkou domu U Kalicha tištěný slib svobody a stará žena pevně tiskne svou husu. Vpravo: konec října 1639. Švédští vojáci plení a pálí české město a na podloubí pořád visí totéž provolání.","zh":"左：1639年5月，利托梅日采。巴内尔的传令官在广场上、“圣杯之家”杯形塔楼下宣读印好的自由告示，一位老太太紧紧抱着她的鹅。右：1639年10月底，瑞典士兵在一座波希米亚小城里抢掠放火，拱廊柱子上还钉着同一份告示。"}
+    ]
+  },
+  // Torstensson and Olomouc, 1641-1643 (user's request, 2026-10-28). Sources:
+  // en.wikipedia "Lennart Torstensson" (b. 1603, artillery chief, "Blixten",
+  // led from a litter, Breitenfeld 23 Oct O.S. = 2 Nov 1642, Denmark 1643);
+  // denik.cz "Pad Olomouce" (siege from 10 June, surrender 14 June after four
+  // days, entry 15 June; Prepisky fled to Brno; Miniati turned back 2 km out,
+  // under 1,000 recruits and students; incendiary shot; 623 houses -> 145
+  // habitable, 1,675 people left; libraries looted; Swedes left 1650);
+  // stary-olomoucky.rej.cz (eleven-article Akord; suburbs, churches and
+  // monasteries incl. Hradisko demolished for the walls; 2-3 people per house
+  // a day on the walls, refusers in a cage on Horni namesti). Quote: the
+  // chronicler line as quoted (in Czech) by denik.cz, chronicler unnamed
+  // there; the occupation chronicles are Paulin Zaczkowicz's and Flade's.
+  // Ingolstadt imprisonment 1632 and ruined health: commonly told, hedged.
+  // Ends on the 1645 return through Bohemia (Jankov next).
+  {
+    "slug": "lightning-on-a-litter-1642",
+    "era": "fire-and-ashes",
+    "startYear": 1642.4,
+    "year": {
+      "en": "1641–1643",
+      "cz": "1641–1643",
+      "zh": "1641年－1643年"
+    },
+    "title": {
+      "en": "A Waste of Good Paper",
+      "cz": "Škoda papíru",
+      "zh": "可惜了那张纸"
+    },
+    "hookLine": {
+      "en": "The treaty filled a whole sheet of paper. The Swedes kept none of it.",
+      "cz": "Smlouva zaplnila celý list papíru. Švédové z ní nedodrželi nic.",
+      "zh": "条约写了满满一张纸，瑞典人一条也没守。"
+    },
+    "summary": {
+      "en": "Banér died in May 1641. The man who took over the Swedish army was Lennart Torstensson, not yet forty. Under Gustavus Adolphus he had run the Swedish artillery. In 1632 the imperialists captured him and kept him for nearly a year in the damp prison of Ingolstadt; he is said never to have recovered his health. By now his gout was so bad that he often could not get on a horse, and he commanded from a litter.\n\nYet his army was famous for its speed. It would turn up where nobody expected it, long before anybody expected it. The Swedes called him Blixten, \"the Lightning\". [[b]]A general who could not mount a horse led the fastest army in the war.[[/b]]\n\nIn the spring of 1642 he did not come over the Ore Mountains into Bohemia as Banér had done. He swung round through Silesia instead, took Opava, beat an imperial army at Świdnica at the start of June, and walked into Moravia. His target was Olomouc, the most important city in Moravia.\n\nOlomouc was not ready. The highest official of the land fled to Brno. The commander left in charge, Colonel Antonio Miniati, tried to leave as well, but two kilometres outside the gates he ran into the Swedish vanguard and had to turn back. He had fewer than a thousand men, raw recruits and students among them. The Swedes breached the walls with their guns and set the town on fire with incendiary shot. After four days, on 14 June 1642, Olomouc surrendered. The next day Torstensson rode in.\n\nThe surrender treaty had eleven articles and promised to protect the townspeople and their property. What the Swedes thought of it, one Olomouc chronicler summed up later:\n\n[[quote:0]]\n\nTorstensson wanted Olomouc as a fortress, a base for the road to Brno and Vienna. The suburbs were pulled down, and with them churches, hospitals and monasteries, the great Hradisko monastery outside the town included; their stone went into the walls. Every house had to send two or three people a day to work on the fortifications, and anyone who refused was locked in a cage on the Upper Square. Monastery and chapter libraries were packed into crates and shipped to Sweden, where many of the books still are.\n\nThe Swedes stayed for eight years, until July 1650, two years after the war was over. By then barely 145 of the town's 623 burgher houses were fit to live in, and about 1,700 people were left. [[b]]Olomouc had surrendered under a treaty of eleven articles; the Swedes handed back an empty town.[[/b]]\n\nIn the autumn of 1642 Torstensson turned north again. On 2 November, at Breitenfeld near Leipzig, on the same ground where Gustavus Adolphus had won [[link:the-saxons-come-1631]]eleven years before[[/link]], he crushed an imperial army led by the emperor's own brother, Archduke Leopold Wilhelm.\n\nThen, in 1643, Sweden suddenly turned on an old rival, Denmark, and the Lightning hurried north to Jutland. Vienna could breathe again. Not for long: by the beginning of 1645 he was back, and this time he came through Bohemia.",
+      "cz": "Banér zemřel v květnu 1641. Švédské vojsko po něm převzal Lennart Torstensson, ještě mu nebylo čtyřicet. Za Gustava Adolfa velel švédskému dělostřelectvu. Roku 1632 ho císařští zajali a skoro rok drželi ve vlhkém vězení v Ingolstadtu; zdraví se mu prý už nikdy nevrátilo. Teď ho dna trápila tak, že často nemohl ani na koně, a velel z nosítek.\n\nJeho vojsko přesto proslulo rychlostí. Objevovalo se tam, kde ho nikdo nečekal, a dávno předtím, než ho kdo čekal. Švédové mu říkali Blixten, „Blesk“. [[b]]Generál, který nevylezl na koně, vedl nejrychlejší vojsko celé války.[[/b]]\n\nNa jaře 1642 nepřišel do Čech přes Krušné hory jako Banér. Vzal to oklikou přes Slezsko, dobyl Opavu, na začátku června porazil císařské vojsko u Svídnice a vešel na Moravu. Jeho cílem byla Olomouc, nejdůležitější město Moravy.\n\nOlomouc připravená nebyla. Nejvyšší zemský úředník utekl do Brna. Velitel, který zůstal na místě, plukovník Antonio Miniati, chtěl odjet také, ale dva kilometry za branami narazil na švédský předvoj a musel se vrátit. Měl méně než tisíc mužů, mezi nimi nezkušené rekruty a studenty. Švédové prostříleli hradby a zapalovali město žhavými koulemi. Po čtyřech dnech, 14. června 1642, se Olomouc vzdala. Druhý den do ní vjel Torstensson.\n\nKapitulační smlouva měla jedenáct článků a slibovala ochranu měšťanů i jejich majetku. Co si o ní mysleli Švédové, shrnul později jeden olomoucký kronikář:\n\n[[quote:0]]\n\nTorstensson chtěl z Olomouce pevnost, základnu na cestě k Brnu a Vídni. Předměstí šla k zemi a s nimi kostely, špitály i kláštery, včetně velkého kláštera Hradisko za městem; jejich kámen skončil v hradbách. Každý dům musel denně posílat dva nebo tři lidi na práci na opevnění a kdo odmítl, skončil v kleci na Horním náměstí. Klášterní a kapitulní knihovny putovaly v bednách do Švédska, kde je mnoho knih dodnes.\n\nŠvédové zůstali osm let, až do července 1650, dva roky po konci války. Ze 623 měšťanských domů bylo tou dobou obyvatelných sotva 145 a ve městě zbylo asi 1 700 lidí. [[b]]Olomouc se vzdala podle smlouvy o jedenácti článcích; Švédové vrátili prázdné město.[[/b]]\n\nNa podzim 1642 se Torstensson obrátil znovu na sever. 2. listopadu u Breitenfeldu nedaleko Lipska, na stejném poli, kde Gustav Adolf zvítězil [[link:the-saxons-come-1631]]před jedenácti lety[[/link]], rozdrtil císařské vojsko, které vedl sám císařův bratr, arcivévoda Leopold Vilém.\n\nRoku 1643 se pak Švédsko nečekaně obrátilo proti starému sokovi, Dánsku, a Blesk spěchal na sever do Jutska. Vídeň si mohla oddechnout. Ne nadlouho: na začátku roku 1645 byl zpátky, a tentokrát přišel přes Čechy.",
+      "zh": "1641年5月，巴内尔死了。接手瑞典军队的是莱纳特·托尔斯滕松，还不到四十岁。在古斯塔夫·阿道夫手下，他管的是瑞典的炮兵。1632年，他被帝国军俘虏，在因戈尔施塔特潮湿的牢里关了将近一年，据说身体从此就垮了。到这时候，他的痛风已经重到常常上不了马，只能躺在担架上指挥。\n\n可他的军队偏偏以快出名，总是出现在谁也想不到的地方，而且比谁想的都早。瑞典人管他叫“闪电”。[[b]]一个连马都上不去的将军，带着整场战争里跑得最快的一支军队。[[/b]]\n\n1642年春天，他没有像巴内尔那样翻过厄尔士山进波希米亚，而是绕道西里西亚，拿下了奥帕瓦，6月初又在希维德尼察打败一支帝国军，然后进了摩拉维亚。他的目标是摩拉维亚最重要的城市，奥洛穆茨。\n\n奥洛穆茨根本没准备好。摩拉维亚最高的地方长官跑去了布尔诺。留下来守城的米尼亚蒂上校本来也想走，结果出城两公里就撞上了瑞典前锋，只好掉头回来。他手下不到一千人，里面还有没打过仗的新兵和学生。瑞典人用大炮轰开城墙，又往城里打燃烧弹。守了四天，1642年6月14日，奥洛穆茨投降。第二天，托尔斯滕松进了城。\n\n投降条约一共十一条，答应保护市民和他们的财产。瑞典人怎么看这份条约，后来一位奥洛穆茨的编年史家一句话就说清了：\n\n[[quote:0]]\n\n托尔斯滕松要把奥洛穆茨变成一座要塞，作为进军布尔诺和维也纳的据点。城外的郊区全被拆平，连同那里的教堂、医院和修道院，城外那座大修道院赫拉迪斯科也没能幸免；拆下来的石头，都砌进了城墙。每户人家每天都得派两三个人去修工事，谁不肯，就被关进上广场的笼子里。修道院和主教座堂的藏书装箱运去了瑞典，很多书至今还在那里。\n\n瑞典人在这里一待就是八年，直到1650年7月才走，那时候战争已经结束两年了。全城623座市民的房子，还能住人的只剩145座左右，城里只剩下大约一千七百人。[[b]]奥洛穆茨投降时签的是一份十一条的条约，瑞典人还回来的，是一座空城。[[/b]]\n\n1642年秋天，托尔斯滕松又掉头北上。11月2日，在莱比锡附近的布赖滕费尔德，也就是[[link:the-saxons-come-1631]]十一年前[[/link]]古斯塔夫·阿道夫打赢的那片战场上，他把皇帝亲弟弟利奥波德·威廉大公率领的帝国军打得大败。\n\n1643年，瑞典突然掉头去打老对手丹麦，“闪电”又急急忙忙北上去了日德兰半岛。维也纳总算能喘口气了。可这口气没喘多久：1645年初，他又回来了，这一回，他走的是波希米亚。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "It was a pity for the paper on which these words, and this treaty, were ever written.",
+          "cz": "Byla škoda toho papíru, na který byla tato slova a tato smlouva vůbec napsána.",
+          "zh": "可惜了写下这些话、写下这份条约的那张纸。"
+        },
+        "attribution": {
+          "en": "An Olomouc chronicler of the Swedish occupation, on the surrender treaty",
+          "cz": "Olomoucký kronikář švédské okupace o kapitulační smlouvě",
+          "zh": "奥洛穆茨一位记述瑞典占领的编年史家，谈投降条约"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "olomouc",
+        "relation": {
+          "en": "Taken by Torstensson on 14 June 1642 and held by the Swedes for eight years, until July 1650",
+          "cz": "Torstensson ji dobyl 14. června 1642 a Švédové ji drželi osm let, až do července 1650",
+          "zh": "1642年6月14日被托尔斯滕松拿下，瑞典人在这里占了八年，直到1650年7月"
+        }
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Lennart_Torstensson",
+    "images": ["/history/lightning-on-a-litter-1642.webp"],
+    "imageCaptions": [
+      {"en": "Outside Olomouc, late summer 1642. Townspeople carry stone from the half-demolished Hradisko monastery church to the walls under Swedish guard. A Moravian nobleman holds up the sealed surrender treaty; Torstensson, his gouty foot bandaged and a fortress plan on his lap, waves him off, while old petitions burn in the brazier at his feet.", "cz": "Před Olomoucí, konec léta 1642. Měšťané pod švédským dozorem nosí kámen z napůl zbořeného kostela kláštera Hradisko na hradby. Moravský šlechtic drží zapečetěnou kapitulační smlouvu; Torstensson s obvázanou dnavou nohou a plánem pevnosti na klíně ho odbývá mávnutím ruky a v pánvi u jeho nohou hoří starší žádosti.", "zh": "1642年夏末，奥洛穆茨城外。市民们在瑞典兵的看守下，把拆了一半的赫拉迪斯科修道院教堂的石头运去修城墙。一位摩拉维亚贵族举着盖了印的投降条约；腿上摊着要塞图、痛风的脚缠着绷带的托尔斯滕松摆摆手不予理会，脚边的火盆里正烧着先前递上来的请愿书。"}
+    ]
   },
 ];
 

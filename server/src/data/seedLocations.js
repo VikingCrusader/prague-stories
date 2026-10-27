@@ -24593,7 +24593,7 @@ Skutečná sláva Turnova ale leží pod zemí. Císařovna Marie Terezie v roce
     slug: 'hrad-valdstejn',
     localizedNames: { cz: 'Hrad Valdštejn', zh: '瓦尔德什特因城堡' },
     labels: ['castle and fortress', 'ruin', 'gothic', 'outside'],
-    coordinates: { lat: 50.562413157787894, lng: 15.16627070173429 },
+    coordinates: { lat: 50.56246730855667, lng: 15.166901150603227 }, // on the bridge before the gate, free without a ticket
     rarity: 'epic',
     xpReward: 50,
     wikipediaUrl: 'https://en.wikipedia.org/wiki/Vald%C5%A1tejn_Castle',
@@ -32800,6 +32800,86 @@ Roku 2016 se vrátilo Metropolitní kapitule u sv. Víta. Rekonstrukce ateliéru
 2016年，它被归还给圣维特都主教座堂教士团。修缮由Acht事务所的建筑师瓦茨拉夫·赫拉瓦切克主持，前后花了七年，恢复了藻井天花板、瓷砖炉子、门和地板。两座新翼楼外覆砂岩和玻璃，依据的是莫克尔当年画了却没盖的两翼。2023年底重新开放时，几十年不对外的庭院也一起开放了：一座带喷泉的石砌平台，越过鹿沟望向皇家花园里的球场馆。这是城堡北墙上唯一一个谁都能走进去的庭院。
 
 🎁 彩蛋：其中一座新翼楼里开了一家带夏季露台的星巴克，捷克媒体随即称它是这家连锁店在全国最值钱的位置。莫克尔花了好多年，让大教堂看起来尽可能地中世纪；一百五十年后，他的邻居卖起了南瓜拿铁。`,
+    },
+  },
+  {
+    name: 'Carthusian Monastery of St. Bruno, Valdice',
+    slug: 'kartuziansky-klaster-valdice',
+    localizedNames: { cz: 'Kartuziánský klášter svatého Bruna (Valdice)', zh: '瓦尔迪采圣布鲁诺加尔都西会修道院' },
+    labels: ['monastery', 'baroque', 'outside'],
+    coordinates: { lat: 50.45540335486684, lng: 15.387930418171269 },
+    rarity: 'expedition',
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kartuzi%C3%A1nsk%C3%BD_kl%C3%A1%C5%A1ter_svat%C3%A9ho_Bruna_(Valdice)',
+    description: {
+      en: `Just outside Jičín, behind a high wall topped with wire, rises the tall front of a Baroque church. It was built for monks who had sworn to live in silence, each alone in his own cell. For the last 170 years the cells have held a different kind of resident: this is the strictest prison in the country.
+
+Albrecht von Wallenstein founded the monastery in 1627, at the height of his power, as the crowning piece of the landscape he was building around Jičín, the capital of his Duchy of Friedland. He chose the Carthusians, the most austere order of all, and he chose the place for his own grave. Andrea Spezza drew the plans, and the monastery was put up around a large square courtyard, with the church in the middle and the monks' cells along the sides, each with a little walled garden of its own. Work on the church went on long after its founder was gone; it was only finished in the 1660s.
+
+Wallenstein got his grave sooner than he planned. After his murder at Cheb in 1634 his body lay for two years in Stříbro, and in 1636 it was brought here and laid in the crypt. It stayed less than a century and a half. In 1782 Emperor Joseph II dissolved the monastery, the monks were sent away, and the remains were later moved to St. Anne's Chapel in Mnichovo Hradiště, where they still lie. Nobody wanted to buy the empty buildings. They served as a granary and a military store and slowly fell apart, until in 1855–1857 the state turned them into a prison. The monks' cells were raised by a storey, and a walled exercise yard went in.
+
+The prison soon became the most feared in the land. The famous 19th-century robber Václav Babinský served time here. Under the Communists it held political prisoners: in 1950 the priest Josef Toufar was tortured here, and later Bishop Štěpán Trochta and the underground poet Ivan Martin Jirous passed through its gates. It is still a working maximum-security prison, so the complex can only be seen from outside, but the church front over the wall and the 1698 statue of St. John of Nepomuk before the gate are free for anyone to look at. Since the 2010s the church has been slowly restored, with prisoners doing part of the work.
+
+🎁 Bonus: Babinský, once the most notorious robber in Bohemia, spent his last years as the gardener of a convent near Prague. From a monastery turned prison he ended up in a convent garden: a better change of address than most people who passed through Valdice got.`,
+      cz: `Kousek za Jičínem se za vysokou zdí s ostnatým drátem zvedá vysoké průčelí barokního kostela. Postavili ho pro mnichy, kteří slíbili žít v mlčení, každý sám ve své cele. Posledních sto sedmdesát let mají cely jiné obyvatele: je to nejpřísnější věznice v zemi.
+
+Albrecht z Valdštejna založil klášter roku 1627, na vrcholu své moci, jako korunu krajiny, kterou budoval kolem Jičína, hlavního města svého Frýdlantského vévodství. Vybral si kartuziány, nejpřísnější ze všech řádů, a vybral si tohle místo pro svůj hrob. Plány nakreslil Andrea Spezza a klášter vyrostl kolem velkého čtvercového nádvoří, s kostelem uprostřed a celami mnichů po stranách, každá s vlastní malou zahrádkou za zdí. Na kostele se pracovalo ještě dlouho po smrti zakladatele; dokončili ho až v 60. letech 17. století.
+
+Svého hrobu se Valdštejn dočkal dřív, než plánoval. Po zavraždění v Chebu roku 1634 leželo jeho tělo dva roky ve Stříbře a roku 1636 ho sem převezli a uložili do krypty. Nezůstalo tu ani půldruhého století. Roku 1782 zrušil císař Josef II. klášter, mnichy rozehnal a ostatky později převezli do kaple sv. Anny v Mnichově Hradišti, kde leží dodnes. Prázdné budovy nikdo nechtěl koupit. Sloužily jako sýpka a vojenský sklad a pomalu chátraly, až z nich stát v letech 1855–1857 udělal věznici. Cely mnichů zvýšili o patro a přibyl obezděný vycházkový dvůr.
+
+Věznice se brzy stala nejobávanější v zemi. Seděl tu slavný loupežník 19. století Václav Babinský. Za komunistů tu drželi politické vězně: roku 1950 tu mučili kněze Josefa Toufara, později prošli zdejší branou biskup Štěpán Trochta a undergroundový básník Ivan Martin Jirous. Dodnes je to věznice s nejvyšší ostrahou, takže areál lze vidět jen zvenku, ale průčelí kostela nad zdí a socha sv. Jana Nepomuckého z roku 1698 před branou jsou volně k vidění pro každého. Od 2010. let se kostel pomalu opravuje a část práce dělají sami vězni.
+
+🎁 Bonus: Babinský, kdysi nejobávanější loupežník v Čechách, prožil poslední léta jako zahradník v klášteře u Prahy. Z kláštera, který se stal věznicí, se dostal do klášterní zahrady: lepší změna adresy, než jaké se dočkala většina těch, kdo Valdicemi prošli.`,
+      zh: `出了伊钦城没多远，一道顶上拉着铁丝网的高墙后面，立着一座巴洛克教堂高高的正立面。它是为一群发誓终身静默、各自独居一室的修士建的。过去的一百七十年里，这些小室换了另一种住客：这里是全国看管最严的监狱。
+
+1627年，正当权势巅峰的华伦斯坦创建了这座修道院，作为他在伊钦周围打造的整片景观的点睛之笔；伊钦当时是他的弗里德兰公国的首府。他挑了加尔都西会，所有修会里最清苦的一个，也挑了这里做自己的墓地。设计图出自安德烈亚·斯佩扎之手，修道院围着一个方方正正的大庭院建起来：教堂居中，修士的小室排在四周，每间都带一个围起来的小花园。教堂的工程在创建人死后还拖了很久，直到1660年代才完工。
+
+华伦斯坦住进自己的墓，比他打算的早得多。1634年他在海布遇刺，遗体先在斯特日布罗停放了两年，1636年才运到这里，安放进地下墓室。可他在这里没躺满一个半世纪。1782年，皇帝约瑟夫二世解散了修道院，修士们被遣散，遗骨后来迁到了姆尼霍沃赫拉迪什捷的圣安娜礼拜堂，至今还在那里。空下来的房子没人肯买，先后当过粮仓和军需库，一点点破败下去，直到1855年至1857年被国家改成了监狱。修士的小室加盖了一层，又添了一个四面围墙的放风院。
+
+这座监狱很快成了全国最让人闻风丧胆的地方。19世纪的著名大盗瓦茨拉夫·巴宾斯基就在这里服过刑。共产党时期，这里关押过政治犯：1950年，神父约瑟夫·陶法尔在这里遭受酷刑；后来，主教什捷潘·特罗赫塔和地下诗人伊万·马丁·伊鲁斯也都进过这道大门。如今它仍是一座最高警戒级别的监狱，院子里面只能从外面看，但墙头露出的教堂正立面，还有大门前那尊1698年的圣若望·内波穆克像，谁都可以随便看。2010年代以来，教堂在一点点修缮，有一部分活儿是犯人自己干的。
+
+🎁 彩蛋：巴宾斯基这个当年波希米亚最臭名昭著的大盗，晚年在布拉格附近一座修女院里当了园丁。从一座改成监狱的修道院，到一座修道院的花园，这次搬家，比大多数进过瓦尔迪采的人都要幸运。`,
+    },
+  },
+  {
+    // History from the Ministry of Foreign Affairs' own page on the building
+    // (mzv.gov.cz, "Trauttmansdorffský palác"): Trčka purchase 1626, the
+    // emperor's 1636 transfer to Maximilian Trauttmansdorff, Baroque rebuild
+    // 1704–1706, sold 1806, workhouse 1833–1935 (Borromean sisters from 1854),
+    // Masaryk student college 1919–1940, interior ministry archive 1940–1998,
+    // the StB "Loreta" phone-tapping section until 1989, police until 2005,
+    // reconstruction 2014–2019. Linked from the-peace-of-prague-1635.
+    name: 'Trauttmansdorff Palace',
+    slug: 'trauttmansdorffsky-palac',
+    localizedNames: { cz: 'Trauttmansdorffský palác', zh: '特劳特曼斯多夫宫' },
+    labels: ['palace', 'baroque'],
+    district: 'Praha 1',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.0887496739485, lng: 14.39375874735509 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Trauttmansdorffsk%C3%BD_pal%C3%A1c',
+    description: {
+      en: `On the corner of Loretánská and U kasáren, a short walk from the castle, stands a long, tidy palace that has been almost everything a building can be: a count's residence, a workhouse, a student hostel, an archive, a secret-police listening post, and now an office of the Foreign Ministry. Only the counts left it in a better state than they found it.
+
+The site once held burgher houses, one of them said to have belonged to Peter Parler, the builder of St. Vitus Cathedral. After the great fire of 1541 two palaces rose here, owned in turn by the Šliks, the Vchynskýs and the Lobkowiczs. In 1626 they were bought by Marie Magdaléna Trčková of Lípa, whose son Adam was Wallenstein's brother-in-law. When Adam was killed beside Wallenstein at Cheb in 1634, the Trčka property was confiscated, and in 1636 the emperor gave this house to Count Maximilian von Trauttmansdorff, the diplomat who had just negotiated the Peace of Prague for him. His family turned the houses into one palace and rebuilt it in Baroque style in 1704–1706.
+
+They sold it in 1806, and within twenty years it was a ruin. In 1833 the state opened a workhouse here, where inmates worked from five in the morning without pay; from 1854 it was run by the Sisters of St. Charles Borromeo. In 1919 part of it became a student hostel named after President Masaryk, about 250 students in the old cells, eight to a washbasin. From 1940 it held the interior ministry's archive, and from 1948 the communist State Security, the StB, also had a section here: it tapped telephones and watched the Western embassies close by. After 1989 the police stayed on until 2005. The Foreign Ministry then took over the run-down building and restored it in 2014–2019.
+
+🎁 Bonus: A student who lived here in the 1920s remembered the empty rooms "gaping just as the workhouse convicts had left them". The students fought off a move to the new hostel in Dejvice because the rent there was too high, and stayed in their prison until the universities were closed in 1939.`,
+      cz: `Na rohu Loretánské a ulice U kasáren, kousek od Hradu, stojí dlouhý, upravený palác, který byl skoro vším, čím budova být může: sídlem hraběte, donucovací pracovnou, studentskou kolejí, archivem, odposlechovým stanovištěm tajné policie a dnes úřadem ministerstva zahraničí. Jen hrabata ho po sobě nechala v lepším stavu, než ho dostala.
+
+Na místě stávaly měšťanské domy, jeden z nich prý patřil Petru Parléřovi, staviteli svatovítské katedrály. Po velkém požáru roku 1541 tu vyrostly dva paláce, které postupně vlastnili Šlikové, Vchynští a Lobkovicové. Roku 1626 je koupila Marie Magdaléna Trčková z Lípy, jejíž syn Adam byl Valdštejnovým švagrem. Když byl Adam roku 1634 zabit spolu s Valdštejnem v Chebu, trčkovský majetek propadl, a roku 1636 dal císař tento dům hraběti Maxmiliánu z Trauttmansdorffu, diplomatovi, který pro něj právě vyjednal Pražský mír. Jeho rod domy spojil v jeden palác a v letech 1704–1706 ho barokně přestavěl.
+
+Roku 1806 ho prodali a do dvaceti let z něj byla ruina. Roku 1833 tu stát otevřel donucovací pracovnu, kde trestanci pracovali od pěti od rána bez mzdy; od roku 1854 ji vedly boromejky. Roku 1919 se část změnila ve studentskou kolej pojmenovanou po prezidentu Masarykovi, asi 250 studentů v bývalých celách, osm na jedno umyvadlo. Od roku 1940 tu sídlil archiv ministerstva vnitra a od roku 1948 tu měla pracoviště i komunistická Státní bezpečnost, StB: odposlouchávala telefony a sledovala nedaleká západní velvyslanectví. Po roce 1989 tu zůstala policie až do roku 2005. Pak zchátralou budovu převzalo ministerstvo zahraničí a v letech 2014–2019 ji obnovilo.
+
+🎁 Bonus: Student, který tu bydlel ve 20. letech, vzpomínal, že „pusté místnosti zely prázdnotou tak, jak je opustili trestanci pracovny“. Studenti se ubránili stěhování do nové koleje v Dejvicích, protože tam bylo nájemné příliš vysoké, a ve svém vězení zůstali, dokud roku 1939 nezavřeli vysoké školy.`,
+      zh: `洛雷坦斯卡街和乌卡萨伦街的拐角上，离城堡没几步路，立着一座狭长齐整的宫殿。一座房子能当的角色，它差不多都当过了：伯爵府邸、强制劳动所、学生宿舍、档案馆、秘密警察的窃听站，如今是外交部的办公楼。只有那几代伯爵，走的时候留下的房子比接手时更好。
+
+这块地上原先是几座市民的房子，据说其中一座属于建造圣维特大教堂的彼得·帕尔莱日。1541年大火之后，这里盖起了两座宫殿，先后归什利克家族、赫欣斯基家族和洛布科维茨家族所有。1626年，玛丽·玛格达莱娜·特尔奇科娃把它们买了下来，她的儿子亚当是华伦斯坦的连襟。1634年，亚当和华伦斯坦一起在海布被杀，特尔奇卡家的产业被没收；1636年，皇帝把这座宅子赏给了特劳特曼斯多夫伯爵马克西米利安，他刚刚替皇帝谈成了《布拉格和约》。特劳特曼斯多夫家把几座房子并成了一座宫殿，1704年到1706年又按巴洛克风格改建了一遍。
+
+1806年，这家人把宫殿卖了，不到二十年，它就成了一片废墟。1833年，政府在这里开了一所强制劳动所，被关进来的人早上五点就开工，干活不拿工钱；1854年起，由圣嘉禄·鲍荣茂修女会管理。1919年，宫殿的一部分改成了学生宿舍，以马萨里克总统命名，大约二百五十个学生住在原来的牢房里，八个人共用一个洗脸盆。1940年起，这里存放内政部的档案；1948年起，共产党的国家安全局（StB）也在这里设了一个部门，专门窃听电话，监视附近的西方使馆。1989年以后，警察一直待到2005年。之后，外交部接手了这座破败的老楼，2014年到2019年把它修了出来。
+
+🎁 彩蛋：一个1920年代住在这里的学生回忆说，那些空荡荡的屋子，“还是劳动所的犯人们离开时的样子”。后来当局想让学生搬到德伊维采新盖的宿舍去，学生们嫌那边房租太贵，硬是不搬，就在这座“监狱”里一直住到1939年大学被关闭。`,
     },
   },
 ];
