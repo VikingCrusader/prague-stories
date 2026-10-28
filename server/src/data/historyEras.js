@@ -623,7 +623,7 @@ export const HISTORY_ERAS = [
     key: 'voiceless-years',
     order: 13,
     themeClass: 'era-voiceless-years',
-    hasContent: false,
+    hasContent: true,
     title: {
       en: 'The Voiceless Years',
       cz: 'Oněmělá léta',

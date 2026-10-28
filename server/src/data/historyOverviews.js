@@ -227,4 +227,28 @@ export const historyOverviews = [
       zh: "1618年5月的一个早晨，布拉格城堡里的一扇窗户被推开了。从这扇窗开始的战争，打了整整三十年。波希米亚的等级们不再承认哈布斯堡家的国王，从德意志请来一位年轻的新教亲王，把王冠戴到了他的头上；后来人们给他起了个外号，说他只当了一个冬天的国王。1620年秋天，布拉格西郊一座不高的山岗上，一场打了两个钟头左右的仗，决定了这个王国此后几百年的样子。第二年夏天，老城广场上搭起了刑台。从那以后，布拉格换了主人，也换了信仰：有人改了宗，有人留了下来、闭上了嘴，也有人带着书和孩子离开了家乡，再也没能回来。一位出身波希米亚的将军借着这场战争飞黄腾达，在小城盖起了一座比城堡还气派的宫殿，结局却一点也不体面。战火从波希米亚一直烧到了半个欧洲，又在最后一年烧回了布拉格：1648年夏天，瑞典兵翻进了小城和城堡，把皇帝们攒了几十年的珍宝装上了马车；河对岸，老城的学生、市民和犹太人守着那座石桥，一直守到远方签订和约的消息传来。这场战争从布拉格开始，也在布拉格结束。",
     },
   },
+  // 2026-10-28. Ends on the 1689 fire without naming who was blamed for it
+  // (the user's call: no spoiler). Hints: the 1654 university merger, the
+  // Berní rula, Balbín's unpublished defence of Czech, Marci sending the
+  // Voynich manuscript to Kircher, Leopold I fleeing the Vienna plague to
+  // Prague (1679-80) and the 1680 peasant revolt, the first statue on
+  // Charles Bridge (St John of Nepomuk, 1683).
+  {
+    slug: "era-guide-voiceless-years",
+    era: "voiceless-years",
+    cardType: "overview",
+    startYear: 1648,
+    tone: "serious",
+    year: { en: "1648–1689", cz: "1648–1689", zh: "1648年－1689年" },
+    title: {
+      en: "Keep Your Voice Down",
+      cz: "Mluvte potichu",
+      zh: "说话小声点",
+    },
+    summary: {
+      en: "The Swedes went home and Prague began to clear up. The emperor put up a column on the Old Town Square to thank the Virgin, then wrapped the city in a new ring of star-shaped walls so that the next enemy would stay outside. The Jesuits merged the old university with their own college and gave it a new name: the first half for Charles IV, who founded it, the second for the reigning emperor, Ferdinand. In the countryside, tax commissioners went from village to village with their ledgers, filling page after page with deserted farms; in town, the nobles raced each other to build Baroque palaces and switched to German in their drawing rooms. One Jesuit father had fallen in love with the Czech language and wrote a whole book in its defence, then did not dare send it to the printer. A court physician posted a strange book that nobody could read to a friend in Rome, and nobody can read it to this day. An emperor fleeing the plague in Vienna came to Prague, and the plague followed him; that same year the peasants out in the country took up their sticks. In 1683 the first statue went up on Charles Bridge, and the bridge has never been empty since. So life went carefully on, and people's voices grew quieter and quieter, until one summer day in 1689 a fire of suspicious origin burned down a great part of the Old Town and the Jewish Town.",
+      cz: "Švédové odtáhli domů a Praha začala uklízet. Císař postavil na Staroměstském náměstí sloup jako díky Panně Marii a pak obehnal město novým věncem hvězdicových hradeb, aby příští nepřítel zůstal venku. Jezuité spojili starou univerzitu se svou kolejí a dali jí nové jméno: první půlku po Karlu IV., který ji založil, druhou po panujícím císaři Ferdinandovi. Na venkově obcházeli berní komisaři ves za vsí s účetními knihami a plnili stránku za stránkou pustými usedlostmi; ve městě se šlechta předháněla v stavbě barokních paláců a ve svých salonech přecházela na němčinu. Jeden jezuitský páter se zamiloval do češtiny a napsal na její obranu celou knihu, a pak se ji neodvážil dát do tisku. Dvorní lékař poslal příteli do Říma podivnou knihu, kterou nikdo nedokázal přečíst, a nikdo ji nedokáže přečíst dodnes. Císař, který utíkal před vídeňským morem, přijel do Prahy a mor šel za ním; téhož roku se na venkově chopili sedláci klacků. Roku 1683 stanula na Karlově mostě první socha a od té doby už most nikdy nebyl prázdný. Tak se žilo opatrně dál a hlasy lidí byly čím dál tišší, až jednoho letního dne roku 1689 požár podezřelého původu spálil velkou část Starého Města a Židovského Města.",
+      zh: "瑞典人回家了，布拉格开始收拾残局。皇帝在老城广场立起一根柱子感谢圣母，又给城市围上了一圈新的星形城墙，好让下一回的敌人进不来。耶稣会士把老大学和自己的学院并成了一所，还换了个新名字：前一半给建校的查理四世，后一半给在位的皇帝斐迪南。乡下，税务官带着账本一村一村地登记，荒掉的农庄写满了一页又一页；城里，贵族们比赛似的盖起巴洛克府邸，在自家客厅里改说了德语。一位耶稣会神父偏偏爱上了捷克语，写了一整本书替它辩护，写完了，却不敢拿去付印。一位御医把一本谁也读不懂的怪书寄给了罗马的朋友，这本书到今天也还没人读懂。一位皇帝为了躲维也纳的瘟疫跑到布拉格，瘟疫也跟着来了；就在同一年，乡下的农民抄起了棍棒。1683年，查理大桥上立起了第一尊雕像，从那以后，桥上就再也没空过。日子就这样小心翼翼地往前过，人们说话的声音越来越轻，直到1689年夏天的一天，一场来历蹊跷的大火，把老城和犹太城烧掉了一大片。",
+    },
+  },
 ];

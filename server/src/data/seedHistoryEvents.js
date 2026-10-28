@@ -30038,7 +30038,9 @@ export const historyEvents = [
     ],
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Battle_of_Prague_(1648)"
   },
-  // Westphalia and Prague's peace, 1648-1650 (user's outline, 2026-10-28).
+  // Westphalia and Prague's peace, 1648-1649 (user's outline, 2026-10-28).
+  // The Marian column was moved out to open voiceless-years
+  // (the-column-on-the-square-1650, user's call 2026-10-28).
   // Sources: ČT24 2018 "Třicetiletá válka připravila Prahu o třetinu
   // obyvatel" (news 1 Nov, withdrawal began 1 Nov, ceasefire 29 Nov in a
   // shed in the middle of Charles Bridge, thanksgiving 6 Nov at Týn and the
@@ -30058,9 +30060,9 @@ export const historyEvents = [
     "startYear": 1648.85,
     "tone": "serious",
     "year": {
-      "en": "1648–1650",
-      "cz": "1648–1650",
-      "zh": "1648年－1650年"
+      "en": "1648–1649",
+      "cz": "1648–1649",
+      "zh": "1648年－1649年"
     },
     "title": {
       "en": "It Began Here, It Ended Here",
@@ -30073,9 +30075,9 @@ export const historyEvents = [
       "zh": "战争从布拉格城堡的一扇窗户开始，三十年后，在查理大桥上的一座小棚子里结束。"
     },
     "summary": {
-      "en": "On 1 November Charles Gustav received the news in his camp: on 24 October the peace had been signed in Westphalia. The war was over. The Swedes stopped their attacks and began to pull back.\n\nAt first the Old Town laughed. On 6 November its people crowded into the Týn Church and onto the Old Town Square for a Mass of thanksgiving. The walls were full of holes and the powder was almost gone, but the Swedes had never got in. The plaque later set into the Old Town Bridge Tower ends like this:\n\n[[quote:0]]\n\nOn 29 November, in a small shed put up in the very middle of Charles Bridge, the two sides signed a ceasefire. Thirty years earlier the war had begun at [[link:the-good-old-bohemian-way-1618]]a castle window[[/link]]. [[b]]It began at a window in Prague, and it ended on a bridge in Prague.[[/b]]\n\nOnce the laughing was done, it was time to cry.\n\nThe treaty did not say much about Bohemia, but what it said was clear. Bohemia stayed with the Habsburgs, and it stayed Catholic only. Elsewhere in the Empire, Protestants could keep their churches and lands as they had held them in 1624; that rule did not apply to the emperor's own hereditary lands. In all the lands of the Bohemian crown, only the Protestants of Silesia, with Saxony and Sweden speaking up for them, won anything at all: permission to build three wooden churches outside their town walls.\n\nAnd the Bohemians in exile? The treaty gave them an amnesty and let them come home, on one condition:\n\n[[quote:1]]\n\n\"The laws in use\" meant the old choice: [[link:convert-or-leave-1627]]convert or leave[[/link]]. As for the estates and houses confiscated after White Mountain, they stayed with whoever held them now.\n\nEveryone else got something. The [[link:a-king-for-one-winter-1620]]Winter King[[/link]]'s son got back the Palatinate on the Rhine, along with an electoral seat of his own; Saxony [[link:the-peace-of-prague-1635]]kept Lusatia[[/link]]; Sweden took land and five million thalers. [[b]]The war had started in Bohemia, and in the end everyone got a share of something, except the Bohemians in exile.[[/b]]\n\nIn the small Polish town of Leszno, Comenius had been waiting. Around the time of the signing he wrote letter after letter to the Swedish chancellor, Axel Oxenstierna, begging the Swedes not to forget the exiled Brethren. The Swedes had promised, but at the negotiating table nobody mentioned them again. Two years later he wrote The Bequest of the Dying Mother, the Unity of Brethren, with this line in it:\n\n[[quote:2]]\n\nPrague had held, but it was not the Prague of thirty years before. By the end of the war the city had lost about a third of its people. The Lesser Town had been stripped bare, Rudolf's collection was in Stockholm, the walls were pitted with cannon shot, and the bridge side of the Old Town Bridge Tower was bare stone. Nor did the Swedes leave at once: they stayed in the Lesser Town until the following September, and the city had to go on feeding them. [[b]]Thirty years of fire had finally burned out, and what they left Prague was ashes.[[/b]]\n\nThe emperor, at least, remembered what Prague had done. He added to the Old Town's arms a hand holding a sword, guarding the town gate, and in 1650 he raised a Marian column on the Old Town Square to thank the Virgin for saving the city. It stood a few steps from where the scaffold of the [[link:twenty-seven-1621]]twenty-seven[[/link]] had stood.\n\nThat hand with the sword is still on Prague's coat of arms today.",
-      "cz": "1. listopadu dostal Karel Gustav v táboře zprávu: 24. října byl ve Vestfálsku podepsán mír. Válka skončila. Švédové zastavili útoky a začali se stahovat.\n\nStaré Město se nejdřív smálo. 6. listopadu se lidé nahrnuli do Týnského chrámu a na Staroměstské náměstí na děkovnou mši. Hradby byly plné děr a prachu zbývalo jen málo, ale Švédové se dovnitř nedostali. Deska, kterou později osadili na Staroměstskou mosteckou věž, končí takto:\n\n[[quote:0]]\n\n29. listopadu podepsaly obě strany příměří v malé boudě postavené uprostřed Karlova mostu. Před třiceti lety začala tahle válka u [[link:the-good-old-bohemian-way-1618]]jednoho hradního okna[[/link]]. [[b]]Začala u okna v Praze a skončila na mostě v Praze.[[/b]]\n\nKdyž smích dozněl, přišel čas na pláč.\n\nO Čechách toho mírová smlouva mnoho neříkala, ale to, co říkala, bylo jasné. Čechy zůstaly Habsburkům a zůstaly jen katolické. Jinde v říši si protestanti mohli ponechat kostely a statky tak, jak je drželi roku 1624; na císařovy vlastní dědičné země se to však nevztahovalo. Ze všech zemí Koruny české něco vybojovali jen slezští protestanti, za které se přimluvilo Sasko a Švédsko: směli si za hradbami postavit tři dřevěné kostely.\n\nA Češi v exilu? Smlouva jim dávala amnestii a dovolovala jim vrátit se domů, ale s jednou podmínkou:\n\n[[quote:1]]\n\n„Zákony, které tam platí“, znamenaly starou volbu: [[link:convert-or-leave-1627]]konvertovat, nebo odejít[[/link]]. A statky a domy zabavené po Bílé hoře zůstaly tomu, kdo je držel teď.\n\nVšichni ostatní něco dostali. Syn [[link:a-king-for-one-winter-1620]]Zimního krále[[/link]] získal zpět Falc na Rýně a k tomu vlastní kurfiřtský hlas; Sasko si [[link:the-peace-of-prague-1635]]ponechalo Lužici[[/link]]; Švédsko dostalo území a pět milionů tolarů. [[b]]Válka začala v Čechách a nakonec každý něco dostal, jen čeští exulanti nic.[[/b]]\n\nV polském městečku Lešně čekal Komenský. V době podpisu míru psal jeden dopis za druhým švédskému kancléři Axelu Oxenstiernovi a prosil, aby Švédové na vyhnané bratry nezapomněli. Švédové to slíbili, ale u jednacího stolu už se o nich nikdo nezmínil. O dva roky později napsal Kšaft umírající matky Jednoty bratrské a v něm stojí:\n\n[[quote:2]]\n\nPraha se ubránila, ale už to nebyla Praha jako před třiceti lety. Do konce války přišlo město asi o třetinu obyvatel. Malá Strana byla vydrancovaná do mrtě, Rudolfovy sbírky byly ve Stockholmu, hradby rozstřílené a strana Staroměstské mostecké věže k mostu holý kámen. A Švédové hned neodešli: zůstali na Malé Straně až do září příštího roku a město je muselo dál živit. [[b]]Třicet let ohně konečně dohořelo a Praze po něm zůstal popel.[[/b]]\n\nCísař aspoň nezapomněl, co Praha dokázala. Do znaku Starého Města přidal ruku s mečem, která hájí městskou bránu, a roku 1650 dal na Staroměstském náměstí postavit mariánský sloup jako díky Panně Marii za záchranu města. Stál pár kroků od místa, kde kdysi stálo popraviště [[link:twenty-seven-1621]]sedmadvaceti[[/link]].\n\nTa ruka s mečem je v pražském znaku dodnes.",
-      "zh": "11月1日，卡尔·古斯塔夫在营里收到了那个消息：10月24日，威斯特伐利亚的和约已经签了字。战争结束了。瑞典人停止了进攻，开始往回撤。\n\n老城的人先是笑了。11月6日，他们涌进泰恩教堂和老城广场，做了一场感恩弥撒。城墙上被打出了窟窿，火药只剩下最后一点，可老城到底没让瑞典人进来。后来刻在老城桥塔上的那块碑，后半截是这么写的：\n\n[[quote:0]]\n\n11月29日，在查理大桥正中间临时搭起的一座小棚子里，双方签下了停战协议。三十年前，这场战争是从[[link:the-good-old-bohemian-way-1618]]城堡的一扇窗户[[/link]]开始的。[[b]]始于布拉格的一扇窗户，止于布拉格的一座桥。[[/b]]\n\n可笑完了，就该哭了。\n\n和约里关于波希米亚的话不多，意思却很清楚：波希米亚仍归哈布斯堡家，仍然只许信天主教。在帝国别的地方，新教徒手里的教堂和地产，可以按1624年的样子保留下来；这一条，偏偏不适用于皇帝自己的世袭领地。整个波希米亚王冠领地里，只有西里西亚的新教徒，靠着萨克森和瑞典替他们说话，争到了一点东西：允许他们在城墙外盖三座木头教堂。\n\n那些流亡在外的波希米亚人呢？和约给了他们大赦，也准他们回家，但有条件：\n\n[[quote:1]]\n\n所谓“当地的法律”，就是[[link:convert-or-leave-1627]]要么改宗，要么离开[[/link]]的那一套。至于白山之后被没收的庄园和房产，一律归现在的主人。\n\n别人都分到了东西。[[link:a-king-for-one-winter-1620]]冬王[[/link]]的儿子拿回了莱茵河边的普法尔茨，还多得了一个选帝侯的位子；萨克森[[link:the-peace-of-prague-1635]]留下了卢萨蒂亚[[/link]]；瑞典拿到了土地和五百万塔勒。[[b]]这场战争是从波希米亚打起来的，到头来，每一家都分到了一点，唯独流亡的波希米亚人什么也没有。[[/b]]\n\n在波兰小城莱什诺，夸美纽斯一直在等。和约签字前后，他一封接一封地给瑞典首相奥克森谢尔纳写信，求瑞典人别忘了流亡的弟兄们。瑞典人答应过，可到了谈判桌上，谁也没再提起他们。两年后，他写下了那本《垂死的母亲弟兄会的遗嘱》，里面有这么一句：\n\n[[quote:2]]\n\n守住了的布拉格，也已经不是三十年前的布拉格了。仗打下来，城里大约少了三分之一的人。小城区被抢了个精光，鲁道夫的收藏去了斯德哥尔摩，城墙上到处是炮弹打出的窟窿，老城桥塔朝着大桥的那一面，只剩下光秃秃的石头。瑞典人也没有马上走：他们在小城区一直待到第二年9月，这期间，城里还得接着养他们。[[b]]三十年的战火终于熄了，留给布拉格的，是一地灰烬。[[/b]]\n\n皇帝倒是记着布拉格的功劳。他给老城的城徽添上了一只握着剑、守着城门的手；1650年，又在老城广场上立起了一根圣母柱，感谢圣母保住了这座城。柱子立的地方，离[[link:twenty-seven-1621]]二十七个人[[/link]]被处死的刑台，只有几步远。\n\n那只握剑的手，今天还在布拉格的市徽上。"
+      "en": "On 1 November Charles Gustav received the news in his camp: on 24 October the peace had been signed in Westphalia. The war was over. The Swedes stopped their attacks and began to pull back.\n\nAt first the Old Town laughed. On 6 November its people crowded into the Týn Church and onto the Old Town Square for a Mass of thanksgiving. The walls were full of holes and the powder was almost gone, but the Swedes had never got in. The plaque later set into the Old Town Bridge Tower ends like this:\n\n[[quote:0]]\n\nOn 29 November, in a small shed put up in the very middle of Charles Bridge, the two sides signed a ceasefire. Thirty years earlier the war had begun at [[link:the-good-old-bohemian-way-1618]]a castle window[[/link]]. [[b]]It began at a window in Prague, and it ended on a bridge in Prague.[[/b]]\n\nOnce the laughing was done, it was time to cry.\n\nThe treaty did not say much about Bohemia, but what it said was clear. Bohemia stayed with the Habsburgs, and it stayed Catholic only. Elsewhere in the Empire, Protestants could keep their churches and lands as they had held them in 1624; that rule did not apply to the emperor's own hereditary lands. In all the lands of the Bohemian crown, only the Protestants of Silesia, with Saxony and Sweden speaking up for them, won anything at all: permission to build three wooden churches outside their town walls.\n\nAnd the Bohemians in exile? The treaty gave them an amnesty and let them come home, on one condition:\n\n[[quote:1]]\n\n\"The laws in use\" meant the old choice: [[link:convert-or-leave-1627]]convert or leave[[/link]]. As for the estates and houses confiscated after White Mountain, they stayed with whoever held them now.\n\nEveryone else got something. The [[link:a-king-for-one-winter-1620]]Winter King[[/link]]'s son got back the Palatinate on the Rhine, along with an electoral seat of his own; Saxony [[link:the-peace-of-prague-1635]]kept Lusatia[[/link]]; Sweden took land and five million thalers. [[b]]The war had started in Bohemia, and in the end everyone got a share of something, except the Bohemians in exile.[[/b]]\n\nIn the small Polish town of Leszno, Comenius had been waiting. Around the time of the signing he wrote letter after letter to the Swedish chancellor, Axel Oxenstierna, begging the Swedes not to forget the exiled Brethren. The Swedes had promised, but at the negotiating table nobody mentioned them again. Two years later he wrote The Bequest of the Dying Mother, the Unity of Brethren, with this line in it:\n\n[[quote:2]]\n\nPrague had held, but it was not the Prague of thirty years before. By the end of the war the city had lost about a third of its people. The Lesser Town had been stripped bare, Rudolf's collection was in Stockholm, the walls were pitted with cannon shot, and the bridge side of the Old Town Bridge Tower was bare stone. Nor did the Swedes leave at once: they stayed in the Lesser Town until the following September, and the city had to go on feeding them. [[b]]Thirty years of fire had finally burned out, and what they left Prague was ashes.[[/b]]\n\nThe emperor, at least, remembered what Prague had done. He added to the Old Town's arms a hand holding a sword, guarding the town gate.\n\nThat hand with the sword is still on Prague's coat of arms today.",
+      "cz": "1. listopadu dostal Karel Gustav v táboře zprávu: 24. října byl ve Vestfálsku podepsán mír. Válka skončila. Švédové zastavili útoky a začali se stahovat.\n\nStaré Město se nejdřív smálo. 6. listopadu se lidé nahrnuli do Týnského chrámu a na Staroměstské náměstí na děkovnou mši. Hradby byly plné děr a prachu zbývalo jen málo, ale Švédové se dovnitř nedostali. Deska, kterou později osadili na Staroměstskou mosteckou věž, končí takto:\n\n[[quote:0]]\n\n29. listopadu podepsaly obě strany příměří v malé boudě postavené uprostřed Karlova mostu. Před třiceti lety začala tahle válka u [[link:the-good-old-bohemian-way-1618]]jednoho hradního okna[[/link]]. [[b]]Začala u okna v Praze a skončila na mostě v Praze.[[/b]]\n\nKdyž smích dozněl, přišel čas na pláč.\n\nO Čechách toho mírová smlouva mnoho neříkala, ale to, co říkala, bylo jasné. Čechy zůstaly Habsburkům a zůstaly jen katolické. Jinde v říši si protestanti mohli ponechat kostely a statky tak, jak je drželi roku 1624; na císařovy vlastní dědičné země se to však nevztahovalo. Ze všech zemí Koruny české něco vybojovali jen slezští protestanti, za které se přimluvilo Sasko a Švédsko: směli si za hradbami postavit tři dřevěné kostely.\n\nA Češi v exilu? Smlouva jim dávala amnestii a dovolovala jim vrátit se domů, ale s jednou podmínkou:\n\n[[quote:1]]\n\n„Zákony, které tam platí“, znamenaly starou volbu: [[link:convert-or-leave-1627]]konvertovat, nebo odejít[[/link]]. A statky a domy zabavené po Bílé hoře zůstaly tomu, kdo je držel teď.\n\nVšichni ostatní něco dostali. Syn [[link:a-king-for-one-winter-1620]]Zimního krále[[/link]] získal zpět Falc na Rýně a k tomu vlastní kurfiřtský hlas; Sasko si [[link:the-peace-of-prague-1635]]ponechalo Lužici[[/link]]; Švédsko dostalo území a pět milionů tolarů. [[b]]Válka začala v Čechách a nakonec každý něco dostal, jen čeští exulanti nic.[[/b]]\n\nV polském městečku Lešně čekal Komenský. V době podpisu míru psal jeden dopis za druhým švédskému kancléři Axelu Oxenstiernovi a prosil, aby Švédové na vyhnané bratry nezapomněli. Švédové to slíbili, ale u jednacího stolu už se o nich nikdo nezmínil. O dva roky později napsal Kšaft umírající matky Jednoty bratrské a v něm stojí:\n\n[[quote:2]]\n\nPraha se ubránila, ale už to nebyla Praha jako před třiceti lety. Do konce války přišlo město asi o třetinu obyvatel. Malá Strana byla vydrancovaná do mrtě, Rudolfovy sbírky byly ve Stockholmu, hradby rozstřílené a strana Staroměstské mostecké věže k mostu holý kámen. A Švédové hned neodešli: zůstali na Malé Straně až do září příštího roku a město je muselo dál živit. [[b]]Třicet let ohně konečně dohořelo a Praze po něm zůstal popel.[[/b]]\n\nCísař aspoň nezapomněl, co Praha dokázala. Do znaku Starého Města přidal ruku s mečem, která hájí městskou bránu.\n\nTa ruka s mečem je v pražském znaku dodnes.",
+      "zh": "11月1日，卡尔·古斯塔夫在营里收到了那个消息：10月24日，威斯特伐利亚的和约已经签了字。战争结束了。瑞典人停止了进攻，开始往回撤。\n\n老城的人先是笑了。11月6日，他们涌进泰恩教堂和老城广场，做了一场感恩弥撒。城墙上被打出了窟窿，火药只剩下最后一点，可老城到底没让瑞典人进来。后来刻在老城桥塔上的那块碑，后半截是这么写的：\n\n[[quote:0]]\n\n11月29日，在查理大桥正中间临时搭起的一座小棚子里，双方签下了停战协议。三十年前，这场战争是从[[link:the-good-old-bohemian-way-1618]]城堡的一扇窗户[[/link]]开始的。[[b]]始于布拉格的一扇窗户，止于布拉格的一座桥。[[/b]]\n\n可笑完了，就该哭了。\n\n和约里关于波希米亚的话不多，意思却很清楚：波希米亚仍归哈布斯堡家，仍然只许信天主教。在帝国别的地方，新教徒手里的教堂和地产，可以按1624年的样子保留下来；这一条，偏偏不适用于皇帝自己的世袭领地。整个波希米亚王冠领地里，只有西里西亚的新教徒，靠着萨克森和瑞典替他们说话，争到了一点东西：允许他们在城墙外盖三座木头教堂。\n\n那些流亡在外的波希米亚人呢？和约给了他们大赦，也准他们回家，但有条件：\n\n[[quote:1]]\n\n所谓“当地的法律”，就是[[link:convert-or-leave-1627]]要么改宗，要么离开[[/link]]的那一套。至于白山之后被没收的庄园和房产，一律归现在的主人。\n\n别人都分到了东西。[[link:a-king-for-one-winter-1620]]冬王[[/link]]的儿子拿回了莱茵河边的普法尔茨，还多得了一个选帝侯的位子；萨克森[[link:the-peace-of-prague-1635]]留下了卢萨蒂亚[[/link]]；瑞典拿到了土地和五百万塔勒。[[b]]这场战争是从波希米亚打起来的，到头来，每一家都分到了一点，唯独流亡的波希米亚人什么也没有。[[/b]]\n\n在波兰小城莱什诺，夸美纽斯一直在等。和约签字前后，他一封接一封地给瑞典首相奥克森谢尔纳写信，求瑞典人别忘了流亡的弟兄们。瑞典人答应过，可到了谈判桌上，谁也没再提起他们。两年后，他写下了那本《垂死的母亲弟兄会的遗嘱》，里面有这么一句：\n\n[[quote:2]]\n\n守住了的布拉格，也已经不是三十年前的布拉格了。仗打下来，城里大约少了三分之一的人。小城区被抢了个精光，鲁道夫的收藏去了斯德哥尔摩，城墙上到处是炮弹打出的窟窿，老城桥塔朝着大桥的那一面，只剩下光秃秃的石头。瑞典人也没有马上走：他们在小城区一直待到第二年9月，这期间，城里还得接着养他们。[[b]]三十年的战火终于熄了，留给布拉格的，是一地灰烬。[[/b]]\n\n皇帝倒是记着布拉格的功劳。他给老城的城徽添上了一只握着剑、守着城门的手。\n\n那只握剑的手，今天还在布拉格的市徽上。"
     },
     "quotes": [
       {
@@ -30130,14 +30132,6 @@ export const historyEvents = [
           "en": "Where the Old Town gave thanks for the end of the siege on 6 November 1648",
           "cz": "Zde Staré Město 6. listopadu 1648 děkovalo za konec obléhání",
           "zh": "1648年11月6日，老城人在这里为围城结束做感恩弥撒"
-        }
-      },
-      {
-        "slug": "mariansky-sloup",
-        "relation": {
-          "en": "Raised by Ferdinand III in 1650 in thanks for Prague's defence against the Swedes; today's column is a 2020 replica",
-          "cz": "Postavil jej Ferdinand III. roku 1650 jako díky za obranu Prahy proti Švédům; dnešní sloup je replika z roku 2020",
-          "zh": "斐迪南三世1650年为感谢布拉格抵挡住瑞典人而立；今天的柱子是2020年的复制品"
         }
       }
     ],
@@ -30256,9 +30250,9 @@ export const historyEvents = [
       "zh": "这场仗没有谁赢得干干净净，而波希米亚付出的代价，比谁都重。"
     },
     "summary": {
-      "en": "In May 1618, when three men were thrown out of a castle window, nobody imagined the war would last thirty years.\n\nWhat those thirty years cost Bohemia is still impossible to say. Before the war Bohemia had roughly 1.7 million people. Some historians reckon that only a little over 900,000 were left afterwards, almost half gone; others, going carefully through local records, put the average loss at under a third. Estimates run from a quarter to four-fifths. The figures are disputed because nobody counted properly at the time: those killed by weapons, by hunger and plague, those who fled into the forests and those who went into exile all blur together.\n\nWhat can be seen is a ledger. In 1654, six years after the war, Bohemia drew up its first register of every farm in the land for taxation, the Berní rula. Village after village is listed, and after many of the farms stands a single word: deserted.\n\nAnd there was a whole generation in exile. After White Mountain nobles, townsmen, preachers and scholars who would not change their faith had to [[link:convert-or-leave-1627]]convert or leave[[/link]]. How many left is just as uncertain, but they ran into tens of thousands. They waited more than twenty years, and what they got was a peace that left them out. Comenius never went home; he died in Amsterdam more than twenty years later.\n\nNor was any side's record clean. Both armies [[link:war-feeds-war-1625]]made war feed war[[/link]], eating and plundering wherever they went. The Swedes entered Bohemia [[link:here-come-the-liberators-1639]]as liberators[[/link]] and left scorched earth behind them; the emperor's own armies ate his own subjects bare just the same. In January 1645, on the eve of Jankov, a noblewoman wrote to her son:\n\n[[quote:0]]\n\n[[b]]To a Bohemian peasant, the emperor's soldiers and the Swedish soldiers looked much the same.[[/b]]\n\nGermany suffered even more. At least five million people died in the Empire, about one in five, and some regions lost more than half their people; it took the Empire more than sixty years to recover. A German who had served as a soldier in the war wrote a novel twenty years later that opens with troopers bursting into a farm:\n\n[[quote:1]]\n\nAnd it was not only Central Europe that was in turmoil. In 1643 an English preacher told the House of Commons:\n\n[[quote:2]]\n\nHe was right. In England king and Parliament went to war, and in January 1649 King Charles I went to the scaffold, three months after the signing in Westphalia. France was torn by the Fronde; Spain lost Portugal and had to put down risings in Catalonia and Naples. On the other side of the world, in China, the rebel Li Zicheng took Beijing in 1644 and the Chongzhen Emperor hanged himself. The Manchu armies from beyond the Great Wall then marched in to take the prize, and the Ming dynasty, which had ruled China for nearly three hundred years, came to an end.\n\nWhy these decades in particular? Some historians, such as Geoffrey Parker, have looked to the weather. The seventeenth century fell in the coldest stretch of the \"Little Ice Age\": longer winters, colder and wetter summers, harvest after harvest failing. Hunger drove people to revolt, and revolt brought war. Other historians think the weather only poured oil on a fire that people had lit.\n\nAfter Westphalia, Prague slowly grew quiet. But Protestantism was still forbidden in Bohemia. At court, in the offices and in the nobles' palaces, German was heard more and more, while Czech slowly retreated to the markets, the kitchens and the countryside. The king lived in Vienna, and the office that governed Bohemia had [[link:no-more-elected-kings-1627]]long since moved there too[[/link]]. [[b]]The Kingdom of Bohemia still existed in name, but it looked more and more like a province of Austria.[[/b]]\n\nThirty years of cannon fire had stopped. The city was quiet, so quiet that even the sound of its own language was growing fainter.",
-      "cz": "V květnu 1618, když z hradního okna vyletěli tři muži, nikoho nenapadlo, že válka potrvá třicet let.\n\nCo Čechy těch třicet let stálo, se nedá spočítat dodnes. Před válkou měly Čechy zhruba 1,7 milionu obyvatel. Někteří historici odhadují, že po ní zbylo jen něco přes 900 tisíc, tedy skoro polovina zmizela; jiní po pečlivém pročtení místních pramenů došli k průměrnému úbytku pod třicet procent. Odhady sahají od čtvrtiny až po čtyři pětiny. Čísla jsou sporná, protože tehdy nikdo pořádně nepočítal: padlí, mrtví hladem a morem, ti, kdo utekli do lesů, i ti, kdo odešli do exilu, splývají dohromady.\n\nVidět je jedna účetní kniha. Roku 1654, šest let po válce, vznikl v Čechách první soupis všech selských usedlostí v zemi pro účely daní, berní rula. Ves za vsí je v ní zapsána a za mnoha usedlostmi stojí jediné slovo: pustá.\n\nA byla tu celá generace v exilu. Po Bílé hoře museli šlechtici, měšťané, kazatelé i učenci, kteří nechtěli změnit víru, [[link:convert-or-leave-1627]]konvertovat, nebo odejít[[/link]]. Kolik jich odešlo, je stejně nejisté, ale šlo o desítky tisíc. Čekali přes dvacet let a dočkali se míru, který na ně zapomněl. Komenský se domů už nikdy nevrátil; zemřel o dvacet let později v Amsterdamu.\n\nČistý štít neměl v té válce nikdo. Obě vojska [[link:war-feeds-war-1625]]živila válku válkou[[/link]] a kudy prošla, tam jedla a plenila. Švédové přišli do Čech [[link:here-come-the-liberators-1639]]jako osvoboditelé[[/link]] a zanechali za sebou spálenou zemi; císařova vlastní vojska vyjídala jeho vlastní poddané úplně stejně. V lednu 1645, v předvečer Jankova, psala jedna šlechtična synovi:\n\n[[quote:0]]\n\n[[b]]Pro českého sedláka vypadali císařští vojáci a Švédové skoro stejně.[[/b]]\n\nNěmecko na tom bylo ještě hůř. V říši zemřelo nejméně pět milionů lidí, zhruba každý pátý, a některé kraje přišly o víc než polovinu obyvatel; říši trvalo přes šedesát let, než se vzpamatovala. Jeden Němec, který v té válce sloužil jako voják, napsal o dvacet let později román, který začíná tím, jak vojáci vtrhnou do selského statku:\n\n[[quote:1]]\n\nA neklid nevládl jen ve střední Evropě. Roku 1643 řekl jeden anglický kazatel v Dolní sněmovně:\n\n[[quote:2]]\n\nMěl pravdu. V Anglii se král s parlamentem pustili do války a v lednu 1649 šel král Karel I. na popraviště, tři měsíce po podpisu ve Vestfálsku. Francii zmítala fronda; Španělsko přišlo o Portugalsko a muselo potlačovat povstání v Katalánsku a Neapoli. Na druhém konci světa, v Číně, dobyl roku 1644 povstalec Li C’-čcheng Peking a císař Čchung-čen se oběsil. Mandžuská vojska zpoza Velké zdi pak přitáhla a sklidila plody: dynastie Ming, která vládla Číně téměř tři sta let, skončila.\n\nProč zrovna tato desetiletí? Někteří historici, třeba Geoffrey Parker, se obracejí k počasí. Sedmnácté století připadlo na nejchladnější úsek „malé doby ledové“: delší zimy, chladnější a vlhčí léta, jedna neúroda za druhou. Hlad hnal lidi ke vzpourám a vzpoury přinášely války. Jiní historici soudí, že počasí jen přililo olej do ohně, který zapálili lidé.\n\nPo Vestfálsku se Praha pomalu uklidnila. Protestantství ale v Čechách zůstalo zakázané. U dvora, v úřadech a v šlechtických palácích bylo slyšet čím dál víc němčiny, zatímco čeština se pomalu stahovala na trhy, do kuchyní a na venkov. Král sídlil ve Vídni a úřad, který Čechy spravoval, se tam [[link:no-more-elected-kings-1627]]přestěhoval už dávno[[/link]]. [[b]]České království dál existovalo podle jména, ale čím dál víc se podobalo rakouské provincii.[[/b]]\n\nTřicet let kanonády utichlo. Ve městě bylo ticho, takové ticho, že i zvuk jeho vlastní řeči pomalu slábl.",
-      "zh": "1618年5月，城堡里那三个人被扔出窗外的时候，没有人想到，这一仗会打三十年。\n\n这三十年让波希米亚付出了多少，到今天也算不清。战前的波希米亚，大约有一百七十万人；有的史学家估计，战后只剩下九十多万，少了将近一半；也有人仔细翻过各地的账册，认为平均少了不到三成。各家的估计，从两成五到八成都有。数字之所以吵个不停，是因为当年根本没人好好数过：死于刀枪的、死于饥荒和瘟疫的、逃进山林的、流亡国外的，全混在一起。\n\n能看得见的，是一本账。1654年，战争结束六年后，波希米亚第一次给全国每一户农家造册收税，这就是《税册》。册子上，一个个村子挨个记下去，许多农庄的名字后面只写着两个字：荒弃。\n\n还有一整代流亡的人。白山之后，贵族、市民、牧师、学者，凡是不肯改宗的，[[link:convert-or-leave-1627]]要么改宗，要么离开[[/link]]。到底走了多少人，同样说不清，总之数以万计。他们等了二十多年，等来的是一纸不带他们的和约。夸美纽斯再也没有回过家，二十多年后死在了阿姆斯特丹。\n\n这场仗里，也找不出哪一方是干净的。两边的军队都[[link:war-feeds-war-1625]]以战养战[[/link]]，走到哪里就吃到哪里、抢到哪里。瑞典人进波希米亚的时候，[[link:here-come-the-liberators-1639]]打的是解放者的旗号[[/link]]，走的时候留下一路焦土；皇帝自己的军队，也一样把自己的臣民吃空。1645年1月，扬科夫之战前夕，一位贵族夫人在给儿子的信里写道：\n\n[[quote:0]]\n\n[[b]]在波希米亚的农民眼里，皇帝的兵和瑞典的兵，没有什么两样。[[/b]]\n\n德意志更惨。帝国境内至少死了五百万人，大约每五个人里就少了一个，有些地方少了一半还多，一个甲子都没缓过来。一个在这场战争里当过兵的德意志人，二十年后写了一本小说，开头就是士兵闯进一户农家：\n\n[[quote:1]]\n\n这些年，不太平的也不只是中欧。1643年，一位英国牧师在议会里布道时说：\n\n[[quote:2]]\n\n他说得没错。英国国王和议会打了起来，1649年1月，国王查理一世被送上了断头台，离威斯特伐利亚签约只隔了三个月。法国闹起了投石党之乱；西班牙先是丢了葡萄牙，又要镇压加泰罗尼亚和那不勒斯的起义。在世界的另一头，1644年，李自成攻进北京，崇祯皇帝自缢，关外的清军随即入关，坐享其成，统治中国两百七十多年的大明就此终结。\n\n为什么偏偏是这几十年？一些史学家，比如英国的杰弗里·帕克，把目光投向了天气。十七世纪正赶上“小冰期”最冷的一段：冬天更长，夏天更冷更湿，庄稼一年接一年地歉收。饥荒逼出了暴动，暴动又引来战争。也有史学家觉得，天气只是火上浇油，点火的还是人。\n\n威斯特伐利亚之后，布拉格慢慢安静了下来。可新教在波希米亚依然是禁的。宫廷、衙门和贵族的府邸里，德语用得越来越多，捷克语一点点退回了市场、厨房和乡下。国王住在维也纳，管波希米亚的衙门也[[link:no-more-elected-kings-1627]]早就搬去了维也纳[[/link]]。[[b]]波希米亚王国名义上还在，却越来越像是奥地利的一个省。[[/b]]\n\n三十年的炮声停了。城里安静得，连说话的声音，也越来越小了。"
+      "en": "In May 1618, when three men were thrown out of a castle window, nobody imagined the war would last thirty years.\n\nWhat those thirty years cost Bohemia is still impossible to say. Before the war Bohemia had roughly 1.7 million people. Some historians reckon that only a little over 900,000 were left afterwards, almost half gone; others, going carefully through local records, put the average loss at under a third. Estimates run from a quarter to four-fifths. The figures are disputed because nobody counted properly at the time: those killed by weapons, by hunger and plague, those who fled into the forests and those who went into exile all blur together.\n\nWhat can be seen is a ledger. Six years after the war, a new [[link:deserted-1654]]tax register[[/link]] listed Bohemia village by village, and after many of the farms stood a single word: deserted.\n\nAnd there was a whole generation in exile. After White Mountain nobles, townsmen, preachers and scholars who would not change their faith had to [[link:convert-or-leave-1627]]convert or leave[[/link]]. How many left is just as uncertain, but they ran into tens of thousands. They waited more than twenty years, and what they got was a peace that left them out. Comenius never went home; he died in Amsterdam more than twenty years later.\n\nNor was any side's record clean. Both armies [[link:war-feeds-war-1625]]made war feed war[[/link]], eating and plundering wherever they went. The Swedes entered Bohemia [[link:here-come-the-liberators-1639]]as liberators[[/link]] and left scorched earth behind them; the emperor's own armies ate his own subjects bare just the same. In January 1645, on the eve of Jankov, a noblewoman wrote to her son:\n\n[[quote:0]]\n\n[[b]]To a Bohemian peasant, the emperor's soldiers and the Swedish soldiers looked much the same.[[/b]]\n\nGermany suffered even more. At least five million people died in the Empire, about one in five, and some regions lost more than half their people; it took the Empire more than sixty years to recover. A German who had served as a soldier in the war wrote a novel twenty years later that opens with troopers bursting into a farm:\n\n[[quote:1]]\n\nAnd it was not only Central Europe that was in turmoil. In 1643 an English preacher told the House of Commons:\n\n[[quote:2]]\n\nHe was right. In England king and Parliament went to war, and in January 1649 King Charles I went to the scaffold, three months after the signing in Westphalia. France was torn by the Fronde; Spain lost Portugal and had to put down risings in Catalonia and Naples. On the other side of the world, in China, the rebel Li Zicheng took Beijing in 1644 and the Chongzhen Emperor hanged himself. The Manchu armies from beyond the Great Wall then marched in to take the prize, and the Ming dynasty, which had ruled China for nearly three hundred years, came to an end.\n\nWhy these decades in particular? Some historians, such as Geoffrey Parker, have looked to the weather. The seventeenth century fell in the coldest stretch of the \"Little Ice Age\": longer winters, colder and wetter summers, harvest after harvest failing. Hunger drove people to revolt, and revolt brought war. Other historians think the weather only poured oil on a fire that people had lit.\n\nAfter Westphalia, Prague slowly grew quiet. But Protestantism was still forbidden in Bohemia. At court, in the offices and in the nobles' palaces, German was heard more and more, while Czech slowly retreated to the markets, the kitchens and the countryside. The king lived in Vienna, and the office that governed Bohemia had [[link:no-more-elected-kings-1627]]long since moved there too[[/link]]. [[b]]The Kingdom of Bohemia still existed in name, but it looked more and more like a province of Austria.[[/b]]\n\nThirty years of cannon fire had stopped. The city was quiet, so quiet that even the sound of its own language was growing fainter.",
+      "cz": "V květnu 1618, když z hradního okna vyletěli tři muži, nikoho nenapadlo, že válka potrvá třicet let.\n\nCo Čechy těch třicet let stálo, se nedá spočítat dodnes. Před válkou měly Čechy zhruba 1,7 milionu obyvatel. Někteří historici odhadují, že po ní zbylo jen něco přes 900 tisíc, tedy skoro polovina zmizela; jiní po pečlivém pročtení místních pramenů došli k průměrnému úbytku pod třicet procent. Odhady sahají od čtvrtiny až po čtyři pětiny. Čísla jsou sporná, protože tehdy nikdo pořádně nepočítal: padlí, mrtví hladem a morem, ti, kdo utekli do lesů, i ti, kdo odešli do exilu, splývají dohromady.\n\nVidět je jedna účetní kniha. Šest let po válce zapsal nový [[link:deserted-1654]]berní soupis[[/link]] Čechy ves za vsí a za mnoha usedlostmi stálo jediné slovo: pustá.\n\nA byla tu celá generace v exilu. Po Bílé hoře museli šlechtici, měšťané, kazatelé i učenci, kteří nechtěli změnit víru, [[link:convert-or-leave-1627]]konvertovat, nebo odejít[[/link]]. Kolik jich odešlo, je stejně nejisté, ale šlo o desítky tisíc. Čekali přes dvacet let a dočkali se míru, který na ně zapomněl. Komenský se domů už nikdy nevrátil; zemřel o dvacet let později v Amsterdamu.\n\nČistý štít neměl v té válce nikdo. Obě vojska [[link:war-feeds-war-1625]]živila válku válkou[[/link]] a kudy prošla, tam jedla a plenila. Švédové přišli do Čech [[link:here-come-the-liberators-1639]]jako osvoboditelé[[/link]] a zanechali za sebou spálenou zemi; císařova vlastní vojska vyjídala jeho vlastní poddané úplně stejně. V lednu 1645, v předvečer Jankova, psala jedna šlechtična synovi:\n\n[[quote:0]]\n\n[[b]]Pro českého sedláka vypadali císařští vojáci a Švédové skoro stejně.[[/b]]\n\nNěmecko na tom bylo ještě hůř. V říši zemřelo nejméně pět milionů lidí, zhruba každý pátý, a některé kraje přišly o víc než polovinu obyvatel; říši trvalo přes šedesát let, než se vzpamatovala. Jeden Němec, který v té válce sloužil jako voják, napsal o dvacet let později román, který začíná tím, jak vojáci vtrhnou do selského statku:\n\n[[quote:1]]\n\nA neklid nevládl jen ve střední Evropě. Roku 1643 řekl jeden anglický kazatel v Dolní sněmovně:\n\n[[quote:2]]\n\nMěl pravdu. V Anglii se král s parlamentem pustili do války a v lednu 1649 šel král Karel I. na popraviště, tři měsíce po podpisu ve Vestfálsku. Francii zmítala fronda; Španělsko přišlo o Portugalsko a muselo potlačovat povstání v Katalánsku a Neapoli. Na druhém konci světa, v Číně, dobyl roku 1644 povstalec Li C’-čcheng Peking a císař Čchung-čen se oběsil. Mandžuská vojska zpoza Velké zdi pak přitáhla a sklidila plody: dynastie Ming, která vládla Číně téměř tři sta let, skončila.\n\nProč zrovna tato desetiletí? Někteří historici, třeba Geoffrey Parker, se obracejí k počasí. Sedmnácté století připadlo na nejchladnější úsek „malé doby ledové“: delší zimy, chladnější a vlhčí léta, jedna neúroda za druhou. Hlad hnal lidi ke vzpourám a vzpoury přinášely války. Jiní historici soudí, že počasí jen přililo olej do ohně, který zapálili lidé.\n\nPo Vestfálsku se Praha pomalu uklidnila. Protestantství ale v Čechách zůstalo zakázané. U dvora, v úřadech a v šlechtických palácích bylo slyšet čím dál víc němčiny, zatímco čeština se pomalu stahovala na trhy, do kuchyní a na venkov. Král sídlil ve Vídni a úřad, který Čechy spravoval, se tam [[link:no-more-elected-kings-1627]]přestěhoval už dávno[[/link]]. [[b]]České království dál existovalo podle jména, ale čím dál víc se podobalo rakouské provincii.[[/b]]\n\nTřicet let kanonády utichlo. Ve městě bylo ticho, takové ticho, že i zvuk jeho vlastní řeči pomalu slábl.",
+      "zh": "1618年5月，城堡里那三个人被扔出窗外的时候，没有人想到，这一仗会打三十年。\n\n这三十年让波希米亚付出了多少，到今天也算不清。战前的波希米亚，大约有一百七十万人；有的史学家估计，战后只剩下九十多万，少了将近一半；也有人仔细翻过各地的账册，认为平均少了不到三成。各家的估计，从两成五到八成都有。数字之所以吵个不停，是因为当年根本没人好好数过：死于刀枪的、死于饥荒和瘟疫的、逃进山林的、流亡国外的，全混在一起。\n\n能看得见的，是一本账。战争结束六年后，一本新的[[link:deserted-1654]]税册[[/link]]把波希米亚一个村子一个村子地记了下来，许多农庄的名字后面只写着两个字：荒弃。\n\n还有一整代流亡的人。白山之后，贵族、市民、牧师、学者，凡是不肯改宗的，[[link:convert-or-leave-1627]]要么改宗，要么离开[[/link]]。到底走了多少人，同样说不清，总之数以万计。他们等了二十多年，等来的是一纸不带他们的和约。夸美纽斯再也没有回过家，二十多年后死在了阿姆斯特丹。\n\n这场仗里，也找不出哪一方是干净的。两边的军队都[[link:war-feeds-war-1625]]以战养战[[/link]]，走到哪里就吃到哪里、抢到哪里。瑞典人进波希米亚的时候，[[link:here-come-the-liberators-1639]]打的是解放者的旗号[[/link]]，走的时候留下一路焦土；皇帝自己的军队，也一样把自己的臣民吃空。1645年1月，扬科夫之战前夕，一位贵族夫人在给儿子的信里写道：\n\n[[quote:0]]\n\n[[b]]在波希米亚的农民眼里，皇帝的兵和瑞典的兵，没有什么两样。[[/b]]\n\n德意志更惨。帝国境内至少死了五百万人，大约每五个人里就少了一个，有些地方少了一半还多，一个甲子都没缓过来。一个在这场战争里当过兵的德意志人，二十年后写了一本小说，开头就是士兵闯进一户农家：\n\n[[quote:1]]\n\n这些年，不太平的也不只是中欧。1643年，一位英国牧师在议会里布道时说：\n\n[[quote:2]]\n\n他说得没错。英国国王和议会打了起来，1649年1月，国王查理一世被送上了断头台，离威斯特伐利亚签约只隔了三个月。法国闹起了投石党之乱；西班牙先是丢了葡萄牙，又要镇压加泰罗尼亚和那不勒斯的起义。在世界的另一头，1644年，李自成攻进北京，崇祯皇帝自缢，关外的清军随即入关，坐享其成，统治中国两百七十多年的大明就此终结。\n\n为什么偏偏是这几十年？一些史学家，比如英国的杰弗里·帕克，把目光投向了天气。十七世纪正赶上“小冰期”最冷的一段：冬天更长，夏天更冷更湿，庄稼一年接一年地歉收。饥荒逼出了暴动，暴动又引来战争。也有史学家觉得，天气只是火上浇油，点火的还是人。\n\n威斯特伐利亚之后，布拉格慢慢安静了下来。可新教在波希米亚依然是禁的。宫廷、衙门和贵族的府邸里，德语用得越来越多，捷克语一点点退回了市场、厨房和乡下。国王住在维也纳，管波希米亚的衙门也[[link:no-more-elected-kings-1627]]早就搬去了维也纳[[/link]]。[[b]]波希米亚王国名义上还在，却越来越像是奥地利的一个省。[[/b]]\n\n三十年的炮声停了。城里安静得，连说话的声音，也越来越小了。"
     },
     "quotes": [
       {
@@ -30304,12 +30298,302 @@ export const historyEvents = [
     ],
     "imageCaptions": [
       {
+        "en": "Late autumn 1648, a crossroads in the Bohemian countryside: the imperial and Swedish soldiers go their separate ways with their plunder, leaving behind a half-burned village, untilled fields and a slope of new graves.",
+        "cz": "Pozdní podzim 1648, rozcestí na českém venkově: císařští i švédští vojáci odcházejí s kořistí každý jiným směrem a za nimi zůstává napůl vypálená ves, neobdělaná pole a stráň nových hrobů.",
+        "zh": "1648年深秋，波希米亚乡下的一个十字路口。帝国军和瑞典军带着抢来的东西朝两个方向走了，留下烧掉一半的村子、荒了的田和满坡新坟。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Thirty_Years%27_War"
+  },
+  // ===== voiceless-years (1648-1689) =====
+  // Opening card, sets the era's tone: who speaks on the square (user's
+  // plan, 2026-10-28). The 1918 toppling and the 2020 rebuild are only
+  // hinted at ("268 years"); save them for brief-independence and
+  // freedom-regained (user's call). Sources: cs.wikipedia "Mariánský sloup
+  // (Staroměstské náměstí)" (shaft 26 Sept, Virgin 30 Sept 1650, Bendl,
+  // consecrated 13 July 1652 by Harrach with Ferdinand III present, the four
+  // angels as cardinal virtues, the chronogram, Munich 1638 / Vienna Am Hof
+  // 1647 as models, the 1632 Palladium site); Swedes out of the Lesser Town
+  // in Sept 1649 (ČT24 2018; kulturnav gives 30 Sept). Palladium shown on the
+  // square by the Saxon commander Hofkirch, 1632 (Stará Boleslav parish
+  // texts; "nailed to a chair facing the gallows" kept as "it is said").
+  // Meridian: commonly dated 1652, no reliable installation date, so the
+  // card gives none. Left out: Bernard Ignác of Martinic laying the
+  // foundation stone (date given as 26 Apr or 23 May 1650, and his being
+  // Jaroslav's son could not be confirmed).
+  {
+    "slug": "the-column-on-the-square-1650",
+    "era": "voiceless-years",
+    "startYear": 1650,
+    "tone": "serious",
+    "year": {
+      "en": "1649–1652",
+      "cz": "1649–1652",
+      "zh": "1649年－1652年"
+    },
+    "title": {
+      "en": "The Column on the Square",
+      "cz": "Sloup na náměstí",
+      "zh": "广场上的柱子"
+    },
+    "hookLine": {
+      "en": "The war was over, and in the middle of the Old Town Square a column went up to say thank you on the whole city's behalf.",
+      "cz": "Válka skončila a uprostřed Staroměstského náměstí vyrostl sloup, který za celé město řekl děkuji.",
+      "zh": "仗打完了，老城广场正中间立起了一根柱子，替全城说了声谢谢。"
+    },
+    "summary": {
+      "en": "At the end of September 1649 the last Swedish soldiers marched out of the Lesser Town. Fourteen months had passed since the night they came over the wall. Prague belonged to itself again, more or less.\n\nThe next year Emperor Ferdinand III ordered a column for the very middle of the Old Town Square, to thank the Virgin for saving the city. In the autumn of 1650 the stone shaft went up, some sixteen metres tall, with a gilded Virgin on top carved by the Prague sculptor Jan Jiří Bendl.\n\nPrague was not the first to get one. Twelve years earlier Maximilian of Bavaria, the same Maximilian who had stood on the emperor's side at [[link:two-hours-1620]]White Mountain[[/link]], had put up a column like it in Munich, in thanks that his capital had come through the war. Ferdinand III copied it in Vienna, and now Prague had one too.\n\nThe spot was not chosen at random. Eighteen years earlier, while [[link:the-saxons-come-1631]]the Saxons held Prague[[/link]], one of their commanders took a relief of the Virgin looted from Stará Boleslav, revered by Catholics as the Palladium of Bohemia, and put it on show in the Old Town Square; it is said he nailed it to a chair facing the gallows. The column now stood on the spot of that insult. The scaffold of the [[link:twenty-seven-1621]]twenty-seven[[/link]] had stood not far away.\n\nOn the base was a Latin inscription. At first sight its capital letters look scattered at random, but that was deliberate: add them up as Roman numerals and they come to 1650. The column's year was hidden in its own words.\n\n[[quote:0]]\n\nAt the four corners of the base, four angels fought devils and a dragon, standing for wisdom, justice, courage and temperance. Under the Virgin's own feet lay a defeated devil. In the Catholic thinking of the time, the evil trampled there included heresy. [[b]]The column thanked the Virgin for saving the city, and in Prague everyone knew who the heretics were.[[/b]]\n\nOn 13 July 1652 Ferdinand III came to Prague himself to watch the column consecrated by Cardinal Harrach, the same man who had [[link:no-more-elected-kings-1627]]crowned him King of Bohemia[[/link]] twenty-five years before. There was a Mass and a procession, and the townspeople knelt and crossed themselves as expected.\n\nNobody had asked them whether they wanted a column. There was no need: anyone likely to object had long since either converted or left.\n\nThe column had one more use. At true noon on a sunny day its shadow fell on a line in the paving, later called the Prague meridian. When the shadow touched the line it was noon, and the city's clocks were set by it. [[b]]From then on, Prague even had to ask the column what time it was.[[/b]]\n\nThe column stood on the square for two hundred and sixty-eight years.\n\nLater Czechs had a name for the long stretch of years after it went up: the Darkness.",
+      "cz": "Na konci září 1649 odtáhli z Malé Strany poslední švédští vojáci. Od noci, kdy přelezli hradby, uběhlo čtrnáct měsíců. Praha zase patřila sama sobě, aspoň tak napůl.\n\nPříští rok dal císař Ferdinand III. postavit uprostřed Staroměstského náměstí sloup jako díky Panně Marii za záchranu města. Na podzim 1650 se vztyčil kamenný dřík, asi šestnáct metrů vysoký, a na jeho vrcholu pozlacená Panna Maria od pražského sochaře Jana Jiřího Bendla.\n\nPraha nebyla první. O dvanáct let dřív postavil podobný sloup v Mnichově Maxmilián Bavorský, tentýž, který stál na císařově straně na [[link:two-hours-1620]]Bílé hoře[[/link]], jako díky za to, že jeho sídelní město přečkalo válku. Ferdinand III. ho napodobil ve Vídni a teď měla svůj sloup i Praha.\n\nAni místo nebylo vybráno náhodou. Před osmnácti lety, když [[link:the-saxons-come-1631]]Prahu drželi Sasové[[/link]], vystavil jeden z jejich velitelů na Staroměstském náměstí reliéf Panny Marie uloupený ze Staré Boleslavi, který katolíci uctívali jako Palladium země české; prý ho přibil na židli naproti šibenici. Sloup teď stál na místě té potupy. A popraviště [[link:twenty-seven-1621]]sedmadvaceti[[/link]] stávalo nedaleko.\n\nNa podstavci byl latinský nápis. Velká písmena v něm vypadají na první pohled jako rozházená nahodile, ale bylo to schválně: když se sečtou jako římské číslice, vyjde 1650. Rok sloupu se skrýval přímo v jeho slovech.\n\n[[quote:0]]\n\nV rozích podstavce bojovali čtyři andělé s ďábly a drakem a představovali moudrost, spravedlnost, statečnost a mírnost. I Panna Maria měla pod nohama poraženého ďábla. Podle tehdejšího katolického pojetí patřilo ke zlu, které tu leželo pošlapané, i kacířství. [[b]]Sloup děkoval Panně Marii za záchranu města, a v Praze všichni věděli, kdo jsou ti kacíři.[[/b]]\n\n13. července 1652 přijel Ferdinand III. do Prahy osobně a přihlížel, jak sloup světí kardinál Harrach, tentýž, který ho před pětadvaceti lety [[link:no-more-elected-kings-1627]]korunoval českým králem[[/link]]. Byla mše i procesí a měšťané poklekali a křižovali se, jak se patřilo.\n\nNikdo se jich neptal, jestli sloup chtějí. Nebylo třeba: kdo by mohl něco namítat, ten už dávno buď konvertoval, nebo odešel.\n\nSloup měl ještě jedno využití. Ve slunečný den v pravé poledne padal jeho stín na čáru v dlažbě, které se později začalo říkat pražský poledník. Když se stín dotkl čáry, bylo poledne, a podle něj se ve městě řídily hodiny. [[b]]Od té doby se Pražané museli i na to, kolik je hodin, ptát sloupu.[[/b]]\n\nSloup stál na náměstí dvě stě šedesát osm let.\n\nPozdější Češi pro dlouhá léta po jeho postavení našli jméno: doba temna.",
+      "zh": "1649年9月底，最后一批瑞典兵走出了小城区。从他们翻墙进城的那一夜算起，已经过去了十四个月。布拉格总算又是自己的了，至少算是吧。\n\n第二年，皇帝斐迪南三世下令，在老城广场正中间立一根柱子，感谢圣母保住了这座城。1650年秋天，十六米来高的石柱竖了起来，柱顶站着一尊镀金的圣母像，出自布拉格雕塑家扬·伊日·本德尔之手。\n\n这样的柱子，布拉格不是头一个立的。十二年前，巴伐利亚的马克西米利安就在慕尼黑立过一根，感谢他的都城熬过了战争；就是[[link:two-hours-1620]]白山之战[[/link]]时站在皇帝一边的那位。斐迪南三世照着样子，在维也纳也立了一根。现在，布拉格也有了。\n\n柱子立在哪儿，也有讲究。十八年前，[[link:the-saxons-come-1631]]萨克森人占着布拉格[[/link]]的时候，他们的一位指挥官把从旧博莱斯拉夫抢来的一块圣母浮雕拿到老城广场上示众，据说还把它钉在一把椅子上，正对着绞架。这块浮雕，天主教徒尊为“波希米亚的守护圣像”。如今，圣母柱就立在当年受辱的那块地方。离[[link:twenty-seven-1621]]二十七个人[[/link]]被处死的刑台，也不远。\n\n柱子底座上刻着一段拉丁文。乍一看大小写乱七八糟，其实是故意的：把大写字母当作罗马数字加起来，正好是1650。立柱的年份，就藏在字里。\n\n[[quote:0]]\n\n底座四角，四位天使正和魔鬼、恶龙搏斗，分别代表智慧、正义、勇气和节制。圣母自己的脚下，也踩着一个被打败的魔鬼。按那个年代天主教的说法，被踩在脚下的“恶”里，就有异端。[[b]]柱子谢的是圣母保住了这座城；可在布拉格，谁是“异端”，大家心里都清楚。[[/b]]\n\n1652年7月13日，斐迪南三世亲自来到布拉格，看着哈拉赫枢机主教为柱子祝圣。二十五年前，[[link:no-more-elected-kings-1627]]给他戴上波希米亚王冠[[/link]]的，也是这位主教。广场上有弥撒，有游行，市民们照规矩跪下，照规矩画十字。\n\n没有人问过他们想不想要这根柱子。也用不着问：会反对的人，要么早就改了宗，要么早就走了。\n\n柱子还有一个用处。晴天的正午，它的影子会落在广场地面的一道线上，这道线后来被叫作“布拉格子午线”。影子碰到线，就是正午，城里的钟就照着它对时。[[b]]从此以后，布拉格人连几点钟，都得问这根柱子。[[/b]]\n\n这根柱子在广场上一站，就是二百六十八年。\n\n后来的捷克人说起它立起来以后的那些年月，用了一个词：黑暗时代。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "VIrgInI genItrICI sIne orIgInIs Labe ConCeptæ propVgnatæ et LIberatæ VrbIs ergo Cæsar pIVs et IVstVs hanC statVaM ponIt\nTo the Virgin Mother, conceived without the stain of original sin: for the city defended and set free, the pious and just Emperor raises this statue.",
+          "cz": "VIrgInI genItrICI sIne orIgInIs Labe ConCeptæ propVgnatæ et LIberatæ VrbIs ergo Cæsar pIVs et IVstVs hanC statVaM ponIt\nPanně Rodičce bez poskvrny prvotního hříchu počaté, za obhájené a osvobozené město staví tuto sochu císař zbožný a spravedlivý.",
+          "zh": "VIrgInI genItrICI sIne orIgInIs Labe ConCeptæ propVgnatæ et LIberatæ VrbIs ergo Cæsar pIVs et IVstVs hanC statVaM ponIt\n献给无染原罪而受孕的童贞圣母：为这座城得以守住、得以解救，虔诚而公正的皇帝立此像。"
+        },
+        "attribution": {
+          "en": "Inscription on the base of the Marian column, Old Town Square, 1650",
+          "cz": "Nápis na podstavci mariánského sloupu na Staroměstském náměstí, 1650",
+          "zh": "老城广场圣母柱底座上的铭文，1650年"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "mariansky-sloup",
+        "relation": {
+          "en": "Raised in 1650 on the spot where the Saxons had put the Palladium on show; today's column is a 2020 replica",
+          "cz": "Postaven roku 1650 na místě, kde Sasové vystavili Palladium na odiv; dnešní sloup je replika z roku 2020",
+          "zh": "1650年立在萨克森人当年拿守护圣像示众的地方；今天的柱子是2020年的复制品"
+        }
+      },
+      {
+        "slug": "27-krizu-staromestske-namesti",
+        "relation": {
+          "en": "The scaffold of 1621 stood here, not far from where the column went up",
+          "cz": "Tady stálo popraviště z roku 1621, nedaleko místa, kde vyrostl sloup",
+          "zh": "1621年的刑台就搭在这里，离圣母柱立起的地方不远"
+        }
+      },
+      {
+        "slug": "stara-boleslav",
+        "relation": {
+          "en": "Home of the Palladium of Bohemia, the Virgin relief the Saxons put on show in the Old Town Square in 1632; it came back here in 1638",
+          "cz": "Domov Palladia země české, reliéfu, který Sasové roku 1632 vystavili na Staroměstském náměstí; sem se vrátil roku 1638",
+          "zh": "“波希米亚的守护圣像”的家。1632年萨克森人把它拿到老城广场示众，1638年它才回到这里"
+        }
+      }
+    ],
+    "images": [
+      "/history/the-column-on-the-square-1650.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "13 July 1652: Cardinal Harrach consecrates the Marian column on the Old Town Square before Ferdinand III, while the townspeople kneel with their heads bowed.",
+        "cz": "13. července 1652: kardinál Harrach světí před Ferdinandem III. mariánský sloup na Staroměstském náměstí a měšťané klečí se skloněnými hlavami.",
+        "zh": "1652年7月13日，哈拉赫枢机主教在斐迪南三世面前为老城广场的圣母柱祝圣，广场上的市民跪着低下了头。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Marian_column_(Prague)"
+  },
+  // Background: the "Temno" debate, long owed per CLAUDE.md (placed right
+  // after the column card, user's call 2026-10-28). Sources: cs.wikipedia
+  // "Doba temna" (term from Jirásek's Temno, 1915; revival-era White Mountain
+  // myth; interwar textbooks; Nejedlý making the novel required reading;
+  // the 1951 Jirásek campaign and the museum at Hvězda; Pekař and the
+  // Gollian school). Pekař's view (White Mountain a misfortune whoever had
+  // won, rejecting the "post-White Mountain darkness") via CNN Prima 2020;
+  // his exact wording was not found, so no quote box. "Jesuits who wrote in
+  // Czech's defence" plants Balbín without naming him.
+  {
+    "slug": "what-was-the-darkness-1650",
+    "era": "voiceless-years",
+    "cardType": "background",
+    "startYear": 1650.1,
+    "tone": "serious",
+    "year": {
+      "en": "1620 – late 18th century",
+      "cz": "1620 – konec 18. století",
+      "zh": "1620年－18世纪末"
+    },
+    "title": {
+      "en": "A Dark Age?",
+      "cz": "Doba temna?",
+      "zh": "“黑暗时代”从何说起"
+    },
+    "hookLine": {
+      "en": "Czechs have long called the century and a half after White Mountain \"the Darkness\". The name comes from a novel.",
+      "cz": "Půldruhému století po Bílé hoře se v Čechách dlouho říkalo doba temna. To jméno pochází z románu.",
+      "zh": "白山之后的一百五十多年，捷克人一直管它叫“黑暗时代”。这个名字，出自一本小说。"
+    },
+    "summary": {
+      "en": "The century and a half or so from White Mountain to the end of the eighteenth century is what Czechs have long called \"the Darkness\".\n\nThe name comes from a novel. In 1915 the writer Alois Jirásek published Darkness, set in the 1720s among a farming family in the East Bohemian countryside who secretly kept their Protestant faith. Jesuits go through the villages hunting forbidden books and burn what they find; the lords speak German, and Czech is left to country people. When the novel came out, Bohemia was still ruled from Vienna and the First World War was raging.\n\nBehind the novel lay a whole view of history that had grown up with the Czech national revival of the nineteenth century. White Mountain was the nation's catastrophe. After it, foreign lords, Jesuits and the German language took over, and the Czech nation slept for more than a century until the revival woke it.\n\nThat view went into the school textbooks. In the 1950s the Communist government went further: it read Darkness as history, made it compulsory reading and opened a Jirásek museum in the [[link:a-star-1555]]Hvězda summer palace[[/link]] by White Mountain.\n\nPlenty of historians disagreed. A few years after the novel, the historian Josef Pekař argued that White Mountain would have been a misfortune for the country whichever side had won, and that the years after it were no simple darkness. Most later scholars agree that one word makes a century and a half far too simple.\n\nThey point out that these were the very years when Bohemia filled with Baroque churches, palaces and pilgrimage sites; much of the Prague that visitors see today took its shape then. Nor did Czech die. Country people went on speaking it, churches went on singing and preaching in it, and there were even Jesuits who wrote poems in it and wrote in its defence.\n\nBut the other side is true as well. Protestantism was banned and tens of thousands went into exile. Forbidden books were seized and burned. The powerful switched to German, and fewer and fewer learned books were written in Czech. [[b]]How dark it was depends largely on where you stood: under a gleaming Baroque dome, or in an attic with forbidden books hidden in it.[[/b]]\n\nThe argument is still going on today.",
+      "cz": "Zhruba půldruhému století od Bílé hory do konce 18. století se v Čechách dlouho říkalo doba temna.\n\nTo jméno pochází z románu. Roku 1915 vydal Alois Jirásek Temno, příběh z dvacátých let 18. století o selské rodině z východočeského venkova, která potajmu zachovávala evangelickou víru. Jezuité chodí po vsích, hledají zakázané knihy a co najdou, spálí; páni mluví německy a čeština zůstala venkovanům. Když román vyšel, vládla Čechám pořád Vídeň a zuřila první světová válka.\n\nZa románem stál celý pohled na dějiny, který vyrostl s národním obrozením 19. století. Bílá hora byla národní katastrofa. Po ní se vlády chopili cizí páni, jezuité a němčina a český národ spal přes sto let, dokud ho obrození neprobudilo.\n\nTen pohled se dostal do školních učebnic. V padesátých letech šla komunistická vláda ještě dál: četla Temno jako dějepis, udělala z něj povinnou četbu a v letohrádku [[link:a-star-1555]]Hvězda[[/link]] u Bílé hory otevřela Jiráskovo muzeum.\n\nMnozí historici ale nesouhlasili. Pár let po vydání románu tvrdil historik Josef Pekař, že Bílá hora by byla pro zemi neštěstím, ať by vyhrál kdokoli, a že doba po ní nebyla jen temnem. Většina pozdějších badatelů se shoduje, že jedno slovo půldruhé století příliš zjednodušuje.\n\nPřipomínají, že právě tehdy se Čechy zaplnily barokními kostely, paláci a poutními místy; velká část Prahy, jak ji dnes vidí turisté, dostala podobu právě v té době. Ani čeština neumřela. Venkov jí dál mluvil, v kostelích se v ní dál zpívalo a kázalo a našli se dokonce jezuité, kteří v ní psali básně a psali na její obranu.\n\nPravdivá je ale i druhá strana. Protestantství bylo zakázané a desítky tisíc lidí odešly do exilu. Zakázané knihy se zabavovaly a pálily. Mocní přešli k němčině a učených knih psaných česky bylo čím dál méně. [[b]]Jak temná ta doba byla, záleží hodně na tom, kde člověk stál: pod zlatou barokní kupolí, nebo na půdě, kde ležely schované zakázané knihy.[[/b]]\n\nTen spor se vede dodnes.",
+      "zh": "从白山之战到18世纪末，这一百五十多年，捷克人一直习惯叫它“黑暗时代”。\n\n这个叫法，出自一本小说。1915年，作家阿洛伊斯·伊拉塞克出版了长篇小说《黑暗》，写的是18世纪20年代，东波希米亚乡下一户偷偷守着新教信仰的农家：耶稣会士下乡搜查禁书，搜到了就烧；老爷们说德语，捷克语只剩下乡下人还在说。小说出版的时候，波希米亚还在维也纳治下，一战正打得激烈。\n\n小说背后，是19世纪民族复兴运动以来的一整套历史观。白山是民族的灾难。从那以后，外来的老爷、耶稣会士和德语占了上风，捷克民族沉睡了一百多年，直到民族复兴才醒过来。\n\n这套看法后来写进了学校的课本。到了20世纪50年代，共产党政府走得更远：把《黑暗》当成历史书来读，列为学生必读，还在白山边上的[[link:a-star-1555]]星形宫[[/link]]里开了一座伊拉塞克博物馆。\n\n可不少历史学家并不同意。小说出版没几年，历史学家约瑟夫·佩卡日就说，白山之战不管哪一边打赢，对这个国家都是不幸，此后的岁月也谈不上一片漆黑。后来的研究者大多也觉得，“黑暗”两个字，把一百五十年说得太简单了。\n\n他们会提醒你：这些年，正是波希米亚到处盖起巴洛克教堂、宫殿和朝圣地的时候，今天游客眼里的布拉格，很大一部分就是那时候定下的模样。捷克语也没有死。乡下人照旧说它，教堂里照旧用它唱圣歌、讲道，甚至还有耶稣会士用它写诗，写文章替它辩护。\n\n可另一面也是真的。新教被禁，几万人背井离乡。禁书被搜走、烧掉。有权有势的人改说德语，用捷克语写的学问书越来越少。[[b]]黑不黑，很大程度上要看站在哪儿：是站在金光闪闪的巴洛克穹顶下面，还是躲在藏着禁书的阁楼里。[[/b]]\n\n这场争论，到今天也还没有吵完。"
+    },
+    "relatedLandmarks": [],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Temno_(novel)"
+  },
+  // The 1651 census of subjects by faith, split from the Berní rula card
+  // (user's call, 2026-10-28). Patent of the governors 16 Nov 1650, in force
+  // 4 Feb 1651, six weeks, printed form, "naděje" note for non-Catholics,
+  // Harrach's parish instruction, the 3 June 1651 patent cutting it to lists
+  // of non-Catholics, about two-thirds returned (cs.wikipedia "Soupis
+  // poddaných podle víry"). Quotes, the crossed-out "non-Catholic with hope"
+  // entries and the Starý Knín steward's signature: Národní archiv edition,
+  // Soupis poddaných podle víry z roku 1651, Berounsko (nacr.cz PDF):
+  // Čelina (Vilém Dejmek, 24 Apr 1651), Korkyně / Hněvšín (scribe Jakub
+  // Kleklar). Image: "THERE IS HOPE".
+  {
+    "slug": "there-is-hope-1651",
+    "era": "voiceless-years",
+    "startYear": 1651,
+    "tone": "serious",
+    "year": {
+      "en": "1650–1651",
+      "cz": "1650–1651",
+      "zh": "1650年－1651年"
+    },
+    "title": {
+      "en": "Asked at Every Door",
+      "cz": "Dům od domu: jaké víry?",
+      "zh": "挨家挨户问信仰"
+    },
+    "hookLine": {
+      "en": "Soon after the column went up, the authorities began to count: every person had to declare what they believed.",
+      "cz": "Krátce po postavení sloupu začaly úřady počítat: každý musel přiznat, čemu věří.",
+      "zh": "柱子立起来不久，官府开始清点：每个人都得交代自己信什么。"
+    },
+    "summary": {
+      "en": "The column had been up for less than two months when, in November 1650, the governors of Bohemia issued another order. By the following February it had reached every estate: within six weeks, each lord was to write down every person living on his land.\n\nThe lists followed a printed form, one line per person: name, whether a subject or free, occupation, age and faith. A Catholic needed only a mark. A non-Catholic needed one more note: was there any hope that this person would convert?\n\nThe aim was to find out where, after years of forced conversions, heresy was still hiding, so that missionaries could be sent there. Archbishop Harrach separately told every parish priest to list his parishioners.\n\nIn the spring of 1651 the lists came in. On the small estate of Čelina, south of Prague, thirty-one people were written down. One of them was a nine-year-old boy called Jiřík, entered as a non-Catholic, and at the bottom of the list someone added:\n\n[[quote:0]]\n\nNot every list was honest. Around Beroun the same thing turns up again and again: a person first entered as \"non-Catholic, with hope\", the words then struck out and a mark made in the Catholic column instead. Sometimes it was a whole village. Historians suspect that whoever filled in the form simply did not want trouble for his estate.\n\nSome entries could not be fixed that way. In the hamlet of Hněvšín, on the Korkyně estate, three men's names carry the same note:\n\n[[quote:1]]\n\nTheir wives had stayed behind. The list enters them as non-Catholics, with hope.\n\nWhoever drew up a list had to sign it too. The steward of Starý Knín, signing his, added a line about himself: \"always a Catholic man, aged 36\". [[b]]On these lists everyone had to say what they believed, even the man holding the pen.[[/b]]\n\nIn June the order was changed: no more names, just a list of the non-Catholics. By the summer only about two-thirds of the estates in Bohemia had sent anything in at all.\n\nEven so, the authorities now knew, village by village, who still had to be won over. [[b]]Those who stayed were counted down to the children; those who had gone were left with one short line on the list.[[/b]]",
+      "cz": "Sloup stál necelé dva měsíce, když v listopadu 1650 vydali čeští místodržící další nařízení. Do února příštího roku dorazilo na všechna panství: každá vrchnost měla do šesti neděl sepsat všechny lidi, kteří žili na jejím území.\n\nSoupisy se řídily předepsaným formulářem, každý člověk na jeden řádek: jméno, poddaný, nebo svobodný, povolání, věk a víra. U katolíka stačila značka. U nekatolíka bylo třeba připsat ještě jednu poznámku: je naděje, že se obrátí?\n\nŠlo o to zjistit, kde se po letech násilného obracení ještě skrývá kacířství, a poslat tam misionáře. Arcibiskup Harrach navíc zvlášť nařídil každému faráři, aby sepsal své farníky.\n\nNa jaře 1651 se soupisy vracely. Na malém statku Čelina jižně od Prahy zapsali jednatřicet lidí. Mezi nimi devítiletého chlapce Jiříka, zapsaného jako nekatolík, a na konec soupisu kdosi připsal:\n\n[[quote:0]]\n\nNe každý soupis byl poctivý. Na Berounsku se znovu a znovu objevuje totéž: člověk je nejdřív zapsán jako „nekatolík s nadějí“, pak jsou ta slova přeškrtnuta a do rubriky „katolický“ je udělána čárka. Někdy jde o celé vesnice. Historici se domnívají, že ten, kdo soupis vyplňoval, prostě nechtěl, aby měl jeho statek potíže.\n\nNěkteré zápisy se ale takhle opravit nedaly. Ve vísce Hněvšín na statku Korkyně stojí u jmen tří mužů stejná poznámka:\n\n[[quote:1]]\n\nJejich ženy zůstaly doma. Soupis je vede jako nekatoličky s nadějí.\n\nKdo soupis sestavil, musel ho také podepsat. Správce staroknínský k podpisu připsal i něco o sobě: „vždy katolický člověk v 36 letech“. [[b]]V těch soupisech musel každý říct, čemu věří, i ten, kdo držel pero.[[/b]]\n\nV červnu se nařízení změnilo: žádná jména, jen seznam nekatolíků. Do léta poslaly vůbec něco jen asi dvě třetiny panství v Čechách.\n\nI tak už úřady zhruba věděly, ve které vsi je ještě koho třeba získat. [[b]]Ti, kdo zůstali, byli sečteni až do dětí; po těch, kdo odešli, zbyl na soupisu jeden krátký řádek.[[/b]]",
+      "zh": "柱子立起来还不到两个月，1650年11月，波希米亚的总督们又发下一道公告。第二年2月，命令传到了各个庄园：每家领主要在六个星期之内，把自己领地上的每一个人都登记下来。\n\n登记照着统一的表格来，一个人一行：姓名，是农奴还是自由人，干什么活，多大年纪，信什么教。天主教徒，画一个记号就行；不是天主教徒的，还得多写一句：这个人，有没有希望改宗？\n\n这样做，是为了弄清楚，强迫改宗了这么多年，哪些地方还藏着异端，好把传教士派过去。哈拉赫大主教也另外下令，让每个教区的神父登记自己的教民。\n\n1651年春天，表一张张交了上来。布拉格以南的小庄园切利纳，表上一共登记了三十一个人。其中有个九岁的男孩，叫伊日克，登记为非天主教徒。表的末尾，有人补了一句：\n\n[[quote:0]]\n\n有些表，填得未必老实。在贝龙一带，同样的情形一再出现：一个人先被写成“非天主教徒，有希望”，后来这几个字被划掉，在天主教那一栏补上一笔。有时整个村子都是这样。历史学家猜，填表的人大概只是不想给自己的庄园惹麻烦。\n\n也有改不了的。科尔基涅庄园的小村赫涅夫辛，有三个男人的名字后面，写着同一句话：\n\n[[quote:1]]\n\n他们的妻子留了下来，表上登记的是“非天主教徒，有希望”。\n\n填表的人，最后还得签上自己的名字。斯塔里克宁庄园的管家签名时，顺手也给自己添了一句：“一向是天主教徒，三十六岁。”[[b]]在这些表上，每个人都得交代自己信什么，连拿笔的人也不例外。[[/b]]\n\n6月，命令又改了：不必逐人登记，只交一份非天主教徒的名单就行。到了夏天，全波希米亚也只有大约三分之二的庄园交了表。\n\n即便如此，官府也大致知道了，哪个村子里还有谁需要“争取”。[[b]]留下来的人，连孩子都数得清清楚楚；走了的人，在表上只剩下短短的一行字。[[/b]]"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "There is hope that he will be, when he is older.",
+          "cz": "naděje jest, že bude, až bude starší",
+          "zh": "有希望，等他再大一些，就会是了。"
+        },
+        "attribution": {
+          "en": "Census of subjects by faith, 1651, Čelina estate: note on nine-year-old Jiřík, entered as a non-Catholic",
+          "cz": "Soupis poddaných podle víry, 1651, statek Čelina: poznámka u devítiletého Jiříka, zapsaného jako nekatolík",
+          "zh": "1651年按信仰登记臣民的普查表，切利纳庄园：九岁的伊日克名下的批注，他被登记为非天主教徒"
+        }
+      },
+      {
+        "text": {
+          "en": "Petr Sedláček, cottager, 45: fled for his faith.\nVáclav Pilát, cottager, 38: fled for his faith.\nMartin Kuchař, day labourer, 45: fled for his faith.",
+          "cz": "Petr Sedláček, chalupník, 45: ten pro víru zběhl.\nVáclav Pilát, chalupník, 38: ten pro víru zběhl.\nMartin Kuchař, nádeník, 45: ten pro víru zběhl.",
+          "zh": "彼得·塞德拉切克，小屋农，四十五岁：为信仰逃走了。\n瓦茨拉夫·皮拉特，小屋农，三十八岁：为信仰逃走了。\n马丁·库哈日，短工，四十五岁：为信仰逃走了。"
+        },
+        "attribution": {
+          "en": "Census of subjects by faith, 1651, Korkyně estate, the hamlet of Hněvšín",
+          "cz": "Soupis poddaných podle víry, 1651, statek Korkyně, víska Hněvšín",
+          "zh": "1651年按信仰登记臣民的普查表，科尔基涅庄园，赫涅夫辛村"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "narodni-archiv",
+        "relation": {
+          "en": "The original returns of the 1651 census of subjects by faith are kept here",
+          "cz": "Uchovávají se zde originály soupisu poddaných podle víry z roku 1651",
+          "zh": "1651年信仰普查表的原件保存在这里"
+        }
+      }
+    ],
+    "images": [
+    "/history/there-is-hope-1651.webp"
+  ],
+  "imageCaptions": [
+    {
+      "en": "Spring 1651: a manor scribe fills in the census of subjects by faith while a peasant family waits to be entered and a Jesuit watches over his shoulder.",
+      "cz": "Jaro 1651: panský písař vyplňuje soupis poddaných podle víry, selská rodina čeká, až bude zapsána, a jezuita mu hledí přes rameno.",
+      "zh": "1651年春天，一个庄园的书记官在填信仰普查表，一户农民被叫来等着登记，一位耶稣会士站在他身后看着。"
+    }
+  ],
+  "wikipediaUrl": "https://cs.wikipedia.org/wiki/Soupis_poddan%C3%BDch_podle_v%C3%ADry"
+  },
+  // The Berní rula, split from the census card (user's call, 2026-10-28);
+  // took the "DESERTED" image and the link from thirty-years-1648. Diet 1652,
+  // four commissions with one member per estate, 1653-1655, osedlý = 1
+  // sedlák / 4 chalupníci / 8 zahradníci, settled / deserted / newly settled
+  // (new settlers 1652-1654), in use until 1748 (cs.wikipedia "Berní rula").
+  // Červený Újezd (Slánsko, reconstructed from the lost volume): 174 strych
+  // ploughed, 494 deserted (Prameny k hostivické historii D1). Upland
+  // regions counted with less land per osedlý, so overtaxed; revisitations
+  // 1667-1682 (same, and the UPCE source reader). Quote: Smrdov, Kraj
+  // Čáslavský II, ed. F. Beneš (1954), pp. 625-626, via semikovi.blogspot.com;
+  // printed as a footnote in the edition, read as the register's own remark
+  // (17th-century wording), not checked against the manuscript. "Pohořali v
+  // létu 1654": four burned-out holdings. Robota from a few days a year to
+  // three or more a week: cs.wikipedia "Selské povstání (1680)". Lords taking
+  // deserted rustical land into their own management: "svedený rustikál".
+  {
+    "slug": "deserted-1654",
+    "era": "voiceless-years",
+    "startYear": 1654,
+    "tone": "serious",
+    "year": {
+      "en": "1652–1654",
+      "cz": "1652–1654",
+      "zh": "1652年－1654年"
+    },
+    "title": {
+      "en": "A Land Laid Waste",
+      "cz": "Zpustlá země",
+      "zh": "遍地荒芜"
+    },
+    "hookLine": {
+      "en": "After the people, the land was counted, and the word \"deserted\" came up line after line.",
+      "cz": "Po lidech přišla na řadu půda a slovo „pustý“ se v soupisu opakovalo řádek za řádkem.",
+      "zh": "数完了人，再来数地。册子上，“荒”字一行接着一行。"
+    },
+    "summary": {
+      "en": "In 1652, four years after the war, the Bohemian diet decided to draw up a new register of every peasant holding in the land for taxation. The old tax books no longer matched anything: many of the people who were supposed to pay were gone.\n\nFrom 1653 four commissions, each with one member from each estate of the realm, went through every estate and every village in Bohemia. The village headman was called in and named the households one by one: who farmed how much land, who kept how many animals.\n\nOne full peasant farmer counted as one unit of tax; four cottagers together made one, and so did eight smallholders. Every farm went into one of three groups: occupied, deserted, or newly settled.\n\nIn 1654 the ledger was finished: the Berní rula, the tax roll. In it the word \"deserted\" comes up line after line. On the small estate of Červený Újezd, west of Prague, the deserted land came to almost three times the land still under the plough.\n\nIn the little market town of Smrdov, in the Čáslav region, ten households went into the deserted column. Beside eight of them the register notes:\n\n[[quote:0]]\n\nThat same summer, while the survey was going on, four more households in the town burned down.\n\nSome farms had found new people. Between 1652 and 1654 newcomers moved into a number of empty holdings, and the tax roll lists them separately. Other deserted land the lords simply took into their own estates and farmed themselves.\n\nBut a lord farming his own land still needed peasants' hands to do it. There were fewer people now and no less land, so the labour the remaining peasants owed their lords kept growing. Before the war it had been a few days a year; in many places it later rose to three days a week or more. [[b]]The land was the same, there were fewer people to work it, and more work for each of them.[[/b]]\n\nThe sums were not fair either. Upland peasants were assumed to earn something on the side from crafts, so in the hills less land counted as a full farm than in the lowlands, and the hill country ended up paying more than it could. The complaints never stopped, and from 1667 to 1682 the register had to be checked again, village by village.\n\nThe tax roll stayed in use for almost a hundred years. Slowly, the empty land was farmed again. What the people farming it thought of it all, no register recorded.",
+      "cz": "Roku 1652, čtyři roky po válce, rozhodl český sněm sepsat pro účely daní nový soupis všech poddanských usedlostí v zemi. Staré berní knihy už ničemu neodpovídaly: mnoho lidí, kteří měli platit, už nebylo.\n\nOd roku 1653 objížděly čtyři komise, v každé po jednom zástupci z každého stavu, všechna panství a všechny vsi v Čechách. Rychtář byl předvolán a jmenoval usedlost za usedlostí: kdo hospodaří na kolika polích, kdo má kolik dobytka.\n\nJeden sedlák byl jednou berní jednotkou; čtyři chalupníci dohromady také jednou, a stejně tak osm zahradníků. Každá usedlost se zařadila do jedné ze tří skupin: osedlá, pustá, nebo nově osazená.\n\nRoku 1654 byla kniha hotová: berní rula. Slovo „pustý“ se v ní opakuje řádek za řádkem. Na malém statku Červený Újezd západně od Prahy bylo pusté půdy skoro třikrát víc než té, která se ještě orala.\n\nV městečku Smrdov na Čáslavsku se do kolonky pustých dostalo deset hospodářství. U osmi z nich rula poznamenává:\n\n[[quote:0]]\n\nTéhož léta, kdy soupis probíhal, vyhořela ve městečku další čtyři hospodářství.\n\nNěkteré usedlosti se dočkaly nových lidí. V letech 1652 až 1654 se do řady prázdných gruntů nastěhovali noví hospodáři a berní rula je vede zvlášť. Jinou pustou půdu si vrchnost prostě vzala do vlastní režie.\n\nJenže i vrchnost, která hospodařila sama, potřebovala k práci ruce poddaných. Lidí ubylo, půdy ne, a robota, kterou zbylí poddaní dlužili vrchnosti, rostla. Před válkou to bylo pár dní do roka; na mnoha místech pak stoupla na tři dny v týdnu i víc. [[b]]Půda byla stejná, lidí na ni bylo méně a práce na každého víc.[[/b]]\n\nSpravedlivě to spočítané nebylo ani jinak. U horalů se předpokládalo, že si přivydělají řemeslem, a tak se na horách za celého osedlého počítalo méně půdy než v nížinách a podhůří nakonec platilo víc, než unese. Stížnosti neustávaly, a tak se v letech 1667 až 1682 musela rula ves po vsi přezkoumat znovu.\n\nBerní rula se pak používala skoro sto let. Pustá půda se pomalu zase obdělávala. Co si o tom myslili ti, kdo ji obdělávali, nezapsal žádný soupis.",
+      "zh": "1652年，战争结束四年后，波希米亚的等级议会决定，给全国的农户重新造册收税。旧的税账早就对不上了：册子上该交税的人，很多已经不在了。\n\n从1653年起，四个委员会走遍了波希米亚的每一个庄园、每一个村子，每个委员会里，各个等级各出一个人。村长被叫到跟前，一户一户地报：谁家种着多少地，养着几头牲口。\n\n一户整户的农民，算一份税；四户小屋农合起来算一份，八户园地农也合起来算一份。每座农庄都要归进三类里的一类：有人住的，荒了的，刚有新人住进来的。\n\n1654年，这本账成了书，就是《税册》。册子里，“荒”字一行接着一行。布拉格西边的小庄园切尔韦尼乌耶兹德，荒掉的地差不多是还在耕种的地的三倍。\n\n恰斯拉夫地区的小镇斯姆尔多夫，有十户人家被归进了“荒了的”一栏。其中八户的旁边，册子上写着：\n\n[[quote:0]]\n\n就在登记的那年夏天，镇上又有四户人家遭了火。\n\n也有农庄等来了新人。1652到1654年间，一些荒掉的农庄有人搬了进去，《税册》把他们单独记成一类。还有一些荒地，领主干脆收进了自己的庄园，自己种。\n\n可领主自己种地，用的还是农民的手。人少了，地没少，留下来的农民要给领主干的活就越来越多：战前一年不过几天的劳役，后来在许多地方涨到了一个星期三天，甚至更多。[[b]]地还是那些地，种地的人少了，每个人要干的活却多了。[[/b]]\n\n账也算得不公平。按规定，山区的农民可以靠手艺贴补家用，所以在山区，一个“整户农民”名下的地算得比平原少，结果山区的税反而更重。抱怨一直没停，1667到1682年，官府只好把册子挨村重新核查了一遍。\n\n这本《税册》，一用就是将近一百年。荒掉的地，慢慢又有人种了。种地的人心里怎么想，哪本册子上都没有记。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "Completely deserted and burned, all the fields lying fallow.",
+          "cz": "Dokonce pustý a spálený, role všechny ladem leží.",
+          "zh": "全然荒了，也烧了，地全都撂着没人种。"
+        },
+        "attribution": {
+          "en": "Berní rula, 1654, the market town of Smrdov (Čáslav region), note on its deserted holdings",
+          "cz": "Berní rula, 1654, městečko Smrdov (Čáslavsko), poznámka u pustých hospodářství",
+          "zh": "1654年《税册》，恰斯拉夫地区斯姆尔多夫镇，荒弃农户旁的批注"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "narodni-archiv",
+        "relation": {
+          "en": "The original volumes of the Berní rula are kept here",
+          "cz": "Uchovávají se zde originální svazky berní ruly",
+          "zh": "《税册》的原本保存在这里"
+        }
+      }
+    ],
+    "images": [
+      "/history/deserted-1654.webp"
+    ],
+    "imageCaptions": [
+      {
         "en": "1654: a tax commissioner records the farms of a Bohemian village for the Berní rula while the old headman names them one by one. Outside the window, one of them stands empty.",
         "cz": "1654: berní komisař zapisuje do berní ruly usedlosti české vesnice a starý rychtář je jmenuje jednu po druhé. Za oknem stojí jedna z nich pustá.",
         "zh": "1654年，税务官为《税册》登记一个波希米亚村庄的农户，老村长一户一户地报着名字。窗外，就是其中一座已经荒掉的农庄。"
       }
     ],
-    "wikipediaUrl": "https://en.wikipedia.org/wiki/Thirty_Years%27_War"
+    "wikipediaUrl": "https://cs.wikipedia.org/wiki/Bern%C3%AD_rula"
   },
 ];
 
