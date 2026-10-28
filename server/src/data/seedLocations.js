@@ -32882,6 +32882,38 @@ Roku 1806 ho prodali a do dvaceti let z něj byla ruina. Roku 1833 tu stát otev
 🎁 彩蛋：一个1920年代住在这里的学生回忆说，那些空荡荡的屋子，“还是劳动所的犯人们离开时的样子”。后来当局想让学生搬到德伊维采新盖的宿舍去，学生们嫌那边房租太贵，硬是不搬，就在这座“监狱”里一直住到1939年大学被关闭。`,
     },
   },
+  {
+    name: 'Battle of Jankov Memorial',
+    slug: 'pamatnik-bitvy-u-jankova',
+    localizedNames: { cz: 'Památník bitvy u Jankova 1645', zh: '扬科夫之战纪念碑' },
+    labels: ['monument', 'early-modern', 'outside'],
+    coordinates: { lat: 49.647138379883, lng: 14.742665846434793 },
+    rarity: 'expedition',
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Bitva_u_Jankova',
+    description: {
+      en: `Out in the fields between the villages of Jankov and Ratměřice, south-east of Prague, there is a quiet mound, a memorial and a lot of sky. Nothing about the gentle hills suggests that on one March day in 1645 about thirty thousand soldiers fought over them, and that one army ceased to exist here by evening.
+
+On 6 March 1645 a Swedish army under Lennart Torstensson met the emperor's army under Melchior von Hatzfeldt in this hilly, wooded country. The imperial vanguard got stuck between woods and a pond under Swedish guns, and its commander, Johann von Götz, was killed in the morning; the Bavarian cavalry then broke the Swedish right but stopped to plunder the Swedish baggage. By evening the imperial infantry had surrendered. Thousands lay dead or wounded, about 4,500 were taken prisoner, Hatzfeldt himself among them, and the way to Vienna lay open. It was one of the bloodiest battles of the Thirty Years' War on Czech soil. Götz got a lasting memorial of a different kind: Czechs still say that someone "ended up like Kec at Jankov" when things went very badly.
+
+The memorial with its mound stands roughly where the imperial troops surrendered. A new monument in the shape of a tear was added for the 350th anniversary in 1995. A nature trail with resting places leads across the old battlefield, every year a march follows in the soldiers' steps, and around the anniversary several hundred reenactors in buff coats and broad hats fight the battle again, with much less damage.
+
+🎁 Bonus: a local legend says that shortly before the battle, the spear with its banner fell from the hand of the wooden statue of St Wenceslas in Jankov's church and broke into three pieces. People who saw it said the saint had opened his hand, and took it as a warning of the defeat to come.`,
+      cz: `V polích mezi Jankovem a Ratměřicemi, jihovýchodně od Prahy, je tichá mohyla, památník a spousta nebe. Nic na mírných kopcích nenapoví, že se o ně jednoho březnového dne roku 1645 bilo asi třicet tisíc vojáků a že tu do večera přestalo existovat jedno celé vojsko.
+
+6. března 1645 se v této kopcovité, zalesněné krajině střetlo švédské vojsko Lennarta Torstenssona s císařským vojskem Melchiora von Hatzfeldta. Císařský předvoj uvízl mezi lesy a rybníkem pod švédskými děly a jeho velitel Johann von Götz ráno padl; bavorská jízda pak sice rozrazila švédské pravé křídlo, ale zastavila se, aby plenila švédský trén. Večer se císařská pěchota vzdala. Tisíce mužů byly mrtvé nebo raněné, asi 4 500 padlo do zajetí, mezi nimi i sám Hatzfeldt, a cesta k Vídni byla otevřená. Byla to jedna z nejkrvavějších bitev třicetileté války na českém území. Götz si vysloužil trvalou památku jiného druhu: když něco dopadne hodně špatně, říká se dodnes, že to „dopadlo jako Kec u Jankova“.
+
+Památník s mohylou stojí zhruba tam, kde se císařští vzdali. K 350. výročí v roce 1995 přibyl nový pomník ve tvaru slzy. Přes někdejší bojiště vede naučná stezka s odpočívadly, každý rok se pořádá pochod po stopách bitvy a kolem výročí ji několik set nadšenců v kabátcích a širokých kloboucích svede znovu, s mnohem menšími škodami.
+
+🎁 Bonus: místní pověst vypráví, že krátce před bitvou vypadlo dřevěné soše svatého Václava v jankovském kostele z ruky kopí s praporcem a rozlomilo se na tři kusy. Kdo to viděl, říkal, že světec otevřel dlaň, a bralo se to jako varování před porážkou, která přišla.`,
+      zh: `在布拉格东南，扬科夫和拉特梅日采两个村子之间的田野里，有一座安静的土冢、一块纪念碑，还有一大片天空。这些平缓的山丘一点也看不出来，1645年3月的一天，大约三万名士兵在这里厮杀，到了傍晚，一整支军队就在这里没了。
+
+1645年3月6日，托尔斯滕松率领的瑞典军，和哈茨费尔德率领的帝国军，在这片丘陵林地里撞上了。帝国军的前锋卡在树林和池塘之间，挨着瑞典人的炮轰，主将格茨一早就阵亡了；巴伐利亚骑兵后来虽然冲垮了瑞典军的右翼，却停下来去抢瑞典人的辎重。到了傍晚，帝国步兵投降。死伤的有好几千人，被俘的约有四千五百人，哈茨费尔德本人也在其中，通往维也纳的路就此敞开。这是三十年战争里在捷克土地上打得最惨烈的战役之一。格茨也因此留下了另一种“纪念”：捷克人至今形容一件事砸得很惨，还会说“落得跟扬科夫的凯茨一样”。
+
+带土冢的纪念碑，大致就立在当年帝国军投降的地方。1995年战役三百五十周年时，又添了一座泪滴形状的新纪念碑。一条设了休息点的自然步道穿过旧战场，每年都有人沿着当年士兵的足迹徒步；周年纪念前后，还有几百名穿着皮外套、戴着宽檐帽的历史重演爱好者，把这一仗再打一遍，只是伤亡要小得多。
+
+🎁 彩蛋：当地有个传说，开战前不久，扬科夫教堂里那尊木雕圣瓦茨拉夫像，手里的长矛连同旗子一起掉了下来，断成了三截。看见的人说，是圣人自己松开了手，大家都把这当作了战败的预兆。`,
+    },
+  },
 ];
 
 async function run() {

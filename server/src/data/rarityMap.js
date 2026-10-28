@@ -829,6 +829,7 @@ export const EXPEDITION_XP_OVERRIDES = {
   'vlassky-dvur':                           120, // Kutná Hora: six cards in one day
   'letohradek-belveder-kutna-hora':         120,
   'kartuziansky-klaster-valdice':           120, // beside the jicin card, seen from outside only (a prison)
+  'pamatnik-bitvy-u-jankova':               120, // 54 km, a mound and memorial in the fields
 };
 
 export function distanceKm(a, b = CHARLES_BRIDGE) {

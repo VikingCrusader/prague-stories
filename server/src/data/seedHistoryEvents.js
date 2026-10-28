@@ -29411,9 +29411,9 @@ export const historyEvents = [
       "zh": "条约写了满满一张纸，瑞典人一条也没守。"
     },
     "summary": {
-      "en": "Banér died in May 1641. The man who took over the Swedish army was Lennart Torstensson, not yet forty. Under Gustavus Adolphus he had run the Swedish artillery. In 1632 the imperialists captured him and kept him for nearly a year in the damp prison of Ingolstadt; he is said never to have recovered his health. By now his gout was so bad that he often could not get on a horse, and he commanded from a litter.\n\nYet his army was famous for its speed. It would turn up where nobody expected it, long before anybody expected it. The Swedes called him Blixten, \"the Lightning\". [[b]]A general who could not mount a horse led the fastest army in the war.[[/b]]\n\nIn the spring of 1642 he did not come over the Ore Mountains into Bohemia as Banér had done. He swung round through Silesia instead, took Opava, beat an imperial army at Świdnica at the start of June, and walked into Moravia. His target was Olomouc, the most important city in Moravia.\n\nOlomouc was not ready. The highest official of the land fled to Brno. The commander left in charge, Colonel Antonio Miniati, tried to leave as well, but two kilometres outside the gates he ran into the Swedish vanguard and had to turn back. He had fewer than a thousand men, raw recruits and students among them. The Swedes breached the walls with their guns and set the town on fire with incendiary shot. After four days, on 14 June 1642, Olomouc surrendered. The next day Torstensson rode in.\n\nThe surrender treaty had eleven articles and promised to protect the townspeople and their property. What the Swedes thought of it, one Olomouc chronicler summed up later:\n\n[[quote:0]]\n\nTorstensson wanted Olomouc as a fortress, a base for the road to Brno and Vienna. The suburbs were pulled down, and with them churches, hospitals and monasteries, the great Hradisko monastery outside the town included; their stone went into the walls. Every house had to send two or three people a day to work on the fortifications, and anyone who refused was locked in a cage on the Upper Square. Monastery and chapter libraries were packed into crates and shipped to Sweden, where many of the books still are.\n\nThe Swedes stayed for eight years, until July 1650, two years after the war was over. By then barely 145 of the town's 623 burgher houses were fit to live in, and about 1,700 people were left. [[b]]Olomouc had surrendered under a treaty of eleven articles; the Swedes handed back an empty town.[[/b]]\n\nIn the autumn of 1642 Torstensson turned north again. On 2 November, at Breitenfeld near Leipzig, on the same ground where Gustavus Adolphus had won [[link:the-saxons-come-1631]]eleven years before[[/link]], he crushed an imperial army led by the emperor's own brother, Archduke Leopold Wilhelm.\n\nThen, in 1643, Sweden suddenly turned on an old rival, Denmark, and the Lightning hurried north to Jutland. Vienna could breathe again. Not for long: by the beginning of 1645 he was back, and this time he came through Bohemia.",
-      "cz": "Banér zemřel v květnu 1641. Švédské vojsko po něm převzal Lennart Torstensson, ještě mu nebylo čtyřicet. Za Gustava Adolfa velel švédskému dělostřelectvu. Roku 1632 ho císařští zajali a skoro rok drželi ve vlhkém vězení v Ingolstadtu; zdraví se mu prý už nikdy nevrátilo. Teď ho dna trápila tak, že často nemohl ani na koně, a velel z nosítek.\n\nJeho vojsko přesto proslulo rychlostí. Objevovalo se tam, kde ho nikdo nečekal, a dávno předtím, než ho kdo čekal. Švédové mu říkali Blixten, „Blesk“. [[b]]Generál, který nevylezl na koně, vedl nejrychlejší vojsko celé války.[[/b]]\n\nNa jaře 1642 nepřišel do Čech přes Krušné hory jako Banér. Vzal to oklikou přes Slezsko, dobyl Opavu, na začátku června porazil císařské vojsko u Svídnice a vešel na Moravu. Jeho cílem byla Olomouc, nejdůležitější město Moravy.\n\nOlomouc připravená nebyla. Nejvyšší zemský úředník utekl do Brna. Velitel, který zůstal na místě, plukovník Antonio Miniati, chtěl odjet také, ale dva kilometry za branami narazil na švédský předvoj a musel se vrátit. Měl méně než tisíc mužů, mezi nimi nezkušené rekruty a studenty. Švédové prostříleli hradby a zapalovali město žhavými koulemi. Po čtyřech dnech, 14. června 1642, se Olomouc vzdala. Druhý den do ní vjel Torstensson.\n\nKapitulační smlouva měla jedenáct článků a slibovala ochranu měšťanů i jejich majetku. Co si o ní mysleli Švédové, shrnul později jeden olomoucký kronikář:\n\n[[quote:0]]\n\nTorstensson chtěl z Olomouce pevnost, základnu na cestě k Brnu a Vídni. Předměstí šla k zemi a s nimi kostely, špitály i kláštery, včetně velkého kláštera Hradisko za městem; jejich kámen skončil v hradbách. Každý dům musel denně posílat dva nebo tři lidi na práci na opevnění a kdo odmítl, skončil v kleci na Horním náměstí. Klášterní a kapitulní knihovny putovaly v bednách do Švédska, kde je mnoho knih dodnes.\n\nŠvédové zůstali osm let, až do července 1650, dva roky po konci války. Ze 623 měšťanských domů bylo tou dobou obyvatelných sotva 145 a ve městě zbylo asi 1 700 lidí. [[b]]Olomouc se vzdala podle smlouvy o jedenácti článcích; Švédové vrátili prázdné město.[[/b]]\n\nNa podzim 1642 se Torstensson obrátil znovu na sever. 2. listopadu u Breitenfeldu nedaleko Lipska, na stejném poli, kde Gustav Adolf zvítězil [[link:the-saxons-come-1631]]před jedenácti lety[[/link]], rozdrtil císařské vojsko, které vedl sám císařův bratr, arcivévoda Leopold Vilém.\n\nRoku 1643 se pak Švédsko nečekaně obrátilo proti starému sokovi, Dánsku, a Blesk spěchal na sever do Jutska. Vídeň si mohla oddechnout. Ne nadlouho: na začátku roku 1645 byl zpátky, a tentokrát přišel přes Čechy.",
-      "zh": "1641年5月，巴内尔死了。接手瑞典军队的是莱纳特·托尔斯滕松，还不到四十岁。在古斯塔夫·阿道夫手下，他管的是瑞典的炮兵。1632年，他被帝国军俘虏，在因戈尔施塔特潮湿的牢里关了将近一年，据说身体从此就垮了。到这时候，他的痛风已经重到常常上不了马，只能躺在担架上指挥。\n\n可他的军队偏偏以快出名，总是出现在谁也想不到的地方，而且比谁想的都早。瑞典人管他叫“闪电”。[[b]]一个连马都上不去的将军，带着整场战争里跑得最快的一支军队。[[/b]]\n\n1642年春天，他没有像巴内尔那样翻过厄尔士山进波希米亚，而是绕道西里西亚，拿下了奥帕瓦，6月初又在希维德尼察打败一支帝国军，然后进了摩拉维亚。他的目标是摩拉维亚最重要的城市，奥洛穆茨。\n\n奥洛穆茨根本没准备好。摩拉维亚最高的地方长官跑去了布尔诺。留下来守城的米尼亚蒂上校本来也想走，结果出城两公里就撞上了瑞典前锋，只好掉头回来。他手下不到一千人，里面还有没打过仗的新兵和学生。瑞典人用大炮轰开城墙，又往城里打燃烧弹。守了四天，1642年6月14日，奥洛穆茨投降。第二天，托尔斯滕松进了城。\n\n投降条约一共十一条，答应保护市民和他们的财产。瑞典人怎么看这份条约，后来一位奥洛穆茨的编年史家一句话就说清了：\n\n[[quote:0]]\n\n托尔斯滕松要把奥洛穆茨变成一座要塞，作为进军布尔诺和维也纳的据点。城外的郊区全被拆平，连同那里的教堂、医院和修道院，城外那座大修道院赫拉迪斯科也没能幸免；拆下来的石头，都砌进了城墙。每户人家每天都得派两三个人去修工事，谁不肯，就被关进上广场的笼子里。修道院和主教座堂的藏书装箱运去了瑞典，很多书至今还在那里。\n\n瑞典人在这里一待就是八年，直到1650年7月才走，那时候战争已经结束两年了。全城623座市民的房子，还能住人的只剩145座左右，城里只剩下大约一千七百人。[[b]]奥洛穆茨投降时签的是一份十一条的条约，瑞典人还回来的，是一座空城。[[/b]]\n\n1642年秋天，托尔斯滕松又掉头北上。11月2日，在莱比锡附近的布赖滕费尔德，也就是[[link:the-saxons-come-1631]]十一年前[[/link]]古斯塔夫·阿道夫打赢的那片战场上，他把皇帝亲弟弟利奥波德·威廉大公率领的帝国军打得大败。\n\n1643年，瑞典突然掉头去打老对手丹麦，“闪电”又急急忙忙北上去了日德兰半岛。维也纳总算能喘口气了。可这口气没喘多久：1645年初，他又回来了，这一回，他走的是波希米亚。"
+      "en": "Banér died in May 1641. The man who took over the Swedish army was Lennart Torstensson, not yet forty. Under Gustavus Adolphus he had run the Swedish artillery. In 1632 the imperialists captured him and kept him for nearly a year in the damp prison of Ingolstadt; he is said never to have recovered his health. By now his gout was so bad that he often could not get on a horse, and he commanded from a litter.\n\nYet his army was famous for its speed. It would turn up where nobody expected it, long before anybody expected it. The Swedes called him Blixten, \"the Lightning\". [[b]]A general who could not mount a horse led the fastest army in the war.[[/b]]\n\nIn the spring of 1642 he did not come over the Ore Mountains into Bohemia as Banér had done. He swung round through Silesia instead, took Opava, beat an imperial army at Świdnica at the start of June, and walked into Moravia. His target was Olomouc, the most important city in Moravia.\n\nOlomouc was not ready. The highest official of the land fled to Brno. The commander left in charge, Colonel Antonio Miniati, tried to leave as well, but two kilometres outside the gates he ran into the Swedish vanguard and had to turn back. He had fewer than a thousand men, raw recruits and students among them. The Swedes breached the walls with their guns and set the town on fire with incendiary shot. After four days, on 14 June 1642, Olomouc surrendered. The next day Torstensson rode in.\n\nThe surrender treaty had eleven articles and promised to protect the townspeople and their property. What the Swedes thought of it, one Olomouc chronicler summed up later:\n\n[[quote:0]]\n\nTorstensson wanted Olomouc as a fortress, a base for the road to Brno and Vienna. The suburbs were pulled down, and with them churches, hospitals and monasteries, the great Hradisko monastery outside the town included; their stone went into the walls. Every house had to send two or three people a day to work on the fortifications, and anyone who refused was locked in a cage on the Upper Square. Monastery and chapter libraries were packed into crates and shipped to Sweden, where many of the books still are.\n\nThe Swedes stayed for eight years, until July 1650, two years after the war was over. By then barely 145 of the town's 623 burgher houses were fit to live in, and about 1,700 people were left. [[b]]Olomouc had surrendered under a treaty of eleven articles; the Swedes handed back an empty town.[[/b]]\n\nIn the autumn of 1642 Torstensson turned north again. On 2 November, at Breitenfeld near Leipzig, on the same ground where Gustavus Adolphus had won [[link:the-saxons-come-1631]]eleven years before[[/link]], he crushed an imperial army led by the emperor's own brother, Archduke Leopold Wilhelm.\n\nThen, in 1643, Sweden suddenly turned on an old rival, Denmark, and the Lightning hurried north to Jutland. Vienna could breathe again. Not for long: by the beginning of 1645 he was back, and this time he was coming for the emperor.",
+      "cz": "Banér zemřel v květnu 1641. Švédské vojsko po něm převzal Lennart Torstensson, ještě mu nebylo čtyřicet. Za Gustava Adolfa velel švédskému dělostřelectvu. Roku 1632 ho císařští zajali a skoro rok drželi ve vlhkém vězení v Ingolstadtu; zdraví se mu prý už nikdy nevrátilo. Teď ho dna trápila tak, že často nemohl ani na koně, a velel z nosítek.\n\nJeho vojsko přesto proslulo rychlostí. Objevovalo se tam, kde ho nikdo nečekal, a dávno předtím, než ho kdo čekal. Švédové mu říkali Blixten, „Blesk“. [[b]]Generál, který nevylezl na koně, vedl nejrychlejší vojsko celé války.[[/b]]\n\nNa jaře 1642 nepřišel do Čech přes Krušné hory jako Banér. Vzal to oklikou přes Slezsko, dobyl Opavu, na začátku června porazil císařské vojsko u Svídnice a vešel na Moravu. Jeho cílem byla Olomouc, nejdůležitější město Moravy.\n\nOlomouc připravená nebyla. Nejvyšší zemský úředník utekl do Brna. Velitel, který zůstal na místě, plukovník Antonio Miniati, chtěl odjet také, ale dva kilometry za branami narazil na švédský předvoj a musel se vrátit. Měl méně než tisíc mužů, mezi nimi nezkušené rekruty a studenty. Švédové prostříleli hradby a zapalovali město žhavými koulemi. Po čtyřech dnech, 14. června 1642, se Olomouc vzdala. Druhý den do ní vjel Torstensson.\n\nKapitulační smlouva měla jedenáct článků a slibovala ochranu měšťanů i jejich majetku. Co si o ní mysleli Švédové, shrnul později jeden olomoucký kronikář:\n\n[[quote:0]]\n\nTorstensson chtěl z Olomouce pevnost, základnu na cestě k Brnu a Vídni. Předměstí šla k zemi a s nimi kostely, špitály i kláštery, včetně velkého kláštera Hradisko za městem; jejich kámen skončil v hradbách. Každý dům musel denně posílat dva nebo tři lidi na práci na opevnění a kdo odmítl, skončil v kleci na Horním náměstí. Klášterní a kapitulní knihovny putovaly v bednách do Švédska, kde je mnoho knih dodnes.\n\nŠvédové zůstali osm let, až do července 1650, dva roky po konci války. Ze 623 měšťanských domů bylo tou dobou obyvatelných sotva 145 a ve městě zbylo asi 1 700 lidí. [[b]]Olomouc se vzdala podle smlouvy o jedenácti článcích; Švédové vrátili prázdné město.[[/b]]\n\nNa podzim 1642 se Torstensson obrátil znovu na sever. 2. listopadu u Breitenfeldu nedaleko Lipska, na stejném poli, kde Gustav Adolf zvítězil [[link:the-saxons-come-1631]]před jedenácti lety[[/link]], rozdrtil císařské vojsko, které vedl sám císařův bratr, arcivévoda Leopold Vilém.\n\nRoku 1643 se pak Švédsko nečekaně obrátilo proti starému sokovi, Dánsku, a Blesk spěchal na sever do Jutska. Vídeň si mohla oddechnout. Ne nadlouho: na začátku roku 1645 byl zpátky, a tentokrát mu šlo přímo o císaře.",
+      "zh": "1641年5月，巴内尔死了。接手瑞典军队的是莱纳特·托尔斯滕松，还不到四十岁。在古斯塔夫·阿道夫手下，他管的是瑞典的炮兵。1632年，他被帝国军俘虏，在因戈尔施塔特潮湿的牢里关了将近一年，据说身体从此就垮了。到这时候，他的痛风已经重到常常上不了马，只能躺在担架上指挥。\n\n可他的军队偏偏以快出名，总是出现在谁也想不到的地方，而且比谁想的都早。瑞典人管他叫“闪电”。[[b]]一个连马都上不去的将军，带着整场战争里跑得最快的一支军队。[[/b]]\n\n1642年春天，他没有像巴内尔那样翻过厄尔士山进波希米亚，而是绕道西里西亚，拿下了奥帕瓦，6月初又在希维德尼察打败一支帝国军，然后进了摩拉维亚。他的目标是摩拉维亚最重要的城市，奥洛穆茨。\n\n奥洛穆茨根本没准备好。摩拉维亚最高的地方长官跑去了布尔诺。留下来守城的米尼亚蒂上校本来也想走，结果出城两公里就撞上了瑞典前锋，只好掉头回来。他手下不到一千人，里面还有没打过仗的新兵和学生。瑞典人用大炮轰开城墙，又往城里打燃烧弹。守了四天，1642年6月14日，奥洛穆茨投降。第二天，托尔斯滕松进了城。\n\n投降条约一共十一条，答应保护市民和他们的财产。瑞典人怎么看这份条约，后来一位奥洛穆茨的编年史家一句话就说清了：\n\n[[quote:0]]\n\n托尔斯滕松要把奥洛穆茨变成一座要塞，作为进军布尔诺和维也纳的据点。城外的郊区全被拆平，连同那里的教堂、医院和修道院，城外那座大修道院赫拉迪斯科也没能幸免；拆下来的石头，都砌进了城墙。每户人家每天都得派两三个人去修工事，谁不肯，就被关进上广场的笼子里。修道院和主教座堂的藏书装箱运去了瑞典，很多书至今还在那里。\n\n瑞典人在这里一待就是八年，直到1650年7月才走，那时候战争已经结束两年了。全城623座市民的房子，还能住人的只剩145座左右，城里只剩下大约一千七百人。[[b]]奥洛穆茨投降时签的是一份十一条的条约，瑞典人还回来的，是一座空城。[[/b]]\n\n1642年秋天，托尔斯滕松又掉头北上。11月2日，在莱比锡附近的布赖滕费尔德，也就是[[link:the-saxons-come-1631]]十一年前[[/link]]古斯塔夫·阿道夫打赢的那片战场上，他把皇帝亲弟弟利奥波德·威廉大公率领的帝国军打得大败。\n\n1643年，瑞典突然掉头去打老对手丹麦，“闪电”又急急忙忙北上去了日德兰半岛。维也纳总算能喘口气了。可这口气没喘多久：1645年初，他又回来了，这一回，他是冲着皇帝来的。"
     },
     "quotes": [
       {
@@ -29444,6 +29444,872 @@ export const historyEvents = [
     "imageCaptions": [
       {"en": "Outside Olomouc, late summer 1642. Townspeople carry stone from the half-demolished Hradisko monastery church to the walls under Swedish guard. A Moravian nobleman holds up the sealed surrender treaty; Torstensson, his gouty foot bandaged and a fortress plan on his lap, waves him off, while old petitions burn in the brazier at his feet.", "cz": "Před Olomoucí, konec léta 1642. Měšťané pod švédským dozorem nosí kámen z napůl zbořeného kostela kláštera Hradisko na hradby. Moravský šlechtic drží zapečetěnou kapitulační smlouvu; Torstensson s obvázanou dnavou nohou a plánem pevnosti na klíně ho odbývá mávnutím ruky a v pánvi u jeho nohou hoří starší žádosti.", "zh": "1642年夏末，奥洛穆茨城外。市民们在瑞典兵的看守下，把拆了一半的赫拉迪斯科修道院教堂的石头运去修城墙。一位摩拉维亚贵族举着盖了印的投降条约；腿上摊着要塞图、痛风的脚缠着绷带的托尔斯滕松摆摆手不予理会，脚边的火盆里正烧着先前递上来的请愿书。"}
     ]
+  },
+  // Jankov, 6 March 1645 (user's notes, 2026-10-28). Sources: en/de/cs.wikipedia
+  // "Battle of Jankau" (16,000 a side, 60 vs 26 guns, Götz dead after 9:15,
+  // Werth's cavalry looting the baggage and briefly holding Torstensson's wife,
+  // ~4,000 dead/wounded and ~4,500 prisoners, 1,500 of 5,000 Bavarians home;
+  // the emperor's detour via the Upper Palatinate and Regensburg to Linz and
+  // Vienna is de.wikipedia's; Karl Gustav's four bullet holes and the "Kec"
+  // saying from cs.wikipedia, the saying's wording "dopadl jako Kec u Jankova"
+  // confirmed on kudyznudy.cz); en.wikipedia "Siege of Brno" (3 May-23 Aug,
+  // c. 1,475 armed, 426 of them soldiers, ~8,000 Swedish losses, Rákóczi late
+  // July). Quotes 0-2: Hatzfeldt's letter dictated in captivity at Pelhřimov,
+  // 12 March 1645, to the Bishop of Würzburg, printed by Helmut Neumaier, "Ein
+  // Brief des kaiserlichen Feldmarschalls Graf Melchior von Hatzfeldt nach der
+  // Schlacht von Jankau" (d-nb.info/1280474882/34), our translation from the
+  // early-modern German. Quote 3: his memorial to the emperor, reported speech
+  // in M. Koch, Geschichte des Deutschen Reiches unter Ferdinand III. (1866),
+  // ii, 30, as given by Neumaier. The papal nuncio Chigi's warning was left
+  // out: only a partial Czech paraphrase was found. Brno's eleven-o'clock bells
+  // are told on the `brno` Location and deliberately not retold here.
+  {
+    "slug": "let-someone-else-tell-it-1645",
+    "era": "fire-and-ashes",
+    "startYear": 1645.2,
+    "year": {
+      "en": "1645",
+      "cz": "1645",
+      "zh": "1645年"
+    },
+    "title": {
+      "en": "An Army Lost in a Day",
+      "cz": "Vojsko ztracené za jeden den",
+      "zh": "一天输光一支军队"
+    },
+    "hookLine": {
+      "en": "The battle had been the emperor's own order. When the news reached Prague, he did not wait for the Swedes.",
+      "cz": "Bitva se svedla na císařův rozkaz. Když zpráva dorazila do Prahy, na Švédy nečekal.",
+      "zh": "这一仗是皇帝自己下令打的。消息传到布拉格，皇帝没等瑞典人来，先走了。"
+    },
+    "summary": {
+      "en": "At the start of 1645 Emperor Ferdinand III came from Linz to Prague, to be near his army. Torstensson was back, and this time he marched straight into Bohemia, only a few days from Prague.\n\nThe emperor scraped together about 16,000 men to stop him. Field Marshal Melchior von Hatzfeldt brought troops from Franconia; the rest were remnants of earlier beaten armies, fresh recruits and, best of all, some 5,000 veteran Bavarian horsemen under Johann von Werth. Twenty-five years earlier, Bavarians had helped break Prague's defenders on [[link:two-hours-1620]]White Mountain[[/link]] in two hours; this time it was their turn to defend Prague. Torstensson had about as many men, but sixty guns against twenty-six.\n\nThe emperor wanted a battle, and he got one. On 6 March 1645 the two armies met in the hilly, wooded country around Jankov, near Votice, some fifty kilometres south-east of Prague. Behind the imperial army lay the road to Prague and the road to the Danube. If it lost here, nothing would stand in the Swedes' way.\n\nThe imperial vanguard was led by Field Marshal Johann von Götz. Early in the morning he hurried to take a hill on the left, but a forest slowed him down and the Swedes got there first. His horsemen squeezed through a narrow gap between two woods and came out with a forest on one side and a large pond on the other, while the Swedish guns on the hill fired straight into them. A little after nine Götz was dead and his wing was gone.\n\nCzechs still remember him, though not kindly. Czechified as Kec, his name lives on in the saying \"dopadl jako Kec u Jankova\", \"he ended up like Kec at Jankov\": that is, very badly.\n\nHatzfeldt pulled the rest of the army back onto a height and held on. Torstensson kept moving his light guns from hill to hill and firing into the imperial lines. Then Werth's Bavarians charged and broke the Swedish right. Instead of finishing the job, they fell on the Swedish baggage train, and for a while they even held Torstensson's wife. The Swedes used the time to regroup and strike back.\n\nBy evening the imperial infantry had surrendered. About 4,000 imperial soldiers lay dead or wounded, some 4,500 were prisoners, Hatzfeldt among them, and every gun was lost. Of Werth's 5,000 horsemen only about 1,500 made it home to Bavaria. A week later barely 2,300 men of the whole army had straggled into Prague. [[b]]It was one of the worst imperial defeats of the whole war, and it cost the emperor his last real army.[[/b]]\n\nSix days after the battle Hatzfeldt, now a prisoner in Pelhřimov, dictated a letter to the Bishop of Würzburg:\n\n[[quote:0]]\n\nHe managed to sum up the battle in two sentences:\n\n[[quote:1]]\n\nThen the letter wanders. His ransom, he guessed, would come to 20,000 thalers. And would the bishop please look after his garden at home, where the great trees brought from Nuremberg were wintering under cover:\n\n[[quote:2]]\n\nThe army was gone; the field marshal was worried his fig trees might catch cold.\n\nLater, in a memorial to the emperor, Hatzfeldt also pointed out whose idea the battle had been:\n\n[[quote:3]]\n\nThe emperor did not wait for the Swedes. He left Prague in a hurry. The direct road to Vienna ran through the country the Swedes were heading for, so he took the long way round: west through the Upper Palatinate to Regensburg, then down the Danube to Linz, and on to Vienna. [[b]]He had come to Prague to be near his army; now the army was gone, and so was the emperor.[[/b]]\n\nTorstensson marched on through Moravia into Lower Austria. Krems and Korneuburg fell, and in April his outposts stood on the Danube, looking across at Vienna. It was the third time in this war that an enemy army had come to Vienna: Thurn had come [[link:at-the-gates-of-vienna-1619]]in the spring of 1619[[/link]], and Bethlen and Thurn [[link:vienna-besieged-again-1619]]that autumn[[/link]]. Like them, Torstensson came and could not get in. The Danube was wide, his army was tired, and his ally George Rákóczi, Prince of Transylvania, who was supposed to come up from Hungary, was taking his time.\n\nIn Vienna, meanwhile, the emperor had drawn his own conclusion. Since 1643 envoys had been gathering in two Westphalian towns, Münster and Osnabrück, to talk about peace, in no particular hurry. After Jankov, Ferdinand told his to start negotiating in earnest.\n\nTorstensson, still stuck on the far bank of the Danube, turned back to take Brno first. He reckoned it would take him three days.",
+      "cz": "Na začátku roku 1645 přijel císař Ferdinand III. z Lince do Prahy, aby byl nablízku svému vojsku. Torstensson byl zpátky, a tentokrát vtrhl rovnou do Čech, jen pár dní cesty od Prahy.\n\nCísař dal dohromady asi 16 000 mužů, kteří ho měli zastavit. Polní maršál Melchior von Hatzfeldt přivedl vojsko z Frank; zbytek tvořily trosky dřív poražených armád, čerství rekruti a to nejlepší, co měl, asi 5 000 zkušených bavorských jezdců Jana z Werthu. Před pětadvaceti lety pomáhali Bavoři na [[link:two-hours-1620]]Bílé hoře[[/link]] za dvě hodiny rozprášit obránce Prahy; tentokrát byla řada na nich, aby Prahu bránili. Torstensson měl mužů zhruba stejně, ale šedesát děl proti dvaceti šesti.\n\nCísař chtěl bitvu a dostal ji. 6. března 1645 se obě vojska střetla v kopcovité, zalesněné krajině kolem Jankova u Votic, asi padesát kilometrů jihovýchodně od Prahy. Za zády císařského vojska vedla cesta do Prahy i cesta k Dunaji. Kdyby tu prohrálo, nestálo by Švédům v cestě už nic.\n\nCísařský předvoj vedl polní maršál Johann von Götz. Časně ráno spěchal obsadit kopec na levém křídle, ale zdržel ho les a Švédové tam byli první. Jeho jezdci se protlačili úzkou soutěskou mezi dvěma lesy a vyjeli s lesem po jedné straně a velkým rybníkem po druhé, zatímco švédská děla z kopce pálila přímo do nich. Krátce po deváté byl Götz mrtvý a jeho křídlo zničené.\n\nČeši si ho pamatují dodnes, i když ne v dobrém. Počeštěné jméno Kec přežilo v rčení „dopadl jako Kec u Jankova“, tedy hodně špatně.\n\nHatzfeldt stáhl zbytek vojska na návrší a držel se. Torstensson přesouval lehká děla z kopce na kopec a pálil do císařských řad. Pak Werthovi Bavoři zaútočili a rozrazili švédské pravé křídlo. Místo aby věc dokončili, vrhli se na švédský trén a nějakou dobu měli v rukou dokonce Torstenssonovu manželku. Švédové toho využili, seřadili se a udeřili znovu.\n\nVečer se císařská pěchota vzdala. Asi 4 000 císařských vojáků bylo mrtvých nebo raněných, zhruba 4 500 v zajetí, mezi nimi i Hatzfeldt, a ztracena byla všechna děla. Z Werthových 5 000 jezdců se jich domů do Bavor vrátilo jen asi 1 500. O týden později se do Prahy z celého vojska dovleklo sotva 2 300 mužů. [[b]]Byla to jedna z nejhorších císařských porážek celé války a císař v ní přišel o poslední skutečné vojsko.[[/b]]\n\nŠest dní po bitvě nadiktoval Hatzfeldt, teď zajatec v Pelhřimově, dopis biskupovi würzburskému:\n\n[[quote:0]]\n\nBitvu dokázal shrnout do dvou vět:\n\n[[quote:1]]\n\nPak dopis bloudí od jednoho k druhému. Výkupné odhadoval na 20 000 tolarů. A biskup ať prý dohlédne na jeho zahradu doma, kde pod přístřeškem zimovaly velké stromy přivezené z Norimberka:\n\n[[quote:2]]\n\nVojsko bylo pryč; polní maršál se bál, aby mu nenastydly fíkovníky.\n\nPozději, v memoriálu císaři, Hatzfeldt připomněl i to, čí to byl vlastně nápad:\n\n[[quote:3]]\n\nCísař na Švédy nečekal. Z Prahy odjel ve spěchu. Přímá cesta do Vídně vedla krajem, kam mířili Švédové, a tak to vzal oklikou: na západ přes Horní Falc do Řezna, pak po Dunaji do Lince a dál do Vídně. [[b]]Do Prahy přijel, aby byl nablízku svému vojsku; teď bylo vojsko pryč, a císař taky.[[/b]]\n\nTorstensson táhl dál přes Moravu do Dolních Rakous. Padly Kremže i Korneuburk a v dubnu stály jeho přední stráže na Dunaji a hleděly přes řeku na Vídeň. V této válce to bylo potřetí, co k Vídni dorazilo nepřátelské vojsko: Thurn přišel [[link:at-the-gates-of-vienna-1619]]na jaře 1619[[/link]], Betlen s Thurnem [[link:vienna-besieged-again-1619]]téhož podzimu[[/link]]. Stejně jako oni Torstensson přišel, a dovnitř se nedostal. Dunaj byl široký, vojsko unavené a jeho spojenec, sedmihradský kníže Jiří Rákóczi, který měl přitáhnout z Uher, si dával načas.\n\nVe Vídni mezitím císař vyvodil vlastní závěr. Od roku 1643 se ve dvou vestfálských městech, v Münsteru a Osnabrücku, scházeli vyslanci, aby jednali o míru, a nikdo nespěchal. Po Jankově Ferdinand nařídil svým, aby začali jednat doopravdy.\n\nTorstensson, pořád uvízlý na druhém břehu Dunaje, se obrátil zpátky, aby nejdřív dobyl Brno. Počítal, že mu to zabere tři dny.",
+      "zh": "1645年初，斐迪南三世皇帝从林茨来到布拉格，好离自己的军队近一点。托尔斯滕松又回来了，这一回，他直接打进了波希米亚，离布拉格只有几天的路。\n\n为了挡住他，皇帝东拼西凑，凑出了大约一万六千人。哈茨费尔德元帅从法兰克尼亚带来一支兵马，剩下的，是先前几支败军的残部和刚招来的新兵，外加整支军队里最能打的一支：维尔特手下大约五千名身经百战的巴伐利亚骑兵。二十五年前，在[[link:two-hours-1620]]白山[[/link]]上用两个钟头击溃布拉格守军的，就有巴伐利亚人；这一回，轮到他们来守布拉格了。托尔斯滕松的人数也差不多，可他有六十门炮，帝国军只有二十六门。\n\n皇帝想打一仗，这一仗就来了。1645年3月6日，两军在沃蒂采附近扬科夫一带的丘陵林地里撞上了，这里离布拉格东南大约五十公里。帝国军身后，一条路通往布拉格，一条路通往多瑙河。这一仗要是输了，瑞典人面前就再没有什么能挡路的了。\n\n帝国军的前锋由格茨元帅率领。一大早，他急着去抢左边的一座山头，可被一片树林拖慢了脚步，瑞典人先到了。他的骑兵挤过两片树林之间一道窄窄的山口，一出来，一边是树林，一边是一大片池塘，山头上的瑞典大炮正对着他们轰。九点刚过，格茨阵亡，他这一翼也全完了。\n\n捷克人至今还记得他，只不过不是什么好名声。他的名字被捷克人念成了“凯茨”，留在一句俗话里：“落得跟扬科夫的凯茨一样”，意思就是下场很惨。\n\n哈茨费尔德把剩下的部队撤到一处高地上，硬撑着。托尔斯滕松把轻炮从一个山头挪到另一个山头，不停地往帝国军阵里打。这时，维尔特的巴伐利亚骑兵冲了上去，把瑞典军的右翼冲垮了。可他们没有乘胜追击，而是扑向了瑞典人的辎重车队，有一阵子，连托尔斯滕松的夫人都落到了他们手里。瑞典人趁这个工夫重新整队，杀了回来。\n\n到了傍晚，帝国步兵投降了。帝国军死伤约四千人，被俘约四千五百人，哈茨费尔德本人也在其中，大炮一门不剩。维尔特的五千骑兵，只有大约一千五百人回到了巴伐利亚。一个星期后，整支军队陆陆续续逃回布拉格的，不过两千三百来人。[[b]]这是整场战争里帝国最惨的败仗之一，皇帝手里最后一支像样的军队，就这样没了。[[/b]]\n\n战后第六天，成了俘虏的哈茨费尔德在佩尔赫日莫夫口述了一封信，寄给维尔茨堡主教：\n\n[[quote:0]]\n\n这一仗，他两句话就说完了：\n\n[[quote:1]]\n\n接下来，信就东一句西一句了。他估计，自己的赎金得要两万塔勒。他还拜托主教照看一下他家里的花园，那里有几棵从纽伦堡运来的大树，正罩着过冬：\n\n[[quote:2]]\n\n军队没了，元帅惦记的，是他的无花果树会不会冻着。\n\n后来，哈茨费尔德在呈给皇帝的备忘录里，也没忘了提一句，这一仗到底是谁的主意：\n\n[[quote:3]]\n\n皇帝没等瑞典人来。他匆匆离开了布拉格。去维也纳的近路，正好穿过瑞典人要去的地方，他只好绕个大圈子：先往西，经上普法尔茨到雷根斯堡，再顺多瑙河而下到林茨，最后回到维也纳。[[b]]他来布拉格，是为了离军队近一点；现在军队没了，皇帝也走了。[[/b]]\n\n托尔斯滕松接着穿过摩拉维亚，进了下奥地利。克雷姆斯和科尔诺伊堡相继失守，到了4月，他的前哨已经站在多瑙河边，隔着河望着维也纳。这是这场战争里第三次有敌军打到维也纳城下：[[link:at-the-gates-of-vienna-1619]]1619年春天[[/link]]是图恩，[[link:vienna-besieged-again-1619]]同年秋天[[/link]]是拜特伦和图恩。跟他们一样，托尔斯滕松来了，却进不去。多瑙河太宽，他的兵也累了，本该从匈牙利赶来会合的盟友，特兰西瓦尼亚大公拉科齐·哲尔吉，又迟迟不到。\n\n另一边，皇帝在维也纳也得出了自己的结论。从1643年起，各方的使节就陆续聚到威斯特伐利亚的两座小城，明斯特和奥斯纳布吕克，商量讲和，谁也不着急。扬科夫之后，斐迪南吩咐自己的使节：这回要认真谈了。\n\n托尔斯滕松还困在多瑙河对岸，过不了河。他掉头回去，打算先拿下布尔诺。在他看来，这用不了三天。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "I wish it had pleased God Almighty that I could write Your Grace some good news. But against all hope it is so bad that I would rather let other people tell it than trouble Your Grace with it myself.",
+          "cz": "Přál bych si, aby se Bohu Všemohoucímu zalíbilo, abych mohl Vaší knížecí Milosti napsat dobrou zprávu. Je to však proti vší naději tak zlé, že to raději nechám vyprávět jiné, než abych tím Vaši knížecí Milost obtěžoval sám.",
+          "zh": "但愿全能的上帝开恩，让我能给殿下写点好消息。可事与愿违，消息坏到这个地步，我宁可让别人去讲，也不愿亲自拿它来烦扰殿下。"
+        },
+        "attribution": {
+          "en": "Melchior von Hatzfeldt, a prisoner in Pelhřimov, to the Bishop of Würzburg, 12 March 1645",
+          "cz": "Melchior von Hatzfeldt, zajatec v Pelhřimově, biskupovi würzburskému, 12. března 1645",
+          "zh": "哈茨费尔德在佩尔赫日莫夫被俘期间致维尔茨堡主教的信，1645年3月12日"
+        }
+      },
+      {
+        "text": {
+          "en": "Field Marshal Götz had the vanguard and, out of good zeal, rushed ahead too fast… but he chose to pay for the fault with his life. The second misfortune came from this: some people's hands took more of a liking to the enemy's baggage than to the enemy himself.",
+          "cz": "Pan polní maršál Götz vedl předvoj a z dobré horlivosti se ukvapil… raději však tu vinu zaplatil životem. Druhé neštěstí přišlo odtud, že se některým lidem do rukou víc zalíbila nepřítelova bagáž než nepřítel sám.",
+          "zh": "格茨元帅带着前锋，出于一片热心，冲得太急了……不过他宁愿拿自己的命来偿还这个过错。第二桩不幸是：有些人的手，看上敌人的辎重，比看上敌人本身还多。"
+        },
+        "attribution": {
+          "en": "Hatzfeldt, the same letter",
+          "cz": "Hatzfeldt, týž dopis",
+          "zh": "哈茨费尔德，同一封信"
+        }
+      },
+      {
+        "text": {
+          "en": "…that the house over the great trees brought from Nuremberg should not be taken off too early, for it is better a little too late than too early. With the fig trees there is still time.",
+          "cz": "…aby se přístřešek nad velkými stromy přivezenými z Norimberka nesundával příliš brzy, neboť je lépe trochu pozdě než příliš brzy. S fíkovníky je ještě čas.",
+          "zh": "……从纽伦堡运来的那几棵大树，上面罩的房子可别拆得太早，宁可晚一点，也别早了。无花果树那边，还不着急。"
+        },
+        "attribution": {
+          "en": "Hatzfeldt, the same letter",
+          "cz": "Hatzfeldt, týž dopis",
+          "zh": "哈茨费尔德，同一封信"
+        }
+      },
+      {
+        "text": {
+          "en": "That a battle was to be fought had been the emperor's order. Had they waited another two or three days, a better opportunity would have come. Götz's rash deed was not Hatzfeldt's fault.",
+          "cz": "Že se má svést bitva, byl císařův rozkaz. Kdyby se počkalo ještě dva nebo tři dny, naskytla by se lepší příležitost. Götzův ukvapený čin není Hatzfeldtova vina.",
+          "zh": "要打这一仗，是皇帝的命令。要是再等上两三天，本会有更好的机会。格茨的鲁莽之举，不是哈茨费尔德的错。"
+        },
+        "attribution": {
+          "en": "Hatzfeldt's memorial to the emperor, as summarised by the historian Matthias Koch (1866)",
+          "cz": "Hatzfeldtův memoriál císaři, jak jej shrnul historik Matthias Koch (1866)",
+          "zh": "哈茨费尔德呈皇帝的备忘录，据历史学家马蒂亚斯·科赫（1866年）的转述"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "pamatnik-bitvy-u-jankova",
+        "relation": {
+          "en": "The memorial and mound stand in the fields between Jankov and Ratměřice, on the ground where the battle of 6 March 1645 was fought",
+          "cz": "Památník s mohylou stojí v polích mezi Jankovem a Ratměřicemi, na místě bitvy ze 6. března 1645",
+          "zh": "纪念碑和土冢立在扬科夫和拉特梅日采之间的田野里，1645年3月6日的那一仗就在这里打的"
+        }
+      }
+    ],
+    "referenceMaps": {
+      "links": [
+        {
+          "label": "1645",
+          "description": {
+            "en": "Hatzfeldt's letter from captivity in Pelhřimov, printed in full in Helmut Neumaier's article on it (German)",
+            "cz": "Hatzfeldtův dopis ze zajetí v Pelhřimově, otištěný celý v článku Helmuta Neumaiera (německy)",
+            "zh": "哈茨费尔德在佩尔赫日莫夫被俘时写的那封信，全文收在赫尔穆特·诺伊迈尔的文章里（德文）"
+          },
+          "url": "https://d-nb.info/1280474882/34"
+        }
+      ]
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Battle_of_Jankau",
+    "images": ["/history/let-someone-else-tell-it-1645.webp", "/history/let-someone-else-tell-it-1645-flight.webp"],
+    "imageCaptions": [
+      {"en": "Jankov, the afternoon of 6 March 1645. Swedish guns fire down from the wooded hill on the right while the imperial cavalry flees along the pond and the imperial infantry gives up in the valley below. In the middle distance, Bavarian horsemen are busy with the Swedish baggage wagons. On the right, Torstensson is carried on a litter, his bandaged foot up.", "cz": "Jankov, odpoledne 6. března 1645. Švédská děla pálí ze zalesněného kopce vpravo, císařská jízda prchá podél rybníka a císařská pěchota se v údolí vzdává. V dálce se bavorští jezdci činí u švédských vozů s trénem. Vpravo nesou na nosítkách Torstenssona s obvázanou nohou nahoře.", "zh": "1645年3月6日下午，扬科夫。瑞典大炮从右边的林中山头往下轰，帝国骑兵沿着池塘溃逃，山谷里的帝国步兵正在投降。远处，巴伐利亚骑兵正忙着翻瑞典人的辎重车。右边，托尔斯滕松坐在担架上被人抬着，缠着绷带的脚架得高高的。"},
+      {"en": "Prague, March 1645. Ferdinand III climbs into a plain black coach as a courier hands him a letter, and a chest left behind lies open in the snow. Along the same road the survivors of Jankov straggle the other way, one of them carrying a torn imperial standard.", "cz": "Praha, březen 1645. Ferdinand III. nastupuje do prostého černého kočáru, jezdec mu podává dopis a ve sněhu leží otevřená truhla, na kterou nikdo nemá čas. Po téže cestě se opačným směrem vlečou ti, kdo přežili Jankov, jeden z nich nese roztrženou císařskou korouhev.", "zh": "1645年3月，布拉格。斐迪南三世正登上一辆朴素的黑马车，信使递上一封信，一只箱子扔在雪地里敞着口，没人顾得上。同一条路上，从扬科夫逃回来的残兵朝相反的方向走来，其中一人扛着一面破了的帝国军旗。"}
+    ]
+  },
+  // The siege of Brno, 3 May-23 August 1645 (split off the Jankov card at the
+  // user's call, 2026-10-28; title is the user's, first "三天拿下的耗子洞"). Sources: cs.wikipedia
+  // "Obléhání Brna (1645)" (426 soldiers + 1,049 burghers, students drilled by
+  // Středa, 26 June powder convoy, 14 July bastion, 15 Aug general assault
+  // morning to evening, Rákóczi's peace learned 16 Aug, mill/hospital/villages
+  // burned 23 Aug, bells legend called unreliable, Torstensson's "myší díra"
+  // boast, Středa's watchword); en.wikipedia "Jean-Louis Raduit de Souches"
+  // (La Rochelle, Swedish service to colonel, fell out with superiors, imperial
+  // colonel late 1642, ennobled 1649 on condition of converting within three
+  // years, buried St James, Brno). The duel with Torstensson is told only by
+  // cs.wikipedia and a popular blog (en.wikipedia names Stålhandske), so it is
+  // hedged. raduitdesouches.cz (600 paces cleared, horses slaughtered and the
+  // butchers' certificate, the trumpets "to help the Swedes aim" and the
+  // smaller-cup jest, both legends). spilberk.cz (112 days, <1,500 vs ~30,000,
+  // drowned in flooded trenches, the "Swedish privilege"). Quote 2 is only
+  // known to us in English, via Czech Radio (english.radio.cz, 2020), source
+  // document unnamed there: attribution says so.
+  {
+    "slug": "the-mouse-hole-1645",
+    "era": "fire-and-ashes",
+    "startYear": 1645.5,
+    "year": {
+      "en": "1645",
+      "cz": "1645",
+      "zh": "1645年"
+    },
+    "title": {
+      "en": "The Mouse Hole That Held",
+      "cz": "Myší díra, která vydržela",
+      "zh": "啃不动的耗子洞"
+    },
+    "hookLine": {
+      "en": "Torstensson gave the little town three days. It held out for a hundred and twelve.",
+      "cz": "Torstensson dal městečku tři dny. Vydrželo jich sto dvanáct.",
+      "zh": "托尔斯滕松给这座小城三天。它撑了一百一十二天。"
+    },
+    "summary": {
+      "en": "Brno in 1645 was not a big place: about five thousand people behind old walls, and on the hill above them the castle of Špilberk. After Olomouc fell to the Swedes in 1642, Brno had become the seat of Moravia's government more or less by default. In March 1645, a week after Jankov, the emperor sent it a new commander.\n\nJean-Louis Raduit de Souches, thirty-six years old, was a Frenchman from La Rochelle and a Protestant, a Huguenot. After his home town fell to Cardinal Richelieu in 1628, he went into exile and joined the Swedish army of Gustavus Adolphus. He served the Swedes for some fourteen years and rose to colonel. He was brave, and he quarrelled with nearly everyone. In 1642 he fell out with his superiors (by one account with Torstensson himself, to the point of a challenge to a duel) and changed sides.\n\n[[b]]So the man defending the Catholic emperor's town against the Swedes was a Protestant who had spent most of his career as a Swedish officer.[[/b]]\n\nHe had seven weeks. He had the walls repaired and the ditches deepened, and cleared every house and tree within six hundred paces of the walls so the enemy would have nowhere to hide. Roofs were stripped and barrels of water set up in the attics against incendiary shot. His garrison was 426 regular soldiers. The rest of Brno's roughly 1,500 defenders were townspeople and students.\n\nThe students came from the Jesuit college. Its rector, a Silesian named Martin Středa, had them drilled in arms, led prayers, fasts and penitential processions, and went round the walls with a watchword for the defenders:\n\n[[quote:0]]\n\nOn 3 May Torstensson arrived with his army and pitched camp at Staré Brno, below the walls. De Souches refused to surrender. Torstensson was not worried:\n\n[[quote:1]]\n\nThe cold old kitchen was Špilberk.\n\nThe Swedish guns and miners went to work, above all against the castle. What they broke by day, the defenders mended by night. On the night of 26 June imperial horsemen slipped through the Swedish lines with some three and a half tonnes of gunpowder. On 14 July the Swedes took part of a Špilberk bastion and got no further. When food ran short, de Souches had horses slaughtered, and gave the two army butchers who did the work a certificate of honour.\n\nStories gathered round the siege. When the defenders blew trumpets and raised flags on the walls, de Souches is said to have explained that it was to help the Swedes aim better. A cannonball, it is said, knocked the cup out of Torstensson's hand, and he asked for a smaller one, to give the gunner a smaller target.\n\nThe Swedes were suffering more than the town. The summer heat brought disease into their camp; men drowned in flooded trenches and were buried when tunnels caved in. In late July Prince Rákóczi turned up at last with his Transylvanians, mostly light horsemen, of little use against walls.\n\nOn 15 August, the Feast of the Assumption, Torstensson threw everything into a general assault on several points at once. It went on from morning until evening, and de Souches fought on the walls himself. Every attack was thrown back. The next day the Swedes learned that Rákóczi had made his own peace with the emperor. On 23 August the last of them marched away, burning the mills, the hospital and the villages outside the walls as they went.\n\nBrno tells the ending its own way. Torstensson, so the story goes, had sworn to lift the siege if the town had not fallen by noon on 15 August, and the defenders rang the noon bells an hour early, at eleven. The real assault went on into the evening, so the story is too neat to be true. The bells of the cathedral on Petrov still ring noon at eleven o'clock every day all the same.\n\nThe siege had lasted 112 days. Torstensson lost some 8,000 men, Brno about 250. Three years earlier [[link:lightning-on-a-litter-1642]]Olomouc[[/link]] had surrendered to him after four days. [[b]]Torstensson had given the mouse hole three days; it held out for a hundred and twelve, and the road to Vienna stayed shut.[[/b]]\n\nDe Souches gave much of the credit to the Jesuit:\n\n[[quote:2]]\n\nThe emperor rewarded the town with the \"Swedish privilege\": years free of taxes and of billeted soldiers, 30,000 florins and an improved coat of arms, and later the right to hold horse and cattle fairs. After that nobody asked whether Olomouc or Brno was the capital of Moravia. De Souches was made a general. Later he was raised to the Moravian nobility, on condition that he became a Catholic within three years. He lies in Brno, in the church of St James.\n\nTorstensson's gout got worse, and at the end of 1645 he gave up his command. Among his colonels at Jankov had been a young cousin of the Swedish queen, Charles Gustav, the only officer of his regiment to come through unhurt, with four bullet holes in his coat and hat. Three years later he would be back in Bohemia.",
+      "cz": "Brno nebylo roku 1645 žádné velké město: asi pět tisíc lidí za starými hradbami a na kopci nad nimi hrad Špilberk. Když roku 1642 padla Olomouc do švédských rukou, stalo se Brno sídlem moravské vlády víceméně z nouze. V březnu 1645, týden po Jankově, mu císař poslal nového velitele.\n\nJean-Louis Raduit de Souches, šestatřicetiletý Francouz z La Rochelle, byl protestant, hugenot. Když jeho rodné město roku 1628 padlo do rukou kardinála Richelieua, odešel do exilu a vstoupil do švédského vojska Gustava Adolfa. Švédům sloužil asi čtrnáct let a dotáhl to na plukovníka. Byl statečný a hádal se skoro s každým. Roku 1642 se rozkmotřil se svými nadřízenými (podle jedné verze se samotným Torstenssonem, až k výzvě na souboj) a přešel na druhou stranu.\n\n[[b]]Město katolického císaře tak proti Švédům bránil protestant, který většinu své kariéry strávil jako švédský důstojník.[[/b]]\n\nMěl sedm týdnů. Dal opravit hradby a prohloubit příkopy a nechal strhnout všechny domy a vykácet stromy do šesti set kroků od hradeb, aby se nepřítel neměl kde skrýt. Ze střech se sundávaly krytiny a na půdy se stavěly sudy s vodou proti zápalným koulím. Posádka měla 426 vojáků z povolání. Zbytek z asi 1 500 obránců Brna tvořili měšťané a studenti.\n\nStudenti byli z jezuitské koleje. Její rektor, Slezan Martin Středa, je nechal cvičit ve zbrani, vedl modlitby, posty a kající procesí a obcházel hradby s heslem pro obránce:\n\n[[quote:0]]\n\n3. května přitáhl Torstensson s vojskem a utábořil se na Starém Brně pod hradbami. De Souches se vzdát odmítl. Torstensson si starosti nedělal:\n\n[[quote:1]]\n\nTou starou studenou kuchyní byl Špilberk.\n\nŠvédská děla a minéři se dali do práce, hlavně proti hradu. Co přes den rozbili, obránci v noci spravili. V noci na 26. června proklouzli císařští jezdci švédskými liniemi s asi třemi a půl tunami střelného prachu. 14. července Švédové obsadili část jedné špilberské bašty a dál se nedostali. Když docházelo jídlo, dal de Souches porážet koně a oběma vojenským řezníkům, kteří to obstarali, vystavil čestné osvědčení.\n\nKolem obléhání se brzy začaly vyprávět historky. Když obránci troubili a vztyčovali na hradbách prapory, de Souches prý vysvětloval, že je to proto, aby Švédové lépe mířili. Dělová koule prý Torstenssonovi vyrazila z ruky pohár a on si poručil menší, aby dal dělostřelci menší terč.\n\nŠvédové trpěli víc než město. Letní horko přineslo do tábora nemoci; muži se topili v zatopených zákopech a zasypávaly je zborcené podkopy. Koncem července konečně dorazil kníže Rákóczi se svými Sedmihradskými, většinou lehkými jezdci, kteří proti hradbám mnoho nezmohli.\n\n15. srpna, na svátek Nanebevzetí Panny Marie, vrhl Torstensson všechno do generálního útoku na několik míst najednou. Trval od rána do večera a de Souches bojoval na hradbách sám. Všechny útoky byly odraženy. Druhý den se Švédové dozvěděli, že Rákóczi uzavřel s císařem vlastní mír. 23. srpna odtáhli poslední z nich a cestou pálili mlýny, špitál i vesnice za hradbami.\n\nBrno vypráví konec po svém. Torstensson prý přísahal, že obléhání ukončí, pokud město do poledne 15. srpna nepadne, a obránci zvonili poledne o hodinu dřív, v jedenáct. Skutečný útok trval do večera, takže historka je příliš hezká na to, aby byla pravdivá. Zvony katedrály na Petrově přesto dodnes zvoní poledne každý den v jedenáct.\n\nObléhání trvalo 112 dní. Torstensson přišel asi o 8 000 mužů, Brno asi o 250. Před třemi lety se mu [[link:lightning-on-a-litter-1642]]Olomouc[[/link]] vzdala po čtyřech dnech. [[b]]Torstensson dal myší díře tři dny; vydržela sto dvanáct a cesta do Vídně zůstala zavřená.[[/b]]\n\nDe Souches přičítal velkou část zásluh jezuitovi:\n\n[[quote:2]]\n\nCísař město odměnil „švédským privilegiem“: léty bez daní a bez ubytovávání vojska, 30 000 zlatými a polepšeným znakem, později i právem pořádat koňské a dobytčí trhy. Od té doby se už nikdo neptal, jestli je hlavním městem Moravy Olomouc, nebo Brno. De Souches se stal generálem. Později byl povýšen do moravského panského stavu, pod podmínkou, že se do tří let stane katolíkem. Leží v Brně, v kostele svatého Jakuba.\n\nTorstenssonova dna se zhoršovala a na konci roku 1645 se velení vzdal. Mezi jeho plukovníky u Jankova byl i mladý bratranec švédské královny, Karel Gustav, jediný důstojník svého pluku, který vyvázl bez zranění, se čtyřmi průstřely v kabátě a klobouku. Za tři roky se měl do Čech vrátit.",
+      "zh": "1645年的布尔诺不算大：老城墙里住着大约五千人，城上方的山头上是施皮尔贝格城堡。1642年奥洛穆茨落到瑞典人手里以后，摩拉维亚的政府差不多是没得选，才搬到了布尔诺。1645年3月，扬科夫之战一个星期后，皇帝给这里派来了一位新的守将。\n\n让-路易·拉杜伊·德·苏谢，三十六岁，是从拉罗谢尔来的法国人，新教徒，胡格诺派。1628年，他的家乡被黎塞留枢机主教攻下，他流亡出国，投了古斯塔夫·阿道夫的瑞典军。他在瑞典军里干了十四年左右，一路升到上校。他打仗勇敢，跟谁都吵得起来。1642年，他跟上司闹翻（有一种说法是跟托尔斯滕松本人，闹到了要决斗的地步），转身投了对面。\n\n[[b]]于是，替天主教的皇帝守城、抵挡瑞典人的，是一个新教徒，而且前半辈子大多在瑞典军里当军官。[[/b]]\n\n他只有七个星期。他让人修补城墙，挖深壕沟，把城墙外六百步以内的房子和树统统清光，好让敌人无处藏身。屋顶上的瓦揭了，阁楼里摆上一桶桶水，防的是燃烧弹。他手下的正规兵只有426人，布尔诺大约一千五百名守城的人，剩下的都是市民和学生。\n\n学生来自耶稣会学院。院长马丁·斯特热达是西里西亚人，他让学生们操练武器，带着大家祈祷、斋戒、赎罪游行，还在城墙上来回走，给守城的人一句口号：\n\n[[quote:0]]\n\n5月3日，托尔斯滕松大军赶到，在城墙下的老布尔诺扎下营来。德·苏谢拒绝投降。托尔斯滕松一点也不着急：\n\n[[quote:1]]\n\n那座冷冰冰的破厨房，说的就是施皮尔贝格。\n\n瑞典人的大炮和挖地道的工兵开始干活，主要冲着城堡去。白天轰坏的，守军夜里就补上。6月26日夜里，帝国骑兵从瑞典人的阵线里钻了进来，送进城大约三吨半火药。7月14日，瑞典人占下了施皮尔贝格一座棱堡的一部分，可再也往前推不动了。城里粮食不够，德·苏谢下令宰马，还给干这活的两个军中屠夫发了一张荣誉证书。\n\n围城期间，各种故事也传开了。据说守城的人在城头吹号、竖旗，德·苏谢的解释是：好让瑞典人瞄得准一点。还有一种说法，一颗炮弹把托尔斯滕松手里的杯子打飞了，他叫人换个小一点的，给炮手一个小一点的靶子。\n\n其实，瑞典人比城里的人更难熬。夏天一热，营里就闹起了病；有人淹死在灌了水的壕沟里，有人被塌方的地道活埋。7月底，拉科齐大公总算带着特兰西瓦尼亚人赶到了，可来的大多是轻骑兵，对着城墙也使不上劲。\n\n8月15日，圣母升天节，托尔斯滕松押上全部家底，同时从几个方向发起总攻。从早上一直打到晚上，德·苏谢亲自上城墙拼杀。每一次进攻都被打了回去。第二天，瑞典人得知，拉科齐已经自己跟皇帝讲和了。8月23日，最后一批瑞典人撤走，一路走一路烧，城外的磨坊、医院和村子都没能幸免。\n\n布尔诺人讲这段结局，有自己的版本。据说托尔斯滕松发过誓，要是到8月15日正午还拿不下城，他就撤围；守城的人便提前一个钟头，在十一点敲响了正午的钟声。可那天的总攻实际上一直打到了晚上，这故事好得有点不像真的。不管怎样，佩特罗夫山上大教堂的钟，至今每天都在十一点敲正午。\n\n这场围城一共打了112天。托尔斯滕松损失了大约八千人，布尔诺死了大约二百五十人。三年前，[[link:lightning-on-a-litter-1642]]奥洛穆茨[[/link]]只守了四天就向他投降了。[[b]]托尔斯滕松说三天拿下的耗子洞，撑了一百一十二天，去维也纳的路也就这样被堵死了。[[/b]]\n\n德·苏谢把很大一份功劳，记在了这位耶稣会士头上：\n\n[[quote:2]]\n\n皇帝给布尔诺颁了一份“瑞典特权”：几年不用交税、不用给军队腾房子，三万弗罗林，城徽也升了级，后来又准它开马市和牛市。从此，再没有人争论摩拉维亚的首府到底是奥洛穆茨还是布尔诺了。德·苏谢升了将军。后来，他又被封为摩拉维亚贵族，条件是三年内改信天主教。他死后葬在布尔诺的圣雅各布教堂。\n\n托尔斯滕松的痛风越来越重，1645年底，他交出了兵权。在扬科夫，他手下的上校里有一个年轻人，是瑞典女王的表兄卡尔·古斯塔夫。他那个团的军官里，只有他一个人毫发无伤，外衣和帽子上却有四个弹孔。三年后，他还会再回到波希米亚。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "Whoever defends Brno defends all of Moravia.",
+          "cz": "Kdo brání Brno, brání celou Moravu.",
+          "zh": "守住布尔诺，就是守住整个摩拉维亚。"
+        },
+        "attribution": {
+          "en": "Martin Středa's watchword to the defenders, as Brno tradition records it",
+          "cz": "Heslo Martina Středy pro obránce, jak je zachovává brněnská tradice",
+          "zh": "马丁·斯特热达给守城者的口号，据布尔诺的传统说法"
+        }
+      },
+      {
+        "text": {
+          "en": "I'll be done with that mouse hole in three days. And that bare, cold old kitchen, I'll take within a week at the latest!",
+          "cz": "S tou myší dírou budu hotov do tří dnů. A tu starou holou studenou kuchyni, tu dobudu nejpozději do jednoho týdne!",
+          "zh": "那个耗子洞，三天我就收拾了。那座光秃秃、冷冰冰的破厨房，最多一个星期也给我拿下！"
+        },
+        "attribution": {
+          "en": "Torstensson on Brno and Špilberk, as the story is told in Brno",
+          "cz": "Torstensson o Brně a Špilberku, jak se to v Brně vypráví",
+          "zh": "托尔斯滕松谈布尔诺和施皮尔贝格，据布尔诺流传的说法"
+        }
+      },
+      {
+        "text": {
+          "en": "It appears that the bravery of the city's defence was strengthened by fervent prayers and continuous fasting on the part of Father Středa.",
+          "cz": "Zdá se, že statečnost obrany města posilovaly vroucí modlitby a neustálé posty otce Středy.",
+          "zh": "看来，守城的勇气，是靠斯特热达神父热切的祈祷和不断的斋戒才更加坚定的。"
+        },
+        "attribution": {
+          "en": "Raduit de Souches on Martin Středa (as quoted by Czech Radio)",
+          "cz": "Raduit de Souches o Martinu Středovi (podle Českého rozhlasu)",
+          "zh": "德·苏谢谈马丁·斯特热达（据捷克广播电台引述）"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "brno",
+        "relation": {
+          "en": "Held out against Torstensson for 112 days in 1645; the cathedral on Petrov still rings noon at eleven",
+          "cz": "Roku 1645 odolávalo Torstenssonovi 112 dní; katedrála na Petrově dodnes zvoní poledne v jedenáct",
+          "zh": "1645年顶住了托尔斯滕松112天的围攻；佩特罗夫山上的大教堂至今在十一点敲正午"
+        }
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Siege_of_Brno",
+    "images": ["/history/the-mouse-hole-1645.webp"],
+    "imageCaptions": [
+      {"en": "Brno, summer 1645. On the left, Špilberk on its hill and the walled town below; on the near wall de Souches waves on his trumpeters and flag-wavers, while Father Středa holds up a crucifix over kneeling students. On the right, behind the Swedish trenches and guns, a cannonball has just knocked the cup out of Torstensson's hand on his litter, and an aide is already holding out a smaller one.", "cz": "Brno, léto 1645. Vlevo Špilberk na kopci a pod ním opevněné město; na hradbě v popředí de Souches pobízí trubače a muže s prapory a páter Středa drží kříž nad klečícími studenty. Vpravo, za švédskými zákopy a děly, vyrazila dělová koule Torstenssonovi na nosítkách pohár z ruky a pobočník mu už podává menší.", "zh": "1645年夏天，布尔诺。左边是山头上的施皮尔贝格和山下带城墙的小城；近处的墙边，德·苏谢招呼着号手和举旗的人，斯特热达神父举着十字架，身边跪着学生。右边，瑞典人的壕沟和大炮后面，一颗炮弹刚把担架上托尔斯滕松手里的杯子打飞，副官已经端上了一只小一号的。"}
+    ]
+  },
+  // 1646-1647, the bridge between Brno and the 1648 raid on the Lesser Town
+  // (user's call, 2026-10-28). Sources: en.wikipedia "Ferdinand IV, King of
+  // the Romans" (crowned King of Bohemia 5 Aug 1646, born 8 Sep 1633); a Czech
+  // article (via search snippet) placing the ceremony in St Vitus; the German-
+  // oath detail was NOT used, unverified. en.wikipedia "Battle of Jankau"
+  // (Swedes out of Bohemia by Feb 1646). Ulm truce 14 Mar 1647 and Werth's
+  // failed attempt to take his regiments to the emperor: en.wikipedia "Johann
+  // von Werth" and the Dinkelsbühl marker (hmdb.org); the 10,000-thaler bounty
+  // is a single blog's and left out. Eger: besieged from 14 June 1647, Wrangel's
+  // "key to Bohemia" (a modern author's phrase per lwl.org's Westphalia
+  // documentation, not Wrangel's own: the card says "known as") and the
+  // emperor at Budweis from an antiquarian map description (bergbook.com); fall dated 17 July by en.wikipedia
+  // "Battle of Triebl" (5 July in the dealer's note), so the card says "in
+  // July". Triebl 22 Aug 1647 and Bavaria's return in September: en.wikipedia
+  // "Battle of Triebl". Odowalsky: en.wikipedia "Ernst Odowalsky" (White
+  // Mountain musketeer, captain 1628, Eger wife 1628, arm/shoulder wound 1639,
+  // house burned and taken prisoner in 1647, the emperor's promised post that
+  // Colloredo never honoured: kept for the Lesser Town card). No near-capture
+  // of the emperor in 1647 was found; not used.
+  {
+    "slug": "the-key-to-bohemia-1647",
+    "era": "fire-and-ashes",
+    "startYear": 1647.3,
+    "year": {
+      "en": "1646–1647",
+      "cz": "1646–1647",
+      "zh": "1646年－1647年"
+    },
+    "title": {
+      "en": "The Key to Bohemia",
+      "cz": "Klíč k Čechám",
+      "zh": "波希米亚的钥匙"
+    },
+    "hookLine": {
+      "en": "Bavaria walked out of the war and walked back in six months later. In between, Bohemia lost its key.",
+      "cz": "Bavorsko z války odešlo a za půl roku se do ní vrátilo. Mezitím Čechy přišly o svůj klíč.",
+      "zh": "巴伐利亚退出了战争，半年后又回来了。就在这半年里，波希米亚丢了它的钥匙。"
+    },
+    "summary": {
+      "en": "After Brno the Swedes did not stay long. Torstensson's successor, Carl Gustaf Wrangel, took the army west, and by February 1646 there were no Swedes left in Bohemia.\n\nOn 5 August 1646 Prague had a coronation. In St Vitus Cathedral the emperor's twelve-year-old son, also called Ferdinand, was crowned King of Bohemia, while his father was still alive and on the throne. Nobody had to elect him: since [[link:no-more-elected-kings-1627]]1627[[/link]] the crown simply passed from father to son. [[b]]A year after the emperor had left Prague in a hurry, he came back to crown his son there.[[/b]]\n\nWrangel, meanwhile, joined the French under Turenne. In the autumn of 1646 they marched into Bavaria and stripped it bare. Maximilian of Bavaria, the emperor's oldest and strongest ally, had had enough. On 14 March 1647, at Ulm, he signed a truce with Sweden and France and stepped out of the war.\n\nNot all his men agreed. Johann von Werth, the cavalry general of [[link:let-someone-else-tell-it-1645]]Jankov[[/link]], tried to take his regiments over to the emperor. Most of his soldiers and officers refused to follow him, and Werth went over almost alone.\n\nWith Bavaria out of the way, Wrangel came back. In June 1647 he laid siege to Eger, on Bohemia's western border, a town known as the key to Bohemia. [[link:the-night-at-eger-1634]]Thirteen years earlier[[/link]] Wallenstein had been murdered there.\n\nThe emperor came to Bohemia again to be near his army, just as he had in 1645. This time he did not come to Prague but stayed in the south, at České Budějovice. His relief army was slow: it waited for Werth's Bavarians, who never came in the numbers it had hoped for. In July Eger surrendered.\n\nIn August the imperial cavalry, Werth among them, fell on Wrangel's camp near Třebel at dawn. They broke in and carried off standards and baggage, but after two hours the Swedes drove them back out. Both sides claimed the victory.\n\nIt was enough for Maximilian. The emperor, it seemed, could still fight, and the French and Swedes made poor neighbours. In September Bavaria went back on its truce and rejoined the emperor. [[b]]Bavaria had left the war for half a year and then come back to it; the only thing that had changed was that the Swedes now held the key to Bohemia.[[/b]]\n\nAmong the people of Eger who lost everything that summer was a retired imperial officer, Ernst Odowalsky. Born in Bohemia, he had fought for the emperor at [[link:two-hours-1620]]White Mountain[[/link]] as a plain musketeer and worked his way up to lieutenant colonel. He had married a local woman and settled near Eger, until a wound in the arm ended his career.\n\nWhen the Swedes took the town, his house burned and he was taken prisoner. Afterwards the emperor promised to look after him.\n\nThe Swedes did not mean to keep the key in their pocket. A year later they would come to try it on the gates of Prague Castle.",
+      "cz": "Po Brně se Švédové dlouho nezdrželi. Torstenssonův nástupce Carl Gustaf Wrangel odvedl vojsko na západ a v únoru 1646 už v Čechách žádní Švédové nebyli.\n\n5. srpna 1646 byla v Praze korunovace. V katedrále svatého Víta byl korunován českým králem dvanáctiletý císařův syn, také Ferdinand, ještě za života a vlády svého otce. Nikdo ho nemusel volit: od roku [[link:no-more-elected-kings-1627]]1627[[/link]] koruna jednoduše přecházela z otce na syna. [[b]]Rok poté, co císař ve spěchu opustil Prahu, se do ní vrátil, aby tu korunoval syna.[[/b]]\n\nWrangel se mezitím spojil s Francouzi pod Turennem. Na podzim 1646 vtáhli do Bavor a vyplenili je. Bavorský Maxmilián, nejstarší a nejsilnější císařův spojenec, toho měl dost. 14. března 1647 podepsal v Ulmu příměří se Švédskem a Francií a z války vystoupil.\n\nNe všichni jeho muži s tím souhlasili. Jan z Werthu, jezdecký generál od [[link:let-someone-else-tell-it-1645]]Jankova[[/link]], se pokusil převést své pluky k císaři. Většina vojáků i důstojníků ho odmítla následovat a Werth přešel skoro sám.\n\nKdyž bylo Bavorsko z cesty, Wrangel se vrátil. V červnu 1647 oblehl Cheb na západní hranici Čech, město, kterému se říkalo klíč k Čechám. [[link:the-night-at-eger-1634]]Před třinácti lety[[/link]] tam byl zavražděn Valdštejn.\n\nCísař přijel do Čech znovu, aby byl nablízku vojsku, stejně jako roku 1645. Tentokrát nepřijel do Prahy, ale zůstal na jihu, v Českých Budějovicích. Jeho vojsko šlo na pomoc pomalu: čekalo na Werthovy Bavory, kteří nikdy nedorazili v takovém počtu, v jaký doufalo. V červenci se Cheb vzdal.\n\nV srpnu přepadla císařská jízda, Werth s ní, za svítání Wrangelův tábor u Třebele. Vtrhla do něj a odnesla prapory i vozy, ale po dvou hodinách ji Švédové zase vytlačili. Vítězství si připsaly obě strany.\n\nMaxmiliánovi to stačilo. Císař, jak se zdálo, ještě bojovat uměl, a Francouzi se Švédy byli špatní sousedé. V září Bavorsko příměří vypovědělo a vrátilo se k císaři. [[b]]Bavorsko z války na půl roku odešlo a pak se do ní vrátilo; změnilo se jen to, že klíč k Čechám teď drželi Švédové.[[/b]]\n\nMezi Chebany, kteří toho léta přišli o všechno, byl i vysloužilý císařský důstojník Ernst Odowalsky. Narodil se v Čechách, za císaře bojoval na [[link:two-hours-1620]]Bílé hoře[[/link]] jako prostý mušketýr a vypracoval se až na podplukovníka. Oženil se s místní ženou a usadil se u Chebu, dokud jeho kariéru neukončilo zranění paže.\n\nKdyž Švédové město dobyli, jeho dům lehl popelem a on sám padl do zajetí. Císař mu pak slíbil, že se o něj postará.\n\nŠvédové si ten klíč nehodlali jen schovat do kapsy. Za rok s ním přijdou zkusit brány Pražského hradu.",
+      "zh": "布尔诺之后，瑞典人没有久留。接替托尔斯滕松的弗兰格尔把军队带往西边，到1646年2月，波希米亚已经一个瑞典兵都没有了。\n\n1646年8月5日，布拉格办了一场加冕礼。在圣维特大教堂里，皇帝十二岁的儿子，也叫斐迪南，在父亲还活着、还在位的时候，戴上了波希米亚的王冠。没有人需要选他：从[[link:no-more-elected-kings-1627]]1627年[[/link]]起，这顶王冠就是父传子了。[[b]]一年前，皇帝匆匆离开了布拉格；一年后，他又回到这里，给儿子加冕。[[/b]]\n\n另一边，弗兰格尔跟蒂雷纳率领的法国军队会了师。1646年秋天，他们开进巴伐利亚，把那里抢了个精光。皇帝资格最老、实力最强的盟友，巴伐利亚的马克西米利安，受够了。1647年3月14日，他在乌尔姆跟瑞典和法国签了停战协定，退出了战争。\n\n他手下的人可不全这么想。[[link:let-someone-else-tell-it-1645]]扬科夫[[/link]]的那位骑兵将领维尔特，想把自己的几个团带去投奔皇帝。结果大部分士兵和军官都不肯跟他走，维尔特差不多是一个人过去的。\n\n巴伐利亚一让开路，弗兰格尔就回来了。1647年6月，他围住了波希米亚西部边境上的海布，这座城人称“波希米亚的钥匙”。[[link:the-night-at-eger-1634]]十三年前[[/link]]，华伦斯坦就是在这里被杀的。\n\n皇帝又来到了波希米亚，跟1645年一样，为的是离军队近一点。这一回，他没去布拉格，而是待在南边的捷克布杰约维采。他派去解围的军队走得很慢，一直在等维尔特带来的巴伐利亚人，可那些人始终没来齐。7月，海布投降了。\n\n8月，帝国骑兵趁天刚亮，在特热贝尔附近偷袭了弗兰格尔的营地，维尔特也在其中。他们冲进营里，抢走了军旗和辎重，可两个钟头后，又被瑞典人赶了出去。双方都说自己赢了。\n\n对马克西米利安来说，这就够了。看起来，皇帝还打得动；而法国人和瑞典人，也实在不是什么好邻居。9月，巴伐利亚撕了停战协定，又回到了皇帝这边。[[b]]巴伐利亚退出战争半年，又回来了；唯一变了的，是波希米亚的钥匙，现在攥在瑞典人手里。[[/b]]\n\n那年夏天，海布城里失去一切的人当中，有一个退役的帝国军官，叫奥托瓦尔斯基。他生在波希米亚，当年在[[link:two-hours-1620]]白山[[/link]]上，他是替皇帝打仗的一名普通火枪手，一路干到了中校。他娶了当地的姑娘，在海布附近安了家，直到胳膊上的一处重伤，断了他的军旅生涯。\n\n瑞典人攻下海布时，他的房子被烧了，他自己也成了俘虏。后来，皇帝答应会照顾他。\n\n这把钥匙，瑞典人可没打算一直揣在兜里。一年后，他们要拿它去开布拉格城堡的大门。"
+    },
+    "relatedLandmarks": [
+      {
+        "slug": "st-vitus-cathedral",
+        "relation": {
+          "en": "Where the emperor's twelve-year-old son Ferdinand IV was crowned King of Bohemia on 5 August 1646",
+          "cz": "Zde byl 5. srpna 1646 korunován českým králem dvanáctiletý císařův syn Ferdinand IV.",
+          "zh": "1646年8月5日，皇帝十二岁的儿子斐迪南四世在这里加冕为波希米亚国王"
+        }
+      },
+      {
+        "slug": "cheb",
+        "relation": {
+          "en": "Known as the key to Bohemia; besieged by Wrangel in June 1647, it surrendered to the Swedes in July",
+          "cz": "Říkalo se mu klíč k Čechám; Wrangel ho v červnu 1647 oblehl a v červenci se Švédům vzdal",
+          "zh": "人称“波希米亚的钥匙”；1647年6月被弗兰格尔围困，7月向瑞典人投降"
+        }
+      },
+      {
+        "slug": "ceske-budejovice",
+        "relation": {
+          "en": "Emperor Ferdinand III stayed here in the summer of 1647, to be near his army while the Swedes besieged Eger",
+          "cz": "V létě 1647 tu pobýval císař Ferdinand III., aby byl nablízku vojsku, zatímco Švédové obléhali Cheb",
+          "zh": "1647年夏天，斐迪南三世皇帝住在这里，好离军队近一点，那时瑞典人正围着海布"
+        }
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Battle_of_Triebl",
+    "images": ["/history/the-key-to-bohemia-1647.webp"],
+    "imageCaptions": [
+      {"en": "Eger, July 1647. Before the gate, three town councillors hand Wrangel the key of the town on a red cushion, while Swedish musketeers march in past a lowered imperial banner. In the foreground a Swedish soldier leads away Ernst Odowalsky, his arm in a sling, past his burning house.", "cz": "Cheb, červenec 1647. Před branou podávají tři radní Wrangelovi na červeném polštáři klíč od města a švédští mušketýři pochodují dovnitř kolem spuštěné císařské korouhve. V popředí odvádí švédský voják Ernsta Odowalského s rukou na pásce kolem jeho hořícího domu.", "zh": "1647年7月，海布。城门前，三位市议员用红垫子托着城门钥匙交给弗兰格尔，瑞典火枪手从倒在地上的帝国军旗旁开进城去。前景里，一个瑞典兵押着胳膊吊着绷带的奥托瓦尔斯基，从他着火的房子前走过。"}
+    ]
+  },
+  // The night of 25-26 July 1648 and the art loot (user's outline and title,
+  // 2026-10-28). Sources: en.wikipedia "Ernst Odowalsky" (promised post at
+  // Elbogen/Loket, Colloredo's "eight rations", Weiden in May 1648, 100
+  // thalers a month); 30jaehrigerkrieg.de's Odowalsky page (the march from
+  // Rakovník, 100 musketeers, the wall behind the Capuchin monastery, two
+  // sentries thrown down, the Strahov Gate guard killed, Colloredo "im
+  // Nachthemd", Sternberg shot at a window, 12 "Tonnen" of ducats from
+  // Colloredo's palace, the last two after Englund's narrative, hedged);
+  // de.wikipedia "Belagerung von Prag (1648)" (Plzeň 22 July with ~2,500
+  // riders, Rakovník 24 July, 600 foot on draught horses, Martinic and Harrach
+  // captured, Colloredo's fishing boat, three days of plunder, 100-200 dead,
+  // the fleeing Waldstein-regiment ensign, the Old Town bridge tower shut at
+  // dawn); de.wikipedia "Prager Kunstraub 1648" (Christina's letter of 5 Aug
+  // 1648, "zu reservieren", 700+ paintings, Dömitz over the winter, Stockholm
+  // 14 April 1649, the live lion as a living Bohemian lion, de Vries bronzes at
+  // Drottningholm); en.wikipedia "Codex Gigas" (Broumov from 1477, to Rudolf
+  // 1594, 74.8 kg, 92 cm), "Codex Argenteus", "Vertumnus (Arcimboldo)" (in the
+  // 1621 and 1635 inventories, taken 1648, at Skokloster since at least 1845;
+  // the route via Wrangel is uncertain, so it is not claimed). The garden
+  // copies: prague.eu (19th/early 20th century, dates differ, so undated).
+  // Quotes 0-2: Odowalsky's own defence, Theatrum Europaeum vi (1663), 326ff.,
+  // as quoted on 30jaehrigerkrieg.de. Quote 3: Georg Leopold's house chronicle
+  // (Marktredwitz), quoted in Braun, Marktredwitz, 344, via the same page.
+  {
+    "slug": "the-swedes-get-in-1648",
+    "era": "fire-and-ashes",
+    "startYear": 1648.55,
+    "year": {
+      "en": "1648",
+      "cz": "1648",
+      "zh": "1648年"
+    },
+    "title": {
+      "en": "The Swedes Get In, Led by One of Our Own",
+      "cz": "Švédové ve městě, vedl je jeden z našich",
+      "zh": "瑞典兵进城，自己人带路"
+    },
+    "hookLine": {
+      "en": "The man who showed the Swedes the way into Prague had once fought for the emperor at White Mountain.",
+      "cz": "Muž, který Švédům ukázal cestu do Prahy, kdysi bojoval za císaře na Bílé hoře.",
+      "zh": "给瑞典人带路进布拉格的，是当年在白山上替皇帝打过仗的人。"
+    },
+    "summary": {
+      "en": "That autumn Wrangel left Bohemia, but Eger stayed in Swedish hands. In May 1648 he and the French broke the last imperial and Bavarian field army at Zusmarshausen in Bavaria. The emperor had almost nothing left to fight with.\n\nAll this time Odowalsky had been waiting. The emperor had promised him an officer's post at Loket. The man who was supposed to arrange it was the commander in Bohemia, Count Rudolf Colloredo, and all Colloredo offered him was \"eight rations\". His money ran out. Later, in a defence of what he did next, he described his state, writing about himself in the third person:\n\n[[quote:0]]\n\nIn May 1648 he rode to Weiden in the Upper Palatinate, to the Swedish general Hans Christoph von Königsmarck, a German in Swedish service who led a fast-moving column of horsemen. Odowalsky offered him a way into Prague. He knew the city, and he knew where its walls were weak. Königsmarck took him on at a hundred thalers a month.\n\n[[b]]A Bohemian who had fought for the emperor at White Mountain was now going to lead the emperor's enemies into Prague.[[/b]] It was not the first time someone from inside had opened a gate: in 1422 a few Catholic burghers of Kutná Hora had quietly let [[link:a-second-crusade-a-second-disaster-1422]]the crusaders[[/link]] in.\n\nOn 22 July 1648 Königsmarck appeared outside Plzeň with some 2,500 horsemen, left the fortified town alone and rode on. At Rakovník he left his guns behind, took on 600 foot soldiers and put them on the draught horses. On the evening of 25 July they waited in a wood west of Prague. Odowalsky led the vanguard, a hundred musketeers.\n\nAround midnight, as they reached White Mountain, they heard bells ringing in the city. Königsmarck grew uneasy. Odowalsky calmed him down:\n\n[[quote:1]]\n\nBehind the Capuchin monastery at Hradčany, between two bastions, the wall was low and poorly guarded.\n\n[[quote:2]]\n\nHis hundred men climbed up. A sentry called out but did not fire; the Swedes threw two soldiers off the wall, and the guard on the other side ran away. Odowalsky hurried to the Strahov Gate, had the whole guard cut down, opened the gate and let down the drawbridge. The cavalry poured in.\n\nHradčany and the Lesser Town woke up to Swedish horsemen in their streets. Half-dressed townspeople and soldiers ran out of their houses. Count Sternberg looked out of a window to see what the noise was, and was shot. Colloredo, it is said, jumped out of bed and escaped over the wall in his nightshirt; a fishing boat took him across the river to the Old Town. By morning the Swedes held the castle, Hradčany, the Lesser Town and the Lesser Town end of Charles Bridge.\n\nAmong their prisoners were two familiar faces. One was the Archbishop of Prague, Ernst Adalbert von Harrach, Wallenstein's brother-in-law, who had once [[link:no-more-elected-kings-1627]]crowned Ferdinand III[[/link]]. The other was the highest official in the kingdom, the supreme burgrave Jaroslav Bořita of Martinic, now sixty-six: the same Martinic who thirty years earlier had been [[link:dung-or-angels-1618]]thrown out of a castle window[[/link]] and lived.\n\nKönigsmarck had promised his men that the night's work would be worth their while. Now it was time to pay up.",
+      "cz": "Na podzim Wrangel z Čech odtáhl, ale Cheb zůstal ve švédských rukou. V květnu 1648 rozbil spolu s Francouzi u Zusmarshausenu v Bavorsku poslední císařské a bavorské polní vojsko. Císař už neměl skoro s čím bojovat.\n\nOdowalsky celou tu dobu čekal. Císař mu slíbil důstojnické místo v Lokti. Zařídit to měl velitel v Čechách, hrabě Rudolf Colloredo, a ten mu nabídl jen „osm porcí“. Peníze mu došly. Později v obhajobě toho, co udělal potom, popsal svůj stav a psal o sobě ve třetí osobě:\n\n[[quote:0]]\n\nV květnu 1648 odjel do Weidenu v Horní Falci za švédským generálem Hansem Christophem von Königsmarckem, Němcem ve švédských službách, který velel rychlému jezdeckému sboru. Odowalsky mu nabídl cestu do Prahy. Znal město a věděl, kde jsou jeho hradby slabé. Königsmarck ho najal za sto tolarů měsíčně.\n\n[[b]]Čech, který za císaře bojoval na Bílé hoře, teď měl dovést císařovy nepřátele do Prahy.[[/b]] Nebylo to poprvé, co bránu otevřel někdo zevnitř: roku 1422 potají vpustilo několik katolických měšťanů z Kutné Hory dovnitř [[link:a-second-crusade-a-second-disaster-1422]]křižáky[[/link]].\n\n22. července 1648 se Königsmarck objevil před Plzní s asi 2 500 jezdci, opevněné město nechal být a jel dál. V Rakovníku nechal děla, přibral 600 pěšáků a posadil je na tažné koně. Večer 25. července čekali v lese západně od Prahy. Předvoj, sto mušketýrů, vedl Odowalsky.\n\nKolem půlnoci, když dorazili na Bílou horu, uslyšeli z města zvony. Königsmarck znejistěl. Odowalsky ho uklidnil:\n\n[[quote:1]]\n\nZa kapucínským klášterem na Hradčanech, mezi dvěma baštami, byla hradba nízká a špatně hlídaná.\n\n[[quote:2]]\n\nJeho stovka mužů vylezla nahoru. Hlídka zavolala, ale nevystřelila; Švédové shodili z hradby dva vojáky a stráž na druhé straně utekla. Odowalsky spěchal ke Strahovské bráně, dal pobít celou stráž, otevřel bránu a spustil padací most. Dovnitř se vhrnula jízda.\n\nHradčany a Malá Strana se probudily se švédskými jezdci v ulicích. Polooblečení měšťané i vojáci vybíhali z domů. Hrabě ze Šternberka se podíval z okna, co se děje, a byl zastřelen. Colloredo prý vyskočil z postele a utekl přes hradbu v noční košili; rybářská loďka ho převezla přes řeku na Staré Město. Ráno drželi Švédové hrad, Hradčany, Malou Stranu i malostranský konec Karlova mostu.\n\nMezi jejich zajatci byly dvě známé tváře. Jednou byl pražský arcibiskup Arnošt Vojtěch z Harrachu, Valdštejnův švagr, který kdysi [[link:no-more-elected-kings-1627]]korunoval Ferdinanda III.[[/link]] Druhou nejvyšší úředník království, nejvyšší purkrabí Jaroslav Bořita z Martinic, tehdy šestašedesátiletý: tentýž Martinic, kterého před třiceti lety [[link:dung-or-angels-1618]]vyhodili z hradního okna[[/link]] a který to přežil.\n\nKönigsmarck svým mužům slíbil, že se jim ta noc vyplatí. Teď přišel čas splatit dluh.",
+      "zh": "那年秋天，弗兰格尔撤出了波希米亚，海布却还留在瑞典人手里。1648年5月，他和法国人在巴伐利亚的楚斯马斯豪森，打散了帝国和巴伐利亚最后一支野战军。皇帝手里，几乎已经没有能打仗的兵了。\n\n这些日子里，奥托瓦尔斯基一直在等。皇帝答应给他在洛克特安排一个军官的职位，负责兑现的，是波希米亚的驻军司令科洛雷多伯爵。科洛雷多给他的，只有“八份口粮”。他的钱花光了。后来，他为自己接下来做的事写了一份辩白，用第三人称说起当时的处境：\n\n[[quote:0]]\n\n1648年5月，他骑马去了上普法尔茨的魏登，找到瑞典将军柯尼希斯马克。这是个替瑞典打仗的德意志人，手下是一支来去如风的骑兵。奥托瓦尔斯基给他送上了一条进布拉格的路：他熟悉这座城，也知道它的城墙哪里最薄弱。柯尼希斯马克雇了他，每月一百塔勒。\n\n[[b]]一个当年在白山上替皇帝打过仗的波希米亚人，如今要领着皇帝的敌人进布拉格了。[[/b]]自己人开城门，这也不是头一回：1422年，库特纳霍拉城里几个天主教市民，就悄悄给[[link:a-second-crusade-a-second-disaster-1422]]十字军[[/link]]开过门。\n\n1648年7月22日，柯尼希斯马克带着大约两千五百名骑兵出现在比尔森城外，没理会这座有城墙的城，径直往前走。到了拉科夫尼克，他把大炮留下，带上六百名步兵，让他们骑上拉车的马。7月25日傍晚，他们藏在布拉格西边的一片树林里。打头的前锋是一百名火枪手，领头的就是奥托瓦尔斯基。\n\n半夜时分，队伍走到白山，听见城里传来了钟声。柯尼希斯马克有点不安。奥托瓦尔斯基让他放心：\n\n[[quote:1]]\n\n城堡区嘉布遣会修道院的后面，两座棱堡之间，有一段城墙又矮，守得又松。\n\n[[quote:2]]\n\n他的一百个人爬了上去。一个哨兵喊了一声，却没开枪；瑞典人把两个守兵扔下了城墙，另一边的哨兵掉头就跑。奥托瓦尔斯基赶到斯特拉霍夫门，把守门的卫兵全部砍倒，打开城门，放下吊桥。骑兵一拥而入。\n\n城堡区和小城区的人一睁眼，街上已经满是瑞典骑兵。市民和士兵衣服都没穿好，就从屋里跑了出来。什特恩贝克伯爵探出窗口，想看看外面出了什么事，挨了一枪。据说科洛雷多是从床上跳起来，穿着睡衣翻过城墙逃走的，一条渔船把他送过河，到了老城。天亮时，城堡、城堡区、小城区，还有查理大桥靠小城这一头，都落到了瑞典人手里。\n\n俘虏里，有两张老面孔。一个是布拉格大主教恩斯特·阿达尔贝特·冯·哈拉赫，华伦斯坦的大舅子，当年就是他[[link:no-more-elected-kings-1627]]给斐迪南三世加的冕[[/link]]。另一个是王国最高的官员，最高城堡伯爵雅罗斯拉夫·博日塔·马丁尼茨，这一年六十六岁，就是三十年前[[link:dung-or-angels-1618]]被扔出城堡窗户[[/link]]、又活了下来的那位马丁尼茨。\n\n柯尼希斯马克答应过手下，这一夜不会白干。现在，到了兑现的时候。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "He was now quite disconsolate, and in the greatest perplexity… out of need he had to have, and to seek, a master.",
+          "cz": "Byl nyní docela bez útěchy a v největších rozpacích… z nouze musel mít a hledat pána.",
+          "zh": "他如今已全然绝望，陷于极度的困窘……出于困窘，他不得不另找一个主人，也必须去找。"
+        },
+        "attribution": {
+          "en": "Ernst Odowalsky's defence of his conduct, printed in the Theatrum Europaeum",
+          "cz": "Obhajoba Ernsta Odowalského, otištěná v Theatrum Europaeum",
+          "zh": "奥托瓦尔斯基的自我辩白，刊于《欧洲舞台》"
+        }
+      },
+      {
+        "text": {
+          "en": "…that in all the monasteries they would be ringing for matins, and so it meant nothing.",
+          "cz": "…že ve všech klášterech zvoní na jitřní, a proto to nic neznamená.",
+          "zh": "……那是各个修道院在敲晨祷的钟，没什么要紧的。"
+        },
+        "attribution": {
+          "en": "Odowalsky's defence, on the bells heard at White Mountain",
+          "cz": "Odowalského obhajoba o zvonech slyšených na Bílé hoře",
+          "zh": "奥托瓦尔斯基的辩白，说的是在白山上听到的钟声"
+        }
+      },
+      {
+        "text": {
+          "en": "When it had now struck half past two, he (Odowalsky) was behind the Capuchin monastery.",
+          "cz": "Když teď odbilo půl třetí, byl on (Odowalsky) za kapucínským klášterem.",
+          "zh": "钟敲过两点半，他（奥托瓦尔斯基）已经到了嘉布遣会修道院的后面。"
+        },
+        "attribution": {
+          "en": "Odowalsky's defence",
+          "cz": "Odowalského obhajoba",
+          "zh": "奥托瓦尔斯基的辩白"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "klaster-kapucinu-hradcany",
+        "relation": {
+          "en": "Behind this monastery Odowalsky's hundred musketeers climbed the town wall at half past two on the night of 25-26 July 1648",
+          "cz": "Za tímto klášterem vylezla Odowalského stovka mušketýrů v noci z 25. na 26. července 1648 v půl třetí na hradbu",
+          "zh": "1648年7月25日夜里两点半，奥托瓦尔斯基的一百名火枪手就是在这座修道院后面爬上城墙的"
+        }
+      },
+      {
+        "slug": "strahov-monastery",
+        "relation": {
+          "en": "Near the Strahov Gate, which Odowalsky opened to let in the Swedish cavalry",
+          "cz": "Nedaleko Strahovské brány, kterou Odowalsky otevřel švédské jízdě",
+          "zh": "旁边就是奥托瓦尔斯基打开、放瑞典骑兵进城的斯特拉霍夫门"
+        }
+      },
+      {
+        "slug": "malostranska-mostecka-vez",
+        "relation": {
+          "en": "Held by the Swedes from the morning of 26 July 1648, at their end of Charles Bridge",
+          "cz": "Od rána 26. července 1648 ji drželi Švédové, na jejich konci Karlova mostu",
+          "zh": "1648年7月26日早上起，查理大桥小城区这一头的桥塔就在瑞典人手里了"
+        }
+      }
+    ],
+    "images": [
+      "/history/the-swedes-get-in-1648.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Dawn, 26 July 1648: Ernst Odowalsky leads Königsmarck's Swedes down through the Lesser Town, while its sleepy residents look out of their windows.",
+        "cz": "Svítání 26. července 1648: Ernst Odowalsky vede Königsmarckovy Švédy dolů Malou Stranou a rozespalí obyvatelé se dívají z oken.",
+        "zh": "1648年7月26日清晨，奥托瓦尔斯基领着柯尼希斯马克的瑞典兵穿过小城区，刚睡醒的住户趴在窗口张望。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Battle_of_Prague_(1648)"
+  },
+  // Split off `the-swedes-get-in-1648` at the user's call (2026-10-28): the
+  // plunder half. Sources and quote: see the comment above that card.
+  {
+    "slug": "the-storeroom-emptied-1648",
+    "era": "fire-and-ashes",
+    "startYear": 1648.56,
+    "year": {
+      "en": "1648–1649",
+      "cz": "1648–1649",
+      "zh": "1648年－1649年"
+    },
+    "title": {
+      "en": "From Prague to Stockholm",
+      "cz": "Z Prahy do Stockholmu",
+      "zh": "从布拉格搬到斯德哥尔摩"
+    },
+    "hookLine": {
+      "en": "The Swedes came for Prague, and left with Rudolf's storeroom.",
+      "cz": "Švédové přišli pro Prahu a odešli s Rudolfovou komorou.",
+      "zh": "瑞典人冲着布拉格来，走的时候，带走了鲁道夫的储物间。"
+    },
+    "summary": {
+      "en": "By the morning of 26 July 1648 the castle, Hradčany and the Lesser Town belonged to the Swedes.\n\nThe Swedish army had once had a good name. In [[link:who-stood-where-1631]]Gustavus Adolphus's day[[/link]] its discipline was famous. But the king had been dead for sixteen years, and Sweden had been at war in Germany for eighteen. By now few of the men under the Swedish flag were Swedes: most were German mercenaries, often months or even years behind on their pay, who lived off whatever they could squeeze or seize from the land. To them, rich Prague looked like meat to a wolf that had not eaten for a month.\n\nKönigsmarck gave his men three days to plunder the Lesser Town. They broke open every door and robbed everyone they met. Somewhere between one and two hundred townspeople are said to have died. A chronicler in Marktredwitz, just across the border, heard that the Swedes had got\n\n[[quote:0]]\n\nFrom Colloredo's own palace alone, so the story went, they carried out twelve barrels of ducats.\n\nTwenty-eight years earlier, after White Mountain, [[link:the-gates-opened-1620]]the emperor's soldiers[[/link]] had looted these same streets for four weeks. [[b]]In 1620 the Lesser Town was plundered by the emperor's army; in 1648, by the emperor's enemies. The houses were the same.[[/b]]\n\nThe richest prize, though, was up at the castle. After Rudolf's death part of his collections had been carted off to Vienna, and the rest had [[link:the-lion-went-first-1612]]sat locked in the castle gathering dust[[/link]]. In Stockholm, Queen Christina, twenty-one years old and a passionate collector, heard the news and wrote that the Prague treasures were to be kept for the Swedish crown. More than seven hundred paintings went into crates, along with statues, clocks, instruments and whole libraries.\n\nTwo books went with them. One was the Codex Gigas, the largest medieval manuscript in the world, almost a metre tall and about seventy-five kilograms heavy, which Rudolf had brought to Prague from the monastery at Broumov in 1594. Legend says a monk wrote it in a single night with the Devil's help, which is why it is called the Devil's Bible; the Devil himself fills one of its pages. The other was the Codex Argenteus, the Silver Bible, a sixth-century Gospel book in the Gothic language, written in silver ink on purple parchment. The first is now in Stockholm, the second in Uppsala.\n\nThe [[link:the-vegetable-emperor-1591]]vegetable emperor[[/link]] went too: Arcimboldo's portrait of Rudolf as Vertumnus, made of fruit and vegetables. Today it hangs in Skokloster Castle, outside Stockholm.\n\nDown in the Lesser Town the Swedes stripped [[link:inside-and-outside-the-walls-1630]]Wallenstein's garden[[/link]] of its bronze statues by Adriaen de Vries. Most of them stand today in the park of Drottningholm Palace near Stockholm; the ones in the Wallenstein Garden are copies. They even took a live lion, a living Bohemian lion for Sweden, and shipped it down the Elbe.\n\nThe crates went down the Vltava and the Elbe, spent the winter in a fortress on the lower Elbe and reached Stockholm in April 1649. [[b]]Rudolf had spent thirty years filling his storeroom; the Swedes emptied it in a few months.[[/b]]\n\nAll that came later. On the morning of 26 July, the Swedes held only half of Prague. A runaway ensign had dashed across Charles Bridge in the dark to warn the Old Town. At dawn its militia shut the gate of the Old Town Bridge Tower and began to barricade it. Between the Swedes and the rest of the city there was now only a bridge.",
+      "cz": "Ráno 26. července 1648 patřily hrad, Hradčany i Malá Strana Švédům.\n\nŠvédské vojsko mívalo kdysi dobré jméno. Za [[link:who-stood-where-1631]]Gustava Adolfa[[/link]] byla jeho kázeň pověstná. Jenže král byl šestnáct let mrtvý a Švédsko válčilo v Německu už osmnáct let. Pod švédskou vlajkou teď sloužilo jen málo Švédů: většinou to byli němečtí žoldnéři, kterým žold dlužili měsíce, ba i roky, a kteří žili z toho, co ze země vymačkali nebo uloupili. Bohatá Praha pro ně byla jako maso pro vlka, který měsíc nežral.\n\nKönigsmarck dal svým mužům tři dny na plenění Malé Strany. Vylamovali všechny dveře a okrádali každého, koho potkali. Zemřít při tom mělo sto až dvě stě měšťanů. Kronikář v Marktredwitzu, kousek za hranicí, slyšel, že Švédové získali\n\n[[quote:0]]\n\nJen z Colloredova paláce prý vynesli dvanáct sudů dukátů.\n\nPřed osmadvaceti lety, po Bílé hoře, plenili tytéž ulice čtyři týdny [[link:the-gates-opened-1620]]císařovi vojáci[[/link]]. [[b]]Roku 1620 Malou Stranu vyplenilo císařovo vojsko, roku 1648 císařovi nepřátelé. Domy byly tytéž.[[/b]]\n\nNejbohatší kořist však čekala nahoře na hradě. Po Rudolfově smrti se část jeho sbírek odvezla do Vídně a zbytek [[link:the-lion-went-first-1612]]ležel zamčený na hradě a sbíral prach[[/link]]. Ve Stockholmu se o tom dozvěděla královna Kristina, jednadvacetiletá a vášnivá sběratelka, a napsala, že pražské poklady se mají vyhradit pro švédskou korunu. Do beden putovalo přes sedm set obrazů, k tomu sochy, hodiny, přístroje a celé knihovny.\n\nS nimi odjely i dvě knihy. Jednou byl Codex gigas, největší středověký rukopis na světě, skoro metr vysoký a těžký asi pětasedmdesát kilogramů, který dal Rudolf roku 1594 přivézt do Prahy z kláštera v Broumově. Podle pověsti ho jeden mnich napsal za jedinou noc s ďáblovou pomocí, a proto se mu říká Ďáblova bible; sám ďábel na jedné z jeho stran zabírá celou stránku. Druhou byl Codex argenteus, Stříbrná bible, evangeliář ze 6. století v gótštině, psaný stříbrným inkoustem na purpurovém pergamenu. První je dnes ve Stockholmu, druhý v Uppsale.\n\nOdjel i [[link:the-vegetable-emperor-1591]]zeleninový císař[[/link]]: Arcimboldův portrét Rudolfa jako Vertumna, složený z ovoce a zeleniny. Dnes visí na zámku Skokloster nedaleko Stockholmu.\n\nDole na Malé Straně Švédové obrali [[link:inside-and-outside-the-walls-1630]]Valdštejnovu zahradu[[/link]] o bronzové sochy Adriaena de Vriese. Většina z nich dnes stojí v parku zámku Drottningholm u Stockholmu; ty ve Valdštejnské zahradě jsou kopie. Odvezli dokonce živého lva, živého českého lva pro Švédsko, a poslali ho lodí po Labi.\n\nBedny putovaly po Vltavě a Labi, přezimovaly v pevnosti na dolním Labi a do Stockholmu dorazily v dubnu 1649. [[b]]Rudolf plnil svou komoru třicet let; Švédové ji vyprázdnili za pár měsíců.[[/b]]\n\nTo všechno přišlo až později. Ráno 26. července drželi Švédové jen půlku Prahy. Jeden praporečník, který utekl, přeběhl ještě za tmy Karlův most a varoval Staré Město. Za svítání jeho domobrana zavřela bránu Staroměstské mostecké věže a začala ji zatarasovat. Mezi Švédy a zbytkem města teď stál už jen most.",
+      "zh": "1648年7月26日早上，城堡、城堡区和小城区，都已经是瑞典人的了。\n\n瑞典军队原本名声还不坏。[[link:who-stood-where-1631]]古斯塔夫·阿道夫[[/link]]在世的时候，军纪是出了名地严。可国王已经死了十六年，瑞典人在德意志也已经打了十八年仗。如今打着瑞典旗号的兵，真正的瑞典人没剩几个，大多是德意志雇佣兵。军饷一欠就是几个月，甚至好几年，他们只能靠勒索和抢劫过日子。在他们眼里，富得流油的布拉格，就像摆在一只饿了一个月的狼面前的一块肉。\n\n柯尼希斯马克给了手下三天时间，在小城区放开了抢。他们见门就撬，见人就抢。据说死在这三天里的市民，有一两百人。边境那头马克特雷德维茨的一位编年史家听说，瑞典人这一趟弄到了\n\n[[quote:0]]\n\n据说光从科洛雷多的府邸里，就抬出了十二桶金币。\n\n二十八年前，白山之战以后，[[link:the-gates-opened-1620]]皇帝的兵[[/link]]也在这几条街上抢了整整四个星期。[[b]]1620年，抢小城区的是皇帝的军队；1648年，抢小城区的是皇帝的敌人。房子还是那些房子。[[/b]]\n\n不过，最值钱的东西还在山上的城堡里。鲁道夫死后，他的收藏一部分被运去了维也纳，剩下的，就一直[[link:the-lion-went-first-1612]]锁在城堡里落灰[[/link]]。消息传到斯德哥尔摩，二十一岁、酷爱收藏的克里斯蒂娜女王写信说，布拉格的宝贝要给瑞典王室留着。七百多幅画装进了箱子，还有雕像、钟表、仪器，和一座座整个的图书馆。\n\n跟着一起走的，还有两本书。一本是《巨人抄本》，世界上最大的中世纪手抄本，将近一米高，重七十五公斤上下，是鲁道夫1594年从布劳莫夫的修道院弄到布拉格来的。传说一个修士借魔鬼的帮助，一夜之间写成了它，所以人们管它叫《魔鬼圣经》；书里有一整页，画的就是魔鬼本人。另一本是《银字圣经》，六世纪用哥特语写成的福音书，银色的墨水写在紫色的羊皮纸上。前一本如今在斯德哥尔摩，后一本在乌普萨拉。\n\n那位[[link:the-vegetable-emperor-1591]]“蔬菜皇帝”[[/link]]也走了：阿尔钦博托用水果蔬菜拼成的鲁道夫画像《维尔图努斯》，今天挂在斯德哥尔摩郊外的斯库克洛斯特城堡里。\n\n山下的小城区里，瑞典人把[[link:inside-and-outside-the-walls-1630]]华伦斯坦花园[[/link]]里阿德里安·德·弗里斯的青铜雕像也搬空了。这些雕像大多立在今天斯德哥尔摩附近的卓宁霍姆宫花园里，华伦斯坦花园里现在站着的，是复制品。他们甚至还运走了一头活狮子，给瑞典带去一头活生生的“波希米亚狮子”，用船顺着易北河送了下去。\n\n箱子顺着伏尔塔瓦河和易北河往下走，在易北河下游的一座要塞里过了冬，1649年4月运到了斯德哥尔摩。[[b]]鲁道夫花了三十年，才把他的储物间装满；瑞典人只用了几个月，就把它搬空了。[[/b]]\n\n这些都是后话。回到7月26日那个早上：瑞典人只拿下了半个布拉格。一个逃出来的掌旗官，趁着天还没亮跑过了查理大桥，给老城报了信。天一亮，老城的民兵就关上了老城桥塔的大门，开始往门后堆路障。现在，瑞典人和布拉格的另一半之间，只隔着一座桥。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "…in gold, silver and precious stones, such great riches, worth several millions.",
+          "cz": "…na zlatě, stříbře a drahém kamení takové bohatství v hodnotě několika milionů.",
+          "zh": "……金子、银子和宝石，价值好几百万的一大笔财富。"
+        },
+        "attribution": {
+          "en": "Georg Leopold's house chronicle, Marktredwitz",
+          "cz": "Domácí kronika Georga Leopolda, Marktredwitz",
+          "zh": "马克特雷德维茨的格奥尔格·利奥波德的家族编年史"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "new-royal-palace",
+        "relation": {
+          "en": "The wing where Rudolf kept his collections, around the Spanish Hall and the Rudolf Gallery; in 1648 the Swedes packed up what was left here and shipped it to Stockholm",
+          "cz": "Křídlo, kde Rudolf uchovával své sbírky, kolem Španělského sálu a Rudolfovy galerie; roku 1648 tu Švédové zabalili, co zbylo, a odvezli to do Stockholmu",
+          "zh": "鲁道夫存放收藏的地方，就在西班牙厅和鲁道夫画廊一带；1648年，瑞典人把这里剩下的宝贝装箱，运去了斯德哥尔摩"
+        }
+      },
+      {
+        "slug": "wallenstein-garden-1783750953785",
+        "relation": {
+          "en": "Its bronze statues by Adriaen de Vries were taken to Sweden in 1648; those in the garden today are copies",
+          "cz": "Její bronzové sochy od Adriaena de Vriese odvezli roku 1648 Švédové; dnešní sochy v zahradě jsou kopie",
+          "zh": "园中阿德里安·德·弗里斯的青铜雕像1648年被瑞典人运走，今天立在这里的是复制品"
+        }
+      }
+    ],
+    "images": [
+      "/history/the-storeroom-emptied-1648.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Late July 1648: Swedish soldiers plunder the Lesser Town (left) while Rudolf II's collection at Prague Castle, the Codex Gigas among it, is packed into crates for Sweden (right).",
+        "cz": "Konec července 1648: švédští vojáci plení Malou Stranu (vlevo) a na Pražském hradě balí do beden sbírky Rudolfa II., mezi nimi i Ďáblovu bibli (vpravo).",
+        "zh": "1648年7月底，左边是瑞典兵在小城区挨家抢劫；右边是城堡里，鲁道夫二世的收藏正被装箱运往瑞典，桌上摊开的就是《魔鬼圣经》。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Codex_Gigas"
+  },
+  // Holding the bridge, Jul-Nov 1648 (user's outline, 2026-10-28). Sources:
+  // cs.wikipedia "Švédské obléhání Prahy" (Wittenberg 31 Jul, bombardment 3-4
+  // Aug, Charles Gustav late Sep, assaults 6 Oct, 10-11 Oct, 24 Oct at the
+  // Horská brána with partial breakthroughs and powder running short, news of
+  // peace 1 Nov; Plachý led the student legion and fought in person; the Jewish
+  // butchers' guild granted the double-tailed lion); ČT24 2008 (Colloredo
+  // ~1,200 soldiers, legion ~750 students and professors based at the
+  // Klementinum, mayor Mikuláš Turek); Jiří Glet via lovecpokladu.cz (Jews
+  // among the bridge defenders); Posen Library (1649 Yiddish song, nine Jews
+  // killed by one cannonball). Bridge tower: bridge-facing sculpture
+  // destroyed 1648, Latin plaque set up in the 1650-53 repair (text from
+  // streetsigns.co.il, translated here, abridged). "Swedish hat": the banner
+  // grant is unsourced (en.wikipedia: citation needed; Putík 1993 discusses
+  // the name), so told as legend. The city's sword-arm coat of arms is held
+  // for the aftermath card.
+  {
+    "slug": "holding-the-bridge-1648",
+    "era": "fire-and-ashes",
+    "startYear": 1648.6,
+    "tone": "serious",
+    "year": {
+      "en": "July–November 1648",
+      "cz": "červenec–listopad 1648",
+      "zh": "1648年7月－11月"
+    },
+    "title": {
+      "en": "Holding the Bridge",
+      "cz": "Udržet most",
+      "zh": "据守大桥"
+    },
+    "hookLine": {
+      "en": "The Swedes took half of Prague in one night. For the other half they spent three months outside its walls.",
+      "cz": "Půl Prahy vzali Švédové za jedinou noc. Pod druhou polovinou pak strávili tři měsíce.",
+      "zh": "瑞典人一夜拿下了半个布拉格，另一半，他们在城外耗了三个多月。"
+    },
+    "summary": {
+      "en": "On the morning of 26 July the Swedes charged onto Charles Bridge, hoping to take the Old Town in one rush. But the portcullis of the Old Town Bridge Tower had already come down, with barricades piled up behind it. The Swedes on the bridge were driven back.\n\nThe Old Town was held by a patchwork force. Colloredo had escaped across the river in a fishing boat, with only about 1,200 regular soldiers left to him. The townspeople took up arms under their mayor, Mikuláš Turek; men from the Jewish Town came too. And some 750 students and teachers formed a \"student legion\", based in the Jesuits' Klementinum and led by a Jesuit, Jiří Plachý, who fought alongside them.\n\nIn [[link:a-government-of-thirty-1618]]1618[[/link]] one of the first things the rebel lords did was throw the Jesuits out of Prague. [[b]]Thirty years later, the men holding Prague for the emperor were students led by a Jesuit.[[/b]]\n\nOn 31 July Wittenberg arrived with a second Swedish army. In early August the Swedish guns on the heights of the west bank opened fire, and their shot flew across the Vltava into the Old and New Towns. A Yiddish song printed in 1649 tells of a single cannonball that landed in the Jewish Town and killed nine people at once.\n\nThe Old Town Bridge Tower took the worst of it. Its bridge-facing side had once been carved with the Virgin, Charles IV and his empress. One summer of bombardment destroyed them all. Today that side is bare except for a Latin plaque, put up when the tower was repaired after the war. The Swedish king's title was \"King of the Swedes, the Goths and the Vandals\", so the inscription simply calls the Swedes Goths and Vandals:\n\n[[quote:0]]\n\nAt the end of September a third Swedish army arrived. Its commander was the queen's cousin, Charles Gustav. [[link:the-mouse-hole-1645]]Three years earlier[[/link]] he had been a regimental officer outside Brno; now he was the commander-in-chief of the Swedish army. The three armies closed in from three sides at once: from the west against the bridge, from the north with guns trained on the town, and from the east against the New Town's gates.\n\nThe first general assault came on 6 October. The 10th and 11th were the fiercest two days of the whole siege. On 24 October came the fourth assault, against the New Town's Mountain Gate, the gate through which the [[link:a-king-for-one-winter-1620]]Winter King[[/link]] had fled Prague twenty-eight years before. This time the Swedes broke in at several points, and the defenders were running out of gunpowder.\n\nOn that same day, several hundred kilometres away in Westphalia, someone signed a document. Nobody inside or outside Prague knew.\n\nThe Jews' part in the defence left a legend behind. In the Old-New Synagogue hangs a great banner of the Jewish community with a pointed hat embroidered inside its Star of David. Praguers call it the \"Swedish hat\" and say Ferdinand III granted the banner for the Jews' defence of the city in 1648. But the hat looks like the pointed hat medieval Jews were made to wear, with nothing Swedish about it, and no document of the time records such a grant. What is on record is something else: the emperor allowed the Jewish Town's butchers' guild to put the Bohemian double-tailed lion on its emblem.\n\nThe fighting went on. In early November a messenger from Westphalia rode up to Prague. The news he brought left everyone, inside the walls and outside them, unsure whether to laugh or cry.",
+      "cz": "Ráno 26. července se Švédové vrhli na Karlův most, aby Staré Město dobyli jedním náporem. Jenže mříž Staroměstské mostecké věže už byla spuštěná a za ní se vršily barikády. Švédy na mostě zahnali zpátky.\n\nStaré Město bránila slátaná posádka. Colloredo utekl přes řeku na rybářské lodici a zbylo mu jen asi 1 200 vojáků. Měšťané se chopili zbraní pod vedením primátora Mikuláše Turka; přišli i muži z Židovského Města. A asi 750 studentů a profesorů vytvořilo „studentskou legii“ se základnou v jezuitském Klementinu, kterou vedl jezuita Jiří Plachý a bojoval s nimi.\n\nRoku [[link:a-government-of-thirty-1618]]1618[[/link]] patřilo k prvním krokům vzbouřených pánů vyhnání jezuitů z Prahy. [[b]]O třicet let později drželi Prahu pro císaře studenti v čele s jezuitou.[[/b]]\n\n31. července dorazil Wittenberg s druhým švédským vojskem. Začátkem srpna spustila švédská děla z výšin na levém břehu a koule letěly přes Vltavu do Starého i Nového Města. Jidiš píseň vytištěná roku 1649 vypráví o jediné kouli, která dopadla do Židovského Města a zabila naráz devět lidí.\n\nNejvíc to schytala Staroměstská mostecká věž. Její strana k mostu bývala zdobena sochami Panny Marie, Karla IV. a jeho manželky. Jedno léto ostřelování je všechny zničilo. Dnes je ta strana holá, jen s latinskou deskou, kterou tam osadili při opravě věže po válce. Švédský král se tituloval „král Švédů, Gótů a Vandalů“, a tak nápis Švédy rovnou nazývá Góty a Vandaly:\n\n[[quote:0]]\n\nKoncem září dorazilo třetí švédské vojsko. Velel mu královnin bratranec Karel Gustav. [[link:the-mouse-hole-1645]]Před třemi lety[[/link]] byl pod Brnem jen plukovním důstojníkem, teď byl vrchním velitelem švédské armády. Tři vojska se sevřela ze tří stran zároveň: od západu na most, od severu s děly namířenými na město a od východu na brány Nového Města.\n\nPrvní generální útok přišel 6. října. 10. a 11. října byly nejtvrdší dva dny celého obléhání. 24. října přišel čtvrtý útok, na Horskou bránu Nového Města, tu, kterou před osmadvaceti lety z Prahy utíkal [[link:a-king-for-one-winter-1620]]Zimní král[[/link]]. Tentokrát Švédové na několika místech pronikli dovnitř a obráncům docházel střelný prach.\n\nTéhož dne, několik set kilometrů daleko ve Vestfálsku, kdosi podepsal jakýsi dokument. Nikdo v Praze ani před ní o tom nevěděl.\n\nPodíl Židů na obraně zanechal i pověst. Ve Staronové synagoze visí velký prapor židovské obce se špičatým kloboukem uprostřed Davidovy hvězdy. Pražané mu říkají „švédský klobouk“ a tvrdí, že prapor daroval Ferdinand III. za obranu města roku 1648. Jenže ten klobouk vypadá jako špičatý klobouk, který museli nosit středověcí Židé, a nic švédského na něm není; o žádném takovém daru navíc nemáme dobový doklad. Doložené je něco jiného: císař povolil cechu řezníků Židovského Města, aby ve znaku užíval českého dvouocasého lva.\n\nBoje pokračovaly. Začátkem listopadu dorazil pod Prahu posel z Vestfálska. Se zprávou, kterou přinesl, nevěděl nikdo ve městě ani před ním, jestli se má smát, nebo plakat.",
+      "zh": "7月26日上午，瑞典人冲上了查理大桥，想一鼓作气拿下老城。可老城桥塔的闸门已经落了下来，门后堆起了路障。桥上的瑞典兵被打了回去。\n\n守老城的，是一支七拼八凑的队伍。科洛雷多坐着渔船逃过了河，手下只剩一千二百来个正规兵。老城的市民拿起了武器，由市长米库拉什·图雷克带着；犹太城的人也来了。另外还有七百五十来个学生和教授，编成了一支“学生军团”，大本营设在耶稣会的克莱门特学院，领头的是耶稣会士伊日·普拉希，他自己也上阵。\n\n[[link:a-government-of-thirty-1618]]1618年[[/link]]，起义的贵族一上台，就把耶稣会士赶出了布拉格。[[b]]三十年后，替皇帝守住布拉格的，正是耶稣会士带出来的学生。[[/b]]\n\n7月31日，维滕贝格带着第二支瑞典军赶到。8月初，瑞典人的大炮从河西岸的高处往东打，炮弹越过伏尔塔瓦河，砸进老城和新城。据1649年印出来的一首意第绪语小曲说，一颗炮弹落进犹太城，一下子炸死了九个人。\n\n挨炮最多的，是老城桥塔。它朝着大桥的那一面，原本雕着圣母、查理四世和他的皇后。一个夏天轰下来，这些雕像全毁了，今天那一面光秃秃的，只镶着一块拉丁文石碑，是战后修塔时立的。瑞典国王的头衔是“瑞典人、哥特人和汪达尔人之王”，所以碑文干脆管瑞典人叫哥特人和汪达尔人：\n\n[[quote:0]]\n\n9月底，又一支瑞典军赶到了。领兵的是瑞典女王的表兄卡尔·古斯塔夫。[[link:the-mouse-hole-1645]]三年前[[/link]]，他在布尔诺城下还只是个团里的军官，现在，他成了瑞典军的总司令。三支瑞典军从西、北、东三面一起压了上来：西边打大桥，北边架炮轰城，东边去撞新城的城门。\n\n10月6日，第一次总攻。10月10日到11日，是整场围城里打得最凶的两天。10月24日，第四次总攻，瑞典人冲向新城的山门，二十八年前，[[link:a-king-for-one-winter-1620]]冬王[[/link]]就是从这座门逃出布拉格的。这一回，瑞典人在好几处冲进了城，守军的火药也快打光了。\n\n同一天，在几百公里外的威斯特伐利亚，有人在一份文件上签了字。布拉格城里城外，谁也不知道。\n\n犹太人守城的事，后来还留下一个传说。老新犹太会堂里挂着一面犹太社区的大旗，六芒星中间绣着一顶尖帽子。布拉格人管它叫“瑞典帽”，说这面旗是斐迪南三世为了表彰犹太人1648年守城赐下的。可这顶帽子，看上去就是中世纪犹太人被要求戴的那种尖帽，跟瑞典没什么关系；皇帝赐旗的事，也找不到当年的文书。有据可查的是另一件事：皇帝准许犹太城的屠夫行会，在行会的徽章上用波希米亚的双尾狮。\n\n仗还在打。11月初，一个从威斯特伐利亚来的信使赶到了布拉格城下。他带来的消息，让城里城外的人，都不知道该哭还是该笑。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "Stop here a while, traveller, gladly and willingly, where the fury of the Goths and Vandals, having laid waste to so much, at last had to stop, however unwillingly. … In the year of the Lord 1648 the Swedish Mars drew his lines on this tower with iron and fire. This tower was the last limit of the Gothic fury, but not the last limit of Bohemian loyalty.",
+          "cz": "Zastav se tu chvíli, poutníče, rád a ochotně, tam, kde se zuřivost Gótů a Vandalů, když mnohé zpustošila, nakonec musela zastavit, třebaže nerada. … Léta Páně 1648 vepsal švédský Mars do této věže své čáry železem a ohněm. Tato věž byla poslední mezí gótské zuřivosti, nikoli však poslední mezí české věrnosti.",
+          "zh": "行人，请在此稍停，心甘情愿地停一停。哥特人和汪达尔人的狂暴，糟蹋了那么多地方之后，终于在这里不得不停下，哪怕心不甘、情不愿。……主后1648年，瑞典的战神用铁与火，在这座塔上刻下了他的印记。这座塔，是哥特人狂暴的最后边界，却不是波希米亚人忠诚的最后边界。"
+        },
+        "attribution": {
+          "en": "Latin inscription on the bridge side of the Old Town Bridge Tower, put up when the tower was repaired after the siege (abridged)",
+          "cz": "Latinský nápis na straně Staroměstské mostecké věže obrácené k mostu, osazený při opravě věže po obléhání (zkráceno)",
+          "zh": "老城桥塔朝向大桥一面的拉丁文碑文，战后修塔时所立（节选）"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "staromestska-mostecka-vez",
+        "relation": {
+          "en": "Its portcullis stopped the Swedes on the bridge in 1648; its bridge-facing sculptures were shot away in the siege, and a Latin plaque there remembers the defence",
+          "cz": "Její mříž zastavila roku 1648 Švédy na mostě; sochy na straně k mostu zničilo ostřelování a latinská deska tam připomíná obranu",
+          "zh": "1648年，它落下的闸门把瑞典人挡在了桥上；朝向大桥一面的雕像在围城中被炮火毁掉，墙上的拉丁文碑纪念这次守城"
+        }
+      },
+      {
+        "slug": "charles-bridge",
+        "relation": {
+          "en": "The front line between the two halves of Prague from July to November 1648",
+          "cz": "Od července do listopadu 1648 fronta mezi oběma polovinami Prahy",
+          "zh": "1648年7月到11月，布拉格两半之间的前线"
+        }
+      },
+      {
+        "slug": "national-library-czech-republic",
+        "relation": {
+          "en": "The Jesuit college that served as the base of the student legion under Jiří Plachý",
+          "cz": "Jezuitská kolej, základna studentské legie Jiřího Plachého",
+          "zh": "耶稣会的学院，伊日·普拉希率领的学生军团的大本营"
+        }
+      },
+      {
+        "slug": "old-new-synagogue-1782601630704",
+        "relation": {
+          "en": "The Jewish community's banner hanging here, with the so-called \"Swedish hat\" in its star, is said to have been granted for the 1648 defence",
+          "cz": "Visí zde prapor židovské obce s takzvaným „švédským kloboukem“ ve hvězdě, údajně udělený za obranu roku 1648",
+          "zh": "这里挂着犹太社区的大旗，星中那顶所谓的“瑞典帽”，据说是为表彰1648年守城而赐"
+        }
+      },
+      {
+        "slug": "masarykovo-nadrazi",
+        "relation": {
+          "en": "The site of the New Town's Mountain Gate, where the Swedes' fourth assault broke into the town on 24 October 1648",
+          "cz": "Místo, kde stála Horská brána Nového Města; 24. října 1648 tu Švédové při čtvrtém útoku pronikli do města",
+          "zh": "新城山门的旧址；1648年10月24日，瑞典人在这里发动第四次总攻，一度冲进了城"
+        }
+      }
+    ],
+    "images": [
+      "/history/holding-the-bridge-1648.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "October 1648: behind the lowered portcullis of the Old Town Bridge Tower, students led by the Jesuit Jiří Plachý, townsmen and men from the Jewish Town hold Charles Bridge against the Swedes, while cannon fire smashes the statues on the tower.",
+        "cz": "Říjen 1648: za spuštěnou mříží Staroměstské mostecké věže drží studenti vedení jezuitou Jiřím Plachým, měšťané a muži z Židovského Města Karlův most proti Švédům a dělostřelba tříští sochy na věži.",
+        "zh": "1648年10月，老城桥塔的闸门已经落下。耶稣会士普拉希带着学生，和老城市民、犹太城的人一起守住查理大桥，瑞典人的炮火正打碎塔上的雕像。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Battle_of_Prague_(1648)"
+  },
+  // Westphalia and Prague's peace, 1648-1650 (user's outline, 2026-10-28).
+  // Sources: ČT24 2018 "Třicetiletá válka připravila Prahu o třetinu
+  // obyvatel" (news 1 Nov, withdrawal began 1 Nov, ceasefire 29 Nov in a
+  // shed in the middle of Charles Bridge, thanksgiving 6 Nov at Týn and the
+  // Old Town Square, Prague lost about a third of its people, Swedes left in
+  // Sept 1649, Marian column 1650, the sword-arm arms); cs.wikipedia
+  // "Švédské obléhání Prahy" (Charles Gustav told 1 Nov). Treaty quote:
+  // IPO Art. IV §§52-53, English via germanhistorydocs.org (Helfferich tr.).
+  // 1624 normal year not applied to the hereditary lands, Silesian peace
+  // churches: lwl.org Westphalia documentation. Comenius wrote to Axel
+  // Oxenstierna around the signing (dated 11 Oct, 24 Oct or 1 Nov 1648 by
+  // different sources, so the card gives no date); the letter's wording was
+  // not found, so the quote is from the Kšaft (1650), ch. II, cs.wikisource.
+  // Plaque closing lines: streetsigns.co.il transcription, translated here.
+  {
+    "slug": "it-ended-where-it-began-1648",
+    "era": "fire-and-ashes",
+    "startYear": 1648.85,
+    "tone": "serious",
+    "year": {
+      "en": "1648–1650",
+      "cz": "1648–1650",
+      "zh": "1648年－1650年"
+    },
+    "title": {
+      "en": "It Began Here, It Ended Here",
+      "cz": "Tady začala, tady skončila",
+      "zh": "始于此城，止于此城"
+    },
+    "hookLine": {
+      "en": "The war began at a window in Prague Castle. Thirty years later it ended in a shed on Charles Bridge.",
+      "cz": "Válka začala u okna Pražského hradu. O třicet let později skončila v boudě na Karlově mostě.",
+      "zh": "战争从布拉格城堡的一扇窗户开始，三十年后，在查理大桥上的一座小棚子里结束。"
+    },
+    "summary": {
+      "en": "On 1 November Charles Gustav received the news in his camp: on 24 October the peace had been signed in Westphalia. The war was over. The Swedes stopped their attacks and began to pull back.\n\nAt first the Old Town laughed. On 6 November its people crowded into the Týn Church and onto the Old Town Square for a Mass of thanksgiving. The walls were full of holes and the powder was almost gone, but the Swedes had never got in. The plaque later set into the Old Town Bridge Tower ends like this:\n\n[[quote:0]]\n\nOn 29 November, in a small shed put up in the very middle of Charles Bridge, the two sides signed a ceasefire. Thirty years earlier the war had begun at [[link:the-good-old-bohemian-way-1618]]a castle window[[/link]]. [[b]]It began at a window in Prague, and it ended on a bridge in Prague.[[/b]]\n\nOnce the laughing was done, it was time to cry.\n\nThe treaty did not say much about Bohemia, but what it said was clear. Bohemia stayed with the Habsburgs, and it stayed Catholic only. Elsewhere in the Empire, Protestants could keep their churches and lands as they had held them in 1624; that rule did not apply to the emperor's own hereditary lands. In all the lands of the Bohemian crown, only the Protestants of Silesia, with Saxony and Sweden speaking up for them, won anything at all: permission to build three wooden churches outside their town walls.\n\nAnd the Bohemians in exile? The treaty gave them an amnesty and let them come home, on one condition:\n\n[[quote:1]]\n\n\"The laws in use\" meant the old choice: [[link:convert-or-leave-1627]]convert or leave[[/link]]. As for the estates and houses confiscated after White Mountain, they stayed with whoever held them now.\n\nEveryone else got something. The [[link:a-king-for-one-winter-1620]]Winter King[[/link]]'s son got back the Palatinate on the Rhine, along with an electoral seat of his own; Saxony [[link:the-peace-of-prague-1635]]kept Lusatia[[/link]]; Sweden took land and five million thalers. [[b]]The war had started in Bohemia, and in the end everyone got a share of something, except the Bohemians in exile.[[/b]]\n\nIn the small Polish town of Leszno, Comenius had been waiting. Around the time of the signing he wrote letter after letter to the Swedish chancellor, Axel Oxenstierna, begging the Swedes not to forget the exiled Brethren. The Swedes had promised, but at the negotiating table nobody mentioned them again. Two years later he wrote The Bequest of the Dying Mother, the Unity of Brethren, with this line in it:\n\n[[quote:2]]\n\nPrague had held, but it was not the Prague of thirty years before. By the end of the war the city had lost about a third of its people. The Lesser Town had been stripped bare, Rudolf's collection was in Stockholm, the walls were pitted with cannon shot, and the bridge side of the Old Town Bridge Tower was bare stone. Nor did the Swedes leave at once: they stayed in the Lesser Town until the following September, and the city had to go on feeding them. [[b]]Thirty years of fire had finally burned out, and what they left Prague was ashes.[[/b]]\n\nThe emperor, at least, remembered what Prague had done. He added to the Old Town's arms a hand holding a sword, guarding the town gate, and in 1650 he raised a Marian column on the Old Town Square to thank the Virgin for saving the city. It stood a few steps from where the scaffold of the [[link:twenty-seven-1621]]twenty-seven[[/link]] had stood.\n\nThat hand with the sword is still on Prague's coat of arms today.",
+      "cz": "1. listopadu dostal Karel Gustav v táboře zprávu: 24. října byl ve Vestfálsku podepsán mír. Válka skončila. Švédové zastavili útoky a začali se stahovat.\n\nStaré Město se nejdřív smálo. 6. listopadu se lidé nahrnuli do Týnského chrámu a na Staroměstské náměstí na děkovnou mši. Hradby byly plné děr a prachu zbývalo jen málo, ale Švédové se dovnitř nedostali. Deska, kterou později osadili na Staroměstskou mosteckou věž, končí takto:\n\n[[quote:0]]\n\n29. listopadu podepsaly obě strany příměří v malé boudě postavené uprostřed Karlova mostu. Před třiceti lety začala tahle válka u [[link:the-good-old-bohemian-way-1618]]jednoho hradního okna[[/link]]. [[b]]Začala u okna v Praze a skončila na mostě v Praze.[[/b]]\n\nKdyž smích dozněl, přišel čas na pláč.\n\nO Čechách toho mírová smlouva mnoho neříkala, ale to, co říkala, bylo jasné. Čechy zůstaly Habsburkům a zůstaly jen katolické. Jinde v říši si protestanti mohli ponechat kostely a statky tak, jak je drželi roku 1624; na císařovy vlastní dědičné země se to však nevztahovalo. Ze všech zemí Koruny české něco vybojovali jen slezští protestanti, za které se přimluvilo Sasko a Švédsko: směli si za hradbami postavit tři dřevěné kostely.\n\nA Češi v exilu? Smlouva jim dávala amnestii a dovolovala jim vrátit se domů, ale s jednou podmínkou:\n\n[[quote:1]]\n\n„Zákony, které tam platí“, znamenaly starou volbu: [[link:convert-or-leave-1627]]konvertovat, nebo odejít[[/link]]. A statky a domy zabavené po Bílé hoře zůstaly tomu, kdo je držel teď.\n\nVšichni ostatní něco dostali. Syn [[link:a-king-for-one-winter-1620]]Zimního krále[[/link]] získal zpět Falc na Rýně a k tomu vlastní kurfiřtský hlas; Sasko si [[link:the-peace-of-prague-1635]]ponechalo Lužici[[/link]]; Švédsko dostalo území a pět milionů tolarů. [[b]]Válka začala v Čechách a nakonec každý něco dostal, jen čeští exulanti nic.[[/b]]\n\nV polském městečku Lešně čekal Komenský. V době podpisu míru psal jeden dopis za druhým švédskému kancléři Axelu Oxenstiernovi a prosil, aby Švédové na vyhnané bratry nezapomněli. Švédové to slíbili, ale u jednacího stolu už se o nich nikdo nezmínil. O dva roky později napsal Kšaft umírající matky Jednoty bratrské a v něm stojí:\n\n[[quote:2]]\n\nPraha se ubránila, ale už to nebyla Praha jako před třiceti lety. Do konce války přišlo město asi o třetinu obyvatel. Malá Strana byla vydrancovaná do mrtě, Rudolfovy sbírky byly ve Stockholmu, hradby rozstřílené a strana Staroměstské mostecké věže k mostu holý kámen. A Švédové hned neodešli: zůstali na Malé Straně až do září příštího roku a město je muselo dál živit. [[b]]Třicet let ohně konečně dohořelo a Praze po něm zůstal popel.[[/b]]\n\nCísař aspoň nezapomněl, co Praha dokázala. Do znaku Starého Města přidal ruku s mečem, která hájí městskou bránu, a roku 1650 dal na Staroměstském náměstí postavit mariánský sloup jako díky Panně Marii za záchranu města. Stál pár kroků od místa, kde kdysi stálo popraviště [[link:twenty-seven-1621]]sedmadvaceti[[/link]].\n\nTa ruka s mečem je v pražském znaku dodnes.",
+      "zh": "11月1日，卡尔·古斯塔夫在营里收到了那个消息：10月24日，威斯特伐利亚的和约已经签了字。战争结束了。瑞典人停止了进攻，开始往回撤。\n\n老城的人先是笑了。11月6日，他们涌进泰恩教堂和老城广场，做了一场感恩弥撒。城墙上被打出了窟窿，火药只剩下最后一点，可老城到底没让瑞典人进来。后来刻在老城桥塔上的那块碑，后半截是这么写的：\n\n[[quote:0]]\n\n11月29日，在查理大桥正中间临时搭起的一座小棚子里，双方签下了停战协议。三十年前，这场战争是从[[link:the-good-old-bohemian-way-1618]]城堡的一扇窗户[[/link]]开始的。[[b]]始于布拉格的一扇窗户，止于布拉格的一座桥。[[/b]]\n\n可笑完了，就该哭了。\n\n和约里关于波希米亚的话不多，意思却很清楚：波希米亚仍归哈布斯堡家，仍然只许信天主教。在帝国别的地方，新教徒手里的教堂和地产，可以按1624年的样子保留下来；这一条，偏偏不适用于皇帝自己的世袭领地。整个波希米亚王冠领地里，只有西里西亚的新教徒，靠着萨克森和瑞典替他们说话，争到了一点东西：允许他们在城墙外盖三座木头教堂。\n\n那些流亡在外的波希米亚人呢？和约给了他们大赦，也准他们回家，但有条件：\n\n[[quote:1]]\n\n所谓“当地的法律”，就是[[link:convert-or-leave-1627]]要么改宗，要么离开[[/link]]的那一套。至于白山之后被没收的庄园和房产，一律归现在的主人。\n\n别人都分到了东西。[[link:a-king-for-one-winter-1620]]冬王[[/link]]的儿子拿回了莱茵河边的普法尔茨，还多得了一个选帝侯的位子；萨克森[[link:the-peace-of-prague-1635]]留下了卢萨蒂亚[[/link]]；瑞典拿到了土地和五百万塔勒。[[b]]这场战争是从波希米亚打起来的，到头来，每一家都分到了一点，唯独流亡的波希米亚人什么也没有。[[/b]]\n\n在波兰小城莱什诺，夸美纽斯一直在等。和约签字前后，他一封接一封地给瑞典首相奥克森谢尔纳写信，求瑞典人别忘了流亡的弟兄们。瑞典人答应过，可到了谈判桌上，谁也没再提起他们。两年后，他写下了那本《垂死的母亲弟兄会的遗嘱》，里面有这么一句：\n\n[[quote:2]]\n\n守住了的布拉格，也已经不是三十年前的布拉格了。仗打下来，城里大约少了三分之一的人。小城区被抢了个精光，鲁道夫的收藏去了斯德哥尔摩，城墙上到处是炮弹打出的窟窿，老城桥塔朝着大桥的那一面，只剩下光秃秃的石头。瑞典人也没有马上走：他们在小城区一直待到第二年9月，这期间，城里还得接着养他们。[[b]]三十年的战火终于熄了，留给布拉格的，是一地灰烬。[[/b]]\n\n皇帝倒是记着布拉格的功劳。他给老城的城徽添上了一只握着剑、守着城门的手；1650年，又在老城广场上立起了一根圣母柱，感谢圣母保住了这座城。柱子立的地方，离[[link:twenty-seven-1621]]二十七个人[[/link]]被处死的刑台，只有几步远。\n\n那只握剑的手，今天还在布拉格的市徽上。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "The citizens of the Old Town would gladly have written these very words in their own shed blood, had not the golden peace, brought back to the German world by the piety and justice of Ferdinand III, supplied gold in place of blood.",
+          "cz": "Staroměstští měšťané by tato slova rádi vepsali vlastní prolitou krví, kdyby zlatý mír, navrácený německému světu zbožností a spravedlností Ferdinanda III., nebyl místo krve poskytl zlato.",
+          "zh": "老城的市民，本愿用自己洒下的鲜血写下这些字句；只是斐迪南三世以他的虔诚与公正，把黄金般的和平带回了日耳曼世界，这才以黄金代替了鲜血。"
+        },
+        "attribution": {
+          "en": "The Latin plaque on the bridge side of the Old Town Bridge Tower, its closing lines",
+          "cz": "Latinská deska na straně Staroměstské mostecké věže k mostu, závěrečné řádky",
+          "zh": "老城桥塔朝向大桥一面的拉丁文碑文，结尾几句"
+        }
+      },
+      {
+        "text": {
+          "en": "Those who are hereditary subjects and vassals to the emperor and the House of Austria shall truly enjoy the same amnesty … on the condition that they behave according to the laws in use in the said kingdoms and provinces. … Those properties shall remain lost and confiscated for the benefit of their current possessors.",
+          "cz": "Ti, kdo jsou dědičnými poddanými a vazaly císaře a domu rakouského, budou skutečně požívat téže amnestie … pod podmínkou, že se budou chovat podle zákonů, které v těchto královstvích a zemích platí. … Tyto statky zůstanou ztracené a zabavené ve prospěch svých nynějších držitelů.",
+          "zh": "凡属皇帝与奥地利家族的世袭臣民和封臣者，亦当真正享有同样的大赦……条件是，他们须遵守上述各王国与各省现行的法律。……这些财产，仍归丧失与没收之列，归其现时的占有者所有。"
+        },
+        "attribution": {
+          "en": "Treaty of Osnabrück, 24 October 1648, Article IV §§ 52–53 (abridged)",
+          "cz": "Osnabrücká mírová smlouva, 24. října 1648, článek IV, § 52–53 (zkráceno)",
+          "zh": "《奥斯纳布吕克和约》，1648年10月24日，第四条第52至53款（节选）"
+        }
+      },
+      {
+        "text": {
+          "en": "… and now abandoned even by my neighbours, who, while making peace for themselves, forgot me and my homeland …",
+          "cz": "… a již také od sousedů svých (kteříž sobě strojíc pokoj, na mne a vlast mou zapomenuli) opuštěna …",
+          "zh": "……如今，连我的邻人也抛弃了我。他们忙着为自己缔结和平，却把我和我的祖国忘了……"
+        },
+        "attribution": {
+          "en": "Jan Amos Comenius, The Bequest of the Dying Mother, the Unity of Brethren (1650), chapter II",
+          "cz": "Jan Amos Komenský, Kšaft umírající matky Jednoty bratrské (1650), kap. II",
+          "zh": "夸美纽斯《垂死的母亲弟兄会的遗嘱》（1650年），第二章"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "charles-bridge",
+        "relation": {
+          "en": "In a shed in the middle of the bridge the ceasefire was signed on 29 November 1648, ending the war where the last fighting had been",
+          "cz": "V boudě uprostřed mostu bylo 29. listopadu 1648 podepsáno příměří; válka skončila tam, kde se bojovalo naposledy",
+          "zh": "1648年11月29日，停战协议在大桥正中间的一座小棚子里签订，战争在最后打仗的地方结束"
+        }
+      },
+      {
+        "slug": "tyn-church",
+        "relation": {
+          "en": "Where the Old Town gave thanks for the end of the siege on 6 November 1648",
+          "cz": "Zde Staré Město 6. listopadu 1648 děkovalo za konec obléhání",
+          "zh": "1648年11月6日，老城人在这里为围城结束做感恩弥撒"
+        }
+      },
+      {
+        "slug": "mariansky-sloup",
+        "relation": {
+          "en": "Raised by Ferdinand III in 1650 in thanks for Prague's defence against the Swedes; today's column is a 2020 replica",
+          "cz": "Postavil jej Ferdinand III. roku 1650 jako díky za obranu Prahy proti Švédům; dnešní sloup je replika z roku 2020",
+          "zh": "斐迪南三世1650年为感谢布拉格抵挡住瑞典人而立；今天的柱子是2020年的复制品"
+        }
+      }
+    ],
+    "images": [
+      "/history/it-ended-where-it-began-1648.webp",
+      "/history/it-ended-where-it-began-1648-arms.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "29 November 1648: Swedish and imperial officers sign the ceasefire in a wooden shed in the middle of Charles Bridge. Up on the castle hill, a single palace window catches the light.",
+        "cz": "29. listopadu 1648: švédští a císařští důstojníci podepisují příměří v dřevěné boudě uprostřed Karlova mostu. Nahoře na hradě se v paláci rozsvítí jediné okno.",
+        "zh": "1648年11月29日，瑞典和帝国的军官在查理大桥正中间的小木棚里签停战协议。远处城堡山上，宫殿的一扇窗户被阳光照亮。"
+      },
+      {
+        "en": "Prague's coat of arms today. The hand holding a sword in the open gate is the one Ferdinand III added to the Old Town's arms for the defence of 1648.",
+        "cz": "Dnešní znak hlavního města Prahy. Ruka s mečem v otevřené bráně je ta, kterou Ferdinand III. přidal do znaku Starého Města za obranu roku 1648.",
+        "zh": "今天的布拉格市徽。敞开的城门里那只握剑的手，就是斐迪南三世为表彰1648年守城，加进老城城徽里的。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peace_of_Westphalia"
+  },
+  // Background: what the Peace of Westphalia settled (user's request,
+  // 2026-10-28). Treaty quotes: IPO Art. V §1 and VIII §2, English via
+  // germanhistorydocs.org (Helfferich tr.). Pope Innocent X's bull Zelo domus
+  // Dei (dated 26 Nov 1648 per the Catholic Encyclopedia) is paraphrased only;
+  // the popular "null, void, invalid, iniquitous..." string was not found in
+  // a primary text. The "Westphalian sovereignty" caveat follows the
+  // standard critique (the treaties never use the word).
+  {
+    "slug": "what-was-westphalia-1648",
+    "era": "fire-and-ashes",
+    "cardType": "background",
+    "startYear": 1648.86,
+    "year": {
+      "en": "1643–1648",
+      "cz": "1643–1648",
+      "zh": "1643年－1648年"
+    },
+    "tone": "humorous",
+    "title": {
+      "en": "What the Peace of Westphalia Settled",
+      "cz": "Co vyřešil vestfálský mír",
+      "zh": "威斯特伐利亚和约定了什么"
+    },
+    "hookLine": {
+      "en": "Thirty years of war ended not on a battlefield but at a conference table, and Europe came out of it a different place.",
+      "cz": "Třicet let války neskončilo na bojišti, ale u jednacího stolu, a Evropa z toho vyšla jiná.",
+      "zh": "三十年的仗，不是在战场上打完的，而是在谈判桌上谈完的；谈完之后，欧洲换了一副样子。"
+    },
+    "summary": {
+      "en": "The Thirty Years' War was not ended by some decisive victory, but by a meeting that went on for years. From 1643 more than a hundred delegations from all over Europe gathered in two small towns in Westphalia: the Catholic side in Münster, the Protestant side in Osnabrück, some fifty kilometres apart, with messengers riding back and forth between them. Before the real talks even began, months went by in quarrels over who entered a room first, who sat where and what everyone should be called.\n\nWhat came out was not one treaty but a set of them. In January 1648 Spain made peace with the Dutch and recognised the independence they had been fighting for over eighty years. On 24 October the emperor signed one treaty with France at Münster and another with Sweden at Osnabrück. Together they are known as the Peace of Westphalia.\n\nReligion first. Faith had been one of the reasons for thirty years of war. Now the treaty declared that in the Empire, Catholics and Protestants stood as equals.\n\n[[quote:0]]\n\nThe Calvinists, too, were recognised for the first time, no longer the heretics among heretics. But the equality was between princes: a Catholic prince and a Protestant prince now counted the same, and neither could swallow the other. What the people on a prince's land believed was still for the prince to decide. The rule laid down a century earlier, \"whose land, his religion\", still held, but which land belonged to which faith was now fixed as it had stood on 1 January 1624, and subjects whose faith differed from their lord's could move away with their property. When a religious question came before the Imperial Diet, the two sides deliberated separately, so neither could simply outvote the other.\n\nThen land. The biggest winners were two foreign crowns. Sweden got Western Pomerania on the Baltic, plus Bremen and Verden, a seat in the Imperial Diet and a large sum of money. France kept the bishoprics of Metz, Toul and Verdun and gained much of Alsace. Switzerland and the Dutch Republic formally left the Empire. Inside it, Bavaria kept its electoral title and the Upper Palatinate, while the Winter King's son got back the Palatinate on the Rhine, with an eighth electoral seat created for him.\n\nMost important of all was the settlement between the emperor and the princes. The three hundred or so states and cities of the Empire, large and small, could now make their own alliances with foreign powers:\n\n[[quote:1]]\n\nFor war, taxes or new laws, the emperor needed the consent of the Imperial Diet. [[b]]The Holy Roman Empire still existed, and so did the emperor, but from now on the Empire was more of a loose alliance than a state.[[/b]] A hundred years later Voltaire mocked it as neither holy, nor Roman, nor an empire.\n\nPope Innocent X was furious. He issued a bull declaring every clause of the treaty that harmed the Catholic faith null and void. None of the signatories paid any attention, not even the Catholic emperor or the King of France. [[b]]From then on, war and peace in Europe were no longer the pope's to decide.[[/b]]\n\nLater generations called the Europe that followed the \"Westphalian system\": every state is master in its own territory, states are equal however large or small, and outsiders should not meddle in what religion another state follows or how it is run; the great powers keep each other in check, and big questions are settled at big congresses. Historians add a warning: the treaties never once use the word \"sovereignty\", and much of this was read into them later, so not everything credited to Westphalia is really its doing. But one thing had truly changed. [[link:who-stood-where-1631]]Catholic France paying Protestant Sweden to fight the Catholic emperor[[/link]] would have sounded like a joke thirty years earlier; by 1648 it was normal. States went to war over their interests, no longer over faith.\n\nNor did the treaty bring all of Europe peace at once. France and Spain went on fighting for another eleven years, until 1659.\n\nFor the Habsburgs the peace was half a defeat and half a victory. In the Empire the emperor's hands were tied; in his own hereditary lands, Austria, Bohemia and Hungary, [[link:it-ended-where-it-began-1648]]nobody else had any say[[/link]]. [[b]]The emperor had less and less to say in the Empire, and more and more to say in Bohemia.[[/b]]",
+      "cz": "Třicetiletou válku neukončilo žádné rozhodující vítězství, ale jednání, které se táhlo celé roky. Od roku 1643 se do dvou městeček ve Vestfálsku sjelo přes sto poselstev z celé Evropy: katolická strana do Münsteru, protestantská do Osnabrücku, asi padesát kilometrů od sebe, a mezi nimi jezdili kurýři sem a tam. Ještě než začala skutečná jednání, padly celé měsíce na hádky o to, kdo vejde do místnosti první, kdo kde sedí a jak se má komu říkat.\n\nVýsledkem nebyla jedna smlouva, ale celá sada. V lednu 1648 uzavřelo Španělsko mír s Nizozemci a uznalo nezávislost, o kterou bojovali přes osmdesát let. 24. října podepsal císař jednu smlouvu s Francií v Münsteru a druhou se Švédskem v Osnabrücku. Dohromady se jim říká vestfálský mír.\n\nNejdřív náboženství. Víra byla jednou z příčin třiceti let války. Teď smlouva prohlásila, že v říši jsou katolíci a protestanti sobě rovni.\n\n[[quote:0]]\n\nPoprvé byli uznáni i kalvinisté, už ne kacíři mezi kacíři. Jenže ta rovnost platila mezi knížaty: katolický a protestantský kníže teď platili stejně a žádný nemohl toho druhého pohltit. Čemu věřili lidé na knížecím panství, o tom dál rozhodoval kníže. Pravidlo z doby před sto lety, „čí země, toho náboženství“, platilo dál, ale která země patří kterému vyznání, se teď řídilo stavem k 1. lednu 1624, a poddaní jiné víry než jejich pán se mohli i s majetkem odstěhovat. Když se na říšském sněmu řešila náboženská otázka, jednaly obě strany zvlášť, takže žádná nemohla tu druhou prostě přehlasovat.\n\nPak území. Nejvíc získaly dvě cizí koruny. Švédsko dostalo Západní Pomořansko u Baltu, k tomu Brémy a Verden, místo na říšském sněmu a velkou sumu peněz. Francie si udržela biskupství Mety, Toul a Verdun a získala velkou část Alsaska. Švýcarsko a Nizozemí z říše formálně odešly. Uvnitř říše si Bavorsko ponechalo kurfiřtský titul a Horní Falc a syn Zimního krále dostal zpět Falc na Rýně, pro niž vzniklo osmé kurfiřtství.\n\nNejdůležitější však bylo vyrovnání mezi císařem a knížaty. Asi tři sta velkých i malých států a měst v říši teď smělo uzavírat vlastní spojenectví s cizinou:\n\n[[quote:1]]\n\nK válce, daním či novým zákonům potřeboval císař souhlas říšského sněmu. [[b]]Svatá říše římská dál existovala a císař také, ale od té doby byla říše spíš volným spolkem než státem.[[/b]] O sto let později se jí Voltaire vysmál, že není ani svatá, ani římská, ani říše.\n\nPapež Inocenc X. zuřil. Vydal bulu, v níž prohlásil všechna ustanovení smlouvy, která škodila katolické víře, za neplatná. Žádná ze signatářských stran si toho nevšímala, ani katolický císař, ani francouzský král. [[b]]Od té doby už o válce a míru v Evropě nerozhodoval papež.[[/b]]\n\nPozdější generace nazvaly Evropu, která z míru vzešla, „vestfálským systémem“: každý stát je pánem na svém území, státy jsou si rovny bez ohledu na velikost a do toho, jaké náboženství jinde vyznávají a jak si vládnou, se ostatní nemají plést; velmoci se navzájem drží v rovnováze a velké otázky se řeší na velkých kongresech. Historici ovšem varují, že slovo „suverenita“ se ve smlouvách ani jednou neobjeví a mnohé do nich vložili až pozdější vykladači, takže ne všechno, co se Vestfálsku připisuje, je skutečně jeho zásluha. Jedna věc se ale opravdu změnila. [[link:who-stood-where-1631]]Katolická Francie, která platí protestantské Švédsko za boj s katolickým císařem[[/link]], by před třiceti lety zněla jako vtip; roku 1648 už to bylo normální. Státy válčily kvůli svým zájmům, ne kvůli víře.\n\nMír ani nepřinesl klid celé Evropě najednou. Francie a Španělsko válčily dalších jedenáct let, až do roku 1659.\n\nPro Habsburky byl mír z poloviny porážkou a z poloviny vítězstvím. V říši měl císař svázané ruce; ve svých dědičných zemích, v Rakousku, Čechách a Uhrách, [[link:it-ended-where-it-began-1648]]neměl nikdo jiný co mluvit[[/link]]. [[b]]V říši měl císař čím dál méně slova, v Čechách čím dál víc.[[/b]]",
+      "zh": "结束三十年战争的，不是哪一场决定性的大胜，而是一场开了好几年的会。从1643年起，欧洲各方的一百多个使团陆续来到威斯特伐利亚的两座小城：天主教这边的在明斯特，新教那边的在奥斯纳布吕克，两座城相距五十来公里，信使在中间来回跑。正式谈判还没开始，光是谁先进门、谁坐上座、谁该怎么称呼谁，就吵了好几个月。\n\n谈出来的不是一份条约，而是一组。1648年1月，西班牙先跟荷兰签了约，承认打了八十年仗的荷兰独立。10月24日，皇帝又在明斯特和法国、在奥斯纳布吕克和瑞典分别签了约。后人把这些合在一起，叫作威斯特伐利亚和约。\n\n先说宗教。这场仗打了三十年，起因之一就是信仰。和约规定：在帝国里，天主教和新教从此平起平坐。\n\n[[quote:0]]\n\n加尔文派也头一回被正式承认，不再是“异端里的异端”。不过，这个“平起平坐”说的是诸侯之间：天主教的诸侯和新教的诸侯一样大，谁也不能吞了谁；至于领地里的老百姓信什么，还是领主说了算。一百年前定下的老规矩，“谁的地盘，信谁的教”，照样有效，但哪块地归哪个教派，一律以1624年1月1日为准；信仰跟领主不一样的臣民，可以带着家产搬走。帝国议会里遇到宗教问题，两派分开商量，谁也不能靠人多压倒对方。\n\n再说地盘。拿到好处最多的，是两个外国：瑞典得了波罗的海边上的西波美拉尼亚，还有不来梅和费尔登，从此在帝国议会里也有了座位，外加一大笔赔款；法国保住了梅斯、图尔、凡尔登三个主教区，又拿到了阿尔萨斯的大片土地。瑞士和荷兰正式脱离了帝国。帝国里面，巴伐利亚留住了选帝侯的头衔和上普法尔茨，冬王的儿子拿回了莱茵河边的普法尔茨，帝国为他新添了第八个选帝侯的位子。\n\n最要紧的，是皇帝和诸侯之间的账。帝国里三百来个大大小小的诸侯和城市，从此可以自己跟外国结盟：\n\n[[quote:1]]\n\n打仗、征税、立法，皇帝都得经过帝国议会点头。[[b]]神圣罗马帝国还在，皇帝也还在，可从此以后，帝国更像是一个松散的大联盟，而不是一个国家。[[/b]]一百年后，伏尔泰挖苦它，说它既不神圣，也不罗马，更不是帝国。\n\n教皇英诺森十世气坏了。他发了一道通谕，宣布和约里所有损害天主教的条款一概无效。可签字的各国谁也没理他，连天主教的皇帝和法国国王也没理。[[b]]从这以后，欧洲的战争与和平，再也不由教皇说了算。[[/b]]\n\n后来的人，把和约之后的欧洲叫作“威斯特伐利亚体系”：每个国家在自己的地盘上自己做主，国家不分大小一律平等，别人家里信什么教、怎么管，外人不该插手；大国之间靠互相牵制保持平衡，有了大事，就开大会来谈。历史学家也提醒，和约里其实一次都没用过“主权”这个词，这些原则很多是后人总结出来的，算到它头上的未必都是它的功劳。可有一件事是真的变了：[[link:who-stood-where-1631]]天主教的法国出钱帮新教的瑞典打天主教的皇帝[[/link]]，这在三十年前听起来像个笑话，到1648年，已经成了欧洲的常态。各国打仗，看的是国家的利益，不再是信仰。\n\n和约也没让整个欧洲马上安静下来。法国和西班牙接着又打了十一年，一直打到1659年。\n\n对哈布斯堡家来说，这份和约是输了一半、赢了一半。在帝国里，皇帝的手被捆住了；可在他自己的世袭领地，奥地利、波希米亚、匈牙利，[[link:it-ended-where-it-began-1648]]谁也不许插手[[/link]]。[[b]]皇帝在帝国里管得越来越少，在波希米亚，却管得越来越多。[[/b]]"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "In all other matters, there shall be a precise and mutual equality among the electors, princes, and estates of both religions.",
+          "cz": "Ve všech ostatních věcech ať panuje přesná a vzájemná rovnost mezi kurfiřty, knížaty a stavy obojího náboženství.",
+          "zh": "在其他一切事务上，两种宗教的选帝侯、诸侯与等级之间，应有确切而相互的平等。"
+        },
+        "attribution": {
+          "en": "Treaty of Osnabrück, 24 October 1648, Article V § 1",
+          "cz": "Osnabrücká mírová smlouva, 24. října 1648, článek V, § 1",
+          "zh": "《奥斯纳布吕克和约》，1648年10月24日，第五条第1款"
+        }
+      },
+      {
+        "text": {
+          "en": "Each Imperial estate shall freely and forever enjoy the right of making alliances with other estates or with foreigners for its own preservation and security, always provided that such alliances not be made against the emperor, the Empire, the public peace, or this treaty.",
+          "cz": "Každý říšský stav ať svobodně a navěky požívá práva uzavírat spojenectví s jinými stavy nebo s cizinci pro své zachování a bezpečnost, vždy však s výhradou, že taková spojenectví nebudou namířena proti císaři, říši, veřejnému míru ani této smlouvě.",
+          "zh": "每一个帝国等级，都可自由并永远享有为自身的存续与安全，同其他等级或外国人结盟的权利，唯此类同盟不得针对皇帝、帝国、公共和平或本和约。"
+        },
+        "attribution": {
+          "en": "Treaty of Osnabrück, 24 October 1648, Article VIII § 2",
+          "cz": "Osnabrücká mírová smlouva, 24. října 1648, článek VIII, § 2",
+          "zh": "《奥斯纳布吕克和约》，1648年10月24日，第八条第2款"
+        }
+      }
+    ],
+    "relatedLandmarks": [],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peace_of_Westphalia"
+  },
+  // Era-closing summary, 1618-1648 (user's outline, 2026-10-28). Sources:
+  // population: Klíma (Dlouhá válka) ~1.7m before, a little over 900k after;
+  // Maur (Dějiny obyvatelstva českých zemí, p. 104) average loss just under
+  // 30%; range of estimates 25-80% (summarised in a cs secondary source).
+  // Berní rula 1654: first full register of rural holdings, with deserted
+  // (pusté) ones listed; no national percentage found, so none given. Exile
+  // numbers uncertain (Nymburk study shows older counts overstated), so
+  // "tens of thousands". Empire: Wilson, Gresham lecture 2018 (at least 5m
+  // dead, about a fifth). Quotes: Černínová letter via HÚ AV ČR teaching
+  // sheet (Kalista ed. 1941, p. 91); Simplicissimus I.4 via GHDI (Goodrick
+  // tr.); "days of shaking" is the epigraph of Parker & Smith, The General
+  // Crisis of the Seventeenth Century, attributed to Whittaker's 1643 Commons
+  // sermon (sermon text itself not checked). Little Ice Age: Parker, Global
+  // Crisis (2013), with the critique noted.
+  {
+    "slug": "thirty-years-1648",
+    "era": "fire-and-ashes",
+    "startYear": 1648.9,
+    "tone": "serious",
+    "year": {
+      "en": "1618–1648",
+      "cz": "1618–1648",
+      "zh": "1618年－1648年"
+    },
+    "title": {
+      "en": "Thirty Years",
+      "cz": "Třicet let",
+      "zh": "三十年"
+    },
+    "hookLine": {
+      "en": "Nobody won the war cleanly, and Bohemia paid for it more than almost anyone.",
+      "cz": "Válku nikdo čistě nevyhrál a Čechy ji zaplatily dráž než skoro kdokoli jiný.",
+      "zh": "这场仗没有谁赢得干干净净，而波希米亚付出的代价，比谁都重。"
+    },
+    "summary": {
+      "en": "In May 1618, when three men were thrown out of a castle window, nobody imagined the war would last thirty years.\n\nWhat those thirty years cost Bohemia is still impossible to say. Before the war Bohemia had roughly 1.7 million people. Some historians reckon that only a little over 900,000 were left afterwards, almost half gone; others, going carefully through local records, put the average loss at under a third. Estimates run from a quarter to four-fifths. The figures are disputed because nobody counted properly at the time: those killed by weapons, by hunger and plague, those who fled into the forests and those who went into exile all blur together.\n\nWhat can be seen is a ledger. In 1654, six years after the war, Bohemia drew up its first register of every farm in the land for taxation, the Berní rula. Village after village is listed, and after many of the farms stands a single word: deserted.\n\nAnd there was a whole generation in exile. After White Mountain nobles, townsmen, preachers and scholars who would not change their faith had to [[link:convert-or-leave-1627]]convert or leave[[/link]]. How many left is just as uncertain, but they ran into tens of thousands. They waited more than twenty years, and what they got was a peace that left them out. Comenius never went home; he died in Amsterdam more than twenty years later.\n\nNor was any side's record clean. Both armies [[link:war-feeds-war-1625]]made war feed war[[/link]], eating and plundering wherever they went. The Swedes entered Bohemia [[link:here-come-the-liberators-1639]]as liberators[[/link]] and left scorched earth behind them; the emperor's own armies ate his own subjects bare just the same. In January 1645, on the eve of Jankov, a noblewoman wrote to her son:\n\n[[quote:0]]\n\n[[b]]To a Bohemian peasant, the emperor's soldiers and the Swedish soldiers looked much the same.[[/b]]\n\nGermany suffered even more. At least five million people died in the Empire, about one in five, and some regions lost more than half their people; it took the Empire more than sixty years to recover. A German who had served as a soldier in the war wrote a novel twenty years later that opens with troopers bursting into a farm:\n\n[[quote:1]]\n\nAnd it was not only Central Europe that was in turmoil. In 1643 an English preacher told the House of Commons:\n\n[[quote:2]]\n\nHe was right. In England king and Parliament went to war, and in January 1649 King Charles I went to the scaffold, three months after the signing in Westphalia. France was torn by the Fronde; Spain lost Portugal and had to put down risings in Catalonia and Naples. On the other side of the world, in China, the rebel Li Zicheng took Beijing in 1644 and the Chongzhen Emperor hanged himself. The Manchu armies from beyond the Great Wall then marched in to take the prize, and the Ming dynasty, which had ruled China for nearly three hundred years, came to an end.\n\nWhy these decades in particular? Some historians, such as Geoffrey Parker, have looked to the weather. The seventeenth century fell in the coldest stretch of the \"Little Ice Age\": longer winters, colder and wetter summers, harvest after harvest failing. Hunger drove people to revolt, and revolt brought war. Other historians think the weather only poured oil on a fire that people had lit.\n\nAfter Westphalia, Prague slowly grew quiet. But Protestantism was still forbidden in Bohemia. At court, in the offices and in the nobles' palaces, German was heard more and more, while Czech slowly retreated to the markets, the kitchens and the countryside. The king lived in Vienna, and the office that governed Bohemia had [[link:no-more-elected-kings-1627]]long since moved there too[[/link]]. [[b]]The Kingdom of Bohemia still existed in name, but it looked more and more like a province of Austria.[[/b]]\n\nThirty years of cannon fire had stopped. The city was quiet, so quiet that even the sound of its own language was growing fainter.",
+      "cz": "V květnu 1618, když z hradního okna vyletěli tři muži, nikoho nenapadlo, že válka potrvá třicet let.\n\nCo Čechy těch třicet let stálo, se nedá spočítat dodnes. Před válkou měly Čechy zhruba 1,7 milionu obyvatel. Někteří historici odhadují, že po ní zbylo jen něco přes 900 tisíc, tedy skoro polovina zmizela; jiní po pečlivém pročtení místních pramenů došli k průměrnému úbytku pod třicet procent. Odhady sahají od čtvrtiny až po čtyři pětiny. Čísla jsou sporná, protože tehdy nikdo pořádně nepočítal: padlí, mrtví hladem a morem, ti, kdo utekli do lesů, i ti, kdo odešli do exilu, splývají dohromady.\n\nVidět je jedna účetní kniha. Roku 1654, šest let po válce, vznikl v Čechách první soupis všech selských usedlostí v zemi pro účely daní, berní rula. Ves za vsí je v ní zapsána a za mnoha usedlostmi stojí jediné slovo: pustá.\n\nA byla tu celá generace v exilu. Po Bílé hoře museli šlechtici, měšťané, kazatelé i učenci, kteří nechtěli změnit víru, [[link:convert-or-leave-1627]]konvertovat, nebo odejít[[/link]]. Kolik jich odešlo, je stejně nejisté, ale šlo o desítky tisíc. Čekali přes dvacet let a dočkali se míru, který na ně zapomněl. Komenský se domů už nikdy nevrátil; zemřel o dvacet let později v Amsterdamu.\n\nČistý štít neměl v té válce nikdo. Obě vojska [[link:war-feeds-war-1625]]živila válku válkou[[/link]] a kudy prošla, tam jedla a plenila. Švédové přišli do Čech [[link:here-come-the-liberators-1639]]jako osvoboditelé[[/link]] a zanechali za sebou spálenou zemi; císařova vlastní vojska vyjídala jeho vlastní poddané úplně stejně. V lednu 1645, v předvečer Jankova, psala jedna šlechtična synovi:\n\n[[quote:0]]\n\n[[b]]Pro českého sedláka vypadali císařští vojáci a Švédové skoro stejně.[[/b]]\n\nNěmecko na tom bylo ještě hůř. V říši zemřelo nejméně pět milionů lidí, zhruba každý pátý, a některé kraje přišly o víc než polovinu obyvatel; říši trvalo přes šedesát let, než se vzpamatovala. Jeden Němec, který v té válce sloužil jako voják, napsal o dvacet let později román, který začíná tím, jak vojáci vtrhnou do selského statku:\n\n[[quote:1]]\n\nA neklid nevládl jen ve střední Evropě. Roku 1643 řekl jeden anglický kazatel v Dolní sněmovně:\n\n[[quote:2]]\n\nMěl pravdu. V Anglii se král s parlamentem pustili do války a v lednu 1649 šel král Karel I. na popraviště, tři měsíce po podpisu ve Vestfálsku. Francii zmítala fronda; Španělsko přišlo o Portugalsko a muselo potlačovat povstání v Katalánsku a Neapoli. Na druhém konci světa, v Číně, dobyl roku 1644 povstalec Li C’-čcheng Peking a císař Čchung-čen se oběsil. Mandžuská vojska zpoza Velké zdi pak přitáhla a sklidila plody: dynastie Ming, která vládla Číně téměř tři sta let, skončila.\n\nProč zrovna tato desetiletí? Někteří historici, třeba Geoffrey Parker, se obracejí k počasí. Sedmnácté století připadlo na nejchladnější úsek „malé doby ledové“: delší zimy, chladnější a vlhčí léta, jedna neúroda za druhou. Hlad hnal lidi ke vzpourám a vzpoury přinášely války. Jiní historici soudí, že počasí jen přililo olej do ohně, který zapálili lidé.\n\nPo Vestfálsku se Praha pomalu uklidnila. Protestantství ale v Čechách zůstalo zakázané. U dvora, v úřadech a v šlechtických palácích bylo slyšet čím dál víc němčiny, zatímco čeština se pomalu stahovala na trhy, do kuchyní a na venkov. Král sídlil ve Vídni a úřad, který Čechy spravoval, se tam [[link:no-more-elected-kings-1627]]přestěhoval už dávno[[/link]]. [[b]]České království dál existovalo podle jména, ale čím dál víc se podobalo rakouské provincii.[[/b]]\n\nTřicet let kanonády utichlo. Ve městě bylo ticho, takové ticho, že i zvuk jeho vlastní řeči pomalu slábl.",
+      "zh": "1618年5月，城堡里那三个人被扔出窗外的时候，没有人想到，这一仗会打三十年。\n\n这三十年让波希米亚付出了多少，到今天也算不清。战前的波希米亚，大约有一百七十万人；有的史学家估计，战后只剩下九十多万，少了将近一半；也有人仔细翻过各地的账册，认为平均少了不到三成。各家的估计，从两成五到八成都有。数字之所以吵个不停，是因为当年根本没人好好数过：死于刀枪的、死于饥荒和瘟疫的、逃进山林的、流亡国外的，全混在一起。\n\n能看得见的，是一本账。1654年，战争结束六年后，波希米亚第一次给全国每一户农家造册收税，这就是《税册》。册子上，一个个村子挨个记下去，许多农庄的名字后面只写着两个字：荒弃。\n\n还有一整代流亡的人。白山之后，贵族、市民、牧师、学者，凡是不肯改宗的，[[link:convert-or-leave-1627]]要么改宗，要么离开[[/link]]。到底走了多少人，同样说不清，总之数以万计。他们等了二十多年，等来的是一纸不带他们的和约。夸美纽斯再也没有回过家，二十多年后死在了阿姆斯特丹。\n\n这场仗里，也找不出哪一方是干净的。两边的军队都[[link:war-feeds-war-1625]]以战养战[[/link]]，走到哪里就吃到哪里、抢到哪里。瑞典人进波希米亚的时候，[[link:here-come-the-liberators-1639]]打的是解放者的旗号[[/link]]，走的时候留下一路焦土；皇帝自己的军队，也一样把自己的臣民吃空。1645年1月，扬科夫之战前夕，一位贵族夫人在给儿子的信里写道：\n\n[[quote:0]]\n\n[[b]]在波希米亚的农民眼里，皇帝的兵和瑞典的兵，没有什么两样。[[/b]]\n\n德意志更惨。帝国境内至少死了五百万人，大约每五个人里就少了一个，有些地方少了一半还多，一个甲子都没缓过来。一个在这场战争里当过兵的德意志人，二十年后写了一本小说，开头就是士兵闯进一户农家：\n\n[[quote:1]]\n\n这些年，不太平的也不只是中欧。1643年，一位英国牧师在议会里布道时说：\n\n[[quote:2]]\n\n他说得没错。英国国王和议会打了起来，1649年1月，国王查理一世被送上了断头台，离威斯特伐利亚签约只隔了三个月。法国闹起了投石党之乱；西班牙先是丢了葡萄牙，又要镇压加泰罗尼亚和那不勒斯的起义。在世界的另一头，1644年，李自成攻进北京，崇祯皇帝自缢，关外的清军随即入关，坐享其成，统治中国两百七十多年的大明就此终结。\n\n为什么偏偏是这几十年？一些史学家，比如英国的杰弗里·帕克，把目光投向了天气。十七世纪正赶上“小冰期”最冷的一段：冬天更长，夏天更冷更湿，庄稼一年接一年地歉收。饥荒逼出了暴动，暴动又引来战争。也有史学家觉得，天气只是火上浇油，点火的还是人。\n\n威斯特伐利亚之后，布拉格慢慢安静了下来。可新教在波希米亚依然是禁的。宫廷、衙门和贵族的府邸里，德语用得越来越多，捷克语一点点退回了市场、厨房和乡下。国王住在维也纳，管波希米亚的衙门也[[link:no-more-elected-kings-1627]]早就搬去了维也纳[[/link]]。[[b]]波希米亚王国名义上还在，却越来越像是奥地利的一个省。[[/b]]\n\n三十年的炮声停了。城里安静得，连说话的声音，也越来越小了。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "We are going through such great hardship here, my dearest Humprecht, that it cannot even be described. My estates had been nicely repaired, and now a whole regiment has lain on them for eleven days with all its baggage … in the farmyard alone there were eighty horses; judge for yourself what damage they must have done! … I comfort myself with what you wrote to me, that there may be peace, but so far it does not look that way.",
+          "cz": "My tady zakoušíme, můj přemilý Humprechte, veliké potíže, že to ani není možné popsat. Mé statky byly již pěkně opraveny a 11 dnů teď na nich ležel celý pluk i se vším vybavením … jen ve dvoře bylo 80 koní, posuď sám, jakou škodu tam asi způsobili! … Utěšuji se tím, co jsi mi psal, že snad bude mír, ale zatím to tak nevypadá.",
+          "zh": "我亲爱的洪布雷赫特，我们在这里受的苦，简直没法描述。我的庄园刚刚修整好，如今整整一个团带着全部辎重，在上面驻了十一天……光是庄院里就有八十匹马，你自己想想，它们得糟蹋成什么样！……我只能拿你信里的话安慰自己，说也许快要和平了，可眼下还一点也看不出来。"
+        },
+        "attribution": {
+          "en": "Zuzana Černínová of Harasov to her son Humprecht, January 1645, on an imperial regiment quartered on her estates (abridged)",
+          "cz": "Zuzana Černínová z Harasova synovi Humprechtovi, leden 1645, o císařském pluku ubytovaném na jejích statcích (zkráceno)",
+          "zh": "苏珊娜·切尔宁诺娃致儿子洪布雷赫特的信，1645年1月，写的是驻在她庄园上的帝国军团（节选）"
+        }
+      },
+      {
+        "text": {
+          "en": "Our man they laid bound upon the ground, thrust a gag into his mouth, and poured a pailful of filthy water into his body: and this they called a Swedish draught.",
+          "cz": "Našeho čeledína svázali a položili na zem, vrazili mu do úst roubík a nalili do něj vědro špinavé vody; tomu říkali švédský nápoj.",
+          "zh": "他们把我们的长工捆起来放倒在地上，往他嘴里塞上一根木楔，再把满满一桶脏水灌进他肚子里：他们管这个叫“瑞典饮料”。"
+        },
+        "attribution": {
+          "en": "Hans Jakob Christoffel von Grimmelshausen, Simplicissimus (1668), book I, chapter 4; tr. A. T. S. Goodrick",
+          "cz": "Hans Jakob Christoffel von Grimmelshausen, Dobrodružný Simplicius Simplicissimus (1668), kniha I, kapitola 4",
+          "zh": "格里美尔斯豪森《痴儿西木传》（1668年），第一卷第四章"
+        }
+      },
+      {
+        "text": {
+          "en": "These days are days of shaking … and this shaking is universal: the Palatinate, Bohemia, Germania, Catalonia, Portugal, Ireland, England.",
+          "cz": "Tyto dny jsou dny otřesů … a tento otřes je všeobecný: Falc, Čechy, Německo, Katalánsko, Portugalsko, Irsko, Anglie.",
+          "zh": "这些日子，是震动的日子……而这震动是普遍的：普法尔茨、波希米亚、德意志、加泰罗尼亚、葡萄牙、爱尔兰、英格兰。"
+        },
+        "attribution": {
+          "en": "Jeremiah Whittaker, sermon to the English House of Commons, 1643",
+          "cz": "Jeremiah Whittaker, kázání před anglickou Dolní sněmovnou, 1643",
+          "zh": "英国牧师杰里迈亚·惠特克在下议院的布道，1643年"
+        }
+      }
+    ],
+    "relatedLandmarks": [],
+    "images": [
+      "/history/thirty-years-1648.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "1654: a tax commissioner records the farms of a Bohemian village for the Berní rula while the old headman names them one by one. Outside the window, one of them stands empty.",
+        "cz": "1654: berní komisař zapisuje do berní ruly usedlosti české vesnice a starý rychtář je jmenuje jednu po druhé. Za oknem stojí jedna z nich pustá.",
+        "zh": "1654年，税务官为《税册》登记一个波希米亚村庄的农户，老村长一户一户地报着名字。窗外，就是其中一座已经荒掉的农庄。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Thirty_Years%27_War"
   },
 ];
 
