@@ -1,18 +1,99 @@
-// Treasure hunt: one every 24h (the "random draw" names in the code and API
-// date from the retired open draw, which revealed the card for 3x XP). See
-// userController.getRandomDraw / drawRandomLocation and checkinController.
+// Treasure hunt ("寻宝"): the location stays hidden and the user tracks it
+// down from clues. One hunt every 24h (the "random draw" names in the code
+// and API date from the retired open draw, which revealed the card for 3x
+// XP). See userController.buildHuntClues / drawRandomLocation and
+// checkinController.
 export const RANDOM_DRAW_WINDOW_MS = 24 * 60 * 60 * 1000;
 
-// Treasure hunt ("寻宝"): the location stays hidden; the user gets five
-// guesses. Guess N is only allowed within HIDDEN_DRAW_RADII[N-1] of the
-// target and succeeds within HIDDEN_DRAW_HIT_M; a hit pays
-// HIDDEN_DRAW_MULTIPLIERS[N-1] times the card's XP. The last radius equals
-// the hit radius, so the last guess can't miss (it only lapses with the
-// 24h window). The early radii are wide on purpose: a player may burn a
-// guess from far away, trading XP for the next clues.
-export const HIDDEN_DRAW_MULTIPLIERS = [10, 5, 3, 2, 1];
-export const HIDDEN_DRAW_RADII = [3000, 2000, 1000, 500, 100];
+// One hunt since 2026-10-29, merging the old clue hunt and hardcore hunt
+// (user's call), built on the hardcore hunt's exploring: the player mostly
+// walks by a rough distance and a hot-and-cold hint. Clues that are card
+// attributes (labels, rarity, quarter, district) are filters on the Explore
+// page and the map, where every locked card shows its labels and distance,
+// so given freely they pick out the treasure at once. So only two come, step
+// by step as the player closes in (user's call): within 3 km the rarity or
+// one label, within 1 km the district and quarter. Each is checked when the
+// hunt is dealt (planHuntClues in userController) so it can't narrow the
+// treasure down to a handful of cards on its own.
+//
+// Pressing costs multiplier. The multiplier sits on a ladder of half steps;
+// a miss moves it down a full step (10 → 6 → 4 → 2 → 1), taking a clue only
+// half a step (10 → 8, 6 → 5, 4 → 3, 2 → 1.5), so a clue is always cheaper
+// than a blind guess (user's call). It never goes below 1x, and misses never
+// end the hunt; only the 24h window does.
+export const HUNT_MULTIPLIERS = [10, 8, 6, 5, 4, 3, 2, 1.5, 1];
+export const HUNT_MISS_STEPS = 2;
+export const HUNT_CLUE_STEPS = 1;
+// A press within this distance of the treasure finds it. The button works
+// anywhere; a miss tells which way the treasure lies from the pressed spot.
 export const HIDDEN_DRAW_HIT_M = 100;
+// Clues a player can take for half a step each, once each, in any order:
+//   rarity, label: the card's rarity, or one of its labels (planHuntClues
+//              picks which); walking within HUNT_REVEAL_M.first reveals the
+//              one chosen as the first clue for free, and within
+//              HUNT_REVEAL_M.second the other one (user's call);
+//   area:      the district and (if it passed the check) the quarter, before
+//              walking within HUNT_REVEAL_M.area reveals them for free;
+//   direction: which way the treasure lies from here, at that moment only
+//              (not a filter: using it means walking and working it out).
+// A distance snapshot was tried and dropped the same day: the distance
+// reading already says as much (user's call).
+export const HUNT_CLUES = ['rarity', 'label', 'area', 'direction'];
+export const HUNT_REVEAL_M = { first: 3000, area: 1000, second: 300 };
+// The check on the free clues. The first clue (rarity or a label) must fit at
+// least HUNT_MIN_FIRST_CANDIDATES of the cards it could be: uncollected,
+// on the same bank, within HUNT_REVEAL_M.first of the treasure. The quarter
+// is only given if at least HUNT_MIN_QUARTER_CANDIDATES uncollected cards in
+// it also fit the first clue (Explore filters by quarter); otherwise the
+// area clue is the district alone. Both counts include the treasure.
+export const HUNT_MIN_FIRST_CANDIDATES = 6;
+// A new treasure is at least this far from where the player starts the hunt
+// (when anything that far is left), so a hunt is always a walk.
+export const HUNT_MIN_START_M = 4000;
+export const HUNT_MIN_QUARTER_CANDIDATES = 3;
+// Hot and cold: every HUNT_TREND_STEP_M walked the player is told whether
+// they got closer or farther (no figure, no direction), all the way to the
+// end; a change under HUNT_TREND_SAME_M reads as "about the same". It fixed
+// the old hardcore hunt's blind opening, a whole kilometre walked before a
+// wrong heading showed.
+export const HUNT_TREND_STEP_M = 100;
+export const HUNT_TREND_SAME_M = 40;
+
+/** Where on HUNT_MULTIPLIERS a hunt stands, from its misses and clues taken. */
+export function huntStep(misses, clues) {
+  return Math.min(misses * HUNT_MISS_STEPS + clues * HUNT_CLUE_STEPS, HUNT_MULTIPLIERS.length - 1);
+}
+
+/** Presses that missed so far (a leftover "skipped" entry is not a press). */
+export function huntMissCount(draw) {
+  return (draw?.misses || []).filter(m => !m.skipped).length;
+}
+
+/** A hunt's current step on HUNT_MULTIPLIERS (old skipped guesses count as clues). */
+export function huntStepOf(draw) {
+  const skipped = (draw?.misses || []).length - huntMissCount(draw);
+  return huntStep(huntMissCount(draw), (draw?.clues?.length || 0) + skipped);
+}
+
+/** XP for collecting a treasure at ladder step `step`. */
+export function huntXp(xpReward, step) {
+  return Math.round(xpReward * HUNT_MULTIPLIERS[step]);
+}
+
+// The distance clue, always shown and deliberately coarse: an exact distance
+// plus Explore's card distances picks out the treasure, and two readings a
+// short walk apart triangulate it. About N km (whole km) from 3 km out, about
+// 3 / 2.5 / 2 / 1.5 / 1 km within 3 km (user's call), then only "within
+// 1 km" and "within 300 m". There is deliberately no "within 100 m" (the hit
+// radius): with it the best play was to never press until it showed, so a
+// press could never miss and carried no risk (dropped 2026-10-29). The last
+// stretch is found by hot and cold, the clues and looking around.
+export function huntReading(d) {
+  for (const r of [300, 1000]) if (d < r) return { within: r };
+  if (d < 2750) return { about: Math.round(d / 500) * 500 };
+  return { about: Math.round(d / 1000) * 1000 };
+}
+
 // The first clue besides a label: which side of the Vltava the treasure is
 // on (2026-10-15; it replaced the direction from Old Town Square, which with
 // the fine-grained era/style labels narrowed guess 1 to a handful of cards).
@@ -53,22 +134,6 @@ export function riverSideOf(quarter) {
   if (!quarter) return null;
   return LEFT_BANK_QUARTERS.has(quarter) ? 'castle' : 'oldTown';
 }
-// Guesses 1–4 give the distance to the treasure only as a band, never the
-// exact figure: an exact distance plus a label picks out one card on the
-// Explore page, and two readings a short walk apart triangulate it.
-// Band edges in metres for guesses 1, 2, 3 and 4; the last band is open-ended.
-// Guess 1's bands (under 3 km / 3–10 km / over 10 km) only tell a player
-// roughly how far to travel (user's call, 2026-10-15).
-// Each guess's first edge equals its HIDDEN_DRAW_RADII entry, so the
-// smallest band shown ("under 2 km") is exactly where the button unlocks.
-// Each guess only comes after a miss pressed within the previous radius, so
-// no far bands are needed.
-export const HIDDEN_DRAW_BANDS = [
-  [3000, 10000],
-  [2000, 3000],
-  [1000, 2000],
-  [500, 1000],
-];
 // A label on more than this share of the possible cards (e.g. the old
 // catch-all "historical", once on over half of them) says next to nothing, so it is never the opening
 // clue while the card has a more telling one.
@@ -88,72 +153,20 @@ export const HISTORY_LABELS = new Set([
 ]);
 
 /**
- * The order a treasure's labels are revealed in (first on guess 1, second on
- * guess 3), given the label lists of every card it could be. Generic labels
- * (on more than HIDDEN_DRAW_GENERIC_LABEL_SHARE of the cards, e.g.
- * "historical", or in HIDDEN_DRAW_VAGUE_LABELS) go last: as an opening clue they make guess 1 pure
- * guesswork. The rest go most common first, so a rare label like "jewish"
- * isn't the opening clue that gives it away (guess 1's band is widened
- * anyway if too few cards fit). A card with only generic labels opens with
- * the least common of them. `shuffle` breaks ties.
+ * The order a treasure's labels are revealed in (the first from the start,
+ * the second within 1 km or as a clue taken), given the label lists of every
+ * card it could be. Generic labels (on more than
+ * HIDDEN_DRAW_GENERIC_LABEL_SHARE of the cards, e.g. "historical", or in
+ * HIDDEN_DRAW_VAGUE_LABELS) go last: as an opening clue they make the start
+ * pure guesswork. The rest go most common first, so a rare label like
+ * "jewish" isn't the opening clue that gives it away. A card with only
+ * generic labels opens with the least common of them. `shuffle` breaks ties.
  */
 export function orderHuntLabels(labels, poolLabels, shuffle = a => [...a]) {
   const count = lb => poolLabels.filter(ls => ls?.includes(lb)).length;
   const generic = lb => HIDDEN_DRAW_VAGUE_LABELS.includes(lb) || count(lb) > poolLabels.length * HIDDEN_DRAW_GENERIC_LABEL_SHARE;
   return shuffle(labels).sort((a, b) =>
     (generic(a) - generic(b)) || (generic(a) ? count(a) - count(b) : count(b) - count(a)));
-}
-// No time bonus: a 2-hour "golden time" (x1.5) was dropped on 2026-10-12 so
-// a hard hunt doesn't feel rushed.
-
-/** XP for collecting a treasure on guess `attempt`. */
-export function huntXp(xpReward, attempt) {
-  return xpReward * HIDDEN_DRAW_MULTIPLIERS[attempt - 1];
-}
-
-// Hardcore treasure hunt (硬核寻宝, 2026-10-15): a second, separate hunt,
-// one per 24h of its own, from the same card pool (no bridges or islands
-// either, since the river side is a clue here too). Few clues, mostly a
-// rough distance (hardcoreReading). Getting within 3 km once reveals which
-// bank of the Vltava it is on (HARDCORE_SIDE_M); outside 1 km, every
-// HARDCORE_TREND_STEP_M walked, the player is told whether they got closer
-// or farther (a hot-and-cold hint, no figure, no direction), so a wrong
-// heading shows after a short walk, not after a whole kilometre (both added
-// 2026-10-15 after the user's playtest: the stretch before 1 km was too
-// blind, the part inside 1 km was fine). Getting within 1 km once reveals one
-// random label and the quarter, within 500 m a second label and the rarity;
-// they stay revealed if the player walks away again. The button unlocks
-// within HARDCORE_GUESS_RADIUS and hits within HIDDEN_DRAW_HIT_M; three
-// presses, paying HARDCORE_MULTIPLIERS, and the third miss ends the hunt.
-// A miss says nothing beyond "not here". No re-roll.
-export const HARDCORE_MULTIPLIERS = [10, 5, 2];
-export const HARDCORE_GUESS_RADIUS = 500;
-export const HARDCORE_REVEAL_M = [1000, 500];
-export const HARDCORE_SIDE_M = 3000;
-export const HARDCORE_TREND_STEP_M = 100;
-// A change smaller than this over one step reads as "about the same".
-export const HARDCORE_TREND_SAME_M = 40;
-
-// A hardcore hunt still running: within its 24h window, neither found nor failed.
-export function isHardcoreLive(hd) {
-  return !!(hd?.slug && hd.drawnAt && !hd.found && !hd.failed
-    && Date.now() - new Date(hd.drawnAt).getTime() < RANDOM_DRAW_WINDOW_MS);
-}
-
-export function hardcoreXp(xpReward, attempt) {
-  return xpReward * HARDCORE_MULTIPLIERS[attempt - 1];
-}
-
-// The hardcore hunt's only distance clue: over 10 km; about N km (whole km
-// from 3 km up); about 2.5 / 2 / 1.5 / 1 km; then about 800 / 600 / 400 /
-// 200 m inside 1 km. The fine steps inside 1 km (2026-10-15) keep the last
-// stretch a hot-and-cold search: the label and quarter revealed at 1 km plus
-// the card distances on Explore would otherwise give the answer away there.
-export function hardcoreReading(d) {
-  if (d < 1000) return { about: d >= 700 ? 800 : d >= 500 ? 600 : d >= 300 ? 400 : 200 };
-  if (d >= 10000) return { over: 10000 };
-  if (d >= 2750) return { about: Math.round(d / 1000) * 1000 };
-  return { about: Math.round(d / 500) * 500 };
 }
 
 export const LEVELS = [

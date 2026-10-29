@@ -2,100 +2,97 @@ import { useState, useEffect } from 'react';
 import { useT, useLang, useConvert } from '../../context/LanguageContext';
 import { LABEL_DEFINITIONS, LABEL_COLORS } from '../../utils/pixelArtMap';
 import { RARITY_VAR, RARITY_LABEL } from '../../utils/rarity';
-import { formatDistance } from '../../utils/geolocation';
 import DistrictLine from '../locations/DistrictLine';
 
 const metres = m => (m >= 1000 ? `${m / 1000} km` : `${m} m`);
 
-// A distance band from the server ({ min, max } in metres, max null = open).
-function formatBand({ min, max }, t) {
-  if (!min) return t('draw.huntBandUnder', { r: metres(max) });
-  if (max == null) return t('draw.huntBandOver', { r: metres(min) });
-  return min >= 1000 ? `${min / 1000}–${max / 1000} km` : `${metres(min)}–${metres(max)}`;
+// The server's distance clue (huntReading): { about } outside 1 km,
+// { within } inside it (1 km, then 300 m; never closer, so a press is always
+// a risk).
+function readingText(r, t) {
+  if (r.within) return t('draw.huntWithin', { r: metres(r.within) });
+  return t('draw.huntAbout', { d: metres(r.about) });
 }
 
-// An unsolved treasure hunt on the Treasure Hunt page. Everything shown here comes from
-// the server's `hunt` clue object (the location itself is never sent until it
-// is found), added a little each guess (see buildHuntClues on the server):
-// labels, which side of the Vltava it is on, rarity, district then quarter,
-// each miss's direction, and the distance to the treasure: a band outside
-// the radius on guesses 1–4, "within" inside it, exact on guess 5 (plus, from the fourth
-// guess on, the live direction to it).
-export default function TreasureHuntPanel({ hunt, onGuess, onSkip, guessing, flash }) {
+// An unsolved treasure hunt on the Treasure Hunt page. Everything shown here
+// comes from the server's `hunt` clue object (the location itself is never
+// sent until it is found; see buildHuntClues on the server): which side of
+// the Vltava it is on, a rough distance and the hot-and-cold trend; within
+// 3 km the rarity or one label, within 300 m the other (each can also be
+// taken as a clue); within 1 km (or taken) the district and usually the
+// quarter; the direction
+// snapshot taken as a clue; and each miss's direction. The button works
+// anywhere: a miss costs a full step of multiplier, a clue half a step.
+export default function TreasureHuntPanel({ hunt, onGuess, onClue, busy, flash }) {
   const t = useT();
   const { lang } = useLang();
   const convert = useConvert();
   const [confirming, setConfirming] = useState(false);
-  const [confirmingSkip, setConfirmingSkip] = useState(false);
-  const rarity = hunt.rarity; // null on the first guess
-  const prox = hunt.proximity;
-  const canGuess = !!prox?.within && !guessing;
-  const lastGuess = hunt.attempt >= hunt.maxAttempts;
+  const [choosing, setChoosing] = useState(false);
+  const reading = hunt.reading;
+  const rarity = hunt.rarity;
 
-  // Leaving the radius (or a new guess number) cancels a pending confirm.
-  useEffect(() => { if (!canGuess) setConfirming(false); }, [canGuess, hunt.attempt]);
-  useEffect(() => { setConfirmingSkip(false); }, [hunt.attempt]);
+  // A new miss or clue cancels a pending confirm.
+  useEffect(() => { setConfirming(false); setChoosing(false); }, [hunt.presses, hunt.availableClues.length]);
 
-  // This guess's range ("3 km", "500 m"): the button only unlocks inside it.
-  const range = metres(hunt.radius);
-  let distanceText;
-  if (!prox) distanceText = t('draw.huntLocating');
-  else if (prox.distance != null) distanceText = t('draw.huntDistance', { d: formatDistance(prox.distance) });
-  else if (prox.band) distanceText = t('draw.huntDistance', { d: formatBand(prox.band, t) });
-  else if (prox.within) distanceText = t(hunt.radius <= 500 ? 'draw.huntWithinNear' : 'draw.huntWithin', { r: range });
-  else distanceText = t('draw.huntDistanceHidden');
-  // From the fourth guess on: live direction from the user to the treasure.
-  if (prox?.direction) distanceText += ` · ${t('draw.huntHeading', { dir: t(`draw.dir.${prox.direction}`) })}`;
+  let distanceText = reading ? t('draw.huntDistance', { d: readingText(reading, t) }) : t('draw.huntLocating');
+  if (reading && hunt.trend) distanceText += ` · ${t(`draw.huntTrend.${hunt.trend}`)}`;
 
   const pressGuess = () => {
-    // The last guess can only be pressed within 100 m, so it can't miss:
-    // no need to confirm it.
-    if (lastGuess || confirming) { setConfirming(false); onGuess(); }
+    if (confirming) { setConfirming(false); onGuess(); }
     else setConfirming(true);
   };
 
   return (
     <div className="hunt-panel">
       <div className="hunt-panel__head">
-        <span>{t('draw.huntAttempt', { n: hunt.attempt, max: hunt.maxAttempts })}</span>
+        <span>{t('draw.huntPresses', { n: hunt.presses })}</span>
         <span className="hunt-panel__reward" style={rarity ? { color: RARITY_VAR[rarity] } : undefined}>
           {t('draw.huntReward', { mult: hunt.multiplier })}
-          {hunt.xpReward != null && (
-            <> · {hunt.xpReward * hunt.multiplier} XP</>
-          )}
+          {hunt.xpReward != null && <> · {Math.round(hunt.xpReward * hunt.multiplier)} XP</>}
         </span>
       </div>
 
-      <div className="loc-card__labels hunt-panel__clues">
-        {rarity && (
-          <span
-            className="detail-label-pill"
-            style={{ backgroundColor: `color-mix(in srgb, ${RARITY_VAR[rarity]} 13%, transparent)`, borderColor: RARITY_VAR[rarity], color: RARITY_VAR[rarity] }}
-          >
-            {convert(RARITY_LABEL[lang]?.[rarity] ?? rarity)}
-          </span>
-        )}
-        {hunt.labels.map(lb => (
-          <span key={lb} className="detail-label-pill" style={{ backgroundColor: LABEL_COLORS[lb] || 'var(--pill-fallback, rgba(255,255,255,0.07))' }}>
-            {convert(LABEL_DEFINITIONS[lb]?.[lang] || LABEL_DEFINITIONS[lb]?.en || lb)}
-          </span>
-        ))}
-      </div>
       {hunt.riverSide && (
         <div className="hunt-panel__square">
           {t(hunt.riverSide === 'castle' ? 'draw.huntSideCastle' : 'draw.huntSideOldTown')}
         </div>
       )}
-      {hunt.district && <DistrictLine loc={{ quarter: hunt.quarter, district: hunt.district }} />}
 
-      {hunt.misses.length > 0 && (
+      {(rarity || hunt.labels.length > 0) && (
+        <div className="loc-card__labels hunt-panel__clues">
+          {rarity && (
+            <span
+              className="detail-label-pill"
+              style={{ backgroundColor: `color-mix(in srgb, ${RARITY_VAR[rarity]} 13%, transparent)`, borderColor: RARITY_VAR[rarity], color: RARITY_VAR[rarity] }}
+            >
+              {convert(RARITY_LABEL[lang]?.[rarity] ?? rarity)}
+            </span>
+          )}
+          {hunt.labels.map(lb => (
+            <span key={lb} className="detail-label-pill" style={{ backgroundColor: LABEL_COLORS[lb] || 'var(--pill-fallback, rgba(255,255,255,0.07))' }}>
+              {convert(LABEL_DEFINITIONS[lb]?.[lang] || LABEL_DEFINITIONS[lb]?.en || lb)}
+            </span>
+          ))}
+        </div>
+      )}
+      {hunt.district && <DistrictLine loc={{ quarter: hunt.quarter, district: hunt.district }} />}
+      {/* The next clue walking brings for free (nextFreeClue on the server):
+          the first clue within 3 km, the area within 1 km, the other of
+          rarity and label within 300 m. */}
+      {hunt.nextFree && (
+        <div className="hunt-panel__hint">
+          {t(hunt.nextFree.at === 3000 ? 'draw.huntNextFree1' : hunt.nextFree.at === 1000 ? 'draw.huntNextFree2' : `draw.huntNextFree3.${hunt.nextFree.what}`)}
+        </div>
+      )}
+
+      {(hunt.snapshots.length > 0 || hunt.misses.length > 0) && (
         <ul className="hunt-panel__misses">
+          {hunt.snapshots.map((s, i) => (
+            <li key={`s${i}`}>{t('draw.huntSnapDirection', { dir: t(`draw.dir.${s.direction}`) })}</li>
+          ))}
           {hunt.misses.map((m, i) => (
-            <li key={i}>
-              {m.skipped
-                ? t('draw.huntSkipped', { n: i + 1 })
-                : t('draw.huntMissDir', { n: i + 1, dir: t(`draw.dir.${m.direction}`) })}
-            </li>
+            <li key={`m${i}`}>{t('draw.huntMissDir', { n: i + 1, dir: t(`draw.dir.${m.direction}`) })}</li>
           ))}
         </ul>
       )}
@@ -104,32 +101,34 @@ export default function TreasureHuntPanel({ hunt, onGuess, onSkip, guessing, fla
 
       {flash && <div className={`hunt-panel__flash hunt-panel__flash--${flash.type}`}>{flash.text}</div>}
 
-      {confirmingSkip ? (
+      {choosing ? (
         <div className="hunt-panel__confirm">
-          <span>{t('draw.huntSkipConfirm', { n: hunt.attempt, mult: hunt.nextMultiplier })}</span>
-          <div className="hunt-panel__confirm-buttons">
-            <button className="px-btn px-btn--gold" onClick={() => { setConfirmingSkip(false); onSkip(); }} disabled={guessing}>{t('draw.huntSkipYes')}</button>
-            <button className="px-btn" onClick={() => setConfirmingSkip(false)}>{t('draw.huntCancel')}</button>
+          <span>{t('draw.huntClueChoose', { mult: hunt.clueMultiplier })}</span>
+          <div className="hunt-panel__confirm-buttons hunt-panel__clue-choices">
+            {hunt.availableClues.map(k => (
+              <button key={k} className="px-btn px-btn--gold" onClick={() => { setChoosing(false); onClue(k); }} disabled={busy}>
+                {t(`draw.clue.${k}`)}
+              </button>
+            ))}
+            <button className="px-btn" onClick={() => setChoosing(false)}>{t('draw.huntCancel')}</button>
           </div>
         </div>
       ) : confirming ? (
         <div className="hunt-panel__confirm">
-          <span>{t('draw.huntConfirm', { n: hunt.attempt })}</span>
+          <span>{t('draw.huntConfirm', { mult: hunt.missMultiplier })}</span>
           <div className="hunt-panel__confirm-buttons">
-            <button className="px-btn px-btn--gold" onClick={pressGuess} disabled={!canGuess}>{t('draw.huntConfirmYes')}</button>
+            <button className="px-btn px-btn--gold" onClick={pressGuess} disabled={busy}>{t('draw.huntConfirmYes')}</button>
             <button className="px-btn" onClick={() => setConfirming(false)}>{t('draw.huntCancel')}</button>
           </div>
         </div>
       ) : (
         <>
-          <button className="px-btn px-btn--gold px-btn--lg" onClick={pressGuess} disabled={!canGuess}>
-            {canGuess || guessing ? t('draw.huntGuess') : t('draw.huntGuessLocked')}
+          <button className="px-btn px-btn--gold px-btn--lg" onClick={pressGuess} disabled={busy}>
+            {t('draw.huntGuess')}
           </button>
-          {!canGuess && !guessing && <div className="hunt-panel__range">{t('draw.huntGuessRange', { r: range })}</div>}
-          {/* Nothing comes after the last guess, so it can't be skipped. */}
-          {!lastGuess && (
-            <button className="px-btn hunt-panel__skip" onClick={() => setConfirmingSkip(true)} disabled={guessing}>
-              {t('draw.huntSkip')}
+          {hunt.availableClues.length > 0 && (
+            <button className="px-btn hunt-panel__clue" onClick={() => setChoosing(true)} disabled={busy}>
+              {t('draw.huntClue', { mult: hunt.clueMultiplier })}
             </button>
           )}
         </>

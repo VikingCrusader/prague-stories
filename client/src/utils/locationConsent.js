@@ -9,7 +9,9 @@
 // so raise the version whenever the notice (LocationConsentDialog, the
 // location section of PrivacyPage) changes what it says about location use.
 
-export const LOCATION_CONSENT_VERSION = 1;
+// 2: the hunt's hot-and-cold reference point now applies to every hunt, not
+// just the retired hardcore one (2026-10-29).
+export const LOCATION_CONSENT_VERSION = 2;
 
 const KEY = 'locationConsent';
 

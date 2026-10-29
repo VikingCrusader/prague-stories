@@ -9,8 +9,8 @@ import { useUserPosition } from '../hooks/useUserPosition';
 import LocationCard from '../components/locations/LocationCard';
 import LocationDetail from '../components/locations/LocationDetail';
 import TreasureHuntPanel from '../components/draw/TreasureHuntPanel';
-import HardcoreHunt from '../components/draw/HardcoreHunt';
 import DeckShuffle, { SHUFFLE_MS, prefersReducedMotion } from '../components/draw/DeckShuffle';
+import { unlockAudio, playShuffleSound, playClueSound, playMissSound, playHuntWinSound, HUNT_WIN_SOUND_MS } from '../utils/sound';
 
 function pad2(n) {
   return String(n).padStart(2, '0');
@@ -25,14 +25,16 @@ function formatCountdown(ms) {
   return `${pad2(hrs)}:${pad2(mins)}:${pad2(secs)}`;
 }
 
-// The treasure hunt's guesses at a glance, for the rules section. Multipliers
-// and radii mirror HIDDEN_DRAW_MULTIPLIERS / HIDDEN_DRAW_RADII on the server.
-const HUNT_GUESSES = [
-  { mult: 10, unlock: '3 km' },
-  { mult: 5, unlock: '2 km' },
-  { mult: 3, unlock: '1 km' },
-  { mult: 2, unlock: '500 m' },
-  { mult: 1, unlock: '100 m' },
+// The hunt's clues, for the rules section: how each is had for free, and
+// whether it can be taken for half a step. Mirrors HUNT_REVEAL_M and
+// HUNT_CLUES on the server.
+const HUNT_CLUES = [
+  { key: 'side', free: 'draw.huntTable.always', take: false },
+  { key: 'reading', free: 'draw.huntTable.always', take: false },
+  { key: 'rarity', free: 'draw.huntTable.oneOf', take: true },
+  { key: 'label', free: 'draw.huntTable.oneOf', take: true },
+  { key: 'area', free: '1 km', take: true },
+  { key: 'direction', free: '—', take: true },
 ];
 
 function HuntClueTable({ t }) {
@@ -41,16 +43,14 @@ function HuntClueTable({ t }) {
       <div className="hunt-table-scroll">
         <table className="hunt-table">
           <thead>
-            <tr>{[1, 2, 3, 4, 5].map(k => <th key={k}>{t(`draw.huntTable.h${k}`)}</th>)}</tr>
+            <tr>{[1, 2, 3].map(k => <th key={k}>{t(`draw.huntTable.h${k}`)}</th>)}</tr>
           </thead>
           <tbody>
-            {HUNT_GUESSES.map((g, i) => (
-              <tr key={i}>
-                <td className="hunt-table__num">{i + 1}</td>
-                <td className="hunt-table__num">{g.mult}×</td>
-                <td className="hunt-table__nowrap">{g.unlock}</td>
-                <td>{t(`draw.huntTable.clues${i + 1}`)}</td>
-                <td>{t(`draw.huntTable.dist${i + 1}`)}</td>
+            {HUNT_CLUES.map(c => (
+              <tr key={c.key}>
+                <td>{t(`draw.huntTable.${c.key}`)}</td>
+                <td className="hunt-table__nowrap">{c.free.startsWith('draw.') ? t(c.free) : c.free}</td>
+                <td className="hunt-table__num">{c.take ? '✓' : '—'}</td>
               </tr>
             ))}
           </tbody>
@@ -58,20 +58,6 @@ function HuntClueTable({ t }) {
       </div>
       <p className="hunt-table__note">{t('draw.huntTableNote')}</p>
     </div>
-  );
-}
-
-// A rule may wrap a phrase in [[hardcore]]…[[/hardcore]]: it becomes a link
-// that switches to the Hardcore tab.
-function renderRule(rule, onHardcore) {
-  const m = rule.match(/^([\s\S]*)\[\[hardcore\]\]([\s\S]*)\[\[\/hardcore\]\]([\s\S]*)$/);
-  if (!m) return rule;
-  return (
-    <>
-      {m[1]}
-      <a href="#" onClick={e => { e.preventDefault(); onHardcore(); }} style={{ textDecoration: 'underline' }}>{m[2]}</a>
-      {m[3]}
-    </>
   );
 }
 
@@ -87,26 +73,21 @@ export default function TreasureHuntPage() {
   const convert = useConvert();
   const userPos = useUserPosition();
 
-  // Clue hunt (线索模式) or the hardcore one (HardcoreHunt), remembered per device.
-  const [mode, setMode] = useState(() => {
-    try { return localStorage.getItem('huntMode') === 'hardcore' ? 'hardcore' : 'normal'; } catch { return 'normal'; }
-  });
-  const switchMode = m => { setMode(m); try { localStorage.setItem('huntMode', m); } catch { /* private mode */ } };
-  const [hardcoreRefresh, setHardcoreRefresh] = useState(0);
   const [status, setStatus] = useState(null);
   const [loading, setLoading] = useState(true);
   const [starting, setStarting] = useState(false);
   const [now, setNow] = useState(Date.now());
   const [selectedSlug, setSelectedSlug] = useState(null);
   const refreshingOnExpiry = useRef(false);
-  const [guessing, setGuessing] = useState(false);
+  const [busy, setBusy] = useState(false);
   const [huntFlash, setHuntFlash] = useState(null);
-  // The deck is being shuffled and a card drawn (DeckShuffle), on a new hunt
-  // or a re-roll. The new hunt's status is only shown once the animation and
-  // the server have both finished.
+  // The deck is being shuffled and a card drawn (DeckShuffle) on a new hunt.
+  // The new hunt's status is only shown once the animation and the server
+  // have both finished.
   const [shuffling, setShuffling] = useState(false);
   const shuffleDone = () => {
     if (prefersReducedMotion()) return Promise.resolve();
+    playShuffleSound();
     setShuffling(true);
     return new Promise(resolve => setTimeout(resolve, SHUFFLE_MS));
   };
@@ -127,9 +108,6 @@ export default function TreasureHuntPage() {
     setLoading(true);
     fetchStatus().finally(() => setLoading(false));
   }, [user, fetchStatus]);
-  // Only one mode runs at a time: coming back to this tab, recheck whether
-  // the hardcore hunt has ended in the meantime.
-  useEffect(() => { if (mode === 'normal') fetchStatus(); }, [mode, fetchStatus]);
 
   useEffect(() => {
     if (!status?.active) return;
@@ -142,9 +120,8 @@ export default function TreasureHuntPage() {
   // and right away once the first GPS fix arrives.
   const huntActive = !!(status?.active && !status.bonusUsed);
   const hasPos = !!userPos;
-  const classicShown = mode === 'normal';
   useEffect(() => {
-    if (!huntActive || !hasPos || !classicShown) return;
+    if (!huntActive || !hasPos) return;
     const tick = () => {
       if (!posRef.current) return;
       userAPI.getRandomDraw(posRef.current).then(res => setStatus(res.data)).catch(() => {});
@@ -152,62 +129,46 @@ export default function TreasureHuntPage() {
     tick();
     const id = setInterval(tick, 10000);
     return () => clearInterval(id);
-  }, [huntActive, hasPos, classicShown]);
+  }, [huntActive, hasPos]);
 
   const handleGuess = async () => {
-    setGuessing(true);
+    unlockAudio();
+    setBusy(true);
     setHuntFlash(null);
     try {
       const pos = await getCurrentPosition();
       const res = await userAPI.guessTreasure(pos);
-      if (res.data.hit) applyProgress(res.data.levelInfo, res.data.totalXP);
-      else setHuntFlash({ type: 'miss', text: t('draw.huntMissFlash') });
+      if (res.data.hit) {
+        playHuntWinSound();
+        // The XP (and a level-up, with its own fanfare) lands once the
+        // victory fanfare is over, so the two don't play on top of each other.
+        const { levelInfo, totalXP } = res.data;
+        setTimeout(() => applyProgress(levelInfo, totalXP), HUNT_WIN_SOUND_MS);
+      } else {
+        playMissSound();
+        setHuntFlash({ type: 'miss', text: t('draw.huntMissFlash') });
+      }
       setStatus(res.data.draw);
     } catch (err) {
       setHuntFlash({ type: 'error', text: err.response?.data?.message || err.message });
       fetchStatus();
     } finally {
-      setGuessing(false);
+      setBusy(false);
     }
   };
 
-  // "Give up this round, take the clues": no position check, see
-  // skipHiddenDraw on the server. The position only feeds the distance clue.
-  const handleSkip = () => {
-    setGuessing(true);
+  // "Take a clue" (see takeHuntClue on the server): the direction snapshot
+  // is taken from the current position.
+  const handleClue = async key => {
+    unlockAudio();
+    setBusy(true);
     setHuntFlash(null);
-    userAPI.skipTreasure(posRef.current)
-      .then(res => { setStatus(res.data.draw); setHuntFlash({ type: 'miss', text: t('draw.huntSkipFlash') }); })
+    const pos = key === 'direction' ? await getCurrentPosition().catch(() => posRef.current) : posRef.current;
+    userAPI.takeHuntClue(key, pos)
+      .then(res => { playClueSound(); setStatus(res.data.draw); setHuntFlash({ type: 'miss', text: t('draw.huntClueFlash', { clue: t(`draw.clue.${res.data.clue}`) }) }); })
       .catch(err => { setHuntFlash({ type: 'error', text: err.response?.data?.message || err.message }); fetchStatus(); })
-      .finally(() => setGuessing(false));
+      .finally(() => setBusy(false));
   };
-
-  // One re-roll per hunt (see rerollDraw on the server). Two taps: the first
-  // asks for confirmation, since the clues and guesses so far are lost.
-  const [rerollConfirm, setRerollConfirm] = useState(false);
-  const [rerolling, setRerolling] = useState(false);
-  const [rerollError, setRerollError] = useState(null);
-  const handleReroll = () => {
-    if (!rerollConfirm) { setRerollConfirm(true); return; }
-    setRerolling(true);
-    setRerollError(null);
-    Promise.all([userAPI.rerollDraw(posRef.current), shuffleDone()])
-      .then(([res]) => { setStatus(res.data); setHuntFlash(null); })
-      .catch(err => setRerollError(err.response?.data?.message || err.message))
-      .finally(() => { setShuffling(false); setRerolling(false); setRerollConfirm(false); });
-  };
-  const rerollButton = status?.canReroll ? (
-    <div className="draw-reroll">
-      {rerollConfirm && <span className="draw-reroll__ask">{t('draw.rerollConfirmHunt')}</span>}
-      <div className="draw-reroll__buttons">
-        <button className="px-btn" onClick={handleReroll} disabled={rerolling}>
-          {rerollConfirm ? t('draw.rerollYes') : t('draw.reroll')}
-        </button>
-        {rerollConfirm && <button className="px-btn" onClick={() => setRerollConfirm(false)}>{t('draw.huntCancel')}</button>}
-      </div>
-      {rerollError && <span className="hunt-panel__flash hunt-panel__flash--error">{rerollError}</span>}
-    </div>
-  ) : null;
 
   const expiresAt = status?.expiresAt ? new Date(status.expiresAt).getTime() : null;
   const msLeft = expiresAt ? expiresAt - now : 0;
@@ -222,10 +183,14 @@ export default function TreasureHuntPage() {
     }
   }, [msLeft, status?.active, expiresAt, fetchStatus]);
 
-  const handleStart = () => {
+  // The treasure is picked at least 4 km from here (when possible), so ask
+  // for a fresh position; without one any card will do.
+  const handleStart = async () => {
+    unlockAudio();
     setStarting(true);
     setHuntFlash(null);
-    Promise.all([userAPI.drawRandomLocation(posRef.current), shuffleDone()])
+    const pos = await getCurrentPosition().catch(() => posRef.current);
+    Promise.all([userAPI.drawRandomLocation(pos), shuffleDone()])
       .then(([res]) => setStatus(res.data))
       .catch(() => fetchStatus())
       .finally(() => { setShuffling(false); setStarting(false); });
@@ -236,9 +201,8 @@ export default function TreasureHuntPage() {
     fetchStatus();
   };
 
-  // Rule 3 introduces the per-guess table rendered right under it.
-  const huntRules = [t('draw.huntRule1'), t('draw.huntRule2'), t('draw.huntRule3'), t('draw.huntRuleLuck'), t('draw.huntRule6')];
-  const hardcoreRules = [t('draw.hcRule1'), t('draw.hcRule2'), t('draw.hcRule3'), t('draw.hcRule4')];
+  // Rule 3 introduces the clue table rendered right under it.
+  const huntRules = [1, 2, 3, 4, 5].map(n => t(`draw.huntRule${n}`));
   const solvedHunt = status?.active && status.bonusUsed && status.location;
   const countdown = (
     <div className="draw-countdown">
@@ -249,29 +213,13 @@ export default function TreasureHuntPage() {
   return (
     <div className="guide-page draw-page">
       <div className="guide-wrap">
-        <h1 className="px-title" style={{ fontSize: 26, marginBottom: 6 }}>{t(mode === 'hardcore' ? 'draw.hcTitle' : 'draw.modeHunt')}</h1>
-        <p className="guide-intro">{t(mode === 'hardcore' ? 'draw.hcTagline' : 'draw.huntTagline')}</p>
-        <div className="guide-challenge">{t(mode === 'hardcore' ? 'draw.hcChallenge' : 'draw.huntChallenge')}</div>
-
-        <div className="hunt-tabs" role="tablist">
-          {['normal', 'hardcore'].map(m => (
-            <button
-              key={m}
-              role="tab"
-              aria-selected={mode === m}
-              className={`hunt-tabs__tab${mode === m ? ' hunt-tabs__tab--active' : ''}`}
-              onClick={() => switchMode(m)}
-            >
-              {t(m === 'hardcore' ? 'draw.tabHardcore' : 'draw.tabNormal')}
-            </button>
-          ))}
-        </div>
+        <h1 className="px-title" style={{ fontSize: 26, marginBottom: 6 }}>{t('draw.modeHunt')}</h1>
+        <p className="guide-intro">{t('draw.huntTagline')}</p>
+        <div className="guide-challenge">{t('draw.huntChallenge')}</div>
 
         {user && <LocationOffNotice />}
 
-        {mode === 'hardcore' ? (
-          <HardcoreHunt onOpen={setSelectedSlug} refreshKey={hardcoreRefresh} onSwitch={() => switchMode('normal')} />
-        ) : loading ? (
+        {loading ? (
           <div style={{ display: 'flex', justifyContent: 'center', padding: 40 }}>
             <div className="spinner" />
           </div>
@@ -315,9 +263,8 @@ export default function TreasureHuntPage() {
 
                 {huntActive && status.hunt ? (
                   <>
-                    <TreasureHuntPanel hunt={status.hunt} onGuess={handleGuess} onSkip={handleSkip} guessing={guessing} flash={huntFlash} />
+                    <TreasureHuntPanel hunt={status.hunt} onGuess={handleGuess} onClue={handleClue} busy={busy} flash={huntFlash} />
                     {countdown}
-                    {rerollButton}
                   </>
                 ) : solvedHunt ? (
                   <>
@@ -343,14 +290,9 @@ export default function TreasureHuntPage() {
                     <p className="guide-body" style={{ textAlign: 'center', maxWidth: 420, color: 'var(--text-muted)' }}>
                       {t('draw.huntMysteryHint')}
                     </p>
-                    <button className="px-btn px-btn--gold px-btn--lg" onClick={handleStart} disabled={starting || !user || !!status?.blockedBy}>
+                    <button className="px-btn px-btn--gold px-btn--lg" onClick={handleStart} disabled={starting || !user}>
                       {starting ? t('draw.buttonDrawing') : t('draw.buttonHuntStart')}
                     </button>
-                    {status?.blockedBy && (
-                      <p className="guide-body draw-mode-hint">
-                        {renderRule(t('draw.blockedByHardcore'), () => switchMode('hardcore'))}
-                      </p>
-                    )}
                     {!user && <p className="guide-body draw-mode-hint">{t('draw.huntGuestOnly')}</p>}
                   </>
                 )}
@@ -361,24 +303,20 @@ export default function TreasureHuntPage() {
 
         <hr className="px-divider" />
 
-        {mode === 'normal' && (
-          <>
-            <section className="guide-section">
-              <p className="guide-body">{t('draw.huntIntro')}</p>
-            </section>
-            <hr className="px-divider" />
-          </>
-        )}
+        <section className="guide-section">
+          <p className="guide-body">{t('draw.huntIntro')}</p>
+        </section>
+        <hr className="px-divider" />
 
         <section className="guide-section">
           <h2 className="guide-h2">{t('draw.rulesTitle')}</h2>
-          {(mode === 'hardcore' ? hardcoreRules : huntRules).map((rule, i) => (
+          {huntRules.map((rule, i) => (
             <div key={i}>
               <div className="guide-step">
                 <span className="guide-step-num">{i + 1}</span>
-                <p className="guide-body">{renderRule(rule, () => { switchMode('hardcore'); window.scrollTo({ top: 0, behavior: 'smooth' }); })}</p>
+                <p className="guide-body">{rule}</p>
               </div>
-              {mode === 'normal' && i === 2 && <HuntClueTable t={t} />}
+              {i === 2 && <HuntClueTable t={t} />}
             </div>
           ))}
         </section>
@@ -387,7 +325,7 @@ export default function TreasureHuntPage() {
       {selectedSlug && (
         <LocationDetail
           slug={selectedSlug}
-          onClose={() => { setSelectedSlug(null); fetchStatus(); setHardcoreRefresh(k => k + 1); }}
+          onClose={() => { setSelectedSlug(null); fetchStatus(); }}
           onCheckIn={handleCheckIn}
         />
       )}

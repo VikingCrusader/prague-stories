@@ -184,32 +184,72 @@ describe('treasure hunt', () => {
   async function seedTarget(extra = {}) {
     await Location.create({
       name: 'Target', slug: 'target', coordinates: CHARLES_BRIDGE, rarity: 'rare', xpReward: 20,
-      labels: ['church', 'museum', 'tower'], quarter: 'Staré Město', district: 'Praha 1', ...extra,
+      labels: ['church', 'gothic'], quarter: 'Staré Město', district: 'Praha 1', ...extra,
     });
   }
-
-  async function startHunt(token) {
-    return request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${token}`).send({});
+  // Cards around the target, so the first clue and the quarter pass the
+  // check (HUNT_MIN_FIRST_CANDIDATES, HUNT_MIN_QUARTER_CANDIDATES). They sit
+  // 2 km east of the target, so presses near it never hit them.
+  async function seedNeighbours(n, extra = {}) {
+    for (let i = 0; i < n; i++) {
+      await Location.create({
+        name: `N${i}`, slug: `n${i}`, coordinates: { lat: CHARLES_BRIDGE.lat, lng: CHARLES_BRIDGE.lng + 0.028 },
+        rarity: 'rare', xpReward: 20, labels: ['church', 'gothic'], quarter: 'Staré Město', district: 'Praha 1', ...extra,
+      });
+    }
+  }
+  // Starts hunts until one lands on the target (the pick is random).
+  async function startOnTarget(token, user) {
+    for (let i = 0; i < 60; i++) {
+      await User.updateOne({ _id: user._id }, { $unset: { randomDraw: '' } });
+      const res = await startHunt(token);
+      if ((await User.findById(user._id).lean()).randomDraw.slug === 'target') return res;
+    }
+    throw new Error('never drew the target');
   }
 
+  async function startHunt(token, pos) {
+    return request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${token}`).send(pos || {});
+  }
+  const status = (token, pos) => request(app).get('/api/user/random-draw').query(pos).set('Authorization', `Bearer ${token}`);
   const guess = (token, pos) =>
     request(app).post('/api/user/random-draw/guess').set('Authorization', `Bearer ${token}`).send(pos);
+  const takeClue = (token, key, pos) =>
+    request(app).post('/api/user/random-draw/clue').set('Authorization', `Bearer ${token}`).send({ key, ...(pos || {}) });
 
-  test('hides the location and gives only the first clues', async () => {
+  test('hides the location and starts with only the river side and the distance', async () => {
     await seedTarget();
     const { token } = await createAuthedUser();
-    const res = await startHunt(token);
+    const res = await startHunt(token, north(5000));
     expect(res.status).toBe(200);
     expect(res.body.mode).toBe('hidden');
     expect(res.body.location).toBeNull();
-    // No rarity or XP figure on the first guess, just one label.
-    expect(res.body.hunt).toMatchObject({ attempt: 1, multiplier: 10, xpNow: null, rarity: null, xpReward: null, quarter: null, district: null });
-    expect(res.body.hunt.labels).toHaveLength(1);
-    // Staré Město is on the right bank.
-    expect(res.body.hunt.riverSide).toBe('oldTown');
+    expect(res.body.hunt).toMatchObject({
+      multiplier: 10, missMultiplier: 6, clueMultiplier: 8, presses: 0,
+      availableClues: ['rarity', 'label', 'area', 'direction'],
+      riverSide: 'oldTown', reading: { about: 5000 },
+      firstRevealed: false, areaRevealed: false,
+      rarity: null, xpReward: null, labels: [], district: null, quarter: null,
+      snapshots: [], misses: [],
+    });
     const raw = JSON.stringify(res.body);
     expect(raw).not.toContain('target');
     expect(raw).not.toContain(String(CHARLES_BRIDGE.lat));
+  });
+
+  test('picks a treasure at least 4 km from the player, or any card when none is that far', async () => {
+    await seedTarget();
+    await Location.create({ name: 'Far', slug: 'far', coordinates: north(6000), rarity: 'common', xpReward: 10, labels: ['park'], quarter: 'Holešovice' });
+    const { token, user } = await createAuthedUser();
+    for (let i = 0; i < 10; i++) {
+      await User.updateOne({ _id: user._id }, { $unset: { randomDraw: '' } });
+      // Standing on the target: only the far card qualifies.
+      await startHunt(token, north(10));
+      expect((await User.findById(user._id).lean()).randomDraw.slug).toBe('far');
+    }
+    // Halfway between the two, both are within 4 km: either will do.
+    await User.updateOne({ _id: user._id }, { $unset: { randomDraw: '' } });
+    expect((await startHunt(token, north(3000))).body.active).toBe(true);
   });
 
   test('never picks an outside card or one without a quarter', async () => {
@@ -235,117 +275,227 @@ describe('treasure hunt', () => {
     expect(res.body.noneLeft).toBe(true);
   });
 
-  const status = (token, pos) => request(app).get('/api/user/random-draw').query(pos).set('Authorization', `Bearer ${token}`);
-
-  test('the first guess shows a rough band (3–10 km, over 10 km), then "within" once the button unlocks', async () => {
-    await seedTarget({ labels: ['church'] });
-    const { token } = await createAuthedUser();
-    await startHunt(token);
-    const far = await status(token, north(6000));
-    expect(far.body.hunt.proximity).toEqual({ within: false, distance: null, band: { min: 3000, max: 10000 }, direction: null });
-    const farther = await status(token, north(12000));
-    expect(farther.body.hunt.proximity.band).toEqual({ min: 10000, max: null });
-    const near = await status(token, north(1500));
-    expect(near.body.hunt.proximity).toEqual({ within: true, distance: null, band: null, direction: null });
-  });
-
-  test('refuses a guess outside the current radius', async () => {
+  test('the distance: about N km, then 500 m steps within 3 km, then within 1 km / 300 m, never closer', async () => {
     await seedTarget();
     const { token } = await createAuthedUser();
     await startHunt(token);
-    expect((await guess(token, north(3500))).status).toBe(403);
+    const reading = async m => (await status(token, north(m))).body.hunt.reading;
+    expect(await reading(12400)).toEqual({ about: 12000 });
+    expect(await reading(6600)).toEqual({ about: 7000 });
+    expect(await reading(2800)).toEqual({ about: 3000 });
+    expect(await reading(2600)).toEqual({ about: 2500 });
+    expect(await reading(1700)).toEqual({ about: 1500 });
+    expect(await reading(1100)).toEqual({ about: 1000 });
+    expect(await reading(800)).toEqual({ within: 1000 });
+    expect(await reading(250)).toEqual({ within: 300 });
+    // No "within 100 m": that would tell the player a press can't miss.
+    expect(await reading(50)).toEqual({ within: 300 });
   });
 
-  test('clues build up over five guesses, and the fifth always hits', async () => {
+  test('says closer or farther after each step, all the way in', async () => {
     await seedTarget();
     const { token } = await createAuthedUser();
-    await startHunt(token);
+    expect((await startHunt(token, north(5000))).body.hunt.trend).toBeNull();
+    // Less than a step away: no verdict yet.
+    expect((await status(token, north(4950))).body.hunt.trend).toBeNull();
+    expect((await status(token, north(4850))).body.hunt.trend).toBe('closer');
+    expect((await status(token, north(5100))).body.hunt.trend).toBe('farther');
+    // Sideways, the distance barely changes.
+    const side = { lat: north(5100).lat, lng: CHARLES_BRIDGE.lng + 200 / (111195 * Math.cos(CHARLES_BRIDGE.lat * Math.PI / 180)) };
+    expect((await status(token, side)).body.hunt.trend).toBe('same');
+    // Inside 1 km too.
+    expect((await status(token, north(800))).body.hunt.trend).toBe('closer');
+    expect((await status(token, north(600))).body.hunt.trend).toBe('closer');
+  });
 
-    // Guess 1 from 1.8 km away, on purpose, to buy clues.
-    const m1 = await guess(token, north(1800));
-    expect(m1.body.hit).toBe(false);
-    let h = m1.body.draw.hunt;
-    // 20 x 5.
-    expect(h).toMatchObject({ attempt: 2, maxAttempts: 5, multiplier: 5, radius: 2000, rarity: 'rare', xpNow: 100, district: null, quarter: null });
+  test('walking in reveals the first clue within 3 km, the area within 1 km, the other of rarity and label within 300 m, and keeps them', async () => {
+    await seedTarget();
+    await seedNeighbours(5);
+    const { token, user } = await createAuthedUser();
+    await startOnTarget(token, user);
+
+    let h = (await status(token, north(3500))).body.hunt;
+    expect(h).toMatchObject({ firstRevealed: false, labels: [], rarity: null });
+    expect(h.nextFree.at).toBe(3000);
+    h = (await status(token, north(2500))).body.hunt;
+    expect(h.firstRevealed).toBe(true);
+    // The rarity or one of its labels, never both; the other can be bought.
+    if (h.rarity) {
+      expect(h).toMatchObject({ rarity: 'rare', xpReward: 20, labels: [], availableClues: ['label', 'area', 'direction'] });
+    } else {
+      expect(h.labels).toHaveLength(1);
+      expect(['church', 'gothic']).toContain(h.labels[0]);
+      expect(h.availableClues).toEqual(['rarity', 'area', 'direction']);
+    }
+    expect(h).toMatchObject({ areaRevealed: false, district: null, quarter: null });
+
+    h = (await status(token, north(800))).body.hunt;
+    expect(h).toMatchObject({ areaRevealed: true, district: 'Praha 1', quarter: 'Staré Město' });
+    expect(h.availableClues).not.toContain('area');
+    // Free: the multiplier hasn't moved.
+    expect(h.multiplier).toBe(10);
+    const second = h.rarity ? 'label' : 'rarity';
+    expect(h.nextFree).toEqual({ at: 300, what: second });
+
+    // Within 300 m, the other of rarity and label.
+    h = (await status(token, north(250))).body.hunt;
+    expect(h.rarity).toBe('rare');
     expect(h.labels).toHaveLength(1);
-    expect(h.misses).toEqual([{ direction: 'S' }]);
-    expect(h.proximity.direction).toBeNull();
-    // Outside the 2 km radius: a band, never the exact figure. No minimum
-    // number of cards after the first guess, so it isn't widened.
-    const far = (await status(token, north(2500))).body.hunt;
-    expect(far.proximity).toMatchObject({ within: false, distance: null, band: { min: 2000, max: 3000 } });
-
-    expect((await guess(token, north(2500))).status).toBe(403);
-
-    h = (await guess(token, north(1500))).body.draw.hunt;
-    expect(h).toMatchObject({ attempt: 3, multiplier: 3, radius: 1000, district: 'Praha 1', quarter: null });
-    expect(h.labels).toHaveLength(2);
-    expect(h.misses).toEqual([{ direction: 'S' }, { direction: 'S' }]);
-
-    h = (await guess(token, north(800))).body.draw.hunt;
-    expect(h).toMatchObject({ attempt: 4, multiplier: 2, radius: 500, quarter: 'Staré Město' });
-    expect(h.labels).toHaveLength(2);
-    // The live direction shows now; misses still only give their direction.
-    expect(h.misses).toEqual([{ direction: 'S' }, { direction: 'S' }, { direction: 'S' }]);
-    expect(h.proximity.direction).toBe('S');
-    // Guess 4, outside its 500 m radius: still only a band.
-    expect(h.proximity).toMatchObject({ within: false, distance: null, band: { min: 500, max: 1000 } });
-
-    h = (await guess(token, north(300))).body.draw.hunt;
-    expect(h).toMatchObject({ attempt: 5, multiplier: 1, radius: 100 });
-    expect([...h.labels].sort()).toEqual(['church', 'museum', 'tower']);
-    expect(h.proximity.distance).toBeGreaterThan(280);
-
-    // The fifth guess is only allowed within 100 m, so it can't miss.
-    expect((await guess(token, north(300))).status).toBe(403);
-    const hit = await guess(token, north(50));
-    expect(hit.status).toBe(201);
-    expect(hit.body).toMatchObject({ hit: true, xpEarned: 20, guessAttempt: 5 });
-    expect(hit.body.draw.location.slug).toBe('target');
-
-    const list = await request(app).get('/api/locations').set('Authorization', `Bearer ${token}`);
-    expect(list.body.find(l => l.slug === 'target')._guessAttempt).toBe(5);
+    expect(h.nextFree).toBeNull();
+    expect(h.availableClues).toEqual(['direction']);
+    h = (await status(token, north(8000))).body.hunt;
+    expect(h).toMatchObject({ firstRevealed: true, areaRevealed: true, quarter: 'Staré Město' });
   });
 
-  test('skipping a guess moves on to the next clues from anywhere, but not past the last guess', async () => {
+  test('a first clue that fits too few nearby cards is swapped for one that fits more', async () => {
+    await seedTarget({ labels: ['church', 'jewish'] });
+    // Six other churches nearby, but only rare cards of another kind and
+    // no other jewish card: only the church label passes the check.
+    await seedNeighbours(6, { rarity: 'common', xpReward: 10, labels: ['church'] });
+    const { token, user } = await createAuthedUser();
+    await startOnTarget(token, user);
+    const { firstClue } = (await User.findById(user._id).lean()).randomDraw;
+    expect(firstClue).toEqual({ kind: 'label', value: 'church' });
+  });
+
+  test('cards across the river or more than 3 km away do not count for the check', async () => {
+    await seedTarget({ labels: ['church'] });
+    await seedNeighbours(6, { quarter: 'Malá Strana', rarity: 'common', xpReward: 10, labels: ['park'] });
+    for (let i = 0; i < 6; i++) {
+      await Location.create({ name: `F${i}`, slug: `f${i}`, coordinates: north(5000), rarity: 'rare', xpReward: 20, labels: ['museum'], quarter: 'Staré Město' });
+    }
+    const { token, user } = await createAuthedUser();
+    await startOnTarget(token, user);
+    // Nothing passes; it falls back to the option that fits the most cards
+    // (a tie here, both fit only the target).
+    const { firstClue } = (await User.findById(user._id).lean()).randomDraw;
+    expect(['rarity', 'label']).toContain(firstClue.kind);
+  });
+
+  test('the quarter is left out when too few cards in it fit the first clue', async () => {
+    await seedTarget();
+    // Plenty of matches nearby, but in the next quarter over.
+    await seedNeighbours(6, { quarter: 'Josefov' });
+    const { token, user } = await createAuthedUser();
+    await startOnTarget(token, user);
+    expect((await User.findById(user._id).lean()).randomDraw.showQuarter).toBe(false);
+    const h = (await status(token, north(800))).body.hunt;
+    expect(h).toMatchObject({ areaRevealed: true, district: 'Praha 1', quarter: null });
+  });
+
+  test('clues cost half a step each, once each, and the direction keeps what it said then', async () => {
     await seedTarget();
     const { token } = await createAuthedUser();
     await startHunt(token);
-    const skip = () => request(app).post('/api/user/random-draw/skip').set('Authorization', `Bearer ${token}`).send(north(20000));
 
-    // 20 km away, far outside the 3 km radius, and no guess needed.
-    let res = await skip();
+    let res = await takeClue(token, 'rarity');
     expect(res.status).toBe(200);
-    expect(res.body.draw.hunt).toMatchObject({ attempt: 2, multiplier: 5, nextMultiplier: 3, rarity: 'rare' });
-    // A skip records no position, so it gives no direction clue.
-    expect(res.body.draw.hunt.misses).toEqual([{ skipped: true }]);
+    expect(res.body.draw.hunt).toMatchObject({ multiplier: 8, clueMultiplier: 6, missMultiplier: 5, rarity: 'rare', xpReward: 20, availableClues: ['label', 'area', 'direction'] });
+    expect((await takeClue(token, 'rarity')).status).toBe(409);
+    res = await takeClue(token, 'label');
+    expect(res.body.draw.hunt.multiplier).toBe(6);
+    expect(res.body.draw.hunt.labels).toHaveLength(1);
+    expect(['church', 'gothic']).toContain(res.body.draw.hunt.labels[0]);
+    res = await takeClue(token, 'area');
+    expect(res.body.draw.hunt).toMatchObject({ multiplier: 5, district: 'Praha 1' });
 
-    for (let i = 0; i < 3; i++) res = await skip();
-    expect(res.body.draw.hunt).toMatchObject({ attempt: 5, multiplier: 1, nextMultiplier: null });
-    expect((await skip()).status).toBe(409);
+    // The direction needs a position.
+    expect((await takeClue(token, 'direction')).status).toBe(400);
+    res = await takeClue(token, 'direction', north(3000));
+    expect(res.body.draw.hunt).toMatchObject({ multiplier: 4, availableClues: [], clueMultiplier: null });
+    expect(res.body.draw.hunt.snapshots).toEqual([{ key: 'direction', direction: 'S' }]);
+    // Walking on doesn't change it.
+    const later = (await status(token, { lat: CHARLES_BRIDGE.lat - 0.02, lng: CHARLES_BRIDGE.lng })).body.hunt;
+    expect(later.snapshots).toEqual([{ key: 'direction', direction: 'S' }]);
+    expect((await takeClue(token)).status).toBe(409);
 
-    // Found on the fifth guess after four skips: plain 1x.
+    // Found after four clues: 20 x 4.
     const hit = await guess(token, north(50));
-    expect(hit.body).toMatchObject({ hit: true, xpEarned: 20, guessAttempt: 5 });
+    expect(hit.body).toMatchObject({ hit: true, xpEarned: 80, guessAttempt: 1 });
   });
 
-  test('a first-guess hit pays 10x, however long it took', async () => {
+  test('a press works from anywhere; a miss costs a full step and gives its direction', async () => {
     await seedTarget();
     const { token, user } = await createAuthedUser();
     await startHunt(token);
-    const threeHoursAgo = new Date(Date.now() - 3 * 3600 * 1000);
-    await User.updateOne({ _id: user._id }, { $set: { 'randomDraw.drawnAt': threeHoursAgo, 'randomDraw.rolledAt': threeHoursAgo } });
-    const hit = await guess(token, north(20));
-    expect(hit.body).toMatchObject({ hit: true, xpEarned: 200, guessAttempt: 1 });
+
+    let res = await guess(token, north(5000));
+    expect(res.status).toBe(200);
+    expect(res.body.hit).toBe(false);
+    expect(res.body.draw.hunt).toMatchObject({ multiplier: 6, presses: 1, misses: [{ direction: 'S' }] });
+
+    // Clue then miss: 6 → 5 → 3.
+    await takeClue(token, 'rarity');
+    res = await guess(token, north(300));
+    expect(res.body.draw.hunt).toMatchObject({ multiplier: 3, presses: 2 });
+    // The miss keeps no position or distance.
+    const raw = await User.collection.findOne({ _id: (await User.findById(user._id))._id });
+    expect(raw.randomDraw.misses[1]).not.toHaveProperty('lat');
+    expect(raw.randomDraw.misses[1]).not.toHaveProperty('distance');
+
+    // Never below 1x, and misses never end the hunt.
+    for (let i = 0; i < 4; i++) res = await guess(token, north(300));
+    expect(res.body.draw.hunt.multiplier).toBe(1);
+    const hit = await guess(token, north(50));
+    expect(hit.body).toMatchObject({ hit: true, xpEarned: 20, guessAttempt: 7 });
+    expect(hit.body.draw.location.slug).toBe('target');
+
+    const list = await request(app).get('/api/locations').set('Authorization', `Bearer ${token}`);
+    expect(list.body.find(l => l.slug === 'target')._guessAttempt).toBe(7);
   });
 
-  test('collecting the target through a normal check-in counts as a hit', async () => {
+  test('a first-press hit pays 10x, however long it took', async () => {
+    await seedTarget();
+    const { token, user } = await createAuthedUser();
+    await startHunt(token);
+    await User.updateOne({ _id: user._id }, { $set: { 'randomDraw.drawnAt': new Date(Date.now() - 3 * 3600 * 1000) } });
+    const hit = await guess(token, north(20));
+    expect(hit.body).toMatchObject({ hit: true, xpEarned: 200, guessAttempt: 1 });
+    expect(hit.body.draw).toMatchObject({ bonusUsed: true, solvedAttempt: 1, xpEarned: 200 });
+  });
+
+  test('collecting the target through a normal check-in counts as a hit at the current multiplier', async () => {
     await seedTarget();
     const { token } = await createAuthedUser();
     await startHunt(token);
-    await guess(token, north(1500));
+    // Pressed from 5 km, so the first clue isn't revealed for free yet.
+    await guess(token, north(5000));
+    expect((await takeClue(token, 'rarity')).status).toBe(200);
+    // 10 → 6 → 5.
     const res = await checkIn(token, 'target');
     expect(res.body).toMatchObject({ xpEarned: 100, guessAttempt: 2 });
+  });
+
+  test('keeps the trend reference point only while needed', async () => {
+    await seedTarget();
+    const { token, user } = await createAuthedUser();
+    await startHunt(token);
+    await status(token, north(2000));
+    expect((await User.findById(user._id).lean()).randomDraw.trendRef).toMatchObject({ distance: 2000 });
+
+    // Withdrawing consent erases it; the hunt itself goes on.
+    await request(app).put('/api/user/location-consent').set('Authorization', `Bearer ${token}`).send({ granted: false, version: 2 });
+    expect((await User.findById(user._id).lean()).randomDraw.trendRef).toBeNull();
+
+    await status(token, north(2000));
+    await guess(token, north(20));
+    // Found: erased too.
+    expect((await User.findById(user._id).lean()).randomDraw.trendRef).toBeNull();
+  });
+
+  test('a hunt left over from the old clue mode keeps working', async () => {
+    await seedTarget();
+    const { token, user } = await createAuthedUser();
+    await User.updateOne({ _id: user._id }, { $set: { randomDraw: {
+      slug: 'target', drawnAt: new Date(), mode: 'hidden', bonusUsed: false, labelOrder: ['church', 'gothic'],
+      misses: [{ distance: 1500, direction: 'S' }, { skipped: true }],
+    } } });
+    // One miss (a full step) and one skip (counted as a clue, half a step);
+    // its first clue is its first label.
+    const h = (await status(token, north(800))).body.hunt;
+    expect(h).toMatchObject({ multiplier: 5, presses: 1, misses: [{ direction: 'S' }], labels: ['church'], quarter: 'Staré Město' });
+    const hit = await guess(token, north(20));
+    expect(hit.body).toMatchObject({ xpEarned: 100, guessAttempt: 2 });
   });
 
   test('one hunt per 24h: starting again hands back the running one', async () => {
@@ -362,94 +512,34 @@ describe('treasure hunt', () => {
     await seedTarget();
     const { token, user } = await createAuthedUser();
     await User.updateOne({ _id: user._id }, { $set: { randomDraw: { slug: 'target', drawnAt: new Date(), mode: 'open', bonusUsed: false } } });
-    const status = await request(app).get('/api/user/random-draw').set('Authorization', `Bearer ${token}`);
-    expect(status.body).toMatchObject({ active: false, canDraw: true });
-    expect(status.body.lastHunt).toBeUndefined();
+    const res = await status(token);
+    expect(res.body).toMatchObject({ active: false, canDraw: true });
+    expect(res.body.lastHunt).toBeUndefined();
     expect((await checkIn(token, 'target')).body.xpEarned).toBe(20);
   });
 
-  test('an expired unsolved hunt reveals its answer', async () => {
+  test('an expired unsolved hunt reveals its answer and drops the reference point', async () => {
     await seedTarget();
     const { token, user } = await createAuthedUser();
     await startHunt(token);
+    await status(token, north(2000));
     await User.updateOne({ _id: user._id }, { $set: { 'randomDraw.drawnAt': new Date(Date.now() - 25 * 3600 * 1000) } });
-    const res = await request(app).get('/api/user/random-draw').set('Authorization', `Bearer ${token}`);
+    const res = await status(token);
     expect(res.body.active).toBe(false);
     expect(res.body.canDraw).toBe(true);
     expect(res.body.lastHunt.location.slug).toBe('target');
+    expect((await User.findById(user._id).lean()).randomDraw.trendRef).toBeNull();
     // After it lapses, a normal check-in is plain 1x.
     expect((await checkIn(token, 'target')).body.xpEarned).toBe(20);
   });
-});
 
-describe('POST /api/user/random-draw/reroll', () => {
-  const reroll = (token, body = {}) =>
-    request(app).post('/api/user/random-draw/reroll').set('Authorization', `Bearer ${token}`).send(body);
-  const draw = (token, body = {}) =>
-    request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${token}`).send(body);
-
-  async function seedTwo() {
-    for (const slug of ['one', 'two']) {
-      await Location.create({ name: slug, slug, coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10, labels: ['church'], quarter: 'Staré Město', district: 'Praha 1' });
+  test('the old re-roll, skip and hardcore routes are gone', async () => {
+    await seedTarget();
+    const { token } = await createAuthedUser();
+    await startHunt(token);
+    for (const path of ['/api/user/random-draw/reroll', '/api/user/random-draw/skip', '/api/user/hardcore-hunt']) {
+      expect((await request(app).post(path).set('Authorization', `Bearer ${token}`).send({})).status).toBe(404);
     }
-  }
-
-  test('swaps the card once, keeping the 24h window', async () => {
-    await seedTwo();
-    const { token } = await createAuthedUser();
-    const slugNow = async () => (await User.findOne({}).lean()).randomDraw.slug;
-    const first = await draw(token);
-    expect(first.body.canReroll).toBe(true);
-    const firstSlug = await slugNow();
-
-    const second = await reroll(token);
-    expect(second.status).toBe(200);
-    expect(await slugNow()).not.toBe(firstSlug);
-    expect(second.body.expiresAt).toBe(first.body.expiresAt);
-    expect(second.body.canReroll).toBe(false);
-
-    expect((await reroll(token)).status).toBe(409);
-  });
-
-  test('a treasure hunt starts over after a re-roll', async () => {
-    await seedTwo();
-    const { token, user } = await createAuthedUser();
-    await draw(token);
-    await request(app).post('/api/user/random-draw/guess').set('Authorization', `Bearer ${token}`)
-      .send({ lat: CHARLES_BRIDGE.lat + 1500 / 111195, lng: CHARLES_BRIDGE.lng });
-    // Push the original draw back 3 h.
-    await User.updateOne({ _id: user._id }, { $set: {
-      'randomDraw.drawnAt': new Date(Date.now() - 3 * 3600 * 1000),
-      'randomDraw.rolledAt': new Date(Date.now() - 3 * 3600 * 1000),
-    } });
-
-    const res = await reroll(token);
-    expect(res.body.mode).toBe('hidden');
-    expect(res.body.location).toBeNull();
-    expect(res.body.hunt).toMatchObject({ attempt: 1, misses: [] });
-    expect(new Date(res.body.expiresAt).getTime()).toBeLessThan(Date.now() + 22 * 3600 * 1000);
-  });
-
-  test('not after the card is collected, and not without a draw', async () => {
-    await seedTwo();
-    const { token } = await createAuthedUser();
-    expect((await reroll(token)).status).toBe(409);
-    await draw(token);
-    const { randomDraw } = await User.findOne({}).lean();
-    await checkIn(token, randomDraw.slug);
-    expect((await reroll(token)).status).toBe(409);
-  });
-
-  test('fails cleanly when no other card is left', async () => {
-    await Location.create({ name: 'only', slug: 'only', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10, labels: ['church'], quarter: 'Staré Město' });
-    const { token } = await createAuthedUser();
-    await draw(token);
-    const res = await reroll(token);
-    expect(res.status).toBe(409);
-    const status = await request(app).get('/api/user/random-draw').set('Authorization', `Bearer ${token}`);
-    expect(status.body.active).toBe(true);
-    expect(status.body.canReroll).toBe(true);
-    expect((await User.findOne({}).lean()).randomDraw.slug).toBe('only');
   });
 });
 
@@ -546,153 +636,5 @@ describe('GET /api/user/explorers/:username', () => {
     for (const name of ['admin000', 'newbie', 'nobody']) {
       expect((await request(app).get(`/api/user/explorers/${name}`)).status).toBe(404);
     }
-  });
-});
-
-describe('hardcore treasure hunt', () => {
-  const north = m => ({ lat: CHARLES_BRIDGE.lat + m / 111195, lng: CHARLES_BRIDGE.lng });
-  const seedTarget = (extra = {}) => Location.create({
-    name: 'Target', slug: 'target', coordinates: CHARLES_BRIDGE, rarity: 'rare', xpReward: 20,
-    labels: ['church', 'gothic'], quarter: 'Staré Město', district: 'Praha 1', ...extra,
-  });
-  const start = (token, pos) => request(app).post('/api/user/hardcore-hunt').set('Authorization', `Bearer ${token}`).send(pos || {});
-  const status = (token, pos) => request(app).get('/api/user/hardcore-hunt').query(pos).set('Authorization', `Bearer ${token}`);
-  const press = (token, pos) => request(app).post('/api/user/hardcore-hunt/guess').set('Authorization', `Bearer ${token}`).send(pos);
-
-  test('gives no clues at all from afar, only a rough distance', async () => {
-    await seedTarget();
-    const { token } = await createAuthedUser();
-    const res = await start(token, north(12000));
-    expect(res.body.active).toBe(true);
-    expect(res.body.location).toBeUndefined();
-    expect(res.body.hunt).toMatchObject({ attempt: 1, maxAttempts: 3, multiplier: 10, labels: [], quarter: null, rarity: null, canGuess: false });
-    expect(res.body.hunt.reading).toEqual({ over: 10000 });
-    expect((await status(token, north(4400))).body.hunt.reading).toEqual({ about: 4000 });
-    expect((await status(token, north(2300))).body.hunt.reading).toEqual({ about: 2500 });
-    expect(JSON.stringify(res.body)).not.toContain('target');
-  });
-
-  test('keeps no position for a miss, and drops the trend reference point when consent is withdrawn', async () => {
-    await seedTarget();
-    const { token, user } = await createAuthedUser();
-    await start(token);
-    await status(token, north(2000));
-    expect((await User.findById(user._id).lean()).hardcoreDraw.trendRef).toMatchObject({ distance: 2000 });
-
-    await press(token, north(300));
-    const afterMiss = await User.collection.findOne({ _id: (await User.findById(user._id))._id });
-    expect(afterMiss.hardcoreDraw.misses).toHaveLength(1);
-    expect(afterMiss.hardcoreDraw.misses[0].lat).toBeUndefined();
-    expect(afterMiss.hardcoreDraw.misses[0].lng).toBeUndefined();
-
-    await request(app).put('/api/user/location-consent').set('Authorization', `Bearer ${token}`).send({ granted: false, version: 1 });
-    const after = await User.findById(user._id).lean();
-    expect(after.hardcoreDraw.trendRef).toBeNull();
-    expect(after.hardcoreDraw.misses).toHaveLength(1); // the hunt itself goes on
-    expect(after.locationConsent).toMatchObject({ granted: false, version: 1 });
-  });
-
-  test('reveals a label and the quarter within 1 km, more within 500 m, and keeps them', async () => {
-    await seedTarget();
-    const { token } = await createAuthedUser();
-    await start(token);
-    const at800 = (await status(token, north(800))).body.hunt;
-    expect(at800).toMatchObject({ reading: { about: 800 }, quarter: 'Staré Město', rarity: null, canGuess: false });
-    expect(at800.labels).toHaveLength(1);
-    const at350 = (await status(token, north(350))).body.hunt;
-    expect(at350).toMatchObject({ reading: { about: 400 }, rarity: 'rare', canGuess: true });
-    expect(at350.labels).toHaveLength(2);
-    // Walking away again keeps what was revealed.
-    const back = (await status(token, north(5000))).body.hunt;
-    expect(back).toMatchObject({ quarter: 'Staré Město', rarity: 'rare', canGuess: false });
-    expect(back.labels).toHaveLength(2);
-  });
-
-  test('three misses end the hunt and reveal the answer', async () => {
-    await seedTarget();
-    const { token } = await createAuthedUser();
-    await start(token);
-    expect((await press(token, north(800))).status).toBe(403);
-    const m1 = await press(token, north(300));
-    expect(m1.body).toMatchObject({ hit: false, hunt: { hunt: { attempt: 2, multiplier: 5 } } });
-    await press(token, north(300));
-    const m3 = await press(token, north(300));
-    expect(m3.body.hunt).toMatchObject({ failed: true, location: { slug: 'target' } });
-    expect((await press(token, north(10))).status).toBe(409);
-  });
-
-  test('a hit pays the press multiplier and is marked hardcore', async () => {
-    await seedTarget();
-    const { token, user } = await createAuthedUser();
-    await start(token);
-    await press(token, north(300));
-    const hit = await press(token, north(20));
-    expect(hit.status).toBe(201);
-    expect(hit.body).toMatchObject({ hit: true, xpEarned: 100, guessAttempt: 2 });
-    expect(hit.body.hunt).toMatchObject({ found: true, solvedAttempt: 2 });
-    const detail = await request(app).get('/api/locations/target').set('Authorization', `Bearer ${token}`);
-    expect(detail.body).toMatchObject({ guessAttempt: 2, huntMode: 'hardcore' });
-    expect((await User.findById(user._id)).totalXP).toBe(100);
-  });
-
-  test('reveals the river side within 3 km and keeps it', async () => {
-    await seedTarget();
-    const { token } = await createAuthedUser();
-    expect((await start(token, north(5000))).body.hunt.riverSide).toBeNull();
-    expect((await status(token, north(2500))).body.hunt.riverSide).toBe('oldTown');
-    expect((await status(token, north(6000))).body.hunt.riverSide).toBe('oldTown');
-  });
-
-  test('says closer or farther after each step outside 1 km, nothing inside it', async () => {
-    await seedTarget();
-    const { token } = await createAuthedUser();
-    expect((await start(token, north(5000))).body.hunt.trend).toBeNull();
-    // Less than a step away: no verdict yet.
-    expect((await status(token, north(4950))).body.hunt.trend).toBeNull();
-    expect((await status(token, north(4850))).body.hunt.trend).toBe('closer');
-    expect((await status(token, north(5100))).body.hunt.trend).toBe('farther');
-    // Sideways, the distance barely changes.
-    const side = { lat: north(5100).lat, lng: CHARLES_BRIDGE.lng + 200 / (111195 * Math.cos(CHARLES_BRIDGE.lat * Math.PI / 180)) };
-    expect((await status(token, side)).body.hunt.trend).toBe('same');
-    expect((await status(token, north(800))).body.hunt.trend).toBeNull();
-  });
-
-  test('only one mode at a time: neither starts while the other is being played', async () => {
-    await seedTarget();
-    await Location.create({ name: 'Other', slug: 'other', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10, labels: ['park'], quarter: 'Staré Město', district: 'Praha 1' });
-    const { token } = await createAuthedUser();
-    const clue = (t2) => request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${t2}`).send({});
-    expect((await clue(token)).body.active).toBe(true);
-    expect((await status(token)).body).toMatchObject({ active: false, blockedBy: 'clues' });
-    const blocked = await start(token);
-    expect(blocked.status).toBe(409);
-    expect(blocked.body.blockedBy).toBe('clues');
-
-    const { token: t2 } = await createAuthedUser();
-    expect((await start(t2)).body.active).toBe(true);
-    const draw = await request(app).get('/api/user/random-draw').set('Authorization', `Bearer ${t2}`);
-    expect(draw.body.blockedBy).toBe('hardcore');
-    expect((await clue(t2)).status).toBe(409);
-  });
-
-  test('the other mode may start once a hunt is over', async () => {
-    await seedTarget();
-    await Location.create({ name: 'Other', slug: 'other', coordinates: CHARLES_BRIDGE, rarity: 'common', xpReward: 10, labels: ['park'], quarter: 'Staré Město', district: 'Praha 1' });
-    const { token } = await createAuthedUser();
-    await start(token);
-    await press(token, north(20)); // both cards sit on the same spot, so this hits
-    const clue = await request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${token}`).send({});
-    expect(clue.body.active).toBe(true);
-  });
-});
-
-describe('hardcore hunt pool', () => {
-  test('leaves bridges and islands out, like the classic hunt', async () => {
-    await Location.create({ name: 'Charles Bridge', slug: 'charles-bridge', coordinates: CHARLES_BRIDGE, rarity: 'legend', xpReward: 100, labels: ['bridge'], quarter: 'Staré Město' });
-    const { token } = await createAuthedUser();
-    const classic = await request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${token}`).send({});
-    expect(classic.body.noneLeft).toBe(true);
-    const hard = await request(app).post('/api/user/hardcore-hunt').set('Authorization', `Bearer ${token}`).send({});
-    expect(hard.body.noneLeft).toBe(true);
   });
 });

@@ -20,17 +20,23 @@ const userSchema = new mongoose.Schema({
     slug:      { type: String, default: null },
     drawnAt:   { type: Date, default: null },
     bonusUsed: { type: Boolean, default: false }, // the treasure was found
-    // Always 'hidden' (a treasure hunt, see HIDDEN_DRAW_* in gamification.js).
+    // Always 'hidden' (a treasure hunt, see HUNT_* in gamification.js).
     // 'open' (location revealed, 3x XP) is retired but kept valid for old
     // documents; such a draw counts as no draw at all.
     mode:      { type: String, enum: ['open', 'hidden'], default: 'hidden' },
-    // Hidden mode: the card's labels in the random order they get revealed
-    // (one, then two from the third guess, then all on the last).
+    // The card's labels in the order orderHuntLabels gives (kept for hunts
+    // dealt before firstClue existed, whose first clue is labelOrder[0]).
     labelOrder: { type: [String], default: undefined },
-    // Hidden mode: wrong guesses so far, with the target's direction and
-    // exact distance from the spot pressed. The spot itself is not kept
-    // (nothing reads it; GDPR data minimisation). A skipped guess ("give up
-    // this round for clues") is stored as { skipped: true } only.
+    // The clues planned when the hunt is dealt (planHuntClues): the first
+    // clue (the rarity or one label, revealed within 3 km), the label the
+    // label clue shows, and whether the area clue includes the quarter.
+    firstClue: { kind: { type: String, enum: ['rarity', 'label'] }, value: String },
+    clueLabel: { type: String, default: null },
+    showQuarter: { type: Boolean, default: true },
+    // Presses that missed, with the treasure's direction from the spot
+    // pressed. The spot itself is not kept (GDPR data minimisation). Each
+    // miss costs a full step on HUNT_MULTIPLIERS. `skipped` entries come
+    // from the old clue hunt's "give up this round" and count as a clue.
     misses: {
       type: [{
         distance: Number,
@@ -41,40 +47,29 @@ const userSchema = new mongoose.Schema({
       }],
       default: undefined,
     },
-    solvedAttempt: { type: Number, default: null },
-    // One re-roll per draw (i.e. per day): swaps the card but keeps drawnAt,
-    // so the 24h window doesn't restart. rolledAt is when the current card
-    // was dealt.
-    rerolled:  { type: Boolean, default: false },
-    rolledAt:  { type: Date, default: null },
-    _id: false,
-  },
-  // Hardcore treasure hunt (see HARDCORE_* in gamification.js): separate
-  // from randomDraw, with its own 24h window.
-  hardcoreDraw: {
-    slug:      { type: String, default: null },
-    drawnAt:   { type: Date, default: null },
-    found:     { type: Boolean, default: false },
-    failed:    { type: Boolean, default: false }, // all three presses missed
-    // Labels in a random reveal order: the first at 1 km, the second at 500 m.
-    labelOrder: { type: [String], default: undefined },
-    // How close the player has been: 0, 1 (within 1 km) or 2 (within 500 m).
-    // Only ever goes up, so revealed clues stay revealed.
-    revealed:  { type: Number, default: 0 },
-    // Has been within 3 km: the river side is shown. Only ever goes up.
-    sideRevealed: { type: Boolean, default: false },
-    // Hot-and-cold hint outside 1 km: where the last reading was taken, and
-    // whether the one after it was 'closer', 'farther' or 'same'.
-    trendRef: { lat: Number, lng: Number, distance: Number },
-    trend: { type: String, default: null },
-    // Presses that missed; only the count is read, so no position is kept.
-    misses: {
-      type: [{ distance: Number, at: { type: Date, default: Date.now }, _id: false }],
+    // Clues taken (HUNT_CLUES), half a step each, once each. The direction
+    // snapshot keeps what it said then (never the position it was taken at).
+    clues: {
+      type: [{ key: String, direction: String, at: { type: Date, default: Date.now }, _id: false }],
       default: undefined,
     },
+    // How close the player has been: 0, 1 (within 3 km: the first clue), 2
+    // (within 1 km: the area too) or 3 (within 300 m: the other of rarity
+    // and label). Only ever goes up.
+    revealed: { type: Number, default: 0 },
+    // Hot-and-cold hint: where the last reading was taken, and
+    // whether the one after it was 'closer', 'farther' or 'same'. The only
+    // position the server keeps; cleared when the hunt ends or location
+    // consent is withdrawn.
+    trendRef: { lat: Number, lng: Number, distance: Number },
+    trend: { type: String, default: null },
+    // Which press found it (1 = first press).
     solvedAttempt: { type: Number, default: null },
     _id: false,
   },
+  // The separate hardcore hunt (2026-10-15 to 2026-10-29) was merged into
+  // randomDraw; leftover hardcoreDraw data is removed by
+  // purgeHuntPositions.js.
   // Where the user last was in the History Timeline feed, so /history can
   // reopen at that event on any device. `updatedAt` lets the client pick
   // between this and its own localStorage copy, whichever is newer.

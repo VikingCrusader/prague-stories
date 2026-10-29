@@ -124,3 +124,16 @@ describe('sound', () => {
     });
   });
 });
+
+describe('treasure hunt sounds', () => {
+  beforeEach(() => jest.resetModules());
+
+  test('never throw, even without Web Audio', () => {
+    delete window.AudioContext;
+    delete window.webkitAudioContext;
+    const sound = require('../utils/sound');
+    for (const fn of ['unlockAudio', 'playShuffleSound', 'playClueSound', 'playMissSound', 'playHuntWinSound']) {
+      expect(() => sound[fn]()).not.toThrow();
+    }
+  });
+});

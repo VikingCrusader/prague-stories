@@ -1,7 +1,7 @@
 import CheckIn from '../models/CheckIn.js';
 import Location from '../models/Location.js';
 import User from '../models/User.js';
-import { evaluateAchievements, calculateLevel, RANDOM_DRAW_WINDOW_MS, huntXp, HISTORY_LABELS, isHardcoreLive, hardcoreXp } from '../services/gamification.js';
+import { evaluateAchievements, calculateLevel, RANDOM_DRAW_WINDOW_MS, huntXp, huntStepOf, huntMissCount, HISTORY_LABELS } from '../services/gamification.js';
 import { haversineDistance } from '../utils/geo.js';
 
 const MAX_DISTANCE_METERS = 100;
@@ -39,8 +39,8 @@ export async function checkIn(req, res, next) {
     }
     // Treasure hunt: this location is the user's hidden target, still within
     // its 24h window and not yet found. Collecting it here (e.g. from
-    // Explore) counts as a hit on the current guess. (Draws from the retired
-    // open mode, mode 'open', no longer pay a bonus.)
+    // Explore) counts as a hit on the next press, at the current multiplier.
+    // (Draws from the retired open mode, mode 'open', no longer pay a bonus.)
     const user = await User.findById(req.user._id);
     const draw = user.randomDraw || {};
     const drawActive = draw.slug === location.slug
@@ -48,22 +48,15 @@ export async function checkIn(req, res, next) {
       && Date.now() - new Date(draw.drawnAt).getTime() < RANDOM_DRAW_WINDOW_MS
       && !draw.bonusUsed
       && draw.mode === 'hidden';
-    // Same for a hardcore hunt's target: a hit on its current press.
-    const hardcore = !drawActive && isHardcoreLive(user.hardcoreDraw) && user.hardcoreDraw.slug === location.slug;
     let xpEarned = location.xpReward;
     let guessAttempt;
-    let huntMode;
     if (drawActive) {
-      guessAttempt = (draw.misses?.length || 0) + 1;
-      xpEarned = huntXp(location.xpReward, guessAttempt);
-    } else if (hardcore) {
-      guessAttempt = (user.hardcoreDraw.misses?.length || 0) + 1;
-      xpEarned = hardcoreXp(location.xpReward, guessAttempt);
-      huntMode = 'hardcore';
+      guessAttempt = huntMissCount(draw) + 1;
+      xpEarned = huntXp(location.xpReward, huntStepOf(draw));
     }
 
-    const result = await recordCheckIn(user, location, { note, xpEarned, guessAttempt, huntMode });
-    res.status(201).json({ message: 'Checked in!', bonusApplied: !!(drawActive || hardcore), ...result });
+    const result = await recordCheckIn(user, location, { note, xpEarned, guessAttempt });
+    res.status(201).json({ message: 'Checked in!', bonusApplied: drawActive, ...result });
   } catch (err) {
     next(err);
   }
@@ -73,8 +66,8 @@ export async function checkIn(req, res, next) {
 // its location, evaluates achievements and saves the user. `user` must be a
 // full (non-lean) User document. Shared by the normal check-in and the
 // treasure hunt's guess endpoint.
-export async function recordCheckIn(user, location, { note = '', xpEarned, guessAttempt, huntMode } = {}) {
-  await CheckIn.create({ user: user._id, location: location._id, note: note || '', xpEarned, guessAttempt, huntMode });
+export async function recordCheckIn(user, location, { note = '', xpEarned, guessAttempt } = {}) {
+  await CheckIn.create({ user: user._id, location: location._id, note: note || '', xpEarned, guessAttempt });
 
   // Award XP
   user.totalXP += xpEarned;
@@ -82,14 +75,10 @@ export async function recordCheckIn(user, location, { note = '', xpEarned, guess
       && user.randomDraw.drawnAt
       && Date.now() - new Date(user.randomDraw.drawnAt).getTime() < RANDOM_DRAW_WINDOW_MS) {
     user.randomDraw.bonusUsed = true;
-    if (guessAttempt && !huntMode) user.randomDraw.solvedAttempt = guessAttempt;
-  }
-  if (isHardcoreLive(user.hardcoreDraw) && user.hardcoreDraw.slug === location.slug) {
-    user.hardcoreDraw.found = true;
-    if (huntMode === 'hardcore') user.hardcoreDraw.solvedAttempt = guessAttempt;
+    if (guessAttempt) user.randomDraw.solvedAttempt = guessAttempt;
     // The hunt is over: drop the hot-and-cold reference point (a position).
-    user.hardcoreDraw.trendRef = null;
-    user.hardcoreDraw.trend = null;
+    user.randomDraw.trendRef = null;
+    user.randomDraw.trend = null;
   }
 
   // Gather stats for achievement evaluation
@@ -137,7 +126,6 @@ export async function recordCheckIn(user, location, { note = '', xpEarned, guess
   return {
     xpEarned,
     guessAttempt: guessAttempt ?? null,
-    huntMode: huntMode ?? null,
     totalXP: user.totalXP,
     levelInfo,
     newAchievements,

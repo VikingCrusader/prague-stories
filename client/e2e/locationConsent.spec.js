@@ -40,7 +40,7 @@ test('asks before any location request, and "Not now" keeps the GPS untouched', 
 
   const saved = page.waitForRequest('**/api/user/location-consent');
   await dialog.getByRole('button', { name: 'Not now' }).click();
-  expect(JSON.parse((await saved).postData())).toEqual({ granted: false, version: 1 });
+  expect(JSON.parse((await saved).postData())).toEqual({ granted: false, version: 2 });
   await expect(dialog).toBeHidden();
 
   await page.reload();
@@ -61,7 +61,7 @@ test('location is used only after "Allow", and can be withdrawn on the Privacy p
   // (Signing in again on the reload also saves the earlier "allow".)
   const saved = page.waitForRequest(r => r.url().endsWith('/api/user/location-consent') && r.postData()?.includes('"granted":false'));
   await page.getByRole('button', { name: 'Withdraw consent' }).click();
-  expect(JSON.parse((await saved).postData())).toEqual({ granted: false, version: 1 });
+  expect(JSON.parse((await saved).postData())).toEqual({ granted: false, version: 2 });
   await expect(page.getByText(/^Turned off since/)).toBeVisible();
 
   await page.goto('/explore');

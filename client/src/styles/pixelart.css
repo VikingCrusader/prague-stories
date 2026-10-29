@@ -1803,11 +1803,11 @@ html[data-lang="zh"] .detail-title-name {
 .draw-stage__card .loc-card__body { flex: 0 0 auto; }
 .draw-mode-hint { text-align: center; max-width: 420px; color: var(--text-muted); font-size: 15px; margin: 0; }
 
-/* Treasure hunt rules: the per-guess table (HuntClueTable). Scrolls
-   sideways on its own on narrow screens rather than widening the page. */
+/* Treasure hunt rules: the clue table (HuntClueTable). Scrolls sideways
+   on its own on narrow screens rather than widening the page. */
 .hunt-table-wrap { margin: 4px 0 14px 38px; }
 .hunt-table-scroll { overflow-x: auto; }
-.hunt-table-scroll > .hunt-table { min-width: 520px; }
+.hunt-table-scroll > .hunt-table { min-width: 340px; }
 .hunt-table {
   width: 100%;
   border-collapse: collapse;
@@ -1869,19 +1869,16 @@ html[data-lang="zh"] .detail-title-name {
 .hunt-panel__square { font-size: 16px; text-align: center; color: var(--text-primary); }
 .hunt-panel__distance { font-family: var(--ui-font-text); font-size: 20px; font-weight: 600; color: var(--text-primary); text-align: center; }
 .hunt-panel__flash { font-size: 15px; text-align: center; }
-.hunt-panel__range { font-size: 14px; color: var(--text-muted); text-align: center; margin-top: -4px; }
-/* "Give up this round, take the clues": a quiet secondary action under the guess button. */
-.hunt-panel__skip { font-size: 14px; padding: 6px 14px; margin-top: 4px; }
+.hunt-panel__hint { font-size: 14px; color: var(--text-muted); text-align: center; margin-top: -4px; }
+/* "Take a clue": a quiet secondary action under the guess button. */
+.hunt-panel__clue { font-size: 14px; padding: 6px 14px; margin-top: 4px; }
 .hunt-panel__flash--miss { color: #e0a040; }
 .hunt-panel__flash--error { color: #e05050; }
 .hunt-panel__confirm { display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center; }
 .hunt-panel__confirm-buttons { display: flex; gap: 10px; }
+.hunt-panel__clue-choices { flex-wrap: wrap; justify-content: center; }
 .hunt-panel .px-btn:disabled { opacity: 0.45; cursor: not-allowed; box-shadow: none; transform: none; }
 .hunt-found { text-align: center; color: var(--gold); }
-/* One re-roll per draw, under the countdown. */
-.draw-reroll { display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center; max-width: 420px; }
-.draw-reroll__ask { font-size: 15px; color: var(--text-muted); }
-.draw-reroll__buttons { display: flex; gap: 10px; }
 .draw-countdown {
   font-size: 15px;
   color: var(--text-muted);
@@ -2385,26 +2382,3 @@ html[data-lang="zh"] .detail-title-name {
   pointer-events: none;
 }
 @media (hover: hover) and (pointer: fine) { .card-showcase__hint { display: none; } }
-
-/* Treasure hunt page: Classic / Hardcore mode switch. */
-.hunt-tabs {
-  display: flex;
-  justify-content: center;
-  gap: 0;
-  margin: 18px auto 6px;
-  width: fit-content;
-  border: 2px solid var(--border);
-}
-.hunt-tabs__tab {
-  padding: 8px 22px;
-  font-family: var(--ui-font);
-  font-size: 15px;
-  font-weight: 700;
-  background: var(--bg-surface);
-  color: var(--text-muted);
-  border: none;
-  cursor: pointer;
-}
-.hunt-tabs__tab + .hunt-tabs__tab { border-left: 2px solid var(--border); }
-.hunt-tabs__tab:hover { color: var(--text-primary); }
-.hunt-tabs__tab--active { background: color-mix(in srgb, var(--gold) 14%, transparent); color: var(--gold); }

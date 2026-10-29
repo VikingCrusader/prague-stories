@@ -49,13 +49,9 @@ export const userAPI = {
   getRandomDraw:    (pos) => api.get('/user/random-draw', { params: pos ? { lat: pos.lat, lng: pos.lng } : undefined }),
   // Starts a treasure hunt (the route name dates from the retired open draw).
   drawRandomLocation: (pos) => api.post('/user/random-draw', { ...(pos || {}) }),
-  rerollDraw:       (pos) => api.post('/user/random-draw/reroll', { ...(pos || {}) }),
   guessTreasure:    (pos) => api.post('/user/random-draw/guess', pos),
-  skipTreasure:     (pos) => api.post('/user/random-draw/skip', { ...(pos || {}) }),
-  // Hardcore treasure hunt (separate from the classic one above).
-  getHardcoreHunt:  (pos) => api.get('/user/hardcore-hunt', { params: pos ? { lat: pos.lat, lng: pos.lng } : undefined }),
-  startHardcoreHunt: (pos) => api.post('/user/hardcore-hunt', { ...(pos || {}) }),
-  guessHardcoreHunt: (pos) => api.post('/user/hardcore-hunt/guess', pos),
+  // Takes a clue ('labels', 'direction' or 'distance') for half a step of multiplier.
+  takeHuntClue:     (key, pos) => api.post('/user/random-draw/clue', { key, ...(pos || {}) }),
   getTreasures:     () => api.get('/user/treasures'),
   getHistoryProgress:  ()     => api.get('/user/history-progress'),
   saveHistoryProgress: (slug) => api.put('/user/history-progress', { slug }),

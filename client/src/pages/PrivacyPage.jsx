@@ -21,7 +21,7 @@ const POLICY = {
     ] },
     { h: 'Your location', ps: [
       'The app only reads your device\'s location after you have agreed to it, and only while the app is open. It is used to check you in at a place, to play the treasure hunts, to alert you when an undiscovered place is near (if you are signed in) and to show where you are on the map. The legal basis is your consent (art. 6(1)(a) GDPR).',
-      'At a check-in or a treasure-hunt guess, your position is sent to our server to confirm that you are there. It is not stored with the check-in. During a treasure hunt the server works out the clues from your current position, and in the hardcore hunt it keeps one reference point for the "warmer / colder" hint, which is deleted when the hunt ends or when you withdraw consent. Which district and quarter you are in is worked out on your device and never sent. Your position is never sold, shared or used for advertising.',
+      'At a check-in or a treasure-hunt guess, your position is sent to our server to confirm that you are there. It is not stored with the check-in. During a treasure hunt the server works out the clues from your current position and keeps one reference point for the "warmer / colder" hint, which is deleted when the hunt ends or when you withdraw consent. Which district and quarter you are in is worked out on your device and never sent. Your position is never sold, shared or used for advertising.',
       'Location is optional. Without it you can still browse every card, the map and the history, but you cannot collect cards or play the treasure hunts. You can withdraw your consent at any time at the top of this page; that does not affect what was done before. If you are under 15, please ask a parent before agreeing.',
     ] },
     { h: 'Your account', ps: [
@@ -44,7 +44,7 @@ const POLICY = {
     ] },
     { h: 'Tvoje poloha', ps: [
       'Aplikace čte polohu tvého zařízení až poté, co s tím souhlasíš, a jen když je otevřená. Slouží k zápisu návštěvy místa, k hledání pokladů, k upozornění na neobjevené místo poblíž (po přihlášení) a k zobrazení tvé polohy na mapě. Právním základem je tvůj souhlas (čl. 6 odst. 1 písm. a) GDPR).',
-      'Při zápisu návštěvy nebo tipu při hledání pokladu se tvoje poloha pošle na náš server, aby ověřil, že jsi na místě. K návštěvě se neukládá. Během hledání pokladu server počítá nápovědy z tvé aktuální polohy a v hardcore režimu si drží jeden referenční bod pro nápovědu „přihořívá / samá voda“, který se smaže, když hledání skončí nebo když souhlas odvoláš. Ve které městské části a čtvrti jsi, se počítá jen v tvém zařízení a nikam se neposílá. Tvoji polohu nikdy neprodáváme, nesdílíme ani nepoužíváme k reklamě.',
+      'Při zápisu návštěvy nebo tipu při hledání pokladu se tvoje poloha pošle na náš server, aby ověřil, že jsi na místě. K návštěvě se neukládá. Během hledání pokladu server počítá nápovědy z tvé aktuální polohy a drží si jeden referenční bod pro nápovědu „přihořívá / samá voda“, který se smaže, když hledání skončí nebo když souhlas odvoláš. Ve které městské části a čtvrti jsi, se počítá jen v tvém zařízení a nikam se neposílá. Tvoji polohu nikdy neprodáváme, nesdílíme ani nepoužíváme k reklamě.',
       'Poloha je dobrovolná. Bez ní si dál můžeš prohlížet všechny karty, mapu i historii, ale nemůžeš sbírat karty ani hledat poklady. Souhlas můžeš kdykoli odvolat nahoře na této stránce; na tom, co proběhlo předtím, to nic nemění. Je-li ti méně než 15 let, zeptej se před souhlasem rodičů.',
     ] },
     { h: 'Tvůj účet', ps: [
@@ -67,7 +67,7 @@ const POLICY = {
     ] },
     { h: '你的位置', ps: [
       '只有在你同意之后，应用才会读取设备的位置，而且只在应用打开时读取。位置用于在地点打卡、玩寻宝、在附近有未发现的地点时提醒你（登录后），以及在地图上显示你在哪里。法律依据是你的同意（GDPR 第6条第1款(a)项）。',
-      '打卡或寻宝猜测时，你的位置会发送到我们的服务器，以确认你确实在现场，但不会随打卡记录保存。寻宝进行中，服务器根据你当前的位置计算线索；硬核模式下，服务器会保留一个参考点用于“变近／变远”提示，寻宝结束或你撤回同意时即删除。你所在的区和片区只在你的设备上计算，不会发送出去。你的位置绝不会被出售、分享或用于广告。',
+      '打卡或寻宝猜测时，你的位置会发送到我们的服务器，以确认你确实在现场，但不会随打卡记录保存。寻宝进行中，服务器根据你当前的位置计算线索，并保留一个参考点用于“变近／变远”提示，寻宝结束或你撤回同意时即删除。你所在的区和片区只在你的设备上计算，不会发送出去。你的位置绝不会被出售、分享或用于广告。',
       '定位是可选的。不开定位，你仍然可以浏览所有卡片、地图和历史，但无法收集卡片，也无法玩寻宝。你可以随时在本页顶部撤回同意，撤回不影响此前已进行的处理。如果你未满15岁，请先征得父母同意。',
     ] },
     { h: '你的账户', ps: [
