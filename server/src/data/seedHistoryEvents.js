@@ -24016,6 +24016,68 @@ export const historyEvents = [
     ],
     wikipediaUrl: "https://cs.wikipedia.org/wiki/Klementinum",
   },
+  // Background: the Jesuits. Rule 13 of the Rules for Thinking with the Church
+  // (Spiritual Exercises [365], Spanish autograph: "lo blanco que yo veo, creer
+  // que es negro, si la Iglesia hierárquica así lo determina"), translated only.
+  // The cadaver line is the Latin of the Constitutions, part VI, ch. 1 [547],
+  // opening words "Et sibi quisque persuadeat, quod" left off. Campion in Prague
+  // (Klementinum, rhetoric, school plays, 1574–1580) per en.wikipedia and the
+  // GAČR project GAP409/12/0952.
+  {
+    "slug": "who-were-the-jesuits-1556",
+    "era": "habsburgs-move-in",
+    "cardType": "background",
+    "startYear": 1556.5,
+    "tone": "humorous",
+    "year": {
+      "en": "Founded 1540",
+      "cz": "Založeno 1540",
+      "zh": "1540年成立"
+    },
+    "title": {
+      "en": "Who Were the Jesuits?",
+      "cz": "Kdo byli jezuité?",
+      "zh": "耶稣会是什么"
+    },
+    "hookLine": {
+      "en": "An order founded by a wounded soldier: it ran schools, heard kings' confessions and got as far as Beijing.",
+      "cz": "Řád, který založil raněný voják: vedl školy, zpovídal krále a dostal se až do Pekingu.",
+      "zh": "一个伤兵创办的修会：办学校，听国王告解，一直走到了北京。"
+    },
+    "summary": {
+      "en": "In May 1521 a French cannonball smashed the legs of a Basque nobleman defending the fortress of Pamplona. His name was Íñigo of Loyola, and until then he had cared mostly about fighting, fame and fine clothes. Laid up for months, he asked for romances of chivalry to pass the time. The house had only a life of Christ and a book of saints' lives. He read them, and he got up a different man.\n\nIgnatius, as he later called himself, went back to school as a grown man, first in Spain and then in Paris, where he gathered six friends. In 1534, on the hill of Montmartre, they vowed their lives to God. In 1540 Pope Paul III approved their order, the Society of Jesus. Outsiders called its members Jesuits, at first not entirely as a compliment.\n\nIt was not like the old orders. Jesuits did not sing the hours together in choir, and they wore no habit of their own. At the top stood a general in Rome, elected for life. On top of the usual vows of poverty, chastity and obedience, the senior members took a fourth: to go wherever the pope sent them, without delay. [[b]]A monk prayed behind his monastery walls; a Jesuit was meant to go out into the world.[[/b]]\n\nObedience was the heart of it. Ignatius's rules for thinking with the Church went as far as this:\n\n[[quote:0]]\n\nThe order's constitutions put it more vividly still:\n\n[[quote:1]]\n\nTheir great weapon turned out to be schools. Within a few decades Jesuit colleges stretched across Catholic Europe, free of charge and better than most. They taught Latin, rhetoric, philosophy and theology, put on plays with their pupils, and kept a careful eye on what those pupils believed. Jesuits also became the confessors of kings, and the man a Catholic ruler told his sins to could have quite a say in his politics.\n\nAnd they went far. Francis Xavier, one of the six friends from Paris, reached India and Japan. Matteo Ricci learned Chinese, dressed as a Confucian scholar and settled in Beijing in 1601. A century later a German Jesuit, Johann Adam Schall von Bell, would run the imperial calendar office for the new Qing emperor.\n\nIgnatius died in the summer of 1556, a few months after the twelve Jesuits walked into Prague. One of the first teachers at the Klementinum to make a name for himself, in the 1570s, was an Englishman, Edmund Campion, who spent six years there teaching rhetoric and writing plays for the pupils. Then he was sent home to Protestant England, caught, and hanged at Tyburn in 1581.\n\nThe order is still here. In 2013, nearly five hundred years after the cannonball at Pamplona, the Church got its first Jesuit pope, Francis.",
+      "cz": "V květnu 1521 roztříštila francouzská dělová koule nohy baskickému šlechtici, který bránil pevnost Pamplonu. Jmenoval se Íñigo z Loyoly a do té doby ho zajímaly hlavně boj, sláva a pěkné šaty. Měsíce ležel a na ukrácení času si řekl o rytířské romány. V domě měli jen život Kristův a knihu legend o svatých. Přečetl je a vstal z postele jako jiný člověk.\n\nIgnác, jak si později říkal, šel jako dospělý muž znovu do školy, nejdřív ve Španělsku a pak v Paříži, kde kolem sebe shromáždil šest přátel. Roku 1534 se na pahorku Montmartre zaslíbili Bohu. Roku 1540 schválil papež Pavel III. jejich řád, Tovaryšstvo Ježíšovo. Lidé zvenčí jim říkali jezuité, zpočátku ne zrovna jako poklonu.\n\nNebyl to řád jako ty staré. Jezuité se nescházeli ke společné chórové modlitbě a neměli vlastní hábit. V čele stál generál v Římě, volený doživotně. K obvyklým slibům chudoby, čistoty a poslušnosti skládali přední členové ještě čtvrtý: jít bez odkladu, kamkoli je papež pošle. [[b]]Mnich se modlil za zdmi kláštera; jezuita měl jít do světa.[[/b]]\n\nJádrem všeho byla poslušnost. Ignácova pravidla, jak smýšlet s církví, zašla až sem:\n\n[[quote:0]]\n\nŘádové konstituce to řekly ještě názorněji:\n\n[[quote:1]]\n\nJejich největší zbraní se ukázaly školy. Za pár desetiletí pokryly jezuitské koleje celou katolickou Evropu, zdarma a lepší než většina ostatních. Učily latinu, rétoriku, filozofii a teologii, hrály se žáky divadlo a pečlivě hlídaly, čemu ti žáci věří. Jezuité se také stali zpovědníky králů, a muž, jemuž se katolický panovník zpovídal z hříchů, mohl mít do jeho politiky co mluvit.\n\nA dostali se daleko. František Xaverský, jeden ze šesti přátel z Paříže, došel do Indie a Japonska. Matteo Ricci se naučil čínsky, oblékl se jako konfuciánský učenec a roku 1601 se usadil v Pekingu. O sto let později vedl německý jezuita Johann Adam Schall von Bell císařský kalendářní úřad nového čchingského císaře.\n\nIgnác zemřel v létě 1556, pár měsíců poté, co do Prahy přišlo dvanáct jezuitů. Jedním z prvních učitelů Klementina, kteří se proslavili, byl v 70. letech Angličan Edmund Campion: šest let tu učil rétoriku a psal pro žáky divadelní hry. Pak ho poslali domů do protestantské Anglie, kde ho chytili a roku 1581 oběsili v Tyburnu.\n\nŘád existuje dodnes. Roku 2013, skoro pět set let po dělové kouli u Pamplony, dostala církev prvního papeže jezuitu, Františka.",
+      "zh": "1521年5月，一颗法国炮弹打碎了一位巴斯克贵族的腿，他当时正在守潘普洛纳的要塞。他叫依纳爵·罗耀拉，在这之前，心思大多放在打仗、出名和漂亮衣服上。养伤躺了好几个月，他想找几本骑士小说解闷，可家里只有一本基督传和一本圣人传。他读完了，从床上起来，就成了另一个人。\n\n成年以后，他又回去上学，先在西班牙，后来到了巴黎，在那里聚起了六个朋友。1534年，他们在蒙马特高地上发愿，把一生献给上帝。1540年，教皇保禄三世批准了他们的修会：耶稣会。外人管他们叫“耶稣会士”，一开始，这个叫法不全是夸奖。\n\n它和那些老修会不一样。耶稣会士不聚在一起唱日课，也没有自己的会服。最上面是罗马的总会长，选上了就当一辈子。除了贫穷、贞洁、服从这三条常规的誓愿，资深的会士还要再发第四愿：教皇派他们去哪里，就立刻去哪里。[[b]]修士在修道院的墙里祈祷，耶稣会士却是要走到世界里去的。[[/b]]\n\n这一切的核心，是服从。依纳爵写的“与教会同心”的规则里，甚至有这样一条：\n\n[[quote:0]]\n\n修会的会宪，说得更形象：\n\n[[quote:1]]\n\n他们最厉害的武器，后来证明是学校。几十年里，耶稣会的学院就开遍了天主教的欧洲，不收学费，教得还比大多数学校好。他们教拉丁文、修辞、哲学和神学，带着学生演戏，也仔细盯着学生心里信的是什么。耶稣会士还当上了国王的告解神父，一个天主教君主向谁忏悔自己的罪，那个人在他的政事上，往往也说得上话。\n\n他们还走得很远。方济各·沙勿略，巴黎那六个朋友之一，到了印度和日本。利玛窦学会了中文，穿上儒生的衣服，1601年在北京住了下来。一百年后，一位德意志耶稣会士汤若望，还为刚入关的清朝皇帝掌管过钦天监。\n\n1556年夏天，依纳爵去世，几个月前，那十二个耶稣会士刚走进布拉格。克莱门特学院最早出名的老师里，有一个英国人，埃德蒙·坎皮恩，1570年代在这里教了六年修辞，还给学生写戏。后来他被派回信新教的英国，被抓住，1581年在泰伯恩被绞死。\n\n这个修会今天还在。2013年，离潘普洛纳那颗炮弹快五百年的时候，教会有了第一位耶稣会出身的教皇：方济各。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "In order to be right in everything, we must always hold that the white I see, I will believe to be black, if the hierarchical Church so decides.",
+          "cz": "Abychom se ve všem trefili, máme se vždy držet toho, že to bílé, co vidím, budu považovat za černé, jestliže to tak stanoví hierarchická církev.",
+          "zh": "为了凡事不出错，我们要始终守住这一条：我眼里看见是白的，只要教会的圣统这样判定，我就信它是黑的。"
+        },
+        "attribution": {
+          "en": "Ignatius of Loyola, Spiritual Exercises, Rules for Thinking with the Church, rule 13",
+          "cz": "Ignác z Loyoly, Duchovní cvičení, pravidla, jak smýšlet s církví, pravidlo 13",
+          "zh": "依纳爵·罗耀拉，《神操》，“与教会同心”规则第十三条"
+        }
+      },
+      {
+        "text": {
+          "en": "Those who live under obedience must let themselves be carried and directed by divine Providence through their superiors, just as if they were a corpse.",
+          "cz": "Kdo žijí v poslušnosti, mají se nechat nést a řídit Boží prozřetelností skrze své představené právě tak, jako by byli mrtvolou.",
+          "zh": "凡在服从之下生活的人，都应当任凭天主的安排，经由长上来搬动、来指引自己，就如同一具尸体。"
+        },
+        "attribution": {
+          "en": "Constitutions of the Society of Jesus, part VI",
+          "cz": "Konstituce Tovaryšstva Ježíšova, část VI",
+          "zh": "《耶稣会会宪》第六部分"
+        }
+      }
+    ],
+    "relatedLandmarks": [],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Society_of_Jesus"
+  },
   // 2026-10-17. de.wikipedia (Philippine Welser): Augsburg patrician
   // family; first documented meeting at a masked ball in Pilsen, February
   // 1555; Ferdinand's own document of 1576 dates the wedding to January
@@ -30555,9 +30617,9 @@ export const historyEvents = [
       "zh": "数完了人，再来数地。册子上，“荒”字一行接着一行。"
     },
     "summary": {
-      "en": "In 1652, four years after the war, the Bohemian diet decided to draw up a new register of every peasant holding in the land for taxation. The old tax books no longer matched anything: many of the people who were supposed to pay were gone.\n\nFrom 1653 four commissions, each with one member from each estate of the realm, went through every estate and every village in Bohemia. The village headman was called in and named the households one by one: who farmed how much land, who kept how many animals.\n\nOne full peasant farmer counted as one unit of tax; four cottagers together made one, and so did eight smallholders. Every farm went into one of three groups: occupied, deserted, or newly settled.\n\nIn 1654 the ledger was finished: the Berní rula, the tax roll. In it the word \"deserted\" comes up line after line. On the small estate of Červený Újezd, west of Prague, the deserted land came to almost three times the land still under the plough.\n\nIn the little market town of Smrdov, in the Čáslav region, ten households went into the deserted column. Beside eight of them the register notes:\n\n[[quote:0]]\n\nThat same summer, while the survey was going on, four more households in the town burned down.\n\nSome farms had found new people. Between 1652 and 1654 newcomers moved into a number of empty holdings, and the tax roll lists them separately. Other deserted land the lords simply took into their own estates and farmed themselves.\n\nBut a lord farming his own land still needed peasants' hands to do it. There were fewer people now and no less land, so the labour the remaining peasants owed their lords kept growing. Before the war it had been a few days a year; in many places it later rose to three days a week or more. [[b]]The land was the same, there were fewer people to work it, and more work for each of them.[[/b]]\n\nThe sums were not fair either. Upland peasants were assumed to earn something on the side from crafts, so in the hills less land counted as a full farm than in the lowlands, and the hill country ended up paying more than it could. The complaints never stopped, and from 1667 to 1682 the register had to be checked again, village by village.\n\nThe tax roll stayed in use for almost a hundred years. Slowly, the empty land was farmed again. What the people farming it thought of it all, no register recorded.",
-      "cz": "Roku 1652, čtyři roky po válce, rozhodl český sněm sepsat pro účely daní nový soupis všech poddanských usedlostí v zemi. Staré berní knihy už ničemu neodpovídaly: mnoho lidí, kteří měli platit, už nebylo.\n\nOd roku 1653 objížděly čtyři komise, v každé po jednom zástupci z každého stavu, všechna panství a všechny vsi v Čechách. Rychtář byl předvolán a jmenoval usedlost za usedlostí: kdo hospodaří na kolika polích, kdo má kolik dobytka.\n\nJeden sedlák byl jednou berní jednotkou; čtyři chalupníci dohromady také jednou, a stejně tak osm zahradníků. Každá usedlost se zařadila do jedné ze tří skupin: osedlá, pustá, nebo nově osazená.\n\nRoku 1654 byla kniha hotová: berní rula. Slovo „pustý“ se v ní opakuje řádek za řádkem. Na malém statku Červený Újezd západně od Prahy bylo pusté půdy skoro třikrát víc než té, která se ještě orala.\n\nV městečku Smrdov na Čáslavsku se do kolonky pustých dostalo deset hospodářství. U osmi z nich rula poznamenává:\n\n[[quote:0]]\n\nTéhož léta, kdy soupis probíhal, vyhořela ve městečku další čtyři hospodářství.\n\nNěkteré usedlosti se dočkaly nových lidí. V letech 1652 až 1654 se do řady prázdných gruntů nastěhovali noví hospodáři a berní rula je vede zvlášť. Jinou pustou půdu si vrchnost prostě vzala do vlastní režie.\n\nJenže i vrchnost, která hospodařila sama, potřebovala k práci ruce poddaných. Lidí ubylo, půdy ne, a robota, kterou zbylí poddaní dlužili vrchnosti, rostla. Před válkou to bylo pár dní do roka; na mnoha místech pak stoupla na tři dny v týdnu i víc. [[b]]Půda byla stejná, lidí na ni bylo méně a práce na každého víc.[[/b]]\n\nSpravedlivě to spočítané nebylo ani jinak. U horalů se předpokládalo, že si přivydělají řemeslem, a tak se na horách za celého osedlého počítalo méně půdy než v nížinách a podhůří nakonec platilo víc, než unese. Stížnosti neustávaly, a tak se v letech 1667 až 1682 musela rula ves po vsi přezkoumat znovu.\n\nBerní rula se pak používala skoro sto let. Pustá půda se pomalu zase obdělávala. Co si o tom myslili ti, kdo ji obdělávali, nezapsal žádný soupis.",
-      "zh": "1652年，战争结束四年后，波希米亚的等级议会决定，给全国的农户重新造册收税。旧的税账早就对不上了：册子上该交税的人，很多已经不在了。\n\n从1653年起，四个委员会走遍了波希米亚的每一个庄园、每一个村子，每个委员会里，各个等级各出一个人。村长被叫到跟前，一户一户地报：谁家种着多少地，养着几头牲口。\n\n一户整户的农民，算一份税；四户小屋农合起来算一份，八户园地农也合起来算一份。每座农庄都要归进三类里的一类：有人住的，荒了的，刚有新人住进来的。\n\n1654年，这本账成了书，就是《税册》。册子里，“荒”字一行接着一行。布拉格西边的小庄园切尔韦尼乌耶兹德，荒掉的地差不多是还在耕种的地的三倍。\n\n恰斯拉夫地区的小镇斯姆尔多夫，有十户人家被归进了“荒了的”一栏。其中八户的旁边，册子上写着：\n\n[[quote:0]]\n\n就在登记的那年夏天，镇上又有四户人家遭了火。\n\n也有农庄等来了新人。1652到1654年间，一些荒掉的农庄有人搬了进去，《税册》把他们单独记成一类。还有一些荒地，领主干脆收进了自己的庄园，自己种。\n\n可领主自己种地，用的还是农民的手。人少了，地没少，留下来的农民要给领主干的活就越来越多：战前一年不过几天的劳役，后来在许多地方涨到了一个星期三天，甚至更多。[[b]]地还是那些地，种地的人少了，每个人要干的活却多了。[[/b]]\n\n账也算得不公平。按规定，山区的农民可以靠手艺贴补家用，所以在山区，一个“整户农民”名下的地算得比平原少，结果山区的税反而更重。抱怨一直没停，1667到1682年，官府只好把册子挨村重新核查了一遍。\n\n这本《税册》，一用就是将近一百年。荒掉的地，慢慢又有人种了。种地的人心里怎么想，哪本册子上都没有记。"
+      "en": "In 1652, four years after the war, the Bohemian diet decided to draw up a new register of every peasant holding in the land for taxation. The old tax books no longer matched anything: many of the people who were supposed to pay were gone. Some had died in thirty years of war and plague; others had left the country for their faith.\n\nFrom 1653 four commissions, each with one member from each estate of the realm, went through every estate and every village in Bohemia. The village headman was called in and named the households one by one: who farmed how much land, who kept how many animals.\n\nOne full peasant farmer counted as one unit of tax; four cottagers together made one, and so did eight smallholders. Every farm went into one of three groups: occupied, deserted, or newly settled.\n\nIn 1654 the ledger was finished: the Berní rula, the tax roll. In it the word \"deserted\" comes up line after line. On the small estate of Červený Újezd, west of Prague, the deserted land came to almost three times the land still under the plough.\n\nIn the little market town of Smrdov, in the Čáslav region, ten households went into the deserted column. Beside eight of them the register notes:\n\n[[quote:0]]\n\nThat same summer, while the survey was going on, four more households in the town burned down.\n\nSome farms had found new people. Between 1652 and 1654 newcomers moved into a number of empty holdings, and the tax roll lists them separately. Other deserted land the lords simply took into their own estates and farmed themselves.\n\nBut a lord farming his own land still needed peasants' hands to do it. There were fewer people now and no less land, so the labour the remaining peasants owed their lords kept growing. Before the war it had been a few days a year; in many places it later rose to three days a week or more. [[b]]The land was the same, there were fewer people to work it, and more work for each of them.[[/b]]\n\nThe sums were not fair either. Upland peasants were assumed to earn something on the side from crafts, so in the hills less land counted as a full farm than in the lowlands, and the hill country ended up paying more than it could. The complaints never stopped, and from 1667 to 1682 the register had to be checked again, village by village.\n\nThe tax roll stayed in use for almost a hundred years. Slowly, the empty land was farmed again. What the people farming it thought of it all, no register recorded.",
+      "cz": "Roku 1652, čtyři roky po válce, rozhodl český sněm sepsat pro účely daní nový soupis všech poddanských usedlostí v zemi. Staré berní knihy už ničemu neodpovídaly: mnoho lidí, kteří měli platit, už nebylo. Jedni zahynuli za třicet let války a moru, jiní kvůli víře odešli ze země.\n\nOd roku 1653 objížděly čtyři komise, v každé po jednom zástupci z každého stavu, všechna panství a všechny vsi v Čechách. Rychtář byl předvolán a jmenoval usedlost za usedlostí: kdo hospodaří na kolika polích, kdo má kolik dobytka.\n\nJeden sedlák byl jednou berní jednotkou; čtyři chalupníci dohromady také jednou, a stejně tak osm zahradníků. Každá usedlost se zařadila do jedné ze tří skupin: osedlá, pustá, nebo nově osazená.\n\nRoku 1654 byla kniha hotová: berní rula. Slovo „pustý“ se v ní opakuje řádek za řádkem. Na malém statku Červený Újezd západně od Prahy bylo pusté půdy skoro třikrát víc než té, která se ještě orala.\n\nV městečku Smrdov na Čáslavsku se do kolonky pustých dostalo deset hospodářství. U osmi z nich rula poznamenává:\n\n[[quote:0]]\n\nTéhož léta, kdy soupis probíhal, vyhořela ve městečku další čtyři hospodářství.\n\nNěkteré usedlosti se dočkaly nových lidí. V letech 1652 až 1654 se do řady prázdných gruntů nastěhovali noví hospodáři a berní rula je vede zvlášť. Jinou pustou půdu si vrchnost prostě vzala do vlastní režie.\n\nJenže i vrchnost, která hospodařila sama, potřebovala k práci ruce poddaných. Lidí ubylo, půdy ne, a robota, kterou zbylí poddaní dlužili vrchnosti, rostla. Před válkou to bylo pár dní do roka; na mnoha místech pak stoupla na tři dny v týdnu i víc. [[b]]Půda byla stejná, lidí na ni bylo méně a práce na každého víc.[[/b]]\n\nSpravedlivě to spočítané nebylo ani jinak. U horalů se předpokládalo, že si přivydělají řemeslem, a tak se na horách za celého osedlého počítalo méně půdy než v nížinách a podhůří nakonec platilo víc, než unese. Stížnosti neustávaly, a tak se v letech 1667 až 1682 musela rula ves po vsi přezkoumat znovu.\n\nBerní rula se pak používala skoro sto let. Pustá půda se pomalu zase obdělávala. Co si o tom myslili ti, kdo ji obdělávali, nezapsal žádný soupis.",
+      "zh": "1652年，战争结束四年后，波希米亚的等级议会决定，给全国的农户重新造册收税。旧的税账早就对不上了：册子上该交税的人，很多已经不在了。有的死在了三十年的战乱和瘟疫里，有的为了信仰，远走他乡。\n\n从1653年起，四个委员会走遍了波希米亚的每一个庄园、每一个村子，每个委员会里，各个等级各出一个人。村长被叫到跟前，一户一户地报：谁家种着多少地，养着几头牲口。\n\n一户整户的农民，算一份税；四户小屋农合起来算一份，八户园地农也合起来算一份。每座农庄都要归进三类里的一类：有人住的，荒了的，刚有新人住进来的。\n\n1654年，这本账成了书，就是《税册》。册子里，“荒”字一行接着一行。布拉格西边的小庄园切尔韦尼乌耶兹德，荒掉的地差不多是还在耕种的地的三倍。\n\n恰斯拉夫地区的小镇斯姆尔多夫，有十户人家被归进了“荒了的”一栏。其中八户的旁边，册子上写着：\n\n[[quote:0]]\n\n就在登记的那年夏天，镇上又有四户人家遭了火。\n\n也有农庄等来了新人。1652到1654年间，一些荒掉的农庄有人搬了进去，《税册》把他们单独记成一类。还有一些荒地，领主干脆收进了自己的庄园，自己种。\n\n可领主自己种地，用的还是农民的手。人少了，地没少，留下来的农民要给领主干的活就越来越多：战前一年不过几天的劳役，后来在许多地方涨到了一个星期三天，甚至更多。[[b]]地还是那些地，种地的人少了，每个人要干的活却多了。[[/b]]\n\n账也算得不公平。按规定，山区的农民可以靠手艺贴补家用，所以在山区，一个“整户农民”名下的地算得比平原少，结果山区的税反而更重。抱怨一直没停，1667到1682年，官府只好把册子挨村重新核查了一遍。\n\n这本《税册》，一用就是将近一百年。荒掉的地，慢慢又有人种了。种地的人心里怎么想，哪本册子上都没有记。"
     },
     "quotes": [
       {
@@ -30594,6 +30656,993 @@ export const historyEvents = [
       }
     ],
     "wikipediaUrl": "https://cs.wikipedia.org/wiki/Bern%C3%AD_rula"
+  },
+  // The 1654 university union. Sources: Čornejová, Dějiny Univerzity Karlovy II
+  // (summarised in the UK article "Vznik Karlo-Ferdinandovy univerzity", 2014:
+  // 1636 brawl, 1638 protector, Urban VIII's studium generale, rescripts of
+  // 23 Feb 1654, proclamation in the Týn Church on 4 March); Kučharová, AUC-HUCP
+  // 50/1 (2010) 225–232 for the Strahov canons in Ingolstadt and the Latin line
+  // from their letter of 17 Feb 1652; Kroupa (ed.), Universitas Ferdinandea
+  // (2016) for Matthias's 1616 privilege; AUKP charters I/95a–c for the three
+  // 1648 letters of thanks.
+  {
+    "slug": "two-schools-become-one-1654",
+    "era": "voiceless-years",
+    "startYear": 1654.5,
+    "tone": "humorous",
+    "year": {
+      "en": "1622–1654",
+      "cz": "1622–1654",
+      "zh": "1622年－1654年"
+    },
+    "title": {
+      "en": "Two Schools Become One",
+      "cz": "Ze dvou škol jedna",
+      "zh": "两校合一"
+    },
+    "hookLine": {
+      "en": "The Catholics had won Bohemia; then they spent thirty years arguing among themselves over who got the university.",
+      "cz": "Katolíci vyhráli Čechy a pak se třicet let přeli mezi sebou, komu patří univerzita.",
+      "zh": "天主教赢下了波希米亚，接着为大学归谁，自己人吵了三十年。"
+    },
+    "summary": {
+      "en": "In Prague's Old Town two schools stood a few minutes' walk apart. One was the Karolinum, Charles IV's university, where [[link:who-is-jan-hus-1412]]Hus[[/link]] had once been rector. The other was the Klementinum, the college the Jesuits had [[link:twelve-new-faces-1556]]opened in 1556[[/link]] by the stone bridge. In 1616 Emperor Matthias gave it the rights of a university.\n\nAfter White Mountain, in 1622, Charles University was [[link:convert-or-leave-1627]]handed to the Jesuits[[/link]] as well. Both schools now had the same owner, and that should have settled it.\n\nIt didn't. By old right the chancellor of Charles's university was the Archbishop of Prague, and the archbishop was now Ernst Adalbert von Harrach, the man who had [[link:no-more-elected-kings-1627]]crowned Ferdinand III[[/link]]. Harrach was every bit as Catholic as the Jesuits, and he could not bear to see them running the university. More than once he refused to be chancellor of their university, and he forbade them to hold graduations in the Karolinum. In 1628 he got the emperor's leave to found a seminary of his own, and brought in Irish Franciscans to teach there.\n\nIn 1631, when the [[link:the-saxons-come-1631]]Saxons came[[/link]], the Jesuits fled Prague and the old university briefly ran itself again. Then the Saxons left, and the quarrel picked up where it had stopped.\n\nIn 1636 a tavern brawl between students was enough to set it off again. Harrach dealt with it himself and excommunicated a law student. Ferdinand III had had enough: the endless squabbling, he declared, was endangering the restoration of the faith in Bohemia. In 1638 he took the Karolinum back from the Jesuits and put law and medicine under an official of his own, a protector. That same year Pope Urban VIII raised Harrach's seminary to a university in its own right. The emperor refused to recognise it.\n\nSo Prague now had three schools of higher learning, and a priest who was not a Jesuit could hardly get a doctorate in theology at any of them.\n\nIn February 1652 two canons from Strahov, Vavřinec Weigl and Vít Rössler, both trained theologians, set off for Ingolstadt in Bavaria to get the degrees Prague could not give them. Their letters home to their abbot survive. Their room was so cramped they felt like geese in a fattening pen, the beer barely filled a jug, and the carp were the size of two-year-old fry back in Bohemia. In Prague they had been taught by Irish Franciscans in the tradition of Duns Scotus, which the Jesuit examiners did not much care for. Weigl wrote:\n\n[[quote:0]]\n\nThey passed anyway. In July 1652 both came home doctors of theology, once they had paid for the feast, the trumpeters, the gloves and the theses printed on silk. [[b]]To become doctors in Prague, two Prague priests had first had to go to Bavaria.[[/b]]\n\nIn the end it was the war that moved things along. In [[link:holding-the-bridge-1648]]1648[[/link]] Prague's students had held Charles Bridge against the Swedes, and that September the emperor wrote three times to thank the university's dean, professors and students. Some members of the student legion were made noblemen.\n\nOn 23 February 1654 imperial rescripts joined the two schools into one: the Charles-Ferdinand University, named after both its founders. On 4 March the union was proclaimed with full ceremony in the Týn Church, the church whose chalice had come down from its gable a generation before.\n\nTheology and philosophy, the faculties that decided what people should believe and how they should think, went to the Jesuits in the Klementinum. Law and medicine stayed in the Karolinum, with lay professors. Over all of it, on the Vienna model, the emperor set his own man, the superintendent.\n\nHarrach stayed chancellor, in name. The victors' thirty-year quarrel ended the way every quarrel in Bohemia ended now: Vienna decided.",
+      "cz": "Na Starém Městě pražském stály pár minut chůze od sebe dvě školy. Jednou bylo Karolinum, univerzita Karla IV., kde byl kdysi rektorem [[link:who-is-jan-hus-1412]]Hus[[/link]]. Druhou Klementinum, kolej, kterou jezuité [[link:twelve-new-faces-1556]]otevřeli roku 1556[[/link]] u kamenného mostu. Roku 1616 jí císař Matyáš udělil práva univerzity.\n\nPo Bílé hoře, roku 1622, byla [[link:convert-or-leave-1627]]jezuitům předána[[/link]] i Karlova univerzita. Obě školy teď měly stejného pána a tím mělo být hotovo.\n\nNebylo. Kancléřem Karlovy univerzity byl odedávna pražský arcibiskup a tím byl teď Arnošt Vojtěch z Harrachu, muž, který [[link:no-more-elected-kings-1627]]korunoval Ferdinanda III.[[/link]] Harrach byl stejně katolický jako jezuité, a přesto nemohl snést, že univerzitu řídí oni. Opakovaně odmítl stát se kancléřem jejich univerzity a zakázal jim konat promoce v Karolinu. Roku 1628 si u císaře vymohl vlastní kněžský seminář a učit v něm povolal irské františkány.\n\nRoku 1631, když [[link:the-saxons-come-1631]]přišli Sasové[[/link]], jezuité z Prahy utekli a stará univerzita se nakrátko spravovala sama. Pak Sasové odtáhli a spor pokračoval tam, kde přestal.\n\nRoku 1636 ho znovu rozdmýchala hospodská rvačka studentů. Harrach ji vyřídil sám a jednoho studenta práv dal do klatby. Ferdinandu III. došla trpělivost: nekonečné tahanice podle něj nebezpečně ohrožovaly obnovu víry v Čechách. Roku 1638 vzal jezuitům Karolinum a práva s medicínou svěřil svému úředníkovi, protektorovi. Téhož roku povýšil papež Urban VIII. Harrachův seminář na samostatné vysoké učení. Císař to neuznal.\n\nPraha tak měla rázem tři vysoká učení, a kněz, který nebyl jezuita, na žádném z nich doktorát z teologie skoro nezískal.\n\nV únoru 1652 se dva premonstráti ze Strahova, Vavřinec Weigl a Vít Rössler, oba vzdělaní teologové, vydali do bavorského Ingolstadtu pro tituly, které jim Praha dát nemohla. Jejich dopisy opatovi se dochovaly. Bydleli tak natěsno, že si připadali jako husy na krmníku, piva bylo sotva na konvičku a kapři byli velcí jako v Čechách dvouletý plůdek. V Praze je učili irští františkáni v duchu Dunse Scota, a ten jezuitští zkoušející zrovna nemilovali. Weigl napsal:\n\n[[quote:0]]\n\nProšli i tak. V červenci 1652 se oba vrátili jako doktoři teologie, když předtím zaplatili hostinu, trubače, rukavice i teze tištěné na hedvábí. [[b]]Aby se z pražských kněží stali doktoři v Praze, museli si nejdřív zajet do Bavorska.[[/b]]\n\nVěci nakonec pohnula válka. Roku [[link:holding-the-bridge-1648]]1648[[/link]] drželi pražští studenti Karlův most proti Švédům a toho září císař třikrát psal děkanovi, profesorům a studentům univerzity, aby jim poděkoval. Někteří členové studentské legie byli povýšeni do šlechtického stavu.\n\nDne 23. února 1654 spojily císařské reskripty obě školy v jednu: Univerzitu Karlo-Ferdinandovu, pojmenovanou po obou zakladatelích. Dne 4. března bylo spojení slavnostně vyhlášeno v Týnském chrámu, tom, z jehož štítu před jednou generací sundali kalich.\n\nTeologie a filozofie, fakulty, které rozhodovaly, čemu mají lidé věřit a jak mají myslet, připadly jezuitům v Klementinu. Práva a medicína zůstaly v Karolinu se světskými profesory. Nad tím vším postavil císař podle vídeňského vzoru vlastního muže, superintendenta.\n\nHarrach zůstal kancléřem, podle jména. Třicetiletý spor vítězů skončil tak, jak teď v Čechách končil každý spor: rozhodla Vídeň.",
+      "zh": "布拉格老城里，有两所学校，走路只隔几分钟。一所是卡罗林学院，查理四世的大学，[[link:who-is-jan-hus-1412]]胡斯[[/link]]当年就是这里的校长。另一所是克莱门特学院，耶稣会[[link:twelve-new-faces-1556]]1556年在石桥边办起来的[[/link]]学校。1616年，马蒂亚斯皇帝给了它大学的资格。\n\n白山之后，1622年，查理大学也[[link:convert-or-leave-1627]]交给了耶稣会[[/link]]。两所学校归了同一个主人，按说事情就该了结了。\n\n并没有。查理大学的校监，历来由布拉格大主教兼任，而这时的大主教，是哈拉赫，就是[[link:no-more-elected-kings-1627]]给斐迪南三世加冕[[/link]]的那一位。哈拉赫和耶稣会一样是天主教徒，可他就是看不惯大学落在耶稣会手里。耶稣会几次请他来当他们大学的校监，他都不干，还不许他们在卡罗林学院里授学位。1628年，他从皇帝那里讨来许可，自己办了一所神学院，请爱尔兰的方济各会士来教书。\n\n1631年，[[link:the-saxons-come-1631]]萨克森人打来[[/link]]，耶稣会士逃出了布拉格，老大学自己做了一阵子主。后来萨克森人走了，架接着吵。\n\n1636年，学生在酒馆里打了一架，又把火点了起来。哈拉赫自己出手，把一个法学生开除了教籍。斐迪南三世终于受够了：照他的说法，这样没完没了地吵下去，会坏了在波希米亚恢复信仰的大事。1638年，他把卡罗林学院从耶稣会手里收了回来，法学和医学交给自己派的官员，叫作“保护人”。同一年，教皇乌尔班八世又把哈拉赫的神学院升成了一所大学。皇帝不认。\n\n这下布拉格一下子有了三所高等学府，可一个不是耶稣会士的神父，在哪一所都几乎拿不到神学博士。\n\n1652年2月，斯特拉霍夫修道院的两位修士，魏格尔和勒斯勒，都是学过神学的人，动身去了巴伐利亚的因戈尔施塔特，去拿布拉格给不了他们的学位。他们写回去给院长的信留了下来。住的地方挤得像填鸭的圈，啤酒倒出来还不满一小壶，端上桌的鲤鱼，跟波希米亚两年的鱼苗差不多大。他们在布拉格是跟爱尔兰方济各会士学的，学的是邓斯·司各脱那一派，偏偏耶稣会的考官不怎么待见这一派。魏格尔写道：\n\n[[quote:0]]\n\n结果两人还是过了。1652年7月，两人都成了神学博士，回到布拉格。之前还得付清酒席、号手、手套，还有印在丝绸上的论文的钱。[[b]]两个布拉格的神父，想在布拉格当博士，得先去一趟巴伐利亚。[[/b]]\n\n最后让事情有了转机的，是战争。[[link:holding-the-bridge-1648]]1648年[[/link]]，布拉格的学生在查理大桥上挡住了瑞典人，那年9月，皇帝接连写了三封信，感谢大学的院长、教授和学生。学生军团里，还有人因此封了贵族。\n\n1654年2月23日，皇帝的诏令把两所学校并成了一所：查理-斐迪南大学，两位创办人的名字都放了进去。3月4日，泰恩教堂里隆重宣布了合并。一代人之前，这座教堂山墙上的圣杯才刚被拆下来。\n\n神学和哲学，也就是决定人该信什么、该怎么想的两个系，归了克莱门特学院里的耶稣会。法学和医学留在卡罗林学院，由世俗教授来教。在这一切之上，皇帝照着维也纳的样子，安排了自己的人，叫作“总监”。\n\n哈拉赫还当着校监，挂个名。胜利者之间吵了三十年的架，最后的结局，和如今波希米亚所有的争吵一样：维也纳说了算。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "We poor wretches, with our Scotus, are in for a good hard scrubbing.",
+          "cz": "My ubožáci se svým Scotem dostaneme pěkně ostrým louhem.",
+          "zh": "我们这两个可怜虫，带着我们的司各脱，怕是要被狠狠地搓洗一番了。"
+        },
+        "attribution": {
+          "en": "Vavřinec Weigl and Vít Rössler, letter from Ingolstadt to the abbot of Strahov, 17 February 1652",
+          "cz": "Vavřinec Weigl a Vít Rössler, dopis z Ingolstadtu strahovskému opatovi, 17. února 1652",
+          "zh": "魏格尔与勒斯勒从因戈尔施塔特写给斯特拉霍夫院长的信，1652年2月17日"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "karolinum",
+        "relation": {
+          "en": "Charles IV's university, taken from the Jesuits in 1638; law and medicine stayed here after 1654",
+          "cz": "Univerzita Karla IV., roku 1638 odebraná jezuitům; po roce 1654 tu zůstala práva a medicína",
+          "zh": "查理四世的大学，1638年从耶稣会手里收回；1654年后，法学和医学留在这里"
+        }
+      },
+      {
+        "slug": "national-library-czech-republic",
+        "relation": {
+          "en": "The Jesuit college, a university from 1616; theology and philosophy were taught here after 1654",
+          "cz": "Jezuitská kolej, od roku 1616 univerzita; po roce 1654 se tu učila teologie a filozofie",
+          "zh": "耶稣会的学院，1616年起是大学；1654年后，神学和哲学在这里教"
+        }
+      },
+      {
+        "slug": "tyn-church",
+        "relation": {
+          "en": "Where the union was proclaimed on 4 March 1654",
+          "cz": "Zde bylo 4. března 1654 vyhlášeno spojení obou univerzit",
+          "zh": "1654年3月4日，在这里宣布了两校合并"
+        }
+      },
+      {
+        "slug": "strahov-monastery",
+        "relation": {
+          "en": "Home of Weigl and Rössler, who had to go to Ingolstadt for their doctorates",
+          "cz": "Domov Weigla a Rösslera, kteří si pro doktoráty museli dojet do Ingolstadtu",
+          "zh": "魏格尔和勒斯勒的修道院，两人得去因戈尔施塔特拿博士学位"
+        }
+      }
+    ],
+    "images": [
+      "/history/two-schools-become-one-1654.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "4 March 1654, the Týn Church: an imperial commissioner reads out the union of the two universities. On the left Cardinal Harrach and the Karolinum's professors, on the right the Jesuits; in front, students, some still wearing the swords of 1648.",
+        "cz": "4. března 1654, Týnský chrám: císařský komisař čte listinu o spojení obou univerzit. Vlevo kardinál Harrach a profesoři Karolina, vpravo jezuité; vpředu studenti, někteří ještě s meči z roku 1648.",
+        "zh": "1654年3月4日，泰恩教堂。皇帝派来的官员宣读两校合并的诏书。左边是哈拉赫枢机主教和卡罗林学院的教授，右边是耶稣会士；前面是学生，有几个腰间还佩着1648年守城时的剑。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Charles-Ferdinand_University"
+  },
+  // The Baroque fortress. Sources: A. Romaňák, "Praha jako pevnost", Staletá
+  // Praha 19 (1989) 159–: 1639 earthworks, 1644 diet and drink tax, Prague
+  // declared a fortress in 1653 with Cheb, reasons "internal rather than
+  // external" (1618–1620), 20 + 11 bastions named after saints, 30,000 gulden a
+  // year from the diet, roughly finished after seventy years, already outdated
+  // in the 1720s. F. Kašička and B. Nechvátal, "Počátky vyšehradské barokní
+  // citadely", Staletá Praha 13 (1983): Montecuccoli's 1648 memorandum ("hlavní
+  // město a srdce země", two citadels), Conti's plan of 28 Jan 1650, the 1653–54
+  // demolitions (town hall, school, deanery), the Berní rula finding the upper
+  // town empty, and the quote, which they take from V. Ruffer, Historie
+  // vyšehradská (1861), p. 313. Leopold Gate dated 1653–1670 (some say 1680).
+  {
+    "slug": "armour-for-prague-1653",
+    "era": "voiceless-years",
+    "startYear": 1654.8,
+    "tone": "humorous",
+    "year": {
+      "en": "1648 – 1720s",
+      "cz": "1648 – 20. léta 18. století",
+      "zh": "1648年－18世纪20年代"
+    },
+    "title": {
+      "en": "Armour for Prague",
+      "cz": "Praha v brnění",
+      "zh": "给布拉格穿上铠甲"
+    },
+    "hookLine": {
+      "en": "The war was over, so the emperor turned Prague into a fortress.",
+      "cz": "Válka skončila, a tak císař udělal z Prahy pevnost.",
+      "zh": "仗打完了，于是皇帝把布拉格改成了一座要塞。"
+    },
+    "summary": {
+      "en": "The siege of [[link:holding-the-bridge-1648]]1648[[/link]] had shown everyone what was wrong with Prague's walls. They were Gothic, built under Charles IV for a world of arrows and siege ladders. Since 1639 earthen bastions had been heaped up in front of them, but the Swedish guns broke through into the New Town all the same.\n\nThat same year, as soon as the Swedes had left, a general sent a memorandum to Vienna. He was Raimondo Montecuccoli, the young officer the Swedes had [[link:here-come-the-liberators-1639]]captured in 1639[[/link]]. Bohemia, he wrote, needed seven fortresses, and first of all Prague, \"the capital and the heart of the land\", with two citadels of its own. On 28 January 1650 Colonel Innocenzo Conti, who had fought on Prague's walls in 1648, presented a plan. In 1653 Ferdinand III declared Prague a fortress.\n\nAgainst whom, exactly? The Turks were fighting far off in Hungary, and the Swedes had gone home. Historians think the reasons lay closer to home: the emperor and his generals still remembered [[link:the-good-old-bohemian-way-1618]]1618[[/link]]. [[b]]A fortress in the middle of Bohemia would guard Habsburg rule against enemies from outside, and against trouble from inside too.[[/b]]\n\nAround the Lesser Town and Hradčany rose twenty bastions, and around the New Town eleven more. The Old Town needed none of its own: it sat safely inside. The new ramparts were earth faced with brick, the corners dressed in sandstone, their tops some eleven or twelve metres above the floor of a deep ditch. Every bastion got a number and a name, mostly after a saint or a nearby church: St Wenceslas, St Ludmila, St Adalbert. Among them were also St Ignatius, St Francis Xavier and St Francis Borgia, three saints of the [[link:who-were-the-jesuits-1556]]Jesuits[[/link]].\n\nThe Bohemian diet paid, voting 30,000 gulden for the fortifications of Prague and Cheb every year, on top of all its other taxes. Prague now had a fortress to pay for, whether it wanted one or not.\n\nThe heaviest hand fell on Vyšehrad. The hill of the first princes had long been a small town of a couple of hundred souls, with a town hall, a school, the canons' houses and a few streets. From 1653 most of it was pulled down to make room for a citadel. When the clerks of the new [[link:deserted-1654]]tax register[[/link]] came by in 1654, nobody was left living in the upper town. An old account of Vyšehrad describes what the builders made of it:\n\n[[quote:0]]\n\nThe road up to the citadel now passed through two new gates: first the plain Tábor Gate, then the Leopold Gate, decorated and named after the new emperor, Leopold I. It is usually credited to Carlo Lurago, a builder from near Lake Como.\n\nIt took some seventy years to finish the whole ring. By the time the last gates were in place, in the 1720s, the armour was already out of date.",
+      "cz": "Obléhání roku [[link:holding-the-bridge-1648]]1648[[/link]] všem ukázalo, co je s pražskými hradbami špatně. Byly gotické, postavené za Karla IV. pro svět šípů a útočných žebříků. Od roku 1639 se před nimi navršovaly hliněné bastiony, ale švédská děla si cestu do Nového Města prorazila stejně.\n\nJeště téhož roku, hned po odchodu Švédů, poslal jeden generál do Vídně memorandum. Byl to Raimondo Montecuccoli, ten mladý důstojník, kterého Švédové [[link:here-come-the-liberators-1639]]zajali roku 1639[[/link]]. Čechy podle něj potřebovaly sedm pevností, a především Prahu, „hlavní město a srdce země“, se dvěma vlastními citadelami. Dne 28. ledna 1650 předložil plán plukovník Innocenzo Conti, který roku 1648 sám bojoval na pražských hradbách. Roku 1653 prohlásil Ferdinand III. Prahu za pevnost.\n\nProti komu vlastně? Turci bojovali daleko v Uhrách a Švédové odešli domů. Historici soudí, že důvody byly bližší: císař a jeho generálové měli v živé paměti rok [[link:the-good-old-bohemian-way-1618]]1618[[/link]]. [[b]]Pevnost uprostřed Čech měla chránit habsburskou vládu před nepřítelem zvenčí, a stejně tak před nepokoji zevnitř.[[/b]]\n\nKolem Malé Strany a Hradčan vyrostlo dvacet bastionů, kolem Nového Města dalších jedenáct. Staré Město žádné vlastní nepotřebovalo: leželo bezpečně uvnitř. Nové valy byly hliněné s cihlovým pláštěm, nároží obložená pískovcem, a jejich koruna se zvedala asi jedenáct až dvanáct metrů nad dno hlubokého příkopu. Každý bastion dostal číslo a jméno, většinou po světci nebo nedalekém kostele: sv. Václav, sv. Ludmila, sv. Vojtěch. Mezi nimi i sv. Ignác, sv. František Xaverský a sv. František Borgiáš, tři světci [[link:who-were-the-jesuits-1556]]jezuitů[[/link]].\n\nPlatil český sněm: každý rok k ostatním berním odhlasoval 30 000 zlatých na opevnění Prahy a Chebu. Praha teď měla pevnost, kterou musela platit, ať ji chtěla, nebo ne.\n\nNejtvrději to odnesl Vyšehrad. Hora prvních knížat byla už dlouho jen městečkem o pár stovkách duší, s radnicí, školou, kanovnickými domy a několika ulicemi. Od roku 1653 se většina z toho bourala, aby uvolnila místo citadele. Když roku 1654 přišli písaři nové [[link:deserted-1654]]berní ruly[[/link]], v horním městě už nikdo nebydlel. Jedno staré líčení vyšehradských dějin popisuje, co z něj stavitelé udělali:\n\n[[quote:0]]\n\nCesta nahoru do citadely vedla teď dvěma novými branami: nejdřív prostou Táborskou, pak zdobenou Leopoldovou, pojmenovanou po novém císaři Leopoldu I. Obvykle se připisuje Carlu Luragovi, staviteli od jezera Como.\n\nCelý prstenec se stavěl asi sedmdesát let. Než ve 20. letech 18. století stály poslední brány, bylo brnění už zastaralé.",
+      "zh": "[[link:holding-the-bridge-1648]]1648年[[/link]]那场围城，让人人都看清了布拉格的城墙出了什么毛病。这些墙是哥特时代的，是查理四世那会儿为防弓箭和云梯修的。从1639年起，墙外就堆起了土棱堡，可瑞典人的大炮还是轰开了新城的城墙。\n\n瑞典人刚走，同一年，一位将军就往维也纳递了一份备忘录。他叫蒙特库科利，就是[[link:here-come-the-liberators-1639]]1639年[[/link]]被瑞典人俘虏的那个年轻军官。他写道，波希米亚需要七座要塞，头一座就是布拉格，“首都，这片土地的心脏”，还要给它配两座内堡。1650年1月28日，1648年亲自在布拉格城头打过仗的孔蒂上校，交上了一份方案。1653年，斐迪南三世宣布：布拉格从此是一座要塞。\n\n可这是要防谁呢？土耳其人在遥远的匈牙利打仗，瑞典人也回家了。史学家认为，原因其实就在家门口：皇帝和他的将军们，都还记得[[link:the-good-old-bohemian-way-1618]]1618年[[/link]]。[[b]]在波希米亚正中间立一座要塞，既能防外敌，也能防着里面再出乱子，好守住哈布斯堡的江山。[[/b]]\n\n小城和城堡区外围，修起了二十座棱堡，新城外面又修了十一座。老城不用另修：它本来就被围在里面。新城墙是土堆的，外面砌一层砖，墙角包上砂岩，墙顶离深沟的沟底有十一二米高。每座棱堡都编了号，起了名，大多取自圣人或附近的教堂：圣瓦茨拉夫、圣卢德米拉、圣沃伊捷赫。其中还有圣依纳爵、圣方济各·沙勿略和圣方济各·博尔贾，三位都是[[link:who-were-the-jesuits-1556]]耶稣会[[/link]]的圣人。\n\n钱由波希米亚议会出：除了别的税，每年还要另外批三万古尔登，修布拉格和海布的城防。布拉格就这样有了一座要塞，不管它想不想要，钱都得出。\n\n受苦最重的是维谢赫拉德。这座最早的公爵们住过的山，早就只剩一个两三百人的小镇，有市政厅、学校、教士的住宅，还有几条街。从1653年起，这些大多被拆掉，给内堡腾地方。1654年，新[[link:deserted-1654]]税册[[/link]]的书记员来登记时，山上的镇子里已经一个住户也没有了。一部讲维谢赫拉德历史的老书，这样记下了工匠们把它变成了什么样：\n\n[[quote:0]]\n\n从此，上内堡的路要穿过两道新城门：先是朴素的塔博尔门，然后是装饰华丽的利奥波德门，以新皇帝利奥波德一世命名。一般认为，它出自来自科莫湖畔的建筑师卢拉戈之手。\n\n整圈城墙，前前后后修了七十年左右。等到18世纪20年代，最后几道城门立起来的时候，这身铠甲已经过时了。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "The walls and ramparts built in ancient times were torn down; the old castle, already in ruins, was scattered; thirty-one houses, small and large, were overturned. […] Where there was level ground, there is now a pit and a trench; where there used to be a hollow, there is a high bank; where a street ran through, there are high walls; where houses stood, people now walk and drive.",
+          "cz": "Zdi a hradby od starodávna vystavené byly zbořeny; zámek starý zbořený rozmetán, domů menších a větších 31 vyvráceno bylo […] kde rovina byla, tu důl a zákop, kde dolina bývala, tu jest vysoký násyp, kde průchod ulice byla, tu jsou vysoké zdi; kde domy stávaly, tudy se nyní chodí a jezdí.",
+          "zh": "自古筑起的城墙和壁垒，都拆了；本已残破的旧城堡，夷平了；大大小小三十一座房子，推倒了。……原来是平地的，成了坑和壕沟；原来是洼地的，堆起了高高的土坡；原来有街穿过的，立起了高墙；原来有房子的地方，如今人在上面走，车在上面跑。"
+        },
+        "attribution": {
+          "en": "Václav Ruffer, History of Vyšehrad, 1861",
+          "cz": "Václav Ruffer, Historie vyšehradská, 1861",
+          "zh": "鲁费尔，《维谢赫拉德史》，1861年"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "vysehrad",
+        "relation": {
+          "en": "The old princely hill, cleared from 1653 to make room for the citadel",
+          "cz": "Stará knížecí hora, od roku 1653 vyklizená pro citadelu",
+          "zh": "古老的公爵之山，1653年起被清空，给内堡腾地方"
+        }
+      },
+      {
+        "slug": "taborska-brana",
+        "relation": {
+          "en": "The citadel's plain outer gate, built in the 1650s",
+          "cz": "Prostá vnější brána citadely z 50. let 17. století",
+          "zh": "内堡朴素的外城门，建于17世纪50年代"
+        }
+      },
+      {
+        "slug": "vysehrad-leopold-gate",
+        "relation": {
+          "en": "The citadel's decorated main gate, named after Leopold I",
+          "cz": "Zdobená hlavní brána citadely, pojmenovaná po Leopoldu I.",
+          "zh": "内堡装饰华丽的正门，以利奥波德一世命名"
+        }
+      },
+      {
+        "slug": "bastion-u-bozich-muk",
+        "relation": {
+          "en": "One of the New Town's eleven bastions, still standing above the Nusle valley",
+          "cz": "Jeden z jedenácti novoměstských bastionů, dodnes stojí nad Nuselským údolím",
+          "zh": "新城十一座棱堡之一，至今还立在努斯莱山谷之上"
+        }
+      },
+      {
+        "slug": "vysehrad-wall-walkway",
+        "relation": {
+          "en": "A walk along the citadel's ramparts, on the bastion of St Leopold",
+          "cz": "Procházka po valech citadely, na bastionu sv. Leopolda",
+          "zh": "沿着内堡的城墙散步，脚下就是圣利奥波德棱堡"
+        }
+      },
+      {
+        "slug": "marianske-hradby-rosickych",
+        "relation": {
+          "en": "A long surviving stretch of the left-bank ramparts at the foot of Petřín",
+          "cz": "Dlouhý dochovaný úsek hradeb levého břehu na úpatí Petřína",
+          "zh": "左岸城墙留存下来的一长段，就在佩特任山脚"
+        }
+      },
+      {
+        "slug": "psek-gate-1782393038404",
+        "relation": {
+          "en": "Finished in 1721, one of the ring's last gates and the only one left on the left bank",
+          "cz": "Dokončena roku 1721, jedna z posledních bran prstence a jediná, která na levém břehu zůstala",
+          "zh": "1721年建成，是这圈城墙最后修起的城门之一，也是左岸唯一留下来的一座"
+        }
+      }
+    ],
+    "images": [
+      "/history/armour-for-prague-1653.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Vyšehrad, 1654: the last townspeople leave with a handcart as their houses come down. On the right a new brick bastion goes up, and an Italian engineer points out the plan of the citadel.",
+        "cz": "Vyšehrad, 1654: poslední obyvatelé odcházejí s vozíkem a jejich domy se bourají. Vpravo roste nový cihlový bastion a italský inženýr ukazuje plán citadely.",
+        "zh": "1654年的维谢赫拉德：最后几位居民推着手推车离开，身后的房子正在被拆。右边，一座新的砖砌棱堡正在升起，一位意大利工程师拿着内堡的图纸指点。"
+      }
+    ],
+    "wikipediaUrl": "https://cs.wikipedia.org/wiki/Opevn%C4%9Bn%C3%AD_Prahy"
+  },
+  // Comenius after Leszno. Panegyricus Carolo Gustavo published anonymously in
+  // Leszno, 1655 (Rott 2001); Leszno burned for three days in 1656 and the
+  // manuscript of the Thesaurus linguae Bohemicae was lost (Mucha Foundation,
+  // Slav Epic page; Google Arts & Culture). Quote 0: letter to Hartlib,
+  // Amsterdam, 31 Aug 1656, as given in English by M. Somr, Studia Edukacyjne
+  // 29 (2013) 344, from Komenský, Vybrané spisy VIII (1975) 334; the Latin
+  // original was not checked. Quote 1: the opening of Orbis pictus, Latin
+  // checked against the Gutenberg text (Hoole's 1659 edition). Hollar's Prague view: drawn on
+  // the 1636 visit, etched and published in Antwerp in 1649.
+  {
+    "slug": "comenius-last-years-1656",
+    "era": "voiceless-years",
+    "startYear": 1656,
+    "tone": "serious",
+    "year": {
+      "en": "1655–1670",
+      "cz": "1655–1670",
+      "zh": "1655年－1670年"
+    },
+    "title": {
+      "en": "The Exile's Mother Tongue",
+      "cz": "Mateřština v exilu",
+      "zh": "流亡者的母语"
+    },
+    "hookLine": {
+      "en": "The greatest dictionary of Czech ever attempted burned in a Polish town, far from Bohemia.",
+      "cz": "Největší slovník češtiny, o jaký se kdy kdo pokusil, shořel v polském městečku, daleko od Čech.",
+      "zh": "史上最宏大的一部捷克语词典，烧毁在远离波希米亚的一座波兰小城里。"
+    },
+    "summary": {
+      "en": "Comenius had [[link:convert-or-leave-1627]]left Bohemia[[/link]] in 1628 and settled in Leszno, a small town in western Poland. For almost thirty years it was the exiled Brethren's home: their school, their printing press, their church. From 1648 Comenius was their bishop.\n\nIn 1655 Sweden invaded Poland. Its king was now Charles X Gustav, the same Charles Gustav who had [[link:holding-the-bridge-1648]]besieged Prague[[/link]] seven years before. Comenius hoped a Protestant king might yet turn the war around for the exiles, and he wrote him a Latin panegyric, printed in Leszno without the author's name.\n\nThe Poles did not forget. In the spring of 1656, after the Swedes had pulled out, Polish troops took Leszno and the town burned for three days. Comenius escaped with his life. His house, his library and his manuscripts stayed behind.\n\nAmong them was the work of his life: the Treasure of the Czech Language, a vast dictionary that he had been gathering for decades, word by word, from books and from the mouths of ordinary people. It was nearly ready for the printer. Nothing of it survived. [[b]]The greatest dictionary of Czech ever attempted burned in a Polish town, and its author had not been allowed home for twenty-eight years.[[/b]]\n\nThat summer he reached Amsterdam, where a rich merchant, Laurens de Geer, took him in. On 31 August he wrote to a friend in London:\n\n[[quote:0]]\n\nIn Amsterdam Comenius did what he had always done: he wrote schoolbooks. In 1658 Orbis pictus, \"The World in Pictures\", came out in Nuremberg. Every page had a woodcut and, beside it, the names of the things in the picture, in Latin and German. It was one of the first picture books ever made for children, and for some two hundred years children all over Europe learned from it. It begins like this:\n\n[[quote:1]]\n\nHe was not the only Czech whose voice now carried further abroad than at home. Václav Hollar, born in Prague in 1607, had left after White Mountain and ended up in London, etching everything he saw. On a visit in 1636 he drew Prague from the hill above the Lesser Town, and in 1649 he published it in Antwerp as the largest view of the city of its age. In 1666 he drew London before and after its Great Fire.\n\nComenius died in Amsterdam on 15 November 1670 and was buried in Naarden, a small fortress town nearby. Much later Alfons Mucha painted him in his last days, sitting on the Dutch shore while a lantern burns low on the sand.\n\nIn Bohemia his Czech books, among them The Labyrinth of the World and the Paradise of the Heart, written in 1623, were heretics' books and could not be read openly. More than a century after his death, when a handful of scholars set out to bring the Czech language back to life, they found him again. One of them called the Labyrinth \"one of the most beautiful books in the whole of Czech literature\".\n\nHis dictionary had burned in Leszno. The Czech he wrote outlived it.",
+      "cz": "Komenský [[link:convert-or-leave-1627]]opustil Čechy[[/link]] roku 1628 a usadil se v Lešně, malém městě v západním Polsku. Skoro třicet let tu měli exuloví bratři svůj domov: školu, tiskárnu, sbor. Od roku 1648 byl Komenský jejich biskupem.\n\nRoku 1655 vtrhli do Polska Švédové. Jejich králem byl teď Karel X. Gustav, týž Karel Gustav, který před sedmi lety [[link:holding-the-bridge-1648]]obléhal Prahu[[/link]]. Komenský doufal, že protestantský král by mohl válku ještě obrátit ve prospěch exulantů, a napsal mu latinský panegyrik, vytištěný v Lešně bez jména autora.\n\nPoláci nezapomněli. Na jaře 1656, když Švédové odtáhli, polská vojska Lešno dobyla a město hořelo tři dny. Komenský vyvázl jen se životem. Dům, knihovna i rukopisy zůstaly za ním.\n\nMezi nimi bylo dílo jeho života: Poklad jazyka českého, obrovský slovník, který desítky let sbíral slovo po slovu z knih i z úst prostých lidí. Byl už skoro připravený do tisku. Nezbylo z něj nic. [[b]]Největší slovník češtiny, o jaký se kdy kdo pokusil, shořel v polském městečku, a jeho autor se už dvacet osm let nesměl vrátit domů.[[/b]]\n\nV létě dorazil do Amsterdamu, kde ho přijal bohatý kupec Laurens de Geer. Dne 31. srpna napsal příteli do Londýna:\n\n[[quote:0]]\n\nV Amsterdamu dělal Komenský to, co vždycky: psal učebnice. Roku 1658 vyšel v Norimberku Orbis pictus, „Svět v obrazech“. Na každé stránce byl dřevoryt a vedle něj jména věcí na obrázku, latinsky a německy. Byla to jedna z prvních obrázkových knih pro děti vůbec a asi dvě stě let se z ní učily děti po celé Evropě. Začíná takto:\n\n[[quote:1]]\n\nNebyl jediný Čech, jehož hlas teď nesl dál v cizině než doma. Václav Hollar, narozený roku 1607 v Praze, odešel po Bílé hoře a skončil v Londýně, kde ryl do mědi všechno, co viděl. Při návštěvě roku 1636 nakreslil Prahu z návrší nad Malou Stranou a roku 1649 ji vydal v Antverpách jako největší pohled na město své doby. Roku 1666 kreslil Londýn před velkým požárem a po něm.\n\nKomenský zemřel v Amsterdamu 15. listopadu 1670 a byl pohřben v Naardenu, malém pevnostním městě nedaleko. Mnohem později ho Alfons Mucha namaloval v posledních dnech, jak sedí na holandském břehu a v písku dohasíná lucerna.\n\nV Čechách byly jeho české knihy, mezi nimi Labyrint světa a ráj srdce, sepsaný roku 1623, knihami kacíře a otevřeně se číst nesměly. Víc než sto let po jeho smrti, když se hrstka učenců pustila do křísení českého jazyka, objevili ho znovu. Jeden z nich o Labyrintu napsal, že „jest jedna z nejpěknějších knih celé literatury české“.\n\nJeho slovník shořel v Lešně. Čeština, kterou psal, ho přežila.",
+      "zh": "夸美纽斯1628年[[link:convert-or-leave-1627]]离开波希米亚[[/link]]，在波兰西部的小城莱什诺住了下来。近三十年里，这里就是流亡的弟兄会的家：他们的学校、印刷所、教会都在这里。从1648年起，夸美纽斯是他们的主教。\n\n1655年，瑞典人打进了波兰。瑞典这时的国王是卡尔十世·古斯塔夫，就是七年前[[link:holding-the-bridge-1648]]围攻布拉格[[/link]]的那个卡尔·古斯塔夫。夸美纽斯盼着这位新教国王能替流亡者扭转局面，给他写了一篇拉丁文颂词，在莱什诺印了出来，没署名。\n\n波兰人记住了这笔账。1656年春天，瑞典人一撤，波兰军队就攻进了莱什诺，全城烧了三天。夸美纽斯捡回了一条命，房子、藏书和手稿全都留在了火里。\n\n其中有他一辈子的心血：《捷克语宝库》，一部庞大的词典。几十年来，他一个词一个词地攒，有的从书里来，有的从老百姓嘴里来。书稿差不多可以付印了，结果一页也没剩下。[[b]]史上最宏大的一部捷克语词典，烧毁在一座波兰小城里，而它的作者，已经二十八年不能回家了。[[/b]]\n\n那年夏天，他到了阿姆斯特丹，一位富商德·吉尔收留了他。8月31日，他给伦敦的一位朋友写信说：\n\n[[quote:0]]\n\n在阿姆斯特丹，夸美纽斯还是做他一直在做的事：写课本。1658年，《世界图解》在纽伦堡出版。每一页都有一幅木刻画，旁边用拉丁文和德文写着画里各样东西的名字。这是最早专门给孩子做的图画书之一，此后两百年左右，全欧洲的孩子都用它念书。书是这样开头的：\n\n[[quote:1]]\n\n在国外说话比在家乡更有人听的捷克人，不止他一个。霍拉尔1607年生在布拉格，白山之后离开，最后落脚伦敦，看见什么就刻什么。1636年回乡时，他从小城上方的山坡画下了布拉格，1649年在安特卫普出版，是当时最大的一幅布拉格全景图。1666年，他又画下了伦敦大火前后的样子。\n\n1670年11月15日，夸美纽斯在阿姆斯特丹去世，葬在附近的要塞小城纳尔登。很久以后，穆夏画下了他最后的日子：他坐在荷兰的海边，沙地上一盏灯笼，快要燃尽了。\n\n在波希米亚，他用捷克语写的书，比如1623年写成的《世界迷宫与心的天堂》，都是异端的书，不能公开读。他去世一百多年后，有几位学者立志让捷克语重新活过来，又把他找了回来。其中一位说，《世界迷宫》是“整个捷克文学里最美的书之一”。\n\n他的词典烧在了莱什诺，可他用捷克语写下的那些话，比词典活得更久。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "…I do not cease to praise the Lord that through His merciful care we were not swallowed up, and that after such a terrible wreck He has brought me into this harbour, together with the fragments of my Treasure of Light.",
+          "cz": "…nepřestávám chválit Pána, že nás svou milostivou péčí nedal pohltit a že mne po tak hrozné zkáze přivedl i s troskami mého Pokladu světla do tohoto přístavu.",
+          "zh": "……我不住地赞美主，是祂仁慈的看顾，才没让我们被吞没；在那样可怕的劫难之后，祂把我，连同我那部《光之宝库》的残片，一起带进了这个港口。"
+        },
+        "attribution": {
+          "en": "Comenius, letter to Samuel Hartlib, Amsterdam, 31 August 1656",
+          "cz": "Komenský, dopis Samuelu Hartlibovi, Amsterdam, 31. srpna 1656",
+          "zh": "夸美纽斯致哈特利布的信，阿姆斯特丹，1656年8月31日"
+        }
+      },
+      {
+        "text": {
+          "en": "Come, boy, learn to be wise. – What does that mean, to be wise? – To understand rightly, to do rightly, and to speak rightly all that is necessary.",
+          "cz": "Pojď, chlapče, uč se moudrosti. – Co to je, být moudrý? – Správně rozumět, správně jednat a správně vyslovit všechno, co je potřebné.",
+          "zh": "来吧，孩子，学着做个有智慧的人。——什么叫有智慧？——凡是必要的事，都能正确地理解，正确地去做，正确地说出来。"
+        },
+        "attribution": {
+          "en": "Comenius, Orbis pictus, Nuremberg 1658, the opening lines",
+          "cz": "Komenský, Orbis pictus, Norimberk 1658, úvodní řádky",
+          "zh": "夸美纽斯，《世界图解》开篇，纽伦堡，1658年"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "narodni-pedagogicke-muzeum-komenskeho",
+        "relation": {
+          "en": "A museum and library in the Lesser Town devoted to Comenius",
+          "cz": "Muzeum a knihovna na Malé Straně věnované Komenskému",
+          "zh": "小城里一座专门纪念夸美纽斯的博物馆和图书馆"
+        }
+      },
+      {
+        "slug": "hollar",
+        "relation": {
+          "en": "Named after the Hollar association of graphic artists, which took its name from Václav Hollar",
+          "cz": "Nese jméno Sdružení českých umělců grafiků Hollar, pojmenovaného po Václavu Hollarovi",
+          "zh": "得名于霍拉尔版画家协会，协会的名字来自霍拉尔本人"
+        }
+      }
+    ],
+    "referenceMaps": {
+      "links": [
+        {
+          "label": "1918",
+          "description": {
+            "en": "Alfons Mucha's Slav Epic canvas of Comenius's last days in Naarden",
+            "cz": "Plátno Alfonse Muchy ze Slovanské epopeje: Jan Amos Komenský v posledních dnech v Naardenu",
+            "zh": "穆夏《斯拉夫史诗》中描绘夸美纽斯在纳尔登最后时光的画作"
+          },
+          "url": "https://mucha-epopej.cz/the-slav-epic/john-amos-comenius"
+        }
+      ]
+    },
+    "images": [
+      "/history/comenius-last-years-1656.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Left: Leszno, spring 1656, the morning after the fire; Comenius and two of his followers among the ruins and scattered pages. Right: the Amsterdam harbour some twelve years later, the old Comenius showing a picture book to a group of Dutch children.",
+        "cz": "Vlevo: Lešno na jaře 1656, ráno po požáru; Komenský a dva jeho žáci mezi troskami a rozházenými listy. Vpravo: amsterdamský přístav asi o dvanáct let později, starý Komenský ukazuje skupince holandských dětí obrázkovou knihu.",
+        "zh": "左：1656年春天，大火之后的莱什诺，夸美纽斯和两位弟子站在废墟和散落的书页之间。右：大约十二年后的阿姆斯特丹港口，年迈的夸美纽斯给一群荷兰孩子看图画书。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/John_Amos_Comenius"
+  },
+  // Leopold I. habsburger.net: born 9 June 1640, meant for the Church, strict
+  // religious upbringing, motto "Consilio et industria", more than 150 arias,
+  // oratorios and requiems; married his niece and cousin Margarita Teresa in
+  // 1666, Velázquez's portraits of her sent to Vienna. en.wikipedia: Ferdinand
+  // IV crowned in Bohemia 5 Aug 1646, King of the Romans 1653, died of smallpox
+  // 9 July 1654 aged 20; Leopold crowned in Prague 14 Sept 1656. Peace of
+  // Vasvár after Saint Gotthard (1 Aug 1664): Uyvar (Nové Zámky) left to the
+  // Ottomans, a "gift" of 200,000 florins, held about twenty years. Las Meninas
+  // is dated 1656. Kept short on the war on purpose (user, 2026-10-29): only a
+  // setup for 1683.
+  {
+    "slug": "meant-for-the-church-1656",
+    "era": "voiceless-years",
+    "startYear": 1656.7,
+    "tone": "humorous",
+    "year": {
+      "en": "1654–1664",
+      "cz": "1654–1664",
+      "zh": "1654年－1664年"
+    },
+    "title": {
+      "en": "The Emperor Meant for the Church",
+      "cz": "Císař, který měl být knězem",
+      "zh": "本该当神父的皇帝"
+    },
+    "hookLine": {
+      "en": "Leopold was brought up to be a bishop. Then his brother died.",
+      "cz": "Leopolda vychovávali na biskupa. Pak mu zemřel bratr.",
+      "zh": "利奥波德从小被当成主教来培养，后来，他哥哥死了。"
+    },
+    "summary": {
+      "en": "Leopold was born in 1640, the emperor's second son. In the House of Habsburg a second son was usually meant for the Church, and so was he. The Jesuits taught him Latin, theology and the lives of the saints, and everyone expected him to end up a bishop, perhaps a cardinal.\n\nThen, in July 1654, his elder brother Ferdinand died of smallpox at the age of twenty. Ferdinand had already been crowned king of Bohemia and elected king of the Romans, next in line for the imperial crown. [[b]]Overnight, the fourteen-year-old who had been studying to say Mass became heir to everything.[[/b]]\n\nOn 14 September 1656 Leopold was crowned king of Bohemia in St Vitus Cathedral. He was sixteen. The following April his father died, and Leopold had to become emperor too. That took longer than anyone expected: France did all it could to get someone else elected, and for fifteen months the Empire had no emperor at all. Only in July 1658 did the electors in Frankfurt finally choose him.\n\nThe young emperor never quite stopped being the boy he had been raised to be. He was deeply pious, trusted his confessors, and loved music far more than war: he wrote more than 150 arias himself, as well as oratorios and requiems. His motto was:\n\n[[quote:0]]\n\nIn 1666 he married the Spanish infanta Margarita Teresa, his sister's daughter and at the same time his cousin. She was the little girl in the middle of Velázquez's Las Meninas, painted in Madrid in 1656, the same year Leopold was crowned in Prague. For years portraits of her had been sent to Vienna so that her future husband could watch her grow up.\n\nA pious young emperor might have hoped for a quiet reign. In 1663 the Ottoman grand vizier marched into Hungary with a huge army and took the fortress of Nové Zámky, and Tatar horsemen raided deep into Moravia, burning villages and driving off captives. On 1 August 1664 the imperial army under [[link:armour-for-prague-1653]]Montecuccoli[[/link]] beat the Turks on the river Rába at Saint Gotthard.\n\nTen days later Leopold's envoys signed a peace at Vasvár. The Ottomans kept everything they had taken, and the emperor even sent the sultan a \"gift\" of 200,000 florins. The Hungarians were furious: they had won the battle and lost the peace.\n\nThe truce was to last twenty years.",
+      "cz": "Leopold se narodil roku 1640 jako druhý syn císaře. V habsburském domě býval druhý syn obvykle určen pro církev, a on také. Jezuité ho učili latinu, teologii a životy svatých a všichni čekali, že z něj bude biskup, možná kardinál.\n\nPak v červenci 1654 zemřel jeho starší bratr Ferdinand na neštovice, ve dvaceti letech. Ferdinand byl už korunovaným českým králem a zvoleným římským králem, příštím na řadě pro císařskou korunu. [[b]]Ze čtrnáctiletého chlapce, který se učil sloužit mši, se přes noc stal dědic všeho.[[/b]]\n\nDne 14. září 1656 byl Leopold korunován českým králem ve svatovítské katedrále. Bylo mu šestnáct. Příštího dubna mu zemřel otec a Leopold se musel stát i císařem. Trvalo to déle, než kdo čekal: Francie dělala vše pro to, aby byl zvolen někdo jiný, a patnáct měsíců neměla říše vůbec žádného císaře. Teprve v červenci 1658 si ho kurfiřti ve Frankfurtu konečně zvolili.\n\nMladý císař nikdy úplně nepřestal být tím chlapcem, na kterého ho vychovávali. Byl hluboce zbožný, důvěřoval svým zpovědníkům a hudbu miloval mnohem víc než válku: sám složil přes 150 árií, k tomu oratoria a rekviem. Jeho heslo znělo:\n\n[[quote:0]]\n\nRoku 1666 se oženil se španělskou infantkou Markétou Terezií, dcerou své sestry a zároveň svou sestřenicí. Byla to ta holčička uprostřed Velázquezových Dvorních dam, namalovaných v Madridu roku 1656, téhož roku, kdy byl Leopold korunován v Praze. Celá léta posílali do Vídně její portréty, aby budoucí manžel viděl, jak roste.\n\nZbožný mladý císař mohl doufat v klidnou vládu. Roku 1663 ale vtáhl osmanský velkovezír s obrovským vojskem do Uher a dobyl pevnost Nové Zámky a tatarští jezdci pronikli hluboko na Moravu, pálili vesnice a odváděli zajatce. Dne 1. srpna 1664 porazilo císařské vojsko pod velením [[link:armour-for-prague-1653]]Montecuccoliho[[/link]] Turky na řece Rábě u Svatého Gotthardu.\n\nO deset dní později podepsali Leopoldovi vyslanci mír ve Vasváru. Osmané si ponechali všechno, co dobyli, a císař poslal sultánovi ještě „dar“ 200 000 zlatých. Uhři zuřili: bitvu vyhráli a mír prohráli.\n\nPříměří mělo platit dvacet let.",
+      "zh": "利奥波德生于1640年，是皇帝的次子。在哈布斯堡家族，次子通常是要进教会的，他也一样。耶稣会士教他拉丁文、神学和圣人传记，人人都以为，他将来会当上主教，说不定还能当上枢机。\n\n后来，1654年7月，他的哥哥斐迪南得天花死了，年仅二十岁。斐迪南已经加冕为波希米亚国王，也已经被选为罗马人的国王，下一个就该戴皇冠了。[[b]]一个正在学着做弥撒的十四岁少年，一夜之间，成了这一切的继承人。[[/b]]\n\n1656年9月14日，利奥波德在圣维特大教堂加冕为波希米亚国王，那年他十六岁。第二年4月，父亲去世，他还得当皇帝。这事比谁想的都难：法国千方百计想让别人当选，神圣罗马帝国整整十五个月没有皇帝。直到1658年7月，法兰克福的选帝侯们才终于选了他。\n\n这位年轻的皇帝，始终没能完全变成另一个人。他虔诚得很，事事信赖告解神父，爱音乐远胜过爱打仗：他自己写了一百五十多首咏叹调，还有清唱剧和安魂曲。他的座右铭是：\n\n[[quote:0]]\n\n1666年，他娶了西班牙公主玛格丽特·特蕾莎。她是他姐姐的女儿，同时又是他的表妹。她就是委拉斯开兹《宫娥》正中间的那个小女孩；那幅画1656年画于马德里，正是利奥波德在布拉格加冕的那一年。好几年里，她的肖像一幅接一幅地送到维也纳，好让未来的丈夫看着她长大。\n\n一位虔诚的年轻皇帝，本可以盼着太平度日。可1663年，奥斯曼的大维齐尔率大军开进匈牙利，攻下了新扎姆基要塞，鞑靼骑兵一路深入摩拉维亚，烧村子，掳人口。1664年8月1日，[[link:armour-for-prague-1653]]蒙特库科利[[/link]]率领的帝国军队，在拉巴河畔的圣戈特哈德打败了土耳其人。\n\n十天后，利奥波德的使节在沃什堡签了和约。土耳其人打下的地方一寸不还，皇帝还得给苏丹送上二十万弗罗林的“礼物”。匈牙利人气坏了：仗打赢了，和约却输了。\n\n停战期，定的是二十年。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "By counsel and by diligence.",
+          "cz": "Radou a pílí.",
+          "zh": "凭谋略，凭勤勉。"
+        },
+        "attribution": {
+          "en": "Motto of Leopold I",
+          "cz": "Heslo Leopolda I.",
+          "zh": "利奥波德一世的座右铭"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "st-vitus-cathedral",
+        "relation": {
+          "en": "Where Leopold was crowned king of Bohemia on 14 September 1656",
+          "cz": "Zde byl Leopold 14. září 1656 korunován českým králem",
+          "zh": "1656年9月14日，利奥波德在这里加冕为波希米亚国王"
+        }
+      },
+      {
+        "slug": "vysehrad-leopold-gate",
+        "relation": {
+          "en": "The citadel gate named after him",
+          "cz": "Brána citadely pojmenovaná po něm",
+          "zh": "以他命名的内堡城门"
+        }
+      }
+    ],
+    "images": [
+      "/history/meant-for-the-church-1656.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "St Vitus Cathedral, 14 September 1656: the sixteen-year-old Leopold kneels at the altar to be crowned king of Bohemia, while his old Jesuit tutor watches from the crowd and musicians play in the gallery.",
+        "cz": "Svatovítská katedrála, 14. září 1656: šestnáctiletý Leopold klečí u oltáře a je korunován českým králem, jeho starý jezuitský učitel přihlíží z davu a na kruchtě hrají hudebníci.",
+        "zh": "1656年9月14日，圣维特大教堂。十六岁的利奥波德跪在祭坛前加冕为波希米亚国王，他的耶稣会老师站在人群里看着，楼廊上乐师正在演奏。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Leopold_I,_Holy_Roman_Emperor"
+  },
+  // Marci and the Voynich manuscript. voynich.nu (letters page): the cover
+  // letter is dated 19 August 1665 (1666 is an old misreading), written by a
+  // scribe and signed by Marci, whose eyesight had failed; Baresch wrote to
+  // Kircher in 1637 and 1639, Kircher replied 12 March 1639; Marci inherited
+  // Baresch's library. Quote: the English translation as given in en.wikipedia
+  // (Zandbergen), translation only at the user's request (2026-10-29: the Latin
+  // made the box too heavy). en.wikipedia (Jan Marek Marci): rector 1662,
+  // physician to Ferdinand III and Leopold I, defended Prague in 1648,
+  // Thaumantias 1648 (colours from refraction, before Newton), did NOT join the
+  // Jesuits before his death despite the order's legend, died 10 April 1667.
+  // Voynich: bought 1912 from the Jesuits, at Yale since 1969, parchment
+  // radiocarbon-dated 1404–1438.
+  {
+    "slug": "the-book-nobody-could-read-1665",
+    "era": "voiceless-years",
+    "startYear": 1665,
+    "tone": "humorous",
+    "year": {
+      "en": "1665–1667",
+      "cz": "1665–1667",
+      "zh": "1665年－1667年"
+    },
+    "title": {
+      "en": "The Book Nobody Could Read",
+      "cz": "Kniha, kterou nikdo nepřečetl",
+      "zh": "谁也读不懂的书"
+    },
+    "hookLine": {
+      "en": "An old Prague doctor posted a strange little book to Rome. Nobody has read it since.",
+      "cz": "Starý pražský lékař poslal do Říma podivnou knížku. Dodnes ji nikdo nepřečetl.",
+      "zh": "布拉格的一位老医生，往罗马寄了一本古怪的小书。直到今天，也没人读懂它。"
+    },
+    "summary": {
+      "en": "In August 1665 an old Prague doctor, his eyes almost gone, had a letter written to Rome and signed it himself. Jan Marek Marci was seventy. He was a professor of medicine, eight times dean, in 1662 rector of the [[link:two-schools-become-one-1654]]newly united university[[/link]], and physician to two emperors. In 1648 he had been on the walls against the Swedes.\n\nHe was a serious scientist too. He studied how bodies behave when they collide, and in 1648, in a book on the rainbow called Thaumantias, he argued that colours come from the bending of light, a generation before Isaac Newton.\n\nThe letter went with a parcel. Inside was a small book Marci had inherited from a friend, the Prague alchemist Georg Baresch. It was full of plants that grow nowhere on earth, charts of the stars, little naked women bathing in green pools, and page after page of a script that nobody could read.\n\nBaresch had puzzled over it for years. As early as 1637 he had sent copied pages to the one man in Europe who might crack it: Athanasius Kircher, a German Jesuit in Rome who claimed he could read Egyptian hieroglyphs. Kircher answered politely and cracked nothing.\n\nNow Marci sent him the book itself, \"for I was convinced it could be read by no one except yourself\", and with it the story of where it had come from:\n\n[[quote:0]]\n\nSo the strange book that [[link:the-gold-that-never-came-1584]]Rudolf[[/link]] was said to have bought for a fortune really had passed through the emperor's hands, and after his death it had ended up on a Prague alchemist's shelf.\n\nKircher could not read it either. The book stayed in the Jesuits' library in Rome for nearly 250 years, until in 1912 a Polish-born book dealer, Wilfrid Voynich, bought it with Marci's letter still inside. It has carried his name ever since. Today it is at Yale. Radiocarbon tests date its parchment to the early fifteenth century, so Roger Bacon, who died in 1292, is out of the running. [[b]]Codebreakers, linguists and computers have been at it for more than a hundred years, and nobody has yet read a single sentence.[[/b]]\n\nMarci died in Prague in April 1667. Six months later Cardinal Harrach died too, after forty-four years as archbishop.\n\nThe Jesuits later let it be known that Marci had joined their order on his deathbed. That story could not be trusted either.",
+      "cz": "V srpnu 1665 dal starý pražský lékař, který už skoro neviděl, napsat dopis do Říma a sám ho podepsal. Janu Markovi Marcimu bylo sedmdesát. Byl profesorem medicíny, osmkrát děkanem, roku 1662 rektorem [[link:two-schools-become-one-1654]]nově spojené univerzity[[/link]] a lékařem dvou císařů. Roku 1648 stál na hradbách proti Švédům.\n\nByl to i vážný vědec. Zkoumal, jak se tělesa chovají při srážce, a roku 1648 v knize o duze nazvané Thaumantias tvrdil, že barvy vznikají lomem světla, o generaci dřív než Isaac Newton.\n\nS dopisem šel balíček. Byla v něm malá kniha, kterou Marci zdědil po příteli, pražském alchymistovi Jiřím Bareschovi. Byla plná rostlin, jaké nikde na světě nerostou, hvězdných map, malých nahých žen koupajících se v zelených tůních a strana za stranou písma, které nikdo neuměl přečíst.\n\nBaresch si nad ní léta lámal hlavu. Už roku 1637 poslal opsané stránky jedinému muži v Evropě, který by ji snad mohl rozluštit: Athanasiu Kircherovi, německému jezuitovi v Římě, který tvrdil, že umí číst egyptské hieroglyfy. Kircher zdvořile odpověděl a nerozluštil nic.\n\nTeď mu Marci poslal knihu samotnou, „neboť jsem byl přesvědčen, že ji nikdo kromě tebe přečíst nedokáže“, a k ní příběh, odkud se vzala:\n\n[[quote:0]]\n\nPodivná kniha, kterou si prý [[link:the-gold-that-never-came-1584]]Rudolf[[/link]] koupil za celé jmění, tedy opravdu prošla císařovýma rukama a po jeho smrti skončila v knihovně pražského alchymisty.\n\nKircher ji nepřečetl také. Kniha zůstala v knihovně jezuitů v Římě skoro 250 let, až ji roku 1912 koupil antikvář polského původu Wilfrid Voynich, i s Marciho dopisem uvnitř. Od té doby nese jeho jméno. Dnes je v Yale. Radiokarbonové datování klade její pergamen do počátku 15. století, takže Roger Bacon, který zemřel roku 1292, nepřipadá v úvahu. [[b]]Luštitelé šifer, jazykovědci i počítače se do ní pouštějí přes sto let a dosud nikdo nepřečetl ani jedinou větu.[[/b]]\n\nMarci zemřel v Praze v dubnu 1667. O půl roku později zemřel i kardinál Harrach, po čtyřiačtyřiceti letech v čele arcidiecéze.\n\nJezuité pak roznesli, že Marci na smrtelné posteli vstoupil do jejich řádu. Ani tomuhle příběhu se nedalo věřit.",
+      "zh": "1665年8月，布拉格一位眼睛几乎瞎了的老医生，请人代笔，给罗马写了一封信，自己在末尾签了名。他叫马尔奇，那年七十岁，是医学教授，当过八次院长，1662年做过[[link:two-schools-become-one-1654]]刚合并的大学[[/link]]的校长，还给两位皇帝看过病。1648年瑞典人围城时，他也上过城头。\n\n他还是个正经的科学家。他研究过物体相撞时是怎么运动的；1648年，他在一本讲彩虹的书《陶曼提亚斯》里提出，颜色是光线折射出来的，比牛顿早了一代人。\n\n信是随一个包裹一起寄的。包裹里是一本小书，马尔奇从一位朋友、布拉格的炼金术士巴雷什那里继承来的。书里画满了世上没有的植物、星图、在绿色池子里洗澡的小小裸女，还有一页又一页谁也认不出来的文字。\n\n巴雷什为这本书伤了好多年的脑筋。早在1637年，他就抄了几页，寄给欧洲唯一可能破解它的人：罗马的德意志耶稣会士基歇尔，此人自称能读懂埃及象形文字。基歇尔客客气气地回了信，什么也没破解出来。\n\n这一回，马尔奇把书本身寄了过去，说“我深信，除了你，谁也读不懂它”，还附上了这本书的来历：\n\n[[quote:0]]\n\n原来，传说中[[link:the-gold-that-never-came-1584]]鲁道夫[[/link]]花大价钱买下的那本怪书，真的经过皇帝的手；皇帝死后，它流落到了布拉格一位炼金术士的书架上。\n\n基歇尔也没读懂。这本书在罗马耶稣会的藏书楼里一放就是将近二百五十年，直到1912年，一位波兰出身的古书商伏尼契把它买了下来，马尔奇的信还夹在里面。从此，这本书就叫“伏尼契手稿”。如今它在耶鲁大学。放射性碳测年显示，它的羊皮纸是15世纪初的，1292年就去世的罗杰·培根，可以排除了。[[b]]一百多年来，密码专家、语言学家、计算机轮番上阵，到今天还没有人读懂其中的一句话。[[/b]]\n\n1667年4月，马尔奇在布拉格去世。半年后，哈拉赫枢机主教也去世了，他做了四十四年的布拉格大主教。\n\n后来耶稣会放出话来，说马尔奇临终前加入了他们的修会。这个故事，也一样信不得。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "Dr Raphael, tutor in the Bohemian language to Ferdinand III, then King of Bohemia, told me that the said book had belonged to the Emperor Rudolf, and that he presented to the bearer who brought him the book 600 ducats. He believed the author was Roger Bacon, the Englishman. On this point I suspend judgement; it is your place to define for us what view we should take thereon.",
+          "cz": "Doktor Rafael, učitel českého jazyka Ferdinanda III., tehdy krále českého, mi řekl, že zmíněná kniha patřila císaři Rudolfovi a že doručiteli, který mu ji přinesl, daroval 600 dukátů. Za autora pokládal Angličana Rogera Bacona. Já se tu úsudku zdržuji; tobě náleží určit, co si o tom máme myslet.",
+          "zh": "拉斐尔博士，当年教波希米亚国王斐迪南三世捷克语的老师，告诉我说，这本书原是鲁道夫皇帝的，皇帝给了送书来的人六百杜卡特。他认为作者是英国人罗杰·培根。在这一点上，我不下判断；该怎么看，还得由你来替我们定夺。"
+        },
+        "attribution": {
+          "en": "Jan Marek Marci, letter to Athanasius Kircher, 19 August 1665",
+          "cz": "Jan Marek Marci, dopis Athanasiu Kircherovi, 19. srpna 1665",
+          "zh": "马尔奇致基歇尔的信，1665年8月19日"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "karolinum",
+        "relation": {
+          "en": "The university Marci served as professor, dean and, in 1662, rector",
+          "cz": "Univerzita, na níž Marci působil jako profesor, děkan a roku 1662 rektor",
+          "zh": "马尔奇任教的大学，他在这里当过教授、院长，1662年当过校长"
+        }
+      }
+    ],
+    "images": [
+      "/history/the-book-nobody-could-read-1665.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Prague, August 1665: the nearly blind Marci peers through a magnifying glass at the strange book, while a young scribe writes his letter to Kircher and a servant wraps the parcel for Rome.",
+        "cz": "Praha, srpen 1665: téměř slepý Marci si lupou prohlíží podivnou knihu, mladý písař za něj píše dopis Kircherovi a sluha balí zásilku do Říma.",
+        "zh": "1665年8月的布拉格：几乎失明的马尔奇举着放大镜端详那本怪书，年轻的抄写员替他给基歇尔写信，仆人在包寄往罗马的包裹。"
+      }
+    ],
+    "referenceMaps": {
+      "links": [
+        {
+          "label": "Yale",
+          "description": {
+            "en": "The Voynich manuscript at Yale's Beinecke Library, with the whole book online",
+            "cz": "Voynichův rukopis v Beineckeho knihovně Yaleovy univerzity, celá kniha online",
+            "zh": "耶鲁大学拜内克图书馆的伏尼契手稿页面，可在线翻看全书"
+          },
+          "url": "https://beinecke.library.yale.edu/beinecke/collections/beinecke-cipher-voynich-manuscript"
+        }
+      ]
+    },
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Voynich_manuscript"
+  },
+  // Baroque building, 1660s–1680s. Černín Palace from the Czech Foreign
+  // Ministry's history (mzv.gov.cz): Caratti's offer 9 Nov 1667, front 134.4 m,
+  // contract 23 Aug 1668, digging from 26 Mar 1669, Leopold's visit and remark
+  // on 3 Sept 1673 (the quote; translation only), Humprecht died 13 Feb 1682,
+  // interior stucco finished in the 1820s, the family's finances worsened.
+  // Nostitz Palace: begun c. 1660 for Jan Hartvík Nostitz, Caratti or Lurago
+  // (prague.eu, pragitecture). St Ignatius: Lurago 1665–71, the whole-body halo
+  // statue from 1671, controversial (prague.eu; en.wikipedia). Mathey: St
+  // Francis of Assisi (Knights of the Cross) from 1679, Troja from 1679.
+  {
+    "slug": "a-building-boom-1669",
+    "era": "voiceless-years",
+    "startYear": 1669,
+    "tone": "humorous",
+    "year": {
+      "en": "1660s–1680s",
+      "cz": "60.–80. léta 17. století",
+      "zh": "17世纪60年代－80年代"
+    },
+    "title": {
+      "en": "Scaffolding Everywhere",
+      "cz": "Všude lešení",
+      "zh": "满城脚手架"
+    },
+    "hookLine": {
+      "en": "Twenty years after the war, Prague began to build again, and the builders were not the townspeople.",
+      "cz": "Dvacet let po válce se Praha znovu začala stavět, a stavěli ji jiní než měšťané.",
+      "zh": "战后二十年，布拉格又开始大兴土木，只是盖房子的，不是市民。"
+    },
+    "summary": {
+      "en": "For twenty years after the war Prague mostly patched itself up. In the 1660s it began to build again, and those doing the building were not the townspeople.\n\nThey were noble families who had come out of the war well: estates confiscated from the losers of White Mountain, service to the emperor, a title in reward. They wanted a house in Prague, near the castle and the offices of the kingdom, and they wanted it to look new. The look came from Italy, and so did the men who built it: masons, stuccoers and architects from around the lakes of Como and Lugano.\n\nOne of the first was the Nostitz Palace in the Lesser Town, begun around 1660 for the chancellor Jan Hartvík Nostitz, probably to a design by Francesco Caratti or Carlo Lurago.\n\nThe Jesuits were building too. From 1665 Lurago raised the Church of St Ignatius on the New Town's Cattle Market, today's Charles Square, next to their new college. Since 1671 the [[link:who-were-the-jesuits-1556]]order's founder[[/link]] has stood on its gable with a golden halo around his whole body. A halo like that was normally kept for Christ, and not everyone thought it fitting for Ignatius.\n\nIn 1673 the Jesuits also laid a foundation stone on the Lesser Town Square, where the old Gothic church of St Nicholas had been pulled down. The new church would only begin to rise thirty years later, in the hands of a new generation of builders, and it took half a century to finish.\n\nThe biggest of them all went up at Hradčany, a short walk from the castle. Count Humprecht Jan Černín had served as the emperor's envoy in Venice and come home with grand ideas. He was the same Humprecht to whom his mother had written in 1645, in the [[link:thirty-years-1648]]last years of the war[[/link]], that their hardship \"cannot even be described\".\n\nIn August 1668 he signed a contract for a palace designed by Caratti, and in March 1669 the digging began. The main front was to run for about 140 metres, lined with giant half-columns. It was a palace fit for a king, built for a count.\n\nOn 3 September 1673 Emperor Leopold came to see the building site. The walls stood, but there was no gate yet. He said:\n\n[[quote:0]]\n\nThe Černíns are said to have resented the remark for years. Humprecht died in 1682 with the palace still unfinished, the family's money ran low, and the last of the stucco inside was only done in the 1820s.\n\nAt the end of the 1670s a Frenchman, Jean-Baptiste Mathey, brought a lighter style to town. From 1679 he built the domed Church of St Francis of Assisi for the Knights of the Cross by Charles Bridge, and, across the river, a red-and-white summer palace in Troja for Count Šternberk.\n\n[[b]]Prague had lost its king, a great many of its people and much of its own voice, and in those same years it was turning into one of the most beautiful Baroque cities in Europe.[[/b]]\n\nIf this was the [[link:what-was-the-darkness-1650]]Darkness[[/link]], it was very well decorated.",
+      "cz": "Dvacet let po válce se Praha hlavně záplatovala. V 60. letech se znovu začalo stavět, a ti, kdo stavěli, nebyli měšťané.\n\nByly to šlechtické rody, kterým se ve válce vedlo dobře: statky zabavené poraženým od Bílé hory, služba císaři, titul za odměnu. Chtěly dům v Praze, blízko Hradu a zemských úřadů, a chtěly, aby vypadal nově. Ten vzhled přišel z Itálie, a z Itálie přišli i lidé, kteří ho stavěli: zedníci, štukatéři a architekti z okolí jezer Como a Lugano.\n\nJedním z prvních byl Nostický palác na Malé Straně, založený kolem roku 1660 pro kancléře Jana Hartvíka z Nostic, nejspíš podle návrhu Francesca Carattiho nebo Carla Luraga.\n\nStavěli i jezuité. Od roku 1665 stavěl Lurago na novoměstském Dobytčím trhu, dnešním Karlově náměstí, vedle jejich nové koleje kostel sv. Ignáce. Od roku 1671 stojí na jeho štítu [[link:who-were-the-jesuits-1556]]zakladatel řádu[[/link]] se zlatou svatozáří kolem celého těla. Taková svatozář bývala vyhrazena Kristu a ne každému připadalo vhodné ji dát Ignácovi.\n\nRoku 1673 položili jezuité základní kámen také na Malostranském náměstí, kde dali strhnout starý gotický kostel sv. Mikuláše. Nový kostel se ale začal zvedat až o třicet let později, v rukou nové generace stavitelů, a jeho dokončení trvalo půl století.\n\nNejvětší ze všech vyrostl na Hradčanech, kousek od Hradu. Hrabě Humprecht Jan Černín sloužil jako císařský vyslanec v Benátkách a vrátil se domů s velkými plány. Byl to týž Humprecht, kterému matka roku 1645, v [[link:thirty-years-1648]]posledních letech války[[/link]], psala, že jejich potíže „ani není možné popsat“.\n\nV srpnu 1668 podepsal smlouvu na palác podle návrhu Carattiho a v březnu 1669 se začalo kopat. Hlavní průčelí mělo měřit asi 140 metrů a lemovat je měly obří polosloupy. Palác hodný krále, postavený pro hraběte.\n\nDne 3. září 1673 se na staveniště přijel podívat císař Leopold. Zdi stály, ale brána ještě ne. Řekl:\n\n[[quote:0]]\n\nČernínové prý tu poznámku léta nemohli zapomenout. Humprecht zemřel roku 1682 a palác byl pořád nedostavěný, rodině docházely peníze a poslední štuky uvnitř se dodělaly až ve 20. letech 19. století.\n\nNa konci 70. let přinesl do města lehčí sloh Francouz Jean-Baptiste Mathey. Od roku 1679 stavěl pro křižovníky u Karlova mostu kostel sv. Františka z Assisi s kupolí a na druhém břehu řeky pro hraběte Šternberka červenobílý letohrádek v Troji.\n\n[[b]]Praha přišla o krále, o velkou část obyvatel i o kus vlastního hlasu, a právě v těch letech se měnila v jedno z nejkrásnějších barokních měst Evropy.[[/b]]\n\nJestli tohle byla [[link:what-was-the-darkness-1650]]doba temna[[/link]], byla to temnota velmi pěkně vyzdobená.",
+      "zh": "战后二十年，布拉格大多是在缝缝补补。到了17世纪60年代，城里又开始大兴土木，只是盖房子的，不是市民。\n\n盖房子的是那些在战争里混得不错的贵族家族：白山之后从败者手里没收来的庄园，替皇帝效力的功劳，封赏下来的爵位。他们想在布拉格有一座宅邸，离城堡和王国的衙门近一点，还要看上去够新。这种新样子来自意大利，盖房子的人也来自意大利：科莫湖、卢加诺湖一带的石匠、灰泥匠和建筑师。\n\n最早的一批里，有小城的诺斯蒂茨宫，大约1660年为宰相诺斯蒂茨动工，设计的多半是卡拉蒂或卢拉戈。\n\n耶稣会也在盖。从1665年起，卢拉戈在新城的牲口市场，也就是今天的查理广场，紧挨着耶稣会的新学院，盖起了圣依纳爵教堂。1671年起，[[link:who-were-the-jesuits-1556]]修会的创始人[[/link]]就站在教堂的山墙上，全身罩着一圈金色的光环。这样的光环一般是留给基督的，给依纳爵用，并不是人人都觉得妥当。\n\n1673年，耶稣会还在小城广场上奠了基。那里原本的哥特式圣尼古拉教堂已经被拆掉了。不过新教堂要再过三十年才开始往上盖，盖它的是新一代的建筑师，前前后后又花了半个世纪。\n\n最大的一座，盖在城堡区，离城堡没几步路。切尔宁伯爵洪布雷赫特当过皇帝驻威尼斯的使节，回国时满脑子都是大计划。他就是1645年，[[link:thirty-years-1648]]战争的最后几年[[/link]]，母亲写信对他说，他们受的苦“简直没法描述”的那个洪布雷赫特。\n\n1668年8月，他签下合同，请卡拉蒂设计一座宫殿，1669年3月开始挖地基。正立面要长达一百四十米左右，排满巨大的半圆壁柱。这是一座够国王住的宫殿，盖给一位伯爵。\n\n1673年9月3日，利奥波德皇帝来工地看了看。墙已经立起来了，大门还没有。他说：\n\n[[quote:0]]\n\n据说切尔宁家为这句话记恨了好多年。1682年洪布雷赫特去世，宫殿还没完工，家里的钱也越来越紧，里面最后一点灰泥装饰，直到19世纪20年代才做完。\n\n17世纪70年代末，一位法国人马泰给布拉格带来了一种更轻盈的风格。从1679年起，他在查理大桥桥头，为十字骑士团盖起了带穹顶的圣方济各教堂；又在河对岸的特罗亚，为施特恩贝格伯爵盖了一座红白相间的夏宫。\n\n[[b]]布拉格失去了国王，失去了大批人口，也失去了自己的不少声音，可就在这些年里，它正变成全欧洲最美的巴洛克城市之一。[[/b]]\n\n如果这就是[[link:what-was-the-darkness-1650]]“黑暗时代”[[/link]]，那它装修得可真够漂亮的。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "It is a big barn, but without a door.",
+          "cz": "Je to velká stodola, ale bez vrat.",
+          "zh": "好大一座谷仓，可惜没有门。"
+        },
+        "attribution": {
+          "en": "Emperor Leopold I at the Černín Palace building site, 3 September 1673",
+          "cz": "Císař Leopold I. na staveništi Černínského paláce, 3. září 1673",
+          "zh": "利奥波德一世在切尔宁宫工地上，1673年9月3日"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "ernn-palace-1782591056309",
+        "relation": {
+          "en": "Humprecht Černín's palace, begun in 1669 to Caratti's design",
+          "cz": "Palác Humprechta Černína, založený roku 1669 podle Carattiho návrhu",
+          "zh": "切尔宁伯爵的宫殿，1669年按卡拉蒂的设计动工"
+        }
+      },
+      {
+        "slug": "kostel-sv-ignace",
+        "relation": {
+          "en": "The Jesuit church on Charles Square, begun in 1665, with Ignatius in his whole-body halo on the gable",
+          "cz": "Jezuitský kostel na Karlově náměstí z roku 1665, s Ignácem v celotělové svatozáři na štítu",
+          "zh": "查理广场上的耶稣会教堂，1665年动工，山墙上的依纳爵全身罩着光环"
+        }
+      },
+      {
+        "slug": "st-nicholas-mala-strana",
+        "relation": {
+          "en": "The Jesuits laid the foundation stone here in 1673; the church itself was built from 1703 to the 1750s",
+          "cz": "Jezuité tu položili základní kámen roku 1673; samotný kostel se stavěl od roku 1703 do 50. let 18. století",
+          "zh": "耶稣会1673年在这里奠基，教堂本身从1703年一直盖到18世纪50年代"
+        }
+      },
+      {
+        "slug": "nostick-palace-ministry-of-culture-of-the-czech-republic-1782395857267",
+        "relation": {
+          "en": "One of the first new Baroque palaces in the Lesser Town, begun around 1660",
+          "cz": "Jeden z prvních nových barokních paláců na Malé Straně, založený kolem roku 1660",
+          "zh": "小城最早的一批巴洛克新宫殿之一，约1660年动工"
+        }
+      },
+      {
+        "slug": "kostel-sv-frantiska-z-assisi",
+        "relation": {
+          "en": "Mathey's domed church for the Knights of the Cross by Charles Bridge, begun in 1679",
+          "cz": "Matheyův kostel křižovníků s kupolí u Karlova mostu, založený roku 1679",
+          "zh": "马泰为十字骑士团设计的穹顶教堂，就在查理大桥桥头，1679年动工"
+        }
+      },
+      {
+        "slug": "troja-chateau-garden",
+        "relation": {
+          "en": "Mathey's summer palace for Count Šternberk, begun in 1679",
+          "cz": "Matheyův letohrádek pro hraběte Šternberka, založený roku 1679",
+          "zh": "马泰为施特恩贝格伯爵设计的夏宫，1679年动工"
+        }
+      }
+    ],
+    "images": [
+      "/history/a-building-boom-1669.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Hradčany, 3 September 1673: Emperor Leopold points at the boarded-up hole where the Černín Palace's gate should be, while his courtiers smirk and Count Černín stands holding the plans beside his anxious architect.",
+        "cz": "Hradčany, 3. září 1673: císař Leopold ukazuje na zabedněný otvor, kde měla být brána Černínského paláce, dvořané se pochechtávají a hrabě Černín stojí s plány vedle ustaraného architekta.",
+        "zh": "1673年9月3日，城堡区。利奥波德皇帝指着切尔宁宫正中那个用木板挡着、本该装大门的洞，廷臣们在一旁偷笑，切尔宁伯爵拿着设计图站在那儿，身边的建筑师一脸不安。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/%C4%8Cern%C3%ADn_Palace"
+  },
+  // Background: Baroque architecture, written plainly at the user's request (no
+  // architectural jargon). Quote: Council of Trent, Session XXV (Dec 1563),
+  // decree on sacred images, Waterworth's 1848 translation (Hanover College
+  // text), shortened; translation only.
+  {
+    "slug": "what-is-baroque-1669",
+    "era": "voiceless-years",
+    "cardType": "background",
+    "startYear": 1669.5,
+    "tone": "humorous",
+    "year": {
+      "en": "c. 1600–1750",
+      "cz": "asi 1600–1750",
+      "zh": "约1600年－1750年"
+    },
+    "title": {
+      "en": "What Is Baroque?",
+      "cz": "Co je baroko?",
+      "zh": "巴洛克是什么"
+    },
+    "hookLine": {
+      "en": "A style that does not want you to think it over, just to stop in the doorway and gasp.",
+      "cz": "Sloh, který nechce, abyste přemýšleli. Chce, abyste se zastavili ve dveřích a vydechli.",
+      "zh": "一种不想让你细细琢磨的风格，它只想让你站在门口，倒吸一口气。"
+    },
+    "summary": {
+      "en": "Nobody in the seventeenth century called it Baroque. The name came later, probably from the Portuguese barroco, a pearl that has grown lumpy and lopsided, and it was meant as an insult: critics of the next century found the whole style overdone.\n\nIt was born in Rome around 1600. The Protestants had stripped their churches bare: white walls, plain benches, the sermon at the centre. The Catholic Church went the other way. At the Council of Trent it had declared that pictures and statues were good for the soul:\n\n[[quote:0]]\n\nSo a Baroque church does not want you to think it over. It wants you to stop in the doorway and gasp.\n\nCompared with the calm, tidy lines of the [[link:what-was-the-renaissance-1555]]Renaissance[[/link]], it is easy to spot. Nothing is quite straight: church fronts swell outwards and curve back in, as if the walls were breathing.\n\nEverything moves. Saints are caught in the middle of a gesture, their robes flapping in a wind that isn't blowing, and angels tumble out of the clouds.\n\nThe ceiling seems to be missing. Painters made a flat ceiling look as if it opened straight onto the sky, with heaven's whole population looking down.\n\nThe light comes from windows you cannot see and falls exactly where it should, on the altar. And there is gold. A great deal of gold.\n\n[[b]]Gothic churches pointed upward, to lift your eyes to heaven. Baroque tried something bolder: it brought heaven down into the room.[[/b]]\n\nThe same tricks worked for the powerful. A Baroque palace has a long, even front, a grand staircase made to be climbed slowly while people watch, and a garden laid out with a ruler, where even the hedges stand to attention.\n\nIn Bohemia the style arrived with the winners of White Mountain: the Habsburg court, the Jesuits and the new nobility, and at first it was built by Italian masters. Over the next century it spread into every corner of the country: churches and palaces, statues on bridges, chapels on hilltops, columns in town squares like the [[link:the-column-on-the-square-1650]]one in the Old Town[[/link]].\n\nIt began as propaganda in stone. Three hundred years later, the Czech landscape is hard to imagine without it.",
+      "cz": "V 17. století mu nikdo barokní neříkal. To jméno přišlo později, nejspíš z portugalského barroco, perly, která vyrostla hrbolatá a nepravidelná, a byla to nadávka: kritikům příštího století připadal celý ten sloh přehnaný.\n\nZrodil se v Římě kolem roku 1600. Protestanti své kostely vyklidili: bílé zdi, prosté lavice, uprostřed kázání. Katolická církev se vydala opačnou cestou. Na tridentském koncilu prohlásila, že obrazy a sochy prospívají duši:\n\n[[quote:0]]\n\nBarokní kostel tedy nechce, abyste o něm přemýšleli. Chce, abyste se zastavili ve dveřích a vydechli.\n\nVedle klidných, uspořádaných linií [[link:what-was-the-renaissance-1555]]renesance[[/link]] se dá snadno poznat. Nic není úplně rovné: průčelí kostelů se vyklenují ven a zase prohýbají dovnitř, jako by zdi dýchaly.\n\nVšechno je v pohybu. Světci jsou zachyceni uprostřed gesta, roucha jim vlají ve větru, který nefouká, a z oblaků se kutálejí andělé.\n\nStrop jako by chyběl. Malíři dokázali rovný strop namalovat tak, že se zdá otevřený přímo do nebe, odkud se dívá dolů celé nebeské osazenstvo.\n\nSvětlo přichází z oken, která nevidíte, a padá přesně tam, kam má, na oltář. A všude je zlato. Hodně zlata.\n\n[[b]]Gotické kostely mířily vzhůru, aby pozvedly vaše oči k nebi. Baroko si trouflo na víc: přineslo nebe dolů, přímo do místnosti.[[/b]]\n\nStejné triky fungovaly i pro mocné. Barokní palác má dlouhé souměrné průčelí, velké schodiště, po kterém se má stoupat pomalu, zatímco se ostatní dívají, a zahradu vyměřenou podle pravítka, kde i živé ploty stojí v pozoru.\n\nDo Čech přišel tento sloh s vítězi od Bílé hory: s habsburským dvorem, jezuity a novou šlechtou, a zpočátku ho stavěli italští mistři. Během dalšího století se rozšířil do každého kouta země: kostely a paláce, sochy na mostech, kaple na kopcích, sloupy na náměstích jako [[link:the-column-on-the-square-1650]]ten na Staroměstském[[/link]].\n\nZačal jako propaganda z kamene. O tři sta let později si českou krajinu bez něj lze jen těžko představit.",
+      "zh": "17世纪的人，并不管它叫“巴洛克”。这个名字是后来才有的，多半来自葡萄牙语的barroco，意思是长得疙疙瘩瘩、歪歪扭扭的珍珠。起这个名字是在骂人：下一个世纪的评论家觉得，这种风格太过了。\n\n它大约1600年诞生在罗马。新教徒把自己的教堂搬得空空荡荡：白墙，素板凳，讲道放在正中间。天主教会偏偏反着来。在特伦托大公会议上，教会宣布，画像和雕像对灵魂有好处：\n\n[[quote:0]]\n\n所以，巴洛克教堂并不想让你细细琢磨。它只想让你站在门口，倒吸一口气。\n\n跟[[link:what-was-the-renaissance-1555]]文艺复兴[[/link]]那种平静、规整的线条一比，巴洛克很好认。首先，几乎没有一样东西是直的：教堂的正面往外鼓，又往里收，好像墙在呼吸。\n\n其次，什么都在动。圣人们被定格在一个动作的半截，衣袍在根本没刮的风里飘着，天使从云里一个接一个地翻下来。\n\n再看天花板，它好像不见了。画家能把平平的天花板画得像直接通向天空，满天的圣徒正低头往下看。\n\n光从你看不见的窗户里透进来，不偏不倚，正好落在祭坛上。还有金子，到处都是金子，很多很多金子。\n\n[[b]]哥特式教堂往上指，是要把你的目光抬向天堂；巴洛克更大胆，它把天堂直接搬进了屋里。[[/b]]\n\n同样的手法，权贵们也用得上。一座巴洛克宫殿，有一道长长的、左右对称的正面；有一座大楼梯，专门让人一步一步慢慢往上走，好让旁人看着；还有一座拿尺子量出来的花园，连树篱都站得笔直，像在立正。\n\n在波希米亚，这种风格是跟着白山之战的胜利者一起来的：哈布斯堡宫廷、耶稣会和新贵族，一开始盖房子的也都是意大利师傅。接下来的一百年里，它铺满了这片土地的每个角落：教堂和宫殿，桥上的雕像，山顶的小礼拜堂，还有广场上的柱子，比如[[link:the-column-on-the-square-1650]]老城广场上那一根[[/link]]。\n\n它起初是用石头写成的宣传。三百年后，要想象一片没有巴洛克的捷克风景，反倒不容易了。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "Great profit is derived from all sacred images … because the miracles which God has performed by means of the saints, and their salutary examples, are set before the eyes of the faithful; that so they may … be excited to adore and love God, and to cultivate piety.",
+          "cz": "Ze všech posvátných obrazů plyne veliký užitek … neboť zázraky, které Bůh skrze svaté vykonal, a jejich spasitelné příklady se tak stavějí věřícím před oči, aby … byli povzbuzeni Boha uctívat a milovat a pěstovat zbožnost.",
+          "zh": "一切圣像都大有益处……因为天主借圣人所行的奇迹，和他们有益于救赎的榜样，由此摆在了信众的眼前，好让他们……被激发起来，去敬拜、爱慕天主，培养虔诚。"
+        },
+        "attribution": {
+          "en": "Council of Trent, decree on sacred images, December 1563",
+          "cz": "Tridentský koncil, dekret o posvátných obrazech, prosinec 1563",
+          "zh": "特伦托大公会议关于圣像的决议，1563年12月"
+        }
+      }
+    ],
+    "relatedLandmarks": [],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Baroque_architecture"
+  },
+  // Balbín. cs.wikipedia: born 3 Dec 1621 Hradec Králové, died 29 Nov 1688 in
+  // Prague, buried in the crypt of St Salvator (Klementinum); the Epitome
+  // blocked mainly by the Supreme Burgrave Martinic (objections: Charles IV and
+  // George of Poděbrady praised, little on the House of Austria, a passage on
+  // taxes), Balbín sent to Klatovy, printed 1677 after Rome and the imperial
+  // librarian Lambeck cleared it; the "nepravdu psáti" line is attributed to him
+  // in that context (kept in the prose as "is said to"). Bernard Ignác Martinic,
+  // Supreme Burgrave 1651–1685, was the son of Jaroslav Bořita Martinic of the
+  // 1618 defenestration (cs.wikipedia). Dissertatio apologetica written in
+  // Klatovy 1672–73 for Tomáš Pešina, circulated in copies, printed by Pelcl in
+  // 1775. Quotes 1 and 2 and the paraphrased bold line: the Dissertatio, §I and
+  // §XVIII, in Emanuel Tonner's 1869 Czech translation (cs.wikisource); the
+  // Mnišovský story is §X. Quote 0: Bohemia docta (printed 1777), Czech as given
+  // on cs.wikiquote. EN/ZH are our own translations from the Czech.
+  {
+    "slug": "a-defence-of-czech-1672",
+    "era": "voiceless-years",
+    "startYear": 1672,
+    "tone": "serious",
+    "year": {
+      "en": "1621–1688",
+      "cz": "1621–1688",
+      "zh": "1621年－1688年"
+    },
+    "title": {
+      "en": "A Defence of Czech",
+      "cz": "Obrana češtiny",
+      "zh": "为捷克语辩护"
+    },
+    "hookLine": {
+      "en": "A Jesuit wrote a fierce defence of the Czech language, for one reader only. It waited a hundred years to be printed.",
+      "cz": "Jezuita napsal vášnivou obranu češtiny, jen pro jediného čtenáře. Na tisk čekala sto let.",
+      "zh": "一位耶稣会士写下一篇为捷克语辩护的激昂文字，只给一个人看。它等了一百年，才印成书。"
+    },
+    "summary": {
+      "en": "While new palaces and churches rose in stone, one man was trying to save Bohemia on paper. A façade could be ordered from Italy. A country's memory and its own language could not.\n\nNor was it only the \"heretics\" in exile who cared about Czech. [[link:comenius-last-years-1656]]Comenius[[/link]] had lost his great dictionary in a Polish fire. At home in Bohemia, the language found a defender where nobody would have looked for one: in the black cassock of a Jesuit.\n\nBohuslav Balbín was born in Hradec Králové in December 1621, the year of the [[link:twenty-seven-1621]]executions on the Old Town Square[[/link]]. He grew up in the new Bohemia: Catholic, obedient, and more German-speaking every year. At fifteen he joined the [[link:who-were-the-jesuits-1556]]Jesuits[[/link]], the very order that was remaking the country. When the Swedes besieged Prague in [[link:holding-the-bridge-1648]]1648[[/link]], he was on the walls too, and was badly wounded.\n\nAs a boy he saw what that remaking looked like. Many years later he remembered:\n\n[[quote:0]]\n\nBalbín never turned against his Church or his order. He was a Jesuit through and through: he taught rhetoric, wrote saints' lives and guides for pilgrims. But he loved Bohemia, its past and its language, and spent his life gathering everything he could find about it: old charters and chronicles, legends, the lives of its kings, even its rivers, minerals and fish.\n\nHis history of Bohemia, the Epitome, ran into trouble. The man who held it up was the highest official in the kingdom, the Supreme Burgrave Bernard Ignác Martinic, son of the Martinic who had been [[link:the-good-old-bohemian-way-1618]]thrown out of the castle window[[/link]] in 1618. The censors did not like that Balbín praised Charles IV and George of Poděbrady and said little about the House of Austria, or that he complained about taxes. Balbín was sent away from Prague to the small Jesuit college in Klatovy. He is said to have written: \"I never learned to write untruths, and I do not dare to write the truth.\"\n\nIn Klatovy, in 1672 and 1673, he wrote something more dangerous still, at the urging of his friend Tomáš Pešina, and for Pešina's eyes alone. In Latin it was called an apology for the Slavonic and especially the Czech language. In it Balbín asked why Bohemia was being filled with foreigners while its own people were pushed aside; he railed against officials who sucked the peasants' blood; and he argued that a good ruler should know the language of his subjects. Ferdinand III had once learned Czech, he recalled, as [[link:the-book-nobody-could-read-1665]]Raphael Mnišovský[[/link]], one of his teachers, had told him himself.\n\n[[b]]He was not against anyone's language, he wrote; he loved them all. He only held it an inhuman and barbarous crime to hate the language a country had spoken for so many centuries.[[/b]]\n\nAnd he turned on his own people too:\n\n[[quote:1]]\n\nThe Defence ends with a prayer to the patron of Bohemia:\n\n[[quote:2]]\n\nThe Epitome was printed at last in 1677, once Rome had found nothing wrong with it. The Defence was never printed in Balbín's lifetime; it went quietly from hand to hand in copies. Balbín died in Prague in November 1688 and was buried in the crypt of the Jesuits' Church of St Salvator by Charles Bridge.\n\nEighty-seven years later, in 1775, a Prague scholar finally printed it. By then there were people looking for exactly what he had written.",
+      "cz": "Zatímco z kamene rostly nové paláce a kostely, jeden muž se snažil zachránit Čechy na papíře. Průčelí se dalo objednat z Itálie. Paměť země a její vlastní jazyk ne.\n\nO češtinu přitom nepečovali jen „kacíři“ v exilu. [[link:comenius-last-years-1656]]Komenskému[[/link]] shořel jeho velký slovník v polském požáru. Doma v Čechách si jazyk našel obhájce tam, kde by ho nikdo nehledal: v černé sutaně jezuity.\n\nBohuslav Balbín se narodil v Hradci Králové v prosinci 1621, v roce [[link:twenty-seven-1621]]staroměstské exekuce[[/link]]. Vyrůstal v nových Čechách: katolických, poslušných a rok od roku německy mluvících. V patnácti letech vstoupil k [[link:who-were-the-jesuits-1556]]jezuitům[[/link]], právě k řádu, který zemi přetvářel. Když Švédové roku [[link:holding-the-bridge-1648]]1648[[/link]] obléhali Prahu, stál na hradbách i on a byl těžce raněn.\n\nUž jako chlapec viděl, jak to přetváření vypadá. O mnoho let později vzpomínal:\n\n[[quote:0]]\n\nBalbín se proti své církvi ani řádu nikdy neobrátil. Byl jezuitou celou duší: učil rétoriku, psal životy svatých a průvodce pro poutníky. Ale miloval Čechy, jejich minulost i jazyk, a celý život sbíral všechno, co o nich našel: staré listiny a kroniky, pověsti, životy králů, dokonce i jejich řeky, nerosty a ryby.\n\nJeho dějiny Čech, Epitome, narazily. Zadržel je nejvyšší úředník království, nejvyšší purkrabí Bernard Ignác z Martinic, syn toho Martinice, kterého roku 1618 [[link:the-good-old-bohemian-way-1618]]vyhodili z hradního okna[[/link]]. Cenzorům se nelíbilo, že Balbín chválí Karla IV. a Jiřího z Poděbrad a o rodu rakouském mluví málo, ani že si stěžuje na daně. Balbína poslali z Prahy pryč, do malé jezuitské koleje v Klatovech. Prý tehdy napsal: „Nepravdu psáti jsem se nenaučil, pravdu psáti se neodvažuji.“\n\nV Klatovech v letech 1672 a 1673 napsal něco ještě nebezpečnějšího, na naléhání svého přítele Tomáše Pešiny a jen pro jeho oči. Latinsky se to jmenovalo obrana jazyka slovanského, zvláště českého. Balbín se v ní ptal, proč se Čechy plní cizinci, zatímco domácí jsou odstrkováni; hřměl proti úředníkům, kteří ssají krev sedlákům; a dokazoval, že dobrý panovník má znát jazyk svých poddaných. Ferdinand III. se prý kdysi česky naučil, vzpomínal, jak mu to sám vyprávěl [[link:the-book-nobody-could-read-1665]]Rafael Mnišovský[[/link]], jeden z jeho učitelů.\n\n[[b]]Neobviňuje žádného jazyka, psal, všechny miluje. Jen pokládá za nelidský a zcela barbarský zločin nenávidět jazyk, jehož vlast užívala po tolik věků.[[/b]]\n\nA obrátil se i proti svým:\n\n[[quote:1]]\n\nObrana končí modlitbou k patronu Čech:\n\n[[quote:2]]\n\nEpitome nakonec vyšla roku 1677, když v Římě nenašli nic závadného. Obrana za Balbínova života nikdy nevyšla; tiše kolovala z ruky do ruky v opisech. Balbín zemřel v Praze v listopadu 1688 a byl pohřben v kryptě jezuitského kostela sv. Salvátora u Karlova mostu.\n\nO osmdesát sedm let později, roku 1775, ji jeden pražský učenec konečně vydal tiskem. To už byli lidé, kteří hledali právě to, co napsal.",
+      "zh": "宫殿和教堂在石头里一座座立起来的时候，有一个人，正想在纸上把波希米亚留住。宫殿的门面可以从意大利订来，一个国家的记忆和它自己的语言，却订不来。\n\n惦记着捷克语的，也不只有那些流亡在外的“异端”。[[link:comenius-last-years-1656]]夸美纽斯[[/link]]的那部大词典，烧在了波兰的大火里；而在波希米亚国内，捷克语找到了一位谁都想不到的辩护人：一个穿黑袍的耶稣会士。\n\n巴尔宾1621年12月生在赫拉德茨-克拉洛韦，正是[[link:twenty-seven-1621]]老城广场行刑[[/link]]的那一年。他长大的那个波希米亚，是新的波希米亚：信天主教，听话，说德语的人一年比一年多。十五岁那年，他加入了[[link:who-were-the-jesuits-1556]]耶稣会[[/link]]，正是那个在改造这个国家的修会。[[link:holding-the-bridge-1648]]1648年[[/link]]瑞典人围攻布拉格，他也上了城头，受了重伤。\n\n这场改造是什么样子，他小时候就亲眼见过。许多年后，他回忆道：\n\n[[quote:0]]\n\n巴尔宾从来没有背叛他的教会和修会。他是个地地道道的耶稣会士：教修辞，写圣人传，给朝圣者写指南。可他爱波希米亚，爱它的过去和它的语言，一辈子都在搜集和它有关的一切：古老的特许状和编年史，传说，历代国王的生平，连它的河流、矿石和鱼都不放过。\n\n他写的波希米亚史《纲要》，碰了钉子。把书压下来的，是王国最高的官员，最高城堡伯爵贝尔纳德·伊格纳茨·马丁尼茨，也就是1618年[[link:the-good-old-bohemian-way-1618]]被扔出城堡窗外[[/link]]的那个马丁尼茨的儿子。审查官不喜欢巴尔宾夸查理四世、夸波杰布拉德的伊日，却对奥地利王室着墨太少，也不喜欢他抱怨赋税。巴尔宾被打发出了布拉格，去了克拉托维的一所小小的耶稣会学院。据说他当时写道：“假话，我没学会写；真话，我不敢写。”\n\n1672年到1673年，就在克拉托维，他在朋友佩希纳的一再催促下，写下了一篇更危险的东西，只给佩希纳一个人看。它的拉丁文题目，意思是“为斯拉夫语、尤其是捷克语辩护”。巴尔宾在里面质问，为什么波希米亚到处塞满了外来的人，本地人却被挤到一边；他痛斥那些吸农民血的官吏；他还说，一个好君主应当懂得臣民的语言。他回忆说，斐迪南三世当年就学过捷克语，这是斐迪南的老师之一[[link:the-book-nobody-could-read-1665]]拉斐尔·姆尼绍夫斯基[[/link]]亲口告诉他的。\n\n[[b]]他写道，他不怪罪任何一种语言，所有的语言他都爱。他只认为，去憎恨一个国家用了这么多个世纪的语言，是一桩不人道的、彻头彻尾野蛮的罪行。[[/b]]\n\n他也没放过自己人：\n\n[[quote:1]]\n\n这篇辩护的结尾，是一段向波希米亚主保圣人的祈祷：\n\n[[quote:2]]\n\n《纲要》在罗马方面认定没有问题之后，终于在1677年印了出来。那篇《辩护》却在巴尔宾生前一直没能出版，只以抄本的形式悄悄地在人们手里传。1688年11月，巴尔宾在布拉格去世，葬在查理大桥桥头耶稣会的至圣救主教堂地下墓室里。\n\n八十七年后，1775年，布拉格的一位学者终于把它印了出来。那时候，已经有人在找的，正是他写下的这些话。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "In this age of ours Czech books are rarer and scarcer than anything. There was a time in my boyhood, soon after the victory at Prague, when all books written in the Czech language were held to be heretical for that very reason, through the ignorance of certain people, and so, good or bad without distinction, they were condemned to the fire. Dragged out of the corners of houses or torn out of people's hands (even when they had nothing to do with religion), they were ripped apart and burned on blazing pyres (in Prague, for instance, in the middle of the square).",
+          "cz": "Za tohoto našeho věku knihy české tak vzácné a řídké jsou, jako nic jiného. Byla doba za mého chlapectví, brzo po vítězství pražském, kdy všechny knihy psané českým jazykem pokládány právě proto za kacířské nevědomostí jistých lidí, a proto bez rozdílu, ať byly dobré či špatné, odsuzovány do ohně. Z koutu domů byvše vyvlečeny nebo z rukou vyrvány (byť se nic netýkaly náboženství), byly trhány a na zapálených hranicích páleny (např. v Praze uprostřed náměstí).",
+          "zh": "在我们这个时代，捷克语的书比什么都稀罕、都少见。我小时候，布拉格那场胜利之后不久，有过这样一段日子：凡是用捷克语写的书，就因为是捷克语，被某些无知的人一律当成异端，于是不分好坏，统统判给了火。它们从各家的角落里被拖出来，从人们手里被夺过去（哪怕跟宗教毫无关系），撕碎了，扔到点着的柴堆上烧掉（比如在布拉格，就在广场正中间）。"
+        },
+        "attribution": {
+          "en": "Bohuslav Balbín, Bohemia docta (printed 1777)",
+          "cz": "Bohuslav Balbín, Bohemia docta (vydáno 1777)",
+          "zh": "巴尔宾，《博学的波希米亚》（1777年出版）"
+        }
+      },
+      {
+        "text": {
+          "en": "If only we too would stop admiring everything foreign and (which is the sad fate of our nation) despising our own! Our own things stink to us, and with an old woman's obedience (for how else to put it?) we willingly pay homage to those who flog us; a spur of favour at court weighs more with us than all our forefathers' inheritance, more than the homeland itself.",
+          "cz": "Kéžbychom i my přestali obdivovati se cizému a (což smutným jest osudem národa našeho) svým vlastním povrhovati! Domácí věci nám zapáchají a babskou (neboť jakž jinak říci?) poslušností dobrovolně úctu vzdáváme těm, kteříž nás mrskají; víceť nám váží bodec milosti dvorské, než všecko po předcích dědictví, než sama vlasť.",
+          "zh": "但愿我们也别再对一切外来的东西五体投地，别再（这正是我们民族可悲的命运）看不起自己的东西！自家的东西，我们闻着就嫌臭；我们还带着一种老妇人般的顺从（不这么说又能怎么说？），心甘情愿地向抽打我们的人致敬。在我们眼里，宫廷恩宠的一根马刺，比祖先留下的全部遗产都重，比祖国本身还重。"
+        },
+        "attribution": {
+          "en": "Bohuslav Balbín, Defence of the Slavonic and especially the Czech Language, 1672–73",
+          "cz": "Bohuslav Balbín, Obrana jazyka slovanského, zvláště českého, 1672–73",
+          "zh": "巴尔宾，《为斯拉夫语、尤其是捷克语辩护》，1672年－1673年"
+        }
+      },
+      {
+        "text": {
+          "en": "You, Wenceslas, first and greatest of the patrons of the Czech land! … Shield and support of our nation! If we perish, it is you who will lose us! … Do not let us perish, nor those who come after us!",
+          "cz": "Ty! ó patronův země české nejpřednější a největší, Vácslave! … Ty národa našeho záštito a podporo! Zahyneme-li, Tobě zahyneme! … Nedej zahynouti nám i budoucím!",
+          "zh": "你啊，捷克土地上最首要、最伟大的主保，瓦茨拉夫！……我们民族的盾牌和依靠！我们若是灭亡了，失去我们的是你！……不要让我们灭亡，也不要让我们的后人灭亡！"
+        },
+        "attribution": {
+          "en": "Bohuslav Balbín, the closing prayer of the Defence",
+          "cz": "Bohuslav Balbín, závěrečná modlitba Obrany",
+          "zh": "巴尔宾，《辩护》结尾的祈祷"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "kostel-sv-salvatora",
+        "relation": {
+          "en": "The Jesuit church by Charles Bridge where Balbín lies in the crypt",
+          "cz": "Jezuitský kostel u Karlova mostu, v jehož kryptě Balbín leží",
+          "zh": "查理大桥桥头的耶稣会教堂，巴尔宾就葬在它的地下墓室"
+        }
+      },
+      {
+        "slug": "national-library-czech-republic",
+        "relation": {
+          "en": "The Jesuit Klementinum, where a plaque remembers Balbín",
+          "cz": "Jezuitské Klementinum, kde Balbína připomíná pamětní deska",
+          "zh": "耶稣会的克莱门特学院，这里有一块纪念巴尔宾的牌匾"
+        }
+      },
+      {
+        "slug": "stara-boleslav",
+        "relation": {
+          "en": "Balbín's Epitome began as a history of Stará Boleslav, where Wenceslas was killed",
+          "cz": "Balbínova Epitome vznikla jako dějiny Staré Boleslavi, kde byl zavražděn Václav",
+          "zh": "巴尔宾的《纲要》原本是一部斯塔拉-博莱斯拉夫史，瓦茨拉夫就是在那里遇害的"
+        }
+      },
+      {
+        "slug": "national-museum",
+        "relation": {
+          "en": "Balbín's bust stands in the museum's Pantheon, among Hus, Comenius and the other great names of Czech history",
+          "cz": "Balbínova busta stojí v muzejním Pantheonu, mezi Husem, Komenským a dalšími velkými jmény českých dějin",
+          "zh": "博物馆的万神殿里有巴尔宾的胸像，和胡斯、夸美纽斯等捷克历史上的大人物摆在一起"
+        }
+      }
+    ],
+    "images": [
+      "/history/a-defence-of-czech-1672.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Left: Prague in the years after White Mountain, Czech books thrown onto a bonfire in the square while a small boy watches. Right: Klatovy, 1673, Balbín writing his Defence by candlelight, a lockable chest ready beside him.",
+        "cz": "Vlevo: Praha v letech po Bílé hoře, české knihy letí na hranici uprostřed náměstí a malý chlapec přihlíží. Vpravo: Klatovy roku 1673, Balbín při svíčce píše svou Obranu a vedle něj čeká truhlička se zámkem.",
+        "zh": "左：白山之后的布拉格，捷克语的书被扔进广场中央的火堆，一个小男孩在一旁看着。右：1673年的克拉托维，巴尔宾在烛光下写他的《辩护》，身边放着一只能上锁的木匣。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Bohuslav_Balb%C3%ADn"
+  },
+  // The plague of 1679–1681. Vienna: first cases spring 1679, the court left in
+  // August 1679, Leopold vowed the Trinity column on the Graben (uni-muenster.de
+  // "Pest und urbane Räume"; derstandard). The quote: Abraham a Sancta Clara,
+  // Mercks Wienn (1680), as excerpted on the Münster page; translation only,
+  // street names translated to keep the puns. Prague: cs.wikipedia "Morová
+  // epidemie v českých zemích (1679–1681)": court in Prague, plague in Prague
+  // from spring 1680, official figure 12,000 dead (other estimates 6,000–7,000),
+  // up to 10,000 fled, doctors who stayed incl. Zeidler and Jissachar Beer
+  // Teller, Olšany plague cemetery 1680 with St Roch's chapel (1682), Pešina
+  // among the dead. Rozhlas "Naposledy mor": the coachman's death, Brandýs,
+  // Poděbrady, Pardubice, Chrudim, then via Německý Brod, Třeboň and Budějovice
+  // to Linz; the ghetto sealed in March 1680. Schmelzer: Kapellmeister from
+  // 1 Oct 1679, died of plague in Prague early 1680 (en.wikipedia).
+  {
+    "slug": "running-from-the-plague-1680",
+    "era": "voiceless-years",
+    "startYear": 1680,
+    "tone": "humorous",
+    "year": {
+      "en": "1679–1681",
+      "cz": "1679–1681",
+      "zh": "1679年－1681年"
+    },
+    "title": {
+      "en": "The Emperor Ran, the Plague Followed",
+      "cz": "Císař utíkal před morem, mor za císařem",
+      "zh": "皇帝躲瘟疫，瘟疫追皇帝"
+    },
+    "hookLine": {
+      "en": "Leopold fled the plague in Vienna and came to Prague. The plague came too.",
+      "cz": "Leopold utekl před morem z Vídně do Prahy. Mor přišel také.",
+      "zh": "利奥波德为了躲瘟疫，从维也纳逃到布拉格。瘟疫也跟着来了。"
+    },
+    "summary": {
+      "en": "In the spring of 1679 the plague broke out in Vienna. By summer the dead were being carted out of every quarter of the city. A Viennese preacher, Abraham a Sancta Clara, walked the streets and made grim puns of their names:\n\n[[quote:0]]\n\nIn August the [[link:meant-for-the-church-1656]]emperor[[/link]] left with his whole court. Before he went, he vowed to raise a column to the Holy Trinity on the Graben. Then he headed for Prague, and spent the winter there with his household, his officials and his musicians.\n\nThe plague followed him. Early in 1680 his new court Kapellmeister, the violinist Johann Heinrich Schmelzer, died of it in Prague, five months after taking up the post. By spring it was in the city itself.\n\nPrague was not ready for it. As many as ten thousand people fled, doctors among them. The Jewish Town, crowded and poor, was hit especially hard, and in March it was sealed off. New cemeteries had to be opened outside the walls, among them one at the village of Olšany. A few stayed to nurse the sick: the physician Sebastian Zeidler, later rector of the university, and the doctor of the Jewish Town, Jissachar Beer Teller. Three condemned criminals were even taken out of prison to nurse the sick in the hospitals.\n\nWhen the emperor's own coachman died, Leopold left Prague too. He went to Brandýs, then on to Poděbrady, Pardubice and Chrudim, and wherever he arrived, the plague arrived soon after. In the end he crossed half of Bohemia, through Německý Brod, Třeboň and České Budějovice, to Linz. [[b]]The emperor fled the plague, and the plague kept following the emperor.[[/b]]\n\nPrague counted its dead. The official figure was twelve thousand, almost a third of the city; some historians think it was closer to half that. Among them was the priest and historian Tomáš Pešina, the [[link:a-defence-of-czech-1672]]one reader[[/link]] for whom Balbín had written his defence of Czech.\n\nBy 1681 the plague was over. In Vienna Leopold kept his promise, and the column on the Graben, when it was finally finished, showed the emperor himself kneeling in stone, praying for his lands. Prague's New Town put up its own thanks on the Cattle Market: a statue of St Joseph with the infant Jesus, finished in 1698. There is no emperor on that one.\n\nMeanwhile, out in the villages, the peasants had had enough.",
+      "cz": "Na jaře 1679 propukl ve Vídni mor. V létě se už mrtví vyváželi ze všech čtvrtí města. Vídeňský kazatel Abraham a Sancta Clara procházel ulicemi a dělal si z jejich jmen ponuré slovní hříčky:\n\n[[quote:0]]\n\nV srpnu odjel [[link:meant-for-the-church-1656]]císař[[/link]] s celým dvorem. Předtím slíbil, že na Grabenu postaví sloup Nejsvětější Trojici. Pak zamířil do Prahy a přezimoval tu s rodinou, úředníky i hudebníky.\n\nMor šel za ním. Začátkem roku 1680 na něj v Praze zemřel jeho nový dvorní kapelník, houslista Johann Heinrich Schmelzer, pět měsíců poté, co do úřadu nastoupil. Na jaře už byl mor ve městě.\n\nPraha na něj připravená nebyla. Uteklo až deset tisíc lidí, mezi nimi i lékaři. Přeplněné a chudé Židovské Město to odneslo obzvlášť těžce a v březnu bylo uzavřeno. Za hradbami se musely zakládat nové hřbitovy, mezi nimi jeden u vsi Olšany. Jen hrstka zůstala, aby ošetřovala nemocné: lékař Šebestián Zeidler, pozdější rektor univerzity, a lékař Židovského Města Jissachar Beer Teller. Ze žaláře dokonce vzali tři odsouzené zločince, aby ve špitálech ošetřovali nemocné.\n\nKdyž zemřel i císařův vlastní kočí, opustil Leopold také Prahu. Odjel do Brandýsa, pak dál do Poděbrad, Pardubic a Chrudimi, a kamkoli přijel, mor tam brzy dorazil také. Nakonec přejel půl Čech, přes Německý Brod, Třeboň a České Budějovice, až do Lince. [[b]]Císař utíkal před morem a mor pořád utíkal za císařem.[[/b]]\n\nPraha počítala mrtvé. Úřední číslo znělo dvanáct tisíc, skoro třetina města; někteří historici soudí, že to bylo spíš o polovinu méně. Mezi nimi byl i kněz a historik Tomáš Pešina, ten [[link:a-defence-of-czech-1672]]jediný čtenář[[/link]], pro kterého Balbín napsal svou obranu češtiny.\n\nRoku 1681 mor ustal. Ve Vídni Leopold svůj slib dodržel a sloup na Grabenu, když byl konečně hotov, ukazoval samotného císaře, jak v kameni klečí a modlí se za své země. Pražské Nové Město postavilo svůj vlastní dík na Dobytčím trhu: sochu sv. Josefa s Ježíškem, dokončenou roku 1698. Císař na ní není.\n\nVenku na vesnicích už toho mezitím měli sedláci dost.",
+      "zh": "1679年春天，维也纳闹起了瘟疫。到了夏天，城里每个街区都有尸体被一车一车地拉出去。维也纳的一位布道家，亚伯拉罕·阿·桑克塔·克拉拉，走遍了大街小巷，拿街名做起了阴森的双关语：\n\n[[quote:0]]\n\n8月，[[link:meant-for-the-church-1656]]皇帝[[/link]]带着整个宫廷走了。临走前，他发愿要在格拉本大街上给圣三一立一根柱子。然后他直奔布拉格，带着家眷、官员和乐师，在那里过了冬。\n\n瘟疫跟着他来了。1680年初，他新任的宫廷乐长、小提琴家施梅尔策在布拉格染上瘟疫死了，离他上任才五个月。到了春天，瘟疫已经进了城。\n\n布拉格毫无准备。多达一万人逃出了城，其中也有医生。又挤又穷的犹太城受害最重，3月被封锁了起来。城墙外不得不新开几处墓地，其中一处在奥尔沙尼村旁。只有少数人留下来照顾病人：医生蔡德勒，后来当上了大学校长；还有犹太城的医生泰勒。人手缺到连三个判了刑的犯人都被从监狱里提出来，送去医院照顾病人。\n\n等到皇帝自己的车夫也死了，利奥波德也离开了布拉格。他先去了布兰迪斯，又去了波杰布拉迪、帕尔杜比采、赫鲁季姆，可他到哪里，瘟疫没过多久也到哪里。最后，他穿过大半个波希米亚，经过德意志布罗德、特热邦、捷克布杰约维采，一直跑到了林茨。[[b]]皇帝躲着瘟疫跑，瘟疫追着皇帝跑。[[/b]]\n\n布拉格清点死者。官方的数字是一万二千人，差不多是全城的三分之一；也有史学家认为，实际只有这个数字的一半左右。死者当中，有神父、史学家佩希纳，也就是巴尔宾那篇捷克语辩护[[link:a-defence-of-czech-1672]]唯一的读者[[/link]]。\n\n1681年，瘟疫过去了。在维也纳，利奥波德兑现了诺言。等到格拉本大街上那根柱子终于完工，柱子上跪着的，正是皇帝本人，用石头雕成，正在为他的国土祈祷。布拉格新城也在牲口市场上立了自己的感恩纪念：一尊怀抱圣婴的圣约瑟夫像，1698年完工。那上面，没有皇帝。\n\n而在乡下的村子里，农民们已经受够了。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "In Lords' Lane, Death lorded it. In Singers' Street, Death sang many a requiem. On the Graben, the Trench, Death did nothing but dig graves. At the Freyung, Freedom Square, few were set free from Death. […] In short, there is no lane or street, in Vienna or in its great wide suburbs, that raging Death has not swept through.",
+          "cz": "V Panské ulici panovala smrt. V Pěvecké ulici zazpívala smrt mnohým rekviem. Na Příkopě smrt nedělala nic jiného, než že kopala hroby. Na Svobodě se od smrti osvobodilo jen málo lidí. […] Zkrátka není ulice ani uličky, ve Vídni ani v jejích velkých širokých předměstích, kterou by zuřivá smrt neprošla.",
+          "zh": "在老爷巷，死神当了老爷。在歌手街，死神给许多人唱了安魂曲。在格拉本，也就是“壕沟”大街，死神除了挖坑，什么也没干。在弗赖翁，也就是“自由”广场，从死神手里得了自由的人寥寥无几。……总而言之，不论维也纳城里，还是城外那些又大又宽的城郊，没有一条大街小巷，不曾被横冲直撞的死神扫过。"
+        },
+        "attribution": {
+          "en": "Abraham a Sancta Clara, Mark This, Vienna!, 1680",
+          "cz": "Abraham a Sancta Clara, Pamatuj, Vídni!, 1680",
+          "zh": "亚伯拉罕·阿·桑克塔·克拉拉，《记住，维也纳！》，1680年"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "olsanske-hrbitovy",
+        "relation": {
+          "en": "Opened in 1680 as a plague cemetery outside the walls; St Roch's chapel followed in 1682",
+          "cz": "Založen roku 1680 jako morový hřbitov za hradbami; kaple sv. Rocha přibyla roku 1682",
+          "zh": "1680年作为城外的瘟疫墓地开辟，1682年又建了圣罗赫小教堂"
+        }
+      },
+      {
+        "slug": "kasna-se-sochou-svateho-josefa",
+        "relation": {
+          "en": "Put up by the New Town in thanks for surviving the plague of 1680, finished in 1698",
+          "cz": "Postavena Novým Městem jako dík za přežití moru roku 1680, dokončena roku 1698",
+          "zh": "新城为感谢熬过1680年瘟疫而立，1698年完工"
+        }
+      },
+      {
+        "slug": "zamek-brandys-nad-labem",
+        "relation": {
+          "en": "Leopold's first stop after he fled plague-struck Prague",
+          "cz": "První zastávka Leopolda poté, co utekl z morem zasažené Prahy",
+          "zh": "利奥波德逃离瘟疫中的布拉格后，落脚的第一站"
+        }
+      },
+      {
+        "slug": "podebrady",
+        "relation": {
+          "en": "Another stop on the emperor's flight, with the plague not far behind",
+          "cz": "Další zastávka císařova útěku, mor mu byl v patách",
+          "zh": "皇帝逃亡路上的又一站，瘟疫就跟在后面"
+        }
+      }
+    ],
+    "images": [
+      "/history/running-from-the-plague-1680.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Prague, 1680: the emperor's coach races north over the Powder Bridge out of the castle, under the double-headed eagle, with servants, luggage and even a harpsichord hurrying after it, while the plague-struck city lies grey and silent behind.",
+        "cz": "Praha 1680: císařský kočár uhání pod dvouhlavým orlem z Hradu na sever přes Prašný most, za ním spěchají sluhové, zavazadla a dokonce i cembalo, zatímco morem zasažené město za nimi leží šedé a tiché.",
+        "zh": "1680年的布拉格：皇帝的马车打着双头鹰大旗，从城堡出发，经火药桥一路向北狂奔，仆人、行李，连羽管键琴都在后面紧追；身后那座遭了瘟疫的城市，灰蒙蒙一片，死一般寂静。"
+      }
+    ],
+    "wikipediaUrl": "https://cs.wikipedia.org/wiki/Morov%C3%A1_epidemie_v_%C4%8Desk%C3%BDch_zem%C3%ADch_(1679%E2%80%931681)"
+  },
+  // The peasant risings of 1680. cs.wikipedia "Selské povstání (1680)": robota up
+  // from a few days a year before the war to three and more a week; petitions to
+  // Leopold, answered by a patent cancelling pre-1618 peasant privileges and
+  // banning petitions; petitioners arrested; some 160 estates rose, mainly north
+  // and west; the robota patent (max three days, no Sunday/holiday work).
+  // cs.wikipedia "Bitva na Ovčím vrchu": 6 May 1680, ~500 peasants of the
+  // Bezdružice estate, artillery from around Švamberk castle, 49 dead and 20
+  // badly wounded (other reports up to 100), the cherry-trunk cannons as
+  // tradition, Marie Františka of Heissenstein's plea for mercy and chapel
+  // (1681). Deník.cz: the travel ban, Čestín (up to 900 men, Freisleben killed),
+  // the patent issued at Pardubice on 28 June 1680, forced purchases banned.
+  // polesi.eu (Lemberk, part III, after Čechura, Selské rebelie roku 1680): the
+  // four petitioners arrested in the Old Town, the night of 13 January, the
+  // carpenter Michel Schöbel's letter of March 1680 (quotes 0 and 1, Czech
+  // translation of the German original as given there; EN/ZH ours).
+  {
+    "slug": "peasants-take-up-clubs-1680",
+    "era": "voiceless-years",
+    "startYear": 1680.5,
+    "tone": "serious",
+    "year": {
+      "en": "1680",
+      "cz": "1680",
+      "zh": "1680年"
+    },
+    "title": {
+      "en": "The Peasants Take Up Clubs",
+      "cz": "Sedláci vzali do rukou kyje",
+      "zh": "农民拿起了棍棒"
+    },
+    "hookLine": {
+      "en": "The peasants brought their complaints to the emperor in Prague. He answered with a ban, and then with cannon.",
+      "cz": "Sedláci přinesli své stížnosti císaři do Prahy. Odpověděl zákazem, a potom děly.",
+      "zh": "农民把苦水带到布拉格，递给皇帝。皇帝的回答先是一纸禁令，然后是大炮。"
+    },
+    "summary": {
+      "en": "Nobody had more reason to be tired than the peasants. After the war there were [[link:deserted-1654]]fewer hands[[/link]] to work the land, and the lords wanted more from each of them. Before the war a peasant might owe his lord a few days of unpaid work a year; now it was three days a week and often more, on top of the taxes, the dues on inheritances and markets, and goods they were made to buy from the manor at the manor's price.\n\nWhen the emperor came to [[link:running-from-the-plague-1680]]Prague to escape the plague[[/link]], villages all over Bohemia saw their chance. If only the emperor knew, they thought, he would surely help. Petitions poured in, so many that peasants were finally forbidden to travel to Prague at all. Leopold answered with a patent that cancelled every peasant privilege granted before 1618 and banned any further petitions. Some petitioners were arrested on the spot: four men from the Lemberk estate in the north were seized in the Old Town with their petition still in their hands.\n\nOn the night of 13 January 1680 the Lemberk villages rose. A carpenter from one of them, Michel Schöbel, later described to his brother how it began:\n\n[[quote:0]]\n\nThe villagers told him that there was no more mercy to be had from their lord, and that they had had enough. The next day everyone stopped work and swore an oath:\n\n[[quote:1]]\n\nBy spring the unrest had spread to some 160 estates, most of them in the north and west of Bohemia. Peasants refused their labour, drove out stewards and here and there stormed a manor. At Čestín, near Kutná Hora, up to nine hundred armed men broke into the château, beat the steward and killed the lord.\n\nThe army was sent in. On 6 May about five hundred peasants of the Bezdružice estate in the west dug in on a hilltop, the Ovčí vrch. Tradition says they had made themselves cannon out of cherry trunks bound with iron hoops, which burst at the first shot. The imperial guns opened fire from around the castle of Švamberk across the valley; at least forty-nine peasants were left dead on the hill, and two companies of horse rode down the rest. [[b]]They had come with petitions and flails, and they were answered with cannon.[[/b]]\n\nThe arrests, the torture and the executions followed; dozens were put to death around Litoměřice, Slaný and Žatec. On the Bezdružice estate the lord's wife, Marie Františka of Heissenstein, pleaded for mercy for the accused, and a year later had a small chapel built on the hill where the peasants had died.\n\nOn 28 June 1680, at Pardubice, one more stop on his flight from the plague, Leopold issued a patent on robota. A peasant was to work for his lord no more than three days a week, except at harvest and in emergencies; never on Sundays or holy days; and no lord was to force him to buy his goods.\n\nBy then the rising had already been crushed; the patent was meant to head off the next one. It did not leave the peasants content. On many estates the lords simply ignored it and the robota stayed as heavy as before, and in the villages people went back to the fields with their teeth clenched; refusals, complaints and flight went on for years. But it was the first time the law had said that there was a limit at all, and the peasants remembered it. [[b]]It would not be the last time Bohemian peasants took up their clubs.[[/b]]\n\nThe emperor, meanwhile, had a greater worry than his peasants. The twenty-year truce he had [[link:meant-for-the-church-1656]]signed with the Turks[[/link]] at Vasvár in 1664 now had only four years left to run.\n\nThree years later, the Turks were already outside Vienna.",
+      "cz": "Nikdo neměl víc důvodů k únavě než sedláci. Po válce bylo [[link:deserted-1654]]méně rukou[[/link]], které by obdělávaly půdu, a vrchnosti chtěly od každé z nich víc. Před válkou sedlák odváděl vrchnosti pár dní roboty do roka; teď to byly tři dny v týdnu a často i víc, k tomu daně, dávky z dědictví a z trhů a zboží, které museli kupovat od vrchnosti za vrchnostenské ceny.\n\nKdyž císař přijel do [[link:running-from-the-plague-1680]]Prahy utéct před morem[[/link]], vesnice po celých Čechách v tom uviděly svou šanci. Kdyby to císař věděl, říkali si, jistě by pomohl. Supliky se jen hrnuly, tolik, že sedlákům nakonec cesty do Prahy úplně zakázali. Leopold odpověděl patentem, který zrušil všechny selské výsady udělené před rokem 1618 a další supliky zakázal. Někteří stěžovatelé byli rovnou zatčeni: čtyři muži z lemberského panství na severu byli zadrženi na Starém Městě i se suplikou v rukou.\n\nV noci na 13. ledna 1680 se lemberské vsi vzbouřily. Tesař z jedné z nich, Michel Schöbel, později popsal bratrovi, jak to začalo:\n\n[[quote:0]]\n\nVesničané mu řekli, že u jejich vrchnosti už žádná milost není a že toho mají dost. Druhý den všichni přestali pracovat a složili přísahu:\n\n[[quote:1]]\n\nNa jaře se nepokoje rozšířily asi na 160 panství, většinou na severu a západě Čech. Sedláci odpírali robotu, vyháněli úředníky a místy přepadli i zámek. V Čestíně u Kutné Hory vtrhlo do zámku až devět set ozbrojených mužů, správce zbili a pána zabili.\n\nNa sedláky poslali vojsko. Dne 6. května se asi pět set sedláků z bezdružického panství na západě opevnilo na vrchu zvaném Ovčí vrch. Podle tradice si udělali děla z třešňových kmenů stažených železnými obručemi, která při prvním výstřelu praskla. Císařská děla zahájila palbu od hradu Švamberk na protějším kopci; na vrchu zůstalo nejméně čtyřicet devět mrtvých sedláků a zbytek rozehnaly dvě jezdecké kompanie. [[b]]Přišli se suplikami a cepy a odpovědí jim byla děla.[[/b]]\n\nNásledovalo zatýkání, mučení a popravy; desítky lidí byly popraveny v okolí Litoměřic, Slaného a Žatce. Na bezdružickém panství se za obviněné přimlouvala manželka pána, Marie Františka z Heissensteinu, a o rok později dala na vrchu, kde sedláci zemřeli, postavit malou kapli.\n\nDne 28. června 1680 vydal Leopold v Pardubicích, na další zastávce svého útěku před morem, patent o robotě. Sedlák měl pro vrchnost pracovat nejvýš tři dny v týdnu, s výjimkou žní a nenadálých případů; nikdy v neděli ani ve svátek; a žádná vrchnost ho neměla nutit kupovat své zboží.\n\nTo už bylo povstání potlačené; patent měl předejít tomu příštímu. Spokojenost sedlákům nepřinesl. Na mnoha panstvích ho vrchnosti prostě nedodržovaly a robota zůstala stejně těžká jako dřív, a na vesnicích se lidé vraceli na pole se zaťatými zuby; odpírání roboty, stížnosti i útěky pokračovaly ještě léta. Ale poprvé zákon řekl, že nějaká hranice vůbec existuje, a sedláci si to zapamatovali. [[b]]Nebylo to naposled, co čeští sedláci vzali do rukou kyje.[[/b]]\n\nCísař měl ale mezitím větší starost než své sedláky. Dvacetileté příměří, které roku 1664 [[link:meant-for-the-church-1656]]uzavřel s Turky[[/link]] ve Vasváru, mělo před sebou už jen čtyři roky.\n\nO tři roky později už stáli Turci před Vídní.",
+      "zh": "要说谁最有理由累，那就是农民。战后[[link:deserted-1654]]种地的人少了[[/link]]，领主却要每个人干得更多。战前，一个农民一年也就给领主白干几天活；如今是一周三天，常常还不止，此外还有赋税，遗产和赶集要交的钱，还得按领主定的价钱，买领主庄园的货。\n\n皇帝[[link:running-from-the-plague-1680]]躲瘟疫躲到布拉格[[/link]]的时候，波希米亚各地的村子都觉得机会来了。他们想，只要皇帝知道了，一定会帮我们。请愿书像雪片一样飞来，多到最后干脆不许农民去布拉格了。利奥波德的回答是一纸特许状：1618年以前给农民的一切特权一律作废，以后不许再请愿。有些请愿的人当场就被抓了：北边莱姆贝克庄园的四个人，在老城被扣下时，手里还攥着请愿书。\n\n1680年1月13日夜里，莱姆贝克庄园的村子造反了。其中一个村子的木匠舍贝尔，后来在给兄弟的信里讲了事情是怎么开始的：\n\n[[quote:0]]\n\n村里人对他说，领主那里已经讨不到半点恩典了，他们受够了。第二天，所有人都停了工，发了誓：\n\n[[quote:1]]\n\n到了春天，乱子蔓延到了大约一百六十个庄园，大多在波希米亚的北部和西部。农民拒绝服劳役，赶走管事，有的地方还冲进了领主的宅子。在库特纳霍拉附近的切斯廷，多达九百个拿着武器的人冲进了城堡，打了管家，杀了领主。\n\n军队开来了。5月6日，西部贝兹德鲁日采庄园的大约五百个农民，在一座叫奥夫奇山的山头上筑起了工事。传说他们用铁箍箍住樱桃树干，做成了大炮，结果头一炮就炸裂了。帝国的大炮从对面山上的什万贝格城堡一带开火；山头上至少留下了四十九具农民的尸体，剩下的人被两个骑兵连冲散了。[[b]]他们带来的是请愿书和连枷，换来的是大炮。[[/b]]\n\n接下来是逮捕、拷打和处决；在利托梅日采、斯拉尼、扎泰茨一带，有几十个人被处死。在贝兹德鲁日采庄园，领主的妻子玛丽·弗朗齐斯卡替被告求情，一年后，她在农民死去的那座山头上，盖了一座小小的礼拜堂。\n\n1680年6月28日，在帕尔杜比采，也就是他躲瘟疫的又一站，利奥波德颁布了一道关于劳役的特许状：农民给领主干活，一周最多三天，农忙和急事除外；星期天和节日一律不干；领主也不许逼他们买自家的货。\n\n这时，起义早已被镇压下去了；这道特许状，是为了防下一次。农民并没有因此满意。许多庄园的领主根本不理会，劳役照样沉重；村子里的人咬着牙回到了地里，拒绝服役、递状子、逃跑，又持续了好些年。可这毕竟是法律头一回说：劳役是有上限的，农民们记住了这一条。[[b]]这不会是波希米亚农民最后一次拿起棍棒。[[/b]]\n\n可皇帝这时有比农民更让他发愁的事。1664年他在[[link:meant-for-the-church-1656]]沃什堡[[/link]]和土耳其人签下的二十年停战期，只剩下四年了。\n\n三年后，土耳其人已经到了维也纳城外。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "They dragged me out of bed and said: \"If you're an honest man, come to the headman's house; but if you're a scoundrel, stay at home.\" I did not know what I should do, or what would be right.",
+          "cz": "Vytáhli mne z postele a řekli: „Jsi poctivý muž, pojď na rychtu; pokud jsi ale šelma, zůstaň doma.“ Nevěděl jsem, co mám dělat, nebo, co by bylo správné.",
+          "zh": "他们把我从床上拖起来，说：“你要是个老实人，就到村长家去；你要是个坏蛋，就待在家里。”我不知道该怎么办，也不知道怎样才算对。"
+        },
+        "attribution": {
+          "en": "Michel Schöbel, carpenter of the Lemberk estate, letter to his brother, March 1680",
+          "cz": "Michel Schöbel, tesař z lemberského panství, dopis bratrovi, březen 1680",
+          "zh": "莱姆贝克庄园的木匠舍贝尔给兄弟的信，1680年3月"
+        }
+      },
+      {
+        "text": {
+          "en": "We had to raise two fingers and say: \"I swear to God and all the saints that I will live and die with the community until our matters are settled.\"",
+          "cz": "Museli jsme zvednout dva prsty a říci: „Přísahám Bohu a všem svatým, že chci žít a zemřít s obcí, dokud se nevyřeší naše věci.“",
+          "zh": "我们得举起两根手指，说：“我向上帝和众圣人起誓，在我们的事情了结之前，我要和村里人同生共死。”"
+        },
+        "attribution": {
+          "en": "The same letter",
+          "cz": "Tentýž dopis",
+          "zh": "同一封信"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "zamek-lemberk",
+        "relation": {
+          "en": "Seat of the Lemberk estate, whose villages rose on the night of 13 January 1680",
+          "cz": "Sídlo lemberského panství, jehož vsi se vzbouřily v noci na 13. ledna 1680",
+          "zh": "莱姆贝克庄园的城堡，庄园的村子在1680年1月13日夜里起来造反"
+        }
+      },
+      {
+        "slug": "litomerice",
+        "relation": {
+          "en": "Dozens of rebels were executed around Litoměřice after the rising",
+          "cz": "Po povstání byly v okolí Litoměřic popraveny desítky vzbouřenců",
+          "zh": "起义失败后，利托梅日采一带有几十名造反者被处死"
+        }
+      },
+      {
+        "slug": "slany",
+        "relation": {
+          "en": "One of the places where captured rebels were executed after the rising",
+          "cz": "Jedno z míst, kde byli po povstání popravováni zajatí vzbouřenci",
+          "zh": "起义失败后，处决被俘造反者的地方之一"
+        }
+      },
+      {
+        "slug": "zatec",
+        "relation": {
+          "en": "Another of the places where captured rebels were executed after the rising",
+          "cz": "Další z míst, kde byli po povstání popravováni zajatí vzbouřenci",
+          "zh": "起义失败后，处决被俘造反者的又一处地方"
+        }
+      },
+      {
+        "slug": "ovci-vrch",
+        "relation": {
+          "en": "The hill where the peasants made their last stand on 6 May 1680; a chapel built in 1681 marks the spot",
+          "cz": "Vrch, kde se sedláci 6. května 1680 naposledy postavili na odpor; místo připomíná kaple z roku 1681",
+          "zh": "1680年5月6日农民最后抵抗的山头，1681年建的小礼拜堂标记着这个地方"
+        }
+      },
+      {
+        "slug": "zamek-pardubice",
+        "relation": {
+          "en": "Leopold issued the robota patent at Pardubice on 28 June 1680",
+          "cz": "Zde v Pardubicích vydal Leopold 28. června 1680 robotní patent",
+          "zh": "1680年6月28日，利奥波德在帕尔杜比采颁布了劳役特许状"
+        }
+      }
+    ],
+    "images": [
+      "/history/peasants-take-up-clubs-1680.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "The Ovčí vrch, 6 May 1680: the peasants' homemade cherry-wood cannon bursts at its first shot, an old man still holds his petition, and across the valley the imperial guns fire from below Švamberk castle while cavalry ride up the hill.",
+        "cz": "Ovčí vrch, 6. května 1680: podomácku vyrobené třešňové dělo sedláků praská při prvním výstřelu, starý muž stále drží svou supliku a přes údolí pálí císařská děla pod hradem Švamberk, zatímco jízda stoupá do kopce.",
+        "zh": "1680年5月6日，奥夫奇山。农民自制的樱桃木大炮头一炮就炸裂了，一位老人手里还攥着请愿书；山谷对面，帝国大炮在什万贝格城堡下开火，骑兵正往山上冲。"
+      }
+    ],
+    "wikipediaUrl": "https://cs.wikipedia.org/wiki/Selsk%C3%A9_povst%C3%A1n%C3%AD_(1680)"
   },
 ];
 

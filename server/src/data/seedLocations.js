@@ -32914,6 +32914,137 @@ Památník s mohylou stojí zhruba tam, kde se císařští vzdali. K 350. výro
 🎁 彩蛋：当地有个传说，开战前不久，扬科夫教堂里那尊木雕圣瓦茨拉夫像，手里的长矛连同旗子一起掉了下来，断成了三截。看见的人说，是圣人自己松开了手，大家都把这当作了战败的预兆。`,
     },
   },
+  {
+    name: 'Mariánské hradby (Rošických)',
+    slug: 'marianske-hradby-rosickych',
+    localizedNames: { cz: 'Mariánské hradby (Rošických)', zh: '玛利亚城墙（罗希茨基街段）' },
+    labels: ['castle and fortress', 'baroque'],
+    district: 'Praha 5',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.07989120951206, lng: 14.403625281349271 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Mari%C3%A1nsk%C3%A9_hradby',
+    description: {
+      en: `Behind the busy tram stops of náměstí Kinských, a long brick wall climbs the foot of Petřín like a cliff someone forgot to finish. It is one of the longest surviving pieces of the armour the Habsburgs put around Prague in the 17th century, and most people waiting for the tram never look up.
+
+After the Swedish siege of 1648, Prague was declared a fortress in 1653 and ringed with new ramparts and angular bastions. On the left bank the line ran from the Vltava at Újezd up over Petřín, past Strahov and Pohořelec and round the north side of the castle down to the river again. Twenty bastions stood along it, each with a number and the name of a saint, and a gate at Újezd let the roads to the south and west out of the Lesser Town. The work dragged on for some seventy years and was only finished in the 1720s.
+
+Today the left-bank walls are often called Mariánské hradby, the Marian Walls, after a chapel of Our Lady of Help built by the ramparts near the Písek Gate in 1735; strictly speaking, the name belongs to the northern stretch. After the war of 1866 Prague stopped being a fortress, and from 1874 most of the walls were pulled down to make room for streets and new districts. Here, along the foot of Petřín, a long stretch of bastion and curtain wall survived: earth faced with brick, the corners dressed in sandstone, standing high above the street.
+
+🎁 Bonus: A few minutes' walk up the hill, the Hunger Wall, built under Charles IV in the 1360s, climbs Petřín too. Two walls three hundred years apart, both built to keep someone out, now stand a short stroll apart on the same hill.`,
+      cz: `Za rušnými tramvajovými zastávkami na náměstí Kinských se úpatím Petřína táhne dlouhá cihlová zeď, jako útes, který někdo zapomněl dodělat. Je to jeden z nejdelších dochovaných kusů brnění, které Habsburkové v 17. století nasadili Praze, a většina lidí čekajících na tramvaj se k ní ani nepodívá.
+
+Po švédském obléhání roku 1648 byla Praha roku 1653 prohlášena za pevnost a obehnána novými valy s hranatými bastiony. Na levém břehu vedla linie od Vltavy na Újezdě přes Petřín, kolem Strahova a Pohořelce a severní stranou Hradu zase dolů k řece. Stálo na ní dvacet bastionů, každý s číslem a jménem světce, a brána na Újezdě vypouštěla z Malé Strany cesty na jih a na západ. Práce se táhly asi sedmdesát let a skončily teprve ve 20. letech 18. století.
+
+Hradbám levého břehu se dnes často říká Mariánské hradby, podle kaple Panny Marie Pomocné, postavené roku 1735 u valů nedaleko Písecké brány; v užším smyslu patří to jméno severnímu úseku. Po válce roku 1866 přestala být Praha pevností a od roku 1874 se většina hradeb bourala, aby uvolnila místo ulicím a novým čtvrtím. Tady, na úpatí Petřína, se zachoval dlouhý úsek bastionu a kurtiny: hlína obložená cihlou, nároží z pískovce, vysoko nad ulicí.
+
+🎁 Bonus: Pár minut chůze do kopce šplhá po Petříně i Hladová zeď, postavená za Karla IV. v 60. letech 14. století. Dvě zdi, mezi nimiž leží tři sta let, obě postavené proto, aby někoho nepustily dovnitř, dnes stojí kousek od sebe na stejném kopci.`,
+      zh: `金斯基广场的电车站后面，一道长长的砖墙顺着佩特任山脚往上爬，像一座没修完的悬崖。这是17世纪哈布斯堡给布拉格穿上的那身铠甲里，留下来最长的几段之一，可等电车的人大多连头都不抬。
+
+1648年瑞典人围城之后，1653年，布拉格被宣布为要塞，围上了新的城墙和带棱角的棱堡。左岸这一圈，从乌耶兹德的伏尔塔瓦河边起，翻过佩特任山，经过斯特拉霍夫和波霍热莱茨，再绕过城堡北面，一直下到河边。沿线有二十座棱堡，每座都编了号，用一位圣人起名；乌耶兹德的城门，把通往南边和西边的路放出小城。工程拖了七十年左右，到18世纪20年代才完工。
+
+如今左岸这些城墙常被叫作“玛利亚城墙”，名字来自1735年在皮塞克门附近城墙边修的一座“助佑圣母”小教堂；严格说来，这个名字只属于北边那一段。1866年那场战争之后，布拉格不再是要塞，从1874年起，大部分城墙都被拆掉，给新的街道和城区腾地方。这里，佩特任山脚下，一长段棱堡和城墙留了下来：土墙外面砌着砖，墙角包着砂岩，高高地立在街边。
+
+🎁 彩蛋：往山上走几分钟，就是查理四世14世纪60年代修的饥饿之墙，它也顺着佩特任山往上爬。两道墙隔了三百年，修起来都是为了把人挡在外面，如今在同一座山上，走几步路就能从这道走到那道。`,
+    },
+  },
+  {
+    name: 'Lemberk Chateau',
+    slug: 'zamek-lemberk',
+    localizedNames: { cz: 'Státní zámek Lemberk', zh: '莱姆贝克城堡' },
+    labels: ['castle and fortress', 'renaissance', 'baroque', 'outside'],
+    coordinates: { lat: 50.77705947900219, lng: 14.7881950861111 },
+    rarity: 'expedition',
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Lemberk',
+    description: {
+      en: `Lemberk sits on a wooded ridge in northern Bohemia, a pale château with a stubborn medieval tower still poking out of the middle of it. Its most famous resident was not a warrior or a king but a thirteenth-century noblewoman who spent her days nursing the sick, and who is now a saint.
+
+The castle was founded in the mid-thirteenth century by Havel of Markvartice, a lord at the court of the Přemyslid kings, and took its name from the lion in his family's arms. His wife Zdislava came from Moravia. She founded a Dominican priory in the nearby town of Jablonné, cared for the poor and the sick, and died young, around 1252. Pilgrims were praying at her grave within a few years, and in 1995 Pope John Paul II declared her a saint; she is the patron of Czech families.
+
+Of the medieval castle little is left beyond the lower walls and the great tower. In the sixteenth century the new owners rebuilt it as a Renaissance residence, and in the second half of the seventeenth century it took on its present early Baroque look. Its owners changed many times over the centuries, among them Albrecht of Wallenstein; in the late seventeenth century it belonged to the Counts of Breda, and in January 1680 the villages of the estate were among the first in Bohemia to rise against the burden of forced labour. The last owners were the Clam-Gallas family.
+
+🎁 Bonus: Near the château stands a small Baroque summer house built for the Bredas, its ceiling covered with painted emblems: little pictures with Latin mottoes that seventeenth-century nobles liked to puzzle over like riddles.`,
+      cz: `Lemberk stojí na zalesněném hřbetu na severu Čech, světlý zámek, z jehož středu dodnes tvrdohlavě vyčnívá středověká věž. Jeho nejslavnější obyvatelkou nebyl válečník ani král, ale šlechtična ze 13. století, která trávila dny péčí o nemocné a dnes je svatá.
+
+Hrad založil v polovině 13. století Havel z Markvartic, pán působící na dvoře přemyslovských králů, a jméno dostal podle lva v jeho erbu. Jeho manželka Zdislava pocházela z Moravy. V nedalekém Jablonném založila dominikánský klášter, starala se o chudé a nemocné a zemřela mladá, kolem roku 1252. Poutníci se u jejího hrobu modlili už pár let po její smrti a roku 1995 ji papež Jan Pavel II. prohlásil za svatou; je patronkou českých rodin.
+
+Ze středověkého hradu zbylo málo, hlavně spodní zdivo a mohutná věž. V 16. století ho noví majitelé přestavěli na renesanční sídlo a ve druhé polovině 17. století dostal svou dnešní raně barokní podobu. Majitelé se během staletí mnohokrát vystřídali, byl mezi nimi i Albrecht z Valdštejna; koncem 17. století patřil hrabatům z Bredy a v lednu 1680 se vesnice panství jako jedny z prvních v Čechách vzbouřily proti břemeni roboty. Posledními majiteli byli Clam-Gallasové.
+
+🎁 Bonus: Nedaleko zámku stojí malý barokní letohrádek postavený pro Bredy, jehož strop pokrývají malované emblémy: obrázky s latinskými hesly, nad kterými si šlechtici 17. století rádi lámali hlavu jako nad hádankami.`,
+      zh: `莱姆贝克坐落在波希米亚北部一道林木葱郁的山脊上，一座浅色的城堡，正中间还倔强地冒出一座中世纪的塔楼。它最有名的住户，不是武士，也不是国王，而是一位13世纪的贵族女子：她一辈子都在照顾病人，如今已是圣人。
+
+城堡是13世纪中叶由马尔克瓦尔蒂采的哈韦尔建的，他在普舍美斯王朝的宫廷里做事，城堡的名字取自他家纹章上的狮子。他的妻子兹迪斯拉娃来自摩拉维亚。她在附近的亚布隆内小镇创办了一座多明我会修道院，照顾穷人和病人，年纪轻轻就去世了，大约在1252年。她死后没几年，就有朝圣者到她墓前祈祷；1995年，教皇若望·保禄二世宣布她为圣人，她是捷克家庭的主保圣人。
+
+中世纪的城堡留下的不多，主要是下半截的墙和那座大塔楼。16世纪，新主人把它改建成文艺复兴式的府邸；17世纪下半叶，它又变成了今天这副早期巴洛克的模样。几百年里，城堡换了好多次主人，华伦斯坦也在其中；17世纪末，它属于布雷达伯爵家。1680年1月，这座庄园的村子是波希米亚最早起来反抗劳役重担的地方之一。最后的主人是克拉姆-加拉斯家族。
+
+🎁 彩蛋：城堡附近有一座小小的巴洛克夏亭，是为布雷达家修的，天花板上画满了寓意画：配着拉丁文格言的小图，17世纪的贵族们喜欢像猜谜一样琢磨它们。`,
+    },
+  },
+  {
+    name: 'Litoměřice',
+    slug: 'litomerice',
+    localizedNames: { cz: 'Litoměřice', zh: '利托梅日采' },
+    labels: ['city', 'medieval', 'outside'],
+    coordinates: { lat: 50.53403741430198, lng: 14.131676622201876 },
+    rarity: 'expedition',
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Litom%C4%9B%C5%99ice',
+    description: {
+      en: `Litoměřice sits where the Elbe bends past vineyards and orchards, in a region Czechs like to call the Garden of Bohemia. It is an old royal town with a huge sloping square, a bishop on the hill and a house wearing a giant wine cup on its roof, which is about as good a summary of the place as any.
+
+The town grew up around a Přemyslid stronghold above the river; in 1057 a chapter of canons was founded on the hill, and in the thirteenth century Litoměřice became one of the royal towns of Bohemia, rich from river trade and wine. Its burghers sided with Prague in the Hussite wars, and the chalice stayed in their minds long after: in the sixteenth century a wealthy townsman built a house whose roof is topped by a lookout shaped like a great chalice. The House at the Chalice is the town hall today. On the square opposite stands the Gothic and Renaissance old town hall, now the town museum.
+
+In 1655 Litoměřice became the seat of a new bishopric, part of the Habsburgs' effort to bring the country back to the Catholic Church, and the old church on Cathedral Hill was rebuilt as the Baroque Cathedral of St Stephen, with the bishop's residence beside it. The poet Karel Hynek Mácha, author of the most famous poem in Czech, May, died here in 1836, a few weeks after arriving to take up a job.
+
+🎁 Bonus: Mácha was buried in Litoměřice, but in 1939, shortly after the town had been annexed to Nazi Germany, his remains were dug up and taken to Prague, where they were reburied with great ceremony at Vyšehrad as a gesture of national defiance.`,
+      cz: `Litoměřice leží tam, kde se Labe stáčí kolem vinic a sadů, v kraji, kterému Češi rádi říkají Zahrada Čech. Je to staré královské město s obrovským svažitým náměstím, biskupem na kopci a domem, který má na střeše obří číši na víno, což je o tom místě skoro výstižnější souhrn než cokoli jiného.
+
+Město vyrostlo kolem přemyslovského hradiště nad řekou; roku 1057 vznikla na pahorku kapitula a ve 13. století se Litoměřice staly jedním z českých královských měst, zbohatlým z obchodu po řece a z vína. Měšťané stáli v husitských válkách na straně Prahy a kalich jim zůstal v mysli dlouho potom: v 16. století si tu bohatý měšťan postavil dům, jehož střechu korunuje vyhlídka ve tvaru velkého kalicha. Dům U Kalicha je dnes radnicí. Naproti na náměstí stojí gotická a renesanční stará radnice, dnes městské muzeum.
+
+Roku 1655 se Litoměřice staly sídlem nového biskupství, součásti habsburské snahy vrátit zemi katolické církvi, a starý kostel na Dómském pahorku byl přestavěn na barokní katedrálu sv. Štěpána, s biskupskou rezidencí vedle. Básník Karel Hynek Mácha, autor nejslavnější české básně Máj, tu zemřel roku 1836, pár týdnů poté, co sem přijel nastoupit do práce.
+
+🎁 Bonus: Mácha byl pohřben v Litoměřicích, ale roku 1939, krátce poté, co bylo město připojeno k nacistickému Německu, jeho ostatky vykopali a odvezli do Prahy, kde byly s velkou slávou znovu pohřbeny na Vyšehradě jako gesto národního vzdoru.`,
+      zh: `利托梅日采坐落在易北河绕过葡萄园和果园转弯的地方，这一带被捷克人亲切地叫作“波希米亚的花园”。它是一座古老的王室城市，有一个大得出奇、斜坡式的广场，有一位住在山头上的主教，还有一座屋顶上顶着一只巨型酒杯的房子。要概括这座城，这几样东西差不多就够了。
+
+这座城是围着河边山上一座普舍美斯王朝的城堡发展起来的；1057年，山上设立了教士团，13世纪，利托梅日采成了波希米亚的王室城市之一，靠河上贸易和葡萄酒发了财。胡斯战争时，市民们站在布拉格一边，圣杯在他们心里留了很久：16世纪，一位富商盖了一座房子，屋顶上是一座做成大圣杯形状的瞭望亭。这座“圣杯之家”如今是市政厅。广场对面是哥特式加文艺复兴式的老市政厅，现在是城市博物馆。
+
+1655年，利托梅日采成了一个新主教区的驻地，这是哈布斯堡家族想把整个国家拉回天主教会的努力之一。山头上的老教堂被改建成巴洛克式的圣斯德望主教座堂，旁边是主教府。写下捷克语最有名的诗篇《五月》的诗人马哈，1836年来这里上任，没过几个星期就死在了这里。
+
+🎁 彩蛋：马哈本来葬在利托梅日采。1939年，这座城刚被并入纳粹德国不久，他的遗骨被挖了出来，运回布拉格，在维谢赫拉德隆重地重新安葬，成了一次表达民族不屈的姿态。`,
+    },
+  },
+  {
+    name: 'Ovčí vrch (Chapel of the Agony of Christ)',
+    slug: 'ovci-vrch',
+    localizedNames: { cz: 'Ovčí vrch (Kaple Smrtelných úzkostí Krista)', zh: '奥夫奇山（基督临终痛苦小礼拜堂）' },
+    labels: ['monument', 'church', 'early-modern', 'outside'],
+    coordinates: { lat: 49.887734647239085, lng: 12.93096247073168 },
+    rarity: 'expedition',
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Bitva_na_Ov%C4%8D%C3%ADm_vrchu',
+    description: {
+      en: `Ovčí vrch, Sheep Hill, is a quiet grassy hilltop in the rolling country of western Bohemia, with a small white chapel, a stone obelisk and a view across the valley to a castle ruin. It looks like the most peaceful place in the world. On 6 May 1680 it was the scene of a massacre.
+
+That spring, peasants across Bohemia rose against the ever heavier forced labour they owed their lords. One of the strongest groups came from the Bezdružice estate here, German-speaking villagers said to have been led by a man called Hans Muck. They plundered the château, and when they heard that soldiers were coming they dug in on this hill with flails, scythes and only a handful of guns. The owner of the estate, Christoph of Heissenstein, gathered several hundred armed men, placed his cannon by Švamberk castle on the hill opposite and opened fire at six in the evening. At least forty-nine peasants were killed and twenty badly wounded, some reports say a hundred dead, and two companies of cavalry scattered the rest. The soldiers lost no one.
+
+Arrests and trials followed. Heissenstein's wife, Marie Františka, pleaded for mercy for the accused, and in 1681 she had this small chapel, dedicated to the Agony of Christ, built on the spot where the peasants had died. In 1936 a stone obelisk was added beside it as a memorial to the rising.
+
+🎁 Bonus: Local tradition says the peasants made themselves cannon out of cherry-tree trunks bound with iron hoops. They burst at the first shot.`,
+      cz: `Ovčí vrch je tichý travnatý kopec v zvlněné krajině západních Čech, s malou bílou kaplí, kamenným obeliskem a výhledem přes údolí na zříceninu hradu. Vypadá jako nejpokojnější místo na světě. Dne 6. května 1680 se tu odehrál masakr.
+
+Toho jara povstali sedláci po celých Čechách proti stále těžší robotě, kterou dlužili vrchnostem. Jedna z nejsilnějších skupin vzešla ze zdejšího bezdružického panství, německy mluvící vesničané, které prý vedl jistý Hans Muck. Vydrancovali zámek, a když se doslechli, že přicházejí vojáci, opevnili se na tomto kopci s cepy, kosami a jen několika puškami. Majitel panství Kryštof z Heissensteinu shromáždil několik set ozbrojenců, postavil děla u hradu Švamberk na protějším kopci a v šest hodin večer zahájil palbu. Nejméně čtyřicet devět sedláků padlo a dvacet bylo těžce raněno, podle některých zpráv zemřelo až sto lidí, a zbytek rozehnaly dvě jezdecké kompanie. Vojáci neztratili nikoho.
+
+Následovalo zatýkání a soudy. Heissensteinova manželka Marie Františka se za obviněné přimlouvala a roku 1681 dala na místě, kde sedláci zemřeli, postavit tuto malou kapli zasvěcenou Smrtelným úzkostem Krista. Roku 1936 k ní přibyl kamenný obelisk jako památník povstání.
+
+🎁 Bonus: Místní tradice vypráví, že si sedláci udělali děla z třešňových kmenů stažených železnými obručemi. Při prvním výstřelu praskla.`,
+      zh: `奥夫奇山，意思是“羊山”，是波希米亚西部丘陵间一座安静的草坡，山顶有一座白色的小礼拜堂、一座石头方尖碑，隔着山谷还能望见对面的一座城堡废墟。它看上去像是世上最安宁的地方。可1680年5月6日，这里发生过一场屠杀。
+
+那年春天，波希米亚各地的农民起来反抗越来越重的劳役。最强的一支，来自这里的贝兹德鲁日采庄园，是一群说德语的村民，据说领头的是一个叫汉斯·穆克的人。他们抢了庄园的城堡，听说军队要来，就在这座山上筑起了工事，手里只有连枷、镰刀和寥寥几支枪。庄园主海森施泰因召集了几百个武装的人，把大炮架在对面山上的什万贝格城堡边，傍晚六点开了火。至少四十九个农民被打死，二十人重伤，也有记载说死了一百人；剩下的人被两个骑兵连冲散。士兵一个也没死。
+
+接下来是逮捕和审判。海森施泰因的妻子玛丽·弗朗齐斯卡替被告求情。1681年，她在农民死去的地方，盖了这座献给“基督临终痛苦”的小礼拜堂。1936年，旁边又立起一座石头方尖碑，纪念这场起义。
+
+🎁 彩蛋：当地传说，农民们用铁箍箍住樱桃树干，做成了大炮。结果头一炮就炸裂了。`,
+    },
+  },
 ];
 
 async function run() {
