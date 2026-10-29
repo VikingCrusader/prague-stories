@@ -32248,9 +32248,9 @@ export const historyEvents = [
       "zh": "官府想要一座街道宽敞、全用石头盖的新犹太城。盖回来的，还是那座窄巷子里的老犹太城，只是会堂少了一半。"
     },
     "summary": {
-      "en": "Straight after the fire, the Old Town council had wanted to [[link:the-french-fire-1689]]move the Jewish Town away[[/link]]. That came to nothing. But the authorities had no intention of letting it come back just as it was, either.\n\nSomeone drew up a brand-new Jewish Town: wide streets, every house of stone. Nobody could pay for a town like that. In the end the Jewish Town went back up along its old narrow lanes, house by house, much as it had been before it burned.\n\nNor did its people grow fewer. The commission had meant to count the Jews and send the surplus abroad; not one was sent. Beckovský watched it all with open irritation:\n\n[[quote:0]]\n\nHis figure may well be exaggerated. [[b]]The authorities had drawn up plans for a new town, and what came back was the same old Jewish Town.[[/b]]\n\nThe synagogues fared worse. Before the fire the Jewish Town had thirteen; only six were allowed to be rebuilt.\n\nThe Old-New Synagogue, built of stone, came through the fire. The High Synagogue was repaired by 1691. The Maisel Synagogue had burned to the ground and came back shorter: of its twenty pillars, only fourteen.\n\nBy the old cemetery, the little prayer and study houses that [[link:the-emperor-behind-the-curtain-1592]]Maisel[[/link]] had built, the klausen where Rabbi Loew once taught, had all burned. On their site Rabbi Shelomo Khalish Cohen built a single new synagogue, finished in 1694, the largest in the Jewish Town. Two years later Samuel Oppenheimer, the banker who supplied the emperor's armies, paid for its tall three-tiered Torah ark. It is the only Baroque synagogue left in the old ghetto today.\n\nIn the year the Klausen Synagogue was finished, a child died in the Jewish Town.",
-      "cz": "Hned po požáru chtěla staroměstská rada [[link:the-french-fire-1689]]Židovské Město přestěhovat[[/link]]. Sešlo z toho. Úřady ale neměly v úmyslu nechat ho vrátit se úplně takové, jaké bylo.\n\nKdosi nakreslil zcela nové Židovské Město: široké ulice, všechny domy z kamene. Takové město však nikdo nedokázal zaplatit. Nakonec Židovské Město vyrostlo znovu podél svých starých úzkých uliček, dům po domě, skoro takové, jaké bylo, než vyhořelo.\n\nAni lidí v něm neubylo. Komise chtěla Židy sečíst a přebytečné poslat do ciziny; neposlala ani jednoho. Beckovský to všechno sledoval s nepokrytou nevolí:\n\n[[quote:0]]\n\nJeho číslo je možná přehnané. [[b]]Úřady nakreslily plány nového města, a znovu vyrostlo totéž staré Židovské Město.[[/b]]\n\nSynagogy dopadly hůř. Před požárem jich Židovské Město mělo třináct; obnovit se smělo jen šest.\n\nStaronová synagoga, postavená z kamene, požár přečkala. Vysoká synagoga byla opravena do roku 1691. Maiselova synagoga vyhořela do základů a vrátila se kratší: z dvaceti pilířů jich zbylo čtrnáct.\n\nU starého hřbitova vyhořely všechny klausy, malé modlitebny a učebny, které tu postavil [[link:the-emperor-behind-the-curtain-1592]]Maisel[[/link]] a kde kdysi učil rabi Löw. Na jejich místě postavil rabi Šelomo Chališ Kohen jedinou novou synagogu, dokončenou roku 1694, největší v Židovském Městě. O dva roky později jí bankéř Samuel Oppenheimer, který zásoboval císařská vojska, zaplatil vysoký trojdílný svatostánek na Tóru. Dnes je to jediná barokní synagoga, která v bývalém ghettu zůstala.\n\nV roce, kdy byla Klausová synagoga dokončena, zemřelo v Židovském Městě jedno dítě.",
-      "zh": "大火刚灭，老城议会就想[[link:the-french-fire-1689]]把犹太城迁走[[/link]]，没迁成。可官府也没打算让它原样回来。\n\n有人画了一座全新的犹太城：街道宽敞，房子一律用石头盖。可这样一座城，谁也出不起钱。最后，犹太城还是沿着原来那些窄巷，一栋一栋，差不多照着烧掉前的样子盖了回来。\n\n人也没减下来。委员会本想清点犹太人的人数，把多出来的打发到国外去，结果一个也没打发走。贝茨科夫斯基看着这一切，很不痛快：\n\n[[quote:0]]\n\n他这个数字未必准。[[b]]官府画了一座新城的图纸，盖回来的，还是那座老犹太城。[[/b]]\n\n会堂就没这么幸运了。大火前，犹太城有十三座会堂，重建时只准盖回六座。\n\n老新会堂是石头砌的，挺过了大火。高会堂1691年修好了。迈瑟尔会堂烧得精光，重建时截短了一截，原来的二十根柱子，只剩下十四根。\n\n老墓地旁边，当年[[link:the-emperor-behind-the-curtain-1592]]迈瑟尔[[/link]]盖的几座小经堂，人们叫它们“克劳斯”，罗乌拉比曾在这里讲学，这次全烧光了。拉比什洛莫·哈利什·科恩在原地盖起一座新会堂，1694年完工，是犹太城里最大的会堂。两年后，替皇帝军队筹办给养的银行家萨缪尔·奥本海默，出钱给它添了一座三层高的约柜。如今，它是老犹太区仅存的巴洛克式会堂。\n\n就在克劳斯会堂完工的那一年，犹太城里死了一个孩子。"
+      "en": "Straight after the fire, the Old Town council had wanted to [[link:the-french-fire-1689]]move the Jewish Town away[[/link]]. That came to nothing. But the authorities had no intention of letting it come back just as it was, either.\n\nSomeone drew up a brand-new Jewish Town: wide streets, every house of stone. Nobody could pay for a town like that. In the end the Jewish Town went back up along its old narrow lanes, house by house, much as it had been before it burned.\n\nNor did its people grow fewer. The commission had meant to count the Jews and send the surplus abroad; not one was sent. Beckovský watched it all with open irritation:\n\n[[quote:0]]\n\nHis figure may well be exaggerated. [[b]]The authorities had drawn up plans for a new town, and what came back was the same old Jewish Town.[[/b]]\n\nThe synagogues fared worse. Before the fire the Jewish Town had thirteen; only six were allowed to be rebuilt.\n\nThe Old-New Synagogue, built of stone, came through the fire. The High Synagogue was repaired by 1691. The Maisel Synagogue had burned to the ground and came back shorter: of its twenty pillars, only fourteen.\n\nBy the old cemetery, the little prayer and study houses that [[link:the-emperor-behind-the-curtain-1592]]Maisel[[/link]] had built, the klausen where Rabbi Loew once taught, had all burned. On their site Rabbi Shelomo Khalish Cohen built a single new synagogue, finished in 1694, the largest in the Jewish Town. Two years later Samuel Oppenheimer, the banker who supplied the emperor's armies, paid for its tall three-tiered Torah ark. It is the only Baroque synagogue left in the old ghetto today.\n\nIn the year the Klausen Synagogue was finished, a twelve-year-old boy from the Jewish Town, Simon Abeles, died at home. His death soon [[link:buried-twice-1694]]set the whole city talking[[/link]].\n\nSo the Old Town and the Jewish Town were built back, lane by lane. The main event, though, was still to come, across the river in the Lesser Town.",
+      "cz": "Hned po požáru chtěla staroměstská rada [[link:the-french-fire-1689]]Židovské Město přestěhovat[[/link]]. Sešlo z toho. Úřady ale neměly v úmyslu nechat ho vrátit se úplně takové, jaké bylo.\n\nKdosi nakreslil zcela nové Židovské Město: široké ulice, všechny domy z kamene. Takové město však nikdo nedokázal zaplatit. Nakonec Židovské Město vyrostlo znovu podél svých starých úzkých uliček, dům po domě, skoro takové, jaké bylo, než vyhořelo.\n\nAni lidí v něm neubylo. Komise chtěla Židy sečíst a přebytečné poslat do ciziny; neposlala ani jednoho. Beckovský to všechno sledoval s nepokrytou nevolí:\n\n[[quote:0]]\n\nJeho číslo je možná přehnané. [[b]]Úřady nakreslily plány nového města, a znovu vyrostlo totéž staré Židovské Město.[[/b]]\n\nSynagogy dopadly hůř. Před požárem jich Židovské Město mělo třináct; obnovit se smělo jen šest.\n\nStaronová synagoga, postavená z kamene, požár přečkala. Vysoká synagoga byla opravena do roku 1691. Maiselova synagoga vyhořela do základů a vrátila se kratší: z dvaceti pilířů jich zbylo čtrnáct.\n\nU starého hřbitova vyhořely všechny klausy, malé modlitebny a učebny, které tu postavil [[link:the-emperor-behind-the-curtain-1592]]Maisel[[/link]] a kde kdysi učil rabi Löw. Na jejich místě postavil rabi Šelomo Chališ Kohen jedinou novou synagogu, dokončenou roku 1694, největší v Židovském Městě. O dva roky později jí bankéř Samuel Oppenheimer, který zásoboval císařská vojska, zaplatil vysoký trojdílný svatostánek na Tóru. Dnes je to jediná barokní synagoga, která v bývalém ghettu zůstala.\n\nV roce, kdy byla Klausová synagoga dokončena, zemřel doma dvanáctiletý chlapec ze Židovského Města, Šimon Abeles. Jeho smrt brzy [[link:buried-twice-1694]]rozvířila celé město[[/link]].\n\nTak se Staré Město i Židovské Město ulici po ulici znovu postavily. To hlavní však teprve mělo přijít, za řekou na Malé Straně.",
+      "zh": "大火刚灭，老城议会就想[[link:the-french-fire-1689]]把犹太城迁走[[/link]]，没迁成。可官府也没打算让它原样回来。\n\n有人画了一座全新的犹太城：街道宽敞，房子一律用石头盖。可这样一座城，谁也出不起钱。最后，犹太城还是沿着原来那些窄巷，一栋一栋，差不多照着烧掉前的样子盖了回来。\n\n人也没减下来。委员会本想清点犹太人的人数，把多出来的打发到国外去，结果一个也没打发走。贝茨科夫斯基看着这一切，很不痛快：\n\n[[quote:0]]\n\n他这个数字未必准。[[b]]官府画了一座新城的图纸，盖回来的，还是那座老犹太城。[[/b]]\n\n会堂就没这么幸运了。大火前，犹太城有十三座会堂，重建时只准盖回六座。\n\n老新会堂是石头砌的，挺过了大火。高会堂1691年修好了。迈瑟尔会堂烧得精光，重建时截短了一截，原来的二十根柱子，只剩下十四根。\n\n老墓地旁边，当年[[link:the-emperor-behind-the-curtain-1592]]迈瑟尔[[/link]]盖的几座小经堂，人们叫它们“克劳斯”，罗乌拉比曾在这里讲学，这次全烧光了。拉比什洛莫·哈利什·科恩在原地盖起一座新会堂，1694年完工，是犹太城里最大的会堂。两年后，替皇帝军队筹办给养的银行家萨缪尔·奥本海默，出钱给它添了一座三层高的约柜。如今，它是老犹太区仅存的巴洛克式会堂。\n\n就在克劳斯会堂完工的那一年，犹太城里一个十二岁的男孩，西蒙·阿贝勒斯，死在了家里。他的死，很快就[[link:buried-twice-1694]]闹得满城风雨[[/link]]。\n\n老城和犹太城，就这样一条巷子一条巷子地盖了回来。可接下来的重头戏，在河对岸的小城。"
     },
     "quotes": [
       {
@@ -32276,6 +32276,14 @@ export const historyEvents = [
         }
       },
       {
+        "slug": "old-jewish-cemetery",
+        "relation": {
+          "en": "The Klausen Synagogue was rebuilt on its edge, where Maisel's klausen had stood",
+          "cz": "Na jeho okraji, kde stávaly Maiselovy klausy, byla postavena Klausová synagoga",
+          "zh": "克劳斯会堂就重建在它的边上，迈瑟尔那几座克劳斯原来的位置"
+        }
+      },
+      {
         "slug": "maiselova-synagoga",
         "relation": {
           "en": "Burned to the ground in 1689 and rebuilt shorter, with fourteen pillars instead of twenty",
@@ -32298,6 +32306,14 @@ export const historyEvents = [
           "cz": "Kamenná, požár roku 1689 přečkala",
           "zh": "石头砌的，挺过了1689年的大火"
         }
+      },
+      {
+        "slug": "tyn-church",
+        "relation": {
+          "en": "Where Simon Abeles was buried as a martyr in 1694",
+          "cz": "Zde byl roku 1694 pohřben jako mučedník Šimon Abeles",
+          "zh": "1694年，西蒙·阿贝勒斯作为殉道者葬在这里"
+        }
       }
     ],
     "images": [
@@ -32312,30 +32328,26 @@ export const historyEvents = [
     ],
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Klausen_Synagogue"
   },
-  // buried-twice-1694: the Abeles case (Klausen and the rebuilding moved to
-  // the-same-jewish-town-1691). Abeles: en.wikipedia "Simon Abeles"
-  // (b. 1681, d. 21 Feb 1694, grandfather head of the community, flight to the
-  // Klementinum 1693, never baptised); Deník "Šimon Abeles" (lodged with the
-  // baptised Jew František Kavka, illness possible, denunciation, autopsy:
-  // wound on left temple, broken neck vertebrae; Court of Appeal; Sára Uresinová
-  // preparing for baptism; Lazar hanged in the town hall tower in chains with
-  // one hand fastened; corpse executed 16 March; Lea named Kurtzhandl, arrested
-  // at Manětín, denied under torture; funeral 31 March from the town hall's
-  // St Lawrence chapel, Countess Šliková, procession details); Kisch, Prager
-  // Pitaval, "Aus Glaubenshaß" (letter of 25 Feb, Sara 13, sentence 19 April,
-  // Leopold's stay refused with the quoted line, baptised as Johannes after the
-  // 11th blow, blood-soaked handkerchiefs, no evidence against Kurtzhandl in the
-  // file). Eder's title: the Google Books record of the German translation.
-  // Yiddish song: Carlebach, "Saint and Countersaint", Jewish History 30 (2016).
+  // buried-twice-1694: background card on the Jesuits' drive to convert
+  // Prague's Jews and the Abeles case (a full event card first, deleted
+  // 2026-10-30 as too grim for the rebuilding run, then brought back the same
+  // day as a background card at the user's call). Context: Soukup, "Obraz Židů
+  // v českém kazatelství" (Bohemica litteraria 2016): Jews the only tolerated
+  // non-Catholics, Ferdinand II's 1630 order for Jesuit sermons and catechism
+  // that failed, renewed in the 1690s, conversion efforts stronger after the
+  // Abeles case, Eder's German edition Prague 1698. Case: en.wikipedia
+  // "Simon Abeles"; Deník "Šimon Abeles"; Kisch, Prager Pitaval, "Aus
+  // Glaubenshaß"; Carlebach, "Saint and Countersaint" (Yiddish song).
   {
     "slug": "buried-twice-1694",
     "era": "baroque-and-darkness",
+    "cardType": "background",
     "startYear": 1694,
     "tone": "serious",
     "year": {
-      "en": "1693–1694",
-      "cz": "1693–1694",
-      "zh": "1693年－1694年"
+      "en": "1630–1698",
+      "cz": "1630–1698",
+      "zh": "1630年－1698年"
     },
     "title": {
       "en": "Buried Twice",
@@ -32343,14 +32355,14 @@ export const historyEvents = [
       "zh": "葬了两次的孩子"
     },
     "hookLine": {
-      "en": "A twelve-year-old boy from the Jewish Town died at home. His family buried him quietly; the Jesuits dug him up and buried him again, as a martyr.",
-      "cz": "Dvanáctiletý chlapec ze Židovského Města zemřel doma. Rodina ho potichu pohřbila; jezuité ho vykopali a pohřbili znovu, jako mučedníka.",
-      "zh": "犹太城一个十二岁的男孩死在家里。家人悄悄把他埋了；耶稣会士把他挖出来，当作殉道者又葬了一次。"
+      "en": "In the 1690s the Jesuits set out to win the Jewish Town's children. One of them, a twelve-year-old boy, died at home and was buried twice: once by his family, once by the Jesuits, as a martyr.",
+      "cz": "V 90. letech 17. století se jezuité snažili získat děti ze Židovského Města. Jedno z nich, dvanáctiletý chlapec, zemřelo doma a bylo pohřbeno dvakrát: jednou rodinou, podruhé jezuity, jako mučedník.",
+      "zh": "1690年代，耶稣会想把犹太城的孩子争取过来。其中一个十二岁的男孩死在家里，被葬了两次：一次是家人，一次是耶稣会，当作殉道者。"
     },
     "summary": {
-      "en": "His name was Simon Abeles. He was twelve, the son of the merchant Lazar Abeles and grandson of the head of the Jewish community. In those years the Jesuits of the Klementinum were working hard to win Jewish children for baptism. In the autumn of 1693 Simon ran away to them and said he wanted to become a Christian. His father found him and took him home. Simon was never baptised.\n\nOn 21 February 1694, Simon died at home. What killed him is still not known: he may have been ill for a long time, or he may have been beaten. The family buried him quickly in the old cemetery.\n\nFour days later an anonymous letter reached the authorities. The body was dug up, and the doctors found a wound on the temple and broken bones in the neck.\n\nThe case went to the Court of Appeal, the same court that [[link:the-french-fire-1689]]five years earlier[[/link]] had declared the fire the work of the French. [[b]]This time, too, the court soon knew what it was looking for: not how the boy had died, but that his father had killed him out of hatred of the Christian faith.[[/b]]\n\nLazar was locked in the tower of the Old Town Hall and denied everything. A few hours after he was confronted with a servant girl who was herself preparing for baptism, he was found hanged in his cell, still in chains. The court called it suicide, and on 16 March it executed his corpse: the heart was cut out, and the body quartered and burned.\n\nHis widow then named Löbl Kurtzhandl, a young relative who had lived with the family. He denied it even under torture, and on 19 April he was sentenced to be broken on the wheel. Emperor Leopold ordered the execution stayed and a lawyer found for him. The court refused:\n\n[[quote:0]]\n\nAfter the eleventh blow of the wheel, Kurtzhandl agreed to be baptised, and was then killed with a blow to the neck. He kept saying that he had been convicted on the word of bribed witnesses.\n\nOn 31 March Simon's funeral went from the Old Town Hall to the Týn Church. Sixteen young men in red cloaks carried the coffin, boys walked beside it with torches, and soldiers held back the crowd. It was said that the body was still bleeding, and people pushed forward to soak their handkerchiefs in the blood. He was buried in the Týn Church, where [[link:a-nose-an-elk-and-an-ellipse-1601]]Tycho Brahe[[/link]] lies.\n\nThe Jesuit Johann Eder wrote a book about him. Its German translation bore this title:\n\n[[quote:1]]\n\nBroadsides, ballads and plays followed, and a Jewish boy who had never been baptised became Prague's unofficial saint. From the Jewish side, only a single Yiddish song survives, about Kurtzhandl's last hours. In the 20th century the journalist Egon Erwin Kisch went through the court file and found no evidence in it against Kurtzhandl.\n\n[[b]]Simon Abeles was buried twice: once in secret by his family, and once in state by the Jesuits.[[/b]] Which of the two he would have wanted, nobody asked him.",
-      "cz": "Jmenoval se Šimon Abeles. Bylo mu dvanáct, byl synem obchodníka Lazara Abelese a vnukem primase židovské obce. Jezuité z Klementina se v těch letech usilovně snažili získat ke křtu židovské děti. Na podzim 1693 k nim Šimon utekl a řekl, že se chce stát křesťanem. Otec ho našel a odvedl domů. Pokřtěn Šimon nikdy nebyl.\n\nDne 21. února 1694 Šimon doma zemřel. Na co, se dodnes neví: mohl být dlouho nemocný, nebo mohl být bit. Rodina ho rychle pohřbila na starém hřbitově.\n\nO čtyři dny později dostaly úřady anonymní udání. Tělo bylo exhumováno a lékaři našli na spánku ránu a zlomené krční obratle.\n\nPřípad převzal apelační soud, týž, který [[link:the-french-fire-1689]]před pěti lety[[/link]] prohlásil, že oheň založili Francouzi. [[b]]I tentokrát soud brzy věděl, co hledá: ne to, jak chlapec zemřel, ale že ho otec zabil z nenávisti ke křesťanské víře.[[/b]]\n\nLazara zavřeli do věže Staroměstské radnice a všechno popíral. Pár hodin po konfrontaci se služebnou, která se sama připravovala ke křtu, ho našli v cele oběšeného, stále v okovech. Soud to prohlásil za sebevraždu a 16. března popravil jeho mrtvé tělo: vyňali mu srdce, tělo rozčtvrtili a spálili.\n\nVdova pak jmenovala Löbla Kurtzhandla, mladého příbuzného, který v domě bydlel. Zapíral i na mučidlech a 19. dubna byl odsouzen k lámání kolem. Císař Leopold nařídil popravu odložit a dát mu obhájce. Soud odmítl:\n\n[[quote:0]]\n\nPo jedenácté ráně kolem svolil Kurtzhandl ke křtu a pak ho dorazili ranou do vazu. Stále opakoval, že ho odsoudili na slovo podplacených svědků.\n\nDne 31. března šel Šimonův pohřební průvod od Staroměstské radnice k Týnskému chrámu. Rakev neslo šestnáct mládenců v červených pláštích, vedle šli chlapci s pochodněmi a vojáci zadržovali dav. Říkalo se, že tělo stále krvácí, a lidé se tlačili, aby si do krve namočili kapesníky. Pohřben byl v Týnském chrámu, kde leží i [[link:a-nose-an-elk-and-an-ellipse-1601]]Tycho Brahe[[/link]].\n\nJezuita Jan Eder o něm napsal knihu. Její německý překlad nesl tento název:\n\n[[quote:1]]\n\nNásledovaly letáky, kramářské písně a hry a židovský chlapec, který nikdy nebyl pokřtěn, se stal neoficiálním pražským světcem. Ze židovské strany se dochovala jediná píseň v jidiš, o posledních hodinách Kurtzhandla. Ve 20. století prošel soudní spis novinář Egon Erwin Kisch a žádný důkaz proti Kurtzhandlovi v něm nenašel.\n\n[[b]]Šimon Abeles byl pohřben dvakrát: jednou potichu vlastní rodinou, podruhé okázale jezuity.[[/b]] Který z těch pohřbů by chtěl on sám, se ho nikdo nezeptal.",
-      "zh": "他叫西蒙·阿贝勒斯，十二岁，商人拉扎尔·阿贝勒斯的儿子，祖父是犹太社区的首领。那些年，克莱门蒂努姆的耶稣会士正下大力气劝犹太孩子受洗。1693年秋天，西蒙跑到他们那里，说想当基督徒。父亲找到他，把他领回了家。西蒙始终没有受洗。\n\n1694年2月21日，西蒙死在家里。他是怎么死的，至今没人说得清：可能病了很久，也可能挨了打。家里人匆匆把他埋进了老墓地。\n\n四天后，一封匿名信送到了官府。尸体被挖了出来，医生在他太阳穴上找到一处伤，颈骨也断了。\n\n案子交给了上诉法院，就是[[link:the-french-fire-1689]]五年前[[/link]]认定“火是法国人放的”那个法院。[[b]]这一回，法院也很快就知道自己要找什么了：不是孩子怎么死的，而是他父亲出于对基督信仰的仇恨杀了他。[[/b]]\n\n拉扎尔被关进老城市政厅的塔楼，什么都不认。和一个正准备受洗的女仆对质后没过几个钟头，他被发现吊死在牢房里，身上还戴着镣铐。法院说是自杀，3月16日又“处决”了他的尸体：挖出心脏，分尸，焚烧。\n\n他的遗孀又供出了一个名字：住在他们家的年轻亲戚勒布尔·库尔茨汉德尔。他上了刑也不认，4月19日被判轮刑。利奥波德皇帝下令暂缓行刑，给他找个律师。法院拒绝了：\n\n[[quote:0]]\n\n挨到第十一下，库尔茨汉德尔答应受洗，随后被一击断颈而死。他一直说，定他罪的证人是被收买的。\n\n3月31日，西蒙的送葬队伍从老城市政厅走向提恩教堂。十六个披红斗篷的年轻人抬着棺材，男孩们举着火把，士兵拦着挤上来的人群。据说尸体还在流血，人们挤上前去拿手帕蘸。孩子葬在了提恩教堂，[[link:a-nose-an-elk-and-an-ellipse-1601]]第谷[[/link]]也葬在那里。\n\n耶稣会士埃德尔为他写了一本书，德译本的书名是这样的：\n\n[[quote:1]]\n\n传单、小调、戏剧接踵而来，一个从没受过洗的犹太孩子，成了布拉格非正式的圣人。犹太人这边，只留下一首意第绪语的歌，讲库尔茨汉德尔最后的时辰。二十世纪，记者基希翻遍卷宗，没找到任何对他不利的证据。\n\n[[b]]西蒙·阿贝勒斯被葬了两次：一次是家人悄悄地埋，一次是耶稣会士风风光光地葬。[[/b]]这两次里他自己想要哪一次，没有人问过他。"
+      "en": "After the Thirty Years' War, the Jews were almost the only non-Catholics the law still tolerated in Bohemia, and the Church wanted them converted. As early as 1630 Ferdinand II ordered them to attend Jesuit sermons and catechism classes; the Jewish Town refused to go, and the plan came to nothing. In the 1690s the Jesuits tried again, and this time it was the children they had their eye on.\n\nSimon Abeles was twelve, the son of the merchant Lazar Abeles and grandson of the head of the Jewish community. In the autumn of 1693 he ran away to the Jesuits of the Klementinum and said he wanted to become a Christian. His father took him home. He was never baptised.\n\nOn 21 February 1694 Simon died at home, and the family buried him quickly in the old cemetery. How he died is still not known: he may have been ill for a long time, or he may have been beaten. Four days later an anonymous letter reached the authorities. The body was dug up, and the doctors found a wound on the temple and broken bones in the neck.\n\nThe case went to the Court of Appeal, the same court that [[link:the-french-fire-1689]]five years earlier[[/link]] had declared the fire the work of the French. [[b]]This time, too, the court soon knew what it was looking for: not how the boy had died, but that his father had killed him out of hatred of the Christian faith.[[/b]]\n\nLazar was locked in the tower of the Old Town Hall and denied everything. A few hours after he was confronted with a servant girl who was herself preparing for baptism, he was found hanged in his cell, still in chains. The court called it suicide, and on 16 March it executed his corpse: the heart was cut out, and the body quartered and burned.\n\nHis widow then named Löbl Kurtzhandl, a young relative who had lived with the family. He denied it even under torture, and on 19 April he was sentenced to be broken on the wheel. Emperor Leopold ordered the execution stayed and a lawyer found for him. The court refused:\n\n[[quote:0]]\n\nAfter the eleventh blow of the wheel, Kurtzhandl agreed to be baptised, and was then killed with a blow to the neck. He kept saying that he had been convicted on the word of bribed witnesses.\n\nOn 31 March sixteen young men in red cloaks carried Simon's coffin from the Old Town Hall to the Týn Church, while soldiers held back the crowd. It was said that the body was still bleeding, and people pushed forward to soak their handkerchiefs in the blood.\n\nFour years later the Jesuit Johann Eder's book about him came out in German in Prague, under this title:\n\n[[quote:1]]\n\nA Jewish boy who had never been baptised became Prague's unofficial saint, and the efforts to convert the Jews grew stronger. From the Jewish side, only a single Yiddish song survives, about Kurtzhandl's last hours. In the 20th century the journalist Egon Erwin Kisch went through the court file and found no evidence in it against Kurtzhandl.\n\n[[b]]Simon Abeles was buried twice: once in secret by his family, and once in state by the Jesuits.[[/b]] Which of the two he would have wanted, nobody asked him.",
+      "cz": "Po třicetileté válce byli Židé téměř jedinými nekatolíky, které zákon v Čechách ještě trpěl, a církev je chtěla obrátit. Už roku 1630 jim Ferdinand II. nařídil chodit na jezuitská kázání a katecheze; Židovské Město odmítlo a z plánu sešlo. V 90. letech 17. století to jezuité zkusili znovu a tentokrát se zaměřili na děti.\n\nŠimonovi Abelesovi bylo dvanáct, byl synem obchodníka Lazara Abelese a vnukem primase židovské obce. Na podzim 1693 utekl k jezuitům do Klementina a řekl, že se chce stát křesťanem. Otec ho odvedl domů. Pokřtěn nikdy nebyl.\n\nDne 21. února 1694 Šimon doma zemřel a rodina ho rychle pohřbila na starém hřbitově. Jak zemřel, se dodnes neví: mohl být dlouho nemocný, nebo mohl být bit. O čtyři dny později dostaly úřady anonymní udání. Tělo bylo exhumováno a lékaři našli na spánku ránu a zlomené krční obratle.\n\nPřípad převzal apelační soud, týž, který [[link:the-french-fire-1689]]před pěti lety[[/link]] prohlásil, že oheň založili Francouzi. [[b]]I tentokrát soud brzy věděl, co hledá: ne to, jak chlapec zemřel, ale že ho otec zabil z nenávisti ke křesťanské víře.[[/b]]\n\nLazara zavřeli do věže Staroměstské radnice a všechno popíral. Pár hodin po konfrontaci se služebnou, která se sama připravovala ke křtu, ho našli v cele oběšeného, stále v okovech. Soud to prohlásil za sebevraždu a 16. března popravil jeho mrtvé tělo: vyňali mu srdce, tělo rozčtvrtili a spálili.\n\nVdova pak jmenovala Löbla Kurtzhandla, mladého příbuzného, který v domě bydlel. Zapíral i na mučidlech a 19. dubna byl odsouzen k lámání kolem. Císař Leopold nařídil popravu odložit a dát mu obhájce. Soud odmítl:\n\n[[quote:0]]\n\nPo jedenácté ráně kolem svolil Kurtzhandl ke křtu a pak ho dorazili ranou do vazu. Stále opakoval, že ho odsoudili na slovo podplacených svědků.\n\nDne 31. března neslo šestnáct mládenců v červených pláštích Šimonovu rakev od Staroměstské radnice k Týnskému chrámu a vojáci zadržovali dav. Říkalo se, že tělo stále krvácí, a lidé se tlačili, aby si do krve namočili kapesníky.\n\nO čtyři roky později vyšla v Praze německy kniha jezuity Jana Edera o něm, s tímto názvem:\n\n[[quote:1]]\n\nŽidovský chlapec, který nikdy nebyl pokřtěn, se stal neoficiálním pražským světcem a snahy o obrácení Židů zesílily. Ze židovské strany se dochovala jediná píseň v jidiš, o posledních hodinách Kurtzhandla. Ve 20. století prošel soudní spis novinář Egon Erwin Kisch a žádný důkaz proti Kurtzhandlovi v něm nenašel.\n\n[[b]]Šimon Abeles byl pohřben dvakrát: jednou potichu vlastní rodinou, podruhé okázale jezuity.[[/b]] Který z těch pohřbů by chtěl on sám, se ho nikdo nezeptal.",
+      "zh": "三十年战争之后，在波希米亚，犹太人几乎是法律还容得下的唯一一群非天主教徒，教会想让他们改宗。早在1630年，斐迪南二世就下令犹太人去听耶稣会士布道、上教理课；犹太城硬是不去，最后不了了之。到了1690年代，耶稣会又卷土重来，这一回，他们盯上的是孩子。\n\n西蒙·阿贝勒斯十二岁，商人拉扎尔·阿贝勒斯的儿子，祖父是犹太社区的首领。1693年秋天，他跑到克莱门蒂努姆的耶稣会士那里，说想当基督徒。父亲把他领回了家。他始终没有受洗。\n\n1694年2月21日，西蒙死在家里，家人匆匆把他埋进了老墓地。他是怎么死的，至今说不清：可能病了很久，也可能挨了打。四天后，一封匿名信送到了官府。尸体被挖了出来，医生在他太阳穴上找到一处伤，颈骨也断了。\n\n案子交给了上诉法院，就是[[link:the-french-fire-1689]]五年前[[/link]]认定“火是法国人放的”那个法院。[[b]]这一回，法院也很快就知道自己要找什么了：不是孩子怎么死的，而是他父亲出于对基督信仰的仇恨杀了他。[[/b]]\n\n拉扎尔被关进老城市政厅的塔楼，什么都不认。和一个正准备受洗的女仆对质后没过几个钟头，他被发现吊死在牢房里，身上还戴着镣铐。法院说是自杀，3月16日又“处决”了他的尸体：挖出心脏，分尸，焚烧。\n\n他的遗孀又供出了一个名字：住在他们家的年轻亲戚勒布尔·库尔茨汉德尔。他上了刑也不认，4月19日被判轮刑。利奥波德皇帝下令暂缓行刑，给他找个律师。法院拒绝了：\n\n[[quote:0]]\n\n挨到第十一下，库尔茨汉德尔答应受洗，随后被一击断颈而死。他一直说，定他罪的证人是被收买的。\n\n3月31日，十六个披红斗篷的年轻人抬着西蒙的棺材，从老城市政厅一路走到提恩教堂，士兵拦着挤上来的人群。据说尸体还在流血，人们挤上前去，拿手帕去蘸。\n\n四年后，耶稣会士埃德尔写他的书在布拉格出了德文版，书名是这样的：\n\n[[quote:1]]\n\n一个从没受过洗的犹太孩子，成了布拉格非正式的圣人，劝犹太人改宗的力度也越来越大。犹太人这边，只留下一首意第绪语的歌，讲库尔茨汉德尔最后的时辰。二十世纪，记者基希翻遍卷宗，没找到任何对他不利的证据。\n\n[[b]]西蒙·阿贝勒斯被葬了两次：一次是家人悄悄地埋，一次是耶稣会士风风光光地葬。[[/b]]这两次里他自己想要哪一次，没有人问过他。"
     },
     "quotes": [
       {
@@ -32372,69 +32384,15 @@ export const historyEvents = [
           "zh": "十二岁男孩西蒙·阿贝勒斯为捍卫基督信仰所表现的大丈夫般的坚贞：其犹太父亲拉撒路·阿贝勒斯出于对信仰的仇恨，于1694年2月21日在布拉格将其残忍杀害。"
         },
         "attribution": {
-          "en": "Title of the German translation of Johann Eder's book",
-          "cz": "Název německého překladu knihy Jana Edera",
-          "zh": "埃德尔一书德译本的书名"
+          "en": "Title of the German edition of Johann Eder's book, Prague 1698",
+          "cz": "Název německého vydání knihy Jana Edera, Praha 1698",
+          "zh": "埃德尔一书德文版的书名，布拉格，1698年"
         }
       }
     ],
-    "relatedLandmarks": [
-      {
-        "slug": "old-jewish-cemetery",
-        "relation": {
-          "en": "Where Simon's family buried him in secret, and where the body was dug up",
-          "cz": "Sem rodina Šimona potajmu pohřbila a odtud bylo tělo exhumováno",
-          "zh": "西蒙的家人在这里悄悄埋葬了他，尸体也是从这里被挖出来的"
-        }
-      },
-      {
-        "slug": "astronomicka-vez-klementina",
-        "relation": {
-          "en": "The Jesuit Klementinum, where Simon ran in 1693 asking to be baptised",
-          "cz": "Jezuitské Klementinum, kam Šimon roku 1693 utekl a žádal o křest",
-          "zh": "耶稣会的克莱门蒂努姆，1693年西蒙跑到这里要求受洗"
-        }
-      },
-      {
-        "slug": "old-town-hall",
-        "relation": {
-          "en": "Lazar Abeles died in its tower; Simon's funeral procession set out from its chapel",
-          "cz": "V její věži zemřel Lazar Abeles; z její kaple vyšel Šimonův pohřební průvod",
-          "zh": "拉扎尔·阿贝勒斯死在这里的塔楼里；西蒙的送葬队伍从这里的小礼拜堂出发"
-        }
-      },
-      {
-        "slug": "tyn-church",
-        "relation": {
-          "en": "Where Simon was buried as a martyr on 31 March 1694",
-          "cz": "Zde byl Šimon 31. března 1694 pohřben jako mučedník",
-          "zh": "1694年3月31日，西蒙作为殉道者葬在这里"
-        }
-      }
-    ],
-    "referenceMaps": {
-      "links": [
-        {
-          "label": "1931",
-          "description": {
-            "en": "Egon Erwin Kisch's account of the case from the court file, \"Aus Glaubenshaß\" (Prager Pitaval), in German",
-            "cz": "Kischovo vylíčení případu podle soudního spisu, „Aus Glaubenshaß“ (Pražský pitaval), německy",
-            "zh": "基希根据卷宗写的这桩案子，《出于信仰之恨》（《布拉格奇案录》），德文"
-          },
-          "url": "https://projekt-gutenberg.org/authors/egon-erwin-kisch/books/prager-pitaval/chapter/10"
-        }
-      ]
-    },
-    "images": [
-      "/history/buried-twice-1694.webp"
-    ],
-    "imageCaptions": [
-      {
-        "en": "Left, the night of 21 February 1694: in the Old Jewish Cemetery, by the light of one lantern, Simon's family quietly buries him in a white shroud, with the new synagogue under scaffolding behind. Right, 31 March 1694: young men in red cloaks carry his white coffin across the Old Town Square towards the Týn Church, past the Marian column, while soldiers hold back the crowd.",
-        "cz": "Vlevo noc 21. února 1694: na Starém židovském hřbitově, při světle jediné lucerny, pohřbívá rodina potichu Šimona v bílém rubáši, vzadu nová synagoga v lešení. Vpravo 31. března 1694: mládenci v červených pláštích nesou jeho bílou rakev přes Staroměstské náměstí k Týnskému chrámu, kolem mariánského sloupu, a vojáci zadržují dav.",
-        "zh": "左：1694年2月21日夜里，古老犹太公墓，借着一盏提灯，西蒙的家人裹着白布悄悄埋葬了他，背后是搭着脚手架的新会堂。右：1694年3月31日，披红斗篷的年轻人抬着他的白棺穿过老城广场、经过圣母柱走向提恩教堂，士兵拦着围观的人群。"
-      }
-    ],
+    "relatedLandmarks": [],
+    "images": [],
+    "imageCaptions": [],
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Simon_Abeles"
   },
   // father-son-and-a-dome-1703: St Nicholas in the Lesser Town and the two
