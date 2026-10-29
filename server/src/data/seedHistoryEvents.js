@@ -31168,9 +31168,9 @@ export const historyEvents = [
       "zh": "战后二十年，布拉格又开始大兴土木，只是盖房子的，不是市民。"
     },
     "summary": {
-      "en": "For twenty years after the war Prague mostly patched itself up. In the 1660s it began to build again, and those doing the building were not the townspeople.\n\nThey were noble families who had come out of the war well: estates confiscated from the losers of White Mountain, service to the emperor, a title in reward. They wanted a house in Prague, near the castle and the offices of the kingdom, and they wanted it to look new. The look came from Italy, and so did the men who built it: masons, stuccoers and architects from around the lakes of Como and Lugano.\n\nOne of the first was the Nostitz Palace in the Lesser Town, begun around 1660 for the chancellor Jan Hartvík Nostitz, probably to a design by Francesco Caratti or Carlo Lurago.\n\nThe Jesuits were building too. From 1665 Lurago raised the Church of St Ignatius on the New Town's Cattle Market, today's Charles Square, next to their new college. Since 1671 the [[link:who-were-the-jesuits-1556]]order's founder[[/link]] has stood on its gable with a golden halo around his whole body. A halo like that was normally kept for Christ, and not everyone thought it fitting for Ignatius.\n\nIn 1673 the Jesuits also laid a foundation stone on the Lesser Town Square, where the old Gothic church of St Nicholas had been pulled down. The new church would only begin to rise thirty years later, in the hands of a new generation of builders, and it took half a century to finish.\n\nThe biggest of them all went up at Hradčany, a short walk from the castle. Count Humprecht Jan Černín had served as the emperor's envoy in Venice and come home with grand ideas. He was the same Humprecht to whom his mother had written in 1645, in the [[link:thirty-years-1648]]last years of the war[[/link]], that their hardship \"cannot even be described\".\n\nIn August 1668 he signed a contract for a palace designed by Caratti, and in March 1669 the digging began. The main front was to run for about 140 metres, lined with giant half-columns. It was a palace fit for a king, built for a count.\n\nOn 3 September 1673 Emperor Leopold came to see the building site. The walls stood, but there was no gate yet. He said:\n\n[[quote:0]]\n\nThe Černíns are said to have resented the remark for years. Humprecht died in 1682 with the palace still unfinished, the family's money ran low, and the last of the stucco inside was only done in the 1820s.\n\nAt the end of the 1670s a Frenchman, Jean-Baptiste Mathey, brought a lighter style to town. From 1679 he built the domed Church of St Francis of Assisi for the Knights of the Cross by Charles Bridge, and, across the river, a red-and-white summer palace in Troja for Count Šternberk.\n\n[[b]]Prague had lost its king, a great many of its people and much of its own voice, and in those same years it was turning into one of the most beautiful Baroque cities in Europe.[[/b]]\n\nIf this was the [[link:what-was-the-darkness-1650]]Darkness[[/link]], it was very well decorated.",
-      "cz": "Dvacet let po válce se Praha hlavně záplatovala. V 60. letech se znovu začalo stavět, a ti, kdo stavěli, nebyli měšťané.\n\nByly to šlechtické rody, kterým se ve válce vedlo dobře: statky zabavené poraženým od Bílé hory, služba císaři, titul za odměnu. Chtěly dům v Praze, blízko Hradu a zemských úřadů, a chtěly, aby vypadal nově. Ten vzhled přišel z Itálie, a z Itálie přišli i lidé, kteří ho stavěli: zedníci, štukatéři a architekti z okolí jezer Como a Lugano.\n\nJedním z prvních byl Nostický palác na Malé Straně, založený kolem roku 1660 pro kancléře Jana Hartvíka z Nostic, nejspíš podle návrhu Francesca Carattiho nebo Carla Luraga.\n\nStavěli i jezuité. Od roku 1665 stavěl Lurago na novoměstském Dobytčím trhu, dnešním Karlově náměstí, vedle jejich nové koleje kostel sv. Ignáce. Od roku 1671 stojí na jeho štítu [[link:who-were-the-jesuits-1556]]zakladatel řádu[[/link]] se zlatou svatozáří kolem celého těla. Taková svatozář bývala vyhrazena Kristu a ne každému připadalo vhodné ji dát Ignácovi.\n\nRoku 1673 položili jezuité základní kámen také na Malostranském náměstí, kde dali strhnout starý gotický kostel sv. Mikuláše. Nový kostel se ale začal zvedat až o třicet let později, v rukou nové generace stavitelů, a jeho dokončení trvalo půl století.\n\nNejvětší ze všech vyrostl na Hradčanech, kousek od Hradu. Hrabě Humprecht Jan Černín sloužil jako císařský vyslanec v Benátkách a vrátil se domů s velkými plány. Byl to týž Humprecht, kterému matka roku 1645, v [[link:thirty-years-1648]]posledních letech války[[/link]], psala, že jejich potíže „ani není možné popsat“.\n\nV srpnu 1668 podepsal smlouvu na palác podle návrhu Carattiho a v březnu 1669 se začalo kopat. Hlavní průčelí mělo měřit asi 140 metrů a lemovat je měly obří polosloupy. Palác hodný krále, postavený pro hraběte.\n\nDne 3. září 1673 se na staveniště přijel podívat císař Leopold. Zdi stály, ale brána ještě ne. Řekl:\n\n[[quote:0]]\n\nČernínové prý tu poznámku léta nemohli zapomenout. Humprecht zemřel roku 1682 a palác byl pořád nedostavěný, rodině docházely peníze a poslední štuky uvnitř se dodělaly až ve 20. letech 19. století.\n\nNa konci 70. let přinesl do města lehčí sloh Francouz Jean-Baptiste Mathey. Od roku 1679 stavěl pro křižovníky u Karlova mostu kostel sv. Františka z Assisi s kupolí a na druhém břehu řeky pro hraběte Šternberka červenobílý letohrádek v Troji.\n\n[[b]]Praha přišla o krále, o velkou část obyvatel i o kus vlastního hlasu, a právě v těch letech se měnila v jedno z nejkrásnějších barokních měst Evropy.[[/b]]\n\nJestli tohle byla [[link:what-was-the-darkness-1650]]doba temna[[/link]], byla to temnota velmi pěkně vyzdobená.",
-      "zh": "战后二十年，布拉格大多是在缝缝补补。到了17世纪60年代，城里又开始大兴土木，只是盖房子的，不是市民。\n\n盖房子的是那些在战争里混得不错的贵族家族：白山之后从败者手里没收来的庄园，替皇帝效力的功劳，封赏下来的爵位。他们想在布拉格有一座宅邸，离城堡和王国的衙门近一点，还要看上去够新。这种新样子来自意大利，盖房子的人也来自意大利：科莫湖、卢加诺湖一带的石匠、灰泥匠和建筑师。\n\n最早的一批里，有小城的诺斯蒂茨宫，大约1660年为宰相诺斯蒂茨动工，设计的多半是卡拉蒂或卢拉戈。\n\n耶稣会也在盖。从1665年起，卢拉戈在新城的牲口市场，也就是今天的查理广场，紧挨着耶稣会的新学院，盖起了圣依纳爵教堂。1671年起，[[link:who-were-the-jesuits-1556]]修会的创始人[[/link]]就站在教堂的山墙上，全身罩着一圈金色的光环。这样的光环一般是留给基督的，给依纳爵用，并不是人人都觉得妥当。\n\n1673年，耶稣会还在小城广场上奠了基。那里原本的哥特式圣尼古拉教堂已经被拆掉了。不过新教堂要再过三十年才开始往上盖，盖它的是新一代的建筑师，前前后后又花了半个世纪。\n\n最大的一座，盖在城堡区，离城堡没几步路。切尔宁伯爵洪布雷赫特当过皇帝驻威尼斯的使节，回国时满脑子都是大计划。他就是1645年，[[link:thirty-years-1648]]战争的最后几年[[/link]]，母亲写信对他说，他们受的苦“简直没法描述”的那个洪布雷赫特。\n\n1668年8月，他签下合同，请卡拉蒂设计一座宫殿，1669年3月开始挖地基。正立面要长达一百四十米左右，排满巨大的半圆壁柱。这是一座够国王住的宫殿，盖给一位伯爵。\n\n1673年9月3日，利奥波德皇帝来工地看了看。墙已经立起来了，大门还没有。他说：\n\n[[quote:0]]\n\n据说切尔宁家为这句话记恨了好多年。1682年洪布雷赫特去世，宫殿还没完工，家里的钱也越来越紧，里面最后一点灰泥装饰，直到19世纪20年代才做完。\n\n17世纪70年代末，一位法国人马泰给布拉格带来了一种更轻盈的风格。从1679年起，他在查理大桥桥头，为十字骑士团盖起了带穹顶的圣方济各教堂；又在河对岸的特罗亚，为施特恩贝格伯爵盖了一座红白相间的夏宫。\n\n[[b]]布拉格失去了国王，失去了大批人口，也失去了自己的不少声音，可就在这些年里，它正变成全欧洲最美的巴洛克城市之一。[[/b]]\n\n如果这就是[[link:what-was-the-darkness-1650]]“黑暗时代”[[/link]]，那它装修得可真够漂亮的。"
+      "en": "For twenty years after the war Prague mostly patched itself up. In the 1660s it began to build again, and those doing the building were not the townspeople.\n\nThey were noble families who had come out of the war well: estates confiscated from the losers of White Mountain, service to the emperor, a title in reward. They wanted a house in Prague, near the castle and the offices of the kingdom, and they wanted it to look new. The look came from Italy, and so did the men who built it: masons, stuccoers and architects from around the lakes of Como and Lugano.\n\nOne of the first was the Nostitz Palace in the Lesser Town, begun around 1660 for the chancellor Jan Hartvík Nostitz, probably to a design by Francesco Caratti or Carlo Lurago.\n\nThe Jesuits were building too. From 1665 Lurago raised the Church of St Ignatius on the New Town's Cattle Market, today's Charles Square, next to their new college. Since 1671 the [[link:who-were-the-jesuits-1556]]order's founder[[/link]] has stood on its gable with a golden halo around his whole body. A halo like that was normally kept for Christ, and not everyone thought it fitting for Ignatius.\n\nIn 1673 the Jesuits also laid a foundation stone on the Lesser Town Square, right beside the old Gothic church of St Nicholas that the new one was meant to replace. The new church would only really begin to rise thirty years later, in the hands of a new generation of builders, and it took half a century to finish.\n\nThe biggest of them all went up at Hradčany, a short walk from the castle. Count Humprecht Jan Černín had served as the emperor's envoy in Venice and come home with grand ideas. He was the same Humprecht to whom his mother had written in 1645, in the [[link:thirty-years-1648]]last years of the war[[/link]], that their hardship \"cannot even be described\".\n\nIn August 1668 he signed a contract for a palace designed by Caratti, and in March 1669 the digging began. The main front was to run for about 140 metres, lined with giant half-columns. It was a palace fit for a king, built for a count.\n\nOn 3 September 1673 Emperor Leopold came to see the building site. The walls stood, but there was no gate yet. He said:\n\n[[quote:0]]\n\nThe Černíns are said to have resented the remark for years. Humprecht died in 1682 with the palace still unfinished, the family's money ran low, and the last of the stucco inside was only done in the 1820s.\n\nAt the end of the 1670s a Frenchman, Jean-Baptiste Mathey, brought a lighter style to town. From 1679 he built the domed Church of St Francis of Assisi for the Knights of the Cross by Charles Bridge, and, across the river, a red-and-white summer palace in Troja for Count Šternberk.\n\n[[b]]Prague had lost its king, a great many of its people and much of its own voice, and in those same years it was turning into one of the most beautiful Baroque cities in Europe.[[/b]]\n\nIf this was the [[link:what-was-the-darkness-1650]]Darkness[[/link]], it was very well decorated.",
+      "cz": "Dvacet let po válce se Praha hlavně záplatovala. V 60. letech se znovu začalo stavět, a ti, kdo stavěli, nebyli měšťané.\n\nByly to šlechtické rody, kterým se ve válce vedlo dobře: statky zabavené poraženým od Bílé hory, služba císaři, titul za odměnu. Chtěly dům v Praze, blízko Hradu a zemských úřadů, a chtěly, aby vypadal nově. Ten vzhled přišel z Itálie, a z Itálie přišli i lidé, kteří ho stavěli: zedníci, štukatéři a architekti z okolí jezer Como a Lugano.\n\nJedním z prvních byl Nostický palác na Malé Straně, založený kolem roku 1660 pro kancléře Jana Hartvíka z Nostic, nejspíš podle návrhu Francesca Carattiho nebo Carla Luraga.\n\nStavěli i jezuité. Od roku 1665 stavěl Lurago na novoměstském Dobytčím trhu, dnešním Karlově náměstí, vedle jejich nové koleje kostel sv. Ignáce. Od roku 1671 stojí na jeho štítu [[link:who-were-the-jesuits-1556]]zakladatel řádu[[/link]] se zlatou svatozáří kolem celého těla. Taková svatozář bývala vyhrazena Kristu a ne každému připadalo vhodné ji dát Ignácovi.\n\nRoku 1673 položili jezuité základní kámen také na Malostranském náměstí, hned vedle starého gotického kostela sv. Mikuláše, který měl nový chrám nahradit. Nový kostel se ale doopravdy začal zvedat až o třicet let později, v rukou nové generace stavitelů, a jeho dokončení trvalo půl století.\n\nNejvětší ze všech vyrostl na Hradčanech, kousek od Hradu. Hrabě Humprecht Jan Černín sloužil jako císařský vyslanec v Benátkách a vrátil se domů s velkými plány. Byl to týž Humprecht, kterému matka roku 1645, v [[link:thirty-years-1648]]posledních letech války[[/link]], psala, že jejich potíže „ani není možné popsat“.\n\nV srpnu 1668 podepsal smlouvu na palác podle návrhu Carattiho a v březnu 1669 se začalo kopat. Hlavní průčelí mělo měřit asi 140 metrů a lemovat je měly obří polosloupy. Palác hodný krále, postavený pro hraběte.\n\nDne 3. září 1673 se na staveniště přijel podívat císař Leopold. Zdi stály, ale brána ještě ne. Řekl:\n\n[[quote:0]]\n\nČernínové prý tu poznámku léta nemohli zapomenout. Humprecht zemřel roku 1682 a palác byl pořád nedostavěný, rodině docházely peníze a poslední štuky uvnitř se dodělaly až ve 20. letech 19. století.\n\nNa konci 70. let přinesl do města lehčí sloh Francouz Jean-Baptiste Mathey. Od roku 1679 stavěl pro křižovníky u Karlova mostu kostel sv. Františka z Assisi s kupolí a na druhém břehu řeky pro hraběte Šternberka červenobílý letohrádek v Troji.\n\n[[b]]Praha přišla o krále, o velkou část obyvatel i o kus vlastního hlasu, a právě v těch letech se měnila v jedno z nejkrásnějších barokních měst Evropy.[[/b]]\n\nJestli tohle byla [[link:what-was-the-darkness-1650]]doba temna[[/link]], byla to temnota velmi pěkně vyzdobená.",
+      "zh": "战后二十年，布拉格大多是在缝缝补补。到了17世纪60年代，城里又开始大兴土木，只是盖房子的，不是市民。\n\n盖房子的是那些在战争里混得不错的贵族家族：白山之后从败者手里没收来的庄园，替皇帝效力的功劳，封赏下来的爵位。他们想在布拉格有一座宅邸，离城堡和王国的衙门近一点，还要看上去够新。这种新样子来自意大利，盖房子的人也来自意大利：科莫湖、卢加诺湖一带的石匠、灰泥匠和建筑师。\n\n最早的一批里，有小城的诺斯蒂茨宫，大约1660年为宰相诺斯蒂茨动工，设计的多半是卡拉蒂或卢拉戈。\n\n耶稣会也在盖。从1665年起，卢拉戈在新城的牲口市场，也就是今天的查理广场，紧挨着耶稣会的新学院，盖起了圣依纳爵教堂。1671年起，[[link:who-were-the-jesuits-1556]]修会的创始人[[/link]]就站在教堂的山墙上，全身罩着一圈金色的光环。这样的光环一般是留给基督的，给依纳爵用，并不是人人都觉得妥当。\n\n1673年，耶稣会还在小城广场上奠了基，就在那座要被新教堂取代的哥特式老圣尼古拉教堂旁边。不过新教堂要再过三十年才真正往上盖，盖它的是新一代的建筑师，前前后后又花了半个世纪。\n\n最大的一座，盖在城堡区，离城堡没几步路。切尔宁伯爵洪布雷赫特当过皇帝驻威尼斯的使节，回国时满脑子都是大计划。他就是1645年，[[link:thirty-years-1648]]战争的最后几年[[/link]]，母亲写信对他说，他们受的苦“简直没法描述”的那个洪布雷赫特。\n\n1668年8月，他签下合同，请卡拉蒂设计一座宫殿，1669年3月开始挖地基。正立面要长达一百四十米左右，排满巨大的半圆壁柱。这是一座够国王住的宫殿，盖给一位伯爵。\n\n1673年9月3日，利奥波德皇帝来工地看了看。墙已经立起来了，大门还没有。他说：\n\n[[quote:0]]\n\n据说切尔宁家为这句话记恨了好多年。1682年洪布雷赫特去世，宫殿还没完工，家里的钱也越来越紧，里面最后一点灰泥装饰，直到19世纪20年代才做完。\n\n17世纪70年代末，一位法国人马泰给布拉格带来了一种更轻盈的风格。从1679年起，他在查理大桥桥头，为十字骑士团盖起了带穹顶的圣方济各教堂；又在河对岸的特罗亚，为施特恩贝格伯爵盖了一座红白相间的夏宫。\n\n[[b]]布拉格失去了国王，失去了大批人口，也失去了自己的不少声音，可就在这些年里，它正变成全欧洲最美的巴洛克城市之一。[[/b]]\n\n如果这就是[[link:what-was-the-darkness-1650]]“黑暗时代”[[/link]]，那它装修得可真够漂亮的。"
     },
     "quotes": [
       {
@@ -31201,14 +31201,6 @@ export const historyEvents = [
           "en": "The Jesuit church on Charles Square, begun in 1665, with Ignatius in his whole-body halo on the gable",
           "cz": "Jezuitský kostel na Karlově náměstí z roku 1665, s Ignácem v celotělové svatozáři na štítu",
           "zh": "查理广场上的耶稣会教堂，1665年动工，山墙上的依纳爵全身罩着光环"
-        }
-      },
-      {
-        "slug": "st-nicholas-mala-strana",
-        "relation": {
-          "en": "The Jesuits laid the foundation stone here in 1673; the church itself was built from 1703 to the 1750s",
-          "cz": "Jezuité tu položili základní kámen roku 1673; samotný kostel se stavěl od roku 1703 do 50. let 18. století",
-          "zh": "耶稣会1673年在这里奠基，教堂本身从1703年一直盖到18世纪50年代"
         }
       },
       {
@@ -32444,6 +32436,251 @@ export const historyEvents = [
       }
     ],
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Simon_Abeles"
+  },
+  // father-son-and-a-dome-1703: St Nicholas in the Lesser Town and the two
+  // Dientzenhofers. Kolowrat money (1654), 1673 start, Orsi, 1703–1711 phase
+  // attributed to Christoph only by Pelcl (no contract), tower owned by the
+  // town as compensation, Kilián from 1737, died Dec 1751, Lurago finished the
+  // tower 1752: cs.wikipedia "Kostel svatého Mikuláše (Malá Strana)". 1711
+  // provisional wall with services inside, Gothic church in use until its
+  // remains were removed by 1743: pamatkovykatalog.cz (the 1669 card wrongly
+  // said it was pulled down by 1673; fixed the same day). Christoph (b. 1655
+  // Bavaria, four builder brothers, in Bohemia from 1677, 1685 married the
+  // widow of the builder J. J. Aichbauer, d. 1722) and Kilián (b. 1 Sept 1689,
+  // Jesuit school, abroad 1708–1715, Hildebrandt in Vienna, ~200 buildings, 18
+  // children, no son an architect, d. 18 Dec 1751): cs.wikipedia. Works:
+  // Břevnov 1709–1722, St Nicholas Old Town 1732–1735, Skalka 1730–1739. No
+  // contemporary quote found after three searches.
+  {
+    "slug": "father-son-and-a-dome-1703",
+    "era": "baroque-and-darkness",
+    "startYear": 1703,
+    "tone": "humorous",
+    "year": {
+      "en": "1703–1752",
+      "cz": "1703–1752",
+      "zh": "1703年－1752年"
+    },
+    "title": {
+      "en": "Father, Son and a Dome",
+      "cz": "Otec, syn a kopule",
+      "zh": "父子与穹顶"
+    },
+    "hookLine": {
+      "en": "The father built the front half of St Nicholas in the Lesser Town, the son the back half and the dome. Neither lived to see it finished.",
+      "cz": "Otec postavil přední polovinu malostranského sv. Mikuláše, syn zadní polovinu a kopuli. Ani jeden se nedožil jeho dokončení.",
+      "zh": "小城的圣尼古拉教堂，父亲盖了前半座，儿子盖了后半座和穹顶。两个人谁也没看到它完工。"
+    },
+    "summary": {
+      "en": "In 1673 the Jesuits [[link:a-building-boom-1669]]laid the foundation stone[[/link]] of a new church on the Lesser Town Square, and right beside it the old Gothic church of St Nicholas went on saying Mass as before. The new one hardly grew. The work depended on money from the Kolowrat family, and it dragged on for thirty years.\n\nAround 1703 a Bavarian came onto the site: Christoph Dientzenhofer. He came from a family of masons, and four of his brothers were builders too. He had come to Bohemia in his early twenties to find work, and in 1685 in Prague he married the widow of a builder; the couple moved into the house her late husband had left.\n\nBetween 1703 and 1711 the front of the new church and the first half of its nave went up, a façade that seems to breathe, swelling out and drawing in. Oddly, for such a famous work, not a single contract proves that he designed it.\n\nIn 1711 the finished half was closed off with a temporary wall, and Mass was said inside it. So for more than thirty years two churches of St Nicholas stood side by side on the square, one Gothic, one half Baroque.\n\nThen the work stopped again, this time for twenty-six years. Christoph died in 1722 without seeing it finished.\n\nIt was taken up by his son Kilián Ignác, the boy born [[link:the-french-fire-1689]]ten weeks after the fire[[/link]]. He went to the Jesuit school, set off at nineteen on a long journey through Germany, France and Italy, and worked for some years in Vienna under the great architect Hildebrandt. In 1715 he came home and joined his father's workshop.\n\nHe built a great deal, and fast. Father and son together rebuilt the Břevnov monastery and gave the Loreta its front. His own work is all over Prague: Count Michna's summer palace, later called the Villa Amerika, St Nicholas in the Old Town, St John on the Rock, St Charles Borromeo in the New Town (today the cathedral of Saints Cyril and Methodius), St Thomas in the Lesser Town, the vast Invalidovna for old soldiers in Karlín, and a summer house for his own family. In his lifetime he is said to have had a hand in some two hundred buildings. He married twice and had eighteen children. Not one of his sons became an architect.\n\nIn 1737 he finally got back to the Lesser Town Square. The last of the Gothic church came down, and he added the choir at the back and raised over it a huge copper-roofed dome, as tall as the bell tower beside it. That tower did not belong to the Jesuits but to the Lesser Town: the town had got it as compensation for the houses it lost to the Jesuits' plans.\n\nIn December 1751, with the dome almost finished, Kilián died. The next year his son-in-law, Anselmo Lurago, completed the bell tower.\n\n[[b]]The father built the front half of the church and the son the back half, and neither of them lived to see it finished.[[/b]]\n\nAll the years the church was slowly growing, the Charles Bridge at the foot of the hill had not been idle either.",
+      "cz": "Roku 1673 [[link:a-building-boom-1669]]položili jezuité základní kámen[[/link]] nového kostela na Malostranském náměstí a hned vedle starý gotický kostel sv. Mikuláše dál sloužil mše jako dřív. Nový kostel skoro nerostl. Stavba závisela na penězích Kolowratů a táhla se třicet let.\n\nKolem roku 1703 přišel na staveniště Bavorák Kryštof Dientzenhofer. Pocházel z rodiny zedníků a stavitelé byli i čtyři jeho bratři. Do Čech přišel za prací jako dvacetiletý a roku 1685 se v Praze oženil s vdovou po staviteli; manželé se nastěhovali do domu, který jí zanechal zesnulý muž.\n\nV letech 1703–1711 vyrostlo průčelí nového kostela a první polovina lodi, fasáda, která jako by dýchala, vlní se dopředu a dozadu. Zvláštní je, že u tak slavného díla nedokládá jeho autorství jediná smlouva.\n\nRoku 1711 hotovou polovinu uzavřeli provizorní zdí a sloužily se v ní mše. Na náměstí tak přes třicet let stály vedle sebe dva kostely sv. Mikuláše, jeden gotický, druhý napůl barokní.\n\nPak se stavba zase zastavila, tentokrát na dvacet šest let. Kryštof zemřel roku 1722 a dokončení se nedočkal.\n\nUjal se jí jeho syn Kilián Ignác, chlapec narozený [[link:the-french-fire-1689]]deset týdnů po požáru[[/link]]. Chodil do jezuitské školy, v devatenácti se vydal na dlouhou cestu po Německu, Francii a Itálii a několik let pracoval ve Vídni u velkého architekta Hildebrandta. Roku 1715 se vrátil a vstoupil do otcovy dílny.\n\nStavěl hodně a rychle. Otec se synem spolu přestavěli Břevnovský klášter a dali Loretě průčelí. Jeho vlastní díla jsou po celé Praze: Michnův letohrádek, později zvaný Amerika, sv. Mikuláš na Starém Městě, sv. Jan Nepomucký na Skalce, sv. Karel Boromejský na Novém Městě (dnes katedrála sv. Cyrila a Metoděje), sv. Tomáš na Malé Straně, obrovská Invalidovna pro vysloužilé vojáky v Karlíně i letohrádek pro vlastní rodinu. Za svůj život se prý podílel na nějakých dvou stech stavbách. Oženil se dvakrát a měl osmnáct dětí. Ani jeden z jeho synů se nestal architektem.\n\nRoku 1737 se konečně vrátil na Malostranské náměstí. Poslední zbytky gotického kostela padly, on vzadu připojil presbytář a nad ním vztyčil obrovskou kopuli krytou mědí, stejně vysokou jako zvonice vedle. Ta zvonice nepatřila jezuitům, ale Malé Straně: město ji dostalo jako náhradu za domy, o které přišlo kvůli jezuitským plánům.\n\nV prosinci 1751, když byla kopule skoro hotová, Kilián zemřel. Příští rok dokončil zvonici jeho zeť Anselmo Lurago.\n\n[[b]]Otec postavil přední polovinu kostela, syn zadní a ani jeden se nedožil jeho dokončení.[[/b]]\n\nPo všechna ta léta, kdy kostel pomalu rostl, nezahálel ani Karlův most pod kopcem.",
+      "zh": "1673年，耶稣会在小城广场上为新教堂[[link:a-building-boom-1669]]奠了基[[/link]]，旁边那座哥特式的老圣尼古拉教堂，照旧做着弥撒。新教堂却怎么也长不高：工程要靠科洛弗拉特家族的钱，一拖就是三十年。\n\n1703年前后，工地上来了一个巴伐利亚人，克里斯托夫·丁岑霍费尔。他出身泥瓦匠世家，四个兄弟也都是营造师傅。他二十出头来波希米亚找活干，1685年在布拉格娶了一位营造师傅的遗孀，婚后两口子就住在她前夫留下的房子里。\n\n1703年到1711年，新教堂的正面和前半截中殿盖了起来，那面墙像在呼吸，一鼓一缩。说来奇怪，这么出名的作品，却没有一纸合同能证明是他设计的。\n\n1711年，盖好的那半截用一道临时的墙封了起来，就在里面做弥撒。于是小城广场上，两座圣尼古拉教堂并排站了三十多年，一座哥特式，一座半截巴洛克。\n\n然后工程又停了，一停就是二十六年。克里斯托夫1722年去世，没等到它盖完。\n\n接手的是他儿子基利安·伊格纳茨，就是[[link:the-french-fire-1689]]大火后十个星期[[/link]]出生的那个孩子。他在耶稣会学校念书，十九岁出门游历，走遍德意志、法国和意大利，还在维也纳的大建筑师希尔德布兰特手下干过几年。1715年，他回到布拉格，进了父亲的作坊。\n\n他盖得又多又快。父子俩一起重建了布热夫诺夫修道院，还给洛雷塔朝圣地盖了正面。他自己的作品，布拉格城里到处都是：米赫纳伯爵的避暑宫，后来叫“美洲别墅”；老城的圣尼古拉教堂；岩石上的圣内波穆克教堂；新城的圣嘉禄·博罗梅奥教堂，就是今天的圣西里尔与美多德大教堂；小城的圣托马斯教堂；卡林那座给老兵住的巨大荣军院；还有给自家盖的一座避暑别墅。据说他一辈子经手的建筑有两百座。他结过两次婚，生了十八个孩子，没有一个儿子当了建筑师。\n\n1737年，他终于回到了小城广场。剩下的哥特式老教堂拆掉了，他在后面接上唱诗堂，又在上面架起一座巨大的铜皮穹顶，跟旁边的钟楼一样高。那座钟楼不归耶稣会，归小城：耶稣会盖教堂拆了市里的房子，钟楼就是赔给市里的。\n\n1751年12月，穹顶快要完工的时候，基利安去世了。第二年，他的女婿安塞尔莫·卢拉戈把钟楼收了尾。\n\n[[b]]父亲盖了前半座，儿子盖了后半座，两个人谁也没看到它完工的样子。[[/b]]\n\n教堂慢慢长高的那些年，山脚下的查理大桥也没闲着。"
+    },
+    "relatedLandmarks": [
+      {
+        "slug": "st-nicholas-mala-strana",
+        "relation": {
+          "en": "Front and nave 1703–1711 (attributed to Christoph Dientzenhofer), choir and dome 1737–1752 by his son Kilián Ignác",
+          "cz": "Průčelí a loď 1703–1711 (připisované Kryštofu Dientzenhoferovi), presbytář a kopule 1737–1752 od jeho syna Kiliána Ignáce",
+          "zh": "正面和中殿1703–1711年（一般认为出自克里斯托夫），唱诗堂和穹顶1737–1752年出自他儿子基利安"
+        }
+      },
+      {
+        "slug": "bevnov-monastery-1782583396582",
+        "relation": {
+          "en": "Rebuilt by father and son together, from 1709",
+          "cz": "Od roku 1709 přestavěn otcem a synem společně",
+          "zh": "1709年起由父子俩一起重建"
+        }
+      },
+      {
+        "slug": "loreta-prague",
+        "relation": {
+          "en": "Its front, finished in the early 1720s, is the work of the Dientzenhofers",
+          "cz": "Průčelí dokončené na začátku 20. let 18. století je dílem Dientzenhoferů",
+          "zh": "正面在1720年代初完成，出自丁岑霍费尔父子"
+        }
+      },
+      {
+        "slug": "muzeum-antonina-dvoraka",
+        "relation": {
+          "en": "Count Michna's summer palace, the Villa Amerika, built by Kilián Ignác 1717–1720",
+          "cz": "Michnův letohrádek Amerika, postavil Kilián Ignác v letech 1717–1720",
+          "zh": "米赫纳伯爵的避暑宫“美洲别墅”，基利安1717–1720年所建"
+        }
+      },
+      {
+        "slug": "kostel-sv-mikulase-stare-mesto",
+        "relation": {
+          "en": "Kilián Ignác's other St Nicholas, in the Old Town, 1732–1735",
+          "cz": "Kiliánův druhý sv. Mikuláš, na Starém Městě, 1732–1735",
+          "zh": "基利安盖的另一座圣尼古拉教堂，在老城，1732–1735年"
+        }
+      },
+      {
+        "slug": "kostel-sv-jana-na-skalce",
+        "relation": {
+          "en": "Built by Kilián Ignác Dientzenhofer, 1730–1739",
+          "cz": "Postavil Kilián Ignác Dientzenhofer, 1730–1739",
+          "zh": "基利安·丁岑霍费尔所建，1730–1739年"
+        }
+      },
+      {
+        "slug": "cathedral-cyril-methodius",
+        "relation": {
+          "en": "Built in the 1730s by Kilián Ignác as the church of St Charles Borromeo",
+          "cz": "Postavil Kilián Ignác ve 30. letech 18. století jako kostel sv. Karla Boromejského",
+          "zh": "基利安1730年代所建，原名圣嘉禄·博罗梅奥教堂"
+        }
+      },
+      {
+        "slug": "st-thomas-church-1782394995826",
+        "relation": {
+          "en": "The Gothic church rebuilt in Baroque by Kilián Ignác in the 1720s and early 1730s",
+          "cz": "Gotický kostel barokně přestavěný Kiliánem Ignácem ve 20. a na začátku 30. let 18. století",
+          "zh": "哥特式老教堂，1720年代到1730年代初由基利安改建成巴洛克式"
+        }
+      },
+      {
+        "slug": "invalidovna-1782562891060",
+        "relation": {
+          "en": "Kilián Ignác's huge home for old soldiers in Karlín",
+          "cz": "Obrovský Kiliánův domov pro vysloužilé vojáky v Karlíně",
+          "zh": "基利安在卡林为老兵盖的巨大荣军院"
+        }
+      },
+      {
+        "slug": "portheimka",
+        "relation": {
+          "en": "The summer house Kilián Ignác built for his own family, around 1728",
+          "cz": "Letohrádek, který si Kilián Ignác kolem roku 1728 postavil pro vlastní rodinu",
+          "zh": "基利安约1728年给自家盖的避暑别墅"
+        }
+      },
+      {
+        "slug": "kostel-svateho-jiri-hloubetin",
+        "relation": {
+          "en": "Christoph Dientzenhofer gave it a new front in 1695 and lengthened the nave",
+          "cz": "Kryštof Dientzenhofer mu roku 1695 dal nové průčelí a prodloužil loď",
+          "zh": "1695年克里斯托夫给它换了新的正面，还把中殿加长了"
+        }
+      },
+      {
+        "slug": "czech-museum-of-music",
+        "relation": {
+          "en": "The former church of St Mary Magdalene, built with Christoph Dientzenhofer's involvement",
+          "cz": "Bývalý kostel sv. Máří Magdaleny, postavený za účasti Kryštofa Dientzenhofera",
+          "zh": "原来的圣抹大拉的马利亚教堂，克里斯托夫参与了建造"
+        }
+      },
+      {
+        "slug": "vojenskyy-kostel-sv-jana-nepomuckeho",
+        "relation": {
+          "en": "One of Kilián Ignác's first churches, on Hradčany",
+          "cz": "Jeden z prvních Kiliánových kostelů, na Hradčanech",
+          "zh": "基利安最早的教堂之一，在城堡区"
+        }
+      },
+      {
+        "slug": "klasterni-kostel-panny-marie-bolestne",
+        "relation": {
+          "en": "Built in the 1720s to Kilián Ignác's design",
+          "cz": "Postaven ve 20. letech 18. století podle Kiliánova návrhu",
+          "zh": "1720年代按基利安的设计建造"
+        }
+      },
+      {
+        "slug": "kostel-sv-bartolomeje",
+        "relation": {
+          "en": "Built for the Jesuits in the 1720s and 1730s to Kilián Ignác's design",
+          "cz": "Postaven pro jezuity ve 20. a 30. letech 18. století podle Kiliánova návrhu",
+          "zh": "1720到1730年代按基利安的设计为耶稣会建造"
+        }
+      },
+      {
+        "slug": "prezidentsky-domek",
+        "relation": {
+          "en": "The orangery of 1731 in the castle garden, given its final form by Kilián Ignác",
+          "cz": "Oranžerie z roku 1731 v zahradě, které dal konečnou podobu Kilián Ignác",
+          "zh": "园子里1731年的橘园，最后的样子出自基利安"
+        }
+      },
+      {
+        "slug": "kaple-sv-anny-satalice",
+        "relation": {
+          "en": "Around 1730, attributed to Kilián Ignác",
+          "cz": "Kolem roku 1730, připisována Kiliánu Ignácovi",
+          "zh": "约1730年，一般认为出自基利安"
+        }
+      },
+      {
+        "slug": "zamek-veleslavin",
+        "relation": {
+          "en": "Built between 1730 and 1750 to Kilián Ignác's plans",
+          "cz": "Postaven mezi lety 1730 a 1750 podle Kiliánových plánů",
+          "zh": "1730到1750年间按基利安的图纸建造"
+        }
+      },
+      {
+        "slug": "chram-sv-kateriny",
+        "relation": {
+          "en": "Rebuilt by Kilián Ignác in 1737–1741 beside the old Gothic tower",
+          "cz": "Přestavěn Kiliánem Ignácem v letech 1737–1741 vedle staré gotické věže",
+          "zh": "1737–1741年由基利安在哥特式老塔旁重建"
+        }
+      },
+      {
+        "slug": "palac-sylva-taroucca",
+        "relation": {
+          "en": "Built 1743–1752, probably to Kilián Ignác's design",
+          "cz": "Postaven v letech 1743–1752, nejspíš podle Kiliánova návrhu",
+          "zh": "1743–1752年建造，很可能出自基利安的设计"
+        }
+      },
+      {
+        "slug": "palac-goltz-kinskych",
+        "relation": {
+          "en": "Designed, it is thought, by Kilián Ignác and completed after his death by his son-in-law Lurago",
+          "cz": "Navržen nejspíš Kiliánem Ignácem a po jeho smrti dokončen jeho zetěm Luragem",
+          "zh": "一般认为由基利安设计，他死后由女婿卢拉戈完成"
+        }
+      },
+      {
+        "slug": "klaster-plasy",
+        "relation": {
+          "en": "Santini's great convent building, finished after his death by Kilián Ignác",
+          "cz": "Santiniho velká konventní budova, kterou po jeho smrti dokončil Kilián Ignác",
+          "zh": "桑蒂尼设计的修道院大楼，他死后由基利安完成"
+        }
+      },
+      {
+        "slug": "kraluv-dvur",
+        "relation": {
+          "en": "Its Baroque rebuilding is attributed to Kilián Ignác",
+          "cz": "Barokní přestavba se připisuje Kiliánu Ignácovi",
+          "zh": "巴洛克式的改建一般认为出自基利安"
+        }
+      },
+      {
+        "slug": "kaple-nejsvetejsi-trojice-sedlec",
+        "relation": {
+          "en": "A small country chapel of 1725, probably to Kilián Ignác's plan",
+          "cz": "Malá venkovská kaple z roku 1725, nejspíš podle Kiliánova plánu",
+          "zh": "1725年的乡间小礼拜堂，很可能出自基利安的设计"
+        }
+      }
+    ],
+    "images": [
+      "/history/father-son-and-a-dome-1703.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "The Lesser Town Square around 1740: on the left, the church front and nave Christoph Dientzenhofer built thirty years earlier; on the right, his son's choir and dome rising in scaffolding while workmen pull down the last of the old Gothic church. In the foreground Kilián Ignác compares his father's old plan with his own.",
+        "cz": "Malostranské náměstí kolem roku 1740: vlevo průčelí a loď, které o třicet let dřív postavil Kryštof Dientzenhofer; vpravo v lešení roste presbytář a kopule jeho syna, zatímco dělníci strhávají poslední zbytky starého gotického kostela. V popředí Kilián Ignác porovnává otcův starý plán se svým.",
+        "zh": "1740年前后的小城广场：左边是克里斯托夫三十年前盖好的正面和中殿；右边，儿子的唱诗堂和穹顶正在脚手架里往上长，工人们在拆最后一点哥特式老教堂。前景里，基利安正拿父亲的旧图纸和自己的新图纸比对。"
+      }
+    ],
+    "wikipediaUrl": "https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Mikul%C3%A1%C5%A1e_(Mal%C3%A1_Strana)"
   },
 ];
 

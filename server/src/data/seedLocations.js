@@ -33045,6 +33045,48 @@ Následovalo zatýkání a soudy. Heissensteinova manželka Marie Františka se 
 🎁 彩蛋：当地传说，农民们用铁箍箍住樱桃树干，做成了大炮。结果头一炮就炸裂了。`,
     },
   },
+  {
+    // Added 2026-10-29 (coordinates user-supplied). Facts: dientzenhofers.cz
+    // (Moser, money changer, royal trade commission, wife Marie Terezie,
+    // 100-gold fund at Týn, parchment found in the turret 1826, attribution to
+    // Kilián by tradition and comparison, Hildebrandt motifs, St Francis
+    // fresco, 1784 flood statue in the willows, storehouse by 1885, Petráček
+    // from 1911, Mass 1923, Herget restoration 1930, roof 1785/1814),
+    // hrady.cz (first lay tenant, Herget brickworks, stucco pilasters).
+    // Quarter/district from client/src/utils/pragueAreas.js.
+    name: 'Chapel of the Holy Trinity (Sedlec)',
+    slug: 'kaple-nejsvetejsi-trojice-sedlec',
+    localizedNames: { cz: 'Kaple Nejsvětější Trojice (Sedlec)', zh: '圣三一小礼拜堂（塞德莱茨）' },
+    labels: ['church', 'baroque'],
+    district: 'Praha 6',
+    quarter: 'Sedlec',
+    coordinates: { lat: 50.132181709327696, lng: 14.39199183297318 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Down in old Sedlec, a few steps from the village green, stands a small Baroque chapel with a mansard roof and a bell turret perched over its front like a hat a size too small. It looks like a country chapel because it is one, and it has been one for three hundred years.
+
+It was built in 1725 by František Josef Moser, an Old Town burgher, money changer and member of the royal trade commission, who was the first lay tenant of the Sedlec farm, together with his wife Marie Terezie. He also left a fund of a hundred gold coins at the Týn Church parish office for repairs to the roof. Who designed it is not recorded. Tradition and the building itself point to Kilián Ignác Dientzenhofer: the curving walls, the oval spaces inside and the little turret over the front are all ideas he brought back from his years with the architect Hildebrandt in Vienna. Inside there are pilasters with stucco capitals and a painted vault with St Francis receiving the stigmata.
+
+The chapel then had a rough couple of centuries. In 1784 a flood washed a statue of the Sorrowful Virgin onto the Vltava bank, where it was found caught in the willows, and it was brought here. By 1885 the chapel had become a storehouse with broken windows and a leaking roof. A priest, František Petráček, campaigned to save it from 1911, Mass was said here again in 1923, and in 1930 the firm of the Herget family, who owned brickworks nearby, paid for a full restoration.
+
+🎁 Bonus: We know when the chapel was built only because in 1826 someone found a parchment document hidden in its turret, left there by the founders a century earlier. The roof was repaired in 1785 and again in 1814. Whether Moser's hundred gold coins paid for it, the parchment does not say.`,
+      cz: `Dole ve starém Sedlci, pár kroků od návsi, stojí malá barokní kaple s mansardovou střechou a zvonicí posazenou nad průčelím jako klobouk o číslo menší. Vypadá jako venkovská kaple, protože jí je, a je jí už tři sta let.
+
+Postavil ji roku 1725 František Josef Moser, staroměstský měšťan, směnárník a člen královské obchodní komise, který byl prvním světským nájemcem sedleckého dvora, spolu s manželkou Marií Terezií. Na faře u Týnského chrámu navíc uložil fond sto zlatých na opravy střechy. Kdo kapli navrhl, zapsáno není. Tradice i stavba sama ukazují na Kiliána Ignáce Dientzenhofera: zvlněné zdi, oválné prostory uvnitř a malá věžička nad průčelím jsou nápady, které si přivezl z let u architekta Hildebrandta ve Vídni. Uvnitř jsou pilastry se štukovými hlavicemi a malovaná klenba se svatým Františkem přijímajícím stigmata.
+
+Kaple pak prožila pár těžkých století. Roku 1784 vyplavila povodeň na vltavský břeh sochu Panny Marie Bolestné, kterou našli zachycenou ve vrbách, a přenesli ji sem. Roku 1885 už kaple sloužila jako skladiště s rozbitými okny a zatékající střechou. Kněz František Petráček o její záchranu usiloval od roku 1911, roku 1923 se tu znovu sloužila mše a roku 1930 zaplatila celkovou obnovu firma rodiny Hergetových, která vlastnila nedaleké cihelny.
+
+🎁 Bonus: Kdy kaple vznikla, víme jen díky tomu, že roku 1826 kdosi našel ve věžičce pergamenovou listinu, kterou tam o sto let dřív zanechali zakladatelé. Střechu opravovali roku 1785 a znovu 1814. Jestli na to šlo Moserových sto zlatých, listina neříká.`,
+      zh: `塞德莱茨老村里，离村中草坪几步远，立着一座巴洛克小礼拜堂：复折式屋顶，正面顶上顶着一座小钟楼，像戴了一顶小了一号的帽子。它看上去像座乡下小礼拜堂，因为它本来就是，而且一当就是三百年。
+
+它建于1725年，出资人是弗朗蒂舍克·约瑟夫·莫泽尔和妻子玛丽·特蕾齐娅。莫泽尔是老城市民、钱庄老板、皇家商务委员会的成员，也是塞德莱茨庄园的第一位俗人承租人。他还在提恩教堂的堂区存了一百枚金币，专门用来修屋顶。是谁设计的，没有记载。不过传说和建筑本身都指向基利安·伊格纳茨·丁岑霍费尔：弯曲起伏的墙、里面椭圆形的空间、正面顶上的小钟楼，都是他在维也纳跟着建筑师希尔德布兰特那几年学来的手法。里面有带灰泥柱头的壁柱，拱顶上画着圣方济各领受圣痕。
+
+后来的两百年，这座小礼拜堂过得不太好。1784年，一场洪水把一尊圣母忧苦像冲上了伏尔塔瓦河岸，人们发现它卡在柳树枝里，就把它请到了这里。到1885年，礼拜堂已经成了仓库，窗户破了，屋顶漏雨。神父弗朗蒂舍克·佩特拉切克从1911年起四处奔走要救它，1923年这里重新做起了弥撒；1930年，在附近开砖厂的赫格特家族的公司，出钱把它彻底修好了。
+
+🎁 彩蛋：我们之所以知道它建于哪一年，全靠1826年有人在小钟楼里发现了一份羊皮纸文书，那是一百年前的创建者留在里面的。屋顶在1785年修过一次，1814年又修了一次。是不是用了莫泽尔那一百枚金币，羊皮纸上可没写。`,
+    },
+  },
 ];
 
 async function run() {
