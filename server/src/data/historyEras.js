@@ -644,7 +644,7 @@ export const HISTORY_ERAS = [
     key: 'baroque-and-darkness',
     order: 14,
     themeClass: 'era-baroque-and-darkness',
-    hasContent: false,
+    hasContent: true,
     title: {
       en: 'Splendour in the Dark',
       cz: 'Nádhera v temnotě',

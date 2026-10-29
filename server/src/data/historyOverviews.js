@@ -251,4 +251,31 @@ export const historyOverviews = [
       zh: "瑞典人回家了，布拉格开始收拾残局。皇帝在老城广场立起一根柱子感谢圣母，又给城市围上了一圈新的星形城墙，好让下一回的敌人进不来。耶稣会士把老大学和自己的学院并成了一所，还换了个新名字：前一半给建校的查理四世，后一半给在位的皇帝斐迪南。乡下，税务官带着账本一村一村地登记，荒掉的农庄写满了一页又一页；城里，贵族们比赛似的盖起巴洛克府邸，在自家客厅里改说了德语。一位耶稣会神父偏偏爱上了捷克语，写了一整本书替它辩护，写完了，却不敢拿去付印。一位御医把一本谁也读不懂的怪书寄给了罗马的朋友，这本书到今天也还没人读懂。一位皇帝为了躲维也纳的瘟疫跑到布拉格，瘟疫也跟着来了；就在同一年，乡下的农民抄起了棍棒。1683年，查理大桥上立起了第一尊雕像，从那以后，桥上就再也没空过。日子就这样小心翼翼地往前过，人们说话的声音越来越轻，直到1689年夏天的一天，一场来历蹊跷的大火，把老城和犹太城烧掉了一大片。",
     },
   },
+  // 2026-10-29. Opens on the rebuilding after the 1689 fire (the user's plan:
+  // the era's first card is the rebuilding, see CLAUDE.md). Hints without
+  // spoiling: the Dientzenhofers and St Nicholas (dome finished only 1751),
+  // the Charles Bridge statues (1706–1714), the 1713 plague and the Lesser
+  // Town plague column, the 1719 opening of Nepomuk's grave and the
+  // canonization (not named), the Pragmatic Sanction (Bohemian diet 1720) and
+  // the 1723 Prague coronation with Fux's Costanza e Fortezza, Czech in the
+  // villages, secret Protestants emigrating to Saxony/Prussia; ends on Charles
+  // VI's death (20 Oct 1740) without saying what followed.
+  {
+    slug: "era-guide-baroque-and-darkness",
+    era: "baroque-and-darkness",
+    cardType: "overview",
+    startYear: 1689,
+    tone: "humorous",
+    year: { en: "1689–1740", cz: "1689–1740", zh: "1689年－1740年" },
+    title: {
+      en: "Look Up",
+      cz: "Dívejte se nahoru",
+      zh: "抬头看",
+    },
+    summary: {
+      en: "Prague came out of the fire and got down to building. Fathers and sons of the Dientzenhofer family began raising domes over the Lesser Town, sculptors filled Charles Bridge with saints until there was hardly room left on the parapets, and the nobility bought up burnt plots for palaces with terraced gardens climbing the hill below the castle. Inside the churches the ceilings opened into painted heavens, and the faithful had to tip their heads right back to see them. In 1713 the plague came back, killed thousands, and left behind a new column in the Lesser Town square. A few years later a commission opened a grave in St Vitus that was more than three hundred years old, studied what it found inside, and set about making its owner a saint. The emperor, who had no son, spent years collecting signatures from every land he ruled and every court in Europe on a document saying his daughter could inherit; the Bohemian estates signed too, and in 1723 he came to Prague to be crowned, with a grand opera at the castle to mark the day. Out in the villages, meanwhile, people still spoke Czech, prayed from books the Jesuits had approved and hid the ones they had not, and now and then a family packed up quietly in the night and left for Saxony or Prussia to keep its old faith. The light grew brighter and the shadows deeper, just as the Baroque painters liked it, until in the autumn of 1740 the emperor died and it was time to find out what all those signatures were worth.",
+      cz: "Praha vyšla z požáru a pustila se do stavění. Otcové a synové z rodu Dientzenhoferů začali nad Malou Stranou zvedat kupole, sochaři zaplnili Karlův most světci, až na zábradlí skoro nezbylo místo, a šlechta skupovala vypálené parcely pro paláce s terasovitými zahradami, které šplhaly do svahu pod hradem. V kostelech se stropy otevřely do malovaných nebes a věřící museli zaklonit hlavu, aby je viděli. Roku 1713 se vrátil mor, zabil tisíce lidí a zanechal po sobě nový sloup na malostranském náměstí. O pár let později otevřela komise ve svatovítské katedrále přes tři sta let starý hrob, prozkoumala, co v něm našla, a dala se do toho, aby z jeho majitele udělala světce. Císař, který neměl syna, sbíral celá léta podpisy všech svých zemí i všech evropských dvorů pod listinu, podle níž po něm smí dědit dcera; podepsali i čeští stavové a roku 1723 přijel do Prahy ke korunovaci, kterou na hradě oslavila velkolepá opera. Na venkově zatím lidé dál mluvili česky, modlili se z knížek, které schválili jezuité, a schovávali ty, které neschválili, a tu a tam se nějaká rodina potichu v noci sbalila a odešla do Saska nebo do Pruska, aby si uchovala starou víru. Světla přibývalo a stíny houstly, přesně jak to měli rádi barokní malíři, až na podzim roku 1740 císař zemřel a nastal čas zjistit, kolik všechny ty podpisy doopravdy stojí.",
+      zh: "布拉格从大火里走出来，动手盖房子。丁岑霍费尔家的父子开始在小城上空架起穹顶，雕塑家们往查理大桥上一尊接一尊地摆圣人，摆到桥栏上快没地方了，贵族们买下烧光的地皮，盖起府邸，后花园一层一层爬上城堡下的山坡。教堂里，天花板化成了画出来的天堂，信徒们得把头仰到最后面才看得见。1713年，瘟疫又来了，死了几千人，在小城广场上留下了一根新的柱子。又过了几年，一个委员会在圣维特大教堂里打开了一座三百多年的老坟，仔细研究了里面的东西，然后着手把坟的主人封成圣人。没有儿子的皇帝，花了好些年，让他统治的每一块领地、欧洲的每一个宫廷都在一份文件上签字，承认他的女儿可以继承一切；波希米亚的等级们也签了，1723年他来布拉格加冕，城堡里还上演了一出盛大的歌剧来庆贺。与此同时，乡下的人还说着捷克语，念着耶稣会士批准的祈祷书，把没批准的藏起来；时不时有一家人趁着夜色悄悄收拾好行李，去了萨克森或普鲁士，好守住祖上的信仰。光越来越亮，影子也越来越深，正合巴洛克画家的口味。直到1740年秋天，皇帝去世了，那些签名到底值多少，就要见分晓了。",
+    },
+  },
 ];

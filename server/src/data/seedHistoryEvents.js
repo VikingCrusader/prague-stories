@@ -31644,6 +31644,469 @@ export const historyEvents = [
     ],
     "wikipediaUrl": "https://cs.wikipedia.org/wiki/Selsk%C3%A9_povst%C3%A1n%C3%AD_(1680)"
   },
+  // 2026-10-29. Siege and battle of Vienna (14 July–12 September 1683).
+  // Quotes 0, 1, 4: the anonymous Ottoman master of ceremonies' diary, in the
+  // German of Kreutel/Teply, Kara Mustafa vor Wien (Graz 1982), pp. 188–190,
+  // 194–199, as excerpted by the Klagenfurt EEO reader (Wien_Belagerung.pdf);
+  // EN/CZ/ZH ours. Quotes 2, 3: Sobieski's letter of 13 September 1683, the
+  // Wilanów Palace Museum's English translation. Kaplíř: cs.wikipedia (grandson
+  // of the Kašpar executed in 1621; Saxon then Swedish service; 1631 guard at
+  // Týn; imperial side from 1641; Prague 1648; baton in Litoměřice; buried at
+  // Milešov) and de.wikipedia (full powers by imperial letter of 9 July 1683,
+  // took over the defence when Starhemberg was wounded and Daun ill, Sobieski
+  // visited his sickbed, field marshal December 1683, d. 6 Oct 1686, last count
+  // of his line). France: Guilleragues' assurances to the Porte, no treaty
+  // (Bérenger). Bohemian share of the imperial army stated generally (regiments
+  // raised in Bohemia/Moravia, Bohemian taxes): no source naming specific
+  // Bohemian regiments at Kahlenberg was found. Coffee beans kept as legend.
+  // Louis XIV ending (added the same day at the user's request): Strasbourg
+  // taken without a fight in 1681; the War of the Reunions (French troops into
+  // the Spanish Netherlands autumn 1683, Spain declared war 26 Oct 1683,
+  // Luxembourg besieged 27 Apr–7 Jun 1684); Truce of Ratisbon 15 Aug 1684,
+  // twenty years, France keeps Strasbourg and Luxembourg (en.wikipedia). The
+  // 1688 attack itself is left for the next card; the card only hints at it.
+  {
+    "slug": "the-last-knock-1683",
+    "era": "voiceless-years",
+    "startYear": 1683,
+    "tone": "serious",
+    "year": {
+      "en": "1683",
+      "cz": "1683",
+      "zh": "1683年"
+    },
+    "title": {
+      "en": "The Last Knock",
+      "cz": "Naposledy zaklepali",
+      "zh": "最后一次敲门"
+    },
+    "hookLine": {
+      "en": "In 1529 the sultan knocked at Vienna's door. In 1683 he came back for the last time, and the man holding the door was the grandson of a rebel beheaded in Prague.",
+      "cz": "Roku 1529 zaklepal sultán na vídeňské dveře. Roku 1683 se vrátil naposledy a dveře držel vnuk rebela popraveného v Praze.",
+      "zh": "1529年，苏丹敲过一次维也纳的门。1683年，他最后一次回来敲门；守门的，是一个在布拉格被砍了头的叛乱者的孙子。"
+    },
+    "summary": {
+      "en": "A century and a half had passed since [[link:a-dynasty-drowned-in-a-stream-1526]]Mohács[[/link]], and the Turks had never really gone home. In 1529 they [[link:the-door-held-1529]]knocked at Vienna's door[[/link]] for the first time. In 1541 they took Buda, and Hungary was cut in three: a strip in the west and north for the Habsburgs, the great plain in the middle for the sultan, and Transylvania in between, paying the sultan tribute and going its own way.\n\nA [[link:the-sultan-says-emperor-1606]]thirteen-year war[[/link]] around 1600 changed very little. In 1664 the emperor [[link:meant-for-the-church-1656]]won a battle and lost the peace[[/link]] at Vasvár.\n\nIn Istanbul, 1683 looked like the right moment. The Thirty Years' War had worn the Habsburg lands out, and they had not yet got over the [[link:running-from-the-plague-1680]]plague[[/link]] that had swept through Vienna and Prague a few years before. In Hungary, Protestant nobles led by Imre Thököly had risen against Leopold and turned to the sultan for help; in 1682 the sultan named Thököly king of Upper Hungary. And the grand vizier, Kara Mustafa, wanted a conquest that no vizier before him had managed.\n\nThe emperor had another neighbour who wished him no good, in the west. For a century and a half the king of France, who called himself the Most Christian King, had been the sultan's friend whenever the Habsburgs were the enemy. Louis XIV, the Sun King, signed no treaty this time, but for years his ambassador in Istanbul had been assuring the Turks that France would never help the emperor. Louis kept that promise.\n\n[[b]]The emperor had an enemy on either side, and the one in the west was quite content to let the one in the east do the work.[[/b]]\n\nIn the spring of 1683 an Ottoman army of well over a hundred thousand men marched north from Belgrade. The sultan stayed behind in Belgrade. Kara Mustafa led the army on, and instead of stopping to besiege the border fortresses he made straight for Vienna.\n\nOn the night of 7 July Leopold left the city with his court, first for Linz, then for Passau, and tens of thousands of Viennese ran after him. On 14 July the Turks arrived, pitched their tents in a great ring around the walls and called on the city to surrender. Its military commander, Count Ernst Rüdiger von Starhemberg, refused.\n\nThe man the emperor left behind to run the city was a Czech. Zdeněk Kašpar Kaplíř of Sulevice was seventy-two. His grandfather was [[link:twenty-seven-1621]]Kašpar Kaplíř[[/link]], the eighty-six-year-old who had been helped up the scaffold steps on the Old Town Square in 1621.\n\nThe grandson was ten then. He grew up in exile and fought against the emperor: in 1631 he came back to Prague with the Saxon army and stood guard at the Týn Church at the funeral of [[link:the-saxons-come-1631]]the heads from the bridge tower[[/link]]. Ten years later he went over to the emperor and became a Catholic, and in 1648 he helped [[link:holding-the-bridge-1648]]defend Prague[[/link]] against the Swedes.\n\nNow, by the emperor's letter, he had full powers in Vienna: food, money, hospitals, labour, recruits. Later, when Starhemberg was wounded and his deputy fell ill, Kaplíř took over the defence as well. [[b]]The grandson of a rebel the Habsburgs had beheaded was holding their capital for them.[[/b]]\n\nFor two months the Turks dug. Their trenches crept towards the walls, and their miners tunnelled under the bastions in front of the imperial palace and blew breach after breach. The defenders dug countermines, threw up new walls behind the broken ones and fought over every heap of rubble. Dysentery killed more men than the bullets did. By early September the attackers held the outer works before the palace, and the garrison was down to a few thousand men fit to fight.\n\nHelp was slow to come. In the spring Leopold had made an alliance with the king of Poland, John III Sobieski, who now marched in with about twenty-five thousand men and took command of the whole relief army. Charles of Lorraine brought the emperor's own army, and Bavaria, Saxony and the smaller German states sent theirs: some seventy thousand men in all.\n\nMany of the emperor's regiments had been raised in Bohemia and Moravia, and much of what they cost was paid out of Bohemian taxes. [[b]]Thirty years of war had taken almost everything from the Bohemian lands; when the emperor needed an army, it was still there that he raised the men and the money.[[/b]]\n\nBetween the army and Vienna lay the Vienna Woods: steep, wooded hills with hardly a road. The guns had to be dragged up the slopes by men and horses, a few at a time. On the evening of 11 September the first troops stood on the Kahlenberg, the Bald Hill, and looked down on the city, the smoke and the endless Turkish camp. They lit fires so that the city would know help had come.\n\nKara Mustafa had seen them coming for days, and done almost nothing about it. He wanted the city before they arrived, so he kept his best men in the trenches. On the side facing the hills he built no ramparts and dug no ditches, and the scouts sent down from the Kahlenberg found not even a trap for cavalry. The Ottoman master of ceremonies, who kept a diary of the campaign, later wrote down what had gone wrong:\n\n[[quote:0]]\n\nOn 12 September, before dawn, the Capuchin friar Marco d'Aviano said Mass on the Kahlenberg. The fighting began at first light on the left, by the Danube, where the imperial and Saxon troops came down through the vineyards and took the villages one by one. From below, the same diarist watched them come:\n\n[[quote:1]]\n\nThe Poles on the right had the longest and roughest way, through woods and ravines, and it was afternoon before they reached open ground. All the while the guns on the heights fired down on the Turkish lines.\n\nTowards six in the evening Sobieski sent in his cavalry: about eighteen thousand horsemen, with the Polish winged hussars at the front, galloping downhill in one of the largest cavalry charges in history. The Ottoman foot soldiers and gunners stood in the open, on flat ground, with nothing in front of them to stop a horse. The line broke. Within a few hours the whole army was running east, and the garrison came out of the gates to join the chase.\n\n[[b]]The siege had lasted two months. Ending it took one afternoon.[[/b]]\n\nSobieski spent that night in the grand vizier's own tent and wrote to his wife:\n\n[[quote:2]]\n\nThe camp was full of what the Turks had left behind: cannon, powder, camels, gold-hilted sabres, and sacks of strange beans, from which, says the legend, Vienna learned to make coffee. Sobieski sent the Prophet's green banner to the Pope, with a letter that said: we came, we saw, God conquered. He had a few words for another king too:\n\n[[quote:3]]\n\nThe Most Christian King was probably not the man in Europe most delighted by the news.\n\nKara Mustafa fell back to Belgrade, and the sultan's men followed him there. On Christmas Day 1683 they came to his house and asked him for the seal of state and the Holy Banner. He handed them over, then asked:\n\n[[quote:4]]\n\nIn December the emperor made Kaplíř a field marshal. When Sobieski first rode into the city, he had found him ill in bed and gone to see him there. Kaplíř died in Vienna three years later, the last count of his line, and was carried home to be buried at Milešov in northern Bohemia. His marshal's baton is kept in Litoměřice.\n\nHis grandfather's cross is still set in the paving of the Old Town Square.\n\nThe Turks never besieged Vienna again. The next spring the emperor, Poland, Venice and the Pope formed a Holy League. In 1686 the imperial army took Buda, after a hundred and forty-five years under the sultan, and at Karlowitz in 1699 the sultan gave up almost all of Hungary.\n\n[[b]]For three hundred years the Ottoman Empire had only moved forward in Europe; after Vienna, it only moved back.[[/b]] Historians count 1683 as the turning point. The Turks would never again be a threat to Central Europe, and step by step they fell back into the Balkans.\n\nNot everyone in Europe was pleased. In Versailles, Louis XIV had been counting on the Turks. With the emperor busy in the east, France had been helping itself in the west: in 1681 French troops surrounded the imperial city of Strasbourg and took it without firing a shot. In the autumn of 1683, while the imperial army was still chasing Turks across Hungary, the French marched into the Spanish Netherlands, and by the next summer French guns had taken Luxembourg.\n\nIn 1684, at Regensburg, the emperor signed a twenty-year truce that let France keep the lot. Twenty-year truces were the fashion that decade. He had little choice: he had the Turks to deal with. [[b]]The Turks did the fighting, and France collected the winnings.[[/b]]\n\nThe arrangement had only one weakness: it worked only as long as the Turks kept the emperor busy. Instead, the news from Hungary every year was of another imperial victory, and sooner or later the emperor would have his hands free, turn west, and ask for Strasbourg back.\n\nIn Versailles, the Sun King began to wonder whether, if the Turks could not cut the Habsburgs down to size, he might have to do it himself.",
+      "cz": "Od [[link:a-dynasty-drowned-in-a-stream-1526]]Moháče[[/link]] uplynulo půldruhého století a Turci vlastně nikdy neodešli. Roku 1529 poprvé [[link:the-door-held-1529]]zaklepali na vídeňské dveře[[/link]]. Roku 1541 dobyli Budín a Uhry se rozpadly na tři kusy: pruh na západě a severu Habsburkům, velká rovina uprostřed sultánovi a mezi nimi Sedmihradsko, které sultánovi platilo poplatek a jinak si šlo vlastní cestou.\n\n[[link:the-sultan-says-emperor-1606]]Třináctiletá válka[[/link]] kolem roku 1600 na tom změnila jen málo. Roku 1664 císař ve Vasváru [[link:meant-for-the-church-1656]]bitvu vyhrál a mír prohrál[[/link]].\n\nV Istanbulu vypadal rok 1683 jako ta pravá chvíle. Třicetiletá válka habsburské země vyčerpala a z [[link:running-from-the-plague-1680]]moru[[/link]], který před pár lety prošel Vídní i Prahou, se ještě nevzpamatovaly. V Uhrách povstali protestantští šlechtici v čele s Imrichem Tökölym proti Leopoldovi a obrátili se o pomoc k sultánovi; roku 1682 jmenoval sultán Tökölyho hornouherským králem. A velkovezír Kara Mustafa chtěl dobýt něco, co se žádnému vezírovi před ním nepodařilo.\n\nCísař měl ještě jednoho souseda, který mu nepřál, a to na západě. Už půldruhého století byl francouzský král, který si říkal Nejkřesťanštější, sultánovým přítelem, kdykoli šlo o Habsburky. Ludvík XIV., Král Slunce, tentokrát nepodepsal žádnou smlouvu, ale jeho vyslanec v Istanbulu Turky léta ujišťoval, že Francie císaři nikdy nepomůže. Ludvík ten slib dodržel.\n\n[[b]]Císař měl nepřítele z obou stran, a ten na západě byl docela rád, když práci odvede ten na východě.[[/b]]\n\nNa jaře 1683 vyrazilo z Bělehradu na sever osmanské vojsko o hodně víc než sto tisících mužích. Sultán zůstal v Bělehradě. Kara Mustafa vedl vojsko dál, a místo aby se zdržoval obléháním pohraničních pevností, zamířil rovnou na Vídeň.\n\nV noci na 7. července opustil Leopold se dvorem město, nejdřív do Lince, pak do Pasova, a desetitisíce Vídeňanů utíkaly za ním. Dne 14. července dorazili Turci, rozbili stany ve velikém kruhu kolem hradeb a vyzvali město, aby se vzdalo. Jeho vojenský velitel, hrabě Ernst Rüdiger ze Starhembergu, odmítl.\n\nMuž, kterého tu císař nechal spravovat město, byl Čech. Zdeňkovi Kašparovi Kaplířovi ze Sulevic bylo dvaasedmdesát. Jeho dědem byl [[link:twenty-seven-1621]]Kašpar Kaplíř[[/link]], ten šestaosmdesátiletý stařec, kterého roku 1621 vedli pod paží po schodech na popraviště na Staroměstském náměstí.\n\nVnukovi bylo tehdy deset. Vyrůstal v exilu a bojoval proti císaři: roku 1631 se vrátil do Prahy se saským vojskem a u Týnského chrámu držel stráž při pohřbu [[link:the-saxons-come-1631]]hlav z mostecké věže[[/link]]. O deset let později přešel k císaři a stal se katolíkem a roku 1648 pomáhal [[link:holding-the-bridge-1648]]bránit Prahu[[/link]] proti Švédům.\n\nTeď měl císařským listem ve Vídni plnou moc: potraviny, peníze, špitály, pracovní síly, verbování. Později, když byl Starhemberg raněn a jeho zástupce onemocněl, převzal Kaplíř i velení obrany. [[b]]Vnuk rebela, kterého dali Habsburkové popravit, jim teď držel jejich hlavní město.[[/b]]\n\nDva měsíce Turci kopali. Jejich zákopy se plížily k hradbám a jejich minéři podkopávali bašty před císařským palácem a trhali v nich jednu průrvu za druhou. Obránci kopali protimíny, za zbořenými zdmi stavěli nové a bojovali o každou hromadu sutin. Úplavice zabila víc mužů než kulky. Začátkem září drželi útočníci předsunutá opevnění před palácem a posádce zbývalo jen pár tisíc mužů schopných boje.\n\nPomoc přicházela pomalu. Na jaře uzavřel Leopold spojenectví s polským králem Janem III. Sobieským, který teď přitáhl asi s pětadvaceti tisíci muži a převzal velení celé pomocné armády. Karel Lotrinský přivedl císařovo vlastní vojsko a Bavorsko, Sasko a menší německé státy poslaly svá: dohromady asi sedmdesát tisíc mužů.\n\nMnohé císařské pluky byly naverbovány v Čechách a na Moravě a velkou část toho, co stály, platily české daně. [[b]]Třicet let války vzalo českým zemím skoro všechno; když císař potřeboval vojsko, muže i peníze bral pořád odtud.[[/b]]\n\nMezi vojskem a Vídní ležel Vídeňský les: příkré zalesněné kopce, kudy skoro nevedla cesta. Děla se musela vytahovat do svahů lidmi a koňmi, pár kusů po druhém. Večer 11. září stály první oddíly na Kahlenbergu, Holé hoře, a hleděly dolů na město, na dým a na nekonečný turecký tábor. Zapálily ohně, aby město vědělo, že pomoc je tady.\n\nKara Mustafa je viděl přicházet celé dny a neudělal skoro nic. Chtěl mít město dřív, než dorazí, a tak držel nejlepší muže v zákopech. Na straně ke kopcům nepostavil žádné valy a nevykopal žádné příkopy a zvědové vyslaní z Kahlenbergu nenašli ani jednu past na jízdu. Osmanský ceremoniář, který si během tažení psal deník, později zapsal, co se pokazilo:\n\n[[quote:0]]\n\nDne 12. září před svítáním sloužil kapucín Marco d'Aviano na Kahlenbergu mši. Boj začal za prvního světla vlevo u Dunaje, kde císařští a Sasové sestupovali vinicemi a brali jednu vesnici za druhou. Zdola je sledoval týž kronikář:\n\n[[quote:1]]\n\nPoláci napravo měli nejdelší a nejhorší cestu, lesy a stržemi, a na otevřenou pláň se dostali až odpoledne. Celou dobu přitom děla z výšin pálila dolů do tureckých řad.\n\nKolem šesté večer poslal Sobieski do útoku jízdu: asi osmnáct tisíc jezdců, v čele polští okřídlení husaři, kteří se hnali z kopce v jednom z největších jezdeckých útoků v dějinách. Osmanští pěšáci a dělostřelci stáli na otevřené rovině a před sebou neměli nic, co by koně zastavilo. Řady se zlomily. Během několika hodin utíkalo celé vojsko na východ a posádka vyrazila z bran, aby se přidala k pronásledování.\n\n[[b]]Obléhání trvalo dva měsíce. Na jeho konec stačilo jedno odpoledne.[[/b]]\n\nSobieski strávil tu noc ve velkovezírově vlastním stanu a napsal manželce:\n\n[[quote:2]]\n\nTábor byl plný toho, co tu Turci nechali: děla, prach, velbloudi, šavle se zlatými jílci a pytle podivných zrn, z nichž se Vídeň podle legendy naučila vařit kávu. Prorokův zelený prapor poslal Sobieski papeži s dopisem, v němž stálo: přišli jsme, viděli jsme, Bůh zvítězil. Pár slov měl i pro jiného krále:\n\n[[quote:3]]\n\nNejkřesťanštější král byl nejspíš ten člověk v Evropě, kterého ta zpráva potěšila nejméně.\n\nKara Mustafa ustoupil do Bělehradu a sultánovi lidé ho tam dostihli. Na Boží hod vánoční 1683 přišli do jeho domu a požádali ho o říšskou pečeť a svatý prapor. Odevzdal je a pak se zeptal:\n\n[[quote:4]]\n\nV prosinci jmenoval císař Kaplíře polním maršálem. Když Sobieski poprvé vjel do města, našel ho nemocného v posteli a zašel za ním. Kaplíř zemřel o tři roky později ve Vídni jako poslední hrabě svého rodu a převezli ho domů do Milešova v severních Čechách, kde ho pohřbili. Jeho maršálská hůl je uložena v Litoměřicích.\n\nKřížek jeho děda je dodnes zasazen v dlažbě Staroměstského náměstí.\n\nTurci už Vídeň nikdy neobléhali. Příští jaro uzavřeli císař, Polsko, Benátky a papež Svatou ligu. Roku 1686 dobylo císařské vojsko po sto pětačtyřiceti letech sultánovy vlády Budín a v Karlovicích roku 1699 se sultán vzdal skoro celých Uher.\n\n[[b]]Tři sta let se Osmanská říše v Evropě pohybovala jen dopředu; po Vídni už jen dozadu.[[/b]] Historici považují rok 1683 za zlom. Turci už nikdy neohrozili střední Evropu a krok za krokem ustupovali na Balkán.\n\nNe každý v Evropě měl radost. Ve Versailles Ludvík XIV. s Turky počítal. Dokud byl císař zaměstnán na východě, Francie se na západě obsluhovala sama: roku 1681 francouzské vojsko obklíčilo říšské město Štrasburk a vzalo ho, aniž padl jediný výstřel. Na podzim 1683, kdy císařské vojsko ještě honilo Turky po Uhrách, vtáhli Francouzi do Španělského Nizozemí a do příštího léta francouzská děla dobyla Lucemburk.\n\nRoku 1684 podepsal císař v Řezně dvacetileté příměří, podle kterého si Francie všechno ponechala. Dvacetiletá příměří byla v tom desetiletí v módě. Moc na výběr neměl: musel si poradit s Turky. [[b]]Turci bojovali a Francie shrabovala výhru.[[/b]]\n\nTo uspořádání mělo jedinou slabinu: fungovalo jen tak dlouho, dokud Turci císaře zaměstnávali. Místo toho přicházely z Uher rok co rok zprávy o dalším císařském vítězství, a dřív nebo později bude mít císař volné ruce, obrátí se na západ a bude chtít Štrasburk zpátky.\n\nVe Versailles začal Král Slunce přemýšlet, jestli když Habsburky nedokážou přistřihnout Turci, nebude to muset udělat sám.",
+      "zh": "[[link:a-dynasty-drowned-in-a-stream-1526]]莫哈奇[[/link]]之后，一个半世纪过去了，土耳其人其实一直没走。1529年，他们头一回[[link:the-door-held-1529]]敲响了维也纳的门[[/link]]。1541年，他们拿下了布达，匈牙利从此一分为三：西边和北边的一长条归哈布斯堡，中间的大平原归苏丹，夹在中间的特兰西瓦尼亚给苏丹纳贡，自己过自己的日子。\n\n1600年前后那场[[link:the-sultan-says-emperor-1606]]十三年的战争[[/link]]，几乎什么也没改变。1664年，皇帝在沃什堡[[link:meant-for-the-church-1656]]打赢了仗，却输掉了和约[[/link]]。\n\n在伊斯坦布尔看来，1683年正是时候。三十年战争把哈布斯堡的领地拖垮了，几年前横扫维也纳和布拉格的那场[[link:running-from-the-plague-1680]]瘟疫[[/link]]，也还没缓过劲来。匈牙利那边，特克伊·伊姆雷带着一帮新教贵族起兵反对利奥波德，转头向苏丹求援；1682年，苏丹封特克伊为“上匈牙利国王”。而大维齐尔卡拉·穆斯塔法，想干一件前任们谁都没干成的大事。\n\n皇帝在西边还有一个巴不得他倒霉的邻居。一个半世纪以来，自称“笃信基督的国王”的法国国王，只要对手是哈布斯堡，就是苏丹的朋友。“太阳王”路易十四这回没有签什么条约，可他派驻伊斯坦布尔的大使，好几年来一直向土耳其人保证：法国绝不会帮皇帝。路易说到做到。\n\n[[b]]皇帝东西两头都是敌人，西边那位很乐意让东边那位替他动手。[[/b]]\n\n1683年春天，一支远远超过十万人的奥斯曼大军从贝尔格莱德出发北上。苏丹留在了贝尔格莱德，卡拉·穆斯塔法领着大军继续往前走，边境上的要塞也不去围了，直奔维也纳。\n\n7月7日夜里，利奥波德带着宫廷离开了维也纳，先去林茨，再去帕绍，好几万维也纳人跟在后面逃。7月14日，土耳其人到了，在城墙外扎下一大圈营帐，要城里投降。城防司令施塔亨贝格伯爵拒绝了。\n\n皇帝留下来管这座城的，是个捷克人：七十二岁的兹德涅克·卡什帕尔·卡普利日。他的祖父，就是1621年在老城广场上被人搀着走上刑台的那位八十六岁的老人，[[link:twenty-seven-1621]]卡普利日[[/link]]。\n\n那一年，孙子才十岁。他在流亡中长大，跟皇帝打过仗：1631年，他随萨克森军队回到布拉格，在泰恩教堂为[[link:the-saxons-come-1631]]桥塔上取下的头颅[[/link]]下葬时站岗。十年后，他投到了皇帝这边，改信了天主教；1648年，他参加了抵御瑞典人的[[link:holding-the-bridge-1648]]布拉格保卫战[[/link]]。\n\n如今，皇帝一纸诏书，把维也纳的大权全交给了他：粮食、钱、医院、劳力、征兵，样样归他管。后来施塔亨贝格受了伤，副手又病倒了，连城防指挥也落到了卡普利日身上。[[b]]被哈布斯堡砍了头的叛乱者的孙子，如今在替哈布斯堡守他们的都城。[[/b]]\n\n整整两个月，土耳其人一直在挖。壕沟一寸一寸逼近城墙，坑道兵在皇宫前面的棱堡底下挖地道，炸开一个又一个缺口。守军挖反坑道，在塌掉的城墙后面再垒一道新墙，为每一堆碎砖烂瓦拼命。痢疾死的人比中枪死的还多。到了9月初，土耳其人已经占了皇宫前面的外围工事，城里还能打仗的，只剩几千人了。\n\n援军来得很慢。这年春天，利奥波德和波兰国王扬三世·索别斯基结了盟，此时索别斯基带着大约两万五千人赶到，当上了整支援军的统帅。洛林公爵查理带来了皇帝自己的军队，巴伐利亚、萨克森和德意志各小邦也派了兵，加起来大约七万人。\n\n皇帝的军队里，有不少团是在波希米亚和摩拉维亚招的兵，花的钱也有一大块出自波希米亚的税。[[b]]三十年战争几乎掏空了波希米亚；可皇帝一要打仗，兵和钱还是从这里出。[[/b]]\n\n援军和维也纳之间，隔着维也纳森林：山又陡，林又密，几乎没有路。大炮只能靠人和马一门一门往坡上拖。9月11日傍晚，第一批部队站上了卡伦山，名字的意思是“秃山”。他们往下望去，是城，是烟，是一眼望不到头的土耳其营地。他们点起篝火，让城里知道：援军到了。\n\n卡拉·穆斯塔法好几天前就看见他们来了，却几乎什么也没做。他想抢在援军到来之前拿下城，所以把最精锐的人都留在壕沟里。朝着山的那一面，他既没筑土墙，也没挖壕沟，从卡伦山下来的侦察兵，连一个防骑兵的陷阱都没找到。随军写日记的奥斯曼宫廷司礼官，事后记下了到底错在哪里：\n\n[[quote:0]]\n\n9月12日天亮前，嘉布遣会修士马可·达维亚诺在卡伦山上做了弥撒。天一亮，左翼多瑙河边先打了起来，帝国军和萨克森军顺着葡萄园往下冲，一个村子一个村子地拿下来。山下，那位司礼官看着他们下来：\n\n[[quote:1]]\n\n右翼的波兰人路最远、最难走，要穿过树林和山沟，一直到下午才走到开阔地上。这段时间里，山上的大炮一直朝土耳其人的阵地往下轰。\n\n傍晚六点左右，索别斯基把骑兵派了出去：大约一万八千名骑兵，打头的是波兰翼骑兵，顺着山坡往下冲，这是史上规模最大的骑兵冲锋之一。奥斯曼的步兵和炮兵站在一马平川的开阔地上，面前没有任何东西能挡住一匹马。阵线垮了。不过几个钟头，整支大军就往东溃逃，城里的守军也开了城门，冲出来一起追。\n\n[[b]]围城围了两个月，解围只用了一个下午。[[/b]]\n\n那天夜里，索别斯基就睡在大维齐尔自己的营帐里，给妻子写信：\n\n[[quote:2]]\n\n营地里满是土耳其人丢下的东西：大炮、火药、骆驼、金柄的弯刀，还有一袋袋古怪的豆子，传说维也纳人就是从这些豆子学会了煮咖啡。索别斯基把先知的绿色军旗送给了教宗，附信写道：我们来了，我们看见了，上帝得胜了。他还给另一位国王捎了几句话：\n\n[[quote:3]]\n\n这位“笃信基督的国王”，大概是全欧洲最不高兴听到这个消息的人。\n\n卡拉·穆斯塔法退到了贝尔格莱德，苏丹的人也跟到了那里。1683年圣诞节那天，他们来到他的住处，向他要回帝国的印信和圣旗。他交了出去，然后问：\n\n[[quote:4]]\n\n这年12月，皇帝封卡普利日为陆军元帅。索别斯基头一回进城时，他正病倒在床上，国王还特地去床前看了他。三年后，卡普利日死在维也纳，他是这个家族最后一位伯爵。人们把他运回家乡，葬在北波希米亚的米列绍夫。他的元帅杖，如今保存在利托梅日采。\n\n他祖父的那个十字，至今还嵌在老城广场的石板路上。\n\n从此，土耳其人再也没有围过维也纳。第二年春天，皇帝、波兰、威尼斯和教宗结成了神圣同盟。1686年，帝国军队收复了被苏丹统治了一百四十五年的布达；1699年，在卡尔洛维茨，苏丹交出了几乎整个匈牙利。\n\n[[b]]三百年来，奥斯曼帝国在欧洲只往前走；维也纳之后，它只往后退。[[/b]]史学家把1683年看作转折点：土耳其人从此再也威胁不到中欧，一步一步退回了巴尔干。\n\n欧洲并不是人人都高兴。凡尔赛的路易十四，本来是指望着土耳其人的。趁皇帝在东边脱不开身，法国在西边一直自己动手拿：1681年，法军包围了帝国城市斯特拉斯堡，一枪没放就拿了下来。1683年秋天，帝国军队还在匈牙利追着土耳其人跑，法军已经开进了西属尼德兰；到第二年夏天，法国大炮又轰下了卢森堡。\n\n1684年，皇帝在雷根斯堡签了一份二十年的停战协定，法国拿到手的全都归了法国。那些年，二十年的停战协定好像正时兴。皇帝没什么选择：他还得对付土耳其人。[[b]]仗是土耳其人打的，赢来的好处是法国收的。[[/b]]\n\n这笔买卖只有一个毛病：只有土耳其人一直缠住皇帝，它才划算。可匈牙利那边传来的，年年都是皇帝又打了胜仗的消息。皇帝迟早会腾出手来，转身向西，要回斯特拉斯堡。\n\n凡尔赛宫里，太阳王开始盘算：既然土耳其人削不弱哈布斯堡，是不是得他亲自出马了。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "Having spent so long putting all its strength into the siege of the fortress, the army would not leave the trenches. Thinking that a few thousand warriors could fight the battle in the open field and give the enemy hell, it made the grave mistake of not gathering its whole force together.",
+          "cz": "Když se tak dlouho napínaly všechny síly k obléhání pevnosti, nechtělo se pak vyklidit zákopy. V domnění, že několik tisíc bojovníků svede bitvu v otevřeném poli a nepříteli zatopí, se udělala těžká chyba: celé vojsko se nesoustředilo.",
+          "zh": "围这座要塞，已经花了那么久、用尽了全部力气，到头来谁也不肯撤出壕沟。以为几千名勇士就能在野外打这一仗，叫敌人吃足苦头，于是犯下了大错：没有把全部兵力集中起来。"
+        },
+        "attribution": {
+          "en": "Diary of the Ottoman master of ceremonies (his name is lost), on the causes of the defeat",
+          "cz": "Deník osmanského ceremoniáře (jeho jméno se nedochovalo), o příčinách porážky",
+          "zh": "奥斯曼宫廷司礼官的日记（作者姓名已失传），论战败的原因"
+        }
+      },
+      {
+        "text": {
+          "en": "The infidels had reached the stockade on the hill and now appeared with their columns on the slopes like thunderclouds, bristling with dark-blue iron… It was as if a flood of black pitch were rolling down the hill, crushing and burning everything that stood in its way.",
+          "cz": "Nevěřící dosáhli palisády na hoře a teď se se svými oddíly objevovali na svazích jako bouřková mračna, naježení tmavomodrým železem… Bylo to, jako by se z hory valila záplava černé smoly, která drtí a spaluje všechno, co se jí postaví do cesty.",
+          "zh": "异教徒到了山上的木栅，他们的队伍出现在山坡上，像一团团雷雨云，浑身闪着深蓝色的铁光……那情形，就像一股黑色的沥青洪流从山上滚滚而下，挡在前面的一切，都被它压碎、烧焦。"
+        },
+        "attribution": {
+          "en": "The same diary, Sunday 12 September 1683",
+          "cz": "Týž deník, neděle 12. září 1683",
+          "zh": "同一本日记，1683年9月12日，星期日"
+        }
+      },
+      {
+        "text": {
+          "en": "The vizier so ran away from it all that he took but one horse and one robe. I became his successor, because a large part of all his splendid equipment fell to me.",
+          "cz": "Vezír před tím vším utíkal tak, že si vzal jen jednoho koně a jeden šat. Stal jsem se jeho nástupcem, protože velká část všeho jeho skvostného vybavení připadla mně.",
+          "zh": "那位维齐尔逃得那样慌，只带走了一匹马、一件袍子。我成了他的继承人，因为他那一大堆华丽的家当，大半都归了我。"
+        },
+        "attribution": {
+          "en": "John III Sobieski to his wife Marysieńka, “in the vizier's tents”, night of 13 September 1683",
+          "cz": "Jan III. Sobieski manželce Marysieńce, „ve vezírových stanech“, v noci 13. září 1683",
+          "zh": "扬三世·索别斯基给妻子玛丽辛卡的信，“写于维齐尔的营帐中”，1683年9月13日夜"
+        }
+      },
+      {
+        "text": {
+          "en": "I have sent a few words to the king of France, saying that to him, as to the Most Christian King, I report the battle won and the salvation of Christendom.",
+          "cz": "Francouzskému králi jsem poslal pár slov, že jemu jako Nejkřesťanštějšímu králi oznamuji vyhranou bitvu a spásu křesťanstva.",
+          "zh": "我给法国国王去了几句话，说我谨向他，这位“笃信基督的国王”，禀报这一仗打赢了，基督教世界得救了。"
+        },
+        "attribution": {
+          "en": "The same letter",
+          "cz": "Týž dopis",
+          "zh": "同一封信"
+        }
+      },
+      {
+        "text": {
+          "en": "“Is death decreed for me?” “Certainly, it must be!” answered the chamberlain… And when the executioners came in and made their cords ready, he lifted his full beard with his own hands and said: “Put the noose on me properly!”",
+          "cz": "„Je mi souzena smrt?“ „Jistě, musí to být!“ odpověděl komoří… A když vešli kati a připravili provazy, zvedl si vlastníma rukama plnovous a řekl: „Nasaďte mi tu smyčku pořádně!“",
+          "zh": "“我是死定了吗？”“没错，非死不可！”内廷总管答道……刽子手进来、备好绳子的时候，他亲手托起自己的大胡子，说：“把套索给我套好了！”"
+        },
+        "attribution": {
+          "en": "The Ottoman master of ceremonies' diary, Belgrade, 25 December 1683",
+          "cz": "Deník osmanského ceremoniáře, Bělehrad, 25. prosince 1683",
+          "zh": "奥斯曼宫廷司礼官的日记，贝尔格莱德，1683年12月25日"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "27-krizu-staromestske-namesti",
+        "relation": {
+          "en": "Among the 27 crosses is Kašpar Kaplíř's, grandfather of the Czech who ran besieged Vienna in 1683",
+          "cz": "Mezi sedmadvaceti kříži je i kříž Kašpara Kaplíře, děda Čecha, který roku 1683 spravoval obleženou Vídeň",
+          "zh": "二十七个十字中，有一个属于卡普利日，1683年替皇帝守维也纳的那个捷克人，正是他的孙子"
+        }
+      },
+      {
+        "slug": "litomerice",
+        "relation": {
+          "en": "Zdeněk Kašpar Kaplíř's field marshal's baton and sash, awarded after the siege, are kept in Litoměřice",
+          "cz": "V Litoměřicích je uložena maršálská hůl a šerpa, které Zdeněk Kašpar Kaplíř dostal po obléhání",
+          "zh": "卡普利日在围城之后获授的元帅杖和绶带，保存在利托梅日采"
+        }
+      }
+    ],
+    "referenceMaps": {
+      "links": [
+        {
+          "label": "1683",
+          "description": {
+            "en": "Sobieski's whole letter to Marysieńka of 13 September 1683, in English, from the Wilanów Palace Museum",
+            "cz": "Celý Sobieského dopis Marysieńce z 13. září 1683 (anglicky), Muzeum paláce ve Wilanowě",
+            "zh": "索别斯基1683年9月13日写给玛丽辛卡的信全文（英文），维拉努夫宫博物馆"
+          },
+          "url": "https://wilanow-palac.pl/en/knowledge/letter-of-jan-iii-sobieski-to-maria-kazimiera-13-ix-1683"
+        },
+        {
+          "label": "1883",
+          "description": {
+            "en": "Jan Matejko's Sobieski at Vienna, painted for the battle's 200th anniversary: the king hands over his victory letter for the Pope. It hangs in the Vatican Museums",
+            "cz": "Obraz Jana Matejka Sobieski u Vídně, namalovaný k 200. výročí bitvy: král předává dopis o vítězství pro papeže. Visí ve Vatikánských muzeích",
+            "zh": "扬·马泰伊科为战役两百周年画的《索别斯基在维也纳》：国王把报捷信交给送往教宗的使者。此画现藏梵蒂冈博物馆"
+          },
+          "url": "https://mnk.pl/en/wystawy/sobieski-in-jan-matejkos-czestochowa-around-the-figure-and-painting/"
+        }
+      ]
+    },
+    "images": [
+      "/history/the-last-knock-1683.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Vienna, 12 September 1683: Polish winged hussars and imperial cuirassiers charge down from the Kahlenberg under the Polish eagle and the Habsburg double-headed eagle, and the Ottoman army flees across the open plain past its camp. Inset: on a battered bastion of the besieged city, its Czech commander, the old Zdeněk Kašpar Kaplíř, stands ready with his exhausted defenders.",
+        "cz": "Vídeň, 12. září 1683: polští okřídlení husaři a císařští kyrysníci se pod polskou orlicí a habsburskou dvouhlavou orlicí řítí dolů z Kahlenbergu a osmanské vojsko prchá po otevřené pláni kolem svého tábora. Ve výřezu: na rozbité baště obleženého města stojí připraven se svými vyčerpanými obránci jeho český velitel, starý Zdeněk Kašpar Kaplíř.",
+        "zh": "1683年9月12日，维也纳城外：波兰翼骑兵和帝国胸甲骑兵打着波兰白鹰旗和哈布斯堡双头鹰旗，从卡伦山上冲下来，奥斯曼大军从营地旁穿过开阔的平原四散溃逃。小格里：被围的城头上，守城的捷克老将卡普利日带着筋疲力尽的守军严阵以待。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Battle_of_Vienna"
+  },
+  // 2026-10-29. The Nine Years' War (War of the Grand Alliance) up to spring
+  // 1689, stopping before the Prague fire. Quotes 0 and 1: Louis XIV's
+  // "Mémoire des raisons qui ont obligé le Roy à reprendre les armes"
+  // (Versailles, 24 Sept 1688; Paris, Coignard), from the Internet Archive
+  // OCR text; translations ours. Quote 2: Liselotte to Sophie of Hanover,
+  // 20 March 1689, modernised German as given by M. Aden ("Liselotte von der
+  // Pfalz", dresaden.de) and the DHM; translations ours. Causes per
+  // en.wikipedia (Edict of Nantes, League of Augsburg July 1686, Palatine claim
+  // for Elisabeth Charlotte, Habsburg victories convincing France the emperor
+  // would turn west). Destruction per en.wikipedia "Mélac" (Heidelberg castle
+  // blown up Feb 1689, Mannheim burned 8 March, then Worms, Speyer); the dog's
+  // name is "citation needed" there, hence "people say". "French" = arsonist in
+  // German news: the Palatinate-desolation news study (ResearchGate). Leaflets
+  // in Bohemia before the fire: Petr Čornej via ČT24.
+  {
+    "slug": "the-sun-king-and-the-grand-alliance-1688",
+    "era": "voiceless-years",
+    "startYear": 1688,
+    "tone": "humorous",
+    "year": {
+      "en": "1685–1689",
+      "cz": "1685–1689",
+      "zh": "1685–1689年"
+    },
+    "title": {
+      "en": "Scorched Earth on the Rhine",
+      "cz": "Spálená země na Rýně",
+      "zh": "莱茵河畔的焦土"
+    },
+    "hookLine": {
+      "en": "Louis XIV meant to scare the Germans with a short war, and ended up facing half of Europe. The Palatinate he could not hold, he burned.",
+      "cz": "Ludvík XIV. chtěl krátkou válkou zastrašit Němce a skončil proti půlce Evropy. Falc, kterou nemohl udržet, dal vypálit.",
+      "zh": "路易十四想用一场速战吓住德意志人，结果惹得半个欧洲联手对付他。守不住的普法尔茨，他干脆烧成了焦土。"
+    },
+    "summary": {
+      "en": "In Hungary, the emperor [[link:the-last-knock-1683]]kept winning[[/link]]. In 1686 his army took Buda, and on 6 September 1688 Belgrade fell as well. In Versailles, Louis XIV did his sums once more, and liked the answer even less.\n\nHe had made himself plenty of enemies along the way. In 1685 he revoked the Edict of Nantes, which had protected French Protestants for nearly ninety years; as many as two hundred thousand Huguenots fled abroad, and Protestant Europe took note. In 1686 the emperor, Spain, Sweden and a string of German princes formed a defensive league at Augsburg. Less than forty years earlier the Swedes and the emperor's men had been [[link:holding-the-bridge-1648]]shooting at each other on Charles Bridge[[/link]], and France had been Sweden's ally; now, facing a common enemy, Sweden and the emperor had signed the same pact. And in 1688 Louis's candidate lost the election for the archbishopric of Cologne.\n\nThen there was the Palatinate on the Rhine. In 1685 its elector died without children, and the land passed to a Catholic cousin, Philip William of Neuburg, who happened to be the emperor's father-in-law. The dead elector's sister lived at Versailles: Elisabeth Charlotte, known as Liselotte, the wife of Louis's brother. She was a granddaughter of [[link:a-king-for-one-winter-1620]]Frederick the Winter King[[/link]]. Louis claimed a share of the Palatine inheritance on her behalf, whether she wanted it or not.\n\nOn 24 September 1688 Louis published his reasons for taking up arms. They began like this:\n\n[[quote:0]]\n\nThe villain of the piece was the new Elector Palatine, the emperor's father-in-law, who, Louis complained, was pushing Vienna to make peace with the Turks and turn on France:\n\n[[quote:1]]\n\n[[b]]For years the king had hoped the Turks would keep the emperor busy; now he was shocked that the emperor might make peace with them.[[/b]] Coming from the sultan's oldest friend in Europe, the phrase \"the enemy of Christendom\" was a nice touch.\n\nThe French army crossed the Rhine that same week. Louis expected a short war: take a few fortresses, frighten the German princes, and have the twenty-year truce turned into a permanent peace. Philippsburg, the empire's great fortress on the Rhine, fell after a month.\n\nAfter that, very little went to plan. With the French army busy on the Rhine, nothing stood in the way of Louis's most stubborn enemy, William of Orange, who in November 1688 crossed from the Netherlands to England and took the throne from Louis's ally James II. In May 1689 the emperor and the Dutch signed an alliance in Vienna; England joined them, and before long Spain and Savoy too. It came to be called the Grand Alliance.\n\n[[b]]Louis had wanted a short war with the Germans. He got a long one with half of Europe.[[/b]] It would last nine years.\n\nSince the Palatinate could not be held, the French decided that nobody else should be able to use it either. The war minister, Louvois, ordered the land laid waste. Over the winter and spring of 1689 French troops blew up Heidelberg Castle, the very castle Frederick had left in 1619 to become [[link:a-new-king-from-the-rhine-1619]]king in Prague[[/link]], burned Mannheim to the ground, then Speyer, Worms and hundreds of villages. In the Palatinate, people say, the name of one of the French commanders, Mélac, was long afterwards a favourite name for dogs.\n\nAll of it was done in Liselotte's name. In March 1689 she wrote to her aunt Sophie of Hanover:\n\n[[quote:2]]\n\nThe fires on the Rhine sent a fear running through the whole Empire. In German news-sheets \"French\" came to mean much the same as \"fire-raiser\". Rumour had it that French agents, dressed as beggars, pilgrims or discharged soldiers, were roaming the land with fuses in their bags, setting towns alight. By the spring of 1689 leaflets warning against French incendiaries were going round in Bohemia too.\n\nPrague was a long way from the Rhine. At least, it seemed to be.",
+      "cz": "V Uhrách císař [[link:the-last-knock-1683]]vítězil dál[[/link]]. Roku 1686 dobylo jeho vojsko Budín a 6. září 1688 padl i Bělehrad. Ve Versailles si Ludvík XIV. znovu všechno přepočítal a výsledek se mu líbil ještě míň.\n\nNepřátel si mezitím nadělal dost. Roku 1685 zrušil nantský edikt, který skoro devadesát let chránil francouzské protestanty; do ciziny uprchlo až dvě stě tisíc hugenotů a protestantská Evropa si to zapamatovala. Roku 1686 uzavřeli císař, Španělsko, Švédsko a řada německých knížat v Augsburgu obranný spolek. Ani ne před čtyřiceti lety po sobě Švédové a císařští [[link:holding-the-bridge-1648]]stříleli na Karlově mostě[[/link]] a Francie byla švédským spojencem; teď, proti společnému nepříteli, podepsali Švédsko a císař tentýž spolek. A roku 1688 Ludvíkův kandidát prohrál volbu kolínského arcibiskupa.\n\nA pak tu byla Falc na Rýně. Roku 1685 tam zemřel bezdětný kurfiřt a země připadla katolickému bratranci Filipu Vilémovi Neuburskému, který byl shodou okolností císařovým tchánem. Sestra zemřelého kurfiřta žila ve Versailles: Alžběta Šarlota, zvaná Liselotte, manželka Ludvíkova bratra. Byla vnučkou [[link:a-king-for-one-winter-1620]]Fridricha, Zimního krále[[/link]]. Ludvík si jejím jménem nárokoval podíl na falckém dědictví, ať o to stála, nebo ne.\n\nDne 24. září 1688 zveřejnil Ludvík důvody, proč se chápe zbraní. Začínaly takto:\n\n[[quote:0]]\n\nHlavním padouchem byl nový falcký kurfiřt, císařův tchán, který prý tlačil Vídeň, aby uzavřela mír s Turky a obrátila se proti Francii:\n\n[[quote:1]]\n\n[[b]]Celá léta král doufal, že Turci císaře zaměstnají; teď byl pohoršen, že by s nimi císař mohl uzavřít mír.[[/b]] Z úst nejstaršího sultánova přítele v Evropě znělo „nepřítel křesťanstva“ obzvlášť pěkně.\n\nFrancouzské vojsko překročilo Rýn ještě téhož týdne. Ludvík čekal krátkou válku: vzít pár pevností, nahnat strach německým knížatům a dosáhnout, aby se z dvacetiletého příměří stal trvalý mír. Philippsburg, velká říšská pevnost na Rýně, padl po měsíci.\n\nPotom už skoro nic nešlo podle plánu. Francouzské vojsko bylo zaměstnáno na Rýně, a tak nic nestálo v cestě Ludvíkovu nejzarputilejšímu nepříteli, Vilémovi Oranžskému, který se v listopadu 1688 přeplavil z Nizozemí do Anglie a vzal trůn Ludvíkovu spojenci Jakubovi II. V květnu 1689 uzavřeli císař a Nizozemci ve Vídni spojenectví; přidala se Anglie a brzy i Španělsko a Savojsko. Začalo se mu říkat Velká aliance.\n\n[[b]]Ludvík chtěl krátkou válku s Němci. Dostal dlouhou válku s půlkou Evropy.[[/b]] Měla trvat devět let.\n\nKdyž se Falc nedala udržet, rozhodli Francouzi, že ji nebude moci využít ani nikdo jiný. Ministr války Louvois nařídil zemi zpustošit. Během zimy a jara 1689 vyhodili francouzští vojáci do povětří heidelberský zámek, právě ten, odkud Fridrich roku 1619 odešel stát se [[link:a-new-king-from-the-rhine-1619]]králem v Praze[[/link]], vypálili do základů Mannheim, pak Špýr, Wormy a stovky vesnic. Ve Falci se prý jménem jednoho z francouzských velitelů, Mélaca, ještě dlouho potom rádo říkalo psům.\n\nTo všechno se dělo ve jménu Liselotte. V březnu 1689 napsala své tetě Žofii Hannoverské:\n\n[[quote:2]]\n\nPožáry na Rýně rozeslaly strach po celé říši. V německých novinách začalo slovo „Francouz“ znamenat skoro totéž co „žhář“. Říkalo se, že po zemi chodí francouzští agenti převlečení za žebráky, poutníky nebo propuštěné vojáky, s doutnáky v torbách, a zapalují města. Na jaře 1689 už kolovaly letáky varující před francouzskými žháři i v Čechách.\n\nPraha byla od Rýna daleko. Aspoň se to tak zdálo.",
+      "zh": "匈牙利那边，皇帝[[link:the-last-knock-1683]]还在接着打胜仗[[/link]]。1686年，他的军队拿下了布达；1688年9月6日，贝尔格莱德也陷落了。凡尔赛宫里，路易十四又算了一遍账，这回结果更让他不痛快。\n\n这些年，他自己也没少给自己树敌。1685年，他废除了保护法国新教徒将近九十年的《南特敕令》，多达二十万胡格诺派教徒逃往国外，新教欧洲全都看在眼里。1686年，皇帝、西班牙、瑞典和一串德意志诸侯在奥格斯堡结成了防御同盟。不到四十年前，瑞典兵和皇帝的兵还在[[link:holding-the-bridge-1648]]查理大桥上对射[[/link]]，法国还是瑞典的盟友；如今，为了一个共同的敌人，瑞典和皇帝在同一份盟约上签了字。1688年，路易支持的人又在科隆大主教的选举里落了选。\n\n还有莱茵河畔的普法尔茨。1685年，那里的选帝侯无子而终，领地归了一位信天主教的堂亲，诺伊堡的菲利普·威廉，而他碰巧是皇帝的岳父。去世的选帝侯有个姐姐住在凡尔赛：伊丽莎白·夏洛特，人称莉泽洛特，路易十四弟弟的妻子。她是[[link:a-king-for-one-winter-1620]]“冬王”腓特烈[[/link]]的孙女。路易以她的名义，要求分一份普法尔茨的遗产，不管她本人愿不愿意。\n\n1688年9月24日，路易公布了他拿起武器的理由，开头是这样写的：\n\n[[quote:0]]\n\n头号罪人，是新任普法尔茨选帝侯，也就是皇帝的岳父。路易抱怨说，正是他在撺掇维也纳跟土耳其人讲和，掉头来打法国：\n\n[[quote:1]]\n\n[[b]]这些年，国王一直盼着土耳其人缠住皇帝；如今，他倒为皇帝可能跟土耳其人讲和而愤愤不平了。[[/b]]这话出自苏丹在欧洲最老的朋友之口，“基督教世界的敌人”这几个字，用得实在妙。\n\n就在同一个星期，法军渡过了莱茵河。路易盘算的是一场速战：拿下几座要塞，吓唬吓唬德意志诸侯，逼他们把二十年停战改成永久和约。帝国在莱茵河上的大要塞菲利普斯堡，一个月就陷落了。\n\n可这以后，几乎没有一件事是照着计划来的。法军被拖在莱茵河上，路易最难缠的对头，奥兰治的威廉，就再也没人拦得住了：1688年11月，他从荷兰渡海到英国，把路易的盟友詹姆斯二世赶下了王位。1689年5月，皇帝和荷兰在维也纳签了同盟条约；英国加入了，不久西班牙和萨伏依也加入了。人们管这叫“大同盟”。\n\n[[b]]路易想要的是一场跟德意志人打的速战，换来的却是跟半个欧洲打的持久战。[[/b]]这一仗，一打就是九年。\n\n普法尔茨既然守不住，法国人就决定，谁也别想用它。陆军大臣卢瓦下令把这片土地变成焦土。1689年冬春之间，法军炸毁了海德堡城堡，也就是1619年腓特烈离开、去布拉格[[link:a-new-king-from-the-rhine-1619]]当国王[[/link]]的那座城堡；他们把曼海姆烧成了平地，接着是施派尔、沃尔姆斯和几百个村子。据说在普法尔茨，一位法军指挥官的名字“梅拉克”，后来很长时间都是人们爱给狗起的名字。\n\n这一切，打的都是莉泽洛特的名义。1689年3月，她写信给姨妈汉诺威的索菲：\n\n[[quote:2]]\n\n莱茵河上的大火，让恐慌传遍了整个帝国。在德意志的报纸上，“法国人”几乎成了“纵火犯”的同义词。传言说，法国奸细扮成乞丐、朝圣者或者退伍的兵，包里揣着引信，到处游荡，见城就烧。到1689年春天，警告提防法国纵火犯的传单，在波希米亚也传开了。\n\n布拉格离莱茵河很远。至少，看上去是这样。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "Those who examine without passion, and with no other interest than the public good, the conduct His Majesty has followed from the beginning of the war in Hungary until now will have just reason to be astonished that, having always been well informed of the design the Emperor has long formed to attack France as soon as he has made peace with the Turks, His Majesty should have put off forestalling him until now.",
+          "cz": "Ti, kdo bez vášně a bez jiného zájmu než obecného dobra posoudí jednání, jakého se Jeho Veličenstvo drželo od počátku uherské války až dodnes, budou mít spravedlivý důvod se divit, že ačkoli bylo vždy dobře zpraveno o záměru, který císař dávno pojal, totiž napadnout Francii, jakmile uzavře mír s Turky, odkládalo Jeho Veličenstvo až do této chvíle, aby ho předešlo.",
+          "zh": "凡是不带偏见、除公益之外别无私心地审视陛下自匈牙利战争开始以来所作所为的人，都有正当的理由感到惊讶：陛下早已清楚，皇帝蓄谋已久，一俟与土耳其人讲和，便要进攻法国；而陛下竟一直拖到此刻，才先发制人。"
+        },
+        "attribution": {
+          "en": "Louis XIV, Memorandum of the reasons that have obliged the King to take up arms again, Versailles, 24 September 1688",
+          "cz": "Ludvík XIV., Memorandum o důvodech, které krále přiměly znovu se chopit zbraní, Versailles, 24. září 1688",
+          "zh": "路易十四，《国王不得不重新拿起武器的理由》，凡尔赛，1688年9月24日"
+        }
+      },
+      {
+        "text": {
+          "en": "This Elector has redoubled his efforts to oblige the court of Vienna to make peace with the Turks and carry the war to the Rhine… to conclude as soon as possible an accommodation with the Enemy of Christendom, in order to attack France.",
+          "cz": "Tento kurfiřt zdvojnásobil úsilí, aby přiměl vídeňský dvůr uzavřít mír s Turky a přenést válku k Rýnu… co nejdříve se dohodnout s nepřítelem křesťanstva, aby mohl napadnout Francii.",
+          "zh": "这位选帝侯加倍卖力，要逼维也纳宫廷同土耳其人讲和，把战火引向莱茵河……尽快同基督教世界的敌人达成和解，以便进攻法国。"
+        },
+        "attribution": {
+          "en": "The same memorandum, on the Elector Palatine",
+          "cz": "Totéž memorandum o falckém kurfiřtovi",
+          "zh": "同一份文件，说的是普法尔茨选帝侯"
+        }
+      },
+      {
+        "text": {
+          "en": "Even if it should cost me my life, I cannot help grieving and weeping that I am, so to speak, my fatherland's ruin… Every night, as soon as I drop off to sleep, I seem to be in Heidelberg or in Mannheim, seeing all the devastation; then I start up in my sleep and cannot fall asleep again for two whole hours.",
+          "cz": "I kdyby mě to mělo stát život, nemohu přestat litovat a plakat, že jsem takříkajíc zkázou své vlasti… Každou noc, jakmile trochu usnu, zdá se mi, že jsem v Heidelbergu nebo v Mannheimu a vidím všechnu tu zkázu; pak se ve spánku vymrštím a celé dvě hodiny nemohu znovu usnout.",
+          "zh": "哪怕要为此搭上性命，我也忍不住要惋惜、要哭：可以说，我就是我故乡的祸根……每天夜里，我刚一合眼，就仿佛到了海德堡或者曼海姆，看见那满目疮痍；然后我在梦里惊醒，整整两个钟头再也睡不着。"
+        },
+        "attribution": {
+          "en": "Liselotte (Elisabeth Charlotte of the Palatinate) to Sophie of Hanover, 20 March 1689",
+          "cz": "Liselotte (Alžběta Šarlota Falcká) Žofii Hannoverské, 20. března 1689",
+          "zh": "莉泽洛特（普法尔茨的伊丽莎白·夏洛特）致汉诺威的索菲，1689年3月20日"
+        }
+      }
+    ],
+    "relatedLandmarks": [],
+    "referenceMaps": {
+      "links": [
+        {
+          "label": "1688",
+          "description": {
+            "en": "Louis XIV's memorandum of 24 September 1688, the original French print, digitised at the Internet Archive",
+            "cz": "Memorandum Ludvíka XIV. z 24. září 1688, původní francouzský tisk, digitalizovaný v Internet Archive",
+            "zh": "路易十四1688年9月24日宣言的法文原版印本，互联网档案馆的数字化版本"
+          },
+          "url": "https://archive.org/details/memoiredesraison00fran"
+        }
+      ]
+    },
+    "images": [
+      "/history/the-sun-king-and-the-grand-alliance-1688.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Prague's Old Town in the hot, dry spring of 1689: townspeople crowd round a news-sheet from the Rhine in front of St James, still Gothic and wrapped in scaffolding. Most look anxious, and the paper conjures up a giant Louis XIV setting the Palatinate alight; a few laugh that the French will never get this far, two only grumble about the heat, and beside a doorway hangs an empty fire bucket.",
+        "cz": "Staré Město pražské na horkém a suchém jaře 1689: před kostelem sv. Jakuba, ještě gotickým a obestavěným lešením, se lidé tlačí kolem novin z Porýní. Většina se tváří ustaraně a noviny jim vykouzlí obřího Ludvíka XIV., jak zapaluje Falc; pár jich se směje, že sem Francouzi nikdy nedojdou, dva si jen stěžují na vedro a u dveří visí prázdné hasičské vědro.",
+        "zh": "1689年那个又热又干的春天，布拉格老城：圣雅各伯教堂还是哥特式的，搭满了脚手架。教堂前，市民们围着一份从莱茵河那边传来的报纸。大多数人一脸慌张，报纸让他们想到巨人一样的路易十四在普法尔茨到处放火；有几个人笑着说法国人绝不会打到这儿来，还有两个只顾着抱怨天热；门边挂着一只空空的救火水桶。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Nine_Years%27_War"
+  },
+  // 2026-10-29. The "French" fire of 21 June 1689, closing voiceless-years.
+  // All quotes from Beckovský, Poselkyně II (Rezek ed., Praha 1880), pp.
+  // 557–563 (librinostri.catholica.cz PDF): his eyewitness account (1–2 pm,
+  // the Black Eagle in Kaprova opposite St Valentine, Petr Doubrava ringing,
+  // the wind, 318 Jewish houses and ten synagogues, the vault of the main
+  // synagogue "by the cemetery" falling on those inside (not named; probably
+  // in the Klausen area, so the card does not name it), St James's scaffolding,
+  // vault, gable, six bells, "much lower now", the New Town streets, New Mills),
+  // his "many ... others would not believe it" passage, and the Písek
+  // examination of Vavřinec Procházka, 15 July 1689 (count had him beaten;
+  // grenade; 150 of them; dogs and straws); old spelling lightly normalised
+  // (au -> ou) in CZ, EN/ZH ours. Plans to wall in / shrink the Jewish Town:
+  // Beckovský p. 563 and Vesmír 2021/7 (Státníková; New Town refused). Deaths
+  // 150–174 Jews, Christians a few dozen, 766 houses incl. 318 Jewish, Durez
+  // executed 29 June, Court of Appeal letter 1 July: cs.wikipedia "Francouzský
+  // požár Prahy". Pažoutová's view (negligence): her author page. St James
+  // rebuilt by Pánek, shell 1702, organ 1705: praha1.cz / prague.eu. Kilián
+  // Ignác Dientzenhofer born 1 Sept 1689 in Prague: en.wikipedia.
+  {
+    "slug": "the-french-fire-1689",
+    "era": "voiceless-years",
+    "startYear": 1689,
+    "tone": "serious",
+    "year": {
+      "en": "1689",
+      "cz": "1689",
+      "zh": "1689年"
+    },
+    "title": {
+      "en": "The “French” Fire",
+      "cz": "„Francouzský“ požár",
+      "zh": "“法国人”放的火"
+    },
+    "hookLine": {
+      "en": "In a single day and night, seven hundred houses burned. Prague said the French had done it. It caught its fire-raisers and burned them. Who really started the fire, no one has proven to this day.",
+      "cz": "Za jediný den a noc shořelo sedm set domů. Praha říkala, že to udělali Francouzi. Chytila své žháře a upálila je. Kdo oheň doopravdy založil, nikdo dodnes neprokázal.",
+      "zh": "一天一夜，七百栋房子烧成了灰。布拉格人说是法国人干的，抓了纵火犯，把他们烧死了。火到底是谁放的，至今也没有人能证明。"
+    },
+    "summary": {
+      "en": "Tuesday, 21 June 1689. The spring had been hot and dry, and that afternoon there was hardly a breath of wind.\n\nBetween one and two o'clock smoke began to pour from the Black Eagle, a corner house with an inn in Kaprova Street in the Old Town, opposite the little parish church of St Valentine and a few steps from the Jewish Town. The church's cantor, sexton and bell-ringer, Petr Doubrava, ran inside and began to ring the great bell. One after another the bells of the neighbouring churches and of the Old Town Hall tower took up the alarm.\n\nAmong those who came running was a young priest of the Knights of the Cross, Jan František Beckovský. Years later he wrote it all down in his chronicle of Bohemia:\n\n[[quote:0]]\n\nAt first it looked as though it might be held. Then the wind got up. It carried the flames across Kaprova Street to a carpenter's house on the opposite corner, and from there into the Jewish Town.\n\nThe Jewish Town was the most crowded corner of Prague: narrow lanes, houses built mostly of wood, wall pressed against wall. It burned in no time. All 318 Jewish houses and ten synagogues went up in flames. Many people fled with their most precious belongings into the largest synagogue, which stood by the cemetery and was built of stone; there, they thought, they would be safe. Beckovský watched it in the night:\n\n[[quote:1]]\n\nBetween 150 and 174 Jews died in the fire, most of them under that vault. The Christian dead were counted in dozens.\n\n[[b]]They had run into the stone building because it was the safest place they knew. It became their grave.[[/b]]\n\nThe wind drove the fire on through the Old Town. The church of the Holy Spirit burned. Most of the convent of the Poor Clares at St Agnes was turned to ash and its bells melted in the tower, so that, as Beckovský put it, the poor nuns were made poorer still. St Castulus was badly damaged, and the meat stalls and the whole of broad Dlouhá Street burned.\n\nWorst of all was St James. The Minorite friars had just set about cleaning and repainting their great Gothic church, the tallest in the Old Town, and it stood wrapped in tall wooden scaffolding, inside and out. The scaffolding caught. The organ, the pulpit, the confessionals, the pews and the choir lofts all burned; the six bells in its two towers melted; then the high vault and the gable came crashing down.\n\n[[quote:2]]\n\nFrom the Old Town the fire crossed into the New Town and burned the streets of the carpenters and the cloth-makers, the fishponds, the New Mills and their waterworks, everything down to the Vltava, the parishes of St Peter and St Clement. Only because the wind blew towards the river was the rest of the New Town spared. Beckovský walked through all of it that night, alone, and again the next morning.\n\nIt burned for a whole day and a night. When it was over, more than seven hundred houses had been lost, 318 of them in the Jewish Town alone, along with six churches and monasteries, ten synagogues and the New Town's mills. Thousands of people were left without a roof over their heads.\n\n[[b]]Streets that had stood for centuries were gone in a single night. Where they had been, blackened walls and chimneys stood in the ash.[[/b]]\n\nWho had done it? Prague had been on edge all year. Ever since the [[link:the-sun-king-and-the-grand-alliance-1688]]fires on the Rhine[[/link]], everyone knew that the French sent out fire-raisers. Even so, Beckovský admits that not everyone believed it at first:\n\n[[quote:3]]\n\nA week after the fire a Frenchman from near Lyon, Benedikt Durez, confessed under torture and was executed on 29 June. On 1 July the Bohemian Court of Appeal wrote to the emperor that Prague had, beyond any doubt, been set alight by the French.\n\nIn July peasants in a village near Protivín, in South Bohemia, stopped a stranger who had come to buy bread. He was a former herdsman of about thirty, Vavřinec Procházka. They took him to the castle, and what happened there he described himself:\n\n[[quote:4]]\n\nAt Písek, before the full town council, he told his tale. He had been a soldier at [[link:the-sun-king-and-the-grand-alliance-1688]]Philippsburg[[/link]] and was taken prisoner when the French captured it. With thirty others he swore to burn Prague, for twenty guilders each. Their captain carried a letter calling on Prague to surrender; when the people of Prague burned it on the Old Town Square, the men threw their grenades onto the roofs:\n\n[[quote:5]]\n\nThere were a hundred and fifty of them in all, he said, dressed as beggars, as women, as priests. One of his comrades could stop the village dogs barking by holding two straws crossed in his hand and muttering a spell. Procházka was sentenced to die by fire: half-strangled first, then burned alive. Other supposed fire-raisers went to the scaffold too.\n\nFor three hundred years Prague told the story of the French fire. But Procházka's tale was full of holes, and he kept changing it. The historian Jana Pažoutová, who has studied the trial, is convinced that the fire began through carelessness, in a hot, dry summer, in a city full of wooden lofts. [[b]]Whether anyone set the fire at all has never been proven.[[/b]]\n\nFor the Jews of Prague the disaster did not end when the flames died down. The Old Town council saw its chance: the Jewish Town should be moved out of the city, or at least walled in and locked every night, and the number of Jews cut down, the rest sent abroad. An imperial commission measured and planned. But the New Town refused to take the Jews in, the treasury did not want to lose their taxes, and in the end, as Beckovský notes with some irritation, nothing came of it. In the end the Jewish Town was rebuilt where it had always stood, along its old lanes.\n\nThe ashes had hardly cooled before the friars at St James were clearing away the rubble, ready to start again.\n\nTen weeks after the fire, on 1 September 1689, the wife of a Prague builder, Christoph Dientzenhofer, gave birth to a son. They named him Kilián Ignác.\n\n[[b]]The old Prague had burned. The man who would build much of the new one had just been born.[[/b]]\n\nOut with the old, in with the new.",
+      "cz": "Úterý 21. června 1689. Jaro bylo horké a suché a to odpoledne skoro nefoukal vítr.\n\nMezi jednou a druhou hodinou se začal valit kouř z domu U Černého orla, nárožního domu s hostincem v Kaprově ulici na Starém Městě, naproti malému farnímu kostelu sv. Valentina a pár kroků od Židovského Města. Kostelní kantor, kostelník a zvoník Petr Doubrava vběhl do kostela a začal zvonit velkým zvonem na poplach. Jeden po druhém se přidávaly zvony okolních kostelů i věž staroměstské radnice.\n\nMezi těmi, kdo přiběhli, byl mladý kněz řádu křižovníků Jan František Beckovský. O léta později to všechno zapsal do své kroniky:\n\n[[quote:0]]\n\nZprvu to vypadalo, že se oheň podaří udržet. Pak se zvedl vítr. Přenesl plameny přes Kaprovu ulici na truhlářův dům na protějším rohu a odtud do Židovského Města.\n\nŽidovské Město bylo nejstísněnějším koutem Prahy: úzké uličky, domy většinou ze dřeva, zeď na zdi. Shořelo v krátkém čase. Lehlo popelem všech 318 židovských domů a deset synagog. Mnoho lidí se se svými nejcennějšími věcmi uchýlilo do největší synagogy, která stála u hřbitova a byla zděná; tam, mysleli si, budou v bezpečí. Beckovský se na to v noci díval:\n\n[[quote:1]]\n\nV ohni zahynulo 150 až 174 Židů, většina z nich pod tou klenbou. Mrtvých křesťanů se počítalo na desítky.\n\n[[b]]Utekli do zděné stavby, protože to bylo nejbezpečnější místo, jaké znali. Stala se jejich hrobem.[[/b]]\n\nVítr hnal oheň dál Starým Městem. Shořel kostel sv. Ducha. Velkou část kláštera klarisek u sv. Anežky obrátil v popel a zvony se ve věži slily, takže, jak píše Beckovský, chudobné panny byly uvedeny do ještě větší chudoby. Velkou škodu utrpěl kostel sv. Haštala a shořely masné krámy i celá široká Dlouhá třída.\n\nNejhůř dopadl sv. Jakub. Minorité se právě pustili do čištění a obílení svého velkého gotického kostela, nejvyššího na Starém Městě, a ten stál obklopený vysokým dřevěným lešením zvenku i zevnitř. Lešení chytlo. Shořely varhany, kazatelna, zpovědnice, lavice i kruchty; šest zvonů ve dvou věžích se slilo; pak se zřítila vysoká klenba i štít.\n\n[[quote:2]]\n\nZe Starého Města přeskočil oheň na Nové Město a spálil Truhlářskou i Soukenickou ulici, rybníky, Nové mlýny i jejich vodárnu, všechno až k Vltavě, farnosti sv. Petra a sv. Klimenta. Jen proto, že vítr foukal k řece, zbytek Nového Města ušetřil. Beckovský to všechno tu noc sám prošel a druhý den ráno znovu.\n\nHořelo celý den a celou noc. Když bylo po všem, bylo pryč přes sedm set domů, z toho 318 jen v Židovském Městě, k tomu šest kostelů a klášterů, deset synagog a novoměstské mlýny. Tisíce lidí zůstaly bez střechy nad hlavou.\n\n[[b]]Ulice, které stály celá staletí, zmizely za jedinou noc. Kde bývaly, trčely z popela začouzené zdi a komíny.[[/b]]\n\nKdo to udělal? Praha byla celý rok jako na trní. Od [[link:the-sun-king-and-the-grand-alliance-1688]]požárů na Rýně[[/link]] všichni věděli, že Francouzi rozesílají žháře. Přesto Beckovský přiznává, že zprvu tomu nevěřil každý:\n\n[[quote:3]]\n\nTýden po požáru se pod mučením přiznal Francouz z okolí Lyonu Benedikt Durez a 29. června byl popraven. Dne 1. července napsal český apelační soud císaři, že Prahu bez jakékoli pochybnosti zapálili Francouzi.\n\nV červenci zastavili sedláci ve vsi u Protivína v jižních Čechách cizince, který si přišel koupit chléb. Byl to bývalý pastýř, asi třicetiletý Vavřinec Procházka. Odvedli ho na zámek, a co se tam dělo, popsal sám:\n\n[[quote:4]]\n\nV Písku před plnou městskou radou vyprávěl svůj příběh. Byl prý vojákem ve [[link:the-sun-king-and-the-grand-alliance-1688]]Philippsburgu[[/link]] a padl do zajetí, když ho Francouzi dobyli. S třiceti dalšími přísahal, že za dvacet zlatých na hlavu vypálí Prahu. Jejich hejtman nesl dopis, který vyzýval Prahu, aby se vzdala; když ho Pražané spálili na Staroměstském náměstí, muži začali házet granáty na střechy:\n\n[[quote:5]]\n\nBylo jich prý dohromady sto padesát, převlečených za žebráky, za ženy, za kněze. Jeden z jeho kamarádů prý uměl zarazit štěkot vesnických psů tím, že držel v ruce dvě stébla slámy do kříže a mumlal nějaká slova. Procházku odsoudili k smrti ohněm: nejdřív ho přiškrtili, pak upálili zaživa. Na popraviště šli i další údajní žháři.\n\nTři sta let si Praha vyprávěla o francouzském požáru. Jenže Procházkův příběh byl plný děr a on ho stále měnil. Historička Jana Pažoutová, která proces zkoumala, je přesvědčena, že požár vznikl z nedbalosti, v horkém a suchém létě, ve městě plném dřevěných krovů. [[b]]Jestli vůbec někdo oheň založil, se nikdy neprokázalo.[[/b]]\n\nPro pražské Židy neštěstí neskončilo, když plameny dohasly. Staroměstská rada v tom uviděla příležitost: Židovské Město se má přestěhovat ven z města, nebo aspoň obehnat zdí a každou noc zamykat, a Židů má ubýt, ostatní ať odejdou do ciziny. Císařská komise měřila a plánovala. Jenže Nové Město Židy přijmout odmítlo, komora nechtěla přijít o jejich daně, a nakonec, jak s jistou nelibostí poznamenává Beckovský, z toho nic nebylo. Židovské Město se nakonec znovu postavilo tam, kde stálo vždycky, podél starých uliček.\n\nPopel ještě ani nevychladl a minorité u sv. Jakuba už odklízeli sutiny, aby mohli začít znovu.\n\nDeset týdnů po požáru, 1. září 1689, porodila manželka pražského stavitele Kryštofa Dientzenhofera syna. Dali mu jméno Kilián Ignác.\n\n[[b]]Stará Praha shořela. Muž, který postaví velkou část té nové, se právě narodil.[[/b]]\n\nStaré musí odejít, aby mohlo přijít nové.",
+      "zh": "1689年6月21日，星期二。这年春天又热又干，那天下午几乎一丝风也没有。\n\n下午一两点钟，老城卡普罗娃街上的“黑鹰”冒起了浓烟。那是一栋开着酒馆的转角房子，对面是圣瓦伦丁小教区教堂，离犹太城只有几步路。教堂的领唱、司事兼敲钟人彼得·多乌布拉瓦冲进教堂，敲起了大钟报警。附近教堂的钟，还有老城市政厅塔楼上的钟，一个接一个响了起来。\n\n跑来救火的人里，有一位十字骑士团的年轻神父，扬·弗朗齐谢克·贝茨科夫斯基。多年以后，他把这一切写进了自己的编年史：\n\n[[quote:0]]\n\n一开始，看上去火还压得住。然后，起风了。风把火苗吹过卡普罗娃街，扑到对面街角一个木匠家里，又从那里烧进了犹太城。\n\n犹太城是布拉格最拥挤的角落：巷子窄，房子大多是木头搭的，一家挨着一家。它没多久就烧光了：犹太人的三百一十八栋房子、十座犹太会堂，全都烧了。许多人带着最值钱的东西，躲进了墓地旁边那座最大的会堂。那是石头砌的，他们以为躲在里面就安全了。贝茨科夫斯基在夜里看着它：\n\n[[quote:1]]\n\n大火中死了一百五十到一百七十四名犹太人，大多死在那片拱顶底下。基督徒的死者，以几十计。\n\n[[b]]他们躲进那座石头房子，因为那是他们知道的最安全的地方。结果，那里成了他们的坟墓。[[/b]]\n\n风推着火，继续往老城里烧。圣灵教堂烧了。圣阿格尼丝的克拉拉修女院大半化成了灰，钟楼里的钟也熔了，照贝茨科夫斯基的说法，本来就清贫的修女们，这下更穷了。圣哈什塔尔教堂损失惨重，肉铺和整条宽阔的长街都烧了。\n\n最惨的是圣雅各伯教堂。方济各住院会的修士们刚刚动手清洗、粉刷他们那座高大的哥特式教堂，它是老城最高的教堂，里里外外都搭满了高高的木头脚手架。脚手架着了。管风琴、讲道台、告解亭、长椅、唱诗楼，全都烧了；两座钟楼里的六口钟熔成了一团；接着，高高的拱顶和山墙轰然塌了下来。\n\n[[quote:2]]\n\n火从老城烧进了新城，烧掉了木匠街和织布匠街、鱼塘、新磨坊和磨坊旁的水站，一直烧到伏尔塔瓦河边，烧掉了圣彼得和圣克莱门特两个教区。只因为风是朝河那边吹的，新城其余的地方才逃过一劫。那天夜里，贝茨科夫斯基一个人把这些地方走了个遍，第二天早上又走了一遍。\n\n大火烧了整整一天一夜。等它烧完，七百多栋房子没了，光犹太城就有三百一十八栋；还有六座教堂和修道院、十座犹太会堂、新城的磨坊。几千人没了栖身之所。\n\n[[b]]立了几百年的街道，一夜之间就没了。原先是街的地方，只剩下熏黑的断墙和烟囱，立在灰烬里。[[/b]]\n\n是谁干的？这一年，布拉格本来就提心吊胆。自从[[link:the-sun-king-and-the-grand-alliance-1688]]莱茵河上的大火[[/link]]之后，人人都知道法国人在到处派纵火犯。即便这样，贝茨科夫斯基也承认，起先并不是人人都信：\n\n[[quote:3]]\n\n大火过后一个星期，一个来自里昂附近的法国人本笃·杜雷斯在严刑之下招了供，6月29日被处死。7月1日，波希米亚上诉法院写信给皇帝说：布拉格的火，毫无疑问是法国人放的。\n\n7月，南波希米亚普罗季温附近的一个村子里，农民拦下了一个来买面包的陌生人。他叫瓦夫日内茨·普罗哈兹卡，三十岁上下，以前是个放牲口的。农民把他押进了城堡，在那里发生了什么，他自己是这样说的：\n\n[[quote:4]]\n\n在皮塞克，当着全体市议员的面，他讲了一个故事：他原本是[[link:the-sun-king-and-the-grand-alliance-1688]]菲利普斯堡[[/link]]的兵，法国人攻下要塞时被俘了；他和另外三十个人发了誓，每人拿二十个金币，去烧布拉格。他们的队长带着一封信，要布拉格投降；布拉格人在老城广场上把信烧了，他们就往房顶上扔手榴弹：\n\n[[quote:5]]\n\n他说，他们一共有一百五十个人，有的扮成乞丐，有的扮成女人，有的扮成神父。他有个同伴，手里拿两根稻草摆成十字，嘴里念几句咒，村里的狗就不叫了。普罗哈兹卡被判了火刑：先勒个半死，再活活烧死。别的所谓纵火犯，也上了刑场。\n\n“法国人放的火”这个说法，布拉格人讲了三百年。可是普罗哈兹卡的故事漏洞百出，他自己的说法也一改再改。研究过这桩案子的历史学家帕若乌托娃认为，这场火是一时疏忽引起的：在一个又热又干的夏天，在一座满是木头阁楼的城市里。[[b]]到底有没有人放火，至今也没有人能证明。[[/b]]\n\n对布拉格的犹太人来说，火灭了，灾难却还没有完。老城议会觉得机会来了：要把犹太城迁出城外，至少也要用墙围起来，每天夜里上锁；还要减少犹太人的人数，剩下的赶到国外去。皇帝派来的委员会量了地，画了图。可是新城不肯接收犹太人，宫廷财政署也舍不得他们交的税，结果，照贝茨科夫斯基有点不满的说法，什么都没办成。犹太城最后还是在原地，沿着原来的巷子重建了起来。\n\n灰烬还没凉透，圣雅各伯教堂的修士们就已经在清理瓦砾，准备从头再来了。\n\n大火过后十个星期，1689年9月1日，布拉格建筑师克里斯托夫·丁岑霍费尔的妻子生下了一个儿子，取名基利安·伊格纳茨。\n\n[[b]]旧的布拉格烧掉了。将来盖起新布拉格一大半的人，刚刚出生。[[/b]]\n\n旧的不去，新的不来。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "I too ran with the others to that grievous spectacle, hurried up under the roof of St Valentine's church and called for water, which was indeed brought up in plenty, to protect the roof.",
+          "cz": "Přiběhl jsem s jinými také i já k tomu žalostnému divadlu a pod krov neb pod střechu svato-Valentinského kostela pospíšil jsem a vodu žádal, která také dostatečně nahoru přinesena byla k hájení té střechy.",
+          "zh": "我也跟着别人跑到了那悲惨的场面跟前，赶紧爬到圣瓦伦丁教堂的屋顶底下，喊人送水来；水也确实送上来了不少，好护住那片屋顶。"
+        },
+        "attribution": {
+          "en": "Jan František Beckovský, Poselkyně starých příběhův českých (eyewitness)",
+          "cz": "Jan František Beckovský, Poselkyně starých příběhův českých (očitý svědek)",
+          "zh": "贝茨科夫斯基，《波希米亚旧事信使》（亲历者）"
+        }
+      },
+      {
+        "text": {
+          "en": "When I looked at it in the night, I suddenly saw a great light inside it and heard a great cry; at that the whole vault of the synagogue fell in, buried all the Jewish people and killed them.",
+          "cz": "Na kterou když jsem se času nočního díval, velké v ní světlo nenadále jsem spatřil, také veliký křik uslyšel, na to celé té školy klenutí spadlo a všechen lid židovský zasulo a zabilo.",
+          "zh": "夜里我望着它，忽然看见里面一片大亮，又听见一阵大哭大喊；接着，会堂的整个拱顶塌了下来，把里面的犹太人全都埋住、砸死了。"
+        },
+        "attribution": {
+          "en": "Jan František Beckovský, Poselkyně starých příběhův českých (eyewitness)",
+          "cz": "Jan František Beckovský, Poselkyně starých příběhův českých (očitý svědek)",
+          "zh": "贝茨科夫斯基，《波希米亚旧事信使》（亲历者）"
+        }
+      },
+      {
+        "text": {
+          "en": "The church is much lower now than it used to be.",
+          "cz": "Nynější toho kostela vysokost mnohem nižší jest, nežli bývala předešlá.",
+          "zh": "这座教堂如今的高度，比从前矮多了。"
+        },
+        "attribution": {
+          "en": "Beckovský, on St James",
+          "cz": "Beckovský o kostele sv. Jakuba",
+          "zh": "贝茨科夫斯基谈圣雅各伯教堂"
+        }
+      },
+      {
+        "text": {
+          "en": "Many put its beginning down to fire-raisers sent by the French; but others would not believe it, until some fire-raisers were caught and confessed the truth, that they had been sent by the French to burn.",
+          "cz": "Mnozí počátek jeho paličům od Francouzů vyslaným přičítali; jiní ale tomu svou víru dáti nechtěli, dokud někteří žhářové chyceni nebyli a že oni od Francouze, aby pálili, vysláni jsou, pravdu vyznali.",
+          "zh": "许多人把起火归咎于法国人派来的纵火犯；也有人不肯相信，直到抓住了几个纵火犯，他们招认了“实情”：他们是法国人派来放火的。"
+        },
+        "attribution": {
+          "en": "Jan František Beckovský, Poselkyně starých příběhův českých (eyewitness)",
+          "cz": "Jan František Beckovský, Poselkyně starých příběhův českých (očitý svědek)",
+          "zh": "贝茨科夫斯基，《波希米亚旧事信使》（亲历者）"
+        }
+      },
+      {
+        "text": {
+          "en": "There the count had me beaten, and I had to confess a great deal.",
+          "cz": "Tu pan hrabě dal mne bíti a já jsem se musel mnoho přiznati.",
+          "zh": "伯爵老爷在那里叫人打我，我只好招了一大堆。"
+        },
+        "attribution": {
+          "en": "Vavřinec Procházka's statement, Písek, 15 July 1689",
+          "cz": "Výpověď Vavřince Procházky, Písek, 15. července 1689",
+          "zh": "普罗哈兹卡的供词，皮塞克，1689年7月15日"
+        }
+      },
+      {
+        "text": {
+          "en": "I threw my one grenade, I had no more, into the house next to the one called Death, on the way from the square to Dlouhá Street, and it caught fire at once; my comrades ran here and there about Prague, throwing grenades and burning Prague.",
+          "cz": "Já jsem hodil můj jeden granát, více jsem jich neměl, do toho domu vedle Smrti, jdouc z rynku do Dlouhé třídy, a tu se hned zapálilo; moji kamarádi sem i tam běhali po Praze, granáty házeli a Prahu pálili.",
+          "zh": "我把我那一颗手榴弹扔了出去，我就只有这一颗，扔进了从广场去长街路上、“死神”那栋房子旁边的一栋房子里，房子马上就着了；我的同伴们在布拉格到处跑，扔手榴弹，烧布拉格。"
+        },
+        "attribution": {
+          "en": "The same statement",
+          "cz": "Táž výpověď",
+          "zh": "同一份供词"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "kostel-sv-jakuba-stare-mesto",
+        "relation": {
+          "en": "Its scaffolding caught fire in 1689 and the Gothic vault collapsed; it was rebuilt as a lower Baroque church, finished in 1702",
+          "cz": "Roku 1689 chytlo jeho lešení a gotická klenba se zřítila; znovu postaven jako nižší barokní kostel, dokončený roku 1702",
+          "zh": "1689年脚手架起火，哥特式拱顶塌落；重建为一座更矮的巴洛克教堂，1702年完工"
+        }
+      },
+      {
+        "slug": "klausova-synagoga",
+        "relation": {
+          "en": "The Klausen buildings by the old cemetery burned in 1689; the present synagogue was built in 1694",
+          "cz": "Klausy u starého hřbitova roku 1689 shořely; dnešní synagoga byla postavena roku 1694",
+          "zh": "老墓地旁的克劳斯建筑群在1689年烧毁，现在的会堂建于1694年"
+        }
+      },
+      {
+        "slug": "old-jewish-cemetery",
+        "relation": {
+          "en": "The great synagogue whose vault fell on those sheltering inside stood by this cemetery",
+          "cz": "U tohoto hřbitova stála velká synagoga, jejíž klenba se zřítila na ty, kdo se v ní ukryli",
+          "zh": "那座拱顶塌下来、砸死了躲在里面的人的大会堂，就在这片墓地旁边"
+        }
+      },
+      {
+        "slug": "kostel-sv-ducha",
+        "relation": {
+          "en": "Burned in the fire of 1689",
+          "cz": "Shořel při požáru roku 1689",
+          "zh": "在1689年的大火中被烧毁"
+        }
+      },
+      {
+        "slug": "klaster-sv-anezky-ceske",
+        "relation": {
+          "en": "Most of the Poor Clares' convent burned in 1689 and its bells melted",
+          "cz": "Většina kláštera klarisek roku 1689 shořela a zvony se slily",
+          "zh": "克拉拉修女院在1689年大半被烧毁，钟也熔了"
+        }
+      },
+      {
+        "slug": "kostel-sv-hastala",
+        "relation": {
+          "en": "Badly damaged in 1689, its bells ruined",
+          "cz": "Roku 1689 těžce poškozen, zvony zničeny",
+          "zh": "1689年损失惨重，钟也毁了"
+        }
+      },
+      {
+        "slug": "novomlysnska-water-tower",
+        "relation": {
+          "en": "The New Mills and their waterworks burned in 1689",
+          "cz": "Nové mlýny i jejich vodárna roku 1689 shořely",
+          "zh": "新磨坊和磨坊旁的水站在1689年被烧毁"
+        }
+      }
+    ],
+    "referenceMaps": {
+      "links": [
+        {
+          "label": "1700",
+          "description": {
+            "en": "Beckovský's Poselkyně, part II (Rezek's 1880 edition), with his eyewitness account of the fire and Procházka's statement, chapter XXI",
+            "cz": "Beckovského Poselkyně, díl II. (Rezkovo vydání 1880), s jeho svědectvím o požáru a výpovědí Vavřince Procházky, kapitola XXI",
+            "zh": "贝茨科夫斯基《波希米亚旧事信使》第二部（雷泽克1880年版），第二十一章有他亲历大火的记述和普罗哈兹卡的供词"
+          },
+          "url": "https://librinostri.catholica.cz/download/BeckPoselkStPrC3-r0.pdf"
+        }
+      ]
+    },
+    "images": [
+      "/history/the-french-fire-1689.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "The night of 21 June 1689: the wind drives the fire through the wooden houses of the Jewish Town; at the centre, beside the old cemetery, the roof and vault of the great stone synagogue cave in on the people sheltering inside, and in the background the scaffolding round St James burns like a torch. Families flee through the lanes with whatever they can carry, and from the roof of St Valentine's the young priest Beckovský looks on.",
+        "cz": "Noc 21. června 1689: vítr žene oheň dřevěnými domy Židovského Města; uprostřed, u starého hřbitova, se propadá střecha a klenba velké zděné synagogy na ty, kdo se v ní ukryli, a v pozadí hoří jako pochodeň lešení kolem sv. Jakuba. Rodiny prchají uličkami s tím, co unesou, a ze střechy kostela sv. Valentina se dívá mladý kněz Beckovský.",
+        "zh": "1689年6月21日夜里：风推着大火，烧过犹太城的木头房子；画面中央，老墓地旁边，那座石砌大会堂的屋顶和拱顶塌了下来，压在躲在里面的人身上；远处，圣雅各伯教堂的脚手架烧得像一支火炬。一家家人带着能拿得动的东西，从巷子里逃命；圣瓦伦丁教堂的屋顶上，年轻的神父贝茨科夫斯基呆呆地望着。"
+      }
+    ],
+    "wikipediaUrl": "https://cs.wikipedia.org/wiki/Francouzsk%C3%BD_po%C5%BE%C3%A1r_Prahy"
+  },
 ];
 
 // Era-overview cards live in their own file (see historyOverviews.js).
