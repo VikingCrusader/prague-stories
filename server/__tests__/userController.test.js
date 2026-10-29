@@ -308,54 +308,42 @@ describe('treasure hunt', () => {
     expect((await status(token, north(600))).body.hunt.trend).toBe('closer');
   });
 
-  test('walking in reveals the first clue within 3 km, the area within 1 km, the other of rarity and label within 300 m, and keeps them', async () => {
+  test('walking in reveals a label within 3 km, the area within 1 km, the rarity within 300 m, and keeps them', async () => {
     await seedTarget();
     await seedNeighbours(5);
     const { token, user } = await createAuthedUser();
     await startOnTarget(token, user);
 
     let h = (await status(token, north(3500))).body.hunt;
-    expect(h).toMatchObject({ firstRevealed: false, labels: [], rarity: null });
-    expect(h.nextFree.at).toBe(3000);
+    expect(h).toMatchObject({ firstRevealed: false, labels: [], rarity: null, nextFree: { at: 3000, what: 'label' } });
     h = (await status(token, north(2500))).body.hunt;
-    expect(h.firstRevealed).toBe(true);
-    // The rarity or one of its labels, never both; the other can be bought.
-    if (h.rarity) {
-      expect(h).toMatchObject({ rarity: 'rare', xpReward: 20, labels: [], availableClues: ['label', 'area', 'direction'] });
-    } else {
-      expect(h.labels).toHaveLength(1);
-      expect(['church', 'gothic']).toContain(h.labels[0]);
-      expect(h.availableClues).toEqual(['rarity', 'area', 'direction']);
-    }
-    expect(h).toMatchObject({ areaRevealed: false, district: null, quarter: null });
+    // A label, never the rarity this far out.
+    expect(h).toMatchObject({ firstRevealed: true, rarity: null, xpReward: null, availableClues: ['rarity', 'area', 'direction'] });
+    expect(h.labels).toHaveLength(1);
+    expect(['church', 'gothic']).toContain(h.labels[0]);
+    expect(h).toMatchObject({ areaRevealed: false, district: null, quarter: null, nextFree: { at: 1000, what: 'area' } });
 
     h = (await status(token, north(800))).body.hunt;
-    expect(h).toMatchObject({ areaRevealed: true, district: 'Praha 1', quarter: 'Staré Město' });
-    expect(h.availableClues).not.toContain('area');
+    expect(h).toMatchObject({ areaRevealed: true, district: 'Praha 1', quarter: 'Staré Město', rarity: null, nextFree: { at: 300, what: 'rarity' } });
     // Free: the multiplier hasn't moved.
     expect(h.multiplier).toBe(10);
-    const second = h.rarity ? 'label' : 'rarity';
-    expect(h.nextFree).toEqual({ at: 300, what: second });
 
-    // Within 300 m, the other of rarity and label.
     h = (await status(token, north(250))).body.hunt;
-    expect(h.rarity).toBe('rare');
-    expect(h.labels).toHaveLength(1);
-    expect(h.nextFree).toBeNull();
-    expect(h.availableClues).toEqual(['direction']);
+    expect(h).toMatchObject({ rarity: 'rare', xpReward: 20, nextFree: null, availableClues: ['direction'] });
     h = (await status(token, north(8000))).body.hunt;
-    expect(h).toMatchObject({ firstRevealed: true, areaRevealed: true, quarter: 'Staré Město' });
+    expect(h).toMatchObject({ firstRevealed: true, areaRevealed: true, quarter: 'Staré Město', rarity: 'rare' });
   });
 
-  test('a first clue that fits too few nearby cards is swapped for one that fits more', async () => {
+  test('a label that fits too few nearby cards is swapped for one that fits more', async () => {
     await seedTarget({ labels: ['church', 'jewish'] });
-    // Six other churches nearby, but only rare cards of another kind and
-    // no other jewish card: only the church label passes the check.
+    // Six other churches nearby and no other jewish card: only the church
+    // label passes the check.
     await seedNeighbours(6, { rarity: 'common', xpReward: 10, labels: ['church'] });
     const { token, user } = await createAuthedUser();
     await startOnTarget(token, user);
     const { firstClue } = (await User.findById(user._id).lean()).randomDraw;
     expect(firstClue).toEqual({ kind: 'label', value: 'church' });
+    expect((await User.findById(user._id).lean()).randomDraw.clueLabel).toBe('church');
   });
 
   test('cards across the river or more than 3 km away do not count for the check', async () => {
@@ -366,13 +354,24 @@ describe('treasure hunt', () => {
     }
     const { token, user } = await createAuthedUser();
     await startOnTarget(token, user);
-    // Nothing passes; it falls back to the option that fits the most cards
-    // (a tie here, both fit only the target).
-    const { firstClue } = (await User.findById(user._id).lean()).randomDraw;
-    expect(['rarity', 'label']).toContain(firstClue.kind);
+    // Nothing passes; it falls back to the label that fits the most cards
+    // (here the only one).
+    const { clueLabel } = (await User.findById(user._id).lean()).randomDraw;
+    expect(clueLabel).toBe('church');
   });
 
-  test('the quarter is left out when too few cards in it fit the first clue', async () => {
+  test('a card with no usable label gets no label clue; the hint skips to the area', async () => {
+    await seedTarget({ labels: ['hidden-gem'] });
+    const { token } = await createAuthedUser();
+    await startHunt(token);
+    let h = (await status(token, north(5000))).body.hunt;
+    expect(h).toMatchObject({ nextFree: { at: 1000, what: 'area' }, availableClues: ['rarity', 'area', 'direction'] });
+    h = (await status(token, north(2000))).body.hunt;
+    expect(h.labels).toEqual([]);
+    expect((await takeClue(token, 'label')).status).toBe(409);
+  });
+
+  test('the quarter is left out when too few cards in it carry the label', async () => {
     await seedTarget();
     // Plenty of matches nearby, but in the next quarter over.
     await seedNeighbours(6, { quarter: 'Josefov' });

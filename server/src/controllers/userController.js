@@ -102,63 +102,52 @@ async function huntPool(user) {
   return Location.find(await huntPoolMatch(user)).select('slug labels rarity quarter coordinates').lean();
 }
 
-// Plans a new treasure's two free clues, checked against the cards a player
+// Plans a new treasure's free clues, checked against the cards a player
 // would have to tell apart (`pool`: uncollected city cards, with quarter and
 // coordinates):
-//   - the first clue, the rarity or one label: among the options that fit
-//     at least HUNT_MIN_FIRST_CANDIDATES cards on the same bank within
+//   - the label revealed within 3 km: among the card's labels that fit at
+//     least HUNT_MIN_FIRST_CANDIDATES cards on the same bank within
 //     HUNT_REVEAL_M.first of the treasure, one at random; if none does, the
 //     one that fits the most (the least telling). Vague labels are never a
-//     clue.
-//   - the label the label clue shows: the first clue's, or else the label
-//     that fits the most of those nearby cards (the least telling);
+//     clue; a card with no other label gets none. The rarity is not a
+//     candidate: it only comes at 300 m (user's call: a "common" shown at
+//     3 km made the walk feel not worth it);
 //   - the quarter, given with the district only if at least
-//     HUNT_MIN_QUARTER_CANDIDATES cards in it also fit the first clue.
+//     HUNT_MIN_QUARTER_CANDIDATES cards in it also carry that label.
+// `firstClue` marks a planned hunt (and keeps the label it opens with).
 function planHuntClues(picked, pool) {
   const side = riverSideOf(picked.quarter);
   const others = pool.filter(c => c.slug !== picked.slug);
   const near = others.filter(c => c.coordinates && riverSideOf(c.quarter) === side
     && haversineDistance(c.coordinates.lat, c.coordinates.lng, picked.coordinates.lat, picked.coordinates.lng) <= HUNT_REVEAL_M.first);
-  const fits = (c, o) => (o.kind === 'rarity' ? c.rarity === o.value : (c.labels || []).includes(o.value));
-  const options = [
-    { kind: 'rarity', value: picked.rarity },
-    ...(picked.labels || []).filter(l => l !== 'outside' && !HIDDEN_DRAW_VAGUE_LABELS.includes(l)).map(value => ({ kind: 'label', value })),
-  ].map(o => ({ ...o, count: 1 + near.filter(c => fits(c, o)).length }));
+  const has = (c, lb) => !lb || (c.labels || []).includes(lb);
+  const options = (picked.labels || [])
+    .filter(l => l !== 'outside' && !HIDDEN_DRAW_VAGUE_LABELS.includes(l))
+    .map(value => ({ value, count: 1 + near.filter(c => has(c, value)).length }));
   const passing = options.filter(o => o.count >= HUNT_MIN_FIRST_CANDIDATES);
-  const { kind, value } = passing.length
-    ? passing[Math.floor(Math.random() * passing.length)]
-    : options.reduce((a, b) => (b.count > a.count ? b : a));
-  const labels = options.filter(o => o.kind === 'label');
-  const clueLabel = kind === 'label' ? value
-    : labels.length ? labels.reduce((a, b) => (b.count > a.count ? b : a)).value : null;
-  const inQuarter = 1 + others.filter(c => c.quarter === picked.quarter && fits(c, { kind, value })).length;
-  return { firstClue: { kind, value }, clueLabel, showQuarter: inQuarter >= HUNT_MIN_QUARTER_CANDIDATES };
+  const clueLabel = passing.length
+    ? passing[Math.floor(Math.random() * passing.length)].value
+    : options.length ? options.reduce((a, b) => (b.count > a.count ? b : a)).value : null;
+  const inQuarter = 1 + others.filter(c => c.quarter === picked.quarter && has(c, clueLabel)).length;
+  return { firstClue: { kind: 'label', value: clueLabel }, clueLabel, showQuarter: inQuarter >= HUNT_MIN_QUARTER_CANDIDATES };
 }
 
-// The first clue of a hunt; one dealt before firstClue existed opens with
-// its first label.
-function firstClueOf(draw, location) {
-  if (draw.firstClue?.kind) return draw.firstClue;
-  return { kind: 'label', value: (draw.labelOrder?.length ? draw.labelOrder : location.labels || [])[0] };
-}
-
-// The label the label clue shows (none if the card has no usable label).
+// The label a hunt's label clue shows (null if the card has none to show).
+// A hunt dealt before planHuntClues existed opens with its first label.
 function clueLabelOf(draw, location) {
   if (draw.firstClue?.kind) return draw.clueLabel ?? null;
-  return firstClueOf(draw, location).value ?? null;
+  return (draw.labelOrder?.length ? draw.labelOrder : location.labels || [])[0] ?? null;
 }
 
 // Which clues a hunt shows, from what walking revealed and what was taken.
-// Walking reveals the first clue (rarity or label) within 3 km, the area
-// within 1 km and the other of rarity/label within 300 m.
+// Walking reveals a label within 3 km, the area within 1 km and the rarity
+// within 300 m.
 function shownClues(draw, location, revealed) {
   const taken = new Set((draw.clues || []).map(c => c.key));
-  const first = firstClueOf(draw, location);
-  const free = kind => (revealed >= 1 && first.kind === kind) || (revealed >= 3 && first.kind !== kind);
   return {
-    rarity: taken.has('rarity') || free('rarity'),
-    label: (taken.has('label') || free('label')) && !!clueLabelOf(draw, location),
+    label: (taken.has('label') || revealed >= 1) && !!clueLabelOf(draw, location),
     area: taken.has('area') || revealed >= 2,
+    rarity: taken.has('rarity') || revealed >= 3,
     direction: taken.has('direction'),
   };
 }
@@ -167,11 +156,9 @@ function shownClues(draw, location, revealed) {
 // and what, or null when nothing more comes free.
 function nextFreeClue(draw, location, revealed) {
   const shown = shownClues(draw, location, revealed);
-  const first = firstClueOf(draw, location);
-  const second = first.kind === 'rarity' ? 'label' : 'rarity';
-  if (!shown[first.kind]) return { at: HUNT_REVEAL_M.first, what: first.kind };
+  if (!shown.label && revealed < 1 && clueLabelOf(draw, location)) return { at: HUNT_REVEAL_M.first, what: 'label' };
   if (!shown.area) return { at: HUNT_REVEAL_M.area, what: 'area' };
-  if (!shown[second] && (second === 'rarity' || clueLabelOf(draw, location))) return { at: HUNT_REVEAL_M.second, what: second };
+  if (!shown.rarity) return { at: HUNT_REVEAL_M.second, what: 'rarity' };
   return null;
 }
 
@@ -189,8 +176,8 @@ function availableClues(draw, location, revealed = draw.revealed || 0) {
 //     / 100 m);
 //   - hot and cold, all the way: every HUNT_TREND_STEP_M walked, whether the
 //     player got closer or farther;
-//   - within 3 km: the rarity or one label (planHuntClues), within 300 m
-//     the other; either can also be taken as a clue;
+//   - within 3 km one label (planHuntClues), within 300 m the rarity;
+//     either can also be taken as a clue;
 //   - within 1 km (or taken as a clue): the district, and the quarter if it
 //     passed the check (planHuntClues);
 //   - taken as a clue: the direction, as it was then;
@@ -230,7 +217,6 @@ async function buildHuntClues(user, draw, location, pos) {
   }
 
   const shown = shownClues(draw, location, revealed);
-  const first = firstClueOf(draw, location);
   const rarity = shown.rarity ? location.rarity : null;
   const step = huntStepOf(draw);
   const last = HUNT_MULTIPLIERS.length - 1;
@@ -247,7 +233,7 @@ async function buildHuntClues(user, draw, location, pos) {
     riverSide: riverSideOf(location.quarter),
     // Whether walking's free clues have come (or were taken anyway), and
     // the next one walking will bring.
-    firstRevealed: shown[first.kind],
+    firstRevealed: shown.label,
     areaRevealed: shown.area,
     nextFree: nextFreeClue(draw, location, revealed),
     rarity,

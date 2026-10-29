@@ -31,9 +31,9 @@ function formatCountdown(ms) {
 const HUNT_CLUES = [
   { key: 'side', free: 'draw.huntTable.always', take: false },
   { key: 'reading', free: 'draw.huntTable.always', take: false },
-  { key: 'rarity', free: 'draw.huntTable.oneOf', take: true },
-  { key: 'label', free: 'draw.huntTable.oneOf', take: true },
+  { key: 'label', free: '3 km', take: true },
   { key: 'area', free: '1 km', take: true },
+  { key: 'rarity', free: '300 m', take: true },
   { key: 'direction', free: '—', take: true },
 ];
 

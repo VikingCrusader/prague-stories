@@ -27,9 +27,11 @@ const userSchema = new mongoose.Schema({
     // The card's labels in the order orderHuntLabels gives (kept for hunts
     // dealt before firstClue existed, whose first clue is labelOrder[0]).
     labelOrder: { type: [String], default: undefined },
-    // The clues planned when the hunt is dealt (planHuntClues): the first
-    // clue (the rarity or one label, revealed within 3 km), the label the
-    // label clue shows, and whether the area clue includes the quarter.
+    // The clues planned when the hunt is dealt (planHuntClues): the label
+    // revealed within 3 km (clueLabel; firstClue marks a planned hunt), and
+    // whether the area clue includes the quarter. Hunts dealt on 2026-10-29
+    // may have a 'rarity' firstClue; that is ignored, the rarity comes at
+    // 300 m like any other.
     firstClue: { kind: { type: String, enum: ['rarity', 'label'] }, value: String },
     clueLabel: { type: String, default: null },
     showQuarter: { type: Boolean, default: true },
@@ -53,9 +55,9 @@ const userSchema = new mongoose.Schema({
       type: [{ key: String, direction: String, at: { type: Date, default: Date.now }, _id: false }],
       default: undefined,
     },
-    // How close the player has been: 0, 1 (within 3 km: the first clue), 2
-    // (within 1 km: the area too) or 3 (within 300 m: the other of rarity
-    // and label). Only ever goes up.
+    // How close the player has been: 0, 1 (within 3 km: the label), 2
+    // (within 1 km: the area too) or 3 (within 300 m: the rarity). Only ever
+    // goes up.
     revealed: { type: Number, default: 0 },
     // Hot-and-cold hint: where the last reading was taken, and
     // whether the one after it was 'closer', 'farther' or 'same'. The only

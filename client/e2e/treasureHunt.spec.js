@@ -91,7 +91,7 @@ test.describe('Treasure hunt', () => {
     await expect(panel.getByText('The treasure is on the right bank of the Vltava (the Old Town side).')).toBeVisible();
     // No labels at the start.
     await expect(panel.locator('.hunt-panel__clues .detail-label-pill')).toHaveCount(0);
-    await expect(panel.getByText('Within 3 km: the rarity or one label, free.')).toBeVisible();
+    await expect(panel.getByText('Within 3 km: one label, free.')).toBeVisible();
 
     // The button works from anywhere, after a confirm that quotes the cost.
     await panel.getByRole('button', { name: "It's here!" }).click();

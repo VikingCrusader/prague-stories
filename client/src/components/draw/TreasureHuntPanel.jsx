@@ -18,9 +18,8 @@ function readingText(r, t) {
 // comes from the server's `hunt` clue object (the location itself is never
 // sent until it is found; see buildHuntClues on the server): which side of
 // the Vltava it is on, a rough distance and the hot-and-cold trend; within
-// 3 km the rarity or one label, within 300 m the other (each can also be
-// taken as a clue); within 1 km (or taken) the district and usually the
-// quarter; the direction
+// 3 km one label, within 1 km the district and usually the quarter, within
+// 300 m the rarity (each can also be taken as a clue); the direction
 // snapshot taken as a clue; and each miss's direction. The button works
 // anywhere: a miss costs a full step of multiplier, a clue half a step.
 export default function TreasureHuntPanel({ hunt, onGuess, onClue, busy, flash }) {
@@ -78,12 +77,9 @@ export default function TreasureHuntPanel({ hunt, onGuess, onClue, busy, flash }
       )}
       {hunt.district && <DistrictLine loc={{ quarter: hunt.quarter, district: hunt.district }} />}
       {/* The next clue walking brings for free (nextFreeClue on the server):
-          the first clue within 3 km, the area within 1 km, the other of
-          rarity and label within 300 m. */}
+          a label within 3 km, the area within 1 km, the rarity within 300 m. */}
       {hunt.nextFree && (
-        <div className="hunt-panel__hint">
-          {t(hunt.nextFree.at === 3000 ? 'draw.huntNextFree1' : hunt.nextFree.at === 1000 ? 'draw.huntNextFree2' : `draw.huntNextFree3.${hunt.nextFree.what}`)}
-        </div>
+        <div className="hunt-panel__hint">{t(`draw.huntNextFree.${hunt.nextFree.what}`)}</div>
       )}
 
       {(hunt.snapshots.length > 0 || hunt.misses.length > 0) && (
