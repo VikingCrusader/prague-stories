@@ -32107,6 +32107,344 @@ export const historyEvents = [
     ],
     "wikipediaUrl": "https://cs.wikipedia.org/wiki/Francouzsk%C3%BD_po%C5%BE%C3%A1r_Prahy"
   },
+  // old-bones-new-clothes-1690: first card of baroque-and-darkness, the
+  // rebuilding after the 1689 fire. Owners rebuilt their own plots (general
+  // practice, ptejteseknihovny.cz). U Božího oka (Malá Štupartská 634): destroyed
+  // 21 June 1689, five vaulted 13th/14th-c. cellar rooms, early Baroque rebuild
+  // ~5 years later, Gothic portal fragment on the facade: cs.wikipedia. Ungelt
+  // largely burned, Baroque facades, Modrý dům = three houses merged:
+  // cs.wikipedia "Ungelt". Holy Spirit repaired by 1691, builder Petr Ehrhard,
+  // architect unknown: cs.wikipedia. St Haštal Baroque repair 1689–1695 by
+  // P. I. Bayer: prague.eu. St Agnes kept decaying, abolished 1782:
+  // cs.wikipedia. Salvator crucifix with surviving feet in a new chapel:
+  // Beckovský, Poselkyně II (Rezek 1880 ed.), p. 558, au->ou normalised in CZ.
+  // St James: rebuild began end of 1690 under Pánek, shell 1702 (12 years),
+  // vault ~5 m lower, choir shortened to correct its skew, Mosto stucco
+  // 1695–1701, Voget frescoes 1736, Reiner high altar 1738–39: cs.wikipedia +
+  // prague.eu; organ 1705 Starck, 8,277 pipes, late Gothic Pietà c. 1500 saved
+  // in the fire, thief's-hand legend tied to it: praha1.cz.
+  {
+    "slug": "old-bones-new-clothes-1690",
+    "era": "baroque-and-darkness",
+    "startYear": 1690,
+    "tone": "humorous",
+    "year": {
+      "en": "1689–1702",
+      "cz": "1689–1702",
+      "zh": "1689年－1702年"
+    },
+    "title": {
+      "en": "Dressed in Baroque",
+      "cz": "V barokním šatu",
+      "zh": "巴洛克新衣"
+    },
+    "hookLine": {
+      "en": "After the fire, Prague did not build a new city. It kept the old walls and cellars and gave them Baroque faces, and St James came back five metres lower.",
+      "cz": "Po požáru Praha nepostavila nové město. Nechala si staré zdi a sklepy a dala jim barokní tváře. Kostel sv. Jakuba se vrátil o pět metrů nižší.",
+      "zh": "大火之后，布拉格没有盖一座新城。旧墙和地窖都留着，只换上巴洛克的门面；圣雅各伯教堂重新立起来的时候，矮了五米。"
+    },
+    "summary": {
+      "en": "When the fire was out, more than seven hundred houses in the Old and New Towns stood roofless and black, and several thousand people had nowhere to live. Nobody arrived with a plan for a new city. A burnt house was its owner's problem: whoever held the plot cleared the rubble and built again as soon as they could afford it, in whatever style the builder of the day suggested.\n\nAnd the builder of the day suggested Baroque.\n\nA fire takes roofs, floors, stairs and everything else made of wood. Thick stone walls and vaulted cellars usually come through it. So nobody started from nothing. On Malá Štupartská, right behind St James, the house At the Eye of God was destroyed on 21 June 1689. Its cellars, five vaulted rooms from the 13th and 14th centuries, survived, and about five years later a new early Baroque house went up on top of them. A piece of its old Gothic portal can still be seen in the new front.\n\nIn the Ungelt, the old customs court behind the Týn Church, most of the houses burned, which is why most of them have Baroque fronts today. The Blue House there is really three medieval houses, joined into one when they were rebuilt.\n\n[[b]]In the streets the fire had gone through, the Old Town kept its medieval bones and put on Baroque clothes.[[/b]] Behind many of those smooth plastered fronts with their curving gables, the walls and cellars are three or four hundred years older than the paint.\n\nThe parishes got going first. The church of the Holy Spirit, by the Jewish Town, was repaired by 1691; the name of its builder, Petr Ehrhard, has survived, the architect's has not. St Haštal was repaired in Baroque by 1695 under Pavel Ignác Bayer, which is why its slender Gothic columns now stand behind Baroque altars.\n\nThe Poor Clares of St Agnes, whom the fire had left poorer than ever, could manage little more than patching. Their convent never really recovered, and less than a century later it was closed altogether.\n\nRound the corner from the Holy Spirit, the Minim friars of the Holy Saviour had a small miracle of their own to look after. [[link:the-french-fire-1689]]Beckovský[[/link]], who had walked the burnt streets that night, wrote it down:\n\n[[quote:0]]\n\nSo while the rest of Prague rebuilt its houses, the Minims built a chapel round a pair of scorched wooden feet.\n\nThe biggest job was St James. The friars had started clearing the rubble while the ashes were still warm, but the rebuilding proper only began at the end of 1690, under the architect Jan Šimon Pánek. He did not try to give the Old Town back its tallest church. He kept the Gothic walls and the old floor plan, and set a new barrel vault about five metres lower than the one that had fallen. He also shortened the choir, which had always stood slightly askew to the nave, and so straightened it out.\n\nOutside, the Gothic forms were stripped away. Between 1695 and 1701 the stuccoist Ottavio Mosto covered the front with large reliefs of St Francis, St James and St Anthony. In 1702, twelve years after work began, the shell was finished. In 1705 Abraham Starck of Loket built the organ; rebuilt and enlarged since, it is still played and now has 8,277 pipes, more than any other in the country. The painted vault and the high altar had to wait another generation, until 1736–1739.\n\n[[b]]What came back was the same church in a new coat: Gothic walls, a Baroque vault five metres lower, and a front that no longer looked Gothic at all.[[/b]] Beckovský, who remembered the old one, noted that it was much lower now than it used to be. Whether that was a complaint, he did not say.\n\nOne thing the friars did save from the fire was a late Gothic Pietà, nearly two hundred years old, which went back onto the high altar of the new church. Some tellings tie it to the old story of the thief who had himself locked in the church to steal its jewels and was found in the morning with the Virgin holding him by the hand. The blackened forearm still hangs by the door.\n\nPrague had held on to its old walls through the fire. The Virgin of St James, it seems, holds on to things even better.\n\nAll Prague was banging and clattering. A few streets away, in the Jewish Town, the hammers were not idle either.",
+      "cz": "Když oheň dohořel, stálo ve Starém a Novém Městě přes sedm set domů bez střech a začernalých a několik tisíc lidí nemělo kde bydlet. Nikdo nepřišel s plánem nového města. Vyhořelý dům byl starostí svého majitele: kdo držel parcelu, odklidil sutiny a stavěl znovu, jakmile na to měl, a to v takovém slohu, jaký mu zrovna navrhl stavitel.\n\nA stavitelé tehdy navrhovali baroko.\n\nOheň vezme střechy, stropy, schody a všechno ostatní ze dřeva. Silné kamenné zdi a klenuté sklepy ho obvykle přečkají. Nikdo tedy nezačínal od nuly. V Malé Štupartské, hned za kostelem sv. Jakuba, byl 21. června 1689 zničen dům U Božího oka. Jeho sklepy, pět klenutých prostor ze 13. a 14. století, vydržely a asi o pět let později na nich vyrostl nový raně barokní dům. V nové fasádě je dodnes vidět kus starého gotického portálu.\n\nV Ungeltu, starém celním dvoře za Týnským chrámem, většina domů vyhořela, a proto má dnes většina z nich barokní fasády. Tamní Modrý dům jsou ve skutečnosti tři středověké domy, které se při obnově spojily v jeden.\n\n[[b]]V ulicích, kudy oheň prošel, si Staré Město nechalo středověké kosti a obléklo se do barokních šatů.[[/b]] Za mnoha hladce omítnutými průčelími s vykrouženými štíty stojí zdi a sklepy o tři až čtyři sta let starší než jejich nátěr.\n\nNejdřív se do práce pustily farnosti. Kostel sv. Ducha u Židovského Města byl opraven do roku 1691; jméno stavitele, Petra Ehrharda, se dochovalo, jméno architekta ne. Kostel sv. Haštala dostal do roku 1695 barokní úpravu pod vedením Pavla Ignáce Bayera, a proto dnes jeho štíhlé gotické sloupy stojí za barokními oltáři.\n\nKlarisky od sv. Anežky, které oheň uvrhl do ještě větší chudoby, zmohly sotva víc než záplaty. Jejich klášter se už nikdy pořádně nevzpamatoval a necelé století nato byl úplně zrušen.\n\nZa rohem od sv. Ducha měli minimité od sv. Salvátora na starosti svůj vlastní malý zázrak. [[link:the-french-fire-1689]]Beckovský[[/link]], který tu noc prošel vypálené ulice, ho zapsal:\n\n[[quote:0]]\n\nZatímco tedy zbytek Prahy stavěl domy, minimité postavili kapličku kolem dvou očazených dřevěných nohou.\n\nNejvětší prací byl sv. Jakub. Minorité začali odklízet sutiny, ještě než vychladl popel, ale vlastní obnova začala až koncem roku 1690 pod vedením architekta Jana Šimona Pánka. Ten se nesnažil vrátit Starému Městu jeho nejvyšší kostel. Ponechal gotické zdi i starý půdorys a novou valenou klenbu posadil asi o pět metrů níž, než byla ta, která spadla. Zkrátil také chór, který vždycky stál vůči lodi trochu nakřivo, a tím ho srovnal.\n\nZvenku zmizely gotické tvary. V letech 1695–1701 pokryl štukatér Ottavio Mosto průčelí velkými reliéfy sv. Františka, sv. Jakuba a sv. Antonína. Roku 1702, dvanáct let po začátku prací, byla hrubá stavba hotová. Roku 1705 postavil Abraham Starck z Lokte varhany; od té doby byly přestavěny a rozšířeny, hraje se na ně dodnes a mají 8 277 píšťal, víc než kterékoli jiné v zemi. Na malovanou klenbu a hlavní oltář se muselo čekat ještě o generaci déle, do let 1736–1739.\n\n[[b]]Vrátil se týž kostel v novém kabátě: gotické zdi, barokní klenba o pět metrů nižší a průčelí, které už vůbec nevypadalo goticky.[[/b]] Beckovský, který si pamatoval ten starý, si poznamenal, že je teď mnohem nižší, než býval. Jestli si tím stěžoval, neřekl.\n\nJednu věc minorité z ohně přece jen zachránili: pozdně gotickou Pietu, starou skoro dvě stě let, která se vrátila na hlavní oltář nového kostela. Právě s ní spojují některá vyprávění starou pověst o zloději, který se dal v kostele zamknout, aby ukradl šperky, a ráno ho našli, jak ho Panna Maria drží za ruku. Začernalé předloktí visí u dveří dodnes.\n\nPraha si přes oheň udržela své staré zdi. Panna Maria od sv. Jakuba, jak se zdá, umí věci držet ještě lépe.\n\nCelá Praha tloukla a klepala. O pár ulic dál, v Židovském Městě, nezahálela kladiva také.",
+      "zh": "火灭了以后，老城和新城有七百多栋房子只剩下烧黑的空壳，几千人没了住处。没有人拿着一张新城的规划图来。房子烧了，是房主自己的事：谁有那块地，谁就清走瓦砾，等凑够了钱再盖；至于盖成什么样子，就看当时的营造师傅怎么建议。\n\n而当时的营造师傅，建议的是巴洛克。\n\n火能烧掉屋顶、楼板、楼梯，烧掉一切木头做的东西；厚厚的石墙和带拱顶的地窖，却往往烧不坏。所以，谁也不是从零开始。圣雅各伯教堂背后的小什图帕尔特街上，有一栋叫“上帝之眼”的房子，1689年6月21日被烧毁了。它的地窖，五间13、14世纪留下来的拱顶房间，挺了过来；大约五年后，一栋早期巴洛克式的新房子就盖在了它们上面。新的门面上，至今还看得见一截旧的哥特式门框。\n\n提恩教堂后面的翁格尔特，是从前的海关大院。那里的房子大多烧了，所以如今大多是巴洛克门面。院子里的“蓝屋”，其实是三栋中世纪的房子，重建的时候合成了一栋。\n\n[[b]]在大火烧过的那些街上，老城留下了中世纪的骨头，换上了巴洛克的衣裳。[[/b]]许多抹得平平整整、山墙弯弯曲曲的门面后面，墙和地窖比外面那层漆要老上三四百年。\n\n最先动起来的是教区教堂。犹太城边的圣神教堂，到1691年就修好了；营造师傅彼得·埃尔哈德的名字留了下来，建筑师是谁，却没人知道。圣哈什塔尔教堂由帕维尔·伊格纳茨·拜尔主持，到1695年修成了巴洛克式，所以它那些纤细的哥特式柱子，如今立在巴洛克祭坛的后面。\n\n圣阿格尼丝的克拉拉修女们，被大火弄得比从前更穷，除了缝缝补补，也做不了更多。修道院再也没有真正缓过来，不到一百年，就被整个撤销了。\n\n圣神教堂拐角的圣救世主教堂里，最小兄弟会的修士们也有一桩自己的小奇迹要照看。那天夜里走遍了火场的[[link:the-french-fire-1689]]贝茨科夫斯基[[/link]]，把它记了下来：\n\n[[quote:0]]\n\n于是，布拉格别处忙着盖房子的时候，最小兄弟会的修士们围着一双熏黑的木头脚，盖了一座小礼拜堂。\n\n最大的工程，是圣雅各伯教堂。灰烬还没凉透，方济各住院会的修士们就开始清理瓦砾了，可真正的重建，要到1690年底才在建筑师扬·西蒙·帕内克手里开始。帕内克没打算把老城最高的教堂原样还回去。他留下了哥特式的墙和原来的平面，新的筒形拱顶，比塌下来的那个低了大约五米。他还把一向和中殿有点歪的唱诗堂截短了一些，顺势把它摆正了。\n\n外面，哥特式的样子被剥掉了。1695年到1701年间，灰泥匠奥塔维奥·莫斯托在正面做了圣方济各、圣雅各伯和圣安东尼的大幅浮雕。1702年，开工十二年后，主体完工。1705年，洛凯特的亚伯拉罕·施塔克造好了管风琴；后来几经改建扩建，至今还在演奏，如今有8277根音管，全国最多。拱顶上的壁画和主祭坛，还要再等上一代人，到1736年至1739年才完成。\n\n[[b]]回来的还是那座教堂，只是换了一身新衣：哥特式的墙，矮了五米的巴洛克拱顶，还有一个再也看不出哥特式的门面。[[/b]]记得旧教堂模样的贝茨科夫斯基写道，它如今比从前矮多了。他是不是在抱怨，他没说。\n\n修士们从火里抢出来的东西里，有一尊晚期哥特式的圣殇像，已经快两百岁了，后来又回到了新教堂的主祭坛上。有些版本的老传说，讲的正是它：一个小偷让人把自己锁在教堂里过夜，想偷像上的首饰，第二天早上被人发现时，圣母正攥着他的手。那截熏黑的小臂，至今还挂在门边。\n\n布拉格熬过了大火，守住了它的老墙。圣雅各伯教堂里的这位圣母，看来守东西守得更牢。\n\n整个布拉格都在叮叮当当。几条街外的犹太城里，锤子也没闲着。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "In front of that Paulan church, against a wall, stood three wooden figures: Christ hanging on the cross, with the Virgin Mary on one side and St John the Evangelist on the other. The two figures burned up entirely in that fire, and the cross down to the feet, and the figure of Christ; but the fire did not harm the feet, only blackened them, as anyone may still see before that church, on the same spot, in a new little chapel.",
+          "cz": "Před tím kostelem Paulánským při jedné zdi stáli tři dřevění obrazové, Kristus Pán na kříži visící a pod ním Panna Marie z jedné a sv. Jan Evangelista z druhé strany stojící; tito dva obrazové také v ten oheň celé shořeli i kříž až po nohy i obraz Krista Pána, nohám však neublížil, toliko že je očadil, což také dosavad od každého spatřiti může před jmenovaným kostelem na tom místě v nové kapličce.",
+          "zh": "在那座保拉会教堂前面，靠着一堵墙，立着三尊木像：十字架上的基督，一边是圣母马利亚，另一边是福音书作者圣约翰。那场火里，两尊像烧得干干净净，十字架和基督像也一直烧到脚边；可那双脚，火没有伤着，只把它们熏黑了。如今谁都还能在那座教堂前、原来的地方，在一座新盖的小礼拜堂里看见。"
+        },
+        "attribution": {
+          "en": "Jan František Beckovský, Poselkyně starých příběhův českých (eyewitness)",
+          "cz": "Jan František Beckovský, Poselkyně starých příběhův českých (očitý svědek)",
+          "zh": "贝茨科夫斯基，《波希米亚旧事信使》（亲历者）"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "kostel-sv-jakuba-stare-mesto",
+        "relation": {
+          "en": "Rebuilt by Jan Šimon Pánek from 1690 under a vault five metres lower; shell finished 1702, organ 1705",
+          "cz": "Od roku 1690 obnoven Janem Šimonem Pánkem s klenbou o pět metrů nižší; hrubá stavba 1702, varhany 1705",
+          "zh": "1690年起由帕内克重建，拱顶低了五米；1702年主体完工，1705年装好管风琴"
+        }
+      },
+      {
+        "slug": "tynsky-dvur-ungelt",
+        "relation": {
+          "en": "Largely burned in 1689, which is why most of its houses have Baroque fronts",
+          "cz": "Roku 1689 z velké části vyhořel, proto má většina domů barokní fasády",
+          "zh": "1689年大半烧毁，所以如今大多是巴洛克门面"
+        }
+      },
+      {
+        "slug": "kostel-sv-hastala",
+        "relation": {
+          "en": "Repaired in Baroque by 1695: Gothic columns behind Baroque altars",
+          "cz": "Do roku 1695 barokně opraven: gotické sloupy za barokními oltáři",
+          "zh": "1695年前修成巴洛克式：哥特式柱子立在巴洛克祭坛后面"
+        }
+      },
+      {
+        "slug": "kostel-sv-ducha",
+        "relation": {
+          "en": "Repaired by 1691, keeping its Gothic shape",
+          "cz": "Opraven do roku 1691, gotický tvar si zachoval",
+          "zh": "1691年修好，保留了哥特式的样子"
+        }
+      },
+      {
+        "slug": "kostel-sv-salvatora-salvatorska",
+        "relation": {
+          "en": "The Minims' church, where Christ's charred feet got a chapel of their own",
+          "cz": "Kostel minimitů, kde očazené nohy Krista dostaly vlastní kapličku",
+          "zh": "最小兄弟会的教堂，基督像那双熏黑的脚在这里有了自己的小礼拜堂"
+        }
+      },
+      {
+        "slug": "klaster-sv-anezky-ceske",
+        "relation": {
+          "en": "The Poor Clares could only patch it; the convent never recovered",
+          "cz": "Klarisky ho dokázaly jen záplatovat; klášter se už nevzpamatoval",
+          "zh": "修女们只能缝缝补补，修道院再也没缓过来"
+        }
+      }
+    ],
+    "images": [
+      "/history/old-bones-new-clothes-1690.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "The Old Town around 1700: the soot-streaked Gothic walls of St James under a new, lower roof, with plasterers on the scaffolding shaping a stucco saint over the portal and a crane hoisting stone; in the street, carpenters, stonemasons and carters at work, a burgher's house getting a Baroque gable on its old ground floor, two friars wheeling away rubble, and Beckovský looking up at it all.",
+        "cz": "Staré Město kolem roku 1700: očazené gotické zdi kostela sv. Jakuba pod novou, nižší střechou, na lešení štukatéři modelují nad portálem světce a jeřáb zvedá kámen; na ulici pracují tesaři, kameníci a vozkové, měšťanský dům dostává na starém přízemí barokní štít, dva minorité odvážejí sutiny a Beckovský se na to všechno dívá.",
+        "zh": "1700年前后的老城：圣雅各伯教堂熏黑的哥特式墙上，盖着一层更低的新屋顶，脚手架上的灰泥匠正在大门上方塑一尊圣人像，吊车把石块吊上去；街上，木匠、石匠和车夫都在忙，一栋市民住宅在老底层上加起了巴洛克山墙，两个修士推走瓦砾，贝茨科夫斯基抬头看着这一切。"
+      }
+    ],
+    "wikipediaUrl": "https://cs.wikipedia.org/wiki/Bazilika_svat%C3%A9ho_Jakuba_V%C4%9Bt%C5%A1%C3%ADho_(Star%C3%A9_M%C4%9Bsto)"
+  },
+  // the-same-jewish-town-1691: the Jewish Town rebuilt in place (split from
+  // the Abeles card at the user's call). New town of stone with wide streets
+  // planned and dropped for lack of money, rebuilt like the burnt one, only 6
+  // of 13 synagogues allowed: Státníková, Vesmír 2021/7. Commission to count
+  // the Jews and send the surplus abroad, "nothing came of it", the 1703 count:
+  // Beckovský, Poselkyně II (Rezek ed.), p. 563, OCR lightly normalised in CZ.
+  // Old-New Synagogue survived; Maisel Synagogue burned completely, rebuilt
+  // shortened to 14 pillars (of 20): prague.eu. High Synagogue partly
+  // destroyed, rebuilt 1691: en.wikipedia. Klausen (Maisel's klausen, Rabbi
+  // Loew, Rabbi Shelomo Khalish Cohen, 1694, largest, Oppenheimer ark 1696,
+  // only Baroque synagogue left): en.wikipedia "Klausen Synagogue".
+  {
+    "slug": "the-same-jewish-town-1691",
+    "era": "baroque-and-darkness",
+    "startYear": 1691,
+    "tone": "serious",
+    "year": {
+      "en": "1689–1696",
+      "cz": "1689–1696",
+      "zh": "1689年－1696年"
+    },
+    "title": {
+      "en": "The Same Old Jewish Town",
+      "cz": "Pořád totéž Židovské Město",
+      "zh": "还是那座犹太城"
+    },
+    "hookLine": {
+      "en": "There were plans for a new Jewish Town, with wide streets and stone houses. What came back was the old one, along the same narrow lanes, with fewer synagogues.",
+      "cz": "Byly plány na nové Židovské Město se širokými ulicemi a kamennými domy. Vrátilo se to staré, podél stejných úzkých uliček, jen s menším počtem synagog.",
+      "zh": "官府想要一座街道宽敞、全用石头盖的新犹太城。盖回来的，还是那座窄巷子里的老犹太城，只是会堂少了一半。"
+    },
+    "summary": {
+      "en": "Straight after the fire, the Old Town council had wanted to [[link:the-french-fire-1689]]move the Jewish Town away[[/link]]. That came to nothing. But the authorities had no intention of letting it come back just as it was, either.\n\nSomeone drew up a brand-new Jewish Town: wide streets, every house of stone. Nobody could pay for a town like that. In the end the Jewish Town went back up along its old narrow lanes, house by house, much as it had been before it burned.\n\nNor did its people grow fewer. The commission had meant to count the Jews and send the surplus abroad; not one was sent. Beckovský watched it all with open irritation:\n\n[[quote:0]]\n\nHis figure may well be exaggerated. [[b]]The authorities had drawn up plans for a new town, and what came back was the same old Jewish Town.[[/b]]\n\nThe synagogues fared worse. Before the fire the Jewish Town had thirteen; only six were allowed to be rebuilt.\n\nThe Old-New Synagogue, built of stone, came through the fire. The High Synagogue was repaired by 1691. The Maisel Synagogue had burned to the ground and came back shorter: of its twenty pillars, only fourteen.\n\nBy the old cemetery, the little prayer and study houses that [[link:the-emperor-behind-the-curtain-1592]]Maisel[[/link]] had built, the klausen where Rabbi Loew once taught, had all burned. On their site Rabbi Shelomo Khalish Cohen built a single new synagogue, finished in 1694, the largest in the Jewish Town. Two years later Samuel Oppenheimer, the banker who supplied the emperor's armies, paid for its tall three-tiered Torah ark. It is the only Baroque synagogue left in the old ghetto today.\n\nIn the year the Klausen Synagogue was finished, a child died in the Jewish Town.",
+      "cz": "Hned po požáru chtěla staroměstská rada [[link:the-french-fire-1689]]Židovské Město přestěhovat[[/link]]. Sešlo z toho. Úřady ale neměly v úmyslu nechat ho vrátit se úplně takové, jaké bylo.\n\nKdosi nakreslil zcela nové Židovské Město: široké ulice, všechny domy z kamene. Takové město však nikdo nedokázal zaplatit. Nakonec Židovské Město vyrostlo znovu podél svých starých úzkých uliček, dům po domě, skoro takové, jaké bylo, než vyhořelo.\n\nAni lidí v něm neubylo. Komise chtěla Židy sečíst a přebytečné poslat do ciziny; neposlala ani jednoho. Beckovský to všechno sledoval s nepokrytou nevolí:\n\n[[quote:0]]\n\nJeho číslo je možná přehnané. [[b]]Úřady nakreslily plány nového města, a znovu vyrostlo totéž staré Židovské Město.[[/b]]\n\nSynagogy dopadly hůř. Před požárem jich Židovské Město mělo třináct; obnovit se smělo jen šest.\n\nStaronová synagoga, postavená z kamene, požár přečkala. Vysoká synagoga byla opravena do roku 1691. Maiselova synagoga vyhořela do základů a vrátila se kratší: z dvaceti pilířů jich zbylo čtrnáct.\n\nU starého hřbitova vyhořely všechny klausy, malé modlitebny a učebny, které tu postavil [[link:the-emperor-behind-the-curtain-1592]]Maisel[[/link]] a kde kdysi učil rabi Löw. Na jejich místě postavil rabi Šelomo Chališ Kohen jedinou novou synagogu, dokončenou roku 1694, největší v Židovském Městě. O dva roky později jí bankéř Samuel Oppenheimer, který zásoboval císařská vojska, zaplatil vysoký trojdílný svatostánek na Tóru. Dnes je to jediná barokní synagoga, která v bývalém ghettu zůstala.\n\nV roce, kdy byla Klausová synagoga dokončena, zemřelo v Židovském Městě jedno dítě.",
+      "zh": "大火刚灭，老城议会就想[[link:the-french-fire-1689]]把犹太城迁走[[/link]]，没迁成。可官府也没打算让它原样回来。\n\n有人画了一座全新的犹太城：街道宽敞，房子一律用石头盖。可这样一座城，谁也出不起钱。最后，犹太城还是沿着原来那些窄巷，一栋一栋，差不多照着烧掉前的样子盖了回来。\n\n人也没减下来。委员会本想清点犹太人的人数，把多出来的打发到国外去，结果一个也没打发走。贝茨科夫斯基看着这一切，很不痛快：\n\n[[quote:0]]\n\n他这个数字未必准。[[b]]官府画了一座新城的图纸，盖回来的，还是那座老犹太城。[[/b]]\n\n会堂就没这么幸运了。大火前，犹太城有十三座会堂，重建时只准盖回六座。\n\n老新会堂是石头砌的，挺过了大火。高会堂1691年修好了。迈瑟尔会堂烧得精光，重建时截短了一截，原来的二十根柱子，只剩下十四根。\n\n老墓地旁边，当年[[link:the-emperor-behind-the-curtain-1592]]迈瑟尔[[/link]]盖的几座小经堂，人们叫它们“克劳斯”，罗乌拉比曾在这里讲学，这次全烧光了。拉比什洛莫·哈利什·科恩在原地盖起一座新会堂，1694年完工，是犹太城里最大的会堂。两年后，替皇帝军队筹办给养的银行家萨缪尔·奥本海默，出钱给它添了一座三层高的约柜。如今，它是老犹太区仅存的巴洛克式会堂。\n\n就在克劳斯会堂完工的那一年，犹太城里死了一个孩子。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "The commission appointed for this worked so hard and did so much that nothing at all came of it; and the Jews, who were to have been reduced, grew within a few years by several thousand heads, so much that in 1703 the commissioners counted only 101 more Christians in the Old Town of Prague than there were Prague Jews.",
+          "cz": "Ta nařízená komise tak mnoho s celou prací svou způsobila a vypracovala, že z toho ze všeho nic nebylo a Židovstvo, které umenšené býti mělo, v těch některých letech o několik tisíc hlav se rozmnožilo tak velice, že křesťanův léta 1703 v Starém Městě pražském toliko o 101 víceji nežli pražského Židovstva se nacházelo.",
+          "zh": "那个奉命成立的委员会忙前忙后，费了那么大力气，到头来什么也没办成；犹太人本该减少，几年之内反倒多出了好几千口，多到1703年委员们清点时，布拉格老城的基督徒只比布拉格的犹太人多一百零一个。"
+        },
+        "attribution": {
+          "en": "Jan František Beckovský, Poselkyně starých příběhův českých",
+          "cz": "Jan František Beckovský, Poselkyně starých příběhův českých",
+          "zh": "贝茨科夫斯基，《波希米亚旧事信使》"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "klausova-synagoga",
+        "relation": {
+          "en": "Built in 1694 where Maisel's burnt klausen had stood; its Torah ark was added in 1696",
+          "cz": "Postavena roku 1694 na místě Maiselových vyhořelých klaus; svatostánek na Tóru přibyl roku 1696",
+          "zh": "1694年建在迈瑟尔那几座烧毁的克劳斯原址上，1696年添了约柜"
+        }
+      },
+      {
+        "slug": "maiselova-synagoga",
+        "relation": {
+          "en": "Burned to the ground in 1689 and rebuilt shorter, with fourteen pillars instead of twenty",
+          "cz": "Roku 1689 vyhořela do základů a byla obnovena kratší, se čtrnácti pilíři místo dvaceti",
+          "zh": "1689年烧得精光，重建时截短了，二十根柱子只剩十四根"
+        }
+      },
+      {
+        "slug": "vysoka-synagoga",
+        "relation": {
+          "en": "Damaged in the fire and repaired by 1691",
+          "cz": "Požárem poškozena, opravena do roku 1691",
+          "zh": "在大火中受损，1691年修好"
+        }
+      },
+      {
+        "slug": "old-new-synagogue-1782601630704",
+        "relation": {
+          "en": "Built of stone, it came through the fire of 1689",
+          "cz": "Kamenná, požár roku 1689 přečkala",
+          "zh": "石头砌的，挺过了1689年的大火"
+        }
+      }
+    ],
+    "images": [
+      "/history/the-same-jewish-town-1691.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "The Jewish Town in the early 1690s: an imperial commissioner in a grey wig holds a plan of neat, straight, wide streets, while behind him the residents rebuild their houses along the old crooked lane; at its end stands the Old-New Synagogue, untouched by the fire, with a new synagogue going up under scaffolding nearby.",
+        "cz": "Židovské Město na začátku 90. let 17. století: císařský komisař v šedé paruce drží plán úhledných, rovných a širokých ulic, zatímco za ním obyvatelé stavějí své domy znovu podél staré křivolaké uličky; na jejím konci stojí požárem nedotčená Staronová synagoga a opodál roste v lešení nová synagoga.",
+        "zh": "1690年代初的犹太城：戴灰色假发的帝国委员举着一张街道笔直宽敞的图纸，他身后，居民们正沿着原来那条弯弯曲曲的老巷子重盖房子；巷子尽头是没被大火烧到的老新会堂，旁边一座新会堂正搭着脚手架往上盖。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Klausen_Synagogue"
+  },
+  // buried-twice-1694: the Abeles case (Klausen and the rebuilding moved to
+  // the-same-jewish-town-1691). Abeles: en.wikipedia "Simon Abeles"
+  // (b. 1681, d. 21 Feb 1694, grandfather head of the community, flight to the
+  // Klementinum 1693, never baptised); Deník "Šimon Abeles" (lodged with the
+  // baptised Jew František Kavka, illness possible, denunciation, autopsy:
+  // wound on left temple, broken neck vertebrae; Court of Appeal; Sára Uresinová
+  // preparing for baptism; Lazar hanged in the town hall tower in chains with
+  // one hand fastened; corpse executed 16 March; Lea named Kurtzhandl, arrested
+  // at Manětín, denied under torture; funeral 31 March from the town hall's
+  // St Lawrence chapel, Countess Šliková, procession details); Kisch, Prager
+  // Pitaval, "Aus Glaubenshaß" (letter of 25 Feb, Sara 13, sentence 19 April,
+  // Leopold's stay refused with the quoted line, baptised as Johannes after the
+  // 11th blow, blood-soaked handkerchiefs, no evidence against Kurtzhandl in the
+  // file). Eder's title: the Google Books record of the German translation.
+  // Yiddish song: Carlebach, "Saint and Countersaint", Jewish History 30 (2016).
+  {
+    "slug": "buried-twice-1694",
+    "era": "baroque-and-darkness",
+    "startYear": 1694,
+    "tone": "serious",
+    "year": {
+      "en": "1693–1694",
+      "cz": "1693–1694",
+      "zh": "1693年－1694年"
+    },
+    "title": {
+      "en": "Buried Twice",
+      "cz": "Pohřben dvakrát",
+      "zh": "葬了两次的孩子"
+    },
+    "hookLine": {
+      "en": "A twelve-year-old boy from the Jewish Town died at home. His family buried him quietly; the Jesuits dug him up and buried him again, as a martyr.",
+      "cz": "Dvanáctiletý chlapec ze Židovského Města zemřel doma. Rodina ho potichu pohřbila; jezuité ho vykopali a pohřbili znovu, jako mučedníka.",
+      "zh": "犹太城一个十二岁的男孩死在家里。家人悄悄把他埋了；耶稣会士把他挖出来，当作殉道者又葬了一次。"
+    },
+    "summary": {
+      "en": "His name was Simon Abeles. He was twelve, the son of the merchant Lazar Abeles and grandson of the head of the Jewish community. In those years the Jesuits of the Klementinum were working hard to win Jewish children for baptism. In the autumn of 1693 Simon ran away to them and said he wanted to become a Christian. His father found him and took him home. Simon was never baptised.\n\nOn 21 February 1694, Simon died at home. What killed him is still not known: he may have been ill for a long time, or he may have been beaten. The family buried him quickly in the old cemetery.\n\nFour days later an anonymous letter reached the authorities. The body was dug up, and the doctors found a wound on the temple and broken bones in the neck.\n\nThe case went to the Court of Appeal, the same court that [[link:the-french-fire-1689]]five years earlier[[/link]] had declared the fire the work of the French. [[b]]This time, too, the court soon knew what it was looking for: not how the boy had died, but that his father had killed him out of hatred of the Christian faith.[[/b]]\n\nLazar was locked in the tower of the Old Town Hall and denied everything. A few hours after he was confronted with a servant girl who was herself preparing for baptism, he was found hanged in his cell, still in chains. The court called it suicide, and on 16 March it executed his corpse: the heart was cut out, and the body quartered and burned.\n\nHis widow then named Löbl Kurtzhandl, a young relative who had lived with the family. He denied it even under torture, and on 19 April he was sentenced to be broken on the wheel. Emperor Leopold ordered the execution stayed and a lawyer found for him. The court refused:\n\n[[quote:0]]\n\nAfter the eleventh blow of the wheel, Kurtzhandl agreed to be baptised, and was then killed with a blow to the neck. He kept saying that he had been convicted on the word of bribed witnesses.\n\nOn 31 March Simon's funeral went from the Old Town Hall to the Týn Church. Sixteen young men in red cloaks carried the coffin, boys walked beside it with torches, and soldiers held back the crowd. It was said that the body was still bleeding, and people pushed forward to soak their handkerchiefs in the blood. He was buried in the Týn Church, where [[link:a-nose-an-elk-and-an-ellipse-1601]]Tycho Brahe[[/link]] lies.\n\nThe Jesuit Johann Eder wrote a book about him. Its German translation bore this title:\n\n[[quote:1]]\n\nBroadsides, ballads and plays followed, and a Jewish boy who had never been baptised became Prague's unofficial saint. From the Jewish side, only a single Yiddish song survives, about Kurtzhandl's last hours. In the 20th century the journalist Egon Erwin Kisch went through the court file and found no evidence in it against Kurtzhandl.\n\n[[b]]Simon Abeles was buried twice: once in secret by his family, and once in state by the Jesuits.[[/b]] Which of the two he would have wanted, nobody asked him.",
+      "cz": "Jmenoval se Šimon Abeles. Bylo mu dvanáct, byl synem obchodníka Lazara Abelese a vnukem primase židovské obce. Jezuité z Klementina se v těch letech usilovně snažili získat ke křtu židovské děti. Na podzim 1693 k nim Šimon utekl a řekl, že se chce stát křesťanem. Otec ho našel a odvedl domů. Pokřtěn Šimon nikdy nebyl.\n\nDne 21. února 1694 Šimon doma zemřel. Na co, se dodnes neví: mohl být dlouho nemocný, nebo mohl být bit. Rodina ho rychle pohřbila na starém hřbitově.\n\nO čtyři dny později dostaly úřady anonymní udání. Tělo bylo exhumováno a lékaři našli na spánku ránu a zlomené krční obratle.\n\nPřípad převzal apelační soud, týž, který [[link:the-french-fire-1689]]před pěti lety[[/link]] prohlásil, že oheň založili Francouzi. [[b]]I tentokrát soud brzy věděl, co hledá: ne to, jak chlapec zemřel, ale že ho otec zabil z nenávisti ke křesťanské víře.[[/b]]\n\nLazara zavřeli do věže Staroměstské radnice a všechno popíral. Pár hodin po konfrontaci se služebnou, která se sama připravovala ke křtu, ho našli v cele oběšeného, stále v okovech. Soud to prohlásil za sebevraždu a 16. března popravil jeho mrtvé tělo: vyňali mu srdce, tělo rozčtvrtili a spálili.\n\nVdova pak jmenovala Löbla Kurtzhandla, mladého příbuzného, který v domě bydlel. Zapíral i na mučidlech a 19. dubna byl odsouzen k lámání kolem. Císař Leopold nařídil popravu odložit a dát mu obhájce. Soud odmítl:\n\n[[quote:0]]\n\nPo jedenácté ráně kolem svolil Kurtzhandl ke křtu a pak ho dorazili ranou do vazu. Stále opakoval, že ho odsoudili na slovo podplacených svědků.\n\nDne 31. března šel Šimonův pohřební průvod od Staroměstské radnice k Týnskému chrámu. Rakev neslo šestnáct mládenců v červených pláštích, vedle šli chlapci s pochodněmi a vojáci zadržovali dav. Říkalo se, že tělo stále krvácí, a lidé se tlačili, aby si do krve namočili kapesníky. Pohřben byl v Týnském chrámu, kde leží i [[link:a-nose-an-elk-and-an-ellipse-1601]]Tycho Brahe[[/link]].\n\nJezuita Jan Eder o něm napsal knihu. Její německý překlad nesl tento název:\n\n[[quote:1]]\n\nNásledovaly letáky, kramářské písně a hry a židovský chlapec, který nikdy nebyl pokřtěn, se stal neoficiálním pražským světcem. Ze židovské strany se dochovala jediná píseň v jidiš, o posledních hodinách Kurtzhandla. Ve 20. století prošel soudní spis novinář Egon Erwin Kisch a žádný důkaz proti Kurtzhandlovi v něm nenašel.\n\n[[b]]Šimon Abeles byl pohřben dvakrát: jednou potichu vlastní rodinou, podruhé okázale jezuity.[[/b]] Který z těch pohřbů by chtěl on sám, se ho nikdo nezeptal.",
+      "zh": "他叫西蒙·阿贝勒斯，十二岁，商人拉扎尔·阿贝勒斯的儿子，祖父是犹太社区的首领。那些年，克莱门蒂努姆的耶稣会士正下大力气劝犹太孩子受洗。1693年秋天，西蒙跑到他们那里，说想当基督徒。父亲找到他，把他领回了家。西蒙始终没有受洗。\n\n1694年2月21日，西蒙死在家里。他是怎么死的，至今没人说得清：可能病了很久，也可能挨了打。家里人匆匆把他埋进了老墓地。\n\n四天后，一封匿名信送到了官府。尸体被挖了出来，医生在他太阳穴上找到一处伤，颈骨也断了。\n\n案子交给了上诉法院，就是[[link:the-french-fire-1689]]五年前[[/link]]认定“火是法国人放的”那个法院。[[b]]这一回，法院也很快就知道自己要找什么了：不是孩子怎么死的，而是他父亲出于对基督信仰的仇恨杀了他。[[/b]]\n\n拉扎尔被关进老城市政厅的塔楼，什么都不认。和一个正准备受洗的女仆对质后没过几个钟头，他被发现吊死在牢房里，身上还戴着镣铐。法院说是自杀，3月16日又“处决”了他的尸体：挖出心脏，分尸，焚烧。\n\n他的遗孀又供出了一个名字：住在他们家的年轻亲戚勒布尔·库尔茨汉德尔。他上了刑也不认，4月19日被判轮刑。利奥波德皇帝下令暂缓行刑，给他找个律师。法院拒绝了：\n\n[[quote:0]]\n\n挨到第十一下，库尔茨汉德尔答应受洗，随后被一击断颈而死。他一直说，定他罪的证人是被收买的。\n\n3月31日，西蒙的送葬队伍从老城市政厅走向提恩教堂。十六个披红斗篷的年轻人抬着棺材，男孩们举着火把，士兵拦着挤上来的人群。据说尸体还在流血，人们挤上前去拿手帕蘸。孩子葬在了提恩教堂，[[link:a-nose-an-elk-and-an-ellipse-1601]]第谷[[/link]]也葬在那里。\n\n耶稣会士埃德尔为他写了一本书，德译本的书名是这样的：\n\n[[quote:1]]\n\n传单、小调、戏剧接踵而来，一个从没受过洗的犹太孩子，成了布拉格非正式的圣人。犹太人这边，只留下一首意第绪语的歌，讲库尔茨汉德尔最后的时辰。二十世纪，记者基希翻遍卷宗，没找到任何对他不利的证据。\n\n[[b]]西蒙·阿贝勒斯被葬了两次：一次是家人悄悄地埋，一次是耶稣会士风风光光地葬。[[/b]]这两次里他自己想要哪一次，没有人问过他。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "…since so much depends, for the public, on its being carried out swiftly.",
+          "cz": "…poněvadž veřejnosti na rychlém vykonání tolik záleží.",
+          "zh": "……因为尽快行刑，对公众关系重大。"
+        },
+        "attribution": {
+          "en": "The Court of Appeal, refusing the emperor's stay of execution, 1694 (as quoted by Egon Erwin Kisch)",
+          "cz": "Apelační soud, když odmítl císařův odklad popravy, 1694 (podle Egona Erwina Kische)",
+          "zh": "上诉法院拒绝皇帝暂缓行刑的命令，1694年（据基希引述）"
+        }
+      },
+      {
+        "text": {
+          "en": "The Manly Steadfastness of the twelve-year-old boy Simon Abeles, which he showed in defending the Christian faith, when Lazarus Abeles, his Jewish father, cruelly murdered him out of hatred of the faith, in Prague on 21 February 1694.",
+          "cz": "Mužná stálost dvanáctiletého chlapce Šimona Abelese, kterou prokázal, aby uhájil křesťanskou víru, když ho jeho židovský otec Lazar Abeles z nenávisti k víře 21. února 1694 v Praze krutě zavraždil.",
+          "zh": "十二岁男孩西蒙·阿贝勒斯为捍卫基督信仰所表现的大丈夫般的坚贞：其犹太父亲拉撒路·阿贝勒斯出于对信仰的仇恨，于1694年2月21日在布拉格将其残忍杀害。"
+        },
+        "attribution": {
+          "en": "Title of the German translation of Johann Eder's book",
+          "cz": "Název německého překladu knihy Jana Edera",
+          "zh": "埃德尔一书德译本的书名"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "old-jewish-cemetery",
+        "relation": {
+          "en": "Where Simon's family buried him in secret, and where the body was dug up",
+          "cz": "Sem rodina Šimona potajmu pohřbila a odtud bylo tělo exhumováno",
+          "zh": "西蒙的家人在这里悄悄埋葬了他，尸体也是从这里被挖出来的"
+        }
+      },
+      {
+        "slug": "astronomicka-vez-klementina",
+        "relation": {
+          "en": "The Jesuit Klementinum, where Simon ran in 1693 asking to be baptised",
+          "cz": "Jezuitské Klementinum, kam Šimon roku 1693 utekl a žádal o křest",
+          "zh": "耶稣会的克莱门蒂努姆，1693年西蒙跑到这里要求受洗"
+        }
+      },
+      {
+        "slug": "old-town-hall",
+        "relation": {
+          "en": "Lazar Abeles died in its tower; Simon's funeral procession set out from its chapel",
+          "cz": "V její věži zemřel Lazar Abeles; z její kaple vyšel Šimonův pohřební průvod",
+          "zh": "拉扎尔·阿贝勒斯死在这里的塔楼里；西蒙的送葬队伍从这里的小礼拜堂出发"
+        }
+      },
+      {
+        "slug": "tyn-church",
+        "relation": {
+          "en": "Where Simon was buried as a martyr on 31 March 1694",
+          "cz": "Zde byl Šimon 31. března 1694 pohřben jako mučedník",
+          "zh": "1694年3月31日，西蒙作为殉道者葬在这里"
+        }
+      }
+    ],
+    "referenceMaps": {
+      "links": [
+        {
+          "label": "1931",
+          "description": {
+            "en": "Egon Erwin Kisch's account of the case from the court file, \"Aus Glaubenshaß\" (Prager Pitaval), in German",
+            "cz": "Kischovo vylíčení případu podle soudního spisu, „Aus Glaubenshaß“ (Pražský pitaval), německy",
+            "zh": "基希根据卷宗写的这桩案子，《出于信仰之恨》（《布拉格奇案录》），德文"
+          },
+          "url": "https://projekt-gutenberg.org/authors/egon-erwin-kisch/books/prager-pitaval/chapter/10"
+        }
+      ]
+    },
+    "images": [
+      "/history/buried-twice-1694.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Left, the night of 21 February 1694: in the Old Jewish Cemetery, by the light of one lantern, Simon's family quietly buries him in a white shroud, with the new synagogue under scaffolding behind. Right, 31 March 1694: young men in red cloaks carry his white coffin across the Old Town Square towards the Týn Church, past the Marian column, while soldiers hold back the crowd.",
+        "cz": "Vlevo noc 21. února 1694: na Starém židovském hřbitově, při světle jediné lucerny, pohřbívá rodina potichu Šimona v bílém rubáši, vzadu nová synagoga v lešení. Vpravo 31. března 1694: mládenci v červených pláštích nesou jeho bílou rakev přes Staroměstské náměstí k Týnskému chrámu, kolem mariánského sloupu, a vojáci zadržují dav.",
+        "zh": "左：1694年2月21日夜里，古老犹太公墓，借着一盏提灯，西蒙的家人裹着白布悄悄埋葬了他，背后是搭着脚手架的新会堂。右：1694年3月31日，披红斗篷的年轻人抬着他的白棺穿过老城广场、经过圣母柱走向提恩教堂，士兵拦着围观的人群。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Simon_Abeles"
+  },
 ];
 
 // Era-overview cards live in their own file (see historyOverviews.js).
