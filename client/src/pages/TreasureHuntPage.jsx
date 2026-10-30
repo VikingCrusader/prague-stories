@@ -25,16 +25,17 @@ function formatCountdown(ms) {
   return `${pad2(hrs)}:${pad2(mins)}:${pad2(secs)}`;
 }
 
-// The hunt's clues, for the rules section: how each is had for free, and
-// whether it can be taken for half a step. Mirrors HUNT_REVEAL_M and
-// HUNT_CLUES on the server.
+// The hunt's clues, for the rules section: which come for free (the river
+// side and the distance always; within 300 m one of the others, at random),
+// and which can be bought for half a step (at random, the player doesn't
+// pick). Mirrors HUNT_CLUES and HUNT_FREE_CLUE_M on the server.
 const HUNT_CLUES = [
   { key: 'side', free: 'draw.huntTable.always', take: false },
   { key: 'reading', free: 'draw.huntTable.always', take: false },
-  { key: 'label', free: '3 km', take: true },
-  { key: 'area', free: '1 km', take: true },
-  { key: 'rarity', free: '300 m', take: true },
-  { key: 'direction', free: '—', take: true },
+  { key: 'label', free: '300 m*', take: true },
+  { key: 'area', free: '300 m*', take: true },
+  { key: 'rarity', free: '300 m*', take: true },
+  { key: 'direction', free: '300 m*', take: true },
 ];
 
 function HuntClueTable({ t }) {
@@ -95,6 +96,18 @@ export default function TreasureHuntPage() {
   // without restarting it on every GPS update.
   const posRef = useRef(userPos);
   posRef.current = userPos;
+
+  // The free clue within 300 m arrives with a poll: announce it once, like
+  // a clue taken.
+  const freeClue = status?.hunt?.freeClue ?? null;
+  const seenFreeClue = useRef(undefined);
+  useEffect(() => {
+    if (seenFreeClue.current === null && freeClue) {
+      playClueSound();
+      setHuntFlash({ type: 'miss', text: t('draw.huntFreeClue', { clue: t(`draw.clue.${freeClue}`) }) });
+    }
+    if (status?.hunt) seenFreeClue.current = freeClue;
+  }, [freeClue, status?.hunt, t]);
 
   const fetchStatus = useCallback(() => {
     if (!user) return Promise.resolve();
@@ -157,14 +170,15 @@ export default function TreasureHuntPage() {
     }
   };
 
-  // "Take a clue" (see takeHuntClue on the server): the direction snapshot
-  // is taken from the current position.
-  const handleClue = async key => {
+  // "Take a clue" (see takeHuntClue on the server): the server draws one at
+  // random. A fresh position goes along, since the draw may be the direction
+  // snapshot (without one, the direction is left out of the draw).
+  const handleClue = async () => {
     unlockAudio();
     setBusy(true);
     setHuntFlash(null);
-    const pos = key === 'direction' ? await getCurrentPosition().catch(() => posRef.current) : posRef.current;
-    userAPI.takeHuntClue(key, pos)
+    const pos = await getCurrentPosition().catch(() => posRef.current);
+    userAPI.takeHuntClue(pos)
       .then(res => { playClueSound(); setStatus(res.data.draw); setHuntFlash({ type: 'miss', text: t('draw.huntClueFlash', { clue: t(`draw.clue.${res.data.clue}`) }) }); })
       .catch(err => { setHuntFlash({ type: 'error', text: err.response?.data?.message || err.message }); fetchStatus(); })
       .finally(() => setBusy(false));
@@ -264,6 +278,22 @@ export default function TreasureHuntPage() {
                 {huntActive && status.hunt ? (
                   <>
                     <TreasureHuntPanel hunt={status.hunt} onGuess={handleGuess} onClue={handleClue} busy={busy} flash={huntFlash} />
+                    {countdown}
+                  </>
+                ) : status?.forfeited ? (
+                  <>
+                    {status.lastHunt?.location && (
+                      <p className="guide-body" style={{ textAlign: 'center', maxWidth: 420, marginTop: 14 }}>
+                        {t('draw.huntForfeited')}
+                        <a
+                          href="#"
+                          onClick={e => { e.preventDefault(); setSelectedSlug(status.lastHunt.location.slug); }}
+                          style={{ textDecoration: 'underline' }}
+                        >
+                          {convert(getLocName(status.lastHunt.location, lang))}
+                        </a>
+                      </p>
+                    )}
                     {countdown}
                   </>
                 ) : solvedHunt ? (

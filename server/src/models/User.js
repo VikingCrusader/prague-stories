@@ -20,6 +20,9 @@ const userSchema = new mongoose.Schema({
     slug:      { type: String, default: null },
     drawnAt:   { type: Date, default: null },
     bonusUsed: { type: Boolean, default: false }, // the treasure was found
+    // The treasure was collected with a normal check-in instead of a press
+    // on the Treasure Hunt page: the hunt is over, unfound, no multiplier.
+    forfeited: { type: Boolean, default: false },
     // Always 'hidden' (a treasure hunt, see HUNT_* in gamification.js).
     // 'open' (location revealed, 3x XP) is retired but kept valid for old
     // documents; such a draw counts as no draw at all.
@@ -28,7 +31,7 @@ const userSchema = new mongoose.Schema({
     // dealt before firstClue existed, whose first clue is labelOrder[0]).
     labelOrder: { type: [String], default: undefined },
     // The clues planned when the hunt is dealt (planHuntClues): the label
-    // revealed within 3 km (clueLabel; firstClue marks a planned hunt), and
+    // the label clue shows (clueLabel; firstClue marks a planned hunt), and
     // whether the area clue includes the quarter. Hunts dealt on 2026-10-29
     // may have a 'rarity' firstClue; that is ignored, the rarity comes at
     // 300 m like any other.
@@ -52,12 +55,12 @@ const userSchema = new mongoose.Schema({
     // Clues taken (HUNT_CLUES), half a step each, once each. The direction
     // snapshot keeps what it said then (never the position it was taken at).
     clues: {
-      type: [{ key: String, direction: String, at: { type: Date, default: Date.now }, _id: false }],
+      // `free`: the one clue given within HUNT_FREE_CLUE_M, at no cost.
+      type: [{ key: String, direction: String, free: Boolean, at: { type: Date, default: Date.now }, _id: false }],
       default: undefined,
     },
-    // How close the player has been: 0, 1 (within 3 km: the label), 2
-    // (within 1 km: the area too) or 3 (within 300 m: the rarity). Only ever
-    // goes up.
+    // How close the player has been, from when walking revealed clues for
+    // free (0–3; until 2026-10-30). No longer written or read.
     revealed: { type: Number, default: 0 },
     // Hot-and-cold hint: where the last reading was taken, and
     // whether the one after it was 'closer', 'farther' or 'same'. The only

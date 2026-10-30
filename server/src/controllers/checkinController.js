@@ -1,7 +1,7 @@
 import CheckIn from '../models/CheckIn.js';
 import Location from '../models/Location.js';
 import User from '../models/User.js';
-import { evaluateAchievements, calculateLevel, RANDOM_DRAW_WINDOW_MS, huntXp, huntStepOf, huntMissCount, HISTORY_LABELS } from '../services/gamification.js';
+import { evaluateAchievements, calculateLevel, RANDOM_DRAW_WINDOW_MS, HISTORY_LABELS } from '../services/gamification.js';
 import { haversineDistance } from '../utils/geo.js';
 
 const MAX_DISTANCE_METERS = 100;
@@ -37,33 +37,22 @@ export async function checkIn(req, res, next) {
         return res.status(403).json({ message: 'You need to be at the location to check in!' });
       }
     }
-    // Treasure hunt: this location is the user's hidden target, still within
-    // its 24h window and not yet found. Collecting it here (e.g. from
-    // Explore) counts as a hit on the next press, at the current multiplier.
-    // (Draws from the retired open mode, mode 'open', no longer pay a bonus.)
+    // A normal check-in always pays the card's own XP, even on the user's
+    // hidden treasure: only a press on the Treasure Hunt page pays the
+    // multiplier (user's call, 2026-10-30: otherwise a player could check in
+    // at every candidate nearby for free and lose nothing on the wrong ones).
+    // Collecting the treasure this way ends the hunt unfound (recordCheckIn).
     const user = await User.findById(req.user._id);
-    const draw = user.randomDraw || {};
-    const drawActive = draw.slug === location.slug
-      && draw.drawnAt
-      && Date.now() - new Date(draw.drawnAt).getTime() < RANDOM_DRAW_WINDOW_MS
-      && !draw.bonusUsed
-      && draw.mode === 'hidden';
-    let xpEarned = location.xpReward;
-    let guessAttempt;
-    if (drawActive) {
-      guessAttempt = huntMissCount(draw) + 1;
-      xpEarned = huntXp(location.xpReward, huntStepOf(draw));
-    }
-
-    const result = await recordCheckIn(user, location, { note, xpEarned, guessAttempt });
-    res.status(201).json({ message: 'Checked in!', bonusApplied: drawActive, ...result });
+    const result = await recordCheckIn(user, location, { note, xpEarned: location.xpReward });
+    res.status(201).json({ message: 'Checked in!', bonusApplied: false, ...result });
   } catch (err) {
     next(err);
   }
 }
 
-// Creates the CheckIn, awards XP, marks an active draw as claimed when this is
-// its location, evaluates achievements and saves the user. `user` must be a
+// Creates the CheckIn, awards XP, ends an active hunt whose treasure this is
+// (found with a press when `guessAttempt` is given, forfeited otherwise),
+// evaluates achievements and saves the user. `user` must be a
 // full (non-lean) User document. Shared by the normal check-in and the
 // treasure hunt's guess endpoint.
 export async function recordCheckIn(user, location, { note = '', xpEarned, guessAttempt } = {}) {
@@ -73,9 +62,14 @@ export async function recordCheckIn(user, location, { note = '', xpEarned, guess
   user.totalXP += xpEarned;
   if (user.randomDraw?.slug === location.slug && !user.randomDraw.bonusUsed
       && user.randomDraw.drawnAt
+      && !user.randomDraw.forfeited
       && Date.now() - new Date(user.randomDraw.drawnAt).getTime() < RANDOM_DRAW_WINDOW_MS) {
-    user.randomDraw.bonusUsed = true;
-    if (guessAttempt) user.randomDraw.solvedAttempt = guessAttempt;
+    if (guessAttempt) {
+      user.randomDraw.bonusUsed = true;
+      user.randomDraw.solvedAttempt = guessAttempt;
+    } else {
+      user.randomDraw.forfeited = true;
+    }
     // The hunt is over: drop the hot-and-cold reference point (a position).
     user.randomDraw.trendRef = null;
     user.randomDraw.trend = null;

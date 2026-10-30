@@ -51,7 +51,7 @@ export const userAPI = {
   drawRandomLocation: (pos) => api.post('/user/random-draw', { ...(pos || {}) }),
   guessTreasure:    (pos) => api.post('/user/random-draw/guess', pos),
   // Takes a clue ('labels', 'direction' or 'distance') for half a step of multiplier.
-  takeHuntClue:     (key, pos) => api.post('/user/random-draw/clue', { key, ...(pos || {}) }),
+  takeHuntClue:     pos => api.post('/user/random-draw/clue', pos || {}),
   getTreasures:     () => api.get('/user/treasures'),
   getHistoryProgress:  ()     => api.get('/user/history-progress'),
   saveHistoryProgress: (slug) => api.put('/user/history-progress', { slug }),

@@ -1858,6 +1858,7 @@ html[data-lang="zh"] .detail-title-name {
 }
 .hunt-panel__clues { justify-content: center; flex-wrap: wrap; }
 .hunt-panel__clues > .detail-label-pill { border: 1px solid transparent; }
+.hunt-panel__hint { font-size: 14px; color: var(--text-muted); text-align: center; margin-top: -4px; }
 .hunt-panel__misses {
   width: 100%;
   margin: 0;
@@ -1869,14 +1870,12 @@ html[data-lang="zh"] .detail-title-name {
 .hunt-panel__square { font-size: 16px; text-align: center; color: var(--text-primary); }
 .hunt-panel__distance { font-family: var(--ui-font-text); font-size: 20px; font-weight: 600; color: var(--text-primary); text-align: center; }
 .hunt-panel__flash { font-size: 15px; text-align: center; }
-.hunt-panel__hint { font-size: 14px; color: var(--text-muted); text-align: center; margin-top: -4px; }
 /* "Take a clue": a quiet secondary action under the guess button. */
 .hunt-panel__clue { font-size: 14px; padding: 6px 14px; margin-top: 4px; }
 .hunt-panel__flash--miss { color: #e0a040; }
 .hunt-panel__flash--error { color: #e05050; }
 .hunt-panel__confirm { display: flex; flex-direction: column; align-items: center; gap: 8px; text-align: center; }
 .hunt-panel__confirm-buttons { display: flex; gap: 10px; }
-.hunt-panel__clue-choices { flex-wrap: wrap; justify-content: center; }
 .hunt-panel .px-btn:disabled { opacity: 0.45; cursor: not-allowed; box-shadow: none; transform: none; }
 .hunt-found { text-align: center; color: var(--gold); }
 .draw-countdown {

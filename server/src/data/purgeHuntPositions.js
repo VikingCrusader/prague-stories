@@ -24,7 +24,7 @@ async function run() {
   const unsetMisses = { $unset: { 'randomDraw.misses.$[].lat': '', 'randomDraw.misses.$[].lng': '' } };
   const hardcoreFilter = { hardcoreDraw: { $exists: true } };
 
-  const live = d => d?.drawnAt && !d.bonusUsed && Date.now() - new Date(d.drawnAt).getTime() < RANDOM_DRAW_WINDOW_MS;
+  const live = d => d?.drawnAt && !d.bonusUsed && !d.forfeited && Date.now() - new Date(d.drawnAt).getTime() < RANDOM_DRAW_WINDOW_MS;
   const stale = (await users.find({ 'randomDraw.trendRef.lat': { $ne: null, $exists: true } }, { projection: { randomDraw: 1 } }).toArray())
     .filter(u => !live(u.randomDraw));
 

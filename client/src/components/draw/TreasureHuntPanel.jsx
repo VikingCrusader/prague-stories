@@ -17,11 +17,11 @@ function readingText(r, t) {
 // An unsolved treasure hunt on the Treasure Hunt page. Everything shown here
 // comes from the server's `hunt` clue object (the location itself is never
 // sent until it is found; see buildHuntClues on the server): which side of
-// the Vltava it is on, a rough distance and the hot-and-cold trend; within
-// 3 km one label, within 1 km the district and usually the quarter, within
-// 300 m the rarity (each can also be taken as a clue); the direction
-// snapshot taken as a clue; and each miss's direction. The button works
-// anywhere: a miss costs a full step of multiplier, a clue half a step.
+// the Vltava it is on, a rough distance and the hot-and-cold trend; the
+// clues taken (a label, the rarity, the district and usually the quarter,
+// the direction snapshot), bought at random (the player doesn't pick) or
+// the one given free within 300 m; and each miss's direction. The button works anywhere: a
+// miss costs a full step of multiplier, a clue half a step.
 export default function TreasureHuntPanel({ hunt, onGuess, onClue, busy, flash }) {
   const t = useT();
   const { lang } = useLang();
@@ -76,10 +76,8 @@ export default function TreasureHuntPanel({ hunt, onGuess, onClue, busy, flash }
         </div>
       )}
       {hunt.district && <DistrictLine loc={{ quarter: hunt.quarter, district: hunt.district }} />}
-      {/* The next clue walking brings for free (nextFreeClue on the server):
-          a label within 3 km, the area within 1 km, the rarity within 300 m. */}
-      {hunt.nextFree && (
-        <div className="hunt-panel__hint">{t(`draw.huntNextFree.${hunt.nextFree.what}`)}</div>
+      {hunt.freeClue && (
+        <div className="hunt-panel__hint">{t('draw.huntFreeClue', { clue: t(`draw.clue.${hunt.freeClue}`) })}</div>
       )}
 
       {(hunt.snapshots.length > 0 || hunt.misses.length > 0) && (
@@ -99,13 +97,11 @@ export default function TreasureHuntPanel({ hunt, onGuess, onClue, busy, flash }
 
       {choosing ? (
         <div className="hunt-panel__confirm">
-          <span>{t('draw.huntClueChoose', { mult: hunt.clueMultiplier })}</span>
-          <div className="hunt-panel__confirm-buttons hunt-panel__clue-choices">
-            {hunt.availableClues.map(k => (
-              <button key={k} className="px-btn px-btn--gold" onClick={() => { setChoosing(false); onClue(k); }} disabled={busy}>
-                {t(`draw.clue.${k}`)}
-              </button>
-            ))}
+          <span>{t('draw.huntClueConfirm', { mult: hunt.clueMultiplier })}</span>
+          <div className="hunt-panel__confirm-buttons">
+            <button className="px-btn px-btn--gold" onClick={() => { setChoosing(false); onClue(); }} disabled={busy}>
+              {t('draw.huntClueYes')}
+            </button>
             <button className="px-btn" onClick={() => setChoosing(false)}>{t('draw.huntCancel')}</button>
           </div>
         </div>

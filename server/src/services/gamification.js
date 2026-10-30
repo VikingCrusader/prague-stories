@@ -28,27 +28,29 @@ export const HUNT_CLUE_STEPS = 1;
 // A press within this distance of the treasure finds it. The button works
 // anywhere; a miss tells which way the treasure lies from the pressed spot.
 export const HIDDEN_DRAW_HIT_M = 100;
-// Clues a player can take for half a step each, once each, in any order:
-//   label:     one of the card's labels (planHuntClues picks which), before
-//              walking within HUNT_REVEAL_M.first reveals it for free;
-//   rarity:    the rarity, before walking within HUNT_REVEAL_M.second
-//              reveals it for free (only that close: a "common" shown early
-//              made the walk feel not worth it, user's call);
-//   area:      the district and (if it passed the check) the quarter, before
-//              walking within HUNT_REVEAL_M.area reveals them for free;
+// Clues a player can take for half a step each, once each. The player
+// doesn't pick: each take draws one at random from those still left. Only
+// one ever comes for free: the first time the player is within
+// HUNT_FREE_CLUE_M, one drawn at random the same way (user's call,
+// 2026-10-30, after a playtest where free clues by distance, a label at
+// 3 km, the area at 1 km, the rarity at 300 m, all but located the card):
+//   label:     one of the card's labels (planHuntClues picks which);
+//   rarity:    the rarity;
+//   area:      the district and (if it passed the check) the quarter;
 //   direction: which way the treasure lies from here, at that moment only
 //              (not a filter: using it means walking and working it out).
 // A distance snapshot was tried and dropped the same day: the distance
 // reading already says as much (user's call).
 export const HUNT_CLUES = ['rarity', 'label', 'area', 'direction'];
-export const HUNT_REVEAL_M = { first: 3000, area: 1000, second: 300 };
-// The check on the free clues. The label must fit at least
+export const HUNT_FREE_CLUE_M = 300;
+// The check on the label and quarter clues. The label must fit at least
 // HUNT_MIN_FIRST_CANDIDATES of the cards it could be: uncollected, on the
-// same bank, within HUNT_REVEAL_M.first of the treasure. The quarter is only
+// same bank, within HUNT_LABEL_CHECK_M of the treasure. The quarter is only
 // given if at least HUNT_MIN_QUARTER_CANDIDATES uncollected cards in it also
 // carry that label (Explore filters by quarter); otherwise the area clue is
 // the district alone. Both counts include the treasure.
 export const HUNT_MIN_FIRST_CANDIDATES = 6;
+export const HUNT_LABEL_CHECK_M = 3000;
 // A new treasure is at least this far from where the player starts the hunt
 // (when anything that far is left), so a hunt is always a walk.
 export const HUNT_MIN_START_M = 4000;
@@ -71,10 +73,14 @@ export function huntMissCount(draw) {
   return (draw?.misses || []).filter(m => !m.skipped).length;
 }
 
-/** A hunt's current step on HUNT_MULTIPLIERS (old skipped guesses count as clues). */
+/**
+ * A hunt's current step on HUNT_MULTIPLIERS: bought clues count, the free
+ * one doesn't (old skipped guesses count as clues).
+ */
 export function huntStepOf(draw) {
   const skipped = (draw?.misses || []).length - huntMissCount(draw);
-  return huntStep(huntMissCount(draw), (draw?.clues?.length || 0) + skipped);
+  const bought = (draw?.clues || []).filter(c => !c.free).length;
+  return huntStep(huntMissCount(draw), bought + skipped);
 }
 
 /** XP for collecting a treasure at ladder step `step`. */
