@@ -269,9 +269,10 @@ describe('treasure hunt multiplier ladder', () => {
   const mult = (misses, clues) => HUNT_MULTIPLIERS[huntStep(misses, clues)];
 
   test('a miss drops a full step, a clue half a step', () => {
-    expect([0, 1, 2, 3, 4].map(m => mult(m, 0))).toEqual([10, 6, 4, 2, 1]);
-    expect(mult(0, 1)).toBe(8);
-    expect(mult(1, 1)).toBe(5);
+    // Three presses pay a bonus, then 1x for good.
+    expect([0, 1, 2, 3, 4].map(m => mult(m, 0))).toEqual([10, 4, 2, 1, 1]);
+    expect([0, 1, 2].map(m => mult(m, 1))).toEqual([6, 3, 1.5]);
+    expect(mult(0, 2)).toBe(4);
   });
 
   test('a clue always costs less than a miss', () => {
@@ -285,6 +286,6 @@ describe('treasure hunt multiplier ladder', () => {
   });
 
   test('pays whole XP at 1.5x', () => {
-    expect(huntXp(20, huntStep(3, 1))).toBe(30);
+    expect(huntXp(20, huntStep(2, 1))).toBe(30);
   });
 });

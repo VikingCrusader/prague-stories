@@ -18,11 +18,16 @@ export const RANDOM_DRAW_WINDOW_MS = 24 * 60 * 60 * 1000;
 // on its own.
 //
 // Pressing costs multiplier. The multiplier sits on a ladder of half steps;
-// a miss moves it down a full step (10 → 6 → 4 → 2 → 1), taking a clue only
-// half a step (10 → 8, 6 → 5, 4 → 3, 2 → 1.5), so a clue is always cheaper
-// than a blind guess (user's call). It never goes below 1x, and misses never
-// end the hunt; only the 24h window does.
-export const HUNT_MULTIPLIERS = [10, 8, 6, 5, 4, 3, 2, 1.5, 1];
+// a miss moves it down a full step (10 → 4 → 2 → 1: without clues only three
+// presses pay a bonus), taking a clue only half a step (10 → 6, 4 → 3,
+// 2 → 1.5), so a clue is always cheaper than a blind guess. Made harder on
+// 2026-10-30 (user's call; it was 10/8/6/5/4/3/2/1.5/1): the first clue
+// makes the hunt much easier, so it costs 40%; the first miss costs 60%,
+// so a player with no clues is pushed to buy one rather than guess; after
+// one miss the treasure is easy to find, so 3x or 2x is plenty, and the
+// floor is reached for sure. It never goes below 1x, and misses never end
+// the hunt; only the 24h window does.
+export const HUNT_MULTIPLIERS = [10, 6, 4, 3, 2, 1.5, 1];
 export const HUNT_MISS_STEPS = 2;
 export const HUNT_CLUE_STEPS = 1;
 // A press within this distance of the treasure finds it. The button works

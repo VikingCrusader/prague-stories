@@ -32,7 +32,7 @@ const active = extra => ({
 });
 
 const hunt = extra => ({
-  multiplier: 10, missMultiplier: 6, clueMultiplier: 8, presses: 0,
+  multiplier: 10, missMultiplier: 4, clueMultiplier: 6, presses: 0,
   availableClues: ['rarity', 'label', 'area', 'direction'],
   reading: { about: 5000 }, trend: null, riverSide: 'oldTown',
   firstRevealed: false, areaRevealed: false, freeClues: [], nextFree: { at: 1000, what: 'area' },
@@ -64,7 +64,7 @@ test.describe('Treasure hunt', () => {
     await page.route(GUESS_RE, route => {
       state = active({
         hunt: hunt({
-          multiplier: 6, missMultiplier: 4, clueMultiplier: 5, presses: 1,
+          multiplier: 4, missMultiplier: 2, clueMultiplier: 3, presses: 1,
           misses: [{ direction: 'S' }], reading: { about: 1500 }, trend: 'closer',
         }),
       });
@@ -93,14 +93,14 @@ test.describe('Treasure hunt', () => {
 
     // The button works from anywhere, after a confirm that quotes the cost.
     await panel.getByRole('button', { name: "It's here!" }).click();
-    await expect(panel.getByText('Press here? A miss drops the reward to 6×.')).toBeVisible();
+    await expect(panel.getByText('Press here? A miss drops the reward to 4×.')).toBeVisible();
     await panel.getByRole('button', { name: 'Yes, here' }).click();
 
     await expect(panel.getByText('Presses: 1')).toBeVisible();
     await expect(panel.getByText('Press 1: the treasure lies south of where you pressed.')).toBeVisible();
     await expect(panel.getByText('Not here. Check the new clues.')).toBeVisible();
     await expect(panel.getByText('Distance from you: about 1.5 km · closer than before', { exact: true })).toBeVisible();
-    await expect(panel.locator('.hunt-panel__reward')).toHaveText('6× XP');
+    await expect(panel.locator('.hunt-panel__reward')).toHaveText('4× XP');
     // Within 3 km, still no label.
     await expect(panel.locator('.hunt-panel__clues .detail-label-pill')).toHaveCount(0);
   });
@@ -114,7 +114,7 @@ test.describe('Treasure hunt', () => {
       taken = route.request().postDataJSON();
       state = active({
         hunt: hunt({
-          multiplier: 8, missMultiplier: 5, clueMultiplier: 6, availableClues: ['rarity', 'label', 'area'],
+          multiplier: 6, missMultiplier: 3, clueMultiplier: 4, availableClues: ['rarity', 'label', 'area'],
           snapshots: [{ key: 'direction', direction: 'NE' }],
         }),
       });
@@ -123,8 +123,8 @@ test.describe('Treasure hunt', () => {
 
     await page.goto('/treasure-hunt');
     const panel = page.locator('.hunt-panel');
-    await panel.getByRole('button', { name: 'Take a clue (then 8×)' }).click();
-    await expect(panel.getByText("Take a random clue? You don't get to pick which. A find then pays 8×.")).toBeVisible();
+    await panel.getByRole('button', { name: 'Take a clue (then 6×)' }).click();
+    await expect(panel.getByText("Take a random clue? You don't get to pick which. A find then pays 6×.")).toBeVisible();
     // No choice of clue offered.
     await expect(panel.getByRole('button', { name: 'Direction now' })).toHaveCount(0);
     await expect(panel.getByRole('button', { name: 'Rarity' })).toHaveCount(0);
@@ -132,10 +132,10 @@ test.describe('Treasure hunt', () => {
     await panel.getByRole('button', { name: 'Yes, take one' }).click();
 
     await expect(panel.getByText('When you took the clue, the treasure lay north-east of you.')).toBeVisible();
-    await expect(panel.locator('.hunt-panel__reward')).toHaveText('8× XP');
+    await expect(panel.locator('.hunt-panel__reward')).toHaveText('6× XP');
     // Only the position goes along, never a pick.
     expect(taken).toEqual({ lat: 50.0875, lng: 14.4224 });
-    await expect(panel.getByRole('button', { name: 'Take a clue (then 6×)' })).toBeVisible();
+    await expect(panel.getByRole('button', { name: 'Take a clue (then 4×)' })).toBeVisible();
   });
 
   test('even within 300 m a press asks first; a hit reveals the card', async ({ page }) => {

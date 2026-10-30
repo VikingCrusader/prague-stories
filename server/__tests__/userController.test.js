@@ -234,7 +234,7 @@ describe('treasure hunt', () => {
     expect(res.body.mode).toBe('hidden');
     expect(res.body.location).toBeNull();
     expect(res.body.hunt).toMatchObject({
-      multiplier: 10, missMultiplier: 6, clueMultiplier: 8, presses: 0,
+      multiplier: 10, missMultiplier: 4, clueMultiplier: 6, presses: 0,
       availableClues: ['rarity', 'label', 'area', 'direction'],
       riverSide: 'oldTown', reading: { about: 5000 },
       firstRevealed: false, areaRevealed: false,
@@ -346,7 +346,7 @@ describe('treasure hunt', () => {
 
     let h = (await status(token, north(800))).body.hunt;
     expect(h).toMatchObject({
-      multiplier: 10, clueMultiplier: 8, areaRevealed: true, district: 'Praha 1', quarter: 'Staré Město',
+      multiplier: 10, clueMultiplier: 6, areaRevealed: true, district: 'Praha 1', quarter: 'Staré Město',
       labels: [], rarity: null, freeClues: [{ key: 'area', within: 1000 }],
       nextFree: { at: 300, what: 'rarityOrLabel' }, availableClues: ['rarity', 'label', 'direction'],
     });
@@ -368,7 +368,7 @@ describe('treasure hunt', () => {
     }
     expect((await User.findById(user._id).lean()).randomDraw.clues).toHaveLength(2);
     // A bought clue after them costs the usual half step.
-    expect((await takeClue(token, north(250))).body.draw.hunt.multiplier).toBe(8);
+    expect((await takeClue(token, north(250))).body.draw.hunt.multiplier).toBe(6);
   });
 
   test('a bought area is not given again at 1 km; a bought rarity leaves the label for 300 m', async () => {
@@ -377,9 +377,9 @@ describe('treasure hunt', () => {
     await startHunt(token);
     await User.updateOne({ _id: user._id }, { $set: { 'randomDraw.clues': [{ key: 'area' }, { key: 'rarity' }] } });
     let h = (await status(token, north(800))).body.hunt;
-    expect(h).toMatchObject({ multiplier: 6, freeClues: [], nextFree: { at: 300, what: 'rarityOrLabel' } });
+    expect(h).toMatchObject({ multiplier: 4, freeClues: [], nextFree: { at: 300, what: 'rarityOrLabel' } });
     h = (await status(token, north(250))).body.hunt;
-    expect(h).toMatchObject({ multiplier: 6, freeClues: [{ key: 'label', within: 300 }], nextFree: null, availableClues: ['direction'] });
+    expect(h).toMatchObject({ multiplier: 4, freeClues: [{ key: 'label', within: 300 }], nextFree: null, availableClues: ['direction'] });
   });
 
   test('a label that fits too few nearby cards is swapped for one that fits more', async () => {
@@ -443,7 +443,7 @@ describe('treasure hunt', () => {
       mults.push(res.body.draw.hunt.multiplier);
     }
     expect([...seen].sort()).toEqual(['area', 'label', 'rarity']);
-    expect(mults).toEqual([8, 6, 5]);
+    expect(mults).toEqual([6, 4, 3]);
     const h = (await status(token)).body.hunt;
     expect(h).toMatchObject({ rarity: 'rare', xpReward: 20, district: 'Praha 1', availableClues: ['direction'] });
     expect(['church', 'gothic']).toContain(h.labels[0]);
@@ -452,16 +452,16 @@ describe('treasure hunt', () => {
     expect((await takeClue(token)).status).toBe(400);
     const res = await takeClue(token, north(3000));
     expect(res.body.clue).toBe('direction');
-    expect(res.body.draw.hunt).toMatchObject({ multiplier: 4, availableClues: [], clueMultiplier: null });
+    expect(res.body.draw.hunt).toMatchObject({ multiplier: 2, availableClues: [], clueMultiplier: null });
     expect(res.body.draw.hunt.snapshots).toEqual([{ key: 'direction', direction: 'S' }]);
     // Walking on doesn't change it.
     const later = (await status(token, { lat: CHARLES_BRIDGE.lat - 0.02, lng: CHARLES_BRIDGE.lng })).body.hunt;
     expect(later.snapshots).toEqual([{ key: 'direction', direction: 'S' }]);
     expect((await takeClue(token, north(3000))).status).toBe(409);
 
-    // Found after four clues: 20 x 4.
+    // Found after four clues: 20 x 2.
     const hit = await guess(token, north(50));
-    expect(hit.body).toMatchObject({ hit: true, xpEarned: 80, guessAttempt: 1 });
+    expect(hit.body).toMatchObject({ hit: true, xpEarned: 40, guessAttempt: 1 });
   });
 
   test('a press works from anywhere; a miss costs a full step and gives its direction', async () => {
@@ -472,12 +472,12 @@ describe('treasure hunt', () => {
     let res = await guess(token, north(5000));
     expect(res.status).toBe(200);
     expect(res.body.hit).toBe(false);
-    expect(res.body.draw.hunt).toMatchObject({ multiplier: 6, presses: 1, misses: [{ direction: 'S' }] });
+    expect(res.body.draw.hunt).toMatchObject({ multiplier: 4, presses: 1, misses: [{ direction: 'S' }] });
 
-    // Clue then miss: 6 → 5 → 3.
+    // Clue then miss: 4 → 3 → 1.5.
     await takeClue(token);
     res = await guess(token, north(300));
-    expect(res.body.draw.hunt).toMatchObject({ multiplier: 3, presses: 2 });
+    expect(res.body.draw.hunt).toMatchObject({ multiplier: 1.5, presses: 2 });
     // The miss keeps no position or distance.
     const raw = await User.collection.findOne({ _id: (await User.findById(user._id))._id });
     expect(raw.randomDraw.misses[1]).not.toHaveProperty('lat');
@@ -548,7 +548,7 @@ describe('treasure hunt', () => {
     // One miss (a full step) and one skip (counted as a clue, half a step);
     // its label clue, once taken, is its first label.
     const h = (await status(token, north(800))).body.hunt;
-    expect(h).toMatchObject({ multiplier: 5, presses: 1, misses: [{ direction: 'S' }], labels: [], quarter: 'Staré Město' });
+    expect(h).toMatchObject({ multiplier: 3, presses: 1, misses: [{ direction: 'S' }], labels: [], quarter: 'Staré Město' });
     const label = await takeClueUntil(token, 'label');
     expect(label.body.draw.hunt.labels).toEqual(['church']);
     const hit = await guess(token, north(20));
