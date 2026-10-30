@@ -29,11 +29,13 @@ export const HUNT_CLUE_STEPS = 1;
 // anywhere; a miss tells which way the treasure lies from the pressed spot.
 export const HIDDEN_DRAW_HIT_M = 100;
 // Clues a player can take for half a step each, once each. The player
-// doesn't pick: each take draws one at random from those still left. Only
-// one ever comes for free: the first time the player is within
-// HUNT_FREE_CLUE_M, one drawn at random the same way (user's call,
-// 2026-10-30, after a playtest where free clues by distance, a label at
-// 3 km, the area at 1 km, the rarity at 300 m, all but located the card):
+// doesn't pick: each take draws one at random from those still left.
+// Walking in brings two for free, no more (user's calls, 2026-10-30, after
+// a playtest where a free label at 3 km all but located the card): within
+// HUNT_FREE_AREA_M the area (that close it mostly keeps the player from
+// wandering out of the right quarter, it doesn't point anywhere), and
+// within HUNT_FREE_CLUE_M one of HUNT_FREE_CLUE_KEYS at random, whichever
+// the player doesn't have yet. The direction is never free:
 //   label:     one of the card's labels (planHuntClues picks which);
 //   rarity:    the rarity;
 //   area:      the district and (if it passed the check) the quarter;
@@ -42,7 +44,9 @@ export const HIDDEN_DRAW_HIT_M = 100;
 // A distance snapshot was tried and dropped the same day: the distance
 // reading already says as much (user's call).
 export const HUNT_CLUES = ['rarity', 'label', 'area', 'direction'];
+export const HUNT_FREE_AREA_M = 1000;
 export const HUNT_FREE_CLUE_M = 300;
+export const HUNT_FREE_CLUE_KEYS = ['rarity', 'label'];
 // The check on the label and quarter clues. The label must fit at least
 // HUNT_MIN_FIRST_CANDIDATES of the cards it could be: uncollected, on the
 // same bank, within HUNT_LABEL_CHECK_M of the treasure. The quarter is only
@@ -74,8 +78,8 @@ export function huntMissCount(draw) {
 }
 
 /**
- * A hunt's current step on HUNT_MULTIPLIERS: bought clues count, the free
- * one doesn't (old skipped guesses count as clues).
+ * A hunt's current step on HUNT_MULTIPLIERS: bought clues count, free ones
+ * don't (old skipped guesses count as clues).
  */
 export function huntStepOf(draw) {
   const skipped = (draw?.misses || []).length - huntMissCount(draw);

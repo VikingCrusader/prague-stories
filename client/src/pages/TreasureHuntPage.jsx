@@ -26,16 +26,17 @@ function formatCountdown(ms) {
 }
 
 // The hunt's clues, for the rules section: which come for free (the river
-// side and the distance always; within 300 m one of the others, at random),
-// and which can be bought for half a step (at random, the player doesn't
-// pick). Mirrors HUNT_CLUES and HUNT_FREE_CLUE_M on the server.
+// side and the distance always, the area within 1 km, the rarity or the
+// label within 300 m), and which can be bought for half a step (at random,
+// the player doesn't pick). Mirrors HUNT_CLUES and HUNT_FREE_* on the
+// server.
 const HUNT_CLUES = [
   { key: 'side', free: 'draw.huntTable.always', take: false },
   { key: 'reading', free: 'draw.huntTable.always', take: false },
   { key: 'label', free: '300 m*', take: true },
-  { key: 'area', free: '300 m*', take: true },
+  { key: 'area', free: '1 km', take: true },
   { key: 'rarity', free: '300 m*', take: true },
-  { key: 'direction', free: '300 m*', take: true },
+  { key: 'direction', free: '—', take: true },
 ];
 
 function HuntClueTable({ t }) {
@@ -77,6 +78,9 @@ export default function TreasureHuntPage() {
   const [status, setStatus] = useState(null);
   const [loading, setLoading] = useState(true);
   const [starting, setStarting] = useState(false);
+  // Why the server refused to start a hunt: 'outsidePrague' or
+  // 'positionRequired' (drawRandomLocation on the server).
+  const [startError, setStartError] = useState(null);
   const [now, setNow] = useState(Date.now());
   const [selectedSlug, setSelectedSlug] = useState(null);
   const refreshingOnExpiry = useRef(false);
@@ -97,17 +101,20 @@ export default function TreasureHuntPage() {
   const posRef = useRef(userPos);
   posRef.current = userPos;
 
-  // The free clue within 300 m arrives with a poll: announce it once, like
-  // a clue taken.
-  const freeClue = status?.hunt?.freeClue ?? null;
-  const seenFreeClue = useRef(undefined);
+  // Free clues arrive with a poll: announce a new one once, like a clue
+  // taken (not the ones already there when the page loads).
+  const freeClues = status?.hunt?.freeClues;
+  const freeKeys = (freeClues || []).map(c => c.key).join(',');
+  const seenFree = useRef(null);
   useEffect(() => {
-    if (seenFreeClue.current === null && freeClue) {
+    if (!freeClues) return;
+    const fresh = seenFree.current && freeClues.find(c => !seenFree.current.includes(c.key));
+    if (fresh) {
       playClueSound();
-      setHuntFlash({ type: 'miss', text: t('draw.huntFreeClue', { clue: t(`draw.clue.${freeClue}`) }) });
+      setHuntFlash({ type: 'miss', text: t('draw.huntFreeClue', { r: fresh.within >= 1000 ? `${fresh.within / 1000} km` : `${fresh.within} m`, clue: t(`draw.clue.${fresh.key}`) }) });
     }
-    if (status?.hunt) seenFreeClue.current = freeClue;
-  }, [freeClue, status?.hunt, t]);
+    seenFree.current = freeClues.map(c => c.key);
+  }, [freeKeys]);
 
   const fetchStatus = useCallback(() => {
     if (!user) return Promise.resolve();
@@ -197,16 +204,21 @@ export default function TreasureHuntPage() {
     }
   }, [msLeft, status?.active, expiresAt, fetchStatus]);
 
-  // The treasure is picked at least 4 km from here (when possible), so ask
-  // for a fresh position; without one any card will do.
+  // A hunt can only start inside Prague, and the treasure is picked at least
+  // 4 km from here (when possible), so ask for a fresh position.
   const handleStart = async () => {
     unlockAudio();
     setStarting(true);
     setHuntFlash(null);
+    setStartError(null);
     const pos = await getCurrentPosition().catch(() => posRef.current);
     Promise.all([userAPI.drawRandomLocation(pos), shuffleDone()])
       .then(([res]) => setStatus(res.data))
-      .catch(() => fetchStatus())
+      .catch(err => {
+        const code = err.response?.data?.code;
+        if (code === 'outsidePrague' || code === 'positionRequired') setStartError(code);
+        fetchStatus();
+      })
       .finally(() => { setShuffling(false); setStarting(false); });
   };
 
@@ -324,6 +336,7 @@ export default function TreasureHuntPage() {
                       {starting ? t('draw.buttonDrawing') : t('draw.buttonHuntStart')}
                     </button>
                     {!user && <p className="guide-body draw-mode-hint">{t('draw.huntGuestOnly')}</p>}
+                    {startError && <p className="guide-body draw-mode-hint" role="alert">{t(`draw.huntStartError.${startError}`)}</p>}
                   </>
                 )}
               </>

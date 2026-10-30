@@ -20,7 +20,8 @@ function readingText(r, t) {
 // the Vltava it is on, a rough distance and the hot-and-cold trend; the
 // clues taken (a label, the rarity, the district and usually the quarter,
 // the direction snapshot), bought at random (the player doesn't pick) or
-// the one given free within 300 m; and each miss's direction. The button works anywhere: a
+// given free for walking in (the area within 1 km, the rarity or the label
+// within 300 m); the next free one; and each miss's direction. The button works anywhere: a
 // miss costs a full step of multiplier, a clue half a step.
 export default function TreasureHuntPanel({ hunt, onGuess, onClue, busy, flash }) {
   const t = useT();
@@ -76,8 +77,13 @@ export default function TreasureHuntPanel({ hunt, onGuess, onClue, busy, flash }
         </div>
       )}
       {hunt.district && <DistrictLine loc={{ quarter: hunt.quarter, district: hunt.district }} />}
-      {hunt.freeClue && (
-        <div className="hunt-panel__hint">{t('draw.huntFreeClue', { clue: t(`draw.clue.${hunt.freeClue}`) })}</div>
+      {hunt.freeClues.map(c => (
+        <div key={c.key} className="hunt-panel__hint">
+          {t('draw.huntFreeClue', { r: metres(c.within), clue: t(`draw.clue.${c.key}`) })}
+        </div>
+      ))}
+      {hunt.nextFree && (
+        <div className="hunt-panel__hint">{t(`draw.huntNextFree.${hunt.nextFree.what}`)}</div>
       )}
 
       {(hunt.snapshots.length > 0 || hunt.misses.length > 0) && (

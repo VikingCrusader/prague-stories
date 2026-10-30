@@ -3,13 +3,14 @@ import CheckIn from '../models/CheckIn.js';
 import Location from '../models/Location.js';
 import {
   ACHIEVEMENTS, LEVELS, calculateLevel, RANDOM_DRAW_WINDOW_MS,
-  HUNT_MULTIPLIERS, HUNT_MISS_STEPS, HUNT_CLUE_STEPS, HUNT_CLUES, HUNT_FREE_CLUE_M, HIDDEN_DRAW_HIT_M,
+  HUNT_MULTIPLIERS, HUNT_MISS_STEPS, HUNT_CLUE_STEPS, HUNT_CLUES, HUNT_FREE_AREA_M, HUNT_FREE_CLUE_M, HUNT_FREE_CLUE_KEYS, HIDDEN_DRAW_HIT_M,
   HUNT_LABEL_CHECK_M, HUNT_MIN_FIRST_CANDIDATES, HUNT_MIN_QUARTER_CANDIDATES, HUNT_MIN_START_M,
   HUNT_TREND_STEP_M, HUNT_TREND_SAME_M, HUNT_EXCLUDED_SLUGS,
   HIDDEN_DRAW_VAGUE_LABELS, riverSideOf, orderHuntLabels, huntXp, huntReading,
   huntStepOf, huntMissCount,
 } from '../services/gamification.js';
 import { haversineDistance, compassDirection } from '../utils/geo.js';
+import { inPrague } from '../utils/pragueBoundary.js';
 import { recordCheckIn } from './checkinController.js';
 import { parsePreferences } from '../utils/preferences.js';
 
@@ -137,9 +138,8 @@ function clueLabelOf(draw, location) {
   return (draw.labelOrder?.length ? draw.labelOrder : location.labels || [])[0] ?? null;
 }
 
-// Which clues a hunt shows: the ones taken, bought or the free one (the
-// old free reveals by distance ended 2026-10-30, so a leftover `revealed`
-// is ignored).
+// Which clues a hunt shows: the ones taken, bought or free (a leftover
+// `revealed`, from the free reveals before 2026-10-30, is ignored).
 function shownClues(draw, location) {
   const taken = new Set((draw.clues || []).map(c => c.key));
   return {
@@ -157,6 +157,18 @@ function availableClues(draw, location) {
   return HUNT_CLUES.filter(k => !shown[k] && !(k === 'label' && !clueLabelOf(draw, location)));
 }
 
+// Whether the 300 m free clue (the rarity or the label) has been given.
+const hasCloseFreeClue = draw => (draw.clues || []).some(c => c.free && HUNT_FREE_CLUE_KEYS.includes(c.key));
+
+// The next clue walking in will bring for free, for the panel's hint, or
+// null when nothing more comes free.
+function nextFreeClue(draw, location) {
+  const left = availableClues(draw, location);
+  if (left.includes('area')) return { at: HUNT_FREE_AREA_M, what: 'area' };
+  if (!hasCloseFreeClue(draw) && left.some(k => HUNT_FREE_CLUE_KEYS.includes(k))) return { at: HUNT_FREE_CLUE_M, what: 'rarityOrLabel' };
+  return null;
+}
+
 // Treasure hunt, still unsolved: only the clues go to the client, never the
 // location or its coordinates (they'd be readable in devtools).
 //   - always: which side of the Vltava it is on, and the distance
@@ -164,14 +176,15 @@ function availableClues(draw, location) {
 //     / 100 m);
 //   - hot and cold, all the way: every HUNT_TREND_STEP_M walked, whether the
 //     player got closer or farther;
-//   - taken as a clue, drawn at random (bought, or the one free clue the
-//     first time the player is within HUNT_FREE_CLUE_M): one label
-//     (planHuntClues), the rarity, the district and the quarter if it
-//     passed the check (planHuntClues), the direction as it was then;
+//   - free within 1 km: the district, and the quarter if it passed the
+//     check (planHuntClues);
+//   - free within 300 m: the rarity or the label, one of them at random;
+//   - bought, drawn at random: any of those not had yet, or the direction
+//     as it was then;
 //   - each miss: the direction from the spot pressed (never its distance:
 //     several exact distances would triangulate the treasure).
 // A reported position moves the trend's reference point and may earn the
-// free clue; both are written here.
+// free clues; both are written here.
 async function buildHuntClues(user, draw, location, pos) {
   const { lat, lng } = location.coordinates;
   let trend = draw.trend || null;
@@ -194,19 +207,26 @@ async function buildHuntClues(user, draw, location, pos) {
     if (Object.keys(set).length) {
       await User.updateOne({ _id: user._id, 'randomDraw.slug': draw.slug }, { $set: set });
     }
-    // The one free clue, drawn at random from those left, the first time the
-    // player is this close. Conditional so two polls can't give two.
-    const left = availableClues(draw, location);
-    if (d < HUNT_FREE_CLUE_M && left.length && !(draw.clues || []).some(c => c.free)) {
-      const key = left[Math.floor(Math.random() * left.length)];
-      const clue = { key, free: true, at: new Date() };
-      if (key === 'direction') clue.direction = compassDirection(pos.lat, pos.lng, lat, lng);
+    // The free clues for walking in: the area within 1 km (unless already
+    // bought), then within 300 m the rarity or the label at random, whichever
+    // the player doesn't have yet. Each push is conditional so two polls
+    // can't give one twice.
+    const give = async (key, guard) => {
       const updated = await User.findOneAndUpdate(
-        { _id: user._id, 'randomDraw.slug': draw.slug, 'randomDraw.clues.free': { $ne: true } },
-        { $push: { 'randomDraw.clues': clue } },
+        { _id: user._id, 'randomDraw.slug': draw.slug, ...guard },
+        { $push: { 'randomDraw.clues': { key, free: true, at: new Date() } } },
         { new: true, projection: { randomDraw: 1 } },
       ).lean();
       if (updated) draw = updated.randomDraw;
+    };
+    if (d < HUNT_FREE_AREA_M && availableClues(draw, location).includes('area')) {
+      await give('area', { 'randomDraw.clues.key': { $ne: 'area' } });
+    }
+    const close = availableClues(draw, location).filter(k => HUNT_FREE_CLUE_KEYS.includes(k));
+    if (d < HUNT_FREE_CLUE_M && close.length && !hasCloseFreeClue(draw)) {
+      await give(close[Math.floor(Math.random() * close.length)], {
+        'randomDraw.clues': { $not: { $elemMatch: { free: true, key: { $in: HUNT_FREE_CLUE_KEYS } } } },
+      });
     }
   }
 
@@ -225,8 +245,11 @@ async function buildHuntClues(user, draw, location, pos) {
     reading,
     trend,
     riverSide: riverSideOf(location.quarter),
-    // Which clue came free within HUNT_FREE_CLUE_M, if it has.
-    freeClue: (draw.clues || []).find(c => c.free)?.key ?? null,
+    // The clues that came free, with the distance that brought them, and
+    // the next one walking in will bring.
+    freeClues: (draw.clues || []).filter(c => c.free)
+      .map(c => ({ key: c.key, within: c.key === 'area' ? HUNT_FREE_AREA_M : HUNT_FREE_CLUE_M })),
+    nextFree: nextFreeClue(draw, location),
     // Whether the label and area clues have been taken.
     firstRevealed: shown.label,
     areaRevealed: shown.area,
@@ -313,8 +336,11 @@ function shuffle(arr) {
 
 // Starts a treasure hunt: a random card from huntPool's (uncollected, inside
 // Prague, with a quarter, not on the river), at least HUNT_MIN_START_M from
-// where the player is, so every hunt is a walk (user's call, 2026-10-29).
-// With no position, or nothing that far left, any pool card will do. Its
+// where the player is, so every hunt is a walk (user's call, 2026-10-29);
+// with nothing that far left, any pool card will do. A hunt can only be
+// started from inside Prague's boundary (user's call, 2026-10-30): no
+// position is a 400, a position outside is a 403 (`code` tells the client
+// which). Skipped in development, like the check-in's distance check. Its
 // labels are ordered by orderHuntLabels and its free clues planned by
 // planHuntClues.
 export async function drawRandomLocation(req, res, next) {
@@ -326,12 +352,17 @@ export async function drawRandomLocation(req, res, next) {
     const existing = await buildDrawResponse(user);
     if (existing.active) return res.json(existing);
 
+    const pos = parsePosition(req.body);
+    if (process.env.NODE_ENV !== 'development') {
+      if (!pos) return res.status(400).json({ code: 'positionRequired', message: 'Your location is needed to start a treasure hunt' });
+      if (!inPrague(pos.lat, pos.lng)) return res.status(403).json({ code: 'outsidePrague', message: 'A treasure hunt can only be started in Prague' });
+    }
+
     const pool = await huntPool(user);
     if (!pool.length) {
       // User has checked in everywhere — nothing left to hide.
       return res.json({ active: false, canDraw: false, location: null, drawnAt: null, expiresAt: null, noneLeft: true });
     }
-    const pos = parsePosition(req.body);
     const far = pos ? pool.filter(c => c.coordinates
       && haversineDistance(pos.lat, pos.lng, c.coordinates.lat, c.coordinates.lng) >= HUNT_MIN_START_M) : [];
     const choices = far.length ? far : pool;

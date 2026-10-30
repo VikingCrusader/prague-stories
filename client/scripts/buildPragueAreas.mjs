@@ -2,7 +2,9 @@
 // (Praha 1-22) from ČÚZK's RÚIAN map service, simplified to ~15 m, and
 // writes src/utils/pragueAreas.json for areaAt() (utils/pragueAreas.js),
 // which finds the user's own quarter and district on the device, so their
-// position never leaves it. Boundaries rarely change; rerun by hand:
+// position never leaves it. Also writes the city outline (the districts'
+// rings) to server/src/data/pragueBoundary.json, where the server checks a
+// treasure hunt starts inside Prague. Boundaries rarely change; rerun by hand:
 //   node scripts/buildPragueAreas.mjs
 import { writeFileSync } from 'fs';
 import { fileURLToPath } from 'url';
@@ -35,3 +37,6 @@ if (districts.length !== 22) throw new Error(`expected 22 districts, got ${distr
 const out = fileURLToPath(new URL('../src/utils/pragueAreas.json', import.meta.url));
 writeFileSync(out, JSON.stringify({ quarters, districts }));
 console.log(`wrote ${quarters.length} quarters and ${districts.length} districts to ${out}`);
+const serverOut = fileURLToPath(new URL('../../server/src/data/pragueBoundary.json', import.meta.url));
+writeFileSync(serverOut, JSON.stringify({ districts: districts.map(d => d.rings) }));
+console.log(`wrote the city outline to ${serverOut}`);

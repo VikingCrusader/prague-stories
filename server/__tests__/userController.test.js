@@ -208,8 +208,9 @@ describe('treasure hunt', () => {
     throw new Error('never drew the target');
   }
 
-  async function startHunt(token, pos) {
-    return request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${token}`).send(pos || {});
+  // Started 5 km north of Charles Bridge (inside Prague) unless told otherwise.
+  async function startHunt(token, pos = north(5000)) {
+    return request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${token}`).send(pos);
   }
   const status = (token, pos) => request(app).get('/api/user/random-draw').query(pos).set('Authorization', `Bearer ${token}`);
   const guess = (token, pos) =>
@@ -258,6 +259,20 @@ describe('treasure hunt', () => {
     // Halfway between the two, both are within 4 km: either will do.
     await User.updateOne({ _id: user._id }, { $unset: { randomDraw: '' } });
     expect((await startHunt(token, north(3000))).body.active).toBe(true);
+  });
+
+  test('starts only from a position inside Prague', async () => {
+    await seedTarget();
+    const { token, user } = await createAuthedUser();
+    expect((await startHunt(token, {})).body.code).toBe('positionRequired');
+    // Brno, then just past the city line at Zbraslav's southern edge.
+    const brno = await startHunt(token, { lat: 49.1951, lng: 16.6068 });
+    expect(brno.status).toBe(403);
+    expect(brno.body.code).toBe('outsidePrague');
+    expect((await startHunt(token, { lat: 49.93, lng: 14.40 })).status).toBe(403);
+    expect((await User.findById(user._id).lean()).randomDraw?.slug ?? null).toBeNull();
+    // Inside, on the edge of town (Ďáblice) as well as in the centre.
+    expect((await startHunt(token, { lat: 50.155, lng: 14.48 })).body.active).toBe(true);
   });
 
   test('never picks an outside card or one without a quarter', async () => {
@@ -316,38 +331,55 @@ describe('treasure hunt', () => {
     expect((await status(token, north(600))).body.hunt.trend).toBe('closer');
   });
 
-  test('walking in gives exactly one free clue, at random, within 300 m', async () => {
+  test('walking in gives the area within 1 km and the rarity or the label within 300 m, nothing more', async () => {
     await seedTarget();
     await seedNeighbours(5);
     const { token, user } = await createAuthedUser();
     await startOnTarget(token, user);
 
-    const nothing = {
-      multiplier: 10, freeClue: null, firstRevealed: false, areaRevealed: false, labels: [], rarity: null,
-      district: null, quarter: null, snapshots: [], availableClues: ['rarity', 'label', 'area', 'direction'],
-    };
-    for (const m of [3500, 2500, 800, 350]) {
-      expect((await status(token, north(m))).body.hunt).toMatchObject(nothing);
+    for (const m of [3500, 2500, 1200]) {
+      expect((await status(token, north(m))).body.hunt).toMatchObject({
+        multiplier: 10, freeClues: [], labels: [], rarity: null, district: null, quarter: null,
+        nextFree: { at: 1000, what: 'area' },
+      });
     }
 
-    let h = (await status(token, north(250))).body.hunt;
-    expect(['rarity', 'label', 'area', 'direction']).toContain(h.freeClue);
-    // Free: the multiplier and the clue price haven't moved.
-    expect(h).toMatchObject({ multiplier: 10, clueMultiplier: 8 });
-    expect(h.availableClues).toHaveLength(3);
-    expect(h.availableClues).not.toContain(h.freeClue);
-    const free = h.freeClue;
+    let h = (await status(token, north(800))).body.hunt;
+    expect(h).toMatchObject({
+      multiplier: 10, clueMultiplier: 8, areaRevealed: true, district: 'Praha 1', quarter: 'Staré Město',
+      labels: [], rarity: null, freeClues: [{ key: 'area', within: 1000 }],
+      nextFree: { at: 300, what: 'rarityOrLabel' }, availableClues: ['rarity', 'label', 'direction'],
+    });
 
-    // Never a second one, however close or however often.
+    h = (await status(token, north(250))).body.hunt;
+    expect(h.freeClues).toHaveLength(2);
+    const close = h.freeClues[1];
+    expect(['rarity', 'label']).toContain(close.key);
+    expect(close.within).toBe(300);
+    expect(h).toMatchObject({ multiplier: 10, nextFree: null });
+    // Exactly one of the two, never the direction.
+    expect(h.availableClues).toEqual(['rarity', 'label', 'direction'].filter(k => k !== close.key));
+    if (close.key === 'rarity') expect(h).toMatchObject({ rarity: 'rare', labels: [] });
+    else expect(h).toMatchObject({ rarity: null, labels: [expect.any(String)] });
+
+    // Never more, however close or however often.
     for (const m of [200, 50, 250]) {
-      h = (await status(token, north(m))).body.hunt;
-      expect(h).toMatchObject({ freeClue: free, multiplier: 10 });
-      expect(h.availableClues).toHaveLength(3);
+      expect((await status(token, north(m))).body.hunt.freeClues).toHaveLength(2);
     }
-    expect((await User.findById(user._id).lean()).randomDraw.clues).toHaveLength(1);
-
-    // A bought clue after it costs the usual half step.
+    expect((await User.findById(user._id).lean()).randomDraw.clues).toHaveLength(2);
+    // A bought clue after them costs the usual half step.
     expect((await takeClue(token, north(250))).body.draw.hunt.multiplier).toBe(8);
+  });
+
+  test('a bought area is not given again at 1 km; a bought rarity leaves the label for 300 m', async () => {
+    await seedTarget();
+    const { token, user } = await createAuthedUser();
+    await startHunt(token);
+    await User.updateOne({ _id: user._id }, { $set: { 'randomDraw.clues': [{ key: 'area' }, { key: 'rarity' }] } });
+    let h = (await status(token, north(800))).body.hunt;
+    expect(h).toMatchObject({ multiplier: 6, freeClues: [], nextFree: { at: 300, what: 'rarityOrLabel' } });
+    h = (await status(token, north(250))).body.hunt;
+    expect(h).toMatchObject({ multiplier: 6, freeClues: [{ key: 'label', within: 300 }], nextFree: null, availableClues: ['direction'] });
   });
 
   test('a label that fits too few nearby cards is swapped for one that fits more', async () => {
@@ -516,7 +548,7 @@ describe('treasure hunt', () => {
     // One miss (a full step) and one skip (counted as a clue, half a step);
     // its label clue, once taken, is its first label.
     const h = (await status(token, north(800))).body.hunt;
-    expect(h).toMatchObject({ multiplier: 5, presses: 1, misses: [{ direction: 'S' }], labels: [], quarter: null });
+    expect(h).toMatchObject({ multiplier: 5, presses: 1, misses: [{ direction: 'S' }], labels: [], quarter: 'Staré Město' });
     const label = await takeClueUntil(token, 'label');
     expect(label.body.draw.hunt.labels).toEqual(['church']);
     const hit = await guess(token, north(20));
@@ -576,7 +608,7 @@ describe('GET /api/user/treasures', () => {
     const { token } = await createAuthedUser();
     // Make sure the hunt lands on 'hunted', then find it on the first guess.
     await checkIn(token, 'plain');
-    await request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${token}`).send({ mode: 'hidden' });
+    await request(app).post('/api/user/random-draw').set('Authorization', `Bearer ${token}`).send({ mode: 'hidden', ...CHARLES_BRIDGE });
     await request(app).post('/api/user/random-draw/guess').set('Authorization', `Bearer ${token}`).send(CHARLES_BRIDGE);
 
     const res = await request(app).get('/api/user/treasures').set('Authorization', `Bearer ${token}`);

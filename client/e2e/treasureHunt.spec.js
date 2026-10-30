@@ -35,7 +35,7 @@ const hunt = extra => ({
   multiplier: 10, missMultiplier: 6, clueMultiplier: 8, presses: 0,
   availableClues: ['rarity', 'label', 'area', 'direction'],
   reading: { about: 5000 }, trend: null, riverSide: 'oldTown',
-  firstRevealed: false, areaRevealed: false, freeClue: null,
+  firstRevealed: false, areaRevealed: false, freeClues: [], nextFree: { at: 1000, what: 'area' },
   rarity: null, xpReward: null, labels: [], district: null, quarter: null,
   snapshots: [], misses: [],
   ...extra,
@@ -89,8 +89,7 @@ test.describe('Treasure hunt', () => {
     await expect(panel.getByText('The treasure is on the right bank of the Vltava (the Old Town side).')).toBeVisible();
     // No labels at the start.
     await expect(panel.locator('.hunt-panel__clues .detail-label-pill')).toHaveCount(0);
-    // Nothing comes free, so no hint about the next free clue.
-    await expect(panel.getByText(/free\./)).toHaveCount(0);
+    await expect(panel.getByText('Within 1 km: the district and the quarter, free.')).toBeVisible();
 
     // The button works from anywhere, after a confirm that quotes the cost.
     await panel.getByRole('button', { name: "It's here!" }).click();
@@ -144,7 +143,8 @@ test.describe('Treasure hunt', () => {
     let state = active({
       hunt: hunt({
         multiplier: 1.5, missMultiplier: 1, clueMultiplier: null, availableClues: [], presses: 3,
-        firstRevealed: true, areaRevealed: true, rarity: 'rare', xpReward: 20, freeClue: 'area',
+        firstRevealed: true, areaRevealed: true, rarity: 'rare', xpReward: 20, nextFree: null,
+        freeClues: [{ key: 'area', within: 1000 }, { key: 'rarity', within: 300 }],
         district: 'Praha 1', quarter: 'Staré Město',
         snapshots: [{ key: 'direction', direction: 'N' }],
         misses: [{ direction: 'S' }, { direction: 'NE' }, { direction: 'W' }],
@@ -169,7 +169,8 @@ test.describe('Treasure hunt', () => {
     await expect(panel.getByText('Distance from you: within 300 m', { exact: true })).toBeVisible();
     await expect(panel.getByText('Rare', { exact: true })).toBeVisible();
     await expect(panel.getByText('Prague 1')).toBeVisible();
-    await expect(panel.getByText('Free clue within 300 m: District and quarter.')).toBeVisible();
+    await expect(panel.getByText('Free clue within 1 km: District and quarter.')).toBeVisible();
+    await expect(panel.getByText('Free clue within 300 m: Rarity.')).toBeVisible();
     await expect(panel.getByText('When you took the clue, the treasure lay north of you.')).toBeVisible();
     await expect(panel.getByText('Press 2: the treasure lies north-east of where you pressed.')).toBeVisible();
     await expect(panel.locator('.hunt-panel__reward')).toHaveText('1.5× XP · 30 XP');
@@ -183,6 +184,21 @@ test.describe('Treasure hunt', () => {
     await expect(page.locator('.flip-card--revealed .loc-card__name')).toHaveText('Týn Church');
     // The card itself carries no hunt badge; its detail view says it.
     await expect(page.locator('.flip-card--revealed .loc-card__hunt')).toHaveCount(0);
+  });
+
+  test('starting outside Prague is refused with a message', async ({ page }) => {
+    await loginAsUser(page);
+    await page.route(DRAW_RE, route => {
+      if (route.request().method() === 'POST') {
+        return route.fulfill({ status: 403, json: { code: 'outsidePrague', message: 'A treasure hunt can only be started in Prague' } });
+      }
+      return route.fulfill({ json: { active: false, canDraw: true, location: null, drawnAt: null, expiresAt: null } });
+    });
+    await page.goto('/treasure-hunt');
+    await page.getByRole('button', { name: 'Start the Hunt' }).click();
+    await expect(page.getByRole('alert')).toHaveText('You can only start a treasure hunt inside Prague.');
+    await expect(page.getByRole('button', { name: 'Start the Hunt' })).toBeEnabled();
+    await expect(page.locator('.hunt-panel')).toHaveCount(0);
   });
 
   test('an expired hunt shows its answer next to the start button', async ({ page }) => {

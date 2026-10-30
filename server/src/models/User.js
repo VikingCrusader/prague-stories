@@ -55,7 +55,8 @@ const userSchema = new mongoose.Schema({
     // Clues taken (HUNT_CLUES), half a step each, once each. The direction
     // snapshot keeps what it said then (never the position it was taken at).
     clues: {
-      // `free`: the one clue given within HUNT_FREE_CLUE_M, at no cost.
+      // `free`: given for walking in (the area within 1 km, the rarity or
+      // the label within 300 m), at no cost.
       type: [{ key: String, direction: String, free: Boolean, at: { type: Date, default: Date.now }, _id: false }],
       default: undefined,
     },
