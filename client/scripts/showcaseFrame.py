@@ -21,12 +21,14 @@ shade = shade.filter(ImageFilter.GaussianBlur(120))
 dark = Image.new('RGB', (W, H), (14, 11, 9))
 wall = Image.composite(wall, dark, shade)
 
-# panel size: keep the object's aspect, fill most of the height
-margin_y = 44
-inner_h = H - 2 * margin_y - 2 * 18
-scale = inner_h / src.height
-obj = src.resize((round(src.width * scale), inner_h), Image.LANCZOS)
+# panel size: keep the object's aspect, fill most of the height, but leave
+# side margins for a wide object (the 200-koruna scan hit the edges)
+margin_y, margin_x = 44, 64
 pad = 18
+inner_h = H - 2 * margin_y - 2 * pad
+inner_w = W - 2 * margin_x - 2 * pad
+scale = min(inner_h / src.height, inner_w / src.width)
+obj = src.resize((round(src.width * scale), round(src.height * scale)), Image.LANCZOS)
 pw, ph = obj.width + 2 * pad, obj.height + 2 * pad
 px, py = (W - pw) // 2, (H - ph) // 2
 
