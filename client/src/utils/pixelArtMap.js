@@ -116,12 +116,16 @@ export const LABEL_DEFINITIONS = {
     zh: "文化与艺术",
   },
   museum: { emoji: "🏛️", en: "Museum", cz: "Muzeum", zh: "博物馆" },
+  // Split 2026-10-31 (user's call): "monument" is for what was put up to
+  // remember a person, event or victims; "sculpture" for a card about a
+  // sculpture as a work of art. A commemorative statue of a person gets both.
   monument: {
-    emoji: "🗿",
-    en: "Monument & Statue",
-    cz: "Pomník & Socha",
-    zh: "纪念碑与雕像",
+    emoji: "🕯️",
+    en: "Monument & Memorial",
+    cz: "Pomník & Památník",
+    zh: "纪念碑",
   },
+  sculpture: { emoji: "🗿", en: "Sculpture", cz: "Socha", zh: "雕塑" },
   communism: {
     emoji: "☭",
     en: "Communism and Cold War",
@@ -205,6 +209,7 @@ export const LABEL_COLORS = {
   cultural: "#5a1480",
   museum: "#2a1a50",
   monument: "#3a2a50",
+  sculpture: "#5a4630",
   communism: "#6a0a0a",
   prehistory: "#5a3a1a",
   medieval: "#4a2a3a",
@@ -271,7 +276,7 @@ export const LABEL_GROUPS = [
   },
   {
     key: "place", en: "Places", cz: "Místa", zh: "地点",
-    labels: ["city", "village-and-town", "street", "square", "transport", "monument", "landmark"],
+    labels: ["city", "village-and-town", "street", "square", "transport", "monument", "sculpture", "landmark"],
   },
   {
     key: "other", en: "Other", cz: "Ostatní", zh: "其他",

@@ -700,7 +700,7 @@ Jubilejní výstava zanechala Praze i několik dalších trvalých darů, mezi n
     name: 'Havlíčkovo náměstí',
     slug: 'havlickovo-namesti',
     localizedNames: { cz: 'Havlíčkovo náměstí', zh: '哈夫利切科广场' },
-    labels: ['square', 'monument', 'national-revival'],
+    labels: ['square', 'national-revival'],
     district: 'Praha 3',
     quarter: 'Žižkov',
     coordinates: { lat: 50.08510268712071, lng: 14.454266101218957 },
@@ -1484,7 +1484,7 @@ Věž navrhl Jindřich Fialka a pro město byla postavena v malebném novoromán
     name: 'Lilith (David Černý)',
     slug: 'lilith-david-cerny',
     localizedNames: { cz: 'Lilith (David Černý)', zh: '莉莉丝（大卫·切尔尼）' },
-    labels: ['monument'],
+    labels: ['sculpture'],
     district: 'Praha 8',
     quarter: 'Karlín',
     coordinates: { lat: 50.09701996412785, lng: 14.461879164325273 },
@@ -1519,7 +1519,7 @@ Dílo je pro Černého typické, jeho veřejné umění v Praze zahrnuje otočno
     name: 'Lyčkovo Square (Intelligence Statue)',
     slug: 'lyckovo-namesti-inteligence',
     localizedNames: { cz: 'Lyčkovo náměstí (Socha Inteligence)', zh: '利奇科夫广场（智慧雕像）' },
-    labels: ['square', 'monument', 'park', 'world-wars', 'hidden-gem'],
+    labels: ['square', 'sculpture', 'park', 'world-wars', 'hidden-gem'],
     district: 'Praha 8',
     quarter: 'Karlín',
     coordinates: { lat: 50.093729257186624, lng: 14.458052431154787 },
@@ -2233,7 +2233,7 @@ Postaven byl v letech 1846 až 1850 pro železnici z Vídně přes Prahu do Drá
     name: 'Nikola Tesla Monument',
     slug: 'pomnik-nikoly-tesly',
     localizedNames: { cz: 'Pomník Nikoly Tesly', zh: '尼古拉·特斯拉纪念碑' },
-    labels: ['monument'],
+    labels: ['monument', 'sculpture'],
     district: 'Praha 6',
     quarter: 'Dejvice',
     coordinates: { lat: 50.10561393683505, lng: 14.394193185786111 },
@@ -3034,7 +3034,7 @@ Ateliéry vyrostly z realitního podnikání. Na počátku 30. let stavěl Václ
     name: 'Chaplin – Silent Film Sculpture',
     slug: 'plastika-chaplin-nemy-film',
     localizedNames: { cz: 'Plastika Charlieho Chaplina a němého filmu', zh: '卓别林与默片雕塑' },
-    labels: ['monument', 'hidden-gem'],
+    labels: ['sculpture', 'hidden-gem'],
     district: 'Praha 5',
     quarter: 'Hlubočepy',
     coordinates: { lat: 50.03669474737618, lng: 14.378528078724411 },
@@ -4180,7 +4180,7 @@ Vyrostl v letech 1979 až 1983 jako jedna z prvních výškových budov na Pankr
     name: 'Statue of Přemysl and Libuše',
     slug: 'sousosi-premysl-a-libuse',
     localizedNames: { cz: 'Sousoší Přemysl a Libuše', zh: '普热米斯尔与莉布谢雕像群' },
-    labels: ['monument', 'prehistory'],
+    labels: ['sculpture', 'prehistory'],
     district: 'Praha 2',
     quarter: 'Vyšehrad',
     coordinates: { lat: 50.06404393315454, lng: 14.41743619035803 },
@@ -5277,7 +5277,7 @@ Roku 1906 rozhodla městská rada postavit na náměstí velký společenský d�
     name: 'Bear Fountain',
     slug: 'medvedi-kasna',
     localizedNames: { cz: 'Medvědí kašna', zh: '熊喷泉' },
-    labels: ['monument', 'baroque'],
+    labels: ['sculpture', 'baroque'],
     district: 'Praha 5',
     quarter: 'Smíchov',
     coordinates: { lat: 50.07345007171272, lng: 14.407594755097794 },
@@ -9541,7 +9541,7 @@ Sál bez sloupů slouží divákům dodnes, nyní jako sídlo Divadla Studio DVA
     name: 'Josef Jungmann Monument',
     slug: 'pomnik-josefa-jungmanna',
     localizedNames: { cz: 'Pomník Josefa Jungmanna', zh: '约瑟夫·荣格曼纪念碑' },
-    labels: ['monument', 'national-revival'],
+    labels: ['monument', 'sculpture', 'national-revival'],
     district: 'Praha 1',
     quarter: 'Nové Město',
     coordinates: { lat: 50.082898826916484, lng: 14.422455089246863 },
@@ -9715,7 +9715,7 @@ Postaven byl v letech 1912 a 1913. První návrh Friedricha Ohmanna byl ve zdrž
     name: 'Fountain with the Statue of St. Joseph',
     slug: 'kasna-se-sochou-svateho-josefa',
     localizedNames: { cz: 'Kašna se sochou svatého Josefa', zh: '圣约瑟夫喷泉' },
-    labels: ['monument', 'baroque'],
+    labels: ['sculpture', 'baroque'],
     district: 'Praha 2',
     quarter: 'Nové Město',
     coordinates: { lat: 50.077911741413125, lng: 14.420998650332661 },
@@ -9779,7 +9779,7 @@ Před 19. stoletím lemovaly tento úsek břehu mlýny, koželužny a dřevařsk
     name: 'Alois Jirásek Monument',
     slug: 'pomnik-aloise-jiraska',
     localizedNames: { cz: 'Pomník Aloise Jiráska', zh: '阿洛伊斯·伊拉塞克纪念碑' },
-    labels: ['monument', 'national-revival'],
+    labels: ['monument', 'sculpture', 'national-revival'],
     district: 'Praha 2',
     quarter: 'Nové Město',
     coordinates: { lat: 50.07587563072989, lng: 14.41486328620291 },
@@ -10401,7 +10401,7 @@ Trh vznikl kolem roku 1232 jako srdce Havelského města, nové kupecké čtvrti
     name: 'Wimmer Fountain',
     slug: 'wimmerova-kasna',
     localizedNames: { cz: 'Wimmerova kašna', zh: '维默尔喷泉' },
-    labels: ['monument', 'classicism'],
+    labels: ['sculpture', 'classicism'],
     district: 'Praha 1',
     quarter: 'Staré Město',
     coordinates: { lat: 50.083935820174645, lng: 14.42042041409974 },
@@ -14577,7 +14577,7 @@ Fyzická historie kostela byla přinejmenším stejně turbulentní jako ta pís
     name: "Winegrower's Column (Prosek)",
     slug: 'vinarsky-sloup-prosek',
     localizedNames: { cz: 'Vinařský sloup na Proseku', zh: '普罗塞克酿酒人纪念柱' },
-    labels: ['monument', 'baroque'],
+    labels: ['monument', 'sculpture', 'baroque'],
     district: 'Praha 9',
     quarter: 'Prosek',
     coordinates: { lat: 50.116437304544135, lng: 14.494034170138463 },
@@ -15987,7 +15987,7 @@ Ve 20. letech 17. století založil Albrecht z Valdštejna, nesmírně bohatý v
     name: 'Na Horu',
     slug: 'na-horu',
     localizedNames: { cz: 'Na Horu', zh: 'Na Horu' },
-    labels: ['monument'],
+    labels: ['sculpture'],
     district: 'Praha 6',
     quarter: 'Dejvice',
     coordinates: { lat: 50.098409653899814, lng: 14.366963010704229 },
@@ -16380,7 +16380,7 @@ Park vyrostl z promenád vyměřených v první polovině 19. století na starý
     name: 'Woodrow Wilson Statue',
     slug: 'wilsonova-socha-vrchlickeho-sady',
     localizedNames: { cz: 'Wilsonova socha ve Vrchlického sadech', zh: '威尔逊总统雕像' },
-    labels: ['monument', 'world-wars'],
+    labels: ['monument', 'sculpture', 'world-wars'],
     district: 'Praha 1',
     quarter: 'Nové Město',
     coordinates: { lat: 50.08388036950958, lng: 14.433117046954653 },
@@ -16440,7 +16440,7 @@ Navrhl ji architekt Josef Rosipal a otevřena byla roku 1913 jako pražský měs
     name: 'Maria Theresa Statue',
     slug: 'socha-marie-terezie',
     localizedNames: { cz: 'Socha Marie Terezie', zh: '玛丽亚·特蕾莎雕像' },
-    labels: ['monument', 'early-modern'],
+    labels: ['monument', 'sculpture', 'early-modern'],
     district: 'Praha 6',
     quarter: 'Hradčany',
     coordinates: { lat: 50.0943196288931, lng: 14.395349203811593 },
@@ -16714,7 +16714,7 @@ Hrad založil roku 1241 Zdeslav z Divišova, jehož rod po něm převzal jméno:
     name: 'Fraternization Monument',
     slug: 'sbratreni-vrchlickeho-sady',
     localizedNames: { cz: 'Sbratření (Vrchlického sady)', zh: '"兄弟情谊"纪念雕塑' },
-    labels: ['monument', 'communism', 'world-wars'],
+    labels: ['monument', 'sculpture', 'communism', 'world-wars'],
     district: 'Praha 1',
     quarter: 'Nové Město',
     coordinates: { lat: 50.085485385330486, lng: 14.435183149688795 },
@@ -18441,7 +18441,7 @@ Stromy jsou na lesní poměry stále mladé, takže se park rok od roku viditeln
     name: 'Hanging Sigmund Freud Statue (Viselec)',
     slug: 'viselec',
     localizedNames: { cz: 'Socha zavěšeného Sigmunda Freuda „Viselec“', zh: '"缢死者"——弗洛伊德悬空雕像' },
-    labels: ['monument', 'hidden-gem'],
+    labels: ['sculpture', 'hidden-gem'],
     district: 'Praha 1',
     quarter: 'Staré Město',
     coordinates: { lat: 50.08416512310257, lng: 14.41829954741853 },
@@ -18470,7 +18470,7 @@ Socha se jmenuje Viselec a v roce 1996 ji vytvořil David Černý, autor mnoha n
     name: 'Two-Headed Animal Sculpture',
     slug: 'dvouhlave-zvire',
     localizedNames: { cz: 'Dvouhlavé zvíře', zh: '双头动物雕塑' },
-    labels: ['monument', 'cultural', 'hidden-gem'],
+    labels: ['sculpture', 'cultural', 'hidden-gem'],
     district: 'Praha 13',
     quarter: 'Stodůlky',
     coordinates: { lat: 50.04997489828815, lng: 14.316730889429353 },
@@ -18927,7 +18927,7 @@ Architekt Josef Sakař ji navrhl v plné secesní výzdobě s rostlinnými reli�
     name: 'Memorial to the Child Victims of War',
     slug: 'pamatnik-detskych-obeti-valky',
     localizedNames: { cz: 'Památník dětských obětí války', zh: '战争儿童受难者纪念碑' },
-    labels: ['monument', 'world-wars', 'outside'],
+    labels: ['monument', 'sculpture', 'world-wars', 'outside'],
     coordinates: { lat: 50.14260938809003, lng: 14.199620127061664 },
     rarity: 'epic',
     xpReward: 50,
@@ -18960,7 +18960,7 @@ Její manžel, sochař Jiří Václav Hampl, v díle pokračoval a sháněl pen�
     name: 'Memorial to the Lidice Women — Woman with a Rose',
     slug: 'pamatnik-lidickych-zen-zena-s-ruzi',
     localizedNames: { cz: 'Památník lidických žen - socha Žena s růží', zh: '利迪策妇女纪念碑——"持玫瑰的女人"雕像' },
-    labels: ['monument', 'world-wars', 'outside'],
+    labels: ['monument', 'sculpture', 'world-wars', 'outside'],
     coordinates: { lat: 50.14163865209327, lng: 14.2011335209834 },
     rarity: 'epic',
     xpReward: 50,
@@ -19053,7 +19053,7 @@ Sochu vytvořil roku 1929 sochař Josef Franěk, žák Bohumila Kafky, a stupňo
     name: 'Chasm of Time Fountain',
     slug: 'fontana-propadliste-casu',
     localizedNames: { cz: 'Fontána Propadliště času', zh: '时间深渊喷泉' },
-    labels: ['monument'],
+    labels: ['sculpture'],
     district: 'Praha 5',
     quarter: 'Smíchov',
     coordinates: { lat: 50.078842838670354, lng: 14.404591347607745 },
@@ -19240,7 +19240,7 @@ Budova začínala jako šlechtický palác. V 17. století tu pozemky skoupil ro
     name: 'Genius Statues on Čech Bridge',
     slug: 'sochy-geniu-cechuv-most',
     localizedNames: { cz: 'Sloupy se sochami Géniů na Čechově mostě', zh: '切赫桥天才雕像柱' },
-    labels: ['monument', 'art-nouveau'],
+    labels: ['sculpture', 'art-nouveau'],
     district: 'Praha 1',
     quarter: 'Staré Město',
     coordinates: { lat: 50.09226289354037, lng: 14.417437857940982 },
@@ -19705,7 +19705,7 @@ Ludmila, manželka Bořivoje, prvního křesťanského knížete v Čechách, a 
     name: 'Statue of St. Ludmila (Charles Bridge)',
     slug: 'socha-sv-ludmily-karluv-most',
     localizedNames: { cz: 'Socha svaté Ludmily na Karlově mostě', zh: '查理大桥圣鲁德米拉像' },
-    labels: ['monument', 'cultural', 'baroque'],
+    labels: ['sculpture', 'cultural', 'baroque'],
     district: 'Praha 1',
     quarter: 'Malá Strana',
     coordinates: { lat: 50.086596006555546, lng: 14.410227467424823 },
@@ -19734,7 +19734,7 @@ Socha vznikla kolem let 1720 až 1730, nejspíš v dílně Matyáše Bernarda Br
     name: 'Calvary (Charles Bridge)',
     slug: 'kalvarie-karluv-most',
     localizedNames: { cz: 'Sousoší sv. Kříže s Kalvárií', zh: '查理大桥圣十字架与各各他群像' },
-    labels: ['monument', 'cultural', 'baroque'],
+    labels: ['sculpture', 'cultural', 'baroque'],
     district: 'Praha 1',
     quarter: 'Staré Město',
     coordinates: { lat: 50.086449058127634, lng: 14.412396319492517 },
@@ -20199,7 +20199,7 @@ Začínala jako přízemní dům vyšehradské kapituly, který místní obec ko
     name: 'Statue of Saints Adalbert and Radim',
     slug: 'sousosi-sv-vojtecha-a-radima-libice',
     localizedNames: { cz: 'Sousoší sv. Vojtěcha a sv. Radima z rodu Slavníkovců', zh: '阿达尔伯特与拉迪姆圣人雕像组' },
-    labels: ['monument', 'medieval', 'outside'],
+    labels: ['monument', 'sculpture', 'medieval', 'outside'],
     coordinates: { lat: 50.127122528201184, lng: 15.172851205680642 },
     rarity: 'rare',
     xpReward: 20,
@@ -20228,7 +20228,7 @@ V 10. století vládli Slavníkovci z Libice východním Čechám a byli jediný
     name: 'Statue of St. Adalbert (Charles Bridge)',
     slug: 'socha-sv-vojtecha-karluv-most',
     localizedNames: { cz: 'Socha svatého Vojtěcha (Karlův most)', zh: '圣沃伊切赫雕像（查理大桥）' },
-    labels: ['monument', 'baroque'],
+    labels: ['sculpture', 'baroque'],
     district: 'Praha 1',
     quarter: 'Malá Strana',
     coordinates: { lat: 50.086932074420524, lng: 14.408117327741262 },
@@ -20360,7 +20360,7 @@ Samotné město muselo na svou skutečnou existenci počkat ještě dvě stalet�
     name: 'Přemysl the Ploughman Monument',
     slug: 'pomnik-premysla-orace',
     localizedNames: { cz: 'Pomník Přemysla Oráče', zh: '犁田者普热米斯尔纪念碑' },
-    labels: ['monument', 'prehistory', 'outside'],
+    labels: ['monument', 'sculpture', 'prehistory', 'outside'],
     coordinates: { lat: 50.61460459444836, lng: 13.963234552261746 },
     rarity: 'mythic',
     xpReward: 70,
@@ -21183,7 +21183,7 @@ Barokní sochy svatých, přidané na zábradlí mostu v 18. století, ho zdobí
     name: 'Statue of Přemysl Otakar II',
     slug: 'socha-premysla-otakara-ii',
     localizedNames: { cz: 'Socha Přemysla Otakara II.', zh: '普热美斯尔·奥托卡二世雕像' },
-    labels: ['monument', 'medieval', 'outside'],
+    labels: ['monument', 'sculpture', 'medieval', 'outside'],
     coordinates: { lat: 49.954613288005376, lng: 16.158424631179738 },
     rarity: 'rare',
     xpReward: 20,
@@ -22560,7 +22560,7 @@ Svůj dnešní nápadný vzhled vděčí velké barokní přestavbě dokončené
     name: 'Statue of St. John of Nepomuk',
     slug: 'socha-svateho-jana-nepomuckeho',
     localizedNames: { cz: 'Socha svatého Jana Nepomuckého', zh: '圣约翰·内波穆克雕像' },
-    labels: ['monument', 'baroque'],
+    labels: ['sculpture', 'baroque'],
     district: 'Praha 1',
     quarter: 'Malá Strana',
     coordinates: { lat: 50.08659556965718, lng: 14.410231037714974 },
@@ -23080,7 +23080,7 @@ Když v roce 1918 vzniklo Československo, dlouhá éra Černínů skončila a z
     name: 'Monument to the Čapek Brothers',
     slug: 'pomnik-bratri-capku',
     localizedNames: { cz: 'Pomník bratří Čapků', zh: '恰佩克兄弟纪念碑' },
-    labels: ['monument'],
+    labels: ['monument', 'sculpture'],
     district: 'Praha 2',
     quarter: 'Vinohrady',
     coordinates: { lat: 50.075731750365165, lng: 14.436461526638917 },
@@ -23236,7 +23236,7 @@ Ten blahobyt město neochránil před husitskými válkami. V dubnu 1420 dobyla 
     name: 'Tycho Brahe and Johannes Kepler Monument',
     slug: 'tycho-brahe-kepler-monument',
     localizedNames: { cz: 'Sousoší Tychona Brahe a Johanna Keplera', zh: '第谷·布拉赫与约翰内斯·开普勒纪念雕像' },
-    labels: ['monument', 'early-modern'],
+    labels: ['monument', 'sculpture', 'early-modern'],
     district: 'Praha 6',
     quarter: 'Hradčany',
     coordinates: { lat: 50.087991702633545, lng: 14.38791363959489 },
@@ -23468,7 +23468,7 @@ Tento konkrétní pomník byl odhalen až o desetiletí později, 5. května 200
     name: 'Monument to the Prague Barricade Fighters',
     slug: 'socha-barikadniku',
     localizedNames: { cz: 'Pomník pražských barikádníků', zh: '布拉格街垒战士纪念碑' },
-    labels: ['monument', 'world-wars'],
+    labels: ['monument', 'sculpture', 'world-wars'],
     district: 'Praha 8',
     quarter: 'Libeň',
     coordinates: { lat: 50.1155954692466, lng: 14.448228808759811 },
@@ -27406,7 +27406,7 @@ Malešov, poprvé zmíněný v roce 1303, vyrostl kolem své tvrze, doložené o
     name: 'Woman with Flowers (Rusalka)',
     slug: 'socha-zena-s-kvety-rusalka',
     localizedNames: { cz: 'Socha Žena s květy (Rusalka)', zh: '持花女子（水仙女）雕像' },
-    labels: ['monument', 'waterbody', 'hidden-gem'],
+    labels: ['sculpture', 'waterbody', 'hidden-gem'],
     district: 'Praha 13',
     quarter: 'Stodůlky',
     coordinates: { lat: 50.04882216976016, lng: 14.31123256641784 },
@@ -27830,7 +27830,7 @@ Sklenářka vznikla v pozdním 17. století jako viniční lis pro vinice, kter�
     name: 'Czech Lion Statue',
     slug: 'socha-cesky-lev',
     localizedNames: { cz: 'Socha Český lev', zh: '捷克狮子雕像' },
-    labels: ['monument', 'hidden-gem'],
+    labels: ['sculpture', 'hidden-gem'],
     district: 'Praha 1',
     quarter: 'Malá Strana',
     coordinates: { lat: 50.092937054711776, lng: 14.40659269065621 },
@@ -27874,7 +27874,7 @@ Lev je posledním dílem Josefa Maxe (1804–1855), jednoho z předních pražsk
     name: 'Julius Zeyer Monument',
     slug: 'pomnik-julia-zeyera',
     localizedNames: { cz: 'Pomník Julia Zeyera', zh: '尤利乌斯·泽耶尔纪念碑' },
-    labels: ['monument', 'park', 'national-revival', 'hidden-gem'],
+    labels: ['monument', 'sculpture', 'park', 'national-revival', 'hidden-gem'],
     district: 'Praha 1',
     quarter: 'Hradčany',
     coordinates: { lat: 50.093737017535034, lng: 14.407987401607022 },
@@ -28342,7 +28342,7 @@ Ve středověku tu byla vinice, založená z podnětu Karla IV. V první polovin
     name: 'Tank Torso',
     slug: 'torzo-tanku',
     localizedNames: { cz: 'Plastika Torzo tanku', zh: '坦克残躯雕塑' },
-    labels: ['communism', 'monument'],
+    labels: ['communism', 'sculpture'],
     district: 'Praha 5',
     quarter: 'Smíchov',
     coordinates: { lat: 50.0792000241409, lng: 14.404261689640455 },
@@ -28390,7 +28390,7 @@ Tohle náměstí už mělo s tanky dlouhou historii. Dne 29. července 1945 tu n
     name: 'Bedřich Smetana Monument',
     slug: 'pomnik-bedricha-smetany',
     localizedNames: { cz: 'Pomník Bedřicha Smetany', zh: '斯美塔那纪念像' },
-    labels: ['monument', 'national-revival'],
+    labels: ['monument', 'sculpture', 'national-revival'],
     district: 'Praha 1',
     quarter: 'Staré Město',
     coordinates: { lat: 50.08533483308642, lng: 14.412924136276128 },
@@ -28742,7 +28742,7 @@ Pól leží na hranici pražské Zbraslavi a obce Zvole, asi 200 metrů od prvn�
     name: 'Olšany Cemeteries',
     slug: 'olsanske-hrbitovy',
     localizedNames: { cz: 'Olšanské hřbitovy', zh: '奥尔萨内公墓' },
-    labels: ['monument', 'early-modern', 'communism'],
+    labels: ['early-modern', 'communism'],
     district: 'Praha 3',
     quarter: 'Žižkov',
     coordinates: { lat: 50.07839802657164, lng: 14.46721419172808 },
@@ -30547,7 +30547,7 @@ Dovnitř se nesmí, ale přes plot je vidět ze dvou vyhlídkových plošin na s
     name: 'Statue of Jan Roháč of Dubá',
     slug: 'socha-jana-rohace-z-dube',
     localizedNames: { cz: 'Socha Jana Roháče z Dubé', zh: '杜巴的扬·罗哈奇雕像' },
-    labels: ['monument', 'medieval', 'hidden-gem'],
+    labels: ['monument', 'sculpture', 'medieval', 'hidden-gem'],
     district: 'Praha 6',
     quarter: 'Liboc',
     coordinates: { lat: 50.08459353570048, lng: 14.336335476223065 },
@@ -30909,7 +30909,7 @@ Skutečným pokladem lesa je dnes jeho stáří. Na centrální louce stojí tř
     name: '"Humanita" by Jan Štursa',
     slug: 'humanita-jan-stursa',
     localizedNames: { cz: 'Humanita (Jan Štursa)', zh: '扬·什图尔萨《人道》' },
-    labels: ['monument', 'cultural'],
+    labels: ['sculpture', 'cultural'],
     district: 'Praha 7',
     quarter: 'Holešovice',
     coordinates: { lat: 50.09763789562436, lng: 14.43768520181251 },
@@ -31411,7 +31411,7 @@ Zvonice je středem Petrské čtvrti, tiché enklávy starých domů mezi Na Po�
     name: 'Czech Musicians',
     slug: 'cesti-muzikanti',
     localizedNames: { cz: 'Čeští muzikanti', zh: '捷克乐手' },
-    labels: ['monument', 'contemporary'],
+    labels: ['sculpture', 'contemporary'],
     district: 'Praha 1',
     quarter: 'Nové Město',
     coordinates: { lat: 50.085912633427775, lng: 14.43227002986808 },
@@ -31656,7 +31656,7 @@ Palác mnohokrát změnil majitele. Roku 1799 v něm sídlil hlavní stan ruské
     name: 'Statue of the Vltava',
     slug: 'socha-vltavy',
     localizedNames: { cz: 'Socha Vltavy', zh: '伏尔塔瓦河雕像' },
-    labels: ['monument', 'national-revival'],
+    labels: ['sculpture', 'national-revival'],
     district: 'Praha 5',
     quarter: 'Smíchov',
     coordinates: { lat: 50.080469614343535, lng: 14.408637612187881 },
@@ -31753,7 +31753,7 @@ Centrum postavil španělský developer Neinver a otevřelo se pod jménem Pragu
     name: 'Prague Castle Touch Model',
     slug: 'hapticky-model-prazskeho-hradu',
     localizedNames: { cz: 'Haptický model Pražského hradu', zh: '布拉格城堡触摸模型' },
-    labels: ['monument', 'contemporary', 'hidden-gem'],
+    labels: ['sculpture', 'contemporary', 'hidden-gem'],
     district: 'Praha 1',
     quarter: 'Nové Město',
     coordinates: { lat: 50.08038154357369, lng: 14.412408718543759 },
@@ -32162,7 +32162,7 @@ Další staletí přidala barokní sochy, například Braunovu Alegorii Noci př
     name: 'Statue of Rabbi Löw',
     slug: 'socha-rabiho-lowa',
     localizedNames: { cz: 'Socha rabiho Löwa', zh: '罗乌拉比像' },
-    labels: ['monument', 'art-nouveau', 'jewish'],
+    labels: ['monument', 'sculpture', 'art-nouveau', 'jewish'],
     district: 'Praha 1',
     quarter: 'Staré Město',
     coordinates: { lat: 50.086968724888315, lng: 14.417919556188842 },
@@ -32368,7 +32368,7 @@ Roku 1771, za Marie Terezie, byl most zasypán zemním náspem, dnešním Prašn
     name: 'Babies (David Černý)',
     slug: 'miminka-kampa',
     localizedNames: { cz: 'Miminka (David Černý)', zh: '婴儿（大卫·切尔尼）' },
-    labels: ['monument'],
+    labels: ['sculpture'],
     district: 'Praha 1',
     quarter: 'Malá Strana',
     coordinates: { lat: 50.08414626707594, lng: 14.408417403065325 },
@@ -32473,7 +32473,7 @@ Byl to i dům hudby. Roku 1796 tu vystoupil Beethoven a Mozart tu prý hrál v r
     name: 'Quo Vadis (David Černý)',
     slug: 'quo-vadis-trabant',
     localizedNames: { cz: 'Quo vadis (David Černý)', zh: 'Quo Vadis 长腿特拉比' },
-    labels: ['monument', 'communism', 'hidden-gem'],
+    labels: ['sculpture', 'communism', 'hidden-gem'],
     district: 'Praha 1',
     quarter: 'Malá Strana',
     coordinates: { lat: 50.0868519, lng: 14.3978647 },
@@ -32644,7 +32644,7 @@ Podívat se vzhůru stojí hlavně kvůli architektuře. Je to pozdní brutalism
     name: 'Vinok Sculpture (Ukraine Mothers)',
     slug: 'vinok-sculpture',
     localizedNames: { cz: 'Socha Vinok (ukrajinským matkám)', zh: '花冠雕塑（致乌克兰母亲）' },
-    labels: ['monument', 'contemporary', 'hidden-gem'],
+    labels: ['sculpture', 'contemporary', 'hidden-gem'],
     district: 'Praha 1',
     quarter: 'Staré Město',
     coordinates: { lat: 50.090617077156935, lng: 14.42592821187203 },
@@ -32678,7 +32678,7 @@ Samotný vinok vznikl jako pohanská jarní ozdoba, kterou nosily dívky a mlad�
     name: "Sophie Chotek's Fan",
     slug: 'vejir-zofie-chotkove',
     localizedNames: { cz: 'Vějíř Žofie Chotkové', zh: '索菲·霍泰克之扇' },
-    labels: ['monument', 'contemporary', 'hidden-gem'],
+    labels: ['sculpture', 'contemporary', 'hidden-gem'],
     district: 'Praha 6',
     quarter: 'Hradčany',
     coordinates: { lat: 50.0945810396601, lng: 14.405997739232973 },
@@ -33233,7 +33233,7 @@ Samotná pasáž patří k síti průchodů, které vedou bloky kolem Václavsk�
     name: 'Embryo (David Černý)',
     slug: 'embryo-david-cerny',
     localizedNames: { cz: 'Embryo (David Černý)', zh: '胚胎（大卫·切尔尼）' },
-    labels: ['monument', 'hidden-gem'],
+    labels: ['sculpture', 'hidden-gem'],
     district: 'Praha 1',
     quarter: 'Staré Město',
     coordinates: { lat: 50.08512360874561, lng: 14.414633145678199 },
@@ -33267,7 +33267,7 @@ Samotná pasáž patří k síti průchodů, které vedou bloky kolem Václavsk�
     name: 'Piss (David Černý)',
     slug: 'curajici-postavy-david-cerny',
     localizedNames: { cz: 'Čůrající postavy (David Černý)', zh: '撒尿的人（大卫·切尔尼）' },
-    labels: ['monument'],
+    labels: ['sculpture'],
     district: 'Praha 1',
     quarter: 'Malá Strana',
     coordinates: { lat: 50.088087028267275, lng: 14.410249435689883 },
@@ -33471,6 +33471,163 @@ V 19. století sem Pražané rádi chodili na výlet. Roku 1846 sem historik Vá
 19世纪，这里是布拉格人最爱的郊游去处之一。1846年，历史学家瓦茨拉夫·弗拉迪沃伊·托梅克带着两位朋友上了山，一位是斯拉夫学家帕维尔·约瑟夫·沙法日克，一位是记者卡雷尔·哈夫利切克·博罗夫斯基。捷克民族复兴的三位领军人物，就在这一块岩石上散了一回步。
 
 🎁 彩蛋：1980年代，为了把比尔森大街拓宽成四车道，再加一条电车线，这座小山被挖掉了一块。十字架却留在了原地。年轻人坠崖三百年后，它如今守望着的，是布拉格最繁忙的马路之一。`,
+    },
+  },
+  {
+    name: 'Academy of Arts, Architecture and Design (UMPRUM)',
+    slug: 'vysoka-skola-umeleckoprumyslova',
+    localizedNames: { cz: 'Vysoká škola uměleckoprůmyslová', zh: '布拉格工艺美术学院' },
+    labels: ['academy', 'historicism'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.08863550594611, lng: 14.41490046319089 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/Academy_of_Arts,_Architecture_and_Design_in_Prague',
+    description: {
+      en: `This grand building on the corner of Jan Palach Square has been teaching Prague how to make beautiful things for 140 years: glass, chairs, posters, jewellery, buildings, and the odd provocation. If an object in a Czech home looks unusually well designed, there is a fair chance someone from here drew it first.
+
+The school opened in October 1885 as the imperial-royal School of Applied Arts, the first state art school in Bohemia, set up to give the new factories designers instead of copyists. Its building went up in 1882–1885 to plans by František Schmoranz the Younger and Jan Machytka, modelled on the art academies of Vienna and Paris; Schmoranz then became the school's first director, so he got to work in the house he had designed. At first the school only had the wing facing the river, while the side on the square belonged to the painting academy. By 1900 its students' work won the Grand Prix at the Paris World Exhibition.
+
+The twentieth century was less kind. When the Nazis closed the Czech universities in 1939, this school carried on and quietly took over the role of the Academy of Fine Arts, but after Heydrich's assassination in 1942 it was thrown out of its own building. It became a university in 1946 and has called itself UMPRUM since 2013. The list of people who studied here reads like a design museum's floor plan: Josef Čapek, Josef Gočár, Bohumil Kubišta, Toyen, the puppet filmmaker Jiří Trnka, the architect Jan Kaplický and the sculptor David Černý.
+
+🎁 Bonus: Since January 2026 the building has been under a complete reconstruction, and teaching has moved to the old Karlín barracks for the duration. For once, the designers are the ones waiting for the builders.`,
+      cz: `Tahle honosná budova na rohu náměstí Jana Palacha už 140 let učí Prahu, jak dělat krásné věci: sklo, židle, plakáty, šperky, domy a občas i nějakou provokaci. Když v českém bytě narazíte na nápadně dobře navržený předmět, je dost možné, že ho jako první nakreslil někdo odsud.
+
+Škola byla otevřena v říjnu 1885 jako c. k. Uměleckoprůmyslová škola, první státní umělecká škola v Čechách, a měla dát novým továrnám návrháře místo kopistů. Budova vyrostla v letech 1882–1885 podle plánů Františka Schmoranze mladšího a Jana Machytky, podle vzoru uměleckých akademií ve Vídni a v Paříži; Schmoranz se pak stal prvním ředitelem školy, takže pracoval v domě, který sám navrhl. Zpočátku škole patřilo jen křídlo do nábřeží, strana do náměstí patřila malířské akademii. V roce 1900 získaly práce jejích studentů Grand Prix na Světové výstavě v Paříži.
+
+Dvacáté století bylo méně vlídné. Když nacisté v roce 1939 zavřeli české vysoké školy, tahle škola fungovala dál a potichu převzala roli Akademie výtvarných umění, jenže po atentátu na Heydricha v roce 1942 musela z vlastní budovy odejít. Vysokou školou se stala v roce 1946 a od roku 2013 si říká UMPRUM. Seznam lidí, kteří tu studovali, vypadá jako plánek muzea designu: Josef Čapek, Josef Gočár, Bohumil Kubišta, Toyen, loutkový filmař Jiří Trnka, architekt Jan Kaplický a sochař David Černý.
+
+🎁 Bonus: Od ledna 2026 prochází budova kompletní rekonstrukcí a výuka se na tu dobu přestěhovala do Karlínských kasáren. Pro jednou tedy čekají designéři na stavbaře.`,
+      zh: `扬·帕拉赫广场拐角上这座气派的大楼，140年来一直在教布拉格怎么做漂亮东西：玻璃、椅子、海报、首饰、房子，偶尔还有点惊世骇俗的作品。要是你在捷克人家里看到哪件东西设计得格外好，很可能最早就是这里的人画出来的。
+
+学校于1885年10月开办，当时叫“帝国-王国工艺美术学校”，是波希米亚第一所国立美术学校，办学的目的是给新兴的工厂培养设计师，而不是只会照抄的匠人。校舍建于1882到1885年，由小弗朗蒂舍克·施莫兰茨和扬·马赫特卡设计，以维也纳和巴黎的美术学院为样板；施莫兰茨随后当上了第一任校长，等于住进了自己设计的房子。起初学校只用临河的那一翼，朝广场的一侧归绘画学院。到了1900年，学生的作品就在巴黎世博会上拿了大奖。
+
+20世纪就没那么客气了。1939年纳粹关闭捷克的高校，这所学校却照常上课，悄悄顶替了美术学院的角色；可1942年海德里希遇刺之后，它被赶出了自己的大楼。1946年它升格为大学，2013年起自称UMPRUM。在这里读过书的人，列出来就像一座设计博物馆的导览图：约瑟夫·恰佩克、约瑟夫·戈恰尔、博胡米尔·库比什塔、托燕、木偶动画大师伊日·特伦卡、建筑师扬·卡普利茨基，还有雕塑家大卫·切尔尼。
+
+🎁 彩蛋：从2026年1月起，大楼开始全面翻修，翻修期间教学搬到了卡尔林的老兵营。这回总算轮到设计师们等施工队了。`,
+    },
+  },
+  {
+    name: 'Secret Bench (Lea Vivot)',
+    slug: 'tajemna-lavicka-lea-vivot',
+    localizedNames: { cz: 'Tajemná lavička (Lea Vivot)', zh: '莉娅·维沃特的秘密长椅' },
+    labels: ['sculpture', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.08775005007068, lng: 14.414668522858284 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://en.wikipedia.org/wiki/The_Secret_Bench_of_Knowledge',
+    description: {
+      en: `Two bronze youngsters share a bench and a secret by the river, outside the Four Seasons hotel, and they have no intention of telling you what it is. Sit down next to them anyway: this is one of the few artworks in Prague that actively wants your company.
+
+It is a casting of the Secret Bench by Lea Vivot, a sculptor born in 1948 in Šumperk in Moravia. She trained at a secondary school of applied arts in Prague, left the country in 1968, studied sculpture in Italy and then settled in Canada, where she became known for life-size bronze figures sitting on benches you are meant to share. The Secret Bench is her best-known work. Its castings stand in Ottawa, Montreal, Toronto, New York and London, and each one carries handwritten lines by poets, writers and readers; the Ottawa bench has about a hundred messages about the joy of reading, chosen from children and writers across Canada, one of them in Braille. This one came home to the city where she learned her craft, a few steps from the river.
+
+🎁 Bonus: The first Secret Bench appeared in front of Canada's national library and archives in Ottawa in May 1989 without anyone's permission. Vivot simply put it there, and the staff assumed some other government department had ordered it. She said artists had no time for bureaucracy, took it away a year later, and came back with a new casting in 1994, this time officially, in front of about 3,000 people.`,
+      cz: `Dva bronzoví mladí lidé sdílejí u řeky, před hotelem Four Seasons, lavičku a tajemství, a nemají v úmyslu vám ho prozradit. Stejně si k nim přisedněte: tohle je jedno z mála uměleckých děl v Praze, které o vaši společnost přímo stojí.
+
+Jde o odlitek Tajné lavičky od Ley Vivot, sochařky narozené v roce 1948 v Šumperku. Vyučila se na střední uměleckoprůmyslové škole v Praze, v roce 1968 odešla ze země, studovala sochařství v Itálii a pak se usadila v Kanadě, kde se proslavila bronzovými postavami v životní velikosti, které sedí na lavičkách, o něž se s nimi máte podělit. Tajná lavička je její nejznámější dílo. Její odlitky stojí v Ottawě, Montrealu, Torontu, New Yorku a Londýně a na každém jsou ručně psané řádky básníků, spisovatelů a čtenářů; ta v Ottawě nese asi sto vzkazů o radosti ze čtení, které poslaly děti a spisovatelé z celé Kanady, jeden z nich v Braillově písmu. Tahle se vrátila domů, do města, kde se autorka řemeslu učila, pár kroků od řeky.
+
+🎁 Bonus: První Tajná lavička se v květnu 1989 objevila před kanadskou národní knihovnou a archivem v Ottawě bez jakéhokoli povolení. Vivot ji tam prostě postavila a zaměstnanci předpokládali, že ji objednalo nějaké jiné ministerstvo. Prohlásila, že umělci nemají čas na byrokracii, po roce lavičku odvezla a v roce 1994 se vrátila s novým odlitkem, tentokrát oficiálně, před zhruba třemi tisíci lidmi.`,
+      zh: `河边四季酒店门口，两个铜铸的年轻人坐在长椅上分享一个秘密，而且完全没打算告诉你。不过尽管坐过去吧：这是布拉格少有的、真心欢迎你凑过去的艺术品。
+
+这是莉娅·维沃特的《秘密长椅》的一件铸件。维沃特1948年生于摩拉维亚的申佩尔克，在布拉格的一所工艺美术中学学的手艺，1968年离开祖国，先在意大利学雕塑，后来定居加拿大，以真人大小、坐在长椅上的铜像出名：长椅总留着空位，就是等你去坐的。《秘密长椅》是她最有名的作品，铸件分布在渥太华、蒙特利尔、多伦多、纽约和伦敦，每一件上都刻着诗人、作家和读者的手写留言；渥太华那件刻了大约一百条关于阅读之乐的话，是从全加拿大的孩子和作家投稿里挑出来的，其中一条是盲文。这一件则回到了她当年学艺的城市，离河只有几步路。
+
+🎁 彩蛋：第一张《秘密长椅》是1989年5月出现在渥太华加拿大国家图书馆与档案馆门前的，没经过任何人批准。维沃特直接把它摆在那儿，工作人员还以为是别的政府部门订的。她说艺术家没时间跟官僚程序耗着，一年后把长椅搬走，1994年带着新铸件回来，这次走了正规手续，揭幕时来了大约三千人。`,
+    },
+  },
+  {
+    name: 'Tyršův vrch',
+    slug: 'tyrsuv-vrch',
+    localizedNames: { cz: 'Tyršův vrch', zh: '蒂尔什山' },
+    labels: ['park', 'nature'],
+    district: 'Praha 4',
+    quarter: 'Michle',
+    coordinates: { lat: 50.05586589678352, lng: 14.453782687164555 },
+    rarity: 'common',
+    xpReward: 10,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Tyr%C5%A1%C5%AFv_vrch',
+    description: {
+      en: `A wooded hill above Michle, 250 metres high, that only exists as a separate hill because a railway was cut straight through the middle of its old self. Locals call it Tyršák, and on a weekday afternoon you are likely to share it with dog walkers, joggers and the occasional archer.
+
+Until about 1930 this hill and Bohdalec next door were one, and for centuries its slopes held orchards and a few small quarries; the trees you walk under were only planted at the very start of the 20th century. Then, from 1927, the railway builders dug the deep Bohdalec cutting, and the northern end of the old hill was left standing on its own. Around the same time the Sokol gymnastics movement built a summer training ground on the summit, and the new hill took the name of Miroslav Tyrš, who had founded Sokol in 1862 with the idea that a small nation should first of all be a fit one. The Botič stream curls around its foot, and a path climbs up from the Pod Jezerkou tram stop on Nuselská street.
+
+🎁 Bonus: Sokol is still up here in spirit: the summit has an archery range. If you hear a soft thud among the trees, keep to the path.`,
+      cz: `Zalesněný kopec nad Michlí, vysoký 250 metrů, který existuje jako samostatný vrch jen proto, že jeho původní podobu proťala železnice přímo uprostřed. Místní mu říkají Tyršák a ve všední odpoledne se o něj nejspíš podělíte s pejskaři, běžci a občas i s lukostřelcem.
+
+Zhruba do roku 1930 tvořil tenhle kopec jeden celek se sousedním Bohdalcem a celá staletí byly na jeho svazích ovocné sady a pár malých lomů; stromy, pod kterými chodíte, tu vysadili až na samém začátku 20. století. Pak od roku 1927 vykopali stavitelé železnice hluboký bohdalecký zářez a severní konec starého kopce zůstal stát sám. Zhruba v téže době si na vrcholu postavil letní cvičiště Sokol a nový vrch dostal jméno po Miroslavu Tyršovi, který Sokol založil v roce 1862 s myšlenkou, že malý národ má být především zdatný. Pod kopcem se stáčí Botič a nahoru vede cesta od tramvajové zastávky Pod Jezerkou v Nuselské ulici.
+
+🎁 Bonus: Sokolský duch tu nahoře pořád žije: na vrcholu je lukostřelnice. Když mezi stromy uslyšíte tiché žuchnutí, držte se cesty.`,
+      zh: `米赫勒上方一座250米高的林木小山。它之所以能单独算一座山，是因为一条铁路从它原来的身子正中间劈了过去。当地人管它叫“蒂尔沙克”，工作日下午来，多半会碰上遛狗的、跑步的，偶尔还有个射箭的。
+
+大约1930年以前，这座山和隔壁的博赫达莱茨山还是一体的。几百年来，山坡上是果园和几个小采石场；你头顶这些树，是20世纪刚开头才种上的。1927年起，修铁路的人挖出了深深的博赫达莱茨路堑，老山的北头就这么孤零零地留了下来。差不多同一时期，索科尔体操协会在山顶修了一块夏季训练场，这座新山也就以米罗斯拉夫·蒂尔什命名。蒂尔什1862年创立了索科尔，他的想法是：一个小民族，首先得是个身体强健的民族。博蒂奇溪绕着山脚拐了个弯，从努斯勒街的“耶泽尔卡下”电车站有小路通上山。
+
+🎁 彩蛋：索科尔的精神在山顶还活着：上面有个射箭场。要是听见林子里“噗”的一声闷响，请别离开步道。`,
+    },
+  },
+  {
+    name: 'Maltese Mill',
+    slug: 'maltezsky-mlyn',
+    localizedNames: { cz: 'Maltézský mlýn', zh: '马耳他磨坊' },
+    labels: ['baroque', 'hidden-gem'],
+    district: 'Praha 5',
+    quarter: 'Motol',
+    coordinates: { lat: 50.06604442208871, lng: 14.32664524507043 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Malt%C3%A9zsk%C3%BD_ml%C3%BDn',
+    description: {
+      en: `A Baroque mill tucked below Plzeňská street in Motol, so low that from the road it looks like a one-storey cottage, while its courtyard side has two full floors. Traffic roars past overhead; down by the pond, it is still the 18th century.
+
+The first record dates from 1574, when Václav Zajíc of Házmburk allowed one Jan Toman to build a mill on the Motol stream, which is why it was first called Toman's Mill. It was tied to a farm in Motol and sold along with it, wrecked in the Thirty Years' War, and passed through many hands, among them, in 1635, an Octavius Miseroni, a name shared with the Milanese gem-cutters of Rudolf II's court. In 1747 the Order of the Knights of Malta bought it with their other Motol property, and that gave it its present name. The building you see is from the second half of the 18th century, Baroque with a later Classicist face: a rectangular courtyard behind a stone wall, a vaulted gateway between two heavy buttresses, and a mill pond with a stone dam on its west side, restored in 2008. The Ráž family were its millers for much of the 19th century and into the 20th.
+
+The 20th century buried it: widening Plzeňská street piled embankments around the mill and pond and put the stream into a pipe. Today it is a protected monument and a private home, with no wheel and no milling gear left, so admire it from outside.
+
+🎁 Bonus: The mill turns up in Jan Neruda's Tales of the Lesser Quarter, which is quite a reach for a book about Malá Strana, a good hour's walk away.`,
+      cz: `Barokní mlýn schovaný pod Plzeňskou ulicí v Motole, tak nízko, že z cesty vypadá jako přízemní chalupa, zatímco do dvora má dvě plná patra. Nahoře hučí doprava; dole u rybníka je pořád 18. století.
+
+První zmínka pochází z roku 1574, kdy Václav Zajíc z Házmburka povolil jistému Janu Tomanovi postavit na Motolském potoce mlýn, a proto se mu původně říkalo Tomanovský. Patřil k motolskému dvoru a prodával se spolu s ním, za třicetileté války zpustl a vystřídal mnoho majitelů, mezi nimi v roce 1635 jakéhosi Octavia Miseroniho, jméno, které nesli i milánští brusiči drahokamů na dvoře Rudolfa II. Roku 1747 ho spolu s dalším motolským majetkem koupil řád maltézských rytířů, a odtud má dnešní jméno. Budova, kterou vidíte, pochází z druhé poloviny 18. století, barokní s pozdější klasicistní fasádou: obdélný dvůr za kamennou zdí, klenutý vjezd mezi dvěma mohutnými opěráky a na západní straně mlýnský rybník s kamennou hrází, obnovený v roce 2008. Mlynáři z rodu Rážů tu mleli většinu 19. století a ještě kus dvacátého.
+
+Dvacáté století ho zasypalo: rozšíření Plzeňské ulice nahrnulo kolem mlýna a rybníka náspy a potok skončil v potrubí. Dnes je to kulturní památka a soukromý dům, bez kola a bez mlecího zařízení, takže si ho prohlédněte zvenku.
+
+🎁 Bonus: Mlýn se objevuje v Nerudových Povídkách malostranských, což je na knihu o Malé Straně, vzdálené dobrou hodinu chůze, docela daleký výlet.`,
+      zh: `一座巴洛克磨坊，藏在莫托尔的普尔森街底下。它低到从马路上看像一间平房，可朝院子那一面却有整整两层。头顶车流轰鸣，下面池塘边，还停留在18世纪。
+
+最早的记载是1574年：哈兹姆堡的瓦茨拉夫·扎伊茨准许一个叫扬·托曼的人在莫托尔溪上建磨坊，所以它起初叫“托曼磨坊”。它附属于莫托尔的一座庄园，买卖都得连着庄园一起；三十年战争中被毁，此后几经易手，1635年的买主里有个叫奥克塔维乌斯·米塞罗尼的人，和鲁道夫二世宫廷里那家米兰宝石雕刻匠同姓。1747年，马耳他骑士团连同在莫托尔的其他产业一起买下了它，现在的名字就是这么来的。眼前这座建筑是18世纪下半叶的，巴洛克风格，正面后来改成了古典主义样式：石墙围起一个长方形院子，两根粗壮的扶壁夹着拱形大门，西边是带石坝的磨坊池塘，2008年修复过。19世纪大半时间直到20世纪初，在这里磨面的都是拉日家族。
+
+20世纪把它“埋”了：普尔森街拓宽，路基堆到了磨坊和池塘四周，小溪也被塞进了管道。如今它是受保护的文物，也是私人住宅，水车和磨面设备一样不剩，只能在外面看看。
+
+🎁 彩蛋：这座磨坊在扬·聂鲁达的《小城故事》里露过面。一本写小城区的书，跑到步行要一个多小时的地方来取景，也算跑得够远的。`,
+    },
+  },
+  {
+    name: 'Church of St Agnes of Bohemia (Spořilov)',
+    slug: 'kostel-sv-anezky-ceske-sporilov',
+    localizedNames: { cz: 'Kostel sv. Anežky České', zh: '波希米亚圣阿涅什卡教堂（斯波日洛夫）' },
+    labels: ['church', 'functionalism'],
+    district: 'Praha 4',
+    quarter: 'Záběhlice',
+    coordinates: { lat: 50.04404772693625, lng: 14.479092640260454 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9_Ane%C5%BEky_%C4%8Cesk%C3%A9_(Spo%C5%99ilov)',
+    description: {
+      en: `A church that looks more like a well-run interwar factory than a house of God, standing at the top of a grand staircase above Roztylské náměstí. That is meant as a compliment: it is the crown of Spořilov, one of Prague's oldest garden cities, and it wears its concrete with confidence.
+
+Spořilov itself was founded by a bank. The City Savings Bank of Vinohrady (Městská spořitelna, hence the name) marked its 25th anniversary by setting up a housing cooperative, which built this colony of family houses in the late 1920s and early 1930s. Its church was finished in 1935 to a design by Nikolaj Paškovskij, a Russian architect working in Stanislav Režný's office, in a crisp Constructivist style: a tower opened by three tall arches, side pergolas, a clock, and inside a plain, bright hall that the critics compare to a modern workshop. Below it there is even a small theatre hall with concrete ribs and walls of glass blocks. A ledge on the tower was made ready for a statue of St Agnes that never arrived, and the tower has no bells either: its three were taken away for the war effort in the Second World War and never replaced. It is said to be the first church in the world dedicated to her, built when she was still only "Blessed Agnes".
+
+🎁 Bonus: Agnes waited a long time for her halo. She was canonized only on 12 November 1989, and five days later the Velvet Revolution began, which many Czechs took as her doing: an old legend promised that things would go well for Bohemia once Agnes became a saint.`,
+      cz: `Kostel, který spíš než dům Boží připomíná dobře vedenou prvorepublikovou továrnu a stojí na vrcholu monumentálního schodiště nad Roztylským náměstím. Myšleno je to jako kompliment: je korunou Spořilova, jednoho z nejstarších pražských zahradních měst, a svůj beton nosí sebevědomě.
+
+Samotný Spořilov založila banka. Městská spořitelna na Vinohradech (odtud to jméno) oslavila 25. výročí založením stavebního družstva, které tu koncem 20. a začátkem 30. let postavilo kolonii rodinných domů. Kostel byl dokončen v roce 1935 podle návrhu Nikolaje Paškovského, ruského architekta z kanceláře Stanislava Režného, v čistém konstruktivistickém stylu: věž otevřená třemi vysokými oblouky, boční pergoly, hodiny a uvnitř prostý, světlý sál, který znalci přirovnávají k moderní dílně. Pod ním je dokonce malý divadelní sál s betonovými žebry a stěnami z luxferů. Výstupek na věži byl připravený pro sochu svaté Anežky, která nikdy nedorazila, a zvony věž nemá také: její tři zvony za druhé světové války zrekvírovali a už je nikdo nenahradil. Prý jde o první kostel na světě zasvěcený právě jí, postavený v době, kdy byla ještě jen „blahoslavená Anežka“.
+
+🎁 Bonus: Na svatozář si Anežka počkala dlouho. Svatořečena byla až 12. listopadu 1989 a o pět dní později začala sametová revoluce, což mnoho Čechů přičetlo právě jí: stará legenda slibovala, že až bude Anežka svatá, bude se Čechám dobře dařit.`,
+      zh: `这座教堂看上去不太像上帝的殿堂，倒更像一座经营得当的两次大战之间的工厂，立在罗兹蒂尔广场上方一道气派的大台阶顶端。这话是夸它：它是斯波日洛夫的点睛之笔。斯波日洛夫是布拉格最早的花园城市之一，而这座教堂把混凝土穿得相当自信。
+
+斯波日洛夫本身是一家银行建起来的。维诺赫拉迪的城市储蓄银行（地名就是从“储蓄银行”来的）为庆祝成立25周年，组建了一个住房合作社，在20年代末到30年代初盖起了这片独栋住宅区。教堂1935年落成，由在斯坦尼斯拉夫·热日尼事务所工作的俄国建筑师尼古拉·帕什科夫斯基设计，是干净利落的构成主义风格：钟楼开着三道高高的拱，两侧是廊架，挂着时钟；里面是朴素明亮的大厅，有评论家说它像一间现代车间。底下甚至还有一个小剧场，混凝土肋梁，墙是玻璃砖砌的。钟楼上留了个凸台，准备放圣阿涅什卡的雕像，雕像却始终没来；钟楼里也没有钟：原来的三口钟二战时被征用，之后再没补上。据说这是世界上第一座献给她的教堂，建成时她还只是“真福阿涅什卡”。
+
+🎁 彩蛋：阿涅什卡等她的光环等了很久。她直到1989年11月12日才被封圣，五天后天鹅绒革命就开始了。很多捷克人觉得这是她的功劳：一个古老的传说早就预言，等阿涅什卡成了圣人，波希米亚就会好起来。`,
     },
   },
 ];
