@@ -33084,6 +33084,155 @@ export const historyEvents = [
     ],
     "wikipediaUrl": "https://en.wikipedia.org/wiki/John_of_Nepomuk"
   },
+  // The Pragmatic Sanction. 1703 Mutual Pact of Succession; 19 April 1713
+  // secret session in the Hofburg, Seilern reads the 1703 documents, Charles
+  // declares the lands indivisible and his own daughters first; son Leopold
+  // (13 April–4 Nov 1716); Maria Theresa born 13 May 1717. Joseph I's
+  // daughters renounce on marrying (Saxony 1719, Bavaria 1722). Bohemian
+  // diet: rescript of 30 Sept 1720 read out in public session on 12 Oct,
+  // the estates' declaration dated Prague 16 Oct 1720, grounding the
+  // succession in Charles IV's Golden Bull of 1348 and Vladislaus II's 1510
+  // disposition for Anna; entered in the Land Tables 27 March 1721; one
+  // parchment original in Vienna, the other in Prague (now the National
+  // Archives, Archive of the Bohemian Crown); Moravia 17 Oct 1720 (all from
+  // G. Turba, Die pragmatische Sanktion, 1913, archive.org). Quote: Maria
+  // Josepha's 1719 renunciation (Latin, ibid. Nr. VI). Foreign guarantees:
+  // Spain 1725, Russia 1726, Prussia 1728, Britain and the Dutch 1731 (the
+  // Ostend Company closed), the Empire 1732, France 1738. Prince Eugene's
+  // "army of 200,000" advice is a well-known attributed saying, kept as such.
+  {
+    "slug": "an-emperor-collecting-signatures-1720",
+    "era": "baroque-and-darkness",
+    "startYear": 1720,
+    "tone": "humorous",
+    "year": {
+      "en": "1720",
+      "cz": "1720",
+      "zh": "1720年"
+    },
+    "title": {
+      "en": "Too Many Sons, Then None",
+      "cz": "Synů příliš, pak žádný",
+      "zh": "儿子太多的家族，没儿子了"
+    },
+    "hookLine": {
+      "en": "Charles VI had one big problem: no son. His answer was to get everyone to sign a piece of paper.",
+      "cz": "Karel VI. měl jeden velký problém: neměl syna. Jeho řešením bylo přimět všechny, aby podepsali jeden papír.",
+      "zh": "查理六世有个大难题：他没有儿子。他的办法是，让所有人都在同一张纸上签字。"
+    },
+    "summary": {
+      "en": "For centuries the Habsburgs' problem had been too many sons. \"Let others wage war; you, happy Austria, marry,\" as the saying went. In plain terms, the family method was to wait until some other dynasty ran out of sons, then marry its daughter. That was how they got Burgundy and Spain; and in 1526, when the king of Bohemia and Hungary died at Mohács without a son, the Habsburg Ferdinand happened to be married to his sister Anna, and [[link:the-habsburgs-come-in-1526]]Bohemia came into the family[[/link]] too.\n\nBy the start of the 18th century, though, the [[link:two-habsburg-houses-1556]]two branches of the house[[/link]], in Madrid and in Vienna, could not muster a single son between them. In 1700 the last Spanish Habsburg, Charles II, died childless.\n\nIn Vienna the old emperor [[link:meant-for-the-church-1656]]Leopold I[[/link]] had died in 1705, and his elder son Joseph I had taken the throne. The younger son, Charles, never expected to be emperor: as a young man he went off to Spain to fight for the very throne Charles II had left empty, a war that lasted ten years. Then, in 1711, after only six years on the throne, Joseph died of smallpox without a son, and the imperial crown fell to Charles VI.\n\nHis brother had no son, and so far neither did he. Back in 1703 their father had laid down a rule for the two brothers: if neither had a son, Joseph's daughters would come first. Charles did not like that.\n\nOn 19 April 1713 he called his ministers into the Hofburg in Vienna and announced behind closed doors that all the Habsburg lands were to stay together forever, indivisible, passing to a single heir; and that if there was no son, his own daughters would inherit before his brother's. The document came to be known as the Pragmatic Sanction.\n\nIt was one rule for the Habsburgs and another for everyone else. The Habsburgs had made their fortune out of other families running out of sons; the moment they ran out themselves, their first move was to make sure nobody could pull the same trick on them.\n\nAt the time he did not even have a daughter. In 1716 the empress at last gave birth to a son, but the little prince lived only seven months. The next year, in May 1717, she had a girl, and named her Maria Theresa.\n\nFrom then on the emperor spent the rest of his life doing one thing: collecting signatures.\n\nFirst his brother's two daughters. One married into Saxony, the other into Bavaria, and before each wedding the bride had to sign away her claim:\n\n[[quote:0]]\n\nThen the diets of his lands. In October 1720 the Bohemian estates met at Prague Castle, heard the document read out in public, and on 16 October signed their acceptance.\n\nTheir reasons were the interesting part. The estates did not say they were doing it because the emperor wished it. They dug out their own old laws instead: Charles IV's Golden Bull of 1348, and King Vladislaus's arrangement of 1510 making his daughter Anna his heir: the very Anna through whom the Habsburgs had got in. [[b]]Two hundred years earlier the estates had made Ferdinand admit that the crown was theirs to give; now they dug out the old laws themselves to prove a daughter could inherit it.[[/b]] Not that they had much choice: Bohemia had [[link:no-more-elected-kings-1627]]stopped electing its kings[[/link]] long ago.\n\nMoravia signed the next day, the other lands followed, and Hungary held out until 1723. Then came the foreign powers, each asking a higher price than the last; for Britain's signature alone, the emperor shut down his own trading company in Ostend.\n\nThe old general Prince Eugene is said to have warned the emperor:\n\n[[quote:1]]\n\nThe emperor kept collecting.\n\nThe three-year-old girl it was all for knew nothing about any of it yet.",
+      "cz": "Po staletí trápilo Habsburky spíš to, že mají synů příliš. „Ať jiní vedou války, ty, šťastné Rakousko, se žeň,“ říkalo se. Řečeno bez obalu: rodinný recept spočíval v tom počkat, až jinému rodu dojdou synové, a pak si vzít jeho dceru. Tak získali Burgundsko i Španělsko; a když roku 1526 padl u Moháče český a uherský král bez syna, byl Habsburk Ferdinand shodou okolností ženatý s jeho sestrou Annou, a tak [[link:the-habsburgs-come-in-1526]]přišly do rodiny i Čechy[[/link]].\n\nNa začátku 18. století však [[link:two-habsburg-houses-1556]]obě větve rodu[[/link]], madridská i vídeňská, nedokázaly dát dohromady jediného syna. Roku 1700 zemřel bezdětný poslední španělský Habsburk Karel II.\n\nVe Vídni zemřel roku 1705 starý císař [[link:meant-for-the-church-1656]]Leopold I.[[/link]] a na trůn nastoupil jeho starší syn Josef I. Mladší syn Karel nikdy nepočítal s tím, že bude císařem: jako mladý muž odjel do Španělska bojovat právě o trůn, který po Karlovi II. zůstal prázdný, ve válce, která trvala deset let. Pak roku 1711, po pouhých šesti letech vlády, zemřel Josef na neštovice, aniž by měl syna, a císařská koruna připadla Karlovi VI.\n\nBratr syna neměl, a on sám zatím také ne. Už roku 1703 stanovil jejich otec oběma bratrům pravidlo: pokud ani jeden nebude mít syna, přijdou na řadu nejdřív Josefovy dcery. Karlovi se to nelíbilo.\n\nDevatenáctého dubna 1713 svolal své ministry do vídeňského Hofburgu a za zavřenými dveřmi oznámil, že všechny habsburské země mají navždy zůstat spolu, nedělitelné, v rukou jediného dědice; a pokud nebude syn, zdědí je jeho vlastní dcery dřív než dcery bratrovy. Ten dokument dostal jméno pragmatická sankce.\n\nCo bylo dovoleno Habsburkům, nebylo dovoleno nikomu jinému. Habsburkové zbohatli na tom, že jiným rodům docházeli synové; jakmile došli jim samotným, jejich prvním krokem bylo zajistit, aby stejný trik nemohl nikdo zkusit na ně.\n\nTehdy ještě neměl ani dceru. Roku 1716 porodila císařovna konečně syna, ale malý princ žil jen sedm měsíců. Další rok, v květnu 1717, se narodila dívka a dostala jméno Marie Terezie.\n\nOd té doby dělal císař po zbytek života jedinou věc: sbíral podpisy.\n\nNejdřív od obou bratrových dcer. Jedna se vdávala do Saska, druhá do Bavorska, a každá nevěsta musela před svatbou podepsat, že se svého nároku vzdává:\n\n[[quote:0]]\n\nPak přišly na řadu sněmy jeho zemí. V říjnu 1720 se čeští stavové sešli na Pražském hradě, vyslechli veřejné čtení dokumentu a 16. října podepsali, že ho přijímají.\n\nZajímavé bylo jejich zdůvodnění. Stavové neřekli, že to dělají, protože si to přeje císař. Místo toho vytáhli vlastní staré zákony: Zlatou bulu Karla IV. z roku 1348 a ustanovení krále Vladislava z roku 1510, podle něhož měla být dědičkou jeho dcera Anna, tedy právě ta Anna, skrze niž se Habsburkové do Čech dostali. [[b]]Před dvěma sty lety nutili stavové Ferdinanda přiznat, že korunu dávají oni; teď sami vytáhli staré zákony, aby dokázali, že ji může zdědit i dcera.[[/b]] Ne že by měli moc na vybranou: Čechy už dávno [[link:no-more-elected-kings-1627]]přestaly své krále volit[[/link]].\n\nMorava podepsala hned druhý den, ostatní země následovaly a Uhry se držely až do roku 1723. Pak přišly cizí mocnosti a každá chtěla víc než ta předchozí; jen kvůli podpisu Británie zavřel císař vlastní obchodní společnost v Ostende.\n\nStarý vojevůdce princ Evžen prý císaře varoval:\n\n[[quote:1]]\n\nCísař sbíral dál.\n\nTříletá holčička, kvůli které se to všechno dělo, o ničem z toho zatím nevěděla.",
+      "zh": "几百年来，哈布斯堡家族发愁的，向来是儿子太多。有句话说得好：“让别人去打仗吧，你，幸福的奥地利，去结婚。”说白了，他们的诀窍就是：等别人家断了儿子，再去娶人家的女儿。勃艮第、西班牙都是这么到手的；1526年，波希米亚和匈牙利的国王死在莫哈奇，没留下儿子，哈布斯堡的斐迪南恰好娶了他的姐姐安娜，于是[[link:the-habsburgs-come-in-1526]]波希米亚也进了门[[/link]]。\n\n可到了18世纪初，马德里和维也纳[[link:two-habsburg-houses-1556]]东西两个王室[[/link]]，竟然一个儿子都凑不出来了。1700年，西班牙最后一位哈布斯堡国王卡洛斯二世无子而终。\n\n在维也纳，老皇帝[[link:meant-for-the-church-1656]]利奥波德一世[[/link]]1705年去世，皇位传给了长子约瑟夫一世。小儿子查理压根没想过自己会当皇帝：他年轻时跑去西班牙，争的正是卡洛斯二世空出来的王位，一打就是十年。可约瑟夫只坐了六年皇位，1711年就得天花死了，没留下儿子，皇冠这才落到了查理六世头上。\n\n哥哥没有儿子，他自己也还没有。早在1703年，父亲就给兄弟俩定过规矩：两人都没儿子的话，先轮到约瑟夫的女儿。查理不乐意。\n\n1713年4月19日，他把大臣们召进维也纳的霍夫堡宫，关起门来宣布：哈布斯堡的所有领地永远连在一起，不可分割，只传给一个继承人；没有儿子，就由他自己的女儿继承，哥哥的女儿往后排。这份文件，后来被称为“国事诏书”。\n\n这就有点“只许州官放火，不许百姓点灯”了。哈布斯堡家族靠别人家断了香火发的家；轮到自己断了香火，头一件事就是立规矩：这一招，谁也别想用在我们家头上。\n\n那时他连女儿都还没有。1716年，皇后总算生了个儿子，小王子却只活了七个月。第二年5月，又生了个女儿，取名玛丽亚·特蕾莎。\n\n从此，皇帝下半辈子只做一件事：收签名。\n\n先是哥哥的两个女儿。她们一个嫁到萨克森，一个嫁到巴伐利亚，出嫁前都得签字，放弃继承权：\n\n[[quote:0]]\n\n然后是各地的议会。1720年10月，波希米亚等级在布拉格城堡开会，当众宣读了诏书，10月16日签字接受。\n\n有意思的是他们给的理由。等级们没说是因为皇帝想要，而是翻出了自家的老法律：查理四世1348年的金玺诏书，还有1510年弗拉迪斯拉夫国王立女儿安娜为继承人的安排，就是前面说的那位安娜。[[b]]两百年前，等级们非要斐迪南承认王冠是他们给的；如今，他们自己翻出老法律，证明女儿也能继承这顶王冠。[[/b]]话说回来，他们也没什么可选的：波希米亚[[link:no-more-elected-kings-1627]]早就不选国王了[[/link]]。\n\n摩拉维亚第二天就签了，其他领地陆续跟上，匈牙利拖到1723年。接着是外国，一个比一个要价高；光为了英国这一个签名，皇帝就亲手关掉了自己在奥斯坦德的贸易公司。\n\n据说，老将欧根亲王这样劝过皇帝：\n\n[[quote:1]]\n\n皇帝还是接着收。\n\n这一切，都是为了一个三岁的小姑娘。她自己，还什么都不知道。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "… that the kingdoms and provinces which His Imperial Majesty now possesses and shall possess hereafter shall, for all time to come, remain united indivisibly and inseparably among themselves, in the hands of one and the same heir, according to the order of succession that has been laid down.",
+          "cz": "… aby království a země, které Jeho císařské Veličenstvo nyní drží a v budoucnu držet bude, po všechny budoucí časy zůstaly mezi sebou nedělitelně a neoddělitelně spojeny v rukou jednoho a téhož dědice, podle stanoveného pořádku nástupnictví.",
+          "zh": "……皇帝陛下现今所有及日后将有的各王国与领地，应依照既定的继承次序，永远彼此结合，不可分割，不可分离，归于同一位继承人之手。"
+        },
+        "attribution": {
+          "en": "Archduchess Maria Josepha, daughter of Joseph I, renouncing her claim before her marriage to the Saxon electoral prince, 1719",
+          "cz": "Arcivévodkyně Marie Josefa, dcera Josefa I., ve zřeknutí se nároků před sňatkem se saským kurprincem, 1719",
+          "zh": "约瑟夫一世之女玛丽亚·约瑟法女大公嫁给萨克森选帝侯世子前的放弃继承权声明，1719年"
+        }
+      },
+      {
+        "text": {
+          "en": "Two hundred thousand men and a full treasury will guarantee the Pragmatic Sanction better than all the treaties in the world.",
+          "cz": "Dvě stě tisíc mužů a plná pokladna ochrání pragmatickou sankci lépe než všechny smlouvy na světě.",
+          "zh": "二十万大军加上一座满满的国库，比世上所有的条约，更能保住这份国事诏书。"
+        },
+        "attribution": {
+          "en": "Attributed to Prince Eugene of Savoy (so it is said; the wording varies and is given here in translation)",
+          "cz": "Připisováno princi Evženovi Savojskému (údajně; znění se liší, v překladu)",
+          "zh": "据说出自欧根亲王之口（转译，说法不一）"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "old-royal-palace",
+        "relation": {
+          "en": "The Bohemian diet met at the Castle, in the palace's Diet Hall, and accepted the Pragmatic Sanction here in October 1720",
+          "cz": "Český zemský sněm zasedal na Hradě ve Staré sněmovně paláce a v říjnu 1720 zde pragmatickou sankci přijal",
+          "zh": "波希米亚议会在城堡里这座王宫的议会厅开会，1720年10月在这里接受了国事诏书"
+        }
+      },
+      {
+        "slug": "narodni-archiv",
+        "relation": {
+          "en": "The Prague parchment of the estates' declaration of 16 October 1720 is kept in its Archive of the Bohemian Crown",
+          "cz": "Pražské pergamenové vyhotovení prohlášení stavů ze 16. října 1720 je uloženo v jeho Archivu České koruny",
+          "zh": "1720年10月16日等级声明留在布拉格的那份羊皮纸原件，收藏在这里的波希米亚王冠档案中"
+        }
+      }
+    ],
+    "images": [
+      "/history/an-emperor-collecting-signatures-1720.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Vienna around 1720: Charles VI holds up a Pragmatic Sanction so long it trails across the floor, heavy with seals, while foreign envoys queue to name their price. By the window Prince Eugene points at the soldiers outside, next to a nearly empty treasure chest; three-year-old Maria Theresa sits on the parchment, stacking the wax seals like toy blocks.",
+        "cz": "Vídeň kolem roku 1720: Karel VI. drží pragmatickou sankci tak dlouhou, že se táhne přes celou podlahu a je plná pečetí, zatímco cizí vyslanci stojí ve frontě a říkají si o svou cenu. U okna ukazuje princ Evžen na vojáky venku, vedle téměř prázdné truhly s penězi; tříletá Marie Terezie sedí na pergamenu a staví si z voskových pečetí kostičky.",
+        "zh": "1720年前后的维也纳：查理六世举着一份长得拖满地板、盖满火漆印的国事诏书，各国使节排着队开价。窗边的欧根亲王指着外面的士兵，身旁是一只快见底的钱箱；三岁的玛丽亚·特蕾莎坐在羊皮纸上，拿火漆印当积木玩。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Pragmatic_Sanction_of_1713"
+  },
+  // Background card: the War of the Spanish Succession, kept short (user's
+  // request). Charles II d. 1 Nov 1700, will for Philip of Anjou; Grand
+  // Alliance (Emperor, Britain, Dutch); Archduke Charles as "Charles III" in
+  // Barcelona; Blenheim 1704 (Marlborough and Eugene); Joseph I d. 1711, the
+  // allies lose interest; Utrecht 1713 / Rastatt 1714: Philip keeps Spain and
+  // renounces France, Charles gets the Southern Netherlands, Milan, Naples and
+  // Sardinia; Charles keeps the Spanish title and Spanish court ceremonial in
+  // Vienna. "No more Pyrenees" is the traditional attribution to Louis XIV,
+  // marked as such.
+  {
+    "slug": "what-was-the-spanish-succession-war-1701",
+    "era": "baroque-and-darkness",
+    "cardType": "background",
+    "startYear": 1720.1,
+    "tone": "humorous",
+    "year": {
+      "en": "1701–1714",
+      "cz": "1701–1714",
+      "zh": "1701年－1714年"
+    },
+    "title": {
+      "en": "What Was the War of the Spanish Succession?",
+      "cz": "Co byla válka o španělské dědictví?",
+      "zh": "西班牙王位继承战争是怎么回事？"
+    },
+    "hookLine": {
+      "en": "A childless king left a will, and Europe spent thirteen years fighting over it.",
+      "cz": "Bezdětný král zanechal závěť a Evropa se o ni třináct let rvala.",
+      "zh": "一位没有孩子的国王立了一份遗嘱，整个欧洲为它打了十三年。"
+    },
+    "summary": {
+      "en": "In November 1700 King Charles II of Spain died, with no son and no daughter. Sickly from childhood, he was known as \"the Bewitched\". In his will he left Spain and all its possessions around the world to Philip of Anjou, grandson of [[link:the-sun-king-and-the-grand-alliance-1688]]Louis XIV[[/link]] of France.\n\n[[quote:0]]\n\nVienna would not accept it. Spain, as the Habsburgs saw it, belonged in the family. Emperor Leopold I sent his younger son Charles to fight for the crown, and Britain and the Dutch Republic took Vienna's side: nobody wanted France and Spain under one roof.\n\nThe war ran from 1701 to 1714, through the Low Countries, Italy and Spain itself. Charles set up court in Barcelona as \"King Charles III\" and stayed for years. In 1704 Prince Eugene and the English Duke of Marlborough crushed the French together at Blenheim.\n\nThen, in 1711, Charles's brother Joseph I died and Charles became emperor. His allies suddenly lost interest. They had gone to war so that no single ruler would grow too strong; if Charles now got both Austria and Spain, they would have built a new [[link:two-habsburg-houses-1556]]Charles V[[/link]] with their own hands.\n\nSo the British pulled out first. In the peace treaties of 1713 and 1714 Philip kept Spain, on condition that he swore never to become king of France as well, and Charles was consoled with the Southern Netherlands, Milan, Naples and Sardinia.\n\n[[b]]Charles fought for ten years, never got Spain, and never stopped calling himself its king.[[/b]] He brought Spanish courtiers home with him, and the Vienna court kept Spanish ceremony and Spanish black for the rest of his reign.",
+      "cz": "V listopadu 1700 zemřel španělský král Karel II., bez syna i bez dcery. Od dětství byl nemocný a říkalo se mu „Očarovaný“. Ve své závěti odkázal Španělsko i všechny jeho državy po celém světě Filipovi z Anjou, vnukovi francouzského krále [[link:the-sun-king-and-the-grand-alliance-1688]]Ludvíka XIV.[[/link]]\n\n[[quote:0]]\n\nVídeň to nepřijala. Španělsko podle Habsburků patřilo rodině. Císař Leopold I. vyslal svého mladšího syna Karla, aby o korunu bojoval, a Británie s Nizozemím se postavily na stranu Vídně: nikdo nechtěl Francii a Španělsko pod jednou střechou.\n\nVálka trvala od roku 1701 do roku 1714 a vedla se v Nizozemí, v Itálii i v samotném Španělsku. Karel si v Barceloně zřídil dvůr jako „král Karel III.“ a zůstal tam celé roky. Roku 1704 rozdrtili princ Evžen a anglický vévoda z Marlborough společně Francouze u Blenheimu.\n\nPak roku 1711 zemřel Karlův bratr Josef I. a Karel se stal císařem. Spojenci najednou ztratili zájem. Šli do války proto, aby žádný panovník nezesílil příliš; kdyby teď Karel získal Rakousko i Španělsko, postavili by si vlastníma rukama nového [[link:two-habsburg-houses-1556]]Karla V.[[/link]]\n\nBritové proto odstoupili první. V mírových smlouvách z let 1713 a 1714 si Filip Španělsko udržel pod podmínkou, že přísahal, že se nikdy nestane také francouzským králem, a Karla odškodnili jižním Nizozemím, Milánem, Neapolí a Sardinií.\n\n[[b]]Karel bojoval deset let, Španělsko nikdy nezískal a španělským králem si říkat nikdy nepřestal.[[/b]] Přivezl si domů španělské dvořany a vídeňský dvůr si po celou jeho vládu držel španělský ceremoniál a španělskou černou.",
+      "zh": "1700年11月，西班牙国王卡洛斯二世去世，没有儿子，也没有女儿。他从小体弱多病，人称“中了邪的国王”。临终前他立下遗嘱，把西班牙和遍布全世界的属地，统统留给了法国国王[[link:the-sun-king-and-the-grand-alliance-1688]]路易十四[[/link]]的孙子，安茹公爵腓力。\n\n[[quote:0]]\n\n维也纳不答应。在哈布斯堡家看来，西班牙本该留在自家人手里。皇帝利奥波德一世把小儿子查理推了出去，让他去争这顶王冠。英国和荷兰也站到了维也纳这边：谁都不想看到法国和西班牙合成一家。\n\n仗从1701年一直打到1714年，从低地国家打到意大利，又打进西班牙本土。查理在巴塞罗那自称“卡洛斯三世”，一住就是好几年。1704年，欧根亲王和英国的马尔伯勒公爵联手，在布伦海姆大败法军。\n\n可是1711年，查理的哥哥约瑟夫一世去世，查理成了皇帝。盟友们一下子没了兴致：他们打这场仗，本来是为了不让哪一家太强；要是查理把奥地利和西班牙都拿到手，岂不是亲手又造出一个[[link:two-habsburg-houses-1556]]查理五世[[/link]]？\n\n于是英国人先撤了。1713年和1714年，各方签下和约：腓力保住西班牙，条件是发誓永远不当法国国王；查理拿到尼德兰南部、米兰、那不勒斯和撒丁岛，算是安慰。\n\n[[b]]查理打了十年仗，没拿到西班牙，却一辈子没放下“西班牙国王”的头衔。[[/b]]他把一批西班牙廷臣带回了维也纳，在他统治的年月里，维也纳宫廷一直沿用西班牙的礼仪，穿西班牙式的黑衣。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "There are no more Pyrenees.",
+          "cz": "Pyreneje už nejsou.",
+          "zh": "比利牛斯山从此不存在了。"
+        },
+        "attribution": {
+          "en": "Traditionally attributed to Louis XIV on his grandson's accepting the Spanish crown, November 1700 (so it is said; translated)",
+          "cz": "Tradičně připisováno Ludvíku XIV., když jeho vnuk přijal španělskou korunu, listopad 1700 (údajně; v překladu)",
+          "zh": "据说是1700年11月孙子接受西班牙王冠时，路易十四说的话（转译）"
+        }
+      }
+    ],
+    "relatedLandmarks": [],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/War_of_the_Spanish_Succession"
+  },
 ];
 
 // Era-overview cards live in their own file (see historyOverviews.js).
