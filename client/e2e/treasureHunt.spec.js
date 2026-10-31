@@ -223,22 +223,25 @@ test.describe('Treasure hunt', () => {
     await expect(page.locator('.hunt-panel__distance')).toHaveText('Very close: under 500 m, but more than 300 m.');
   });
 
-  test('on a phone the challenge box starts folded and opens on tap', async ({ page }) => {
+  test('on a phone the challenge box starts open, and folding it is remembered', async ({ page }) => {
     await page.setViewportSize({ width: 390, height: 800 });
     await page.route('**/api/locations', route => route.fulfill({ json: [] }));
     await page.goto('/treasure-hunt');
     const text = page.locator('.guide-challenge__text');
-    const folded = (await text.boundingBox()).height;
-    await page.getByRole('button', { name: 'Show more' }).click();
-    expect((await text.boundingBox()).height).toBeGreaterThan(folded);
-    await expect(page.getByRole('button', { name: 'Show less' })).toBeVisible();
+    const open = (await text.boundingBox()).height;
+    await page.getByRole('button', { name: 'Show less' }).click();
+    expect((await text.boundingBox()).height).toBeLessThan(open);
+    // Still folded after a reload.
+    await page.reload();
+    await expect(page.getByRole('button', { name: 'Show more' })).toBeVisible();
+    expect((await text.boundingBox()).height).toBeLessThan(open);
   });
 
   test('on desktop the challenge box is not folded', async ({ page }) => {
     await page.setViewportSize({ width: 1280, height: 800 });
     await page.route('**/api/locations', route => route.fulfill({ json: [] }));
     await page.goto('/treasure-hunt');
-    await expect(page.getByRole('button', { name: 'Show more' })).toBeHidden();
+    await expect(page.locator('.guide-challenge__toggle')).toBeHidden();
   });
 
   test('a guest sees the rules but has to log in to play', async ({ page }) => {

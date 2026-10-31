@@ -37,6 +37,10 @@ const HUNT_CLUES = [
   { key: 'other', free: '—', take: true },
 ];
 
+// localStorage flag: the player folded the challenge box ('1') or opened it
+// again ('0'). Unset on a first visit, so it starts open.
+const CHALLENGE_FOLDED_KEY = 'huntChallengeFolded';
+
 function HuntClueTable({ t }) {
   return (
     <div className="hunt-table-wrap">
@@ -81,7 +85,14 @@ export default function TreasureHuntPage() {
   const [startError, setStartError] = useState(null);
   const [now, setNow] = useState(Date.now());
   const [selectedSlug, setSelectedSlug] = useState(null);
-  const [challengeOpen, setChallengeOpen] = useState(false);
+  // Open on a first visit; folding it (phones only) is remembered.
+  const [challengeOpen, setChallengeOpen] = useState(() => {
+    try { return localStorage.getItem(CHALLENGE_FOLDED_KEY) !== '1'; } catch { return true; }
+  });
+  const toggleChallenge = () => setChallengeOpen(open => {
+    try { localStorage.setItem(CHALLENGE_FOLDED_KEY, open ? '1' : '0'); } catch { /* storage blocked */ }
+    return !open;
+  });
   const refreshingOnExpiry = useRef(false);
   const [busy, setBusy] = useState(false);
   const [huntFlash, setHuntFlash] = useState(null);
@@ -239,11 +250,11 @@ export default function TreasureHuntPage() {
       <div className="guide-wrap">
         <h1 className="px-title" style={{ fontSize: 26, marginBottom: 6 }}>{t('draw.modeHunt')}</h1>
         <p className="guide-intro">{t('draw.huntTagline')}</p>
-        {/* On phones the challenge box starts folded to a few lines, in a
+        {/* On phones the challenge box can be folded to a few lines, in a
             smaller font (pixelart.css); on desktop the toggle is hidden. */}
         <div className={`guide-challenge guide-challenge--fold${challengeOpen ? ' is-open' : ''}`}>
           <div className="guide-challenge__text">{t('draw.huntChallenge')}</div>
-          <button type="button" className="guide-challenge__toggle" onClick={() => setChallengeOpen(o => !o)} aria-expanded={challengeOpen}>
+          <button type="button" className="guide-challenge__toggle" onClick={toggleChallenge} aria-expanded={challengeOpen}>
             {t(challengeOpen ? 'draw.huntChallengeLess' : 'draw.huntChallengeMore')}
           </button>
         </div>
