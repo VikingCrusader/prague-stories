@@ -1,4 +1,4 @@
-import { calculateLevel, evaluateAchievements, LEVELS, orderHuntLabels, huntStep, huntXp, HUNT_MULTIPLIERS } from '../src/services/gamification.js';
+import { calculateLevel, evaluateAchievements, LEVELS, huntStep, huntXp, huntReading, HUNT_MULTIPLIERS } from '../src/services/gamification.js';
 
 describe('calculateLevel', () => {
   describe('level thresholds', () => {
@@ -238,54 +238,38 @@ describe('evaluateAchievements', () => {
   });
 });
 
-describe('orderHuntLabels', () => {
-  // Label lists of 12 possible cards: "historical" on 8, "church" on 3,
-  // "jewish" on 1, "park" on 2.
-  const pool = [
-    ['historical', 'church', 'jewish'], ['historical', 'church'], ['historical', 'church'],
-    ['historical'], ['historical'], ['historical'], ['historical'], ['historical'],
-    ['park'], ['park'], ['architecture'], ['museum'],
-  ];
-
-  test('a label on most cards never opens', () => {
-    expect(orderHuntLabels(['historical', 'church'], pool)).toEqual(['church', 'historical']);
-  });
-
-  test('otherwise the most common label opens, not a rare giveaway', () => {
-    expect(orderHuntLabels(['jewish', 'historical', 'church'], pool)).toEqual(['church', 'jewish', 'historical']);
-  });
-
-  test('"hidden-gem" never opens either, however rare', () => {
-    expect(orderHuntLabels(['hidden-gem', 'park'], pool)).toEqual(['park', 'hidden-gem']);
-  });
-
-  test('a card with only generic labels opens with the least common one', () => {
-    const allOld = [['historical', 'architecture'], ['historical', 'architecture'], ['historical']];
-    expect(orderHuntLabels(['historical', 'architecture'], allOld)).toEqual(['architecture', 'historical']);
-  });
-});
-
 describe('treasure hunt multiplier ladder', () => {
   const mult = (misses, clues) => HUNT_MULTIPLIERS[huntStep(misses, clues)];
 
-  test('a miss drops a full step, a clue half a step', () => {
-    // Three presses pay a bonus, then 1x for good.
-    expect([0, 1, 2, 3, 4].map(m => mult(m, 0))).toEqual([10, 4, 2, 1, 1]);
-    expect([0, 1, 2].map(m => mult(m, 1))).toEqual([6, 3, 1.5]);
-    expect(mult(0, 2)).toBe(4);
+  test('a miss drops two rungs, a clue one', () => {
+    // Without clues two presses pay a bonus, then 1x for good.
+    expect([0, 1, 2, 3].map(m => mult(m, 0))).toEqual([10, 3, 1, 1]);
+    expect([0, 1, 2].map(m => mult(m, 1))).toEqual([5, 2, 1]);
+    expect([0, 1, 2, 3, 4].map(c => mult(0, c))).toEqual([10, 5, 3, 2, 1]);
   });
 
   test('a clue always costs less than a miss', () => {
-    for (let m = 0; m < 4; m++) for (let c = 0; c < 4; c++) {
+    for (let m = 0; m < 3; m++) for (let c = 0; c < 3; c++) {
       expect(mult(m, c + 1)).toBeGreaterThanOrEqual(mult(m + 1, c));
     }
   });
 
   test('never drops below 1x', () => {
     expect(mult(10, 10)).toBe(1);
+    expect(huntXp(20, huntStep(5, 5))).toBe(20);
   });
+});
 
-  test('pays whole XP at 1.5x', () => {
-    expect(huntXp(20, huntStep(2, 1))).toBe(30);
+describe('huntReading', () => {
+  test('whole km from 3 km out, half km down to 1 km, then bands', () => {
+    expect(huntReading(5800)).toEqual({ about: 6000 });
+    expect(huntReading(6400)).toEqual({ about: 6000 });
+    expect(huntReading(3400)).toEqual({ about: 3000 });
+    expect(huntReading(2800)).toEqual({ about: 3000 });
+    expect(huntReading(2600)).toEqual({ about: 2500 });
+    expect(huntReading(1200)).toEqual({ about: 1000 });
+    expect(huntReading(999)).toEqual({ band: [500, 1000] });
+    expect(huntReading(400)).toEqual({ band: [300, 500] });
+    expect(huntReading(50)).toEqual({ within: 300 });
   });
 });

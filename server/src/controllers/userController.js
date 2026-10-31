@@ -3,11 +3,9 @@ import CheckIn from '../models/CheckIn.js';
 import Location from '../models/Location.js';
 import {
   ACHIEVEMENTS, LEVELS, calculateLevel, RANDOM_DRAW_WINDOW_MS,
-  HUNT_MULTIPLIERS, HUNT_MISS_STEPS, HUNT_CLUE_STEPS, HUNT_CLUES, HUNT_FREE_AREA_M, HUNT_FREE_CLUE_M, HUNT_FREE_CLUE_KEYS, HIDDEN_DRAW_HIT_M,
-  HUNT_LABEL_CHECK_M, HUNT_MIN_FIRST_CANDIDATES, HUNT_MIN_QUARTER_CANDIDATES, HUNT_MIN_START_M,
-  HUNT_TREND_STEP_M, HUNT_TREND_SAME_M, HUNT_EXCLUDED_SLUGS,
-  HIDDEN_DRAW_VAGUE_LABELS, riverSideOf, orderHuntLabels, huntXp, huntReading,
-  huntStepOf, huntMissCount,
+  HUNT_MULTIPLIERS, HUNT_MISS_STEPS, HUNT_CLUE_STEPS, HUNT_CLUE_ORDER, HUNT_CLOSE_KEYS, HUNT_FREE_CLUE_AT,
+  HIDDEN_DRAW_HIT_M, HUNT_MIN_START_M, HUNT_TREND_STEP_M, HUNT_TREND_SAME_M, HUNT_TREND_MAX_M,
+  HUNT_EXCLUDED_SLUGS, riverSideOf, huntXp, huntReading, huntStepOf, huntMissCount,
 } from '../services/gamification.js';
 import { haversineDistance, compassDirection } from '../utils/geo.js';
 import { inPrague } from '../utils/pragueBoundary.js';
@@ -103,84 +101,92 @@ async function huntPool(user) {
   return Location.find(await huntPoolMatch(user)).select('slug labels rarity quarter coordinates').lean();
 }
 
-// Plans a new treasure's label and area clues, checked against the cards a
-// player would have to tell apart (`pool`: uncollected city cards, with
-// quarter and coordinates):
-//   - the label clue (bought only): among the card's labels that fit at
-//     least HUNT_MIN_FIRST_CANDIDATES cards on the same bank within
-//     HUNT_LABEL_CHECK_M of the treasure, one at random; if none does, the
-//     one that fits the most (the least telling). Vague labels are never a
-//     clue; a card with no other label gets none;
-//   - the quarter, given with the district only if at least
-//     HUNT_MIN_QUARTER_CANDIDATES cards in it also carry that label.
-// `firstClue` marks a planned hunt (and keeps the label it opens with).
-function planHuntClues(picked, pool) {
-  const side = riverSideOf(picked.quarter);
-  const others = pool.filter(c => c.slug !== picked.slug);
-  const near = others.filter(c => c.coordinates && riverSideOf(c.quarter) === side
-    && haversineDistance(c.coordinates.lat, c.coordinates.lng, picked.coordinates.lat, picked.coordinates.lng) <= HUNT_LABEL_CHECK_M);
-  const has = (c, lb) => !lb || (c.labels || []).includes(lb);
-  const options = (picked.labels || [])
-    .filter(l => l !== 'outside' && !HIDDEN_DRAW_VAGUE_LABELS.includes(l))
-    .map(value => ({ value, count: 1 + near.filter(c => has(c, value)).length }));
-  const passing = options.filter(o => o.count >= HUNT_MIN_FIRST_CANDIDATES);
-  const clueLabel = passing.length
-    ? passing[Math.floor(Math.random() * passing.length)].value
-    : options.length ? options.reduce((a, b) => (b.count > a.count ? b : a)).value : null;
-  const inQuarter = 1 + others.filter(c => c.quarter === picked.quarter && has(c, clueLabel)).length;
-  return { firstClue: { kind: 'label', value: clueLabel }, clueLabel, showQuarter: inQuarter >= HUNT_MIN_QUARTER_CANDIDATES };
-}
+// A hunt dealt before the 2026-10-31 rework (it has the old planned label
+// clue): it always showed the river side, and its 'area' clue was the
+// district and the quarter together. It runs out within a day.
+const isOldHunt = draw => !!(draw.firstClue?.kind || draw.labelOrder?.length);
 
-// The label a hunt's label clue shows (null if the card has none to show).
-// A hunt dealt before planHuntClues existed opens with its first label.
-function clueLabelOf(draw, location) {
+// The label a label clue shows: stored with the clue since 2026-10-31; an
+// old hunt's planned label otherwise.
+function labelOf(draw, location) {
+  const clue = (draw.clues || []).find(c => c.key === 'label');
+  if (clue?.label) return clue.label;
   if (draw.firstClue?.kind) return draw.clueLabel ?? null;
   return (draw.labelOrder?.length ? draw.labelOrder : location.labels || [])[0] ?? null;
 }
 
-// Which clues a hunt shows: the ones taken, bought or free (a leftover
-// `revealed`, from the free reveals before 2026-10-30, is ignored).
-function shownClues(draw, location) {
-  const taken = new Set((draw.clues || []).map(c => c.key));
-  return {
-    label: taken.has('label') && !!clueLabelOf(draw, location),
-    area: taken.has('area'),
-    rarity: taken.has('rarity'),
-    direction: taken.has('direction'),
-  };
+// The clue keys a hunt has had, bought or free (an old 'area' counts as the
+// district and the quarter; an old 'direction' snapshot isn't in the order).
+function cluesHad(draw) {
+  const had = new Set();
+  for (const c of draw.clues || []) {
+    if (c.key === 'area') { had.add('district'); had.add('quarter'); } else had.add(c.key);
+  }
+  if (isOldHunt(draw)) had.add('side');
+  return had;
 }
 
-// Clues the player can still take (HUNT_CLUES, once each): not shown yet,
-// and the label clue only if the card has a label to show.
-function availableClues(draw, location) {
-  const shown = shownClues(draw, location);
-  return HUNT_CLUES.filter(k => !shown[k] && !(k === 'label' && !clueLabelOf(draw, location)));
+// How far along HUNT_CLUE_ORDER a hunt is: the 'close' slot is filled by
+// either of HUNT_CLOSE_KEYS, 'other' by both.
+function cluesDone(draw) {
+  const had = cluesHad(draw);
+  const close = HUNT_CLOSE_KEYS.filter(k => had.has(k)).length;
+  let n = 0;
+  for (const slot of HUNT_CLUE_ORDER) {
+    const ok = slot === 'close' ? close >= 1 : slot === 'other' ? close >= 2 : had.has(slot);
+    if (!ok) break;
+    n++;
+  }
+  return n;
 }
 
-// Whether the 300 m free clue (the rarity or the label) has been given.
-const hasCloseFreeClue = draw => (draw.clues || []).some(c => c.free && HUNT_FREE_CLUE_KEYS.includes(c.key));
+const hasLabels = location => (location.labels || []).length > 0;
 
-// The next clue walking in will bring for free, for the panel's hint, or
-// null when nothing more comes free.
-function nextFreeClue(draw, location) {
-  const left = availableClues(draw, location);
-  if (left.includes('area')) return { at: HUNT_FREE_AREA_M, what: 'area' };
-  if (!hasCloseFreeClue(draw) && left.some(k => HUNT_FREE_CLUE_KEYS.includes(k))) return { at: HUNT_FREE_CLUE_M, what: 'rarityOrLabel' };
-  return null;
+// The next clue in the order (a key), or null when none is left. At the
+// 'close' slot the label or the rarity, 50/50 (a card with no labels gets
+// the rarity there and has no 'other').
+function nextClueKey(draw, location) {
+  const name = nextClueName(draw, location);
+  if (name !== 'rarityOrLabel') return name;
+  return Math.random() < 0.5 ? 'label' : 'rarity';
 }
+
+// What the next clue will be, for the panel: a key, or 'rarityOrLabel'
+// while the 'close' slot is still undrawn.
+function nextClueName(draw, location) {
+  const slot = HUNT_CLUE_ORDER[cluesDone(draw)];
+  if (!slot) return null;
+  if (slot === 'close') return hasLabels(location) ? 'rarityOrLabel' : 'rarity';
+  if (slot === 'other') {
+    const had = cluesHad(draw);
+    const left = HUNT_CLOSE_KEYS.find(k => !had.has(k));
+    return left === 'label' && !hasLabels(location) ? null : left;
+  }
+  return slot;
+}
+
+// A clue entry to push: a label clue keeps the label drawn (any of the
+// card's labels, each as likely).
+function makeClue(key, location, free) {
+  const clue = { key, free, at: new Date() };
+  if (key === 'label') {
+    const labels = location.labels || [];
+    clue.label = labels[Math.floor(Math.random() * labels.length)];
+  }
+  return clue;
+}
+
+// The distance a free clue comes within, by key (an old 'area' at 1 km).
+const FREE_SLOT = { side: 0, district: 1, area: 1, quarter: 2, label: 3, rarity: 3 };
 
 // Treasure hunt, still unsolved: only the clues go to the client, never the
 // location or its coordinates (they'd be readable in devtools).
-//   - always: which side of the Vltava it is on, and the distance
-//     (huntReading: about N km, then 500 m steps, then within 1 km / 300 m
-//     / 100 m);
-//   - hot and cold, all the way: every HUNT_TREND_STEP_M walked, whether the
-//     player got closer or farther;
-//   - free within 1 km: the district, and the quarter if it passed the
-//     check (planHuntClues);
-//   - free within 300 m: the rarity or the label, one of them at random;
-//   - bought, drawn at random: any of those not had yet, or the direction
-//     as it was then;
+//   - always: the distance (huntReading);
+//   - hot and cold, outside HUNT_TREND_MAX_M: every HUNT_TREND_STEP_M walked,
+//     whether the player got closer or farther;
+//   - in HUNT_CLUE_ORDER, free at HUNT_FREE_CLUE_AT or bought earlier: the
+//     river side, the district, the quarter, then the label or the rarity
+//     (50/50), then the other (bought only);
 //   - each miss: the direction from the spot pressed (never its distance:
 //     several exact distances would triangulate the treasure).
 // A reported position moves the trend's reference point and may earn the
@@ -194,10 +200,13 @@ async function buildHuntClues(user, draw, location, pos) {
     reading = huntReading(d);
     const set = {};
     // Hot and cold: once the player is a step away from the last reference
-    // reading, compare and move the reference here.
+    // reading, compare and move the reference here. None inside
+    // HUNT_TREND_MAX_M.
     const ref = draw.trendRef;
     const here = { lat: pos.lat, lng: pos.lng, distance: Math.round(d) };
-    if (ref?.lat == null) {
+    if (d < HUNT_TREND_MAX_M) {
+      trend = null;
+    } else if (ref?.lat == null) {
       set['randomDraw.trendRef'] = here;
     } else if (haversineDistance(pos.lat, pos.lng, ref.lat, ref.lng) >= HUNT_TREND_STEP_M) {
       const delta = d - ref.distance;
@@ -207,57 +216,53 @@ async function buildHuntClues(user, draw, location, pos) {
     if (Object.keys(set).length) {
       await User.updateOne({ _id: user._id, 'randomDraw.slug': draw.slug }, { $set: set });
     }
-    // The free clues for walking in: the area within 1 km (unless already
-    // bought), then within 300 m the rarity or the label at random, whichever
-    // the player doesn't have yet. Each push is conditional so two polls
-    // can't give one twice.
-    const give = async (key, guard) => {
+    // The free clues for walking in, one at a time in the order, while the
+    // player is inside the next one's distance. Each push is conditional on
+    // the clue count so two polls can't give one twice.
+    for (;;) {
+      const at = HUNT_FREE_CLUE_AT[cluesDone(draw)];
+      const key = at != null && d < at ? nextClueKey(draw, location) : null;
+      if (!key) break;
+      const count = draw.clues?.length || 0;
       const updated = await User.findOneAndUpdate(
-        { _id: user._id, 'randomDraw.slug': draw.slug, ...guard },
-        { $push: { 'randomDraw.clues': { key, free: true, at: new Date() } } },
+        { _id: user._id, 'randomDraw.slug': draw.slug, $expr: { $eq: [{ $size: { $ifNull: ['$randomDraw.clues', []] } }, count] } },
+        { $push: { 'randomDraw.clues': makeClue(key, location, true) } },
         { new: true, projection: { randomDraw: 1 } },
       ).lean();
-      if (updated) draw = updated.randomDraw;
-    };
-    if (d < HUNT_FREE_AREA_M && availableClues(draw, location).includes('area')) {
-      await give('area', { 'randomDraw.clues.key': { $ne: 'area' } });
-    }
-    const close = availableClues(draw, location).filter(k => HUNT_FREE_CLUE_KEYS.includes(k));
-    if (d < HUNT_FREE_CLUE_M && close.length && !hasCloseFreeClue(draw)) {
-      await give(close[Math.floor(Math.random() * close.length)], {
-        'randomDraw.clues': { $not: { $elemMatch: { free: true, key: { $in: HUNT_FREE_CLUE_KEYS } } } },
-      });
+      if (!updated) break;
+      draw = updated.randomDraw;
     }
   }
 
-  const shown = shownClues(draw, location);
-  const rarity = shown.rarity ? location.rarity : null;
+  const had = cluesHad(draw);
+  const rarity = had.has('rarity') ? location.rarity : null;
   const step = huntStepOf(draw);
   const last = HUNT_MULTIPLIERS.length - 1;
-  const available = availableClues(draw, location);
+  const nextClue = nextClueName(draw, location);
+  const freeAt = HUNT_FREE_CLUE_AT[cluesDone(draw)];
+  const label = had.has('label') ? labelOf(draw, location) : null;
   return {
     multiplier: HUNT_MULTIPLIERS[step],
     // What a miss, or taking a clue, would leave.
     missMultiplier: HUNT_MULTIPLIERS[Math.min(step + HUNT_MISS_STEPS, last)],
-    clueMultiplier: available.length ? HUNT_MULTIPLIERS[Math.min(step + HUNT_CLUE_STEPS, last)] : null,
-    availableClues: available,
+    clueMultiplier: nextClue ? HUNT_MULTIPLIERS[Math.min(step + HUNT_CLUE_STEPS, last)] : null,
+    // The clue a buy would bring ('rarityOrLabel' while it is still a draw).
+    nextClue,
     presses: huntMissCount(draw),
     reading,
     trend,
-    riverSide: riverSideOf(location.quarter),
+    riverSide: had.has('side') ? riverSideOf(location.quarter) : null,
     // The clues that came free, with the distance that brought them, and
     // the next one walking in will bring.
     freeClues: (draw.clues || []).filter(c => c.free)
-      .map(c => ({ key: c.key, within: c.key === 'area' ? HUNT_FREE_AREA_M : HUNT_FREE_CLUE_M })),
-    nextFree: nextFreeClue(draw, location),
-    // Whether the label and area clues have been taken.
-    firstRevealed: shown.label,
-    areaRevealed: shown.area,
+      .map(c => ({ key: c.key, within: HUNT_FREE_CLUE_AT[FREE_SLOT[c.key]] })),
+    nextFree: freeAt != null && nextClue ? { at: freeAt, what: nextClue } : null,
     rarity,
     xpReward: rarity ? location.xpReward : null,
-    labels: shown.label ? [clueLabelOf(draw, location)] : [],
-    district: shown.area ? location.district : null,
-    quarter: shown.area && draw.showQuarter !== false ? location.quarter : null,
+    labels: label ? [label] : [],
+    district: had.has('district') ? location.district ?? null : null,
+    quarter: had.has('quarter') && draw.showQuarter !== false ? location.quarter : null,
+    // An old hunt's bought direction snapshot.
     snapshots: (draw.clues || []).filter(c => c.key === 'direction').map(c => ({ key: 'direction', direction: c.direction })),
     misses: (draw.misses || []).filter(m => !m.skipped).map(m => ({ direction: m.direction })),
   };
@@ -325,24 +330,13 @@ export async function getRandomDraw(req, res, next) {
   }
 }
 
-function shuffle(arr) {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
 // Starts a treasure hunt: a random card from huntPool's (uncollected, inside
 // Prague, with a quarter, not on the river), at least HUNT_MIN_START_M from
 // where the player is, so every hunt is a walk (user's call, 2026-10-29);
 // with nothing that far left, any pool card will do. A hunt can only be
 // started from inside Prague's boundary (user's call, 2026-10-30): no
 // position is a 400, a position outside is a 403 (`code` tells the client
-// which). Skipped in development, like the check-in's distance check. Its
-// labels are ordered by orderHuntLabels and its free clues planned by
-// planHuntClues.
+// which). Skipped in development, like the check-in's distance check.
 export async function drawRandomLocation(req, res, next) {
   try {
     const user = req.user;
@@ -368,10 +362,8 @@ export async function drawRandomLocation(req, res, next) {
     const choices = far.length ? far : pool;
     const picked = choices[Math.floor(Math.random() * choices.length)];
 
-    const labelOrder = orderHuntLabels(picked.labels || [], pool.map(c => c.labels), shuffle);
     user.randomDraw = {
       slug: picked.slug, drawnAt: new Date(), bonusUsed: false, forfeited: false, mode: 'hidden',
-      labelOrder, ...planHuntClues(picked, pool),
       misses: [], clues: [], trendRef: null, trend: null, solvedAttempt: null,
     };
     await user.save();
@@ -430,11 +422,9 @@ export async function guessHiddenDraw(req, res, next) {
   }
 }
 
-// "Take a clue": one of HUNT_CLUES still available, drawn at random (the
-// player doesn't choose; a `key` in the body is ignored), for half a step of
-// multiplier, from anywhere. The direction clue is only in the draw when the
-// player's position is sent, and keeps only what it said then. 409 when no
-// clue is left, 400 when only the direction is left and no position came.
+// "Take a clue": the next one in HUNT_CLUE_ORDER (the label or the rarity
+// is drawn 50/50 at that slot; a `key` in the body is ignored), for one
+// rung of multiplier, from anywhere. 409 when no clue is left.
 export async function takeHuntClue(req, res, next) {
   try {
     const user = await User.findById(req.user._id);
@@ -444,27 +434,18 @@ export async function takeHuntClue(req, res, next) {
     }
     const location = await Location.findOne({ slug: draw.slug }).lean();
     if (!location) return res.status(404).json({ message: 'Location not found' });
-    const available = availableClues(draw, location);
-    if (!available.length) return res.status(409).json({ message: 'No clue left' });
-    const pos = parsePosition(req.body);
-    const drawable = pos ? available : available.filter(k => k !== 'direction');
-    if (!drawable.length) return res.status(400).json({ message: 'Location coordinates are required for this clue' });
-    const key = drawable[Math.floor(Math.random() * drawable.length)];
-
-    const clue = { key, at: new Date() };
-    if (key === 'direction') {
-      clue.direction = compassDirection(pos.lat, pos.lng, location.coordinates.lat, location.coordinates.lng);
-    }
+    const key = nextClueKey(draw, location);
+    if (!key) return res.status(409).json({ message: 'No clue left' });
 
     // Conditional on the clue count so a double-tap can't take two clues.
     const clueCount = draw.clues?.length || 0;
     const updated = await User.findOneAndUpdate(
       { _id: user._id, 'randomDraw.slug': draw.slug, $expr: { $eq: [{ $size: { $ifNull: ['$randomDraw.clues', []] } }, clueCount] } },
-      { $push: { 'randomDraw.clues': clue } },
+      { $push: { 'randomDraw.clues': makeClue(key, location, false) } },
       { new: true },
     );
     const current = updated || await User.findById(user._id);
-    res.json({ clue: key, draw: await buildDrawResponse(current, pos) });
+    res.json({ clue: key, draw: await buildDrawResponse(current, parsePosition(req.body)) });
   } catch (err) {
     next(err);
   }

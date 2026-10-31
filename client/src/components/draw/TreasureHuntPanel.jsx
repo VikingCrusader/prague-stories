@@ -6,23 +6,23 @@ import DistrictLine from '../locations/DistrictLine';
 
 const metres = m => (m >= 1000 ? `${m / 1000} km` : `${m} m`);
 
-// The server's distance clue (huntReading): { about } outside 1 km,
-// { within } inside it (1 km, then 300 m; never closer, so a press is always
-// a risk).
+// The server's distance clue (huntReading): { about } outside 1 km, then
+// the bands 500 m–1 km and 300–500 m, then { within: 300 } (never closer,
+// so a press is always a risk). The last three are whole sentences.
 function readingText(r, t) {
-  if (r.within) return t('draw.huntWithin', { r: metres(r.within) });
-  return t('draw.huntAbout', { d: metres(r.about) });
+  if (r.within) return t('draw.huntWithin300');
+  if (r.band) return t(`draw.huntBand.${r.band[1]}`);
+  return t('draw.huntDistance', { d: t('draw.huntAbout', { d: metres(r.about) }) });
 }
 
 // An unsolved treasure hunt on the Treasure Hunt page. Everything shown here
 // comes from the server's `hunt` clue object (the location itself is never
-// sent until it is found; see buildHuntClues on the server): which side of
-// the Vltava it is on, a rough distance and the hot-and-cold trend; the
-// clues taken (a label, the rarity, the district and usually the quarter,
-// the direction snapshot), bought at random (the player doesn't pick) or
-// given free for walking in (the area within 1 km, the rarity or the label
-// within 300 m); the next free one; and each miss's direction. The button works anywhere: a
-// miss costs a full step of multiplier, a clue half a step.
+// sent until it is found; see buildHuntClues on the server): a rough
+// distance and, outside 500 m, the hot-and-cold trend; the clues had, in
+// their fixed order (the river bank, the district, the quarter, then the
+// label or the rarity, then the other), given free for walking in or
+// bought early; the next free one; and each miss's direction. The button
+// works anywhere: a miss costs two rungs of multiplier, a clue one.
 export default function TreasureHuntPanel({ hunt, onGuess, onClue, busy, flash }) {
   const t = useT();
   const { lang } = useLang();
@@ -33,9 +33,9 @@ export default function TreasureHuntPanel({ hunt, onGuess, onClue, busy, flash }
   const rarity = hunt.rarity;
 
   // A new miss or clue cancels a pending confirm.
-  useEffect(() => { setConfirming(false); setChoosing(false); }, [hunt.presses, hunt.availableClues.length]);
+  useEffect(() => { setConfirming(false); setChoosing(false); }, [hunt.presses, hunt.nextClue]);
 
-  let distanceText = reading ? t('draw.huntDistance', { d: readingText(reading, t) }) : t('draw.huntLocating');
+  let distanceText = reading ? readingText(reading, t) : t('draw.huntLocating');
   if (reading && hunt.trend) distanceText += ` · ${t(`draw.huntTrend.${hunt.trend}`)}`;
 
   const pressGuess = () => {
@@ -103,7 +103,7 @@ export default function TreasureHuntPanel({ hunt, onGuess, onClue, busy, flash }
 
       {choosing ? (
         <div className="hunt-panel__confirm">
-          <span>{t('draw.huntClueConfirm', { mult: hunt.clueMultiplier })}</span>
+          <span>{t('draw.huntClueConfirm', { mult: hunt.clueMultiplier, clue: t(`draw.clue.${hunt.nextClue}`) })}</span>
           <div className="hunt-panel__confirm-buttons">
             <button className="px-btn px-btn--gold" onClick={() => { setChoosing(false); onClue(); }} disabled={busy}>
               {t('draw.huntClueYes')}
@@ -124,9 +124,9 @@ export default function TreasureHuntPanel({ hunt, onGuess, onClue, busy, flash }
           <button className="px-btn px-btn--gold px-btn--lg" onClick={pressGuess} disabled={busy}>
             {t('draw.huntGuess')}
           </button>
-          {hunt.availableClues.length > 0 && (
+          {hunt.nextClue && (
             <button className="px-btn hunt-panel__clue" onClick={() => setChoosing(true)} disabled={busy}>
-              {t('draw.huntClue', { mult: hunt.clueMultiplier })}
+              {t('draw.huntClue', { mult: hunt.clueMultiplier, clue: t(`draw.clue.${hunt.nextClue}`) })}
             </button>
           )}
         </>

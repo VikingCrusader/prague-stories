@@ -27,14 +27,12 @@ const userSchema = new mongoose.Schema({
     // 'open' (location revealed, 3x XP) is retired but kept valid for old
     // documents; such a draw counts as no draw at all.
     mode:      { type: String, enum: ['open', 'hidden'], default: 'hidden' },
-    // The card's labels in the order orderHuntLabels gives (kept for hunts
-    // dealt before firstClue existed, whose first clue is labelOrder[0]).
+    // Leftovers from hunts dealt before 2026-10-31, read only while such a
+    // hunt runs out: the label order (first label = the label clue).
     labelOrder: { type: [String], default: undefined },
-    // The clues planned when the hunt is dealt (planHuntClues): the label
-    // the label clue shows (clueLabel; firstClue marks a planned hunt), and
-    // whether the area clue includes the quarter. Hunts dealt on 2026-10-29
-    // may have a 'rarity' firstClue; that is ignored, the rarity comes at
-    // 300 m like any other.
+    // The clues once planned when a hunt was dealt: the label the label clue
+    // showed (clueLabel; firstClue marks such a hunt), and whether the area
+    // clue included the quarter. Not written since 2026-10-31.
     firstClue: { kind: { type: String, enum: ['rarity', 'label'] }, value: String },
     clueLabel: { type: String, default: null },
     showQuarter: { type: Boolean, default: true },
@@ -52,12 +50,13 @@ const userSchema = new mongoose.Schema({
       }],
       default: undefined,
     },
-    // Clues taken (HUNT_CLUES), half a step each, once each. The direction
-    // snapshot keeps what it said then (never the position it was taken at).
+    // Clues had, in HUNT_CLUE_ORDER ('side', 'district', 'quarter', then
+    // 'label' and 'rarity'), one rung each when bought. A label clue keeps
+    // the label drawn. Old hunts may hold 'area' (district and quarter) and
+    // 'direction' (a snapshot of what it said then, never the position).
     clues: {
-      // `free`: given for walking in (the area within 1 km, the rarity or
-      // the label within 300 m), at no cost.
-      type: [{ key: String, direction: String, free: Boolean, at: { type: Date, default: Date.now }, _id: false }],
+      // `free`: given for walking in (HUNT_FREE_CLUE_AT), at no cost.
+      type: [{ key: String, label: String, direction: String, free: Boolean, at: { type: Date, default: Date.now }, _id: false }],
       default: undefined,
     },
     // How close the player has been, from when walking revealed clues for

@@ -25,18 +25,16 @@ function formatCountdown(ms) {
   return `${pad2(hrs)}:${pad2(mins)}:${pad2(secs)}`;
 }
 
-// The hunt's clues, for the rules section: which come for free (the river
-// side and the distance always, the area within 1 km, the rarity or the
-// label within 300 m), and which can be bought for half a step (at random,
-// the player doesn't pick). Mirrors HUNT_CLUES and HUNT_FREE_* on the
-// server.
+// The hunt's clues, for the rules section, in the order they come: the
+// distance always, then each clue free within its distance or bought early
+// for one rung. Mirrors HUNT_CLUE_ORDER and HUNT_FREE_CLUE_AT on the server.
 const HUNT_CLUES = [
-  { key: 'side', free: 'draw.huntTable.always', take: false },
   { key: 'reading', free: 'draw.huntTable.always', take: false },
-  { key: 'label', free: '300 m*', take: true },
-  { key: 'area', free: '1 km', take: true },
-  { key: 'rarity', free: '300 m*', take: true },
-  { key: 'direction', free: '—', take: true },
+  { key: 'side', free: '3 km', take: true },
+  { key: 'district', free: '1 km', take: true },
+  { key: 'quarter', free: '500 m', take: true },
+  { key: 'close', free: '300 m*', take: true },
+  { key: 'other', free: '—', take: true },
 ];
 
 function HuntClueTable({ t }) {
@@ -83,6 +81,7 @@ export default function TreasureHuntPage() {
   const [startError, setStartError] = useState(null);
   const [now, setNow] = useState(Date.now());
   const [selectedSlug, setSelectedSlug] = useState(null);
+  const [challengeOpen, setChallengeOpen] = useState(false);
   const refreshingOnExpiry = useRef(false);
   const [busy, setBusy] = useState(false);
   const [huntFlash, setHuntFlash] = useState(null);
@@ -177,9 +176,8 @@ export default function TreasureHuntPage() {
     }
   };
 
-  // "Take a clue" (see takeHuntClue on the server): the server draws one at
-  // random. A fresh position goes along, since the draw may be the direction
-  // snapshot (without one, the direction is left out of the draw).
+  // "Take a clue" (see takeHuntClue on the server): the next one in the
+  // order. The position goes along for the distance reading in the reply.
   const handleClue = async () => {
     unlockAudio();
     setBusy(true);
@@ -241,7 +239,14 @@ export default function TreasureHuntPage() {
       <div className="guide-wrap">
         <h1 className="px-title" style={{ fontSize: 26, marginBottom: 6 }}>{t('draw.modeHunt')}</h1>
         <p className="guide-intro">{t('draw.huntTagline')}</p>
-        <div className="guide-challenge">{t('draw.huntChallenge')}</div>
+        {/* On phones the challenge box starts folded to a few lines, in a
+            smaller font (pixelart.css); on desktop the toggle is hidden. */}
+        <div className={`guide-challenge guide-challenge--fold${challengeOpen ? ' is-open' : ''}`}>
+          <div className="guide-challenge__text">{t('draw.huntChallenge')}</div>
+          <button type="button" className="guide-challenge__toggle" onClick={() => setChallengeOpen(o => !o)} aria-expanded={challengeOpen}>
+            {t(challengeOpen ? 'draw.huntChallengeLess' : 'draw.huntChallengeMore')}
+          </button>
+        </div>
 
         {user && <LocationOffNotice />}
 

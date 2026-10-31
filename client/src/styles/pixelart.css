@@ -1640,6 +1640,30 @@ html[data-lang="zh"] .detail-title-name {
   line-height: 1.5;
 }
 .guide-section { margin-bottom: 28px; }
+/* Treasure Hunt's challenge box: folded to three lines on phones, with a
+   toggle; unchanged on desktop (user's call, 2026-10-31). */
+.guide-challenge__toggle { display: none; }
+@media (max-width: 600px) {
+  .guide-challenge--fold { font-size: 15px; padding: 10px 12px; }
+  .guide-challenge--fold:not(.is-open) .guide-challenge__text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .guide-challenge__toggle {
+    display: block;
+    margin: 6px 0 0 auto;
+    padding: 0;
+    background: none;
+    border: none;
+    color: var(--gold);
+    font: inherit;
+    font-size: 13px;
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
 
 /* Location consent (LocationConsentDialog, PrivacyPage, LocationOffNotice).
    Both answers share one style on purpose: no nudging towards "allow". */

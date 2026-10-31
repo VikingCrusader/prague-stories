@@ -10,67 +10,49 @@ export const RANDOM_DRAW_WINDOW_MS = 24 * 60 * 60 * 1000;
 // walks by a rough distance and a hot-and-cold hint. Clues that are card
 // attributes (labels, rarity, quarter, district) are filters on the Explore
 // page and the map, where every locked card shows its labels and distance,
-// so given freely they pick out the treasure at once. So they come step by
-// step as the player closes in (user's call): within 3 km one label, within
-// 1 km the district and quarter, within 300 m the rarity. The label and the
-// quarter are checked when the hunt is dealt (planHuntClues in
-// userController) so neither narrows the treasure down to a handful of cards
-// on its own.
+// so they come late and one at a time.
 //
-// Pressing costs multiplier. The multiplier sits on a ladder of half steps;
-// a miss moves it down a full step (10 → 4 → 2 → 1: without clues only three
-// presses pay a bonus), taking a clue only half a step (10 → 6, 4 → 3,
-// 2 → 1.5), so a clue is always cheaper than a blind guess. Made harder on
-// 2026-10-30 (user's call; it was 10/8/6/5/4/3/2/1.5/1): the first clue
-// makes the hunt much easier, so it costs 40%; the first miss costs 60%,
-// so a player with no clues is pushed to buy one rather than guess; after
-// one miss the treasure is easy to find, so 3x or 2x is plenty, and the
-// floor is reached for sure. It never goes below 1x, and misses never end
-// the hunt; only the 24h window does.
-export const HUNT_MULTIPLIERS = [10, 6, 4, 3, 2, 1.5, 1];
+// Reworked 2026-10-31 (user's call, for the thrill of a treasure slowly
+// giving itself away): the clues come in a fixed order (HUNT_CLUE_ORDER),
+// all within the last 3 km, nothing before. Walking brings the next one for
+// free at each distance in HUNT_FREE_CLUE_AT: the river bank within 3 km,
+// the district within 1 km, the quarter within 500 m, and within 300 m the
+// label or the rarity, 50/50 (a label is any of the card's labels, each as
+// likely: the luck is part of the game). The other of the two can only be
+// bought. Buying a clue gets the next one in the order early, whatever the
+// distance; a clue already had is not given again when walking reaches it.
+// There is no bought direction: the direction only comes with a miss.
+//
+// The multiplier ladder: a clue moves one rung down, a miss two (10 → 3
+// → 1: without clues only two presses pay a bonus, so a press is a real
+// gamble). It never goes below 1x (the card's plain XP), and misses never
+// end the hunt; only the 24h window does.
+export const HUNT_MULTIPLIERS = [10, 5, 3, 2, 1];
 export const HUNT_MISS_STEPS = 2;
 export const HUNT_CLUE_STEPS = 1;
 // A press within this distance of the treasure finds it. The button works
 // anywhere; a miss tells which way the treasure lies from the pressed spot.
 export const HIDDEN_DRAW_HIT_M = 100;
-// Clues a player can take for half a step each, once each. The player
-// doesn't pick: each take draws one at random from those still left.
-// Walking in brings two for free, no more (user's calls, 2026-10-30, after
-// a playtest where a free label at 3 km all but located the card): within
-// HUNT_FREE_AREA_M the area (that close it mostly keeps the player from
-// wandering out of the right quarter, it doesn't point anywhere), and
-// within HUNT_FREE_CLUE_M one of HUNT_FREE_CLUE_KEYS at random, whichever
-// the player doesn't have yet. The direction is never free:
-//   label:     one of the card's labels (planHuntClues picks which);
-//   rarity:    the rarity;
-//   area:      the district and (if it passed the check) the quarter;
-//   direction: which way the treasure lies from here, at that moment only
-//              (not a filter: using it means walking and working it out).
-// A distance snapshot was tried and dropped the same day: the distance
-// reading already says as much (user's call).
-export const HUNT_CLUES = ['rarity', 'label', 'area', 'direction'];
-export const HUNT_FREE_AREA_M = 1000;
-export const HUNT_FREE_CLUE_M = 300;
-export const HUNT_FREE_CLUE_KEYS = ['rarity', 'label'];
-// The check on the label and quarter clues. The label must fit at least
-// HUNT_MIN_FIRST_CANDIDATES of the cards it could be: uncollected, on the
-// same bank, within HUNT_LABEL_CHECK_M of the treasure. The quarter is only
-// given if at least HUNT_MIN_QUARTER_CANDIDATES uncollected cards in it also
-// carry that label (Explore filters by quarter); otherwise the area clue is
-// the district alone. Both counts include the treasure.
-export const HUNT_MIN_FIRST_CANDIDATES = 6;
-export const HUNT_LABEL_CHECK_M = 3000;
+// The clue order. 'close' is the label or the rarity, whichever is drawn
+// first (HUNT_CLOSE_KEYS, 50/50), 'other' the one left.
+export const HUNT_CLUE_ORDER = ['side', 'district', 'quarter', 'close', 'other'];
+export const HUNT_CLOSE_KEYS = ['label', 'rarity'];
+// Where walking in brings each clue of HUNT_CLUE_ORDER for free (by index;
+// the last one is never free).
+export const HUNT_FREE_CLUE_AT = [3000, 1000, 500, 300];
 // A new treasure is at least this far from where the player starts the hunt
 // (when anything that far is left), so a hunt is always a walk.
 export const HUNT_MIN_START_M = 4000;
-export const HUNT_MIN_QUARTER_CANDIDATES = 3;
 // Hot and cold: every HUNT_TREND_STEP_M walked the player is told whether
-// they got closer or farther (no figure, no direction), all the way to the
-// end; a change under HUNT_TREND_SAME_M reads as "about the same". It fixed
-// the old hardcore hunt's blind opening, a whole kilometre walked before a
-// wrong heading showed.
+// they got closer or farther (no figure, no direction); a change under
+// HUNT_TREND_SAME_M reads as "about the same". It fixed the old hardcore
+// hunt's blind opening, a whole kilometre walked before a wrong heading
+// showed. Within HUNT_TREND_MAX_M it stops (user's call, 2026-10-31): there
+// the clues are enough, and a verdict every 100 m in a 300 m circle would
+// point the way, which only a miss should do.
 export const HUNT_TREND_STEP_M = 100;
 export const HUNT_TREND_SAME_M = 40;
+export const HUNT_TREND_MAX_M = 500;
 
 /** Where on HUNT_MULTIPLIERS a hunt stands, from its misses and clues taken. */
 export function huntStep(misses, clues) {
@@ -99,14 +81,16 @@ export function huntXp(xpReward, step) {
 
 // The distance clue, always shown and deliberately coarse: an exact distance
 // plus Explore's card distances picks out the treasure, and two readings a
-// short walk apart triangulate it. About N km (whole km) from 3 km out, about
-// 3 / 2.5 / 2 / 1.5 / 1 km within 3 km (user's call), then only "within
-// 1 km" and "within 300 m". There is deliberately no "within 100 m" (the hit
-// radius): with it the best play was to never press until it showed, so a
-// press could never miss and carried no risk (dropped 2026-10-29). The last
-// stretch is found by hot and cold, the clues and looking around.
+// short walk apart triangulate it. Rounded to the nearest km from 3 km out
+// (5.8 and 6.4 km both read "about 6 km"), to the nearest 0.5 km from 3 km
+// down to 1 km, then only the bands 500 m–1 km, 300–500 m and "within
+// 300 m" (user's call, 2026-10-31). There is deliberately no "within
+// 100 m" (the hit radius): with it a press could never miss (dropped
+// 2026-10-29).
 export function huntReading(d) {
-  for (const r of [300, 1000]) if (d < r) return { within: r };
+  if (d < 300) return { within: 300 };
+  if (d < 500) return { band: [300, 500] };
+  if (d < 1000) return { band: [500, 1000] };
   if (d < 2750) return { about: Math.round(d / 500) * 500 };
   return { about: Math.round(d / 1000) * 1000 };
 }
@@ -151,14 +135,6 @@ export function riverSideOf(quarter) {
   if (!quarter) return null;
   return LEFT_BANK_QUARTERS.has(quarter) ? 'castle' : 'oldTown';
 }
-// A label on more than this share of the possible cards (e.g. the old
-// catch-all "historical", once on over half of them) says next to nothing, so it is never the opening
-// clue while the card has a more telling one.
-export const HIDDEN_DRAW_GENERIC_LABEL_SHARE = 0.25;
-// Labels treated as generic however rare they are: "hidden-gem" says the
-// place is little known, not what it is.
-export const HIDDEN_DRAW_VAGUE_LABELS = ['hidden-gem'];
-
 // A card with any of these counts as a "historical location" for the
 // History Fan achievement: the era and architectural-style labels that
 // replaced the old catch-all "historical" label (2026-10-15).
@@ -168,23 +144,6 @@ export const HISTORY_LABELS = new Set([
   'romanesque', 'gothic', 'renaissance', 'baroque', 'classicism', 'historicism',
   'art-nouveau', 'cubism', 'functionalism', 'brutalism',
 ]);
-
-/**
- * The order a treasure's labels are revealed in (the first from the start,
- * the second within 1 km or as a clue taken), given the label lists of every
- * card it could be. Generic labels (on more than
- * HIDDEN_DRAW_GENERIC_LABEL_SHARE of the cards, e.g. "historical", or in
- * HIDDEN_DRAW_VAGUE_LABELS) go last: as an opening clue they make the start
- * pure guesswork. The rest go most common first, so a rare label like
- * "jewish" isn't the opening clue that gives it away. A card with only
- * generic labels opens with the least common of them. `shuffle` breaks ties.
- */
-export function orderHuntLabels(labels, poolLabels, shuffle = a => [...a]) {
-  const count = lb => poolLabels.filter(ls => ls?.includes(lb)).length;
-  const generic = lb => HIDDEN_DRAW_VAGUE_LABELS.includes(lb) || count(lb) > poolLabels.length * HIDDEN_DRAW_GENERIC_LABEL_SHARE;
-  return shuffle(labels).sort((a, b) =>
-    (generic(a) - generic(b)) || (generic(a) ? count(a) - count(b) : count(b) - count(a)));
-}
 
 export const LEVELS = [
   { level: 1, title: "Newcomer", title_cz: "Nováček", title_zh: "新来者", xpRequired: 0 },
