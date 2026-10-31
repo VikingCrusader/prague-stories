@@ -7212,21 +7212,33 @@ Koncem 19. století se Praha rozhodla, že potřebuje jednu ústřední elektrá
     xpReward: 20,
     wikipediaUrl: '',
     description: {
-      en: `Cross Club in Holešovice looks as if a steampunk machine had swallowed a building. Its walls inside and out are covered in gears, pipes, lamps and moving metal parts, almost all made from scrap, and it is one of the best-known alternative music clubs in Prague.
+      en: `Cross Club in Holešovice looks as if a steampunk machine had swallowed a building. Its walls inside and out are covered in gears, pipes, lamps and moving metal parts, almost all made from scrap, and it is one of the best-known alternative music clubs in Prague. Since summer 2026 its garden has had an unexpected guest: a larger-than-life Kim Jong-un with his arm raised in salute, standing in a pool of blood.
 
-It was founded in 2002 by František "Sádra" Chmelík and a group of friends at the corner of Jankovcova and Plynární streets. It began as a small space and over two decades grew into a sprawling three-storey venue, helped along by a crowdfunding campaign that raised more than half a million crowns to keep building. Today it has two indoor stages, several bars, a café, a small theatre, rehearsal rooms and an outdoor garden with its own stage. The programme deliberately leans toward genres that mainstream nightlife tends to skip, from drum and bass to experimental music.
+The club was founded in 2002 by František "Sádra" Chmelík and a group of friends at the corner of Jankovcova and Plynární streets. It began as a small space and over two decades grew into a sprawling three-storey venue, helped along by a crowdfunding campaign that raised more than half a million crowns to keep building. Today it has two indoor stages, several bars, a café, a small theatre, rehearsal rooms and an outdoor garden with its own stage. The programme deliberately leans toward genres that mainstream nightlife tends to skip, from drum and bass to experimental music. Nearly every metal object in it began life as something else: old pipes, machine parts and offcuts from industrial Holešovice.
 
-🎁 Bonus: Nearly every metal object in the club began life as something else: old pipes, machine parts and industrial offcuts. The whole place is built from the leftovers of industrial Holešovice, reassembled into something a good deal louder than its original job.`,
-      cz: `Cross Club v Holešovicích vypadá, jako by budovu spolkl steampunkový stroj. Jeho zdi uvnitř i venku pokrývají ozubená kola, trubky, lampy a pohyblivé kovové díly, skoro všechno ze šrotu, a patří k nejznámějším alternativním hudebním klubům v Praze.
+The statue of Kim, in a buttoned-up Mao suit and the colour of bronze, was made for Život za zdmi (Life Behind the Walls), a multimedia exhibition by the Korean studies scholar Nina Špitálníková, who studied in Pyongyang in 2011 and 2012 and has written several books about North Korea. The exhibition, held in spring 2026 in hall 13 of the Holešovice market, set the regime's propaganda against the stories of people who escaped it. Špitálníková had expected visitors to queue for selfies with the statue; they took none. When the exhibition closed, Kim moved to the club's garden, and the red pool at his feet came with him.
 
-Založil ho roku 2002 František „Sádra“ Chmelík s partou přátel na rohu Jankovcovy a Plynární ulice. Začínal jako malý prostor a za dvě desetiletí vyrostl v rozlehlý třípodlažní podnik, k čemuž pomohla i sbírka na crowdfundingu, která vynesla přes půl milionu korun na další stavění. Dnes má dvě vnitřní scény, několik barů, kavárnu, malé divadlo, zkušebny a venkovní zahrádku s vlastním pódiem. Program se záměrně drží žánrů, které hlavní noční život spíš vynechává, od drum and bassu po experimentální hudbu.
+The statue is a joke at the regime's expense. North Korea is full of giant statues of Kim's grandfather and father, but they went up after their deaths, and a statue of a living leader was almost unheard of. When state television showed the first statue of Kim Jong-un in March 2026, a smiling half-figure with one hand in his coat pocket, experts called it highly unusual. The one in Holešovice does not smile.
 
-🎁 Bonus: Téměř každý kovový předmět v klubu začínal život jako něco jiného: staré trubky, součástky strojů a průmyslové odřezky. Celé místo je postavené ze zbytků průmyslových Holešovic, poskládaných do něčeho mnohem hlučnějšího, než byla jejich původní práce.`,
-      zh: `霍勒绍维采的Cross Club看上去就像一台蒸汽朋克机器吞下了一栋楼。它的里里外外都布满了齿轮、管道、灯具和会动的金属零件，几乎全是废铁做的，是布拉格最有名的另类音乐俱乐部之一。
+🎁 Bonus: The exhibition announced Kim's move here in three short sentences: "This man has millions of photos. His victims have none. Will you add another?"`,
+      cz: `Cross Club v Holešovicích vypadá, jako by budovu spolkl steampunkový stroj. Jeho zdi uvnitř i venku pokrývají ozubená kola, trubky, lampy a pohyblivé kovové díly, skoro všechno ze šrotu, a patří k nejznámějším alternativním hudebním klubům v Praze. Od léta 2026 má na zahradě nečekaného hosta: Kim Čong-una v nadživotní velikosti, s rukou zdviženou k pozdravu, stojícího v kaluži krve.
 
-它由弗朗蒂谢克·“萨德拉”·赫梅利克和几个朋友在2002年创办，位于扬科夫佐瓦街和普林纳尔尼街的拐角。它起初只是一个小空间，二十年间扩建成一栋错综复杂的三层场所，其间还靠一次众筹募集了五十多万克朗继续扩建。如今这里有两个室内舞台、好几个酒吧、一家咖啡馆、一个小剧场、排练室，还有带自己舞台的户外花园。节目刻意偏向主流夜生活不太碰的风格，从鼓打贝斯到实验音乐。
+Klub založil roku 2002 František „Sádra“ Chmelík s partou přátel na rohu Jankovcovy a Plynární ulice. Začínal jako malý prostor a za dvě desetiletí vyrostl v rozlehlý třípodlažní podnik, k čemuž pomohla i sbírka na crowdfundingu, která vynesla přes půl milionu korun na další stavění. Dnes má dvě vnitřní scény, několik barů, kavárnu, malé divadlo, zkušebny a venkovní zahrádku s vlastním pódiem. Program se záměrně drží žánrů, které hlavní noční život spíš vynechává, od drum and bassu po experimentální hudbu. Téměř každý kovový předmět v klubu začínal život jako něco jiného: staré trubky, součástky strojů a odřezky z průmyslových Holešovic.
 
-🎁 彩蛋：俱乐部里几乎每件金属物件，最初都是别的东西：旧管子、机器零件、工业边角料。整个地方是用工业霍勒绍维采的剩料搭起来的，重新组装成了比它们本来的活计响亮得多的东西。`,
+Socha Kima v zapnutém maoistickém saku a v barvě bronzu vznikla pro multimediální výstavu Život za zdmi koreanistky Niny Špitálníkové, která v letech 2011 a 2012 studovala v Pchjongjangu a o Severní Koreji napsala několik knih. Výstava, která probíhala na jaře 2026 v hale 13 Holešovické tržnice, stavěla propagandu režimu vedle příběhů lidí, kteří z něj utekli. Špitálníková čekala, že se návštěvníci budou se sochou fotit; nevyfotil se nikdo. Po skončení výstavy se Kim přestěhoval na zahradu klubu a rudá kaluž u jeho nohou s ním.
+
+Socha je výsměchem režimu. Severní Korea je plná obřích soch Kimova děda a otce, jenže ty vznikly až po jejich smrti a socha žijícího vůdce tam byla skoro nevídaná. Když státní televize v březnu 2026 ukázala první sochu Kim Čong-una, usměvavou polopostavu s rukou v kapse kabátu, odborníci to označili za velmi neobvyklé. Ta holešovická se neusmívá.
+
+🎁 Bonus: Výstava Kimovo stěhování sem oznámila třemi krátkými větami: „Tento muž má miliony fotek. Jeho oběti žádnou. Přidáš mu další?“`,
+      zh: `霍勒绍维采的Cross Club看上去就像一台蒸汽朋克机器吞下了一栋楼。它的里里外外都布满了齿轮、管道、灯具和会动的金属零件，几乎全是废铁做的，是布拉格最有名的另类音乐俱乐部之一。2026年夏天起，它的花园里多了一位意想不到的客人：一尊比真人还高的金正恩，举着手臂敬礼，站在一摊血泊里。
+
+俱乐部由弗朗蒂谢克·“萨德拉”·赫梅利克和几个朋友在2002年创办，位于扬科夫佐瓦街和普林纳尔尼街的拐角。它起初只是一个小空间，二十年间扩建成一栋错综复杂的三层场所，其间还靠一次众筹募集了五十多万克朗继续扩建。如今这里有两个室内舞台、好几个酒吧、一家咖啡馆、一个小剧场、排练室，还有带自己舞台的户外花园。节目刻意偏向主流夜生活不太碰的风格，从鼓打贝斯到实验音乐。俱乐部里几乎每件金属物件，最初都是别的东西：旧管子、机器零件、工业霍勒绍维采留下的边角料。
+
+这尊穿着扣得严严实实的中山装、通身青铜色的金正恩像，是为韩国学学者妮娜·什皮塔尔尼科娃的多媒体展览《墙后的生活》做的。她2011年和2012年在平壤留过学，写过好几本关于朝鲜的书。展览2026年春天在霍勒绍维采市场的13号馆举办，把这个政权的宣传品和逃离它的人的故事摆在一起。什皮塔尔尼科娃本以为观众会排队跟雕像自拍，结果一个都没有。展览结束后，金正恩搬进了俱乐部的花园，脚下那摊红色也跟着一起来了。
+
+这座雕像是在嘲讽这个政权。朝鲜遍地都是金正恩祖父和父亲的巨型雕像，但都是他们死后才立的，给在世的领袖立像，在那里几乎闻所未闻。2026年3月，朝鲜官方电视台播出了第一座金正恩雕像，是一尊面带微笑、一只手插在大衣口袋里的半身像，专家称之为“非常罕见”。霍勒绍维采这一尊，可没在笑。
+
+🎁 彩蛋：展览宣布金正恩搬到这里时，只写了三句话：“这个人有几百万张照片。他的受害者一张也没有。你要再给他添一张吗？”`,
     },
   },
   {
@@ -33085,6 +33097,380 @@ Kaple pak prožila pár těžkých století. Roku 1784 vyplavila povodeň na vlt
 后来的两百年，这座小礼拜堂过得不太好。1784年，一场洪水把一尊圣母忧苦像冲上了伏尔塔瓦河岸，人们发现它卡在柳树枝里，就把它请到了这里。到1885年，礼拜堂已经成了仓库，窗户破了，屋顶漏雨。神父弗朗蒂舍克·佩特拉切克从1911年起四处奔走要救它，1923年这里重新做起了弥撒；1930年，在附近开砖厂的赫格特家族的公司，出钱把它彻底修好了。
 
 🎁 彩蛋：我们之所以知道它建于哪一年，全靠1826年有人在小钟楼里发现了一份羊皮纸文书，那是一百年前的创建者留在里面的。屋顶在1785年修过一次，1814年又修了一次。是不是用了莫泽尔那一百枚金币，羊皮纸上可没写。`,
+    },
+  },
+  {
+    // Added 2026-10-31 (coordinates user-supplied). Facts: Pražský památkový
+    // katalog via search (eneolithic hilltop settlement, then an early
+    // medieval hillfort, probably from the 8th c., peak in the 9th, gone by
+    // the early 10th; just under 9 ha; two cross ramparts, the outer one
+    // mostly ploughed away), Prague 5 nature leaflets (Řivnáč culture
+    // c. 3000 BC; only the rampart across the plateau survives).
+    // Quarter/district from client/src/utils/pragueAreas.js.
+    name: 'Butovice Hillfort',
+    slug: 'butovicke-hradiste',
+    localizedNames: { cz: 'Butovické hradiště', zh: '布托维采古城堡遗址' },
+    labels: ['ruin', 'prehistory', 'hidden-gem'],
+    district: 'Praha 5',
+    quarter: 'Jinonice',
+    coordinates: { lat: 50.04012179189032, lng: 14.357049179551623 },
+    rarity: 'superior',
+    xpReward: 30,
+    description: {
+      en: `Between the panel blocks of Nové Butovice and the wooded Prokop Valley there is a long, flat spur of land with a grassy bank running across it. It looks like a meadow where people walk their dogs, and it is. It is also one of the oldest addresses in Prague: people have been living up here, on and off, for about five thousand years.
+
+The first settlers arrived around 3000 BC, in the late Stone Age, farmers of the so-called Řivnáč culture who liked high ground with steep sides. The spot was perfect for that. The plateau drops sharply into the Prokop and Dalejský valleys on two sides, so only one side needed defending.
+
+The Slavs saw the same advantage. Probably in the 8th century they built a hillfort here that covered the whole spur, just under nine hectares, divided by two ramparts running across it. The hillfort was at its height in the 9th century and was abandoned around the start of the 10th, about the time the dukes at Prague Castle were bringing the surrounding strongholds under their rule. The outer rampart has since been mostly ploughed away. The inner one is the grassy bank you can still walk along today.
+
+🎁 Bonus: There is nothing to buy a ticket for and almost nothing to see except the bank, a few information boards and the view down into the valley. That is rather the point. A thousand years ago this was a fortified settlement with a lord, a garrison and probably a market; today the nearest market is the shopping centre at Nové Butovice metro station, a short walk away.`,
+      cz: `Mezi paneláky Nových Butovic a zalesněným Prokopským údolím leží dlouhá plochá ostrožna a napříč ní se táhne travnatý val. Vypadá jako louka, kde lidé venčí psy, a to také je. Zároveň je to jedna z nejstarších adres v Praze: lidé tu s přestávkami žijí zhruba pět tisíc let.
+
+První osadníci sem přišli kolem roku 3000 př. n. l., v pozdní době kamenné. Byli to zemědělci takzvané řivnáčské kultury, kteří si oblíbili vyvýšená místa se strmými svahy. Tohle místo se k tomu hodilo dokonale. Planina na dvou stranách prudce spadá do Prokopského a Dalejského údolí, takže bránit bylo potřeba jen jednu stranu.
+
+Stejnou výhodu viděli i Slované. Pravděpodobně v 8. století tu postavili hradiště, které zabralo celou ostrožnu, necelých devět hektarů, rozdělenou dvěma příčnými valy. Největší rozkvět zažilo v 9. století a zaniklo kolem začátku 10. století, zhruba v době, kdy si knížata z Pražského hradu podřizovala okolní hradiště. Vnější val byl od té doby z větší části rozorán. Vnitřní val je ten travnatý násep, po kterém se dá projít dodnes.
+
+🎁 Bonus: Není tu nic, na co by se kupovala vstupenka, a skoro nic k vidění kromě valu, pár informačních tabulí a výhledu do údolí. A o to vlastně jde. Před tisíci lety tu stálo opevněné sídlo s pánem, posádkou a nejspíš i trhem; dnes je nejbližší trh v obchodním centru u stanice metra Nové Butovice, kousek pěšky odtud.`,
+      zh: `在新布托维采的板楼和林木茂密的普罗科普山谷之间，有一道狭长平坦的山脊，上面横着一道长满草的土埂。看上去就是一片遛狗的草地，实际上也确实是。不过它同时也是布拉格最古老的“地址”之一：五千年来，人们断断续续地一直住在这上面。
+
+最早的居民在公元前3000年前后来到这里，那时还是石器时代晚期。他们是所谓“日夫纳奇文化”的农民，偏爱四面陡峭的高地。这里简直是为他们量身定做的：台地有两面陡然落进普罗科普山谷和达莱山谷，只需要守住一面就够了。
+
+后来的斯拉夫人也看中了同样的优势。大概在8世纪，他们在这里建起一座城堡，占满了整道山脊，面积将近九公顷，中间被两道横向的土墙隔开。它在9世纪最为兴盛，到10世纪初前后就废弃了，那差不多正是布拉格城堡的大公们把周围一座座城堡收归麾下的时候。外面那道土墙后来大多被犁平了，里面那道就是今天还能走上去的那条草埂。
+
+🎁 彩蛋：这里没有任何需要买票的东西，除了土墙、几块说明牌和俯瞰山谷的风景，几乎什么都看不到。而这恰恰就是看点。一千年前，这里是一座有领主、有守军、多半还有集市的设防聚落；如今最近的“集市”，是走几步就到的新布托维采地铁站旁边的购物中心。`,
+    },
+  },
+  {
+    // Added 2026-10-31 (coordinates user-supplied). Facts: Radio Wave
+    // "75 metrů dlouhý příběh Pocty Bohumilu Hrabalovi" (Tatiana Svatošová,
+    // 1999, retaining wall of Palmovka metro station, 75 m long, 2.6–6 m
+    // high, over 300 m², nearly 4,000 hand-painted letters, Perkeo
+    // typewriter with blank paper, cats with names, a half-litre of beer,
+    // neighbour Zumr, pub names, Grand Prix Obce architektů finalist 2002,
+    // survived the 2002 flood), Kudy z nudy (sixteen cats; the square named
+    // after Hrabal in 1999). Hrabal at Na Hrázi 24 1950–1973, house
+    // demolished 1988 for the metro.
+    name: "Hrabal's Wall",
+    slug: 'hrabalova-zed',
+    localizedNames: { cz: 'Hrabalova zeď', zh: '赫拉巴尔墙' },
+    labels: ['monument', 'cultural'],
+    district: 'Praha 8',
+    quarter: 'Libeň',
+    coordinates: { lat: 50.10529368303946, lng: 14.4758893423533 },
+    rarity: 'superior',
+    xpReward: 30,
+    description: {
+      en: `On Na Hrázi street in Libeň, a concrete wall holding up the ground above the Palmovka metro station has been turned into a 75-metre letter to Bohumil Hrabal. The writer looks out from it with a head over a metre tall, surrounded by his cats, his typewriter, his beer and his neighbours. It is the only retaining wall in Prague that people come to read.
+
+Hrabal lived here, in the house at Na Hrázi 24, from 1950 to 1973, and this shabby industrial corner gave him the setting for some of his best-loved stories. He liked to call the street "Na Hrázi věčnosti", the Embankment of Eternity. The house did not get eternity: it was pulled down in 1988 to make room for the metro, and the wall stands roughly where it was.
+
+The painter Tatiana Svatošová made the wall in 1999. It covers more than 300 square metres, rising from 2.6 to 6 metres, and almost 4,000 letters of quotations from Hrabal's Libeň writing were painted on by hand. Read it from bottom to top: first his love of modern painting, then a bookshelf of the authors who shaped him, from Lao-tzu to Jackson Pollock, with sixteen named cats, a half-litre of beer and his neighbour, the philosopher Josef Zumr. Higher up comes the Perkeo typewriter he liked to use out of doors, and at the top Hrabal himself among the things from his home and the names of the local pubs. The wall survived the 2002 flood and the same year made the shortlist of the Czech architects' Grand Prix.
+
+🎁 Bonus: Look at the sheet of paper coming out of the typewriter. It is blank. Whatever Hrabal is about to write next, the wall leaves it to you.`,
+      cz: `V ulici Na Hrázi v Libni se z betonové opěrné zdi, která drží terén nad stanicí metra Palmovka, stal 75 metrů dlouhý dopis Bohumilu Hrabalovi. Spisovatel se z ní dívá hlavou vysokou přes metr, obklopený svými kočkami, psacím strojem, pivem a sousedy. Je to jediná opěrná zeď v Praze, kterou si lidé chodí číst.
+
+Hrabal tu, v domě Na Hrázi 24, bydlel v letech 1950 až 1973 a tenhle oprýskaný průmyslový kout mu dal kulisu k řadě jeho nejoblíbenějších textů. Ulici rád říkal „Na Hrázi věčnosti“. Dům se věčnosti nedočkal: roku 1988 ho zbourali kvůli metru a zeď dnes stojí zhruba na jeho místě.
+
+Zeď namalovala roku 1999 malířka Tatiana Svatošová. Má přes 300 metrů čtverečních, výšku od 2,6 do 6 metrů a skoro 4 000 písmen citátů z Hrabalových libeňských textů je psáno ručně. Číst se má zdola nahoru: nejdřív jeho vztah k modernímu malířství, pak knihovna autorů, kteří ho formovali, od Lao-c' po Jacksona Pollocka, k tomu šestnáct koček se jmény, půllitr piva a soused, filozof Josef Zumr. Výš je psací stroj Perkeo, na který rád psal venku, a úplně nahoře sám Hrabal mezi věcmi ze svého domova a jmény okolních hospod. Zeď přežila povodeň roku 2002 a téhož roku se dostala do užšího výběru Grand Prix Obce architektů.
+
+🎁 Bonus: Podívejte se na papír, který vylézá z psacího stroje. Je prázdný. Co Hrabal napíše dál, nechává zeď na vás.`,
+      zh: `利本区的纳赫拉齐街上，有一道撑住帕尔莫夫卡地铁站上方地面的混凝土挡土墙，被画成了一封75米长、写给博胡米尔·赫拉巴尔的信。作家从墙上望着你，光脑袋就有一米多高，身边围着他的猫、他的打字机、他的啤酒和他的邻居。这大概是布拉格唯一一道有人专程来“读”的挡土墙。
+
+1950年到1973年，赫拉巴尔就住在这里的纳赫拉齐街24号。这个破旧的工业角落，给了他好几部最受喜爱的作品当背景。他喜欢管这条街叫“永恒的堤岸”。可房子没能永恒：1988年，它为了修地铁被拆掉了，如今这道墙差不多就立在它原来的位置上。
+
+墙是画家塔季亚娜·斯瓦托绍娃在1999年画的。画面超过300平方米，高度从2.6米升到6米，将近4000个字母的赫拉巴尔利本文字，全是手写上去的。要从下往上读：最下面是他对现代绘画的喜爱，往上是一排影响过他的作者的书架，从老子到杰克逊·波洛克，旁边还有十六只有名有姓的猫、一扎半升的啤酒，以及他的邻居、哲学家约瑟夫·祖姆尔。再往上是他爱拿到户外去打字的“珀克奥”牌打字机，最顶上是赫拉巴尔本人，四周是他家里的物件和附近酒馆的名字。这道墙挺过了2002年的大洪水，同一年还入围了捷克建筑师协会的大奖。
+
+🎁 彩蛋：仔细看从打字机里伸出来的那张纸，上面一个字也没有。赫拉巴尔接下来要写什么，这道墙留给你自己去想。`,
+    },
+  },
+  {
+    // Added 2026-10-31 (coordinates user-supplied). Facts: mapamatky.cz
+    // "Světozor Passage" (Hudeček's Tesla advert, 1949, dominates the
+    // arcade; building from the First World War), Wikimedia Commons
+    // "Tesla Radio vitrage.jpg" (author František Hudeček, Světozor arcade,
+    // Vodičkova). Tesla: national enterprise from 1946, named after Nikola
+    // Tesla (also read as "TEchnika SLAboproudá"); Tesla studied in Prague
+    // in 1880.
+    name: 'Tesla Radio Stained Glass (Světozor)',
+    slug: 'vitraz-tesla-radio-svetozor',
+    localizedNames: { cz: 'Vitráž Tesla Radio (Světozor)', zh: '特斯拉收音机彩色玻璃窗（斯维托佐尔）' },
+    labels: ['communism', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Nové Město',
+    coordinates: { lat: 50.08198752611146, lng: 14.424746236904937 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Halfway along the Světozor arcade, between Vodičkova Street and the Franciscan Garden, a whole wall glows in red, blue and yellow glass with one word in the middle: TESLA. It is an advertisement for radio sets, and it has outlived not only the radios but the company and the country that made them.
+
+The stained glass was made in 1949 by František Hudeček for Tesla, the state electronics enterprise formed after the war out of nationalised private firms. Tesla built radios, televisions, tape recorders and, later, radar, and for four decades its logo was on almost every Czechoslovak living-room shelf. The name honours the inventor Nikola Tesla, and people also read it as a contraction of "technika slaboproudá", low-current engineering. Hudeček's window is from the very first years of communist rule, but it looks more like a bright prewar poster than socialist realism.
+
+The arcade itself is a piece of the old New Town's network of passages that run through the blocks around Wenceslas Square. The building dates from the First World War, and the Světozor cinema next to the window has been showing films here for about a century.
+
+🎁 Bonus: The enterprise was broken up and privatised in the 1990s, and the radios went to the flea markets. The window stayed. Nikola Tesla himself spent a year in Prague in 1880, attending lectures at the university, so in a roundabout way the name has come home.`,
+      cz: `V půli pasáže Světozor, mezi Vodičkovou ulicí a Františkánskou zahradou, svítí celá stěna červeným, modrým a žlutým sklem a uprostřed jediné slovo: TESLA. Je to reklama na rádia a přežila nejen rádia, ale i podnik a stát, který je vyráběl.
+
+Vitráž vytvořil roku 1949 František Hudeček pro Teslu, státní elektrotechnický podnik, který po válce vznikl ze znárodněných soukromých firem. Tesla vyráběla rádia, televize, magnetofony a později i radary a čtyřicet let byla její značka skoro v každém československém obýváku. Jméno odkazuje k vynálezci Nikolu Teslovi a lidé ho čtou i jako zkratku „technika slaboproudá“. Hudečkova vitráž pochází z úplně prvních let komunistické vlády, ale vypadá spíš jako veselý předválečný plakát než jako socialistický realismus.
+
+Samotná pasáž patří k síti průchodů, které vedou bloky kolem Václavského náměstí. Budova pochází z doby první světové války a kino Světozor hned vedle vitráže tu promítá zhruba sto let.
+
+🎁 Bonus: Podnik byl v devadesátých letech rozdělen a privatizován a rádia skončila na blešácích. Vitráž zůstala. Sám Nikola Tesla strávil v Praze rok 1880 a chodil na přednášky na univerzitu, takže se jméno svým způsobem vrátilo domů.`,
+      zh: `斯维托佐尔拱廊走到一半，在沃迪奇科娃街和方济各会花园之间，一整面墙被红、蓝、黄三色玻璃照亮，正中间只有一个词：TESLA。这是一块收音机广告，它活得比收音机长，也比生产收音机的公司和国家都长。
+
+这扇彩色玻璃窗是弗朗蒂舍克·胡德切克在1949年为特斯拉公司做的。特斯拉是战后把一批私营企业收归国有后组建的国营电子企业，生产收音机、电视机、录音机，后来还造雷达；四十年间，捷克斯洛伐克几乎每家客厅的柜子上都有它的标志。这个名字是向发明家尼古拉·特斯拉致敬，人们也把它读成“弱电技术”的捷克语缩写。胡德切克的这扇窗出自共产党执政的头几年，看上去却更像一张明快的战前海报，而不是社会主义现实主义。
+
+拱廊本身是新城那张穿楼而过的通道网的一部分，这些通道把瓦茨拉夫广场周围的街区连在一起。大楼建于第一次世界大战期间，窗边的斯维托佐尔电影院在这里放电影，差不多已经放了一百年。
+
+🎁 彩蛋：90年代，这家企业被拆分、私有化，收音机都流进了跳蚤市场，只有这扇窗留了下来。尼古拉·特斯拉本人1880年在布拉格待过一年，在大学里听课，所以兜了一大圈，这个名字也算是回了趟家。`,
+    },
+  },
+  {
+    // Added 2026-10-31 (coordinates user-supplied). Facts: Atlas Obscura,
+    // expats.cz and guides via search (installed 9 Dec 2008 for the
+    // theatre's 50th anniversary, on a drainpipe of the façade, lit at
+    // night, easy to miss by day). Theatre founded 1958; Havel there from
+    // 1960, The Garden Party 1963.
+    name: 'Embryo (David Černý)',
+    slug: 'embryo-david-cerny',
+    localizedNames: { cz: 'Embryo (David Černý)', zh: '胚胎（大卫·切尔尼）' },
+    labels: ['monument', 'hidden-gem'],
+    district: 'Praha 1',
+    quarter: 'Staré Město',
+    coordinates: { lat: 50.08512360874561, lng: 14.414633145678199 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Something is clinging to the drainpipe of the Theatre on the Balustrade, and most people walk straight past it. It is a pale, bulging, faintly alien embryo by David Černý, wrapped around the pipe a few metres above the pavement as if it had crawled up there to hatch. By day it is easy to miss. At night it glows from inside.
+
+Černý installed it on 9 December 2008 for the theatre's fiftieth birthday. The choice of building made sense: Divadlo Na zábradlí, founded in 1958, was the small stage where Czech absurdist theatre was born, and an odd creature growing out of its gutter is about as absurd as a birthday present can get. It is one of the quietest pieces Černý has made for Prague, next to the crawling babies on the Žižkov tower or the upside-down St Wenceslas in the Lucerna.
+
+🎁 Bonus: The theatre's most famous employee started in 1960 as a stagehand. His name was Václav Havel, and in 1963 the theatre premiered his first play, The Garden Party. Twenty-six years later he was president. Whatever is growing on the drainpipe has a high bar to clear.`,
+      cz: `Na okapové rouře Divadla Na zábradlí něco visí a většina lidí jde kolem bez povšimnutí. Je to bledé, vypouklé, lehce mimozemské embryo od Davida Černého, omotané kolem roury pár metrů nad chodníkem, jako by se tam vyšplhalo vylíhnout. Ve dne se snadno přehlédne. V noci svítí zevnitř.
+
+Černý ho umístil 9. prosince 2008 k padesátým narozeninám divadla. Volba budovy dává smysl: Divadlo Na zábradlí, založené roku 1958, byla malá scéna, kde se zrodilo české absurdní divadlo, a podivný tvor rostoucí z jeho okapu je asi tak absurdní dárek k narozeninám, jak jen může být. Mezi Černého pražskými díly, vedle lezoucích miminek na žižkovské věži nebo svatého Václava hlavou dolů v Lucerně, patří k těm nejtišším.
+
+🎁 Bonus: Nejslavnější zaměstnanec divadla tu začínal roku 1960 jako kulisák. Jmenoval se Václav Havel a roku 1963 tu měla premiéru jeho první hra, Zahradní slavnost. O dvacet šest let později byl prezidentem. Ať z té roury vyroste cokoli, laťku má vysoko.`,
+      zh: `“栏杆剧院”的排水管上挂着个东西，大多数人从旁边走过都没发现。那是大卫·切尔尼做的一个苍白、鼓胀、有点像外星生物的胚胎，缠在离人行道几米高的管子上，好像是自己爬上去准备孵化似的。白天很容易错过，到了晚上，它会从里面亮起来。
+
+切尔尼在2008年12月9日把它装上去，给剧院过五十岁生日。选这栋楼很合理：栏杆剧院创立于1958年，是捷克荒诞派戏剧诞生的小舞台，而从它的排水管里长出一只怪东西，大概是能想到的最荒诞的生日礼物了。比起日什科夫电视塔上那些爬行的婴儿，或者卢采尔纳宫里倒挂的圣瓦茨拉夫，这是切尔尼在布拉格最安静的作品之一。
+
+🎁 彩蛋：剧院最有名的员工，是1960年从搬布景的杂工干起的。他叫瓦茨拉夫·哈维尔，1963年，他的第一部剧作《游园会》就在这里首演。二十六年后，他当上了总统。不管排水管上长出来的是什么，它要超越的门槛可不低。`,
+    },
+  },
+  {
+    // Added 2026-10-31 (coordinates user-supplied). Facts: en.wikipedia
+    // "Piss (Černý)" (2004, bronze, 210 cm figures, pool shaped like the
+    // Czech Republic, SMS messages written in water), Lonely Planet
+    // ("Proudy"), guides via search (courtyard of Hergetova cihelna,
+    // Cihelná 2b, next to the Kafka Museum; quotations from famous
+    // Praguers; whether the SMS still works is disputed).
+    name: 'Piss (David Černý)',
+    slug: 'curajici-postavy-david-cerny',
+    localizedNames: { cz: 'Čůrající postavy (David Černý)', zh: '撒尿的人（大卫·切尔尼）' },
+    labels: ['monument'],
+    district: 'Praha 1',
+    quarter: 'Malá Strana',
+    coordinates: { lat: 50.088087028267275, lng: 14.410249435689883 },
+    rarity: 'superior',
+    xpReward: 30,
+    description: {
+      en: `In the courtyard of an old brickworks by the river in Malá Strana, two bronze men stand facing each other in a small pool and relieve themselves into it, without pause, all day long. The pool is shaped like a map of the Czech Republic. That is the whole joke, and Prague has been laughing at it, or pretending not to, since 2004.
+
+The sculpture is by David Černý, the city's reliable source of public provocation, and it is officially called Proudy, Streams, though everyone knows it as Piss. The two figures are 2.1 metres tall and move: their hips swivel and their streams rise and fall, and the movements are programmed so that the water writes out letters on the surface. What they write are quotations from famous Praguers.
+
+The courtyard belongs to Hergetova cihelna, a brickworks named after the Herget family, now home to a restaurant and, next door, the Franz Kafka Museum. Kafka, who wrote at length about bureaucracy, humiliation and the absurd, would probably have had something to say about the neighbours.
+
+🎁 Bonus: For years a phone number was posted beside the pool, and anyone who texted it could have the two men spell out their own message in the water. Whether it still works depends on whom you ask, so try it before you promise anything to a friend.`,
+      cz: `Na nádvoří staré cihelny u řeky na Malé Straně stojí proti sobě v malém bazénku dva bronzoví muži a celý den do něj bez přestávky čůrají. Bazének má tvar mapy České republiky. Tím je vtip vyčerpán a Praha se mu od roku 2004 směje, nebo aspoň dělá, že ne.
+
+Sochu vytvořil David Černý, spolehlivý zdroj veřejných provokací, a oficiálně se jmenuje Proudy, i když všichni jí říkají Čůrající postavy. Obě postavy jsou 2,1 metru vysoké a hýbou se: točí boky a zvedají a sklánějí proud, a pohyby jsou naprogramované tak, že voda píše na hladinu písmena. Píšou citáty slavných Pražanů.
+
+Nádvoří patří k Hergetově cihelně, pojmenované po rodině Hergetů, kde je dnes restaurace a hned vedle Muzeum Franze Kafky. Kafka, který toho hodně napsal o byrokracii, ponížení a absurditě, by k sousedům nejspíš měl co říct.
+
+🎁 Bonus: Léta vedle bazénku viselo telefonní číslo a kdo na něj poslal SMS, mohl si nechat od obou mužů napsat do vody vlastní vzkaz. Jestli to ještě funguje, záleží na tom, koho se zeptáte, takže to vyzkoušejte dřív, než něco slíbíte kamarádovi.`,
+      zh: `小城区河边一座老砖厂的院子里，两个青铜男人面对面站在一个小水池里，往池子里撒尿，一整天都不停。水池的形状是捷克共和国的地图。笑点就这么多，而布拉格从2004年起一直在笑它，或者假装没在笑。
+
+雕塑出自大卫·切尔尼之手，他是这座城市稳定供应公共挑衅的那个人。作品的正式名字叫《水流》，不过大家都叫它“撒尿的人”。两个人像高2.1米，而且会动：胯部转来转去，水柱忽高忽低，动作经过编程，能让水流在水面上写出字母。它们写的是布拉格名人的名言。
+
+院子属于赫格特砖厂，名字来自赫格特家族，如今里面开着一家餐厅，隔壁就是弗朗茨·卡夫卡博物馆。卡夫卡写了那么多官僚、屈辱和荒诞，对这两位邻居大概也会有几句话要说。
+
+🎁 彩蛋：很多年里，水池旁边都贴着一个电话号码，谁给它发短信，就能让两个男人在水上“写”出自己的留言。现在还灵不灵，要看你问的是谁，所以在跟朋友打包票之前，最好先自己试一试。`,
+    },
+  },
+  {
+    // Added 2026-10-31 (coordinates and the "longest street, noise and
+    // exhaust" angle user-supplied). Facts: cs.wikipedia "Plzeňská (Praha)"
+    // (nearly 8 km, longest inhabited street in Prague, Anděl to beyond
+    // Zličín where it becomes Na Radosti, Smíchov/Košíře/Motol/Řepy/
+    // Stodůlky, formerly road I/5 until the D5 took over, trams from 1897,
+    // one-way stretch for cars, 2019 noise action plan, NO2 study ranking it
+    // Prague's most polluted street in 2023 and 2024, sights along it),
+    // usedlosti.ctrnactka.net (Bílý beránek inn, 1740, on a newly laid road,
+    // demolished 1985). Quarter/district from client/src/utils/pragueAreas.js.
+    name: 'Plzeňská Street',
+    slug: 'plzenska-ulice',
+    localizedNames: { cz: 'Plzeňská', zh: '比尔森大街' },
+    labels: ['street', 'transport'],
+    district: 'Praha 5',
+    quarter: 'Košíře',
+    coordinates: { lat: 50.07164529574622, lng: 14.387421103631736 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Plzeňská is the longest inhabited street in Prague: nearly eight kilometres from the busy Anděl crossroads to beyond Zličín on the city's western edge. Its name tells you where it is going, to Plzeň, and for most of its length it behaves like a road that would rather be there already.
+
+It follows the old route west out of Prague, the road to Plzeň and on toward Nuremberg. In the 18th century it was laid out anew, and inns grew up along it to serve the carters; one, the White Lamb, opened around 1740 and stood until 1985. On its way out of town the street passes through four old villages swallowed by the city, Smíchov, Košíře, Motol and finally the edge of Řepy and Stodůlky, and past a surprising amount of history: the Mozart villa Bertramka, the Malá Strana Cemetery, the old country houses of Klamovka and Kavalírka, the Motol chateau and brewery, the crematorium and the cross on the Motol rock. Trams have run along it since 1897.
+
+In the 20th century it became part of the main road to Plzeň and Germany, and the traffic never left, even after the D5 motorway took over the long-distance trucks. Plzeňská has long been one of the noisiest streets in Prague and one with the dirtiest air: a study of nitrogen dioxide put it at the top of the city's list in both 2023 and 2024.
+
+🎁 Bonus: Near Anděl a short stretch of Plzeňská is a pedestrian zone, so the longest street in Prague begins as a place where you cannot drive at all. It is not a hint the rest of the street has taken.`,
+      cz: `Plzeňská je nejdelší obydlená ulice v Praze: skoro osm kilometrů od rušného Anděla až za Zličín na západním okraji města. Jméno prozrazuje, kam vede, do Plzně, a po většinu své délky se chová jako silnice, která by tam nejradši už byla.
+
+Sleduje starou cestu z Prahy na západ, do Plzně a dál k Norimberku. V 18. století ji vyměřili znovu a podél ní vyrostly hostince pro formany; jeden z nich, Bílý beránek, otevřel kolem roku 1740 a stál až do roku 1985. Cestou z města prochází ulice čtyřmi starými obcemi, které Praha pohltila, Smíchovem, Košířemi, Motolem a nakonec okrajem Řep a Stodůlek, a kolem překvapivého množství historie: Mozartovy Bertramky, Malostranského hřbitova, starých usedlostí Klamovky a Kavalírky, motolského zámku a pivovaru, krematoria a kříže na motolské skále. Tramvaje po ní jezdí od roku 1897.
+
+Ve 20. století se stala součástí hlavní silnice do Plzně a do Německa a doprava z ní už neodešla, ani když dálková nákladní auta převzala dálnice D5. Plzeňská dlouho patří k nejhlučnějším ulicím v Praze a k těm s nejšpinavějším vzduchem: studie oxidu dusičitého ji v letech 2023 i 2024 postavila na první místo v Praze.
+
+🎁 Bonus: U Anděla je krátký úsek Plzeňské pěší zónou, takže nejdelší pražská ulice začíná jako místo, kam se autem vůbec nedostanete. Zbytek ulice si z toho příklad nevzal.`,
+      zh: `比尔森大街是布拉格最长的有人住的街道：从热闹的安德尔路口一直延伸到城市西缘的兹利钦以外，将近八公里。名字就说明了它要去哪儿，去比尔森，而它大部分路段的样子，也像是恨不得马上就到。
+
+它沿着出布拉格往西的老路走，去比尔森，再往前通向纽伦堡。18世纪这条路重新修过，沿途开起了给车夫歇脚的客栈，其中一家“白羊羔”约1740年开张，一直开到1985年。出城的路上，这条街穿过被城市吞并的四个老村子：斯米霍夫、科希热、莫托尔，最后擦过热皮和斯托杜尔基的边缘。沿途的历史多得出人意料：莫扎特住过的贝特拉姆卡别墅、小城公墓、克拉莫夫卡和卡瓦利尔卡两座老庄园、莫托尔的城堡和啤酒厂、火葬场，还有莫托尔山岩上的十字架。1897年起，它上面就跑起了有轨电车。
+
+20世纪，它成了通往比尔森和德国的主干公路的一段。后来D5高速公路接走了长途货车，车流却再也没离开过它。比尔森大街长期以来都是布拉格噪音最大、空气最脏的街道之一：一项二氧化氮的研究，2023年和2024年都把它排在了全市第一。
+
+🎁 彩蛋：在安德尔附近，比尔森大街有一小段是步行街。也就是说，布拉格最长的这条街，开头那一段根本不让开车。可惜后面的路段，没有一段学到了这一点。`,
+    },
+  },
+  {
+    // Added 2026-10-31 (coordinates user-supplied). Facts: cs.wikipedia
+    // "Motol (zámek)", hrady.cz, usedlosti.ctrnactka.net (medieval tvrz;
+    // single-storey Baroque chateau 1686–1689 for Kryštof Vratislav of
+    // Mitrovice, plans by J. A. Canevalle, stucco by Spazio; outbuildings and
+    // the present neo-Gothic two-wing building with corner tower in the 2nd
+    // half of the 19th c. for the Knights of Malta of the Lesser Town; their
+    // cross still on the tower; c. 1900 HQ and barracks of the 8th heavy
+    // artillery division, later the 101st artillery regiment; today the
+    // agricultural testing institute and food inspection; listed until 1977;
+    // not open to the public).
+    name: 'Motol Chateau',
+    slug: 'zamek-motol',
+    localizedNames: { cz: 'Zámek Motol', zh: '莫托尔城堡' },
+    labels: ['castle and fortress', 'historicism'],
+    district: 'Praha 5',
+    quarter: 'Motol',
+    coordinates: { lat: 50.068374092188655, lng: 14.331765246680977 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Just off Plzeňská, behind the tram stop, stands a small neo-Gothic chateau with two wings and a corner tower, the kind of building that looks as if it should have a moat. It has no moat, but it does have a white cross with eight points on its tower, the badge of the Knights of Malta, who owned it for nearly two centuries.
+
+There was a medieval fortified manor here first. In 1686–1689 Kryštof Vratislav of Mitrovice replaced it with a single-storey Baroque chateau, designed by the court architect Canevalle and decorated with stucco by Spazio. In the 18th century the whole Motol estate, with its farm, brewery and mill, passed to the Knights of Malta, whose Prague seat was the church of Our Lady beneath the Chain in the Lesser Town. In the second half of the 19th century they gave the chateau the romantic Gothic look it has today and added the farm buildings around it.
+
+Around 1900 the knights' country house became a barracks: first the headquarters of the 8th heavy artillery division, later home to the Czechoslovak 101st artillery regiment. Today it houses the state agricultural testing institute and the Prague office of the food inspection authority, which is why you can only admire it from the street.
+
+🎁 Bonus: The chateau was a listed monument until 1977, when the protection was simply dropped. It has survived the following half century anyway, which in Prague's suburbs is no small achievement.`,
+      cz: `Kousek od Plzeňské, za tramvajovou zastávkou, stojí malý novogotický zámeček se dvěma křídly a nárožní věží, budova, která vypadá, jako by měla mít příkop. Příkop nemá, zato má na věži bílý osmihrotý kříž, znak maltézských rytířů, kterým patřil skoro dvě stě let.
+
+Nejdřív tu stála středověká tvrz. V letech 1686–1689 ji Kryštof Vratislav z Mitrovic nahradil jednopatrovým barokním zámečkem podle plánů dvorního stavitele Canevalla a se štuky od Spazia. V 18. století přešel celý motolský statek s dvorem, pivovarem a mlýnem na maltézské rytíře, jejichž pražským sídlem byl kostel Panny Marie pod řetězem na Malé Straně. Ve druhé polovině 19. století dali zámku romantickou gotickou podobu, kterou má dodnes, a přistavěli kolem něj hospodářské budovy.
+
+Kolem roku 1900 se z rytířského venkovského sídla stala kasárna: nejdřív velitelství 8. divize těžkého dělostřelectva, později domov československého 101. dělostřeleckého pluku. Dnes tu sídlí Ústřední kontrolní a zkušební ústav zemědělský a pražský inspektorát Státní zemědělské a potravinářské inspekce, a proto se dá obdivovat jen z ulice.
+
+🎁 Bonus: Zámek byl kulturní památkou až do roku 1977, kdy ochranu prostě zrušili. Dalšího půlstoletí se přesto dožil, což na pražském předměstí není maličkost.`,
+      zh: `比尔森大街边上，电车站后面，立着一座小小的新哥特式城堡：两翼，加一座转角塔楼，看上去像是本该有一圈护城河的那种房子。护城河是没有的，不过塔楼上有一个白色的八角十字，那是马耳他骑士团的标志，这座城堡归他们所有将近两百年。
+
+这里最早是一座中世纪的设防庄园。1686年到1689年，米特罗维采的克里斯托夫·弗拉蒂斯拉夫把它改建成一座单层的巴洛克小城堡，图纸出自宫廷建筑师卡内瓦莱，灰泥装饰出自斯帕齐奥。18世纪，整个莫托尔庄园，连同农庄、啤酒厂和磨坊，都归了马耳他骑士团，他们在布拉格的总部是小城的“链下圣母教堂”。19世纪下半叶，骑士团给城堡换上了今天这副浪漫的哥特式外表，还在周围加盖了农庄的房子。
+
+1900年前后，骑士团的乡间宅邸变成了兵营：先是第8重炮兵师的司令部，后来又驻进了捷克斯洛伐克第101炮兵团。如今这里是国家农业检测研究所和食品检查局布拉格分局的办公地，所以只能站在街上欣赏。
+
+🎁 彩蛋：这座城堡直到1977年都是文物，那一年保护说取消就取消了。可它照样又撑过了半个世纪，这在布拉格的城郊，已经算是不小的成就了。`,
+    },
+  },
+  {
+    // Added 2026-10-31 (coordinates user-supplied). Facts: cs.wikipedia
+    // "Motolský pivovar" (inn mentioned 1607, later a brewery mainly for the
+    // estate; with the Motol estate to the Knights of Malta at Our Lady
+    // beneath the Chain in 1738; about 60 barrels a year in 1749 and 1756;
+    // steam brewing in the 2nd half of the 19th c.; the Richter family from
+    // 1900, a 13° dark lager, output doubled from 5,000 to 10,000 hl; the inn
+    // on the old road to Plzeň; bought with the estate by the City of Prague
+    // in 1922, brewing stopped 1923, then a store for Louny beer; wings
+    // demolished for road widening in 1974 and 1981, brewhouse and chimney
+    // included; listed 2001; restored 2003–2006 as Hotel Starý pivovar;
+    // Maltese arms on the west front; Pivovarský rybník to the east).
+    name: 'Motol Brewery',
+    slug: 'motolsky-pivovar',
+    localizedNames: { cz: 'Motolský pivovar', zh: '莫托尔啤酒厂' },
+    labels: ['factory', 'baroque'],
+    district: 'Praha 5',
+    quarter: 'Motol',
+    coordinates: { lat: 50.067007920424956, lng: 14.32994576777438 },
+    rarity: 'rare',
+    xpReward: 20,
+    description: {
+      en: `Beside Plzeňská in Motol stands a low Baroque building with the coat of arms of the Knights of Malta on its west front and a small pond behind it called the Brewery Pond. It is a hotel and restaurant now. For more than three centuries it was a village inn and then a brewery, and its best customers were the carters on the road to Plzeň.
+
+An inn here is first mentioned in 1607, and it later became a brewery, working mainly for the lords of the Motol estate. In 1738 the estate passed to the Knights of Malta in the Lesser Town, and the order's priors drew its income. The brewery was small: the Theresian land survey records about sixty barrels a year in 1749 and 1756. In the second half of the 19th century it was modernised for steam.
+
+Its best years came at the very end. From 1900 the Richter family leased it and brewed a 13-degree dark lager, Richtrův ležák, which was popular enough that they doubled the output, from 5,000 to 10,000 hectolitres a year. Then came the First World War, which hit Czech brewers hard. In 1922 the City of Prague bought the whole Motol estate from the order, and in 1923 brewing stopped for good.
+
+🎁 Bonus: The brewery survived the end of brewing but not the widening of Plzeňská. In 1974 and 1981 the street took the north wing, the brewhouse and the old polygonal chimney. What was left was listed as a monument in 2001 and restored as a hotel, so you can still drink a beer here. It just isn't Motol's.`,
+      cz: `U Plzeňské v Motole stojí nízká barokní budova se znakem maltézských rytířů na západním průčelí a malým rybníkem za ní, kterému se říká Pivovarský. Dnes je to hotel a restaurace. Přes tři sta let tu ale byla vesnická hospoda a pak pivovar a jeho nejlepšími zákazníky byli formani na cestě do Plzně.
+
+Hospoda se tu poprvé připomíná roku 1607 a později se z ní stal pivovar, který vařil hlavně pro pány motolského statku. Roku 1738 přešel statek na maltézské rytíře z Malé Strany a jeho výnosy brali převorové řádu. Pivovar byl malý: tereziánský katastr uvádí v letech 1749 a 1756 asi šedesát sudů ročně. Ve druhé polovině 19. století ho upravili na parní provoz.
+
+Nejlepší léta přišla úplně na konci. Od roku 1900 ho měla v nájmu rodina Richtrů a vařila třináctistupňový tmavý Richtrův ležák, který šel tak dobře, že výrobu zdvojnásobili z 5 000 na 10 000 hektolitrů ročně. Pak přišla první světová válka, která české pivovarníky tvrdě zasáhla. Roku 1922 koupila celý motolský statek od řádu Obec pražská a roku 1923 se tu přestalo vařit nadobro.
+
+🎁 Bonus: Pivovar přežil konec vaření, ale ne rozšiřování Plzeňské. V letech 1974 a 1981 si ulice vzala severní křídlo, varnu i starý polygonální komín. Co zbylo, bylo roku 2001 prohlášeno památkou a obnoveno jako hotel, takže pivo si tu dát pořád můžete. Jen ne motolské.`,
+      zh: `莫托尔的比尔森大街边上，有一座低矮的巴洛克建筑，西立面上挂着马耳他骑士团的纹章，后面有个小池塘，叫“啤酒厂塘”。如今它是一家酒店和餐厅。可在三百多年里，这里先是村里的客栈，后来是啤酒厂，最好的主顾就是往比尔森赶车的车夫。
+
+这里的客栈最早见于1607年的记载，后来改成了啤酒厂，主要给莫托尔庄园的领主酿酒。1738年，庄园归了小城的马耳他骑士团，收入归骑士团的修道院长们。啤酒厂规模不大：特蕾莎时期的土地册记着，1749年和1756年每年大约酿六十桶。19世纪下半叶，它改成了蒸汽酿造。
+
+它最好的年头，偏偏在最后。1900年起，里赫特一家租下了这里，酿一种13度的黑啤“里赫特拉格”，卖得好到他们把年产量翻了一倍，从5000百升提到1万百升。接着第一次世界大战来了，捷克的酿酒业受到重创。1922年，布拉格市从骑士团手里买下整个莫托尔庄园，1923年，这里就彻底不再酿酒了。
+
+🎁 彩蛋：啤酒厂熬过了停酿，却没熬过比尔森大街的拓宽。1974年和1981年，马路先后吃掉了北翼、酿造车间和那根多边形的老烟囱。剩下的部分在2001年被列为文物，修成了酒店，所以在这里还是能喝上一杯啤酒，只不过不是莫托尔酿的了。`,
+    },
+  },
+  {
+    // Added 2026-10-31 (coordinates user-supplied). Facts:
+    // usedlosti.ctrnactka.net (cross dated 1721, put up in memory of an
+    // unknown young man's fatal fall from this rock face, Maltese emblem;
+    // 1846 outing of Tomek with Šafařík and Havlíček; Barrande's two fossil
+    // sites on the slope), Pražský deník 2021 and other sources via search
+    // (Maltese cross visible from afar; Kalvárie v Motole a natural monument
+    // since 1982, about 3.7 ha, 285–318 m, basalt/diabase from Silurian
+    // undersea volcanoes, rocky steppe; part cut away in the 1980s for the
+    // four-lane road with the tram line; the Maltese mill below, first
+    // recorded 1574).
+    name: 'Crucifix on the Motol Rock',
+    slug: 'krucifix-motol',
+    localizedNames: { cz: 'Krucifix v Motole', zh: '莫托尔岩上的十字架' },
+    labels: ['monument', 'nature', 'early-modern', 'hidden-gem'],
+    district: 'Praha 5',
+    quarter: 'Motol',
+    coordinates: { lat: 50.066115270863236, lng: 14.32761970649507 },
+    rarity: 'superior',
+    xpReward: 30,
+    description: {
+      en: `Above Plzeňská, on a dark rock that drops steeply into the Motol valley, stands a stone crucifix that can be seen from far along the road. It is dated 1721, and the story attached to it is a sad one: it was put up where an unknown young man fell to his death from the rock face.
+
+The cross carries the emblem of the Knights of Malta, who owned the Motol estate at the time, including the mill in the valley below. The hill itself is called Kalvárie, Calvary, after the cross. Its rock is far older than any of this: it is basalt from volcanoes that erupted on the floor of a sea some four hundred million years ago, in the Silurian period, and the geologist Joachim Barrande found two fossil sites on its slope. Since 1982 the hill has been a protected natural monument, nearly four hectares of rocky steppe with rare plants that like their ground dry, thin and sunny.
+
+In the 19th century it was a favourite place for an outing from Prague. In 1846 the historian Václav Vladivoj Tomek brought two friends up here, the Slavist Pavel Josef Šafařík and the journalist Karel Havlíček Borovský, three of the leading figures of the Czech national revival out for a walk on one rock.
+
+🎁 Bonus: In the 1980s part of the hill was cut away to make room for the widened four-lane Plzeňská and its tram line. The cross stayed where it was, and three centuries after the young man's fall it now watches over one of the busiest roads in Prague.`,
+      cz: `Nad Plzeňskou, na tmavé skále, která prudce spadá do motolského údolí, stojí kamenný krucifix, vidět z daleka po silnici. Nese letopočet 1721 a příběh, který se k němu váže, je smutný: postavili ho na místě, kde se z této stěny smrtelně zřítil neznámý mladík.
+
+Kříž nese znak maltézských rytířů, kterým tehdy motolský statek patřil, včetně mlýna dole v údolí. Kopec se po kříži jmenuje Kalvárie. Jeho skála je ale mnohem starší než cokoli z toho: je to čedič ze sopek, které vybuchovaly na dně moře zhruba před čtyřmi sty miliony let, v siluru, a geolog Joachim Barrande na jejím svahu našel dvě naleziště zkamenělin. Od roku 1982 je kopec přírodní památkou, skoro čtyři hektary skalní stepi se vzácnými rostlinami, které mají rády suchou, mělkou a slunnou půdu.
+
+V 19. století sem Pražané rádi chodili na výlet. Roku 1846 sem historik Václav Vladivoj Tomek přivedl dva přátele, slavistu Pavla Josefa Šafaříka a novináře Karla Havlíčka Borovského, tedy tři z předních osobností národního obrození na procházce po jedné skále.
+
+🎁 Bonus: V 80. letech museli část kopce odbagrovat kvůli rozšířené čtyřproudé Plzeňské s tramvajovou tratí. Kříž zůstal na svém místě, a tři sta let po mladíkově pádu dnes hlídá jednu z nejrušnějších silnic v Praze.`,
+      zh: `比尔森大街上方，一块陡然落进莫托尔山谷的黑色岩石顶上，立着一座石十字架，沿着马路老远就能看见。上面刻着1721年，背后的故事很让人难过：它立在一个不知名的年轻人从这面岩壁上摔死的地方。
+
+十字架上刻着马耳他骑士团的标志，当时整个莫托尔庄园都归他们，包括山谷底下那座磨坊。这座小山也因为这个十字架，被叫作“各各他山”。不过它的岩石比这一切都古老得多：那是大约四亿年前的志留纪，海底火山喷发留下的玄武岩，地质学家约阿希姆·巴兰德还在山坡上找到过两处化石点。1982年起，这座小山成了受保护的自然遗迹，将近四公顷的岩石草原上，长着一些专爱干燥、贫瘠、向阳地方的稀有植物。
+
+19世纪，这里是布拉格人最爱的郊游去处之一。1846年，历史学家瓦茨拉夫·弗拉迪沃伊·托梅克带着两位朋友上了山，一位是斯拉夫学家帕维尔·约瑟夫·沙法日克，一位是记者卡雷尔·哈夫利切克·博罗夫斯基。捷克民族复兴的三位领军人物，就在这一块岩石上散了一回步。
+
+🎁 彩蛋：1980年代，为了把比尔森大街拓宽成四车道，再加一条电车线，这座小山被挖掉了一块。十字架却留在了原地。年轻人坠崖三百年后，它如今守望着的，是布拉格最繁忙的马路之一。`,
     },
   },
 ];

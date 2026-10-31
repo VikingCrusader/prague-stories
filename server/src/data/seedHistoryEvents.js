@@ -31899,6 +31899,60 @@ export const historyEvents = [
     ],
     "wikipediaUrl": "https://en.wikipedia.org/wiki/Nine_Years%27_War"
   },
+  // 2026-10-30. Background: how the Nine Years' War ended, slotted between the
+  // Rhine card and the Prague fire at the user's request (startYear 1688.5);
+  // deliberately says nothing about Prague so the 1688 card's hook still lands
+  // on the fire. Treaty terms (20 Sep–30 Oct 1697; Lorraine, Freiburg,
+  // Breisach, Philippsburg, Luxembourg, Catalonia returned; Strasbourg kept;
+  // William III recognised; Turin 1696): en.wikipedia "Peace of Ryswick".
+  // Palatine inheritance referred to Innocent XII and the religious clause:
+  // de.wikipedia "Frieden von Rijswijk". Liselotte's view of the peace and
+  // Vauban's "plus infâme que Cateau-Cambrésis" were searched for but could not
+  // be sourced, so neither is used. Quote: Louis XIV to the future Louis XV,
+  // 26 Aug 1715, as recorded by Dangeau; shortened, translation only.
+  {
+    "slug": "how-the-nine-years-war-ended-1697",
+    "era": "voiceless-years",
+    "cardType": "background",
+    "startYear": 1688.5,
+    "tone": "humorous",
+    "year": {
+      "en": "1689–1697",
+      "cz": "1689–1697",
+      "zh": "1689年－1697年"
+    },
+    "title": {
+      "en": "Nine Years, Back to Square One",
+      "cz": "Devět let a zase na začátku",
+      "zh": "打了九年，回到原点"
+    },
+    "hookLine": {
+      "en": "For nine years the French won most of the battles. Then they handed back almost everything they had taken.",
+      "cz": "Devět let Francouzi vyhrávali většinu bitev. Pak skoro všechno, co dobyli, zase vrátili.",
+      "zh": "九年里，法国人赢了大多数仗；到头来，占下的地方差不多全还了回去。"
+    },
+    "summary": {
+      "en": "Louis XIV had expected a short war. Instead it spread from the Rhine to the Netherlands, to Italy, to Catalonia, to Ireland, out to sea and all the way to the colonies of North America.\n\nOn the battlefield the French actually won a good deal. Marshal Luxembourg beat the allies at Fleurus, at Steenkerque and at Neerwinden, and sent so many captured banners to hang in Notre-Dame that Paris called him \"the upholsterer of Notre-Dame\". But no victory led anywhere. The enemy fell back, filled its ranks and came again the next year.\n\nMost of the war was fought around fortresses. In 1692 the French took Namur in the Spanish Netherlands, with the king himself watching the siege; in 1695 William of Orange took it back. In 1693 the French marched into Heidelberg again, blew up what was left of the castle and burned the town.\n\nWhat wore everyone down in the end was money. In 1693 and 1694 France was struck by a terrible famine, which is reckoned to have killed some 1.3 million people. England and the Dutch were sinking into debt, and the emperor's purse had been empty from the start. [[b]]In the end nobody could win, and nobody could afford to go on.[[/b]]\n\nThe first ally to leave was Savoy. In 1696 its duke made a separate peace with France and got back Pinerolo, a fortress the French had held for sixty-five years.\n\nIn September and October 1697 the powers signed a peace at Rijswijk, near The Hague. Louis gave back almost everything he had taken: Lorraine to its duke, Freiburg, Breisach and Philippsburg to the Empire, Luxembourg and Catalonia to Spain. He also recognised William as King of England and dropped James II, who was living in exile in France.\n\nWhat Louis kept was, above all, Strasbourg, which he had swallowed back in 1681, before the war had even begun.\n\nAnd the Palatine inheritance the war had supposedly been about? The treaty handed it to the pope to decide. Liselotte's homeland had been burned to the ground for a promise of further talks. Only one clause made the Protestants truly angry: in the lands the French gave back, the Catholic parishes they had restored during the occupation were to stay.\n\n[[b]]Nine years, hundreds of thousands dead, and the map of Europe looked much as it had before.[[/b]]\n\nThere was another reason everyone was in such a hurry, though nobody said it out loud. King Charles II of Spain had no children, and his health was getting worse by the month. When he died, who would get the Spanish empire? Every power wanted its hands free for that day.\n\nThe emperor, meanwhile, had something to show for the year. On 11 September 1697 his army crushed the Turks at Zenta in Hungary. Its commander was Prince Eugene of Savoy, born and raised in Paris, who as a young man had asked Louis XIV for a commission, been turned down flat, and gone to serve the emperor instead.\n\nEighteen years later, on his deathbed, Louis XIV gave his five-year-old great-grandson, the future Louis XV, a piece of advice:\n\n[[quote:0]]\n\nHe had learned it a little late.",
+      "cz": "Ludvík XIV. čekal krátkou válku. Místo toho se rozlezla od Rýna do Nizozemí, do Itálie, do Katalánska, do Irska, na moře a až do kolonií v Severní Americe.\n\nNa bojišti Francouzi vlastně vyhrávali dost. Maršál Luxembourg porazil spojence u Fleurus, u Steenkerque i u Neerwindenu a poslal do Notre-Dame tolik ukořistěných praporů, že mu Paříž začala říkat „čalouník Notre-Dame“. Jenže žádné vítězství k ničemu nevedlo. Nepřítel ustoupil, doplnil řady a příští rok přišel znovu.\n\nVětšina války se točila kolem pevností. Roku 1692 dobyli Francouzi Namur ve Španělském Nizozemí a obléhání přihlížel sám král; roku 1695 ho Vilém Oranžský vzal zpátky. Roku 1693 vtrhli Francouzi znovu do Heidelbergu, vyhodili do povětří, co ze zámku ještě zbylo, a město vypálili.\n\nNakonec všechny zmohly peníze. Francii v letech 1693 a 1694 postihl strašlivý hladomor, který si podle odhadů vyžádal kolem 1,3 milionu životů. Anglie a Nizozemci se topili v dluzích a císařova pokladna byla prázdná od začátku. [[b]]Nakonec nemohl vyhrát nikdo a pokračovat si nemohl dovolit nikdo.[[/b]]\n\nPrvní odpadl spojenec Savojsko. Roku 1696 uzavřel jeho vévoda s Francií separátní mír a dostal zpátky Pinerolo, pevnost, kterou Francouzi drželi pětašedesát let.\n\nV září a říjnu 1697 podepsaly mocnosti mír v Rijswijku u Haagu. Ludvík vrátil skoro všechno, co dobyl: Lotrinsko jeho vévodovi, Freiburg, Breisach a Philippsburg říši, Lucembursko a Katalánsko Španělsku. Uznal také Viléma za anglického krále a přestal podporovat Jakuba II., který žil ve francouzském exilu.\n\nUdržel si hlavně Štrasburk, který spolkl už roku 1681, ještě než válka vůbec začala.\n\nA falcké dědictví, o které se válka údajně vedla? Smlouva ho svěřila k rozhodnutí papeži. Liselottina vlast lehla popelem a výsledkem byl slib dalších jednání. Jen jedna klauzule protestanty opravdu rozzlobila: v zemích, které Francouzi vraceli, měly zůstat katolické fary, které během okupace obnovili.\n\n[[b]]Devět let, statisíce mrtvých, a mapa Evropy vypadala skoro stejně jako předtím.[[/b]]\n\nVšichni spěchali ještě z jednoho důvodu, i když ho nikdo nahlas neřekl. Španělský král Karel II. neměl děti a jeho zdraví bylo měsíc od měsíce horší. Komu připadne španělská říše, až zemře? Každá mocnost si na ten den chtěla nechat volné ruce.\n\nCísař si z toho roku přece jen něco odnesl. Dne 11. září 1697 rozdrtilo jeho vojsko Turky u Zenty v Uhrách. Velel mu princ Evžen Savojský, narozený a vychovaný v Paříži, který jako mladík požádal Ludvíka XIV. o důstojnické místo, dostal rázné ne a šel sloužit císaři.\n\nO osmnáct let později, na smrtelné posteli, dal Ludvík XIV. svému pětiletému pravnukovi, budoucímu Ludvíku XV., radu:\n\n[[quote:0]]\n\nSám na ni přišel trochu pozdě.",
+      "zh": "路易十四原本以为，这会是一场速战。结果，仗从莱茵河打到了尼德兰，打到意大利、加泰罗尼亚和爱尔兰，打到海上，一直打到北美洲的殖民地。\n\n战场上，法国人其实赢得不少。卢森堡元帅在弗勒吕斯、斯滕凯尔克和内尔温登接连打败联军，缴来的敌旗一面面挂进巴黎圣母院，挂得巴黎人送了他一个外号：“圣母院的挂毯匠”。可是，哪一场胜仗都没有下文。对手退回去，补齐人马，第二年又来了。\n\n这场仗，大半是围着要塞打的。1692年，法军在国王亲自督阵下，拿下了西属尼德兰的那慕尔；1695年，奥兰治的威廉又把它夺了回去。1693年，法军再次开进海德堡，把城堡剩下的部分又炸了一遍，城也烧了。\n\n最后把各国拖垮的，是钱。1693年和1694年，法国闹了一场大饥荒，据估计死了一百三十万人左右。英国和荷兰背上了沉重的债，皇帝的钱袋则是从一开始就空的。[[b]]到了最后，谁也打不赢，谁也打不起了。[[/b]]\n\n联军里先走的是萨伏依。1696年，萨伏依公爵单独跟法国讲了和，换回了被法国人占了六十五年的要塞皮内罗洛。\n\n1697年9月到10月，各国在海牙附近的里斯维克签了和约。路易把这些年占来的地方差不多都吐了出来：洛林还给洛林公爵，弗赖堡、布赖萨赫和菲利普斯堡还给帝国，卢森堡和加泰罗尼亚还给西班牙。他还承认了威廉是英国国王，不再支持流亡在法国的詹姆斯二世。\n\n他留在手里的，主要是斯特拉斯堡。那是他早在1681年、仗还没开打的时候，就已经吞下的。\n\n那么，这场仗名义上要争的普法尔茨遗产呢？和约把它交给了教皇去裁决。莉泽洛特的家乡烧成了焦土，换来的是一句“以后再议”。倒是有一条让新教徒格外窝火：法国人交还的土地上，他们占领期间恢复的天主教堂区，一律照旧保留。\n\n[[b]]打了九年，死了几十万人，欧洲的地图看上去，跟开战前差不多。[[/b]]\n\n大家这么急着收手，还有一个谁也不明说的原因：西班牙国王卡洛斯二世没有孩子，身体又一个月不如一个月。他一死，偌大的西班牙帝国归谁？各国都想腾出手来，等着那一天。\n\n皇帝这一年倒是另有收获。1697年9月11日，皇帝的军队在匈牙利的森塔大败土耳其人。统兵的是萨伏依的欧根亲王。他在巴黎出生、在巴黎长大，年轻时求路易十四给他一个军职，被一口回绝，这才转投了皇帝。\n\n十八年后，路易十四躺在临终的床上，给五岁的曾孙、未来的路易十五留下了一句忠告：\n\n[[quote:0]]\n\n这个道理，他自己明白得晚了一点。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "My child, you are going to be a great king… You must avoid war as much as you can: it is the ruin of the peoples. Do not follow the bad example I have given you in this. I have often undertaken war too lightly, and kept it up out of vanity.",
+          "cz": "Dítě moje, budete velkým králem… Vyhýbejte se válce, jak jen budete moci: je zkázou národů. Nenásledujte v tom můj špatný příklad. Často jsem začínal válku příliš lehkomyslně a vedl ji z ješitnosti.",
+          "zh": "孩子，你将会是一位伟大的国王……你要尽可能地避免战争：战争是百姓的灾难。在这件事上，不要学我的坏榜样。我常常太轻率地开战，又出于虚荣把仗打下去。"
+        },
+        "attribution": {
+          "en": "Louis XIV to the future Louis XV, 26 August 1715, as recorded by the Marquis de Dangeau",
+          "cz": "Ludvík XIV. budoucímu Ludvíku XV., 26. srpna 1715, podle zápisu markýze de Dangeau",
+          "zh": "路易十四对未来的路易十五所说，1715年8月26日，据当若侯爵的记录"
+        }
+      }
+    ],
+    "relatedLandmarks": [],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/Peace_of_Ryswick"
+  },
   // 2026-10-29. The "French" fire of 21 June 1689, closing voiceless-years.
   // All quotes from Beckovský, Poselkyně II (Rezek ed., Praha 1880), pp.
   // 557–563 (librinostri.catholica.cz PDF): his eyewitness account (1–2 pm,
@@ -32639,6 +32693,170 @@ export const historyEvents = [
       }
     ],
     "wikipediaUrl": "https://cs.wikipedia.org/wiki/Kostel_svat%C3%A9ho_Mikul%C3%A1%C5%A1e_(Mal%C3%A1_Strana)"
+  },
+  // standing-room-only-1706: the Charles Bridge statues, 1683–1714. Statue
+  // years, sculptors and patrons: en.wikipedia "List of statues on Charles
+  // Bridge", cs.wikipedia "Sochy na Karlově mostě" (24 sandstone statues
+  // 1706–1714, places assigned by the Old Town magistrate, the only two spots
+  // left went to a guardhouse and shops). 1683 Nepomuk: Wunschwitz donor,
+  // Rauchmiller model, Jan Brokoff's life-size wooden version, cast in
+  // Nuremberg, timed to the supposed 300th anniversary (death then put at
+  // 1383): en.wikipedia "Statue of John of Nepomuk, Charles Bridge". Jan
+  // Brokoff (Spišská Sobota, shoemaker's son, Lutheran, converted in Prague),
+  // F. M. Brokoff (self-portrait at 23 in the Xavier group, the Turk), Braun
+  // (Tyrol, Italy at ~14, Prague c. 1708–10, Luthgard as guild masterpiece
+  // for Abbot Tyttl of Plasy): cs.wikipedia. Quote: Keyssler, Travels (London
+  // 1758), vol. 4, Prague section (archive.org scan of the 1758 edition), shortened; his Prague visit was
+  // c. 1730. Deliberately stops before Nepomuk's beatification (1721) and
+  // canonization (1729), which get their own card.
+  {
+    "slug": "standing-room-only-1706",
+    "era": "baroque-and-darkness",
+    "startYear": 1706,
+    "tone": "humorous",
+    "year": {
+      "en": "1683–1714",
+      "cz": "1683–1714",
+      "zh": "1683年－1714年"
+    },
+    "title": {
+      "en": "Standing Room Only for Statues",
+      "cz": "Na mostě už se sochy nevejdou",
+      "zh": "桥上站满了雕像"
+    },
+    "hookLine": {
+      "en": "In 1683 a single saint stood on Charles Bridge. Thirty years later the parapets had hardly a gap left.",
+      "cz": "Roku 1683 stál na Karlově mostě jediný světec. O třicet let později už na zábradlí skoro nezbylo volné místo.",
+      "zh": "1683年，查理大桥上只站着一位圣人。三十年后，桥栏上已经快挤不下了。"
+    },
+    "summary": {
+      "en": "While the Dientzenhofers were building their church on the hill, the bridge at its foot was filling up.\n\nFor three hundred years Charles Bridge had carried no statues of saints at all, only a crucifix. Then, in 1683, the first one went up on its north side: a bronze priest holding a crucifix, with a halo of five stars. It was [[link:the-priest-thrown-into-the-river-1393]]John of Nepomuk[[/link]], the man Wenceslas IV had thrown off this very bridge.\n\nA Baron Wunschwitz paid for it. The Viennese sculptor Rauchmiller made a small model, a woodcarver named Jan Brokoff enlarged it to life size, and it was cast in bronze in Nuremberg. The year was chosen because Nepomuk was then believed to have died in 1383, so this was his three hundredth anniversary. He had actually died in 1393. The anniversary was ten years early.\n\nBrokoff was a shoemaker's son from Spiš in Upper Hungary, brought up a Lutheran, who became a Catholic only in Prague. His first work for the bridge was a saint whom Rome had not yet recognised.\n\nFor more than twenty years the bronze priest stood alone. Then, from 1706, sandstone statues began to arrive one after another. The Old Town council handed out the places, and everyone wanted one. The university's law faculty ordered St Ivo, patron of lawyers; the medical faculty, Cosmas and Damian, the doctor saints; the theologians, Francis Xavier, missionary to the East. Monasteries ordered their founders, noblemen their patrons, and one Old Town councillor paid for St Adalbert out of his own pocket.\n\nMost of the work went to the Brokoff family. Jan's sons learned the trade in their father's workshop, and the younger, Ferdinand Maximilian, was the best of them. In 1711, carving the Xavier group, he put his 23-year-old self among the kneeling converts. In 1714 he carved the founders of the Trinitarians, an order that ransomed Christian captives, with a fat Turkish jailer below guarding the prisoners in their cell, a dog at his side. Prague has called the group \"the Turk\" ever since.\n\nThe other name was Matthias Braun from the Tyrol, who had gone to Italy to learn his craft as a teenager. He came to Prague around 1710, and his guild masterpiece went straight onto the bridge: paid for by the abbot of Plasy, it shows the blind nun Luthgard dreaming that she kisses the wounds of Christ on the cross. Braun was twenty-six. Many still think it the finest statue on the bridge.\n\n[[b]]In under ten years more than twenty stone statues went up on the parapets, until only two places were left: one went to a guardhouse, the other to shop stalls.[[/b]]\n\n[[quote:0]]\n\nEvery saint on the bridge had long been recognised by the Church. Only the one who had arrived first was still waiting for Rome to say so.",
+      "cz": "Zatímco Dientzenhoferové stavěli na kopci svůj kostel, most pod ním se plnil.\n\nTři sta let nestála na Karlově mostě jediná socha světce, jen krucifix. Roku 1683 se na severní straně objevila první: bronzový kněz s krucifixem a se svatozáří z pěti hvězd. Byl to [[link:the-priest-thrown-into-the-river-1393]]Jan Nepomucký[[/link]], muž, kterého Václav IV. z tohohle mostu shodil.\n\nZaplatil ji svobodný pán Vunšvic. Vídeňský sochař Rauchmiller udělal malý model, řezbář Jan Brokoff ho zvětšil do životní velikosti a v Norimberku ho odlili z bronzu. Rok byl zvolen proto, že se tehdy věřilo, že Nepomuk zemřel roku 1383, šlo tedy o tři sta let. Ve skutečnosti zemřel roku 1393. Výročí přišlo o deset let dřív.\n\nBrokoff byl synem ševce ze Spiše v Horních Uhrách, vychovaný jako luterán, a katolíkem se stal až v Praze. Jeho první prací pro most byl světec, kterého Řím ještě neuznal.\n\nPřes dvacet let stál bronzový kněz sám. Pak, od roku 1706, začaly na most přibývat pískovcové sochy jedna za druhou. Místa rozděloval staroměstský magistrát a chtěl je každý. Právnická fakulta univerzity objednala sv. Iva, patrona právníků; lékařská Kosmu a Damiána, světce lékaře; teologové Františka Xaverského, misionáře Východu. Kláštery objednávaly své zakladatele, šlechtici své patrony a jeden staroměstský radní zaplatil sv. Vojtěcha z vlastní kapsy.\n\nVětšina práce připadla rodině Brokoffů. Janovi synové se řemeslu vyučili v otcově dílně a mladší z nich, Ferdinand Maxmilián, byl nejlepší. Roku 1711 do sousoší sv. Františka Xaverského mezi klečící obrácené pohany vytesal i sám sebe, třiadvacetiletého. Roku 1714 vytesal zakladatele trinitářů, řádu, který vykupoval křesťanské zajatce, a pod ně tlustého tureckého žalářníka, jak hlídá vězně v kobce, se psem po boku. Praha tomu sousoší od té doby říká „Turek“.\n\nTím druhým byl Matyáš Bernard Braun z Tyrol, který se jako dospívající vydal učit do Itálie. Do Prahy přišel kolem roku 1710 a jeho mistrovský kus pro cech putoval rovnou na most: zaplatil ho plaský opat a ukazuje slepou řeholnici Luitgardu, jak se jí ve snu dostane políbit rány Krista na kříži. Braunovi bylo šestadvacet. Mnozí ji dodnes považují za nejkrásnější sochu na mostě.\n\n[[b]]Za necelých deset let stálo na zábradlí přes dvacet kamenných soch, až zbyla jen dvě místa: jedno dostala strážnice, druhé krámky.[[/b]]\n\n[[quote:0]]\n\nVšechny světce na mostě církev dávno uznala. Jen ten, který přišel první, pořád čekal, až to řekne Řím.",
+      "zh": "丁岑霍费尔父子在山上盖教堂的那些年，山脚下的查理大桥也在一点点站满人。\n\n三百年来，桥上一尊圣人像也没有，只有一座十字架。1683年，桥北侧立起了第一尊：一位铜铸的神父，手捧十字架，头顶一圈五颗星。他就是[[link:the-priest-thrown-into-the-river-1393]]约翰·内波穆克[[/link]]，当年被瓦茨拉夫四世从这座桥上扔下去的那个人。\n\n出钱的是一位武恩施维茨男爵。维也纳雕塑家劳赫米勒做了个小样，木雕匠扬·布罗科夫把它放大成真人大小，再送到纽伦堡浇成青铜。挑1683年，是因为当时人们以为他死于1383年，正好三百周年。其实他死于1393年，这个纪念日早了十年。\n\n布罗科夫是上匈牙利斯皮什一个鞋匠的儿子，从小信路德宗，到了布拉格才改信天主教。他给这座桥做的第一件活儿，就是一位罗马还没承认的圣人。\n\n此后二十多年，这尊铜像一直孤零零地站着。从1706年起，砂岩雕像突然一尊接一尊地上了桥。位置由老城市政厅分配，人人都想要一个：大学法学院请了律师的主保圣伊沃，医学院请了行医的圣人科斯马和达米安，神学院请了去东方传教的方济各·沙勿略；修道院请各自的会祖，贵族请自家的主保，还有一位老城议员，自掏腰包立了圣沃伊捷赫。\n\n活儿大多落在布罗科夫一家手里。扬的两个儿子在父亲的作坊里学的手艺，小儿子费迪南德·马克西米利安最出色。1711年刻沙勿略像时，他把二十三岁的自己也刻进了跪着的皈依者中间。1714年，他刻了三一会的会祖，这个修会专门赎回被俘的基督徒；底下一个大腹便便的土耳其看守守着牢里的俘虏，身边还趴着一条狗。布拉格人从此管这组雕像叫“土耳其人”。\n\n另一位是蒂罗尔来的马蒂亚斯·布劳恩，十几岁就去意大利学艺。他1710年前后来到布拉格，入行会的考核作品直接上了桥：普拉西修道院院长出钱，刻的是盲眼修女卢特加德在梦里亲吻十字架上基督的伤口。那年布劳恩二十六岁。很多人至今认为，这是桥上最美的一尊。\n\n[[b]]不到十年，桥栏上立起了二十多尊石像，最后只剩两个空位：一个给了岗哨，一个给了小摊。[[/b]]\n\n[[quote:0]]\n\n桥上的圣人，个个都是教会早就承认了的。只有最早来的那一位，还在等罗马开口。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "The sides are adorned with twenty-eight statues of saints. The crucifix and the statue of St Nepomuc are of brass, but the rest are all of stone. St Nepomuc, who was thrown over this bridge by order of King Wenceslaus, … is now become the patron of bridges, and by his superior merit greatly lessened the interest of all the other saints among the Bohemians.",
+          "cz": "Po stranách je ozdoben dvaceti osmi sochami svatých. Krucifix a socha sv. Nepomuka jsou z mosazi, ostatní jsou všechny z kamene. Svatý Nepomuk, který byl z tohoto mostu svržen na rozkaz krále Václava, … se nyní stal patronem mostů a svými nadřazenými zásluhami mezi Čechy značně umenšil zájem o všechny ostatní svaté.",
+          "zh": "桥的两侧装点着二十八尊圣人像。十字架和圣内波穆克像是铜的，其余全是石头的。圣内波穆克当年奉瓦茨拉夫国王之命被人从这座桥上扔了下去……如今他成了桥梁的主保圣人，凭着他高人一等的功德，大大冲淡了波希米亚人对其他所有圣人的兴趣。"
+        },
+        "attribution": {
+          "en": "Johann Georg Keyssler on his visit to Prague around 1730, Travels through Germany, Bohemia, Hungary… (English edition, 1758)",
+          "cz": "Johann Georg Keyssler o své návštěvě Prahy kolem roku 1730, Neueste Reisen (anglické vydání 1758)",
+          "zh": "约翰·格奥尔格·凯斯勒记1730年前后的布拉格，《德意志、波希米亚、匈牙利等地游记》（1758年英译本）"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "charles-bridge",
+        "relation": {
+          "en": "About thirty statues and groups line its parapets, most of them put up between 1706 and 1714",
+          "cz": "Zábradlí lemuje asi třicet soch a sousoší, většina z let 1706–1714",
+          "zh": "桥栏上约有三十尊雕像和群像，大多立于1706到1714年间"
+        }
+      },
+      {
+        "slug": "socha-svateho-jana-nepomuckeho",
+        "relation": {
+          "en": "The first statue on the bridge, cast in bronze in Nuremberg in 1683",
+          "cz": "První socha na mostě, odlitá z bronzu v Norimberku roku 1683",
+          "zh": "桥上第一尊雕像，1683年在纽伦堡浇铸"
+        }
+      },
+      {
+        "slug": "kostel-sv-jana-na-skalce",
+        "relation": {
+          "en": "On the high altar stands Jan Brokoff's life-size wooden model for the bronze Nepomuk",
+          "cz": "Na hlavním oltáři stojí dřevěný model bronzového Nepomuka v životní velikosti od Jana Brokoffa",
+          "zh": "主祭坛上立着扬·布罗科夫为铜像做的真人大小木雕样"
+        }
+      },
+      {
+        "slug": "kalvarie-karluv-most",
+        "relation": {
+          "en": "The crucifix, on the bridge long before any of the saints; its stone Calvary hill was added in 1707",
+          "cz": "Krucifix, který stál na mostě dávno před všemi světci; kamennou Kalvárii dostal roku 1707",
+          "zh": "早在圣人们之前就立在桥上的十字架，1707年添了石砌的各各他山"
+        }
+      },
+      {
+        "slug": "socha-sv-vojtecha-karluv-most",
+        "relation": {
+          "en": "St Adalbert, 1709, from the Brokoff workshop, paid for by an Old Town councillor",
+          "cz": "Sv. Vojtěch, 1709, z Brokoffovy dílny, zaplacený staroměstským radním",
+          "zh": "圣沃伊捷赫，1709年，出自布罗科夫作坊，老城议员出钱"
+        }
+      },
+      {
+        "slug": "socha-sv-ludmily-karluv-most",
+        "relation": {
+          "en": "St Ludmila, from Braun's workshop; she came down from the Castle to fill a gap after the 1784 flood",
+          "cz": "Sv. Ludmila z Braunovy dílny; na most přišla z Hradu, aby zaplnila mezeru po povodni roku 1784",
+          "zh": "圣卢德米拉，出自布劳恩作坊；1784年大洪水后才从城堡搬来补缺"
+        }
+      },
+      {
+        "slug": "lapidarium-narodniho-muzea",
+        "relation": {
+          "en": "Where many of the bridge's original statues went after copies took their place",
+          "cz": "Sem odešla řada původních soch z mostu, když je nahradily kopie",
+          "zh": "桥上很多原作换成复制品后，都搬到了这里"
+        }
+      },
+      {
+        "slug": "morzin-palace-1782409018600",
+        "relation": {
+          "en": "Ferdinand Maximilian Brokoff's two Moors carrying the balcony, 1714",
+          "cz": "Dva Mouřeníni nesoucí balkon od Ferdinanda Maxmiliána Brokoffa, 1714",
+          "zh": "费迪南德·布罗科夫刻的两个托着阳台的摩尔人，1714年"
+        }
+      },
+      {
+        "slug": "malta-square-1782492877948",
+        "relation": {
+          "en": "His St John the Baptist above a small fountain, 1715",
+          "cz": "Jeho sv. Jan Křtitel nad malou kašnou, 1715",
+          "zh": "他刻的施洗约翰，立在小喷泉上，1715年"
+        }
+      },
+      {
+        "slug": "kostel-sv-jakuba-stare-mesto",
+        "relation": {
+          "en": "He carved the Vratislav of Mitrovice tomb inside, 1714–1716",
+          "cz": "Uvnitř vytesal náhrobek Vratislava z Mitrovic, 1714–1716",
+          "zh": "教堂里的米特罗维采的弗拉蒂斯拉夫墓是他刻的，1714–1716年"
+        }
+      },
+      {
+        "slug": "clam-gallasuv-palac",
+        "relation": {
+          "en": "Braun's workshop made the giants at the doors and the Triton fountain",
+          "cz": "Obry u vchodů a Tritonovu kašnu udělala Braunova dílna",
+          "zh": "门口的巨人和特里同喷泉出自布劳恩的作坊"
+        }
+      },
+      {
+        "slug": "the-vrtba-garden-1782406188727",
+        "relation": {
+          "en": "The statues of ancient gods come from Braun's workshop",
+          "cz": "Sochy antických bohů pocházejí z Braunovy dílny",
+          "zh": "古代神祇的雕像出自布劳恩的作坊"
+        }
+      }
+    ],
+    "images": [
+      "/history/standing-room-only-1706.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "Charles Bridge around 1714: masons with a timber hoist settle a new sandstone group onto its pedestal while patrons crowd round a clerk and his long list, arguing over the places left. Across the bridge, the dark bronze St John of Nepomuk of 1683 stands among the pale new saints.",
+        "cz": "Karlův most kolem roku 1714: kameníci s dřevěným zdvihadlem usazují na podstavec nové pískovcové sousoší, zatímco donátoři se tlačí kolem písaře s dlouhým seznamem a přou se o zbylá místa. Naproti stojí mezi světlými novými světci tmavý bronzový Jan Nepomucký z roku 1683.",
+        "zh": "1714年前后的查理大桥：石匠们用木吊架把一组新的砂岩群像放上底座；出钱的人围着拿着长名单的书记员，为剩下的位置争个不停。对面，1683年那尊深色的铜像内波穆克，站在一排浅色的新圣人中间。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/List_of_statues_on_Charles_Bridge"
   },
 ];
 
