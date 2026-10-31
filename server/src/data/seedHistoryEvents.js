@@ -32730,9 +32730,9 @@ export const historyEvents = [
       "zh": "1683年，查理大桥上只站着一位圣人。三十年后，桥栏上已经快挤不下了。"
     },
     "summary": {
-      "en": "While the Dientzenhofers were building their church on the hill, the bridge at its foot was filling up.\n\nFor three hundred years Charles Bridge had carried no statues of saints at all, only a crucifix. Then, in 1683, the first one went up on its north side: a bronze priest holding a crucifix, with a halo of five stars. It was [[link:the-priest-thrown-into-the-river-1393]]John of Nepomuk[[/link]], the man Wenceslas IV had thrown off this very bridge.\n\nA Baron Wunschwitz paid for it. The Viennese sculptor Rauchmiller made a small model, a woodcarver named Jan Brokoff enlarged it to life size, and it was cast in bronze in Nuremberg. The year was chosen because Nepomuk was then believed to have died in 1383, so this was his three hundredth anniversary. He had actually died in 1393. The anniversary was ten years early.\n\nBrokoff was a shoemaker's son from Spiš in Upper Hungary, brought up a Lutheran, who became a Catholic only in Prague. His first work for the bridge was a saint whom Rome had not yet recognised.\n\nFor more than twenty years the bronze priest stood alone. Then, from 1706, sandstone statues began to arrive one after another. The Old Town council handed out the places, and everyone wanted one. The university's law faculty ordered St Ivo, patron of lawyers; the medical faculty, Cosmas and Damian, the doctor saints; the theologians, Francis Xavier, missionary to the East. Monasteries ordered their founders, noblemen their patrons, and one Old Town councillor paid for St Adalbert out of his own pocket.\n\nMost of the work went to the Brokoff family. Jan's sons learned the trade in their father's workshop, and the younger, Ferdinand Maximilian, was the best of them. In 1711, carving the Xavier group, he put his 23-year-old self among the kneeling converts. In 1714 he carved the founders of the Trinitarians, an order that ransomed Christian captives, with a fat Turkish jailer below guarding the prisoners in their cell, a dog at his side. Prague has called the group \"the Turk\" ever since.\n\nThe other name was Matthias Braun from the Tyrol, who had gone to Italy to learn his craft as a teenager. He came to Prague around 1710, and his guild masterpiece went straight onto the bridge: paid for by the abbot of Plasy, it shows the blind nun Luthgard dreaming that she kisses the wounds of Christ on the cross. Braun was twenty-six. Many still think it the finest statue on the bridge.\n\n[[b]]In under ten years more than twenty stone statues went up on the parapets, until only two places were left: one went to a guardhouse, the other to shop stalls.[[/b]]\n\n[[quote:0]]\n\nEvery saint on the bridge had long been recognised by the Church. Only the one who had arrived first was still waiting for Rome to say so.",
-      "cz": "Zatímco Dientzenhoferové stavěli na kopci svůj kostel, most pod ním se plnil.\n\nTři sta let nestála na Karlově mostě jediná socha světce, jen krucifix. Roku 1683 se na severní straně objevila první: bronzový kněz s krucifixem a se svatozáří z pěti hvězd. Byl to [[link:the-priest-thrown-into-the-river-1393]]Jan Nepomucký[[/link]], muž, kterého Václav IV. z tohohle mostu shodil.\n\nZaplatil ji svobodný pán Vunšvic. Vídeňský sochař Rauchmiller udělal malý model, řezbář Jan Brokoff ho zvětšil do životní velikosti a v Norimberku ho odlili z bronzu. Rok byl zvolen proto, že se tehdy věřilo, že Nepomuk zemřel roku 1383, šlo tedy o tři sta let. Ve skutečnosti zemřel roku 1393. Výročí přišlo o deset let dřív.\n\nBrokoff byl synem ševce ze Spiše v Horních Uhrách, vychovaný jako luterán, a katolíkem se stal až v Praze. Jeho první prací pro most byl světec, kterého Řím ještě neuznal.\n\nPřes dvacet let stál bronzový kněz sám. Pak, od roku 1706, začaly na most přibývat pískovcové sochy jedna za druhou. Místa rozděloval staroměstský magistrát a chtěl je každý. Právnická fakulta univerzity objednala sv. Iva, patrona právníků; lékařská Kosmu a Damiána, světce lékaře; teologové Františka Xaverského, misionáře Východu. Kláštery objednávaly své zakladatele, šlechtici své patrony a jeden staroměstský radní zaplatil sv. Vojtěcha z vlastní kapsy.\n\nVětšina práce připadla rodině Brokoffů. Janovi synové se řemeslu vyučili v otcově dílně a mladší z nich, Ferdinand Maxmilián, byl nejlepší. Roku 1711 do sousoší sv. Františka Xaverského mezi klečící obrácené pohany vytesal i sám sebe, třiadvacetiletého. Roku 1714 vytesal zakladatele trinitářů, řádu, který vykupoval křesťanské zajatce, a pod ně tlustého tureckého žalářníka, jak hlídá vězně v kobce, se psem po boku. Praha tomu sousoší od té doby říká „Turek“.\n\nTím druhým byl Matyáš Bernard Braun z Tyrol, který se jako dospívající vydal učit do Itálie. Do Prahy přišel kolem roku 1710 a jeho mistrovský kus pro cech putoval rovnou na most: zaplatil ho plaský opat a ukazuje slepou řeholnici Luitgardu, jak se jí ve snu dostane políbit rány Krista na kříži. Braunovi bylo šestadvacet. Mnozí ji dodnes považují za nejkrásnější sochu na mostě.\n\n[[b]]Za necelých deset let stálo na zábradlí přes dvacet kamenných soch, až zbyla jen dvě místa: jedno dostala strážnice, druhé krámky.[[/b]]\n\n[[quote:0]]\n\nVšechny světce na mostě církev dávno uznala. Jen ten, který přišel první, pořád čekal, až to řekne Řím.",
-      "zh": "丁岑霍费尔父子在山上盖教堂的那些年，山脚下的查理大桥也在一点点站满人。\n\n三百年来，桥上一尊圣人像也没有，只有一座十字架。1683年，桥北侧立起了第一尊：一位铜铸的神父，手捧十字架，头顶一圈五颗星。他就是[[link:the-priest-thrown-into-the-river-1393]]约翰·内波穆克[[/link]]，当年被瓦茨拉夫四世从这座桥上扔下去的那个人。\n\n出钱的是一位武恩施维茨男爵。维也纳雕塑家劳赫米勒做了个小样，木雕匠扬·布罗科夫把它放大成真人大小，再送到纽伦堡浇成青铜。挑1683年，是因为当时人们以为他死于1383年，正好三百周年。其实他死于1393年，这个纪念日早了十年。\n\n布罗科夫是上匈牙利斯皮什一个鞋匠的儿子，从小信路德宗，到了布拉格才改信天主教。他给这座桥做的第一件活儿，就是一位罗马还没承认的圣人。\n\n此后二十多年，这尊铜像一直孤零零地站着。从1706年起，砂岩雕像突然一尊接一尊地上了桥。位置由老城市政厅分配，人人都想要一个：大学法学院请了律师的主保圣伊沃，医学院请了行医的圣人科斯马和达米安，神学院请了去东方传教的方济各·沙勿略；修道院请各自的会祖，贵族请自家的主保，还有一位老城议员，自掏腰包立了圣沃伊捷赫。\n\n活儿大多落在布罗科夫一家手里。扬的两个儿子在父亲的作坊里学的手艺，小儿子费迪南德·马克西米利安最出色。1711年刻沙勿略像时，他把二十三岁的自己也刻进了跪着的皈依者中间。1714年，他刻了三一会的会祖，这个修会专门赎回被俘的基督徒；底下一个大腹便便的土耳其看守守着牢里的俘虏，身边还趴着一条狗。布拉格人从此管这组雕像叫“土耳其人”。\n\n另一位是蒂罗尔来的马蒂亚斯·布劳恩，十几岁就去意大利学艺。他1710年前后来到布拉格，入行会的考核作品直接上了桥：普拉西修道院院长出钱，刻的是盲眼修女卢特加德在梦里亲吻十字架上基督的伤口。那年布劳恩二十六岁。很多人至今认为，这是桥上最美的一尊。\n\n[[b]]不到十年，桥栏上立起了二十多尊石像，最后只剩两个空位：一个给了岗哨，一个给了小摊。[[/b]]\n\n[[quote:0]]\n\n桥上的圣人，个个都是教会早就承认了的。只有最早来的那一位，还在等罗马开口。"
+      "en": "While the Dientzenhofers were building their church on the hill, the bridge at its foot was filling up.\n\nFor three hundred years Charles Bridge had carried no statues of saints at all, only a crucifix. Then, in 1683, the first one went up on its north side: a bronze priest holding a crucifix, with a halo of five stars. It was [[link:the-priest-thrown-into-the-river-1393]]John of Nepomuk[[/link]], the man Wenceslas IV had thrown off this very bridge.\n\nA Baron Wunschwitz paid for it. The Viennese sculptor Rauchmiller made a small model, a woodcarver named Jan Brokoff enlarged it to life size, and it was cast in bronze in Nuremberg. The year was chosen because Nepomuk was then believed to have died in 1383, so this was his three hundredth anniversary. He had actually died in 1393. The anniversary was ten years early.\n\nBrokoff was a shoemaker's son from Spiš in Upper Hungary, brought up a Lutheran, who became a Catholic only in Prague. His first work for the bridge was a saint whom Rome had not yet recognised.\n\nThe Church had good reason to push him. Before White Mountain, Bohemia had honoured [[link:who-is-jan-hus-1412]]Jan Hus[[/link]] as a saint for two hundred years, with a feast every 6 July. Hus's name had since been stamped out, but the devotion people had felt for him had not gone anywhere. The Church needed a martyr of the land's own to fill the gap, ideally another Prague priest called Jan who had died a hard death. Nepomuk fitted perfectly.\n\nFor more than twenty years the bronze priest stood alone. Then, from 1706, sandstone statues began to arrive one after another. The Old Town council handed out the places, and everyone wanted one. The university's law faculty ordered St Ivo, patron of lawyers; the medical faculty, Cosmas and Damian, the doctor saints; the theologians, Francis Xavier, missionary to the East. Monasteries ordered their founders, noblemen their patrons, and one Old Town councillor paid for St Adalbert out of his own pocket.\n\nMost of the work went to the Brokoff family. Jan's sons learned the trade in their father's workshop, and the younger, Ferdinand Maximilian, was the best of them. In 1711, carving the Xavier group, he put his 23-year-old self among the kneeling converts. In 1714 he carved the founders of the Trinitarians, an order that ransomed Christian captives, with a fat Turkish jailer below guarding the prisoners in their cell, a dog at his side. Prague has called the group \"the Turk\" ever since.\n\nThe other name was Matthias Braun from the Tyrol, who had gone to Italy to learn his craft as a teenager. He came to Prague around 1710, and his guild masterpiece went straight onto the bridge: paid for by the abbot of Plasy, it shows the blind nun Luthgard dreaming that she kisses the wounds of Christ on the cross. Braun was twenty-six. Many still think it the finest statue on the bridge.\n\n[[b]]In under ten years more than twenty stone statues went up on the parapets, until only two places were left: one went to a guardhouse, the other to shop stalls.[[/b]]\n\n[[quote:0]]\n\nEvery saint on the bridge had long been recognised by the Church. Only the one who had arrived first was still waiting for Rome to say so.",
+      "cz": "Zatímco Dientzenhoferové stavěli na kopci svůj kostel, most pod ním se plnil.\n\nTři sta let nestála na Karlově mostě jediná socha světce, jen krucifix. Roku 1683 se na severní straně objevila první: bronzový kněz s krucifixem a se svatozáří z pěti hvězd. Byl to [[link:the-priest-thrown-into-the-river-1393]]Jan Nepomucký[[/link]], muž, kterého Václav IV. z tohohle mostu shodil.\n\nZaplatil ji svobodný pán Vunšvic. Vídeňský sochař Rauchmiller udělal malý model, řezbář Jan Brokoff ho zvětšil do životní velikosti a v Norimberku ho odlili z bronzu. Rok byl zvolen proto, že se tehdy věřilo, že Nepomuk zemřel roku 1383, šlo tedy o tři sta let. Ve skutečnosti zemřel roku 1393. Výročí přišlo o deset let dřív.\n\nBrokoff byl synem ševce ze Spiše v Horních Uhrách, vychovaný jako luterán, a katolíkem se stal až v Praze. Jeho první prací pro most byl světec, kterého Řím ještě neuznal.\n\nCírkev měla dobrý důvod ho prosazovat. Před Bílou horou ctily Čechy [[link:who-is-jan-hus-1412]]Jana Husa[[/link]] jako svatého dvě stě let, se svátkem každého 6. července. Husovo jméno bylo mezitím vymýceno, ale úcta, kterou k němu lidé chovali, nikam nezmizela. Církev potřebovala vlastního zemského mučedníka, který by to prázdné místo zaplnil, nejlépe dalšího pražského kněze Jana, který zemřel krutou smrtí. Nepomuk se hodil dokonale.\n\nPřes dvacet let stál bronzový kněz sám. Pak, od roku 1706, začaly na most přibývat pískovcové sochy jedna za druhou. Místa rozděloval staroměstský magistrát a chtěl je každý. Právnická fakulta univerzity objednala sv. Iva, patrona právníků; lékařská Kosmu a Damiána, světce lékaře; teologové Františka Xaverského, misionáře Východu. Kláštery objednávaly své zakladatele, šlechtici své patrony a jeden staroměstský radní zaplatil sv. Vojtěcha z vlastní kapsy.\n\nVětšina práce připadla rodině Brokoffů. Janovi synové se řemeslu vyučili v otcově dílně a mladší z nich, Ferdinand Maxmilián, byl nejlepší. Roku 1711 do sousoší sv. Františka Xaverského mezi klečící obrácené pohany vytesal i sám sebe, třiadvacetiletého. Roku 1714 vytesal zakladatele trinitářů, řádu, který vykupoval křesťanské zajatce, a pod ně tlustého tureckého žalářníka, jak hlídá vězně v kobce, se psem po boku. Praha tomu sousoší od té doby říká „Turek“.\n\nTím druhým byl Matyáš Bernard Braun z Tyrol, který se jako dospívající vydal učit do Itálie. Do Prahy přišel kolem roku 1710 a jeho mistrovský kus pro cech putoval rovnou na most: zaplatil ho plaský opat a ukazuje slepou řeholnici Luitgardu, jak se jí ve snu dostane políbit rány Krista na kříži. Braunovi bylo šestadvacet. Mnozí ji dodnes považují za nejkrásnější sochu na mostě.\n\n[[b]]Za necelých deset let stálo na zábradlí přes dvacet kamenných soch, až zbyla jen dvě místa: jedno dostala strážnice, druhé krámky.[[/b]]\n\n[[quote:0]]\n\nVšechny světce na mostě církev dávno uznala. Jen ten, který přišel první, pořád čekal, až to řekne Řím.",
+      "zh": "丁岑霍费尔父子在山上盖教堂的那些年，山脚下的查理大桥也在一点点站满人。\n\n三百年来，桥上一尊圣人像也没有，只有一座十字架。1683年，桥北侧立起了第一尊：一位铜铸的神父，手捧十字架，头顶一圈五颗星。他就是[[link:the-priest-thrown-into-the-river-1393]]约翰·内波穆克[[/link]]，当年被瓦茨拉夫四世从这座桥上扔下去的那个人。\n\n出钱的是一位武恩施维茨男爵。维也纳雕塑家劳赫米勒做了个小样，木雕匠扬·布罗科夫把它放大成真人大小，再送到纽伦堡浇成青铜。挑1683年，是因为当时人们以为他死于1383年，正好三百周年。其实他死于1393年，这个纪念日早了十年。\n\n布罗科夫是上匈牙利斯皮什一个鞋匠的儿子，从小信路德宗，到了布拉格才改信天主教。他给这座桥做的第一件活儿，就是一位罗马还没承认的圣人。\n\n教会这么卖力地捧他，是有原因的。白山战役以前，波希米亚人把[[link:who-is-jan-hus-1412]]扬·胡斯[[/link]]当圣人纪念了两百年，每年7月6日都是他的节日。如今胡斯的名字被抹掉了，人们心里那份敬仰却还空着。教会需要一位本土殉道者来填上这个空位，最好也是布拉格的神父，也叫扬，也死得惨烈。内波穆克正合适。\n\n此后二十多年，这尊铜像一直孤零零地站着。从1706年起，砂岩雕像突然一尊接一尊地上了桥。位置由老城市政厅分配，人人都想要一个：大学法学院请了律师的主保圣伊沃，医学院请了行医的圣人科斯马和达米安，神学院请了去东方传教的方济各·沙勿略；修道院请各自的会祖，贵族请自家的主保，还有一位老城议员，自掏腰包立了圣沃伊捷赫。\n\n活儿大多落在布罗科夫一家手里。扬的两个儿子在父亲的作坊里学的手艺，小儿子费迪南德·马克西米利安最出色。1711年刻沙勿略像时，他把二十三岁的自己也刻进了跪着的皈依者中间。1714年，他刻了三一会的会祖，这个修会专门赎回被俘的基督徒；底下一个大腹便便的土耳其看守守着牢里的俘虏，身边还趴着一条狗。布拉格人从此管这组雕像叫“土耳其人”。\n\n另一位是蒂罗尔来的马蒂亚斯·布劳恩，十几岁就去意大利学艺。他1710年前后来到布拉格，入行会的考核作品直接上了桥：普拉西修道院院长出钱，刻的是盲眼修女卢特加德在梦里亲吻十字架上基督的伤口。那年布劳恩二十六岁。很多人至今认为，这是桥上最美的一尊。\n\n[[b]]不到十年，桥栏上立起了二十多尊石像，最后只剩两个空位：一个给了岗哨，一个给了小摊。[[/b]]\n\n[[quote:0]]\n\n桥上的圣人，个个都是教会早就承认了的。只有最早来的那一位，还在等罗马开口。"
     },
     "quotes": [
       {
@@ -32857,6 +32857,232 @@ export const historyEvents = [
       }
     ],
     "wikipediaUrl": "https://en.wikipedia.org/wiki/List_of_statues_on_Charles_Bridge"
+  },
+  // The plague of 1713–1714. First victim probably the journeyman Petr
+  // Schleymar, back from Vienna, 20 June 1713; Löw von Erlsfeld counted 12,932
+  // dead in Prague from 16 July 1713 to 31 March 1714, of about 40,000; worst
+  // day 28 Sept (St Wenceslas), 280 dead (cnn.iprima.cz 2020). Jewish Town
+  // boarded up by mid-August with one small door, 6–8 plague hospitals, the
+  // sick sealed in their houses, bodies taken by boat down the Vltava, chief
+  // rabbi David Oppenheim fled, Moses Eisenstadt's Yiddish plague song with a
+  // daily count to 3,441 and an attack on the rich who fled (Teplitsky, Radio
+  // Prague 2020; Posen Library). Column: the Lesser Town council's vow,
+  // repeated in public on 28 Sept 1713; foundation stone 1 Nov 1713 laid by
+  // Count Maximilian Norbert Krakowsky of Kolowrat, Supreme Chamberlain and
+  // head of the provisional government and health deputation, while the
+  // Lieutenancy sat in Plzeň; Alliprandi, Geiger, Mayer; Trinity, Immaculata
+  // and five patrons incl. Nepomuk; finished 1715 (Kovařík–Zahradník,
+  // Staletá Praha 2021, quoting Hammerschmid 1723; Herain's "first meant for
+  // St Wenceslas" story is shown there to be a misreading, so left out).
+  {
+    "slug": "good-times-dont-last-1713",
+    "era": "baroque-and-darkness",
+    "startYear": 1713,
+    "tone": "humorous",
+    "year": {
+      "en": "1713–1715",
+      "cz": "1713–1715",
+      "zh": "1713年－1715年"
+    },
+    "title": {
+      "en": "The Good Years Were Short",
+      "cz": "Dobré časy netrvaly dlouho",
+      "zh": "好景不长"
+    },
+    "hookLine": {
+      "en": "Twenty years after the fire, Prague had never looked finer. In the summer of 1713 a young journeyman came home from Vienna, and brought the plague with him.",
+      "cz": "Dvacet let po požáru Praha nikdy nevypadala lépe. V létě 1713 se z Vídně vrátil mladý tovaryš a přinesl s sebou mor.",
+      "zh": "大火过后二十多年，布拉格从没这么气派过。1713年夏天，一个年轻帮工从维也纳回来，顺手把瘟疫也带了回来。"
+    },
+    "summary": {
+      "en": "After the fire of 1689, Prague spent twenty years getting back on its feet. The Old Town's houses put on new Baroque fronts, the new [[link:father-son-and-a-dome-1703]]church of St Nicholas[[/link]] rose over the Lesser Town, and the saints had [[link:standing-room-only-1706]]filled Charles Bridge[[/link]]. The city had never looked so grand.\n\nThen, in the summer of 1713, the next disaster arrived.\n\nThat year the plague was in Vienna. On 20 June a young journeyman just back from Vienna died in Prague, probably the first victim. By mid-July people were dying every day. It was only thirty-three years since the [[link:running-from-the-plague-1680]]last great plague[[/link]].\n\nThose who could followed the old advice: leave quickly, go far, come back late. It was not only the rich. Even the governors of Bohemia moved out to Plzeň. The man left in charge in Prague was the Supreme Chamberlain, Count Kolowrat, who also headed the health commission.\n\nSix to eight plague hospitals were opened around the city, and when they filled up, the sick were sealed in their own homes. The Jewish Town was boarded up whole, with a single small door. Its chief rabbi, David Oppenheim, got away; those left behind nursed their own sick, and the dead were taken by boat down the Vltava to be buried outside the city. A Jewish printer, Moses Eisenstadt, wrote a plague song in Yiddish that counted the Jewish Town's dead day by day, 3,441 in all, and asked bitterly about the rich who had fled to save their own skins.\n\n28 September, St Wenceslas' Day, is said to have been the worst day of all, with 280 dead. That same day the councillors of the Lesser Town gathered in the open on their square, heard Mass and made a vow:\n\n[[quote:0]]\n\nOn 1 November, with the plague still raging, Kolowrat laid the column's foundation stone. The Italian architect Alliprandi designed it, and two Lesser Town sculptors, Geiger and Mayer, carved the figures.\n\nThe plague only let go the following spring. The medical professor Löw von Erlsfeld counted 12,932 dead in Prague between July 1713 and March 1714. [[b]]In eight months the city that had just rebuilt itself so splendidly lost nearly a third of its people.[[/b]]\n\nThe column was finished in 1715. The Holy Trinity stands at the top, and around it the five patron saints of Bohemia: Wenceslas, Ludmila, Adalbert, Procopius, and John of Nepomuk. Up by the Castle, Hradčany Square later put up a Marian column of its own in thanks.\n\nIt was the last time the plague came to Prague. As for the Nepomuk on the column, Rome still had not said he was a saint. He would not have to wait much longer.",
+      "cz": "Po požáru roku 1689 se Praha dvacet let stavěla zpátky na nohy. Domy na Starém Městě dostaly nová barokní průčelí, nad Malou Stranou vyrostl nový [[link:father-son-and-a-dome-1703]]kostel sv. Mikuláše[[/link]] a světci už [[link:standing-room-only-1706]]zaplnili Karlův most[[/link]]. Tak honosně město ještě nikdy nevypadalo.\n\nPak, v létě 1713, přišla další pohroma.\n\nTen rok řádil mor ve Vídni. Dvacátého června zemřel v Praze mladý tovaryš, který se právě z Vídně vrátil, nejspíš první oběť. Od poloviny července se umíralo denně. Od [[link:running-from-the-plague-1680]]posledního velkého moru[[/link]] uplynulo teprve třicet tři let.\n\nKdo mohl, řídil se starou radou: utéct rychle, daleko a vrátit se pozdě. Nebyli to jen boháči. Do Plzně se odstěhovali i čeští místodržící. V Praze zůstal vládnout nejvyšší komoří hrabě Kolovrat, který zároveň řídil zdravotní komisi.\n\nPo městě otevřeli šest až osm morových lazaretů, a když se zaplnily, zavírali nemocné v jejich vlastních domech. Židovské Město bylo celé zabedněno, zůstala jen jedna malá branka. Vrchní rabín David Oppenheim stačil odejít; ti, kdo zůstali, ošetřovali své nemocné sami a mrtvé vozily lodě po Vltavě k pohřbu za městem. Židovský tiskař Mojžíš Eisenstadt napsal jidiš píseň o moru, v níž den po dni počítal mrtvé Židovského Města, celkem 3441, a hořce se ptal po boháčích, kteří utekli, aby si zachránili vlastní kůži.\n\nNejhorším dnem byl prý 28. září, svátek sv. Václava, s 280 mrtvými. Téhož dne se konšelé Malé Strany shromáždili pod širým nebem na svém náměstí, vyslechli mši a složili slib:\n\n[[quote:0]]\n\nPrvního listopadu, kdy mor stále zuřil, položil Kolovrat sloupu základní kámen. Navrhl ho Ital Alliprandi a sochy vytesali dva malostranští sochaři, Geiger a Mayer.\n\nMor povolil až na jaře. Profesor medicíny Löw z Erlsfeldu napočítal v Praze mezi červencem 1713 a březnem 1714 celkem 12 932 mrtvých. [[b]]Za osm měsíců přišlo město, které se právě tak nádherně znovu postavilo, skoro o třetinu svých lidí.[[/b]]\n\nSloup byl hotov roku 1715. Nahoře stojí Nejsvětější Trojice a kolem pět českých zemských patronů: Václav, Ludmila, Vojtěch, Prokop a Jan Nepomucký. Nahoře u Hradu postavili později na Hradčanském náměstí z vděčnosti vlastní mariánský sloup.\n\nTo bylo naposledy, co do Prahy přišel mor. A Nepomuk na sloupu? Za svatého ho Řím pořád ještě neprohlásil. Dlouho už ale čekat nemusel.",
+      "zh": "1689年那场大火过后，布拉格花了二十年重新站起来。老城的房子换上了巴洛克的新门面，小城的[[link:father-son-and-a-dome-1703]]圣尼古拉教堂[[/link]]拔地而起，[[link:standing-room-only-1706]]查理大桥[[/link]]上也站满了圣人。这座城市从来没有这么气派过。\n\n然后，1713年夏天，又一个灾祸来了。\n\n那年维也纳正闹瘟疫。6月20日，一个刚从维也纳回来的年轻帮工死在了布拉格，他多半就是第一个。到7月中旬，城里已经天天死人。离[[link:running-from-the-plague-1680]]上一场大瘟疫[[/link]]，才过了三十三年。\n\n有办法的人照老规矩办：跑得快，跑得远，回来得晚。跑的不光是有钱人，连波希米亚的总督们都搬去了比尔森。留在布拉格主事的，是王国最高侍从长科洛弗拉特伯爵，他还兼管防疫委员会。\n\n城里开了六到八座瘟疫医院，医院住满了，就把病人封在自己家里。犹太城被整个钉上木板，只留一扇小门。首席拉比大卫·奥本海默逃了出去；留下的人只能自己照顾病人，死者用船顺着伏尔塔瓦河运到城外下葬。犹太印刷匠摩西·艾森施塔特写了一首意第绪语的瘟疫歌，一天一天地数犹太城的死者，一共3441人，还愤愤地质问那些只顾自己逃命的富人。\n\n9月28日，圣瓦茨拉夫节，据说是死人最多的一天：280人。就在这一天，小城的议员们聚在自家广场上，露天望完弥撒，许下了一个愿：\n\n[[quote:0]]\n\n11月1日，瘟疫还没走，科洛弗拉特就给纪念柱放下了奠基石。设计是意大利人阿利普兰迪，雕像出自两位小城雕塑家盖格和迈尔之手。\n\n瘟疫直到第二年春天才退。医学教授勒夫·冯·埃尔斯菲尔德统计，从1713年7月到1714年3月，布拉格死了12932人。[[b]]八个月里，这座刚刚重建得富丽堂皇的城市，失去了将近三分之一的人。[[/b]]\n\n1715年，纪念柱完工。顶上是圣三一，四周站着波希米亚的五位主保圣人：瓦茨拉夫、卢德米拉、沃伊捷赫、普罗科普，还有约翰·内波穆克。城堡下的赫拉德恰尼广场，后来也立起一根马利亚柱谢恩。\n\n这是瘟疫最后一次光顾布拉格。至于柱子上那位内波穆克，罗马还是没承认他是圣人。不过，他也等不了多久了。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "On the spot where the colossus of the Most Holy Trinity now stands, after a Czech and a German sermon and a sung pontifical Mass, they bound themselves by a solemn and public vow, read out to them in a clear voice by the first syndic of the town, that to avert the plague and to appease the majesty of God they would raise on this very spot a statue of the Most Holy Trinity.",
+          "cz": "Na tom místě, kde nyní stojí kolos Nejsvětější Trojice, po českém a německém kázání, když byla odsloužena zpívaná pontifikální mše svatá, slavnostním a veřejným slibem, který jim jasným hlasem přečetl první syndik tohoto města, zavázali, že k odvrácení moru a k usmíření Božího majestátu chtějí na tomto řečeném místě postavit statui Nejsvětější Trojice.",
+          "zh": "就在如今矗立着至圣三一巨像的地方，先是一场捷克语讲道、一场德语讲道，又唱了大礼弥撒，然后由本城的首席法律顾问高声宣读誓词，众人郑重地当众立誓：为驱走瘟疫、平息天主的威严，要在这个地方立起一尊至圣三一像。"
+        },
+        "attribution": {
+          "en": "Jan Florián Hammerschmid on the Lesser Town's vow of 28 September 1713, Prodromus gloriae Pragenae (1723)",
+          "cz": "Jan Florián Hammerschmid o slibu Malostranských z 28. září 1713, Prodromus gloriae Pragenae (1723), překlad V. Kovařík a P. Zahradník",
+          "zh": "扬·弗洛里安·哈默施密德记1713年9月28日小城的誓愿，《布拉格荣耀前编》（1723年）"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "holy-trinity-column-of-lesser-town-1782494475173",
+        "relation": {
+          "en": "The column the Lesser Town vowed in September 1713 and finished in 1715",
+          "cz": "Sloup, který Malá Strana slíbila v září 1713 a dokončila roku 1715",
+          "zh": "小城1713年9月许愿、1715年建成的纪念柱"
+        }
+      },
+      {
+        "slug": "mariansky-morovy-sloup-hradcany",
+        "relation": {
+          "en": "Raised by the town of Hradčany where open-air Masses were said during the plague; consecrated in 1736, statues by Ferdinand Maxmilián Brokoff",
+          "cz": "Postavily ho Hradčany na místě, kde se za moru sloužily mše pod širým nebem; vysvěcen roku 1736, sochy od Ferdinanda Maxmiliána Brokoffa",
+          "zh": "赫拉德恰尼在瘟疫时露天做弥撒的地方立起的柱子，1736年祝圣，雕像出自费迪南德·马克西米利安·布罗科夫"
+        }
+      },
+      {
+        "slug": "malostransky-hrbitov",
+        "relation": {
+          "en": "The Lesser Town's plague hospital stood beside this plague cemetery of 1680; 402 people died in it between September 1713 and January 1714",
+          "cz": "Vedle tohoto morového hřbitova z roku 1680 stál malostranský morový lazaret; od září 1713 do ledna 1714 v něm zemřelo 402 lidí",
+          "zh": "这片1680年的瘟疫墓地旁边，就是小城的瘟疫医院；1713年9月到1714年1月，医院里死了402人"
+        }
+      },
+      {
+        "slug": "invalidovna-1782562891060",
+        "relation": {
+          "en": "Built from 1731 on Karlín's \"hospital field\", where the plague hospital for the Old and New Towns stood in 1713; 958 died there",
+          "cz": "Stavěla se od roku 1731 na karlínském Špitálském poli, kde roku 1713 stál morový lazaret pro Staré a Nové Město; zemřelo v něm 958 lidí",
+          "zh": "1731年起建在卡尔林的“医院田”上，1713年老城和新城的瘟疫医院就设在这片田野，医院里死了958人"
+        }
+      },
+      {
+        "slug": "malta-square-1782492877948",
+        "relation": {
+          "en": "Ferdinand Maxmilián Brokoff's St John the Baptist, carved in 1714–1715, is one of Prague's memorials of the plague",
+          "cz": "Socha sv. Jana Křtitele od Ferdinanda Maxmiliána Brokoffa z let 1714–1715 patří k pražským památkám na mor",
+          "zh": "广场上布罗科夫1714到1715年雕的施洗约翰像，是布拉格纪念这场瘟疫的雕像之一"
+        }
+      },
+      {
+        "slug": "rotunda-sv-martina",
+        "relation": {
+          "en": "Beside it stands a wayside column of 1715, put up where an altar stood during the plague",
+          "cz": "Vedle ní stojí boží muka z roku 1715, postavená na místě oltáře z doby moru",
+          "zh": "旁边立着一根1715年的路边祈祷柱，位置就是瘟疫时露天祭台所在的地方"
+        }
+      }
+    ],
+    "images": [
+      "/history/good-times-dont-last-1713.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "The Lesser Town Square on 28 September 1713, St Wenceslas' Day, the deadliest day of the plague: after an open-air Mass the councillors kneel while a priest reads out their vow to raise a column to the Holy Trinity on this spot. Around them, carts loaded with the dead, boarded-up doors and smoking juniper fires.",
+        "cz": "Malostranské náměstí 28. září 1713, na svátek sv. Václava, nejhorší den moru: po mši pod širým nebem klečí konšelé a kněz čte jejich slib, že na tomto místě postaví sloup Nejsvětější Trojici. Kolem vozy plné mrtvých, zabedněné dveře a kouřící jalovcové ohně.",
+        "zh": "1713年9月28日，圣瓦茨拉夫节，瘟疫最凶的一天：小城广场上露天弥撒刚结束，议员们跪成一排，听神父宣读誓词，许诺在这里立一根圣三一纪念柱。四周是装满死者的运尸车、钉死的门和冒着烟的杜松火堆。"
+      }
+    ],
+    "wikipediaUrl": "https://cs.wikipedia.org/wiki/Sloup_Nejsv%C4%9Bt%C4%9Bj%C5%A1%C3%AD_Trojice_(Praha)"
+  },
+  // The canonisation. Process opened in Prague 1715; grave opened 15 April
+  // 1719 before the commission under the archbishop, a reddish soft piece fell
+  // from the skull and was taken for the tongue, placed in a crystal reliquary
+  // in St Wenceslas' chapel; beatified 31 May 1721 (Innocent XIII); tongue
+  // re-examined 27 Jan 1725, said to swell and redden, both counted as
+  // miracles (11 Jan 1729); canonised 19 March 1729 in the Lateran by Benedict
+  // XIII, feast 16 May; Prague festivities October 1729 (Bočková–Zdichynec
+  // 2022; geocaching GC4DX6W for the 1719/1725 details). 1973 anatomists:
+  // dried brain tissue (Johannes von Nepomuk 1393–1993 catalogue, via
+  // jvabg.digitheo.de). Keyssler quote from Travels, vol. IV (archive.org
+  // travelsthroughge04keys, Prague p. 85); the child born in 1724 was the
+  // archduchess Maria Amalia.
+  {
+    "slug": "the-tongue-that-kept-the-secret-1719",
+    "era": "baroque-and-darkness",
+    "startYear": 1719,
+    "tone": "humorous",
+    "year": {
+      "en": "1719",
+      "cz": "1719",
+      "zh": "1719年"
+    },
+    "title": {
+      "en": "The Tongue That Kept the Secret",
+      "cz": "Jazyk, který neprozradil tajemství",
+      "zh": "守住秘密的舌头"
+    },
+    "hookLine": {
+      "en": "In 1719 a grave more than three hundred years old was opened in St Vitus. Something inside it was declared to be the martyr's tongue.",
+      "cz": "Roku 1719 otevřeli ve Svatovítské katedrále přes tři sta let starý hrob. Něco, co v něm našli, prohlásili za mučedníkův jazyk.",
+      "zh": "1719年，圣维特大教堂里打开了一座三百多年的老坟。里面找到的一样东西，被认定是那位殉道者的舌头。"
+    },
+    "summary": {
+      "en": "Rome's paperwork moved even more slowly than Prague's bridge-builders. Emperors and archbishops had been asking for Nepomuk's canonisation since the 17th century, but only in 1715 did the formal hearings open in Prague: questionnaires, dozens of witnesses, old records dug out one by one.\n\nThe Nepomuk they wanted canonised was the one from the legend. The one in the records was the archbishop's vicar general, drowned in 1393 in a quarrel over [[link:the-priest-thrown-into-the-river-1393]]the abbot of Kladruby[[/link]]. The year he died, a clerk of the Prague church court gave him a single line in the margin of the court records:\n\n[[quote:0]]\n\nThe queen's confessor appeared only half a century later, in the chronicle of a Viennese theologian. In 1541 the chronicler Hájek even split him into two men, one drowned in 1383 and the other in 1393. Only in 1680, in a life written by the Jesuit Bohuslav Balbín, did the faithful confessor take his final shape, and that was the version sent to Rome.\n\nOn 15 April 1719 the canonisation commission, led by the Archbishop of Prague, opened his grave in St Vitus. While the skull was being cleaned, a soft, reddish lump fell out of it. Those present were in no doubt: this was the tongue that had refused to betray the queen's confession, still unrotted after more than three hundred years.\n\nThe tongue went into a crystal reliquary in St Wenceslas' Chapel. On 31 May 1721 Pope Innocent XIII declared Nepomuk blessed.\n\nIn January 1725 the commission examined the tongue again. According to the record, it swelled up and turned red before their eyes. Rome counted both events as miracles. On 19 March 1729 Pope Benedict XIII declared him a saint in the Lateran basilica, on the eve of the anniversary of his death. One scholar has argued that the Counter-Reformation had simply handed Nepomuk the role of the [[link:the-goose-and-the-swan-1415]]swan[[/link]] that, according to legend, Hus had foretold.\n\nThat October Prague and the whole of Bohemia celebrated for days on end: triumphal arches, illuminations, fireworks, processions and plays put on by the Jesuits' pupils. In 1736 Nepomuk got a silver tomb in St Vitus, designed in Vienna by Joseph Emanuel Fischer von Erlach. New churches were dedicated to him one after another, one by the Castle in Hradčany, another on a rock in the New Town.\n\nAs for the tongue: in 1973 anatomists examined it closely. [[b]]It was not a tongue at all, but shrivelled, dried-out brain tissue.[[/b]]\n\nA German traveller passing through Prague around 1730 noted how much the whole affair had cost the Bohemians. He also noted that people had hoped for rather more from their new saint:\n\n[[quote:1]]\n\nThe child born in 1724 was a girl. For an emperor without a son, that was a problem no saint could fix.",
+      "cz": "Římské úřadování postupovalo ještě pomaleji než pražští stavitelé mostů. Císaři a arcibiskupové žádali o svatořečení Nepomuckého už od 17. století, ale řádný proces se v Praze otevřel až roku 1715: dotazníky, desítky svědků, staré listiny vytahované jedna po druhé.\n\nNepomuk, kterého chtěli svatořečit, byl ten z legendy. Ten z pramenů byl generální vikář arcibiskupa, utopený roku 1393 ve sporu o [[link:the-priest-thrown-into-the-river-1393]]kladrubského opata[[/link]]. V roce jeho smrti mu písař pražského církevního soudu věnoval jediný řádek na okraji soudních protokolů:\n\n[[quote:0]]\n\nKrálovnin zpovědník se objevil až o půl století později, v kronice jednoho vídeňského teologa. Roku 1541 ho kronikář Hájek dokonce rozdělil na dva muže, jednoho utopeného roku 1383 a druhého roku 1393. Teprve roku 1680, v životopise od jezuity Bohuslava Balbína, dostal věrný zpovědník konečnou podobu, a právě tahle verze putovala do Říma.\n\nPatnáctého dubna 1719 otevřela kanonizační komise v čele s pražským arcibiskupem jeho hrob ve Svatovítské katedrále. Když se čistila lebka, vypadl z ní měkký, načervenalý kousek. Přítomní neměli pochyb: to je jazyk, který odmítl prozradit královninu zpověď, a ani po víc než třech stech letech neshnil.\n\nJazyk uložili do křišťálového relikviáře ve Svatováclavské kapli. Jednatřicátého května 1721 prohlásil papež Inocenc XIII. Nepomuckého za blahoslaveného.\n\nV lednu 1725 komise jazyk prohlédla znovu. Podle záznamu se jim před očima nadmul a zčervenal. Řím uznal obojí za zázrak. Devatenáctého března 1729 ho papež Benedikt XIII. v Lateránské bazilice prohlásil za svatého, v předvečer výročí jeho smrti. Jeden badatel soudí, že protireformace Nepomuckému prostě přisoudila roli oné [[link:the-goose-and-the-swan-1415]]labutě[[/link]], kterou podle legendy předpověděl Hus.\n\nTen říjen slavila Praha i celé Čechy celé dny: slavobrány, osvětlení, ohňostroje, procesí a hry, které hráli jezuitští žáci. Roku 1736 dostal Nepomuk ve Svatovítské katedrále stříbrný náhrobek podle návrhu vídeňského architekta Josepha Emanuela Fischera z Erlachu. Nové kostely mu byly zasvěcovány jeden za druhým, jeden u Hradu na Hradčanech, další na skalce na Novém Městě.\n\nA jazyk? Roku 1973 ho anatomové důkladně prozkoumali. [[b]]Nebyl to vůbec jazyk, ale scvrklá, vyschlá mozková tkáň.[[/b]]\n\nNěmecký cestovatel, který Prahou projížděl kolem roku 1730, si poznamenal, kolik celá ta věc Čechy stála. Zaznamenal také, že si od nového světce slibovali ještě něco víc:\n\n[[quote:1]]\n\nDítě, které se roku 1724 narodilo, byla dcera. Pro císaře bez syna to byl problém, se kterým si žádný světec neporadil.",
+      "zh": "罗马的手续，走得比布拉格修桥还慢。从17世纪起，皇帝和大主教们就在为内波穆克申请封圣，可直到1715年，布拉格才正式开庭：发问卷、请证人，几十位证人轮番作证，旧档案一份一份地翻出来。\n\n他们要封的，是传说里的那个内波穆克。史书里的他，是大主教的总代理主教，1393年在一场[[link:the-priest-thrown-into-the-river-1393]]克拉德鲁比院长之争[[/link]]里被淹死。他死的那年，布拉格宗教法庭的书记员只在案卷页边给了他一行字：\n\n[[quote:0]]\n\n“王后的告解神父”，是半个世纪后才在一位维也纳神学家的编年史里冒出来的。1541年，编年史家哈耶克甚至把他拆成了两个人，一个1383年被淹死，一个1393年被淹死。直到1680年，耶稣会士巴尔宾为他写成传记，这位守口如瓶的告解神父才最终定型，送到罗马的就是这个版本。\n\n1719年4月15日，以布拉格大主教为首的封圣委员会，在圣维特大教堂打开了他的墓。清理头骨的时候，一块红红的、软软的东西掉了出来。在场的人认定：这就是那条到死都不肯泄露王后告解的舌头，过了三百多年，居然还没烂。\n\n舌头被装进水晶圣物匣，供在圣瓦茨拉夫礼拜堂里。1721年5月31日，教宗英诺森十三世宣布内波穆克为真福。\n\n1725年1月，委员会又验了一次舌头。据记载，它当着众人的面肿了起来，颜色也变红了。罗马把这两件事都算作奇迹。1729年3月19日，教宗本笃十三世在拉特朗大殿正式封他为圣人，第二天正好是他的忌日。有学者认为，反宗教改革干脆把传说中胡斯预言的那只[[link:the-goose-and-the-swan-1415]]“天鹅”[[/link]]，安到了内波穆克头上。\n\n那年10月，布拉格和整个波希米亚一连热闹了好些天：凯旋门、彩灯、烟火、游行，还有耶稣会学生演的戏。1736年，内波穆克在圣维特大教堂有了一座银墓，由维也纳的约瑟夫·埃马努埃尔·菲舍尔·冯·埃拉赫设计。献给他的新教堂一座接一座地盖起来，城堡边的赫拉德恰尼一座，新城的岩石上又一座。\n\n至于那条舌头：1973年，解剖学家仔细检查后发现，[[b]]它根本不是舌头，而是干缩了的脑组织。[[/b]]\n\n1730年前后，一位路过布拉格的德国旅行家记下了这场封圣让波希米亚人破费了多少。他还记下，人们对这位新圣人，原本还有更大的指望：\n\n[[quote:1]]\n\n1724年生下的，是个女儿。对一位没有儿子的皇帝来说，这个难题，哪位圣人也帮不上忙。"
+    },
+    "quotes": [
+      {
+        "text": {
+          "en": "… and Jo. P. on the twentieth day closed his last day; may his soul rest in peace.",
+          "cz": "… a Jan P. dne dvacátého dokonal svůj poslední den; ať jeho duše odpočívá v pokoji.",
+          "zh": "……扬·波于二十日走完了他的最后一天，愿他的灵魂安息。"
+        },
+        "attribution": {
+          "en": "A clerk's note in the margin of the court records of the Prague vicars general, March 1393 (ed. F. Tadra, 1896)",
+          "cz": "Písařský záznam na okraji soudních protokolů pražských generálních vikářů, březen 1393 (vyd. F. Tadra, 1896)",
+          "zh": "布拉格总代理主教法庭案卷页边的书记员批注，1393年3月（塔德拉编，1896年）"
+        }
+      },
+      {
+        "text": {
+          "en": "It is certain that they would have been under greater obligations to him, if God, as it was expected, had by his mediation blessed the emperor with a male heir. In the year 1724, during the empress's pregnancy, a print was publicly sold, representing this saint holding a new-born prince out of the clouds, with this inscription under it: \"See what St. Nepomuc can do.\"",
+          "cz": "Jisté je, že by mu byli ještě víc zavázáni, kdyby Bůh, jak se čekalo, na jeho přímluvu požehnal císaři mužským dědicem. Roku 1724, když byla císařovna v naději, se veřejně prodával obrázek, na němž tento světec drží z oblaků novorozeného prince, s nápisem pod ním: „Hle, co svede svatý Nepomuk.“",
+          "zh": "可以肯定，假如天主真如人们所期待的那样，经他代祷赐给皇帝一位男性继承人，他们欠他的情还会更大。1724年皇后怀孕期间，街上公开售卖一幅版画：这位圣人从云端托出一位刚出生的王子，下面写着：“看看圣内波穆克的本事。”"
+        },
+        "attribution": {
+          "en": "Johann Georg Keyssler on his visit to Prague around 1730, Travels through Germany, Bohemia, Hungary… (English edition, 1758)",
+          "cz": "Johann Georg Keyssler o své návštěvě Prahy kolem roku 1730, Neueste Reisen (anglické vydání 1758)",
+          "zh": "约翰·格奥尔格·凯斯勒记1730年前后的布拉格，《德意志、波希米亚、匈牙利等地游记》（1758年英译本）"
+        }
+      }
+    ],
+    "relatedLandmarks": [
+      {
+        "slug": "st-vitus-cathedral",
+        "relation": {
+          "en": "His grave was opened here in 1719; the silver tomb of 1736 still stands in the ambulatory",
+          "cz": "Roku 1719 zde otevřeli jeho hrob; stříbrný náhrobek z roku 1736 stojí v ochozu dodnes",
+          "zh": "1719年在这里开的墓；1736年的银墓至今还立在回廊里"
+        }
+      },
+      {
+        "slug": "socha-svateho-jana-nepomuckeho",
+        "relation": {
+          "en": "Put up in 1683, long before Rome made him a saint; after 1729 its likeness spread to bridges across Central Europe",
+          "cz": "Postavena roku 1683, dávno předtím, než ho Řím svatořečil; po roce 1729 se její podoba rozšířila na mosty po celé střední Evropě",
+          "zh": "1683年立起，比罗马封圣早得多；1729年以后，它的样子被复制到了中欧各地的桥上"
+        }
+      },
+      {
+        "slug": "vojenskyy-kostel-sv-jana-nepomuckeho",
+        "relation": {
+          "en": "One of the first Prague churches dedicated to him, built by Kilián Ignác Dientzenhofer in the 1720s while the canonisation was under way",
+          "cz": "Jeden z prvních pražských kostelů zasvěcených jemu, postavený Kiliánem Ignácem Dientzenhoferem ve 20. letech 18. století, když kanonizace probíhala",
+          "zh": "布拉格最早献给他的教堂之一，1720年代封圣还在进行时，由基利安·伊格纳茨·丁岑霍费尔建造"
+        }
+      },
+      {
+        "slug": "kostel-sv-jana-na-skalce",
+        "relation": {
+          "en": "Begun in 1730, the year after the canonisation; its ceiling fresco shows his apotheosis",
+          "cz": "Stavět se začal roku 1730, rok po svatořečení; nástropní freska ukazuje jeho apoteózu",
+          "zh": "1730年动工，就在封圣的第二年；天顶壁画画的是他升天受荣"
+        }
+      }
+    ],
+    "images": [
+      "/history/the-tongue-that-kept-the-secret-1719.webp"
+    ],
+    "imageCaptions": [
+      {
+        "en": "St Vitus Cathedral, 15 April 1719: the canonisation commission opens Nepomuk's grave. A physician tips a small red lump out of the skull into a silver dish, and everyone present agrees it is the tongue that kept the secret. Nearby, a goldsmith already stands ready with an empty reliquary.",
+        "cz": "Svatovítská katedrála, 15. dubna 1719: kanonizační komise otevírá Nepomukův hrob. Lékař vyklopí z lebky do stříbrné mísy malý červený kousek a všichni přítomní se shodnou, že je to jazyk, který udržel tajemství. Opodál už stojí zlatník s prázdným relikviářem.",
+        "zh": "1719年4月15日，圣维特大教堂：封圣委员会打开内波穆克的墓。医生从头骨里倒出一小块红色的东西，在场的人一致认定，这就是那条守住秘密的舌头。一旁的金匠早已捧着空的圣物匣候着。"
+      }
+    ],
+    "wikipediaUrl": "https://en.wikipedia.org/wiki/John_of_Nepomuk"
   },
 ];
 

@@ -33630,6 +33630,41 @@ Samotný Spořilov založila banka. Městská spořitelna na Vinohradech (odtud 
 🎁 彩蛋：阿涅什卡等她的光环等了很久。她直到1989年11月12日才被封圣，五天后天鹅绒革命就开始了。很多捷克人觉得这是她的功劳：一个古老的传说早就预言，等阿涅什卡成了圣人，波希米亚就会好起来。`,
     },
   },
+  {
+    name: 'Marian Plague Column (Hradčany Square)',
+    slug: 'mariansky-morovy-sloup-hradcany',
+    localizedNames: { cz: 'Mariánský morový sloup', zh: '赫拉德恰尼广场马利亚瘟疫柱' },
+    labels: ['monument', 'sculpture', 'baroque'],
+    district: 'Praha 1',
+    quarter: 'Hradčany',
+    coordinates: { lat: 50.089544326358926, lng: 14.396495504652375 },
+    rarity: 'rare',
+    xpReward: 20,
+    wikipediaUrl: 'https://cs.wikipedia.org/wiki/Mari%C3%A1nsk%C3%BD_morov%C3%BD_sloup_(Hrad%C4%8Dany)',
+    description: {
+      en: `Thousands of people a day walk past this column on their way into Prague Castle, and nearly all of them are looking the other way, at the castle gate or the view. Turn round for a moment: the little town of Hradčany took eleven years, two sculptors and a crowd of saints to finish it.
+
+In the summer of 1713, when plague closed Prague's churches, Mass was said in the open air at makeshift altars around the city, and one of them stood right here on Hradčany's square. When the plague had passed, Hradčany, then still a small town of its own under the castle walls, wanted a column on the spot, as the Lesser Town below had already built one. Emperor Charles VI gave his approval in 1725 and the foundation stone was laid the following year. Then the money ran out. Hradčany was not a rich town, and the column was only finished and consecrated in 1736.
+
+The statues are by Ferdinand Maxmilián Brokoff, who also carved some of the finest groups on Charles Bridge; he worked on them from 1724 to 1728, and after his death in 1731 his pupil František Ignác Weiss finished the job. The Virgin Mary of the Immaculate Conception stands at the top. Below her are St Vitus, St Wenceslas and St Adalbert, and lower still St Charles Borromeo, St John of Nepomuk and St Elizabeth of Thuringia handing alms to a beggar, with St Peter, St Paul and St Florian nearby. The Virgin up there today is a copy from 1894; the original is in the National Museum's Lapidarium.
+
+🎁 Bonus: Look at St Adalbert. Besides his bishop's crozier he is holding an oar. A Prague legend says rowers from a mass gymnastics display of the 1950s stuck it in his hand as a joke, but a photograph from 1940 already shows it. The oar is meant to be there: according to tradition, Adalbert was killed with one.`,
+      cz: `Kolem tohohle sloupu projdou denně tisíce lidí na cestě do Pražského hradu a skoro všichni se přitom dívají jinam, na hradní bránu nebo na výhled. Otočte se na chvíli: malému městu Hradčany trvalo jedenáct let, dva sochaře a celý zástup světců, než ho dokončilo.
+
+V létě 1713, kdy mor zavřel pražské kostely, se mše sloužily pod širým nebem u provizorních oltářů po celém městě a jeden z nich stál právě tady, na hradčanském náměstí. Když mor odezněl, chtěly Hradčany, tehdy ještě samostatné městečko pod hradními hradbami, mít na tom místě sloup, jako ho už postavila Malá Strana pod nimi. Císař Karel VI. dal souhlas roku 1725 a o rok později byl položen základní kámen. Pak došly peníze. Hradčany nebyly bohaté město a sloup byl dokončen a vysvěcen až roku 1736.
+
+Sochy jsou dílem Ferdinanda Maxmiliána Brokoffa, který vytesal i některá z nejkrásnějších sousoší na Karlově mostě; pracoval na nich v letech 1724–1728 a po jeho smrti roku 1731 je dokončil jeho žák František Ignác Weiss. Nahoře stojí Panna Maria Immaculata. Pod ní jsou svatý Vít, Václav a Vojtěch, ještě níž svatý Karel Boromejský, Jan Nepomucký a svatá Alžběta Durynská, jak podává almužnu žebrákovi, a nablízku svatý Petr, Pavel a Florián. Panna Maria nahoře je dnes kopie z roku 1894; originál je v Lapidáriu Národního muzea.
+
+🎁 Bonus: Podívejte se na svatého Vojtěcha. Kromě biskupské berly drží v ruce veslo. Pražská legenda tvrdí, že mu ho z recese vrazili do ruky veslaři ze spartakiády v padesátých letech, jenže na fotografii z roku 1940 už veslo je. Patří tam: podle tradice byl Vojtěch zabit právě veslem.`,
+      zh: `每天有成千上万的人从这根柱子旁边走过，去布拉格城堡，可几乎所有人都在看别处：看城堡大门，或者看风景。不妨回头看一眼：赫拉德恰尼这座小城，为了它花了十一年、两位雕塑家，还凑了一大群圣人。
+
+1713年夏天，瘟疫让布拉格的教堂都关了门，弥撒只能在城里各处临时搭的露天祭台上做，其中一座就搭在赫拉德恰尼广场的这个位置上。瘟疫过去后，当时还是城堡脚下一座独立小城的赫拉德恰尼，也想在这里立一根柱子，就像山下的小城已经立起来的那根一样。查理六世皇帝1725年点了头，第二年放下了奠基石。然后，钱没了。赫拉德恰尼不是什么富裕的城，这根柱子直到1736年才完工、祝圣。
+
+雕像出自费迪南德·马克西米利安·布罗科夫之手，查理大桥上最出色的几组群像也是他刻的。他从1724年刻到1728年，1731年去世后，由徒弟弗朗蒂舍克·伊格纳茨·魏斯接着完成。柱顶站着无染原罪的圣母。她下面是圣维特、圣瓦茨拉夫和圣沃伊捷赫，再往下是圣嘉禄·鲍荣茂、圣约翰·内波穆克，还有正在给乞丐施舍的图林根圣伊丽莎白，旁边还有圣彼得、圣保罗和圣弗洛里安。如今柱顶的圣母是1894年的复制品，原作收在国家博物馆的石刻馆里。
+
+🎁 彩蛋：看看圣沃伊捷赫。他手里除了主教权杖，还拿着一把船桨。布拉格有个都市传说，说是五十年代全国团体操大会上的划船队员恶作剧塞到他手里的，可1940年的一张照片上，船桨就已经在了。其实它本来就该在那儿：按照传说，沃伊捷赫就是被船桨打死的。`,
+    },
+  },
 ];
 
 async function run() {
