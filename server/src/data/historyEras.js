@@ -368,8 +368,9 @@
 //
 // Split (2026-11-01, the user's call): 'age-of-absolutism' (1740-1790) was
 // split at 1763, the Peace of Hubertusburg. The new 'prague-under-siege',
-// "Prague Under Siege" / "Praha v obležení" / "兵临城下" (1740-1763, the
-// user's title), covers the War of the Austrian Succession and the Seven
+// "Enemy at the Gates" / "Nepřítel u bran" / "兵临城下" (1740-1763, the
+// user's title; EN/CZ first "Prague Under Siege" / "Praha v obležení",
+// changed the same day so no era title names the city), covers the War of the Austrian Succession and the Seven
 // Years' War, when Prague was taken or besieged again and again (1741,
 // 1742, 1744, 1757); its overview card's title (the subtitle) should name
 // the queen, Maria Theresa. 'age-of-absolutism' ("Enlightened Absolutism" /
@@ -676,8 +677,8 @@ export const HISTORY_ERAS = [
     themeClass: 'era-prague-under-siege',
     hasContent: true,
     title: {
-      en: 'Prague Under Siege',
-      cz: 'Praha v obležení',
+      en: 'Enemy at the Gates',
+      cz: 'Nepřítel u bran',
       zh: '兵临城下',
     },
     yearRange: {

@@ -14,7 +14,17 @@ import { renderInlineLinks } from '../../utils/historyMarkup';
 //
 // The era title carries a "Chapter N" prefix (era order, 1-based). Only
 // here: the sidebar's era headings stay unnumbered.
-const ZH_NUMERALS = ['', '一', '二', '三', '四', '五', '六', '七', '八', '九', '十', '十一', '十二', '十三'];
+const ZH_DIGITS = ['', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
+
+// 1 -> 一, 10 -> 十, 15 -> 十五, 20 -> 二十, 24 -> 二十四 (enough for 1-99).
+// A fixed lookup table used to stop at 13, so chapter 15 rendered as "第15章".
+export function toZhNumeral(n) {
+  if (!Number.isInteger(n) || n < 1 || n > 99) return String(n);
+  const tens = Math.floor(n / 10);
+  const ones = n % 10;
+  if (tens === 0) return ZH_DIGITS[ones];
+  return (tens === 1 ? '' : ZH_DIGITS[tens]) + '十' + ZH_DIGITS[ones];
+}
 
 export default function HistoryOverviewCard({ event, era, chapter, onNavigateToEvent, sectionRef }) {
   const t = useT();
@@ -36,7 +46,7 @@ export default function HistoryOverviewCard({ event, era, chapter, onNavigateToE
           <h2 className="history-era-divider__title">
             {chapter > 0 && (
               <span className="history-overview__chapter">
-                {t('history.chapterLabel', { n: lang === 'zh' ? (ZH_NUMERALS[chapter] || chapter) : chapter })}
+                {t('history.chapterLabel', { n: lang === 'zh' ? toZhNumeral(chapter) : chapter })}
               </span>
             )}
             {loc(era.title)}
